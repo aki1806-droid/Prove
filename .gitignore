@@ -1,0 +1,18 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Dipendenze e build
+node_modules/
+dist/
+build/
+.cache/
+
+# Ambiente
+.env
+.env.local
