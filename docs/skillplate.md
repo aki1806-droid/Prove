@@ -37,6 +37,11 @@ Claude Code sul web l'uscita passa da un proxy con allowlist: se il dominio non
 Skillplate. In quel caso va aggiunto `api.skillplate.com` alla network policy
 dell'ambiente, oppure il client va eseguito dalla propria macchina.
 
+Come si riconosce: il client segnala `Risposta HTTP 403 non proveniente da
+Skillplate (corpo non JSON)` e riporta il testo restituito dall'intermediario.
+Un 403 vero di Skillplate arriva invece come JSON con `code` e `request_id`, e
+significa scope mancante sul token.
+
 ## 3. Verifica della connessione
 
 ```bash

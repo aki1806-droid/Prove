@@ -1,7 +1,10 @@
 /** Test end-to-end del client contro un server HTTP locale che imita l'API. */
 
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import http from "node:http";
+import os from "node:os";
+import path from "node:path";
 import test, { after, before, beforeEach, describe } from "node:test";
 
 import { MissingTokenError, SkillplateClient, SkillplateError, resolveToken, webhooks } from "../src/index.js";
@@ -168,6 +171,26 @@ describe("SkillplateClient", () => {
     assert.equal(query.has("vuoto"), false);
   });
 
+  test("un 403 non-Skillplate riporta il corpo reale, non lo scope", async () => {
+    const finto = new SkillplateClient({
+      token: "t",
+      baseUrl,
+      sleep: async () => {},
+      fetchImpl: async () =>
+        new Response("Host not in allowlist: api.skillplate.com.", { status: 403 }),
+    });
+    await assert.rejects(
+      () => finto.ping(),
+      (errore) => {
+        assert.match(errore.message, /non proveniente da Skillplate/);
+        assert.match(errore.message, /Host not in allowlist/);
+        assert.doesNotMatch(errore.message, /scope/i);
+        assert.equal(errore.code, null);
+        return true;
+      }
+    );
+  });
+
   test("ritenta sui 429 e poi riesce", async () => {
     let chiamate = 0;
     const finto = new SkillplateClient({
@@ -193,10 +216,27 @@ describe("resolveToken", () => {
   });
 
   test("senza token solleva MissingTokenError", () => {
-    assert.throws(
-      () => resolveToken({ env: {}, tokenPath: "/percorso/inesistente/token" }),
-      MissingTokenError
-    );
+    // home isolata: il test non deve dipendere dai file dell'utente
+    const home = fs.mkdtempSync(path.join(os.tmpdir(), "skillplate-test-"));
+    try {
+      assert.throws(
+        () => resolveToken({ env: { HOME: home }, tokenPath: path.join(home, "assente") }),
+        MissingTokenError
+      );
+    } finally {
+      fs.rmSync(home, { recursive: true, force: true });
+    }
+  });
+
+  test("legge il token dal file indicato", () => {
+    const home = fs.mkdtempSync(path.join(os.tmpdir(), "skillplate-test-"));
+    const file = path.join(home, "token");
+    fs.writeFileSync(file, "  dal-file\n");
+    try {
+      assert.equal(resolveToken({ env: { HOME: home }, tokenPath: file }), "dal-file");
+    } finally {
+      fs.rmSync(home, { recursive: true, force: true });
+    }
   });
 });
 

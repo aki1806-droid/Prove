@@ -343,7 +343,17 @@ class SkillplateClient:
             message = errore.get("message")
             request_id = errore.get("request_id")
         if not message:
-            message = _messaggio_default(status)
+            # Un corpo non-JSON significa che a rispondere non e' stato Skillplate
+            # ma un intermediario (proxy, gateway, captive portal): dare la
+            # spiegazione Skillplate manderebbe fuori strada.
+            testo = _estratto(grezzo)
+            if corpo is None and testo:
+                message = (
+                    "Risposta HTTP {} non proveniente da Skillplate (corpo non JSON): "
+                    "controlla proxy, firewall o allowlist di rete{}".format(status, testo)
+                )
+            else:
+                message = _messaggio_default(status)
 
         classe = RateLimitError if status == 429 else SkillplateError
         return classe(message, code=code, status=status, request_id=request_id, body=corpo)
@@ -356,6 +366,18 @@ class SkillplateClient:
             return json.loads(grezzo.decode("utf-8"))
         except (ValueError, UnicodeDecodeError):
             raise SkillplateError("Risposta non JSON dall'API Skillplate")
+
+
+def _estratto(grezzo, limite=200):
+    """Estratto del corpo grezzo, per gli errori che non arrivano da Skillplate."""
+    try:
+        testo = grezzo.decode("utf-8", "replace").strip() if grezzo else ""
+    except AttributeError:
+        testo = str(grezzo or "").strip()
+    if not testo:
+        return ""
+    breve = testo[:limite] + "..." if len(testo) > limite else testo
+    return " - risposta ricevuta: {}".format(" ".join(breve.split()))
 
 
 def _messaggio_default(status):

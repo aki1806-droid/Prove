@@ -2,6 +2,7 @@
 
 import json
 import os
+import tempfile
 import sys
 import threading
 import unittest
@@ -148,6 +149,18 @@ class TestClient(unittest.TestCase):
         self.assertNotIn("vuoto", query)
 
 
+class TestErroreNonSkillplate(unittest.TestCase):
+    """Un 403 di un proxy non va scambiato per uno scope mancante."""
+
+    def test_corpo_non_json_finisce_nel_messaggio(self):
+        client = SkillplateClient(token="t", base_url="http://127.0.0.1:1/v1/external")
+        errore = client._http_error(403, b"Host not in allowlist: api.skillplate.com.")
+        self.assertIn("non proveniente da Skillplate", errore.message)
+        self.assertIn("Host not in allowlist", errore.message)
+        self.assertNotIn("scope", errore.message.lower())
+        self.assertIsNone(errore.code)
+
+
 class TestToken(unittest.TestCase):
     def test_env_prevale(self):
         os.environ["SKILLPLATE_TOKEN"] = "  da-env  "
@@ -158,13 +171,31 @@ class TestToken(unittest.TestCase):
             del os.environ["SKILLPLATE_TOKEN"]
 
     def test_token_mancante(self):
+        from skillplate.client import resolve_token
+
         vecchie = {k: os.environ.pop(k) for k in ("SKILLPLATE_TOKEN", "SKILLPLATE_TOKEN_FILE") if k in os.environ}
-        try:
-            from skillplate.client import resolve_token
-            with self.assertRaises(MissingTokenError):
-                resolve_token(token_path="/percorso/inesistente/token")
-        finally:
-            os.environ.update(vecchie)
+        # home isolata: il test non deve dipendere dai file dell'utente
+        with tempfile.TemporaryDirectory() as home:
+            vecchia_home = os.environ.get("HOME")
+            os.environ["HOME"] = home
+            try:
+                with self.assertRaises(MissingTokenError):
+                    resolve_token(token_path=os.path.join(home, "assente"))
+            finally:
+                if vecchia_home is None:
+                    os.environ.pop("HOME", None)
+                else:
+                    os.environ["HOME"] = vecchia_home
+                os.environ.update(vecchie)
+
+    def test_token_letto_dal_file(self):
+        from skillplate.client import resolve_token
+
+        with tempfile.TemporaryDirectory() as cartella:
+            percorso = os.path.join(cartella, "token")
+            with open(percorso, "w", encoding="utf-8") as fh:
+                fh.write("  dal-file\n")
+            self.assertEqual(resolve_token(token_path=percorso), "dal-file")
 
 
 class TestWebhook(unittest.TestCase):

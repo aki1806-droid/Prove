@@ -14,9 +14,10 @@ export const DEFAULT_BASE_URL = "https://api.skillplate.com/v1/external";
 export const DEFAULT_TOKEN_PATH = "~/.config/skillplate/token";
 const USER_AGENT = "skillplate-node-client/1.0";
 
-function espandi(percorso) {
+function espandi(percorso, env = process.env) {
   if (!percorso) return percorso;
-  return percorso.startsWith("~") ? path.join(os.homedir(), percorso.slice(1)) : percorso;
+  if (!percorso.startsWith("~")) return percorso;
+  return path.join(env.HOME || os.homedir(), percorso.slice(1));
 }
 
 /** Trova il PAT, in ordine: argomento, SKILLPLATE_TOKEN, SKILLPLATE_TOKEN_FILE,
@@ -29,7 +30,7 @@ export function resolveToken({ token = null, tokenPath = null, env = process.env
 
   for (const candidato of [tokenPath, env.SKILLPLATE_TOKEN_FILE, DEFAULT_TOKEN_PATH]) {
     if (!candidato) continue;
-    const percorso = espandi(candidato);
+    const percorso = espandi(candidato, env);
     try {
       const contenuto = fs.readFileSync(percorso, "utf8").trim();
       if (contenuto) return contenuto;
@@ -72,6 +73,14 @@ function messaggioDefault(status) {
   if (status === 404) return "Risorsa non trovata (404)";
   if (status === 429) return "Rate limit superato (429): 100 GET/min, 30 scritture/min";
   return `Errore HTTP ${status} dall'API Skillplate`;
+}
+
+/** Estratto del corpo grezzo, per gli errori che non arrivano da Skillplate. */
+function estratto(grezzo, limite = 200) {
+  const testo = String(grezzo ?? "").trim();
+  if (!testo) return "";
+  const breve = testo.length > limite ? `${testo.slice(0, limite)}...` : testo;
+  return ` — risposta ricevuta: ${breve.replace(/\s+/g, " ")}`;
 }
 
 const attesaDefault = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -400,7 +409,20 @@ export class SkillplateClient {
       requestId: errore.request_id ?? null,
       body: corpo,
     };
-    const messaggio = errore.message || messaggioDefault(status);
+    // Un corpo non-JSON significa che a rispondere non e` stato Skillplate ma
+    // un intermediario (proxy, gateway, captive portal): dare la spiegazione
+    // Skillplate — "manca lo scope", "token scaduto" — manderebbe fuori strada.
+    let messaggio;
+    if (errore.message) {
+      messaggio = errore.message;
+    } else if (corpo === null && String(grezzo ?? "").trim()) {
+      messaggio =
+        `Risposta HTTP ${status} non proveniente da Skillplate ` +
+        `(corpo non JSON): controlla proxy, firewall o allowlist di rete` +
+        estratto(grezzo);
+    } else {
+      messaggio = messaggioDefault(status);
+    }
     return status === 429
       ? new RateLimitError(messaggio, opzioni)
       : new SkillplateError(messaggio, opzioni);
