@@ -50,6 +50,51 @@ function intero(valore) {
   return Number.isNaN(numero) ? null : numero;
 }
 
+/** Blocco di paginazione, normalizzato.
+ *
+ * L'API reale annida i contatori sotto `meta.pagination` e chiama
+ * `total_pages` quella che la documentazione chiama `last_page`; questa
+ * funzione accetta entrambe le forme.
+ */
+export function pagination(risposta) {
+  const meta = risposta?.meta ?? {};
+  const blocco = meta.pagination && typeof meta.pagination === "object" ? meta.pagination : meta;
+  return {
+    current_page: blocco.current_page,
+    last_page: blocco.last_page ?? blocco.total_pages,
+    per_page: blocco.per_page,
+    total: blocco.total,
+  };
+}
+
+/** Elementi di una risposta di lista, qualunque sia la forma di `data`.
+ *
+ * `/products` non restituisce una lista ma un oggetto raggruppato per tipo
+ * (`courses`, `bundles`, `digital_downloads`, `generics`, `communities`): qui
+ * i gruppi vengono concatenati.
+ */
+export function items(risposta) {
+  const data = risposta && !Array.isArray(risposta) && "data" in risposta ? risposta.data : risposta;
+  if (Array.isArray(data)) return data;
+  if (data && typeof data === "object") {
+    return Object.values(data).flatMap((gruppo) => (Array.isArray(gruppo) ? gruppo : []));
+  }
+  return [];
+}
+
+/** Gruppi di una risposta con `data` raggruppato, es. `/products`.
+ *
+ * Restituisce `{ courses: [...], bundles: [...], ... }`. Serve perche` il tipo
+ * del prodotto sta nella chiave del gruppo, non in un campo dell'elemento:
+ * `items()` appiattisce e quell'informazione la perde. Su una risposta con
+ * `data` gia` piatto restituisce `{}`.
+ */
+export function groups(risposta) {
+  const data = risposta && !Array.isArray(risposta) && "data" in risposta ? risposta.data : risposta;
+  if (!data || typeof data !== "object" || Array.isArray(data)) return {};
+  return Object.fromEntries(Object.entries(data).filter(([, gruppo]) => Array.isArray(gruppo)));
+}
+
 /** Serializza i parametri, espandendo le liste in `chiave[]=valore`. */
 export function encodeParams(params) {
   if (!params) return "";
@@ -88,6 +133,19 @@ function estratto(grezzo, limite = 200) {
   return ` — risposta ricevuta: ${breve.replace(/\s+/g, " ")}`;
 }
 
+/** La `fetch` di Node ignora HTTPS_PROXY se non e` attivo NODE_USE_ENV_PROXY:
+ * la richiesta esce diretta e salta un eventuale proxy che allega credenziali.
+ * Il flag si legge all'avvio del processo, quindi qui si puo` solo segnalarlo. */
+function suggerimentoProxy(env) {
+  const proxy = env.HTTPS_PROXY || env.https_proxy;
+  const attivo = String(env.NODE_USE_ENV_PROXY ?? "").trim() === "1";
+  if (!proxy || attivo) return "";
+  return (
+    " — nota: HTTPS_PROXY e` impostata ma la fetch di Node la ignora, " +
+    "quindi la richiesta e` uscita diretta: riesegui con NODE_USE_ENV_PROXY=1 (Node >= 22.21)"
+  );
+}
+
 const attesaDefault = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export class SkillplateClient {
@@ -123,6 +181,7 @@ export class SkillplateClient {
     this.deprecation = null;
     this._fetch = fetchImpl;
     this._sleep = sleep;
+    this._env = env;
   }
 
   // --------------------------------------------------------------- core
@@ -152,7 +211,9 @@ export class SkillplateClient {
           await this._sleep(Math.min(2 ** (tentativo + 1), 8) * 1000);
           continue;
         }
-        throw new SkillplateError(`Errore di rete verso ${this.baseUrl}: ${errore.message}`);
+        throw new SkillplateError(
+          `Errore di rete verso ${this.baseUrl}: ${errore.message}${suggerimentoProxy(this._env)}`
+        );
       }
 
       this._readMetaHeaders(risposta.headers);
@@ -201,12 +262,12 @@ export class SkillplateClient {
     for (;;) {
       query.page = pagina;
       const risposta = await this.get(percorso, query);
-      for (const elemento of risposta.data ?? []) yield elemento;
+      for (const elemento of items(risposta)) yield elemento;
 
       pagineLette += 1;
-      const meta = risposta.meta ?? {};
-      const ultima = meta.last_page;
-      const corrente = meta.current_page ?? pagina;
+      const info = pagination(risposta);
+      const ultima = info.last_page;
+      const corrente = info.current_page ?? pagina;
       if (!ultima || corrente >= ultima) return;
       if (maxPages !== null && pagineLette >= maxPages) return;
       pagina = corrente + 1;
@@ -427,7 +488,8 @@ export class SkillplateClient {
       messaggio =
         `Risposta HTTP ${status} non proveniente da Skillplate ` +
         `(corpo non JSON): controlla proxy, firewall o allowlist di rete` +
-        estratto(grezzo);
+        estratto(grezzo) +
+        suggerimentoProxy(this._env);
     } else {
       messaggio = messaggioDefault(status, this.proxyAuth);
     }

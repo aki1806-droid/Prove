@@ -47,6 +47,56 @@ def resolve_token(token=None, token_path=None):
     )
 
 
+def pagination(risposta):
+    """Blocco di paginazione, normalizzato.
+
+    L'API reale annida i contatori sotto ``meta.pagination`` e chiama
+    ``total_pages`` quella che la documentazione chiama ``last_page``; questa
+    funzione accetta entrambe le forme.
+    """
+    meta = risposta.get("meta") or {}
+    blocco = meta.get("pagination") if isinstance(meta.get("pagination"), dict) else meta
+    return {
+        "current_page": blocco.get("current_page"),
+        "last_page": blocco.get("last_page", blocco.get("total_pages")),
+        "per_page": blocco.get("per_page"),
+        "total": blocco.get("total"),
+    }
+
+
+def items(risposta):
+    """Elementi di una risposta di lista, qualunque sia la forma di ``data``.
+
+    ``/products`` non restituisce una lista ma un oggetto raggruppato per tipo
+    (``courses``, ``bundles``, ``digital_downloads``, ``generics``,
+    ``communities``): qui i gruppi vengono concatenati.
+    """
+    data = risposta.get("data") if isinstance(risposta, dict) else risposta
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        elementi = []
+        for gruppo in data.values():
+            if isinstance(gruppo, list):
+                elementi.extend(gruppo)
+        return elementi
+    return []
+
+
+def groups(risposta):
+    """Gruppi di una risposta con ``data`` raggruppato, es. ``/products``.
+
+    Restituisce ``{"courses": [...], "bundles": [...], ...}``. Serve perche' il
+    tipo del prodotto sta nella chiave del gruppo, non in un campo
+    dell'elemento: ``items()`` appiattisce e quell'informazione la perde.
+    Su una risposta con ``data`` gia' piatto restituisce ``{}``.
+    """
+    data = risposta.get("data") if isinstance(risposta, dict) else risposta
+    if not isinstance(data, dict):
+        return {}
+    return {nome: gruppo for nome, gruppo in data.items() if isinstance(gruppo, list)}
+
+
 class RateLimit:
     """Ultimo stato di rate limit letto dagli header della risposta."""
 
@@ -169,13 +219,13 @@ class SkillplateClient:
         while True:
             params["page"] = pagina
             risposta = self.get(path, params=params)
-            for elemento in risposta.get("data", []):
+            for elemento in items(risposta):
                 yield elemento
 
             pagine_lette += 1
-            meta = risposta.get("meta") or {}
-            ultima = meta.get("last_page")
-            corrente = meta.get("current_page", pagina)
+            info = pagination(risposta)
+            ultima = info.get("last_page")
+            corrente = info.get("current_page") or pagina
             if not ultima or corrente >= ultima:
                 return
             if max_pages is not None and pagine_lette >= max_pages:

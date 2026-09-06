@@ -7,7 +7,16 @@ import os from "node:os";
 import path from "node:path";
 import test, { after, before, beforeEach, describe } from "node:test";
 
-import { MissingTokenError, SkillplateClient, SkillplateError, resolveToken, webhooks } from "../src/index.js";
+import {
+  MissingTokenError,
+  SkillplateClient,
+  SkillplateError,
+  groups,
+  items,
+  pagination,
+  resolveToken,
+  webhooks,
+} from "../src/index.js";
 
 const UTENTI = Array.from({ length: 5 }, (_, i) => ({
   id: `usr_${i + 1}`,
@@ -48,9 +57,25 @@ function gestisci(req, res, corpo) {
   }
 
   if (url.pathname === "/v1/external/products") {
+    // forma reale: data raggruppato per tipo, contatori sotto meta.pagination
     return rispondi(res, 200, {
-      data: [{ id: "prd_1", type: "course" }],
-      meta: { current_page: 1, last_page: 1, total: 1 },
+      data: {
+        courses: [{ id: "prd_1", type: "course" }],
+        bundles: [],
+        digital_downloads: [{ id: "prd_2", type: "digital_download" }],
+        generics: [],
+        communities: [],
+      },
+      meta: { pagination: { total: 2, count: 2, per_page: 1, current_page: 1, total_pages: 1 } },
+    });
+  }
+
+  // lista raggruppata su due pagine, con meta.pagination annidata
+  if (url.pathname === "/v1/external/raggruppati") {
+    const pagina = Number(url.searchParams.get("page") ?? 1);
+    return rispondi(res, 200, {
+      data: { courses: [{ id: `g${pagina}a` }], bundles: [{ id: `g${pagina}b` }] },
+      meta: { pagination: { total: 4, count: 2, per_page: 2, current_page: pagina, total_pages: 2 } },
     });
   }
 
@@ -110,7 +135,8 @@ describe("SkillplateClient", () => {
 
   test("ping legge i dati e gli header di rate limit", async () => {
     const risposta = await client.ping();
-    assert.equal(risposta.data[0].id, "prd_1");
+    assert.deepEqual(items(risposta).map((p) => p.id), ["prd_1", "prd_2"]);
+    assert.equal(pagination(risposta).total, 2);
     assert.equal(client.rateLimit.remaining, 97);
     assert.equal(richieste[0].auth, "Bearer token-di-test");
   });
@@ -122,6 +148,56 @@ describe("SkillplateClient", () => {
       UTENTI.map((u) => u.id)
     );
     assert.equal(richieste.filter((r) => r.path.endsWith("/users")).length, 3);
+  });
+
+  test("paginate con meta annidata e data raggruppato", async () => {
+    // regressione: con meta.pagination annidata si fermava alla prima pagina,
+    // e su data raggruppato iterava le chiavi invece degli elementi
+    const elementi = await client.collect("/raggruppati", { perPage: 2, pause: 0 });
+    assert.deepEqual(elementi.map((e) => e.id), ["g1a", "g1b", "g2a", "g2b"]);
+  });
+
+  test("groups conserva il tipo perso da items", async () => {
+    const risposta = await client.ping();
+    const perTipo = groups(risposta);
+    assert.deepEqual(perTipo.courses.map((p) => p.id), ["prd_1"]);
+    assert.deepEqual(perTipo.digital_downloads.map((p) => p.id), ["prd_2"]);
+    assert.deepEqual(groups({ data: [{ id: "a" }] }), {});
+  });
+
+  test("pagination normalizza le due forme", () => {
+    for (const risposta of [
+      { meta: { pagination: { current_page: 2, total_pages: 5, total: 42 } } },
+      { meta: { current_page: 2, last_page: 5, total: 42 } },
+    ]) {
+      const info = pagination(risposta);
+      assert.equal(info.current_page, 2);
+      assert.equal(info.last_page, 5);
+      assert.equal(info.total, 42);
+    }
+  });
+
+  test("items su forme diverse di data", () => {
+    assert.deepEqual(items({ data: [{ id: "a" }] }), [{ id: "a" }]);
+    assert.deepEqual(items({ data: { courses: [{ id: "a" }], bundles: [] } }), [{ id: "a" }]);
+    assert.deepEqual(items({ data: null }), []);
+  });
+
+  test("segnala che la fetch di Node sta ignorando HTTPS_PROXY", async () => {
+    const finto = new SkillplateClient({
+      token: "t",
+      baseUrl,
+      sleep: async () => {},
+      env: { HTTPS_PROXY: "http://127.0.0.1:9" },
+      fetchImpl: async () => new Response("Host not in allowlist", { status: 403 }),
+    });
+    await assert.rejects(
+      () => finto.ping(),
+      (errore) => {
+        assert.match(errore.message, /NODE_USE_ENV_PROXY=1/);
+        return true;
+      }
+    );
   });
 
   test("createUser invia i campi opzionali", async () => {
@@ -175,7 +251,7 @@ describe("SkillplateClient", () => {
   test("proxyAuth non invia l'header Authorization", async () => {
     const finto = new SkillplateClient({ baseUrl, proxyAuth: true, env: {}, sleep: async () => {} });
     const risposta = await finto.ping();
-    assert.equal(risposta.data[0].id, "prd_1");
+    assert.equal(items(risposta)[0].id, "prd_1");
     assert.equal(richieste.at(-1).auth, undefined);
     assert.equal(finto.token, null);
   });

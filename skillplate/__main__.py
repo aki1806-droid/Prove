@@ -13,7 +13,7 @@ import argparse
 import json
 import sys
 
-from .client import DEFAULT_BASE_URL, SkillplateClient
+from .client import DEFAULT_BASE_URL, SkillplateClient, pagination
 from .errors import SkillplateError
 
 
@@ -70,7 +70,7 @@ def main(argv=None):
         )
         if args.comando == "ping":
             risposta = client.ping()
-            totale = (risposta.get("meta") or {}).get("total")
+            totale = pagination(risposta).get("total")
             print("Connessione OK — {}".format(client.base_url))
             print("Auth: {}".format("delegata al proxy" if client.proxy_auth else "token locale"))
             if totale is not None:

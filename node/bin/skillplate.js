@@ -10,7 +10,7 @@
  * non viene mai stampato.
  */
 
-import { DEFAULT_BASE_URL, SkillplateClient, SkillplateError } from "../src/index.js";
+import { DEFAULT_BASE_URL, SkillplateClient, SkillplateError, pagination } from "../src/index.js";
 
 const USO = `Uso: skillplate [--base-url URL] [--token-file FILE] [--timeout MS] [--proxy-auth] <comando>
 
@@ -88,7 +88,7 @@ async function main(argv) {
   switch (comando) {
     case "ping": {
       const risposta = await client.ping();
-      const totale = risposta.meta?.total;
+      const totale = pagination(risposta).total;
       console.log(`Connessione OK — ${client.baseUrl}`);
       console.log(`Auth: ${client.proxyAuth ? "delegata al proxy" : "token locale"}`);
       if (totale !== undefined) console.log(`Prodotti visibili: ${totale}`);

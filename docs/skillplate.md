@@ -60,12 +60,13 @@ python3 -m skillplate get /orders --param status=completed --param per_page=5
 ## 4. Uso da codice (Python)
 
 ```python
-from skillplate import SkillplateClient
+from skillplate import SkillplateClient, groups, items, pagination
 
 client = SkillplateClient()                      # token risolto automaticamente
 
-corsi = client.list_products(type="course")["data"]
-utente = client.list_users(**{"filter[email]": "mario@example.com"})["data"]
+# /products raggruppa per tipo: `groups` conserva il tipo, `items` appiattisce
+corsi = groups(client.list_products(status="all"))["courses"]
+utente = items(client.list_users(**{"filter[email]": "mario@example.com"}))
 
 if utente:
     client.enroll(utente[0]["id"], [corsi[0]["id"]])
@@ -95,16 +96,17 @@ Stessa superficie del client Python, ESM e senza dipendenze (`node/`, Node >= 18
 ```bash
 cd node
 node bin/skillplate.js ping
-npm test          # 14 test, nessuna rete
+npm test          # 24 test, nessuna rete
 ```
 
 ```js
-import { SkillplateClient } from "./node/src/index.js";
+import { SkillplateClient, groups, items } from "./node/src/index.js";
 
 const client = new SkillplateClient();            // token risolto automaticamente
 
-const { data: corsi } = await client.listProducts({ type: "course" });
-const { data: utenti } = await client.listUsers({ "filter[email]": "mario@example.com" });
+// /products raggruppa per tipo: `groups` conserva il tipo, `items` appiattisce
+const corsi = groups(await client.listProducts({ status: "all" })).courses;
+const utenti = items(await client.listUsers({ "filter[email]": "mario@example.com" }));
 
 if (utenti.length) {
   await client.enroll(utenti[0].id, [corsi[0].id]);
@@ -132,9 +134,43 @@ Differenze rispetto al Python, tutte di forma:
 
 Il `fetch` nativo di Node **non legge `HTTPS_PROXY`** da solo: dietro un proxy
 serve `NODE_USE_ENV_PROXY=1` (Node >= 22.21), altrimenti la chiamata esce
-diretta e va in timeout.
+diretta — e se e' il proxy ad allegare le credenziali, fallisce senza motivo
+apparente. Il client se ne accorge: quando `HTTPS_PROXY` e' impostata ma il
+flag no, il messaggio d'errore lo dice e indica il rimedio.
 
-## 6. Auth delegata al proxy
+## 6. Forma reale delle risposte
+
+Verificato contro l'API di produzione: su due punti la forma vera diverge da
+quella documentata, e il client si adatta a entrambe.
+
+**I contatori di paginazione sono annidati.** Non `meta.last_page` ma
+`meta.pagination`, e la chiave si chiama `total_pages`:
+
+```json
+{"meta": {"pagination": {"total": 3, "count": 3, "per_page": 25,
+                         "current_page": 1, "total_pages": 1}}}
+```
+
+Usa `pagination(risposta)`, che normalizza le due forme e restituisce sempre
+`current_page`, `last_page`, `per_page`, `total`. Leggere `meta["last_page"]`
+a mano su una risposta vera da `None`, e una paginazione che si basa su quel
+valore si ferma silenziosamente alla prima pagina.
+
+**`/products` non restituisce una lista** ma un oggetto raggruppato per tipo:
+
+```json
+{"data": {"courses": [...], "bundles": [], "digital_downloads": [...],
+          "generics": [], "communities": []}}
+```
+
+Il tipo sta nella chiave del gruppo: sull'elemento il campo `type` e` vuoto.
+Quindi `items(risposta)` per l'elenco piatto di tutti i prodotti,
+`groups(risposta)["courses"]` quando il tipo conta. Le altre liste (`/users`,
+`/orders`, `/subscriptions`, `/discounts`) hanno `data` piatto.
+
+`paginate()` e `collect()` gestiscono gia' entrambe le cose.
+
+## 7. Auth delegata al proxy
 
 Quando la credenziale non sta sulla macchina ma la allega un intermediario a
 valle — tipico delle **API credentials** di un ambiente cloud Claude Code, dove
@@ -170,7 +206,7 @@ Attenzione: la credenziale sul proxy **non apre la rete**. Serve comunque
 `api.skillplate.com` nell'allowlist dell'ambiente (sezione 2), altrimenti si
 resta al 403 del proxy.
 
-## 7. Webhook (direzione opposta)
+## 8. Webhook (direzione opposta)
 
 Da **Settings → Webhooks** nel pannello. I payload sono firmati HMAC-SHA256
 nell'header `X-Skillplate-Signature`:
@@ -202,7 +238,7 @@ Eventi disponibili: `payment.succeeded`, `payment.failed`,
 `subscription.started`, `subscription.cancelled`, `user.created`,
 `user.updated`, `lesson.completed`, `module.completed`, `course.completed`.
 
-## 8. Limiti noti
+## 9. Limiti noti
 
 - 100 GET/minuto, 30 scritture/minuto, burst 10 req/secondo.
 - Il catalogo (corsi e lezioni) è in sola lettura via API: si crea dal pannello.
@@ -211,9 +247,10 @@ Eventi disponibili: `payment.succeeded`, `payment.failed`,
 ## Test
 
 ```bash
-python3 -m unittest discover -s tests   # 18 test
-cd node && npm test                     # 19 test
+python3 -m unittest discover -s tests   # 22 test
+cd node && npm test                     # 24 test
 ```
 
-Entrambe le suite girano contro un server HTTP locale che imita l'API: non serve
-né token né rete.
+Entrambe le suite girano contro un server HTTP locale che imita l'API — nella
+forma reale verificata in produzione, contatori annidati e `/products`
+raggruppato compresi: non serve né token né rete.

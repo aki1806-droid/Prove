@@ -57,7 +57,26 @@ class FintaAPI(BaseHTTPRequestHandler):
             return self._rispondi(401, {"error": {"code": "unauthenticated", "message": "Token non valido", "status": 401, "request_id": "req_401"}})
 
         if parsed.path == "/v1/external/products":
-            return self._rispondi(200, {"data": [{"id": "prd_1", "type": "course"}], "meta": {"current_page": 1, "last_page": 1, "total": 1}})
+            # forma reale: data raggruppato per tipo, contatori sotto meta.pagination
+            return self._rispondi(200, {
+                "data": {
+                    "courses": [{"id": "prd_1", "type": "course"}],
+                    "bundles": [],
+                    "digital_downloads": [{"id": "prd_2", "type": "digital_download"}],
+                    "generics": [],
+                    "communities": [],
+                },
+                "meta": {"pagination": {"total": 2, "count": 2, "per_page": 1, "current_page": 1, "total_pages": 1}},
+            })
+
+        # lista raggruppata su due pagine, con meta.pagination annidata
+        if parsed.path == "/v1/external/raggruppati":
+            pagina = int(query.get("page", ["1"])[0])
+            gruppi = {"courses": [{"id": "g{}a".format(pagina)}], "bundles": [{"id": "g{}b".format(pagina)}]}
+            return self._rispondi(200, {
+                "data": gruppi,
+                "meta": {"pagination": {"total": 4, "count": 2, "per_page": 2, "current_page": pagina, "total_pages": 2}},
+            })
 
         if parsed.path == "/v1/external/users" and metodo == "GET":
             pagina = int(query.get("page", ["1"])[0])
@@ -104,8 +123,11 @@ class TestClient(unittest.TestCase):
         self.client = SkillplateClient(token="token-di-test", base_url=self.base_url, sleep=lambda _: None)
 
     def test_ping_e_rate_limit(self):
+        from skillplate import items, pagination
+
         risposta = self.client.ping()
-        self.assertEqual(risposta["data"][0]["id"], "prd_1")
+        self.assertEqual([p["id"] for p in items(risposta)], ["prd_1", "prd_2"])
+        self.assertEqual(pagination(risposta)["total"], 2)
         self.assertEqual(self.client.rate_limit.remaining, 97)
         self.assertEqual(RICHIESTE[0]["auth"], "Bearer token-di-test")
 
@@ -113,6 +135,39 @@ class TestClient(unittest.TestCase):
         utenti = list(self.client.paginate("/users", per_page=2, pause=0))
         self.assertEqual([u["id"] for u in utenti], [u["id"] for u in UTENTI])
         self.assertEqual(len([r for r in RICHIESTE if r["path"].endswith("/users")]), 3)
+
+    def test_paginazione_con_meta_annidata_e_data_raggruppato(self):
+        """Regressione: con meta.pagination annidata la paginazione si fermava
+        alla prima pagina, e su data raggruppato iterava le chiavi."""
+        elementi = list(self.client.paginate("/raggruppati", per_page=2, pause=0))
+        self.assertEqual([e["id"] for e in elementi], ["g1a", "g1b", "g2a", "g2b"])
+
+    def test_pagination_normalizza_le_due_forme(self):
+        from skillplate import pagination
+
+        annidata = {"meta": {"pagination": {"current_page": 2, "total_pages": 5, "total": 42}}}
+        piatta = {"meta": {"current_page": 2, "last_page": 5, "total": 42}}
+        for risposta in (annidata, piatta):
+            info = pagination(risposta)
+            self.assertEqual(info["current_page"], 2)
+            self.assertEqual(info["last_page"], 5)
+            self.assertEqual(info["total"], 42)
+
+    def test_items_su_forme_diverse(self):
+        from skillplate import items
+
+        self.assertEqual(items({"data": [{"id": "a"}]}), [{"id": "a"}])
+        self.assertEqual(items({"data": {"courses": [{"id": "a"}], "bundles": []}}), [{"id": "a"}])
+        self.assertEqual(items({"data": None}), [])
+
+    def test_groups_conserva_il_tipo(self):
+        from skillplate import groups
+
+        risposta = self.client.ping()
+        per_tipo = groups(risposta)
+        self.assertEqual([p["id"] for p in per_tipo["courses"]], ["prd_1"])
+        self.assertEqual([p["id"] for p in per_tipo["digital_downloads"]], ["prd_2"])
+        self.assertEqual(groups({"data": [{"id": "a"}]}), {})
 
     def test_creazione_utente(self):
         risposta = self.client.create_user("a@example.com", "Anna", "Rossi", tags=["vip"], send_welcome_email=True)
@@ -126,9 +181,11 @@ class TestClient(unittest.TestCase):
         self.assertEqual(risposta["data"]["enrolled"], ["prd_1"])
 
     def test_proxy_auth_non_invia_authorization(self):
+        from skillplate import items
+
         client = SkillplateClient(base_url=self.base_url, proxy_auth=True, sleep=lambda _: None)
         risposta = client.ping()
-        self.assertEqual(risposta["data"][0]["id"], "prd_1")
+        self.assertEqual(items(risposta)[0]["id"], "prd_1")
         self.assertIsNone(RICHIESTE[-1]["auth"])
 
     def test_proxy_auth_non_richiede_token(self):
