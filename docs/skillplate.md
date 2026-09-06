@@ -52,7 +52,7 @@ python3 -m skillplate users --email mario@example.com
 python3 -m skillplate get /orders --param status=completed --param per_page=5
 ```
 
-## 4. Uso da codice
+## 4. Uso da codice (Python)
 
 ```python
 from skillplate import SkillplateClient
@@ -83,7 +83,53 @@ header `X-RateLimit-*` in `client.rate_limit`.
 **Gli ID sono stringhe hashate opache**: non vanno costruiti né dedotti, sempre
 ripresi da una lista o da una risposta precedente.
 
-## 5. Webhook (direzione opposta)
+## 5. Uso da Node
+
+Stessa superficie del client Python, ESM e senza dipendenze (`node/`, Node >= 18).
+
+```bash
+cd node
+node bin/skillplate.js ping
+npm test          # 14 test, nessuna rete
+```
+
+```js
+import { SkillplateClient } from "./node/src/index.js";
+
+const client = new SkillplateClient();            // token risolto automaticamente
+
+const { data: corsi } = await client.listProducts({ type: "course" });
+const { data: utenti } = await client.listUsers({ "filter[email]": "mario@example.com" });
+
+if (utenti.length) {
+  await client.enroll(utenti[0].id, [corsi[0].id]);
+} else {
+  await client.createUser("mario@example.com", "Mario", "Rossi", {
+    product_ids: [corsi[0].id],
+    send_welcome_email: true,
+  });
+}
+
+// export completo: async iterator con pausa automatica fra le pagine
+for await (const ordine of client.iterOrders({ status: "completed", created_from: "2026-01-01" })) {
+  // ...
+}
+```
+
+Differenze rispetto al Python, tutte di forma:
+
+- i metodi sono in `camelCase` e restituiscono promesse; i **campi del payload
+  restano in `snake_case`** perché sono quelli dell'API;
+- `paginate()` è un async iterator, `collect()` restituisce direttamente l'array;
+- `timeout` è in millisecondi (Python: secondi);
+- l'errore è `SkillplateError` con `status`, `code`, `requestId` e `describe()`;
+- gli argomenti opzionali passano come oggetto finale invece che come kwargs.
+
+Il `fetch` nativo di Node **non legge `HTTPS_PROXY`** da solo: dietro un proxy
+serve `NODE_USE_ENV_PROXY=1` (Node >= 22.21), altrimenti la chiamata esce
+diretta e va in timeout.
+
+## 6. Webhook (direzione opposta)
 
 Da **Settings → Webhooks** nel pannello. I payload sono firmati HMAC-SHA256
 nell'header `X-Skillplate-Signature`:
@@ -96,14 +142,26 @@ if evento["event"] == "payment.succeeded":
     acquistati = webhooks.product_ids(evento)
 ```
 
-`parse_event` solleva `ValueError` se la firma non torna: in quel caso il
-payload va scartato.
+In Node, identico:
+
+```js
+import { webhooks } from "./node/src/index.js";
+
+const evento = webhooks.parseEvent(corpoGrezzo, req.headers["x-skillplate-signature"], SEGRETO);
+if (evento.event === "payment.succeeded") {
+  const acquistati = webhooks.productIds(evento);
+}
+```
+
+`parse_event` / `parseEvent` sollevano un errore se la firma non torna: in quel
+caso il payload va scartato. Va passato il **corpo grezzo**, non il JSON già
+riserializzato, altrimenti l'HMAC non corrisponde.
 
 Eventi disponibili: `payment.succeeded`, `payment.failed`,
 `subscription.started`, `subscription.cancelled`, `user.created`,
 `user.updated`, `lesson.completed`, `module.completed`, `course.completed`.
 
-## 6. Limiti noti
+## 7. Limiti noti
 
 - 100 GET/minuto, 30 scritture/minuto, burst 10 req/secondo.
 - Il catalogo (corsi e lezioni) è in sola lettura via API: si crea dal pannello.
@@ -112,8 +170,9 @@ Eventi disponibili: `payment.succeeded`, `payment.failed`,
 ## Test
 
 ```bash
-python3 -m unittest discover -s tests
+python3 -m unittest discover -s tests   # 12 test
+cd node && npm test                     # 14 test
 ```
 
-I test girano contro un server HTTP locale che imita l'API: non serve né token
-né rete.
+Entrambe le suite girano contro un server HTTP locale che imita l'API: non serve
+né token né rete.
