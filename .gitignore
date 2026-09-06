@@ -16,3 +16,8 @@ build/
 # Ambiente
 .env
 .env.local
+
+# le tracce audio e i png delle slide si rigenerano, non si versionano
+produzione/**/audio/
+produzione/**/out/
+node_modules
