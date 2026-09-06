@@ -36,6 +36,11 @@ def main(argv=None):
     parser.add_argument("--base-url", default=None, help="Default: {}".format(DEFAULT_BASE_URL))
     parser.add_argument("--token-file", default=None, help="File contenente il PAT")
     parser.add_argument("--timeout", type=int, default=30)
+    parser.add_argument(
+        "--proxy-auth",
+        action="store_true",
+        help="non inviare il token: lo allega il proxy (API credentials dell'ambiente)",
+    )
     sub = parser.add_subparsers(dest="comando", required=True)
 
     sub.add_parser("ping", help="Verifica token e raggiungibilità dell'API")
@@ -58,14 +63,18 @@ def main(argv=None):
 
     try:
         client = SkillplateClient(
-            base_url=args.base_url, token_path=args.token_file, timeout=args.timeout
+            base_url=args.base_url,
+            token_path=args.token_file,
+            timeout=args.timeout,
+            proxy_auth=args.proxy_auth or None,
         )
         if args.comando == "ping":
             risposta = client.ping()
             totale = (risposta.get("meta") or {}).get("total")
             print("Connessione OK — {}".format(client.base_url))
+            print("Auth: {}".format("delegata al proxy" if client.proxy_auth else "token locale"))
             if totale is not None:
-                print("Prodotti visibili al token: {}".format(totale))
+                print("Prodotti visibili: {}".format(totale))
             print("Rate limit: {}".format(client.rate_limit))
             if client.deprecation:
                 print("ATTENZIONE — versione deprecata: {}".format(client.deprecation))

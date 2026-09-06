@@ -134,7 +134,43 @@ Il `fetch` nativo di Node **non legge `HTTPS_PROXY`** da solo: dietro un proxy
 serve `NODE_USE_ENV_PROXY=1` (Node >= 22.21), altrimenti la chiamata esce
 diretta e va in timeout.
 
-## 6. Webhook (direzione opposta)
+## 6. Auth delegata al proxy
+
+Quando la credenziale non sta sulla macchina ma la allega un intermediario a
+valle — tipico delle **API credentials** di un ambiente cloud Claude Code, dove
+il proxy aggiunge `Authorization: Bearer <chiave>` dopo che la richiesta e`
+uscita dalla VM — il client non deve inviare l'header per conto suo, e non ha
+bisogno di nessun token in locale.
+
+```bash
+python3 -m skillplate --proxy-auth ping
+node node/bin/skillplate.js --proxy-auth ping
+```
+
+Equivalente via ambiente, utile per non toccare i comandi esistenti:
+
+```bash
+export SKILLPLATE_AUTH=proxy
+```
+
+Da codice: `SkillplateClient(proxy_auth=True)` in Python,
+`new SkillplateClient({ proxyAuth: true })` in Node. In questa modalita` la
+risoluzione del token viene saltata del tutto: non serve `SKILLPLATE_TOKEN` ne`
+il file, e nessun `MissingTokenError`.
+
+Il `ping` dichiara quale modalita` sta usando (`Auth: delegata al proxy` oppure
+`Auth: token locale`), cosi` non resta il dubbio su chi stia autenticando.
+
+Se arriva un **401** in questa modalita` il problema non e` il token — che non
+c'e` — ma la credenziale che non e` stata allegata: il messaggio lo dice, e la
+cosa da controllare sono le **Allowed websites** della credenziale, che devono
+includere l'host chiamato.
+
+Attenzione: la credenziale sul proxy **non apre la rete**. Serve comunque
+`api.skillplate.com` nell'allowlist dell'ambiente (sezione 2), altrimenti si
+resta al 403 del proxy.
+
+## 7. Webhook (direzione opposta)
 
 Da **Settings → Webhooks** nel pannello. I payload sono firmati HMAC-SHA256
 nell'header `X-Skillplate-Signature`:
@@ -166,7 +202,7 @@ Eventi disponibili: `payment.succeeded`, `payment.failed`,
 `subscription.started`, `subscription.cancelled`, `user.created`,
 `user.updated`, `lesson.completed`, `module.completed`, `course.completed`.
 
-## 7. Limiti noti
+## 8. Limiti noti
 
 - 100 GET/minuto, 30 scritture/minuto, burst 10 req/secondo.
 - Il catalogo (corsi e lezioni) è in sola lettura via API: si crea dal pannello.
@@ -175,8 +211,8 @@ Eventi disponibili: `payment.succeeded`, `payment.failed`,
 ## Test
 
 ```bash
-python3 -m unittest discover -s tests   # 12 test
-cd node && npm test                     # 14 test
+python3 -m unittest discover -s tests   # 18 test
+cd node && npm test                     # 19 test
 ```
 
 Entrambe le suite girano contro un server HTTP locale che imita l'API: non serve

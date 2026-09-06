@@ -67,8 +67,13 @@ export function encodeParams(params) {
   return query.toString();
 }
 
-function messaggioDefault(status) {
-  if (status === 401) return "Token non valido o scaduto (401)";
+function messaggioDefault(status, proxyAuth = false) {
+  if (status === 401) {
+    return proxyAuth
+      ? "401 con auth delegata al proxy: la credenziale non e` stata allegata. " +
+          "Controlla che l'host sia fra le Allowed websites della credenziale"
+      : "Token non valido o scaduto (401)";
+  }
   if (status === 403) return "Scope mancante sul token per questa operazione (403)";
   if (status === 404) return "Risorsa non trovata (404)";
   if (status === 429) return "Rate limit superato (429): 100 GET/min, 30 scritture/min";
@@ -100,11 +105,17 @@ export class SkillplateClient {
     tokenPath = null,
     timeout = 30000,
     maxRetries = 3,
+    proxyAuth = null,
     fetchImpl = globalThis.fetch,
     sleep = attesaDefault,
     env = process.env,
   } = {}) {
-    this.token = resolveToken({ token, tokenPath, env });
+    // Auth delegata al proxy: la credenziale viene allegata a valle (es. le API
+    // credentials di un ambiente cloud), quindi qui non serve un token e
+    // l'header Authorization non va inviato.
+    this.proxyAuth =
+      proxyAuth === null ? (env.SKILLPLATE_AUTH ?? "").trim().toLowerCase() === "proxy" : Boolean(proxyAuth);
+    this.token = this.proxyAuth ? null : resolveToken({ token, tokenPath, env });
     this.baseUrl = (baseUrl || env.SKILLPLATE_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, "");
     this.timeout = timeout;
     this.maxRetries = maxRetries;
@@ -119,11 +130,8 @@ export class SkillplateClient {
   /** Esegue una chiamata e restituisce il JSON decodificato. */
   async request(method, percorso, { params = null, body = null } = {}) {
     const url = this._buildUrl(percorso, params);
-    const headers = {
-      Authorization: `Bearer ${this.token}`,
-      Accept: "application/json",
-      "User-Agent": USER_AGENT,
-    };
+    const headers = { Accept: "application/json", "User-Agent": USER_AGENT };
+    if (!this.proxyAuth) headers.Authorization = `Bearer ${this.token}`;
     let corpo;
     if (body !== null && body !== undefined) {
       corpo = JSON.stringify(body);
@@ -421,7 +429,7 @@ export class SkillplateClient {
         `(corpo non JSON): controlla proxy, firewall o allowlist di rete` +
         estratto(grezzo);
     } else {
-      messaggio = messaggioDefault(status);
+      messaggio = messaggioDefault(status, this.proxyAuth);
     }
     return status === 429
       ? new RateLimitError(messaggio, opzioni)

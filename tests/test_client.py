@@ -51,7 +51,9 @@ class FintaAPI(BaseHTTPRequestHandler):
             }
         )
 
-        if self.headers.get("Authorization") != "Bearer token-di-test":
+        autorizzazione = self.headers.get("Authorization")
+        # nessun header = auth delegata al proxy, che la allegherebbe a valle
+        if autorizzazione is not None and autorizzazione != "Bearer token-di-test":
             return self._rispondi(401, {"error": {"code": "unauthenticated", "message": "Token non valido", "status": 401, "request_id": "req_401"}})
 
         if parsed.path == "/v1/external/products":
@@ -122,6 +124,41 @@ class TestClient(unittest.TestCase):
     def test_enroll(self):
         risposta = self.client.enroll("usr_1", ["prd_1"])
         self.assertEqual(risposta["data"]["enrolled"], ["prd_1"])
+
+    def test_proxy_auth_non_invia_authorization(self):
+        client = SkillplateClient(base_url=self.base_url, proxy_auth=True, sleep=lambda _: None)
+        risposta = client.ping()
+        self.assertEqual(risposta["data"][0]["id"], "prd_1")
+        self.assertIsNone(RICHIESTE[-1]["auth"])
+
+    def test_proxy_auth_non_richiede_token(self):
+        vecchie = {k: os.environ.pop(k) for k in ("SKILLPLATE_TOKEN", "SKILLPLATE_TOKEN_FILE") if k in os.environ}
+        with tempfile.TemporaryDirectory() as home:
+            vecchia_home = os.environ.get("HOME")
+            os.environ["HOME"] = home
+            try:
+                client = SkillplateClient(base_url=self.base_url, proxy_auth=True, sleep=lambda _: None)
+                self.assertIsNone(client._token)
+            finally:
+                if vecchia_home is None:
+                    os.environ.pop("HOME", None)
+                else:
+                    os.environ["HOME"] = vecchia_home
+                os.environ.update(vecchie)
+
+    def test_proxy_auth_attivabile_da_env(self):
+        os.environ["SKILLPLATE_AUTH"] = "proxy"
+        try:
+            client = SkillplateClient(base_url=self.base_url, sleep=lambda _: None)
+            self.assertTrue(client.proxy_auth)
+        finally:
+            del os.environ["SKILLPLATE_AUTH"]
+
+    def test_401_in_proxy_auth_parla_di_credenziale(self):
+        client = SkillplateClient(base_url=self.base_url, proxy_auth=True, sleep=lambda _: None)
+        errore = client._http_error(401, b"")
+        self.assertIn("credenziale", errore.message)
+        self.assertIn("Allowed websites", errore.message)
 
     def test_errore_403_espone_request_id(self):
         with self.assertRaises(SkillplateError) as ctx:

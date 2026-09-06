@@ -40,7 +40,8 @@ function gestisci(req, res, corpo) {
     auth: req.headers.authorization,
   });
 
-  if (req.headers.authorization !== "Bearer token-di-test") {
+  // nessun header = auth delegata al proxy, che la allegherebbe a valle
+  if (req.headers.authorization !== undefined && req.headers.authorization !== "Bearer token-di-test") {
     return rispondi(res, 401, {
       error: { code: "unauthenticated", message: "Token non valido", status: 401, request_id: "req_401" },
     });
@@ -169,6 +170,37 @@ describe("SkillplateClient", () => {
     assert.deepEqual(query.getAll("tags[]"), ["a", "b"]);
     assert.equal(query.get("active"), "true");
     assert.equal(query.has("vuoto"), false);
+  });
+
+  test("proxyAuth non invia l'header Authorization", async () => {
+    const finto = new SkillplateClient({ baseUrl, proxyAuth: true, env: {}, sleep: async () => {} });
+    const risposta = await finto.ping();
+    assert.equal(risposta.data[0].id, "prd_1");
+    assert.equal(richieste.at(-1).auth, undefined);
+    assert.equal(finto.token, null);
+  });
+
+  test("proxyAuth si attiva da SKILLPLATE_AUTH=proxy", () => {
+    const finto = new SkillplateClient({ baseUrl, env: { SKILLPLATE_AUTH: "proxy" } });
+    assert.equal(finto.proxyAuth, true);
+  });
+
+  test("un 401 in proxyAuth parla di credenziale, non di token", async () => {
+    const finto = new SkillplateClient({
+      baseUrl,
+      proxyAuth: true,
+      env: {},
+      sleep: async () => {},
+      fetchImpl: async () => new Response("", { status: 401 }),
+    });
+    await assert.rejects(
+      () => finto.ping(),
+      (errore) => {
+        assert.match(errore.message, /credenziale/);
+        assert.match(errore.message, /Allowed websites/);
+        return true;
+      }
+    );
   });
 
   test("un 403 non-Skillplate riporta il corpo reale, non lo scope", async () => {

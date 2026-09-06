@@ -12,7 +12,9 @@
 
 import { DEFAULT_BASE_URL, SkillplateClient, SkillplateError } from "../src/index.js";
 
-const USO = `Uso: skillplate [--base-url URL] [--token-file FILE] [--timeout MS] <comando>
+const USO = `Uso: skillplate [--base-url URL] [--token-file FILE] [--timeout MS] [--proxy-auth] <comando>
+
+  --proxy-auth   non invia il token: lo allega il proxy (API credentials dell'ambiente)
 
 Comandi:
   ping                        verifica token e raggiungibilità dell'API
@@ -20,6 +22,8 @@ Comandi:
   users [--search S] [--email E] [--per-page N]
   get <path> [--param k=v ...]
 `;
+
+const FLAG = new Set(["proxy-auth", "help"]);
 
 function parseArgs(argv) {
   const opzioni = { param: [] };
@@ -31,6 +35,10 @@ function parseArgs(argv) {
       continue;
     }
     const chiave = voce.slice(2);
+    if (FLAG.has(chiave)) {
+      opzioni[chiave] = true;
+      continue;
+    }
     const valore = argv[i + 1];
     if (valore === undefined || valore.startsWith("--")) {
       throw new Error(`Manca il valore per --${chiave}`);
@@ -74,6 +82,7 @@ async function main(argv) {
     baseUrl: opzioni["base-url"] ?? null,
     tokenPath: opzioni["token-file"] ?? null,
     timeout: opzioni.timeout ? Number(opzioni.timeout) : 30000,
+    proxyAuth: opzioni["proxy-auth"] ? true : null,
   });
 
   switch (comando) {
@@ -81,7 +90,8 @@ async function main(argv) {
       const risposta = await client.ping();
       const totale = risposta.meta?.total;
       console.log(`Connessione OK — ${client.baseUrl}`);
-      if (totale !== undefined) console.log(`Prodotti visibili al token: ${totale}`);
+      console.log(`Auth: ${client.proxyAuth ? "delegata al proxy" : "token locale"}`);
+      if (totale !== undefined) console.log(`Prodotti visibili: ${totale}`);
       console.log(`Rate limit: ${JSON.stringify(client.rateLimit)}`);
       if (client.deprecation) {
         console.log(`ATTENZIONE — versione deprecata: ${JSON.stringify(client.deprecation)}`);

@@ -88,8 +88,15 @@ class SkillplateClient:
         timeout=30,
         max_retries=3,
         sleep=time.sleep,
+        proxy_auth=None,
     ):
-        self._token = resolve_token(token, token_path)
+        # Auth delegata al proxy: la credenziale viene allegata a valle (es. le
+        # API credentials di un ambiente cloud), quindi qui non serve un token e
+        # l'header Authorization non va inviato.
+        if proxy_auth is None:
+            proxy_auth = os.environ.get("SKILLPLATE_AUTH", "").strip().lower() == "proxy"
+        self.proxy_auth = bool(proxy_auth)
+        self._token = None if self.proxy_auth else resolve_token(token, token_path)
         self.base_url = (base_url or os.environ.get("SKILLPLATE_BASE_URL") or DEFAULT_BASE_URL).rstrip("/")
         self.timeout = timeout
         self.max_retries = max_retries
@@ -103,11 +110,9 @@ class SkillplateClient:
         """Esegue una chiamata e restituisce il JSON decodificato."""
         url = self._build_url(path, params)
         dati = None
-        headers = {
-            "Authorization": "Bearer {}".format(self._token),
-            "Accept": "application/json",
-            "User-Agent": USER_AGENT,
-        }
+        headers = {"Accept": "application/json", "User-Agent": USER_AGENT}
+        if not self.proxy_auth:
+            headers["Authorization"] = "Bearer {}".format(self._token)
         if body is not None:
             dati = json.dumps(body).encode("utf-8")
             headers["Content-Type"] = "application/json"
@@ -353,7 +358,7 @@ class SkillplateClient:
                     "controlla proxy, firewall o allowlist di rete{}".format(status, testo)
                 )
             else:
-                message = _messaggio_default(status)
+                message = _messaggio_default(status, proxy_auth=self.proxy_auth)
 
         classe = RateLimitError if status == 429 else SkillplateError
         return classe(message, code=code, status=status, request_id=request_id, body=corpo)
@@ -380,8 +385,13 @@ def _estratto(grezzo, limite=200):
     return " - risposta ricevuta: {}".format(" ".join(breve.split()))
 
 
-def _messaggio_default(status):
+def _messaggio_default(status, proxy_auth=False):
     if status == 401:
+        if proxy_auth:
+            return (
+                "401 con auth delegata al proxy: la credenziale non e' stata allegata. "
+                "Controlla che l'host sia fra le Allowed websites della credenziale"
+            )
         return "Token non valido o scaduto (401)"
     if status == 403:
         return "Scope mancante sul token per questa operazione (403)"
