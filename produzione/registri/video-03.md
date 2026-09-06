@@ -7,7 +7,10 @@ Una traccia per scena. Gli URL firmati scadono in 2 ore: si rigenerano con
 ## Versioni
 - `840fc887af85bba7ec0907e2828abb09` — 22 scene, 4:35. Approvato "quasi perfetto",
   con la richiesta di **molte più slide**, anche per elenchi e cose da ricordare.
-- versione a 40 scene — in lavorazione, è quella che definisce lo standard.
+- `84a7df017890106276e4e8ee80ebdb54` — 40 scene, 4:23. È la versione che definisce
+  lo standard: 25 slide, 8 scene di avatar, 4 clip, 3 immagini. Gli elenchi del
+  copione (i tre pezzi della frase, le tre cose da preparare, le alternative se il
+  budget è bloccato) hanno ciascuno la propria slide.
 
 ## Tracce audio
 
@@ -68,6 +71,18 @@ Slide della versione a 22 scene, già caricate su HeyGen:
 card1 `9cca54150dfa4fbda303ef66d9e7d7b8` · card2 `c065251a6a5648c79a6c220c4eaa34cd`
 · card3 `a2a13dd119644738abb12239271b24b1` · card4 `c45684d82559438f9fe12d983f026c95`
 · card5 `3022a48141b34e59894e3c01ebcdb4a6`
+
+Slide aggiunte per la versione a 40 scene (n01–n20, definite in
+`script/cards.mjs`): `9a107bb311e94cb0a15e72b2be068e30`, `21da7b36ecc548328e3fe1dbb8dd43b4`,
+`c6d34c7677634bbc8f01098355a27400`, `d9701feadbcc46329decb65347a75007`,
+`a6882b9be6f240889cc1d162e3e0aac4`, `371155cb249a4399afcbf0ab110f576e`,
+`845558734ed84162a2e55c703f38d13f`, `70269009c3334a609085da3154ff1001`,
+`3d0238bdaca647269609568896df2261`, `688464476b2045c49bece3393c2e83df`,
+`2e9a687175a04a6893224cf74b934368`, `bbb2890c64e34538b37c0d5a48c8710a`,
+`7ece283c92454829bb02fdc3f46690c0`, `3a5c56fcc31245a8a7559d5cec0087b9`,
+`4a2894ab0111423b9793213121c13c57`, `91d3e026523e4b879b9d920a33de55d1`,
+`4aea7755d2514a4e9706e2088c9d851c`, `92b36648857f49bdb5c544ed212d6c8f`,
+`b54ecce358e44f329d6f7f7d8f31dc1f`, `7898ba8180ca42d7b46d67f2a84861ec`
 
 Clip Artlist (URL firmati a lunga scadenza, prefisso
 `https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-v-i-d-e-o-v1/`):
