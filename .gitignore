@@ -16,3 +16,9 @@ build/
 # Ambiente
 .env
 .env.local
+
+# Credenziali
+.skillplate-token
+*token*.txt
+__pycache__/
+*.pyc
