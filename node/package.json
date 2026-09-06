@@ -1,0 +1,23 @@
+{
+  "name": "skillplate-client",
+  "version": "1.0.0",
+  "description": "Client Node per la Skillplate External API (nessuna dipendenza)",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./webhooks": "./src/webhooks.js"
+  },
+  "bin": {
+    "skillplate": "bin/skillplate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": ["src", "bin"],
+  "license": "UNLICENSED",
+  "private": true
+}
