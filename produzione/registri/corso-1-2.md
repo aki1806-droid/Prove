@@ -4,7 +4,14 @@ Modulo 1 di "Dire, ascoltare, convincere". Prodotto secondo `produzione/STANDARD
 voce ElevenLabs accelerata a 1,12x, avatar mai scontornato, molte slide a piena
 inquadratura, copertina 3 s, chiusura 10 s, sottotitoli impressi.
 
-**Video finale:** `19fc77179f1b6f8df08e962e9faaf6cb`
+**Video finale:** `0797045d44556ec7be783b17180f1244` — 5:59, pause corte, look
+`89cf01e0c22547169c460186be0c67a8`.
+
+Versione precedente `19fc77179f1b6f8df08e962e9faaf6cb` (6:28): pause troppo
+lunghe, e montata su un look che **non esiste piu'** in libreria. Le tracce sono
+state rilavorate con `silenceremove` e ricaricate (batch
+`956a758e6ca24c69b8394a21b1a82885`); il rimontaggio ha richiesto anche il cambio
+di avatar, perche' HeyGen risponde `Avatar not found` su `d679a1da...`.
 **Struttura:** 36 scene — 11 avatar, 24 slide, 1 clip.
 **Durata finale:** 6:28 (388,2 s). Render in 6 minuti.
 

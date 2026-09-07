@@ -122,8 +122,13 @@ Batch `006f71c871e44b64b61d82711cdb94b7`, 33 elementi, tutti `completed`.
 **Cover.** Scena 1 da 15 s a **3 s**. La chiusura resta a 10 s.
 
 Montaggio finale: video_id `bd0c0e980bb8f4d709e25abc2877ea59`, 35 scene, 1080p 16:9,
-sottotitoli SRT impressi. **Durata finale 5:37** (336,8 s): parlato 325,9 s piu'
-3 s di copertina e 10 s di chiusura. Render in 9 minuti.
+sottotitoli SRT impressi. **Durata finale 5:13** (313,2 s), video `ab9f75e16a26af272aaf83e69f0304b0`.
+
+La prima versione (`bd0c0e980bb8f4d709e25abc2877ea59`, 5:37) aveva le pause
+troppo lunghe. Le tracce sono state rilavorate con `silenceremove` prima di
+`atempo` — vedi `STANDARD.md` §1 — e ricaricate come batch
+`956a758e6ca24c69b8394a21b1a82885`. Il parlato scende da 325,9 s a 300 s
+senza rigenerare niente su ElevenLabs.
 
 Da ignorare le versioni precedenti: `d596a7f61f45e09adc2d7c6230561c9a` (slide
 sbagliata alla scena 22) e quella a voce piena velocita'.

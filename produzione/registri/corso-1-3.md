@@ -2,7 +2,14 @@
 
 Modulo 1 di "Dire, ascoltare, convincere". Prodotto secondo `produzione/STANDARD.md`.
 
-**Video finale:** `520446c6fea52b735847f7b22e4f6ed5`
+**Video finale:** `eb735e519fae45ecf8a643dd216fb04f` — 5:28, pause corte.
+
+Versione precedente `520446c6fea52b735847f7b22e4f6ed5` (6:08): pause troppo
+lunghe. Tracce rilavorate con `silenceremove` e ricaricate (batch
+`365d33b626514962b8c44a3ec198a04c`). Nella stessa passata **il respiro sul clip
+e' sceso da 15 a 8 secondi**: lo script ne chiedeva almeno 15, ma l'indicazione
+di Achille sulle pause vale anche qui. Se lo rivuole a 15, si rigenera solo la
+traccia s11 cambiando `apad=pad_dur`.
 **Struttura:** 41 scene — 11 avatar, 29 slide, 1 clip.
 **Avatar:** `89cf01e0c22547169c460186be0c67a8`, il default del corso dalla 1.3 in poi.
 
