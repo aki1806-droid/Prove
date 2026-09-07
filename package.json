@@ -8,6 +8,8 @@
     "node": ">=20"
   },
   "scripts": {
+    "setup": "tsx src/setup/wizard.ts",
+    "doctor": "tsx src/setup/doctor.ts",
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js",

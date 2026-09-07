@@ -13,14 +13,21 @@ i termini di Meta lo vietano. Il dettaglio è in
 
 ```bash
 npm install
-cp .env.example .env      # compila le credenziali
+npm run setup             # procedura guidata: chiede le credenziali e le verifica
 npm run dev               # servizio su :3000
 ngrok http 3000           # URL HTTPS per il webhook di Meta
 ```
 
+`npm run setup` chiede una credenziale alla volta dicendo dove trovarla, la
+verifica contro il servizio reale e scrive il `.env`. Se qualcosa non torna,
+`npm run doctor` ricontrolla tutto e dice cosa correggere.
+
 Poi registra `https://<tuo-host>/webhook` nel pannello Meta e sottoscrivi il
-campo `messages`. Tutti i passi lato Meta, con le credenziali da recuperare e
-gli errori tipici, sono in [`docs/whatsapp-setup.md`](docs/whatsapp-setup.md).
+campo `messages`.
+
+**Se non hai mai usato un terminale**, parti da [`GUIDA.md`](GUIDA.md): stessa
+procedura spiegata clic per clic, senza dare niente per scontato. I dettagli
+tecnici lato Meta sono in [`docs/whatsapp-setup.md`](docs/whatsapp-setup.md).
 
 ## Come funziona
 
@@ -62,19 +69,29 @@ src/
 ├── claude.ts             chiamata alla Messages API
 ├── conversation.ts       storico per contatto (in memoria, con TTL)
 ├── ttl-set.ts            deduplica degli id dei webhook
-└── whatsapp/
-    ├── signature.ts      verifica X-Hub-Signature-256
-    ├── parse.ts          estrazione dei messaggi dal payload
-    ├── client.ts         invio via Graph API
-    └── types.ts          forma del payload webhook
+├── env.ts                caricamento del file .env
+├── whatsapp/
+│   ├── signature.ts      verifica X-Hub-Signature-256
+│   ├── parse.ts          estrazione dei messaggi dal payload
+│   ├── client.ts         invio via Graph API
+│   └── types.ts          forma del payload webhook
+└── setup/
+    ├── wizard.ts         procedura guidata (npm run setup)
+    ├── doctor.ts         diagnostica (npm run doctor)
+    ├── validators.ts     verifiche delle credenziali e traduzione degli errori
+    ├── env-file.ts       generazione del file .env
+    └── ui.ts             colori a terminale
 ```
 
 ## Comandi
 
 | Comando | Cosa fa |
 |---|---|
+| `npm run setup` | Procedura guidata: raccoglie e verifica le credenziali, scrive `.env`. |
+| `npm run doctor` | Diagnostica: ricontrolla le credenziali e spiega cosa non va. |
+| `npm run doctor -- --messaggio <numero>` | Invia un messaggio di prova per validare la catena in uscita. |
 | `npm run dev` | Avvio in watch mode. |
-| `npm test` | Suite vitest (56 test). |
+| `npm test` | Suite vitest (79 test). |
 | `npm run typecheck` | `tsc --noEmit` su sorgenti e test. |
 | `npm run build` | Compila in `dist/`. |
 | `npm start` | Esegue il build compilato. |

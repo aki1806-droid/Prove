@@ -1,5 +1,6 @@
 import { ClaudeReplyGenerator } from "./claude.js";
 import { loadConfig } from "./config.js";
+import { loadEnvFile } from "./env.js";
 import { InMemoryConversationStore } from "./conversation.js";
 import { MessageHandler } from "./handler.js";
 import { log } from "./logger.js";
@@ -12,6 +13,10 @@ const DEDUPE_TTL_MS = 10 * 60_000;
 const PRUNE_INTERVAL_MS = 5 * 60_000;
 
 function main(): void {
+  // In sviluppo le credenziali stanno nel .env scritto da `npm run setup`;
+  // in produzione arrivano dall'hosting e il file non esiste.
+  loadEnvFile();
+
   const config = loadConfig();
 
   const store = new InMemoryConversationStore({
