@@ -40,12 +40,13 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   studio"). Achille l'ha indicato per identificativo: **è il default dalla lezione
   1.3 in poi e non si torna a chiedere**. È lo stesso già usato nei video del
   canale e nella lezione 1.1.
-- La 1.2 fa eccezione: è montata su `d679a1daf79e4597ab5ffbea8ad495e9` ("Aki
-  teaching in the classroom" nella libreria, ma non è un'aula — è lo stesso studio
-  di casa con piante, stampe e microfono da podcast). I due look si somigliano al
-  punto da confondersi: se serve sapere su quale è montato un video,
-  `get_video_scenes` restituisce l'`avatar_id` scena per scena. È l'unico modo
-  affidabile.
+- Anche la 1.2 usa questo look, dalla versione con le pause corte in poi. Il look
+  `d679a1daf79e4597ab5ffbea8ad495e9` della prima versione **non esiste più** nella
+  libreria: HeyGen risponde `Avatar not found` e rifiuta il montaggio.
+- Regola che ne discende: **un look può sparire fra un montaggio e l'altro**, quindi
+  un video vecchio non si rimonta dando per scontato il suo avatar. `get_video_scenes`
+  restituisce l'`avatar_id` scena per scena di un video già fatto: è l'unico modo
+  affidabile per sapere su cosa era montato, e `list_avatar_looks` dice se c'è ancora.
 - Il gruppo "Aki" `2ecf65e58df54cd7bda384da43c27f2d` contiene 57 look, elencabili
   con `list_avatar_looks`. **Le anteprime non sono visibili da qui**: il proxy
   blocca `files2.heygen.ai`, e i nomi non descrivono l'immagine (vedi sopra).
