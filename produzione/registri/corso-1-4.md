@@ -1,8 +1,9 @@
 # Corso «Dire, ascoltare, convincere» — Lezione 1.4
 ## Il paraverbale: tono, ritmo, pause
 
-**video_id** `942bf8bc098f9d91f7ad18bb5af499b4` — 42 scene, 16:9, 1080p,
-sottotitoli impressi (srt + style default).
+**video_id** `942bf8bc098f9d91f7ad18bb5af499b4` — completato, **6:10** (370,0 s),
+42 scene, 16:9, 1080p, sottotitoli impressi (srt + style default).
+Pagina HeyGen: https://app.heygen.com/videos/942bf8bc098f9d91f7ad18bb5af499b4
 
 | | |
 |---|---|
