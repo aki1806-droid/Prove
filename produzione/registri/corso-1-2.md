@@ -10,10 +10,13 @@ inquadratura, copertina 3 s, chiusura 10 s, sottotitoli impressi.
 
 ## Avatar: cambio di look, solo per questa lezione
 
-Achille ha chiesto un look diverso dalla 1.1. Scelto **Aki teaching in the classroom**
-`d679a1daf79e4597ab5ffbea8ad495e9`, valido **solo per la 1.2**: le altre lezioni
-tornano a decidere di volta in volta. La 1.1 resta con "Aki in his studio"
-`89cf01e0c22547169c460186be0c67a8`.
+Achille ha chiesto un look diverso dalla 1.1. Scelto `d679a1daf79e4597ab5ffbea8ad495e9`.
+La 1.1 resta con "Aki in his studio" `89cf01e0c22547169c460186be0c67a8`.
+
+**Aggiornamento:** visto il risultato, Achille ha deciso che questo look diventa
+**il default del corso dalla lezione 1.3 in poi**. Nella libreria HeyGen si chiama
+"Aki teaching in the classroom", ma non è un'aula: è lo studio di casa con piante,
+stampe incorniciate e microfono da podcast.
 
 Nota operativa: le anteprime dei look non si possono vedere da qui, il proxy blocca
 `files2.heygen.ai`. La scelta si fa sui nomi restituiti da `list_avatar_looks`,

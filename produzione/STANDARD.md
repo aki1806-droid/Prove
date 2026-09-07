@@ -26,15 +26,19 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 
 ## 2. Avatar
 
-- Avatar **Aki in his studio** — `89cf01e0c22547169c460186be0c67a8` per i video
-  del canale. Per il corso il look si sceglie lezione per lezione (la 1.1 usa
-  questo, la 1.2 "Aki teaching in the classroom"
-  `d679a1daf79e4597ab5ffbea8ad495e9`). Il gruppo "Aki"
-  `2ecf65e58df54cd7bda384da43c27f2d` ne contiene 57: si elencano con
-  `list_avatar_looks`, ma **le anteprime non sono visibili da qui** perché il
-  proxy blocca `files2.heygen.ai` — la scelta si fa sui nomi, o guardando la
-  libreria su app.heygen.com. Scartare i look con
-  `preferred_orientation: portrait`: il 16:9 li taglia.
+- **Video del canale:** look "Aki in his studio" — `89cf01e0c22547169c460186be0c67a8`.
+- **Corso, dalla lezione 1.3 in poi:** `d679a1daf79e4597ab5ffbea8ad495e9`, il look
+  già usato nella 1.2. Achille l'ha visto e l'ha scelto: **è il default, non si
+  torna a chiedere**. Le lezioni 1.1 e 1.2 restano come sono.
+  In HeyGen si chiama "Aki teaching in the classroom", ma il nome inganna: non è
+  un'aula, è lo studio di casa con le piante, le stampe incorniciate e il
+  microfono da podcast sul braccio.
+- Il gruppo "Aki" `2ecf65e58df54cd7bda384da43c27f2d` contiene 57 look, elencabili
+  con `list_avatar_looks`. **Le anteprime non sono visibili da qui**: il proxy
+  blocca `files2.heygen.ai`, e i nomi non descrivono l'immagine (vedi sopra).
+  Quindi non proporre look a memoria o per nome come se si sapesse cosa
+  mostrano: se serve cambiare, si guarda la libreria su app.heygen.com.
+  Scartare i look con `preferred_orientation: portrait`: il 16:9 li taglia.
 - **Nessuno scontorno** (niente `removeBackground`), **nessuna grafica
   sovrapposta all'avatar**. Achille ha bocciato esplicitamente il ritaglio.
   Sopra l'avatar può esserci solo il sottotitolo.
