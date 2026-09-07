@@ -1,8 +1,9 @@
 # Corso «Dire, ascoltare, convincere» — Lezione 1.5
 ## La prima cosa da smettere di fare — chiusura del Modulo 1
 
-**video_id** `4ebab457d266151497220c1e7687c7a7` — 41 scene, 16:9, 1080p,
-sottotitoli impressi (srt + style default).
+**video_id** `4ebab457d266151497220c1e7687c7a7` — completato, **6:04** (364,4 s),
+41 scene, 16:9, 1080p, sottotitoli impressi (srt + style default).
+Pagina HeyGen: https://app.heygen.com/videos/4ebab457d266151497220c1e7687c7a7
 
 | | |
 |---|---|
@@ -50,7 +51,7 @@ video    = montato + copertina + chiusura
 
 Verifica sulla 1.5: previsti 417 s di grezzo, misurati **416,7**; montato
 previsto 338 s, misurato **347,1** (rapporto reale 0,833 perché la clip è
-allungata con `apad`). Video stimato 6:05 contro l'obiettivo di 6:00.
+allungata con `apad`). Video stimato 6:05 contro l'obiettivo di 6:00; misurato **6:04**.
 
 Per una lezione da 6:00 servono circa **6.000 caratteri di testo netto** su
 39-40 blocchi.
