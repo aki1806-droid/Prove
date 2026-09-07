@@ -16,8 +16,13 @@ const NAVY = '#032B54', IVORY = '#F6F3EA', GOLD = '#C39951';
 
 const [, , cardsPath = 'cards.json', outDir = '.'] = process.argv;
 const cards = JSON.parse(fs.readFileSync(cardsPath, 'utf8'));
+const here = path.dirname(new URL(import.meta.url).pathname);
 const logo = 'data:image/png;base64,' +
-  fs.readFileSync(path.join(path.dirname(new URL(import.meta.url).pathname), 'logo_lpg_negativo.png')).toString('base64');
+  fs.readFileSync(path.join(here, 'logo_lpg_negativo.png')).toString('base64');
+// Chromium qui non raggiunge fonts.googleapis.com e non lo segnala: senza
+// questi woff2 incorporati le slide escono coi caratteri di sistema.
+// Rigenerabili con fonts_embed.py.
+const FONTS = fs.readFileSync(path.join(here, 'fonts_canale.css'), 'utf8');
 
 const css = `
   * { margin:0; padding:0; box-sizing:border-box; }
@@ -84,8 +89,7 @@ function body(c) {
 }
 
 const page = (c) => `<!doctype html><html><head><meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>${FONTS}</style>
 <style>${css}</style></head><body>
   <div class="brand"><img src="${logo}" alt=""></div>
   <div class="stage">${body(c)}</div>
@@ -98,7 +102,7 @@ const p = await ctx.newPage();
 fs.mkdirSync(outDir, { recursive: true });
 const manifest = [];
 for (const c of cards) {
-  await p.setContent(page(c), { waitUntil: 'networkidle' });
+  await p.setContent(page(c));
   await p.evaluate(() => document.fonts.ready);
   const file = path.join(outDir, `${c.file}.png`);
   await p.screenshot({ path: file });
