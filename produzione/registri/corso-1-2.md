@@ -6,6 +6,7 @@ inquadratura, copertina 3 s, chiusura 10 s, sottotitoli impressi.
 
 **Video finale:** `19fc77179f1b6f8df08e962e9faaf6cb`
 **Struttura:** 36 scene — 11 avatar, 24 slide, 1 clip.
+**Durata finale:** 6:28 (388,2 s). Render in 6 minuti.
 
 ## Avatar: cambio di look, solo per questa lezione
 
