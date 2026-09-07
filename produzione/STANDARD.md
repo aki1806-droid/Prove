@@ -49,9 +49,20 @@ Regole grafiche: marchio LPG **in alto a sinistra su ogni slide**, stessa
 coordinata sempre. Fondo blu notte, testo avorio, accento oro sulla parte che
 porta il senso.
 
-Palette e caratteri (brand kit "La Parola Giusta"):
+Palette e caratteri, **video del canale**:
 - blu notte `#032B54` · avorio `#F6F3EA` · oro `#C39951`
 - titoli **Playfair Display** 700 · sopratitoli **Inter** 600 maiuscoletto spaziato
+
+Palette e caratteri, **corso "Dire, ascoltare, convincere"** (diversi, definiti
+negli script delle lezioni — si usa `script/cards_corso.mjs`):
+- blu `#12294A` · avorio `#F7F3EA` · oro `#C39A4E` · oro tenue `#E2D2B0`
+  (slide errori) · blu profondo `#0B1B33` (memo) · grigio `#69748A`
+- frasi **Cormorant Garamond** · etichette ed elenchi **Jost**
+- i tag `<break time="1.0s"/>` degli script vanno lasciati nel testo: ElevenLabs
+  li rende. La velocità 0,95× invece non è applicabile — generando la voce su
+  ElevenLabs non c'è quel parametro, il ritmo lo fanno le pause.
+- copertine e chiusure sono mute: la musica la aggiunge Achille in coda, qui
+  non c'è modo di mixare l'audio.
 
 ## 4. Immagini e clip
 
@@ -88,7 +99,14 @@ Palette e caratteri (brand kit "La Parola Giusta"):
   `pending` per sempre mentre il video vero è un altro (si ritrova con
   `list_videos`). Si usa il montaggio diretto da studio.
 - **Il logo del marchio è blu notte + oro**: su fondo blu la parte blu sparisce.
-  Va usata la versione negativa, `script/logo_negativo.py`.
+  Va usata la versione negativa, `script/logo_negativo.py`. Il logo esteso
+  (`logo_lpg_esteso.png`) sta su fondo avorio ed è per copertine e chiusure.
+- **Chromium non raggiunge fonts.googleapis.com**, e non lo segnala: le slide
+  escono con i caratteri di sistema e il render non dà errore. I woff2 vanno
+  incorporati come data URI — `script/fonts_embed.py` li scarica con curl (che
+  invece passa) e scrive `fonts_canale.css` e `fonts_corso.css`. Le slide del
+  VIDEO 02 e del VIDEO 03 sono state prodotte prima di questa scoperta, quindi
+  hanno i caratteri sbagliati: vanno rigenerate.
 - Il proxy di rete **blocca** `laparolagiusta.it`, `files2.heygen.ai`,
   `resource2.heygen.ai`. Passano `fonts.googleapis.com`, `storage.googleapis.com`,
   `cms-toolkit-artifacts.artlist.io`, `heygen-resources-prod.s3-accelerate.amazonaws.com`.
