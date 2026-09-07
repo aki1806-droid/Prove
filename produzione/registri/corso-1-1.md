@@ -89,3 +89,41 @@ Immagine Artlist, messaggio non inviato di notte:
 `.../-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__9/image-2d5a1593-79c6-422b-badc-78adad38e6a2.png`
 
 Parlato 363.1 s + 25 s = 6:28.
+
+## Versione finale: voce a 1,12x e cover da 3 secondi
+
+Due correzioni chieste dopo la prima visione: la voce era troppo lenta e poco
+espressiva, e passava troppo tempo fra la slide di apertura e l'inizio del parlato.
+
+**Voce.** Provate due strade su ElevenLabs. La prima (modello `eleven_v3`, con tag
+di direzione inline tipo `[warm]`, `[emphatic]`) rende piu' espressivo il timbro ma
+non cambia il passo: e' anche piu' lenta a generare. La seconda, adottata, tiene
+`eleven_multilingual_v2` — lo stesso timbro di sempre — e accelera in post con
+ffmpeg a **1,12x**:
+
+```
+ffmpeg -i grezzo.mp3 -filter:a atempo=1.12 -b:a 128k -ar 44100 -ac 1 finale.mp3
+```
+
+`atempo` cambia la velocita' senza toccare l'intonazione: la voce non diventa
+metallica, solo piu' sveglia. Tutte e 33 le tracce sono passate da qui.
+
+**Nota su una diagnosi sbagliata.** Avevo attribuito la lentezza ai tag
+`<break time="Xs"/>`. Non e' cosi': un A/B sullo stesso testo da 20,5 s senza
+break contro 20,7 s con break. Il passo e' quello di base del modello, i break
+incidono per decimi. La velocita' si corregge solo in post.
+
+**Asset audio permanenti.** HeyGen rifiuta gli mp3 di ElevenLabs cosi' come sono
+(`Stored file type not supported: application/octet-stream`), ma li accetta dopo
+il ri-encoding ffmpeg qui sopra. Quindi da adesso l'audio non viaggia piu' per
+`audio_url` — che scade in 2 ore — ma come `audio_asset_id`, che non scade.
+Batch `006f71c871e44b64b61d82711cdb94b7`, 33 elementi, tutti `completed`.
+
+**Cover.** Scena 1 da 15 s a **3 s**. La chiusura resta a 10 s.
+
+Montaggio finale: video_id `bd0c0e980bb8f4d709e25abc2877ea59`, 35 scene, 1080p 16:9,
+sottotitoli SRT impressi. Durata attesa ~5:50 (parlato 363 s / 1,12 = 324 s, piu'
+13 s di cover e chiusura).
+
+Da ignorare le versioni precedenti: `d596a7f61f45e09adc2d7c6230561c9a` (slide
+sbagliata alla scena 22) e quella a voce piena velocita'.

@@ -13,7 +13,16 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   e artefatti. Questo è stato verificato più volte ed è il motivo della regola.
 - Una traccia audio per scena. Il parlato si spezza ai confini di concetto,
   non a caso: ogni blocco è quello che sta sopra una singola inquadratura.
-- In HeyGen la traccia si passa come `audio_url` con l'URL firmato ElevenLabs.
+- **Ogni traccia si accelera a 1,12x con ffmpeg** prima di andare in HeyGen. Il
+  passo naturale del modello è troppo lento per una lezione; `atempo` cambia la
+  velocità senza toccare l'intonazione, quindi il timbro resta identico:
+  `ffmpeg -i grezzo.mp3 -filter:a atempo=1.12 -b:a 128k -ar 44100 -ac 1 finale.mp3`
+  (ffmpeg si installa con `pip install imageio-ffmpeg`, percorso da
+  `imageio_ffmpeg.get_ffmpeg_exe()`).
+- I tag `<break time="Xs"/>` **non** cambiano il ritmo: verificato con un A/B,
+  20,5 s senza contro 20,7 s con. Non usarli per accelerare.
+- In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
+  si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
 ## 2. Avatar
 
@@ -44,6 +53,10 @@ Layout disponibili in `script/cards.mjs`:
 | `quote` | frase da dire davvero, tra « » |
 | `num` | punto numerato di un elenco (numerale grande + etichetta) |
 | `list` | elenco di 2-5 voci sulla stessa slide |
+
+Durate: la **slide di copertina dura 3 secondi**, non di più — fra il titolo e la
+prima parola non deve esserci attesa. La slide di chiusura sta sui 10 secondi.
+Tutte le altre slide non hanno durata propria: la prende l'audio che ci sta sopra.
 
 Regole grafiche: marchio LPG **in alto a sinistra su ogni slide**, stessa
 coordinata sempre. Fondo blu notte, testo avorio, accento oro sulla parte che
@@ -85,10 +98,17 @@ negli script delle lezioni — si usa `script/cards_corso.mjs`):
 
 ## 6. Trappole già incontrate — non ripeterle
 
-- **Gli mp3 non si possono caricare come asset HeyGen.** L'API li registra come
-  `application/octet-stream` e li rifiuta anche dichiarando `audio/mpeg`.
-  Va usato `audio_url` con l'URL firmato ElevenLabs.
-- **Gli URL firmati ElevenLabs scadono in 2 ore.** Si rigenerano con
+- **Gli mp3 di ElevenLabs vanno ri-encodati prima di caricarli su HeyGen.**
+  Presi così come arrivano, l'API li registra come `application/octet-stream` e
+  li rifiuta anche dichiarando `audio/mpeg`. Passati per ffmpeg (lo stesso
+  comando che li accelera a 1,12x) vengono accettati senza problemi. Procedura:
+  `create_asset_upload_batch` → PUT su ogni URL firmato con gli header
+  `Content-Type: audio/mpeg` e `x-amz-server-side-encryption: AES256` →
+  `complete_asset_batch` → si attende `completed` con `get_asset_batch`.
+  Questo risolve anche la scadenza degli URL: gli asset non scadono.
+- **Gli URL firmati ElevenLabs scadono in 2 ore** (problema aggirato dagli asset
+  permanenti, ma resta valido se per qualche motivo si torna a `audio_url`).
+  Vecchia nota: Si rigenerano con
   `creative_get_flow_run_status(flow_id, session_ids)`, che restituisce un URL
   nuovo. Vanno quindi raccolti **poco prima** del montaggio, non all'inizio.
   Per questo il registro di ogni video conserva flow_id e session_id di ogni traccia.
