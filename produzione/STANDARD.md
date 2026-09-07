@@ -41,6 +41,25 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 - In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
   si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
+### Quanto testo serve per una durata
+
+Il conteggio dei caratteri di `blocchi.json` **non** predice niente, perche'
+include i tag `<break>`: la 1.3 aveva 6725 caratteri in 379 s di grezzo, la 1.4
+ne aveva 5304 negli stessi 379 s. Tolti i tag il ritmo e' stabile: **16,9
+caratteri di testo netto al secondo di parlato**, misurato su due lezioni
+(17,02 e 16,75).
+
+```
+grezzo  = testo_senza_tag / 16,9 + somma dei <break>
+montato = grezzo x 0,812        (pause a 0,30 s + atempo 1,12)
+video   = montato + copertina + chiusura
+```
+
+Verificato sulla 1.5: previsti 417 s di grezzo, misurati 416,7.
+In pratica: **una lezione da 6:00 vuole circa 6.000 caratteri di testo netto**,
+distribuiti su 39-40 blocchi. Conviene stimare *prima* di generare le tracce,
+perche' gli script di partenza sono sempre corti di un terzo e vanno allungati.
+
 ## 2. Avatar
 
 - **Look unico, canale e corso: `89cf01e0c22547169c460186be0c67a8`** ("Aki in his
@@ -109,6 +128,14 @@ negli script delle lezioni — si usa `script/cards_corso.mjs`):
   ElevenLabs non c'è quel parametro, il ritmo lo fanno le pause.
 - copertine e chiusure sono mute: la musica la aggiunge Achille in coda, qui
   non c'è modo di mixare l'audio.
+
+- **Nei titoli in Cormorant i numeri vanno scritti a parole.** Il Cormorant
+  Garamond usa cifre di stile antico: in «Fine del Modulo 1» la `1` esce bassa e
+  si legge come una `I`, cioe' «Modulo I». Scrivere «Fine del primo modulo».
+  Nelle etichette e negli elenchi in Jost le cifre vanno bene.
+- Il layout `closing` accetta anche `title` e `sub` oltre al logo esteso: serve
+  per le chiusure di modulo, che durano **15 s** invece di 10 e annunciano il
+  modulo successivo.
 
 ## 4. Immagini e clip
 
