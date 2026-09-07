@@ -19,8 +19,18 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   `ffmpeg -i grezzo.mp3 -filter:a atempo=1.12 -b:a 128k -ar 44100 -ac 1 finale.mp3`
   (ffmpeg si installa con `pip install imageio-ffmpeg`, percorso da
   `imageio_ffmpeg.get_ffmpeg_exe()`).
-- I tag `<break time="Xs"/>` **non** cambiano il ritmo: verificato con un A/B,
-  20,5 s senza contro 20,7 s con. Non usarli per accelerare.
+- **Le pause vanno accorciate in post, sempre.** Il 19% di quello che ElevenLabs
+  restituisce e' silenzio oltre un quarto di secondo: le pause interne dei tag
+  `<break>` piu' il silenzio che lascia in testa e in coda a ogni blocco. Con
+  35-40 blocchi per lezione quel silenzio si somma e il video sembra rallentato.
+  Il filtro va **prima** di `atempo`, nella stessa catena:
+  `silenceremove=start_periods=1:start_silence=0.05:start_threshold=-45dB:stop_periods=-1:stop_duration=0.35:stop_silence=0.30:stop_threshold=-45dB,atempo=1.12`
+  Taglia il silenzio ai bordi e limita ogni pausa interna a 0,30 s. La soglia
+  -45 dB prende solo il silenzio vero, non tocca le parole. Vale un altro 15-20%
+  di durata oltre all'accelerazione.
+- I tag `<break time="Xs"/>` **non** accorciano e non allungano il totale in modo
+  utile: verificato con un A/B, 20,5 s senza contro 20,7 s con. Servono solo a
+  suggerire dove sta il respiro, e comunque il filtro qui sopra li ridimensiona.
 - In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
   si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
