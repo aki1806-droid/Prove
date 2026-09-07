@@ -122,8 +122,8 @@ Batch `006f71c871e44b64b61d82711cdb94b7`, 33 elementi, tutti `completed`.
 **Cover.** Scena 1 da 15 s a **3 s**. La chiusura resta a 10 s.
 
 Montaggio finale: video_id `bd0c0e980bb8f4d709e25abc2877ea59`, 35 scene, 1080p 16:9,
-sottotitoli SRT impressi. Durata attesa ~5:50 (parlato 363 s / 1,12 = 324 s, piu'
-13 s di cover e chiusura).
+sottotitoli SRT impressi. **Durata finale 5:37** (336,8 s): parlato 325,9 s piu'
+3 s di copertina e 10 s di chiusura. Render in 9 minuti.
 
 Da ignorare le versioni precedenti: `d596a7f61f45e09adc2d7c6230561c9a` (slide
 sbagliata alla scena 22) e quella a voce piena velocita'.
