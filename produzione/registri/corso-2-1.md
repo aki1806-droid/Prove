@@ -1,8 +1,9 @@
 # Corso «Dire, ascoltare, convincere» — Lezione 2.1
 ## L'ottanta per cento è attesa del tuo turno — apertura del Modulo 2
 
-**video_id** `698a04930db66aee2a9938c9f754f185` — 40 scene, 16:9, 1080p,
-sottotitoli impressi (srt + style default).
+**video_id** `698a04930db66aee2a9938c9f754f185` — completato, **5:36** (335,6 s),
+40 scene, 16:9, 1080p, sottotitoli impressi (srt + style default).
+Pagina HeyGen: https://app.heygen.com/videos/698a04930db66aee2a9938c9f754f185
 
 | | |
 |---|---|

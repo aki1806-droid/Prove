@@ -37,7 +37,7 @@ Misurato sulle 40 tracce di questa lezione:
 | 0,18 s | 294,6 s | 5:07 |
 | **0,14 s (nuovo standard)** | **293,5 s** | **5:06** |
 
-Da 6:10 a 5:06 con lo stesso identico parlato. La regola sta ora in
+Da 6:10 a **5:06** (misurato: 305,6 s) con lo stesso identico parlato. La regola sta ora in
 STANDARD.md: **non esistono eccezioni di ritmo**, nemmeno per una lezione
 sul ritmo.
 
