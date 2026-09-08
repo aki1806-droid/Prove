@@ -36,6 +36,14 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 - I tag `<break time="Xs"/>` **non** accorciano e non allungano il totale in modo
   utile: verificato con un A/B, 20,5 s senza contro 20,7 s con. Servono solo a
   suggerire dove sta il respiro, e comunque il filtro qui sopra li ridimensiona.
+- **Se serve una voce diversa dalla sua, `eleven_v3` con i tag di intenzione.**
+  Usato per il cut alternativo della 2.1 con Luca Ward
+  (`tVdVcJPudubxmTmAw4tE`). I tag si scrivono in inglese in testa al blocco —
+  `[serious]`, `[emphatic]`, `[thoughtful]`, `[curious]`, `[warm]` — e **non
+  vengono letti ad alta voce**: verificato con un A/B piu' `silencedetect`,
+  6,32 s con tag contro 6,31 s senza. `[pausa]` invece genera silenzio vero
+  (1,65 s) che il filtro poi butta via, quindi non serve a niente: non usarlo.
+  Il resto della catena non cambia, filtro e 1,12x come sempre.
 - In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
   si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
