@@ -15,6 +15,8 @@ sostituisce, è un'alternativa da confrontare.
 | scene | 40 — 38 blocchi + copertina 3 s + chiusura 10 s |
 | formato | 16:9, 1080p, sottotitoli SRT bruciati |
 | avatar | nessuno |
+| durata | **5:53** (352,9 s) |
+| pagina | https://app.heygen.com/videos/dffb49988fa3e412db6b8e5ca400063e |
 
 ## Voce
 
@@ -43,7 +45,7 @@ atempo=1.12
 Su s09 in più `apad=whole_dur=6`, per tenere la clip del bar sei secondi.
 
 Parlato montato: **340,7 s**. Con copertina e chiusura il video finito sta
-intorno ai **5:54**.
+intorno ai 5:54; il render finito misura **5:53**.
 
 ## Grafica
 
