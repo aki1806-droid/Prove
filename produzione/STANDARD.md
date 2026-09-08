@@ -49,12 +49,17 @@ caratteri di testo netto al secondo di parlato**, misurato su due lezioni
 
 ```
 grezzo  = testo_senza_tag / 16,9 + somma dei <break>
-montato = grezzo x 0,812        (pause a 0,30 s + atempo 1,12)
+montato = grezzo x 0,764        (pause a 0,14 s + atempo 1,12)
 video   = montato + copertina + chiusura
 ```
 
 Verificato sulla 1.5: previsti 417 s di grezzo, misurati 416,7.
-In pratica: **una lezione da 6:00 vuole circa 6.000 caratteri di testo netto**,
+Scorciatoia che vale quanto la formula: **18,6 caratteri di testo netto per
+secondo di video finito** (misurato sulla 2.1: 6022 caratteri -> 323,3 s).
+Con le pause corte i tag `<break>` contano poco, perche' vengono tagliati a
+0,14 s comunque: meglio metterne pochi e brevi, costano meno crediti.
+
+In pratica: **una lezione da 6:00 vuole circa 6.500 caratteri di testo netto**,
 distribuiti su 39-40 blocchi. Conviene stimare *prima* di generare le tracce,
 perche' gli script di partenza sono sempre corti di un terzo e vanno allungati.
 
