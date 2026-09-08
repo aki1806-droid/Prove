@@ -24,17 +24,15 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   `<break>` piu' il silenzio che lascia in testa e in coda a ogni blocco. Con
   35-40 blocchi per lezione quel silenzio si somma e il video sembra rallentato.
   Il filtro va **prima** di `atempo`, nella stessa catena:
-  `silenceremove=start_periods=1:start_silence=0.05:start_threshold=-45dB:stop_periods=-1:stop_duration=0.35:stop_silence=0.30:stop_threshold=-45dB,atempo=1.12`
-  Taglia il silenzio ai bordi e limita ogni pausa interna a 0,30 s. La soglia
+  `silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,atempo=1.12`
+  Taglia il silenzio ai bordi e limita ogni pausa interna a **0,14 s**. La soglia
   -45 dB prende solo il silenzio vero, non tocca le parole. Vale un altro 15-20%
   di durata oltre all'accelerazione.
-- **Eccezione: le lezioni che parlano di ritmo.** Se il contenuto stesso della
-  lezione e' il tempo del parlato — pause, velocita', paraverbale — il montaggio
-  standard contraddice quello che il video dice. In quel caso si scende a
-  `atempo=1.05` e si alzano `stop_duration` e `stop_silence` a **0,6 s**: le
-  pause restano udibili senza tornare al passo lento che era stato bocciato.
-  Fatto cosi' nella 1.4, dove il taglio del silenzio e' sceso dal 19% al 5,7%.
-  Resta una scelta da confermare con Achille, non un automatismo.
+- **Le pause corte valgono sempre, anche quando il contenuto parla di pause.**
+  Nella 1.4 (il paraverbale) avevo montato a 1,05x con le pause a 0,6 s per non
+  contraddire quello che il video diceva. Achille ha bocciato: le vuole brevi
+  comunque, e la lezione e' stata rifatta allo standard. **Non esistono
+  eccezioni di ritmo**: se un copione chiede 0,92x o "pause reali", si ignora.
 - I tag `<break time="Xs"/>` **non** accorciano e non allungano il totale in modo
   utile: verificato con un A/B, 20,5 s senza contro 20,7 s con. Servono solo a
   suggerire dove sta il respiro, e comunque il filtro qui sopra li ridimensiona.

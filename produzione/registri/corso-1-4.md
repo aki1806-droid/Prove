@@ -2,8 +2,8 @@
 ## Il paraverbale: tono, ritmo, pause
 
 **video_id** `942bf8bc098f9d91f7ad18bb5af499b4` — completato, **6:10** (370,0 s),
-42 scene, 16:9, 1080p, sottotitoli impressi (srt + style default).
-Pagina HeyGen: https://app.heygen.com/videos/942bf8bc098f9d91f7ad18bb5af499b4
+16:9, 1080p, sottotitoli impressi (srt + style default).
+Pagina HeyGen: https://app.heygen.com/videos/40a2232b59c5f1dcd761efcde831d374
 
 | | |
 |---|---|
@@ -14,28 +14,32 @@ Pagina HeyGen: https://app.heygen.com/videos/942bf8bc098f9d91f7ad18bb5af499b4
 | copertina | 3 s · **chiusura** 10 s |
 | batch asset | `e7741813248949e594be785de710c39b` (71 file, tutti completed) |
 
-### Velocità: l'eccezione della 1.4
+### Velocità: l'eccezione che non esisteva
 
-Lo script della lezione chiedeva **0,92×** e «pause reali, se una pausa sembra
-troppo lunga tenerla»; la nota di produzione generale, dopo la revisione delle
-prime tre lezioni, chiede pause corte. Le due cose si contraddicono, quindi la
-lezione è stata montata **a metà strada**:
+Questa lezione era stata montata a **1,05× con le pause limitate a 0,6 s**, per
+non contraddire il proprio contenuto: parla di pause, e sembrava sbagliato
+tagliarle. Achille ha bocciato la scelta — le vuole brevi comunque, «anzi molto
+brevi» — e la lezione è stata rifatta allo standard, anzi più stretta:
 
 ```
-silenceremove=start_periods=1:start_silence=0.05:start_threshold=-45dB:
-              stop_periods=-1:stop_duration=0.6:stop_silence=0.6:stop_threshold=-45dB,
-atempo=1.05
+silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:
+              stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,
+atempo=1.12
 ```
 
-- **1,05×** invece di 1,12× — la lezione respira senza tornare al passo bocciato.
-- **pause tagliate a 0,6 s** invece di 0,3 s — restano udibili, perché qui la
-  pausa *è* il contenuto.
+Rifatta dagli mp3 grezzi già in locale, quindi a costo zero di ElevenLabs.
+Misurato sulle 40 tracce di questa lezione:
 
-Effetto misurato: 379,3 s grezzi → **357,8 s** lavorati (−5,7 %; nelle altre
-lezioni il taglio era −19 %). Video finito ≈ **6:10** con copertina e chiusura.
+| pause | montato | video |
+|---|---|---|
+| 0,30 s (vecchio standard) | 306,2 s | 5:19 |
+| 0,22 s | 299,4 s | 5:12 |
+| 0,18 s | 294,6 s | 5:07 |
+| **0,14 s (nuovo standard)** | **293,5 s** | **5:06** |
 
-Se Achille preferisce uno dei due estremi si rifà senza costi ElevenLabs: gli
-`.mp3` grezzi sono in `l14/mp3/*_raw.mp3`, basta ripassare il filtro.
+Da 6:10 a 5:06 con lo stesso identico parlato. La regola sta ora in
+STANDARD.md: **non esistono eccezioni di ritmo**, nemmeno per una lezione
+sul ritmo.
 
 ### Clip
 

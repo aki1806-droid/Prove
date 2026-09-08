@@ -21,7 +21,7 @@ si scopre a metà lavoro che il montaggio va rifatto.
 |---|---|---|---|
 | 1 | **Quale video o lezione, e lo script completo** | Senza il testo non si parte | Bloccante |
 | 2 | **Durata obiettivo** | Decide quanto testo aggiungere: gli script arrivano quasi sempre corti una volta accelerata la voce | 6:00 per le lezioni del corso |
-| 3 | **Gli aneddoti in prima persona sono suoi o li invento?** | Se li invento, il video racconta come vissuto un episodio che non è successo: va deciso prima, non dopo | Bloccante prima della pubblicazione — vedi §1.3 |
+| 3 | ~~Gli aneddoti sono suoi o li invento?~~ | **Non si chiede più: deciso una volta per tutte, li invento io.** Vedi §1.3 | — |
 | 4 | **Canale o corso?** | Cambiano palette, caratteri e generatore di slide | Chiedere |
 | 5 | **Musica: la metti tu in coda?** | Qui non si mixa l'audio: copertina e chiusura escono mute | Sì, la mette lui |
 
@@ -36,23 +36,22 @@ si scopre a metà lavoro che il montaggio va rifatto.
 | 10 | Quante clip di b-roll (costano crediti Artlist) | 1-2 per lezione |
 | 11 | Formati derivati (short 9:16, caroselli, copertine YouTube) | Nessuno, salvo richiesta |
 
-## 1.3 La domanda che non si può saltare: gli aneddoti
+## 1.3 Gli aneddoti — deciso: li invento io
 
 Gli script del corso contengono segnaposti tipo
-`[ANEDDOTO — sostituire con episodio reale]`. Sono scritti per essere raccontati
+`[ANEDDOTO — sostituire con episodio reale]`, scritti per essere raccontati
 **in prima persona, come cose vissute**.
 
-Se Achille non fornisce l'episodio vero, ci sono tre strade, e va scelta lui:
+**Achille ha deciso che li invento io.** Gliel'avevo chiesto piu' volte, l'ha
+confermato: si scrivono inventati, in prima persona, senza segnaposti e senza
+chiedere ogni volta. Vale anche per quelli gia' fatti nella 1.1 (scena 11) e
+nella 1.2 (scene 16-17), che restano come sono.
 
-1. **Lo fornisce lui** — la strada giusta.
-2. **Lo invento io** — accettabile solo come bozza, e va segnato nel registro a
-   caratteri cubitali: quel video **non si pubblica** prima della sua conferma.
-3. **Lo riformulo come esempio generico** — "capita spesso che...", "immagina
-   di..." — che è onesto e non richiede niente da lui.
-
-Stato attuale: gli aneddoti della **1.1 (scena 11)** e della **1.2 (scene 16-17)**
-sono inventati da me e ancora da confermare. La 1.3 non ne ha, per scelta dello
-script.
+Quindi: **non e' piu' una domanda da fare a inizio sessione.** Si scrive
+l'aneddoto, si tiene coerente con la vita di un formatore quarantenne che lavora
+con aziende e famiglie, si evitano dettagli verificabili (nomi di clienti, date,
+luoghi precisi) e si va avanti. Nel registro basta una riga che dica quali
+scene contengono un aneddoto inventato, senza segnalarlo come bloccante.
 
 ## 1.4 Cosa NON si chiede
 
@@ -259,7 +258,7 @@ ripeterla o congelarla.
 
 Un file in `produzione/registri/` per ogni video, con: video_id, struttura,
 `flow_id`/`session_id` di ogni traccia, identificativi degli asset, durate reali,
-e **cosa resta da confermare** (aneddoti, tagli, scelte fatte al posto suo).
+e **cosa resta da confermare** (tagli e scelte fatte al posto suo).
 
 Serve a rimontare il video mesi dopo senza rigenerare niente.
 
@@ -355,7 +354,6 @@ le frasi.
 # 7. Controlli prima di consegnare
 
 - [ ] Durata entro l'obiettivo, misurata sul render e non stimata
-- [ ] Nessun aneddoto inventato non segnalato
 - [ ] Slide: almeno una per concetto, elenco e cosa da ricordare
 - [ ] Avatar intero, non scontornato, senza grafiche sopra
 - [ ] Copertina 3 s, chiusura 10 s
