@@ -1,40 +1,77 @@
-# Registro — 2.1 «Perché non ascoltiamo», versione senza avatar (voce Luca Ward)
+# Registro — 2.1 «Perché non ascoltiamo», senza avatar, voce Luca Ward
 
-Cut alternativo della lezione 2.1: **nessun avatar**, tutte slide a piena
-inquadratura più la clip del bar, voce **Luca Ward** su **eleven_v3** in chiave
-molto espressiva. La versione standard con avatar resta
-`698a04930db66aee2a9938c9f754f185` (registro `corso-2-1.md`): questa non la
-sostituisce, è un'alternativa da confrontare.
+Due montaggi della stessa lezione, entrambi senza avatar e con la voce Luca
+Ward. Il secondo nasce da una critica di Achille sul primo: fra un blocco e
+l'altro si sentivano troppe differenze di tono.
 
-## Video
+| versione | video_id | durata | come è fatto l'audio |
+|---|---|---|---|
+| **traccia unica** (buona) | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:52 | 2 generazioni lunghe, poi tagliate |
+| a blocchi (superata) | `dffb49988fa3e412db6b8e5ca400063e` | 5:53 | 38 generazioni separate |
+
+La versione standard con avatar resta `698a04930db66aee2a9938c9f754f185`
+(registro `corso-2-1.md`). Nessuna delle due la sostituisce.
+
+## Perché la traccia unica
+
+Con 38 generazioni separate ogni blocco parte da zero: ElevenLabs non sa cosa
+è venuto prima, e volume, colore e passo cambiano a ogni stacco. Dentro una
+sola generazione invece la lettura è continua, quindi il problema sparisce
+per costruzione.
+
+Il limite di `eleven_v3` è **5000 caratteri per richiesta**, e la lezione ne
+conta 6092: quindi due generazioni, non una. Il taglio fra le due cade su uno
+stacco di capitolo vero (fra s17, «e il quarto, il più insidioso di tutti», e
+s18, «guarda cosa hanno in comune questi quattro»), dove un cambio di tono è
+voluto.
+
+I tag di intenzione sono scesi da 38 a **sei**, messi solo alle svolte reali
+del discorso: s02 `[serious]`, s08 `[curious]`, s18 `[warm]`, s22 `[warm]`,
+s28 `[curious]`, s36 `[warm]`.
+
+## Come si taglia una traccia unica sui blocchi
+
+Il problema: HeyGen vuole una traccia per scena, ma la generazione è un unico
+file di sei minuti. Serve sapere a che secondo finisce ogni blocco.
+
+1. **Candidati.** `silencedetect` sull'audio grezzo dà tutti i silenzi
+   (81 nella parte A, 95 nella B). Un confine di blocco è sempre uno di questi,
+   ma non tutti i silenzi sono confini: molte pause di frase sono più lunghe di
+   quelle di paragrafo, quindi una soglia non basta.
+2. **Attese.** Le durate dei 38 blocchi della versione precedente danno la
+   proporzione attesa. Vanno calcolate **nel dominio del parlato** — il tempo
+   al netto dei silenzi — altrimenti la varianza delle pause sporca tutto:
+   passando al parlato lo scarto medio è sceso da 0,43 s a 0,31 s.
+3. **Scelta.** Programmazione dinamica monotòna: si scelgono i 15 (e 21)
+   candidati che minimizzano lo scarto quadratico dalle attese.
+4. **Verifica, che è il passaggio che conta.** Si estraggono 1,6 s *prima* di
+   ogni taglio, si concatenano separati da silenzio e si manda tutto a
+   `eleven_scribe_v1` in una sola trascrizione. Il testo dice, parola per
+   parola, se ogni taglio cade dove deve. Alla prima tornata **9 tagli su 36
+   erano sbagliati** — la programmazione dinamica da sola non basta.
+5. **Correzione e ricontrollo.** Si sposta il taglio e si riprova. Tre tornate:
+   36 → 9 → 2 → 0 errori.
+
+Attenzione a una trappola: per correggere si può cercare la coda trascritta
+dentro il copione, ma **se quella frase compare due volte il calcolo sbaglia**.
+È successo con «buona intenzione» (chiude sia s21 sia s35) e con «quattro
+motivi». Quando la coda è ambigua, la regola sicura è prendere il silenzio
+immediatamente precedente.
+
+La trascrizione **non restituisce i tempi per parola**, solo il testo: per
+questo serve la prova a finestre invece di un allineamento diretto.
+
+## Voce e montaggio
 
 | campo | valore |
 |---|---|
-| video_id | `dffb49988fa3e412db6b8e5ca400063e` |
-| titolo | 2.1 — Perché non ascoltiamo (voce Luca Ward, senza avatar) |
-| scene | 40 — 38 blocchi + copertina 3 s + chiusura 10 s |
-| formato | 16:9, 1080p, sottotitoli SRT bruciati |
-| avatar | nessuno |
-| durata | **5:53** (352,9 s) |
-| pagina | https://app.heygen.com/videos/dffb49988fa3e412db6b8e5ca400063e |
-
-## Voce
-
-| campo | valore |
-|---|---|
-| voce | Luca Ward — `tVdVcJPudubxmTmAw4tE` (clonata, romano, «uomo di circa 50 anni molto carismatico») |
+| voce | Luca Ward — `tVdVcJPudubxmTmAw4tE` |
 | modello | `eleven_v3` |
-| espressività | tag di intenzione in testa a ogni blocco: `[serious]`, `[emphatic]`, `[thoughtful]`, `[curious]`, `[warm]` |
+| generazioni | 2 (2917 e 3173 caratteri) |
+| grezzo | 205,2 s + 238,2 s |
+| montato | 339,0 s di parlato |
 
-I tag sono in inglese perché il modello li riconosce in quella forma. **Non
-vengono letti ad alta voce**: verificato con un A/B su s02 e `silencedetect` —
-parlato 6,32 s con tag contro 6,31 s senza, cioè identici. `[pausa]` invece
-genera silenzio vero (1,65 s) che il filtro poi butta via, quindi è inutile
-sotto la regola delle pause corte e non è stato usato.
-
-## Montaggio audio
-
-Filtro standard, identico a tutte le altre lezioni:
+Filtro invariato, quello standard:
 
 ```
 silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:
@@ -42,63 +79,61 @@ stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,
 atempo=1.12
 ```
 
-Su s09 in più `apad=whole_dur=6`, per tenere la clip del bar sei secondi.
-
-Parlato montato: **340,7 s**. Con copertina e chiusura il video finito sta
-intorno ai 5:54; il render finito misura **5:53**.
+più `apad=whole_dur=6` su s09, per tenere la clip del bar sei secondi.
 
 ## Grafica
 
-Le 21 slide della 2.1 standard sono riusate senza rigenerarle (stessi asset id).
-Al posto dei 18 blocchi che nella versione con avatar erano inquadrature di
-Achille sono state disegnate **18 slide nuove** (c02, c04, c06, c08, c12, c14,
-c16, c18, c20, c22, c24, c26, c28, c30, c32, c34, c36, c38), alternando i temi
-`deep` e `sand` per rompere la monotonia di un video fatto di sole slide.
+Invariata rispetto al primo montaggio: 21 slide riusate dalla 2.1 standard e
+18 nuove (c02, c04, c06, c08, c12, c14, c16, c18, c20, c22, c24, c26, c28,
+c30, c32, c34, c36, c38) al posto dei blocchi che erano inquadrature di
+Achille, con i temi `deep` e `sand` alternati.
 
 ## Blocchi
 
-| blocco | slide | tag | durata montata (s) |
-|---|---|---|---|
-| s02 | c02 (nuova) | `[serious]` | 6.85 |
-| s03 | c03 (da 2.1) | `[emphatic]` | 12.10 |
-| s04 | c04 (nuova) | `[thoughtful]` | 9.22 |
-| s05 | c05 (da 2.1) | `[thoughtful]` | 13.45 |
-| s06 | c06 (nuova) | `[serious]` | 14.38 |
-| s07 | c07 (da 2.1) | `[warm]` | 10.28 |
-| s08 | c08 (nuova) | `[curious]` | 10.18 |
-| s09 | c09 (da 2.1) | `[serious]` | 6.00 |
-| s10 | c10 (da 2.1) | `[emphatic]` | 6.73 |
-| s11 | c11 (da 2.1) | `[thoughtful]` | 13.41 |
-| s12 | c12 (nuova) | `[curious]` | 13.77 |
-| s13 | c13 (da 2.1) | `[thoughtful]` | 9.59 |
-| s14 | c14 (nuova) | `[thoughtful]` | 14.08 |
-| s15 | c15 (da 2.1) | `[thoughtful]` | 9.96 |
-| s16 | c16 (nuova) | `[serious]` | 11.38 |
-| s17 | c17 (da 2.1) | `[emphatic]` | 4.92 |
-| s18 | c18 (nuova) | `[warm]` | 6.50 |
-| s19 | c19 (da 2.1) | `[warm]` | 11.17 |
-| s20 | c20 (nuova) | `[thoughtful]` | 10.22 |
-| s21 | c21 (da 2.1) | `[emphatic]` | 5.09 |
-| s22 | c22 (nuova) | `[warm]` | 3.62 |
-| s23 | c23 (da 2.1) | `[emphatic]` | 5.23 |
-| s24 | c24 (nuova) | `[curious]` | 12.59 |
-| s25 | c25 (da 2.1) | `[warm]` | 7.88 |
-| s26 | c26 (nuova) | `[serious]` | 6.75 |
-| s27 | c27 (da 2.1) | `[thoughtful]` | 11.40 |
-| s28 | c28 (nuova) | `[curious]` | 4.72 |
-| s29 | c29 (da 2.1) | `[thoughtful]` | 8.18 |
-| s30 | c30 (nuova) | `[thoughtful]` | 10.54 |
-| s31 | c31 (da 2.1) | `[serious]` | 9.38 |
-| s32 | c32 (nuova) | `[thoughtful]` | 14.75 |
-| s33 | c33 (da 2.1) | `[emphatic]` | 7.49 |
-| s34 | c34 (nuova) | `[curious]` | 11.58 |
-| s35 | c35 (da 2.1) | `[emphatic]` | 4.31 |
-| s36 | c36 (nuova) | `[warm]` | 5.67 |
-| s37 | c37 (da 2.1) | `[serious]` | 5.17 |
-| s38 | c38 (nuova) | `[serious]` | 8.98 |
-| s39 | c39 (da 2.1) | `[emphatic]` | 3.14 |
+| blocco | slide | durata montata (s) |
+|---|---|---|
+| s02 | c02 (nuova) | 6.55 |
+| s03 | c03 (da 2.1) | 11.01 |
+| s04 | c04 (nuova) | 9.00 |
+| s05 | c05 (da 2.1) | 13.19 |
+| s06 | c06 (nuova) | 14.15 |
+| s07 | c07 (da 2.1) | 9.81 |
+| s08 | c08 (nuova) | 9.69 |
+| s09 | c09 (da 2.1) | 6.00 |
+| s10 | c10 (da 2.1) | 6.34 |
+| s11 | c11 (da 2.1) | 13.24 |
+| s12 | c12 (nuova) | 13.18 |
+| s13 | c13 (da 2.1) | 9.40 |
+| s14 | c14 (nuova) | 13.45 |
+| s15 | c15 (da 2.1) | 9.80 |
+| s16 | c16 (nuova) | 10.85 |
+| s17 | c17 (da 2.1) | 4.29 |
+| s18 | c18 (nuova) | 6.33 |
+| s19 | c19 (da 2.1) | 11.77 |
+| s20 | c20 (nuova) | 11.05 |
+| s21 | c21 (da 2.1) | 4.68 |
+| s22 | c22 (nuova) | 3.86 |
+| s23 | c23 (da 2.1) | 5.37 |
+| s24 | c24 (nuova) | 13.42 |
+| s25 | c25 (da 2.1) | 8.48 |
+| s26 | c26 (nuova) | 6.67 |
+| s27 | c27 (da 2.1) | 10.89 |
+| s28 | c28 (nuova) | 5.11 |
+| s29 | c29 (da 2.1) | 8.37 |
+| s30 | c30 (nuova) | 10.17 |
+| s31 | c31 (da 2.1) | 9.97 |
+| s32 | c32 (nuova) | 15.81 |
+| s33 | c33 (da 2.1) | 7.19 |
+| s34 | c34 (nuova) | 12.19 |
+| s35 | c35 (da 2.1) | 4.32 |
+| s36 | c36 (nuova) | 6.03 |
+| s37 | c37 (da 2.1) | 5.35 |
+| s38 | c38 (nuova) | 8.54 |
+| s39 | c39 (da 2.1) | 3.50 |
 ## Da verificare
 
-Non posso ascoltare l'audio: non so dire se l'espressività v3 di Luca Ward
-funzioni davvero. Vale la pena controllare il primo minuto prima di applicare
-lo stesso trattamento altrove.
+Non posso ascoltare l'audio. So che i 36 tagli cadono sulle parole giuste,
+perché l'ho verificato con la trascrizione, ma non so come **suonano** gli
+stacchi né se il tono ora è davvero uniforme. Vale la pena sentire i primi due
+minuti, e in particolare il passaggio fra s17 e s18, che è il punto di
+giunzione fra le due generazioni.

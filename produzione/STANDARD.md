@@ -44,6 +44,29 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   6,32 s con tag contro 6,31 s senza. `[pausa]` invece genera silenzio vero
   (1,65 s) che il filtro poi butta via, quindi non serve a niente: non usarlo.
   Il resto della catena non cambia, filtro e 1,12x come sempre.
+- **Su un video senza avatar, genera una traccia sola e poi tagliala.** Con una
+  generazione per blocco ogni blocco riparte da zero e si sentono i salti di
+  tono fra una scena e l'altra: Achille l'ha bocciato sulla 2.1. Dentro una
+  sola generazione la lettura e' continua e il problema non esiste. Il limite
+  di `eleven_v3` e' **5000 caratteri**, quindi una lezione da 6000 sta in due
+  generazioni: taglia fra le due su uno stacco di capitolo, dove il cambio di
+  tono e' voluto. Con la traccia unica servono pochi tag di intenzione, cinque
+  o sei alle svolte vere del discorso, non uno per blocco.
+- **Come si trova dove tagliare.** `silencedetect` sul grezzo da' i candidati
+  (un confine di blocco e' sempre un silenzio, ma non tutti i silenzi sono
+  confini: molte pause di frase sono piu' lunghe di quelle di paragrafo).
+  Le durate attese si calcolano **nel dominio del parlato**, cioe' al netto dei
+  silenzi, se no la varianza delle pause sporca la stima. Poi programmazione
+  dinamica monotona per scegliere i candidati.
+  **Il risultato va verificato, sempre**: da solo l'allineamento sbaglia (9 su
+  36 alla prima passata sulla 2.1). Estrai 1,6 s prima di ogni taglio,
+  concatenali separati da silenzio e mandali a `eleven_scribe_v1` in una
+  trascrizione sola: il testo dice parola per parola se il taglio cade dove
+  deve. Correggi e ripeti finche' non e' pulito. Nota: la trascrizione
+  restituisce solo il testo, **non i tempi per parola** — per questo serve la
+  prova a finestre. E se la coda di un blocco compare due volte nel copione
+  (in 2.1 «buona intenzione» e «quattro motivi») la ricerca automatica sbaglia
+  bersaglio: in quel caso prendi il silenzio immediatamente precedente.
 - In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
   si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
