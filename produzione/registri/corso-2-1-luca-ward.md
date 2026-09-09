@@ -6,7 +6,7 @@ l'altro si sentivano troppe differenze di tono.
 
 | versione | video_id | durata | come è fatto l'audio |
 |---|---|---|---|
-| **traccia unica** (buona) | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:52 | 2 generazioni lunghe, poi tagliate |
+| **traccia unica** (buona) | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:51 | 2 generazioni lunghe, poi tagliate |
 | a blocchi (superata) | `dffb49988fa3e412db6b8e5ca400063e` | 5:53 | 38 generazioni separate |
 
 La versione standard con avatar resta `698a04930db66aee2a9938c9f754f185`
