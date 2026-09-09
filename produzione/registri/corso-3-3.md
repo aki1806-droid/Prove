@@ -111,6 +111,61 @@ blocco. È finita in `STANDARD.md`.
 della gomma, a 6 s), `s44` («una gomma per cancellare», a 5 s) e `s46` (le due
 frasi della prova, a 6,5 s).
 
+
+## Blocchi
+
+`·` slide grafica · `▪` ripresa Higgsfield
+
+| blocco | slide | tipo | durata (s) |
+|---|---|---|---|
+| s02 | c02 | frase | 9.64 |
+| s03 | c03 | frase | 8.44 |
+| s04 | c04 | schede **·** | 5.04 |
+| s05 | c05 | frase | 8.42 |
+| s06 | c06 | frase | 7.68 |
+| s07 | c07 | citazione | 6.73 |
+| s08 | c08 | frase | 7.57 |
+| s09 | c09 | frase | 7.50 |
+| s10 | c10 | grafico **·** | 7.76 |
+| s11 | c11 | frase | 8.05 |
+| s12 | c12 | frase | 6.92 |
+| s13 | c13 | frase | 7.09 |
+| s14 | c14 | frase | 6.66 |
+| s15 | c15 | disegno **·** | 8.32 |
+| s16 | — | b-roll — due colleghi ai due lati di una stanza spoglia, di spalle, girati verso la stessa finestra **▪** | 8.00 |
+| s17 | c17 | citazione | 7.09 |
+| s18 | c18 | numero **·** | 8.99 |
+| s19 | c19 | elenco **·** | 8.96 |
+| s20 | c20 | frase | 5.40 |
+| s21 | c21 | elenco **·** | 6.12 |
+| s22 | c22 | tabella **·** | 9.22 |
+| s23 | c23 | citazione | 7.08 |
+| s24 | c24 | frase | 9.23 |
+| s25 | c25 | elenco **·** | 7.04 |
+| s26 | c26 | sostituzioni **·** | 9.41 |
+| s27 | c27 | memo (posa) | 5.00 |
+| s28 | — | foto — una gomma ferma a metà cancellatura su una pagina scritta, con i residui **▪** | 6.00 |
+| s29 | c29 | frase | 5.22 |
+| s30 | c30 | frase | 8.14 |
+| s31 | c31 | numero **·** | 5.34 |
+| s32 | c32 | sostituzioni **·** | 4.02 |
+| s33 | c33 | frase | 6.34 |
+| s34 | c34 | citazione | 7.76 |
+| s35 | c35 | frase | 8.30 |
+| s36 | c36 | schede **·** | 3.53 |
+| s37 | c37 | frase | 5.48 |
+| s38 | c38 | frase | 9.36 |
+| s39 | c39 | frase | 7.07 |
+| s40 | — | foto — una pila di buste mai aperte sul tavolo dell'ingresso **▪** | 8.21 |
+| s41 | c41 | frase | 5.56 |
+| s42 | c42 | frase | 9.54 |
+| s43 | c43 | elenco **·** | 8.33 |
+| s44 | c44 | memo (posa) | 5.00 |
+| s45 | c45 | frase | 4.16 |
+| s46 | c46 | citazione (posa) | 6.50 |
+| s47 | c47 | frase | 7.70 |
+| s48 | c48 | frase | 5.69 |
+
 ## Da verificare
 
 Non sento l'audio e non vedo il montato: ho controllato le slide da ferme e i

@@ -1,0 +1,367 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.3",
+"title": "Empatia non è essere d'accordo",
+"sub": "Riformulazione ed empatia"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "un malinteso che costa caro",
+"title": "Ore vere.<br>Non modo di dire: <span class=\"gold\">la stessa frase</span>,<br>a voce sempre più alta."
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "di chi è la colpa",
+"title": "Non di chi le confonde.<br>Della lingua, che ci lascia usare<br><span class=\"gold\">la stessa parola</span> per tutte e tre."
+},
+{
+"file": "c04",
+"layout": "cards",
+"kicker": "tre cose indipendenti",
+"rows": [
+{
+"icona": "capire",
+"testo": "Capire — ricostruire il suo perché"
+},
+{
+"icona": "condividere",
+"testo": "Condividere — provare la stessa emozione"
+},
+{
+"icona": "approvare",
+"testo": "Approvare — dire che ha ragione"
+}
+]
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Capirlo perfettamente<br>e pensare che abbia<br><span class=\"gold\">torto marcio</span>."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "capire",
+"title": "Ricostruire perché<br>per lui ha senso.<br><span class=\"gold\">Ricostruire, non giustificare.</span>"
+},
+{
+"file": "c07",
+"layout": "quote",
+"kicker": "il test",
+"title": "Sai dire perché l'ha fatto,<br>senza dover dire<br>che ha fatto bene?"
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Dirgli che ha ragione<br>senza aver capito niente.<br><span class=\"gold\">Si chiama quieto vivere.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "condividere",
+"title": "Un'emozione<br>non è <span class=\"gold\">una posizione</span>."
+},
+{
+"file": "c10",
+"layout": "chart",
+"kicker": "quanto ti impegna",
+"bars": [
+{
+"et": "capire",
+"val": 3,
+"cifra": "niente"
+},
+{
+"et": "condividere",
+"val": 3,
+"cifra": "niente"
+},
+{
+"et": "approvare",
+"val": 100,
+"oro": true,
+"cifra": "tutto"
+}
+],
+"title": "Solo la terza riguarda i fatti. Le prime due riguardano lui."
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "perché siamo avari di capire",
+"title": "Lo trattiamo come un anticipo<br>sull'approvazione.<br><span class=\"gold\">Non c'è nessun anticipo.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Hanno paura<br>della <span class=\"gold\">stessa identica cosa</span>."
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "chi ascolta",
+"title": "«Se gli dico che lo capisco,<br>poi non posso più dirgli<br>che sbaglia.»"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "chi parla",
+"title": "«Se non mi dice che mi capisce,<br>vuol dire che <span class=\"gold\">non è d'accordo</span>.»"
+},
+{
+"file": "c15",
+"layout": "figure",
+"kicker": "come si incastra",
+"svg": "<svg viewBox=\"0 0 1180 520\">\n <path class=\"tratto\" d=\"M20 110 h490 v160 H20 z\"/>\n <text class=\"eti\" x=\"52\" y=\"170\">chi ascolta</text>\n <text class=\"eti oro\" x=\"52\" y=\"226\">tace, per non impegnarsi</text>\n <path class=\"tratto\" d=\"M670 110 h490 v160 H670 z\"/>\n <text class=\"eti\" x=\"702\" y=\"170\">chi parla</text>\n <text class=\"eti oro\" x=\"702\" y=\"226\">alza il tono, e ripete</text>\n <path class=\"tratto oro\" d=\"M510 158 H666\"/><path class=\"tratto oro\" d=\"M644 144 L670 158 L644 172\"/>\n <path class=\"tratto oro\" d=\"M670 222 H514\"/><path class=\"tratto oro\" d=\"M536 208 L510 222 L536 236\"/>\n <text class=\"eti\" x=\"590\" y=\"394\" text-anchor=\"middle\">nessuno dei due discute i fatti</text>\n</svg>",
+"title": "Un'ora, sulla parola «capire»."
+},
+{
+"file": "c17",
+"layout": "quote",
+"kicker": "la formula, in quest'ordine",
+"title": "«Ho capito perché per te è così.»<br><span class=\"gold\">«Io la vedo diversamente.»</span>"
+},
+{
+"file": "c18",
+"layout": "number",
+"num": "3",
+"unit": "",
+"fill": 100,
+"title": "decisioni tecniche in due frasi corte. Ognuna può rovinare le altre due."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "le tre decisioni",
+"active": 0,
+"rows": [
+"La comprensione viene <b>prima</b>",
+"La comprensione dev'essere <b>vera</b>",
+"Il disaccordo è dichiarato <b>tuo</b>"
+]
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Dopo il disaccordo<br>diventa <span class=\"gold\">una medicazione</span>.<br>E si sente che stai medicando."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "le tre decisioni",
+"active": 1,
+"rows": [
+"La comprensione viene <b>prima</b>",
+"La comprensione dev'essere <b>vera</b>",
+"Il disaccordo è dichiarato <b>tuo</b>"
+]
+},
+{
+"file": "c22",
+"layout": "table",
+"pari": true,
+"kicker": "come si riconosce quella finta",
+"cols": [
+"Finta",
+"Vera"
+],
+"rows": [
+[
+"è generica",
+"cita un dettaglio"
+],
+[
+"«è un momento difficile»",
+"«te l'hanno detto davanti a tutti»"
+],
+[
+"vale per chiunque",
+"poteva dirla solo lui"
+]
+]
+},
+{
+"file": "c23",
+"layout": "quote",
+"title": "«Ci lavori da sei anni<br>e te l'hanno detto in riunione,<br>davanti a tutti.»"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "a chi serve il dettaglio",
+"title": "Non a lui, per convincerlo.<br><span class=\"gold\">A te</span>, per accorgerti<br>se hai capito davvero."
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "le tre decisioni",
+"active": 2,
+"rows": [
+"La comprensione viene <b>prima</b>",
+"La comprensione dev'essere <b>vera</b>",
+"Il disaccordo è dichiarato <b>tuo</b>"
+]
+},
+{
+"file": "c26",
+"layout": "swap",
+"kicker": "due frasi, due richieste diverse",
+"rows": [
+[
+"«Non è così»",
+"«Io la vedo diversamente»"
+],
+[
+"ammetti che sbagliavi",
+"ascolta un'opinione"
+]
+]
+},
+{
+"file": "c27",
+"layout": "memo",
+"title": "E in mezzo<br>non c'è nessun <i>ma</i>."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Cancella tutto quello<br>che viene prima.<br><span class=\"gold\">E lo cancella in fretta.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "lo sentono arrivare",
+"title": "Appena senti «ti capisco»<br>sai già che sta per arrivare —<br>e <span class=\"gold\">smetti di ascoltare</span>."
+},
+{
+"file": "c31",
+"layout": "number",
+"num": "8",
+"unit": " parole",
+"fill": 40,
+"title": "spese per avvertire l'altro di mettersi in guardia."
+},
+{
+"file": "c32",
+"layout": "swap",
+"kicker": "la sostituzione",
+"rows": [
+[
+"«Ti capisco, ma…»",
+"«Ho capito perché per te è così.»<br>«Io la vedo diversamente.»"
+]
+]
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "a cosa serve il punto",
+"title": "Non è una pausa elegante.<br>È quello che rende la prima<br><span class=\"gold\">una frase intera</span>."
+},
+{
+"file": "c34",
+"layout": "quote",
+"kicker": "provalo adesso",
+"title": "Sentirai il <i>ma</i> che spinge<br>per rientrare esattamente lì."
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "se scappa",
+"title": "«No, aspetta.<br>Non era un <i>ma</i>.»<br><span class=\"gold\">Poi ricomincia dal punto.</span>"
+},
+{
+"file": "c36",
+"layout": "cards",
+"kicker": "le tre trappole",
+"rows": [
+{
+"icona": "gomma",
+"testo": "«Ti capisco, ma»"
+},
+{
+"icona": "chiave",
+"testo": "La comprensione grimaldello"
+},
+{
+"icona": "scansa",
+"testo": "Rinunciare al disaccordo"
+}
+]
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Capisco<br>per potermi <span class=\"gold\">aprire la strada</span><br>al mio punto."
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Funziona una volta.<br>Dalla seconda il tuo «capisco»<br><span class=\"gold\">non vale più niente</span>."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "sembra la più gentile",
+"title": "Non è empatia.<br><span class=\"gold\">È evitamento.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "quando non serve",
+"title": "Quando non ti sta chiedendo<br>di capirlo,<br>ma di <span class=\"gold\">decidere</span>."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Una frase, non tre.<br>Se ti dilunghi sembra che stia<br><span class=\"gold\">addolcendo un no già preso</span>."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "in tre righe",
+"rows": [
+"Capire non è approvare, e dirlo non ti costa niente",
+"Prima la comprensione, poi il tuo punto",
+"In mezzo, un punto fermo"
+]
+},
+{
+"file": "c44",
+"layout": "memo",
+"title": "Il <i>ma</i><br>è una gomma per cancellare."
+},
+{
+"file": "c45",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "In un disaccordo qualsiasi,<br>oggi, <span class=\"gold\">togli un ma</span>."
+},
+{
+"file": "c46",
+"layout": "quote",
+"title": "«Ho capito perché per te è così.»<br>Punto. Respira.<br>«Io la vedo diversamente.»"
+},
+{
+"file": "c47",
+"layout": "statement",
+"kicker": "il risultato che cerchi",
+"title": "Non che cambi idea.<br><span class=\"gold\">Che non alzi la voce.</span>"
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "È tutto qui,<br>ed è molto più difficile<br>di quanto sembra."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Dire, ascoltare, convincere",
+"site": "laparolagiusta.it"
+}
+]
