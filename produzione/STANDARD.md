@@ -127,6 +127,14 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 - **La pausa fra le finestre della prova e' 2,5 s**, non 1,5. Con 1,5 s
   `scribe` a volte non chiude la frase e due code finiscono attaccate: il
   confronto si sfasa di uno e sembra che sia sbagliato mezzo montaggio.
+- **Higgsfield rifiuta prompt innocui come «nsfw».** Sul modulo 3 e' successo
+  due volte, sempre sulla stessa causa: **persone descritte in modo generico**
+  («two people... faces not identifiable») e **la parola «bed»** («a chair
+  beside a neatly made bed»). Non c'e' da discutere col filtro: si riscrive.
+  Nomina i vestiti e l'inquadratura al posto di «people» («two colleagues in
+  office clothes, seen from behind»), e sostituisci l'oggetto incriminato con
+  uno che porta la stessa immagine (la poltrona vuota al posto del letto).
+  Ha funzionato al primo colpo tutte e due le volte.
 - **Riprese generate: Higgsfield costa un ordine di grandezza meno.** 32,5
   crediti per 5 s di video e 2 per un'immagine, contro i 400 crediti dei 5 s
   di Artlist. Ma il proxy blocca il suo CDN in scaricamento: i byte qui non

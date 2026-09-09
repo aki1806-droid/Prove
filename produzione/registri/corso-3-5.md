@@ -5,10 +5,10 @@ grafiche, due riprese Higgsfield e la terza pausa senza parole del corso.
 
 | campo | valore |
 |---|---|
-| video_id | *(in coda)* |
+| video_id | `d32b2f0c27fa4a8149ec60415cc56284` |
 | scene | 50 — copertina, 47 blocchi, la pausa, chiusura di modulo |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata attesa | 348,1 s (5:48) |
+| durata | 347,1 s (5:47) |
 | parlato | 326,1 s |
 
 ## Il copione è stato riscritto
