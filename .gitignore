@@ -8,6 +8,8 @@ Thumbs.db
 *.swp
 
 # Dipendenze e build
+__pycache__/
+*.pyc
 node_modules/
 dist/
 build/

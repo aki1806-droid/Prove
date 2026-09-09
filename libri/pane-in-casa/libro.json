@@ -1,0 +1,14 @@
+{
+  "titolo": "Pane in casa",
+  "sottotitolo": "Manuale minimo per il pane quotidiano",
+  "autore": "Redazione Prove",
+  "autore_ordinamento": "Prove, Redazione",
+  "lingua": "it",
+  "editore": "Prove",
+  "descrizione": "Un manuale essenziale per fare il pane in casa con quattro ingredienti, senza attrezzature speciali: come si impasta, quanto si aspetta, come si cuoce.",
+  "diritti": "© 2026 Redazione Prove",
+  "data_pubblicazione": "2026-09-09",
+  "parole_chiave": ["pane", "panificazione", "cucina", "lievito madre"],
+  "copertina": "risorse/copertina.png",
+  "tipografia": true
+}
