@@ -8,7 +8,9 @@ nella sua versione buona.
 | video_id | `00e07a615c8bf3df1d1da220044c680c` |
 | scene | 40 — copertina, 38 blocchi, chiusura |
 | formato | 16:9, 1080p, sottotitoli SRT |
+| durata | **6:18** (378,8 s — attesi 379,6) |
 | parlato | 366,6 s |
+| pagina | https://app.heygen.com/videos/00e07a615c8bf3df1d1da220044c680c |
 
 ## Il copione è stato riscritto
 
