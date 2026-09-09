@@ -5,7 +5,8 @@ una critica di Achille sul precedente.
 
 | versione | video_id | durata | novità |
 |---|---|---|---|
-| **slide animate** (buona) | `75679e722ab75421c653a819d6a563b1` | — | movimento + grafica |
+| **slide animate** (buona) | `f7372aac22db75b4d810ece9e00df664` | 5:51 | movimento + grafica |
+| slide animate, chiusura tagliata | `75679e722ab75421c653a819d6a563b1` | 5:42 | da non usare |
 | traccia unica, slide ferme | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:51 | tono uniforme |
 | audio a blocchi | `dffb49988fa3e412db6b8e5ca400063e` | 5:53 | prima prova |
 
@@ -67,6 +68,31 @@ Tutti e quattro scoperti guardando i PNG, non leggendo il codice:
 - la chiave inglese sembrava una macchia e lo specchio un palloncino:
   sostituite con lampadina e figura con freccia di ritorno;
 - nello schema a due rami il testo sbordava dai riquadri.
+
+## Una trappola di HeyGen: la scena video muta non dura quanto la clip
+
+Copertina e chiusura sono clip senza parlato. Montate come scene `video`
+senza `audio_asset_id`, HeyGen **non le tiene per tutta la loro durata**: la
+chiusura da dieci secondi ne ha resi uno. Il primo montaggio animato usciva
+a 5:42 invece di 5:51.
+
+Isolato con una prova da tre scene (copertina + un blocco + chiusura): doveva
+durare 19,55 s, ne durava 10,53. Il parlato era intatto, mancava solo la
+cartolina finale.
+
+**La soluzione: ancorare la scena a una traccia muta della durata esatta.**
+
+```
+ffmpeg -f lavfi -t 10 -i anullsrc=r=44100:cl=mono -c:a libmp3lame -b:a 64k muto_10.mp3
+```
+
+Si carica come asset e si passa in `audio_asset_id` con
+`playback.mode = "freeze"`. Così la durata della scena è dichiarata e non
+dipende da come HeyGen interpreta la clip. Rimontato: 351,19 s, identico
+alla versione a slide ferme.
+
+Vale la pena controllare sempre la durata del render contro la somma attesa
+dei blocchi: è un controllo da un secondo che ha trovato questo difetto.
 
 ## Voce e montaggio audio
 

@@ -67,6 +67,14 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   prova a finestre. E se la coda di un blocco compare due volte nel copione
   (in 2.1 «buona intenzione» e «quattro motivi») la ricerca automatica sbaglia
   bersaglio: in quel caso prendi il silenzio immediatamente precedente.
+- **Una scena `video` senza parlato non dura quanto la clip.** Montando
+  copertina e chiusura come scene `video` senza `audio_asset_id`, HeyGen ha
+  reso in un secondo una clip da dieci. Si ancora la scena a una traccia muta
+  della durata esatta
+  (`ffmpeg -f lavfi -t 10 -i anullsrc=r=44100:cl=mono ... muto_10.mp3`),
+  passata come `audio_asset_id` con `playback.mode = "freeze"`.
+- **Controlla sempre la durata del render contro la somma attesa dei blocchi.**
+  E' un conto da un secondo e ha trovato questo difetto: 5:42 invece di 5:51.
 - In HeyGen la traccia si passa come **`audio_asset_id`**, non come `audio_url`:
   si carica il file già accelerato come asset (vedi sotto) e non scade mai.
 
