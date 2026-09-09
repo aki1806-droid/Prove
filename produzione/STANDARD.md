@@ -71,13 +71,35 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   spostamenti sotto 0,35 s, che di solito sono rumore; ma nella 2.3 la coda
   mancante di s06 era la parola «Tre.» — cinque caratteri, sotto la soglia, e
   la battuta di tutto il blocco. Se manca una parola sola che porta il senso,
-  spostalo a mano al silenzio successivo.
+  spostalo a mano al silenzio successivo. Nella 2.4 sono usciti gli altri due
+  pezzi della stessa regola, ora dentro `tagli.py`: il confine giusto puo'
+  essere una pausa **sotto la soglia** (dopo «Perche'.» erano 0,15 s), e il
+  confine corrente **non va tenuto fra i candidati** — la coda dice che il
+  taglio e' fuori posto, lasciarlo dov'e' contraddice la prova.
+  Attenzione anche a come separi le code trascritte: `scribe` scrive
+  «Perche'?» con il punto interrogativo, quindi si taglia su `.`, `?` e `!`.
+  Un solo separatore sbagliato sfasa tutto di uno e fa sembrare sbagliati
+  ventiquattro confini su quaranta.
+- **Un blocco da una parola vuole una posa.** «Perche'.» dura 1,3 s e «E poi.»
+  ne dura 0,8: il tempo di dire la parola, non quello di leggere la slide. Si
+  allungano con `apad` a circa quattro secondi passando `{"s18": 4.0}` ad
+  `applica`. La pausa e' anche quello che quelle due parole vogliono.
 - **Se la lezione chiede una pausa, mettila davvero.** Nella 2.3 il copione dice
   «adesso stai zitto insieme a me»: dopo quella frase c'e' una scena di otto
   secondi con un b-roll muto e un letto di musica, e nessun parlato. Una scena
   cosi' risolve anche due cose per conto suo: porta il proprio audio, quindi
   non incappa nella trappola della scena `video` muta, ed e' il posto giusto in
   cui far cadere la giunzione fra le due generazioni della voce.
+- **Riprese generate: Higgsfield costa un ordine di grandezza meno.** 32,5
+  crediti per 5 s di video e 2 per un'immagine, contro i 400 crediti dei 5 s
+  di Artlist. Ma il proxy blocca il suo CDN in scaricamento: i byte qui non
+  arrivano. HeyGen se li prende da se' passandogli l'`url` della scena — un
+  montaggio di prova da due scene lo conferma in pochi secondi e costa
+  briciole, **fallo prima di impegnare il render intero**. Conseguenza da
+  tenere a mente: quelle immagini **non si possono comporre sotto il testo**,
+  vanno usate come scene intere con il parlato sopra, e **non si possono
+  guardare** prima del montato. Su ElevenLabs sarebbero scaricabili e quindi
+  controllabili, ma costano 818 crediti l'una.
 - **Una scena `video` senza parlato non dura quanto la clip.** Montando
   copertina e chiusura come scene `video` senza `audio_asset_id`, HeyGen ha
   reso in un secondo una clip da dieci. Si ancora la scena a una traccia muta

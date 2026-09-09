@@ -1,0 +1,288 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 2 · Lezione 2.4",
+  "title": "Le domande che aprono",
+  "sub": "e quelle che indagano"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "contro quello che hai sentito",
+  "title": "Non esistono domande buone<br>e domande <span class=\"gold\">cattive</span>."
+ },
+ {
+  "file": "c03",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "L'errore non è indagare.<br>È indagare <span class=\"gold\">per primi</span>."
+ },
+ {
+  "file": "c05",
+  "layout": "table",
+  "pari": true,
+  "kicker": "due domande legittime",
+  "cols": [
+   "Apre",
+   "Indaga"
+  ],
+  "rows": [
+   [
+    "«Com'è andata?»",
+    "«A che ora sei tornato?»"
+   ],
+   [
+    "cerca il racconto dell'altro",
+    "cerca un dato che serve a te"
+   ],
+   [
+    "l'altro si allarga",
+    "l'altro si difende"
+   ]
+  ]
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Gli lascia scegliere da dove partire.<br>È un <span class=\"gold\">invito</span>."
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Ha già deciso qual è la parte importante<br>della serata. Ed <span class=\"gold\">è l'ora</span>."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "title": "Il punto non è quale delle due sia migliore.<br>Il punto è <span class=\"gold\">l'ordine</span>."
+ },
+ {
+  "file": "c09",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Se la domanda che indaga arriva per prima,<br>quella che apre <span class=\"gold\">non arriverà mai</span>."
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Gli hai già detto, senza dirlo,<br>che ti interessa <span class=\"gold\">un dato</span>."
+ },
+ {
+  "file": "c12",
+  "layout": "figure",
+  "kicker": "la regola dell'imbuto",
+  "svg": "<svg viewBox=\"0 0 1180 520\">\n <path class=\"tratto\" d=\"M150 96 H1030 L640 356 H540 Z\"/>\n <path class=\"tratto oro\" d=\"M540 356 V462 H640 V356\"/>\n <text class=\"eti\" x=\"150\" y=\"66\">domanda larga</text>\n <text class=\"eti oro\" x=\"590\" y=\"506\" text-anchor=\"middle\">domanda stretta</text>\n</svg>",
+  "title": "Prima la larga, poi la stretta. Mai il contrario."
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "La stretta, fatta dopo, riceve una risposta migliore.<br>Perché a quel punto <span class=\"gold\">te la sta dando</span>."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "kicker": "come si riconoscono da fuori",
+  "title": "Guarda quante risposte diverse<br>può dare <span class=\"gold\">l'altro</span>."
+ },
+ {
+  "file": "c15",
+  "layout": "chart",
+  "kicker": "risposte possibili",
+  "bars": [
+   {
+    "et": "«A che ora sei tornato?»",
+    "val": 7,
+    "cifra": "1"
+   },
+   {
+    "et": "«Com'è andata?»",
+    "val": 100,
+    "oro": true,
+    "cifra": "molte"
+   }
+  ],
+  "title": "Se la risposta possibile è una, stai indagando."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "«Ti è piaciuto?» ha due risposte: sì e no.<br>È una chiusa <span class=\"gold\">travestita da aperta</span>."
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "Adesso la parola<br>più <span class=\"gold\">pericolosa</span> di tutte."
+ },
+ {
+  "file": "c18",
+  "layout": "quote",
+  "title": "Perché."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Non chiede un racconto.<br>Chiede una <span class=\"gold\">giustificazione</span>."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "E chi si sente chiedere una giustificazione<br>si <span class=\"gold\">difende</span>."
+ },
+ {
+  "file": "c21",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Non è come lo dici.<br>È <span class=\"gold\">la parola</span>."
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "kicker": "la buona notizia",
+  "title": "Quasi sempre il perché si può sostituire.<br>Con <span class=\"gold\">cosa</span>, oppure con <span class=\"gold\">come</span>."
+ },
+ {
+  "file": "c24",
+  "layout": "swap",
+  "kicker": "le tre sostituzioni",
+  "rows": [
+   [
+    "«Perché non me l'hai detto?»",
+    "«Cosa ti ha fermato?»"
+   ],
+   [
+    "«Perché sei arrabbiato?»",
+    "«Cos'è successo?»"
+   ],
+   [
+    "«Perché l'hai fatto?»",
+    "«Com'è andata a finire così?»"
+   ]
+  ]
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "L'informazione è la stessa.<br>Quello che sparisce è <span class=\"gold\">la difesa</span>."
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "E adesso la domanda<br>più <span class=\"gold\">utile</span> che esista."
+ },
+ {
+  "file": "c28",
+  "layout": "number",
+  "num": "2",
+  "unit": "parole",
+  "barra": false,
+  "kicker": "la domanda più utile",
+  "title": "«E poi?»"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "Nessuna direzione, nessun giudizio.<br>Dice solo: <span class=\"gold\">vai avanti, ti sto seguendo</span>."
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "È la sola che non toglie all'altro<br>il <span class=\"gold\">comando del racconto</span>."
+ },
+ {
+  "file": "c31",
+  "layout": "table",
+  "pari": true,
+  "kicker": "la stessa frase, due versioni",
+  "cols": [
+   "Invito",
+   "Fretta"
+  ],
+  "rows": [
+   [
+    "la faccia di chi aspetta il seguito",
+    "la faccia di chi aspetta il punto"
+   ],
+   [
+    "l'altro continua",
+    "l'altro chiude"
+   ]
+  ]
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Quasi tutto quello che vale<br>arriva <span class=\"gold\">dopo il primo «e poi»</span>."
+ },
+ {
+  "file": "c33",
+  "layout": "cards",
+  "kicker": "tre domande che non sono domande",
+  "rows": [
+   {
+    "icona": "eco",
+    "testo": "Quella che contiene già la risposta"
+   },
+   {
+    "icona": "raffica",
+    "testo": "Le domande a raffica"
+   },
+   {
+    "icona": "ritorno",
+    "testo": "Chiedere per confermare"
+   }
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "quote",
+  "title": "«Non sarai mica stanco.»",
+  "note": "Un'affermazione con il punto interrogativo in fondo."
+ },
+ {
+  "file": "c36",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Fra una domanda e l'altra<br>ci va <span class=\"gold\">una risposta intera</span>."
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Se sai già cosa vuoi sentirti rispondere,<br>non stai chiedendo: stai <span class=\"gold\">verificando</span>."
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Una domanda di controllo si sente sempre.<br>E non <span class=\"gold\">dalle parole</span>."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Si sente da come reagisci:<br>quando la risposta è diversa, <span class=\"gold\">tu la rifai</span>."
+ },
+ {
+  "file": "c40",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Il perché chiede di giustificarsi.<br>Il cosa chiede di <span class=\"gold\">raccontare</span>."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Sostituisci un perché con un cosa.<br><span class=\"gold\">Uno solo</span>, oggi."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Ci vediamo<br>nella prossima."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "Dire, ascoltare, convincere",
+  "site": "laparolagiusta.it"
+ }
+]
