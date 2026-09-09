@@ -1,0 +1,322 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 3 · Lezione 3.2",
+  "title": "Eco, sintesi, sentimento",
+  "sub": "Riformulazione ed empatia"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "tre strumenti, non uno",
+  "title": "Dire «riformula» e basta<br>è come dire <span class=\"gold\">«usa un attrezzo»</span>."
+ },
+ {
+  "file": "c03",
+  "layout": "cards",
+  "kicker": "le tre riformulazioni",
+  "rows": [
+   {
+    "icona": "unaparola",
+    "testo": "L'eco — una parola sua"
+   },
+   {
+    "icona": "stringi",
+    "testo": "La sintesi — due elementi"
+   },
+   {
+    "icona": "sotto",
+    "testo": "Il sentimento — l'emozione"
+   }
+  ]
+ },
+ {
+  "file": "c04",
+  "layout": "quote",
+  "kicker": "l'eco",
+  "title": "«Ho lasciato perdere,<br>tanto era inutile.»"
+ },
+ {
+  "file": "c05",
+  "layout": "quote",
+  "title": "«Inutile.»"
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "La sua, ripresa com'era.<br>E riparte <span class=\"gold\">proprio da lì</span>."
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Gli hai indicato un punto<br>senza dirgli <span class=\"gold\">cosa pensi</span> di quel punto."
+ },
+ {
+  "file": "c08",
+  "layout": "number",
+  "num": "3",
+  "unit": "parole",
+  "barra": false,
+  "kicker": "la regola dell'eco",
+  "title": "Al massimo. E devono essere le sue."
+ },
+ {
+  "file": "c09",
+  "layout": "table",
+  "pari": true,
+  "kicker": "la stessa parola, due cose opposte",
+  "cols": [
+   "«Inutile.»",
+   "«Inutile?»"
+  ],
+  "rows": [
+   [
+    "è un invito",
+    "è una sfida"
+   ],
+   [
+    "indica un punto",
+    "chiede di giustificarlo"
+   ]
+  ]
+ },
+ {
+  "file": "c10",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Con il punto interrogativo<br>è tornata a essere <span class=\"gold\">una domanda</span>."
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "kicker": "la sintesi",
+  "title": "Quando ha parlato cinque minuti<br>e deve sapere che <span class=\"gold\">ci sei ancora</span>."
+ },
+ {
+  "file": "c13",
+  "layout": "chart",
+  "kicker": "quanto dura una sintesi",
+  "bars": [
+   {
+    "et": "il suo discorso",
+    "val": 100,
+    "cifra": "5 minuti"
+   },
+   {
+    "et": "la tua sintesi",
+    "val": 8,
+    "oro": true,
+    "cifra": "una frase"
+   }
+  ],
+  "title": "Se è lunga quanto il discorso, hai solo ripetuto più in fretta."
+ },
+ {
+  "file": "c14",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Non quello che ha colpito te.<br>Quello su cui <span class=\"gold\">è tornato due volte</span>."
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Anche se l'ha detta piano.<br>Anche se a te sembrava <span class=\"gold\">un dettaglio</span>."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Nessuna delle tre è una domanda.<br>Tutte e tre lasciano <span class=\"gold\">un posto vuoto</span> dopo."
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "Scegli tu cosa tenere.<br>E puoi <span class=\"gold\">sbagliare peso</span>."
+ },
+ {
+  "file": "c18",
+  "layout": "quote",
+  "title": "«…è così?»"
+ },
+ {
+  "file": "c19",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "È il permesso che gli dai<br>di <span class=\"gold\">correggerti</span>."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Se ti corregge, hai vinto tu.<br>Adesso sai <span class=\"gold\">qual era il peso vero</span>."
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "kicker": "il sentimento",
+  "title": "Non il fatto.<br>L'emozione che il fatto <span class=\"gold\">si porta dietro</span>."
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Due parole<br>che <span class=\"gold\">cambiano tutto</span>."
+ },
+ {
+  "file": "c25",
+  "layout": "swap",
+  "kicker": "la differenza tecnica del modulo",
+  "rows": [
+   [
+    "«Eri arrabbiato.»",
+    "«Ti sei sentito arrabbiato.»"
+   ]
+  ]
+ },
+ {
+  "file": "c26",
+  "layout": "table",
+  "pari": true,
+  "kicker": "perché cambia tutto",
+  "cols": [
+   "«Eri»",
+   "«Ti sei sentito»"
+  ],
+  "rows": [
+   [
+    "descrive un fatto",
+    "descrive un'esperienza"
+   ],
+   [
+    "si può contestare",
+    "non si discute"
+   ],
+   [
+    "«no, non ero arrabbiato»",
+    "ha lui l'ultima parola"
+   ]
+  ]
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "L'esperienza di una persona<br>non si discute: ha lui <span class=\"gold\">l'ultima parola</span>."
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Due parole in più.<br>Una <span class=\"gold\">discussione intera</span> risparmiata."
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "kicker": "seconda avvertenza",
+  "title": "Se sbagli emozione,<br><span class=\"gold\">non insistere</span>."
+ },
+ {
+  "file": "c30",
+  "layout": "quote",
+  "title": "«Forse ho detto male io.»"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "«No, non era rabbia,<br>era <span class=\"gold\">stanchezza</span>.»"
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Te l'ha regalata<br>proprio perché <span class=\"gold\">avevi sbagliato</span>."
+ },
+ {
+  "file": "c33",
+  "layout": "statement",
+  "kicker": "quale delle tre",
+  "title": "Averle tutte e tre<br>e usarne <span class=\"gold\">sempre una sola</span>."
+ },
+ {
+  "file": "c34",
+  "layout": "figure",
+  "kicker": "quando si usa quale",
+  "svg": "<svg viewBox=\"0 0 1180 520\">\n <path class=\"tratto\" d=\"M60 300 H1120\"/>\n <path class=\"tratto sottile\" d=\"M420 286 v28\"/>\n <path class=\"tratto sottile\" d=\"M760 286 v28\"/>\n <text class=\"eti\" x=\"240\" y=\"268\" text-anchor=\"middle\">sta cercando</text>\n <text class=\"eti\" x=\"590\" y=\"268\" text-anchor=\"middle\">ha finito</text>\n <text class=\"eti\" x=\"940\" y=\"268\" text-anchor=\"middle\">il fatto è chiaro</text>\n <path class=\"tratto oro\" d=\"M240 340 v48\"/><text class=\"eti oro\" x=\"240\" y=\"430\" text-anchor=\"middle\">eco</text>\n <path class=\"tratto oro\" d=\"M590 340 v48\"/><text class=\"eti oro\" x=\"590\" y=\"430\" text-anchor=\"middle\">sintesi</text>\n <path class=\"tratto oro\" d=\"M940 340 v48\"/><text class=\"eti oro\" x=\"940\" y=\"430\" text-anchor=\"middle\">sentimento</text>\n</svg>",
+  "title": "Tre momenti diversi della stessa conversazione."
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "Ha chiuso un ragionamento.<br>Deve sapere che <span class=\"gold\">l'hai seguito</span>."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "Se il fatto non è chiaro,<br>il sentimento arriva <span class=\"gold\">troppo presto</span>."
+ },
+ {
+  "file": "c37",
+  "layout": "cards",
+  "kicker": "tre modi per rovinarle",
+  "rows": [
+   {
+    "icona": "eco",
+    "testo": "Usare sempre la stessa"
+   },
+   {
+    "icona": "taglio",
+    "testo": "Sintetizzare troppo presto"
+   },
+   {
+    "icona": "spinta",
+    "testo": "Insistere sull'emozione sbagliata"
+   }
+  ]
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Non ogni frase<br>è <span class=\"gold\">un'emozione</span>."
+ },
+ {
+  "file": "c39",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "È un modo educato di interrompere.<br>E resta <span class=\"gold\">un'interruzione</span>."
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "«Ma secondo me sei arrabbiato»<br>non è ascolto. È <span class=\"gold\">diagnosi</span>."
+ },
+ {
+  "file": "c41",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "«Eri» si discute.<br>«Ti sei sentito» <span class=\"gold\">no</span>."
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Usa <span class=\"gold\">solo l'eco</span>."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Due parole sue, e fermati lì.<br>Piatte, <span class=\"gold\">senza punto interrogativo</span>."
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Le altre due<br>nei <span class=\"gold\">prossimi giorni</span>."
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "Ci vediamo<br>nella prossima."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "Dire, ascoltare, convincere",
+  "site": "laparolagiusta.it"
+ }
+]

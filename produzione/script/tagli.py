@@ -147,6 +147,8 @@ def correggi(d):
     fini = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3', 0.08)) for k in 'AB'}
     n = 0
     for m, coda in zip(meta, code):
+        if not coda:          # confine senza coda riconosciuta: si lascia stare
+            continue
         k, ids = m['chunk'], ch[m['chunk']]
         j = ids.index(m['fine_di'])
         pezzi = [norm(B[i]) for i in ids]
@@ -182,12 +184,17 @@ def correggi(d):
             continue
         cur = t[k][j + 1]
         prec = t[k][j]
+        # Il confine non puo' scavalcare il successivo: senza questo limite una
+        # coda molto corta spinge il taglio dentro il blocco dopo, e la lista
+        # dei confini smette di essere crescente.
+        succ = t[k][j + 2] if j + 2 < len(t[k]) else float('inf')
         # Il confine corrente va sempre escluso: la coda trascritta dice che il
         # taglio e' fuori posto, quindi lasciarlo dov'e' contraddice la prova.
         # Senza questo, una coda corta (+0,4 s) finiva per «correggersi» su se
         # stessa, perche' il candidato piu' vicino alla stima era il vecchio.
         def scegli(pool):
-            return [c for c in pool if prec + 1.0 < c < cur + 6 and c > cur + 0.05] if delta > 0 else \
+            alto = min(cur + 6, succ - 0.5)
+            return [c for c in pool if prec + 1.0 < c < alto and c > cur + 0.05] if delta > 0 else \
                    [c for c in pool if prec + 1.0 < c < cur - 0.15]
         ok = scegli(cand[k]) or scegli(fini[k])
         if not ok:
