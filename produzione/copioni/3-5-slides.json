@@ -1,0 +1,313 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.5",
+"title": "Quando l'altro soffre e tu vuoi risolvere",
+"sub": "Riformulazione ed empatia"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il riparatore, dal modulo 2",
+"title": "Perché è così difficile smettere.<br><span class=\"gold\">E la risposta non ti piacerà.</span>"
+},
+{
+"file": "c03",
+"layout": "memo",
+"title": "Non nasce dal bisogno dell'altro.<br>Nasce dal tuo disagio."
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Stare davanti a chi soffre<br>senza poter fare niente<br>è la <span class=\"gold\">posizione più scomoda</span><br>che ci sia."
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "cosa ti restituisce risolvere",
+"plain": true,
+"rows": [
+"Un ruolo",
+"Un'uscita dall'impotenza",
+"La sensazione di essere utile — subito"
+]
+},
+{
+"file": "c06",
+"layout": "number",
+"num": "<1",
+"unit": " s",
+"fill": 12,
+"title": "fra il disagio che senti e la soluzione già uscita di bocca."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "chiamiamolo col suo nome",
+"title": "In quel momento non stai<br>risolvendo il suo problema.<br>Stai risolvendo <span class=\"gold\">un problema tuo</span>."
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Questo non lo rende sbagliato.<br>Lo rende una cosa da mettere<br><span class=\"gold\">in fila dopo l'altro</span>."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "la parte facile",
+"title": "Non devi indovinare<br>cosa vuole."
+},
+{
+"file": "c11",
+"layout": "memo",
+"title": "Puoi chiederglielo."
+},
+{
+"file": "c12",
+"layout": "quote",
+"title": "«Vuoi che ti aiuti a risolverlo,<br>o vuoi che ti ascolti?»"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "La prima volta che la dici<br>ti sembrerà perfino <span class=\"gold\">sgarbata</span>."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "E invece chi la riceve<br>tira <span class=\"gold\">un sospiro di sollievo</span>."
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "quello che di solito deve fare lui",
+"rows": [
+"Sceglie le parole per non ferirti",
+"Ti ringrazia per un consiglio che non voleva",
+"Finisce più stanco di quando ha cominciato"
+]
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "il secondo motivo",
+"title": "Spesso non lo sa nemmeno lui.<br><span class=\"gold\">La domanda glielo fa decidere.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "In famiglia,<br>dove quella formulazione<br>può suonare da manuale,<br><span class=\"gold\">due varianti</span>."
+},
+{
+"file": "c18",
+"layout": "quote",
+"title": "«Ti serve una mano,<br>o ti serve compagnia?»"
+},
+{
+"file": "c19",
+"layout": "quote",
+"title": "«Vuoi parlarne,<br>o vuoi pensare ad altro?»"
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Cambia il vestito.<br>La domanda è la stessa:<br><span class=\"gold\">che a scegliere sia lui</span>."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "l'unica cosa che la rovina",
+"title": "Dev'essere <span class=\"gold\">una domanda vera</span>.<br>Se hai già deciso,<br>è una formalità. E si sente."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "e se vuole una soluzione?",
+"title": "Allora <span class=\"gold\">la dai</span>."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Non dice che risolvere<br>sia sbagliato.<br>Dice che <span class=\"gold\">non è il primo passo</span>."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "la regola che resta",
+"rows": [
+"Prima la comprensione",
+"Poi la soluzione",
+"<b>Mai insieme</b>"
+]
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "se le mescoli",
+"title": "La comprensione sembra<br>il preambolo obbligatorio<br>per arrivare al consiglio.<br><span class=\"gold\">E perde tutto.</span>"
+},
+{
+"file": "c26",
+"layout": "table",
+"pari": true,
+"kicker": "si distinguono a orecchio",
+"cols": [
+"La comprensione vera",
+"Il preambolo"
+],
+"rows": [
+[
+"è la cosa che stai facendo",
+"è il pedaggio che paghi"
+],
+[
+"non aspetta niente dopo",
+"aspetta il proprio turno"
+],
+[
+"si ferma da sola",
+"finisce quando tocca a te"
+]
+]
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Ha il ritmo di uno<br>che aspetta il proprio turno.<br><span class=\"gold\">E il ritmo non si può fingere.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "un'ultima cosa",
+"title": "E chiude il modulo."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Se non è un problema<br>ma una sofferenza che dura,<br>non è più una questione<br>di <span class=\"gold\">tecnica</span>."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Serve qualcuno di competente.<br>E quella persona<br><span class=\"gold\">non va lasciata sola a cercarlo</span>."
+},
+{
+"file": "c31",
+"layout": "quote",
+"kicker": "e si dice così",
+"title": "«Questa cosa qui è più grande di me,<br>e non voglio farti perdere altro tempo<br>con me che provo a indovinare.»"
+},
+{
+"file": "c33",
+"layout": "memo",
+"title": "Non è un fallimento<br>della comunicazione.<br>È la sua forma più adulta."
+},
+{
+"file": "c34",
+"layout": "cards",
+"kicker": "tre modi per aiutare male",
+"rows": [
+{
+"icona": "megafono",
+"testo": "Il consiglio non richiesto"
+},
+{
+"icona": "seteme",
+"testo": "«Se fossi in te»"
+},
+{
+"icona": "ritorna",
+"testo": "Insistere dopo un rifiuto"
+}
+]
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "La forma di aiuto<br>più diffusa<br>e <span class=\"gold\">la meno gradita</span>."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "perché non funziona",
+"title": "Arriva prima che abbia finito.<br>È un consiglio<br>su <span class=\"gold\">metà storia</span>."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "«Se fossi in te.»<br><span class=\"gold\">Non lo sei</span> —<br>e il centro si sposta su di te."
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Anche quando quello che segue<br>è giusto.<br><span class=\"gold\">Anzi: soprattutto allora.</span>"
+},
+{
+"file": "c39",
+"layout": "swap",
+"kicker": "la versione buona",
+"rows": [
+[
+"«Se fossi in te…»",
+"«Al posto tuo non so cosa farei»"
+]
+]
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "il terzo",
+"title": "Insistere sulla soluzione<br><span class=\"gold\">dopo un rifiuto</span>."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Gli stai dicendo che<br>la sua richiesta non contava.<br><span class=\"gold\">Non con le parole: tornandoci.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Chiude le porte<br>più in fretta di tutte.<br><span class=\"gold\">L'aveva detto, e non è bastato.</span>"
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "Non devi indovinare.<br>Puoi chiedere."
+},
+{
+"file": "c44",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Al primo impulso di dare<br>una soluzione,<br><span class=\"gold\">fai la domanda invece</span>."
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "E poi fai quello che ti risponde.<br><span class=\"gold\">Soprattutto se sei convinto</span><br>che l'altra cosa sarebbe più utile."
+},
+{
+"file": "c46",
+"layout": "statement",
+"kicker": "cinque lezioni sullo stesso mestiere",
+"title": "Stare dall'altra parte<br>e <span class=\"gold\">non riempire lo spazio</span>."
+},
+{
+"file": "c47",
+"layout": "statement",
+"kicker": "nel prossimo modulo",
+"title": "Si cambia lato del tavolo.<br>Non più ascoltare, ma<br><span class=\"gold\">costruire un messaggio che resta</span>."
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "Ci vediamo lì."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 3",
+"sub": "Modulo 4 — Costruire un messaggio che resta",
+"site": "laparolagiusta.it"
+}
+]
