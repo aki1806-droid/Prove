@@ -1,139 +1,154 @@
 # Registro — 2.1 «Perché non ascoltiamo», senza avatar, voce Luca Ward
 
-Due montaggi della stessa lezione, entrambi senza avatar e con la voce Luca
-Ward. Il secondo nasce da una critica di Achille sul primo: fra un blocco e
-l'altro si sentivano troppe differenze di tono.
+Tre montaggi della stessa lezione, in ordine di lavorazione. Ognuno nasce da
+una critica di Achille sul precedente.
 
-| versione | video_id | durata | come è fatto l'audio |
+| versione | video_id | durata | novità |
 |---|---|---|---|
-| **traccia unica** (buona) | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:51 | 2 generazioni lunghe, poi tagliate |
-| a blocchi (superata) | `dffb49988fa3e412db6b8e5ca400063e` | 5:53 | 38 generazioni separate |
+| **slide animate** (buona) | `75679e722ab75421c653a819d6a563b1` | — | movimento + grafica |
+| traccia unica, slide ferme | `44eceb4fc2d1f6daca2133ba926f58b4` | 5:51 | tono uniforme |
+| audio a blocchi | `dffb49988fa3e412db6b8e5ca400063e` | 5:53 | prima prova |
 
 La versione standard con avatar resta `698a04930db66aee2a9938c9f754f185`
-(registro `corso-2-1.md`). Nessuna delle due la sostituisce.
+(registro `corso-2-1.md`). Nessuna di queste la sostituisce.
 
-## Perché la traccia unica
+## Cosa cambia in questa versione
 
-Con 38 generazioni separate ogni blocco parte da zero: ElevenLabs non sa cosa
-è venuto prima, e volume, colore e passo cambiano a ogni stacco. Dentro una
-sola generazione invece la lettura è continua, quindi il problema sparisce
-per costruzione.
+Tutte le scene sono `video`, non più `image`: ogni slide è una clip di tre
+secondi in cui il contenuto entra, e poi si ferma. In HeyGen si monta con
+`playback.mode = "freeze"`, che riproduce la clip una volta e poi tiene
+l'ultimo fotogramma per tutto il resto del parlato.
 
-Il limite di `eleven_v3` è **5000 caratteri per richiesta**, e la lezione ne
-conta 6092: quindi due generazioni, non una. Il taglio fra le due cade su uno
-stacco di capitolo vero (fra s17, «e il quarto, il più insidioso di tutti», e
-s18, «guarda cosa hanno in comune questi quattro»), dove un cambio di tono è
-voluto.
+**La regola: il movimento entra e finisce.** Sotto quindici secondi di
+parlato una slide che continua a muoversi diventa rumore. Per lo stesso
+motivo niente zoom lenti sulla tipografia: fanno vibrare i bordi delle
+lettere e si legge peggio.
 
-I tag di intenzione sono scesi da 38 a **sei**, messi solo alle svolte reali
-del discorso: s02 `[serious]`, s08 `[curious]`, s18 `[warm]`, s22 `[warm]`,
-s28 `[curious]`, s36 `[warm]`.
+Cinque slide non sono più solo testo:
 
-## Come si taglia una traccia unica sui blocchi
-
-Il problema: HeyGen vuole una traccia per scena, ma la generazione è un unico
-file di sei minuti. Serve sapere a che secondo finisce ogni blocco.
-
-1. **Candidati.** `silencedetect` sull'audio grezzo dà tutti i silenzi
-   (81 nella parte A, 95 nella B). Un confine di blocco è sempre uno di questi,
-   ma non tutti i silenzi sono confini: molte pause di frase sono più lunghe di
-   quelle di paragrafo, quindi una soglia non basta.
-2. **Attese.** Le durate dei 38 blocchi della versione precedente danno la
-   proporzione attesa. Vanno calcolate **nel dominio del parlato** — il tempo
-   al netto dei silenzi — altrimenti la varianza delle pause sporca tutto:
-   passando al parlato lo scarto medio è sceso da 0,43 s a 0,31 s.
-3. **Scelta.** Programmazione dinamica monotòna: si scelgono i 15 (e 21)
-   candidati che minimizzano lo scarto quadratico dalle attese.
-4. **Verifica, che è il passaggio che conta.** Si estraggono 1,6 s *prima* di
-   ogni taglio, si concatenano separati da silenzio e si manda tutto a
-   `eleven_scribe_v1` in una sola trascrizione. Il testo dice, parola per
-   parola, se ogni taglio cade dove deve. Alla prima tornata **9 tagli su 36
-   erano sbagliati** — la programmazione dinamica da sola non basta.
-5. **Correzione e ricontrollo.** Si sposta il taglio e si riprova. Tre tornate:
-   36 → 9 → 2 → 0 errori.
-
-Attenzione a una trappola: per correggere si può cercare la coda trascritta
-dentro il copione, ma **se quella frase compare due volte il calcolo sbaglia**.
-È successo con «buona intenzione» (chiude sia s21 sia s35) e con «quattro
-motivi». Quando la coda è ambigua, la regola sicura è prendere il silenzio
-immediatamente precedente.
-
-La trascrizione **non restituisce i tempi per parola**, solo il testo: per
-questo serve la prova a finestre invece di un allineamento diretto.
-
-## Voce e montaggio
-
-| campo | valore |
+| blocco | cosa mostra |
 |---|---|
-| voce | Luca Ward — `tVdVcJPudubxmTmAw4tE` |
-| modello | `eleven_v3` |
-| generazioni | 2 (2917 e 3173 caratteri) |
-| grezzo | 205,2 s + 238,2 s |
-| montato | 339,0 s di parlato |
+| c03 | l'ottanta per cento come cifra grande con barra proporzionale che si riempie |
+| c10 | i quattro motivi come schede con icone disegnate, una alla volta |
+| c19 | tabella: il motivo a sinistra, la buona intenzione a destra |
+| c23 | disegno a tratto: i due fumetti del cambio di soggetto |
+| c27 | schema a due rami: torna alla sua storia / non ci torna |
 
-Filtro invariato, quello standard:
+Le altre 34 restano tipografia, animata solo in entrata.
+
+## Come si producono
+
+`clips_corso.mjs` riusa gli stessi layout di `cards_corso.mjs` — stanno
+entrambi in `slide_corso.mjs` — e invece di uno screenshot cattura
+venticinque fotogrammi al secondo. **Il tempo non scorre da solo**: ogni
+fotogramma sposta a mano l'orologio delle animazioni, quindi il render è
+identico a ogni esecuzione e non dipende dal carico della macchina.
 
 ```
-silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:
-stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,
-atempo=1.12
+node clips_corso.mjs slides.json ./frames 3.0
+ffmpeg -framerate 25 -i frames/cNN/f%04d.png -c:v libx264 -pix_fmt yuv420p -crf 19 cNN.mp4
 ```
 
-più `apad=whole_dur=6` su s09, per tenere la clip del bar sei secondi.
+3100 fotogrammi per la lezione intera, circa otto minuti di render, 4,6 MB
+di clip in tutto. **Su HeyGen non costa nulla in più**: fattura al minuto di
+video finito, ~10 crediti, che la scena sia una foto ferma o una clip.
 
-## Grafica
+Attenzione a una cosa: la clip non deve essere più lunga del parlato del suo
+blocco, se no HeyGen la taglia. Tre secondi vanno bene per tutti — il blocco
+più corto della 2.1 dura 3,50 s.
 
-Invariata rispetto al primo montaggio: 21 slide riusate dalla 2.1 standard e
-18 nuove (c02, c04, c06, c08, c12, c14, c16, c18, c20, c22, c24, c26, c28,
-c30, c32, c34, c36, c38) al posto dei blocchi che erano inquadrature di
-Achille, con i temi `deep` e `sand` alternati.
+## Difetti trovati guardando le slide rese
+
+Tutti e quattro scoperti guardando i PNG, non leggendo il codice:
+
+- l'opacità sul binario della barra spegneva anche l'oro che ci stava dentro;
+- su contenuti alti l'occhiello finiva addosso al logo (risolto con
+  `.stage.graf { padding-top:190px }`);
+- la chiave inglese sembrava una macchia e lo specchio un palloncino:
+  sostituite con lampadina e figura con freccia di ritorno;
+- nello schema a due rami il testo sbordava dai riquadri.
+
+## Voce e montaggio audio
+
+Invariati rispetto alla versione precedente: Luca Ward
+(`tVdVcJPudubxmTmAw4tE`) su `eleven_v3`, due generazioni lunghe tagliate sui
+confini dei blocchi, filtro standard e 1,12x. Vedi la sezione «Come si taglia
+una traccia unica» più sotto.
 
 ## Blocchi
 
-| blocco | slide | durata montata (s) |
-|---|---|---|
-| s02 | c02 (nuova) | 6.55 |
-| s03 | c03 (da 2.1) | 11.01 |
-| s04 | c04 (nuova) | 9.00 |
-| s05 | c05 (da 2.1) | 13.19 |
-| s06 | c06 (nuova) | 14.15 |
-| s07 | c07 (da 2.1) | 9.81 |
-| s08 | c08 (nuova) | 9.69 |
-| s09 | c09 (da 2.1) | 6.00 |
-| s10 | c10 (da 2.1) | 6.34 |
-| s11 | c11 (da 2.1) | 13.24 |
-| s12 | c12 (nuova) | 13.18 |
-| s13 | c13 (da 2.1) | 9.40 |
-| s14 | c14 (nuova) | 13.45 |
-| s15 | c15 (da 2.1) | 9.80 |
-| s16 | c16 (nuova) | 10.85 |
-| s17 | c17 (da 2.1) | 4.29 |
-| s18 | c18 (nuova) | 6.33 |
-| s19 | c19 (da 2.1) | 11.77 |
-| s20 | c20 (nuova) | 11.05 |
-| s21 | c21 (da 2.1) | 4.68 |
-| s22 | c22 (nuova) | 3.86 |
-| s23 | c23 (da 2.1) | 5.37 |
-| s24 | c24 (nuova) | 13.42 |
-| s25 | c25 (da 2.1) | 8.48 |
-| s26 | c26 (nuova) | 6.67 |
-| s27 | c27 (da 2.1) | 10.89 |
-| s28 | c28 (nuova) | 5.11 |
-| s29 | c29 (da 2.1) | 8.37 |
-| s30 | c30 (nuova) | 10.17 |
-| s31 | c31 (da 2.1) | 9.97 |
-| s32 | c32 (nuova) | 15.81 |
-| s33 | c33 (da 2.1) | 7.19 |
-| s34 | c34 (nuova) | 12.19 |
-| s35 | c35 (da 2.1) | 4.32 |
-| s36 | c36 (nuova) | 6.03 |
-| s37 | c37 (da 2.1) | 5.35 |
-| s38 | c38 (nuova) | 8.54 |
-| s39 | c39 (da 2.1) | 3.50 |
+Il punto `·` segna le slide grafiche.
+
+| blocco | slide | tipo | durata (s) |
+|---|---|---|---|
+| s02 | c02 | frase | 6.55 |
+| s03 | c03 | numero **·** | 11.01 |
+| s04 | c04 | frase | 9.00 |
+| s05 | c05 | frase | 13.19 |
+| s06 | c06 | frase | 14.15 |
+| s07 | c07 | citazione | 9.81 |
+| s08 | c08 | citazione | 9.69 |
+| s09 | — | clip del bar | 6.00 |
+| s10 | c10 | schede **·** | 6.34 |
+| s11 | c11 | elenco | 13.24 |
+| s12 | c12 | frase | 13.18 |
+| s13 | c13 | elenco | 9.40 |
+| s14 | c14 | frase | 13.45 |
+| s15 | c15 | elenco | 9.80 |
+| s16 | c16 | citazione | 10.85 |
+| s17 | c17 | elenco | 4.29 |
+| s18 | c18 | frase | 6.33 |
+| s19 | c19 | tabella **·** | 11.77 |
+| s20 | c20 | frase | 11.05 |
+| s21 | c21 | frase | 4.68 |
+| s22 | c22 | frase | 3.86 |
+| s23 | c23 | disegno **·** | 5.37 |
+| s24 | c24 | elenco | 13.42 |
+| s25 | c25 | frase | 8.48 |
+| s26 | c26 | frase | 6.67 |
+| s27 | c27 | disegno **·** | 10.89 |
+| s28 | c28 | elenco | 5.11 |
+| s29 | c29 | elenco | 8.37 |
+| s30 | c30 | frase | 10.17 |
+| s31 | c31 | elenco | 9.97 |
+| s32 | c32 | frase | 15.81 |
+| s33 | c33 | elenco | 7.19 |
+| s34 | c34 | frase | 12.19 |
+| s35 | c35 | memo | 4.32 |
+| s36 | c36 | citazione | 6.03 |
+| s37 | c37 | citazione | 5.35 |
+| s38 | c38 | elenco | 8.54 |
+| s39 | c39 | frase | 3.50 |
+## Come si taglia una traccia unica sui blocchi
+
+Il limite di `eleven_v3` è **5000 caratteri**, e la lezione ne conta 6092:
+quindi due generazioni, tagliate su uno stacco di capitolo vero (fra s17 e
+s18), dove un cambio di tono è voluto.
+
+1. **Candidati.** `silencedetect` sul grezzo. Un confine di blocco è sempre
+   un silenzio, ma non tutti i silenzi sono confini: molte pause di frase
+   sono più lunghe di quelle di paragrafo, quindi una soglia non basta.
+2. **Attese** calcolate **nel dominio del parlato**, al netto dei silenzi:
+   lo scarto medio scende da 0,43 s a 0,31 s.
+3. **Scelta** con programmazione dinamica monotòna.
+4. **Verifica, il passaggio che conta.** Si estraggono 1,6 s *prima* di ogni
+   taglio, si concatenano separati da silenzio e si mandano a
+   `eleven_scribe_v1` in una sola trascrizione: il testo dice parola per
+   parola se il taglio cade dove deve. Alla prima tornata **9 tagli su 36
+   erano sbagliati**.
+5. **Correzione e ricontrollo**: 36 → 9 → 2 → 0 errori.
+
+Due trappole. La trascrizione **non restituisce i tempi per parola**, solo il
+testo: per questo serve la prova a finestre. E se la coda di un blocco
+compare due volte nel copione — «buona intenzione» chiude sia s21 sia s35,
+«quattro motivi» appare in s08 e s10 — la ricerca automatica sbaglia
+bersaglio: lì la regola sicura è prendere il silenzio immediatamente
+precedente.
+
 ## Da verificare
 
-Non posso ascoltare l'audio. So che i 36 tagli cadono sulle parole giuste,
-perché l'ho verificato con la trascrizione, ma non so come **suonano** gli
-stacchi né se il tono ora è davvero uniforme. Vale la pena sentire i primi due
-minuti, e in particolare il passaggio fra s17 e s18, che è il punto di
+Non posso ascoltare l'audio né vedere il video montato: ho controllato le
+slide una per una da ferme, e i 36 tagli con la trascrizione, ma non so come
+suonano gli stacchi né se il ritmo del movimento regge sulla durata reale
+dei blocchi. Guarda il primo minuto e il passaggio fra s17 e s18, che è la
 giunzione fra le due generazioni.
