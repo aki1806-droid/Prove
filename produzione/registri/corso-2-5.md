@@ -5,11 +5,12 @@ e cinque riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | *(in coda)* |
+| video_id | `e2e88f1059638d28cf7006d98f24dbb4` |
 | scene | 47 — copertina, 45 blocchi, chiusura di modulo |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata attesa | 367,5 s (6:07) |
+| durata | **6:06** (366,5 s — attesi 367,5) |
 | parlato | 354,5 s |
+| pagina | https://app.heygen.com/videos/e2e88f1059638d28cf7006d98f24dbb4 |
 
 ## Il copione è stato riscritto
 
@@ -97,3 +98,61 @@ virgoletta di chiusura**, poi lo spazio.
 ## Una posa
 
 `s46` («Ci vediamo lì.») dura 0,79 secondi. Allungato a 3,5 con `apad`.
+
+## Blocchi
+
+`·` slide grafica · `▪` ripresa Higgsfield
+
+| blocco | slide | tipo | durata (s) |
+|---|---|---|---|
+| s02 | c02 | frase | 5.08 |
+| s03 | c03 | schede **·** | 8.26 |
+| s04 | c04 | frase | 10.51 |
+| s05 | c05 | frase | 9.36 |
+| s06 | c06 | frase | 9.63 |
+| s07 | c07 | frase | 5.87 |
+| s08 | c08 | memo | 12.37 |
+| s09 | c09 | frase | 9.27 |
+| s10 | c10 | frase | 9.62 |
+| s11 | c11 | frase | 7.75 |
+| s12 | c12 | memo | 4.61 |
+| s13 | c13 | grafico **·** | 7.98 |
+| s14 | c14 | frase | 12.57 |
+| s15 | — | b-roll — tavola apparecchiata per quattro, una sedia vuota, luce di sera **▪** | 4.90 |
+| s16 | c16 | memo | 6.38 |
+| s17 | c17 | tabella **·** | 7.97 |
+| s18 | c18 | frase | 9.61 |
+| s19 | c19 | frase | 8.77 |
+| s20 | c20 | frase | 10.33 |
+| s21 | c21 | disegno **·** | 14.55 |
+| s22 | c22 | memo | 6.49 |
+| s23 | c23 | frase | 4.24 |
+| s24 | c24 | frase | 5.86 |
+| s25 | c25 | frase | 9.96 |
+| s26 | c26 | elenco **·** | 4.70 |
+| s27 | c27 | frase | 3.64 |
+| s28 | c28 | memo | 13.31 |
+| s29 | c29 | citazione | 5.73 |
+| s30 | c30 | frase | 8.39 |
+| s31 | — | b-roll — corridoio al crepuscolo, una porta socchiusa, una lama di luce sul pavimento **▪** | 5.98 |
+| s32 | c32 | frase | 5.49 |
+| s33 | c33 | frase | 6.59 |
+| s34 | c34 | memo | 7.85 |
+| s35 | c35 | schede **·** | 5.73 |
+| s36 | — | foto — scrivania di notte, appunti sparsi, una lente d'ingrandimento sopra **▪** | 7.79 |
+| s37 | c37 | frase | 8.45 |
+| s38 | c38 | citazione | 9.52 |
+| s39 | c39 | frase | 5.92 |
+| s40 | c40 | frase | 11.91 |
+| s41 | c41 | memo | 4.25 |
+| s42 | c42 | frase | 5.85 |
+| s43 | — | foto — due sedie su un balcone la sera, girate una verso l'altra **▪** | 6.76 |
+| s44 | c44 | elenco **·** | 14.73 |
+| s45 | — | foto — una finestra al mattino, la tenda che si muove, una stanza vuota **▪** | 6.45 |
+| s46 | c46 | frase (posa) | 3.50 |
+
+## Da verificare
+
+Non sento l'audio e non vedo il montato: ho controllato le slide da ferme e i
+43 tagli con la trascrizione. Restano da giudicare **le cinque riprese
+Higgsfield**, che non posso aprire da qui.

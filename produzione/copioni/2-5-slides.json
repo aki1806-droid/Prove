@@ -1,0 +1,307 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 2 · Lezione 2.5",
+  "title": "Ascoltare il non detto",
+  "sub": "Ascoltare davvero"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "l'ultima del modulo",
+  "title": "La parte che sembra più misteriosa.<br>E <span class=\"gold\">non lo è per niente</span>."
+ },
+ {
+  "file": "c03",
+  "layout": "cards",
+  "kicker": "tre segnali, non un enigma",
+  "rows": [
+   {
+    "icona": "pausa",
+    "testo": "L'esitazione"
+   },
+   {
+    "icona": "salto",
+    "testo": "L'omissione"
+   },
+   {
+    "icona": "squilibrio",
+    "testo": "La sproporzione"
+   }
+  ]
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Il problema non è notarli.<br>È <span class=\"gold\">cosa ne fai dopo</span>."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "kicker": "il primo · esitazione",
+  "title": "Comincia a dire una parola<br>e ne dice <span class=\"gold\">un'altra</span>."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "kicker": "il secondo · omissione",
+  "title": "Venti minuti di lavoro<br>e <span class=\"gold\">non nomina mai</span> il collega."
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "kicker": "il terzo · sproporzione",
+  "title": "Dieci minuti su una cosa piccola.<br><span class=\"gold\">Mezza frase</span> su una grossa."
+ },
+ {
+  "file": "c08",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Sono cose che noti,<br>non cose che <span class=\"gold\">cerchi</span>."
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "La sproporzione è di gran lunga<br>la <span class=\"gold\">più affidabile</span> dei tre."
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "L'esitazione a volte è solo uno<br>che <span class=\"gold\">cerca la parola</span>."
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Non la misuri contro quello che pensi tu.<br>Contro quello che <span class=\"gold\">ha detto lui</span>."
+ },
+ {
+  "file": "c12",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Se l'energia è sbagliata,<br>l'argomento <span class=\"gold\">non è quello</span>."
+ },
+ {
+  "file": "c13",
+  "layout": "chart",
+  "kicker": "la stessa conversazione",
+  "bars": [
+   {
+    "et": "dove ha parcheggiato",
+    "val": 100,
+    "oro": true,
+    "cifra": "10 min"
+   },
+   {
+    "et": "il fatto che l'hanno licenziato",
+    "val": 6,
+    "cifra": "mezza frase"
+   }
+  ],
+  "title": "Il parcheggio non c'entra niente, e lo sappiamo tutti e due."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Non ti serve sapere qual è.<br>Ti basta sapere che <span class=\"gold\">non è questo</span>."
+ },
+ {
+  "file": "c16",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Notare è un'osservazione.<br>Decidere cosa significa è <span class=\"gold\">un'invenzione</span>."
+ },
+ {
+  "file": "c17",
+  "layout": "table",
+  "pari": true,
+  "kicker": "due frasi quasi identiche",
+  "cols": [
+   "Il fatto",
+   "L'interpretazione"
+  ],
+  "rows": [
+   [
+    "«Non hai nominato tuo fratello.»",
+    "«Ce l'hai ancora con tuo fratello.»"
+   ],
+   [
+    "restituisce la scelta",
+    "gliela toglie"
+   ],
+   [
+    "può parlarne, o no",
+    "o conferma o smentisce"
+   ]
+  ]
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "È verificabile.<br>E può <span class=\"gold\">farci quello che vuole</span>."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Non è un fatto:<br>è la <span class=\"gold\">tua spiegazione</span> del fatto."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Nessuno accetta di essere letto nella mente.<br>La prima reazione è <span class=\"gold\">chiudere</span>."
+ },
+ {
+  "file": "c21",
+  "layout": "figure",
+  "kicker": "il conto è diverso",
+  "svg": "<svg viewBox=\"0 0 1180 520\">\n <path class=\"tratto\" d=\"M590 130 V420\"/>\n <path class=\"tratto\" d=\"M480 456 H700\"/>\n <path class=\"tratto\" d=\"M280 92 L900 196\"/>\n <path class=\"tratto sottile\" d=\"M280 92 V150\"/>\n <path class=\"tratto sottile\" d=\"M900 196 V254\"/>\n <path class=\"tratto\" d=\"M216 150 h128 l-32 56 h-64 z\"/>\n <path class=\"tratto oro\" d=\"M818 254 h164 l-40 92 h-84 z\"/>\n <text class=\"eti\" x=\"280\" y=\"66\" text-anchor=\"middle\">nomini un fatto</text>\n <text class=\"eti oro\" x=\"900\" y=\"392\" text-anchor=\"middle\">nomini un significato</text>\n</svg>",
+  "title": "Un fatto non costa niente. Un significato sì."
+ },
+ {
+  "file": "c22",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Non è la delicatezza.<br>È <span class=\"gold\">chi decide il significato</span>."
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "E poi c'è una ragione<br>più <span class=\"gold\">profonda</span>."
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Non tutto il non detto è un segreto.<br>Una parte non l'ha ancora <span class=\"gold\">capita lui</span>."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Se gliela nomini prima,<br>non lo aiuti: <span class=\"gold\">gliela porti via</span>."
+ },
+ {
+  "file": "c26",
+  "layout": "list",
+  "kicker": "tre mosse, in ordine di invadenza",
+  "rows": [
+   "Non fare niente",
+   "Nominare il fatto",
+   "Aprire la porta"
+  ]
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Notare<br>e <span class=\"gold\">tenerselo</span>."
+ },
+ {
+  "file": "c28",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Sentire una porta chiusa<br>non ti autorizza ad <span class=\"gold\">aprirla</span>."
+ },
+ {
+  "file": "c29",
+  "layout": "quote",
+  "kicker": "la seconda",
+  "title": "«Ti ho sentito rallentare, lì.»"
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "Non c'è perché, non c'è cosa vuol dire.<br>C'è solo <span class=\"gold\">quello che hai sentito</span>."
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "kicker": "un avvertimento",
+  "title": "È probabilmente la cosa<br>più <span class=\"gold\">importante</span> della lezione."
+ },
+ {
+  "file": "c33",
+  "layout": "statement",
+  "title": "Funziona solo se<br>la seconda parte è <span class=\"gold\">sincera</span>."
+ },
+ {
+  "file": "c34",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "L'altro non sente le parole.<br>Sente che <span class=\"gold\">stai aspettando qualcosa</span>."
+ },
+ {
+  "file": "c35",
+  "layout": "cards",
+  "kicker": "tre modi per far chiudere qualcuno",
+  "rows": [
+   {
+    "icona": "lente",
+    "testo": "Fare il detective"
+   },
+   {
+    "icona": "testa",
+    "testo": "«Lo so cosa stai pensando»"
+   },
+   {
+    "icona": "spinta",
+    "testo": "Insistere dopo un no"
+   }
+  ]
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Il difetto non è che sbagli.<br>È che <span class=\"gold\">non stai più ascoltando</span>."
+ },
+ {
+  "file": "c38",
+  "layout": "quote",
+  "title": "«Lo so cosa stai pensando.»",
+  "note": "Primo: non lo sai. Secondo: anche se lo sapessi, era l'unica cosa ancora sua."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Se la porta l'hai aperta e non è entrato,<br>il tuo lavoro è <span class=\"gold\">finito</span>."
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "Il conto non lo paghi oggi.<br>Lo paghi <span class=\"gold\">la prossima volta</span>."
+ },
+ {
+  "file": "c41",
+  "layout": "memo",
+  "theme": "deep",
+  "title": "Notare è osservare.<br>Decidere cosa significa è <span class=\"gold\">inventare</span>."
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Nota una sproporzione.<br>Un'energia che <span class=\"gold\">non torna</span>."
+ },
+ {
+  "file": "c44",
+  "layout": "list",
+  "kicker": "modulo 2 · una linea sola",
+  "rows": [
+   "Il silenzio",
+   "I quattro modi di ascoltare male",
+   "Le domande",
+   "Il non detto"
+  ],
+  "note": "Quattro modi di dire la stessa cosa: fare meno spazio a te, per lasciarne all'altro."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "Ci vediamo<br>lì."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine del Modulo 2",
+  "sub": "Modulo 3 — Riformulazione ed empatia",
+  "site": "laparolagiusta.it"
+ }
+]
