@@ -23,3 +23,4 @@ produzione/**/out/
 node_modules
 # i CSS con i caratteri incorporati si rigenerano con fonts_embed.py
 produzione/script/fonts_*.css
+__pycache__/

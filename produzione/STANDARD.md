@@ -67,6 +67,17 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   prova a finestre. E se la coda di un blocco compare due volte nel copione
   (in 2.1 «buona intenzione» e «quattro motivi») la ricerca automatica sbaglia
   bersaglio: in quel caso prendi il silenzio immediatamente precedente.
+  **E leggi le code, non solo gli scarti.** `tagli.py` lascia stare gli
+  spostamenti sotto 0,35 s, che di solito sono rumore; ma nella 2.3 la coda
+  mancante di s06 era la parola «Tre.» — cinque caratteri, sotto la soglia, e
+  la battuta di tutto il blocco. Se manca una parola sola che porta il senso,
+  spostalo a mano al silenzio successivo.
+- **Se la lezione chiede una pausa, mettila davvero.** Nella 2.3 il copione dice
+  «adesso stai zitto insieme a me»: dopo quella frase c'e' una scena di otto
+  secondi con un b-roll muto e un letto di musica, e nessun parlato. Una scena
+  cosi' risolve anche due cose per conto suo: porta il proprio audio, quindi
+  non incappa nella trappola della scena `video` muta, ed e' il posto giusto in
+  cui far cadere la giunzione fra le due generazioni della voce.
 - **Una scena `video` senza parlato non dura quanto la clip.** Montando
   copertina e chiusura come scene `video` senza `audio_asset_id`, HeyGen ha
   reso in un secondo una clip da dieci. Si ancora la scena a una traccia muta

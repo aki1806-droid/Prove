@@ -1,0 +1,246 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.3",
+"title": "Il silenzio come strumento",
+"sub": "Ascoltare davvero"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Non la pausa dentro il tuo discorso.<br>Quella che si apre <span class=\"gold\">quando lui finisce</span>."
+},
+{
+"file": "c03",
+"layout": "statement",
+"theme": "deep",
+"title": "Il momento <span class=\"gold\">più sprecato</span><br>di tutta la conversazione."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "PERCHÉ LO RIEMPIAMO",
+"title": "Non per distrazione.<br>Per <span class=\"gold\">paura del vuoto</span>."
+},
+{
+"file": "c05",
+"layout": "number",
+"kicker": "LA TECNICA, TUTTA QUI",
+"num": "3",
+"unit": " secondi",
+"barra": false,
+"title": "Quando l'altro finisce, conta tre secondi prima di rispondere."
+},
+{
+"file": "c06",
+"layout": "list",
+"plain": true,
+"theme": "sand",
+"kicker": "PERCHÉ PROPRIO TRE",
+"rows": [
+"Due sono ancora una pausa normale",
+"Cinque diventano imbarazzo",
+"Tre"
+]
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "La prima volta che lo vedi<br><span class=\"gold\">fa una certa impressione</span>."
+},
+{
+"file": "c08",
+"layout": "statement",
+"theme": "sand",
+"title": "L'altro ricomincia.<br>Non perché hai chiesto: perché <span class=\"gold\">ha trovato spazio</span>."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Non più lungo.<br><span class=\"gold\">Più vero</span>."
+},
+{
+"file": "c10",
+"layout": "figure",
+"kicker": "LE DUE VERSIONI",
+"svg": "<svg viewBox=\"0 0 1180 520\">\n  <path class=\"tratto\" d=\"M60 200 h300 a16 16 0 0 1 16 16 v88 a16 16 0 0 1-16 16 H60 a16 16 0 0 1-16-16 v-88 a16 16 0 0 1 16-16 z\"/>\n  <path class=\"tratto oro\" d=\"M760 200 h360 a16 16 0 0 1 16 16 v88 a16 16 0 0 1-16 16 H760 a16 16 0 0 1-16-16 v-88 a16 16 0 0 1 16-16 z\"/>\n  <path class=\"tratto sottile\" d=\"M392 260 h330\"/>\n  <path class=\"tratto sottile\" d=\"M436 200 v120 M528 200 v120 M620 200 v120\"/>\n  <path class=\"tratto oro\" d=\"M700 246 L726 260 L700 274\"/>\n  <text class=\"eti\" x=\"76\" y=\"252\">La prima versione</text>\n  <text class=\"eti\" x=\"76\" y=\"292\">quella preparata</text>\n  <text class=\"eti oro\" x=\"778\" y=\"252\">La seconda</text>\n  <text class=\"eti oro\" x=\"778\" y=\"292\">quella vera</text>\n  <text class=\"eti oro\" x=\"470\" y=\"168\">tre secondi</text>\n</svg>",
+"title": "La prima è quella che dà a tutti."
+},
+{
+"file": "c11",
+"layout": "memo",
+"theme": "deep",
+"title": "Non l'hai estorta.<br>Hai smesso di occupare il posto."
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "TECNICA O TRUCCO",
+"title": "Consiste nel togliere,<br>non nell'<span class=\"gold\">aggiungere</span>."
+},
+{
+"file": "c13",
+"layout": "statement",
+"theme": "deep",
+"title": "Adesso stai zitto<br>insieme a me."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Dal di dentro<br>il silenzio <span class=\"gold\">dura il doppio</span>."
+},
+{
+"file": "c15",
+"layout": "statement",
+"theme": "sand",
+"kicker": "NON SONO TUTTI UGUALI",
+"title": "Ce ne sono tre,<br>e dicono <span class=\"gold\">cose diverse</span>."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "SILENZIO UNO · DI ATTESA",
+"title": "«Ho ancora spazio per te.»"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "SILENZIO DUE · DI PESO",
+"title": "«Quello che hai detto conta,<br>e me ne sto <span class=\"gold\">accorgendo adesso</span>.»"
+},
+{
+"file": "c18",
+"layout": "statement",
+"theme": "sand",
+"title": "Riempirlo gli fa capire<br>che è <span class=\"gold\">già passata</span>."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "SILENZIO TRE · DI RIFIUTO",
+"title": "«Non entro in questo gioco.»"
+},
+{
+"file": "c20",
+"layout": "statement",
+"theme": "deep",
+"title": "Il più potente dei tre.<br>E <span class=\"gold\">il più rischioso</span>."
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Quel silenzio che in famiglia dura tre giorni<br>non è ascolto: <span class=\"gold\">è castigo</span>."
+},
+{
+"file": "c22",
+"layout": "memo",
+"theme": "deep",
+"title": "La differenza sta negli occhi."
+},
+{
+"file": "c23",
+"layout": "figure",
+"kicker": "STESSO SILENZIO, SENSO OPPOSTO",
+"svg": "<svg viewBox=\"0 0 1180 520\">\n  <path class=\"tratto\" d=\"M120 210 a90 60 0 1 0 180 0 a90 60 0 1 0-180 0\"/>\n  <circle class=\"tratto\" cx=\"210\" cy=\"210\" r=\"26\"/>\n  <path class=\"tratto oro\" d=\"M210 260 L210 330\"/>\n  <path class=\"tratto oro\" d=\"M188 308 L210 332 L232 308\"/>\n  <path class=\"tratto\" d=\"M760 210 a90 60 0 1 0 180 0 a90 60 0 1 0-180 0\"/>\n  <circle class=\"tratto\" cx=\"890\" cy=\"205\" r=\"26\"/>\n  <path class=\"tratto oro\" d=\"M850 260 C880 320 960 330 1010 300\"/>\n  <path class=\"tratto oro\" d=\"M986 292 L1014 300 L1000 324\"/>\n  <text class=\"eti\" x=\"126\" y=\"408\">Sguardo addosso</text>\n  <text class=\"eti oro\" x=\"126\" y=\"452\">attesa</text>\n  <text class=\"eti\" x=\"762\" y=\"408\">Sguardo altrove</text>\n  <text class=\"eti oro\" x=\"762\" y=\"452\">ostilità</text>\n</svg>",
+"title": "Stessa durata, stessa assenza di parole."
+},
+{
+"file": "c24",
+"layout": "statement",
+"theme": "sand",
+"title": "Non decide che sei ostile.<br><span class=\"gold\">Lo sente</span>."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "TRE MODI DI SPRECARLI",
+"title": "I riempitivi.<br>Li usiamo tutti <span class=\"gold\">convinti che siano ascolto</span>."
+},
+{
+"file": "c26",
+"layout": "quote",
+"title": "Capisco.",
+"note": "detto due volte comunica il contrario"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "I RUMORI",
+"title": "Mhm. Eh già. Certo.<br>Li facciamo <span class=\"gold\">anche al telefono</span>."
+},
+{
+"file": "c28",
+"layout": "statement",
+"theme": "sand",
+"title": "Il silenzio guardando altrove<br>non è attesa: <span class=\"gold\">è disinteresse</span>."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Nessuno dei tre è maleducazione.<br>Sono modi per <span class=\"gold\">gestire un disagio</span>."
+},
+{
+"file": "c30",
+"layout": "statement",
+"theme": "deep",
+"title": "Come si accende una radio<br>in una <span class=\"gold\">casa vuota</span>."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "LA PARTE SCOMODA",
+"title": "Adesso però una cosa<br>va detta."
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Non è una tecnica<br>per <span class=\"gold\">far parlare l'altro</span>."
+},
+{
+"file": "c33",
+"layout": "statement",
+"theme": "sand",
+"title": "Un silenzio che aspetta una confessione<br>e uno che lascia spazio <span class=\"gold\">pesano diverso</span>."
+},
+{
+"file": "c34",
+"layout": "memo",
+"theme": "deep",
+"title": "Non hai fatto una domanda.<br>Hai smesso di occupare il posto."
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "LA PROVA DI OGGI",
+"title": "Una volta sola.<br>Oggi."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Contali davvero.<br>Quello che ti sembra tre <span class=\"gold\">è uno e mezzo</span>."
+},
+{
+"file": "c37",
+"layout": "statement",
+"theme": "sand",
+"title": "Guarda se ricomincia.<br>Non forzare: <span class=\"gold\">guarda e basta</span>."
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Quella seconda parte è la vera.<br>Ed è quella che <span class=\"gold\">non avresti mai sentito</span>."
+},
+{
+"file": "c39",
+"layout": "statement",
+"theme": "deep",
+"title": "Ci vediamo<br>nella prossima."
+},
+{
+"file": "c99",
+"layout": "closing",
+"sub": "Dire, ascoltare, convincere",
+"site": "laparolagiusta.it"
+}
+]

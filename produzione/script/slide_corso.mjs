@@ -198,7 +198,7 @@ function stageGrafica(c) {
     case 'number':
       return `<div class="stage graf">${kicker}
         <div class="bignum">${c.num}${c.unit ? `<small>${c.unit}</small>` : ''}</div>
-        <div class="barra"><i style="width:${c.fill ?? 80}%"></i></div>
+        ${c.barra === false ? '' : `<div class="barra"><i style="width:${c.fill ?? 80}%"></i></div>`}
         <div class="didascalia">${c.title}</div>${note}</div>`;
 
     case 'cards':
