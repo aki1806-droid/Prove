@@ -237,6 +237,12 @@ const icone = {
   gomma:    `<g transform="rotate(14 50 44)"><path class="tratto" d="M28 18 h44 v52 H28 z"/><path class="tratto sottile" d="M28 44 h44"/></g><path class="tratto oro" d="M2 90 h32"/><path class="tratto sottile" d="M66 90 h36"/><circle class="tratto oro" cx="78" cy="74" r="2.5"/><circle class="tratto oro" cx="90" cy="81" r="2"/>`,
   chiave:   `<circle class="tratto" cx="28" cy="52" r="16"/><path class="tratto" d="M44 52 h52"/><path class="tratto oro" d="M74 52 v14"/><path class="tratto oro" d="M90 52 v14"/>`,
   scansa:   `<path class="tratto" d="M38 40 h28 v28 H38 z"/><path class="tratto oro" d="M8 90 C8 42 40 10 92 16"/><path class="tratto oro" d="M76 8 L96 16 L82 30"/>`,
+  nomina:   `<path class="tratto" d="M14 22 h76 v44 H52 L34 84 V66 H14 z"/><path class="tratto oro" d="M30 38 h30"/><path class="tratto oro" d="M30 52 h44"/>`,
+  legittima:`<path class="tratto" d="M28 8 h48 v26 H28 z"/><path class="tratto oro" d="M52 40 v20"/><path class="tratto oro" d="M42 50 L52 62 L62 50"/><path class="tratto" d="M28 68 h48 v26 H28 z"/>`,
+  resta:    `<path class="tratto" d="M8 94 h88"/><circle class="tratto" cx="36" cy="28" r="11"/><path class="tratto" d="M36 39 v38"/><circle class="tratto oro" cx="70" cy="28" r="11"/><path class="tratto oro" d="M70 39 v38"/>`,
+  peggio:   `<path class="tratto" d="M8 96 h88"/><path class="tratto" d="M18 78 h26 v18 H18 z"/><path class="tratto oro" d="M60 20 h26 v76 H60 z"/>`,
+  dopo:     `<circle class="tratto" cx="52" cy="52" r="38"/><path class="tratto oro" d="M52 28 v24 h22"/><path class="tratto sottile" d="M52 90 v8"/>`,
+  altrove:  `<path class="tratto" d="M8 16 h32 v72 H8 z"/><path class="tratto sottile" d="M64 16 h32 v72 H64 z"/><path class="tratto oro" d="M40 52 h20"/><path class="tratto oro" d="M52 42 L64 52 L52 62"/>`,
   io:       `<circle class="tratto" cx="52" cy="34" r="17"/><path class="tratto" d="M24 88 C24 68 36 58 52 58 C68 58 80 68 80 88"/><path class="tratto oro" d="M92 30 C104 52 86 72 66 68"/><path class="tratto oro" d="M78 60 L64 68 L74 80"/>`,
 };
 
