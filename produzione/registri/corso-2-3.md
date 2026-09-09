@@ -9,7 +9,7 @@ messi dove la lezione chiede al pubblico di stare zitto.
 | video_id | `d3a0cc9ce862840706e3800569af77af` |
 | scene | 41 — copertina, 12 blocchi, la pausa, 26 blocchi, chiusura |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata attesa | 364,2 s (6:04) |
+| durata | **6:03** (363,5 s — attesi 364,2) |
 | parlato | 343,2 s |
 | pagina | https://app.heygen.com/videos/d3a0cc9ce862840706e3800569af77af |
 
