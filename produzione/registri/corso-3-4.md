@@ -6,10 +6,10 @@ di tè che si raffredda, con la musica.
 
 | campo | valore |
 |---|---|
-| video_id | *(in coda)* |
+| video_id | `c1d2184b04844d64b52a6ff4ce1a811a` |
 | scene | 50 — copertina, 47 blocchi, la pausa, chiusura |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata attesa | 347,1 s (5:47) |
+| durata | 346,1 s (5:46) |
 | parlato | 325,1 s |
 
 ## Il copione è stato riscritto
