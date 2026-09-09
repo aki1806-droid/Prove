@@ -5,10 +5,10 @@ Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | *(in coda)* |
+| video_id | `1c658ec7ef8e837723c2eb0c68049efd` |
 | scene | 49 — copertina, 47 blocchi, chiusura |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata attesa | 347,6 s (5:48) |
+| durata | 346,6 s (5:46) |
 | parlato | 334,6 s |
 
 ## Il copione è stato riscritto
