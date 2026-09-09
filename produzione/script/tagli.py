@@ -115,7 +115,9 @@ def prova(d, blocchi):
         _ff('-y', '-ss', str(max(0, cut - FINESTRA)), '-t', str(FINESTRA),
             '-i', f'{d}/unico_{k}_raw.mp3', '-ar', '16000', '-ac', '1', o)
         righe.append(os.path.basename(o))
-    _ff('-y', '-f', 'lavfi', '-t', '1.5', '-i', 'anullsrc=r=16000:cl=mono',
+    # 2,5 s e non 1,5: con una pausa corta `scribe` a volte non chiude la frase
+    # e due code finiscono attaccate, sfasando tutto il confronto di uno.
+    _ff('-y', '-f', 'lavfi', '-t', '2.5', '-i', 'anullsrc=r=16000:cl=mono',
         '-ar', '16000', '-ac', '1', f'{d}/prova/gap.wav')
     with open(f'{d}/prova/lista.txt', 'w') as f:
         for i, r in enumerate(righe):

@@ -96,10 +96,15 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 - **Nel layout `figure` la didascalia sta in una riga**, circa cinquanta
   caratteri. Se va a capo spinge su tutto il disegno e il sommario finisce
   addosso al logo.
-- **Le prove di montaggio si caricano diritte su ElevenLabs**:
-  `creative_create_asset_upload` (nome, mime, byte esatti), PUT dei byte
-  sull'`upload_url`, poi `creative_finalize_asset_upload` con il `flow_id`.
-  Il giro via HeyGen per ottenere un URL pubblico non serve piu'.
+- **Come si porta la prova a ElevenLabs.** Il giro sicuro e' via HeyGen:
+  `create_asset_upload` -> PUT dei byte -> `complete_asset_upload`, che
+  restituisce un URL pubblico, e quello si passa a
+  `creative_attach_reference_file`. Il caricamento diretto
+  (`creative_create_asset_upload`) a volte c'e' e a volte e' bloccato da una
+  regola di permessi: se c'e' fa risparmiare tre chiamate, ma non ci si conta.
+- **La pausa fra le finestre della prova e' 2,5 s**, non 1,5. Con 1,5 s
+  `scribe` a volte non chiude la frase e due code finiscono attaccate: il
+  confronto si sfasa di uno e sembra che sia sbagliato mezzo montaggio.
 - **Riprese generate: Higgsfield costa un ordine di grandezza meno.** 32,5
   crediti per 5 s di video e 2 per un'immagine, contro i 400 crediti dei 5 s
   di Artlist. Ma il proxy blocca il suo CDN in scaricamento: i byte qui non
