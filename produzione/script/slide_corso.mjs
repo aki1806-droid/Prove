@@ -181,6 +181,10 @@ const grafica = (t) => `
 
 /* Icone: tratto aperto, così si possono "disegnare" animando il tratteggio. */
 const icone = {
+  nuvola:   `<path class="tratto" d="M26 66 a18 18 0 0 1 4-35 a22 22 0 0 1 42-7 a17 17 0 0 1 6 33 z"/><circle class="tratto oro" cx="40" cy="84" r="6"/><circle class="tratto oro" cx="58" cy="92" r="4"/>`,
+  imbuto:   `<path class="tratto" d="M16 20 h72 L60 56 v30 l-16 10 V56 z"/><path class="tratto oro" d="M34 34 h36"/>`,
+  bilancia: `<path class="tratto" d="M52 18 v70"/><path class="tratto" d="M20 30 h64"/><path class="tratto" d="M32 88 h40"/><path class="tratto oro" d="M20 30 L8 56 h24 z"/><path class="tratto oro" d="M84 30 L72 56 h24 z"/>`,
+  cerotto:  `<path class="tratto" d="M22 52 a18 18 0 0 1 18-18 h24 a18 18 0 0 1 0 36 H40 a18 18 0 0 1-18-18 z" transform="rotate(-45 52 52)"/><path class="tratto oro" d="M40 40 L64 64"/><path class="tratto oro" d="M46 62 L62 46"/>`,
   orologio: `<circle class="tratto" cx="52" cy="52" r="40"/><path class="tratto oro" d="M52 28 L52 54 L72 64"/>`,
   lampadina:`<path class="tratto" d="M52 18 a24 24 0 0 1 24 24 c0 13-9 19-12 26 H40 c-3-7-12-13-12-26 a24 24 0 0 1 24-24 z"/><path class="tratto oro" d="M41 76 h22"/><path class="tratto oro" d="M44 86 h16"/>`,
   scudo:    `<path class="tratto" d="M52 14 L86 28 C86 62 72 82 52 92 C32 82 18 62 18 28 Z"/><path class="tratto oro" d="M36 52 L48 64 L70 40"/>`,
