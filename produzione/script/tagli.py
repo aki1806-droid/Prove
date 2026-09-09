@@ -37,6 +37,13 @@ def durata(p):
     return int(h) * 3600 + int(m) * 60 + float(s)
 
 
+def silenzi_a(p, d=0.20, db=45):
+    err = _ff('-i', p, '-af', f'silencedetect=noise=-{db}dB:d={d}', '-f', 'null', '-').stderr
+    a = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', err)]
+    b = [float(x) for x in re.findall(r'silence_end: ([\d.]+)', err)]
+    return list(zip(a, b))
+
+
 def silenzi(p, d=0.20):
     err = _ff('-i', p, '-af', f'silencedetect=noise=-45dB:d={d}', '-f', 'null', '-').stderr
     a = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', err)]
@@ -49,6 +56,9 @@ def norm(s):
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
     s = s.replace("'", ' ').replace('’', ' ')
     return re.sub(r'[^a-z0-9]+', ' ', s).strip()
+
+
+SCONTO = 9.0   # peso dello sconto per la lunghezza della pausa
 
 
 def allinea(d):
@@ -73,26 +83,72 @@ def allinea(d):
         for x in w[:-1]:
             c += x
             atteso.append(c / W * S)
-        cand = sorted(x for x in ((a + b) / 2 for a, b in sil) if 0.5 < x < tot - 0.5)
+        # I candidati sono le pause vere, a -45 dB: sono i punti dove finisce
+        # una frase, e uno scarto di stima si corregge da solo perche' li'
+        # accanto non c'e' nient'altro da scegliere. Un respiro a meta' frase
+        # non deve entrare nell'elenco, altrimenti il confine ci si appoggia e
+        # taglia dentro al blocco.
+        # Fra un blocco e l'altro la pausa e' piu' lunga che dentro la frase.
+        # Tenendo solo le piu' lunghe — poco piu' numerose dei confini da
+        # collocare — restano quasi solo le pause di paragrafo, e la stima a
+        # caratteri (che sbaglia di qualche secondo dove la lettura rallenta)
+        # non ha piu' un respiro a meta' frase su cui appoggiarsi.
+        tutte = [((a + b) / 2, b - a) for a, b in sil if 0.5 < (a + b) / 2 < tot - 0.5]
+        quante = min(len(tutte), round(1.6 * (len(ids) - 1)) + 6)
+        cand = sorted(x for x, _ in sorted(tutte, key=lambda p: -p[1])[:quante])
+        # Unica eccezione: dove il fondo di sala sta sopra i -45 dB non si
+        # trova nessuna pausa per decine di secondi. Quei buchi si riempiono
+        # con le pause trovate a -40, che li' sono le uniche che ci sono.
+        buchi = [(a, b) for a, b in zip([0.0] + cand, cand + [tot]) if b - a > 20]
+        if buchi:
+            largo = [(a + b) / 2 for a, b in silenzi_a(f'{d}/unico_{k}_raw.mp3', 0.18, 40)]
+            cand = sorted(cand + [x for x in largo
+                                  if any(a < x < b for a, b in buchi)])
         cs = [parlato(x) for x in cand]
+        # Quanto e' lunga la pausa di ogni candidato. Serve perche' la stima
+        # a caratteri sbaglia di qualche secondo dove la lettura rallenta (in
+        # apertura, per esempio), e a quel punto il confine si appoggia al
+        # respiro piu' vicino invece che alla pausa di paragrafo. La pausa fra
+        # due blocchi e' sempre la piu' lunga li' intorno: darle uno sconto
+        # rimette il confine dove finisce la frase.
+        lung = {}
+        for a, b in sil:
+            lung[(a + b) / 2] = b - a
+        prem = [SCONTO * min(lung.get(x, 0.20), 1.2) for x in cand]
         n, K, INF = len(cand), len(atteso), float('inf')
-        dp = [[INF] * n for _ in range(K)]
-        par = [[-1] * n for _ in range(K)]
-        for i in range(n):
-            dp[0][i] = (cs[i] - atteso[0]) ** 2
-        for j in range(1, K):                # monotona: i confini non si scavalcano
-            best, bi = INF, -1
+        def percorso(att):
+            dp = [[INF] * n for _ in range(K)]
+            par = [[-1] * n for _ in range(K)]
             for i in range(n):
-                if i and dp[j - 1][i - 1] < best:
-                    best, bi = dp[j - 1][i - 1], i - 1
-                if best < INF:
-                    dp[j][i], par[j][i] = best + (cs[i] - atteso[j]) ** 2, bi
-        i = min(range(n), key=lambda x: dp[K - 1][x])
-        sel = []
-        for j in range(K - 1, -1, -1):
-            sel.append(i)
-            i = par[j][i]
-        sel.reverse()
+                dp[0][i] = (cs[i] - att[0]) ** 2 - prem[i]
+            for j in range(1, K):            # monotona: i confini non si scavalcano
+                best, bi = INF, -1
+                for i in range(n):
+                    if i and dp[j - 1][i - 1] < best:
+                        best, bi = dp[j - 1][i - 1], i - 1
+                    if best < INF:
+                        dp[j][i] = best + (cs[i] - att[j]) ** 2 - prem[i]
+                        par[j][i] = bi
+            i = min(range(n), key=lambda x: dp[K - 1][x])
+            s = []
+            for j in range(K - 1, -1, -1):
+                s.append(i)
+                i = par[j][i]
+            s.reverse()
+            return s
+
+        sel = percorso(atteso)
+        # Secondo giro. La stima a caratteri da' per scontato che si legga
+        # sempre alla stessa velocita', e non e' vero: l'apertura e' piu' lenta
+        # del resto. Lo scarto del primo giro, spianato su una decina di
+        # confini, e' proprio quel rallentamento — e rimesso nella stima
+        # sposta anche i confini che al primo giro erano finiti sulla pausa
+        # sbagliata.
+        resto = [cs[i] - a for i, a in zip(sel, atteso)]
+        R = 4
+        liscio = [sum(resto[max(0, j - R):j + R + 1]) / len(resto[max(0, j - R):j + R + 1])
+                  for j in range(K)]
+        sel = percorso([a + r for a, r in zip(atteso, liscio)])
         tagli[k] = [0.0] + [cand[i] for i in sel] + [tot]
         for j, i in enumerate(sel):
             meta.append({'chunk': k, 'fine_di': ids[j], 'inizio_di': ids[j + 1]})

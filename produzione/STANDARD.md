@@ -58,6 +58,28 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   Le durate attese si calcolano **nel dominio del parlato**, cioe' al netto dei
   silenzi, se no la varianza delle pause sporca la stima. Poi programmazione
   dinamica monotona per scegliere i candidati.
+  **Due cose imparate sulla 3.3, dove il primo allineamento ha sbagliato
+  quarantacinque confini su quarantacinque.** La prima: i candidati non sono
+  tutti i silenzi, sono **solo i piu' lunghi** — se ne tengono poco piu' dei
+  confini da collocare (1,6 volte piu' sei). Fra un blocco e l'altro la pausa
+  e' quasi sempre la piu' lunga li' intorno, e togliere di mezzo i respiri di
+  meta' frase e' l'unica difesa quando la stima sbaglia di qualche secondo: se
+  no il confine si appoggia al respiro piu' vicino e taglia dentro al blocco,
+  con una durata che sembra perfino plausibile. La seconda: la stima a
+  caratteri da' per scontato che si legga sempre alla stessa velocita', e non
+  e' vero — l'apertura di una lezione e' piu' lenta del resto, e li' la stima
+  arriva a essere avanti di **quattro secondi e mezzo**. Si corregge da sola
+  con un secondo giro: lo scarto del primo, spianato su una decina di confini,
+  e' proprio quel rallentamento, e rimesso nella stima sposta i confini che
+  erano finiti sulla pausa sbagliata. Fra i due accorgimenti gli errori sono
+  passati da quarantacinque a undici, poi a zero con `correggi`.
+  Una nota sul mestiere: le durate dei blocchi **non bastano a scoprirlo**.
+  Tagliando dopo la prima frase di ogni blocco ogni blocco resta lungo piu' o
+  meno quanto deve, e tutti i caratteri al secondo tornano fra 10 e 20. Serve
+  la prova trascritta, e se anche quella e' ambigua, la controprova: estrai
+  cinque secondi a cavallo di tre confini sospetti e trascrivili — costa
+  centotrenta crediti e dice senza discussione se il taglio e' dentro o in
+  fondo al blocco.
   **Il risultato va verificato, sempre**: da solo l'allineamento sbaglia (9 su
   36 alla prima passata sulla 2.1). Estrai 1,6 s prima di ogni taglio,
   concatenali separati da silenzio e mandali a `eleven_scribe_v1` in una

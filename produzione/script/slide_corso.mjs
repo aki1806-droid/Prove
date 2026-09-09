@@ -231,6 +231,12 @@ const icone = {
   eco:      `<path class="tratto" d="M10 20 h84 v50 H52 L32 90 V70 H10 z"/><path class="tratto oro" d="M28 34 h48 v24 H46 L36 68 V58 H28 z"/>`,
   raffica:  `<path class="tratto" d="M10 24 h60"/><path class="tratto" d="M62 16 L76 24 L62 32"/><path class="tratto" d="M10 52 h60"/><path class="tratto" d="M62 44 L76 52 L62 60"/><path class="tratto oro" d="M10 80 h60"/><path class="tratto oro" d="M62 72 L76 80 L62 88"/>`,
   ritorno:  `<path class="tratto" d="M16 32 h54"/><path class="tratto" d="M60 24 L74 32 L60 40"/><path class="tratto oro" d="M88 32 v26 a12 12 0 0 1-12 12 H30"/><path class="tratto oro" d="M42 62 L30 70 L42 78"/>`,
+  capire:   `<path class="tratto" d="M8 24 L38 14 L66 24 L96 14 v66 L66 90 L38 80 L8 90 z"/><path class="tratto sottile" d="M38 14 v66"/><path class="tratto sottile" d="M66 24 v66"/><path class="tratto oro" d="M22 70 C36 56 44 60 56 44 S78 34 86 30"/>`,
+  condividere:`<path class="tratto" d="M8 34 c11-18 22 18 33 0 s22 18 33 0 s16 8 22 4"/><path class="tratto oro" d="M8 74 c11-18 22 18 33 0 s22 18 33 0 s16 8 22 4"/>`,
+  approvare:`<path class="tratto" d="M22 8 h60 v88 H22 z"/><path class="tratto sottile" d="M34 28 h36"/><path class="tratto sottile" d="M34 42 h36"/><path class="tratto oro" d="M32 74 c8-16 13 8 19-3 s9 13 19-3"/><path class="tratto" d="M32 84 h40"/>`,
+  gomma:    `<g transform="rotate(14 50 44)"><path class="tratto" d="M28 18 h44 v52 H28 z"/><path class="tratto sottile" d="M28 44 h44"/></g><path class="tratto oro" d="M2 90 h32"/><path class="tratto sottile" d="M66 90 h36"/><circle class="tratto oro" cx="78" cy="74" r="2.5"/><circle class="tratto oro" cx="90" cy="81" r="2"/>`,
+  chiave:   `<circle class="tratto" cx="28" cy="52" r="16"/><path class="tratto" d="M44 52 h52"/><path class="tratto oro" d="M74 52 v14"/><path class="tratto oro" d="M90 52 v14"/>`,
+  scansa:   `<path class="tratto" d="M38 40 h28 v28 H38 z"/><path class="tratto oro" d="M8 90 C8 42 40 10 92 16"/><path class="tratto oro" d="M76 8 L96 16 L82 30"/>`,
   io:       `<circle class="tratto" cx="52" cy="34" r="17"/><path class="tratto" d="M24 88 C24 68 36 58 52 58 C68 58 80 68 80 88"/><path class="tratto oro" d="M92 30 C104 52 86 72 66 68"/><path class="tratto oro" d="M78 60 L64 68 L74 80"/>`,
 };
 
