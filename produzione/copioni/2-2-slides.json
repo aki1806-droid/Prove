@@ -1,0 +1,301 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.2",
+"title": "I quattro modi di ascoltare male",
+"sub": "Ascoltare davvero"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Tu non te ne accorgi.<br>Chi ti sta davanti <span class=\"gold\">se ne accorge sempre</span>."
+},
+{
+"file": "c03",
+"layout": "statement",
+"theme": "deep",
+"kicker": "OGGI",
+"title": "Quattro modi<br>di ascoltare male."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "MODO UNO · IL DISTRATTO",
+"title": "Fisicamente lì.<br><span class=\"gold\">Mentalmente altrove</span>."
+},
+{
+"file": "c05",
+"layout": "list",
+"plain": true,
+"theme": "sand",
+"kicker": "COME SI VEDE DA FUORI",
+"rows": [
+"Risposte fuori tempo, mezzo secondo dopo",
+"«Scusa, cosa dicevi»"
+]
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "MODO DUE · IL SELETTIVO",
+"title": "Ascolta con un filtro.<br>E il filtro <span class=\"gold\">sei tu</span>."
+},
+{
+"file": "c07",
+"layout": "number",
+"theme": "deep",
+"kicker": "IL SELETTIVO",
+"num": "20",
+"unit": "%",
+"fill": 20,
+"title": "delle frasi ricevono risposta. Sempre quelle dove compare lui.",
+"note": "Tutto il resto passa e non lascia traccia."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "MODO TRE · IL VALUTATIVO",
+"title": "Sta scrivendo la sentenza,<br>quindi <span class=\"gold\">la fine non la sente</span>."
+},
+{
+"file": "c09",
+"layout": "statement",
+"theme": "sand",
+"kicker": "MODO QUATTRO · IL RIPARATORE",
+"title": "Il più impegnato dei quattro.<br>E <span class=\"gold\">il più assente</span>."
+},
+{
+"file": "c10",
+"layout": "cards",
+"kicker": "I QUATTRO MODI",
+"rows": [
+{
+"icona": "nuvola",
+"testo": "Distratto"
+},
+{
+"icona": "imbuto",
+"testo": "Selettivo"
+},
+{
+"icona": "bilancia",
+"testo": "Valutativo"
+},
+{
+"icona": "cerotto",
+"testo": "Riparatore"
+}
+],
+"note": "Non sono in ordine di gravità, e non sono esclusivi."
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "In una sola conversazione<br>puoi passarci <span class=\"gold\">tutti e quattro</span>."
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Ma uno è dominante:<br>quello in cui cadi <span class=\"gold\">quando sei stanco</span>."
+},
+{
+"file": "c13",
+"layout": "memo",
+"theme": "deep",
+"title": "Il tuo non è quello delle giornate buone.<br>È quello che esce alle sette di sera."
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "COME TROVARE IL TUO",
+"title": "Non guardare te.<br>Guarda <span class=\"gold\">il segno che lasci</span>."
+},
+{
+"file": "c15",
+"layout": "table",
+"theme": "sand",
+"kicker": "OGNI MODO LASCIA UN SEGNO DIVERSO",
+"cols": [
+"Il modo",
+"Cosa lascia addosso all'altro"
+],
+"rows": [
+[
+"Distratto",
+"Domande ripetute"
+],
+[
+"Selettivo",
+"Frasi cadute nel vuoto"
+],
+[
+"Valutativo",
+"Gente che si giustifica"
+],
+[
+"Riparatore",
+"Gente che smette di raccontare"
+]
+]
+},
+{
+"file": "c16",
+"layout": "statement",
+"theme": "deep",
+"title": "Il peggiore dei quattro<br>non è <span class=\"gold\">quello che pensi</span>."
+},
+{
+"file": "c17",
+"layout": "statement",
+"theme": "deep",
+"title": "È il riparatore.<br>Ed è il peggiore perché è <span class=\"gold\">il più gentile</span>."
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "La soluzione è buona.<br>Arriva <span class=\"gold\">troppo presto</span>."
+},
+{
+"file": "c19",
+"layout": "statement",
+"theme": "sand",
+"title": "Chi ti racconta un problema<br>quasi mai vuole <span class=\"gold\">la soluzione subito</span>."
+},
+{
+"file": "c20",
+"layout": "figure",
+"kicker": "DUE PASSAGGI, IN QUEST'ORDINE",
+"svg": "<svg viewBox=\"0 0 1180 520\">\n  <path class=\"tratto\" d=\"M70 170 h340 a16 16 0 0 1 16 16 v96 a16 16 0 0 1-16 16 H70 a16 16 0 0 1-16-16 v-96 a16 16 0 0 1 16-16 z\"/>\n  <path class=\"tratto\" d=\"M700 170 h340 a16 16 0 0 1 16 16 v96 a16 16 0 0 1-16 16 H700 a16 16 0 0 1-16-16 v-96 a16 16 0 0 1 16-16 z\"/>\n  <path class=\"tratto\" d=\"M440 234 h214\"/>\n  <path class=\"tratto\" d=\"M632 220 L658 234 L632 248\"/>\n  <path class=\"tratto oro\" d=\"M240 158 C310 92 790 92 862 158\"/>\n  <path class=\"tratto oro\" d=\"M842 132 L868 162 L836 166\"/>\n  <text class=\"eti\" x=\"150\" y=\"246\">PRIMA CAPITO</text>\n  <text class=\"eti\" x=\"782\" y=\"246\">POI AIUTATO</text>\n  <text class=\"eti oro\" x=\"392\" y=\"58\">il riparatore salta di qui</text>\n  <text class=\"eti oro\" x=\"120\" y=\"392\">Il passaggio saltato</text>\n  <text class=\"eti\" x=\"700\" y=\"392\">«Sì, ma non è così semplice»</text>\n</svg>",
+"title": "Salti il primo, e il secondo non arriva mai."
+},
+{
+"file": "c21",
+"layout": "quote",
+"title": "Sì, ma non è così semplice.",
+"note": "e avrà ragione lui"
+},
+{
+"file": "c22",
+"layout": "statement",
+"title": "Chi non si sente capito<br>la soluzione <span class=\"gold\">non la può nemmeno sentire</span>."
+},
+{
+"file": "c23",
+"layout": "statement",
+"theme": "sand",
+"kicker": "UNA VOLTA L'HO FATTO IO",
+"title": "E me ne sono accorto<br>due giorni dopo."
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "Un racconto lento,<br>che <span class=\"gold\">partiva da lontano</span>."
+},
+{
+"file": "c25",
+"layout": "quote",
+"title": "Chiedi un incontro, scriviti tre punti e glieli porti.",
+"note": "chiaro, ordinato, pure giusto"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Lui dice va bene.<br>Cambia argomento. <span class=\"gold\">E mette giù</span>."
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Non mi aveva chiesto cosa fare.<br>Era <span class=\"gold\">la prima volta che lo diceva a voce</span>."
+},
+{
+"file": "c28",
+"layout": "memo",
+"theme": "deep",
+"title": "Avevo risolto il problema.<br>E avevo perso la persona."
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "LA REGOLA CHE USO DA ALLORA",
+"title": "Aspetto che l'altro<br><span class=\"gold\">finisca due volte</span>."
+},
+{
+"file": "c30",
+"layout": "list",
+"theme": "sand",
+"kicker": "LE DUE VOLTE",
+"rows": [
+"Finisce di raccontare i fatti",
+"Finisce di raccontare come sta"
+],
+"note": "Alla seconda, di solito, abbassa la voce."
+},
+{
+"file": "c31",
+"layout": "statement",
+"theme": "deep",
+"kicker": "TRE MODI PER SPRECARE QUESTA LEZIONE",
+"title": "Il terzo l'ho fatto io<br>per anni."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "UNO",
+"title": "Riconoscersi in tutti e quattro<br>e <span class=\"gold\">fermarsi lì</span>."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "DUE",
+"title": "Usare la griglia sugli altri:<br>un modo elegante per <span class=\"gold\">non guardarsi</span>."
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "TRE",
+"title": "Credere che il riparatore sia il migliore.<br>È <span class=\"gold\">il più gentile</span>. Che è un'altra cosa."
+},
+{
+"file": "c35",
+"layout": "memo",
+"theme": "deep",
+"title": "Prima essere capito.<br>Poi, eventualmente, aiutato."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "LA PROVA DI OGGI",
+"title": "Scegline <span class=\"gold\">uno solo</span>.<br>Quello che ti somiglia, non quello comodo."
+},
+{
+"file": "c37",
+"layout": "statement",
+"theme": "sand",
+"title": "Accorgiti di essere lì dentro<br><span class=\"gold\">mentre ci sei</span>. Non la sera."
+},
+{
+"file": "c38",
+"layout": "list",
+"plain": true,
+"kicker": "NON DEVI",
+"rows": [
+"Uscirne",
+"Correggerti",
+"Dirlo all'altro"
+],
+"note": "Solo accorgerti."
+},
+{
+"file": "c39",
+"layout": "statement",
+"theme": "deep",
+"title": "È molto più difficile<br>di quanto sembra."
+},
+{
+"file": "c99",
+"layout": "closing",
+"sub": "Dire, ascoltare, convincere",
+"site": "laparolagiusta.it"
+}
+]
