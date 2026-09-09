@@ -76,10 +76,13 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   essere una pausa **sotto la soglia** (dopo «Perche'.» erano 0,15 s), e il
   confine corrente **non va tenuto fra i candidati** — la coda dice che il
   taglio e' fuori posto, lasciarlo dov'e' contraddice la prova.
-  Attenzione anche a come separi le code trascritte: `scribe` scrive
-  «Perche'?» con il punto interrogativo, quindi si taglia su `.`, `?` e `!`.
-  Un solo separatore sbagliato sfasa tutto di uno e fa sembrare sbagliati
-  ventiquattro confini su quaranta.
+  Attenzione anche a come separi le code trascritte. `scribe` scrive
+  «Perche'?» con il punto interrogativo, e scrive `dire: "Hai ragione."` con
+  il punto **dentro** le virgolette: si separa quindi su `.`, `?` o `!`,
+  seguiti eventualmente da una virgoletta di chiusura, poi lo spazio. Un solo
+  separatore sbagliato sfasa tutto di uno e fa sembrare sbagliati trentacinque
+  confini su quarantatre'. Prima di leggere gli scarti, conta i pezzi: devono
+  essere tanti quanti i confini.
 - **Un blocco da una parola vuole una posa.** «Perche'.» dura 1,3 s e «E poi.»
   ne dura 0,8: il tempo di dire la parola, non quello di leggere la slide. Si
   allungano con `apad` a circa quattro secondi passando `{"s18": 4.0}` ad
@@ -90,6 +93,13 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   cosi' risolve anche due cose per conto suo: porta il proprio audio, quindi
   non incappa nella trappola della scena `video` muta, ed e' il posto giusto in
   cui far cadere la giunzione fra le due generazioni della voce.
+- **Nel layout `figure` la didascalia sta in una riga**, circa cinquanta
+  caratteri. Se va a capo spinge su tutto il disegno e il sommario finisce
+  addosso al logo.
+- **Le prove di montaggio si caricano diritte su ElevenLabs**:
+  `creative_create_asset_upload` (nome, mime, byte esatti), PUT dei byte
+  sull'`upload_url`, poi `creative_finalize_asset_upload` con il `flow_id`.
+  Il giro via HeyGen per ottenere un URL pubblico non serve piu'.
 - **Riprese generate: Higgsfield costa un ordine di grandezza meno.** 32,5
   crediti per 5 s di video e 2 per un'immagine, contro i 400 crediti dei 5 s
   di Artlist. Ma il proxy blocca il suo CDN in scaricamento: i byte qui non
