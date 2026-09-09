@@ -161,6 +161,10 @@ const grafica = (t) => `
        padding:34px 60px 34px 0; border-top:1px solid ${t.fg}33; vertical-align:top; }
   td.b { padding-right:0; }
   tr td:first-child { opacity:.45; }
+  /* pari: le due colonne hanno lo stesso peso — si usa quando il confronto
+     non e' prima/dopo ma due cose ugualmente legittime. */
+  table.pari tr td:first-child { opacity:1; }
+  table.pari td { padding-right:60px; }
 
   /* --- disegno a tratto ---------------------------------------------------- */
   .disegno { display:flex; justify-content:center; margin:8px 0 0; }
@@ -171,6 +175,29 @@ const grafica = (t) => `
   .tratto.sottile { stroke-width:2.5; opacity:.5; }
   .eti { font-family:'Jost',sans-serif; font-weight:500; font-size:34px; fill:${t.fg}; }
   .eti.oro { fill:${GOLD}; }
+
+  /* --- grafico a barre ------------------------------------------------------
+     Non serve a fare statistica: serve quando il confronto E' la frase. */
+  .grafico { display:flex; flex-direction:column; gap:56px; margin-top:6px; }
+  .bar .bet { font-family:'Jost',sans-serif; font-weight:400; font-size:40px;
+              line-height:1.25; margin-bottom:20px; }
+  .bfila { display:flex; align-items:center; gap:32px; }
+  .btrack { flex:1; position:relative; height:30px; background:${t.fg}1f; }
+  .btrack i { position:absolute; left:0; top:0; bottom:0; background:${t.fg}55;
+              transform-origin:left center; display:block; }
+  .btrack i.oro { background:${GOLD}; }
+  .bcifra { font-family:'Jost',sans-serif; font-weight:600; font-size:44px;
+            color:${GOLD}; white-space:nowrap; }
+
+  /* --- sostituzioni: prima, freccia d'oro, dopo ----------------------------- */
+  .scambi { margin-top:4px; }
+  .scambio { display:grid; grid-template-columns:1fr 132px 1fr; align-items:center;
+             gap:30px; padding:36px 0; border-top:1px solid ${t.fg}33; }
+  .scambio .pri { font-family:'Jost',sans-serif; font-weight:400; font-size:42px;
+                  line-height:1.25; opacity:.42; }
+  .scambio .dop { font-family:'Jost',sans-serif; font-weight:500; font-size:42px;
+                  line-height:1.25; }
+  .frecc svg { width:132px; height:26px; }
 
   /* --- foto a piena inquadratura, testo sopra ------------------------------ */
   .foto { position:absolute; inset:0; z-index:0; }
@@ -188,6 +215,9 @@ const icone = {
   orologio: `<circle class="tratto" cx="52" cy="52" r="40"/><path class="tratto oro" d="M52 28 L52 54 L72 64"/>`,
   lampadina:`<path class="tratto" d="M52 18 a24 24 0 0 1 24 24 c0 13-9 19-12 26 H40 c-3-7-12-13-12-26 a24 24 0 0 1 24-24 z"/><path class="tratto oro" d="M41 76 h22"/><path class="tratto oro" d="M44 86 h16"/>`,
   scudo:    `<path class="tratto" d="M52 14 L86 28 C86 62 72 82 52 92 C32 82 18 62 18 28 Z"/><path class="tratto oro" d="M36 52 L48 64 L70 40"/>`,
+  eco:      `<path class="tratto" d="M10 20 h84 v50 H52 L32 90 V70 H10 z"/><path class="tratto oro" d="M28 34 h48 v24 H46 L36 68 V58 H28 z"/>`,
+  raffica:  `<path class="tratto" d="M10 24 h60"/><path class="tratto" d="M62 16 L76 24 L62 32"/><path class="tratto" d="M10 52 h60"/><path class="tratto" d="M62 44 L76 52 L62 60"/><path class="tratto oro" d="M10 80 h60"/><path class="tratto oro" d="M62 72 L76 80 L62 88"/>`,
+  ritorno:  `<path class="tratto" d="M16 32 h54"/><path class="tratto" d="M60 24 L74 32 L60 40"/><path class="tratto oro" d="M88 32 v26 a12 12 0 0 1-12 12 H30"/><path class="tratto oro" d="M42 62 L30 70 L42 78"/>`,
   io:       `<circle class="tratto" cx="52" cy="34" r="17"/><path class="tratto" d="M24 88 C24 68 36 58 52 58 C68 58 80 68 80 88"/><path class="tratto oro" d="M92 30 C104 52 86 72 66 68"/><path class="tratto oro" d="M78 60 L64 68 L74 80"/>`,
 };
 
@@ -211,10 +241,32 @@ function stageGrafica(c) {
       </div>${note}</div>`;
 
     case 'table':
-      return `<div class="stage graf">${kicker}<table>
+      return `<div class="stage graf">${kicker}<table class="${c.pari ? 'pari' : ''}">
         <tr><th>${c.cols[0]}</th><th>${c.cols[1]}</th></tr>
         ${c.rows.map((r) => `<tr><td>${r[0]}</td><td class="b">${r[1]}</td></tr>`).join('')}
       </table>${note}</div>`;
+
+    case 'chart':
+      return `<div class="stage graf">${kicker}<div class="grafico">
+        ${c.bars.map((b) => `<div class="bar">
+            <div class="bet">${b.et}</div>
+            <div class="bfila">
+              <div class="btrack"><i class="${b.oro ? 'oro' : ''}" style="width:${b.val}%"></i></div>
+              ${b.cifra ? `<div class="bcifra">${b.cifra}</div>` : ''}
+            </div>
+          </div>`).join('')}
+      </div>${c.title ? `<div class="didascalia">${c.title}</div>` : ''}${note}</div>`;
+
+    case 'swap':
+      return `<div class="stage graf">${kicker}<div class="scambi">
+        ${c.rows.map((r) => `<div class="scambio">
+            <div class="pri">${r[0]}</div>
+            <div class="frecc"><svg viewBox="0 0 132 26">
+              <path class="tratto oro" d="M4 13 H118"/><path class="tratto oro" d="M106 4 L122 13 L106 22"/>
+            </svg></div>
+            <div class="dop">${r[1]}</div>
+          </div>`).join('')}
+      </div>${note}</div>`;
 
     case 'figure':
       return `<div class="stage graf">${kicker}<div class="disegno">${c.svg}</div>

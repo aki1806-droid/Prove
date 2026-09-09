@@ -139,6 +139,10 @@ def correggi(d):
     meta = json.load(open(f'{d}/prova_meta.json'))
     code = json.load(open(f'{d}/code.json'))
     cand = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3')) for k in 'AB'}
+    # Ripiego: a volte il confine giusto e' una pausa cortissima che la soglia
+    # normale non vede — dopo «Perche'.» nella 2.4 erano 0,15 s. Si guarda piu'
+    # fine solo quando fra i candidati normali non ce n'e' nessuno utile.
+    fini = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3', 0.08)) for k in 'AB'}
     n = 0
     for m, coda in zip(meta, code):
         k, ids = m['chunk'], ch[m['chunk']]
@@ -176,8 +180,14 @@ def correggi(d):
             continue
         cur = t[k][j + 1]
         prec = t[k][j]
-        ok = [c for c in cand[k] if prec + 1.0 < c < cur + 6] if delta > 0 else \
-             [c for c in cand[k] if prec + 1.0 < c < cur - 0.15]
+        # Il confine corrente va sempre escluso: la coda trascritta dice che il
+        # taglio e' fuori posto, quindi lasciarlo dov'e' contraddice la prova.
+        # Senza questo, una coda corta (+0,4 s) finiva per «correggersi» su se
+        # stessa, perche' il candidato piu' vicino alla stima era il vecchio.
+        def scegli(pool):
+            return [c for c in pool if prec + 1.0 < c < cur + 6 and c > cur + 0.05] if delta > 0 else \
+                   [c for c in pool if prec + 1.0 < c < cur - 0.15]
+        ok = scegli(cand[k]) or scegli(fini[k])
         if not ok:
             continue
         nuovo = min(ok, key=lambda x: abs(x - (cur + delta)))

@@ -31,7 +31,8 @@ const motion = `
 
   /* tutto parte fermo: lo fa avanzare il capture, fotogramma per fotogramma */
   .kicker, h1, .memo, .note, li, .ctitle, .csub, .lesson, .word, .rule, .mark,
-  .bignum, .barra, .barra i, .didascalia, .scheda, tr, .disegno, .foto {
+  .bignum, .barra, .barra i, .didascalia, .scheda, tr, .disegno, .foto,
+  .bar, .btrack i, .scambio {
     animation-fill-mode: both; animation-play-state: paused;
     animation-timing-function: cubic-bezier(.22,.61,.36,1);
   }
@@ -70,6 +71,20 @@ const motion = `
   tr:nth-child(3) { animation: sali .6s .82s; }
   tr:nth-child(4) { animation: sali .6s 1.06s; }
   tr:nth-child(5) { animation: sali .6s 1.30s; }
+
+  /* grafico: l'etichetta, poi la barra che cresce verso destra */
+  .bar:nth-child(1) { animation: velo .5s .34s; }
+  .bar:nth-child(2) { animation: velo .5s .62s; }
+  .bar:nth-child(3) { animation: velo .5s .90s; }
+  .bar:nth-child(1) .btrack i { animation: riga .9s .52s; }
+  .bar:nth-child(2) .btrack i { animation: riga .9s .80s; }
+  .bar:nth-child(3) .btrack i { animation: riga .9s 1.08s; }
+
+  /* sostituzioni: una riga alla volta, come la tabella */
+  .scambio:nth-child(1) { animation: sali .6s .36s; }
+  .scambio:nth-child(2) { animation: sali .6s .62s; }
+  .scambio:nth-child(3) { animation: sali .6s .88s; }
+  .scambio:nth-child(4) { animation: sali .6s 1.14s; }
 
   /* disegno: i tratti si tracciano, non compaiono */
   .disegno { animation: velo .3s .30s; }
