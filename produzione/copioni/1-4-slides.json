@@ -1,0 +1,328 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.4",
+  "title": "Il paraverbale",
+  "sub": "Tono, ritmo, pause"
+ },
+ {
+  "file": "c02",
+  "layout": "quote",
+  "kicker": "provaci adesso",
+  "title": "«Sto benissimo.»",
+  "note": "Detto con la voce piatta, guardando per terra."
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Chi ascolta non registra le parole.<br><span class=\"gold\">Registra la contraddizione.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Fra quello che dici<br>e come lo dici,<br><span class=\"gold\">vince sempre il come.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Non perché le persone<br>siano particolarmente acute.<br><span class=\"gold\">Per un motivo più semplice.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Le parole le scegliamo<br>una per una.<br><span class=\"gold\">Il tono ci scappa.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "E siccome ci scappa,<br><span class=\"gold\">lo prendono per più sincero.</span><br>Non è un ragionamento: è un riflesso."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "title": "L'unica lezione del corso<br><span class=\"gold\">che si sente</span><br>invece di leggersi."
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "le quattro leve",
+  "rows": [
+   "Volume",
+   "Altezza",
+   "Velocità",
+   "Pause"
+  ]
+ },
+ {
+  "file": "c10",
+  "layout": "list",
+  "kicker": "le quattro leve",
+  "rows": [
+   "Volume",
+   "Altezza",
+   "Velocità",
+   "Pause"
+  ],
+  "active": 0,
+  "note": "Urgenza, a volte dominio, molto più spesso insicurezza mascherata."
+ },
+ {
+  "file": "c11",
+  "layout": "list",
+  "kicker": "le quattro leve",
+  "rows": [
+   "Volume",
+   "Altezza",
+   "Velocità",
+   "Pause"
+  ],
+  "active": 1,
+  "note": "Quando sale, sale con lei l'emozione che non stai gestendo."
+ },
+ {
+  "file": "c12",
+  "layout": "list",
+  "kicker": "le quattro leve",
+  "rows": [
+   "Volume",
+   "Altezza",
+   "Velocità",
+   "Pause"
+  ],
+  "active": 2,
+  "note": "La più importante delle quattro, e la spia più affidabile."
+ },
+ {
+  "file": "c13",
+  "layout": "list",
+  "kicker": "le quattro leve",
+  "rows": [
+   "Volume",
+   "Altezza",
+   "Velocità",
+   "Pause"
+  ],
+  "active": 3,
+  "note": "Non costano niente e non si vedono. Si sentono e basta."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Partiamo dalla velocità:<br><span class=\"gold\">è quella che ti tradisce</span><br>senza che tu te ne accorga."
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "In difficoltà quasi tutti accelerano.<br><span class=\"gold\">Non per pensare meglio:<br>per uscirne prima.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "Rispondi prima ancora<br>che l'altro abbia finito.<br><span class=\"gold\">Come se il tempo fosse una minaccia.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Accelerando comunichi<br><span class=\"gold\">esattamente la difficoltà</span><br>che stavi nascondendo."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Nessuno pensa: sta accelerando.<br><span class=\"gold\">Sentono che qualcosa non va,<br>e non sanno dire cosa.</span>"
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Se ti accorgi di correre,<br><span class=\"gold\">rallenta.</span><br>Da fuori sembrerà sicurezza."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "La volta in cui mi è costata<br><span class=\"gold\">quattro secondi di silenzio<br>in diretta.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Radio locale, venti minuti.<br>Domande concordate:<br><span class=\"gold\">tutte facili, tutte preparate.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "quote",
+  "kicker": "la domanda fuori lista",
+  "title": "«E a lei, questa cosa,<br>funziona sempre?»"
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Sono stato zitto.<br><span class=\"gold\">Non per strategia:<br>perché stavo pensando.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "number",
+  "kicker": "in cuffia",
+  "num": "4",
+  "unit": "secondi",
+  "fill": 20,
+  "title": "di silenzio in diretta. Da dentro sembrano un'eternità: ho pensato di aver rovinato l'intervista."
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Finita la diretta:<br><span class=\"gold\">il momento migliore<br>è stato proprio quello.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Non le risposte preparate.<br><span class=\"gold\">Il silenzio.</span><br>L'unico punto in cui si sentiva che stavo pensando."
+ },
+ {
+  "file": "c29",
+  "layout": "cards",
+  "kicker": "cosa dice una pausa",
+  "rows": [
+   {
+    "icona": "pausaprima",
+    "testo": "Prima — quello che arriva conta"
+   },
+   {
+    "icona": "pausadopo",
+    "testo": "Dopo — prenditi il tempo di riceverlo"
+   },
+   {
+    "icona": "pausainvece",
+    "testo": "Al posto di una risposta — ti prendo sul serio"
+   }
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "Una pausa prima dice:<br><span class=\"gold\">quello che arriva conta.</span><br>Ed è l'unico modo di dirlo senza annunciarlo."
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Una pausa dopo dice l'opposto:<br><span class=\"gold\">prenditi il tempo di riceverlo.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "E una pausa al posto<br>di una risposta immediata<br><span class=\"gold\">dice quello che nessuna parola dice.</span>"
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "Chi non fa mai pause<br><span class=\"gold\">comunica una cosa sola</span><br>per tutto il tempo in cui parla."
+ },
+ {
+  "file": "c35",
+  "layout": "memo",
+  "title": "Ho fretta di finire.<br>Che tu abbia capito o no."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "Il vero motivo per cui<br>quasi nessuno le usa:<br><span class=\"gold\">ci sembrano insopportabili.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "chart",
+  "kicker": "quattro secondi di pausa",
+  "title": "Da dentro sembrano venti. All'altro sembrano due.",
+  "bars": [
+   {
+    "et": "come la senti tu",
+    "val": 100,
+    "cifra": "20″",
+    "oro": true
+   },
+   {
+    "et": "come la sente l'altro",
+    "val": 10,
+    "cifra": "2″"
+   }
+  ]
+ },
+ {
+  "file": "c38",
+  "layout": "cards",
+  "kicker": "tre istinti da correggere",
+  "rows": [
+   {
+    "icona": "megafono",
+    "testo": "Alzare la voce per farsi capire"
+   },
+   {
+    "icona": "riempire",
+    "testo": "Riempire ogni silenzio"
+   },
+   {
+    "icona": "accelera",
+    "testo": "Accelerare quando sei in difficoltà"
+   }
+  ]
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Il volume non aggiunge informazione.<br><span class=\"gold\">Aggiunge pressione.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "E la pressione chiude.<br><span class=\"gold\">Non convince: fa smettere di rispondere.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Il silenzio dell'altro<br><span class=\"gold\">non è un tuo problema<br>da risolvere in fretta.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Molto spesso sta pensando.<br><span class=\"gold\">Se lo riempi tu, gli togli<br>l'unica cosa che gli serviva.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Accelerare in difficoltà:<br><span class=\"gold\">il più difficile dei tre.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "È l'unico che parte<br>prima che tu te ne accorga.<br><span class=\"gold\">Quando lo senti, ci sei già dentro.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "memo",
+  "title": "La pausa non è un vuoto."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "È una sottolineatura.<br><span class=\"gold\">E chi sottolinea ogni riga<br>non ha sottolineato niente.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Registrati per un minuto<br>mentre spieghi<br><span class=\"gold\">qualcosa che conosci bene.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Poi mettilo via.<br><span class=\"gold\">Riascoltalo domani, non adesso.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Domani conta due cose:<br><span class=\"gold\">quante pause</span> e <span class=\"gold\">quante accelerazioni.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
