@@ -1,0 +1,38 @@
+{
+ "A": {
+  "parole_copione": 687,
+  "parole_dette": 686,
+  "coincidenti": 684,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "e d",
+    "detto": "ed"
+   },
+   {
+    "blocco": "s23",
+    "copione": "l",
+    "detto": "gli"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 663,
+  "parole_dette": 662,
+  "coincidenti": 660,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "sequestro",
+    "detto": "secuestro"
+   },
+   {
+    "blocco": "s30",
+    "copione": "mal",
+    "detto": "male"
+   }
+  ]
+ }
+}

@@ -298,6 +298,18 @@ chunkA.txt   blocchi fino allo stacco     < 5.000 caratteri
 chunkB.txt   blocchi dopo lo stacco       < 5.000 caratteri
 ```
 
+> **La voce si genera quando il copione è fermo, mai prima.** In 1.7 avevo
+> generato la traccia A e poi rivisto i blocchi: la revisione ha invalidato la
+> traccia, e rigenerarla è costato $0,75 buttati. Non c'è modo di correggere
+> mezza traccia — o è quella giusta, o si rifà tutta.
+
+**Dopo ogni ri-spezzettatura automatica, i `chunk` si rileggono contro lo
+script.** In 1.7 un giro di ri-spezzettatura ha fatto sparire in silenzio due
+passaggi — la definizione di referto e la frase sul fascicolo sanitario
+regionale. Nessun controllo li avrebbe presi: il conto dei caratteri tornava,
+i vincoli pure. Il controllo automatico verifica la forma; **non sa che cosa
+doveva esserci**. Quello lo sa solo chi rilegge.
+
 ## Passo 3 — Ritagliare i blocchi dalla traccia (il passaggio che decide tutto)
 
 ```
@@ -371,6 +383,26 @@ Se anche la prova resta ambigua, **controprova**: cinque secondi a cavallo di
 tre confini sospetti, trascritti da soli. Costa una manciata di crediti e non
 lascia dubbi.
 
+### `correzioni.json` non è un registro
+
+`tagli.py correggi` **modifica lo stato sul posto**: legge `confini-X.json`,
+sposta i confini indicati e riscrive il file. Quindi rilanciarlo con una
+correzione che ha già applicato la applica **una seconda volta**, e il confine
+se ne va di due pause invece di una.
+
+Quando serve una seconda correzione sulla stessa traccia, il giro giusto è:
+
+```
+tagli.py allinea    rifà i confini da zero (nessun costo: solo ffmpeg)
+                    ↓ correzioni.json con TUTTE le correzioni insieme
+tagli.py correggi
+tagli.py applica
+```
+
+Non è pignoleria di procedura: fatto così, `correzioni.json` **descrive
+davvero** come si passa dal grezzo ai blocchi, e la lavorazione si può
+rifare da capo. Fatto a incrementi, descrive solo l'ultimo ritocco.
+
 ### Se il caricamento di file è bloccato
 
 Può succedere che le funzioni di caricamento asset del fornitore di voce siano
@@ -397,6 +429,26 @@ una sola, quella sulla traccia intera prende l'errore più caro — la voce che
 salta parole — e i confini restano affidati all'allineamento e al controllo
 statistico offline.
 
+**L'URL firmato scade in un paio d'ore.** Se la trascrizione arriva più tardi
+— e con due tracce da nove minuti arriva più tardi — l'URL non c'è più e la
+traccia va ricaricata da qualche parte che ne dia uno nuovo. Il servizio di
+montaggio va benissimo: accetta mp3 e restituisce un URL pubblico.
+
+> **E qui la trappola.** Il caricamento della traccia grezza viene rifiutato
+> con `Stored file type not supported: application/octet-stream`, mentre lo
+> stesso identico giro con un mp3 di blocco passa. Non è il trasporto e non è
+> il tipo dichiarato: è il **tag ID3 da ~17 KB** che il generatore di voce
+> scrive in testa alla traccia. Chi riceve il file lo annusa dai primi byte e
+> non trova l'audio. Si toglie senza ricodificare:
+>
+> ```
+> ffmpeg -i grezzo-B.mp3 -map_metadata -1 -c:a copy pulito.mp3
+> ```
+>
+> Stessi campioni, 17 KB in meno, caricamento accettato. La lezione generale:
+> quando un errore parla di *tipo di file* e il file è palesemente giusto,
+> guarda che cosa c'è **prima** dei dati, non i dati.
+
 Il confronto parola per parola va normalizzato, ma **una resa per volta e
 dichiarata**, mai con una tolleranza generica: la sigla sillabata («elle esse
 enne ti uno») torna incollata dal trascrittore («LSNT1»), «uno punto cinque»
@@ -418,6 +470,28 @@ decidere senza riascoltare, in ordine di forza:
    **veloce** della media. Se è più lento, non manca niente.
 
 Se i tre indizi non concordano, si riascolta o si rigenera.
+
+### E lo stesso vale per un confine sospetto
+
+Il controllo statistico offline segnala le coppie adiacenti di segno opposto:
+un blocco più corto del previsto accanto a uno più lungo, che è la firma di un
+confine spostato. Ma il modello pesa male le cifre, e due blocchi fitti di
+numeri di articolo possono dare la stessa firma **senza** che ci sia niente
+di storto: è successo in 1.3, ed era un falso allarme.
+
+Il modo di decidere non è ragionare sul modello: è **fare il conto
+sull'audio grezzo**. Si guardano le pause rilevate intorno al confine, si
+prende lo spezzone di parlato fra le due pause candidate, e si divide per i
+caratteri della frase che dovrebbe contenere.
+
+In 1.7, fra 124,57 e 130,02 ci sono 5,4 s di parlato per una frase da 60
+caratteri: col confine dove l'aveva messo l'allineamento (127,59) quella frase
+sarebbe stata detta a **20,5 car/s di grezzo**, contro i 14-16 di questa voce.
+Confine sbagliato, senza ambiguità e senza riascoltare. Col confine sulla
+pausa da 0,73 s a 130,0 il conto torna a 14,2.
+
+La differenza fra i due casi è tutta qui: il pregiudizio del modello sposta
+la **stima**, non l'audio. L'aritmetica sul grezzo non ha pregiudizi.
 
 ## Passo 4 — Renderizzare le slide
 
