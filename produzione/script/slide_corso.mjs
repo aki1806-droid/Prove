@@ -249,6 +249,13 @@ const icone = {
   megafono: `<path class="tratto" d="M14 40 h20 L64 18 v68 L34 64 H14 z"/><path class="tratto oro" d="M78 36 c10 10 10 22 0 32"/>`,
   seteme:   `<circle class="tratto" cx="30" cy="30" r="14"/><path class="tratto" d="M8 78 c0-14 10-22 22-22 s22 8 22 22"/><path class="tratto oro" d="M62 30 h34"/><path class="tratto oro" d="M62 50 h34"/><path class="tratto oro" d="M62 70 h20"/>`,
   ritorna:  `<path class="tratto" d="M20 24 h56"/><path class="tratto oro" d="M76 24 a22 22 0 0 1 0 44 H24"/><path class="tratto oro" d="M36 56 L22 68 L36 80"/><path class="tratto sottile" d="M8 90 h88"/>`,
+  lima:     `<path class="tratto" d="M8 76 h56 v14 H8 z" transform="rotate(-20 36 83)"/><path class="tratto oro" d="M62 46 L92 16"/><path class="tratto sottile" d="M70 74 h26"/>`,
+  visibile: `<path class="tratto" d="M8 30 h88"/><path class="tratto sottile" d="M8 56 h88"/><path class="tratto sottile" d="M8 82 h88"/><path class="tratto oro" d="M8 30 h30"/>`,
+  rapporto: `<circle class="tratto" cx="24" cy="24" r="12"/><path class="tratto" d="M6 78 c0-14 8-22 18-22 s18 8 18 22"/><circle class="tratto" cx="80" cy="24" r="12"/><path class="tratto" d="M62 78 c0-14 8-22 18-22 s18 8 18 22"/><path class="tratto oro" d="M40 46 h24"/>`,
+  come:     `<path class="tratto" d="M8 34 c11-16 22 16 33 0 s22 16 33 0 s16 7 22 3"/><path class="tratto oro" d="M20 78 h64"/><path class="tratto oro" d="M74 68 L86 78 L74 88"/>`,
+  momento:  `<circle class="tratto" cx="52" cy="52" r="38"/><path class="tratto oro" d="M52 24 v28 h22"/>`,
+  volume:   `<path class="tratto" d="M12 40 h18 L54 20 v64 L30 64 H12 z"/><path class="tratto oro" d="M68 34 c10 10 10 24 0 34"/><path class="tratto oro" d="M82 24 c16 16 16 40 0 56"/>`,
+  parole:   `<path class="tratto" d="M10 22 h84 v46 H52 L34 86 V68 H10 z"/><path class="tratto oro" d="M26 38 h52"/><path class="tratto oro" d="M26 52 h52"/><path class="tratto sottile" d="M26 62 h30"/>`,
   io:       `<circle class="tratto" cx="52" cy="34" r="17"/><path class="tratto" d="M24 88 C24 68 36 58 52 58 C68 58 80 68 80 88"/><path class="tratto oro" d="M92 30 C104 52 86 72 66 68"/><path class="tratto oro" d="M78 60 L64 68 L74 80"/>`,
 };
 
