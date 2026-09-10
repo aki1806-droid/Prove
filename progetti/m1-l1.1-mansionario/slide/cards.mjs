@@ -15,6 +15,7 @@ for (const [i, s] of SCENE.entries()) {
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: '1.1' }),
                      { waitUntil: 'load' });
   await p.evaluate(() => document.fonts.ready);
+  await p.evaluate(() => document.getAnimations().forEach(a => { a.currentTime = 4000; }));
   // controllo di traboccamento: il corpo non deve uscire dalla cornice
   const over = await p.evaluate(() => {
     const c = document.querySelector('.corpo');

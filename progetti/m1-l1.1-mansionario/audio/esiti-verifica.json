@@ -1,0 +1,462 @@
+[
+ {
+  "id": "s03",
+  "traccia": "A",
+  "taglio": 10.461,
+  "sentito": "discende tutto il resto",
+  "cade_a": "s02.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s04",
+  "traccia": "A",
+  "taglio": 23.625,
+  "sentito": "che farai in reparto",
+  "cade_a": "s03.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s05",
+  "traccia": "A",
+  "taglio": 41.684,
+  "sentito": "i distrattori dei quiz",
+  "cade_a": "s04.5",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s06",
+  "traccia": "A",
+  "taglio": 55.089,
+  "sentito": "974",
+  "cade_a": "s05.1",
+  "somiglianza": 0.55,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s07",
+  "traccia": "A",
+  "taglio": 70.218,
+  "sentito": "una valutazione da fare",
+  "cade_a": "s06.3",
+  "somiglianza": 0.92,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s08",
+  "traccia": "A",
+  "taglio": 83.465,
+  "sentito": "dentro il sistema",
+  "cade_a": "s07.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s09",
+  "traccia": "A",
+  "taglio": 96.133,
+  "sentito": "ovviamente non c era scritto",
+  "cade_a": "s08.3",
+  "somiglianza": 0.81,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s10",
+  "traccia": "A",
+  "taglio": 109.203,
+  "sentito": "era era esaurito li",
+  "cade_a": "s09.3",
+  "somiglianza": 0.88,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s11",
+  "traccia": "A",
+  "taglio": 122.991,
+  "sentito": "un elenco di mansioni",
+  "cade_a": "s10.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s12",
+  "traccia": "A",
+  "taglio": 136.357,
+  "sentito": "professionale dell infermiere",
+  "cade_a": "s11.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s13",
+  "traccia": "A",
+  "taglio": 149.014,
+  "sentito": "generale infermieristica",
+  "cade_a": "s12.1",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s14",
+  "traccia": "A",
+  "taglio": 164.0,
+  "sentito": "adesso non l hai capita",
+  "cade_a": "s13.6",
+  "somiglianza": 0.91,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s15",
+  "traccia": "A",
+  "taglio": 176.791,
+  "sentito": "obiettivi non 2",
+  "cade_a": "s14.2",
+  "somiglianza": 0.8,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s16",
+  "traccia": "A",
+  "taglio": 190.901,
+  "sentito": "non un extra",
+  "cade_a": "s15.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s17",
+  "traccia": "A",
+  "taglio": 201.615,
+  "sentito": "da mandare a memoria",
+  "cade_a": "s16.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s18",
+  "traccia": "A",
+  "taglio": 213.866,
+  "sentito": "formula gli obiettivi",
+  "cade_a": "s17.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s19",
+  "traccia": "A",
+  "taglio": 227.066,
+  "sentito": "funzionato davvero",
+  "cade_a": "s18.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s20",
+  "traccia": "A",
+  "taglio": 239.684,
+  "sentito": "settori sanitari e sociali",
+  "cade_a": "s19.2",
+  "somiglianza": 0.89,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s21",
+  "traccia": "A",
+  "taglio": 252.619,
+  "sentito": "resta tua",
+  "cade_a": "s20.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s22",
+  "traccia": "A",
+  "taglio": 264.785,
+  "sentito": "data correttamente",
+  "cade_a": "s21.2",
+  "somiglianza": 0.83,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s23",
+  "traccia": "A",
+  "taglio": 276.08,
+  "sentito": "con chi l ha scritta",
+  "cade_a": "s22.1",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s24",
+  "traccia": "A",
+  "taglio": 291.236,
+  "sentito": "1 5",
+  "cade_a": "s23.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s25",
+  "traccia": "A",
+  "taglio": 304.187,
+  "sentito": "chiedono se e tutto",
+  "cade_a": "s24.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s26",
+  "traccia": "A",
+  "taglio": 317.054,
+  "sentito": "professione sanitaria",
+  "cade_a": "s25.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s28",
+  "traccia": "B",
+  "taglio": 10.01,
+  "sentito": "nato da 3 fonti",
+  "cade_a": "s27.2",
+  "somiglianza": 0.81,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s29",
+  "traccia": "B",
+  "taglio": 21.674,
+  "sentito": "codice deontologico",
+  "cade_a": "s28.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s30",
+  "traccia": "B",
+  "taglio": 32.673,
+  "sentito": "fonti piu il limite",
+  "cade_a": "s29.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s31",
+  "traccia": "B",
+  "taglio": 47.025,
+  "sentito": "hai risposto a un terzo",
+  "cade_a": "s30.4",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s32",
+  "traccia": "B",
+  "taglio": 56.14,
+  "sentito": "si muovono nel tempo",
+  "cade_a": "s31.1",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s33",
+  "traccia": "B",
+  "taglio": 70.594,
+  "sentito": "specificita che mancava",
+  "cade_a": "s32.2",
+  "somiglianza": 0.8,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s34",
+  "traccia": "B",
+  "taglio": 85.569,
+  "sentito": "salvaguardia della salute",
+  "cade_a": "s33.1",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s35",
+  "traccia": "B",
+  "taglio": 99.56,
+  "sentito": "e poi misurarlo",
+  "cade_a": "s34.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s36",
+  "traccia": "B",
+  "taglio": 113.533,
+  "sentito": "che arriva con un prezzo",
+  "cade_a": "s35.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s37",
+  "traccia": "B",
+  "taglio": 125.149,
+  "sentito": "esperienza infermieristica",
+  "cade_a": "s36.2",
+  "somiglianza": 0.86,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s38",
+  "traccia": "B",
+  "taglio": 138.136,
+  "sentito": "all orale ti distingue",
+  "cade_a": "s37.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s39",
+  "traccia": "B",
+  "taglio": 152.068,
+  "sentito": "requisito del bando",
+  "cade_a": "s38.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s40",
+  "traccia": "B",
+  "taglio": 165.704,
+  "sentito": "amano rimescolare",
+  "cade_a": "s39.2",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s41",
+  "traccia": "B",
+  "taglio": 177.981,
+  "sentito": "professionale fnop",
+  "cade_a": "s40.1",
+  "somiglianza": 0.67,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s42",
+  "traccia": "B",
+  "taglio": 197.359,
+  "sentito": "nascono le 3 fonti",
+  "cade_a": "s41.5",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s43",
+  "traccia": "B",
+  "taglio": 218.535,
+  "sentito": "invertono",
+  "cade_a": "s42.4",
+  "somiglianza": 0.78,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s44",
+  "traccia": "B",
+  "taglio": 235.197,
+  "sentito": "999",
+  "cade_a": "s43.3",
+  "somiglianza": 0.55,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s45",
+  "traccia": "B",
+  "taglio": 251.543,
+  "sentito": "la legge 42",
+  "cade_a": "s44.4",
+  "somiglianza": 0.88,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s46",
+  "traccia": "B",
+  "taglio": 267.724,
+  "sentito": "punti che non si sbagliano",
+  "cade_a": "s46.1",
+  "somiglianza": 1.0,
+  "ok": false,
+  "frasi_di_troppo": 1
+ },
+ {
+  "id": "s47",
+  "traccia": "B",
+  "taglio": 288.145,
+  "sentito": "infermieristica",
+  "cade_a": "s47.1",
+  "somiglianza": 0.77,
+  "ok": false,
+  "frasi_di_troppo": 1
+ },
+ {
+  "id": "s48",
+  "traccia": "B",
+  "taglio": 298.929,
+  "sentito": "professioni laureate",
+  "cade_a": "s47.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ },
+ {
+  "id": "s49",
+  "traccia": "B",
+  "taglio": 314.041,
+  "sentito": "sintetica gia svolta",
+  "cade_a": "s48.3",
+  "somiglianza": 1.0,
+  "ok": true,
+  "frasi_di_troppo": 0
+ }
+]

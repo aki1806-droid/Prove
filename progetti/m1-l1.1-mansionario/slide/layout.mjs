@@ -170,6 +170,43 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .cover .riga{width:196px;height:7px;background:${ARANCIO};margin:64px 0 0;border-radius:4px}
 .cover .ente{position:absolute;bottom:118px;left:132px;font-size:26px;letter-spacing:.1em;
              color:var(--sop);opacity:.85}
+
+/* --- movimento: entra, e poi finisce (MASTER §Passo 4) ---
+   Le animazioni sono ferme: l'orologio lo sposta a mano il generatore,
+   cosi' cards.mjs e clips.mjs rendono esattamente la stessa cosa. */
+@keyframes entra   {from{opacity:0;transform:translateY(22px)} to{opacity:1;transform:none}}
+@keyframes entraOff{from{opacity:0;transform:translateY(22px)} to{opacity:.26;transform:none}}
+@keyframes entraTl {from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:none}}
+@keyframes entraTlOff{from{opacity:0;transform:translateY(14px)} to{opacity:.22;transform:none}}
+
+.sop,.corpo>*{animation:entra .52s cubic-bezier(.22,.7,.3,1) both}
+.sop{animation-delay:0s}
+.corpo>*:nth-child(1){animation-delay:.16s}
+.corpo>*:nth-child(2){animation-delay:.36s}
+.corpo>*:nth-child(3){animation-delay:.54s}
+/* i contenitori a piu' voci non entrano interi: entrano le voci, a scalare */
+.corpo>ol.el,.corpo>ul.el,.corpo>.tre,.corpo>.trap,.corpo>.tl,.corpo>.memo,
+.corpo>.fonti,.corpo>.due,.corpo>.sost,.corpo>.perim{animation:none}
+.el li,.tre .box,.trap .r,.memo .v,.fonti .tre .box,.fonti .limite,
+.due>div,.sost>*,.perim>*{animation:entra .5s cubic-bezier(.22,.7,.3,1) both}
+.tl .t{animation:entraTl .45s cubic-bezier(.22,.7,.3,1) both}
+.el li:not(.on),.tre .box:not(.on),.trap .r:not(.on),.memo .v:not(.on),
+.fonti .limite:not(.on){animation-name:entraOff}
+.tl .t:not(.on){animation-name:entraTlOff}
+.el li:nth-child(1),.tre .box:nth-child(1),.trap .r:nth-child(1),.memo .v:nth-child(1),
+.due>div:nth-child(1),.perim>*:nth-child(1),.tl .t:nth-child(1),.sost>*:nth-child(1){animation-delay:.20s}
+.el li:nth-child(2),.tre .box:nth-child(2),.trap .r:nth-child(2),.memo .v:nth-child(2),
+.due>div:nth-child(2),.perim>*:nth-child(2),.tl .t:nth-child(2),.sost>*:nth-child(2){animation-delay:.32s}
+.el li:nth-child(3),.tre .box:nth-child(3),.trap .r:nth-child(3),.memo .v:nth-child(3),
+.perim>*:nth-child(3),.tl .t:nth-child(3),.sost>*:nth-child(3){animation-delay:.44s}
+.el li:nth-child(4),.memo .v:nth-child(4),.tl .t:nth-child(4){animation-delay:.56s}
+.el li:nth-child(5),.memo .v:nth-child(5),.tl .t:nth-child(5){animation-delay:.68s}
+.tl .t:nth-child(6){animation-delay:.80s}
+.tl .t:nth-child(7){animation-delay:.92s}
+.fonti .limite{animation-delay:.72s}
+
+/* ferme: l'orologio lo muove il generatore. Deve stare in coda a tutto. */
+.slide *{animation-play-state:paused}
 `;
 
 // --- i pezzi di ogni tipo di slide ---

@@ -164,18 +164,31 @@ def fai_prova(tutti):
           f"— 1,6 s prima di ogni taglio, separati da {PROVA_GAP} s di silenzio")
 
 def cmd_correggi():
+    """correzioni.json: {"B": {"18": {"pause": -1}, "19": {"secondi": -0.4}}}
+    "pause" sposta il confine di N pause (indietro se negativo); "secondi" a mano."""
     corr = json.loads((QUI/"correzioni.json").read_text(encoding="utf-8"))
-    for L,mappa in corr.items():
+    A,B = blocchi(); gruppi = {"A":A,"B":B}
+    for L, mappa in corr.items():
         st = json.loads(stato(L).read_text(encoding="utf-8"))
-        for k,v in mappa.items(): st["confini"][int(k)] += float(v)
+        _, segs, _ = segmenti(QUI/f"grezzo-{L}.mp3", 0.18)
+        varchi = [(segs[k][1]+segs[k+1][0])/2 for k in range(len(segs)-1)]   # meta' di ogni pausa
+        for k, come in mappa.items():
+            j = int(k); vecchio = st["confini"][j]
+            if "pause" in come:
+                n = come["pause"]
+                vicino = min(range(len(varchi)), key=lambda i: abs(varchi[i]-vecchio))
+                nuovo = varchi[max(0, min(len(varchi)-1, vicino+n))]
+            else:
+                nuovo = vecchio + float(come["secondi"])
+            st["confini"][j] = nuovo
+            print(f"  {L}[{j}]  {vecchio:.2f} -> {nuovo:.2f}  ({nuovo-vecchio:+.2f} s)")
         st["confini"].sort()
         stato(L).write_text(json.dumps(st,indent=1),encoding="utf-8")
-        print(f"traccia {L}: {len(mappa)} confini spostati")
-    A,B = blocchi(); tutti=[]
+    tutti = []
     for L,gruppo in (("A",A),("B",B)):
-        st=json.loads(stato(L).read_text(encoding="utf-8"))
-        bordi=[0.0]+st["confini"]+[st["durata"]]
-        mostra(L,gruppo,st["durata"],st["confini"])
+        st = json.loads(stato(L).read_text(encoding="utf-8"))
+        bordi = [0.0]+st["confini"]+[st["durata"]]
+        mostra(L, gruppo, st["durata"], st["confini"])
         tutti += [(L,x["id"],bordi[i]) for i,x in enumerate(gruppo)]
     fai_prova(tutti)
 

@@ -1,0 +1,8 @@
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/c17.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/sil.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/c18.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/sil.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/c19.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/sil.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/c20.wav'
+file '/home/user/Prove/progetti/m1-l1.1-mansionario/audio/_ctrl/sil.wav'
