@@ -1,0 +1,333 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.5",
+  "title": "La prima cosa<br>da smettere di fare",
+  "sub": "Chiusura del Modulo 1"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "in quattro lezioni",
+  "title": "Ti ho chiesto di aggiungere.<br><span class=\"gold\">Questa lezione chiede una rinuncia.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "memo",
+  "title": "Smettere di preparare la risposta<br>mentre l'altro sta ancora parlando."
+ },
+ {
+  "file": "c04",
+  "layout": "quote",
+  "title": "«Io ascolto.»",
+  "note": "Lo pensano tutti. Ed è esattamente questo il punto."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Mentre ti parla,<br>tu stai già componendo.<br><span class=\"gold\">Cerchi l'aggancio. Prepari l'obiezione.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Non è maleducazione.<br><span class=\"gold\">È il funzionamento normale<br>di quasi tutti, quasi sempre.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "E da dentro<br><span class=\"gold\">sembra esattamente di ascoltare.</span><br>Si sente uguale."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "kicker": "la verifica",
+  "title": "Quando finisce di parlare,<br>non guardare lui:<br><span class=\"gold\">guarda la tua risposta.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "Se era già pronta<br>a metà del suo discorso,<br><span class=\"gold\">stavi aspettando il tuo turno.</span>"
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Non è una questione di educazione.<br><span class=\"gold\">È una questione di informazioni<br>che perdi.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "cards",
+  "kicker": "quello che perdi",
+  "rows": [
+   {
+    "icona": "dopo",
+    "testo": "Le ultime frasi"
+   },
+   {
+    "icona": "come",
+    "testo": "Tutto il come"
+   },
+   {
+    "icona": "scelta",
+    "testo": "La possibilità di cambiare idea"
+   }
+  ]
+ },
+ {
+  "file": "c13",
+  "layout": "chart",
+  "kicker": "dove sta il punto",
+  "title": "Chi parla arriva al punto alla fine. All'inizio dice quello che aveva preparato anche lui.",
+  "bars": [
+   {
+    "et": "nelle prime frasi",
+    "val": 18,
+    "cifra": "quasi mai"
+   },
+   {
+    "et": "nelle ultime frasi",
+    "val": 100,
+    "cifra": "quasi sempre",
+    "oro": true
+   }
+  ]
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "La seconda: tutto il come.<br><span class=\"gold\">Il tono, le esitazioni,<br>il punto in cui ha rallentato.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "La terza, la peggiore:<br><span class=\"gold\">la possibilità di cambiare idea.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Quella non è una conversazione.<br><span class=\"gold\">Sono due monologhi<br>che si aspettano a turno.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "kicker": "il paradosso",
+  "title": "Vale la pena<br>sentirlo due volte."
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Prepari la risposta<br>per rispondere meglio.<br><span class=\"gold\">E ti togli quello che ti serviva<br>per rispondere meglio.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "memo",
+  "title": "Ti prepari male,<br>per prepararti."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Succede quando il tema ti sta a cuore.<br><span class=\"gold\">Cioè proprio quando servirebbe ascoltare.</span>"
+ },
+ {
+  "file": "c21",
+  "layout": "list",
+  "kicker": "perché lo facciamo",
+  "rows": [
+   "Per arroganza",
+   "Per fretta",
+   "Per paura del vuoto"
+  ],
+  "active": 2,
+  "note": "Non per arroganza, e non per fretta. Per una ragione più banale di tutte e due."
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Temiamo il silenzio<br>che si apre quando l'altro finisce.<br><span class=\"gold\">E lo riempiamo con qualsiasi cosa.</span>"
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Lo leggiamo come una prova.<br><span class=\"gold\">Come se qualcuno contasse i secondi<br>e poi desse un voto.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Non è così.<br><span class=\"gold\">E se ti porti via una cosa sola<br>da questa lezione, è questa.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "number",
+  "kicker": "prima di rispondere",
+  "num": "2",
+  "unit": "secondi",
+  "fill": 15,
+  "title": "Non vengono letti come «non sa cosa dire». Vengono letti come: sta pensando a quello che ho detto."
+ },
+ {
+  "file": "c27",
+  "layout": "memo",
+  "title": "È la cosa più vicina a un complimento<br>che tu possa fare<br>senza fare nessun complimento."
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Costa due secondi<br>e non richiede nessuna abilità.<br><span class=\"gold\">Funziona anche se la fai male.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "cards",
+  "kicker": "tre maschere",
+  "rows": [
+   {
+    "icona": "pausa",
+    "testo": "Il silenzio scambiato per passività"
+   },
+   {
+    "icona": "annuire",
+    "testo": "L'annuire meccanico"
+   },
+   {
+    "icona": "taglio",
+    "testo": "Interrompere «per aiutare»"
+   }
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "La prima: affrettarsi a riempire<br>il silenzio dell'altro<br><span class=\"gold\">prima che diventi imbarazzante.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Non rispondere subito<br>non significa non avere niente da dire.<br><span class=\"gold\">Significa non aver ancora deciso<br>cosa vale la pena dire.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "La seconda: annuire<br>mentre si prepara la risposta.<br><span class=\"gold\">La maschera più diffusa di tutte.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "table",
+  "kicker": "come si riconosce da fuori",
+  "cols": [
+   "quello che vedi",
+   "quello che sta succedendo"
+  ],
+  "rows": [
+   [
+    "annuisce",
+    "sta preparando la risposta"
+   ],
+   [
+    "ti guarda fisso",
+    "cerca l'aggancio"
+   ],
+   [
+    "ti finisce la frase",
+    "ha smesso di ascoltare"
+   ]
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "La terza: interrompere per aiutare.<br><span class=\"gold\">Finire le frasi, completare il pensiero,<br>anticipare la conclusione.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "Comunica una cosa sola:<br><span class=\"gold\">so già dove vuoi arrivare.</span><br>E quasi sempre non lo sai."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "E anche quando lo sai,<br><span class=\"gold\">gli hai tolto il gusto di arrivarci.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Come si smette?<br><span class=\"gold\">Non con la forza di volontà,<br>che dura tre minuti.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "swap",
+  "kicker": "la regola, una sola",
+  "rows": [
+   [
+    "aspetti l'ultimo concetto",
+    "aspetti l'ultima frase"
+   ],
+   [
+    "rispondi al senso",
+    "rispondi a quello che ha detto"
+   ]
+  ]
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Finché non è finita<br>non hai il testo completo.<br><span class=\"gold\">E qualunque risposta è una scommessa.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "La risposta che avevi preparato<br>a metà non serviva a niente.<br><span class=\"gold\">L'hai buttata, e non te ne sei accorto.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Parlerai di meno.<br><span class=\"gold\">Non perché ti trattieni:<br>perché molte cose smettono<br>di sembrare necessarie.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "list",
+  "kicker": "cosa guadagni",
+  "rows": [
+   "Le ultime frasi, per intero",
+   "Il come, che è metà del messaggio",
+   "La possibilità di cambiare idea",
+   "E il parlare di meno"
+  ]
+ },
+ {
+  "file": "c44",
+  "layout": "memo",
+  "title": "Chi prepara la risposta"
+ },
+ {
+  "file": "c45",
+  "layout": "memo",
+  "title": "Chi prepara la risposta<br>non sta ascoltando."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Una conversazione intera, oggi,<br><span class=\"gold\">senza preparare la risposta<br>mentre l'altro parla.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "title": "Sarà scomodo, e va bene così.<br><span class=\"gold\">Il fastidio è la misura esatta<br>di quanto lo facevi prima.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Quando tocca a te,<br><span class=\"gold\">prenditi due secondi.</span><br>Due, non dieci."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "kicker": "fine del modulo 1",
+  "title": "Nel prossimo entriamo<br>nell'ascolto vero.<br><span class=\"gold\">Modulo 2 — Ascoltare davvero</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
