@@ -16,3 +16,14 @@ build/
 # Ambiente
 .env
 .env.local
+
+# Progetti video: sorgenti pesanti rigenerabili
+progetti/*/audio/grezzo-*.mp3
+progetti/*/audio/lavorato-*.mp3
+progetti/*/audio/prova.mp3
+progetti/*/audio/_prova/
+progetti/*/slide/font/*.css
+progetti/*/slide/png/
+progetti/*/slide/mp4/
+progetti/*/slide/fotogrammi/
+progetti/*/provino.png

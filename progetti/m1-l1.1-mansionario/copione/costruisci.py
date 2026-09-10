@@ -15,7 +15,7 @@ BLOCCHI = [
  (4,"tenue","Il terzo: era incoerente con la formazione, che nel frattempo era diventata universitaria e formava un professionista capace di valutare e decidere. Un laureato con in mano un elenco di mansioni."),
  (5,"chiaro","Il primo colpo al vecchio sistema arriva prima dell'abrogazione. Nel 1994 il decreto ministeriale 739 individua la figura e il profilo professionale dell'infermiere."),
  (5,"profondo","E lo fa con una formula che devi sapere alla lettera, perche' i quiz la smontano e la rimontano: l'infermiere e' l'operatore sanitario responsabile dell'assistenza generale infermieristica."),
- (5,"chiaro","Fermati sulla parola responsabile. Non collabora. Non esegue. Risponde in proprio. Il test per sapere se l'hai capita: se puoi sostituire responsabile con collabora e la frase regge lo stesso, non l'hai capita."),
+ (5,"chiaro","Fermati sulla parola responsabile. Non collabora. Non esegue. Risponde in proprio. Il test e' semplice: prova a sostituirla con collabora. Se la frase regge lo stesso, non l'hai capita."),
  (6,"chiaro","Il profilo aggiunge che l'assistenza infermieristica, preventiva, curativa, palliativa e riabilitativa, e' di natura tecnica, relazionale ed educativa. Tre aggettivi, non due."),
  (6,"tenue","Segnalo con un'evidenziazione mentale: il distrattore piu' diffuso ne cita solo due, e quello che sparisce e' quasi sempre l'educativa. Educare la persona a gestirsi e' assistenza, non un extra."),
  (7,"chiaro","Il decreto elenca poi le attivita' dell'infermiere in relazione al processo assistenziale. Sono cinque, ed e' il primo dei due passaggi da mandare a memoria."),
