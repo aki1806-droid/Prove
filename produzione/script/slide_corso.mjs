@@ -208,6 +208,11 @@ const grafica = (t) => `
 
 /* Icone: tratto aperto, così si possono "disegnare" animando il tratteggio. */
 const icone = {
+  preambolo: `<circle class="tratto oro" cx="32" cy="52" r="16"/><path class="tratto" d="M48 52 H92"/>`,
+  scusa: `<path class="tratto oro" d="M32 24 a36 36 0 0 0 0 56"/><path class="tratto oro" d="M72 24 a36 36 0 0 1 0 56"/><path class="tratto" d="M46 52 H58"/>`,
+  indice: `<path class="tratto oro" d="M18 30 h10"/><path class="tratto" d="M40 30 H88"/><path class="tratto oro" d="M18 52 h10"/><path class="tratto" d="M40 52 H88"/><path class="tratto oro" d="M18 74 h10"/><path class="tratto" d="M40 74 H88"/>`,
+  infondo: `<path class="tratto" d="M18 26 H86"/><path class="tratto" d="M18 44 H86"/><path class="tratto" d="M18 62 H86"/><path class="tratto oro" d="M18 84 H58"/>`,
+  cestino: `<path class="tratto" d="M30 34 L36 88 h32 l6 -54"/><path class="tratto oro" d="M20 34 H84"/><path class="tratto oro" d="M42 24 h20 v10 h-20 z"/><path class="tratto" d="M46 46 V76"/><path class="tratto" d="M58 46 V76"/>`,
   annuire: `<circle class="tratto" cx="52" cy="54" r="19"/><path class="tratto oro" d="M38 27 L52 15 L66 27"/><path class="tratto oro" d="M38 81 L52 93 L66 81"/>`,
   pausaprima: `<path class="tratto oro" d="M18 26 V78"/><path class="tratto oro" d="M34 26 V78"/><path class="tratto" d="M52 52 H94"/>`,
   pausadopo: `<path class="tratto" d="M10 52 H52"/><path class="tratto oro" d="M70 26 V78"/><path class="tratto oro" d="M86 26 V78"/>`,

@@ -1,0 +1,337 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 4 · Lezione 4.1",
+  "title": "Una cosa sola",
+  "sub": "Costruire un messaggio che resta"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "secondo tempo",
+  "title": "Per tre moduli: ascoltare.<br><span class=\"gold\">Da adesso: quello che dici tu.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "E la prima regola<br>è di nuovo una sottrazione.<br><span class=\"gold\">Non una tecnica in più:<br>una cosa in meno.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "memo",
+  "title": "Un messaggio,<br>una cosa sola."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Non è un consiglio di stile.<br><span class=\"gold\">È come funziona la memoria<br>di chi ti ascolta.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "L'ultima riunione<br>a cui hai partecipato.<br><span class=\"gold\">Non quella di stamattina.</span>"
+ },
+ {
+  "file": "c08",
+  "layout": "number",
+  "kicker": "il giorno dopo",
+  "num": "1",
+  "unit": "frase",
+  "fill": 8,
+  "title": "È quello che resta di una riunione intera. Spesso imprecisa, e a volte nemmeno la più importante: quella che ti aveva colpito."
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "Vale per chiunque ti ascolti.<br><span class=\"gold\">Anche quando prende appunti<br>e li rilegge.</span>"
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Ne esce una conseguenza dura.<br><span class=\"gold\">Conviene guardarla in faccia adesso.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Tu non decidi<br>quanto l'altro ricorderà.<br><span class=\"gold\">Non c'è tecnica che lo cambi.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Decidi solo una cosa:<br><span class=\"gold\">cosa.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "E se non lo decidi tu,<br><span class=\"gold\">lo decide lui.</span><br>Con i suoi criteri."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Se metti tre cose<br>nello stesso messaggio,<br><span class=\"gold\">non ne restano tre.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "swap",
+  "kicker": "quello che succede davvero",
+  "rows": [
+   [
+    "metti tre idee",
+    "ne resta una"
+   ],
+   [
+    "scegli tu quale",
+    "la sceglie lui"
+   ]
+  ]
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Chi ne mette una sola<br>sa qual è.<br><span class=\"gold\">Chi ne mette tre tira a sorte.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "E lo fa proprio<br>per non rischiare.<br><span class=\"gold\">Per coprire tutte le possibilità.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "È l'esatto contrario:<br><span class=\"gold\">ha rinunciato a scegliere,<br>e sceglie l'altro.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "kicker": "messaggio o materiale",
+  "title": "C'è un modo per saperlo.<br><span class=\"gold\">Costa dieci secondi,<br>e non perdona.</span>"
+ },
+ {
+  "file": "c20",
+  "layout": "memo",
+  "title": "Se non riesci a dirlo in una frase,<br>non ce l'hai ancora."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "Non una frase lunga<br>con tre subordinate:<br><span class=\"gold\">quello è un elenco travestito.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "list",
+  "kicker": "che frase deve essere",
+  "rows": [
+   "Una sola",
+   "Che si può ripetere a un'altra persona",
+   "Senza guardare gli appunti",
+   "Il giorno dopo, a memoria"
+  ]
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Quasi tutti confondono due cose<br>che sembrano vicine<br><span class=\"gold\">e invece sono opposte.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "table",
+  "kicker": "le due cose che si confondono",
+  "cols": [
+   "materiale",
+   "messaggio"
+  ],
+  "rows": [
+   [
+    "abbonda sempre",
+    "quasi mai"
+   ],
+   [
+    "si accumula da solo",
+    "si ottiene buttando via"
+   ],
+   [
+    "dimostra che ti sei preparato",
+    "fa arrivare qualcosa"
+   ]
+  ]
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Ne hai più di quanto te ne serva<br><span class=\"gold\">su qualunque argomento<br>tu conosca anche solo un po'.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "Il materiale si accumula da solo.<br><span class=\"gold\">Il messaggio si ottiene<br>buttando via il resto.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Ed è lì che quasi tutti si fermano.<br><span class=\"gold\">Non per disordine:<br>per non perdere niente.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "kicker": "l'errore di chi ha accettato la regola",
+  "title": "È il più frequente di tutti."
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "Tiene il messaggio principale.<br><span class=\"gold\">E le altre due le dice lo stesso,<br>abbreviate, di corsa, alla fine.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "swap",
+  "kicker": "quello che la compressione fa",
+  "rows": [
+   [
+    "tre idee",
+    "tre idee compresse"
+   ],
+   [
+    "dette come vanno dette",
+    "solo dette peggio"
+   ]
+  ]
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Non toglie niente a chi ascolta.<br><span class=\"gold\">Toglie le parole che rendevano<br>ognuna comprensibile.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "chart",
+  "kicker": "tre cose nello stesso messaggio",
+  "title": "Si contendono lo stesso spazio. Nessuna delle tre ne ha abbastanza per essere capita.",
+  "bars": [
+   {
+    "et": "prima idea",
+    "val": 33
+   },
+   {
+    "et": "seconda idea",
+    "val": 33
+   },
+   {
+    "et": "terza idea",
+    "val": 33
+   }
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "memo",
+  "title": "Le altre cose non si comprimono.<br>Si spostano."
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "Le dirai davvero,<br>ma da un'altra parte.<br><span class=\"gold\">Non è rinunciare: è ordinare.</span>"
+ },
+ {
+  "file": "c36",
+  "layout": "cards",
+  "kicker": "dove vanno le altre",
+  "rows": [
+   {
+    "icona": "momento",
+    "testo": "Un altro momento"
+   },
+   {
+    "icona": "altrove",
+    "testo": "Un altro canale"
+   },
+   {
+    "icona": "cestino",
+    "testo": "Il cestino"
+   }
+  ]
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Se meritano attenzione loro,<br><span class=\"gold\">meritano il loro spazio intero.</span><br>Non un ritaglio in coda."
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Se sono informazione<br>e non messaggio,<br><span class=\"gold\">sono una mail o un documento.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "L'informazione si consulta<br>quando serve.<br><span class=\"gold\">Il messaggio deve restare in testa.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Buona parte di quello che diciamo<br>non serve a far arrivare qualcosa.<br><span class=\"gold\">Serve a noi.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Serve a dimostrare<br>che ci siamo preparati.<br><span class=\"gold\">Parla di noi, non del tema.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "cards",
+  "kicker": "tre errori",
+  "rows": [
+   {
+    "icona": "stringi",
+    "testo": "Comprimere invece di spostare"
+   },
+   {
+    "icona": "infondo",
+    "testo": "La cosa importante alla fine"
+   },
+   {
+    "icona": "scudo",
+    "testo": "La completezza come scudo"
+   }
+  ]
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Comprimere invece di spostare.<br><span class=\"gold\">Si rifà regolarmente<br>appena si è di fretta.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "Se arriva dopo non arriva:<br><span class=\"gold\">l'attenzione è già scesa.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "quote",
+  "kicker": "quello che vuol dire davvero",
+  "title": "«Volevo essere esaustivo.»",
+  "note": "Cioè: non volevo scegliere io."
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Prima di una conversazione<br>che conta,<br><span class=\"gold\">scrivi su un foglio una frase sola.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "La frase che vuoi<br>che l'altro sappia ripetere domani.<br><span class=\"gold\">Poi tienila in tasca.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Alla fine,<br><span class=\"gold\">guarda se l'hai detta davvero.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
