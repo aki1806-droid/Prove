@@ -10,11 +10,13 @@ CISL FP Padova Rovigo · slide + voce, nessun avatar
 ```
 TEMA      lezione normativa, seconda persona singolare
           testo di partenza: 18 slide con voce, 7.617 caratteri di parlato
-COLORI    BG #FFFFFF · FG #1C1C1C · titoli #00532A · evidenze #00863E
-          accento #F39200
-          tenue #FDF4E6 (derivato dall'arancio) — slide degli errori
-          profondo #00532A — memo, citazioni, "in Veneto"
+COLORI    ricavati dal marchio CISL FP Padova Rovigo, campionati dal file:
+          verde #00623A (40,7% dei pixel opachi) · rosso #D70328 (14,2%)
+          BG #FFFFFF · FG #1C1C1C · titoli #00623A · accento #D70328
+          tenue #FCF4F3 (velo di rosso) — slide degli errori
+          profondo #004E2E (il verde scurito) — memo, citazioni, "in Veneto"
           frasi Source Serif 4 · etichette, elenchi e numeri Inter
+MARCHIO   in alto a sinistra su tutte e 50 le scene, 70 px di altezza
 DURATA    obiettivo "8 minuti almeno" · copertina 3 s · chiusura 10 s · pausa 0
 VOCE      GianP — News Info and Documentary, eleven_v3
 GENERATORE slide/layout.mjs → cards.mjs (PNG) e clips.mjs (mp4)
@@ -107,6 +109,24 @@ Verifiche pagate: 2 trascrizioni di traccia intera, 2 prove dei tagli,
 2 controprove mirate.
 
 ---
+
+## Il tema
+
+Lo script chiedeva verde e **arancio** `#F39200`. Il marchio dice verde e
+**rosso**: l'arancio non è del marchio e l'ho tolto. I due colori non li ho
+stimati, li ho campionati dal file del logo — `#00623A` e `#D70328` sono
+letteralmente i due colori più frequenti fra i pixel opachi.
+
+Tre conseguenze:
+
+- **sul verde pieno il rosso non si può usare**: vibra e perde contrasto. Sulle
+  slide a fondo profondo l'accento è il bianco, e la gerarchia la fa il peso
+  del carattere, non un secondo colore;
+- **il barrato dei distrattori è passato al grigio neutro.** Prima era rosso
+  attenuato: con il rosso diventato colore del marchio, un barrato rosso
+  avrebbe letto "sbagliato" ogni volta che compare l'accento;
+- **il PNG del logo aveva 38 px di trasparenza a destra**, che sbilanciavano la
+  piastra bianca sulle slide scure. Rifilato al contenuto.
 
 ## Le grafiche
 
@@ -236,12 +256,14 @@ ElevenLabs è circa il doppio del costo reale.
    dentro una parola. Non vuol dire che il ritmo, blocco per blocco, sia giusto.
 4. **`s27` a 21,7 caratteri al secondo**, appena sopra la fascia. Da riascoltare:
    se corre, il blocco va allungato di mezzo secondo.
-5. **Il logo CISL FP.** Nelle slide c'è un segnaposto testuale, «CISL FP ·
-   Padova Rovigo», in alto a sinistra. Serve il file del logo: si sostituisce
-   cambiando una riga in `slide/layout.mjs`.
+5. **La piastra bianca sotto il marchio** sulle nove slide a fondo verde. Sul
+   verde pieno il marchio non regge da solo: il tondo verde e la scritta «FP»
+   spariscono. La piastra è la soluzione che i manuali di identità di solito
+   prescrivono, e non tocca il marchio. Se CISL FP ha una versione in negativo,
+   è meglio quella: si sostituisce il file in `slide/marchio/`.
 6. **I caratteri.** Ho scelto Source Serif 4 e Inter, che stanno bene insieme e
    sono liberi. Se CISL FP ha caratteri istituzionali, vanno messi quelli.
-7. **Il fondo tenue `#FDF4E6`** e il **fondo profondo `#00532A`** li ho ricavati
-   io dalla palette che mi hai dato: non erano nello script.
+7. **Il fondo tenue `#FCF4F3`** e il **fondo profondo `#004E2E`** li ho ricavati
+   io dai due colori del marchio: non erano nello script.
 8. **Il contenuto normativo** viene dal tuo script e non l'ho riscritto nel
    merito: date, numeri di legge e formule sono i tuoi.

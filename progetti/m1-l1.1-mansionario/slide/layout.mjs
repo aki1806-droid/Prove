@@ -4,20 +4,25 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 const QUI = dirname(fileURLToPath(import.meta.url));
 
-// --- palette del committente ---
-export const BIANCO='#FFFFFF', VERDE_SCURO='#00532A', VERDE='#00863E',
-             ARANCIO='#F39200', TESTO='#1C1C1C',
-             TENUE='#FDF4E6',            // derivato dall'arancio: slide degli errori
-             PROFONDO=VERDE_SCURO;       // memo e frasi che devono restare
+// --- palette ricavata dal marchio CISL FP Padova Rovigo ---
+// I due colori sono campionati dal file del logo, non stimati:
+// verde #00623A (40,7% dei pixel opachi) e rosso #D70328 (14,2%).
+export const BIANCO='#FFFFFF', VERDE='#00623A', ROSSO='#D70328',
+             TESTO='#1C1C1C',
+             PROFONDO='#004E2E',   // il verde del marchio, scurito per reggere una campitura intera
+             TENUE='#FCF4F3';      // velo di rosso: le slide degli errori
 
 export const TEMI = {
-  chiaro:   { bg:BIANCO,   fg:TESTO,  tit:VERDE_SCURO, acc:ARANCIO, sop:VERDE,      linea:'#E3E8E4' },
-  tenue:    { bg:TENUE,    fg:'#2A2118', tit:VERDE_SCURO, acc:'#C46F00', sop:'#9A6100', linea:'#EBDCC2' },
-  profondo: { bg:PROFONDO, fg:'#EAF3ED', tit:BIANCO,    acc:ARANCIO, sop:'#7FC49B',  linea:'#1B6B41' },
+  chiaro:   { bg:BIANCO,   fg:TESTO,     tit:VERDE,   acc:ROSSO,     sop:VERDE,     linea:'#E2E9E5', scuro:false },
+  tenue:    { bg:TENUE,    fg:'#2A1D1D', tit:VERDE,   acc:'#C10225', sop:'#9A3040', linea:'#EFDCDA', scuro:false },
+  // Sul verde pieno il rosso del marchio non regge: vibra e perde contrasto.
+  // Li' l'accento e' il bianco, e la gerarchia la fa il peso, non un secondo colore.
+  profondo: { bg:PROFONDO, fg:'#C3DACE', tit:BIANCO,  acc:BIANCO,    sop:'#8FC3A8', linea:'#0F6740', scuro:true  },
 };
 
 const FONT = readFileSync(join(QUI,'font','font-incorporati.css'),'utf8');
-const LOGO = 'CISL FP · Padova Rovigo';   // segnaposto: sostituire col PNG del logo
+const MARCHIO = 'data:image/png;base64,' +
+  readFileSync(join(QUI,'marchio','logo-rifilato.png')).toString('base64');
 
 // *testo* -> in accento;  **testo** -> in accento e semibold
 const acc = s => String(s??'')
@@ -31,20 +36,22 @@ html,body{width:1920px;height:1080px;overflow:hidden}
 body{font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;
      font-feature-settings:'kern' 1,'liga' 1,'tnum' 1}
 .slide{position:relative;width:1920px;height:1080px;display:flex;flex-direction:column;
-       padding:96px 132px 118px}
+       padding:178px 132px 118px}   /* 170 in alto: sotto il marchio */
 .serif{font-family:'Source Serif 4',serif}
 .a{color:var(--acc)}
 b.a{font-weight:600}
 
 /* cornice fissa */
-.logo{position:absolute;top:52px;left:132px;font-size:21px;font-weight:600;letter-spacing:.13em;
-      text-transform:uppercase;color:var(--sop);opacity:.9}
-.pagina{position:absolute;top:52px;right:132px;font-size:21px;font-weight:500;letter-spacing:.08em;
+.logo{position:absolute;top:42px;left:116px;padding:10px 16px;border-radius:13px;
+      background:transparent;line-height:0}
+.slide.scuro .logo{background:${BIANCO}}   /* sul verde pieno il marchio va su piastra bianca */
+.logo img{display:block;height:70px;width:auto}
+.pagina{position:absolute;top:70px;right:132px;font-size:21px;font-weight:500;letter-spacing:.08em;
         color:var(--sop);opacity:.75;font-variant-numeric:tabular-nums}
 .avanz{position:absolute;left:0;bottom:0;height:9px;width:100%;background:var(--linea)}
-.avanz i{display:block;height:100%;background:${ARANCIO}}
+.avanz i{display:block;height:100%;background:${ROSSO}}
 
-.sop{font-size:26px;font-weight:600;letter-spacing:.19em;text-transform:uppercase;
+.sop{font-size:26px;margin-top:-6px;font-weight:600;letter-spacing:.19em;text-transform:uppercase;
      color:var(--sop);margin-bottom:44px}
 .corpo{flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px}
 
@@ -112,7 +119,7 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .trap .r{display:flex;flex-direction:column;gap:14px;opacity:.26}
 .trap .r.on{opacity:1}
 .trap .sb{font-size:44px;line-height:1.26;color:var(--fg);opacity:.62;
-          text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#C0392B}
+          text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#B6B6B6}
 .trap .ok{font-size:40px;line-height:1.3;font-weight:600;color:var(--tit);display:flex;gap:20px}
 .trap .ok:before{content:'→';color:var(--acc);font-weight:400}
 
@@ -162,12 +169,12 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
            color:var(--sop);margin-bottom:20px}
 
 /* copertina e chiusura */
-.cover{justify-content:center;gap:0}
+.cover{justify-content:center;gap:0;padding-top:150px}
 .cover .mod{font-size:28px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
             color:var(--sop);margin-bottom:52px}
 .cover h1{font-size:132px;margin-bottom:34px}
 .cover .st{font-size:44px;color:var(--fg);opacity:.8}
-.cover .riga{width:196px;height:7px;background:${ARANCIO};margin:64px 0 0;border-radius:4px}
+.cover .riga{width:196px;height:7px;background:${ROSSO};margin:64px 0 0;border-radius:4px}
 .cover .ente{position:absolute;bottom:118px;left:132px;font-size:26px;letter-spacing:.1em;
              color:var(--sop);opacity:.85}
 
@@ -280,10 +287,10 @@ export function html(d, {avanzamento=0, pagina=''}={}) {
   const corpo = CORPI[d.tipo](d);
   const cover = d.tipo === 'copertina';
   return `<!doctype html><meta charset="utf-8"><style>${CSS}</style>
-<body><div class="slide ${cover?'cover':''}"
+<body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''}"
   style="--bg:${t.bg};--fg:${t.fg};--tit:${t.tit};--acc:${t.acc};--sop:${t.sop};--linea:${t.linea};
          background:${t.bg};color:${t.fg}">
-  <div class="logo">${LOGO}</div>
+  <div class="logo"><img src="${MARCHIO}" alt="CISL FP Padova Rovigo"></div>
   ${pagina?`<div class="pagina">${pagina}</div>`:''}
   ${cover?'':`<div class="sop">${d.sopratitolo ?? ''}</div>`}
   <div class="corpo">${corpo}</div>
