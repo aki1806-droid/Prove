@@ -1,0 +1,340 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 4 · Lezione 4.2",
+  "title": "I primi trenta secondi",
+  "sub": "Costruire un messaggio che resta"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "kicker": "i primi trenta secondi",
+  "title": "Non sta valutando il tuo contenuto.<br><span class=\"gold\">Non l'ha ancora sentito.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Sta decidendo una cosa sola:<br><span class=\"gold\">se questa conversazione<br>merita la sua attenzione.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Ed è una decisione<br><span class=\"gold\">difficilissima da ribaltare.</span><br>E molto silenziosa."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Non viene rivista quasi mai.<br><span class=\"gold\">Tutto quello che arriva dopo<br>serve a confermarla.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Chi ha deciso di ascoltare a metà<br><span class=\"gold\">continua a metà anche quando<br>arriva la parte buona.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Non per maleducazione.<br><span class=\"gold\">Non sta più cercando la parte buona:<br>ha già deciso che non c'è.</span>"
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "title": "Una regola che sembra brutale.<br><span class=\"gold\">È solo scomoda da accettare.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "memo",
+  "title": "Il tuo miglior contenuto<br>non serve a niente<br>se è al minuto quattro."
+ },
+ {
+  "file": "c10",
+  "layout": "chart",
+  "kicker": "dove ti sei preparato, dove si gioca",
+  "title": "Non è un problema di preparazione. È un problema di collocazione.",
+  "bars": [
+   {
+    "et": "la sostanza",
+    "val": 92,
+    "cifra": "tutto il lavoro"
+   },
+   {
+    "et": "i primi trenta secondi",
+    "val": 10,
+    "cifra": "quasi niente",
+    "oro": true
+   }
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "La domanda giusta<br>non è cosa dico.<br><span class=\"gold\">È cosa dico per primo.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "Un motivo per restare,<br><span class=\"gold\">entro le prime due frasi.</span><br>Non entro il primo minuto."
+ },
+ {
+  "file": "c14",
+  "layout": "cards",
+  "kicker": "tre aperture che funzionano",
+  "rows": [
+   {
+    "icona": "lente",
+    "testo": "Una domanda vera"
+   },
+   {
+    "icona": "visibile",
+    "testo": "Un fatto concreto"
+   },
+   {
+    "icona": "orologio",
+    "testo": "La posta in gioco"
+   }
+  ]
+ },
+ {
+  "file": "c15",
+  "layout": "quote",
+  "kicker": "una domanda vera",
+  "title": "«Quante volte è successo<br>questa settimana?»",
+  "note": "Chi risponde è già dentro la conversazione."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Ma dev'essere vera.<br><span class=\"gold\">Una domanda retorica<br>ottiene l'effetto opposto.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "Si capisce subito<br>che sei in un discorso preconfezionato,<br><span class=\"gold\">e che la risposta non ti serviva.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "quote",
+  "kicker": "un fatto concreto",
+  "title": "«Martedì il turno è saltato<br>per venti minuti.»",
+  "note": "Non si discute, e crea l'immagine."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Nessuno può rispondere<br><span class=\"gold\">che non è vero.</span><br>E quindi si parte da lì."
+ },
+ {
+  "file": "c20",
+  "layout": "quote",
+  "kicker": "la posta in gioco",
+  "title": "«Se non decidiamo entro venerdì,<br>decide qualcun altro.»"
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "Sposta la conversazione<br>dal merito al tempo.<br><span class=\"gold\">E il tempo l'altro ce l'ha presente.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "swap",
+  "kicker": "la forma che hanno tutte e tre",
+  "rows": [
+   [
+    "l'annuncio del contenuto",
+    "il contenuto"
+   ],
+   [
+    "«ti dico una cosa importante»",
+    "«martedì il turno è saltato»"
+   ]
+  ]
+ },
+ {
+  "file": "c23",
+  "layout": "cards",
+  "kicker": "tre aperture che bruciano tutto",
+  "rows": [
+   {
+    "icona": "preambolo",
+    "testo": "Il preambolo"
+   },
+   {
+    "icona": "scusa",
+    "testo": "La scusa"
+   },
+   {
+    "icona": "indice",
+    "testo": "L'indice"
+   }
+  ]
+ },
+ {
+  "file": "c24",
+  "layout": "quote",
+  "kicker": "il preambolo",
+  "title": "«Allora, volevo un attimo dirti<br>una cosa, non so se è<br>il momento giusto, comunque…»"
+ },
+ {
+  "file": "c25",
+  "layout": "number",
+  "kicker": "in cui non è successo niente",
+  "num": "20",
+  "unit": "secondi",
+  "fill": 100,
+  "title": "Ed è esattamente l'intervallo in cui l'altro stava decidendo di te."
+ },
+ {
+  "file": "c26",
+  "layout": "quote",
+  "kicker": "la scusa",
+  "title": "«Scusa se ti disturbo,<br>sarò brevissimo.»"
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Comunica due cose,<br><span class=\"gold\">tutte e due controproducenti,</span><br>prima ancora del contenuto."
+ },
+ {
+  "file": "c29",
+  "layout": "memo",
+  "title": "Chi si scusa di parlare<br>autorizza a non ascoltare."
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "La più diffusa in assoluto,<br>e quella che sembra<br><span class=\"gold\">più professionale: l'indice.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "quote",
+  "kicker": "l'indice",
+  "title": "«Ti dico tre cose: la prima<br>riguarda i turni, la seconda…»"
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Sembra ordine.<br><span class=\"gold\">È un modo per rimandare<br>il contenuto.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "cosa hanno in comune tutte e tre",
+  "rows": [
+   "Prendono la rincorsa",
+   "Rimandano il contenuto",
+   "Consumano i secondi che decidono"
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "E il tempo della rincorsa<br><span class=\"gold\">è esattamente quello in cui<br>l'altro sta decidendo che cosa sei.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "kicker": "nei contesti brevi",
+  "title": "Una mail, un messaggio,<br>una riunione con l'agenda piena.<br><span class=\"gold\">C'è una scorciatoia.</span>"
+ },
+ {
+  "file": "c36",
+  "layout": "quote",
+  "kicker": "l'apertura è la richiesta",
+  "title": "«Ti chiedo una cosa sola:<br>sposta la consegna a venerdì.<br>Ti spiego perché.»"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Sembra sfrontato.<br><span class=\"gold\">E quasi sempre<br>viene accolto con sollievo.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Smette di chiedersi<br>dove vuoi arrivare,<br><span class=\"gold\">e usa tutta l'attenzione sul merito.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "kicker": "un avvertimento",
+  "title": "In famiglia<br><span class=\"gold\">funziona il contrario.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "quote",
+  "kicker": "l'apertura frontale",
+  "title": "«Devo parlarti di una cosa.»",
+  "note": "Mette immediatamente l'altro in allarme."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "E la conversazione parte in difesa,<br><span class=\"gold\">prima che tu abbia detto<br>di cosa si tratta.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "list",
+  "kicker": "dove funziona l'opposto",
+  "rows": [
+   "In macchina",
+   "Lavando i piatti",
+   "Camminando"
+  ],
+  "note": "Dove nessuno dei due è obbligato a guardare l'altro in faccia."
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Con gli adolescenti<br>è quasi l'unica strada.<br><span class=\"gold\">L'annuncio li mette in guardia.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "table",
+  "kicker": "la differenza non è la tecnica",
+  "cols": [
+   "al lavoro",
+   "in famiglia"
+  ],
+  "rows": [
+   [
+    "la cosa scarsa è l'attenzione",
+    "la cosa scarsa è la fiducia"
+   ],
+   [
+    "entra dal contenuto",
+    "entra senza annunciare"
+   ],
+   [
+    "guarda l'altro",
+    "guarda la strada"
+   ]
+  ]
+ },
+ {
+  "file": "c46",
+  "layout": "memo",
+  "title": "Il tuo miglior contenuto<br>non serve a niente<br>se è al minuto quattro."
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "title": "E questo non lo decidi tu.<br><span class=\"gold\">Lo decide chi ascolta,<br>mentre ti schiarisci la voce.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Entra senza preamboli.<br><span class=\"gold\">La prima frase che dici<br>sia già contenuto.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Niente allora, niente scusa,<br>niente volevo dirti.<br><span class=\"gold\">Sarà scomodo: la rincorsa<br>serviva anche a te.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
