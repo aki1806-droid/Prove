@@ -204,8 +204,8 @@ suo `audio_asset_id` e `playback = {mode: freeze, mute: true}` — muta perché
 la clip ha già l'audio dentro e non deve raddoppiarsi.
 
 ```
-video HeyGen   5e202675fa81a29132d7903a779f8769 · 535,27 s = 8:55
-               app.heygen.com/videos/5e202675fa81a29132d7903a779f8769
+video HeyGen   d3e3fd7a6f9e0f0858ad9ba7a7d4b32f
+               app.heygen.com/videos/d3e3fd7a6f9e0f0858ad9ba7a7d4b32f
 copia locale   montato-1.1.mp4 · 8:56.44 · 1920x1080 · 25 fps · 18 MB
 sottotitoli    montato-1.1.srt · 48 righe, dal copione e dalle durate reali
                (HeyGen ne produce una sua, da confrontare)
