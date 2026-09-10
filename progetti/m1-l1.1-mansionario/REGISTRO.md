@@ -184,11 +184,29 @@ suo `audio_asset_id` e `playback = {mode: freeze, mute: true}` — muta perché
 la clip ha già l'audio dentro e non deve raddoppiarsi.
 
 ```
-video HeyGen   359f7451c0c5c851fa77a088cef75dc5
+video HeyGen   5e202675fa81a29132d7903a779f8769
+               app.heygen.com/videos/5e202675fa81a29132d7903a779f8769
 copia locale   montato-1.1.mp4 · 8:56.44 · 1920x1080 · 25 fps · 18 MB
 sottotitoli    montato-1.1.srt · 48 righe, dal copione e dalle durate reali
                (HeyGen ne produce una sua, da confrontare)
 ```
+
+## Controlli prima di consegnare (MASTER §5)
+
+`controlli.py` li esegue tutti. 7 su 8 superati:
+
+| | esito |
+|---|---|
+| `verifica.py` fuori posto | 2 alla prova, corretti e riverificati → **0** |
+| fascia 8,5–21 car/s | **`s27` a 21,7** — unico fuori, di 0,7 |
+| 50 PNG guardati da fermi | sì, e 3 difetti corretti dopo averli visti |
+| nessuna slide sfora la cornice | 0 su 50 |
+| numero di scene | 50, esattamente il tetto |
+| durata | 8:56.44, richiesto «8 minuti almeno» |
+| sottotitoli SRT | 48 righe |
+| registro con «da verificare» | sì |
+
+Musica delle pause: non applicabile, il video non ha pause senza voce.
 
 ## Costi
 
