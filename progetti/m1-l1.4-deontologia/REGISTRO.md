@@ -193,6 +193,7 @@ esplicita di 3 e 10 secondi.
 ```
 video HeyGen   2121a2769f31e8e479897b2c061e30da
                app.heygen.com/videos/2121a2769f31e8e479897b2c061e30da
+durata         8:59.37 (539,37 s) contro i 9:00.7 del taglio locale
 copia locale   montato-1.4.mp4 · 9:00.7 · 1920x1080 · 25 fps · 20 MB
 sottotitoli    montato-1.4.srt · 48 righe, dal copione e dalle durate reali
 scarto A/V     20 ms al massimo, su s29
