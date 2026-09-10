@@ -1,0 +1,361 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 4 · Lezione 4.4",
+  "title": "Concreto batte astratto",
+  "sub": "Costruire un messaggio che resta"
+ },
+ {
+  "file": "c02",
+  "layout": "quote",
+  "kicker": "prova a vedere questa frase",
+  "title": "«La comunicazione<br>va migliorata.»"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Non ci riesci,<br>e non è colpa tua.<br><span class=\"gold\">Non c'è niente da vedere.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "list",
+  "kicker": "cosa manca",
+  "rows": [
+   "Nessuna persona",
+   "Nessun luogo",
+   "Nessuna ora",
+   "Nessuna azione"
+  ],
+  "note": "Solo un'intenzione generica e ineccepibile."
+ },
+ {
+  "file": "c05",
+  "layout": "memo",
+  "title": "Una frase che non produce immagine<br>non lascia traccia."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Viene capita, attenzione.<br><span class=\"gold\">Nessuno alzerà la mano<br>per chiedere spiegazioni.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Sparisce dopo pochi secondi.<br><span class=\"gold\">Non si aggancia a niente<br>che sia già in testa.</span>"
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "kicker": "il problema vero",
+  "title": "È il motivo per cui<br>continuiamo tutti a parlare così."
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "sembrano più professionali",
+  "rows": [
+   "Ottimizzare",
+   "Criticità",
+   "Sinergia",
+   "Problematiche"
+  ]
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Ha l'impressione<br>di parlare con precisione.<br><span class=\"gold\">E sta facendo il contrario.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Coprono molte situazioni diverse.<br><span class=\"gold\">E per questo<br>non ne descrivono nessuna.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "E chi ascolta lo sente,<br>anche se non saprebbe dirlo.<br><span class=\"gold\">La frase è vera e non serve.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "list",
+  "kicker": "la scala del concreto",
+  "rows": [
+   "Astratto",
+   "Categoria",
+   "Esempio",
+   "Scena"
+  ]
+ },
+ {
+  "file": "c15",
+  "layout": "list",
+  "kicker": "la scala del concreto",
+  "rows": [
+   "Astratto",
+   "Categoria",
+   "Esempio",
+   "Scena"
+  ],
+  "active": 0,
+  "note": "«La comunicazione va migliorata.» Vero, e completamente invisibile."
+ },
+ {
+  "file": "c16",
+  "layout": "list",
+  "kicker": "la scala del concreto",
+  "rows": [
+   "Astratto",
+   "Categoria",
+   "Esempio",
+   "Scena"
+  ],
+  "active": 1,
+  "note": "«Ci fraintendiamo nei passaggi di consegne.» Meglio, ma ancora non si vede."
+ },
+ {
+  "file": "c17",
+  "layout": "list",
+  "kicker": "la scala del concreto",
+  "rows": [
+   "Astratto",
+   "Categoria",
+   "Esempio",
+   "Scena"
+  ],
+  "active": 2,
+  "note": "«È successo tre volte questa settimana.» Adesso c'è un numero e un tempo."
+ },
+ {
+  "file": "c18",
+  "layout": "list",
+  "kicker": "la scala del concreto",
+  "rows": [
+   "Astratto",
+   "Categoria",
+   "Esempio",
+   "Scena"
+  ],
+  "active": 3,
+  "note": "«Martedì alle quattordici il turno è saltato per venti minuti.» Qui si vede tutto."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Ogni gradino verso il basso<br>produce un'immagine in più.<br><span class=\"gold\">E le immagini sono quello che resta.</span>"
+ },
+ {
+  "file": "c20",
+  "layout": "memo",
+  "title": "Scendi almeno due gradini<br>rispetto a dove ti eri fermato."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "Perché quasi tutti<br>si fermano al primo,<br><span class=\"gold\">convinti di essere già stati concreti.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "kicker": "la scena",
+  "title": "Ha una proprietà<br>che la rende potentissima."
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Non si discute.<br><span class=\"gold\">È l'unica delle quattro<br>che non apre una trattativa.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "swap",
+  "kicker": "cosa cambia davvero",
+  "rows": [
+   [
+    "«va migliorata»",
+    "un'opinione contro un'altra"
+   ],
+   [
+    "«martedì alle quattordici»",
+    "o è successo o non è successo"
+   ]
+  ]
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "E se è successo,<br><span class=\"gold\">adesso siete tutti e due<br>nello stesso posto a guardarlo.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Ed è lì che una conversazione<br>comincia davvero:<br><span class=\"gold\">quando smette di essere<br>un confronto fra opinioni.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "kicker": "un effetto collaterale",
+  "title": "Sorprende quasi tutti.<br><span class=\"gold\">Sorprende anche me.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "Scendere la scala<br><span class=\"gold\">accorcia il messaggio.</span><br>Non lo allunga: lo accorcia."
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "I dettagli sembrano parole in più.<br><span class=\"gold\">E invece sono parole risparmiate.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Una scena non ha bisogno di niente.<br><span class=\"gold\">Sta in piedi da sola.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "chart",
+  "kicker": "la stessa cosa, due volte",
+  "title": "Venticinque parole di criticità sull'efficienza del reparto, oppure otto.",
+  "bars": [
+   {
+    "et": "«criticità sull'efficienza del reparto»",
+    "val": 100,
+    "cifra": "25 parole"
+   },
+   {
+    "et": "«martedì il turno è saltato»",
+    "val": 32,
+    "cifra": "8 parole",
+    "oro": true
+   }
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "kicker": "il rovescio della medaglia",
+  "title": "Va detto,<br><span class=\"gold\">e va detto qui.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "Il concreto è più persuasivo<br>dell'astratto<br><span class=\"gold\">a prescindere dal fatto<br>che sia rappresentativo.</span>"
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "Funziona anche quando<br>quello che racconti è un caso isolato.<br><span class=\"gold\">E forse proprio per quello.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "chart",
+  "kicker": "quanto convince",
+  "title": "Una singola scena vivida convince più di una statistica su diecimila casi.",
+  "bars": [
+   {
+    "et": "una scena vivida",
+    "val": 100,
+    "cifra": "1 caso",
+    "oro": true
+   },
+   {
+    "et": "una statistica",
+    "val": 22,
+    "cifra": "10.000 casi"
+   }
+  ]
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "E convince anche quando<br><span class=\"gold\">la statistica dice il contrario.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "È il meccanismo su cui si regge<br>buona parte della disinformazione.<br><span class=\"gold\">E adesso lo sai fare anche tu.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "swap",
+  "kicker": "la regola d'uso",
+  "rows": [
+   [
+    "la scena",
+    "per far capire"
+   ],
+   [
+    "il dato",
+    "per dimostrare"
+   ]
+  ]
+ },
+ {
+  "file": "c41",
+  "layout": "memo",
+  "title": "Se hai solo la scena, dillo.<br>È la differenza fra convincere<br>e ingannare."
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "kicker": "tre errori",
+  "title": "Il primo lo fanno anche<br>quelli che hanno capito<br>tutto il resto."
+ },
+ {
+  "file": "c43",
+  "layout": "cards",
+  "kicker": "da evitare",
+  "rows": [
+   {
+    "icona": "gradino",
+    "testo": "Fermarsi alla categoria"
+   },
+   {
+    "icona": "gonfia",
+    "testo": "Gonfiare i numeri"
+   },
+   {
+    "icona": "visibile",
+    "testo": "Scambiare una scena per una prova"
+   }
+  ]
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Uno sbagliato<br><span class=\"gold\">porta con sé tutti gli altri.</span><br>Compresi quelli giusti."
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "Vale quando lo fai tu.<br><span class=\"gold\">E vale soprattutto<br>quando lo subisci.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "quote",
+  "kicker": "quando un racconto ti convince in fretta",
+  "title": "«Quante volte<br>succede davvero?»"
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "Una frase che non produce immagine<br>non lascia traccia."
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Prendi una cosa<br>che diresti in modo astratto,<br><span class=\"gold\">e scendi due gradini<br>prima di dirla.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "E se non trovi il ricordo preciso,<br><span class=\"gold\">quella è già un'informazione:<br>stavi affermando senza avere il caso.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
