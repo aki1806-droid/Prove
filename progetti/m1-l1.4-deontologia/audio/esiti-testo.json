@@ -1,0 +1,27 @@
+{
+ "A": {
+  "parole_copione": 681,
+  "parole_dette": 681,
+  "coincidenti": 681,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 696,
+  "parole_dette": 696,
+  "coincidenti": 694,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s45",
+    "copione": "possano",
+    "detto": "possono"
+   },
+   {
+    "blocco": "s47",
+    "copione": "cinquantatre",
+    "detto": "53"
+   }
+  ]
+ }
+}

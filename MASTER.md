@@ -441,6 +441,51 @@ icone e quattro diagrammi sono stati rifatti dopo averli visti: un'icona che
 non si legge a colpo d'occhio non serve a niente, e questo non si scopre
 leggendo il codice.
 
+### Il controllo di traboccamento, e come si sbaglia a scriverlo
+
+Un controllo automatico che il testo non esca dalla cornice serve, perché una
+slide tagliata in fondo si nota solo se si guarda proprio quella. Ma è facile
+scriverlo in modo che non veda niente, e allora è peggio che non averlo: dà
+la sicurezza senza darne il motivo.
+
+Il modo sbagliato — usato per quattro lezioni prima di accorgersene:
+
+```js
+const c = document.querySelector('.corpo');
+sfora = c.scrollHeight - c.clientHeight;      // sempre 0
+```
+
+Non funziona quando il contenitore è un **flex item con `flex:1`**. Un
+elemento così, se il contenuto è troppo alto, non scrolla: **cresce**, perché
+il suo `min-height` vale `auto`. `scrollHeight` resta uguale a `clientHeight`
+e il controllo tace. A tagliare è l'antenato con `overflow:hidden`, cioè la
+slide.
+
+Il modo giusto è **geometrico**: il rettangolo del corpo contro la cornice
+interna della slide, padding compreso.
+
+```js
+const rc = corpo.getBoundingClientRect(), rs = slide.getBoundingClientRect();
+const st = getComputedStyle(slide);
+sfora = Math.max(0, rc.bottom - (rs.bottom - parseFloat(st.paddingBottom)))
+      + Math.max(0, (rs.top + parseFloat(st.paddingTop)) - rc.top);
+```
+
+Alla prima esecuzione con la versione giusta sono uscite sei slide fuori, di
+cui tre che a occhio non avevo ancora notato.
+
+**Regola generale**: quando un controllo automatico non ha mai trovato niente,
+non è una buona notizia finché non gli si è dato qualcosa da trovare. Un
+controllo che non è mai scattato va messo alla prova apposta.
+
+### Gli elenchi lunghi si stringono da soli
+
+Sette voci non stanno alla misura piena di una che ne ha tre. La soglia va
+messa **nel layout**, non nelle singole scene: `voci.length >= 7` accende una
+variante compatta (corpo da 40px invece di 47, interlinea e spazi ridotti).
+Così una lezione futura non se ne può dimenticare, che è l'unico modo perché
+una regola di questo tipo regga.
+
 ## Passo 5 — Riprese e immagini generate
 
 Evocative e coerenti col discorso, **mai decorative**: la porta chiusa quando

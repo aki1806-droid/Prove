@@ -92,6 +92,14 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .el li .n.pt{color:var(--sop)}
 .el li b{font-weight:600;color:var(--tit)}
 .el li em{display:block;font-style:normal;font-size:33px;line-height:1.45;opacity:.72;margin-top:12px}
+/* Sette voci o piu' non ci stanno alla misura piena: l'elenco si stringe da
+   solo invece di farsi tagliare dalla cornice. La soglia sta in layout.mjs,
+   non nelle scene, cosi' nessuna lezione se ne puo' dimenticare. */
+ol.el.fitto,ul.el.fitto{gap:20px}
+.el.fitto li{font-size:40px;line-height:1.24;gap:28px}
+.el.fitto li .n{flex:0 0 62px;font-size:29px}
+.el.fitto li .n.gr{font-size:38px}
+.el.fitto li em{font-size:28px;line-height:1.38;margin-top:8px}
 
 /* tre riquadri */
 .tre{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}
@@ -256,7 +264,7 @@ const CORPI = {
   citazione: d => `<div class="cita serif"><span class="q">«</span>${acc(d.testo)}<span class="q">»</span></div>
       <div class="fonte">${d.fonte}</div>`,
 
-  elenco: d => `<${d.numerato?'ol':'ul'} class="el">${d.voci.map((v,i)=>
+  elenco: d => `<${d.numerato?'ol':'ul'} class="el ${d.voci.length>=7?'fitto':''}">${d.voci.map((v,i)=>
       `<li class="${(d.attive??d.voci.map((_,k)=>k)).includes(i)?'on':''}">
          <span class="n ${d.numerato?'':'pt'} ${d.grandi?'gr':''} ${d.vietato?'no':''}">${
             d.marcatori ? d.marcatori[i] : (d.vietato?'×':(d.numerato?(d.da??1)+i:'—'))}</span>

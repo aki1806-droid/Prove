@@ -1,0 +1,56 @@
+
+traccia A   17.7 peso/s   scarto tipico 0.57 s
+  -- s02   9.92s   atteso 10.86s   scarto -0.94s
+     s03  10.58s   atteso 10.41s   scarto +0.17s
+     s04   8.48s   atteso  8.94s   scarto -0.46s
+  ++ s05  12.72s   atteso 11.77s   scarto +0.95s
+     s06  13.32s   atteso 13.46s   scarto -0.14s
+     s07  10.82s   atteso 10.92s   scarto -0.10s
+     s08  10.85s   atteso 11.37s   scarto -0.52s
+     s09  12.05s   atteso 11.71s   scarto +0.34s
+     s10  10.59s   atteso 10.47s   scarto +0.12s
+     s11  12.04s   atteso 11.60s   scarto +0.44s
+     s12  13.04s   atteso 13.63s   scarto -0.59s
+  ++ s13   9.89s   atteso  9.00s   scarto +0.89s
+  ++ s14  12.75s   atteso 11.20s   scarto +1.55s
+     s15  12.08s   atteso 11.54s   scarto +0.54s
+     s16   8.51s   atteso  8.43s   scarto +0.08s
+     s17  11.60s   atteso 11.43s   scarto +0.17s
+     s18  11.18s   atteso 11.48s   scarto -0.30s
+     s19  11.55s   atteso 11.48s   scarto +0.07s
+     s20  10.86s   atteso 11.31s   scarto -0.45s
+     s21   8.55s   atteso  8.83s   scarto -0.28s
+     s22   7.44s   atteso  6.39s   scarto -0.15s
+     s23  11.32s   atteso 11.94s   scarto -0.62s
+     s24  11.70s   atteso 12.45s   scarto -0.75s
+     s25   8.02s   atteso  8.03s   scarto -0.01s
+  confini da guardare per primi:
+    nessuna coppia adiacente di segno opposto
+
+traccia B   17.1 peso/s   scarto tipico 0.59 s
+     s26  12.45s   atteso 12.45s   scarto -0.00s
+     s27  12.08s   atteso 11.34s   scarto +0.74s
+     s28   9.10s   atteso  7.72s   scarto -0.02s
+     s29  10.22s   atteso 10.35s   scarto -0.13s
+     s30   8.26s   atteso  8.71s   scarto -0.45s
+     s31   6.37s   atteso  4.74s   scarto +0.43s
+  -- s32   9.41s   atteso 10.64s   scarto -1.23s
+  -- s33  12.09s   atteso 13.16s   scarto -1.07s
+     s34   8.86s   atteso  9.18s   scarto -0.32s
+     s35  11.93s   atteso 11.64s   scarto +0.29s
+     s36  13.22s   atteso 12.69s   scarto +0.53s
+     s37  11.75s   atteso 12.28s   scarto -0.53s
+     s38  12.56s   atteso 11.99s   scarto +0.57s
+     s39  11.53s   atteso 12.22s   scarto -0.69s
+     s40  11.22s   atteso 11.28s   scarto -0.06s
+     s41  10.33s   atteso  9.00s   scarto +0.33s
+     s42  11.72s   atteso 12.10s   scarto -0.38s
+     s43   9.56s   atteso  9.53s   scarto +0.03s
+     s44  13.20s   atteso 13.16s   scarto +0.04s
+     s45  11.85s   atteso 11.69s   scarto +0.16s
+     s46  10.66s   atteso 11.34s   scarto -0.68s
+  ++ s47  14.72s   atteso 13.33s   scarto +1.39s
+     s48  11.97s   atteso 11.23s   scarto +0.74s
+     s49  12.41s   atteso 12.10s   scarto +0.31s
+  confini da guardare per primi:
+    nessuna coppia adiacente di segno opposto

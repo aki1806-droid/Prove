@@ -1,0 +1,199 @@
+// Contenuto delle 50 scene della lezione 1.4. *accento*  **accento in semibold**
+const CAPI = [
+ {n:"I",    t:"Principi e valori"},
+ {n:"II",   t:"Responsabilità assistenziale", d:"competenza, prescrizione, dolore, contenzione"},
+ {n:"III",  t:"Rapporti professionali", d:"équipe e personale di supporto"},
+ {n:"IV",   t:"Rapporti con le persone assistite", d:"informazione, consenso, fine vita, riservatezza"},
+ {n:"V",    t:"Comunicazione e social media"},
+ {n:"VI",   t:"Organizzazione"},
+ {n:"VII",  t:"Libera professione"},
+ {n:"VIII", t:"Disposizioni finali"},
+];
+const PIANI = [
+ {n:"1", t:"Legge", d:"posta dal **Parlamento** → responsabilità civile, penale, amministrativa"},
+ {n:"2", t:"Contratto", d:"CCNL e codice di comportamento → disciplinare **verso il datore di lavoro**"},
+ {n:"3", t:"Codice deontologico", d:"FNOPI → disciplinare **davanti all'Ordine**: avvertimento, censura, sospensione, radiazione"},
+];
+const NUMERI = ["1","2","3","4","5","6","7"];
+const MEMO = [
+ "Codice **2019**, FNOPI — 53 articoli in **8 capi**",
+ "Terza fonte del campo di attività: **integra** la legge, non la sostituisce",
+ "Il **tempo di relazione** è tempo di cura",
+ "Contenzione: eccezionale, motivata, limitata — **mai per carenza di personale**",
+ "Prescrizione poco chiara: si chiede, e se il dubbio resta **non si dà corso** e si documenta",
+ "Non comunica la diagnosi, **ma non mente**",
+ "Obiezione: solo nei casi di legge — restano dovute **assistenza e prestazioni indifferibili**",
+];
+
+export const SCENE = [
+{id:"s01", tipo:"copertina", tema:"chiaro",
+  modulo:"Modulo 1 · La professione infermieristica",
+  titolo:"Il Codice<br>deontologico", sottotitolo:"FNOPI, 2019 — la terza fonte",
+  ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
+
+{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 4 di 8",
+  testo:"Dopo il profilo e gli ordinamenti didattici, la *terza fonte* del campo di attività."},
+{id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Perché conta più di quanto sembri",
+  testo:"Il Codice non sta solo nelle domande dirette. Sta *dentro i casi clinici*.",
+  sotto:"Dove la risposta giusta è quasi sempre quella deontologicamente sostenibile."},
+
+{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"In questa lezione", numerato:true, voci:[
+  {t:"Che cos'è il Codice e **chi lo adotta**"},
+  {t:"Come è strutturato: sapere **in quale capo** sta un tema"},
+  {t:"I temi che tornano sempre"},
+  {t:"Deontologia, disciplinare, **legge**"}]},
+{id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"I temi che tornano sempre", marcatori:["—","—","—","—","—"], voci:[
+  {t:"**Contenzione**"}, {t:"**Prescrizione dubbia**"}, {t:"**Verità** e informazione"},
+  {t:"**Rifiuto** delle cure"}, {t:"**Social media**"}]},
+
+{id:"s06", tipo:"norma", tema:"chiaro", sopratitolo:"Che cos'è",
+  etichetta:"Codice deontologico delle Professioni Infermieristiche", sigla:"FNOPI, 2019",
+  testo:"Sostituisce quello del 2009. *53 articoli* distribuiti in *8 capi*."},
+{id:"s07", tipo:"frase", tema:"tenue", sopratitolo:"Chi lo adotta",
+  testo:"La professione, attraverso la sua Federazione. Non il Parlamento: è *autoregolamentazione*.",
+  sotto:"Ma autoregolamentazione **non** significa priva di peso giuridico."},
+
+{id:"s08", tipo:"tre", tema:"chiaro", sopratitolo:"I tre piani", box:PIANI, attive:[0]},
+{id:"s09", tipo:"tre", tema:"chiaro", sopratitolo:"I tre piani", box:PIANI},
+
+{id:"s10", tipo:"titolo", tema:"profondo",
+  titolo:"La deontologia non è<br>*alternativa* alla legge:<br>la **integra**.",
+  sotto:"Un comportamento può essere penalmente lecito e restare illecito deontologico."},
+{id:"s11", tipo:"frase", tema:"chiaro", sopratitolo:"Per lo stesso fatto",
+  testo:"Possono aprirsi insieme un procedimento *penale*, uno *disciplinare aziendale* e uno *dell'Ordine*.",
+  sotto:"Tre piani autonomi e cumulabili — la stessa logica del doppio disciplinare della 1.3."},
+{id:"s12", tipo:"norma", tema:"chiaro", sopratitolo:"E c'è di più",
+  etichetta:"Il Codice è fonte del campo di attività", sigla:"L. 42/1999",
+  testo:"Una norma deontologica concorre a definire *ciò che devi fare* — e il giudice la richiama per valutare la **diligenza professionale**."},
+
+{id:"s13", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
+  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d})), attive:[0,1]},
+{id:"s14", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
+  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d})), attive:[0,1,2,3,4]},
+{id:"s15", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
+  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d}))},
+
+{id:"s16", tipo:"titolo", tema:"profondo",
+  titolo:"Il **tempo di relazione**<br>è tempo di cura.",
+  sotto:"La formula più citata dell'intero Codice — Capo I."},
+{id:"s17", tipo:"frase", tema:"chiaro", sopratitolo:"La ritroverai altrove",
+  testo:"La stessa affermazione, con altre parole, sta nella *legge 219 del 2017*.",
+  sotto:"L'assistenza si fonda su valori etici, professionali, giuridici e sociali."},
+{id:"s18", tipo:"elenco", tema:"chiaro", sopratitolo:"Ancora dal Capo I", voci:[
+  {t:"Rispetta la **libera scelta** della persona", d:"anche quando non coincide con la propria opinione"},
+  {t:"Davanti a questioni etiche complesse si avvale del **confronto**", d:"con l'équipe e con i comitati etici"}]},
+
+{id:"s19", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo II · il più operativo", voci:[
+  {t:"Fonda il proprio operato su **conoscenze validate**"},
+  {t:"Si **aggiorna**"},
+  {t:"Agisce **nei limiti della propria competenza**", d:"ricorrendo quando serve alla consulenza di altri professionisti"}]},
+{id:"s20", tipo:"titolo", tema:"profondo",
+  titolo:"Riconoscere il limite<br>è un **obbligo**,<br>non una debolezza.",
+  sotto:"Quando fra le opzioni compare «chiede supporto», è quasi sempre quella giusta."},
+
+{id:"s21", tipo:"frase", tema:"chiaro", sopratitolo:"Situazione classica",
+  testo:"Una prescrizione *non chiara*, *non appropriata*, o in contrasto con la tua valutazione professionale.",
+  sotto:"Che cosa fa l'infermiere?"},
+{id:"s22", tipo:"elenco", tema:"profondo", sopratitolo:"La sequenza", numerato:true, grandi:true, voci:[
+  {t:"**Chiede chiarimenti** al prescrittore"},
+  {t:"Se il dubbio permane, **non dà corso** all'atto"},
+  {t:"**Motiva e documenta**"}]},
+{id:"s23", tipo:"trappola", tema:"tenue", sopratitolo:"Sbagliate entrambe le estreme", righe:[
+  {sb:"«esegue comunque, la prescrizione è del medico»", ok:"il dubbio va *chiarito prima*"},
+  {sb:"«corregge la prescrizione da sé»", ok:"non la prescrive e *non la modifica*"}]},
+
+{id:"s24", tipo:"elenco", tema:"chiaro", sopratitolo:"Il dolore", marcatori:["1","2","3"], numerato:true, grandi:true, voci:[
+  {t:"**Prevenire**"}, {t:"**Rilevare e documentare**"}, {t:"**Attivarsi** per il controllo"}]},
+{id:"s25", tipo:"frase", tema:"tenue", sopratitolo:"Base deontologica della L. 38/2010",
+  testo:"Il dolore non rilevato è, prima ancora che un problema clinico, una *mancanza deontologica*.",
+  sotto:"Non è una svista: è un'omissione che ha un nome."},
+
+{id:"s26", tipo:"norma", tema:"chiaro", sopratitolo:"La contenzione",
+  etichetta:"Il tema che all'orale torna sempre", sigla:"Evento eccezionale",
+  testo:"Motivato da prescrizione medica o da *documentate valutazioni assistenziali*, e limitato nel tempo."},
+{id:"s27", tipo:"tre", tema:"chiaro", sopratitolo:"Tre requisiti, e vanno detti tutti e tre", box:[
+  {n:"1", t:"Eccezionalità"},
+  {n:"2", t:"Motivazione documentata"},
+  {n:"3", t:"Limite temporale"}]},
+{id:"s28", tipo:"titolo", tema:"profondo",
+  titolo:"Non si contiene<br>per **carenza di personale**.",
+  sotto:"La contenzione non è mai una misura organizzativa."},
+
+{id:"s29", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo IV · con la persona assistita", voci:[
+  {t:"**Ascolta**, informa e coinvolge"},
+  {t:"**Verifica** che la persona abbia capito"},
+  {t:"Fornisce le informazioni **di sua competenza**"}]},
+{id:"s30", tipo:"frase", tema:"chiaro", sopratitolo:"E per le informazioni degli altri",
+  testo:"Facilita l'accesso al *professionista giusto*.",
+  sotto:"E qui arriva il confine che i quiz testano sempre, in tutte le salse."},
+{id:"s31", tipo:"titolo", tema:"profondo",
+  titolo:"Non comunica la diagnosi<br>né la prognosi.<br>Ma **non mente**.",
+  sotto:"E non elude."},
+
+{id:"s32", tipo:"trappola", tema:"tenue", sopratitolo:"Sbagliate entrambe le estreme", righe:[
+  {sb:"«dice che non sa nulla e cambia argomento»", ok:"eludere *è* mentire"},
+  {sb:"«comunica lui la diagnosi per non lasciare solo il paziente»", ok:"non è *informazione di sua competenza*"}]},
+{id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Il diritto a non sapere",
+  testo:"La persona ha diritto anche a *non essere informata*, o può indicare qualcun altro che riceva le informazioni al suo posto.",
+  sotto:"L'infermiere rispetta questa volontà e la **documenta**."},
+
+{id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Il rifiuto delle cure",
+  testo:"L'infermiere rispetta il rifiuto di trattamenti e accertamenti, *anche quando comporta un rischio*.",
+  sotto:"Adoperandosi perché la scelta sia informata e consapevole."},
+{id:"s35", tipo:"elenco", tema:"chiaro", sopratitolo:"La volontà espressa", voci:[
+  {t:"Tutela le **disposizioni anticipate di trattamento**"},
+  {t:"Sostiene la **pianificazione condivisa** delle cure", d:"su consenso e DAT torniamo in modo sistematico nella 1.6"}]},
+{id:"s36", tipo:"confronto", tema:"profondo", sopratitolo:"Nel fine vita", col:[
+  {h:"Garantisce", t:"controllo dei sintomi, sedazione quando indicata, dignità, presenza dei familiari"},
+  {h:"Non attua né favorisce", t:"trattamenti finalizzati a provocare la morte"}],
+  sotto:"Assiste *fino al termine della vita*."},
+
+{id:"s37", tipo:"frase", tema:"chiaro", sopratitolo:"L'obiezione di coscienza",
+  testo:"Due limiti, e vanno detti *insieme*: è la loro combinazione a fare la risposta corretta.",
+  sotto:"Primo: si obietta solo nei casi previsti dalla legge, non a piacimento."},
+{id:"s38", tipo:"elenco", tema:"profondo", sopratitolo:"Secondo: l'obiezione non copre l'assistenza", voci:[
+  {t:"Resta dovuta l'**assistenza prima e dopo** l'atto"},
+  {t:"Resta dovuta ogni prestazione **urgente o indifferibile**"},
+  {t:"Le conseguenze della scelta **non ricadono sulla persona assistita**"}]},
+
+{id:"s39", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo III · l'équipe", voci:[
+  {t:"**Collabora** e tutela la dignità dei membri dell'équipe"},
+  {t:"Non assume atteggiamenti **denigratori** verso i colleghi"},
+  {t:"I contrasti si affrontano **nelle sedi opportune**", d:"mai davanti alla persona assistita"}]},
+{id:"s40", tipo:"frase", tema:"chiaro", sopratitolo:"Ma quando qualcuno sbaglia",
+  testo:"Se un comportamento, *anche di un collega*, mette a rischio la sicurezza o la dignità della persona, il Codice impone di **segnalare**."},
+{id:"s41", tipo:"elenco", tema:"profondo", sopratitolo:"La sequenza, sempre la stessa", numerato:true, grandi:true, voci:[
+  {t:"**Mettere in sicurezza** la persona"},
+  {t:"**Informare** chi di competenza"},
+  {t:"**Documentare**"}],
+  },
+
+{id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"Capo V · la novità del 2019",
+  testo:"Nei mezzi di comunicazione e nei social media l'infermiere agisce con *prudenza e decoro*.",
+  sotto:"È il capo da cui vengono i casi d'esame più recenti."},
+{id:"s43", tipo:"frase", tema:"chiaro", sopratitolo:"La riservatezza",
+  testo:"Non diffonde immagini o informazioni che rendano *identificabile* la persona assistita."},
+{id:"s44", tipo:"confronto", tema:"tenue", sopratitolo:"La regola pratica", col:[
+  {h:"Corretto", t:"per la documentazione clinica, **col consenso**, dentro il sistema aziendale"},
+  {h:"Violazione", t:"col telefono personale, in chat — **anche fra colleghi**"}],
+  sotto:"E togliere il volto *non risolve*."},
+
+{id:"s45", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo VI · l'organizzazione", numerato:true, voci:[
+  {t:"**Segnala** alle figure competenti le carenze di risorse o organizzazione", d:"che possano compromettere sicurezza e qualità dell'assistenza"},
+  {t:"Si adopera perché la persona **non ne subisca le conseguenze**"}]},
+{id:"s46", tipo:"frase", tema:"chiaro", sopratitolo:"La condotta corretta",
+  testo:"La **segnalazione documentata**.",
+  sotto:"Subire in silenzio una carenza nota non protegge nessuno, e sul piano della responsabilità professionale espone."},
+
+{id:"s47", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
+  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t})), attive:[0,1,2]},
+{id:"s48", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
+  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t})), attive:[0,1,2,3,4]},
+{id:"s49", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
+  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t}))},
+
+{id:"s50", tipo:"copertina", tema:"profondo",
+  modulo:"Fine della micro-lezione 1.4",
+  titolo:"1.5 La responsabilità<br>professionale", sottotitolo:"civile, penale, disciplinare",
+  ente:"Nella dispensa: il testo commentato, i quiz e la traccia di risposta già svolta"},
+];

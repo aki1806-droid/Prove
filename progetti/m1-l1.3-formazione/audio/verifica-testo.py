@@ -16,7 +16,12 @@ from pathlib import Path
 
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
-STACCO = "s26"
+# Lo stacco fra le due tracce e' dichiarato una volta sola, in tagli.py:
+# tenerne una seconda copia qui vuol dire che prima o poi le due divergono
+# in silenzio, e il confronto si fa sui blocchi sbagliati.
+STACCO = re.search(r'^STACCO\s*=\s*"([^"]+)"',
+                   (QUI/"tagli.py").read_text(encoding="utf-8"),
+                   re.M).group(1)
 BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 
 NUMERI = {"centottanta":"180","centoventi":"120","centocinquanta":"150",
@@ -33,14 +38,33 @@ RESE = [
  (r"\bl\s*/?\s*s\s*n\s*t\s*-?\s*1\b",            " siglatriennale "),
  (r"\belle\s+esse\s+enne\s+ti\s+uno\b",            " siglatriennale "),
  (r"\bls\s*nt\s*1\b",                                " siglatriennale "),
- (r"\b(uno|1)[\s.]+(punto[\s.]+)?(cinque|5)\b",      " lezioneunocinque "),
+ # I rimandi alle altre lezioni: il copione li scrive a parole, il
+ # trascrittore in cifre.
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?uno\b",   " lezione11 "),
+ (r"\b1[\s.]+1\b",                        " lezione11 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?due\b",   " lezione12 "),
+ (r"\b1[\s.]+2\b",                        " lezione12 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?tre\b",   " lezione13 "),
+ (r"\b1[\s.]+3\b",                        " lezione13 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?cinque\b"," lezione15 "),
+ (r"\b1[\s.]+5\b",                        " lezione15 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?sei\b",   " lezione16 "),
+ (r"\b1[\s.]+6\b",                        " lezione16 "),
+ # Fonetica: «illecito» e «il lecito» suonano identici in italiano.
+ (r"\bil\s+leciti?o\b", " illecito "),
+ # Le sigle: il trascrittore a volte le compita lettera per lettera.
+ (r"\bf\s+n\s+o\s+p\s+i\b",             " fnopi "),
+ (r"\bo\s+p\s+i\b",                       " opi "),
 ]
 
 def parole(s):
     s = re.sub(r"\[[a-z]+\]", " ", s.lower())
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    s = s.replace("'", " ").replace("\u2019", " ")
+    # La punteggiatura va tolta PRIMA delle sostituzioni: il trascrittore
+    # scrive «F, N, O, P, I.» e con le virgole in mezzo nessuna regola
+    # riconoscerebbe la sigla.
+    s = re.sub(r"[^a-z0-9]+", " ", s)
     for pat, con in RESE: s = re.sub(pat, con, s)
     return [NUMERI.get(p, p) for p in re.findall(r"[a-z0-9]+", s)]
 
