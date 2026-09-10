@@ -429,6 +429,15 @@ una sola, quella sulla traccia intera prende l'errore più caro — la voce che
 salta parole — e i confini restano affidati all'allineamento e al controllo
 statistico offline.
 
+> **Una trascrizione che ripete il copione non è una trascrizione.** Se si
+> chiede la trascrizione collegandola al *nodo che ha generato la voce*
+> invece che a un asset audio, torna il testo di partenza, identico: apostrofi
+> di comodo (`piu'`, `attivita'`) e tag di intenzione (`[warm]`) compresi. La
+> verifica dice allora 100% per costruzione, e non ha guardato l'audio. Il
+> segnale d'allarme è proprio quello: **nessuna voce può pronunciare un
+> apostrofo o una parentesi quadra**. Se il testo tornato li contiene, si
+> butta e si rifà da un asset audio.
+
 **L'URL firmato scade in un paio d'ore.** Se la trascrizione arriva più tardi
 — e con due tracce da nove minuti arriva più tardi — l'URL non c'è più e la
 traccia va ricaricata da qualche parte che ne dia uno nuovo. Il servizio di
@@ -448,6 +457,16 @@ montaggio va benissimo: accetta mp3 e restituisce un URL pubblico.
 > Stessi campioni, 17 KB in meno, caricamento accettato. La lezione generale:
 > quando un errore parla di *tipo di file* e il file è palesemente giusto,
 > guarda che cosa c'è **prima** dei dati, non i dati.
+
+**I numeri pronunciati per esteso sono la resa che ricorre di più**, e non si
+trattano a mano: il copione scrive «739», la voce dice «settecentotrentanove»
+e il trascrittore lo riscrive a parole — o in cifre, senza costanza (sulla
+stessa lezione 1.8, la traccia A a parole e la B in cifre). La regola
+dichiarata è un convertitore dei cardinali italiani in cifre applicato ai
+**due** testi, che gestisce le forme incollate e le elisioni (`trentotto`→38,
+`duecentocinquantuno`→251, `millenovecentonovantaquattro`→1994) e lascia
+stare la parola quando non è un numero. Su 1.8 ha portato gli scarti
+segnalati da 16 a 2.
 
 Il confronto parola per parola va normalizzato, ma **una resa per volta e
 dichiarata**, mai con una tolleranza generica: la sigla sillabata («elle esse
@@ -492,6 +511,17 @@ pausa da 0,73 s a 130,0 il conto torna a 14,2.
 
 La differenza fra i due casi è tutta qui: il pregiudizio del modello sposta
 la **stima**, non l'audio. L'aritmetica sul grezzo non ha pregiudizi.
+
+E c'è un caso in cui il controllo statistico va usato sapendo che vede poco.
+La soglia di allarme è **1,5 volte la dispersione della traccia**: su un testo
+pieno di date e numeri di legge il modello sbanda su ogni blocco, la
+dispersione raddoppia (1,21 s sulla traccia A di 1.8 contro i 0,5-0,6 tipici)
+e con essa la soglia. Il controllo non è rotto: è **cieco in proporzione**.
+Su una traccia così non ci si appoggia — si legge la tabella dei blocchi a
+mano e si fa l'aritmetica sul grezzo dove qualcosa non torna.
+
+Ritarare il peso delle cifre sulla lezione che mette in crisi il modello è la
+tentazione da evitare: si aggiusta quella e si sbaglia sulle altre sette.
 
 ## Passo 4 — Renderizzare le slide
 

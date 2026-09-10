@@ -24,9 +24,55 @@ STACCO = re.search(r'^STACCO\s*=\s*"([^"]+)"',
                    re.M).group(1)
 BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 
-NUMERI = {"centottanta":"180","centoventi":"120","centocinquanta":"150",
-          "sessanta":"60","cinquanta":"50","trenta":"30","dodici":"12",
-          "sette":"7","quattro":"4","cinque":"5","tre":"3","due":"2","uno":"1"}
+# I numeri di legge, di articolo e di anno sono la resa che ricorre di piu':
+# il copione li scrive in cifre e il trascrittore, quando la voce li pronuncia
+# per esteso, li riscrive a parole - e non in modo costante: sulla stessa
+# lezione 1.8 la traccia A ha reso «739» come «settecentotrentanove» e la B
+# come «739». Non e' una tolleranza generica: e' una regola dichiarata, che
+# converte il numero cardinale italiano nella sua cifra, sui due testi.
+UNI   = {"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
+         "sei":6,"sette":7,"otto":8,"nove":9}
+DIECI = {"dieci":10,"undici":11,"dodici":12,"tredici":13,"quattordici":14,
+         "quindici":15,"sedici":16,"diciassette":17,"diciotto":18,"diciannove":19}
+DEC   = {"venti":20,"trenta":30,"quaranta":40,"cinquanta":50,
+         "sessanta":60,"settanta":70,"ottanta":80,"novanta":90}
+
+def _sotto100(s):
+    if s == "": return 0
+    if s in DIECI: return DIECI[s]
+    if s in DEC:   return DEC[s]
+    if s in UNI:   return UNI[s]
+    for d,v in DEC.items():
+        # le forme elise: venti+uno = ventuno, quaranta+otto = quarantotto
+        for u in ("uno","otto"):
+            if s == d[:-1]+u: return v+UNI[u]
+        if s.startswith(d):
+            r = s[len(d):]
+            if r in UNI: return v+UNI[r]
+    return None
+
+def _sotto1000(s):
+    if s == "": return 0
+    i = s.find("cento")
+    if i >= 0:
+        pre, post = s[:i], s[i+5:]
+        c = 1 if pre == "" else UNI.get(pre)
+        if c is not None:
+            p = _sotto1000(post) if post else 0
+            if p is not None: return c*100+p
+    return _sotto100(s)
+
+def cifra(s):
+    """La parola-numero come cifra, oppure la parola stessa se non lo e'."""
+    if s.startswith("mille"):
+        p = _sotto1000(s[5:])
+        if p is not None: return str(1000+p)
+    i = s.find("mila")
+    if i > 0:
+        m, p = _sotto1000(s[:i]), _sotto1000(s[i+4:])
+        if m is not None and p is not None: return str(m*1000+p)
+    n = _sotto1000(s)
+    return s if n is None else str(n)
 
 # Termini che copione e trascrizione scrivono in modo diverso pur dicendo la
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
@@ -50,6 +96,10 @@ RESE = [
  (r"\b1[\s.]+5\b",                        " lezione15 "),
  (r"\b(uno|1)[\s.]+(punto[\s.]+)?sei\b",   " lezione16 "),
  (r"\b1[\s.]+6\b",                        " lezione16 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?quattro\b"," lezione14 "),
+ (r"\b1[\s.]+4\b",                        " lezione14 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?sette\b", " lezione17 "),
+ (r"\b1[\s.]+7\b",                        " lezione17 "),
  # Fonetica: «illecito» e «il lecito» suonano identici in italiano.
  (r"\bil\s+leciti?o\b", " illecito "),
  # Le sigle: il trascrittore a volte le compita lettera per lettera.
@@ -71,7 +121,7 @@ def parole(s):
     # riconoscerebbe la sigla.
     s = re.sub(r"[^a-z0-9]+", " ", s)
     for pat, con in RESE: s = re.sub(pat, con, s)
-    return [NUMERI.get(p, p) for p in re.findall(r"[a-z0-9]+", s)]
+    return [cifra(p) for p in re.findall(r"[a-z0-9]+", s)]
 
 def gruppi():
     b = json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))

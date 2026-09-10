@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 745,
+  "parole_dette": 747,
+  "coincidenti": 743,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "extracontrattuale",
+    "detto": "extra contrattuale"
+   },
+   {
+    "blocco": "s27",
+    "copione": "dat",
+    "detto": "dia t"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 619,
+  "parole_dette": 619,
+  "coincidenti": 618,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s31",
+    "copione": "oss",
+    "detto": "os"
+   }
+  ]
+ }
+}
