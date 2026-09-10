@@ -26,7 +26,7 @@ GENERATORE slide/layout.mjs → cards.mjs (PNG) e clips.mjs (mp4)
 
 | | previsto (MASTER) | reale |
 |---|---|---|
-| velocità di lettura | 18 car/s | **17,0 car/s** |
+| velocità di lettura | 18 car/s | **16,8 car/s** |
 | caratteri di copione | 8.406 per 8:00 | 8.803 |
 | blocchi | 48 (il tetto) | 48 |
 | scene | 50 (il tetto) | 50 |
@@ -34,9 +34,20 @@ GENERATORE slide/layout.mjs → cards.mjs (PNG) e clips.mjs (mp4)
 | montato | 8:00 | **8:56** |
 | pose | 3–9 | 0 |
 
-**La costante da correggere nel MASTER, per questa voce: 17,0 caratteri al
-secondo, non 18.** Su 8.800 caratteri fa 33 secondi di differenza. Con 18 il
-copione sarebbe stato scritto corto di ~400 caratteri.
+**La costante da correggere nel MASTER, per questa voce: 16,8 caratteri al
+secondo, non 18.** Su 8.800 caratteri fa 47 secondi di differenza.
+
+Ma la media nasconde il dato utile. Scomposta:
+
+| | car/s |
+|---|---|
+| prosa (43 blocchi) | **17,6** |
+| blocchi fitti di numeri di legge e anni (5 blocchi) | **11,8** |
+
+«1974» sono quattro caratteri e nove sillabe. In una lezione normativa i
+blocchi delle date costano il doppio del tempo che i caratteri promettono, e
+sono anche quelli che escono in basso dalla fascia 8,5–21: per costruzione,
+non per errore.
 
 ---
 

@@ -1,6 +1,7 @@
 # prove
 
-Produzione video secondo il metodo di `MASTER.md`.
+Produzione video secondo il metodo di [`MASTER.md`](MASTER.md), che sta in
+repo con le correzioni che ogni lezione gli fa pagare.
 
 ## Struttura
 
@@ -20,6 +21,17 @@ progetti/<modulo>-<lezione>/
 | | lezione | durata | stato |
 |---|---|---|---|
 | `m1-l1.1-mansionario` | Modulo 1 · 1.1 Dal mansionario alle competenze | 8:56 | montato |
+
+## Una lezione nuova
+
+```
+./nuova-lezione.sh m1-l1.2-profilo
+```
+
+Copia da 1.1 il tema, il marchio, i caratteri e gli strumenti — cioè tutto
+quello che non cambia fra una lezione e l'altra del corso — e stampa la
+sequenza dei comandi. Restano da scrivere due soli file: `copione/costruisci.py`
+e `slide/contenuti.mjs`.
 
 ## Come si lavora
 
