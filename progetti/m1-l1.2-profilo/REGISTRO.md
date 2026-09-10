@@ -156,12 +156,22 @@ esplicita, 3 e 10 secondi.
 Una cosa da sapere per la prossima volta: il conteggio per stato di
 `get_asset_batch` resta indietro. Il lotto risultava `completed`
 nell'aggregato con 54 elementi ancora `processing`, ma gli stessi asset
-interrogati uno per uno con `get_asset` avevano gia' il loro URL. Il
-conteggio e' un modello di lettura in ritardo, non lo stato vero.
+interrogati uno per uno con `get_asset` avevano gia' il loro URL. Il render
+lanciato in quel momento e' uscito perfetto, quindi il conteggio e' un
+modello di lettura in ritardo e non lo stato vero: fa fede l'aggregato,
+oppure `get_asset` sul singolo.
+
+Il render e' durato **211 secondi**, in linea con i 179 di 1.1. Utile
+saperlo perche' e' il metro per capire se un render e' fermo davvero.
+Esiste un secondo video con lo stesso contenuto,
+`d6114bced89dec29a7c9503207d7cd19`: l'ho lanciato credendo che il primo
+fosse bloccato, mentre erano passati pochi minuti. E' un doppione da
+buttare, il buono e' quello qui sotto.
 
 ```
-video HeyGen   VIDEO_ID
-               app.heygen.com/videos/VIDEO_ID
+video HeyGen   708893cd53ab515ffca12d8cb1f0a0c0
+               app.heygen.com/videos/708893cd53ab515ffca12d8cb1f0a0c0
+durata         8:54.45 (534,45 s) contro gli 8:55.79 del taglio locale
 copia locale   montato-1.2.mp4 · 8:55.79 · 1920x1080 · 25 fps
 sottotitoli    montato-1.2.srt · 48 righe, dal copione e dalle durate reali
                (HeyGen ne produce una sua, da confrontare)

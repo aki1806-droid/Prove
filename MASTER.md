@@ -442,6 +442,22 @@ chiusura    clip muta + traccia di silenzio da {{T_CLOSING}}
 > esplicita in secondi e la rispetta. La traccia di silenzio serve solo se la
 > copertina deve essere una clip video invece di un fermo immagine.
 
+### Caricare e aspettare
+
+Il lotto di caricamento tiene **fino a 100 file**: 48 clip, 48 mp3 e le due
+immagini stanno in un lotto solo. Non serve dividerli.
+
+Il conteggio per stato del lotto **resta indietro**. Può dire `completed`
+nell'aggregato con decine di elementi ancora `processing`, mentre quegli
+stessi asset, interrogati uno per uno, hanno già il loro URL. Fa fede
+l'aggregato; nel dubbio si controlla il singolo asset, non il conteggio.
+
+Un montato di **nove minuti e cinquanta scene si renderizza in tre o quattro
+minuti** (misurati: 179 s e 211 s). Serve saperlo per non scambiare
+un'attesa normale per un blocco e lanciare un secondo render inutile —
+errore commesso, un render buttato. Prima di rilanciare, confronta il tempo
+trascorso con questo metro.
+
 ## Passo 8 — Registro
 
 Un file per video, con: identificativo e durata reale, di quanto è stato
