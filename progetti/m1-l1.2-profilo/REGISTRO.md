@@ -140,6 +140,35 @@ Il layout ha guadagnato tre cose che la 1.1 non aveva:
 
 ---
 
+## Montaggio
+
+98 asset in un solo lotto (`553b9f9cb47a404c8eea2e147d5b55e5`): 48 clip mp4,
+2 PNG per copertina e chiusura, 48 mp3. In 1.1 erano stati due lotti; il
+limite del lotto e' 100 file, quindi ci stanno tutti insieme e si risparmia
+un giro di attesa.
+
+Nessuna sorpresa rispetto a 1.1, perche' la trappola era gia' nel MASTER:
+ogni scena video porta il suo `audio_asset_id` e `playback = {mode: freeze,
+mute: true}` — muta perche' la clip ha gia' l'audio dentro e non deve
+raddoppiarsi. Copertina e chiusura sono scene `image` con `duration`
+esplicita, 3 e 10 secondi.
+
+Una cosa da sapere per la prossima volta: il conteggio per stato di
+`get_asset_batch` resta indietro. Il lotto risultava `completed`
+nell'aggregato con 54 elementi ancora `processing`, ma gli stessi asset
+interrogati uno per uno con `get_asset` avevano gia' il loro URL. Il
+conteggio e' un modello di lettura in ritardo, non lo stato vero.
+
+```
+video HeyGen   VIDEO_ID
+               app.heygen.com/videos/VIDEO_ID
+copia locale   montato-1.2.mp4 · 8:55.79 · 1920x1080 · 25 fps
+sottotitoli    montato-1.2.srt · 48 righe, dal copione e dalle durate reali
+               (HeyGen ne produce una sua, da confrontare)
+```
+
+---
+
 ## Riprese e immagini generate
 
 Nessuna. Lezione a sole slide, nessuna pausa senza voce.
