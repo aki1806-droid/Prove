@@ -148,6 +148,63 @@ in cui una ripresa porterebbe significato invece di decorare.
 
 ---
 
+## Montaggio
+
+Cinquanta scene in una sola chiamata (`create_video_from_studio`), il tetto
+esatto di HeyGen.
+
+```
+scena  1     copertina    immagine ferma, 3 s
+scene  2-49  blocchi      clip con l'audio dentro, durata = durata del parlato
+scena  50    chiusura     immagine ferma, 10 s
+```
+
+**Uno scarto dal MASTER che funziona, e uno che non funziona.**
+
+Funziona: il MASTER dice di agganciare le scene senza parlato a una traccia di
+silenzio, «altrimenti collassano». Non serve. La scena da immagine ferma prende
+una `duration` esplicita: copertina e chiusura sono `image` con 3 e 10 secondi.
+
+**Non funziona**, ed è la trappola nuova da mettere nel MASTER: avevo montato
+l'audio *dentro* la clip e passato scene video senza `audio_asset_id`, per
+dimezzare gli asset da caricare (50 invece di 98). La documentazione dice che
+una clip senza voce dichiarata «plays full-length». Non è vero: il primo
+render è uscito di **109 secondi invece di 536**, cioè circa **2,0 secondi
+esatti per scena**, con le clip troncate. Le clip caricate erano giuste
+(controllate: 220 fotogrammi, 8,80 s, 25 fps, audio dentro): a tagliare è
+HeyGen.
+
+> **Una scena video prende la durata della voce, non quella della clip.** Se
+> non le dichiari un `audio_asset_id`, la tronca a due secondi. È il motivo
+> per cui il MASTER prescrive mp3 separato e `playback: freeze`, e ha ragione:
+> l'ottimizzazione costa un giro di caricamenti e un render buttato.
+
+Rifatto secondo il metodo: 48 mp3 caricati a parte, ogni scena video con il
+suo `audio_asset_id` e `playback = {mode: freeze, mute: true}` — muta perché
+la clip ha già l'audio dentro e non deve raddoppiarsi.
+
+```
+video HeyGen   359f7451c0c5c851fa77a088cef75dc5
+copia locale   montato-1.1.mp4 · 8:56.44 · 1920x1080 · 25 fps · 18 MB
+sottotitoli    montato-1.1.srt · 48 righe, dal copione e dalle durate reali
+               (HeyGen ne produce una sua, da confrontare)
+```
+
+## Costi
+
+| voce | quanto |
+|---|---|
+| voce, traccia A (scartata) | $0,77 |
+| voce, traccia B | $0,70 |
+| voce, traccia A rifatta | $0,76 |
+| trascrizioni di verifica (6) | $0,98 |
+| **totale ElevenLabs** | **$3,21** |
+
+Il preventivo iniziale dava $3,25 per la sola prima traccia: la stima di
+ElevenLabs è circa il doppio del costo reale.
+
+---
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 1. **Come suona la voce.** Non l'ho ascoltata: l'ho verificata per trascrizione,
