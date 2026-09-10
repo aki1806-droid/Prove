@@ -208,6 +208,9 @@ const grafica = (t) => `
 
 /* Icone: tratto aperto, così si possono "disegnare" animando il tratteggio. */
 const icone = {
+  gradino: `<path class="tratto" d="M10 88 H30 V70 H50 V52 H70 V34 H94"/><path class="tratto oro" d="M30 70 H50"/><path class="tratto oro" d="M30 70 V88"/>`,
+  gonfia: `<circle class="tratto" cx="52" cy="54" r="15"/><circle class="tratto oro" cx="52" cy="54" r="33"/>`,
+  tre: `<path class="tratto oro" d="M28 28 V76"/><path class="tratto oro" d="M52 28 V76"/><path class="tratto oro" d="M76 28 V76"/>`,
   preambolo: `<circle class="tratto oro" cx="32" cy="52" r="16"/><path class="tratto" d="M48 52 H92"/>`,
   scusa: `<circle class="tratto" cx="52" cy="52" r="30"/><path class="tratto oro" d="M34 52 H70"/>`,
   indice: `<path class="tratto oro" d="M18 30 h10"/><path class="tratto" d="M40 30 H88"/><path class="tratto oro" d="M18 52 h10"/><path class="tratto" d="M40 52 H88"/><path class="tratto oro" d="M18 74 h10"/><path class="tratto" d="M40 74 H88"/>`,

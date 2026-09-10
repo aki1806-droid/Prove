@@ -1,0 +1,339 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 4 · Lezione 4.3",
+  "title": "L'ordine delle idee",
+  "sub": "Costruire un messaggio che resta"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "La stessa identica informazione,<br>in due ordini diversi,<br><span class=\"gold\">produce due conversazioni diverse.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Non due versioni<br>della stessa conversazione.<br><span class=\"gold\">Due conversazioni, e due esiti.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "L'abbiamo visto con le tre riunioni.<br><span class=\"gold\">Lì era un caso. Qui è la regola.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "E la domanda,<br>per quanto grande sia il tema,<br><span class=\"gold\">è sempre e soltanto una.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "quote",
+  "kicker": "la domanda",
+  "title": "«La conclusione va all'inizio<br>o alla fine?»"
+ },
+ {
+  "file": "c07",
+  "layout": "table",
+  "kicker": "quando serve una e quando l'altra",
+  "cols": [
+   "conclusione prima",
+   "conclusione dopo"
+  ],
+  "rows": [
+   [
+    "riunioni, mail, urgenze",
+    "racconti, persuasione"
+   ],
+   [
+    "chi ha poco tempo",
+    "chi va convinto"
+   ],
+   [
+    "chi ha molto potere",
+    "chi deve cambiare idea"
+   ]
+  ]
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "title": "Che poi sono la stessa persona.<br><span class=\"gold\">Il tempo scarseggia proprio lì<br>dove le decisioni pesano.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "Chi riceve la conclusione<br>al minuto quattro<br><span class=\"gold\">ha smesso di ascoltare al minuto due.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Sta decidendo se questa cosa<br>richiede la sua attenzione adesso.<br><span class=\"gold\">E gli serve sapere di cosa si tratta.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "kicker": "conclusione alla fine",
+  "title": "Serve quando<br><span class=\"gold\">il percorso è il contenuto.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "Quando la conclusione,<br>sentita a freddo,<br><span class=\"gold\">verrebbe respinta<br>prima di essere capita.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Succede quando contraddice<br>una convinzione.<br><span class=\"gold\">O quando chiede un cambiamento<br>che costa fatica.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Lì il percorso non è un preambolo:<br><span class=\"gold\">è quello che rende accettabile<br>il punto d'arrivo.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "kicker": "il criterio",
+  "title": "Uno solo,<br>e vale per qualunque messaggio."
+ },
+ {
+  "file": "c17",
+  "layout": "swap",
+  "kicker": "dove va la conclusione",
+  "rows": [
+   [
+    "regge da sola",
+    "prima"
+   ],
+   [
+    "ha bisogno del percorso",
+    "dopo"
+   ]
+  ]
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "E se ha bisogno del percorso,<br><span class=\"gold\">il percorso costruiscilo per quello.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Non è una questione di gusto.<br><span class=\"gold\">Non c'entra come viene meglio a te.</span>"
+ },
+ {
+  "file": "c20",
+  "layout": "memo",
+  "title": "È una questione di cosa deve succedere<br>nella testa di chi ascolta."
+ },
+ {
+  "file": "c21",
+  "layout": "cards",
+  "kicker": "tre strutture che reggono ovunque",
+  "rows": [
+   {
+    "icona": "chiave",
+    "testo": "Problema → soluzione → richiesta"
+   },
+   {
+    "icona": "fila",
+    "testo": "Prima → dopo"
+   },
+   {
+    "icona": "tre",
+    "testo": "Tre punti"
+   }
+  ]
+ },
+ {
+  "file": "c22",
+  "layout": "list",
+  "kicker": "la più solida per il lavoro",
+  "rows": [
+   "Problema",
+   "Soluzione",
+   "Richiesta"
+  ],
+  "note": "In quest'ordine e senza saltare pezzi."
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Ha però una condizione,<br><span class=\"gold\">ed è quella che fa crollare tutto<br>quando manca.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Il problema deve essere riconosciuto<br>come problema anche dall'altro.<br><span class=\"gold\">Non da te: da lui.</span>"
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Se non lo è,<br>la tua soluzione arriva<br><span class=\"gold\">come la risposta a una domanda<br>che nessuno aveva fatto.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "kicker": "prima e dopo",
+  "title": "Due fotografie,<br>e in mezzo quello che le separa.<br><span class=\"gold\">Ottima per proporre un cambiamento.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Non chiede di essere d'accordo.<br><span class=\"gold\">Chiede di guardare due immagini<br>e vedere la differenza.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "number",
+  "kicker": "i tre punti",
+  "num": "3",
+  "unit": "punti",
+  "fill": 60,
+  "title": "Non è un numero magico. È pratico: due sembra poco, quattro non si ricorda."
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "Tre è il massimo<br><span class=\"gold\">che regge senza appunti.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "Ma tre punti<br>vuol dire tre punti veri.<br><span class=\"gold\">Non un punto e due per far numero.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "kicker": "l'errore degli esperti",
+  "title": "È invisibile da dentro.<br><span class=\"gold\">Ed è per questo che dura.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "list",
+  "kicker": "l'ordine in cui si scopre una cosa",
+  "rows": [
+   "Il contesto",
+   "I dettagli",
+   "Le eccezioni",
+   "E alla fine, il punto"
+  ]
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "Raccontarla in quell'ordine<br>sembra naturalissimo:<br><span class=\"gold\">ripercorre la strada che hai fatto tu.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "swap",
+  "kicker": "due mestieri diversi",
+  "rows": [
+   [
+    "scoprire qualcosa",
+    "riceverlo"
+   ],
+   [
+    "l'ordine della scoperta",
+    "l'ordine opposto"
+   ]
+  ]
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "Chi ascolta non deve scoprirlo.<br><span class=\"gold\">Deve riceverlo.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Il segnale è preciso,<br><span class=\"gold\">e lo riconosci da come cominci.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "memo",
+  "title": "Se la prima frase parla di te,<br>sei dentro l'errore."
+ },
+ {
+  "file": "c39",
+  "layout": "quote",
+  "kicker": "una domanda pratica",
+  "title": "«Le obiezioni si anticipano<br>o si aspettano?»"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "Si anticipano quando sono ovvie,<br><span class=\"gold\">e l'altro ce le ha già in testa<br>mentre tu stai parlando.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Si aspettano quando sono ipotetiche.<br><span class=\"gold\">Anticipare un'obiezione che non aveva<br>significa regalargliela.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "E una volta regalata<br>non torna più indietro:<br><span class=\"gold\">gliel'hai messa in testa tu.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "swap",
+  "kicker": "la regola, in mezza riga",
+  "rows": [
+   [
+    "le obiezioni sui fatti",
+    "anticipale"
+   ],
+   [
+    "le obiezioni sul merito",
+    "aspettale"
+   ]
+  ]
+ },
+ {
+  "file": "c45",
+  "layout": "cards",
+  "kicker": "tre errori",
+  "rows": [
+   {
+    "icona": "ritorna",
+    "testo": "Partire dalla storia della scoperta"
+   },
+   {
+    "icona": "infondo",
+    "testo": "La conclusione in fondo, con chi ha fretta"
+   },
+   {
+    "icona": "indice",
+    "testo": "La struttura visibile in una conversazione a due"
+   }
+  ]
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "Non la sentirà.<br><span class=\"gold\">E non sarà colpa sua.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "title": "«Primo punto», detto fra due persone<br>a un tavolo,<br><span class=\"gold\">suona come una riunione.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "memo",
+  "title": "La struttura si tiene nella testa,<br>non nella voce."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "kicker": "la prova di oggi",
+  "title": "Chiediti dove metteresti la conclusione.<br><span class=\"gold\">E poi fai la scelta opposta<br>alla tua abitudine.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
