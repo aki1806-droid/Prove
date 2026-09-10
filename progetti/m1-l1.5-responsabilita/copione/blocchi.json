@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questa e' la lezione piu' densa del modulo, e una delle piu' redditizie di tutto il corso. La responsabilita' professionale c'e' nella prova scritta e torna nei casi della prova pratica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Ed e' la domanda con cui all'orale la commissione capisce se hai davvero interiorizzato quello che abbiamo detto finora. Il filo e' sempre quello: all'autonomia corrisponde la responsabilita'. Chi decide, risponde."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro blocchi. I cinque piani della responsabilita' e la loro autonomia. Dolo e colpa, con le tre forme classiche."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la legge 24 del 2017, la Gelli Bianco, che e' il cuore della lezione. E l'applicazione ai casi che ricorrono davvero: la prescrizione errata, l'attribuzione all'OSS, il lavoro in equipe."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo errore da smontare: non esiste «la» responsabilita'. Ne esistono cinque, con presupposti, giudici e sanzioni diversi. Vale la pena impararle con il giudice accanto, perche' e' quello che le distingue."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Penale: protegge la vita e l'incolumita', giudica il giudice penale, sanziona con la pena. Civile: protegge il diritto al risarcimento. Amministrativo contabile: protegge il patrimonio pubblico, e giudica la Corte dei conti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Disciplinare: verso il datore di lavoro, dal rimprovero al licenziamento. Deontologico: davanti all'Ordine, dall'avvertimento alla radiazione. Cinque piani, cinque giudici diversi."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E qui la frase da ripetere all'orale. I cinque piani sono autonomi e cumulabili."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assoluzione in sede penale non esclude automaticamente il risarcimento civile, ne' la sanzione disciplinare, ne' quella deontologica. Un solo fatto puo' aprire cinque strade parallele, non alternative."
+ },
+ {
+  "id": "s11",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo al titolo soggettivo. Nel dolo l'evento e' previsto e voluto. Nella colpa l'evento non e' voluto, ma si verifica lo stesso, e la differenza sta nel perche'."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Colpa generica: negligenza, imprudenza o imperizia. Colpa specifica: inosservanza di leggi, regolamenti, ordini o discipline. In sanita' il dolo e' raro: quasi tutto ruota attorno alla colpa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Impariamole con l'esempio, perche' e' cosi' che si riconoscono nei quiz. Negligenza e' trascuratezza: ometto cio' che dovevo fare. Non rilevo i parametri, non registro in cartella, non segnalo un peggioramento."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Imprudenza e' avventatezza: agisco quando dovevo usare cautela. Somministro un farmaco senza verificare l'identita', mobilizzo da solo una persona che richiede due operatori."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Imperizia e' preparazione tecnica insufficiente: gestisco un presidio senza conoscerne la tecnica, non riconosco un segno d'allarme che la professione impone di conoscere."
+ },
+ {
+  "id": "s16",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E qui si chiude un cerchio con la uno punto tre. L'imperizia e' il ponte fra formazione e responsabilita': il dovere di aggiornamento non e' un adempimento burocratico."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "La mancata acquisizione di conoscenze ormai consolidate nella professione puo' essere valutata come colpa. Non sapere cio' che oggi un infermiere deve sapere e', in sede di giudizio, un problema."
+ },
+ {
+  "id": "s18",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo al cuore: la legge 24 del 2017, che tutti chiamano Gelli Bianco. Regola pratica per i quiz: se in una domanda compare il 2017 accanto alle parole responsabilita' sanitaria, la risposta e' quasi sempre questa legge."
+ },
+ {
+  "id": "s19",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Articolo primo, e va saputo quasi alla lettera. La sicurezza delle cure e' parte costitutiva del diritto alla salute."
+ },
+ {
+  "id": "s20",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si realizza anche mediante l'insieme delle attivita' di prevenzione e gestione del rischio connesso all'erogazione delle prestazioni. E tutto il personale concorre, compresi i liberi professionisti."
+ },
+ {
+  "id": "s21",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' una responsabilita' della direzione: e' di ciascuno. Da qui nascono incident reporting, audit e raccomandazioni ministeriali, che vedremo nel modulo due."
+ },
+ {
+  "id": "s22",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge costruisce anche un'architettura di sistema: il Garante per il diritto alla salute, affidato al Difensore civico regionale; i Centri regionali per il rischio sanitario; l'Osservatorio nazionale delle buone pratiche."
+ },
+ {
+  "id": "s23",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E introduce obblighi di trasparenza, con la consegna della documentazione sanitaria entro termini definiti. Sono i tre nomi che conviene saper citare: Garante, Centri regionali, Osservatorio."
+ },
+ {
+  "id": "s24",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul piano penale la legge ha introdotto l'articolo 590 sexies del codice penale. Lo schema e' preciso, e va tenuto tutto insieme perche' e' li' che i quiz lavorano."
+ },
+ {
+  "id": "s25",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'evento si e' verificato per imperizia, e risultano rispettate le raccomandazioni delle linee guida accreditate ai sensi di legge, o in mancanza le buone pratiche clinico assistenziali, la punibilita' e' esclusa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sempre che quelle raccomandazioni risultino adeguate alle specificita' del caso concreto. Tre condizioni, e se ne cade una la non punibilita' non c'e'."
+ },
+ {
+  "id": "s27",
+  "capitolo": 12,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Primo limite: vale solo per l'imperizia. Negligenza e imprudenza restano fuori, e chi non rileva i parametri non e' coperto da nessuna linea guida."
+ },
+ {
+  "id": "s28",
+  "capitolo": 12,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Secondo limite: le linee guida devono essere accreditate secondo il sistema previsto dalla legge, oppure devono essere buone pratiche riconosciute."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Terzo limite: devono essere adeguate al caso concreto. Applicare la linea guida giusta al paziente sbagliato non protegge nessuno. Il distrattore tipico estende la non punibilita' a ogni forma di colpa: e' sempre errato."
+ },
+ {
+  "id": "s30",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul piano civile la riforma introduce il doppio binario, ed e' forse la domanda piu' frequente in assoluto sulla Gelli Bianco. Due soggetti, due titoli, due prescrizioni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La struttura risponde a titolo contrattuale, articoli 1218 e 1228 del codice civile, prescrizione decennale. L'esercente risponde di regola a titolo extracontrattuale, articolo 2043, prescrizione quinquennale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E l'onere della prova e' a carico del danneggiato, che deve provare fatto, danno, nesso e colpa. Dieci e cinque: memorizza i due numeri accoppiati ai due soggetti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La logica e' indirizzare il paziente ad agire verso la struttura, dove l'onere probatorio gli e' piu' favorevole, alleggerendo la posizione del singolo professionista."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul piano processuale la legge prevede inoltre, come condizione di procedibilita', il tentativo di conciliazione attraverso il ricorso per accertamento tecnico preventivo, in alternativa alla mediazione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il professionista? La struttura che ha risarcito puo' rivalersi su di lui, ma solo in caso di dolo o colpa grave, e deve farlo entro un anno dall'avvenuto pagamento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il dipendente pubblico la responsabilita' amministrativa e' giudicata dalla Corte dei conti, e l'importo e' limitato, per ciascun anno, a un multiplo della retribuzione annua lorda."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Aggiungo un dettaglio che vale una domanda: il professionista che non e' stato parte del giudizio non e' vincolato dalla sentenza pronunciata contro la struttura."
+ },
+ {
+  "id": "s38",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ultimo tassello. Le strutture devono avere copertura assicurativa, o analoghe misure, per la responsabilita' civile verso terzi e verso i prestatori d'opera, compresi i danni causati dal personale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' prevista l'azione diretta del danneggiato verso l'impresa di assicurazione. E al professionista e' richiesto di provvedere alla copertura per la colpa grave."
+ },
+ {
+  "id": "s40",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una panoramica rapida dei reati che compaiono nella pratica: omicidio colposo e lesioni colpose, omissione di atti d'ufficio, omissione di soccorso, abbandono di persone incapaci, maltrattamenti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi violenza privata e sequestro per la contenzione priva dei presupposti, falsita' in atto pubblico per le annotazioni alterate, rivelazione di segreto, esercizio abusivo, e peculato."
+ },
+ {
+  "id": "s42",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fermiamoci sulla documentazione, perche' e' il punto in cui molti candidati perdono i casi. La cartella clinica e quella infermieristica sono atti pubblici: l'annotazione falsa o alterata integra falso in atto pubblico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La correzione si fa senza cancellare, lasciando leggibile il dato precedente, con data e firma. Non e' una formalita': e' quello che rende la cartella una prova e non un racconto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 1.4,
+  "text": "[serious] E vale un principio pratico durissimo. Cio' che non e' documentato si presume non fatto. Puoi aver fatto tutto correttamente: se non e' scritto, in giudizio non esiste."
+ },
+ {
+  "id": "s45",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel lavoro in equipe agiscono due principi opposti. Il principio di affidamento: ciascuno puo' confidare nella correttezza dell'operato altrui, e non risponde dell'errore che non era riconoscibile."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma cade quando l'errore altrui e' evidente e riconoscibile con la diligenza esigibile da un professionista. Tradotto sulla prescrizione errata: non ti nascondi dietro la prescrizione se l'errore era palese."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Chiedi chiarimento, e se il dubbio resta non dai corso e documenti. Tradotto sull'attribuzione all'OSS: restano tue la culpa in eligendo, per aver scelto male l'operatore, e la culpa in vigilando."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] Ti lascio lo schema per affrontare qualunque caso, anche quando la traccia e' breve. Uno: qual era la condotta doverosa, fra profilo, procedura, linea guida e Codice. Due: che cosa e' stato fatto o omesso."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Tre: c'e' nesso causale fra condotta ed evento? Quattro: quale forma di colpa. Cinque: quali piani si attivano. Cinque passi, sempre gli stessi. Nella prossima lezione: consenso informato e DAT. A tra poco."
+ }
+]
