@@ -85,6 +85,26 @@ CARATTERI  = T_parlato × 18
 silenzi tolti, `atempo=1.12` applicato. Misurata fra 17,3 e 18,7 su quattro
 lezioni consecutive; 18 è il centro e sbaglia di pochi secondi.
 
+> **Ma dipende dalla voce e da quanti numeri ci sono.** Su una lezione
+> normativa letta da una voce italiana informativa (GianP, `eleven_v3`) la
+> misura è stata **16,8**: sotto la fascia. Scomposta, dice una cosa più utile
+> di una media:
+>
+> | | car/s |
+> |---|---|
+> | prosa | **17,6** |
+> | blocchi fitti di numeri di legge e anni | **11,8** |
+>
+> «1974» sono quattro caratteri e nove sillabe. Un blocco che elenca sette
+> date costa il doppio del tempo che i caratteri promettono. Se la lezione è
+> di quelle — norme, cifre, articoli — **conta 17 sul parlato normale e metti
+> in conto un supplemento per le slide dei numeri**, oppure accetta che il
+> montato esca più lungo del previsto.
+>
+> Con una voce nuova, la prima lezione serve anche a misurarla: si divide la
+> somma dei caratteri per il parlato totale dopo il ritmo, e da lì in avanti
+> si usa quel numero.
+
 `T_pose` sono i secondi che si regalano ai blocchi corti perché respirino
 (§1.4): in pratica **10–20 s** su un video da sei minuti.
 
@@ -124,6 +144,12 @@ scene non esiste.
 | 7:00 | ~7.000 | ~58 | 60 | **no** — blocchi da 150+ caratteri |
 | 8:00 | ~8.100 | ~67 | 69 | **no** — o si spezza in due video |
 
+La tabella è a 18 car/s. Con una voce più lenta i caratteri scendono in
+proporzione: a 16,8 un montato da 8:00 ne chiede ~7.800, non 8.100. E il
+tetto di 48 blocchi non si muove, quindi **8:00 resta l'ultimo minutaggio che
+sta in un video solo**: oltre, i blocchi vanno sopra i 190 caratteri e la
+slide non regge tre righe.
+
 ## 1.3 La pausa senza voce
 
 Facoltativa. Serve dove il discorso ha bisogno di respirare, e va **dichiarata
@@ -162,6 +188,9 @@ limite      5.000 caratteri per generazione → un copione da 6.000 sta in due,
             spezzate su uno stacco di capitolo
 velocità    1,12× applicata in post con ffmpeg (non esiste il parametro a monte)
 filtro      silenceremove start_silence=0.03 stop_silence=0.14 soglia −45 dB
+            serve un ffmpeg completo: la build che arriva con Playwright non
+            ha atempo, silenceremove, apad né l'encoder mp3. `pip install
+            imageio-ffmpeg` ne porta uno statico che li ha tutti
 copertina   {{T_COVER}} — fra il titolo e la prima parola non deve esserci attesa
 chiusura    {{T_CLOSING}}
 slide       nessuna durata propria: la prende l'audio che ci sta sopra
@@ -181,6 +210,38 @@ aggiungono altrettanti; se mancano, si ricavano dal fondo e dal testo.
 
 `{{ORO}}` è l'accento: sopratitoli, virgolette caporali, numeri, la metà della
 frase che porta il senso. **Non si usa per il corpo del testo.**
+
+**Se il committente ha un marchio, i colori si campionano dal file, non si
+stimano e non si chiedono a voce.** I due colori più frequenti fra i pixel
+opachi del logo sono la palette, con le percentuali a dire quale dei due è il
+fondo e quale l'accento. Su una lezione lo script diceva «arancio `#F39200`» e
+il marchio diceva rosso: aveva ragione il marchio.
+
+Tre cose che il marchio impone, e che si scoprono solo guardando le slide:
+
+- **l'accento del marchio può non reggere sul fondo profondo.** Rosso su verde
+  vibra e perde contrasto. Lì l'accento diventa il bianco, e la gerarchia la fa
+  il **peso** del carattere invece di un secondo colore;
+- **se l'accento è il rosso, il barrato degli errori non può essere rosso.**
+  Diventa grigio neutro, altrimenti ogni accento legge «sbagliato»;
+- **il marchio in alto a sinistra ruba la riga del sopratitolo.** Il margine
+  superiore va rifatto, su tutte le slide.
+
+**Il marchio.** In alto a sinistra su ogni scena, copertina e chiusura
+comprese. Si incorpora come data URI, come i caratteri. Due accortezze:
+
+```
+rifilare   i PNG dei loghi hanno quasi sempre trasparenza di troppo su un
+           lato: sbilancia qualunque cosa ci si metta intorno
+altezza    ~70 px su 1080. Deve restare una RIDUZIONE rispetto ai pixel del
+           file, altrimenti si sgrana: un logo da 97 px di altezza non va
+           messo a 120
+```
+
+> Sul fondo profondo il marchio a colori sparisce. Se non c'è una versione in
+> negativo, va su una **piastra bianca** con un po' di respiro: è la soluzione
+> che i manuali di identità prescrivono e non tocca il marchio. Chiedere il
+> negativo resta meglio.
 
 Nel generatore di slide questi cinque valori stanno in una riga sola, in cima:
 
@@ -250,20 +311,61 @@ tagli.py applica   scrive i blocchi + le pose
 
 Come sceglie i confini:
 
-- i candidati sono **solo le pause più lunghe**, poco più numerose dei confini
-  da collocare. Fra un blocco e l'altro la pausa è quasi sempre la più lunga lì
-  intorno; il respiro di metà frase non deve entrare nell'elenco, altrimenti il
-  confine ci si appoggia e taglia **dentro** al blocco;
-- la posizione attesa si stima sui caratteri, **nel dominio del parlato** (al
-  netto dei silenzi), e poi si corregge con un **secondo giro**: lo scarto del
-  primo, spianato su una decina di confini, è la velocità di lettura che varia
-  (l'apertura è più lenta del resto, fino a quattro secondi e mezzo di scarto).
+> **Le pause si cercano sul grezzo, non sulla traccia lavorata.** È l'errore
+> che costa di più, ed è nascosto: `silenceremove` con `stop_silence=0.14`
+> pareggia *tutte* le pause a 0,14 s. Dopo il filtro la lunghezza della pausa —
+> che è il segnale su cui si basa tutta la scelta — **non esiste più**. Il
+> filtro cancella l'informazione che serve a usarlo. Quindi: confini sul
+> grezzo, ritmo applicato dopo, blocco per blocco.
+
+Sul grezzo, due strade. La seconda funziona meglio.
+
+**Per pause** (quella storica): i candidati sono **solo le pause più lunghe**,
+poco più numerose dei confini da collocare. Fra un blocco e l'altro la pausa è
+quasi sempre la più lunga lì intorno; il respiro di metà frase non deve entrare
+nell'elenco, altrimenti il confine ci si appoggia e taglia **dentro** al blocco.
+La posizione attesa si stima sui caratteri, **nel dominio del parlato** (al
+netto dei silenzi), e poi si corregge con un **secondo giro**: lo scarto del
+primo, spianato su una decina di confini, è la velocità di lettura che varia
+(l'apertura è più lenta del resto, fino a quattro secondi e mezzo di scarto).
+L'assegnamento pausa→confine deve essere **monotono**, non greedy: due confini
+che si appoggiano alla stessa pausa producono blocchi da centesimi di secondo.
+
+**Per punteggiatura** (allineamento DTW): la voce mette le pause dove il testo
+ha la punteggiatura. Si spezza il copione a `. : ; ,` e l'audio negli spezzoni
+fra un silenzio e l'altro, e si allineano le due sequenze con una
+programmazione dinamica monotona, minimizzando lo scarto fra la durata di uno
+spezzone e i caratteri che dovrebbe contenere. Un solo spezzone può prendersi
+**più pezzi di testo**, perché non si fa pausa a ogni virgola: su una traccia,
+113 pezzi di testo per 96 spezzoni. I confini di blocco cadono sempre a fine
+frase, quindi cadono sempre su un confine dell'allineamento.
+
+Misurato sulla stessa traccia: la prima strada sbagliava **17 blocchi su 48**,
+la seconda **2 su 48**.
 
 **La verifica non è opzionale.** Da sola, la scelta automatica sbaglia: su una
 lezione ha sbagliato quarantacinque confini su quarantacinque, e le durate dei
 blocchi sembravano tutte plausibili. Si estraggono 1,6 s prima di ogni taglio,
 si concatenano separati da 2,5 s di silenzio, si trascrivono in una volta sola:
 il testo dice parola per parola dove cade il taglio.
+
+Come si legge la trascrizione, senza sbagliare a propria volta: i 2,5 s di
+silenzio fanno sì che il trascrittore renda ogni spezzone come **una frase a
+sé**, quindi c'è una frase per confine. Ma non basta confrontare la frase con
+la coda attesa: **gli spezzoni corti fanno sballare il confronto**. «974» è la
+coda giusta di «...225 del 1974» e somiglia zero a sette parole di attesa;
+«1 5» è come il trascrittore scrive «uno punto cinque». Un confronto ingenuo
+segnalava nove confini fuori posto, di cui **sette falsi allarmi**.
+
+Il confronto che regge: per ogni frase sentita si cerca, fra **tutti i
+fini-frase del blocco che precede e di quello che segue**, quello la cui coda
+le somiglia di più — sui caratteri, non sulle parole. Se vince un fine-frase
+del blocco *seguente*, il taglio è in ritardo, e si sa **di quante frasi**.
+Così i due confini davvero fuori posto vengono fuori da soli, e si spostano
+indietro di una pausa.
+
+Una **controprova mirata** sui soli confini corretti e sui loro vicini costa
+pochi centesimi e chiude il giro: non serve ritrascrivere tutta la prova.
 
 Se anche la prova resta ambigua, **controprova**: cinque secondi a cavallo di
 tre confini sospetti, trascritti da soli. Costa una manciata di crediti e non
@@ -323,9 +425,22 @@ pausa       b-roll + musica, playback loop, muta
 chiusura    clip muta + traccia di silenzio da {{T_CLOSING}}
 ```
 
-> Una scena video **muta non dura quanto la clip**: senza un audio che la
-> ancori, collassa. Le scene senza parlato vanno agganciate a una traccia di
-> silenzio della lunghezza voluta.
+> **Una scena video prende la durata della VOCE, non quella della clip.** È la
+> trappola più cara del passo 7. Se a una scena video non dichiari un audio, la
+> piattaforma la tronca a **due secondi** — anche se la clip ne dura dodici, e
+> anche se la documentazione dice che senza voce «plays full-length». Misurato:
+> un montato di 50 scene uscito **109 secondi invece di 536**.
+>
+> Non ci si salva montando l'audio dentro la clip: la scena resta troncata lo
+> stesso. Serve l'`audio_asset_id` dichiarato sulla scena, con `playback` a
+> `freeze`. Cioè: esattamente quello che questo passo prescrive. La tentazione
+> di dimezzare gli asset da caricare montando l'audio nelle clip costa un giro
+> di caricamenti e un render buttato.
+
+> Le scene **senza parlato** — copertina e chiusura — non hanno bisogno della
+> traccia di silenzio: una scena da **immagine ferma** prende una `duration`
+> esplicita in secondi e la rispetta. La traccia di silenzio serve solo se la
+> copertina deve essere una clip video invece di un fermo immagine.
 
 ## Passo 8 — Registro
 
@@ -363,6 +478,8 @@ una pausa.
 
 - [ ] `verifica.py` dice **fuori posto: 0**
 - [ ] nessun blocco fuori dalla fascia 8,5–21 caratteri al secondo
+      (**i blocchi fitti di numeri escono in basso per costruzione**: sono
+      sillabe, non caratteri. Vanno guardati, non corretti)
 - [ ] tutte le slide guardate da ferme, almeno una volta
 - [ ] le grafiche complesse (diagrammi, tabelle a tre righe) guardate **due**
       volte: le etichette si toccano più spesso di quanto sembri
@@ -424,3 +541,40 @@ DURATA    variabile · copertina 3 s · chiusura 10 s
 VOCE      Achille nuovo 1, eleven_multilingual_v2
 GENERATORE script/cards.mjs
 ```
+
+## 7.3 Corso concorso infermieri — CISL FP Padova Rovigo
+
+```
+TEMA      lezioni normative, seconda persona singolare
+          otto micro-lezioni, Modulo 1
+COLORI    campionati dal marchio: verde #00623A · rosso #D70328
+          BG #FFFFFF · FG #1C1C1C
+          tenue #FCF4F3 (velo di rosso) · profondo #004E2E
+          frasi Source Serif 4 · etichette e numeri Inter
+MARCHIO   slide/marchio/logo.png, rifilato, 70 px, in alto a sinistra
+          su fondo profondo: piastra bianca
+DURATA    8:00 minimo · copertina 3 s · chiusura 10 s · nessuna pausa
+DERIVATI  ~8.800 caratteri · 48 blocchi · 50 scene (il tetto)
+VOCE      GianP — News Info and Documentary, eleven_v3
+          misurata: 17,6 car/s sulla prosa, 11,8 sui blocchi di numeri
+GENERATORE progetti/<lezione>/slide/layout.mjs
+```
+
+Una lezione di questo corso costa, in voce e verifiche, **circa 3,20 dollari**:
+due tracce continue e sei trascrizioni (due di traccia intera, due prove dei
+tagli, due controprove mirate). Il preventivo che ElevenLabs restituisce prima
+di generare è **circa il doppio** del costo reale.
+
+Sui tipi di slide, questa è la distribuzione che è venuta fuori su 50 scene e
+che vale come punto di partenza per le altre sette:
+
+| tipo | quante | a cosa serve |
+|---|---|---|
+| frase | 9 | i passaggi di ragionamento |
+| elenco a rivelazione progressiva | 11 | tre difetti, cinque attività |
+| sostituzione con freccia | 5 | «non è X, è Y» |
+| norma (sigla grande + una riga) | 4 | DPR, DM, leggi |
+| trappola (barrato + correzione) | 4 | i distrattori dei quiz |
+| memo | 3 | i punti finali, a rivelazione |
+| timeline · fonti · copertina | 6 | |
+| tre riquadri · confronto · citazione · numero · perimetro · titolo | 8 | |
