@@ -269,6 +269,14 @@ Se anche la prova resta ambigua, **controprova**: cinque secondi a cavallo di
 tre confini sospetti, trascritti da soli. Costa una manciata di crediti e non
 lascia dubbi.
 
+E **contare i pezzi non basta**: lo scriba può saltare una coda (e allora quel
+confine resta dov'è, senza che niente lo segnali) oppure saltarne una e
+aggiungerne un'altra, e allora i conti tornano ma le finestre sono sfalsate.
+L'unico controllo che li vede è il **rapporto caratteri/secondo blocco per
+blocco**, letto dopo `applica`: fuori dalla banda 8-21 c'è quasi sempre un
+confine sbagliato, e i vicini dicono da che parte. Due blocchi adiacenti a 5 e
+a 55 caratteri al secondo sono un confine spostato, non due blocchi strani.
+
 ## Passo 4 — Renderizzare le slide
 
 Due generatori dallo stesso file di layout, così la versione ferma e quella

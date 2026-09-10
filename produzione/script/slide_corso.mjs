@@ -208,6 +208,7 @@ const grafica = (t) => `
 
 /* Icone: tratto aperto, così si possono "disegnare" animando il tratteggio. */
 const icone = {
+  annuire: `<circle class="tratto" cx="52" cy="54" r="19"/><path class="tratto oro" d="M38 27 L52 15 L66 27"/><path class="tratto oro" d="M38 81 L52 93 L66 81"/>`,
   pausaprima: `<path class="tratto oro" d="M18 26 V78"/><path class="tratto oro" d="M34 26 V78"/><path class="tratto" d="M52 52 H94"/>`,
   pausadopo: `<path class="tratto" d="M10 52 H52"/><path class="tratto oro" d="M70 26 V78"/><path class="tratto oro" d="M86 26 V78"/>`,
   pausainvece: `<path class="tratto" d="M8 52 H32"/><path class="tratto oro" d="M44 26 V78"/><path class="tratto oro" d="M60 26 V78"/><circle class="tratto sottile" cx="84" cy="52" r="11"/>`,

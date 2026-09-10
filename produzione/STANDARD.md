@@ -105,6 +105,26 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   separatore sbagliato sfasa tutto di uno e fa sembrare sbagliati trentacinque
   confini su quarantatre'. Prima di leggere gli scarti, conta i pezzi: devono
   essere tanti quanti i confini.
+  **Contare i pezzi non basta.** Nel modulo 1 lo scriba ha sbagliato due volte
+  in modo che il conteggio non vede. Nella 1.3 ha **saltato** la coda di un
+  confine: `verifica.py` riappaia per contenuto, quindi non se ne accorge e
+  `correggi` lascia quel confine dov'e' — che era quattro secondi e mezzo
+  fuori posto. Nella 1.4 ha fatto di peggio: **un pezzo in piu'** (una frase
+  interna a un blocco, chiusa da un punto) e **uno in meno**, cosi' i conti
+  tornavano — 46 pezzi, 46 confini — ma tre finestre erano sfalsate di uno.
+  L'unico controllo che li vede e' il **rapporto caratteri/secondo blocco per
+  blocco**, letto su `durate.json` dopo `applica`: fuori dalla banda 8-21 c'e'
+  quasi sempre un confine sbagliato, e i vicini dicono da che parte. Due
+  blocchi adiacenti a 5 e a 55 caratteri al secondo sono un confine spostato,
+  non due blocchi strani. Trovato il punto giusto sui caratteri, si cerca il
+  silenzio piu' vicino e si conferma con una **controprova** di tre secondi
+  (meno di venti crediti): la finestra deve leggere esattamente la coda del
+  blocco, e niente altro.
+  Attenzione, li' dove la voce non fa pausa fra due blocchi — succede quando
+  il secondo blocco non comincia con una frase nuova, come il memo spezzato in
+  due della 1.5 — non c'e' nessun silenzio da trovare: si sceglie il punto sui
+  caratteri e si accetta il taglio secco, tanto la posa che segue rimette il
+  respiro.
 - **Un blocco da una parola vuole una posa.** «Perche'.» dura 1,3 s e «E poi.»
   ne dura 0,8: il tempo di dire la parola, non quello di leggere la slide. Si
   allungano con `apad` a circa quattro secondi passando `{"s18": 4.0}` ad
