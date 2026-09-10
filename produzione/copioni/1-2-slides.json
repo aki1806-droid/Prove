@@ -1,0 +1,338 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 1 · Lezione 1.2",
+"title": "Il significato lo decide chi ascolta",
+"sub": "Le basi: cosa succede davvero quando parliamo"
+},
+{
+"file": "c02",
+"layout": "quote",
+"kicker": "tu intendi",
+"title": "«Ne parliamo domani.»<br><span class=\"gold\">Oggi non ho tempo,<br>ma la cosa mi interessa.</span>"
+},
+{
+"file": "c03",
+"layout": "quote",
+"kicker": "lui capisce",
+"title": "«Ne parliamo domani.»<br><span class=\"gold\">Mi sta rimandando,<br>non gliene importa niente.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Nessuno dei due<br>ha sbagliato le parole.<br><span class=\"gold\">E da domani lavorano<br>in due film diversi.</span>"
+},
+{
+"file": "c06",
+"layout": "memo",
+"title": "Il significato<br>si forma dall'altra parte."
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "Va accettata prima di capirla.<br><span class=\"gold\">Tutto il resto ci sta sopra.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "il punto più scomodo del corso",
+"title": "E conviene dirlo subito,<br>invece di girarci intorno."
+},
+{
+"file": "c09",
+"layout": "memo",
+"title": "Tu non decidi cosa significa<br>quello che dici."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "con che materiale lo ricostruisce",
+"plain": true,
+"rows": [
+"La sua giornata",
+"La sua storia con te",
+"Quello che si era preparato a sentire"
+]
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Non è colpa tua<br>e non è colpa sua.<br><span class=\"gold\">È come funziona il meccanismo.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Finché pensi che il messaggio<br>sia quello che hai detto,<br><span class=\"gold\">continuerai a stupirti</span>."
+},
+{
+"file": "c13",
+"layout": "number",
+"num": "4",
+"unit": " filtri",
+"fill": 100,
+"title": "che ogni tua frase attraversa prima di diventare un significato. Nessuno dipende da te."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "i quattro filtri",
+"active": 0,
+"rows": [
+"Stato d'animo",
+"Storia con te",
+"Aspettativa",
+"Contesto"
+]
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "i quattro filtri",
+"active": 1,
+"rows": [
+"Stato d'animo",
+"Storia con te",
+"Aspettativa",
+"Contesto"
+]
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "i quattro filtri",
+"active": 2,
+"rows": [
+"Stato d'animo",
+"Storia con te",
+"Aspettativa",
+"Contesto"
+]
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Sono la stanza<br>in cui la tua frase entra.<br><span class=\"gold\">E la stanza c'era prima di te.</span>"
+},
+{
+"file": "c19",
+"layout": "quote",
+"kicker": "alla fine di una giornata di corso",
+"title": "«Se vuole ci risentiamo<br>la settimana prossima.»"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "cosa intendevo",
+"title": "Sono disponibile.<br>Mi ha fatto piacere.<br><span class=\"gold\">Nient'altro.</span>"
+},
+{
+"file": "c22",
+"layout": "quote",
+"kicker": "cosa aveva sentito",
+"title": "«Dobbiamo rivedere delle cose<br>che non hanno funzionato.»"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Non avevo cambiato una parola.<br><span class=\"gold\">Era cambiato chi ascoltava.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "e adesso la parte utile",
+"title": "Fin qui sembra<br>una brutta notizia.<br><span class=\"gold\">Non lo è per niente.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "I filtri non li controlli.<br>Puoi però verificare<br><span class=\"gold\">cosa è arrivato</span>."
+},
+{
+"file": "c26",
+"layout": "quote",
+"kicker": "la domanda che sbagliano tutti",
+"title": "«È chiaro?»"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "perché rispondono sempre di sì",
+"plain": true,
+"rows": [
+"Per educazione",
+"Per fretta",
+"Perché credono davvero di aver capito"
+]
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Quel sì non contiene<br>nessuna informazione.<br><span class=\"gold\">È un rumore cortese.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "e c'è una ragione più antipatica",
+"title": "«È chiaro?» chiede all'altro<br>di ammettere che non ha capito.<br><span class=\"gold\">Cioè di fare una figura.</span>"
+},
+{
+"file": "c30",
+"layout": "swap",
+"kicker": "la domanda che funziona",
+"rows": [
+[
+"«È chiaro?»",
+"«Come l'hai capita?»"
+]
+]
+},
+{
+"file": "c31",
+"layout": "quote",
+"kicker": "o, ancora meglio",
+"title": "«Ripetimi cosa facciamo,<br>così controllo<br>di essermi spiegato.»"
+},
+{
+"file": "c32",
+"layout": "table",
+"pari": true,
+"kicker": "la stessa verifica, due posizioni",
+"cols": [
+"«È chiaro?»",
+"«Come l'hai capita?»"
+],
+"rows": [
+[
+"l'errore è suo",
+"l'errore è tuo"
+],
+[
+"è un esame",
+"è un controllo"
+],
+[
+"risponde di sì",
+"risponde davvero"
+]
+]
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Non verifichi<br>se lui è stato attento.<br><span class=\"gold\">Verifichi se tu sei stato chiaro.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "È la stessa identica verifica.<br><span class=\"gold\">Ma nessuno si sente sotto esame.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "l'effetto che nessuno si aspetta",
+"title": "Mentre lui risponde,<br>ti accorgi tu<br>di <span class=\"gold\">cosa avevi detto male</span>."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "una precisazione",
+"title": "Questa domanda<br>si può rovinare in un secondo."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Va detta come si chiede<br>un favore.<br><span class=\"gold\">Non come si chiede una prova.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "quando si usa",
+"plain": true,
+"rows": [
+"Dopo una consegna",
+"Dopo una decisione",
+"Dopo una richiesta che costa a qualcuno"
+]
+},
+{
+"file": "c39",
+"layout": "cards",
+"kicker": "due errori, per chiudere",
+"rows": [
+{
+"icona": "spunta",
+"testo": "Dare per scontato che sia chiaro"
+},
+{
+"icona": "ritorna",
+"testo": "«Te l'avevo detto»"
+}
+]
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Se non hai verificato, non sai.<br><span class=\"gold\">E sentirsi chiari non è esserlo.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "«te l'avevo detto»",
+"title": "È vero.<br>Ed è esattamente per questo<br>che <span class=\"gold\">non serve a niente</span>."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Chiude la conversazione<br>invece di recuperarla.<br><span class=\"gold\">E gli fa perdere la faccia.</span>"
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "È una frase che parla del passato.<br><span class=\"gold\">E nel passato non c'è più niente<br>da sistemare.</span>"
+},
+{
+"file": "c44",
+"layout": "swap",
+"kicker": "la frase che riapre",
+"rows": [
+[
+"«Te l'avevo detto»",
+"«Forse mi sono spiegato male io»"
+]
+]
+},
+{
+"file": "c45",
+"layout": "memo",
+"title": "Il messaggio non è ciò che dici.<br>È ciò che l'altro ricostruisce."
+},
+{
+"file": "c46",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Dopo una richiesta che conta,<br><span class=\"gold\">non chiedere se è chiaro</span>."
+},
+{
+"file": "c47",
+"layout": "quote",
+"title": "«Come l'hai capita?»"
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "E poi ascolta fino in fondo,<br>senza correggerla a metà.<br><span class=\"gold\">Quella è la parte difficile.</span>"
+},
+{
+"file": "c49",
+"layout": "statement",
+"title": "Ci vediamo<br>nella prossima lezione."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Dire, ascoltare, convincere",
+"site": "laparolagiusta.it"
+}
+]
