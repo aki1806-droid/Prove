@@ -1,0 +1,47 @@
+[warm] Ultima lezione di contenuto del modulo. Tiene insieme due famiglie di temi che nei bandi compaiono accostate: la riservatezza, cioe' il dovere di tacere, e la tutela della persona assistita.
+
+Sono materia da quiz secchi e, insieme, da casi pratici: la contenzione e la fotografia inviata in chat sono ormai due classici delle prove piu' recenti, e li affrontiamo tutti e due.
+
+Quattro blocchi. I due segreti, professionale e d'ufficio. Il GDPR applicato ai dati sulla salute. L'accesso alla documentazione: chi puo' e chi non puo'. E la tutela della persona.
+
+Due articoli, e la differenza piu' chiesta e' nella procedibilita'. L'articolo 622 punisce la rivelazione senza giusta causa di un segreto appreso in ragione dello stato, ufficio, professione o arte.
+
+E' il segreto professionale, procedibile a querela della persona offesa. L'articolo 326 punisce il pubblico ufficiale o l'incaricato di pubblico servizio che rivela notizie d'ufficio che devono restare segrete.
+
+E' il segreto d'ufficio, e questo e' procedibile d'ufficio: non serve che nessuno sporga querela perche' il procedimento parta.
+
+E qui il punto che sorprende molti. L'infermiere dipendente pubblico puo' rispondere di entrambi: e' un professionista, quindi 622, ed e' incaricato di pubblico servizio o pubblico ufficiale, quindi 326.
+
+E il 326 e' procedibile d'ufficio: non serve la querela. A questi si aggiungono la responsabilita' disciplinare verso l'azienda e quella deontologica davanti all'Ordine: quattro fronti per un solo fatto.
+
+Che cosa significa «senza giusta causa»? Che esistono ipotesi in cui l'ordinamento impone o consente la comunicazione: referto e denuncia, le comunicazioni obbligatorie per malattie infettive o infortuni.
+
+La testimonianza nei casi previsti, la tutela di un interesse prevalente. Fuori da queste ipotesi il silenzio e' la regola, anche verso i familiari, che non hanno un diritto automatico a essere informati.
+
+Passiamo alla protezione dei dati. La disciplina e' data dal GDPR, direttamente applicabile in tutta l'Unione, e dal Codice privacy del 2003 come modificato dal decreto 101 del 2018.
+
+I dati relativi alla salute rientrano nelle categorie particolari di dati dell'articolo 9, quelle per cui vige un divieto generale di trattamento, con eccezioni tassative ed elencate.
+
+Domanda ricorrente: serve il consenso privacy per curare? No. Per le finalita' di cura la base giuridica e' l'articolo 9, paragrafo 2, lettera acca del GDPR, e non il consenso.
+
+Il trattamento e' consentito quando e' effettuato da o sotto la responsabilita' di un professionista soggetto al segreto professionale. Non serve il consenso dell'interessato.
+
+Attenzione a non confondere: il consenso al trattamento sanitario, quello della lezione precedente, e il consenso privacy sono due cose diverse. Per la cura la base e' la lettera acca.
+
+Sette principi. Liceita', correttezza, trasparenza. Limitazione della finalita': il dato raccolto per la cura non si usa per altro. Minimizzazione: si trattano solo i dati necessari.
+
+Esattezza. Limitazione della conservazione. Integrita' e riservatezza. E responsabilizzazione, l'accountability: il titolare non deve solo essere conforme, deve poterlo dimostrare.
+
+Questo e' il caso d'esame piu' frequente degli ultimi anni. Consultare la cartella o il fascicolo di un paziente non in cura presso di se': un familiare, un conoscente, un collega, un personaggio noto.
+
+[serious] E' un trattamento illecito. Anche se non si divulga nulla, e anche se si guarda una riga sola.
+
+Viola la minimizzazione e le istruzioni ricevute, ed e' tracciato dai log di accesso. Comporta responsabilita' disciplinare, deontologica e, secondo i casi, penale. La curiosita', in sanita' digitale, lascia impronte.
+
+Chi e' chi. Il titolare e' l'azienda sanitaria, che determina finalita' e mezzi del trattamento. Il responsabile tratta per conto del titolare: per esempio un fornitore informatico.
+
+Il DPO e' obbligatorio negli enti pubblici. Gli operatori, fra cui l'infermiere, sono soggetti autorizzati che trattano sotto l'autorita' del titolare, secondo istruzioni.
+
+Chi puo' avere la documentazione. L'interessato, che ha diritto di accedere ai propri dati e ottenerne copia: la legge 24 del 2017 impone alle strutture di fornirla entro termini definiti.
+
+I familiari solo se delegati, o se esercitano responsabilita' genitoriale o tutela. Dopo il decesso, chi ha un interesse proprio o ragioni familiari meritevoli di protezione.
