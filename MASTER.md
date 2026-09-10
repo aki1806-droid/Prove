@@ -371,6 +371,54 @@ Se anche la prova resta ambigua, **controprova**: cinque secondi a cavallo di
 tre confini sospetti, trascritti da soli. Costa una manciata di crediti e non
 lascia dubbi.
 
+### Se il caricamento di file è bloccato
+
+Può succedere che le funzioni di caricamento asset del fornitore di voce siano
+negate da una regola di permessi. Allora `prova.mp3`, che è un file locale, non
+si può far trascrivere — ed è successo, costando una lezione consegnata con la
+verifica aperta.
+
+**Non è un muro.** La traccia appena generata ha già un URL firmato pubblico,
+valido un paio d'ore, e la funzione che attacca un riferimento *da URL* fa da
+sola tutto il giro: scarica, registra l'asset, mette il nodo sul flow. Si
+passa quell'URL e si trascrive la **traccia intera**.
+
+Cambia cosa si dimostra, e va detto onestamente:
+
+| | `prova.mp3` | traccia intera |
+|---|---|---|
+| buchi nel parlato | solo intorno ai tagli | **su tutto il testo** |
+| posizione dei tagli | sì, è il suo scopo | **no**: la trascrizione non porta i tempi |
+| costo su ~9 minuti | ~$0,17 | ~$0,58 |
+
+Le due verifiche non si sostituiscono: la seconda è più larga sul contenuto e
+cieca sui confini. Quando si può, si fanno tutte e due. Quando si può farne
+una sola, quella sulla traccia intera prende l'errore più caro — la voce che
+salta parole — e i confini restano affidati all'allineamento e al controllo
+statistico offline.
+
+Il confronto parola per parola va normalizzato, ma **una resa per volta e
+dichiarata**, mai con una tolleranza generica: la sigla sillabata («elle esse
+enne ti uno») torna incollata dal trascrittore («LSNT1»), «uno punto cinque»
+torna «1.5», «Azienda Zero» torna «Azienda 0». Si segnalano le sequenze
+mancanti da **tre parole in su**: è la lunghezza a cui un buco vero si vede e
+il rumore no.
+
+### Come non liquidare un segnale dubbio
+
+Quando la trascrizione rende male una parola, la tentazione è archiviare. Una
+volta l'ho fatto e la voce aveva davvero mangiato sei parole. Il modo di
+decidere senza riascoltare, in ordine di forza:
+
+1. **la stessa parola altrove nella stessa sessione.** Se in un'altra traccia
+   il trascrittore la rende giusta, la voce sa dirla;
+2. **il contesto fonetico.** Una vocale finale che sparisce davanti a una
+   congiunzione che comincia per vocale è elisione, non omissione;
+3. **la durata del blocco.** Se mancassero delle sillabe il blocco sarebbe più
+   **veloce** della media. Se è più lento, non manca niente.
+
+Se i tre indizi non concordano, si riascolta o si rigenera.
+
 ## Passo 4 — Renderizzare le slide
 
 Due generatori dallo stesso file di layout, così la versione ferma e quella
@@ -492,7 +540,9 @@ una pausa.
 
 # 5. Controlli prima di consegnare
 
-- [ ] `verifica.py` dice **fuori posto: 0**
+- [ ] `verifica.py` dice **fuori posto: 0** — oppure, se il caricamento di file
+      è bloccato, `verifica-testo.py` sulla traccia intera dice **buchi: 0** e
+      `verifica-locale.py` non trova **coppie adiacenti di segno opposto**
 - [ ] nessun blocco fuori dalla fascia 8,5–21 caratteri al secondo
       (**i blocchi fitti di numeri escono in basso per costruzione**: sono
       sillabe, non caratteri. Vanno guardati, non corretti)

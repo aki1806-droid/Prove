@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nelle prime due lezioni abbiamo visto che cosa l'infermiere e', e che cosa fa. Oggi vediamo come lo si diventa e, soprattutto, come lo si resta: il titolo, l'albo, l'aggiornamento obbligatorio, la carriera."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ti avviso subito: questa e' materia da domande facili. E le domande facili, in un concorso dove passa chi sbaglia meno, sono esattamente quelle che non ci si puo' permettere di regalare."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro blocchi. Il percorso formativo, dalla laurea al dottorato. L'Ordine: che cos'e', che cosa fa, come sanziona. L'ECM, con la differenza fra esonero ed esenzione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E lo sviluppo di carriera, che e' il punto piu' insidioso, perche' tre piani diversi si accavallano e i quiz ci giocano sopra apposta. Alla fine avrai un test per non confonderli mai piu'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La formazione infermieristica e' entrata all'universita' con l'articolo 6, comma 3, del decreto legislativo 502 del 1992: lo stesso articolo da cui nascera' il profilo del 1994."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi il titolo di accesso e' la laurea in Infermieristica, classe elle esse enne ti uno. Tre anni, centottanta crediti formativi, accesso programmato a livello nazionale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Di quei centottanta crediti circa sessanta sono di tirocinio: un terzo del corso si fa in reparto. Ed e' il tirocinio che rende concreti gli ordinamenti didattici, la seconda fonte del campo di attivita'."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Punto importante, e recente. Con la legge 163 del 2021 l'esame finale del corso di laurea ha valore di esame di Stato abilitante: non esiste piu' un esame separato da sostenere dopo la laurea."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Ma attenzione alla distinzione che vale la domanda: abilitazione non e' esercizio. Il titolo ti abilita. Per esercitare serve anche l'iscrizione all'albo. Sono due passaggi, e i quiz li sovrappongono."
+ },
+ {
+  "id": "s11",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sopra la laurea si sviluppa un percorso a scala, e conviene vederlo tutto insieme perche' e' li' che si annidano i distrattori."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il master di primo livello, almeno sessanta crediti, e' la specializzazione clinica: le cinque aree del profilo che abbiamo elencato la volta scorsa, oppure il coordinamento."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La laurea magistrale, classe elle emme esse enne ti uno, centoventi crediti, forma alla direzione, alla docenza e alla ricerca. Sopra ancora, il master di secondo livello, che la magistrale la richiede. In cima, il dottorato."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Ecco il distrattore, ed e' il piu' frequente della lezione. La laurea magistrale non e' una specializzazione clinica: se un quiz te la presenta come master specialistico in area critica, e' sbagliata."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "La clinica specialistica passa dai master di primo livello. Due percorsi diversi, non due nomi della stessa cosa."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ricorda che nel concorso questi titoli contano due volte: come requisito, dove basta la laurea, e come punteggio. Nel pregresso Azienda Zero i titoli valgono fino a trenta punti, di cui al massimo sette per il curriculum."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo all'Ordine. Con la legge 3 del 2018, la legge Lorenzin, i Collegi IPASVI sono diventati Ordini delle Professioni Infermieristiche, gli OPI, provinciali o interprovinciali, federati nella FNOPI."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "La definizione da ricordare e' questa: sono enti pubblici non economici, che operano come organi sussidiari dello Stato per tutelare gli interessi pubblici connessi all'esercizio della professione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non sono associazioni private e non sono sindacati. Sembra una distinzione di scuola, e invece e' la frase che i quiz smontano un pezzo per volta, cambiando una parola sola."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fa, in concreto. Tiene l'albo e verifica i requisiti di iscrizione. Vigila sulla condotta degli iscritti ed esercita il potere disciplinare, che vediamo fra un momento."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Adotta il codice deontologico, che sara' tutta la prossima lezione. Tutela l'affidamento del pubblico, contrasta l'esercizio abusivo, verifica l'obbligo ECM e rappresenta la professione presso le istituzioni."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sanzioni dell'Ordine sono quattro, e vanno sapute in ordine crescente. Avvertimento: il richiamo scritto a non ripetere la mancanza. Censura: la dichiarazione formale di biasimo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sospensione dall'esercizio della professione, da un mese a un anno. E radiazione: la cancellazione dall'albo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Nota bene che il licenziamento non c'e'. Quello e' del datore di lavoro, non dell'Ordine, ed e' il distrattore che compare quasi sempre in questa domanda. Quattro sanzioni, e il licenziamento non e' fra queste."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E qui una cosa che sorprende molti. Il procedimento disciplinare dell'Ordine e' del tutto autonomo rispetto a quello del datore di lavoro. Non si escludono, non si aspettano, non si annullano a vicenda."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Per lo stesso fatto un infermiere dipendente puo' essere sanzionato dall'azienda, in base al contratto collettivo, e dall'Ordine, in base al codice deontologico. Due piani distinti e cumulabili, non alternativi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'iscrizione all'albo e' obbligatoria per l'esercizio, anche per i dipendenti pubblici: lo dice la legge 43 del 2006, e lo ribadisce ogni bando, che la chiede come requisito specifico di ammissione."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul fronte opposto c'e' l'esercizio abusivo della professione, l'articolo 348 del codice penale, la cui pena e' stata sensibilmente inasprita proprio nel 2018."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E attenzione, perche' qui si sbaglia: risponde penalmente non solo chi esercita senza titolo, ma anche, a titolo di concorso, chi agevola l'abuso: per esempio lasciando svolgere atti infermieristici a chi non ha il titolo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo all'ECM, l'Educazione Continua in Medicina. Nasce con il decreto legislativo 502 del 1992 come modificato dal 229 del 1999, ed e' governata dalla Commissione Nazionale per la Formazione Continua, presso l'Agenas."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "Prima regola, ed e' quella che i quiz chiedono piu' spesso: e' un obbligo individuale. Risponde il professionista, non l'azienda. Non basta dire che il corso non me l'hanno offerto: il debito resta tuo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il numero da sapere e' centocinquanta crediti nel triennio, indicativamente cinquanta all'anno. Il triennio e' l'unita' di misura vera: l'anno serve solo a distribuire lo sforzo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A questo si aggiunge il dossier formativo, che e' uno strumento di programmazione, individuale o di gruppo, e che se viene costruito e poi rispettato puo' dare diritto a un bonus di crediti."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco la distinzione che vale la domanda, perche' esonero ed esenzione non sono affatto sinonimi, anche se nel parlato di reparto si usano come se lo fossero."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esonero riguarda chi sta studiando: un corso di laurea, un master, un dottorato, una scuola di specializzazione. L'esenzione riguarda chi non sta lavorando: congedo di maternita', malattia, aspettativa."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il trucco per non sbagliare mai. Esonero perche' studio. Esente perche' assente."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vediamo perche' l'ECM conta davvero, al di la' del bollino. Il mancato assolvimento non e' un dettaglio formale: rileva sul piano disciplinare davanti all'Ordine, e incide sulla valutazione dell'idoneita' professionale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 24 del 2017, la Gelli Bianco, collega il possesso dei requisiti formativi alla posizione del professionista, e quindi anche al suo profilo assicurativo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "C'e' poi un profilo piu' insidioso. Nel giudizio di responsabilita', non conoscere cio' che e' ormai patrimonio consolidato della professione puo' essere letto come colpa per imperizia. Ci torniamo nella uno punto cinque."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ultimo blocco, ed e' quello in cui i quiz mescolano volutamente le carte, perche' tre cose diverse portano nomi che si somigliano. Teniamole su tre colonne separate."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I livelli della legge 43 del 2006, cioe' professionista, coordinatore, specialista e dirigente, dipendono dal titolo posseduto. Sono una scala di qualificazione, e la determina il percorso di studi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le competenze avanzate ampliano l'agire clinico sulla base di formazione certificata. Gli incarichi di funzione, organizzativa o professionale, sono invece del contratto collettivo, e li conferisce l'azienda."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.4,
+  "text": "[serious] E la frase da portarsi all'esame e' questa. Il titolo abilita. L'azienda attribuisce."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si puo' avere il master di coordinamento senza avere un incarico di coordinamento, perche' l'incarico dipende dal fabbisogno organizzativo dell'azienda e dal contratto, non dal tuo curriculum."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E in Veneto gli incarichi di funzione sono conferiti da ciascuna azienda sulla base del proprio regolamento e della graduazione prevista dall'atto aziendale. Cambia l'azienda, cambia la mappa degli incarichi."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] Ricapitoliamo i sei punti. Titolo: laurea classe elle esse enne ti uno, centottanta crediti, ed e' abilitante. Per esercitare serve anche l'iscrizione all'albo, obbligatoria dal 2006 anche nel pubblico impiego."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "OPI e FNOPI dalla legge 3 del 2018: enti pubblici non economici, organi sussidiari dello Stato. Sanzioni, quattro in ordine crescente: avvertimento, censura, sospensione, radiazione."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "ECM: obbligo individuale, centocinquanta crediti nel triennio, esonero se studi, esenzione se sei assente. E infine, il sesto: livello e incarico sono cose diverse."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione entriamo nel codice deontologico del 2019, che e' la terza fonte del campo di attivita' e, secondo me, la piu' bella da studiare. A tra poco."
+ }
+]

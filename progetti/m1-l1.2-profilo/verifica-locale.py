@@ -16,11 +16,14 @@ reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
 testi = {x["id"]: x["text"] for x in
          json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
 
-# le cifre costano molte piu' sillabe dei caratteri: si contano a parte
+# Le cifre costano molte piu' sillabe dei caratteri, e vanno contate a parte.
+# Il peso e' stato adattato sui 48 blocchi misurati di 1.3, dove il 5,0 stimato
+# a occhio in 1.2 faceva uscire corti tutti i blocchi pieni di numeri: da solo
+# non spiega tutto lo scarto, ma toglie un falso allarme sistematico.
 def peso(t):
     t = re.sub(r"\[[a-z]+\]", "", t)
     cifre = len(re.findall(r"\d", t))
-    return len(t) + cifre * 5.0        # una cifra vale ~6 caratteri di tempo
+    return len(t) + cifre * 4.0        # una cifra vale ~5 caratteri di tempo
 
 for L in ("A","B"):
     g = [r for r in reg if r["traccia"] == L]

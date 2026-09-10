@@ -95,6 +95,8 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 
 /* tre riquadri */
 .tre{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}
+/* Con due riquadri la griglia da tre lascerebbe un terzo di slide vuoto a destra. */
+.tre.n2{grid-template-columns:repeat(2,1fr);gap:44px}
 .tre.n4{grid-template-columns:repeat(4,1fr);gap:28px}
 .tre.n5{grid-template-columns:repeat(5,1fr);gap:22px}
 .tre.n4 .box,.tre.n5 .box{padding:44px 28px;min-height:250px}
@@ -137,6 +139,8 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .trap .r.on{opacity:1}
 .trap .sb{font-size:44px;line-height:1.26;color:var(--fg);opacity:.62;
           text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#B6B6B6}
+/* Il gap deve separare la freccia dal testo, non le parole accentate fra loro:
+   percio' il testo sta in un solo figlio del flex. */
 .trap .ok{font-size:40px;line-height:1.3;font-weight:600;color:var(--tit);display:flex;gap:20px}
 .trap .ok:before{content:'→';color:var(--acc);font-weight:400}
 
@@ -258,7 +262,7 @@ const CORPI = {
             d.marcatori ? d.marcatori[i] : (d.vietato?'×':(d.numerato?(d.da??1)+i:'—'))}</span>
          <span>${acc(v.t)}${v.d?`<em>${acc(v.d)}</em>`:''}</span></li>`).join('')}</${d.numerato?'ol':'ul'}>`,
 
-  tre: d => `<div class="tre ${d.box.length>3?'n'+d.box.length:''} ${d.cifre?'cifre':''}">${d.box.map((b,i)=>
+  tre: d => `<div class="tre ${d.box.length!==3?'n'+d.box.length:''} ${d.cifre?'cifre':''}">${d.box.map((b,i)=>
       `<div class="box ${(d.attive??d.box.map((_,k)=>k)).includes(i)?'on':''} ${b.key?'key':''}">
          <span class="n">${b.n??''}</span><span class="t">${acc(b.t)}</span>
          ${b.d?`<span class="d">${acc(b.d)}</span>`:''}</div>`).join('')}</div>`,
@@ -275,7 +279,8 @@ const CORPI = {
 
   trappola: d => `<div class="trap">${d.righe.map((r,i)=>
       `<div class="r ${(d.attive??d.righe.map((_,k)=>k)).includes(i)?'on':''}">
-         <div class="sb">${acc(r.sb)}</div><div class="ok">${acc(r.ok)}</div></div>`).join('')}</div>`,
+         <div class="sb">${acc(r.sb)}</div>
+         <div class="ok"><span>${acc(r.ok)}</span></div></div>`).join('')}</div>`,
 
   timeline: d => `<div class="tl">${d.tappe.map((t,i)=>
       `<div class="t ${(d.attive??d.tappe.map((_,k)=>k)).includes(i)?'on':''} ${t.key?'key':''}">

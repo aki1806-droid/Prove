@@ -16,7 +16,18 @@ esiti = []
 f = QUI/"audio"/"esiti-verifica.json"
 corr = QUI/"audio"/"correzioni.json"
 ctrl = sorted((QUI/"audio"/"trascrizioni").glob("controprova*.txt")) if (QUI/"audio"/"trascrizioni").exists() else []
-if not f.exists():
+txt = QUI/"audio"/"esiti-testo.json"
+if not f.exists() and txt.exists():
+    # Strada alternativa: la trascrizione dell'intera traccia grezza. Prova che
+    # la voce ha detto tutto - l'errore che in 1.1 e' costato una rigenerazione -
+    # ma non dove cadono i tagli, perche' la trascrizione non porta i tempi.
+    # Per quelli restano l'allineamento DTW e verifica-locale.py.
+    e = json.loads(txt.read_text(encoding="utf-8"))
+    buchi = sum(len(v["buchi"]) for v in e.values())
+    perc = min(100*v["coincidenti"]/v["parole_copione"] for v in e.values())
+    esiti.append((not buchi, f"verifica per trascrizione (traccia intera): {perc:.1f}% "
+                             f"delle parole coincide, buchi nel parlato: {buchi}"))
+elif not f.exists():
     esiti.append((False, "verifica per trascrizione: NON ESEGUITA — manca prova.txt"))
 else:
     fuori = [e for e in json.loads(f.read_text(encoding="utf-8")) if not e["ok"]]
