@@ -45,6 +45,10 @@ b.a{font-weight:600}
 .logo{position:absolute;top:42px;left:116px;padding:10px 16px;border-radius:13px;
       background:transparent;line-height:0}
 .slide.scuro .logo{background:${BIANCO}}   /* sul verde pieno il marchio va su piastra bianca */
+/* Sul verde pieno il titolo e' gia' bianco: se lo fosse anche l'accento, sparirebbe.
+   Il titolo si smorza di poco e l'accento resta bianco pieno, piu' pesante. */
+.slide.scuro h1,.slide.scuro h2{color:#D3E5DB}
+.slide.scuro h1 .a,.slide.scuro h2 .a{color:${BIANCO};font-weight:700}
 .logo img{display:block;height:70px;width:auto}
 .pagina{position:absolute;top:70px;right:132px;font-size:21px;font-weight:500;letter-spacing:.08em;
         color:var(--sop);opacity:.75;font-variant-numeric:tabular-nums}
@@ -83,12 +87,25 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .el li.on{opacity:1}
 .el li .n{flex:0 0 78px;font-size:34px;font-weight:700;color:var(--acc);letter-spacing:.02em;
           font-variant-numeric:lining-nums tabular-nums;padding-top:.28em}
+.el li .n.gr{font-size:46px;padding-top:.12em}
+.el li .n.no{color:#B6B6B6}
 .el li .n.pt{color:var(--sop)}
 .el li b{font-weight:600;color:var(--tit)}
 .el li em{display:block;font-style:normal;font-size:33px;line-height:1.45;opacity:.72;margin-top:12px}
 
 /* tre riquadri */
 .tre{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}
+.tre.n4{grid-template-columns:repeat(4,1fr);gap:28px}
+.tre.n5{grid-template-columns:repeat(5,1fr);gap:22px}
+.tre.n4 .box,.tre.n5 .box{padding:44px 28px;min-height:250px}
+.tre.n4 .box .t{font-size:40px}
+.tre.n5 .box .t{font-size:34px}
+.tre.n5 .box{padding:40px 22px}
+.tre .box.key{border-color:var(--acc);border-width:4px}
+.tre .box.key .t{color:var(--acc)}
+.tre.cifre .box .t{font-size:104px;font-weight:700;letter-spacing:-.03em;color:var(--acc);
+                   font-variant-numeric:lining-nums tabular-nums;line-height:1}
+.tre.cifre .box{min-height:250px;gap:14px}
 .tre .box{border:3px solid var(--linea);border-radius:22px;padding:52px 40px;min-height:290px;
           display:flex;flex-direction:column;justify-content:center;gap:20px;opacity:.26}
 .tre .box.on{opacity:1;border-color:var(--tit)}
@@ -237,16 +254,18 @@ const CORPI = {
 
   elenco: d => `<${d.numerato?'ol':'ul'} class="el">${d.voci.map((v,i)=>
       `<li class="${(d.attive??d.voci.map((_,k)=>k)).includes(i)?'on':''}">
-         <span class="n ${d.numerato?'':'pt'}">${d.numerato?(d.da??1)+i:'—'}</span>
+         <span class="n ${d.numerato?'':'pt'} ${d.grandi?'gr':''} ${d.vietato?'no':''}">${
+            d.marcatori ? d.marcatori[i] : (d.vietato?'×':(d.numerato?(d.da??1)+i:'—'))}</span>
          <span>${acc(v.t)}${v.d?`<em>${acc(v.d)}</em>`:''}</span></li>`).join('')}</${d.numerato?'ol':'ul'}>`,
 
-  tre: d => `<div class="tre">${d.box.map((b,i)=>
-      `<div class="box ${(d.attive??[0,1,2]).includes(i)?'on':''}">
+  tre: d => `<div class="tre ${d.box.length>3?'n'+d.box.length:''} ${d.cifre?'cifre':''}">${d.box.map((b,i)=>
+      `<div class="box ${(d.attive??d.box.map((_,k)=>k)).includes(i)?'on':''} ${b.key?'key':''}">
          <span class="n">${b.n??''}</span><span class="t">${acc(b.t)}</span>
          ${b.d?`<span class="d">${acc(b.d)}</span>`:''}</div>`).join('')}</div>`,
 
   confronto: d => `<div class="due">${d.col.map(c=>
-      `<div><h3>${c.h}</h3><p class="${c.grande?'grande':''}">${acc(c.t)}</p></div>`).join('')}</div>`,
+      `<div><h3>${c.h}</h3><p class="${c.grande?'grande':''}">${acc(c.t)}</p></div>`).join('')}</div>
+      ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
 
   sostituzione: d => `<div class="sost">
       <div class="lato"><h3>${d.da.h}</h3><div class="v no">${acc(d.da.t)}</div></div>

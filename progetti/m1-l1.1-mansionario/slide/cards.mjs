@@ -4,6 +4,9 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { SCENE } from './contenuti.mjs';
 import { html } from './layout.mjs';
 
+// il numero di lezione viene dal nome della cartella: progetti/m1-l1.2-profilo -> 1.2
+const LEZIONE = (new URL('..', import.meta.url).pathname.match(/-l([\d.]+)-/) || [,'?'])[1];
+
 const OUT = new URL('./png/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
@@ -12,7 +15,7 @@ const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScale
 
 const troppoAlte = [];
 for (const [i, s] of SCENE.entries()) {
-  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: '1.1' }),
+  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
                      { waitUntil: 'load' });
   await p.evaluate(() => document.fonts.ready);
   await p.evaluate(() => document.getAnimations().forEach(a => { a.currentTime = 4000; }));

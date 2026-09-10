@@ -6,6 +6,8 @@ import json, subprocess, re
 from pathlib import Path
 import imageio_ffmpeg
 QUI = Path(__file__).resolve().parent
+import re as _re
+LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 TMP = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
 sh  = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
@@ -25,7 +27,7 @@ reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
 ordine = [TMP/"s01.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg] + [TMP/"s50.mp4"]
 (TMP/"lista.txt").write_text("".join(f"file '{p.resolve()}'\n" for p in ordine), encoding="utf-8")
 sh(FF,"-y","-v","error","-f","concat","-safe","0","-i",TMP/"lista.txt",
-   "-c","copy","-movflags","+faststart",QUI/"montato-1.1.mp4")
+   "-c","copy","-movflags","+faststart",QUI/f"montato-{LEZIONE}.mp4")
 
 # sottotitoli: dal copione e dalle durate reali dei blocchi
 def hms(t):
@@ -38,10 +40,10 @@ for r in reg:
     n += 1
     righe.append(f"{n}\n{hms(t)} --> {hms(t+r['durata'])}\n{bl[r['id']]}\n")
     t += r["durata"]
-(QUI/"montato-1.1.srt").write_text("\n".join(righe), encoding="utf-8")
+(QUI/f"montato-{LEZIONE}.srt").write_text("\n".join(righe), encoding="utf-8")
 
-d = durata(QUI/"montato-1.1.mp4")
-print(f"montato-1.1.mp4  {int(d//60)}:{d%60:05.2f}  "
-      f"{(QUI/'montato-1.1.mp4').stat().st_size//1024//1024} MB")
-print(f"montato-1.1.srt  {n} sottotitoli")
-print(sh(FF,"-i",QUI/"montato-1.1.mp4","-f","null","-").stderr.split("Stream #0")[1][:150])
+d = durata(QUI/f"montato-{LEZIONE}.mp4")
+print(f"montato-{LEZIONE}.mp4  {int(d//60)}:{d%60:05.2f}  "
+      f"{(QUI/f'montato-{LEZIONE}.mp4').stat().st_size//1024//1024} MB")
+print(f"montato-{LEZIONE}.srt  {n} sottotitoli")
+print(sh(FF,"-i",QUI/f"montato-{LEZIONE}.mp4","-f","null","-").stderr.split("Stream #0")[1][:150])

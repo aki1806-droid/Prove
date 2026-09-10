@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,690
+Nella lezione precedente abbiamo visto che il campo di attivita' dell'infermiere e' delimitato da tre fonti. Adesso apriamo la prima, e la piu' importante: il profilo professionale.
+
+2
+00:00:12,690 --> 00:00:22,460
+E' un testo brevissimo, poco piu' di una pagina, ed e' la norma piu' citata nelle prove scritte. Oggi la leggiamo comma per comma, perche' a fine lezione tu la sappia raccontare in ordine.
+
+3
+00:00:22,460 --> 00:00:34,040
+Quattro traguardi: che tipo di atto e' il decreto; i tre elenchi del comma due, che i quiz mescolano; le cinque attivita' del comma tre coi verbi esatti; e cosa vuol dire avvalersi del personale di supporto.
+
+4
+00:00:34,040 --> 00:00:46,120
+Il decreto ministeriale 739 del 1994 e' un regolamento, emanato in attuazione dell'articolo 6 comma 3 del decreto legislativo 502 del 1992.
+
+5
+00:00:46,120 --> 00:00:56,050
+Quel decreto aveva affidato al Ministro il compito di individuare le figure professionali e i relativi profili. Il 739 e' l'esecuzione di quel compito per l'infermiere.
+
+6
+00:00:56,050 --> 00:01:07,760
+Si compone di due soli articoli: il primo descrive il profilo, il secondo stabilisce che il titolo abilita all'esercizio. Essere un regolamento e non una legge conta: si cambia con un altro decreto.
+
+7
+00:01:07,760 --> 00:01:18,670
+Una precisazione che vale punti. Il 1994 individua figura e profilo. Non abroga il mansionario, non istituisce l'Ordine, non disciplina l'autonomia professionale.
+
+8
+00:01:18,670 --> 00:01:28,970
+E' la fonte del contenuto della professione, non del suo status giuridico. Quando in un quiz vedi il 1994 accostato a un'abrogazione, hai gia' trovato l'opzione sbagliata.
+
+9
+00:01:28,970 --> 00:01:39,370
+Comma uno. L'infermiere e' l'operatore sanitario che, in possesso del diploma abilitante e dell'iscrizione all'albo professionale, e' responsabile dell'assistenza generale infermieristica.
+
+10
+00:01:39,370 --> 00:01:50,880
+Tre elementi, tutti operativi. Operatore sanitario, non ausiliario. Diploma e albo sono due requisiti, non uno: il titolo da solo non abilita, ed e' la coppia esatta che i bandi chiedono.
+
+11
+00:01:50,880 --> 00:02:01,000
+E responsabile dell'assistenza generale. Generale vuol dire non limitata a un elenco di atti, e nemmeno a una specialita': la specialita' si aggiunge dopo, non restringe il profilo.
+
+12
+00:02:01,000 --> 00:02:14,100
+Comma due. Tre elenchi diversi in due righe di testo, e i quiz vivono di questa confusione. Si mescolano perche' stanno nello stesso comma e due su tre hanno tre voci. Teniamoli separati coi numeri: quattro, tre, tre.
+
+13
+00:02:14,100 --> 00:02:25,240
+Il primo elenco sono i tipi di assistenza, e sono quattro: preventiva, curativa, palliativa e riabilitativa. Nota dove sta la palliativa: e' scritta li' dal 1994.
+
+14
+00:02:25,240 --> 00:02:36,320
+Sedici anni prima della legge 38 del 2010. All'orale e' un dettaglio che fa impressione, perche' dimostra che le cure palliative sono da sempre nel mandato professionale, non un'aggiunta recente.
+
+15
+00:02:36,320 --> 00:02:48,690
+Il secondo elenco sono le nature, e sono tre: tecnica, relazionale ed educativa. Quella che sparisce nei distrattori e' quasi sempre l'educativa. Educare la persona a gestirsi non e' un di piu': e' assistenza.
+
+16
+00:02:48,690 --> 00:02:58,740
+Il terzo elenco sono le funzioni principali, e sono anche queste tre: la prevenzione delle malattie, l'assistenza dei malati e dei disabili di tutte le eta', e l'educazione sanitaria.
+
+17
+00:02:58,740 --> 00:03:10,050
+Attenzione a di tutte le eta'. E' una clausola, non un riempitivo: esclude qualunque opzione che limiti l'assistenza infermieristica a una fascia d'eta'. Se in un quiz leggi solo adulti, e' sbagliata.
+
+18
+00:03:10,050 --> 00:03:21,240
+E arriviamo al cuore del decreto, il comma tre. In relazione al processo assistenziale, l'infermiere. Lettera a: partecipa all'identificazione dei bisogni di salute della persona e della collettivita'.
+
+19
+00:03:21,240 --> 00:03:32,030
+Lettera b: identifica i bisogni di assistenza infermieristica della persona e della collettivita', e ne formula i relativi obiettivi. «Della persona e della collettivita'» torna in tutte e due le lettere.
+
+20
+00:03:32,030 --> 00:03:42,040
+Non si guarda solo il letto che si ha davanti. E fermiamoci qui, perche' e' la distinzione piu' chiesta del modulo: sui bisogni di salute si partecipa, su quelli di assistenza si identifica.
+
+21
+00:03:42,040 --> 00:03:51,730
+Il perche' vale piu' dei verbi: il bisogno di salute non e' di nessuna professione in particolare, si legge insieme agli altri. Il bisogno di assistenza infermieristica, invece, e' tuo.
+
+22
+00:03:51,730 --> 00:04:01,780
+E' l'oggetto su cui tu fai diagnosi. Chi inverte i due verbi sbaglia la domanda. Se all'orale ti si annebbia, non cercare il verbo: chiediti di chi e' il bisogno, e il verbo viene da se'.
+
+23
+00:04:01,780 --> 00:04:10,290
+Ripetilo ad alta voce, una volta sola. Bisogni di salute, partecipo. Bisogni di assistenza infermieristica, identifico.
+
+24
+00:04:10,290 --> 00:04:20,360
+Lettera c: pianifica, gestisce e valuta l'intervento assistenziale infermieristico. Lettera d: garantisce la corretta applicazione delle prescrizioni diagnostico-terapeutiche.
+
+25
+00:04:20,360 --> 00:04:31,760
+Lettera e: agisce individualmente o in collaborazione con gli altri operatori sanitari e sociali, avvalendosi, ove necessario, dell'opera del personale di supporto. Cinque lettere: contale sulle dita.
+
+26
+00:04:31,760 --> 00:04:43,030
+Nota la simmetria rovesciata fra la lettera c e la lettera d. Sull'intervento assistenziale infermieristico l'infermiere pianifica, perche' e' suo. Suo vuol dire che ne risponde dall'inizio alla fine.
+
+27
+00:04:43,030 --> 00:04:54,380
+Sulle prescrizioni diagnostico-terapeutiche garantisce la corretta applicazione, perche' sono di un altro professionista: non le prescrive e non le pianifica. Il verbo cambia perche' cambia il padrone dell'atto.
+
+28
+00:04:54,380 --> 00:05:04,820
+Ma garantire, l'abbiamo visto nella lezione scorsa, non vuol dire eseguire a occhi chiusi. Comporta verificare, e chiarire prima di dare corso a una prescrizione palesemente errata.
+
+29
+00:05:04,820 --> 00:05:17,380
+La lettera e regge il rapporto quotidiano con l'OSS, e due parole vanno pesate. Si avvale: e' un rapporto funzionale, non gerarchico. Non e' galateo: da come lo qualifichi discende chi risponde di che cosa.
+
+30
+00:05:17,380 --> 00:05:27,300
+L'infermiere non e' il capo dell'OSS, e' il responsabile del processo assistenziale. E ove necessario: e' una valutazione che fai tu, non un automatismo dell'organizzazione.
+
+31
+00:05:27,300 --> 00:05:40,440
+Da qui nasce l'attribuzione. Quali attivita' affidare al personale di supporto lo valuta l'infermiere, guardando tre cose. E attribuire non e' delegare: la delega trasferisce, l'attribuzione distribuisce.
+
+32
+00:05:40,440 --> 00:05:50,170
+La competenza dell'operatore. La complessita' e la stabilita' delle condizioni della persona assistita. E il contesto organizzativo: protocolli, e possibilita' di supervisione.
+
+33
+00:05:50,170 --> 00:06:00,510
+Tre criteri che nei casi clinici vanno citati per nome. E se uno dei tre non regge, l'attivita' non si attribuisce: davanti a una persona instabile, la risposta giusta e' no.
+
+34
+00:06:00,510 --> 00:06:09,600
+E questa e' la regola d'oro. Chi attribuisce risponde della scelta di attribuire. Era corretto affidare quell'attivita', a quell'operatore, per quella persona?
+
+35
+00:06:09,600 --> 00:06:18,510
+Chi esegue risponde della corretta esecuzione, nei limiti della propria competenza. La responsabilita' non si trasferisce per intero: si distribuisce.
+
+36
+00:06:18,510 --> 00:06:28,030
+Il criterio che ti salva nei casi clinici: la domanda non e' se e' andata male, e' se la scelta era giusta quando l'hai fatta. Si giudica la decisione, non l'esito.
+
+37
+00:06:28,030 --> 00:06:38,110
+Restano non attribuibili gli atti che il profilo assegna a te come professionista: l'accertamento e la diagnosi infermieristica, la pianificazione, la valutazione degli esiti.
+
+38
+00:06:38,110 --> 00:06:50,420
+La gestione e la somministrazione della terapia, le valutazioni cliniche. Il filo comune e' che sono giudizi, non compiti. L'OSS collabora, osserva e riferisce, ma non pianifica e non decide.
+
+39
+00:06:50,420 --> 00:07:03,360
+Il decreto aggiunge due frasi brevi ma pesanti. L'infermiere contribuisce alla formazione del personale di supporto, e concorre all'aggiornamento e alla ricerca. Due frasi che in un quiz valgono quanto un comma intero.
+
+40
+00:07:03,360 --> 00:07:12,930
+L'aggiornamento non e' una facolta', e' un dovere professionale. E diventera' fondamento di responsabilita' per imperizia, come vedremo nella lezione uno punto cinque.
+
+41
+00:07:12,930 --> 00:07:22,470
+Il campo di intervento, infine, non e' l'ospedale. Sono le strutture pubbliche e private, il territorio, il domicilio, in regime di dipendenza o di libera professione.
+
+42
+00:07:22,470 --> 00:07:36,540
+L'ultimo comma prevede la formazione post-base in cinque aree: sanita' pubblica, pediatria, salute mentale e psichiatria, geriatria, area critica. Cinque, come le attivita' del comma tre: la coincidenza aiuta a ricordarle.
+
+43
+00:07:36,540 --> 00:07:47,390
+Oggi sono i master di primo livello. Attenzione a non confonderle con i quattro livelli della legge 43 del 2006: professionista, coordinatore, specialista, dirigente.
+
+44
+00:07:47,390 --> 00:07:58,850
+Il test per non sbagliare: le aree rispondono alla domanda dove lavori, i livelli alla domanda fin dove sei arrivato. Ambiti clinici da una parte, sviluppo di carriera dall'altra.
+
+45
+00:07:58,850 --> 00:08:09,690
+Chiudiamo con i numeri, che sono il modo piu' rapido per controllare se il profilo lo ricordi davvero. Due articoli. Quattro tipi di assistenza, con la palliativa dentro dal 1994.
+
+46
+00:08:09,690 --> 00:08:21,530
+Tre nature: tecnica, relazionale, educativa. Tre funzioni: prevenzione, assistenza a tutte le eta', educazione sanitaria. Cinque attivita' nel comma tre. Cinque aree post-base.
+
+47
+00:08:21,530 --> 00:08:32,800
+E la regola d'oro: chi attribuisce risponde della scelta, chi esegue della corretta esecuzione. Nella dispensa trovi il testo commentato, quindici quiz e la traccia di risposta gia' svolta.
+
+48
+00:08:32,800 --> 00:08:45,430
+Un'ultima cosa onesta: nessuno ricorda un decreto a memoria. Quello che si ricorda sono i numeri, e da quelli si ricostruisce il testo. Nella prossima lezione: formazione, Ordine, ECM e carriera.

@@ -5,15 +5,30 @@ import json, re, subprocess
 from pathlib import Path
 import imageio_ffmpeg
 QUI = Path(__file__).resolve().parent
+import re as _re
+LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
 esiti = []
 
-es = json.loads((QUI/"audio"/"esiti-verifica.json").read_text(encoding="utf-8"))
-ctrl = (QUI/"audio"/"trascrizioni"/"controprova-2.txt").read_text(encoding="utf-8")
-fuori = [e for e in es if not e["ok"]]
-esiti.append((len(fuori)==2 and "Opzione sbagliata" in ctrl,
-  f"verifica: {len(fuori)} fuori posto alla prova, entrambi corretti e riverificati -> 0"))
+# La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
+# che ha trovato e' stato corretto e poi ricontrollato con una controprova.
+f = QUI/"audio"/"esiti-verifica.json"
+corr = QUI/"audio"/"correzioni.json"
+ctrl = sorted((QUI/"audio"/"trascrizioni").glob("controprova*.txt")) if (QUI/"audio"/"trascrizioni").exists() else []
+if not f.exists():
+    esiti.append((False, "verifica per trascrizione: NON ESEGUITA — manca prova.txt"))
+else:
+    fuori = [e for e in json.loads(f.read_text(encoding="utf-8")) if not e["ok"]]
+    if not fuori:
+        esiti.append((True, "verifica per trascrizione: nessun confine fuori posto"))
+    elif corr.exists() and ctrl:
+        n = sum(len(v) for v in json.loads(corr.read_text(encoding="utf-8")).values())
+        bastano = n >= len(fuori)
+        esiti.append((bastano, f"verifica: {len(fuori)} fuori posto alla prova, {n} corretti "
+                          f"e ricontrollati con controprova -> {max(0,len(fuori)-n)}"))
+    else:
+        esiti.append((False, f"verifica per trascrizione: {len(fuori)} confini fuori posto, non corretti"))
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
 male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
@@ -28,18 +43,19 @@ esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"
 scene = sorted(Path(QUI/"scene").glob("*.mp4"))
 esiti.append((len(scene)+2 <= 50, f"scene totali: {len(scene)+2} (tetto 50)"))
 
-o = subprocess.run([FF,"-i",str(QUI/"montato-1.1.mp4"),"-f","null","-"],
+o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
                    capture_output=True,text=True).stderr
 t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
 d = int(t[0])*3600+int(t[1])*60+float(t[2])
 esiti.append((d >= 480, f"durata {int(d//60)}:{d%60:05.2f} — richiesto «8 minuti almeno»"))
 
-srt = (QUI/"montato-1.1.srt").read_text(encoding="utf-8")
+srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
 n = len(re.findall(r"-->", srt))
 esiti.append((n==48, f"sottotitoli SRT: {n} righe"))
 
-r = (QUI/"REGISTRO.md").read_text(encoding="utf-8")
-esiti.append(("## Da verificare" in r, "registro con la sezione «da verificare»"))
+rf = QUI/"REGISTRO.md"
+esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),
+              "registro con la sezione «da verificare»"))
 
 print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §5)\n")
 for b,t in esiti: print(f"  [{ok(b)}] {t}")

@@ -7,6 +7,9 @@ import { execFileSync } from 'node:child_process';
 import { SCENE } from './contenuti.mjs';
 import { html } from './layout.mjs';
 
+// il numero di lezione viene dal nome della cartella: progetti/m1-l1.2-profilo -> 1.2
+const LEZIONE = (new URL('..', import.meta.url).pathname.match(/-l([\d.]+)-/) || [,'?'])[1];
+
 const FPS = 25, DURATA = 1.8;              // l'ingresso finisce entro 1,3 s
 const FOTOGRAMMI = Math.round(FPS * DURATA);
 const QUI = new URL('.', import.meta.url).pathname;
@@ -24,7 +27,7 @@ for (const s of DA_ANIMARE) {
   const i = SCENE.indexOf(s);
   const dir = `${QUI}fotogrammi/${s.id}`;
   rmSync(dir, { recursive: true, force: true }); mkdirSync(dir, { recursive: true });
-  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: '1.1' }),
+  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
                      { waitUntil: 'load' });
   await p.evaluate(() => document.fonts.ready);
   for (let f = 0; f < FOTOGRAMMI; f++) {

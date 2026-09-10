@@ -205,7 +205,10 @@ def cmd_applica():
             sh(FF,"-y","-v","error","-ss",f"{ini:.3f}","-to",f"{fin:.3f}",
                "-i",QUI/f"grezzo-{L}.mp3","-af",RITMO,"-c:a","libmp3lame","-b:a","192k",f)
             d = durata(f)
-            posa = round(max(0.0, 4.6-d),2) if d < 3.5 else 0.0     # §1.4
+            # §1.4: i blocchi corti si allungano perche' respirino. In piu', il
+            # copione puo' chiedere una posa esplicita dove il discorso la vuole.
+            posa = round(max(0.0, 4.6-d),2) if d < 3.5 else 0.0
+            posa = max(posa, float(x.get("posa", 0)))
             if posa:
                 sh(FF,"-y","-v","error","-i",f,"-af",f"apad=pad_dur={posa}",
                    "-c:a","libmp3lame","-b:a","192k",out/f"_{x['id']}.mp3")
