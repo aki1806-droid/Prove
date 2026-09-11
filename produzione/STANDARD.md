@@ -120,6 +120,16 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   silenzio piu' vicino e si conferma con una **controprova** di tre secondi
   (meno di venti crediti): la finestra deve leggere esattamente la coda del
   blocco, e niente altro.
+  Piu' confini da confermare si mettono in **una controprova sola**: si
+  ritagliano i tre secondi che precedono ognuno, si concatenano, e si legge la
+  trascrizione a spezzoni — tre confini della 4.5 sono costati cinquanta
+  crediti in tutto.
+  E quando `correggi` torna due volte sullo stesso confine spostandolo di
+  poco, non e' che il silenzio non c'e': ce ne sono **troppi**. Succede dove la
+  voce legge parole staccate — «Chi. Cosa. Entro quando.» nella 4.5 — e ogni
+  stacco e' un candidato. Li' si guarda la mappa dei silenzi a mano, con
+  `silencedetect` a `d=0.10` invece che a 0,25, e si sceglie il silenzio
+  giusto invece di farlo scegliere all'algoritmo.
   Attenzione, li' dove la voce non fa pausa fra due blocchi — succede quando
   il secondo blocco non comincia con una frase nuova, come il memo spezzato in
   due della 1.5 — non c'e' nessun silenzio da trovare: si sceglie il punto sui

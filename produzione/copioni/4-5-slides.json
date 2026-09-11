@@ -1,0 +1,425 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 4 · Lezione 4.5",
+  "title": "La chiusura e la richiesta",
+  "sub": "Costruire un messaggio che resta"
+ },
+ {
+  "file": "c02",
+  "layout": "quote",
+  "kicker": "tre frasi che non chiedono niente",
+  "title": "«Volevo segnalarti<br>che il problema esiste.»"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Tre frasi sensate.<br><span class=\"gold\">Nessuna dice cosa fare.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "memo",
+  "title": "Chi non sa cosa deve fare,<br>di norma non fa niente."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Non per cattiva volontà.<br>Nessuno gli ha chiesto niente."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Interpretare quello che vuoi tu<br><span class=\"gold\">non è un compito suo.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "La conversazione che finisce bene<br>e non produce nulla."
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "La settimana dopo:<br>«non ha capito»."
+ },
+ {
+  "file": "c10",
+  "layout": "swap",
+  "kicker": "cosa è successo davvero",
+  "rows": [
+   [
+    "«non ha capito»",
+    "ha capito benissimo"
+   ],
+   [
+    "«gliel'ho detto»",
+    "non gli hai chiesto niente"
+   ]
+  ]
+ },
+ {
+  "file": "c11",
+  "layout": "table",
+  "kicker": "due cose diverse",
+  "cols": [
+   "messaggio",
+   "richiesta"
+  ],
+  "rows": [
+   [
+    "si ascolta",
+    "si esegue"
+   ],
+   [
+    "informa",
+    "assegna"
+   ],
+   [
+    "può piacere",
+    "può essere rifiutata"
+   ]
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "list",
+  "kicker": "perché non chiediamo",
+  "rows": [
+   "Sembra scortese",
+   "Espone a un no",
+   "Non l'abbiamo chiara"
+  ]
+ },
+ {
+  "file": "c13",
+  "layout": "list",
+  "kicker": "perché non chiediamo",
+  "rows": [
+   "Sembra scortese",
+   "Espone a un no",
+   "Non l'abbiamo chiara"
+  ],
+  "active": 0,
+  "note": "Chiedere in modo esplicito, in italiano, ha un che di imperativo."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Preferiamo alludere<br>e sperare che l'altro raccolga."
+ },
+ {
+  "file": "c15",
+  "layout": "list",
+  "kicker": "perché non chiediamo",
+  "rows": [
+   "Sembra scortese",
+   "Espone a un no",
+   "Non l'abbiamo chiara"
+  ],
+  "active": 1,
+  "note": "Un'allusione non può essere rifiutata: formalmente non ha chiesto niente."
+ },
+ {
+  "file": "c16",
+  "layout": "memo",
+  "title": "È più comoda proprio per questo.<br>E per questo non funziona."
+ },
+ {
+  "file": "c17",
+  "layout": "list",
+  "kicker": "perché non chiediamo",
+  "rows": [
+   "Sembra scortese",
+   "Espone a un no",
+   "Non l'abbiamo chiara"
+  ],
+  "active": 2,
+  "note": "Il più frequente, e quello di cui parliamo di meno."
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Il terzo motivo<br><span class=\"gold\">è anche la buona notizia.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Partiamo da un disagio,<br>non da un obiettivo."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Sappiamo cosa non ci va bene.<br>Non cosa vogliamo al posto suo."
+ },
+ {
+  "file": "c21",
+  "layout": "swap",
+  "kicker": "due direzioni",
+  "rows": [
+   [
+    "il disagio",
+    "guarda quello che è successo"
+   ],
+   [
+    "l'obiettivo",
+    "guarda quello che deve succedere"
+   ]
+  ]
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Non riesci a formulare la richiesta?<br>Hai appena scoperto qualcosa."
+ },
+ {
+  "file": "c23",
+  "layout": "memo",
+  "title": "Il problema non è nel messaggio.<br>È a monte."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Una richiesta eseguibile<br>ha tre elementi."
+ },
+ {
+  "file": "c26",
+  "layout": "list",
+  "kicker": "la richiesta eseguibile",
+  "rows": [
+   "Chi",
+   "Cosa",
+   "Entro quando"
+  ],
+  "note": "Se ne manca uno, non è ancora una richiesta."
+ },
+ {
+  "file": "c27",
+  "layout": "table",
+  "kicker": "«ti chiedo di spostare la consegna a venerdì»",
+  "cols": [
+   "elemento",
+   "nella frase"
+  ],
+  "rows": [
+   [
+    "chi",
+    "tu"
+   ],
+   [
+    "cosa",
+    "spostare la consegna"
+   ],
+   [
+    "entro quando",
+    "venerdì"
+   ]
+  ]
+ },
+ {
+  "file": "c28",
+  "layout": "quote",
+  "kicker": "adesso confronta",
+  "title": "«Bisognerebbe<br>rivedere i tempi.»"
+ },
+ {
+  "file": "c29",
+  "layout": "table",
+  "kicker": "«bisognerebbe rivedere i tempi»",
+  "cols": [
+   "elemento",
+   "nella frase"
+  ],
+  "rows": [
+   [
+    "chi",
+    "—"
+   ],
+   [
+    "cosa",
+    "—"
+   ],
+   [
+    "entro quando",
+    "—"
+   ]
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "Il <span class=\"gold\">chi</span> è quello<br>che si dimentica di più."
+ },
+ {
+  "file": "c31",
+  "layout": "list",
+  "plain": true,
+  "kicker": "assegnare un compito a nessuno",
+  "rows": [
+   "«Bisogna»",
+   "«Si dovrebbe»",
+   "«Andrebbe fatto»"
+  ],
+  "note": "Tre modi eleganti di non dire chi."
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "Una richiesta senza un nome dentro<br>è un'osservazione sul mondo."
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "Dopo aver fatto la richiesta,<br><span class=\"gold\">taci.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "La richiesta apre un vuoto.<br>E il vuoto chiede di essere riempito."
+ },
+ {
+  "file": "c36",
+  "layout": "number",
+  "kicker": "quanto dura",
+  "num": "3",
+  "unit": "s",
+  "fill": 10,
+  "title": "Il silenzio dopo la richiesta. Ne sembrano trenta — ma quei tre secondi sono suoi, non tuoi."
+ },
+ {
+  "file": "c37",
+  "layout": "cards",
+  "kicker": "come lo riempiamo",
+  "rows": [
+   {
+    "icona": "riempire",
+    "testo": "Una spiegazione in più"
+   },
+   {
+    "icona": "lisciata",
+    "testo": "Un'attenuazione"
+   },
+   {
+    "icona": "scansa",
+    "testo": "«Se non puoi, capisco»"
+   }
+  ]
+ },
+ {
+  "file": "c38",
+  "layout": "memo",
+  "title": "Ogni frase aggiunta dopo la richiesta<br>la indebolisce."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Alcune non la indeboliscono.<br><span class=\"gold\">La ritirano.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "quote",
+  "kicker": "letteralmente un permesso di dire di no",
+  "title": "«Se non puoi,<br>capisco.»"
+ },
+ {
+  "file": "c41",
+  "layout": "swap",
+  "kicker": "il paradosso",
+  "rows": [
+   [
+    "lo fai per gentilezza",
+    "l'altro si sente meno impegnato"
+   ]
+  ]
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "E poi ci sono le chiusure<br>che non chiudono."
+ },
+ {
+  "file": "c43",
+  "layout": "cards",
+  "kicker": "le chiusure che cancellano",
+  "rows": [
+   {
+    "icona": "scansa",
+    "testo": "«Comunque, vedi tu»"
+   },
+   {
+    "icona": "gomma",
+    "testo": "«Insomma, era per dire»"
+   },
+   {
+    "icona": "dopo",
+    "testo": "«Poi ne parliamo»"
+   }
+  ]
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Formule di scarico: uscire<br>senza il peso di aver chiuso."
+ },
+ {
+  "file": "c45",
+  "layout": "swap",
+  "kicker": "già visto nel modulo tre",
+  "rows": [
+   [
+    "il «ma»",
+    "cancella la comprensione"
+   ],
+   [
+    "il «vedi tu»",
+    "cancella la richiesta"
+   ]
+  ]
+ },
+ {
+  "file": "c46",
+  "layout": "chart",
+  "kicker": "quanto costa la coda",
+  "title": "Tre parole di troppo alla fine possono disfare quattro minuti di lavoro fatto bene.",
+  "bars": [
+   {
+    "et": "il messaggio costruito",
+    "val": 100,
+    "cifra": "4 minuti",
+    "oro": true
+   },
+   {
+    "et": "la chiusura che lo cancella",
+    "val": 8,
+    "cifra": "3 parole"
+   }
+  ]
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "Chi aggiunge una frase dopo aver chiesto<br>sta ritirando la richiesta."
+ },
+ {
+  "file": "c48",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "rows": [
+   "Chi",
+   "Cosa",
+   "Entro quando"
+  ],
+  "note": "Poi taci e aspetta la risposta. Senza aggiungere niente."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Un no a una richiesta chiara<br>vale più di un forse a una vaga."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine del Modulo 4",
+  "sub": "Modulo 5 — Persuadere senza manipolare",
+  "site": "laparolagiusta.it"
+ }
+]

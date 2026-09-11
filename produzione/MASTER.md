@@ -277,6 +277,15 @@ blocco**, letto dopo `applica`: fuori dalla banda 8-21 c'è quasi sempre un
 confine sbagliato, e i vicini dicono da che parte. Due blocchi adiacenti a 5 e
 a 55 caratteri al secondo sono un confine spostato, non due blocchi strani.
 
+Due varianti utili. Se i confini da confermare sono più d'uno, si ritagliano i
+tre secondi che precedono ognuno, si concatenano e si trascrive **una volta
+sola**: la trascrizione torna a spezzoni, uno per confine. E se `correggi`
+torna due volte sullo stesso confine spostandolo di poco, il problema non è
+che manca il silenzio — è che ce ne sono troppi, perché lì la voce legge
+parole staccate. Si guarda la mappa dei silenzi a mano (`silencedetect` a
+`d=0.10` invece di 0,25) e si sceglie il punto invece di farlo scegliere
+all'algoritmo.
+
 ## Passo 4 — Renderizzare le slide
 
 Due generatori dallo stesso file di layout, così la versione ferma e quella

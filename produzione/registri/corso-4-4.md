@@ -8,7 +8,7 @@ grafiche e tre riprese Higgsfield.
 | video_id | `79d5bda0bba88be7ea0c6ca26ee39d3a` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p, sottotitoli SRT |
-| durata | 337,7 s (5:38) |
+| durata | 336,6 s (5:37) |
 | parlato | 324,7 s |
 
 ## Il copione è stato riscritto
