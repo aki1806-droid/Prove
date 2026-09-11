@@ -34,6 +34,29 @@ const MEMO = [
  {t:"aree della formazione post-base"},
 ];
 
+
+// --- figure ricorrenti della lezione ---
+const COMMA1 = [
+ {icona:"persona",     t:"Operatore sanitario", d:"non più «ausiliario»"},
+ {icona:"certificato", t:"Diploma **e** albo", d:"due requisiti, non uno in alternativa all'altro"},
+ {icona:"scudo",       t:"Responsabile dell'assistenza **generale**", d:"non limitata a un elenco di atti"},
+];
+const ATTIVITA12 = [
+ {n:"a", t:"**Partecipa** all'identificazione dei bisogni **di salute** della persona e della collettività"},
+ {n:"b", t:"**Identifica** i bisogni **di assistenza infermieristica** e ne formula gli obiettivi"},
+ {n:"c", t:"**Pianifica, gestisce e valuta** l'intervento assistenziale infermieristico"},
+ {n:"d", t:"**Garantisce** la corretta applicazione delle prescrizioni diagnostico-terapeutiche"},
+ {n:"e", t:"**Agisce** individualmente o in collaborazione, avvalendosi ove necessario del personale di supporto"},
+];
+const NUMERI12 = [
+ {n:"2", t:"**articoli** in tutto il decreto"},
+ {n:"5", t:"**attività** nel comma 3 (lettere a-e)"},
+ {n:"4", t:"**tipi** di assistenza"},
+ {n:"3", t:"**nature** dell'assistenza"},
+ {n:"3", t:"**funzioni** principali"},
+ {n:"5", t:"**aree** di formazione post-base"},
+];
+
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
   modulo:"Modulo 1 · La professione infermieristica",
@@ -45,21 +68,22 @@ export const SCENE = [
 {id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Che cos'è il profilo",
   testo:"Poco più di una pagina. E la norma *più citata* nelle prove scritte.",
   sotto:"Oggi la leggiamo comma per comma."},
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"In questa lezione", numerato:true, voci:[
-  {t:"Che **tipo di atto** è il decreto"},
-  {t:"I **tre elenchi** del comma 2, che i quiz mescolano"},
-  {t:"Le **cinque attività** del comma 3, verbo per verbo"},
-  {t:"Che cosa vuol dire **avvalersi** del personale di supporto"}]},
+{id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro traguardi", voci:[
+  {icona:"documento", t:"Che atto è", d:"un regolamento ministeriale"},
+  {icona:"libro",     t:"I tre elenchi", d:"del comma 2, che i quiz mescolano"},
+  {icona:"ingranaggio", t:"Le cinque attività", d:"del comma 3"},
+  {icona:"persone",   t:"L'OSS", d:"attribuzione e responsabilità"}]},
 
 {id:"s05", tipo:"norma", tema:"chiaro", sopratitolo:"Che atto è",
   etichetta:"Regolamento", sigla:"DM 739/1994",
   testo:"In attuazione dell'articolo 6 comma 3 del *decreto legislativo 502 del 1992*."},
 {id:"s06", tipo:"frase", tema:"chiaro", sopratitolo:"Da dove viene",
   testo:"Il 502 affida al Ministro il compito di individuare *figure e profili*. Il 739 lo esegue per l'infermiere."},
-{id:"s07", tipo:"confronto", tema:"chiaro", sopratitolo:"Due soli articoli", col:[
-  {h:"Articolo 1", t:"il profilo", grande:true},
-  {h:"Articolo 2", t:"il titolo abilita all'esercizio", grande:true}],
-  sotto:"È un *regolamento*, non una legge: si cambia con un altro decreto."},
+{id:"s07", tipo:"tabella", tema:"chiaro", sopratitolo:"Due soli articoli",
+  intestazioni:["","Che cosa dice","Che cosa NON fa"], colonne:["18%","46%","36%"],
+  righe:[
+   ["Articolo 1","Descrive il **profilo professionale** dell'infermiere","non abroga il mansionario"],
+   ["Articolo 2","Il **titolo abilita** all'esercizio della professione","non istituisce l'albo"]]},
 
 {id:"s08", tipo:"trappola", tema:"tenue", sopratitolo:"Che cosa il 1994 NON fa",
   righe:NON_FA},
@@ -70,35 +94,47 @@ export const SCENE = [
 {id:"s10", tipo:"citazione", tema:"profondo", sopratitolo:"Comma 1 · la definizione",
   testo:"L'infermiere è l'operatore sanitario che, in possesso del **diploma abilitante** e dell'**iscrizione all'albo professionale**, è **responsabile dell'assistenza generale infermieristica**",
   fonte:"DM 739/1994 · art. 1 comma 1"},
-{id:"s11", tipo:"elenco", tema:"chiaro", sopratitolo:"Tre elementi, tutti operativi",
-  numerato:true, voci:TRE_ELEMENTI, attive:[0,1]},
-{id:"s12", tipo:"elenco", tema:"chiaro", sopratitolo:"Tre elementi, tutti operativi",
-  numerato:true, voci:TRE_ELEMENTI, attive:[0,1,2]},
+{id:"s11", tipo:"icone", tema:"chiaro", sopratitolo:"Comma 1 — tre elementi operativi",
+  attive:[0,1], voci:COMMA1},
 
-{id:"s13", tipo:"tre", tema:"chiaro", sopratitolo:"Comma 2 · tre elenchi in due righe",
-  cifre:true, box:[
-  {t:"4", d:"tipi di assistenza"}, {t:"3", d:"nature"}, {t:"3", d:"funzioni principali"}]},
+{id:"s12", tipo:"icone", tema:"chiaro", sopratitolo:"Comma 1 — tre elementi operativi",
+  attive:[0,1,2], voci:COMMA1},
 
-{id:"s14", tipo:"tre", tema:"chiaro", sopratitolo:"I quattro tipi di assistenza", box:[
-  {t:"Preventiva"}, {t:"Curativa"}, {t:"Palliativa", key:true}, {t:"Riabilitativa"}]},
+{id:"s13", tipo:"tabella", tema:"chiaro", sopratitolo:"Comma 2 — tre elenchi in due righe",
+  intestazioni:["Elenco","Quanti","Le voci"], colonne:["24%","12%","64%"],
+  righe:[
+   ["Tipi di assistenza","4","preventiva · curativa · palliativa · riabilitativa"],
+   ["Nature","3","tecnica · relazionale · **educativa**"],
+   ["Funzioni principali","3","prevenzione · assistenza a tutte le età · educazione sanitaria"]]},
+
+{id:"s14", tipo:"icone", tema:"chiaro", sopratitolo:"I quattro tipi di assistenza", voci:[
+  {icona:"scudo",     t:"Preventiva"},
+  {icona:"goccia",    t:"Curativa"},
+  {icona:"cuoremano", t:"Palliativa", d:"sedici anni prima della legge 38/2010", key:true},
+  {icona:"ingranaggio", t:"Riabilitativa"}]},
+
 {id:"s15", tipo:"frase", tema:"chiaro", sopratitolo:"Un dettaglio che fa impressione",
   testo:"«Palliativa» è scritta lì dal *1994*.",
   sotto:"Sedici anni prima della legge 38 del 2010: le cure palliative sono da sempre nel mandato professionale, non un'aggiunta recente."},
 
-{id:"s16", tipo:"tre", tema:"chiaro", sopratitolo:"Le tre nature", box:[
-  {t:"Tecnica"}, {t:"Relazionale"}, {t:"Educativa", key:true}]},
-{id:"s17", tipo:"elenco", tema:"chiaro", sopratitolo:"Le tre funzioni principali",
-  numerato:true, voci:[
-  {t:"Prevenzione delle malattie"},
-  {t:"Assistenza dei malati e dei disabili **di tutte le età**"},
-  {t:"Educazione sanitaria"}]},
+{id:"s16", tipo:"icone", tema:"chiaro", sopratitolo:"Le tre nature dell'assistenza", voci:[
+  {icona:"ingranaggio", t:"Tecnica"},
+  {icona:"cuoremano",   t:"Relazionale"},
+  {icona:"cappello",    t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
+
+{id:"s17", tipo:"icone", tema:"chiaro", sopratitolo:"Le tre funzioni principali", voci:[
+  {icona:"scudo",    t:"Prevenzione delle malattie"},
+  {icona:"persona",  t:"Assistenza ai malati e ai disabili", d:"**di tutte le età**", key:true},
+  {icona:"libro",    t:"Educazione sanitaria"}]},
+
 {id:"s18", tipo:"trappola", tema:"tenue", sopratitolo:"«Di tutte le età» è una clausola",
   righe:[{sb:"«l'assistenza infermieristica agli adulti»", ok:"esclude qualunque opzione che limiti a una *fascia d'età*"}]},
 
-{id:"s19", tipo:"elenco", tema:"chiaro", sopratitolo:"Comma 3 · le cinque attività",
-  numerato:true, marcatori:LETTERE, grandi:true, voci:CINQUE, attive:[0]},
-{id:"s20", tipo:"elenco", tema:"chiaro", sopratitolo:"Comma 3 · le cinque attività",
-  numerato:true, marcatori:LETTERE, grandi:true, voci:CINQUE, attive:[0,1]},
+{id:"s19", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0],
+  sopratitolo:"Comma 3 — le cinque attività", celle:ATTIVITA12},
+
+{id:"s20", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
+  sopratitolo:"Comma 3 — le cinque attività", celle:ATTIVITA12},
 
 {id:"s21", tipo:"confronto", tema:"profondo", sopratitolo:"La distinzione più chiesta", col:[
   {h:"Bisogni di salute", t:"partecipa", grande:true},
@@ -111,14 +147,18 @@ export const SCENE = [
 {id:"s24", tipo:"titolo", tema:"profondo", sopratitolo:"Da ripetere ad alta voce, una volta",
   titolo:"Bisogni di salute, *partecipo*.<br>Bisogni di assistenza, *identifico*."},
 
-{id:"s25", tipo:"elenco", tema:"chiaro", sopratitolo:"Comma 3 · le cinque attività",
-  numerato:true, marcatori:LETTERE, grandi:true, voci:CINQUE, attive:[0,1,2,3]},
-{id:"s26", tipo:"elenco", tema:"chiaro", sopratitolo:"Comma 3 · le cinque attività",
-  numerato:true, marcatori:LETTERE, grandi:true, voci:CINQUE, attive:[0,1,2,3,4]},
+{id:"s25", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3],
+  sopratitolo:"Comma 3 — le cinque attività", celle:ATTIVITA12},
 
-{id:"s27", tipo:"confronto", tema:"chiaro", sopratitolo:"La simmetria rovesciata · lettere c e d", col:[
-  {h:"Intervento assistenziale infermieristico", t:"pianifica", grande:true},
-  {h:"Prescrizioni diagnostico-terapeutiche", t:"garantisce l'applicazione", grande:true}]},
+{id:"s26", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3,4],
+  sopratitolo:"Comma 3 — le cinque attività", celle:ATTIVITA12},
+
+{id:"s27", tipo:"tabella", tema:"chiaro", sopratitolo:"La simmetria rovesciata fra c e d",
+  intestazioni:["","Di chi è l'atto","Che cosa fa l'infermiere"], colonne:["30%","30%","40%"],
+  righe:[
+   ["Lettera c — intervento **infermieristico**","tuo","**pianifica, gestisce e valuta**"],
+   ["Lettera d — prescrizione **diagnostico-terapeutica**","di un altro professionista","**garantisce** la corretta applicazione"]]},
+
 {id:"s28", tipo:"frase", tema:"chiaro", sopratitolo:"Perché cambia il verbo",
   testo:"Il verbo cambia perché cambia *il padrone dell'atto*.",
   sotto:"L'intervento infermieristico è suo: ne risponde dall'inizio alla fine."},
@@ -136,10 +176,11 @@ export const SCENE = [
 {id:"s32", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Attribuire non è delegare",
   da:{h:"La delega", t:"trasferisce la responsabilità"},
   a:{h:"L'attribuzione", t:"la distribuisce"}},
-{id:"s33", tipo:"tre", tema:"chiaro", sopratitolo:"I tre criteri dell'attribuzione", box:[
-  {n:"01", t:"Competenza", d:"dell'operatore"},
-  {n:"02", t:"Complessità e stabilità", d:"delle condizioni della persona assistita"},
-  {n:"03", t:"Contesto organizzativo", d:"protocolli, possibilità di supervisione"}]},
+{id:"s33", tipo:"icone", tema:"chiaro", sopratitolo:"Attribuire all'OSS: i tre criteri", voci:[
+  {icona:"persone",  t:"Competenza", d:"dell'operatore a cui attribuisci"},
+  {icona:"cuoremano", t:"Condizioni", d:"complessità e stabilità della persona assistita"},
+  {icona:"ospedale", t:"Contesto", d:"l'organizzazione in cui l'attività si svolge"}]},
+
 {id:"s34", tipo:"frase", tema:"tenue", sopratitolo:"Quando non si attribuisce",
   testo:"Se uno dei tre criteri non regge, l'attività *non si attribuisce*.",
   sotto:"Davanti a una persona instabile, la risposta giusta è no."},
@@ -153,8 +194,15 @@ export const SCENE = [
   testo:"Si giudica *la decisione*, non l'esito.",
   sotto:"La domanda non è se è andata male: è se la scelta era giusta quando l'hai fatta."},
 
-{id:"s38", tipo:"elenco", tema:"tenue", sopratitolo:"Che cosa NON è attribuibile",
-  vietato:true, voci:NON_ATTRIBUIBILI},
+{id:"s38", tipo:"griglia", tema:"chiaro", colonne:2,
+  sopratitolo:"Che cosa non si attribuisce mai", celle:[
+  {t:"**Accertamento** infermieristico", no:true},
+  {t:"**Diagnosi** infermieristica", no:true},
+  {t:"**Pianificazione** dell'assistenza", no:true},
+  {t:"**Valutazione** dei risultati", no:true},
+  {t:"**Gestione e somministrazione** della terapia", no:true},
+  {t:"**Valutazioni cliniche**", no:true}]},
+
 {id:"s39", tipo:"frase", tema:"tenue", sopratitolo:"Il filo comune",
   testo:"Sono *giudizi*, non compiti.",
   sotto:"L'OSS collabora, osserva e riferisce. Non pianifica e non decide."},
@@ -165,23 +213,35 @@ export const SCENE = [
 {id:"s41", tipo:"frase", tema:"chiaro", sopratitolo:"L'aggiornamento",
   testo:"Non è una facoltà: è un *dovere professionale*.",
   sotto:"E diventerà fondamento di responsabilità per imperizia — lezione 1.5."},
-{id:"s42", tipo:"tre", tema:"chiaro", sopratitolo:"Il campo di intervento non è l'ospedale", box:[
-  {t:"Strutture", d:"pubbliche e private"}, {t:"Territorio"},
-  {t:"Domicilio"}, {t:"Dipendenza", d:"o libera professione"}]},
+{id:"s42", tipo:"icone", tema:"chiaro", sopratitolo:"Dove si esercita — non solo l'ospedale", voci:[
+  {icona:"ospedale", t:"Strutture", d:"pubbliche e private"},
+  {icona:"cartella", t:"Territorio"},
+  {icona:"persone",  t:"Servizi territoriali"},
+  {icona:"certificato", t:"Libera professione"}]},
 
-{id:"s43", tipo:"tre", tema:"chiaro", sopratitolo:"Le cinque aree della formazione post-base", box:[
-  {t:"Sanità pubblica"}, {t:"Pediatria"}, {t:"Salute mentale e psichiatria"},
-  {t:"Geriatria"}, {t:"Area critica"}]},
-{id:"s44", tipo:"confronto", tema:"chiaro", sopratitolo:"Da non confondere", col:[
-  {h:"5 aree post-base · DM 739/1994", t:"ambiti clinici", grande:true},
-  {h:"4 livelli · L. 43/2006", t:"sviluppo di carriera", grande:true}]},
+{id:"s43", tipo:"icone", tema:"chiaro", sopratitolo:"Le cinque aree di formazione post-base", voci:[
+  {icona:"scudo",     t:"Sanità pubblica"},
+  {icona:"persona",   t:"Pediatria"},
+  {icona:"cuoremano", t:"Salute mentale e psichiatria"},
+  {icona:"ospedale",  t:"Geriatria"},
+  {icona:"avviso",    t:"Area critica"}]},
+
+{id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"Aree o livelli: due cose diverse",
+  intestazioni:["","Cinque aree post-base","Quattro livelli"], colonne:["22%","39%","39%"],
+  righe:[
+   ["La fonte","DM 739/1994","legge 43/2006"],
+   ["Che cosa sono","ambiti **clinici**","gradi di **carriera**"],
+   ["La domanda","**dove** lavori","**che ruolo** hai"]]},
+
 {id:"s45", tipo:"frase", tema:"chiaro", sopratitolo:"Il test per non sbagliare",
   testo:"Le aree rispondono a *dove lavori*. I livelli a *fin dove sei arrivato*."},
 
-{id:"s46", tipo:"elenco", tema:"profondo", sopratitolo:"I numeri del profilo",
-  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO, attive:[0,1,2]},
-{id:"s47", tipo:"elenco", tema:"profondo", sopratitolo:"I numeri del profilo",
-  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO, attive:[0,1,2,3,4,5]},
+{id:"s46", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1,2],
+  sopratitolo:"I numeri del profilo", celle:NUMERI12},
+
+{id:"s47", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1,2,3,4,5],
+  sopratitolo:"I numeri del profilo", celle:NUMERI12},
+
 {id:"s48", tipo:"confronto", tema:"profondo", sopratitolo:"E la regola d'oro", col:[
   {h:"Chi attribuisce", t:"risponde della scelta", grande:true},
   {h:"Chi esegue", t:"risponde della corretta esecuzione", grande:true}],

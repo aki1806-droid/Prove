@@ -214,3 +214,39 @@ scarto A/V     20 ms al massimo, su s29
 5. **La variante compatta dell'elenco** su `s13`-`s15` e `s47`-`s49`: il
    testo scende da 47 a 40 px. A me sembra ancora ben leggibile a schermo
    pieno, ma su un telefono e' la prima cosa da controllare.
+
+
+---
+
+# Secondo giro — l'apparato grafico
+
+Rifatte tutte le slide. **L'audio non e' stato toccato**: stesse tracce, stessi
+tagli, stessi 48 blocchi, stessa durata. Sono cambiate solo le
+immagini, e con loro le clip, le scene e il montato.
+
+```
+scene con una figura   15 su 50
+figure usate           griglia ×6 · icone ×3 · tabella ×3 · catena ×2 · tre ×1
+durata                 9:00.68   (invariata: l'audio e' lo stesso)
+```
+
+## Il video nuovo
+
+```
+video HeyGen   e1243f417f3898c5ff31ce685e0d0a6a
+               app.heygen.com/videos/e1243f417f3898c5ff31ce685e0d0a6a
+copia locale   montato-1.4.mp4 · 9:00.68 · 1920x1080 · 25 fps
+sottotitoli    montato-1.4.srt · 48 righe
+```
+
+Il video del primo giro resta dov'era: questo e' un video nuovo, non una
+sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
+
+## Da verificare — il secondo giro
+
+1. **Le figure**, una per una: i provini stanno in `slide/provino-*.png`.
+2. **Il colore non porta mai da solo un significato** nei grafici: il verde e
+   il rosso del marchio, accostati, hanno ΔE 3,4 in protanopia. Dove c'e' un
+   giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
+3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
+   non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.

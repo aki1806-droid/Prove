@@ -278,3 +278,39 @@ ElevenLabs è circa il doppio del costo reale.
    io dai due colori del marchio: non erano nello script.
 8. **Il contenuto normativo** viene dal tuo script e non l'ho riscritto nel
    merito: date, numeri di legge e formule sono i tuoi.
+
+
+---
+
+# Secondo giro — l'apparato grafico
+
+Rifatte tutte le slide. **L'audio non e' stato toccato**: stesse tracce, stessi
+tagli, stessi 48 blocchi, stessa durata. Sono cambiate solo le
+immagini, e con loro le clip, le scene e il montato.
+
+```
+scene con una figura   18 su 50
+figure usate           icone ×6 · griglia ×3 · catena ×2 · fonti ×2 · assetempo ×2 · tabella ×1 · perimetro ×1 · scala ×1
+durata                 8:56.44   (invariata: l'audio e' lo stesso)
+```
+
+## Il video nuovo
+
+```
+video HeyGen   5577290ed44fb45c2716e241fcbc34eb
+               app.heygen.com/videos/5577290ed44fb45c2716e241fcbc34eb
+copia locale   montato-1.1.mp4 · 8:56.44 · 1920x1080 · 25 fps
+sottotitoli    montato-1.1.srt · 48 righe
+```
+
+Il video del primo giro resta dov'era: questo e' un video nuovo, non una
+sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
+
+## Da verificare — il secondo giro
+
+1. **Le figure**, una per una: i provini stanno in `slide/provino-*.png`.
+2. **Il colore non porta mai da solo un significato** nei grafici: il verde e
+   il rosso del marchio, accostati, hanno ΔE 3,4 in protanopia. Dove c'e' un
+   giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
+3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
+   non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.

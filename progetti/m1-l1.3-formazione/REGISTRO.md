@@ -255,3 +255,39 @@ non e' mai stata fatta**, e adesso si potrebbe fare, perche' la strada esiste.
 Le tracce grezze di 1.2 non hanno piu' l'URL firmato — scaduto — ma si possono
 ricaricare, oppure si accetta che 1.2 resti l'unica lezione consegnata senza
 quel controllo.
+
+
+---
+
+# Secondo giro — l'apparato grafico
+
+Rifatte tutte le slide. **L'audio non e' stato toccato**: stesse tracce, stessi
+tagli, stessi 48 blocchi, stessa durata. Sono cambiate solo le
+immagini, e con loro le clip, le scene e il montato.
+
+```
+scene con una figura   19 su 50
+figure usate           griglia ×6 · scala ×5 · tabella ×4 · impila ×2 · icone ×1 · tre ×1
+durata                 8:57.36   (invariata: l'audio e' lo stesso)
+```
+
+## Il video nuovo
+
+```
+video HeyGen   2e341c71405f8d8272be0640171b2b2c
+               app.heygen.com/videos/2e341c71405f8d8272be0640171b2b2c
+copia locale   montato-1.3.mp4 · 8:57.36 · 1920x1080 · 25 fps
+sottotitoli    montato-1.3.srt · 48 righe
+```
+
+Il video del primo giro resta dov'era: questo e' un video nuovo, non una
+sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
+
+## Da verificare — il secondo giro
+
+1. **Le figure**, una per una: i provini stanno in `slide/provino-*.png`.
+2. **Il colore non porta mai da solo un significato** nei grafici: il verde e
+   il rosso del marchio, accostati, hanno ΔE 3,4 in protanopia. Dove c'e' un
+   giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
+3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
+   non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.

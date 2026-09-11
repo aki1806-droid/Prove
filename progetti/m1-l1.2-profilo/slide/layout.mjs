@@ -2,6 +2,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { CSS_GRAFICA, CORPI_GRAFICA, collega, FREGI } from './grafica.mjs';
 const QUI = dirname(fileURLToPath(import.meta.url));
 
 // --- palette ricavata dal marchio CISL FP Padova Rovigo ---
@@ -28,6 +29,8 @@ const MARCHIO = 'data:image/png;base64,' +
 const acc = s => String(s??'')
   .replace(/\*\*(.+?)\*\*/g, '<b class="a">$1</b>')
   .replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
+// grafica.mjs usa la stessa funzione, invece di tenerne una copia che diverge.
+collega(acc);
 
 const CSS = `
 ${FONT}
@@ -92,9 +95,11 @@ ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
 .el li .n.pt{color:var(--sop)}
 .el li b{font-weight:600;color:var(--tit)}
 .el li em{display:block;font-style:normal;font-size:33px;line-height:1.45;opacity:.72;margin-top:12px}
-/* Sette voci o piu' non ci stanno alla misura piena: l'elenco si stringe da
-   solo invece di farsi tagliare dalla cornice. La soglia sta in layout.mjs,
-   non nelle scene, cosi' nessuna lezione se ne puo' dimenticare. */
+/* Gli elenchi lunghi non ci stanno alla misura piena: si stringono da soli
+   invece di farsi tagliare dalla cornice. Le soglie stanno qui, non nelle
+   scene, cosi' nessuna lezione se ne puo' dimenticare. Sono due perche' una
+   voce con la sua spiegazione occupa il doppio: sette voci nude, oppure
+   cinque se almeno una porta la riga di spiegazione. */
 ol.el.fitto,ul.el.fitto{gap:20px}
 .el.fitto li{font-size:40px;line-height:1.24;gap:28px}
 .el.fitto li .n{flex:0 0 62px;font-size:29px}
@@ -241,6 +246,8 @@ ol.el.fitto,ul.el.fitto{gap:20px}
 .tl .t:nth-child(7){animation-delay:.92s}
 .fonti .limite{animation-delay:.72s}
 
+${CSS_GRAFICA}
+
 /* ferme: l'orologio lo muove il generatore. Deve stare in coda a tutto. */
 .slide *{animation-play-state:paused}
 `;
@@ -251,20 +258,22 @@ const CORPI = {
       <div class="st">${acc(d.sottotitolo)}</div><div class="riga"></div>
       <div class="ente">${d.ente}</div>`,
 
-  titolo: d => `<h1>${acc(d.titolo)}</h1>${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+  titolo: d => `${FREGI.barra}<h1>${acc(d.titolo)}</h1>${
+      d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
 
   frase: d => `<div class="frase serif">${acc(d.testo)}</div>
       ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
 
-  norma: d => `<div class="norma"><small>${d.etichetta}</small>${d.sigla}</div>
+  norma: d => `${FREGI.sigillo}<div class="norma"><small>${d.etichetta}</small>${d.sigla}</div>
       <div class="frase serif">${acc(d.testo)}</div>`,
 
-  numero: d => `<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
+  numero: d => `${FREGI.anello}<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
 
-  citazione: d => `<div class="cita serif"><span class="q">«</span>${acc(d.testo)}<span class="q">»</span></div>
+  citazione: d => `${FREGI.virgolette}<div class="cita serif">${acc(d.testo)}</div>
       <div class="fonte">${d.fonte}</div>`,
 
-  elenco: d => `<${d.numerato?'ol':'ul'} class="el ${d.voci.length>=7?'fitto':''}">${d.voci.map((v,i)=>
+  elenco: d => `<${d.numerato?'ol':'ul'} class="el ${
+      d.voci.length>=7 || (d.voci.length>=5 && d.voci.some(v=>v.d)) ? 'fitto':''}">${d.voci.map((v,i)=>
       `<li class="${(d.attive??d.voci.map((_,k)=>k)).includes(i)?'on':''}">
          <span class="n ${d.numerato?'':'pt'} ${d.grandi?'gr':''} ${d.vietato?'no':''}">${
             d.marcatori ? d.marcatori[i] : (d.vietato?'×':(d.numerato?(d.da??1)+i:'—'))}</span>
@@ -314,9 +323,17 @@ const CORPI = {
         ${d.voci.map(v=>`<div class="v">${acc(v)}</div>`).join('')}</div></div></div>`,
 };
 
+const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
+// I grafici non vanno sul verde pieno: le tinte dei dati non ci arrivano a 3:1
+// di contrasto senza uscire dalla banda di chiarezza. Meglio accorgersene qui
+// che scoprirlo guardando il video.
+const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
+
 export function html(d, {avanzamento=0, pagina=''}={}) {
+  if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
+    throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
   const t = TEMI[d.tema ?? 'chiaro'];
-  const corpo = CORPI[d.tipo](d);
+  const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';
   return `<!doctype html><meta charset="utf-8"><style>${CSS}</style>
 <body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''}"

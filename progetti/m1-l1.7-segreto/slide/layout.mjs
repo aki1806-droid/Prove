@@ -2,6 +2,7 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { CSS_GRAFICA, CORPI_GRAFICA, collega, FREGI } from './grafica.mjs';
 const QUI = dirname(fileURLToPath(import.meta.url));
 
 // --- palette ricavata dal marchio CISL FP Padova Rovigo ---
@@ -28,6 +29,8 @@ const MARCHIO = 'data:image/png;base64,' +
 const acc = s => String(s??'')
   .replace(/\*\*(.+?)\*\*/g, '<b class="a">$1</b>')
   .replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
+// grafica.mjs usa la stessa funzione, invece di tenerne una copia che diverge.
+collega(acc);
 
 const CSS = `
 ${FONT}
@@ -243,6 +246,8 @@ ol.el.fitto,ul.el.fitto{gap:20px}
 .tl .t:nth-child(7){animation-delay:.92s}
 .fonti .limite{animation-delay:.72s}
 
+${CSS_GRAFICA}
+
 /* ferme: l'orologio lo muove il generatore. Deve stare in coda a tutto. */
 .slide *{animation-play-state:paused}
 `;
@@ -253,17 +258,18 @@ const CORPI = {
       <div class="st">${acc(d.sottotitolo)}</div><div class="riga"></div>
       <div class="ente">${d.ente}</div>`,
 
-  titolo: d => `<h1>${acc(d.titolo)}</h1>${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+  titolo: d => `${FREGI.barra}<h1>${acc(d.titolo)}</h1>${
+      d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
 
   frase: d => `<div class="frase serif">${acc(d.testo)}</div>
       ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
 
-  norma: d => `<div class="norma"><small>${d.etichetta}</small>${d.sigla}</div>
+  norma: d => `${FREGI.sigillo}<div class="norma"><small>${d.etichetta}</small>${d.sigla}</div>
       <div class="frase serif">${acc(d.testo)}</div>`,
 
-  numero: d => `<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
+  numero: d => `${FREGI.anello}<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
 
-  citazione: d => `<div class="cita serif"><span class="q">«</span>${acc(d.testo)}<span class="q">»</span></div>
+  citazione: d => `${FREGI.virgolette}<div class="cita serif">${acc(d.testo)}</div>
       <div class="fonte">${d.fonte}</div>`,
 
   elenco: d => `<${d.numerato?'ol':'ul'} class="el ${
@@ -317,9 +323,17 @@ const CORPI = {
         ${d.voci.map(v=>`<div class="v">${acc(v)}</div>`).join('')}</div></div></div>`,
 };
 
+const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
+// I grafici non vanno sul verde pieno: le tinte dei dati non ci arrivano a 3:1
+// di contrasto senza uscire dalla banda di chiarezza. Meglio accorgersene qui
+// che scoprirlo guardando il video.
+const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
+
 export function html(d, {avanzamento=0, pagina=''}={}) {
+  if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
+    throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
   const t = TEMI[d.tema ?? 'chiaro'];
-  const corpo = CORPI[d.tipo](d);
+  const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';
   return `<!doctype html><meta charset="utf-8"><style>${CSS}</style>
 <body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''}"

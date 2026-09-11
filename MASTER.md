@@ -545,6 +545,64 @@ icone e quattro diagrammi sono stati rifatti dopo averli visti: un'icona che
 non si legge a colpo d'occhio non serve a niente, e questo non si scopre
 leggendo il codice.
 
+### Le figure: tabelle, grafici, diagrammi, icone
+
+Un corso fatto di sole parole in pagina non e' un video: e' una dispensa letta
+ad alta voce. Le figure stanno in `grafica.mjs`, accanto a `layout.mjs`, e sono
+un vocabolario chiuso — tredici tipi piu' una serie di icone vettoriali — non
+un disegno diverso per ogni slide.
+
+| Famiglia | Tipi | Quando |
+|---|---|---|
+| dati | `barre` `impila` `assetempo` `scadenza` | c'e' una **quantita'** vera |
+| struttura | `tabella` `matrice` `albero` `venn` | ci sono **due o piu' dimensioni** da incrociare |
+| sequenza | `catena` `scala` `piramide` | c'e' un **ordine** o una gerarchia |
+| insiemi | `griglia` `icone` | c'e' un **elenco** che merita forma |
+
+**Il colore dei dati si calcola, non si sceglie a occhio.** Il verde e il rosso
+del marchio, accostati in un grafico, hanno **ΔE 3,4 in protanopia**: per un
+daltonico sono la stessa tinta. La serie categoriale passa i sei controlli
+(banda di chiarezza, croma, separazione CVD, soglia a vista normale, contrasto
+sul fondo) ed e' `#00623A · #B07A12 · #3E6FA8 · #D70328`. Regola che ne discende
+e che vale sempre: **il colore non porta mai da solo un significato** — ogni
+serie ha l'etichetta attaccata, e giusto/sbagliato portano anche il segno (✓ ×).
+
+**I dati non vanno sul fondo scuro.** Sul verde pieno le tinte che rispettano la
+banda di chiarezza per fondo scuro non arrivano a 3:1 di contrasto. Invece di
+forzarle, `layout.mjs` rifiuta il render: sul verde restano le slide di
+affermazione, i dati stanno sul bianco.
+
+**Una figura che esce sempre uguale non e' un grafico.** Una ciambella che
+disegna 150 su 150 e un quadrante che segna 48 ore su 48 sono sempre pieni:
+non dicono niente. Al loro posto stanno `impila` (la composizione: 150 crediti
+sono tre anni da 50) e `scadenza` (la finestra di tempo con **due** soglie:
+subito se c'e' pericolo, 48 ore altrimenti).
+
+**La linea del tempo va in scala.** Fra il 1974 e il 1992 ci sono diciotto anni,
+fra il 1999 e il 2000 uno: una timeline a passo fisso dice il contrario di
+quello che e' successo. `assetempo` posiziona le tappe sull'asse vero, con la
+griglia dei decenni dietro.
+
+#### Tre trappole, tutte e tre costate un giro di render
+
+1. **Nel testo di un SVG il markup non esiste.** `<b>` non e' un elemento SVG:
+   finisce renderizzato come un pezzo di testo a se', fuori posto. Nei `<text>`
+   gli asterischi si tolgono (`piano()`); dove serve il grassetto si usa
+   `foreignObject`.
+2. **Un `<text>` SVG non va a capo.** Due tappe vicine si sovrappongono e non
+   se ne accorge nessun controllo automatico. Le didascalie stanno in
+   `foreignObject`, e la loro larghezza non e' fissa: e' quella che ci sta fino
+   alla tappa vicina **della stessa riga** — l'alternanza sopra/sotto separa le
+   vicine, non quelle due posizioni piu' in la'.
+3. **Un riquadro SVG ad altezza fissa taglia il testo piu' lungo.** L'albero di
+   decisione e' in HTML, dove i riquadri crescono col contenuto.
+
+#### Le soglie stanno nella libreria, non nelle scene
+
+Come per gli elenchi: `griglia` si stringe da sola oltre le sei caselle su una
+colonna, `icone` oltre le quattro. Se la soglia sta nelle scene, ogni lezione
+se ne dimentica per conto suo.
+
 ### Il controllo di traboccamento, e come si sbaglia a scriverlo
 
 Un controllo automatico che il testo non esca dalla cornice serve, perché una

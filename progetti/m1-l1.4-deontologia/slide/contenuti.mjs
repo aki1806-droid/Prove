@@ -25,6 +25,24 @@ const MEMO = [
  "Obiezione: solo nei casi di legge — restano dovute **assistenza e prestazioni indifferibili**",
 ];
 
+
+// --- figure ricorrenti della lezione ---
+const CAPIG = [
+ {n:"I",    t:"**Principi e valori**"},
+ {n:"II",   t:"**Responsabilità assistenziale**"},
+ {n:"III",  t:"**Rapporti professionali**", d:"équipe e personale di supporto"},
+ {n:"IV",   t:"**Rapporti con le persone assistite**"},
+ {n:"V",    t:"**Comunicazione**", d:"anche digitale e social"},
+ {n:"VI",   t:"**Organizzazione**"},
+ {n:"VII",  t:"**Libera professione**"},
+ {n:"VIII", t:"**Disposizioni finali**"},
+];
+const PRESCR = [
+ {t:"**Chiede al prescrittore** di chiarire"},
+ {t:"Se il dubbio permane, **non dà corso** all'atto"},
+ {t:"**Motiva e documenta** la scelta"},
+];
+
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
   modulo:"Modulo 1 · La professione infermieristica",
@@ -37,11 +55,12 @@ export const SCENE = [
   testo:"Il Codice non sta solo nelle domande dirette. Sta *dentro i casi clinici*.",
   sotto:"Dove la risposta giusta è quasi sempre quella deontologicamente sostenibile."},
 
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"In questa lezione", numerato:true, voci:[
-  {t:"Che cos'è il Codice e **chi lo adotta**"},
-  {t:"Come è strutturato: sapere **in quale capo** sta un tema"},
-  {t:"I temi che tornano sempre"},
-  {t:"Deontologia, disciplinare, **legge**"}]},
+{id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro cose", voci:[
+  {icona:"libro",    t:"Che cos'è", d:"e chi lo adotta"},
+  {icona:"cartella", t:"Com'è strutturato", d:"53 articoli in 8 capi"},
+  {icona:"avviso",   t:"I temi ricorrenti", d:"contenzione, verità, rifiuto"},
+  {icona:"chat",     t:"I social", d:"la novità del 2019"}]},
+
 {id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"I temi che tornano sempre", marcatori:["—","—","—","—","—"], voci:[
   {t:"**Contenzione**"}, {t:"**Prescrizione dubbia**"}, {t:"**Verità** e informazione"},
   {t:"**Rifiuto** delle cure"}, {t:"**Social media**"}]},
@@ -53,7 +72,14 @@ export const SCENE = [
   testo:"La professione, attraverso la sua Federazione. Non il Parlamento: è *autoregolamentazione*.",
   sotto:"Ma autoregolamentazione **non** significa priva di peso giuridico."},
 
-{id:"s08", tipo:"tre", tema:"chiaro", sopratitolo:"I tre piani", box:PIANI, attive:[0]},
+{id:"s08", tipo:"tabella", tema:"chiaro", sopratitolo:"Tre fonti, tre responsabilità diverse",
+  intestazioni:["Fonte","Chi la pone","Che responsabilità genera"], colonne:["30%","30%","40%"],
+  chiave:[2],
+  righe:[
+   ["**Legge**","il Parlamento","penale, civile, amministrativa"],
+   ["**Contratto** e codice di comportamento","le parti / l'amministrazione","disciplinare, verso il datore di lavoro"],
+   ["**Codice deontologico**","la professione, tramite la FNOPI","deontologica, davanti all'Ordine"]]},
+
 {id:"s09", tipo:"tre", tema:"chiaro", sopratitolo:"I tre piani", box:PIANI},
 
 {id:"s10", tipo:"titolo", tema:"profondo",
@@ -66,12 +92,14 @@ export const SCENE = [
   etichetta:"Il Codice è fonte del campo di attività", sigla:"L. 42/1999",
   testo:"Una norma deontologica concorre a definire *ciò che devi fare* — e il giudice la richiama per valutare la **diligenza professionale**."},
 
-{id:"s13", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
-  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d})), attive:[0,1]},
-{id:"s14", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
-  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d})), attive:[0,1,2,3,4]},
-{id:"s15", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa degli otto capi",
-  marcatori:CAPI.map(c=>c.n), numerato:true, voci:CAPI.map(c=>({t:c.t, d:c.d}))},
+{id:"s13", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1],
+  sopratitolo:"La mappa degli otto capi", celle:CAPIG},
+
+{id:"s14", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4],
+  sopratitolo:"La mappa degli otto capi", celle:CAPIG},
+
+{id:"s15", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7],
+  sopratitolo:"La mappa degli otto capi", celle:CAPIG},
 
 {id:"s16", tipo:"titolo", tema:"profondo",
   titolo:"Il **tempo di relazione**<br>è tempo di cura.",
@@ -94,10 +122,11 @@ export const SCENE = [
 {id:"s21", tipo:"frase", tema:"chiaro", sopratitolo:"Situazione classica",
   testo:"Una prescrizione *non chiara*, *non appropriata*, o in contrasto con la tua valutazione professionale.",
   sotto:"Che cosa fa l'infermiere?"},
-{id:"s22", tipo:"elenco", tema:"profondo", sopratitolo:"La sequenza", numerato:true, grandi:true, voci:[
-  {t:"**Chiede chiarimenti** al prescrittore"},
-  {t:"Se il dubbio permane, **non dà corso** all'atto"},
-  {t:"**Motiva e documenta**"}]},
+{id:"s22", tipo:"catena", tema:"chiaro", sopratitolo:"Prescrizione dubbia: la sequenza",
+  passi:[{t:"Chiede chiarimento", d:"al prescrittore"},
+         {t:"Non dà corso", d:"se il dubbio permane"},
+         {t:"Documenta", d:"motivando la scelta", key:true}]},
+
 {id:"s23", tipo:"trappola", tema:"tenue", sopratitolo:"Sbagliate entrambe le estreme", righe:[
   {sb:"«esegue comunque, la prescrizione è del medico»", ok:"il dubbio va *chiarito prima*"},
   {sb:"«corregge la prescrizione da sé»", ok:"non la prescrive e *non la modifica*"}]},
@@ -111,10 +140,11 @@ export const SCENE = [
 {id:"s26", tipo:"norma", tema:"chiaro", sopratitolo:"La contenzione",
   etichetta:"Il tema che all'orale torna sempre", sigla:"Evento eccezionale",
   testo:"Motivato da prescrizione medica o da *documentate valutazioni assistenziali*, e limitato nel tempo."},
-{id:"s27", tipo:"tre", tema:"chiaro", sopratitolo:"Tre requisiti, e vanno detti tutti e tre", box:[
-  {n:"1", t:"Eccezionalità"},
-  {n:"2", t:"Motivazione documentata"},
-  {n:"3", t:"Limite temporale"}]},
+{id:"s27", tipo:"icone", tema:"chiaro", sopratitolo:"Contenzione: i tre requisiti", voci:[
+  {icona:"avviso",   t:"Eccezionalità", d:"è un evento straordinario, non un presidio"},
+  {icona:"documento", t:"Motivazione documentata", d:"in cartella, non a voce"},
+  {icona:"orologio", t:"Limite temporale", d:"con rivalutazione periodica"}]},
+
 {id:"s28", tipo:"titolo", tema:"profondo",
   titolo:"Non si contiene<br>per **carenza di personale**.",
   sotto:"La contenzione non è mai una misura organizzativa."},
@@ -143,18 +173,20 @@ export const SCENE = [
 {id:"s35", tipo:"elenco", tema:"chiaro", sopratitolo:"La volontà espressa", voci:[
   {t:"Tutela le **disposizioni anticipate di trattamento**"},
   {t:"Sostiene la **pianificazione condivisa** delle cure", d:"su consenso e DAT torniamo in modo sistematico nella 1.6"}]},
-{id:"s36", tipo:"confronto", tema:"profondo", sopratitolo:"Nel fine vita", col:[
-  {h:"Garantisce", t:"controllo dei sintomi, sedazione quando indicata, dignità, presenza dei familiari"},
-  {h:"Non attua né favorisce", t:"trattamenti finalizzati a provocare la morte"}],
-  sotto:"Assiste *fino al termine della vita*."},
+{id:"s36", tipo:"icone", tema:"chiaro", sopratitolo:"Nel fine vita", voci:[
+  {icona:"goccia",    t:"Controllo dei sintomi"},
+  {icona:"cuoremano", t:"Sedazione", d:"quando indicata"},
+  {icona:"scudo",     t:"Dignità"},
+  {icona:"persone",   t:"Presenza dei familiari"}]},
 
 {id:"s37", tipo:"frase", tema:"chiaro", sopratitolo:"L'obiezione di coscienza",
   testo:"Due limiti, e vanno detti *insieme*: è la loro combinazione a fare la risposta corretta.",
   sotto:"Primo: si obietta solo nei casi previsti dalla legge, non a piacimento."},
-{id:"s38", tipo:"elenco", tema:"profondo", sopratitolo:"Secondo: l'obiezione non copre l'assistenza", voci:[
-  {t:"Resta dovuta l'**assistenza prima e dopo** l'atto"},
-  {t:"Resta dovuta ogni prestazione **urgente o indifferibile**"},
-  {t:"Le conseguenze della scelta **non ricadono sulla persona assistita**"}]},
+{id:"s38", tipo:"tabella", tema:"chiaro", sopratitolo:"Obiezione di coscienza: i due limiti",
+  intestazioni:["Il limite","Che cosa vuol dire"], colonne:["34%","66%"],
+  righe:[
+   ["Solo nei **casi previsti dalla legge**","non è un'obiezione generale a ciò che non si condivide"],
+   ["Non copre l'**assistenza**","restano dovute l'assistenza prima e dopo l'atto e ogni urgenza"]]},
 
 {id:"s39", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo III · l'équipe", voci:[
   {t:"**Collabora** e tutela la dignità dei membri dell'équipe"},
@@ -162,21 +194,22 @@ export const SCENE = [
   {t:"I contrasti si affrontano **nelle sedi opportune**", d:"mai davanti alla persona assistita"}]},
 {id:"s40", tipo:"frase", tema:"chiaro", sopratitolo:"Ma quando qualcuno sbaglia",
   testo:"Se un comportamento, *anche di un collega*, mette a rischio la sicurezza o la dignità della persona, il Codice impone di **segnalare**."},
-{id:"s41", tipo:"elenco", tema:"profondo", sopratitolo:"La sequenza, sempre la stessa", numerato:true, grandi:true, voci:[
-  {t:"**Mettere in sicurezza** la persona"},
-  {t:"**Informare** chi di competenza"},
-  {t:"**Documentare**"}],
-  },
+{id:"s41", tipo:"catena", tema:"chiaro", sopratitolo:"Comportamento a rischio di un collega",
+  passi:[{t:"Mettere in sicurezza", d:"la persona assistita, subito"},
+         {t:"Informare", d:"chi di competenza"},
+         {t:"Documentare", d:"coprire il collega non è solidarietà", key:true}]},
 
 {id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"Capo V · la novità del 2019",
   testo:"Nei mezzi di comunicazione e nei social media l'infermiere agisce con *prudenza e decoro*.",
   sotto:"È il capo da cui vengono i casi d'esame più recenti."},
 {id:"s43", tipo:"frase", tema:"chiaro", sopratitolo:"La riservatezza",
   testo:"Non diffonde immagini o informazioni che rendano *identificabile* la persona assistita."},
-{id:"s44", tipo:"confronto", tema:"tenue", sopratitolo:"La regola pratica", col:[
-  {h:"Corretto", t:"per la documentazione clinica, **col consenso**, dentro il sistema aziendale"},
-  {h:"Violazione", t:"col telefono personale, in chat — **anche fra colleghi**"}],
-  sotto:"E togliere il volto *non risolve*."},
+{id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"La stessa fotografia, due situazioni opposte",
+  intestazioni:["","Documentazione clinica","Immagine in chat"], colonne:["22%","39%","39%"],
+  righe:[
+   ["Con che strumento","si:il sistema aziendale","no:il telefono personale"],
+   ["Con quale base","si:il consenso della persona","no:nessuna"],
+   ["Che cos'è","si:un atto professionale","no:un illecito deontologico e privacy"]]},
 
 {id:"s45", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo VI · l'organizzazione", numerato:true, voci:[
   {t:"**Segnala** alle figure competenti le carenze di risorse o organizzazione", d:"che possano compromettere sicurezza e qualità dell'assistenza"},
@@ -185,12 +218,35 @@ export const SCENE = [
   testo:"La **segnalazione documentata**.",
   sotto:"Subire in silenzio una carenza nota non protegge nessuno, e sul piano della responsabilità professionale espone."},
 
-{id:"s47", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
-  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t})), attive:[0,1,2]},
-{id:"s48", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
-  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t})), attive:[0,1,2,3,4]},
-{id:"s49", tipo:"elenco", tema:"profondo", sopratitolo:"I sette punti",
-  numerato:true, marcatori:NUMERI, grandi:true, voci:MEMO.map(t=>({t}))},
+{id:"s47", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
+  sopratitolo:"I sette punti da portare all'esame", celle:[
+  {t:"Codice **2019**, adottato dalla **FNOPI**: **53 articoli in 8 capi**"},
+  {t:"È **fonte del campo di attività** (legge 42/1999): non è un galateo"},
+  {t:"**Contenzione**: eccezionale, motivata, limitata — **mai per carenza di personale**"},
+  {t:"**Prescrizione dubbia**: chiedi, non dare corso, documenta"},
+  {t:"Non si comunica la **diagnosi**, ma **non si mente**"},
+  {t:"**Obiezione**: solo nei casi di legge, e l'assistenza resta dovuta"},
+  {t:"**Social**: mai immagini che rendano identificabile la persona"}]},
+
+{id:"s48", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3],
+  sopratitolo:"I sette punti da portare all'esame", celle:[
+  {t:"Codice **2019**, adottato dalla **FNOPI**: **53 articoli in 8 capi**"},
+  {t:"È **fonte del campo di attività** (legge 42/1999): non è un galateo"},
+  {t:"**Contenzione**: eccezionale, motivata, limitata — **mai per carenza di personale**"},
+  {t:"**Prescrizione dubbia**: chiedi, non dare corso, documenta"},
+  {t:"Non si comunica la **diagnosi**, ma **non si mente**"},
+  {t:"**Obiezione**: solo nei casi di legge, e l'assistenza resta dovuta"},
+  {t:"**Social**: mai immagini che rendano identificabile la persona"}]},
+
+{id:"s49", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3,4,5,6],
+  sopratitolo:"I sette punti da portare all'esame", celle:[
+  {t:"Codice **2019**, adottato dalla **FNOPI**: **53 articoli in 8 capi**"},
+  {t:"È **fonte del campo di attività** (legge 42/1999): non è un galateo"},
+  {t:"**Contenzione**: eccezionale, motivata, limitata — **mai per carenza di personale**"},
+  {t:"**Prescrizione dubbia**: chiedi, non dare corso, documenta"},
+  {t:"Non si comunica la **diagnosi**, ma **non si mente**"},
+  {t:"**Obiezione**: solo nei casi di legge, e l'assistenza resta dovuta"},
+  {t:"**Social**: mai immagini che rendano identificabile la persona"}]},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Fine della micro-lezione 1.4",

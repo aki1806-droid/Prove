@@ -200,3 +200,39 @@ Nessuna. Lezione a sole slide, nessuna pausa senza voce.
    merito. L'unica cosa che ho aggiunto di mio e che vale la pena ricontrollare
    è in `s06`: «essere un regolamento e non una legge conta, si cambia con un
    altro decreto».
+
+
+---
+
+# Secondo giro — l'apparato grafico
+
+Rifatte tutte le slide. **L'audio non e' stato toccato**: stesse tracce, stessi
+tagli, stessi 48 blocchi, stessa durata. Sono cambiate solo le
+immagini, e con loro le clip, le scene e il montato.
+
+```
+scene con una figura   20 su 50
+figure usate           icone ×9 · griglia ×7 · tabella ×4
+durata                 8:55.79   (invariata: l'audio e' lo stesso)
+```
+
+## Il video nuovo
+
+```
+video HeyGen   b83a70ee290488cc5a772ba8af6e6124
+               app.heygen.com/videos/b83a70ee290488cc5a772ba8af6e6124
+copia locale   montato-1.2.mp4 · 8:55.79 · 1920x1080 · 25 fps
+sottotitoli    montato-1.2.srt · 48 righe
+```
+
+Il video del primo giro resta dov'era: questo e' un video nuovo, non una
+sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
+
+## Da verificare — il secondo giro
+
+1. **Le figure**, una per una: i provini stanno in `slide/provino-*.png`.
+2. **Il colore non porta mai da solo un significato** nei grafici: il verde e
+   il rosso del marchio, accostati, hanno ΔE 3,4 in protanopia. Dove c'e' un
+   giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
+3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
+   non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.

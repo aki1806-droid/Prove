@@ -44,6 +44,31 @@ const MEMO = [
  "Autonomia: **L. 251/2000** · Albo obbligatorio: **L. 43/2006**",
 ];
 
+
+// --- figure ricorrenti della lezione ---
+const DIFETTI = [
+ {icona:"lucchetto", t:"Rigido", d:"ogni innovazione clinica rendeva l'elenco vecchio"},
+ {icona:"divieto",   t:"Deresponsabilizzante", d:"si rispondeva dell'atto, non dell'assistenza"},
+ {icona:"cappello",  t:"Incoerente con la formazione", d:"l'università formava un professionista, l'elenco un esecutore"},
+];
+const ATTIVITA = [
+ {n:"1", t:"**Partecipa** all'identificazione dei bisogni **di salute**"},
+ {n:"2", t:"**Identifica** i bisogni **di assistenza infermieristica** e formula gli obiettivi"},
+ {n:"3", t:"**Pianifica, gestisce e valuta** l'intervento assistenziale"},
+ {n:"4", t:"**Garantisce** la corretta applicazione delle prescrizioni"},
+ {n:"5", t:"**Agisce** individualmente o in collaborazione, anche con il personale di supporto"},
+];
+const L42 = [
+ {t:"Abroga il mansionario", d:"e con esso la logica dell'elenco chiuso"},
+ {t:"Cambia la denominazione", d:"da «ausiliarie» a **professioni sanitarie**"},
+ {t:"Individua i criteri", d:"che delimitano il campo proprio di attività", key:true},
+];
+const TAPPE11 = [
+ {anno:1974, et:"mansionario"}, {anno:1992, et:"formazione all'università"},
+ {anno:1994, et:"profilo · DM 739"}, {anno:1999, et:"legge 42", key:true},
+ {anno:2000, et:"legge 251"}, {anno:2006, et:"albo · legge 43"}, {anno:2018, et:"Ordini"},
+];
+
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
   modulo:"Modulo 1 · La professione infermieristica",
@@ -54,27 +79,33 @@ export const SCENE = [
   testo:"Partiamo dal punto da cui *discende tutto il resto*."},
 {id:"s03", tipo:"titolo", tema:"chiaro", sopratitolo:"La domanda di partenza",
   titolo:"Che cosa può fare<br>un infermiere?", sotto:"E soprattutto: *chi lo stabilisce*."},
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"In questa lezione", numerato:true, voci:[
-  {t:"Cos'era il **mansionario**, e perché è caduto"},
-  {t:"Le **tre fonti** del campo di attività"},
-  {t:"La linea del tempo **1974 → 2018**"},
-  {t:"I **distrattori** tipici dei quiz"}]},
+{id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"In questa lezione", voci:[
+  {icona:"libro",       t:"Il mansionario", d:"che cos'era e perché è caduto"},
+  {icona:"bilancia",    t:"Le tre fonti", d:"il campo proprio di attività"},
+  {icona:"certificato", t:"L'autonomia", d:"legge 251 e albo"},
+  {icona:"avviso",      t:"Le trappole", d:"quelle che tornano nei quiz"}]},
 
 {id:"s05", tipo:"norma", tema:"chiaro", sopratitolo:"Il mansionario",
   etichetta:"Fino al 1999", sigla:"DPR 225/1974", testo:"Un elenco *tassativo* di mansioni."},
-{id:"s06", tipo:"confronto", tema:"chiaro", sopratitolo:"La logica dell'elenco chiuso", col:[
-  {h:"Consentito", t:"solo ciò che l'elenco prevedeva", grande:true},
-  {h:"Vietato", t:"tutto il resto", grande:true}]},
+{id:"s06", tipo:"tabella", tema:"chiaro", sopratitolo:"Due modi opposti di definire una professione",
+  intestazioni:["","Mansionario (fino al 1999)","Dal 1999 in poi"], colonne:["20%","40%","40%"],
+  righe:[
+   ["La regola","Un **elenco tassativo** di mansioni","Un **perimetro** definito da tre fonti"],
+   ["Il criterio","È consentito ciò che l'elenco prevede","È consentito ciò che rientra nel perimetro"],
+   ["Il nome","Professioni sanitarie **ausiliarie**","Professioni **sanitarie**"]]},
+
 {id:"s07", tipo:"frase", tema:"chiaro", sopratitolo:"La collocazione della professione",
   testo:"Professioni sanitarie **ausiliarie**.",
   sotto:"Ausiliarie rispetto alla professione medica. Non un dettaglio lessicale: la posizione della professione dentro il sistema."},
 
-{id:"s08", tipo:"elenco", tema:"tenue", sopratitolo:"Perché non poteva reggere", numerato:true,
-  voci:TRE_DIFETTI, attive:[0]},
-{id:"s09", tipo:"elenco", tema:"tenue", sopratitolo:"Perché non poteva reggere", numerato:true,
-  voci:TRE_DIFETTI, attive:[0,1]},
-{id:"s10", tipo:"elenco", tema:"tenue", sopratitolo:"Perché non poteva reggere", numerato:true,
-  voci:TRE_DIFETTI, attive:[0,1,2]},
+{id:"s08", tipo:"icone", tema:"chiaro", sopratitolo:"I tre difetti che l'hanno condannato",
+  attive:[0], voci:DIFETTI},
+
+{id:"s09", tipo:"icone", tema:"chiaro", sopratitolo:"I tre difetti che l'hanno condannato",
+  attive:[0,1], voci:DIFETTI},
+
+{id:"s10", tipo:"icone", tema:"chiaro", sopratitolo:"I tre difetti che l'hanno condannato",
+  attive:[0,1,2], voci:DIFETTI},
 
 {id:"s11", tipo:"norma", tema:"chiaro", sopratitolo:"Il profilo professionale",
   etichetta:"Prima dell'abrogazione", sigla:"DM 739/1994",
@@ -86,20 +117,26 @@ export const SCENE = [
   da:{h:"Non dice", t:"collabora · esegue"}, a:{h:"Dice", t:"risponde in proprio"},
   sotto:"Se puoi sostituire *responsabile* con *collabora* e la frase regge lo stesso, non l'hai capita."},
 
-{id:"s14", tipo:"tre", tema:"chiaro", sopratitolo:"La natura dell'assistenza", box:[
-  {n:"01", t:"Tecnica"}, {n:"02", t:"Relazionale"}, {n:"03", t:"Educativa"}]},
+{id:"s14", tipo:"icone", tema:"chiaro", sopratitolo:"La natura dell'assistenza infermieristica", voci:[
+  {icona:"ingranaggio", t:"Tecnica", d:"il gesto, la procedura, il presidio"},
+  {icona:"cuoremano",   t:"Relazionale", d:"la relazione di cura con la persona"},
+  {icona:"cappello",    t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
+
 {id:"s15", tipo:"trappola", tema:"tenue", sopratitolo:"Il distrattore più diffuso",
   righe:[{sb:"«di natura tecnica e relazionale»", ok:"tecnica, relazionale ed *educativa*: tre, non due"}]},
 
 {id:"s16", tipo:"frase", tema:"chiaro", sopratitolo:"Le cinque attività · DM 739/1994 art. 1 c. 3",
   testo:"Il primo dei *due passaggi* da mandare a memoria.",
   sotto:"Le attività dell'infermiere in relazione al processo assistenziale."},
-{id:"s17", tipo:"elenco", tema:"chiaro", sopratitolo:"Le cinque attività", numerato:true,
-  voci:CINQUE, attive:[0,1]},
-{id:"s18", tipo:"elenco", tema:"chiaro", sopratitolo:"Le cinque attività", numerato:true,
-  voci:CINQUE, attive:[0,1,2]},
-{id:"s19", tipo:"elenco", tema:"chiaro", sopratitolo:"Le cinque attività", numerato:true,
-  voci:CINQUE, attive:[0,1,2,3,4]},
+{id:"s17", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
+  sopratitolo:"Le cinque attività — DM 739, comma 3", celle:ATTIVITA},
+
+{id:"s18", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2],
+  sopratitolo:"Le cinque attività — DM 739, comma 3", celle:ATTIVITA},
+
+{id:"s19", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3,4],
+  sopratitolo:"Le cinque attività — DM 739, comma 3", celle:ATTIVITA},
+
 {id:"s20", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Il personale di supporto",
   da:{h:"Non è", t:"delegare la responsabilità"}, a:{h:"È", t:"avvalersi dell'opera"},
   sotto:"La responsabilità di ciò che gli attribuisci *resta tua*."},
@@ -116,10 +153,11 @@ export const SCENE = [
 
 {id:"s24", tipo:"numero", tema:"chiaro", sopratitolo:"Lo spartiacque", cifra:"1999",
   testo:"Legge 42"},
-{id:"s25", tipo:"elenco", tema:"chiaro", sopratitolo:"La legge 42/1999 fa tre cose", numerato:true,
-  voci:TRE_COSE_42, attive:[0,1]},
-{id:"s26", tipo:"elenco", tema:"chiaro", sopratitolo:"La legge 42/1999 fa tre cose", numerato:true,
-  voci:TRE_COSE_42, attive:[0,1,2]},
+{id:"s25", tipo:"catena", tema:"chiaro", sopratitolo:"Legge 42/1999 — tre cose in una",
+  attive:[0,1], passi:L42},
+
+{id:"s26", tipo:"catena", tema:"chiaro", sopratitolo:"Legge 42/1999 — tre cose in una",
+  attive:[0,1,2], passi:L42},
 
 {id:"s27", tipo:"titolo", tema:"profondo", sopratitolo:"Il secondo passaggio da mandare a memoria",
   titolo:"Il campo proprio di attività<br>e responsabilità", sotto:"è determinato da *tre fonti*."},
@@ -152,23 +190,29 @@ export const SCENE = [
 
 {id:"s36", tipo:"titolo", tema:"profondo", sopratitolo:"In Veneto",
   titolo:"La dirigenza infermieristica", sotto:"Discende dalla *legge 251 del 2000*."},
-{id:"s37", tipo:"frase", tema:"profondo", sopratitolo:"In Veneto",
-  testo:"Negli atti aziendali del Servizio Socio Sanitario veneto la funzione infermieristica sta in una struttura dedicata alle *professioni sanitarie*.",
-  sotto:"Saperlo, all'orale, ti distingue da chi recita solo l'articolo."},
+{id:"s37", tipo:"icone", tema:"chiaro", sopratitolo:"In Veneto", voci:[
+  {icona:"ospedale", t:"Atti aziendali", d:"è lì che la funzione infermieristica è collocata"},
+  {icona:"persone",  t:"Struttura delle professioni sanitarie", d:"la forma organizzativa che ne discende"},
+  {icona:"certificato", t:"Dirigenza", d:"resa possibile dalla legge 251/2000"}]},
 
 {id:"s38", tipo:"norma", tema:"chiaro", sopratitolo:"Albo obbligatorio",
   etichetta:"Requisito del bando", sigla:"L. 43/2006",
   testo:"Iscrizione all'albo *obbligatoria* per l'esercizio, anche per il dipendente pubblico."},
-{id:"s39", tipo:"elenco", tema:"chiaro", sopratitolo:"I quattro livelli · L. 43/2006", numerato:true, voci:[
-  {t:"Professionista"}, {t:"Coordinatore"}, {t:"Specialista"}, {t:"Dirigente"}]},
+{id:"s39", tipo:"scala", tema:"chiaro", sopratitolo:"I quattro livelli — legge 43/2006", gradini:[
+  {n:"1", t:"Professionista", d:"laurea e iscrizione all'albo"},
+  {n:"2", t:"Coordinatore", d:"master di primo livello"},
+  {n:"3", t:"Specialista", d:"master clinico"},
+  {n:"4", t:"Dirigente", d:"laurea magistrale", key:true}]},
+
 {id:"s40", tipo:"sostituzione", tema:"chiaro", sopratitolo:"L. 3/2018 · legge Lorenzin",
   da:{h:"Prima", t:"Collegi IPASVI"}, a:{h:"Dal 2018", t:"Ordini OPI"},
   sotto:"Con la federazione nazionale *FNOPI*."},
 
-{id:"s41", tipo:"timeline", tema:"chiaro", sopratitolo:"La linea del tempo",
-  tappe:TAPPE, attive:[0,1,2,3]},
-{id:"s42", tipo:"timeline", tema:"chiaro", sopratitolo:"La linea del tempo",
-  tappe:TAPPE, attive:[0,1,2,3,4,5,6]},
+{id:"s41", tipo:"assetempo", tema:"chiaro", sopratitolo:"Venticinque anni in una riga",
+  da:1970, a:2022, decenni:[1980,1990,2000,2010,2020], tappe:TAPPE11.slice(0,4)},
+
+{id:"s42", tipo:"assetempo", tema:"chiaro", sopratitolo:"Venticinque anni in una riga",
+  da:1970, a:2022, decenni:[1980,1990,2000,2010,2020], tappe:TAPPE11},
 
 {id:"s43", tipo:"trappola", tema:"tenue", sopratitolo:"I distrattori tipici",
   righe:TRAPPOLE, attive:[0]},

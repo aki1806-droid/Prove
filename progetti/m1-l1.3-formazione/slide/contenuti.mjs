@@ -30,6 +30,29 @@ const MEMO = [
  "**Livello e incarico** sono cose diverse",
 ];
 
+
+// --- figure ricorrenti della lezione ---
+const PERCORSO = [
+ {n:"1", t:"**Laurea** in Infermieristica", d:"L/SNT1 · 3 anni · 180 CFU · abilitante"},
+ {n:"2", t:"**Master di primo livello**", d:"almeno 60 CFU · la specializzazione clinica"},
+ {n:"3", t:"**Laurea magistrale** LM/SNT1", d:"120 CFU · direzione, formazione, ricerca"},
+ {n:"4", t:"**Master di secondo livello, dottorato**", d:"il vertice del percorso accademico"},
+];
+const COSAFA = [
+ {t:"Tiene l'**albo** e verifica i requisiti"},
+ {t:"**Vigila** sulla condotta degli iscritti"},
+ {t:"Esercita il **potere disciplinare**"},
+ {t:"Adotta il **codice deontologico**"},
+ {t:"Tutela l'**affidamento del pubblico**"},
+ {t:"Promuove la **formazione permanente**"},
+];
+const SANZIONIG = [
+ {n:"1", t:"Avvertimento", d:"il richiamo scritto"},
+ {n:"2", t:"Censura", d:"dichiarazione formale di biasimo"},
+ {n:"3", t:"Sospensione", d:"da 1 mese a 1 anno"},
+ {n:"4", t:"Radiazione", d:"cancellazione dall'albo", key:true},
+];
+
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
   modulo:"Modulo 1 · La professione infermieristica",
@@ -42,11 +65,12 @@ export const SCENE = [
   testo:"Questa è materia da *domande facili*.",
   sotto:"E in un concorso dove passa chi sbaglia meno, le facili non si regalano."},
 
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"In questa lezione", numerato:true, voci:[
-  {t:"Il **percorso formativo**, dalla laurea al dottorato"},
-  {t:"L'**Ordine**: che cos'è, che cosa fa, come sanziona"},
-  {t:"L'**ECM**, e la differenza fra esonero ed esenzione"},
-  {t:"Livelli, competenze avanzate, **incarichi**"}]},
+{id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro blocchi", voci:[
+  {icona:"cappello",    t:"Il percorso", d:"dalla laurea al dottorato"},
+  {icona:"bilancia",    t:"L'Ordine", d:"che cos'è e che cosa fa"},
+  {icona:"ingranaggio", t:"L'ECM", d:"crediti, esonero, esenzione"},
+  {icona:"certificato", t:"La carriera", d:"il punto più insidioso"}]},
+
 {id:"s05", tipo:"frase", tema:"chiaro", sopratitolo:"Il punto insidioso",
   testo:"Sullo sviluppo di carriera *tre piani diversi* si accavallano, e i quiz ci giocano sopra.",
   sotto:"Alla fine avrai un test per non confonderli più."},
@@ -54,10 +78,11 @@ export const SCENE = [
 {id:"s06", tipo:"norma", tema:"chiaro", sopratitolo:"Da dove viene",
   etichetta:"L'ingresso all'università", sigla:"D.Lgs. 502/1992, art. 6 c. 3",
   testo:"Lo stesso articolo da cui nascerà, due anni dopo, *il profilo professionale*."},
-{id:"s07", tipo:"tre", tema:"chiaro", sopratitolo:"Il titolo di base", cifre:true, box:[
-  {n:"", t:"3", d:"anni"},
-  {n:"", t:"180", d:"crediti formativi"},
-  {n:"", t:"L/SNT-1", d:"classe di laurea · accesso programmato"}]},
+{id:"s07", tipo:"impila", tema:"chiaro", sopratitolo:"La laurea in Infermieristica — L/SNT1",
+  testa:"Tre anni, 180 CFU", unita:"CFU",
+  segmenti:[{t:"Tirocinio", v:60, d:"un terzo del corso si fa in reparto"},
+            {t:"Il resto del corso", v:120, d:"lezioni, laboratori, studio", colore:"#A8CDBB", chiaro:true}]},
+
 {id:"s08", tipo:"frase", tema:"tenue", sopratitolo:"Un terzo del corso",
   testo:"Di quei 180 crediti, circa *60 sono di tirocinio*.",
   sotto:"È il tirocinio che rende concreti gli **ordinamenti didattici**: la seconda fonte del campo di attività."},
@@ -70,22 +95,25 @@ export const SCENE = [
   {h:"Esercizio", t:"te lo dà l'iscrizione all'albo", grande:true}],
   sotto:"Sono *due passaggi*, e i quiz li sovrappongono."},
 
-{id:"s11", tipo:"elenco", tema:"chiaro", sopratitolo:"La formazione post-base",
-  marcatori:SCALA.map(x=>x.n), grandi:true, numerato:true,
-  voci:SCALA.map(x=>({t:x.t, d:x.d})), attive:[0,1]},
-{id:"s12", tipo:"elenco", tema:"chiaro", sopratitolo:"La formazione post-base",
-  marcatori:SCALA.map(x=>x.n), grandi:true, numerato:true,
-  voci:SCALA.map(x=>({t:x.t, d:x.d})), attive:[0,1,2]},
-{id:"s13", tipo:"elenco", tema:"chiaro", sopratitolo:"La formazione post-base",
-  marcatori:SCALA.map(x=>x.n), grandi:true, numerato:true,
-  voci:SCALA.map(x=>({t:x.t, d:x.d}))},
+{id:"s11", tipo:"scala", tema:"chiaro", sopratitolo:"Il percorso, tutto insieme",
+  attive:[0], gradini:PERCORSO},
+
+{id:"s12", tipo:"scala", tema:"chiaro", sopratitolo:"Il percorso, tutto insieme",
+  attive:[0,1], gradini:PERCORSO},
+
+{id:"s13", tipo:"scala", tema:"chiaro", sopratitolo:"Il percorso, tutto insieme",
+  attive:[0,1,2,3], gradini:PERCORSO},
 
 {id:"s14", tipo:"trappola", tema:"tenue", sopratitolo:"Il distrattore più frequente", righe:[
   {sb:"«la laurea magistrale è un master specialistico in area critica»",
    ok:"la magistrale *non è* una specializzazione clinica"}]},
-{id:"s15", tipo:"confronto", tema:"tenue", sopratitolo:"Due percorsi, non due nomi", col:[
-  {h:"Master di I livello", t:"la clinica specialistica", grande:true},
-  {h:"Laurea magistrale", t:"direzione, docenza, ricerca", grande:true}]},
+{id:"s15", tipo:"tabella", tema:"chiaro", sopratitolo:"Due percorsi diversi, non due nomi della stessa cosa",
+  intestazioni:["","Master di primo livello","Laurea magistrale LM/SNT1"], colonne:["20%","40%","40%"],
+  righe:[
+   ["A che cosa porta","**clinica specialistica**","**direzione**, formazione, ricerca"],
+   ["Crediti","almeno 60 CFU","120 CFU"],
+   ["Il distrattore","—","«è la specializzazione clinica»: **falso**"]]},
+
 {id:"s16", tipo:"confronto", tema:"chiaro", sopratitolo:"Nel concorso i titoli contano due volte", col:[
   {h:"Come requisito", t:"basta la laurea"},
   {h:"Come punteggio", t:"fino a **30 punti**, di cui max **7** per il curriculum"}],
@@ -102,17 +130,18 @@ export const SCENE = [
   {t:"un'**associazione privata**"},
   {t:"un **sindacato**"}]},
 
-{id:"s20", tipo:"elenco", tema:"chiaro", sopratitolo:"Che cosa fa l'Ordine",
-  voci:ORDINE, attive:[0,1]},
-{id:"s21", tipo:"elenco", tema:"chiaro", sopratitolo:"Che cosa fa l'Ordine",
-  voci:ORDINE},
+{id:"s20", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1],
+  sopratitolo:"Che cosa fa l'Ordine", celle:COSAFA},
 
-{id:"s22", tipo:"elenco", tema:"chiaro", sopratitolo:"Le sanzioni disciplinari",
-  numerato:true, marcatori:SANZIONI.map(x=>x.n), grandi:true,
-  voci:SANZIONI.map(x=>({t:x.t, d:x.d})), attive:[0,1]},
-{id:"s23", tipo:"elenco", tema:"profondo", sopratitolo:"Le sanzioni disciplinari",
-  numerato:true, marcatori:SANZIONI.map(x=>x.n), grandi:true,
-  voci:SANZIONI.map(x=>({t:x.t, d:x.d}))},
+{id:"s21", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5],
+  sopratitolo:"Che cosa fa l'Ordine", celle:COSAFA},
+
+{id:"s22", tipo:"scala", tema:"chiaro", sopratitolo:"Le quattro sanzioni, in ordine crescente",
+  attive:[0,1], gradini:SANZIONIG},
+
+{id:"s23", tipo:"scala", tema:"chiaro", sopratitolo:"Le quattro sanzioni, in ordine crescente",
+  attive:[0,1,2,3], gradini:SANZIONIG},
+
 {id:"s24", tipo:"trappola", tema:"tenue", sopratitolo:"Il distrattore di questa domanda", righe:[
   {sb:"«fra le sanzioni dell'Ordine c'è il licenziamento»",
    ok:"il licenziamento è *del datore di lavoro*, non dell'Ordine"}]},
@@ -120,10 +149,13 @@ export const SCENE = [
 {id:"s25", tipo:"frase", tema:"chiaro", sopratitolo:"Una cosa che sorprende",
   testo:"Il disciplinare dell'Ordine è *del tutto autonomo* da quello del datore di lavoro.",
   sotto:"Non si escludono, non si aspettano, non si annullano a vicenda."},
-{id:"s26", tipo:"confronto", tema:"profondo", sopratitolo:"Per lo stesso fatto", col:[
-  {h:"L'azienda", t:"sanziona in base al **CCNL**", grande:true},
-  {h:"L'Ordine", t:"sanziona in base al **codice deontologico**", grande:true}],
-  sotto:"Due piani distinti e *cumulabili*, non alternativi."},
+{id:"s26", tipo:"tabella", tema:"chiaro", sopratitolo:"Lo stesso fatto, due procedimenti autonomi",
+  intestazioni:["","Azienda","Ordine"], colonne:["22%","39%","39%"],
+  righe:[
+   ["La fonte","il **contratto** di lavoro","il **codice deontologico**"],
+   ["Chi decide","il datore di lavoro","il consiglio di disciplina"],
+   ["La sanzione più grave","**licenziamento**","**radiazione**"],
+   ["Si escludono?","no: **corrono in parallelo**","no: **corrono in parallelo**"]]},
 
 {id:"s27", tipo:"norma", tema:"chiaro", sopratitolo:"L'albo",
   etichetta:"Obbligatoria per l'esercizio", sigla:"L. 43/2006",
@@ -131,9 +163,11 @@ export const SCENE = [
 {id:"s28", tipo:"norma", tema:"chiaro", sopratitolo:"Sul fronte opposto",
   etichetta:"Esercizio abusivo della professione", sigla:"art. 348 c.p.",
   testo:"Pena *sensibilmente inasprita* nel 2018."},
-{id:"s29", tipo:"elenco", tema:"tenue", sopratitolo:"Chi risponde penalmente", vietato:true, voci:[
-  {t:"chi **esercita senza titolo**"},
-  {t:"chi **agevola l'abuso**", d:"a titolo di concorso: per esempio lasciando svolgere atti infermieristici a chi non ha il titolo"}]},
+{id:"s29", tipo:"griglia", tema:"chiaro", colonne:1,
+  sopratitolo:"Esercizio abusivo — art. 348 c.p.", celle:[
+  {t:"Chi esercita **senza titolo**", no:true},
+  {t:"Chi esercita **con il titolo ma senza iscrizione all'albo**", no:true},
+  {t:"Chi **agevola** l'esercizio abusivo di un altro", no:true}]},
 
 {id:"s30", tipo:"norma", tema:"chiaro", sopratitolo:"ECM · Educazione Continua in Medicina",
   etichetta:"Dove nasce", sigla:"D.Lgs. 502/1992, mod. D.Lgs. 229/1999",
@@ -142,18 +176,23 @@ export const SCENE = [
   testo:"È un obbligo **individuale**. Risponde *il professionista*, non l'azienda.",
   sotto:"«Il corso non me l'hanno offerto» non è una risposta: il debito resta tuo."},
 
-{id:"s32", tipo:"tre", tema:"chiaro", sopratitolo:"I numeri dell'ECM", cifre:true, box:[
-  {t:"150", d:"crediti nel triennio"},
-  {t:"50", d:"indicativamente, all'anno"}]},
+{id:"s32", tipo:"impila", tema:"chiaro", sopratitolo:"Il debito formativo ECM",
+  testa:"Obbligo individuale, nel triennio", unita:"crediti",
+  segmenti:[{t:"Primo anno", v:50},{t:"Secondo anno", v:50},{t:"Terzo anno", v:50}]},
+
 {id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Il dossier formativo",
   testo:"Uno strumento di *programmazione*, individuale o di gruppo.",
   sotto:"Se costruito e poi rispettato, può dare diritto a un **bonus** di crediti."},
 
 {id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Esonero ed esenzione",
   testo:"Non sono sinonimi. *Anche se nel parlato di reparto si usano come se lo fossero.*"},
-{id:"s35", tipo:"confronto", tema:"chiaro", sopratitolo:"La distinzione che vale la domanda", col:[
-  {h:"Esonero — sto studiando", t:"laurea, master, dottorato, scuola di specializzazione"},
-  {h:"Esenzione — non sto lavorando", t:"congedo di maternità, malattia, aspettativa"}]},
+{id:"s35", tipo:"tabella", tema:"chiaro", sopratitolo:"Esonero o esenzione: non sono sinonimi",
+  intestazioni:["","Esonero","Esenzione"], colonne:["20%","40%","40%"],
+  righe:[
+   ["Perché","**stai studiando**","**sei assente**"],
+   ["I casi","laurea, master, dottorato, scuola di specializzazione","maternità, malattia, aspettativa, servizio all'estero"],
+   ["L'effetto","il debito si riduce **in proporzione ai mesi**","il debito si riduce **in proporzione ai mesi**"]]},
+
 {id:"s36", tipo:"confronto", tema:"profondo", sopratitolo:"Il trucco per non sbagliare mai", col:[
   {h:"Esonero", t:"perché **studio**", grande:true},
   {h:"Esente", t:"perché **assente**", grande:true}]},
@@ -171,10 +210,14 @@ export const SCENE = [
 {id:"s40", tipo:"frase", tema:"chiaro", sopratitolo:"Ultimo blocco",
   testo:"Qui i quiz mescolano volutamente le carte: *tre cose diverse* portano nomi che si somigliano.",
   sotto:"Teniamole su tre colonne separate."},
-{id:"s41", tipo:"tre", tema:"chiaro", sopratitolo:"Tre piani da non confondere", box:[
-  {n:"1", t:"Livelli", d:"L. 43/2006 · professionista, coordinatore, specialista, dirigente — **dipendono dal titolo**"},
-  {n:"2", t:"Competenze avanzate", d:"ampliano l'agire clinico · **formazione certificata**"},
-  {n:"3", t:"Incarichi di funzione", d:"organizzativa o professionale · **CCNL**"}], attive:[0]},
+{id:"s41", tipo:"tabella", tema:"chiaro", sopratitolo:"Tre piani che i quiz mescolano",
+  intestazioni:["Piano","Da che cosa dipende","Fonte"], colonne:["30%","44%","26%"],
+  chiave:[2],
+  righe:[
+   ["**Livelli** professionali","dal **titolo** posseduto","legge 43/2006"],
+   ["**Competenze avanzate**","da **formazione certificata**","accordi e normativa regionale"],
+   ["**Incarichi di funzione**","dall'**organizzazione aziendale**","contratto e regolamento aziendale"]]},
+
 {id:"s42", tipo:"tre", tema:"chiaro", sopratitolo:"Tre piani da non confondere", box:[
   {n:"1", t:"Livelli", d:"L. 43/2006 · professionista, coordinatore, specialista, dirigente — **dipendono dal titolo**"},
   {n:"2", t:"Competenze avanzate", d:"ampliano l'agire clinico · **formazione certificata**"},
@@ -190,15 +233,33 @@ export const SCENE = [
   testo:"Gli incarichi di funzione li conferisce *ciascuna azienda*, col proprio regolamento e la graduazione dell'atto aziendale.",
   sotto:"Cambia l'azienda, cambia la mappa degli incarichi."},
 
-{id:"s46", tipo:"elenco", tema:"profondo", sopratitolo:"I sei punti",
-  numerato:true, marcatori:NUMERI, grandi:true,
-  voci:MEMO.map(t=>({t})), attive:[0,1]},
-{id:"s47", tipo:"elenco", tema:"profondo", sopratitolo:"I sei punti",
-  numerato:true, marcatori:NUMERI, grandi:true,
-  voci:MEMO.map(t=>({t})), attive:[0,1,2,3]},
-{id:"s48", tipo:"elenco", tema:"profondo", sopratitolo:"I sei punti",
-  numerato:true, marcatori:NUMERI, grandi:true,
-  voci:MEMO.map(t=>({t}))},
+{id:"s46", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1],
+  sopratitolo:"I sei punti da non sbagliare", celle:[
+  {n:"180", t:"**CFU** della laurea L/SNT1"},
+  {n:"2021", t:"la laurea diventa **abilitante** — legge 163"},
+  {n:"2018", t:"nascono gli **Ordini** — legge 3"},
+  {n:"4", t:"le **sanzioni** dell'Ordine"},
+  {n:"150", t:"i **crediti ECM** nel triennio"},
+  {n:"348", t:"**esercizio abusivo** della professione"}]},
+
+{id:"s47", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1,2,3],
+  sopratitolo:"I sei punti da non sbagliare", celle:[
+  {n:"180", t:"**CFU** della laurea L/SNT1"},
+  {n:"2021", t:"la laurea diventa **abilitante** — legge 163"},
+  {n:"2018", t:"nascono gli **Ordini** — legge 3"},
+  {n:"4", t:"le **sanzioni** dell'Ordine"},
+  {n:"150", t:"i **crediti ECM** nel triennio"},
+  {n:"348", t:"**esercizio abusivo** della professione"}]},
+
+{id:"s48", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1,2,3,4,5],
+  sopratitolo:"I sei punti da non sbagliare", celle:[
+  {n:"180", t:"**CFU** della laurea L/SNT1"},
+  {n:"2021", t:"la laurea diventa **abilitante** — legge 163"},
+  {n:"2018", t:"nascono gli **Ordini** — legge 3"},
+  {n:"4", t:"le **sanzioni** dell'Ordine"},
+  {n:"150", t:"i **crediti ECM** nel triennio"},
+  {n:"348", t:"**esercizio abusivo** della professione"}]},
+
 {id:"s49", tipo:"frase", tema:"chiaro", sopratitolo:"La prossima lezione",
   testo:"Entriamo nel *codice deontologico del 2019*: la terza fonte del campo di attività.",
   sotto:"E, secondo me, la più bella da studiare."},

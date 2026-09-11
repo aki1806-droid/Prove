@@ -168,3 +168,39 @@ sottotitoli    montato-1.7.srt · 48 righe
    rigenerarla. La voce si genera **dopo** che il copione e' fermo, mai prima.
 4. **Il contenuto normativo** viene dal tuo script; non ho aggiunto nulla di
    mio nel merito.
+
+
+---
+
+# Secondo giro — l'apparato grafico
+
+Rifatte tutte le slide. **L'audio non e' stato toccato**: stesse tracce, stessi
+tagli, stessi 48 blocchi, stessa durata. Sono cambiate solo le
+immagini, e con loro le clip, le scene e il montato.
+
+```
+scene con una figura   26 su 50
+figure usate           griglia ×10 · tabella ×8 · icone ×3 · catena ×3 · venn ×1 · scadenza ×1
+durata                 9:02.32   (invariata: l'audio e' lo stesso)
+```
+
+## Il video nuovo
+
+```
+video HeyGen   318873116f29dbaad79f0c170cb58fb5
+               app.heygen.com/videos/318873116f29dbaad79f0c170cb58fb5
+copia locale   montato-1.7.mp4 · 9:02.32 · 1920x1080 · 25 fps
+sottotitoli    montato-1.7.srt · 48 righe
+```
+
+Il video del primo giro resta dov'era: questo e' un video nuovo, non una
+sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
+
+## Da verificare — il secondo giro
+
+1. **Le figure**, una per una: i provini stanno in `slide/provino-*.png`.
+2. **Il colore non porta mai da solo un significato** nei grafici: il verde e
+   il rosso del marchio, accostati, hanno ΔE 3,4 in protanopia. Dove c'e' un
+   giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
+3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
+   non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.
