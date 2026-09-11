@@ -1,0 +1,57 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 5 · Lezione 5.1","title":"Dove finisce l'influenza,<br>dove comincia l'abuso","sub":"Persuadere senza manipolare"},
+
+{"file":"c02","layout":"statement","title":"Tutti promettono di renderti più persuasivo.<br><span class=\"gold\">Quasi nessuno dice dove fermarsi.</span>"},
+{"file":"c03","layout":"statement","title":"È più difficile che insegnare una tecnica.<br>E il pubblico non lo chiede."},
+{"file":"c04","layout":"statement","title":"Senza questo, tutto quello che hai imparato<br>resta ambiguo."},
+{"file":"c05","layout":"list","plain":true,"kicker":"strumenti neutri","rows":["La riformulazione","Le domande che aprono","Il silenzio dopo una richiesta"]},
+{"file":"c06","layout":"statement","title":"Servono a far parlare qualcuno.<br>Anche chi non voleva parlare."},
+{"file":"c07","layout":"statement","title":"Per una strada che lui non ha scelto<br><span class=\"gold\">e che nemmeno vede.</span>"},
+{"file":"c08","layout":"statement","title":"Prima delle tecniche.<br>Perché dopo è troppo tardi."},
+
+{"file":"c09","layout":"statement","title":"<span class=\"gold\">Persuadere</span> è fornire ragioni perché l'altro decida meglio."},
+{"file":"c10","layout":"table","kicker":"due cose diverse","cols":["persuadere","manipolare"],"rows":[["dare ragioni","aggirare il giudizio"],["passa dal giudizio","gli gira intorno"],["può perdere","non rischia niente"]]},
+{"file":"c11","layout":"statement","title":"La differenza non sta nell'obiettivo.<br>Anche chi persuade vuole ottenere."},
+{"file":"c12","layout":"statement","title":"E non sta nel risultato.<br>Due strade, la stessa decisione."},
+{"file":"c13","layout":"statement","title":"Sta in un punto solo:<br><span class=\"gold\">il giudizio dell'altro.</span>"},
+{"file":"c14","layout":"swap","kicker":"dove passa il confine","rows":[["chi persuade","ci passa dentro"],["chi manipola","lo evita"]]},
+{"file":"c15","layout":"statement","title":"Chi passa dal giudizio<br>accetta di poter perdere."},
+{"file":"c16","layout":"statement","title":"Non è un giudizio morale.<br>È una differenza che si verifica."},
+
+{"file":"c17","layout":"list","kicker":"tre domande, e vanno fatte prima","rows":["Trasparenza","Informazione","Reversibilità"]},
+{"file":"c18","layout":"list","kicker":"tre domande, e vanno fatte prima","rows":["Trasparenza","Informazione","Reversibilità"],"active":0,"note":"Glielo direi in faccia, quello che sto facendo adesso?"},
+{"file":"c19","layout":"quote","kicker":"messa meglio","title":"«Se lo dichiarassi a voce alta<br>mentre lo faccio,<br>funzionerebbe ancora?»"},
+{"file":"c20","layout":"statement","title":"Quasi tutto quello che è pulito<br>regge questa prova."},
+{"file":"c21","layout":"list","kicker":"tre domande, e vanno fatte prima","rows":["Trasparenza","Informazione","Reversibilità"],"active":1,"note":"Ha quello che gli serve? Anche la parte che a me non conviene?"},
+{"file":"c22","layout":"statement","title":"Si può manipolare senza una bugia.<br><span class=\"gold\">Basta scegliere cosa non dire.</span>"},
+{"file":"c23","layout":"list","kicker":"tre domande, e vanno fatte prima","rows":["Trasparenza","Informazione","Reversibilità"],"active":2,"note":"Può dirmi di no senza pagarla? Adesso, e anche fra tre settimane?"},
+{"file":"c24","layout":"memo","title":"Una richiesta a cui non si può dire di no<br>non è una richiesta."},
+{"file":"c25","layout":"statement","title":"La prima si fa in un secondo.<br>La terza quasi nessuno se la fa."},
+
+{"file":"c27","layout":"list","kicker":"la zona grigia","rows":["L'urgenza artificiale","Il senso di colpa","La scarsità"]},
+{"file":"c28","layout":"list","kicker":"la zona grigia","rows":["L'urgenza artificiale","Il senso di colpa","La scarsità"],"active":0,"note":"«Decidi entro stasera.» A volte è vero, e allora è solo un'informazione."},
+{"file":"c29","layout":"statement","title":"Togliere il tempo di valutare<br><span class=\"gold\">è la definizione di manipolare.</span>"},
+{"file":"c30","layout":"list","kicker":"la zona grigia","rows":["L'urgenza artificiale","Il senso di colpa","La scarsità"],"active":1,"note":"«Dopo tutto quello che ho fatto per te.» Funziona benissimo."},
+{"file":"c31","layout":"statement","title":"La leva più usata in famiglia.<br>Dove nessuno ti presenta il conto."},
+{"file":"c32","layout":"memo","title":"Sostituisce la valutazione con un debito.<br>E un debito non si valuta: si paga."},
+
+{"file":"c34","layout":"swap","kicker":"come si riconosce","rows":[["«è l'ultima occasione»","si ripresenta il mese dopo"]]},
+{"file":"c35","layout":"statement","title":"Guarda cosa hanno in comune<br>tutte e tre."},
+{"file":"c36","layout":"table","kicker":"su cosa agiscono","cols":["leva","su cosa agisce"],"rows":[["l'urgenza","il tempo"],["il senso di colpa","l'emozione"],["la scarsità","il tempo"]]},
+{"file":"c37","layout":"memo","title":"Nessuna sul merito."},
+{"file":"c38","layout":"statement","title":"Spostano il momento o lo stato d'animo.<br>Il merito resta dov'era."},
+{"file":"c39","layout":"statement","title":"Se non aggiunge una ragione,<br><span class=\"gold\">non sta persuadendo.</span>"},
+{"file":"c40","layout":"statement","title":"E la seconda direzione è quella<br>che serve di più."},
+{"file":"c41","layout":"swap","kicker":"vale in due direzioni","rows":[["cosa stai facendo tu","te ne accorgi dopo"],["cosa fanno a te","te ne accorgi mentre"]]},
+
+{"file":"c43","layout":"cards","kicker":"da evitare","rows":[{"icona":"scudo","testo":"Credere che l'obiettivo giustifichi"},{"icona":"orologio","testo":"L'urgenza che non c'è"},{"icona":"conto","testo":"Il debito come argomento"}]},
+{"file":"c44","layout":"statement","title":"Anche chi manipola<br>pensa di avere ragione."},
+{"file":"c45","layout":"statement","title":"L'intenzione buona<br>non rende pulito il mezzo."},
+{"file":"c46","layout":"statement","title":"L'urgenza come acceleratore<br>quando la scadenza non esiste."},
+{"file":"c47","layout":"quote","kicker":"non è un argomento","title":"«Dopo tutto quello<br>che ho fatto.»"},
+
+{"file":"c48","layout":"memo","title":"Chi persuade passa attraverso il giudizio.<br>Chi manipola lo aggira."},
+{"file":"c49","layout":"statement","title":"Se lo dichiarassi a voce alta,<br>funzionerebbe ancora?"},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]

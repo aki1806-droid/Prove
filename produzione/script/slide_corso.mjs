@@ -222,6 +222,7 @@ const icone = {
   pausainvece: `<path class="tratto" d="M8 52 H32"/><path class="tratto oro" d="M44 26 V78"/><path class="tratto oro" d="M60 26 V78"/><circle class="tratto sottile" cx="84" cy="52" r="11"/>`,
   riempire: `<path class="tratto" d="M28 20 V72 a8 8 0 0 0 8 8 h32 a8 8 0 0 0 8-8 V20"/><path class="tratto oro" d="M34 54 H70"/><path class="tratto oro" d="M34 66 H70"/><path class="tratto oro" d="M52 6 V24"/>`,
   accelera: `<path class="tratto" d="M14 36 H60"/><path class="tratto" d="M14 52 H76"/><path class="tratto" d="M14 68 H48"/><path class="tratto oro" d="M68 38 L88 52 L68 66"/>`,
+  conto:    `<path class="tratto" d="M22 10 h60 v76 l-7.5 8 -7.5 -8 -7.5 8 -7.5 -8 -7.5 8 -7.5 -8 -7.5 8 L22 86 z"/><path class="tratto" d="M36 30 h32"/><path class="tratto" d="M36 44 h32"/><path class="tratto oro" d="M34 62 h36"/><path class="tratto oro" d="M34 70 h36"/>`,
   nuvola:   `<path class="tratto" d="M26 66 a18 18 0 0 1 4-35 a22 22 0 0 1 42-7 a17 17 0 0 1 6 33 z"/><circle class="tratto oro" cx="40" cy="84" r="6"/><circle class="tratto oro" cx="58" cy="92" r="4"/>`,
   imbuto:   `<path class="tratto" d="M16 20 h72 L60 56 v30 l-16 10 V56 z"/><path class="tratto oro" d="M34 34 h36"/>`,
   bilancia: `<path class="tratto" d="M52 18 v70"/><path class="tratto" d="M20 30 h64"/><path class="tratto" d="M32 88 h40"/><path class="tratto oro" d="M20 30 L8 56 h24 z"/><path class="tratto oro" d="M84 30 L72 56 h24 z"/>`,
