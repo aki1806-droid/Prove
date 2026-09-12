@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questa lezione ha un doppio interesse. Il primo e' metodologico: sapere da dove viene cio' che facciamo. Il secondo e' giuridico, ed e' il motivo per cui pesa nel concorso piu' di quanto il titolo lasci pensare."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la Gelli Bianco le linee guida non sono piu' solo uno strumento professionale, ma un parametro di valutazione della condotta professionale. Sono entrate nel processo, e da li' non sono piu' uscite."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Chi confonde una linea guida con una procedura aziendale sbaglia due domande: una di metodo e una di diritto. E' una confusione che costa doppio, ed e' anche la piu' facile da evitare: bastano tre frasi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Definizione, da citare per intero. L'Evidence Based Practice e' l'integrazione fra le migliori evidenze scientifiche disponibili, l'esperienza e la competenza clinica del professionista."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i valori, le preferenze e il contesto della persona assistita. Tre elementi, non uno. Sono tre, e vanno detti tutti e tre: l'evidenza da sola non e' pratica basata sulle prove, e' solo letteratura."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il distrattore classico presenta l'EBP come pratica fondata esclusivamente sui risultati della ricerca. E' errato proprio perche' ne omette due su tre, e sono i due che riguardano le persone: chi cura e chi e' curato."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non e' una moda importata. Il DM 739 del 1994 prevede che l'infermiere concorra direttamente all'aggiornamento del proprio profilo professionale e alla ricerca. E' scritto nel profilo, non in una circolare."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il Codice deontologico impone di fondare il proprio operato su conoscenze validate. L'EBP e' la traduzione operativa di due norme che gia' conosci dal modulo 1."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque passi, cinque A. Ask: formulare il quesito. Acquire: cercare le evidenze. Appraise: valutarle criticamente, perche' trovare uno studio non vuol dire ancora niente."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Apply: applicarle integrandole con l'esperienza clinica e con le preferenze della persona. E Assess: valutare l'esito di quello che si e' fatto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nota la simmetria con il processo di assistenza della lezione 2.1: anche qui si chiude con la valutazione, ed e' anche qui il passo che si dimentica."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quesito si scrive con PICO. P, la popolazione o il problema: chi. I, l'intervento. C, il confronto con un'alternativa, e puo' mancare. O, l'outcome, cioe' l'esito che si vuole misurare."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: nei pazienti anziani allettati, l'uso di materassi a pressione alternata rispetto ai materassi in schiuma viscoelastica riduce l'incidenza di lesioni da pressione? Ci sono tutte e quattro le lettere."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono varianti che aggiungono T per il tempo o S per il disegno di studio: PICOT, PICOS. Ma la forma base e' quella a quattro lettere, ed e' quella che viene chiesta."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove si cerca. PubMed per la letteratura biomedica. CINAHL, specifica per l'area infermieristica. La Cochrane Library, che raccoglie le revisioni sistematiche ed e' il primo posto dove guardare."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Joanna Briggs Institute, orientato alla pratica infermieristica. E il Sistema Nazionale Linee Guida dell'Istituto Superiore di Sanita', per le linee guida italiane: fra poco vedremo perche' e' quello che conta in giudizio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La piramide. Al vertice revisioni sistematiche e metanalisi di studi randomizzati. Poi lo studio randomizzato controllato, l'RCT, in cui la randomizzazione distribuisce a caso i fattori di confondimento."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi lo studio di coorte, prospettico, che segue nel tempo esposti e non esposti. Poi il caso controllo, retrospettivo, che parte dall'esito e risale all'esposizione."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi studi trasversali e serie di casi. Alla base, caso singolo e opinione di esperti. Sei livelli, e la domanda chiede quasi sempre il vertice. Ma il vertice non e' tutta la storia."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due precisazioni che all'orale distinguono subito. Prima: il livello riguarda il disegno, non la qualita' della singola ricerca. Un RCT mal condotto vale meno di uno studio di coorte eccellente."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: per molte domande infermieristiche, il vissuto della persona, il significato dell'esperienza, il disegno piu' appropriato e' qualitativo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E il qualitativo nella gerarchia classica sta in basso, pur essendo per quel quesito il migliore. I sistemi moderni come GRADE valutano infatti la qualita' complessiva delle prove, non solo il disegno."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo agli strumenti, e alle definizioni che i quiz mescolano. Linea guida: raccomandazioni elaborate sistematicamente sulla base delle evidenze."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Protocollo: sequenza rigida e predefinita di comportamenti, da seguire cosi' com'e'. Procedura: descrizione delle fasi di un processo, con responsabilita' e modalita'."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Istruzione operativa: dettaglio di una singola attivita' tecnica. Check list: elenco di controlli in sequenza. E il PDTA: il percorso diagnostico terapeutico assistenziale, che tiene insieme tutti gli altri."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riducile a tre frasi. La linea guida dice che cosa e' raccomandato fare, in generale, in base alle evidenze. Non dice come, e non dice chi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La procedura aziendale dice come si fa qui, con quali responsabilita' e risorse. Il PDTA dice chi fa che cosa lungo il percorso, dall'accesso alla dimissione al territorio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La prima e' di fonte scientifica; le altre due di fonte organizzativa. E' questa la distinzione che i quiz cercano, non la definizione a memoria."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Gelli Bianco ha dato alle linee guida rilevanza giuridica. L'articolo 5 prevede che gli esercenti le professioni sanitarie si attengano, salve le specificita' del caso concreto, alle raccomandazioni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Raccomandazioni previste da linee guida elaborate da enti, istituzioni e societa' scientifiche iscritte in apposito elenco, e pubblicate nel Sistema Nazionale Linee Guida presso l'Istituto Superiore di Sanita'."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In mancanza, ci si attiene alle buone pratiche clinico assistenziali. Sono due gradini, in quest'ordine: prima le linee guida accreditate, poi le buone pratiche."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E qui si chiude il cerchio con la lezione 1.5. Il rispetto delle linee guida accreditate, o in mancanza delle buone pratiche, adeguate alle specificita' del caso concreto, esclude la punibilita'."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma solo per la sola imperizia, non per negligenza e non per imprudenza. E' una esclusione stretta, e il confine conta. Quindi le linee guida non sono un vincolo burocratico: sono anche una protezione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una protezione con due condizioni pero': solo se accreditate, e solo se adeguate a quel paziente. Se manca una delle due, la protezione non c'e'."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da cui un principio operativo importante. Discostarsi da una linea guida e' legittimo, quando le specificita' del caso lo richiedono."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cio' che non e' legittimo e' discostarsene senza motivo e senza documentarlo. Sono due cose molto diverse, e la differenza sta tutta in cartella: e' la documentazione della lezione precedente a fare da ponte."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nei casi d'esame la risposta corretta non e' mai applico la linea guida comunque: e' applico la raccomandazione valutandone l'adeguatezza a questa persona, e se me ne discosto lo motivo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fra l'evidenza e il letto del paziente c'e' uno scarto noto. Gli ostacoli individuali: poca familiarita' con la ricerca, la barriera della lingua, la mancanza di tempo e l'abitudine, che e' il piu' forte dei quattro."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Organizzativi: risorse, accesso alle banche dati, cultura poco orientata al cambiamento. E legati all'evidenza stessa: risultati contrastanti, scarsa trasferibilita', popolazioni diverse."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le leve che funzionano. Audit clinico e feedback, cioe' misurare e far vedere il risultato. Formazione sul campo, non in aula. Facilitatori, o champion, di reparto."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto l'integrazione della raccomandazione dentro la procedura e dentro la cartella elettronica. E' il metodo piu' efficace, e vale la pena capire perche'."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Perche' rende la buona pratica il percorso piu' semplice da seguire. E la strada piu' facile e' quella che le persone prendono."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto la catena ha nomi precisi, ed e' quella che conviene enunciare all'orale. Si parte dall'evidenza. Poi la linea guida del Sistema Nazionale Linee Guida. Poi l'indirizzo regionale o il PDTA."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso elaborati dentro le reti cliniche: oncologica, stroke, trauma. Poi procedura aziendale. E infine pratica al letto."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque anelli. Saperla dire in quest'ordine dimostra che hai capito come le evidenze arrivano davvero in reparto, e non solo che cos'e' una linea guida."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I sette punti. L'EBP ha tre pilastri. I cinque passi sono ask, acquire, appraise, apply, assess. Il quesito si scrive con PICO, quattro lettere."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al vertice della gerarchia stanno revisioni sistematiche e metanalisi. Linea guida, procedura e PDTA sono cose diverse: la prima e' scientifica, le altre organizzative."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Rilevano le linee guida accreditate nel SNLG presso l'ISS, in mancanza le buone pratiche. E discostarsi e' legittimo, purche' motivato e documentato. A tra poco."
+ }
+]

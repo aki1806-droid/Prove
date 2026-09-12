@@ -1,0 +1,49 @@
+La root cause analysis ricostruisce la sequenza degli eventi e identifica i fattori contribuenti: umani, organizzativi, tecnologici, ambientali, comunicativi. Cinque famiglie, e si guardano tutte.
+
+Poi risale, chiedendosi ripetutamente perche', fino alle cause radice: quelle sulle quali un intervento impedisce il ripetersi. Fermarsi prima vuol dire tornare al punto di partenza.
+
+E il prodotto finale non e' un nome: e' un piano d'azione con responsabili e tempi. Se un'analisi finisce con una persona invece che con un'azione, non e' una root cause analysis.
+
+Gli eventi sentinella sono eventi di particolare gravita', potenzialmente indicativi di una disfunzione del sistema, che richiedono indagine immediata e l'adozione di misure correttive.
+
+Sono oggetto di monitoraggio nazionale attraverso il SIMES, il sistema informativo per il monitoraggio degli errori in sanita'. La sigla va saputa per esteso, ed e' quella che si chiede allo scritto.
+
+Le Raccomandazioni ministeriali sono una ventina, e conviene conoscerne almeno il filo. La numero 1 sul cloruro di potassio e le soluzioni concentrate. La numero 2 sulla ritenzione di garze e strumenti.
+
+La numero 3 sulla corretta identificazione di paziente, sito e procedura, che e' il cuore della check list di sala. La numero 5 sulla reazione trasfusionale da incompatibilita' AB0. La numero 7 sugli errori in terapia.
+
+La numero 8 sulla violenza agli operatori. La numero 12 sui farmaci LASA. La numero 13 sulle cadute. La numero 17 sulla riconciliazione della terapia. E la numero 19 sulle forme orali solide.
+
+Se ne ricordi tre, ricorda queste. La numero 7, errori in terapia. La numero 12, farmaci LASA, cioe' simili nell'aspetto o nel nome, dall'inglese look alike sound alike. La numero 13, cadute.
+
+Sono le tre che compaiono piu' spesso nei quiz e nei casi delle prove infermieristiche, perche' sono le tre che toccano il lavoro di ogni turno. E se ne ricordi una sola, ricorda la numero 7.
+
+Le barriere nella pratica quotidiana. Identificazione attiva: chiedere nome e data di nascita, non chiamare per cognome aspettando un cenno. E il braccialetto identificativo.
+
+Doppio controllo per farmaci ad alto rischio e per le trasfusioni. Check list in sala operatoria e nelle procedure invasive. Standardizzazione di concentrazioni e diluizioni, per non ricalcolare ogni volta.
+
+E rimozione dai reparti delle soluzioni concentrate pericolose. Riconciliazione farmacologica a ogni passaggio di setting. Consegne strutturate. E segnalazione. Sette barriere, e nessuna sostituisce le altre.
+
+Una precisazione che all'orale fa un'ottima impressione. Se due operatori guardano insieme la stessa fiala, il secondo tende a confermare cio' che il primo ha gia' detto: e' un effetto noto e misurato.
+
+Non e' un controllo, e' un'eco. Il doppio controllo e' efficace solo se indipendente: ciascuno verifica separatamente, senza sapere l'esito dell'altro, e solo dopo ci si confronta.
+
+La cultura no blame non significa assenza di responsabilita', ed e' l'equivoco piu' diffuso. Significa che la risposta di sistema all'errore non e' la caccia al colpevole.
+
+Perche' punire fa sparire le segnalazioni, e con esse la possibilita' di imparare. Un sistema che punisce non diventa piu' sicuro: diventa solo piu' silenzioso, e il silenzio somiglia alla sicurezza.
+
+Resta ferma la distinzione della just culture fra errore umano, comportamento a rischio, cioe' la scorciatoia consapevole ma non malevola, e condotta temeraria o dolosa, che chiede una risposta disciplinare.
+
+Dopo un evento avverso grave l'operatore coinvolto subisce un impatto psicologico rilevante e documentato: senso di colpa, insicurezza, disturbi del sonno, fino all'abbandono della professione.
+
+Si parla di seconde vittime: la prima e' il paziente, la terza l'organizzazione. Un operatore lasciato solo dopo un errore e' meno sicuro nei mesi successivi, e le aziende prevedono percorsi di supporto.
+
+Sul versante della persona assistita la buona pratica prevede la comunicazione trasparente dell'evento avverso: informare, spiegare, esprimere rammarico, dire quali azioni si adotteranno.
+
+E' coerente con l'obbligo di trasparenza della legge 24 e con il Codice deontologico. E, dato controintuitivo ma documentato, riduce il contenzioso invece di aumentarlo: chi riceve una spiegazione ricorre meno al giudice.
+
+Gli otto punti. Near miss non raggiunge il paziente, l'evento avverso si', l'evento sentinella impone indagine immediata e misure correttive. E la complicanza non e' un errore.
+
+Reason: errore attivo e latente, formaggio svizzero, barriere multiple. Incident reporting e RCA reattivi, FMEA proattiva. Il reporting e' volontario, non punitivo, e copre anche i near miss.
+
+[warm] Raccomandazioni 7, 12 e 13. Il doppio controllo funziona solo se indipendente. E no blame non significa nessuna responsabilita'. Nella prossima lezione la comunicazione, che e' anch'essa una barriera. A tra poco.

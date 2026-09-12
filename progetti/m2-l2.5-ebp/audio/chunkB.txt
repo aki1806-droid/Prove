@@ -1,0 +1,51 @@
+Passiamo agli strumenti, e alle definizioni che i quiz mescolano. Linea guida: raccomandazioni elaborate sistematicamente sulla base delle evidenze.
+
+Protocollo: sequenza rigida e predefinita di comportamenti, da seguire cosi' com'e'. Procedura: descrizione delle fasi di un processo, con responsabilita' e modalita'.
+
+Istruzione operativa: dettaglio di una singola attivita' tecnica. Check list: elenco di controlli in sequenza. E il PDTA: il percorso diagnostico terapeutico assistenziale, che tiene insieme tutti gli altri.
+
+Riducile a tre frasi. La linea guida dice che cosa e' raccomandato fare, in generale, in base alle evidenze. Non dice come, e non dice chi.
+
+La procedura aziendale dice come si fa qui, con quali responsabilita' e risorse. Il PDTA dice chi fa che cosa lungo il percorso, dall'accesso alla dimissione al territorio.
+
+La prima e' di fonte scientifica; le altre due di fonte organizzativa. E' questa la distinzione che i quiz cercano, non la definizione a memoria.
+
+La Gelli Bianco ha dato alle linee guida rilevanza giuridica. L'articolo 5 prevede che gli esercenti le professioni sanitarie si attengano, salve le specificita' del caso concreto, alle raccomandazioni.
+
+Raccomandazioni previste da linee guida elaborate da enti, istituzioni e societa' scientifiche iscritte in apposito elenco, e pubblicate nel Sistema Nazionale Linee Guida presso l'Istituto Superiore di Sanita'.
+
+In mancanza, ci si attiene alle buone pratiche clinico assistenziali. Sono due gradini, in quest'ordine: prima le linee guida accreditate, poi le buone pratiche.
+
+E qui si chiude il cerchio con la lezione 1.5. Il rispetto delle linee guida accreditate, o in mancanza delle buone pratiche, adeguate alle specificita' del caso concreto, esclude la punibilita'.
+
+Ma solo per la sola imperizia, non per negligenza e non per imprudenza. E' una esclusione stretta, e il confine conta. Quindi le linee guida non sono un vincolo burocratico: sono anche una protezione.
+
+Una protezione con due condizioni pero': solo se accreditate, e solo se adeguate a quel paziente. Se manca una delle due, la protezione non c'e'.
+
+Da cui un principio operativo importante. Discostarsi da una linea guida e' legittimo, quando le specificita' del caso lo richiedono.
+
+Cio' che non e' legittimo e' discostarsene senza motivo e senza documentarlo. Sono due cose molto diverse, e la differenza sta tutta in cartella: e' la documentazione della lezione precedente a fare da ponte.
+
+Nei casi d'esame la risposta corretta non e' mai applico la linea guida comunque: e' applico la raccomandazione valutandone l'adeguatezza a questa persona, e se me ne discosto lo motivo.
+
+Fra l'evidenza e il letto del paziente c'e' uno scarto noto. Gli ostacoli individuali: poca familiarita' con la ricerca, la barriera della lingua, la mancanza di tempo e l'abitudine, che e' il piu' forte dei quattro.
+
+Organizzativi: risorse, accesso alle banche dati, cultura poco orientata al cambiamento. E legati all'evidenza stessa: risultati contrastanti, scarsa trasferibilita', popolazioni diverse.
+
+E le leve che funzionano. Audit clinico e feedback, cioe' misurare e far vedere il risultato. Formazione sul campo, non in aula. Facilitatori, o champion, di reparto.
+
+E soprattutto l'integrazione della raccomandazione dentro la procedura e dentro la cartella elettronica. E' il metodo piu' efficace, e vale la pena capire perche'.
+
+Perche' rende la buona pratica il percorso piu' semplice da seguire. E la strada piu' facile e' quella che le persone prendono.
+
+In Veneto la catena ha nomi precisi, ed e' quella che conviene enunciare all'orale. Si parte dall'evidenza. Poi la linea guida del Sistema Nazionale Linee Guida. Poi l'indirizzo regionale o il PDTA.
+
+Spesso elaborati dentro le reti cliniche: oncologica, stroke, trauma. Poi procedura aziendale. E infine pratica al letto.
+
+Cinque anelli. Saperla dire in quest'ordine dimostra che hai capito come le evidenze arrivano davvero in reparto, e non solo che cos'e' una linea guida.
+
+I sette punti. L'EBP ha tre pilastri. I cinque passi sono ask, acquire, appraise, apply, assess. Il quesito si scrive con PICO, quattro lettere.
+
+Al vertice della gerarchia stanno revisioni sistematiche e metanalisi. Linea guida, procedura e PDTA sono cose diverse: la prima e' scientifica, le altre organizzative.
+
+[warm] Rilevano le linee guida accreditate nel SNLG presso l'ISS, in mancanza le buone pratiche. E discostarsi e' legittimo, purche' motivato e documentato. A tra poco.

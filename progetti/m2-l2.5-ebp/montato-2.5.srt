@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,510
+Questa lezione ha un doppio interesse. Il primo e' metodologico: sapere da dove viene cio' che facciamo. Il secondo e' giuridico, ed e' il motivo per cui pesa nel concorso piu' di quanto il titolo lasci pensare.
+
+2
+00:00:14,510 --> 00:00:25,860
+Dopo la Gelli Bianco le linee guida non sono piu' solo uno strumento professionale, ma un parametro di valutazione della condotta professionale. Sono entrate nel processo, e da li' non sono piu' uscite.
+
+3
+00:00:25,860 --> 00:00:37,550
+Chi confonde una linea guida con una procedura aziendale sbaglia due domande: una di metodo e una di diritto. E' una confusione che costa doppio, ed e' anche la piu' facile da evitare: bastano tre frasi.
+
+4
+00:00:37,550 --> 00:00:47,890
+Definizione, da citare per intero. L'Evidence Based Practice e' l'integrazione fra le migliori evidenze scientifiche disponibili, l'esperienza e la competenza clinica del professionista.
+
+5
+00:00:47,890 --> 00:00:59,540
+E i valori, le preferenze e il contesto della persona assistita. Tre elementi, non uno. Sono tre, e vanno detti tutti e tre: l'evidenza da sola non e' pratica basata sulle prove, e' solo letteratura.
+
+6
+00:00:59,540 --> 00:01:13,290
+Il distrattore classico presenta l'EBP come pratica fondata esclusivamente sui risultati della ricerca. E' errato proprio perche' ne omette due su tre, e sono i due che riguardano le persone: chi cura e chi e' curato.
+
+7
+00:01:13,290 --> 00:01:27,430
+E non e' una moda importata. Il DM 739 del 1994 prevede che l'infermiere concorra direttamente all'aggiornamento del proprio profilo professionale e alla ricerca. E' scritto nel profilo, non in una circolare.
+
+8
+00:01:27,430 --> 00:01:36,820
+E il Codice deontologico impone di fondare il proprio operato su conoscenze validate. L'EBP e' la traduzione operativa di due norme che gia' conosci dal modulo 1.
+
+9
+00:01:36,820 --> 00:01:47,680
+Cinque passi, cinque A. Ask: formulare il quesito. Acquire: cercare le evidenze. Appraise: valutarle criticamente, perche' trovare uno studio non vuol dire ancora niente.
+
+10
+00:01:47,680 --> 00:01:55,910
+Apply: applicarle integrandole con l'esperienza clinica e con le preferenze della persona. E Assess: valutare l'esito di quello che si e' fatto.
+
+11
+00:01:55,910 --> 00:02:04,530
+Nota la simmetria con il processo di assistenza della lezione 2.1: anche qui si chiude con la valutazione, ed e' anche qui il passo che si dimentica.
+
+12
+00:02:04,530 --> 00:02:16,650
+Il quesito si scrive con PICO. P, la popolazione o il problema: chi. I, l'intervento. C, il confronto con un'alternativa, e puo' mancare. O, l'outcome, cioe' l'esito che si vuole misurare.
+
+13
+00:02:16,650 --> 00:02:28,270
+Un esempio: nei pazienti anziani allettati, l'uso di materassi a pressione alternata rispetto ai materassi in schiuma viscoelastica riduce l'incidenza di lesioni da pressione? Ci sono tutte e quattro le lettere.
+
+14
+00:02:28,270 --> 00:02:38,340
+Esistono varianti che aggiungono T per il tempo o S per il disegno di studio: PICOT, PICOS. Ma la forma base e' quella a quattro lettere, ed e' quella che viene chiesta.
+
+15
+00:02:38,340 --> 00:02:49,200
+Dove si cerca. PubMed per la letteratura biomedica. CINAHL, specifica per l'area infermieristica. La Cochrane Library, che raccoglie le revisioni sistematiche ed e' il primo posto dove guardare.
+
+16
+00:02:49,200 --> 00:03:01,270
+Il Joanna Briggs Institute, orientato alla pratica infermieristica. E il Sistema Nazionale Linee Guida dell'Istituto Superiore di Sanita', per le linee guida italiane: fra poco vedremo perche' e' quello che conta in giudizio.
+
+17
+00:03:01,270 --> 00:03:13,640
+La piramide. Al vertice revisioni sistematiche e metanalisi di studi randomizzati. Poi lo studio randomizzato controllato, l'RCT, in cui la randomizzazione distribuisce a caso i fattori di confondimento.
+
+18
+00:03:13,640 --> 00:03:23,760
+Poi lo studio di coorte, prospettico, che segue nel tempo esposti e non esposti. Poi il caso controllo, retrospettivo, che parte dall'esito e risale all'esposizione.
+
+19
+00:03:23,760 --> 00:03:34,560
+Poi studi trasversali e serie di casi. Alla base, caso singolo e opinione di esperti. Sei livelli, e la domanda chiede quasi sempre il vertice. Ma il vertice non e' tutta la storia.
+
+20
+00:03:34,560 --> 00:03:46,010
+Due precisazioni che all'orale distinguono subito. Prima: il livello riguarda il disegno, non la qualita' della singola ricerca. Un RCT mal condotto vale meno di uno studio di coorte eccellente.
+
+21
+00:03:46,010 --> 00:03:54,220
+Seconda: per molte domande infermieristiche, il vissuto della persona, il significato dell'esperienza, il disegno piu' appropriato e' qualitativo.
+
+22
+00:03:54,220 --> 00:04:06,590
+E il qualitativo nella gerarchia classica sta in basso, pur essendo per quel quesito il migliore. I sistemi moderni come GRADE valutano infatti la qualita' complessiva delle prove, non solo il disegno.
+
+23
+00:04:06,590 --> 00:04:15,130
+Passiamo agli strumenti, e alle definizioni che i quiz mescolano. Linea guida: raccomandazioni elaborate sistematicamente sulla base delle evidenze.
+
+24
+00:04:15,130 --> 00:04:25,020
+Protocollo: sequenza rigida e predefinita di comportamenti, da seguire cosi' com'e'. Procedura: descrizione delle fasi di un processo, con responsabilita' e modalita'.
+
+25
+00:04:25,020 --> 00:04:37,900
+Istruzione operativa: dettaglio di una singola attivita' tecnica. Check list: elenco di controlli in sequenza. E il PDTA: il percorso diagnostico terapeutico assistenziale, che tiene insieme tutti gli altri.
+
+26
+00:04:37,900 --> 00:04:46,150
+Riducile a tre frasi. La linea guida dice che cosa e' raccomandato fare, in generale, in base alle evidenze. Non dice come, e non dice chi.
+
+27
+00:04:46,150 --> 00:04:56,760
+La procedura aziendale dice come si fa qui, con quali responsabilita' e risorse. Il PDTA dice chi fa che cosa lungo il percorso, dall'accesso alla dimissione al territorio.
+
+28
+00:04:56,760 --> 00:05:06,480
+La prima e' di fonte scientifica; le altre due di fonte organizzativa. E' questa la distinzione che i quiz cercano, non la definizione a memoria.
+
+29
+00:05:06,480 --> 00:05:17,780
+La Gelli Bianco ha dato alle linee guida rilevanza giuridica. L'articolo 5 prevede che gli esercenti le professioni sanitarie si attengano, salve le specificita' del caso concreto, alle raccomandazioni.
+
+30
+00:05:17,780 --> 00:05:29,500
+Raccomandazioni previste da linee guida elaborate da enti, istituzioni e societa' scientifiche iscritte in apposito elenco, e pubblicate nel Sistema Nazionale Linee Guida presso l'Istituto Superiore di Sanita'.
+
+31
+00:05:29,500 --> 00:05:38,780
+In mancanza, ci si attiene alle buone pratiche clinico assistenziali. Sono due gradini, in quest'ordine: prima le linee guida accreditate, poi le buone pratiche.
+
+32
+00:05:38,780 --> 00:05:50,250
+E qui si chiude il cerchio con la lezione 1.5. Il rispetto delle linee guida accreditate, o in mancanza delle buone pratiche, adeguate alle specificita' del caso concreto, esclude la punibilita'.
+
+33
+00:05:50,250 --> 00:06:02,440
+Ma solo per la sola imperizia, non per negligenza e non per imprudenza. E' una esclusione stretta, e il confine conta. Quindi le linee guida non sono un vincolo burocratico: sono anche una protezione.
+
+34
+00:06:02,440 --> 00:06:11,400
+Una protezione con due condizioni pero': solo se accreditate, e solo se adeguate a quel paziente. Se manca una delle due, la protezione non c'e'.
+
+35
+00:06:11,400 --> 00:06:18,910
+Da cui un principio operativo importante. Discostarsi da una linea guida e' legittimo, quando le specificita' del caso lo richiedono.
+
+36
+00:06:18,910 --> 00:06:30,650
+Cio' che non e' legittimo e' discostarsene senza motivo e senza documentarlo. Sono due cose molto diverse, e la differenza sta tutta in cartella: e' la documentazione della lezione precedente a fare da ponte.
+
+37
+00:06:30,650 --> 00:06:42,830
+Nei casi d'esame la risposta corretta non e' mai applico la linea guida comunque: e' applico la raccomandazione valutandone l'adeguatezza a questa persona, e se me ne discosto lo motivo.
+
+38
+00:06:42,830 --> 00:06:54,250
+Fra l'evidenza e il letto del paziente c'e' uno scarto noto. Gli ostacoli individuali: poca familiarita' con la ricerca, la barriera della lingua, la mancanza di tempo e l'abitudine, che e' il piu' forte dei quattro.
+
+39
+00:06:54,250 --> 00:07:05,760
+Organizzativi: risorse, accesso alle banche dati, cultura poco orientata al cambiamento. E legati all'evidenza stessa: risultati contrastanti, scarsa trasferibilita', popolazioni diverse.
+
+40
+00:07:05,760 --> 00:07:16,450
+E le leve che funzionano. Audit clinico e feedback, cioe' misurare e far vedere il risultato. Formazione sul campo, non in aula. Facilitatori, o champion, di reparto.
+
+41
+00:07:16,450 --> 00:07:25,250
+E soprattutto l'integrazione della raccomandazione dentro la procedura e dentro la cartella elettronica. E' il metodo piu' efficace, e vale la pena capire perche'.
+
+42
+00:07:25,250 --> 00:07:33,230
+Perche' rende la buona pratica il percorso piu' semplice da seguire. E la strada piu' facile e' quella che le persone prendono.
+
+43
+00:07:33,230 --> 00:07:44,910
+In Veneto la catena ha nomi precisi, ed e' quella che conviene enunciare all'orale. Si parte dall'evidenza. Poi la linea guida del Sistema Nazionale Linee Guida. Poi l'indirizzo regionale o il PDTA.
+
+44
+00:07:44,910 --> 00:07:52,640
+Spesso elaborati dentro le reti cliniche: oncologica, stroke, trauma. Poi procedura aziendale. E infine pratica al letto.
+
+45
+00:07:52,640 --> 00:08:01,640
+Cinque anelli. Saperla dire in quest'ordine dimostra che hai capito come le evidenze arrivano davvero in reparto, e non solo che cos'e' una linea guida.
+
+46
+00:08:01,640 --> 00:08:12,160
+I sette punti. L'EBP ha tre pilastri. I cinque passi sono ask, acquire, appraise, apply, assess. Il quesito si scrive con PICO, quattro lettere.
+
+47
+00:08:12,160 --> 00:08:22,860
+Al vertice della gerarchia stanno revisioni sistematiche e metanalisi. Linea guida, procedura e PDTA sono cose diverse: la prima e' scientifica, le altre organizzative.
+
+48
+00:08:22,860 --> 00:08:33,980
+Rilevano le linee guida accreditate nel SNLG presso l'ISS, in mancanza le buone pratiche. E discostarsi e' legittimo, purche' motivato e documentato. A tra poco.

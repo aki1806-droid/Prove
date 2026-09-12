@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La sicurezza delle cure e' parte costitutiva del diritto alla salute, e tutto il personale vi concorre. L'abbiamo vista nella lezione 1.5 come principio giuridico della legge 24."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi vediamo come quel principio diventa metodo. Non e' un passaggio scontato: fra dire che la sicurezza e' un diritto e sapere come si costruisce ci sono cinquant'anni di studi sull'errore."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E' una delle materie piu' presenti nei concorsi recenti, perche' tocca insieme organizzazione, responsabilita' e pratica quotidiana. Tre cose in una sola domanda, e per questo rende."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di tutto il vocabolario, perche' qui le parole sono tecniche e i quiz le mescolano apposta. Near miss: errore che non ha raggiunto il paziente, perche' qualcuno o qualcosa lo ha intercettato in tempo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Evento avverso: danno involontario al paziente dovuto alle cure, non alla malattia di base. Evento sentinella: evento avverso di particolare gravita', che segnala una disfunzione del sistema."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E complicanza: evento sfavorevole atteso, correlato alla patologia o alla procedura, e non necessariamente evitabile. Quattro parole, quattro cose diverse, e una sola delle quattro non presuppone un errore."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre distinzioni da fissare. Nel near miss l'errore c'e' stato ma il danno no. Nell'evento avverso il danno c'e'. E soprattutto: complicanza non e' sinonimo di errore, ed e' la distinzione che pesa di piu'."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una deiscenza in un paziente ad alto rischio, gestito correttamente, e' una complicanza, non un errore. Confonderle e' uno degli sbagli concettuali piu' comuni, e si paga in piu' di una domanda."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "James Reason ha proposto due letture dell'errore, e la scelta fra le due decide tutto quello che viene dopo. L'approccio alla persona cerca il colpevole: individua chi ha sbagliato e lo sanziona."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'approccio al sistema riconosce che gli esseri umani sbagliano, e che l'errore e' prevalentemente conseguenza di condizioni latenti. Si interviene quindi sulle difese, non sulle persone."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da qui la distinzione fondamentale, ed e' quella su cui si costruiscono le domande. L'errore attivo e' dell'operatore in prima linea e ha effetto immediato: lo scambio di fiala, il salto di un controllo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'errore latente appartiene invece a chi progetta l'organizzazione, i processi e le tecnologie. E resta silente anche per anni, finche' una combinazione di circostanze non lo fa emergere."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Farmaci LASA riposti vicini. Turni con carichi insostenibili. Una procedura ambigua. L'assenza di un doppio controllo. Nessuno di questi e' un errore di qualcuno: sono errori di qualcosa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello del formaggio svizzero. Il sistema e' protetto da barriere successive, ciascuna con i suoi buchi: le criticita' latenti. Nessuna barriera e' integra, e nessuna da sola basta."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'incidente accade quando i buchi di tutte le barriere si allineano. Ne discende il principio operativo della gestione del rischio: non basta chiudere un buco, servono piu' barriere indipendenti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E' la ragione per cui esistono insieme il doppio controllo, la check list e il braccialetto identificativo. Non sono tre modi di fare la stessa cosa: sono tre fette, e servono proprio perche' sono tre."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti si dividono in due famiglie, ed e' la domanda ricorrente. Reattivi, che guardano indietro: incident reporting, root cause analysis, audit clinico, significant event audit."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proattivo, che guarda avanti: FMEA e FMECA, che analizzano un processo prima che accada qualcosa, per individuare dove potrebbe rompersi. Se il quiz chiede quale sia proattivo, la risposta e' questa."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'incident reporting e' volontario, non punitivo e orientato all'apprendimento. Tre aggettivi, e ciascuno risponde a una obiezione diversa: perche' dovrei, che cosa rischio, a che cosa serve."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scheda raccoglie che cosa e' accaduto, dove, quando e in quali condizioni. Non di chi e' la colpa: quella domanda non compare nel modulo, e la sua assenza non e' una dimenticanza ma una scelta."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si segnalano anche i near miss. Anzi, soprattutto quelli: sono apprendimento gratuito, perche' nessuno si e' fatto male e il sistema ha comunque mostrato il punto in cui si rompe."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due precisazioni che valgono una domanda. L'incident reporting non sostituisce la registrazione dell'evento in cartella clinica: la segnalazione va al gestore del rischio, la cartella resta un atto pubblico."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non sostituisce gli obblighi di comunicazione previsti dalla legge. Sono piani distinti e vanno percorsi entrambi: segnalo, registro e comunico sono tre verbi, non tre modi di dire lo stesso."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La root cause analysis ricostruisce la sequenza degli eventi e identifica i fattori contribuenti: umani, organizzativi, tecnologici, ambientali, comunicativi. Cinque famiglie, e si guardano tutte."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi risale, chiedendosi ripetutamente perche', fino alle cause radice: quelle sulle quali un intervento impedisce il ripetersi. Fermarsi prima vuol dire tornare al punto di partenza."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E il prodotto finale non e' un nome: e' un piano d'azione con responsabili e tempi. Se un'analisi finisce con una persona invece che con un'azione, non e' una root cause analysis."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli eventi sentinella sono eventi di particolare gravita', potenzialmente indicativi di una disfunzione del sistema, che richiedono indagine immediata e l'adozione di misure correttive."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono oggetto di monitoraggio nazionale attraverso il SIMES, il sistema informativo per il monitoraggio degli errori in sanita'. La sigla va saputa per esteso, ed e' quella che si chiede allo scritto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le Raccomandazioni ministeriali sono una ventina, e conviene conoscerne almeno il filo. La numero 1 sul cloruro di potassio e le soluzioni concentrate. La numero 2 sulla ritenzione di garze e strumenti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La numero 3 sulla corretta identificazione di paziente, sito e procedura, che e' il cuore della check list di sala. La numero 5 sulla reazione trasfusionale da incompatibilita' AB0. La numero 7 sugli errori in terapia."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La numero 8 sulla violenza agli operatori. La numero 12 sui farmaci LASA. La numero 13 sulle cadute. La numero 17 sulla riconciliazione della terapia. E la numero 19 sulle forme orali solide."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se ne ricordi tre, ricorda queste. La numero 7, errori in terapia. La numero 12, farmaci LASA, cioe' simili nell'aspetto o nel nome, dall'inglese look alike sound alike. La numero 13, cadute."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono le tre che compaiono piu' spesso nei quiz e nei casi delle prove infermieristiche, perche' sono le tre che toccano il lavoro di ogni turno. E se ne ricordi una sola, ricorda la numero 7."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le barriere nella pratica quotidiana. Identificazione attiva: chiedere nome e data di nascita, non chiamare per cognome aspettando un cenno. E il braccialetto identificativo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Doppio controllo per farmaci ad alto rischio e per le trasfusioni. Check list in sala operatoria e nelle procedure invasive. Standardizzazione di concentrazioni e diluizioni, per non ricalcolare ogni volta."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E rimozione dai reparti delle soluzioni concentrate pericolose. Riconciliazione farmacologica a ogni passaggio di setting. Consegne strutturate. E segnalazione. Sette barriere, e nessuna sostituisce le altre."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una precisazione che all'orale fa un'ottima impressione. Se due operatori guardano insieme la stessa fiala, il secondo tende a confermare cio' che il primo ha gia' detto: e' un effetto noto e misurato."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Non e' un controllo, e' un'eco. Il doppio controllo e' efficace solo se indipendente: ciascuno verifica separatamente, senza sapere l'esito dell'altro, e solo dopo ci si confronta."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cultura no blame non significa assenza di responsabilita', ed e' l'equivoco piu' diffuso. Significa che la risposta di sistema all'errore non e' la caccia al colpevole."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Perche' punire fa sparire le segnalazioni, e con esse la possibilita' di imparare. Un sistema che punisce non diventa piu' sicuro: diventa solo piu' silenzioso, e il silenzio somiglia alla sicurezza."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta ferma la distinzione della just culture fra errore umano, comportamento a rischio, cioe' la scorciatoia consapevole ma non malevola, e condotta temeraria o dolosa, che chiede una risposta disciplinare."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo un evento avverso grave l'operatore coinvolto subisce un impatto psicologico rilevante e documentato: senso di colpa, insicurezza, disturbi del sonno, fino all'abbandono della professione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si parla di seconde vittime: la prima e' il paziente, la terza l'organizzazione. Un operatore lasciato solo dopo un errore e' meno sicuro nei mesi successivi, e le aziende prevedono percorsi di supporto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul versante della persona assistita la buona pratica prevede la comunicazione trasparente dell'evento avverso: informare, spiegare, esprimere rammarico, dire quali azioni si adotteranno."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' coerente con l'obbligo di trasparenza della legge 24 e con il Codice deontologico. E, dato controintuitivo ma documentato, riduce il contenzioso invece di aumentarlo: chi riceve una spiegazione ricorre meno al giudice."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli otto punti. Near miss non raggiunge il paziente, l'evento avverso si', l'evento sentinella impone indagine immediata e misure correttive. E la complicanza non e' un errore."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Reason: errore attivo e latente, formaggio svizzero, barriere multiple. Incident reporting e RCA reattivi, FMEA proattiva. Il reporting e' volontario, non punitivo, e copre anche i near miss."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Raccomandazioni 7, 12 e 13. Il doppio controllo funziona solo se indipendente. E no blame non significa nessuna responsabilita'. Nella prossima lezione la comunicazione, che e' anch'essa una barriera. A tra poco."
+ }
+]

@@ -1,0 +1,43 @@
+[warm] Questa lezione ha un doppio interesse. Il primo e' metodologico: sapere da dove viene cio' che facciamo. Il secondo e' giuridico, ed e' il motivo per cui pesa nel concorso piu' di quanto il titolo lasci pensare.
+
+Dopo la Gelli Bianco le linee guida non sono piu' solo uno strumento professionale, ma un parametro di valutazione della condotta professionale. Sono entrate nel processo, e da li' non sono piu' uscite.
+
+Chi confonde una linea guida con una procedura aziendale sbaglia due domande: una di metodo e una di diritto. E' una confusione che costa doppio, ed e' anche la piu' facile da evitare: bastano tre frasi.
+
+Definizione, da citare per intero. L'Evidence Based Practice e' l'integrazione fra le migliori evidenze scientifiche disponibili, l'esperienza e la competenza clinica del professionista.
+
+E i valori, le preferenze e il contesto della persona assistita. Tre elementi, non uno. Sono tre, e vanno detti tutti e tre: l'evidenza da sola non e' pratica basata sulle prove, e' solo letteratura.
+
+Il distrattore classico presenta l'EBP come pratica fondata esclusivamente sui risultati della ricerca. E' errato proprio perche' ne omette due su tre, e sono i due che riguardano le persone: chi cura e chi e' curato.
+
+E non e' una moda importata. Il DM 739 del 1994 prevede che l'infermiere concorra direttamente all'aggiornamento del proprio profilo professionale e alla ricerca. E' scritto nel profilo, non in una circolare.
+
+E il Codice deontologico impone di fondare il proprio operato su conoscenze validate. L'EBP e' la traduzione operativa di due norme che gia' conosci dal modulo 1.
+
+Cinque passi, cinque A. Ask: formulare il quesito. Acquire: cercare le evidenze. Appraise: valutarle criticamente, perche' trovare uno studio non vuol dire ancora niente.
+
+Apply: applicarle integrandole con l'esperienza clinica e con le preferenze della persona. E Assess: valutare l'esito di quello che si e' fatto.
+
+Nota la simmetria con il processo di assistenza della lezione 2.1: anche qui si chiude con la valutazione, ed e' anche qui il passo che si dimentica.
+
+Il quesito si scrive con PICO. P, la popolazione o il problema: chi. I, l'intervento. C, il confronto con un'alternativa, e puo' mancare. O, l'outcome, cioe' l'esito che si vuole misurare.
+
+Un esempio: nei pazienti anziani allettati, l'uso di materassi a pressione alternata rispetto ai materassi in schiuma viscoelastica riduce l'incidenza di lesioni da pressione? Ci sono tutte e quattro le lettere.
+
+Esistono varianti che aggiungono T per il tempo o S per il disegno di studio: PICOT, PICOS. Ma la forma base e' quella a quattro lettere, ed e' quella che viene chiesta.
+
+Dove si cerca. PubMed per la letteratura biomedica. CINAHL, specifica per l'area infermieristica. La Cochrane Library, che raccoglie le revisioni sistematiche ed e' il primo posto dove guardare.
+
+Il Joanna Briggs Institute, orientato alla pratica infermieristica. E il Sistema Nazionale Linee Guida dell'Istituto Superiore di Sanita', per le linee guida italiane: fra poco vedremo perche' e' quello che conta in giudizio.
+
+La piramide. Al vertice revisioni sistematiche e metanalisi di studi randomizzati. Poi lo studio randomizzato controllato, l'RCT, in cui la randomizzazione distribuisce a caso i fattori di confondimento.
+
+Poi lo studio di coorte, prospettico, che segue nel tempo esposti e non esposti. Poi il caso controllo, retrospettivo, che parte dall'esito e risale all'esposizione.
+
+Poi studi trasversali e serie di casi. Alla base, caso singolo e opinione di esperti. Sei livelli, e la domanda chiede quasi sempre il vertice. Ma il vertice non e' tutta la storia.
+
+Due precisazioni che all'orale distinguono subito. Prima: il livello riguarda il disegno, non la qualita' della singola ricerca. Un RCT mal condotto vale meno di uno studio di coorte eccellente.
+
+Seconda: per molte domande infermieristiche, il vissuto della persona, il significato dell'esperienza, il disegno piu' appropriato e' qualitativo.
+
+E il qualitativo nella gerarchia classica sta in basso, pur essendo per quel quesito il migliore. I sistemi moderni come GRADE valutano infatti la qualita' complessiva delle prove, non solo il disegno.

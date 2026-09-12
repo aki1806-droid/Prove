@@ -1,0 +1,43 @@
+{
+ "A": {
+  "parole_copione": 677,
+  "parole_dette": 676,
+  "coincidenti": 674,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s09",
+    "copione": "1 5",
+    "detto": "lezione15"
+   },
+   {
+    "blocco": "s15",
+    "copione": "picot",
+    "detto": "pico"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 701,
+  "parole_dette": 703,
+  "coincidenti": 698,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "riducile",
+    "detto": "riduci le"
+   },
+   {
+    "blocco": "s30",
+    "copione": "alle",
+    "detto": "le"
+   },
+   {
+    "blocco": "s49",
+    "copione": "tra",
+    "detto": "tar"
+   }
+  ]
+ }
+}
