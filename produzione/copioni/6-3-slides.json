@@ -1,0 +1,58 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 6 · Lezione 6.3","title":"I primi trenta secondi di un litigio","sub":"Obiezioni, tensioni, conflitti"},
+
+{"file":"c02","layout":"statement","title":"Il corpo si attiva<br>prima della mente."},
+{"file":"c03","layout":"list","kicker":"cosa succede, in pochi secondi","rows":["Il battito sale","Il respiro si accorcia","L'attenzione si restringe su chi hai davanti"]},
+{"file":"c04","layout":"statement","title":"È una risposta antica.<br>Serviva a reagire in fretta a un pericolo."},
+{"file":"c05","layout":"statement","title":"E ha un effetto collaterale,<br>uno solo, molto preciso."},
+{"file":"c06","layout":"memo","title":"In quello stato la capacità di considerare<br>il punto di vista dell'altro si riduce."},
+
+{"file":"c07","layout":"statement","title":"Questo spiega una cosa<br>che conoscono tutti."},
+{"file":"c08","layout":"statement","title":"Nel pieno di una lite, argomenti sensati<br><span class=\"gold\">non fanno nessun effetto.</span>"},
+{"file":"c09","layout":"swap","kicker":"quello che sembra, quello che è","rows":[["«è ottuso»","la parte che valuta è la meno disponibile"]]},
+{"file":"c10","layout":"statement","title":"Non è cattiva volontà.<br>Non lo è di nessuno dei due."},
+{"file":"c11","layout":"memo","title":"Anche tu, in quel momento,<br>stai ragionando peggio di quanto credi."},
+
+{"file":"c12","layout":"chart","kicker":"quanto ci mette a salire, quanto a scendere","title":"Sale in secondi. Scende in minuti.","bars":[{"et":"la salita","val":6,"cifra":"secondi","oro":true},{"et":"il rientro","val":100,"cifra":"minuti"}]},
+{"file":"c14","layout":"statement","title":"Su questo girano cifre molto precise.<br>Io non te le riporto."},
+{"file":"c15","layout":"memo","title":"Scendere richiede molto più tempo<br>di quanto ne serva a salire."},
+{"file":"c16","layout":"statement","title":"E quel tempo non si comprime<br>con la buona volontà."},
+{"file":"c17","layout":"statement","title":"La conseguenza pratica<br>è tutta qui."},
+
+{"file":"c18","layout":"number","num":"30","unit":" s","fill":12,"title":"i secondi che contano più di tutti gli altri messi insieme"},
+{"file":"c19","layout":"statement","title":"Se in quella finestra la temperatura sale,<br>quello che segue non è una conversazione."},
+{"file":"c20","layout":"memo","title":"È una gestione di danni."},
+
+{"file":"c21","layout":"list","kicker":"tre mosse, dentro la finestra","rows":["Abbassare volume e ritmo","Non rispondere al contenuto","Guadagnare tempo restando"]},
+{"file":"c22","layout":"list","kicker":"tre mosse, dentro la finestra","rows":["Abbassare volume e ritmo","Non rispondere al contenuto","Guadagnare tempo restando"],"active":0,"note":"il tono alto dell'altro cerca risonanza nel tuo"},
+{"file":"c23","layout":"statement","title":"E non trovarla lo fa scendere.<br>Non subito, ma lo fa scendere."},
+{"file":"c24","layout":"list","kicker":"tre mosse, dentro la finestra","rows":["Abbassare volume e ritmo","Non rispondere al contenuto","Guadagnare tempo restando"],"active":1,"note":"nei primi trenta secondi viene detta una cosa esagerata"},
+{"file":"c25","layout":"statement","title":"È l'effetto dell'attivazione.<br>Non un'opinione ponderata."},
+{"file":"c26","layout":"statement","title":"Rispondere a quella frase<br>vuol dire trattarla come una posizione."},
+{"file":"c27","layout":"list","kicker":"tre mosse, dentro la finestra","rows":["Abbassare volume e ritmo","Non rispondere al contenuto","Guadagnare tempo restando"],"active":2,"note":"«aspetta, voglio capire bene» · «dammi un secondo»"},
+{"file":"c28","layout":"quote","kicker":"interrompe il ritmo, e dice che resti","title":"«Aspetta,<br>voglio capire bene.»"},
+
+{"file":"c30","layout":"statement","title":"È la cosa detta nel picco.<br>Una frase sola."},
+{"file":"c31","layout":"statement","title":"Nel picco si dicono cose che non si pensano.<br>O che si pensano in forma più estrema."},
+{"file":"c32","layout":"memo","title":"A distanza di anni, di una discussione<br>si ricorda quella e nient'altro."},
+{"file":"c33","layout":"table","kicker":"due regole, a seconda di chi l'ha detta","cols":["l'hai detta tu","l'ha detta lui"],"rows":[["ripara, e presto","non fissarla"],["è la prossima lezione","lasciala cadere"]],"pari":true},
+{"file":"c34","layout":"statement","title":"Quando la dici tu:<br>la riparazione va fatta presto."},
+{"file":"c35","layout":"statement","title":"Quando la dice lui:<br>non fissarla."},
+{"file":"c36","layout":"swap","kicker":"cosa fa «quindi secondo te io sarei»","rows":[["uno sfogo","una posizione ufficiale"]]},
+{"file":"c37","layout":"statement","title":"E da lì in poi dovrà difenderla.<br><span class=\"gold\">Gliel'hai messa a verbale tu.</span>"},
+
+{"file":"c38","layout":"statement","title":"Uscire dalla stanza è legittimo.<br>A volte è l'unica mossa che resta."},
+{"file":"c39","layout":"list","kicker":"l'uscita, due elementi","rows":["La dichiarazione che non è un abbandono","Il momento del ritorno"]},
+{"file":"c40","layout":"quote","title":"«Non sto uscendo per lasciarti.<br>Torno fra dieci minuti.»"},
+{"file":"c42","layout":"statement","title":"Sbattere la porta senza dire niente,<br>dall'altra parte, è una rottura."},
+{"file":"c43","layout":"memo","title":"Un ritorno mancato<br>costa più dell'uscita."},
+
+{"file":"c44","layout":"memo","title":"Nel picco non si risolve niente.<br>Nemmeno subito dopo."},
+{"file":"c45","layout":"statement","title":"Dentro la finestra si può fare una cosa sola:<br><span class=\"gold\">non farla salire.</span>"},
+{"file":"c46","layout":"statement","title":"E dopo si può tornare,<br>quando il corpo è sceso davvero."},
+{"file":"c47","layout":"swap","kicker":"a cosa servono i primi trenta secondi","rows":[["vincere la discussione","non perdere niente di importante"]]},
+{"file":"c48","layout":"statement","title":"È l'unico pezzo della discussione<br>su cui hai ancora un controllo pieno."},
+{"file":"c49","layout":"statement","title":"Di' una frase sola.<br>E poi taci tre secondi."},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]

@@ -1,0 +1,57 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 6 · Lezione 6.1","title":"L'obiezione è un'informazione","sub":"Obiezioni, tensioni, conflitti"},
+
+{"file":"c02","layout":"statement","title":"Il modulo scorso finiva<br>col diritto di non essere d'accordo."},
+{"file":"c03","layout":"statement","title":"Questo comincia da lì,<br><span class=\"gold\">dall'altro lato del tavolo.</span>"},
+{"file":"c04","layout":"statement","title":"La prima cosa da correggere<br>non è una tecnica. È l'istinto."},
+{"file":"c05","layout":"statement","title":"Quando qualcuno obietta,<br>sentiamo un ostacolo."},
+{"file":"c06","layout":"statement","title":"Ed è esattamente<br>il contrario."},
+{"file":"c07","layout":"table","kicker":"la stessa proposta, due risposte","cols":["«non sono d'accordo»","«va bene, come vuoi»"],"rows":[["è ancora dentro","se n'è già andata"],["ti sta dando qualcosa","non saprai niente"],["sembra peggio","sembra meglio"]]},
+{"file":"c08","layout":"statement","title":"Ti sta dando qualcosa,<br>anche se non sembra."},
+{"file":"c09","layout":"statement","title":"E tu non lo saprai<br>finché non sarà troppo tardi."},
+{"file":"c10","layout":"memo","title":"Il silenzio è peggio dell'obiezione.<br>E sembra molto meglio."},
+
+{"file":"c11","layout":"list","kicker":"tre tipi","rows":["Sul merito","Sul rischio","Sulla relazione"]},
+{"file":"c12","layout":"list","kicker":"tre tipi","rows":["Sul merito","Sul rischio","Sulla relazione"],"active":0,"note":"«Non è vero.» «Non funziona.» Chiede una prova."},
+{"file":"c13","layout":"list","kicker":"tre tipi","rows":["Sul merito","Sul rischio","Sulla relazione"],"active":1,"note":"«E se poi va storto?» Non chiede una prova: chiede una rassicurazione."},
+{"file":"c14","layout":"statement","title":"Chiede cosa succede se.<br>Altri dati lì non servono."},
+{"file":"c15","layout":"list","kicker":"tre tipi","rows":["Sul merito","Sul rischio","Sulla relazione"],"active":2,"note":"Può suonare come qualsiasi cosa, e non c'entra niente con la proposta."},
+{"file":"c16","layout":"table","kicker":"come si affrontano","cols":["tipo","con cosa"],"rows":[["sul merito","argomenti"],["sul rischio","argomenti"],["sulla relazione","—"]]},
+{"file":"c17","layout":"statement","title":"Più prove porti,<br>più ne trova di nuove."},
+
+{"file":"c19","layout":"memo","title":"La prima obiezione<br>quasi mai è quella vera."},
+{"file":"c20","layout":"statement","title":"Non per doppiezza.<br>Il motivo vero è meno presentabile."},
+{"file":"c21","layout":"list","plain":true,"kicker":"cosa c'è sotto, di solito","rows":["Un timore personale","Una diffidenza","Una brutta esperienza precedente"]},
+{"file":"c22","layout":"statement","title":"Quello che si dice per primo<br>è la versione accettabile."},
+{"file":"c23","layout":"statement","title":"E la conseguenza<br>è controintuitiva."},
+{"file":"c24","layout":"statement","title":"L'hai smontata,<br><span class=\"gold\">e ne arriva un'altra.</span>"},
+
+{"file":"c26","layout":"statement","title":"Invece di rispondere,<br>si allarga."},
+{"file":"c27","layout":"quote","kicker":"detta subito","title":"«Cos'altro<br>non ti convince?»"},
+{"file":"c28","layout":"statement","title":"Oppure la più economica:<br>costa una riga, risparmia mezz'ora."},
+{"file":"c29","layout":"quote","kicker":"sette parole","title":"«Se questa cosa fosse risolta,<br>ci saremmo?»"},
+{"file":"c30","layout":"swap","kicker":"cosa ti dice la risposta","rows":[["«sì»","stai discutendo di quella vera"],["«be', ci sarebbe anche…»","la prima era la copertura"]]},
+{"file":"c31","layout":"statement","title":"Hai appena scoperto<br>che la prima era la copertura."},
+{"file":"c32","layout":"chart","kicker":"quanto ci metti a saperlo","title":"Dieci secondi con la domanda, venti minuti senza.","bars":[{"et":"con la domanda","val":4,"cifra":"10 secondi","oro":true},{"et":"senza","val":100,"cifra":"20 minuti"}]},
+
+{"file":"c33","layout":"list","kicker":"quando rispondi","rows":["Riformula prima","Rispondi alla cosa, non alla persona","Concedi quello che è vero"]},
+{"file":"c34","layout":"list","kicker":"quando rispondi","rows":["Riformula prima","Rispondi alla cosa, non alla persona","Concedi quello che è vero"],"active":0,"note":"Includendo la parte che ti dà torto. Non soltanto il resto."},
+{"file":"c35","layout":"statement","title":"Fa cadere metà della tensione<br>da sola."},
+{"file":"c36","layout":"list","kicker":"quando rispondi","rows":["Riformula prima","Rispondi alla cosa, non alla persona","Concedi quello che è vero"],"active":1,"note":"E la differenza fra le due sta in due parole appena."},
+{"file":"c37","layout":"swap","kicker":"due parole di differenza","rows":[["«ti sbagli sui tempi»","deve difendersi"],["«il tuo dubbio è ragionevole»","può cambiare idea"]]},
+{"file":"c38","layout":"statement","title":"In un caso può cambiare idea<br>senza perdere la faccia."},
+{"file":"c39","layout":"list","kicker":"quando rispondi","rows":["Riformula prima","Rispondi alla cosa, non alla persona","Concedi quello che è vero"],"active":2,"note":"Tutto quello che è vero, e subito, senza farti tirare."},
+
+{"file":"c41","layout":"statement","title":"Non tutte le obiezioni<br>sono in buona fede."},
+{"file":"c42","layout":"statement","title":"Il segnale non riguarda il tono.<br>Riguarda la struttura."},
+{"file":"c43","layout":"memo","title":"L'obiezione non chiede niente.<br>Nessuna prova la soddisferebbe."},
+{"file":"c44","layout":"statement","title":"La risposta utile<br>non è alzare la voce."},
+{"file":"c45","layout":"quote","kicker":"detta piano","title":"«Cosa ti servirebbe<br>per essere d'accordo?»"},
+{"file":"c46","layout":"statement","title":"Se non c'è risposta,<br>non era un'obiezione."},
+
+{"file":"c47","layout":"memo","title":"Il silenzio è peggio dell'obiezione.<br>E sembra molto meglio."},
+{"file":"c48","layout":"swap","kicker":"dove sei","rows":[["chi obietta","è ancora in gioco"],["«va bene, come vuoi»","ti ha già lasciato solo"]]},
+{"file":"c49","layout":"statement","title":"Alla prima obiezione,<br>non rispondere."},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]

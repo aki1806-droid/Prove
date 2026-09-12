@@ -1,0 +1,58 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 6 · Lezione 6.2","title":"Disinnescare prima che diventi conflitto","sub":"Obiezioni, tensioni, conflitti"},
+
+{"file":"c02","layout":"statement","title":"Le discussioni sembrano<br>scoppiare all'improvviso."},
+{"file":"c03","layout":"statement","title":"Non è così.<br><span class=\"gold\">La salita è graduale.</span>"},
+{"file":"c04","layout":"statement","title":"Dentro una conversazione<br>siamo occupati a costruire la risposta."},
+{"file":"c05","layout":"statement","title":"Non sono nascosti.<br>Stiamo guardando da un'altra parte."},
+
+{"file":"c06","layout":"cards","kicker":"tre segnali, sempre in quest'ordine","rows":[{"icona":"io","testo":"Il corpo"},{"icona":"accelera","testo":"Il ritmo"},{"icona":"parole","testo":"Il lessico"}]},
+{"file":"c07","layout":"list","kicker":"il primo","rows":["Spalle che si chiudono","Mani che si fermano","Sguardo che va da un'altra parte"]},
+{"file":"c08","layout":"statement","title":"Cambia per primo.<br>E non se ne accorge nemmeno chi lo fa."},
+{"file":"c09","layout":"list","kicker":"il secondo","rows":["Il parlato accelera","E nello stesso tempo sale di tono"]},
+{"file":"c10","layout":"statement","title":"È la lezione 1.4, il paraverbale,<br>letta sull'altro invece che su di sé."},
+{"file":"c11","layout":"list","kicker":"il terzo, il più affidabile","rows":["Si sente al telefono, dove il corpo non lo vedi","Si legge per iscritto, dove non c'è voce"],"plain":true},
+{"file":"c12","layout":"statement","title":"Ed è il più affidabile dei tre<br>per un motivo molto pratico."},
+
+{"file":"c13","layout":"list","kicker":"compaiono gli assoluti","rows":["Sempre","Mai","Ogni volta"]},
+{"file":"c14","layout":"swap","kicker":"e il tu prende il posto dell'io","rows":[["«io non ho capito»","«tu non ti spieghi bene»"]]},
+{"file":"c15","layout":"memo","title":"Da «fai sempre così» in poi<br>non si parla più del fatto."},
+{"file":"c16","layout":"statement","title":"È passata al piano della relazione.<br><span class=\"gold\">E da lì scivola in fretta.</span>"},
+
+{"file":"c18","layout":"list","kicker":"tre mosse, finché c'è tempo","rows":["Rallentare","Nominare la tensione","Cambiare qualcosa di fisico"]},
+{"file":"c19","layout":"list","kicker":"tre mosse, finché c'è tempo","rows":["Rallentare","Nominare la tensione","Cambiare qualcosa di fisico"],"active":0,"note":"il volume e il ritmo sono due cose separate"},
+{"file":"c20","layout":"statement","title":"Le conversazioni si sincronizzano da sole.<br>Chi rallenta si trascina dietro l'altro."},
+{"file":"c21","layout":"memo","title":"Funziona soltanto<br>se rallenti anche il contenuto."},
+{"file":"c22","layout":"statement","title":"Una cosa aggressiva detta piano<br>è peggio, non meglio."},
+{"file":"c23","layout":"list","kicker":"tre mosse, finché c'è tempo","rows":["Rallentare","Nominare la tensione","Cambiare qualcosa di fisico"],"active":1,"note":"senza attribuire nessuna colpa a nessuno dei due"},
+{"file":"c24","layout":"list","kicker":"tre mosse, finché c'è tempo","rows":["Rallentare","Nominare la tensione","Cambiare qualcosa di fisico"],"active":2,"note":"spostarsi, sedersi, passare dal messaggio alla telefonata"},
+
+{"file":"c26","layout":"statement","title":"Sul nominare c'è un dettaglio<br>che cambia tutto."},
+{"file":"c27","layout":"memo","title":"Nominare la tensione dell'altro la aumenta.<br>Nominare la propria la abbassa."},
+{"file":"c28","layout":"quote","kicker":"un'accusa","title":"«Ti stai<br>agitando.»","note":"descrive lui, in un modo che lui non ha scelto"},
+{"file":"c29","layout":"quote","kicker":"un disinnesco","title":"«Mi accorgo che<br>mi sto irrigidendo.»","note":"descrive te, e nessuno può contestartelo"},
+{"file":"c30","layout":"table","kicker":"stessa osservazione, soggetto diverso","cols":["soggetto: lui","soggetto: io"],"rows":[["«ti stai agitando»","«mi accorgo che mi sto irrigidendo»"],["è un'accusa","è un disinnesco"],["la tensione sale","la tensione scende"]]},
+
+{"file":"c31","layout":"statement","title":"E adesso le due parole<br>da non dire mai."},
+{"file":"c32","layout":"memo","title":"«Calmati.»"},
+{"file":"c33","layout":"statement","title":"La parola più efficace al mondo<br>per ottenere l'esatto contrario."},
+{"file":"c34","layout":"statement","title":"Comunica tre cose insieme.<br>In due sillabe."},
+{"file":"c35","layout":"list","kicker":"cosa dice davvero","rows":["Che l'altro è fuori controllo","Che tu non lo sei","Che il problema è la sua reazione"]},
+{"file":"c36","layout":"statement","title":"«Stai esagerando» è la stessa frase<br>con qualche sillaba in più."},
+{"file":"c37","layout":"swap","kicker":"quello che cercavano, ottenuto davvero","rows":[["«calmati»","«vedo che è una cosa che ti pesa»"],["«stai esagerando»","«vedo che ti pesa»"]]},
+{"file":"c38","layout":"quote","title":"«Vedo che è una cosa<br>che ti pesa.»","note":"non chiede niente, non giudica niente"},
+
+{"file":"c39","layout":"list","kicker":"il rinvio, tre elementi","rows":["Una ragione dichiarata","Un momento preciso","La conferma che si torna"]},
+{"file":"c40","layout":"list","kicker":"il rinvio, tre elementi","rows":["Una ragione dichiarata","Un momento preciso","La conferma che si torna"],"active":0,"note":"«così non stiamo combinando niente, e lo vediamo tutti e due»"},
+{"file":"c41","layout":"list","kicker":"il rinvio, tre elementi","rows":["Una ragione dichiarata","Un momento preciso","La conferma che si torna"],"active":1,"note":"non «non ne parliamo», ma «ne parliamo stasera dopo cena»"},
+{"file":"c42","layout":"list","kicker":"il rinvio, tre elementi","rows":["Una ragione dichiarata","Un momento preciso","La conferma che si torna"],"active":2,"note":"detta a voce, non lasciata sottintesa"},
+{"file":"c43","layout":"memo","title":"Senza il momento preciso<br>non è un rinvio. È un'uscita."},
+{"file":"c44","layout":"statement","title":"Il conflitto rinviato senza data torna sempre.<br><span class=\"gold\">Più tardi, e più grosso.</span>"},
+
+{"file":"c46","layout":"memo","title":"Nominare la tensione dell'altro la aumenta.<br>Nominare la propria la abbassa."},
+{"file":"c47","layout":"list","kicker":"le tre finestre, le uniche che hai","rows":["Il corpo","Il ritmo","Il lessico"]},
+{"file":"c48","layout":"swap","kicker":"a cosa servono","rows":[["vincere la discussione","accorgersi che sta per cominciarne una"]]},
+{"file":"c49","layout":"statement","title":"Abbassa il tuo volume<br>di un gradino."},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]
