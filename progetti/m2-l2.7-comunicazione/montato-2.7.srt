@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,340
+Gli studi sugli eventi avversi convergono su un dato: una quota molto rilevante ha, fra le cause contribuenti, un fallimento della comunicazione. E soprattutto nei momenti di passaggio.
+
+2
+00:00:13,340 --> 00:00:24,160
+Cambio turno, trasferimento, dimissione. Sono i tre momenti in cui l'informazione cambia di mano, ed e' li' che si perde: non mentre si cura, ma mentre si passa la cura a qualcun altro.
+
+3
+00:00:24,160 --> 00:00:33,520
+Per questo la comunicazione clinica non sta nel modulo delle competenze relazionali: sta qui, accanto al rischio clinico. E' una barriera di sicurezza a tutti gli effetti.
+
+4
+00:00:33,520 --> 00:00:44,710
+Quattro blocchi. Il passaggio di consegne, con il metodo SBAR. La comunicazione con la persona assistita, e le tecniche che funzionano davvero invece di quelle che si danno per scontate.
+
+5
+00:00:44,710 --> 00:00:54,830
+Le cattive notizie e la gestione dell'aggressivita'. E la continuita' assistenziale nei passaggi di setting, che e' la parte che quasi nessun candidato prepara e che all'orale si sente subito.
+
+6
+00:00:54,830 --> 00:01:04,700
+Il passaggio di consegne e' il trasferimento di informazioni e di responsabilita' su una persona assistita, da un professionista a un altro. Le due cose insieme, non solo la prima.
+
+7
+00:01:04,700 --> 00:01:14,800
+E' il punto di maggior fragilita' del sistema: informazioni che esistono nella testa di uno devono arrivare intatte alla testa di un altro, in poco tempo e spesso in un ambiente rumoroso.
+
+8
+00:01:14,800 --> 00:01:27,200
+Il metodo piu' diffuso e' SBAR, quattro lettere. S, Situation: chi e' la persona e qual e' il problema adesso, in una frase sola. B, Background: il contesto clinico rilevante, non tutta la storia.
+
+9
+00:01:27,200 --> 00:01:38,620
+A, Assessment: la tua valutazione, che cosa pensi stia accadendo. R, Recommendation: che cosa proponi o che cosa chiedi, in modo esplicito. Sono le due lettere che quasi tutti saltano.
+
+10
+00:01:38,620 --> 00:01:50,020
+Nella variante ISBAR si antepone la I di Identify: chi sei tu e chi e' il paziente. In una telefonata fra reparti diversi e' la lettera che evita meta' degli equivoci, e costa cinque secondi.
+
+11
+00:01:50,020 --> 00:02:03,420
+Vediamolo su una chiamata al medico. I: sono Rossi, infermiere della Medicina 2, chiamo per la signora Bianchi, letto 12, 78 anni. S: da venti minuti e' dispnoica, satura 88 per cento in aria ambiente.
+
+12
+00:02:03,420 --> 00:02:15,290
+B: ricoverata tre giorni fa per scompenso cardiaco, in terapia diuretica; questa mattina peso piu' un chilo e otto. A: penso a un peggioramento del sovraccarico, ha rantoli alle basi e gli edemi aumentati.
+
+13
+00:02:15,290 --> 00:02:26,730
+R: ho messo ossigeno a 2 litri con occhialini e l'ho posizionata semiseduta. Chiedo che venga a valutarla, e se posso anticipare il diuretico. Trenta secondi, e il medico sa anche quanto e' urgente.
+
+14
+00:02:26,730 --> 00:02:39,900
+Perche' funziona? Per le lettere A e R. Molti passaggi falliscono non per mancanza di dati, ma perche' chi chiama descrive e non chiede: l'altro non capisce che cosa gli si domanda, ne' con quale urgenza.
+
+15
+00:02:39,900 --> 00:02:51,160
+Sette regole per l'handover. Luogo e tempo dedicati, con interruzioni ridotte. Supporto scritto: la consegna verbale non sostituisce la cartella. Struttura fissa per tutti i pazienti.
+
+16
+00:02:51,160 --> 00:03:03,700
+Cosi' nulla dipende da chi parla. Priorita' esplicite: chi e' instabile, che cosa va controllato, che cosa e' in sospeso. Read back. Riservatezza: la consegna non si fa in corridoio. E spazio per le domande.
+
+17
+00:03:03,700 --> 00:03:14,370
+Un handover senza domande e' quasi sempre un handover non compreso. Il read back nasce da qui: e' la ripetizione ad alta voce dell'informazione critica ricevuta, per verificare di aver capito.
+
+18
+00:03:14,370 --> 00:03:26,290
+La sequenza e' fissa: ripeto ad alta voce, faccio confermare, trascrivo subito, ottengo la convalida scritta del prescrittore. Quattro passi in quest'ordine, e sono la Raccomandazione numero 7 vista da qui.
+
+19
+00:03:26,290 --> 00:03:37,920
+Tre strumenti, tre momenti. Briefing: prima di un'attivita' o all'inizio del turno, per allineare il gruppo su obiettivi, criticita' e ruoli. Time out: immediatamente prima di una procedura invasiva.
+
+20
+00:03:37,920 --> 00:03:49,510
+Per la verifica finale di paziente, sito e procedura: e' parte della check list di sala. Debriefing: dopo, per rivedere insieme che cosa e' andato bene e che cosa migliorare, senza cercare colpevoli.
+
+21
+00:03:49,510 --> 00:03:59,720
+E il debriefing dopo un'emergenza ha anche una funzione di supporto all'equipe: e' il tema delle seconde vittime della lezione scorsa, visto dal lato pratico di che cosa si fa il giorno dopo.
+
+22
+00:03:59,720 --> 00:04:12,910
+Passiamo alla persona assistita. Il tempo di relazione e' tempo di cura, dice il Codice deontologico; il tempo della comunicazione costituisce tempo di cura, dice la legge 219. Due premesse che qui diventano tecnica.
+
+23
+00:04:12,910 --> 00:04:24,250
+La comunicazione non e' cio' che si fa se avanza tempo: e' un intervento, e come ogni intervento si pianifica, si esegue con una tecnica e si documenta. Il resto e' buona volonta', che non basta.
+
+24
+00:04:24,250 --> 00:04:35,770
+Sei tecniche. Ascolto attivo: attenzione piena, sedersi, mettersi all'altezza degli occhi, non interrompere. Domande aperte: come sta andando con il dolore, non il dolore e' passato vero.
+
+25
+00:04:35,770 --> 00:04:46,620
+La seconda induce la risposta, e una risposta indotta non e' un dato. Riformulazione: restituire con parole proprie cio' che si e' capito. Chiarificazione: chiedere quando qualcosa non torna.
+
+26
+00:04:46,620 --> 00:04:57,100
+Il silenzio: dopo una notizia difficile, non riempire subito il vuoto. E' la tecnica piu' difficile, perche' il silenzio mette a disagio chi lo regge molto piu' di chi lo riceve. E il teach back.
+
+27
+00:04:57,100 --> 00:05:07,350
+Il teach back e' la tecnica piu' utile che quasi nessuno cita. Non si chiede ha capito, perche' la risposta e' quasi sempre si: per cortesia, per imbarazzo, per non deludere chi ha spiegato.
+
+28
+00:05:07,350 --> 00:05:16,960
+Si chiede invece alla persona di ripetere con parole proprie cio' che dovra' fare. Mi rispieghi come fara' l'insulina domani mattina. La differenza fra le due domande e' tutta nella risposta.
+
+29
+00:05:16,960 --> 00:05:28,280
+E' il modo piu' efficace per verificare davvero la comprensione, ed e' la tecnica che qualifica qualunque risposta sull'educazione terapeutica. Chi la nomina all'orale ha gia' detto molto di se'.
+
+30
+00:05:28,280 --> 00:05:39,960
+Le barriere. Della persona: il dolore, l'ansia, i deficit sensoriali, il deterioramento cognitivo, la bassa alfabetizzazione sanitaria, la lingua. Nessuna di queste e' colpa di chi le ha.
+
+31
+00:05:39,960 --> 00:05:50,960
+Dell'operatore: il gergo tecnico, la fretta, il presupporre di aver spiegato, la chiusura difensiva. Ambientali: il rumore, la mancanza di privacy, le interruzioni continue.
+
+32
+00:05:50,960 --> 00:06:03,100
+E i facilitatori. Verificare protesi acustiche e occhiali. Sedersi. Una informazione alla volta. Materiale scritto semplice. Mediatore culturale dove serve. E il caregiver, se la persona lo desidera.
+
+33
+00:06:03,100 --> 00:06:15,440
+Le cattive notizie. La comunicazione di diagnosi e prognosi compete al medico, come sappiamo dalla lezione 1.4. Il protocollo piu' citato e' SPIKES, sei tappe, e vale la pena saperle per esteso.
+
+34
+00:06:15,440 --> 00:06:28,480
+S, Setting: luogo riservato, tempo protetto, presenza di chi la persona desidera. P, Perception: capire che cosa la persona gia' sa e crede. I, Invitation: chiedere quanto desidera sapere.
+
+35
+00:06:28,480 --> 00:06:42,440
+Ed e' il diritto a non sapere della legge 219. K, Knowledge: dare l'informazione gradualmente, con parole semplici. E, Emotions: accogliere la reazione prima di proseguire. S, Strategy and summary.
+
+36
+00:06:42,440 --> 00:06:53,830
+Riassumere e indicare i passi successivi. E il ruolo dell'infermiere, che e' definito e sostanziale anche se la notizia non la da' lui. Prepara il contesto. E' presente. Verifica che cosa e' stato compreso.
+
+37
+00:06:53,830 --> 00:07:03,820
+Perche' cio' che resta dopo un colloquio difficile e' molto meno di cio' che e' stato detto. Accompagna nelle ore successive. E rileva i bisogni che emergono, che spesso emergono dopo.
+
+38
+00:07:03,820 --> 00:07:13,760
+Il caso classico: il paziente chiede all'infermiere quale sia la sua diagnosi. La risposta corretta non e' comunicarla, e non e' nemmeno dire non so nulla e cambiare argomento.
+
+39
+00:07:13,760 --> 00:07:26,900
+Si esplora che cosa la persona sa e che cosa teme. Si resta con lei. Si attiva il medico perche' l'informazione arrivi. E si documenta la richiesta e l'attivazione. Quattro passi, in quest'ordine.
+
+40
+00:07:26,900 --> 00:07:37,530
+L'aggressione agli operatori e' un rischio professionale riconosciuto: Raccomandazione numero 8, e legge 113 del 2020, che ha rafforzato la tutela penale del personale sanitario.
+
+41
+00:07:37,530 --> 00:07:48,920
+La prevenzione e' ambientale e organizzativa: gestione delle attese e dell'informazione, spazi, illuminazione, vie di fuga, sistemi di allarme. E passa dal riconoscimento precoce.
+
+42
+00:07:48,920 --> 00:07:59,930
+Tono che sale, irrequietezza motoria, invasione dello spazio, minacce verbali: l'escalation ha quasi sempre segnali anticipatori, e chi li vede ha ancora tempo per la de escalation.
+
+43
+00:07:59,930 --> 00:08:12,130
+Da fare: tono calmo e volume basso, distanza di sicurezza e via di uscita libera, non contrapporsi frontalmente, riconoscere l'emozione, offrire opzioni concrete, non promettere l'impossibile.
+
+44
+00:08:12,130 --> 00:08:24,760
+Da non fare: alzare la voce, toccare la persona, restare soli in uno spazio chiuso, rispondere alle provocazioni, minimizzare. E dopo: mettere in sicurezza, chiedere supporto, segnalare, documentare.
+
+45
+00:08:24,760 --> 00:08:35,670
+Documentare i fatti in modo oggettivo, come nella lezione 2.4, e attivare il supporto per l'operatore coinvolto, come nella 2.6. Tre lezioni che si chiudono in un unico gesto.
+
+46
+00:08:35,670 --> 00:08:47,620
+Chiudiamo con la continuita' assistenziale, che ha tre dimensioni. Informativa: le informazioni seguono la persona. Gestionale: gli interventi sono coerenti fra loro. Relazionale: c'e' un riferimento stabile.
+
+47
+00:08:47,620 --> 00:08:58,290
+Lo strumento infermieristico della continuita' verso casa e' la lettera infermieristica di dimissione, che non duplica quella medica. Riporta i bisogni assistenziali residui, l'autonomia e gli ausili.
+
+48
+00:08:58,290 --> 00:09:10,700
+Lesioni e medicazioni in corso. Dispositivi presenti: catetere, stomia, accessi vascolari. Educazione erogata e residua. E il caregiver di riferimento. Nella prossima ricomponiamo il modulo. A tra poco.

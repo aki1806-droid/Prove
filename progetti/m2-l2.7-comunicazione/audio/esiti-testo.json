@@ -1,0 +1,27 @@
+{
+ "A": {
+  "parole_copione": 776,
+  "parole_dette": 774,
+  "coincidenti": 771,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s13",
+    "copione": "ha rantoli",
+    "detto": "arantoli"
+   },
+   {
+    "blocco": "s14",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 719,
+  "parole_dette": 719,
+  "coincidenti": 719,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}
