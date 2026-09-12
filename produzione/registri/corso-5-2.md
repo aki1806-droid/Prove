@@ -1,7 +1,7 @@
 # Registro — 5.2 «La credibilità si costruisce prima di parlare»
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, sedici
-grafiche e tre riprese Higgsfield.
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, sedici grafiche
+e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|

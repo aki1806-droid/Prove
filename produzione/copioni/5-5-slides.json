@@ -1,0 +1,338 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 5 · Lezione 5.5",
+  "title": "Rinunciare a convincere",
+  "sub": "Persuadere senza manipolare"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "C'è un'idea implicita<br>in ogni discussione."
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Che se il primo non ha convinto,<br>il secondo aggiunga."
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Non funziona così.<br><span class=\"gold\">Non è questione di quali. Di quanti.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "figure",
+  "kicker": "la disponibilità di chi ascolta",
+  "svg": "<svg viewBox=\"0 0 720 300\"><path class=\"tratto sottile\" d=\"M40 260 H700\"/><path class=\"tratto sottile\" d=\"M40 260 V30\"/><path class=\"tratto oro\" d=\"M40 240 C120 150 180 70 250 60 C330 50 420 130 520 200 C580 240 640 254 700 256\" fill=\"none\"/><circle class=\"tratto oro\" cx=\"250\" cy=\"60\" r=\"7\"/><path class=\"tratto sottile\" d=\"M250 60 V260\" stroke-dasharray=\"6 8\"/></svg>",
+  "title": "Sale con i primi argomenti. E poi scende."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Ogni argomento in più<br>la fa scendere di più."
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Oltre una soglia l'altro smette<br>di valutare il contenuto."
+ },
+ {
+  "file": "c08",
+  "layout": "swap",
+  "kicker": "due cose diverse",
+  "rows": [
+   [
+    "prima",
+    "decide se hai ragione"
+   ],
+   [
+    "dopo",
+    "decide se cedere"
+   ]
+  ]
+ },
+ {
+  "file": "c09",
+  "layout": "memo",
+  "title": "Nella prima puoi vincere.<br>Nella seconda non c'è niente da vincere."
+ },
+ {
+  "file": "c10",
+  "layout": "number",
+  "kicker": "il punto di svolta",
+  "num": "3",
+  "unit": "°",
+  "fill": 30,
+  "title": "L'argomento oltre il quale la disponibilità scende. Di solito il terzo. Spesso il secondo."
+ },
+ {
+  "file": "c11",
+  "layout": "list",
+  "kicker": "quando non si convince",
+  "rows": [
+   "La convinzione identitaria",
+   "La decisione già presa",
+   "Chi non decide"
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "list",
+  "kicker": "quando non si convince",
+  "rows": [
+   "La convinzione identitaria",
+   "La decisione già presa",
+   "Chi non decide"
+  ],
+  "active": 0,
+  "note": "Non sono opinioni su un fatto. Sono parte di come una persona si definisce."
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "Attaccarle non produce revisione.<br><span class=\"gold\">Produce rinforzo.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Il segnale: porti un fatto,<br>e la risposta non riguarda il fatto."
+ },
+ {
+  "file": "c15",
+  "layout": "list",
+  "kicker": "quando non si convince",
+  "rows": [
+   "La convinzione identitaria",
+   "La decisione già presa",
+   "Chi non decide"
+  ],
+  "active": 1,
+  "note": "Non annunciata. Presa, e non ancora detta."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Arrivano contro il costo<br>di ammettere di aver deciso male."
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "E quel costo<br>non lo puoi pagare al posto suo."
+ },
+ {
+  "file": "c18",
+  "layout": "list",
+  "kicker": "quando non si convince",
+  "rows": [
+   "La convinzione identitaria",
+   "La decisione già presa",
+   "Chi non decide"
+  ],
+  "active": 2,
+  "note": "La più frustrante delle tre, e l'unica che si evita in partenza."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Ed è l'unica<br>che si può evitare in partenza."
+ },
+ {
+  "file": "c20",
+  "layout": "quote",
+  "kicker": "all'inizio, non alla fine",
+  "title": "«Questa cosa la decidi tu,<br>o la decide qualcun altro?»"
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "E c'è un rischio specifico<br>di chi diventa bravo."
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Dovevo convincere un collega<br>a spostare una procedura."
+ },
+ {
+  "file": "c23",
+  "layout": "number",
+  "kicker": "gli argomenti che ho usato",
+  "num": "5",
+  "fill": 100,
+  "title": "Tutti solidi. Uno dopo l'altro, senza fermarmi."
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Al quinto ha detto<br>che ne avremmo parlato."
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "La reazione frequente<br>non è cambiare idea."
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "È irrigidirsi.<br>Non per orgoglio: per difendersi."
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Uscirà più convinta di prima.<br>E con una ragione in più."
+ },
+ {
+  "file": "c29",
+  "layout": "memo",
+  "title": "Quello che si è difeso costa<br>più di quello che si è scelto."
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "E chi ha buoni argomenti<br>è più esposto di chi ne ha mediocri."
+ },
+ {
+  "file": "c32",
+  "layout": "list",
+  "kicker": "cosa fare invece",
+  "rows": [
+   "Piantare",
+   "Lasciare",
+   "Tornare"
+  ]
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "cosa fare invece",
+  "rows": [
+   "Piantare",
+   "Lasciare",
+   "Tornare"
+  ],
+  "active": 0,
+  "note": "Dirla una volta, nel modo più breve. Un argomento, non cinque."
+ },
+ {
+  "file": "c34",
+  "layout": "quote",
+  "kicker": "dichiarato come tuo",
+  "title": "«Io la vedo così.»"
+ },
+ {
+  "file": "c35",
+  "layout": "list",
+  "kicker": "cosa fare invece",
+  "rows": [
+   "Piantare",
+   "Lasciare",
+   "Tornare"
+  ],
+  "active": 1,
+  "note": "Fermarsi prima del punto di svolta, e dirlo."
+ },
+ {
+  "file": "c36",
+  "layout": "swap",
+  "kicker": "«non insisto, ci pensi tu»",
+  "rows": [
+   [
+    "toglie",
+    "la pressione"
+   ],
+   [
+    "restituisce",
+    "la decisione"
+   ]
+  ]
+ },
+ {
+  "file": "c37",
+  "layout": "list",
+  "kicker": "cosa fare invece",
+  "rows": [
+   "Piantare",
+   "Lasciare",
+   "Tornare"
+  ],
+  "active": 2,
+  "note": "Non nella stessa conversazione. Giorni dopo, se emerge un fatto nuovo."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Le persone cambiano idea<br>quasi sempre da sole."
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "E quasi mai davanti<br>a chi le stava convincendo."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Chi pianta e lascia<br><span class=\"gold\">ottiene più cambiamenti.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Solo, non li vede accadere.<br>E non se ne prende il merito."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "E adesso la parte<br>che costa di più."
+ },
+ {
+  "file": "c44",
+  "layout": "memo",
+  "title": "Una persona adulta e informata ha il diritto<br>di decidere quello che tu ritieni sbagliato."
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "È la condizione senza la quale<br>questo modulo è manipolazione."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "Se smetti solo quando è d'accordo,<br>non stavi fornendo ragioni."
+ },
+ {
+  "file": "c47",
+  "layout": "table",
+  "kicker": "l'unica eccezione",
+  "cols": [
+   "quando persuadi",
+   "quando è sicurezza"
+  ],
+  "rows": [
+   [
+    "fornisci ragioni",
+    "adempi"
+   ],
+   [
+    "l'altro può dire no",
+    "lo dichiari"
+   ]
+  ]
+ },
+ {
+  "file": "c48",
+  "layout": "memo",
+  "title": "Chi ha ragione e non si ferma trasforma<br>una discussione in una prova di forza."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Fermati dopo il primo argomento.<br>E cambia argomento davvero."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine del Modulo 5",
+  "sub": "Modulo 6 — Obiezioni, tensioni, conflitti",
+  "site": "laparolagiusta.it"
+ }
+]

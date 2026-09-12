@@ -130,6 +130,22 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   stacco e' un candidato. Li' si guarda la mappa dei silenzi a mano, con
   `silencedetect` a `d=0.10` invece che a 0,25, e si sceglie il silenzio
   giusto invece di farlo scegliere all'algoritmo.
+  Un caso opposto, dalla 5.4: **code mancanti che non sono confini
+  sbagliati**. Se lo scriba smette di mettere i punti unisce due o tre code in
+  una frase sola, e `verifica.py` segna quei confini come senza coda pur
+  essendo giusti. Si riconosce perche' i pezzi sono *meno* dei confini e le
+  code mancanti sono consecutive: prima di muovere niente, si guarda la banda
+  caratteri/secondo. Se quei blocchi stanno in banda, era punteggiatura.
+  E quando la catena e' scalata di uno, il modo piu' solido di ricostruirla
+  non sono i caratteri grezzi ma il **tempo di parlato netto**: si somma la
+  durata del parlato fra i due confini certi (silenzi esclusi, con
+  `silencedetect`), si divide in proporzione ai caratteri dei blocchi in
+  mezzo, e si aggancia ogni punto al silenzio piu' vicino. Sulla 5.1 due
+  valori messi cosi' hanno riportato cinque blocchi in banda tutti insieme.
+  Una cosa da non fare: **muovere un confine verificato per far tornare un
+  numero**. Un blocco a 21-22 caratteri al secondo con i confini confermati
+  per contenuto e i vicini in banda e' un passaggio letto veloce, non un
+  taglio sbagliato. Si annota nel registro e si va avanti.
   Attenzione, li' dove la voce non fa pausa fra due blocchi — succede quando
   il secondo blocco non comincia con una frase nuova, come il memo spezzato in
   due della 1.5 — non c'e' nessun silenzio da trovare: si sceglie il punto sui

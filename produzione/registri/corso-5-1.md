@@ -1,7 +1,7 @@
 # Registro — 5.1 «Dove finisce l'influenza, dove comincia l'abuso»
 
 Apertura del modulo 5. Trattamento standard: senza avatar, voce Luca Ward,
-slide animate, quindici grafiche e tre riprese Higgsfield.
+slide animate, quattordici grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|

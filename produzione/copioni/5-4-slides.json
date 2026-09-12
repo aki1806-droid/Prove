@@ -1,0 +1,374 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 5 · Lezione 5.4",
+  "title": "Le leve legittime",
+  "sub": "Persuadere senza manipolare"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Cinque leve che funzionano.<br>E cinque versioni che le imitano."
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "A coppie.<br>È l'unico modo per vedere il confine."
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "E per riconoscerle<br>quando le usano su di te."
+ },
+ {
+  "file": "c05",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ]
+ },
+ {
+  "file": "c06",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ],
+  "active": 0,
+  "note": "La più solida, e la più sottoutilizzata. E c'è un motivo."
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Il lavoro fatto prima non si vede.<br>Si vede solo quello dopo."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "title": "E ha una regola d'uso<br>che da sola vale la lezione."
+ },
+ {
+  "file": "c09",
+  "layout": "memo",
+  "title": "Porta anche il dato<br>che ti indebolisce."
+ },
+ {
+  "file": "c10",
+  "layout": "swap",
+  "kicker": "cosa ottieni",
+  "rows": [
+   [
+    "rendi credibili",
+    "tutti gli altri dati"
+   ],
+   [
+    "togli all'altro",
+    "il piacere di trovarlo da solo"
+   ]
+  ]
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Ed è un piacere vero.<br>Non gliene lasciare l'occasione."
+ },
+ {
+  "file": "c12",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ],
+  "active": 1,
+  "note": "Le persone ricambiano. È legittimo usarlo, quando è reale."
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "La versione abusiva si riconosce<br>da un dettaglio temporale."
+ },
+ {
+  "file": "c14",
+  "layout": "swap",
+  "kicker": "lo stesso gesto, due cose diverse",
+  "rows": [
+   [
+    "utile a gennaio, chiede a giugno",
+    "è un rapporto"
+   ],
+   [
+    "utile martedì, chiede mercoledì",
+    "è un acquisto"
+   ]
+  ]
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Non ha costruito niente.<br><span class=\"gold\">Ha comprato qualcosa.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "E c'è una forma peggiore.<br>La più comune fra chi si conosce."
+ },
+ {
+  "file": "c17",
+  "layout": "quote",
+  "kicker": "nominare il favore",
+  "title": "«Dopo tutto quello<br>che ho fatto per te.»"
+ },
+ {
+  "file": "c18",
+  "layout": "memo",
+  "title": "Trasforma un dono in una fattura.<br>E cancella anche il dono."
+ },
+ {
+  "file": "c19",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ],
+  "active": 2,
+  "note": "Ricordare un impegno che l'altro si è preso è un argomento vero."
+ },
+ {
+  "file": "c20",
+  "layout": "quote",
+  "kicker": "la versione legittima",
+  "title": "«Avevamo detto che la sicurezza<br>veniva prima della velocità.»"
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "title": "Non è un rimprovero.<br>È un fatto che ha dichiarato lui."
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "La versione abusiva:<br>la coerenza usata come trappola."
+ },
+ {
+  "file": "c23",
+  "layout": "swap",
+  "kicker": "le stesse parole, come accuse",
+  "rows": [
+   [
+    "«allora non ci credevi»",
+    "punisce"
+   ],
+   [
+    "«quindi hai cambiato idea»",
+    "punisce"
+   ]
+  ]
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Punisce il cambiare idea.<br>Che è quello che volevi ottenere."
+ },
+ {
+  "file": "c25",
+  "layout": "memo",
+  "title": "Chi rende costoso cambiare idea<br>rende impossibile essere persuaso."
+ },
+ {
+  "file": "c27",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ],
+  "active": 3,
+  "note": "Il caso concreto. Funziona perché il concreto produce immagine."
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "La sua forza non dipende<br>da quanto sia vera."
+ },
+ {
+  "file": "c29",
+  "layout": "table",
+  "kicker": "due lavori diversi",
+  "cols": [
+   "la testimonianza",
+   "il dato"
+  ],
+  "rows": [
+   [
+    "fa capire",
+    "dimostra"
+   ],
+   [
+    "una scena",
+    "diecimila casi"
+   ]
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "quote",
+  "kicker": "dichiarare lo statuto",
+  "title": "«È un caso.<br>Non so quanto sia frequente.»"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Non ti toglie efficacia.<br><span class=\"gold\">Ti toglie il barare.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "le cinque leve",
+  "rows": [
+   "La prova",
+   "La reciprocità",
+   "La coerenza",
+   "La testimonianza",
+   "Rendere facile"
+  ],
+  "active": 4,
+  "note": "La più efficace di tutte. E nessuno la considera una leva."
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "Non assomiglia<br>a quello che chiamiamo persuasione."
+ },
+ {
+  "file": "c35",
+  "layout": "memo",
+  "title": "Molti no non sono disaccordi.<br>Sono attriti."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "È d'accordo, e non lo fa.<br>Perché farlo richiede tre passaggi."
+ },
+ {
+  "file": "c37",
+  "layout": "list",
+  "plain": true,
+  "kicker": "i tre passaggi",
+  "rows": [
+   "Una ricerca",
+   "Una decisione su un dettaglio",
+   "Un momento che non trova mai"
+  ]
+ },
+ {
+  "file": "c39",
+  "layout": "swap",
+  "kicker": "togliere l'attrito",
+  "rows": [
+   [
+    "«quando ti va bene?»",
+    "proponi già la data"
+   ],
+   [
+    "«lo trovi in cartella»",
+    "allega il documento"
+   ],
+   [
+    "«fammi sapere»",
+    "riduci a due opzioni"
+   ]
+  ]
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "Sposta più decisioni<br>di qualunque argomento."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Anche la quinta<br>ha la sua versione abusiva."
+ },
+ {
+  "file": "c42",
+  "layout": "table",
+  "kicker": "il confine della quinta",
+  "cols": [
+   "il gesto",
+   "che cos'è"
+  ],
+  "rows": [
+   [
+    "il modulo già compilato",
+    "servizio"
+   ],
+   [
+    "il modulo che si firma solo adesso",
+    "zona grigia"
+   ]
+  ]
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Il modulo già compilato è comodo.<br>Fa risparmiare tempo vero."
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "Il modulo che si firma solo adesso<br>è un'altra cosa."
+ },
+ {
+  "file": "c45",
+  "layout": "memo",
+  "title": "Facilitare l'azione è servizio.<br>Comprimere il giudizio è zona grigia."
+ },
+ {
+  "file": "c46",
+  "layout": "quote",
+  "kicker": "la domanda di controllo",
+  "title": "«Sto rendendo facile il fare,<br>o il non pensarci?»"
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "title": "Un attrito non si smonta<br>con un argomento in più."
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Si smonta togliendolo.<br>Uno per uno."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Togli un attrito<br>invece di ripetere l'argomento."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]

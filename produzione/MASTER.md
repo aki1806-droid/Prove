@@ -286,6 +286,19 @@ parole staccate. Si guarda la mappa dei silenzi a mano (`silencedetect` a
 `d=0.10` invece di 0,25) e si sceglie il punto invece di farlo scegliere
 all'algoritmo.
 
+E due avvertenze opposte. **Code mancanti consecutive non sono confini
+sbagliati**: se i pezzi sono meno dei confini, lo scriba ha smesso di mettere
+i punti e ha unito due o tre code in una frase sola — si guarda la banda, e se
+quei blocchi stanno in banda era punteggiatura. **E un confine verificato non
+si muove per far tornare un numero**: un blocco a 21-22 caratteri al secondo
+con i confini confermati per contenuto e i vicini in banda è un passaggio
+letto veloce, si annota e si va avanti.
+
+Quando la catena è scalata di uno, il modo più solido di ricostruirla non sono
+i caratteri grezzi ma il **tempo di parlato netto**: si somma il parlato fra i
+due confini certi (silenzi esclusi), si divide in proporzione ai caratteri dei
+blocchi in mezzo, e si aggancia ogni punto al silenzio più vicino.
+
 ## Passo 4 — Renderizzare le slide
 
 Due generatori dallo stesso file di layout, così la versione ferma e quella

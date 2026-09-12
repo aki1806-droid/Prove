@@ -1,7 +1,7 @@
 # Registro — 5.3 «Parlare ai bisogni, non alle posizioni»
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, sedici
-grafiche e tre riprese Higgsfield.
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, sedici grafiche
+e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
