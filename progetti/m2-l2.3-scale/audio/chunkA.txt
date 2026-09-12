@@ -1,0 +1,45 @@
+[warm] Questa e' la lezione con la piu' alta densita' di numeri di tutto il corso. Le scale sono il terreno piu' fertile per domande secche: sono numeriche, univoche, facilissime da chiedere.
+
+E sono anche il punto in cui si perde piu' facilmente, perche' la trappola e' quasi sempre la stessa: la direzione del punteggio. Non il valore, la direzione.
+
+In alcune scale il punteggio basso indica rischio alto; in altre e' il contrario. Questa lezione e' costruita intorno a quel problema: prima la regola, poi i numeri.
+
+Quattro traguardi. Come si struttura un accertamento, e con quale ordine. Poi la regola che risolve da sola meta' delle domande sulle scale, qualunque scala sia.
+
+Le scale che contano davvero, con i numeri esatti. E i limiti delle scale, che all'orale valgono quanto i numeri, perche' mostrano pensiero critico. Sapere i numeri e non sapere che cosa non dicono non basta.
+
+L'accertamento all'ingresso raccoglie in modo ordinato i dati necessari a formulare i problemi. Sei aree. Dati anagrafici e sociali: con chi vive, chi e' il caregiver. Anamnesi: patologie, allergie, terapia, ausili.
+
+Parametri e misure. Bisogni o modelli funzionali. Le scale previste dalla procedura. E gia' da qui l'educazione e la dimissione, perche' la dimissione si prepara dal primo giorno.
+
+Le tecniche dell'esame obiettivo sono quattro, in quest'ordine: ispezione, palpazione, percussione, auscultazione. Con un'eccezione che e' una domanda ricorrente, e vale la pena impararla come una frase a se'.
+
+Sull'addome si ausculta prima di palpare e percuotere, per non alterare i rumori intestinali. Ispezione, auscultazione, percussione, palpazione.
+
+Ecco la regola. Chiediti sempre: la scala misura un rischio o una capacita'? Se misura una capacita', Barthel, Tinetti, Glasgow, piu' alto e' meglio: il punteggio basso indica dipendenza o gravita'.
+
+Se misura un rischio, Conley, NEWS, l'intensita' del dolore, piu' alto e' peggio. E poi ci sono le due eccezioni da imparare a parte.
+
+Braden e Norton misurano un rischio ma con punteggio inverso: piu' basso il punteggio, piu' alto il rischio. Sono due, e sono sempre quelle due.
+
+Braden valuta il rischio di lesione da pressione. Sei item: percezione sensoriale, umidita', attivita', mobilita', nutrizione, frizione e scivolamento.
+
+Punteggio da 6 a 23. Rischio presente da 16 in giu'. Sedici e' la soglia, e sotto quella soglia il piano cambia. Non e' un numero da annotare: e' un numero che fa succedere qualcosa.
+
+Un dettaglio da veri conoscitori: solo l'ultimo item, frizione e scivolamento, e' a tre livelli; gli altri cinque sono a quattro. E' da li' che vengono il 6 e il 23.
+
+Norton misura lo stesso rischio con cinque item: condizioni generali, stato mentale, attivita', mobilita', incontinenza. Punteggio da 5 a 20, rischio da 14 in giu'.
+
+E' piu' rapida di Braden, ma meno sensibile. Il che significa che intercetta meno persone a rischio: e' un compromesso fra tempo e copertura, non una scala migliore o peggiore.
+
+Memorizza le due coppie insieme, perche' i quiz le scambiano di continuo: Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Sei item Braden, cinque Norton.
+
+E la parte che i casi chiedono davvero: che cosa consegue da un Braden a rischio. Cambi posturali programmati. Superficie antidecubito adeguata. Gestione dell'umidita', che e' il fattore che si dimentica piu' spesso.
+
+Valutazione nutrizionale. Ispezione quotidiana della cute. La clinica delle lesioni la vedremo nel modulo 7: qui conta la catena punteggio, intervento. A un Braden basso deve corrispondere una modifica del piano, scritta.
+
+Conley misura il rischio di caduta. Sei item: precedenti cadute, vertigini, incontinenza o urgenza, deterioramento cognitivo, agitazione, compromissione della marcia.
+
+Punteggio da 0 a 10, rischio da 2 in su. Basta poco per essere a rischio, ed e' voluto: e' uno screening sensibile, fatto per non lasciar fuori nessuno. Meglio qualche falso positivo che una caduta non prevista.
+
+Tinetti misura equilibrio e andatura, da 0 a 28, rischio elevato sotto 19. E nota che Tinetti misura una capacita': si comporta al contrario di Conley. Due scale sullo stesso rischio, due direzioni opposte.

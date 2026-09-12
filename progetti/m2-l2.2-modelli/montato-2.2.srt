@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,780
+Nella lezione precedente abbiamo visto come si ragiona. Oggi vediamo con quali categorie: i modelli teorici danno la griglia con cui si legge la persona assistita, prima ancora di interpretarla.
+
+2
+00:00:13,780 --> 00:00:25,250
+E le tassonomie danno il vocabolario con cui si scrive quello che si e' letto. Griglia e vocabolario: senza la prima non sai dove guardare, senza il secondo non sai come dirlo a chi viene dopo di te.
+
+3
+00:00:25,250 --> 00:00:37,210
+Ti avviso: questa materia produce domande secche del tipo, a chi si deve il modello dell'autocura? Sono punti facili, e proprio per questo non vanno regalati. Si perdono in tre secondi e si recuperano in nessuno.
+
+4
+00:00:37,210 --> 00:00:49,090
+Quattro cose. A che cosa serve un modello. I nove autori con il loro concetto chiave: valgono una domanda quasi sicura. I tre modelli piu' chiesti, da vicino: Henderson, Gordon, Orem. E le tassonomie.
+
+5
+00:00:49,090 --> 00:00:59,190
+Un modello concettuale e' una rappresentazione organizzata dei concetti centrali della disciplina. Detta cosi' sembra teoria per l'esame, e invece serve a tre cose molto concrete.
+
+6
+00:00:59,190 --> 00:01:10,320
+Orientare l'accertamento: che cosa guardo. Giustificare gli interventi: perche' faccio questo e non un altro. E rendere l'assistenza comunicabile fra professionisti diversi, anche a distanza di turni.
+
+7
+00:01:10,320 --> 00:01:21,610
+Non e' teoria per l'esame: e' la struttura della raccolta dati. Chi non ha una griglia raccoglie quello che gli capita sotto gli occhi, e quello che non ha guardato non sa nemmeno di averlo perso.
+
+8
+00:01:21,610 --> 00:01:32,540
+Prima domanda possibile, e diretta: quali sono i concetti del metaparadigma infermieristico? Persona, ambiente, salute, assistenza infermieristica. Quattro, e sono sempre quelli.
+
+9
+00:01:32,540 --> 00:01:43,720
+Ogni teoria li declina a proprio modo: per Nightingale pesa l'ambiente, per Watson la relazione. Ma se un elenco ne propone cinque, o sostituisce l'ambiente con la malattia, e' la risposta sbagliata.
+
+10
+00:01:43,720 --> 00:01:55,580
+Ecco la tabella da fotografare. Nightingale: l'ambiente. Henderson: i quattordici bisogni. Orem: l'autocura. Gordon: gli undici modelli funzionali. Sono le quattro piu' chieste in assoluto.
+
+11
+00:01:55,580 --> 00:02:08,260
+E poi. Watson: il caring. Peplau: la relazione interpersonale. Leininger: il nursing transculturale. Roy: l'adattamento. Neuman: i sistemi. In tutto nove autori, nove parole.
+
+12
+00:02:08,260 --> 00:02:17,080
+Non serve sapere la biografia di nessuno di loro: serve l'accoppiata nome e concetto, perche' e' esattamente quello che la domanda chiede, e non chiede nient'altro.
+
+13
+00:02:17,080 --> 00:02:27,200
+E conviene impararle come coppie, non come elenco. E' la coppia che viene chiesta, e un elenco recitato in ordine non aiuta quando la domanda parte dal concetto invece che dal nome.
+
+14
+00:02:27,200 --> 00:02:39,630
+Se ricordi solo tre righe di quella tabella, ricorda queste. Henderson, quattordici bisogni. Orem, autocura. Gordon, undici modelli funzionali. Tre coppie, e hai coperto la maggior parte delle domande.
+
+15
+00:02:39,630 --> 00:02:49,690
+La quarta piu' frequente e' Nightingale con l'ambiente, che e' anche la piu' facile da ricordare perche' e' la prima della storia della disciplina. E poi c'e' l'inversione piu' comune dell'intero modulo.
+
+16
+00:02:49,690 --> 00:03:01,360
+Quattordici e' Henderson, undici e' Gordon. Non il contrario. E' la coppia di numeri che decide piu' punti di tutta questa lezione, e il distrattore la scambia quasi ogni volta.
+
+17
+00:03:01,360 --> 00:03:11,370
+Henderson definisce la funzione propria dell'infermiere come l'assistere la persona, malata o sana, nel compimento delle attivita' che contribuiscono alla salute o alla guarigione.
+
+18
+00:03:11,370 --> 00:03:21,260
+Attivita' che la persona compirebbe da se' se avesse la forza, la volonta' o le conoscenze necessarie. Tre parole da tenere insieme: forza, volonta', conoscenza.
+
+19
+00:03:21,260 --> 00:03:33,490
+Sono le tre cause della dipendenza, e sono tre cose diverse: una si compensa, una si sostiene, una si insegna. Citarle testualmente distingue chi ha studiato Henderson da chi l'ha solo sentita nominare.
+
+20
+00:03:33,490 --> 00:03:46,100
+I quattordici bisogni, in ordine. Respirare. Mangiare e bere. Eliminare. Muoversi e mantenere la postura. Dormire e riposare. Vestirsi e svestirsi. Mantenere la temperatura corporea.
+
+21
+00:03:46,100 --> 00:03:57,420
+Tenere il corpo pulito. Evitare i pericoli. Comunicare. Praticare il proprio culto. Occuparsi in modo da realizzarsi. Ricrearsi. E infine apprendere. Quattordici, in quest'ordine.
+
+22
+00:03:57,420 --> 00:04:08,180
+Nota come si passi dai bisogni fisiologici a quelli relazionali, spirituali e di realizzazione. E' una scala che l'assistenza percorre tutta, non solo nella parte bassa dove sta il corpo.
+
+23
+00:04:08,180 --> 00:04:18,740
+Ed e' anche il motivo per cui l'elenco finisce con apprendere: per Henderson l'educazione non e' un di piu' che si fa se avanza tempo, e' l'ultimo gradino dell'assistenza, quello che rende liberi.
+
+24
+00:04:18,740 --> 00:04:29,720
+Gordon organizza l'accertamento in undici modelli funzionali della salute. Percezione e gestione della salute. Nutrizionale e metabolico. Eliminazione. Attivita' ed esercizio.
+
+25
+00:04:29,720 --> 00:04:40,650
+Sonno e riposo. Cognitivo e percettivo, ed e' qui che sta il dolore: se una traccia ti chiede in quale modello collocarlo, la risposta e' questa. Percezione di se'. Ruolo e relazioni.
+
+26
+00:04:40,650 --> 00:04:51,870
+Sessualita' e riproduzione. Coping e tolleranza allo stress. Valori e convinzioni. Undici aree, e ciascuna e' una domanda che, avendo l'elenco in testa, non ti dimentichi di fare.
+
+27
+00:04:51,870 --> 00:05:01,460
+Quando un modello e' alterato si parla di modello disfunzionale, ed e' li' che nasce la diagnosi infermieristica. E' il ponte esatto fra la lezione precedente e questa.
+
+28
+00:05:01,460 --> 00:05:12,680
+Un consiglio molto pratico. Se in una prova pratica ti chiedono di effettuare l'accertamento di un paziente, l'elenco ordinato degli undici modelli e' una struttura di risposta gia' pronta, da usare cosi' com'e'.
+
+29
+00:05:12,680 --> 00:05:25,430
+Dimostra sistematicita' e ti impedisce di dimenticare aree intere. Chi improvvisa salta coping, valori e sessualita': tre aree su undici, perse per fretta e non per ignoranza.
+
+30
+00:05:25,430 --> 00:05:36,700
+Orem parte da un'idea semplice: la persona tende naturalmente a prendersi cura di se'. L'intervento infermieristico serve quando c'e' un deficit di autocura, cioe' quando le richieste superano le capacita'.
+
+31
+00:05:36,700 --> 00:05:46,430
+Non quando c'e' una malattia: quando c'e' uno scarto. E' una differenza che vale una domanda, perche' una persona malata puo' non avere deficit, e una persona sana puo' averne.
+
+32
+00:05:46,430 --> 00:05:57,080
+Da li' i tre sistemi assistenziali. Totalmente compensativo: la persona non puo' compiere alcuna attivita' di autocura, e tu fai tutto. Paziente incosciente, terapia intensiva.
+
+33
+00:05:57,080 --> 00:06:07,760
+Parzialmente compensativo: la persona fa alcune cose, tu le altre. L'esempio tipico e' l'emiparesi che si alimenta da sola ma ha bisogno di aiuto per l'igiene e per i trasferimenti.
+
+34
+00:06:07,760 --> 00:06:17,750
+Di supporto ed educazione: la persona puo' fare, ma deve imparare o essere sostenuta. Educazione all'insulina, gestione della stomia, addestramento del caregiver.
+
+35
+00:06:17,750 --> 00:06:28,170
+Tre sistemi, e non sono tre gravita' cliniche: sono tre misure dello scarto fra quello che la persona deve fare per se' e quello che riesce a fare. Lo scarto, non la diagnosi.
+
+36
+00:06:28,170 --> 00:06:38,450
+Ed ecco il valore pratico, che vale anche come regola d'esame. L'obiettivo dell'assistenza e' spostare la persona verso il sistema meno compensativo possibile, un gradino alla volta.
+
+37
+00:06:38,450 --> 00:06:51,000
+Nei casi clinici l'opzione che promuove autonomia ed educazione e' quasi sempre preferibile a quella che sostituisce la persona. Anche quando sostituirla sarebbe piu' rapido: e lo e' quasi sempre.
+
+38
+00:06:51,000 --> 00:07:00,710
+Passiamo al linguaggio. Il problema e' questo: se ogni infermiere descrive i problemi con parole proprie, l'assistenza non e' confrontabile fra reparti, non e' misurabile nel tempo.
+
+39
+00:07:00,710 --> 00:07:11,020
+E non e' ricercabile. Le tassonomie nascono per risolverlo: un vocabolario comune e' la condizione perche' esista una ricerca infermieristica, e non solo una raccolta di esperienze.
+
+40
+00:07:11,020 --> 00:07:18,930
+Tre sistemi, tre domande. NANDA International classifica le diagnosi, e risponde alla prima domanda: qual e' il problema di questa persona.
+
+41
+00:07:18,930 --> 00:07:29,510
+NOC, Nursing Outcomes Classification, classifica i risultati attesi con i loro indicatori, e risponde alla seconda: che risultato voglio, e con quale misura me ne accorgo.
+
+42
+00:07:29,510 --> 00:07:42,920
+NIC, Nursing Interventions Classification, classifica gli interventi: che cosa faccio per ottenerlo. NOC sono gli esiti, NIC gli interventi: e' la confusione piu' frequente delle tre sigle.
+
+43
+00:07:42,920 --> 00:07:54,750
+La catena e' NANDA, NOC, NIC, in quest'ordine. E l'ordine ha una ragione: l'intervento si sceglie in funzione del risultato atteso, e il risultato in funzione della diagnosi.
+
+44
+00:07:54,750 --> 00:08:07,080
+Talvolta la trovi indicata come collegamento NNN. E la tassonomia NANDA organizza le diagnosi in tredici domini, suddivisi a loro volta in classi: e' una struttura ad albero, non un elenco.
+
+45
+00:08:07,080 --> 00:08:18,200
+Per ciascuna diagnosi definisce etichetta, definizione, caratteristiche definenti e fattori correlati. O, per le diagnosi di rischio, i fattori di rischio al posto delle caratteristiche.
+
+46
+00:08:18,200 --> 00:08:24,980
+Chiudo con una precisazione che all'orale vale molto. Il linguaggio standardizzato e' uno strumento, non un feticcio.
+
+47
+00:08:24,980 --> 00:08:36,600
+Una diagnosi formalmente impeccabile ma non aderente alla persona vale meno di una descrizione in italiano corrente che coglie il problema. La risposta migliore riconosce tutte e due le cose.
+
+48
+00:08:36,600 --> 00:08:47,810
+E un ultimo consiglio: non studiare a memoria l'elenco delle diagnosi NANDA. I concorsi chiedono la logica, non il catalogo, e quel tempo serve a farmacologia e a emergenza. A tra poco.

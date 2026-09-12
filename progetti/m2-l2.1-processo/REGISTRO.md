@@ -112,6 +112,25 @@ allinea, trascrivi, verifica il testo, applica, verifica i confini.
 
 ---
 
+## La resa
+
+| | |
+|---|---|
+| resa pubblicata | `fb494c9eae7c40ea4eb852a0dafef774` — **8:48.4** |
+| lotto asset | `da12c59b7a3642baacc93e0438bd9a5d` (98 file) + `aac282241e6147e381928456df3eff13` (s15 rifatta) |
+
+La prima resa, `67b470b623de1392ec89e0161a73b314`, e' stata cancellata: portava
+la s15 con gli asterischi. Per rifarla non e' servito ricaricare tutto — una
+clip sola, e `clips.mjs` ora accetta gli id da rifare.
+
+Una cosa che resta com'e': la 2.1 e' stata ritagliata con l'atempo fisso di
+1,12 del modulo 1, e il suo parlato finito corre a **17,7 car/s**. Da 2.2 in
+poi l'atempo e' calcolato e il bersaglio e' 17,0. La differenza e' del 4%,
+dentro la banda gia' percorsa dal modulo 1 (15,8-17,6) e non udibile: non
+valeva una resa buttata.
+
+---
+
 ## Da verificare
 
 - La stima a 17,0 car/s va ritarata per le lezioni di metodo: qui ha

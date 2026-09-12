@@ -17,6 +17,9 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+# costruisci.py si riscrive, ma solo nelle due liste in testa: il resto
+# (vincoli, stacco, chunk) e' identico e va copiato, non ribattuto.
+cp "$DA/copione/costruisci.py" "$NUOVA/copione/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
 
 cat <<TESTO

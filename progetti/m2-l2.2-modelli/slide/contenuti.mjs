@@ -93,10 +93,10 @@ export const SCENE = [
    {sb:"Un elenco che ne propone **cinque**", ok:"Sono **quattro**, sempre"},
    {sb:"Un elenco che mette **la malattia** al posto dell'ambiente", ok:"Il concetto è **ambiente** — è quello di Nightingale"}]},
 
-{id:"s11", tipo:"tabella", tema:"chiaro", sopratitolo:"La tabella da fotografare · 1",
+{id:"s11", tipo:"tabella", tema:"chiaro", sopratitolo:"La tabella da fotografare · le quattro più chieste",
   intestazioni:["Autore","Concetto chiave"], colonne:["36%","64%"], chiave:[0,1,2,3],
   righe:AUTORI.slice(0,4)},
-{id:"s12", tipo:"tabella", tema:"chiaro", sopratitolo:"La tabella da fotografare · 2",
+{id:"s12", tipo:"tabella", tema:"chiaro", sopratitolo:"La tabella da fotografare · le altre cinque",
   intestazioni:["Autore","Concetto chiave"], colonne:["36%","64%"],
   righe:AUTORI.slice(4)},
 
@@ -216,13 +216,11 @@ export const SCENE = [
   titolo:"Un **vocabolario comune**<br>è la condizione perché esista<br>una ricerca infermieristica.",
   sotto:"E non solo una raccolta di esperienze."},
 
-{id:"s41", tipo:"matrice", tema:"chiaro", sopratitolo:"Tre sistemi, tre domande",
-  assex:["La sigla","La domanda a cui risponde"], assey:["NANDA","NOC"],
-  celle:[
-   {t:"**NANDA-I**", d:"classifica le **diagnosi**", key:true},
-   {t:"«Qual è il problema di questa persona?»"},
-   {t:"**NOC**", d:"*Nursing Outcomes Classification*"},
-   {t:"«Che risultato voglio, e con quale misura me ne accorgo?»"}]},
+{id:"s41", tipo:"icone", tema:"chiaro", sopratitolo:"Tre sistemi, tre domande",
+  voci:[
+   {icona:"documento", t:"NANDA-I", d:"«Qual è il **problema** di questa persona?»", key:true},
+   {icona:"spunta", t:"NOC", d:"«Che **risultato** voglio, e con quale misura me ne accorgo?»"},
+   {icona:"ingranaggio", t:"NIC", d:"«Che cosa **faccio** per ottenerlo?»"}]},
 
 {id:"s42", tipo:"tabella", tema:"chiaro", sopratitolo:"Le tre sigle, per esteso",
   intestazioni:["Sigla","Per esteso","Classifica"], colonne:["16%","46%","38%"],
@@ -242,12 +240,11 @@ export const SCENE = [
    {t:"NOC", d:"il **risultato**, scelto in funzione della diagnosi"},
    {t:"NIC", d:"l'**intervento**, scelto in funzione del risultato", key:true}]},
 
-{id:"s45", tipo:"albero", tema:"chiaro", sopratitolo:"La tassonomia NANDA è un albero, non un elenco",
-  radice:"**13 domini**",
-  rami:[
-   {cond:"ciascuno suddiviso in", esito:"**classi**"},
-   {cond:"e ciascuna classe in", esito:"**diagnosi**", key:true},
-   {cond:"talvolta indicata come", esito:"collegamento **NNN**"}]},
+{id:"s45", tipo:"piramide", tema:"chiaro", sopratitolo:"La tassonomia NANDA è annidata, non un elenco",
+  strati:[
+   {t:"13 domini", d:"il primo livello"},
+   {t:"Classi", d:"ciascun dominio si suddivide in classi"},
+   {t:"Diagnosi", d:"e ciascuna classe raccoglie le diagnosi"}]},
 
 {id:"s46", tipo:"tabella", tema:"chiaro", sopratitolo:"Che cosa NANDA definisce per ogni diagnosi",
   intestazioni:["Elemento","Diagnosi reale","Diagnosi di rischio"], colonne:["34%","33%","33%"], chiave:[3],

@@ -1,0 +1,49 @@
+Barthel misura l'autonomia in dieci attivita' di vita quotidiana, da 0 a 100. Piu' basso, piu' dipendente: e' una capacita', quindi alto e' meglio. Cento vuol dire autonomo in tutte e dieci.
+
+Le ADL di Katz sono sei attivita' di base: bagno, vestirsi, toilette, trasferimenti, continenza, alimentazione. Sono quelle che riguardano il corpo proprio.
+
+Le IADL di Lawton sono otto attivita' strumentali: telefono, spesa, cucina, casa, bucato, trasporti, farmaci, denaro. Sei di base, otto strumentali: le strumentali riguardano il rapporto con il mondo fuori.
+
+Domanda ricorrente: quale delle due intercetta prima il declino? Nel deterioramento cognitivo si perdono prima le IADL, la gestione dei farmaci, del denaro, dei trasporti. E poi le ADL.
+
+Ecco perche' le IADL sono piu' sensibili nel declino precoce: quando una persona non riesce piu' a gestire le proprie medicine ma si lava ancora da sola, il problema e' gia' iniziato.
+
+Il dolore. NRS, numerica da zero a dieci: la piu' usata, perche' non richiede supporti. VAS, la linea di dieci centimetri su cui la persona segna un punto. VRS, descrittori verbali: nessuno, lieve, moderato, forte.
+
+Wong Baker, le facce, per i bambini e per le barriere linguistiche. E poi le due osservazionali, che si usano quando la persona non puo' riferire il proprio dolore, e sono le due che nei casi clinici fanno la differenza.
+
+PAINAD, cinque item per la demenza avanzata: respiro, vocalizzazione, espressione facciale, linguaggio del corpo, consolabilita'. E FLACC per il bambino piccolo: volto, gambe, attivita', pianto, consolabilita'.
+
+E la regola d'oro: il dolore e' cio' che la persona dice che e'. Quando non puo' dirlo, non si conclude che non ne abbia: si passa a una scala osservazionale. Il dolore non misurabile con le parole resta un dolore.
+
+Il distrattore tipico propone: il paziente con demenza non e' valutabile. E' sempre errato, senza eccezioni. Non valutabile con la NRS non vuol dire non valutabile.
+
+Glasgow. Apertura degli occhi da 1 a 4. Risposta verbale da 1 a 5. Risposta motoria da 1 a 6. Somma minima 3, non zero: e' l'errore piu' comune, e viene dal fatto che ogni item parte da uno e non da zero. Massimo 15.
+
+Pari o inferiore a 8: coma. Fra 9 e 12 alterazione moderata, fra 13 e 15 lieve. Sono tre fasce, e la piu' chiesta e' sempre la prima.
+
+Quattro, cinque, sei: se ricordi questi tre numeri ricostruisci tutto il resto. Tre e' la somma dei minimi, quindici la somma dei massimi, e la soglia del coma e' otto.
+
+La CAM, per il delirium. Quattro caratteristiche. Uno: esordio acuto e andamento fluttuante. Due: disattenzione. Tre: pensiero disorganizzato. Quattro: alterato livello di coscienza.
+
+E' positiva se sono presenti la 1 e la 2, piu' almeno una fra la 3 e la 4. La formula da ricordare e': uno piu' due, piu' tre o quattro. Le prime due sono obbligatorie, delle altre ne basta una.
+
+NEWS 2 e MEWS sono sistemi di allerta precoce del deterioramento. Sommano parametri: frequenza respiratoria, saturazione, ossigeno, pressione sistolica, frequenza cardiaca, coscienza, temperatura.
+
+E il punteggio determina frequenza del monitoraggio e livello di risposta. Non e' una diagnosi: e' un semaforo che dice quanto spesso guardare e chi chiamare, anche quando il paziente sembra stabile.
+
+Sul versante nutrizionale: MUST per l'adulto, con BMI, calo ponderale ed effetto della malattia acuta, rischio alto da 2 in su. MNA per l'anziano, dove il punteggio basso indica peggiore stato nutrizionale.
+
+Tre limiti, e all'orale valgono quanto i numeri. Uno: la scala non sostituisce il giudizio clinico. Se la persona e' a rischio e la scala dice di no, prevale l'osservazione, e si documenta il perche'.
+
+Due: va usata per cio' per cui e' validata, cioe' per quella popolazione, quel setting, quell'eta'. Tre: va ripetuta, perche' il valore all'ingresso e' una fotografia e non un verdetto.
+
+E l'avvertenza piu' importante. Compilare la scala e non modificare il piano e' l'errore piu' diffuso, ed e' anche il piu' facile da contestare in sede di responsabilita', perche' la scala compilata resta agli atti.
+
+Perche' dimostra che il rischio era noto e non e' stato gestito. Nella risposta a un caso, dopo il punteggio metti sempre l'intervento che ne consegue.
+
+Ti lascio la tabella dei numeri. Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Conley da 0 a 10, rischio da 2 in su. Tinetti da 0 a 28, rischio elevato sotto 19.
+
+Barthel da 0 a 100. Glasgow da 3 a 15, coma sotto o uguale a 8. CAM: uno piu' due, piu' tre o quattro. MUST: rischio alto da 2 in su. MNA: punteggio basso, stato nutrizionale peggiore.
+
+[warm] Fotografa questa slide e riguardala la sera prima della prova. Nella prossima lezione parliamo di documentazione, cioe' di come tutto questo diventa verificabile. A tra poco.
