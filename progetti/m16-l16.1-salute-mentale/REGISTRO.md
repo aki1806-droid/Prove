@@ -70,14 +70,14 @@ orientamento all'esame (la data sola da ricordare).
 | `STACCO` concorde fra `tagli.py` e l'aritmetica | ✓ s24 |
 | temi concordi fra `blocchi.json` e `contenuti.mjs` | ✓ 48 su 48 |
 | le 48 scene generano HTML | ✓ nessuna eccezione, nessun `undefined` |
-| traboccamento della cornice | ✓ nessuna slide sfora — **ma con caratteri di sistema** |
-| provini guardati | ✓ tutte e 48 |
+| traboccamento della cornice | ✓ nessuna slide sfora, **con i caratteri e il logo veri** |
+| provini guardati | ✓ tutte e 48, sul render definitivo |
 | verifica per trascrizione | ✗ **non fatta** — la voce non e' stata generata |
 | durata reale ≥ 7:50 | ✗ **non misurabile** — nessun montato |
 | sottotitoli SRT | ✗ **non fatti** |
 
-Otto controlli del §6: **quattro passati, uno passato con riserva, tre non
-eseguibili** allo stato attuale. La pipeline e' ferma al Passo 2.
+Otto controlli del §6: **cinque passati, tre non eseguibili** finche' la voce
+non c'e'. La pipeline e' ferma al Passo 2.
 
 ## Che cosa e' andato storto, e come si e' deciso
 
@@ -111,18 +111,31 @@ copiare dall'ultima; e `grafica.mjs` non era fra i file copiati pur essendo
 importato da `layout.mjs`, quindi ogni lezione nuova sarebbe morta al primo
 `node slide/cards.mjs`. Corretti nello script condiviso.
 
+**Il marchio arrivava con 38 pixel di margine trasparente.** `layout.mjs`
+scala il logo a un'altezza fissa di 70px: un margine dentro il file avrebbe
+rubato altezza al marchio e lo avrebbe reso piu' piccolo del dovuto su ogni
+slide. Rifilato sul contenuto opaco, 225x109 diventa 187x97 — ed e' il motivo
+per cui il MASTER chiama quel file `logo-rifilato`. Campionandolo si
+confermano anche i due colori del §8, che dice esplicitamente di non stimarli:
+fra i pixel opachi `#00623A` e' al 35,0% e `#D70328` all'11,7%, gli stessi
+valori che `layout.mjs` ha in costante.
+
+**Una slide diceva «il TSO ... e' disciplinata per legge».** TSO e' maschile, e
+il parlato dice giustamente «disciplinato»: l'errore stava solo nella slide,
+dove nessun controllo lo cercava. Trovato guardando il render definitivo, non
+quello con i caratteri di sistema — che e' un argomento per non rimandare il
+pass visivo a dopo.
+
 **Il controllo di traboccamento non aveva trovato niente.** Prima di crederci
 gli e' stata data una slide volutamente troppo alta: l'ha vista, +1608px.
 L'esito «nessuna slide sfora» e' quindi vero e non cieco.
 
 ## Da verificare — quello che non ho potuto giudicare io
 
-- **Le misure del traboccamento sono state prese con i caratteri di sistema.**
-  Inter e Source Serif 4 sono binari e non stanno nel MASTER, quindi non ci
-  sono in questa cartella. Anche il logo era uno stub di un pixel. Le
-  proporzioni del testo reale sono diverse: **`node slide/cards.mjs` va
-  rifatto con i caratteri e il logo veri**, e i provini riguardati. Una slide
-  che qui rientra di poco puo' sforare con Inter.
+- I `✓` e le frecce `→` delle tabelle e degli elenchi non stanno nei
+  sottoinsiemi latini dei due caratteri: li disegna un carattere di sistema.
+  Nel render si vedono, ma su una macchina diversa potrebbero cambiare forma.
+  Vedi `slide/font/LICENZE.md`.
 - **La voce non e' stata generata.** Costa (~$2,05 fra sintesi e trascrizione)
   e non si rifa' a pezzi, quindi non e' stata lanciata senza dirlo. Restano
   quindi non eseguiti: i tagli, la verifica per trascrizione, le clip, il

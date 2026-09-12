@@ -125,7 +125,7 @@ export const SCENE = [
 
 {id:"s12", tipo:"titolo", tema:"profondo",
   titolo:"Il trattamento sanitario<br>è di norma **volontario**.",
-  sotto:"Il TSO è l'eccezione, ed è disciplinata per legge."},
+  sotto:"Il TSO è l'eccezione, ed è disciplinato per legge."},
 {id:"s13", tipo:"frase", tema:"chiaro", sopratitolo:"Lo hai già incontrato nella lezione 12.1",
   testo:"Qui lo vediamo **nel dettaglio**.",
   sotto:"È la domanda più probabile dell'intero modulo."},
