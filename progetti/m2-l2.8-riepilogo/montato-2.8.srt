@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,080
+Chiudiamo il secondo modulo. Nessun contenuto nuovo: ricomponiamo. La mappa delle sette lezioni, il filo che le tiene insieme, i numeri, le confusioni che costano di piu', i casi tipici.
+
+2
+00:00:13,080 --> 00:00:21,540
+Guarda questo video due volte: adesso, per chiudere il modulo, e la settimana prima della prova, quando serve rimettere in ordine quello che nel frattempo si e' sparpagliato.
+
+3
+00:00:21,540 --> 00:00:32,920
+E' un ripasso, quindi andiamo piu' svelti del solito. Se un punto ti sfugge, e' il segno che quella lezione va ripresa: non tutto il modulo da capo, solo quella. Un ripasso serve a trovare i buchi, non a riempirli tutti.
+
+4
+00:00:32,920 --> 00:00:47,390
+La mappa, in sette righe. 2.1: il processo di assistenza, i cinque passi. 2.2: modelli e tassonomie, cioe' le categorie con cui si guarda. 2.3: accertamento e scale. 2.4: la documentazione.
+
+5
+00:00:47,390 --> 00:01:01,020
+2.5: EBP, linee guida, PDTA e procedure, cioe' da dove viene quello che facciamo. 2.6: rischio clinico e sicurezza del paziente. 2.7: comunicazione clinica e continuita' assistenziale.
+
+6
+00:01:01,020 --> 00:01:09,930
+Sette lezioni, e non sono sette argomenti separati. Sono sette punti di una sola linea, ed e' la linea che conviene saper raccontare all'orale, non i punti presi uno per volta.
+
+7
+00:01:09,930 --> 00:01:20,780
+Una sola catena tiene insieme tutto. Raccolgo i dati con le categorie che la disciplina mi fornisce, e non a caso. Decido sulla base delle migliori evidenze disponibili, integrate con l'esperienza e con la persona.
+
+8
+00:01:20,780 --> 00:01:29,280
+Documento cio' che faccio. Comunico nei passaggi. E sorveglio il sistema, perche' l'errore e' prevedibile, e chi lo prevede costruisce le barriere prima che servano.
+
+9
+00:01:29,280 --> 00:01:38,270
+Metodo, prova, sicurezza: tre facce dello stesso lavoro. Se all'orale ti chiedono che cosa hai imparato in questo modulo, la risposta e' questa catena, in cinque verbi.
+
+10
+00:01:38,270 --> 00:01:49,740
+Dal 2.1: cinque fasi, e il processo e' ciclico, non lineare. La valutazione non chiude niente: riapre l'accertamento. Ed e' il passo che si dimentica piu' spesso, sia nei quiz sia in reparto.
+
+11
+00:01:49,740 --> 00:02:00,940
+Diagnosi reale PES: problema, etiologia, segni e sintomi. Diagnosi di rischio PE, senza segni, perche' se i segni ci fossero non sarebbe piu' un rischio ma un problema in atto.
+
+12
+00:02:00,940 --> 00:02:11,060
+L'obiettivo ha per soggetto la persona, con indicatore e tempo. Le priorita': ABC, poi rischio di danno a breve, poi impatto sull'autonomia e percezione della persona.
+
+13
+00:02:11,060 --> 00:02:21,570
+Dal 2.2: il metaparadigma ha quattro concetti. Henderson quattordici bisogni, Gordon undici modelli funzionali. E non il contrario: e' lo scambio piu' frequente di tutto il modulo.
+
+14
+00:02:21,570 --> 00:02:34,200
+Orem tre sistemi: totalmente compensatorio, parzialmente compensatorio, e di supporto ed educazione. E la catena delle tassonomie: NANDA, NOC, NIC, cioe' diagnosi, risultati, interventi.
+
+15
+00:02:34,200 --> 00:02:44,380
+Un modo per non sbagliare NOC e NIC: NOC finisce come outcome, NIC come intervento. La lettera che cambia nella sigla e' la stessa che cambia nel significato, e non e' un caso.
+
+16
+00:02:44,380 --> 00:02:56,400
+Dal 2.3, e questa e' la slide da fotografare adesso. Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Conley da 0 a 10, rischio a partire da 2.
+
+17
+00:02:56,400 --> 00:03:09,000
+Tinetti sotto 19. Barthel da 0 a 100. Glasgow da 3 a 15, con coma sotto o uguale a 8. CAM: uno piu' due, piu' tre oppure quattro. E MUST: rischio alto a partire da 2.
+
+18
+00:03:09,000 --> 00:03:18,140
+Otto scale e otto intervalli, ed e' la parte che si dimentica per prima, perche' sono numeri senza appiglio. Se devi trascrivere una cosa sola nel quaderno di ripasso, trascrivi questa.
+
+19
+00:03:18,140 --> 00:03:25,730
+E poi c'e' la regola che risolve meta' delle domande sulle scale anche quando non le ricordi a memoria. Se la scala misura una capacita', piu' alto e' meglio.
+
+20
+00:03:25,730 --> 00:03:36,900
+Se misura un rischio, piu' alto e' peggio. Barthel misura autonomia: 100 e' ottimo. Conley misura il rischio di caduta: 10 e' pessimo. Fin qui e' intuitivo, e infatti non e' qui che si sbaglia.
+
+21
+00:03:36,900 --> 00:03:47,310
+Le due eccezioni sono Braden e Norton, che misurano un rischio con punteggio inverso: piu' basso, piu' a rischio. Due eccezioni sole, e sono proprio le due che si chiedono di piu'.
+
+22
+00:03:47,310 --> 00:03:56,660
+Le otto confusioni che costano di piu'. Uno: obiettivo o intervento. Guarda il soggetto della frase: se il soggetto e' la persona e' un obiettivo, se sei tu e' un intervento.
+
+23
+00:03:56,660 --> 00:04:06,880
+Due: diagnosi reale con i segni, di rischio senza. Tre: la diagnosi infermieristica si tratta in autonomia, il problema collaborativo si sorveglia e si gestisce insieme al medico.
+
+24
+00:04:06,880 --> 00:04:16,190
+Quattro: quattordici Henderson, undici Gordon. Se non ricordi quale sia quale, ricorda che quelli di Gordon sono modelli funzionali di salute, e sono i meno numerosi dei due.
+
+25
+00:04:16,190 --> 00:04:31,170
+Cinque: NOC sono gli outcome, i risultati; NIC gli interventi. Sei: Braden e' lesioni da pressione, con punteggio inverso; Conley e' cadute, con punteggio diretto. Due rischi diversi e due direzioni diverse.
+
+26
+00:04:31,170 --> 00:04:42,040
+Sette: la linea guida raccomanda, la procedura dice come si fa qui, il PDTA dice chi fa che cosa lungo il percorso. Scientifica la prima, organizzative le altre due.
+
+27
+00:04:42,040 --> 00:04:51,900
+Otto: il near miss non arriva al paziente, l'evento avverso si'. E la complicanza non e' nessuno dei due, perche' e' attesa e non presuppone un errore di nessuno.
+
+28
+00:04:51,900 --> 00:05:01,860
+I casi tipici. Traccia con dati incompleti: la risposta non e' scegliere l'intervento piu' sensato. Si comincia raccogliendo il dato mancante, ed e' quasi sempre quella l'opzione giusta.
+
+29
+00:05:01,860 --> 00:05:11,740
+Quale intervento ha la priorita': ABC prima di tutto, poi il rischio di danno a breve, poi l'impatto sull'autonomia e la percezione della persona. In quest'ordine, sempre.
+
+30
+00:05:11,740 --> 00:05:21,560
+Braden 12 in paziente allettato: cambi posturali programmati, superficie antidecubito, gestione dell'umidita', valutazione nutrizionale, ispezione cutanea a ogni turno.
+
+31
+00:05:21,560 --> 00:05:32,710
+Perche' al punteggio deve corrispondere una modifica del piano. Una scala compilata e non seguita da niente e' peggio di una non compilata: dimostra che il rischio era noto.
+
+32
+00:05:32,710 --> 00:05:42,620
+Prescrizione illeggibile o dubbia: chiedo chiarimento al prescrittore, se il dubbio permane non do corso, e documento il dubbio e la richiesta. Tre passi, in quest'ordine.
+
+33
+00:05:42,620 --> 00:05:52,900
+Near miss intercettato in tempo: segnalo comunque, perche' e' apprendimento gratuito. Chiamata al medico per peggioramento: strutturo con SBAR, esplicitando valutazione e richiesta.
+
+34
+00:05:52,900 --> 00:06:03,400
+Cinque formule da saper citare a memoria, per intero. PES: problema, etiologia, segni e sintomi. E la diagnosi di rischio e' PE, perche' i segni non ci sono ancora.
+
+35
+00:06:03,400 --> 00:06:16,490
+PICO: popolazione, intervento, confronto, esito. SBAR: situazione, background, assessment e recommendation, e sono le ultime due quelle che contano. CAM: uno piu' due, piu' tre oppure quattro.
+
+36
+00:06:16,490 --> 00:06:26,030
+E l'EBP: evidenze piu' competenza clinica piu' valori della persona. Tre addendi, e il distrattore classico ne toglie due, proprio i due che riguardano le persone.
+
+37
+00:06:26,030 --> 00:06:35,700
+E la frase che attraversa il modulo dall'inizio alla fine: cio' che non e' documentato si presume non fatto. L'abbiamo incontrata nella 1.5 e non ci ha piu' lasciati.
+
+38
+00:06:35,700 --> 00:06:45,160
+Vale per la scala compilata, per la segnalazione fatta al medico, per il rifiuto della persona, per la rivalutazione del dolore dopo un antidolorifico. Nel dubbio, scrivi.
+
+39
+00:06:45,160 --> 00:06:56,290
+Non e' un avvertimento burocratico: e' l'unico modo in cui il lavoro che hai fatto continua a esistere a distanza di anni. La memoria non fa prova, il documento si'.
+
+40
+00:06:56,290 --> 00:07:05,570
+Quattro agganci veneti da portare all'orale. Uno: il processo e' strutturato dentro la cartella clinica elettronica, con scale integrate e rivalutazioni a intervalli definiti.
+
+41
+00:07:05,570 --> 00:07:17,120
+Due: la catena delle evidenze e' SNLG, indirizzi regionali e PDTA, procedure aziendali, pratica al letto. Spesso dentro le reti cliniche: oncologica, stroke, trauma.
+
+42
+00:07:17,120 --> 00:07:27,080
+Tre: la filiera del rischio e' l'operatore che segnala, il risk management aziendale, il Centro regionale, l'Osservatorio nazionale, con il Difensore civico nel ruolo di Garante.
+
+43
+00:07:27,080 --> 00:07:36,920
+Quattro: la continuita' verso il territorio passa da dimissioni protette, dalle COT e dall'infermiere di famiglia e comunita'. E adesso come proseguire, in quattro passi.
+
+44
+00:07:36,920 --> 00:07:45,770
+Uno: affronta il test del modulo, trenta domande con soglia ventuno. Due: riprendi solo le lezioni che gli errori ti hanno segnalato, non tutto il modulo da capo.
+
+45
+00:07:45,770 --> 00:07:54,520
+Tre: trasferisci nel quaderno di ripasso i numeri delle scale e le formule. E' la parte che si dimentica per prima, ed e' anche l'unica che si recupera in cinque minuti.
+
+46
+00:07:54,520 --> 00:08:07,610
+Quattro, ed e' il consiglio con il rendimento piu' alto di tutto il corso: esercita lo schema in cinque passi della lezione 2.1 su due casi clinici. Non su venti: su due, fatti bene.
+
+47
+00:08:07,610 --> 00:08:17,530
+Ci fermiamo qui. Con il modulo 1 hai la grammatica della professione; con il modulo 2 la sintassi, cioe' il metodo, la prova e la sicurezza. Tre parole per sette lezioni.
+
+48
+00:08:17,530 --> 00:08:27,600
+Dal modulo 3 il metodo diventa clinica: bisogni fondamentali, comfort, assistenza di base avanzata. E comincia la parte che pesa di piu' nella prova pratica. Ci vediamo li'.

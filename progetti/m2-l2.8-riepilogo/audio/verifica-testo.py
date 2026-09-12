@@ -133,6 +133,12 @@ RESE = [
  # stessa parola detta nello stesso modo, e la differenza e' solo ortografica.
  (r"\bmeta\s+analisi\b",                  " metanalisi "),
  (r"\bchecklist\b",                        " check list "),
+ # Due grafie entrambe corrette: il copione scrive «etiologia», il
+ # trascrittore sente «eziologia». La voce dice la stessa cosa.
+ (r"\beziologia\b",                        " etiologia "),
+ # Il cognome di una scala non e' una parola italiana, e il trascrittore lo
+ # scrive come gli suona: su 2.8 tre volte in tre modi diversi.
+ (r"\bconleys\b|\bconleigh\b",            " conley "),
 ]
 
 def parole(s):

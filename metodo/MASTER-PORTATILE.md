@@ -9,7 +9,7 @@ a vuoto.
 Prodotto finale: **micro-lezioni video da slide + voce**, senza avatar. Nove
 minuti circa, cinquanta scene, sottotitoli, marchio su ogni slide.
 
-Misurato su otto lezioni portate a termine.
+Misurato su **sedici lezioni** portate a termine: due moduli interi.
 
 ---
 
@@ -55,12 +55,20 @@ VELOCITÀ DI LETTURA = 17,0 caratteri al secondo
 ```
 
 È misurata, non stimata: è la velocità della traccia **dopo** il filtro di
-ritmo. Sulle otto lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo
+ritmo. Sulle sedici lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo
 scarto non è rumore — dipende dalla **densità di cifre**. Un anno pronunciato
 per esteso dura molto più dei quattro caratteri che occupa:
 «millenovecentosettantaquattro» sono ventinove caratteri di parlato per quattro
-di testo. La lezione più lenta delle otto (15,8) è quella di ripasso, fatta di
-date e numeri di legge.
+di testo. Le lezioni più lente sono le due di ripasso, fatte di date, numeri di
+legge ed elenchi.
+
+> **Il fattore che porta la traccia a 17,0 non è una costante.** Si compone di
+> due numeri e **tutti e due si misurano per lezione**, non si copiano da
+> quella prima: quanto tolgono i silenzi (misurato con una passata di ffmpeg:
+> sulle otto lezioni del modulo 2 è andato da **1,078 a 1,196**, il dieci per
+> cento) e l'`atempo` che ne discende. Copiare il numero della lezione
+> precedente fa uscire la successiva a 16,1 o a 17,8 a seconda di quale si
+> copia.
 
 Quindi:
 
@@ -70,7 +78,13 @@ durata montata        = parlato + 3 s di copertina + 10 s di chiusura
 ```
 
 Per una lezione da nove minuti montati: parlato 527 s → **circa 8.950
-caratteri**. Le otto lezioni stanno fra 8.500 e 8.960.
+caratteri**. Le sedici lezioni stanno fra 8.267 e 9.430.
+
+> **Il vincolo del committente vince sul copione.** Se lo script chiede otto
+> minuti e la committenza «otto minuti almeno», scrivere per otto minuti esatti
+> porta sotto la soglia: una lezione è uscita a 7:55,6. Si allargano i blocchi
+> più magri **con contenuto vero**, non con parole in più — e il tetto di 225
+> caratteri per blocco lascia molto margine, perché la media sta sotto 200.
 
 ## Blocchi e scene
 
@@ -230,8 +244,8 @@ Da sola, la scelta automatica sbaglia. Due controlli, e fanno cose diverse:
 
 Quando si può, si fanno tutte e due. Quando se ne può fare una sola, quella
 sulla traccia intera prende l'errore più caro — la voce che salta parole — e i
-confini restano affidati all'allineamento e al controllo statistico offline
-(`verifica-locale.py`).
+confini restano affidati all'allineamento e ai due controlli offline di
+`controllo-statistico.py`, che non costano niente.
 
 > **Una trascrizione che ripete il copione non è una trascrizione.** Se la si
 > chiede collegandola al *nodo che ha generato la voce* invece che a un asset
@@ -275,15 +289,32 @@ decidere senza riascoltare, in ordine di forza:
 
 ### E lo stesso vale per un confine sospetto
 
-`verifica-locale.py` segnala le coppie adiacenti di segno opposto: un blocco più
-corto del previsto accanto a uno più lungo, che è la firma di un confine
-spostato. Ma il modello pesa male le cifre, e due blocchi fitti di numeri di
-articolo possono dare la stessa firma **senza** che ci sia niente di storto.
+`controllo-statistico.py` segnala le coppie adiacenti di segno opposto: un
+blocco più corto del previsto accanto a uno più lungo, che è la firma di un
+confine spostato. Ma il modello pesa le **parole**, non le **pause**, e un
+blocco che è un elenco può dare la stessa firma **senza** che ci sia niente di
+storto.
 
-Il modo di decidere non è ragionare sul modello: è **fare il conto sull'audio
-grezzo**. Si guardano le pause rilevate intorno al confine, si prende lo
-spezzone di parlato fra le due pause candidate, e si divide per i caratteri
-della frase che dovrebbe contenere.
+> **Il controllo che vale di più costa una passata di ffmpeg.** Un taglio
+> giusto cade **dentro una pausa vera della voce**; un taglio spostato cade in
+> mezzo a una frase. Si misura in locale con `silencedetect` sulle tracce
+> grezze, senza trascrivere niente e senza sapere che cosa la voce dica. È la
+> seconda sezione di `controllo-statistico.py`, e va letta **per prima**: la
+> statistica dice *dove guardare*, questa dice *se c'è qualcosa da vedere*.
+>
+> Su 2.6 la statistica ha accusato una coppia e il controllo delle pause l'ha
+> assolta in dieci secondi. Rilanciato sulle sette lezioni del modulo: **322
+> tagli su 322 dentro una pausa**, nessuna lezione da rifare.
+>
+> La soglia va tenuta **sotto** la pausa minima che `tagli.py` accetta, che non
+> è una costante — la calcola per lezione. Con 0,15 s fissi il controllo ha
+> accusato un taglio che cadeva nel centro esatto di una pausa di 0,143 s: un
+> falso allarme prodotto dal controllo, non dal taglio. Sta a 0,05 s.
+
+Quando anche quello non basta, il modo di decidere non è ragionare sul
+modello: è **fare il conto sull'audio grezzo**. Si prende lo spezzone di
+parlato fra le due pause candidate e si divide per i caratteri della frase che
+dovrebbe contenere.
 
 Esempio vero: fra 124,57 e 130,02 ci sono 5,4 s di parlato per una frase da 60
 caratteri. Col confine dove l'aveva messo l'allineamento (127,59) quella frase
@@ -291,13 +322,40 @@ sarebbe stata detta a **20,5 car/s di grezzo**, contro i 14-16 di quella voce.
 Confine sbagliato, senza ambiguità e senza riascoltare.
 
 > **Quando il controllo statistico diventa cieco.** La soglia di allarme è
-> **1,5 volte la dispersione della traccia**. Su un testo pieno di date il
-> modello sbanda su ogni blocco, la dispersione raddoppia (1,21 s contro i
-> 0,5-0,6 tipici) e con essa la soglia. Il controllo non è rotto: è **cieco in
-> proporzione**. Su una traccia così si legge la tabella dei blocchi a mano.
+> **1,5 volte la dispersione della traccia**. Su un testo pieno di date o di
+> elenchi il modello sbanda su ogni blocco, la dispersione raddoppia (1,03 s su
+> una lezione di ripasso contro i 0,53 di una discorsiva) e con essa la soglia.
+> Il controllo non è rotto: è **cieco in proporzione**. Su una traccia così si
+> guarda il controllo delle pause e si legge la tabella dei blocchi a mano.
 >
 > Ritarare il peso delle cifre sulla lezione che mette in crisi il modello è la
 > tentazione da evitare: si aggiusta quella e si sbaglia sulle altre sette.
+
+### Il peso di un pezzo di copione: quanto DURA, non quanto è lungo
+
+La DTW allinea pezzi di copione a spezzoni di audio, e il costo è il **peso**
+del pezzo. Pesarlo in caratteri sbaglia sui numeri: «1.4 e 1.5.» sono dieci
+caratteri, ma la voce dice «uno punto quattro e uno punto cinque» e ci mette
+quattro secondi. Su una lezione questo ha spostato un confine di 2,1 s.
+
+Il primo rimedio — *una cifra vale cinque caratteri*, piatto — funziona in
+media e si rompe agli estremi, **in tutti e due i versi**: `12` pesava dieci e
+la voce dice *dodici*, che ne vale sei; `1994` pesava venti e la voce dice
+*millenovecentonovantaquattro*, che ne vale ventotto.
+
+La regola giusta è **scrivere il numero per esteso e contare quello**. La
+differenza fra «sette» e «millenovecentonovantaquattro» la sa l'italiano, non
+un fattore moltiplicativo. Il convertitore sta in `tagli.py` (`in_lettere`), e
+tratta il punto fra due cifre come «punto», che è come si legge.
+
+> **Il peso vive in un file solo.** Due volte in due lezioni la DTW e il
+> controllo statistico hanno avuto pesi diversi, e ogni volta il sintomo non è
+> stato un errore: è stato **un controllo che tace**. Con i pesi in disaccordo
+> la coppia sospetta di 2.6 non veniva segnalata affatto.
+> `controllo-statistico.py` **importa** `peso` da `tagli.py`.
+>
+> Vale per ogni numero del sistema, non solo per questo. La soglia delle pause
+> è inciampata nello stesso modo, una lezione dopo.
 
 ## Passo 4 — Renderizzare le slide
 
@@ -328,11 +386,45 @@ Gli elenchi lunghi si stringono da soli; `griglia` si stringe oltre le sei
 caselle su una colonna; `icone` oltre le quattro. Se la soglia sta nelle scene,
 ogni lezione se ne dimentica per conto suo.
 
+E qualche tipo ha un **tetto**, non solo una soglia: `icone` è un flex
+orizzontale e sopra le **cinque** voci esce dalla cornice qualunque sia il
+corpo del testo. Sette barriere sforavano di 377 px. Non è un problema di
+misura, è di densità: sopra le cinque voci si usa `griglia`. I tetti stanno
+scritti nel CSS, accanto alla regola.
+
+### Una slide si rompe in tre modi, e solo due si vedono da soli
+
+1. **Esce dalla cornice.** Lo prende il controllo geometrico.
+2. **Stampa un dato che non c'è.** Un `assetempo` senza anni veri scrive
+   `undefined` sull'asse, **dentro la cornice**: muto per il controllo di
+   sopra, e sarebbe andato in resa. Adesso `cards.mjs` legge il testo reso di
+   ogni slide e segnala `undefined`, `NaN` e `[object Object]`.
+3. **Dice una cosa falsa, perfettamente impaginata.** Questo non si
+   automatizza, e il paragrafo sotto è la sola difesa.
+
+> Quando un controllo automatico non ha mai trovato niente, non è una buona
+> notizia finché non gli si è dato qualcosa da trovare. Il controllo dei dati
+> mancanti è stato provato rimettendo il difetto che l'aveva motivato, e poi
+> ripristinando: **un controllo non provato non è un controllo.**
+
 ### Guardare i provini non è una formalità
 
-Due difetti trovati solo guardando, che nessun controllo automatico poteva
-prendere: una linea del tempo che mescolava numeri di legge e anni sulla stessa
-riga, e quattro voci numerate 1, 2-3, 3-4 invece di 1, 2, 3-4.
+È il solo modo di prendere il terzo difetto, e ne ha presi otto in quattro
+lezioni. Le due famiglie:
+
+**Il contenuto è inventato o sbagliato.** Numeri di un grafico a barre che
+nessuno aveva misurato; una matrice 2×2 con tre sigle e la quarta mancante;
+un albero che disegnava livelli annidati come rami paralleli; un formaggio
+svizzero con le fette vuote («Barriera 1 · un buco»); una spunta usata per
+«l'assenza di un doppio controllo».
+
+**La forma dice una cosa diversa dal contenuto.** Un Venn per due cose che
+vengono trasferite entrambe, non che si sovrappongono. Una matrice le cui
+colonne — «la barriera» / «un esempio» — facevano passare una barriera per un
+esempio di un'altra. Tre numeri grandi che erano la cosa da ricordare, scritti
+piccoli accanto a parole grandi.
+
+Nessuna di queste sforava la cornice. Tutte erano sbagliate.
 
 ## Passo 5 — Riprese e immagini generate
 
@@ -556,20 +648,20 @@ riassume.
 
 | file | righe | a che cosa serve |
 |---|---|---|
-| `nuova-lezione.sh` | 48 | impianta una lezione nuova dall'ultima fatta |
-| `copione/costruisci.py` | 116 | il copione, i blocchi, i chunk per la voce |
-| `audio/tagli.py` | 262 | pause, allineamento DTW, ritaglio dei blocchi |
-| `audio/verifica-testo.py` | 169 | trascrizione contro copione |
-| `audio/verifica.py` | 81 | durata e velocita' dei blocchi ritagliati |
-| `verifica-locale.py` | 49 | il controllo statistico sui confini |
-| `slide/layout.mjs` | 348 | temi, marchio, corpi di testo |
-| `slide/grafica.mjs` | 531 | i 13 tipi grafici, le icone, i fregi, i colori |
-| `slide/cards.mjs` | 52 | le 50 slide in PNG |
-| `slide/clips.mjs` | 45 | le scene animate in MP4 |
+| `nuova-lezione.sh` | 54 | impianta una lezione nuova dall'ultima fatta |
+| `copione/costruisci.py` | 150 | il copione, i blocchi, i chunk per la voce |
+| `audio/tagli.py` | 348 | pause, allineamento DTW, ritaglio dei blocchi |
+| `audio/verifica-testo.py` | 198 | trascrizione contro copione |
+| `audio/controllo-per-trascrizione.py` | 81 | quale confine e' finito fuori posto, e dove |
+| `controllo-statistico.py` | 101 | i confini: la firma statistica e le pause |
+| `slide/layout.mjs` | 352 | temi, marchio, corpi di testo |
+| `slide/grafica.mjs` | 570 | i 13 tipi grafici, le icone, i fregi, i colori |
+| `slide/cards.mjs` | 70 | le 50 slide in PNG |
+| `slide/clips.mjs` | 49 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
 | `monta-locale.py` | 49 | il montaggio di prova con ffmpeg |
 | `controlli.py` | 73 | gli otto controlli finali |
-| `slide/contenuti.mjs` | 305 | le 50 scene — esempio, cambia a ogni lezione |
+| `slide/contenuti.mjs` | 260 | le 50 scene — esempio, cambia a ogni lezione |
 
 Si copiano tutti come sono, una volta sola. `copione/costruisci.py` e
 `slide/contenuti.mjs` sono gli unici due che si riscrivono a ogni lezione: qui
@@ -588,19 +680,24 @@ cambia. I due soli file da riscrivere sono `copione/costruisci.py` e
 # Restano da scrivere due soli file, che il messaggio finale elenca.
 set -euo pipefail
 
-[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m1-l1.4-deontologia"; exit 1; }
+[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m2-l2.1-processo"; exit 1; }
 NUOVA="progetti/$1"
 # Si copia dalla lezione piu' recente, non sempre dalla prima: gli strumenti
 # migliorano lezione dopo lezione e la 1.1 resterebbe indietro.
-DA=$(ls -d progetti/m1-l*/ | sort | tail -1); DA=${DA%/}
+DA=$(ls -d progetti/m*-l*/ | sort | tail -1); DA=${DA%/}
 [ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
 
 mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
 # il tema e gli strumenti: identici per tutte le lezioni del corso
 cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
-cp "$DA/slide/layout.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
-cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
-cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
+cp "$DA/audio/tagli.py" "$DA/audio/controllo-per-trascrizione.py" \
+   "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
+cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" \
+   "$DA/controllo-statistico.py" "$NUOVA/"
+# costruisci.py si riscrive, ma solo nelle due liste in testa: il resto
+# (vincoli, stacco, chunk) e' identico e va copiato, non ribattuto.
+cp "$DA/copione/costruisci.py" "$NUOVA/copione/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
 
 cat <<TESTO
@@ -615,12 +712,13 @@ Poi, nell'ordine:
   python3 copione/costruisci.py          scrive blocchi.json e verifica i vincoli
   → generare le due tracce di voce, salvarle in audio/grezzo-A.mp3 e -B.mp3
   python3 audio/tagli.py allinea         sceglie i confini, prepara prova.mp3
+  python3 audio/tagli.py applica         scrive i 48 mp3
+  python3 controllo-statistico.py        nessuna coppia adiacente di segno opposto
+                                         (legge blocchi-audio.json: va DOPO applica)
   → trascrivere: attaccare l'URL firmato di ciascuna traccia con
     creative_attach_reference_file, poi creative_transcribe_audio;
     salvare i testi in audio/trascrizioni/A.txt e B.txt
   python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
-  python3 verifica-locale.py             nessuna coppia adiacente di segno opposto
-  python3 audio/tagli.py applica         scrive i 48 mp3
   node slide/cards.mjs                   i PNG — GUARDARLI
   node slide/clips.mjs                   le clip animate
   python3 monta-scene.py                 clip + audio, una per blocco
@@ -645,78 +743,79 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Siamo alla lezione di chiusura del primo modulo. Qui non aggiungiamo niente di nuovo: ricomponiamo. Ti do una mappa unica delle sette lezioni e una linea del tempo."),
- (1,"tenue",0,"Poi i dieci numeri da ricordare, le sette confusioni che costano piu' punti e i cinque casi tipici. Guarda questo video due volte: adesso, e di nuovo nei giorni prima della prova."),
+ (1,"chiaro",0,"[warm] Chiudiamo il secondo modulo. Nessun contenuto nuovo: ricomponiamo. La mappa delle sette lezioni, il filo che le tiene insieme, i numeri, le confusioni che costano di piu', i casi tipici."),
+ (1,"chiaro",0,"Guarda questo video due volte: adesso, per chiudere il modulo, e la settimana prima della prova, quando serve rimettere in ordine quello che nel frattempo si e' sparpagliato."),
+ (1,"tenue",0,"E' un ripasso, quindi andiamo piu' svelti del solito. Se un punto ti sfugge, e' il segno che quella lezione va ripresa: non tutto il modulo da capo, solo quella. Un ripasso serve a trovare i buchi, non a riempirli tutti."),
 
- (2,"chiaro",0,"La mappa. Uno punto uno: le fonti del campo di attivita'. Uno punto due: il profilo, DM 739 del 1994. Uno punto tre: formazione, Ordine, ECM e carriera."),
- (2,"chiaro",0,"Uno punto quattro: il Codice deontologico del 2019. Uno punto cinque: la responsabilita' professionale. Uno punto sei: consenso e autodeterminazione. Uno punto sette: segreto, privacy e tutela della persona."),
- (2,"profondo",1.2,"Sette lezioni, un filo solo: all'autonomia corrisponde la responsabilita'."),
+ (2,"chiaro",0,"La mappa, in sette righe. 2.1: il processo di assistenza, i cinque passi. 2.2: modelli e tassonomie, cioe' le categorie con cui si guarda. 2.3: accertamento e scale. 2.4: la documentazione."),
+ (2,"chiaro",0,"2.5: EBP, linee guida, PDTA e procedure, cioe' da dove viene quello che facciamo. 2.6: rischio clinico e sicurezza del paziente. 2.7: comunicazione clinica e continuita' assistenziale."),
+ (2,"chiaro",0,"Sette lezioni, e non sono sette argomenti separati. Sono sette punti di una sola linea, ed e' la linea che conviene saper raccontare all'orale, non i punti presi uno per volta."),
 
- (3,"chiaro",0,"Se dovessi ricordare una sola cosa del modulo, ricorda questa catena. La competenza, data da profilo, formazione e deontologia, fonda l'autonomia. L'autonomia genera responsabilita'."),
- (3,"chiaro",0,"E la responsabilita' si dimostra attraverso la documentazione. E' lo schema con cui rispondere a quasi ogni domanda aperta del modulo, anche a quelle che non hai preparato."),
+ (3,"chiaro",0,"Una sola catena tiene insieme tutto. Raccolgo i dati con le categorie che la disciplina mi fornisce, e non a caso. Decido sulla base delle migliori evidenze disponibili, integrate con l'esperienza e con la persona."),
+ (3,"chiaro",0,"Documento cio' che faccio. Comunico nei passaggi. E sorveglio il sistema, perche' l'errore e' prevedibile, e chi lo prevede costruisce le barriere prima che servano."),
+ (3,"chiaro",0,"Metodo, prova, sicurezza: tre facce dello stesso lavoro. Se all'orale ti chiedono che cosa hai imparato in questo modulo, la risposta e' questa catena, in cinque verbi."),
 
- (4,"chiaro",0,"La linea del tempo. 1974: il mansionario, DPR 225. 1992: il decreto legislativo 502, e la formazione entra all'universita'. 1994: il DM 739, il profilo professionale."),
- (4,"chiaro",0,"1999: due fonti nello stesso anno. La legge 42, che abroga il mansionario e crea le tre fonti del campo di attivita'. E il decreto 229, che struttura l'ECM."),
- (4,"tenue",0,"2000: la legge 251, autonomia professionale e dirigenza. Sono i sei passaggi con cui si racconta il primo quarto di secolo della professione. Se te ne chiedono uno solo, e' il 1999: e' l'anno in cui il mansionario sparisce."),
+ (4,"chiaro",0,"Dal 2.1: cinque fasi, e il processo e' ciclico, non lineare. La valutazione non chiude niente: riapre l'accertamento. Ed e' il passo che si dimentica piu' spesso, sia nei quiz sia in reparto."),
+ (4,"chiaro",0,"Diagnosi reale PES: problema, etiologia, segni e sintomi. Diagnosi di rischio PE, senza segni, perche' se i segni ci fossero non sarebbe piu' un rischio ma un problema in atto."),
+ (4,"chiaro",0,"L'obiettivo ha per soggetto la persona, con indicatore e tempo. Le priorita': ABC, poi rischio di danno a breve, poi impatto sull'autonomia e percezione della persona."),
 
- (5,"chiaro",0,"Si prosegue. 2006: la legge 43, obbligo di albo e quattro livelli professionali. 2010: la legge 38, cure palliative e terapia del dolore. 2016: il GDPR."),
- (5,"chiaro",0,"2017: due leggi, e le vediamo fra un attimo. 2018: la legge 3, e i Collegi IPASVI diventano Ordini, con la FNOPI al vertice. 2019: il Codice deontologico."),
- (5,"tenue",0,"2021: la legge 163, e la laurea diventa abilitante. Dal mansionario alla laurea abilitante corrono quarantasette anni, e il senso del percorso sta tutto in questa distanza."),
+ (5,"chiaro",0,"Dal 2.2: il metaparadigma ha quattro concetti. Henderson quattordici bisogni, Gordon undici modelli funzionali. E non il contrario: e' lo scambio piu' frequente di tutto il modulo."),
+ (5,"chiaro",0,"Orem tre sistemi: totalmente compensatorio, parzialmente compensatorio, e di supporto ed educazione. E la catena delle tassonomie: NANDA, NOC, NIC, cioe' diagnosi, risultati, interventi."),
+ (5,"chiaro",0,"Un modo per non sbagliare NOC e NIC: NOC finisce come outcome, NIC come intervento. La lettera che cambia nella sigla e' la stessa che cambia nel significato, e non e' un caso."),
 
- (6,"chiaro",0,"E qui il trucco che evita due errori sicuri. Il 2017 ha due leggi che i quiz scambiano volentieri: la 24 e' responsabilita' e sicurezza delle cure, la 219 e' consenso e DAT."),
- (6,"profondo",0,"Associale a due parole: ventiquattro responsabilita', duecentodiciannove consenso. Stessa cosa per il 1999: legge 42 il mansionario, decreto 229 l'ECM."),
+ (6,"chiaro",0,"Dal 2.3, e questa e' la slide da fotografare adesso. Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Conley da 0 a 10, rischio a partire da 2."),
+ (6,"chiaro",0,"Tinetti sotto 19. Barthel da 0 a 100. Glasgow da 3 a 15, con coma sotto o uguale a 8. CAM: uno piu' due, piu' tre oppure quattro. E MUST: rischio alto a partire da 2."),
+ (6,"chiaro",0,"Otto scale e otto intervalli, ed e' la parte che si dimentica per prima, perche' sono numeri senza appiglio. Se devi trascrivere una cosa sola nel quaderno di ripasso, trascrivi questa."),
 
- (7,"chiaro",1.2,"I dieci numeri del modulo. 3: le fonti del campo di attivita'. 3, 4 e 3: nature, tipi e funzioni dell'assistenza. 5: le attivita' del comma 3 e le aree post base."),
- (7,"chiaro",1.2,"4: i livelli professionali, e anche le sanzioni dell'Ordine. 150: i crediti ECM nel triennio. 53 e 8: gli articoli e i capi del Codice deontologico."),
- (7,"chiaro",0,"5: i piani della responsabilita'. 10 e 5: gli anni di prescrizione, struttura ed esercente. 1: l'anno per la rivalsa dal pagamento. 48: le ore per il referto. Dieci numeri, e hai lo scheletro del modulo."),
+ (7,"chiaro",0,"E poi c'e' la regola che risolve meta' delle domande sulle scale anche quando non le ricordi a memoria. Se la scala misura una capacita', piu' alto e' meglio."),
+ (7,"chiaro",0,"Se misura un rischio, piu' alto e' peggio. Barthel misura autonomia: 100 e' ottimo. Conley misura il rischio di caduta: 10 e' pessimo. Fin qui e' intuitivo, e infatti non e' qui che si sbaglia."),
+ (7,"profondo",1.2,"Le due eccezioni sono Braden e Norton, che misurano un rischio con punteggio inverso: piu' basso, piu' a rischio. Due eccezioni sole, e sono proprio le due che si chiedono di piu'."),
 
- (8,"chiaro",0,"Le sette confusioni che costano piu' punti. Prima: partecipa o identifica? Bisogni di salute: partecipa. Bisogni di assistenza infermieristica: identifica e formula."),
- (8,"profondo",0,"E' la distinzione del DM 739 e vale una domanda in ogni prova. Il verbo cambia con il tipo di bisogno, non con il tipo di paziente: dove il bisogno e' infermieristico, la regia e' tua."),
- (8,"chiaro",0,"Seconda: aree post base o livelli? Le cinque aree sono ambiti clinici del profilo. I quattro livelli sono carriera, e vengono dalla legge 43 del 2006."),
+ (8,"chiaro",0,"Le otto confusioni che costano di piu'. Uno: obiettivo o intervento. Guarda il soggetto della frase: se il soggetto e' la persona e' un obiettivo, se sei tu e' un intervento."),
+ (8,"chiaro",0,"Due: diagnosi reale con i segni, di rischio senza. Tre: la diagnosi infermieristica si tratta in autonomia, il problema collaborativo si sorveglia e si gestisce insieme al medico."),
+ (8,"chiaro",0,"Quattro: quattordici Henderson, undici Gordon. Se non ricordi quale sia quale, ricorda che quelli di Gordon sono modelli funzionali di salute, e sono i meno numerosi dei due."),
 
- (9,"chiaro",0,"Terza: esonero o esenzione? Esonero perche' studi: laurea, master, dottorato, specializzazione. Esente perche' assente: maternita', malattia, aspettativa."),
- (9,"tenue",0,"Il modo per non sbagliarle sotto esame e' legarle al motivo: esonero quando studi, esenzione quando sei assente. In tutti e due i casi i crediti si riducono in proporzione ai mesi."),
- (9,"chiaro",0,"Quarta: livello o incarico? Il titolo abilita, l'azienda attribuisce. Si puo' avere il master di coordinamento senza avere l'incarico di coordinatore: il livello e' una qualifica, l'incarico e' un atto dell'azienda."),
+ (9,"chiaro",0,"Cinque: NOC sono gli outcome, i risultati; NIC gli interventi. Sei: Braden e' lesioni da pressione, con punteggio inverso; Conley e' cadute, con punteggio diretto. Due rischi diversi e due direzioni diverse."),
+ (9,"chiaro",0,"Sette: la linea guida raccomanda, la procedura dice come si fa qui, il PDTA dice chi fa che cosa lungo il percorso. Scientifica la prima, organizzative le altre due."),
+ (9,"chiaro",0,"Otto: il near miss non arriva al paziente, l'evento avverso si'. E la complicanza non e' nessuno dei due, perche' e' attesa e non presuppone un errore di nessuno."),
 
- (10,"chiaro",0,"Quinta: la struttura risponde a titolo contrattuale, prescrizione dieci anni. L'esercente risponde di regola a titolo extracontrattuale, prescrizione cinque anni."),
- (10,"chiaro",0,"Sesta: le DAT guardano a un'incapacita' futura ed eventuale, e le fa una persona da sola. La pianificazione condivisa nasce da una patologia gia' in atto e si costruisce con il medico."),
- (10,"chiaro",0,"Settima: 622, segreto professionale, procedibile a querela. 326, segreto d'ufficio, procedibile d'ufficio. Sette confusioni: sono queste a decidere i punti nei quiz a risposta chiusa."),
+ (10,"chiaro",0,"I casi tipici. Traccia con dati incompleti: la risposta non e' scegliere l'intervento piu' sensato. Si comincia raccogliendo il dato mancante, ed e' quasi sempre quella l'opzione giusta."),
+ (10,"chiaro",0,"Quale intervento ha la priorita': ABC prima di tutto, poi il rischio di danno a breve, poi l'impatto sull'autonomia e la percezione della persona. In quest'ordine, sempre."),
+ (10,"chiaro",0,"Braden 12 in paziente allettato: cambi posturali programmati, superficie antidecubito, gestione dell'umidita', valutazione nutrizionale, ispezione cutanea a ogni turno."),
 
- (11,"chiaro",0,"I cinque casi che tornano sempre. Primo: prescrizione poco chiara o palesemente errata. Chiedi chiarimento al prescrittore; se il dubbio permane, non dai corso e documenti."),
- (11,"tenue",0,"Non ti nascondi dietro la prescrizione quando l'errore e' riconoscibile: il principio di affidamento cade davanti all'errore palese. Vale per ogni ruolo dell'equipe, non solo per il tuo."),
- (11,"chiaro",0,"Secondo: attribuzione di un'attivita' all'OSS. Valuti competenza dell'operatore, condizioni della persona, contesto organizzativo. E restano tue la culpa in eligendo e la culpa in vigilando."),
+ (11,"profondo",1.2,"Perche' al punteggio deve corrispondere una modifica del piano. Una scala compilata e non seguita da niente e' peggio di una non compilata: dimostra che il rischio era noto."),
+ (11,"chiaro",0,"Prescrizione illeggibile o dubbia: chiedo chiarimento al prescrittore, se il dubbio permane non do corso, e documento il dubbio e la richiesta. Tre passi, in quest'ordine."),
+ (11,"chiaro",0,"Near miss intercettato in tempo: segnalo comunque, perche' e' apprendimento gratuito. Chiamata al medico per peggioramento: strutturo con SBAR, esplicitando valutazione e richiesta."),
 
- (12,"chiaro",0,"Terzo: il paziente ha firmato senza capire. Sospendi il percorso, informi il medico, documenti. Senza informazione non c'e' consenso valido, e un consenso non valido non copre nulla."),
- (12,"chiaro",0,"Quarto: contenzione richiesta per carenza di personale. Rifiuti, cerchi alternative, segnali la carenza, documenti. La carenza di personale non e' mai un presupposto di liceita'."),
- (12,"chiaro",0,"Quinto: foto di una lesione inviata in chat fra colleghi. Non si fa: si documenta con gli strumenti aziendali e con il consenso. Cinque casi, e in tutti e cinque la risposta finisce con documentare."),
+ (12,"chiaro",0,"Cinque formule da saper citare a memoria, per intero. PES: problema, etiologia, segni e sintomi. E la diagnosi di rischio e' PE, perche' i segni non ci sono ancora."),
+ (12,"chiaro",0,"PICO: popolazione, intervento, confronto, esito. SBAR: situazione, background, assessment e recommendation, e sono le ultime due quelle che contano. CAM: uno piu' due, piu' tre oppure quattro."),
+ (12,"chiaro",0,"E l'EBP: evidenze piu' competenza clinica piu' valori della persona. Tre addendi, e il distrattore classico ne toglie due, proprio i due che riguardano le persone."),
 
- (13,"profondo",1.2,"[serious] Quattro formule che all'orale vanno dette con le parole giuste. L'infermiere e' l'operatore sanitario responsabile dell'assistenza generale infermieristica."),
- (13,"profondo",1.2,"L'assistenza infermieristica e' di natura tecnica, relazionale ed educativa. La sicurezza delle cure e' parte costitutiva del diritto alla salute. Sono le parole del DM 739 e dell'articolo 1 della legge 24."),
- (13,"profondo",0,"Nessun trattamento sanitario puo' essere iniziato o proseguito senza il consenso libero e informato della persona interessata. Quattro frasi, e valgono piu' di quattro pagine di riassunto."),
+ (13,"chiaro",0,"E la frase che attraversa il modulo dall'inizio alla fine: cio' che non e' documentato si presume non fatto. L'abbiamo incontrata nella 1.5 e non ci ha piu' lasciati."),
+ (13,"chiaro",0,"Vale per la scala compilata, per la segnalazione fatta al medico, per il rifiuto della persona, per la rivalutazione del dolore dopo un antidolorifico. Nel dubbio, scrivi."),
+ (13,"profondo",1.2,"Non e' un avvertimento burocratico: e' l'unico modo in cui il lavoro che hai fatto continua a esistere a distanza di anni. La memoria non fa prova, il documento si'."),
 
- (14,"chiaro",0,"Il modulo e' nazionale, ma la commissione e' veneta. Quattro agganci rendono concreta qualunque risposta. Uno: la funzione infermieristica sta negli atti aziendali, in una struttura delle professioni sanitarie."),
- (14,"chiaro",0,"Due: il Centro regionale per la gestione del rischio sanitario, e il Difensore civico regionale come Garante per il diritto alla salute."),
- (14,"chiaro",0,"Tre: le procedure aziendali sulla contenzione, con prescrizione, rivalutazione e registrazione. Quattro: il fascicolo sanitario elettronico e i log di accesso. Il sistema veneto si approfondisce nel modulo 13."),
+ (14,"chiaro",0,"Quattro agganci veneti da portare all'orale. Uno: il processo e' strutturato dentro la cartella clinica elettronica, con scale integrate e rivalutazioni a intervalli definiti."),
+ (14,"chiaro",0,"Due: la catena delle evidenze e' SNLG, indirizzi regionali e PDTA, procedure aziendali, pratica al letto. Spesso dentro le reti cliniche: oncologica, stroke, trauma."),
+ (14,"chiaro",0,"Tre: la filiera del rischio e' l'operatore che segnala, il risk management aziendale, il Centro regionale, l'Osservatorio nazionale, con il Difensore civico nel ruolo di Garante."),
 
- (15,"chiaro",0,"Nella dispensa trovi dodici domande di autovalutazione, e ogni soluzione ti dice a quale lezione tornare se hai sbagliato. La regola: se sbagli piu' di tre su dodici, non passare al modulo 2."),
- (15,"tenue",0,"Rivedi le lezioni segnalate. Non e' pignoleria: il modulo 1 e' la grammatica di tutto il resto del corso, e i moduli successivi lo danno per acquisito. Meglio due giorni in piu' adesso che un modulo intero da rifare."),
+ (15,"chiaro",0,"Quattro: la continuita' verso il territorio passa da dimissioni protette, dalle COT e dall'infermiere di famiglia e comunita'. E adesso come proseguire, in quattro passi."),
+ (15,"chiaro",0,"Uno: affronta il test del modulo, trenta domande con soglia ventuno. Due: riprendi solo le lezioni che gli errori ti hanno segnalato, non tutto il modulo da capo."),
+ (15,"chiaro",0,"Tre: trasferisci nel quaderno di ripasso i numeri delle scale e le formule. E' la parte che si dimentica per prima, ed e' anche l'unica che si recupera in cinque minuti."),
 
- (16,"chiaro",0,"Come proseguire. Uno: affronta il test finale del modulo, quaranta domande. E' il primo controllo serio. Due: riprendi solo le lezioni segnalate dagli errori, non tutto il modulo."),
- (16,"chiaro",0,"Tre: trasferisci nel quaderno di ripasso le formule e i dieci numeri, che sono la parte che si dimentica per prima. Quattro: passa al modulo 2, che riprende molti fili di questo e li traduce in metodo."),
-
- (17,"chiaro",0,"[warm] Chiudo con la catena da cui siamo partiti. Il mansionario e' il decreto del 1974, abrogato dalla legge 42 del 1999. Le fonti del campo di attivita' sono tre."),
- (17,"chiaro",0,"L'infermiere e' responsabile dell'assistenza generale infermieristica, di natura tecnica, relazionale ed educativa. Chi attribuisce risponde della scelta, chi esegue della corretta esecuzione."),
- (17,"chiaro",0,"La laurea abilita, ma per esercitare serve l'albo. Centocinquanta crediti nel triennio. La contenzione e' eccezionale e mai organizzativa. I piani della responsabilita' sono cinque, autonomi e cumulabili."),
- (17,"chiaro",0,"Dieci anni la struttura, cinque l'esercente, rivalsa solo per dolo o colpa grave. Nessun trattamento senza consenso libero e informato: si puo' rifiutare tutto, non pretendere tutto."),
- (17,"profondo",0,"E infine la frase che tiene insieme tutto il modulo: cio' che non e' documentato si presume non fatto. E' la frase con cui conviene chiudere qualunque risposta all'orale. Ci vediamo nel modulo 2."),
+ (16,"profondo",1.2,"Quattro, ed e' il consiglio con il rendimento piu' alto di tutto il corso: esercita lo schema in cinque passi della lezione 2.1 su due casi clinici. Non su venti: su due, fatti bene."),
+ (16,"chiaro",0,"Ci fermiamo qui. Con il modulo 1 hai la grammatica della professione; con il modulo 2 la sintassi, cioe' il metodo, la prova e la sicurezza. Tre parole per sette lezioni."),
+ (16,"chiaro",0,"[warm] Dal modulo 3 il metodo diventa clinica: bisogni fondamentali, comfort, assistenza di base avanzata. E comincia la parte che pesa di piu' nella prova pratica. Ci vediamo li'."),
 ]
 
 ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
-CAPITOLI = {1:"Apertura",2:"La mappa del modulo",3:"Il filo",4:"Linea del tempo I",
- 5:"Linea del tempo II",6:"Le date gemelle",7:"I dieci numeri",8:"Confusioni 1-2",
- 9:"Confusioni 3-4",10:"Confusioni 5-7",11:"Casi 1-2",12:"Casi 3-5",
- 13:"Le formule",14:"In Veneto",15:"Autovalutazione",16:"Come proseguire",17:"Chiusura"}
-CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.7
+CAPITOLI = {1:"Apertura",2:"La mappa",3:"Il filo del modulo",
+ 4:"I numeri del processo",5:"I numeri dei modelli",6:"I numeri delle scale",
+ 7:"La regola della direzione",8:"Confusioni 1-4",9:"Confusioni 5-8",
+ 10:"I casi tipici, prima parte",11:"I casi tipici, seconda parte",
+ 12:"Le formule",13:"La frase del modulo",14:"Gli agganci veneti",
+ 15:"Come proseguire",16:"Chiusura"}
+CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.8
 
 blocchi=[]
 for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
@@ -747,14 +846,47 @@ for b in blocchi:
     p=f'  +{b["posa"]}s' if b["posa"] else ""
     print(f'    {b["id"]}  {len(b["text"]):3d} car  [{b["tema"]:8s}]{p} {b["text"][:52]}...')
 
-acc=0; stacco=None
-for i,b in enumerate(blocchi):
-    acc+=len(b["text"])+1
-    if acc>tot/2 and stacco is None and i+1<len(blocchi) and b["capitolo"]!=blocchi[i+1]["capitolo"]:
-        stacco=b["id"]; a=acc
-print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {tot-a} car   (limite 5000)")
+# Lo stacco fra le due tracce: il confine di capitolo che divide i caratteri
+# nel modo piu' pari, fra quelli che tengono ENTRAMBI i chunk sotto i 5.000.
+# Prendere il primo confine dopo la meta' non basta: su 2.2 dava un chunk A da
+# 5.072 caratteri, e la voce avrebbe rifiutato il testo.
+LIMITE = 5000
+cand = []
+acc = 0
+for i, b in enumerate(blocchi[:-1]):
+    acc += len(b["text"]) + 1
+    if b["capitolo"] != blocchi[i+1]["capitolo"]:
+        cand.append((b["id"], acc, tot - acc))
+buoni = [c for c in cand if c[1] <= LIMITE and c[2] <= LIMITE]
+if buoni:
+    stacco, a, bb = min(buoni, key=lambda c: abs(c[1] - c[2]))
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+else:
+    stacco, a, bb = min(cand, key=lambda c: max(c[1], c[2]))
+    errori.append(f"nessuno stacco tiene i due chunk sotto {LIMITE}: il migliore e' "
+                  f"{stacco} con {max(a, bb)} car. Serve un capitolo in piu'.")
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+# tagli.py deve tagliare dove la voce ha davvero staccato: se le due costanti
+# divergono, i blocchi finiscono sulla traccia sbagliata e non se ne accorge
+# nessuno finche' non si guarda il video.
+import pathlib as _pl
+_tagli = _pl.Path("audio/tagli.py")
+if _tagli.exists():
+    _m = re.search(r'STACCO\s*=\s*"(s\d+)"', _tagli.read_text(encoding="utf-8"))
+    if _m and _m.group(1) != stacco:
+        errori.append(f'audio/tagli.py ha STACCO = "{_m.group(1)}", qui lo stacco e\' {stacco}')
+
 print("\n" + ("OK, nessun errore" if not errori else "ERRORI:\n  " + "\n  ".join(errori)))
 json.dump(blocchi, open("copione/blocchi.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
+
+# I due chunk per la voce li scrive lo stesso file che ha scritto i blocchi:
+# copiarli a mano significherebbe far divergere il copione dal testo letto,
+# e la verifica della trascrizione confronterebbe due cose gia' diverse.
+i = [b["id"] for b in blocchi].index(stacco)
+for nome, gruppo in (("A", blocchi[:i+1]), ("B", blocchi[i+1:])):
+    open(f"audio/chunk{nome}.txt","w",encoding="utf-8").write(
+        "\n\n".join(b["text"] for b in gruppo) + "\n")
+print(f"scritti audio/chunkA.txt e audio/chunkB.txt")
 ```
 
 ## `audio/tagli.py`
@@ -773,7 +905,7 @@ capo: `correggi` modifica `confini-X.json` sul posto.
 I confini si scelgono sul GREZZO, dove le pause hanno ancora lunghezze diverse:
 sulla traccia gia' lavorata silenceremove le ha pareggiate tutte a 0,14 s e
 la lunghezza della pausa - il segnale su cui si basa la scelta - sparisce.
-Il ritmo (silenzi + 1,12x) si applica dopo, blocco per blocco.
+Il ritmo (silenzi + atempo calcolato) si applica dopo, blocco per blocco.
 
   tagli.py allinea   sceglie i confini e prepara prova.mp3
   tagli.py correggi  sposta i confini indicati in correzioni.json
@@ -786,11 +918,50 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-STACCO = "s28"
+STACCO = "s25"
 SOGLIA = "-45dB"
-RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
-         "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
-         "aresample=44100,atempo=1.12")
+SILENZI = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
+           "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
+           "aresample=44100")
+MIRA = 17.0          # car/s voluti sul parlato finito
+
+_ritmo = None
+_trim = None
+def _trimfatt():
+    """Di quanto la sola rimozione dei silenzi accorcia questa traccia."""
+    ritmo()
+    return _trim
+
+def ritmo():
+    """Il fattore di velocita' NON e' una costante.
+
+    Era 1,12 per tutto il modulo 1, perche' quella voce leggeva a un ritmo
+    suo. Sulla 2.2 la stessa voce, con lo stesso modello, ha letto il 7% piu'
+    veloce: con 1,12 sei blocchi sarebbero usciti oltre i 21 car/s e il video
+    sarebbe finito sotto gli otto minuti chiesti. L'atempo e' la manopola con
+    cui si porta il parlato finito a MIRA car/s, e va calcolata sulla traccia
+    che si ha davvero, non su quella dell'altra volta."""
+    global _ritmo, _trim
+    if _ritmo is None:
+        car = sum(len(b["text"]) for b in
+                  json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8")))
+        grezzo = sum(durata(QUI/f"grezzo-{L}.mp3") for L in ("A","B"))
+        # Quanto tolgono i silenzi si MISURA, non si stima: fra 2.1 e 2.2 il
+        # fattore e' passato da 1,152 a 1,090, e stimarlo sbagliava di mezzo
+        # minuto sul montato. Costa una passata di ffmpeg su dieci minuti.
+        netto = 0.0
+        for L in ("A", "B"):
+            f = QUI/f"_trim-{L}.mp3"
+            sh(FF,"-y","-v","error","-i",QUI/f"grezzo-{L}.mp3","-af",SILENZI,
+               "-c:a","libmp3lame","-b:a","192k",f)
+            netto += durata(f); f.unlink()
+        _trim = grezzo/netto
+        a = max(1.0, min(1.25, netto / (car/MIRA)))
+        _ritmo = (round(a, 3), SILENZI + f",atempo={a:.3f}")
+        print(f"  ritmo: {grezzo:.0f} s grezzi -> {netto:.0f} s senza pause di troppo "
+              f"(x{grezzo/netto:.3f}); {car} caratteri -> atempo {a:.3f} "
+              f"(parlato atteso {netto/a:.0f} s, {car/(netto/a):.1f} car/s)")
+    return _ritmo
 PROVA_PRIMA, PROVA_GAP = 1.6, 2.5
 
 def sh(*a):
@@ -823,15 +994,61 @@ def segmenti(traccia, dmin):
     if D > t + 0.05: segs.append((t, D))
     return D, segs, P
 
+UNITA  = ("zero","uno","due","tre","quattro","cinque","sei","sette","otto","nove")
+DIECI  = ("dieci","undici","dodici","tredici","quattordici","quindici","sedici",
+          "diciassette","diciotto","diciannove")
+DECINE = ("","","venti","trenta","quaranta","cinquanta","sessanta","settanta",
+          "ottanta","novanta")
+
+def in_lettere(n):
+    """Il numero come la voce lo pronuncia. Serve solo la LUNGHEZZA, ma scriverlo
+    per esteso e' piu' onesto che indovinare un fattore."""
+    if n < 10:  return UNITA[n]
+    if n < 20:  return DIECI[n-10]
+    if n < 100:
+        d, u = divmod(n, 10)
+        s = DECINE[d]
+        if u in (1, 8): s = s[:-1]            # ventuno, ventotto
+        return s + (UNITA[u] if u else "")
+    if n < 1000:
+        c, r = divmod(n, 100)
+        return (("" if c == 1 else UNITA[c]) + "cento" + (in_lettere(r) if r else ""))
+    m, r = divmod(n, 1000)
+    return (("mille" if m == 1 else UNITA[m] + "mila") + (in_lettere(r) if r else ""))
+
+def peso(q):
+    """Quanto DURA un pezzo di copione, non quanto e' lungo.
+
+    La DTW pesava i pezzi in caratteri, e su 2.4 questo ha spostato di 2,1 s il
+    confine fra s38 e s39: il pezzo «1.4 e 1.5.» sono dieci caratteri, ma la
+    voce dice «uno punto quattro e uno punto cinque» e ci mette quattro
+    secondi.
+
+    Il rimedio di 2.4 era una cifra = cinque caratteri, piatto. Funziona in
+    media e sbaglia agli estremi, in tutti e due i versi: «12» pesava dieci e
+    la voce dice «dodici», che ne vale sei; «1994» pesava venti e la voce dice
+    «millenovecentonovantaquattro», che ne vale ventotto. Su 2.6, dove i numeri
+    di Raccomandazione sono fitti, l'eccesso ha spostato di 1,2 s il confine fra
+    s33 e s34. Adesso il numero si scrive per esteso e si conta quello: la
+    differenza fra «sette» e «millenovecentonovantaquattro» la sa l'italiano,
+    non un fattore moltiplicativo."""
+    def sost(m):
+        n = int(m.group(0))
+        return in_lettere(n) if n < 10000 else m.group(0)
+    # Il punto fra due cifre e' un separatore di lezione o di articolo, e si
+    # legge «punto»: «1.5» e' «uno punto cinque», non «uno virgola cinque».
+    q = re.sub(r"(?<=\d)\.(?=\d)", " punto ", q)
+    return float(len(re.sub(r"\d+", sost, q)))
+
 def pezzi_testo(gruppo):
     """Il copione spezzato alla punteggiatura: e' li' che la voce mette le pause.
-    Restituisce (caratteri, id del blocco, e' l'ultimo pezzo del blocco)."""
+    Restituisce (peso in tempo, id del blocco, e' l'ultimo pezzo del blocco)."""
     out = []
     for x in gruppo:
         t = re.sub(r"\[[a-z]+\]", "", x["text"]).strip()
         parti = [q for q in re.split(r"(?<=[.:;,])\s+", t) if q.strip()]
         for i,q in enumerate(parti):
-            out.append((len(q), x["id"], i == len(parti)-1))
+            out.append((peso(q), x["id"], i == len(parti)-1))
     return out
 
 def allinea_dtw(pezzi, segs, MAXT=5, MAXA=2):
@@ -891,7 +1108,8 @@ def quanto_male(gruppo, D, conf):
     # un blocco di durata zero. Non e' un caso da far esplodere: e' il caso
     # peggiore possibile, e come tale va pesato.
     if min(durate) < 0.30: return (10**6, 10**6)
-    cps = [len(x["text"])/(d/1.30) for x,d in zip(gruppo, durate)]
+    acc = _trimfatt()*ritmo()[0]
+    cps = [len(x["text"])/(d/acc) for x,d in zip(gruppo, durate)]
     fuori = sum(not (8.5 <= c <= 21) for c in cps)
     medio = sum(cps)/len(cps)
     sparso = (sum((c-medio)**2 for c in cps)/len(cps))**0.5
@@ -927,7 +1145,7 @@ def mostra(L, gruppo, D, conf):
     fuori = 0
     for i,x in enumerate(gruppo):
         d = bordi[i+1]-bordi[i]
-        cps = len(x["text"])/(d/1.30)          # stima: il ritmo accorcia di ~30%
+        cps = len(x["text"])/(d/(_trimfatt()*ritmo()[0]))   # stima con l'atempo di questa lezione
         bad = not (8.5 <= cps <= 21); fuori += bad
         print(f"  {x['id']}  {bordi[i]:7.2f} -> {bordi[i+1]:7.2f}  {d:5.2f}s grezzi  "
               f"~{cps:5.1f} car/s{'   <-- FUORI FASCIA' if bad else ''}")
@@ -1006,7 +1224,7 @@ def cmd_applica():
             ini,fin = bordi[i],bordi[i+1]
             f = out/f"{x['id']}.mp3"
             sh(FF,"-y","-v","error","-ss",f"{ini:.3f}","-to",f"{fin:.3f}",
-               "-i",QUI/f"grezzo-{L}.mp3","-af",RITMO,"-c:a","libmp3lame","-b:a","192k",f)
+               "-i",QUI/f"grezzo-{L}.mp3","-af",ritmo()[1],"-c:a","libmp3lame","-b:a","192k",f)
             d = durata(f)
             # §1.4: i blocchi corti si allungano perche' respirino. In piu', il
             # copione puo' chiedere una posa esplicita dove il discorso la vuole.
@@ -1069,7 +1287,7 @@ BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 # lezione 1.8 la traccia A ha reso «739» come «settecentotrentanove» e la B
 # come «739». Non e' una tolleranza generica: e' una regola dichiarata, che
 # converte il numero cardinale italiano nella sua cifra, sui due testi.
-UNI   = {"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
+UNI   = {"zero":0,"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
          "sei":6,"sette":7,"otto":8,"nove":9}
 DIECI = {"dieci":10,"undici":11,"dodici":12,"tredici":13,"quattordici":14,
          "quindici":15,"sedici":16,"diciassette":17,"diciotto":18,"diciannove":19}
@@ -1149,6 +1367,35 @@ RESE = [
  # La lettera dell'articolo 9.2 GDPR: il copione la scrive come si pronuncia
  # («lettera acca»), il trascrittore la riporta come si scrive («lettera h»).
  (r"\blettera\s+(acca|h)\b",          " lettera acca "),
+ # Il prefisso «post»: il copione lo stacca per farlo leggere bene, il
+ # trascrittore lo riattacca. Sono la stessa parola, non una resa diversa.
+ (r"\bpost\s+(operatori[ao]|operatorie|operatori)\b", r" post\1 "),
+ # Parole che il trascrittore rende in modo suo, senza che la voce abbia
+ # sbagliato: le spezza, le anglicizza, o le riscrive con la grafia piu'
+ # comune di un cognome straniero.
+ (r"\bmeta\s+paradigma\b",               " metaparadigma "),
+ (r"\bnewman\b",                          " neuman "),
+ (r"\bdiagnosis\b",                       " diagnosi "),
+ (r"\banti\s+decubito\b",                 " antidecubito "),
+ # Le unita' di misura: il copione le scrive per esteso perche' la voce le
+ # legga bene, il trascrittore le abbrevia.
+ (r"\bcentimetri\b",                       " cm "),
+ # Le sigle lette come parola: il trascrittore le scrive come le sente, e
+ # sente una vocale in meno.
+ (r"\bsopie\b|\bsopi\b",                    " soapie "),
+ (r"\bsop\b",                               " soap "),
+ # Sigla piu' numero: il copione li stacca, il trascrittore li unisce.
+ (r"\bnrs\s*(\d)\b",                      r" nrs \1 "),
+ # Parole composte che il trascrittore stacca o attacca a suo gusto: sono la
+ # stessa parola detta nello stesso modo, e la differenza e' solo ortografica.
+ (r"\bmeta\s+analisi\b",                  " metanalisi "),
+ (r"\bchecklist\b",                        " check list "),
+ # Due grafie entrambe corrette: il copione scrive «etiologia», il
+ # trascrittore sente «eziologia». La voce dice la stessa cosa.
+ (r"\beziologia\b",                        " etiologia "),
+ # Il cognome di una scala non e' una parola italiana, e il trascrittore lo
+ # scrive come gli suona: su 2.8 tre volte in tre modi diversi.
+ (r"\bconleys\b|\bconleigh\b",            " conley "),
 ]
 
 def parole(s):
@@ -1208,7 +1455,7 @@ print("\n" + ("nessun buco: la voce ha detto tutto" if not guai
 sys.exit(1 if guai else 0)
 ```
 
-## `audio/verifica.py`
+## `audio/controllo-per-trascrizione.py`
 
 La verifica dei blocchi ritagliati: durata, velocita' di lettura, silenzi ai
 bordi.
@@ -1297,7 +1544,7 @@ if __name__ == "__main__":
     sys.exit(0 if main()==0 else 1)
 ```
 
-## `verifica-locale.py`
+## `controllo-statistico.py`
 
 Il controllo statistico sui confini: la dispersione della velocita' di lettura
 blocco per blocco. Un confine sbagliato si vede come un punto lontano dalla
@@ -1309,28 +1556,43 @@ i blocchi densi di cifre sono lenti per conto loro.
 # -*- coding: utf-8 -*-
 """Controllo dei confini SENZA rete, quando la trascrizione non e' disponibile.
 
-Non sostituisce prova.mp3 + verifica.py: non sa cosa dice la voce. Sa pero'
-riconoscere la firma di un confine spostato. Se un taglio scivola in avanti di
-una frase, il blocco prima diventa piu' lungo di quanto il suo testo prometta e
-quello dopo piu' corto: due scarti grandi, adiacenti e di segno opposto.
-Quelli sono i confini da guardare per primi.
+Due controlli, e il secondo vale piu' del primo.
+
+1. La firma statistica. Se un taglio scivola in avanti di una frase, il blocco
+   prima diventa piu' lungo di quanto il suo testo prometta e quello dopo piu'
+   corto: due scarti grandi, adiacenti e di segno opposto. E' un indizio, non
+   una prova: su 2.6 ha segnalato s33/s34, e il taglio era giusto — il blocco
+   e' un elenco di numeri, e la voce ci mette le pause che il peso non sa
+   prevedere.
+
+2. Dove cade il taglio. Un taglio giusto sta DENTRO una pausa vera della voce.
+   Un taglio spostato sta in mezzo a una frase, e si vede senza sapere che cosa
+   la voce dice. Questo non e' un indizio: un taglio nel parlato e' un errore,
+   punto. E' il controllo da guardare per primo, ed e' quello che ha assolto
+   s33/s34 in dieci secondi.
+
+Non sostituisce prova.mp3 + controllo-per-trascrizione.py, che sa anche QUALE
+frase e' finita dove; ma per «il taglio e' nel posto giusto?» basta.
 """
-import json, re, statistics
+import json, re, statistics, importlib.util, subprocess
 from pathlib import Path
+import imageio_ffmpeg
+
+FF = imageio_ffmpeg.get_ffmpeg_exe()
 
 QUI = Path(__file__).resolve().parent
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
 testi = {x["id"]: x["text"] for x in
          json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
 
-# Le cifre costano molte piu' sillabe dei caratteri, e vanno contate a parte.
-# Il peso e' stato adattato sui 48 blocchi misurati di 1.3, dove il 5,0 stimato
-# a occhio in 1.2 faceva uscire corti tutti i blocchi pieni di numeri: da solo
-# non spiega tutto lo scarto, ma toglie un falso allarme sistematico.
+# Il peso NON si riscrive qui. Su 2.4 la DTW e questo controllo pesavano i
+# pezzi in due modi diversi, e per una lezione intera nessuno se n'e' accorto:
+# il peso e' uno solo, sta in tagli.py, e qui si importa.
+_spec = importlib.util.spec_from_file_location("_tagli", QUI/"audio"/"tagli.py")
+_tagli = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(_tagli)
+
 def peso(t):
-    t = re.sub(r"\[[a-z]+\]", "", t)
-    cifre = len(re.findall(r"\d", t))
-    return len(t) + cifre * 4.0        # una cifra vale ~5 caratteri di tempo
+    return _tagli.peso(re.sub(r"\[[a-z]+\]", "", t))
 
 for L in ("A","B"):
     g = [r for r in reg if r["traccia"] == L]
@@ -1354,6 +1616,43 @@ for L in ("A","B"):
                   f"— il taglio sembra spostato di ~{abs(a[2]):.1f}s")
             trovati = True
     if not trovati: print("    nessuna coppia adiacente di segno opposto")
+
+
+# La soglia va tenuta SOTTO la pausa minima che tagli.py accetta, che non e'
+# una costante: la calcola per lezione. Con 0,15 s fissi questo controllo ha
+# accusato il taglio s45 di 2.5, che cadeva nel centro esatto di una pausa di
+# 0,143 s — un falso allarme prodotto dal controllo, non dal taglio. A 0,05 s
+# nessuna pausa vera sfugge, e la durata stampata accanto a ogni taglio lascia
+# comunque vedere quelle sospettosamente corte.
+MINPAUSA = 0.05
+
+def pause(mp3):
+    """Le pause vere della voce, dal file grezzo."""
+    err = subprocess.run([FF,"-v","info","-i",str(mp3),"-af",
+          f"silencedetect=n=-45dB:d={MINPAUSA}","-f","null","-"],
+          capture_output=True, text=True).stderr
+    fuori, ini = [], None
+    for m in re.finditer(r"silence_(start|end): ([\d.]+)", err):
+        if m.group(1) == "start": ini = float(m.group(2))
+        elif ini is not None: fuori.append((ini, float(m.group(2)))); ini = None
+    return fuori
+
+print("\n\nOGNI TAGLIO CADE DENTRO UNA PAUSA?")
+guai = 0
+for L in ("A","B"):
+    d = json.loads((QUI/"audio"/f"confini-{L}.json").read_text(encoding="utf-8"))
+    ps = pause(QUI/"audio"/f"grezzo-{L}.mp3")
+    for bid, t in zip(d["ids"], d["confini"]):      # l'ultimo id finisce col file
+        dentro = [q for q in ps if q[0] - 0.02 <= t <= q[1] + 0.02]
+        if dentro:
+            a, b = dentro[0]
+            print(f"  {bid} -> pausa di {b-a:.2f}s")
+        else:
+            vic = min(ps, key=lambda q: min(abs(q[0]-t), abs(q[1]-t)))
+            print(f"  {bid} -> NEL PARLATO: taglio a {t:.2f}s, "
+                  f"la pausa piu' vicina e' {vic[0]:.2f}-{vic[1]:.2f}s")
+            guai += 1
+print(f"\n{guai} tagli nel parlato" if guai else "\nnessun taglio nel parlato: i confini sono dove la voce si ferma")
 ```
 
 ## `slide/layout.mjs`
@@ -1396,6 +1695,10 @@ const acc = s => String(s??'')
   .replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
 // grafica.mjs usa la stessa funzione, invece di tenerne una copia che diverge.
 collega(acc);
+// Il sopratitolo e' gia' tutto di un colore suo: un accento li' non si vedrebbe.
+// Ma i marcatori vanno tolti lo stesso, o finiscono a schermo come asterischi —
+// e' successo davvero, su «l'accertamento e' *continuo*».
+const sop = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
 
 const CSS = `
 ${FONT}
@@ -1706,7 +2009,7 @@ export function html(d, {avanzamento=0, pagina=''}={}) {
          background:${t.bg};color:${t.fg}">
   <div class="logo"><img src="${MARCHIO}" alt="CISL FP Padova Rovigo"></div>
   ${pagina?`<div class="pagina">${pagina}</div>`:''}
-  ${cover?'':`<div class="sop">${d.sopratitolo ?? ''}</div>`}
+  ${cover?'':`<div class="sop">${sop(d.sopratitolo)}</div>`}
   <div class="corpo">${corpo}</div>
   <div class="avanz"><i style="width:${(avanzamento*100).toFixed(2)}%"></i></div>
 </div></body>`;
@@ -1866,6 +2169,11 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .catena .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.14}
 .catena .p.key .t{color:var(--acc)}
 .catena .d{font-size:25px;line-height:1.36;opacity:.76}
+/* Cinque anelli: «Pianificazione» a 40px e' piu' larga dello spazio che resta
+   fra le due punte della freccia. La soglia sta qui, non nelle scene. */
+.catena.fitta .p{padding:34px 24px 34px 44px}
+.catena.fitta .t{font-size:31px}
+.catena.fitta .d{font-size:22px;line-height:1.3}
 
 /* ---------- scala di gradini ---------- */
 .scala{display:flex;align-items:flex-end;gap:18px;min-height:430px}
@@ -1892,10 +2200,20 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .griglia.fitta .c .t{font-size:27px}
 .griglia.fitta .c .sg{font-size:28px}
 .griglia.fitta .c .n{font-size:40px}
+/* Otto celle su una colonna non ci stanno nemmeno alla misura fitta: servono
+   altri 16 px. La soglia e' nel corpo, come per le altre densita'. */
+.griglia.fittissima{gap:11px}
+.griglia.fittissima .c{padding:15px 22px;gap:14px}
+.griglia.fittissima .c .t{font-size:25px;line-height:1.26}
+.griglia.fittissima .c .sg{font-size:25px}
+.griglia.fittissima .c .n{font-size:34px}
 .griglia .c .n{font-size:52px;font-weight:700;color:var(--acc);line-height:1;
                font-variant-numeric:lining-nums tabular-nums;flex:0 0 auto}
 
 /* ---------- icone in fila ---------- */
+/* Massimo CINQUE voci: e' un flex orizzontale, e a sei o sette le colonne
+   escono dalla cornice qualunque sia il corpo del testo (2.6: +377 px con
+   sette barriere). Sopra le cinque voci si usa «griglia». */
 .icone{display:flex;gap:30px;min-height:452px}
 .icone .v{flex:1;display:flex;flex-direction:column;gap:26px;border:3px solid var(--linea);
           border-radius:22px;padding:54px 38px}
@@ -1920,6 +2238,12 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .matrice .q .d{font-size:26px;line-height:1.36;opacity:.76}
 .matrice .q.key{background:color-mix(in srgb,var(--acc) 11%,transparent);border-color:var(--acc)}
 .matrice .q.key .t{color:var(--acc)}
+/* Quattro celle con frase + didascalia sforano l'altezza utile: il min-height
+   di 560px vale per le matrici a etichetta breve, non per queste. */
+.matrice.fitta{min-height:0;grid-template-rows:72px 1fr 1fr}
+.matrice.fitta .q{padding:26px 28px;gap:9px}
+.matrice.fitta .q .t{font-size:29px;line-height:1.18}
+.matrice.fitta .q .d{font-size:23px;line-height:1.3}
 
 /* ---------- albero di decisione ---------- */
 .albero{display:flex;flex-direction:column;align-items:center;width:100%}
@@ -2036,6 +2360,10 @@ export const CORPI_GRAFICA = {
   // Linea del tempo in scala: le tappe stanno dove cadono davvero.
   // Una timeline a passo fisso mente sulle distanze, e in questo modulo
   // fra il 1974 e il 1992 ci sono diciotto anni, fra il 1999 e il 2000 uno.
+  // Vuole ANNI veri in da/a e in decenni: e' un asse cronologico, non un asse
+  // generico. Con decenni vuoto stampa «undefined» sulle etichette e non sfora
+  // niente, cosi' il controllo della cornice lo lascia passare (2.6 -> 2.7).
+  // Per tre momenti in sequenza senza date si usa «catena».
   assetempo: d => {
     // Fasce fisse per anno e didascalia, e la didascalia va a capo: in un
     // <text> SVG non andrebbe a capo e due tappe vicine si sovrappongono.
@@ -2129,21 +2457,33 @@ export const CORPI_GRAFICA = {
         <text x="${X0}" y="${Y - 26}" class="cap">${piano(d.inizio ?? '')}</text>
         <text x="${X1}" y="${Y - 26}" class="cap" text-anchor="end">${piano(d.fine ?? '')}</text>
       </g>
-      ${(d.tappe ?? []).map(t => {
-        const x = p(t.a), col = t.key ? 'var(--acc)' : 'var(--tit)';
+      ${(() => {
+        // Stessa trappola della linea del tempo: le didascalie sono riquadri
+        // centrati sulla tacca, e due soglie vicine si sovrappongono. La
+        // larghezza e' quella che ci sta fino alla tacca piu' vicina.
+        const xs = (d.tappe ?? []).map(t => p(t.a));
+        const largh = i => {
+          let dist = Infinity;
+          for (let k = 0; k < xs.length; k++)
+            if (k !== i) dist = Math.min(dist, Math.abs(xs[k] - xs[i]));
+          return Math.max(150, Math.min(400, dist - 16));
+        };
+        return (d.tappe ?? []).map((t, i) => {
+        const x = xs[i], W = largh(i), col = t.key ? 'var(--acc)' : 'var(--tit)';
         return `<g class="gx">
           <line x1="${num(x)}" y1="${Y - 12}" x2="${num(x)}" y2="${Y + H + 34}"
             stroke="${col}" stroke-width="4"/>
           <circle cx="${num(x)}" cy="${Y + H + 34}" r="10" fill="${col}"/>
           <text x="${num(x)}" y="${Y + H + 96}" text-anchor="middle" class="big"
             style="font-size:52px" fill="${col}">${t.v ?? ''}</text>
-          <foreignObject x="${num(Math.max(0, Math.min(x - 200, LARG - 400)))}" y="${Y + H + 116}"
-            width="400" height="130">
+          <foreignObject x="${num(Math.max(0, Math.min(x - W / 2, LARG - W)))}" y="${Y + H + 116}"
+            width="${num(W)}" height="130">
             <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;
-              font-size:29px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
+              font-size:${W < 260 ? 25 : 29}px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
           </foreignObject>
         </g>`;
-      }).join('')}
+      }).join('');
+      })()}
     </svg>`;
   },
 
@@ -2216,7 +2556,7 @@ export const CORPI_GRAFICA = {
     </div>`;
   },
 
-  catena: d => `<div class="catena gfx">${d.passi.map((p, i) =>
+  catena: d => `<div class="catena gfx ${d.passi.length >= 5 ? 'fitta' : ''}">${d.passi.map((p, i) =>
     `<div class="p gx ${p.key ? 'key' : ''} ${(d.attive ?? d.passi.map((_, k) => k)).includes(i) ? 'on' : 'off'}"><div class="t">${acc(p.t)}</div>
       ${p.d ? `<div class="d">${acc(p.d)}</div>` : ''}</div>`).join('')}</div>`,
 
@@ -2229,7 +2569,8 @@ export const CORPI_GRAFICA = {
   // La soglia sta qui e non nelle scene: sette caselle su una colonna non ci
   // stanno alla misura piena, e ogni lezione se ne dimenticherebbe per conto suo.
   griglia: d => `<div class="griglia gfx ${
-      d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
+      d.celle.length >= (d.colonne === 1 ? 8 : 12) ? 'fittissima'
+      : d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
       style="grid-template-columns:repeat(${d.colonne ?? 2},1fr)">${d.celle.map((c, i) =>
     `<div class="c gx ${c.no ? 'no' : ''} ${(d.attive ?? d.celle.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${
       c.n != null ? `<span class="n">${c.n}</span>`
@@ -2241,7 +2582,8 @@ export const CORPI_GRAFICA = {
       <div class="t">${acc(v.t)}</div>
       ${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`).join('')}</div>`,
 
-  matrice: d => `<div class="matrice gfx">
+  matrice: d => `<div class="matrice gfx ${
+    d.celle.some(c => c.d) && d.celle.reduce((s, c) => s + c.t.length, 0) > 90 ? 'fitta' : ''}">
     <div></div><div class="ax gx">${d.assex[0]}</div><div class="ax gx">${d.assex[1]}</div>
     <div class="ax ay gx">${d.assey[0]}</div>
     ${d.celle.slice(0, 2).map(c => `<div class="q gx ${c.key ? 'key' : ''}">
@@ -2275,6 +2617,7 @@ mkdirSync(OUT, { recursive: true });
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
+const buchiDati = [];
 const troppoAlte = [];
 for (const [i, s] of SCENE.entries()) {
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
@@ -2302,11 +2645,28 @@ for (const [i, s] of SCENE.entries()) {
     };
   });
   if (over.sfora > 1 || over.largo > 1) troppoAlte.push([s.id, over]);
+
+  // La cornice non e' l'unico modo in cui una slide si rompe. Su 2.7 la slide
+  // dei tre momenti era un «assetempo» senza anni e ha stampato «undefined»
+  // due volte sull'asse: dentro la cornice, quindi muta per il controllo di
+  // sopra, e sarebbe andata in resa se non l'avessi guardata nel provino.
+  // Un dato che manca ha sempre la stessa faccia, e cercarla costa nulla.
+  const rotto = await p.evaluate(() => {
+    const t = document.querySelector('.slide').innerText;
+    return [...new Set((t.match(/undefined|NaN|\[object Object\]/g) ?? []))];
+  });
+  if (rotto.length) buchiDati.push([s.id, rotto]);
+
   await p.screenshot({ path: `${OUT}${s.id}.png` });
   process.stdout.write(`${s.id} `);
 }
 await b.close();
 console.log('\n');
+if (buchiDati.length) {
+  console.log('DATI MANCANTI A SCHERMO:');
+  for (const [id, v] of buchiDati) console.log(`  ${id}  ${v.join(' · ')}`);
+  console.log('');
+}
 if (troppoAlte.length) {
   console.log('SFORANO LA CORNICE:');
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
@@ -2338,7 +2698,11 @@ const FF = execFileSync('python3', ['-c',
   'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())']).toString().trim();
 
 // solo i blocchi: copertina e chiusura vanno in scena come immagini ferme
-const DA_ANIMARE = SCENE.filter(s => s.tipo !== 'copertina');
+// Con uno o piu' id sulla riga di comando si rifanno solo quelli: una slide
+// corretta non deve costare la ri-resa delle altre quarantasette.
+const SOLO = new Set(process.argv.slice(2));
+const DA_ANIMARE = SCENE.filter(s => s.tipo !== 'copertina')
+                        .filter(s => SOLO.size === 0 || SOLO.has(s.id));
 
 mkdirSync(`${QUI}mp4`, { recursive: true });
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
@@ -2496,7 +2860,7 @@ if not f.exists() and txt.exists():
     # Strada alternativa: la trascrizione dell'intera traccia grezza. Prova che
     # la voce ha detto tutto - l'errore che in 1.1 e' costato una rigenerazione -
     # ma non dove cadono i tagli, perche' la trascrizione non porta i tempi.
-    # Per quelli restano l'allineamento DTW e verifica-locale.py.
+    # Per quelli restano l'allineamento DTW e controllo-statistico.py.
     e = json.loads(txt.read_text(encoding="utf-8"))
     buchi = sum(len(v["buchi"]) for v in e.values())
     perc = min(100*v["coincidenti"]/v["parole_copione"] for v in e.values())
@@ -2555,309 +2919,264 @@ quello della 1.8, riportato per intero come esempio di come si usano i 13
 tipi grafici.
 
 ```javascript
-// Contenuto delle 50 scene della lezione 1.8. *accento*  **accento in semibold**
-const MAPPA_A = [
- {t:"**1.1** Le fonti del campo di attività", d:"profilo, formazione, Codice — e la fine del mansionario"},
- {t:"**1.2** Il profilo professionale", d:"DM 739/1994"},
- {t:"**1.3** Formazione, Ordine, ECM, carriera"},
+// Contenuto delle 50 scene della lezione 2.8 — il riepilogo del modulo.
+
+const MAPPA = [
+ {n:"2.1", t:"**Il processo di assistenza** — i cinque passi"},
+ {n:"2.2", t:"**Modelli e tassonomie** — le categorie con cui si guarda"},
+ {n:"2.3", t:"**Accertamento e scale**"},
+ {n:"2.4", t:"**La documentazione infermieristica**"},
+ {n:"2.5", t:"**EBP, linee guida, PDTA e procedure**"},
+ {n:"2.6", t:"**Rischio clinico** e sicurezza del paziente"},
+ {n:"2.7", t:"**Comunicazione clinica** e continuità", key:true},
 ];
-const MAPPA_B = [
- {t:"**1.4** Il Codice deontologico", d:"FNOPI 2019"},
- {t:"**1.5** La responsabilità professionale", d:"i cinque piani e la legge 24/2017"},
- {t:"**1.6** Consenso, DAT, autodeterminazione", d:"legge 219/2017"},
- {t:"**1.7** Segreto, privacy, tutela della persona"},
-];
+
 const CATENA = [
- {n:"1", t:"Competenza", d:"profilo, formazione, deontologia"},
- {n:"2", t:"Autonomia", d:"decidere nel proprio ambito"},
- {n:"3", t:"Responsabilità", d:"cinque piani, autonomi e cumulabili"},
- {n:"4", t:"Documentazione", d:"è così che la responsabilità si dimostra", key:true},
-];
-const NUM_A = [
- {t:"Le **fonti** del campo di attività"},
- {t:"**Nature, tipi e funzioni** dell'assistenza"},
- {t:"Le **attività del comma 3** e le **aree post-base**"},
-];
-const NUM_B = [
- {t:"I **livelli professionali** — e le **sanzioni** dell'Ordine"},
- {t:"I **crediti ECM** nel triennio"},
- {t:"**Articoli e capi** del Codice deontologico"},
-];
-const NUM_C = [
- {t:"I **piani della responsabilità**"},
- {t:"Anni di **prescrizione**: struttura ed esercente"},
- {t:"L'anno per la **rivalsa**, dal pagamento"},
- {t:"Le ore per il **referto**"},
-];
-const OSS = [
- {n:"1", t:"Competenza", d:"dell'operatore a cui attribuisci"},
- {n:"2", t:"Condizioni", d:"della persona assistita"},
- {n:"3", t:"Contesto", d:"organizzativo in cui l'attività si svolge"},
-];
-const VENETO_A = [
- {t:"**Struttura delle professioni sanitarie**", d:"è lì che gli atti aziendali collocano la funzione infermieristica"},
-];
-const VENETO_B = [
- {t:"**Centro regionale** per la gestione del rischio sanitario<br>e **Difensore civico regionale**",
-  d:"il Difensore civico è il Garante per il diritto alla salute — legge 24/2017"},
-];
-const VENETO_C = [
- {t:"**Procedure aziendali sulla contenzione**", d:"prescrizione, rivalutazione, registrazione"},
- {t:"**Fascicolo sanitario elettronico** e log di accesso", d:"l'accesso non giustificato è rilevato"},
-];
-const FINALE_A = [
- {t:"Il **mansionario** è il DPR 225/1974, abrogato dalla **legge 42/1999**"},
- {t:"Le **fonti del campo di attività** sono tre"},
- {t:"L'infermiere è **responsabile dell'assistenza generale infermieristica**"},
-];
-const FINALE_B = [
- {t:"L'assistenza è di natura **tecnica, relazionale, educativa**"},
- {t:"Chi **attribuisce** risponde della scelta, chi **esegue** della corretta esecuzione"},
- {t:"La **laurea abilita**, ma per esercitare serve l'**albo**"},
-];
-const FINALE_C = [
- {t:"**150 crediti** ECM nel triennio"},
- {t:"La **contenzione** è eccezionale — e **mai organizzativa**"},
- {t:"I piani della responsabilità sono **cinque**, autonomi e cumulabili"},
-];
-const FINALE_D = [
- {t:"**Dieci anni** la struttura, **cinque** l'esercente"},
- {t:"**Rivalsa** solo per dolo o colpa grave"},
- {t:"Nessun trattamento senza **consenso libero e informato**: si può *rifiutare* tutto, non *pretendere* tutto"},
+ {t:"Raccolgo", d:"con le categorie della disciplina"},
+ {t:"Decido", d:"sulle migliori evidenze disponibili"},
+ {t:"Documento", d:"ciò che faccio"},
+ {t:"Comunico", d:"nei passaggi"},
+ {t:"Sorveglio", d:"il sistema: l'errore è prevedibile", key:true},
 ];
 
+const CONF = [
+ {n:"1", t:"**Obiettivo o intervento** — guarda il *soggetto* della frase"},
+ {n:"2", t:"**Reale o di rischio** — con i segni, oppure senza"},
+ {n:"3", t:"**Diagnosi o problema collaborativo** — si tratta, oppure si sorveglia"},
+ {n:"4", t:"**Henderson 14, Gordon 11** — non il contrario"},
+ {n:"5", t:"**NOC o NIC** — outcome, oppure interventi"},
+ {n:"6", t:"**Braden o Conley** — lesioni inverso, cadute diretto"},
+ {n:"7", t:"**Linea guida, procedura, PDTA** — cosa, come qui, chi lungo il percorso"},
+ {n:"8", t:"**Near miss o evento avverso** — non arriva, oppure arriva", key:true},
+];
 
-// --- figure ricorrenti della lezione ---
-// La linea del tempo e' in scala: fra il 1974 e il 1992 ci sono diciotto anni,
-// fra il 1999 e il 2000 uno. Una timeline a passo fisso direbbe il contrario.
-const TEMPO = [
- {anno:1974, et:"mansionario · DPR 225"},
- {anno:1992, et:"D.Lgs. 502 · l'università"},
- {anno:1994, et:"DM 739 · il profilo"},
- {anno:1999, et:"legge 42 · D.Lgs. 229", key:true},
- {anno:2000, et:"legge 251"},
- {anno:2006, et:"legge 43 · albo"},
- {anno:2010, et:"legge 38"},
- {anno:2016, et:"GDPR"},
- {anno:2018, et:"legge 3 · Ordini"},
- {anno:2021, et:"laurea abilitante"},
+const FORMULE = [
+ {n:"1", t:"**PES** — problema, etiologia, segni e sintomi *(di rischio: PE)*"},
+ {n:"2", t:"**PICO** — popolazione, intervento, confronto, esito"},
+ {n:"3", t:"**SBAR** — situation, background, assessment, recommendation"},
+ {n:"4", t:"**CAM** — 1 + 2 + (3 oppure 4)"},
+ {n:"5", t:"**EBP** — evidenze + competenza clinica + valori della persona", key:true},
 ];
-const DIECI = [
- {n:"3",       t:"le **fonti** del campo di attività"},
- {n:"3·4·3",   t:"**nature, tipi e funzioni** dell'assistenza"},
- {n:"5",       t:"le **attività** del comma 3 e le **aree post-base**"},
- {n:"4",       t:"i **livelli** professionali e le **sanzioni** dell'Ordine"},
- {n:"150",     t:"i **crediti ECM** nel triennio"},
- {n:"53+8",    t:"**articoli e capi** del Codice deontologico"},
- {n:"5",       t:"i **piani** della responsabilità"},
- {n:"10+5",    t:"anni di **prescrizione**: struttura ed esercente"},
- {n:"1",       t:"l'anno per la **rivalsa**, dal pagamento"},
- {n:"48",      t:"le ore per il **referto**"},
-];
-const MEMO18 = [
- {t:"Il **mansionario** è il DPR 225/1974, abrogato dalla **legge 42/1999**"},
- {t:"Le **fonti del campo di attività** sono tre"},
- {t:"L'infermiere è **responsabile dell'assistenza generale infermieristica**"},
- {t:"L'assistenza è di natura **tecnica, relazionale, educativa**"},
- {t:"Chi **attribuisce** risponde della scelta, chi **esegue** della corretta esecuzione"},
- {t:"La **laurea abilita**, ma per esercitare serve l'**albo**"},
- {t:"**150 crediti** ECM nel triennio"},
- {t:"La **contenzione** è eccezionale — e **mai organizzativa**"},
- {t:"I piani della responsabilità sono **cinque**, autonomi e cumulabili"},
- {t:"**Dieci anni** la struttura, **cinque** l'esercente"},
- {t:"**Rivalsa** solo per dolo o colpa grave"},
- {t:"Si può **rifiutare** tutto, non **pretendere** tutto"},
+
+const VENETO = [
+ {n:"1", t:"Il processo sta dentro la **cartella clinica elettronica** — scale integrate, rivalutazioni a intervalli definiti"},
+ {n:"2", t:"La catena delle evidenze: **SNLG → indirizzo regionale e PDTA → procedura aziendale → pratica**, spesso dentro le **reti cliniche**"},
+ {n:"3", t:"La filiera del rischio: **operatore → risk management → Centro regionale → Osservatorio nazionale**, con il **Difensore civico** Garante"},
+ {n:"4", t:"La continuità verso il territorio: **dimissioni protette, COT, infermiere di famiglia e comunità**", key:true},
 ];
 
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
-  modulo:"Modulo 1 · Riepilogo",
-  titolo:"Ricomponiamo<br>il modulo", sottotitolo:"Mappa, numeri, confusioni, casi",
+  modulo:"Modulo 2 · Riepilogo",
+  titolo:"Ricomponiamo<br>il modulo", sottotitolo:"Nessun contenuto nuovo: la mappa, i numeri, le confusioni, i casi",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 
-{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 8 di 8",
-  testo:"Qui non aggiungiamo niente di nuovo: **ricomponiamo**.",
-  sotto:"Una mappa unica delle sette lezioni, e una linea del tempo."},
-{id:"s03", tipo:"frase", tema:"tenue", sopratitolo:"Come usare questo video",
-  testo:"Guardalo **due volte**: adesso, e di nuovo nei giorni prima della prova."},
+{id:"s02", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
+  sopratitolo:"Che cosa c'è in questo video",
+  celle:[
+   {n:"1", t:"La **mappa** delle sette lezioni"},
+   {n:"2", t:"Il **filo** che le tiene insieme"},
+   {n:"3", t:"I **numeri** e le **formule**"},
+   {n:"4", t:"Le **confusioni** e i **casi tipici**", key:true}]},
 
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 1", voci:MAPPA_A},
-{id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 2", voci:MAPPA_B},
-{id:"s06", tipo:"titolo", tema:"profondo",
-  titolo:"All'autonomia corrisponde<br>la **responsabilità**.",
-  sotto:"Sette lezioni, un filo solo."},
+{id:"s03", tipo:"titolo", tema:"chiaro", sopratitolo:"Come usarlo",
+  titolo:"Guardalo **due volte**:<br>adesso, e la settimana<br>prima della prova.",
+  sotto:"Quando serve rimettere in ordine quello che nel frattempo si è sparpagliato."},
 
-{id:"s07", tipo:"catena", tema:"chiaro", sopratitolo:"La catena del modulo", passi:[
-  {t:"Competenza", d:"profilo, formazione, deontologia"},
-  {t:"Autonomia", d:"decidere nel proprio ambito"},
-  {t:"Responsabilità", d:"cinque piani, autonomi e cumulabili"},
-  {t:"Documentazione", d:"è così che la responsabilità si dimostra", key:true}]},
+{id:"s04", tipo:"titolo", tema:"tenue", sopratitolo:"Un avvertimento",
+  titolo:"Un ripasso serve<br>a **trovare i buchi**,<br>non a riempirli tutti.",
+  sotto:"Se un punto ti sfugge, riprendi quella lezione — non tutto il modulo da capo."},
 
-{id:"s08", tipo:"frase", tema:"chiaro", sopratitolo:"A che serve la catena",
-  testo:"È lo schema con cui rispondere a **quasi ogni domanda aperta** del modulo.",
-  sotto:"Anche a quelle che non hai preparato."},
+{id:"s05", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"La mappa del modulo", celle:MAPPA},
+{id:"s06", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"La mappa del modulo", celle:MAPPA},
+{id:"s07", tipo:"titolo", tema:"chiaro", sopratitolo:"Come tenerle insieme",
+  titolo:"Non sette argomenti:<br>**sette punti di una<br>sola linea**.",
+  sotto:"Ed è la linea che conviene saper raccontare all'orale."},
 
-{id:"s09", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,3)},
+{id:"s08", tipo:"catena", tema:"chiaro", sopratitolo:"Il filo del modulo, in cinque verbi", attive:[0,1],
+  passi:CATENA},
+{id:"s09", tipo:"catena", tema:"chiaro", sopratitolo:"Il filo del modulo, in cinque verbi",
+  passi:CATENA},
+{id:"s10", tipo:"tre", tema:"chiaro", sopratitolo:"Tre facce dello stesso lavoro",
+  box:[
+   {n:"1", t:"Metodo", d:"raccolgo e decido"},
+   {n:"2", t:"Prova", d:"documento"},
+   {n:"3", t:"Sicurezza", d:"comunico e sorveglio", key:true}]},
 
-{id:"s10", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,4)},
+{id:"s11", tipo:"titolo", tema:"chiaro", sopratitolo:"Dalla 2.1 · il processo",
+  titolo:"Cinque fasi,<br>e il processo è **ciclico**.",
+  sotto:"La valutazione non chiude niente: riapre l'accertamento. Ed è il passo che si dimentica più spesso."},
 
-{id:"s11", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,5)},
+{id:"s12", tipo:"confronto", tema:"chiaro", sopratitolo:"Le due diagnosi",
+  col:[
+   {h:"Reale — PES", t:"**P**roblema · **E**tiologia · **S**egni e sintomi"},
+   {h:"Di rischio — PE", t:"**Senza segni**: se i segni ci fossero, non sarebbe più un rischio"}]},
 
-{id:"s12", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,8)},
+{id:"s13", tipo:"scala", tema:"chiaro", sopratitolo:"Le priorità, in quest'ordine",
+  gradini:[
+   {n:"1", t:"ABC", d:"prima di tutto"},
+   {n:"2", t:"Rischio di danno a breve", d:"poi"},
+   {n:"3", t:"Impatto e percezione", d:"sull'autonomia, e come la vive la persona", key:true}]},
 
-{id:"s13", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO},
-
-{id:"s14", tipo:"numero", tema:"tenue", cifra:"2021",
-  testo:"Legge 163: la **laurea diventa abilitante**. Dal mansionario, quarantasette anni."},
-
-{id:"s15", tipo:"tabella", tema:"chiaro", sopratitolo:"Le date gemelle: due coppie, quattro errori evitati",
-  intestazioni:["Anno","La prima","La seconda"], colonne:["16%","42%","42%"],
-  chiave:[0],
+{id:"s14", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.2 · i numeri dei modelli",
+  intestazioni:["Modello","Quanti"], colonne:["58%","42%"],
   righe:[
-   ["**2017**","**legge 24** — responsabilità e sicurezza delle cure","**legge 219** — consenso e DAT"],
-   ["**1999**","**legge 42** — abroga il mansionario","**D.Lgs. 229** — struttura l'ECM"]]},
+   ["**Metaparadigma**","**4** concetti"],
+   ["**Henderson** — bisogni","**14**"],
+   ["**Gordon** — modelli funzionali","**11**"],
+   ["**Orem** — sistemi","**3**"]]},
 
-{id:"s16", tipo:"confronto", tema:"profondo", sopratitolo:"1999 · la stessa coppia, un'altra volta", col:[
-  {h:"Legge 42", t:"**MANSIONARIO**<br>abrogato", grande:true},
-  {h:"D.Lgs. 229", t:"**ECM**<br>istituito", grande:true}],
-  sotto:"Ventiquattro-responsabilità, duecentodiciannove-consenso. Quarantadue-mansionario, duecentoventinove-ECM."},
+{id:"s15", tipo:"catena", tema:"chiaro", sopratitolo:"La catena delle tassonomie",
+  passi:[
+   {t:"NANDA-I", d:"le diagnosi"},
+   {t:"NOC", d:"i risultati — *outcome*"},
+   {t:"NIC", d:"gli interventi", key:true}]},
 
-{id:"s17", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
+{id:"s16", tipo:"titolo", tema:"chiaro", sopratitolo:"Come non sbagliare NOC e NIC",
+  titolo:"NO**C** come out**c**ome.<br>NI**C** come **i**ntervento.",
+  sotto:"La lettera che cambia nella sigla è la stessa che cambia nel significato."},
 
-{id:"s18", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
-
-{id:"s19", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8,9],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
-
-{id:"s20", tipo:"confronto", tema:"chiaro", sopratitolo:"Confusione 1 · il verbo giusto", col:[
-  {h:"Bisogni di salute", t:"**partecipa**<br>all'identificazione"},
-  {h:"Bisogni di assistenza infermieristica", t:"**identifica**<br>e formula gli obiettivi"}]},
-{id:"s21", tipo:"titolo", tema:"profondo",
-  titolo:"Il verbo cambia con il<br>**tipo di bisogno**.",
-  sotto:"Non con il tipo di paziente. Dove il bisogno è infermieristico, la regia è tua."},
-{id:"s22", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 2 — aree o livelli",
-  intestazioni:["","Cinque aree post-base","Quattro livelli"], colonne:["22%","39%","39%"],
+{id:"s17", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.3 · la slide da fotografare",
+  intestazioni:["Scala","Che cosa misura","Intervallo","Soglia"], colonne:["22%","38%","20%","20%"],
   righe:[
-   ["La fonte","DM 739/1994","legge 43/2006"],
-   ["Che cosa sono","ambiti **clinici**","gradi di **carriera**"],
-   ["La domanda","**dove** lavori","**che ruolo** hai"]]},
-
-{id:"s23", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 3 — esonero o esenzione",
-  intestazioni:["","Esonero","Esenzione"], colonne:["20%","40%","40%"],
+   ["**Braden**","lesioni da pressione","6 – 23","**≤ 16**"],
+   ["**Norton**","lesioni da pressione","5 – 20","**≤ 14**"],
+   ["**Conley**","rischio di caduta","0 – 10","**≥ 2**"],
+   ["**Tinetti**","equilibrio e andatura","0 – 28","**< 19**"]]},
+{id:"s18", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.3 · la slide da fotografare",
+  intestazioni:["Scala","Che cosa misura","Intervallo","Soglia"], colonne:["22%","38%","20%","20%"],
   righe:[
-   ["Perché","**stai studiando**","**sei assente**"],
-   ["I casi","laurea, master, dottorato, specializzazione","maternità, malattia, aspettativa"],
-   ["L'effetto","il debito si riduce in proporzione ai mesi","il debito si riduce in proporzione ai mesi"]]},
+   ["**Barthel**","autonomia nelle ADL","0 – 100","—"],
+   ["**Glasgow**","stato di coscienza","3 – 15","**coma ≤ 8**"],
+   ["**CAM**","delirium","—","**1 + 2 + (3 o 4)**"],
+   ["**MUST**","rischio nutrizionale","0 – 6","**≥ 2** alto"]]},
+{id:"s19", tipo:"titolo", tema:"chiaro", sopratitolo:"Se devi trascrivere una cosa sola",
+  titolo:"Otto scale,<br>**otto intervalli**.",
+  sotto:"È la parte che si dimentica per prima, perché sono numeri senza appiglio."},
 
-{id:"s24", tipo:"frase", tema:"tenue", sopratitolo:"Come non sbagliarle",
-  testo:"**Esonero quando studi, esenzione quando sei assente.**",
-  sotto:"In tutti e due i casi i crediti si riducono in proporzione ai mesi."},
-{id:"s25", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Confusione 4 · livello o incarico",
-  da:{h:"Il titolo", t:"**abilita**"}, a:{h:"L'azienda", t:"**attribuisce**"},
-  sotto:"Si può avere il master di coordinamento senza avere l'incarico di coordinatore."},
+{id:"s20", tipo:"confronto", tema:"chiaro", sopratitolo:"La regola che risolve metà delle domande",
+  col:[
+   {h:"Misura una capacità", t:"**Più alto è meglio** — Barthel 100 è ottimo"},
+   {h:"Misura un rischio", t:"**Più alto è peggio** — Conley 10 è pessimo"}]},
 
-{id:"s26", tipo:"barre", tema:"chiaro", sopratitolo:"Confusione 5 — il doppio binario",
-  unita:"anni", etichetta:560, barre:[
-   {et:"Struttura — contrattuale", v:10, nota:"artt. 1218 e 1228 c.c."},
-   {et:"Esercente — extracontrattuale", v:5, colore:"#B07A12", nota:"art. 2043 c.c."}]},
+{id:"s21", tipo:"titolo", tema:"chiaro", sopratitolo:"Fin qui è intuitivo",
+  titolo:"E infatti non è qui<br>che si sbaglia.",
+  sotto:"Si sbaglia sulle due eccezioni."},
 
-{id:"s27", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 6 — DAT o pianificazione",
-  intestazioni:["","DAT","Pianificazione condivisa"], colonne:["20%","40%","40%"],
+{id:"s22", tipo:"trappola", tema:"profondo", sopratitolo:"Le due eccezioni",
   righe:[
-   ["Quando","incapacità **futura ed eventuale**","patologia **già in atto**"],
-   ["Chi le fa","la persona, **da sola**","la persona **con il medico**"],
-   ["Chi è tenuto","il medico","il medico **e l'équipe**"]]},
+   {sb:"«Misura un rischio, quindi più alto è peggio»",
+    ok:"**Braden e Norton** misurano un rischio con punteggio **inverso**: più basso, più a rischio"}]},
 
-{id:"s28", tipo:"confronto", tema:"chiaro", sopratitolo:"Confusione 7 · i due segreti", col:[
-  {h:"art. 622 — professionale", t:"procedibile **a querela**"},
-  {h:"art. 326 — d'ufficio", t:"procedibile **d'ufficio**"}],
-  sotto:"Sette confusioni: sono queste a decidere i punti nei quiz a risposta chiusa."},
+{id:"s23", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s24", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s25", tipo:"titolo", tema:"chiaro", sopratitolo:"Henderson o Gordon",
+  titolo:"**14** Henderson.<br>**11** Gordon.",
+  sotto:"Se non ricordi quale sia quale: quelli di Gordon sono modelli funzionali di salute, e sono i meno numerosi dei due."},
 
-{id:"s29", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 1 · prescrizione dubbia", righe:[
-  {sb:"Eseguire perché è prescritto", ok:"Chiedere chiarimento; se il dubbio permane, **non dare corso** e documentare"}]},
-{id:"s30", tipo:"frase", tema:"tenue", sopratitolo:"Il principio di affidamento",
-  testo:"Cade davanti all'**errore palese**.",
-  sotto:"Vale per ogni ruolo dell'équipe, non solo per il tuo."},
-{id:"s31", tipo:"icone", tema:"chiaro", sopratitolo:"Caso 2 — attribuzione all'OSS", voci:[
-  {icona:"persone",   t:"Competenza", d:"dell'operatore a cui attribuisci"},
-  {icona:"cuoremano", t:"Condizioni", d:"della persona assistita"},
-  {icona:"ospedale",  t:"Contesto", d:"organizzativo in cui l'attività si svolge"}]},
+{id:"s26", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3,4,5],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s27", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s28", tipo:"tre", tema:"chiaro", sopratitolo:"Le tre parole dell'evento",
+  box:[
+   {n:"1", t:"Near miss", d:"l'errore **non arriva** al paziente"},
+   {n:"2", t:"Evento avverso", d:"il danno **c'è**"},
+   {n:"3", t:"Complicanza", d:"**attesa** — non presuppone un errore", key:true}]},
 
-{id:"s32", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 3 · ha firmato senza capire", righe:[
-  {sb:"Rassicurarlo, o spiegargli tu l'intervento", ok:"**Sospendere**, informare il medico, **documentare**"}]},
-{id:"s33", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 4 · contenzione per carenza di personale", righe:[
-  {sb:"Contenere: il reparto è scoperto", ok:"**Rifiutare**, cercare alternative, **segnalare** la carenza, documentare"}]},
-{id:"s34", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 5 · la foto in chat", righe:[
-  {sb:"Inviarla ai colleghi per un parere", ok:"Documentare con gli **strumenti aziendali** e con il **consenso**"}]},
+{id:"s29", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso · la traccia con dati incompleti",
+  righe:[
+   {sb:"Scegliere l'intervento più sensato fra quelli proposti",
+    ok:"Si comincia **raccogliendo il dato mancante** — è quasi sempre quella l'opzione giusta"}]},
 
-{id:"s35", tipo:"citazione", tema:"profondo",
-  testo:"L'infermiere è l'operatore sanitario **responsabile dell'assistenza generale infermieristica**.",
-  fonte:"DM 739/1994, art. 1"},
-{id:"s36", tipo:"citazione", tema:"profondo",
-  testo:"L'assistenza è di natura **tecnica, relazionale, educativa**. La **sicurezza delle cure** è parte costitutiva del diritto alla salute.",
-  fonte:"DM 739/1994 · Legge 24/2017, art. 1"},
-{id:"s37", tipo:"citazione", tema:"profondo",
-  testo:"Nessun trattamento sanitario può essere iniziato o proseguito senza il **consenso libero e informato** della persona interessata.",
-  fonte:"Legge 219/2017, art. 1"},
+{id:"s30", tipo:"titolo", tema:"chiaro", sopratitolo:"Caso · «quale intervento ha la priorità?»",
+  titolo:"**ABC**, poi rischio di<br>danno a breve, poi impatto<br>e percezione.",
+  sotto:"In quest'ordine, sempre."},
 
-{id:"s38", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 1", voci:[
-  {icona:"ospedale", t:"Struttura delle professioni sanitarie",
-   d:"è lì che gli atti aziendali collocano la funzione infermieristica", key:true}]},
+{id:"s31", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Caso · Braden 12 in paziente allettato",
+  celle:[
+   {n:"1", t:"Cambi posturali **programmati**"},
+   {n:"2", t:"Superficie **antidecubito**"},
+   {n:"3", t:"Gestione dell'**umidità**"},
+   {n:"4", t:"Valutazione **nutrizionale**"},
+   {n:"5", t:"**Ispezione cutanea** a ogni turno", key:true}]},
 
-{id:"s39", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 2", voci:[
-  {icona:"ingranaggio", t:"Centro regionale", d:"per la gestione del rischio sanitario"},
-  {icona:"bilancia",    t:"Difensore civico regionale", d:"Garante per il diritto alla salute — legge 24/2017"}]},
+{id:"s32", tipo:"titolo", tema:"profondo", sopratitolo:"Perché il punteggio non basta",
+  titolo:"Una scala compilata e<br>non seguita da niente è<br>**peggio** di una non compilata.",
+  sotto:"Dimostra che il rischio era noto. Al punteggio deve corrispondere una modifica del piano."},
 
-{id:"s40", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 3", voci:[
-  {icona:"documento", t:"Procedure sulla contenzione", d:"prescrizione, rivalutazione, registrazione"},
-  {icona:"occhio",    t:"FSE e log di accesso", d:"l'accesso non giustificato è rilevato"}]},
+{id:"s33", tipo:"catena", tema:"chiaro", sopratitolo:"Caso · prescrizione illeggibile o dubbia",
+  passi:[
+   {t:"Chiedo chiarimento", d:"al prescrittore"},
+   {t:"Non do corso", d:"se il dubbio permane"},
+   {t:"Documento", d:"il dubbio e la richiesta", key:true}]},
 
-{id:"s41", tipo:"numero", tema:"chiaro", cifra:"12",
-  testo:"Le domande di autovalutazione nella dispensa. **Più di 3 errori → torna alle lezioni segnalate.**"},
-{id:"s42", tipo:"frase", tema:"tenue", sopratitolo:"Perché la regola è severa",
-  testo:"Il modulo 1 è la **grammatica** di tutto il resto del corso.",
-  sotto:"I moduli successivi lo danno per acquisito. Meglio due giorni in più adesso."},
+{id:"s34", tipo:"confronto", tema:"chiaro", sopratitolo:"Altri due casi, due risposte",
+  col:[
+   {h:"Near miss intercettato", t:"**Segnalo comunque** — è apprendimento gratuito"},
+   {h:"Chiamata al medico", t:"Strutturo con **SBAR**, esplicitando **valutazione e richiesta**"}]},
 
-{id:"s43", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
-  sopratitolo:"Come proseguire", celle:[
-  {n:"1", t:"**Test finale del modulo**, quaranta domande: il primo controllo serio"},
-  {n:"2", t:"Riprendi **solo le lezioni** segnalate dagli errori"},
-  {n:"3", t:"Porta nel **quaderno di ripasso** le formule e i dieci numeri"},
-  {n:"4", t:"Passa al **modulo 2** — metodologia, documentazione, sicurezza"}]},
+{id:"s35", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
+{id:"s36", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
+{id:"s37", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
 
-{id:"s44", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3],
-  sopratitolo:"Come proseguire", celle:[
-  {n:"1", t:"**Test finale del modulo**, quaranta domande: il primo controllo serio"},
-  {n:"2", t:"Riprendi **solo le lezioni** segnalate dagli errori"},
-  {n:"3", t:"Porta nel **quaderno di ripasso** le formule e i dieci numeri"},
-  {n:"4", t:"Passa al **modulo 2** — metodologia, documentazione, sicurezza"}]},
-
-{id:"s45", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s46", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s47", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s48", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8,9,10,11],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s49", tipo:"titolo", tema:"profondo",
+{id:"s38", tipo:"titolo", tema:"chiaro", sopratitolo:"La frase del modulo",
   titolo:"Ciò che non è documentato<br>si presume **non fatto**.",
-  sotto:"È la frase con cui conviene chiudere qualunque risposta all'orale."},
+  sotto:"L'abbiamo incontrata nella 1.5, e non ci ha più lasciati."},
+
+{id:"s39", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
+  sopratitolo:"Per che cosa vale — cioè per tutto",
+  celle:[
+   {n:"1", t:"La **scala** compilata"},
+   {n:"2", t:"La **segnalazione** fatta al medico"},
+   {n:"3", t:"Il **rifiuto** della persona"},
+   {n:"4", t:"La **rivalutazione** del dolore", key:true}]},
+
+{id:"s40", tipo:"titolo", tema:"profondo", sopratitolo:"Perché non è burocrazia",
+  titolo:"La memoria non fa prova.<br>Il **documento** sì.",
+  sotto:"È l'unico modo in cui il lavoro che hai fatto continua a esistere a distanza di anni."},
+
+{id:"s41", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s42", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s43", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+
+{id:"s44", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s45", tipo:"confronto", tema:"chiaro", sopratitolo:"Come proseguire · i primi due passi",
+  col:[
+   {h:"Primo", t:"Il **test del modulo** — 30 domande, soglia 21"},
+   {h:"Secondo", t:"Riprendi **solo le lezioni** che gli errori ti hanno segnalato, non tutto il modulo da capo"}]},
+{id:"s46", tipo:"titolo", tema:"chiaro", sopratitolo:"Terzo passo",
+  titolo:"Nel quaderno di ripasso:<br>**i numeri delle scale**<br>e le **formule**.",
+  sotto:"È la parte che si dimentica per prima, ed è anche l'unica che si recupera in cinque minuti."},
+
+{id:"s47", tipo:"titolo", tema:"profondo", sopratitolo:"Il consiglio con il rendimento più alto del corso",
+  titolo:"Lo schema in cinque passi<br>della 2.1, su **due casi**.",
+  sotto:"Non su venti: su due, fatti bene."},
+
+{id:"s48", tipo:"confronto", tema:"chiaro", sopratitolo:"Dove sei arrivato",
+  col:[
+   {h:"Modulo 1", t:"La **grammatica** della professione"},
+   {h:"Modulo 2", t:"La **sintassi**: il metodo, la prova, la sicurezza"}]},
+
+{id:"s49", tipo:"titolo", tema:"chiaro", sopratitolo:"E dal modulo 3",
+  titolo:"Il metodo<br>diventa **clinica**.",
+  sotto:"Bisogni fondamentali, comfort, assistenza di base avanzata: la parte che pesa di più nella prova pratica."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
-  modulo:"Fine del Modulo 1",
-  titolo:"Modulo 2", sottotitolo:"Metodologia infermieristica, documentazione<br>e sicurezza delle cure",
+  modulo:"Prossimo modulo",
+  titolo:"Modulo 3", sottotitolo:"Bisogni fondamentali, comfort<br>e assistenza di base avanzata",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 ];
 ```

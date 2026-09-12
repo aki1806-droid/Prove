@@ -1,0 +1,43 @@
+{
+ "A": {
+  "parole_copione": 749,
+  "parole_dette": 761,
+  "coincidenti": 748,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s13",
+    "copione": "abc",
+    "detto": "a b c"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 679,
+  "parole_dette": 677,
+  "coincidenti": 673,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "pes",
+    "detto": "pess"
+   },
+   {
+    "blocco": "s37",
+    "copione": "distrattore",
+    "detto": "distratore"
+   },
+   {
+    "blocco": "s37",
+    "copione": "proprio i",
+    "detto": "propri"
+   },
+   {
+    "blocco": "s42",
+    "copione": "al",
+    "detto": "a"
+   }
+  ]
+ }
+}
