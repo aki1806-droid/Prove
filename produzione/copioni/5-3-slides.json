@@ -1,0 +1,59 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 5 · Lezione 5.3","title":"Parlare ai bisogni,<br>non alle posizioni","sub":"Persuadere senza manipolare"},
+
+{"file":"c02","layout":"statement","title":"Due persone vogliono<br>il sabato libero."},
+{"file":"c03","layout":"statement","title":"Uno dei due dovrà cedere.<br>Finché si resta a questo piano."},
+{"file":"c04","layout":"statement","title":"Oppure no.<br><span class=\"gold\">Bisogna scendere di un piano.</span>"},
+
+{"file":"c05","layout":"table","kicker":"due piani","cols":["posizione","bisogno"],"rows":[["quello che chiede","perché lo chiede"],["visibile, dichiarata","quasi sempre taciuto"],["una sola","in più modi"]]},
+{"file":"c06","layout":"statement","title":"Il bisogno è quasi sempre taciuto.<br>Ma non per reticenza."},
+{"file":"c07","layout":"statement","title":"È taciuto perché<br>a chi chiede sembra ovvio."},
+{"file":"c08","layout":"statement","title":"E qui c'è la proprietà<br>che rende utile la distinzione."},
+{"file":"c09","layout":"memo","title":"Una posizione si soddisfa in un modo.<br>Un bisogno quasi sempre in più modi."},
+{"file":"c10","layout":"statement","title":"Due posizioni si contendono la stessa cosa.<br>Due bisogni no."},
+
+{"file":"c11","layout":"statement","title":"Torniamo al sabato.<br>E scendiamo di quel piano."},
+{"file":"c12","layout":"swap","kicker":"cosa c'era sotto","rows":[["il primo","un impegno fisso alle sedici"],["il secondo","dormire, dopo una settimana di notti"]]},
+{"file":"c13","layout":"statement","title":"Uno ha bisogno del pomeriggio.<br>L'altro della mattina."},
+{"file":"c14","layout":"statement","title":"I due bisogni<br>non si scontrano affatto."},
+{"file":"c15","layout":"table","kicker":"lo stesso turno, diviso","cols":["chi","quando"],"rows":[["il primo","mattina"],["il secondo","pomeriggio"]],"pari":true},
+
+{"file":"c17","layout":"statement","title":"Le posizioni si scontrano<br>perché sono già soluzioni."},
+{"file":"c18","layout":"statement","title":"Chi arriva con una posizione<br>ha già fatto il lavoro da solo."},
+{"file":"c19","layout":"statement","title":"Con le informazioni che aveva.<br>Che non includono i tuoi vincoli."},
+{"file":"c20","layout":"memo","title":"Due soluzioni diverse<br>a due problemi compatibili."},
+{"file":"c21","layout":"statement","title":"Lo scontro non è fra i problemi.<br><span class=\"gold\">È fra le due soluzioni.</span>"},
+
+{"file":"c22","layout":"statement","title":"La domanda che scende di un piano<br>è una sola."},
+{"file":"c23","layout":"quote","kicker":"sette parole","title":"«Cosa ti preoccupa,<br>di questa cosa?»"},
+{"file":"c24","layout":"list","kicker":"funziona per due motivi","rows":["Chiede il cosa, non il perché","Chiede la preoccupazione, non il bisogno"]},
+{"file":"c25","layout":"swap","kicker":"la differenza","rows":[["«perché vuoi il sabato?»","chiede di giustificarsi"],["«cosa ti preoccupa?»","chiede di descrivere"]]},
+{"file":"c26","layout":"list","kicker":"funziona per due motivi","rows":["Chiede il cosa, non il perché","Chiede la preoccupazione, non il bisogno"],"active":1,"note":"Più facile da dichiarare di quanto lo sia un bisogno."},
+{"file":"c27","layout":"swap","kicker":"quanto costa dirlo","rows":[["«ho bisogno di»","ammette una mancanza"],["«mi preoccupa che»","non espone niente"]]},
+
+{"file":"c29","layout":"statement","title":"E vale anche<br>nell'altra direzione."},
+{"file":"c30","layout":"statement","title":"Prima di chiedere qualcosa,<br>fatti la domanda addosso a te."},
+{"file":"c31","layout":"table","kicker":"due righe, una sotto l'altra","cols":["la mia posizione","il mio bisogno"],"rows":[["quello che sto per chiedere","perché lo sto chiedendo"]]},
+{"file":"c32","layout":"statement","title":"La posizione che avevi preparato<br>è una soluzione tua."},
+{"file":"c33","layout":"number","kicker":"quante strade","num":"3","fill":60,"title":"I modi in cui il bisogno sotto potrebbe essere soddisfatto. Non uno: tre."},
+{"file":"c34","layout":"statement","title":"E due di quei tre,<br>per l'altro sono più facili."},
+{"file":"c35","layout":"memo","title":"Non serve a essere più gentile.<br>Serve ad avere più strade."},
+
+{"file":"c36","layout":"list","kicker":"i limiti","rows":["Quando la posizione è il bisogno","Quando non c'è fiducia","Quando il bisogno lo decidi tu"]},
+{"file":"c37","layout":"list","kicker":"i limiti","rows":["Quando la posizione è il bisogno","Quando non c'è fiducia","Quando il bisogno lo decidi tu"],"active":0,"note":"Non c'è niente sotto, e non c'è niente da scendere."},
+{"file":"c38","layout":"quote","kicker":"e la risposta è giusta","title":"«Mi preoccupa<br>di guadagnare poco.»"},
+{"file":"c39","layout":"statement","title":"Lì non si insiste.<br>La posizione era la cosa."},
+{"file":"c40","layout":"list","kicker":"i limiti","rows":["Quando la posizione è il bisogno","Quando non c'è fiducia","Quando il bisogno lo decidi tu"],"active":1,"note":"Scendere di un piano significa scoprirsi almeno un po'."},
+{"file":"c41","layout":"statement","title":"Nessuno si scopre con chi userà<br>l'informazione contro di lui."},
+
+{"file":"c43","layout":"list","kicker":"i limiti","rows":["Quando la posizione è il bisogno","Quando non c'è fiducia","Quando il bisogno lo decidi tu"],"active":2,"note":"Non è un limite tecnico. È un limite etico."},
+{"file":"c44","layout":"memo","title":"Il bisogno lo dichiara lui.<br>Con le sue parole."},
+{"file":"c45","layout":"statement","title":"Dedurlo tu è manipolazione<br>con il vocabolario della negoziazione."},
+{"file":"c46","layout":"quote","kicker":"non è scendere di un piano","title":"«Secondo me il tuo vero<br>problema è un altro.»"},
+
+{"file":"c47","layout":"memo","title":"Una posizione si soddisfa in un modo.<br>Un bisogno quasi sempre in più modi."},
+{"file":"c48","layout":"statement","title":"Un solo strumento: chiederlo,<br>e poi stare zitti."},
+{"file":"c49","layout":"statement","title":"Scendi di un piano<br>una volta sola."},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]

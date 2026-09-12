@@ -1,0 +1,387 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 5 · Lezione 5.2",
+  "title": "La credibilità si costruisce<br>prima di parlare",
+  "sub": "Persuadere senza manipolare"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Chi ti ascolta fa<br>due valutazioni in parallelo."
+ },
+ {
+  "file": "c03",
+  "layout": "table",
+  "kicker": "le due valutazioni",
+  "cols": [
+   "sul contenuto",
+   "su di te"
+  ],
+  "rows": [
+   [
+    "regge?",
+    "posso fidarmi?"
+   ],
+   [
+    "arriva seconda",
+    "arriva prima"
+   ],
+   [
+    "pesa meno",
+    "pesa di più"
+   ]
+  ]
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "La seconda arriva prima.<br><span class=\"gold\">E pesa di più.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "memo",
+  "title": "Chi non supera la seconda<br>non viene sottoposto alla prima."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Si può avere ragione, dirlo bene,<br>e non ottenere niente."
+ },
+ {
+  "file": "c07",
+  "layout": "list",
+  "kicker": "tre componenti",
+  "rows": [
+   "Competenza",
+   "Affidabilità",
+   "Intenzione percepita"
+  ]
+ },
+ {
+  "file": "c08",
+  "layout": "list",
+  "kicker": "tre componenti",
+  "rows": [
+   "Competenza",
+   "Affidabilità",
+   "Intenzione percepita"
+  ],
+  "active": 0,
+  "note": "Sai di cosa parli. È quella che tutti curano, ed è la più facile."
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "title": "Si vede in pochi minuti,<br>e si recupera studiando."
+ },
+ {
+  "file": "c10",
+  "layout": "list",
+  "kicker": "tre componenti",
+  "rows": [
+   "Competenza",
+   "Affidabilità",
+   "Intenzione percepita"
+  ],
+  "active": 1,
+  "note": "Mantieni quello che dici. E ha una proprietà antipatica."
+ },
+ {
+  "file": "c11",
+  "layout": "chart",
+  "kicker": "quanto costa, quanto costa perderla",
+  "title": "Si costruisce con decine di conferme. Si distrugge con una smentita.",
+  "bars": [
+   {
+    "et": "per costruirla",
+    "val": 100,
+    "cifra": "decine",
+    "oro": true
+   },
+   {
+    "et": "per perderla",
+    "val": 4,
+    "cifra": "una"
+   }
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Non è ingiusto, è economico.<br>Usa il segnale che costa meno."
+ },
+ {
+  "file": "c13",
+  "layout": "list",
+  "kicker": "tre componenti",
+  "rows": [
+   "Competenza",
+   "Affidabilità",
+   "Intenzione percepita"
+  ],
+  "active": 2,
+  "note": "Pesa più delle altre due messe insieme. E non se ne parla quasi mai."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "La risposta, inconsapevole,<br>a una domanda sola."
+ },
+ {
+  "file": "c15",
+  "layout": "quote",
+  "kicker": "la domanda che nessuno formula",
+  "title": "«Questa persona,<br>mentre mi parla,<br>sta pensando a me o a sé?»"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Quella risposta è già formata<br><span class=\"gold\">prima che tu apra bocca.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Chi si fa vivo solo quando gli serve<br>ha un'intenzione chiarissima."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Ogni suo argomento, anche perfetto,<br>viene letto come strumentale."
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Non è cattiveria.<br>È la lettura più ragionevole."
+ },
+ {
+  "file": "c21",
+  "layout": "swap",
+  "kicker": "da dove si parte",
+  "rows": [
+   [
+    "c'è solo quando serve",
+    "parte in perdita"
+   ],
+   [
+    "c'è anche quando non serve",
+    "parte in vantaggio"
+   ]
+  ]
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Un vantaggio che nessuna tecnica<br>riesce a produrre."
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Una conseguenza sgradevole<br>per chi cerca risultati rapidi."
+ },
+ {
+  "file": "c24",
+  "layout": "memo",
+  "title": "La parte più importante della persuasione<br>non si fa al momento della persuasione."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Quando serve, è già decisa.<br>Si può solo spenderla."
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "Ed è per questo che l'ascolto<br>viene prima, in questo corso."
+ },
+ {
+  "file": "c27",
+  "layout": "list",
+  "kicker": "come si perde",
+  "rows": [
+   "Il dato gonfiato",
+   "La promessa piccola mancata",
+   "L'omissione scoperta"
+  ]
+ },
+ {
+  "file": "c28",
+  "layout": "list",
+  "kicker": "come si perde",
+  "rows": [
+   "Il dato gonfiato",
+   "La promessa piccola mancata",
+   "L'omissione scoperta"
+  ],
+  "active": 0,
+  "note": "Non cade quel numero: cadono tutti gli altri insieme."
+ },
+ {
+  "file": "c30",
+  "layout": "list",
+  "kicker": "come si perde",
+  "rows": [
+   "Il dato gonfiato",
+   "La promessa piccola mancata",
+   "L'omissione scoperta"
+  ],
+  "active": 1,
+  "note": "«Ti mando il documento domani», e il documento non arriva."
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Il test più frequente<br>a cui vieni sottoposto."
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Funziona da test<br><span class=\"gold\">proprio perché è piccola.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "come si perde",
+  "rows": [
+   "Il dato gonfiato",
+   "La promessa piccola mancata",
+   "L'omissione scoperta"
+  ],
+  "active": 2,
+  "note": "E qui succede una cosa peggiore che perdere un argomento."
+ },
+ {
+  "file": "c34",
+  "layout": "swap",
+  "kicker": "cosa sta facendo l'altro",
+  "rows": [
+   [
+    "prima",
+    "valutava l'informazione"
+   ],
+   [
+    "adesso",
+    "ricalcola la tua intenzione"
+   ]
+  ]
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "La mossa più controintuitiva<br>della lezione."
+ },
+ {
+  "file": "c36",
+  "layout": "memo",
+  "title": "«Questo non lo so.»"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Chi dichiara un limite<br>rende verificabile tutto il resto."
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Chi non dice mai «non lo so»<br>ottiene l'effetto opposto."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Tutto diventa ugualmente incerto,<br>perché non si distingue più."
+ },
+ {
+  "file": "c41",
+  "layout": "swap",
+  "kicker": "cosa fa il confine",
+  "rows": [
+   [
+    "senza «non lo so»",
+    "tutto è uguale"
+   ],
+   [
+    "con «non lo so»",
+    "il resto diventa solido"
+   ]
+  ]
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Un'ultima cosa,<br>perché vengono confuse di continuo."
+ },
+ {
+  "file": "c43",
+  "layout": "table",
+  "kicker": "non sono la stessa cosa",
+  "cols": [
+   "simpatia",
+   "credibilità"
+  ],
+  "rows": [
+   [
+    "piace",
+    "regge"
+   ],
+   [
+    "si ottiene subito",
+    "si accumula"
+   ],
+   [
+    "si può spendere",
+    "non si ricompra"
+   ]
+  ]
+ },
+ {
+  "file": "c44",
+  "layout": "cards",
+  "kicker": "la combinazione tipica",
+  "rows": [
+   {
+    "icona": "spunta",
+    "testo": "Dice sempre di sì"
+   },
+   {
+    "icona": "annuire",
+    "testo": "Piace a tutti"
+   },
+   {
+    "icona": "gomma",
+    "testo": "Il sì non vale più niente"
+   }
+  ]
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "Dire sempre di sì<br>toglie valore al sì successivo."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "Quando entrano in conflitto,<br><span class=\"gold\">si spende la simpatia.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "La parte più importante della persuasione<br>non si fa al momento della persuasione."
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Si fa nei momenti in cui<br>non stavi chiedendo niente."
+ },
+ {
+  "file": "c49",
+  "layout": "statement",
+  "title": "Di' una volta:<br><span class=\"gold\">questo non lo so.</span>"
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "site": "laparolagiusta.it"
+ }
+]
