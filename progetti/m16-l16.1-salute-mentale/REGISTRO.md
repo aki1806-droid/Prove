@@ -72,12 +72,51 @@ orientamento all'esame (la data sola da ricordare).
 | le 48 scene generano HTML | ✓ nessuna eccezione, nessun `undefined` |
 | traboccamento della cornice | ✓ nessuna slide sfora, **con i caratteri e il logo veri** |
 | provini guardati | ✓ tutte e 48, sul render definitivo |
-| verifica per trascrizione | ✗ **non fatta** — la voce non e' stata generata |
-| durata reale ≥ 7:50 | ✗ **non misurabile** — nessun montato |
-| sottotitoli SRT | ✗ **non fatti** |
+| verifica per trascrizione (tracce intere) | ✓ 99,8% su A e su B, **0 buchi nel parlato** |
+| blocchi nella fascia 8,5-21 car/s | ✓ tutti e 46 dentro |
+| confini: coppie adiacenti di segno opposto | ✓ nessuna |
+| durata del montato locale ≥ 7:50 | ✓ 7:50.80 |
+| sottotitoli SRT | ✓ 46 righe su 46 blocchi |
 
-Otto controlli del §6: **cinque passati, tre non eseguibili** finche' la voce
-non c'e'. La pipeline e' ferma al Passo 2.
+`controlli.py` dice **8 su 8 superati**. La pipeline e' arrivata in fondo: il
+video e' renderizzato.
+
+## Il montato
+
+| | |
+|---|---|
+| montato locale | `montato-16.1.mp4` — **7:50.80**, 1920×1080, 25 fps, AAC stereo |
+| montato HeyGen | `9230e3ed568f06691c3db2a10197fd30` — **7:49.62** |
+| render | 120 s (il MASTER misura 179 e 211 s per un montato di questa taglia) |
+| asset caricati | 94 in un lotto solo, tutti e 94 ingeriti |
+| sottotitoli | `montato-16.1.srt`, 46 righe. Non chiesti a HeyGen: quelli nostri |
+| | hanno i tempi esatti dei blocchi, i suoi verrebbero dall'ascolto |
+
+**I due montati non durano uguale: 470,80 s in locale, 469,62 s su HeyGen.**
+Un secondo e due decimi di differenza su 48 scene, cioe' circa 25 ms per
+scena: e' l'arrotondamento di ogni scena al fotogramma a 25 fps. Conta perche'
+**il video consegnato sta 0,38 s sotto i 470 s chiesti**: il controllo del §6
+passa sul montato locale e non sul renderizzato. Resta dentro lo standard
+«7-8 minuti» del corso, ma il numero giusto da dichiarare e' 7:49.6, non 7:50.
+
+## Costo misurato
+
+```
+voce, traccia A (3.956 car, eleven_v3)              $0,65
+voce, traccia B (3.808 car, eleven_v3)              $0,63
+trascrizione delle due tracce intere                $0,53
+                                                    ------
+                                                    $1,81
+```
+
+Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro,
+4.784 crediti disponibili).
+
+Il §8 stima ~$2,05, di cui ~$1,45 di voce: la voce reale e' costata $1,28.
+**Ma il preventivo del servizio e' pessimistico di circa 2,2 volte**: chiesto
+prima di generare, dava $2,83 per le due tracce (8.751 crediti per la A contro
+i 3.956 addebitati, cioe' un credito per carattere). Se si decide se spendere
+guardando il preventivo, si decide su un numero piu' che doppio.
 
 ## Che cosa e' andato storto, e come si e' deciso
 
@@ -125,6 +164,32 @@ il parlato dice giustamente «disciplinato»: l'errore stava solo nella slide,
 dove nessun controllo lo cercava. Trovato guardando il render definitivo, non
 quello con i caratteri di sistema — che e' un argomento per non rimandare il
 pass visivo a dopo.
+
+**Il servizio di sintesi genera quattro varianti a pagamento, se non gli si
+dice altro.** `creative_generate_speech` ha `generations_count` con default 4.
+Messo a 1: quattro varianti delle due tracce sarebbero state $11,32 invece di
+$1,28, e non ne serviva nessuna — il copione era fermo.
+
+**Tre numeri della 1.8 erano murati negli strumenti condivisi**, e su una
+lezione da 48 scene sbagliavano tutti e tre. `monta-locale.py` aveva `s50`
+scritto a mano come scena di chiusura: qui la chiusura e' `s48`, il fotogramma
+non esisteva, la concatenazione saltava in silenzio e il montato non veniva
+prodotto. `controlli.py` pretendeva `len(png)==50`, 48 righe di SRT e una
+durata di almeno 480 s — ma 50 e' il tetto duro del MASTER e non il numero di
+scene di ogni lezione, e gli «8 minuti almeno» sono la richiesta del corso
+Infermiere. Ora copertina e chiusura sono il primo e l'ultimo PNG renderizzato,
+PNG e righe SRT si contano dai blocchi, e la durata chiesta e' una costante
+dichiarata in testa al file, come `STACCO` in `tagli.py`.
+
+**Il tag ID3 dei mp3 di blocco c'e', ma e' di 44 byte.** Il §4 avverte che il
+caricamento rifiuta la traccia grezza per il tag da ~17 KB che il generatore
+scrive in testa, e dice che un mp3 di blocco passa. Misurati: blocco 44 byte
+(la firma di ffmpeg), grezzo 16.881 byte. Il §4 era preciso, e i 94
+caricamenti sono passati senza toccare niente.
+
+**Il conteggio del lotto e' davvero in ritardo.** Alla prima interrogazione lo
+stato del lotto diceva gia' `completed` mentre gli item erano 30 completati e
+64 in lavorazione. Aspettato il conteggio, come dice il §6, non lo stato.
 
 **Il controllo di traboccamento non aveva trovato niente.** Prima di crederci
 gli e' stata data una slide volutamente troppo alta: l'ha vista, +1608px.
