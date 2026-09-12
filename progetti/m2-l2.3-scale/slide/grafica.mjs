@@ -175,6 +175,13 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .griglia.fitta .c .t{font-size:27px}
 .griglia.fitta .c .sg{font-size:28px}
 .griglia.fitta .c .n{font-size:40px}
+/* Otto celle su una colonna non ci stanno nemmeno alla misura fitta: servono
+   altri 16 px. La soglia e' nel corpo, come per le altre densita'. */
+.griglia.fittissima{gap:11px}
+.griglia.fittissima .c{padding:15px 22px;gap:14px}
+.griglia.fittissima .c .t{font-size:25px;line-height:1.26}
+.griglia.fittissima .c .sg{font-size:25px}
+.griglia.fittissima .c .n{font-size:34px}
 .griglia .c .n{font-size:52px;font-weight:700;color:var(--acc);line-height:1;
                font-variant-numeric:lining-nums tabular-nums;flex:0 0 auto}
 
@@ -530,7 +537,8 @@ export const CORPI_GRAFICA = {
   // La soglia sta qui e non nelle scene: sette caselle su una colonna non ci
   // stanno alla misura piena, e ogni lezione se ne dimenticherebbe per conto suo.
   griglia: d => `<div class="griglia gfx ${
-      d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
+      d.celle.length >= (d.colonne === 1 ? 8 : 12) ? 'fittissima'
+      : d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
       style="grid-template-columns:repeat(${d.colonne ?? 2},1fr)">${d.celle.map((c, i) =>
     `<div class="c gx ${c.no ? 'no' : ''} ${(d.attive ?? d.celle.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${
       c.n != null ? `<span class="n">${c.n}</span>`

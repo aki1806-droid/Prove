@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,410
+Nella lezione 1.5 abbiamo chiuso con una frase: cio' che non e' documentato si presume non fatto. Oggi quella frase diventa il centro del discorso, e smette di essere un avvertimento per diventare un metodo.
+
+2
+00:00:15,410 --> 00:00:27,730
+La documentazione non e' la coda burocratica dell'assistenza: e' l'atto con cui l'assistenza diventa verificabile, e quindi difendibile. Senza documento, l'assistenza esiste solo nella memoria di chi l'ha fatta.
+
+3
+00:00:27,730 --> 00:00:40,340
+Nei concorsi e' materia molto presente, perche' tocca insieme tre cose: metodologia, diritto e sicurezza. Tre materie in una sola domanda, ed e' per questo che rende piu' di quasi ogni altro argomento del modulo.
+
+4
+00:00:40,340 --> 00:00:49,050
+Quattro blocchi. Natura giuridica e funzioni della cartella clinica, e dove sta dentro quella infermieristica. I sette requisiti di una corretta documentazione.
+
+5
+00:00:49,050 --> 00:00:58,850
+Come si corregge e come si conserva. E la scheda unica di terapia, che e' insieme un documento e una misura di sicurezza: la ritroveremo nella lezione sul rischio clinico.
+
+6
+00:00:58,850 --> 00:01:09,130
+La cartella clinica raccoglie i dati di un episodio di ricovero. Redatta da un pubblico ufficiale o da un incaricato di pubblico servizio nell'esercizio delle funzioni, ha natura di atto pubblico.
+
+7
+00:01:09,130 --> 00:01:19,700
+E fa fede fino a querela di falso di quanto il redattore attesta essere avvenuto in sua presenza. Sono parole tecniche e vanno dette con quelle parole: all'orale la formula esatta conta.
+
+8
+00:01:19,700 --> 00:01:33,180
+Fa fede fino a querela di falso: significa che per contestarla non basta dire che e' sbagliata. Serve un procedimento penale. E' il livello di forza probatoria piu' alto che un documento possa avere nel nostro ordinamento.
+
+9
+00:01:33,180 --> 00:01:45,370
+Due conseguenze, e vanno viste come le due facce della stessa medaglia. Prima: l'annotazione falsa o alterata integra falso in atto pubblico, articoli 476 e seguenti del codice penale.
+
+10
+00:01:45,370 --> 00:01:58,120
+Seconda: cio' che non compare si presume non eseguito. La cartella protegge chi documenta bene ed espone chi documenta male. Non e' un adempimento contro di te: e' la tua prova, e a distanza di anni l'unica che avrai.
+
+11
+00:01:58,120 --> 00:02:10,490
+Sei funzioni. Clinico assistenziale: consente a ciascuno di riprendere il filo. Giuridica e probatoria. Gestionale: DRG e tariffazione, perche' la cartella e' anche il documento su cui l'ospedale viene pagato.
+
+12
+00:02:10,490 --> 00:02:23,590
+Epidemiologica e di ricerca. Formativa, per la didattica e l'audit. E di tutela della persona, che attraverso di essa esercita il diritto di accesso ai propri dati. Il documento sta in azienda, ma i dati sono della persona.
+
+13
+00:02:23,590 --> 00:02:33,270
+Sei funzioni per un solo documento, ed e' il motivo per cui la cartella ha requisiti cosi' rigidi: deve servire a sei scopi diversi, alcuni dei quali a distanza di anni.
+
+14
+00:02:33,270 --> 00:02:44,770
+La cartella infermieristica e' parte integrante della cartella clinica e ne condivide natura e requisiti. Non e' un allegato e non e' un quaderno di reparto: e' dentro l'atto pubblico, con tutto quello che ne consegue.
+
+15
+00:02:44,770 --> 00:02:55,600
+Documenta il processo di assistenza, e la sua struttura ne segue la sequenza. Accertamento all'ingresso. Scale con le rivalutazioni. Problemi o diagnosi, con data di apertura e di chiusura.
+
+16
+00:02:55,600 --> 00:03:08,760
+Obiettivi e pianificazione. Diario. Scheda terapeutica unica. Schede specifiche: bilancio idrico, medicazioni, glicemie, contenzione. Ed educazione e continuita', con la lettera infermieristica di dimissione.
+
+17
+00:03:08,760 --> 00:03:19,700
+Sette requisiti. Veridicita': si scrive cio' che e' realmente accaduto. Completezza: anche le omissioni motivate e i rifiuti. Chiarezza: leggibile, con abbreviazioni solo se ammesse.
+
+18
+00:03:19,700 --> 00:03:31,160
+Contestualita': si registra al momento, non a fine turno. Tracciabilita': data, ora, firma, cioe' chi ha fatto che cosa e quando. Tre elementi, e se ne manca uno la tracciabilita' non c'e'.
+
+19
+00:03:31,160 --> 00:03:42,030
+Pertinenza: solo i dati necessari, per il principio di minimizzazione. E oggettivita'. Sette parole, e le due che si vedono subito in una prova scritta sono contestualita' e oggettivita'.
+
+20
+00:03:42,030 --> 00:03:52,420
+Sull'oggettivita' fermiamoci. Si descrive, non si giudica. Paziente maleducato e' un giudizio, e indebolisce il documento: non e' verificabile da nessuno, e dice piu' di chi scrive.
+
+21
+00:03:52,420 --> 00:04:01,250
+Rifiuta l'igiene e alza la voce quando gli viene proposta e' un dato. Stessa scena, due documenti con valore completamente diverso.
+
+22
+00:04:01,250 --> 00:04:13,610
+Tre annotazioni che non registrano un'azione, ma proteggono chi le scrive. La prima: il rifiuto, con l'informazione data sulle conseguenze. Non basta scrivere rifiuta: va scritto che cosa sapeva quando ha rifiutato.
+
+23
+00:04:13,610 --> 00:04:24,240
+La segnalazione fatta al medico o al coordinatore, con l'orario. E l'omissione motivata. Un intervento saltato e spiegato e' una scelta; un intervento saltato e muto e' una mancanza.
+
+24
+00:04:24,240 --> 00:04:32,360
+Sono le tre che mancano piu' spesso, e le tre che in giudizio pesano di piu'. Chi le scrive tutte e tre ha gia' risposto alle domande che gli verrebbero fatte dopo.
+
+25
+00:04:32,360 --> 00:04:44,920
+La regola della correzione. Si traccia una riga singola sul dato errato e si scrive accanto il dato corretto con data, ora e firma. Il dato sbagliato deve restare leggibile: e' parte della storia del documento.
+
+26
+00:04:44,920 --> 00:04:55,750
+Mai correttore, cancellature, sovrascritture, fogli strappati. Il motivo e' sottile e va capito, perche' e' esattamente il motivo che si chiede all'orale, dove non basta enunciare la regola.
+
+27
+00:04:55,750 --> 00:05:07,570
+Cancellare un dato in un atto pubblico sposta il sospetto dall'errore all'occultamento. Un errore corretto correttamente e' un errore; un errore cancellato sembra qualcos'altro.
+
+28
+00:05:07,570 --> 00:05:20,870
+Quattro mai. Mai lasciare spazi bianchi: uno spazio bianco e' lo spazio in cui qualcuno potrebbe inserire qualcosa dopo. Mai firmare per altri e mai condividere le credenziali: la firma attesta chi ha eseguito.
+
+29
+00:05:20,870 --> 00:05:31,010
+Mai annotare in anticipo una somministrazione non ancora eseguita: e' falso anche se poi la esegui davvero. Il documento attesta un fatto, e in quel momento il fatto non c'e'.
+
+30
+00:05:31,010 --> 00:05:39,900
+E mai abbreviazioni ambigue: le sigle sono una fonte documentata di errore in terapia. Quattro mai, e nessuno dei quattro ammette eccezioni.
+
+31
+00:05:39,900 --> 00:05:52,070
+La scheda unica di terapia unifica su un unico supporto prescrizione, preparazione e somministrazione, eliminando le trascrizioni intermedie. Un solo supporto, tre momenti, nessuna ricopiatura.
+
+32
+00:05:52,070 --> 00:06:02,520
+Non e' un modulo in piu': e' una delle misure piu' efficaci di prevenzione dell'errore, perche' la trascrizione manuale da un supporto a un altro e' uno dei punti di maggior rischio del processo.
+
+33
+00:06:02,520 --> 00:06:14,850
+Sette elementi. Identificazione della persona. Farmaco e forma farmaceutica. Dose e unita' di misura, ed e' il punto in cui nascono gli errori piu' gravi: un milligrammo scambiato per un grammo e' un fattore mille.
+
+34
+00:06:14,850 --> 00:06:25,310
+Via di somministrazione: una via errata puo' essere letale. Orario e frequenza. Data, ora e firma del prescrittore, che rende la prescrizione un atto imputabile.
+
+35
+00:06:25,310 --> 00:06:34,170
+E firma di chi somministra, che chiude il ciclo. Sette elementi: se ne manca uno, la prescrizione non e' completa, e una prescrizione incompleta non si esegue.
+
+36
+00:06:34,170 --> 00:06:46,290
+E la conseguenza: una prescrizione incompleta o illeggibile non va eseguita, va chiarita. Chiedo chiarimento al prescrittore, se il dubbio permane non do corso, e documento il dubbio e la richiesta.
+
+37
+00:06:46,290 --> 00:06:57,010
+E' la sequenza che conosci gia' dalle lezioni 1.2, 1.4 e 1.5. Tre lezioni diverse, un'unica risposta: e' il segno che il corso ha una spina dorsale.
+
+38
+00:06:57,010 --> 00:07:10,180
+I modelli di registrazione. Narrativo cronologico: semplice, ma disperde le informazioni su uno stesso problema. Orientato per problemi, il POMR, che raggruppa le annotazioni intorno al problema invece che intorno all'ora.
+
+39
+00:07:10,180 --> 00:07:24,310
+SOAP: soggettivo, oggettivo, analisi, piano. Esteso a SOAPIE con interventi e valutazione. Focus DAR: dato, azione, risposta. E' molto usato nelle cartelle informatizzate, perche' le tre voci diventano tre campi.
+
+40
+00:07:24,310 --> 00:07:36,450
+E la registrazione per eccezione: si annota solo cio' che si discosta da uno standard predefinito. Efficiente, ma rischiosa: cio' che non e' scritto vale come conforme, e va bene solo se tutti sanno a che cosa.
+
+41
+00:07:36,450 --> 00:07:46,240
+Qualunque modello tu usi, c'e' un elemento che non puo' mancare: la risposta della persona. E' cio' che trasforma l'annotazione da elenco di attivita' a documentazione di un processo.
+
+42
+00:07:46,240 --> 00:08:00,090
+Somministrata terapia non documenta nulla: non dice quale, non dice perche', non dice come e' andata. Somministrato paracetamolo un grammo endovena per NRS sette, rivalutato dopo quarantacinque minuti, NRS tre.
+
+43
+00:08:00,090 --> 00:08:08,250
+Questa riga documenta intervento, motivo, rivalutazione ed esito. In una riga, tutte e cinque le fasi del processo.
+
+44
+00:08:08,250 --> 00:08:19,890
+La cartella clinica si conserva illimitatamente, in quanto atto ufficiale sanitario. La legge 24 del 2017 impone di renderla disponibile entro termini definiti su richiesta dell'interessato.
+
+45
+00:08:19,890 --> 00:08:29,900
+Nella cartella elettronica valgono gli stessi requisiti, con in piu' quattro cose: credenziali personali, tracciamento degli accessi, versionamento delle modifiche e firma elettronica.
+
+46
+00:08:29,900 --> 00:08:40,390
+E procedure di continuita' operativa in caso di blocco del sistema: registrazione su supporto cartaceo predefinito e riversamento tracciato. E' una domanda d'orale che quasi nessuno prepara.
+
+47
+00:08:40,390 --> 00:08:53,780
+Ricapitoliamo. La cartella clinica e' atto pubblico e quella infermieristica ne e' parte integrante. Sette requisiti. Si corregge senza cancellare. Mai annotazioni anticipate, mai firme per altri, mai spazi bianchi.
+
+48
+00:08:53,780 --> 00:09:05,970
+La scheda unica elimina le trascrizioni. Documenta sempre rifiuto, segnalazione e omissione motivata. Registra la risposta della persona. E cio' che non e' documentato si presume non fatto. A tra poco.

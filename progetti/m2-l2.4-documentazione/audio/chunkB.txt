@@ -1,0 +1,47 @@
+La regola della correzione. Si traccia una riga singola sul dato errato e si scrive accanto il dato corretto con data, ora e firma. Il dato sbagliato deve restare leggibile: e' parte della storia del documento.
+
+Mai correttore, cancellature, sovrascritture, fogli strappati. Il motivo e' sottile e va capito, perche' e' esattamente il motivo che si chiede all'orale, dove non basta enunciare la regola.
+
+Cancellare un dato in un atto pubblico sposta il sospetto dall'errore all'occultamento. Un errore corretto correttamente e' un errore; un errore cancellato sembra qualcos'altro.
+
+Quattro mai. Mai lasciare spazi bianchi: uno spazio bianco e' lo spazio in cui qualcuno potrebbe inserire qualcosa dopo. Mai firmare per altri e mai condividere le credenziali: la firma attesta chi ha eseguito.
+
+Mai annotare in anticipo una somministrazione non ancora eseguita: e' falso anche se poi la esegui davvero. Il documento attesta un fatto, e in quel momento il fatto non c'e'.
+
+E mai abbreviazioni ambigue: le sigle sono una fonte documentata di errore in terapia. Quattro mai, e nessuno dei quattro ammette eccezioni.
+
+La scheda unica di terapia unifica su un unico supporto prescrizione, preparazione e somministrazione, eliminando le trascrizioni intermedie. Un solo supporto, tre momenti, nessuna ricopiatura.
+
+Non e' un modulo in piu': e' una delle misure piu' efficaci di prevenzione dell'errore, perche' la trascrizione manuale da un supporto a un altro e' uno dei punti di maggior rischio del processo.
+
+Sette elementi. Identificazione della persona. Farmaco e forma farmaceutica. Dose e unita' di misura, ed e' il punto in cui nascono gli errori piu' gravi: un milligrammo scambiato per un grammo e' un fattore mille.
+
+Via di somministrazione: una via errata puo' essere letale. Orario e frequenza. Data, ora e firma del prescrittore, che rende la prescrizione un atto imputabile.
+
+E firma di chi somministra, che chiude il ciclo. Sette elementi: se ne manca uno, la prescrizione non e' completa, e una prescrizione incompleta non si esegue.
+
+E la conseguenza: una prescrizione incompleta o illeggibile non va eseguita, va chiarita. Chiedo chiarimento al prescrittore, se il dubbio permane non do corso, e documento il dubbio e la richiesta.
+
+E' la sequenza che conosci gia' dalle lezioni 1.2, 1.4 e 1.5. Tre lezioni diverse, un'unica risposta: e' il segno che il corso ha una spina dorsale.
+
+I modelli di registrazione. Narrativo cronologico: semplice, ma disperde le informazioni su uno stesso problema. Orientato per problemi, il POMR, che raggruppa le annotazioni intorno al problema invece che intorno all'ora.
+
+SOAP: soggettivo, oggettivo, analisi, piano. Esteso a SOAPIE con interventi e valutazione. Focus DAR: dato, azione, risposta. E' molto usato nelle cartelle informatizzate, perche' le tre voci diventano tre campi.
+
+E la registrazione per eccezione: si annota solo cio' che si discosta da uno standard predefinito. Efficiente, ma rischiosa: cio' che non e' scritto vale come conforme, e va bene solo se tutti sanno a che cosa.
+
+Qualunque modello tu usi, c'e' un elemento che non puo' mancare: la risposta della persona. E' cio' che trasforma l'annotazione da elenco di attivita' a documentazione di un processo.
+
+Somministrata terapia non documenta nulla: non dice quale, non dice perche', non dice come e' andata. Somministrato paracetamolo un grammo endovena per NRS sette, rivalutato dopo quarantacinque minuti, NRS tre.
+
+Questa riga documenta intervento, motivo, rivalutazione ed esito. In una riga, tutte e cinque le fasi del processo.
+
+La cartella clinica si conserva illimitatamente, in quanto atto ufficiale sanitario. La legge 24 del 2017 impone di renderla disponibile entro termini definiti su richiesta dell'interessato.
+
+Nella cartella elettronica valgono gli stessi requisiti, con in piu' quattro cose: credenziali personali, tracciamento degli accessi, versionamento delle modifiche e firma elettronica.
+
+E procedure di continuita' operativa in caso di blocco del sistema: registrazione su supporto cartaceo predefinito e riversamento tracciato. E' una domanda d'orale che quasi nessuno prepara.
+
+Ricapitoliamo. La cartella clinica e' atto pubblico e quella infermieristica ne e' parte integrante. Sette requisiti. Si corregge senza cancellare. Mai annotazioni anticipate, mai firme per altri, mai spazi bianchi.
+
+[warm] La scheda unica elimina le trascrizioni. Documenta sempre rifiuto, segnalazione e omissione motivata. Registra la risposta della persona. E cio' che non e' documentato si presume non fatto. A tra poco.

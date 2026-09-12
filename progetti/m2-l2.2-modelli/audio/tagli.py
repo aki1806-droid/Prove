@@ -94,15 +94,25 @@ def segmenti(traccia, dmin):
     if D > t + 0.05: segs.append((t, D))
     return D, segs, P
 
+def peso(q):
+    """Quanto DURA un pezzo di copione, non quanto e' lungo.
+
+    La DTW pesava i pezzi in caratteri, e su 2.4 questo ha spostato di 2,1 s il
+    confine fra s38 e s39: il pezzo «1.4 e 1.5.» sono dieci caratteri, ma la
+    voce dice «uno punto quattro e uno punto cinque» e ci mette quattro
+    secondi. Una cifra vale circa cinque caratteri di tempo — e' lo stesso peso
+    gia' tarato in verifica-locale.py sui 48 blocchi misurati di 1.3."""
+    return len(q) + len(re.findall(r"\d", q)) * 4.0
+
 def pezzi_testo(gruppo):
     """Il copione spezzato alla punteggiatura: e' li' che la voce mette le pause.
-    Restituisce (caratteri, id del blocco, e' l'ultimo pezzo del blocco)."""
+    Restituisce (peso in tempo, id del blocco, e' l'ultimo pezzo del blocco)."""
     out = []
     for x in gruppo:
         t = re.sub(r"\[[a-z]+\]", "", x["text"]).strip()
         parti = [q for q in re.split(r"(?<=[.:;,])\s+", t) if q.strip()]
         for i,q in enumerate(parti):
-            out.append((len(q), x["id"], i == len(parti)-1))
+            out.append((peso(q), x["id"], i == len(parti)-1))
     return out
 
 def allinea_dtw(pezzi, segs, MAXT=5, MAXA=2):
