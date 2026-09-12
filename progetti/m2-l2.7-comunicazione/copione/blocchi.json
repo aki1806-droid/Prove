@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Gli studi sugli eventi avversi convergono su un dato: una quota molto rilevante ha, fra le cause contribuenti, un fallimento della comunicazione. E soprattutto nei momenti di passaggio."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cambio turno, trasferimento, dimissione. Sono i tre momenti in cui l'informazione cambia di mano, ed e' li' che si perde: non mentre si cura, ma mentre si passa la cura a qualcun altro."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Per questo la comunicazione clinica non sta nel modulo delle competenze relazionali: sta qui, accanto al rischio clinico. E' una barriera di sicurezza a tutti gli effetti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro blocchi. Il passaggio di consegne, con il metodo SBAR. La comunicazione con la persona assistita, e le tecniche che funzionano davvero invece di quelle che si danno per scontate."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cattive notizie e la gestione dell'aggressivita'. E la continuita' assistenziale nei passaggi di setting, che e' la parte che quasi nessun candidato prepara e che all'orale si sente subito."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il passaggio di consegne e' il trasferimento di informazioni e di responsabilita' su una persona assistita, da un professionista a un altro. Le due cose insieme, non solo la prima."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il punto di maggior fragilita' del sistema: informazioni che esistono nella testa di uno devono arrivare intatte alla testa di un altro, in poco tempo e spesso in un ambiente rumoroso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il metodo piu' diffuso e' SBAR, quattro lettere. S, Situation: chi e' la persona e qual e' il problema adesso, in una frase sola. B, Background: il contesto clinico rilevante, non tutta la storia."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A, Assessment: la tua valutazione, che cosa pensi stia accadendo. R, Recommendation: che cosa proponi o che cosa chiedi, in modo esplicito. Sono le due lettere che quasi tutti saltano."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella variante ISBAR si antepone la I di Identify: chi sei tu e chi e' il paziente. In una telefonata fra reparti diversi e' la lettera che evita meta' degli equivoci, e costa cinque secondi."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vediamolo su una chiamata al medico. I: sono Rossi, infermiere della Medicina 2, chiamo per la signora Bianchi, letto 12, 78 anni. S: da venti minuti e' dispnoica, satura 88 per cento in aria ambiente."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "B: ricoverata tre giorni fa per scompenso cardiaco, in terapia diuretica; questa mattina peso piu' un chilo e otto. A: penso a un peggioramento del sovraccarico, ha rantoli alle basi e gli edemi aumentati."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "R: ho messo ossigeno a 2 litri con occhialini e l'ho posizionata semiseduta. Chiedo che venga a valutarla, e se posso anticipare il diuretico. Trenta secondi, e il medico sa anche quanto e' urgente."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Perche' funziona? Per le lettere A e R. Molti passaggi falliscono non per mancanza di dati, ma perche' chi chiama descrive e non chiede: l'altro non capisce che cosa gli si domanda, ne' con quale urgenza."
+ },
+ {
+  "id": "s16",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette regole per l'handover. Luogo e tempo dedicati, con interruzioni ridotte. Supporto scritto: la consegna verbale non sostituisce la cartella. Struttura fissa per tutti i pazienti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cosi' nulla dipende da chi parla. Priorita' esplicite: chi e' instabile, che cosa va controllato, che cosa e' in sospeso. Read back. Riservatezza: la consegna non si fa in corridoio. E spazio per le domande."
+ },
+ {
+  "id": "s18",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un handover senza domande e' quasi sempre un handover non compreso. Il read back nasce da qui: e' la ripetizione ad alta voce dell'informazione critica ricevuta, per verificare di aver capito."
+ },
+ {
+  "id": "s19",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sequenza e' fissa: ripeto ad alta voce, faccio confermare, trascrivo subito, ottengo la convalida scritta del prescrittore. Quattro passi in quest'ordine, e sono la Raccomandazione numero 7 vista da qui."
+ },
+ {
+  "id": "s20",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre strumenti, tre momenti. Briefing: prima di un'attivita' o all'inizio del turno, per allineare il gruppo su obiettivi, criticita' e ruoli. Time out: immediatamente prima di una procedura invasiva."
+ },
+ {
+  "id": "s21",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la verifica finale di paziente, sito e procedura: e' parte della check list di sala. Debriefing: dopo, per rivedere insieme che cosa e' andato bene e che cosa migliorare, senza cercare colpevoli."
+ },
+ {
+  "id": "s22",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il debriefing dopo un'emergenza ha anche una funzione di supporto all'equipe: e' il tema delle seconde vittime della lezione scorsa, visto dal lato pratico di che cosa si fa il giorno dopo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo alla persona assistita. Il tempo di relazione e' tempo di cura, dice il Codice deontologico; il tempo della comunicazione costituisce tempo di cura, dice la legge 219. Due premesse che qui diventano tecnica."
+ },
+ {
+  "id": "s24",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La comunicazione non e' cio' che si fa se avanza tempo: e' un intervento, e come ogni intervento si pianifica, si esegue con una tecnica e si documenta. Il resto e' buona volonta', che non basta."
+ },
+ {
+  "id": "s25",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sei tecniche. Ascolto attivo: attenzione piena, sedersi, mettersi all'altezza degli occhi, non interrompere. Domande aperte: come sta andando con il dolore, non il dolore e' passato vero."
+ },
+ {
+  "id": "s26",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda induce la risposta, e una risposta indotta non e' un dato. Riformulazione: restituire con parole proprie cio' che si e' capito. Chiarificazione: chiedere quando qualcosa non torna."
+ },
+ {
+  "id": "s27",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il silenzio: dopo una notizia difficile, non riempire subito il vuoto. E' la tecnica piu' difficile, perche' il silenzio mette a disagio chi lo regge molto piu' di chi lo riceve. E il teach back."
+ },
+ {
+  "id": "s28",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il teach back e' la tecnica piu' utile che quasi nessuno cita. Non si chiede ha capito, perche' la risposta e' quasi sempre si: per cortesia, per imbarazzo, per non deludere chi ha spiegato."
+ },
+ {
+  "id": "s29",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiede invece alla persona di ripetere con parole proprie cio' che dovra' fare. Mi rispieghi come fara' l'insulina domani mattina. La differenza fra le due domande e' tutta nella risposta."
+ },
+ {
+  "id": "s30",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E' il modo piu' efficace per verificare davvero la comprensione, ed e' la tecnica che qualifica qualunque risposta sull'educazione terapeutica. Chi la nomina all'orale ha gia' detto molto di se'."
+ },
+ {
+  "id": "s31",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le barriere. Della persona: il dolore, l'ansia, i deficit sensoriali, il deterioramento cognitivo, la bassa alfabetizzazione sanitaria, la lingua. Nessuna di queste e' colpa di chi le ha."
+ },
+ {
+  "id": "s32",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dell'operatore: il gergo tecnico, la fretta, il presupporre di aver spiegato, la chiusura difensiva. Ambientali: il rumore, la mancanza di privacy, le interruzioni continue."
+ },
+ {
+  "id": "s33",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i facilitatori. Verificare protesi acustiche e occhiali. Sedersi. Una informazione alla volta. Materiale scritto semplice. Mediatore culturale dove serve. E il caregiver, se la persona lo desidera."
+ },
+ {
+  "id": "s34",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cattive notizie. La comunicazione di diagnosi e prognosi compete al medico, come sappiamo dalla lezione 1.4. Il protocollo piu' citato e' SPIKES, sei tappe, e vale la pena saperle per esteso."
+ },
+ {
+  "id": "s35",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "S, Setting: luogo riservato, tempo protetto, presenza di chi la persona desidera. P, Perception: capire che cosa la persona gia' sa e crede. I, Invitation: chiedere quanto desidera sapere."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' il diritto a non sapere della legge 219. K, Knowledge: dare l'informazione gradualmente, con parole semplici. E, Emotions: accogliere la reazione prima di proseguire. S, Strategy and summary."
+ },
+ {
+  "id": "s37",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riassumere e indicare i passi successivi. E il ruolo dell'infermiere, che e' definito e sostanziale anche se la notizia non la da' lui. Prepara il contesto. E' presente. Verifica che cosa e' stato compreso."
+ },
+ {
+  "id": "s38",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' cio' che resta dopo un colloquio difficile e' molto meno di cio' che e' stato detto. Accompagna nelle ore successive. E rileva i bisogni che emergono, che spesso emergono dopo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso classico: il paziente chiede all'infermiere quale sia la sua diagnosi. La risposta corretta non e' comunicarla, e non e' nemmeno dire non so nulla e cambiare argomento."
+ },
+ {
+  "id": "s40",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Si esplora che cosa la persona sa e che cosa teme. Si resta con lei. Si attiva il medico perche' l'informazione arrivi. E si documenta la richiesta e l'attivazione. Quattro passi, in quest'ordine."
+ },
+ {
+  "id": "s41",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aggressione agli operatori e' un rischio professionale riconosciuto: Raccomandazione numero 8, e legge 113 del 2020, che ha rafforzato la tutela penale del personale sanitario."
+ },
+ {
+  "id": "s42",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione e' ambientale e organizzativa: gestione delle attese e dell'informazione, spazi, illuminazione, vie di fuga, sistemi di allarme. E passa dal riconoscimento precoce."
+ },
+ {
+  "id": "s43",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tono che sale, irrequietezza motoria, invasione dello spazio, minacce verbali: l'escalation ha quasi sempre segnali anticipatori, e chi li vede ha ancora tempo per la de escalation."
+ },
+ {
+  "id": "s44",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da fare: tono calmo e volume basso, distanza di sicurezza e via di uscita libera, non contrapporsi frontalmente, riconoscere l'emozione, offrire opzioni concrete, non promettere l'impossibile."
+ },
+ {
+  "id": "s45",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da non fare: alzare la voce, toccare la persona, restare soli in uno spazio chiuso, rispondere alle provocazioni, minimizzare. E dopo: mettere in sicurezza, chiedere supporto, segnalare, documentare."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Documentare i fatti in modo oggettivo, come nella lezione 2.4, e attivare il supporto per l'operatore coinvolto, come nella 2.6. Tre lezioni che si chiudono in un unico gesto."
+ },
+ {
+  "id": "s47",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiudiamo con la continuita' assistenziale, che ha tre dimensioni. Informativa: le informazioni seguono la persona. Gestionale: gli interventi sono coerenti fra loro. Relazionale: c'e' un riferimento stabile."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento infermieristico della continuita' verso casa e' la lettera infermieristica di dimissione, che non duplica quella medica. Riporta i bisogni assistenziali residui, l'autonomia e gli ausili."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lesioni e medicazioni in corso. Dispositivi presenti: catetere, stomia, accessi vascolari. Educazione erogata e residua. E il caregiver di riferimento. Nella prossima ricomponiamo il modulo. A tra poco."
+ }
+]
