@@ -142,7 +142,21 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
   `silencedetect`), si divide in proporzione ai caratteri dei blocchi in
   mezzo, e si aggancia ogni punto al silenzio piu' vicino. Sulla 5.1 due
   valori messi cosi' hanno riportato cinque blocchi in banda tutti insieme.
-  Una cosa da non fare: **muovere un confine verificato per far tornare un
+  Il conto sul parlato netto serve anche al contrario, cioe' a **scartare un
+  candidato plausibile**: nella 6.1 il silenzio che sembrava il confine giusto
+  avrebbe fatto girare la seconda meta' del blocco dopo a trenta caratteri al
+  secondo, che questa voce non tiene. Il candidato buono era quello prima.
+  Un inganno da conoscere, dalla 6.4: **due blocchi vicini che finiscono con
+  le stesse parole**. «...non basta a renderlo un effetto» e «...non e' un
+  effetto»: `correggi` ha agganciato la coda al blocco sbagliato e ha tirato
+  il confine indietro di cinque secondi, dentro il blocco. La trascrizione non
+  se ne accorge — la prova e' la banda, con il blocco a 34 caratteri al
+  secondo e il successivo improvvisamente senza coda.
+  E un dettaglio di conteggio, dalla 6.5: **il tag audio si conta nei
+  caratteri ma non si sente**. Un blocco che comincia con `[thoughtful]` porta
+  tredici caratteri muti, che a quella lunghezza valgono due o tre punti di
+  banda. Prima di dire che un blocco taggato e' fuori banda, il tag va tolto.
+    Una cosa da non fare: **muovere un confine verificato per far tornare un
   numero**. Un blocco a 21-22 caratteri al secondo con i confini confermati
   per contenuto e i vicini in banda e' un passaggio letto veloce, non un
   taglio sbagliato. Si annota nel registro e si va avanti.

@@ -297,7 +297,20 @@ letto veloce, si annota e si va avanti.
 Quando la catena è scalata di uno, il modo più solido di ricostruirla non sono
 i caratteri grezzi ma il **tempo di parlato netto**: si somma il parlato fra i
 due confini certi (silenzi esclusi), si divide in proporzione ai caratteri dei
-blocchi in mezzo, e si aggancia ogni punto al silenzio più vicino.
+blocchi in mezzo, e si aggancia ogni punto al silenzio più vicino. Lo stesso
+conto serve a **scartare** un candidato che sembra buono: se con quel taglio
+un blocco vicino andrebbe a trenta caratteri al secondo, il candidato giusto è
+un altro.
+
+Due trappole del correttore automatico:
+
+- **due blocchi vicini che finiscono con le stesse parole.** «…non basta a
+  renderlo un effetto» e «…non è un effetto»: la coda trascritta si aggancia
+  al blocco sbagliato e il confine viene tirato dentro il blocco. La
+  trascrizione non se ne accorge, la banda sì;
+- **il tag audio si conta nei caratteri ma non si sente.** Un blocco che
+  comincia con `[thoughtful]` porta tredici caratteri muti. Prima di dire che
+  un blocco taggato è fuori banda, il tag va tolto.
 
 ## Passo 4 — Renderizzare le slide
 
