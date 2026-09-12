@@ -110,12 +110,36 @@ for b in blocchi:
     p=f'  +{b["posa"]}s' if b["posa"] else ""
     print(f'    {b["id"]}  {len(b["text"]):3d} car  [{b["tema"]:8s}]{p} {b["text"][:52]}...')
 
-acc=0; stacco=None
-for i,b in enumerate(blocchi):
-    acc+=len(b["text"])+1
-    if acc>tot/2 and stacco is None and i+1<len(blocchi) and b["capitolo"]!=blocchi[i+1]["capitolo"]:
-        stacco=b["id"]; a=acc
-print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {tot-a} car   (limite 5000)")
+# Lo stacco fra le due tracce: il confine di capitolo che divide i caratteri
+# nel modo piu' pari, fra quelli che tengono ENTRAMBI i chunk sotto i 5.000.
+# Prendere il primo confine dopo la meta' non basta: su 2.2 dava un chunk A da
+# 5.072 caratteri, e la voce avrebbe rifiutato il testo.
+LIMITE = 5000
+cand = []
+acc = 0
+for i, b in enumerate(blocchi[:-1]):
+    acc += len(b["text"]) + 1
+    if b["capitolo"] != blocchi[i+1]["capitolo"]:
+        cand.append((b["id"], acc, tot - acc))
+buoni = [c for c in cand if c[1] <= LIMITE and c[2] <= LIMITE]
+if buoni:
+    stacco, a, bb = min(buoni, key=lambda c: abs(c[1] - c[2]))
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+else:
+    stacco, a, bb = min(cand, key=lambda c: max(c[1], c[2]))
+    errori.append(f"nessuno stacco tiene i due chunk sotto {LIMITE}: il migliore e' "
+                  f"{stacco} con {max(a, bb)} car. Serve un capitolo in piu'.")
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+# tagli.py deve tagliare dove la voce ha davvero staccato: se le due costanti
+# divergono, i blocchi finiscono sulla traccia sbagliata e non se ne accorge
+# nessuno finche' non si guarda il video.
+import pathlib as _pl
+_tagli = _pl.Path("audio/tagli.py")
+if _tagli.exists():
+    _m = re.search(r'STACCO\s*=\s*"(s\d+)"', _tagli.read_text(encoding="utf-8"))
+    if _m and _m.group(1) != stacco:
+        errori.append(f'audio/tagli.py ha STACCO = "{_m.group(1)}", qui lo stacco e\' {stacco}')
+
 print("\n" + ("OK, nessun errore" if not errori else "ERRORI:\n  " + "\n  ".join(errori)))
 json.dump(blocchi, open("copione/blocchi.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
 

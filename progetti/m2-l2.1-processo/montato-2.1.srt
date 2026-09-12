@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,590
+Apriamo il secondo modulo. Se il modulo 1 era la grammatica della professione, questo e' la sintassi: il metodo con cui si costruisce una frase assistenziale che regge.
+
+2
+00:00:12,590 --> 00:00:23,710
+E ti dico subito perche' questa lezione e' fra le piu' redditizie del corso: il processo di assistenza e' l'ossatura di ogni risposta a caso clinico. Non un argomento fra gli altri: la forma che tutti gli altri prendono.
+
+3
+00:00:23,710 --> 00:00:35,030
+Nel concorso di Azienda Zero i casi non arrivano solo nella prova pratica: arrivano anche nella prova scritta, come quesiti a risposta sintetica. Chi padroneggia questo schema ha una struttura pronta per qualunque traccia.
+
+4
+00:00:35,030 --> 00:00:44,970
+Quattro traguardi. Le cinque fasi del processo, e perche' e' ciclico. La diagnosi infermieristica, con la struttura PES, la differenza dalla diagnosi medica e il problema collaborativo.
+
+5
+00:00:44,970 --> 00:00:54,160
+Poi come si scrive un obiettivo e come si stabiliscono le priorita'. E infine lo schema in cinque passi per rispondere a un caso clinico, che userai per tutto il resto del corso.
+
+6
+00:00:54,160 --> 00:01:03,240
+Il processo di assistenza infermieristica e' il metodo sistematico e razionale con cui l'infermiere pianifica ed eroga l'assistenza. Non e' un adempimento burocratico.
+
+7
+00:01:03,240 --> 00:01:14,920
+E' la traduzione operativa dell'autonomia professionale. E non lo dico io: la legge 251 del 2000 afferma che le professioni infermieristiche operano utilizzando metodologie di pianificazione per obiettivi.
+
+8
+00:01:14,920 --> 00:01:26,250
+E' la stessa autonomia di cui abbiamo parlato nel modulo 1, vista dal lato del metodo. Il metodo non e' un vincolo all'autonomia: ne e' la prova. Chi decide deve poter dire su quali dati ha deciso.
+
+9
+00:01:26,250 --> 00:01:38,360
+Cinque fasi, e conviene impararle come una frase sola. Accertamento. Diagnosi infermieristica. Pianificazione. Attuazione. Valutazione. Raccolgo, interpreto, decido, faccio, verifico.
+
+10
+00:01:38,360 --> 00:01:48,230
+E nota la freccia che torna indietro: il processo e' ciclico. La valutazione rialimenta l'accertamento, e il piano si modifica di conseguenza. Non e' una scaletta che si percorre una volta sola.
+
+11
+00:01:48,230 --> 00:01:58,090
+Nei quiz la domanda tipica chiede l'ordine, oppure quale fase manca da un elenco. La fase che sparisce piu' spesso e' proprio la valutazione: tienila d'occhio, e' anche quella che vale piu' punti.
+
+12
+00:01:58,090 --> 00:02:07,770
+Una precisazione che evita un dubbio in sede d'esame. Alcuni modelli anglosassoni presentano il processo in sei fasi, separando i risultati attesi dalla pianificazione degli interventi.
+
+13
+00:02:07,770 --> 00:02:17,440
+Nei concorsi italiani lo standard resta cinque. Se un quiz ne propone sei, controlla se l'elenco distingue risultati e interventi: ma la risposta attesa e' quasi sempre cinque.
+
+14
+00:02:17,440 --> 00:02:26,540
+Prima fase: l'accertamento, cioe' la raccolta sistematica e continua dei dati. E attenzione alla parola continua: non e' un momento iniziale che si esaurisce all'ingresso.
+
+15
+00:02:26,540 --> 00:02:37,200
+Si ripete a ogni turno e a ogni variazione clinica. I dati si distinguono in soggettivi, cio' che la persona riferisce: ho dolore quando mi giro nel letto. E oggettivi: cio' che tu osservi o misuri.
+
+16
+00:02:37,200 --> 00:02:50,190
+Pressione 150 su 95, cute arrossata al sacro. E poi in primari, che vengono dalla persona, e secondari: familiari, documentazione, altri professionisti. Il dato secondario va sempre attribuito alla fonte.
+
+17
+00:02:50,190 --> 00:02:59,750
+Ed ecco l'errore che distingue una risposta professionale da una generica: confondere il dato con l'interpretazione. Il paziente e' disidratato non e' un dato: e' una conclusione.
+
+18
+00:02:59,750 --> 00:03:12,940
+I dati sono mucose asciutte, plica cutanea persistente, diuresi 350 millilitri in 24 ore, riferisce di bere poco. Nella prova scritta, prima i dati e poi la conclusione: vale punti immediati.
+
+19
+00:03:12,940 --> 00:03:23,420
+Seconda fase. La diagnosi infermieristica e' il giudizio clinico sulle risposte della persona, della famiglia o della comunita' a problemi di salute o a processi vitali, reali o potenziali.
+
+20
+00:03:23,420 --> 00:03:33,330
+Il confronto con la diagnosi medica e' la domanda piu' chiesta del modulo. La diagnosi medica riguarda il processo patologico, la formula il medico, e resta stabile finche' dura la malattia.
+
+21
+00:03:33,330 --> 00:03:44,020
+La diagnosi infermieristica riguarda la risposta della persona, la formula l'infermiere, e puo' cambiare di ora in ora. Ictus ischemico e' medica. Compromissione della mobilita' e' infermieristica.
+
+22
+00:03:44,020 --> 00:03:55,520
+Come si scrive una diagnosi? Con la struttura PES. P, problem: l'etichetta diagnostica. E, etiology: i fattori correlati, correlato a. S, signs and symptoms: che si manifesta con.
+
+23
+00:03:55,520 --> 00:04:05,720
+Un esempio completo. Compromissione della mobilita', correlata a dolore post operatorio e timore di cadere, che si manifesta con rifiuto di alzarsi dal letto e bisogno di aiuto nei trasferimenti.
+
+24
+00:04:05,720 --> 00:04:16,450
+Tre pezzi: il problema, la causa, i segni. Se ne manca uno la diagnosi e' incompleta. La causa e' la parte che si dimentica: senza di lei l'intervento non ha bersaglio.
+
+25
+00:04:16,450 --> 00:04:27,800
+Distinzione fondamentale. La diagnosi reale si scrive con PES, perche' il problema c'e' e ha segni. La diagnosi di rischio si scrive con PE: solo problema e fattori di rischio, senza segni e sintomi.
+
+26
+00:04:27,800 --> 00:04:40,840
+Perche' il problema non si e' ancora manifestato. Esempio: rischio di lesione da pressione, correlato a immobilita' e Braden 12. Niente che si manifesta con: se ci fossero segni, la lesione ci sarebbe gia'.
+
+27
+00:04:40,840 --> 00:04:51,140
+Questo genera il distrattore classico del modulo. Se un quiz propone rischio di caduta correlato a instabilita', che si manifesta con caduta avvenuta, la formulazione e' sbagliata.
+
+28
+00:04:51,140 --> 00:05:01,730
+Se la caduta e' avvenuta, il problema e' reale, non di rischio. Ogni volta che vedi un che si manifesta con dentro una diagnosi di rischio, hai trovato l'opzione errata.
+
+29
+00:05:01,730 --> 00:05:11,880
+Non tutto cio' che l'infermiere gestisce e' una diagnosi infermieristica. Esistono i problemi collaborativi: complicanze fisiologiche che l'infermiere sorveglia, e che gestisce insieme al medico.
+
+30
+00:05:11,880 --> 00:05:23,740
+Si enunciano cosi': complicanza potenziale, emorragia post operatoria. La differenza sta nell'azione prevalente: nella diagnosi infermieristica tratti, nel problema collaborativo sorvegli e attivi.
+
+31
+00:05:23,740 --> 00:05:34,570
+Terza fase, la pianificazione. E prima cosa, la distinzione che vale una domanda in ogni prova: l'obiettivo descrive il risultato atteso nella persona assistita, non l'attivita' dell'infermiere.
+
+32
+00:05:34,570 --> 00:05:45,380
+Mobilizzare il paziente tre volte al giorno e' un intervento. Il paziente mantiene la stazione eretta per due minuti con un ausilio entro 48 ore e' un obiettivo. Guarda il soggetto della frase.
+
+33
+00:05:45,380 --> 00:05:57,570
+Sei criteri. Centrato sulla persona: il soggetto e' lei. Specifico e osservabile, non generico. Misurabile, con un indicatore. Realistico rispetto alle condizioni della persona e alle risorse che hai.
+
+34
+00:05:57,570 --> 00:06:07,410
+Condiviso con la persona, perche' un obiettivo che lei non accetta non si raggiunge. E temporalizzato: entro quando. A breve o a lungo termine, purche' il tempo sia dichiarato.
+
+35
+00:06:07,410 --> 00:06:18,750
+Pianificare significa anche scegliere l'ordine. Tre criteri, in sequenza. Primo, la sopravvivenza: vie aeree, respiro, circolo. Un problema che minaccia la vita precede sempre un problema di comfort.
+
+36
+00:06:18,750 --> 00:06:29,350
+Secondo, la gerarchia dei bisogni: fisiologici e di sicurezza prima di quelli relazionali. Con un'avvertenza: nella pratica il dolore intenso e l'ansia grave diventano prioritari.
+
+37
+00:06:29,350 --> 00:06:39,920
+Perche' impediscono tutto il resto. Terzo, la percezione della persona: a parita' di urgenza clinica, ha priorita' il problema che lei vive come piu' grave. E' il criterio che quasi nessuno cita.
+
+38
+00:06:39,920 --> 00:06:49,310
+Quale intervento ha priorita' e' la domanda piu' frequente della prova pratica, e il ragionamento e' sempre lo stesso. C'e' un rischio immediato per la vita? Se si', ABC.
+
+39
+00:06:49,310 --> 00:07:00,350
+Se no, c'e' un rischio di danno a breve? Caduta imminente, stravaso, sanguinamento: agisci li'. Se no, guarda l'impatto sulla persona e quello che il piano prevede gia'. In quest'ordine, sempre.
+
+40
+00:07:00,350 --> 00:07:13,540
+E tieni a mente una cosa che salva molte risposte: valutare non e' perdere tempo. Spesso l'opzione corretta e' rilevo i parametri, o valuto la situazione, e non un intervento impulsivo che sembra piu' attivo.
+
+41
+00:07:13,540 --> 00:07:23,470
+Quarta fase, l'attuazione. Eroghi gli interventi, li adatti alla situazione reale, coordini l'equipe, attribuisci al personale di supporto le attivita' compatibili, e registri.
+
+42
+00:07:23,470 --> 00:07:34,340
+Gli interventi sono di tre tipi: autonomi, su prescrizione, collaborativi. Quinta fase, la valutazione: confronti il risultato con l'obiettivo, con l'indicatore che avevi scelto, e decidi.
+
+43
+00:07:34,340 --> 00:07:45,270
+Raggiunto, parzialmente raggiunto, non raggiunto. E in tutti e tre i casi il piano si aggiorna: chiudi la diagnosi risolta, correggi l'obiettivo irrealistico, cambi gli interventi inefficaci.
+
+44
+00:07:45,270 --> 00:07:57,080
+E qui il consiglio piu' prezioso di questa lezione. Nei casi d'esame la risposta completa si chiude sempre con la valutazione. Rivaluto dopo 30 minuti. Rimisuro l'NRS. Verifico la ripresa della diuresi.
+
+45
+00:07:57,080 --> 00:08:08,810
+Chi finisce l'elenco degli interventi senza dire come verifichera' l'esito consegna una risposta incompleta, anche se clinicamente perfetta. E' un punto che si perde per distrazione, non per ignoranza.
+
+46
+00:08:08,810 --> 00:08:19,630
+Ti lascio lo schema da usare su qualunque traccia, anche domani. Uno: che cosa so e che cosa mi manca. Due: qual e' il problema prioritario, e con quale criterio l'ho scelto: e il criterio va detto.
+
+47
+00:08:19,630 --> 00:08:29,200
+Tre: qual e' l'obiettivo, centrato sulla persona, misurabile, con un tempo. Quattro: quali interventi, con le cautele. Cinque: come valuto, con quale indicatore e quando.
+
+48
+00:08:29,200 --> 00:08:39,320
+Vale anche quando l'argomento clinico non e' il tuo piu' forte: una risposta strutturata con qualche contenuto in meno vale piu' di un elenco disordinato di nozioni corrette. A tra poco.
