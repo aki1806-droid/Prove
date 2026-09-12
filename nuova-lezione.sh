@@ -4,17 +4,28 @@
 # Restano da scrivere due soli file, che il messaggio finale elenca.
 set -euo pipefail
 
-[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m1-l1.4-deontologia"; exit 1; }
+[ $# -ge 1 ] && [ $# -le 2 ] || {
+  echo "uso: ./nuova-lezione.sh m1-l1.4-deontologia [lezione-da-cui-copiare]"; exit 1; }
 NUOVA="progetti/$1"
 # Si copia dalla lezione piu' recente, non sempre dalla prima: gli strumenti
 # migliorano lezione dopo lezione e la 1.1 resterebbe indietro.
-DA=$(ls -d progetti/m1-l*/ | sort | tail -1); DA=${DA%/}
+# Il glob prende ogni modulo, non solo m1-, e l'ordinamento e' di versione:
+# con `sort` semplice "m16" viene prima di "m2" e si copierebbe da una lezione
+# piu' vecchia proprio mentre si crede di copiare dall'ultima.
+# Il secondo argomento scavalca la scelta quando l'ultima non e' quella giusta.
+if [ $# -eq 2 ]; then DA="progetti/$2"
+else DA=$(ls -d progetti/*-l*/ | sort -V | tail -1); fi
+DA=${DA%/}
+[ -d "$DA" ] || { echo "non trovo la lezione da cui copiare: $DA"; exit 1; }
 [ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
 
 mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
 # il tema e gli strumenti: identici per tutte le lezioni del corso
 cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
-cp "$DA/slide/layout.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
+# grafica.mjs e' infrastruttura condivisa quanto layout.mjs, che lo importa:
+# senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
+cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
+   "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"

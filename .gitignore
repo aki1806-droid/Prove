@@ -9,6 +9,9 @@ Thumbs.db
 
 # Dipendenze e build
 node_modules/
+# anche come symlink: nuova-lezione.sh ne crea uno a /opt/node22, che e' un
+# percorso della macchina e non deve entrare nel repo
+node_modules
 dist/
 build/
 .cache/
