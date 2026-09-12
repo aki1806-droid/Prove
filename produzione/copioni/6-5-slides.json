@@ -1,0 +1,57 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 6 · Lezione 6.5","title":"La riparazione","sub":"Obiezioni, tensioni, conflitti"},
+
+{"file":"c02","layout":"memo","title":"Le relazioni non si rompono per i conflitti.<br>Si rompono per quelli non riparati."},
+{"file":"c03","layout":"statement","title":"Chi litiga spesso e ripara ogni volta<br>sta meglio di chi litiga poco."},
+{"file":"c04","layout":"statement","title":"Il residuo lasciato dov'è<br><span class=\"gold\">si accumula.</span>"},
+{"file":"c05","layout":"statement","title":"Ogni cosa non riparata rende la successiva<br>più veloce a partire."},
+{"file":"c06","layout":"statement","title":"Non si sta più discutendo<br>soltanto di quella cosa lì."},
+{"file":"c07","layout":"statement","title":"Certe coppie, certi colleghi, certe famiglie<br>fanno una cosa precisa."},
+{"file":"c08","layout":"statement","title":"Arrivano al conflitto in tre secondi,<br>su una cosa da niente."},
+{"file":"c09","layout":"memo","title":"Non è la cosa da niente.<br>È tutto quello che c'è sotto."},
+
+{"file":"c10","layout":"list","kicker":"perché non si ripara","rows":["Sembra ammettere di aver avuto torto","Sembra passare da sola","Non si sa come si fa"]},
+{"file":"c11","layout":"list","kicker":"perché non si ripara","rows":["Sembra ammettere di aver avuto torto","Sembra passare da sola","Non si sa come si fa"],"active":0,"note":"è il malinteso principale"},
+{"file":"c12","layout":"statement","title":"Ed è quello che blocca più persone<br>di qualunque altra cosa."},
+{"file":"c14","layout":"memo","title":"La temperatura scende.<br>Il residuo no."},
+{"file":"c15","layout":"list","kicker":"perché non si ripara","rows":["Sembra ammettere di aver avuto torto","Sembra passare da sola","Non si sa come si fa"],"active":2,"note":"le formule che conosciamo sono quasi tutte inefficaci"},
+
+{"file":"c16","layout":"statement","title":"Le abbiamo dette tutti.<br>E le abbiamo dette convinti."},
+{"file":"c17","layout":"quote","kicker":"il «se» mette in dubbio che sia successo","title":"«Mi dispiace se<br>ti sei sentito così.»"},
+{"file":"c18","layout":"quote","kicker":"il «ma» cancella quello che precede","title":"«Scusa, ma tu<br>avevi cominciato.»"},
+{"file":"c19","layout":"quote","kicker":"è una richiesta di accettazione","title":"«Scusa se<br>sono fatto così.»"},
+{"file":"c20","layout":"statement","title":"Hanno in comune una cosa sola.<br>Ed è quella che le rende inutili."},
+{"file":"c21","layout":"memo","title":"Nessuna delle tre<br>nomina il fatto."},
+
+{"file":"c23","layout":"statement","title":"Non ripara perché non dimostra<br>di aver capito cosa è successo."},
+{"file":"c24","layout":"list","kicker":"tre elementi, e l'ordine conta","rows":["Nomina il fatto","Riconosci l'effetto","Di' cosa farai diversamente"]},
+{"file":"c25","layout":"list","kicker":"tre elementi, e l'ordine conta","rows":["Nomina il fatto","Riconosci l'effetto","Di' cosa farai diversamente"],"active":0,"note":"«ho alzato la voce» — concreto, senza attenuanti"},
+{"file":"c26","layout":"list","kicker":"tre elementi, e l'ordine conta","rows":["Nomina il fatto","Riconosci l'effetto","Di' cosa farai diversamente"],"active":1,"note":"«ti ho messo in difficoltà davanti agli altri»"},
+{"file":"c27","layout":"swap","kicker":"il condizionale cancella l'effetto","rows":[["«se ti sei sentito così»","«ti ho messo in difficoltà»"]]},
+{"file":"c28","layout":"list","kicker":"tre elementi, e l'ordine conta","rows":["Nomina il fatto","Riconosci l'effetto","Di' cosa farai diversamente"],"active":2,"note":"«la prossima volta esco e torno»"},
+{"file":"c29","layout":"statement","title":"È la parte che quasi tutti saltano.<br>Ed è quella che fa la differenza."},
+{"file":"c30","layout":"table","kicker":"due cose diverse","cols":["il dispiacere","la riparazione"],"rows":[["guarda indietro","guarda avanti"],["dice come stai tu","dice cosa è successo"],["si chiude lì","cambia la prossima volta"]]},
+
+{"file":"c31","layout":"statement","title":"E adesso una regola<br>su cosa non mettere dentro."},
+{"file":"c32","layout":"memo","title":"Nessuna spiegazione in mezzo.<br>Nemmeno una riga."},
+{"file":"c33","layout":"list","kicker":"le spiegazioni che rovinano tutto","rows":["Ero stanco","Avevo avuto una giornata","Mi avevi provocato"],"plain":true},
+{"file":"c34","layout":"statement","title":"Trasformano la riparazione in una difesa.<br>E si sente solo la difesa."},
+{"file":"c35","layout":"statement","title":"Anche quando la spiegazione è vera.<br><span class=\"gold\">Soprattutto quando è vera.</span>"},
+{"file":"c36","layout":"statement","title":"Se serve dirla, si dice dopo.<br>Separata, e solo se te la chiede."},
+
+{"file":"c37","layout":"statement","title":"E adesso la parte che sblocca<br>chi si rifiuta di riparare per principio."},
+{"file":"c38","layout":"memo","title":"Si può riparare il modo<br>senza cedere sul merito."},
+{"file":"c39","layout":"statement","title":"Sono due piani diversi.<br>E tenerli separati è utilissimo."},
+{"file":"c40","layout":"quote","kicker":"onesta, completa, e non concede niente","title":"«Ho alzato la voce, e non dovevo.<br>Sul merito la penso come prima.»"},
+{"file":"c41","layout":"statement","title":"Non concede niente<br>di quello che non vuoi concedere."},
+{"file":"c42","layout":"statement","title":"Anzi: rende la tua posizione<br>più forte di prima."},
+{"file":"c43","layout":"swap","kicker":"cosa gli togli","rows":[["l'argomento più facile","il modo in cui gliel'hai detta"]]},
+
+{"file":"c44","layout":"memo","title":"Le relazioni non si rompono per i conflitti.<br>Si rompono per quelli non riparati."},
+{"file":"c45","layout":"statement","title":"Una riparazione è completa<br>nel momento in cui la fai."},
+{"file":"c47","layout":"memo","title":"Si dice, e si lascia."},
+{"file":"c48","layout":"statement","title":"E con questo<br>chiudiamo il modulo sei."},
+{"file":"c49","layout":"statement","title":"Il fatto. L'effetto.<br>Cosa farai diversamente."},
+
+{"file":"c99","layout":"closing","title":"Fine del Modulo 6","sub":"Modulo 7 — Assertività e confini","site":"laparolagiusta.it"}
+]

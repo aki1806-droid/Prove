@@ -1,0 +1,59 @@
+[
+{"file":"c01","layout":"cover","label":"Modulo 6 · Lezione 6.4","title":"Fatto, effetto, richiesta","sub":"Obiezioni, tensioni, conflitti"},
+
+{"file":"c02","layout":"statement","title":"Devi dire una cosa<br>che darà fastidio."},
+{"file":"c03","layout":"statement","title":"Se la dici male diventa una discussione.<br>Se non la dici resta lì."},
+{"file":"c04","layout":"statement","title":"Quasi tutti la risolvono così.<br>Ed è il modo che non funziona."},
+{"file":"c05","layout":"quote","title":"«Non ti importa mai<br>di quello che dico.»"},
+{"file":"c06","layout":"list","kicker":"cosa c'è dentro quella frase","rows":["Un giudizio","Un assoluto","Nessuna indicazione su cosa fare"]},
+
+{"file":"c07","layout":"list","kicker":"tre tempi, e l'ordine conta","rows":["Il fatto","L'effetto","La richiesta"]},
+{"file":"c08","layout":"list","kicker":"tre tempi, e l'ordine conta","rows":["Il fatto","L'effetto","La richiesta"],"active":0,"note":"cosa è successo, datato, senza aggettivi"},
+{"file":"c09","layout":"list","kicker":"tre tempi, e l'ordine conta","rows":["Il fatto","L'effetto","La richiesta"],"active":1,"note":"cosa ha prodotto in te"},
+{"file":"c10","layout":"list","kicker":"tre tempi, e l'ordine conta","rows":["Il fatto","L'effetto","La richiesta"],"active":2,"note":"cosa chiedi, in concreto"},
+{"file":"c11","layout":"table","kicker":"tre frasi, nessuna contestabile","cols":["i tre tempi","come suonano"],"rows":[["il fatto","«Ieri ti ho scritto e non hai risposto.»"],["l'effetto","«Io ci sono rimasto male.»"],["la richiesta","«Ti chiedo un messaggio, anche corto.»"]]},
+{"file":"c12","layout":"statement","title":"Non perché siano gentili.<br>Perché non offrono appigli."},
+{"file":"c13","layout":"memo","title":"L'altro può occuparsi della cosa<br>invece che di se stesso."},
+
+{"file":"c14","layout":"statement","title":"Il fatto deve essere osservabile.<br><span class=\"gold\">Una telecamera lo avrebbe registrato.</span>"},
+{"file":"c15","layout":"swap","kicker":"la stessa cosa, detta in due modi","rows":[["«mi hai ignorato»","«non hai risposto»"]]},
+{"file":"c16","layout":"statement","title":"«Mi hai ignorato» è un'interpretazione.<br>E l'altro la contesterà."},
+
+{"file":"c17","layout":"list","kicker":"due regole per il fatto","rows":["Niente aggettivi","Niente assoluti"]},
+{"file":"c18","layout":"list","kicker":"due regole per il fatto","rows":["Niente aggettivi","Niente assoluti"],"active":0,"note":"«sei arrivato tardi», non «sei arrivato tardissimo»"},
+{"file":"c19","layout":"statement","title":"L'aggettivo è un giudizio<br>travestito da descrizione."},
+
+{"file":"c21","layout":"memo","title":"Nel momento in cui compare «sempre»,<br>siamo tornati alla lezione precedente."},
+{"file":"c22","layout":"statement","title":"E qui la struttura<br>diventa esigente."},
+{"file":"c23","layout":"memo","title":"Se non hai un fatto preciso,<br>non hai ancora niente da dire."},
+{"file":"c24","layout":"statement","title":"Non è un difetto del metodo.<br><span class=\"gold\">È un'informazione.</span>"},
+{"file":"c25","layout":"statement","title":"Stavi per aprire una conversazione<br>su una sensazione accumulata."},
+{"file":"c26","layout":"statement","title":"E quelle non si risolvono mai<br>in un colpo solo."},
+
+{"file":"c28","layout":"statement","title":"L'effetto deve parlare di te.<br>Non dell'intenzione dell'altro."},
+{"file":"c29","layout":"quote","kicker":"un effetto","title":"«Io ci sono<br>rimasto male.»"},
+{"file":"c30","layout":"quote","kicker":"un'attribuzione di intenzione","title":"«Volevi farmi sentire<br>poco importante.»"},
+{"file":"c31","layout":"memo","title":"L'intenzione altrui è l'unica cosa<br>di cui non puoi sapere niente."},
+
+{"file":"c32","layout":"statement","title":"E adesso<br>la contraffazione."},
+{"file":"c33","layout":"quote","kicker":"comincia con io, e non è un effetto","title":"«Io sento<br>che tu sei egoista.»"},
+{"file":"c34","layout":"statement","title":"È un giudizio<br>con un travestimento grammaticale."},
+{"file":"c35","layout":"memo","title":"Se dopo «io» c'è «tu»,<br>non è un effetto."},
+
+{"file":"c36","layout":"list","kicker":"la richiesta, dal modulo quattro","rows":["Chi","Cosa","Entro quando"]},
+{"file":"c37","layout":"statement","title":"Qui servono<br>due precisazioni."},
+{"file":"c38","layout":"list","kicker":"due precisazioni","rows":["Un comportamento, non un sentimento","Una richiesta per volta"]},
+{"file":"c39","layout":"swap","kicker":"eseguibile contro non eseguibile","rows":[["«ti chiedo di tenerci di più»","«ti chiedo un messaggio»"]]},
+{"file":"c40","layout":"statement","title":"Un sentimento non è eseguibile.<br>E mette l'altro in una posizione impossibile."},
+{"file":"c41","layout":"list","kicker":"due precisazioni","rows":["Un comportamento, non un sentimento","Una richiesta per volta"],"active":1,"note":"anche se ne avresti tre già pronte"},
+
+{"file":"c43","layout":"statement","title":"E se si difende comunque?<br>Succede. La struttura non è magia."},
+{"file":"c44","layout":"list","kicker":"se si difende lo stesso","rows":["Concedi la spiegazione","Riporta effetto e richiesta"]},
+{"file":"c45","layout":"list","kicker":"se si difende lo stesso","rows":["Concedi la spiegazione","Riporta effetto e richiesta"],"active":0,"note":"molto spesso è vera, e non ti costa niente"},
+{"file":"c46","layout":"list","kicker":"se si difende lo stesso","rows":["Concedi la spiegazione","Riporta effetto e richiesta"],"active":1,"note":"da quella spiegazione non dipendono"},
+{"file":"c47","layout":"quote","title":"«Va bene. Resta che io ci sono rimasto male,<br>e ti chiedo un messaggio, anche corto.»"},
+{"file":"c48","layout":"memo","title":"Se dopo «io» c'è «tu»,<br>non è un effetto."},
+{"file":"c49","layout":"statement","title":"Il fatto.<br>L'effetto. La richiesta."},
+
+{"file":"c99","layout":"closing","title":"La Parola Giusta","site":"laparolagiusta.it"}
+]
