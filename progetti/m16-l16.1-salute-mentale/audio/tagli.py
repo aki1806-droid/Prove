@@ -18,7 +18,12 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-STACCO = "s28"
+# Ultimo blocco della traccia A. Arriva da costruisci.py, che lo calcola sul
+# primo cambio di capitolo dopo meta' dei caratteri: qui cade fra "I servizi"
+# e "Il modello", dove il cambio di tono e' voluto. Va riletto a ogni lezione:
+# lasciarci quello della lezione precedente taglia la traccia nel punto
+# sbagliato senza che nessun controllo se ne accorga.
+STACCO = "s24"   # chunkA 3957 car  ·  chunkB 3763 car
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
          "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
