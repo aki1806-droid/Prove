@@ -30,7 +30,7 @@ BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 # lezione 1.8 la traccia A ha reso «739» come «settecentotrentanove» e la B
 # come «739». Non e' una tolleranza generica: e' una regola dichiarata, che
 # converte il numero cardinale italiano nella sua cifra, sui due testi.
-UNI   = {"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
+UNI   = {"zero":0,"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
          "sei":6,"sette":7,"otto":8,"nove":9}
 DIECI = {"dieci":10,"undici":11,"dodici":12,"tredici":13,"quattordici":14,
          "quindici":15,"sedici":16,"diciassette":17,"diciotto":18,"diciannove":19}
@@ -119,6 +119,10 @@ RESE = [
  (r"\bmeta\s+paradigma\b",               " metaparadigma "),
  (r"\bnewman\b",                          " neuman "),
  (r"\bdiagnosis\b",                       " diagnosi "),
+ (r"\banti\s+decubito\b",                 " antidecubito "),
+ # Le unita' di misura: il copione le scrive per esteso perche' la voce le
+ # legga bene, il trascrittore le abbrevia.
+ (r"\bcentimetri\b",                       " cm "),
 ]
 
 def parole(s):

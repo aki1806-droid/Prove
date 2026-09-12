@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,530
+Questa e' la lezione con la piu' alta densita' di numeri di tutto il corso. Le scale sono il terreno piu' fertile per domande secche: sono numeriche, univoche, facilissime da chiedere.
+
+2
+00:00:12,530 --> 00:00:21,080
+E sono anche il punto in cui si perde piu' facilmente, perche' la trappola e' quasi sempre la stessa: la direzione del punteggio. Non il valore, la direzione.
+
+3
+00:00:21,080 --> 00:00:29,920
+In alcune scale il punteggio basso indica rischio alto; in altre e' il contrario. Questa lezione e' costruita intorno a quel problema: prima la regola, poi i numeri.
+
+4
+00:00:29,920 --> 00:00:38,510
+Quattro traguardi. Come si struttura un accertamento, e con quale ordine. Poi la regola che risolve da sola meta' delle domande sulle scale, qualunque scala sia.
+
+5
+00:00:38,510 --> 00:00:50,300
+Le scale che contano davvero, con i numeri esatti. E i limiti delle scale, che all'orale valgono quanto i numeri, perche' mostrano pensiero critico. Sapere i numeri e non sapere che cosa non dicono non basta.
+
+6
+00:00:50,300 --> 00:01:02,830
+L'accertamento all'ingresso raccoglie in modo ordinato i dati necessari a formulare i problemi. Sei aree. Dati anagrafici e sociali: con chi vive, chi e' il caregiver. Anamnesi: patologie, allergie, terapia, ausili.
+
+7
+00:01:02,830 --> 00:01:12,470
+Parametri e misure. Bisogni o modelli funzionali. Le scale previste dalla procedura. E gia' da qui l'educazione e la dimissione, perche' la dimissione si prepara dal primo giorno.
+
+8
+00:01:12,470 --> 00:01:24,570
+Le tecniche dell'esame obiettivo sono quattro, in quest'ordine: ispezione, palpazione, percussione, auscultazione. Con un'eccezione che e' una domanda ricorrente, e vale la pena impararla come una frase a se'.
+
+9
+00:01:24,570 --> 00:01:35,050
+Sull'addome si ausculta prima di palpare e percuotere, per non alterare i rumori intestinali. Ispezione, auscultazione, percussione, palpazione.
+
+10
+00:01:35,050 --> 00:01:46,730
+Ecco la regola. Chiediti sempre: la scala misura un rischio o una capacita'? Se misura una capacita', Barthel, Tinetti, Glasgow, piu' alto e' meglio: il punteggio basso indica dipendenza o gravita'.
+
+11
+00:01:46,730 --> 00:01:54,780
+Se misura un rischio, Conley, NEWS, l'intensita' del dolore, piu' alto e' peggio. E poi ci sono le due eccezioni da imparare a parte.
+
+12
+00:01:54,780 --> 00:02:04,030
+Braden e Norton misurano un rischio ma con punteggio inverso: piu' basso il punteggio, piu' alto il rischio. Sono due, e sono sempre quelle due.
+
+13
+00:02:04,030 --> 00:02:13,810
+Braden valuta il rischio di lesione da pressione. Sei item: percezione sensoriale, umidita', attivita', mobilita', nutrizione, frizione e scivolamento.
+
+14
+00:02:13,810 --> 00:02:24,410
+Punteggio da 6 a 23. Rischio presente da 16 in giu'. Sedici e' la soglia, e sotto quella soglia il piano cambia. Non e' un numero da annotare: e' un numero che fa succedere qualcosa.
+
+15
+00:02:24,410 --> 00:02:34,120
+Un dettaglio da veri conoscitori: solo l'ultimo item, frizione e scivolamento, e' a tre livelli; gli altri cinque sono a quattro. E' da li' che vengono il 6 e il 23.
+
+16
+00:02:34,120 --> 00:02:45,120
+Norton misura lo stesso rischio con cinque item: condizioni generali, stato mentale, attivita', mobilita', incontinenza. Punteggio da 5 a 20, rischio da 14 in giu'.
+
+17
+00:02:45,120 --> 00:02:54,760
+E' piu' rapida di Braden, ma meno sensibile. Il che significa che intercetta meno persone a rischio: e' un compromesso fra tempo e copertura, non una scala migliore o peggiore.
+
+18
+00:02:54,760 --> 00:03:03,590
+Memorizza le due coppie insieme, perche' i quiz le scambiano di continuo: Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Sei item Braden, cinque Norton.
+
+19
+00:03:03,590 --> 00:03:16,820
+E la parte che i casi chiedono davvero: che cosa consegue da un Braden a rischio. Cambi posturali programmati. Superficie antidecubito adeguata. Gestione dell'umidita', che e' il fattore che si dimentica piu' spesso.
+
+20
+00:03:16,820 --> 00:03:28,900
+Valutazione nutrizionale. Ispezione quotidiana della cute. La clinica delle lesioni la vedremo nel modulo 7: qui conta la catena punteggio, intervento. A un Braden basso deve corrispondere una modifica del piano, scritta.
+
+21
+00:03:28,900 --> 00:03:38,920
+Conley misura il rischio di caduta. Sei item: precedenti cadute, vertigini, incontinenza o urgenza, deterioramento cognitivo, agitazione, compromissione della marcia.
+
+22
+00:03:38,920 --> 00:03:51,370
+Punteggio da 0 a 10, rischio da 2 in su. Basta poco per essere a rischio, ed e' voluto: e' uno screening sensibile, fatto per non lasciar fuori nessuno. Meglio qualche falso positivo che una caduta non prevista.
+
+23
+00:03:51,370 --> 00:04:04,120
+Tinetti misura equilibrio e andatura, da 0 a 28, rischio elevato sotto 19. E nota che Tinetti misura una capacita': si comporta al contrario di Conley. Due scale sullo stesso rischio, due direzioni opposte.
+
+24
+00:04:04,120 --> 00:04:15,470
+Barthel misura l'autonomia in dieci attivita' di vita quotidiana, da 0 a 100. Piu' basso, piu' dipendente: e' una capacita', quindi alto e' meglio. Cento vuol dire autonomo in tutte e dieci.
+
+25
+00:04:15,470 --> 00:04:25,390
+Le ADL di Katz sono sei attivita' di base: bagno, vestirsi, toilette, trasferimenti, continenza, alimentazione. Sono quelle che riguardano il corpo proprio.
+
+26
+00:04:25,390 --> 00:04:38,660
+Le IADL di Lawton sono otto attivita' strumentali: telefono, spesa, cucina, casa, bucato, trasporti, farmaci, denaro. Sei di base, otto strumentali: le strumentali riguardano il rapporto con il mondo fuori.
+
+27
+00:04:38,660 --> 00:04:49,520
+Domanda ricorrente: quale delle due intercetta prima il declino? Nel deterioramento cognitivo si perdono prima le IADL, la gestione dei farmaci, del denaro, dei trasporti. E poi le ADL.
+
+28
+00:04:49,520 --> 00:05:00,350
+Ecco perche' le IADL sono piu' sensibili nel declino precoce: quando una persona non riesce piu' a gestire le proprie medicine ma si lava ancora da sola, il problema e' gia' iniziato.
+
+29
+00:05:00,350 --> 00:05:16,010
+Il dolore. NRS, numerica da zero a dieci: la piu' usata, perche' non richiede supporti. VAS, la linea di dieci centimetri su cui la persona segna un punto. VRS, descrittori verbali: nessuno, lieve, moderato, forte.
+
+30
+00:05:16,010 --> 00:05:27,410
+Wong Baker, le facce, per i bambini e per le barriere linguistiche. E poi le due osservazionali, che si usano quando la persona non puo' riferire il proprio dolore, e sono le due che nei casi clinici fanno la differenza.
+
+31
+00:05:27,410 --> 00:05:40,530
+PAINAD, cinque item per la demenza avanzata: respiro, vocalizzazione, espressione facciale, linguaggio del corpo, consolabilita'. E FLACC per il bambino piccolo: volto, gambe, attivita', pianto, consolabilita'.
+
+32
+00:05:40,530 --> 00:05:51,260
+E la regola d'oro: il dolore e' cio' che la persona dice che e'. Quando non puo' dirlo, non si conclude che non ne abbia: si passa a una scala osservazionale. Il dolore non misurabile con le parole resta un dolore.
+
+33
+00:05:51,260 --> 00:06:02,160
+Il distrattore tipico propone: il paziente con demenza non e' valutabile. E' sempre errato, senza eccezioni. Non valutabile con la NRS non vuol dire non valutabile.
+
+34
+00:06:02,160 --> 00:06:17,430
+Glasgow. Apertura degli occhi da 1 a 4. Risposta verbale da 1 a 5. Risposta motoria da 1 a 6. Somma minima 3, non zero: e' l'errore piu' comune, e viene dal fatto che ogni item parte da uno e non da zero. Massimo 15.
+
+35
+00:06:17,430 --> 00:06:26,650
+Pari o inferiore a 8: coma. Fra 9 e 12 alterazione moderata, fra 13 e 15 lieve. Sono tre fasce, e la piu' chiesta e' sempre la prima.
+
+36
+00:06:26,650 --> 00:06:36,050
+Quattro, cinque, sei: se ricordi questi tre numeri ricostruisci tutto il resto. Tre e' la somma dei minimi, quindici la somma dei massimi, e la soglia del coma e' otto.
+
+37
+00:06:36,050 --> 00:06:47,130
+La CAM, per il delirium. Quattro caratteristiche. Uno: esordio acuto e andamento fluttuante. Due: disattenzione. Tre: pensiero disorganizzato. Quattro: alterato livello di coscienza.
+
+38
+00:06:47,130 --> 00:06:59,300
+E' positiva se sono presenti la 1 e la 2, piu' almeno una fra la 3 e la 4. La formula da ricordare e': uno piu' due, piu' tre o quattro. Le prime due sono obbligatorie, delle altre ne basta una.
+
+39
+00:06:59,300 --> 00:07:11,420
+NEWS 2 e MEWS sono sistemi di allerta precoce del deterioramento. Sommano parametri: frequenza respiratoria, saturazione, ossigeno, pressione sistolica, frequenza cardiaca, coscienza, temperatura.
+
+40
+00:07:11,420 --> 00:07:21,140
+E il punteggio determina frequenza del monitoraggio e livello di risposta. Non e' una diagnosi: e' un semaforo che dice quanto spesso guardare e chi chiamare, anche quando il paziente sembra stabile.
+
+41
+00:07:21,140 --> 00:07:34,210
+Sul versante nutrizionale: MUST per l'adulto, con BMI, calo ponderale ed effetto della malattia acuta, rischio alto da 2 in su. MNA per l'anziano, dove il punteggio basso indica peggiore stato nutrizionale.
+
+42
+00:07:34,210 --> 00:07:44,640
+Tre limiti, e all'orale valgono quanto i numeri. Uno: la scala non sostituisce il giudizio clinico. Se la persona e' a rischio e la scala dice di no, prevale l'osservazione, e si documenta il perche'.
+
+43
+00:07:44,640 --> 00:07:54,160
+Due: va usata per cio' per cui e' validata, cioe' per quella popolazione, quel setting, quell'eta'. Tre: va ripetuta, perche' il valore all'ingresso e' una fotografia e non un verdetto.
+
+44
+00:07:54,160 --> 00:08:07,430
+E l'avvertenza piu' importante. Compilare la scala e non modificare il piano e' l'errore piu' diffuso, ed e' anche il piu' facile da contestare in sede di responsabilita', perche' la scala compilata resta agli atti.
+
+45
+00:08:07,430 --> 00:08:16,890
+Perche' dimostra che il rischio era noto e non e' stato gestito. Nella risposta a un caso, dopo il punteggio metti sempre l'intervento che ne consegue.
+
+46
+00:08:16,890 --> 00:08:29,090
+Ti lascio la tabella dei numeri. Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Conley da 0 a 10, rischio da 2 in su. Tinetti da 0 a 28, rischio elevato sotto 19.
+
+47
+00:08:29,090 --> 00:08:41,900
+Barthel da 0 a 100. Glasgow da 3 a 15, coma sotto o uguale a 8. CAM: uno piu' due, piu' tre o quattro. MUST: rischio alto da 2 in su. MNA: punteggio basso, stato nutrizionale peggiore.
+
+48
+00:08:41,900 --> 00:08:50,610
+Fotografa questa slide e riguardala la sera prima della prova. Nella prossima lezione parliamo di documentazione, cioe' di come tutto questo diventa verificabile. A tra poco.

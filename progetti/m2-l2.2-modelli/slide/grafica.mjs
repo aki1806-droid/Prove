@@ -418,21 +418,33 @@ export const CORPI_GRAFICA = {
         <text x="${X0}" y="${Y - 26}" class="cap">${piano(d.inizio ?? '')}</text>
         <text x="${X1}" y="${Y - 26}" class="cap" text-anchor="end">${piano(d.fine ?? '')}</text>
       </g>
-      ${(d.tappe ?? []).map(t => {
-        const x = p(t.a), col = t.key ? 'var(--acc)' : 'var(--tit)';
+      ${(() => {
+        // Stessa trappola della linea del tempo: le didascalie sono riquadri
+        // centrati sulla tacca, e due soglie vicine si sovrappongono. La
+        // larghezza e' quella che ci sta fino alla tacca piu' vicina.
+        const xs = (d.tappe ?? []).map(t => p(t.a));
+        const largh = i => {
+          let dist = Infinity;
+          for (let k = 0; k < xs.length; k++)
+            if (k !== i) dist = Math.min(dist, Math.abs(xs[k] - xs[i]));
+          return Math.max(150, Math.min(400, dist - 16));
+        };
+        return (d.tappe ?? []).map((t, i) => {
+        const x = xs[i], W = largh(i), col = t.key ? 'var(--acc)' : 'var(--tit)';
         return `<g class="gx">
           <line x1="${num(x)}" y1="${Y - 12}" x2="${num(x)}" y2="${Y + H + 34}"
             stroke="${col}" stroke-width="4"/>
           <circle cx="${num(x)}" cy="${Y + H + 34}" r="10" fill="${col}"/>
           <text x="${num(x)}" y="${Y + H + 96}" text-anchor="middle" class="big"
             style="font-size:52px" fill="${col}">${t.v ?? ''}</text>
-          <foreignObject x="${num(Math.max(0, Math.min(x - 200, LARG - 400)))}" y="${Y + H + 116}"
-            width="400" height="130">
+          <foreignObject x="${num(Math.max(0, Math.min(x - W / 2, LARG - W)))}" y="${Y + H + 116}"
+            width="${num(W)}" height="130">
             <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;
-              font-size:29px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
+              font-size:${W < 260 ? 25 : 29}px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
           </foreignObject>
         </g>`;
-      }).join('')}
+      }).join('');
+      })()}
     </svg>`;
   },
 
