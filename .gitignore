@@ -16,3 +16,25 @@ build/
 # Ambiente
 .env
 .env.local
+
+# Produzione video — tutto quello che gli script rigenerano
+__pycache__/
+*.pyc
+
+# derivati del copione
+progetti/*/copione/blocchi.json
+progetti/*/copione/chunk*.txt
+
+# derivati dell'audio (la voce costa: si tiene fuori dal repo)
+progetti/*/audio/*.mp3
+progetti/*/audio/prova.json
+progetti/*/audio/blocchi-audio.json
+progetti/*/audio/esiti-*.json
+progetti/*/audio/blocchi/
+
+# derivati delle slide e del montaggio
+progetti/*/slide/png/
+progetti/*/slide/troppo-alte.json
+progetti/*/scene/*.mp4
+progetti/*/montato-*.mp4
+progetti/*/montato-*.srt
