@@ -37,7 +37,16 @@ progetti/*/audio/blocchi/
 
 # derivati delle slide e del montaggio
 progetti/*/slide/png/
+progetti/*/slide/mp4/
 progetti/*/slide/troppo-alte.json
 progetti/*/scene/*.mp4
 progetti/*/montato-*.mp4
 progetti/*/montato-*.srt
+
+# cartelle di lavoro degli script e stato dei tagli
+progetti/*/_montaggio/
+progetti/*/audio/_prova/
+progetti/*/audio/confini-*.json
+
+# Le trascrizioni NON sono ignorate: costano, e sono la prova che la voce ha
+# detto tutto. Quelle si tengono.

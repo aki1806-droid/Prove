@@ -11,6 +11,13 @@ FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
 esiti = []
 
+# La durata chiesta e' un parametro della lezione, non una costante del
+# metodo: il corso Infermiere chiedeva «8 minuti almeno», il corso OSS ha
+# lo standard 7-8 minuti. Sta qui, dichiarata, invece che murata in un
+# confronto a meta' del file.
+CHIESTO = 470.0   # 7:50 montati
+
+
 # La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
 # che ha trovato e' stato corretto e poi ricontrollato con una controprova.
 f = QUI/"audio"/"esiti-verifica.json"
@@ -46,8 +53,12 @@ male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
 esiti.append((not male, "fascia 8,5-21 car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
 
+# Un PNG per scena, e le scene sono i blocchi piu' copertina e chiusura. Il 50
+# del MASTER e' il tetto, non il numero di scene di ogni lezione.
 png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
-esiti.append((len(png)==50, f"50 PNG renderizzati e guardati: {len(png)}"))
+atteso = len(json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))) + 2
+esiti.append((len(png)==atteso and atteso<=50,
+              f"PNG renderizzati e guardati: {len(png)} su {atteso} scene (tetto 50)"))
 sfora = json.loads((QUI/"slide"/"troppo-alte.json").read_text(encoding="utf-8"))
 esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"))
 
@@ -58,11 +69,12 @@ o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
                    capture_output=True,text=True).stderr
 t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
 d = int(t[0])*3600+int(t[1])*60+float(t[2])
-esiti.append((d >= 480, f"durata {int(d//60)}:{d%60:05.2f} — richiesto «8 minuti almeno»"))
+esiti.append((d >= CHIESTO, f"durata {int(d//60)}:{d%60:05.2f} — chiesti "
+              f"{int(CHIESTO//60)}:{CHIESTO%60:05.2f}"))
 
 srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
 n = len(re.findall(r"-->", srt))
-esiti.append((n==48, f"sottotitoli SRT: {n} righe"))
+esiti.append((n==atteso-2, f"sottotitoli SRT: {n} righe su {atteso-2} blocchi"))
 
 rf = QUI/"REGISTRO.md"
 esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),

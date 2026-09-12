@@ -110,6 +110,10 @@ RESE = [
  # La lettera dell'articolo 9.2 GDPR: il copione la scrive come si pronuncia
  # («lettera acca»), il trascrittore la riporta come si scrive («lettera h»).
  (r"\blettera\s+(acca|h)\b",          " lettera acca "),
+ # Il copione del modulo 16 scrive «autostigma» attaccato, come il Codice e la
+ # letteratura; il trascrittore lo stacca in «auto-stigma». Non e' un buco:
+ # la voce dice la parola intera, e si sente. Resa dichiarata, non tolleranza.
+ (r"\bauto\s+stigma\b",               " autostigma "),
 ]
 
 def parole(s):
