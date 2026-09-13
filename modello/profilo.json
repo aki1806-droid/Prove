@@ -1,0 +1,47 @@
+{
+  "titolo": "esempio — da riscrivere a ogni video",
+  "tema": "il mestiere dell'artigiano del legno, in un laboratorio di citta'",
+  "carta_visiva": "35mm documentary film, visible grain. Natural side light from a high window, soft shadows, no artificial key light. 35mm lens, barely perceptible handheld movement, shallow depth of field. Hands, tools, material: people are seen from the shoulders down or in three-quarter profile, never full face. Muted colours, warm wood against cold metal. One single movement per shot, slow.",
+  "palette": {
+    "fondo": "#F4F1EA",
+    "testo": "#1C1A16",
+    "accento": "#A6471E",
+    "secondario": "#2E4A3F"
+  },
+  "voce": {
+    "nome": "da scegliere con creative_list_voices",
+    "voice_id": "",
+    "modello": "eleven_v3"
+  },
+  "lingua": "it",
+  "durata_richiesta_s": 540,
+  "formato": "16:9",
+  "marchio": {
+    "file": "clip/marchio/logo.png",
+    "posizione": "alto-sinistra",
+    "altezza_px": 70
+  },
+  "generatore": {
+    "servizio": "higgsfield",
+    "modello": "seedance_2_5",
+    "durata_base_s": 8,
+    "aspetto": "16:9"
+  },
+  "pausa_musicale": false,
+  "note_carta_visiva": "In inglese: e' il preambolo che finisce in ogni prompt. Il campo tema resta in italiano perche' e' la risposta dell'utente, non un prompt.",
+  "carattere": {
+    "nome": "DejaVu Sans",
+    "nota": "un nome che fontconfig sappia risolvere; per un carattere proprio, metterlo in clip/font/ e installarlo"
+  },
+  "cartelli": {
+    "copertina": {
+      "sopra": "LABORATORIO",
+      "titolo": "Il gesto ripetuto",
+      "sotto": "un mestiere in tre minuti"
+    },
+    "chiusura": {
+      "titolo": "Domani si ricomincia\ndallo stesso gesto",
+      "sotto": "grazie per l'ascolto"
+    }
+  }
+}
