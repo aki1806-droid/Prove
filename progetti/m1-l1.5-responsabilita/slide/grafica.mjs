@@ -144,6 +144,11 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .catena .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.14}
 .catena .p.key .t{color:var(--acc)}
 .catena .d{font-size:25px;line-height:1.36;opacity:.76}
+/* Cinque anelli: «Pianificazione» a 40px e' piu' larga dello spazio che resta
+   fra le due punte della freccia. La soglia sta qui, non nelle scene. */
+.catena.fitta .p{padding:34px 24px 34px 44px}
+.catena.fitta .t{font-size:31px}
+.catena.fitta .d{font-size:22px;line-height:1.3}
 
 /* ---------- scala di gradini ---------- */
 .scala{display:flex;align-items:flex-end;gap:18px;min-height:430px}
@@ -170,10 +175,20 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .griglia.fitta .c .t{font-size:27px}
 .griglia.fitta .c .sg{font-size:28px}
 .griglia.fitta .c .n{font-size:40px}
+/* Otto celle su una colonna non ci stanno nemmeno alla misura fitta: servono
+   altri 16 px. La soglia e' nel corpo, come per le altre densita'. */
+.griglia.fittissima{gap:11px}
+.griglia.fittissima .c{padding:15px 22px;gap:14px}
+.griglia.fittissima .c .t{font-size:25px;line-height:1.26}
+.griglia.fittissima .c .sg{font-size:25px}
+.griglia.fittissima .c .n{font-size:34px}
 .griglia .c .n{font-size:52px;font-weight:700;color:var(--acc);line-height:1;
                font-variant-numeric:lining-nums tabular-nums;flex:0 0 auto}
 
 /* ---------- icone in fila ---------- */
+/* Massimo CINQUE voci: e' un flex orizzontale, e a sei o sette le colonne
+   escono dalla cornice qualunque sia il corpo del testo (2.6: +377 px con
+   sette barriere). Sopra le cinque voci si usa «griglia». */
 .icone{display:flex;gap:30px;min-height:452px}
 .icone .v{flex:1;display:flex;flex-direction:column;gap:26px;border:3px solid var(--linea);
           border-radius:22px;padding:54px 38px}
@@ -198,6 +213,12 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .matrice .q .d{font-size:26px;line-height:1.36;opacity:.76}
 .matrice .q.key{background:color-mix(in srgb,var(--acc) 11%,transparent);border-color:var(--acc)}
 .matrice .q.key .t{color:var(--acc)}
+/* Quattro celle con frase + didascalia sforano l'altezza utile: il min-height
+   di 560px vale per le matrici a etichetta breve, non per queste. */
+.matrice.fitta{min-height:0;grid-template-rows:72px 1fr 1fr}
+.matrice.fitta .q{padding:26px 28px;gap:9px}
+.matrice.fitta .q .t{font-size:29px;line-height:1.18}
+.matrice.fitta .q .d{font-size:23px;line-height:1.3}
 
 /* ---------- albero di decisione ---------- */
 .albero{display:flex;flex-direction:column;align-items:center;width:100%}
@@ -407,21 +428,33 @@ export const CORPI_GRAFICA = {
         <text x="${X0}" y="${Y - 26}" class="cap">${piano(d.inizio ?? '')}</text>
         <text x="${X1}" y="${Y - 26}" class="cap" text-anchor="end">${piano(d.fine ?? '')}</text>
       </g>
-      ${(d.tappe ?? []).map(t => {
-        const x = p(t.a), col = t.key ? 'var(--acc)' : 'var(--tit)';
+      ${(() => {
+        // Stessa trappola della linea del tempo: le didascalie sono riquadri
+        // centrati sulla tacca, e due soglie vicine si sovrappongono. La
+        // larghezza e' quella che ci sta fino alla tacca piu' vicina.
+        const xs = (d.tappe ?? []).map(t => p(t.a));
+        const largh = i => {
+          let dist = Infinity;
+          for (let k = 0; k < xs.length; k++)
+            if (k !== i) dist = Math.min(dist, Math.abs(xs[k] - xs[i]));
+          return Math.max(150, Math.min(400, dist - 16));
+        };
+        return (d.tappe ?? []).map((t, i) => {
+        const x = xs[i], W = largh(i), col = t.key ? 'var(--acc)' : 'var(--tit)';
         return `<g class="gx">
           <line x1="${num(x)}" y1="${Y - 12}" x2="${num(x)}" y2="${Y + H + 34}"
             stroke="${col}" stroke-width="4"/>
           <circle cx="${num(x)}" cy="${Y + H + 34}" r="10" fill="${col}"/>
           <text x="${num(x)}" y="${Y + H + 96}" text-anchor="middle" class="big"
             style="font-size:52px" fill="${col}">${t.v ?? ''}</text>
-          <foreignObject x="${num(Math.max(0, Math.min(x - 200, LARG - 400)))}" y="${Y + H + 116}"
-            width="400" height="130">
+          <foreignObject x="${num(Math.max(0, Math.min(x - W / 2, LARG - W)))}" y="${Y + H + 116}"
+            width="${num(W)}" height="130">
             <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;
-              font-size:29px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
+              font-size:${W < 260 ? 25 : 29}px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
           </foreignObject>
         </g>`;
-      }).join('')}
+      }).join('');
+      })()}
     </svg>`;
   },
 
@@ -494,7 +527,7 @@ export const CORPI_GRAFICA = {
     </div>`;
   },
 
-  catena: d => `<div class="catena gfx">${d.passi.map((p, i) =>
+  catena: d => `<div class="catena gfx ${d.passi.length >= 5 ? 'fitta' : ''}">${d.passi.map((p, i) =>
     `<div class="p gx ${p.key ? 'key' : ''} ${(d.attive ?? d.passi.map((_, k) => k)).includes(i) ? 'on' : 'off'}"><div class="t">${acc(p.t)}</div>
       ${p.d ? `<div class="d">${acc(p.d)}</div>` : ''}</div>`).join('')}</div>`,
 
@@ -507,7 +540,8 @@ export const CORPI_GRAFICA = {
   // La soglia sta qui e non nelle scene: sette caselle su una colonna non ci
   // stanno alla misura piena, e ogni lezione se ne dimenticherebbe per conto suo.
   griglia: d => `<div class="griglia gfx ${
-      d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
+      d.celle.length >= (d.colonne === 1 ? 8 : 12) ? 'fittissima'
+      : d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
       style="grid-template-columns:repeat(${d.colonne ?? 2},1fr)">${d.celle.map((c, i) =>
     `<div class="c gx ${c.no ? 'no' : ''} ${(d.attive ?? d.celle.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${
       c.n != null ? `<span class="n">${c.n}</span>`
@@ -519,7 +553,8 @@ export const CORPI_GRAFICA = {
       <div class="t">${acc(v.t)}</div>
       ${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`).join('')}</div>`,
 
-  matrice: d => `<div class="matrice gfx">
+  matrice: d => `<div class="matrice gfx ${
+    d.celle.some(c => c.d) && d.celle.reduce((s, c) => s + c.t.length, 0) > 90 ? 'fitta' : ''}">
     <div></div><div class="ax gx">${d.assex[0]}</div><div class="ax gx">${d.assex[1]}</div>
     <div class="ax ay gx">${d.assey[0]}</div>
     ${d.celle.slice(0, 2).map(c => `<div class="q gx ${c.key ? 'key' : ''}">

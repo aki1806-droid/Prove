@@ -79,10 +79,8 @@ export const SCENE = [
   titolo:"Il metodo non è un vincolo<br>all'autonomia: **ne è la prova**.",
   sotto:"Chi decide deve poter dire su quali dati ha deciso."},
 
-{id:"s10", tipo:"catena", tema:"chiaro", sopratitolo:"Le cinque fasi", attive:[0,1,2],
-  passi:FASI},
-{id:"s11", tipo:"catena", tema:"chiaro", sopratitolo:"Le cinque fasi · il processo è ciclico",
-  passi:FASI},
+{id:"s10", tipo:"ciclo", tema:"chiaro", sopratitolo:"Le cinque fasi", attive:[0,1,2], centro:"Il processo", passi:[{t:"Accertamento", d:"raccolgo i dati"},{t:"Diagnosi", d:"nomino il problema"},{t:"Pianificazione", d:"obiettivi e interventi"},{t:"Attuazione", d:"eseguo e documento"},{t:"Valutazione", d:"e il ciclo riparte", key:true}]},
+{id:"s11", tipo:"ciclo", tema:"chiaro", sopratitolo:"Le cinque fasi · il processo è ciclico", centro:"Il processo", passi:[{t:"Accertamento", d:"raccolgo i dati"},{t:"Diagnosi", d:"nomino il problema"},{t:"Pianificazione", d:"obiettivi e interventi"},{t:"Attuazione", d:"eseguo e documento"},{t:"Valutazione", d:"e il ciclo riparte", key:true}]},
 
 {id:"s12", tipo:"trappola", tema:"tenue", sopratitolo:"La fase che sparisce dagli elenchi",
   righe:[
@@ -96,7 +94,7 @@ export const SCENE = [
    {h:"Modelli anglosassoni", t:"**Sei** fasi: i *risultati attesi* sono separati dalla pianificazione degli interventi"},
    {h:"Concorsi italiani", t:"**Cinque** fasi, ed è lo standard atteso", grande:true}]},
 
-{id:"s14", tipo:"titolo", tema:"chiaro", sopratitolo:"La regola d'esame",
+{id:"s14", tipo:"figura", tema:"chiaro", sopratitolo:"La regola d'esame", illu:"lente", lato:"dx",
   titolo:"Se un quiz ne propone **sei**,<br>controlla se distingue<br>risultati e interventi.",
   sotto:"Ma la risposta attesa è quasi sempre cinque."},
 
@@ -150,11 +148,8 @@ export const SCENE = [
    {h:"Medica", t:"**Ictus ischemico**", grande:true},
    {h:"Infermieristica", t:"**Compromissione della mobilità**", grande:true}]},
 
-{id:"s23", tipo:"tre", tema:"chiaro", sopratitolo:"La struttura PES", cifre:true,
-  box:[
-   {n:"P", t:"Problem", d:"l'etichetta diagnostica"},
-   {n:"E", t:"Etiology", d:"i fattori correlati — *«correlato a»*"},
-   {n:"S", t:"Signs", d:"le caratteristiche definenti — *«che si manifesta con»*"}]},
+{id:"s23", tipo:"raggiera", tema:"chiaro", sopratitolo:"La struttura PES", centro:"PES",
+  raggi:[{t:"Problem", d:"l'etichetta diagnostica"},{t:"Signs", d:"«che si manifesta con»"},{t:"Etiology", d:"«correlato a»", key:true}]},
 
 {id:"s24", tipo:"catena", tema:"chiaro", sopratitolo:"Un esempio completo",
   passi:[
@@ -207,7 +202,7 @@ export const SCENE = [
   a:{h:"Obiettivo", t:"«**Il paziente mantiene** la stazione eretta<br>per 2 minuti con ausilio entro 48 ore»"},
   sotto:"Guarda il **soggetto** della frase: se è l'infermiere è un intervento, se è la persona è un obiettivo."},
 
-{id:"s33", tipo:"titolo", tema:"chiaro", sopratitolo:"Una regola sola",
+{id:"s33", tipo:"figura", tema:"chiaro", sopratitolo:"Una regola sola", illu:"bussola",
   titolo:"Il soggetto è **l'infermiere**?<br>È un intervento.<br>È **la persona**? È un obiettivo."},
 
 {id:"s34", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3],
@@ -250,11 +245,8 @@ export const SCENE = [
    {icona:"cuoremano", t:"Attribuisci", d:"al personale di supporto le attività compatibili"},
    {icona:"documento", t:"Registri", d:"è la fase in cui nasce la documentazione", key:true}]},
 
-{id:"s43", tipo:"tre", tema:"chiaro", sopratitolo:"I tre tipi di intervento",
-  box:[
-   {n:"1", t:"Autonomo", d:"lo decide l'infermiere"},
-   {n:"2", t:"Su prescrizione", d:"lo decide il medico, lo esegui tu"},
-   {n:"3", t:"Collaborativo", d:"si decide insieme"}]},
+{id:"s43", tipo:"raggiera", tema:"chiaro", sopratitolo:"I tre tipi di intervento", centro:"Intervento",
+  raggi:[{t:"Autonomo", d:"lo decide l'infermiere", key:true},{t:"Collaborativo", d:"si decide insieme"},{t:"Su prescrizione", d:"lo decide il medico, lo esegui tu"}]},
 
 {id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"Quinta fase · e in tutti e tre i casi il piano si aggiorna",
   intestazioni:["Esito","Che cosa fai del piano"], colonne:["34%","66%"], chiave:[2],
@@ -279,9 +271,9 @@ export const SCENE = [
 {id:"s48", tipo:"catena", tema:"chiaro", sopratitolo:"Lo schema, su qualunque traccia",
   passi:SCHEMA},
 
-{id:"s49", tipo:"titolo", tema:"chiaro", sopratitolo:"L'ultimo consiglio",
-  titolo:"Una risposta **strutturata**<br>con qualche contenuto in meno<br>vale più di un elenco disordinato.",
-  sotto:"Vale anche quando l'argomento clinico non è il tuo più forte."},
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"L'ultimo consiglio", illu:"libro", lato:"dx",
+  titolo:"Una risposta **strutturata**<br>vale più di un elenco<br>disordinato.",
+  sotto:"Anche con qualche contenuto in meno, e anche quando l'argomento clinico non è il tuo più forte."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Prossima lezione",

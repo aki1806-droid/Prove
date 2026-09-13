@@ -186,6 +186,9 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
                font-variant-numeric:lining-nums tabular-nums;flex:0 0 auto}
 
 /* ---------- icone in fila ---------- */
+/* Massimo CINQUE voci: e' un flex orizzontale, e a sei o sette le colonne
+   escono dalla cornice qualunque sia il corpo del testo (2.6: +377 px con
+   sette barriere). Sopra le cinque voci si usa «griglia». */
 .icone{display:flex;gap:30px;min-height:452px}
 .icone .v{flex:1;display:flex;flex-direction:column;gap:26px;border:3px solid var(--linea);
           border-radius:22px;padding:54px 38px}

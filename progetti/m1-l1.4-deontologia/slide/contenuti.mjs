@@ -51,9 +51,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 4 di 8",
   testo:"Dopo il profilo e gli ordinamenti didattici, la *terza fonte* del campo di attività."},
-{id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Perché conta più di quanto sembri",
-  testo:"Il Codice non sta solo nelle domande dirette. Sta *dentro i casi clinici*.",
-  sotto:"Dove la risposta giusta è quasi sempre quella deontologicamente sostenibile."},
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"Perché conta più di quanto sembri", illu:"lente", lato:"dx",
+  titolo:"Il Codice non sta solo<br>nelle domande dirette.<br>Sta *dentro i casi clinici*.", sotto:"Dove la risposta giusta è quasi sempre quella deontologicamente sostenibile."},
 
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro cose", voci:[
   {icona:"libro",    t:"Che cos'è", d:"e chi lo adotta"},
@@ -85,9 +84,8 @@ export const SCENE = [
 {id:"s10", tipo:"titolo", tema:"profondo",
   titolo:"La deontologia non è<br>*alternativa* alla legge:<br>la **integra**.",
   sotto:"Un comportamento può essere penalmente lecito e restare illecito deontologico."},
-{id:"s11", tipo:"frase", tema:"chiaro", sopratitolo:"Per lo stesso fatto",
-  testo:"Possono aprirsi insieme un procedimento *penale*, uno *disciplinare aziendale* e uno *dell'Ordine*.",
-  sotto:"Tre piani autonomi e cumulabili — la stessa logica del doppio disciplinare della 1.3."},
+{id:"s11", tipo:"raggiera", tema:"chiaro", sopratitolo:"Per lo stesso fatto: tre piani autonomi e cumulabili", centro:"Un fatto",
+  raggi:[{t:"Penale", d:"davanti al giudice"},{t:"Disciplinare", d:"davanti all'azienda"},{t:"Deontologico", d:"davanti all'Ordine", key:true}]},
 {id:"s12", tipo:"norma", tema:"chiaro", sopratitolo:"E c'è di più",
   etichetta:"Il Codice è fonte del campo di attività", sigla:"L. 42/1999",
   testo:"Una norma deontologica concorre a definire *ciò che devi fare* — e il giudice la richiama per valutare la **diligenza professionale**."},
@@ -104,9 +102,8 @@ export const SCENE = [
 {id:"s16", tipo:"titolo", tema:"profondo",
   titolo:"Il **tempo di relazione**<br>è tempo di cura.",
   sotto:"La formula più citata dell'intero Codice — Capo I."},
-{id:"s17", tipo:"frase", tema:"chiaro", sopratitolo:"La ritroverai altrove",
-  testo:"La stessa affermazione, con altre parole, sta nella *legge 219 del 2017*.",
-  sotto:"L'assistenza si fonda su valori etici, professionali, giuridici e sociali."},
+{id:"s17", tipo:"figura", tema:"chiaro", sopratitolo:"La ritroverai altrove", illu:"catena", lato:"dx",
+  titolo:"La stessa affermazione,<br>con altre parole, sta nella<br>*legge 219 del 2017*.", sotto:"L'assistenza si fonda su valori etici, professionali, giuridici e sociali."},
 {id:"s18", tipo:"elenco", tema:"chiaro", sopratitolo:"Ancora dal Capo I", voci:[
   {t:"Rispetta la **libera scelta** della persona", d:"anche quando non coincide con la propria opinione"},
   {t:"Davanti a questioni etiche complesse si avvale del **confronto**", d:"con l'équipe e con i comitati etici"}]},
@@ -119,9 +116,8 @@ export const SCENE = [
   titolo:"Riconoscere il limite<br>è un **obbligo**,<br>non una debolezza.",
   sotto:"Quando fra le opzioni compare «chiede supporto», è quasi sempre quella giusta."},
 
-{id:"s21", tipo:"frase", tema:"chiaro", sopratitolo:"Situazione classica",
-  testo:"Una prescrizione *non chiara*, *non appropriata*, o in contrasto con la tua valutazione professionale.",
-  sotto:"Che cosa fa l'infermiere?"},
+{id:"s21", tipo:"figura", tema:"chiaro", sopratitolo:"Situazione classica", illu:"fiale",
+  titolo:"Una prescrizione *non chiara*, *non appropriata*, o in contrasto con la tua valutazione professionale.", sotto:"Che cosa fa l'infermiere?"},
 {id:"s22", tipo:"catena", tema:"chiaro", sopratitolo:"Prescrizione dubbia: la sequenza",
   passi:[{t:"Chiede chiarimento", d:"al prescrittore"},
          {t:"Non dà corso", d:"se il dubbio permane"},
@@ -133,17 +129,14 @@ export const SCENE = [
 
 {id:"s24", tipo:"elenco", tema:"chiaro", sopratitolo:"Il dolore", marcatori:["1","2","3"], numerato:true, grandi:true, voci:[
   {t:"**Prevenire**"}, {t:"**Rilevare e documentare**"}, {t:"**Attivarsi** per il controllo"}]},
-{id:"s25", tipo:"frase", tema:"tenue", sopratitolo:"Base deontologica della L. 38/2010",
-  testo:"Il dolore non rilevato è, prima ancora che un problema clinico, una *mancanza deontologica*.",
-  sotto:"Non è una svista: è un'omissione che ha un nome."},
+{id:"s25", tipo:"figura", tema:"tenue", sopratitolo:"Base deontologica della L. 38/2010", illu:"termometro", lato:"dx",
+  titolo:"Il dolore non rilevato è, prima ancora che un problema clinico, una *mancanza deontologica*.", sotto:"Non è una svista: è un'omissione che ha un nome."},
 
 {id:"s26", tipo:"norma", tema:"chiaro", sopratitolo:"La contenzione",
   etichetta:"Il tema che all'orale torna sempre", sigla:"Evento eccezionale",
   testo:"Motivato da prescrizione medica o da *documentate valutazioni assistenziali*, e limitato nel tempo."},
-{id:"s27", tipo:"icone", tema:"chiaro", sopratitolo:"Contenzione: i tre requisiti", voci:[
-  {icona:"avviso",   t:"Eccezionalità", d:"è un evento straordinario, non un presidio"},
-  {icona:"documento", t:"Motivazione documentata", d:"in cartella, non a voce"},
-  {icona:"orologio", t:"Limite temporale", d:"con rivalutazione periodica"}]},
+{id:"s27", tipo:"raggiera", tema:"chiaro", sopratitolo:"Contenzione: i tre requisiti", centro:"Contenzione",
+  raggi:[{t:"Eccezionale", d:"un evento straordinario, non un presidio"},{t:"Motivata", d:"documentata in cartella, non a voce"},{t:"Limitata", d:"nel tempo, con rivalutazione periodica"}]},
 
 {id:"s28", tipo:"titolo", tema:"profondo",
   titolo:"Non si contiene<br>per **carenza di personale**.",
@@ -163,13 +156,11 @@ export const SCENE = [
 {id:"s32", tipo:"trappola", tema:"tenue", sopratitolo:"Sbagliate entrambe le estreme", righe:[
   {sb:"«dice che non sa nulla e cambia argomento»", ok:"eludere *è* mentire"},
   {sb:"«comunica lui la diagnosi per non lasciare solo il paziente»", ok:"non è *informazione di sua competenza*"}]},
-{id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Il diritto a non sapere",
-  testo:"La persona ha diritto anche a *non essere informata*, o può indicare qualcun altro che riceva le informazioni al suo posto.",
-  sotto:"L'infermiere rispetta questa volontà e la **documenta**."},
+{id:"s33", tipo:"figura", tema:"chiaro", sopratitolo:"Il diritto a non sapere", illu:"ascolto",
+  titolo:"La persona ha diritto anche<br>a *non essere informata*.", sotto:"O può indicare qualcun altro che riceva le informazioni al suo posto. L'infermiere rispetta questa volontà e la **documenta**."},
 
-{id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Il rifiuto delle cure",
-  testo:"L'infermiere rispetta il rifiuto di trattamenti e accertamenti, *anche quando comporta un rischio*.",
-  sotto:"Adoperandosi perché la scelta sia informata e consapevole."},
+{id:"s34", tipo:"figura", tema:"chiaro", sopratitolo:"Il rifiuto delle cure", illu:"mani", lato:"dx",
+  titolo:"L'infermiere rispetta il rifiuto di trattamenti e accertamenti, *anche quando comporta un rischio*.", sotto:"Adoperandosi perché la scelta sia informata e consapevole."},
 {id:"s35", tipo:"elenco", tema:"chiaro", sopratitolo:"La volontà espressa", voci:[
   {t:"Tutela le **disposizioni anticipate di trattamento**"},
   {t:"Sostiene la **pianificazione condivisa** delle cure", d:"su consenso e DAT torniamo in modo sistematico nella 1.6"}]},
@@ -192,18 +183,17 @@ export const SCENE = [
   {t:"**Collabora** e tutela la dignità dei membri dell'équipe"},
   {t:"Non assume atteggiamenti **denigratori** verso i colleghi"},
   {t:"I contrasti si affrontano **nelle sedi opportune**", d:"mai davanti alla persona assistita"}]},
-{id:"s40", tipo:"frase", tema:"chiaro", sopratitolo:"Ma quando qualcuno sbaglia",
-  testo:"Se un comportamento, *anche di un collega*, mette a rischio la sicurezza o la dignità della persona, il Codice impone di **segnalare**."},
+{id:"s40", tipo:"figura", tema:"chiaro", sopratitolo:"Ma quando qualcuno sbaglia", illu:"campana",
+  titolo:"Se un comportamento, *anche di un collega*, mette a rischio la persona, il Codice impone di **segnalare**."},
 {id:"s41", tipo:"catena", tema:"chiaro", sopratitolo:"Comportamento a rischio di un collega",
   passi:[{t:"Mettere in sicurezza", d:"la persona assistita, subito"},
          {t:"Informare", d:"chi di competenza"},
          {t:"Documentare", d:"coprire il collega non è solidarietà", key:true}]},
 
-{id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"Capo V · la novità del 2019",
-  testo:"Nei mezzi di comunicazione e nei social media l'infermiere agisce con *prudenza e decoro*.",
-  sotto:"È il capo da cui vengono i casi d'esame più recenti."},
-{id:"s43", tipo:"frase", tema:"chiaro", sopratitolo:"La riservatezza",
-  testo:"Non diffonde immagini o informazioni che rendano *identificabile* la persona assistita."},
+{id:"s42", tipo:"figura", tema:"chiaro", sopratitolo:"Capo V · la novità del 2019", illu:"telefono", lato:"dx",
+  titolo:"Nei mezzi di comunicazione e nei social media l'infermiere agisce con *prudenza e decoro*.", sotto:"È il capo da cui vengono i casi d'esame più recenti."},
+{id:"s43", tipo:"figura", tema:"chiaro", sopratitolo:"La riservatezza", illu:"scudo",
+  titolo:"Non diffonde immagini o informazioni che rendano *identificabile* la persona assistita."},
 {id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"La stessa fotografia, due situazioni opposte",
   intestazioni:["","Documentazione clinica","Immagine in chat"], colonne:["22%","39%","39%"],
   righe:[
@@ -214,9 +204,8 @@ export const SCENE = [
 {id:"s45", tipo:"elenco", tema:"chiaro", sopratitolo:"Capo VI · l'organizzazione", numerato:true, voci:[
   {t:"**Segnala** alle figure competenti le carenze di risorse o organizzazione", d:"che possano compromettere sicurezza e qualità dell'assistenza"},
   {t:"Si adopera perché la persona **non ne subisca le conseguenze**"}]},
-{id:"s46", tipo:"frase", tema:"chiaro", sopratitolo:"La condotta corretta",
-  testo:"La **segnalazione documentata**.",
-  sotto:"Subire in silenzio una carenza nota non protegge nessuno, e sul piano della responsabilità professionale espone."},
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"La condotta corretta", illu:"cartella", lato:"dx",
+  titolo:"La **segnalazione<br>documentata**.", sotto:"Subire in silenzio una carenza nota non protegge nessuno, e sul piano della responsabilità professionale espone."},
 
 {id:"s47", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
   sopratitolo:"I sette punti da portare all'esame", celle:[

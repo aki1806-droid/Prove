@@ -213,12 +213,12 @@ export const CSS_FIGURE = `
 .scuro .illu .pieno{fill:var(--acc)}
 
 /* --- figura: illustrazione grande accanto al titolo --- */
-.figura{display:flex;align-items:center;gap:80px;min-height:600px}
+.figura{display:flex;align-items:center;gap:64px;min-height:600px}
 .figura.dx{flex-direction:row-reverse}
-.figura .ill{flex:0 0 660px;width:660px}
-.figura .ill .illu{width:660px;height:660px}
+.figura .ill{flex:0 0 600px;width:600px}
+.figura .ill .illu{width:600px;height:600px}
 .figura .tx{flex:1;display:flex;flex-direction:column;gap:30px}
-.figura .tx h2{font-size:84px;line-height:1.1}
+.figura .tx h2{font-size:74px;line-height:1.12}
 .figura .tx .sotto{font-size:36px}
 .figura .tx{animation:sali .6s cubic-bezier(.22,.7,.3,1) both .5s}
 .corpo>.figura{animation:none}
@@ -262,6 +262,8 @@ export const CSS_FIGURE = `
 .fig .centro{font-size:44px;font-weight:600;fill:var(--tit);text-anchor:middle;dominant-baseline:central;
              animation:appari .6s both 1.6s}
 
+.fig .nodo.off > *,.fig .sat.off > *{opacity:.26}
+
 /* --- raggiera --- */
 .fig .raggio{stroke:var(--linea);stroke-width:6;stroke-dasharray:1 2;stroke-dashoffset:1.1;
              animation:disegna .6s ease-out both}
@@ -271,7 +273,7 @@ export const CSS_FIGURE = `
 .fig .sat{animation:pop .5s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
 .fig .sat circle{fill:var(--bg);stroke:var(--tit);stroke-width:5}
 .fig .sat.key circle{fill:color-mix(in srgb,var(--acc) 12%,var(--bg));stroke:var(--acc)}
-.fig .sat .lbl{font-size:31px;font-weight:600;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
+.fig .sat .lbl{font-size:28px;font-weight:600;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
 .fig .sat.key .lbl{fill:var(--acc)}
 
 /* --- misura: l'indicatore verticale --- */
@@ -356,7 +358,8 @@ export const CORPI_FIGURE = {
       const [x, y] = P(i);
       const fuori = 1.62, lx = cx + R * fuori * Math.cos(ang(i)), ly = cy + R * fuori * Math.sin(ang(i));
       const anchor = Math.abs(Math.cos(ang(i))) < .2 ? 'middle' : (Math.cos(ang(i)) > 0 ? 'start' : 'end');
-      return `<g class="nodo ${p.key ? 'key' : ''}" style="animation-delay:${num(.5 + i * .22)}s">
+      const on = (d.attive ?? d.passi.map((_, k) => k)).includes(i);
+      return `<g class="nodo ${p.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(.5 + i * .22)}s">
         <circle cx="${num(x)}" cy="${num(y)}" r="44"/>
         <text class="num" x="${num(x)}" y="${num(y)}">${i + 1}</text>
         <text class="lbl" x="${num(lx)}" y="${num(ly - (p.d ? 12 : 0))}" text-anchor="${anchor}"
@@ -378,25 +381,34 @@ export const CORPI_FIGURE = {
 
   // Un concetto al centro e i suoi elementi intorno.
   raggiera: d => {
-    const n = d.raggi.length, W = 1656, H = 600, cx = W / 2, cy = H / 2, R = 250;
+    // I satelliti tengono dentro solo il nome; la riga di spiegazione sta fuori,
+    // in direzione radiale, come le etichette del ciclo: dentro a un cerchio
+    // di novanta pixel non ci sta una frase, e in 2.7 usciva dal bordo.
+    const n = d.raggi.length, W = 1656, H = 660, cx = W / 2, cy = 318, r = 100,
+          R = d.raggi.some(q => q.d) ? 200 : 236;
     const ang = i => -Math.PI / 2 + i * 2 * Math.PI / n;
-    const parti = d.raggi.map((r, i) => {
-      const x = cx + R * Math.cos(ang(i)), y = cy + R * Math.sin(ang(i));
+    const parti = d.raggi.map((q, i) => {
+      const a = ang(i), x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
+      const lx = cx + (R + r + 28) * Math.cos(a), ly = cy + (R + r + 28) * Math.sin(a);
+      const c = Math.cos(a), anchor = Math.abs(c) < .2 ? 'middle' : (c > 0 ? 'start' : 'end');
+      const on = (d.attive ?? d.raggi.map((_, k) => k)).includes(i);
       return `<line class="raggio" pathLength="1" style="animation-delay:${num(.45 + i * .16)}s"
                 x1="${cx}" y1="${cy}" x2="${num(x)}" y2="${num(y)}"/>
-        <g class="sat ${r.key ? 'key' : ''}" style="animation-delay:${num(.75 + i * .16)}s">
-          <circle cx="${num(x)}" cy="${num(y)}" r="${r.d ? 112 : 92}"/>
-          <text class="lbl" x="${num(x)}" y="${num(y - (r.d ? 16 : 0))}">${piano(r.t)}</text>
-          ${r.d ? `<text class="sub" x="${num(x)}" y="${num(y + 26)}" text-anchor="middle"
-             dominant-baseline="central">${piano(r.d)}</text>` : ''}
+        <g class="sat ${q.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(.75 + i * .16)}s">
+          <circle cx="${num(x)}" cy="${num(y)}" r="${r}"/>
+          <text class="lbl" x="${num(x)}" y="${num(y)}">${piano(q.t)}</text>
+          ${q.d ? `<text class="sub" x="${num(lx)}" y="${num(ly)}" text-anchor="${anchor}"
+             dominant-baseline="central">${piano(q.d)}</text>` : ''}
         </g>`;
     }).join('');
+    const lungo = piano(d.centro).length > 9;
     return `<svg class="fig gfx" viewBox="0 0 ${W} ${H}">
       ${parti}
-      <g class="hub"><circle cx="${cx}" cy="${cy}" r="98"/>
-        <text x="${cx}" y="${cy}">${piano(d.centro)}</text></g>
+      <g class="hub"><circle cx="${cx}" cy="${cy}" r="104"/>
+        <text x="${cx}" y="${cy}" style="font-size:${lungo ? 30 : 38}px">${piano(d.centro)}</text></g>
     </svg>`;
   },
+
 
   // Un indicatore verticale con una soglia: il valore sale fino a dove sta.
   misura: d => {

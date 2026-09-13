@@ -100,8 +100,8 @@ export const SCENE = [
   intestazioni:["Autore","Concetto chiave"], colonne:["36%","64%"],
   righe:AUTORI.slice(4)},
 
-{id:"s13", tipo:"titolo", tema:"chiaro", sopratitolo:"Che cosa chiede davvero la domanda",
-  titolo:"L'**accoppiata** nome e concetto.<br>Non la biografia.",
+{id:"s13", tipo:"figura", tema:"chiaro", sopratitolo:"Che cosa chiede davvero la domanda", illu:"lente",
+  titolo:"L'**accoppiata**<br>nome e concetto.<br>Non la biografia.",
   sotto:"È esattamente quello che la domanda chiede, e non chiede nient'altro."},
 
 {id:"s14", tipo:"trappola", tema:"tenue", sopratitolo:"Come impararle",
@@ -109,19 +109,15 @@ export const SCENE = [
    {sb:"Recitare l'elenco in ordine, dal primo all'ultimo",
     ok:"Impararle a **coppie**: la domanda può partire dal concetto invece che dal nome"}]},
 
-{id:"s15", tipo:"tre", tema:"chiaro", sopratitolo:"Se ne ricordi solo tre", cifre:true,
-  box:[
-   {n:"14", t:"Henderson", d:"bisogni"},
-   {n:"—", t:"Orem", d:"autocura"},
-   {n:"11", t:"Gordon", d:"modelli funzionali"}]},
+{id:"s15", tipo:"cifre", tema:"chiaro", sopratitolo:"Se ne ricordi solo tre",
+  voci:[{n:14, t:"Henderson", d:"bisogni"},{n:"3", t:"Orem", d:"sistemi di autocura"},{n:11, t:"Gordon", d:"modelli funzionali", key:true}]},
 
 {id:"s16", tipo:"icone", tema:"chiaro", sopratitolo:"La quarta più frequente",
   voci:[
    {icona:"goccia", t:"Nightingale", d:"l'**ambiente** — ed è la prima della storia della disciplina", key:true}]},
 
-{id:"s17", tipo:"titolo", tema:"profondo",
-  titolo:"**14** è Henderson.<br>**11** è Gordon.<br>Non il contrario.",
-  sotto:"Il distrattore scambia questi due numeri quasi ogni volta."},
+{id:"s17", tipo:"cifre", tema:"profondo", sopratitolo:"Non il contrario",
+  voci:[{n:14, t:"è Henderson", d:"i bisogni fondamentali"},{n:11, t:"è Gordon", d:"i modelli funzionali di salute", key:true}]},
 
 {id:"s18", tipo:"citazione", tema:"chiaro", sopratitolo:"Henderson · la definizione",
   testo:"Assistere la persona, malata o sana, nel compimento delle attività che contribuiscono alla salute o alla guarigione.",
@@ -133,7 +129,7 @@ export const SCENE = [
    {n:"2", t:"Volontà", d:"si **sostiene**"},
    {n:"3", t:"Conoscenza", d:"si **insegna**"}]},
 
-{id:"s20", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché citarle testualmente",
+{id:"s20", tipo:"figura", tema:"chiaro", sopratitolo:"Perché citarle testualmente", illu:"libro", lato:"dx",
   titolo:"Sono le **tre cause<br>della dipendenza** —<br>e sono tre cose diverse.",
   sotto:"Distingue chi ha studiato Henderson da chi l'ha solo sentita nominare."},
 
@@ -150,7 +146,7 @@ export const SCENE = [
    {t:"Sicurezza", d:"evitare i pericoli"},
    {t:"Fisiologico", d:"respirare, mangiare, eliminare, muoversi, dormire"}]},
 
-{id:"s24", tipo:"titolo", tema:"tenue", sopratitolo:"Perché l'elenco finisce con «apprendere»",
+{id:"s24", tipo:"figura", tema:"tenue", sopratitolo:"Perché l'elenco finisce con «apprendere»", illu:"persona",
   titolo:"L'educazione non è un di più<br>che si fa **se avanza tempo**.",
   sotto:"È l'ultimo gradino dell'assistenza: quello che rende liberi."},
 
@@ -194,7 +190,7 @@ export const SCENE = [
   gradini:OREM},
 {id:"s35", tipo:"scala", tema:"chiaro", sopratitolo:"I tre sistemi di Orem", gradini:OREM},
 
-{id:"s36", tipo:"titolo", tema:"chiaro", sopratitolo:"Che cosa misurano davvero",
+{id:"s36", tipo:"figura", tema:"chiaro", sopratitolo:"Che cosa misurano davvero", illu:"termometro", lato:"dx",
   titolo:"Non tre **gravità cliniche**:<br>tre misure dello **scarto**.",
   sotto:"Fra quello che la persona deve fare per sé e quello che riesce a fare."},
 
@@ -212,8 +208,8 @@ export const SCENE = [
    {t:"Non è **misurabile** nel tempo", n:"×"},
    {t:"Non è **ricercabile**", n:"×"}]},
 
-{id:"s40", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché nascono le tassonomie",
-  titolo:"Un **vocabolario comune**<br>è la condizione perché esista<br>una ricerca infermieristica.",
+{id:"s40", tipo:"figura", tema:"chiaro", sopratitolo:"Perché nascono le tassonomie", illu:"dialogo",
+  titolo:"Un **vocabolario comune**<br>è la condizione per una<br>ricerca infermieristica.",
   sotto:"E non solo una raccolta di esperienze."},
 
 {id:"s41", tipo:"icone", tema:"chiaro", sopratitolo:"Tre sistemi, tre domande",

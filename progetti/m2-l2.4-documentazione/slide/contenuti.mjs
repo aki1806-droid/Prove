@@ -69,12 +69,8 @@ export const SCENE = [
   a:{h:"È", t:"L'atto con cui l'assistenza<br>diventa **verificabile** — e difendibile"},
   sotto:"Senza documento, l'assistenza esiste solo nella memoria di chi l'ha fatta."},
 
-{id:"s04", tipo:"tre", tema:"tenue", sopratitolo:"Perché rende più di quasi ogni altro argomento",
-  box:[
-   {n:"1", t:"Metodologia"},
-   {n:"2", t:"Diritto"},
-   {n:"3", t:"Sicurezza", key:true}],
-  },
+{id:"s04", tipo:"raggiera", tema:"tenue", sopratitolo:"Perché rende più di quasi ogni altro argomento", centro:"Documentare",
+  raggi:[{t:"Metodologia"},{t:"Sicurezza", key:true},{t:"Diritto"}]},
 
 {id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"Quattro blocchi", numerato:true,
   attive:[0,1], voci:OBIETTIVI},
@@ -97,7 +93,7 @@ export const SCENE = [
    {h:"Se scrivi il falso", t:"**Falso in atto pubblico**<br><em>artt. 476 e ss. c.p.</em>"},
    {h:"Se non scrivi", t:"Ciò che non compare<br>si presume **non eseguito**"}]},
 
-{id:"s11", tipo:"titolo", tema:"chiaro", sopratitolo:"Come leggerla",
+{id:"s11", tipo:"figura", tema:"chiaro", sopratitolo:"Come leggerla", illu:"bilancia",
   titolo:"Protegge chi documenta bene.<br>Espone chi documenta male.",
   sotto:"Non è un adempimento contro di te: è la tua prova — e a distanza di anni l'unica che avrai."},
 
@@ -106,7 +102,7 @@ export const SCENE = [
 {id:"s13", tipo:"icone", tema:"chiaro", sopratitolo:"Le sei funzioni della cartella",
   voci:FUNZIONI},
 
-{id:"s14", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché i requisiti sono così rigidi",
+{id:"s14", tipo:"figura", tema:"chiaro", sopratitolo:"Perché i requisiti sono così rigidi", illu:"cartella", lato:"dx",
   titolo:"Un solo documento<br>deve servire a **sei scopi** —<br>alcuni a distanza di anni."},
 
 {id:"s15", tipo:"venn", tema:"chiaro", sopratitolo:"Dove sta la cartella infermieristica",
@@ -148,7 +144,7 @@ export const SCENE = [
   da:{h:"Giudizio", t:"«Paziente<br>**maleducato**»"},
   a:{h:"Dato", t:"«**Rifiuta l'igiene** e alza la voce<br>quando gli viene proposta»"}},
 
-{id:"s22", tipo:"titolo", tema:"tenue", sopratitolo:"Stessa scena",
+{id:"s22", tipo:"figura", tema:"tenue", sopratitolo:"Stessa scena", illu:"persona",
   titolo:"Due documenti<br>con valore<br>**completamente diverso**."},
 
 {id:"s23", tipo:"icone", tema:"chiaro", sopratitolo:"Le tre annotazioni che proteggono chi le scrive",
@@ -162,7 +158,7 @@ export const SCENE = [
    {h:"Saltato e spiegato", t:"è una **scelta**", grande:true},
    {h:"Saltato e muto", t:"è una **mancanza**", grande:true}]},
 
-{id:"s25", tipo:"titolo", tema:"chiaro", sopratitolo:"Le tre che in giudizio pesano di più",
+{id:"s25", tipo:"figura", tema:"chiaro", sopratitolo:"Le tre che in giudizio pesano di più", illu:"lente", lato:"dx",
   titolo:"Chi le scrive tutte e tre<br>ha già risposto alle domande<br>che gli verrebbero fatte dopo."},
 
 {id:"s26", tipo:"catena", tema:"chiaro", sopratitolo:"Correggere · la sequenza",
@@ -191,9 +187,9 @@ export const SCENE = [
   passi:[
    {t:"Prescrizione"}, {t:"Preparazione"}, {t:"Somministrazione", key:true}]},
 
-{id:"s33", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché non è un modulo in più",
-  titolo:"La **trascrizione manuale**<br>da un supporto a un altro<br>è uno dei punti di maggior rischio.",
-  sotto:"La scheda unica la elimina."},
+{id:"s33", tipo:"figura", tema:"chiaro", sopratitolo:"Perché non è un modulo in più", illu:"fiale",
+  titolo:"La **trascrizione manuale**<br>è uno dei punti<br>di maggior rischio.",
+  sotto:"Da un supporto a un altro, ogni volta. La scheda unica la elimina."},
 
 {id:"s34", tipo:"tabella", tema:"chiaro", sopratitolo:"I sette elementi della prescrizione · 1",
   intestazioni:["","Elemento","Perché"], colonne:["8%","44%","48%"], chiave:[2,3],
@@ -202,8 +198,9 @@ export const SCENE = [
   intestazioni:["","Elemento","Perché"], colonne:["8%","44%","48%"], chiave:[0,1],
   righe:PRESCRIZIONE.slice(5)},
 
-{id:"s36", tipo:"titolo", tema:"chiaro", sopratitolo:"E la conseguenza",
-  titolo:"Se ne manca uno<br>la prescrizione **non è completa** —<br>e non si esegue."},
+{id:"s36", tipo:"figura", tema:"chiaro", sopratitolo:"E la conseguenza", illu:"telefono", lato:"dx",
+  titolo:"Se ne manca uno<br>la prescrizione **non è<br>completa** — e non si esegue.",
+  sotto:"Chiedo chiarimento, e se il dubbio permane non do corso."},
 
 {id:"s37", tipo:"catena", tema:"chiaro", sopratitolo:"Prescrizione incompleta o illeggibile",
   passi:[
@@ -233,8 +230,8 @@ export const SCENE = [
    {sb:"«Non c'è scritto niente, quindi era tutto normale»",
     ok:"Vale solo se **tutti sanno** a che cosa lo standard si riferisce"}]},
 
-{id:"s42", tipo:"titolo", tema:"chiaro", sopratitolo:"L'elemento che non può mancare, qualunque modello",
-  titolo:"La **risposta della persona**.",
+{id:"s42", tipo:"figura", tema:"chiaro", sopratitolo:"L'elemento che non può mancare, qualunque modello", illu:"cuore",
+  titolo:"La **risposta<br>della persona**.",
   sotto:"È ciò che trasforma l'annotazione da elenco di attività a documentazione di un processo."},
 
 {id:"s43", tipo:"sostituzione", tema:"chiaro", sopratitolo:"In una riga, tutte e cinque le fasi",

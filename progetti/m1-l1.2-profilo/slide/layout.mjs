@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { CSS_GRAFICA, CORPI_GRAFICA, collega, FREGI } from './grafica.mjs';
+import { CSS_FIGURE, CORPI_FIGURE, collega as collegaFigure } from './figure.mjs';
 const QUI = dirname(fileURLToPath(import.meta.url));
 
 // --- palette ricavata dal marchio CISL FP Padova Rovigo ---
@@ -31,6 +32,11 @@ const acc = s => String(s??'')
   .replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
 // grafica.mjs usa la stessa funzione, invece di tenerne una copia che diverge.
 collega(acc);
+collegaFigure(acc);
+// Il sopratitolo e' gia' tutto di un colore suo: un accento li' non si vedrebbe.
+// Ma i marcatori vanno tolti lo stesso, o finiscono a schermo come asterischi —
+// e' successo davvero, su «l'accertamento e' *continuo*».
+const sop = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
 
 const CSS = `
 ${FONT}
@@ -247,6 +253,7 @@ ol.el.fitto,ul.el.fitto{gap:20px}
 .fonti .limite{animation-delay:.72s}
 
 ${CSS_GRAFICA}
+${CSS_FIGURE}
 
 /* ferme: l'orologio lo muove il generatore. Deve stare in coda a tutto. */
 .slide *{animation-play-state:paused}
@@ -323,7 +330,7 @@ const CORPI = {
         ${d.voci.map(v=>`<div class="v">${acc(v)}</div>`).join('')}</div></div></div>`,
 };
 
-const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
+const TUTTI = { ...CORPI, ...CORPI_GRAFICA, ...CORPI_FIGURE };
 // I grafici non vanno sul verde pieno: le tinte dei dati non ci arrivano a 3:1
 // di contrasto senza uscire dalla banda di chiarezza. Meglio accorgersene qui
 // che scoprirlo guardando il video.
@@ -341,7 +348,7 @@ export function html(d, {avanzamento=0, pagina=''}={}) {
          background:${t.bg};color:${t.fg}">
   <div class="logo"><img src="${MARCHIO}" alt="CISL FP Padova Rovigo"></div>
   ${pagina?`<div class="pagina">${pagina}</div>`:''}
-  ${cover?'':`<div class="sop">${d.sopratitolo ?? ''}</div>`}
+  ${cover?'':`<div class="sop">${sop(d.sopratitolo)}</div>`}
   <div class="corpo">${corpo}</div>
   <div class="avanz"><i style="width:${(avanzamento*100).toFixed(2)}%"></i></div>
 </div></body>`;

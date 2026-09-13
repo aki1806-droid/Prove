@@ -65,9 +65,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 2 di 8",
   testo:"Delle tre fonti, apriamo la prima e la più importante: *il profilo professionale*."},
-{id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Che cos'è il profilo",
-  testo:"Poco più di una pagina. E la norma *più citata* nelle prove scritte.",
-  sotto:"Oggi la leggiamo comma per comma."},
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"Che cos'è il profilo", illu:"cartella",
+  titolo:"Poco più di una pagina.<br>E la norma *più citata*<br>nelle prove scritte.", sotto:"Oggi la leggiamo comma per comma."},
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro traguardi", voci:[
   {icona:"documento", t:"Che atto è", d:"un regolamento ministeriale"},
   {icona:"libro",     t:"I tre elenchi", d:"del comma 2, che i quiz mescolano"},
@@ -77,8 +76,8 @@ export const SCENE = [
 {id:"s05", tipo:"norma", tema:"chiaro", sopratitolo:"Che atto è",
   etichetta:"Regolamento", sigla:"DM 739/1994",
   testo:"In attuazione dell'articolo 6 comma 3 del *decreto legislativo 502 del 1992*."},
-{id:"s06", tipo:"frase", tema:"chiaro", sopratitolo:"Da dove viene",
-  testo:"Il 502 affida al Ministro il compito di individuare *figure e profili*. Il 739 lo esegue per l'infermiere."},
+{id:"s06", tipo:"figura", tema:"chiaro", sopratitolo:"Da dove viene", illu:"catena", lato:"dx",
+  titolo:"Il 502 affida al Ministro<br>il compito di individuare<br>*figure e profili*.", sotto:"Il 739 lo esegue per l'infermiere."},
 {id:"s07", tipo:"tabella", tema:"chiaro", sopratitolo:"Due soli articoli",
   intestazioni:["","Che cosa dice","Che cosa NON fa"], colonne:["18%","46%","36%"],
   righe:[
@@ -113,14 +112,12 @@ export const SCENE = [
   {icona:"cuoremano", t:"Palliativa", d:"sedici anni prima della legge 38/2010", key:true},
   {icona:"ingranaggio", t:"Riabilitativa"}]},
 
-{id:"s15", tipo:"frase", tema:"chiaro", sopratitolo:"Un dettaglio che fa impressione",
-  testo:"«Palliativa» è scritta lì dal *1994*.",
+{id:"s15", tipo:"figura", tema:"chiaro", sopratitolo:"Un dettaglio che fa impressione", illu:"cuore",
+  titolo:"«Palliativa» è scritta lì<br>dal *1994*.",
   sotto:"Sedici anni prima della legge 38 del 2010: le cure palliative sono da sempre nel mandato professionale, non un'aggiunta recente."},
 
-{id:"s16", tipo:"icone", tema:"chiaro", sopratitolo:"Le tre nature dell'assistenza", voci:[
-  {icona:"ingranaggio", t:"Tecnica"},
-  {icona:"cuoremano",   t:"Relazionale"},
-  {icona:"cappello",    t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
+{id:"s16", tipo:"raggiera", tema:"chiaro", sopratitolo:"Le tre nature dell'assistenza", centro:"Assistenza",
+  raggi:[{t:"Tecnica"},{t:"Relazionale"},{t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
 
 {id:"s17", tipo:"icone", tema:"chiaro", sopratitolo:"Le tre funzioni principali", voci:[
   {icona:"scudo",    t:"Prevenzione delle malattie"},
@@ -139,11 +136,10 @@ export const SCENE = [
 {id:"s21", tipo:"confronto", tema:"profondo", sopratitolo:"La distinzione più chiesta", col:[
   {h:"Bisogni di salute", t:"partecipa", grande:true},
   {h:"Bisogni di assistenza infermieristica", t:"identifica e formula", grande:true}]},
-{id:"s22", tipo:"frase", tema:"chiaro", sopratitolo:"Perché, e non solo quale verbo",
-  testo:"Il bisogno di salute non è di nessuna professione: si legge *insieme*. Il bisogno di assistenza infermieristica è *tuo*."},
-{id:"s23", tipo:"frase", tema:"chiaro", sopratitolo:"Se all'orale ti si annebbia",
-  testo:"Non cercare il verbo: chiediti *di chi è il bisogno*.",
-  sotto:"Il verbo viene da sé. È l'oggetto su cui tu fai diagnosi."},
+{id:"s22", tipo:"figura", tema:"chiaro", sopratitolo:"Perché, e non solo quale verbo", illu:"persona", lato:"dx",
+  titolo:"Il bisogno di salute si legge *insieme*.<br>Il bisogno di assistenza infermieristica è *tuo*."},
+{id:"s23", tipo:"figura", tema:"chiaro", sopratitolo:"Se all'orale ti si annebbia", illu:"lente",
+  titolo:"Non cercare il verbo:<br>chiediti *di chi è il bisogno*.", sotto:"Il verbo viene da sé. È l'oggetto su cui tu fai diagnosi."},
 {id:"s24", tipo:"titolo", tema:"profondo", sopratitolo:"Da ripetere ad alta voce, una volta",
   titolo:"Bisogni di salute, *partecipo*.<br>Bisogni di assistenza, *identifico*."},
 
@@ -170,16 +166,14 @@ export const SCENE = [
 {id:"s30", tipo:"sostituzione", tema:"chiaro", sopratitolo:"«Si avvale» · lettera e",
   da:{h:"Non è", t:"un rapporto gerarchico"}, a:{h:"È", t:"un rapporto funzionale"},
   sotto:"Non è galateo: da come qualifichi il rapporto discende *chi risponde di che cosa*."},
-{id:"s31", tipo:"frase", tema:"chiaro", sopratitolo:"«Ove necessario»",
-  testo:"È una *valutazione tua*, non un automatismo dell'organizzazione."},
+{id:"s31", tipo:"figura", tema:"chiaro", sopratitolo:"«Ove necessario»", illu:"bussola", lato:"dx",
+  titolo:"È una *valutazione tua*,<br>non un automatismo<br>dell'organizzazione."},
 
 {id:"s32", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Attribuire non è delegare",
   da:{h:"La delega", t:"trasferisce la responsabilità"},
   a:{h:"L'attribuzione", t:"la distribuisce"}},
-{id:"s33", tipo:"icone", tema:"chiaro", sopratitolo:"Attribuire all'OSS: i tre criteri", voci:[
-  {icona:"persone",  t:"Competenza", d:"dell'operatore a cui attribuisci"},
-  {icona:"cuoremano", t:"Condizioni", d:"complessità e stabilità della persona assistita"},
-  {icona:"ospedale", t:"Contesto", d:"l'organizzazione in cui l'attività si svolge"}]},
+{id:"s33", tipo:"raggiera", tema:"chiaro", sopratitolo:"Attribuire all'OSS: i tre criteri", centro:"Attribuire",
+  raggi:[{t:"Competenza", d:"dell'operatore a cui attribuisci"},{t:"Condizioni", d:"complessità e stabilità della persona"},{t:"Contesto", d:"l'organizzazione in cui si svolge"}]},
 
 {id:"s34", tipo:"frase", tema:"tenue", sopratitolo:"Quando non si attribuisce",
   testo:"Se uno dei tre criteri non regge, l'attività *non si attribuisce*.",
@@ -190,9 +184,8 @@ export const SCENE = [
   {h:"Chi esegue", t:"risponde della corretta esecuzione", grande:true}]},
 {id:"s36", tipo:"frase", tema:"profondo", sopratitolo:"La conseguenza",
   testo:"La responsabilità non si trasferisce per intero: *si distribuisce*."},
-{id:"s37", tipo:"frase", tema:"chiaro", sopratitolo:"Il criterio nei casi clinici",
-  testo:"Si giudica *la decisione*, non l'esito.",
-  sotto:"La domanda non è se è andata male: è se la scelta era giusta quando l'hai fatta."},
+{id:"s37", tipo:"figura", tema:"chiaro", sopratitolo:"Il criterio nei casi clinici", illu:"bilancia",
+  titolo:"Si giudica *la decisione*,<br>non l'esito.", sotto:"La domanda non è se è andata male: è se la scelta era giusta quando l'hai fatta."},
 
 {id:"s38", tipo:"griglia", tema:"chiaro", colonne:2,
   sopratitolo:"Che cosa non si attribuisce mai", celle:[
@@ -210,9 +203,8 @@ export const SCENE = [
 {id:"s40", tipo:"elenco", tema:"chiaro", sopratitolo:"Due frasi brevi ma pesanti", numerato:true, voci:[
   {t:"Contribuisce alla **formazione** del personale di supporto"},
   {t:"Concorre all'**aggiornamento** e alla **ricerca**"}]},
-{id:"s41", tipo:"frase", tema:"chiaro", sopratitolo:"L'aggiornamento",
-  testo:"Non è una facoltà: è un *dovere professionale*.",
-  sotto:"E diventerà fondamento di responsabilità per imperizia — lezione 1.5."},
+{id:"s41", tipo:"figura", tema:"chiaro", sopratitolo:"L'aggiornamento", illu:"libro", lato:"dx",
+  titolo:"Non è una facoltà:<br>è un *dovere professionale*.", sotto:"E diventerà fondamento di responsabilità per imperizia — lezione 1.5."},
 {id:"s42", tipo:"icone", tema:"chiaro", sopratitolo:"Dove si esercita — non solo l'ospedale", voci:[
   {icona:"ospedale", t:"Strutture", d:"pubbliche e private"},
   {icona:"cartella", t:"Territorio"},
@@ -233,8 +225,8 @@ export const SCENE = [
    ["Che cosa sono","ambiti **clinici**","gradi di **carriera**"],
    ["La domanda","**dove** lavori","**che ruolo** hai"]]},
 
-{id:"s45", tipo:"frase", tema:"chiaro", sopratitolo:"Il test per non sbagliare",
-  testo:"Le aree rispondono a *dove lavori*. I livelli a *fin dove sei arrivato*."},
+{id:"s45", tipo:"figura", tema:"chiaro", sopratitolo:"Il test per non sbagliare", illu:"piramide",
+  titolo:"Le aree rispondono a *dove lavori*.<br>I livelli a *fin dove sei arrivato*."},
 
 {id:"s46", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1,2],
   sopratitolo:"I numeri del profilo", celle:NUMERI12},
@@ -246,8 +238,8 @@ export const SCENE = [
   {h:"Chi attribuisce", t:"risponde della scelta", grande:true},
   {h:"Chi esegue", t:"risponde della corretta esecuzione", grande:true}],
   sotto:"Nella dispensa: il testo commentato, quindici quiz e la traccia già svolta."},
-{id:"s49", tipo:"frase", tema:"chiaro", sopratitolo:"Un'ultima cosa onesta",
-  testo:"Nessuno ricorda un decreto a memoria. Si ricordano *i numeri*, e da quelli si ricostruisce il testo."},
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"Un'ultima cosa onesta", illu:"dialogo", lato:"dx",
+  titolo:"Nessuno ricorda un decreto a memoria. Si ricordano *i numeri*, e da quelli si ricostruisce il testo."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Fine della micro-lezione 1.2",

@@ -51,7 +51,7 @@ export const SCENE = [
   testo:"Sono **numeriche, univoche, facilissime da chiedere**.",
   sotto:"Il terreno più fertile per domande secche."},
 
-{id:"s03", tipo:"titolo", tema:"chiaro", sopratitolo:"E perché si perdono",
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"E perché si perdono", illu:"termometro",
   titolo:"La trappola è<br>la **direzione** del punteggio.",
   sotto:"Non il valore: la direzione."},
 
@@ -105,9 +105,8 @@ export const SCENE = [
    {a:16, v:"16", t:"la **soglia**: da qui in giù, a rischio", key:true},
    {a:23, v:"23", t:"il **massimo**"}]},
 
-{id:"s15", tipo:"titolo", tema:"tenue", sopratitolo:"Da dove vengono il 6 e il 23",
-  titolo:"Cinque item a **quattro** livelli,<br>uno solo a **tre**.",
-  sotto:"È «frizione e scivolamento» — il dettaglio da veri conoscitori."},
+{id:"s15", tipo:"cifre", tema:"tenue", sopratitolo:"Da dove vengono il 6 e il 23",
+  voci:[{n:5, t:"item a quattro livelli", d:"da 1 a 4 ciascuno"},{n:1, t:"item a tre livelli", d:"«frizione e scivolamento» — il dettaglio da veri conoscitori", key:true},{n:"6–23", t:"l'intervallo", d:"che ne risulta"}]},
 
 {id:"s16", tipo:"scadenza", tema:"chiaro", sopratitolo:"Norton · stesso rischio, cinque item",
   max:21, banda:[5,14], colore:"#D70328",
@@ -135,7 +134,7 @@ export const SCENE = [
 {id:"s20", tipo:"griglia", tema:"chiaro", colonne:1,
   sopratitolo:"Che cosa consegue da un Braden a rischio", celle:INTERVENTI},
 
-{id:"s21", tipo:"titolo", tema:"chiaro", sopratitolo:"La catena che i casi chiedono",
+{id:"s21", tipo:"figura", tema:"chiaro", sopratitolo:"La catena che i casi chiedono", illu:"cartella", lato:"dx",
   titolo:"A un Braden basso<br>deve corrispondere una<br>**modifica del piano, scritta**."},
 
 {id:"s22", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
@@ -182,7 +181,7 @@ export const SCENE = [
    {t:"Si perdono le **IADL**", d:"farmaci, denaro, trasporti", key:true},
    {t:"E **poi** le ADL", d:"bagno, vestirsi, alimentazione"}]},
 
-{id:"s29", tipo:"titolo", tema:"tenue", sopratitolo:"Perché le IADL sono più sensibili",
+{id:"s29", tipo:"figura", tema:"tenue", sopratitolo:"Perché le IADL sono più sensibili", illu:"casa",
   titolo:"Non gestisce più le medicine,<br>ma si lava ancora da sola:<br>il problema è **già iniziato**."},
 
 {id:"s30", tipo:"tabella", tema:"chiaro", sopratitolo:"Le scale del dolore · quando la persona può riferire",
@@ -199,8 +198,8 @@ export const SCENE = [
    ["**PAINAD**","demenza avanzata","respiro, vocalizzazione, espressione facciale, linguaggio del corpo, consolabilità"],
    ["**FLACC**","il bambino piccolo","volto, gambe, attività, pianto, consolabilità"]]},
 
-{id:"s32", tipo:"titolo", tema:"chiaro", sopratitolo:"La regola d'oro",
-  titolo:"Il dolore è<br>**ciò che la persona dice che è**.",
+{id:"s32", tipo:"figura", tema:"chiaro", sopratitolo:"La regola d'oro", illu:"ascolto", lato:"dx",
+  titolo:"Il dolore è<br>**ciò che la persona<br>dice che è**.",
   sotto:"E quando non può dirlo, si passa a una scala osservazionale."},
 
 {id:"s33", tipo:"trappola", tema:"chiaro", sopratitolo:"Il distrattore tipico",
@@ -227,9 +226,8 @@ export const SCENE = [
    {a:12, v:"12", t:"9–12: **moderata**"},
    {a:15, v:"15", t:"13–15: **lieve**"}]},
 
-{id:"s37", tipo:"tre", tema:"chiaro", sopratitolo:"Tre numeri, e ricostruisci tutto", cifre:true,
-  box:[
-   {n:"4", t:"Occhi"}, {n:"5", t:"Verbale"}, {n:"6", t:"Motoria", key:true}]},
+{id:"s37", tipo:"cifre", tema:"chiaro", sopratitolo:"Tre numeri, e ricostruisci tutto",
+  voci:[{n:4, t:"Occhi", d:"apertura degli occhi"},{n:5, t:"Verbale", d:"risposta verbale"},{n:6, t:"Motoria", d:"risposta motoria — e 4+5+6 fa 15", key:true}]},
 
 {id:"s38", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
   sopratitolo:"CAM · le quattro caratteristiche del delirium",
@@ -254,7 +252,7 @@ export const SCENE = [
    {n:"5", t:"Frequenza cardiaca"}, {n:"6", t:"Stato di coscienza"},
    {n:"7", t:"Temperatura"}]},
 
-{id:"s41", tipo:"titolo", tema:"chiaro", sopratitolo:"Che cosa fa il punteggio NEWS",
+{id:"s41", tipo:"figura", tema:"chiaro", sopratitolo:"Che cosa fa il punteggio NEWS", illu:"semaforo",
   titolo:"Non è una diagnosi:<br>è un **semaforo**.",
   sotto:"Dice quanto spesso guardare e chi chiamare — anche quando il paziente sembra stabile."},
 
@@ -285,7 +283,7 @@ export const SCENE = [
   intestazioni:["Scala","Che cosa misura","Range","Soglia"], colonne:["18%","34%","16%","32%"],
   righe:NUMERI.slice(4)},
 
-{id:"s49", tipo:"titolo", tema:"chiaro", sopratitolo:"Come usare questa lezione",
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"Come usare questa lezione", illu:"libro", lato:"dx",
   titolo:"Fotografa la tabella<br>e riguardala<br>**la sera prima della prova**."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",

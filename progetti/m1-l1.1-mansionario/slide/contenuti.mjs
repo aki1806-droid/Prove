@@ -77,7 +77,7 @@ export const SCENE = [
 
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 1 di 8",
   testo:"Partiamo dal punto da cui *discende tutto il resto*."},
-{id:"s03", tipo:"titolo", tema:"chiaro", sopratitolo:"La domanda di partenza",
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"La domanda di partenza", illu:"lente",
   titolo:"Che cosa può fare<br>un infermiere?", sotto:"E soprattutto: *chi lo stabilisce*."},
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"In questa lezione", voci:[
   {icona:"libro",       t:"Il mansionario", d:"che cos'era e perché è caduto"},
@@ -94,8 +94,8 @@ export const SCENE = [
    ["Il criterio","È consentito ciò che l'elenco prevede","È consentito ciò che rientra nel perimetro"],
    ["Il nome","Professioni sanitarie **ausiliarie**","Professioni **sanitarie**"]]},
 
-{id:"s07", tipo:"frase", tema:"chiaro", sopratitolo:"La collocazione della professione",
-  testo:"Professioni sanitarie **ausiliarie**.",
+{id:"s07", tipo:"figura", tema:"chiaro", sopratitolo:"La collocazione della professione", illu:"piramide", lato:"dx",
+  titolo:"Professioni sanitarie<br>**ausiliarie**.",
   sotto:"Ausiliarie rispetto alla professione medica. Non un dettaglio lessicale: la posizione della professione dentro il sistema."},
 
 {id:"s08", tipo:"icone", tema:"chiaro", sopratitolo:"I tre difetti che l'hanno condannato",
@@ -117,10 +117,8 @@ export const SCENE = [
   da:{h:"Non dice", t:"collabora · esegue"}, a:{h:"Dice", t:"risponde in proprio"},
   sotto:"Se puoi sostituire *responsabile* con *collabora* e la frase regge lo stesso, non l'hai capita."},
 
-{id:"s14", tipo:"icone", tema:"chiaro", sopratitolo:"La natura dell'assistenza infermieristica", voci:[
-  {icona:"ingranaggio", t:"Tecnica", d:"il gesto, la procedura, il presidio"},
-  {icona:"cuoremano",   t:"Relazionale", d:"la relazione di cura con la persona"},
-  {icona:"cappello",    t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
+{id:"s14", tipo:"raggiera", tema:"chiaro", sopratitolo:"La natura dell'assistenza infermieristica", centro:"Assistenza",
+  raggi:[{t:"Tecnica", d:"il gesto, la procedura, il presidio"},{t:"Relazionale", d:"la relazione di cura con la persona"},{t:"Educativa", d:"è quella che sparisce nei distrattori", key:true}]},
 
 {id:"s15", tipo:"trappola", tema:"tenue", sopratitolo:"Il distrattore più diffuso",
   righe:[{sb:"«di natura tecnica e relazionale»", ok:"tecnica, relazionale ed *educativa*: tre, non due"}]},
@@ -165,8 +163,8 @@ export const SCENE = [
   box:FONTI, testoLimite:LIMITE, limite:false},
 {id:"s29", tipo:"fonti", tema:"profondo", sopratitolo:"Le tre fonti · L. 42/1999",
   box:FONTI, testoLimite:LIMITE, limite:true},
-{id:"s30", tipo:"frase", tema:"chiaro", sopratitolo:"Perché tre e non una",
-  testo:"Una fonte sola tornerebbe a essere *un elenco*.",
+{id:"s30", tipo:"figura", tema:"chiaro", sopratitolo:"Perché tre e non una", illu:"libro", lato:"dx",
+  titolo:"Una fonte sola<br>tornerebbe a essere<br>*un elenco*.",
   sotto:"Se all'orale citi solo il profilo, hai dato una risposta *a un terzo*."},
 
 {id:"s31", tipo:"perimetro", tema:"chiaro", sopratitolo:"Il cambio di paradigma",
@@ -181,8 +179,8 @@ export const SCENE = [
 {id:"s33", tipo:"norma", tema:"chiaro", sopratitolo:"L'autonomia professionale",
   etichetta:"Un anno dopo", sigla:"L. 251/2000",
   testo:"Attività dirette alla prevenzione, alla cura e alla salvaguardia della salute, *con autonomia professionale*."},
-{id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Pianificare per obiettivi",
-  testo:"Scrivere il *risultato atteso* prima dell'intervento. E poi *misurarlo*."},
+{id:"s34", tipo:"figura", tema:"chiaro", sopratitolo:"Pianificare per obiettivi", illu:"termometro",
+  titolo:"Scrivere il *risultato atteso*<br>prima dell'intervento.<br>E poi *misurarlo*."},
 {id:"s35", tipo:"sostituzione", tema:"tenue", sopratitolo:"La sfumatura che vale punti",
   da:{h:"Autonomia non è", t:"indipendenza dall'équipe"},
   a:{h:"Autonomia è", t:"nel tuo campo decidi tu"},
@@ -218,8 +216,8 @@ export const SCENE = [
   righe:TRAPPOLE, attive:[0]},
 {id:"s44", tipo:"trappola", tema:"tenue", sopratitolo:"I distrattori tipici",
   righe:TRAPPOLE, attive:[0,1,2]},
-{id:"s45", tipo:"frase", tema:"chiaro", sopratitolo:"Il criterio di scelta",
-  testo:"Fra due opzioni plausibili, scegli quella che *non toglie niente*."},
+{id:"s45", tipo:"figura", tema:"chiaro", sopratitolo:"Il criterio di scelta", illu:"bilancia", lato:"dx",
+  titolo:"Fra due opzioni plausibili,<br>scegli quella che<br>*non toglie niente*."},
 
 {id:"s46", tipo:"memo", tema:"profondo", sopratitolo:"I cinque punti che non si sbagliano",
   voci:MEMO, attive:[0,1]},
@@ -227,8 +225,8 @@ export const SCENE = [
   voci:MEMO, attive:[0,1,2,3]},
 {id:"s48", tipo:"memo", tema:"profondo", sopratitolo:"I cinque punti che non si sbagliano",
   voci:MEMO, attive:[0,1,2,3,4]},
-{id:"s49", tipo:"frase", tema:"chiaro", sopratitolo:"Se porti a casa una cosa sola",
-  testo:"Non ti si chiede più di sapere *che cosa puoi fare*. Ti si chiede di saper dire *da dove viene*."},
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"Se porti a casa una cosa sola", illu:"bussola",
+  titolo:"Non ti si chiede più di sapere *che cosa puoi fare*. Ti si chiede di saper dire *da dove viene*."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Fine della micro-lezione 1.1",

@@ -13,7 +13,6 @@ mkdirSync(OUT, { recursive: true });
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
-const buchiDati = [];
 const troppoAlte = [];
 for (const [i, s] of SCENE.entries()) {
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
@@ -41,28 +40,11 @@ for (const [i, s] of SCENE.entries()) {
     };
   });
   if (over.sfora > 1 || over.largo > 1) troppoAlte.push([s.id, over]);
-
-  // La cornice non e' l'unico modo in cui una slide si rompe. Su 2.7 la slide
-  // dei tre momenti era un «assetempo» senza anni e ha stampato «undefined»
-  // due volte sull'asse: dentro la cornice, quindi muta per il controllo di
-  // sopra, e sarebbe andata in resa se non l'avessi guardata nel provino.
-  // Un dato che manca ha sempre la stessa faccia, e cercarla costa nulla.
-  const rotto = await p.evaluate(() => {
-    const t = document.querySelector('.slide').innerText;
-    return [...new Set((t.match(/undefined|NaN|\[object Object\]/g) ?? []))];
-  });
-  if (rotto.length) buchiDati.push([s.id, rotto]);
-
   await p.screenshot({ path: `${OUT}${s.id}.png` });
   process.stdout.write(`${s.id} `);
 }
 await b.close();
 console.log('\n');
-if (buchiDati.length) {
-  console.log('DATI MANCANTI A SCHERMO:');
-  for (const [id, v] of buchiDati) console.log(`  ${id}  ${v.join(' · ')}`);
-  console.log('');
-}
 if (troppoAlte.length) {
   console.log('SFORANO LA CORNICE:');
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);

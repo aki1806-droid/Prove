@@ -14,7 +14,7 @@ DA=$(ls -d progetti/m*-l*/ | sort | tail -1); DA=${DA%/}
 mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
 # il tema e gli strumenti: identici per tutte le lezioni del corso
 cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
-cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
+cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" "$DA/slide/figure.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/controllo-per-trascrizione.py" \
    "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" \

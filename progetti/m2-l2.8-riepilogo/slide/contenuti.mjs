@@ -58,7 +58,7 @@ export const SCENE = [
    {n:"3", t:"I **numeri** e le **formule**"},
    {n:"4", t:"Le **confusioni** e i **casi tipici**", key:true}]},
 
-{id:"s03", tipo:"titolo", tema:"chiaro", sopratitolo:"Come usarlo",
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"Come usarlo", illu:"orologio", lato:"dx",
   titolo:"Guardalo **due volte**:<br>adesso, e la settimana<br>prima della prova.",
   sotto:"Quando serve rimettere in ordine quello che nel frattempo si è sparpagliato."},
 
@@ -70,7 +70,7 @@ export const SCENE = [
   sopratitolo:"La mappa del modulo", celle:MAPPA},
 {id:"s06", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
   sopratitolo:"La mappa del modulo", celle:MAPPA},
-{id:"s07", tipo:"titolo", tema:"chiaro", sopratitolo:"Come tenerle insieme",
+{id:"s07", tipo:"figura", tema:"chiaro", sopratitolo:"Come tenerle insieme", illu:"bussola",
   titolo:"Non sette argomenti:<br>**sette punti di una<br>sola linea**.",
   sotto:"Ed è la linea che conviene saper raccontare all'orale."},
 
@@ -78,15 +78,11 @@ export const SCENE = [
   passi:CATENA},
 {id:"s09", tipo:"catena", tema:"chiaro", sopratitolo:"Il filo del modulo, in cinque verbi",
   passi:CATENA},
-{id:"s10", tipo:"tre", tema:"chiaro", sopratitolo:"Tre facce dello stesso lavoro",
-  box:[
-   {n:"1", t:"Metodo", d:"raccolgo e decido"},
-   {n:"2", t:"Prova", d:"documento"},
-   {n:"3", t:"Sicurezza", d:"comunico e sorveglio", key:true}]},
+{id:"s10", tipo:"raggiera", tema:"chiaro", sopratitolo:"Tre facce dello stesso lavoro", centro:"Il lavoro",
+  raggi:[{t:"Metodo", d:"raccolgo e decido"},{t:"Sicurezza", d:"comunico e sorveglio", key:true},{t:"Prova", d:"documento"}]},
 
-{id:"s11", tipo:"titolo", tema:"chiaro", sopratitolo:"Dalla 2.1 · il processo",
-  titolo:"Cinque fasi,<br>e il processo è **ciclico**.",
-  sotto:"La valutazione non chiude niente: riapre l'accertamento. Ed è il passo che si dimentica più spesso."},
+{id:"s11", tipo:"ciclo", tema:"chiaro", sopratitolo:"Dalla 2.1 · il processo è ciclico", centro:"Il processo",
+  passi:[{t:"Accertamento"},{t:"Diagnosi"},{t:"Pianificazione"},{t:"Attuazione"},{t:"Valutazione", d:"riapre l'accertamento", key:true}]},
 
 {id:"s12", tipo:"confronto", tema:"chiaro", sopratitolo:"Le due diagnosi",
   col:[
@@ -131,7 +127,7 @@ export const SCENE = [
    ["**Glasgow**","stato di coscienza","3 – 15","**coma ≤ 8**"],
    ["**CAM**","delirium","—","**1 + 2 + (3 o 4)**"],
    ["**MUST**","rischio nutrizionale","0 – 6","**≥ 2** alto"]]},
-{id:"s19", tipo:"titolo", tema:"chiaro", sopratitolo:"Se devi trascrivere una cosa sola",
+{id:"s19", tipo:"figura", tema:"chiaro", sopratitolo:"Se devi trascrivere una cosa sola", illu:"termometro", lato:"dx",
   titolo:"Otto scale,<br>**otto intervalli**.",
   sotto:"È la parte che si dimentica per prima, perché sono numeri senza appiglio."},
 
@@ -153,9 +149,8 @@ export const SCENE = [
   sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
 {id:"s24", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
   sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
-{id:"s25", tipo:"titolo", tema:"chiaro", sopratitolo:"Henderson o Gordon",
-  titolo:"**14** Henderson.<br>**11** Gordon.",
-  sotto:"Se non ricordi quale sia quale: quelli di Gordon sono modelli funzionali di salute, e sono i meno numerosi dei due."},
+{id:"s25", tipo:"cifre", tema:"chiaro", sopratitolo:"Henderson o Gordon",
+  voci:[{n:14, t:"Henderson", d:"i bisogni fondamentali", key:true},{n:11, t:"Gordon", d:"i modelli funzionali di salute — i meno numerosi dei due"}]},
 
 {id:"s26", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3,4,5],
   sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
@@ -207,7 +202,7 @@ export const SCENE = [
 {id:"s37", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
   sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
 
-{id:"s38", tipo:"titolo", tema:"chiaro", sopratitolo:"La frase del modulo",
+{id:"s38", tipo:"figura", tema:"chiaro", sopratitolo:"La frase del modulo", illu:"cartella",
   titolo:"Ciò che non è documentato<br>si presume **non fatto**.",
   sotto:"L'abbiamo incontrata nella 1.5, e non ci ha più lasciati."},
 
@@ -236,7 +231,7 @@ export const SCENE = [
   col:[
    {h:"Primo", t:"Il **test del modulo** — 30 domande, soglia 21"},
    {h:"Secondo", t:"Riprendi **solo le lezioni** che gli errori ti hanno segnalato, non tutto il modulo da capo"}]},
-{id:"s46", tipo:"titolo", tema:"chiaro", sopratitolo:"Terzo passo",
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"Terzo passo", illu:"libro", lato:"dx",
   titolo:"Nel quaderno di ripasso:<br>**i numeri delle scale**<br>e le **formule**.",
   sotto:"È la parte che si dimentica per prima, ed è anche l'unica che si recupera in cinque minuti."},
 
@@ -249,7 +244,7 @@ export const SCENE = [
    {h:"Modulo 1", t:"La **grammatica** della professione"},
    {h:"Modulo 2", t:"La **sintassi**: il metodo, la prova, la sicurezza"}]},
 
-{id:"s49", tipo:"titolo", tema:"chiaro", sopratitolo:"E dal modulo 3",
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"E dal modulo 3", illu:"stetoscopio",
   titolo:"Il metodo<br>diventa **clinica**.",
   sotto:"Bisogni fondamentali, comfort, assistenza di base avanzata: la parte che pesa di più nella prova pratica."},
 

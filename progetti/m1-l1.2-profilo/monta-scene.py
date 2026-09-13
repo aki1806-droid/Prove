@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Per ogni blocco: la clip dell'ingresso (1,8 s) + l'ultimo fotogramma tenuto
+"""Per ogni blocco: la clip dell'ingresso (3,2 s) + l'ultimo fotogramma tenuto
 fino alla durata del parlato, con l'mp3 del blocco dentro. Una scena, un file."""
 import json, subprocess, re
 from pathlib import Path

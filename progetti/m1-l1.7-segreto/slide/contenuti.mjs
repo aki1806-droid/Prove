@@ -82,8 +82,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 7 di 8",
   testo:"Due famiglie di temi che nei bandi compaiono accostate: la *riservatezza* e la *tutela della persona*."},
-{id:"s03", tipo:"frase", tema:"tenue", sopratitolo:"Quiz secchi e casi pratici",
-  testo:"La **contenzione** e la **fotografia in chat** sono ormai due classici delle prove più recenti."},
+{id:"s03", tipo:"figura", tema:"tenue", sopratitolo:"Quiz secchi e casi pratici", illu:"telefono",
+  titolo:"La **contenzione** e la **fotografia in chat** sono ormai due classici delle prove più recenti."},
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro blocchi", voci:[
   {icona:"lucchetto", t:"I due segreti", d:"622 e 326"},
   {icona:"occhio",    t:"Il GDPR", d:"i dati sulla salute"},
@@ -98,20 +98,16 @@ export const SCENE = [
    ["La condotta","rivela un segreto **senza giusta causa**","rivela notizie d'ufficio che devono restare segrete"],
    ["Procedibilità","**a querela** della persona offesa","**d'ufficio**: non serve che nessuno sporga querela"]]},
 
-{id:"s06", tipo:"frase", tema:"chiaro", sopratitolo:"Art. 622",
-  testo:"Punisce la rivelazione *senza giusta causa* di un segreto appreso in ragione della professione."},
+{id:"s06", tipo:"figura", tema:"chiaro", sopratitolo:"Art. 622", illu:"scudo", lato:"dx",
+  titolo:"Punisce la rivelazione *senza giusta causa* di un segreto appreso in ragione della professione."},
 {id:"s07", tipo:"titolo", tema:"profondo",
   titolo:"Il 326 è procedibile<br>**d'ufficio**.",
   sotto:"Non serve che nessuno sporga querela perché il procedimento parta."},
 
-{id:"s08", tipo:"frase", tema:"chiaro", sopratitolo:"Il punto che sorprende",
-  testo:"L'infermiere **dipendente pubblico** può rispondere di *entrambi*.",
-  sotto:"È un professionista (622) ed è incaricato di pubblico servizio o pubblico ufficiale (326)."},
-{id:"s09", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro fronti per un solo fatto", voci:[
-  {icona:"giudice",  t:"622", d:"segreto professionale"},
-  {icona:"bilancia", t:"326", d:"segreto d'ufficio"},
-  {icona:"ospedale", t:"Disciplinare", d:"verso l'azienda"},
-  {icona:"certificato", t:"Deontologico", d:"davanti all'Ordine", key:true}]},
+{id:"s08", tipo:"figura", tema:"chiaro", sopratitolo:"Il punto che sorprende", illu:"persona",
+  titolo:"L'infermiere **dipendente pubblico** può rispondere di *entrambi*.", sotto:"È un professionista (622) ed è incaricato di pubblico servizio o pubblico ufficiale (326)."},
+{id:"s09", tipo:"raggiera", tema:"chiaro", sopratitolo:"Quattro fronti per un solo fatto", centro:"Un fatto",
+  raggi:[{t:"Art. 622", d:"segreto professionale"},{t:"Art. 326", d:"segreto d'ufficio"},{t:"Disciplinare", d:"verso l'azienda"},{t:"Deontologico", d:"davanti all'Ordine", key:true}]},
 
 {id:"s10", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1],
   sopratitolo:"«Senza giusta causa»: quando la comunicazione è dovuta o consentita", celle:[
@@ -130,15 +126,14 @@ export const SCENE = [
 {id:"s12", tipo:"norma", tema:"chiaro", sopratitolo:"La protezione dei dati",
   etichetta:"GDPR · Reg. UE 2016/679", sigla:"D.Lgs. 196/2003, mod. 101/2018",
   testo:"Il regolamento è *direttamente applicabile*; il Codice privacy lo integra."},
-{id:"s13", tipo:"frase", tema:"chiaro", sopratitolo:"I dati sulla salute",
-  testo:"Rientrano nelle **categorie particolari** dell'*articolo 9*.",
-  sotto:"Vige un **divieto generale** di trattamento, con eccezioni tassative ed elencate."},
+{id:"s13", tipo:"figura", tema:"chiaro", sopratitolo:"I dati sulla salute", illu:"libro", lato:"dx",
+  titolo:"Rientrano nelle **categorie particolari** dell'*articolo 9*.", sotto:"Vige un **divieto generale** di trattamento, con eccezioni tassative ed elencate."},
 
 {id:"s14", tipo:"titolo", tema:"profondo",
   titolo:"Per curare<br>**non serve** il consenso privacy.",
   sotto:"La base giuridica è l'art. 9, par. 2, lett. h) del GDPR."},
-{id:"s15", tipo:"frase", tema:"chiaro", sopratitolo:"La lettera h)",
-  testo:"Il trattamento è consentito quando è effettuato da o sotto la responsabilità di un professionista *soggetto al segreto professionale*."},
+{id:"s15", tipo:"figura", tema:"chiaro", sopratitolo:"La lettera h)", illu:"cartella",
+  titolo:"Il trattamento è consentito quando è effettuato da o sotto la responsabilità di un professionista *soggetto al segreto professionale*."},
 {id:"s16", tipo:"venn", tema:"chiaro", sopratitolo:"Due consensi che non vanno confusi",
   sx:{t:"Consenso al trattamento", d:"legge 219/2017 · l'atto di cura"},
   dx:{t:"Consenso privacy", d:"GDPR · il trattamento dei dati"},
@@ -150,15 +145,13 @@ export const SCENE = [
 {id:"s18", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3,4,5,6],
   sopratitolo:"I sette principi del GDPR", celle:PRINCIPI7},
 
-{id:"s19", tipo:"frase", tema:"chiaro", sopratitolo:"Il caso d'esame più frequente",
-  testo:"Consultare la cartella o il fascicolo di un paziente *non in cura presso di sé*.",
-  sotto:"Un familiare, un conoscente, un collega, un personaggio noto."},
+{id:"s19", tipo:"figura", tema:"chiaro", sopratitolo:"Il caso d'esame più frequente", illu:"lente", lato:"dx",
+  titolo:"Consultare la cartella o il fascicolo di un paziente *non in cura presso di sé*.", sotto:"Un familiare, un conoscente, un collega, un personaggio noto."},
 {id:"s20", tipo:"titolo", tema:"profondo",
   titolo:"È un trattamento illecito.<br>Anche se **non si divulga nulla**.",
   sotto:"E anche se si guarda una riga sola."},
-{id:"s21", tipo:"frase", tema:"tenue", sopratitolo:"Perché",
-  testo:"Viola la *minimizzazione* e le istruzioni ricevute. Ed è **tracciato dai log di accesso**.",
-  sotto:"La curiosità, in sanità digitale, lascia impronte."},
+{id:"s21", tipo:"figura", tema:"tenue", sopratitolo:"Perché", illu:"catena",
+  titolo:"Viola la *minimizzazione* e le istruzioni ricevute. Ed è **tracciato dai log di accesso**.", sotto:"La curiosità, in sanità digitale, lascia impronte."},
 
 {id:"s22", tipo:"tabella", tema:"chiaro", sopratitolo:"Chi è chi, nel trattamento dei dati",
   intestazioni:["Ruolo","Chi è","Che cosa fa"], colonne:["26%","30%","44%"],
@@ -204,8 +197,8 @@ export const SCENE = [
   {t:"Fare la **consegna in luogo riservato**"},
   {t:"Confermare **per telefono** la presenza di un ricoverato", no:true}]},
 
-{id:"s28", tipo:"frase", tema:"chiaro", sopratitolo:"Torniamo sulla contenzione",
-  testo:"Nella 1.4 l'abbiamo vista dal lato *deontologico*. Dal lato del **diritto** la questione è seria."},
+{id:"s28", tipo:"figura", tema:"chiaro", sopratitolo:"Torniamo sulla contenzione", illu:"letto", lato:"dx",
+  titolo:"Nella 1.4 l'abbiamo vista dal lato *deontologico*. Dal lato del **diritto** la questione è seria."},
 {id:"s29", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
   sopratitolo:"Contenzione: i reati che può toccare", celle:[
   {n:"610", t:"**Violenza privata**", no:true},
@@ -222,9 +215,8 @@ export const SCENE = [
   {n:"591", t:"**Abbandono di incapaci**, se la persona resta senza sorveglianza", no:true},
   {n:"589", t:"**Lesioni o omicidio colposi**, per una contenzione mal eseguita", no:true}]},
 
-{id:"s31", tipo:"frase", tema:"chiaro", sopratitolo:"Non c'è una legge generale",
-  testo:"La liceità della contenzione si valuta *caso per caso*.",
-  sotto:"Ecco gli otto elementi che la commissione si aspetta di sentire elencare."},
+{id:"s31", tipo:"figura", tema:"chiaro", sopratitolo:"Non c'è una legge generale", illu:"bilancia",
+  titolo:"La liceità della contenzione si valuta *caso per caso*.", sotto:"Ecco gli otto elementi che la commissione si aspetta di sentire elencare."},
 {id:"s32", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3],
   sopratitolo:"Gli otto elementi della liceità", celle:OTTO},
 
@@ -276,9 +268,8 @@ export const SCENE = [
    {t:"Documentazione", d:"accurata e oggettiva: descrivere, non giudicare"},
    {t:"Percorsi previsti", d:"referto o denuncia, servizi sociali per i minori", key:true}]},
 
-{id:"s44", tipo:"frase", tema:"tenue", sopratitolo:"E il segreto?",
-  testo:"Qui il segreto professionale **non è un ostacolo**: la comunicazione è *dovuta*, e costituisce giusta causa.",
-  sotto:"Referto o denuncia a cura di chi ne ha l'obbligo; per i minori, allerta dei servizi sociali."},
+{id:"s44", tipo:"figura", tema:"tenue", sopratitolo:"E il segreto?", illu:"dialogo", lato:"dx",
+  titolo:"Qui il segreto professionale **non è un ostacolo**: la comunicazione è *dovuta*, e costituisce giusta causa.", sotto:"Referto o denuncia a cura di chi ne ha l'obbligo; per i minori, allerta dei servizi sociali."},
 
 {id:"s45", tipo:"icone", tema:"chiaro", sopratitolo:"In Veneto", voci:[
   {icona:"cartella", t:"FSE regionale", d:"consensi, deleghe e log: l'accesso non giustificato è rilevato"},

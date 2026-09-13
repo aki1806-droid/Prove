@@ -121,8 +121,8 @@ export const SCENE = [
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 8 di 8",
   testo:"Qui non aggiungiamo niente di nuovo: **ricomponiamo**.",
   sotto:"Una mappa unica delle sette lezioni, e una linea del tempo."},
-{id:"s03", tipo:"frase", tema:"tenue", sopratitolo:"Come usare questo video",
-  testo:"Guardalo **due volte**: adesso, e di nuovo nei giorni prima della prova."},
+{id:"s03", tipo:"figura", tema:"tenue", sopratitolo:"Come usare questo video", illu:"orologio",
+  titolo:"Guardalo **due volte**: adesso, e di nuovo nei giorni prima della prova."},
 
 {id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 1", voci:MAPPA_A},
 {id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 2", voci:MAPPA_B},
@@ -136,9 +136,8 @@ export const SCENE = [
   {t:"Responsabilità", d:"cinque piani, autonomi e cumulabili"},
   {t:"Documentazione", d:"è così che la responsabilità si dimostra", key:true}]},
 
-{id:"s08", tipo:"frase", tema:"chiaro", sopratitolo:"A che serve la catena",
-  testo:"È lo schema con cui rispondere a **quasi ogni domanda aperta** del modulo.",
-  sotto:"Anche a quelle che non hai preparato."},
+{id:"s08", tipo:"figura", tema:"chiaro", sopratitolo:"A che serve la catena", illu:"catena", lato:"dx",
+  titolo:"È lo schema con cui rispondere a **quasi ogni domanda aperta** del modulo.", sotto:"Anche a quelle che non hai preparato."},
 
 {id:"s09", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
   da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,3)},
@@ -199,9 +198,8 @@ export const SCENE = [
    ["I casi","laurea, master, dottorato, specializzazione","maternità, malattia, aspettativa"],
    ["L'effetto","il debito si riduce in proporzione ai mesi","il debito si riduce in proporzione ai mesi"]]},
 
-{id:"s24", tipo:"frase", tema:"tenue", sopratitolo:"Come non sbagliarle",
-  testo:"**Esonero quando studi, esenzione quando sei assente.**",
-  sotto:"In tutti e due i casi i crediti si riducono in proporzione ai mesi."},
+{id:"s24", tipo:"figura", tema:"tenue", sopratitolo:"Come non sbagliarle", illu:"libro",
+  titolo:"**Esonero quando studi,<br>esenzione quando sei assente.**", sotto:"In tutti e due i casi i crediti si riducono in proporzione ai mesi."},
 {id:"s25", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Confusione 4 · livello o incarico",
   da:{h:"Il titolo", t:"**abilita**"}, a:{h:"L'azienda", t:"**attribuisce**"},
   sotto:"Si può avere il master di coordinamento senza avere l'incarico di coordinatore."},
@@ -225,13 +223,10 @@ export const SCENE = [
 
 {id:"s29", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 1 · prescrizione dubbia", righe:[
   {sb:"Eseguire perché è prescritto", ok:"Chiedere chiarimento; se il dubbio permane, **non dare corso** e documentare"}]},
-{id:"s30", tipo:"frase", tema:"tenue", sopratitolo:"Il principio di affidamento",
-  testo:"Cade davanti all'**errore palese**.",
-  sotto:"Vale per ogni ruolo dell'équipe, non solo per il tuo."},
-{id:"s31", tipo:"icone", tema:"chiaro", sopratitolo:"Caso 2 — attribuzione all'OSS", voci:[
-  {icona:"persone",   t:"Competenza", d:"dell'operatore a cui attribuisci"},
-  {icona:"cuoremano", t:"Condizioni", d:"della persona assistita"},
-  {icona:"ospedale",  t:"Contesto", d:"organizzativo in cui l'attività si svolge"}]},
+{id:"s30", tipo:"figura", tema:"tenue", sopratitolo:"Il principio di affidamento", illu:"fiale", lato:"dx",
+  titolo:"Cade davanti<br>all'**errore palese**.", sotto:"Vale per ogni ruolo dell'équipe, non solo per il tuo."},
+{id:"s31", tipo:"raggiera", tema:"chiaro", sopratitolo:"Caso 2 — attribuzione all'OSS", centro:"Attribuire",
+  raggi:[{t:"Competenza", d:"dell'operatore a cui attribuisci"},{t:"Condizioni", d:"della persona assistita"},{t:"Contesto", d:"organizzativo in cui l'attività si svolge"}]},
 
 {id:"s32", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 3 · ha firmato senza capire", righe:[
   {sb:"Rassicurarlo, o spiegargli tu l'intervento", ok:"**Sospendere**, informare il medico, **documentare**"}]},
@@ -262,11 +257,10 @@ export const SCENE = [
   {icona:"documento", t:"Procedure sulla contenzione", d:"prescrizione, rivalutazione, registrazione"},
   {icona:"occhio",    t:"FSE e log di accesso", d:"l'accesso non giustificato è rilevato"}]},
 
-{id:"s41", tipo:"numero", tema:"chiaro", cifra:"12",
-  testo:"Le domande di autovalutazione nella dispensa. **Più di 3 errori → torna alle lezioni segnalate.**"},
-{id:"s42", tipo:"frase", tema:"tenue", sopratitolo:"Perché la regola è severa",
-  testo:"Il modulo 1 è la **grammatica** di tutto il resto del corso.",
-  sotto:"I moduli successivi lo danno per acquisito. Meglio due giorni in più adesso."},
+{id:"s41", tipo:"cifre", tema:"chiaro", sopratitolo:"Le domande di autovalutazione nella dispensa",
+  voci:[{n:12, t:"domande", d:"nella dispensa del modulo", key:true},{n:3, t:"errori al massimo", d:"oltre, torna alle lezioni segnalate"}]},
+{id:"s42", tipo:"figura", tema:"tenue", sopratitolo:"Perché la regola è severa", illu:"piramide",
+  titolo:"Il modulo 1 è la **grammatica** di tutto il resto del corso.", sotto:"I moduli successivi lo danno per acquisito. Meglio due giorni in più adesso."},
 
 {id:"s43", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
   sopratitolo:"Come proseguire", celle:[

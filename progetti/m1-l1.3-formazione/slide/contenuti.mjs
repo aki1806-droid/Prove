@@ -61,9 +61,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 3 di 8",
   testo:"Sappiamo *che cosa* l'infermiere è e *che cosa* fa. Oggi: come lo si diventa, e come lo si **resta**."},
-{id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Un avviso",
-  testo:"Questa è materia da *domande facili*.",
-  sotto:"E in un concorso dove passa chi sbaglia meno, le facili non si regalano."},
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"Un avviso", illu:"campana",
+  titolo:"Questa è materia<br>da *domande facili*.", sotto:"E in un concorso dove passa chi sbaglia meno, le facili non si regalano."},
 
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro blocchi", voci:[
   {icona:"cappello",    t:"Il percorso", d:"dalla laurea al dottorato"},
@@ -71,9 +70,8 @@ export const SCENE = [
   {icona:"ingranaggio", t:"L'ECM", d:"crediti, esonero, esenzione"},
   {icona:"certificato", t:"La carriera", d:"il punto più insidioso"}]},
 
-{id:"s05", tipo:"frase", tema:"chiaro", sopratitolo:"Il punto insidioso",
-  testo:"Sullo sviluppo di carriera *tre piani diversi* si accavallano, e i quiz ci giocano sopra.",
-  sotto:"Alla fine avrai un test per non confonderli più."},
+{id:"s05", tipo:"figura", tema:"chiaro", sopratitolo:"Il punto insidioso", illu:"piramide", lato:"dx",
+  titolo:"Sullo sviluppo di carriera<br>*tre piani diversi* si accavallano,<br>e i quiz ci giocano sopra.", sotto:"Alla fine avrai un test per non confonderli più."},
 
 {id:"s06", tipo:"norma", tema:"chiaro", sopratitolo:"Da dove viene",
   etichetta:"L'ingresso all'università", sigla:"D.Lgs. 502/1992, art. 6 c. 3",
@@ -83,9 +81,8 @@ export const SCENE = [
   segmenti:[{t:"Tirocinio", v:60, d:"un terzo del corso si fa in reparto"},
             {t:"Il resto del corso", v:120, d:"lezioni, laboratori, studio", colore:"#A8CDBB", chiaro:true}]},
 
-{id:"s08", tipo:"frase", tema:"tenue", sopratitolo:"Un terzo del corso",
-  testo:"Di quei 180 crediti, circa *60 sono di tirocinio*.",
-  sotto:"È il tirocinio che rende concreti gli **ordinamenti didattici**: la seconda fonte del campo di attività."},
+{id:"s08", tipo:"cifre", tema:"tenue", sopratitolo:"Un terzo del corso",
+  voci:[{n:180, t:"crediti", d:"la laurea triennale L/SNT1"},{n:60, t:"di tirocinio", d:"circa un terzo del corso", key:true},{n:3, t:"anni", d:"gli ordinamenti didattici: la seconda fonte"}]},
 
 {id:"s09", tipo:"norma", tema:"chiaro", sopratitolo:"La laurea è abilitante",
   etichetta:"Dal 2021", sigla:"L. 163/2021",
@@ -146,9 +143,8 @@ export const SCENE = [
   {sb:"«fra le sanzioni dell'Ordine c'è il licenziamento»",
    ok:"il licenziamento è *del datore di lavoro*, non dell'Ordine"}]},
 
-{id:"s25", tipo:"frase", tema:"chiaro", sopratitolo:"Una cosa che sorprende",
-  testo:"Il disciplinare dell'Ordine è *del tutto autonomo* da quello del datore di lavoro.",
-  sotto:"Non si escludono, non si aspettano, non si annullano a vicenda."},
+{id:"s25", tipo:"figura", tema:"chiaro", sopratitolo:"Una cosa che sorprende", illu:"bilancia",
+  titolo:"Il disciplinare dell'Ordine<br>è *del tutto autonomo*<br>da quello del datore di lavoro.", sotto:"Non si escludono, non si aspettano, non si annullano a vicenda."},
 {id:"s26", tipo:"tabella", tema:"chiaro", sopratitolo:"Lo stesso fatto, due procedimenti autonomi",
   intestazioni:["","Azienda","Ordine"], colonne:["22%","39%","39%"],
   righe:[
@@ -180,9 +176,8 @@ export const SCENE = [
   testa:"Obbligo individuale, nel triennio", unita:"crediti",
   segmenti:[{t:"Primo anno", v:50},{t:"Secondo anno", v:50},{t:"Terzo anno", v:50}]},
 
-{id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Il dossier formativo",
-  testo:"Uno strumento di *programmazione*, individuale o di gruppo.",
-  sotto:"Se costruito e poi rispettato, può dare diritto a un **bonus** di crediti."},
+{id:"s33", tipo:"figura", tema:"chiaro", sopratitolo:"Il dossier formativo", illu:"cartella", lato:"dx",
+  titolo:"Uno strumento<br>di *programmazione*,<br>individuale o di gruppo.", sotto:"Se costruito e poi rispettato, può dare diritto a un **bonus** di crediti."},
 
 {id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Esonero ed esenzione",
   testo:"Non sono sinonimi. *Anche se nel parlato di reparto si usano come se lo fossero.*"},
@@ -203,9 +198,8 @@ export const SCENE = [
 {id:"s38", tipo:"norma", tema:"chiaro", sopratitolo:"E sul profilo assicurativo",
   etichetta:"La Gelli-Bianco", sigla:"L. 24/2017",
   testo:"Collega il possesso dei *requisiti formativi* alla posizione del professionista."},
-{id:"s39", tipo:"frase", tema:"tenue", sopratitolo:"Il profilo più insidioso",
-  testo:"Non conoscere ciò che è ormai *patrimonio consolidato* della professione può essere letto come **colpa per imperizia**.",
-  sotto:"Ci torniamo nella 1.5."},
+{id:"s39", tipo:"figura", tema:"tenue", sopratitolo:"Il profilo più insidioso", illu:"lente",
+  titolo:"Non conoscere ciò che è ormai *patrimonio consolidato* della professione può essere **colpa per imperizia**.", sotto:"Ci torniamo nella 1.5."},
 
 {id:"s40", tipo:"frase", tema:"chiaro", sopratitolo:"Ultimo blocco",
   testo:"Qui i quiz mescolano volutamente le carte: *tre cose diverse* portano nomi che si somigliano.",
@@ -226,12 +220,10 @@ export const SCENE = [
 {id:"s43", tipo:"titolo", tema:"profondo",
   titolo:"Il titolo *abilita*.<br>L'azienda **attribuisce**.",
   sotto:"La frase da portarsi all'esame."},
-{id:"s44", tipo:"frase", tema:"chiaro", sopratitolo:"Che cosa vuol dire, in concreto",
-  testo:"Si può avere il *master di coordinamento* senza avere un *incarico di coordinamento*.",
-  sotto:"L'incarico dipende dal fabbisogno organizzativo e dal contratto, non dal tuo curriculum."},
-{id:"s45", tipo:"frase", tema:"chiaro", sopratitolo:"E in Veneto",
-  testo:"Gli incarichi di funzione li conferisce *ciascuna azienda*, col proprio regolamento e la graduazione dell'atto aziendale.",
-  sotto:"Cambia l'azienda, cambia la mappa degli incarichi."},
+{id:"s44", tipo:"figura", tema:"chiaro", sopratitolo:"Che cosa vuol dire, in concreto", illu:"persona", lato:"dx",
+  titolo:"Si può avere il *master*<br>senza avere<br>un *incarico* di coordinamento.", sotto:"L'incarico dipende dal fabbisogno organizzativo e dal contratto, non dal tuo curriculum."},
+{id:"s45", tipo:"figura", tema:"chiaro", sopratitolo:"E in Veneto", illu:"casa",
+  titolo:"Gli incarichi di funzione<br>li conferisce *ciascuna azienda*.", sotto:"Col proprio regolamento e la graduazione dell'atto aziendale. Cambia l'azienda, cambia la mappa degli incarichi."},
 
 {id:"s46", tipo:"griglia", tema:"chiaro", colonne:3, attive:[0,1],
   sopratitolo:"I sei punti da non sbagliare", celle:[
@@ -260,9 +252,8 @@ export const SCENE = [
   {n:"150", t:"i **crediti ECM** nel triennio"},
   {n:"348", t:"**esercizio abusivo** della professione"}]},
 
-{id:"s49", tipo:"frase", tema:"chiaro", sopratitolo:"La prossima lezione",
-  testo:"Entriamo nel *codice deontologico del 2019*: la terza fonte del campo di attività.",
-  sotto:"E, secondo me, la più bella da studiare."},
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"La prossima lezione", illu:"libro", lato:"dx",
+  titolo:"Entriamo nel *codice<br>deontologico del 2019*:<br>la terza fonte del campo di attività.", sotto:"E, secondo me, la più bella da studiare."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Fine della micro-lezione 1.3",

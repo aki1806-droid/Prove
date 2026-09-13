@@ -50,9 +50,9 @@ export const SCENE = [
   titolo:"Comunicazione clinica<br>e continuità assistenziale", sottotitolo:"Non una competenza relazionale: una barriera di sicurezza",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 
-{id:"s02", tipo:"titolo", tema:"chiaro", sopratitolo:"Il dato su cui gli studi convergono",
-  titolo:"Una quota rilevante<br>degli eventi avversi ha fra<br>le cause un **fallimento<br>della comunicazione**.",
-  sotto:"E soprattutto nei momenti di passaggio."},
+{id:"s02", tipo:"figura", tema:"chiaro", sopratitolo:"Il dato su cui gli studi convergono", illu:"dialogo",
+  titolo:"Fra le cause, un<br>**fallimento della<br>comunicazione**.",
+  sotto:"Una quota rilevante degli eventi avversi. E soprattutto nei momenti di passaggio."},
 
 {id:"s03", tipo:"tre", tema:"chiaro", sopratitolo:"I tre momenti in cui l'informazione cambia di mano",
   box:[
@@ -84,8 +84,8 @@ export const SCENE = [
    {h:"Informazioni", t:"I dati clinici sulla persona — quello che tutti ricordano"},
    {h:"Responsabilità", t:"La **presa in carico** passa di mano — e questa si dimentica"}]},
 
-{id:"s08", tipo:"titolo", tema:"chiaro", sopratitolo:"Il punto di maggior fragilità",
-  titolo:"Ciò che esiste nella<br>testa di uno deve arrivare<br>**intatto** nella testa<br>di un altro.",
+{id:"s08", tipo:"figura", tema:"chiaro", sopratitolo:"Il punto di maggior fragilità", illu:"mani", lato:"dx",
+  titolo:"Deve arrivare **intatto**<br>nella testa di un altro.",
   sotto:"In poco tempo, e spesso in un ambiente rumoroso."},
 
 {id:"s09", tipo:"catena", tema:"chiaro", sopratitolo:"SBAR · quattro lettere", attive:[0,1],
@@ -123,8 +123,8 @@ export const SCENE = [
 {id:"s17", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
   sopratitolo:"Sette regole per l'handover", celle:REGOLE},
 
-{id:"s18", tipo:"titolo", tema:"chiaro", sopratitolo:"La regola che quasi nessuno cita",
-  titolo:"Un handover<br>**senza domande**<br>è quasi sempre un handover<br>**non compreso**.",
+{id:"s18", tipo:"figura", tema:"chiaro", sopratitolo:"La regola che quasi nessuno cita", illu:"ascolto",
+  titolo:"Un handover<br>**senza domande**<br>è un handover<br>**non compreso**.",
   sotto:"Il silenzio di chi riceve non è un buon segno."},
 
 {id:"s19", tipo:"catena", tema:"chiaro", sopratitolo:"Read-back · le prescrizioni verbali o telefoniche",
@@ -140,12 +140,12 @@ export const SCENE = [
    {t:"Time-out", d:"**immediatamente prima** della procedura"},
    {t:"Debriefing", d:"**dopo**: che cosa è andato bene, che cosa migliorare", key:true}]},
 
-{id:"s21", tipo:"titolo", tema:"chiaro", sopratitolo:"Il time-out",
-  titolo:"Verifica finale di<br>**paziente, sito e procedura**.",
-  sotto:"È parte della check-list di sala operatoria."},
+{id:"s21", tipo:"figura", tema:"chiaro", sopratitolo:"Il time-out", illu:"orologio", lato:"dx",
+  titolo:"Verifica finale di<br>**paziente, sito<br>e procedura**.",
+  sotto:"Immediatamente prima: è parte della check-list di sala operatoria."},
 
-{id:"s22", tipo:"titolo", tema:"chiaro", sopratitolo:"Il debriefing dopo un'emergenza",
-  titolo:"Rivedere insieme,<br>**senza cercare colpevoli** —<br>e sostenere chi c'era.",
+{id:"s22", tipo:"figura", tema:"chiaro", sopratitolo:"Il debriefing dopo un'emergenza", illu:"cuore",
+  titolo:"Rivedere insieme,<br>**senza colpevoli** —<br>e sostenere chi c'era.",
   sotto:"È il tema delle seconde vittime della lezione 2.6, visto dal lato di che cosa si fa il giorno dopo."},
 
 {id:"s23", tipo:"tabella", tema:"chiaro", sopratitolo:"Due premesse che qui diventano tecnica",
@@ -154,8 +154,8 @@ export const SCENE = [
    ["**Codice deontologico**","«Il **tempo di relazione** è tempo di cura»"],
    ["**Legge 219/2017**","«Il tempo della comunicazione costituisce **tempo di cura**»"]]},
 
-{id:"s24", tipo:"titolo", tema:"chiaro", sopratitolo:"La conseguenza operativa",
-  titolo:"Non è ciò che si fa<br>**se avanza tempo**:<br>è un **intervento**.",
+{id:"s24", tipo:"figura", tema:"chiaro", sopratitolo:"La conseguenza operativa", illu:"stetoscopio", lato:"dx",
+  titolo:"Non se avanza tempo:<br>è un **intervento**.",
   sotto:"E come ogni intervento si pianifica, si esegue con una tecnica e si documenta."},
 
 {id:"s25", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
@@ -215,8 +215,8 @@ export const SCENE = [
    {t:"Accompagna", d:"nelle ore successive"},
    {t:"Rileva", d:"i bisogni che emergono", key:true}]},
 
-{id:"s38", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché la verifica non è una formalità",
-  titolo:"Ciò che resta dopo<br>un colloquio difficile è<br>**molto meno** di ciò<br>che è stato detto.",
+{id:"s38", tipo:"figura", tema:"chiaro", sopratitolo:"Perché la verifica non è una formalità", illu:"lente",
+  titolo:"Ciò che resta è<br>**molto meno** di ciò<br>che è stato detto.",
   sotto:"E i bisogni, spesso, emergono dopo."},
 
 {id:"s39", tipo:"trappola", tema:"chiaro", sopratitolo:"«Mi dica la mia diagnosi»",
@@ -261,15 +261,15 @@ export const SCENE = [
    {t:"Segnalare", d:"con la scheda aziendale"},
    {t:"Documentare", d:"i fatti, in modo oggettivo", key:true}]},
 
-{id:"s46", tipo:"titolo", tema:"chiaro", sopratitolo:"Tre lezioni in un unico gesto",
-  titolo:"Documentare **oggettivamente**<br>come nella 2.4.<br>Sostenere l'operatore<br>come nella 2.6.",
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"Tre lezioni in un unico gesto", illu:"cartella", lato:"dx",
+  titolo:"Documentare come nella 2.4.<br>Sostenere come nella 2.6.",
   sotto:"È il segno che il modulo ha una spina dorsale."},
 
-{id:"s47", tipo:"tre", tema:"chiaro", sopratitolo:"La continuità assistenziale · tre dimensioni",
-  box:[
-   {n:"1", t:"Informativa", d:"le informazioni seguono la persona"},
-   {n:"2", t:"Gestionale", d:"gli interventi sono coerenti fra loro"},
-   {n:"3", t:"Relazionale", d:"esiste un riferimento stabile", key:true}]},
+{id:"s47", tipo:"raggiera", tema:"chiaro", sopratitolo:"La continuità assistenziale · tre dimensioni", centro:"Continuità",
+  raggi:[
+   {t:"Informativa", d:"le informazioni seguono la persona"},
+   {t:"Gestionale", d:"interventi coerenti fra loro"},
+   {t:"Relazionale", d:"un riferimento stabile", key:true}]},
 
 {id:"s48", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false, attive:[0,1],
   sopratitolo:"La lettera infermieristica di dimissione — non duplica quella medica",

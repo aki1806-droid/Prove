@@ -70,8 +70,8 @@ export const SCENE = [
   {icona:"libro",     t:"Legge 24/2017", d:"la Gelli-Bianco"},
   {icona:"persone",   t:"I casi", d:"prescrizione, OSS, équipe"}]},
 
-{id:"s05", tipo:"frase", tema:"chiaro", sopratitolo:"Il primo errore da smontare",
-  testo:"Non esiste *«la»* responsabilità. Ne esistono **cinque**, con presupposti, giudici e sanzioni diversi."},
+{id:"s05", tipo:"figura", tema:"chiaro", sopratitolo:"Il primo errore da smontare", illu:"bilancia",
+  titolo:"Non esiste *«la»* responsabilità.<br>Ne esistono **cinque**.", sotto:"Con presupposti, giudici e sanzioni diversi."},
 
 {id:"s06", tipo:"tabella", tema:"chiaro", sopratitolo:"Non esiste «la» responsabilità: ne esistono cinque",
   intestazioni:["Piano","Chi giudica","Che cosa protegge","La sanzione"],
@@ -88,9 +88,8 @@ export const SCENE = [
 {id:"s09", tipo:"titolo", tema:"profondo",
   titolo:"Autonomi<br>e **cumulabili**.",
   sotto:"La frase da ripetere all'orale."},
-{id:"s10", tipo:"frase", tema:"chiaro", sopratitolo:"Che cosa vuol dire",
-  testo:"L'assoluzione in sede penale *non* esclude il risarcimento civile, né la sanzione disciplinare, né quella deontologica.",
-  sotto:"Un solo fatto può aprire **cinque strade parallele**, non alternative."},
+{id:"s10", tipo:"raggiera", tema:"chiaro", sopratitolo:"Un solo fatto può aprire cinque strade parallele, non alternative", centro:"Un fatto",
+  raggi:[{t:"Penale", d:"la pena"},{t:"Civile", d:"il risarcimento"},{t:"Contabile", d:"il danno erariale"},{t:"Disciplinare", d:"il datore di lavoro"},{t:"Deontologica", d:"l'Ordine"}]},
 
 {id:"s11", tipo:"matrice", tema:"chiaro", sopratitolo:"Dolo e colpa: il titolo soggettivo",
   assex:["Evento previsto","Evento non previsto"], assey:["Voluto","Non voluto"], celle:[
@@ -116,9 +115,8 @@ export const SCENE = [
   da:{h:"Sembra", t:"un adempimento burocratico"},
   a:{h:"È", t:"il ponte fra **formazione e responsabilità**"},
   sotto:"L'*imperizia* è il punto in cui l'ECM diventa una questione di colpa."},
-{id:"s17", tipo:"frase", tema:"tenue", sopratitolo:"In sede di giudizio",
-  testo:"Non sapere ciò che *oggi* un infermiere deve sapere è un problema.",
-  sotto:"La mancata acquisizione di conoscenze ormai consolidate può essere valutata come colpa."},
+{id:"s17", tipo:"figura", tema:"tenue", sopratitolo:"In sede di giudizio", illu:"lente", lato:"dx",
+  titolo:"Non sapere ciò che *oggi*<br>un infermiere deve sapere<br>è un problema.", sotto:"La mancata acquisizione di conoscenze ormai consolidate può essere valutata come colpa."},
 
 {id:"s18", tipo:"norma", tema:"chiaro", sopratitolo:"Il cuore della lezione",
   etichetta:"La Gelli-Bianco", sigla:"L. 24/2017",
@@ -127,21 +125,16 @@ export const SCENE = [
 {id:"s19", tipo:"citazione", tema:"profondo", sopratitolo:"Articolo 1",
   testo:"La sicurezza delle cure è *parte costitutiva* del diritto alla salute",
   fonte:"L. 24/2017, art. 1 comma 1"},
-{id:"s20", tipo:"frase", tema:"chiaro", sopratitolo:"Come si realizza",
-  testo:"Con l'insieme delle attività di *prevenzione e gestione del rischio* connesso all'erogazione delle prestazioni.",
-  sotto:"E **tutto il personale concorre**, compresi i liberi professionisti."},
-{id:"s21", tipo:"frase", tema:"chiaro", sopratitolo:"Non è della direzione",
-  testo:"È di **ciascuno**.",
-  sotto:"Da qui nascono incident reporting, audit e raccomandazioni ministeriali — modulo 2."},
+{id:"s20", tipo:"figura", tema:"chiaro", sopratitolo:"Come si realizza", illu:"scudo",
+  titolo:"Con l'insieme delle attività di *prevenzione e gestione del rischio*.", sotto:"Connesso all'erogazione delle prestazioni. E **tutto il personale concorre**, compresi i liberi professionisti."},
+{id:"s21", tipo:"figura", tema:"chiaro", sopratitolo:"Non è della direzione", illu:"persona", lato:"dx",
+  titolo:"È di **ciascuno**.", sotto:"Da qui nascono incident reporting, audit e raccomandazioni ministeriali — modulo 2."},
 
-{id:"s22", tipo:"icone", tema:"chiaro", sopratitolo:"L'architettura di sistema della legge 24", voci:[
-  {icona:"bilancia",  t:"Garante per il diritto alla salute", d:"affidato al Difensore civico regionale"},
-  {icona:"ospedale",  t:"Centri regionali", d:"per la gestione del rischio sanitario"},
-  {icona:"occhio",    t:"Osservatorio nazionale", d:"delle buone pratiche"}]},
+{id:"s22", tipo:"raggiera", tema:"chiaro", sopratitolo:"L'architettura di sistema della legge 24", centro:"Legge 24",
+  raggi:[{t:"Garante", d:"affidato al Difensore civico regionale"},{t:"Centri", d:"regionali, per il rischio sanitario"},{t:"Osservatorio", d:"nazionale delle buone pratiche"}]},
 
-{id:"s23", tipo:"frase", tema:"chiaro", sopratitolo:"E la trasparenza",
-  testo:"Consegna della documentazione sanitaria entro *termini definiti*.",
-  sotto:"Tre nomi da saper citare: Garante, Centri regionali, Osservatorio."},
+{id:"s23", tipo:"figura", tema:"chiaro", sopratitolo:"E la trasparenza", illu:"orologio",
+  titolo:"Consegna della documentazione sanitaria entro *termini definiti*.", sotto:"Tre nomi da saper citare: Garante, Centri regionali, Osservatorio."},
 
 {id:"s24", tipo:"norma", tema:"chiaro", sopratitolo:"Sul piano penale",
   etichetta:"Responsabilità colposa per morte o lesioni in ambito sanitario", sigla:"art. 590-sexies c.p.",
@@ -149,8 +142,8 @@ export const SCENE = [
 {id:"s25", tipo:"frase", tema:"chiaro", sopratitolo:"Lo schema",
   testo:"Evento per **imperizia** + rispetto di *linee guida accreditate* o buone pratiche → la punibilità è **esclusa**.",
   sotto:"Sempre che quelle raccomandazioni risultino adeguate alle specificità del caso concreto."},
-{id:"s26", tipo:"frase", tema:"chiaro", sopratitolo:"Tre condizioni",
-  testo:"Se ne cade *una*, la non punibilità non c'è."},
+{id:"s26", tipo:"figura", tema:"chiaro", sopratitolo:"Tre condizioni", illu:"catena", lato:"dx",
+  titolo:"Se ne cade *una*,<br>la non punibilità non c'è."},
 
 {id:"s27", tipo:"icone", tema:"chiaro", sopratitolo:"Art. 590-sexies: i tre limiti",
   attive:[0], voci:LIMITIG},
@@ -169,15 +162,14 @@ export const SCENE = [
    {et:"Struttura — contrattuale", v:10, nota:"artt. 1218 e 1228 c.c."},
    {et:"Esercente — extracontrattuale", v:5, colore:"#B07A12", nota:"art. 2043 c.c."}]},
 
-{id:"s32", tipo:"titolo", tema:"profondo",
-  titolo:"**Dieci** la struttura.<br>**Cinque** l'esercente.",
-  sotto:"Memorizza i due numeri accoppiati ai due soggetti."},
+{id:"s32", tipo:"cifre", tema:"chiaro", sopratitolo:"Memorizza i due numeri accoppiati ai due soggetti",
+  voci:[{n:10, suf:" anni", t:"la struttura", d:"responsabilità contrattuale", key:true},{n:5, suf:" anni", t:"l'esercente", d:"responsabilità extracontrattuale"}]},
 
 {id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Perché il doppio binario",
   testo:"Per indirizzare il paziente verso la *struttura*, dove l'onere probatorio gli è più favorevole.",
   sotto:"Alleggerendo la posizione del singolo professionista."},
-{id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Condizione di procedibilità",
-  testo:"Il tentativo di **conciliazione** con ricorso per *accertamento tecnico preventivo*, in alternativa alla mediazione."},
+{id:"s34", tipo:"figura", tema:"chiaro", sopratitolo:"Condizione di procedibilità", illu:"dialogo",
+  titolo:"Il tentativo di **conciliazione** con ricorso per *accertamento tecnico preventivo*.", sotto:"In alternativa alla mediazione."},
 
 {id:"s35", tipo:"barre", tema:"chiaro", sopratitolo:"La rivalsa della struttura sul professionista",
   unita:"anni", etichetta:520, max:10, barre:[
@@ -217,9 +209,8 @@ export const SCENE = [
   {t:"**Falso in atto pubblico**", d:"per le annotazioni alterate"},
   {t:"**Rivelazione di segreto**, esercizio abusivo, peculato"}]},
 
-{id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"La documentazione",
-  testo:"Cartella clinica e cartella infermieristica sono **atti pubblici**.",
-  sotto:"L'annotazione falsa o alterata integra *falso in atto pubblico*."},
+{id:"s42", tipo:"figura", tema:"chiaro", sopratitolo:"La documentazione", illu:"cartella", lato:"dx",
+  titolo:"Cartella clinica e cartella infermieristica sono **atti pubblici**.", sotto:"L'annotazione falsa o alterata integra *falso in atto pubblico*."},
 {id:"s43", tipo:"elenco", tema:"chiaro", sopratitolo:"Come si corregge", numerato:true, voci:[
   {t:"**Senza cancellare**"},
   {t:"Lasciando **leggibile** il dato precedente"},
@@ -235,9 +226,8 @@ export const SCENE = [
    ["L'effetto","non rispondi dell'errore **non riconoscibile**","rispondi: era esigibile accorgersene"],
    ["Tradotto","—","non ti nascondi dietro la prescrizione"]]},
 
-{id:"s46", tipo:"frase", tema:"chiaro", sopratitolo:"Tradotto sulla prescrizione errata",
-  testo:"Non ti nascondi dietro la prescrizione se l'errore era *palese*.",
-  sotto:"Chiedi chiarimento; se il dubbio resta, non dai corso e documenti."},
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"Tradotto sulla prescrizione errata", illu:"fiale",
+  titolo:"Non ti nascondi dietro la prescrizione se l'errore era *palese*.", sotto:"Chiedi chiarimento; se il dubbio resta, non dai corso e documenti."},
 {id:"s47", tipo:"tabella", tema:"chiaro", sopratitolo:"Attribuire all'OSS: che cosa resta tuo",
   intestazioni:["","Che cosa hai sbagliato","Come si chiama"], colonne:["26%","44%","30%"],
   righe:[

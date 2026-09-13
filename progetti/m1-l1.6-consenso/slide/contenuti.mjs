@@ -67,8 +67,8 @@ export const SCENE = [
 {id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 6 di 8",
   testo:"Il punto in cui *il diritto* incontra *la relazione di cura*.",
   sotto:"Materia ad altissima frequenza nelle prove di concorso."},
-{id:"s03", tipo:"frase", tema:"tenue", sopratitolo:"E i casi più insidiosi",
-  testo:"Quelli in cui la risposta che sembra *più generosa* è quella **sbagliata**."},
+{id:"s03", tipo:"figura", tema:"tenue", sopratitolo:"E i casi più insidiosi", illu:"semaforo",
+  titolo:"Quelli in cui la risposta che sembra *più generosa* è quella **sbagliata**."},
 
 {id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro tappe", voci:[
   {icona:"bilancia", t:"La Costituzione", d:"artt. 2, 13 e 32"},
@@ -76,9 +76,8 @@ export const SCENE = [
   {icona:"persone",  t:"Le situazioni speciali", d:"minori, incapaci, DAT"},
   {icona:"persona",  t:"L'infermiere", d:"che cosa gli affida la legge"}]},
 
-{id:"s05", tipo:"frase", tema:"chiaro", sopratitolo:"Sul ruolo dell'infermiere",
-  testo:"La legge lo affida in modo *meno esplicito* di quanto molti credano.",
-  sotto:"Ma esiste, ed è preciso."},
+{id:"s05", tipo:"figura", tema:"chiaro", sopratitolo:"Sul ruolo dell'infermiere", illu:"persona", lato:"dx",
+  titolo:"La legge lo affida in modo *meno esplicito* di quanto molti credano.", sotto:"Ma esiste, ed è preciso."},
 
 {id:"s06", tipo:"icone", tema:"chiaro", sopratitolo:"Il fondamento costituzionale", voci:[
   {icona:"persona",  t:"Art. 2", d:"riconosce i **diritti inviolabili** dell'uomo"},
@@ -88,8 +87,8 @@ export const SCENE = [
 {id:"s07", tipo:"citazione", tema:"profondo", sopratitolo:"Articolo 32, la norma chiave",
   testo:"Nessuno può essere obbligato a un determinato trattamento sanitario *se non per disposizione di legge*",
   fonte:"e la legge non può violare i limiti imposti dal rispetto della persona umana"},
-{id:"s08", tipo:"frase", tema:"chiaro", sopratitolo:"Venti parole",
-  testo:"Vale la pena saperle ripetere *quasi alla lettera*."},
+{id:"s08", tipo:"figura", tema:"chiaro", sopratitolo:"Venti parole", illu:"libro",
+  titolo:"Vale la pena saperle ripetere<br>*quasi alla lettera*."},
 
 {id:"s09", tipo:"tabella", tema:"chiaro", sopratitolo:"Due conseguenze pratiche dell'art. 32",
   intestazioni:["","La regola","L'eccezione"], colonne:["26%","37%","37%"],
@@ -110,9 +109,8 @@ export const SCENE = [
 {id:"s13", tipo:"citazione", tema:"profondo", sopratitolo:"Prima formula · art. 1",
   testo:"Nessun trattamento sanitario può essere iniziato o proseguito senza il *consenso libero e informato* della persona interessata",
   fonte:"tranne che nei casi espressamente previsti dalla legge"},
-{id:"s14", tipo:"frase", tema:"chiaro", sopratitolo:"Seconda formula",
-  testo:"È promossa e valorizzata la **relazione di cura e di fiducia**.",
-  sotto:"Nella quale sono coinvolti, *se il paziente lo desidera*, i familiari o una persona di fiducia."},
+{id:"s14", tipo:"figura", tema:"chiaro", sopratitolo:"Seconda formula", illu:"mani", lato:"dx",
+  titolo:"È promossa e valorizzata la **relazione di cura e di fiducia**.", sotto:"Nella quale sono coinvolti, *se il paziente lo desidera*, i familiari o una persona di fiducia."},
 {id:"s15", tipo:"titolo", tema:"profondo",
   titolo:"Il tempo della comunicazione<br>costituisce **tempo di cura**.",
   sotto:"La stessa affermazione del Codice deontologico — 1.4."},
@@ -133,9 +131,8 @@ export const SCENE = [
 {id:"s20", tipo:"elenco", tema:"chiaro", sopratitolo:"Il diritto a non sapere", voci:[
   {t:"Può **rifiutare in tutto o in parte** di ricevere le informazioni"},
   {t:"Può **indicare** familiari o una persona di fiducia", d:"incaricati di riceverle e di esprimere il consenso in sua vece"}]},
-{id:"s21", tipo:"frase", tema:"chiaro", sopratitolo:"E va registrato",
-  testo:"In cartella e nel *fascicolo sanitario elettronico*.",
-  sotto:"Non esiste un dovere di informare **contro** la volontà della persona: è il punto su cui molti rispondono d'istinto e sbagliano."},
+{id:"s21", tipo:"figura", tema:"chiaro", sopratitolo:"E va registrato", illu:"cartella",
+  titolo:"In cartella e nel *fascicolo sanitario elettronico*.", sotto:"Non esiste un dovere di informare **contro** la volontà della persona: è il punto su cui molti rispondono d'istinto e sbagliano."},
 
 {id:"s22", tipo:"tabella", tema:"chiaro", sopratitolo:"La forma del consenso",
   intestazioni:["Va bene","Come si documenta"], colonne:["42%","58%"],
@@ -167,11 +164,10 @@ export const SCENE = [
    ["Il limite","nessuno: anche le cure salvavita","legge, deontologia, buone pratiche"],
    ["Il medico","è **esente da responsabilità** civile e penale","**non ha obblighi**"]]},
 
-{id:"s28", tipo:"frase", tema:"chiaro", sopratitolo:"Chi rispetta un rifiuto di cure salvavita",
-  testo:"È **tenuto** a rispettare la volontà espressa e, in conseguenza di ciò, è *esente da responsabilità civile o penale*."},
-{id:"s29", tipo:"frase", tema:"chiaro", sopratitolo:"Ma prima",
-  testo:"Prospetta le **conseguenze** e le **alternative**, e promuove ogni azione di sostegno, anche psicologico.",
-  sotto:"Il rispetto della volontà *non è abbandono*."},
+{id:"s28", tipo:"figura", tema:"chiaro", sopratitolo:"Chi rispetta un rifiuto di cure salvavita", illu:"scudo", lato:"dx",
+  titolo:"È **tenuto** a rispettare la volontà espressa, ed è *esente da responsabilità civile o penale*."},
+{id:"s29", tipo:"figura", tema:"chiaro", sopratitolo:"Ma prima", illu:"ascolto",
+  titolo:"Prospetta le **conseguenze** e le **alternative**, e promuove ogni azione di sostegno.", sotto:"Anche psicologico. Il rispetto della volontà *non è abbandono*."},
 
 {id:"s30", tipo:"albero", tema:"chiaro", sopratitolo:"Chi esprime il consenso — art. 3",
   radice:"La persona non può decidere da sola", rami:[
@@ -202,9 +198,8 @@ export const SCENE = [
 {id:"s35", tipo:"elenco", tema:"chiaro", sopratitolo:"Art. 4 · chi può fare le DAT", voci:[
   {t:"Persona **maggiorenne e capace** di intendere e di volere"},
   {t:"In previsione di un'eventuale **futura** incapacità"}]},
-{id:"s36", tipo:"frase", tema:"chiaro", sopratitolo:"E dopo che cosa",
-  testo:"Dopo aver acquisito *adeguate informazioni mediche*.",
-  sotto:"Esprime volontà, consenso o rifiuto, e indica un **fiduciario** maggiorenne e capace che la rappresenti."},
+{id:"s36", tipo:"figura", tema:"chiaro", sopratitolo:"E dopo che cosa", illu:"dialogo", lato:"dx",
+  titolo:"Dopo aver acquisito<br>*adeguate informazioni mediche*.", sotto:"Esprime volontà, consenso o rifiuto, e indica un **fiduciario** maggiorenne e capace che la rappresenti."},
 
 {id:"s37", tipo:"icone", tema:"chiaro", sopratitolo:"La forma delle DAT", voci:[
   {icona:"certificato", t:"Atto pubblico"},
@@ -212,15 +207,13 @@ export const SCENE = [
   {icona:"ospedale",    t:"Scrittura privata consegnata all'ufficio di stato civile"},
   {icona:"foto",        t:"Videoregistrazione", d:"se le condizioni fisiche non consentono le altre forme"}]},
 
-{id:"s38", tipo:"frase", tema:"chiaro", sopratitolo:"E sono",
-  testo:"**Esenti** da bollo e da ogni tributo. E *revocabili in ogni momento*.",
-  sotto:"Il medico è tenuto al rispetto delle DAT, e può disattenderle solo in tre casi — sempre **in accordo con il fiduciario**."},
+{id:"s38", tipo:"figura", tema:"chiaro", sopratitolo:"E sono", illu:"orologio",
+  titolo:"**Esenti** da bollo e da ogni tributo.<br>E *revocabili in ogni momento*.", sotto:"Il medico è tenuto al rispetto delle DAT, e può disattenderle solo in tre casi — sempre **in accordo con il fiduciario**."},
 {id:"s39", tipo:"icone", tema:"chiaro", sopratitolo:"Quando il medico può disattendere le DAT",
   voci:DISATTENDERE},
 
-{id:"s40", tipo:"frase", tema:"tenue", sopratitolo:"Due dettagli che valgono una domanda",
-  testo:"In conflitto fra fiduciario e medico decide di nuovo il *giudice tutelare*.",
-  sotto:"E se manca il fiduciario, le DAT **restano efficaci**."},
+{id:"s40", tipo:"figura", tema:"tenue", sopratitolo:"Due dettagli che valgono una domanda", illu:"bilancia", lato:"dx",
+  titolo:"In conflitto fra fiduciario e medico decide di nuovo il *giudice tutelare*.", sotto:"E se manca il fiduciario, le DAT **restano efficaci**."},
 
 {id:"s41", tipo:"tabella", tema:"chiaro", sopratitolo:"DAT o pianificazione condivisa",
   intestazioni:["","DAT — art. 4","Pianificazione condivisa — art. 5"], colonne:["22%","39%","39%"],
@@ -230,9 +223,8 @@ export const SCENE = [
    ["Dove","notaio, stato civile, scrittura privata","nella documentazione clinica"],
    ["Chi è tenuto","il medico","il medico **e l'équipe**"]]},
 
-{id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"La pianificazione",
-  testo:"Cronica e invalidante, o a inarrestabile evoluzione con *prognosi infausta*.",
-  sotto:"Il medico e l'équipe sono tenuti ad attenersi."},
+{id:"s42", tipo:"figura", tema:"chiaro", sopratitolo:"La pianificazione", illu:"cuore",
+  titolo:"Cronica e invalidante, o a inarrestabile evoluzione con *prognosi infausta*.", sotto:"Il medico e l'équipe sono tenuti ad attenersi."},
 {id:"s43", tipo:"elenco", tema:"chiaro", sopratitolo:"Sul fine vita · art. 2", voci:[
   {t:"Astenersi da ogni **ostinazione irragionevole**", d:"e dai trattamenti inutili o sproporzionati"},
   {t:"**Sedazione palliativa profonda continua**", d:"davanti a sofferenze refrattarie, col consenso e con annotazione in cartella"}]},
@@ -245,8 +237,8 @@ export const SCENE = [
    ["**Mezzo**","farmaci e dosaggi **proporzionati** al sintomo","dose finalizzata a causare la morte"],
    ["**Proporzionalità**","la morte, quando arriva, è conseguenza della **malattia**","la morte è l'effetto voluto"]]},
 
-{id:"s45", tipo:"frase", tema:"chiaro", sopratitolo:"L'ordine conta",
-  testo:"*Obiettivo, mezzo, proporzionalità.* Dilli in quest'ordine e la risposta è completa."},
+{id:"s45", tipo:"figura", tema:"chiaro", sopratitolo:"L'ordine conta", illu:"catena", lato:"dx",
+  titolo:"*Obiettivo, mezzo, proporzionalità.*<br>Dilli in quest'ordine<br>e la risposta è completa."},
 
 {id:"s46", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2],
   sopratitolo:"Il ruolo dell'infermiere", celle:[

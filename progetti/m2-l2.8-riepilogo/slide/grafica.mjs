@@ -335,10 +335,6 @@ export const CORPI_GRAFICA = {
   // Linea del tempo in scala: le tappe stanno dove cadono davvero.
   // Una timeline a passo fisso mente sulle distanze, e in questo modulo
   // fra il 1974 e il 1992 ci sono diciotto anni, fra il 1999 e il 2000 uno.
-  // Vuole ANNI veri in da/a e in decenni: e' un asse cronologico, non un asse
-  // generico. Con decenni vuoto stampa «undefined» sulle etichette e non sfora
-  // niente, cosi' il controllo della cornice lo lascia passare (2.6 -> 2.7).
-  // Per tre momenti in sequenza senza date si usa «catena».
   assetempo: d => {
     // Fasce fisse per anno e didascalia, e la didascalia va a capo: in un
     // <text> SVG non andrebbe a capo e due tappe vicine si sovrappongono.

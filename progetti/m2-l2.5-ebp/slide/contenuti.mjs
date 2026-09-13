@@ -59,7 +59,7 @@ export const SCENE = [
   a:{h:"Dopo", t:"Un **parametro di valutazione**<br>della condotta"},
   sotto:"Sono entrate nel processo, e da lì non sono più uscite."},
 
-{id:"s04", tipo:"titolo", tema:"tenue", sopratitolo:"La confusione che costa doppio",
+{id:"s04", tipo:"figura", tema:"tenue", sopratitolo:"La confusione che costa doppio", illu:"lente",
   titolo:"Linea guida<br>o **procedura aziendale**?",
   sotto:"Chi le scambia sbaglia due domande: una di metodo e una di diritto."},
 
@@ -68,11 +68,11 @@ export const SCENE = [
   dx:{t:"La competenza clinica", d:"l'**esperienza** del professionista"},
   centro:"E i **valori, le preferenze e il contesto** della persona assistita"},
 
-{id:"s06", tipo:"tre", tema:"chiaro", sopratitolo:"Tre elementi, non uno",
-  box:[
-   {n:"1", t:"Evidenze", d:"le migliori scientifiche disponibili"},
-   {n:"2", t:"Competenza", d:"l'esperienza clinica di chi cura"},
-   {n:"3", t:"Persona", d:"valori, preferenze, contesto", key:true}]},
+{id:"s06", tipo:"raggiera", tema:"chiaro", sopratitolo:"Tre elementi, non uno", centro:"EBP",
+  raggi:[
+   {t:"Evidenze", d:"le migliori disponibili"},
+   {t:"Competenza", d:"l'esperienza di chi cura"},
+   {t:"Persona", d:"valori e contesto", key:true}]},
 
 {id:"s07", tipo:"trappola", tema:"profondo", sopratitolo:"Il distrattore classico",
   righe:[
@@ -85,13 +85,16 @@ export const SCENE = [
    ["**DM 739/1994**","l'infermiere concorre all'aggiornamento del proprio profilo e alla **ricerca**"],
    ["**Codice deontologico**","fondare il proprio operato su **conoscenze validate**"]]},
 
-{id:"s09", tipo:"titolo", tema:"chiaro", sopratitolo:"Che cos'è davvero l'EBP",
-  titolo:"La traduzione operativa<br>di **due norme**<br>che già conosci."},
+{id:"s09", tipo:"figura", tema:"chiaro", sopratitolo:"Che cos'è davvero l'EBP", illu:"bussola", lato:"dx",
+  titolo:"La traduzione operativa<br>di **due norme**<br>che già conosci.",
+  sotto:"Il DM 739/1994 e il Codice deontologico: il metodo non è una moda importata."},
 
-{id:"s10", tipo:"catena", tema:"chiaro", sopratitolo:"I cinque passi · cinque A", attive:[0,1,2],
-  passi:PASSI},
-{id:"s11", tipo:"catena", tema:"chiaro", sopratitolo:"I cinque passi · cinque A",
-  passi:PASSI},
+{id:"s10", tipo:"ciclo", tema:"chiaro", sopratitolo:"I cinque passi · cinque A", attive:[0,1,2], centro:"EBP",
+  passi:[{t:"Ask", d:"formulare il quesito"},{t:"Acquire", d:"cercare le evidenze"},{t:"Appraise", d:"valutarle criticamente"},
+         {t:"Apply", d:"con esperienza e preferenze"},{t:"Assess", d:"valutare l'esito", key:true}]},
+{id:"s11", tipo:"ciclo", tema:"chiaro", sopratitolo:"I cinque passi · cinque A", centro:"EBP",
+  passi:[{t:"Ask", d:"formulare il quesito"},{t:"Acquire", d:"cercare le evidenze"},{t:"Appraise", d:"valutarle criticamente"},
+         {t:"Apply", d:"con esperienza e preferenze"},{t:"Assess", d:"valutare l'esito", key:true}]},
 
 {id:"s12", tipo:"venn", tema:"chiaro", sopratitolo:"La simmetria con la lezione 2.1",
   sx:{t:"Processo di assistenza", d:"accertamento, diagnosi, pianificazione, attuazione…"},
@@ -138,7 +141,7 @@ export const SCENE = [
    {h:"Coorte — prospettico", t:"parte dall'**esposizione** e segue nel tempo"},
    {h:"Caso-controllo — retrospettivo", t:"parte dall'**esito** e risale all'esposizione"}]},
 
-{id:"s20", tipo:"titolo", tema:"chiaro", sopratitolo:"Sei livelli",
+{id:"s20", tipo:"figura", tema:"chiaro", sopratitolo:"Sei livelli", illu:"piramide",
   titolo:"La domanda chiede<br>quasi sempre il **vertice**.",
   sotto:"Ma il vertice non è tutta la storia."},
 
@@ -212,7 +215,7 @@ export const SCENE = [
    {cond:"sì, ma senza motivo né documento", esito:"**non** legittimo"},
    {cond:"no", esito:"si applica la raccomandazione"}]},
 
-{id:"s35", tipo:"titolo", tema:"chiaro", sopratitolo:"Dove sta la differenza",
+{id:"s35", tipo:"figura", tema:"chiaro", sopratitolo:"Dove sta la differenza", illu:"cartella", lato:"dx",
   titolo:"Tutta **in cartella**.",
   sotto:"È la documentazione della lezione 2.4 a fare da ponte."},
 
@@ -257,8 +260,8 @@ export const SCENE = [
    {icona:"ospedale", t:"Stroke"},
    {icona:"avviso", t:"Trauma", key:true}]},
 
-{id:"s44", tipo:"titolo", tema:"chiaro", sopratitolo:"Perché vale la pena saperla a memoria",
-  titolo:"Dimostra che hai capito<br>**come le evidenze arrivano**<br>davvero in reparto.",
+{id:"s44", tipo:"figura", tema:"chiaro", sopratitolo:"Perché vale la pena saperla a memoria", illu:"libro",
+  titolo:"Dimostra che hai capito<br>**come le evidenze<br>arrivano** in reparto.",
   sotto:"Non solo che cos'è una linea guida."},
 
 {id:"s45", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
@@ -270,8 +273,8 @@ export const SCENE = [
 {id:"s48", tipo:"griglia", tema:"chiaro", colonne:1,
   sopratitolo:"I sette punti", celle:MEMO},
 
-{id:"s49", tipo:"titolo", tema:"chiaro", sopratitolo:"La frase da portare all'orale",
-  titolo:"Discostarsi è **legittimo**,<br>purché **motivato e documentato**."},
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"La frase da portare all'orale", illu:"dialogo", lato:"dx",
+  titolo:"Discostarsi è **legittimo**,<br>purché **motivato<br>e documentato**."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Prossima lezione",
