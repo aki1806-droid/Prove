@@ -288,33 +288,62 @@ Layout disponibili in `script/cards.mjs`:
 
 Per il corso, `script/slide_corso.mjs` ne ha altri sei — `number`, `cards`,
 `table`, `chart`, `swap`, `figure` — e `script/figure_corso.mjs` aggiunge
-**sette diagrammi che si disegnano da soli**. Non sono decorazioni: ognuno
+**quindici diagrammi che si disegnano da soli**. Non sono decorazioni: ognuno
 regge un tipo di ragionamento preciso, e va usato solo quando la frase che si
 sente in quel momento è di quel tipo.
 
 | diagramma | regge | esempio |
 |---|---|---|
-| `curva` | un andamento con un punto di svolta | «sale in secondi, scende in minuti» (6.3) |
-| `finestra` | quanto dura la parte che conta, sul totale | i primi trenta secondi (6.3) |
-| `quadranti` | due variabili indipendenti, una casella accesa | modo e merito (6.5) |
 | `flusso` | passi in catena dove **l'ordine conta** | fatto, effetto, richiesta (6.4) |
-| `strati` | quello che si dice e quello che c'è sotto | la prima obiezione (6.1) |
+| `bivio` | stesso inizio, due strade che finiscono diverse | la stessa cosa detta in due modi |
+| `anello` | un giro che si richiude e non finisce mai | alzi la voce → si difende → alzi di più |
 | `pila` | qualcosa che si accumula | il residuo non riparato (6.5) |
+| `strati` | quello che si dice e quello che c'è sotto | la prima obiezione (6.1) |
+| `quadranti` | due variabili indipendenti, una casella accesa | modo e merito (6.5) |
+| `bilancia` | due cose a confronto, e quale pesa | il costo di non dirlo |
+| `imbuto` | molte cose entrano, ne esce una | di tutto quello che dici, cosa resta |
+| `ponte` | due sponde, la distanza, e cosa la copre | quello che intendi / quello che arriva |
+| `linea` | momenti in sequenza sul tempo | come va una discussione, dal secondo zero |
+| `curva` | un andamento con un punto di svolta | «sale in secondi, scende in minuti» (6.3) |
 | `termometro` | una scala con un livello e delle soglie | l'attivazione nel picco (6.3) |
+| `finestra` | quanto dura la parte che conta, sul totale | i primi trenta secondi (6.3) |
+| `barre` | quanto pesa una cosa rispetto alle altre | di cosa si ricorda chi ti ascolta |
+| `raggi` | cosa sta al centro e cosa gli gira attorno, e quanto lontano | il tono è vicino, le ragioni sono lontane |
+
+**La proporzione da tenere dal modulo 7 in poi**: un elenco di voci
+consecutive, una sequenza di passi, un confronto, una proporzione o un
+accumulo **non si scrivono, si disegnano**. Il layout `list` resta per le
+elencazioni che non hanno una forma — cose che stanno insieme ma non in
+ordine, non in scala, non in opposizione. Se ha una forma, ha un diagramma.
 
 Si passano i **dati**, non l'SVG: la geometria è sempre la stessa e
 l'animazione viene da sé. Un disegno scritto a mano dentro il JSON non si
 riusa, non si anima come gli altri, e alla terza lezione ha già un'altra
 geometria.
 
-Due trappole del generatore, costate un giro di render:
+Cinque trappole del generatore, ognuna costata un giro di render. Le prime
+quattro sono invisibili sulle dissolvenze e letali su tutto il resto, ed è
+per questo che sono venute fuori tardi:
+
 - il testo dentro `<text>` **non va a capo da solo**. Ogni etichetta passa da
   `righe()`, che la spezza in `tspan`. Senza, le celle dei quadranti si
   scrivono una sopra l'altra;
 - nell'animazione, `both` va scritto **dentro** la scorciatoia `animation:`.
   La scorciatoia azzera `fill-mode`, e un tracciato che finisce di disegnarsi
-  torna al suo stato di partenza, cioè sparisce. Sulle dissolvenze non si
-  vedeva, perché lo stato di partenza era già quello giusto.
+  torna al suo stato di partenza, cioè sparisce;
+- niente `nth-of-type` sugli elementi ripetuti: conta i fratelli con lo stesso
+  tag, e nei gruppi alternati (casella, freccia, casella) i ritardi finiscono
+  sull'elemento sbagliato. L'indice lo scrive il generatore in `--i`;
+- **`velo` e `cresci` finiscono a `opacity: 1`**, quindi non vanno mai messi
+  sull'elemento che porta già una campitura debole (`velo`, `veloro`, `tenue`,
+  `punti`, `min`): il fotogramma chiave sovrascrive l'opacità della classe e
+  la velatura diventa tinta piena. Si anima il `<g>` che lo contiene, dove
+  l'opacità si moltiplica invece di sostituirsi. È il bug che nella prima
+  versione della 6.4 rendeva il quadrante acceso oro pieno, **con la sua
+  etichetta dentro, illeggibile**;
+- dentro un template literal, **niente backtick nei commenti**. Chiudono la
+  stringa e il file non compila più. Vale per `figure_corso.mjs` e per il
+  blocco `motion` di `clips_corso.mjs`.
 
 ### Movimento che non finisce
 
@@ -323,11 +352,41 @@ HeyGen sta in `playback.mode: "freeze"`. Sotto quindici secondi di parlato una
 slide che continua a muoversi è rumore.
 
 L'eccezione è quando il movimento **è** il contenuto. Lì si mette `ciclo: N`
-sulla slide: la clip viene renderizzata lunga N secondi con un'andata e
-ritorno (`alternate`) che dura esattamente N, così il primo e l'ultimo
-fotogramma combaciano, e `scene.py` mette quella scena in
-`playback.mode: "loop"` invece di `freeze`. Con `freeze` si congelerebbe a
-metà corsa.
+sulla slide: la clip viene renderizzata lunga N secondi, e `scene.py` mette
+quella scena in `playback.mode: "loop"` invece di `freeze`. Con `freeze` si
+congelerebbe a metà corsa.
+
+Perché una clip ciclica combaci davvero servono tre cose, e nella prima
+versione del modulo 6 **ne mancavano due**:
+
+1. **il periodo deve dividere la durata della clip**: mezzo ciclo con
+   `alternate` (andata e ritorno = `ciclo`), oppure un giro intero senza
+   `alternate` dove il percorso è già chiuso, come l'anello. Un ritardo
+   costante non rompe niente, perché è solo uno sfasamento;
+2. **la clip ciclica non si costruisce sotto gli occhi.** Il loop riparte dal
+   primo fotogramma, quindi il primo e l'ultimo devono differire *solo* per la
+   fase del movimento. Se le animazioni d'ingresso avanzano, il fotogramma 0 è
+   la slide vuota e l'ultimo è la slide piena: a ogni giro la si vede sparire
+   e rifarsi. Quindi in una clip ciclica la figura c'è già tutta dal primo
+   fotogramma, e si muove solo il ciclo. È il prezzo del movimento continuo, e
+   lo si paga solo sulla slide che ne ha bisogno;
+3. **prima di catturare bisogna lasciare passare due giri di rendering.**
+   Subito dopo `setContent`, `document.getAnimations()` è ancora vuota: il
+   fotogramma 0 esce senza nessuna animazione applicata, cioè bianco. Sulle
+   clip normali non si nota, perché il fotogramma 0 deve essere vuoto
+   comunque; su una ciclica è il primo fotogramma del loop.
+
+**Come si verifica, e non a occhio**: si confronta l'ultimo fotogramma col
+primo e lo si mette accanto alla differenza fra due fotogrammi consecutivi
+qualsiasi. Se la cucitura è dello stesso ordine del passo normale, il loop non
+scatta. Se è dieci o cento volte tanto, scatta — e a occhio, su un video di
+sei minuti, non te ne accorgi finché non lo guarda qualcun altro.
+
+**Il segnalino che viaggia va sul colore dell'inchiostro, non in oro**: oro su
+tracciato oro si confonde con i punti fermi della figura, e l'unica cosa che
+deve saltare all'occhio è proprio quella che si muove. Sulla slide ferma non
+esiste: `figure_corso.mjs` lo tiene a `opacity: 0` e lo riaccende solo
+`ciclico()`.
 
 Finora ne serve **una in tutto il modulo 6**: il pallino che risale e riscende
 la curva dell'attivazione nella 6.3. Se diventano due per lezione, vuol dire
@@ -375,6 +434,34 @@ negli script delle lezioni — si usa `script/cards_corso.mjs`):
 - Le clip durano 5 s: sotto un blocco di voce più lungo vanno messe in
   `playback: {mode: "fit_to_scene", mute: true}`, così rallentano invece di
   ripetersi o congelarsi.
+
+### Il mondo visivo del modulo
+
+Dal modulo 7 le riprese non si inventano una per una. **Prima di generare la
+prima, si scrive il mondo visivo del modulo** e lo si mette in testa al
+registro: è una riga sola, ma vincola tutte e quindici le riprese.
+
+    LUOGO   una casa vissuta e un ufficio piccolo, mai open space
+    LUCE    naturale di tardo pomeriggio, da una finestra fuori campo
+    OTTICA  50 mm, poca profondità di campo, camera ferma o quasi
+    COLORE  legno, avorio, un blu spento; nessun colore acceso
+    PERSONE mani, spalle, sagome; mai un volto riconoscibile
+
+Ogni prompt di ripresa **riporta il mondo visivo per intero** e poi aggiunge
+il soggetto. Costa tre righe in più per prompt e fa sì che quindici riprese
+generate in momenti diversi sembrino girate lo stesso pomeriggio. Senza,
+escono quindici fotografie belle che non stanno insieme — che è esattamente
+com'era il modulo 6.
+
+**Video, non foto, dove c'è un movimento che vuol dire qualcosa**: una porta
+che si chiude, una mano che si ferma a metà, l'acqua che smette di
+incresparsi. Foto dove il punto è una cosa ferma: l'orologio, la sedia vuota,
+il foglio sul tavolo. La regola è la stessa dei diagrammi — si mette in
+movimento quello per cui il movimento è il contenuto, non tutto il resto.
+
+Dentro un modulo i soggetti si **richiamano**: se la 7.1 apre su una porta
+chiusa, la porta torna aperta nella 7.5. Sono cinque lezioni che si guardano
+di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
 
 ## 5. Output
 

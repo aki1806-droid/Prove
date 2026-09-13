@@ -329,22 +329,47 @@ meglio di una riga scritta:
 
 | se la voce dice | il diagramma |
 |---|---|
-| «sale in fretta e scende piano» | `curva` |
-| «questa parte conta più di tutto il resto» | `finestra` |
-| «sono due piani diversi» | `quadranti` |
 | «tre tempi, e l'ordine conta» | `flusso` |
-| «quello che si dice non è quello che c'è sotto» | `strati` |
+| «la stessa cosa detta così, o detta così» | `bivio` |
+| «e ricomincia da capo», «non finisce mai» | `anello` |
 | «si accumula» | `pila` |
+| «quello che si dice non è quello che c'è sotto» | `strati` |
+| «sono due piani diversi» | `quadranti` |
+| «costa più non farlo che farlo» | `bilancia` |
+| «di tutto questo, ne resta una cosa sola» | `imbuto` |
+| «fra quello che intendi e quello che arriva» | `ponte` |
+| «prima succede questo, poi questo, poi questo» | `linea` |
+| «sale in fretta e scende piano» | `curva` |
 | «sopra una certa soglia non funziona più» | `termometro` |
+| «questa parte conta più di tutto il resto» | `finestra` |
+| «questo pesa molto, questo quasi niente» | `barre` |
+| «questo è al centro, questo è lontanissimo» | `raggi` |
 
 Si passano i dati, non l'SVG. Il contrario — un disegno che illustra
 genericamente il tema — si toglie: se il diagramma non porta il significato
 della frase che si sente in quel momento, è decorazione.
 
+**La soglia**: un elenco di voci consecutive, una sequenza, un confronto, una
+proporzione o un accumulo si **disegnano**. Il layout `list` resta solo per
+le elencazioni senza forma — cose che stanno insieme ma non in ordine, non in
+scala, non in opposizione. In pratica, su una lezione da 48 blocchi,
+**dai sei diagrammi in su**: sotto, vuol dire che si sta scrivendo quello che
+si potrebbe mostrare.
+
 **Il movimento entra e finisce** (`playback.mode: "freeze"`). L'unica
 eccezione è quando il movimento è il contenuto: allora `ciclo: N` sulla slide,
-clip lunga N secondi con andata e ritorno, e scena in `loop`. Una per modulo è
-già tanto.
+clip lunga N secondi, e scena in `loop`. Una o due per modulo, non di più.
+
+Su una clip ciclica valgono tre vincoli, e saltarne uno si paga con uno scatto
+visibile a ogni giro (vedi `STANDARD.md`, «Movimento che non finisce»):
+il periodo deve dividere la durata; la figura c'è già tutta dal primo
+fotogramma, perché una ciclica **non si costruisce** sotto gli occhi; e prima
+di catturare vanno lasciati passare due giri di rendering, altrimenti il
+fotogramma 0 esce bianco.
+
+Si verifica con i numeri, non a occhio: la differenza fra l'ultimo fotogramma
+e il primo dev'essere dello stesso ordine della differenza fra due fotogrammi
+consecutivi qualsiasi.
 
 Il tempo non scorre da solo: ogni fotogramma sposta a mano l'orologio delle
 animazioni, così il render è identico a ogni esecuzione.
@@ -363,6 +388,29 @@ leggendo il codice.
 Evocative e coerenti col discorso, **mai decorative**: la porta chiusa quando
 si parla di bussare, il corridoio quando qualcuno si allontana, la cucina vuota
 con due tazze quando la discussione è finita.
+
+**Prima si scrive il mondo visivo del modulo, poi si genera.** Cinque righe in
+testa al registro — luogo, luce, ottica, colore, presenza umana — e ogni
+prompt le riporta per intero prima del soggetto. Costa tre righe in più a
+prompt e fa sì che quindici riprese generate in momenti diversi sembrino
+girate lo stesso pomeriggio. Senza, escono quindici fotografie belle che non
+stanno insieme.
+
+    LUOGO   ...
+    LUCE    ...
+    OTTICA  ...
+    COLORE  ...
+    PERSONE mani, spalle, sagome; mai un volto riconoscibile
+
+**Video dove il movimento vuol dire qualcosa** — una porta che si chiude, una
+mano che si ferma a metà, l'acqua che smette di incresparsi. **Foto dove il
+punto è una cosa ferma** — l'orologio, la sedia vuota, il foglio sul tavolo.
+È la stessa regola dei diagrammi: si muove quello per cui il movimento è il
+contenuto.
+
+Dentro un modulo i soggetti si **richiamano**: se la prima lezione apre su una
+porta chiusa, la porta torna aperta nell'ultima. Sono cinque lezioni che si
+guardano di fila.
 
 Suffisso di stile fisso, in coda a ogni prompt:
 

@@ -10,8 +10,9 @@
  * Ogni voce del JSON: { file, layout, theme?, kicker?, title?, rows?, active?, note?, label?, sub? }
  *   layout: cover | closing | statement | quote | list | memo
  *           number | cards | table | chart | swap | figure        (grafica)
- *           curva | finestra | quadranti | flusso | strati |
- *           pila | termometro                   (figure_corso.mjs)
+ *           curva | finestra | quadranti | flusso | strati | pila |
+ *           termometro | bivio | anello | bilancia | imbuto | ponte |
+ *           linea | barre | raggi              (figure_corso.mjs)
  *   theme:  ivory (default) | sand | deep
  * `active` accende una sola riga di un elenco e spegne le altre: serve a far
  * salire i punti uno alla volta senza moltiplicare le slide.
