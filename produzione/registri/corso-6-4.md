@@ -1,11 +1,12 @@
 # Registro — 6.4 «Fatto, effetto, richiesta»
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, ventidue
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, venticinque
 grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | `80b50decd07d266927e01475682e034f` |
+| video_id | `7eb894d6febfc729b590fdfd6bc47004` |
+| video_id (prima versione) | `80b50decd07d266927e01475682e034f` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 359,0 s (5:59) |
@@ -47,10 +48,10 @@ Il modulo 6 non ne ha nessuno, per scelta esplicita dello script.
 |---|---|---|
 | c05 | citazione | «non ti importa mai di quello che dico» |
 | c06 | elenco | cosa c'è dentro: un giudizio, un assoluto, nessuna indicazione |
-| c07 | elenco | i tre tempi |
-| c08 | elenco | il primo acceso, il fatto |
-| c09 | elenco | il secondo acceso, l'effetto |
-| c10 | elenco | il terzo acceso, la richiesta |
+| c07 | flusso | i tre tempi: il fatto, l'effetto, la richiesta |
+| c08 | flusso | il primo acceso, il fatto |
+| c09 | flusso | il secondo acceso, l'effetto |
+| c10 | flusso | il terzo acceso, la richiesta |
 | c11 | tabella | **le tre frasi per intero**, con l'esempio accanto a ogni tempo |
 | c13 | memo | l'altro può occuparsi della cosa invece che di se stesso |
 | c15 | sostituzioni | «mi hai ignorato» diventa «non hai risposto» |
@@ -62,6 +63,7 @@ Il modulo 6 non ne ha nessuno, per scelta esplicita dello script.
 | c30 | citazione | «volevi farmi sentire poco importante» — un'intenzione |
 | c31 | memo | l'intenzione altrui è l'unica cosa di cui non puoi sapere niente |
 | c33 | citazione | «io sento che tu sei egoista» — la contraffazione |
+| c34 | quadranti | comincia con «io» / parla di te — l'unica casella buona |
 | c35 | memo | se dopo «io» c'è «tu», non è un effetto |
 | c36 | elenco | chi, cosa, entro quando |
 | c38 | elenco | le due precisazioni |
@@ -79,6 +81,23 @@ Il memo `c35` torna identico a `c48`: è il test della lezione, e va detto due
 volte perché è quello che resta.
 
 Nessuna icona nuova.
+
+## I diagrammi
+
+Cinque slide sono diventate disegni.
+
+Le quattro della sequenza centrale — `c07`, `c08`, `c09`, `c10` — erano un
+elenco e poi lo stesso elenco con una voce accesa per volta. Ora sono lo
+stesso **flusso** ripetuto quattro volte: prima i tre tempi con le frecce,
+poi il fatto acceso, poi l'effetto, poi la richiesta, e sotto la casella
+accesa compare la sua nota. La forma resta identica fra una slide e l'altra,
+quindi il taglio non si vede e sembra che si accenda una casella alla volta
+dentro lo stesso disegno.
+
+`c34` era una frase. Ora sono **quadranti**: sugli assi «come comincia» e «di
+chi parla la frase», e delle quattro caselle una sola si accende — comincia
+con «io», parla di te. Il test che la lezione chiede di fare in un secondo si
+fa guardando dove cade la frase.
 
 ## Le tre riprese
 
@@ -134,10 +153,10 @@ completa, 9 s), `s48` (il memo finale, 9 s).
 | s04 | c04 | frase | 5.34 |
 | s05 | c05 | citazione (posa) | 8.00 |
 | s06 | c06 | elenco **·** (posa) | 8.00 |
-| s07 | c07 | elenco **·** (posa) | 8.00 |
-| s08 | c08 | elenco **·** (posa) | 7.50 |
-| s09 | c09 | elenco **·** (posa) | 7.50 |
-| s10 | c10 | elenco **·** (posa) | 7.50 |
+| s07 | c07 | flusso **·** (posa) | 8.00 |
+| s08 | c08 | flusso **·** (posa) | 7.50 |
+| s09 | c09 | flusso **·** (posa) | 7.50 |
+| s10 | c10 | flusso **·** (posa) | 7.50 |
 | s11 | c11 | tabella **·** (posa) | 11.00 |
 | s12 | c12 | frase | 4.45 |
 | s13 | c13 | memo (posa) | 8.50 |
@@ -161,7 +180,7 @@ completa, 9 s), `s48` (il memo finale, 9 s).
 | s31 | c31 | memo (posa) | 8.50 |
 | s32 | c32 | frase | 5.37 |
 | s33 | c33 | citazione (posa) | 9.00 |
-| s34 | c34 | frase | 5.95 |
+| s34 | c34 | quadranti **·** | 5.95 |
 | s35 | c35 | memo (posa) | 9.00 |
 | s36 | c36 | elenco **·** (posa) | 8.00 |
 | s37 | c37 | frase | 5.03 |

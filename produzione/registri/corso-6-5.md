@@ -1,11 +1,12 @@
 # Registro — 6.5 «La riparazione» · chiusura del modulo 6
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, ventitré
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, venticinque
 grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | `73c712ec98d08618dbff16bcd622ea6b` |
+| video_id | `b5e060a44f6d657342ba846126c0ae32` |
+| video_id (prima versione) | `73c712ec98d08618dbff16bcd622ea6b` |
 | scene | 50 — copertina, 48 blocchi, chiusura di modulo |
 | formato | 16:9, 1080p |
 | durata | 366,6 s (6:07) |
@@ -47,6 +48,7 @@ Come chiede la nota di montaggio dello script, e come in tutto il modulo 6.
 | slide | tipo | cosa mostra |
 |---|---|---|
 | c02 | memo | le relazioni non si rompono per i conflitti, ma per quelli non riparati |
+| c04 | pila | la prima volta, la seconda, la terza: si accumula |
 | c09 | memo | non è la cosa da niente, è tutto quello che c'è sotto |
 | c10 | elenco | perché non si ripara: i tre motivi |
 | c11 | elenco | il primo acceso, sembra ammettere di aver avuto torto |
@@ -56,15 +58,16 @@ Come chiede la nota di montaggio dello script, e come in tutto il modulo 6.
 | c18 | citazione | «scusa, ma tu avevi cominciato» |
 | c19 | citazione | «scusa se sono fatto così» |
 | c21 | memo | nessuna delle tre nomina il fatto |
-| c24 | elenco | i tre elementi della riparazione |
-| c25 | elenco | il primo acceso, nomina il fatto |
-| c26 | elenco | il secondo acceso, riconosci l'effetto |
+| c24 | flusso | i tre elementi della riparazione, in ordine |
+| c25 | flusso | il primo acceso, nomina il fatto |
+| c26 | flusso | il secondo acceso, riconosci l'effetto |
 | c27 | sostituzioni | «se ti sei sentito così» diventa «ti ho messo in difficoltà» |
-| c28 | elenco | il terzo acceso, di' cosa farai diversamente |
+| c28 | flusso | il terzo acceso, di' cosa farai diversamente |
 | c30 | tabella | il dispiacere guarda indietro, la riparazione guarda avanti |
 | c32 | memo | nessuna spiegazione in mezzo, nemmeno una riga |
 | c33 | elenco | le spiegazioni che rovinano tutto, con i trattini |
 | c38 | memo | si può riparare il modo senza cedere sul merito |
+| c39 | quadranti | ho sbagliato il modo, e resto: la casella che regge |
 | c40 | citazione | **«Ho alzato la voce, e non dovevo. Sul merito la penso come prima.»** |
 | c43 | sostituzioni | cosa gli togli: l'argomento più facile |
 | c44 | memo | la riga di apertura, ripresa in chiusura |
@@ -82,6 +85,24 @@ La chiusura `c99` non è quella delle altre lezioni: è la chiusura di modulo �
 **Fine del Modulo 6 · Modulo 7 — Assertività e confini**.
 
 Nessuna icona nuova.
+
+## I diagrammi
+
+Sei slide sono diventate disegni.
+
+`c04` era una frase. Ora è una **pila**: la prima volta, la seconda, la terza,
+che si posano una sull'altra. «Si accumula» detto dalla figura.
+
+`c24`, `c25`, `c26` e `c28` erano l'elenco dei tre elementi e poi le tre
+accensioni. Ora sono lo stesso **flusso** — nomina il fatto → riconosci
+l'effetto → di' cosa farai — con le frecce e una casella accesa per volta,
+sempre nella stessa posizione, così fra una slide e l'altra si muove solo
+l'accensione.
+
+`c39` era una frase. Ora sono **quadranti** su due assi, il modo e il merito:
+delle quattro combinazioni si accende «ho sbagliato il modo, e resto», che è
+esattamente la cosa che la lezione dice di poter fare e che sembra
+contraddittoria finché non la vedi messa in un riquadro.
 
 ## Le tre riprese
 
@@ -137,7 +158,7 @@ di chiusura, 9,5 s), `s45` (8,5 s), `s47` (si dice e si lascia, 9 s), `s48`
 |---|---|---|---|
 | s02 | c02 | memo (posa) | 9.00 |
 | s03 | c03 | frase | 5.29 |
-| s04 | c04 | frase | 5.84 |
+| s04 | c04 | pila **·** | 5.84 |
 | s05 | c05 | frase | 5.20 |
 | s06 | c06 | frase | 4.21 |
 | s07 | c07 | frase | 5.28 |
@@ -157,11 +178,11 @@ di chiusura, 9,5 s), `s45` (8,5 s), `s47` (si dice e si lascia, 9 s), `s48`
 | s21 | c21 | memo (posa) | 9.00 |
 | s22 | — | foto — una ciotola di ceramica con una crepa riparata, luce radente **▪** | 5.33 |
 | s23 | c23 | frase | 5.34 |
-| s24 | c24 | elenco **·** (posa) | 8.50 |
-| s25 | c25 | elenco **·** (posa) | 8.00 |
-| s26 | c26 | elenco **·** (posa) | 8.00 |
+| s24 | c24 | flusso **·** (posa) | 8.50 |
+| s25 | c25 | flusso **·** (posa) | 8.00 |
+| s26 | c26 | flusso **·** (posa) | 8.00 |
 | s27 | c27 | sostituzioni **·** (posa) | 8.50 |
-| s28 | c28 | elenco **·** (posa) | 8.00 |
+| s28 | c28 | flusso **·** (posa) | 8.00 |
 | s29 | c29 | frase (posa) | 8.00 |
 | s30 | c30 | tabella **·** (posa) | 9.50 |
 | s31 | c31 | frase | 4.48 |
@@ -172,7 +193,7 @@ di chiusura, 9,5 s), `s45` (8,5 s), `s47` (si dice e si lascia, 9 s), `s48`
 | s36 | c36 | frase | 5.85 |
 | s37 | c37 | frase | 3.53 |
 | s38 | c38 | memo (posa) | 9.00 |
-| s39 | c39 | frase | 4.62 |
+| s39 | c39 | quadranti **·** | 4.62 |
 | s40 | c40 | citazione (posa) | 11.00 |
 | s41 | c41 | frase | 5.27 |
 | s42 | c42 | frase | 5.44 |

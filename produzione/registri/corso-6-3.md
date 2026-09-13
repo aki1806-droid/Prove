@@ -5,7 +5,8 @@ grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | `373bb55db71fbd45574dbc6fbfd4098e` |
+| video_id | `d37f5a067264f59e1c1d4fb9349dadf5` |
+| video_id (prima versione) | `373bb55db71fbd45574dbc6fbfd4098e` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 359,3 s (5:59) |
@@ -53,12 +54,12 @@ familiari un episodio reale espone terzi.
 | slide | tipo | cosa mostra |
 |---|---|---|
 | c03 | elenco | cosa fa il corpo: battito, respiro, attenzione |
-| c06 | memo | in quello stato la capacità di considerare l'altro si riduce |
+| c06 | termometro | la capacità di considerare l'altro mentre l'attivazione sale |
 | c09 | sostituzioni | «è ottuso» diventa «la parte che valuta è la meno disponibile» |
 | c11 | memo | anche tu stai ragionando peggio di quanto credi |
-| c12 | grafico | sale in secondi, scende in minuti |
+| c12 | curva | sale in secondi, scende in minuti — con il pallino che la percorre |
 | c15 | memo | scendere richiede molto più tempo di quanto ne serva a salire |
-| c18 | numero | 30 secondi, con la barra quasi vuota |
+| c18 | finestra | i primi trenta secondi contro tutto il resto |
 | c20 | memo | è una gestione di danni |
 | c21 | elenco | le tre mosse dentro la finestra |
 | c22 | elenco | la prima accesa, abbassare volume e ritmo |
@@ -78,10 +79,33 @@ La tabella `c33` è l'unica del corso con le colonne **pari**: le due regole non
 sono una giusta e una sbagliata, sono due casi diversi, e dare peso a una sola
 delle due colonne avrebbe detto il contrario.
 
-Il numero `c18` ha la barra riempita al dodici per cento: trenta secondi su
-un'intera discussione sono pochissimi, e la barra lo dice prima delle parole.
+La finestra `c18` è larga il nove per cento della barra: trenta secondi su
+un'intera discussione sono pochissimi, e la proporzione lo dice prima delle
+parole. Nella prima versione era un numero grande con una barra sotto; la
+barra faceva il lavoro da sola, quindi il numero è diventato la didascalia.
 
 Nessuna icona nuova.
+
+## I diagrammi
+
+Tre slide sono diventate disegni, e una di queste è l'unica del corso che
+**non si ferma**.
+
+`c06` era un memo. Ora è un **termometro** con due tacche: in alto «qui gli
+argomenti non fanno effetto», più in basso «qui si può ancora considerare
+l'altro». Il livello sale dal fondo mentre la voce descrive cosa sta
+succedendo.
+
+`c12` era un grafico statico. Ora è una **curva** con un pallino d'oro che la
+percorre in salita e in discesa, di continuo: la clip è lunga sei secondi
+esatti, con una andata-e-ritorno di tre, così il primo e l'ultimo fotogramma
+coincidono e in HeyGen gira in `loop` senza scatto. È la sola scena del modulo
+montata così — qui il movimento **è** il contenuto: una curva ferma non dice
+che sale in secondi e scende in minuti.
+
+`c18` era un numero con una barra. Ora è una **finestra**: una fascia stretta
+in testa a una barra lunga, con «i primi trenta secondi» da una parte e «tutto
+il resto» dall'altra. La sproporzione si legge in un colpo d'occhio.
 
 ## Le tre riprese
 
@@ -133,19 +157,19 @@ niente», 9,5 secondi, la posa più lunga**, `s47` (le sostituzioni finali,
 | s03 | c03 | elenco **·** (posa) | 8.00 |
 | s04 | c04 | frase | 6.34 |
 | s05 | c05 | frase | 4.66 |
-| s06 | c06 | memo (posa) | 9.00 |
+| s06 | c06 | termometro **·** (posa) | 9.00 |
 | s07 | c07 | frase | 4.50 |
 | s08 | c08 | frase | 6.61 |
 | s09 | c09 | sostituzioni **·** (posa) | 8.00 |
 | s10 | c10 | frase | 5.64 |
 | s11 | c11 | memo (posa) | 8.50 |
-| s12 | c12 | grafico **·** (posa) | 8.50 |
+| s12 | c12 | curva **·** (posa) | 8.50 |
 | s13 | — | foto — un bicchiere d'acqua fermo su un tavolo, l'acqua ancora increspata **▪** | 6.72 |
 | s14 | c14 | frase | 6.48 |
 | s15 | c15 | memo (posa) | 9.00 |
 | s16 | c16 | frase | 6.80 |
 | s17 | c17 | frase | 5.86 |
-| s18 | c18 | numero **·** (posa) | 8.50 |
+| s18 | c18 | finestra **·** (posa) | 8.50 |
 | s19 | c19 | frase | 4.68 |
 | s20 | c20 | memo (posa) | 8.50 |
 | s21 | c21 | elenco **·** (posa) | 8.00 |

@@ -1,11 +1,12 @@
 # Registro — 6.2 «Disinnescare prima che diventi conflitto»
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, ventiquattro
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, venticinque
 grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | `eab94e4167b1594cdd538a5d394777f8` |
+| video_id | `9a2b5a1741d2b29b145ef45d9263385c` |
+| video_id (prima versione) | `eab94e4167b1594cdd538a5d394777f8` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 356,1 s (5:56) |
@@ -50,7 +51,7 @@ di conflitti avrebbe esposto un terzo.
 
 | slide | tipo | cosa mostra |
 |---|---|---|
-| c06 | schede | i tre segnali in ordine: il corpo, il ritmo, il lessico |
+| c06 | flusso | i tre segnali in ordine: il corpo, il ritmo, il lessico |
 | c07 | elenco | il primo: spalle, mani, sguardo |
 | c09 | elenco | il secondo: il parlato accelera e sale di tono |
 | c11 | elenco | il terzo: si sente al telefono, si legge per iscritto |
@@ -72,6 +73,7 @@ di conflitti avrebbe esposto un terzo.
 | c38 | citazione | «vedo che è una cosa che ti pesa» |
 | c39–c42 | elenco | i tre elementi del rinvio, accesi uno alla volta |
 | c43 | memo | senza il momento preciso non è un rinvio, è un'uscita |
+| c44 | pila | la cosa di cui parlavate, più l'uscita, più il non sapere quando torni |
 | c46 | memo | la regola del nominare, ripresa in chiusura |
 | c47 | elenco | le tre finestre |
 | c48 | sostituzioni | non per vincere: per accorgersi che sta per cominciare |
@@ -87,6 +89,18 @@ più netta della lezione, e tornarci in chiusura è il modo di dire che è quell
 da portarsi via.
 
 Nessuna icona nuova: le schede di `c06` usano `io`, `accelera` e `parole`.
+
+## I diagrammi
+
+Due slide sono diventate disegni.
+
+`c06` erano tre schede affiancate. Il punto della lezione però è che i tre
+segnali arrivano **in quest'ordine**, e tre schede in fila non lo dicono. Ora
+è un **flusso** con le frecce: il corpo → il ritmo → il lessico.
+
+`c44` era una frase. Ora è una **pila** che si accumula: la cosa di cui
+parlavate, più il fatto che te ne sei andato, più il non sapere quando torni.
+«Torna più tardi, e torna più grosso» si vede, non solo si sente.
 
 ## Le tre riprese
 
@@ -142,7 +156,7 @@ sostituzioni finali, 8 s).
 | s03 | c03 | frase | 6.41 |
 | s04 | c04 | frase | 5.49 |
 | s05 | c05 | frase | 5.74 |
-| s06 | c06 | schede **·** (posa) | 8.50 |
+| s06 | c06 | flusso **·** (posa) | 8.50 |
 | s07 | c07 | elenco **·** (posa) | 7.50 |
 | s08 | c08 | frase | 5.63 |
 | s09 | c09 | elenco **·** (posa) | 7.50 |
@@ -180,7 +194,7 @@ sostituzioni finali, 8 s).
 | s41 | c41 | elenco **·** (posa) | 7.50 |
 | s42 | c42 | elenco **·** (posa) | 7.50 |
 | s43 | c43 | memo (posa) | 8.50 |
-| s44 | c44 | frase | 5.87 |
+| s44 | c44 | pila **·** | 5.87 |
 | s45 | — | foto — un attaccapanni con un cappotto appeso e il gancio accanto vuoto **▪** | 4.54 |
 | s46 | c46 | memo (posa) | 8.50 |
 | s47 | c47 | elenco **·** (posa) | 8.00 |

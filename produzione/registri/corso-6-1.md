@@ -1,11 +1,12 @@
 # Registro — 6.1 «L'obiezione è un'informazione»
 
-Trattamento standard: senza avatar, voce Luca Ward, slide animate, diciotto
+Trattamento standard: senza avatar, voce Luca Ward, slide animate, ventitré
 grafiche e tre riprese Higgsfield.
 
 | campo | valore |
 |---|---|
-| video_id | `64b988f30a7f835213f781bc10a77c7b` |
+| video_id | `e1250707f24c7fb59585d8deed9c59b0` |
+| video_id (prima versione) | `64b988f30a7f835213f781bc10a77c7b` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 359,2 s (5:59) |
@@ -56,12 +57,13 @@ la domanda da sette parole — e non serviva un episodio in prima persona.
 | c15 | elenco | il terzo acceso, sulla relazione |
 | c16 | tabella | cosa chiede ognuno dei tre: una prova, una rassicurazione, un trattino |
 | c19 | memo | la prima obiezione quasi mai è quella vera |
-| c21 | elenco | cosa c'è sotto: un timore, una diffidenza, una brutta esperienza |
+| c21 | strati | cosa c'è sotto: un timore, una diffidenza, una brutta esperienza |
+| c24 | pila | l'obiezione smontata, e le due che arrivano dopo |
 | c27 | citazione | «cos'altro non ti convince?» |
 | c29 | citazione | «se questa cosa fosse risolta, ci saremmo?» |
 | c30 | sostituzioni | cosa ti dice la risposta, «sì» contro «be', ci sarebbe anche…» |
 | c32 | grafico | dieci secondi con la domanda, venti minuti senza |
-| c33 | elenco | le tre regole di risposta |
+| c33 | flusso | le tre regole di risposta, una dopo l'altra |
 | c34 | elenco | la prima accesa, riformula e includi la parte che ti dà torto |
 | c36 | elenco | la seconda accesa, rispondi alla cosa e non alla persona |
 | c37 | sostituzioni | «ti sbagli sui tempi» contro «il tuo dubbio sui tempi è ragionevole» |
@@ -79,6 +81,23 @@ Il memo `c10` torna identico a `c47`: è la riga su cui la lezione si apre e si
 chiude, e tornarci dopo cinque minuti è tutto il ragionamento della lezione.
 
 Nessuna icona nuova.
+
+## I diagrammi
+
+Tre slide di sola scrittura sono diventate disegni.
+
+`c21` era un elenco delle cose che stanno sotto un'obiezione. Ora è a
+**strati**: sopra la frase che viene detta, «i tempi non reggono»; sotto una
+linea tratteggiata, le tre cose che quella frase copre. Salgono da sotto una
+alla volta, che è esattamente il gesto di cui parla la lezione.
+
+`c24` era una frase. Ora è una **pila**: l'obiezione smontata, poi la seconda
+che arriva, poi la terza, ciascuna che si posa sulla precedente. Si vede
+crescere il mucchio mentre la voce spiega perché non finiscono mai.
+
+`c33` era l'elenco delle tre regole. Ora è un **flusso**: riformula →
+rispondi alla cosa → concedi il vero, e ogni casella entra con la sua freccia,
+quindi l'ordine si legge prima delle parole.
 
 ## Le tre riprese
 
@@ -150,10 +169,10 @@ lentamente e una volta sola.
 | s18 | — | foto — un tavolo riunioni con due bicchieri d'acqua e una cartellina chiusa, nessuno in campo **▪** | 5.75 |
 | s19 | c19 | memo (posa) | 10.50 |
 | s20 | c20 | frase | 6.08 |
-| s21 | c21 | elenco **·** (posa) | 8.00 |
+| s21 | c21 | strati **·** (posa) | 8.00 |
 | s22 | c22 | frase | 6.10 |
 | s23 | c23 | frase | 5.40 |
-| s24 | c24 | frase | 5.68 |
+| s24 | c24 | pila **·** | 5.68 |
 | s25 | — | foto — una pila di buste sigillate uguali, solo la prima aperta **▪** | 5.59 |
 | s26 | c26 | frase | 5.53 |
 | s27 | c27 | citazione (posa) | 8.00 |
@@ -162,7 +181,7 @@ lentamente e una volta sola.
 | s30 | c30 | sostituzioni **·** (posa) | 8.50 |
 | s31 | c31 | frase | 6.06 |
 | s32 | c32 | grafico **·** (posa) | 8.50 |
-| s33 | c33 | elenco **·** (posa) | 8.00 |
+| s33 | c33 | flusso **·** (posa) | 8.00 |
 | s34 | c34 | elenco **·** (posa) | 8.00 |
 | s35 | c35 | frase | 5.50 |
 | s36 | c36 | elenco **·** (posa) | 8.50 |

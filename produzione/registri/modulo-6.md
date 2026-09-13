@@ -6,11 +6,17 @@ e riprese generate. Ogni lezione ha il suo registro con i dettagli.
 
 | lezione | video_id | durata | scene |
 |---|---|---|---|
-| 6.1 L'obiezione è un'informazione | `64b988f30a7f835213f781bc10a77c7b` | 5:59 | 50 |
-| 6.2 Disinnescare prima che diventi conflitto | `eab94e4167b1594cdd538a5d394777f8` | 5:56 | 50 |
-| 6.3 I primi trenta secondi di un litigio | `373bb55db71fbd45574dbc6fbfd4098e` | 5:59 | 50 |
-| 6.4 Fatto, effetto, richiesta | `80b50decd07d266927e01475682e034f` | 5:59 | 50 |
-| 6.5 La riparazione | `73c712ec98d08618dbff16bcd622ea6b` | 6:07 | 50 |
+| 6.1 L'obiezione è un'informazione | `e1250707f24c7fb59585d8deed9c59b0` | 5:59 | 50 |
+| 6.2 Disinnescare prima che diventi conflitto | `9a2b5a1741d2b29b145ef45d9263385c` | 5:56 | 50 |
+| 6.3 I primi trenta secondi di un litigio | `d37f5a067264f59e1c1d4fb9349dadf5` | 5:59 | 50 |
+| 6.4 Fatto, effetto, richiesta | `7eb894d6febfc729b590fdfd6bc47004` | 5:59 | 50 |
+| 6.5 La riparazione | `b5e060a44f6d657342ba846126c0ae32` | 6:07 | 50 |
+
+Sono le versioni con i diagrammi. Le prime, con le stesse voci e gli stessi
+tagli ma diciannove slide di sola scrittura al posto dei disegni, restano
+online: `64b988f30a7f835213f781bc10a77c7b`, `eab94e4167b1594cdd538a5d394777f8`,
+`373bb55db71fbd45574dbc6fbfd4098e`, `80b50decd07d266927e01475682e034f`,
+`73c712ec98d08618dbff16bcd622ea6b`.
 
 Durata del modulo: **trenta minuti esatti**.
 
@@ -51,7 +57,7 @@ mettere in scena nessuno.
 
 ## Le grafiche
 
-**Centododici** in tutto, più quindici riprese Higgsfield. Le quattro che
+**Centodiciannove** in tutto, più quindici riprese Higgsfield. Le quattro che
 funzionano meglio:
 
 - **la tabella dei tre tipi della 6.1** (`c16`): tre righe, colonna «cosa
@@ -73,6 +79,54 @@ funzionano meglio:
 
 Nessuna icona nuova in tutto il modulo. Le uniche schede sono i tre segnali
 della 6.2, con `io`, `accelera` e `parole`.
+
+## I diciannove diagrammi
+
+La prima versione del modulo aveva molte slide giuste ma mute: un elenco di
+tre voci dove il punto era che vengono **in quest'ordine**, una frase dove il
+punto era che una cosa **si accumula**, un numero dove il punto era una
+**sproporzione**. Diciannove di quelle slide sono diventate disegni, con
+sette figure nuove che il generatore costruisce dai dati.
+
+| figura | dove | cosa fa |
+|---|---|---|
+| flusso | 6.1 `c33`, 6.2 `c06`, 6.4 `c07`–`c10`, 6.5 `c24`–`c28` | caselle e frecce: l'ordine si legge prima delle parole |
+| pila | 6.1 `c24`, 6.2 `c44`, 6.5 `c04` | blocchi che si posano uno sull'altro: si accumula |
+| quadranti | 6.4 `c34`, 6.5 `c39` | due assi, quattro caselle, una sola accesa |
+| strati | 6.1 `c21` | sopra quello che si dice, sotto quello che c'è davvero |
+| termometro | 6.3 `c06` | un livello che sale, con le tacche che dicono cosa succede |
+| curva | 6.3 `c12` | sale in secondi, scende in minuti |
+| finestra | 6.3 `c18` | una fascia stretta contro una barra lunga |
+
+Le figure si costruiscono sotto gli occhi: un pezzo alla volta, nell'ordine in
+cui la voce li nomina. Dove la stessa figura torna su più slide di fila —
+i tre tempi della 6.4, i tre elementi della 6.5 — la geometria non si muove di
+un pixel e cambia solo la casella accesa, quindi il taglio fra una slide e
+l'altra non si vede.
+
+**Una sola scena del modulo non si ferma**: la curva dell'attivazione della
+6.3 (`c12`), dove un pallino d'oro percorre la salita e la discesa senza
+sosta. La clip è lunga sei secondi con una andata-e-ritorno di tre, così il
+primo e l'ultimo fotogramma coincidono, e in HeyGen la scena va in `loop`
+invece che in `freeze` — con `freeze` si congelerebbe a metà corsa. È l'unico
+posto del corso dove il movimento **è** il contenuto: una curva ferma non dice
+che sale in secondi e scende in minuti.
+
+### Due trappole trovate scrivendo le animazioni
+
+Tutte e due invisibili sulle dissolvenze e letali sui tracciati, quindi non
+erano mai emerse prima:
+
+- **la scorciatoia `animation:` azzera `fill-mode`.** Un tracciato il cui
+  stato di partenza è «invisibile» torna invisibile appena finita
+  l'animazione: la curva spariva dopo essersi disegnata. Va scritto `both`
+  dentro la scorciatoia, sempre.
+- **`nth-of-type` conta i fratelli dello stesso tag.** Nei gruppi alternati
+  — casella, freccia, casella — i ritardi finivano sull'elemento sbagliato.
+  L'indice va emesso dal generatore come variabile (`--i`) e letto con
+  `animation-delay: calc(...)`.
+
+Le due regole sono finite in `STANDARD.md`.
 
 ## I tagli
 
@@ -121,7 +175,11 @@ frase intera compare sul memo subito dopo.
 ## Cosa resta da giudicare ad Achille
 
 Non sento l'audio e non vedo il montato. Per ogni lezione ho controllato le
-slide da ferme e tutti i quarantasei tagli con la trascrizione. Restano da
+slide da ferme e tutti i quarantasei tagli con la trascrizione. I diciannove
+diagrammi li ho guardati fotogramma per fotogramma prima di montarli — è così
+che sono venute fuori le due trappole qui sopra — e sulla curva ciclica ho
+verificato che il primo e l'ultimo fotogramma distino esattamente un passo,
+che è la condizione perché il `loop` non scatti. Restano da
 guardare le **quindici riprese Higgsfield** del modulo: il proxy blocca il
 loro CDN in scaricamento, quindi le ho descritte ma non viste. Nessuna
 generazione è stata rifiutata dal filtro, a differenza del modulo 5.
