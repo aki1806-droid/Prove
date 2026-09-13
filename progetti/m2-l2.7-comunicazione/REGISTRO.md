@@ -106,3 +106,27 @@ cosa diversa da quella che la voce diceva.
 - Il secondo no: che una matrice dica il falso sui suoi stessi assi lo vede
   solo chi guarda i provini. Resta un passo umano, e va tenuto nel MASTER
   come tale.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s02 s08 s18 s21 s22 s24 s38 s46 s47  (9)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        8f9dc0f7b270421389bde3307864b0d0  (lotto H, 100 file visivi di due lezioni)
+video HeyGen       b132df8b591792f918254d42aa570a6f
+                   app.heygen.com/videos/b132df8b591792f918254d42aa570a6f
+durata resa        9:19.7
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

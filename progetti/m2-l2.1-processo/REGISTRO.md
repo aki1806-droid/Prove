@@ -139,3 +139,27 @@ valeva una resa buttata.
 - La `matrice` con etichette lunghe sull'asse verticale resta fragile:
   `.fitta` cura le celle, non l'asse. Se una lezione avra' bisogno di
   etichette lunghe li', il tipo va rifatto con le etichette orizzontali.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s10 s11 s14 s23 s33 s43 s49  (7)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        8076cd8702b244d9b23263e7af551f43  (lotto E, 100 file visivi di due lezioni)
+video HeyGen       e8ccf810ae2913d43cdc84c52336dd3c
+                   app.heygen.com/videos/e8ccf810ae2913d43cdc84c52336dd3c
+durata resa        8:48.4
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

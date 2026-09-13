@@ -236,3 +236,27 @@ sostituzione. Se il taglio grafico ti convince, il vecchio si puo' cancellare.
    giusto e uno sbagliato, c'e' anche il segno (✓ ×) e l'etichetta.
 3. **I dati non vanno sul verde pieno**: li' il contrasto delle tinte dei dati
    non arriva a 3:1. Sul verde sono rimaste solo le slide di affermazione.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s03 s06 s15 s16 s22 s23 s31 s33 s37 s41 s45 s49  (12)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        b855ab3f29f54519aff019fb15dab566  (lotto A, 100 file visivi di due lezioni)
+video HeyGen       9ab0159b5e319daa5adf6cfec37a08df
+                   app.heygen.com/videos/9ab0159b5e319daa5adf6cfec37a08df
+durata resa        8:54.5
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

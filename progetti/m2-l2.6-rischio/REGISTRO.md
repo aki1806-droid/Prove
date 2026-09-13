@@ -167,3 +167,27 @@ falsa, in un verso o nell'altro — e sempre la stessa cura.
   senza il controllo delle pause. Nessuna e' stata rifatta: conviene pero'
   rilanciare su ciascuna il solo controllo delle pause, che non richiede di
   ritagliare niente e costa una passata di ffmpeg.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s10 s13 s15 s16 s22 s24 s28 s33 s40 s46  (10)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        819e2100913c444f8b06fbdfead18b36  (lotto G, 100 file visivi di due lezioni)
+video HeyGen       75b091efb11899871b4945411c252556
+                   app.heygen.com/videos/75b091efb11899871b4945411c252556
+durata resa        9:27.6
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

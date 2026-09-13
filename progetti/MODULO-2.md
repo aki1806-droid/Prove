@@ -1,17 +1,20 @@
 # Modulo 2 — Metodologia, documentazione e sicurezza
 
 Otto micro-lezioni, tutte 8/8 ai controlli, tutte 50 scene e 48 blocchi.
+Le rese qui sotto sono quelle del giro **grafica di seconda generazione**
+(illustrazioni che si disegnano, numeri che contano, raggiere): le precedenti
+stanno nei registri delle singole lezioni.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 2.1 | Il processo di assistenza | 8:49.7 | `67b470b623de1392ec89e0161a73b314` |
-| 2.2 | Modelli e tassonomie | — | vedi `m2-l2.2-modelli/REGISTRO.md` |
-| 2.3 | Accertamento e scale | — | vedi `m2-l2.3-scale/REGISTRO.md` |
-| 2.4 | La documentazione infermieristica | 9:15.0 | `d3997f7ad126414387465bdf47f5bf51` |
-| 2.5 | EBP, linee guida, PDTA e procedure | 8:43.0 | `d102ae6a673dd2b9af99786b3f226c35` |
-| 2.6 | Rischio clinico e sicurezza del paziente | 9:27.6 | `45a9e46e32f19b2a7262dacf3f1d737e` |
-| 2.7 | Comunicazione clinica e continuita' | 9:19.7 | `81a2005c747af9bf2fb98c139274e9d5` |
-| 2.8 | Riepilogo del Modulo 2 | 8:36.6 | `8426d94288277bcf9bb8ed7f903e78dc` |
+| 2.1 | Il processo di assistenza | 8:48.4 | `e8ccf810ae2913d43cdc84c52336dd3c` |
+| 2.2 | Modelli e tassonomie | 8:56.8 | `3c2bea89378a792e3d96a3f995732dae` |
+| 2.3 | Accertamento e scale | — | `c4a3a9f425274afb4f406719bfa2c827` |
+| 2.4 | La documentazione infermieristica | 9:15.0 | `26c90ec748c5009d31a949f67be2cd5a` |
+| 2.5 | EBP, linee guida, PDTA e procedure | 8:43.0 | `6168f18a0839e6bb62899f62fa1fa569` |
+| 2.6 | Rischio clinico e sicurezza del paziente | 9:27.6 | `75b091efb11899871b4945411c252556` |
+| 2.7 | Comunicazione clinica e continuita' | 9:19.7 | `b132df8b591792f918254d42aa570a6f` |
+| 2.8 | Riepilogo del Modulo 2 | 8:36.6 | `77a9473e151388c5a15c648b17d224d6` |
 
 ## Che cosa ha insegnato il modulo alla catena di montaggio
 

@@ -88,3 +88,27 @@ celle in una colonna (o dodici in due).
   dubbio di 2.1 e' stato verificato a mano sulla traccia grezza, quindi non
   sono state rifatte. Se una di quelle lezioni dovesse essere rifatta per
   altri motivi, il ritaglio migliorerebbe da solo.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s04 s11 s14 s22 s25 s33 s36 s42  (8)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        e21b3ea393754ee4b8f1067634998c45  (lotto F, 100 file visivi di due lezioni)
+video HeyGen       26c90ec748c5009d31a949f67be2cd5a
+                   app.heygen.com/videos/26c90ec748c5009d31a949f67be2cd5a
+durata resa        9:15.0
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

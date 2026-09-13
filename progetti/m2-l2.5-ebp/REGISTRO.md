@@ -127,3 +127,27 @@ statistico segnala qualcosa da guardare).
   volte. Da rinominare in `controllo-statistico.py` e
   `controllo-per-trascrizione.py` alla prossima lezione nuova, cosi' che
   `nuova-lezione.sh` li propaghi gia' corretti.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s04 s06 s09 s10 s11 s20 s35 s44 s49  (9)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        819e2100913c444f8b06fbdfead18b36  (lotto G, 100 file visivi di due lezioni)
+video HeyGen       6168f18a0839e6bb62899f62fa1fa569
+                   app.heygen.com/videos/6168f18a0839e6bb62899f62fa1fa569
+durata resa        8:43.0
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

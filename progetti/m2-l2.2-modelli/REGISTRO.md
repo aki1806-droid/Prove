@@ -111,3 +111,27 @@ geometria era a posto, il senso no. Si vedono solo guardando le slide.
   che sequenziale. Sulle undici aree di Gordon si nota.
 - Il tipo `icone` con una voce sola (s16, Nightingale) diventa un riquadro
   largo quanto la slide: funziona, ma e' sbilanciato.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s13 s15 s17 s20 s24 s36 s40  (7)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        8076cd8702b244d9b23263e7af551f43  (lotto E, 100 file visivi di due lezioni)
+video HeyGen       3c2bea89378a792e3d96a3f995732dae
+                   app.heygen.com/videos/3c2bea89378a792e3d96a3f995732dae
+durata resa        8:56.8
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.

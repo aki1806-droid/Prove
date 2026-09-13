@@ -113,3 +113,27 @@ soglia 14, Conley 0-10 da 2, Tinetti 0-28 sotto 19, Barthel 0-100, Glasgow
   numeri fra lezioni diverse**, ed e' l'errore che in un riepilogo farebbe
   piu' danno. Un file unico di costanti del corso, letto sia da 2.3 sia da
   2.8, lo renderebbe impossibile.
+
+---
+
+## Il giro della grafica di seconda generazione
+
+Il committente, rivisto tutto il corso, ha chiesto «piu' grafiche accattivanti,
+piu' immagini SVG, qualche elemento animato». Le scene di sola frase sono
+diventate `figura` (un'illustrazione a tratto che si disegna da sola, con il
+titolo accanto), `cifre` (numeri che contano da zero) o `raggiera` (un centro
+con le sue parti intorno). La voce non e' cambiata di una nota: si sono
+ricaricati i soli file visivi e riusati gli id audio.
+
+```
+scene convertite   s03 s07 s10 s11 s19 s25 s38 s46 s49  (9)
+clip               3,2 s, non piu' 1,8: il disegno finisce entro 2,8 s
+lotto asset        8f9dc0f7b270421389bde3307864b0d0  (lotto H, 100 file visivi di due lezioni)
+video HeyGen       77a9473e151388c5a15c648b17d224d6
+                   app.heygen.com/videos/77a9473e151388c5a15c648b17d224d6
+durata resa        8:36.6
+```
+
+Il video precedente resta dov'era: questo lo sostituisce come versione da
+consegnare. `asset-id.json` porta i nuovi id visivi; `asset-id-audio.json` e'
+quello di sempre.
