@@ -10,7 +10,7 @@ import { html } from './layout.mjs';
 // il numero di lezione viene dal nome della cartella: progetti/m1-l1.2-profilo -> 1.2
 const LEZIONE = (new URL('..', import.meta.url).pathname.match(/-l([\d.]+)-/) || [,'?'])[1];
 
-const FPS = 25, DURATA = 1.8;              // l'ingresso finisce entro 1,3 s
+const FPS = 25, DURATA = 3.2;              // l'ingresso e i disegni finiscono entro 2,8 s
 const FOTOGRAMMI = Math.round(FPS * DURATA);
 const QUI = new URL('.', import.meta.url).pathname;
 const FF = execFileSync('python3', ['-c',

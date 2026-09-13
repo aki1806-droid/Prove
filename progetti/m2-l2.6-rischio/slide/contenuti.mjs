@@ -97,9 +97,9 @@ export const SCENE = [
    {sb:"«Una deiscenza è sempre un **errore**»",
     ok:"In un paziente ad alto rischio, gestito correttamente, è una **complicanza**"}]},
 
-{id:"s10", tipo:"titolo", tema:"chiaro", sopratitolo:"James Reason",
-  titolo:"Due letture dell'errore —<br>e la scelta **decide tutto**<br>quello che viene dopo.",
-  sotto:"Persona o sistema."},
+{id:"s10", tipo:"figura", tema:"chiaro", sopratitolo:"James Reason", illu:"bilancia",
+  titolo:"Due letture dell'errore,<br>e la scelta **decide tutto**<br>quello che viene dopo.",
+  sotto:"Persona o sistema: su quale piatto si mette il peso."},
 
 {id:"s11", tipo:"confronto", tema:"chiaro", sopratitolo:"Persona o sistema",
   col:[
@@ -111,22 +111,23 @@ export const SCENE = [
    {h:"Errore attivo", t:"Dell'operatore in **prima linea**, con effetto **immediato**"},
    {h:"Errore latente", t:"Di chi **progetta** l'organizzazione: resta **silente** anche per anni"}]},
 
-{id:"s13", tipo:"titolo", tema:"chiaro", sopratitolo:"L'errore latente",
-  titolo:"Resta silente<br>**anche per anni** —<br>finché le circostanze<br>non lo fanno emergere.",
-  sotto:"Non è un errore di qualcuno: è un errore di qualcosa."},
+{id:"s13", tipo:"figura", tema:"chiaro", sopratitolo:"L'errore latente", illu:"orologio", lato:"dx",
+  titolo:"Resta silente<br>**anche per anni**.",
+  sotto:"Finché una combinazione di circostanze non lo fa emergere. Non è un errore di qualcuno: è un errore di qualcosa."},
 
 {id:"s14", tipo:"icone", tema:"chiaro", sopratitolo:"Quattro errori latenti", voci:LATENTI},
 
-{id:"s15", tipo:"titolo", tema:"chiaro", sopratitolo:"Il modello del formaggio svizzero",
+{id:"s15", tipo:"figura", tema:"chiaro", sopratitolo:"Il modello del formaggio svizzero", illu:"scudo",
   titolo:"Nessuna barriera<br>è **integra**.",
-  sotto:"Ciascuna ha i suoi buchi: le criticità latenti."},
+  sotto:"Il sistema è protetto da barriere successive, e ciascuna ha i suoi buchi: le criticità latenti."},
 
-{id:"s16", tipo:"catena", tema:"chiaro", sopratitolo:"L'incidente accade quando i buchi si allineano",
-  passi:[
+{id:"s16", tipo:"formaggio", tema:"chiaro", sopratitolo:"L'incidente accade quando i buchi si allineano",
+  fette:[
    {t:"Identificazione", d:"il braccialetto non c'è"},
    {t:"Prescrizione", d:"la sigla è ambigua"},
-   {t:"Somministrazione", d:"il doppio controllo salta"},
-   {t:"Il danno", d:"i tre buchi si sono allineati", key:true}]},
+   {t:"Preparazione", d:"i LASA sono vicini"},
+   {t:"Somministrazione", d:"il doppio controllo salta"}],
+  esito:"Il danno"},
 
 {id:"s17", tipo:"tre", tema:"profondo", sopratitolo:"Perché sono tre e non una",
   box:[
@@ -158,9 +159,9 @@ export const SCENE = [
    {n:"✓", t:"In quali **condizioni**"},
    {n:"✗", t:"Di **chi** è la colpa — la domanda non c'è, ed è una scelta", key:true}]},
 
-{id:"s22", tipo:"titolo", tema:"chiaro", sopratitolo:"E soprattutto",
+{id:"s22", tipo:"figura", tema:"chiaro", sopratitolo:"E soprattutto", illu:"catena", lato:"dx",
   titolo:"Si segnalano<br>anche i **near miss**.",
-  sotto:"Apprendimento gratuito: nessuno si è fatto male, e il sistema ha mostrato dove si rompe."},
+  sotto:"L'anello ha ceduto ma la catena ha tenuto: apprendimento gratuito, perché nessuno si è fatto male e il sistema ha mostrato dove si rompe."},
 
 {id:"s23", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
   sopratitolo:"Due precisazioni che valgono una domanda",
@@ -168,11 +169,11 @@ export const SCENE = [
    {n:"1", t:"L'incident reporting **non sostituisce** la registrazione in **cartella clinica**"},
    {n:"2", t:"E **non sostituisce** gli **obblighi di comunicazione** previsti dalla legge", key:true}]},
 
-{id:"s24", tipo:"tre", tema:"chiaro", sopratitolo:"Tre verbi, non tre modi di dire lo stesso",
-  box:[
-   {n:"1", t:"Segnalo", d:"al gestore del rischio"},
-   {n:"2", t:"Registro", d:"in cartella clinica"},
-   {n:"3", t:"Comunico", d:"secondo gli obblighi di legge", key:true}]},
+{id:"s24", tipo:"raggiera", tema:"chiaro", sopratitolo:"Tre verbi, non tre modi di dire lo stesso", centro:"L'evento",
+  raggi:[
+   {t:"Segnalo", d:"al gestore del rischio"},
+   {t:"Comunico", d:"per obbligo di legge", key:true},
+   {t:"Registro", d:"in cartella clinica"}]},
 
 {id:"s25", tipo:"catena", tema:"chiaro", sopratitolo:"La root cause analysis",
   passi:[
@@ -189,9 +190,9 @@ export const SCENE = [
    {sb:"L'analisi finisce con **un nome**",
     ok:"L'analisi finisce con **un'azione** — responsabili e tempi"}]},
 
-{id:"s28", tipo:"titolo", tema:"chiaro", sopratitolo:"Gli eventi sentinella",
+{id:"s28", tipo:"figura", tema:"chiaro", sopratitolo:"Gli eventi sentinella", illu:"campana",
   titolo:"Di particolare **gravità** —<br>indicativi di una<br>**disfunzione del sistema**.",
-  sotto:"Indagine immediata e misure correttive."},
+  sotto:"Indagine immediata e misure correttive: la sentinella suona, e il sistema deve rispondere."},
 
 {id:"s29", tipo:"norma", tema:"chiaro", sopratitolo:"Il monitoraggio nazionale",
   etichetta:"Sistema", sigla:"SIMES",
@@ -204,11 +205,11 @@ export const SCENE = [
 {id:"s32", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
   sopratitolo:"Le Raccomandazioni ministeriali", celle:RACC},
 
-{id:"s33", tipo:"tre", tema:"chiaro", cifre:true, sopratitolo:"Se ne ricordi tre",
-  box:[
-   {n:"1", t:"7", d:"**Errori in terapia**"},
-   {n:"2", t:"12", d:"**Farmaci LASA** — simili nell'aspetto o nel nome"},
-   {n:"3", t:"13", d:"**Cadute**", key:true}]},
+{id:"s33", tipo:"cifre", tema:"chiaro", sopratitolo:"Se ne ricordi tre",
+  voci:[
+   {n:7, t:"Errori in terapia", d:"la Raccomandazione che compare più spesso"},
+   {n:12, t:"Farmaci LASA", d:"simili nell'aspetto o nel nome"},
+   {n:13, t:"Cadute", d:"il rischio di ogni turno", key:true}]},
 
 {id:"s34", tipo:"titolo", tema:"chiaro", sopratitolo:"E se ne ricordi una sola",
   titolo:"La **numero 7**.",
@@ -229,7 +230,7 @@ export const SCENE = [
 {id:"s39", tipo:"titolo", tema:"profondo", sopratitolo:"La frase che all'orale fa impressione",
   titolo:"Non è un controllo.<br>È **un'eco**."},
 
-{id:"s40", tipo:"titolo", tema:"chiaro", sopratitolo:"L'equivoco più diffuso",
+{id:"s40", tipo:"figura", tema:"chiaro", sopratitolo:"L'equivoco più diffuso", illu:"persona",
   titolo:"**No blame** non significa<br>assenza di responsabilità.",
   sotto:"Significa che la risposta di sistema all'errore non è la caccia al colpevole."},
 
@@ -264,7 +265,7 @@ export const SCENE = [
    {t:"Esprimere rammarico", d:"senza attribuire colpe"},
    {t:"Dire le azioni", d:"che cosa si farà perché non si ripeta", key:true}]},
 
-{id:"s46", tipo:"titolo", tema:"chiaro", sopratitolo:"Il dato controintuitivo ma documentato",
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"Il dato controintuitivo ma documentato", illu:"dialogo", lato:"dx",
   titolo:"La trasparenza<br>**riduce** il contenzioso.",
   sotto:"Chi riceve una spiegazione ricorre meno al giudice."},
 
