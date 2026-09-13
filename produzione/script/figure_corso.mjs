@@ -255,10 +255,14 @@ function flusso(c) {
  * ======================================================================== */
 
 function strati(c) {
-  const X0 = 150, X1 = 1350, H = 86, GAP = 18;
-  const YS = 40, LIN = YS + H + 54;
+  /* la geometria si stringe quando le voci sono tante: con quattro voci a
+     misura fissa l'ultima cassetta finiva fuori dal quadro */
+  const n = c.sotto.length, fitto = n >= 4;
+  const X0 = 150, X1 = 1350, H = fitto ? 72 : 86, GAP = fitto ? 12 : 18;
+  const YS = fitto ? 24 : 40, STACCO = fitto ? 30 : 44;
+  const LIN = YS + H + (fitto ? 46 : 54);
   const sotto = c.sotto.map((et, i) => {
-    const y = LIN + 44 + i * (H + GAP);
+    const y = LIN + STACCO + i * (H + GAP);
     return `<g class="str" style="--i:${i}">
       <rect class="fq velo" x="${X0 + 56}" y="${y}" width="${X1 - X0 - 112}" height="${H}"/>
       <path class="fl tenue" d="M${X0 + 56} ${y} h${X1 - X0 - 112} v${H} h${-(X1 - X0 - 112)} Z"/>
@@ -281,17 +285,23 @@ function strati(c) {
 
 /* ===========================================================================
  * 6. pila — quello che si accumula, un blocco alla volta
- *    { blocchi:[...] }
+ *    { blocchi:[...], acceso? }
+ *    Con `acceso` si illumina un blocco solo e si spengono gli altri: la
+ *    geometria non si muove di un pixel fra una slide e l'altra, quindi
+ *    ripetendo la stessa pila con `acceso` diverso il taglio non si vede e
+ *    sembra che si accenda un pezzo alla volta dentro lo stesso disegno.
  * ======================================================================== */
 
 function pila(c) {
   const n = c.blocchi.length, B = 700, X = (W - B) / 2, H = 82, GAP = 14, BASE = 400;
   const bl = c.blocchi.map((et, i) => {
     const y = BASE - (i + 1) * (H + GAP);
+    const on = c.acceso == null ? i === n - 1 : c.acceso === i;
+    const spento = c.acceso != null && !on;
     return `<g class="blo" style="--i:${i}">
-      <rect class="fq ${i === n - 1 ? 'veloro' : 'velo'}" x="${X}" y="${y}" width="${B}" height="${H}"/>
-      <path class="fl ${i === n - 1 ? 'oro' : 'tenue'}" d="M${X} ${y} h${B} v${H} h${-B} Z"/>
-      <text class="ft c" x="${X + B / 2}" y="${y + H / 2 + 13}">${esc(et)}</text>
+      <rect class="fq ${on ? 'veloro' : 'velo'}" x="${X}" y="${y}" width="${B}" height="${H}"/>
+      <path class="fl ${on ? 'oro' : 'tenue'}" d="M${X} ${y} h${B} v${H} h${-B} Z"/>
+      <text class="ft c ${spento ? 'off' : ''}" x="${X + B / 2}" y="${y + H / 2 + 13}">${esc(et)}</text>
     </g>`;
   }).join('');
   return `<div class="fig"><svg viewBox="0 0 ${W} 470">

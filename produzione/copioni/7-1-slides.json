@@ -1,0 +1,385 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.1",
+"title": "Perché diciamo sì",
+"sub": "Assertività e confini"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "prima del pensiero",
+"title": "Qualcuno ti chiede<br>una cosa."
+},
+{
+"file": "c03",
+"layout": "quote",
+"title": "Sì, certo."
+},
+{
+"file": "c04",
+"layout": "memo",
+"theme": "deep",
+"title": "Non è una scelta.<br>È un riflesso."
+},
+{
+"file": "c05",
+"layout": "finestra",
+"kicker": "fra la richiesta e la risposta",
+"quota": 3,
+"et": "lo spazio per decidere",
+"coda": "tutto il resto della conversazione",
+"title": "Non hai deciso in fretta. Non hai deciso affatto."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Il problema non è<br>dire di no."
+},
+{
+"file": "c07",
+"layout": "memo",
+"theme": "deep",
+"title": "Il problema è che il sì<br>non è mai stato<br>una decisione."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "le formule imparate a vuoto",
+"title": "Te le ritrovi in mano<br>inutilizzate."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "La formula arriva<br>sempre un secondo dopo."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "quindi si guarda prima",
+"title": "Perché quel sì<br>esce da solo."
+},
+{
+"file": "c11",
+"layout": "strati",
+"kicker": "i quattro motivi, e a che profondità stanno",
+"sopra": "«Sì, certo»",
+"sotto": [
+"la paura del conflitto",
+"l'abitudine",
+"il bisogno di essere utile",
+"non ce l'ha insegnato nessuno"
+]
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "il primo, in superficie",
+"title": "«Se dico di no<br>si arrabbia.»"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "È il più facile da correggere:<br>si basa su una previsione."
+},
+{
+"file": "c14",
+"layout": "swap",
+"kicker": "una previsione mai verificata",
+"rows": [
+[
+"«se dico di no si arrabbia»",
+"quasi sempre non si arrabbia nessuno"
+]
+]
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "il secondo",
+"title": "«L'ho sempre fatto.<br>Adesso se lo aspettano.»"
+},
+{
+"file": "c16",
+"layout": "memo",
+"theme": "deep",
+"title": "Se non servo,<br>cosa valgo?"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "il terzo, il più profondo",
+"title": "Un no non è il rifiuto<br>di un compito."
+},
+{
+"file": "c18",
+"layout": "memo",
+"title": "È la messa in discussione<br>di chi sei."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "il quarto, il più consolante",
+"title": "Non ce l'ha<br>insegnato nessuno."
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Quello si risolve<br><span class=\"gold\">imparando.</span>"
+},
+{
+"file": "c21",
+"layout": "anello",
+"kicker": "perché non finisce mai",
+"ciclo": 6,
+"passi": [
+"dici di sì",
+"ti scelgono di nuovo",
+"ti viene chiesto di più",
+"dici di sì"
+],
+"title": "Nessuno lo tiene in piedi. Si tiene in piedi da sé."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "non è sfruttamento",
+"title": "Non c'è nessuno<br>che ti sta usando."
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "Al posto suo<br>faresti lo stesso."
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Ogni sì rende<br>il prossimo più probabile."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "il giro si chiude",
+"title": "E riparte da solo."
+},
+{
+"file": "c27",
+"layout": "memo",
+"theme": "deep",
+"title": "Il sistema funziona benissimo.<br>Solo, lo stai pagando tu."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "perché è così difficile da fermare",
+"title": "Nel momento in cui lo dici,<br>quel sì ha costo zero."
+},
+{
+"file": "c29",
+"layout": "bilancia",
+"kicker": "quando arriva il conto",
+"sx": {
+"et": "il sì, adesso",
+"peso": 1
+},
+"dx": {
+"et": "il conto, dopo",
+"peso": 8
+},
+"title": "Il conto non arriva mai insieme alla firma."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Arriva dopo, quando la cosa<br>da fare c'è davvero."
+},
+{
+"file": "c31",
+"layout": "pila",
+"kicker": "e arriva in quattro pezzi",
+"blocchi": [
+"il tempo tolto ad altro",
+"il risentimento",
+"la qualità peggiore",
+"il sì successivo"
+],
+"title": "Si sommano uno sull'altro."
+},
+{
+"file": "c32",
+"layout": "pila",
+"kicker": "il primo",
+"blocchi": [
+"il tempo tolto ad altro",
+"il risentimento",
+"la qualità peggiore",
+"il sì successivo"
+],
+"acceso": 0,
+"title": "Spesso a una cosa che non hai nemmeno potuto nominare."
+},
+{
+"file": "c34",
+"layout": "pila",
+"kicker": "il secondo, il più sottovalutato",
+"blocchi": [
+"il tempo tolto ad altro",
+"il risentimento",
+"la qualità peggiore",
+"il sì successivo"
+],
+"acceso": 1,
+"title": "Una rabbia senza destinatario legittimo."
+},
+{
+"file": "c35",
+"layout": "memo",
+"title": "Una rabbia senza<br>destinatario legittimo."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Resta lì,<br>e di solito esce storta."
+},
+{
+"file": "c37",
+"layout": "pila",
+"kicker": "il terzo",
+"blocchi": [
+"il tempo tolto ad altro",
+"il risentimento",
+"la qualità peggiore",
+"il sì successivo"
+],
+"acceso": 2,
+"title": "Una cosa fatta per non deludere si vede che è fatta così."
+},
+{
+"file": "c38",
+"layout": "pila",
+"kicker": "il quarto",
+"blocchi": [
+"il tempo tolto ad altro",
+"il risentimento",
+"la qualità peggiore",
+"il sì successivo"
+],
+"acceso": 3,
+"title": "Adesso c'è un precedente."
+},
+{
+"file": "c39",
+"layout": "swap",
+"kicker": "perché adesso c'è un precedente",
+"rows": [
+[
+"rifiutare una richiesta",
+"cambiare un accordo"
+]
+]
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "l'unica tecnica che serve",
+"title": "E non è una tecnica<br>per dire di no."
+},
+{
+"file": "c41",
+"layout": "bivio",
+"kicker": "lo stesso momento, due strade",
+"da": "«Mi daresti una mano?»",
+"rami": [
+{
+"et": "«Sì, certo»",
+"sub": "ha deciso il riflesso"
+},
+{
+"et": "«Ti dico entro stasera»",
+"sub": "decidi tu, un'ora dopo"
+}
+],
+"acceso": 1,
+"title": "Non un rifiuto: un'ora in mezzo."
+},
+{
+"file": "c42",
+"layout": "quote",
+"title": "Fammi controllare<br>e ti dico."
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "Non è un rifiuto,<br>quindi non richiede coraggio."
+},
+{
+"file": "c44",
+"layout": "memo",
+"theme": "deep",
+"title": "Quell'ora spezza il riflesso.<br>È l'unica cosa<br>che va spezzata."
+},
+{
+"file": "c46",
+"layout": "statement",
+"kicker": "nel tempo che guadagni",
+"title": "Spesso scopri<br>che la risposta è no."
+},
+{
+"file": "c47",
+"layout": "confronto",
+"occhio": "la differenza non è fra sì e no",
+"titoli": [
+"un sì scappato",
+"un sì scelto"
+],
+"righe": [
+{
+"et": "quando esce",
+"a": "prima di aver valutato",
+"b": "dopo aver guardato l'agenda",
+"segna": true
+},
+{
+"et": "chi ha deciso",
+"a": "il riflesso",
+"b": "tu",
+"segna": true
+},
+{
+"et": "cosa costa subito",
+"a": "niente",
+"b": "niente"
+},
+{
+"et": "cosa costa dopo",
+"a": "tempo, risentimento, qualità",
+"b": "quello che avevi previsto",
+"segna": true
+},
+{
+"et": "il sì dopo",
+"a": "più difficile da negare",
+"b": "una decisione come questa"
+}
+]
+},
+{
+"file": "c48",
+"layout": "statement",
+"kicker": "la regola, in una riga",
+"title": "Se non hai bisogno di rispondere subito,<br>non rispondere subito."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Alla prima richiesta:<br>«ti dico entro stasera».<br><span class=\"gold\">Il timore era tutto tuo.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 7.1",
+"sub": "laparolagiusta.it"
+}
+]

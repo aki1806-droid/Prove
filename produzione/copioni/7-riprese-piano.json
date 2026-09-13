@@ -1,0 +1,87 @@
+{
+ "7.1": [
+  [
+   "s22",
+   "video",
+   "pile-di-carte"
+  ],
+  [
+   "s33",
+   "foto",
+   "libro-a-faccia-in-giu"
+  ],
+  [
+   "s45",
+   "foto",
+   "telefono-a-faccia-in-giu"
+  ]
+ ],
+ "7.2": [
+  [
+   "s22",
+   "foto",
+   "sala-pausa"
+  ],
+  [
+   "s29",
+   "foto",
+   "due-tazze"
+  ],
+  [
+   "s45",
+   "foto",
+   "porta-socchiusa"
+  ]
+ ],
+ "7.3": [
+  [
+   "s22",
+   "video",
+   "riga-cancellata"
+  ],
+  [
+   "s33",
+   "foto",
+   "porta-chiusa"
+  ],
+  [
+   "s45",
+   "foto",
+   "penna-posata"
+  ]
+ ],
+ "7.4": [
+  [
+   "s22",
+   "video",
+   "telefono-che-vibra"
+  ],
+  [
+   "s33",
+   "video",
+   "acqua-che-si-ferma"
+  ],
+  [
+   "s45",
+   "foto",
+   "orologio"
+  ]
+ ],
+ "7.5": [
+  [
+   "s22",
+   "foto",
+   "pagina-annotata"
+  ],
+  [
+   "s33",
+   "foto",
+   "sedia-scostata"
+  ],
+  [
+   "s45",
+   "foto",
+   "due-pile-pari"
+  ]
+ ]
+}
