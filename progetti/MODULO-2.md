@@ -9,7 +9,7 @@ stanno nei registri delle singole lezioni.
 |---|---|---|---|
 | 2.1 | Il processo di assistenza | 8:48.4 | `e8ccf810ae2913d43cdc84c52336dd3c` |
 | 2.2 | Modelli e tassonomie | 8:56.8 | `3c2bea89378a792e3d96a3f995732dae` |
-| 2.3 | Accertamento e scale | — | `c4a3a9f425274afb4f406719bfa2c827` |
+| 2.3 | Accertamento e scale | 8:59.6 | `c4a3a9f425274afb4f406719bfa2c827` |
 | 2.4 | La documentazione infermieristica | 9:15.0 | `26c90ec748c5009d31a949f67be2cd5a` |
 | 2.5 | EBP, linee guida, PDTA e procedure | 8:43.0 | `6168f18a0839e6bb62899f62fa1fa569` |
 | 2.6 | Rischio clinico e sicurezza del paziente | 9:27.6 | `75b091efb11899871b4945411c252556` |
