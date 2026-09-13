@@ -229,6 +229,50 @@ const motion = `
          animation: cresci .6s .50s both cubic-bezier(.2,1.3,.45,1); }
   .sat { animation: cresci .55s both cubic-bezier(.2,1.4,.4,1);
          animation-delay: calc(1.00s + var(--i) * .16s); }
+
+  /* -------------------------------------------------------------------
+   * Infografiche (info_corso.mjs). Stesso principio dei diagrammi: si
+   * costruiscono nell'ordine in cui la voce le dice. Sono in HTML, quindi
+   * qui non serve il trucco dei tracciati — serve pero' la stessa cautela
+   * sull'opacita': dove c'e' gia' una velatura si anima un altro strato.
+   * ---------------------------------------------------------------- */
+  .occhio { animation: velo .5s .10s both; }
+
+  /* anatomia: la frase, poi la pennellata su un pezzo alla volta, poi la
+     legenda numerata. La campitura e' un gradiente largo 0 che si allarga:
+     e' il gesto dell'evidenziatore, e non tocca il testo sopra. */
+  .ana .frase { animation: sali .7s .24s both cubic-bezier(.22,.61,.36,1); }
+  .ana .seg   { background-size: 0% .44em;
+                animation: pennella .45s both cubic-bezier(.35,.6,.3,1);
+                animation-delay: calc(.78s + var(--i) * .26s); }
+  @keyframes pennella { to { background-size: 100% .44em; } }
+  .ana .legenda { animation: velo .5s 1.72s both; }
+  .ana .rich  { animation: sali .5s both cubic-bezier(.22,.61,.36,1);
+                animation-delay: calc(1.80s + var(--i) * .11s); }
+  .ana .chiusa{ animation: velo .45s 2.40s both; }
+
+  /* cruscotto: le caselle una alla volta, poi la riga che resta */
+  .cru .cella { animation: cresci .55s both cubic-bezier(.22,.61,.36,1);
+                animation-delay: calc(.30s + var(--i) * .18s); }
+  .cru .resta { animation: sali .7s 1.62s both cubic-bezier(.22,.61,.36,1); }
+
+  /* cartellino: la cifra, cosa misura, le barre, e per ultimo il limite —
+     che e' l'unica parte che dice cosa il numero NON dice */
+  .car .cifra  { animation: sali .8s .24s both cubic-bezier(.22,.61,.36,1); }
+  .car .che    { animation: velo .6s .70s both; }
+  .car .voce   { animation: velo .4s both; animation-delay: calc(.84s + var(--i) * .16s); }
+  .car .vbar i { transform:scaleX(0); animation: riga .8s both cubic-bezier(.22,.61,.36,1);
+                 animation-delay: calc(.96s + var(--i) * .16s); }
+  .car .limite { animation: velo .5s 2.18s both; }
+
+  /* confronto: le intestazioni, le righe, e alla fine si accendono quelle
+     dove la differenza conta */
+  .con .cap  { animation: velo .5s .24s both; }
+  .con .fila > * { animation: sali .5s both cubic-bezier(.22,.61,.36,1);
+                   animation-delay: calc(.54s + var(--i) * .15s); }
+  .con .fila.segna .cll.b::before { transform:scaleX(0);
+                   animation: riga .5s both cubic-bezier(.22,.61,.36,1);
+                   animation-delay: calc(1.62s + var(--i) * .10s); }
 `;
 
 /* ---------------------------------------------------------------------------

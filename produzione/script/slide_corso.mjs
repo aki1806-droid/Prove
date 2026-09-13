@@ -13,6 +13,8 @@
  *           curva | finestra | quadranti | flusso | strati | pila |
  *           termometro | bivio | anello | bilancia | imbuto | ponte |
  *           linea | barre | raggi              (figure_corso.mjs)
+ *           anatomia | cruscotto | cartellino | confronto
+ *                                               (info_corso.mjs)
  *   theme:  ivory (default) | sand | deep
  * `active` accende una sola riga di un elenco e spegne le altre: serve a far
  * salire i punti uno alla volta senza moltiplicare le slide.
@@ -21,6 +23,7 @@ import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 import { figureCss, stageFigure } from './figure_corso.mjs';
+import { infoCss, stageInfo } from './info_corso.mjs';
 
 const IVORY='#F7F3EA', NAVY='#12294A', GOLD='#C39A4E', SAND='#E2D2B0',
       DEEP='#0B1B33', GREY='#69748A', INK_SAND='#1C2B3F';
@@ -52,6 +55,11 @@ const css = (t) => `
            justify-content:center; padding:0 210px; z-index:2; }
   .stage.mid { align-items:center; text-align:center; padding:0 260px; }
   .stage.graf { padding-top:190px; padding-bottom:120px; }
+  /* un'infografica usa tutto il quadro: si porta dentro il proprio occhiello
+     e non ha didascalia sotto, quindi non lascia le fasce dei layout grafici */
+  /* il padding alto tiene l'occhiello sotto il monogramma: con un'infografica
+     alta e centrata verticalmente ci finiva sopra */
+  .stage.info-stage { padding:196px 150px 104px; justify-content:center; }
 
   .kicker { font-family:'Jost',sans-serif; font-weight:600; font-size:23px;
             letter-spacing:.36em; text-transform:uppercase; color:${GOLD}; margin-bottom:44px; }
@@ -336,7 +344,7 @@ function stageGrafica(c) {
 }
 
 const stageBase = stage;
-const stageTutti = (c) => stageFigure(c) ?? stageGrafica(c) ?? stageBase(c);
+const stageTutti = (c) => stageInfo(c) ?? stageFigure(c) ?? stageGrafica(c) ?? stageBase(c);
 
 const page = (c) => {
   const t = themes[c.theme ?? 'ivory'];
@@ -345,7 +353,7 @@ const page = (c) => {
 <style>${FONTS}</style>
 <style>${css(t)}</style>
 <style>${grafica(t)}</style>
-<style>${figureCss(t)}</style></head><body>
+<style>${figureCss(t)}</style><style>${infoCss(t)}</style></head><body>
   ${bare ? '' : `<div class="mark"><img src="${t.mark}" alt=""></div>`}
   ${c.foto ? `<div class="foto"><img src="${c.foto}"></div><div class="velo"></div>` : ''}
   ${stageTutti(c)}

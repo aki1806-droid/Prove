@@ -310,6 +310,33 @@ sente in quel momento è di quel tipo.
 | `barre` | quanto pesa una cosa rispetto alle altre | di cosa si ricorda chi ti ascolta |
 | `raggi` | cosa sta al centro e cosa gli gira attorno, e quanto lontano | il tono è vicino, le ragioni sono lontane |
 
+### Le infografiche
+
+Un diagramma disegna **un'idea**. Un'infografica compone **un quadro intero**:
+più elementi che si leggono in un colpo solo. Stanno in
+`script/info_corso.mjs`, sono in HTML e non in SVG — perché sono piene di
+testo, e il testo dentro `<text>` non va a capo da solo — e **si portano
+dentro il proprio occhiello**: non usano `title`, che sotto non ci starebbe.
+
+| infografica | cosa fa | dove serve |
+|---|---|---|
+| `anatomia` | una frase smontata pezzo per pezzo, con i richiami numerati | ogni volta che il corso dà una frase-modello: è il layout più adatto a un corso sulle parole |
+| `cruscotto` | la lezione in tre o quattro caselle, più la riga che resta | le chiusure, e i riepiloghi a metà lezione |
+| `cartellino` | un numero grande, la sua scomposizione e **il suo limite** | quando si cita un dato |
+| `confronto` | due versioni complete della stessa cosa, riga per riga, con le differenze segnate | «come viene da dire» contro «come regge» |
+
+Due note che non sono dettagli:
+
+- in `anatomia` i richiami sono **numeri, non fili tirati giù dalla parola**.
+  Un pezzo di frase che va a capo si spezza in due rettangoli, e un filo
+  ancorato al centro dell'inline box finisce nel posto sbagliato. Il numero
+  resta attaccato al suo pezzo comunque vada il testo a capo. La campitura
+  entra come una **pennellata da sinistra a destra**, che è il gesto giusto;
+- in `cartellino` il campo `limite` **non è un ornamento**: è il posto dove si
+  dice cosa il dato *non* dice. È la stessa cosa che la 2.1 e la 6.3 fanno a
+  voce quando rifiutano di riportare cifre non verificate. Se un cartellino
+  non ha un limite, il numero va guardato due volte prima di usarlo.
+
 **La proporzione da tenere dal modulo 7 in poi**: un elenco di voci
 consecutive, una sequenza di passi, un confronto, una proporzione o un
 accumulo **non si scrivono, si disegnano**. Il layout `list` resta per le
@@ -334,13 +361,17 @@ per questo che sono venute fuori tardi:
 - niente `nth-of-type` sugli elementi ripetuti: conta i fratelli con lo stesso
   tag, e nei gruppi alternati (casella, freccia, casella) i ritardi finiscono
   sull'elemento sbagliato. L'indice lo scrive il generatore in `--i`;
-- **`velo` e `cresci` finiscono a `opacity: 1`**, quindi non vanno mai messi
-  sull'elemento che porta già una campitura debole (`velo`, `veloro`, `tenue`,
-  `punti`, `min`): il fotogramma chiave sovrascrive l'opacità della classe e
-  la velatura diventa tinta piena. Si anima il `<g>` che lo contiene, dove
-  l'opacità si moltiplica invece di sostituirsi. È il bug che nella prima
+- **`velo`, `sali` e `cresci` finiscono a `opacity: 1`**, quindi non vanno mai
+  messi sull'elemento che porta già una campitura debole (`velo`, `veloro`,
+  `tenue`, `punti`, `min`): il fotogramma chiave sovrascrive l'opacità della
+  classe e la velatura diventa tinta piena. Si anima il `<g>` che lo contiene,
+  dove l'opacità si moltiplica invece di sostituirsi. È il bug che nella prima
   versione della 6.4 rendeva il quadrante acceso oro pieno, **con la sua
-  etichetta dentro, illeggibile**;
+  etichetta dentro, illeggibile**. Nelle infografiche, dove non c'è un gruppo
+  da animare al posto del testo, **il testo smorzato si fa col colore e non
+  con l'opacità** (`color-mix`): un colore l'animazione non lo tocca. Senza
+  questo, in `confronto` la colonna spenta si riaccendeva da sola appena
+  finita di entrare;
 - dentro un template literal, **niente backtick nei commenti**. Chiudono la
   stringa e il file non compila più. Vale per `figure_corso.mjs` e per il
   blocco `motion` di `clips_corso.mjs`.

@@ -349,6 +349,19 @@ Si passano i dati, non l'SVG. Il contrario — un disegno che illustra
 genericamente il tema — si toglie: se il diagramma non porta il significato
 della frase che si sente in quel momento, è decorazione.
 
+Oltre ai diagrammi ci sono quattro **infografiche** (`info_corso.mjs`), che
+non disegnano un'idea ma compongono un quadro intero:
+
+| se serve | l'infografica |
+|---|---|
+| dare una frase-modello e smontarla pezzo per pezzo | `anatomia` |
+| riassumere la lezione in un quadro solo | `cruscotto` |
+| citare un dato, con la sua scomposizione e il suo limite | `cartellino` |
+| mettere a confronto due versioni intere della stessa cosa | `confronto` |
+
+Le infografiche usano tutto il quadro e si portano dentro il proprio
+occhiello: **non** prendono `title`.
+
 **La soglia**: un elenco di voci consecutive, una sequenza, un confronto, una
 proporzione o un accumulo si **disegnano**. Il layout `list` resta solo per
 le elencazioni senza forma — cose che stanno insieme ma non in ordine, non in
