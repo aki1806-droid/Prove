@@ -286,6 +286,53 @@ Layout disponibili in `script/cards.mjs`:
 | `num` | punto numerato di un elenco (numerale grande + etichetta) |
 | `list` | elenco di 2-5 voci sulla stessa slide |
 
+Per il corso, `script/slide_corso.mjs` ne ha altri sei — `number`, `cards`,
+`table`, `chart`, `swap`, `figure` — e `script/figure_corso.mjs` aggiunge
+**sette diagrammi che si disegnano da soli**. Non sono decorazioni: ognuno
+regge un tipo di ragionamento preciso, e va usato solo quando la frase che si
+sente in quel momento è di quel tipo.
+
+| diagramma | regge | esempio |
+|---|---|---|
+| `curva` | un andamento con un punto di svolta | «sale in secondi, scende in minuti» (6.3) |
+| `finestra` | quanto dura la parte che conta, sul totale | i primi trenta secondi (6.3) |
+| `quadranti` | due variabili indipendenti, una casella accesa | modo e merito (6.5) |
+| `flusso` | passi in catena dove **l'ordine conta** | fatto, effetto, richiesta (6.4) |
+| `strati` | quello che si dice e quello che c'è sotto | la prima obiezione (6.1) |
+| `pila` | qualcosa che si accumula | il residuo non riparato (6.5) |
+| `termometro` | una scala con un livello e delle soglie | l'attivazione nel picco (6.3) |
+
+Si passano i **dati**, non l'SVG: la geometria è sempre la stessa e
+l'animazione viene da sé. Un disegno scritto a mano dentro il JSON non si
+riusa, non si anima come gli altri, e alla terza lezione ha già un'altra
+geometria.
+
+Due trappole del generatore, costate un giro di render:
+- il testo dentro `<text>` **non va a capo da solo**. Ogni etichetta passa da
+  `righe()`, che la spezza in `tspan`. Senza, le celle dei quadranti si
+  scrivono una sopra l'altra;
+- nell'animazione, `both` va scritto **dentro** la scorciatoia `animation:`.
+  La scorciatoia azzera `fill-mode`, e un tracciato che finisce di disegnarsi
+  torna al suo stato di partenza, cioè sparisce. Sulle dissolvenze non si
+  vedeva, perché lo stato di partenza era già quello giusto.
+
+### Movimento che non finisce
+
+La regola normale resta: il movimento **entra e poi finisce**, e la scena in
+HeyGen sta in `playback.mode: "freeze"`. Sotto quindici secondi di parlato una
+slide che continua a muoversi è rumore.
+
+L'eccezione è quando il movimento **è** il contenuto. Lì si mette `ciclo: N`
+sulla slide: la clip viene renderizzata lunga N secondi con un'andata e
+ritorno (`alternate`) che dura esattamente N, così il primo e l'ultimo
+fotogramma combaciano, e `scene.py` mette quella scena in
+`playback.mode: "loop"` invece di `freeze`. Con `freeze` si congelerebbe a
+metà corsa.
+
+Finora ne serve **una in tutto il modulo 6**: il pallino che risale e riscende
+la curva dell'attivazione nella 6.3. Se diventano due per lezione, vuol dire
+che si sta animando per far muovere qualcosa.
+
 Durate: la **slide di copertina dura 3 secondi**, non di più — fra il titolo e la
 prima parola non deve esserci attesa. La slide di chiusura sta sui 10 secondi.
 Tutte le altre slide non hanno durata propria: la prende l'audio che ci sta sopra.

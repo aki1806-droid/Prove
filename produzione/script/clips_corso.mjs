@@ -98,6 +98,95 @@ const motion = `
   .tratto:nth-of-type(5) { animation-delay: 1.45s; }
   @keyframes traccia { to { stroke-dashoffset: 0; } }
   .eti { animation: velo .6s 1.5s both paused; }
+
+  /* ---------------------------------------------------------------------
+   * Diagrammi di figure_corso.mjs. Qui il disegno non "compare": si
+   * costruisce nello stesso ordine in cui la voce lo spiega. Un quadrante
+   * che appare tutto insieme e' una figura; un quadrante che prima traccia
+   * gli assi e poi accende una casella e' un ragionamento.
+   *
+   * Due regole imparate a spese di un giro di render:
+   *  - "both" va scritto DENTRO la scorciatoia "animation:". La scorciatoia
+   *    azzera fill-mode, e un tracciato che finisce di disegnarsi torna al
+   *    suo stato di partenza — cioe' sparisce. Sulle dissolvenze non si
+   *    vedeva perche' lo stato di partenza era gia' quello giusto.
+   *  - niente "nth-of-type" sugli elementi ripetuti: conta i fratelli con
+   *    lo stesso tag, e nei gruppi alternati (casella, freccia, casella)
+   *    salta. L'indice lo scrive il generatore in "--i".
+   * ------------------------------------------------------------------ */
+  .fig { animation: velo .3s .22s both; }
+
+  /* il tracciato si scrive: dasharray 100 perche' i path hanno pathLength="100" */
+  @keyframes scrive { to { stroke-dashoffset: 0; } }
+  .dis, .graffa, .ax, .ay { stroke-dasharray: 100; stroke-dashoffset: 100; }
+
+  /* curva: l'asse, la curva che si scrive, poi il punto di svolta */
+  .asse { animation: velo .4s .26s both; }
+  .dis  { animation: scrive 1.5s .34s both cubic-bezier(.45,.05,.25,1); }
+  .vlin { animation: velo .5s 1.45s both; }
+  .vert { transform-box: fill-box; transform-origin: center;
+          animation: punto .5s 1.55s both cubic-bezier(.2,1.5,.4,1); }
+  .vet  { animation: sali .6s 1.70s both cubic-bezier(.22,.61,.36,1); }
+  @keyframes punto { from { opacity:0; transform:scale(.2); }
+                     to   { opacity:1; transform:scale(1); } }
+
+  /* finestra: il totale, poi la quota che cresce, poi la graffa */
+  .tutto  { animation: velo .5s .26s both; }
+  .fin    { transform-box: fill-box; transform-origin: left center;
+            animation: riga .8s .50s both cubic-bezier(.22,.61,.36,1); }
+  .graffa { animation: scrive .6s 1.20s both; }
+  .etf    { animation: sali .6s 1.36s both cubic-bezier(.22,.61,.36,1); }
+  .etc    { animation: velo .6s 1.60s both; }
+
+  /* quadranti: la cornice, gli assi, le caselle, e per ultima quella accesa */
+  .riq { animation: velo .5s .26s both; }
+  .ax  { animation: scrive .7s .44s both cubic-bezier(.22,.61,.36,1); }
+  .ay  { animation: scrive .7s .62s both cubic-bezier(.22,.61,.36,1); }
+  .ei  { animation: velo .6s .80s both; }
+  .cel { animation: velo .5s both; animation-delay: calc(.92s + var(--i) * .12s); }
+  .acc { transform-box: fill-box; transform-origin: center;
+         animation: cresci .7s 1.42s both cubic-bezier(.22,.61,.36,1); }
+
+  /* flusso: una casella, la sua freccia, la casella dopo */
+  .pas { animation: cresci .6s both cubic-bezier(.22,.61,.36,1);
+         animation-delay: calc(.38s + var(--i) * .48s); }
+  .fre { animation: velo .4s both; animation-delay: calc(.76s + var(--i) * .48s); }
+
+  /* strati: quello che si dice, la linea, e poi cosa c'e' sotto */
+  .sup { animation: sali .7s .32s both cubic-bezier(.22,.61,.36,1); }
+  .lin { animation: velo .5s .78s both; }
+  .str { animation: sali .6s both cubic-bezier(.22,.61,.36,1);
+         animation-delay: calc(.98s + var(--i) * .20s); }
+
+  /* pila: si accumula dal basso, un blocco alla volta */
+  .base { animation: velo .4s .28s both; }
+  .blo  { animation: posa .5s both cubic-bezier(.22,.61,.36,1);
+          animation-delay: calc(.46s + var(--i) * .34s); }
+  @keyframes posa { from { opacity:0; transform:translateY(-30px); }
+                    to   { opacity:1; transform:translateY(0); } }
+
+  /* termometro: il livello sale dal fondo, poi le tacche */
+  .liv { transform-box: fill-box; transform-origin: bottom center;
+         animation: alza 1.1s .40s both cubic-bezier(.22,.61,.36,1); }
+  @keyframes alza { from { transform:scaleY(0); } to { transform:scaleY(1); } }
+  .tac { animation: velo .5s both; animation-delay: calc(1.45s + var(--i) * .17s); }
+`;
+
+/* ---------------------------------------------------------------------------
+ * Movimento che NON finisce. Serve solo dove il movimento e' il contenuto —
+ * il pallino che risale e riscende la curva dell'attivazione — e la scena in
+ * HeyGen va messa con playback.mode = "loop" invece di "freeze".
+ * Il ciclo e' una andata-e-ritorno (`alternate`) lunga esattamente `ciclo`
+ * secondi: cosi' il primo e l'ultimo fotogramma coincidono e il loop non
+ * scatta. Con `freeze` invece si congelerebbe a meta' corsa.
+ * ------------------------------------------------------------------------ */
+const ciclico = (sec) => `
+  .viagg { offset-distance: 0%; opacity: 1;
+           animation: viaggia ${(sec / 2).toFixed(2)}s linear infinite alternate; }
+  @keyframes viaggia { to { offset-distance: 100%; } }
+  .liv { animation: alza 1.1s .40s both paused cubic-bezier(.22,.61,.36,1),
+                    respira ${(sec / 2).toFixed(2)}s 1.5s ease-in-out infinite alternate; }
+  @keyframes respira { to { transform: scaleY(.72); } }
 `;
 
 const [, , cardsPath, outDir = '.', secArg] = process.argv;
@@ -109,12 +198,16 @@ const p = await ctx.newPage();
 fs.mkdirSync(outDir, { recursive: true });
 
 for (const c of cards) {
-  const html = page(c).replace('</head>', `<style>${motion}</style></head>`);
+  // `ciclo` allunga la clip e la rende ripetibile: quei blocchi in HeyGen
+  // vanno messi in loop, non in freeze.
+  const sec = c.ciclo ?? SEC;
+  const extra = c.ciclo ? ciclico(c.ciclo) : '';
+  const html = page(c).replace('</head>', `<style>${motion}${extra}</style></head>`);
   await p.setContent(html);
   await p.evaluate(() => document.fonts.ready);
   const dir = path.join(outDir, c.file);
   fs.mkdirSync(dir, { recursive: true });
-  const n = Math.round(SEC * FPS);
+  const n = Math.round(sec * FPS);
   for (let i = 0; i < n; i++) {
     await p.evaluate((ms) => {
       document.getAnimations().forEach((a) => { a.pause(); a.currentTime = ms; });

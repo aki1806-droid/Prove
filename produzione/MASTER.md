@@ -322,6 +322,30 @@ cards_*.mjs    PNG fermi     → per guardarli e correggerli
 clips_*.mjs    fotogrammi    → poi mp4 a 25 fps
 ```
 
+**Quante devono essere grafiche e non testo.** Una slide `statement` è testo
+grande: va bene per una frase che vale da sola, non per un ragionamento. Ogni
+volta che la voce dice una di queste cose, c'è un diagramma che la regge
+meglio di una riga scritta:
+
+| se la voce dice | il diagramma |
+|---|---|
+| «sale in fretta e scende piano» | `curva` |
+| «questa parte conta più di tutto il resto» | `finestra` |
+| «sono due piani diversi» | `quadranti` |
+| «tre tempi, e l'ordine conta» | `flusso` |
+| «quello che si dice non è quello che c'è sotto» | `strati` |
+| «si accumula» | `pila` |
+| «sopra una certa soglia non funziona più» | `termometro` |
+
+Si passano i dati, non l'SVG. Il contrario — un disegno che illustra
+genericamente il tema — si toglie: se il diagramma non porta il significato
+della frase che si sente in quel momento, è decorazione.
+
+**Il movimento entra e finisce** (`playback.mode: "freeze"`). L'unica
+eccezione è quando il movimento è il contenuto: allora `ciclo: N` sulla slide,
+clip lunga N secondi con andata e ritorno, e scena in `loop`. Una per modulo è
+già tanto.
+
 Il tempo non scorre da solo: ogni fotogramma sposta a mano l'orologio delle
 animazioni, così il render è identico a ogni esecuzione.
 

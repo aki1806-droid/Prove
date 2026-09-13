@@ -9,6 +9,9 @@
  *
  * Ogni voce del JSON: { file, layout, theme?, kicker?, title?, rows?, active?, note?, label?, sub? }
  *   layout: cover | closing | statement | quote | list | memo
+ *           number | cards | table | chart | swap | figure        (grafica)
+ *           curva | finestra | quadranti | flusso | strati |
+ *           pila | termometro                   (figure_corso.mjs)
  *   theme:  ivory (default) | sand | deep
  * `active` accende una sola riga di un elenco e spegne le altre: serve a far
  * salire i punti uno alla volta senza moltiplicare le slide.
@@ -16,6 +19,7 @@
 import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
+import { figureCss, stageFigure } from './figure_corso.mjs';
 
 const IVORY='#F7F3EA', NAVY='#12294A', GOLD='#C39A4E', SAND='#E2D2B0',
       DEEP='#0B1B33', GREY='#69748A', INK_SAND='#1C2B3F';
@@ -331,7 +335,7 @@ function stageGrafica(c) {
 }
 
 const stageBase = stage;
-const stageTutti = (c) => stageGrafica(c) ?? stageBase(c);
+const stageTutti = (c) => stageFigure(c) ?? stageGrafica(c) ?? stageBase(c);
 
 const page = (c) => {
   const t = themes[c.theme ?? 'ivory'];
@@ -339,7 +343,8 @@ const page = (c) => {
   return `<!doctype html><html><head><meta charset="utf-8">
 <style>${FONTS}</style>
 <style>${css(t)}</style>
-<style>${grafica(t)}</style></head><body>
+<style>${grafica(t)}</style>
+<style>${figureCss(t)}</style></head><body>
   ${bare ? '' : `<div class="mark"><img src="${t.mark}" alt=""></div>`}
   ${c.foto ? `<div class="foto"><img src="${c.foto}"></div><div class="velo"></div>` : ''}
   ${stageTutti(c)}
