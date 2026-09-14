@@ -2,16 +2,19 @@
  "s22": {
   "tipo": "video",
   "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-v-i-d-e-o-v1/media__4/-t-e-x-t_-t-o_-v-i-d-e-o-e672335b-830e-4e1c-a705-19e0fbb9b8c7.mp4?Expires=2104693293&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=A8i30U4C3NSC0Ntf8QU4XpYRnpO0-5TJ5IH3RB1k5oQG1p7i4sZB6KZ-7hwKaGzeYA5IWFYjUrDXLU2Zaz1sarpo9-CYcNGoiCcAmwpvjSEea6ePLHEEsNZadOxaR-9u3MsKIy7hw1BDmSuUMF92ZWFnxkgot~LaM-PllmaRcpyhQ88e3mBdasI4nrHoMHEvO1pzGQe~DNsH0UFpvg3cA-1PQXhco3Upxnc2xIdP-lQ3HdF2skkDfXx2QbAX0UNWYK-8JKOASbIKUJvWZ-0yJi8sgHa85iMxGkl8EaRXWVQMwOBa3OcTonm8yIr7FjBCy0b-Cc9Wm09pifVsZPwrqw__",
-  "cosa": "una pila di carte alta su una scrivania, luce di fine giornata"
+  "cosa": "una pila di carte alta su una scrivania, luce di fine giornata",
+  "nome": "pile-di-carte"
  },
  "s33": {
   "tipo": "foto",
   "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__2/image-6c041199-f671-44ba-8dbc-a468be7ea374.png?Expires=2104693180&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=mO6JCdKHYGAlbV5qsSrzPuwGkJKdc8NTIOmmaqeiu4BZLyyx7CMvAkC3EwQkQ1f~sMb9Te7FGE1FBOwSDDgJNibt2weJ702SHsdHHW2n07yc9Njz~WmUPqAztRs8NIRCfL0TPFgOeQVddQvze5qngqr2uyPIEVotx-WDc7kNx9TYMLTZigrTAPnghnp~yCIjLITGE~B0W9HGNLiGd2lTa4Y-uOOJeb88ehzy6BmsnaZxQUsjqpHf7VVCYZx3i8AzQAZFFJfG8qNBMUq0ecpqmGQOyzKmH91i~iAI67MYMTmFJ-jy1tS6vAb81AKO9jWEhrfYQqJeB9zXyj-tkH4HZg__",
-  "cosa": "un libro a faccia in giu' sul bracciolo di un divano, lampada accesa: la sera che ti sei tolto"
+  "cosa": "un libro a faccia in giu' sul bracciolo di un divano, lampada accesa: la sera che ti sei tolto",
+  "nome": "libro-a-faccia-in-giu"
  },
  "s45": {
   "tipo": "foto",
   "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__2/image-9088040e-a7eb-4417-912b-1b7f8765db2b.png?Expires=2104693188&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=1QGtRHwejFj9FkugjUaKySXY6IiWHAWaIWHn3NTIyxXI2BJFntZKmnHiNfUn6rwn0ARD8S26Ym7LO-Tw6B15p6BWLsmbfK-xjQBp6G7UNJ8q5kYVzjLJCdej8SQSQWjcIl9r4RBvYe9RSDw3hXFXbhbU~ZngrGo2LmgLzwljlHFayDpHMsUSifbZqX5rZdSYUSzHOoYOOf8-XjWDWczQLCrGrzx560XpNcCZM~lHz5lrK0scxuqdtr-9ktxcBi4sOlnm4pocl~39PuEjxoktGX1D-WH4MHH0lvZq5Um0yB0RPYEiw8MLNgmPzJ-lj4oq~2YrtPLQfluF41DguOk7HA__",
-  "cosa": "un telefono girato a faccia in giu' sulla scrivania, accanto a un portatile chiuso"
+  "cosa": "un telefono girato a faccia in giu' sulla scrivania, accanto a un portatile chiuso",
+  "nome": "telefono-a-faccia-in-giu"
  }
 }

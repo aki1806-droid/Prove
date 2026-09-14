@@ -1,0 +1,483 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.4",
+"title": "Reggere la reazione dell'altro",
+"sub": "Assertività e confini"
+},
+{
+"file": "c02",
+"layout": "quote",
+"kicker": "dove si ferma quasi sempre",
+"title": "«La lezione scorsa<br>si fermava troppo presto.»"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Un no ben costruito<br>produce quasi sempre una reazione.<br><span class=\"gold\">Non è un difetto del no: è il suo effetto normale.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "E quasi tutti i no ben costruiti<br><span class=\"gold\">si sciolgono lì</span>."
+},
+{
+"file": "c05",
+"layout": "linea",
+"kicker": "dove muore il no",
+"momenti": [
+{
+"a": 6,
+"et": "lo dici"
+},
+{
+"a": 58,
+"et": "i due minuti dopo"
+}
+],
+"sx": "qui va tutto bene",
+"dx": "qui si scioglie",
+"title": "Non nel momento in cui viene detto. Nei due minuti dopo."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "La reazione ha una forma prevedibile.<br><span class=\"gold\">È la stessa del modulo sei.</span>"
+},
+{
+"file": "c07",
+"layout": "curva",
+"kicker": "la stessa asimmetria di sempre",
+"ciclo": 6,
+"punti": [
+[
+0,
+6
+],
+[
+8,
+10
+],
+[
+16,
+66
+],
+[
+22,
+95
+],
+[
+36,
+84
+],
+[
+58,
+56
+],
+[
+80,
+26
+],
+[
+100,
+10
+]
+],
+"vertice": {
+"x": 22,
+"et": "il picco"
+},
+"sx": "sale in secondi",
+"dx": "scende in minuti",
+"title": "Sale in fretta. E poi passa."
+},
+{
+"file": "c08",
+"layout": "finestra",
+"kicker": "dove si decide se il no tiene",
+"quota": 11,
+"et": "i due minuti del picco",
+"coda": "tutto il resto",
+"title": "Quasi tutti cedono qui dentro."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Non perché abbiano cambiato idea.<br>Ma perché nel picco<br><span class=\"gold\">sembra che durerà per sempre</span>."
+},
+{
+"file": "c10",
+"layout": "cartellino",
+"occhio": "quanto dura davvero",
+"cifra": "24",
+"unita": " ore",
+"che": "Quasi nessuna reazione a un no sopravvive a ventiquattro ore.",
+"voci": [
+{
+"et": "quanto sembra che duri",
+"v": 100,
+"val": "per sempre"
+},
+{
+"et": "quanto dura",
+"v": 7,
+"val": "meno di un giorno"
+}
+],
+"limite": "Il picco è l'unico momento in cui la previsione è sbagliata. Ed è l'unico momento in cui rispondi."
+},
+{
+"file": "c11",
+"layout": "bivio",
+"kicker": "dentro la finestra, due strade",
+"da": "«Non posso.» — e l'altro reagisce",
+"rami": [
+{
+"et": "reggi",
+"sub": "il no tiene"
+},
+{
+"et": "cedi",
+"sub": "hai insegnato una cosa"
+}
+],
+"acceso": 0,
+"title": "Cedere dentro la finestra non chiude niente: insegna."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "l'insistenza prende tre forme",
+"rows": [
+"La ripetizione",
+"La negoziazione",
+"L'emotiva"
+]
+},
+{
+"file": "c13",
+"layout": "quote",
+"kicker": "la prima — la ripetizione",
+"title": "«Ma davvero non puoi?<br>Ma proprio proprio?»"
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Non cerca un argomento nuovo.<br><span class=\"gold\">Cerca che tu ti stanchi.</span><br>Ed è un metodo che funziona spesso."
+},
+{
+"file": "c15",
+"layout": "quote",
+"kicker": "la seconda — la negoziazione",
+"title": "«E se invece facessimo giovedì?<br>E se ne facessi solo una parte?»"
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Cerca un appiglio nei tuoi motivi.<br><span class=\"gold\">E si disinnesca da sola<br>se hai seguito la lezione precedente.</span>"
+},
+{
+"file": "c17",
+"layout": "swap",
+"kicker": "la negoziazione ha bisogno di materiale",
+"rows": [
+[
+"Tre motivi dichiarati",
+"Tre cose da negoziare"
+],
+[
+"Un motivo",
+"Una cosa"
+],
+[
+"Nessun motivo",
+"Niente"
+]
+]
+},
+{
+"file": "c18",
+"layout": "quote",
+"kicker": "la terza — l'emotiva",
+"title": "«Pensavo di poter contare su di te.»"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Sulla terza vale la pena essere precisi.<br><span class=\"gold\">È quella che fa più danno.</span>"
+},
+{
+"file": "c20",
+"layout": "confronto",
+"occhio": "la leva del debito, dal modulo cinque",
+"titoli": [
+"un'obiezione",
+"la leva del debito"
+],
+"righe": [
+{
+"et": "su cosa agisce",
+"a": "sul merito",
+"b": "sull'emozione",
+"segna": true
+},
+{
+"et": "cosa ti dice",
+"a": "che hai torto",
+"b": "che sei una brutta persona",
+"segna": true
+},
+{
+"et": "si può verificare",
+"a": "sì",
+"b": "no"
+},
+{
+"et": "cosa ti chiede",
+"a": "una risposta",
+"b": "di cedere",
+"segna": true
+}
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Non sta dicendo che hai torto.<br><span class=\"gold\">Sta dicendo che sei una brutta persona<br>se non cedi.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Riconoscerla non la rende indolore.<br>Il senso di colpa arriva lo stesso,<br>anche quando sai come si chiama."
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "Ma toglie la confusione.<br>E la confusione<br>è la metà del problema."
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Non stai facendo una cosa cattiva.<br><span class=\"gold\">Stai ricevendo pressione.</span><br>Sono due cose diverse."
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Contro tutte e tre<br>funziona una cosa sola.<br><span class=\"gold\">Ed è quasi banale.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Ripeti la stessa frase.<br><span class=\"gold\">Identica.</span><br>Con lo stesso tono."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "tre volte, senza cambiare una parola",
+"active": 2,
+"rows": [
+"«Capisco, e non posso.»",
+"«Capisco, e non posso.»",
+"«Capisco, e non posso.»"
+]
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Sembra ottuso.<br><span class=\"gold\">Ed è l'esatto contrario.</span>"
+},
+{
+"file": "c30",
+"layout": "anello",
+"kicker": "perché variando non si finisce mai",
+"ciclo": 6,
+"passi": [
+"cambi la formulazione",
+"offri una superficie nuova",
+"l'altro ci si attacca",
+"cambi la formulazione"
+],
+"title": "C'è sempre qualcosa di nuovo da attaccare."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "La conversazione continua<br>perché <span class=\"gold\">gliela stai alimentando tu</span>."
+},
+{
+"file": "c32",
+"layout": "imbuto",
+"kicker": "le tre insistenze contro una frase sola",
+"ciclo": 6,
+"dentro": [
+"la ripetizione",
+"la negoziazione",
+"l'emotiva"
+],
+"fuori": "si esaurisce da sola",
+"title": "Chi ripete identico non dà materiale."
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Due condizioni.<br><span class=\"gold\">E la prima è quella<br>che nessuno dice mai.</span>"
+},
+{
+"file": "c35",
+"layout": "quadranti",
+"kicker": "le parole e il suono, separati",
+"xet": "le parole",
+"yet": "il tono",
+"celle": [
+"diverse, e fredde",
+"identiche, e fredde: una sfida",
+"diverse, e calde",
+"identiche, e calde: un no che tiene"
+],
+"acceso": 3,
+"title": "Identico nelle parole, caldo nel suono."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Se il tono si irrigidisce,<br>la ripetizione <span class=\"gold\">diventa una sfida</span>."
+},
+{
+"file": "c37",
+"layout": "bivio",
+"kicker": "alla terza ripetizione",
+"da": "la stessa frase, per la terza volta",
+"rami": [
+{
+"et": "difendi un no",
+"sub": "il tono è restato caldo"
+},
+{
+"et": "vinci una gara",
+"sub": "il tono si è irrigidito"
+}
+],
+"acceso": 0,
+"title": "E sono due cose diverse."
+},
+{
+"file": "c38",
+"layout": "memo",
+"title": "Niente spiegazioni nuove.<br>Nemmeno una piccola."
+},
+{
+"file": "c39",
+"layout": "quote",
+"kicker": "la tentazione, sempre alla terza",
+"title": "«È che davvero questa settimana…»"
+},
+{
+"file": "c40",
+"layout": "flusso",
+"kicker": "cosa succede quando aggiungi un motivo",
+"passi": [
+{
+"et": "Aggiungi",
+"sub": "una spiegazione nuova"
+},
+{
+"et": "Consegni",
+"sub": "il materiale che mancava"
+},
+{
+"et": "Ricomincia",
+"sub": "da capo, tutto"
+}
+]
+},
+{
+"file": "c41",
+"layout": "list",
+"kicker": "tre errori, tre modi diversi di cedere",
+"rows": [
+"Giustificarsi di più",
+"Attaccare chi insiste",
+"Cedere parzialmente"
+]
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "il primo",
+"active": 0,
+"rows": [
+"Giustificarsi di più",
+"Attaccare chi insiste",
+"Cedere parzialmente"
+]
+},
+{
+"file": "c43",
+"layout": "quote",
+"kicker": "il secondo",
+"title": "«Ti ho già detto di no.<br>Non capisci?»"
+},
+{
+"file": "c44",
+"layout": "ponte",
+"kicker": "cosa sposta",
+"sx": "il no",
+"dx": "la vostra relazione",
+"vuoto": "e da lì non si torna indietro",
+"ponte": "attaccare chi insiste",
+"title": "Il no era una posizione. Adesso è un giudizio su di lui."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "il terzo, e il più costoso",
+"active": 2,
+"rows": [
+"Giustificarsi di più",
+"Attaccare chi insiste",
+"Cedere parzialmente"
+]
+},
+{
+"file": "c47",
+"layout": "statement",
+"title": "Cedere a metà insegna una cosa precisa:<br><span class=\"gold\">che insistendo si ottiene.</span>"
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "La prossima richiesta arriverà<br>con la stessa insistenza.<br><span class=\"gold\">E sarà razionale, non maleducata.</span>"
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "7.4 in un quadro",
+"celle": [
+{
+"cap": "01",
+"et": "La reazione passa in 24 ore"
+},
+{
+"cap": "02",
+"et": "Tre insistenze, una risposta"
+},
+{
+"cap": "03",
+"et": "Identico, e caldo"
+},
+{
+"cap": "04",
+"et": "Niente motivi nuovi",
+"acceso": true
+}
+],
+"resta": "«Capisco, e non posso.» — tre volte, senza cambiare una parola."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 7.4",
+"sub": "laparolagiusta.it"
+}
+]

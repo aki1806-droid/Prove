@@ -1,0 +1,555 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.3",
+"title": "Struttura di un no che non ferisce",
+"sub": "Assertività e confini"
+},
+{
+"file": "c02",
+"layout": "flusso",
+"kicker": "quattro tempi, e il quarto è il più importante",
+"passi": [
+{
+"et": "Riconosci",
+"sub": "«capisco che ti serva»"
+},
+{
+"et": "Il no",
+"sub": "«non posso farlo»"
+},
+{
+"et": "L'alternativa",
+"sub": "facoltativa, più piccola"
+},
+{
+"et": "Stop",
+"sub": "taci"
+}
+]
+},
+{
+"file": "c03",
+"layout": "anatomia",
+"occhio": "il no per intero, in tre frasi",
+"frase": [
+{
+"t": "Capisco che ti serva",
+"et": "riconosci",
+"sub": "e dev'essere vero",
+"forte": true
+},
+{
+"t": ". "
+},
+{
+"t": "Non posso farlo",
+"et": "il no",
+"sub": "prima persona, chiaro, breve"
+},
+{
+"t": ". "
+},
+{
+"t": "Posso darti una mano giovedì",
+"et": "l'alternativa",
+"sub": "facoltativa"
+},
+{
+"t": "."
+}
+],
+"chiusa": "E poi stop. Il quarto tempo non si scrive: è il silenzio dopo."
+},
+{
+"file": "c04",
+"layout": "memo",
+"theme": "deep",
+"title": "Chi le riceve sa dove si trova.<br>E non ha niente da attaccare."
+},
+{
+"file": "c05",
+"layout": "flusso",
+"kicker": "il primo",
+"passi": [
+{
+"et": "Riconosci",
+"sub": "«capisco che ti serva»"
+},
+{
+"et": "Il no",
+"sub": "«non posso farlo»"
+},
+{
+"et": "L'alternativa",
+"sub": "facoltativa, più piccola"
+},
+{
+"et": "Stop",
+"sub": "taci"
+}
+],
+"acceso": 0,
+"note": "toglie all'altro il giro di rispiegare"
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Non è una formula<br>di cortesia."
+},
+{
+"file": "c07",
+"layout": "anello",
+"kicker": "cosa succede senza riconoscimento",
+"ciclo": 6,
+"passi": [
+"dici no",
+"lui rispiega",
+"credi di non esserti spiegato",
+"ridici no"
+],
+"title": "Il riconoscimento toglie il giro."
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Immagina di<br>non essersi spiegato bene."
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "e una condizione secca",
+"title": "Deve essere vero."
+},
+{
+"file": "c10",
+"layout": "quote",
+"title": "Se non capisci perché<br>te lo chiede, chiedi."
+},
+{
+"file": "c11",
+"layout": "memo",
+"title": "Un riconoscimento finto si sente.<br>E lì hai perso<br>anche il no."
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Un riconoscimento finto<br>costa più del silenzio."
+},
+{
+"file": "c13",
+"layout": "flusso",
+"kicker": "il secondo",
+"passi": [
+{
+"et": "Riconosci",
+"sub": "«capisco che ti serva»"
+},
+{
+"et": "Il no",
+"sub": "«non posso farlo»"
+},
+{
+"et": "L'alternativa",
+"sub": "facoltativa, più piccola"
+},
+{
+"et": "Stop",
+"sub": "taci"
+}
+],
+"acceso": 1,
+"note": "tre requisiti, tutti verificabili"
+},
+{
+"file": "c14",
+"layout": "swap",
+"kicker": "il primo requisito: prima persona",
+"rows": [
+[
+"«non si può»",
+"cerca l'eccezione alla regola"
+],
+[
+"«io non posso»",
+"non c'è eccezione da cercare"
+]
+]
+},
+{
+"file": "c15",
+"layout": "statement",
+"title": "E un'eccezione<br>si trova quasi sempre."
+},
+{
+"file": "c16",
+"layout": "memo",
+"theme": "deep",
+"title": "Una decisione tua<br>non ha eccezioni<br>da cercare."
+},
+{
+"file": "c17",
+"layout": "swap",
+"kicker": "il secondo requisito: chiaro",
+"rows": [
+[
+"«non credo di riuscire»",
+"forse"
+],
+[
+"«è difficile»",
+"forse"
+],
+[
+"«vediamo»",
+"forse"
+]
+]
+},
+{
+"file": "c18",
+"layout": "bilancia",
+"kicker": "quanto costa un forse",
+"sx": {
+"et": "onorarlo",
+"peso": 6
+},
+"dx": {
+"et": "rimangiarlo",
+"peso": 6
+},
+"title": "Ti costerà due volte, e la seconda più della prima."
+},
+{
+"file": "c19",
+"layout": "finestra",
+"kicker": "il terzo requisito: breve",
+"quota": 18,
+"et": "il no corto",
+"coda": "tutto quello che aggiungi dopo",
+"title": "Più facile da accettare del no lungo."
+},
+{
+"file": "c20",
+"layout": "swap",
+"kicker": "e questo sorprende quasi tutti",
+"rows": [
+[
+"la lunghezza sembra rispetto",
+"in realtà sembra esitazione"
+]
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "e adesso la parte che sorprende tutti",
+"title": "Va contro<br>quello che viene da fare."
+},
+{
+"file": "c23",
+"layout": "memo",
+"theme": "deep",
+"title": "Le spiegazioni<br>non ammorbidiscono il no.<br>Lo indeboliscono."
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "E il perché<br>sembra cortesia."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "in realtà",
+"title": "È una richiesta implicita<br>di approvazione."
+},
+{
+"file": "c26",
+"layout": "quote",
+"title": "Dimmi che il mio motivo<br>è valido."
+},
+{
+"file": "c27",
+"layout": "memo",
+"title": "Ogni motivo che dai<br>è un appiglio."
+},
+{
+"file": "c28",
+"layout": "bivio",
+"kicker": "lo stesso no, con e senza motivo",
+"da": "«Non posso.»",
+"rami": [
+{
+"et": "«...ho una riunione alle tre»",
+"sub": "→ «allora facciamo alle cinque»"
+},
+{
+"et": "«Non posso.»",
+"sub": "→ niente da smontare"
+}
+],
+"acceso": 1,
+"title": "Il grimaldello gliel'hai consegnato tu."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Insieme al no."
+},
+{
+"file": "c30",
+"layout": "barre",
+"kicker": "quanta superficie offri",
+"barre": [
+{
+"et": "zero motivi",
+"v": 6,
+"val": "niente da attaccare"
+},
+{
+"et": "un motivo",
+"v": 34,
+"val": "un appiglio"
+},
+{
+"et": "tre motivi",
+"v": 92,
+"val": "tre appigli"
+}
+],
+"acceso": 0,
+"title": "Più motivi accumuli, più superficie offri."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Li smonta uno per uno.<br>E rifiutare comunque<br>sembrerà irragionevole."
+},
+{
+"file": "c32",
+"layout": "memo",
+"theme": "deep",
+"title": "Mentre è la tua decisione,<br>che non era mai dipesa<br>dai motivi."
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "con chi ha diritto a una spiegazione",
+"title": "Si spiega."
+},
+{
+"file": "c35",
+"layout": "linea",
+"kicker": "ma il posto della spiegazione conta",
+"momenti": [
+{
+"a": 8,
+"et": "il no",
+"sub": "chiuso"
+},
+{
+"a": 58,
+"et": "pausa",
+"sub": "il no è passato"
+},
+{
+"a": 92,
+"et": "la spiegazione",
+"sub": "separata"
+}
+],
+"sx": "non dentro il no",
+"dx": "dopo",
+"title": "Dentro il no è una giustificazione. Dopo è un'informazione."
+},
+{
+"file": "c36",
+"layout": "swap",
+"kicker": "la differenza sembra sottile e non lo è",
+"rows": [
+[
+"spieghi dentro il no",
+"stai chiedendo il permesso"
+],
+[
+"spieghi dopo",
+"stai informando"
+]
+]
+},
+{
+"file": "c37",
+"layout": "flusso",
+"kicker": "il terzo",
+"passi": [
+{
+"et": "Riconosci",
+"sub": "«capisco che ti serva»"
+},
+{
+"et": "Il no",
+"sub": "«non posso farlo»"
+},
+{
+"et": "L'alternativa",
+"sub": "facoltativa, più piccola"
+},
+{
+"et": "Stop",
+"sub": "taci"
+}
+],
+"acceso": 2,
+"note": "e senza tre condizioni è peggio che non offrirla"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "la prima",
+"title": "Che sia vera."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "Che sia più piccola."
+},
+{
+"file": "c40",
+"layout": "memo",
+"title": "Offrirne sempre una<br>è il modo elegante<br>per non rifiutare mai."
+},
+{
+"file": "c41",
+"layout": "flusso",
+"kicker": "e finalmente il quarto",
+"passi": [
+{
+"et": "Riconosci",
+"sub": "«capisco che ti serva»"
+},
+{
+"et": "Il no",
+"sub": "«non posso farlo»"
+},
+{
+"et": "L'alternativa",
+"sub": "facoltativa, più piccola"
+},
+{
+"et": "Stop",
+"sub": "taci"
+}
+],
+"acceso": 3,
+"note": "il più corto da spiegare, il più difficile da fare"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Dopo il no,<br>taci."
+},
+{
+"file": "c43",
+"layout": "cartellino",
+"occhio": "dove si perdono i no ben costruiti",
+"cifra": "3",
+"unita": " secondi",
+"che": "Non nel no. Nei tre secondi dopo, quando il silenzio sembra scortese.",
+"voci": [
+{
+"et": "nel no",
+"v": 10,
+"val": "quasi mai"
+},
+{
+"et": "nei tre secondi dopo",
+"v": 90,
+"val": "quasi sempre"
+}
+],
+"limite": "Il novanta per cento è un modo di dire, non una misura: è l'ordine di grandezza di quello che si vede, non un dato verificato."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Sta ritirando il no<br>mentre lo dice."
+},
+{
+"file": "c46",
+"layout": "confronto",
+"occhio": "lo stesso no, due finali",
+"titoli": [
+"continui a parlare",
+"stai zitto"
+],
+"righe": [
+{
+"et": "cosa dai",
+"a": "altri motivi",
+"b": "niente",
+"segna": true
+},
+{
+"et": "come suona",
+"a": "una richiesta",
+"b": "una decisione",
+"segna": true
+},
+{
+"et": "quanto dura",
+"a": "finché cedi",
+"b": "tre secondi"
+},
+{
+"et": "cosa ottieni",
+"a": "una trattativa",
+"b": "una risposta",
+"segna": true
+}
+]
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Chi sta zitto ottiene una risposta.<br>Chi continua a parlare<br>ottiene una trattativa."
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "E una trattativa che comincia<br>dal tuo no<br>comincia in svantaggio."
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "7.3 in un quadro",
+"celle": [
+{
+"cap": "01",
+"et": "Riconosci, se è vero"
+},
+{
+"cap": "02",
+"et": "Il no: io, chiaro, breve"
+},
+{
+"cap": "03",
+"et": "L'alternativa, facoltativa"
+},
+{
+"cap": "04",
+"et": "Stop",
+"acceso": true
+}
+],
+"resta": "«Non riesco a fare tutto, mi dici cosa lascio indietro?»"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 7.3",
+"sub": "laparolagiusta.it"
+}
+]

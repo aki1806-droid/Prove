@@ -1,0 +1,508 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.2",
+"title": "Passivo, aggressivo, assertivo",
+"sub": "Assertività e confini"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il modo in cui si racconta",
+"title": "È sbagliato,<br>e vale la pena dirlo subito."
+},
+{
+"file": "c03",
+"layout": "linea",
+"kicker": "come viene raccontato di solito",
+"momenti": [
+{
+"a": 4,
+"et": "passivo"
+},
+{
+"a": 50,
+"et": "assertivo"
+},
+{
+"a": 96,
+"et": "aggressivo"
+}
+],
+"sx": "cedi tutto",
+"dx": "imponi tutto",
+"title": "Come se fosse una questione di dosaggio."
+},
+{
+"file": "c04",
+"layout": "memo",
+"theme": "deep",
+"title": "Non basta abbassare il volume<br>dell'aggressivo per ottenere<br>un assertivo."
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Non è una linea<br>con due estremi."
+},
+{
+"file": "c06",
+"layout": "quadranti",
+"kicker": "due cose indipendenti, su due assi",
+"xet": "quanto conta l'altro",
+"yet": "quanto conti tu",
+"celle": [
+"passivo-aggressivo — non conta nessuno dei due",
+"assertivo — «non posso, e capisco che ti serva»",
+"passivo — «come vuoi»",
+"aggressivo — «e' un tuo problema»"
+]
+},
+{
+"file": "c07",
+"layout": "quadranti",
+"kicker": "il primo",
+"xet": "quanto conta l'altro",
+"yet": "quanto conti tu",
+"celle": [
+"passivo-aggressivo — non conta nessuno dei due",
+"assertivo — «non posso, e capisco che ti serva»",
+"passivo — «come vuoi»",
+"aggressivo — «e' un tuo problema»"
+],
+"acceso": 2,
+"title": "Conti tu, io no."
+},
+{
+"file": "c08",
+"layout": "quadranti",
+"kicker": "il secondo",
+"xet": "quanto conta l'altro",
+"yet": "quanto conti tu",
+"celle": [
+"passivo-aggressivo — non conta nessuno dei due",
+"assertivo — «non posso, e capisco che ti serva»",
+"passivo — «come vuoi»",
+"aggressivo — «e' un tuo problema»"
+],
+"acceso": 3,
+"title": "Conto io, tu no."
+},
+{
+"file": "c09",
+"layout": "quadranti",
+"kicker": "il terzo",
+"xet": "quanto conta l'altro",
+"yet": "quanto conti tu",
+"celle": [
+"passivo-aggressivo — non conta nessuno dei due",
+"assertivo — «non posso, e capisco che ti serva»",
+"passivo — «come vuoi»",
+"aggressivo — «e' un tuo problema»"
+],
+"acceso": 0,
+"title": "Dice di sì e non conta nessuno dei due."
+},
+{
+"file": "c10",
+"layout": "quote",
+"title": "Ma figurati,<br>ci penso io."
+},
+{
+"file": "c11",
+"layout": "quadranti",
+"kicker": "il quarto",
+"xet": "quanto conta l'altro",
+"yet": "quanto conti tu",
+"celle": [
+"passivo-aggressivo — non conta nessuno dei due",
+"assertivo — «non posso, e capisco che ti serva»",
+"passivo — «come vuoi»",
+"aggressivo — «e' un tuo problema»"
+],
+"acceso": 1,
+"title": "L'unica casella dove ci siete tutti e due."
+},
+{
+"file": "c12",
+"layout": "anatomia",
+"occhio": "due cose tenute ferme nella stessa frase",
+"frase": [
+{
+"t": "Non posso",
+"et": "te",
+"sub": "non la lasci cadere",
+"forte": true
+},
+{
+"t": ", e "
+},
+{
+"t": "capisco che ti serva",
+"et": "l'altro",
+"sub": "non lo lasci cadere"
+},
+{
+"t": "."
+}
+],
+"chiusa": "Togline una e ricadi in una delle altre tre caselle."
+},
+{
+"file": "c13",
+"layout": "memo",
+"theme": "deep",
+"title": "L'assertivo non è<br>un aggressivo moderato."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "È qualcuno che non lascia cadere<br><span class=\"gold\">né sé né l'altro.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "ed è per questo che è difficile",
+"title": "Ma non per il motivo<br>che si crede."
+},
+{
+"file": "c16",
+"layout": "memo",
+"title": "Non richiede di trovare un tono.<br>Richiede di reggere<br>una tensione."
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Tenere insieme due cose<br>che tirano da parti opposte<br>è scomodo. E resta scomodo."
+},
+{
+"file": "c18",
+"layout": "bilancia",
+"kicker": "cosa fanno le tre posture con la tensione",
+"sx": {
+"et": "te",
+"peso": 5
+},
+"dx": {
+"et": "l'altro",
+"peso": 5
+},
+"title": "Il passivo la scioglie cedendo. L'aggressivo imponendo. L'assertivo la tiene."
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Tutti e due hanno trovato un modo<br>per non sentirla più."
+},
+{
+"file": "c20",
+"layout": "swap",
+"kicker": "e non sono la stessa cosa",
+"rows": [
+[
+"complicato: devi imparare qualcosa",
+"scomodo: devi sopportare qualcosa"
+]
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Complicato vuol dire una cosa.<br>Scomodo ne vuol dire<br>un'altra."
+},
+{
+"file": "c23",
+"layout": "memo",
+"theme": "deep",
+"title": "Non è una tecnica.<br>È una tolleranza."
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "e sul passivo",
+"title": "Non è solo<br>un danno per te."
+},
+{
+"file": "c25",
+"layout": "anello",
+"kicker": "perché te lo richiederà",
+"ciclo": 6,
+"passi": [
+"ti chiede",
+"dici di sì",
+"non sa che ti è costato",
+"te lo richiede"
+],
+"title": "Stai chiedendo all'altro di indovinare."
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Per quanto ne sa lui,<br>era una richiesta normale."
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Quindi te lo richiederà.<br>E la volta dopo ancora."
+},
+{
+"file": "c28",
+"layout": "memo",
+"title": "E non è colpa sua.<br>Non gliel'hai detto."
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "la postura più diffusa negli uffici italiani",
+"title": "Il passivo-aggressivo."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Nasce dove il conflitto aperto<br>costa socialmente."
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Il no esce lo stesso,<br>ma per un'altra strada."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "e va nominato senza giri",
+"title": "È la postura<br>più costosa di tutte."
+},
+{
+"file": "c34",
+"layout": "pila",
+"kicker": "cosa paga",
+"blocchi": [
+"il risentimento, come il passivo",
+"la fiducia, come l'aggressivo"
+],
+"acceso": 0,
+"title": "Quello ce l'ha tutto."
+},
+{
+"file": "c35",
+"layout": "pila",
+"kicker": "e anche",
+"blocchi": [
+"il risentimento, come il passivo",
+"la fiducia, come l'aggressivo"
+],
+"acceso": 1,
+"title": "Perché alla lunga si vede."
+},
+{
+"file": "c36",
+"layout": "cartellino",
+"occhio": "il conto del passivo-aggressivo",
+"cifra": "2",
+"unita": " prezzi",
+"che": "Paga quello del passivo e quello dell'aggressivo.",
+"voci": [
+{
+"et": "la pace del passivo",
+"v": 0,
+"val": "non ce l'ha"
+},
+{
+"et": "il risultato dell'aggressivo",
+"v": 0,
+"val": "non ce l'ha"
+}
+],
+"limite": "È l'unica delle quattro posture che non conviene nemmeno a chi la usa: gli altri tre almeno incassano qualcosa."
+},
+{
+"file": "c37",
+"layout": "memo",
+"theme": "deep",
+"title": "Non conviene<br>nemmeno a chi la usa."
+},
+{
+"file": "c38",
+"layout": "flusso",
+"kicker": "l'assertivo si riconosce da tre cose",
+"passi": [
+{
+"et": "Prima persona",
+"sub": "io non posso"
+},
+{
+"et": "Nessun permesso",
+"sub": "non chiede di poter rifiutare"
+},
+{
+"et": "Nessuna scusa",
+"sub": "non si scusa per esistere"
+}
+]
+},
+{
+"file": "c39",
+"layout": "flusso",
+"kicker": "la prima",
+"acceso": 0,
+"note": "«io non posso», non «non si può»",
+"passi": [
+{
+"et": "Prima persona",
+"sub": "io non posso"
+},
+{
+"et": "Nessun permesso",
+"sub": "non chiede di poter rifiutare"
+},
+{
+"et": "Nessuna scusa",
+"sub": "non si scusa per esistere"
+}
+]
+},
+{
+"file": "c40",
+"layout": "swap",
+"kicker": "perché la differenza conta",
+"rows": [
+[
+"«non si può»",
+"cerca l'eccezione alla regola"
+],
+[
+"«io non posso»",
+"non c'è eccezione da cercare"
+]
+]
+},
+{
+"file": "c41",
+"layout": "flusso",
+"kicker": "la seconda",
+"acceso": 1,
+"note": "«ti dispiacerebbe se non lo facessi» diventa una sua decisione",
+"passi": [
+{
+"et": "Prima persona",
+"sub": "io non posso"
+},
+{
+"et": "Nessun permesso",
+"sub": "non chiede di poter rifiutare"
+},
+{
+"et": "Nessuna scusa",
+"sub": "non si scusa per esistere"
+}
+]
+},
+{
+"file": "c42",
+"layout": "flusso",
+"kicker": "la terza",
+"acceso": 2,
+"note": "«scusa se te lo dico» indebolisce tutto quello che segue",
+"passi": [
+{
+"et": "Prima persona",
+"sub": "io non posso"
+},
+{
+"et": "Nessun permesso",
+"sub": "non chiede di poter rifiutare"
+},
+{
+"et": "Nessuna scusa",
+"sub": "non si scusa per esistere"
+}
+]
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "E una quarta cosa,<br>che è quella che <span class=\"gold\">non</span> fa:<br>non pretende di avere ragione."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Tenere ferma la tua posizione<br>e avere ragione<br>sono due cose diverse."
+},
+{
+"file": "c46",
+"layout": "statement",
+"kicker": "l'ultima, e rende utile tutto il resto",
+"title": "Quasi nessuno<br>ha una postura sola."
+},
+{
+"file": "c47",
+"layout": "confronto",
+"occhio": "la stessa persona, due relazioni",
+"titoli": [
+"con chi fa paura",
+"con chi non ne fa"
+],
+"righe": [
+{
+"et": "come rispondi",
+"a": "come vuoi",
+"b": "è un tuo problema",
+"segna": true
+},
+{
+"et": "chi conta",
+"a": "solo l'altro",
+"b": "solo tu",
+"segna": true
+},
+{
+"et": "cosa dici dopo",
+"a": "niente",
+"b": "niente"
+},
+{
+"et": "cosa concludi",
+"a": "«sono fatto così»",
+"b": "«sono fatto così»",
+"segna": true
+}
+]
+},
+{
+"file": "c48",
+"layout": "memo",
+"theme": "deep",
+"title": "Quindi non è<br>un tratto caratteriale."
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "7.2 in un quadro",
+"celle": [
+{
+"cap": "Passivo",
+"et": "conti tu, io no"
+},
+{
+"cap": "Aggressivo",
+"et": "conto io, tu no"
+},
+{
+"cap": "P-aggressivo",
+"et": "nessuno dei due"
+},
+{
+"cap": "Assertivo",
+"et": "tutti e due",
+"acceso": true
+}
+],
+"resta": "Se in una relazione riesci a essere assertivo, la competenza ce l'hai già."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 7.2",
+"sub": "laparolagiusta.it"
+}
+]

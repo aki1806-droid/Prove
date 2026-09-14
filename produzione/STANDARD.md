@@ -348,7 +348,7 @@ l'animazione viene da sé. Un disegno scritto a mano dentro il JSON non si
 riusa, non si anima come gli altri, e alla terza lezione ha già un'altra
 geometria.
 
-Cinque trappole del generatore, ognuna costata un giro di render. Le prime
+Sei trappole del generatore, ognuna costata un giro di render. Le prime
 quattro sono invisibili sulle dissolvenze e letali su tutto il resto, ed è
 per questo che sono venute fuori tardi:
 
@@ -375,6 +375,11 @@ per questo che sono venute fuori tardi:
 - dentro un template literal, **niente backtick nei commenti**. Chiudono la
   stringa e il file non compila più. Vale per `figure_corso.mjs` e per il
   blocco `motion` di `clips_corso.mjs`.
+- l'etichetta del **ponte** deve stare su **una riga sola** (circa trenta
+  caratteri). Il testo è ancorato a una quota fissa sopra l'arco e scende di
+  42 unità per riga: dalla seconda riga in poi finisce **sopra il tracciato
+  dell'arco**, illeggibile. Vale per qualunque figura che scrive un'etichetta
+  a quota fissa sopra un disegno.
 
 ### Movimento che non finisce
 

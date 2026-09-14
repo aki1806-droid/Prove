@@ -1,0 +1,459 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.5",
+"title": "Dare e ricevere critiche",
+"sub": "Assertività e confini"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Dare una critica e riceverne una<br>sembrano la stessa competenza<br>vista da due lati."
+},
+{
+"file": "c03",
+"layout": "confronto",
+"occhio": "due mestieri diversi",
+"titoli": [
+"dare",
+"ricevere"
+],
+"righe": [
+{
+"et": "di cosa è questione",
+"a": "di forma",
+"b": "di gestione di sé",
+"segna": true
+},
+{
+"et": "ci sono regole",
+"a": "sì, tre",
+"b": "nessuna che tolga il colpo",
+"segna": true
+},
+{
+"et": "si insegna",
+"a": "bene",
+"b": "quasi mai",
+"segna": true
+},
+{
+"et": "quanto cambia le cose",
+"a": "un po'",
+"b": "molto",
+"segna": true
+}
+]
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Dare una critica è una questione di forma.<br><span class=\"gold\">Ci sono regole, si imparano, funzionano.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Riceverne una è una questione<br>di gestione di sé.<br><span class=\"gold\">Nessuna formula ti toglie<br>quello che senti nei primi cinque secondi.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Quasi tutti i corsi si occupano solo della prima.<br><span class=\"gold\">Perché è quella che si insegna bene.</span>"
+},
+{
+"file": "c07",
+"layout": "bilancia",
+"kicker": "dove conviene mettere il tempo",
+"sx": {
+"et": "dare",
+"peso": 2
+},
+"dx": {
+"et": "ricevere",
+"peso": 7
+},
+"title": "Partiamo dalla prima. Ma il tempo vero lo diamo alla seconda."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "dare — tre regole, dal modulo sei",
+"rows": [
+"Il fatto, non la persona",
+"L'effetto, non l'intenzione",
+"Una cosa per volta"
+]
+},
+{
+"file": "c09",
+"layout": "swap",
+"kicker": "la prima — il fatto, non la persona",
+"rows": [
+[
+"«Sei disorganizzato»",
+"«La relazione è arrivata due giorni dopo»"
+]
+]
+},
+{
+"file": "c10",
+"layout": "memo",
+"title": "Un fatto è correggibile.<br>Un'etichetta si difende."
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Se dico che sei disorganizzato,<br>l'unica cosa che puoi fare<br>è <span class=\"gold\">dimostrarmi che non lo sei</span>."
+},
+{
+"file": "c12",
+"layout": "swap",
+"kicker": "la seconda — l'effetto, non l'intenzione",
+"rows": [
+[
+"«Evidentemente non ti interessava»",
+"«Ho dovuto rifare la parte finale»"
+]
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "L'intenzione dell'altro non la sai.<br>Non l'hai mai saputa.<br><span class=\"gold\">Quando la dichiari, stai indovinando ad alta voce.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "L'effetto invece lo sai con certezza.<br><span class=\"gold\">È l'unica cosa di cui sei testimone.</span>"
+},
+{
+"file": "c15",
+"layout": "pila",
+"kicker": "la terza — una cosa per volta",
+"blocchi": [
+"una critica",
+"e una seconda",
+"e una terza"
+],
+"title": "Tre critiche insieme non sono tre critiche."
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Sono un giudizio complessivo sulla persona.<br><span class=\"gold\">E nessuno corregge tre cose insieme:<br>si difende e basta.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Poi due condizioni di contesto.<br><span class=\"gold\">E valgono più delle tre regole<br>messe insieme.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "In privato.<br>Una critica pubblica non viene ascoltata:<br><span class=\"gold\">chi la riceve è occupato a salvare la faccia.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Può essere formulata benissimo.<br><span class=\"gold\">La parte che ascolta, in quel momento, è spenta.</span>"
+},
+{
+"file": "c20",
+"layout": "linea",
+"kicker": "l'altra condizione: presto",
+"momenti": [
+{
+"a": 8,
+"et": "il fatto"
+},
+{
+"a": 28,
+"et": "presto"
+},
+{
+"a": 94,
+"et": "due mesi dopo"
+}
+],
+"sx": "si corregge",
+"dx": "si difende",
+"title": "Una critica vecchia di due mesi comunica una cosa che non volevi comunicare."
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Comunica che stavi tenendo il conto.<br>E che il conto<br>è ancora aperto."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Una cosa buona, la critica,<br>un'altra cosa buona.<br><span class=\"gold\">Sta in tutti i manuali. E funziona una volta.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "Le persone imparano lo schema in fretta.<br><span class=\"gold\">Molto più in fretta<br>di quanto chi lo usa immagini.</span>"
+},
+{
+"file": "c25",
+"layout": "anello",
+"kicker": "cosa insegna il panino",
+"ciclo": 6,
+"passi": [
+"un complimento",
+"arriva la critica",
+"il complimento la annuncia",
+"un complimento"
+],
+"title": "Ogni complimento diventa l'annuncio di una critica in arrivo."
+},
+{
+"file": "c26",
+"layout": "cartellino",
+"occhio": "quanto resta dopo il panino",
+"cifra": "2",
+"unita": " cose rovinate",
+"che": "La critica e i complimenti. Insieme.",
+"voci": [
+{
+"et": "la critica",
+"v": 22,
+"val": "attesa, non ascoltata"
+},
+{
+"et": "i complimenti",
+"v": 12,
+"val": "non più credibili"
+}
+],
+"limite": "Hai pagato una cosa che avevi gratis: la credibilità di quello che dici di buono."
+},
+{
+"file": "c27",
+"layout": "quote",
+"kicker": "e adesso la parte difficile",
+"title": "«Quella che nessuno insegna.»"
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "ricevere — tre mosse",
+"rows": [
+"Prendi tempo",
+"Cerca il pezzo vero",
+"Rispondi dopo"
+]
+},
+{
+"file": "c29",
+"layout": "swap",
+"kicker": "la prima, e l'unica che conta davvero",
+"rows": [
+[
+"«Sì, ma…» — subito",
+"«Ci penso e ti dico.»"
+]
+]
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "È una risposta completa e legittima.<br><span class=\"gold\">E quasi nessuno la usa.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Perché il silenzio dopo una critica<br><span class=\"gold\">sembra un'ammissione</span>."
+},
+{
+"file": "c32",
+"layout": "confronto",
+"occhio": "lo stesso silenzio, da due lati",
+"titoli": [
+"da dentro",
+"da fuori"
+],
+"righe": [
+{
+"et": "cosa sembra",
+"a": "un'ammissione",
+"b": "una persona che pensa",
+"segna": true
+},
+{
+"et": "quanto dura",
+"a": "un'eternità",
+"b": "tre secondi"
+},
+{
+"et": "cosa comunica",
+"a": "che hai ceduto",
+"b": "che stai valutando",
+"segna": true
+}
+]
+},
+{
+"file": "c34",
+"layout": "imbuto",
+"kicker": "la seconda mossa",
+"ciclo": 6,
+"dentro": [
+"mal formulata",
+"ingiusta nel complesso",
+"detta male"
+],
+"fuori": "il pezzo esatto",
+"title": "Quasi ogni critica ne contiene uno."
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Può essere il dieci per cento.<br><span class=\"gold\">Trovarlo è l'unica parte che ti serve.</span><br>Buttare il resto non è disonestà."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Terza: rispondi dopo. Se serve rispondere.<br><span class=\"gold\">Molte critiche non chiedono una risposta:<br>chiedono di essere sentite.</span>"
+},
+{
+"file": "c37",
+"layout": "bivio",
+"kicker": "due reazioni che tolgono informazioni",
+"da": "arriva la critica",
+"rami": [
+{
+"et": "la difesa immediata",
+"sub": "«sì, ma c'era il problema del…»"
+},
+{
+"et": "l'accettazione totale",
+"sub": "«hai ragione su tutto, scusami»"
+}
+],
+"title": "Sono le due più comuni al mondo. E tolgono le stesse informazioni."
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Anche quando quello che dici è vero,<br>comunica una cosa sola:<br><span class=\"gold\">che non hai intenzione di considerarla.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "E chi ha parlato smetterà di parlare.<br><span class=\"gold\">Non con un annuncio.<br>Semplicemente, la prossima volta non lo dirà.</span>"
+},
+{
+"file": "c40",
+"layout": "barre",
+"kicker": "quante critiche ricevi",
+"barre": [
+{
+"et": "chi ascolta",
+"v": 86,
+"val": "tante, e presto"
+},
+{
+"et": "chi si difende",
+"v": 22,
+"val": "poche"
+},
+{
+"et": "chi comanda",
+"v": 7,
+"val": "quasi nessuna"
+}
+],
+"acceso": 2,
+"title": "È il modo più efficace che esista per smettere di riceverne."
+},
+{
+"file": "c41",
+"layout": "memo",
+"title": "Non perché sbagli meno.<br>Perché ha insegnato a tutti<br>che non conviene."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "«Hai ragione su tutto, scusami.»<br><span class=\"gold\">Sembra umiltà.</span>"
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "Ed è un modo per chiudere in fretta<br>una cosa che fa male.<br><span class=\"gold\">Chi accetta tutto non ha valutato niente.<br>E l'altro lo sente.</span>"
+},
+{
+"file": "c44",
+"layout": "ponte",
+"kicker": "in mezzo alle due",
+"sx": "la difesa",
+"dx": "l'accettazione totale",
+"vuoto": "quasi nessuno passa di qui",
+"ponte": "«Su questo sì, su questo no»",
+"title": "Due pezzi, separati, tutti e due detti."
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "Un ultimo criterio, per non prendere tutto addosso.<br><span class=\"gold\">Non tutte le critiche contengono informazioni su di te.</span>"
+},
+{
+"file": "c47",
+"layout": "linea",
+"kicker": "il criterio non è l'intensità",
+"momenti": [
+{
+"a": 8,
+"et": "generica"
+},
+{
+"a": 50,
+"et": "un po' circostanziata"
+},
+{
+"a": 94,
+"et": "precisa"
+}
+],
+"sx": "riguarda chi la fa",
+"dx": "riguarda te",
+"title": "Il criterio non è quanto è forte. È quanto è precisa."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Una critica precisa riguarda te.<br>Una critica generica<br>riguarda chi la fa."
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "7.5 in un quadro",
+"celle": [
+{
+"cap": "01",
+"et": "Il fatto, non la persona"
+},
+{
+"cap": "02",
+"et": "L'effetto, non l'intenzione"
+},
+{
+"cap": "03",
+"et": "Prendi tempo"
+},
+{
+"cap": "04",
+"et": "Cerca il pezzo vero",
+"acceso": true
+}
+],
+"resta": "«Ci penso e ti dico.» — e poi cercane il pezzo vero."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 7",
+"sub": "Modulo 8 — Parlare in pubblico senza recitare"
+}
+]
