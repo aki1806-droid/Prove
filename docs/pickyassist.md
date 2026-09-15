@@ -170,7 +170,47 @@ verificare. Le protezioni disponibili sono quindi:
 | 409 | Invalid User |
 | 410 | Invalid Request |
 
-## 5. Mettere online il webhook
+## 5. Collegare il canale WhatsApp (Cloud API)
+
+Scelta adottata: **WhatsApp Cloud API**. E' gratuita lato Picky Assist per un
+numero, e Meta include 1.000 conversazioni gratuite al mese per business
+manager: sufficiente per un bot che risponde ai messaggi in arrivo.
+
+Da giugno 2024 esiste l'**embedded signup**: non serve creare un'app su
+Facebook, si fa tutto da `Settings -> Channels` in 5-15 minuti.
+
+### Requisiti da avere pronti
+
+1. Accesso al proprio account Facebook personale.
+2. Un **Facebook Business Manager** (gratuito, si crea al momento se assente).
+3. Una **email aziendale su dominio proprio**: WhatsApp rifiuta Gmail, Hotmail
+   e in generale gli indirizzi personali.
+4. Un numero di telefono, anche fisso, **non gia' attivo su WhatsApp**. Per
+   riusare un numero esistente bisogna prima eliminarlo da WhatsApp dall'app.
+5. Eventuali documenti aziendali (visura, prova di indirizzo) per la verifica.
+
+### Limiti prima della verifica aziendale
+
+| | |
+|---|---|
+| Conversazioni **iniziate dall'azienda** | 50 ogni 24 ore |
+| Conversazioni **iniziate dall'utente** | non soggette a quel limite |
+| Template | non richiedibili finche' l'azienda non e' verificata |
+
+Il limite di 50 riguarda solo i messaggi che parti tu. Un bot che risponde a
+chi scrive per primo non lo tocca: quel traffico rientra nelle conversazioni di
+servizio.
+
+Dopo la verifica: 1.000 conversazioni business-initiated ogni 24 ore, con
+scalini successivi a 10k e 100k in base al volume mantenuto.
+
+### Dopo il collegamento
+
+Prendere il **channel id** da `Settings -> Channels` e usarlo come valore di
+`PICKY_DEFAULT_APPLICATION`: con Cloud API va passato l'id del canale, non il
+codice generico 101.
+
+## 6. Mettere online il webhook
 
 Picky Assist deve poter raggiungere il tuo server dall'esterno, quindi serve un
 indirizzo pubblico. L'ordine corretto e': prima il server online, poi l'URL nel
@@ -218,7 +258,7 @@ per verificare che la catena regga prima di coinvolgere messaggi reali.
 > nelle Smart Replies, il Global Webhook non viene innescato.** In quel caso
 > l'URL va messo in `Smart Replies -> Settings -> Webhook`, non qui.
 
-## 6. Credito: quando serve e quando no
+## 7. Credito: quando serve e quando no
 
 `check-balance` restituisce il **wallet** del progetto, che e' una cosa diversa
 dal piano. Il piano (incluso un lifetime AppSumo) paga la piattaforma:
@@ -247,7 +287,7 @@ progetto in `Settings -> Channels` e imposta `PICKY_DEFAULT_APPLICATION` di
 conseguenza: il default `8` del file `.env.example` e' proprio quello a
 consumo.
 
-## 7. Cosa non e' ancora coperto
+## 8. Cosa non e' ancora coperto
 
 - **Event Webhook**: delivery report, nuovi iscritti, report filtro WhatsApp.
 - **Template WhatsApp Official**: `sendTemplate()` c'e', ma non e' stato provato
