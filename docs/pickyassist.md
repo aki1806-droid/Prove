@@ -186,11 +186,34 @@ L'URL da inserire nel pannello sara' quindi
 Per testare la configurazione c'e' il pulsante **"Test"** nel pannello, che
 invia un payload fittizio al tuo endpoint.
 
-## 6. Credito
+## 6. Credito: quando serve e quando no
 
-`check-balance` restituisce il credito residuo del progetto. Con `balance: 0`
-gli invii falliscono con `403 Insufficient Balance`: la ricezione dei messaggi
-tramite webhook continua invece a funzionare, perche' non consuma credito.
+`check-balance` restituisce il **wallet** del progetto, che e' una cosa diversa
+dal piano. Il piano (incluso un lifetime AppSumo) paga la piattaforma:
+progetti, contatti, automazioni, accesso API. Il wallet paga il *trasporto* dei
+messaggi quando e' Picky Assist a farsene carico.
+
+Dalla documentazione, il wallet copre: acquisto e rinnovo dei piani, pacchetti
+bundle e **le tariffe per conversazione di WhatsApp Official** (che sono
+addebiti di Meta, non di Picky Assist).
+
+Di conseguenza:
+
+| Canale | Il wallet serve? |
+|---|---|
+| WhatsApp Web Automation / Phone Automation (`application` 1, 2) | **No** — il messaggio parte dal tuo telefono |
+| SMS via SIM del telefono (`application` 3) | **No** — usa il credito del tuo operatore |
+| WhatsApp Official gestito (`application` 8) | **Solo oltre la soglia gratuita**: 1.000 conversazioni di servizio al mese per WABA, poi si attinge al wallet |
+| WhatsApp Cloud API con account Meta proprio (`application` 101) | **No** verso Picky Assist: Meta fattura direttamente te |
+
+Quindi `balance: 0` **non** blocca gli invii di per se'. Blocca solo il canale
+WhatsApp Official gestito una volta esaurite le conversazioni gratuite. La
+ricezione via webhook non consuma mai credito.
+
+Prima di dare la colpa al credito, verifica quale canale e' collegato al
+progetto in `Settings -> Channels` e imposta `PICKY_DEFAULT_APPLICATION` di
+conseguenza: il default `8` del file `.env.example` e' proprio quello a
+consumo.
 
 ## 7. Cosa non e' ancora coperto
 
