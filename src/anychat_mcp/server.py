@@ -108,7 +108,8 @@ async def anychat_probe(
     async with AnyChatClient(cfg) as client:
         for path in candidates:
             try:
-                response = await client.request("GET", path)
+                # Nessun ritentativo: qui si mappa, non si consegna.
+                response = await client.request("GET", path, attempts=1)
                 findings.append(
                     {"path": path, "status": response.status, "exists": True}
                 )

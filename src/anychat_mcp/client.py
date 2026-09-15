@@ -74,11 +74,18 @@ class AnyChatClient:
         *,
         params: dict[str, Any] | None = None,
         json_body: Any | None = None,
+        attempts: int | None = None,
     ) -> Response:
+        """`attempts=1` disattiva i ritentativi.
+
+        Serve all'esplorazione: un path che non risponde va dichiarato morto
+        subito, altrimenti sondarne una decina su un URL sbagliato costa minuti.
+        """
         query = {**self._config.auth_params(), **(params or {})}
         last_error: str = ""
+        max_attempts = MAX_ATTEMPTS if attempts is None else max(1, attempts)
 
-        for attempt in range(MAX_ATTEMPTS):
+        for attempt in range(max_attempts):
             try:
                 response = await self._client.request(
                     method.upper(),
@@ -88,12 +95,12 @@ class AnyChatClient:
                 )
             except httpx.RequestError as exc:
                 last_error = self._config.redact(str(exc))
-                if attempt == MAX_ATTEMPTS - 1:
+                if attempt == max_attempts - 1:
                     raise AnyChatError(0, f"connessione fallita: {last_error}") from exc
                 await asyncio.sleep(min(30.0, 2.0**attempt))
                 continue
 
-            if response.status_code in RETRY_STATUSES and attempt < MAX_ATTEMPTS - 1:
+            if response.status_code in RETRY_STATUSES and attempt < max_attempts - 1:
                 await asyncio.sleep(self._retry_delay(response, attempt))
                 continue
 
