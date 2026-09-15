@@ -50,10 +50,25 @@ Per Claude Desktop, in `claude_desktop_config.json`:
 
 | Strumento | Cosa fa |
 |---|---|
-| `anychat_request` | Chiamata REST autenticata arbitraria: esplorazione e casi non coperti |
 | `anychat_probe` | Sonda una lista di path e riporta quali esistono |
+| `anychat_request` | Chiamata REST autenticata arbitraria: esplorazione e casi non coperti |
+| `anychat_prepare_recipients` | Normalizza in E.164, deduplica e scarta i numeri invalidi (anche da CSV) |
 | `anychat_quota` | Messaggi gia' inviati oggi e residui prima del tetto |
-| `anychat_send_broadcast` | Invio massivo di un template WhatsApp, a ritmo controllato |
+| `anychat_campaign_status` | Chi ha gia' ricevuto una campagna e chi resta da ritentare |
+| `anychat_send_broadcast` | Invio massivo di un template WhatsApp, con ripresa e limiti |
+
+## Riprendere una campagna interrotta
+
+`anychat_send_broadcast` vuole un `campaign_id` stabile. Ogni consegna riuscita
+finisce in un registro append-only su disco, quindi rilanciare la stessa
+campagna con la stessa lista:
+
+- salta chi ha gia' ricevuto;
+- ritenta solo chi era fallito;
+- riparte da dove il tetto giornaliero aveva interrotto.
+
+E' il motivo per cui l'id va scelto una volta e riusato: cambiarlo fa ripartire
+la campagna da zero e riscrive a tutti.
 
 ## Limiti di invio
 
@@ -71,7 +86,12 @@ Il server quindi:
   conteggio e non fa sforare il tier;
 - gira a vuoto salvo `confirm=True` esplicito, perche' un invio massivo non si
   ritira;
-- restituisce al contatore i messaggi non partiti.
+- restituisce al contatore i messaggi non partiti;
+- non ricontatta chi ha gia' ricevuto, anche dopo un'interruzione.
+
+I numeri vengono normalizzati in E.164 e deduplicati prima di partire: due
+scritture diverse dello stesso numero sono un contatto solo, e un numero
+malformato viene scartato prima di consumare quota.
 
 Allinea `ANYCHAT_DAILY_CAP` al tier reale del tuo numero.
 

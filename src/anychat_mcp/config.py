@@ -36,6 +36,9 @@ class Config:
     messages_per_second: float
     daily_cap: int
     state_path: Path
+    log_path: Path
+    # Prefisso applicato ai numeri scritti in forma nazionale.
+    default_country_code: str
 
     def auth_headers(self) -> dict[str, str]:
         if self.auth_style == "bearer":
@@ -94,6 +97,9 @@ def load_config() -> Config:
     state_path = Path(
         os.environ.get("ANYCHAT_STATE_PATH", str(DEFAULT_STATE_PATH))
     ).expanduser()
+    log_path = Path(
+        os.environ.get("ANYCHAT_LOG_PATH", str(state_path.parent / "sendlog.jsonl"))
+    ).expanduser()
 
     return Config(
         token=token,
@@ -104,4 +110,8 @@ def load_config() -> Config:
         messages_per_second=_float_env("ANYCHAT_MESSAGES_PER_SECOND", 5.0),
         daily_cap=_int_env("ANYCHAT_DAILY_CAP", 1000),
         state_path=state_path,
+        log_path=log_path,
+        default_country_code=os.environ.get(
+            "ANYCHAT_DEFAULT_COUNTRY_CODE", ""
+        ).strip(),
     )

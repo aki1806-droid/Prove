@@ -12,6 +12,7 @@ documentazione ufficiale, quindi il server espone due livelli:
 from __future__ import annotations
 
 import os
+from pathlib import Path
 from typing import Annotated, Any, Literal
 
 from mcp.server.mcpserver import MCPServer
@@ -19,7 +20,9 @@ from pydantic import Field
 
 from .client import AnyChatClient, AnyChatError
 from .config import Config, ConfigError, load_config
-from .throttle import DailyCounter, QuotaExhausted, RateLimiter
+from .recipients import RecipientError, clean_recipients, load_csv
+from .sendlog import SendLog
+from .throttle import DailyCounter, RateLimiter
 
 mcp = MCPServer("anychat")
 
@@ -44,6 +47,10 @@ def limiter() -> RateLimiter:
 def counter() -> DailyCounter:
     cfg = config()
     return DailyCounter(cfg.state_path, cfg.daily_cap)
+
+
+def sendlog() -> SendLog:
+    return SendLog(config().log_path)
 
 
 @mcp.tool()
@@ -131,15 +138,69 @@ async def anychat_quota() -> dict[str, Any]:
 
 
 @mcp.tool()
+async def anychat_prepare_recipients(
+    csv_path: Annotated[
+        str | None, Field(description="Percorso di un CSV da cui leggere i destinatari")
+    ] = None,
+    rows: Annotated[
+        list[dict[str, Any]] | None,
+        Field(description="Destinatari gia' in memoria, alternativa al CSV"),
+    ] = None,
+) -> dict[str, Any]:
+    """Normalizza, valida e deduplica una lista destinatari prima dell'invio.
+
+    Porta i numeri in formato E.164, toglie i duplicati e riporta gli scarti con
+    il motivo. Conviene sempre passare da qui: ogni numero malformato consuma
+    comunque il tetto giornaliero quando l'invio parte.
+    """
+    cfg = config()
+    try:
+        if csv_path:
+            pulita = load_csv(Path(csv_path).expanduser(), cfg.default_country_code)
+        elif rows:
+            pulita = clean_recipients(rows, cfg.default_country_code)
+        else:
+            return {"errore": "serve csv_path oppure rows"}
+    except RecipientError as exc:
+        return {"errore": str(exc)}
+
+    return {
+        **pulita.summary(),
+        "destinatari": [
+            {"phone": r.phone, "variables": r.variables} for r in pulita.recipients
+        ],
+        "scartati": pulita.scartati[:50],
+    }
+
+
+@mcp.tool()
+async def anychat_campaign_status(
+    campaign_id: Annotated[str, Field(description="Identificativo della campagna")],
+) -> dict[str, Any]:
+    """Mostra a chi la campagna e' gia' arrivata e a chi no."""
+    progress = sendlog().progress(campaign_id)
+    return {
+        "campaign_id": campaign_id,
+        "gia_inviati": progress.totale_inviati,
+        "falliti_da_ritentare": sorted(progress.falliti),
+        "campagne_note": sendlog().campaigns(),
+    }
+
+
+@mcp.tool()
 async def anychat_send_broadcast(
-    recipients: Annotated[
-        list[dict[str, Any]],
+    campaign_id: Annotated[
+        str,
         Field(
             description=(
-                "Destinatari: ognuno {'phone': '+39...', 'variables': {...}}. "
-                "Devono avere dato opt-in."
+                "Identificativo stabile della campagna. Rilanciare lo stesso id "
+                "riprende senza riscrivere a chi ha gia' ricevuto."
             )
         ),
+    ],
+    recipients: Annotated[
+        list[dict[str, Any]],
+        Field(description="Destinatari: {'phone': '+39...', 'variables': {...}}"),
     ],
     template_name: Annotated[
         str, Field(description="Nome del template WhatsApp approvato da Meta")
@@ -155,21 +216,35 @@ async def anychat_send_broadcast(
         ),
     ] = False,
 ) -> dict[str, Any]:
-    """Invia un template WhatsApp a piu' destinatari, rispettando i limiti.
+    """Invia un template WhatsApp a piu' destinatari, con ripresa e limiti.
 
     Fuori dalla finestra di 24 ore WhatsApp accetta solo template pre-approvati,
-    quindi questo strumento parla di `template_name` e non di testo libero.
-    Di default gira a vuoto (`confirm=False`) e riporta cosa farebbe: l'invio
-    massivo non si ritira.
+    quindi si indica `template_name` e non testo libero. Di default gira a vuoto
+    e riporta cosa farebbe. Chi ha gia' ricevuto in questa campagna viene
+    saltato, e se i destinatari eccedono il tetto giornaliero ne parte quanti ne
+    stanno: il resto riprende al rilancio successivo.
     """
     send_path = os.environ.get("ANYCHAT_SEND_PATH", "").strip()
     cfg = config()
+    log = sendlog()
 
-    plan = {
-        "destinatari": len(recipients),
+    pulita = clean_recipients(recipients, cfg.default_country_code)
+    gia_inviati = log.progress(campaign_id).inviati
+    da_inviare = [r for r in pulita.recipients if r.phone not in gia_inviati]
+
+    residui = counter().snapshot().remaining
+    in_coda = da_inviare[:residui]
+    rimandati = da_inviare[residui:]
+
+    piano = {
+        "campaign_id": campaign_id,
+        "ricevuti": len(recipients),
+        **pulita.summary(),
+        "gia_ricevuti_saltati": len(pulita.recipients) - len(da_inviare),
+        "in_partenza_ora": len(in_coda),
+        "rimandati_per_tetto": len(rimandati),
         "template": template_name,
         "lingua": language,
-        "residui_oggi": counter().snapshot().remaining,
         "endpoint": send_path or "(non configurato)",
     }
 
@@ -181,39 +256,47 @@ async def anychat_send_broadcast(
                 "non e' ancora confermato: individualo con anychat_probe o dalla "
                 "documentazione, poi impostalo nel .env."
             ),
-            "piano": plan,
+            "piano": piano,
         }
 
     if not confirm:
-        return {"inviato": False, "motivo": "simulazione (confirm=False)", "piano": plan}
+        return {"inviato": False, "motivo": "simulazione (confirm=False)", "piano": piano}
 
-    try:
-        counter().reserve(len(recipients))
-    except QuotaExhausted as exc:
-        return {"inviato": False, "motivo": str(exc), "piano": plan}
+    if not in_coda:
+        return {
+            "inviato": False,
+            "motivo": "nessun destinatario da servire ora",
+            "piano": piano,
+        }
+
+    counter().reserve(len(in_coda))
 
     esiti: list[dict[str, Any]] = []
     non_partiti = 0
     async with AnyChatClient(cfg) as client:
-        for recipient in recipients:
+        for recipient in in_coda:
             await limiter().acquire()
             payload = {
-                "to": recipient.get("phone"),
+                "to": recipient.phone,
                 "type": "template",
                 "template": {
                     "name": template_name,
                     "language": {"code": language},
-                    "variables": recipient.get("variables", {}),
+                    "variables": recipient.variables,
                 },
             }
             try:
                 response = await client.request("POST", send_path, json_body=payload)
-                esiti.append({"phone": recipient.get("phone"), "status": response.status})
+                log.record(campaign_id, recipient.phone, riuscito=True)
+                esiti.append({"phone": recipient.phone, "status": response.status})
             except AnyChatError as exc:
                 non_partiti += 1
+                log.record(
+                    campaign_id, recipient.phone, riuscito=False, detail=exc.detail
+                )
                 esiti.append(
                     {
-                        "phone": recipient.get("phone"),
+                        "phone": recipient.phone,
                         "status": exc.status,
                         "errore": exc.detail[:200],
                     }
@@ -226,7 +309,8 @@ async def anychat_send_broadcast(
         "inviato": True,
         "riusciti": len(esiti) - non_partiti,
         "falliti": non_partiti,
-        "esiti": esiti,
+        "rimandati_per_tetto": len(rimandati),
+        "esiti": esiti[:100],
         "residui_oggi": counter().snapshot().remaining,
     }
 
