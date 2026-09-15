@@ -5,6 +5,24 @@ quali sono i limiti da tenere presenti.
 
 Documentazione ufficiale: <https://help.pickyassist.com/api-documentation-v2/>
 
+## 0. Una regola da non violare: tutto dallo stesso progetto
+
+In Picky Assist piani, add-on e canali sono **per progetto**, non per account.
+Un account puo' avere piu' progetti con abilitazioni diverse.
+
+Di conseguenza queste tre cose devono provenire tutte dallo **stesso** progetto:
+
+| | Dove |
+|---|---|
+| Token API | `Settings -> Developers -> API` |
+| Channel id (`PICKY_DEFAULT_APPLICATION`) | `Settings -> Channels` |
+| URL del webhook | `Settings -> Developers -> Webhook` |
+
+Mescolarle e' la causa piu' probabile di errori difficili da diagnosticare: un
+token di un altro progetto risponde `401`, oppure funziona ma invia sul canale
+sbagliato. `npm run check` stampa endpoint, token mascherato e canale proprio
+per rendere visibile subito un accoppiamento errato.
+
 ## 1. Configurazione iniziale
 
 1. **Genera il token API** dal pannello Picky Assist: `Settings -> Developers -> API`.
