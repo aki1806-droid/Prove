@@ -145,6 +145,22 @@ export class PickyAssistClient {
     );
   }
 
+  /**
+   * Costruisce l'identificativo del destinatario in base al canale.
+   * Facebook Messenger non usa il numero di telefono ma il `messenger_id`
+   * assegnato da Facebook, che non va normalizzato.
+   */
+  recipient(to, application) {
+    const channel = application ?? this.application;
+    if (channel === APPLICATION.FACEBOOK_MESSENGER) {
+      if (to === undefined || to === null || String(to).trim() === '') {
+        throw new PickyAssistError('messenger_id mancante: obbligatorio sul canale Facebook Messenger.');
+      }
+      return { messenger_id: String(to).trim() };
+    }
+    return { number: normalizeNumber(to) };
+  }
+
   /** Invio grezzo: accetta il payload completo della Push API. */
   async push(payload) {
     return this.request('push', {
@@ -166,7 +182,7 @@ export class PickyAssistClient {
       ...(createContact ? { createcontact: 1 } : {}),
       data: [
         {
-          number: normalizeNumber(to),
+          ...this.recipient(to, application),
           message: String(message),
           ...(referenceNumber ? { reference_number: String(referenceNumber) } : {}),
         },
@@ -183,7 +199,7 @@ export class PickyAssistClient {
       type,
       data: [
         {
-          number: normalizeNumber(to),
+          ...this.recipient(to, application),
           message: caption,
           ...(referenceNumber ? { reference_number: String(referenceNumber) } : {}),
         },
@@ -203,7 +219,7 @@ export class PickyAssistClient {
     const data = recipients.map((item) => {
       const entry = typeof item === 'object' && item !== null ? item : { to: item };
       return {
-        number: normalizeNumber(entry.to ?? entry.number),
+        ...this.recipient(entry.to ?? entry.number ?? entry.messengerId, application),
         ...(entry.message ? { message: String(entry.message) } : {}),
         ...(entry.referenceNumber ? { reference_number: String(entry.referenceNumber) } : {}),
       };

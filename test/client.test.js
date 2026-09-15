@@ -164,6 +164,57 @@ test('il rate limiter interno non blocca sotto soglia', async () => {
   assert.equal(fetchImpl.calls.length, 5);
 });
 
+test('su Facebook Messenger si invia messenger_id invece del numero', async () => {
+  const fetchImpl = fakeFetch(okResponse);
+  const client = new PickyAssistClient({ token: 't', application: 5, fetchImpl });
+
+  await client.sendText({ to: '24680135791113', message: 'ciao' });
+
+  const { body } = fetchImpl.calls[0];
+  assert.deepEqual(body.data, [{ messenger_id: '24680135791113', message: 'ciao' }]);
+  assert.equal(body.data[0].number, undefined);
+});
+
+test('il messenger_id non viene normalizzato come un numero di telefono', async () => {
+  const fetchImpl = fakeFetch(okResponse);
+  const client = new PickyAssistClient({ token: 't', application: 5, fetchImpl });
+
+  // normalizeNumber taglierebbe gli zeri iniziali: qui non deve succedere.
+  await client.sendText({ to: '0098765432100', message: 'ciao' });
+
+  assert.equal(fetchImpl.calls[0].body.data[0].messenger_id, '0098765432100');
+});
+
+test('il canale passato alla singola chiamata prevale su quello del client', async () => {
+  const fetchImpl = fakeFetch(okResponse);
+  const client = new PickyAssistClient({ token: 't', application: 8, fetchImpl });
+
+  await client.sendText({ to: '24680135791113', message: 'ciao', application: 5 });
+  assert.equal(fetchImpl.calls[0].body.data[0].messenger_id, '24680135791113');
+
+  await client.sendText({ to: '+39 333 1234567', message: 'ciao' });
+  assert.equal(fetchImpl.calls[1].body.data[0].number, '393331234567');
+});
+
+test('su Messenger un destinatario vuoto viene rifiutato', async () => {
+  const fetchImpl = fakeFetch(okResponse);
+  const client = new PickyAssistClient({ token: 't', application: 5, fetchImpl });
+
+  await assert.rejects(() => client.sendText({ to: '  ', message: 'ciao' }), /messenger_id/);
+  assert.equal(fetchImpl.calls.length, 0);
+});
+
+test('sendMedia e sendBulk seguono la stessa regola sul canale Messenger', async () => {
+  const fetchImpl = fakeFetch(okResponse);
+  const client = new PickyAssistClient({ token: 't', application: 5, fetchImpl });
+
+  await client.sendMedia({ to: '24680135791113', mediaUrl: 'https://esempio.it/a.jpg' });
+  assert.equal(fetchImpl.calls[0].body.data[0].messenger_id, '24680135791113');
+
+  await client.sendBulk({ recipients: ['24680135791113'], globalMessage: 'avviso' });
+  assert.equal(fetchImpl.calls[1].body.data[0].messenger_id, '24680135791113');
+});
+
 test('un client senza token non si crea', () => {
   assert.throws(() => new PickyAssistClient({}), PickyAssistError);
 });
