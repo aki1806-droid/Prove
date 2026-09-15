@@ -135,13 +135,21 @@ test('checkBalance usa l endpoint dedicato', async () => {
   assert.equal(result.balance, '12.50');
 });
 
-test('deviceStatus usa l host legacy e ripristina la base url', async () => {
+test('deviceStatus resta sull host configurato', async () => {
   const fetchImpl = fakeFetch({ body: { status: 100, message: 'Success' } });
   const client = new PickyAssistClient({ token: 't', fetchImpl });
 
   await client.deviceStatus();
+  assert.equal(fetchImpl.calls[0].url, 'https://app.pickyassist.com/api/v2/device-status');
+});
+
+test('deviceStatus accetta un host alternativo e poi ripristina la base url', async () => {
+  const fetchImpl = fakeFetch({ body: { status: 100, message: 'Success' } });
+  const client = new PickyAssistClient({ token: 't', fetchImpl });
+
+  await client.deviceStatus({ baseUrl: 'https://pickyassist.com/app/api/v2' });
   assert.equal(fetchImpl.calls[0].url, 'https://pickyassist.com/app/api/v2/device-status');
-  assert.equal(client.baseUrl, 'https://app.pickyassist.com/api/v2');
+  assert.equal(client.baseUrl, 'https://app.pickyassist.com/api/v2', 'la base url originale viene ripristinata');
 });
 
 test('il rate limiter interno non blocca sotto soglia', async () => {

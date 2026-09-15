@@ -252,9 +252,18 @@ export class PickyAssistClient {
 
   /**
    * Stato del dispositivo (batteria, coda, spazio libero) per i canali
-   * Phone Automation. Disponibile solo sull'host legacy pickyassist.com.
+   * Phone Automation.
+   *
+   * Usa per default lo stesso host del resto del client: i token sono legati
+   * alla versione dell'endpoint, quindi un token V4 viene rifiutato con 401
+   * sull'host legacy. Passare `baseUrl` solo se il progetto vive sul V2.
+   *
+   * Restituisce status 101 (Service Unavailable) se al progetto non e'
+   * associato un dispositivo Phone Automation.
    */
-  async deviceStatus({ baseUrl = 'https://pickyassist.com/app/api/v2' } = {}) {
+  async deviceStatus({ baseUrl } = {}) {
+    if (!baseUrl) return this.request('device-status');
+
     const previous = this.baseUrl;
     this.baseUrl = baseUrl.replace(/\/+$/, '');
     try {

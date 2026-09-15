@@ -24,6 +24,13 @@ Documentazione ufficiale: <https://help.pickyassist.com/api-documentation-v2/>
 | Autenticazione | campo `token` **nel body JSON**, non negli header |
 | Limite | 90 richieste/minuto per progetto; oltre, HTTP 429 e messaggi scartati |
 
+> **I due host non sono intercambiabili.** Il token e' legato alla versione
+> dell'endpoint: un token generato sul pannello V4 funziona su
+> `app.pickyassist.com/api/v2` e viene rifiutato con `401 Authentication Failed`
+> su `pickyassist.com/app/api/v2` (verificato su un progetto reale). Se ricevi
+> un 401 con un token che sai essere corretto, controlla `PICKY_BASE_URL` prima
+> di rigenerare il token.
+
 Esempio di payload:
 
 ```json
@@ -151,7 +158,7 @@ verificare. Le protezioni disponibili sono quindi:
 | Codice | Significato |
 |---|---|
 | 100 | Success (accettato, in coda) |
-| 101 | Service Unavailable |
+| 101 | Service Unavailable (es. `device-status` senza dispositivo Phone Automation collegato) |
 | 401 | Authentication Failed (token errato o assente) |
 | 402 | Empty Number List |
 | 403 | Insufficient Balance |
@@ -179,7 +186,13 @@ L'URL da inserire nel pannello sara' quindi
 Per testare la configurazione c'e' il pulsante **"Test"** nel pannello, che
 invia un payload fittizio al tuo endpoint.
 
-## 6. Cosa non e' ancora coperto
+## 6. Credito
+
+`check-balance` restituisce il credito residuo del progetto. Con `balance: 0`
+gli invii falliscono con `403 Insufficient Balance`: la ricezione dei messaggi
+tramite webhook continua invece a funzionare, perche' non consuma credito.
+
+## 7. Cosa non e' ancora coperto
 
 - **Event Webhook**: delivery report, nuovi iscritti, report filtro WhatsApp.
 - **Template WhatsApp Official**: `sendTemplate()` c'e', ma non e' stato provato
