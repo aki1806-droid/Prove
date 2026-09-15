@@ -170,21 +170,53 @@ verificare. Le protezioni disponibili sono quindi:
 | 409 | Invalid User |
 | 410 | Invalid Request |
 
-## 5. Esporre il webhook durante lo sviluppo
+## 5. Mettere online il webhook
 
-Picky Assist deve poter raggiungere il tuo server dall'esterno. In locale serve
-un tunnel:
+Picky Assist deve poter raggiungere il tuo server dall'esterno, quindi serve un
+indirizzo pubblico. L'ordine corretto e': prima il server online, poi l'URL nel
+pannello.
+
+### In sviluppo: tunnel
 
 ```bash
-npx localtunnel --port 3000
-# oppure: cloudflared tunnel --url http://localhost:3000
+npm start                          # in un terminale
+npx localtunnel --port 3000        # in un altro
+# in alternativa: cloudflared tunnel --url http://localhost:3000
 ```
 
-L'URL da inserire nel pannello sara' quindi
-`https://<tuo-tunnel>/webhook?secret=IL_TUO_SEGRETO`.
+### In produzione: container o piattaforma PaaS
 
-Per testare la configurazione c'e' il pulsante **"Test"** nel pannello, che
-invia un payload fittizio al tuo endpoint.
+Il progetto non ha dipendenze, quindi il deploy e' banale. Il `Dockerfile`
+incluso non esegue alcun `npm install`.
+
+```bash
+docker build -t picky-bridge .
+docker run -p 3000:3000 --env-file .env picky-bridge
+```
+
+Su Render, Railway, Fly o simili funziona anche senza Docker: comando di avvio
+`npm start`, e le variabili di `.env.example` da impostare nel pannello del
+servizio. Il server ascolta su tutte le interfacce e rispetta la variabile
+`PORT` assegnata dalla piattaforma.
+
+`GET /health` risponde senza autenticazione ed e' adatto come health check.
+
+### Configurazione nel pannello Picky Assist
+
+`Settings -> Developers -> Webhook -> Global Webhook`:
+
+| Campo | Valore |
+|---|---|
+| Global Webhook URL | `https://tuo-dominio.tld/webhook?secret=IL_TUO_SEGRETO` |
+| Trigger webhooks for all incoming messages including automation | lasciare **deselezionato** all'inizio: se attivo, arrivano anche i messaggi gia' gestiti dalle automazioni e si rischia doppia gestione |
+| Enable auto retry if the webhook fails to trigger | **selezionato**: utile se il server e' momentaneamente irraggiungibile |
+
+Il pulsante **"Test"** invia un payload fittizio all'URL: e' il modo piu' rapido
+per verificare che la catena regga prima di coinvolgere messaggi reali.
+
+> Attenzione al riquadro rosso della pagina: **se e' configurato un webhook
+> nelle Smart Replies, il Global Webhook non viene innescato.** In quel caso
+> l'URL va messo in `Smart Replies -> Settings -> Webhook`, non qui.
 
 ## 6. Credito: quando serve e quando no
 
