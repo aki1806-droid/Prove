@@ -1,0 +1,18 @@
+{
+  "name": "picky-assist-bridge",
+  "version": "0.1.0",
+  "description": "Integrazione bidirezionale con Picky Assist: invio messaggi (Push API) e ricezione (Global Webhook).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts/check-connection.mjs",
+    "send": "node scripts/send-test-message.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}
