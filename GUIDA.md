@@ -105,7 +105,25 @@ Cloud non è attivabile con il piano in corso**: non è un errore di
 configurazione e non c'è nulla da sistemare nei dati inseriti. Serve un piano a
 pagamento.
 
-I piani Picky Assist (prezzi indicativi, da verificare su
+**Se hai comprato un lifetime deal (LTD, tipo AppSumo)**, è la spiegazione più
+probabile. Il lifetime deal ha tre livelli (Starter, Growth, Scale) e i canali
+inclusi cambiano da un livello all'altro: il canale Cloud API può richiedere un
+livello superiore, oppure non rientrare affatto nell'offerta a vita. Prima di
+tutto controlla nel pannello, in **Settings → Billing / Plan**, quale piano
+risulta attivo:
+
+- se compare il nome del tuo livello LTD, il codice è stato riscattato e il
+  limite è davvero del livello: serve salire di livello (finché l'offerta è
+  attiva si possono aggiungere codici) o passare a un piano mensile;
+- se compare *Free* o *Trial*, il codice **non è stato applicato** all'account:
+  è un problema di attivazione, e si risolve con il supporto senza spendere altro.
+
+L'elenco ufficiale di cosa include ogni livello è su
+<https://pickyassist.com/appsumo-pricing/>. Se l'acquisto è recente, ricorda che
+AppSumo rimborsa entro 60 giorni: se il canale che ti serve non è incluso, è una
+cosa da decidere prima che scada quel termine.
+
+I piani Picky Assist a pagamento (prezzi indicativi, da verificare su
 <https://pickyassist.com/en/compare-plans>): Basic ~14 $/mese, Pro ~29 $/mese,
 API Only ~34 $/mese, Ultimate ~49 $/mese. Un canale WhatsApp Cloud API è
 compreso nei piani; per collegare più numeri serve il piano Ultimate.
