@@ -9,47 +9,91 @@ codice riceve un errore e non c'è modo di farlo funzionare.
 
 ---
 
-## Se l'obiettivo sono campagne e invii massivi
+## La scelta fatta: WhatsApp Official Managed
 
-Questa è la scelta più importante di tutte, quindi va fatta prima di ogni altra cosa.
+Per le campagne serve un canale **ufficiale** di WhatsApp. Le strade che
+pilotano un WhatsApp normale (app Android, WhatsApp Web) vanno bene per
+rispondere ai clienti, ma usate per gli invii massivi portano quasi sempre al
+**ban del numero**: è WhatsApp che riconosce l'invio automatico di massa da
+un'app non ufficiale e blocca il numero, spesso per sempre.
 
-**Per le campagne serve WhatsApp Cloud API (il canale ufficiale di Meta). È
-l'unica strada che regge gli invii massivi.**
+Tra i due canali ufficiali la scelta è caduta sul **gestito** (WhatsApp Official
+Managed Service). Ecco la differenza, che è tutta in chi fa il lavoro noioso:
 
-Le altre due strade (app Android e WhatsApp Web) funzionano pilotando un
-WhatsApp normale: vanno benissimo per rispondere ai clienti o per qualche
-decina di messaggi, ma usarle per le campagne porta quasi sempre allo stesso
-risultato, cioè **il numero bannato da WhatsApp**. Non è un limite di Picky
-Assist: è WhatsApp che rileva l'invio automatico di massa da un'app non
-ufficiale e blocca il numero, spesso in modo definitivo. Ci sono anche i limiti
-pratici: telefono sempre acceso, poche decine di messaggi all'ora, nessun report
-di consegna affidabile.
+| | Cloud API (fai da te) | **Managed (gestito)** |
+| --- | --- | --- |
+| Account Facebook Business Manager | lo crei e configuri tu | **lo gestisce Picky Assist** |
+| Email aziendale con dominio proprio | obbligatoria | **non richiesta** |
+| Chi ti fattura i messaggi | Meta, con carta sul Business Manager | **Picky Assist, con credito prepagato** |
+| Assistenza | Meta Business Suite | **Picky Assist** |
+| Costo | canale incluso nei piani | add-on (circa 19 $/mese sul piano Ultimate) |
 
-Con il canale ufficiale invece gli invii massivi sono previsti e supportati.
-In cambio ci sono tre regole di Meta da conoscere **prima** di partire:
+Il canale gestito costa qualcosa in più al mese, ma toglie di mezzo esattamente
+i due punti su cui ci si blocca: l'email aziendale e il Business Manager.
+
+### Cosa ti serve comunque
+
+Due cose sole, e sono facili:
+
+1. **Un account Facebook attivo** (uno qualsiasi, anche personale).
+2. **Un numero di telefono che non abbia WhatsApp attivo.** Se il numero che
+   vuoi usare ha già WhatsApp, o elimini l'account WhatsApp da quel numero
+   (WhatsApp → Impostazioni → Account → Elimina il mio account) oppure usi un
+   secondo numero dedicato alle campagne. È la regola che non si aggira.
+
+### Le regole di Meta valgono lo stesso
+
+Il canale gestito cambia chi fa la configurazione, non le regole di WhatsApp:
 
 1. **Template approvati.** A chi non ti ha scritto nelle ultime 24 ore puoi
-   mandare solo messaggi da un modello approvato in anticipo da Meta
-   (l'approvazione richiede da pochi minuti a qualche ora). Il testo libero vale
-   solo nelle 24 ore successive a un messaggio del cliente.
-2. **Consenso (opt-in).** Puoi scrivere solo a chi ha acconsentito a essere
-   contattato. Liste comprate o raccolte senza consenso fanno crollare la
-   reputazione del numero — e in Europa sono anche una violazione del GDPR.
+   mandare solo messaggi presi da un modello approvato in anticipo. Il testo
+   libero vale solo nelle 24 ore dopo un messaggio del cliente.
+2. **Consenso (opt-in).** Solo a chi ha accettato di essere contattato. Liste
+   comprate = numero penalizzato in pochi giorni, e in Europa è anche una
+   violazione del GDPR.
 3. **Limiti giornalieri progressivi.** Si parte da 1.000 destinatari diversi
-   nelle 24 ore. Se le persone non bloccano e non segnalano, il limite sale in
-   automatico (10.000, poi oltre) nel giro di qualche settimana. Se troppi
-   bloccano, scende.
+   ogni 24 ore; se pochi bloccano, il limite sale da solo.
 
-In pratica: **chi riceve deve aspettarsi il tuo messaggio**. È questo che
-determina se la tua campagna funziona o se il numero viene penalizzato.
+### Quanto costano i messaggi
+
+Si carica un **credito prepagato nel wallet Picky Assist** e da lì scalano i
+messaggi. WhatsApp conta a *conversazione* (una finestra di 24 ore con la stessa
+persona), non a singolo messaggio, con prezzi diversi per paese e categoria:
+circa 1.000 conversazioni di assistenza gratis al mese, mentre marketing,
+utility e autenticazione si pagano — il marketing è la categoria più cara ed è
+quella delle campagne.
+
+Se il credito finisce, l'invio si ferma con l'errore `[403] Credito
+insufficiente nel wallet Picky Assist`: è il messaggio che vedrai nei nostri
+script.
 
 ---
 
 ## Fase 1 — Collegare WhatsApp a Picky Assist
 
-Picky Assist offre tre strade diverse per collegare WhatsApp. **Non sono
-alternative equivalenti**: hanno requisiti molto diversi, ed è qui che quasi
-tutti si bloccano. Per le campagne, come detto sopra, la strada è la C.
+### Collegare il canale gestito (la strada scelta)
+
+1. Nel pannello: **Settings → Channels**.
+2. Cerca **WhatsApp Official Managed Service** e premi **Connect**.
+   Se accanto compare l'avviso di aggiornare il piano, vedi la sezione sui
+   piani più sotto: è un add-on, di solito sul piano Ultimate.
+3. Segui la procedura: ti verranno chiesti il numero da usare e i dati
+   dell'azienda. Il collegamento con Facebook lo cura Picky Assist.
+4. Il numero riceverà un codice di verifica via SMS o chiamata.
+5. A collegamento fatto, in **Settings → Channels** vedrai il numero connesso,
+   lo stato della connessione, il **WABA ID** e il **phone number ID**.
+6. Carica il credito nel wallet e fai approvare il primo template.
+
+Se qualcosa non va, il supporto Picky Assist (**support@pickyassist.com**) qui
+può intervenire davvero, perché il canale lo gestiscono loro: è il vantaggio
+principale di questa scelta.
+
+---
+
+### Le altre strade (per contesto)
+
+Picky Assist ne offre altre tre. **Non sono equivalenti** e per le campagne non
+vanno bene, ma è utile sapere cosa sono.
 
 ### Strada A — App Android (la più semplice)
 
@@ -98,12 +142,12 @@ non si completa**:
 Passi nel pannello: **Channels → Connect Channel → WhatsApp Cloud API**, poi si
 segue la procedura guidata di Facebook che si apre in una finestra.
 
-### "Please Upgrade The Plan To Activate The Cloud Channel"
+### "Please Upgrade The Plan To Activate The..." (canale bloccato dal piano)
 
-Se in cima alla pagina dei canali compare questa fascia gialla, **il canale
-Cloud non è attivabile con il piano in corso**: non è un errore di
-configurazione e non c'è nulla da sistemare nei dati inseriti. Serve un piano a
-pagamento.
+Se in cima alla pagina dei canali compare questa fascia gialla, **il canale non
+è attivabile con il piano in corso**: non è un errore di configurazione e non
+c'è nulla da sistemare nei dati inseriti. Vale sia per il canale Cloud sia per
+quello gestito, che è un add-on (circa 19 $/mese, di norma sul piano Ultimate).
 
 **Se hai comprato un lifetime deal (LTD, tipo AppSumo)**, è la spiegazione più
 probabile. Il lifetime deal ha tre livelli (Starter, Growth, Scale) e i canali
@@ -125,32 +169,29 @@ cosa da decidere prima che scada quel termine.
 
 I piani Picky Assist a pagamento (prezzi indicativi, da verificare su
 <https://pickyassist.com/en/compare-plans>): Basic ~14 $/mese, Pro ~29 $/mese,
-API Only ~34 $/mese, Ultimate ~49 $/mese. Un canale WhatsApp Cloud API è
-compreso nei piani; per collegare più numeri serve il piano Ultimate.
+API Only ~34 $/mese, Ultimate ~49 $/mese, più l'add-on del canale gestito.
 
-Attenzione: sono **due spese separate**.
-
-1. L'abbonamento a Picky Assist (la piattaforma).
-2. I messaggi, che **Meta fattura direttamente a te**: si collega una carta al
-   Business Manager. Ogni Business Manager ha circa 1.000 conversazioni gratuite
-   al mese, poi si paga a conversazione, con tariffe diverse per paese e per tipo
-   (marketing, assistenza, autenticazione).
+Con il canale gestito le spese sono **due, entrambe verso Picky Assist**:
+l'abbonamento (piano + add-on) e il credito prepagato da cui scalano i messaggi.
+È il vantaggio pratico rispetto al Cloud API, dove i messaggi li fattura Meta su
+una carta collegata al Business Manager.
 
 Prima di pagare conviene scrivere al supporto (**support@pickyassist.com**) e
-farsi confermare qual è il piano meno caro che attiva il canale Cloud API per il
-tuo caso: la risposta arriva in genere in un giorno lavorativo ed evita di
-scegliere il piano sbagliato.
+farsi confermare il piano minimo che attiva il canale gestito nel tuo caso: la
+risposta arriva in genere in un giorno lavorativo ed evita di scegliere il piano
+sbagliato.
 
 ### Se WhatsApp non si collega: errori più comuni
 
 | Cosa vedi | Causa | Soluzione |
 | --- | --- | --- |
-| La procedura Facebook si blocca o chiede un'altra email | Hai usato una email personale (Gmail, Hotmail…) | Serve una email con dominio aziendale |
+| La procedura Facebook si blocca o chiede un'altra email | Hai usato una email personale (Gmail, Hotmail…) | Riguarda solo il Cloud API fai da te: con il canale gestito non serve |
 | "Number already registered" / "numero già registrato" | Il numero è già usato da WhatsApp o da un altro Business Manager | Elimina l'account WhatsApp da quel numero, oppure usa "unlink this phone number" nel Business Manager |
 | Non ricevi l'SMS di verifica | Numero VoIP o virtuale non accettato | Usa un numero mobile reale, o scegli la verifica con chiamata vocale |
 | Il canale resta "offline" con l'app Android | Telefono spento, senza internet, o Android ha chiuso l'app | Disattiva il risparmio energetico per l'app Picky Assist e tieni il telefono collegato alla corrente |
 | Non vedi il canale tra le opzioni | Il tuo piano non lo include | Verifica il piano attivo nel pannello |
-| "Please Upgrade The Plan To Activate The Cloud Channel" | Il canale Cloud richiede un piano a pagamento | Vedi la sezione qui sopra |
+| "Please Upgrade The Plan To Activate…" | Il canale richiede un piano superiore o un add-on | Vedi la sezione qui sopra |
+| `[403] Credito insufficiente nel wallet` | Wallet Picky Assist a zero (canale gestito) | Ricarica il credito dal pannello |
 
 Se sei bloccato su una di queste, il supporto Picky Assist risponde a
 **support@pickyassist.com** e conosce il tuo account meglio di chiunque altro.
@@ -234,9 +275,10 @@ cd Prove
    | `[404] Impossibile comunicare con il telefono` | Canale WhatsApp non connesso (strada A o B) | Riapri l'app sul telefono e controlla che il canale sia online |
    | `Errore di comunicazione` | Problema di rete | Controlla la connessione |
 
-Se il canale usato non è WhatsApp Official, apri `examples/invia_messaggio.py`
-e cambia `Application.WHATSAPP_OFFICIAL` con il canale giusto: `WHATSAPP_PERSONAL`
-(app Android), `WHATSAPP_BUSINESS`, `WHATSAPP_WEB` o `WHATSAPP_CLOUD_API`.
+Gli script usano già il canale gestito (codice 121). Per usarne un altro basta
+l'opzione `--canale` in `examples/campagna.py` (`whatsapp-managed`,
+`whatsapp-official`, `whatsapp-cloud`, `whatsapp-personal`, `whatsapp-business`,
+`whatsapp-web`, `sms`).
 
 ---
 
@@ -316,13 +358,14 @@ funziona: è il passo successivo, non serve subito.
 
 ## In sintesi
 
-1. Per le campagne: scegliere **WhatsApp Cloud API**, le altre strade fanno bannare il numero
-2. Collegare il canale nel pannello Picky Assist ← **il punto in cui ci si blocca di solito**
-3. Creare il token API
-4. Installare Python e scaricare il progetto
-5. Inviare un messaggio di prova a te stesso
-6. Campagna: prova a vuoto, poi invio vero su lista piccola, poi lista completa
-7. Solo dopo: ricevere messaggi e automazioni
+1. Canale scelto: **WhatsApp Official Managed** (niente Business Manager, niente email aziendale)
+2. Collegare il canale nel pannello: Settings → Channels → WhatsApp Official Managed Service
+3. Caricare il credito nel wallet e far approvare il primo template
+4. Creare il token API
+5. Installare Python e scaricare il progetto
+6. Inviare un messaggio di prova a te stesso
+7. Campagna: prova a vuoto, poi invio vero su lista piccola, poi lista completa
+8. Solo dopo: ricevere messaggi e automazioni
 
 I dettagli tecnici della libreria sono nel [README](README.md); per usarla non
 serve leggerlo tutto.

@@ -34,9 +34,9 @@ compromesso: rigeneralo dal pannello.
 ## Invio messaggi
 
 ```python
-from pickyassist import Application, PickyAssistClient
+from pickyassist import PickyAssistClient
 
-client = PickyAssistClient(application=Application.WHATSAPP_OFFICIAL)  # token da $PICKY_API_TOKEN
+client = PickyAssistClient()   # token da $PICKY_API_TOKEN, canale gestito (121)
 
 esito = client.invia_messaggio("+39 333 123 4567", "Ciao!")
 print(esito.ok, esito.push_id)
@@ -77,10 +77,12 @@ nel payload: `Destinatario(..., extra={...})` per il singolo destinatario e
 | 8 | WhatsApp Official |
 | 10 | WhatsApp Web |
 | 101 | WhatsApp Cloud API |
-| 121 | WhatsApp Official Managed |
+| 121 | WhatsApp Official Managed (**predefinito**) |
 
-Si imposta una volta sul client oppure per singola chiamata:
-`client.invia_messaggio(..., application=Application.SMS)`.
+Il canale predefinito è WhatsApp Official Managed, quello in cui i messaggi si
+pagano con il credito del wallet Picky Assist. Si cambia una volta sul client
+(`PickyAssistClient(application=Application.SMS)`) o per singola chiamata
+(`client.invia_messaggio(..., application=Application.SMS)`).
 
 ## Gestione degli errori
 

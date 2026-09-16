@@ -27,6 +27,9 @@ class PickyAssistClient:
     Il token non va mai scritto nel codice: per default viene letto dalla
     variabile d'ambiente ``PICKY_API_TOKEN``.
 
+    Il canale predefinito è WhatsApp Official Managed (codice 121), quello in
+    cui i messaggi si pagano con il credito del wallet Picky Assist.
+
         >>> client = PickyAssistClient()
         >>> client.invia_messaggio("393331234567", "Ciao!")  # doctest: +SKIP
     """
@@ -35,7 +38,7 @@ class PickyAssistClient:
         self,
         token: Optional[str] = None,
         *,
-        application: Union[Application, int] = Application.WHATSAPP_OFFICIAL,
+        application: Union[Application, int] = Application.WHATSAPP_OFFICIAL_MANAGED,
         base_url: str = BASE_URL,
         priority: Union[Priority, int] = Priority.NORMALE,
         timeout: float = 30.0,

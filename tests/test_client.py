@@ -71,8 +71,11 @@ class TestPush(unittest.TestCase):
         url, payload = c.transport.chiamate[0]
         self.assertEqual(url, "https://pickyassist.com/app/api/v2/push")
         self.assertEqual(payload["token"], "token-di-test")
-        self.assertEqual(payload["application"], str(int(Application.WHATSAPP_OFFICIAL)))
+        self.assertEqual(payload["application"], str(int(Application.WHATSAPP_OFFICIAL_MANAGED)))
         self.assertEqual(payload["data"], [{"number": "393331234567", "message": "Ciao!"}])
+
+    def test_canale_predefinito_e_il_gestito(self):
+        self.assertEqual(client().application, 121)
 
     def test_application_sovrascrivibile_per_chiamata(self):
         c = client()

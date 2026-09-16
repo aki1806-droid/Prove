@@ -26,6 +26,7 @@ from pickyassist import Application, PickyAssistClient, PickyAssistError
 from pickyassist.campagne import Campagna, leggi_contatti, leggi_esclusi, salva_esito, scrivi_csv
 
 CANALI = {
+    "whatsapp-managed": Application.WHATSAPP_OFFICIAL_MANAGED,
     "whatsapp-official": Application.WHATSAPP_OFFICIAL,
     "whatsapp-cloud": Application.WHATSAPP_CLOUD_API,
     "whatsapp-personal": Application.WHATSAPP_PERSONAL,
@@ -42,7 +43,7 @@ def costruisci_parser():
     p.add_argument("--template", help="ID di un template WhatsApp approvato")
     p.add_argument("--variabili", default="", help="colonne del template, separate da virgola")
     p.add_argument("--lingua", default="it", help="lingua del template (default: it)")
-    p.add_argument("--canale", default="whatsapp-official", choices=sorted(CANALI))
+    p.add_argument("--canale", default="whatsapp-managed", choices=sorted(CANALI))
     p.add_argument("--colonna-numero", default="numero")
     p.add_argument("--esclusi", help="file con i numeri da non contattare, uno per riga")
     p.add_argument("--lotto", type=int, default=100, help="destinatari per richiesta")

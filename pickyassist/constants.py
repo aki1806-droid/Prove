@@ -45,7 +45,7 @@ STATUS_MESSAGES = {
     ApiStatus.SUCCESSO: "Richiesta accettata dai server Picky Assist",
     ApiStatus.AUTENTICAZIONE_FALLITA: "Autenticazione fallita: token non valido",
     ApiStatus.LISTA_NUMERI_VUOTA: "Lista numeri vuota",
-    ApiStatus.CREDITO_INSUFFICIENTE: "Credito insufficiente sull'account",
+    ApiStatus.CREDITO_INSUFFICIENTE: "Credito insufficiente nel wallet Picky Assist",
     ApiStatus.TELEFONO_NON_RAGGIUNGIBILE: "Impossibile comunicare con il telefono collegato",
 }
 

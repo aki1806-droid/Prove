@@ -22,7 +22,7 @@ def main(argv):
         return 2
 
     numero, messaggio = argv[1], argv[2]
-    client = PickyAssistClient(application=Application.WHATSAPP_OFFICIAL)
+    client = PickyAssistClient(application=Application.WHATSAPP_OFFICIAL_MANAGED)
 
     try:
         esito = client.invia_messaggio(numero, messaggio)
