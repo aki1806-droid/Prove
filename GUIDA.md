@@ -9,11 +9,47 @@ codice riceve un errore e non c'è modo di farlo funzionare.
 
 ---
 
+## Se l'obiettivo sono campagne e invii massivi
+
+Questa è la scelta più importante di tutte, quindi va fatta prima di ogni altra cosa.
+
+**Per le campagne serve WhatsApp Cloud API (il canale ufficiale di Meta). È
+l'unica strada che regge gli invii massivi.**
+
+Le altre due strade (app Android e WhatsApp Web) funzionano pilotando un
+WhatsApp normale: vanno benissimo per rispondere ai clienti o per qualche
+decina di messaggi, ma usarle per le campagne porta quasi sempre allo stesso
+risultato, cioè **il numero bannato da WhatsApp**. Non è un limite di Picky
+Assist: è WhatsApp che rileva l'invio automatico di massa da un'app non
+ufficiale e blocca il numero, spesso in modo definitivo. Ci sono anche i limiti
+pratici: telefono sempre acceso, poche decine di messaggi all'ora, nessun report
+di consegna affidabile.
+
+Con il canale ufficiale invece gli invii massivi sono previsti e supportati.
+In cambio ci sono tre regole di Meta da conoscere **prima** di partire:
+
+1. **Template approvati.** A chi non ti ha scritto nelle ultime 24 ore puoi
+   mandare solo messaggi da un modello approvato in anticipo da Meta
+   (l'approvazione richiede da pochi minuti a qualche ora). Il testo libero vale
+   solo nelle 24 ore successive a un messaggio del cliente.
+2. **Consenso (opt-in).** Puoi scrivere solo a chi ha acconsentito a essere
+   contattato. Liste comprate o raccolte senza consenso fanno crollare la
+   reputazione del numero — e in Europa sono anche una violazione del GDPR.
+3. **Limiti giornalieri progressivi.** Si parte da 1.000 destinatari diversi
+   nelle 24 ore. Se le persone non bloccano e non segnalano, il limite sale in
+   automatico (10.000, poi oltre) nel giro di qualche settimana. Se troppi
+   bloccano, scende.
+
+In pratica: **chi riceve deve aspettarsi il tuo messaggio**. È questo che
+determina se la tua campagna funziona o se il numero viene penalizzato.
+
+---
+
 ## Fase 1 — Collegare WhatsApp a Picky Assist
 
 Picky Assist offre tre strade diverse per collegare WhatsApp. **Non sono
 alternative equivalenti**: hanno requisiti molto diversi, ed è qui che quasi
-tutti si bloccano. Scegline una.
+tutti si bloccano. Per le campagne, come detto sopra, la strada è la C.
 
 ### Strada A — App Android (la più semplice)
 
@@ -148,7 +184,72 @@ e cambia `Application.WHATSAPP_OFFICIAL` con il canale giusto: `WHATSAPP_PERSONA
 
 ---
 
-## Fase 5 — Ricevere i messaggi (facoltativo, più avanti)
+## Fase 5 — La prima campagna
+
+Quando il messaggio singolo funziona, si passa agli invii massivi.
+
+### 1. Prepara la lista
+
+Un file CSV (si crea con Excel o Fogli Google, poi *Salva come → CSV*) con una
+riga di intestazione. La colonna `numero` è obbligatoria, le altre servono per
+personalizzare il messaggio:
+
+```csv
+numero,nome,ordine
+393331111111,Mario,A-1001
+393332222222,Lucia,A-1002
+```
+
+Trovi un file di esempio in `examples/contatti_esempio.csv`.
+
+Tieni anche un file con i numeri di chi ha chiesto di non essere più contattato
+(uno per riga, vedi `examples/esclusi_esempio.txt`): va passato a ogni campagna,
+ed è un obbligo di legge oltre che la cosa che protegge la reputazione del tuo
+numero.
+
+### 2. Fai la prova a vuoto
+
+**Non parte nulla e non si spende credito**: serve a vedere i messaggi veri,
+con i nomi già sostituiti.
+
+```bash
+python3 examples/campagna.py examples/contatti_esempio.csv \
+    --messaggio "Ciao {nome}, il tuo ordine {ordine} è pronto" \
+    --esclusi examples/esclusi_esempio.txt
+```
+
+Quello che c'è tra graffe (`{nome}`, `{ordine}`) viene sostituito con la colonna
+corrispondente del CSV. Il programma mostra un'anteprima dei primi messaggi,
+segnala i numeri scartati (non validi, duplicati, in lista esclusi) e scrive un
+riepilogo in `esito_campagna.csv`.
+
+### 3. Invia davvero
+
+Si aggiunge `--invia`. Con un template approvato (obbligatorio sul canale
+ufficiale se sei tu a scrivere per primo) si usa `--template` con l'ID che
+Picky Assist mostra nella sezione Template, e `--variabili` con i nomi delle
+colonne nell'ordine in cui compaiono nel template:
+
+```bash
+python3 examples/campagna.py contatti.csv \
+    --template VG7935 --variabili nome,ordine \
+    --esclusi esclusi.txt --report report.csv --invia
+```
+
+Consigli pratici per la prima volta:
+
+- parti da **una lista piccola** (10-20 numeri tuoi o di colleghi) e guarda i
+  messaggi arrivare davvero prima di lanciare la campagna vera;
+- l'invio va a lotti da 100 con una pausa tra un lotto e l'altro; puoi cambiarli
+  con `--lotto` e `--pausa`;
+- se un lotto fallisce la campagna **non si ferma**: l'errore finisce nel file di
+  esito, con l'elenco dei numeri rimasti fuori, così puoi rimandare solo quelli
+  senza scrivere due volte a chi ha già ricevuto;
+- con `--report` scarichi gli stati di consegna in un CSV.
+
+---
+
+## Fase 6 — Ricevere i messaggi (facoltativo, più avanti)
 
 Serve solo se vuoi che il tuo programma **risponda** ai messaggi in arrivo.
 Richiede un indirizzo pubblico su internet (un piccolo server, oppure un tunnel
@@ -159,11 +260,13 @@ funziona: è il passo successivo, non serve subito.
 
 ## In sintesi
 
-1. Collegare WhatsApp nel pannello Picky Assist ← **il punto in cui ci si blocca di solito**
-2. Creare il token API
-3. Installare Python e scaricare il progetto
-4. Inviare un messaggio di prova a te stesso
-5. Solo dopo: ricevere messaggi e automazioni
+1. Per le campagne: scegliere **WhatsApp Cloud API**, le altre strade fanno bannare il numero
+2. Collegare il canale nel pannello Picky Assist ← **il punto in cui ci si blocca di solito**
+3. Creare il token API
+4. Installare Python e scaricare il progetto
+5. Inviare un messaggio di prova a te stesso
+6. Campagna: prova a vuoto, poi invio vero su lista piccola, poi lista completa
+7. Solo dopo: ricevere messaggi e automazioni
 
 I dettagli tecnici della libreria sono nel [README](README.md); per usarla non
 serve leggerlo tutto.

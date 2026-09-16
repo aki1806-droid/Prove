@@ -19,6 +19,8 @@ class Destinatario:
     messaggio: Optional[str] = None
     media_url: Optional[str] = None
     media_file: Optional[str] = None
+    template_variabili: Optional[List[str]] = None
+    lingua: Optional[str] = None
     extra: Dict[str, Any] = field(default_factory=dict)
 
     def to_payload(self) -> Dict[str, Any]:
@@ -29,6 +31,10 @@ class Destinatario:
             payload["media_url"] = self.media_url
         if self.media_file is not None:
             payload["media_file"] = self.media_file
+        if self.template_variabili is not None:
+            payload["template_message"] = [str(v) for v in self.template_variabili]
+        if self.lingua is not None:
+            payload["language"] = self.lingua
         payload.update(self.extra)
         return payload
 

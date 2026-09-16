@@ -1,7 +1,7 @@
 """Client per le API v2 di Picky Assist (Push e Delivery Report)."""
 
 import os
-from typing import Any, Dict, Iterable, Optional, Union
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Union
 
 from ._http import UrllibTransport
 from .constants import (
@@ -125,6 +125,36 @@ class PickyAssistClient:
 
         risposta = self._post(PUSH_PATH, payload)
         return PushResponse.from_payload(risposta)
+
+    def invia_template(
+        self,
+        destinatari: Iterable[DestinatarioLike],
+        template_id: str,
+        *,
+        lingua: str = "it",
+        variabili_globali: Optional[Sequence[Any]] = None,
+        media_globale: Optional[str] = None,
+        **opzioni,
+    ) -> PushResponse:
+        """Invia un template WhatsApp già approvato da Meta.
+
+        Sui canali WhatsApp ufficiali i messaggi inviati per primi (fuori dalla
+        finestra di 24 ore) devono usare un template approvato: ``template_id``
+        è l'identificativo che Picky Assist mostra nella sezione Template.
+
+        Le variabili del template si passano nell'ordine in cui compaiono:
+        ``variabili_globali`` vale per tutti i destinatari, mentre per valori
+        personalizzati si usa ``Destinatario(..., template_variabili=[...])``.
+        """
+
+        campi_extra = dict(opzioni.pop("campi_extra", None) or {})
+        campi_extra["template_id"] = str(template_id)
+        campi_extra.setdefault("language", lingua)
+        if variabili_globali is not None:
+            campi_extra["template_globalmessage"] = [str(v) for v in variabili_globali]
+        if media_globale is not None:
+            campi_extra["globalmedia"] = media_globale
+        return self.push(destinatari, campi_extra=campi_extra, **opzioni)
 
     # --------------------------------------------------------- report eventi
 

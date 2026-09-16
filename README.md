@@ -8,7 +8,8 @@ dei webhook.
 
 ```
 pickyassist/       il pacchetto (solo libreria standard, nessuna dipendenza)
-  client.py        PickyAssistClient: push e delivery report
+  client.py        PickyAssistClient: push, template e delivery report
+  campagne.py      invii massivi da CSV, a lotti, con esiti e report
   webhook.py       parsing dei webhook + app WSGI pronta all'uso
   models.py        dataclass di richiesta/risposta
   constants.py     canali, codici di stato, endpoint
@@ -100,6 +101,48 @@ except ApiError as exc:
 
 Gli errori di rete sollevano `TransportError` dopo 3 tentativi con backoff esponenziale.
 
+## Campagne e invii massivi
+
+`pickyassist.campagne` copre il percorso completo: lista CSV → invio a lotti →
+esito → report di consegna.
+
+```python
+from pickyassist import PickyAssistClient
+from pickyassist.campagne import Campagna, leggi_contatti, leggi_esclusi, salva_esito
+
+contatti = leggi_contatti("contatti.csv")          # colonna 'numero' + colonne libere
+campagna = Campagna(PickyAssistClient(), esclusi=leggi_esclusi("esclusi.txt"))
+
+esito = campagna.esegui(
+    contatti,
+    template_id="VG7935",                # template approvato da Meta
+    variabili=["nome", "ordine"],        # colonne, nell'ordine del template
+    lingua="it",
+)
+print(esito.riepilogo())
+salva_esito("esito.csv", esito)
+```
+
+Comportamento pensato per non fare danni su liste grandi:
+
+- numeri non validi, duplicati ed esclusi vengono scartati **prima** dell'invio
+  e riportati in `esito.scartati`;
+- l'invio è a lotti (100 per default) con pausa configurabile;
+- un lotto che fallisce non ferma la campagna: finisce in `esito.numeri_falliti`,
+  pronto per un reinvio mirato;
+- `prova=True` prepara tutto senza spedire e riempie `esito.anteprima`.
+
+Senza `template_id` si invia testo libero con segnaposto dalle colonne del CSV
+(`messaggio="Ciao {nome}"`): utile sui canali non ufficiali e, su WhatsApp
+ufficiale, solo entro le 24 ore da un messaggio del cliente.
+
+Da riga di comando:
+
+```bash
+python3 examples/campagna.py contatti.csv --messaggio "Ciao {nome}"          # prova a vuoto
+python3 examples/campagna.py contatti.csv --template VG7935 --variabili nome,ordine --invia
+```
+
 ## Report di consegna
 
 ```python
@@ -169,6 +212,10 @@ Endpoint usati (`https://pickyassist.com/app/api/v2`):
 | --- | --- | --- |
 | POST | `/push` | invio messaggi, singoli e bulk |
 | POST | `/delivery-report` | stato di consegna di un `push_id` |
+
+I template WhatsApp viaggiano sullo stesso endpoint `/push`, con `template_id`
+a livello di richiesta e `template_message` (array dei valori delle variabili)
+più `language` per ogni destinatario.
 
 L'autenticazione avviene con il campo `token` nel corpo JSON, non tramite header.
 Lo stato `100` significa che la richiesta è stata accettata dai server Picky Assist,

@@ -1,0 +1,3 @@
+# Numeri che hanno chiesto di non essere più contattati (uno per riga).
+# Vanno tolti da ogni campagna: è un obbligo di legge, oltre che buon senso.
+393339999999
