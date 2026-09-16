@@ -282,6 +282,51 @@ l'opzione `--canale` in `examples/campagna.py` (`whatsapp-managed`,
 
 ---
 
+## Verifica: il collegamento funziona davvero?
+
+### Controllo dal pannello (bastano due minuti, anche dal telefono)
+
+1. **Settings → Channels**: il numero deve risultare **connesso**, con WABA ID e
+   phone number ID visibili. Se è "pending" o "disconnected", il collegamento non
+   è completo.
+2. **Wallet / Billing**: ci deve essere credito. A zero, l'invio si ferma.
+3. **Templates**: serve almeno un template con stato **approvato**. Senza, puoi
+   scrivere solo a chi ti ha contattato nelle ultime 24 ore.
+4. **Prova sul campo**: scrivi "ciao" al numero aziendale dal tuo WhatsApp
+   personale. Il messaggio deve comparire nell'inbox di Picky Assist. È la prova
+   che la ricezione funziona. Rispondi dall'inbox: se la risposta ti arriva sul
+   telefono, funziona anche l'invio.
+
+### Controllo automatico (dal computer)
+
+```bash
+export PICKY_API_TOKEN="il-tuo-token"
+python3 examples/verifica.py 393331234567          # il tuo numero personale
+```
+
+Controlla in sequenza token, invio e consegna, e a ogni errore spiega la causa e
+cosa fare. Esempio di esito positivo:
+
+```
+[OK   ] Token API
+[OK   ] Invio
+         Richiesta accettata da Picky Assist (push_id 12345).
+[OK   ] Consegna
+         393331234567: Inviato al canale
+
+Tutto a posto: la connessione funziona e il messaggio è partito.
+```
+
+Se il canale rifiuta il testo libero, è il comportamento previsto per WhatsApp
+ufficiale: o scrivi prima tu al numero aziendale (e allora hai 24 ore di tempo),
+oppure usi un template approvato:
+
+```bash
+python3 examples/verifica.py 393331234567 --template VG7935
+```
+
+---
+
 ## Fase 5 — La prima campagna
 
 Quando il messaggio singolo funziona, si passa agli invii massivi.

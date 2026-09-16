@@ -10,6 +10,7 @@ dei webhook.
 pickyassist/       il pacchetto (solo libreria standard, nessuna dipendenza)
   client.py        PickyAssistClient: push, template e delivery report
   campagne.py      invii massivi da CSV, a lotti, con esiti e report
+  diagnostica.py   verifica della connessione, errori tradotti in rimedi
   webhook.py       parsing dei webhook + app WSGI pronta all'uso
   models.py        dataclass di richiesta/risposta
   constants.py     canali, codici di stato, endpoint
@@ -102,6 +103,24 @@ except ApiError as exc:
 ```
 
 Gli errori di rete sollevano `TransportError` dopo 3 tentativi con backoff esponenziale.
+
+## Verifica della connessione
+
+```bash
+python3 examples/verifica.py 393331234567
+```
+
+Controlla token, invio e consegna, e traduce ogni errore in causa e rimedio
+(`pickyassist.diagnostica`). Utile anche da codice:
+
+```python
+from pickyassist.diagnostica import esito_finale, verifica_connessione
+
+controlli = verifica_connessione(client, "393331234567")
+for controllo in controlli:
+    print(controllo)
+print(esito_finale(controlli))
+```
 
 ## Campagne e invii massivi
 
