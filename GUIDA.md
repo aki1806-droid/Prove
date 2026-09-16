@@ -51,8 +51,10 @@ Il canale gestito cambia chi fa la configurazione, non le regole di WhatsApp:
 2. **Consenso (opt-in).** Solo a chi ha accettato di essere contattato. Liste
    comprate = numero penalizzato in pochi giorni, e in Europa è anche una
    violazione del GDPR.
-3. **Limiti giornalieri progressivi.** Si parte da 1.000 destinatari diversi
-   ogni 24 ore; se pochi bloccano, il limite sale da solo.
+3. **Limiti giornalieri progressivi.** Con l'azienda **non ancora verificata** da
+   Meta si parte da **250 destinatari diversi ogni 24 ore**; dopo la verifica si
+   sale a 1.000 e poi, se poche persone bloccano, a 10.000 e oltre. Il limite
+   vale per l'intero portfolio aziendale, non per singolo numero.
 
 ### Quanto costano i messaggi
 
@@ -66,6 +68,62 @@ quella delle campagne.
 Se il credito finisce, l'invio si ferma con l'errore `[403] Credito
 insufficiente nel wallet Picky Assist`: è il messaggio che vedrai nei nostri
 script.
+
+---
+
+## Coexistence: tenere il numero che usi già
+
+Coexistence è la funzione di Meta che permette di collegare all'API **lo stesso
+numero** che usi sull'app WhatsApp Business, senza perdere le chat e
+continuando a rispondere dal telefono. Risolve il problema del numero "Non
+idoneo"… ma solo se ci sono tutte le condizioni qui sotto.
+
+### I requisiti (tutti, non alcuni)
+
+| Requisito | Dettaglio |
+| --- | --- |
+| **App WhatsApp Business** | Non la WhatsApp normale: serve proprio *WhatsApp Business*, l'app verde con la B. È il motivo più comune di "Non idoneo". |
+| **Versione 2.24.17 o successiva** | Aggiorna dallo store prima di provare. |
+| **Numero già usato sull'app Business** | Meta chiede circa **7 giorni di uso regolare** prima di considerarlo idoneo. Un numero appena migrato non passa. |
+| **Anzianità e qualità dell'account** | Meta valuta da quanto esiste l'account e come si comporta. Non è un criterio pubblico e non si può forzare. |
+| **Paese supportato** | Italia e UE sono coperte. |
+| **App installata e aperta** | L'app deve restare sul telefono e va aperta **almeno una volta ogni 13 giorni**: se la disinstalli, la connessione API si rompe. |
+
+### Perché il tuo numero risulta "Non idoneo"
+
+Nella schermata di Meta il numero compariva con l'icona di WhatsApp e
+l'etichetta *Non idoneo*. Le due spiegazioni più probabili, in ordine:
+
+1. **È su WhatsApp normale, non su WhatsApp Business.** Coexistence non
+   funziona con l'app personale.
+2. **È su Business da troppo poco tempo.** Serve una settimana di uso vero.
+
+### Come sbloccarlo (se vuoi tenere quel numero)
+
+1. Installa **WhatsApp Business** dallo store e migra il numero: l'app propone
+   da sola di trasferire le chat dalla WhatsApp normale. La WhatsApp personale
+   su quel numero smette di funzionare, le conversazioni restano.
+2. Aggiorna l'app all'ultima versione.
+3. **Usala normalmente per una settimana.** Questo passo non si salta.
+4. In Picky Assist scegli *Connect your existing WhatsApp Business App*, inserisci
+   il numero e premi Avanti: comparirà un **QR code**. Riceverai un messaggio
+   nell'app Business con un pulsante per scansionarlo.
+5. Se compare ancora "Non idoneo", è Meta a dire di no: non c'è impostazione che
+   lo aggiri. Resta l'alternativa del numero dedicato.
+
+### Conviene per le campagne?
+
+Dipende da cosa conta di più per te.
+
+- **A favore**: tieni il numero che i clienti conoscono, non perdi lo storico,
+  continui a rispondere dal telefono, nessuna SIM nuova.
+- **Contro**: l'app diventa una dipendenza permanente (telefono e app sempre
+  attivi, apertura ogni 13 giorni); Meta ha pensato Coexistence per le piccole
+  attività, non per i grandi volumi; i limiti di invio restano quelli dell'API.
+
+In breve: se il numero attuale è quello con cui i clienti ti scrivono già,
+Coexistence è la scelta migliore. Se le campagne diventeranno il tuo canale
+principale, un numero dedicato senza dipendenze dal telefono è più solido.
 
 ---
 
@@ -186,6 +244,7 @@ sbagliato.
 | Cosa vedi | Causa | Soluzione |
 | --- | --- | --- |
 | La procedura Facebook si blocca o chiede un'altra email | Hai usato una email personale (Gmail, Hotmail…) | Riguarda solo il Cloud API fai da te: con il canale gestito non serve |
+| "Non idoneo" accanto al numero in Coexistence | Numero su WhatsApp normale, o da meno di 7 giorni su Business | Vedi la sezione Coexistence |
 | "Number already registered" / "numero già registrato" | Il numero è già usato da WhatsApp o da un altro Business Manager | Elimina l'account WhatsApp da quel numero, oppure usa "unlink this phone number" nel Business Manager |
 | Non ricevi l'SMS di verifica | Numero VoIP o virtuale non accettato | Usa un numero mobile reale, o scegli la verifica con chiamata vocale |
 | Il canale resta "offline" con l'app Android | Telefono spento, senza internet, o Android ha chiuso l'app | Disattiva il risparmio energetico per l'app Picky Assist e tieni il telefono collegato alla corrente |
