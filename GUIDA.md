@@ -98,6 +98,31 @@ non si completa**:
 Passi nel pannello: **Channels → Connect Channel → WhatsApp Cloud API**, poi si
 segue la procedura guidata di Facebook che si apre in una finestra.
 
+### "Please Upgrade The Plan To Activate The Cloud Channel"
+
+Se in cima alla pagina dei canali compare questa fascia gialla, **il canale
+Cloud non è attivabile con il piano in corso**: non è un errore di
+configurazione e non c'è nulla da sistemare nei dati inseriti. Serve un piano a
+pagamento.
+
+I piani Picky Assist (prezzi indicativi, da verificare su
+<https://pickyassist.com/en/compare-plans>): Basic ~14 $/mese, Pro ~29 $/mese,
+API Only ~34 $/mese, Ultimate ~49 $/mese. Un canale WhatsApp Cloud API è
+compreso nei piani; per collegare più numeri serve il piano Ultimate.
+
+Attenzione: sono **due spese separate**.
+
+1. L'abbonamento a Picky Assist (la piattaforma).
+2. I messaggi, che **Meta fattura direttamente a te**: si collega una carta al
+   Business Manager. Ogni Business Manager ha circa 1.000 conversazioni gratuite
+   al mese, poi si paga a conversazione, con tariffe diverse per paese e per tipo
+   (marketing, assistenza, autenticazione).
+
+Prima di pagare conviene scrivere al supporto (**support@pickyassist.com**) e
+farsi confermare qual è il piano meno caro che attiva il canale Cloud API per il
+tuo caso: la risposta arriva in genere in un giorno lavorativo ed evita di
+scegliere il piano sbagliato.
+
 ### Se WhatsApp non si collega: errori più comuni
 
 | Cosa vedi | Causa | Soluzione |
@@ -107,9 +132,22 @@ segue la procedura guidata di Facebook che si apre in una finestra.
 | Non ricevi l'SMS di verifica | Numero VoIP o virtuale non accettato | Usa un numero mobile reale, o scegli la verifica con chiamata vocale |
 | Il canale resta "offline" con l'app Android | Telefono spento, senza internet, o Android ha chiuso l'app | Disattiva il risparmio energetico per l'app Picky Assist e tieni il telefono collegato alla corrente |
 | Non vedi il canale tra le opzioni | Il tuo piano non lo include | Verifica il piano attivo nel pannello |
+| "Please Upgrade The Plan To Activate The Cloud Channel" | Il canale Cloud richiede un piano a pagamento | Vedi la sezione qui sopra |
 
 Se sei bloccato su una di queste, il supporto Picky Assist risponde a
 **support@pickyassist.com** e conosce il tuo account meglio di chiunque altro.
+
+---
+
+### Nota: il pannello ha già uno strumento per le campagne
+
+Picky Assist include il **Broadcaster**, che manda campagne caricando un file
+dei contatti direttamente dal sito, senza scrivere una riga di codice. Per le
+prime campagne è la via più semplice.
+
+Il codice di questo repository serve quando vuoi **automatizzare**: far partire i
+messaggi dal tuo gestionale, dal sito o da un programma tuo, senza passare ogni
+volta dal pannello. Le due cose convivono: stesso account, stesso canale.
 
 ---
 
