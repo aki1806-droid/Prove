@@ -54,3 +54,9 @@ progetti/*/montato-*.srt
 
 # il marchio del committente: non e' un file del metodo
 progetti/*/slide/marchio/logo-rifilato.png
+
+# il video unico: la voce generata (costa, e un mp3 non sta in git)
+progetti/bustapaga-video-unico/audio/grezzo/
+progetti/bustapaga-video-unico/copione/blocchi.json
+progetti/bustapaga-video-unico/copione/tracce.json
+progetti/bustapaga-video-unico/audio/chunk/
