@@ -16,12 +16,11 @@ from pathlib import Path
 
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
-# Lo stacco fra le due tracce e' dichiarato una volta sola, in tagli.py:
-# tenerne una seconda copia qui vuol dire che prima o poi le due divergono
-# in silenzio, e il confronto si fa sui blocchi sbagliati.
-STACCO = re.search(r'^STACCO\s*=\s*"([^"]+)"',
-                   (QUI/"tagli.py").read_text(encoding="utf-8"),
-                   re.M).group(1)
+# Lo stacco sta in profilo.py, che e' l'unica copia: tenerne una seconda qui
+# vuol dire che prima o poi le due divergono in silenzio, e il confronto si
+# fa sui blocchi sbagliati.
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import STACCO
 BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 
 # I numeri di legge, di articolo e di anno sono la resa che ricorre di piu':

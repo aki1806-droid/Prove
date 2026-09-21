@@ -28,6 +28,9 @@ cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+# profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
+# intero, e a cambiare e' STACCO. Senza, ogni strumento muore sull'import.
+cp "$DA/profilo.py" "$NUOVA/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
 
 cat <<TESTO
@@ -36,6 +39,10 @@ $NUOVA pronta (copiata da $DA). Da scrivere, due file:
 
   copione/costruisci.py    i blocchi del parlato (parte da quello di $DA)
   slide/contenuti.mjs      il contenuto delle scene
+
+E un file da ritoccare, copiato da $DA:
+
+  profilo.py               STACCO sempre; la durata se cambia
 
 Poi, nell'ordine:
 

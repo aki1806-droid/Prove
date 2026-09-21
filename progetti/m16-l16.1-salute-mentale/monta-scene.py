@@ -8,6 +8,8 @@ import imageio_ffmpeg
 
 QUI = Path(__file__).resolve().parent
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import COPERTINA, CHIUSURA
 OUT = QUI/"scene"; OUT.mkdir(exist_ok=True)
 
 def durata(f):
@@ -32,6 +34,7 @@ for r in reg:
     print(f"  {idb}  audio {d:6.2f}s  scena {dr:6.2f}s  scarto {abs(dr-d)*1000:4.0f} ms")
 
 peggio = max(righe, key=lambda x: x[3])
-m = tot + 3 + 10
-print(f"\n48 scene · parlato {tot:.1f} s · con copertina 3 s e chiusura 10 s → {int(m//60)}:{m%60:04.1f}")
+m = tot + COPERTINA + CHIUSURA
+print(f"\n{len(reg)+2} scene · parlato {tot:.1f} s · con copertina {COPERTINA:g} s "
+      f"e chiusura {CHIUSURA:g} s → {int(m//60)}:{m%60:04.1f}")
 print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")

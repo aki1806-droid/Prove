@@ -81,14 +81,16 @@ BLOCCHI = [
  (16,"chiaro",0,"[warm] E lo stigma si manifesta come sociale, autostigma e istituzionale, con l'attenzione al diagnostic overshadowing. Nella prossima lezione vediamo i quadri principali e i segni da riconoscere. Ci vediamo li'."),
 ]
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+from profilo import CPS, MAX_CAR_BLOCCO, MAX_SCENE, COPERTINA, CHIUSURA
+
 ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
 CAPITOLI = {1:"Apertura",2:"Le due conseguenze",3:"La legge 180",
  4:"Volontario, e l'eccezione",5:"Le tre condizioni",6:"La procedura",
  7:"Che cosa il TSO non e'",8:"I servizi",9:"Il modello",10:"Lo stigma",
  11:"La pericolosita'",12:"Gli effetti",13:"Diagnostic overshadowing",
  14:"Il ruolo dell'OSS",15:"La sintesi",16:"Riepilogo"}
-CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.7
-
 blocchi=[]
 for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
     blocchi.append({"id":f"s{i:02d}","capitolo":cap,"tema":tema,"posa":posa,"text":txt})
@@ -96,17 +98,17 @@ for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
 errori=[]
 tot=sum(len(b["text"]) for b in blocchi)
 nscene=len(blocchi)+2
-if nscene>50: errori.append(f"scene {nscene} > 50")
+if nscene>MAX_SCENE: errori.append(f"scene {nscene} > {MAX_SCENE}")
 for b in blocchi:
     if any(c in ACCENTATE for c in b["text"]):
         errori.append(f'{b["id"]}: vocale accentata -> ' + "".join(sorted({c for c in b["text"] if c in ACCENTATE})))
-    if len(b["text"])>225: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
+    if len(b["text"])>MAX_CAR_BLOCCO: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
 tags=sum(len(re.findall(r"\[[a-z]+\]", b["text"])) for b in blocchi)
 if tags>6: errori.append(f"tag di intenzione: {tags} > 6")
 
 pose=sum(b["posa"] for b in blocchi)
-parlato=tot/CPS+pose; durata=parlato+3+10
-print(f"blocchi   {len(blocchi)}        scene {nscene}/50")
+parlato=tot/CPS+pose; durata=parlato+COPERTINA+CHIUSURA
+print(f"blocchi   {len(blocchi)}        scene {nscene}/{MAX_SCENE}")
 print(f"caratteri {tot}      media {tot/len(blocchi):.0f} car/blocco")
 print(f"parlato   {parlato:.0f} s     montato {durata//60:.0f}:{durata%60:04.1f}   (stima a {CPS} car/s)")
 print(f"tag       {tags}        pose {sum(1 for b in blocchi if b['posa'])}")

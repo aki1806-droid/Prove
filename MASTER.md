@@ -6,22 +6,40 @@ lavorazioni precedenti, quindi ogni regola porta con sé il motivo — quasi tut
 sono costate un render buttato, e poche righe di spiegazione valgono meno di un
 giro a vuoto.
 
-Prodotto finale: **micro-lezioni video da slide + voce**, senza avatar. Otto o
-nove minuti, una cinquantina di scene, sottotitoli, marchio su ogni slide.
+Prodotto finale: **micro-lezioni video da slide e voce**, senza avatar.
+
+> **Questo documento non fissa quanto deve durare un video né di quante scene è
+> fatto.** Quei due numeri non appartengono al metodo: li fissano il
+> committente, la voce e il servizio di montaggio. Qui c'è come si costruisce e
+> di che cosa è fatto; i numeri di una lavorazione concreta stanno nella scheda
+> del §8 e, nel codice, in `profilo.py` — dichiarati in un posto solo, con
+> accanto da dove vengono.
+>
+> Dove nel testo compare una cifra, è **una misura di una lavorazione reale**,
+> riportata perché serve come ordine di grandezza e come controprova. Non è una
+> prescrizione, e cambiando corso, voce o servizio va rifatta.
 
 Misurato su nove lezioni portate a termine, su due corsi diversi.
 
-> **Che cosa è cambiato in questa revisione.** La nona lezione è stata la prima
-> di un corso diverso, e ha fatto emergere quello che il documento dava per
-> scontato: tre numeri della lezione precedente erano murati dentro strumenti
-> condivisi, e su una lezione con un numero di scene diverso sbagliavano tutti.
-> Sono corretti nel §10. Sono anche misurate per la prima volta le cose che il
-> documento stimava: il costo reale della voce, il tempo di render, il tag ID3,
-> il ritardo del contatore del lotto.
-
 ---
 
-# 0. Che cosa serve avere
+# 0. Gli elementi
+
+Un video di questa specie è fatto di cinque cose, e nient'altro:
+
+| elemento | che cos'è | da dove viene |
+|---|---|---|
+| **il copione a blocchi** | il parlato, spezzato in unità da una inquadratura ciascuna | lo si scrive |
+| **la voce** | una traccia continua per metà video, non una per blocco | servizio di sintesi |
+| **le slide** | un PNG fermo per scena, dallo stesso layout | render locale |
+| **le clip** | l'ingresso animato di ogni slide, pochi secondi | render locale |
+| **il montaggio** | le clip tenute in vita dalla durata dell'audio | servizio di montaggio |
+
+Il blocco è l'unità che tiene insieme tutto: **un blocco = un mp3 = una clip =
+una scena**. Tutto il resto del metodo serve a far sì che quei quattro restino
+allineati, e i controlli del §6 servono a dimostrare che lo sono.
+
+## Che cosa serve sulla macchina
 
 | | |
 |---|---|
@@ -42,11 +60,25 @@ montaggio     create_asset_upload_batch · complete_asset_batch · get_asset_bat
               create_video_from_studio · get_video · show_video
 ```
 
+## I vincoli che non decidi tu
+
+Due cose vengono dal servizio di montaggio e vanno **stabilite una volta,
+guardando il servizio**, non ereditate da questo documento:
+
+- **quante scene accetta una singola chiamata.** Sopra quel numero rifiuta.
+  Nella lavorazione misurata qui erano 50 — ma è un tetto, non un obiettivo:
+  una lezione che ne usa meno vale quanto una che le riempie tutte;
+- **quanti file tiene un lotto di caricamento.** Qui erano 100, e servono
+  `2N + 2` file per una lezione da N blocchi.
+
+Un terzo viene dal servizio di sintesi: **quanti caratteri accetta una
+richiesta**. È il motivo per cui la voce si genera in due tracce e non in una.
+
 > **La rete può non lasciar scaricare il montato.** In una sessione con proxy,
-> `files2.heygen.ai` era bloccato: il video si apre dal link ma non si scarica
-> per ispezionarlo in locale. Non è un guasto della lavorazione — è un limite da
-> dichiarare nel registro, perché vuol dire che **nessuno ha ancora ascoltato il
-> file consegnato**.
+> l'host dei file del servizio di montaggio era bloccato: il video si apre dal
+> link ma non si scarica per ispezionarlo in locale. Non è un guasto della
+> lavorazione — è un limite da dichiarare nel registro, perché vuol dire che
+> **nessuno ha ancora ascoltato il file consegnato**.
 
 ---
 
@@ -76,9 +108,10 @@ vince** — è lo standard di quel corso, ed è la risposta alla domanda 2. **Il
 numero di slide no**: non trasferisce.
 
 Un copione da quattordici slide con cinquecento caratteri di parlato ciascuna
-vuol dire mezzo minuto a inquadratura, contro il tetto di 225 caratteri per
-blocco del §2. La ri-blocchettatura è obbligata **qualunque durata si scelga**,
-e va detto subito all'utente invece di farla passare per una scelta.
+vuol dire mezzo minuto a inquadratura, molto oltre quanto un occhio regge su
+un'immagine ferma e oltre il `MAX_CAR_BLOCCO` di qualunque profilo. La
+ri-blocchettatura è obbligata **qualunque durata si scelga**, e va detto subito
+all'utente invece di farla passare per una scelta.
 
 E se i due documenti dicono cose diverse — il MASTER una durata, il copione
 un'altra — è un conflitto vero fra materiali dell'utente: si porta a lui con i
@@ -88,31 +121,54 @@ numeri di entrambe le strade, non si sceglie in silenzio.
 
 # 2. L'aritmetica
 
-Tutto discende dalla durata chiesta. Un solo numero da ricordare:
+Non c'è una durata giusta e non c'è un numero di scene giusto. C'è una catena di
+relazioni: si fissa un capo — la durata chiesta — e tutto il resto ne discende.
 
 ```
-VELOCITÀ DI LETTURA = 17,0 caratteri al secondo
+parlato    = durata_chiesta − copertina − chiusura
+caratteri  = parlato × CPS
+blocchi    = caratteri / media_per_blocco        con media ≤ MAX_CAR_BLOCCO
+scene      = blocchi + 2                         e deve stare ≤ MAX_SCENE
 ```
 
-È misurata, non stimata: è la velocità della traccia **dopo** il filtro di
-ritmo. Su nove lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo scarto
-non è rumore — dipende dalla **densità di cifre**. Un anno pronunciato per
-esteso dura molto più dei quattro caratteri che occupa:
+Cinque parametri, e **nessuno dei cinque è una costante del metodo**. Stanno
+dichiarati in `profilo.py`, uno per riga, con accanto da dove vengono. Qui c'è
+come si stabilisce ciascuno.
+
+## `durata_chiesta` — dal committente
+
+È la risposta alla seconda domanda del §1. Non si indovina e non si eredita
+dalla lezione precedente di un altro corso: si chiede.
+
+Se il copione di partenza ne dichiara una sua, vale quella (§1).
+
+## `copertina` e `chiusura` — dalla forma del video
+
+Due immagini ferme che non portano parlato ma occupano durata montata. Vanno
+tolte dal tempo disponibile per la voce, altrimenti il video esce lungo di
+quanto durano.
+
+## `CPS` — dalla voce, e si misura
+
+Caratteri al secondo della traccia **dopo** il filtro di ritmo. È il cambio fra
+il tempo che il committente chiede e i caratteri che si devono scrivere, quindi
+sbagliarlo sposta tutto.
+
+Si misura in un modo solo: si prende una traccia già fatta con quella voce, si
+contano i caratteri del copione che l'ha prodotta, si divide per il parlato che
+ne è uscito. Su nove lezioni di due corsi il valore è stato **17,0 car/s**, con
+il reale fra 15,8 e 17,6.
+
+Lo scarto non è rumore: dipende da **quanto testo costa più sillabe dei
+caratteri che occupa**. Un anno pronunciato per esteso —
 «millenovecentosettantaquattro» sono ventinove caratteri di parlato per quattro
-di testo. La lezione più lenta è quella di ripasso, fatta di date e numeri di
-legge.
+di testo — e una sigla letta lettera per lettera — «SPDC» sono quattro caratteri
+e sette sillabe. La lezione più lenta delle nove è quella di ripasso, fatta di
+date e numeri di legge.
 
-Quindi:
+Cambiando voce o lingua, `CPS` va rimisurato prima di scrivere il copione.
 
-```
-caratteri da scrivere = (durata_parlato_in_secondi) × 17,0
-durata montata        = parlato + 3 s di copertina + 10 s di chiusura
-```
-
-Per una lezione da nove minuti montati: parlato 527 s → **circa 8.950
-caratteri**. Per una da 7:50: parlato 457 s → **circa 7.770 caratteri**.
-
-## Il grezzo e il lavorato stanno in rapporto 1,30
+### Il grezzo e il lavorato stanno in rapporto 1,30
 
 Il filtro di ritmo accorcia la traccia di circa il 30%. Il rapporto è stabile
 abbastanza da servire come **previsione**: appena la voce è generata, prima
@@ -122,34 +178,43 @@ ancora di tagliare, si sa già quanto durerà il montato.
 parlato finale ≈ durata_grezza / 1,30
 ```
 
-Controprova su una lezione reale: 3.956 caratteri in 300,16 s di grezzo fanno
-13,2 car/s; diviso 1,30 danno **17,1 car/s**, cioè i 17,0 di tabella. E le due
-tracce insieme, 583,68 s di grezzo, hanno dato 457,5 s di parlato — 7:50.5
-montati contro i 7:50 chiesti.
+Controprova su una lavorazione reale: 3.956 caratteri in 300,16 s di grezzo
+fanno 13,2 car/s; diviso 1,30 danno 17,1 car/s, cioè il `CPS` di tabella. E le
+due tracce insieme, 583,68 s di grezzo, hanno dato 457,5 s di parlato — contro i
+457 calcolati.
 
-Se il conto fatto qui dice che il montato uscirà **sotto** la durata chiesta, è
-il momento di saperlo: dopo, correggere vuol dire rigenerare la voce.
+È il momento in cui conviene accorgersi che il montato uscirà **sotto** la
+durata chiesta: dopo, correggere vuol dire rigenerare la voce, e si paga.
 
-## Blocchi e scene
+## `MAX_CAR_BLOCCO` — dalla leggibilità della slide
 
-```
-TETTO DURO: 50 scene per video
-```
+Quanto testo parlato sta sopra una singola inquadratura. Non è una regola
+tipografica: è il punto oltre il quale la slide non regge il testo e la scena
+dura troppo perché l'occhio resti su un'immagine ferma.
 
-Sopra quello il servizio di montaggio rifiuta. **Cinquanta è un tetto, non un
-obiettivo**: una lezione da 48 scene è legittima quanto una da 50, e nessuno
-strumento deve pretendere il numero tondo.
+Nella lavorazione misurata qui era **225 caratteri**, con una media sana fra 165
+e 190. Si stabilisce guardando i provini, non a tavolino.
 
-```
- 1 copertina  +  N blocchi di parlato  +  1 chiusura  =  N + 2  ≤  50
-```
+> **Quando un blocco sfora, non si comprime.** Si prende una scena in più, se
+> c'è spazio sotto `MAX_SCENE`. Tagliare una parola per far stare un blocco
+> cambia il senso della frase, ed è già successo: un avverbio tolto ha
+> trasformato «non compete gestire **autonomamente** la terapia» in «non compete
+> gestire la terapia», che è un'altra affermazione — e sbagliata.
 
-Il tetto per blocco è **225 caratteri**: sopra, la slide non regge il testo e la
-scena dura troppo. La media sana sta fra 165 e 190.
+## `MAX_SCENE` — dal servizio di montaggio
 
-Un blocco è **quello che sta sopra una singola inquadratura**: un concetto, mai
-due. Se un blocco ne contiene due, non lo si comprime: **si prende una scena in
-più**, se c'è spazio sotto il tetto.
+Quante scene accetta una singola chiamata. Sopra, rifiuta. Non è una scelta
+editoriale e non è un obiettivo: **una lezione che ne usa meno vale quanto una
+che le riempie tutte**.
+
+Va riverificato se si cambia servizio, e non va scritto dentro gli strumenti
+(§4).
+
+## Che cosa è un blocco
+
+**Quello che sta sopra una singola inquadratura**: un concetto, mai due. È
+l'unità che tiene insieme voce, slide, clip e scena, e tutto il resto del metodo
+serve a far sì che i quattro restino allineati.
 
 ---
 
@@ -198,12 +263,22 @@ I due modi giusti, in ordine di preferenza:
 
 1. **derivare dal dato** — la copertina è il primo PNG renderizzato, la chiusura
    è l'ultimo; le scene sono i blocchi più due; le righe di SRT sono i blocchi;
-2. **dichiarare in testa al file**, quando il valore non si può derivare — come
-   `STACCO` in `tagli.py` e `CHIESTO` in `controlli.py`. Dichiarato in un posto
-   solo, dove chi apre il file lo vede.
+2. **dichiarare in `profilo.py`**, quando il valore non si può derivare.
+
+`profilo.py` è la scheda della lezione: un file solo, alla radice della
+cartella, che tiene `DURATA_CHIESTA`, `COPERTINA`, `CHIUSURA`, `CPS`,
+`FASCIA_CPS`, `MAX_SCENE`, `MAX_CAR_BLOCCO` e `STACCO`, ciascuno con accanto da
+dove viene. Gli strumenti lo importano; nessuno di loro contiene più una cifra
+di configurazione.
+
+Chi riprende una lezione apre quel file e vede in venti righe tutto quello che
+la distingue dalle altre. Chi ne comincia una nuova sa esattamente che cosa
+deve cambiare.
 
 Quello che non va mai bene è il numero murato a metà del file, dentro un
-confronto.
+confronto. Prima della correzione erano sparsi in quattro strumenti: il tetto
+delle scene in due posti, quello dei caratteri per blocco in uno, la fascia di
+velocità in due, i secondi di copertina e chiusura in tre.
 
 ## Passo 1 — Riscrivere il copione
 
@@ -329,7 +404,7 @@ Provare le soglie in ordine e fermarsi alla prima che «ha abbastanza spezzoni»
 guarda la quantità e non l'esito. Su una lezione la soglia di 0,18 s ha mancato
 per un centesimo una pausa vera, e i due blocchi attorno sono usciti uno di 19
 secondi e uno di 8. **Si provano tutte le soglie e si tiene quella che lascia
-meno blocchi fuori fascia** (8,5–21 car/s).
+meno blocchi fuori fascia**, dove la fascia è quella del profilo.
 
 E nel codice che fa quel voto: una soglia bassa può mettere due confini sulla
 stessa pausa e lasciare un blocco di durata zero. Non è un caso da far
@@ -624,11 +699,13 @@ tredici tipi più le icone — non un disegno diverso per ogni slide.
 | insiemi | `griglia` `icone` | c'è un **elenco** che merita forma |
 | fregi | `sigillo` `anello` `virgolette` `barra` | la slide è di sola parola |
 
-Circa **venti figure distinte** per lezione. Le loro rivelazioni progressive —
+**Circa due scene su cinque portano una figura.** Le rivelazioni progressive —
 la stessa figura su tre scene con `attive` diverso — contano come una figura
 sola, non come tre. Le altre scene sono i respiri: una frase sola, una
-citazione, un numero grande. Un video in cui ogni scena è un diagramma stanca
-quanto uno in cui non ce n'è nessuno.
+citazione, un numero grande.
+
+La proporzione conta più del numero: un video in cui ogni scena è un diagramma
+stanca quanto uno in cui non ce n'è nessuno.
 
 ## I tre temi non sono tre colori: sono tre significati
 
@@ -704,20 +781,20 @@ timeline a passo fisso dice il contrario di quello che è successo.
 `controlli.py` li fa tutti in una volta. Otto:
 
 - [ ] verifica per trascrizione: **nessun buco nel parlato**
-- [ ] tutti i blocchi nella fascia **8,5–21 car/s**
+- [ ] tutti i blocchi **dentro la fascia di velocità** del profilo
 - [ ] **un PNG per scena**, renderizzati **e guardati** nei provini
 - [ ] **nessuna slide sfora** la cornice
-- [ ] scene totali **≤ 50**
+- [ ] scene totali **entro il tetto del servizio**
 - [ ] **durata** ≥ quella chiesta
 - [ ] **sottotitoli** SRT, una riga per blocco
 - [ ] **registro** con la sezione «da verificare»
 
 Un 7/8 si consegna solo dicendo quale controllo non è passato e perché.
 
-> **Nessuno di questi conteggi è una costante.** I PNG sono i blocchi più due, le
-> righe di SRT sono i blocchi, la durata chiesta è un parametro dichiarato in
-> testa al file. Scriverli come numeri fissi li fa passare sulla lezione che li
-> ha scritti e fallire su tutte le altre — vedi il §4.
+> **Nessuno di questi controlli confronta con una costante.** I PNG si contano
+> sui blocchi, le righe di SRT sui blocchi, il tetto delle scene e la durata
+> chiesta si leggono da `profilo.py`. Scritti come numeri fissi passano sulla
+> lezione che li ha scritti e falliscono su tutte le altre — vedi il §4.
 
 E due cose che i controlli non prendono, da fare a mano:
 
@@ -762,19 +839,44 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 
 ---
 
-# 8. I profili compilati
+# 8. Il profilo
 
-Due corsi, stesso cliente, stesso marchio. I parametri di stile si confermano
-una volta per corso; quando il secondo corso è dello stesso committente, si
-confermano identici invece di riaprirli.
+Il profilo è dove stanno i numeri. Si compila **una volta per corso**, non a
+ogni lezione, e l'unico valore che cambia da lezione a lezione è `STACCO`.
+
+## La scheda da compilare
+
+| | da dove viene |
+|---|---|
+| durata chiesta | il committente (§1, domanda 2) |
+| pausa musicale | il committente (§1, domanda 3) |
+| copertina, chiusura | la forma del video |
+| `CPS` | misurato sulla voce scelta (§2) |
+| fascia di velocità | dove un blocco è sano (§2) |
+| tetto delle scene | il servizio di montaggio (§0) |
+| caratteri per blocco | i provini: dove la slide smette di reggere (§2) |
+| palette | il marchio, **campionata dal file del logo** |
+| marchio | il committente, e dove sta sulla slide |
+| caratteri | la scelta tipografica del corso |
+| voce | l'id del servizio di sintesi, e il modello |
+| formato | risoluzione, fotogrammi, proporzione |
+
+Nel codice questa scheda è `profilo.py` (§10) per i parametri numerici, e
+`layout.mjs` per palette e caratteri.
+
+## Le due compilate finora
+
+Due corsi, stesso cliente, stesso marchio. Quando il secondo corso è dello
+stesso committente, i parametri di stile si confermano identici invece di
+riaprirli — ma la durata no: quella si richiede.
 
 | | corso **Infermiere** | corso **OSS** |
 |---|---|---|
 | committente | CISL FP Padova Rovigo · Azienda Zero Veneto | lo stesso |
-| durata | «8 minuti almeno» → **9:00** montati | standard 7–8 min → **7:50** montati |
+| durata chiesta | «8 minuti almeno» → 9:00 | standard 7–8 min → 7:50 |
 | pausa musicale | no | no |
 | copione | lo fornisce l'utente, uno script per lezione | idem |
-| scene | 50 | 48 |
+| scene usate | 50 | 48 |
 | lezioni fatte | 8 | 1 |
 
 I parametri comuni a tutti e due:
@@ -788,6 +890,8 @@ I parametri comuni a tutti e due:
 | voce | GianP — News Info and Documentary, `nNt0YcINdGadGcTx5fBM`, `eleven_v3` |
 | trascrizione | `eleven_scribe_v1` |
 | formato | 1920×1080, 25 fps, 16:9, 1080p |
+| `CPS` | 17,0 · fascia 8,5–21 · copertina 3 s · chiusura 10 s |
+| tetti | 50 scene per chiamata · 100 file per lotto · 225 caratteri per blocco |
 
 I due colori del marchio sono **campionati dal file del logo, non stimati**.
 Controprova su un secondo file dello stesso logo: fra i pixel opachi `#00623A`
@@ -795,11 +899,11 @@ sta al 35,0% e `#D70328` all'11,7% — gli stessi due valori.
 
 ## Il marchio va rifilato
 
-`layout.mjs` scala il logo a un'altezza fissa di 70px. Un margine trasparente
-dentro il file **ruba quell'altezza al marchio**, che esce più piccolo del
-dovuto su ogni singola slide. Un file arrivato 225×109 conteneva 38 pixel di
-margine in larghezza e 12 in altezza: rifilato sul contenuto opaco diventa
-187×97. È il motivo per cui il file si chiama `logo-rifilato.png`.
+`layout.mjs` scala il logo a un'altezza fissa. Un margine trasparente dentro il
+file **ruba quell'altezza al marchio**, che esce più piccolo del dovuto su ogni
+singola slide. Un file arrivato 225×109 conteneva 38 pixel di margine in
+larghezza e 12 in altezza: rifilato sul contenuto opaco diventa 187×97. È il
+motivo per cui il file si chiama `logo-rifilato.png`.
 
 ```python
 from PIL import Image
@@ -848,9 +952,12 @@ Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro).
 3. Metti il logo in `slide/marchio/logo-rifilato.png`, **rifilato** come dice il
    §8, e genera `slide/font/font-incorporati.css` dai due caratteri.
 4. Fai le tre domande del §1.
-5. Per ogni lezione: `./nuova-lezione.sh m16-l16.2-nome`, poi scrivi i due soli
-   file che cambiano — `copione/costruisci.py` e `slide/contenuti.mjs` — e segui
-   la pipeline del §3.
+5. Compila `profilo.py` con la scheda del §8: è il file in cui vivono tutti i
+   numeri, e gli strumenti lo importano.
+6. Per ogni lezione: `./nuova-lezione.sh m16-l16.2-nome`, poi apri `profilo.py`
+   per aggiornare `STACCO` e, se la lezione lo cambia, la durata; scrivi i due
+   soli file che cambiano — `copione/costruisci.py` e `slide/contenuti.mjs` — e
+   segui la pipeline del §3.
 
 La prima lezione di un corso costa più delle altre: è quella in cui si fissano
 palette, marchio e voce. Dalla seconda in poi `nuova-lezione.sh` copia tutto
@@ -871,24 +978,27 @@ Tutti i file, nell'ordine in cui servono. Sono quelli veri, non una versione
 semplificata: i commenti dentro spiegano le decisioni che il testo qui sopra
 riassume.
 
-`copione/costruisci.py` e `slide/contenuti.mjs` sono gli unici due che si
-riscrivono a ogni lezione: qui sono quelli della 16.1, riportati come esempio
-compilato. Tutti gli altri si copiano come sono, una volta sola.
+`profilo.py` si compila una volta per corso e si ritocca a ogni lezione, e
+`copione/costruisci.py` e `slide/contenuti.mjs` si riscrivono ogni volta: qui
+sono quelli di una lezione reale, riportati come esempio compilato. Tutti gli
+altri si copiano come sono, una volta sola, e **non contengono nessuna cifra di
+configurazione**: la leggono da `profilo.py`.
 
 | file | righe | a che cosa serve |
 |---|---|---|
-| `nuova-lezione.sh` | 60 | impianta una lezione nuova dall'ultima fatta |
-| `copione/costruisci.py` | 128 | il copione, i blocchi, i chunk per la voce |
-| `audio/tagli.py` | 267 | pause, allineamento DTW, ritaglio dei blocchi |
-| `audio/verifica-testo.py` | 173 | trascrizione contro copione |
+| `nuova-lezione.sh` | 67 | impianta una lezione nuova dall'ultima fatta |
+| `profilo.py` | 68 | i parametri della lezione, in un posto solo |
+| `copione/costruisci.py` | 130 | il copione, i blocchi, i chunk per la voce |
+| `audio/tagli.py` | 264 | pause, allineamento DTW, ritaglio dei blocchi |
+| `audio/verifica-testo.py` | 172 | trascrizione contro copione |
 | `audio/verifica.py` | 81 | durata e velocita' dei blocchi ritagliati |
 | `verifica-locale.py` | 49 | il controllo statistico sui confini |
 | `slide/layout.mjs` | 348 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 531 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/cards.mjs` | 52 | le slide in PNG |
 | `slide/clips.mjs` | 45 | le scene animate in MP4 |
-| `monta-scene.py` | 37 | il payload delle scene per il montaggio |
-| `monta-locale.py` | 57 | il montaggio di prova con ffmpeg e l'SRT |
+| `monta-scene.py` | 40 | il payload delle scene per il montaggio |
+| `monta-locale.py` | 59 | il montaggio di prova con ffmpeg e l'SRT |
 | `controlli.py` | 85 | gli otto controlli finali |
 | `slide/contenuti.mjs` | 247 | le scene — esempio, cambia a ogni lezione |
 
@@ -929,6 +1039,9 @@ cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+# profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
+# intero, e a cambiare e' STACCO. Senza, ogni strumento muore sull'import.
+cp "$DA/profilo.py" "$NUOVA/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
 
 cat <<TESTO
@@ -937,6 +1050,10 @@ $NUOVA pronta (copiata da $DA). Da scrivere, due file:
 
   copione/costruisci.py    i blocchi del parlato (parte da quello di $DA)
   slide/contenuti.mjs      il contenuto delle scene
+
+E un file da ritoccare, copiato da $DA:
+
+  profilo.py               STACCO sempre; la durata se cambia
 
 Poi, nell'ordine:
 
@@ -959,6 +1076,83 @@ Poi, nell'ordine:
 Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
 
 TESTO
+```
+
+## `profilo.py`
+
+La scheda del §8, in forma di codice. Tutti gli altri strumenti la importano:
+nessuno di loro contiene una cifra di configurazione. Si compila una volta per
+corso; a ogni lezione si ritocca `STACCO`, e la durata se cambia.
+
+```python
+# -*- coding: utf-8 -*-
+"""I parametri di questa lezione, dichiarati in un posto solo.
+
+Il metodo non fissa ne' una durata ne' un numero di scene: li fissano il
+committente, la voce e il servizio di montaggio. Prima stavano murati a meta'
+di quattro strumenti diversi, che e' il modo di farli sbagliare sulla prima
+lezione che ha un numero diverso — succede, ed e' costato un montato non
+prodotto e tre controlli che fallivano a torto.
+
+Ogni valore porta accanto da dove viene. Quelli senza una fonte misurata non
+sono parametri: sono indovinelli.
+"""
+
+# --- dal committente ---------------------------------------------------------
+
+# La durata montata chiesta, in secondi. E' la risposta alla seconda domanda
+# del §1, ed e' il vincolo da cui discende tutto il resto: i caratteri da
+# scrivere, e quindi il numero di blocchi.
+DURATA_CHIESTA = 470.0          # 7:50 — standard «7-8 minuti» del corso OSS
+
+# --- dalla forma del video ---------------------------------------------------
+
+# Copertina e chiusura sono immagini ferme: non portano parlato, ma occupano
+# durata montata e vanno tolte dal tempo disponibile per la voce.
+COPERTINA = 3.0
+CHIUSURA  = 10.0
+
+# --- dalla voce --------------------------------------------------------------
+
+# Caratteri al secondo della traccia DOPO il filtro di ritmo. Misurata, non
+# stimata: e' il rapporto fra i caratteri del copione e il parlato che ne esce.
+# Su nove lezioni il reale e' andato da 15,8 a 17,6 — lo scarto dipende dalla
+# densita' di cifre e di sigle, che costano molte piu' sillabe dei caratteri
+# che occupano. Cambiando voce o lingua va rimisurata.
+CPS = 17.0
+
+# La fascia entro cui un blocco e' sano. Sotto, la voce striscia e la scena si
+# siede; sopra, corre e il testo della slide non fa in tempo a leggersi. Fuori
+# fascia non e' un errore da bloccare: e' il segnale che quel confine va
+# guardato.
+FASCIA_CPS = (8.5, 21.0)
+
+# --- dal servizio di montaggio -----------------------------------------------
+
+# Quante scene accetta una singola chiamata di montaggio. Non e' una scelta
+# editoriale: e' il tetto del servizio, e sopra rifiuta. Va riverificato se si
+# cambia servizio. Cinquanta e' un tetto, non un obiettivo: una lezione da 48
+# scene vale quanto una da 50.
+MAX_SCENE = 50
+
+# --- dalla leggibilita' della slide ------------------------------------------
+
+# Quanto testo parlato sta sopra una singola inquadratura. Sopra questa
+# soglia la slide non regge il testo e la scena dura troppo. Quando un blocco
+# sfora non si comprime il testo: si prende una scena in piu', se c'e' spazio
+# sotto MAX_SCENE. Una parola tagliata per far stare un blocco cambia il senso,
+# ed e' gia' successo.
+MAX_CAR_BLOCCO = 225
+
+# --- dal copione -------------------------------------------------------------
+
+# L'ultimo blocco della traccia A. Le due tracce si generano separate perche'
+# una sola supererebbe il limite del servizio di sintesi, e lo stacco va su un
+# cambio di capitolo, dove il cambio di tono e' voluto. `costruisci.py` lo
+# calcola e lo stampa; qui si ricopia. Va riletto A OGNI LEZIONE: quello della
+# lezione precedente taglia la traccia nel punto sbagliato e nessun controllo
+# se ne accorge, perche' i conti tornano tutti — solo sui blocchi sbagliati.
+STACCO = "s24"                  # chunkA 3957 car · chunkB 3763 car
 ```
 
 ## `copione/costruisci.py`
@@ -1051,14 +1245,16 @@ BLOCCHI = [
  (16,"chiaro",0,"[warm] E lo stigma si manifesta come sociale, autostigma e istituzionale, con l'attenzione al diagnostic overshadowing. Nella prossima lezione vediamo i quadri principali e i segni da riconoscere. Ci vediamo li'."),
 ]
 
+import sys as _sys, pathlib as _pl
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
+from profilo import CPS, MAX_CAR_BLOCCO, MAX_SCENE, COPERTINA, CHIUSURA
+
 ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
 CAPITOLI = {1:"Apertura",2:"Le due conseguenze",3:"La legge 180",
  4:"Volontario, e l'eccezione",5:"Le tre condizioni",6:"La procedura",
  7:"Che cosa il TSO non e'",8:"I servizi",9:"Il modello",10:"Lo stigma",
  11:"La pericolosita'",12:"Gli effetti",13:"Diagnostic overshadowing",
  14:"Il ruolo dell'OSS",15:"La sintesi",16:"Riepilogo"}
-CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.7
-
 blocchi=[]
 for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
     blocchi.append({"id":f"s{i:02d}","capitolo":cap,"tema":tema,"posa":posa,"text":txt})
@@ -1066,17 +1262,17 @@ for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
 errori=[]
 tot=sum(len(b["text"]) for b in blocchi)
 nscene=len(blocchi)+2
-if nscene>50: errori.append(f"scene {nscene} > 50")
+if nscene>MAX_SCENE: errori.append(f"scene {nscene} > {MAX_SCENE}")
 for b in blocchi:
     if any(c in ACCENTATE for c in b["text"]):
         errori.append(f'{b["id"]}: vocale accentata -> ' + "".join(sorted({c for c in b["text"] if c in ACCENTATE})))
-    if len(b["text"])>225: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
+    if len(b["text"])>MAX_CAR_BLOCCO: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
 tags=sum(len(re.findall(r"\[[a-z]+\]", b["text"])) for b in blocchi)
 if tags>6: errori.append(f"tag di intenzione: {tags} > 6")
 
 pose=sum(b["posa"] for b in blocchi)
-parlato=tot/CPS+pose; durata=parlato+3+10
-print(f"blocchi   {len(blocchi)}        scene {nscene}/50")
+parlato=tot/CPS+pose; durata=parlato+COPERTINA+CHIUSURA
+print(f"blocchi   {len(blocchi)}        scene {nscene}/{MAX_SCENE}")
 print(f"caratteri {tot}      media {tot/len(blocchi):.0f} car/blocco")
 print(f"parlato   {parlato:.0f} s     montato {durata//60:.0f}:{durata%60:04.1f}   (stima a {CPS} car/s)")
 print(f"tag       {tags}        pose {sum(1 for b in blocchi if b['posa'])}")
@@ -1125,12 +1321,9 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-# Ultimo blocco della traccia A. Arriva da costruisci.py, che lo calcola sul
-# primo cambio di capitolo dopo meta' dei caratteri: qui cade fra "I servizi"
-# e "Il modello", dove il cambio di tono e' voluto. Va riletto a ogni lezione:
-# lasciarci quello della lezione precedente taglia la traccia nel punto
-# sbagliato senza che nessun controllo se ne accorga.
-STACCO = "s24"   # chunkA 3957 car  ·  chunkB 3763 car
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import STACCO, FASCIA_CPS
+CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
          "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
@@ -1236,7 +1429,7 @@ def quanto_male(gruppo, D, conf):
     # peggiore possibile, e come tale va pesato.
     if min(durate) < 0.30: return (10**6, 10**6)
     cps = [len(x["text"])/(d/1.30) for x,d in zip(gruppo, durate)]
-    fuori = sum(not (8.5 <= c <= 21) for c in cps)
+    fuori = sum(not (CPSMIN <= c <= CPSMAX) for c in cps)
     medio = sum(cps)/len(cps)
     sparso = (sum((c-medio)**2 for c in cps)/len(cps))**0.5
     return fuori, sparso
@@ -1272,7 +1465,7 @@ def mostra(L, gruppo, D, conf):
     for i,x in enumerate(gruppo):
         d = bordi[i+1]-bordi[i]
         cps = len(x["text"])/(d/1.30)          # stima: il ritmo accorcia di ~30%
-        bad = not (8.5 <= cps <= 21); fuori += bad
+        bad = not (CPSMIN <= cps <= CPSMAX); fuori += bad
         print(f"  {x['id']}  {bordi[i]:7.2f} -> {bordi[i+1]:7.2f}  {d:5.2f}s grezzi  "
               f"~{cps:5.1f} car/s{'   <-- FUORI FASCIA' if bad else ''}")
     return fuori
@@ -1365,7 +1558,7 @@ def cmd_applica():
                         "cps":round(len(x["text"])/d,1)})
     (QUI/"blocchi-audio.json").write_text(json.dumps(reg,indent=1,ensure_ascii=False),encoding="utf-8")
     tot = sum(r["durata"] for r in reg); m = tot+13
-    fuori = [r for r in reg if not 8.5<=r["cps"]<=21]
+    fuori = [r for r in reg if not CPSMIN<=r["cps"]<=CPSMAX]
     print(f"{len(reg)} blocchi  ·  parlato {tot:.1f} s  ·  montato {int(m//60)}:{m%60:04.1f}")
     print(f"pose: {sum(1 for r in reg if r['posa'])}   fuori fascia: {len(fuori)}")
     for r in fuori: print(f"   {r['id']}  {r['cps']} car/s  {r['durata']} s")
@@ -1399,12 +1592,11 @@ from pathlib import Path
 
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
-# Lo stacco fra le due tracce e' dichiarato una volta sola, in tagli.py:
-# tenerne una seconda copia qui vuol dire che prima o poi le due divergono
-# in silenzio, e il confronto si fa sui blocchi sbagliati.
-STACCO = re.search(r'^STACCO\s*=\s*"([^"]+)"',
-                   (QUI/"tagli.py").read_text(encoding="utf-8"),
-                   re.M).group(1)
+# Lo stacco sta in profilo.py, che e' l'unica copia: tenerne una seconda qui
+# vuol dire che prima o poi le due divergono in silenzio, e il confronto si
+# fa sui blocchi sbagliati.
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import STACCO
 BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
 
 # I numeri di legge, di articolo e di anno sono la resa che ricorre di piu':
@@ -2708,6 +2900,8 @@ import imageio_ffmpeg
 
 QUI = Path(__file__).resolve().parent
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import COPERTINA, CHIUSURA
 OUT = QUI/"scene"; OUT.mkdir(exist_ok=True)
 
 def durata(f):
@@ -2732,8 +2926,9 @@ for r in reg:
     print(f"  {idb}  audio {d:6.2f}s  scena {dr:6.2f}s  scarto {abs(dr-d)*1000:4.0f} ms")
 
 peggio = max(righe, key=lambda x: x[3])
-m = tot + 3 + 10
-print(f"\n48 scene · parlato {tot:.1f} s · con copertina 3 s e chiusura 10 s → {int(m//60)}:{m%60:04.1f}")
+m = tot + COPERTINA + CHIUSURA
+print(f"\n{len(reg)+2} scene · parlato {tot:.1f} s · con copertina {COPERTINA:g} s "
+      f"e chiusura {CHIUSURA:g} s → {int(m//60)}:{m%60:04.1f}")
 print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")
 ```
 
@@ -2742,7 +2937,7 @@ print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Copia locale del montato: copertina 3 s + le 48 scene + chiusura 10 s.
+"""Copia locale del montato: copertina + le scene di blocco + chiusura.
 Serve a verificare la durata e a guardare il risultato senza aspettare HeyGen."""
 import json, subprocess, re
 from pathlib import Path
@@ -2751,6 +2946,8 @@ QUI = Path(__file__).resolve().parent
 import re as _re
 LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import COPERTINA as SEC_COP, CHIUSURA as SEC_CHI
 TMP = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
 sh  = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
 
@@ -2766,7 +2963,7 @@ PNG = sorted((QUI/"slide"/"png").glob("s*.png"))
 COPERTINA, CHIUSURA = PNG[0].stem, PNG[-1].stem
 
 # copertina e chiusura: immagine ferma + silenzio, cosi' hanno una traccia audio
-for idb, sec in ((COPERTINA, 3), (CHIUSURA, 10)):
+for idb, sec in ((COPERTINA, SEC_COP), (CHIUSURA, SEC_CHI)):
     sh(FF,"-y","-v","error","-loop","1","-t",str(sec),"-i",QUI/"slide"/"png"/f"{idb}.png",
        "-f","lavfi","-t",str(sec),"-i","anullsrc=r=44100:cl=stereo",
        "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p","-r","25",
@@ -2785,7 +2982,7 @@ def hms(t):
     return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".",",")
 bl = {x["id"]: re.sub(r"\[[a-z]+\]","",x["text"]).strip()
       for x in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
-righe, t, n = [], 3.0, 0
+righe, t, n = [], float(SEC_COP), 0
 for r in reg:
     n += 1
     righe.append(f"{n}\n{hms(t)} --> {hms(t+r['durata'])}\n{bl[r['id']]}\n")
@@ -2815,11 +3012,10 @@ FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
 esiti = []
 
-# La durata chiesta e' un parametro della lezione, non una costante del
-# metodo: il corso Infermiere chiedeva «8 minuti almeno», il corso OSS ha
-# lo standard 7-8 minuti. Sta qui, dichiarata, invece che murata in un
-# confronto a meta' del file.
-CHIESTO = 470.0   # 7:50 montati
+# I parametri della lezione stanno in profilo.py, dichiarati in un posto solo.
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import DURATA_CHIESTA, FASCIA_CPS, MAX_SCENE
+CPSMIN, CPSMAX = FASCIA_CPS
 
 
 # La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
@@ -2853,28 +3049,29 @@ else:
         esiti.append((False, f"verifica per trascrizione: {len(fuori)} confini fuori posto, non corretti"))
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
-male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
-esiti.append((not male, "fascia 8,5-21 car/s: " +
+male = [r for r in reg if not CPSMIN <= r["cps"] <= CPSMAX]
+esiti.append((not male, f"fascia {CPSMIN}-{CPSMAX:g} car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
 
 # Un PNG per scena, e le scene sono i blocchi piu' copertina e chiusura. Il 50
 # del MASTER e' il tetto, non il numero di scene di ogni lezione.
 png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
 atteso = len(json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))) + 2
-esiti.append((len(png)==atteso and atteso<=50,
-              f"PNG renderizzati e guardati: {len(png)} su {atteso} scene (tetto 50)"))
+esiti.append((len(png)==atteso and atteso<=MAX_SCENE,
+              f"PNG renderizzati e guardati: {len(png)} su {atteso} scene (tetto {MAX_SCENE})"))
 sfora = json.loads((QUI/"slide"/"troppo-alte.json").read_text(encoding="utf-8"))
 esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"))
 
 scene = sorted(Path(QUI/"scene").glob("*.mp4"))
-esiti.append((len(scene)+2 <= 50, f"scene totali: {len(scene)+2} (tetto 50)"))
+esiti.append((len(scene)+2 <= MAX_SCENE,
+              f"scene totali: {len(scene)+2} (tetto {MAX_SCENE})"))
 
 o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
                    capture_output=True,text=True).stderr
 t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
 d = int(t[0])*3600+int(t[1])*60+float(t[2])
-esiti.append((d >= CHIESTO, f"durata {int(d//60)}:{d%60:05.2f} — chiesti "
-              f"{int(CHIESTO//60)}:{CHIESTO%60:05.2f}"))
+esiti.append((d >= DURATA_CHIESTA, f"durata {int(d//60)}:{d%60:05.2f} — chiesti "
+              f"{int(DURATA_CHIESTA//60)}:{DURATA_CHIESTA%60:05.2f}"))
 
 srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
 n = len(re.findall(r"-->", srt))

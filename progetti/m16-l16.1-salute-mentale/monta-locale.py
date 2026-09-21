@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Copia locale del montato: copertina 3 s + le 48 scene + chiusura 10 s.
+"""Copia locale del montato: copertina + le scene di blocco + chiusura.
 Serve a verificare la durata e a guardare il risultato senza aspettare HeyGen."""
 import json, subprocess, re
 from pathlib import Path
@@ -9,6 +9,8 @@ QUI = Path(__file__).resolve().parent
 import re as _re
 LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import COPERTINA as SEC_COP, CHIUSURA as SEC_CHI
 TMP = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
 sh  = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
 
@@ -24,7 +26,7 @@ PNG = sorted((QUI/"slide"/"png").glob("s*.png"))
 COPERTINA, CHIUSURA = PNG[0].stem, PNG[-1].stem
 
 # copertina e chiusura: immagine ferma + silenzio, cosi' hanno una traccia audio
-for idb, sec in ((COPERTINA, 3), (CHIUSURA, 10)):
+for idb, sec in ((COPERTINA, SEC_COP), (CHIUSURA, SEC_CHI)):
     sh(FF,"-y","-v","error","-loop","1","-t",str(sec),"-i",QUI/"slide"/"png"/f"{idb}.png",
        "-f","lavfi","-t",str(sec),"-i","anullsrc=r=44100:cl=stereo",
        "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p","-r","25",
@@ -43,7 +45,7 @@ def hms(t):
     return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".",",")
 bl = {x["id"]: re.sub(r"\[[a-z]+\]","",x["text"]).strip()
       for x in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
-righe, t, n = [], 3.0, 0
+righe, t, n = [], float(SEC_COP), 0
 for r in reg:
     n += 1
     righe.append(f"{n}\n{hms(t)} --> {hms(t+r['durata'])}\n{bl[r['id']]}\n")

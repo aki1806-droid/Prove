@@ -18,12 +18,9 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-# Ultimo blocco della traccia A. Arriva da costruisci.py, che lo calcola sul
-# primo cambio di capitolo dopo meta' dei caratteri: qui cade fra "I servizi"
-# e "Il modello", dove il cambio di tono e' voluto. Va riletto a ogni lezione:
-# lasciarci quello della lezione precedente taglia la traccia nel punto
-# sbagliato senza che nessun controllo se ne accorga.
-STACCO = "s24"   # chunkA 3957 car  ·  chunkB 3763 car
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import STACCO, FASCIA_CPS
+CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
          "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
@@ -129,7 +126,7 @@ def quanto_male(gruppo, D, conf):
     # peggiore possibile, e come tale va pesato.
     if min(durate) < 0.30: return (10**6, 10**6)
     cps = [len(x["text"])/(d/1.30) for x,d in zip(gruppo, durate)]
-    fuori = sum(not (8.5 <= c <= 21) for c in cps)
+    fuori = sum(not (CPSMIN <= c <= CPSMAX) for c in cps)
     medio = sum(cps)/len(cps)
     sparso = (sum((c-medio)**2 for c in cps)/len(cps))**0.5
     return fuori, sparso
@@ -165,7 +162,7 @@ def mostra(L, gruppo, D, conf):
     for i,x in enumerate(gruppo):
         d = bordi[i+1]-bordi[i]
         cps = len(x["text"])/(d/1.30)          # stima: il ritmo accorcia di ~30%
-        bad = not (8.5 <= cps <= 21); fuori += bad
+        bad = not (CPSMIN <= cps <= CPSMAX); fuori += bad
         print(f"  {x['id']}  {bordi[i]:7.2f} -> {bordi[i+1]:7.2f}  {d:5.2f}s grezzi  "
               f"~{cps:5.1f} car/s{'   <-- FUORI FASCIA' if bad else ''}")
     return fuori
@@ -258,7 +255,7 @@ def cmd_applica():
                         "cps":round(len(x["text"])/d,1)})
     (QUI/"blocchi-audio.json").write_text(json.dumps(reg,indent=1,ensure_ascii=False),encoding="utf-8")
     tot = sum(r["durata"] for r in reg); m = tot+13
-    fuori = [r for r in reg if not 8.5<=r["cps"]<=21]
+    fuori = [r for r in reg if not CPSMIN<=r["cps"]<=CPSMAX]
     print(f"{len(reg)} blocchi  ·  parlato {tot:.1f} s  ·  montato {int(m//60)}:{m%60:04.1f}")
     print(f"pose: {sum(1 for r in reg if r['posa'])}   fuori fascia: {len(fuori)}")
     for r in fuori: print(f"   {r['id']}  {r['cps']} car/s  {r['durata']} s")
