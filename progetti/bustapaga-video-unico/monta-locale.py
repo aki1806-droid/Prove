@@ -30,8 +30,23 @@ TMP  = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
 sh   = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
 
 def durata(f):
-    t = re.findall(r"time=(\d+):(\d+):([\d.]+)", sh(FF, "-i", f, "-f", "null", "-").stderr)[-1]
-    return int(t[0])*3600 + int(t[1])*60 + float(t[2])
+    """La durata dichiarata nell'intestazione del contenitore, non quella
+    decodificata.
+
+    Non e' un'ottimizzazione, e' la misura giusta. Il `time=` che ffmpeg stampa
+    decodificando e' l'ultimo istante processato, e su 218 file resta indietro
+    di 1,38 s in tutto; la Duration dell'intestazione e' invece esattamente la
+    quantita' con cui il demuxer concat sposta l'inizio dello spezzone
+    successivo - cioe' il tempo a cui la scena comincia davvero nel montato.
+    Sommata sulle 218 scene cade a 20 ms dal montato, contro i 1.380 ms
+    dell'altra. In piu' non decodifica niente: cinque minuti diventano due
+    secondi.
+    """
+    e = sh(FF, "-i", f).stderr
+    m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", e)
+    if not m:
+        raise SystemExit(f"nessuna Duration nell'intestazione di {f}")
+    return int(m[1])*3600 + int(m[2])*60 + float(m[3])
 
 def secondi_fermi(tipo):
     """Quanto dura una scena muta, dal suo tipo nello script dell'utente."""
@@ -74,11 +89,19 @@ def hms(t):
     h = int(t//3600); m = int(t % 3600 // 60); s = t % 60
     return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".", ",")
 
+# Le durate per l'SRT si misurano sui FILE DI SCENA, non si prendono da
+# blocchi-audio.json: ogni scena viene arrotondata al fotogramma a 25 fps e
+# l'audio al pacchetto AAC, e su 218 scene lo scarto si accumula. Usando le
+# durate nominali il montato e la somma camminata divergevano di 1,72 s, cioe'
+# i sottotitoli a fine video sarebbero stati in anticipo di quasi due secondi.
+# Con le durate reali lo scarto e' 20 ms su un'ora. E' la stessa aritmetica per
+# cui il MASTER avverte che il montato del servizio esce piu' corto del locale.
 righe, t, n = [], 0.0, 0
 for s in scene:
+    f = (QUI/"scene"/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
+    d = durata(f)
     if not s["text"]:
-        t += secondi_fermi(s["tipo"]); continue
-    d = reg[s["id"]]["durata"]
+        t += d; continue
     n += 1
     testo = re.sub(r"\[[a-z]+\]", "", s["text"]).strip()
     righe.append(f"{n}\n{hms(t)} --> {hms(t+d)}\n{testo}\n")

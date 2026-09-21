@@ -63,8 +63,6 @@ il preventivo era ~2,2 volte il reale — qui no, e va riferito com'e').
 Speso davvero, sommando le 17 generazioni: **$9,33**. Con `generations_count`
 lasciato al default di 4 sarebbero stati $37,3.
 
-Con `generations_count` lasciato al suo default di 4 sarebbero stati $37,3.
-
 ## La voce, generata per intero
 
 Tutte e 17 le tracce sono state generate, `generations_count=1`, nessun errore.
@@ -75,10 +73,13 @@ Misurato sulle tracce vere, non piu' proiettato:
 
 ```
 grezzo totale      62,05 min
-lavorato totale    59,13 min   (3.547,7 s)
+lavorato totale    59,10 min   (3.546,1 s, somma dei 203 blocchi)
 + scene mute          39 s     (copertina 3 + chiusura 10 + 13 card da 2)
-MONTATO PREVISTO   59,78 min   contro i 60 dichiarati: -13 secondi
+MONTATO PREVISTO   59,75 min   contro i 60 dichiarati: -14,9 secondi
 CPS reale          15,92 car/s (la traccia 1 da sola ne prometteva 15,68)
+
+montato vero       59:46,79    (1,7 s in piu': l'arrotondamento al fotogramma
+                                di 218 scene, vedi la sezione sul montaggio)
 ```
 
 Ogni traccia sta dentro la fascia sana 8,5-21 car/s: la piu' lenta e' la 3 a
@@ -95,7 +96,7 @@ Lo script dichiarava sia «circa 60 minuti» sia `atempo=1.12`. Con questa voce
 le due cose non stavano insieme. Portato all'utente con i numeri di entrambe le
 strade, ha scelto la durata: **`silenceremove` da solo, senza `atempo`**.
 
-Il risultato misurato gli da' ragione: 59,78 min, tredici secondi sotto l'ora.
+Il risultato misurato gli da' ragione: 59,75 min, quindici secondi sotto l'ora.
 Con `atempo=1.12` sarebbero stati circa 53 minuti.
 
 ## Quello che la checklist dello script lasciava aperto
@@ -229,6 +230,103 @@ del corpo contro la cornice, e il testo di un SVG disegnato oltre il viewBox
 esce senza ingrandire quel rettangolo. Le etichette dei grafici che escono dal
 bordo NON le vede. E' il motivo per cui il MASTER dice di guardare i provini.
 
+## Il montaggio, e i due difetti che ha trovato il controllo aggiunto
+
+```
+218 PNG  ->  203 clip animate (27 MB)  ->  203 scene con audio (106 MB)
+             + 15 scene mute costruite da PNG + silenzio
+             ------------------------------------------------
+             montato-busta-paga-60min.mp4   59:46,79   104 MB
+             montato-busta-paga-60min.srt   203 righe
+```
+
+Le 15 scene mute si costruiscono con una traccia di silenzio, non come sola
+immagine: `concat -c copy` su uno spezzone senza audio lascia un buco e sfasa
+tutto quello che viene dopo.
+
+Al montato ho aggiunto un controllo che il MASTER non chiede: **cammino la
+sequenza scena per scena e confronto la somma con la durata del montato.** Le
+due cose devono coincidere, e se non coincidono i sottotitoli sono sbagliati.
+Ha trovato due difetti veri, uno dei quali era mio.
+
+**Primo: 1,72 s di scarto.** I tempi dell'SRT venivano dalle durate nominali di
+`blocchi-audio.json`, ma ogni scena montata e' arrotondata al fotogramma a
+25 fps e al pacchetto AAC. Su 218 scene l'arrotondamento si accumula: a fine
+video il sottotitolo sarebbe stato in anticipo di quasi due secondi, e lo
+scarto cresceva lungo tutta l'ora. Misurando i file di scena invece delle
+durate nominali lo scarto e' sceso a 1,38 s — **sceso, non sparito**, e quello
+che resta era il difetto vero.
+
+**Secondo: la misura sbagliata.** Misuravo la durata col `time=` che ffmpeg
+stampa decodificando. Quel numero e' l'ultimo istante processato, e sulle 218
+scene resta indietro di 1,38 s in tutto. La misura giusta e' la `Duration`
+dichiarata nell'intestazione del contenitore, perche' e' *esattamente* la
+quantita' con cui il demuxer `concat` sposta l'inizio dello spezzone
+successivo: cioe' il tempo a cui la scena comincia davvero nel montato.
+
+```
+                                    somma camminata   scarto col montato
+durate nominali di blocchi-audio      59:45,08           1.720 ms
+durate decodificate (time=)           59:45,42           1.380 ms
+Duration dell'intestazione            59:46,77              20 ms
+```
+
+Venti millisecondi su un'ora. E siccome l'intestazione non richiede di
+decodificare niente, il montaggio e' passato da **cinque minuti a venticinque
+secondi**.
+
+## I controlli: 8 su 9, e il nono e' un numero da portare all'utente
+
+```
+[OK] trascrizione: 17/17 tracce, coincidenza minima 97,5%, buchi: 0
+[OK] fascia 8,5-21 car/s su 203 blocchi: tutti dentro
+[OK] PNG: 218 su 218 scene
+[OK] nessuna slide sfora la cornice
+[OK] clip animate: 203 su 203 scene con parlato
+[OK] scene per segmento entro il tetto 50: il segmento piu' grande ne ha 41
+[NO] durata 59:46,80 — chiesti 60:00,00
+[OK] sottotitoli SRT: 203 righe su 203 blocchi
+[OK] registro con la sezione «da verificare»
+```
+
+**Il montato e' corto di 13,2 s sui 60 minuti: lo 0,37%.** (La somma nuda dei
+blocchi ne darebbe 14,9; 1,7 li restituisce l'arrotondamento al fotogramma di
+cui sopra — che qui allunga, non accorcia.) Non l'ho compensato, e la ragione
+conta piu' del numero.
+
+La proiezione che ha portato alla scelta del filtro (60,7 min con
+`silenceremove` da solo) era calcolata su **15,68 car/s**, il CPS misurato dopo
+il filtro sulla sola traccia 1. Le diciassette tracce insieme hanno reso
+**15,92 car/s**: l'1,5% piu' veloce.
+
+```
+                          car/s    parlato    + 39 s di mute
+proiezione (traccia 1)    15,68    3.601 s    60,68 min
+misura (17 tracce)        15,92    3.546 s    59,75 min
+                                              ---------
+                                              55 s di differenza
+```
+
+Tutti i caratteri sono quelli **inviati** al sintetizzatore (56.472: 56.269 di
+copione piu' gli spazi di giunzione fra blocchi), perche' e' su quelli che il
+servizio misura e fattura, ed e' su quelli che era fatta la proiezione.
+
+E' la trappola del MASTER §2 vista da un'altra angolazione: il CPS non si
+eredita da un'altra voce, ma non si eredita nemmeno da **un solo campione**
+della voce giusta. Una traccia su diciassette non e' la media di diciassette.
+
+**Non ho allungato le scene mute per arrivare a 60:00.** Sarebbero bastati 15 s
+distribuiti sulle tredici card, ma quelle durate non sono mie: lo script
+dell'utente dice «Le card di capitolo […] durano due secondi», e copertina 3 s,
+chiusura 10 s. Allungarle per far tornare un totale significa piegare il
+contenuto dichiarato dall'utente a un numero — e il numero tornerebbe senza che
+il video sia piu' lungo di un istante di contenuto. Lo stesso script scrive
+«durata stimata 60 min», non «almeno 60:00»; sono 13,2 secondi su 3.600.
+
+Resta comunque una decisione dell'utente, non mia, e per questo il controllo 7
+e' lasciato **rosso**: se servono i 60:00 pieni la strada onesta e' aggiungere
+contenuto, non silenzio.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -255,4 +353,15 @@ bordo NON le vede. E' il motivo per cui il MASTER dice di guardare i provini.
   quaranta nei provini, scelte dove il rischio era piu' alto (i grafici, le
   tabelle, i temi). Le altre le ha viste solo il controllo automatico, che come
   si e' visto ha un buco.
-- Le clip animate (`node slide/clips.mjs`) non sono ancora state generate.
+- **Nessuno ha guardato il montato.** E' stato costruito e misurato, non visto:
+  un'ora di video non si giudica dai numeri. Da guardare almeno gli attacchi dei
+  tredici capitoli, dove la card muta incontra la prima scena parlata, e la
+  chiusura.
+- **I sottotitoli sono lunghi un paragrafo.** Una riga per blocco, com'e' la
+  regola del MASTER (blocco = scena = riga) e come lo verifica il controllo 8:
+  il piu' lungo e' di 396 caratteri tenuti per 26 secondi. Va bene come traccia
+  di trascrizione, NON come sottotitolo da incidere sul video. Se servono
+  sottotitoli veri vanno spezzati, e allora salta la corrispondenza uno a uno
+  che il controllo 8 pretende: e' una decisione, non una svista.
+- **I 13,2 secondi che mancano ai 60:00** (vedi la sezione sui controlli). Il
+  controllo 7 resta rosso apposta.
