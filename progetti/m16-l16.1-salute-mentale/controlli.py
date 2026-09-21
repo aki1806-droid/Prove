@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""I controlli del MASTER §5, tutti in una volta."""
+"""I controlli del MASTER §6, tutti in una volta."""
 import json, re, subprocess
 from pathlib import Path
 import imageio_ffmpeg
@@ -80,6 +80,6 @@ rf = QUI/"REGISTRO.md"
 esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),
               "registro con la sezione «da verificare»"))
 
-print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §5)\n")
+print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)\n")
 for b,t in esiti: print(f"  [{ok(b)}] {t}")
 print(f"\n{sum(1 for b,_ in esiti if b)}/{len(esiti)} superati")

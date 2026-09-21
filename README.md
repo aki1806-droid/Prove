@@ -11,10 +11,14 @@ come e' disposto qui dentro.
 ## Struttura
 
 ```
-MASTER.md                     il metodo e il codice (documento portatile)
-nuova-lezione.sh              impianta una lezione nuova dall'ultima fatta
-progetti/m1-l1.8-ripasso/     la lezione di riferimento, con gli strumenti
+MASTER.md                       il metodo e il codice (documento portatile)
+nuova-lezione.sh                impianta una lezione nuova dall'ultima fatta
+progetti/m1-l1.8-ripasso/       corso Infermiere, 50 scene
+progetti/m16-l16.1-salute-mentale/   corso OSS, 48 scene — la piu' recente
 ```
+
+`nuova-lezione.sh` copia **dall'ultima lezione fatta** in ordine di versione,
+quindi oggi dalla 16.1, che e' quella con gli strumenti corretti.
 
 Gli strumenti stanno **dentro** la cartella della lezione, non alla radice: e'
 li' che li cercano `tagli.py`, `controlli.py` e gli altri, e `nuova-lezione.sh`
@@ -36,24 +40,20 @@ progetti/<lezione>/
   controlli.py            gli otto controlli finali
 ```
 
-## Che cosa manca per poter renderizzare
+## Che cosa serve sulla macchina
 
-Due cose binarie, che il MASTER non puo' portare con se':
-
-- `progetti/<lezione>/slide/marchio/logo-rifilato.png`
-- `progetti/<lezione>/slide/font/` — Inter, Source Serif 4 e
-  `font-incorporati.css`
-
-Finche' non ci sono, `node slide/cards.mjs` non produce le slide giuste. Le due
-cartelle portano un `MANCA.md` che lo ricorda.
-
-Servono inoltre `python3` con `imageio_ffmpeg`, e `node` 22 con `playwright` e
+`python3` con `imageio_ffmpeg` e `Pillow`, `node` 22 con `playwright` e
 Chromium (MASTER §0).
+
+Marchio e caratteri ci sono: il logo rifilato sta in
+`slide/marchio/logo-rifilato.png`, e `slide/font/font-incorporati.css` porta
+Inter e Source Serif 4 incorporati in base64 — vedi `slide/font/LICENZE.md`
+per la licenza e per come rigenerarli da copie proprie.
 
 ## Una lezione nuova
 
 ```bash
-./nuova-lezione.sh m1-l2.1-nome
+./nuova-lezione.sh m16-l16.2-nome
 ```
 
 Copia dall'ultima lezione tutto quello che non cambia e lascia da scrivere due

@@ -46,13 +46,14 @@ Poi, nell'ordine:
     creative_attach_reference_file, poi creative_transcribe_audio;
     salvare i testi in audio/trascrizioni/A.txt e B.txt
   python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
+  python3 audio/tagli.py applica         scrive gli mp3 di blocco
   python3 verifica-locale.py             nessuna coppia adiacente di segno opposto
-  python3 audio/tagli.py applica         scrive i 48 mp3
+                                         (legge blocchi-audio.json: viene DOPO applica)
   node slide/cards.mjs                   i PNG — GUARDARLI
   node slide/clips.mjs                   le clip animate
   python3 monta-scene.py                 clip + audio, una per blocco
   python3 monta-locale.py                la copia di controllo e l'SRT
-  python3 controlli.py                   i controlli del MASTER §5
+  python3 controlli.py                   i controlli del MASTER §6
 
 Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
 

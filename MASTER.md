@@ -1,15 +1,23 @@
 # MASTER — metodo di produzione video
 
 **Documento portatile.** Contiene il metodo *e* il codice: incollato in una chat
-nuova, basta a rifare tutto da zero. È scritto per chi non era presente alla
-prima lavorazione, quindi ogni regola porta con sé il motivo — quasi tutte sono
-costate un render buttato, e poche righe di spiegazione valgono meno di un giro
-a vuoto.
+nuova, basta a rifare tutto da zero. È scritto per chi non era presente alle
+lavorazioni precedenti, quindi ogni regola porta con sé il motivo — quasi tutte
+sono costate un render buttato, e poche righe di spiegazione valgono meno di un
+giro a vuoto.
 
-Prodotto finale: **micro-lezioni video da slide + voce**, senza avatar. Nove
-minuti circa, cinquanta scene, sottotitoli, marchio su ogni slide.
+Prodotto finale: **micro-lezioni video da slide + voce**, senza avatar. Otto o
+nove minuti, una cinquantina di scene, sottotitoli, marchio su ogni slide.
 
-Misurato su otto lezioni portate a termine.
+Misurato su nove lezioni portate a termine, su due corsi diversi.
+
+> **Che cosa è cambiato in questa revisione.** La nona lezione è stata la prima
+> di un corso diverso, e ha fatto emergere quello che il documento dava per
+> scontato: tre numeri della lezione precedente erano murati dentro strumenti
+> condivisi, e su una lezione con un numero di scene diverso sbagliavano tutti.
+> Sono corretti nel §10. Sono anche misurate per la prima volta le cose che il
+> documento stimava: il costo reale della voce, il tempo di render, il tag ID3,
+> il ritardo del contatore del lotto.
 
 ---
 
@@ -19,10 +27,26 @@ Misurato su otto lezioni portate a termine.
 |---|---|
 | **voce** | un servizio di sintesi con trascrizione (qui: ElevenLabs via MCP) |
 | **montaggio** | un servizio che concatena scene da asset (qui: HeyGen via MCP) |
-| **locale** | `python3` con `imageio_ffmpeg`, `node` 22 con `playwright` e Chromium |
+| **locale** | `python3` con `imageio_ffmpeg` e `Pillow`, `node` 22 con `playwright` e Chromium |
 
 Il locale fa tutto il lavoro pesante: slide, clip, tagli, montato di controllo.
 I due servizi esterni servono solo per la voce e per il render finale.
+
+Gli strumenti MCP che servono davvero, per nome:
+
+```
+voce          creative_create_flow · creative_list_voices · creative_generate_speech
+trascrizione  creative_attach_reference_file · creative_transcribe_audio
+attesa        creative_get_flow_run_status
+montaggio     create_asset_upload_batch · complete_asset_batch · get_asset_batch
+              create_video_from_studio · get_video · show_video
+```
+
+> **La rete può non lasciar scaricare il montato.** In una sessione con proxy,
+> `files2.heygen.ai` era bloccato: il video si apre dal link ma non si scarica
+> per ispezionarlo in locale. Non è un guasto della lavorazione — è un limite da
+> dichiarare nel registro, perché vuol dire che **nessuno ha ancora ascoltato il
+> file consegnato**.
 
 ---
 
@@ -44,6 +68,22 @@ ridiscutono a ogni lezione: **palette**, **marchio** (e dove sta), **voce**,
 > sposta sull'utente un lavoro che è mio. Si decidono con l'aritmetica del §2 e
 > si dichiarano nel registro.
 
+## Quando il copione di partenza si dà uno standard suo
+
+Uno script fornito dall'utente può dichiarare in testa la propria durata e il
+proprio numero di slide, ereditati da una pipeline diversa. **La durata sua
+vince** — è lo standard di quel corso, ed è la risposta alla domanda 2. **Il
+numero di slide no**: non trasferisce.
+
+Un copione da quattordici slide con cinquecento caratteri di parlato ciascuna
+vuol dire mezzo minuto a inquadratura, contro il tetto di 225 caratteri per
+blocco del §2. La ri-blocchettatura è obbligata **qualunque durata si scelga**,
+e va detto subito all'utente invece di farla passare per una scelta.
+
+E se i due documenti dicono cose diverse — il MASTER una durata, il copione
+un'altra — è un conflitto vero fra materiali dell'utente: si porta a lui con i
+numeri di entrambe le strade, non si sceglie in silenzio.
+
 ---
 
 # 2. L'aritmetica
@@ -55,12 +95,12 @@ VELOCITÀ DI LETTURA = 17,0 caratteri al secondo
 ```
 
 È misurata, non stimata: è la velocità della traccia **dopo** il filtro di
-ritmo. Sulle otto lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo
-scarto non è rumore — dipende dalla **densità di cifre**. Un anno pronunciato
-per esteso dura molto più dei quattro caratteri che occupa:
+ritmo. Su nove lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo scarto
+non è rumore — dipende dalla **densità di cifre**. Un anno pronunciato per
+esteso dura molto più dei quattro caratteri che occupa:
 «millenovecentosettantaquattro» sono ventinove caratteri di parlato per quattro
-di testo. La lezione più lenta delle otto (15,8) è quella di ripasso, fatta di
-date e numeri di legge.
+di testo. La lezione più lenta è quella di ripasso, fatta di date e numeri di
+legge.
 
 Quindi:
 
@@ -70,7 +110,25 @@ durata montata        = parlato + 3 s di copertina + 10 s di chiusura
 ```
 
 Per una lezione da nove minuti montati: parlato 527 s → **circa 8.950
-caratteri**. Le otto lezioni stanno fra 8.500 e 8.960.
+caratteri**. Per una da 7:50: parlato 457 s → **circa 7.770 caratteri**.
+
+## Il grezzo e il lavorato stanno in rapporto 1,30
+
+Il filtro di ritmo accorcia la traccia di circa il 30%. Il rapporto è stabile
+abbastanza da servire come **previsione**: appena la voce è generata, prima
+ancora di tagliare, si sa già quanto durerà il montato.
+
+```
+parlato finale ≈ durata_grezza / 1,30
+```
+
+Controprova su una lezione reale: 3.956 caratteri in 300,16 s di grezzo fanno
+13,2 car/s; diviso 1,30 danno **17,1 car/s**, cioè i 17,0 di tabella. E le due
+tracce insieme, 583,68 s di grezzo, hanno dato 457,5 s di parlato — 7:50.5
+montati contro i 7:50 chiesti.
+
+Se il conto fatto qui dice che il montato uscirà **sotto** la durata chiesta, è
+il momento di saperlo: dopo, correggere vuol dire rigenerare la voce.
 
 ## Blocchi e scene
 
@@ -78,18 +136,20 @@ caratteri**. Le otto lezioni stanno fra 8.500 e 8.960.
 TETTO DURO: 50 scene per video
 ```
 
-Sopra quello il servizio di montaggio rifiuta. Cinquanta scene sono:
+Sopra quello il servizio di montaggio rifiuta. **Cinquanta è un tetto, non un
+obiettivo**: una lezione da 48 scene è legittima quanto una da 50, e nessuno
+strumento deve pretendere il numero tondo.
 
 ```
- 1 copertina  +  48 blocchi di parlato  +  1 chiusura  =  50
+ 1 copertina  +  N blocchi di parlato  +  1 chiusura  =  N + 2  ≤  50
 ```
 
-Da cui, per una lezione da 8.950 caratteri: **48 blocchi da ~186 caratteri di
-media**. Il tetto per blocco è **225 caratteri**: sopra, la slide non regge il
-testo e la scena dura troppo.
+Il tetto per blocco è **225 caratteri**: sopra, la slide non regge il testo e la
+scena dura troppo. La media sana sta fra 165 e 190.
 
 Un blocco è **quello che sta sopra una singola inquadratura**: un concetto, mai
-due.
+due. Se un blocco ne contiene due, non lo si comprime: **si prende una scena in
+più**, se c'è spazio sotto il tetto.
 
 ---
 
@@ -98,11 +158,11 @@ due.
 ```
 1. riscrivere il copione        →  blocchi.json
 2. generare la voce             →  grezzo-A.mp3, grezzo-B.mp3   ⟵ costa
-3. ritagliare i blocchi         →  48 mp3
-4. renderizzare le slide        →  50 PNG + 48 clip mp4
+3. ritagliare i blocchi         →  N mp3
+4. renderizzare le slide        →  N+2 PNG + N clip mp4
 5. riprese e immagini generate  →  (di solito: nessuna)
-6. caricare gli asset           →  98 file in un lotto
-7. montare                      →  una sola chiamata, 50 scene
+6. caricare gli asset           →  2N + 2 file in un lotto
+7. montare                      →  una sola chiamata, N+2 scene
 8. registro                     →  REGISTRO.md
 ```
 
@@ -113,6 +173,37 @@ può rifare a pezzi.
 ---
 
 # 4. Passo per passo
+
+## Quello che è della lezione e quello che è degli strumenti
+
+Questa è la regola che la nona lezione ha comprato a caro prezzo, e vale per
+tutto il §10.
+
+Gli strumenti sono condivisi fra tutte le lezioni del corso, e `nuova-lezione.sh`
+li copia dall'ultima fatta. Quindi **ogni numero che vale per una lezione sola e
+finisce dentro uno strumento condiviso è una bomba a orologeria**: non esplode
+sulla lezione che l'ha scritto, esplode sulla prima che ha un numero diverso.
+
+Ne sono stati trovati tre, tutti della stessa forma — «questa lezione ha 50
+scene, quindi tutte le lezioni hanno 50 scene»:
+
+- `monta-locale.py` aveva `s50` scritto a mano come scena di chiusura. Su una
+  lezione da 48 scene il fotogramma non esiste, la concatenazione **salta in
+  silenzio** e il montato non viene prodotto;
+- `controlli.py` pretendeva `len(png)==50`, `48` righe di SRT e una durata di
+  almeno `480` secondi. I primi due sono conteggi da derivare dai blocchi; il
+  terzo è la durata chiesta, che è un parametro della lezione.
+
+I due modi giusti, in ordine di preferenza:
+
+1. **derivare dal dato** — la copertina è il primo PNG renderizzato, la chiusura
+   è l'ultimo; le scene sono i blocchi più due; le righe di SRT sono i blocchi;
+2. **dichiarare in testa al file**, quando il valore non si può derivare — come
+   `STACCO` in `tagli.py` e `CHIESTO` in `controlli.py`. Dichiarato in un posto
+   solo, dove chi apre il file lo vede.
+
+Quello che non va mai bene è il numero murato a metà del file, dentro un
+confronto.
 
 ## Passo 1 — Riscrivere il copione
 
@@ -136,6 +227,23 @@ stampa l'aritmetica. Finché non dice `OK, nessun errore`, non si va avanti.
 > altrove nel corso — un esempio, una fonte, una conseguenza — non si allungano
 > le frasi. Un copione gonfiato si sente: la voce rallenta e il video si siede.
 
+### `OK, nessun errore` non vuol dire che il copione è giusto
+
+Il controllo verifica la forma: lunghezza dei blocchi, accentate, tag, scene.
+**Non sa che cosa doveva esserci.** Dopo che ha detto OK, il copione riscritto si
+rilegge contro quello di partenza, termine di contenuto per termine di
+contenuto.
+
+Costa dieci righe di script e trova cose che nessun vincolo poteva prendere. Su
+una lezione ha trovato che l'avverbio `autonomamente` era sparito da «gestire
+autonomamente la terapia», tagliato per far rientrare il blocco nei 225
+caratteri: senza, la frase dice che all'operatore non compete la terapia, che è
+un'altra affermazione — e sbagliata. E un'attività nominata, «sostegno alla
+quotidianità», ridotta a un giro di frase.
+
+La regola che ne discende: **una parola non si taglia per far stare un blocco**.
+Si prende una scena in più.
+
 ## Passo 2 — Generare la voce, in due tracce
 
 Una traccia continua per metà video, **non una per blocco**: le tracce separate
@@ -147,9 +255,33 @@ chunkA.txt   blocchi fino allo stacco     < 5.000 caratteri
 chunkB.txt   blocchi dopo lo stacco       < 5.000 caratteri
 ```
 
+I chunk portano i tag di intenzione: sono per la voce. Li toglie
+l'allineamento, non chi scrive.
+
 Lo stacco si dichiara **una volta sola**, nella costante `STACCO` di `tagli.py`.
 Tenerne una seconda copia altrove vuol dire che prima o poi le due divergono in
-silenzio e il confronto si fa sui blocchi sbagliati.
+silenzio e il confronto si fa sui blocchi sbagliati. `costruisci.py` lo calcola e
+lo stampa; chi scrive lo ricopia in `tagli.py` e lo lascia dov'è.
+
+> **Lo stacco della lezione precedente è ancora lì.** `nuova-lezione.sh` copia
+> `tagli.py` dall'ultima lezione fatta, `STACCO` compreso. Se non lo si
+> aggiorna, la traccia si taglia nel punto sbagliato e nessun controllo se ne
+> accorge: i conti tornano tutti, solo sui blocchi sbagliati.
+
+### Due trappole che costano soldi, non tempo
+
+**Il numero di varianti ha un default a quattro.** `creative_generate_speech`
+genera `generations_count: 4` se non gli si dice altro, e le paga tutte e
+quattro. Per una lezione a copione fermo non ne serve nessuna: **si passa 1**.
+Su una lezione misurata la differenza era $11,32 contro $1,28.
+
+**Il preventivo è pessimistico di circa 2,2 volte.** `estimate_only` su una
+traccia da 3.956 caratteri dava 8.751 crediti e $1,44; l'addebito reale è stato
+3.956 crediti e $0,65 — **un credito per carattere**. Vale la pena chiedere il
+preventivo lo stesso, come rete contro un testo molto più lungo del previsto, ma
+**il numero da riferire all'utente è il preventivo diviso ~2,2**, non il
+preventivo. Dirgli una cifra doppia di quella vera è un modo di farsi dire di no
+per niente.
 
 > **La voce si genera quando il copione è fermo, mai prima.** Una volta ho
 > generato la traccia A e poi rivisto i blocchi: la revisione ha invalidato la
@@ -169,7 +301,7 @@ silenzio e il confronto si fa sui blocchi sbagliati.
 ```
 tagli.py allinea    sceglie i confini, prepara prova.mp3
 tagli.py correggi   sposta i confini indicati in correzioni.json
-tagli.py applica    scrive i 48 mp3 + le pose
+tagli.py applica    scrive gli mp3 + le pose
 ```
 
 ### Le pause si cercano sul grezzo, non sulla traccia lavorata
@@ -189,6 +321,7 @@ due sequenze con una programmazione dinamica monotona.
 
 Misurato sulla stessa traccia: la strada ingenua (assegnare ogni confine alla
 pausa più lunga lì intorno) sbagliava **17 blocchi su 48**; il DTW **2 su 48**.
+Su una traccia pulita arriva a **0 fuori fascia su 46**.
 
 ### La soglia di pausa non si sceglie al primo tentativo che funziona
 
@@ -226,12 +359,14 @@ Da sola, la scelta automatica sbaglia. Due controlli, e fanno cose diverse:
 |---|---|---|
 | buchi nel parlato | solo intorno ai tagli | **su tutto il testo** |
 | posizione dei tagli | **sì**, è il suo scopo | no: la trascrizione non porta i tempi |
-| costo su ~9 minuti | ~$0,17 | ~$0,60 |
+| costo su ~9 minuti | ~$0,17 | ~$0,53 |
 
 Quando si può, si fanno tutte e due. Quando se ne può fare una sola, quella
 sulla traccia intera prende l'errore più caro — la voce che salta parole — e i
 confini restano affidati all'allineamento e al controllo statistico offline
 (`verifica-locale.py`).
+
+### Come si trascrive davvero da un asset audio
 
 > **Una trascrizione che ripete il copione non è una trascrizione.** Se la si
 > chiede collegandola al *nodo che ha generato la voce* invece che a un asset
@@ -240,18 +375,26 @@ confini restano affidati all'allineamento e al controllo statistico offline
 > costruzione, e non ha guardato l'audio. Il segnale d'allarme è proprio quello:
 > **nessuna voce pronuncia un apostrofo o una parentesi quadra.**
 
-> **Il tag ID3 fa rifiutare il caricamento.** La traccia grezza viene respinta
-> con `Stored file type not supported: application/octet-stream`, mentre lo
-> stesso giro con un mp3 di blocco passa. Non è il trasporto: è il tag ID3 da
-> ~17 KB che il generatore di voce scrive in testa. Si toglie senza ricodificare:
-> `ffmpeg -i grezzo.mp3 -map_metadata -1 -c:a copy pulito.mp3`.
+La strada che funziona, in due chiamate per traccia:
+
+```
+creative_attach_reference_file(flow_id, url = <URL firmato della traccia>)
+      → asset_id, node_id
+creative_transcribe_audio(flow_id, model_id="eleven_scribe_v1",
+                          connect_from=[node_id])
+```
+
+E la controprova si fa sul testo tornato, sempre, prima di crederci: se contiene
+`e'` o `[`, non è una trascrizione. Su una lavorazione corretta il testo torna
+con le accentate vere (`perché`, `è`), i tag spariti, i numeri riscritti come si
+pronunciano (`Modulo 16` → «modulo sedici», `dieci minuti` → «10 minuti»).
 
 ### Le rese si dichiarano una per volta
 
 Il confronto parola per parola va normalizzato, ma **mai con una tolleranza
 generica**: la sigla sillabata torna incollata, «uno punto cinque» torna «1.5»,
-«lettera acca» torna «lettera h». Ogni resa è una riga dichiarata in
-`verifica-testo.py`.
+«lettera acca» torna «lettera h», «autostigma» torna «auto-stigma». Ogni resa è
+una riga dichiarata in `verifica-testo.py`.
 
 **I numeri pronunciati per esteso** sono la resa che ricorre di più, e non si
 trattano a mano: il copione scrive «739», la voce dice «settecentotrentanove» e
@@ -280,6 +423,11 @@ corto del previsto accanto a uno più lungo, che è la firma di un confine
 spostato. Ma il modello pesa male le cifre, e due blocchi fitti di numeri di
 articolo possono dare la stessa firma **senza** che ci sia niente di storto.
 
+Vale anche per le **sigle lette lettera per lettera**: «SPDC» sono quattro
+caratteri di testo e sette sillabe di parlato. Un blocco che ne contiene un
+elenco esce lungo rispetto alla stima, e il segnale è isolato e **positivo** —
+non la coppia adiacente di segno opposto, che è l'unica firma che conta.
+
 Il modo di decidere non è ragionare sul modello: è **fare il conto sull'audio
 grezzo**. Si guardano le pause rilevate intorno al confine, si prende lo
 spezzone di parlato fra le due pause candidate, e si divide per i caratteri
@@ -297,7 +445,7 @@ Confine sbagliato, senza ambiguità e senza riascoltare.
 > proporzione**. Su una traccia così si legge la tabella dei blocchi a mano.
 >
 > Ritarare il peso delle cifre sulla lezione che mette in crisi il modello è la
-> tentazione da evitare: si aggiusta quella e si sbaglia sulle altre sette.
+> tentazione da evitare: si aggiusta quella e si sbaglia sulle altre otto.
 
 ## Passo 4 — Renderizzare le slide
 
@@ -307,9 +455,19 @@ identiche, quindi l'orologio delle animazioni non scorre da solo: lo sposta a
 mano il generatore.
 
 ```
-node slide/cards.mjs    50 PNG  — GUARDARLI, in provini da nove
-node slide/clips.mjs    48 clip da 1,8 s
+node slide/cards.mjs    i PNG  — GUARDARLI, in provini da otto o nove
+node slide/clips.mjs    le clip da 1,8 s
 ```
+
+> **Le slide escono ferme al fotogramma zero.** `layout.mjs` chiude con
+> `.slide *{animation-play-state:paused}`, ed è voluto: `cards.mjs` e `clips.mjs`
+> spostano l'orologio a mano, così il PNG e il primo fotogramma della clip sono
+> identici. Al fotogramma zero l'opacità è 0, quindi **qualunque altra cosa
+> renderizzi quelle slide vedrà una pagina vuota**: marchio e numero di pagina e
+> nient'altro. Chi costruisce un'anteprima deve farle partire e finire
+> (`animation-play-state: running` con durata 1 ms), **mai annullarle**: il
+> dimmer delle voci non ancora attive sta nel fotogramma *finale* di `entraOff`,
+> e con `animation: none` la rivelazione progressiva sparisce.
 
 ### Il controllo di traboccamento, e come si sbaglia a scriverlo
 
@@ -320,7 +478,16 @@ cornice interna della slide.
 
 > Quando un controllo automatico non ha mai trovato niente, non è una buona
 > notizia finché non gli si è dato qualcosa da trovare. Riscritto bene, questo
-> ha trovato subito sei slide tagliate che il vecchio dava per buone.
+> ha trovato subito sei slide tagliate che il vecchio dava per buone. E prima di
+> riferire un «nessuna slide sfora», gli si dà in pasto una slide volutamente
+> troppo alta: su una lavorazione l'ha vista a +1608px, e da lì l'esito vale.
+
+> **Senza i caratteri veri quell'esito non vale.** Le misure prese con i font di
+> sistema non sono quelle di Inter: una slide che rientra di poco può sforare.
+> Il controllo si rifà **dopo** aver messo `font-incorporati.css` e il logo al
+> loro posto, e i provini si riguardano su quel render. Su una lezione il
+> secondo giro ha trovato un errore di concordanza in una slide che il primo non
+> aveva fatto cercare.
 
 ### Le soglie di densità stanno nella libreria, non nelle scene
 
@@ -330,9 +497,11 @@ ogni lezione se ne dimentica per conto suo.
 
 ### Guardare i provini non è una formalità
 
-Due difetti trovati solo guardando, che nessun controllo automatico poteva
+Tre difetti trovati solo guardando, che nessun controllo automatico poteva
 prendere: una linea del tempo che mescolava numeri di legge e anni sulla stessa
-riga, e quattro voci numerate 1, 2-3, 3-4 invece di 1, 2, 3-4.
+riga, quattro voci numerate 1, 2-3, 3-4 invece di 1, 2, 3-4, e una slide che
+diceva «il TSO … è disciplin**a**ta per legge» dove il parlato diceva
+correttamente «disciplinato».
 
 ## Passo 5 — Riprese e immagini generate
 
@@ -341,50 +510,103 @@ Di solito: nessuna. Se servono, vanno qui, prima del caricamento.
 ## Passo 6 — Caricare tutto come asset
 
 ```
-48 clip mp4  +  48 mp3 di blocco  +  2 PNG (copertina e chiusura)  =  98 file
+N clip mp4  +  N mp3 di blocco  +  2 PNG (copertina e chiusura)  =  2N + 2 file
 ```
 
-Il lotto di caricamento tiene **fino a 100 file**: ci stanno tutti in uno.
+Il lotto di caricamento tiene **fino a 100 file**: per una lezione fino a 49
+blocchi ci stanno tutti in uno.
+
+Il giro, per intero:
+
+```
+create_asset_upload_batch(files=[{filename, content_type, size_bytes}, ...])
+      → batch_id + un item per file, con asset_id e upload_url firmato
+PUT dei byte su ciascun upload_url, con gli upload_headers che l'item porta
+complete_asset_batch(batch_id)
+get_asset_batch(batch_id)  finché il CONTEGGIO arriva a 2N+2
+```
+
+> **Gli item della risposta non portano il nome del file.** Tornano in un elenco
+> e si accoppiano **per posizione** con quello inviato. È un accoppiamento
+> implicito e silenzioso: si controlla, e il modo più economico è confrontare il
+> `content-type` firmato in ogni slot con quello dichiarato per quel file. Se
+> combaciano tutti, l'ordine è quello giusto.
+
+> **Il contatore del lotto è in ritardo.** Il lotto dice `completed` mentre gli
+> item sono ancora `processing` — misurato: stato «completato» con 30 item su 94
+> fatti e 64 in lavorazione. Si aspetta che il conteggio arrivi al totale, non
+> che lo stato dica «fatto». E per non riversare centinaia di righe nel contesto,
+> si interroga con `limit=1`: il conteggio complessivo sta comunque in testa.
+
+> **Il tag ID3, misurato.** La traccia grezza viene respinta con
+> `Stored file type not supported: application/octet-stream` per via del tag ID3
+> che il generatore di voce scrive in testa: **16.881 byte** su una traccia
+> misurata. Gli mp3 di blocco escono da ffmpeg e portano un tag di **44 byte**,
+> che passa senza problemi. Quindi il grezzo si ripulisce solo se lo si carica:
+> `ffmpeg -i grezzo.mp3 -map_metadata -1 -c:a copy pulito.mp3`. I blocchi no.
 
 > **Non provare a dimezzare montando l'audio dentro le clip.** L'ho fatto:
 > costa un giro di caricamenti e un render buttato, perché il servizio di
 > montaggio vuole l'audio come asset separato per far durare la scena quanto la
 > voce.
 
-> **Se cambiano solo le immagini**, si ricaricano solo quelle: 50 file invece di
-> 98, riusando gli id audio già sul servizio. L'ho fatto per rifare l'apparato
-> grafico di otto lezioni senza toccare una nota di voce.
-
-**Il contatore del lotto è in ritardo.** Il lotto dice `completed` mentre gli
-item sono ancora `processing`. Si aspetta che il conteggio arrivi a 98, non che
-lo stato dica «fatto».
+> **Se cambiano solo le immagini**, si ricaricano solo quelle, riusando gli id
+> audio già sul servizio. L'ho fatto per rifare l'apparato grafico di otto
+> lezioni senza toccare una nota di voce.
 
 ## Passo 7 — Montare, in una sola chiamata
 
-Cinquanta scene, un `create_video_from_studio`.
+Un `create_video_from_studio`, N+2 scene.
 
 > **La regola che costa un render se la si sbaglia.** Le scene video **devono**
 > portare `audio_asset_id` e `playback: {mode:"freeze", mute:true}`. Senza,
 > la scena dura quanto la clip — 1,8 secondi — e il video esce di due minuti
-> invece di nove. Le scene immagine prendono invece un `duration` esplicito.
+> invece di otto. Le scene immagine prendono invece un `duration` esplicito.
+
+La forma esatta:
+
+```json
+{"type":"image", "source":{"type":"asset_id","asset_id":"..."}, "duration":3}
+{"type":"video", "source":{"type":"asset_id","asset_id":"..."},
+ "audio_asset_id":"...", "playback":{"mode":"freeze","mute":true}}
+{"type":"image", "source":{"type":"asset_id","asset_id":"..."}, "duration":10}
+```
+
+Prima di spedire si contano tre cose, che sono esattamente i modi di sbagliare:
+quante scene video hanno `audio_asset_id`, quante hanno `playback` giusto, e
+quanti asset distinti vengono citati (devono essere `2N+2`).
+
+I sottotitoli **non si chiedono al servizio**: il `caption` che offre li ricava
+dall'ascolto, mentre `monta-locale.py` li costruisce dal copione e dalle durate
+reali dei blocchi. I nostri hanno i tempi esatti; i suoi no.
 
 ### Caricare e aspettare
 
-**Un render da nove minuti e cinquanta scene prende dai tre ai quattro minuti**
-(misurati: 179 s e 211 s). È il metro per non scambiare l'attesa normale per un
-blocco.
+**Un render di questa taglia prende dai due ai quattro minuti** (misurati: 120 s
+per 48 scene e 7:50, 179 s e 211 s per 50 scene e 9 minuti). È il metro per non
+scambiare l'attesa normale per un blocco.
 
 > Una volta l'ho scambiata. Avevo lanciato `sleep` in background e interrogato
 > lo stato nella stessa risposta: sette minuti veri sembravano centocinque, ho
 > concluso che il render fosse fermo e ne ho lanciato un duplicato. Per
 > aspettare davvero: `start=$(date +%s); until [ $(( $(date +%s) - start )) -ge N ]; do sleep 5; done`.
 
+### Il montato del servizio è più corto di quello locale
+
+Misurato: **470,80 s in locale contro 469,62 s su HeyGen**, su 48 scene. Circa
+25 ms per scena, cioè l'arrotondamento di ogni scena al fotogramma a 25 fps.
+
+Non è un difetto, ma cambia il numero da dichiarare: **il controllo di durata
+del §6 passa sul montato locale e può non passare su quello consegnato**. Se la
+durata chiesta è un impegno preciso, si punta a un secondo sopra, non esatti.
+
 ## Passo 8 — Registro
 
-Un `REGISTRO.md` per lezione, con: scheda parametri, esito delle verifiche, che
-cosa è andato storto e come si è deciso, e una sezione finale **«Da verificare —
-quello che non ho potuto giudicare io»**. In quella sezione va anche quello che
-è costato soldi per niente.
+Un `REGISTRO.md` per lezione, con: scheda parametri, aritmetica, esito delle
+verifiche, che cosa è andato storto e come si è deciso, costo misurato, e una
+sezione finale **«Da verificare — quello che non ho potuto giudicare io»**. In
+quella sezione va anche quello che è costato soldi per niente, e quello che
+nessuno ha ancora guardato o ascoltato.
 
 ---
 
@@ -402,9 +624,30 @@ tredici tipi più le icone — non un disegno diverso per ogni slide.
 | insiemi | `griglia` `icone` | c'è un **elenco** che merita forma |
 | fregi | `sigillo` `anello` `virgolette` `barra` | la slide è di sola parola |
 
-Circa **venti scene su cinquanta** portano una figura. Le altre sono i respiri:
-una frase sola, una citazione, un numero grande. Un video in cui ogni scena è un
-diagramma stanca quanto uno in cui non ce n'è nessuno.
+Circa **venti figure distinte** per lezione. Le loro rivelazioni progressive —
+la stessa figura su tre scene con `attive` diverso — contano come una figura
+sola, non come tre. Le altre scene sono i respiri: una frase sola, una
+citazione, un numero grande. Un video in cui ogni scena è un diagramma stanca
+quanto uno in cui non ce n'è nessuno.
+
+## I tre temi non sono tre colori: sono tre significati
+
+```
+chiaro     il fondo normale
+profondo   verde pieno — le slide di affermazione
+tenue      velo rosa — LE SLIDE DEGLI ERRORI
+```
+
+Il `tenue` è commentato così dentro `layout.mjs`, e va usato così. Su una
+lezione l'avevo messo sulla definizione positiva dell'argomento, su una data e
+sul riepilogo finale: tre contenuti che non sono errori, marcati col fondo che
+segnala l'errore. In una lezione il cui registro chiedeva di *correggere* un
+pregiudizio, era il contrario di quello che serviva.
+
+Trovato **solo guardando i provini**. Nessun vincolo automatico può prenderlo,
+perché è una questione di senso, non di forma. Il tema di ogni scena sta in due
+file — `costruisci.py` e `contenuti.mjs` — e i due vanno tenuti concordi: è un
+controllo che costa tre righe e va fatto.
 
 ## Il colore dei dati si calcola, non si sceglie a occhio
 
@@ -462,14 +705,24 @@ timeline a passo fisso dice il contrario di quello che è successo.
 
 - [ ] verifica per trascrizione: **nessun buco nel parlato**
 - [ ] tutti i blocchi nella fascia **8,5–21 car/s**
-- [ ] **50 PNG** renderizzati **e guardati** nei provini
+- [ ] **un PNG per scena**, renderizzati **e guardati** nei provini
 - [ ] **nessuna slide sfora** la cornice
 - [ ] scene totali **≤ 50**
 - [ ] **durata** ≥ quella chiesta
-- [ ] **sottotitoli** SRT, 48 righe
+- [ ] **sottotitoli** SRT, una riga per blocco
 - [ ] **registro** con la sezione «da verificare»
 
 Un 7/8 si consegna solo dicendo quale controllo non è passato e perché.
+
+> **Nessuno di questi conteggi è una costante.** I PNG sono i blocchi più due, le
+> righe di SRT sono i blocchi, la durata chiesta è un parametro dichiarato in
+> testa al file. Scriverli come numeri fissi li fa passare sulla lezione che li
+> ha scritti e fallire su tutte le altre — vedi il §4.
+
+E due cose che i controlli non prendono, da fare a mano:
+
+- **i temi delle scene concordano fra `blocchi.json` e `contenuti.mjs`**;
+- **il copione riscritto non ha perso contenuto** rispetto a quello di partenza.
 
 ---
 
@@ -479,33 +732,55 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 
 | Dove | Che cosa succede | Come si evita |
 |---|---|---|
-| voce | rigenerata perché il copione è cambiato dopo | la voce si genera **a copione fermo** |
+| metodo | un numero di una lezione murato in uno strumento condiviso | derivarlo dal dato, o dichiararlo in testa al file |
+| copione | una parola tagliata per far stare il blocco cambia il senso | prendere una scena in più, non comprimere |
+| copione | `OK, nessun errore` su un copione a cui manca del contenuto | rileggerlo contro quello di partenza, termine per termine |
 | copione | una ri-spezzettatura automatica mangia due passaggi | rileggere i chunk contro lo script |
+| voce | rigenerata perché il copione è cambiato dopo | la voce si genera **a copione fermo** |
+| voce | quattro varianti pagate invece di una | `generations_count: 1`, il default è 4 |
+| voce | si riferisce all'utente un costo doppio di quello vero | il preventivo è pessimistico ~2,2×: dividerlo |
+| voce | lo `STACCO` della lezione precedente taglia nel punto sbagliato | ricopiarlo da `costruisci.py` a ogni lezione |
 | tagli | le pause sparite dopo il filtro di ritmo | confini sul **grezzo** |
 | tagli | soglia scelta «al primo tentativo che funziona» | provarle tutte, votare sull'esito |
 | tagli | `correzioni.json` applicato due volte | rifare `allinea`, poi tutte le correzioni insieme |
+| tagli | `verifica-locale.py` lanciato prima di `applica` | legge `blocchi-audio.json`: viene **dopo** |
 | verifica | la trascrizione ripete il copione | trascrivere da un **asset audio**, non dal nodo che ha generato |
-| verifica | il caricamento rifiuta la traccia grezza | togliere il tag ID3 (`-map_metadata -1 -c:a copy`) |
+| verifica | un blocco lungo scambiato per confine spostato | le sigle costano sillabe; conta solo la **coppia adiacente di segno opposto** |
 | verifica | il controllo statistico non segnala niente su un testo di date | è cieco in proporzione: leggere la tabella a mano |
-| slide | il controllo di traboccamento non trova mai niente | confronto **geometrico**, non `scrollHeight` |
+| slide | il controllo di traboccamento non trova mai niente | confronto **geometrico**, e dargli un'esca |
+| slide | traboccamento misurato con i font di sistema | rifarlo con `font-incorporati.css` e il logo veri |
+| slide | il velo rosa su contenuto positivo | `tenue` è il tema **degli errori** |
+| slide | una pagina che renderizza le slide le mostra vuote | sono in pausa al fotogramma zero: farle finire, non annullarle |
+| slide | il logo esce piccolo su ogni slide | rifilarlo: il margine trasparente ruba altezza |
 | slide | `<b>` dentro un `<text>` SVG | `piano()` nei testi SVG, `foreignObject` dove serve grassetto |
 | slide | etichette SVG che si sovrappongono | `foreignObject` con larghezza calcolata sul vicino |
-| montaggio | il video esce di due minuti invece di nove | `audio_asset_id` + `playback {freeze, mute}` su ogni scena video |
-| montaggio | render dato per bloccato e rilanciato | tre-quattro minuti sono **normali**; attendere con `until` |
+| montaggio | il video esce di due minuti invece di otto | `audio_asset_id` + `playback {freeze, mute}` su ogni scena video |
+| montaggio | gli slot del lotto accoppiati al file sbagliato | si accoppiano per posizione: verificare sul `content-type` |
 | montaggio | il lotto dice «completed» ma gli item no | aspettare il **conteggio**, non lo stato |
+| montaggio | render dato per bloccato e rilanciato | due-quattro minuti sono **normali**; attendere con `until` |
+| montaggio | il consegnato dura meno del locale e sfora l'impegno | ~25 ms per scena di arrotondamento: puntare un secondo sopra |
 
 ---
 
-# 8. Il profilo compilato
+# 8. I profili compilati
 
-Corso di preparazione al concorso per Infermiere · Azienda Zero Veneto ·
-CISL FP Padova Rovigo.
+Due corsi, stesso cliente, stesso marchio. I parametri di stile si confermano
+una volta per corso; quando il secondo corso è dello stesso committente, si
+confermano identici invece di riaprirli.
+
+| | corso **Infermiere** | corso **OSS** |
+|---|---|---|
+| committente | CISL FP Padova Rovigo · Azienda Zero Veneto | lo stesso |
+| durata | «8 minuti almeno» → **9:00** montati | standard 7–8 min → **7:50** montati |
+| pausa musicale | no | no |
+| copione | lo fornisce l'utente, uno script per lezione | idem |
+| scene | 50 | 48 |
+| lezioni fatte | 8 | 1 |
+
+I parametri comuni a tutti e due:
 
 | | |
 |---|---|
-| durata | «8 minuti almeno» → si punta a **9:00** montati |
-| pausa musicale | **no** |
-| copione | lo fornisce l'utente, uno script per lezione |
 | palette | bianco `#FFFFFF`, verde `#00623A`, rosso `#D70328`, testo `#1C1C1C` |
 | | verde pieno `#004E2E` (slide di affermazione), velo rosa `#FCF4F3` (errori) |
 | marchio | logo CISL FP Padova Rovigo, **in alto a sinistra su ogni slide** |
@@ -514,37 +789,79 @@ CISL FP Padova Rovigo.
 | trascrizione | `eleven_scribe_v1` |
 | formato | 1920×1080, 25 fps, 16:9, 1080p |
 
-I due colori del marchio sono **campionati dal file del logo, non stimati**:
-verde `#00623A` (40,7% dei pixel opachi), rosso `#D70328` (14,2%).
+I due colori del marchio sono **campionati dal file del logo, non stimati**.
+Controprova su un secondo file dello stesso logo: fra i pixel opachi `#00623A`
+sta al 35,0% e `#D70328` all'11,7% — gli stessi due valori.
+
+## Il marchio va rifilato
+
+`layout.mjs` scala il logo a un'altezza fissa di 70px. Un margine trasparente
+dentro il file **ruba quell'altezza al marchio**, che esce più piccolo del
+dovuto su ogni singola slide. Un file arrivato 225×109 conteneva 38 pixel di
+margine in larghezza e 12 in altezza: rifilato sul contenuto opaco diventa
+187×97. È il motivo per cui il file si chiama `logo-rifilato.png`.
+
+```python
+from PIL import Image
+im = Image.open(sorgente).convert("RGBA")
+im.crop(im.getchannel("A").getbbox()).save("slide/marchio/logo-rifilato.png", optimize=True)
+```
+
+## I caratteri si incorporano, e la licenza lo consente
+
+Inter e Source Serif 4 sono entrambi in **SIL Open Font License 1.1**, che
+consente l'incorporamento e la redistribuzione e chiede che la licenza
+accompagni i file. Si prendono da Google Fonts e si incorporano in base64 in
+`slide/font/font-incorporati.css`.
+
+Due accortezze che dimezzano il peso di un file che `layout.mjs` incorpora in
+**ogni singola slide**:
+
+- **solo i sottoinsiemi `latin` e `latin-ext`** — cirillico, greco e vietnamita
+  non servono a un corso in italiano;
+- **una `@font-face` per faccia, con l'intervallo di pesi**, non una per peso:
+  sono font variabili e tutti i pesi di una faccia stanno nello stesso file.
+  Ripeterli peso per peso porta il CSS da 590 KB a 1,4 MB.
+
+I segni `✓` (U+2713) e `→` (U+2192) non stanno nei sottoinsiemi latini: li
+disegna un carattere di sistema. Si vedono nel render, ma su una macchina
+diversa potrebbero cambiare forma.
 
 ## Costo misurato, per lezione
 
 ```
-voce (due tracce, ~8.700 caratteri, eleven_v3)   ~$1,45
-trascrizione delle due tracce intere             ~$0,60
-                                                 -------
-                                                 ~$2,05
+voce, due tracce, ~7.800 caratteri, eleven_v3    $1,28
+trascrizione delle due tracce intere             $0,53
+                                                 ------
+                                                 $1,81
 ```
 
-Il render del montaggio e i caricamenti non si pagano a consumo.
+Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro).
 
 ---
 
 # 9. Come ripartire in una chat nuova
 
 1. Crea la cartella del progetto e scrivi i file del §10 così come sono.
-2. `pip install imageio-ffmpeg` · `npm i playwright` · Chromium già presente.
-3. Metti il logo in `slide/marchio/logo-rifilato.png` e i caratteri in
-   `slide/font/` (con un `font-incorporati.css` che li incorpora in base64).
+2. `pip install imageio-ffmpeg Pillow` · `npm i playwright` · Chromium già
+   presente.
+3. Metti il logo in `slide/marchio/logo-rifilato.png`, **rifilato** come dice il
+   §8, e genera `slide/font/font-incorporati.css` dai due caratteri.
 4. Fai le tre domande del §1.
-5. Per ogni lezione: `./nuova-lezione.sh m1-lX.Y-nome`, poi scrivi i due soli
+5. Per ogni lezione: `./nuova-lezione.sh m16-l16.2-nome`, poi scrivi i due soli
    file che cambiano — `copione/costruisci.py` e `slide/contenuti.mjs` — e segui
    la pipeline del §3.
 
-La prima lezione costa più delle altre: è quella in cui si fissano palette,
-marchio e voce. Dalla seconda in poi `nuova-lezione.sh` copia tutto quello che
-non cambia **dall'ultima lezione fatta**, non dalla prima — così gli strumenti
-migliorano lezione dopo lezione e nessuna resta indietro.
+La prima lezione di un corso costa più delle altre: è quella in cui si fissano
+palette, marchio e voce. Dalla seconda in poi `nuova-lezione.sh` copia tutto
+quello che non cambia **dall'ultima lezione fatta**, non dalla prima — così gli
+strumenti migliorano lezione dopo lezione e nessuna resta indietro.
+
+> **E quando uno strumento condiviso sbaglia, si corregge lì.** La tentazione è
+> aggiustarlo nella lezione che si ha per le mani e andare avanti. Ma quella
+> copia diventa la sorgente della lezione dopo solo se è l'ultima: se qualcuno
+> ne fa un'altra nel frattempo, la correzione è persa. Si corregge, si prova, e
+> si dice nel registro che cosa è cambiato.
 
 ---
 
@@ -554,26 +871,26 @@ Tutti i file, nell'ordine in cui servono. Sono quelli veri, non una versione
 semplificata: i commenti dentro spiegano le decisioni che il testo qui sopra
 riassume.
 
+`copione/costruisci.py` e `slide/contenuti.mjs` sono gli unici due che si
+riscrivono a ogni lezione: qui sono quelli della 16.1, riportati come esempio
+compilato. Tutti gli altri si copiano come sono, una volta sola.
+
 | file | righe | a che cosa serve |
 |---|---|---|
-| `nuova-lezione.sh` | 48 | impianta una lezione nuova dall'ultima fatta |
-| `copione/costruisci.py` | 116 | il copione, i blocchi, i chunk per la voce |
-| `audio/tagli.py` | 262 | pause, allineamento DTW, ritaglio dei blocchi |
-| `audio/verifica-testo.py` | 169 | trascrizione contro copione |
+| `nuova-lezione.sh` | 60 | impianta una lezione nuova dall'ultima fatta |
+| `copione/costruisci.py` | 128 | il copione, i blocchi, i chunk per la voce |
+| `audio/tagli.py` | 267 | pause, allineamento DTW, ritaglio dei blocchi |
+| `audio/verifica-testo.py` | 173 | trascrizione contro copione |
 | `audio/verifica.py` | 81 | durata e velocita' dei blocchi ritagliati |
 | `verifica-locale.py` | 49 | il controllo statistico sui confini |
 | `slide/layout.mjs` | 348 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 531 | i 13 tipi grafici, le icone, i fregi, i colori |
-| `slide/cards.mjs` | 52 | le 50 slide in PNG |
+| `slide/cards.mjs` | 52 | le slide in PNG |
 | `slide/clips.mjs` | 45 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
-| `monta-locale.py` | 49 | il montaggio di prova con ffmpeg |
-| `controlli.py` | 73 | gli otto controlli finali |
-| `slide/contenuti.mjs` | 305 | le 50 scene — esempio, cambia a ogni lezione |
-
-Si copiano tutti come sono, una volta sola. `copione/costruisci.py` e
-`slide/contenuti.mjs` sono gli unici due che si riscrivono a ogni lezione: qui
-sono quelli della 1.8, riportati come esempio compilato.
+| `monta-locale.py` | 57 | il montaggio di prova con ffmpeg e l'SRT |
+| `controlli.py` | 85 | gli otto controlli finali |
+| `slide/contenuti.mjs` | 247 | le scene — esempio, cambia a ogni lezione |
 
 ## `nuova-lezione.sh`
 
@@ -588,17 +905,28 @@ cambia. I due soli file da riscrivere sono `copione/costruisci.py` e
 # Restano da scrivere due soli file, che il messaggio finale elenca.
 set -euo pipefail
 
-[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m1-l1.4-deontologia"; exit 1; }
+[ $# -ge 1 ] && [ $# -le 2 ] || {
+  echo "uso: ./nuova-lezione.sh m1-l1.4-deontologia [lezione-da-cui-copiare]"; exit 1; }
 NUOVA="progetti/$1"
 # Si copia dalla lezione piu' recente, non sempre dalla prima: gli strumenti
 # migliorano lezione dopo lezione e la 1.1 resterebbe indietro.
-DA=$(ls -d progetti/m1-l*/ | sort | tail -1); DA=${DA%/}
+# Il glob prende ogni modulo, non solo m1-, e l'ordinamento e' di versione:
+# con `sort` semplice "m16" viene prima di "m2" e si copierebbe da una lezione
+# piu' vecchia proprio mentre si crede di copiare dall'ultima.
+# Il secondo argomento scavalca la scelta quando l'ultima non e' quella giusta.
+if [ $# -eq 2 ]; then DA="progetti/$2"
+else DA=$(ls -d progetti/*-l*/ | sort -V | tail -1); fi
+DA=${DA%/}
+[ -d "$DA" ] || { echo "non trovo la lezione da cui copiare: $DA"; exit 1; }
 [ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
 
 mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
 # il tema e gli strumenti: identici per tutte le lezioni del corso
 cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
-cp "$DA/slide/layout.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
+# grafica.mjs e' infrastruttura condivisa quanto layout.mjs, che lo importa:
+# senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
+cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
+   "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
 ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
@@ -619,13 +947,14 @@ Poi, nell'ordine:
     creative_attach_reference_file, poi creative_transcribe_audio;
     salvare i testi in audio/trascrizioni/A.txt e B.txt
   python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
+  python3 audio/tagli.py applica         scrive gli mp3 di blocco
   python3 verifica-locale.py             nessuna coppia adiacente di segno opposto
-  python3 audio/tagli.py applica         scrive i 48 mp3
+                                         (legge blocchi-audio.json: viene DOPO applica)
   node slide/cards.mjs                   i PNG — GUARDARLI
   node slide/clips.mjs                   le clip animate
   python3 monta-scene.py                 clip + audio, una per blocco
   python3 monta-locale.py                la copia di controllo e l'SRT
-  python3 controlli.py                   i controlli del MASTER §5
+  python3 controlli.py                   i controlli del MASTER §6
 
 Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
 
@@ -635,8 +964,8 @@ TESTO
 ## `copione/costruisci.py`
 
 Il copione. Qui si scrive il testo parlato e si tagliano i blocchi: uno per
-scena, 225 caratteri al massimo, senza vocali accentate. Produce i due chunk
-per la voce e il `blocchi.json` che tutto il resto usa come riferimento.
+scena, 225 caratteri al massimo, senza vocali accentate. Verifica i vincoli e
+scrive il `blocchi.json` che tutto il resto usa come riferimento.
 
 ```python
 # -*- coding: utf-8 -*-
@@ -644,78 +973,90 @@ per la voce e il `blocchi.json` che tutto il resto usa come riferimento.
 import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
+#
+# Riscrittura del copione in origine/copione-di-partenza.md. Le 14 slide di
+# partenza vengono dalla pipeline Gamma e non trasferiscono: a ~500 caratteri
+# l'una sarebbero mezzo minuto a inquadratura, contro il tetto di 225. La
+# struttura e l'ordine restano quelli; cambia il taglio.
+#
+# Registro dichiarato nel copione di partenza, e vale come vincolo: fermo nel
+# correggere i pregiudizi, mai moralistico, nessuna drammatizzazione. E sempre
+# "persona con disturbo psichico", mai un sostantivo che identifichi la persona
+# con la diagnosi - la regola e' anche il contenuto del capitolo 2.
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Siamo alla lezione di chiusura del primo modulo. Qui non aggiungiamo niente di nuovo: ricomponiamo. Ti do una mappa unica delle sette lezioni e una linea del tempo."),
- (1,"tenue",0,"Poi i dieci numeri da ricordare, le sette confusioni che costano piu' punti e i cinque casi tipici. Guarda questo video due volte: adesso, e di nuovo nei giorni prima della prova."),
+ (1,"chiaro",0,"[warm] Benvenuta e benvenuto nel Modulo 16. E' il primo di tre moduli di approfondimento che si aggiungono al programma, e affronta un'area in cui molti OSS lavorano e su cui il corso finora si era solo affacciato."),
+ (1,"chiaro",0,"E parto dalla definizione, perche' e' gia' una correzione di prospettiva: la salute mentale non e' l'assenza di disturbo. E' una condizione di benessere in cui la persona riconosce le proprie capacita'."),
+ (1,"chiaro",0,"Affronta le difficolta' della vita, lavora in modo produttivo e contribuisce alla propria comunita'. Riguarda tutti, non solo chi ha una diagnosi."),
 
- (2,"chiaro",0,"La mappa. Uno punto uno: le fonti del campo di attivita'. Uno punto due: il profilo, DM 739 del 1994. Uno punto tre: formazione, Ordine, ECM e carriera."),
- (2,"chiaro",0,"Uno punto quattro: il Codice deontologico del 2019. Uno punto cinque: la responsabilita' professionale. Uno punto sei: consenso e autodeterminazione. Uno punto sette: segreto, privacy e tutela della persona."),
- (2,"profondo",1.2,"Sette lezioni, un filo solo: all'autonomia corrisponde la responsabilita'."),
+ (2,"chiaro",0,"Da questa definizione discendono due conseguenze. La prima: si puo' avere un disturbo psichico ed essere in una condizione di benessere, cosi' come si puo' stare male senza avere alcuna diagnosi."),
+ (2,"chiaro",0,"La seconda riguarda il linguaggio, ed e' la fonte di molti fraintendimenti: il disturbo psichico e' una condizione di salute, non un tratto della persona."),
+ (2,"profondo",1.2,"Non si e' schizofrenici: si ha una diagnosi di schizofrenia. Sembra una sottigliezza, ma non lo e': il linguaggio costruisce lo sguardo, e lo sguardo determina come si assiste."),
 
- (3,"chiaro",0,"Se dovessi ricordare una sola cosa del modulo, ricorda questa catena. La competenza, data da profilo, formazione e deontologia, fonda l'autonomia. L'autonomia genera responsabilita'."),
- (3,"chiaro",0,"E la responsabilita' si dimostra attraverso la documentazione. E' lo schema con cui rispondere a quasi ogni domanda aperta del modulo, anche a quelle che non hai preparato."),
+ (3,"chiaro",0,"La legge 180 del 1978, nota come legge Basaglia, ha disposto il superamento degli ospedali psichiatrici e ha affermato un principio: la persona con disturbo psichico e' un cittadino con diritti."),
+ (3,"chiaro",0,"Prima della legge si aveva l'internamento in ospedale psichiatrico, con un ricovero fondato sulla pericolosita' e sul pubblico scandalo, e la perdita dei diritti civili: la persona era oggetto di custodia."),
+ (3,"chiaro",0,"Dopo la legge si ha la cura nei servizi territoriali, fondata sul consenso come per ogni altra condizione di salute, con piena titolarita' dei diritti: la persona e' soggetto di cura."),
+ (3,"chiaro",0,"La legge 180 e' poi confluita nella legge 833, quella che istituisce il Servizio Sanitario Nazionale. Se di questo modulo ti chiedono una data sola, e' il 1978."),
 
- (4,"chiaro",0,"La linea del tempo. 1974: il mansionario, DPR 225. 1992: il decreto legislativo 502, e la formazione entra all'universita'. 1994: il DM 739, il profilo professionale."),
- (4,"chiaro",0,"1999: due fonti nello stesso anno. La legge 42, che abroga il mansionario e crea le tre fonti del campo di attivita'. E il decreto 229, che struttura l'ECM."),
- (4,"tenue",0,"2000: la legge 251, autonomia professionale e dirigenza. Sono i sei passaggi con cui si racconta il primo quarto di secolo della professione. Se te ne chiedono uno solo, e' il 1999: e' l'anno in cui il mansionario sparisce."),
+ (4,"profondo",1.2,"E il principio che ne discende, e che vale ancora oggi: il trattamento sanitario e' di norma volontario. Il Trattamento Sanitario Obbligatorio, il TSO, e' l'eccezione, ed e' disciplinato per legge."),
+ (4,"chiaro",0,"Lo hai gia' incontrato nella lezione dodici punto uno, ma qui lo vediamo nel dettaglio, perche' e' la domanda piu' probabile dell'intero modulo."),
 
- (5,"chiaro",0,"Si prosegue. 2006: la legge 43, obbligo di albo e quattro livelli professionali. 2010: la legge 38, cure palliative e terapia del dolore. 2016: il GDPR."),
- (5,"chiaro",0,"2017: due leggi, e le vediamo fra un attimo. 2018: la legge 3, e i Collegi IPASVI diventano Ordini, con la FNOPI al vertice. 2019: il Codice deontologico."),
- (5,"tenue",0,"2021: la legge 163, e la laurea diventa abilitante. Dal mansionario alla laurea abilitante corrono quarantasette anni, e il senso del percorso sta tutto in questa distanza."),
+ (5,"chiaro",0,"Le tre condizioni del TSO. Prima: esistono alterazioni psichiche tali da richiedere urgenti interventi terapeutici. Seconda: gli interventi non sono accettati dalla persona."),
+ (5,"chiaro",0,"Terza: non e' possibile adottare tempestive misure extraospedaliere, cioe' fuori dall'ospedale."),
+ (5,"profondo",1.2,"E il punto che i quiz chiedono: le tre condizioni devono ricorrere insieme. Non basta il rifiuto delle cure, non basta l'urgenza: servono tutte e tre."),
 
- (6,"chiaro",0,"E qui il trucco che evita due errori sicuri. Il 2017 ha due leggi che i quiz scambiano volentieri: la 24 e' responsabilita' e sicurezza delle cure, la 219 e' consenso e DAT."),
- (6,"profondo",0,"Associale a due parole: ventiquattro responsabilita', duecentodiciannove consenso. Stessa cosa per il 1999: legge 42 il mansionario, decreto 229 l'ECM."),
+ (6,"chiaro",0,"La procedura: proposta di un medico, convalida di un secondo medico della struttura pubblica, ordinanza del Sindaco, e comunicazione al giudice tutelare. Quattro passaggi, in quest'ordine."),
+ (6,"chiaro",0,"E l'ordine non e' un elenco da mandare a memoria: dice chi decide che cosa. Due medici sulla necessita' di cura, il Sindaco come autorita' sanitaria locale, il giudice tutelare a garanzia della persona."),
 
- (7,"chiaro",1.2,"I dieci numeri del modulo. 3: le fonti del campo di attivita'. 3, 4 e 3: nature, tipi e funzioni dell'assistenza. 5: le attivita' del comma 3 e le aree post base."),
- (7,"chiaro",1.2,"4: i livelli professionali, e anche le sanzioni dell'Ordine. 150: i crediti ECM nel triennio. 53 e 8: gli articoli e i capi del Codice deontologico."),
- (7,"chiaro",0,"5: i piani della responsabilita'. 10 e 5: gli anni di prescrizione, struttura ed esercente. 1: l'anno per la rivalsa dal pagamento. 48: le ore per il referto. Dieci numeri, e hai lo scheletro del modulo."),
+ (7,"tenue",0,"Un chiarimento che vale la pena fare esplicitamente, perche' il fraintendimento e' diffuso anche tra gli operatori: il TSO non e' una misura di ordine pubblico."),
+ (7,"profondo",1.2,"E non si fonda sulla pericolosita' della persona. Si fonda sulla necessita' di cura. E' una differenza sostanziale, ed e' il lascito della legge 180."),
 
- (8,"chiaro",0,"Le sette confusioni che costano piu' punti. Prima: partecipa o identifica? Bisogni di salute: partecipa. Bisogni di assistenza infermieristica: identifica e formula."),
- (8,"profondo",0,"E' la distinzione del DM 739 e vale una domanda in ogni prova. Il verbo cambia con il tipo di bisogno, non con il tipo di paziente: dove il bisogno e' infermieristico, la regia e' tua."),
- (8,"chiaro",0,"Seconda: aree post base o livelli? Le cinque aree sono ambiti clinici del profilo. I quattro livelli sono carriera, e vengono dalla legge 43 del 2006."),
+ (8,"chiaro",0,"L'organizzazione dei servizi, con tre sigle da non confondere. Il DSM, Dipartimento di Salute Mentale, coordina tutti i servizi di salute mentale dell'azienda."),
+ (8,"chiaro",0,"Il CSM, Centro di Salute Mentale, e' il servizio territoriale di riferimento: accoglienza, presa in carico, cura, domiciliarita'. Ed e' il perno di tutto il sistema."),
+ (8,"chiaro",0,"L'SPDC, Servizio Psichiatrico di Diagnosi e Cura, e' il reparto ospedaliero per il ricovero nella fase acuta, con posti letto limitati per legge."),
+ (8,"chiaro",0,"Poi il centro diurno, con attivita' riabilitative e risocializzanti, e le strutture residenziali, comunita' terapeutiche e gruppi appartamento a diversa intensita' assistenziale."),
 
- (9,"chiaro",0,"Terza: esonero o esenzione? Esonero perche' studi: laurea, master, dottorato, specializzazione. Esente perche' assente: maternita', malattia, aspettativa."),
- (9,"tenue",0,"Il modo per non sbagliarle sotto esame e' legarle al motivo: esonero quando studi, esenzione quando sei assente. In tutti e due i casi i crediti si riducono in proporzione ai mesi."),
- (9,"chiaro",0,"Quarta: livello o incarico? Il titolo abilita, l'azienda attribuisce. Si puo' avere il master di coordinamento senza avere l'incarico di coordinatore: il livello e' una qualifica, l'incarico e' un atto dell'azienda."),
+ (9,"chiaro",0,"Il modello, se lo guardi bene, e' lo stesso della rete per la non autosufficienza che hai visto nella lezione tredici punto cinque: i servizi sono graduali e non alternativi."),
+ (9,"profondo",1.2,"E la persona si muove tra i livelli in base ai bisogni. Con una differenza importante rispetto al passato: il baricentro e' il territorio, non l'ospedale."),
 
- (10,"chiaro",0,"Quinta: la struttura risponde a titolo contrattuale, prescrizione dieci anni. L'esercente risponde di regola a titolo extracontrattuale, prescrizione cinque anni."),
- (10,"chiaro",0,"Sesta: le DAT guardano a un'incapacita' futura ed eventuale, e le fa una persona da sola. La pianificazione condivisa nasce da una patologia gia' in atto e si costruisce con il medico."),
- (10,"chiaro",0,"Settima: 622, segreto professionale, procedibile a querela. 326, segreto d'ufficio, procedibile d'ufficio. Sette confusioni: sono queste a decidere i punti nei quiz a risposta chiusa."),
+ (10,"chiaro",0,"Lo stigma e' un pregiudizio sociale che attribuisce alla persona con disturbo psichico caratteristiche negative, producendo esclusione. Si manifesta in tre forme."),
+ (10,"chiaro",0,"Lo stigma sociale, con i pregiudizi diffusi su pericolosita', imprevedibilita' e inguaribilita'. L'autostigma, in cui la persona interiorizza il pregiudizio: si ritira, si vergogna, rinuncia a chiedere aiuto."),
+ (10,"chiaro",0,"E lo stigma istituzionale, cioe' pratiche organizzative che trattano diversamente chi ha una diagnosi psichiatrica. Tre forme, e la terza e' quella che da dentro si nota meno."),
 
- (11,"chiaro",0,"I cinque casi che tornano sempre. Primo: prescrizione poco chiara o palesemente errata. Chiedi chiarimento al prescrittore; se il dubbio permane, non dai corso e documenti."),
- (11,"tenue",0,"Non ti nascondi dietro la prescrizione quando l'errore e' riconoscibile: il principio di affidamento cade davanti all'errore palese. Vale per ogni ruolo dell'equipe, non solo per il tuo."),
- (11,"chiaro",0,"Secondo: attribuzione di un'attivita' all'OSS. Valuti competenza dell'operatore, condizioni della persona, contesto organizzativo. E restano tue la culpa in eligendo e la culpa in vigilando."),
+ (11,"profondo",0,"[serious] Il pregiudizio piu' diffuso, e il piu' dannoso, e' quello della pericolosita'. Vale la pena dirlo con chiarezza: la grande maggioranza delle persone con disturbo psichico non e' violenta."),
+ (11,"profondo",1.2,"E ha anzi una probabilita' piu' alta della media di subire violenza. E' l'esatto contrario di quello che la rappresentazione comune suggerisce."),
 
- (12,"chiaro",0,"Terzo: il paziente ha firmato senza capire. Sospendi il percorso, informi il medico, documenti. Senza informazione non c'e' consenso valido, e un consenso non valido non copre nulla."),
- (12,"chiaro",0,"Quarto: contenzione richiesta per carenza di personale. Rifiuti, cerchi alternative, segnali la carenza, documenti. La carenza di personale non e' mai un presupposto di liceita'."),
- (12,"chiaro",0,"Quinto: foto di una lesione inviata in chat fra colleghi. Non si fa: si documenta con gli strumenti aziendali e con il consenso. Cinque casi, e in tutti e cinque la risposta finisce con documentare."),
+ (12,"tenue",0,"Gli effetti concreti dello stigma: ritardo nella richiesta di aiuto, abbandono dei percorsi di cura, isolamento sociale, difficolta' lavorative e abitative."),
+ (12,"chiaro",0,"E poi un effetto che riguarda direttamente il tuo lavoro: il peggioramento della salute fisica."),
 
- (13,"profondo",1.2,"[serious] Quattro formule che all'orale vanno dette con le parole giuste. L'infermiere e' l'operatore sanitario responsabile dell'assistenza generale infermieristica."),
- (13,"profondo",1.2,"L'assistenza infermieristica e' di natura tecnica, relazionale ed educativa. La sicurezza delle cure e' parte costitutiva del diritto alla salute. Sono le parole del DM 739 e dell'articolo 1 della legge 24."),
- (13,"profondo",0,"Nessun trattamento sanitario puo' essere iniziato o proseguito senza il consenso libero e informato della persona interessata. Quattro frasi, e valgono piu' di quattro pagine di riassunto."),
+ (13,"chiaro",0,"Esiste un fenomeno documentato che si chiama diagnostic overshadowing, e consiste nell'attribuire ogni sintomo alla diagnosi psichiatrica."),
+ (13,"chiaro",0,"La persona con disturbo psichico che riferisce dolore, che non mangia, che e' confusa, va valutata esattamente come chiunque altro."),
+ (13,"profondo",1.2,"Attribuire tutto alla diagnosi e' un errore clinico, e puo' ritardare il riconoscimento di una condizione fisica grave. Quando osservi e segnali, la diagnosi che la persona ha gia' non e' una spiegazione."),
 
- (14,"chiaro",0,"Il modulo e' nazionale, ma la commissione e' veneta. Quattro agganci rendono concreta qualunque risposta. Uno: la funzione infermieristica sta negli atti aziendali, in una struttura delle professioni sanitarie."),
- (14,"chiaro",0,"Due: il Centro regionale per la gestione del rischio sanitario, e il Difensore civico regionale come Garante per il diritto alla salute."),
- (14,"chiaro",0,"Tre: le procedure aziendali sulla contenzione, con prescrizione, rivalutazione e registrazione. Quattro: il fascicolo sanitario elettronico e i log di accesso. Il sistema veneto si approfondisce nel modulo 13."),
+ (14,"chiaro",0,"Il ruolo dell'OSS. Gli ambiti sono l'SPDC, le strutture residenziali, i centri diurni, i servizi territoriali e il domicilio. Che cosa fa: assistenza di base, igiene, alimentazione, cura di se'."),
+ (14,"chiaro",0,"Che nella fase acuta sono spesso compromesse. Sostegno all'autonomia, cioe' accompagnare a fare e non fare al posto di: se la persona riesce a vestirsi in dieci minuti, quei dieci minuti sono assistenza."),
+ (14,"chiaro",0,"Presenza e relazione, che in quest'area e' lo strumento assistenziale principale. Poi il sostegno alla quotidianita' con una routine stabile."),
+ (14,"chiaro",0,"Osservazione di comportamento, ritmo sonno-veglia, alimentazione e variazioni. E segnalazione."),
+ # "autonomamente" non e' un avverbio di riempimento e non si taglia per far
+ # stare il blocco: senza, la frase dice che all'OSS non compete la terapia,
+ # che e' un'altra affermazione. Il blocco sta nei 225 perche' l'elenco del
+ # "che cosa fa" si e' preso una scena in piu' - ce n'era: 47 su 50.
+ (14,"tenue",0,"Che cosa non compete: interpretare i contenuti del pensiero, gestire autonomamente la terapia, decidere misure restrittive, sostituirsi al colloquio clinico."),
 
- (15,"chiaro",0,"Nella dispensa trovi dodici domande di autovalutazione, e ogni soluzione ti dice a quale lezione tornare se hai sbagliato. La regola: se sbagli piu' di tre su dodici, non passare al modulo 2."),
- (15,"tenue",0,"Rivedi le lezioni segnalate. Non e' pignoleria: il modulo 1 e' la grammatica di tutto il resto del corso, e i moduli successivi lo danno per acquisito. Meglio due giorni in piu' adesso che un modulo intero da rifare."),
+ (15,"profondo",1.2,"[thoughtful] E la sintesi della lezione, che vale la pena tenere. In salute mentale l'assistenza di base non e' un contorno della cura: spesso e' la cura."),
+ (15,"profondo",0,"Riprendere a lavarsi, a mangiare con regolarita', a uscire di casa non sono premesse del percorso terapeutico: ne sono parte. E sono esattamente il terreno su cui lavora l'OSS."),
 
- (16,"chiaro",0,"Come proseguire. Uno: affronta il test finale del modulo, quaranta domande. E' il primo controllo serio. Due: riprendi solo le lezioni segnalate dagli errori, non tutto il modulo."),
- (16,"chiaro",0,"Tre: trasferisci nel quaderno di ripasso le formule e i dieci numeri, che sono la parte che si dimentica per prima. Quattro: passa al modulo 2, che riprende molti fili di questo e li traduce in metodo."),
-
- (17,"chiaro",0,"[warm] Chiudo con la catena da cui siamo partiti. Il mansionario e' il decreto del 1974, abrogato dalla legge 42 del 1999. Le fonti del campo di attivita' sono tre."),
- (17,"chiaro",0,"L'infermiere e' responsabile dell'assistenza generale infermieristica, di natura tecnica, relazionale ed educativa. Chi attribuisce risponde della scelta, chi esegue della corretta esecuzione."),
- (17,"chiaro",0,"La laurea abilita, ma per esercitare serve l'albo. Centocinquanta crediti nel triennio. La contenzione e' eccezionale e mai organizzativa. I piani della responsabilita' sono cinque, autonomi e cumulabili."),
- (17,"chiaro",0,"Dieci anni la struttura, cinque l'esercente, rivalsa solo per dolo o colpa grave. Nessun trattamento senza consenso libero e informato: si puo' rifiutare tutto, non pretendere tutto."),
- (17,"profondo",0,"E infine la frase che tiene insieme tutto il modulo: cio' che non e' documentato si presume non fatto. E' la frase con cui conviene chiudere qualunque risposta all'orale. Ci vediamo nel modulo 2."),
+ (16,"chiaro",0,"Riepiloghiamo. La salute mentale non e' assenza di disturbo e riguarda tutti. Il disturbo e' una condizione, non un tratto: non si e', si ha."),
+ (16,"chiaro",0,"La legge 180 ha disposto il superamento manicomiale e affermato la titolarita' dei diritti, ed e' confluita nella legge 833. Il TSO richiede tre condizioni che devono ricorrere insieme."),
+ (16,"chiaro",0,"Con la procedura proposta, convalida, ordinanza del Sindaco e comunicazione al giudice tutelare, e non e' una misura di ordine pubblico. DSM coordina, CSM e' il territorio, SPDC e' l'ospedale."),
+ (16,"chiaro",0,"[warm] E lo stigma si manifesta come sociale, autostigma e istituzionale, con l'attenzione al diagnostic overshadowing. Nella prossima lezione vediamo i quadri principali e i segni da riconoscere. Ci vediamo li'."),
 ]
 
 ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
-CAPITOLI = {1:"Apertura",2:"La mappa del modulo",3:"Il filo",4:"Linea del tempo I",
- 5:"Linea del tempo II",6:"Le date gemelle",7:"I dieci numeri",8:"Confusioni 1-2",
- 9:"Confusioni 3-4",10:"Confusioni 5-7",11:"Casi 1-2",12:"Casi 3-5",
- 13:"Le formule",14:"In Veneto",15:"Autovalutazione",16:"Come proseguire",17:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le due conseguenze",3:"La legge 180",
+ 4:"Volontario, e l'eccezione",5:"Le tre condizioni",6:"La procedura",
+ 7:"Che cosa il TSO non e'",8:"I servizi",9:"Il modello",10:"Lo stigma",
+ 11:"La pericolosita'",12:"Gli effetti",13:"Diagnostic overshadowing",
+ 14:"Il ruolo dell'OSS",15:"La sintesi",16:"Riepilogo"}
 CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.7
 
 blocchi=[]
@@ -759,11 +1100,9 @@ json.dump(blocchi, open("copione/blocchi.json","w",encoding="utf-8"), ensure_asc
 
 ## `audio/tagli.py`
 
-Il cuore della lavorazione audio: misura le pause sulla traccia **grezza**,
-allinea la punteggiatura del copione ai segmenti di parlato con la DTW, vota
-la soglia sull'esito e non sulla quantita' di confini, poi ritaglia i blocchi
-applicando il filtro del ritmo. `correzioni.json` va riapplicato sempre da
-capo: `correggi` modifica `confini-X.json` sul posto.
+Le pause si cercano sul grezzo, i confini si scelgono con l'allineamento DTW
+fra punteggiatura e spezzoni di parlato, il filtro di ritmo si applica dopo,
+blocco per blocco. `STACCO` va riletto a ogni lezione.
 
 ```python
 #!/usr/bin/env python3
@@ -786,7 +1125,12 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-STACCO = "s28"
+# Ultimo blocco della traccia A. Arriva da costruisci.py, che lo calcola sul
+# primo cambio di capitolo dopo meta' dei caratteri: qui cade fra "I servizi"
+# e "Il modello", dove il cambio di tono e' voluto. Va riletto a ogni lezione:
+# lasciarci quello della lezione precedente taglia la traccia nel punto
+# sbagliato senza che nessun controllo se ne accorga.
+STACCO = "s24"   # chunkA 3957 car  ·  chunkB 3763 car
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
          "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
@@ -1032,9 +1376,9 @@ if __name__ == "__main__":
 
 ## `audio/verifica-testo.py`
 
-Confronta la trascrizione con il copione. Contiene il convertitore dei
-cardinali italiani in cifre (`quarantotto` -> `48`) e le rese dichiarate:
-senza quelli segnalerebbe come errori una dozzina di letture corrette.
+Confronto parola per parola fra quello che la voce ha detto e quello che il
+copione diceva. Le rese diverse sono righe dichiarate, mai una tolleranza
+generica.
 
 ```python
 #!/usr/bin/env python3
@@ -1149,6 +1493,10 @@ RESE = [
  # La lettera dell'articolo 9.2 GDPR: il copione la scrive come si pronuncia
  # («lettera acca»), il trascrittore la riporta come si scrive («lettera h»).
  (r"\blettera\s+(acca|h)\b",          " lettera acca "),
+ # Il copione del modulo 16 scrive «autostigma» attaccato, come il Codice e la
+ # letteratura; il trascrittore lo stacca in «auto-stigma». Non e' un buco:
+ # la voce dice la parola intera, e si sente. Resa dichiarata, non tolleranza.
+ (r"\bauto\s+stigma\b",               " autostigma "),
 ]
 
 def parole(s):
@@ -1209,9 +1557,6 @@ sys.exit(1 if guai else 0)
 ```
 
 ## `audio/verifica.py`
-
-La verifica dei blocchi ritagliati: durata, velocita' di lettura, silenzi ai
-bordi.
 
 ```python
 #!/usr/bin/env python3
@@ -1299,10 +1644,8 @@ if __name__ == "__main__":
 
 ## `verifica-locale.py`
 
-Il controllo statistico sui confini: la dispersione della velocita' di lettura
-blocco per blocco. Un confine sbagliato si vede come un punto lontano dalla
-nuvola — ma va poi confermato con l'aritmetica sulla traccia grezza, perche'
-i blocchi densi di cifre sono lenti per conto loro.
+Cerca la firma di un confine spostato: due scarti grandi, adiacenti e di segno
+opposto. Legge `blocchi-audio.json`, quindi va lanciato **dopo** `applica`.
 
 ```python
 #!/usr/bin/env python3
@@ -1357,10 +1700,6 @@ for L in ("A","B"):
 ```
 
 ## `slide/layout.mjs`
-
-L'impaginazione: temi, marchio in alto a sinistra, barra di avanzamento, i
-corpi di testo. Importa la libreria grafica e rifiuta i tipi con dati sul
-tema profondo, dove il contrasto delle serie non regge.
 
 ```javascript
 // Layout unico delle slide: lo usano sia cards.mjs (PNG fermi) sia clips.mjs (fotogrammi).
@@ -1714,10 +2053,6 @@ export function html(d, {avanzamento=0, pagina=''}={}) {
 ```
 
 ## `slide/grafica.mjs`
-
-La libreria grafica: 13 tipi in 5 famiglie, 22 icone a tratto su griglia 24,
-4 fregi, la palette dei dati validata per il daltonismo e la rampa
-sequenziale. Il colore qui e' calcolato, mai scelto a mano.
 
 ```javascript
 // Libreria grafica delle slide: tabelle vere, grafici, diagrammi, icone vettoriali.
@@ -2255,10 +2590,6 @@ export const CORPI_GRAFICA = {
 
 ## `slide/cards.mjs`
 
-Renderizza le 50 slide in PNG con Playwright, animazioni bloccate al
-fotogramma voluto. Scrive anche `troppo-alte.json`: e' il controllo
-geometrico di traboccamento.
-
 ```javascript
 // Renderizza i PNG fermi di tutte le scene: servono per guardarle e correggerle.
 import { chromium } from 'playwright';
@@ -2316,8 +2647,6 @@ writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(tro
 
 ## `slide/clips.mjs`
 
-Trasforma in MP4 le sole scene animate, catturando i fotogrammi a passo fisso.
-
 ```javascript
 // Dallo stesso layout dei PNG: i fotogrammi dell'ingresso, poi mp4 a 25 fps.
 // Il tempo non scorre da solo: ogni fotogramma sposta a mano l'orologio delle
@@ -2368,9 +2697,6 @@ console.log(`\n${DA_ANIMARE.length} clip da ${DURATA}s scritte in mp4/`);
 
 ## `monta-scene.py`
 
-Costruisce il payload delle scene per il montaggio: ogni scena video porta
-`audio_asset_id` e `playback: freeze + mute`, altrimenti si tronca a ~1,8 s.
-
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -2413,9 +2739,6 @@ print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")
 
 ## `monta-locale.py`
 
-Il montaggio di prova in locale con ffmpeg: serve a guardare il video prima
-di spendere una resa vera.
-
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -2435,15 +2758,23 @@ def durata(f):
     t = re.findall(r"time=(\d+):(\d+):([\d.]+)", sh(FF,"-i",f,"-f","null","-").stderr)[-1]
     return int(t[0])*3600+int(t[1])*60+float(t[2])
 
+# Copertina e chiusura sono la prima e l'ultima scena renderizzata, non s01 e
+# s50: 50 e' il tetto duro del MASTER, non il numero di scene di ogni lezione.
+# La 16.1 ne ha 48, e con "s50" scritto a mano il fotogramma di chiusura non
+# esiste, la concatenazione salta e il montato non viene prodotto.
+PNG = sorted((QUI/"slide"/"png").glob("s*.png"))
+COPERTINA, CHIUSURA = PNG[0].stem, PNG[-1].stem
+
 # copertina e chiusura: immagine ferma + silenzio, cosi' hanno una traccia audio
-for idb, sec in (("s01", 3), ("s50", 10)):
+for idb, sec in ((COPERTINA, 3), (CHIUSURA, 10)):
     sh(FF,"-y","-v","error","-loop","1","-t",str(sec),"-i",QUI/"slide"/"png"/f"{idb}.png",
        "-f","lavfi","-t",str(sec),"-i","anullsrc=r=44100:cl=stereo",
        "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p","-r","25",
        "-c:a","aac","-b:a","160k","-shortest",TMP/f"{idb}.mp4")
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
-ordine = [TMP/"s01.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg] + [TMP/"s50.mp4"]
+ordine = ([TMP/f"{COPERTINA}.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg]
+          + [TMP/f"{CHIUSURA}.mp4"])
 (TMP/"lista.txt").write_text("".join(f"file '{p.resolve()}'\n" for p in ordine), encoding="utf-8")
 sh(FF,"-y","-v","error","-f","concat","-safe","0","-i",TMP/"lista.txt",
    "-c","copy","-movflags","+faststart",QUI/f"montato-{LEZIONE}.mp4")
@@ -2470,12 +2801,10 @@ print(sh(FF,"-i",QUI/f"montato-{LEZIONE}.mp4","-f","null","-").stderr.split("Str
 
 ## `controlli.py`
 
-Gli otto controlli del §6, in un colpo solo.
-
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""I controlli del MASTER §5, tutti in una volta."""
+"""I controlli del MASTER §6, tutti in una volta."""
 import json, re, subprocess
 from pathlib import Path
 import imageio_ffmpeg
@@ -2485,6 +2814,13 @@ LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
 esiti = []
+
+# La durata chiesta e' un parametro della lezione, non una costante del
+# metodo: il corso Infermiere chiedeva «8 minuti almeno», il corso OSS ha
+# lo standard 7-8 minuti. Sta qui, dichiarata, invece che murata in un
+# confronto a meta' del file.
+CHIESTO = 470.0   # 7:50 montati
+
 
 # La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
 # che ha trovato e' stato corretto e poi ricontrollato con una controprova.
@@ -2521,8 +2857,12 @@ male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
 esiti.append((not male, "fascia 8,5-21 car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
 
+# Un PNG per scena, e le scene sono i blocchi piu' copertina e chiusura. Il 50
+# del MASTER e' il tetto, non il numero di scene di ogni lezione.
 png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
-esiti.append((len(png)==50, f"50 PNG renderizzati e guardati: {len(png)}"))
+atteso = len(json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))) + 2
+esiti.append((len(png)==atteso and atteso<=50,
+              f"PNG renderizzati e guardati: {len(png)} su {atteso} scene (tetto 50)"))
 sfora = json.loads((QUI/"slide"/"troppo-alte.json").read_text(encoding="utf-8"))
 esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"))
 
@@ -2533,331 +2873,270 @@ o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
                    capture_output=True,text=True).stderr
 t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
 d = int(t[0])*3600+int(t[1])*60+float(t[2])
-esiti.append((d >= 480, f"durata {int(d//60)}:{d%60:05.2f} — richiesto «8 minuti almeno»"))
+esiti.append((d >= CHIESTO, f"durata {int(d//60)}:{d%60:05.2f} — chiesti "
+              f"{int(CHIESTO//60)}:{CHIESTO%60:05.2f}"))
 
 srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
 n = len(re.findall(r"-->", srt))
-esiti.append((n==48, f"sottotitoli SRT: {n} righe"))
+esiti.append((n==atteso-2, f"sottotitoli SRT: {n} righe su {atteso-2} blocchi"))
 
 rf = QUI/"REGISTRO.md"
 esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),
               "registro con la sezione «da verificare»"))
 
-print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §5)\n")
+print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)\n")
 for b,t in esiti: print(f"  [{ok(b)}] {t}")
 print(f"\n{sum(1 for b,_ in esiti if b)}/{len(esiti)} superati")
 ```
 
-## `slide/contenuti.mjs — esempio`
-
-Il secondo dei due file per lezione: le 50 scene, una per blocco. Questo e'
-quello della 1.8, riportato per intero come esempio di come si usano i 13
-tipi grafici.
+## `slide/contenuti.mjs` — esempio
 
 ```javascript
-// Contenuto delle 50 scene della lezione 1.8. *accento*  **accento in semibold**
-const MAPPA_A = [
- {t:"**1.1** Le fonti del campo di attività", d:"profilo, formazione, Codice — e la fine del mansionario"},
- {t:"**1.2** Il profilo professionale", d:"DM 739/1994"},
- {t:"**1.3** Formazione, Ordine, ECM, carriera"},
-];
-const MAPPA_B = [
- {t:"**1.4** Il Codice deontologico", d:"FNOPI 2019"},
- {t:"**1.5** La responsabilità professionale", d:"i cinque piani e la legge 24/2017"},
- {t:"**1.6** Consenso, DAT, autodeterminazione", d:"legge 219/2017"},
- {t:"**1.7** Segreto, privacy, tutela della persona"},
-];
-const CATENA = [
- {n:"1", t:"Competenza", d:"profilo, formazione, deontologia"},
- {n:"2", t:"Autonomia", d:"decidere nel proprio ambito"},
- {n:"3", t:"Responsabilità", d:"cinque piani, autonomi e cumulabili"},
- {n:"4", t:"Documentazione", d:"è così che la responsabilità si dimostra", key:true},
-];
-const NUM_A = [
- {t:"Le **fonti** del campo di attività"},
- {t:"**Nature, tipi e funzioni** dell'assistenza"},
- {t:"Le **attività del comma 3** e le **aree post-base**"},
-];
-const NUM_B = [
- {t:"I **livelli professionali** — e le **sanzioni** dell'Ordine"},
- {t:"I **crediti ECM** nel triennio"},
- {t:"**Articoli e capi** del Codice deontologico"},
-];
-const NUM_C = [
- {t:"I **piani della responsabilità**"},
- {t:"Anni di **prescrizione**: struttura ed esercente"},
- {t:"L'anno per la **rivalsa**, dal pagamento"},
- {t:"Le ore per il **referto**"},
-];
-const OSS = [
- {n:"1", t:"Competenza", d:"dell'operatore a cui attribuisci"},
- {n:"2", t:"Condizioni", d:"della persona assistita"},
- {n:"3", t:"Contesto", d:"organizzativo in cui l'attività si svolge"},
-];
-const VENETO_A = [
- {t:"**Struttura delle professioni sanitarie**", d:"è lì che gli atti aziendali collocano la funzione infermieristica"},
-];
-const VENETO_B = [
- {t:"**Centro regionale** per la gestione del rischio sanitario<br>e **Difensore civico regionale**",
-  d:"il Difensore civico è il Garante per il diritto alla salute — legge 24/2017"},
-];
-const VENETO_C = [
- {t:"**Procedure aziendali sulla contenzione**", d:"prescrizione, rivalutazione, registrazione"},
- {t:"**Fascicolo sanitario elettronico** e log di accesso", d:"l'accesso non giustificato è rilevato"},
-];
-const FINALE_A = [
- {t:"Il **mansionario** è il DPR 225/1974, abrogato dalla **legge 42/1999**"},
- {t:"Le **fonti del campo di attività** sono tre"},
- {t:"L'infermiere è **responsabile dell'assistenza generale infermieristica**"},
-];
-const FINALE_B = [
- {t:"L'assistenza è di natura **tecnica, relazionale, educativa**"},
- {t:"Chi **attribuisce** risponde della scelta, chi **esegue** della corretta esecuzione"},
- {t:"La **laurea abilita**, ma per esercitare serve l'**albo**"},
-];
-const FINALE_C = [
- {t:"**150 crediti** ECM nel triennio"},
- {t:"La **contenzione** è eccezionale — e **mai organizzativa**"},
- {t:"I piani della responsabilità sono **cinque**, autonomi e cumulabili"},
-];
-const FINALE_D = [
- {t:"**Dieci anni** la struttura, **cinque** l'esercente"},
- {t:"**Rivalsa** solo per dolo o colpa grave"},
- {t:"Nessun trattamento senza **consenso libero e informato**: si può *rifiutare* tutto, non *pretendere* tutto"},
+// Contenuto delle 48 scene della lezione 16.1. *accento*  **accento in semibold**
+//
+// Registro: fermo nel correggere i pregiudizi, mai moralistico. Nessuna
+// drammatizzazione, nessun linguaggio pietistico. E sempre "persona con
+// disturbo psichico": non c'e' una sola slide che usi un sostantivo al posto
+// della persona, perche' e' esattamente la regola che il capitolo 2 insegna.
+
+// La definizione, smontata nelle sue quattro parti: e' una definizione
+// positiva, e un elenco di quattro voci lo fa vedere meglio di una frase.
+const DEFINIZIONE = [
+ {icona:"persona",     t:"Riconosce le proprie **capacità**"},
+ {icona:"scudo",       t:"Affronta le **difficoltà** della vita"},
+ {icona:"ingranaggio", t:"Lavora in modo **produttivo**"},
+ {icona:"persone",     t:"Contribuisce alla propria **comunità**"},
 ];
 
+// Il visual chiave della lezione. La separazione e' netta perche' la tabella
+// ha una colonna per ciascun regime: il segno (× / ✓) porta il giudizio
+// insieme alla parola, mai il colore da solo.
+const PRIMA_DOPO = {
+ colonne:["22%","39%","39%"],
+ intestazioni:["", "Prima della 180", "Dopo la 180"],
+ righe:[
+  ["Dove",        "no:internamento in ospedale psichiatrico", "si:cura nei servizi territoriali"],
+  ["Su che cosa<br>si fonda", "no:pericolosità e pubblico scandalo", "si:consenso, come per ogni condizione di salute"],
+  ["Diritti civili", "no:perduti",                 "si:piena titolarità"],
+  ["La persona è", "no:oggetto di custodia",       "si:soggetto di cura"],
+ ],
+};
 
-// --- figure ricorrenti della lezione ---
-// La linea del tempo e' in scala: fra il 1974 e il 1992 ci sono diciotto anni,
-// fra il 1999 e il 2000 uno. Una timeline a passo fisso direbbe il contrario.
-const TEMPO = [
- {anno:1974, et:"mansionario · DPR 225"},
- {anno:1992, et:"D.Lgs. 502 · l'università"},
- {anno:1994, et:"DM 739 · il profilo"},
- {anno:1999, et:"legge 42 · D.Lgs. 229", key:true},
- {anno:2000, et:"legge 251"},
- {anno:2006, et:"legge 43 · albo"},
- {anno:2010, et:"legge 38"},
- {anno:2016, et:"GDPR"},
- {anno:2018, et:"legge 3 · Ordini"},
- {anno:2021, et:"laurea abilitante"},
+const CONDIZIONI = [
+ {t:"Esistono **alterazioni psichiche** tali da richiedere urgenti interventi terapeutici"},
+ {t:"Gli interventi **non sono accettati** dalla persona"},
+ {t:"**Non** è possibile adottare tempestive misure **extraospedaliere**"},
 ];
-const DIECI = [
- {n:"3",       t:"le **fonti** del campo di attività"},
- {n:"3·4·3",   t:"**nature, tipi e funzioni** dell'assistenza"},
- {n:"5",       t:"le **attività** del comma 3 e le **aree post-base**"},
- {n:"4",       t:"i **livelli** professionali e le **sanzioni** dell'Ordine"},
- {n:"150",     t:"i **crediti ECM** nel triennio"},
- {n:"53+8",    t:"**articoli e capi** del Codice deontologico"},
- {n:"5",       t:"i **piani** della responsabilità"},
- {n:"10+5",    t:"anni di **prescrizione**: struttura ed esercente"},
- {n:"1",       t:"l'anno per la **rivalsa**, dal pagamento"},
- {n:"48",      t:"le ore per il **referto**"},
+
+// Le tre sigle che i quiz scambiano. Il CSM e' marcato perche' e' il perno:
+// e' l'unica delle tre che la lezione chiama cosi'.
+const SIGLE = [
+ {icona:"ingranaggio", t:"**DSM**", d:"Dipartimento di Salute Mentale — coordina tutti i servizi dell'azienda"},
+ {icona:"cuoremano",   t:"**CSM**", d:"Centro di Salute Mentale — il servizio territoriale, il perno del sistema", key:true},
+ {icona:"ospedale",    t:"**SPDC**", d:"Servizio Psichiatrico di Diagnosi e Cura — la fase acuta, posti letto limitati per legge"},
 ];
-const MEMO18 = [
- {t:"Il **mansionario** è il DPR 225/1974, abrogato dalla **legge 42/1999**"},
- {t:"Le **fonti del campo di attività** sono tre"},
- {t:"L'infermiere è **responsabile dell'assistenza generale infermieristica**"},
- {t:"L'assistenza è di natura **tecnica, relazionale, educativa**"},
- {t:"Chi **attribuisce** risponde della scelta, chi **esegue** della corretta esecuzione"},
- {t:"La **laurea abilita**, ma per esercitare serve l'**albo**"},
- {t:"**150 crediti** ECM nel triennio"},
- {t:"La **contenzione** è eccezionale — e **mai organizzativa**"},
- {t:"I piani della responsabilità sono **cinque**, autonomi e cumulabili"},
- {t:"**Dieci anni** la struttura, **cinque** l'esercente"},
- {t:"**Rivalsa** solo per dolo o colpa grave"},
- {t:"Si può **rifiutare** tutto, non **pretendere** tutto"},
+
+const FORME = [
+ {n:"1", t:"Stigma sociale",       d:"i pregiudizi diffusi: pericolosità, imprevedibilità, inguaribilità"},
+ {n:"2", t:"Autostigma",           d:"la persona interiorizza il pregiudizio: si ritira, si vergogna, rinuncia"},
+ {n:"3", t:"Stigma istituzionale", d:"pratiche organizzative che trattano diversamente chi ha una diagnosi"},
 ];
+
+const EFFETTI = [
+ {t:"Ritardo nella **richiesta di aiuto**"},
+ {t:"**Abbandono** dei percorsi di cura"},
+ {t:"**Isolamento** sociale"},
+ {t:"Difficoltà **lavorative e abitative**"},
+];
+
+const AMBITI = [
+ {t:"SPDC"}, {t:"Strutture residenziali"}, {t:"Centri diurni"},
+ {t:"Servizi territoriali"}, {t:"Domicilio"},
+];
+
+const OSSERVARE = [
+ {t:"Comportamento"}, {t:"Ritmo **sonno-veglia**"},
+ {t:"Alimentazione"}, {t:"Le **variazioni**"},
+];
+
+const NON_COMPETE = [
+ {t:"Interpretare i **contenuti del pensiero**"},
+ {t:"Gestire **autonomamente** la terapia"},
+ {t:"Decidere **misure restrittive**"},
+ {t:"Sostituirsi al **colloquio clinico**"},
+];
+
+const RIEPILOGO = [
+ {t:"La salute mentale **non è assenza di disturbo** — e riguarda tutti"},
+ {t:"Il disturbo è una **condizione**, non un tratto: non si *è*, si *ha*"},
+ {t:"**L. 180/1978** — superamento manicomiale, cittadino con diritti, confluita nella **833**"},
+ {t:"**TSO: le tre condizioni insieme**"},
+ {t:"Proposta → convalida → **Sindaco** → **giudice tutelare**"},
+ {t:"Non è ordine pubblico: si fonda sulla **necessità di cura**"},
+ {t:"**DSM** coordina · **CSM** territorio · **SPDC** ospedale"},
+ {t:"Stigma **sociale · auto · istituzionale** — e *diagnostic overshadowing*"},
+];
+
 
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
-  modulo:"Modulo 1 · Riepilogo",
-  titolo:"Ricomponiamo<br>il modulo", sottotitolo:"Mappa, numeri, confusioni, casi",
-  ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
+  modulo:"Modulo 16 · Salute mentale, dipendenze e disagio psichico",
+  titolo:"Concetti, stigma<br>e riferimenti normativi", sottotitolo:"Lezione 16.1",
+  ente:"CISL FP Padova Rovigo · Concorso OSS Azienda Zero"},
 
-{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 8 di 8",
-  testo:"Qui non aggiungiamo niente di nuovo: **ricomponiamo**.",
-  sotto:"Una mappa unica delle sette lezioni, e una linea del tempo."},
-{id:"s03", tipo:"frase", tema:"tenue", sopratitolo:"Come usare questo video",
-  testo:"Guardalo **due volte**: adesso, e di nuovo nei giorni prima della prova."},
+{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Modulo 16 · lezione 1 di 3",
+  testo:"Il primo di tre moduli di **approfondimento**.",
+  sotto:"Un'area in cui molti OSS lavorano, e su cui il corso finora si era solo affacciato."},
+{id:"s03", tipo:"frase", tema:"chiaro", sopratitolo:"Si parte dalla definizione",
+  testo:"La salute mentale **non è l'assenza di disturbo**.",
+  sotto:"È una condizione di *benessere*. La definizione è già una correzione di prospettiva."},
+{id:"s04", tipo:"icone", tema:"chiaro", sopratitolo:"Una condizione di benessere in cui la persona",
+  voci:DEFINIZIONE},
 
-{id:"s04", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 1", voci:MAPPA_A},
-{id:"s05", tipo:"elenco", tema:"chiaro", sopratitolo:"La mappa del modulo · 2", voci:MAPPA_B},
-{id:"s06", tipo:"titolo", tema:"profondo",
-  titolo:"All'autonomia corrisponde<br>la **responsabilità**.",
-  sotto:"Sette lezioni, un filo solo."},
+{id:"s05", tipo:"confronto", tema:"chiaro", sopratitolo:"La prima conseguenza", col:[
+  {h:"Si può", t:"avere un **disturbo psichico** ed essere in una condizione di **benessere**"},
+  {h:"Così come si può", t:"**stare male** senza avere alcuna **diagnosi**"}],
+  sotto:"Riguarda tutti, non solo chi ha una diagnosi."},
+{id:"s06", tipo:"frase", tema:"chiaro", sopratitolo:"La seconda conseguenza",
+  testo:"Il disturbo psichico è una **condizione di salute**, non un **tratto della persona**.",
+  sotto:"Ed è la fonte di molti fraintendimenti."},
+// La sostituzione mette le due formule una accanto all'altra invece di
+// spiegare la differenza: e' il tipo di correzione che si vede, non si ascolta.
+{id:"s07", tipo:"sostituzione", tema:"profondo",
+  da:{h:"Non si dice", t:"«è schizofrenico»"},
+  a:{h:"Si dice", t:"«ha una diagnosi di schizofrenia»"},
+  sotto:"Il linguaggio costruisce lo sguardo, e lo sguardo determina come si assiste."},
 
-{id:"s07", tipo:"catena", tema:"chiaro", sopratitolo:"La catena del modulo", passi:[
-  {t:"Competenza", d:"profilo, formazione, deontologia"},
-  {t:"Autonomia", d:"decidere nel proprio ambito"},
-  {t:"Responsabilità", d:"cinque piani, autonomi e cumulabili"},
-  {t:"Documentazione", d:"è così che la responsabilità si dimostra", key:true}]},
+{id:"s08", tipo:"norma", tema:"chiaro", etichetta:"Legge", sigla:"180/1978",
+  testo:"La persona con disturbo psichico è un **cittadino con diritti**."},
+{id:"s09", tipo:"tabella", tema:"chiaro", sopratitolo:"La legge Basaglia — che cosa cambia",
+  ...PRIMA_DOPO, chiave:[]},
+{id:"s10", tipo:"tabella", tema:"chiaro", sopratitolo:"La legge Basaglia — che cosa cambia",
+  ...PRIMA_DOPO, chiave:[3]},
+{id:"s11", tipo:"frase", tema:"chiaro", sopratitolo:"Dove è finita la 180",
+  testo:"Confluita nella **legge 833**, quella che istituisce il **Servizio Sanitario Nazionale**.",
+  sotto:"Se di questo modulo ti chiedono una data sola, è il **1978**."},
 
-{id:"s08", tipo:"frase", tema:"chiaro", sopratitolo:"A che serve la catena",
-  testo:"È lo schema con cui rispondere a **quasi ogni domanda aperta** del modulo.",
-  sotto:"Anche a quelle che non hai preparato."},
+{id:"s12", tipo:"titolo", tema:"profondo",
+  titolo:"Il trattamento sanitario<br>è di norma **volontario**.",
+  sotto:"Il TSO è l'eccezione, ed è disciplinato per legge."},
+{id:"s13", tipo:"frase", tema:"chiaro", sopratitolo:"Lo hai già incontrato nella lezione 12.1",
+  testo:"Qui lo vediamo **nel dettaglio**.",
+  sotto:"È la domanda più probabile dell'intero modulo."},
 
-{id:"s09", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,3)},
+{id:"s14", tipo:"elenco", tema:"chiaro", numerato:true, attive:[0,1],
+  sopratitolo:"Le tre condizioni del TSO", voci:CONDIZIONI},
+{id:"s15", tipo:"elenco", tema:"chiaro", numerato:true, attive:[0,1,2],
+  sopratitolo:"Le tre condizioni del TSO", voci:CONDIZIONI},
+{id:"s16", tipo:"titolo", tema:"profondo",
+  titolo:"Le tre condizioni devono<br>ricorrere **insieme**.",
+  sotto:"Non basta il rifiuto delle cure. Non basta l'urgenza. Servono tutte e tre."},
 
-{id:"s10", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,4)},
+{id:"s17", tipo:"catena", tema:"chiaro", sopratitolo:"La procedura, in quest'ordine", passi:[
+  {t:"Proposta", d:"di un medico"},
+  {t:"Convalida", d:"di un secondo medico della struttura pubblica"},
+  {t:"Ordinanza", d:"del Sindaco"},
+  {t:"Comunicazione", d:"al giudice tutelare", key:true}]},
+{id:"s18", tipo:"icone", tema:"chiaro", sopratitolo:"L'ordine dice chi decide che cosa", voci:[
+  {icona:"persone",     t:"Due medici", d:"sulla necessità di cura"},
+  {icona:"certificato", t:"Il Sindaco", d:"come autorità sanitaria locale"},
+  {icona:"giudice",     t:"Il giudice tutelare", d:"a garanzia della persona"}]},
 
-{id:"s11", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,5)},
+{id:"s19", tipo:"frase", tema:"tenue", sopratitolo:"Un fraintendimento diffuso anche tra gli operatori",
+  testo:"Il TSO **non è una misura di ordine pubblico**."},
+{id:"s20", tipo:"titolo", tema:"profondo",
+  titolo:"Non si fonda sulla pericolosità.<br>Si fonda sulla **necessità di cura**.",
+  sotto:"È il lascito della legge 180."},
 
-{id:"s12", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO.slice(0,8)},
+{id:"s21", tipo:"icone", tema:"chiaro", attive:[0],
+  sopratitolo:"Tre sigle da non confondere", voci:SIGLE},
+{id:"s22", tipo:"icone", tema:"chiaro", attive:[0,1],
+  sopratitolo:"Tre sigle da non confondere", voci:SIGLE},
+{id:"s23", tipo:"icone", tema:"chiaro", attive:[0,1,2],
+  sopratitolo:"Tre sigle da non confondere", voci:SIGLE},
+// L'albero e' in HTML e non in SVG: i riquadri crescono col contenuto, e qui
+// le didascalie dei rami hanno lunghezze molto diverse fra loro.
+{id:"s24", tipo:"albero", tema:"chiaro", sopratitolo:"La rete dei servizi",
+  radice:"**DSM** — coordina tutti i servizi dell'azienda", rami:[
+  {cond:"territorio",  esito:"**CSM**<br>accoglienza, presa in carico, cura, domiciliarità", key:true},
+  {cond:"fase acuta",  esito:"**SPDC**<br>ricovero ospedaliero"},
+  {cond:"di giorno",   esito:"**Centro diurno**<br>attività riabilitative e risocializzanti"},
+  {cond:"residenza",   esito:"**Strutture residenziali**<br>comunità terapeutiche, gruppi appartamento"}]},
 
-{id:"s13", tipo:"assetempo", tema:"chiaro", sopratitolo:"La linea del tempo, in scala",
-  da:1970, a:2024, decenni:[1980,1990,2000,2010,2020], tappe:TEMPO},
+// I servizi sono graduali: la scala li mette in ordine di intensita'
+// assistenziale, che e' il modo in cui la persona si muove fra i livelli.
+{id:"s25", tipo:"scala", tema:"chiaro", sopratitolo:"Graduali, non alternativi — per intensità assistenziale",
+  gradini:[
+  {t:"Domicilio e territorio", d:"CSM, domiciliarità"},
+  {t:"Centro diurno", d:"riabilitazione e risocializzazione"},
+  {t:"Strutture residenziali", d:"a diversa intensità"},
+  {t:"SPDC", d:"la fase acuta", key:true}]},
+{id:"s26", tipo:"titolo", tema:"profondo",
+  titolo:"Il baricentro è il **territorio**,<br>non l'ospedale.",
+  sotto:"Lo stesso modello della rete per la non autosufficienza — lezione 13.5."},
 
-{id:"s14", tipo:"numero", tema:"tenue", cifra:"2021",
-  testo:"Legge 163: la **laurea diventa abilitante**. Dal mansionario, quarantasette anni."},
+{id:"s27", tipo:"frase", tema:"chiaro", sopratitolo:"Lo stigma",
+  testo:"Un pregiudizio sociale che attribuisce caratteristiche negative, producendo **esclusione**.",
+  sotto:"Si manifesta in tre forme."},
+{id:"s28", tipo:"tre", tema:"chiaro", attive:[0,1], sopratitolo:"Le tre forme dello stigma", box:FORME},
+{id:"s29", tipo:"tre", tema:"chiaro", attive:[0,1,2], sopratitolo:"Le tre forme dello stigma", box:FORME},
 
-{id:"s15", tipo:"tabella", tema:"chiaro", sopratitolo:"Le date gemelle: due coppie, quattro errori evitati",
-  intestazioni:["Anno","La prima","La seconda"], colonne:["16%","42%","42%"],
-  chiave:[0],
-  righe:[
-   ["**2017**","**legge 24** — responsabilità e sicurezza delle cure","**legge 219** — consenso e DAT"],
-   ["**1999**","**legge 42** — abroga il mansionario","**D.Lgs. 229** — struttura l'ECM"]]},
+{id:"s30", tipo:"titolo", tema:"profondo",
+  titolo:"La grande maggioranza<br>delle persone con disturbo psichico<br>**non è violenta**.",
+  sotto:"Il pregiudizio più diffuso è quello della pericolosità. È anche il più dannoso."},
+{id:"s31", tipo:"sostituzione", tema:"profondo",
+  da:{h:"La rappresentazione comune", t:"una persona **pericolosa**"},
+  a:{h:"Nei fatti", t:"una probabilità **più alta della media** di ***subire*** violenza"},
+  sotto:"È l'esatto contrario."},
 
-{id:"s16", tipo:"confronto", tema:"profondo", sopratitolo:"1999 · la stessa coppia, un'altra volta", col:[
-  {h:"Legge 42", t:"**MANSIONARIO**<br>abrogato", grande:true},
-  {h:"D.Lgs. 229", t:"**ECM**<br>istituito", grande:true}],
-  sotto:"Ventiquattro-responsabilità, duecentodiciannove-consenso. Quarantadue-mansionario, duecentoventinove-ECM."},
+{id:"s32", tipo:"griglia", tema:"tenue", colonne:2, spunta:false,
+  sopratitolo:"Gli effetti concreti dello stigma", celle:EFFETTI},
+{id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"E un effetto che riguarda direttamente il tuo lavoro",
+  testo:"Il **peggioramento della salute fisica**."},
 
-{id:"s17", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
+{id:"s34", tipo:"frase", tema:"chiaro", sopratitolo:"Un fenomeno documentato",
+  testo:"***Diagnostic overshadowing***",
+  sotto:"Attribuire **ogni sintomo** alla diagnosi psichiatrica."},
+{id:"s35", tipo:"tre", tema:"chiaro", sopratitolo:"Va valutata esattamente come chiunque altro", box:[
+  {t:"Riferisce dolore"}, {t:"Non mangia"}, {t:"È confusa"}]},
+{id:"s36", tipo:"titolo", tema:"profondo",
+  titolo:"Attribuire tutto alla diagnosi<br>è un **errore clinico**.",
+  sotto:"Può ritardare il riconoscimento di una condizione fisica grave."},
 
-{id:"s18", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
+{id:"s37", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false,
+  sopratitolo:"Dove lavora l'OSS", celle:AMBITI},
+{id:"s38", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Sostegno all'autonomia",
+  da:{h:"Non è", t:"fare **al posto di**"},
+  a:{h:"È", t:"**accompagnare a fare**"},
+  sotto:"Se la persona riesce a vestirsi in dieci minuti, quei dieci minuti *sono* assistenza."},
+{id:"s39", tipo:"icone", tema:"chiaro", sopratitolo:"Gli strumenti", voci:[
+  {icona:"cuoremano", t:"Presenza e relazione", d:"in quest'area è lo strumento assistenziale principale", key:true},
+  {icona:"orologio",  t:"Routine stabile", d:"il sostegno alla quotidianità"}]},
+{id:"s40", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
+  sopratitolo:"Osservare — e segnalare", celle:OSSERVARE},
+{id:"s41", tipo:"elenco", tema:"tenue", vietato:true,
+  sopratitolo:"Che cosa non compete all'OSS", voci:NON_COMPETE},
 
-{id:"s19", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8,9],
-  sopratitolo:"I dieci numeri del modulo", celle:DIECI},
+{id:"s42", tipo:"titolo", tema:"profondo",
+  titolo:"L'assistenza di base non è<br>un contorno della cura:<br>spesso **è la cura**.",
+  sotto:"È la sintesi della lezione, e vale la pena tenerla."},
+{id:"s43", tipo:"frase", tema:"profondo",
+  sopratitolo:"Riprendere a lavarsi, a mangiare con regolarità, a uscire di casa",
+  testo:"Non sono **premesse** del percorso terapeutico: ne sono **parte**.",
+  sotto:"E sono esattamente il terreno su cui lavora l'OSS."},
 
-{id:"s20", tipo:"confronto", tema:"chiaro", sopratitolo:"Confusione 1 · il verbo giusto", col:[
-  {h:"Bisogni di salute", t:"**partecipa**<br>all'identificazione"},
-  {h:"Bisogni di assistenza infermieristica", t:"**identifica**<br>e formula gli obiettivi"}]},
-{id:"s21", tipo:"titolo", tema:"profondo",
-  titolo:"Il verbo cambia con il<br>**tipo di bisogno**.",
-  sotto:"Non con il tipo di paziente. Dove il bisogno è infermieristico, la regia è tua."},
-{id:"s22", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 2 — aree o livelli",
-  intestazioni:["","Cinque aree post-base","Quattro livelli"], colonne:["22%","39%","39%"],
-  righe:[
-   ["La fonte","DM 739/1994","legge 43/2006"],
-   ["Che cosa sono","ambiti **clinici**","gradi di **carriera**"],
-   ["La domanda","**dove** lavori","**che ruolo** hai"]]},
+{id:"s44", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1],
+  sopratitolo:"Riepilogo", celle:RIEPILOGO},
+{id:"s45", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3],
+  sopratitolo:"Riepilogo", celle:RIEPILOGO},
+{id:"s46", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6],
+  sopratitolo:"Riepilogo", celle:RIEPILOGO},
+{id:"s47", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7],
+  sopratitolo:"Riepilogo", celle:RIEPILOGO},
 
-{id:"s23", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 3 — esonero o esenzione",
-  intestazioni:["","Esonero","Esenzione"], colonne:["20%","40%","40%"],
-  righe:[
-   ["Perché","**stai studiando**","**sei assente**"],
-   ["I casi","laurea, master, dottorato, specializzazione","maternità, malattia, aspettativa"],
-   ["L'effetto","il debito si riduce in proporzione ai mesi","il debito si riduce in proporzione ai mesi"]]},
-
-{id:"s24", tipo:"frase", tema:"tenue", sopratitolo:"Come non sbagliarle",
-  testo:"**Esonero quando studi, esenzione quando sei assente.**",
-  sotto:"In tutti e due i casi i crediti si riducono in proporzione ai mesi."},
-{id:"s25", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Confusione 4 · livello o incarico",
-  da:{h:"Il titolo", t:"**abilita**"}, a:{h:"L'azienda", t:"**attribuisce**"},
-  sotto:"Si può avere il master di coordinamento senza avere l'incarico di coordinatore."},
-
-{id:"s26", tipo:"barre", tema:"chiaro", sopratitolo:"Confusione 5 — il doppio binario",
-  unita:"anni", etichetta:560, barre:[
-   {et:"Struttura — contrattuale", v:10, nota:"artt. 1218 e 1228 c.c."},
-   {et:"Esercente — extracontrattuale", v:5, colore:"#B07A12", nota:"art. 2043 c.c."}]},
-
-{id:"s27", tipo:"tabella", tema:"chiaro", sopratitolo:"Confusione 6 — DAT o pianificazione",
-  intestazioni:["","DAT","Pianificazione condivisa"], colonne:["20%","40%","40%"],
-  righe:[
-   ["Quando","incapacità **futura ed eventuale**","patologia **già in atto**"],
-   ["Chi le fa","la persona, **da sola**","la persona **con il medico**"],
-   ["Chi è tenuto","il medico","il medico **e l'équipe**"]]},
-
-{id:"s28", tipo:"confronto", tema:"chiaro", sopratitolo:"Confusione 7 · i due segreti", col:[
-  {h:"art. 622 — professionale", t:"procedibile **a querela**"},
-  {h:"art. 326 — d'ufficio", t:"procedibile **d'ufficio**"}],
-  sotto:"Sette confusioni: sono queste a decidere i punti nei quiz a risposta chiusa."},
-
-{id:"s29", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 1 · prescrizione dubbia", righe:[
-  {sb:"Eseguire perché è prescritto", ok:"Chiedere chiarimento; se il dubbio permane, **non dare corso** e documentare"}]},
-{id:"s30", tipo:"frase", tema:"tenue", sopratitolo:"Il principio di affidamento",
-  testo:"Cade davanti all'**errore palese**.",
-  sotto:"Vale per ogni ruolo dell'équipe, non solo per il tuo."},
-{id:"s31", tipo:"icone", tema:"chiaro", sopratitolo:"Caso 2 — attribuzione all'OSS", voci:[
-  {icona:"persone",   t:"Competenza", d:"dell'operatore a cui attribuisci"},
-  {icona:"cuoremano", t:"Condizioni", d:"della persona assistita"},
-  {icona:"ospedale",  t:"Contesto", d:"organizzativo in cui l'attività si svolge"}]},
-
-{id:"s32", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 3 · ha firmato senza capire", righe:[
-  {sb:"Rassicurarlo, o spiegargli tu l'intervento", ok:"**Sospendere**, informare il medico, **documentare**"}]},
-{id:"s33", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 4 · contenzione per carenza di personale", righe:[
-  {sb:"Contenere: il reparto è scoperto", ok:"**Rifiutare**, cercare alternative, **segnalare** la carenza, documentare"}]},
-{id:"s34", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso 5 · la foto in chat", righe:[
-  {sb:"Inviarla ai colleghi per un parere", ok:"Documentare con gli **strumenti aziendali** e con il **consenso**"}]},
-
-{id:"s35", tipo:"citazione", tema:"profondo",
-  testo:"L'infermiere è l'operatore sanitario **responsabile dell'assistenza generale infermieristica**.",
-  fonte:"DM 739/1994, art. 1"},
-{id:"s36", tipo:"citazione", tema:"profondo",
-  testo:"L'assistenza è di natura **tecnica, relazionale, educativa**. La **sicurezza delle cure** è parte costitutiva del diritto alla salute.",
-  fonte:"DM 739/1994 · Legge 24/2017, art. 1"},
-{id:"s37", tipo:"citazione", tema:"profondo",
-  testo:"Nessun trattamento sanitario può essere iniziato o proseguito senza il **consenso libero e informato** della persona interessata.",
-  fonte:"Legge 219/2017, art. 1"},
-
-{id:"s38", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 1", voci:[
-  {icona:"ospedale", t:"Struttura delle professioni sanitarie",
-   d:"è lì che gli atti aziendali collocano la funzione infermieristica", key:true}]},
-
-{id:"s39", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 2", voci:[
-  {icona:"ingranaggio", t:"Centro regionale", d:"per la gestione del rischio sanitario"},
-  {icona:"bilancia",    t:"Difensore civico regionale", d:"Garante per il diritto alla salute — legge 24/2017"}]},
-
-{id:"s40", tipo:"icone", tema:"chiaro", sopratitolo:"Dal Veneto — 3", voci:[
-  {icona:"documento", t:"Procedure sulla contenzione", d:"prescrizione, rivalutazione, registrazione"},
-  {icona:"occhio",    t:"FSE e log di accesso", d:"l'accesso non giustificato è rilevato"}]},
-
-{id:"s41", tipo:"numero", tema:"chiaro", cifra:"12",
-  testo:"Le domande di autovalutazione nella dispensa. **Più di 3 errori → torna alle lezioni segnalate.**"},
-{id:"s42", tipo:"frase", tema:"tenue", sopratitolo:"Perché la regola è severa",
-  testo:"Il modulo 1 è la **grammatica** di tutto il resto del corso.",
-  sotto:"I moduli successivi lo danno per acquisito. Meglio due giorni in più adesso."},
-
-{id:"s43", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1],
-  sopratitolo:"Come proseguire", celle:[
-  {n:"1", t:"**Test finale del modulo**, quaranta domande: il primo controllo serio"},
-  {n:"2", t:"Riprendi **solo le lezioni** segnalate dagli errori"},
-  {n:"3", t:"Porta nel **quaderno di ripasso** le formule e i dieci numeri"},
-  {n:"4", t:"Passa al **modulo 2** — metodologia, documentazione, sicurezza"}]},
-
-{id:"s44", tipo:"griglia", tema:"chiaro", colonne:1, attive:[0,1,2,3],
-  sopratitolo:"Come proseguire", celle:[
-  {n:"1", t:"**Test finale del modulo**, quaranta domande: il primo controllo serio"},
-  {n:"2", t:"Riprendi **solo le lezioni** segnalate dagli errori"},
-  {n:"3", t:"Porta nel **quaderno di ripasso** le formule e i dieci numeri"},
-  {n:"4", t:"Passa al **modulo 2** — metodologia, documentazione, sicurezza"}]},
-
-{id:"s45", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s46", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s47", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s48", tipo:"griglia", tema:"chiaro", colonne:2, attive:[0,1,2,3,4,5,6,7,8,9,10,11],
-  sopratitolo:"Il memo finale", celle:MEMO18},
-
-{id:"s49", tipo:"titolo", tema:"profondo",
-  titolo:"Ciò che non è documentato<br>si presume **non fatto**.",
-  sotto:"È la frase con cui conviene chiudere qualunque risposta all'orale."},
-
-{id:"s50", tipo:"copertina", tema:"profondo",
-  modulo:"Fine del Modulo 1",
-  titolo:"Modulo 2", sottotitolo:"Metodologia infermieristica, documentazione<br>e sicurezza delle cure",
-  ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
+{id:"s48", tipo:"copertina", tema:"profondo",
+  modulo:"Prossima lezione",
+  titolo:"16.2", sottotitolo:"I quadri principali<br>e i segni da riconoscere",
+  ente:"CISL FP Padova Rovigo · Concorso OSS Azienda Zero"},
 ];
 ```
