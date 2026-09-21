@@ -57,18 +57,50 @@ caratteri, cioe' un credito per carattere esatto (sul corso OSS, su `eleven_v3`,
 il preventivo era ~2,2 volte il reale — qui no, e va riferito com'e').
 
 ```
-traccia 1, gia' generata      1.739 car    $0,29   fatto
-le altre 16                  54.733 car    $9,04   NON generate
-                                           ------
-                                           $9,33
+17 tracce, 56.472 caratteri, generations_count=1   $9,33   fatto
 ```
+
+Speso davvero, sommando le 17 generazioni: **$9,33**. Con `generations_count`
+lasciato al default di 4 sarebbero stati $37,3.
 
 Con `generations_count` lasciato al suo default di 4 sarebbero stati $37,3.
 
-## Perche' le altre 16 tracce non sono state generate
+## La voce, generata per intero
 
-La checklist dello script ha due caselle non spuntate, e riguardano **fatti che
-la voce pronuncia**:
+Tutte e 17 le tracce sono state generate, `generations_count=1`, nessun errore.
+L'utente ha confermato che CCNL e importi sono fermi (vedi la sezione dopo) e ha
+scelto il filtro senza `atempo`.
+
+Misurato sulle tracce vere, non piu' proiettato:
+
+```
+grezzo totale      62,05 min
+lavorato totale    59,13 min   (3.547,7 s)
++ scene mute          39 s     (copertina 3 + chiusura 10 + 13 card da 2)
+MONTATO PREVISTO   59,78 min   contro i 60 dichiarati: -13 secondi
+CPS reale          15,92 car/s (la traccia 1 da sola ne prometteva 15,68)
+```
+
+Ogni traccia sta dentro la fascia sana 8,5-21 car/s: la piu' lenta e' la 3 a
+14,90, la piu' veloce la 9 a 17,27. Nessuna vicina ai bordi.
+
+Il rapporto grezzo/lavorato medio e' 1,050, contro l'1,034 della sola traccia 1:
+per questo la proiezione diceva 60,7 min e il totale vero e' 59,78. La
+previsione fatta su una traccia sola ha sbagliato di meno di un minuto su
+un'ora, ed e' bastata a scegliere il filtro giusto.
+
+## Il conflitto sulla durata, come e' stato risolto
+
+Lo script dichiarava sia «circa 60 minuti» sia `atempo=1.12`. Con questa voce
+le due cose non stavano insieme. Portato all'utente con i numeri di entrambe le
+strade, ha scelto la durata: **`silenceremove` da solo, senza `atempo`**.
+
+Il risultato misurato gli da' ragione: 59,78 min, tredici secondi sotto l'ora.
+Con `atempo=1.12` sarebbero stati circa 53 minuti.
+
+## Quello che la checklist dello script lasciava aperto
+
+Due caselle non spuntate riguardavano **fatti che la voce pronuncia**:
 
 - lo stato del CCNL 2025-2027 (*ipotesi o definitivo*): 26 scene lo nominano,
   fra cui s022 «l'**ipotesi** di rinnovo equipara i neoassunti»;
@@ -80,15 +112,27 @@ la voce pronuncia**:
 Il controllo automatico «nessuna cifra nel parlato» passa proprio perche' sono
 scritti in lettere: la forma e' giusta, il fatto puo' non esserlo.
 
-Quelle scene toccano quasi tutte le 17 tracce, e una traccia non si corregge a
-meta': o e' quella giusta, o si rifa' tutta. Generare adesso vuol dire rischiare
-di pagare $9 due volte — l'errore che il MASTER elenca come «voce rigenerata
-perche' il copione e' cambiato dopo».
+Quelle scene toccano **tutte e 17 le tracce**: ho verificato, non ce n'era
+nemmeno una libera da CCNL o importi, quindi non esisteva un sottoinsieme
+«sicuro» da generare per primo. Una traccia non si corregge a meta'.
+
+L'utente ha confermato che i fatti sono fermi, e su quella conferma si e'
+generato. Resta scritto qui perche', se un importo o lo stato del CCNL dovesse
+cambiare, si sappia subito quali tracce vanno rifatte e quanto costano: la
+tabella qui sopra ha i caratteri di ognuna, a un credito per carattere.
 
 ## Da verificare — quello che non ho potuto giudicare io
 
-- **Nessuno ha ancora ascoltato la traccia 1.** La durata e' misurata, il timbro
-  no: non posso sentire. Sta in `audio/grezzo/traccia01.mp3` e sul flow.
+- **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
+  misurate, il timbro no: non posso sentire. Stanno in `audio/grezzo/` e sul
+  flow. Da ascoltare almeno gli attacchi e le chiuse delle 17, e i tre punti in
+  cui un capitolo e' stato spezzato in due tracce (3, 4, 6): e' li' che uno
+  stacco di timbro si sentirebbe.
+- **La verifica per trascrizione non e' stata fatta.** E' il controllo del
+  MASTER §Passo 3 che prende l'errore piu' caro, la voce che salta parole, e su
+  un'ora di parlato costa circa $3,5. Finche' non si fa, nessuno sa se la
+  sintesi ha mangiato qualcosa: su una lezione precedente erano sei parole di
+  fila.
 - Lo stato del CCNL e gli importi del fac-simile: sono i due punti aperti qui sopra.
 - La tabella dei capitoli dello script (da 01:53 a 56:23) e' calcolata su 60
   minuti. Qualunque filtro si scelga, i minutaggi vanno rifatti sulle durate

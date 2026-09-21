@@ -36,8 +36,24 @@ CARD_CAPITOLO = 2.0             # 13 card di capitolo, mute
 # arriva gia' scritto, quindi il numero serve solo a prevedere la durata, e va
 # corretto appena la prima traccia e' generata (parlato = grezzo / 1,30).
 # Lo script assume 16,2 car/s (56.269 car in 58 min di parlato).
-CPS = 17.0                      # DA RIMISURARE sulla prima traccia
+# MISURATO sulla traccia 1 di questa voce (1.739 car, 114,70 s di grezzo),
+# non ereditato: 15,16 car/s grezzi, 15,68 dopo il filtro di ritmo scelto.
+# Aggiornati sulle 17 tracce vere, non piu' sulla sola traccia 1:
+# 56.472 caratteri in 3.547,7 s di parlato lavorato.
+CPS        = 15.92
+CPS_GREZZO = 15.16
 FASCIA_CPS = (8.5, 21.0)
+
+# Il filtro di ritmo, SENZA atempo. Lo script dichiarava atempo=1.12, ma quel
+# valore veniva da un'altra voce: su «Achille nuovo 1» il rapporto
+# grezzo/lavorato e' 1,158 e non 1,30, perche' questa voce lascia pause piu'
+# corte e silenceremove toglie meno. Con 1.12 il video usciva di 54,2 min
+# contro i 60 dichiarati dallo stesso script; con il solo silenceremove esce
+# 60,7. Fra le due righe in conflitto della scheda tecnica l'utente ha scelto
+# la durata. Misure in REGISTRO.md.
+RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
+         "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
+         "aresample=44100")
 
 # --- dai servizi -------------------------------------------------------------
 
