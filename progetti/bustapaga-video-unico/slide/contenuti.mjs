@@ -293,11 +293,12 @@ export const SCENE = [
   sotto:"La riconosci così: le stesse voci fisse ripetute, con quantità 12 e riferimento all'anno. Se hai lavorato parte dell'anno, è proporzionata ai mesi."},
 // La composizione del fisso: impila dice che il totale e' fatto di strati, ed
 // e' esattamente la domanda «di che cosa e' fatto il mio stipendio».
-{id:"s055", tipo:"impila", tema:"chiaro", sopratitolo:"Di che cosa è fatta la retribuzione fissa",
-  testa:"Un esempio", unita:"euro", segmenti:[
-  {v:2056, t:"Tabellare", d:"la paga base dell'area"},
-  {v:186,  t:"Differenziali", d:"quelli che hai acquisito"},
-  {v:188,  t:"Indennità", d:"legate al profilo", chiaro:true}]},
+{id:"s055", tipo:"barre", tema:"chiaro",
+  sopratitolo:"Di che cosa è fatta la retribuzione fissa — un esempio, al mese",
+  unita:"euro", etichetta:400, barre:[
+  {et:"Tabellare", v:2056, nota:"la paga base dell'area"},
+  {et:"Differenziali", v:186, nota:"quelli che hai acquisito"},
+  {et:"Indennità", v:188, nota:"legate al profilo"}]},
 {id:"s056", tipo:"frase", tema:"chiaro", sopratitolo:"Come si passa da un differenziale all'altro",
   testo:"Con **procedure selettive periodiche**, su esperienza e valutazione.",
   sotto:"L'ipotesi di rinnovo riduce a **due anni** la permanenza minima, per favorire anche i più giovani."},
@@ -333,10 +334,11 @@ export const SCENE = [
 {id:"s064", tipo:"frase", tema:"chiaro", sopratitolo:"La parte viva della busta",
   testo:"Racconta **come hai lavorato**: turni, notti, festivi, reperibilità, ore in più.",
   sotto:"Sono anche le voci che si sbagliano più spesso, perché dipendono dalle presenze registrate."},
-{id:"s065", tipo:"impila", tema:"chiaro", sopratitolo:"Come si compone una busta tipo",
-  testa:"Lordo del mese", unita:"euro", segmenti:[
-  {v:2430, t:"Base fissa", d:"uguale ogni mese"},
-  {v:141,  t:"Strato variabile", d:"cambia con i turni", chiaro:true}]},
+{id:"s065", tipo:"barre", tema:"chiaro",
+  sopratitolo:"Come si compone una busta tipo — e per chi fa le 24 ore lo strato variabile pesa molto di più",
+  unita:"euro", etichetta:400, barre:[
+  {et:"Base fissa", v:2430, nota:"uguale ogni mese"},
+  {et:"Strato variabile", v:141, nota:"cambia con i turni"}]},
 {id:"s066", tipo:"icone", tema:"chiaro", sopratitolo:"Le principali voci accessorie", voci:[
   {icona:"orologio", t:"Turno", d:"chi copre le 24 ore — di solito a giornata"},
   {icona:"goccia",   t:"Notturna", d:"a ora, per le ore lavorate di notte"},
@@ -875,8 +877,7 @@ export const SCENE = [
 {id:"s198", tipo:"impila", tema:"chiaro", sopratitolo:"Un anno con il nostro fac-simile",
   testa:"Dal lordo al netto", unita:"euro", segmenti:[
   {v:24000, t:"Netto in tasca", d:"quello che arriva in banca"},
-  {v:7000,  t:"Tasse", d:"IRPEF e addizionali", chiaro:false},
-  {v:4000,  t:"Contributi", d:"pensione e fondo", chiaro:true}]},
+  {v:11000, t:"Tasse e contributi", d:"IRPEF, addizionali, pensione e fondo", chiaro:true}]},
 {id:"s199", tipo:"catena", tema:"chiaro", sopratitolo:"Il cerchio che si chiude ogni anno", passi:[
   {t:"Dodici buste", d:"più la tredicesima"},
   {t:"Dicembre", d:"il conguaglio"},

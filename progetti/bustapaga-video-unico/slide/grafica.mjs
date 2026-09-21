@@ -83,7 +83,7 @@ const num = n => String(Math.round(n * 100) / 100);
 // leggono, non per le coordinate dell'SVG, che restano in notazione di
 // macchina: per quelle c'e' num() qui sopra.
 const cifra = v => typeof v === 'number'
-  ? v.toLocaleString('it-IT', { maximumFractionDigits: 2 }) : v;
+  ? v.toLocaleString('it-IT', { maximumFractionDigits: 2, useGrouping: 'always' }) : v;
 // Dentro <text> di un SVG il markup non vale: <b> non e' un elemento SVG e
 // finisce renderizzato come un pezzo di testo a se', fuori posto. Nei testi
 // SVG gli asterischi si tolgono; dove serve il grassetto si usa foreignObject.
@@ -368,6 +368,13 @@ export const CORPI_GRAFICA = {
   // e non diceva niente: una figura che esce sempre uguale non e' un grafico.
   impila: d => {
     const H = 132, Y = 52, tot = d.segmenti.reduce((s, x) => s + x.v, 0);
+    // Un segmento stretto all'estremita' mandava la sua etichetta FUORI dalla
+    // slide: il testo e' centrato sul segmento, e meta' di esso finiva oltre il
+    // bordo. Il centro si trattiene dentro un margine. Resta comunque vero che
+    // impila vuole segmenti confrontabili: sotto il 10% le etichette dei vicini
+    // si toccano, e li' la figura giusta e' `barre`, non questa.
+    const MARG = 90;
+    const centro = (xi, w) => Math.max(MARG, Math.min(xi + w / 2, LARG - MARG));
     let x = 0;
     return `<svg class="fig gfx" viewBox="0 0 ${LARG} ${Y + H + 168}">
       ${d.segmenti.map((s, i) => {
@@ -385,12 +392,12 @@ export const CORPI_GRAFICA = {
                    ${i === 0 ? `a12 12 0 0 1 -12 -12` : ''}
                    V${Y + (i === 0 ? 12 : 0)}
                    ${i === 0 ? `a12 12 0 0 1 12 -12` : ''} Z" fill="${col}"/>
-          <text x="${num(xi + w / 2)}" y="${Y + H / 2 + 4}" text-anchor="middle"
+          <text x="${num(centro(xi, w))}" y="${Y + H / 2 + 4}" text-anchor="middle"
             dominant-baseline="middle" class="val"
             fill="${s.chiaro ? 'var(--tit)' : '#FFFFFF'}">${cifra(s.v)}${unita(s.v, d.unita, d.unita1)}</text>
-          <text x="${num(xi + w / 2)}" y="${Y + H + 50}" text-anchor="middle"
+          <text x="${num(centro(xi, w))}" y="${Y + H + 50}" text-anchor="middle"
             class="et">${piano(s.t)}</text>
-          ${s.d ? `<text x="${num(xi + w / 2)}" y="${Y + H + 86}" text-anchor="middle"
+          ${s.d ? `<text x="${num(centro(xi, w))}" y="${Y + H + 86}" text-anchor="middle"
              class="sub">${piano(s.d)}</text>` : ''}
         </g>`;
       }).join('')}
