@@ -177,6 +177,58 @@ raggiungibile. Ho verificato sul flow che fosse davvero partita (per non
 lanciarne una seconda alla cieca) e poi l'ho rilanciata di proposito, scegliendo
 di pagare $0,19 invece di lasciare 2.650 caratteri senza verifica.
 
+## Le slide: 218 scene, senza avatar
+
+Scelta dell'utente: niente avatar. Ogni scena diventa una slide, che e'
+esattamente il prodotto descritto dal MASTER — «micro-lezioni da slide e voce,
+senza avatar». Stesso committente del corso OSS, quindi palette, caratteri e
+vocabolario grafico si applicano senza riaprirli.
+
+Le 15 scene mute (copertina, 13 card di capitolo, chiusura) sono di tipo
+`copertina`: e' cosi' che `clips.mjs` le esclude dall'animazione da solo, e
+restano esattamente 203 clip, una per mp3. Verificato che i 218 id e il loro
+ordine coincidano con `blocchi.json`, e che le 15 mute dello script siano
+esattamente le 15 `copertina`.
+
+### L'equilibrio delle figure, misurato e corretto
+
+Alla prima stesura il conto diceva che andava male: **109 scene su 203 erano
+dello stesso identico tipo** (`frase`), il 66% del video era sola parola, e
+c'erano 13 sequenze di tre o piu' scene consecutive uguali — una da sette e una
+da otto. Il MASTER lo dice senza mezzi termini: «un corso fatto di sole parole
+in pagina non e' un video: e' una dispensa letta ad alta voce». E lo script
+dell'utente ha la stessa regola: mai due scene consecutive dello stesso tipo.
+
+Riviste 18 scene dando a ciascuna il tipo che il suo contenuto chiedeva gia':
+un confronto dove ci sono due casi, una citazione dove il parlato e' una
+domanda fra virgolette, barre dove ci sono due percentuali, `tre` dove ci sono
+tre quantita' contate.
+
+```
+                        prima    dopo
+sequenze di 3+ uguali      13       0
+figura o struttura        35%      43%      (il MASTER dice «due su cinque»)
+scene di tipo frase       109      91
+```
+
+### Difetti trovati GUARDANDO, non dal controllo automatico
+
+Il controllo di traboccamento ha sempre detto «nessuna slide sfora». Nei
+provini sono usciti lo stesso:
+
+- gli apostrofi al posto degli accenti sulle slide (41 occorrenze): la
+  convenzione del parlato applicata per riflesso dove non vale;
+- il numero di pagina che stampava `?` su tutte e 218 le slide;
+- i valori dei grafici all'inglese: «7.1%» invece di «7,1%»;
+- due note a destra delle barre che uscivano dalla slide;
+- una scala a cinque gradini che stringeva le etichette fino a renderle
+  illeggibili, e una griglia che lasciava mezza slide vuota.
+
+**Il controllo di traboccamento ha un buco dichiarato:** misura il rettangolo
+del corpo contro la cornice, e il testo di un SVG disegnato oltre il viewBox
+esce senza ingrandire quel rettangolo. Le etichette dei grafici che escono dal
+bordo NON le vede. E' il motivo per cui il MASTER dice di guardare i provini.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -195,5 +247,12 @@ di pagare $0,19 invece di lasciare 2.650 caratteri senza verifica.
 - La tabella dei capitoli dello script (da 01:53 a 56:23) e' calcolata su 60
   minuti. Qualunque filtro si scelga, i minutaggi vanno rifatti sulle durate
   reali dei blocchi, non su quella tabella.
-- Gli asset non esistono ancora: 126 PNG di slide, 12 animazioni, 16 clip
-  b-roll, piu' l'avatar, che lo script stesso segna «da confermare».
+- **Le 218 slide sono renderizzate ma col MARCHIO SEGNAPOSTO**, un rettangolo
+  grigio. Finche' non arriva `slide/marchio/logo-rifilato.png` vero, i PNG non
+  sono consegnabili — e il MASTER avverte che il controllo di traboccamento va
+  rifatto col logo e i caratteri veri, perche' le misure cambiano.
+- **Nessuno ha ancora guardato tutte e 218 le slide.** Io ne ho viste circa
+  quaranta nei provini, scelte dove il rischio era piu' alto (i grafici, le
+  tabelle, i temi). Le altre le ha viste solo il controllo automatico, che come
+  si e' visto ha un buco.
+- Le clip animate (`node slide/clips.mjs`) non sono ancora state generate.
