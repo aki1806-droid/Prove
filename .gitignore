@@ -65,3 +65,7 @@ progetti/bustapaga-video-unico/audio/tracce-misurate.json
 progetti/bustapaga-video-unico/audio/blocchi/
 progetti/bustapaga-video-unico/audio/prova.mp3
 progetti/bustapaga-video-unico/audio/_prova/
+progetti/bustapaga-video-unico/audio/trascrizioni/*.txt
+progetti/bustapaga-video-unico/audio/esiti-testo.json
+progetti/bustapaga-video-unico/audio/proposte-confini.json
+progetti/bustapaga-video-unico/audio/confini.json

@@ -121,6 +121,62 @@ generato. Resta scritto qui perche', se un importo o lo stato del CCNL dovesse
 cambiare, si sappia subito quali tracce vanno rifatte e quanto costano: la
 tabella qui sopra ha i caratteri di ognuna, a un credito per carattere.
 
+## La verifica per trascrizione: 17 tracce su 17, nessun buco
+
+E' il controllo che prende l'errore piu' caro, la voce che salta parole, e che
+il conteggio dei caratteri NON puo' fare: un blocco che perde sei parole resta
+dentro la fascia (280 caratteri in 17,5 s fanno 16 car/s; togline 40 e sono
+18,7, ancora in fascia). La fascia dice come va il ritmo, non che cosa e' stato
+detto.
+
+Fatta come dice il MASTER: `creative_attach_reference_file` sull'URL firmato
+della traccia, poi `creative_transcribe_audio` sull'ASSET. Collegarla al nodo
+che ha generato la voce avrebbe restituito il copione identico, e la verifica
+avrebbe detto 100% per costruzione senza aver ascoltato niente. La controprova
+sul testo tornato lo conferma: accenti veri, nessun tag fra parentesi quadre,
+numeri riscritti come si pronunciano.
+
+```
+17 tracce su 17 verificate · buchi da 3+ parole: ZERO
+coincidenza per traccia: da 97,5% a 100%
+```
+
+Gli scarti che restano sono tutti di sola resa, e sono dichiarati uno per uno in
+`verifica-testo.py`: separatore delle migliaia (28.000 contro ventottomila),
+simbolo dell'euro che si mangia la parola, importi in centesimi, sigle puntate,
+forme tronche (ventun, trent), composti con o senza trattino.
+
+Due segnali dubbi NON archiviati ma decisi, col primo criterio del MASTER — la
+stessa parola altrove nella stessa sessione:
+
+- traccia 14, «cisl» reso «csl»; traccia 1, reso «Cisel». In sei altre tracce lo
+  stesso trascrittore scrive «CISL» correttamente, quindi la voce sa dirlo: e'
+  una sbavatura del trascrittore, non della voce.
+
+E un errore mio, lasciato qui perche' e' istruttivo: la prima regola sul
+separatore delle migliaia accettava anche lo spazio normale, e ha unito «dal
+2027. 130,20 euro» in un solo numero, INVENTANDO un buco che non c'era. Una
+tolleranza troppo larga non e' una resa dichiarata: e' esattamente cio' che il
+MASTER dice di non fare. Ristretta al solo punto, il buco e' sparito.
+
+## Costo misurato
+
+```
+voce, 17 tracce, 56.472 caratteri, generations_count=1     $9,33
+trascrizione, 17 tracce (+1 ripetuta, vedi sotto)          $3,38
+                                                           ------
+                                                           $12,71
+```
+
+Con `generations_count` al suo default di 4 la sola voce sarebbe costata $37,3.
+
+**$0,19 spesi per niente, dichiarati.** La trascrizione della traccia 16 e'
+partita ma la chiamata e' andata in timeout senza restituire il session_id, e
+senza quello il testo non e' recuperabile: il lavoro era fatto e pagato ma non
+raggiungibile. Ho verificato sul flow che fosse davvero partita (per non
+lanciarne una seconda alla cieca) e poi l'ho rilanciata di proposito, scegliendo
+di pagare $0,19 invece di lasciare 2.650 caratteri senza verifica.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -128,11 +184,13 @@ tabella qui sopra ha i caratteri di ognuna, a un credito per carattere.
   flow. Da ascoltare almeno gli attacchi e le chiuse delle 17, e i tre punti in
   cui un capitolo e' stato spezzato in due tracce (3, 4, 6): e' li' che uno
   stacco di timbro si sentirebbe.
-- **La verifica per trascrizione non e' stata fatta.** E' il controllo del
-  MASTER §Passo 3 che prende l'errore piu' caro, la voce che salta parole, e su
-  un'ora di parlato costa circa $3,5. Finche' non si fa, nessuno sa se la
-  sintesi ha mangiato qualcosa: su una lezione precedente erano sei parole di
-  fila.
+- **La verifica sui CONFINI non e' stata fatta con la trascrizione.**
+  `prova.mp3` (186 spezzoni da 1,6 s prima di ogni taglio) e' pronto ma non
+  trascritto. La verifica fatta e' quella sulla traccia intera, che dimostra che
+  la voce ha detto tutto ma NON dove cadono i tagli, perche' la trascrizione non
+  porta i tempi. Per i confini restano l'allineamento DTW, il controllo
+  statistico e il conto sull'audio grezzo - che hanno gia' trovato e corretto
+  cinque confini.
 - Lo stato del CCNL e gli importi del fac-simile: sono i due punti aperti qui sopra.
 - La tabella dei capitoli dello script (da 01:53 a 56:23) e' calcolata su 60
   minuti. Qualunque filtro si scelga, i minutaggi vanno rifatti sulle durate
