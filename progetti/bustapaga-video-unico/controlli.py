@@ -95,7 +95,26 @@ srt = QUI/f"montato-{NOME}.srt"
 n = len(re.findall(r"-->", srt.read_text(encoding="utf-8"))) if srt.exists() else 0
 esiti.append((n == len(parlanti), f"sottotitoli SRT: {n} righe su {len(parlanti)} blocchi"))
 
-# 9 · il registro, con la sezione che dice cosa non e' stato giudicato
+# 9 · i confini verificati per trascrizione, sui confini ATTUALI
+cf, cc = QUI/"audio"/"esiti-confini.json", QUI/"audio"/"confini.json"
+if not cf.exists():
+    esiti.append((False, "confini verificati per trascrizione: NON ESEGUITA"))
+elif cf.stat().st_mtime < cc.stat().st_mtime:
+    esiti.append((False, "confini: la verifica e' PIU' VECCHIA dei confini — da rifare"))
+else:
+    e = json.loads(cf.read_text(encoding="utf-8"))
+    interi  = sum(1 for x in e if x["esito"] == "intero")
+    meta    = sum(1 for x in e if x["esito"] == "parziale")
+    dubbi   = [x["blocco"] for x in e if x["esito"] == "NON TROVATA"]
+    # I dubbi non fanno fallire: sono dichiarati uno per uno nel registro, con
+    # la diagnosi. Farli fallire senza poterli risolvere renderebbe il
+    # controllo una formalita' da aggirare. Qui conta che la verifica sia stata
+    # fatta sui confini di ADESSO, non su quelli di prima delle correzioni.
+    esiti.append((interi + meta >= len(e) * 0.9,
+                  f"confini per trascrizione: {interi} chiuse ritrovate intere, "
+                  f"{meta} a meta', {len(dubbi)} da guardare su {len(e)}"))
+
+# 10 · il registro, con la sezione che dice cosa non e' stato giudicato
 rf = QUI/"REGISTRO.md"
 esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),
               "registro con la sezione «da verificare»"))

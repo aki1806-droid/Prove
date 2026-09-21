@@ -164,9 +164,10 @@ MASTER dice di non fare. Ristretta al solo punto, il buco e' sparito.
 
 ```
 voce, 17 tracce, 56.472 caratteri, generations_count=1     $9,33
-trascrizione, 17 tracce (+1 ripetuta, vedi sotto)          $3,38
+trascrizione del testo, 17 tracce (+1 ripetuta, vedi sotto) $3,38
+verifica dei confini, due provini da 12,7 min              $1,38
                                                            ------
-                                                           $12,71
+                                                           $14,09
 ```
 
 Con `generations_count` al suo default di 4 la sola voce sarebbe costata $37,3.
@@ -397,6 +398,141 @@ Due guardie, perche' una selezione silenziosa mente:
   le altre sui file, non su quello che ha appena rifatto: cosi' una scena
   rimasta indietro si vede nel riepilogo invece di nascondersi.
 
+## La verifica dei CONFINI, quella che mancava
+
+Era l'unico controllo del MASTER rimasto fuori, ed e' quello che le altre
+strade non possono fare. `verifica-testo.py` dimostra che la voce ha detto
+tutto, ma non DOVE cadono i tagli: la trascrizione di una traccia intera non
+porta i tempi. `prova.mp3` risolve la cosa da un'altra parte — 1,6 s presi
+PRIMA di ogni taglio, separati da silenzio: se un taglio e' al posto giusto,
+quello spezzone sono le ultime parole del blocco che finisce li'.
+
+### Due metodi buttati, che valgono piu' del risultato
+
+**Dividere la trascrizione in 186 frasi e confrontarle una a una.** Il
+trascrittore ne aveva unite due: da quel punto ogni confronto sarebbe stato
+sfasato di uno, e avrebbe dichiarato sbagliati 130 confini giusti.
+
+**Cercare in avanti la chiusa di ogni blocco, avanzando via via.** Basta che
+una chiusa finisca su una parola comune e l'avanzamento salta a un'occorrenza
+piu' in la': da li' non ritrova piu' niente. Dava 25 «mancanti» in sequenze di
+sette — e nella trascrizione quelle parole c'erano tutte, in ordine. Il difetto
+era il metodo, non i tagli.
+
+Si allinea per intero, con una programmazione dinamica fra le 186 chiuse attese
+e i frammenti, ammettendo che un frammento ne copra due. E' lo stesso principio
+del DTW che sceglie i confini: decidere sull'insieme, non sul singolo passo.
+
+E una misura sbagliata all'inizio: cercavo le ultime QUATTRO parole di ogni
+blocco. In 1,6 s di audio grezzo, a 15,16 car/s e con dentro la pausa, ci stanno
+una ventina di caratteri — DUE parole. Chiederne quattro voleva dire pretendere
+parole che nello spezzone non erano mai entrate.
+
+### Che cosa ha trovato
+
+```
+                       prima delle correzioni   dopo
+chiusa ritrovata intera        153                159
+ritrovata a meta'               14                 13
+da guardare                     19                 14
+```
+
+Diciannove confini sospetti, che **nessun altro controllo aveva visto**: non il
+DTW che li aveva scelti, non la fascia dei car/s (erano tutti dentro), non il
+controllo statistico. Undici erano diagnosticabili: nello spezzone prima del
+taglio si sentivano le prime parole del blocco che doveva COMINCIARE li'. Il
+taglio era in ritardo, e il blocco precedente si era mangiato l'attacco del
+successivo — sullo schermo la slide cambia dopo che la voce e' gia' passata
+oltre.
+
+Di quanto: lo dice il testo. Se prima del taglio sono gia' stati pronunciati K
+caratteri del blocco successivo, il taglio e' avanti di K/cps secondi, col cps
+GREZZO della sua traccia (le diciassette vanno da 13,9 a 16,0 car/s: una media
+avrebbe sbagliato in proporzione).
+
+### Sei applicate su undici, e perche' non tutte
+
+Applicate tutte e undici, due blocchi finivano **fuori fascia**: s064 a 22,0
+car/s e s164 a 28,4. Questa voce non ha mai superato 18,5. L'aritmetica
+smentisce la lettura della trascrizione, e vince l'aritmetica.
+
+Il criterio per le altre e' quello del MASTER sui voti fra soglie: **si decide
+sull'esito.** La somma della coppia e' fissa, quindi un confine giusto lascia i
+due blocchi con velocita' simili; una correzione che allontana i due car/s ha
+spostato il taglio dalla parte sbagliata.
+
+```
+confine   |Δ car/s| prima   dopo    esito
+s015            1,4          0,4    tenuta
+s033            0,3          0,3    tenuta
+s034            0,9          1,0    tenuta
+s035            3,6          5,2    rifiutata — meno bilanciata
+s057            1,5          2,1    rifiutata — meno bilanciata
+s064            1,4          9,4    RIFIUTATA — fuori fascia
+s083            5,8          1,6    tenuta
+s112            2,4          0,2    tenuta
+s140            4,5          0,9    tenuta
+s164            0,4         13,9    RIFIUTATA — fuori fascia
+s215            1,5          3,9    rifiutata — meno bilanciata
+```
+
+### La seconda trascrizione, che e' il punto
+
+Applicare una correzione non e' verificarla. Ho rifatto `prova.mp3` sui confini
+NUOVI (`tagli.py prova`, che ritaglia senza rifare il DTW — rilanciare
+`allinea` avrebbe ricalcolato tutto e buttato via le correzioni) e l'ho
+trascritto di nuovo.
+
+Cinque delle sei correzioni sono confermate: dove si sentiva «Guarda l'esempio»
+adesso si sente «Te lo dice», dove si sentiva «Ultima cosa sui codici» adesso
+«Del mese corrente» — le chiuse attese.
+
+E il risultato che da' senso al rifiuto: **s064 e s164, le due che l'aritmetica
+aveva scartato, adesso si verificano da sole.** Nel secondo provino la chiusa
+attesa c'e'. Erano giuste com'erano: la prima lettura era un artefatto
+dell'allineamento. Averle «corrette» avrebbe rotto due confini sani.
+
+Restano quattordici confini non ritrovati. Quattro sono ritardi veri e
+dichiarati (s035, s057, s058, s215); gli altri sono resa del trascrittore —
+numeri in cifre dove il copione ha le parole («22,99» contro «ventidue euro e
+novantanove»), frammenti fusi, parole storpiate.
+
+### Costo, e un preventivo da non credere
+
+```
+prima trascrizione dei confini    $0,69
+seconda, dopo le correzioni       $0,69
+                                  -----
+                                  $1,38
+```
+
+**Il preventivo diceva $0,047.** Il reale e' stato $0,69: quindici volte tanto.
+Il registro qui sopra dice che il preventivo di questo servizio e' affidabile —
+e' vero per la sintesi (un credito per carattere esatto), **falso per la
+trascrizione**. `estimate_only` su questo modello non va creduto.
+
+## L'indice dei capitoli, sui tempi veri
+
+La tabella dello script (da 01:53 a 56:23) era calcolata su 60 minuti ipotetici,
+prima che la voce esistesse. Sui tempi veri sbaglia fino a **29 secondi**: chi
+la usasse come segnacapitoli manderebbe lo spettatore mezzo minuto fuori posto.
+
+`indice-capitoli.py` la rifa' camminando la sequenza reale, e scrive
+`indice-capitoli.txt` pronto da incollare. Il nome di ogni capitolo e' quello
+scritto sulla SUA card, non quello della tabella: e' la parola che lo
+spettatore vede quando il capitolo comincia.
+
+```
+00:00 Copertina          27:45  6. Le tasse in busta paga
+01:53  1. Com'e' fatta   33:11  7. Trattenute e totali
+06:51  2. Le colonne     37:13  8. I mesi speciali
+12:01  3. Stipendio fisso 41:52  9. Dieci controlli
+17:55  4. Salario access. 45:28 10. Assenze e busta paga
+23:13  5. Contributi      49:35 11. Leggiamo un cedolino
+                          53:12 12. Lo stipendio in un anno
+                          56:05 13. Le domande dello sportello
+```
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -404,17 +540,13 @@ Due guardie, perche' una selezione silenziosa mente:
   flow. Da ascoltare almeno gli attacchi e le chiuse delle 17, e i tre punti in
   cui un capitolo e' stato spezzato in due tracce (3, 4, 6): e' li' che uno
   stacco di timbro si sentirebbe.
-- **La verifica sui CONFINI non e' stata fatta con la trascrizione.**
-  `prova.mp3` (186 spezzoni da 1,6 s prima di ogni taglio) e' pronto ma non
-  trascritto. La verifica fatta e' quella sulla traccia intera, che dimostra che
-  la voce ha detto tutto ma NON dove cadono i tagli, perche' la trascrizione non
-  porta i tempi. Per i confini restano l'allineamento DTW, il controllo
-  statistico e il conto sull'audio grezzo - che hanno gia' trovato e corretto
-  cinque confini.
+- **Quattordici confini su 186 non si ritrovano nella trascrizione** (vedi la
+  sezione sopra). Quattro sono ritardi veri e misurati — s035, s057, s058,
+  s215 — che non ho corretto perche' la correzione calcolata peggiorava
+  l'equilibrio della coppia: il taglio giusto sta fra i due, e trovarlo vuole
+  un ascolto, non un altro conto. Gli altri dieci sono quasi certamente resa
+  del trascrittore, ma nessuno li ha ascoltati.
 - Lo stato del CCNL e gli importi del fac-simile: sono i due punti aperti qui sopra.
-- La tabella dei capitoli dello script (da 01:53 a 56:23) e' calcolata su 60
-  minuti. Qualunque filtro si scelga, i minutaggi vanno rifatti sulle durate
-  reali dei blocchi, non su quella tabella.
 - **Le 218 slide sono renderizzate ma col MARCHIO SEGNAPOSTO**, un rettangolo
   grigio. Finche' non arriva `slide/marchio/logo-rifilato.png` vero, i PNG non
   sono consegnabili — e il MASTER avverte che il controllo di traboccamento va

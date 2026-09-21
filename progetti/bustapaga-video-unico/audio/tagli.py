@@ -231,5 +231,21 @@ def cmd_applica():
     print(f"fuori fascia: {len(fuori)}   sotto i 3,5 s: {len(corti)}")
     for r in fuori: print(f"   {r['id']}  {r['cps']} car/s  {r['durata']} s")
 
+def cmd_prova():
+    """Rifa' prova.mp3 dai confini ATTUALI, senza rifare l'allineamento.
+
+    Serve dopo correggi.py: per verificare che una correzione abbia davvero
+    spostato il taglio dove doveva, il provino va ritagliato sui confini nuovi.
+    Rilanciare `allinea` lo farebbe, ma ricalcolerebbe il DTW da capo e
+    butterebbe via le correzioni — che e' esattamente cio' che non si vuole.
+    """
+    stato = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
+    tutti = []
+    for k in sorted(stato, key=int):
+        st = stato[k]
+        bordi = [0.0] + st["confini"]
+        tutti += [(int(k), idb, bordi[i]) for i, idb in enumerate(st["ids"])]
+    fai_prova(tutti)
+
 if __name__ == "__main__":
-    {"allinea": cmd_allinea, "applica": cmd_applica}[sys.argv[1]]()
+    {"allinea": cmd_allinea, "applica": cmd_applica, "prova": cmd_prova}[sys.argv[1]]()
