@@ -12,7 +12,45 @@ node_modules/
 dist/
 build/
 .cache/
+__pycache__/
+*.pyc
 
 # Ambiente
 .env
 .env.local
+
+# --- prodotti di una lavorazione (MASTER §3) -------------------------------
+# Tutto quello che qui sotto si rigenera dagli strumenti e dai due file scritti
+# a mano (copione/costruisci.py e slide/contenuti.mjs). L'unica cosa che NON si
+# rigenera e' la voce: grezzo-A.mp3 e grezzo-B.mp3 costano soldi veri, e se
+# servono vanno tenuti fuori dal repository — un mp3 non sta in git.
+
+# il copione compilato
+progetti/*/copione/blocchi.json
+
+# la voce e i suoi ritagli
+progetti/*/audio/grezzo-*.mp3
+progetti/*/audio/pulito-*.mp3
+progetti/*/audio/prova.mp3
+progetti/*/audio/prova.json
+progetti/*/audio/_prova/
+progetti/*/audio/blocchi/
+progetti/*/audio/confini-*.json
+progetti/*/audio/blocchi-audio.json
+progetti/*/audio/esiti-*.json
+progetti/*/audio/trascrizioni/*.txt
+
+# le slide e le clip
+progetti/*/slide/png/
+progetti/*/slide/mp4/
+progetti/*/slide/fotogrammi/
+progetti/*/slide/troppo-alte.json
+
+# il montaggio
+progetti/*/scene/
+progetti/*/_montaggio/
+progetti/*/montato-*.mp4
+progetti/*/montato-*.srt
+
+# il marchio del committente: non e' un file del metodo
+progetti/*/slide/marchio/logo-rifilato.png
