@@ -14,6 +14,12 @@ const CAPITOLO = Object.fromEntries(JSON.parse(
   .map(x => [x.id, x.capitolo]));
 const etichetta = id => CAPITOLO[id] ? `cap ${CAPITOLO[id]}` : '';
 
+// Opzionale: SOLO=s192,s202 rifa' soltanto quelle scene. Serve quando si
+// corregge una slide su duecento e rifare tutto costerebbe mezz'ora. Senza
+// SOLO si rifa' tutto, che resta il comportamento giusto per difetto: una
+// selezione sbagliata lascia artefatti vecchi in mezzo ai nuovi.
+const SOLO = process.env.SOLO ? new Set(process.env.SOLO.split(',').map(x => x.trim())) : null;
+
 const OUT = new URL('./png/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
@@ -22,6 +28,7 @@ const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScale
 
 const troppoAlte = [];
 for (const [i, s] of SCENE.entries()) {
+  if (SOLO && !SOLO.has(s.id)) continue;
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: etichetta(s.id) }),
                      { waitUntil: 'load' });
   await p.evaluate(() => document.fonts.ready);
@@ -56,4 +63,11 @@ if (troppoAlte.length) {
   console.log('SFORANO LA CORNICE:');
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
 } else console.log('nessuna slide sfora la cornice');
-writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));
+// L'esito del traboccamento si scrive SOLO quando si e' renderizzato tutto.
+// Con SOLO addosso riguarda tre slide su 218, e scriverlo farebbe passare il
+// controllo 4 su un campione spacciandolo per l'intero mazzo.
+if (SOLO) {
+  console.log('SOLO: troppo-alte.json non riscritto (varrebbe solo per le scene renderizzate)');
+} else {
+  writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));
+}

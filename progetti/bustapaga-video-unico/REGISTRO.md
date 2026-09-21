@@ -327,6 +327,76 @@ Resta comunque una decisione dell'utente, non mia, e per questo il controllo 7
 e' lasciato **rosso**: se servono i 60:00 pieni la strada onesta e' aggiungere
 contenuto, non silenzio.
 
+## Guardate tutte e 218, e che cosa e' saltato fuori
+
+Trentasette provini da sei slide, tutte e 218. Il controllo automatico aveva
+detto «nessuna slide sfora» anche stavolta. Guardandole sono usciti quattro
+difetti che nessun controllo poteva vedere, perche' nessuno di loro e' una
+misura: sono cose che si sanno solo leggendo quello che c'e' scritto.
+
+**1 e 2 · Due slide promettevano dei dati che non portavano.** s160 e s217
+dicono, con la stessa identica frase, «trovi i nostri recapiti e gli orari di
+sportello **qui a schermo**». A schermo non c'era niente: solo il titolo
+«Recapiti e orari di sportello» e un sottotitolo che rimandava altrove. La voce
+indica la slide, la slide non risponde.
+
+Ora sono due griglie a quattro voci — sportello, telefono, orari, online — con
+i valori scritti **«— DA FORNIRE —»**: segnaposto dichiarati, come il
+rettangolo grigio del marchio, cosi' e' impossibile consegnarle per sbaglio.
+I dati stanno in un unico `RECAPITI` usato da entrambe: quando arrivano quelli
+veri si cambia un punto solo, e le due slide non possono divergere.
+
+**3 · L'icona sbagliata.** Per la sede avevo scelto `ospedale`, che ha la croce:
+e' l'ospedale, non lo sportello sindacale. L'insieme non ha un segnaposto di
+luogo, quindi le quattro icone sono scelte per quello che dicono davvero
+(persone, chat, orologio, documento) invece di forzarne una a dire altro.
+
+**4 · Il mio conto sulla monotonia era letto a mio favore.** Avevo scritto
+«sequenze di 3+ uguali: 0». Vero, ma contando le quindici scene mute come
+stacco. Sulle sole 203 scene animate le sequenze da tre erano **due**, e le
+coppie consecutive dello stesso tipo **trenta**. La regola dello script
+dell'utente («mai due scene consecutive dello stesso tipo») non era rispettata
+come avevo lasciato intendere.
+
+Le due sequenze da tre sono state sciolte prendendo il tipo che il contenuto
+chiedeva gia': s192 dice «**due** segnalazioni, non una» ed era un muro di
+parole, ora e' un elenco di due; s202 dice «sono i **tre** documenti» ed e'
+diventata una figura `tre`. Nessuna delle due e' decorazione: nominavano un
+numero che la slide non mostrava.
+
+```
+                                 prima    dopo
+sequenze di 3+ (203 animate)         2       0
+coppie consecutive uguali           30      26
+con figura o struttura             46%     48%   (il MASTER dice «due su cinque»)
+```
+
+**Le ventisei coppie restano, e non si azzerano decorando.** Con 88 scene di
+sola frase su 203 l'ordine e' quello del racconto dell'utente, non mio: per
+arrivare a zero bisognerebbe o riordinare il suo copione o mettere una figura
+dove il contenuto non ne chiede. Il MASTER e' esplicito sul secondo rischio, e
+il primo non e' una mia decisione.
+
+Verificato anche quello che si poteva misurare, e che era a posto: nessuna voce
+piu' lunga del limite prudenziale del suo tipo, nessuna figura piu' piena della
+sua capienza, e tutte e quattordici le slide col tema `tenue` su contenuti di
+errore o di avvertimento — mai per decorazione. I grafici sul tema profondo
+sono zero, ma quello lo impedisce gia' `layout.mjs` con un'eccezione.
+
+### Un selettore per non rifare duecento cose per tre
+
+`cards.mjs`, `clips.mjs` e `monta-scene.py` accettano ora `SOLO=s160,s217`.
+Senza, rifanno tutto, che resta il comportamento giusto per difetto.
+
+Due guardie, perche' una selezione silenziosa mente:
+
+- `cards.mjs` con `SOLO` **non riscrive** `troppo-alte.json`. Scriverlo
+  significherebbe far passare il controllo 4 su tre slide spacciandole per le
+  218 — la prima volta che ho usato il selettore e' successo esattamente questo;
+- `monta-scene.py` con `SOLO` ricostruisce le scene scelte ma **misura tutte**
+  le altre sui file, non su quello che ha appena rifatto: cosi' una scena
+  rimasta indietro si vede nel riepilogo invece di nascondersi.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -349,10 +419,13 @@ contenuto, non silenzio.
   grigio. Finche' non arriva `slide/marchio/logo-rifilato.png` vero, i PNG non
   sono consegnabili — e il MASTER avverte che il controllo di traboccamento va
   rifatto col logo e i caratteri veri, perche' le misure cambiano.
-- **Nessuno ha ancora guardato tutte e 218 le slide.** Io ne ho viste circa
-  quaranta nei provini, scelte dove il rischio era piu' alto (i grafici, le
-  tabelle, i temi). Le altre le ha viste solo il controllo automatico, che come
-  si e' visto ha un buco.
+- **I recapiti di s160 e s217 sono segnaposto** «— DA FORNIRE —». Sono due
+  slide che la voce indica dicendo «qui a schermo»: finche' non arrivano i dati
+  veri quelle due scene non sono consegnabili, esattamente come il marchio.
+  Si cambia solo `RECAPITI` in `slide/contenuti.mjs`.
+- **Ventisei coppie di scene consecutive dello stesso tipo** restano, contro la
+  regola dello script («mai due consecutive»). Vedi la sezione qui sopra per
+  perche' non si azzerano senza riordinare il copione o decorare.
 - **Nessuno ha guardato il montato.** E' stato costruito e misurato, non visto:
   un'ora di video non si giudica dai numeri. Da guardare almeno gli attacchi dei
   tredici capitoli, dove la card muta incontra la prima scena parlata, e la

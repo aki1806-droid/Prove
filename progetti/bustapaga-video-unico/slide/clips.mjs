@@ -17,6 +17,12 @@ const CAPITOLO = Object.fromEntries(JSON.parse(
   .map(x => [x.id, x.capitolo]));
 const etichetta = id => CAPITOLO[id] ? `cap ${CAPITOLO[id]}` : '';
 
+// Opzionale: SOLO=s192,s202 rifa' soltanto quelle scene. Serve quando si
+// corregge una slide su duecento e rifare tutto costerebbe mezz'ora. Senza
+// SOLO si rifa' tutto, che resta il comportamento giusto per difetto: una
+// selezione sbagliata lascia artefatti vecchi in mezzo ai nuovi.
+const SOLO = process.env.SOLO ? new Set(process.env.SOLO.split(',').map(x => x.trim())) : null;
+
 const FPS = 25, DURATA = 1.8;              // l'ingresso finisce entro 1,3 s
 const FOTOGRAMMI = Math.round(FPS * DURATA);
 const QUI = new URL('.', import.meta.url).pathname;
@@ -31,6 +37,7 @@ const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-119
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
 for (const s of DA_ANIMARE) {
+  if (SOLO && !SOLO.has(s.id)) continue;
   const i = SCENE.indexOf(s);
   const dir = `${QUI}fotogrammi/${s.id}`;
   rmSync(dir, { recursive: true, force: true }); mkdirSync(dir, { recursive: true });
@@ -49,4 +56,5 @@ for (const s of DA_ANIMARE) {
   process.stdout.write(`${s.id} `);
 }
 await b.close();
-console.log(`\n${DA_ANIMARE.length} clip da ${DURATA}s scritte in mp4/`);
+const scritte = SOLO ? DA_ANIMARE.filter(s => SOLO.has(s.id)).length : DA_ANIMARE.length;
+console.log(`\n${scritte} clip da ${DURATA}s scritte in mp4/` + (SOLO ? ` (SOLO; le altre ${DA_ANIMARE.length - scritte} restano com'erano)` : ''));

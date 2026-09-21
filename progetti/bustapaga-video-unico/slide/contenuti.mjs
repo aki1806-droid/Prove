@@ -37,6 +37,19 @@ const CAPITOLI = [
  {n:"13", t:"Le domande dello sportello"},
 ];
 
+// s160 e s217 pronunciano la STESSA frase — «i nostri recapiti e gli orari di
+// sportello qui a schermo» — quindi le due slide devono portare gli stessi dati.
+// Stanno qui una volta sola: quando arrivano i recapiti veri si cambia un punto
+// e non due, e le due slide non possono divergere.
+// I recapiti veri non li ho: sono segnaposto dichiarati, come il rettangolo
+// grigio del marchio. Vedi slide/marchio/LEGGIMI.md.
+const RECAPITI = [
+ {icona:"persone",   t:"Sportello", d:"— DA FORNIRE —"},
+ {icona:"chat",      t:"Telefono",  d:"— DA FORNIRE —"},
+ {icona:"orologio",  t:"Orari",     d:"— DA FORNIRE —"},
+ {icona:"documento", t:"Online",    d:"— DA FORNIRE —"},
+];
+
 const COSA_VEDREMO_ICONE = [
  {icona:"euro",       t:"Fisso e accessorio", d:"lo stipendio tabellare, i turni, le notti, i festivi"},
  {icona:"scudo",      t:"Contributi", d:"quelli che costruiscono la pensione"},
@@ -698,9 +711,8 @@ export const SCENE = [
 {id:"s159", tipo:"frase", tema:"chiaro", sopratitolo:"Alla CISL FP facciamo una cosa semplice",
   testo:"Guardiamo le buste paga **una per una**, con chi ce le porta.",
   sotto:"Porta le ultime buste e i tuoi turni: il controllo lo facciamo insieme."},
-{id:"s160", tipo:"frase", tema:"chiaro", sopratitolo:"CISL FP Padova Rovigo",
-  testo:"Recapiti e **orari di sportello**.",
-  sotto:"Qui a schermo e sui canali della CISL FP di Padova e Rovigo."},
+{id:"s160", tipo:"icone", tema:"chiaro", sopratitolo:"CISL FP Padova Rovigo — recapiti e orari",
+  voci:RECAPITI},
 {id:"s161", tipo:"elenco", tema:"chiaro", sopratitolo:"Come si scrive una segnalazione all'ufficio stipendi", voci:[
   {t:"Nome e **matricola**"},
   {t:"**Mese** della busta"},
@@ -849,9 +861,9 @@ export const SCENE = [
 {id:"s191", tipo:"frase", tema:"tenue", sopratitolo:"La quarta",
   testo:"Le prime tre hanno una spiegazione **nella busta stessa**. Il recupero no.",
   sotto:"La domanda è semplice: a cosa si riferisce, e dov'è il conteggio. Per iscritto, con matricola e mese."},
-{id:"s192", tipo:"frase", tema:"tenue", sopratitolo:"Terzo esercizio: la busta dopo una progressione",
-  testo:"Due segnalazioni, non una.",
-  sotto:"Il tabellare nuovo è partito, ma l'**indennità** è ancora quella dell'area vecchia — e manca l'**arretrato** dalla decorrenza."},
+{id:"s192", tipo:"elenco", tema:"tenue", sopratitolo:"Terzo esercizio: la busta dopo una progressione — due segnalazioni, non una", voci:[
+  {t:"**L'indennità è ancora quella vecchia**", d:"il tabellare nuovo è partito, ma l'indennità è rimasta quella dell'area di prima"},
+  {t:"**Manca l'arretrato**", d:"dalla decorrenza indicata nell'accordo fino al primo mese pagato"}]},
 
 // =============== 12 · Lo stipendio in un anno =====================
 {id:"s193", tipo:"copertina", tema:"profondo", modulo:"Capitolo 12",
@@ -894,9 +906,10 @@ export const SCENE = [
 {id:"s201", tipo:"frase", tema:"chiaro", sopratitolo:"Chi ha due lavori, o ha cambiato Azienda nell'anno",
   testo:"Due certificazioni uniche, da **sommare nel 730** — e quasi sempre esce un debito.",
   sotto:"Perché ciascun datore ha applicato le detrazioni per intero. Non è un errore: è il motivo per cui si fa la dichiarazione."},
-{id:"s202", tipo:"frase", tema:"chiaro", sopratitolo:"Un ultimo strumento: la busta di dicembre come archivio",
-  testo:"Nei progressivi c'è **l'anno intero**.",
-  sotto:"Conservala a parte, con il prospetto di ferie e permessi: sono i tre documenti che ricostruiscono un anno di lavoro."},
+{id:"s202", tipo:"tre", tema:"chiaro", sopratitolo:"I tre documenti che ricostruiscono un anno di lavoro", box:[
+  {t:"Busta di dicembre", d:"nei progressivi c'è l'anno intero", key:true},
+  {t:"Prospetto ferie"},
+  {t:"Prospetto permessi"}]},
 
 // ============ 13 · Le domande dello sportello =====================
 {id:"s203", tipo:"copertina", tema:"profondo", modulo:"Capitolo 13",
@@ -943,9 +956,12 @@ export const SCENE = [
 {id:"s216", tipo:"titolo", tema:"profondo",
   titolo:"Un'ora fa la busta paga<br>era un foglio di codici.<br>**Adesso sai dove guardare.**",
   sotto:"Conserva le buste, controlla ogni mese, segnala subito. E quando serve, portala alla CISL FP di Padova e Rovigo: la leggiamo insieme, voce per voce."},
-{id:"s217", tipo:"frase", tema:"chiaro", sopratitolo:"CISL FP Padova Rovigo",
-  testo:"**Recapiti e orari di sportello.**",
-  sotto:"Qui a schermo e sui canali della CISL FP di Padova e Rovigo."},
+// s217 dice «qui a schermo»: la slide DEVE portare i recapiti, e i recapiti
+// veri non li ho. Le quattro voci sono segnaposto dichiarati, come il
+// rettangolo grigio del marchio: cosi' e' impossibile consegnarla per sbaglio.
+// Vedi slide/marchio/LEGGIMI.md.
+{id:"s217", tipo:"icone", tema:"chiaro", sopratitolo:"CISL FP Padova Rovigo — recapiti e orari",
+  voci:RECAPITI},
 
 {id:"s218", tipo:"copertina", tema:"profondo",
   modulo:"Grazie",

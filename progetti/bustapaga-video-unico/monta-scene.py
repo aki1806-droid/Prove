@@ -17,10 +17,21 @@ def durata(f):
     t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
     return int(t[0])*3600+int(t[1])*60+float(t[2])
 
+# Opzionale: SOLO=s160 ricostruisce soltanto quelle scene, quando si e'
+# corretta una slide su duecento. Le altre restano quelle di prima, e il
+# riepilogo finale continua a misurarle tutte sui FILE, non su cio' che e'
+# stato appena rifatto: cosi' una scena vecchia rimasta indietro si vede.
+import os
+SOLO = set(filter(None, os.environ.get("SOLO", "").split(","))) or None
+
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
 tot = 0.0; righe = []
 for r in reg:
     idb, d = r["id"], r["durata"]
+    if SOLO and idb not in SOLO:
+        dr = durata(OUT/f"{idb}.mp4"); tot += dr
+        righe.append((idb, d, dr, abs(dr-d)))
+        continue
     clip, mp3, out = QUI/"slide"/"mp4"/f"{idb}.mp4", QUI/"audio"/"blocchi"/f"{idb}.mp3", OUT/f"{idb}.mp4"
     p = subprocess.run([FF,"-y","-v","error","-i",str(clip),"-i",str(mp3),
         "-filter_complex", f"[0:v]tpad=stop_mode=clone:stop_duration={d+1:.3f},fps=25[v]",
