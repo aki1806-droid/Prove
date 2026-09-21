@@ -78,6 +78,12 @@ export const collega = fn => { acc = fn; };
 
 const LARG = 1656;                       // 1920 meno i due margini da 132
 const num = n => String(Math.round(n * 100) / 100);
+// I VALORI MOSTRATI si scrivono all'italiana: la virgola separa i decimali e il
+// punto le migliaia — «15,32 €», non «15.32 €». Vale per i numeri che si
+// leggono, non per le coordinate dell'SVG, che restano in notazione di
+// macchina: per quelle c'e' num() qui sopra.
+const cifra = v => typeof v === 'number'
+  ? v.toLocaleString('it-IT', { maximumFractionDigits: 2 }) : v;
 // Dentro <text> di un SVG il markup non vale: <b> non e' un elemento SVG e
 // finisce renderizzato come un pezzo di testo a se', fuori posto. Nei testi
 // SVG gli asterischi si tolgono; dove serve il grassetto si usa foreignObject.
@@ -305,7 +311,7 @@ export const CORPI_GRAFICA = {
             dominant-baseline="middle">${piano(b.et)}</text>
           <rect x="${LB + 3}" y="${y}" width="${num(w)}" height="${H}" rx="10" fill="${col}"/>
           <text class="val" x="${LB + w + 28}" y="${y + H / 2 + 2}" dominant-baseline="middle"
-            fill="${col}">${b.v}${unita(b.v, d.unita, d.unita1)}</text>
+            fill="${col}">${cifra(b.v)}${unita(b.v, d.unita, d.unita1)}</text>
           ${b.nota ? `<text class="sub" x="${LB + w + 28}" y="${y + H / 2 + 42}"
              dominant-baseline="middle">${piano(b.nota)}</text>` : ''}
         </g>`;
@@ -381,7 +387,7 @@ export const CORPI_GRAFICA = {
                    ${i === 0 ? `a12 12 0 0 1 12 -12` : ''} Z" fill="${col}"/>
           <text x="${num(xi + w / 2)}" y="${Y + H / 2 + 4}" text-anchor="middle"
             dominant-baseline="middle" class="val"
-            fill="${s.chiaro ? 'var(--tit)' : '#FFFFFF'}">${s.v}${unita(s.v, d.unita, d.unita1)}</text>
+            fill="${s.chiaro ? 'var(--tit)' : '#FFFFFF'}">${cifra(s.v)}${unita(s.v, d.unita, d.unita1)}</text>
           <text x="${num(xi + w / 2)}" y="${Y + H + 50}" text-anchor="middle"
             class="et">${piano(s.t)}</text>
           ${s.d ? `<text x="${num(xi + w / 2)}" y="${Y + H + 86}" text-anchor="middle"
@@ -390,7 +396,7 @@ export const CORPI_GRAFICA = {
       }).join('')}
       <text x="0" y="32" class="cap">${piano(d.testa ?? '')}</text>
       <text x="${LARG}" y="32" class="cap" text-anchor="end"
-        >${tot}${unita(tot, d.unita, d.unita1)} in tutto</text>
+        >${cifra(tot)}${unita(tot, d.unita, d.unita1)} in tutto</text>
     </svg>`;
   },
 
