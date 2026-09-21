@@ -828,7 +828,7 @@ export const SCENE = [
 // Il piede per intero: e' la sottrazione del capitolo 7, fatta sui numeri veri.
 {id:"s188", tipo:"tabella", tema:"chiaro", sopratitolo:"7 · Il piede — la sottrazione, fino all'accredito",
   colonne:["58%","42%"],
-  intestazioni:["",""],
+  intestazioni:["Voce","Importo"],
   righe:[
    ["Competenze lorde","2.570,96 €"],
    ["− Contributi e tasse","554,87 €"],
