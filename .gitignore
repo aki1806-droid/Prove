@@ -52,8 +52,12 @@ progetti/*/_montaggio/
 progetti/*/montato-*.mp4
 progetti/*/montato-*.srt
 
-# il marchio del committente: non e' un file del metodo
-progetti/*/slide/marchio/logo-rifilato.png
+# Il marchio del committente NON e' piu' escluso. Lo era finche' non c'era:
+# «materiale del cliente, non del metodo». Ma senza quel file layout.mjs non si
+# importa, quindi un clone pulito non renderizza NIENTE — e un contenitore
+# riavviato si porta via tutto cio' che non e' committato. Vale piu' la
+# riproducibilita' del principio. Se il committente non vuole il proprio
+# marchio in un repository, si rimette questa riga e si torna al LEGGIMI.
 
 # il video unico: la voce generata (costa, e un mp3 non sta in git)
 progetti/bustapaga-video-unico/audio/grezzo/

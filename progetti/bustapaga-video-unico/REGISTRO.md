@@ -533,6 +533,47 @@ spettatore vede quando il capitolo comincia.
                           56:05 13. Le domande dello sportello
 ```
 
+## Il marchio vero, e la strada ovvia che non funzionava
+
+Il committente ha mandato il logo. Sta su **tutte e 218 le slide**, quindi
+sono stati rifatti PNG, clip, scene e montato, e il controllo di traboccamento
+e' stato ripetuto col marchio vero — che e' quello che il MASTER §8 chiede,
+perche' con un logo diverso le misure cambiano.
+
+**La ricetta che avevo scritto io in `marchio/LEGGIMI.md` non funzionava.**
+Diceva di rifilare cosi':
+
+```python
+im.crop(im.getchannel("A").getbbox())
+```
+
+Il file vero e' arrivato **su bianco pieno, senza canale alfa**: tutti i pixel
+hanno alfa 255, `getbbox()` sull'alfa restituisce l'immagine intera e non
+rifila niente. Il margine andava cercato sul COLORE. Se l'avessi applicata come
+stava, i 38 pixel di margine a destra sarebbero rimasti dentro e il marchio
+sarebbe uscito piu' piccolo del dovuto su ogni singola slide — senza che
+nessun controllo se ne accorgesse.
+
+`rifila.py` fa le tre cose che servono:
+
+```
+arrivato 225x109 -> rifilato 185x95   (margine: dx 38, basso 13)
+fondo reso trasparente: 9.554 px · bianco del marchio conservato: 827 px
+verde #00623A dichiarato in layout.mjs: 3.372 px nel file ✓
+rosso #D70328 dichiarato in layout.mjs: 1.232 px nel file ✓
+```
+
+**La trasparenza si propaga dai bordi, non cancella «tutto il bianco».** Le
+lettere CISL dentro il fumetto sono bianche: 827 pixel che un `replace` del
+bianco avrebbe bucato. E serve davvero — sul tema `chiaro` il fondo e' bianco e
+un rettangolo non si vedrebbe, sul `profondo` il marchio sta gia' su piastra
+bianca, ma sulle **quattordici slide `tenue`** il fondo e' `#FCF4F3` e il
+rettangolo bianco si sarebbe visto.
+
+**La palette era giusta.** I due colori dichiarati in `layout.mjs` si ritrovano
+nel file vero pixel per pixel: erano stati campionati bene, e `rifila.py` adesso
+lo verifica a ogni marchio nuovo invece di fidarsi.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -547,10 +588,9 @@ spettatore vede quando il capitolo comincia.
   un ascolto, non un altro conto. Gli altri dieci sono quasi certamente resa
   del trascrittore, ma nessuno li ha ascoltati.
 - Lo stato del CCNL e gli importi del fac-simile: sono i due punti aperti qui sopra.
-- **Le 218 slide sono renderizzate ma col MARCHIO SEGNAPOSTO**, un rettangolo
-  grigio. Finche' non arriva `slide/marchio/logo-rifilato.png` vero, i PNG non
-  sono consegnabili — e il MASTER avverte che il controllo di traboccamento va
-  rifatto col logo e i caratteri veri, perche' le misure cambiano.
+- ~~Marchio segnaposto~~ — **arrivato e montato**, vedi la sezione sul
+  marchio. Il controllo di traboccamento e' stato rifatto col marchio vero:
+  zero slide sforano.
 - **I recapiti di s160 e s217 sono segnaposto** «— DA FORNIRE —». Sono due
   slide che la voce indica dicendo «qui a schermo»: finche' non arrivano i dati
   veri quelle due scene non sono consegnabili, esattamente come il marchio.
