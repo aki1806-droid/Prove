@@ -574,6 +574,31 @@ rettangolo bianco si sarebbe visto.
 nel file vero pixel per pixel: erano stati campionati bene, e `rifila.py` adesso
 lo verifica a ogni marchio nuovo invece di fidarsi.
 
+## I recapiti veri
+
+Arrivati dall'utente, e la griglia e' cambiata di conseguenza: gli sportelli
+sono **due**, non uno. Padova e Rovigo hanno una casella ciascuno con indirizzo
+e telefono insieme — separarli avrebbe costretto a leggere due caselle per fare
+una telefonata.
+
+```
+Padova     Via del Carmine 3          Orari      9–13 · 13–17
+           049 822 0630
+Rovigo     Viale Tre Martiri 87/a     Scrivici   fp.padova.rovigo@cisl.it
+           0425 399 239
+```
+
+Stessa icona per i due sportelli: sono la stessa cosa, e il sistema di icone
+del MASTER vuole un solo segno per un solo concetto.
+
+Indirizzo e telefono vanno su **due righe**, non separati da un trattino: col
+trattino la riga andava a capo da sola e la casella di Rovigo cominciava con
+«— 0425 399 239», che si legge come una voce di elenco.
+
+Con questo s160 e s217 non sono piu' segnaposto, e la promessa della voce —
+«trovi i nostri recapiti e gli orari di sportello qui a schermo» — adesso
+trova qualcosa a schermo.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -591,10 +616,12 @@ lo verifica a ogni marchio nuovo invece di fidarsi.
 - ~~Marchio segnaposto~~ — **arrivato e montato**, vedi la sezione sul
   marchio. Il controllo di traboccamento e' stato rifatto col marchio vero:
   zero slide sforano.
-- **I recapiti di s160 e s217 sono segnaposto** «— DA FORNIRE —». Sono due
-  slide che la voce indica dicendo «qui a schermo»: finche' non arrivano i dati
-  veri quelle due scene non sono consegnabili, esattamente come il marchio.
-  Si cambia solo `RECAPITI` in `slide/contenuti.mjs`.
+- **Gli orari sono «9–13 · 13–17» senza giorni**, come li ha dati l'utente.
+  Non ho aggiunto «lun-ven» perche' non me l'ha detto nessuno, e i due turni
+  contigui (13 sia fine che inizio) sono riportati come sono arrivati: se
+  significano «aperto 9–17» o valgono solo in certi giorni, va corretto.
+  Ho lasciato fuori i CAP (35137, 45100): sullo schermo non servono a chi
+  deve telefonare o presentarsi, e affollavano la casella.
 - **Ventisei coppie di scene consecutive dello stesso tipo** restano, contro la
   regola dello script («mai due consecutive»). Vedi la sezione qui sopra per
   perche' non si azzerano senza riordinare il copione o decorare.

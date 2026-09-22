@@ -44,10 +44,10 @@ const CAPITOLI = [
 // I recapiti veri non li ho: sono segnaposto dichiarati, come il rettangolo
 // grigio del marchio. Vedi slide/marchio/LEGGIMI.md.
 const RECAPITI = [
- {icona:"persone",   t:"Sportello", d:"— DA FORNIRE —"},
- {icona:"chat",      t:"Telefono",  d:"— DA FORNIRE —"},
- {icona:"orologio",  t:"Orari",     d:"— DA FORNIRE —"},
- {icona:"documento", t:"Online",    d:"— DA FORNIRE —"},
+ {icona:"persone",  t:"Padova", d:"Via del Carmine 3<br>049 822 0630"},
+ {icona:"persone",  t:"Rovigo", d:"Viale Tre Martiri 87/a<br>0425 399 239"},
+ {icona:"orologio", t:"Orari",  d:"9–13 · 13–17"},
+ {icona:"chat",     t:"Scrivici", d:"fp.padova.rovigo@cisl.it"},
 ];
 
 const COSA_VEDREMO_ICONE = [
