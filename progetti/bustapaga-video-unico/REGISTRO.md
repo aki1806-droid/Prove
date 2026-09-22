@@ -848,5 +848,50 @@ il comportamento del modello. Per la sintesi il preventivo resta esatto.
   di trascrizione, NON come sottotitolo da incidere sul video. Se servono
   sottotitoli veri vanno spezzati, e allora salta la corrispondenza uno a uno
   che il controllo 8 pretende: e' una decisione, non una svista.
-- **I 13,2 secondi che mancano ai 60:00** (vedi la sezione sui controlli). Il
-  controllo 7 resta rosso apposta.
+- ~~I 13,2 secondi che mancano ai 60:00~~ — **chiuso dal cambio di voce.**
+  Il numero era di Achille. Francesca e' piu' lenta, e con l'atempo 1.08 scelto
+  dall'utente il montato esce 60:09,76, cioe' SOPRA i 60 minuti. Il controllo 7
+  e' verde, e non perche' sia stata allargata la tolleranza: perche' il video
+  dura quello che doveva durare. `SCARTO_DURATA_OK` resta in `profilo.py` come
+  decisione registrata, ma oggi non serve a nessuno.
+
+## La consegna: perche' il video arriva in cinque pezzi
+
+Il canale di consegna accetta 30 MiB per file, il montato ne pesa 108,5.
+Ricomprimerlo sarebbe stato il modo sbagliato di risolvere: l'immagine gia'
+viaggia a 87 kb/s — sono diapositive ferme, non c'e' altro da togliere — e il
+grosso del file e' la voce a 158 kb/s. Per far stare un'ora sotto i 30 MiB
+servirebbero 66 kb/s in tutto, cioe' rovinare l'unica cosa che conta in un
+video che si ascolta.
+
+Si taglia invece, e non si tocca un bit: `spezza-per-invio.py` copia il flusso
+senza ricodificare. Puo' farlo perche' i tagli cadono su inizi di capitolo, che
+in questo video sono anche inizi di scena e quindi fotogrammi chiave — a meta'
+scena bisognerebbe ricodificare, o il pezzo partirebbe da un fermo immagine.
+
+I punti di taglio NON sono scritti nello strumento. Vengono da
+`indice-capitoli.txt`, cioe' dalle durate misurate, e quali usare lo decide il
+programma: il minor numero di pezzi che sta sotto il tetto, e fra le divisioni
+possibili quella coi pezzi piu' pari. Cambiando il copione l'indice cambia e i
+tagli si rifanno da soli — e' la stessa regola del profilo, derivare dal dato
+invece di murare un numero.
+
+    montato 01:00:09,76   108,5 MiB   30,8 KiB/s  ->  pezzo massimo 928 s
+
+     0:00–11:36   capitoli 1-2     20,8 MiB   40 sottotitoli
+    11:36–22:36   capitoli 3-4     19,8 MiB   37 sottotitoli
+    22:36–32:57   capitoli 5-6     19,1 MiB   34 sottotitoli
+    32:57–45:46   capitoli 7-9     23,3 MiB   47 sottotitoli
+    45:46–60:09   capitoli 10-13   26,3 MiB   49 sottotitoli
+
+Ogni pezzo porta i suoi sottotitoli, ritempificati dal suo minuto zero; quello
+intero resta valido se i pezzi si rimettono insieme.
+
+La verifica e' una sottrazione, e va letta nel verso giusto. I pezzi sommano
+3.610,25 s contro i 3.609,76 del montato: mezzo secondo IN PIU'. Non e' un
+errore, e' che ogni taglio riparte dal fotogramma chiave precedente e quattro
+frame si ripetono a cavallo delle giunte. Ripetuto va bene; **perso no** — se
+la somma fosse minore dell'intero mancherebbe del video, e lo strumento in quel
+caso lo dice e fallisce. I sottotitoli fanno lo stesso: 207 sulle cinque parti
+contro 203, perche' quattro righe stanno a cavallo di una giunta e compaiono in
+entrambi i pezzi.
