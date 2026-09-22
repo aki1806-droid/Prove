@@ -26,13 +26,27 @@ DURATA_CHIESTA = 3600.0         # «circa 60 minuti», dichiarati dallo script
 # confronto passerebbe inosservato al prossimo video.
 SCARTO_DURATA_OK = 20.0
 
-# Voce e modello sono dichiarati nella scheda tecnica dello script. NON sono
-# quelli del corso OSS (GianP su eleven_v3): questo e' un altro prodotto, per
-# lo stesso committente. L'id e' stato risolto con creative_list_voices, non
-# ricordato a memoria: «Achille nuovo 1», clonata, italiana.
-VOCE_ID    = "KerPEYZvLEWNATg4AARX"
-VOCE_NOME  = "Achille nuovo 1"
+# La scheda tecnica dello script dichiarava «Achille nuovo 1»
+# (KerPEYZvLEWNATg4AARX), e con quella voce il video e' stato fatto una prima
+# volta. L'utente ha poi ascoltato quattro alternative e ha scelto Francesca.
+# L'id e' stato risolto con creative_list_voices, non ricordato a memoria.
+VOCE_ID    = "HLbf5OcXzzI5RP4O3I3d"
+VOCE_NOME  = "Francesca Bellucci"
 MODELLO    = "eleven_multilingual_v2"
+
+# La soglia di rumore sotto la quale si considera silenzio. NON e' un dettaglio
+# tecnico ereditabile: e' un parametro DELLA VOCE, e cambiarla voce senza
+# rimisurarla rompe il taglio dei blocchi.
+#
+# Su Achille, a -45dB, la traccia 1 dava 47 pause. Su Francesca, alla stessa
+# soglia, ne dava QUATTRO in 55 secondi, e nessuna sopra 0,18 s: le pause le fa
+# uguale, ma con un fondo di rumore piu' alto, e a -45dB sono invisibili. Con
+# quattro appigli il DTW non ha su cosa appoggiarsi per trovare i confini.
+#
+# A -35dB il profilo torna quello di Achille (55 pause sulla traccia 1, 39
+# lunghe) e su tutte e 17 le tracce le pause sono molte piu' dei confini da
+# trovare. Misurato prima di generare, non scoperto dopo.
+SOGLIA_SILENZIO = "-35dB"
 
 # --- dalla forma del video ---------------------------------------------------
 
@@ -51,20 +65,36 @@ CARD_CAPITOLO = 2.0             # 13 card di capitolo, mute
 # non ereditato: 15,16 car/s grezzi, 15,68 dopo il filtro di ritmo scelto.
 # Aggiornati sulle 17 tracce vere, non piu' sulla sola traccia 1:
 # 56.472 caratteri in 3.547,7 s di parlato lavorato.
-CPS        = 15.92
-CPS_GREZZO = 15.16
+CPS        = 16.04
+CPS_GREZZO = 13.45
 FASCIA_CPS = (8.5, 21.0)
 
-# Il filtro di ritmo, SENZA atempo. Lo script dichiarava atempo=1.12, ma quel
-# valore veniva da un'altra voce: su «Achille nuovo 1» il rapporto
-# grezzo/lavorato e' 1,158 e non 1,30, perche' questa voce lascia pause piu'
-# corte e silenceremove toglie meno. Con 1.12 il video usciva di 54,2 min
-# contro i 60 dichiarati dallo stesso script; con il solo silenceremove esce
-# 60,7. Fra le due righe in conflitto della scheda tecnica l'utente ha scelto
-# la durata. Misure in REGISTRO.md.
-RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
-         "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
-         "aresample=44100")
+# Il filtro di ritmo. La soglia NON e' scritta qui dentro: viene da
+# SOGLIA_SILENZIO, perche' e' la stessa che serve a trovare i confini e le due
+# non devono poter divergere. Con la soglia sbagliata silenceremove non toglie
+# niente (su Francesca a -45dB il rapporto grezzo/lavorato era 1,000) e il
+# video esce nove minuti piu' lungo.
+#
+# Su atempo la storia e' istruttiva. Lo script dichiarava 1.12, ereditato da
+# una voce ancora diversa. Su «Achille nuovo 1» quel valore dava 54,2 min
+# contro i 60 dichiarati dallo stesso script, e l'utente scelse di toglierlo:
+# senza atempo il video usciva 59:46.
+#
+# Con Francesca il conto si ribalta. Lei e' piu' lenta, e senza atempo il video
+# esce 64:51, quasi cinque minuti SOPRA i 60. Misurato sulle 203 tracce vere,
+# non proiettato:
+#
+#     senza atempo   64:51        atempo 1.08   60:06   <- scelto
+#     atempo 1.05    61:48        atempo 1.10   59:01
+#
+# 1.08 riporta il video sui 60 minuti dichiarati, ed e' meno di quanto chiedeva
+# lo script. Scelta dell'utente sui numeri veri.
+#
+# Il filtro si applica in locale dopo la generazione: cambiarlo non costa una
+# sintesi, solo un nuovo taglio dei blocchi.
+RITMO = (f"silenceremove=start_periods=1:start_silence=0.03:start_threshold={SOGLIA_SILENZIO}:"
+         f"stop_periods=-1:stop_silence=0.14:stop_threshold={SOGLIA_SILENZIO}:detection=peak,"
+         "atempo=1.08,aresample=44100")
 
 # --- dai servizi -------------------------------------------------------------
 

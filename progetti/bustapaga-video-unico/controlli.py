@@ -33,9 +33,16 @@ scene    = json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8")
 parlanti = [s for s in scene if s["text"]]
 
 # 1 · la voce ha detto tutto (trascrizione della traccia intera)
-f = QUI/"audio"/"esiti-testo.json"
+# La stessa guardia del controllo 9, e per lo stesso motivo: cambiando voce le
+# tracce sono altre, e un esito vecchio direbbe «tutto a posto» su un audio che
+# non esiste piu'. Ci sono cascato davvero — al cambio di voce questo controllo
+# passava sugli esiti di Achille mentre in audio/grezzo c'era gia' Francesca.
+f  = QUI/"audio"/"esiti-testo.json"
+gz = sorted((QUI/"audio"/"grezzo").glob("traccia*.mp3"))
 if not f.exists():
     esiti.append((False, "verifica per trascrizione: NON ESEGUITA"))
+elif gz and f.stat().st_mtime < max(g.stat().st_mtime for g in gz):
+    esiti.append((False, "verifica per trascrizione: PIU' VECCHIA delle tracce — da rifare"))
 else:
     e = json.loads(f.read_text(encoding="utf-8"))
     buchi = sum(len(v["buchi"]) for v in e.values())

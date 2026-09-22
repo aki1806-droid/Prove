@@ -59,6 +59,11 @@ progetti/*/montato-*.srt
 # riproducibilita' del principio. Se il committente non vuole il proprio
 # marchio in un repository, si rimette questa riga e si torna al LEGGIMI.
 
+# Le copie di sicurezza della voce precedente, tenute sul disco durante il
+# cambio di voce: sono gli stessi mp3 di prima, e valgono quanto quelli.
+progetti/*/audio/grezzo-*/
+progetti/*/audio/blocchi-*/
+
 # il video unico: la voce generata (costa, e un mp3 non sta in git)
 progetti/bustapaga-video-unico/audio/grezzo/
 progetti/bustapaga-video-unico/copione/blocchi.json

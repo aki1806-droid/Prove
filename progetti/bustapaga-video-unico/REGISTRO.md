@@ -654,6 +654,85 @@ $3,40 + verifica dei confini $1,40, piu' un'ora di ricostruzione — e le
 sei correzioni sui confini andrebbero rifatte da capo, perche' i tagli cadono
 su un'altra voce. Portato all'utente coi numeri, non deciso in silenzio.
 
+## Francesca: il cambio di voce, e il difetto che l'ha quasi fatto fallire
+
+L'utente ha ascoltato quattro alternative e ha scelto **Francesca Bellucci**
+(`HLbf5OcXzzI5RP4O3I3d`). Il video e' stato rifatto per intero: 17 tracce, 203
+blocchi, 203 scene, montato.
+
+### Il rapporto 1,000 non era una curiosita'
+
+Nel confronto delle voci Francesca aveva rapporto grezzo/lavorato **1,000**:
+`silenceremove` non le toglieva niente. Sembrava solo «lenta di suo». Era il
+sintomo di qualcosa di peggio, e trovarlo e' costato zero.
+
+I confini fra i 203 blocchi li trova `silencedetect`. Alla soglia del progetto,
+−45 dB, Francesca dava **quattro pause in 55 secondi, nessuna sopra 0,18 s**.
+Achille ne dava 47, di cui 19 lunghe. Con quattro appigli il DTW non ha su cosa
+appoggiarsi: avrei speso $9,35 di sintesi per scoprirlo al taglio.
+
+**Le pause le fa uguale**, hanno solo un fondo di rumore piu' alto. Misurato
+abbassando la soglia:
+
+```
+soglia    pause   lunghe   la piu' lunga     Achille a -45dB: 47 / 19 / 0,62s
+-45dB        4        0      0,18s
+-40dB       17       12      0,50s
+-35dB       24       20      0,74s   <- profilo equivalente ad Achille
+-30dB       34       22      0,78s
+```
+
+La soglia e' finita in `profilo.py` come `SOGLIA_SILENZIO`, ed e' da li' che
+la leggono sia `tagli.py` sia `RITMO`: sono **la stessa soglia**, e murate in
+due posti diversi potrebbero divergere. E' un parametro DELLA VOCE, non dello
+strumento — esattamente come il CPS.
+
+### Misurato sulla traccia vera, non sull'assaggio
+
+Generata la traccia 1 da sola ($0,29) prima delle altre sedici, come la prima
+volta. L'assaggio da 756 caratteri prometteva 24 pause; la traccia vera da
+1.739 ne ha date **55, di cui 39 lunghe** — meglio del previsto. E su tutte e
+17 le tracce le pause sono molte piu' dei confini da trovare, verificato prima
+di tagliare.
+
+### Il risultato: zero correzioni
+
+```
+                     Achille        Francesca
+blocchi fuori fascia    5 (corretti)     0
+confini corretti        6 su 186         —
+```
+
+Con Achille erano serviti cinque giri di diagnosi e sei correzioni di confine.
+Con Francesca, alla soglia giusta, **zero blocchi fuori fascia al primo colpo**.
+Non e' merito della voce: e' che la soglia era misurata invece che ereditata.
+
+### La durata si e' ribaltata
+
+```
+parlato 203 blocchi, senza atempo   64:12
++ 15 scene mute                        39 s
+                                    -------
+                                    64:51     contro i 60 dichiarati: +4:51
+```
+
+Con Achille il problema era che il video veniva CORTO, e l'utente tolse
+`atempo`. Con Francesca viene lungo di quasi cinque minuti, e `atempo` serve
+davvero. Misurato sui blocchi veri:
+
+```
+senza atempo   64:51      atempo 1.08   60:06   <- scelto dall'utente
+atempo 1.05    61:48      atempo 1.10   59:01
+```
+
+1,08 e' meno di quanto chiedeva lo script (1,12), e riporta il video sui
+60 minuti dichiarati.
+
+**La lezione, per la terza volta in questo lavoro:** nessun numero della voce
+si eredita. Non il CPS, non il rapporto grezzo/lavorato, e nemmeno la soglia
+di silenzio — che sembrava un dettaglio tecnico dello strumento e invece era
+il parametro che decideva se il taglio funzionava.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono

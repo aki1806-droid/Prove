@@ -33,10 +33,13 @@ QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
 sys.path.insert(0, str(RADICE))
-from profilo import FASCIA_CPS, RITMO
+from profilo import FASCIA_CPS, RITMO, SOGLIA_SILENZIO
 
 CPSMIN, CPSMAX = FASCIA_CPS
-SOGLIA = "-45dB"
+# La soglia viene da profilo.py: e' un parametro DELLA VOCE, non dello
+# strumento. Murata qui dentro, cambiando voce si taglierebbe con i numeri di
+# quella vecchia — ed e' esattamente il caso in cui i confini non si trovano.
+SOGLIA = SOGLIA_SILENZIO
 PROVA_PRIMA, PROVA_GAP = 1.6, 2.5
 SOGLIE = (0.18, 0.15, 0.12, 0.22, 0.10)
 
