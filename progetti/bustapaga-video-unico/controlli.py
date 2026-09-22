@@ -48,9 +48,15 @@ else:
     buchi = sum(len(v["buchi"]) for v in e.values())
     perc  = min(v["percentuale"] for v in e.values())
     tracce_attese = len(json.loads((QUI/"copione"/"tracce.json").read_text(encoding="utf-8")))
-    esiti.append((not buchi and len(e) == tracce_attese,
-                  f"verifica per trascrizione: {len(e)}/{tracce_attese} tracce, "
-                  f"coincidenza minima {perc}%, buchi nel parlato: {buchi}"))
+    # «0» e' la chiave della modalita' intero: una trascrizione sola di tutte le
+    # tracce concatenate, che copre lo stesso audio di diciassette separate.
+    intero = "0" in e or 0 in e
+    coperte = tracce_attese if intero else len(e)
+    esiti.append((not buchi and coperte == tracce_attese,
+                  f"verifica per trascrizione: "
+                  + ("tutte le tracce in un'unica trascrizione" if intero
+                     else f"{len(e)}/{tracce_attese} tracce")
+                  + f", coincidenza {perc}%, buchi nel parlato: {buchi}"))
 
 # 2 · tutti i blocchi dentro la fascia di velocita'
 reg  = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))

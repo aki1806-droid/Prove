@@ -166,9 +166,10 @@ MASTER dice di non fare. Ristretta al solo punto, il buco e' sparito.
 voce, 17 tracce, 56.472 caratteri, generations_count=1     $9,33
 trascrizione del testo, 17 tracce (+1 ripetuta, vedi sotto) $3,38
 verifica dei confini, due provini da 12,7 min              $1,38
-assaggio di Luca Ward, 756 caratteri su eleven_v3           $0,12
+assaggi di voce (Luca Ward, Andromeda, Sara, Francesca)     $0,50
                                                            ------
-                                                           $14,21
+                                                           $14,59
+(il totale col cambio di voce sta nella sezione piu' sotto)
 ```
 
 Con `generations_count` al suo default di 4 la sola voce sarebbe costata $37,3.
@@ -732,6 +733,85 @@ atempo 1.05    61:48      atempo 1.10   59:01
 si eredita. Non il CPS, non il rapporto grezzo/lavorato, e nemmeno la soglia
 di silenzio — che sembrava un dettaglio tecnico dello strumento e invece era
 il parametro che decideva se il taglio funzionava.
+
+## Le verifiche sulla voce nuova: 10 controlli su 10
+
+### I confini: 186 su 186
+
+```
+                           Achille        Francesca
+chiusa ritrovata intera      159             171
+ritrovata a meta'             13              15
+da guardare                   14               0
+```
+
+Un solo sospetto al primo giro, **s071**, e le due prove concordavano: la
+trascrizione diceva «taglio in anticipo», l'aritmetica lo confermava (s071 a
+16,1 car/s seguito da s072 a 14,4 — veloce poi lento, la firma esatta).
+
+Ma non concordavano sull'ENTITA': la trascrizione suggeriva 2,3 s, il conto
+sulla velocita' 1,24 s. Applicato il secondo, perche' e' il criterio che si era
+gia' dimostrato quello giusto: la volta scorsa, seguendo la trascrizione alla
+lettera, avevo «corretto» due confini sani.
+
+```
+s071   16,1 -> 15,2 car/s        media dei 203 blocchi: 15,80
+s072   14,4 -> 15,1 car/s
+```
+
+**E la riverifica e' costata $0,0015.** Applicare non e' verificare, ma rifare
+tutto il provino da 186 spezzoni per controllarne UNO sarebbe costato $0,69.
+Estratto il solo spezzone corretto — 1,6 secondi — e trascritto quello. Torna
+«trattano con l'azienda»: la chiusa attesa di s071, esatta.
+
+### Il testo: una trascrizione sola invece di diciassette
+
+Le 17 tracce concatenate in un file da 70 minuti, trascritte in una volta.
+Stessi minuti di audio, stesso costo, una chiamata invece di diciassette. La
+domanda a cui il controllo risponde — «la voce ha detto tutto?» — e' un
+confronto fra due sequenze di parole, e farlo sull'intero corpo e' lo stesso
+confronto senza le cuciture in mezzo.
+
+```
+9.186 parole su 9.237 (99,4%) · buchi da 3+ parole: ZERO
+```
+
+L'unico buco segnalato non era un buco: il copione dice «dodici euro **e
+mezzo**», il trascrittore scrive «12,50». Dichiarata come resa, una riga in
+`verifica-testo.py`, non coperta con una tolleranza.
+
+### Due buchi miei, trovati dai miei stessi controlli
+
+**Il controllo sulla trascrizione non aveva la guardia sulla data.** Quello sui
+confini ce l'aveva e ha segnalato subito «verifica piu' vecchia dei confini»;
+il fratello no, e passava dicendo «17 tracce, zero buchi» mentre quegli esiti
+erano di Achille e in `audio/grezzo` c'era gia' Francesca. Adesso ce l'ha, e la
+prima cosa che ha fatto e' stato fallire.
+
+**E il controllo contava le tracce, non l'audio coperto.** Con la trascrizione
+unica diceva «1/17 tracce» e falliva, pur avendo verificato esattamente lo
+stesso audio. Corretto: la modalita' intero copre tutte le tracce per
+costruzione, e il controllo adesso lo sa dire.
+
+## Costo totale
+
+```
+voce Achille, 17 tracce (rifatte, restano come riserva)       $9,33
+trascrizione del testo, Achille                               $3,38
+verifica dei confini, Achille, due provini                    $1,38
+assaggi di voce: Luca Ward, Andromeda, Sara, Francesca        $0,50
+voce Francesca, 17 tracce                                     $9,44
+verifica dei confini, Francesca                               $0,69
+trascrizione del testo, Francesca (70 min in un colpo)        $3,81
+riverifica del solo confine corretto                          $0,0015
+                                                              ------
+                                                             $28,53
+```
+
+**Il preventivo della trascrizione ha sbagliato di nuovo, dello stesso
+fattore.** Diceva $0,26 per i 70 minuti, il reale e' stato $3,81: **14,9
+volte**, contro il 14,7 misurato la prima volta. Non e' un caso isolato, e'
+il comportamento del modello. Per la sintesi il preventivo resta esatto.
 
 ## Da verificare — quello che non ho potuto giudicare io
 

@@ -89,6 +89,11 @@ RESE = [
  (r"€\s*(\d+),(\d+)",                      r" \1 euro \2 centesimi "),
  (r"(\d+)\s*euro\s+e\s+(\d+)\s*centesimi", r" \1 euro \2 centesimi "),
  (r"(\d+)\s*euro\s+e\s+(\d+)\b",           r" \1 euro \2 centesimi "),
+ # «dodici euro e mezzo» contro «12,50€». Il copione, per sua regola, non ha
+ # cifre e scrive «e mezzo»; il trascrittore lo rende come i centesimi. Le due
+ # righe sopra normalizzano «N euro M centesimi», questa porta «e mezzo» nella
+ # stessa forma invece di lasciarlo passare per un buco.
+ (r"\beuro\s+e\s+mezzo\b",                " euro 50 centesimi "),
  # le percentuali
  (r"(\d+)\s*%",                            r" \1 per cento "),
  (r"€\s*(\d+)(?![,\d])",                   r" \1 euro "),
@@ -152,9 +157,22 @@ def centesimi(w):
 scene  = {x["id"]: x for x in json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
 tracce = json.loads((RADICE/"copione"/"tracce.json").read_text(encoding="utf-8"))
 
+# Modalita' «intero»: una sola trascrizione di tutte le tracce concatenate,
+# invece di diciassette separate. Stessi minuti di audio, stesso costo, ma una
+# chiamata sola invece di diciassette. La domanda a cui il controllo risponde
+# — «la voce ha detto tutto quello che c'era nel copione?» — non cambia: e' un
+# confronto fra due sequenze di parole, e farlo su tutto il corpo e' semplice-
+# mente lo stesso confronto senza le cuciture in mezzo.
+#
+# Il blocco di ogni buco si ricava comunque, perche' la posizione nell'atteso
+# e' etichettata con l'id della scena: un buco sa sempre dire dove sta.
+INTERO = QUI/"trascrizioni"/"intero.txt"
+if INTERO.exists():
+    tracce = [{"traccia": 0, "scene": [i for t in tracce for i in t["scene"]]}]
+
 esiti, guai, fatte = {}, 0, 0
 for t in tracce:
-    f = QUI/"trascrizioni"/f"traccia{t['traccia']:02d}.txt"
+    f = INTERO if t["traccia"] == 0 else QUI/"trascrizioni"/f"traccia{t['traccia']:02d}.txt"
     if not f.exists(): continue
     fatte += 1
     atteso = [(p, i) for i in t["scene"] for p in parole(scene[i]["text"])]
@@ -174,7 +192,8 @@ for t in tracce:
                            "coincidenti": uguali, "percentuale": round(pc, 1),
                            "buchi": buchi, "scarti_brevi": brevi}
     guai += len(buchi)
-    print(f"traccia {t['traccia']:2d}  {uguali:5d}/{len(atteso):5d} parole ({pc:5.1f}%)  "
+    nome = "TUTTE" if t["traccia"] == 0 else f"traccia {t['traccia']:2d}"
+    print(f"{nome}  {uguali:5d}/{len(atteso):5d} parole ({pc:5.1f}%)  "
           f"buchi da {BUCO}+ parole: {len(buchi):2d}   scarti brevi: {len(brevi)}")
     for b in buchi:
         print(f"      {b['blocco']}  copione: «{b['copione'][:90]}»")
