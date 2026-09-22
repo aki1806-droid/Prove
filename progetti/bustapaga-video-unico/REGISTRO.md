@@ -166,8 +166,9 @@ MASTER dice di non fare. Ristretta al solo punto, il buco e' sparito.
 voce, 17 tracce, 56.472 caratteri, generations_count=1     $9,33
 trascrizione del testo, 17 tracce (+1 ripetuta, vedi sotto) $3,38
 verifica dei confini, due provini da 12,7 min              $1,38
+assaggio di Luca Ward, 756 caratteri su eleven_v3           $0,12
                                                            ------
-                                                           $14,09
+                                                           $14,21
 ```
 
 Con `generations_count` al suo default di 4 la sola voce sarebbe costata $37,3.
@@ -599,6 +600,60 @@ Con questo s160 e s217 non sono piu' segnaposto, e la promessa della voce —
 «trovi i nostri recapiti e gli orari di sportello qui a schermo» — adesso
 trova qualcosa a schermo.
 
+## I 13 secondi, archiviati come decisione e non come tolleranza
+
+L'utente ha risposto che i 13,2 s sotto l'ora «non sono un problema». La
+risposta e' finita in `profilo.py`, non dentro `controlli.py`:
+
+```python
+SCARTO_DURATA_OK = 20.0
+```
+
+La differenza conta. Ammorbidire il confronto dentro il controllo avrebbe
+nascosto il numero; dichiararlo nel profilo lo lascia in vista, col commento
+che dice chi l'ha deciso e su quale cifra. Il controllo continua a stampare il
+valore vero — «mancano 13,2 s (accettati fino a 20)» — e al prossimo video, con
+un'altra durata, quel 20 va riguardato invece di essere ereditato in silenzio.
+
+**Controlli: 10 su 10.**
+
+## Luca Ward: l'assaggio, misurato prima di spendere
+
+L'utente ha chiesto quale voce fosse stata usata, dicendo che avrebbe preferito
+«Luca Ward v3». La voce di questo video — «Achille nuovo 1» su
+`eleven_multilingual_v2` — non e' una scelta mia: e' la riga 10 della scheda
+tecnica del suo script.
+
+«Luca Ward» esiste nel suo spazio di lavoro (`tVdVcJPudubxmTmAw4tE`, clonata,
+«uomo di circa 50 anni molto carismatico», romana). Invece di discutere, un
+assaggio da **$0,12**: l'apertura vera del video, generata con quella voce su
+`eleven_v3` e passata dallo stesso filtro del ritmo, cosi' il numero misurato
+vale per il montato e non per un'anteprima.
+
+```
+                grezzo   lavorato   car/s lavorato   grezzo/lavorato
+Luca Ward (v3)   58,44s    48,09s       15,72             1,215
+Achille          (misurato sulle 17 tracce)  15,92        1,050
+```
+
+```
+proiezione sui 56.472 caratteri
+   Achille (il montato di adesso)   59:46
+   Luca Ward                        60:31      +45 s
+```
+
+**Le due voci corrono quasi uguali**, quindi il cambio non romperebbe la durata
+— scavallerebbe i 60 minuti invece di restare sotto. La differenza vera e'
+un'altra: Luca Ward lascia pause molto piu' lunghe, e `silenceremove` gli toglie
+10 secondi su 58 contro i 3 di Achille. E' lo stesso tipo di scoperta della
+traccia 1 all'inizio: **il rapporto grezzo/lavorato non si eredita da una voce
+all'altra**, e qui cambia del 16%.
+
+Il costo del cambio non e' la sola voce: tracce $9,50 + verifica del testo
+$3,40 + verifica dei confini $1,40, piu' un'ora di ricostruzione — e le
+sei correzioni sui confini andrebbero rifatte da capo, perche' i tagli cadono
+su un'altra voce. Portato all'utente coi numeri, non deciso in silenzio.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -616,12 +671,11 @@ trova qualcosa a schermo.
 - ~~Marchio segnaposto~~ — **arrivato e montato**, vedi la sezione sul
   marchio. Il controllo di traboccamento e' stato rifatto col marchio vero:
   zero slide sforano.
-- **Gli orari sono «9–13 · 13–17» senza giorni**, come li ha dati l'utente.
-  Non ho aggiunto «lun-ven» perche' non me l'ha detto nessuno, e i due turni
-  contigui (13 sia fine che inizio) sono riportati come sono arrivati: se
-  significano «aperto 9–17» o valgono solo in certi giorni, va corretto.
-  Ho lasciato fuori i CAP (35137, 45100): sullo schermo non servono a chi
-  deve telefonare o presentarsi, e affollavano la casella.
+- **Gli orari non portano i giorni.** L'utente ha confermato che i due turni
+  sono staccati (ora sono su due righe, perche' su una sola il 13 che chiude
+  il primo e apre il secondo si legge come un orario continuato 9-17), ma non
+  ha detto in quali giorni valgono. I CAP restano fuori: a chi telefona o si
+  presenta non servono, e affollavano la casella.
 - **Ventisei coppie di scene consecutive dello stesso tipo** restano, contro la
   regola dello script («mai due consecutive»). Vedi la sezione qui sopra per
   perche' non si azzerano senza riordinare il copione o decorare.

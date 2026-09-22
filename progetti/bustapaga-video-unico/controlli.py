@@ -23,7 +23,7 @@ QUI  = Path(__file__).resolve().parent
 FF   = imageio_ffmpeg.get_ffmpeg_exe()
 NOME = "busta-paga-60min"
 sys.path.insert(0, str(QUI))
-from profilo import DURATA_CHIESTA, FASCIA_CPS, MAX_SCENE
+from profilo import DURATA_CHIESTA, SCARTO_DURATA_OK, FASCIA_CPS, MAX_SCENE
 CPSMIN, CPSMAX = FASCIA_CPS
 
 ok = lambda b: "OK  " if b else "NO  "
@@ -86,9 +86,12 @@ else:
                        capture_output=True, text=True).stderr
     t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
     d = int(t[0])*3600 + int(t[1])*60 + float(t[2])
-    esiti.append((d >= DURATA_CHIESTA,
+    manca = DURATA_CHIESTA - d
+    esiti.append((manca <= SCARTO_DURATA_OK,
                   f"durata {int(d//60)}:{d%60:05.2f} — chiesti "
-                  f"{int(DURATA_CHIESTA//60)}:{DURATA_CHIESTA%60:05.2f}"))
+                  f"{int(DURATA_CHIESTA//60)}:{DURATA_CHIESTA%60:05.2f}"
+                  + (f", mancano {manca:.1f} s (accettati fino a "
+                     f"{SCARTO_DURATA_OK:g})" if manca > 0 else "")))
 
 # 8 · sottotitoli, una riga per blocco parlato
 srt = QUI/f"montato-{NOME}.srt"

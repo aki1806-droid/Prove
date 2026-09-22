@@ -15,6 +15,17 @@ tale finche' non si misura sulla prima traccia.
 
 DURATA_CHIESTA = 3600.0         # «circa 60 minuti», dichiarati dallo script
 
+# Quanto puo' stare SOTTO la durata chiesta senza che sia un difetto.
+# Non e' una tolleranza generica: e' una DECISIONE dell'utente, presa sul
+# numero vero. Il montato e' uscito 59:46,84, cioe' 13,2 s sotto, e all'utente
+# e' stato chiesto se li voleva recuperati con altro contenuto: ha risposto che
+# non sono un problema. Lo script del resto scrive «durata stimata 60 min»,
+# non «almeno 60:00».
+# Sta qui e non dentro controlli.py perche' e' un numero della lezione, non
+# dello strumento — e perche' scritto qui si vede, mentre nascosto in un
+# confronto passerebbe inosservato al prossimo video.
+SCARTO_DURATA_OK = 20.0
+
 # Voce e modello sono dichiarati nella scheda tecnica dello script. NON sono
 # quelli del corso OSS (GianP su eleven_v3): questo e' un altro prodotto, per
 # lo stesso committente. L'id e' stato risolto con creative_list_voices, non
