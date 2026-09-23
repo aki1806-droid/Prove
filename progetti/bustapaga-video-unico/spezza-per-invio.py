@@ -37,6 +37,15 @@ SUF  = f"-{VOCE}" if VOCE else ""
 MP4  = QUI/f"montato-busta-paga-60min{SUF}.mp4"
 SRT  = MP4.with_suffix(".srt")
 IDX  = QUI/f"indice-capitoli{SUF}.txt"
+# Il nome del file consegnato porta sempre la voce, anche per l'edizione
+# corrente, che nei PERCORSI non ha suffisso. Chi riceve cinque mp4 non vede
+# ne' la cartella ne' il profilo: vede il nome, e deve poter dire quale
+# edizione sta guardando. Il nome della voce non si scrive qui: sta in
+# profilo.py, che e' il posto unico dei numeri e dei nomi di questa lezione.
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import VOCE_NOME
+NOME = "-" + (VOCE or VOCE_NOME.split()[0].lower())
+
 TETTO = 30*1024*1024        # il limite del canale di consegna, in byte
 MARGINE = 0.93              # non si consegna sul filo: 7% di aria
 
@@ -129,7 +138,10 @@ def main(fuori):
         n = [x[1] for x in n if x]
         eti = f"capitoli-{n[0]}-{n[-1]}" if len(n) > 1 else (
               f"capitolo-{n[0]}" if n else "apertura")
-        nome = f"busta-paga-{k+1}-{eti}"
+        # il nome porta la VOCE: due edizioni consegnate insieme, con gli
+        # stessi capitoli, si distinguerebbero solo dalla cartella — e una
+        # volta scaricate la cartella non c'e' piu'.
+        nome = f"busta-paga{NOME}-{k+1}-{eti}"
         fv = fuori/f"{nome}.mp4"
         subprocess.run([FF, "-y", "-v", "error", "-ss", hms(a), "-to", hms(z),
                         "-i", str(MP4), "-c", "copy", "-movflags", "+faststart",

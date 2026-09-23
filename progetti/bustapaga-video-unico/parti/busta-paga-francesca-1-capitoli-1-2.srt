@@ -1,0 +1,159 @@
+1
+00:00:03,000 --> 00:00:25,240
+Ogni mese arriva. La apri, guardi l'ultima riga e la chiudi. Ti capisco: la busta paga sembra scritta apposta per non farsi leggere. Codici, asterischi, sigle, colonne. Eppure lì dentro c'è il tuo lavoro: i turni, le notti, i festivi, gli anni di servizio, il contratto che abbiamo firmato. Se non la sai leggere, non sai se ti hanno pagato tutto.
+
+2
+00:00:25,240 --> 00:00:41,920
+In questo corso la smontiamo insieme, riga per riga. Partiamo da un cedolino del tutto simile a quello della nostra Azienda Ospedale Università, con dati di fantasia, e impariamo a riconoscere le tre zone: l'intestazione, il corpo con le voci, il piede con i totali.
+
+3
+00:00:41,920 --> 00:00:58,240
+Vedremo lo stipendio fisso e il salario accessorio, i contributi per la pensione, le tasse, le trattenute, i mesi speciali come dicembre e il periodo del settecentotrenta. E alla fine avrai una lista di dieci controlli da fare in cinque minuti, ogni mese.
+
+4
+00:00:58,240 --> 00:01:11,920
+Non serve essere esperti di contabilità. Serve sapere dove guardare. Chi lavora in sanità lavora su turni, di notte, nei festivi: sono proprio queste le voci che si sbagliano più spesso, e quelle che nessuno controlla.
+
+5
+00:01:11,920 --> 00:01:23,840
+Una regola, prima di cominciare: conserva le tue buste paga. Tutte. Sono la prova di quello che hai ricevuto, e per chiedere somme non pagate hai un tempo limitato: in generale cinque anni.
+
+6
+00:01:23,840 --> 00:01:41,090
+Questo video dura circa un'ora ed è diviso in capitoli. Puoi vederlo tutto di fila, oppure saltare al capitolo che ti serve: la tabella dei capitoli è qui a schermo e nella descrizione. Ti consiglio di tenere accanto una tua busta paga recente: ogni cosa che spiego, provala subito sulla tua.
+
+7
+00:01:41,090 --> 00:01:51,690
+E se qualcosa non ti torna, non restare con il dubbio. Porta la tua busta paga alla CISL FP di Padova e Rovigo: la guardiamo insieme, voce per voce. Cominciamo.
+
+8
+00:01:53,690 --> 00:02:12,540
+In questa lezione impariamo a orientarci. Prima di leggere le cifre bisogna sapere come è costruito il documento. La busta paga, o cedolino, è il prospetto che il datore di lavoro deve consegnarti ogni mese: per legge deve indicare chi sei, che lavoro fai, cosa ti viene pagato e cosa ti viene trattenuto.
+
+9
+00:02:12,540 --> 00:02:31,780
+Qualunque cedolino, anche il più fitto, è diviso in tre zone. In alto l'intestazione: i tuoi dati e quelli del tuo rapporto di lavoro. Al centro il corpo: l'elenco delle voci, una per riga. In basso il piede: i totali, fino al netto a pagare. Leggere bene significa passare da una zona all'altra, nell'ordine.
+
+10
+00:02:31,780 --> 00:02:46,580
+Partiamo dall'intestazione. In cima trovi il mese di liquidazione: attenzione, è il mese in cui vieni pagato, non sempre quello in cui hai lavorato. Poi la matricola, il tuo numero identificativo in Azienda, e il codice fiscale.
+
+11
+00:02:46,580 --> 00:03:03,860
+Subito dopo ci sono tre date: nascita, assunzione ed eventuale cessazione. La data di assunzione conta: da lì dipendono l'anzianità, i tempi per i differenziali economici e, per chi è stato assunto dal duemilauno in poi, il trattamento di fine rapporto al posto di quello di fine servizio.
+
+12
+00:03:03,860 --> 00:03:23,710
+La riga più importante dell'intestazione è la posizione funzionale. Qui c'è scritto in quale area sei inquadrato e con quale profilo. Con il nuovo ordinamento le vecchie categorie sono state sostituite da cinque aree: personale di supporto, operatori, assistenti, professionisti della salute e funzionari, elevata qualificazione.
+
+13
+00:03:23,710 --> 00:03:38,350
+Controllala sempre, soprattutto dopo un cambiamento. Se hai vinto una progressione verticale, se hai cambiato profilo o incarico, l'intestazione deve cambiare. Se resta quella vecchia, è molto probabile che anche lo stipendio sia rimasto quello vecchio.
+
+14
+00:03:38,350 --> 00:03:54,510
+Accanto trovi il tipo di rapporto di lavoro. Normale significa tempo pieno. Se sei in part time deve comparire la percentuale corretta, perché lo stipendio fisso viene riproporzionato proprio su quella percentuale. Un errore qui si trascina su tutte le voci.
+
+15
+00:03:54,510 --> 00:04:06,070
+Infine la sede di lavoro e la modalità di pagamento, con le coordinate bancarie. Sembra un dettaglio, ma se hai cambiato conto corrente è qui che verifichi che la comunicazione sia arrivata.
+
+16
+00:04:06,070 --> 00:04:22,800
+Ricapitoliamo i controlli dell'intestazione: mese di liquidazione, area e profilo, tipo di rapporto e percentuale di part time, coordinate bancarie. Quattro righe, trenta secondi. Nella prossima lezione entriamo nel corpo del cedolino e impariamo a leggere le colonne.
+
+17
+00:04:22,800 --> 00:04:47,240
+Un caso che vediamo spesso allo sportello. Una collega vince la progressione da operatore ad assistente. Nella busta del mese dopo l'intestazione dice ancora area degli operatori. Lo stipendio tabellare è quello vecchio, l'indennità di specificità è quella vecchia. Tutto il resto sembra normale. Ma è sbagliato da capo a piedi, e l'errore si vede solo leggendo la seconda riga dell'intestazione.
+
+18
+00:04:47,240 --> 00:05:08,920
+Un altro caso: il part time. Chi passa al part time verticale o orizzontale deve vedere la percentuale nell'intestazione, e da quel mese le voci fisse scendono in proporzione. Chi torna a tempo pieno deve vedere di nuovo la dicitura normale. Un ritardo di un mese in questa riga vale, in genere, alcune centinaia di euro.
+
+19
+00:05:08,920 --> 00:05:30,120
+Ecco come funziona il riproporzionamento. Con un part time al cinquanta per cento, tabellare, differenziali e indennità fisse si dimezzano. Con un part time all'ottantatré per cento, tipico dei trenta ore, scendono di circa un sesto. Le voci accessorie invece si pagano per quello che fai: una notte è una notte, anche in part time.
+
+20
+00:05:30,120 --> 00:05:49,800
+La data di assunzione ha un altro effetto pratico: il periodo di prova e la maturazione delle ferie. Nel primo triennio di servizio le ferie sono meno che dopo, ma l'ipotesi di rinnovo equipara i neoassunti a chi ha più di tre anni. Anche questo, con la firma definitiva, si rifletterà nel conteggio ferie che alcune aziende stampano in busta.
+
+21
+00:05:49,800 --> 00:06:06,440
+Per chi lavora in più sedi, o è in assegnazione temporanea, la sede indicata è quella amministrativa: non coincide sempre con il reparto in cui timbri. Non è un errore, ma se ti spostano in una sede disagiata verifica che partano le indennità collegate.
+
+22
+00:06:06,440 --> 00:06:25,810
+Nell'intestazione del nostro esempio c'è anche la dicitura incarico base e la sigla del livello. Con il nuovo ordinamento ogni dipendente ha un incarico: di base per tutti, oppure di funzione, di organizzazione o professionale per chi ha responsabilità in più. L'incarico si vede qui, e la sua indennità si vede nel corpo.
+
+23
+00:06:25,810 --> 00:06:39,050
+Se nella tua intestazione c'è qualcosa che non corrisponde, passa da noi alla CISL FP di Padova e Rovigo con il cedolino: verifichiamo insieme e, se serve, prepariamo la richiesta di correzione.
+
+24
+00:06:41,050 --> 00:06:57,020
+Il corpo del cedolino è una tabella. Ogni riga è una voce, cioè una somma che ti viene pagata o trattenuta. Ogni colonna ti dice qualcosa di quella somma. Una volta capite le colonne, qualsiasi riga diventa leggibile, anche quella che non hai mai visto.
+
+25
+00:06:57,020 --> 00:07:17,780
+Da sinistra a destra: il codice voce, un numero che identifica la voce nel sistema paghe. La descrizione, spesso abbreviata. La quantità: giorni, ore o numero di turni. L'importo unitario, cioè quanto vale ogni giorno o ogni ora. Il segno. L'importo totale. E infine la colonna scadenza o riferimento.
+
+26
+00:07:17,780 --> 00:07:36,340
+Quantità e importo unitario servono a fare una verifica semplice. Moltiplica la quantità per l'importo unitario e devi ottenere l'importo. Per esempio: diciannove giorni di turno per due euro e sette centesimi fanno trentanove euro e trentatré centesimi. Se il conto non torna, c'è qualcosa da chiarire.
+
+27
+00:07:36,340 --> 00:07:49,910
+Ora il segno, forse la colonna più importante. Il più indica una competenza: soldi che ti spettano e che si sommano. Il meno indica una trattenuta: soldi che vengono tolti. E poi c'è l'asterisco.
+
+28
+00:07:49,910 --> 00:08:10,390
+Le righe con l'asterisco non sono soldi. Non entrano né escono dalla tua tasca. Sono basi di calcolo: l'imponibile per i contributi, l'imponibile fiscale, le detrazioni, la retribuzione utile per il trattamento di fine rapporto, il contributo che l'Azienda versa per te al fondo pensione. Servono per controllare i calcoli.
+
+29
+00:08:10,390 --> 00:08:31,270
+Ultima colonna: scadenza o riferimento. Qui trovi il mese e l'anno a cui si riferisce la voce. Se il riferimento è diverso dal mese di liquidazione, stai ricevendo qualcosa che riguarda un periodo passato: indennità dei mesi precedenti, conguagli, arretrati. Oppure, per un prestito, la data di scadenza.
+
+30
+00:08:31,270 --> 00:08:48,760
+Qui nasce il dubbio più frequente: ho fatto le notti ad agosto, perché non le trovo nella busta di agosto? Perché le voci legate alle presenze vengono elaborate dopo la chiusura del mese e pagate con qualche mese di differenza. Non è un errore: è la colonna riferimento che te lo dice.
+
+31
+00:08:48,760 --> 00:09:04,920
+Guarda l'esempio: nella busta di ottobre le indennità di turno, notte e festivo hanno riferimento agosto. Quindi, quando controlli i turni, devi confrontare la busta con il foglio presenze del mese indicato nel riferimento, non con quello del mese corrente.
+
+32
+00:09:04,920 --> 00:09:20,640
+Un'ultima cosa sui codici. Le voci non sono messe a caso: in genere compaiono prima le voci fisse, poi quelle variabili, poi le ritenute e in fondo gli imponibili con l'asterisco. Imparare questo ordine ti fa trovare subito quello che cerchi.
+
+33
+00:09:20,640 --> 00:09:28,080
+Tieni a portata di mano il tuo prospetto turni o il cartellino: la busta paga si legge sempre in coppia con le presenze.
+
+34
+00:09:28,080 --> 00:09:48,040
+Facciamo una prova del nove più difficile. Ventiquattro ore notturne per due euro e settantaquattro centesimi l'una: sessantacinque euro e settantasei centesimi. Sei pasti in mensa per un euro e tre centesimi: sei euro e venti centesimi. Se ti trovi a fare questi conti, sei già a metà del lavoro di controllo.
+
+35
+00:09:48,040 --> 00:10:07,080
+Il codice voce non è uguale in tutte le aziende. Lo stesso importo, per esempio l'indennità notturna, ha un numero all'Azienda Ospedale Università e un altro all'ULSS. Per questo, nel corso, ti insegno a riconoscere le descrizioni e le famiglie di codici, non a imparare numeri a memoria.
+
+36
+00:10:07,080 --> 00:10:29,690
+Le descrizioni sono abbreviate per motivi di spazio. Alcune sigle ricorrenti: I.V.C. è la vacanza contrattuale, D.E.P. i differenziali, I.Q.P. la vecchia indennità di qualificazione, C.P.D.E.L. la cassa pensioni, F.CREDITO il fondo credito, ADD. le addizionali, ARR. gli arretrati, CONG. il conguaglio, RIMB. un rimborso.
+
+37
+00:10:29,690 --> 00:10:44,420
+Attenzione a una trappola di lettura: l'importo unitario è spesso indicato con cinque decimali, e la quantità con due. Non sono errori di stampa: il sistema paghe lavora così per non perdere centesimi nei mesi. Il totale di riga, invece, ha sempre due decimali.
+
+38
+00:10:44,420 --> 00:11:01,500
+E i valori negativi tra gli asterischi? A volte trovi un imponibile con il segno meno dopo la cifra, per esempio l'imponibile eccedente per il contributo aggiuntivo. Significa che sei sotto la soglia. Anche qui: niente soldi che escono, solo un numero che dice come stanno i conti.
+
+39
+00:11:01,500 --> 00:11:21,900
+Un'altra lettura utile: i codici che iniziano allo stesso modo appartengono spesso alla stessa famiglia. Nel nostro fac-simile le voci che cominciano con cinquantanove sono ritenute previdenziali, quelle con sessanta sono addizionali, quelle con novanta e novantacinque sono imponibili. Non impararle: riconoscile.
+
+40
+00:11:21,900 --> 00:11:36,000
+Se hai la busta sul portale in formato digitale, spesso puoi cercare il testo. Cerca la parola arretrati, la parola conguaglio, la parola recupero: sono le tre parole che, quando compaiono, meritano sempre due minuti in più.
