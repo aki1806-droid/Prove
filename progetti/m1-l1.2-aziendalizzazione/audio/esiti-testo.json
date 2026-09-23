@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 486,
+  "parole_dette": 486,
+  "coincidenti": 486,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 692,
+  "parole_dette": 692,
+  "coincidenti": 690,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s34",
+    "copione": "100000 euro",
+    "detto": "100 000"
+   }
+  ]
+ }
+}

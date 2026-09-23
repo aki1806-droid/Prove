@@ -1,0 +1,171 @@
+1
+00:00:03,000 --> 00:00:13,690
+Chi decide quanti posti letto servono in una provincia? E chi decide quale infermiere mettere di turno stanotte in un reparto? Prima del 1992 la risposta, spesso, era la stessa: la politica.
+
+2
+00:00:13,690 --> 00:00:25,150
+Il decreto 502 separa queste due domande. La prima spetta alla Regione. La seconda all'azienda. E' il secondo principio della riforma: la distinzione tra indirizzo e gestione.
+
+3
+00:00:25,150 --> 00:00:34,840
+E su questa distinzione il decreto costruisce qualcosa di nuovo per la sanita' italiana: un mercato, ma non un mercato vero. Si chiama quasi-mercato.
+
+4
+00:00:34,840 --> 00:00:44,090
+Tre passaggi. Che cosa fa la Regione e che cosa fa l'azienda. Come funziona la separazione tra chi acquista e chi eroga. E come si paga un ricovero: i di erre gi.
+
+5
+00:00:44,090 --> 00:00:53,070
+Con il decreto 502 la Regione diventa il vero centro del sistema sanitario. Le spettano tre funzioni: la programmazione, l'indirizzo e il controllo.
+
+6
+00:00:53,070 --> 00:01:01,480
+Programmare vuol dire decidere di che cosa ha bisogno la popolazione e come organizzare la rete dei servizi. Lo strumento e' il piano sanitario regionale.
+
+7
+00:01:01,480 --> 00:01:10,150
+Pensa al piano come a una mappa: dice dove servono gli ospedali, quanti posti letto, quali servizi sul territorio. Le aziende si muovono dentro quella mappa.
+
+8
+00:01:10,150 --> 00:01:21,160
+Indirizzare vuol dire fissare gli obiettivi delle aziende e le regole con cui vengono finanziate. Controllare vuol dire verificare i risultati, compresi quelli del direttore generale nominato dalla Regione.
+
+9
+00:01:21,160 --> 00:01:30,900
+E la Regione diventa responsabile dei conti. Se le aziende chiudono in disavanzo, la Regione deve coprirlo con risorse proprie: lo prevede l'articolo 13 del decreto 502.
+
+10
+00:01:30,900 --> 00:01:39,740
+E' la conseguenza diretta della riforma: chi programma la spesa ne risponde. Il ripiano a pie' di lista da parte dello Stato non e' piu' la regola.
+
+11
+00:01:39,740 --> 00:01:48,890
+All'azienda spetta tutto il resto: la gestione e l'erogazione. Organizzare i servizi, assumere e gestire il personale, acquistare beni, produrre prestazioni.
+
+12
+00:01:48,890 --> 00:01:57,750
+Il direttore generale, con l'atto aziendale, organizza l'azienda in dipartimenti, distretti e presidi. E' la traduzione operativa degli obiettivi fissati dalla Regione.
+
+13
+00:01:57,750 --> 00:02:06,460
+In questa gestione la politica non entra. Il direttore generale risponde degli obiettivi, ma su come raggiungerli decide lui, con gli strumenti di un'impresa.
+
+14
+00:02:06,460 --> 00:02:19,050
+E' lo stesso principio che, negli stessi mesi, arriva in tutte le amministrazioni con il decreto legislativo 29 del 1993, figlio della stessa legge delega 421. Lo ritroverai nel modulo otto.
+
+15
+00:02:19,050 --> 00:02:26,650
+In una frase: la Regione decide che cosa fare e con quali risorse. L'azienda decide come farlo. E ne risponde.
+
+16
+00:02:26,650 --> 00:02:38,610
+Attenzione al distrattore: nei quiz la gestione del personale o degli acquisti viene attribuita alla Regione. E' sbagliato. La gestione e' dell'azienda; alla Regione restano programmazione, indirizzo e controllo.
+
+17
+00:02:38,610 --> 00:02:49,470
+Ora il passo piu' innovativo. Nel vecchio sistema la stessa unita' sanitaria locale decideva i servizi, li produceva e li pagava con la spesa storica. Nessuno confrontava costi e risultati.
+
+18
+00:02:49,470 --> 00:02:56,940
+Il decreto separa due ruoli. Da una parte chi acquista le prestazioni per conto dei cittadini. Dall'altra chi le produce, cioe' chi le eroga.
+
+19
+00:02:56,940 --> 00:03:03,740
+L'acquirente e' l'azienda sanitaria locale: tutela la salute dei residenti e compra per loro le prestazioni di cui hanno bisogno.
+
+20
+00:03:03,740 --> 00:03:13,250
+Gli erogatori sono le aziende ospedaliere, gli ospedali della stessa azienda sanitaria locale e le strutture private accreditate. Ricevono un pagamento per ogni prestazione erogata.
+
+21
+00:03:13,250 --> 00:03:22,590
+Un esempio. Un cittadino si fa operare all'anca nell'azienda ospedaliera del capoluogo. L'azienda sanitaria locale in cui risiede paga quell'intervento all'azienda ospedaliera.
+
+22
+00:03:22,590 --> 00:03:29,990
+E se va a operarsi in un'altra Regione? Paga comunque la sua Regione di residenza. E' la mobilita' sanitaria, che le Regioni compensano tra loro.
+
+23
+00:03:29,990 --> 00:03:41,030
+E' il modello che gli studiosi chiamano quasi-mercato, o competizione amministrata. L'idea arriva dal Regno Unito, dove all'inizio degli anni Novanta il servizio sanitario separa acquirenti e fornitori.
+
+24
+00:03:41,030 --> 00:03:50,780
+Perche' quasi? Perche' manca il prezzo libero e manca il consumatore che paga. Le tariffe le fissa il sistema pubblico, e le prestazioni le paga il servizio sanitario, non il paziente.
+
+25
+00:03:50,780 --> 00:03:58,530
+Il vantaggio atteso e' la concorrenza: se i soldi seguono il paziente, gli erogatori sono spinti a migliorare qualita' ed efficienza per attirarlo.
+
+26
+00:03:58,530 --> 00:04:08,720
+Ma nella pratica italiana il quasi-mercato resta incompleto. Molte aziende sanitarie locali mantengono i propri ospedali, e acquirente e produttore finiscono spesso per coincidere.
+
+27
+00:04:08,720 --> 00:04:17,850
+Resta la domanda: come si paga un ricovero? Pagare i giorni di degenza premia chi tiene i pazienti a letto piu' a lungo. Pagare a pie' di lista non premia nessuno.
+
+28
+00:04:17,850 --> 00:04:29,970
+La risposta sono i di erre gi: Diagnosis Related Groups, raggruppamenti omogenei di diagnosi. Nascono negli Stati Uniti, all'universita' di Yale, e il programma Medicare li adotta nel 1983.
+
+29
+00:04:29,970 --> 00:04:41,710
+In Italia arrivano a meta' degli anni Novanta: le tariffe nazionali per i ricoveri sono fissate nel 1994, e dal 1995 i di erre gi diventano il modo di pagare gli ospedali.
+
+30
+00:04:41,710 --> 00:04:52,920
+Come funzionano. Ogni ricovero viene classificato in un gruppo in base alla diagnosi principale, agli interventi eseguiti, all'eta' e alle complicanze. I dati vengono dalla scheda di dimissione ospedaliera.
+
+31
+00:04:52,920 --> 00:05:01,170
+Ogni gruppo ha una tariffa fissa, onnicomprensiva. L'ospedale riceve quella cifra per quel ricovero, che il paziente resti tre giorni o sette.
+
+32
+00:05:01,170 --> 00:05:11,060
+Due ospedali ricoverano due pazienti con la stessa diagnosi e lo stesso intervento. Il primo li dimette in quattro giorni, il secondo in otto. Ricevono la stessa tariffa.
+
+33
+00:05:11,060 --> 00:05:21,980
+Ecco l'incentivo: chi cura bene e in meno tempo guadagna margine, chi spreca giornate di degenza lo perde. Il pagamento smette di premiare la durata e comincia a premiare l'efficienza.
+
+34
+00:05:21,980 --> 00:05:32,000
+Ma ogni incentivo ha i suoi rischi. Dimissioni troppo precoci. Selezione dei pazienti meno costosi. E codifiche gonfiate, per spostare un ricovero in un gruppo che rende di piu'.
+
+35
+00:05:32,000 --> 00:05:41,290
+Per questo al pagamento si affiancano i controlli: sulla qualita' delle cartelle cliniche, sull'appropriatezza dei ricoveri, sulla corrispondenza tra codifica e diagnosi.
+
+36
+00:05:41,290 --> 00:05:50,520
+Anche le prestazioni ambulatoriali hanno la loro tariffa, fissata in un nomenclatore. La logica e' la stessa: si paga la prestazione, non il costo sostenuto per produrla.
+
+37
+00:05:50,520 --> 00:05:59,940
+Il principio da tenere e' questo: con i di erre gi si paga il prodotto, non la spesa. Ed e' esattamente il contrario del ripiano a pie' di lista.
+
+38
+00:05:59,940 --> 00:06:09,400
+Le tre cose che ti chiederanno. La prima: alla Regione spettano programmazione, indirizzo e controllo. All'azienda spettano la gestione e l'erogazione dei servizi.
+
+39
+00:06:09,400 --> 00:06:22,000
+La seconda: il quasi-mercato si fonda sulla separazione tra acquirente ed erogatore. L'azienda sanitaria locale acquista per i residenti; aziende ospedaliere e privati accreditati erogano, pagati a prestazione.
+
+40
+00:06:22,000 --> 00:06:31,870
+E qui il distrattore: quasi-mercato non vuol dire privatizzazione. Per il cittadino le prestazioni restano gratuite o soggette al ticket, e la programmazione resta pubblica.
+
+41
+00:06:31,870 --> 00:06:42,080
+La terza: i di erre gi classificano i ricoveri in gruppi omogenei per diagnosi e interventi. A ogni gruppo corrisponde una tariffa fissa, indipendente dai giorni di degenza.
+
+42
+00:06:42,080 --> 00:06:51,630
+L'ultimo distrattore: la tariffa non rimborsa il costo effettivo del singolo ricovero. E' una cifra prefissata per gruppo, ed e' proprio questo che crea l'incentivo all'efficienza.
+
+43
+00:06:51,630 --> 00:07:03,250
+In sintesi: la Regione governa, l'azienda gestisce, e i soldi seguono le prestazioni. Nella prossima lezione vediamo chi puo' erogarle: autorizzazione, accreditamento e libera scelta.

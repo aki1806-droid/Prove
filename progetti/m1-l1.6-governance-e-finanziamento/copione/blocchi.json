@@ -1,0 +1,303 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Chi governa la sanita' italiana? Non c'e' una risposta sola. Ci sono lo Stato, ventuno sistemi sanitari regionali e oltre cento aziende. E ognuno risponde di un pezzo diverso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E chi paga? Un finanziamento pubblico che vale oltre cento miliardi di euro l'anno, ripartito tra le Regioni con regole precise. E' la parte meno raccontata della riforma, e una delle piu' chieste."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E' l'ultima lezione del modulo, e tiene insieme le altre: aziende, Regioni, quasi-mercato e livelli essenziali trovano qui chi li governa e chi li finanzia."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Il rapporto tra Stato e Regioni, e la riforma del Titolo quinto. Il finanziamento, dal fondo sanitario ai costi standard. Le tipologie di azienda. E la direzione strategica."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto 502 aveva gia' spostato il baricentro verso le Regioni. Negli anni successivi il processo va avanti: si parla di regionalizzazione del Servizio Sanitario Nazionale."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La svolta costituzionale e' la riforma del Titolo quinto, con la legge costituzionale 3 del 2001. La tutela della salute diventa materia di legislazione concorrente tra Stato e Regioni."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Legislazione concorrente vuol dire che lo Stato fissa i principi fondamentali, e le Regioni fanno il resto: leggi di dettaglio, organizzazione, programmazione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Allo Stato resta in esclusiva la determinazione dei livelli essenziali delle prestazioni, i LEA della lezione cinque. E' la garanzia che il diritto alla salute sia uguale in tutto il Paese."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato sono ventuno servizi sanitari regionali: diciannove Regioni e due Province autonome, Trento e Bolzano. Stesso quadro nazionale, organizzazioni anche molto diverse."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il luogo dove Stato e Regioni si accordano e' la Conferenza Stato-Regioni. Le decisioni principali passano per intese, e per i Patti per la salute: accordi pluriennali su risorse e obiettivi."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "La regionalizzazione ha un prezzo: le differenze tra Regioni, nei servizi e nei tempi di attesa. E' la tensione permanente del sistema, tra autonomia e uguaglianza."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio: lo Stato garantisce l'uguaglianza, fissando i LEA e le risorse. Le Regioni garantiscono il servizio, organizzandolo e rispondendo dei conti."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Veniamo ai soldi. Ogni anno lo Stato fissa il livello complessivo del finanziamento del Servizio Sanitario Nazionale: il fabbisogno sanitario nazionale standard."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fonti sono diverse: l'IRAP, l'addizionale regionale all'IRPEF, una compartecipazione all'IVA, e le entrate proprie delle aziende, come i ticket."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come si divide tra le Regioni? Il 502 introduce la quota capitaria: una cifra per abitante, ponderata per l'eta' della popolazione, perche' un anziano consuma piu' sanita' di un giovane."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' gia' una rivoluzione rispetto alla spesa storica della lezione uno: le risorse non seguono piu' quanto si e' speso, ma quante persone si devono curare."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il federalismo fiscale arriva un criterio in piu': i costi standard, fissati dal decreto legislativo 68 del 2011."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'idea e' semplice. Si prendono come riferimento le Regioni piu' virtuose, quelle che garantiscono i LEA in equilibrio di bilancio, e i loro costi diventano il parametro per tutte."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fabbisogno standard di ogni Regione si calcola cosi': quanto costerebbe garantire i LEA alla sua popolazione, se fosse gestita come le Regioni di riferimento."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: il costo standard non e' il costo medio di tutte le Regioni. E' il costo delle Regioni migliori. Chi spende di piu' copre la differenza con risorse proprie."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la Regione distribuisce le risorse alle sue aziende, secondo criteri propri, e ne verifica ogni anno i bilanci. Una quota del finanziamento e' premiale: la ricevono le Regioni in regola con gli adempimenti."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E chi non rientra? Dalla meta' degli anni Duemila le Regioni con disavanzi gravi sottoscrivono con lo Stato un piano di rientro, con misure correttive, aumento delle imposte regionali e, nei casi estremi, il commissariamento."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E' la fine definitiva del ripiano a pie' di lista. Chi spende oltre il dovuto paga con risorse proprie, e ne risponde ai cittadini e allo Stato."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende del sistema non sono tutte uguali. La prima tipologia e' l'azienda sanitaria locale, che nel Veneto si chiama ULSS: tutela la salute di chi risiede sul territorio."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda e' l'azienda ospedaliera: un ospedale di rilievo nazionale e di alta specializzazione, costituito in azienda autonoma. La terza e' l'azienda ospedaliero-universitaria."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'azienda ospedaliero-universitaria nasce con il decreto legislativo 517 del 1999: integra assistenza, didattica e ricerca, insieme a un'universita'. Attenzione: e' un altro 517, non il correttivo del 1993."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il caso dell'Azienda Ospedale Universita' di Padova, che vedrai da vicino nel modulo quattro."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine gli istituti di ricovero e cura a carattere scientifico: ospedali di eccellenza che fanno ricerca, riconosciuti dal Ministero della salute. Possono essere pubblici o privati."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nel Veneto c'e' in piu' Azienda Zero, un ente di governance regionale che accentra funzioni comuni a tutte le aziende. La vedremo nel modulo due."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il distrattore: l'azienda ospedaliera non ha un territorio da tutelare. Non ha residenti: eroga prestazioni. La tutela della salute di una popolazione e' compito dell'azienda sanitaria locale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi guida un'azienda, oggi? La direzione strategica: il direttore generale, con il direttore sanitario e il direttore amministrativo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore sanitario dirige i servizi sanitari, ai fini organizzativi e igienico-sanitari: deve essere un medico con esperienza di direzione. Il direttore amministrativo dirige i servizi amministrativi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entrambi li nomina il direttore generale, e con lui condividono la direzione dell'azienda. Ma la responsabilita' ultima, e la rappresentanza legale, restano del direttore generale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto alla direzione ci sono altri due organi. Il collegio sindacale, che vigila sulla regolarita' amministrativa e contabile e sulla gestione economica."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi il collegio sindacale ha tre componenti: uno designato dalla Regione, uno dal Ministero dell'economia e delle finanze, uno dal Ministero della salute."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il collegio di direzione, che porta i professionisti nel governo dell'azienda: i direttori di dipartimento, di distretto, di presidio. E' la base del governo clinico."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organizzazione interna la fissa l'atto aziendale: dipartimenti, distretti, presidi. Nel modulo quattro lo ritroverai come la costituzione dell'azienda."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Quindi gli organi sono tre: direttore generale, collegio di direzione, collegio sindacale. Il direttore sanitario e il direttore amministrativo non sono organi: affiancano il direttore generale."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: dopo il Titolo quinto del 2001 la tutela della salute e' legislazione concorrente. Allo Stato resta in esclusiva la determinazione dei LEA."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il finanziamento. Il fabbisogno sanitario nazionale lo fissa lo Stato; si ripartisce tra le Regioni per quota capitaria ponderata e, dal decreto 68 del 2011, con i costi standard."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: gli organi dell'azienda sono tre. Direttore generale, collegio di direzione, collegio sindacale."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il distrattore finale: il direttore sanitario e il direttore amministrativo non sono organi dell'azienda. E li nomina il direttore generale, non la Regione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: lo Stato garantisce l'uguaglianza, le Regioni organizzano e rispondono dei conti, le aziende gestiscono. Con il modulo due entriamo nel Veneto: la legge regionale 19 del 2016 e Azienda Zero."
+ }
+]

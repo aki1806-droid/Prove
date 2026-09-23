@@ -29,3 +29,4 @@ __pycache__/
 progetti/*/audio/url-*.txt
 progetti/*/audio/prova.mp3
 progetti/*/slide/provini/controllo.png
+**/audio/scartato-*.mp3

@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 588,
+  "parole_dette": 588,
+  "coincidenti": 588,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 592,
+  "parole_dette": 592,
+  "coincidenti": 591,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s40",
+    "copione": "distrattore",
+    "detto": "distratteore"
+   }
+  ]
+ }
+}

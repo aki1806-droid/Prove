@@ -1,0 +1,303 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Chi decide quanti posti letto servono in una provincia? E chi decide quale infermiere mettere di turno stanotte in un reparto? Prima del 1992 la risposta, spesso, era la stessa: la politica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto 502 separa queste due domande. La prima spetta alla Regione. La seconda all'azienda. E' il secondo principio della riforma: la distinzione tra indirizzo e gestione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E su questa distinzione il decreto costruisce qualcosa di nuovo per la sanita' italiana: un mercato, ma non un mercato vero. Si chiama quasi-mercato."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre passaggi. Che cosa fa la Regione e che cosa fa l'azienda. Come funziona la separazione tra chi acquista e chi eroga. E come si paga un ricovero: i di erre gi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il decreto 502 la Regione diventa il vero centro del sistema sanitario. Le spettano tre funzioni: la programmazione, l'indirizzo e il controllo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Programmare vuol dire decidere di che cosa ha bisogno la popolazione e come organizzare la rete dei servizi. Lo strumento e' il piano sanitario regionale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa al piano come a una mappa: dice dove servono gli ospedali, quanti posti letto, quali servizi sul territorio. Le aziende si muovono dentro quella mappa."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Indirizzare vuol dire fissare gli obiettivi delle aziende e le regole con cui vengono finanziate. Controllare vuol dire verificare i risultati, compresi quelli del direttore generale nominato dalla Regione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la Regione diventa responsabile dei conti. Se le aziende chiudono in disavanzo, la Regione deve coprirlo con risorse proprie: lo prevede l'articolo 13 del decreto 502."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "E' la conseguenza diretta della riforma: chi programma la spesa ne risponde. Il ripiano a pie' di lista da parte dello Stato non e' piu' la regola."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'azienda spetta tutto il resto: la gestione e l'erogazione. Organizzare i servizi, assumere e gestire il personale, acquistare beni, produrre prestazioni."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale, con l'atto aziendale, organizza l'azienda in dipartimenti, distretti e presidi. E' la traduzione operativa degli obiettivi fissati dalla Regione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa gestione la politica non entra. Il direttore generale risponde degli obiettivi, ma su come raggiungerli decide lui, con gli strumenti di un'impresa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' lo stesso principio che, negli stessi mesi, arriva in tutte le amministrazioni con il decreto legislativo 29 del 1993, figlio della stessa legge delega 421. Lo ritroverai nel modulo otto."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 1.2,
+  "text": "In una frase: la Regione decide che cosa fare e con quali risorse. L'azienda decide come farlo. E ne risponde."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione al distrattore: nei quiz la gestione del personale o degli acquisti viene attribuita alla Regione. E' sbagliato. La gestione e' dell'azienda; alla Regione restano programmazione, indirizzo e controllo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora il passo piu' innovativo. Nel vecchio sistema la stessa unita' sanitaria locale decideva i servizi, li produceva e li pagava con la spesa storica. Nessuno confrontava costi e risultati."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto separa due ruoli. Da una parte chi acquista le prestazioni per conto dei cittadini. Dall'altra chi le produce, cioe' chi le eroga."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'acquirente e' l'azienda sanitaria locale: tutela la salute dei residenti e compra per loro le prestazioni di cui hanno bisogno."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli erogatori sono le aziende ospedaliere, gli ospedali della stessa azienda sanitaria locale e le strutture private accreditate. Ricevono un pagamento per ogni prestazione erogata."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio. Un cittadino si fa operare all'anca nell'azienda ospedaliera del capoluogo. L'azienda sanitaria locale in cui risiede paga quell'intervento all'azienda ospedaliera."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se va a operarsi in un'altra Regione? Paga comunque la sua Regione di residenza. E' la mobilita' sanitaria, che le Regioni compensano tra loro."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modello che gli studiosi chiamano quasi-mercato, o competizione amministrata. L'idea arriva dal Regno Unito, dove all'inizio degli anni Novanta il servizio sanitario separa acquirenti e fornitori."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' quasi? Perche' manca il prezzo libero e manca il consumatore che paga. Le tariffe le fissa il sistema pubblico, e le prestazioni le paga il servizio sanitario, non il paziente."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vantaggio atteso e' la concorrenza: se i soldi seguono il paziente, gli erogatori sono spinti a migliorare qualita' ed efficienza per attirarlo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma nella pratica italiana il quasi-mercato resta incompleto. Molte aziende sanitarie locali mantengono i propri ospedali, e acquirente e produttore finiscono spesso per coincidere."
+ },
+ {
+  "id": "s28",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta la domanda: come si paga un ricovero? Pagare i giorni di degenza premia chi tiene i pazienti a letto piu' a lungo. Pagare a pie' di lista non premia nessuno."
+ },
+ {
+  "id": "s29",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta sono i di erre gi: Diagnosis Related Groups, raggruppamenti omogenei di diagnosi. Nascono negli Stati Uniti, all'universita' di Yale, e il programma Medicare li adotta nel 1983."
+ },
+ {
+  "id": "s30",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Italia arrivano a meta' degli anni Novanta: le tariffe nazionali per i ricoveri sono fissate nel 1994, e dal 1995 i di erre gi diventano il modo di pagare gli ospedali."
+ },
+ {
+  "id": "s31",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come funzionano. Ogni ricovero viene classificato in un gruppo in base alla diagnosi principale, agli interventi eseguiti, all'eta' e alle complicanze. I dati vengono dalla scheda di dimissione ospedaliera."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni gruppo ha una tariffa fissa, onnicomprensiva. L'ospedale riceve quella cifra per quel ricovero, che il paziente resti tre giorni o sette."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due ospedali ricoverano due pazienti con la stessa diagnosi e lo stesso intervento. Il primo li dimette in quattro giorni, il secondo in otto. Ricevono la stessa tariffa."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco l'incentivo: chi cura bene e in meno tempo guadagna margine, chi spreca giornate di degenza lo perde. Il pagamento smette di premiare la durata e comincia a premiare l'efficienza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Ma ogni incentivo ha i suoi rischi. Dimissioni troppo precoci. Selezione dei pazienti meno costosi. E codifiche gonfiate, per spostare un ricovero in un gruppo che rende di piu'."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo al pagamento si affiancano i controlli: sulla qualita' delle cartelle cliniche, sull'appropriatezza dei ricoveri, sulla corrispondenza tra codifica e diagnosi."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche le prestazioni ambulatoriali hanno la loro tariffa, fissata in un nomenclatore. La logica e' la stessa: si paga la prestazione, non il costo sostenuto per produrla."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio da tenere e' questo: con i di erre gi si paga il prodotto, non la spesa. Ed e' esattamente il contrario del ripiano a pie' di lista."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: alla Regione spettano programmazione, indirizzo e controllo. All'azienda spettano la gestione e l'erogazione dei servizi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il quasi-mercato si fonda sulla separazione tra acquirente ed erogatore. L'azienda sanitaria locale acquista per i residenti; aziende ospedaliere e privati accreditati erogano, pagati a prestazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E qui il distrattore: quasi-mercato non vuol dire privatizzazione. Per il cittadino le prestazioni restano gratuite o soggette al ticket, e la programmazione resta pubblica."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: i di erre gi classificano i ricoveri in gruppi omogenei per diagnosi e interventi. A ogni gruppo corrisponde una tariffa fissa, indipendente dai giorni di degenza."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: la tariffa non rimborsa il costo effettivo del singolo ricovero. E' una cifra prefissata per gruppo, ed e' proprio questo che crea l'incentivo all'efficienza."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: la Regione governa, l'azienda gestisce, e i soldi seguono le prestazioni. Nella prossima lezione vediamo chi puo' erogarle: autorizzazione, accreditamento e libera scelta."
+ }
+]
