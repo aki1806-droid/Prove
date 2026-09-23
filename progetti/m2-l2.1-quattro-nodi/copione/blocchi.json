@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Fino al 31 dicembre 2016 il Veneto aveva ventuno aziende ULSS. Il giorno dopo ne aveva nove. Una sola legge regionale ha cancellato dodici aziende in una notte."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quella legge e' la 19 del 2016. Istituisce Azienda Zero e ridisegna le ULSS. E nei concorsi del Veneto e' la domanda che torna piu' spesso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ma una riforma cosi' non nasce dal nulla. Nasce da quattro problemi, che in questo corso chiameremo i quattro nodi. Se capisci i nodi, capisci ogni articolo della legge."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso. Prima una fotografia del Veneto prima del 2016. Poi i quattro nodi, uno alla volta: frammentazione, ospedale al centro, integrazione incompiuta, sostenibilita'. Infine la risposta della legge."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto di partenza e' la legge regionale 56 del 1994. E' la legge con cui il Veneto recepisce il decreto 502: crea le aziende ULSS e le due aziende ospedaliere, Padova e Verona."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto c'e' la sua gemella, la legge regionale 55 dello stesso anno, su programmazione, bilancio e contabilita' delle aziende. Le due leggi del 1994 sono ancora oggi la base del sistema veneto."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nota la sigla. Nel Veneto non si dice ASL ma ULSS, unita' locale socio-sanitaria. La esse in piu' non e' un dettaglio: dice che l'azienda gestisce anche il sociale delegato dai Comuni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per oltre vent'anni la mappa resta quella: ventuno ULSS, spesso modellate sui confini di pochi Comuni. Accanto, le due aziende ospedaliere e l'Istituto Oncologico Veneto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema funziona, e bene: il Piano socio-sanitario ricorda che il Veneto ha un tasso di ospedalizzazione tra i piu' bassi d'Italia. Ma dentro quella mappa si accumulano quattro problemi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo nodo: la frammentazione. Ventuno aziende per circa cinque milioni di abitanti vuol dire, in media, meno di duecentocinquantamila persone per azienda."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni azienda ha la sua direzione, i suoi uffici acquisti, il suo personale amministrativo, i suoi regolamenti. Ventuno volte la stessa struttura, ventuno modi diversi di fare la stessa cosa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio concreto. Lo stesso farmaco, lo stesso guanto, la stessa siringa: ventuno gare d'appalto diverse, a prezzi diversi. E ventuno concorsi separati per assumere gli stessi infermieri."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato e' doppio. Costi amministrativi moltiplicati, e servizi diversi da una ULSS all'altra: stesso bisogno, risposte diverse a seconda di dove abiti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge lo scrive tra i suoi criteri, all'articolo 14: individuare le dimensioni ottimali delle aziende, per migliorare qualita' ed efficienza, in un'ottica di razionalizzazione e riduzione dei costi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il primo nodo, in una riga: troppe aziende piccole, che fanno ognuna da se' le stesse cose."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo nodo: il modello ospedale-centrico. Per decenni l'ospedale e' stato il punto di riferimento per tutto, anche per bisogni che non richiedono un ricovero."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa a un anziano con scompenso cardiaco. Se fuori dall'ospedale non c'e' nessuno che lo segue, torna in pronto soccorso a ogni peggioramento. Ogni volta un ricovero, ogni volta piu' fragile."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Veneto aveva gia' ridotto i posti letto: con la legge regionale 23 del 2012, tre e mezzo per mille abitanti, di cui tre per acuti e mezzo per la riabilitazione."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma meno letti in ospedale funzionano solo se cresce il territorio: medici di famiglia organizzati, cure a domicilio, strutture intermedie tra casa e ospedale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a non leggerlo al contrario: superare il modello ospedale-centrico non vuol dire chiudere gli ospedali. Vuol dire usarli per la fase acuta, e curare il resto piu' vicino a casa."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il secondo nodo: l'ospedale fa da risposta a tutto, perche' fuori dall'ospedale la risposta non c'e'."
+ },
+ {
+  "id": "s23",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo nodo: l'integrazione socio-sanitaria incompiuta. Il Veneto ne ha fatto un modello, con le ULSS che gestiscono anche i servizi sociali delegati dai Comuni."
+ },
+ {
+  "id": "s24",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulla carta e' integrazione. In pratica, sanitario e sociale restano spesso due mondi: bilanci separati, operatori diversi, percorsi che non si parlano."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' proprio la persona fragile a pagare: l'anziano non autosufficiente, il disabile, il malato cronico. Hanno bisogno insieme dell'infermiere e dell'assistente sociale, non di due sportelli."
+ },
+ {
+  "id": "s26",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti c'erano: la Conferenza dei Sindaci e il Piano di Zona, che programma i servizi sociali a integrazione socio-sanitaria. Ma con ventuno aziende e confini diversi, la regia comune restava debole."
+ },
+ {
+  "id": "s27",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche i medici di famiglia lavorano spesso da soli, fuori da una rete. Il Piano socio-sanitario ricorda che la cronicita' pesa sempre di piu': secondo l'OMS, il settantacinque per cento della spesa sanitaria."
+ },
+ {
+  "id": "s28",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il terzo nodo: il modello integrato c'e', ma non arriva fino alla persona."
+ },
+ {
+  "id": "s29",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarto nodo: la sostenibilita' economica. La popolazione invecchia: nel Veneto chi ha piu' di sessantaquattro anni e' gia' il ventidue per cento dei residenti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il rapporto con i giovani si rovescia: per ogni ragazzo sotto i quindici anni ci sono uno virgola sei anziani. Meno persone in eta' da lavoro sostengono un bisogno di cura che aumenta."
+ },
+ {
+  "id": "s31",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piu' anziani vuol dire piu' malattie croniche, piu' farmaci, piu' assistenza a lungo termine. La domanda cresce ogni anno."
+ },
+ {
+  "id": "s32",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le risorse, invece, no. Il fondo sanitario si ripartisce con i costi standard della lezione uno punto sei, e chi spende oltre copre con risorse proprie."
+ },
+ {
+  "id": "s33",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 19 lo mette tra i criteri dell'articolo 14: garantire la sostenibilita' economica del sistema sanitario regionale. E impone una verifica: quantificare i risparmi del primo anno."
+ },
+ {
+  "id": "s34",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il quarto nodo: una domanda che cresce, dentro risorse che non crescono."
+ },
+ {
+  "id": "s35",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco i quattro nodi in fila. Frammentazione, ospedale al centro, integrazione incompiuta, sostenibilita'. E ogni nodo ha la sua risposta dentro la legge 19 del 2016."
+ },
+ {
+  "id": "s36",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla frammentazione risponde con due mosse: le ULSS da ventuno a nove, e un'azienda nuova, Azienda Zero, che fa una volta sola per tutti acquisti, concorsi, contabilita' accentrata."
+ },
+ {
+  "id": "s37",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'ospedale al centro risponde con il territorio: piu' quindici per cento di posti letto negli ospedali di comunita', e i medici di famiglia nelle medicine di gruppo integrate."
+ },
+ {
+  "id": "s38",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le soglie sono scritte nella legge: almeno il sessanta per cento dei medici di famiglia in medicina di gruppo integrata entro il 2017, almeno l'ottanta per cento entro il 2018."
+ },
+ {
+  "id": "s39",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'integrazione incompiuta risponde con il distretto: le vecchie ULSS diventano distretti, ognuno con il suo Comitato dei Sindaci, che approva il Piano di Zona."
+ },
+ {
+  "id": "s40",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla sostenibilita' risponde con la regia unica e con i controlli: un Osservatorio regionale che monitora il nuovo assetto, e una prima verifica dopo tre anni."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' una risposta che il cittadino vede subito: un programma straordinario contro le liste d'attesa, all'articolo 28. CUP on line, promemoria via SMS, disdetta automatica, ticket pagato con lo smartphone."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un errore frequente: la legge 19 non crea le ULSS e non abolisce la legge 56 del 1994. La modifica in piu' punti, e le ULSS esistono dal 1994."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 1.2,
+  "text": "Quattro nodi, quattro risposte. Il resto del modulo le apre una per una."
+ },
+ {
+  "id": "s44",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: la legge regionale 19 del 25 ottobre 2016 istituisce Azienda Zero e ridefinisce gli ambiti delle ULSS, da ventuno a nove."
+ },
+ {
+  "id": "s45",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il nuovo assetto delle ULSS decorre dal primo gennaio 2017."
+ },
+ {
+  "id": "s46",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: i criteri della riorganizzazione stanno all'articolo 14. Equita' e universalita', dimensioni ottimali delle aziende, trasparenza e partecipazione, sostenibilita' economica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 9,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il distrattore: la riforma non e' nata per tagliare i servizi. Tra i suoi obiettivi scritti c'e' garantire i LEA in modo uniforme, salvaguardando montagna, Polesine e laguna."
+ },
+ {
+  "id": "s48",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: troppe aziende, troppo ospedale, troppa distanza tra sanitario e sociale, troppo poche risorse. Nella prossima lezione, i sei principi con cui la riforma scioglie questi nodi."
+ }
+]

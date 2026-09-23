@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Se lavori nella sanita' veneta, Azienda Zero ti riguarda anche se non ci hai mai messo piede. Il concorso che ti ha assunto, probabilmente, l'ha gestito lei."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un'azienda senza ospedali, senza ambulatori, senza pazienti. Eppure governa i conti, gli acquisti e i sistemi informativi di tutta la sanita' regionale."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nelle dispense spesso manca, ma e' meta' del titolo della legge 19. Ed e' la domanda piu' probabile di tutto il modulo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. La legge e il nome. Le funzioni, quelle proprie e quelle che la Giunta puo' aggiungere. Gli organi. E il sistema di governance regionale in cui Azienda Zero si muove."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge regionale 19 del 25 ottobre 2016 ha due parti. Il titolo primo, con la sua norma finale, istituisce e disciplina Azienda Zero: articoli da 1 a 13. Il titolo terzo riorganizza le ULSS."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il nome per esteso, nel titolo della legge, e' Azienda per il governo della sanita' della Regione del Veneto. Azienda Zero e' il nome breve."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma l'articolo 1 la descrive con altre parole: azienda per la razionalizzazione, l'integrazione e l'efficientamento dei servizi sanitari, socio-sanitari e tecnico-amministrativi."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Razionalizzare, integrare, rendere efficiente. Sono le tre parole che spiegano perche' nasce: rispondere alla frammentazione di cui abbiamo parlato nella lezione due punto uno."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La natura giuridica e' quella di un ente del servizio sanitario regionale, con personalita' giuridica di diritto pubblico e autonomia amministrativa, patrimoniale, organizzativa, tecnica, gestionale e contabile."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a una trappola: Azienda Zero non e' un ufficio della Regione, e non e' una decima ULSS. E' un ente autonomo del servizio sanitario regionale, con un compito di governo e di servizio."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fa? Le funzioni stanno tutte all'articolo 2. Il comma 1 elenca quelle proprie, che spettano ad Azienda Zero per legge. Si possono dividere in tre gruppi."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo gruppo sono i conti. Azienda Zero gestisce la Gestione Sanitaria Accentrata, la GSA, prevista dal decreto legislativo 118 del 2011: la parte del fondo sanitario che la Regione gestisce direttamente."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gestisce i flussi di cassa del finanziamento sanitario, tiene le scritture della GSA, redige il suo bilancio preventivo e consuntivo, e il bilancio consolidato di tutto il servizio sanitario regionale."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E da' gli indirizzi in materia contabile alle ULSS e agli altri enti: un solo modo di tenere i conti, per tutti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo gruppo sono le attivita' tecnico-specialistiche per tutto il sistema. La legge ne elenca undici. Partiamo dalle piu' chieste."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli acquisti centralizzati, nel rispetto della qualita', dell'economicita' e della specificita' clinica, previa valutazione della commissione regionale per gli investimenti, la CRITE."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel diritto degli appalti una centrale di acquisto che compra per molte amministrazioni si chiama soggetto aggregatore. E' la stessa logica: una gara sola, al posto di nove."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le procedure di selezione del personale del comparto sanita', secondo un regolamento della Giunta. Sono i concorsi unici regionali: una graduatoria che serve piu' aziende."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il supporto alla formazione manageriale e al rischio clinico, l'accreditamento ECM, il supporto al modello assicurativo, con il contenzioso e le transazioni."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora: le infrastrutture informatiche e i flussi di dati, l'autorizzazione all'esercizio delle strutture sanitarie e socio-sanitarie, la gestione del contenzioso del lavoro e sanitario."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiudono l'elenco la razionalizzazione della logistica, i servizi tecnici per la valutazione delle tecnologie, la HTA, e l'attivazione del fascicolo sanitario elettronico."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo gruppo e' una sola voce, alla lettera h: l'indirizzo e il coordinamento degli Uffici Relazioni con il Pubblico delle ULSS, in materia sanitaria e socio-sanitaria."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tre gruppi, allora: i conti del sistema, i servizi tecnici comuni, e il coordinamento del rapporto con i cittadini."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il comma 2 dell'articolo 2 e' diverso. Elenca funzioni che la Giunta regionale puo' attribuire ad Azienda Zero con successivi provvedimenti, sentita la commissione consiliare."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono funzioni di supporto al governo: analisi e proposte per la programmazione, supporto alla Giunta sugli obiettivi, supporto alla definizione degli obiettivi dei direttori generali delle aziende."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi la proposta dei costi standard e il loro monitoraggio, i flussi informativi, l'auditing e il controllo interno, il Sistema Epidemiologico Regionale con i suoi registri."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2018 la legge del nuovo Piano socio-sanitario aggiunge una voce: il monitoraggio e la vigilanza sulle forme di sanita' integrativa."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "La distinzione e' da quiz. Le funzioni del comma 1 le da' la legge. Quelle del comma 2 sono solo possibili: servono i provvedimenti della Giunta regionale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli organi di Azienda Zero, all'articolo 4, sono due soltanto: il direttore generale e il collegio sindacale."
+ },
+ {
+  "id": "s31",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale lo nomina il Presidente della Giunta regionale, con gli stessi requisiti richiesti per i direttori generali delle ULSS. Il contratto e' di diritto privato, per non piu' di cinque anni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il legale rappresentante, ha i poteri di direzione e di gestione, ed e' anche il responsabile della GSA. Nomina il direttore sanitario e il direttore amministrativo, e adotta l'atto aziendale."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegio sindacale ha tre membri, nominati dal direttore generale: uno designato dal Presidente della Giunta regionale, uno dal Ministro dell'economia e delle finanze, uno dal Ministro della salute."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oltre ai controlli consueti, il collegio fa da terzo certificatore dei conti della GSA. E accerta ogni tre mesi la consistenza di cassa."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il confronto con le ULSS e' la trappola classica. Nelle ULSS gli organi sono tre: direttore generale, collegio di direzione, collegio sindacale. In Azienda Zero il collegio di direzione non c'e'."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il personale viene soprattutto per mobilita' da Regione, ULSS e altri enti, con il contratto del servizio sanitario nazionale. E l'azienda e' tenuta all'equilibrio economico e finanziario."
+ },
+ {
+  "id": "s37",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta la domanda: chi governa Azienda Zero? La risposta e' l'Area Sanita' e Sociale della Regione, disciplinata all'articolo 11, con a capo un direttore generale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'esercizio delle sue funzioni Azienda Zero e' sottoposta al coordinamento del direttore generale dell'Area. E la Giunta esercita vigilanza e controllo su di lei per suo tramite."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'Area spetta anche il visto di congruita' sui bilanci della GSA e sul consolidato del sistema, che Azienda Zero predispone. E il direttore dell'Area presiede la CRITE."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo attore e' il Comitato dei direttori generali, all'articolo 3: i direttori generali di ULSS, aziende ospedaliere, Istituto Oncologico Veneto e Azienda Zero, piu' il direttore dell'Area, che lo presiede."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Comitato determina indirizzi e fabbisogni per le attivita' tecnico-specialistiche di Azienda Zero, e da' un parere obbligatorio sugli atti che le riguardano. Chi usa i servizi decide cosa serve."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ecco la catena: la Giunta indirizza, l'Area Sanita' e Sociale coordina e vigila, Azienda Zero esegue per tutti, il Comitato dei direttori generali dice di che cosa le aziende hanno bisogno."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: Azienda Zero e' istituita dalla legge regionale 19 del 2016, ed e' un ente del servizio sanitario regionale con personalita' giuridica di diritto pubblico."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: le funzioni stanno all'articolo 2. Proprie al comma 1: GSA, bilancio consolidato, acquisti centralizzati, concorsi del comparto. Attribuibili dalla Giunta al comma 2."
+ },
+ {
+  "id": "s45",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: gli organi sono due, direttore generale e collegio sindacale. Il direttore generale lo nomina il Presidente della Giunta regionale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il Comitato dei direttori generali non lo presiede il direttore di Azienda Zero. Lo presiede il direttore generale dell'Area Sanita' e Sociale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un'azienda senza pazienti che lavora per tutte le altre, dentro una regia regionale. Nella prossima lezione, l'altra meta' della legge 19: la nuova geografia delle nove ULSS."
+ }
+]

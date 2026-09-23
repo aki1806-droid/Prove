@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 585,
+  "parole_dette": 585,
+  "coincidenti": 581,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s11",
+    "copione": "545000",
+    "detto": "545 000"
+   },
+   {
+    "blocco": "s11",
+    "copione": "502000",
+    "detto": "502 000"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 600,
+  "parole_dette": 591,
+  "coincidenti": 590,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "on line",
+    "detto": "online"
+   }
+  ]
+ }
+}

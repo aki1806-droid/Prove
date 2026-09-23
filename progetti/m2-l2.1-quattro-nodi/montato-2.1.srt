@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,410
+Fino al 31 dicembre 2016 il Veneto aveva ventuno aziende ULSS. Il giorno dopo ne aveva nove. Una sola legge regionale ha cancellato dodici aziende in una notte.
+
+2
+00:00:14,410 --> 00:00:23,330
+Quella legge e' la 19 del 2016. Istituisce Azienda Zero e ridisegna le ULSS. E nei concorsi del Veneto e' la domanda che torna piu' spesso.
+
+3
+00:00:23,330 --> 00:00:34,510
+Ma una riforma cosi' non nasce dal nulla. Nasce da quattro problemi, che in questo corso chiameremo i quattro nodi. Se capisci i nodi, capisci ogni articolo della legge.
+
+4
+00:00:34,510 --> 00:00:47,610
+Il percorso. Prima una fotografia del Veneto prima del 2016. Poi i quattro nodi, uno alla volta: frammentazione, ospedale al centro, integrazione incompiuta, sostenibilita'. Infine la risposta della legge.
+
+5
+00:00:47,610 --> 00:01:00,200
+Il punto di partenza e' la legge regionale 56 del 1994. E' la legge con cui il Veneto recepisce il decreto 502: crea le aziende ULSS e le due aziende ospedaliere, Padova e Verona.
+
+6
+00:01:00,200 --> 00:01:12,900
+Accanto c'e' la sua gemella, la legge regionale 55 dello stesso anno, su programmazione, bilancio e contabilita' delle aziende. Le due leggi del 1994 sono ancora oggi la base del sistema veneto.
+
+7
+00:01:12,900 --> 00:01:26,070
+Nota la sigla. Nel Veneto non si dice ASL ma ULSS, unita' locale socio-sanitaria. La esse in piu' non e' un dettaglio: dice che l'azienda gestisce anche il sociale delegato dai Comuni.
+
+8
+00:01:26,070 --> 00:01:36,360
+Per oltre vent'anni la mappa resta quella: ventuno ULSS, spesso modellate sui confini di pochi Comuni. Accanto, le due aziende ospedaliere e l'Istituto Oncologico Veneto.
+
+9
+00:01:36,360 --> 00:01:47,130
+Il sistema funziona, e bene: il Piano socio-sanitario ricorda che il Veneto ha un tasso di ospedalizzazione tra i piu' bassi d'Italia. Ma dentro quella mappa si accumulano quattro problemi.
+
+10
+00:01:47,130 --> 00:01:56,090
+Primo nodo: la frammentazione. Ventuno aziende per circa cinque milioni di abitanti vuol dire, in media, meno di duecentocinquantamila persone per azienda.
+
+11
+00:01:56,090 --> 00:02:06,690
+Ogni azienda ha la sua direzione, i suoi uffici acquisti, il suo personale amministrativo, i suoi regolamenti. Ventuno volte la stessa struttura, ventuno modi diversi di fare la stessa cosa.
+
+12
+00:02:06,690 --> 00:02:17,850
+Un esempio concreto. Lo stesso farmaco, lo stesso guanto, la stessa siringa: ventuno gare d'appalto diverse, a prezzi diversi. E ventuno concorsi separati per assumere gli stessi infermieri.
+
+13
+00:02:17,850 --> 00:02:26,820
+Il risultato e' doppio. Costi amministrativi moltiplicati, e servizi diversi da una ULSS all'altra: stesso bisogno, risposte diverse a seconda di dove abiti.
+
+14
+00:02:26,820 --> 00:02:38,360
+La legge lo scrive tra i suoi criteri, all'articolo 14: individuare le dimensioni ottimali delle aziende, per migliorare qualita' ed efficienza, in un'ottica di razionalizzazione e riduzione dei costi.
+
+15
+00:02:38,360 --> 00:02:44,730
+Il primo nodo, in una riga: troppe aziende piccole, che fanno ognuna da se' le stesse cose.
+
+16
+00:02:44,730 --> 00:02:53,570
+Secondo nodo: il modello ospedale-centrico. Per decenni l'ospedale e' stato il punto di riferimento per tutto, anche per bisogni che non richiedono un ricovero.
+
+17
+00:02:53,570 --> 00:03:03,660
+Pensa a un anziano con scompenso cardiaco. Se fuori dall'ospedale non c'e' nessuno che lo segue, torna in pronto soccorso a ogni peggioramento. Ogni volta un ricovero, ogni volta piu' fragile.
+
+18
+00:03:03,660 --> 00:03:13,850
+Il Veneto aveva gia' ridotto i posti letto: con la legge regionale 23 del 2012, tre e mezzo per mille abitanti, di cui tre per acuti e mezzo per la riabilitazione.
+
+19
+00:03:13,850 --> 00:03:22,970
+Ma meno letti in ospedale funzionano solo se cresce il territorio: medici di famiglia organizzati, cure a domicilio, strutture intermedie tra casa e ospedale.
+
+20
+00:03:22,970 --> 00:03:33,030
+Attenzione a non leggerlo al contrario: superare il modello ospedale-centrico non vuol dire chiudere gli ospedali. Vuol dire usarli per la fase acuta, e curare il resto piu' vicino a casa.
+
+21
+00:03:33,030 --> 00:03:39,690
+Il secondo nodo: l'ospedale fa da risposta a tutto, perche' fuori dall'ospedale la risposta non c'e'.
+
+22
+00:03:39,690 --> 00:03:51,530
+Terzo nodo: l'integrazione socio-sanitaria incompiuta. Il Veneto ne ha fatto un modello, con le ULSS che gestiscono anche i servizi sociali delegati dai Comuni.
+
+23
+00:03:51,530 --> 00:03:59,130
+Sulla carta e' integrazione. In pratica, sanitario e sociale restano spesso due mondi: bilanci separati, operatori diversi, percorsi che non si parlano.
+
+24
+00:03:59,130 --> 00:04:09,550
+E' proprio la persona fragile a pagare: l'anziano non autosufficiente, il disabile, il malato cronico. Hanno bisogno insieme dell'infermiere e dell'assistente sociale, non di due sportelli.
+
+25
+00:04:09,550 --> 00:04:20,810
+Gli strumenti c'erano: la Conferenza dei Sindaci e il Piano di Zona, che programma i servizi sociali a integrazione socio-sanitaria. Ma con ventuno aziende e confini diversi, la regia comune restava debole.
+
+26
+00:04:20,810 --> 00:04:32,390
+Anche i medici di famiglia lavorano spesso da soli, fuori da una rete. Il Piano socio-sanitario ricorda che la cronicita' pesa sempre di piu': secondo l'OMS, il settantacinque per cento della spesa sanitaria.
+
+27
+00:04:32,390 --> 00:04:37,560
+Il terzo nodo: il modello integrato c'e', ma non arriva fino alla persona.
+
+28
+00:04:37,560 --> 00:04:45,890
+Quarto nodo: la sostenibilita' economica. La popolazione invecchia: nel Veneto chi ha piu' di sessantaquattro anni e' gia' il ventidue per cento dei residenti.
+
+29
+00:04:45,890 --> 00:04:55,760
+E il rapporto con i giovani si rovescia: per ogni ragazzo sotto i quindici anni ci sono uno virgola sei anziani. Meno persone in eta' da lavoro sostengono un bisogno di cura che aumenta.
+
+30
+00:04:55,760 --> 00:05:02,730
+Piu' anziani vuol dire piu' malattie croniche, piu' farmaci, piu' assistenza a lungo termine. La domanda cresce ogni anno.
+
+31
+00:05:02,730 --> 00:05:11,020
+Le risorse, invece, no. Il fondo sanitario si ripartisce con i costi standard della lezione uno punto sei, e chi spende oltre copre con risorse proprie.
+
+32
+00:05:11,020 --> 00:05:21,360
+La legge 19 lo mette tra i criteri dell'articolo 14: garantire la sostenibilita' economica del sistema sanitario regionale. E impone una verifica: quantificare i risparmi del primo anno.
+
+33
+00:05:21,360 --> 00:05:26,640
+Il quarto nodo: una domanda che cresce, dentro risorse che non crescono.
+
+34
+00:05:26,640 --> 00:05:36,500
+Ecco i quattro nodi in fila. Frammentazione, ospedale al centro, integrazione incompiuta, sostenibilita'. E ogni nodo ha la sua risposta dentro la legge 19 del 2016.
+
+35
+00:05:36,500 --> 00:05:46,810
+Alla frammentazione risponde con due mosse: le ULSS da ventuno a nove, e un'azienda nuova, Azienda Zero, che fa una volta sola per tutti acquisti, concorsi, contabilita' accentrata.
+
+36
+00:05:46,810 --> 00:05:55,240
+All'ospedale al centro risponde con il territorio: piu' quindici per cento di posti letto negli ospedali di comunita', e i medici di famiglia nelle medicine di gruppo integrate.
+
+37
+00:05:55,240 --> 00:06:05,090
+Le soglie sono scritte nella legge: almeno il sessanta per cento dei medici di famiglia in medicina di gruppo integrata entro il 2017, almeno l'ottanta per cento entro il 2018.
+
+38
+00:06:05,090 --> 00:06:14,050
+All'integrazione incompiuta risponde con il distretto: le vecchie ULSS diventano distretti, ognuno con il suo Comitato dei Sindaci, che approva il Piano di Zona.
+
+39
+00:06:14,050 --> 00:06:22,220
+Alla sostenibilita' risponde con la regia unica e con i controlli: un Osservatorio regionale che monitora il nuovo assetto, e una prima verifica dopo tre anni.
+
+40
+00:06:22,220 --> 00:06:35,110
+E c'e' una risposta che il cittadino vede subito: un programma straordinario contro le liste d'attesa, all'articolo 28. CUP on line, promemoria via SMS, disdetta automatica, ticket pagato con lo smartphone.
+
+41
+00:06:35,110 --> 00:06:45,190
+Un errore frequente: la legge 19 non crea le ULSS e non abolisce la legge 56 del 1994. La modifica in piu' punti, e le ULSS esistono dal 1994.
+
+42
+00:06:45,190 --> 00:06:50,450
+Quattro nodi, quattro risposte. Il resto del modulo le apre una per una.
+
+43
+00:06:50,450 --> 00:07:01,050
+Le tre cose che ti chiederanno. La prima: la legge regionale 19 del 25 ottobre 2016 istituisce Azienda Zero e ridefinisce gli ambiti delle ULSS, da ventuno a nove.
+
+44
+00:07:01,050 --> 00:07:05,800
+La seconda: il nuovo assetto delle ULSS decorre dal primo gennaio 2017.
+
+45
+00:07:05,800 --> 00:07:16,720
+La terza: i criteri della riorganizzazione stanno all'articolo 14. Equita' e universalita', dimensioni ottimali delle aziende, trasparenza e partecipazione, sostenibilita' economica.
+
+46
+00:07:16,720 --> 00:07:26,300
+Il distrattore: la riforma non e' nata per tagliare i servizi. Tra i suoi obiettivi scritti c'e' garantire i LEA in modo uniforme, salvaguardando montagna, Polesine e laguna.
+
+47
+00:07:26,300 --> 00:07:36,470
+In sintesi: troppe aziende, troppo ospedale, troppa distanza tra sanitario e sociale, troppo poche risorse. Nella prossima lezione, i sei principi con cui la riforma scioglie questi nodi.

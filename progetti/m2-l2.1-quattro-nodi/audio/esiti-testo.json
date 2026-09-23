@@ -1,0 +1,53 @@
+{
+ "A": {
+  "parole_copione": 588,
+  "parole_dette": 589,
+  "coincidenti": 583,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "esse",
+    "detto": "s"
+   },
+   {
+    "blocco": "s11",
+    "copione": "250000",
+    "detto": "250 000"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e mezzo",
+    "detto": "5"
+   },
+   {
+    "blocco": "s19",
+    "copione": "1000",
+    "detto": "1 000"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 659,
+  "parole_dette": 648,
+  "coincidenti": 645,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s36",
+    "copione": "accentrata",
+    "detto": "centrata"
+   },
+   {
+    "blocco": "s41",
+    "copione": "on line",
+    "detto": "online"
+   },
+   {
+    "blocco": "s45",
+    "copione": "primo",
+    "detto": "1"
+   }
+  ]
+ }
+}

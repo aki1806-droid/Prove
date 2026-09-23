@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Nella lezione precedente abbiamo visto i quattro nodi. Oggi vediamo con quali idee la legge 19 del 2016 li scioglie. Sono sei, e le chiameremo i sei principi ispiratori."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non cercarli in un elenco numerato della legge: non c'e'. Sono sparsi nei criteri dell'articolo 14 e nelle finalita' dell'articolo 15. Il nostro lavoro e' metterli in fila."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sopra tutti e sei c'e' una cornice, scritta per prima all'articolo 14: garantire l'equita' e l'universalita' del sistema sanitario, con prestazioni appropriate e uniformi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I sei principi, in ordine. Ambiti ottimali. Territorio. Integrazione. Medicina generale. Innovazione. Partecipazione. Per ognuno vedremo cosa dice e dove sta scritto."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo principio: gli ambiti ottimali. L'articolo 14 chiede di individuare le dimensioni ottimali delle aziende ULSS, per migliorare qualita' ed efficienza e ridurre i costi."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ottimale non vuol dire il piu' grande possibile. Vuol dire abbastanza grande da avere volumi, competenze e forza negli acquisti, e abbastanza vicino da conoscere il suo territorio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scelta del Veneto e' in gran parte provinciale. Belluno, Treviso, Padova, Rovigo e Verona hanno ciascuna una sola ULSS, estesa a tutta la provincia."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fanno eccezione due province. Venezia ne ha due, la Serenissima e il Veneto Orientale. Vicenza ne ha due, la Pedemontana e la Berica. In tutto, nove aziende."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni azienda ha un nome oltre al numero: Dolomiti, Marca trevigiana, Serenissima, Veneto Orientale, Polesana, Euganea, Pedemontana, Berica, Scaligera. Li vedremo uno per uno nella lezione due punto quattro."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato: una ULSS veneta serve in media circa cinquecentoquarantacinquemila abitanti, contro una media italiana di circa cinquecentoduemila."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: ambiti piu' grandi non vuol dire servizi piu' lontani. La stessa legge chiede alle nuove aziende una rete capillare di sportelli e servizi, per facilitare l'accesso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo principio: il territorio. L'articolo 15 chiede di sviluppare la rete dell'assistenza territoriale, con un approccio multidisciplinare, per garantire la continuita' delle cure."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Continuita' delle cure vuol dire che il paziente non ricomincia da capo a ogni passaggio: dall'ospedale a casa, dal medico di famiglia allo specialista, dalla fase acuta alla riabilitazione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento chiave sono le strutture intermedie, a meta' strada tra casa e ospedale. La prima e' l'ospedale di comunita': un ricovero breve, a bassa intensita', gestito soprattutto dagli infermieri."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la legge fissa un obiettivo preciso: entro il 31 dicembre 2017, piu' quindici per cento di posti letto negli ospedali di comunita', rispetto alla programmazione di allora."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nello stesso tempo l'ospedale cambia ruolo: l'articolo 15 chiede di rideterminare l'offerta ospedaliera secondo una logica di rete coordinata. La vedremo nella lezione sulla rete hub and spoke."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio del territorio: curare vicino a casa tutto quello che non ha bisogno dell'ospedale."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo principio: l'integrazione. L'articolo 15 parla di sostenere il modello socio-sanitario veneto di servizi integrati alla persona."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Integrazione ha due significati. Il primo: tra ospedale e territorio, perche' il paziente passi dall'uno all'altro senza buchi. Il secondo: tra sanitario e sociale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge elenca le aree dove l'integrazione conta di piu': famiglia, infanzia, adolescenza, giovani, anziani, disabili, dipendenze, salute mentale, sanita' penitenziaria."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la traduce in organizzazione. Il direttore dei servizi sociali e della funzione territoriale cambia nome: diventa direttore dei servizi socio-sanitari. Il nome dice la funzione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In ogni distretto la legge prevede unita' operative dedicate: cure primarie, infanzia adolescenza famiglia e consultori, disabilita' e non autosufficienza, cure palliative, attivita' specialistica."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio dell'integrazione: la persona al centro, e i servizi che si organizzano intorno a lei."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarto principio: la medicina generale. Il medico di famiglia e' la porta d'ingresso del sistema. Se lavora da solo, il territorio resta debole."
+ },
+ {
+  "id": "s26",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta del Veneto e' la medicina di gruppo integrata: piu' medici di famiglia nella stessa sede, con infermieri e personale di segreteria, aperti per gran parte della giornata."
+ },
+ {
+  "id": "s27",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 19 fissa le soglie: almeno il sessanta per cento dei medici di famiglia in medicina di gruppo integrata entro il 2017, e almeno l'ottanta per cento entro il 2018."
+ },
+ {
+  "id": "s28",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E coinvolge i Comuni: il Comitato dei Sindaci di distretto esprime parere sull'attivazione delle medicine di gruppo integrate, e collabora anche mettendo a disposizione le sedi."
+ },
+ {
+  "id": "s29",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La medicina generale entra anche nella prevenzione: l'articolo 15 chiede di integrare i Dipartimenti di Prevenzione, i distretti, i medici di famiglia e i pediatri di libera scelta."
+ },
+ {
+  "id": "s30",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio della medicina generale: il medico di famiglia non da solo, ma dentro una squadra."
+ },
+ {
+  "id": "s31",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinto principio: l'innovazione. La legge la declina in strumenti concreti, e quasi tutti passano per Azienda Zero."
+ },
+ {
+  "id": "s32",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il fascicolo sanitario elettronico: la storia clinica digitale del cittadino. La legge chiede ad Azienda Zero di attivarlo entro un anno, con una tessera sanitaria elettronica per tutti i veneti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il fascicolo vale anche per il privato: gli enti privati convenzionati hanno l'obbligo di partecipare, anche ai fini dell'accreditamento. Una sola rete regionale collega tutte le aziende."
+ },
+ {
+  "id": "s34",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' la valutazione delle tecnologie, la HTA. Nuove apparecchiature e nuovi investimenti passano dal parere di una commissione regionale, la CRITE."
+ },
+ {
+  "id": "s35",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' l'innovazione verso il cittadino: il CUP on line, il promemoria automatico delle visite, la disdetta a qualunque ora, il ticket pagato con lo smartphone."
+ },
+ {
+  "id": "s36",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' l'innovazione organizzativa: sistemi informativi unici, flussi di dati omogenei, reti cliniche, e il raccordo tra ricerca, sperimentazione e servizi."
+ },
+ {
+  "id": "s37",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio dell'innovazione: dati e tecnologie comuni, governati una volta sola per tutto il sistema."
+ },
+ {
+  "id": "s38",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sesto principio: la partecipazione. L'articolo 14 chiede un sistema che garantisca la trasparenza organizzativa e la partecipazione dei cittadini."
+ },
+ {
+  "id": "s39",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E chiede di riconoscere le prerogative degli enti locali nella programmazione sanitaria e socio-sanitaria. I Comuni non sono spettatori della sanita'."
+ },
+ {
+  "id": "s40",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti sono due. In ogni ULSS la Conferenza dei Sindaci. In ogni distretto il Comitato dei Sindaci, che approva il Piano di Zona e il bilancio della parte sociale."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi un canale di controllo: l'Osservatorio regionale raccoglie le richieste dei Comitati dei Sindaci che rappresentano almeno due terzi della popolazione interessata, nella stessa provincia."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: il Piano di Zona non lo approva la Regione, e nemmeno il direttore generale. Lo elabora e lo approva il Comitato dei Sindaci del distretto."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il principio della partecipazione: le scelte sulla salute di un territorio si fanno con chi quel territorio lo amministra."
+ },
+ {
+  "id": "s44",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: la cornice dei principi e' l'equita' e l'universalita' del sistema, con prestazioni appropriate e uniformi su tutto il territorio regionale."
+ },
+ {
+  "id": "s45",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: i criteri della riorganizzazione stanno all'articolo 14, le finalita' della riorganizzazione dei servizi all'articolo 15."
+ },
+ {
+  "id": "s46",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: le soglie della legge. Ospedali di comunita' piu' quindici per cento entro il 2017. Medicine di gruppo integrate: sessanta per cento entro il 2017, ottanta entro il 2018."
+ },
+ {
+  "id": "s47",
+  "capitolo": 9,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: gli ambiti ottimali non coincidono sempre con la provincia. Venezia e Vicenza hanno due ULSS ciascuna."
+ },
+ {
+  "id": "s48",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] In sintesi: aziende della giusta misura, territorio forte, servizi integrati, medici in squadra, tecnologie comuni, Comuni coinvolti. Nella prossima lezione, il pezzo piu' nuovo della riforma: Azienda Zero."
+ }
+]

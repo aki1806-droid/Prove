@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:15,460
+Nella lezione precedente abbiamo visto i quattro nodi. Oggi vediamo con quali idee la legge 19 del 2016 li scioglie. Sono sei, e le chiameremo i sei principi ispiratori.
+
+2
+00:00:15,460 --> 00:00:26,130
+Non cercarli in un elenco numerato della legge: non c'e'. Sono sparsi nei criteri dell'articolo 14 e nelle finalita' dell'articolo 15. Il nostro lavoro e' metterli in fila.
+
+3
+00:00:26,130 --> 00:00:38,070
+Sopra tutti e sei c'e' una cornice, scritta per prima all'articolo 14: garantire l'equita' e l'universalita' del sistema sanitario, con prestazioni appropriate e uniformi.
+
+4
+00:00:38,070 --> 00:00:49,940
+I sei principi, in ordine. Ambiti ottimali. Territorio. Integrazione. Medicina generale. Innovazione. Partecipazione. Per ognuno vedremo cosa dice e dove sta scritto.
+
+5
+00:00:49,940 --> 00:01:00,720
+Primo principio: gli ambiti ottimali. L'articolo 14 chiede di individuare le dimensioni ottimali delle aziende ULSS, per migliorare qualita' ed efficienza e ridurre i costi.
+
+6
+00:01:00,720 --> 00:01:11,170
+Ottimale non vuol dire il piu' grande possibile. Vuol dire abbastanza grande da avere volumi, competenze e forza negli acquisti, e abbastanza vicino da conoscere il suo territorio.
+
+7
+00:01:11,170 --> 00:01:20,690
+La scelta del Veneto e' in gran parte provinciale. Belluno, Treviso, Padova, Rovigo e Verona hanno ciascuna una sola ULSS, estesa a tutta la provincia.
+
+8
+00:01:20,690 --> 00:01:31,290
+Fanno eccezione due province. Venezia ne ha due, la Serenissima e il Veneto Orientale. Vicenza ne ha due, la Pedemontana e la Berica. In tutto, nove aziende.
+
+9
+00:01:31,290 --> 00:01:45,730
+Ogni azienda ha un nome oltre al numero: Dolomiti, Marca trevigiana, Serenissima, Veneto Orientale, Polesana, Euganea, Pedemontana, Berica, Scaligera. Li vedremo uno per uno nella lezione due punto quattro.
+
+10
+00:01:45,730 --> 00:01:54,780
+Il risultato: una ULSS veneta serve in media circa cinquecentoquarantacinquemila abitanti, contro una media italiana di circa cinquecentoduemila.
+
+11
+00:01:54,780 --> 00:02:05,210
+Attenzione: ambiti piu' grandi non vuol dire servizi piu' lontani. La stessa legge chiede alle nuove aziende una rete capillare di sportelli e servizi, per facilitare l'accesso.
+
+12
+00:02:05,210 --> 00:02:15,990
+Secondo principio: il territorio. L'articolo 15 chiede di sviluppare la rete dell'assistenza territoriale, con un approccio multidisciplinare, per garantire la continuita' delle cure.
+
+13
+00:02:15,990 --> 00:02:27,320
+Continuita' delle cure vuol dire che il paziente non ricomincia da capo a ogni passaggio: dall'ospedale a casa, dal medico di famiglia allo specialista, dalla fase acuta alla riabilitazione.
+
+14
+00:02:27,320 --> 00:02:39,060
+Lo strumento chiave sono le strutture intermedie, a meta' strada tra casa e ospedale. La prima e' l'ospedale di comunita': un ricovero breve, a bassa intensita', gestito soprattutto dagli infermieri.
+
+15
+00:02:39,060 --> 00:02:49,840
+E la legge fissa un obiettivo preciso: entro il 31 dicembre 2017, piu' quindici per cento di posti letto negli ospedali di comunita', rispetto alla programmazione di allora.
+
+16
+00:02:49,840 --> 00:03:01,770
+Nello stesso tempo l'ospedale cambia ruolo: l'articolo 15 chiede di rideterminare l'offerta ospedaliera secondo una logica di rete coordinata. La vedremo nella lezione sulla rete hub and spoke.
+
+17
+00:03:01,770 --> 00:03:08,460
+Il principio del territorio: curare vicino a casa tutto quello che non ha bisogno dell'ospedale.
+
+18
+00:03:08,460 --> 00:03:17,170
+Terzo principio: l'integrazione. L'articolo 15 parla di sostenere il modello socio-sanitario veneto di servizi integrati alla persona.
+
+19
+00:03:17,170 --> 00:03:27,910
+Integrazione ha due significati. Il primo: tra ospedale e territorio, perche' il paziente passi dall'uno all'altro senza buchi. Il secondo: tra sanitario e sociale.
+
+20
+00:03:27,910 --> 00:03:39,690
+La legge elenca le aree dove l'integrazione conta di piu': famiglia, infanzia, adolescenza, giovani, anziani, disabili, dipendenze, salute mentale, sanita' penitenziaria.
+
+21
+00:03:39,690 --> 00:03:50,890
+E la traduce in organizzazione. Il direttore dei servizi sociali e della funzione territoriale cambia nome: diventa direttore dei servizi socio-sanitari. Il nome dice la funzione.
+
+22
+00:03:50,890 --> 00:04:03,070
+In ogni distretto la legge prevede unita' operative dedicate: cure primarie, infanzia adolescenza famiglia e consultori, disabilita' e non autosufficienza, cure palliative, attivita' specialistica.
+
+23
+00:04:03,070 --> 00:04:10,150
+Il principio dell'integrazione: la persona al centro, e i servizi che si organizzano intorno a lei.
+
+24
+00:04:10,150 --> 00:04:19,330
+Quarto principio: la medicina generale. Il medico di famiglia e' la porta d'ingresso del sistema. Se lavora da solo, il territorio resta debole.
+
+25
+00:04:19,330 --> 00:04:29,460
+La risposta del Veneto e' la medicina di gruppo integrata: piu' medici di famiglia nella stessa sede, con infermieri e personale di segreteria, aperti per gran parte della giornata.
+
+26
+00:04:29,460 --> 00:04:40,110
+La legge 19 fissa le soglie: almeno il sessanta per cento dei medici di famiglia in medicina di gruppo integrata entro il 2017, e almeno l'ottanta per cento entro il 2018.
+
+27
+00:04:40,110 --> 00:04:49,460
+E coinvolge i Comuni: il Comitato dei Sindaci di distretto esprime parere sull'attivazione delle medicine di gruppo integrate, e collabora anche mettendo a disposizione le sedi.
+
+28
+00:04:49,460 --> 00:05:00,140
+La medicina generale entra anche nella prevenzione: l'articolo 15 chiede di integrare i Dipartimenti di Prevenzione, i distretti, i medici di famiglia e i pediatri di libera scelta.
+
+29
+00:05:00,140 --> 00:05:06,940
+Il principio della medicina generale: il medico di famiglia non da solo, ma dentro una squadra.
+
+30
+00:05:06,940 --> 00:05:13,740
+Quinto principio: l'innovazione. La legge la declina in strumenti concreti, e quasi tutti passano per Azienda Zero.
+
+31
+00:05:13,740 --> 00:05:24,700
+Il primo e' il fascicolo sanitario elettronico: la storia clinica digitale del cittadino. La legge chiede ad Azienda Zero di attivarlo entro un anno, con una tessera sanitaria elettronica per tutti i veneti.
+
+32
+00:05:24,700 --> 00:05:34,400
+E il fascicolo vale anche per il privato: gli enti privati convenzionati hanno l'obbligo di partecipare, anche ai fini dell'accreditamento. Una sola rete regionale collega tutte le aziende.
+
+33
+00:05:34,400 --> 00:05:43,400
+Il secondo e' la valutazione delle tecnologie, la HTA. Nuove apparecchiature e nuovi investimenti passano dal parere di una commissione regionale, la CRITE.
+
+34
+00:05:43,400 --> 00:05:52,730
+Il terzo e' l'innovazione verso il cittadino: il CUP on line, il promemoria automatico delle visite, la disdetta a qualunque ora, il ticket pagato con lo smartphone.
+
+35
+00:05:52,730 --> 00:06:02,320
+E c'e' l'innovazione organizzativa: sistemi informativi unici, flussi di dati omogenei, reti cliniche, e il raccordo tra ricerca, sperimentazione e servizi.
+
+36
+00:06:02,320 --> 00:06:09,400
+Il principio dell'innovazione: dati e tecnologie comuni, governati una volta sola per tutto il sistema.
+
+37
+00:06:09,400 --> 00:06:17,750
+Sesto principio: la partecipazione. L'articolo 14 chiede un sistema che garantisca la trasparenza organizzativa e la partecipazione dei cittadini.
+
+38
+00:06:17,750 --> 00:06:25,660
+E chiede di riconoscere le prerogative degli enti locali nella programmazione sanitaria e socio-sanitaria. I Comuni non sono spettatori della sanita'.
+
+39
+00:06:25,660 --> 00:06:34,880
+Gli strumenti sono due. In ogni ULSS la Conferenza dei Sindaci. In ogni distretto il Comitato dei Sindaci, che approva il Piano di Zona e il bilancio della parte sociale.
+
+40
+00:06:34,880 --> 00:06:44,850
+C'e' poi un canale di controllo: l'Osservatorio regionale raccoglie le richieste dei Comitati dei Sindaci che rappresentano almeno due terzi della popolazione interessata, nella stessa provincia.
+
+41
+00:06:44,850 --> 00:06:53,860
+Un distrattore frequente: il Piano di Zona non lo approva la Regione, e nemmeno il direttore generale. Lo elabora e lo approva il Comitato dei Sindaci del distretto.
+
+42
+00:06:53,860 --> 00:07:01,310
+Il principio della partecipazione: le scelte sulla salute di un territorio si fanno con chi quel territorio lo amministra.
+
+43
+00:07:01,310 --> 00:07:11,170
+Le tre cose che ti chiederanno. La prima: la cornice dei principi e' l'equita' e l'universalita' del sistema, con prestazioni appropriate e uniformi su tutto il territorio regionale.
+
+44
+00:07:11,170 --> 00:07:19,060
+La seconda: i criteri della riorganizzazione stanno all'articolo 14, le finalita' della riorganizzazione dei servizi all'articolo 15.
+
+45
+00:07:19,060 --> 00:07:31,640
+La terza: le soglie della legge. Ospedali di comunita' piu' quindici per cento entro il 2017. Medicine di gruppo integrate: sessanta per cento entro il 2017, ottanta entro il 2018.
+
+46
+00:07:31,640 --> 00:07:38,500
+L'ultimo distrattore: gli ambiti ottimali non coincidono sempre con la provincia. Venezia e Vicenza hanno due ULSS ciascuna.
+
+47
+00:07:38,500 --> 00:07:50,750
+In sintesi: aziende della giusta misura, territorio forte, servizi integrati, medici in squadra, tecnologie comuni, Comuni coinvolti. Nella prossima lezione, il pezzo piu' nuovo della riforma: Azienda Zero.
