@@ -9,12 +9,12 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | | valore |
 |---|---|
 | blocchi / scene | 43 / 45 |
-| caratteri | 7,374 con i tag |
+| caratteri | 7.374 con i tag |
 | stacco | dopo **s24** |
-| grezzo | A 298.64 s · B 260.48 s = 559.1 s |
-| parlato lavorato | **433.0 s** (4 pose) |
-| CPS misurato | 17.0 car/s sul lavorato (la 1.1 dava 16,8) |
-| rapporto grezzo/lavorato | 1.29 |
+| grezzo | A 298,64 s · B 260,48 s = 559,1 s |
+| parlato lavorato | **433,0 s** (4 pose) |
+| CPS misurato | 17,0 car/s sul lavorato (la 1.1 dava 16,8) |
+| rapporto grezzo/lavorato | 1,29 |
 | montato locale | **7:26,24** |
 | montato HeyGen | **{HG}** |
 
@@ -31,11 +31,11 @@ Regola per il corso: **i numeri romani vanno scritti in lettere nel parlato**.
 - **Trascrizione delle tracce intere** (da asset audio, `eleven_scribe_v1`):
   A: 614/614 parole, 0 buchi
   B: 545/545 parole, 0 buchi
-- **Confini**: Una coppia sospetta nella traccia A rigenerata, decisa col conto sul grezzo: il confine giusto è la pausa successiva. Dopo: nessuna coppia sospetta.
+- **Confini**: una coppia sospetta nella traccia A rigenerata, decisa col conto sul grezzo: il confine giusto è la pausa successiva. Dopo: nessuna coppia sospetta.
   `audio/correzioni.json` = `{"A": {"6": {"pause": 1}}}` (sulla traccia rigenerata).
 - **Temi cambiati rispetto al copione**: **s24** da `profondo` a `chiaro`: è una piramide (le tre aree dei LEA).
 - **Slide**: PNG guardati in provini da nove, traboccamento verificato con i caratteri veri.
-- nessuna correzione dopo i provini.
+  - nessuna correzione dopo i provini.
 - `controlli.py`: 8/8.
 
 ## Montaggio
@@ -48,12 +48,12 @@ Regola per il corso: **i numeri romani vanno scritti in lettere nel parlato**.
 ## Costo
 
 ```
-voce. due tracce. 7.374 caratteri con i tag. eleven_v3   ≈ $1.22
-trascrizione delle due tracce intere             ≈ $0.52
-voce SCARTATA («Titolo cinque»)                  ≈ $1.22
-trascrizione della voce scartata                 ≈ $0.52
-                                                  -------
-                                                  ≈ $3.48
+voce, due tracce, 7.374 caratteri con i tag, eleven_v3   ≈ $1,22
+trascrizione delle due tracce intere              ≈ $0,52
+voce SCARTATA («Titolo cinque»)                   ≈ $1,22
+trascrizione della voce scartata                  ≈ $0,52
+                                                   -------
+                                                   ≈ $3,48
 ```
 Le cifre per lezione sono ripartite in proporzione ai caratteri sul costo misurato del modulo
 (voce $6,17 + $2,45 di rigenerazione; trascrizioni $2,58 + $1,00 per le lezioni 1.2–1.6).

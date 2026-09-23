@@ -9,12 +9,12 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | | valore |
 |---|---|
 | blocchi / scene | 43 / 45 |
-| caratteri | 7,313 con i tag |
+| caratteri | 7.313 con i tag |
 | stacco | dopo **s27** |
-| grezzo | A 333.28 s · B 230.56 s = 563.8 s |
-| parlato lavorato | **420.3 s** (4 pose) |
-| CPS misurato | 17.4 car/s sul lavorato (la 1.1 dava 16,8) |
-| rapporto grezzo/lavorato | 1.34 |
+| grezzo | A 333,28 s · B 230,56 s = 563,8 s |
+| parlato lavorato | **420,3 s** (4 pose) |
+| CPS misurato | 17,4 car/s sul lavorato (la 1.1 dava 16,8) |
+| rapporto grezzo/lavorato | 1,34 |
 | montato locale | **7:13,60** |
 | montato HeyGen | **7:12,39 (432,39 s; 1,21 s meno del locale)** |
 
@@ -28,8 +28,8 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
   `audio/correzioni.json` = `{"A": {"15": {"pause": -1}, "21": {"pause": -1}, "22": {"pause": -1}}}`.
 - **Temi cambiati rispetto al copione**: **s16** da `profondo` a `chiaro`: è una tabella, e i grafici di dati sul fondo profondo non si leggono (regola della libreria).
 - **Slide**: PNG guardati in provini da nove, traboccamento verificato con i caratteri veri.
-- **s03**: layout a sostituzione cambiato in `confronto`: barrava «alla Regione» e faceva capire il contrario di quello che dice il parlato.
-- **s15**: corretta dopo i provini.
+  - **s03**: layout a sostituzione cambiato in `confronto`: barrava «alla Regione» e faceva capire il contrario di quello che dice il parlato.
+  - **s15**: corretta dopo i provini.
 - `controlli.py`: 8/8.
 
 ## Montaggio
@@ -42,10 +42,10 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 ## Costo
 
 ```
-voce. due tracce. 7.313 caratteri con i tag. eleven_v3   ≈ $1.21
-trascrizione delle due tracce intere             ≈ $0.52
-                                                  -------
-                                                  ≈ $1.73
+voce, due tracce, 7.313 caratteri con i tag, eleven_v3   ≈ $1,21
+trascrizione delle due tracce intere              ≈ $0,52
+                                                   -------
+                                                   ≈ $1,73
 ```
 Le cifre per lezione sono ripartite in proporzione ai caratteri sul costo misurato del modulo
 (voce $6,17 + $2,45 di rigenerazione; trascrizioni $2,58 + $1,00 per le lezioni 1.2–1.6).

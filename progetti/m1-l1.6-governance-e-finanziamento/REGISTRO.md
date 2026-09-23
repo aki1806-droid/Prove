@@ -9,12 +9,12 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | | valore |
 |---|---|
 | blocchi / scene | 43 / 45 |
-| caratteri | 7,334 con i tag |
+| caratteri | 7.334 con i tag |
 | stacco | dopo **s24** |
-| grezzo | A 290.16 s · B 256.56 s = 546.7 s |
-| parlato lavorato | **418.4 s** (4 pose) |
-| CPS misurato | 17.5 car/s sul lavorato (la 1.1 dava 16,8) |
-| rapporto grezzo/lavorato | 1.31 |
+| grezzo | A 290,16 s · B 256,56 s = 546,7 s |
+| parlato lavorato | **418,4 s** (4 pose) |
+| CPS misurato | 17,5 car/s sul lavorato (la 1.1 dava 16,8) |
+| rapporto grezzo/lavorato | 1,31 |
 | montato locale | **7:11,40** |
 | montato HeyGen | **{HG}** |
 
@@ -35,7 +35,7 @@ Regola per il corso: **i numeri romani vanno scritti in lettere nel parlato**.
   `audio/correzioni.json` = nessuna.
 - **Temi cambiati rispetto al copione**: nessuno.
 - **Slide**: PNG guardati in provini da nove, traboccamento verificato con i caratteri veri.
-- **s27**: layout barrato cambiato in `confronto`, come nella 1.3 e nella 1.4.
+  - **s27**: layout barrato cambiato in `confronto`, come nella 1.3 e nella 1.4.
 - `controlli.py`: 8/8.
 
 ## Montaggio
@@ -48,12 +48,12 @@ Regola per il corso: **i numeri romani vanno scritti in lettere nel parlato**.
 ## Costo
 
 ```
-voce. due tracce. 7.334 caratteri con i tag. eleven_v3   ≈ $1.21
-trascrizione delle due tracce intere             ≈ $0.52
-voce SCARTATA («Titolo cinque»)                  ≈ $1.21
-trascrizione della voce scartata                 ≈ $0.52
-                                                  -------
-                                                  ≈ $3.46
+voce, due tracce, 7.334 caratteri con i tag, eleven_v3   ≈ $1,21
+trascrizione delle due tracce intere              ≈ $0,52
+voce SCARTATA («Titolo cinque»)                   ≈ $1,21
+trascrizione della voce scartata                  ≈ $0,52
+                                                   -------
+                                                   ≈ $3,46
 ```
 Le cifre per lezione sono ripartite in proporzione ai caratteri sul costo misurato del modulo
 (voce $6,17 + $2,45 di rigenerazione; trascrizioni $2,58 + $1,00 per le lezioni 1.2–1.6).

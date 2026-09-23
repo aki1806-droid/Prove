@@ -9,12 +9,12 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | | valore |
 |---|---|
 | blocchi / scene | 42 / 44 |
-| caratteri | 7,512 con i tag |
+| caratteri | 7.512 con i tag |
 | stacco | dopo **s19** |
-| grezzo | A 253.76 s · B 333.44 s = 587.2 s |
-| parlato lavorato | **445.1 s** (4 pose) |
-| CPS misurato | 16.9 car/s sul lavorato (la 1.1 dava 16,8) |
-| rapporto grezzo/lavorato | 1.32 |
+| grezzo | A 253,76 s · B 333,44 s = 587,2 s |
+| parlato lavorato | **445,1 s** (4 pose) |
+| CPS misurato | 16,9 car/s sul lavorato (la 1.1 dava 16,8) |
+| rapporto grezzo/lavorato | 1,32 |
 | montato locale | **7:38,36** |
 | montato HeyGen | **7:37,22 (457,22 s; 1,14 s meno del locale)** |
 
@@ -28,10 +28,10 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
   `audio/correzioni.json` = `{"A": {"14": {"pause": -1}}, "B": {"10": {"pause": -1}}}`.
 - **Temi cambiati rispetto al copione**: nessuno: i temi del copione erano già compatibili con i tipi di slide.
 - **Slide**: PNG guardati in provini da nove, traboccamento verificato con i caratteri veri.
-- **s15**: da `tre` a `griglia`.
-- **s35**: da `impila` a `frase`.
-- **s17**: etichetta accorciata.
-- **s23**: tolta l'etichetta finale dell'asse del tempo.
+  - **s15**: da `tre` a `griglia`.
+  - **s35**: da `impila` a `frase`.
+  - **s17**: etichetta accorciata.
+  - **s23**: tolta l'etichetta finale dell'asse del tempo.
 - `controlli.py`: 8/8.
 
 ## Montaggio
@@ -44,10 +44,10 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 ## Costo
 
 ```
-voce. due tracce. 7.512 caratteri con i tag. eleven_v3   ≈ $1.24
-trascrizione delle due tracce intere             ≈ $0.52
-                                                  -------
-                                                  ≈ $1.76
+voce, due tracce, 7.512 caratteri con i tag, eleven_v3   ≈ $1,24
+trascrizione delle due tracce intere              ≈ $0,52
+                                                   -------
+                                                   ≈ $1,76
 ```
 Le cifre per lezione sono ripartite in proporzione ai caratteri sul costo misurato del modulo
 (voce $6,17 + $2,45 di rigenerazione; trascrizioni $2,58 + $1,00 per le lezioni 1.2–1.6).
