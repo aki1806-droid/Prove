@@ -16,7 +16,7 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | CPS misurato | 17,0 car/s sul lavorato (la 1.1 dava 16,8) |
 | rapporto grezzo/lavorato | 1,29 |
 | montato locale | **7:26,24** |
-| montato HeyGen | **{HG}** |
+| montato HeyGen | **7:25,06 (445,06 s; 1,18 s meno del locale)** |
 
 ## Voce rigenerata: «Titolo quinto»
 
@@ -40,9 +40,10 @@ Regola per il corso: **i numeri romani vanno scritti in lettere nel parlato**.
 
 ## Montaggio
 
-- Lotto HeyGen `{LOTTO}`: 88 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Lotto HeyGen `b9a4d67b425c444aba2f7dd104298ce6`: 88 file accoppiati per posizione, 0 discordi sul `content-type`.
+- **s15.mp3 è rimasto in `processing`**: ricaricato da solo nel lotto `52523b7875a9435fab4b40bc30b79c78` (asset `06d8f477096a45fa82b85e66dc9fb33e`).
 - Payload: 45 scene; 43 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
+- Video HeyGen: `2090390849b720dc64264ebed129c821` (https://app.heygen.com/videos/2090390849b720dc64264ebed129c821).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo
