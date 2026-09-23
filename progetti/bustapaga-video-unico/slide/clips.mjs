@@ -1,6 +1,31 @@
 // Dallo stesso layout dei PNG: i fotogrammi dell'ingresso, poi mp4 a 25 fps.
 // Il tempo non scorre da solo: ogni fotogramma sposta a mano l'orologio delle
-// animazioni, cosi' il render e' identico a ogni esecuzione.
+// animazioni, cosi' ogni fotogramma cade sullo STESSO istante dell'animazione
+// a ogni esecuzione.
+//
+// Questo e' quanto si puo' promettere, e va detto con precisione: l'istante e'
+// deterministico, la RASTERIZZAZIONE no. Rifacendo tutte e 203 le clip, 62 sono
+// uscite diverse byte per byte dalla corsa precedente — mentre le 218 slide
+// ferme di cards.mjs sono uscite tutte identiche.
+//
+// Misurato, non supposto: sul fotogramma finale di s003 le differenze stanno
+// solo sui bordi delle lettere e dei riquadri, mediana 2/255, 95mo percentile
+// 6/255, massimo 23/255, con il 97,8% sotto 8/255. E' variazione di
+// antialiasing del testo: invisibile a occhio, e comunque sotto a quello che
+// l'H.264 conserva. Niente si sposta, niente cambia stato.
+//
+// Perche' qui e non in cards.mjs: li' l'orologio va a 4000 ms, cioe' oltre la
+// fine di ogni animazione, e fra il salto e lo scatto c'e' la misura del
+// traboccamento — tutto e' fermo e assestato. Qui si scatta subito dopo aver
+// spostato l'orologio, 45 volte di fila, mentre gli elementi sono a meta' di
+// una traslazione di frazioni di pixel; il livello di composizione che
+// l'animazione promuove si porta dietro un posizionamento sub-pixel che dipende
+// da come e' andata la corsa.
+//
+// NON si corregge forzando la rasterizzazione (--disable-lcd-text e simili):
+// cambierebbe l'aspetto del testo di tutte e 218 le slide per aggiustare una
+// cosa che nessuno puo' vedere. Si scrive qui, e si smette di usare l'MD5 di
+// una clip come prova di riproducibilita': la prova buona e' il PNG.
 import { chromium } from 'playwright';
 import { mkdirSync, rmSync, existsSync, readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';

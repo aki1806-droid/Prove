@@ -943,6 +943,68 @@ l'atempo (l'utente lo tolse, perche' con lui il video usciva gia' giusto),
 Francesca ha 1.08 perche' lei e' piu' lenta. Stesso copione, stessi 203 blocchi,
 stesse 218 scene.
 
+## La catena rifatta da zero: cosa e' riproducibile e cosa no
+
+L'utente ha rilanciato tutta la catena dopo un riavvio del contenitore. Il
+disco era intatto — mp3 compresi — quindi non e' stato un recupero ma una
+ricostruzione completa, che nessuno aveva ancora fatto. Ha risposto a una
+domanda che era rimasta aperta per costruzione.
+
+**La parte ffmpeg e' riproducibile bit per bit.** Rifatte le 203 scene per
+voce, i due montaggi, i sottotitoli, gli indici e i pezzi: i due montati sono
+usciti con lo STESSO MD5 di prima.
+
+    montato-busta-paga-60min.mp4           MD5 identico
+    montato-busta-paga-60min-achille.mp4   MD5 identico
+
+**Il browser lo e' a meta', e la meta' che conta e' quella buona.**
+
+    218 slide ferme (cards.mjs)     218 su 218 identiche byte per byte
+    203 clip animate (clips.mjs)     62 su 203 DIVERSE
+    troppo-alte.json                 identico
+
+Le 62 non sono un cambiamento: sono non determinismo fra esecuzioni. Rifacendo
+una singola clip due volte di fila, s003 e s011 escono diverse e s002 identica.
+
+Misurato invece che supposto, sul fotogramma finale di s003 (che e' quello che
+conta di piu': `tpad=stop_mode=clone` lo tiene fermo per tutta la scena):
+
+    pixel diversi   119.220 su 2.073.600   (5,75%)
+    scarto          mediana 2/255 · 95mo percentile 6/255 · massimo 23/255
+    sotto 8/255     97,8%
+
+E le differenze stanno SOLO sui bordi delle lettere e dei riquadri: amplificate
+dieci volte si vede il testo in controluce, e nient'altro. Niente si e' spostato,
+nessun elemento e' in uno stato diverso. E' variazione di antialiasing, sotto la
+soglia di visibilita' e sotto a quello che l'H.264 conserva a CRF 18.
+
+Perche' proprio nelle clip e non nelle slide ferme. In `cards.mjs` l'orologio
+delle animazioni va a 4.000 ms — oltre la fine di qualunque ingresso — e fra il
+salto e lo scatto c'e' la misura del traboccamento: tutto e' fermo e assestato.
+In `clips.mjs` si scatta subito dopo aver spostato l'orologio, 45 volte di fila,
+mentre gli elementi sono a meta' di una traslazione di frazioni di pixel. Il
+livello di composizione che l'animazione promuove si porta dietro un
+posizionamento sub-pixel che dipende da come e' andata la corsa — e resta
+costante fino alla fine della clip, che e' esattamente quello che si vede nei
+numeri (dal fotogramma 24 in poi lo scarto non cambia piu').
+
+**Non l'ho corretto, ed e' una scelta.** Si potrebbe forzare la rasterizzazione
+con `--disable-lcd-text` o `--disable-font-subpixel-positioning`, ma quei
+parametri cambiano l'aspetto del testo di tutte e 218 le slide per aggiustare
+una cosa che nessuno puo' vedere. Quello che ho corretto e' la PROMESSA: il
+commento in cima a `clips.mjs` diceva «cosi' il render e' identico a ogni
+esecuzione», e non era vero. Deterministico e' l'ISTANTE su cui cade ogni
+fotogramma; la rasterizzazione no.
+
+Conseguenza pratica, per chi verifica: **l'MD5 di una clip o di un montato non
+e' una prova di riproducibilita' del render.** La prova buona e' il PNG, che e'
+stabile su tutte e 218 — ed e' anche quello su cui lavora il controllo 4.
+
+Nota sullo stato del disco: le clip ora in `slide/mp4/` vengono da questa
+ricostruzione, mentre `scene/`, `scene-achille/` e i due montati vengono dalle
+clip di prima. Visivamente e' la stessa cosa, e la prossima corsa completa
+riallinea tutto; e' scritto qui perche' non sembri una svista.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -984,6 +1046,10 @@ stesse 218 scene.
 - **L'edizione con Achille non l'ha guardata nessuno.** E' ricostruita dai
   blocchi salvati e i numeri tornano al millisecondo con quelli di prima del
   cambio di voce, ma nessuno l'ha vista ne' sentita dopo il rimontaggio.
+- **Perche' 62 clip su 203 e non tutte** non l'ho stabilito. Le 14 con
+  fotografia ci sono tutte, ma le altre 48 non seguono un tipo di corpo
+  solo. La domanda non cambia il video — lo scarto e' invisibile — ma se
+  un giorno servisse un render riproducibile bit per bit, si comincia da li'.
 - **Nessuno ha guardato il montato.** E' stato costruito e misurato, non visto:
   un'ora di video non si giudica dai numeri. Da guardare almeno gli attacchi dei
   tredici capitoli, dove la card muta incontra la prima scena parlata, e la
