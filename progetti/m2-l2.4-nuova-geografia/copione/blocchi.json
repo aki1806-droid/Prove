@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Se lavori a Feltre, a Chioggia o a Legnago, dal primo gennaio 2017 il tuo datore di lavoro ha cambiato nome. Senza un trasferimento, senza una firma: l'ha deciso una legge."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'articolo 14 della legge regionale 19 del 2016. Ridisegna la mappa sanitaria del Veneto: da ventuno aziende ULSS a nove."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nei quiz questa mappa torna di continuo: quale ULSS ha incorporato quale, dove sta la sede, come si chiama oggi. Oggi la impariamo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre passaggi. Il meccanismo giuridico con cui si passa da ventuno a nove. Le nove ULSS, una per una. E le aziende che restano fuori dalla mappa delle ULSS: le due ospedaliero-universitarie e lo IOV."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di tutto la data. Il nuovo assetto decorre dal primo gennaio 2017, anche se la legge e' del 25 ottobre 2016."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il meccanismo e' la soppressione con incorporazione. Dodici aziende ULSS vengono soppresse. Le altre nove restano, cambiano nome e incorporano le soppresse del loro territorio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le dodici soppresse sono: Feltre, Alto Vicentino, Ovest Vicentino, Pieve di Soligo, Asolo, Mirano, Chioggia, Alta Padovana, Este, Adria, Legnago e Bussolengo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nota un dettaglio da quiz: le aziende incorporanti mantengono la loro sede legale. La sede di Treviso resta a Treviso, quella di Bassano resta a Bassano."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cambia anche la numerazione. Le vecchie ULSS andavano da uno a ventidue. Le nuove vanno da uno a nove, e ognuna ha un nome oltre al numero."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: incorporazione non vuol dire chiusura dei servizi. Ospedali, distretti e sportelli delle aziende soppresse restano, e passano all'azienda che le incorpora."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vediamole una per una, partendo da nord. L'ULSS 1 Dolomiti. Era l'ULSS di Belluno, e incorpora Feltre. Il suo territorio e' tutta la provincia di Belluno."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 2 Marca trevigiana. Era l'ULSS 9 di Treviso, e incorpora due aziende: Pieve di Soligo e Asolo. Il territorio e' tutta la provincia di Treviso."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 3 Serenissima. Era l'ULSS 12 veneziana, e incorpora Mirano e Chioggia. La sede resta a Venezia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 4 Veneto Orientale. E' l'unica che non incorpora nessuno: era l'ULSS 10, cambia solo nome e numero. La sede e' a San Dona' di Piave."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi la provincia di Venezia ha due ULSS: la Serenissima e il Veneto Orientale. E' una delle due eccezioni alla regola della provincia."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 5 Polesana. Era l'ULSS 18 di Rovigo, e incorpora Adria. Il territorio e' tutta la provincia di Rovigo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 6 Euganea. Era l'ULSS 16 di Padova, e incorpora Alta Padovana ed Este. Il territorio e' tutta la provincia di Padova. E' l'ULSS che circonda l'Azienda Ospedale-Universita' di Padova."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 7 Pedemontana. Era l'ULSS 3 di Bassano del Grappa, e incorpora l'Alto Vicentino. La sede resta a Bassano."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 8 Berica. Era l'ULSS 6 di Vicenza, e incorpora l'Ovest Vicentino. La sede resta a Vicenza. Ecco la seconda eccezione: la provincia di Vicenza ha due ULSS, Pedemontana e Berica."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ULSS 9 Scaligera. Era l'ULSS 20 di Verona, e incorpora due aziende: Legnago e Bussolengo. Il territorio e' tutta la provincia di Verona."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un modo per ricordarle: quattro ULSS incorporano due aziende ciascuna. Marca trevigiana, Serenissima, Euganea e Scaligera. Altre quattro ne incorporano una. Il Veneto Orientale, nessuna."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il conto torna: quattro per due fa otto, piu' le quattro che ne incorporano una sola, cioe' Dolomiti, Polesana, Pedemontana e Berica. Otto piu' quattro: dodici soppresse."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Occhio ai numeri, perche' i quiz ci giocano. La vecchia ULSS 9 era Treviso, la nuova ULSS 9 e' Verona. La vecchia ULSS 6 era Vicenza, la nuova ULSS 6 e' Padova."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nove aziende, sette province. Una sola ULSS per provincia, tranne Venezia e Vicenza, che ne hanno due."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mappa delle ULSS non e' tutto. L'articolo 14 chiede di tenere conto delle altre aziende presenti sul territorio: le due aziende ospedaliere di Padova e di Verona, lo IOV e Azienda Zero."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A Padova c'e' l'Azienda Ospedale-Universita', che integra assistenza, didattica e ricerca con l'Universita' di Padova. E' l'azienda che vedrai da vicino nel modulo quattro."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A Verona c'e' l'Azienda Ospedaliera Universitaria Integrata, con l'Universita' di Verona. Il Piano socio-sanitario le indica entrambe come ospedali di eccellenza di rilievo regionale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi l'Istituto Oncologico Veneto, lo IOV: un istituto di ricovero e cura a carattere scientifico, riferimento regionale per la patologia oncologica."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Queste aziende non hanno un territorio con dei residenti. Stanno dentro il territorio di una ULSS, ma non ne fanno parte: sono aziende autonome, con i loro organi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro complessivo, allora: nove ULSS, due aziende ospedaliero-universitarie, un istituto oncologico. E sopra di loro, per le funzioni comuni, Azienda Zero."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con nove aziende ULSS il Veneto ha in media circa cinquecentoquarantacinquemila abitanti per azienda. La media nazionale e' di circa cinquecentoduemila."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa succede dopo il primo gennaio 2017? Ogni riferimento normativo ai vecchi bacini delle ULSS si intende riferito ai nuovi ambiti."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I territori delle vecchie ULSS non spariscono: diventano distretti della nuova azienda, con funzioni di coordinamento tra l'ospedale e la rete territoriale. Lo vedremo nella lezione due punto sei."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le nuove aziende devono garantire un'organizzazione capillare di sportelli e servizi, per facilitare l'accesso dei cittadini alle prestazioni."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le zone con esigenze particolari, come i flussi turistici o l'emergenza-urgenza, la Giunta puo' introdurre modelli gestionali e organizzativi particolari, sentite le Conferenze dei Sindaci."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la legge chiede di misurare il risultato. Dopo il bilancio consuntivo del 2017 l'Area Sanita' e Sociale, con Azienda Zero, quantifica i risparmi del primo anno."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quei risparmi servono a un piano di interventi per rendere omogenei i servizi dentro ogni nuova azienda. I risparmi della fusione tornano ai cittadini dello stesso territorio."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine la verifica: dopo il primo triennio la Giunta valuta l'assetto delle ULSS, con l'Osservatorio regionale e gli Osservatori aziendali. E sulla base dei risultati puo' proporre nuove leggi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La mappa, quindi, non e' definitiva per legge: e' sottoposta a verifica periodica. L'assetto a nove ULSS e' quello su cui si basa tutta la programmazione successiva."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aziende piu' grandi, direzioni piu' robuste. La legge 19 modifica la 56 del 1994: gli organi di ULSS e aziende ospedaliere sono direttore generale, collegio di direzione e collegio sindacale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore sanitario, il direttore amministrativo e il direttore dei servizi socio-sanitari non possono fare piu' di due mandati consecutivi nella stessa azienda."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le aziende piu' grandi, due figure di supporto: oltre tremila posti letto un coordinatore sanitario, oltre cinquecentomila abitanti un coordinatore amministrativo."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine i commissari. Se un direttore generale decade, per gravi motivi o per il mancato equilibrio di bilancio, il Presidente della Giunta puo' nominare un commissario, per un anno rinnovabile una sola volta."
+ },
+ {
+  "id": "s45",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: dal primo gennaio 2017 le ULSS passano da ventuno a nove, per soppressione di dodici aziende e incorporazione nelle altre nove."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: i nomi. Uno Dolomiti, due Marca trevigiana, tre Serenissima, quattro Veneto Orientale, cinque Polesana, sei Euganea, sette Pedemontana, otto Berica, nove Scaligera."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: accanto alle ULSS ci sono l'Azienda Ospedale-Universita' di Padova, l'Azienda Ospedaliera Universitaria Integrata di Verona e l'Istituto Oncologico Veneto."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il distrattore: il Veneto Orientale non incorpora nessuna azienda. Cambia solo nome e numero, e la sede resta a San Dona' di Piave."
+ },
+ {
+  "id": "s49",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dodici aziende soppresse, nove che le incorporano, sette province, e tre aziende fuori dalla mappa delle ULSS. Nella prossima lezione, la rete degli ospedali: il modello hub and spoke."
+ }
+]

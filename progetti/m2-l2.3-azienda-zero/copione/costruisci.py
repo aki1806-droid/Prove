@@ -49,7 +49,7 @@ BLOCCHI = [
  (6,"chiaro",0,"E' il legale rappresentante, ha i poteri di direzione e di gestione, ed e' anche il responsabile della GSA. Nomina il direttore sanitario e il direttore amministrativo, e adotta l'atto aziendale."),
  (6,"chiaro",0,"Il collegio sindacale ha tre membri, nominati dal direttore generale: uno designato dal Presidente della Giunta regionale, uno dal Ministro dell'economia e delle finanze, uno dal Ministro della salute."),
  (6,"chiaro",0,"Oltre ai controlli consueti, il collegio fa da terzo certificatore dei conti della GSA. E accerta ogni tre mesi la consistenza di cassa."),
- (6,"tenue",0,"Il confronto con le ULSS e' la trappola classica. Nelle ULSS gli organi sono tre: direttore generale, collegio di direzione, collegio sindacale. In Azienda Zero il collegio di direzione non c'e'."),
+ (6,"chiaro",0,"Il confronto con le ULSS e' la trappola classica. Nelle ULSS gli organi sono tre: direttore generale, collegio di direzione, collegio sindacale. In Azienda Zero il collegio di direzione non c'e'."),
  (6,"chiaro",0,"Il personale viene soprattutto per mobilita' da Regione, ULSS e altri enti, con il contratto del servizio sanitario nazionale. E l'azienda e' tenuta all'equilibrio economico e finanziario."),
 
  (7,"chiaro",0,"Resta la domanda: chi governa Azienda Zero? La risposta e' l'Area Sanita' e Sociale della Regione, disciplinata all'articolo 11, con a capo un direttore generale."),

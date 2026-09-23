@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Un uomo ha un infarto in un paese di montagna. L'ospedale piu' vicino e' a pochi chilometri. Ma l'ambulanza lo porta a un ospedale piu' lontano, dove c'e' l'emodinamica aperta giorno e notte. Perche'?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' nel Veneto gli ospedali non sono tutti uguali, e non devono esserlo. Sono organizzati in una rete, con ruoli diversi. Il nome del modello e' hub and spoke."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Hub vuol dire mozzo, spoke vuol dire raggio: come nella ruota di una bicicletta. Al centro pochi ospedali ad alta specializzazione, intorno molti ospedali di prossimita'."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. L'idea che regge il modello. Chi e' hub e chi e' spoke nel Veneto. Le reti cliniche costruite sopra la rete ospedaliera. E il problema della distanza, con le sue risposte."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello non nasce con la legge 19. Nasce con il Piano socio-sanitario 2012-2016, la legge regionale 23 del 2012, ed e' confermato dal Piano 2019-2023 come struttura portante dell'assistenza ospedaliera."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio sta in una frase del Piano. Le cure a media e bassa complessita' si garantiscono secondo il criterio di prossimita'. Quelle ad alta complessita' secondo il criterio di centralizzazione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prossimita' vuol dire vicino a casa: un'appendicite, una frattura semplice, un ricovero per polmonite. Non serve un centro di eccellenza, serve un buon ospedale raggiungibile."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Centralizzazione vuol dire concentrare i casi complessi in pochi centri: la cardiochirurgia, la neurochirurgia, i grandi traumi. Perche' la qualita' dipende dai volumi."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'equipe che fa centinaia di interventi l'anno ha in genere esiti migliori di una che ne fa poche decine. Lo misura il Programma Nazionale Esiti, e il Piano veneto lo usa per decidere dove concentrare le specialita'."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Veneto ci arriva da lontano. Il Piano ricorda che negli anni l'ospedale e' diventato il luogo della sola fase acuta, e che il tasso di ospedalizzazione veneto e' tra i piu' bassi d'Italia."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cornice nazionale e' il decreto ministeriale 70 del 2015, che fissa gli standard dell'assistenza ospedaliera: le specialita' si assegnano in base ai bacini di popolazione serviti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' un tetto ai posti letto: fino a tre virgola sette per mille abitanti in tutto, di cui zero virgola sette per la riabilitazione. Letti pochi, quindi usati bene."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Vicino a casa per quello che e' semplice, nel centro giusto per quello che e' complesso: e' tutta qui la logica hub and spoke."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi e' hub nel Veneto? Il Piano prevede cinque ospedali hub, ciascuno con un bacino di circa un milione di abitanti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tra questi, due sono hub di eccellenza di rilievo regionale: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Istituto Oncologico Veneto e' l'hub di riferimento regionale per la patologia oncologica. E per le specialita' assegnate ci sono anche due ospedali di rilievo provinciale riconosciuti come hub: Rovigo e Belluno."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli hub hanno le alte specializzazioni e le tecnologie piu' innovative. Gestiscono i casi complessi, anche solo per la fase acuta, e poi rimandano il paziente all'ospedale vicino a casa."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sostengono gli altri ospedali con la consulenza, anche a distanza, con strumenti informatici. Il Piano li descrive come il vertice della piramide organizzativa del loro territorio."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono gli spoke, gli ospedali presidi di rete, con un bacino di circa duecentomila abitanti. Sono gli ospedali di riferimento territoriale per la media e bassa complessita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E infine gli ospedali nodi di rete e le strutture integrative della rete, che completano l'offerta sul territorio."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a un equivoco: spoke non vuol dire ospedale di serie B da chiudere. Il Piano conferma la loro funzione di ospedali per acuti, e ne prevede il potenziamento e l'ammodernamento."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi decide il ruolo di ogni ospedale? La Giunta regionale, con le schede di dotazione ospedaliera, previo parere della commissione consiliare. Le schede fissano specialita' e posti letto di ogni struttura."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro la stessa ULSS piu' ospedali possono lavorare come ospedali riuniti, con un dipartimento ad attivita' integrata: risorse e personale gestiti in modo unitario tra piu' sedi."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Cinque hub da un milione di abitanti, spoke da duecentomila, e nodi di rete: tre livelli, ruoli decisi prima, non caso per caso."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sopra la rete degli ospedali il Piano costruisce le reti cliniche: percorsi per singola patologia che collegano tutti i livelli, dall'ospedale di prossimita' all'hub."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le piu' importanti sono le reti tempo-dipendenti, quelle in cui ogni minuto conta: la rete emergenza-urgenza, le emergenze cardiologiche, il trauma e l'ictus."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco perche' il paziente di montagna salta l'ospedale piu' vicino. Nella rete dell'infarto conta arrivare in fretta al centro che puo' riaprire la coronaria, non all'ospedale piu' vicino."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono poi molte altre reti: trapianti, malattie rare, oncologia, breast unit, punti nascita, cure palliative, diabetologia, demenze. Il Piano ne elenca oltre venti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A ogni rete corrispondono centri di riferimento, individuati anche sulla base dei risultati del Programma Nazionale Esiti. E l'elenco dei centri va rivisto ogni tre anni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rete dell'emergenza-urgenza fa anche da sensore dell'intero sistema: i suoi dati mostrano dove la rete regge e dove no, e servono a correggere la programmazione regionale e aziendale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore da quiz: le reti cliniche non sono un'alternativa al modello hub and spoke. Sono organizzate al suo interno, e ne usano i ruoli."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta il problema che ogni cittadino sente per primo: la distanza. Se il centro giusto e' lontano, come si fa?"
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima risposta e' il sistema dell'emergenza-urgenza. Il Suem 118 conosce ruoli e disponibilita' della rete, e porta il paziente direttamente nel luogo giusto."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola e' la golden hour, l'ora d'oro: nelle reti tempo-dipendenti l'intervento deve arrivare nel minor tempo possibile, perche' e' li' che si decide l'esito."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda risposta e' la tutela dei territori difficili. Montagna, laguna, Polesine, aree a bassa densita' abitativa: il Piano ne salvaguarda la specificita' per garantire un accesso equo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo possono restare spoke anche ospedali con un bacino piccolo, quando raggiungere l'hub e' difficile. Il Piano cita Chioggia, indispensabile anche per i flussi turistici estivi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza risposta e' la rete che si muove al posto del paziente: la consulenza a distanza, la telerefertazione, gli specialisti dell'hub che supportano gli spoke."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il pronto soccorso non ha solo due uscite, il ricovero o la dimissione. Il Piano prevede che possa attivare direttamente la presa in carico in una struttura intermedia, quando la situazione clinica lo richiede."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la quarta e' il ritorno a casa. Dopo la fase acuta nell'hub, il paziente torna nell'ospedale vicino o nel territorio, per la parte di cura che non richiede il centro di eccellenza."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il paziente viaggia solo quando serve, e solo per la fase che serve. Il resto lo fa la rete."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: prossimita' per la media e bassa complessita', centralizzazione per l'alta complessita'. E' il criterio del modello hub and spoke."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: cinque hub con un bacino di circa un milione di abitanti, tra cui Padova e Verona come hub di eccellenza, e lo IOV per l'oncologia. Spoke con bacino di circa duecentomila."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: le reti tempo-dipendenti sono quattro. Emergenza-urgenza, emergenze cardiologiche, trauma, ictus."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il modello hub and spoke non nasce con il Piano 2019-2023. Nasce con quello 2012-2016, e il Piano successivo lo conferma."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: pochi centri per i casi difficili, molti ospedali vicini per il resto, e una rete che li tiene insieme. Nella prossima lezione usciamo dall'ospedale: il distretto."
+ }
+]

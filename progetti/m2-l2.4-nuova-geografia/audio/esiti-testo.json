@@ -1,0 +1,52 @@
+{
+ "A": {
+  "parole_copione": 624,
+  "parole_dette": 624,
+  "coincidenti": 624,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 638,
+  "parole_dette": 641,
+  "coincidenti": 630,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "545000",
+    "detto": "545 000"
+   },
+   {
+    "blocco": "s32",
+    "copione": "502000",
+    "detto": "502 000"
+   },
+   {
+    "blocco": "s33",
+    "copione": "primo",
+    "detto": "1"
+   },
+   {
+    "blocco": "s43",
+    "copione": "3000",
+    "detto": "3 000"
+   },
+   {
+    "blocco": "s43",
+    "copione": "500000",
+    "detto": "500 000"
+   },
+   {
+    "blocco": "s45",
+    "copione": "primo",
+    "detto": "1"
+   },
+   {
+    "blocco": "s48",
+    "copione": "san dona",
+    "detto": "sandona"
+   }
+  ]
+ }
+}

@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:10,980
+Se lavori nella sanita' veneta, Azienda Zero ti riguarda anche se non ci hai mai messo piede. Il concorso che ti ha assunto, probabilmente, l'ha gestito lei.
+
+2
+00:00:10,980 --> 00:00:19,960
+E' un'azienda senza ospedali, senza ambulatori, senza pazienti. Eppure governa i conti, gli acquisti e i sistemi informativi di tutta la sanita' regionale.
+
+3
+00:00:19,960 --> 00:00:27,650
+Nelle dispense spesso manca, ma e' meta' del titolo della legge 19. Ed e' la domanda piu' probabile di tutto il modulo.
+
+4
+00:00:27,650 --> 00:00:38,210
+Quattro passaggi. La legge e il nome. Le funzioni, quelle proprie e quelle che la Giunta puo' aggiungere. Gli organi. E il sistema di governance regionale in cui Azienda Zero si muove.
+
+5
+00:00:38,210 --> 00:00:51,050
+La legge regionale 19 del 25 ottobre 2016 ha due parti. Il titolo primo, con la sua norma finale, istituisce e disciplina Azienda Zero: articoli da 1 a 13. Il titolo terzo riorganizza le ULSS.
+
+6
+00:00:51,050 --> 00:00:59,220
+Il nome per esteso, nel titolo della legge, e' Azienda per il governo della sanita' della Regione del Veneto. Azienda Zero e' il nome breve.
+
+7
+00:00:59,220 --> 00:01:09,730
+Ma l'articolo 1 la descrive con altre parole: azienda per la razionalizzazione, l'integrazione e l'efficientamento dei servizi sanitari, socio-sanitari e tecnico-amministrativi.
+
+8
+00:01:09,730 --> 00:01:19,840
+Razionalizzare, integrare, rendere efficiente. Sono le tre parole che spiegano perche' nasce: rispondere alla frammentazione di cui abbiamo parlato nella lezione due punto uno.
+
+9
+00:01:19,840 --> 00:01:31,750
+La natura giuridica e' quella di un ente del servizio sanitario regionale, con personalita' giuridica di diritto pubblico e autonomia amministrativa, patrimoniale, organizzativa, tecnica, gestionale e contabile.
+
+10
+00:01:31,750 --> 00:01:42,060
+Attenzione a una trappola: Azienda Zero non e' un ufficio della Regione, e non e' una decima ULSS. E' un ente autonomo del servizio sanitario regionale, con un compito di governo e di servizio.
+
+11
+00:01:42,060 --> 00:01:50,990
+Che cosa fa? Le funzioni stanno tutte all'articolo 2. Il comma 1 elenca quelle proprie, che spettano ad Azienda Zero per legge. Si possono dividere in tre gruppi.
+
+12
+00:01:50,990 --> 00:02:04,530
+Il primo gruppo sono i conti. Azienda Zero gestisce la Gestione Sanitaria Accentrata, la GSA, prevista dal decreto legislativo 118 del 2011: la parte del fondo sanitario che la Regione gestisce direttamente.
+
+13
+00:02:04,530 --> 00:02:15,380
+Gestisce i flussi di cassa del finanziamento sanitario, tiene le scritture della GSA, redige il suo bilancio preventivo e consuntivo, e il bilancio consolidato di tutto il servizio sanitario regionale.
+
+14
+00:02:15,380 --> 00:02:21,590
+E da' gli indirizzi in materia contabile alle ULSS e agli altri enti: un solo modo di tenere i conti, per tutti.
+
+15
+00:02:21,590 --> 00:02:29,180
+Il secondo gruppo sono le attivita' tecnico-specialistiche per tutto il sistema. La legge ne elenca undici. Partiamo dalle piu' chieste.
+
+16
+00:02:29,180 --> 00:02:39,080
+Gli acquisti centralizzati, nel rispetto della qualita', dell'economicita' e della specificita' clinica, previa valutazione della commissione regionale per gli investimenti, la CRITE.
+
+17
+00:02:39,080 --> 00:02:47,670
+Nel diritto degli appalti una centrale di acquisto che compra per molte amministrazioni si chiama soggetto aggregatore. E' la stessa logica: una gara sola, al posto di nove.
+
+18
+00:02:47,670 --> 00:02:57,930
+Le procedure di selezione del personale del comparto sanita', secondo un regolamento della Giunta. Sono i concorsi unici regionali: una graduatoria che serve piu' aziende.
+
+19
+00:02:57,930 --> 00:03:07,740
+Poi il supporto alla formazione manageriale e al rischio clinico, l'accreditamento ECM, il supporto al modello assicurativo, con il contenzioso e le transazioni.
+
+20
+00:03:07,740 --> 00:03:18,300
+E ancora: le infrastrutture informatiche e i flussi di dati, l'autorizzazione all'esercizio delle strutture sanitarie e socio-sanitarie, la gestione del contenzioso del lavoro e sanitario.
+
+21
+00:03:18,300 --> 00:03:28,030
+Chiudono l'elenco la razionalizzazione della logistica, i servizi tecnici per la valutazione delle tecnologie, la HTA, e l'attivazione del fascicolo sanitario elettronico.
+
+22
+00:03:28,030 --> 00:03:37,990
+Il terzo gruppo e' una sola voce, alla lettera h: l'indirizzo e il coordinamento degli Uffici Relazioni con il Pubblico delle ULSS, in materia sanitaria e socio-sanitaria.
+
+23
+00:03:37,990 --> 00:03:45,380
+Tre gruppi, allora: i conti del sistema, i servizi tecnici comuni, e il coordinamento del rapporto con i cittadini.
+
+24
+00:03:45,380 --> 00:03:55,200
+Il comma 2 dell'articolo 2 e' diverso. Elenca funzioni che la Giunta regionale puo' attribuire ad Azienda Zero con successivi provvedimenti, sentita la commissione consiliare.
+
+25
+00:03:55,200 --> 00:04:05,400
+Sono funzioni di supporto al governo: analisi e proposte per la programmazione, supporto alla Giunta sugli obiettivi, supporto alla definizione degli obiettivi dei direttori generali delle aziende.
+
+26
+00:04:05,400 --> 00:04:15,140
+E poi la proposta dei costi standard e il loro monitoraggio, i flussi informativi, l'auditing e il controllo interno, il Sistema Epidemiologico Regionale con i suoi registri.
+
+27
+00:04:15,140 --> 00:04:23,140
+Nel 2018 la legge del nuovo Piano socio-sanitario aggiunge una voce: il monitoraggio e la vigilanza sulle forme di sanita' integrativa.
+
+28
+00:04:23,140 --> 00:04:31,770
+La distinzione e' da quiz. Le funzioni del comma 1 le da' la legge. Quelle del comma 2 sono solo possibili: servono i provvedimenti della Giunta regionale.
+
+29
+00:04:31,770 --> 00:04:38,120
+Gli organi di Azienda Zero, all'articolo 4, sono due soltanto: il direttore generale e il collegio sindacale.
+
+30
+00:04:38,120 --> 00:04:48,480
+Il direttore generale lo nomina il Presidente della Giunta regionale, con gli stessi requisiti richiesti per i direttori generali delle ULSS. Il contratto e' di diritto privato, per non piu' di cinque anni.
+
+31
+00:04:48,480 --> 00:04:59,060
+E' il legale rappresentante, ha i poteri di direzione e di gestione, ed e' anche il responsabile della GSA. Nomina il direttore sanitario e il direttore amministrativo, e adotta l'atto aziendale.
+
+32
+00:04:59,060 --> 00:05:09,390
+Il collegio sindacale ha tre membri, nominati dal direttore generale: uno designato dal Presidente della Giunta regionale, uno dal Ministro dell'economia e delle finanze, uno dal Ministro della salute.
+
+33
+00:05:09,390 --> 00:05:17,330
+Oltre ai controlli consueti, il collegio fa da terzo certificatore dei conti della GSA. E accerta ogni tre mesi la consistenza di cassa.
+
+34
+00:05:17,330 --> 00:05:28,040
+Il confronto con le ULSS e' la trappola classica. Nelle ULSS gli organi sono tre: direttore generale, collegio di direzione, collegio sindacale. In Azienda Zero il collegio di direzione non c'e'.
+
+35
+00:05:28,040 --> 00:05:38,210
+Il personale viene soprattutto per mobilita' da Regione, ULSS e altri enti, con il contratto del servizio sanitario nazionale. E l'azienda e' tenuta all'equilibrio economico e finanziario.
+
+36
+00:05:38,210 --> 00:05:47,550
+Resta la domanda: chi governa Azienda Zero? La risposta e' l'Area Sanita' e Sociale della Regione, disciplinata all'articolo 11, con a capo un direttore generale.
+
+37
+00:05:47,550 --> 00:05:57,350
+Nell'esercizio delle sue funzioni Azienda Zero e' sottoposta al coordinamento del direttore generale dell'Area. E la Giunta esercita vigilanza e controllo su di lei per suo tramite.
+
+38
+00:05:57,350 --> 00:06:06,780
+All'Area spetta anche il visto di congruita' sui bilanci della GSA e sul consolidato del sistema, che Azienda Zero predispone. E il direttore dell'Area presiede la CRITE.
+
+39
+00:06:06,780 --> 00:06:18,620
+Il terzo attore e' il Comitato dei direttori generali, all'articolo 3: i direttori generali di ULSS, aziende ospedaliere, Istituto Oncologico Veneto e Azienda Zero, piu' il direttore dell'Area, che lo presiede.
+
+40
+00:06:18,620 --> 00:06:29,360
+Il Comitato determina indirizzi e fabbisogni per le attivita' tecnico-specialistiche di Azienda Zero, e da' un parere obbligatorio sugli atti che le riguardano. Chi usa i servizi decide cosa serve.
+
+41
+00:06:29,360 --> 00:06:41,360
+Ecco la catena: la Giunta indirizza, l'Area Sanita' e Sociale coordina e vigila, Azienda Zero esegue per tutti, il Comitato dei direttori generali dice di che cosa le aziende hanno bisogno.
+
+42
+00:06:41,360 --> 00:06:52,720
+Le tre cose che ti chiederanno. La prima: Azienda Zero e' istituita dalla legge regionale 19 del 2016, ed e' un ente del servizio sanitario regionale con personalita' giuridica di diritto pubblico.
+
+43
+00:06:52,720 --> 00:07:03,950
+La seconda: le funzioni stanno all'articolo 2. Proprie al comma 1: GSA, bilancio consolidato, acquisti centralizzati, concorsi del comparto. Attribuibili dalla Giunta al comma 2.
+
+44
+00:07:03,950 --> 00:07:11,670
+La terza: gli organi sono due, direttore generale e collegio sindacale. Il direttore generale lo nomina il Presidente della Giunta regionale.
+
+45
+00:07:11,670 --> 00:07:20,340
+L'ultimo distrattore: il Comitato dei direttori generali non lo presiede il direttore di Azienda Zero. Lo presiede il direttore generale dell'Area Sanita' e Sociale.
+
+46
+00:07:20,340 --> 00:07:30,780
+In sintesi: un'azienda senza pazienti che lavora per tutte le altre, dentro una regia regionale. Nella prossima lezione, l'altra meta' della legge 19: la nuova geografia delle nove ULSS.
