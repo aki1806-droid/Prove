@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,760
+Nel 1978 l'Italia fa una scelta coraggiosa: garantire la salute a tutti i cittadini, qualunque sia il loro lavoro e qualunque sia il loro reddito. Nasce il Servizio Sanitario Nazionale.
+
+2
+00:00:14,760 --> 00:00:25,300
+Quattordici anni dopo, nel 1992, lo Stato scrive una riforma che ne cambia il motore. Non perche' l'idea fosse sbagliata, ma perche' la macchina costruita per realizzarla non reggeva piu'.
+
+3
+00:00:25,300 --> 00:00:36,010
+Ed e' da qui che parte tutto il modulo. Se non capisci che cosa si era rotto, il decreto 502 ti sembrera' un elenco di articoli. Se lo capisci, ogni sua scelta diventa una risposta.
+
+4
+00:00:36,010 --> 00:00:46,360
+Tre passaggi. Primo: che cosa ha costruito la legge 833. Secondo: perche' la spesa e' andata fuori controllo. Terzo: che cosa ha imposto la svolta del 1992.
+
+5
+00:00:46,360 --> 00:00:59,100
+La legge 833 del 23 dicembre 1978 istituisce il Servizio Sanitario Nazionale. Da' attuazione all'articolo 32 della Costituzione, che tutela la salute come diritto fondamentale dell'individuo.
+
+6
+00:00:59,100 --> 00:01:09,590
+Prima della 833 la sanita' era affidata alle mutue: enti assicurativi divisi per categoria professionale. Chi lavorava era coperto dalla propria cassa, con prestazioni diverse da una mutua all'altra.
+
+7
+00:01:09,590 --> 00:01:17,830
+E chi non lavorava, o lavorava in una categoria debole, restava ai margini. La tutela della salute dipendeva dal contratto di lavoro, non dalla cittadinanza.
+
+8
+00:01:17,830 --> 00:01:26,200
+La 833 rovescia questa logica con tre principi. Il primo e' l'universalita': il servizio copre tutta la popolazione, senza eccezioni.
+
+9
+00:01:26,200 --> 00:01:33,890
+Il secondo e' l'uguaglianza: tutti accedono alle prestazioni a parita' di condizioni, senza distinzioni di condizioni individuali o sociali.
+
+10
+00:01:33,890 --> 00:01:41,330
+Il terzo e' la globalita': il servizio non si limita a curare la malattia. Comprende la prevenzione, la cura e la riabilitazione.
+
+11
+00:01:41,330 --> 00:01:51,310
+Tre parole da tenere insieme: universalita', uguaglianza, globalita'. Sono l'eredita' della 833 che nessuna riforma successiva ha cancellato.
+
+12
+00:01:51,310 --> 00:01:59,670
+Per realizzare questi principi la legge costruisce un sistema su tre livelli. Lo Stato programma, con il Piano Sanitario Nazionale, e ripartisce le risorse.
+
+13
+00:01:59,670 --> 00:02:07,050
+Le Regioni legiferano e programmano sul proprio territorio. E la gestione concreta dei servizi passa alle unita' sanitarie locali.
+
+14
+00:02:07,050 --> 00:02:17,150
+Ed ecco il punto delicato. Le unita' sanitarie locali non erano enti autonomi: erano strutture operative dei Comuni, singoli o associati, senza una personalita' giuridica propria.
+
+15
+00:02:17,150 --> 00:02:26,790
+A guidarle erano organi espressi dai consigli comunali: l'assemblea generale e il comitato di gestione. In pratica, la direzione della sanita' locale la nominava la politica.
+
+16
+00:02:26,790 --> 00:02:35,410
+Il fenomeno ha un nome, e lo troverai nelle dispense: lottizzazione. Gli incarichi venivano spartiti tra i partiti, secondo l'appartenenza piu' che la competenza.
+
+17
+00:02:35,410 --> 00:02:46,490
+Il risultato e' una sanita' in cui chi gestisce non risponde dei risultati economici. Risponde a chi lo ha nominato. E questa distanza tra potere e responsabilita' pesa sui conti.
+
+18
+00:02:46,490 --> 00:02:57,360
+Il finanziamento passa per il Fondo Sanitario Nazionale, istituito dalla stessa 833. Lo Stato raccoglie le risorse e le ripartisce tra le Regioni, che le assegnano alle unita' sanitarie locali.
+
+19
+00:02:57,360 --> 00:03:06,610
+Sulla carta il fondo e' un tetto. Nella realta' la spesa corre piu' veloce del fondo, anno dopo anno, perche' nessuno, dentro il sistema, ha un vero interesse a fermarla.
+
+20
+00:03:06,610 --> 00:03:16,970
+E c'e' un secondo difetto: il fondo si ripartiva, di fatto, sulla spesa storica. Chi aveva speso di piu' l'anno prima riceveva di piu' l'anno dopo. Risparmiare non conveniva a nessuno.
+
+21
+00:03:16,970 --> 00:03:25,770
+E intanto la domanda cresce da sola: la popolazione invecchia, la tecnologia medica costa sempre di piu', e ogni nuovo servizio aperto diventa un costo fisso.
+
+22
+00:03:25,770 --> 00:03:32,570
+I numeri lo dicono con chiarezza. La spesa sanitaria pubblica valeva circa il 5,8 per cento del prodotto interno lordo.
+
+23
+00:03:32,570 --> 00:03:41,920
+E arriva a superare il 7 per cento. Detto cosi' sembra poco. Ma ogni punto di prodotto interno lordo vale oltre diecimila miliardi di lire, spesi in piu' ogni anno.
+
+24
+00:03:41,920 --> 00:03:51,210
+Come si copre la differenza tra quello che si spende e quello che il fondo prevede? Con il meccanismo che e' il vero cuore del problema: il ripiano dei disavanzi a pie' di lista.
+
+25
+00:03:51,210 --> 00:04:01,180
+Funziona cosi'. Le unita' sanitarie locali spendono oltre il fondo, e si forma un disavanzo. Periodicamente lo Stato interviene con una legge che copre il debito, a consuntivo.
+
+26
+00:04:01,180 --> 00:04:08,970
+E poi il ciclo ricomincia. Chi aveva speso troppo non subisce nessuna conseguenza, e l'anno dopo ha le stesse ragioni per spendere ancora.
+
+27
+00:04:08,970 --> 00:04:18,550
+Gli economisti chiamano questa situazione azzardo morale, o moral hazard: quando sai che qualcun altro coprira' le tue perdite, smetti di comportarti con prudenza.
+
+28
+00:04:18,550 --> 00:04:26,090
+E' lo stesso meccanismo di chi ha un'assicurazione che rimborsa qualunque spesa, senza limiti: non ha nessun motivo di stare attento a quanto spende.
+
+29
+00:04:26,090 --> 00:04:37,070
+Il nodo si riassume in una frase: chi spende non e' chi paga. Le unita' sanitarie locali decidono la spesa, lo Stato la copre. E un sistema cosi' non ha freni.
+
+30
+00:04:37,070 --> 00:04:46,800
+Attenzione a un equivoco. Il problema non era l'universalismo, cioe' curare tutti. Era un'organizzazione che separava la decisione di spesa dalla responsabilita' di coprirla.
+
+31
+00:04:46,800 --> 00:04:58,470
+A rendere il problema non piu' rinviabile arriva un vincolo esterno. Il 7 febbraio 1992 l'Italia firma il Trattato di Maastricht, che fissa le condizioni per entrare nella moneta unica.
+
+32
+00:04:58,470 --> 00:05:08,000
+Due parametri su tutti. Il deficit pubblico non deve superare il 3 per cento del prodotto interno lordo. E il debito pubblico deve restare entro il 60 per cento.
+
+33
+00:05:08,000 --> 00:05:16,980
+Nel 1992 il debito pubblico italiano supera il cento per cento del prodotto interno lordo. E' quasi il doppio del limite fissato a Maastricht.
+
+34
+00:05:16,980 --> 00:05:26,910
+Per l'Italia di allora sono obiettivi lontanissimi. E la sanita', con una spesa che cresce da sola e i disavanzi ripianati a pie' di lista, e' una delle voci che piu' li allontanano.
+
+35
+00:05:26,910 --> 00:05:35,710
+Il vincolo europeo trasforma cosi' una questione interna in un obbligo: i conti della sanita' diventano un pezzo dei conti dello Stato da rimettere in ordine.
+
+36
+00:05:35,710 --> 00:05:47,320
+E il 1992 e' un anno di crisi profonda: la lira esce dal Sistema Monetario Europeo, e l'inchiesta Mani Pulite travolge il sistema dei partiti. Anche quello che aveva lottizzato la sanita'.
+
+37
+00:05:47,320 --> 00:06:01,080
+La risposta arriva in due tempi. Prima la legge delega 421 del 23 ottobre 1992: il Parlamento affida al Governo il riordino di sanita', pubblico impiego, previdenza e finanza territoriale.
+
+38
+00:06:01,080 --> 00:06:12,320
+Poi, il 30 dicembre 1992, il decreto legislativo 502: il riordino della disciplina in materia sanitaria. E' il testo su cui e' costruito tutto questo modulo.
+
+39
+00:06:12,320 --> 00:06:25,610
+Sara' corretto l'anno dopo dal decreto legislativo 517 del 1993, e profondamente rivisto nel 1999 dal decreto legislativo 229, la cosiddetta riforma Bindi.
+
+40
+00:06:25,610 --> 00:06:36,240
+Ogni problema che hai visto oggi trova nel 502 una risposta precisa. Alla gestione politica risponde l'azienda. Alla spesa senza freni risponde la responsabilita' di bilancio.
+
+41
+00:06:36,240 --> 00:06:46,140
+Alla separazione tra chi spende e chi paga risponde un nuovo patto tra Stato e Regioni. Il principio universalistico resta: cambia il modo di governarlo.
+
+42
+00:06:46,140 --> 00:06:58,430
+E ora le tre cose che ti chiederanno. La prima: la legge 833 del 1978 istituisce il Servizio Sanitario Nazionale, fondato su universalita', uguaglianza e globalita'.
+
+43
+00:06:58,430 --> 00:07:08,420
+Occhio al distrattore classico: la 833 non crea le aziende sanitarie. Crea le unita' sanitarie locali, strutture operative dei Comuni senza personalita' giuridica.
+
+44
+00:07:08,420 --> 00:07:19,420
+La seconda: il ripiano dei disavanzi a pie' di lista. Lo Stato copriva a consuntivo i debiti delle unita' sanitarie locali, e questo produceva deresponsabilizzazione e azzardo morale.
+
+45
+00:07:19,420 --> 00:07:31,070
+La terza: la sequenza delle norme. Il Trattato di Maastricht, a febbraio del 1992. La legge delega 421, a ottobre. Il decreto legislativo 502, a dicembre.
+
+46
+00:07:31,070 --> 00:07:41,740
+E anche qui il distrattore e' sempre lo stesso: invertire la delega e il decreto. Prima viene la legge 421, che delega. Poi il decreto 502, che attua.
+
+47
+00:07:41,740 --> 00:07:53,110
+In sintesi: la 833 ha dato all'Italia un diritto, il 502 ha provato a renderlo sostenibile. Nella prossima lezione il primo strumento di questa riforma: l'aziendalizzazione.

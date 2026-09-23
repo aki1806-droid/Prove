@@ -16,3 +16,16 @@ build/
 # Ambiente
 .env
 .env.local
+
+# Lavorazione video: si rigenerano in locale, pesano troppo per git
+progetti/*/slide/mp4/
+progetti/*/slide/fotogrammi/
+progetti/*/scene/
+progetti/*/_montaggio/
+progetti/*/audio/_prova/
+progetti/*/montato-*.mp4
+progetti/*/node_modules
+__pycache__/
+progetti/*/audio/url-*.txt
+progetti/*/audio/prova.mp3
+progetti/*/slide/provini/controllo.png

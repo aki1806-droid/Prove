@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Nel 1978 l'Italia fa una scelta coraggiosa: garantire la salute a tutti i cittadini, qualunque sia il loro lavoro e qualunque sia il loro reddito. Nasce il Servizio Sanitario Nazionale."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattordici anni dopo, nel 1992, lo Stato scrive una riforma che ne cambia il motore. Non perche' l'idea fosse sbagliata, ma perche' la macchina costruita per realizzarla non reggeva piu'."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ed e' da qui che parte tutto il modulo. Se non capisci che cosa si era rotto, il decreto 502 ti sembrera' un elenco di articoli. Se lo capisci, ogni sua scelta diventa una risposta."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre passaggi. Primo: che cosa ha costruito la legge 833. Secondo: perche' la spesa e' andata fuori controllo. Terzo: che cosa ha imposto la svolta del 1992."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 833 del 23 dicembre 1978 istituisce il Servizio Sanitario Nazionale. Da' attuazione all'articolo 32 della Costituzione, che tutela la salute come diritto fondamentale dell'individuo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima della 833 la sanita' era affidata alle mutue: enti assicurativi divisi per categoria professionale. Chi lavorava era coperto dalla propria cassa, con prestazioni diverse da una mutua all'altra."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E chi non lavorava, o lavorava in una categoria debole, restava ai margini. La tutela della salute dipendeva dal contratto di lavoro, non dalla cittadinanza."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La 833 rovescia questa logica con tre principi. Il primo e' l'universalita': il servizio copre tutta la popolazione, senza eccezioni."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' l'uguaglianza: tutti accedono alle prestazioni a parita' di condizioni, senza distinzioni di condizioni individuali o sociali."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' la globalita': il servizio non si limita a curare la malattia. Comprende la prevenzione, la cura e la riabilitazione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tre parole da tenere insieme: universalita', uguaglianza, globalita'. Sono l'eredita' della 833 che nessuna riforma successiva ha cancellato."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per realizzare questi principi la legge costruisce un sistema su tre livelli. Lo Stato programma, con il Piano Sanitario Nazionale, e ripartisce le risorse."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le Regioni legiferano e programmano sul proprio territorio. E la gestione concreta dei servizi passa alle unita' sanitarie locali."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco il punto delicato. Le unita' sanitarie locali non erano enti autonomi: erano strutture operative dei Comuni, singoli o associati, senza una personalita' giuridica propria."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A guidarle erano organi espressi dai consigli comunali: l'assemblea generale e il comitato di gestione. In pratica, la direzione della sanita' locale la nominava la politica."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Il fenomeno ha un nome, e lo troverai nelle dispense: lottizzazione. Gli incarichi venivano spartiti tra i partiti, secondo l'appartenenza piu' che la competenza."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[thoughtful] Il risultato e' una sanita' in cui chi gestisce non risponde dei risultati economici. Risponde a chi lo ha nominato. E questa distanza tra potere e responsabilita' pesa sui conti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il finanziamento passa per il Fondo Sanitario Nazionale, istituito dalla stessa 833. Lo Stato raccoglie le risorse e le ripartisce tra le Regioni, che le assegnano alle unita' sanitarie locali."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulla carta il fondo e' un tetto. Nella realta' la spesa corre piu' veloce del fondo, anno dopo anno, perche' nessuno, dentro il sistema, ha un vero interesse a fermarla."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' un secondo difetto: il fondo si ripartiva, di fatto, sulla spesa storica. Chi aveva speso di piu' l'anno prima riceveva di piu' l'anno dopo. Risparmiare non conveniva a nessuno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E intanto la domanda cresce da sola: la popolazione invecchia, la tecnologia medica costa sempre di piu', e ogni nuovo servizio aperto diventa un costo fisso."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri lo dicono con chiarezza. La spesa sanitaria pubblica valeva circa il 5,8 per cento del prodotto interno lordo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E arriva a superare il 7 per cento. Detto cosi' sembra poco. Ma ogni punto di prodotto interno lordo vale oltre diecimila miliardi di lire, spesi in piu' ogni anno."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come si copre la differenza tra quello che si spende e quello che il fondo prevede? Con il meccanismo che e' il vero cuore del problema: il ripiano dei disavanzi a pie' di lista."
+ },
+ {
+  "id": "s26",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Funziona cosi'. Le unita' sanitarie locali spendono oltre il fondo, e si forma un disavanzo. Periodicamente lo Stato interviene con una legge che copre il debito, a consuntivo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi il ciclo ricomincia. Chi aveva speso troppo non subisce nessuna conseguenza, e l'anno dopo ha le stesse ragioni per spendere ancora."
+ },
+ {
+  "id": "s28",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli economisti chiamano questa situazione azzardo morale, o moral hazard: quando sai che qualcun altro coprira' le tue perdite, smetti di comportarti con prudenza."
+ },
+ {
+  "id": "s29",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' lo stesso meccanismo di chi ha un'assicurazione che rimborsa qualunque spesa, senza limiti: non ha nessun motivo di stare attento a quanto spende."
+ },
+ {
+  "id": "s30",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il nodo si riassume in una frase: chi spende non e' chi paga. Le unita' sanitarie locali decidono la spesa, lo Stato la copre. E un sistema cosi' non ha freni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a un equivoco. Il problema non era l'universalismo, cioe' curare tutti. Era un'organizzazione che separava la decisione di spesa dalla responsabilita' di coprirla."
+ },
+ {
+  "id": "s32",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A rendere il problema non piu' rinviabile arriva un vincolo esterno. Il 7 febbraio 1992 l'Italia firma il Trattato di Maastricht, che fissa le condizioni per entrare nella moneta unica."
+ },
+ {
+  "id": "s33",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due parametri su tutti. Il deficit pubblico non deve superare il 3 per cento del prodotto interno lordo. E il debito pubblico deve restare entro il 60 per cento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 1992 il debito pubblico italiano supera il cento per cento del prodotto interno lordo. E' quasi il doppio del limite fissato a Maastricht."
+ },
+ {
+  "id": "s35",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'Italia di allora sono obiettivi lontanissimi. E la sanita', con una spesa che cresce da sola e i disavanzi ripianati a pie' di lista, e' una delle voci che piu' li allontanano."
+ },
+ {
+  "id": "s36",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vincolo europeo trasforma cosi' una questione interna in un obbligo: i conti della sanita' diventano un pezzo dei conti dello Stato da rimettere in ordine."
+ },
+ {
+  "id": "s37",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il 1992 e' un anno di crisi profonda: la lira esce dal Sistema Monetario Europeo, e l'inchiesta Mani Pulite travolge il sistema dei partiti. Anche quello che aveva lottizzato la sanita'."
+ },
+ {
+  "id": "s38",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta arriva in due tempi. Prima la legge delega 421 del 23 ottobre 1992: il Parlamento affida al Governo il riordino di sanita', pubblico impiego, previdenza e finanza territoriale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi, il 30 dicembre 1992, il decreto legislativo 502: il riordino della disciplina in materia sanitaria. E' il testo su cui e' costruito tutto questo modulo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sara' corretto l'anno dopo dal decreto legislativo 517 del 1993, e profondamente rivisto nel 1999 dal decreto legislativo 229, la cosiddetta riforma Bindi."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni problema che hai visto oggi trova nel 502 una risposta precisa. Alla gestione politica risponde l'azienda. Alla spesa senza freni risponde la responsabilita' di bilancio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Alla separazione tra chi spende e chi paga risponde un nuovo patto tra Stato e Regioni. Il principio universalistico resta: cambia il modo di governarlo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ora le tre cose che ti chiederanno. La prima: la legge 833 del 1978 istituisce il Servizio Sanitario Nazionale, fondato su universalita', uguaglianza e globalita'."
+ },
+ {
+  "id": "s44",
+  "capitolo": 9,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio al distrattore classico: la 833 non crea le aziende sanitarie. Crea le unita' sanitarie locali, strutture operative dei Comuni senza personalita' giuridica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il ripiano dei disavanzi a pie' di lista. Lo Stato copriva a consuntivo i debiti delle unita' sanitarie locali, e questo produceva deresponsabilizzazione e azzardo morale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: la sequenza delle norme. Il Trattato di Maastricht, a febbraio del 1992. La legge delega 421, a ottobre. Il decreto legislativo 502, a dicembre."
+ },
+ {
+  "id": "s47",
+  "capitolo": 9,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E anche qui il distrattore e' sempre lo stesso: invertire la delega e il decreto. Prima viene la legge 421, che delega. Poi il decreto 502, che attua."
+ },
+ {
+  "id": "s48",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: la 833 ha dato all'Italia un diritto, il 502 ha provato a renderlo sostenibile. Nella prossima lezione il primo strumento di questa riforma: l'aziendalizzazione."
+ }
+]
