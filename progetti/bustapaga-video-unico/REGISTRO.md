@@ -1000,10 +1000,33 @@ Conseguenza pratica, per chi verifica: **l'MD5 di una clip o di un montato non
 e' una prova di riproducibilita' del render.** La prova buona e' il PNG, che e'
 stabile su tutte e 218 — ed e' anche quello su cui lavora il controllo 4.
 
-Nota sullo stato del disco: le clip ora in `slide/mp4/` vengono da questa
-ricostruzione, mentre `scene/`, `scene-achille/` e i due montati vengono dalle
-clip di prima. Visivamente e' la stessa cosa, e la prossima corsa completa
-riallinea tutto; e' scritto qui perche' non sembri una svista.
+### Il riallineamento, e la conferma che serviva
+
+Le clip ricostruite avevano lasciato `scene/`, `scene-achille/` e i due montati
+indietro di una generazione. Rifatto tutto — 406 scene, due montaggi, due
+indici, dieci pezzi — con le impronte prese PRIMA di partire.
+
+I due montati sono usciti con un **MD5 diverso**, e questo era il risultato da
+volere: 62 clip cambiate devono propagarsi a 62 scene e da li' alla
+concatenazione. Fossero venuti uguali, avrebbe voluto dire che qualcosa non si
+era rifatto davvero — ed e' il motivo per cui l'impronta si prende prima e non
+dopo.
+
+Quello che NON e' cambiato e' tutto il resto, ed e' la prova che il cambiamento
+e' solo di byte:
+
+    durata      60:09,76 e 59:46,85            identiche al centesimo
+    scarto      20 ms fra montato e somma      identico su tutte e due
+    controlli   10 su 10
+    indici      gli stessi tredici capitoli agli stessi minuti
+
+Le durate non potevano cambiare: una clip dura 1,8 s comunque sia rasterizzata,
+e i blocchi audio sono gli stessi. Si e' mosso solo il peso di qualche pezzo di
+un decimo di MiB, e l'accavallamento ai tagli di Achille da +0,43 a +0,35 s,
+perche' i fotogrammi chiave cadono qualche frame piu' in la'.
+
+I dieci pezzi gia' consegnati restano validi: contengono la stessa cosa, a meno
+di quell'antialiasing che nessuno puo' vedere.
 
 ## Da verificare — quello che non ho potuto giudicare io
 
