@@ -49,6 +49,13 @@ progetti/*/slide/troppo-alte.json
 # il montaggio
 progetti/*/scene/
 progetti/*/_montaggio/
+# le confezioni per la consegna: i pezzi del montato e lo zip dei loro
+# sottotitoli. Si rifanno con spezza-per-invio.py in un minuto, e uno zip
+# di binari cambia a ogni ricostruzione anche quando il contenuto e' lo
+# stesso: in git farebbe solo rumore.
+progetti/*/parti/
+progetti/*/parti-*/
+progetti/*/sottotitoli-*.zip
 # le edizioni con un'altra voce: stesse slide, altro respiro, e si rifanno
 # in venti minuti dai blocchi. Il suffisso e' il nome della voce.
 progetti/*/scene-*/
