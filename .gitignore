@@ -49,6 +49,10 @@ progetti/*/slide/troppo-alte.json
 # il montaggio
 progetti/*/scene/
 progetti/*/_montaggio/
+# le edizioni con un'altra voce: stesse slide, altro respiro, e si rifanno
+# in venti minuti dai blocchi. Il suffisso e' il nome della voce.
+progetti/*/scene-*/
+progetti/*/_montaggio-*/
 progetti/*/montato-*.mp4
 progetti/*/montato-*.srt
 

@@ -17,7 +17,20 @@ import imageio_ffmpeg
 
 QUI = Path(__file__).resolve().parent
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
-NOME = "busta-paga-60min"
+
+# VOCE=achille fa l'indice dell'altra edizione. Serve davvero: i capitoli
+# cadono agli stessi punti del COPIONE ma a minuti diversi, perche' una voce
+# corre e l'altra no. Misurato sui due indici veri: il capitolo 4 comincia a
+# 17:17 con Francesca e a 17:55 con Achille, 38 secondi di scarto, e verso la
+# fine le due si incrociano (il 13 e' a 56:23 con una e a 56:05 con l'altra).
+# Non e' uno scostamento che cresce e si puo' correggere in proporzione: e'
+# esattamente l'errore per cui la tabella dello script era inservibile.
+import os
+VOCE  = os.environ.get("VOCE", "").strip().lower()
+SUF   = f"-{VOCE}" if VOCE else ""
+SCENE = QUI/f"scene{SUF}"
+TMP   = QUI/f"_montaggio{SUF}"
+FUORI = QUI/f"indice-capitoli{SUF}.txt"
 
 def durata(f):
     e = subprocess.run([FF, "-i", str(f)], capture_output=True, text=True).stderr
@@ -50,7 +63,7 @@ for s in scene:
 
 t, inizi = 0.0, {}
 for s in scene:
-    f = (QUI/"scene"/f"{s['id']}.mp4") if s["text"] else (QUI/"_montaggio"/f"{s['id']}.mp4")
+    f = (SCENE/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
     c = s.get("capitolo")
     if c and not s["text"] and c not in inizi:
         inizi[c] = t
@@ -58,6 +71,6 @@ for s in scene:
 
 righe = ["00:00 Copertina"] + [f"{mmss(inizi[c])} {c}. {titoli.get(c, '')}".rstrip()
                                for c in sorted(inizi)]
-(QUI/"indice-capitoli.txt").write_text("\n".join(righe) + "\n", encoding="utf-8")
+FUORI.write_text("\n".join(righe) + "\n", encoding="utf-8")
 print("\n".join(righe))
-print(f"\ntotale {mmss(t)} — scritto in indice-capitoli.txt")
+print(f"\ntotale {mmss(t)} — scritto in {FUORI.name}")

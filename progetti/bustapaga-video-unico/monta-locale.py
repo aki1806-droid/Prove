@@ -25,8 +25,19 @@ FF  = imageio_ffmpeg.get_ffmpeg_exe()
 sys.path.insert(0, str(QUI))
 from profilo import COPERTINA, CHIUSURA, CARD_CAPITOLO
 
-NOME = "busta-paga-60min"
-TMP  = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
+# VOCE=achille monta l'altra edizione, con i suoi blocchi e le sue scene, in
+# file che non si pestano i piedi con quelli correnti. Le scene MUTE - la
+# copertina, le tredici card, la chiusura - sono le stesse per tutte le voci
+# (sono immagine e silenzio), ma si ricostruiscono nella cartella temporanea
+# dell'edizione: costano un secondo e valgono di piu' che un ramo in piu' qui.
+import os
+VOCE = os.environ.get("VOCE", "").strip().lower()
+SUF  = f"-{VOCE}" if VOCE else ""
+NOME = f"busta-paga-60min{SUF}"
+SCENE = QUI/f"scene{SUF}"
+REG_F = (QUI/"audio"/f"grezzo{SUF}"/"blocchi-audio.json") if VOCE else \
+        (QUI/"audio"/"blocchi-audio.json")
+TMP  = QUI/f"_montaggio{SUF}"; TMP.mkdir(exist_ok=True)
 sh   = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
 
 def durata(f):
@@ -56,8 +67,7 @@ def secondi_fermi(tipo):
     raise SystemExit(f"scena muta di tipo sconosciuto: {tipo!r}")
 
 scene = json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))
-reg   = {r["id"]: r for r in
-         json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))}
+reg   = {r["id"]: r for r in json.loads(REG_F.read_text(encoding="utf-8"))}
 
 # --- le scene ferme: immagine + silenzio, cosi' hanno una traccia audio e la
 #     concatenazione non salta (senza audio, concat -c copy lascia un buco)
@@ -75,7 +85,7 @@ for s in ferme:
 # --- la sequenza vera, nell'ordine dello script
 ordine, mancanti = [], []
 for s in scene:
-    f = (QUI/"scene"/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
+    f = (SCENE/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
     (ordine if f.exists() else mancanti).append(f if f.exists() else s["id"])
 if mancanti:
     raise SystemExit(f"mancano {len(mancanti)} scene: {mancanti[:8]}...")
@@ -98,7 +108,7 @@ def hms(t):
 # cui il MASTER avverte che il montato del servizio esce piu' corto del locale.
 righe, t, n = [], 0.0, 0
 for s in scene:
-    f = (QUI/"scene"/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
+    f = (SCENE/f"{s['id']}.mp4") if s["text"] else (TMP/f"{s['id']}.mp4")
     d = durata(f)
     if not s["text"]:
         t += d; continue

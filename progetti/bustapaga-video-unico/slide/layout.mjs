@@ -212,6 +212,51 @@ ol.el.fitto,ul.el.fitto{gap:20px}
 .cover .ente{position:absolute;bottom:118px;left:132px;font-size:26px;letter-spacing:.1em;
              color:var(--sop);opacity:.85}
 
+/* --- sfondo fotografico ---------------------------------------------------
+   Le sedici scene che lo script chiamava «clip b-roll» non erano slide: erano
+   riprese. Senza troupe restano immagini, ma una FOTOGRAFIA, non un disegno
+   vettoriale come le altre 187.
+
+   Non e' un tipo di corpo in piu': e' un attributo. La slide tiene il suo
+   corpo — «frase», «citazione», quello che e' — e la foto dietro. Cosi'
+   la tipografia, le spaziature e le regole di accento restano quelle di tutto
+   il video, e non c'e' un ventinovesimo tipo da mantenere allineato agli altri.
+
+   Il contrasto non e' affidato alla fortuna della foto. Sopra c'e' un velo in
+   sfumatura, fitto dove sta il testo e quasi assente dall'altra parte: il
+   testo legge sempre, la foto si vede lo stesso. Per questo una slide con
+   sfondo DEVE dichiarare il tema profondo - i colori chiari del tema - e
+   html() lo pretende invece di indovinarlo. */
+.slide.foto .sfondo{position:absolute;inset:0;overflow:hidden;z-index:0;
+                    animation:appareFoto .9s ease both}
+.slide.foto .sfondo img{width:100%;height:100%;object-fit:cover;display:block}
+.slide.foto .velo{position:absolute;inset:0;background:
+  linear-gradient(101deg, rgba(0,38,22,.96) 0%,  rgba(0,38,22,.93) 34%,
+                          rgba(0,40,24,.74) 52%, rgba(0,44,26,.26) 70%,
+                          rgba(0,48,29,.06) 100%)}
+/* un secondo velo in basso: la barra di avanzamento e il marchio devono
+   staccare anche su una foto chiara in quell'angolo */
+.slide.foto .velo::after{content:'';position:absolute;inset:auto 0 0 0;height:230px;
+  background:linear-gradient(180deg, rgba(0,38,22,0) 0%, rgba(0,38,22,.55) 100%)}
+/* I fregi - le virgolette di una citazione, il sigillo di una norma - sono
+   filigrane: servono su una campitura piatta, dove la slide sarebbe nuda.
+   Sopra una fotografia sono rumore, e peggio: il fregio e' disegnato in
+   var(--acc), che sul tema profondo e' BIANCO, e una filigrana bianca su una
+   foto scura non si legge come filigrana - si legge come una macchia appoggiata
+   sopra le parole. Su una foto la decorazione c'e' gia': e' la foto.
+   La citazione resta riconoscibile per quello che e' sempre stata: il serif
+   grande e la riga della fonte sotto. */
+.slide.foto .freg{display:none}
+/* E fuori dalle foto: sul tema profondo la filigrana bianca al 13% e' comunque
+   troppo forte. Si abbassa qui, una volta, invece che in ogni fregio. */
+.slide.scuro .freg{opacity:.09}
+.slide.foto .logo,.slide.foto .pagina,.slide.foto .avanz{z-index:2}
+.slide.foto .sop,.slide.foto .corpo{position:relative;z-index:2}
+/* il testo non attraversa la foto da parte a parte: si ferma dove il velo e'
+   ancora fitto, e la meta' destra resta fotografia */
+.slide.foto .corpo,.slide.foto .sop{max-width:1040px}
+@keyframes appareFoto{from{opacity:0} to{opacity:1}}
+
 /* --- movimento: entra, e poi finisce (MASTER §Passo 4) ---
    Le animazioni sono ferme: l'orologio lo sposta a mano il generatore,
    cosi' cards.mjs e clips.mjs rendono esattamente la stessa cosa. */
@@ -329,16 +374,35 @@ const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
 // che scoprirlo guardando il video.
 const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
 
+// La foto si incorpora nella pagina come il marchio, in base64: clips.mjs
+// costruisce la slide con setContent() e la pagina non ha un indirizzo di
+// base, quindi un src relativo non verrebbe caricato — e un fotogramma
+// renderizzato prima che l'immagine arrivi sarebbe uno sfondo vuoto.
+const foto = id => {
+  const f = join(QUI, 'foto', `${id}.jpg`);
+  try { return 'data:image/jpeg;base64,' + readFileSync(f).toString('base64'); }
+  catch { throw new Error(`${id}: manca la fotografia slide/foto/${id}.jpg`); }
+};
+
 export function html(d, {avanzamento=0, pagina=''}={}) {
   if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
     throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
+  // Il tema non si forza di nascosto: chi mette una foto lo dichiara. Forzarlo
+  // qui renderebbe invisibile, leggendo contenuti.mjs, perche' quella slide
+  // e' scritta coi colori chiari.
+  if (d.sfondo && d.tema !== 'profondo')
+    throw new Error(`${d.id}: una slide con sfondo fotografico va sul tema profondo, non «${d.tema ?? 'chiaro'}»`);
   const t = TEMI[d.tema ?? 'chiaro'];
   const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';
+  const sfondo = d.sfondo
+    ? `<div class="sfondo"><img src="${foto(d.sfondo === true ? d.id : d.sfondo)}" alt=""><div class="velo"></div></div>`
+    : '';
   return `<!doctype html><meta charset="utf-8"><style>${CSS}</style>
-<body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''}"
+<body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''} ${d.sfondo?'foto':''}"
   style="--bg:${t.bg};--fg:${t.fg};--tit:${t.tit};--acc:${t.acc};--sop:${t.sop};--linea:${t.linea};
          background:${t.bg};color:${t.fg}">
+  ${sfondo}
   <div class="logo"><img src="${MARCHIO}" alt="CISL FP Padova Rovigo"></div>
   ${pagina?`<div class="pagina">${pagina}</div>`:''}
   ${cover?'':`<div class="sop">${d.sopratitolo ?? ''}</div>`}

@@ -10,7 +10,6 @@ QUI = Path(__file__).resolve().parent
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 import sys as _sys; _sys.path.insert(0, str(QUI))
 from profilo import COPERTINA, CHIUSURA, CARD_CAPITOLO
-OUT = QUI/"scene"; OUT.mkdir(exist_ok=True)
 
 def durata(f):
     o = subprocess.run([FF,"-i",str(f),"-f","null","-"],capture_output=True,text=True).stderr
@@ -24,7 +23,23 @@ def durata(f):
 import os
 SOLO = set(filter(None, os.environ.get("SOLO", "").split(","))) or None
 
-reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+# Opzionale: VOCE=achille monta l'edizione con l'altra voce, senza toccare
+# quella corrente. Le clip animate NON dipendono dalla voce - sono 1,8 s di
+# ingresso, poi l'ultimo fotogramma tenuto fino a fine parlato - quindi
+# cambiando voce cambia solo quanto si tiene il fermo. Niente da rifare sulle
+# slide, niente da rigenerare: la stessa immagine, un altro respiro.
+# Il nome dell'edizione entra nei percorsi invece di sovrascrivere: due voci
+# devono poter stare nello stesso progetto senza cancellarsi a vicenda.
+VOCE = os.environ.get("VOCE", "").strip().lower()
+SUF  = f"-{VOCE}" if VOCE else ""
+BLOCCHI = QUI/"audio"/f"blocchi{SUF}"
+REG     = (QUI/"audio"/f"grezzo{SUF}"/"blocchi-audio.json") if VOCE else \
+          (QUI/"audio"/"blocchi-audio.json")
+OUT = QUI/f"scene{SUF}"; OUT.mkdir(exist_ok=True)
+for p in (BLOCCHI, REG):
+    if not p.exists(): raise SystemExit(f"per VOCE={VOCE or '(corrente)'} manca {p}")
+
+reg = json.loads(REG.read_text(encoding="utf-8"))
 tot = 0.0; righe = []
 for r in reg:
     idb, d = r["id"], r["durata"]
@@ -32,7 +47,7 @@ for r in reg:
         dr = durata(OUT/f"{idb}.mp4"); tot += dr
         righe.append((idb, d, dr, abs(dr-d)))
         continue
-    clip, mp3, out = QUI/"slide"/"mp4"/f"{idb}.mp4", QUI/"audio"/"blocchi"/f"{idb}.mp3", OUT/f"{idb}.mp4"
+    clip, mp3, out = QUI/"slide"/"mp4"/f"{idb}.mp4", BLOCCHI/f"{idb}.mp3", OUT/f"{idb}.mp4"
     p = subprocess.run([FF,"-y","-v","error","-i",str(clip),"-i",str(mp3),
         "-filter_complex", f"[0:v]tpad=stop_mode=clone:stop_duration={d+1:.3f},fps=25[v]",
         "-map","[v]","-map","1:a","-t",f"{d:.3f}",

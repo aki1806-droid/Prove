@@ -26,9 +26,17 @@ import imageio_ffmpeg
 
 QUI  = Path(__file__).resolve().parent
 FF   = imageio_ffmpeg.get_ffmpeg_exe()
-MP4  = QUI/"montato-busta-paga-60min.mp4"
+# VOCE=achille spezza l'altra edizione. L'indice dei capitoli resta uno solo:
+# i capitoli cadono agli stessi PUNTI del copione in tutte e due, solo a minuti
+# diversi — e infatti i tagli si ricalcolano dalla durata vera del file, non
+# dall'indice in secondi. Se un giorno servisse un indice per voce, questa e'
+# la riga che se ne accorge.
+import os
+VOCE = os.environ.get("VOCE", "").strip().lower()
+SUF  = f"-{VOCE}" if VOCE else ""
+MP4  = QUI/f"montato-busta-paga-60min{SUF}.mp4"
 SRT  = MP4.with_suffix(".srt")
-IDX  = QUI/"indice-capitoli.txt"
+IDX  = QUI/f"indice-capitoli{SUF}.txt"
 TETTO = 30*1024*1024        # il limite del canale di consegna, in byte
 MARGINE = 0.93              # non si consegna sul filo: 7% di aria
 
@@ -53,7 +61,17 @@ def ms(t):
     return "%d:%04.1f" % (m, s)
 
 def indice():
-    """(secondi, titolo) per ogni capitolo, dall'indice misurato."""
+    """(secondi, titolo) per ogni capitolo, dall'indice misurato di QUESTA
+    edizione.
+
+    Non si riscala l'indice dell'altra voce in proporzione alla durata: il dato
+    esatto esiste, basta chiederlo. `indice-capitoli.py` cammina le scene vere
+    e lo scrive per ogni edizione, ed e' lo stesso principio del profilo —
+    derivare dal dato invece di approssimare.
+    """
+    if not IDX.exists():
+        raise SystemExit(f"manca {IDX.name}: fallo con "
+                         f"{'VOCE='+VOCE+' ' if VOCE else ''}python3 indice-capitoli.py")
     out = []
     for r in IDX.read_text(encoding="utf-8").splitlines():
         m = re.match(r"(\d+):(\d\d)\s+(.*)", r.strip())

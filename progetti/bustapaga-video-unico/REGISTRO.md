@@ -813,6 +813,136 @@ fattore.** Diceva $0,26 per i 70 minuti, il reale e' stato $3,81: **14,9
 volte**, contro il 14,7 misurato la prima volta. Non e' un caso isolato, e'
 il comportamento del modello. Per la sintesi il preventivo resta esatto.
 
+## Le fotografie: quattordici scene che lo script voleva riprese
+
+L'utente ha guardato il video e ha detto che c'e' poca immagine: vuole
+«qualche riproduzione realistica delle cose che si spiegano». Ha ragione, e il
+numero lo conferma: **87 slide su 218 sono una frase su fondo bianco**, il 40%
+del video. Non e' un difetto di gusto, e' un buco che era gia' scritto nel
+copione.
+
+Perche' proprio li'. Lo script dell'utente classificava 16 scene come «clip
+b-roll»: non slide, RIPRESE. Senza troupe erano diventate slide di testo come
+le altre. Quelle sedici sono il posto dove la fotografia mancava per
+costruzione, non per scelta — e infatti sono le scene che parlano di SITUAZIONI
+(la notte in reparto, il badge, il tavolo di cucina col prospetto turni
+accanto) e non di STRUTTURE (una tabella, una scala di aliquote).
+
+E' anche il criterio con cui ho deciso dove NON metterle: dove la voce descrive
+una struttura, un vettore dice di piu' di una fotografia. Per questo s125
+(i progressivi, quattro caselle) e s157 (due strade a confronto) restano
+grafica: hanno un contenuto che una foto non saprebbe dire.
+
+Due delle sedici sono rimaste fuori per un'altra ragione: **s079 e s148 sono
+sul tema `tenue`**, che in questo progetto e' il tema DEGLI ERRORI (MASTER §5).
+Coprirle con una foto avrebbe spento l'unico segnale che dice «qui si sbaglia».
+Al loro posto ho fotografato le due CITAZIONI dello sportello, s033 e s207, che
+sono domande di persone vere e stavano su fondo bianco come tutto il resto.
+
+Quattordici in tutto, una ogni quattro minuti circa.
+
+### Non un tipo nuovo: un attributo
+
+La tentazione era aggiungere `foto` ai 28 tipi di corpo. Sbagliato: sarebbe
+stato un ventinovesimo tipo da tenere allineato agli altri, con la sua
+tipografia che diverge alla prima modifica.
+
+La foto e' invece un ATTRIBUTO — `sfondo:true` — che una slide qualunque puo'
+portare. La slide tiene il suo corpo (`frase`, `citazione`, `titolo`) e la
+fotografia le sta dietro. Nessuna regola di accento, spaziatura o gerarchia
+cambia: cambia lo sfondo.
+
+Il contrasto non e' affidato alla fortuna della foto. Sopra c'e' un velo in
+sfumatura, fitto dove sta il testo (96%) e quasi assente sulla fotografia (6%),
+con un secondo velo in basso perche' il marchio e la barra di avanzamento
+stacchino comunque. Per questo una slide con sfondo DEVE dichiarare il tema
+profondo, e `html()` lo PRETENDE invece di forzarlo di nascosto: forzato, chi
+legge contenuti.mjs vedrebbe una slide scritta coi colori chiari e non capirebbe
+perche' esce bianca.
+
+Il velo l'ho tarato due volte. Alla prima passata era piatto e ingrigiva di
+verde anche la parte destra: la divisa azzurra dell'infermiera diventava verde,
+cioe' la fotografia perdeva esattamente la cosa per cui l'avevo messa. Ripido,
+il testo legge uguale e la foto resta una foto.
+
+### Due difetti trovati guardando, non calcolando
+
+**Il fregio sopra le parole.** Le due citazioni portano un fregio a virgolette,
+disegnato in `var(--acc)` al 13%. Sul tema chiaro l'accento e' il rosso del
+marchio: una filigrana rosa, invisibile. Sul tema profondo l'accento e' il
+BIANCO — e una filigrana bianca su una foto scura non si legge come filigrana,
+si legge come una macchia appoggiata sopra il testo. Su una foto il fregio non
+serve (la decorazione e' la foto) e ora non si stampa; e fuori dalle foto, sul
+tema profondo, e' sceso al 9%. Era un difetto latente di QUALUNQUE citazione
+sul verde pieno, non solo di queste due.
+
+**Il manifesto della UIL.** Questo e' il motivo per cui le immagini si guardano
+una per una, ingrandite. La prima s207 — mani su un documento in un ufficio
+sindacale — aveva sulla parete di fondo due manifesti rossi che si leggono
+**UIL**: la sigla di un altro sindacato, dentro un video della CISL FP. Il
+modello l'ha inventata da solo: nel prompt c'era «nessun logo, nessuna scritta».
+Rifatta con la parete nuda e nessuna bacheca.
+
+Nella stessa passata e' saltata fuori la s053: un cartello a muro e la scritta
+sulla giubba di un soccorritore, entrambi in lettere storpiate. Piu' piccoli e
+meno gravi — nessuno ci legge un'altra sigla — ma rifatta lo stesso, con
+l'ambulanza senza scritte e il piazzale vuoto: due immagini su quattordici a
+$0,135 l'una non sono un motivo per lasciare una sbavatura in un video di
+un'ora.
+
+Le altre dodici sono passate: nessuna scritta leggibile, nessun marchio.
+
+### Perche' ElevenLabs e non Higgsfield
+
+L'utente ha suggerito Higgsfield, e su Higgsfield ho generato la prima prova:
+0,25 crediti a immagine in qualita' bassa, 1 credito in 2K — sui 63,81 crediti
+gia' pagati dell'abbonamento, cioe' praticamente gratis.
+
+Non si puo' usare, e il motivo non e' il modello: **la CDN di Higgsfield e'
+bloccata dalla policy di rete di questo ambiente** (403 CONNECT sul proxy). Le
+immagini si generano e non si scaricano. Ho provato il ponte — importare l'URL
+di Higgsfield come asset ElevenLabs, che lo scarica lato server — e funziona,
+ma restituisce solo una miniatura da **1024 px**: su uno sfondo a 1920 si
+vedrebbe.
+
+ElevenLabs genera sullo stesso `storage.googleapis.com` da cui gia' arrivavano
+le tracce audio, ed e' raggiungibile: master a 2048x1152. Costa $0,135
+l'una invece che un credito prepagato — in tutto $2,16 per sedici generazioni
+(quattordici piu' le due rifatte). Se la policy di rete cambiasse, Higgsfield
+tornerebbe la scelta piu' economica: il modello va bene, e la prova fatta li'
+(il tavolo di cucina col prospetto turni) era buona quanto le altre.
+
+## L'edizione con la voce di Achille
+
+L'utente l'ha chiesta «visto che ce l'hai gia'», ed e' esatto: costa ZERO in
+sintesi. Le 17 tracce grezze stanno in `audio/grezzo-achille/` e i 203 blocchi
+gia' tagliati in `audio/blocchi-achille/`, salvati durante il cambio di voce.
+
+La cosa che rende la faccenda facile e' che **le clip animate non dipendono
+dalla voce**: sono 1,8 s di ingresso, poi l'ultimo fotogramma tenuto fino alla
+fine del parlato. Cambiando voce cambia solo quanto si tiene il fermo. Niente
+slide da rifare, niente da rigenerare — la stessa immagine, un altro respiro.
+
+Serviva solo che gli strumenti smettessero di dare per scontata una voce sola.
+`VOCE=achille` entra nei PERCORSI invece di sovrascrivere:
+
+    monta-scene.py   blocchi-achille/ + grezzo-achille/blocchi-audio.json  ->  scene-achille/
+    monta-locale.py  scene-achille/                                        ->  montato-...-achille.mp4
+
+Due edizioni nello stesso progetto, che non si cancellano a vicenda.
+
+    montato-busta-paga-60min.mp4           Francesca   60:09,76
+    montato-busta-paga-60min-achille.mp4   Achille     59:46,85
+
+Il numero di Achille e' lo STESSO di prima del cambio di voce (59:46,79 allora,
+59:46,85 adesso: 60 ms su un'ora, l'arrotondamento al fotogramma). E' la prova
+che la ricostruzione e' fedele, non una nuova lavorazione.
+
+Le due durate diverse non sono un difetto di una delle due: Achille non ha
+l'atempo (l'utente lo tolse, perche' con lui il video usciva gia' giusto),
+Francesca ha 1.08 perche' lei e' piu' lenta. Stesso copione, stessi 203 blocchi,
+stesse 218 scene.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -838,6 +968,22 @@ il comportamento del modello. Per la sintesi il preventivo resta esatto.
 - **Ventisei coppie di scene consecutive dello stesso tipo** restano, contro la
   regola dello script («mai due consecutive»). Vedi la sezione qui sopra per
   perche' non si azzerano senza riordinare il copione o decorare.
+- **Le quattordici fotografie sono GENERATE, non scattate.** Le ho guardate
+  una per una, ingrandite, e nessuna ha piu' scritte leggibili ne' marchi: e'
+  la verifica che potevo fare io. Restano immagini di persone che non esistono,
+  in reparti che non esistono. Per un video sindacale e' una cosa da sapere, e
+  in due casi vale la pena rimediare: **s033 e s207 mostrano lo sportello della
+  CISL FP**, cioe' un servizio vero che ha un ufficio vero e persone vere. Una
+  fotografia fatta in sede varrebbe di piu' e costerebbe meno. Se arrivano, si
+  sostituiscono i due file in `slide/foto/` e si rifanno solo quelle due scene:
+  il resto non si tocca.
+- **Il manifesto della UIL e' stato tolto, ma dice qualcosa di generale.** Il
+  modello ha inventato la sigla di un altro sindacato senza che nessuno gliela
+  chiedesse, in un prompt che diceva «nessun logo». Se un giorno si aggiungono
+  altre fotografie, la passata di controllo ingrandita NON e' facoltativa.
+- **L'edizione con Achille non l'ha guardata nessuno.** E' ricostruita dai
+  blocchi salvati e i numeri tornano al millisecondo con quelli di prima del
+  cambio di voce, ma nessuno l'ha vista ne' sentita dopo il rimontaggio.
 - **Nessuno ha guardato il montato.** E' stato costruito e misurato, non visto:
   un'ora di video non si giudica dai numeri. Da guardare almeno gli attacchi dei
   tredici capitoli, dove la card muta incontra la prima scena parlata, e la
@@ -876,13 +1022,10 @@ possibili quella coi pezzi piu' pari. Cambiando il copione l'indice cambia e i
 tagli si rifanno da soli — e' la stessa regola del profilo, derivare dal dato
 invece di murare un numero.
 
-    montato 01:00:09,76   108,5 MiB   30,8 KiB/s  ->  pezzo massimo 928 s
-
-     0:00–11:36   capitoli 1-2     20,8 MiB   40 sottotitoli
-    11:36–22:36   capitoli 3-4     19,8 MiB   37 sottotitoli
-    22:36–32:57   capitoli 5-6     19,1 MiB   34 sottotitoli
-    32:57–45:46   capitoli 7-9     23,3 MiB   47 sottotitoli
-    45:46–60:09   capitoli 10-13   26,3 MiB   49 sottotitoli
+Con le fotografie il montato e' cresciuto (le diapositive ferme comprimono
+molto meglio di una fotografia), e i tagli si sono rifatti da soli sui numeri
+nuovi: e' esattamente il motivo per cui non erano scritti nello strumento.
+`VOCE=achille` spezza l'altra edizione, con il SUO indice dei capitoli.
 
 Ogni pezzo porta i suoi sottotitoli, ritempificati dal suo minuto zero; quello
 intero resta valido se i pezzi si rimettono insieme.
