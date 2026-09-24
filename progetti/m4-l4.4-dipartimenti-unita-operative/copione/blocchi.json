@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Sul cartellino c'e' scritto il nome di un'unita' operativa complessa, e sotto quello di un dipartimento. Due sigle, due livelli. Capire la differenza vuol dire capire dove si decide del tuo lavoro."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organizzazione di un'azienda sanitaria e' fatta a scatole: il dipartimento contiene le unita' operative, e le unita' operative complesse possono contenere quelle semplici. Vediamo le regole."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Le scatole in cui lavoriamo, e chi ne tiene le chiavi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Il modello dipartimentale. I tipi di dipartimento. Le unita' operative: complesse, semplici dipartimentali e semplici. E chi guida ciascuna struttura."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dipartimento e' un aggregato di unita' operative, complesse e semplici, che perseguono finalita' comuni pur mantenendo ciascuna la propria autonomia."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' aggregare? Per integrare i professionisti, condividere le risorse, costruire percorsi comuni. Letti, sale operatorie, apparecchiature: rendono di piu' se gestiti insieme."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa a due chirurgie che condividono la stessa piastra operatoria: se le sedute si programmano insieme, le sale non restano vuote e le liste d'attesa si accorciano."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organizzazione dipartimentale e' anche un requisito di legge: le aziende ospedaliere, come abbiamo visto nella lezione quattro punto uno, devono averla."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il criterio per creare un dipartimento e' semplice da dire: mettere insieme unita' operative che, per motivi assistenziali, scientifici o organizzativi, ottengono di piu' lavorando insieme."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una regola da ricordare: ogni unita' operativa complessa, o semplice dipartimentale, puo' far parte di un solo dipartimento strutturale. Non si sta in due scatole gerarchiche."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio a un distrattore: il dipartimento non toglie autonomia alle unita' operative. Le coordina e ne condivide le risorse, ma ciascuna resta responsabile della propria attivita'."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Insieme per usare meglio le risorse, ognuno responsabile della propria parte."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo tipo e' il dipartimento strutturale. Aggrega in modo gerarchico unita' operative complesse e semplici a valenza dipartimentale, per gestire in comune le risorse."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo guida un direttore, nominato dal direttore generale fra i direttori delle unita' operative complesse del dipartimento. L'incarico dura tre anni, viene verificato ed e' rinnovabile."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto al direttore c'e' il comitato di dipartimento. Esprime pareri e proposte sul budget, sulle nuove attivita', sugli spazi e gli strumenti comuni, sulla formazione del personale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo tipo e' il dipartimento funzionale. Le sue unita' operative restano nei propri dipartimenti strutturali: il funzionale le collega per coordinare attivita' complesse."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui la responsabilita' e' soprattutto di coordinamento e di integrazione, non di gestione diretta: le risorse restano alle singole unita' operative che lo compongono."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qualche esempio di dipartimento funzionale: oncologia clinica, materno-infantile, riabilitazione, medicina trasfusionale, dipendenze. Temi che attraversano piu' reparti."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Possono essere interni a un ospedale, fra ospedale e territorio, o fra istituzioni diverse. E li affiancano le reti cliniche, per ictus, infarto, trauma e altre patologie."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende ospedaliero-universitarie c'e' poi il dipartimento ad attivita' integrata, dove assistenza, didattica e ricerca si incontrano. A Padova i dipartimenti ospedalieri sono dieci."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: nel dipartimento funzionale le risorse non passano al coordinatore. Restano alle unita' operative. Il funzionale coordina, lo strutturale gestisce."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Lo strutturale gestisce le risorse, il funzionale coordina i percorsi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro i dipartimenti ci sono le unita' operative, di tre tipi: complesse, semplici a valenza dipartimentale e semplici. Nelle ULSS ci sono anche le semplici a valenza distrettuale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'unita' operativa complessa concentra competenze professionali e risorse umane, tecnologiche e finanziarie, con la responsabilita' di attivita' istituzionali specifiche."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gestisce il budget assegnato ed eroga le prestazioni. La guida un direttore, che risponde sia degli aspetti professionali sia della gestione del personale e delle risorse."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le unita' operative complesse sono stabilite dall'atto aziendale, sulla base della programmazione regionale. Possono essere cliniche, come una cardiologia, o tecniche e amministrative."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'unita' operativa semplice a valenza dipartimentale, detta UOSD, non dipende da una complessa: risponde direttamente al dipartimento."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha un proprio budget e un proprio responsabile. Si crea quando un'attivita' ha un peso strategico, ha bisogno di molta autonomia, o deve gestire risorse rilevanti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio tipico di UOSD e' un servizio molto specialistico che lavora per tutto il dipartimento, senza appartenere a un singolo reparto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'unita' operativa semplice, detta UOS, sta invece dentro un'unita' operativa complessa. Mette in evidenza un pezzo di attivita' che ha bisogno di autonomia e responsabilita'."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La guida un responsabile, in stretto rapporto con il direttore della complessa. E non ha un budget distinto e autonomo: i suoi obiettivi stanno dentro quelli della complessa."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono poi le articolazioni funzionali, previste dalla delibera regionale 1306: segmenti interni a una struttura, con competenze molto elevate, affidati a un incarico professionale di alta specializzazione."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: in un dipartimento di area medica c'e' la complessa di medicina interna; dentro, una semplice di ecografia. Accanto, una semplice dipartimentale che risponde direttamente al dipartimento."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: UOS e UOSD non sono la stessa cosa. La UOS sta dentro una complessa e non ha un budget autonomo. La UOSD risponde al dipartimento e gestisce un proprio budget."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Complessa, dipartimentale, semplice: tre livelli di autonomia e di responsabilita'."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni articolazione ha un unico responsabile, con compiti, obiettivi e strumenti coerenti fra loro. E' uno dei criteri di organizzazione fissati dall'atto aziendale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per chi lavora nel comparto la struttura conta. Il budget della complessa decide risorse e obiettivi, anche quelli che arrivano al personale attraverso la valutazione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche il comitato di dipartimento ti riguarda: i suoi pareri su formazione, spazi e organizzazione toccano direttamente il lavoro quotidiano dei reparti."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E gli incarichi di funzione del comparto, organizzativi o professionali, si collocano dentro questa architettura: il coordinamento di un'unita' operativa, una funzione trasversale di dipartimento."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo leggere l'organigramma della propria azienda non e' un esercizio burocratico: dice chi decide sul tuo lavoro, con quali risorse, e dove puoi crescere."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: il dipartimento aggrega unita' operative complesse e semplici con finalita' comuni, e ciascuna mantiene la propria autonomia."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il dipartimento strutturale gestisce le risorse ed e' guidato da un direttore scelto fra i direttori delle complesse; il funzionale coordina attivita' che attraversano piu' strutture."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: la UOC ha un direttore e un budget; la UOSD risponde al dipartimento con un proprio budget; la UOS sta dentro una complessa, senza budget autonomo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il direttore di dipartimento non e' un organo dell'azienda e non lo sceglie la Regione. Lo nomina il direttore generale, fra i direttori di unita' operativa complessa."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dipartimenti che integrano, unita' operative che producono, un responsabile per ogni struttura. Nell'ultima lezione del modulo: governo clinico e continuita' assistenziale."
+ }
+]
