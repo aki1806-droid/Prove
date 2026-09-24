@@ -1,0 +1,38 @@
+{
+ "A": {
+  "parole_copione": 720,
+  "parole_dette": 720,
+  "coincidenti": 719,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "a",
+    "detto": "al"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 683,
+  "parole_dette": 681,
+  "coincidenti": 678,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "oro faringee",
+    "detto": "orofaringee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "sub glottica",
+    "detto": "subglottica"
+   },
+   {
+    "blocco": "s33",
+    "copione": "collutori",
+    "detto": "colluttori"
+   }
+  ]
+ }
+}
