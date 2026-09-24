@@ -13,4 +13,4 @@ tappe, i meccanismi disegnati.
 | 3.5 | Idratazione, bilancio idrico ed equilibrio elettrolitico | 9:03.8 | `1404ecab794435636b7bc67f4b4f9b8c` |
 | 3.6 | Eliminazione urinaria e cateterismo vescicale | 9:10.1 | `8b180936da81cf50525bf356ea0df4cb` |
 | 3.7 | Eliminazione intestinale, dolore e sonno | 9:08.6 | `d09962bf851b8ea74931786cba69b23b` |
-| 3.8 | Riepilogo del Modulo 3 e autovalutazione | — | slide pronte; voce ferma per quota |
+| 3.8 | Riepilogo del Modulo 3 e autovalutazione | 9:09.5 | `76d4ae9f8f169396b1cdb1af1e87dcff` |

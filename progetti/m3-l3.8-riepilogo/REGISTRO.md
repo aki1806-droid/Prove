@@ -92,7 +92,7 @@ una velocità del potassio): un riepilogo non introduce dati.
 
 | | |
 |---|---|
-| resa pubblicata | RESA38 |
+| resa pubblicata | `76d4ae9f8f169396b1cdb1af1e87dcff` — 549,465 s (9:09.5), 1080p 16:9, resa in 135 s |
 | lotto asset | `dd0f5a8437a94588b7c9a12ce7652670` — 98 file, 20 MB, tutti completati |
 
 ---
