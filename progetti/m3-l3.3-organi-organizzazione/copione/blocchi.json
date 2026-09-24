@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Entri in una ULSS come dipendente. Nel primo mese senti nominare il direttore generale, il collegio sindacale, il distretto, il dipartimento, l'unita' operativa complessa. Chi sono? E chi decide che cosa?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 56 risponde in due modi. Con gli organi, che governano l'azienda. E con l'organizzazione interna, che la fa funzionare ogni giorno."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Organi e strutture: la mappa per non perdersi dentro l'azienda."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Gli organi dell'azienda. La direzione e gli organismi che la affiancano. Le tre grandi aree: ospedale, territorio, prevenzione. E dipartimenti, unita' operative e servizi di supporto."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella legge 56 del 1994 gli organi dell'azienda sono due: il direttore generale e il collegio dei revisori. Ne parla l'articolo dieci; al direttore generale e' dedicato l'articolo tredici."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale e' nominato dalla Giunta regionale, sentito il Consiglio regionale. E' il legale rappresentante dell'azienda, e ne ha la responsabilita' complessiva."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Risponde del raggiungimento degli obiettivi che gli assegna la Giunta, e della gestione corretta ed economica delle risorse. Per questo la sua attivita' viene valutata ogni anno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' il direttore generale a nominare i suoi piu' stretti collaboratori: il direttore sanitario, il direttore amministrativo e il direttore dei servizi socio-sanitari."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo organo e' il collegio dei revisori. Tre componenti: uno designato dalla Giunta regionale, uno dal ministero dell'Economia e delle finanze, uno dal ministero della Salute."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vigila sulla regolarita' amministrativa e contabile: la tenuta dei libri contabili, gli adempimenti fiscali, i singoli atti di gestione e i titoli di spesa."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vigila sulla gestione economica, finanziaria e patrimoniale: parere preventivo sui bilanci di previsione e sul budget generale, esame del bilancio d'esercizio. Le regole stanno nella legge 55."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione ai nomi di oggi: lo stesso organo si chiama collegio sindacale. E con la legge 19 del 2016 gli organi diventano tre: direttore generale, collegio di direzione e collegio sindacale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Uno decide e risponde. L'altro controlla i conti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto al direttore generale lavora la direzione strategica. Il direttore sanitario e il direttore amministrativo lo coadiuvano, con pareri obbligatori sugli atti delle loro materie."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel Veneto c'e' una terza figura: il direttore dei servizi socio-sanitari. Lo nomina il direttore generale, sentito il sindaco o la rappresentanza della Conferenza dei sindaci."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la firma del modello veneto dentro la direzione: il sociale ha un suo direttore, seduto allo stesso tavolo del sanitario e dell'amministrativo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 19 aggiunge due regole. Sopra i tremila posti letto il direttore sanitario puo' farsi aiutare da un coordinatore sanitario. Sopra i cinquecentomila abitanti, l'amministrativo da un coordinatore amministrativo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono gli organismi che consigliano. Il consiglio dei sanitari, previsto dalla legge 56, e' un organismo elettivo di consulenza tecnico-sanitaria."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo presiede il direttore sanitario, e ne fanno parte i rappresentanti delle professioni sanitarie dell'azienda: medici, infermieri, tecnici, farmacisti e altri."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegio di direzione viene invece dal decreto 502. Lo presiede il direttore generale, e riunisce il direttore sanitario, i direttori di dipartimento, il direttore dei servizi socio-sanitari e i responsabili di distretto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve al governo clinico: fa lavorare insieme la direzione strategica e i professionisti, sulla programmazione e sulle proposte di miglioramento."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Uno scambio frequente: il consiglio dei sanitari lo presiede il direttore sanitario. Il collegio di direzione lo presiede il direttore generale."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Scendiamo nell'organizzazione. Una ULSS si articola in tre grandi aree: l'ospedale, il territorio e la prevenzione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ospedale, con le sue unita' di ricovero e cura. Il territorio, con i distretti, i medici di medicina generale, i pediatri di libera scelta e le farmacie."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la prevenzione, con il dipartimento di prevenzione: igiene e sanita' pubblica, screening, servizi veterinari."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il distretto e' la struttura territoriale fondamentale. Coordina e gestisce i servizi sanitari e socio-sanitari per un territorio definito, di solito un insieme di Comuni."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha due funzioni: garantire l'integrazione fra assistenza sanitaria e servizi sociali, e pianificare, coordinare e valutare i servizi sul territorio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gestisce l'assistenza primaria, le cure domiciliari, i consultori, i servizi per anziani e disabili, il raccordo con gli ospedali. E' la casa della salute del cittadino."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il distretto lo abbiamo visto nel modulo due. Qui conta un punto: nel Veneto e' lo snodo dell'integrazione, perche' li' il sociale delegato dai Comuni incontra la sanita'."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dipartimento di prevenzione si occupa della salute collettiva: malattie infettive e vaccinazioni, igiene degli alimenti, qualita' dell'acqua e dell'aria, sicurezza nei luoghi di lavoro."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi gli screening, l'educazione alla salute e i servizi veterinari. Lavora su chi sta bene, perche' continui a stare bene."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa a una mamma con un neonato: il consultorio e il pediatra stanno nel territorio, le vaccinazioni nella prevenzione, il parto e' avvenuto in ospedale. Tre aree, un solo percorso."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ospedale, territorio, prevenzione: tre porte, una sola azienda."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro le tre aree ci sono le strutture operative. Il dipartimento raggruppa unita' operative affini, per funzione o per area clinica."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le unita' operative possono essere complesse o semplici. Sono i centri operativi, clinici o amministrativi, dove il lavoro si fa ogni giorno."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello dipartimentale serve a integrare: professionisti vicini, risorse condivise, percorsi comuni. E' l'integrazione funzionale, dentro l'azienda."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi i servizi di supporto. La legge 56, all'articolo ventuno, chiede all'azienda di definire l'assetto dei servizi amministrativi, tecnici e professionali."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono quelli che acquisiscono, organizzano e gestiscono le risorse dell'azienda: umane, informative, finanziarie, patrimoniali e materiali."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qualche esempio: risorse umane, contabilita' e bilancio, provveditorato ed economato, servizi tecnici e patrimoniali, affari generali, sistemi informativi."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono uffici che il cittadino vede poco. Ma senza di loro nessun reparto aprirebbe: il personale, gli acquisti, gli edifici, i dati."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi il controllo di gestione, all'articolo venti: un'unita' nominata dal direttore generale, alle sue dirette dipendenze, che applica la metodica di budget. Lo ritroveremo nella lezione tre punto cinque."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutto questo si mette per iscritto nell'atto aziendale: il documento che fissa organizzazione, funzioni e strutture di ogni azienda. Nel Veneto lo regolano la legge 19 e le linee guida regionali."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: nella legge 56 gli organi sono il direttore generale e il collegio dei revisori. Oggi il collegio si chiama sindacale, e la legge 19 aggiunge il collegio di direzione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il direttore generale nomina il direttore sanitario, quello amministrativo e quello dei servizi socio-sanitari. Quest'ultimo, sentita la Conferenza dei sindaci."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: la ULSS si articola in ospedale, territorio con i distretti, e prevenzione. Dentro, dipartimenti e unita' operative complesse e semplici."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il collegio dei revisori non e' nominato tutto dalla Regione. I tre componenti li designano la Giunta regionale, il ministero dell'Economia e il ministero della Salute."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: pochi organi che decidono e controllano, e tre aree che portano i servizi vicino alle persone. Nella prossima lezione, la legge 55: programmare e rendere conto."
+ }
+]
