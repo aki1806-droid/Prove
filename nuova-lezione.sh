@@ -25,6 +25,7 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 # grafica.mjs e' infrastruttura condivisa quanto layout.mjs, che lo importa:
 # senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
+   $( [ -f "$DA/slide/illustra.mjs" ] && echo "$DA/slide/illustra.mjs" ) \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"

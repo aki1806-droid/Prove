@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Un Comune di tremila abitanti, in collina. Il sindaco non gestisce l'ospedale e non nomina i primari. Eppure ha voce sulla sanita' del suo territorio. Da dove viene quella voce?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Viene dalla legge regionale 56 del 1994: la legge che disegna l'architettura del sistema veneto. Chi programma, chi gestisce, chi partecipa, chi controlla."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una legge di riordino fa una cosa sola, ma la fa fino in fondo: dice chi fa che cosa."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Le finalita' e il ruolo della Regione. Le aziende, ULSS e ospedaliere. I Comuni e la Conferenza dei sindaci. La programmazione regionale e i rapporti con l'Universita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il titolo completo: norme e principi per il riordino del servizio sanitario regionale, in attuazione del decreto 502 del 1992, come modificato dal decreto 517 del 1993."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto di partenza: la Regione assicura ai cittadini i migliori livelli uniformi di assistenza, sul territorio regionale, in relazione alle risorse disponibili."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uniformi vuol dire uguali per tutti, da Belluno a Rovigo. In relazione alle risorse vuol dire dentro i conti: un diritto che deve restare sostenibile."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per garantirlo, la Regione esercita funzioni di programmazione, di indirizzo, di controllo e di vigilanza sulle ULSS e sulle aziende ospedaliere."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Programmare vuol dire fissare obiettivi e priorita'. Indirizzare, dare regole comuni. Controllare e vigilare, verificare che le aziende le rispettino. E poi si riparte."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' lo spazio che il decreto 502 lascia alle Regioni: definire il quadro istituzionale, individuare le unita' locali e i loro ambiti, scegliere gli ospedali da costituire in aziende."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oltre a disciplinare l'organizzazione e il funzionamento delle unita' locali. La legge 56 fa esattamente questo, per il Veneto."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' un obiettivo scritto nella legge: la Regione persegue l'integrazione tra le politiche sanitarie e quelle sociali. Non e' un'abitudine: e' un principio."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: la Regione non gestisce direttamente gli ospedali. Programma, indirizza e controlla. La gestione dei servizi spetta alle aziende."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La Regione governa. Le aziende gestiscono. E il cittadino sa a chi chiedere conto."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende sono di due tipi: l'azienda ULSS, unita' locale socio-sanitaria, e l'azienda ospedaliera. Diverse per missione, dentro lo stesso sistema."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ULSS copre un territorio e fa quasi tutto: prevenzione, assistenza distrettuale, ospedali, farmaceutica, specialistica. E le attivita' socio-assistenziali che le vengono delegate."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'azienda ospedaliera si concentra su uno o piu' ospedali: ricovero e cura ad alta specializzazione, con un contributo alla ricerca e alla formazione del personale sanitario."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi, dopo la legge 19, il Veneto conta nove aziende ULSS, due aziende ospedaliere universitarie, Padova e Verona, e l'Istituto Oncologico Veneto."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entrambi i tipi di azienda assicurano le prestazioni dei livelli uniformi di assistenza, fissati dal piano socio-sanitario regionale nel rispetto del piano sanitario nazionale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ciascuna adotta un piano generale triennale: il documento con cui traduce in azioni la programmazione regionale. Lo vedremo da vicino nella lezione sulla legge 55."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' la delega sociale. La Regione promuove la delega della gestione dei servizi sociali dai Comuni alle ULSS, con finanziamenti specifici e nei modi fissati dal piano socio-sanitario."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il cittadino vuol dire una sola azienda per bisogni diversi: l'assistenza a domicilio, i servizi per le persone con disabilita', l'ospedale."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: la delega non toglie ai Comuni la titolarita' dei servizi sociali. Ne affida la gestione alla ULSS, che la esercita per loro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Due aziende, un solo sistema. E la ULSS che tiene insieme sanita' e sociale."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il territorio di una ULSS comprende molti Comuni. Per questo la legge 56, all'articolo cinque, istituisce la Conferenza dei sindaci."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'organismo con cui i Comuni esercitano funzioni di indirizzo e di valutazione sull'azienda. Non gestisce: orienta e giudica. La gestione resta al direttore generale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I compiti da ricordare sono quattro. Il primo: formula osservazioni sulla proposta di piano socio-sanitario regionale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: elabora i piani di zona, i programmi dei servizi sociali a integrazione socio-sanitaria. Il terzo: esamina il bilancio di previsione e il bilancio consuntivo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto: esprime il parere sul piano attuativo locale, cioe' il piano generale dell'azienda. Il direttore generale lo chiede prima di approvarlo."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Conferenza lavora con un esecutivo e un presidente. La legge 19 del 2016 la conferma in ogni azienda ULSS, rinviando proprio all'articolo cinque della legge 56."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la legge 19 arrivano anche i Comitati dei sindaci di distretto, uno per distretto. Non sostituiscono la Conferenza: lavorano accanto, piu' vicino al territorio."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' conta? Il direttore generale e' nominato dalla Regione, ma deve rendere conto anche a chi rappresenta i cittadini del territorio: i loro sindaci."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torna al sindaco del Comune in collina: attraverso la Conferenza dice la sua sul piano dell'azienda, sui bilanci, sui servizi sociali del suo territorio. Ecco da dove viene la sua voce."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio ai nomi: Conferenza dei sindaci e Comitato dei sindaci non sono la stessa cosa. La Conferenza lavora sull'intera ULSS, il Comitato sul singolo distretto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "I Comuni non gestiscono l'azienda. Ma la orientano, e la giudicano."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta la programmazione regionale. Si realizza con il piano socio-sanitario regionale, che definisce obiettivi e standard dei servizi e si articola in programmi di intervento."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni anno, entro il 30 settembre, la Giunta riferisce al Consiglio regionale sull'andamento del servizio sanitario regionale. E' il momento in cui la politica rende conto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge indica anche le azioni strumentali: lo sviluppo del sistema informativo, l'osservazione epidemiologica e le sperimentazioni gestionali."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Senza dati non si programma. Il sistema informativo e l'epidemiologia sono gli occhi della Regione sul territorio. Le sperimentazioni gestionali, invece, servono a provare modelli nuovi prima di estenderli."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: se in una zona crescono gli anziani soli, i dati lo mostrano prima che le liste d'attesa esplodano. La programmazione parte da li'."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'Universita'. La sanita' veneta forma i suoi medici e fa ricerca: per questo Regione e Universita' stipulano protocolli d'intesa, con tre scopi precisi."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Regolare l'apporto delle facolta' di medicina all'assistenza. Organizzare la reciproca collaborazione. E disciplinare i corsi di formazione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la base su cui lavorano le aziende ospedaliere universitarie di Padova e di Verona. Le vedremo da vicino nel modulo quattro."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: con la legge 56 la Regione esercita programmazione, indirizzo, controllo e vigilanza. La gestione spetta alle aziende."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: la Conferenza dei sindaci, articolo cinque, ha funzioni di indirizzo e di valutazione. Osservazioni sul piano regionale, piani di zona, esame dei bilanci, parere sul piano attuativo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: ogni anno, entro il 30 settembre, la Giunta riferisce al Consiglio regionale sull'andamento del servizio sanitario regionale. E' la relazione annuale."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il piano di zona non e' il piano generale. Il piano di zona riguarda i servizi sociali e passa dalla Conferenza dei sindaci. Il piano generale e' dell'azienda."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: la Regione governa, le aziende gestiscono, i Comuni orientano e valutano. Nella prossima lezione entriamo nell'azienda: gli organi, i distretti, i dipartimenti."
+ }
+]

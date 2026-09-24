@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 656,
+  "parole_dette": 656,
+  "coincidenti": 654,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "esse",
+    "detto": "s"
+   },
+   {
+    "blocco": "s16",
+    "copione": "esse",
+    "detto": "s"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 594,
+  "parole_dette": 594,
+  "coincidenti": 593,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s44",
+    "copione": "esse",
+    "detto": "s"
+   }
+  ]
+ }
+}

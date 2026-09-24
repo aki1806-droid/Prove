@@ -1,0 +1,68 @@
+  s02  audio  10.19s  scena  10.19s  scarto    0 ms
+  s03  audio  10.44s  scena  10.44s  scarto    0 ms
+  s04  audio   6.53s  scena   6.52s  scarto   10 ms
+  s05  audio  11.38s  scena  11.40s  scarto   20 ms
+  s06  audio  12.70s  scena  12.70s  scarto    0 ms
+  s07  audio   8.51s  scena   8.52s  scarto   10 ms
+  s08  audio   8.72s  scena   8.72s  scarto    0 ms
+  s09  audio   8.17s  scena   8.16s  scarto   10 ms
+  s10  audio   9.45s  scena   9.44s  scarto   10 ms
+  s11  audio  10.48s  scena  10.48s  scarto    0 ms
+  s12  audio   7.08s  scena   7.08s  scarto    0 ms
+  s13  audio   8.15s  scena   8.15s  scarto    0 ms
+  s14  audio   8.25s  scena   8.24s  scarto   10 ms
+  s15  audio   6.11s  scena   6.12s  scarto   10 ms
+  s16  audio   8.40s  scena   8.40s  scarto    0 ms
+  s17  audio  10.31s  scena  10.32s  scarto   10 ms
+  s18  audio   9.23s  scena   9.24s  scarto   10 ms
+  s19  audio   9.31s  scena   9.31s  scarto    0 ms
+  s20  audio   9.30s  scena   9.31s  scarto   10 ms
+  s21  audio   9.15s  scena   9.16s  scarto   10 ms
+  s22  audio   9.90s  scena   9.91s  scarto   10 ms
+  s23  audio   7.63s  scena   7.63s  scarto    0 ms
+  s24  audio   7.76s  scena   7.76s  scarto    0 ms
+  s25  audio   5.93s  scena   5.92s  scarto   10 ms
+  s26  audio   8.06s  scena   8.08s  scarto   20 ms
+  s27  audio   9.90s  scena   9.91s  scarto   10 ms
+  s28  audio   6.33s  scena   6.32s  scarto   10 ms
+  s29  audio   9.72s  scena   9.72s  scarto    0 ms
+  s30  audio   8.26s  scena   8.26s  scarto    0 ms
+  s31  audio  10.35s  scena  10.35s  scarto    0 ms
+  s32  audio   9.24s  scena   9.24s  scarto    0 ms
+  s33  audio   7.99s  scena   8.00s  scarto   10 ms
+  s34  audio  10.25s  scena  10.24s  scarto   10 ms
+  s35  audio   9.42s  scena   9.42s  scarto    0 ms
+  s36  audio   5.22s  scena   5.22s  scarto    0 ms
+  s37  audio   9.45s  scena   9.44s  scarto   10 ms
+  s38  audio   9.26s  scena   9.26s  scarto    0 ms
+  s39  audio   7.97s  scena   7.96s  scarto   10 ms
+  s40  audio  11.32s  scena  11.32s  scarto    0 ms
+  s41  audio   7.62s  scena   7.63s  scarto   10 ms
+  s42  audio   9.24s  scena   9.24s  scarto    0 ms
+  s43  audio   7.50s  scena   7.50s  scarto    0 ms
+  s44  audio   6.66s  scena   6.66s  scarto    0 ms
+  s45  audio  10.54s  scena  10.54s  scarto    0 ms
+  s46  audio  11.44s  scena  11.44s  scarto    0 ms
+  s47  audio   9.07s  scena   9.07s  scarto    0 ms
+  s48  audio  10.23s  scena  10.24s  scarto   10 ms
+  s49  audio  10.58s  scena  10.58s  scarto    0 ms
+
+50 scene · parlato 428.8 s · con copertina 3 s e chiusura 10 s → 7:21.8
+scarto massimo audio/video: 20 ms su s05
+montato-3.2.mp4  7:22.16  17 MB
+montato-3.2.srt  48 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 172 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata
+CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)
+
+  [OK  ] verifica per trascrizione (traccia intera): 99.8% delle parole coincide, buchi nel parlato: 0
+  [OK  ] fascia 8.5-21 car/s: tutti dentro
+  [OK  ] PNG renderizzati e guardati: 50 su 50 scene (tetto 50)
+  [OK  ] nessuna slide sfora la cornice: 0 sforano
+  [OK  ] scene totali: 50 (tetto 50)
+  [OK  ] durata 7:22.16 — chiesti 7:01.00
+  [OK  ] sottotitoli SRT: 48 righe su 48 blocchi
+  [NO  ] registro con la sezione «da verificare»
+
+7/8 superati
+FATTO
