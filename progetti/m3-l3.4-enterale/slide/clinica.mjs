@@ -210,6 +210,55 @@ export const ILLU_CLINICA = {
     'M180 76h50l-8 44h-36z', 'pieno:M182 82h44l-6 34h-32z',                          // la tazza
     'freccia:M60 60a70 70 0 0 1 30-40M82 22l12-4-2 14',                              // il capo che va indietro
   ],
+  // --- 3.4 nutrizione enterale ---
+  nex: [
+    C(84, 64, 36),                                                                  // la testa di profilo
+    'M50 58l-8 8 8 6', 'M118 54a8 12 0 1 1 0 22',                                   // naso, orecchio
+    'M70 98v16M98 98v16', 'M40 114h88v100H40z', 'M84 114v56',                         // collo, tronco, sterno
+    'pieno:' + C(46, 66, 7), 'pieno:' + C(118, 76, 7), 'pieno:' + C(84, 170, 7),     // naso, lobo, xifoide
+    'freccia:M46 66L118 76L84 170',                                                 // la misura
+  ],
+  stomaco: [
+    'M96 24v40', 'M118 24v40',                                                      // esofago
+    'M96 64c-44 20-66 70-44 116s78 60 122 30c22-16 26-40 14-58l-24 10',            // il corpo dello stomaco
+    'M118 64c30 10 46 30 48 52',
+    'pieno:M100 70c-36 20-54 64-36 102s70 50 108 26c18-14 22-34 12-48l-22 8c-4-24-20-46-46-58z',
+    'M188 152c24 4 34 30 22 56', 'M164 162c20 6 28 26 18 46',                        // piloro e duodeno
+  ],
+  peg: [
+    'M20 96h200', 'pieno:M20 96h200v44H20z', 'M20 140h200',                           // cute e parete
+    'M20 190c60-24 140-24 200 0',                                                   // la parete gastrica
+    'M120 26v170',                                                                  // la sonda
+    'M100 50h40v14h-40z',                                                           // la clamp
+    'M92 94h56v10H92z', 'pieno:M92 94h56v10H92z',                                   // il disco esterno
+    'M98 196a22 12 0 1 0 44 0', 'pieno:M98 196a22 12 0 1 0 44 0z',                  // il disco interno
+  ],
+  raggi: [
+    'M44 24h152v192H44z', 'pieno:M44 24h152v192H44z',                                 // la lastra
+    'M72 70c30-10 66-10 96 0M72 96c30-10 66-10 96 0M72 122c30-10 66-10 96 0',      // le coste
+    'M120 40v20', C(120, 178, 24),                                                  // trachea e stomaco
+    'freccia:M126 40v134',                                                          // il sondino, in sede
+  ],
+  ph: [
+    'M40 40h36v170H40z', 'pieno:M40 40h36v34H40z', 'M40 108h36M40 142h36M40 176h36',  // la striscia
+    'M110 200l70-70', 'M124 214l84-84', 'M110 200l14 14', 'M180 130l14-14 14 14-14 14', // la siringa
+    'M208 102l16-16',
+    'pieno:M118 208l62-62 8 8-62 62z',
+  ],
+  pompa: [
+    'M100 16h40v34h-40z', 'M120 50v20',                                             // la sacca
+    'M56 70h128v120H56z', 'pieno:M72 86h96v44H72z', 'M72 150h30M120 150h48',          // la pompa e lo schermo
+    'M120 190v34', 'M14 224h212',
+  ],
+  siringa: [
+    'M40 100h124v40H40z', 'M40 120H20M16 106v28', 'M164 112h34v16h-34z', 'M198 120h26',
+    'M64 100v10M88 100v10M112 100v10M136 100v10',                                   // le tacche
+    'pieno:M60 104h60v32H60z',
+  ],
+  cellula: [
+    C(120, 130, 62), 'pieno:' + C(120, 130, 62), C(120, 130, 20),                    // la cellula e il nucleo
+    'freccia:M40 60l40 40M200 60l-40 40M40 200l40-40M200 200l-40-40',               // gli ioni che entrano
+  ],
 };
 
 // La sagoma per la mappa corporea: 300x620, fronte. Le zone sono campiture
@@ -390,7 +439,7 @@ export const CSS_CLINICA = `
 .posiz .card .d{font-size:24px;line-height:1.28;opacity:.76;margin-top:6px}
 .posiz.n5 .card .t{font-size:31px}.posiz.n5 .card .d{font-size:22px}
 .posiz.n2 .card .t{font-size:44px}.posiz.n2 .card .d{font-size:28px}
-.posiz.n2{gap:60px}.posiz.n2 .card{flex-direction:row;align-items:center;gap:36px;min-width:0}.posiz.n2 .card svg{flex:0 0 400px;width:400px}
+.posiz.n2{gap:60px}.posiz.n2 .card{flex-direction:row;align-items:center;gap:36px;min-width:0}.posiz.n2 .card svg{flex:0 0 360px;width:360px}
 
 /* --- apparati: la sagoma con gli organi --- */
 .anat .sag .org{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;
@@ -498,6 +547,31 @@ export const CSS_CLINICA = `
 .cons .pan.key .t{color:var(--acc)}
 .cons .pan .d{font-size:25px;line-height:1.3;opacity:.76;margin-top:6px}
 .fascia,.cons{animation:none}
+
+/* --- vie: lo schema con le quattro sonde --- */
+.vie{display:flex;gap:50px;align-items:center;min-height:640px}
+.vie .schema{flex:0 0 520px}
+.vie .schema svg{width:520px;height:auto;overflow:visible}
+.vie .schema .tr{fill:none;stroke:var(--tit);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;
+                 stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna 1s cubic-bezier(.4,0,.2,1) both;
+                 animation-delay:calc(.1s + var(--i) * .08s)}
+.vie .schema .org{fill:var(--tit);opacity:.06}
+.vie .schema .sonda{fill:none;stroke:var(--acc);stroke-width:12;stroke-linecap:round;stroke-linejoin:round;
+                    stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:scorri 1.2s cubic-bezier(.4,0,.2,1) both}
+.vie .schema .sonda.spenta{stroke:var(--linea);animation:none;stroke-dasharray:none;opacity:.6}
+.vie .schema .pin{opacity:0;animation:pop .4s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
+.vie .schema .pin circle{fill:var(--acc);stroke:var(--bg);stroke-width:4}
+.vie .schema .pin text{font-size:26px;font-weight:700;fill:var(--bg);text-anchor:middle;dominant-baseline:central}
+.vie .voci{flex:1;display:flex;flex-direction:column;gap:18px}
+.vie .voce{display:flex;gap:24px;align-items:baseline;opacity:0;animation:scivola .5s cubic-bezier(.22,.7,.3,1) forwards}
+.vie .voce .n{flex:0 0 60px;height:60px;border-radius:50%;background:var(--tit);color:var(--bg);font-size:30px;font-weight:700;
+              display:flex;align-items:center;justify-content:center;align-self:center}
+.vie .voce.key .n{background:var(--acc)}
+.vie .voce .t{font-size:38px;font-weight:600;color:var(--tit);line-height:1.15}
+.vie .voce.key .t{color:var(--acc)}
+.vie .voce .d{font-size:26px;line-height:1.3;opacity:.74;margin-top:2px}
+.vie .voce.off{opacity:.3;animation:none}
+.vie{animation:none}
 `;
 
 // ---------- pezzi ----------
@@ -555,6 +629,7 @@ const letto = p => {
     case 'antitrend': return `<g transform="rotate(10 200 200)">${base()}${testa(92, 176)}${naso(92, 148, true)}${P('M116 180h190', 'M306 180v-26')}</g>` + `<path class="ang" pathLength="1" d="M40 104h320"/><text class="angtxt" x="46" y="94">testa in alto</text>`;
     case 'pasto': return `<path class="letto" d="M20 240h360M40 240v-90h80M60 150v90"/>` + `<path class="tav" d="M240 150h120v90"/>` + testa(176, 52) + P('M176 74v76', 'M176 150h60', 'M236 150v90', 'M236 240h34', 'M176 100l50 40', 'M180 66l-10 8') + `<path class="ang" pathLength="1" d="M150 100a60 60 0 0 1 8-30"/><text class="angtxt" x="60" y="100">90°</text>`;
     case 'reclinato': return `<path class="letto" d="M20 240h360M40 240v-90h80M60 150v90"/>` + testa(190, 46) + P('M176 74v76', 'M176 150h60', 'M236 150v90', 'M236 240h34', 'M176 100l50 40') + `<path class="ang" pathLength="1" d="M150 70a60 60 0 0 1 50-30M192 30l10 8-12 6"/>`;
+    case 'flesso': return `<path class="letto" d="M20 240h360M40 240v-90h80M60 150v90"/>` + testa(176, 52) + P('M176 74v76', 'M176 150h60', 'M236 150v90', 'M236 240h34', 'M176 100l40 40', 'M180 66l-10 8') + `<path class="ang" pathLength="1" d="M200 40a40 40 0 0 1 10 26M206 60l6 10-10 2"/>`;
     case 'seduto': return `<path class="letto" d="M30 150h150M50 150v90M170 150v90M20 240h360"/>` + testa(176, 44) + P('M176 66v80', 'M176 146h60', 'M236 146v94', 'M236 240h34', 'M176 96l40 40') + punto(250, 240);
     case 'inpiedi': return `<path class="letto" d="M30 150h100M50 150v90M120 150v90M20 240h360"/>` + testa(250, 44) + P('M250 66v84', 'M250 150l-26 90', 'M250 150l26 90', 'M250 90l-30 54', 'M250 90l30 54') + punto(224, 240) + punto(276, 240);
   }
@@ -828,6 +903,37 @@ export const CORPI_CLINICA = {
         <div style="display:flex;gap:18px;align-items:flex-start"><div class="num">${i + 1}</div>
         <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div></div>`;
     }).join('')}</div>`;
+  },
+
+
+  // Le vie di accesso: profilo con naso, esofago, stomaco, digiuno; le sonde
+  // si disegnano in accento. voci: [{k:'sng'|'nd'|'peg'|'pej', t, d, key}], attive.
+  vie: d => {
+    const attive = d.attive ?? d.voci.map((_, i) => i);
+    const corpo = [
+      'M150 40a70 70 0 1 1-2 140', 'M100 96l-14 12 14 8',                              // testa, naso
+      'M140 180v40', 'M60 220h360v380H60z',                                          // collo, tronco
+      'M200 220c0 60 8 120 6 160',                                                  // esofago
+      'M206 380c-50 20-70 70-40 110s90 40 130 10c16-14 18-34 6-50l-26 10',           // stomaco
+      'M276 460c30 6 40 30 30 60c-10 30-40 40-70 30',                                // duodeno e digiuno
+    ];
+    const S = {
+      sng: { d: 'M96 110c40 4 90 30 104 70v200', pin: [300, 300] },
+      nd:  { d: 'M96 110c40 4 90 30 104 70v170c0 60 40 100 80 100c30 0 40-20 30-40', pin: [340, 540] },
+      peg: { d: 'M420 330h-40l-60 60', pin: [420, 290] },
+      pej: { d: 'M420 500h-60l-60 30', pin: [420, 545] },
+    };
+    let k = 0;
+    return `<div class="vie"><div class="schema"><svg viewBox="0 0 520 620">
+      ${corpo.map(p => `<path class="tr" style="--i:${k++}" pathLength="1" d="${p}"/>`).join('')}
+      <path class="org" d="M206 380c-50 20-70 70-40 110s90 40 130 10c16-14 18-34 6-50l-26 10z"/>
+      ${d.voci.map((v, i) => { const s = S[v.k]; if (!s) return ''; const on = attive.includes(i), t0 = 1 + i * .3;
+        return `<path class="sonda ${on ? '' : 'spenta'}" pathLength="1" d="${s.d}" style="animation-delay:${num(t0)}s"/>
+          ${on ? `<g class="pin" style="animation-delay:${num(t0 + .9)}s"><circle cx="${s.pin[0]}" cy="${s.pin[1]}" r="24"/><text x="${s.pin[0]}" y="${s.pin[1] + 1}">${i + 1}</text></g>` : ''}`; }).join('')}
+    </svg></div>
+    <div class="voci">${d.voci.map((v, i) => `<div class="voce ${v.key ? 'key' : ''} ${attive.includes(i) ? '' : 'off'}"
+        style="animation-delay:${num(.5 + i * .18)}s"><div class="n">${i + 1}</div>
+        <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div>`).join('')}</div></div>`;
   },
 
   // Una radice e due rami. radice: testo; rami: [{q:'quando', t, d, key}].

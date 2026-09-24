@@ -13,7 +13,7 @@ al bastone, il sollevamento con le gambe).
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti e 30 |
-| durata ottenuta | vedi «La resa» |
+| durata ottenuta | 9:12.5 (552,5 s) |
 | slide dello script | 19 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
@@ -101,8 +101,8 @@ In grassetto i corpi nati qui.
 
 | | |
 |---|---|
-| resa pubblicata | *in corso* |
-| lotto asset | *in corso* |
+| resa pubblicata | `e4b4f734e5e819c2a9fdfbadb385adf4` — 552,479 s (9:12.5), 1080p 16:9, resa in 168 s |
+| lotto asset | `0589a6a00f8b4949abf0a0112f7784fe` — 98 file, 21 MB; un asset (`v3.2-s47`) è rimasto «processing» nel lotto ma era già servito dal suo URL: la resa lo ha usato senza errori |
 
 ---
 

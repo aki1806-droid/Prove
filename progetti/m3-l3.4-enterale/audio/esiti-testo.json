@@ -1,0 +1,58 @@
+{
+ "A": {
+  "parole_copione": 666,
+  "parole_dette": 661,
+  "coincidenti": 653,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s08",
+    "copione": "naso digiunale",
+    "detto": "nasodigunale"
+   },
+   {
+    "blocco": "s11",
+    "copione": "dev",
+    "detto": "deve"
+   },
+   {
+    "blocco": "s12",
+    "copione": "cranio facciale",
+    "detto": "craniofacciale"
+   },
+   {
+    "blocco": "s17",
+    "copione": "chin tuck",
+    "detto": "cintac"
+   },
+   {
+    "blocco": "s21",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s22",
+    "copione": "via respiratoria",
+    "detto": "vie respiratorie"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 695,
+  "parole_dette": 692,
+  "coincidenti": 691,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "ab",
+    "detto": "abbi"
+   }
+  ]
+ }
+}
