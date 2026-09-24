@@ -6,10 +6,8 @@ tre gradini; la **mappa** del colon porta i tre richiami del fecaloma. Due
 illustrazioni nuove: la **pompa PCA** con il pulsante nella mano del
 paziente, e la **luna** sopra il letto per il sonno.
 
-> **Stato: slide pronte, voce ferma.** Nessuna delle due tracce è stata
-> generata: la quota ElevenLabs si è esaurita sulla traccia A della 3.6. Il
-> copione è chiuso (48 blocchi, 9.041 caratteri, stacco dopo s26) e i due
-> chunk sono in `audio/`.
+Le due tracce sono state generate un'ora dopo il blocco della quota
+ElevenLabs, nello stesso giro di 3.6 e 3.8.
 
 ---
 
@@ -18,19 +16,36 @@ paziente, e la **luna** sopra il letto per il sonno.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | *in attesa della voce* |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
-| costo voce | da generare |
+| costo voce | $1,51 (A $0,77 · B $0,74) |
+| costo trascrizioni | $0,63 |
 | pause senza voce | nessuna; tre pose brevi sulle slide sul verde (s10, s23, s37) |
 
 ```
 CARATTERI  9.041          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        9:08.4
-tracce grezze             —   (stacco dopo s26)
+tracce grezze             A 333,8 s  ·  B 358,9 s   (stacco dopo s26)
+silenzi                   fattore 1,162   ->   atempo 1,121
 ```
+
+La voce ha lasciato pause lunghe (fattore 1,16, il più alto del modulo): il
+taglio delle pause le riporta a un ritmo di 17,0 car/s senza toccare il
+parlato.
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+La trascrizione conferma: **711/714 e 675/679 parole**, nessun buco; le rese
+diverse sono «colorettale» / «colo rettale» e «trafittivo» / «tra fittivo».
 
 ## Le scene
 
@@ -59,8 +74,8 @@ tracce grezze             —   (stacco dopo s26)
 
 | | |
 |---|---|
-| resa pubblicata | *ferma: nessuna traccia (quota voce esaurita)* |
-| lotto asset | *da caricare dopo il montaggio* |
+| resa pubblicata | `d09962bf851b8ea74931786cba69b23b` — 548,607 s (9:08.6), 1080p 16:9, resa in 120 s |
+| lotto asset | `ee16627c43c849eca6d6e8ec16bc2b8c` — 98 file, 19 MB, tutti completati |
 
 ---
 

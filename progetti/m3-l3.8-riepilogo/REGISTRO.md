@@ -7,9 +7,8 @@ sull'ellisse che si disegna; e i **gesti**, la fila di riquadri illustrati con
 le frecce che si disegnano fra l'uno e l'altro, per dire una sequenza in
 ordine. Tre illustrazioni nuove: il quaderno, il quiz, l'orologio a cerchio.
 
-> **Stato: slide pronte, voce ferma.** Copione chiuso (48 blocchi, 9.075
-> caratteri, stacco dopo s25), card renderizzate e riviste. Le due tracce
-> aspettano il credito ElevenLabs.
+Le due tracce sono state generate un'ora dopo il blocco della quota
+ElevenLabs, nello stesso giro di 3.6 e 3.7.
 
 ---
 
@@ -18,19 +17,34 @@ ordine. Tre illustrazioni nuove: il quaderno, il quiz, l'orologio a cerchio.
 | | |
 |---|---|
 | durata chiesta dallo script | 8–9 minuti |
-| durata ottenuta | *in attesa della voce* |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 16 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
-| costo voce | da generare |
+| costo voce | $1,51 (A $0,77 · B $0,74) |
+| costo trascrizioni | $0,60 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s09, s31) |
 
 ```
 CARATTERI  9.075          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        9:09.2
-tracce grezze             —   (stacco dopo s25)
+tracce grezze             A 359,5 s  ·  B 302,8 s   (stacco dopo s25)
+silenzi                   fattore 1,111   ->   atempo 1,116
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+La trascrizione conferma: **695/703 e 670/675 parole**, nessun buco. Le rese
+diverse sono quasi tutte numeri scritti in cifre dal trascrittore («kcal»,
+«ml», «0,5 ml»): un riepilogo di numeri è il caso in cui la regola dei
+decimali della 3.3 lavora di più. E un «alvo» sentito «albo».
 
 Sedici slide in quarantotto blocchi: lo script del riepilogo è più corto degli
 altri (5.952 caratteri al primo giro, 37 blocchi). I blocchi aggiunti
@@ -78,8 +92,8 @@ una velocità del potassio): un riepilogo non introduce dati.
 
 | | |
 |---|---|
-| resa pubblicata | *ferma: nessuna traccia (quota voce esaurita)* |
-| lotto asset | *da caricare dopo il montaggio* |
+| resa pubblicata | RESA38 |
+| lotto asset | `dd0f5a8437a94588b7c9a12ce7652670` — 98 file, 20 MB, tutti completati |
 
 ---
 

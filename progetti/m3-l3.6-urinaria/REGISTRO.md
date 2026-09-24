@@ -7,11 +7,9 @@ vescicale** palpabile sopra il pube. E la **curva** impara a salire soltanto
 (`sale:true`): il rischio di CAUTI cresce con ogni giorno di permanenza, e
 la figura lo mostra così.
 
-> **Stato: slide pronte, voce ferma.** La traccia B è generata e scaricata
-> (329,2 s); la traccia A è stata rifiutata da ElevenLabs per quota esaurita
-> (8.070 crediti residui contro i ~10.000 che servono a una traccia da 4.500
-> caratteri). Il resto del percorso — allineamento, trascrizioni, montaggio,
-> caricamento, resa — riparte dalla traccia A appena il credito torna.
+La traccia A è stata rifiutata una prima volta da ElevenLabs per quota
+esaurita; al secondo tentativo, un'ora dopo, è passata (4.553 crediti). La
+lezione è stata chiusa in un giro solo insieme a 3.7 e 3.8.
 
 ---
 
@@ -20,19 +18,42 @@ la figura lo mostra così.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | *in attesa della voce* |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
-| costo voce | B generata; A da generare |
+| costo voce | $1,52 (A $0,75 · B $0,77) |
+| costo trascrizioni | $0,55 |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s15) |
 
 ```
 CARATTERI  9.110          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        9:11.3
-tracce grezze             A —  ·  B 329,2 s   (stacco dopo s25)
+tracce grezze             A 280,6 s  ·  B 329,2 s   (stacco dopo s25)
+silenzi                   fattore 1,076   ->   atempo 1,058
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+La trascrizione conferma: **672/672 e 720/724 parole**, nessun buco; le tre
+rese diverse sono grafie («retrae» / «ritrae», «routinario» / «rutinario»)
+e un «mai» sentito «ma».
+
+### Una trascrizione che non trascrive
+
+Il primo giro di trascrizioni è partito collegando lo speech-to-text
+direttamente al nodo della voce, invece che a un asset audio: il risultato
+era il testo del copione, tag «[warm]» compresi, non l'ascolto della
+traccia. Le sei trascrizioni buone sono state rifatte dagli mp3 caricati come
+asset (`creative_attach_reference_file`), che è il modo delle lezioni
+precedenti. Il metodo lo registra.
 
 Diciotto slide in quarantasette blocchi al primo giro, quarantotto dopo aver
 diviso il capitolo sulla rimozione. Nessuna deroga. Il numero singolo di s10
@@ -65,8 +86,8 @@ diviso il capitolo sulla rimozione. Nessuna deroga. Il numero singolo di s10
 
 | | |
 |---|---|
-| resa pubblicata | *ferma: manca la traccia A (quota voce esaurita)* |
-| lotto asset | *da caricare dopo il montaggio* |
+| resa pubblicata | `8b180936da81cf50525bf356ea0df4cb` — 550,059 s (9:10.1), 1080p 16:9, resa in 315 s |
+| lotto asset | `b792e215d99f49bea6adabca39704477` — 98 file, 20 MB, tutti completati |
 
 ---
 

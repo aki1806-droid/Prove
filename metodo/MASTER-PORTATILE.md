@@ -485,6 +485,17 @@ E il riepilogo (3.8) ne chiede due che i moduli successivi ritroveranno:
 | `anello` | le lezioni di un modulo su un'ellisse che si disegna, ognuna in un tondo con la sua illustrazione a 240 e l'etichetta fuori; `attive` per accenderle a gruppi; il centro compare per ultimo | la mappa delle sette lezioni (3.8) |
 | `gesti` | da due a quattro riquadri in fila, un'illustrazione grande, un titolo, una riga; fra un riquadro e l'altro una freccia che si disegna | il filo del modulo; l'igiene; il sondino; il metodo di ripasso (3.8) |
 
+Una cosa imparata sulla verifica, chiudendo 3.6–3.8 in un giro solo:
+
+- **lo speech-to-text collegato al nodo della voce non ascolta.** Per fare
+  in fretta, le prime trascrizioni sono state collegate direttamente al nodo
+  TTS invece che a un asset audio: il risultato era il copione stesso, tag
+  di intenzione compresi, con lo 0 % di differenze che nessuna trascrizione
+  vera ha mai dato. La verifica vale solo se la trascrizione parte dall'mp3
+  caricato come asset (`creative_attach_reference_file` con l'URL firmato,
+  poi `creative_transcribe_audio` da quel nodo): un risultato identico al
+  copione è il segnale che non si è trascritto niente.
+
 Due cose imparate con l'anello:
 
 - **un `<svg>` annidato eredita il CSS della sua classe.** L'illustrazione
