@@ -52,6 +52,22 @@ audio, così l'animazione continua per tutta la scena. `nuova-lezione.sh` copia 
 `illustra.mjs`; per la lezione successiva si parte dalla 3.5. Nel modulo 3 i testi delle
 L.R. 55 e 56 del 1994 non sono stati consultati (vedi i REGISTRO, «Da verificare»).
 
+Modulo 4 completo, Organizzazione aziendale sanitaria e AOUPD (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 4.1 | L'azienda sanitaria e le sue autonomie | 7:43 |
+| 4.2 | L'AOUPD e le tre missioni | 7:34 |
+| 4.3 | Atto aziendale e direzione strategica | 7:05 |
+| 4.4 | Dipartimenti e unità operative | 7:17 |
+| 4.5 | Governo clinico e continuità assistenziale | {D45} |
+
+Nel modulo 4 `illustra.mjs` passa a 22 illustrazioni: si aggiungono microscopio, organigramma,
+azienda, missioni, percorso e scudo; per la lezione successiva si parte dalla 4.5. La fonte
+prevista dal piano, `Organizzazione-Aziendale-Sanitaria-e-AOUPD.pdf`, non era disponibile: il
+modulo è costruito sulla dispensa CISL FP (Galiazzo), sull'atto aziendale dell'ULSS 5 Polesana,
+sul PSSR 2019-2023 e su sintesi di ricerca per l'AOUPD (vedi i REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.
