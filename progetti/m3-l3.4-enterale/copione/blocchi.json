@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lezione ad alta densita' procedurale, e per questo produce domande molto precise. La regola che l'attraversa da parte a parte e' una sola: la nutrizione enterale e' una somministrazione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E come tale puo' uccidere se fatta male. Le due complicanze che i concorsi chiedono piu' spesso, inalazione e dislocazione, dipendono quasi sempre da un passaggio saltato."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio da cui parte tutto: se l'intestino funziona, si usa l'intestino. La nutrizione enterale e' preferibile alla parenterale perche' e' piu' fisiologica e mantiene il trofismo della mucosa intestinale."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riduce la traslocazione batterica, comporta meno complicanze infettive e metaboliche, e costa meno. La parenterale si usa quando la via enterale e' impraticabile o insufficiente, non prima."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Indicazioni: disfagia neurologica, coma, neoplasie del distretto testa-collo o esofagee, malnutrizione con apporto orale insufficiente, paziente critico."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Controindicazioni, e sono quelle che contano in un quiz: occlusione intestinale, ileo paralitico, perforazione, ischemia intestinale, peritonite, emorragia digestiva in atto, vomito incoercibile, shock non stabilizzato."
+ },
+ {
+  "id": "s08",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vie. Il sondino naso-gastrico per necessita' a breve termine, indicativamente fino a quattro-sei settimane. La via naso-digiunale nella gastroparesi e nell'alto rischio di inalazione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La PEG, gastrostomia endoscopica percutanea, oltre le quattro-sei settimane: piu' confortevole, meno complicanze nasali e faringee, e migliore immagine di se'. E la PEJ, o digiunostomia, quando lo stomaco non e' utilizzabile."
+ },
+ {
+  "id": "s10",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La differenza che i quiz chiedono. Nello stomaco si puo' somministrare in boli, perche' lo stomaco e' un serbatoio con svuotamento regolato dal piloro."
+ },
+ {
+  "id": "s11",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel digiuno no: la somministrazione dev'essere continua, a velocita' controllata. Un bolo nel digiuno provoca distensione, crampi, dumping e diarrea. Niente serbatoio, niente boli."
+ },
+ {
+  "id": "s12",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima della tecnica, il limite. Il posizionamento del sondino e' competenza infermieristica nell'adulto, ma non sempre. Trauma cranio-facciale con sospetta frattura della base cranica: via nasale controindicata."
+ },
+ {
+  "id": "s13",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi varici esofagee note o sanguinamento in atto; stenosi o chirurgia recente di esofago e stomaco; alterazioni anatomiche del naso. Si informa il medico e si valuta un'altra via: e' una risposta che protegge sempre."
+ },
+ {
+  "id": "s14",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La misurazione, con il metodo NEX: punta del naso, lobo dell'orecchio, processo xifoideo. Si segna il punto sul sondino, e quel numero va registrato: sara' il riferimento per riconoscere una dislocazione al turno dopo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il passaggio critico. Quando la punta arriva in faringe, se la persona e' collaborante si chiede di flettere il capo in avanti e di deglutire. Perche'?"
+ },
+ {
+  "id": "s16",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'iperestensione del capo allinea le vie aeree: e' quello che si fa per intubare. La flessione invece chiude la via aerea e favorisce quella esofagea."
+ },
+ {
+  "id": "s17",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'opposto di quello che verrebbe istintivo, ed e' una domanda ricorrente. Stessa logica del chin tuck della lezione scorsa: il capo flesso protegge la via aerea."
+ },
+ {
+  "id": "s18",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E quando fermarsi. Tosse insistente, dispnea, cianosi, desaturazione, incapacita' di parlare: si interrompe immediatamente e si ritira il sondino."
+ },
+ {
+  "id": "s19",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Non si insiste, non si prova ancora un po'. Un sondino che fa tossire e' un sondino nella via sbagliata, e si toglie."
+ },
+ {
+  "id": "s20",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La verifica della posizione, e qui c'e' la domanda discriminante dei concorsi recenti. Il metodo di riferimento per la conferma iniziale e' la radiografia, quando indicata."
+ },
+ {
+  "id": "s21",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il metodo di verifica al letto e' la misurazione del pH dell'aspirato: un pH pari o inferiore a cinque virgola cinque e' compatibile con la sede gastrica."
+ },
+ {
+  "id": "s22",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il metodo dell'insufflazione di aria con auscultazione, il whoosh test, non e' affidabile e non va usato come unica verifica: un sondino in via respiratoria puo' produrre lo stesso rumore. Nei quiz e' l'opzione sbagliata."
+ },
+ {
+  "id": "s23",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La verifica va fatta prima di ogni somministrazione e a ogni turno nella nutrizione continua, controllando anche la lunghezza esterna rispetto al valore registrato."
+ },
+ {
+  "id": "s24",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un tranello: inibitori di pompa e antagonisti H2 alzano il pH gastrico, riducendo l'affidabilita' del test. In quei casi si integra con altri elementi e, nel dubbio, si chiede la radiografia."
+ },
+ {
+  "id": "s25",
+  "capitolo": 11,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Nel dubbio non si somministra: stessa logica della prescrizione illeggibile della lezione due punto quattro. Un dubbio sulla posizione vale una radiografia, non un tentativo."
+ },
+ {
+  "id": "s26",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre modalita'. In boli, con siringa a stantuffo e lentamente: solo gastrica, ma piu' fisiologica e compatibile con la mobilita'. Intermittente per gravita', regolando la velocita', non aprendo tutto."
+ },
+ {
+  "id": "s27",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E continua con pompa: obbligatoria nel digiunale, indicata nel paziente critico, nel rischio elevato di inalazione e all'avvio della nutrizione, quando la tolleranza e' ancora da vedere."
+ },
+ {
+  "id": "s28",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sei regole della somministrazione. Testata a trenta-quarantacinque gradi durante e per almeno trenta-sessanta minuti dopo. Verificare la posizione prima di iniziare. Lavare la sonda prima, dopo e fra i farmaci."
+ },
+ {
+  "id": "s29",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Miscela a temperatura ambiente, mai fredda. Rispettare i tempi di appendimento e la pulizia del set. E iniziare gradualmente, aumentando la velocita' secondo tolleranza."
+ },
+ {
+  "id": "s30",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci. Uno: preferire la forma liquida se disponibile. Due: verificare che la forma solida sia frantumabile. Compresse a rilascio modificato, gastroresistenti, sublinguali e capsule molli non si frantumano ne' si aprono."
+ },
+ {
+  "id": "s31",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la Raccomandazione numero diciannove. Tre: somministrarli uno alla volta, mai miscelati. Quattro: lavare fra l'uno e l'altro. Cinque: mai aggiungerli alla miscela nutrizionale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sei: valutare le interazioni. Fenitoina e alcuni fluorochinoloni vedono ridotto l'assorbimento con la nutrizione, e la levotiroxina va a digiuno."
+ },
+ {
+  "id": "s33",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la conseguenza. Quando la forma farmaceutica non e' manipolabile, la risposta corretta non e' la trito lo stesso. E' chiedere al medico o al farmacista una formulazione alternativa, e documentarlo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Triturare una compressa a rilascio modificato significa somministrare in un colpo solo una dose pensata per dodici ore. Non e' una scorciatoia: e' un sovradosaggio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le complicanze. Ab ingestis: prevenuta da testata sollevata, verifica della posizione, velocita' controllata, igiene del cavo orale. Se sospetta, si sospende, si aspira se necessario, si da' ossigeno e si avvisa il medico."
+ },
+ {
+  "id": "s36",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dislocazione: fissaggio corretto, controllo della lunghezza a ogni turno. Occlusione: si previene con i lavaggi, e si tenta con acqua tiepida e movimento alternato di stantuffo. Mai forzare, mai usare mandrini."
+ },
+ {
+  "id": "s37",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Diarrea: verificare velocita', temperatura, osmolarita', contaminazione del set, e farmaci. E la lesione da pressione dell'ala nasale: fissaggio senza trazione, rotazione del punto di ancoraggio, ispezione quotidiana."
+ },
+ {
+  "id": "s38",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La complicanza che i candidati preparati citano e gli altri no: la sindrome da rialimentazione. Un organismo a lungo digiuno riceve carboidrati, e l'insulina spinge fosforo, potassio e magnesio dentro le cellule."
+ },
+ {
+  "id": "s39",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il crollo del fosforo plasmatico puo' provocare aritmie, insufficienza cardiaca e respiratoria, fino alla morte. La prevenzione: rialimentare lentamente, monitorare gli elettroliti e correggerli prima e durante."
+ },
+ {
+  "id": "s40",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riguarda il malnutrito grave, l'anoressico, l'alcolista, l'oncologico e chi ha avuto un lungo digiuno post-operatorio. Piu' a lungo si e' digiunato, piu' lentamente si riparte."
+ },
+ {
+  "id": "s41",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La PEG. Nelle prime ventiquattro-quarantotto ore si segue la procedura aziendale e la medicazione e' sterile. A stomia matura, indicativamente dopo due-tre settimane, la gestione diventa pulita."
+ },
+ {
+  "id": "s42",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Acqua e sapone neutro, asciugatura accurata, nessuna medicazione occlusiva se la cute e' integra. Va ruotato il disco esterno e verificato che non sia troppo stretto."
+ },
+ {
+  "id": "s43",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una trazione eccessiva causa il buried bumper, l'incarceramento del disco interno nella parete gastrica. E va registrata la misura di riferimento, cosi' che una variazione sia riconoscibile."
+ },
+ {
+  "id": "s44",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso clinico ricorrente: la PEG si sfila accidentalmente. Il punto da sapere e' che la stomia puo' chiudersi in poche ore. Quindi: non tentare reinserimenti con dispositivi diversi, coprire, avvisare subito il medico."
+ },
+ {
+  "id": "s45",
+  "capitolo": 19,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Aspetto il turno successivo e' la risposta sbagliata. Poche ore: e' il tempo che la stomia ha per chiudersi, e il tempo che hai tu per attivare la sostituzione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un equivoco da smontare: la PEG non elimina il rischio di inalazione. Non protegge dal reflusso, ne' dall'inalazione di saliva nel disfagico. L'igiene del cavo orale resta essenziale anche in chi non mangia per bocca."
+ },
+ {
+  "id": "s47",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiudo con un aggancio breve ma di grande peso, gia' visto nella lezione uno punto sei. La legge duecentodiciannove del duemiladiciassette qualifica la nutrizione e l'idratazione artificiale come trattamenti sanitari."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ne consegue che sono soggette a consenso informato, possono essere rifiutate o interrotte dalla persona capace, e possono essere oggetto di disposizioni anticipate di trattamento."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E nella demenza avanzata terminale le evidenze non mostrano un beneficio della nutrizione enterale: torna nel modulo undici, sul fine vita. Prossima lezione: idratazione, bilancio idrico ed elettroliti."
+ }
+]
