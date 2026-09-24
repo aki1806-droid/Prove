@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Una signora di ottantacinque anni esce dall'ospedale dopo una polmonite. Non ha piu' bisogno dell'ospedale. Ma a casa, sola, non ce la fa ancora. Dove va?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fino a qualche anno fa la risposta era spesso: resta in ospedale, occupando un letto per acuti. Oppure: torna a casa, e dopo una settimana e' di nuovo in pronto soccorso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La risposta del Veneto sta nel mezzo, letteralmente: le strutture intermedie. E dentro un modello che prende in carico la cronicita' prima che diventi urgenza."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Le strutture intermedie, con l'ospedale di comunita'. La presa in carico della cronicita' per intensita' di cura. Il piano integrato di cura e la gestione delle transizioni. E le sfide ancora aperte."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Piano socio-sanitario 2019-2023 organizza l'offerta per intensita' di cura. In mezzo tra l'ospedale e la casa ci sono le strutture sanitarie di cure intermedie."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono tre: l'ospedale di comunita', l'unita' riabilitativa territoriale e l'hospice. A queste si aggiungono altre strutture temporanee, come le strutture riabilitative extraospedaliere."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A chi servono? A pazienti stabilizzati dal punto di vista medico, che non hanno piu' bisogno dell'ospedale, ma sono ancora troppo instabili per tornare a casa o in una residenza."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono soprattutto adulti e anziani con piu' malattie insieme, a rischio di un ricovero troppo lungo, di un ricovero inappropriato o di un ingresso in struttura che si poteva evitare."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La degenza e' breve: di norma non oltre le quattro, sei settimane. L'obiettivo non e' la diagnosi ma il recupero: la funzione, l'autonomia, la qualita' della vita."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo il Piano dice che qui conta la dimensione prognostica, non quella diagnostica e terapeutica tipica dell'ospedale. Si cura la persona che torna a casa, non solo la malattia."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quanti posti letto? Il Piano fissa un minimo: zero virgola sei posti ogni mille abitanti sopra i quarantacinque anni. Bellunese, Polesine, montagna e laguna possono averne zero virgola due in piu'."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ricordi l'obiettivo della legge 19? Piu' quindici per cento di posti letto negli ospedali di comunita' entro il 2017. Le strutture intermedie sono il cuore del potenziamento del territorio."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Piano prevede anche letti di ospedale di comunita' dentro gli ospedali, per i cronici con piu' malattie: con protocolli precisi, perche' l'ospedale resti il luogo della fase acuta."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: l'ospedale di comunita' non e' un reparto per lungodegenti e non e' una casa di riposo. E' un ricovero breve, sanitario, con un obiettivo di recupero e di ritorno a casa."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo passaggio e' il modello di presa in carico. Il Piano lo chiama presa in carico della cronicita' e della multimorbidita' per intensita' di cura e di assistenza."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si parte dalla stratificazione della popolazione. Con strumenti di classificazione del case mix, come gli ACG, si divide la popolazione per malattie e rischio. Il medico di famiglia conferma il profilo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si distinguono due livelli. La cronicita' semplice e la cronicita' complessa e avanzata. A ogni livello corrisponde un modello diverso di presa in carico."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cronicita' semplice la prende in carico l'assistenza primaria: medicine di gruppo e team multiprofessionali, che riconoscono i malati cronici e li inseriscono nei percorsi, i PDTA."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I team di assistenza primaria possono essere di tre tipi: medici convenzionati aggregati, medici dipendenti del servizio sanitario, o un soggetto privato accreditato. Il cittadino sceglie a quale rivolgersi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cronicita' complessa e avanzata richiede team dedicati del distretto: specialisti di area geriatrica, internistica e di cure palliative, infermieri e assistenti sociali, collegati con l'ospedale."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E all'apice della piramide c'e' la cronicita' avanzata, circa l'uno per cento della popolazione. La gestisce preferibilmente l'unita' di cure palliative, privilegiando le cure a domicilio."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La parola chiave e' presa in carico proattiva, o medicina di iniziativa. Non si aspetta che il paziente arrivi in pronto soccorso: lo si segue prima che la malattia si riacutizzi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni team deve garantire anche l'assistenza a domicilio, programmata e non, coprendo sette giorni su sette. E va rafforzata la rete delle cure palliative, a casa e in hospice."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Intensita' di cura vuol dire risposta proporzionata al bisogno: poco a chi serve poco, molto a chi serve molto, e sempre prima che arrivi l'urgenza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo passaggio: il piano integrato di cura. E' il progetto sulla persona, condiviso dal team e dal paziente o dalla sua famiglia."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Deve contenere le preferenze del paziente e le sue direttive anticipate, perche' il paziente e' attore del suo percorso. E fa parte del fascicolo sanitario elettronico, consultabile da tutta la filiera."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il medico di famiglia non esce dal percorso: viene informato attraverso il fascicolo elettronico, e puo' far parte del team che scrive e realizza il piano di assistenza."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questi pazienti e le loro famiglie il Piano prevede anche un numero unico, attivo ventiquattro ore su ventiquattro."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono le transizioni: dall'ospedale alla struttura intermedia, dalla struttura a casa. Sono i momenti in cui un paziente fragile rischia di piu'."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi le governa? La centrale operativa territoriale, la COT. Il Piano la chiama la centrale della continuita': coordina il percorso, e ogni passaggio avviene in modo protetto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La COT mappa le risorse della rete, coordina le dimissioni e le ammissioni protette, raccoglie i bisogni sanitari e sociali e rende tracciabile ogni percorso."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso si decide con la valutazione multidimensionale, fatta dall'unita' valutativa multidimensionale, l'UVMD: lo strumento per pianificare l'assistenza dei malati piu' complessi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: la COT non e' la centrale del 118. Il 118 gestisce l'emergenza. La COT gestisce la continuita' delle cure tra i luoghi di assistenza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un solo progetto sulla persona, e una centrale che non la perde di vista quando passa da un luogo all'altro."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Restano le sfide aperte, e il Piano non le nasconde. La prima e' la popolazione che invecchia: piu' anziani, piu' persone sole, piu' malattie croniche insieme."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda e' il personale: il modello regge solo con medici di famiglia organizzati, infermieri in crescita nel territorio e team davvero multiprofessionali."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza e' l'integrazione dei dati: il piano di cura nel fascicolo elettronico, le informazioni che viaggiano con il paziente tra ospedale, distretto e casa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La quarta e' l'uniformita': le transizioni vanno gestite in modo omogeneo su tutto il territorio regionale, con procedure formalizzate uguali per tutti."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La quinta sono le dimissioni difficili: pazienti pronti a uscire ma bloccati da problemi familiari o sociali. Il Piano prevede posti letto tecnici, per non piu' di ventiquattro ore, per non occupare letti per acuti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' un alleato da non dimenticare: la farmacia. Per il Piano e' il punto di accesso piu' agevole e frequente per il cronico: aderenza alle terapie, screening, prenotazioni."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: le strutture di cure intermedie sono ospedale di comunita', unita' riabilitativa territoriale e hospice. Degenza di norma entro quattro, sei settimane."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: la cronicita' si prende in carico per intensita' di cura. Semplice all'assistenza primaria, complessa e avanzata ai team del distretto, avanzata alle cure palliative."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: la centrale operativa territoriale, la COT, e' la centrale della continuita' e governa le transizioni protette."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: l'indice minimo dei posti letto intermedi non si calcola su tutta la popolazione. Si calcola sugli abitanti sopra i quarantacinque anni: zero virgola sei per mille."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] Si chiude cosi' il modulo due. Dai quattro nodi alla presa in carico: un sistema che prova a curare prima, vicino, e insieme. Nel modulo tre, la legislazione socio-sanitaria del Veneto."
+ }
+]
