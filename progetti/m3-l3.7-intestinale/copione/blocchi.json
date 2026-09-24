@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Tre bisogni in una lezione, e non e' un caso: alvo, dolore e sonno sono i tre ambiti in cui il ricovero peggiora piu' spesso le cose, e in cui l'infermiere ha piu' margine d'azione autonoma."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Hanno anche un filo comune: sono tutti e tre fattori scatenanti del delirium nell'anziano. Curarli bene significa prevenire molto altro, e spesso con gesti che non costano nulla."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo: che cosa e' normale. La frequenza dell'alvo va da tre volte al giorno a tre volte a settimana: un intervallo ampio, che dipende dalla persona."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per descrivere le feci in modo oggettivo si usa la scala di Bristol, con sette tipi: uno e due indicano stipsi, tre e quattro sono normali, da cinque a sette indicano diarrea."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Registrare alvo presente non basta: registrare Bristol sei, tre scariche, e' un dato. La differenza fra le due frasi e' la differenza fra un'impressione e un'osservazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stipsi e' frequentissima nel ricoverato. Le cause: immobilita', pochi liquidi e fibre, farmaci, soprattutto oppioidi, anticolinergici, ferro, calcio-antagonisti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un fattore che si dimentica: la mancanza di privacy. Usare la padella in una camera a quattro letti con la tenda tirata e', per molte persone, semplicemente impossibile."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punto preciso che i quiz chiedono. Agli effetti degli oppioidi si sviluppa tolleranza, alla nausea, alla sedazione, ma non alla stipsi, che dura per tutta la terapia."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Per questo quando si inizia un oppioide la stipsi si previene fin dal primo giorno con un lassativo su prescrizione. Non si aspetta che compaia."
+ },
+ {
+  "id": "s11",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi. Liquidi. Fibre, ma solo se l'idratazione e' adeguata, altrimenti peggiorano. Mobilizzazione. Orario regolare, preferibilmente dopo colazione, sfruttando il riflesso gastrocolico."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posizione seduta sul water o sulla comoda, con i piedi rialzati su uno sgabello, che raddrizza l'angolo ano-rettale. Privacy. E i lassativi su prescrizione: osmotici, stimolanti, emollienti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un'avvertenza: i lassativi formanti massa sono controindicati nel paziente immobile e poco idratato. Senza acqua, la massa che dovrebbe aiutare diventa un tappo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fecaloma, una massa di feci indurite nel retto. Il segno che inganna e' la diarrea paradossa: feci liquide che filtrano intorno alla massa e sembrano diarrea. Trattarla con un antidiarroico sarebbe un errore grave."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'anziano il fecaloma puo' presentarsi con confusione e con ritenzione urinaria: due quadri che sembrano altro. Si conferma con l'esplorazione rettale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la rimozione manuale va eseguita secondo indicazione e con cautela, perche' la stimolazione vagale puo' provocare bradicardia. Si controlla il polso, e ci si ferma se cala."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il clistere evacuativo. Posizione di Sims o laterale sinistra, come nella lezione tre punto due. Liquido a temperatura corporea. Sonda lubrificata, introdotta per sette-dieci centimetri nell'adulto, verso l'ombelico."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contenitore a trenta-quarantacinque centimetri sopra l'ano: piu' in alto, il flusso e' troppo rapido. Infusione lenta; se compaiono crampi, ci si ferma e si abbassa il contenitore. Trattenere per cinque-quindici minuti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Controindicazioni: addome acuto, chirurgia colorettale recente, grave neutropenia o piastrinopenia. Un clistere non e' mai un gesto innocuo: e' una procedura, con le sue esclusioni."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diarrea: tre o piu' scariche non formate nelle ventiquattro ore. I rischi assistenziali sono tre: disidratazione, perdita di potassio, e la dermatite associata a incontinenza."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dermatite va distinta dalla lesione da pressione e si previene con detergenti delicati e prodotti barriera. Le cause, oltre alle infezioni: antibiotici, nutrizione enterale, farmaci, e il fecaloma che abbiamo appena visto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la diarrea da Clostridioides difficile, che va sospettata in ogni diarrea insorta durante o dopo una terapia antibiotica. Il punto che vale una domanda sicura: il gel alcolico non uccide le spore."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Per il Clostridioides difficile le mani si lavano con acqua e sapone, che rimuovono meccanicamente le spore. Il gel, qui, non basta."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi: precauzioni da contatto, stanza singola, disinfezione con prodotti a base di cloro, attrezzature dedicate, e niente antiperistaltici. Il campione si invia solo se le feci sono non formate. Torna nel modulo quattro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo al dolore. La legge trentotto del duemiladieci, sull'accesso alle cure palliative e alla terapia del dolore, prevede che la rilevazione del dolore sia riportata in cartella clinica."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Caratteristiche, evoluzione, tecnica antalgica, risultato. Il dolore non e' un'opinione dell'operatore. E il principio lo conosci dalla lezione due punto tre: il dolore e' cio' che la persona dice che e'."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oltre all'intensita', il dolore si descrive. Lo schema piu' semplice e' PQRST. P: che cosa lo provoca e che cosa lo allevia. Q: la qualita', trafittivo, urente, sordo, crampiforme."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "R: dove si irradia. S: la severita', con la scala adatta alla persona. T: il tempo, quando e' iniziato, se e' continuo o intermittente. Una descrizione cosi' orienta diagnosi e terapia molto piu' di un numero da solo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tipi. Nocicettivo, da stimolo su tessuti integri: somatico, ben localizzato, e viscerale, sordo e mal localizzato. Neuropatico, da lesione del sistema nervoso: bruciore, scossa, formicolio; risponde poco agli analgesici."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Acuto e cronico. E il dolore episodico intenso, il breakthrough pain: picchi che emergono nonostante una terapia di base efficace, tipici del paziente oncologico, e che vanno previsti con una dose al bisogno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scala analgesica dell'OMS, nata per il dolore oncologico e ancora molto chiesta. Primo gradino: farmaci non oppioidi, paracetamolo, antinfiammatori, con eventuali adiuvanti."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo gradino: oppioidi deboli. Terzo gradino: oppioidi forti, come la morfina. Gli adiuvanti, antidepressivi, anticonvulsivanti, corticosteroidi, si aggiungono a ogni gradino, soprattutto nel dolore neuropatico."
+ },
+ {
+  "id": "s33",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terapia al bisogno e' il punto in cui l'infermiere decide quando somministrare, e per questo la prescrizione deve essere completa: farmaco, dose, via, la condizione, per esempio se NRS superiore a quattro."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi l'intervallo minimo fra le dosi e la dose massima nelle ventiquattro ore. Una prescrizione al bisogno e basta non e' eseguibile in sicurezza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la somministrazione si rivaluta il dolore al momento dell'effetto atteso: indicativamente quindici-trenta minuti per la via endovenosa, trenta-sessanta per quella orale. Senza rivalutazione, il processo non e' chiuso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La PCA, analgesia controllata dal paziente: una pompa che eroga un bolo quando la persona preme un pulsante, con un intervallo di blocco, il lockout, in cui nuove pressioni non hanno effetto, e una dose massima oraria."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La sicurezza si basa su un principio: solo il paziente preme il pulsante. Se e' sedato, non preme, e il sistema si protegge da solo. Se lo preme un familiare per aiutarlo, la protezione salta."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sorveglianza riguarda sedazione e frequenza respiratoria: la sedazione compare prima della depressione respiratoria, ed e' il segnale da cogliere, con il naloxone disponibile."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E accanto ai farmaci, gli interventi non farmacologici, che sono di competenza infermieristica autonoma. Il posizionamento corretto. Caldo o freddo, su indicazione. La distrazione, le tecniche di rilassamento e respirazione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'informazione: un dolore che si capisce fa meno paura, e la paura amplifica il dolore. Spiegare che cosa sta succedendo e' gia' un analgesico."
+ },
+ {
+  "id": "s41",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sonno. L'ospedale e' uno dei posti peggiori in cui dormire: rumore, luce, allarmi, attivita' notturne, parametri, terapie, prelievi, dolore, nicturia, ansia, un letto e una stanza sconosciuti."
+ },
+ {
+  "id": "s42",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la privazione di sonno non e' un disagio: e' un fattore che contribuisce al delirium, alle cadute e al rallentamento della guarigione. Chi non dorme guarisce piu' piano."
+ },
+ {
+  "id": "s43",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi, quasi tutti organizzativi. Raggruppare le attivita' notturne: e' davvero necessario rilevare la pressione alle tre? Ridurre rumore e luce: voci basse, allarmi gestiti, luci soffuse."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Luce naturale di giorno, per sincronizzare il ritmo. Limitare i pisolini diurni lunghi. Niente caffeina serale. Controllare dolore e nicturia, magari anticipando il diuretico al mattino. Rispettare i rituali della persona."
+ },
+ {
+  "id": "s45",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una cautela importante. Nell'anziano gli ipnotici, benzodiazepine in testa, aumentano cadute, delirium e sedazione diurna. Non sono vietati, ma vengono dopo gli interventi non farmacologici, non prima."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E l'infermiere che somministra un ipnotico al bisogno a un anziano sa di dover alzare il livello di sorveglianza sul rischio di caduta: ricordi la lezione tre punto uno."
+ },
+ {
+  "id": "s47",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Bristol tre e quattro sono normali. Con gli oppioidi, lassativo dal primo giorno. La diarrea paradossa puo' essere un fecaloma. Contro il Clostridioides difficile, acqua e sapone, non gel."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dolore si rileva e si registra, per legge. La terapia al bisogno richiede una prescrizione completa e una rivalutazione. Nella PCA preme solo il paziente, e si sorveglia la sedazione."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E il sonno si protegge soprattutto organizzando meglio la notte. Nella prossima lezione ricomponiamo tutto il modulo tre. A tra poco."
+ }
+]

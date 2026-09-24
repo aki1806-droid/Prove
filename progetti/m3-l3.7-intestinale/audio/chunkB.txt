@@ -1,0 +1,45 @@
+Oltre all'intensita', il dolore si descrive. Lo schema piu' semplice e' PQRST. P: che cosa lo provoca e che cosa lo allevia. Q: la qualita', trafittivo, urente, sordo, crampiforme.
+
+R: dove si irradia. S: la severita', con la scala adatta alla persona. T: il tempo, quando e' iniziato, se e' continuo o intermittente. Una descrizione cosi' orienta diagnosi e terapia molto piu' di un numero da solo.
+
+I tipi. Nocicettivo, da stimolo su tessuti integri: somatico, ben localizzato, e viscerale, sordo e mal localizzato. Neuropatico, da lesione del sistema nervoso: bruciore, scossa, formicolio; risponde poco agli analgesici.
+
+Acuto e cronico. E il dolore episodico intenso, il breakthrough pain: picchi che emergono nonostante una terapia di base efficace, tipici del paziente oncologico, e che vanno previsti con una dose al bisogno.
+
+La scala analgesica dell'OMS, nata per il dolore oncologico e ancora molto chiesta. Primo gradino: farmaci non oppioidi, paracetamolo, antinfiammatori, con eventuali adiuvanti.
+
+Secondo gradino: oppioidi deboli. Terzo gradino: oppioidi forti, come la morfina. Gli adiuvanti, antidepressivi, anticonvulsivanti, corticosteroidi, si aggiungono a ogni gradino, soprattutto nel dolore neuropatico.
+
+La terapia al bisogno e' il punto in cui l'infermiere decide quando somministrare, e per questo la prescrizione deve essere completa: farmaco, dose, via, la condizione, per esempio se NRS superiore a quattro.
+
+E poi l'intervallo minimo fra le dosi e la dose massima nelle ventiquattro ore. Una prescrizione al bisogno e basta non e' eseguibile in sicurezza.
+
+Dopo la somministrazione si rivaluta il dolore al momento dell'effetto atteso: indicativamente quindici-trenta minuti per la via endovenosa, trenta-sessanta per quella orale. Senza rivalutazione, il processo non e' chiuso.
+
+La PCA, analgesia controllata dal paziente: una pompa che eroga un bolo quando la persona preme un pulsante, con un intervallo di blocco, il lockout, in cui nuove pressioni non hanno effetto, e una dose massima oraria.
+
+[serious] La sicurezza si basa su un principio: solo il paziente preme il pulsante. Se e' sedato, non preme, e il sistema si protegge da solo. Se lo preme un familiare per aiutarlo, la protezione salta.
+
+La sorveglianza riguarda sedazione e frequenza respiratoria: la sedazione compare prima della depressione respiratoria, ed e' il segnale da cogliere, con il naloxone disponibile.
+
+E accanto ai farmaci, gli interventi non farmacologici, che sono di competenza infermieristica autonoma. Il posizionamento corretto. Caldo o freddo, su indicazione. La distrazione, le tecniche di rilassamento e respirazione.
+
+E l'informazione: un dolore che si capisce fa meno paura, e la paura amplifica il dolore. Spiegare che cosa sta succedendo e' gia' un analgesico.
+
+Il sonno. L'ospedale e' uno dei posti peggiori in cui dormire: rumore, luce, allarmi, attivita' notturne, parametri, terapie, prelievi, dolore, nicturia, ansia, un letto e una stanza sconosciuti.
+
+E la privazione di sonno non e' un disagio: e' un fattore che contribuisce al delirium, alle cadute e al rallentamento della guarigione. Chi non dorme guarisce piu' piano.
+
+Gli interventi, quasi tutti organizzativi. Raggruppare le attivita' notturne: e' davvero necessario rilevare la pressione alle tre? Ridurre rumore e luce: voci basse, allarmi gestiti, luci soffuse.
+
+Luce naturale di giorno, per sincronizzare il ritmo. Limitare i pisolini diurni lunghi. Niente caffeina serale. Controllare dolore e nicturia, magari anticipando il diuretico al mattino. Rispettare i rituali della persona.
+
+E una cautela importante. Nell'anziano gli ipnotici, benzodiazepine in testa, aumentano cadute, delirium e sedazione diurna. Non sono vietati, ma vengono dopo gli interventi non farmacologici, non prima.
+
+E l'infermiere che somministra un ipnotico al bisogno a un anziano sa di dover alzare il livello di sorveglianza sul rischio di caduta: ricordi la lezione tre punto uno.
+
+Ricapitoliamo. Bristol tre e quattro sono normali. Con gli oppioidi, lassativo dal primo giorno. La diarrea paradossa puo' essere un fecaloma. Contro il Clostridioides difficile, acqua e sapone, non gel.
+
+Il dolore si rileva e si registra, per legge. La terapia al bisogno richiede una prescrizione completa e una rivalutazione. Nella PCA preme solo il paziente, e si sorveglia la sedazione.
+
+[warm] E il sonno si protegge soprattutto organizzando meglio la notte. Nella prossima lezione ricomponiamo tutto il modulo tre. A tra poco.

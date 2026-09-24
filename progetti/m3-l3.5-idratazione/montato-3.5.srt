@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,200
+Questa lezione e' fatta di numeri: valori degli elettroliti, soglie della diuresi, quantita' delle perdite. I quiz li chiedono in modo secco, e i casi clinici li usano per costruire la trappola.
+
+2
+00:00:13,200 --> 00:00:22,720
+Ma dietro i numeri c'e' un'idea semplice: l'acqua entra, l'acqua esce, e l'infermiere e' la persona che misura la differenza. Tutto il resto della lezione e' un modo di misurarla bene.
+
+3
+00:00:22,720 --> 00:00:32,680
+L'acqua corporea e' circa il sessanta per cento del peso nell'adulto, scende intorno al cinquanta nell'anziano e sale al settantacinque nel lattante: piu' si e' piccoli, piu' si e' fatti d'acqua.
+
+4
+00:00:32,680 --> 00:00:42,270
+Due terzi stanno dentro le cellule, un terzo fuori, fra interstizio e plasma. E' il terzo di fuori quello che si vede nei parametri: pressione, polso, diuresi.
+
+5
+00:00:42,270 --> 00:00:51,680
+Il dato che conta per l'assistenza: l'anziano ha meno riserva idrica, meno sete e una minore capacita' di concentrare le urine. Si disidrata prima, e se ne accorge dopo.
+
+6
+00:00:51,680 --> 00:01:01,870
+Il bilancio idrico confronta entrate e uscite nelle ventiquattro ore. Entrate: bevande, acqua contenuta negli alimenti, circa trecento millilitri di acqua prodotta dal metabolismo.
+
+7
+00:01:01,870 --> 00:01:13,310
+E poi infusioni, nutrizione enterale, farmaci diluiti. Uscite: diuresi, feci, vomito, drenaggi, aspirazioni da sondino. E le perdite insensibili, da cute e respiro.
+
+8
+00:01:13,310 --> 00:01:23,880
+Le perdite insensibili sono dell'ordine di ottocento-mille millilitri al giorno in condizioni normali, e aumentano con febbre, tachipnea e ambiente caldo. Non si raccolgono, ma ci sono.
+
+9
+00:01:23,880 --> 00:01:35,460
+L'errore piu' comune nel bilancio e' dimenticare cio' che non si vede. Le perdite insensibili, appunto. E le entrate piccole: le diluizioni degli antibiotici, i lavaggi dei cateteri, le infusioni che tengono pervia una via.
+
+10
+00:01:35,460 --> 00:01:46,720
+Nel paziente cardiopatico o nefropatico, mezzo litro al giorno non contato puo' fare la differenza fra un paziente stabile e un edema polmonare. Il bilancio e' fatto anche di quello che non si versa in un contenitore.
+
+11
+00:01:46,720 --> 00:01:56,410
+Il miglior indicatore del bilancio idrico nel tempo e' il peso. Una variazione rapida di un chilo corrisponde a circa un litro di liquidi. Ma perche' il dato valga, va rilevato con metodo.
+
+12
+00:01:56,410 --> 00:02:07,360
+Stesso orario, stessa bilancia, stessi indumenti, a vescica vuota, prima della colazione. Un peso preso a caso non e' un dato: e' un numero, e con un numero non si decide una terapia.
+
+13
+00:02:07,360 --> 00:02:19,290
+La diuresi. Normale: circa zero virgola cinque-un millilitro per chilo per ora. Oliguria: sotto i quattrocento-cinquecento millilitri nelle ventiquattro ore, o sotto mezzo millilitro per chilo per ora.
+
+14
+00:02:19,290 --> 00:02:28,860
+Ed e' quest'ultimo il valore da usare nel paziente critico, controllato ora per ora. Anuria: sotto i cento millilitri. Poliuria: oltre i duemilacinquecento-tremila.
+
+15
+00:02:28,860 --> 00:02:40,100
+E una regola: un calo della diuresi va segnalato prima di arrivare all'anuria, non dopo. La diuresi che scende e' un segnale precoce, e i segnali precoci valgono solo se qualcuno li legge in tempo.
+
+16
+00:02:40,100 --> 00:02:51,430
+I segni della disidratazione: sete, mucose secche, urine scarse e concentrate, tachicardia, ipotensione ortostatica, confusione, calo di peso. Due avvertenze sull'anziano.
+
+17
+00:02:51,430 --> 00:03:01,040
+La sete puo' mancare: non aspettare che chieda da bere, offri liquidi a intervalli programmati. E il turgore cutaneo e' poco affidabile, perche' la cute anziana perde elasticita'.
+
+18
+00:03:01,040 --> 00:03:10,280
+Se lo valuti, fallo sulla fronte o sullo sterno, non sul dorso della mano. Nell'anziano la disidratazione si presenta spesso come confusione, non come sete.
+
+19
+00:03:10,280 --> 00:03:19,460
+Il contrario: il sovraccarico. Aumento di peso, edemi declivi, e nell'allettato l'edema non va alle caviglie, va alla regione sacrale, quindi va cercato li'.
+
+20
+00:03:19,460 --> 00:03:30,600
+Dispnea, ortopnea, rantoli alle basi, turgore delle giugulari, ipertensione. E' il quadro dello scompenso, e lo riprenderemo nel modulo otto: qui basta riconoscerlo e pesare la persona.
+
+21
+00:03:30,600 --> 00:03:39,550
+Tre famiglie di soluzioni. Isotoniche, come la fisiologica allo zero virgola nove per cento e il Ringer lattato: restano nell'extracellulare ed espandono il volume.
+
+22
+00:03:39,550 --> 00:03:50,730
+Ipotoniche: la glucosata al cinque per cento, una volta metabolizzato il glucosio, si comporta come acqua libera e si distribuisce in tutti i compartimenti. Per questo non serve a ripristinare il volume circolante.
+
+23
+00:03:50,730 --> 00:04:02,510
+Ipertoniche, per usi specifici e sempre su prescrizione. E' una domanda classica: la glucosata al cinque per cento non espande il volume, e chi la sceglie per uno shock ha sbagliato soluzione, non solo quantita'.
+
+24
+00:04:02,510 --> 00:04:15,660
+Il sodio: centotrentacinque-centoquarantacinque milliequivalenti per litro. L'iponatriemia da' sintomi soprattutto neurologici: confusione, cefalea, nausea, fino alle convulsioni. Il cervello e' il primo a soffrire.
+
+25
+00:04:15,660 --> 00:04:25,550
+L'ipernatriemia da' sete, agitazione, confusione, ed e' tipica dell'anziano disidratato. La regola che vale per entrambe: la correzione dev'essere lenta.
+
+26
+00:04:25,550 --> 00:04:39,630
+Correggere troppo in fretta un'iponatriemia cronica puo' causare una sindrome da demielinizzazione osmotica, un danno neurologico grave. L'infermiere garantisce la velocita' prescritta e i controlli ravvicinati.
+
+27
+00:04:39,630 --> 00:04:50,350
+Il potassio: tre virgola cinque-cinque milliequivalenti per litro, un intervallo stretto, perche' il potassio governa il ritmo cardiaco. Mezzo punto fuori e il cuore se ne accorge.
+
+28
+00:04:50,350 --> 00:05:00,250
+L'ipokaliemia da' debolezza, crampi, ileo, aritmie, e potenzia la tossicita' della digitale; le cause tipiche sono diuretici, vomito, diarrea.
+
+29
+00:05:00,250 --> 00:05:12,160
+L'iperkaliemia da' aritmie, onde T appuntite, bradicardia fino all'arresto; le cause sono insufficienza renale e farmaci come ACE-inibitori e diuretici risparmiatori di potassio.
+
+30
+00:05:12,160 --> 00:05:23,110
+Una trappola che riguarda direttamente l'infermiere: la pseudo-iperkaliemia. Se il campione e' emolizzato, i globuli rossi rotti liberano potassio e il valore risulta falsamente alto.
+
+31
+00:05:23,110 --> 00:05:36,470
+Le cause sono nostre: laccio tenuto troppo a lungo, pugno aperto e chiuso piu' volte, ago sottile, aspirazione vigorosa, provetta agitata forte. Un potassio alto e inatteso in un paziente asintomatico va ricontrollato.
+
+32
+00:05:36,470 --> 00:05:46,960
+E il farmaco piu' pericoloso di questa lezione: il cloruro di potassio concentrato, oggetto della Raccomandazione ministeriale numero uno, la prima mai pubblicata, e non a caso.
+
+33
+00:05:46,960 --> 00:05:57,250
+Mai in bolo: una fiala di potassio in bolo endovenoso puo' arrestare il cuore. Su questa regola non esistono eccezioni, e nessuna urgenza la sospende.
+
+34
+00:05:57,250 --> 00:06:07,690
+Sempre diluito, alla concentrazione prevista dalla procedura, con velocita' controllata tramite pompa, conservazione separata dagli altri farmaci e doppio controllo indipendente.
+
+35
+00:06:07,690 --> 00:06:18,050
+Il calcio: otto virgola cinque-dieci virgola cinque milligrammi per decilitro. L'ipocalcemia e' quella da conoscere bene: formicolii intorno alla bocca e alle dita, tetania.
+
+36
+00:06:18,050 --> 00:06:28,750
+I segni di Chvostek, contrazione dei muscoli facciali percuotendo davanti all'orecchio, e di Trousseau, spasmo carpale gonfiando il bracciale dello sfigmomanometro, fino al laringospasmo.
+
+37
+00:06:28,750 --> 00:06:40,810
+Il contesto tipico e' il dopo tiroidectomia, per lesione delle paratiroidi: lo vedremo nel modulo nove. L'ipercalcemia da' stipsi, poliuria, confusione, e si vede piu' spesso in oncologia.
+
+38
+00:06:40,810 --> 00:06:52,900
+Ritorniamo all'anziano, perche' qui l'infermiere fa la differenza vera. Offrire liquidi a intervalli programmati, non aspettare la richiesta. Rispettare le preferenze: acqua, te', brodo, gelatine, frutta.
+
+39
+00:06:52,900 --> 00:07:04,710
+Tenere i liquidi visibili e raggiungibili, non sul comodino dietro la persona. Attenzione ai diuretici nelle giornate calde. E un errore frequente da riconoscere: la persona che beve poco per paura di bagnarsi.
+
+40
+00:07:04,710 --> 00:07:14,570
+Ridurre i liquidi peggiora la situazione: urine piu' concentrate, piu' irritazione vescicale, piu' infezioni. Si lavora sull'accompagnamento in bagno, non sulla sete.
+
+41
+00:07:14,570 --> 00:07:25,840
+Un caso tipico. Anziano, confuso da ieri, mucose secche, diuresi di quattrocento millilitri nelle ventiquattro ore, sodio centocinquantadue. La risposta strutturata parte dai dati.
+
+42
+00:07:25,840 --> 00:07:38,530
+Dati: oliguria, ipernatriemia, segni di disidratazione, confusione che e' probabilmente conseguenza e non causa. Problema prioritario: disidratazione con alterazione dello stato di coscienza.
+
+43
+00:07:38,530 --> 00:07:53,420
+Interventi: avviso il medico, bilancio idrico, peso, parametri, sorveglianza neurologica e del rischio di caduta, idratazione secondo prescrizione con sodio corretto lentamente. Valutazione: diuresi oraria, coscienza, esami.
+
+44
+00:07:53,420 --> 00:08:05,280
+Nelle aziende del servizio sanitario veneto il bilancio idrico e la diuresi sono registrati nella cartella clinica elettronica, con calcolo automatico del saldo: il conto lo fa il sistema, i dati li metti tu.
+
+45
+00:08:05,280 --> 00:08:18,610
+Il potassio concentrato e' regolato da procedure aziendali che recepiscono la Raccomandazione numero uno: armadi dedicati, preparazioni pronte all'uso, etichette evidenti. All'orale, citarle mostra che conosci il reparto.
+
+46
+00:08:18,610 --> 00:08:29,000
+I numeri da portare via. Sodio centotrentacinque-centoquarantacinque. Potassio tre virgola cinque-cinque. Calcio otto virgola cinque-dieci virgola cinque.
+
+47
+00:08:29,000 --> 00:08:41,690
+Diuresi normale mezzo millilitro per chilo per ora; oliguria sotto quattrocento-cinquecento nelle ventiquattro ore; anuria sotto cento. Un chilo, un litro: e' la frase che i corsisti fotografano.
+
+48
+00:08:41,690 --> 00:08:54,800
+E tre regole: il potassio mai in bolo; il sodio si corregge lentamente; all'anziano l'acqua si offre, non si aspetta che la chieda. Nella prossima lezione: eliminazione urinaria e cateterismo vescicale. A tra poco.
