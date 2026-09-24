@@ -1138,6 +1138,29 @@ Gli altri sei si vedevano solo guardando le immagini:
 Restano 62 slide di sola parola, e vanno bene cosi': un'ora di diagrammi a
 tappeto stanca quanto un'ora di testo. Dove la voce afferma, la slide afferma.
 
+## I dieci video di consegna finiti in git, e la mia frase sbagliata
+
+Un `git add -A` ha messo sotto controllo di versione le cartelle `parti/` e
+`parti-achille/`: dieci mp4 e dieci sottotitoli, entrati con `a51788e`.
+
+Poi ho aggiunto le regole per ignorarli, e nel messaggio di `3bcb221` ho
+scritto che le cartelle «non erano tracciate solo perche' nessuno le aveva
+ancora aggiunte». **Era falso**: erano state aggiunte un commit prima, e
+`.gitignore` non ha effetto su un file gia' tracciato. Non me ne sono accorto
+perche' ho guardato lo stato di git DOPO il commit, quando un file tracciato e
+non modificato non compare.
+
+Ora sono tolti dal tracciamento, e restano sul disco. Ma il costo e' gia'
+pagato: **il repository pesa 437 MB**, quasi tutti quei venti file in due
+versioni. Sono nella storia di `a51788e` e `ade983d`, e toglierli da li'
+vorrebbe dire riscrivere la storia di un ramo gia' spinto — cosa che non si fa
+senza che lo chieda chi possiede il ramo.
+
+Quello che si impara, e che vale per il prossimo video: **un prodotto di
+consegna va scritto fuori dall'albero di lavoro**, non in una cartella del
+progetto che poi si spera sia ignorata. Le regole di `.gitignore` proteggono
+solo da quello che non e' ancora entrato.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
