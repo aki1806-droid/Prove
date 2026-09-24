@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,020
+Il cateterismo vescicale e' una delle procedure che l'infermiere esegue piu' spesso, ed e' anche una delle principali cause di infezione correlata all'assistenza.
+
+2
+00:00:12,020 --> 00:00:21,960
+Il punto di questa lezione e' rovesciare una prospettiva: il catetere non e' un comfort per chi assiste. E' un dispositivo invasivo con un rischio che cresce ogni giorno che resta in sede.
+
+3
+00:00:21,960 --> 00:00:30,880
+La domanda piu' importante non e' come lo metto, ma: serve davvero? E' la domanda da farsi prima di aprire il kit, e ogni giorno dopo.
+
+4
+00:00:30,880 --> 00:00:39,980
+Prima l'osservazione. Delle urine si valutano colore, limpidezza, odore e peso specifico, normalmente fra milledieci e milleventicinque.
+
+5
+00:00:39,980 --> 00:00:51,580
+E il vocabolario delle alterazioni, che i quiz chiedono per definizione: disuria, minzione dolorosa; pollachiuria, minzioni frequenti di piccolo volume; nicturia, bisogno di urinare di notte.
+
+6
+00:00:51,580 --> 00:01:03,530
+Stranguria, minzione lenta e dolorosa goccia a goccia; urgenza; ematuria, sangue; piuria, pus. Sette parole, sette definizioni secche: valgono una domanda ciascuna.
+
+7
+00:01:03,530 --> 00:01:16,140
+La ritenzione urinaria: la vescica si riempie ma non si svuota. Si manifesta con il globo vescicale, palpabile e dolente sopra il pube, irrequietezza, a volte minzioni frequenti di piccolo volume per rigurgito.
+
+8
+00:01:16,140 --> 00:01:28,270
+E queste ingannano, perche' sembrano incontinenza. Le cause: ipertrofia prostatica, farmaci anticolinergici e oppioidi, anestesia spinale, post-operatorio, e un classico dell'anziano: il fecaloma.
+
+9
+00:01:28,270 --> 00:01:39,170
+Lo strumento di valutazione e' il bladder scanner, l'ecografia vescicale, che misura il residuo: oltre i centocinquanta-duecento millilitri, secondo procedura, il residuo e' significativo.
+
+10
+00:01:39,170 --> 00:01:52,130
+L'incontinenza non e' una sola. Da sforzo: perdita con tosse, starnuto, sollevamento, per debolezza del pavimento pelvico. Da urgenza: stimolo improvviso e impellente che non si riesce a trattenere. Mista.
+
+11
+00:01:52,130 --> 00:02:05,070
+Da rigurgito: la vescica e' piena e trabocca, e' una ritenzione travestita da incontinenza. Funzionale: il sistema urinario funziona, ma la persona non riesce ad arrivare in bagno in tempo, per limiti motori o cognitivi.
+
+12
+00:02:05,070 --> 00:02:17,680
+E la conseguenza piu' importante. Il catetere vescicale non e' una gestione dell'incontinenza. Gli interventi corretti sono altri: minzione programmata a orari fissi, minzione sollecitata, cioe' chiedere e accompagnare.
+
+13
+00:02:17,680 --> 00:02:30,350
+Bladder training, riabilitazione del pavimento pelvico, ausili assorbenti della misura giusta, e nell'incontinenza funzionale rendere raggiungibile il bagno: comoda vicino al letto, campanello, abiti facili da togliere.
+
+14
+00:02:30,350 --> 00:02:39,940
+Mettere un catetere a chi e' incontinente per comodita' e' una delle cause evitabili di infezione piu' diffuse. Non e' una gestione: e' un rischio in piu'.
+
+15
+00:02:39,940 --> 00:02:52,180
+Quando il catetere e' appropriato. Ritenzione acuta o ostruzione. Monitoraggio accurato della diuresi nel paziente critico. Interventi chirurgici prolungati o urologici, per il tempo strettamente necessario.
+
+16
+00:02:52,180 --> 00:03:03,500
+Lesioni sacrali o perineali in persona incontinente, per favorirne la guarigione. Comfort nel fine vita, se la persona lo desidera. Tutto il resto va messo in discussione, e di solito non regge.
+
+17
+00:03:03,500 --> 00:03:13,770
+Il primo fattore di rischio delle CAUTI, le infezioni urinarie associate a catetere, e' la durata. Il rischio di batteriuria cresce di alcuni punti percentuali per ogni giorno di permanenza.
+
+18
+00:03:13,770 --> 00:03:26,160
+Ne discende l'intervento piu' efficace di tutti: chiedersi ogni giorno se il catetere serve ancora, e rimuoverlo appena possibile. Molte aziende prevedono promemoria o protocolli di rimozione a gestione infermieristica.
+
+19
+00:03:26,160 --> 00:03:35,340
+Un catetere che non serve piu' non e' neutro: e' un dispositivo che sta facendo danno in silenzio. Il giorno in cui lo togli e' il giorno in cui il rischio smette di crescere.
+
+20
+00:03:35,340 --> 00:03:46,130
+Il presidio. Calibro piu' piccolo possibile che garantisca il drenaggio: nell'adulto di norma dodici-quattordici Charriere. Un calibro grande traumatizza l'uretra e aumenta il rischio infettivo.
+
+21
+00:03:46,130 --> 00:03:57,780
+Lattice per il breve termine, con attenzione alle allergie; silicone per il lungo termine. Foley a due vie per il drenaggio, a tre vie per l'irrigazione continua, per esempio nell'ematuria con coaguli.
+
+22
+00:03:57,780 --> 00:04:06,190
+Il palloncino si riempie con acqua sterile, nel volume indicato dal produttore: non fisiologica, che puo' cristallizzare, e non aria, che galleggia.
+
+23
+00:04:06,190 --> 00:04:16,130
+La tecnica si regge su pochi principi. Asepsi: il cateterismo e' una procedura sterile. Operatore formato. Lubrificante sterile, preferibilmente con anestetico locale.
+
+24
+00:04:16,130 --> 00:04:27,080
+Non gonfiare il palloncino finche' non si vede defluire urina: gonfiarlo in uretra provoca lesioni gravi. E raccordare subito il catetere al sistema di drenaggio chiuso, idealmente gia' preconnesso.
+
+25
+00:04:27,080 --> 00:04:34,880
+Nella donna: si divaricano le labbra, si deterge il meato dall'alto verso il basso con una garza per passaggio, e si introduce il catetere.
+
+26
+00:04:34,880 --> 00:04:47,480
+Un dettaglio che vale una domanda: se per errore il catetere entra in vagina, non lo si estrae per ritentare. Lo si lascia in sede come riferimento anatomico e si usa un catetere nuovo sterile. Il primo e' contaminato.
+
+27
+00:04:47,480 --> 00:05:00,350
+Nell'uomo: si retrae il prepuzio, si deterge il glande, si instilla il lubrificante in uretra e si attende che l'anestetico agisca. Il pene si tiene a sessanta-novanta gradi rispetto all'addome per raddrizzare l'uretra.
+
+28
+00:05:00,350 --> 00:05:09,410
+Poi lo si abbassa per superare la curva. Si inserisce fino alla biforcazione del catetere prima di gonfiare, per essere certi che il palloncino sia in vescica.
+
+29
+00:05:09,410 --> 00:05:20,880
+E al termine, lo ripeto, perche' e' lo stesso errore visto nell'igiene: si riposiziona il prepuzio, per evitare la parafimosi. Un catetere ben messo con il prepuzio retratto e' un lavoro a meta'.
+
+30
+00:05:20,880 --> 00:05:32,210
+La gestione del circuito chiuso, cuore della prevenzione. Mai scollegare catetere e sacca: ogni apertura e' una porta d'ingresso. La sacca sempre sotto il livello della vescica, per evitare il reflusso.
+
+31
+00:05:32,210 --> 00:05:44,820
+Ma mai appoggiata a terra. Tubo senza pieghe ne' anse declivi. Svuotare quando e' piena per due terzi, con un contenitore pulito dedicato per ciascun paziente, senza che il rubinetto tocchi il contenitore.
+
+32
+00:05:44,820 --> 00:05:54,130
+E igiene delle mani e guanti a ogni manipolazione. Il circuito chiuso e' chiuso finche' nessuno lo apre: la maggior parte delle aperture non e' necessaria.
+
+33
+00:05:54,130 --> 00:06:02,340
+L'igiene del meato si fa ogni giorno con acqua e sapone, durante l'igiene intima: l'uso routinario di antisettici non riduce le infezioni.
+
+34
+00:06:02,340 --> 00:06:12,360
+Il campione di urine si preleva dal punto di prelievo dedicato, dopo averlo disinfettato, con siringa sterile. Mai dalla sacca, dove l'urina ristagna e si contamina.
+
+35
+00:06:12,360 --> 00:06:22,830
+E una nota: la batteriuria asintomatica nel paziente cateterizzato e' frequentissima e non va trattata; l'urinocoltura si fa se ci sono sintomi, non per abitudine.
+
+36
+00:06:22,830 --> 00:06:32,960
+Tutto questo si riassume nel bundle di prevenzione delle CAUTI. Indicazione appropriata. Inserimento asettico da personale formato. Sistema chiuso mai interrotto.
+
+37
+00:06:32,960 --> 00:06:45,350
+Sacca sotto il livello della vescica. Rivalutazione quotidiana della necessita' e rimozione precoce. Igiene delle mani. Sei misure, da applicare insieme: il bundle funziona come pacchetto, non a pezzi.
+
+38
+00:06:45,350 --> 00:06:57,780
+Due regole che smontano abitudini diffuse. Il catetere non si sostituisce a intervalli fissi di routine: si sostituisce per ostruzione, infezione, malfunzionamento, o secondo le indicazioni del produttore.
+
+39
+00:06:57,780 --> 00:07:08,650
+E l'irrigazione vescicale non e' una misura di prevenzione: si fa solo se indicata, con catetere a tre vie, a circuito chiuso. Lavare per abitudine significa aprire il circuito per abitudine.
+
+40
+00:07:08,650 --> 00:07:19,990
+La rimozione. Si sgonfia il palloncino aspirando con una siringa, lasciando che l'acqua esca passivamente. Mai tagliare la valvola, perche' il palloncino potrebbe non sgonfiarsi del tutto.
+
+41
+00:07:19,990 --> 00:07:32,620
+Si rimuove delicatamente. E poi si sorveglia la ripresa della minzione, di norma entro sei-otto ore: se la persona non urina, si valuta il globo con il bladder scanner prima di pensare a un nuovo catetere.
+
+42
+00:07:32,620 --> 00:07:43,420
+E le alternative al catetere a permanenza. Il cateterismo intermittente, che e' lo standard nella ritenzione cronica e nella vescica neurologica, anche in autocateterismo pulito a domicilio.
+
+43
+00:07:43,420 --> 00:07:56,530
+Il catetere esterno, tipo condom, nell'uomo incontinente senza ritenzione. Il catetere sovrapubico, nei cateterismi a lungo termine selezionati. Tutte hanno un rischio infettivo inferiore al catetere uretrale a permanenza.
+
+44
+00:07:56,530 --> 00:08:09,280
+Nelle aziende del servizio sanitario veneto il cateterismo e' regolato da procedure aziendali che recepiscono il bundle: in cartella si registrano data di inserimento, calibro e motivazione, e la rivalutazione quotidiana.
+
+45
+00:08:09,280 --> 00:08:22,260
+Le CAUTI rientrano nella sorveglianza delle infezioni correlate all'assistenza, che vedremo nel modulo quattro. All'orale, registro la motivazione e rivaluto ogni giorno e' la frase che mostra una cultura della prevenzione.
+
+46
+00:08:22,260 --> 00:08:35,500
+Ricapitoliamo. Il catetere non e' una gestione dell'incontinenza. Il primo fattore di rischio e' la durata: si rivaluta ogni giorno e si toglie appena possibile. Calibro minimo, tecnica sterile, palloncino solo dopo l'urina.
+
+47
+00:08:35,500 --> 00:08:48,760
+Circuito chiuso, sacca sotto la vescica e mai a terra, campione dal punto dedicato e mai dalla sacca. Niente sostituzione di routine, niente antisettici di routine, niente terapia della batteriuria asintomatica.
+
+48
+00:08:48,760 --> 00:09:01,020
+E, sempre, riposizionare il prepuzio. Sette regole, e la prima le vale tutte: il catetere si toglie appena possibile. Nella prossima lezione: eliminazione intestinale, dolore e sonno. A tra poco.

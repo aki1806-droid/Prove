@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,310
+Tre bisogni in una lezione, e non e' un caso: alvo, dolore e sonno sono i tre ambiti in cui il ricovero peggiora piu' spesso le cose, e in cui l'infermiere ha piu' margine d'azione autonoma.
+
+2
+00:00:14,310 --> 00:00:24,660
+Hanno anche un filo comune: sono tutti e tre fattori scatenanti del delirium nell'anziano. Curarli bene significa prevenire molto altro, e spesso con gesti che non costano nulla.
+
+3
+00:00:24,660 --> 00:00:32,950
+Primo: che cosa e' normale. La frequenza dell'alvo va da tre volte al giorno a tre volte a settimana: un intervallo ampio, che dipende dalla persona.
+
+4
+00:00:32,950 --> 00:00:43,230
+Per descrivere le feci in modo oggettivo si usa la scala di Bristol, con sette tipi: uno e due indicano stipsi, tre e quattro sono normali, da cinque a sette indicano diarrea.
+
+5
+00:00:43,230 --> 00:00:53,790
+Registrare alvo presente non basta: registrare Bristol sei, tre scariche, e' un dato. La differenza fra le due frasi e' la differenza fra un'impressione e un'osservazione.
+
+6
+00:00:53,790 --> 00:01:03,820
+La stipsi e' frequentissima nel ricoverato. Le cause: immobilita', pochi liquidi e fibre, farmaci, soprattutto oppioidi, anticolinergici, ferro, calcio-antagonisti.
+
+7
+00:01:03,820 --> 00:01:13,200
+E un fattore che si dimentica: la mancanza di privacy. Usare la padella in una camera a quattro letti con la tenda tirata e', per molte persone, semplicemente impossibile.
+
+8
+00:01:13,200 --> 00:01:22,950
+Un punto preciso che i quiz chiedono. Agli effetti degli oppioidi si sviluppa tolleranza, alla nausea, alla sedazione, ma non alla stipsi, che dura per tutta la terapia.
+
+9
+00:01:22,950 --> 00:01:31,980
+Per questo quando si inizia un oppioide la stipsi si previene fin dal primo giorno con un lassativo su prescrizione. Non si aspetta che compaia.
+
+10
+00:01:31,980 --> 00:01:43,500
+Gli interventi. Liquidi. Fibre, ma solo se l'idratazione e' adeguata, altrimenti peggiorano. Mobilizzazione. Orario regolare, preferibilmente dopo colazione, sfruttando il riflesso gastrocolico.
+
+11
+00:01:43,500 --> 00:01:55,350
+Posizione seduta sul water o sulla comoda, con i piedi rialzati su uno sgabello, che raddrizza l'angolo ano-rettale. Privacy. E i lassativi su prescrizione: osmotici, stimolanti, emollienti.
+
+12
+00:01:55,350 --> 00:02:04,890
+Con un'avvertenza: i lassativi formanti massa sono controindicati nel paziente immobile e poco idratato. Senza acqua, la massa che dovrebbe aiutare diventa un tappo.
+
+13
+00:02:04,890 --> 00:02:17,080
+Il fecaloma, una massa di feci indurite nel retto. Il segno che inganna e' la diarrea paradossa: feci liquide che filtrano intorno alla massa e sembrano diarrea. Trattarla con un antidiarroico sarebbe un errore grave.
+
+14
+00:02:17,080 --> 00:02:25,790
+Nell'anziano il fecaloma puo' presentarsi con confusione e con ritenzione urinaria: due quadri che sembrano altro. Si conferma con l'esplorazione rettale.
+
+15
+00:02:25,790 --> 00:02:35,640
+E la rimozione manuale va eseguita secondo indicazione e con cautela, perche' la stimolazione vagale puo' provocare bradicardia. Si controlla il polso, e ci si ferma se cala.
+
+16
+00:02:35,640 --> 00:02:48,180
+Il clistere evacuativo. Posizione di Sims o laterale sinistra, come nella lezione tre punto due. Liquido a temperatura corporea. Sonda lubrificata, introdotta per sette-dieci centimetri nell'adulto, verso l'ombelico.
+
+17
+00:02:48,180 --> 00:03:00,490
+Contenitore a trenta-quarantacinque centimetri sopra l'ano: piu' in alto, il flusso e' troppo rapido. Infusione lenta; se compaiono crampi, ci si ferma e si abbassa il contenitore. Trattenere per cinque-quindici minuti.
+
+18
+00:03:00,490 --> 00:03:11,470
+Controindicazioni: addome acuto, chirurgia colorettale recente, grave neutropenia o piastrinopenia. Un clistere non e' mai un gesto innocuo: e' una procedura, con le sue esclusioni.
+
+19
+00:03:11,470 --> 00:03:21,930
+La diarrea: tre o piu' scariche non formate nelle ventiquattro ore. I rischi assistenziali sono tre: disidratazione, perdita di potassio, e la dermatite associata a incontinenza.
+
+20
+00:03:21,930 --> 00:03:34,590
+La dermatite va distinta dalla lesione da pressione e si previene con detergenti delicati e prodotti barriera. Le cause, oltre alle infezioni: antibiotici, nutrizione enterale, farmaci, e il fecaloma che abbiamo appena visto.
+
+21
+00:03:34,590 --> 00:03:46,220
+E la diarrea da Clostridioides difficile, che va sospettata in ogni diarrea insorta durante o dopo una terapia antibiotica. Il punto che vale una domanda sicura: il gel alcolico non uccide le spore.
+
+22
+00:03:46,220 --> 00:03:55,000
+Per il Clostridioides difficile le mani si lavano con acqua e sapone, che rimuovono meccanicamente le spore. Il gel, qui, non basta.
+
+23
+00:03:55,000 --> 00:04:07,940
+Poi: precauzioni da contatto, stanza singola, disinfezione con prodotti a base di cloro, attrezzature dedicate, e niente antiperistaltici. Il campione si invia solo se le feci sono non formate. Torna nel modulo quattro.
+
+24
+00:04:07,940 --> 00:04:17,540
+Passiamo al dolore. La legge trentotto del duemiladieci, sull'accesso alle cure palliative e alla terapia del dolore, prevede che la rilevazione del dolore sia riportata in cartella clinica.
+
+25
+00:04:17,540 --> 00:04:29,220
+Caratteristiche, evoluzione, tecnica antalgica, risultato. Il dolore non e' un'opinione dell'operatore. E il principio lo conosci dalla lezione due punto tre: il dolore e' cio' che la persona dice che e'.
+
+26
+00:04:29,220 --> 00:04:41,730
+Oltre all'intensita', il dolore si descrive. Lo schema piu' semplice e' PQRST. P: che cosa lo provoca e che cosa lo allevia. Q: la qualita', trafittivo, urente, sordo, crampiforme.
+
+27
+00:04:41,730 --> 00:04:55,170
+R: dove si irradia. S: la severita', con la scala adatta alla persona. T: il tempo, quando e' iniziato, se e' continuo o intermittente. Una descrizione cosi' orienta diagnosi e terapia molto piu' di un numero da solo.
+
+28
+00:04:55,170 --> 00:05:10,970
+I tipi. Nocicettivo, da stimolo su tessuti integri: somatico, ben localizzato, e viscerale, sordo e mal localizzato. Neuropatico, da lesione del sistema nervoso: bruciore, scossa, formicolio; risponde poco agli analgesici.
+
+29
+00:05:10,970 --> 00:05:22,630
+Acuto e cronico. E il dolore episodico intenso, il breakthrough pain: picchi che emergono nonostante una terapia di base efficace, tipici del paziente oncologico, e che vanno previsti con una dose al bisogno.
+
+30
+00:05:22,630 --> 00:05:32,940
+La scala analgesica dell'OMS, nata per il dolore oncologico e ancora molto chiesta. Primo gradino: farmaci non oppioidi, paracetamolo, antinfiammatori, con eventuali adiuvanti.
+
+31
+00:05:32,940 --> 00:05:46,410
+Secondo gradino: oppioidi deboli. Terzo gradino: oppioidi forti, come la morfina. Gli adiuvanti, antidepressivi, anticonvulsivanti, corticosteroidi, si aggiungono a ogni gradino, soprattutto nel dolore neuropatico.
+
+32
+00:05:46,410 --> 00:05:59,290
+La terapia al bisogno e' il punto in cui l'infermiere decide quando somministrare, e per questo la prescrizione deve essere completa: farmaco, dose, via, la condizione, per esempio se NRS superiore a quattro.
+
+33
+00:05:59,290 --> 00:06:08,120
+E poi l'intervallo minimo fra le dosi e la dose massima nelle ventiquattro ore. Una prescrizione al bisogno e basta non e' eseguibile in sicurezza.
+
+34
+00:06:08,120 --> 00:06:20,840
+Dopo la somministrazione si rivaluta il dolore al momento dell'effetto atteso: indicativamente quindici-trenta minuti per la via endovenosa, trenta-sessanta per quella orale. Senza rivalutazione, il processo non e' chiuso.
+
+35
+00:06:20,840 --> 00:06:34,230
+La PCA, analgesia controllata dal paziente: una pompa che eroga un bolo quando la persona preme un pulsante, con un intervallo di blocco, il lockout, in cui nuove pressioni non hanno effetto, e una dose massima oraria.
+
+36
+00:06:34,230 --> 00:06:46,750
+La sicurezza si basa su un principio: solo il paziente preme il pulsante. Se e' sedato, non preme, e il sistema si protegge da solo. Se lo preme un familiare per aiutarlo, la protezione salta.
+
+37
+00:06:46,750 --> 00:06:56,460
+La sorveglianza riguarda sedazione e frequenza respiratoria: la sedazione compare prima della depressione respiratoria, ed e' il segnale da cogliere, con il naloxone disponibile.
+
+38
+00:06:56,460 --> 00:07:09,940
+E accanto ai farmaci, gli interventi non farmacologici, che sono di competenza infermieristica autonoma. Il posizionamento corretto. Caldo o freddo, su indicazione. La distrazione, le tecniche di rilassamento e respirazione.
+
+39
+00:07:09,940 --> 00:07:18,720
+E l'informazione: un dolore che si capisce fa meno paura, e la paura amplifica il dolore. Spiegare che cosa sta succedendo e' gia' un analgesico.
+
+40
+00:07:18,720 --> 00:07:32,620
+Il sonno. L'ospedale e' uno dei posti peggiori in cui dormire: rumore, luce, allarmi, attivita' notturne, parametri, terapie, prelievi, dolore, nicturia, ansia, un letto e una stanza sconosciuti.
+
+41
+00:07:32,620 --> 00:07:41,680
+E la privazione di sonno non e' un disagio: e' un fattore che contribuisce al delirium, alle cadute e al rallentamento della guarigione. Chi non dorme guarisce piu' piano.
+
+42
+00:07:41,680 --> 00:07:53,450
+Gli interventi, quasi tutti organizzativi. Raggruppare le attivita' notturne: e' davvero necessario rilevare la pressione alle tre? Ridurre rumore e luce: voci basse, allarmi gestiti, luci soffuse.
+
+43
+00:07:53,450 --> 00:08:05,710
+Luce naturale di giorno, per sincronizzare il ritmo. Limitare i pisolini diurni lunghi. Niente caffeina serale. Controllare dolore e nicturia, magari anticipando il diuretico al mattino. Rispettare i rituali della persona.
+
+44
+00:08:05,710 --> 00:08:18,930
+E una cautela importante. Nell'anziano gli ipnotici, benzodiazepine in testa, aumentano cadute, delirium e sedazione diurna. Non sono vietati, ma vengono dopo gli interventi non farmacologici, non prima.
+
+45
+00:08:18,930 --> 00:08:28,720
+E l'infermiere che somministra un ipnotico al bisogno a un anziano sa di dover alzare il livello di sorveglianza sul rischio di caduta: ricordi la lezione tre punto uno.
+
+46
+00:08:28,720 --> 00:08:40,600
+Ricapitoliamo. Bristol tre e quattro sono normali. Con gli oppioidi, lassativo dal primo giorno. La diarrea paradossa puo' essere un fecaloma. Contro il Clostridioides difficile, acqua e sapone, non gel.
+
+47
+00:08:40,600 --> 00:08:52,050
+Il dolore si rileva e si registra, per legge. La terapia al bisogno richiede una prescrizione completa e una rivalutazione. Nella PCA preme solo il paziente, e si sorveglia la sedazione.
+
+48
+00:08:52,050 --> 00:08:59,560
+E il sonno si protegge soprattutto organizzando meglio la notte. Nella prossima lezione ricomponiamo tutto il modulo tre. A tra poco.

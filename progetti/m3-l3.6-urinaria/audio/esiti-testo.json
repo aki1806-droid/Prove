@@ -1,0 +1,32 @@
+{
+ "A": {
+  "parole_copione": 672,
+  "parole_dette": 672,
+  "coincidenti": 672,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 724,
+  "parole_dette": 723,
+  "coincidenti": 720,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "retrae",
+    "detto": "ritrae"
+   },
+   {
+    "blocco": "s34",
+    "copione": "routinario",
+    "detto": "rutinario"
+   },
+   {
+    "blocco": "s37",
+    "copione": "mai",
+    "detto": "ma"
+   }
+  ]
+ }
+}

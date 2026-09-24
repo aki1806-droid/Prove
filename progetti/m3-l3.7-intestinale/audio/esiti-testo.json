@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 714,
+  "parole_dette": 713,
+  "coincidenti": 711,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s19",
+    "copione": "colorettale",
+    "detto": "colo rettale"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 679,
+  "parole_dette": 678,
+  "coincidenti": 675,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "trafittivo",
+    "detto": "tra fittivo"
+   }
+  ]
+ }
+}

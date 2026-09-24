@@ -1,0 +1,53 @@
+{
+ "A": {
+  "parole_copione": 703,
+  "parole_dette": 708,
+  "coincidenti": 695,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "alvo",
+    "detto": "albo"
+   },
+   {
+    "blocco": "s13",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s19",
+    "copione": "chilocalorie",
+    "detto": "kcal"
+   },
+   {
+    "blocco": "s19",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s19",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s21",
+    "copione": "mezzo millilitro",
+    "detto": "0virgola5 ml"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 675,
+  "parole_dette": 671,
+  "coincidenti": 670,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s39",
+    "copione": "sub glottica",
+    "detto": "subglottica"
+   }
+  ]
+ }
+}
