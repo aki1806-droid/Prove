@@ -21,7 +21,7 @@ organigramma (impulsi che scorrono), azienda (ingranaggi e moneta), missioni (tr
 | parlato lavorato | **437,1 s** (5 pose) |
 | CPS misurato | 17,3 car/s sul lavorato |
 | montato locale | **7:30,47** |
-| montato HeyGen | **{HG}** |
+| montato HeyGen | **7:29,15** |
 
 ## Verifiche
 
@@ -40,9 +40,9 @@ organigramma (impulsi che scorrono), azienda (ingranaggi e moneta), missioni (tr
 
 ## Montaggio
 
-- Lotto HeyGen `{LOTTO}`: 96 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Lotto HeyGen `91ebfefd36324ed0a2ba94681dc0dd66`: 96 file accoppiati per posizione, 0 discordi sul `content-type`.
 - Payload: 49 scene; 47 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
+- Video HeyGen: `003c8cb8e189e04f0fc94b95d7646a2b` (https://app.heygen.com/videos/003c8cb8e189e04f0fc94b95d7646a2b).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo

@@ -60,7 +60,7 @@ Modulo 4 completo, Organizzazione aziendale sanitaria e AOUPD (stessa voce e ste
 | 4.2 | L'AOUPD e le tre missioni | 7:34 |
 | 4.3 | Atto aziendale e direzione strategica | 7:05 |
 | 4.4 | Dipartimenti e unità operative | 7:17 |
-| 4.5 | Governo clinico e continuità assistenziale | {D45} |
+| 4.5 | Governo clinico e continuità assistenziale | 7:29 |
 
 Nel modulo 4 `illustra.mjs` passa a 22 illustrazioni: si aggiungono microscopio, organigramma,
 azienda, missioni, percorso e scudo; per la lezione successiva si parte dalla 4.5. La fonte
