@@ -257,7 +257,7 @@ export const ILLU_CLINICA = {
   ],
   cellula: [
     C(120, 130, 62), 'pieno:' + C(120, 130, 62), C(120, 130, 20),                    // la cellula e il nucleo
-    'freccia:M40 60l40 40M200 60l-40 40M40 200l40-40M200 200l-40-40',               // gli ioni che entrano
+    'freccia:M20 130h40M48 118l12 12-12 12M220 130h-40M192 118l-12 12 12 12M120 20v40M108 48l12 12 12-12', // gli ioni che entrano
   ],
 };
 
@@ -911,15 +911,15 @@ export const CORPI_CLINICA = {
   vie: d => {
     const attive = d.attive ?? d.voci.map((_, i) => i);
     const corpo = [
-      'M150 40a70 70 0 1 1-2 140', 'M100 96l-14 12 14 8',                              // testa, naso
+      C(150, 110, 70), 'M84 100l-14 12 14 8',                                          // testa, naso
       'M140 180v40', 'M60 220h360v380H60z',                                          // collo, tronco
       'M200 220c0 60 8 120 6 160',                                                  // esofago
       'M206 380c-50 20-70 70-40 110s90 40 130 10c16-14 18-34 6-50l-26 10',           // stomaco
       'M276 460c30 6 40 30 30 60c-10 30-40 40-70 30',                                // duodeno e digiuno
     ];
     const S = {
-      sng: { d: 'M96 110c40 4 90 30 104 70v200', pin: [300, 300] },
-      nd:  { d: 'M96 110c40 4 90 30 104 70v170c0 60 40 100 80 100c30 0 40-20 30-40', pin: [340, 540] },
+      sng: { d: 'M74 114c50 0 112 26 126 66v200', pin: [300, 300] },
+      nd:  { d: 'M74 114c50 0 112 26 126 66v170c0 60 40 100 80 100c30 0 40-20 30-40', pin: [340, 540] },
       peg: { d: 'M420 330h-40l-60 60', pin: [420, 290] },
       pej: { d: 'M420 500h-60l-60 30', pin: [420, 545] },
     };
