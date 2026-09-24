@@ -178,6 +178,8 @@ export const CSS_CLINICA = `
 .freq .striscia .punto{fill:var(--acc);opacity:0;animation:pop .4s cubic-bezier(.22,.7,.3,1) forwards;
                        transform-box:fill-box;transform-origin:center}
 .freq .riga.key .t{color:var(--acc)}
+.freq .riga.off{opacity:.28;animation:none}
+.freq .riga.off .punto{animation:none;opacity:1}
 
 /* --- percorso --- */
 .percorso{position:relative;width:100%}
@@ -293,11 +295,12 @@ export const CORPI_CLINICA = {
   frequenze: d => {
     const W = 800, x0 = 10, x1 = W - 10, y = 46;
     const X = h => x0 + (x1 - x0) * h / 24;
+    const attive = d.attive ?? d.righe.map((_, i) => i);
     return `<div class="freq">${d.righe.map((r, i) => {
-      const t0 = .3 + i * .22;
+      const t0 = .3 + i * .22, on = attive.includes(i);
       const ore = r.ogni ? Array.from({ length: Math.floor(24 / r.ogni) + 1 }, (_, k) => k * r.ogni).filter(h => h <= 24)
                          : Array.from({ length: r.volte }, (_, k) => 24 / r.volte * (k + .5));
-      return `<div class="riga ${r.key ? 'key' : ''}" style="animation-delay:${num(t0)}s">
+      return `<div class="riga ${r.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(t0)}s">
         <div><div class="t">${acc(r.t)}</div>${r.d ? `<div class="d">${acc(r.d)}</div>` : ''}</div>
         <svg class="striscia" viewBox="0 0 ${W} 92">
           <line class="asse" x1="${x0}" y1="${y}" x2="${x1}" y2="${y}"/>
