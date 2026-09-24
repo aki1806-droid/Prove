@@ -33,11 +33,24 @@ Modulo 2 completo, Il sistema sanitario regionale del Veneto (stessa voce e stes
 | 2.6 | Il distretto potenziato | 7:22 |
 | 2.7 | Ospedali di comunità, cronicità, fragilità | 7:26 |
 
-Per la lezione successiva (3.1) `nuova-lezione.sh` copia dalla 2.7, che ha la libreria
-aggiornata (virgola decimale, tabelle `fittissima`) e le rese di `verifica-testo.py` del
-modulo 2. Nel parlato i numeri romani vanno scritti in lettere («Titolo quinto», non
-«Titolo V»); le fonti del modulo (L.R. 19/2016, L.R. 48/2018, PSSR 2019-2023) sono citate
-in ogni REGISTRO.
+Modulo 3 completo, Legislazione socio-sanitaria del Veneto (stessa voce e stesso metodo,
+più grafica originale):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 3.1 | Radici del modello veneto | 7:56 |
+| 3.2 | L.R. 56/1994: il riordino | 7:20 |
+| 3.3 | Organi, distretti e dipartimenti | 7:42 |
+| 3.4 | L.R. 55/1994: programmare e rendere conto | 7:10 |
+| 3.5 | Budget, controlli e i tre principi guida | in montaggio su HeyGen |
+
+Dal modulo 3 ogni lezione ha `slide/illustra.mjs`: illustrazioni SVG originali animate
+(territorio, municipio, ospedale, casa, radici, bivio, documento, bilancio, calendario,
+stretta di mano, lente, livelli, incastro, università, tavolo, comunità) e i tipi di slide
+`illustrata`, `flusso`, `ciclo`, `rete`, `contatore`, `sigla`. Le clip durano quanto il blocco
+audio, così l'animazione continua per tutta la scena. `nuova-lezione.sh` copia anche
+`illustra.mjs`; per la lezione successiva si parte dalla 3.5. Nel modulo 3 i testi delle
+L.R. 55 e 56 del 1994 non sono stati consultati (vedi i REGISTRO, «Da verificare»).
 
 ## Come si lavora
 
