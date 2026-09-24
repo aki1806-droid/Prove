@@ -1,0 +1,45 @@
+[warm] Questa lezione e' fatta di numeri: valori degli elettroliti, soglie della diuresi, quantita' delle perdite. I quiz li chiedono in modo secco, e i casi clinici li usano per costruire la trappola.
+
+Ma dietro i numeri c'e' un'idea semplice: l'acqua entra, l'acqua esce, e l'infermiere e' la persona che misura la differenza. Tutto il resto della lezione e' un modo di misurarla bene.
+
+L'acqua corporea e' circa il sessanta per cento del peso nell'adulto, scende intorno al cinquanta nell'anziano e sale al settantacinque nel lattante: piu' si e' piccoli, piu' si e' fatti d'acqua.
+
+Due terzi stanno dentro le cellule, un terzo fuori, fra interstizio e plasma. E' il terzo di fuori quello che si vede nei parametri: pressione, polso, diuresi.
+
+Il dato che conta per l'assistenza: l'anziano ha meno riserva idrica, meno sete e una minore capacita' di concentrare le urine. Si disidrata prima, e se ne accorge dopo.
+
+Il bilancio idrico confronta entrate e uscite nelle ventiquattro ore. Entrate: bevande, acqua contenuta negli alimenti, circa trecento millilitri di acqua prodotta dal metabolismo.
+
+E poi infusioni, nutrizione enterale, farmaci diluiti. Uscite: diuresi, feci, vomito, drenaggi, aspirazioni da sondino. E le perdite insensibili, da cute e respiro.
+
+Le perdite insensibili sono dell'ordine di ottocento-mille millilitri al giorno in condizioni normali, e aumentano con febbre, tachipnea e ambiente caldo. Non si raccolgono, ma ci sono.
+
+L'errore piu' comune nel bilancio e' dimenticare cio' che non si vede. Le perdite insensibili, appunto. E le entrate piccole: le diluizioni degli antibiotici, i lavaggi dei cateteri, le infusioni che tengono pervia una via.
+
+Nel paziente cardiopatico o nefropatico, mezzo litro al giorno non contato puo' fare la differenza fra un paziente stabile e un edema polmonare. Il bilancio e' fatto anche di quello che non si versa in un contenitore.
+
+Il miglior indicatore del bilancio idrico nel tempo e' il peso. Una variazione rapida di un chilo corrisponde a circa un litro di liquidi. Ma perche' il dato valga, va rilevato con metodo.
+
+Stesso orario, stessa bilancia, stessi indumenti, a vescica vuota, prima della colazione. Un peso preso a caso non e' un dato: e' un numero, e con un numero non si decide una terapia.
+
+La diuresi. Normale: circa zero virgola cinque-un millilitro per chilo per ora. Oliguria: sotto i quattrocento-cinquecento millilitri nelle ventiquattro ore, o sotto mezzo millilitro per chilo per ora.
+
+Ed e' quest'ultimo il valore da usare nel paziente critico, controllato ora per ora. Anuria: sotto i cento millilitri. Poliuria: oltre i duemilacinquecento-tremila.
+
+E una regola: un calo della diuresi va segnalato prima di arrivare all'anuria, non dopo. La diuresi che scende e' un segnale precoce, e i segnali precoci valgono solo se qualcuno li legge in tempo.
+
+I segni della disidratazione: sete, mucose secche, urine scarse e concentrate, tachicardia, ipotensione ortostatica, confusione, calo di peso. Due avvertenze sull'anziano.
+
+La sete puo' mancare: non aspettare che chieda da bere, offri liquidi a intervalli programmati. E il turgore cutaneo e' poco affidabile, perche' la cute anziana perde elasticita'.
+
+Se lo valuti, fallo sulla fronte o sullo sterno, non sul dorso della mano. Nell'anziano la disidratazione si presenta spesso come confusione, non come sete.
+
+Il contrario: il sovraccarico. Aumento di peso, edemi declivi, e nell'allettato l'edema non va alle caviglie, va alla regione sacrale, quindi va cercato li'.
+
+Dispnea, ortopnea, rantoli alle basi, turgore delle giugulari, ipertensione. E' il quadro dello scompenso, e lo riprenderemo nel modulo otto: qui basta riconoscerlo e pesare la persona.
+
+Tre famiglie di soluzioni. Isotoniche, come la fisiologica allo zero virgola nove per cento e il Ringer lattato: restano nell'extracellulare ed espandono il volume.
+
+Ipotoniche: la glucosata al cinque per cento, una volta metabolizzato il glucosio, si comporta come acqua libera e si distribuisce in tutti i compartimenti. Per questo non serve a ripristinare il volume circolante.
+
+Ipertoniche, per usi specifici e sempre su prescrizione. E' una domanda classica: la glucosata al cinque per cento non espande il volume, e chi la sceglie per uno shock ha sbagliato soluzione, non solo quantita'.
