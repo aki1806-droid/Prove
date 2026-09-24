@@ -372,7 +372,10 @@ const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
 // I grafici non vanno sul verde pieno: le tinte dei dati non ci arrivano a 3:1
 // di contrasto senza uscire dalla banda di chiarezza. Meglio accorgersene qui
 // che scoprirlo guardando il video.
-const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
+// «domanda» entra qui perche' il bollo Si'/No/Dipende usa i colori DATI,
+// che sono fissi e tarati sul fondo chiaro: sul verde pieno non arrivano a
+// 3:1. Gli altri sei tipi nuovi usano solo i colori del tema e ci stanno.
+const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide','domanda']);
 
 // La foto si incorpora nella pagina come il marchio, in base64: clips.mjs
 // costruisce la slide con setContent() e la pagina non ha un indirizzo di

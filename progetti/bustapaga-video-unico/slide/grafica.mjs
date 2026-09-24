@@ -116,6 +116,117 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
 .fig .grid{stroke:var(--linea);stroke-width:2;stroke-dasharray:2 12;stroke-linecap:round}
 .ico{width:1em;height:1em;flex:0 0 auto}
 
+/* la riga di enunciato che sta sopra una figura (vedi const enun) */
+.enun{font-family:'Source Serif 4',serif;font-size:48px;line-height:1.24;
+      color:var(--fg);max-width:1500px}
+.enun b.a,.enun .a{color:var(--tit)}
+
+/* ---------- il cedolino schematico ---------- */
+/* Tutto il disegno vive di tre toni: la carta, le barrette, l'accento. Le
+   parti non in esame non spariscono - restano, sbiadite - perche' il senso
+   della figura e' proprio che il pezzo evidenziato sta DENTRO un documento. */
+.ced .carta{fill:none;stroke:var(--linea);stroke-width:3}
+.ced .b{fill:var(--tit);opacity:.30}
+.ced .riga{stroke:var(--linea);stroke-width:3}
+.ced .sott{stroke:var(--linea);stroke-width:2}
+.ced .ic{font-size:23px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;fill:var(--sop)}
+.ced .cas{fill:none;stroke:var(--linea);stroke-width:2}
+.ced .tot.key .cas{stroke:var(--acc);stroke-width:3}
+.ced .b.spic{opacity:.62;fill:var(--acc)}
+.ced .tag{font-size:26px;font-weight:600;letter-spacing:.06em;fill:var(--sop)}
+/* «via» e' cio' che non e' in esame: sbiadito, mai nascosto */
+.ced .via{opacity:.26}
+.ced .fuoco{fill:color-mix(in srgb,var(--acc) 9%,transparent);
+            stroke:var(--acc);stroke-width:4;stroke-linecap:round;
+            animation:tratto .72s cubic-bezier(.3,.7,.3,1) .34s both}
+/* il tratto del riquadro entra disegnandosi: il movimento indica DOVE
+   guardare, che e' l'unica cosa che l'animazione deve fare qui */
+@keyframes tratto{from{stroke-dashoffset:100} to{stroke-dashoffset:0}}
+
+/* ---------- la prova del nove ---------- */
+.prod{display:flex;align-items:stretch;gap:26px;flex-wrap:wrap}
+.prod .cel{flex:1 1 0;min-width:0;border:3px solid var(--linea);border-radius:22px;
+           padding:34px 30px;display:flex;flex-direction:column;justify-content:center}
+.prod .cel.key{border-color:var(--acc);
+               background:color-mix(in srgb,var(--acc) 7%,transparent)}
+.prod .cap{font-size:24px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+           color:var(--sop);margin-bottom:14px}
+.prod .v{font-size:66px;font-weight:700;line-height:1.05;color:var(--tit);
+         font-variant-numeric:lining-nums tabular-nums}
+.prod .cel.key .v{color:var(--acc)}
+.prod .d{font-size:26px;color:var(--fg);opacity:.72;margin-top:12px;line-height:1.35}
+.prod .sg{flex:0 0 auto;align-self:center;font-size:56px;font-weight:300;color:var(--sop)}
+.prod .nota{flex:1 0 100%;font-size:28px;color:var(--fg);opacity:.75;margin-top:6px}
+
+/* ---------- mese lavorato / mese pagato ---------- */
+.sfa .gg{fill:var(--linea)}
+.sfa .gg.on{fill:var(--acc);opacity:.85}
+.sfa .fre{fill:none;stroke:var(--acc);stroke-width:4;stroke-linecap:round;
+          animation:tratto .8s cubic-bezier(.3,.7,.3,1) .5s both}
+.sfa .fre-et{font-size:27px;font-weight:600;fill:var(--acc)}
+
+/* ---------- la sottrazione del piede ---------- */
+.sotr{display:grid;grid-template-columns:34px 1fr;gap:0 40px;align-items:stretch}
+.sotr .pesi{grid-column:1;grid-row:1;display:flex;flex-direction:column;
+            border-radius:10px;overflow:hidden}
+.sotr .pesi .pz{background:var(--tit);opacity:.22}
+.sotr .pesi .pz.meno{background:var(--acc);opacity:.55}
+.sotr .colonna{grid-column:2;grid-row:1}
+.sotr .r{display:grid;grid-template-columns:44px 1fr auto;align-items:baseline;
+         gap:0 18px;padding:15px 0;border-bottom:2px solid var(--linea)}
+.sotr .r .sg{font-size:38px;color:var(--sop);font-weight:300}
+.sotr .r .et{font-size:38px;color:var(--fg)}
+.sotr .r .v{font-size:42px;font-weight:600;color:var(--tit);
+            font-variant-numeric:lining-nums tabular-nums}
+.sotr .r.key .et,.sotr .r.key .v{color:var(--acc)}
+.sotr .r.tot{border-bottom:0;border-top:4px solid var(--tit);margin-top:8px;padding-top:24px}
+.sotr .r.tot .et{font-weight:600}
+.sotr .r.tot .v{font-size:60px;font-weight:700}
+.sotr .nota{grid-column:2;font-size:27px;opacity:.75;margin-top:18px}
+
+/* ---------- la soglia ---------- */
+.sog .sotto{fill:var(--tit);opacity:.20}
+.sog .sopra{fill:var(--acc);opacity:.80}
+.sog .taglio{stroke:var(--fg);stroke-width:4;stroke-linecap:round;
+             animation:tratto .6s cubic-bezier(.3,.7,.3,1) .36s both}
+.sog .sg-et{fill:var(--fg)}
+.sog .et{font-size:31px;font-weight:500}
+.sog .et.key{fill:var(--acc);font-weight:700}
+/* la nota delle figure che la mettono fuori dall'SVG (sfasamento, soglia) */
+.corpo>.nota{font-size:28px;line-height:1.4;color:var(--fg);opacity:.75;max-width:1560px}
+
+/* ---------- la frazione ---------- */
+.fraz .q{display:grid;gap:9px}
+.fraz.fitta .q{gap:5px}
+.fraz .q i{display:block;aspect-ratio:1;border-radius:7px;background:var(--linea)}
+.fraz.fitta .q i{border-radius:4px}
+.fraz .q i.on{background:var(--acc)}
+.fraz .dd{margin-top:38px;display:flex;align-items:baseline;gap:26px;flex-wrap:wrap}
+/* da sei righe in su la didascalia sta a fianco della griglia, non sotto */
+.fraz.affianco{display:flex;align-items:center;gap:72px}
+.fraz.affianco .lato{flex:1 1 0;min-width:0}
+.fraz.affianco .dd{margin-top:0;display:block}
+.fraz.affianco .dd .v{display:block;margin-bottom:14px}
+.fraz.affianco .dd .t{font-size:44px}
+.fraz .dd .v{font-size:70px;font-weight:700;color:var(--acc);line-height:1;
+             font-variant-numeric:lining-nums tabular-nums}
+.fraz .dd .t{font-size:40px;color:var(--fg);line-height:1.25;flex:1 1 320px}
+.fraz .nota{font-size:27px;opacity:.75;margin-top:20px}
+
+/* ---------- la domanda dello sportello ---------- */
+.dom .q{font-family:'Source Serif 4',serif;font-size:56px;line-height:1.26;
+        color:var(--tit);position:relative;padding-left:56px}
+.dom .q .vg{position:absolute;left:0;top:-6px;font-size:86px;color:var(--acc);opacity:.5;
+            line-height:1}
+.dom .riga{display:flex;align-items:flex-start;gap:30px;margin-top:44px}
+.dom .bollo{flex:0 0 auto;font-size:34px;font-weight:700;letter-spacing:.04em;
+            padding:12px 30px;border-radius:999px;border:3px solid currentColor}
+.dom .bollo.si{color:${DATI[0]}}
+.dom .bollo.no{color:${DATI[3]}}
+.dom .bollo.dipende{color:${DATI[1]}}
+.dom .a{font-size:42px;line-height:1.3;color:var(--fg);padding-top:10px}
+.dom .nota{font-size:29px;opacity:.75;margin-top:30px;line-height:1.45}
+
 /* ---------- tabella vera ---------- */
 .tab{width:100%;border-collapse:separate;border-spacing:0;border:3px solid var(--linea);
      border-radius:22px;overflow:hidden;table-layout:fixed}
@@ -273,6 +384,21 @@ svg .gx{transform-box:fill-box;transform-origin:center}
 `;
 
 // ======================= i corpi =======================
+// Una riga forte SOPRA la figura. Serve perche' un corpo grafico sostituisce
+// tutto il testo della slide: convertendo una «frase» in disegno si perderebbe
+// la frase, che spesso e' il punto. Cosi' invece il disegno si AGGIUNGE alle
+// parole. Non e' un h2: a 76px due righe mangerebbero la figura, e la figura
+// qui e' l'argomento. Sta a 48, su una riga, e i due elementi entrano in
+// sequenza perche' sono due figli di .corpo, non un involucro solo.
+const enun = d => d.enunciato ? `<div class="enun gx">${acc(d.enunciato)}</div>` : '';
+// La nota sotto una figura va in HTML, MAI in <text> dentro l'SVG: un testo
+// SVG non va a capo. Su s176 la nota usciva dalla cornice a destra e il
+// controllo 4 non poteva accorgersene, perche' misura il riquadro di .corpo e
+// le figure hanno overflow visibile. Una riga di HTML si spezza da sola.
+const nota = d => d.nota ? `<div class="nota gx">${acc(d.nota)}</div>` : '';
+// nota generica, per le figure che non ne hanno una propria
+
+
 export const CORPI_GRAFICA = {
 
   // Tabella vera: intestazioni + righe. «si» e «no» nelle celle diventano
@@ -533,6 +659,226 @@ export const CORPI_GRAFICA = {
     `<div class="v gx ${v.key ? 'key' : ''} ${(d.attive ?? d.voci.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${icona(v.icona)}
       <div class="t">${acc(v.t)}</div>
       ${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`).join('')}</div>`,
+
+
+  // --- IL CEDOLINO SCHEMATICO -----------------------------------------------
+  // Il disegno che mancava. La voce lo richiama in continuazione — «e' una
+  // tabella», «l'ultima colonna», «il piede si verifica con una sottrazione»,
+  // «le righe con l'asterisco» — e per un'ora lo spettatore ha dovuto
+  // immaginarselo. Qui c'e', ed e' sempre lo STESSO: cambia solo cosa si
+  // accende. Ripetere la stessa figura evidenziandone un pezzo alla volta e'
+  // il modo in cui si insegna a leggere un documento; disegnarne uno diverso
+  // ogni volta sarebbe stato piu' vario e molto meno utile.
+  //
+  // Non contiene nessun numero leggibile, e non e' una scorciatoia: un
+  // cedolino finto con importi finti verrebbe letto come un esempio vero, e
+  // gli importi veri del fac-simile stanno gia' nelle tabelle. Qui servono la
+  // FORMA e la POSIZIONE, e le barrette le danno senza mentire.
+  cedolino: d => {
+    // Le quote sono strette apposta. Con la riga di enunciato sopra, la figura
+    // ha 784px meno il sopratitolo: alla prima misura il cedolino sforava di
+    // 90px su nove slide su undici, e il controllo 4 l'ha detto subito. Si
+    // comprime la figura, non si toglie l'enunciato: la frase e' il punto.
+    const X0 = 40, X1 = 1616, Y0 = 10;
+    const YA = 112, YB = 376, Y1 = 486;          // fine intestazione, corpo, piede
+    // Le colonne del corpo, come in un cedolino vero: descrizione larga a
+    // sinistra, poi i tre numeri, poi il riferimento.
+    const COL = [[72, 700], [812, 120], [968, 176], [1180, 200], [1424, 160]];
+    const TEST = ['Descrizione', 'Quantità', 'Unitario', 'Importo', 'Rif.'];
+    const NR = 7, RY = 180, RP = 27;             // righe, prima riga, passo
+    // Larghezze delle barrette: fisse e dichiarate, non casuali. Una figura
+    // che cambia a ogni render non e' una figura, e' rumore.
+    const W = [[.95,.55,.70,.80,.00],[.72,.45,.85,.62,.00],[.88,.60,.55,.90,.00],
+               [.64,.80,.40,.70,.72],[.92,.50,.75,.58,.72],[.58,.70,.62,.84,.72],
+               [.80,.40,.90,.66,.00]];
+    const ev = d.evidenzia ?? {};
+    const spento = (cond) => cond ? '' : ' via';
+    // Che cosa e' acceso: una zona, una colonna, o un intervallo di righe.
+    const zonaOn = z => !ev.zona || ev.zona === z;
+    const colOn  = c => ev.colonna == null || ev.colonna === c;
+    const rigaOn = r => !ev.righe || (r >= ev.righe[0] && r <= ev.righe[1]);
+    const barra = (x, w, y, cls='') =>
+      `<rect class="b${cls}" x="${num(x)}" y="${num(y)}" width="${num(w)}" height="13" rx="6"/>`;
+    // il riquadro che accende: si disegna sopra a tutto, e il tratto entra
+    const fuoco = (x, y, w, h) => `<rect class="fuoco" x="${num(x)}" y="${num(y)}"
+        width="${num(w)}" height="${num(h)}" rx="16"
+        pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>`;
+    let acceso = '';
+    if (ev.zona === 'intestazione') acceso = fuoco(X0+14, Y0+12, X1-X0-28, YA-Y0-26);
+    if (ev.zona === 'corpo')        acceso = fuoco(X0+14, YA+8,  X1-X0-28, YB-YA-20);
+    if (ev.zona === 'piede')        acceso = fuoco(X0+14, YB+8,  X1-X0-28, Y1-YB-20);
+    if (ev.colonna != null) { const [cx, cw] = COL[ev.colonna];
+      acceso = fuoco(cx-20, YA+14, cw+40, YB-YA-32); }
+    if (ev.righe) acceso = fuoco(X0+26, RY + ev.righe[0]*RP - 21,
+                                 X1-X0-52, (ev.righe[1]-ev.righe[0]+1)*RP + 12);
+
+    return `${enun(d)}<svg class="fig ced" viewBox="0 0 ${LARG} ${Y1 + 26}">
+      <rect class="carta" x="${X0}" y="${Y0}" width="${X1-X0}" height="${Y1-Y0}" rx="26"/>
+      <g class="zona${spento(zonaOn('intestazione'))}">
+        ${barra(X0+44, 300, Y0+34)}${barra(X0+44, 210, Y0+62)}
+        ${barra(X1-44-340, 340, Y0+34)}${barra(X1-44-250, 250, Y0+62)}
+        <text class="cap" x="${X0+44}" y="${Y0+98}">Intestazione</text>
+      </g>
+      <line class="riga" x1="${X0}" y1="${YA}" x2="${X1}" y2="${YA}"/>
+      <g class="zona${spento(zonaOn('corpo'))}">
+        ${COL.map(([x, w], c) => `<text class="ic${spento(colOn(c))}" x="${
+          c ? num(x + w) : num(x)}" y="${YA+46}" ${c ? 'text-anchor="end"' : ''}>${TEST[c]}</text>`).join('')}
+        <line class="sott" x1="${X0+44}" y1="${YA+64}" x2="${X1-44}" y2="${YA+64}"/>
+        ${W.map((riga, r) => `<g class="rg${spento(rigaOn(r))}">${riga.map((k, c) => {
+          if (!k) return '';
+          const [x, w] = COL[c];
+          return barra(c ? x + w - w*k : x, w*k, RY + r*RP, spento(colOn(c)));
+        }).join('')}</g>`).join('')}
+      </g>
+      <line class="riga" x1="${X0}" y1="${YB}" x2="${X1}" y2="${YB}"/>
+      <g class="zona${spento(zonaOn('piede'))}">
+        ${['Competenze lorde', 'Ritenute', 'Netto a pagare'].map((t, i) => {
+          const bw = (X1-X0-88-64) / 3, bx = X0 + 44 + i*(bw+32);
+          return `<g class="tot ${i === 2 ? 'key' : ''}">
+            <rect class="cas" x="${num(bx)}" y="${YB+18}" width="${num(bw)}" height="80" rx="14"/>
+            <text class="cap" x="${num(bx+24)}" y="${YB+48}">${t}</text>
+            ${barra(bx + bw - 24 - (i === 2 ? 210 : 150), i === 2 ? 210 : 150, YB+70,
+                    i === 2 ? ' spic' : '')}</g>`;
+        }).join('')}
+      </g>
+      ${acceso}
+      ${d.etichetta ? `<text class="tag" x="${X1-8}" y="${Y1+22}" text-anchor="end">${d.etichetta}</text>` : ''}
+    </svg>`;
+  },
+
+  // --- LA PROVA DEL NOVE ----------------------------------------------------
+  // quantita' x unitario = importo, la verifica che il copione insegna tre
+  // volte. Scritta come un'operazione, non come una tabella: e' un GESTO che
+  // lo spettatore deve rifare da solo sulla propria busta, e un'operazione si
+  // riconosce dai segni.
+  prodotto: d => {
+    const C = [d.quantita, d.unitario, d.importo], S = ['×', '='];
+    return `${enun(d)}<div class="prod gfx">${C.map((c, i) => `${i ? `<div class="sg gx">${S[i-1]}</div>` : ''}
+      <div class="cel gx ${i === 2 ? 'key' : ''}">
+        <div class="cap">${c.cap}</div><div class="v">${c.v}</div>
+        ${c.d ? `<div class="d">${acc(c.d)}</div>` : ''}</div>`).join('')}
+      ${d.nota ? `<div class="nota gx">${acc(d.nota)}</div>` : ''}</div>`;
+  },
+
+  // --- IL MESE LAVORATO E IL MESE PAGATO ------------------------------------
+  // Lo sfasamento fra quando lavori e quando ti pagano e' il dubbio piu'
+  // frequente allo sportello: il copione ci dedica una domanda intera («ho
+  // fatto le notti ad agosto, perche' non le trovo nella busta di agosto?»).
+  // A parole ci vogliono trenta secondi; disegnato si capisce subito.
+  sfasamento: d => {
+    // La freccia ha una CORSIA sua a destra, larga 380. Alla prima misura le
+    // strisce erano centrate e la freccia usciva dietro la sua etichetta: due
+    // segni sovrapposti che si annullano. Riservare lo spazio prima di
+    // disegnare costa una costante e toglie il problema alla radice.
+    const G = 31, GAP = 6, RES = 380, W = LARG - RES, CW = (W - (G-1)*GAP) / G;
+    const X = 0, YA = 108, YB = 336, H = 44;
+    const segno = (giorni, y, on) => giorni.map(g =>
+      `<rect class="gg ${on ? 'on' : ''}" x="${num(X + (g-1)*(CW+GAP))}" y="${y}"
+             width="${CW}" height="${H}" rx="7"/>`).join('');
+    const vuoti = y => Array.from({length: G}, (_, i) =>
+      `<rect class="gg" x="${num(X + i*(CW+GAP))}" y="${y}" width="${CW}" height="${H}" rx="7"/>`).join('');
+    return `${enun(d)}<svg class="fig sfa" viewBox="0 0 ${LARG} 412">
+      <text class="cap" x="${num(X)}" y="${YA-28}">${d.lavorato}</text>
+      ${vuoti(YA)}${segno(d.giorni, YA, true)}
+      <text class="cap" x="${num(X)}" y="${YB-28}">${d.pagato}</text>
+      ${vuoti(YB)}
+      <path class="fre" d="M${num(W - CW/2)} ${YA+H+16}
+            C ${num(W + 110)} ${YA+H+90}, ${num(W + 110)} ${YB-90}, ${num(W - CW/2)} ${YB-16}"
+            pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+      <text class="et fre-et" x="${LARG}" y="${(YA+YB+H)/2 + 10}" text-anchor="end">${d.freccia ?? 'due mesi dopo'}</text>
+    </svg>${nota(d)}`;
+  },
+
+  // --- LA SOTTRAZIONE DEL PIEDE ---------------------------------------------
+  // Il piede della busta e' una sottrazione, e il copione lo dice con queste
+  // parole. Disegnarla come i conti che si fanno a mano — voci incolonnate a
+  // destra, riga, totale — la rende rifacibile: chi guarda puo' incolonnare i
+  // propri numeri nello stesso modo. La barra a sinistra dice in proporzione
+  // quanto pesa ogni trattenuta, che i soli numeri non fanno vedere.
+  sottrazione: d => {
+    // Il totale e' una riga SENZA q: e' il risultato, non un addendo. Sommando
+    // anche lui, Math.abs(undefined) faceva NaN e ogni peso finiva a NaN — la
+    // barra non si disegnava affatto, in silenzio. Si somma solo cio' che
+    // entra nel conto.
+    const voci = d.righe.filter(r => !r.tot);
+    const tot = voci.reduce((a, r) => a + Math.abs(r.q), 0) || 1;
+    return `${enun(d)}<div class="sotr gfx">
+      <div class="colonna">${d.righe.map((r, i) => `<div class="r gx ${r.tot ? 'tot' : ''} ${r.key ? 'key' : ''}">
+        <span class="sg">${r.tot ? '' : (r.q < 0 ? '−' : '+')}</span>
+        <span class="et">${acc(r.t)}</span>
+        <span class="v">${r.v}</span></div>`).join('')}</div>
+      <div class="pesi gx" aria-hidden="true">${voci.map(r =>
+        `<div class="pz ${r.q < 0 ? 'meno' : ''}" style="flex:${num(Math.abs(r.q)/tot)} 0 0"></div>`).join('')}</div>
+      ${d.nota ? `<div class="nota gx">${acc(d.nota)}</div>` : ''}</div>`;
+  },
+
+  // --- LA SOGLIA ------------------------------------------------------------
+  // «Solo sulla parte che supera una soglia»: e' la struttura di mezzo sistema
+  // fiscale e contributivo, e a parole si confonde sempre con «sul totale».
+  // Una barra con un taglio la dice per quello che e'.
+  soglia: d => {
+    const X = 0, W = LARG, Y = 116, H = 86;
+    const p = Math.max(0.04, Math.min(0.96, d.frazione));
+    return `${enun(d)}<svg class="fig sog" viewBox="0 0 ${LARG} 250">
+      <rect class="sotto" x="${X}" y="${Y}" width="${num(W*p)}" height="${H}" rx="14"/>
+      <rect class="sopra" x="${num(W*p)}" y="${Y}" width="${num(W*(1-p))}" height="${H}" rx="14"/>
+      <line class="taglio" x1="${num(W*p)}" y1="${Y-34}" x2="${num(W*p)}" y2="${Y+H+34}"
+            pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+      <text class="cap sg-et" x="${num(W*p)}" y="${Y-52}" text-anchor="middle">${d.soglia}</text>
+      <text class="et" x="16" y="${Y+H+70}">${acc(d.sinistra)}</text>
+      <text class="et key" x="${W-16}" y="${Y+H+70}" text-anchor="end">${acc(d.destra)}</text>
+    </svg>${nota(d)}`;
+  },
+
+  // --- LA FRAZIONE ----------------------------------------------------------
+  // «Un quinto», «lo 0,35%», «il 15%»: quote che a parole restano astratte.
+  // Fino a dieci parti si disegnano in fila; sopra, una griglia di cento
+  // caselle — che e' poi il modo in cui una percentuale si capisce davvero.
+  frazione: d => {
+    const n = d.parti, k = d.piene, fitta = n > 10;
+    // Le colonne non sono venti fisse: si cerca un divisore di n fra 5 e 20, il
+    // piu' vicino a dieci. Cosi' cento caselle fanno il quadrato dieci per
+    // dieci - che e' il modo in cui una percentuale si legge - e ventuno fanno
+    // sette per tre invece di venti piu' una spaiata.
+    const div = [];
+    for (let c = 5; c <= 20; c++) if (n % c === 0) div.push(c);
+    const col = !fitta ? n
+      : div.length ? div.reduce((a, b) => Math.abs(b-10) < Math.abs(a-10) ? b : a) : 10;
+    // La misura della casella viene dall'ALTEZZA, non dalla larghezza. Con dieci
+    // colonne su 1656px la casella sarebbe 165px e dieci righe farebbero 1650px
+    // di figura: il controllo 4 ha segnato +1203px. Si prende la piu' piccola
+    // fra la casella che sta in larghezza e quella che sta in 460px di altezza,
+    // e la griglia diventa larga quanto le serve — un quadrato di cento
+    // caselle resta un quadrato, e cinque blocchi restano larghi tutta la slide.
+    // Una griglia di dieci righe stretta in 372px finisce rannicchiata in un
+    // angolo della slide. Da sei righe in su la didascalia le va ACCANTO invece
+    // che sotto: la figura si prende l'altezza che le serve e la slide si
+    // riempie. Sotto le sei righe la griglia e' gia' larga, e affiancarla la
+    // schiaccerebbe.
+    const rig = Math.ceil(n / col), sp = fitta ? 5 : 9;
+    const affianco = rig >= 6, ALT = affianco ? 556 : 372;
+    const lato = Math.min((LARG - (col-1)*sp) / col, (ALT - (rig-1)*sp) / rig);
+    return `${enun(d)}<div class="fraz gfx ${fitta ? 'fitta' : ''} ${affianco ? 'affianco' : ''}">
+      <div class="q" style="grid-template-columns:repeat(${col},1fr);width:${
+        num(col*lato + (col-1)*sp)}px">${
+        Array.from({length: n}, (_, i) =>
+          `<i class="${i < k ? 'on' : ''}"></i>`).join('')}</div>
+      <div class="lato"><div class="dd gx"><span class="v">${d.quota}</span>
+        <span class="t">${acc(d.testo)}</span></div>
+        ${d.nota ? `<div class="nota gx">${acc(d.nota)}</div>` : ''}</div></div>`;
+  },
+
+  // --- LA DOMANDA DELLO SPORTELLO -------------------------------------------
+  // Il capitolo 13 sono undici domande vere, prese dallo sportello. Come
+  // «frase» erano indistinguibili dal resto del video; qui hanno la loro
+  // forma, e la risposta si vede prima di leggerla — che e' esattamente come
+  // funziona allo sportello: prima si' o no, poi il perche'.
+  domanda: d => `${enun(d)}<div class="dom gfx">
+    <div class="q gx"><span class="vg">“</span>${acc(d.domanda)}</div>
+    <div class="riga gx"><span class="bollo ${d.esito}">${
+      {si:'Sì', no:'No', dipende:'Dipende'}[d.esito]}</span>
+      <span class="a">${acc(d.risposta)}</span></div>
+    ${d.nota ? `<div class="nota gx">${acc(d.nota)}</div>` : ''}</div>`,
 
   matrice: d => `<div class="matrice gfx">
     <div></div><div class="ax gx">${d.assex[0]}</div><div class="ax gx">${d.assex[1]}</div>

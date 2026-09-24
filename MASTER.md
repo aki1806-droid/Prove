@@ -691,6 +691,13 @@ Un corso fatto di sole parole in pagina non è un video: è una dispensa letta a
 alta voce. Le figure stanno in `grafica.mjs` e sono un **vocabolario chiuso** —
 tredici tipi più le icone — non un disegno diverso per ogni slide.
 
+«Chiuso» vuol dire che non si inventa una figura per slide, **non** che non si
+possa allargare. Un progetto può aggiungere un tipo quando una FORMA gli ricorre
+e il vocabolario non ce l'ha — e il tipo nuovo va usato più volte, altrimenti
+era un disegno per una slide sola e la regola vale ancora. Il video sulla busta
+paga ne ha aggiunti sette: il più usato è il cedolino schematico, undici volte,
+sempre lo stesso con una zona diversa accesa. Il metro è questo, non il numero.
+
 | Famiglia | Tipi | Quando |
 |---|---|---|
 | dati | `barre` `impila` `assetempo` `scadenza` | c'è una **quantità** vera |

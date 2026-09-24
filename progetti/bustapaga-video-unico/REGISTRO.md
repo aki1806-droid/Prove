@@ -1028,6 +1028,116 @@ perche' i fotogrammi chiave cadono qualche frame piu' in la'.
 I dieci pezzi gia' consegnati restano validi: contengono la stessa cosa, a meno
 di quell'antialiasing che nessuno puo' vedere.
 
+## Sette tipi grafici nuovi, e il disegno che mancava da un'ora
+
+L'utente ha chiesto piu' elementi grafici originali. Il numero gli dava ragione
+una seconda volta: dopo le fotografie restavano **90 slide su 218 di solo
+testo**, il 41%.
+
+Ma il punto non era il conto. Leggendo tutte e 90 di fila si vede che il
+copione ripete poche FORME, e che una domina su tutte: **il cedolino stesso**.
+La voce lo richiama in continuazione — «e' una tabella», «l'ultima colonna»,
+«le righe con l'asterisco», «il piede si verifica con una sottrazione» — e per
+un'ora lo spettatore ha dovuto immaginarselo.
+
+### Il cedolino schematico
+
+E' il disegno portante, usato **undici volte**, ed e' sempre lo STESSO: cambia
+solo cosa si accende — una zona, una colonna, un intervallo di righe. Ripetere
+la stessa figura evidenziandone un pezzo alla volta e' il modo in cui si insegna
+a leggere un documento; disegnarne uno diverso ogni volta sarebbe stato piu'
+vario e molto meno utile.
+
+Non contiene nessun numero leggibile, e non e' una scorciatoia: un cedolino
+finto con importi finti verrebbe letto come un esempio vero, e gli importi veri
+del fac-simile stanno gia' nelle tabelle. Qui servono la FORMA e la POSIZIONE,
+e le barrette le danno senza mentire. Le larghezze delle barrette sono
+dichiarate in una tabella fissa, non casuali: una figura che cambia a ogni
+render non e' una figura, e' rumore.
+
+Le parti non in esame non spariscono — restano, al 26% — perche' il senso della
+figura e' proprio che il pezzo evidenziato sta DENTRO un documento.
+
+### Gli altri sei
+
+    prodotto      quantita' x unitario = importo, la prova del nove     2 usi
+    sfasamento    il mese lavorato e il mese pagato, con la freccia     1 uso
+    sottrazione   il piede come colonna di conti, coi pesi a fianco     3 usi
+    soglia        «solo sulla parte che supera», con il taglio          3 usi
+    frazione      un quinto, il 15%: quote che a parole restano astratte 3 usi
+    domanda       le domande dello sportello, col bollo Si' / No        5 usi
+    cedolino      il documento, con una zona accesa per volta          11 usi
+
+Ognuno nasce da una forma che ricorre nel copione, non da un catalogo di
+decorazioni. `sfasamento` ha un uso solo ed e' giustificato: lo scarto fra
+quando lavori e quando ti pagano e' il dubbio piu' frequente allo sportello, e
+il copione ci dedica **due domande intere**.
+
+Dove il vettore non dice piu' della frase, la frase e' rimasta: `s125` (i
+progressivi) e `s157` (due strade) restano grafica di prima perche' hanno un
+contenuto che una foto o un diagramma nuovo non saprebbero dire meglio.
+
+### L'enunciato: il disegno si aggiunge alle parole, non le scaccia
+
+Un corpo grafico sostituisce TUTTO il testo della slide. Convertendo una
+«frase» in disegno si sarebbe persa la frase — che spesso e' il punto («La apri,
+guardi l'ultima riga, e la chiudi»).
+
+Per questo i sette tipi nuovi accettano un `enunciato`: una riga forte sopra la
+figura. Non e' un h2: a 76px due righe si mangerebbero la figura, e qui la
+figura e' l'argomento. Sta a 48, e i due elementi entrano in sequenza perche'
+sono due figli di `.corpo`, non un involucro solo.
+
+### Le animazioni: indicare, non intrattenere
+
+Il riquadro che accende una zona del cedolino **si disegna** (`stroke-dashoffset`
+da 100 a 0, 0,72 s dopo 0,34 di ritardo), e cosi' la freccia dello sfasamento e
+il taglio della soglia. Il movimento serve a dire DOVE guardare — l'unica cosa
+che un'animazione deve fare su una slide che poi resta ferma quindici secondi.
+Tutto finisce entro 1,3 s, dentro gli 1,8 s della clip.
+
+### Sei difetti trovati guardando, uno trovato dal controllo
+
+Il controllo 4 ne ha preso uno da solo: il cedolino sforava di 90px su nove
+slide su undici. Ho compresso la figura da 646 a 512 unita' invece di togliere
+l'enunciato — la frase e' il punto.
+
+Gli altri sei si vedevano solo guardando le immagini:
+
+- **La barra dei pesi della sottrazione non si disegnava.** La riga del totale
+  non ha un `q` (e' il risultato, non un addendo), e sommandola `Math.abs(undefined)`
+  faceva NaN: ogni peso finiva a NaN e la barra spariva **in silenzio**. E' il
+  tipo di guasto che nessun controllo prende, perche' il risultato e' una
+  figura valida a cui manca un pezzo.
+- **La nota della soglia usciva dalla cornice.** Era un `<text>` dentro l'SVG, e
+  un testo SVG non va a capo. Il controllo 4 non poteva accorgersene: misura il
+  riquadro di `.corpo`, e le figure hanno overflow visibile. Ora le note sono
+  HTML e si spezzano da sole.
+- **La freccia dello sfasamento passava dietro la sua etichetta.** Le strisce
+  erano centrate e la freccia usciva a destra, dove stava la scritta: due segni
+  sovrapposti che si annullano. Ora la freccia ha una corsia sua, larga 380.
+- **La griglia percentuale sfondava di 1.203px.** Dieci colonne su 1656 fanno
+  caselle da 165px, e dieci righe 1650px di figura. La casella ora si misura
+  sull'ALTEZZA disponibile, non sulla larghezza.
+- **Poi era rannicchiata in un angolo.** Da sei righe in su la didascalia va
+  ACCANTO alla griglia invece che sotto: la figura si prende l'altezza che le
+  serve e la slide si riempie.
+- **Ventuno caselle su venti colonne** lasciavano una casella spaiata sulla
+  seconda riga. Le colonne ora sono un divisore di n fra 5 e 20, il piu' vicino
+  a dieci: cento fa il quadrato dieci per dieci, ventuno fa sette per tre.
+
+### Il conto
+
+    prima delle fotografie      87 frase + 15 titolo/citazione   su 218
+    dopo le fotografie          90 di solo testo                 41%
+    dopo i sette tipi nuovi     62 di solo testo                 28%
+
+    tipi di corpo grafico       da 13 a 20
+    tipi di corpo in tutto      da 28 a 35
+
+Restano 62 slide di sola parola, e vanno bene cosi': un'ora di diagrammi a
+tappeto stanca quanto un'ora di testo. Dove la voce afferma, la slide afferma.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato nessuna delle 17 tracce.** Le durate sono
@@ -1073,6 +1183,10 @@ di quell'antialiasing che nessuno puo' vedere.
   fotografia ci sono tutte, ma le altre 48 non seguono un tipo di corpo
   solo. La domanda non cambia il video — lo scarto e' invisibile — ma se
   un giorno servisse un render riproducibile bit per bit, si comincia da li'.
+- **Le 28 slide grafiche nuove nessuno le ha viste in movimento.** Le ho
+  guardate ferma per ferma, ingrandite, e i sei difetti qui sopra vengono da
+  li'. Ma l'ingresso dura 1,8 s e il tratto che si disegna l'ho visto solo
+  nel fotogramma finale: va guardato scorrere.
 - **Nessuno ha guardato il montato.** E' stato costruito e misurato, non visto:
   un'ora di video non si giudica dai numeri. Da guardare almeno gli attacchi dei
   tredici capitoli, dove la card muta incontra la prima scena parlata, e la
