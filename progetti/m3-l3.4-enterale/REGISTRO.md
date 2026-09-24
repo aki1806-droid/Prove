@@ -13,7 +13,7 @@ la striscia del pH, la pompa, la siringa, la cellula con gli ioni che entrano.
 | | |
 |---|---|
 | durata chiesta dallo script | 10 minuti |
-| durata ottenuta | vedi «La resa» |
+| durata ottenuta | 9:06.7 (546,7 s) |
 | slide dello script | 20 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
@@ -98,8 +98,8 @@ rese diverse sono grafie («naso gastrico» / «nasogastrico», «chin tuck» /
 
 | | |
 |---|---|
-| resa pubblicata | *in corso* |
-| lotto asset | *in corso* |
+| resa pubblicata | `ea2c2e3ec62bf852d63e6b2ea4f9bef0` — 546,679 s (9:06.7), 1080p 16:9, resa in 130 s |
+| lotto asset | `610061ffb90444c8b9130b7418bceb9c` — 98 file, 20 MB, tutti completati |
 
 ---
 

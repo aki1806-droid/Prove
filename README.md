@@ -39,6 +39,7 @@ progetti/<modulo>-<lezione>/
 | `m3-l3.1-igiene` | Modulo 3 · 3.1 Igiene, cura della persona e unità del paziente | 9:31.1 | `dec4430f7f0792b0acbab83f15cbdbff` |
 | `m3-l3.2-postura` | Modulo 3 · 3.2 Postura, mobilizzazione e sindrome da immobilizzazione | 9:12.5 | `e4b4f734e5e819c2a9fdfbadb385adf4` |
 | `m3-l3.3-nutrizione` | Modulo 3 · 3.3 Nutrizione e valutazione dello stato nutrizionale | 9:13.9 | `216a2b5ee98eed24240ce6dd5faab039` |
+| `m3-l3.4-enterale` | Modulo 3 · 3.4 Nutrizione enterale: SNG, PEG e PEJ | 9:06.7 | `ea2c2e3ec62bf852d63e6b2ea4f9bef0` |
 
 Sedici micro-lezioni in due moduli con la grafica di seconda generazione, e
 dal modulo 3 la terza generazione (`slide/clinica.mjs`, settembre 2026). Gli indici e i registri stanno in `progetti/`.
