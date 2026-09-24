@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Nella busta paga c'e' scritto Azienda. Non ente, non ufficio: azienda. Eppure non vende niente, non ha azionisti e non distribuisce utili. Perche' allora si chiama cosi'?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' dal 1992 la sanita' pubblica ha scelto un modello preciso: enti pubblici che lavorano con i metodi di un'impresa. Obiettivi, bilanci, responsabilita' di risultato."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Pubblica nei fini, aziendale nei metodi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Che cosa fa di un ente un'azienda. Le autonomie che la legge le riconosce. I tipi di azienda nel servizio sanitario. E da vicino ospedaliere, universitarie e istituti di ricerca."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto di partenza e' il decreto 502 del 1992, riscritto in parte dal decreto 229 del 1999. E' il passaggio che chiamiamo aziendalizzazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima c'erano le unita' sanitarie locali della legge 833: strutture dei Comuni, senza una vera autonomia. Dopo il 502 diventano aziende, con una propria personalita' giuridica."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Personalita' giuridica pubblica vuol dire che l'azienda e' un soggetto a se': ha un nome, un patrimonio, un legale rappresentante. Puo' firmare contratti e risponde di quello che fa."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta pubblica: persegue la tutela della salute, non il profitto. Ma deve lavorare secondo tre criteri che vengono dall'economia aziendale: efficienza, efficacia ed economicita'."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Efficacia vuol dire raggiungere il risultato di salute. Efficienza, raggiungerlo senza sprecare risorse. Economicita', tenere nel tempo l'equilibrio fra costi e ricavi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: un reparto che guarisce i pazienti e' efficace. Se lo fa con meno giornate di degenza, a parita' di esito, e' anche efficiente. Se i conti reggono negli anni, e' economico."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi una regola che cambia il modo di lavorare: l'azienda agisce con atti di diritto privato. Contratti, accordi, incarichi, come farebbe un'impresa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: non tutto e' diritto privato. I concorsi, gli appalti e i procedimenti verso i cittadini restano atti amministrativi, con le regole della pubblica amministrazione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un soggetto pubblico, con gli strumenti di un'impresa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda parola chiave e' autonomia. Il decreto 502, come modificato nel 1999, riconosce alle aziende autonomia organizzativa, amministrativa, patrimoniale, contabile, gestionale e tecnica."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autonomia organizzativa: l'azienda decide come organizzarsi, dentro le regole della Regione. Lo fa con l'atto aziendale, che vedremo nella lezione quattro punto tre."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autonomia amministrativa: adotta da se' i propri atti, dalle delibere del direttore generale ai provvedimenti dei dirigenti, senza chiedere il permesso caso per caso."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autonomia patrimoniale: ha un patrimonio proprio, fatto di beni disponibili e indisponibili, e ne risponde. Gli ospedali, per esempio, sono beni indisponibili."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autonomia contabile: tiene la propria contabilita' economico-patrimoniale e il proprio bilancio, come abbiamo visto con la legge 55 nel modulo tre."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autonomia gestionale e tecnica: sceglie come usare personale, tecnologie e risorse per raggiungere gli obiettivi assegnati. La responsabilita' del risultato e' sua."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le ULSS la dispensa usa anche un'espressione sintetica: autonomia imprenditoriale, contabile e patrimoniale. Imprenditoriale riassume l'idea: decidere e rispondere dei risultati."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio a un distrattore: autonomia non vuol dire indipendenza. L'azienda lavora dentro la programmazione regionale, con gli obiettivi fissati dalla Giunta e i controlli della Regione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle domande d'esame si parla spesso di quattro autonomie: giuridica, amministrativa, patrimoniale e contabile. E' una sintesi utile, purche' si ricordi che la legge ne elenca di piu'."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Libera di organizzarsi. Obbligata a rendere conto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi eroga i livelli essenziali di assistenza? La Regione si avvale di piu' soggetti: le aziende sanitarie locali, le aziende ospedaliere, gli istituti di ricovero e cura a carattere scientifico e i privati accreditati."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima tipologia e' l'azienda sanitaria locale, che nel Veneto si chiama ULSS, unita' locale socio-sanitaria. Copre un territorio e la sua popolazione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fa prevenzione, assistenza distrettuale e assistenza ospedaliera, attraverso i suoi presidi. E si finanzia soprattutto con la quota capitaria: in base ai residenti."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I suoi organi, oggi, sono tre: il direttore generale, il collegio di direzione e il collegio sindacale. Il direttore generale e' affiancato dal direttore sanitario, amministrativo e dei servizi sociali."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ULSS possono gestire anche attivita' socio-assistenziali su delega dei Comuni. Ma solo dopo aver ricevuto dagli enti locali le risorse per coprirne i costi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi il Veneto ha nove ULSS. Accanto, due aziende ospedaliere universitarie, Padova e Verona, l'Istituto Oncologico Veneto e Azienda Zero, che governa le funzioni comuni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda tipologia e' l'azienda ospedaliera. Non copre un territorio: e' un ospedale, o un gruppo di ospedali, di alta specializzazione, costituito in azienda autonoma."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per diventarlo servono requisiti precisi: organizzazione dipartimentale, almeno tre unita' operative di alta specialita', un dipartimento di emergenza di secondo livello."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora: un ruolo di riferimento regionale e interregionale, piu' del dieci per cento di pazienti da fuori regione, e un'alta complessita' dei casi trattati."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si finanzia in base all'attivita' svolta: le prestazioni erogate, pagate secondo le tariffe. E' la differenza con la ULSS che abbiamo gia' visto nella legge 55."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza tipologia e' l'azienda ospedaliera integrata con l'universita'. Qui l'ospedale e la facolta' di medicina lavorano insieme: assistenza, didattica e ricerca nello stesso luogo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale e' nominato d'intesa con il Rettore. E tra gli organi compare l'organo di indirizzo, che tiene coerenti i programmi dell'assistenza con quelli della didattica e della ricerca."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modello dell'Azienda Ospedale Universita' di Padova, a cui dedichiamo la prossima lezione."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La quarta tipologia sono gli IRCCS, istituti di ricovero e cura a carattere scientifico, regolati dal decreto 288 del 2003. Uniscono ricerca clinica e biomedica e ricovero di alta specialita'."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono riconosciuti dal ministero della Salute, d'intesa con la Regione, per una specializzazione, e il possesso dei requisiti si verifica ogni tre anni. Nel Veneto un esempio e' l'Istituto Oncologico Veneto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: l'azienda ospedaliera non ha i distretti. Il territorio e la popolazione sono della ULSS; l'azienda ospedaliera eroga prestazioni ad alta specializzazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un territorio, un ospedale, un'universita', un istituto di ricerca: quattro modi di essere azienda."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: con il decreto 502 le aziende hanno personalita' giuridica pubblica e agiscono con atti di diritto privato, secondo efficienza, efficacia ed economicita'."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: la legge riconosce autonomia organizzativa, amministrativa, patrimoniale, contabile, gestionale e tecnica. La sintesi d'esame ne ricorda quattro: giuridica, amministrativa, patrimoniale e contabile."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: le tipologie sono ULSS, aziende ospedaliere, aziende ospedaliero-universitarie e IRCCS. La ULSS si finanzia a quota capitaria, l'ospedaliera in base alle prestazioni."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: azienda non significa societa' privata. L'azienda sanitaria resta un ente pubblico, senza scopo di lucro e dentro la programmazione regionale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un ente pubblico con i metodi di un'impresa, libero di organizzarsi e obbligato a rendere conto. Nella prossima lezione: l'Azienda Ospedale Universita' di Padova e le sue tre missioni."
+ }
+]
