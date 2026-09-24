@@ -42,7 +42,7 @@ più grafica originale):
 | 3.2 | L.R. 56/1994: il riordino | 7:20 |
 | 3.3 | Organi, distretti e dipartimenti | 7:42 |
 | 3.4 | L.R. 55/1994: programmare e rendere conto | 7:10 |
-| 3.5 | Budget, controlli e i tre principi guida | in montaggio su HeyGen |
+| 3.5 | Budget, controlli e i tre principi guida | 7:11 |
 
 Dal modulo 3 ogni lezione ha `slide/illustra.mjs`: illustrazioni SVG originali animate
 (territorio, municipio, ospedale, casa, radici, bivio, documento, bilancio, calendario,
