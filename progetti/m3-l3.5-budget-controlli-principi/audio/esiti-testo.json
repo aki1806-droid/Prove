@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 674,
+  "parole_dette": 674,
+  "coincidenti": 673,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s24",
+    "copione": "consuntivo",
+    "detto": "consultivo"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 470,
+  "parole_dette": 470,
+  "coincidenti": 468,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s45",
+    "copione": "ha",
+    "detto": "a"
+   },
+   {
+    "blocco": "s46",
+    "copione": "consuntivo",
+    "detto": "consultivo"
+   }
+  ]
+ }
+}

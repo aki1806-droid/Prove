@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Gennaio, un reparto di medicina. Il primario riceve un documento: quanti ricoveri, quanto personale, quanti farmaci, quanta spesa per l'anno. Non e' una circolare qualunque: e' il budget del suo reparto."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da dove arriva quel documento? E chi controlla, a fine anno, se il reparto ha fatto quello che doveva? Lo dice la legge 55, con la metodica di budget e il controllo di gestione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il budget non e' un taglio. E' un patto: obiettivi e risorse, scritti prima."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. La metodica di budget. La contabilita' analitica e il controllo di gestione. Il controllo della Regione. E i tre principi guida del modello veneto, per chiudere il modulo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La metodica di budget e' disciplinata dagli articoli dal tredici al diciannove della legge 55. E' uno strumento di pianificazione e di controllo economico-finanziario."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve a programmare gli obiettivi, a determinare le attivita' da realizzare, i fattori produttivi da usare, le risorse finanziarie necessarie e gli investimenti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E serve a verificare i risultati ottenuti rispetto agli obiettivi fissati. Prima si programma, poi si misura. E' lo stesso strumento con cui si costruisce il bilancio economico preventivo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sviluppa su quattro livelli. Si parte dal documento di direttive: indica obiettivi, criteri, vincoli e parametri per formulare il budget."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dispensa lo definisce lo strumento di raccordo fra la programmazione strategica, quella della direzione, e la programmazione operativa, quella dei reparti."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il budget generale, che riguarda l'intera azienda. Si articola in tre: budget economico, budget finanziario e budget patrimoniale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi i budget delle strutture, formulati per le strutture fondamentali dell'azienda. E infine i budget di centro di responsabilita', che riguardano le unita' operative."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dall'alto verso il basso: direttive, budget generale, budget delle strutture, budget di centro di responsabilita'. Ogni livello scende di un gradino, fino al singolo reparto."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torna al primario di medicina. Il suo budget e' l'ultimo gradino: obiettivi di attivita' e risorse assegnate, concordati con la direzione. Li' la programmazione diventa lavoro quotidiano."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a un errore comune: il budget generale non e' solo economico. Ha tre facce: economica, finanziaria e patrimoniale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dalle direttive al reparto: quattro gradini, un solo filo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per sapere se il budget e' rispettato servono i numeri giusti. La contabilita' generale da' il quadro dell'azienda intera. Ma non dice quanto costa un singolo reparto."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo c'e' la contabilita' analitica, all'articolo venticinque. Classifica, localizza e imputa i costi, secondo le caratteristiche dei processi produttivi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Detto semplice: dice dove si spende e per che cosa. Rileva tre oggetti: i centri di responsabilita', le aree produttive, semplici o complesse, e i beni, servizi e prestazioni per gli utenti."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il centro di responsabilita' e' un'unita' operativa a cui si assegnano risorse, per svolgere determinate attivita' e ottenere determinati risultati."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per essere un centro di responsabilita' servono tre caratteristiche: attivita' omogenee, risorse impiegate significative, e un responsabile. Senza un responsabile, non c'e' centro."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il controllo di gestione. Lo abbiamo incontrato nella lezione sugli organi: l'articolo venti della legge 56 lo mette alle dirette dipendenze del direttore generale."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il suo scopo: assicurare efficacia ed efficienza ai processi di acquisizione e di impiego delle risorse. Usa la contabilita' generale e quella analitica."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E analizza gli scostamenti fra il budget e i dati a consuntivo. Quanto si era previsto, quanto si e' davvero speso, e perche' c'e' una differenza."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I risultati viaggiano con il reporting, il rapporto di gestione. E' lo strumento di comunicazione della programmazione e del controllo."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I report si preparano in base a chi li legge: il direttore generale, i responsabili che usano le risorse, gli altri dirigenti. Servono a confrontare obiettivi e risultati reali."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se i conti vanno fuori strada? In caso di squilibrio economico e finanziario, il direttore generale puo' rivedere il budget durante l'anno."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: a giugno il report mostra che la spesa per i farmaci di un reparto corre molto sopra il previsto. Si cerca il perche'. E se serve, si corregge il budget."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Misurare, confrontare, correggere. Il budget vive tutto l'anno."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta un livello di controllo, sopra le aziende: quello della Regione. La legge 55 le affida tre strumenti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il visto di congruita'. La Regione lo appone al piano generale, al bilancio pluriennale di previsione, al bilancio economico preventivo e alla proposta di copertura della perdita."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' l'attivita' ispettiva e di vigilanza: la Regione puo' verificare direttamente come lavorano le aziende."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' il piu' forte. Se il direttore generale non adotta gli atti dovuti, come il piano generale o i bilanci, la Regione nomina un commissario che li adotta al suo posto."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio all'elenco del visto di congruita': piano generale, bilancio pluriennale, bilancio economico preventivo e proposta di copertura della perdita. Quattro atti, da ricordare insieme."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "L'azienda gestisce. La Regione vigila, e se serve interviene."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiudiamo il modulo con i tre principi guida del modello veneto. Li abbiamo annunciati nella prima lezione: integrazione, sussidiarieta', prossimita'."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' l'integrazione socio-sanitaria. Sanita' e sociale nello stesso sistema, perche' i bisogni delle persone non si dividono per competenze."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'integrazione lavora su tre piani. Istituzionale, con la delega dei Comuni alle ULSS. Gestionale, nel distretto. Professionale, con sanitario e sociale nello stesso percorso."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' la sussidiarieta'. In verticale: le decisioni stanno al livello piu' vicino ai cittadini, e salgono solo quando serve. Per questo i Comuni siedono nella Conferenza dei sindaci."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In orizzontale: il pubblico valorizza le famiglie, il volontariato, la cooperazione, il terzo settore. Il piano socio-sanitario li indica come una forza che ha fatto tenere il modello veneto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' la prossimita'. Il piano socio-sanitario lo dice cosi': cure di media e bassa complessita' vicino al cittadino, alta complessita' centralizzata negli hub."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prossimita' e' il distretto, l'assistenza domiciliare, la casa come primo luogo di cura. L'ospedale resta il luogo della fase acuta."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tre principi si tengono insieme. L'integrazione dice che cosa unire, la sussidiarieta' chi decide, la prossimita' dove portare i servizi."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Integrare, decidere vicino, curare vicino."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: la metodica di budget ha quattro livelli. Documento di direttive, budget generale, budget delle strutture e budget di centro di responsabilita'."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: un centro di responsabilita' richiede attivita' omogenee, risorse significative e un responsabile. Il controllo di gestione analizza gli scostamenti fra budget e consuntivo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: la Regione controlla con il visto di congruita', con l'ispezione e la vigilanza, e con il commissario se il direttore generale non adotta gli atti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: il budget non lo rivede la Regione. In caso di squilibrio economico e finanziario, lo rivede il direttore generale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: si programma, si misura, si corregge, dentro un sistema che integra e sta vicino alle persone. Nel prossimo modulo: l'organizzazione aziendale, e l'Azienda Ospedale Universita' di Padova."
+ }
+]
