@@ -21,7 +21,7 @@ tipi `illustrata`, `flusso`, `ciclo`, `rete`, `contatore`, `sigla`. Ogni clip du
 | parlato lavorato | **428,7 s** (4 pose) |
 | CPS misurato | 17,3 car/s sul lavorato |
 | montato locale | **7:22,16** |
-| montato HeyGen | **{HG}** |
+| montato HeyGen | **7:20,77** |
 
 ## Verifiche
 
@@ -39,9 +39,9 @@ tipi `illustrata`, `flusso`, `ciclo`, `rete`, `contatore`, `sigla`. Ogni clip du
 
 ## Montaggio
 
-- Lotto HeyGen `{LOTTO}`: 98 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Lotto HeyGen `8d0e52a382604a35a213d6fc789ad9a1`: 98 file accoppiati per posizione, 0 discordi sul `content-type`.
 - Payload: 50 scene; 48 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
+- Video HeyGen: `5150ff793c44dca6bdcabde19f8456d7` (https://app.heygen.com/videos/5150ff793c44dca6bdcabde19f8456d7).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo
