@@ -13,7 +13,7 @@ schema della microaspirazione, la mappa della stanza, il bivio.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti e 30 |
-| durata ottenuta | vedi «La resa» |
+| durata ottenuta | 9:31.1 (571,1 s) |
 | slide dello script | 19 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
@@ -91,8 +91,8 @@ controllo geometrico non le vede.
 
 | | |
 |---|---|
-| resa pubblicata | *in corso* |
-| lotto asset | *in corso* |
+| resa pubblicata | `dec4430f7f0792b0acbab83f15cbdbff` — 571,147 s (9:31.1), 1080p 16:9, resa in 112 s |
+| lotto asset | `0e19333172434181b8717281684bd0a4` — 98 file (48 audio, 48 clip, 2 immagini), 22 MB, tutti completati |
 
 ---
 
