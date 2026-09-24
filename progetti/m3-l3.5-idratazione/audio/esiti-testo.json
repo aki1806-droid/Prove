@@ -1,0 +1,48 @@
+{
+ "A": {
+  "parole_copione": 685,
+  "parole_dette": 677,
+  "coincidenti": 676,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s12",
+    "copione": "miglior",
+    "detto": "migliore"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 659,
+  "parole_dette": 659,
+  "coincidenti": 654,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "iponatriemia",
+    "detto": "iponatremia"
+   },
+   {
+    "blocco": "s26",
+    "copione": "ipernatriemia",
+    "detto": "ipernatremia"
+   },
+   {
+    "blocco": "s26",
+    "copione": "dev",
+    "detto": "deve"
+   },
+   {
+    "blocco": "s27",
+    "copione": "iponatriemia",
+    "detto": "iponatremia"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ipernatriemia",
+    "detto": "ipernatremia"
+   }
+  ]
+ }
+}
