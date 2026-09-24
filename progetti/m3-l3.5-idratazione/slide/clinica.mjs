@@ -259,6 +259,23 @@ export const ILLU_CLINICA = {
     C(120, 130, 62), 'pieno:' + C(120, 130, 62), C(120, 130, 20),                    // la cellula e il nucleo
     'freccia:M20 130h40M48 118l12 12-12 12M220 130h-40M192 118l-12 12 12 12M120 20v40M108 48l12 12 12-12', // gli ioni che entrano
   ],
+  // --- 3.5 idratazione ---
+  sacca: [
+    'M120 14v26', 'M70 40h100v130a20 20 0 0 1-20 20H90a20 20 0 0 1-20-20z',        // gancio e sacca
+    'pieno:M76 100h88v70a14 14 0 0 1-14 14H90a14 14 0 0 1-14-14z',                 // il liquido
+    'M90 70h60M90 88h40', 'M120 190v36',                                            // le tacche e il deflussore
+  ],
+  fiala: [
+    'M96 60h48v20l-10 14v116a8 8 0 0 1-8 8h-12a8 8 0 0 1-8-8V94l-10-14z',           // la fiala
+    'M104 40h32', 'M120 40v20',                                                     // il collo
+    'pieno:M110 120h20v90h-20z',                                                    // il contenuto
+    'freccia:M40 60l160 160M200 60L40 220',                                         // mai in bolo
+  ],
+  bicchiere: [
+    'M70 60h100l-12 150H82z', 'pieno:M78 110h84l-8 100H86z',                          // il bicchiere
+    'M60 226h120',                                                                  // il comodino
+    'M40 60c12-16 28-24 44-24', 'M40 60l10-8M40 60l12 4',                             // la mano che lo avvicina
+  ],
 };
 
 // La sagoma per la mappa corporea: 300x620, fronte. Le zone sono campiture
@@ -572,6 +589,50 @@ export const CSS_CLINICA = `
 .vie .voce .d{font-size:26px;line-height:1.3;opacity:.74;margin-top:2px}
 .vie .voce.off{opacity:.3;animation:none}
 .vie{animation:none}
+
+/* --- bilancio: il serbatoio con le entrate e le uscite --- */
+.bil{display:flex;gap:40px;align-items:center;min-height:640px}
+.bil .lista{flex:1;display:flex;flex-direction:column;gap:12px}
+.bil .lista h3{font-size:30px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sop);margin:0 0 8px}
+.bil .voce{display:flex;gap:18px;align-items:baseline;opacity:0;animation:scivola .5s cubic-bezier(.22,.7,.3,1) forwards}
+.bil .lista.usc .voce{animation-name:scivolaDx2}
+@keyframes scivolaDx2{from{opacity:0;transform:translateX(46px)}to{opacity:1;transform:none}}
+.bil .voce .n{flex:0 0 46px;height:46px;border-radius:50%;background:var(--tit);color:var(--bg);font-size:24px;font-weight:700;
+              display:flex;align-items:center;justify-content:center;align-self:center}
+.bil .voce.key .n{background:var(--acc)}
+.bil .voce .t{font-size:32px;font-weight:600;color:var(--tit);line-height:1.12}
+.bil .voce.key .t{color:var(--acc)}
+.bil .voce .d{font-size:23px;opacity:.74;line-height:1.25}
+.bil .voce.off{opacity:.28;animation:none}
+.bil .serb{flex:0 0 420px}
+.bil .serb svg{width:420px;height:auto;overflow:visible}
+.bil .serb .vaso{fill:none;stroke:var(--tit);stroke-width:8;stroke-linejoin:round}
+.bil .serb .acqua{fill:var(--acc);opacity:.3;transform-box:fill-box;transform-origin:bottom;animation:cresciY 1.4s cubic-bezier(.4,0,.2,1) both .6s}
+.bil .serb .fr{fill:none;stroke:var(--tit);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;
+               stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
+.bil .serb .fr.acc{stroke:var(--acc)}
+.bil .serb .fr.off{stroke:var(--linea);animation:none;stroke-dasharray:none}
+.bil .serb .lbl{font-size:26px;font-weight:600;fill:var(--sop);letter-spacing:.14em;text-transform:uppercase;text-anchor:middle}
+
+/* --- distribuzione: la sacca e i due compartimenti --- */
+.distr{display:flex;gap:30px;width:100%}
+.distr .pan{flex:1;display:flex;flex-direction:column;gap:16px;opacity:0;animation:sali .55s cubic-bezier(.22,.7,.3,1) forwards}
+.distr .pan.off{opacity:.26;animation:none}
+.distr .pan svg{width:100%;height:auto;overflow:visible}
+.distr .comp{fill:var(--tit);opacity:.06;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.distr .riemp{fill:var(--acc);opacity:0;animation:appariPozza .8s both}
+.distr .sac{fill:none;stroke:var(--tit);stroke-width:6;stroke-linejoin:round}
+.distr .sacl{fill:var(--acc);opacity:.35}
+.distr .fr{fill:none;stroke:var(--acc);stroke-width:9;stroke-linecap:round;stroke-linejoin:round;
+           stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .7s both}
+.distr .lbl{font-size:26px;font-weight:600;fill:var(--sop);letter-spacing:.12em;text-transform:uppercase;text-anchor:middle}
+.distr .pan .num{width:60px;height:60px;border-radius:50%;background:var(--tit);color:var(--bg);font-size:30px;font-weight:700;
+                 display:flex;align-items:center;justify-content:center}
+.distr .pan.key .num{background:var(--acc)}
+.distr .pan .t{font-size:38px;font-weight:600;color:var(--tit);line-height:1.12}
+.distr .pan.key .t{color:var(--acc)}
+.distr .pan .d{font-size:25px;line-height:1.3;opacity:.76;margin-top:6px}
+.bil,.distr{animation:none}
 `;
 
 // ---------- pezzi ----------
@@ -862,7 +923,14 @@ export const CORPI_CLINICA = {
   // min/max dell'asse; attive; marca: {v, t} una soglia aggiunta, tratteggiata.
   fascia: d => {
     const W = 1656, x0 = 40, x1 = W - 40, y = 250, h = 110;
-    const lo = d.min, hi = d.max, X = v => x0 + (x1 - x0) * (v - lo) / (hi - lo);
+    const lo = d.min, hi = d.max;
+    // uguali: segmenti di pari larghezza, quando i valori reali schiaccerebbero
+    // le classi strette (la diuresi: 100 e 450 su una scala fino a 3400).
+    const soglie = d.classi.map(c => c.da).filter(v => v != null);
+    const X = d.uguali
+      ? v => { const k = soglie.filter(t => t <= v).length; const t0 = k ? soglie[k - 1] : lo, t1 = soglie[k] ?? hi;
+               return x0 + (x1 - x0) * (k + (t1 > t0 ? (v - t0) / (t1 - t0) : 0)) / (soglie.length + 1); }
+      : v => x0 + (x1 - x0) * (v - lo) / (hi - lo);
     const attive = d.attive ?? d.classi.map((_, i) => i);
     const seg = d.classi.map((c, i) => {
       const a = Math.max(c.da ?? lo, lo), b = Math.min(c.a ?? hi, hi), on = attive.includes(i), t0 = .3 + i * .18;
@@ -934,6 +1002,52 @@ export const CORPI_CLINICA = {
     <div class="voci">${d.voci.map((v, i) => `<div class="voce ${v.key ? 'key' : ''} ${attive.includes(i) ? '' : 'off'}"
         style="animation-delay:${num(.5 + i * .18)}s"><div class="n">${i + 1}</div>
         <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div>`).join('')}</div></div>`;
+  },
+
+
+  // Il serbatoio con le entrate a sinistra e le uscite a destra.
+  // entrate: [{t, d, key}], uscite: [{t, d, key}], attive: {e:[...], u:[...]}.
+  bilancio: d => {
+    const ae = d.attive?.e ?? d.entrate.map((_, i) => i), au = d.attive?.u ?? d.uscite.map((_, i) => i);
+    const lista = (voci, att, cls, titolo, t0) => `<div class="lista ${cls}"><h3>${titolo}</h3>${voci.map((v, i) =>
+      `<div class="voce ${v.key ? 'key' : ''} ${att.includes(i) ? '' : 'off'}" style="animation-delay:${num(t0 + i * .16)}s"><div class="n">${i + 1}</div>
+       <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div>`).join('')}</div>`;
+    const frecce = (n, att, x0, x1, t0) => Array.from({ length: n }, (_, i) => { const y = 120 + i * (360 / Math.max(n - 1, 1));
+      return `<path class="fr ${att.includes(i) ? (i === n - 1 && n > 3 ? 'acc' : '') : 'off'}" pathLength="1" d="M${x0} ${y}H${x1}M${x1 > x0 ? x1 - 22 : x1 + 22} ${y - 16}L${x1} ${y}L${x1 > x0 ? x1 - 22 : x1 + 22} ${y + 16}" style="animation-delay:${num(t0 + i * .16)}s"/>`; }).join('');
+    return `<div class="bil">${lista(d.entrate, ae, 'ent', d.e ?? 'entrate', .4)}
+      <div class="serb"><svg viewBox="0 0 420 560">
+        <path class="vaso" d="M110 60v420a20 20 0 0 0 20 20h160a20 20 0 0 0 20-20V60"/>
+        <rect class="acqua" x="118" y="200" width="184" height="292"/>
+        ${frecce(d.entrate.length, ae, 20, 100, .6)}${frecce(d.uscite.length, au, 320, 400, .9)}
+        <text class="lbl" x="210" y="40">${piano(d.centro ?? '24 ore')}</text>
+      </svg></div>
+      ${lista(d.uscite, au, 'usc', d.u ?? 'uscite', .7)}</div>`;
+  },
+
+  // Dove va una soluzione: la sacca sopra, i due compartimenti sotto.
+  // voci: [{k:'iso'|'ipo'|'iper', t, d, key}], attive.
+  distribuzione: d => {
+    const attive = d.attive ?? d.voci.map((_, i) => i);
+    const pan = (k, on, t0) => {
+      const sacca = `<path class="sac" d="M200 20h100v90a14 14 0 0 1-14 14h-72a14 14 0 0 1-14-14z"/><rect class="sacl" x="206" y="60" width="88" height="58" rx="8"/>`;
+      const comp = `<rect class="comp" x="40" y="200" width="140" height="170" rx="14"/><rect class="comp" x="200" y="200" width="260" height="170" rx="14"/>
+        <text class="lbl" x="110" y="400">extra ⅓</text><text class="lbl" x="330" y="400">intra ⅔</text>`;
+      if (!on) return sacca + comp;
+      const del = t => `style="animation-delay:${num(t0 + t)}s"`;
+      if (k === 'iso') return `${sacca}${comp}<path class="fr" pathLength="1" d="M250 124v40l-140 30" ${del(0)}/>
+        <rect class="riemp" x="46" y="206" width="128" height="158" rx="10" ${del(.6)}/>`;
+      if (k === 'ipo') return `${sacca}${comp}<path class="fr" pathLength="1" d="M250 124v40l-140 30M250 164l80 30" ${del(0)}/>
+        <rect class="riemp" x="46" y="206" width="128" height="158" rx="10" style="animation-delay:${num(t0 + .6)}s;--op:.12"/>
+        <rect class="riemp" x="206" y="206" width="248" height="158" rx="10" style="animation-delay:${num(t0 + .8)}s"/>`;
+      return `${sacca}${comp}<path class="fr" pathLength="1" d="M250 124v40l-140 30" ${del(0)}/>
+        <rect class="riemp" x="46" y="206" width="128" height="158" rx="10" ${del(.6)}/>
+        <path class="fr" pathLength="1" d="M300 285H196M214 269l-18 16 18 16" ${del(1)}/>`;
+    };
+    return `<div class="distr">${d.voci.map((v, i) => { const on = attive.includes(i), t0 = .5 + i * .25;
+      return `<div class="pan ${v.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(t0 - .2)}s">
+        <svg viewBox="0 0 500 420">${pan(v.k, on, t0 + .4)}</svg>
+        <div style="display:flex;gap:18px;align-items:flex-start"><div class="num">${i + 1}</div>
+        <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div></div>`; }).join('')}</div>`;
   },
 
   // Una radice e due rami. radice: testo; rami: [{q:'quando', t, d, key}].

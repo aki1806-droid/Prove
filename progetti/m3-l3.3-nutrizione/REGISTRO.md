@@ -14,7 +14,7 @@ si separa). Tre illustrazioni nuove: la sagoma con il muscolo dentro
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti e 30 |
-| durata ottenuta | vedi «La resa» |
+| durata ottenuta | 9:13.9 (553,9 s) |
 | slide dello script | 19 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
@@ -102,8 +102,8 @@ confronto è tornato a zero buchi senza toccare copione né voce.
 
 | | |
 |---|---|
-| resa pubblicata | *in corso* |
-| lotto asset | *in corso* |
+| resa pubblicata | `216a2b5ee98eed24240ce6dd5faab039` — 553,912 s (9:13.9), 1080p 16:9, resa in 188 s |
+| lotto asset | `c2db8bb427f04a3eb9e8cade790521b7` — 98 file, 20 MB; come in 3.2 un asset è rimasto «processing» nel conteggio del lotto ma era servito: resa senza errori |
 
 ---
 
