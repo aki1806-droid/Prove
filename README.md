@@ -31,7 +31,7 @@ Modulo 2 completo, Il sistema sanitario regionale del Veneto (stessa voce e stes
 | 2.4 | La nuova geografia sanitaria | 8:00 |
 | 2.5 | La rete ospedaliera hub and spoke | 7:33 |
 | 2.6 | Il distretto potenziato | 7:22 |
-| 2.7 | Ospedali di comunità, cronicità, fragilità | {D27} |
+| 2.7 | Ospedali di comunità, cronicità, fragilità | 7:26 |
 
 Per la lezione successiva (3.1) `nuova-lezione.sh` copia dalla 2.7, che ha la libreria
 aggiornata (virgola decimale, tabelle `fittissima`) e le rese di `verifica-testo.py` del

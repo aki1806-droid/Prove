@@ -17,7 +17,7 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 | parlato lavorato | **433,7 s** (3 pose) |
 | CPS misurato | 17,9 car/s sul lavorato |
 | montato locale | **7:27,00** |
-| montato HeyGen | **{HG}** |
+| montato HeyGen | **7:25,84** |
 
 ## Verifiche
 
@@ -34,9 +34,9 @@ di Luca Ward (`tVdVcJPudubxmTmAw4tE`, `eleven_v3`), senza avatar, ≥ 7:00.
 
 ## Montaggio
 
-- Lotto HeyGen `{LOTTO}`: 92 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Lotto HeyGen `b5da1480cc4a481a8bf629a04299f9e1`: 92 file accoppiati per posizione, 0 discordi sul `content-type`.
 - Payload: 47 scene; 45 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
+- Video HeyGen: `f69858c96d6ba91af24070239808a095` (https://app.heygen.com/videos/f69858c96d6ba91af24070239808a095).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo
