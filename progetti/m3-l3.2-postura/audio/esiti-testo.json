@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 700,
+  "parole_dette": 701,
+  "coincidenti": 699,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "semiprona",
+    "detto": "semi prona"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 666,
+  "parole_dette": 667,
+  "coincidenti": 664,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s36",
+    "copione": "contrazioni",
+    "detto": "contrazione"
+   }
+  ]
+ }
+}

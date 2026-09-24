@@ -450,6 +450,23 @@ decorare un elenco. `clinica.mjs` aggiunge sei corpi che ne valgono uno ciascuno
 | `mappa` | un'illustrazione grande con i richiami numerati che compaiono | l'unità del paziente, sette elementi |
 | `bivio` | una radice e due rami, uno in accento | le sponde: presidio o contenzione |
 
+La 3.2 ne aggiunge cinque, e con loro il modo di farne altri: un corpo nuovo è
+una funzione che riceve i dati e restituisce SVG, più il suo CSS con un
+prefisso proprio.
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `posizioni` | il letto visto di lato, una card per posizione: la persona si disegna, il letto s'inclina, l'angolo si scrive | supina, prona, laterale, Sims, Fowler, semi-Fowler, ortopnoica, Trendelenburg; l'alzata in due tempi (3.2) |
+| `apparati` | la sagoma con gli organi che si disegnano in accento e gli spilli **fuori dal corpo**, con la linea guida | gli otto apparati della sindrome da immobilizzazione |
+| `curva` | un asse, una linea che scende in fretta e risale piano, l'area sotto | «la forza si perde in giorni e si recupera in settimane» |
+| `forze` | tre sezioni (osso, tessuti, cute, lenzuolo) in cui **qualcosa si muove**: l'osso scende, la cute scivola, i piani profondi scivolano sotto la cute ferma | pressione, frizione, taglio |
+| `triade` | tre nodi ai vertici di un triangolo che si disegna, il nome al centro | la triade di Virchow |
+
+E le icone in fila (`icone`) accettano ora anche le illustrazioni a 240: un
+nome che non è fra le icone a 24 cade su `illustrazione()`, che `layout.mjs`
+collega all'avvio (`collegaIllustrazioni`). Gli ausili — telo, sollevatore,
+disco, deambulatore, archetto, bastone — sono nati così.
+
 Tre cose imparate facendoli:
 
 - **una classe non può chiamarsi come il contenitore della slide.** La mappa
@@ -462,7 +479,17 @@ Tre cose imparate facendoli:
 - **le didascalie radiali non vanno a capo.** In una raggiera a sei, la
   didascalia di destra esce dalla cornice sopra i 30 caratteri, e il controllo
   geometrico non la vede perché è testo SVG. Si accorcia il dato, non la
-  libreria.
+  libreria;
+- **gli spilli dentro una sagoma piccola si coprono a vicenda.** Nella prima
+  versione degli apparati i numeri stavano sugli organi: otto cerchi rossi in
+  300 px di larghezza, illeggibili. Gli spilli vanno ai lati, fuori dalla
+  sagoma, con una linea guida tratteggiata: il `viewBox` si allarga a 500 e
+  ogni organo dichiara da che lato sta il suo numero e a che altezza;
+- **una card stretta vuole un disegno che la riempia.** Il letto era disegnato
+  in 400×260 con il letto in basso e mezza card vuota sopra: lo si scala di
+  1,2 dentro un `<g transform>` e si ritaglia il `viewBox` a 236 di altezza.
+  Le etichette («testa in basso») stanno sopra il disegno, non sotto, dove
+  incontrano il titolo della card.
 
 ### Guardare i provini non è una formalità
 
@@ -541,7 +568,7 @@ quello che non ho potuto giudicare io»**. In quella sezione va anche quello che
 
 Un corso fatto di sole parole in pagina non è un video: è una dispensa letta ad
 alta voce. Le figure stanno in `grafica.mjs` e `figure.mjs` e sono un
-**vocabolario chiuso** — venticinque tipi, le icone e trentasei illustrazioni
+**vocabolario chiuso** — trenta tipi, le icone e quarantasette illustrazioni
 — non un disegno diverso per ogni slide.
 
 | Famiglia | Tipi | Quando |
@@ -556,6 +583,7 @@ alta voce. Le figure stanno in `grafica.mjs` e `figure.mjs` e sono un
 | misure | `misura` `formaggio` | una scala con una soglia; barriere in fila e il danno che passa |
 | clinica | `corpo` `mappa` `vap` | il corpo, la stanza, un meccanismo che va **visto** |
 | sequenze animate | `percorso` `frequenze` `bivio` | tappe che si disegnano, ripetizioni nelle 24 ore, una scelta a due |
+| postura e meccanismi | `posizioni` `apparati` `curva` `forze` `triade` | il letto di lato, gli organi, una curva, tre forze che muovono, un triangolo |
 
 Circa **trenta scene su cinquanta** portano una figura: venti della prima
 generazione e una decina di `figura`, `cifre` e `raggiera`, che prendono il
@@ -722,7 +750,7 @@ riassume.
 | `slide/layout.mjs` | 355 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 566 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/figure.mjs` | 440 | 24 illustrazioni che si disegnano, i 6 tipi della seconda generazione |
-| `slide/clinica.mjs` | 420 | 12 illustrazioni cliniche, la sagoma, i 6 corpi della terza generazione |
+| `slide/clinica.mjs` | 745 | 23 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, gli 11 corpi della terza generazione |
 | `slide/cards.mjs` | 52 | le 50 slide in PNG |
 | `slide/clips.mjs` | 49 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
