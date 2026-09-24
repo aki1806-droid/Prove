@@ -10,6 +10,8 @@
 //   vap        il profilo con tubo, cuffia e microaspirazione
 //   mappa      un'illustrazione grande con i richiami numerati
 //   bivio      una radice e due rami, uno in accento
+//   anello     le lezioni di un modulo disposte in cerchio, ciascuna con la sua illustrazione
+//   gesti      una fila di gesti illustrati, con le frecce che li legano
 let acc = s => String(s ?? '');
 export const collega = fn => { acc = fn; };
 const piano = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
@@ -307,6 +309,18 @@ export const ILLU_CLINICA = {
     'M160 120h40', C(214, 120, 18), 'pieno:' + C(214, 120, 12),                         // il cavo e il pulsante
     'M190 150c-6 10-4 22 4 30l14 14', 'M204 194l16-16',                                // la mano del paziente
     'M105 180v40', 'M14 224h212',
+  ],
+  // --- 3.8 riepilogo ---
+  quaderno: [
+    'M50 30h130a10 10 0 0 1 10 10v170a10 10 0 0 1-10 10H50a10 10 0 0 1-10-10V40a10 10 0 0 1 10-10z',
+    'M40 70h24M40 110h24M40 150h24M40 190h24', 'M96 84h68M96 116h68M96 148h40', 'freccia:M96 182h52',
+  ],
+  quiz: [
+    'M40 40h160v160H40z', 'M64 74h16v16H64zM64 112h16v16H64zM64 150h16v16H64z',
+    'M96 82h80M96 120h80M96 158h56', 'pieno:M64 112h16v16H64z', 'freccia:M60 116l6 8 12-14',
+  ],
+  cerchio: [
+    'M120 40a80 80 0 1 1-0.1 0', 'M120 90v30l22 22', 'pieno:' + C(120, 120, 8),
   ],
   luna: [
     'M150 40a70 70 0 1 0 60 106 56 56 0 1 1-60-106z', 'pieno:M150 40a70 70 0 1 0 60 106 56 56 0 1 1-60-106z',
@@ -670,6 +684,48 @@ export const CSS_CLINICA = `
 .distr .pan.key .t{color:var(--acc)}
 .distr .pan .d{font-size:25px;line-height:1.3;opacity:.76;margin-top:6px}
 .bil,.distr{animation:none}
+
+.anello{width:100%}
+.anello svg{width:100%;height:auto;overflow:visible}
+.anello .ell{fill:none;stroke:var(--linea);stroke-width:6;stroke-dasharray:1 2;stroke-dashoffset:1.1;
+             animation:scorri 1.4s cubic-bezier(.4,0,.2,1) both .1s}
+.anello .nodo{animation:pop .55s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
+.anello .nodo circle{fill:var(--bg);stroke:var(--tit);stroke-width:6}
+.anello .nodo.key circle{stroke:var(--acc);stroke-width:8;fill:color-mix(in srgb,var(--acc) 8%,var(--bg))}
+.anello .nodo .illu{color:var(--tit);width:88px;height:88px;overflow:visible}
+.anello .nodo.key .illu{color:var(--acc)}
+.anello .nodo .illu .tr{stroke-width:10}
+.anello .nodo .illu .freccia{display:none}
+.anello .nodo.off{opacity:.28;animation:none}
+.anello .nodo foreignObject div{font-family:'Inter',sans-serif;line-height:1.14;display:flex;flex-direction:column;justify-content:center;height:100%}
+.anello .nodo foreignObject .n{font-size:22px;font-weight:700;letter-spacing:.14em;color:var(--sop)}
+.anello .nodo foreignObject .t{font-size:31px;font-weight:600;color:var(--tit)}
+.anello .nodo.key foreignObject .t{color:var(--acc)}
+.anello .centro{animation:pop .6s cubic-bezier(.22,.7,.3,1) both 1.7s;transform-box:fill-box;transform-origin:center}
+.anello .centro text{font-family:'Inter',sans-serif;font-size:54px;font-weight:700;fill:var(--tit);text-anchor:middle}
+.anello .centro text.s{font-size:30px;font-weight:500;fill:var(--fg);opacity:.8}
+
+.gesti{display:flex;align-items:stretch;gap:18px;width:100%;min-height:600px}
+.gesti .g{flex:1;position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;
+          padding:36px 30px 30px;border:4px solid var(--linea);border-radius:30px;background:var(--bg);
+          opacity:0;animation:sali .55s cubic-bezier(.22,.7,.3,1) forwards}
+.gesti .g.key{border-color:var(--acc);border-width:6px;background:color-mix(in srgb,var(--acc) 6%,var(--bg))}
+.gesti .g.off{opacity:.28;animation:none}
+.gesti .g .n{position:absolute;top:-26px;left:50%;transform:translateX(-50%);width:52px;height:52px;border-radius:50%;
+             background:var(--tit);color:var(--bg);font-weight:700;font-size:28px;display:flex;align-items:center;justify-content:center}
+.gesti .g.key .n{background:var(--acc)}
+.gesti .g .ill{width:300px;height:300px}
+.gesti .n2 .g .ill{width:360px;height:360px}
+.gesti .n4 .g .ill,.gesti.n4 .g .ill{width:240px;height:240px}
+.gesti .g .ill .illu{width:100%;height:100%}
+.gesti .g.key .ill .illu{color:var(--acc)}
+.gesti .g .t{font-size:38px;font-weight:600;line-height:1.12;color:var(--tit)}
+.gesti.n4 .g .t{font-size:32px}
+.gesti .g.key .t{color:var(--acc)}
+.gesti .g .d{font-size:26px;line-height:1.25;opacity:.82;color:var(--fg)}
+.gesti .fr{flex:0 0 70px;width:70px;align-self:center;overflow:visible;opacity:0;animation:appari .3s both}
+.gesti .fr path{fill:none;stroke:var(--acc);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;
+                stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s cubic-bezier(.4,0,.2,1) both;animation-delay:inherit}
 `;
 
 // ---------- pezzi ----------
@@ -1119,6 +1175,46 @@ export const CORPI_CLINICA = {
       ${nodo(40, 330, 720, 210, a.key ? 'key' : '', a.t, a.d, 1.35)}
       ${nodo(896, 330, 720, 210, b.key ? 'key' : '', b.t, b.d, 1.55)}
     </svg></div>`;
+  },
+
+  // L'anello: le lezioni di un modulo su un'ellisse, ognuna con la sua
+  // illustrazione dentro un tondo e l'etichetta fuori. L'ellisse si disegna,
+  // i tondi compaiono uno dopo l'altro, il centro per ultimo.
+  anello: d => {
+    const W = 1656, H = 700, cx = 828, cy = 350, rx = 470, ry = 210, r = 66;
+    const n = d.voci.length, attive = d.attive ?? d.voci.map((_, i) => i);
+    const pos = i => { const a = i / n * 2 * Math.PI; return [cx + rx * Math.sin(a), cy - ry * Math.cos(a), Math.sin(a), Math.cos(a)]; };
+    const ell = `M${cx} ${cy - ry}a${rx} ${ry} 0 1 1 0 ${2 * ry}a${rx} ${ry} 0 1 1 0 ${-2 * ry}`;
+    const nodi = d.voci.map((v, i) => {
+      const [x, y, sn, cs] = pos(i), on = attive.includes(i);
+      const ill = `<g transform="translate(${num(x - 44)} ${num(y - 44)})">${illustrazioneClinica(v.illu) ?? ''}</g>`;
+      const bw = 330, bh = 96;
+      let bx, by, al;
+      if (Math.abs(sn) < .3) { bx = x - bw / 2; by = cs > 0 ? y - r - 14 - bh : y + r + 14; al = 'center'; }
+      else if (sn > 0) { bx = x + r + 18; by = y - bh / 2 + (cs > 0 ? -34 : 34); al = 'left'; }
+      else { bx = x - r - 18 - bw; by = y - bh / 2 + (cs > 0 ? -34 : 34); al = 'right'; }
+      return `<g class="nodo ${v.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(.5 + i * .16)}s">
+        <circle cx="${num(x)}" cy="${num(y)}" r="${r}"/>${ill}
+        <foreignObject x="${num(bx)}" y="${num(by)}" width="${bw}" height="${bh}"><div xmlns="http://www.w3.org/1999/xhtml" style="text-align:${al}">
+          <div class="n">${piano(v.n ?? '')}</div><div class="t">${piano(v.t)}</div></div></foreignObject></g>`;
+    }).join('');
+    return `<div class="anello"><svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      <path class="ell" pathLength="1" d="${ell}"/>${nodi}
+      <g class="centro"><text x="${cx}" y="${cy - 22}">${piano(d.centro)}</text><text class="s" x="${cx}" y="${cy + 30}">${piano(d.sotto ?? '')}</text></g>
+    </svg></div>`;
+  },
+
+  // I gesti: da due a quattro riquadri in fila, ognuno con un'illustrazione
+  // grande, un titolo e una riga; fra un riquadro e l'altro una freccia che si
+  // disegna. Serve per le sequenze: che cosa si fa, in che ordine.
+  gesti: d => {
+    const attive = d.attive ?? d.voci.map((_, i) => i);
+    return `<div class="gesti n${d.voci.length}">${d.voci.map((v, i) => {
+      const ill = illustrazioneClinica(v.illu) ?? '';
+      return `${i ? `<svg class="fr" viewBox="0 0 80 80" style="animation-delay:${num(.55 + i * .3)}s"><path pathLength="1" d="M10 40h56M46 22l20 18-20 18"/></svg>` : ''}
+        <div class="g ${v.key ? 'key' : ''} ${attive.includes(i) ? '' : 'off'}" style="animation-delay:${num(.3 + i * .3)}s">
+          <div class="ill">${ill}</div><div class="n">${i + 1}</div>
+          <div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`; }).join('')}</div>`;
   },
 };
 

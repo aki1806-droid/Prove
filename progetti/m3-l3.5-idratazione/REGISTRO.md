@@ -86,8 +86,8 @@ in cifre dal trascrittore convergono grazie alla regola aggiunta in 3.3.
 
 | | |
 |---|---|
-| resa pubblicata | *in corso* |
-| lotto asset | *in corso* |
+| resa pubblicata | `1404ecab794435636b7bc67f4b4f9b8c` — 543,824 s (9:03.8), 1080p 16:9, resa in 83 s |
+| lotto asset | `d0b3450da8ff4f39ac460ebe3b1e7042` — 98 file, tutti completati (l'ultimo dopo qualche minuto) |
 
 ---
 

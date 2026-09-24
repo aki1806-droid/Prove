@@ -478,6 +478,25 @@ Dalla 3.3 alla 3.6 se ne aggiungono altri sei, sempre con lo stesso schema:
 | `distribuzione` | la sacca sopra i due compartimenti: isotonica, ipotonica, ipertonica riempiono in modo diverso | le soluzioni infusionali (3.5) |
 | `curva` con `sale:true` | la stessa curva, ma che sale soltanto | il rischio di CAUTI per giorno di permanenza (3.6) |
 
+E il riepilogo (3.8) ne chiede due che i moduli successivi ritroveranno:
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `anello` | le lezioni di un modulo su un'ellisse che si disegna, ognuna in un tondo con la sua illustrazione a 240 e l'etichetta fuori; `attive` per accenderle a gruppi; il centro compare per ultimo | la mappa delle sette lezioni (3.8) |
+| `gesti` | da due a quattro riquadri in fila, un'illustrazione grande, un titolo, una riga; fra un riquadro e l'altro una freccia che si disegna | il filo del modulo; l'igiene; il sondino; il metodo di ripasso (3.8) |
+
+Due cose imparate con l'anello:
+
+- **un `<svg>` annidato eredita il CSS della sua classe.** L'illustrazione
+  dentro il tondo aveva `x`, `y`, `width` e `height` come attributi, ma
+  `.illu{width:100%}` vinceva: sette figure a tutta slide, sovrapposte. La
+  figura sta in un `<g transform="translate()">` e la larghezza è nel CSS del
+  corpo (`.anello .nodo .illu{width:88px}`);
+- **un corpo per il riepilogo non è un corpo in meno.** L'anello e i gesti
+  riusano le quarantacinque illustrazioni già disegnate: il riepilogo è il
+  posto in cui la libreria si vede tutta insieme, e un'illustrazione che non
+  regge a 88 px (troppi tratti) si scopre lì.
+
 E due cose imparate sul copione, non sulla grafica:
 
 - **i decimali detti a parole.** Il copione dice «uno virgola due» e «diciotto
@@ -778,7 +797,7 @@ riassume.
 | `slide/layout.mjs` | 355 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 566 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/figure.mjs` | 440 | 24 illustrazioni che si disegnano, i 6 tipi della seconda generazione |
-| `slide/clinica.mjs` | 1.050 | 40 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 16 corpi della terza generazione |
+| `slide/clinica.mjs` | 1.230 | 45 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 18 corpi della terza generazione |
 | `slide/cards.mjs` | 52 | le 50 slide in PNG |
 | `slide/clips.mjs` | 49 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
