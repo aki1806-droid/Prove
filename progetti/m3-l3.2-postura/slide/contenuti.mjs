@@ -56,7 +56,7 @@ const VIRCHOW = [
  {t:"Ipercoagulabilità", d:"il sangue che coagula più facilmente"},
 ];
 const TVP = [
- {t:"Mobilizzazione", d:"precoce: il primo intervento", key:true},
+ {t:"Muoversi", d:"mobilizzazione precoce: il primo intervento", key:true},
  {t:"Esercizi attivi", d:"caviglie, polpaccio"},
  {t:"Calze graduate", d:"misurate, mai arrotolate"},
  {t:"Compressione", d:"pneumatica, se i farmaci no"},
@@ -77,7 +77,7 @@ const PRINCIPI = [
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
   modulo:"Modulo 3 · Bisogni fondamentali, comfort e assistenza di base avanzata",
-  titolo:"Postura, mobilizzazione<br>e sindrome da immobilizzazione", sottotitolo:"3.2 · Le posizioni, e che cosa succede a un corpo lasciato fermo",
+  titolo:"Postura, mobilizzazione,<br>immobilizzazione", sottotitolo:"3.2 · Le posizioni, e la sindrome di un corpo lasciato fermo",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 
 {id:"s02", tipo:"figura", tema:"chiaro", sopratitolo:"Micro-lezione 2 di 8", illu:"letto",

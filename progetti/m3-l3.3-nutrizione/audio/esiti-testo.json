@@ -1,0 +1,48 @@
+{
+ "A": {
+  "parole_copione": 724,
+  "parole_dette": 721,
+  "coincidenti": 718,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "chilocalorie",
+    "detto": "kcal"
+   },
+   {
+    "blocco": "s07",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s07",
+    "copione": "2",
+    "detto": "2l"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 701,
+  "parole_dette": 700,
+  "coincidenti": 697,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "schiarimento",
+    "detto": "squerimento"
+   },
+   {
+    "blocco": "s34",
+    "copione": "possano",
+    "detto": "possono"
+   },
+   {
+    "blocco": "s45",
+    "copione": "vap",
+    "detto": "vp"
+   }
+  ]
+ }
+}

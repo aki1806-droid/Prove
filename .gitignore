@@ -30,3 +30,4 @@ progetti/*/provino.png
 progetti/*/scene/
 progetti/*/_montaggio/
 progetti/*/montato-*.mp4
+__pycache__/

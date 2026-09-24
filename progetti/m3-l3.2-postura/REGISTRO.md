@@ -89,6 +89,11 @@ In grassetto i corpi nati qui.
   radiali al posto delle due parentesi.
 - **s27 (l'alzata) sforava di 296 px** con il disegno a 520: ridotto a 400, con
   `min-width:0` sulla card.
+- **La copertina aveva il titolo su tre righe** e la riga dell'ente finiva
+  sotto la barra rossa, che sembrava barrarla. Titolo ridotto a due righe
+  («Postura, mobilizzazione, immobilizzazione»), il resto nel sottotitolo.
+- **«Mobilizzazione» non stava nel cerchio della raggiera** (r = 100 px):
+  la voce è diventata «Muoversi», con la spiegazione nella didascalia.
 
 ---
 

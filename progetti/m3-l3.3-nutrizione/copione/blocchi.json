@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La malnutrizione ospedaliera e' un problema enorme e sottostimato: allunga la degenza, rallenta la guarigione delle ferite, aumenta le infezioni e la mortalita'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E per l'infermiere e' materia di competenza diretta: lo screening, la sorveglianza di quanto la persona mangia davvero e la sicurezza della somministrazione sono responsabilita' sue, e compaiono nei quiz come tali."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro questa lezione c'e' poi un tema che vale da solo molte domande d'esame: la disfagia. Ci arriviamo a meta' strada, e ci restiamo fino alla fine, perche' e' li' che si gioca la sicurezza del paziente."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri di riferimento nell'adulto. Energia: circa venticinque-trenta chilocalorie per chilo al giorno. Proteine: zero virgola otto-un grammo per chilo in condizioni basali."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma uno virgola due-uno virgola cinque grammi per chilo nell'anziano, nel malnutrito, in chi ha lesioni da pressione o e' nel post-operatorio: il fabbisogno sale proprio quando l'appetito scende."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Liquidi: circa trenta millilitri per chilo, cioe' un litro e mezzo-due nell'adulto medio. Fibre: venticinque-trenta grammi, sempre con acqua adeguata, altrimenti peggiorano la stipsi invece di risolverla."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un principio che vale una domanda. Ogni grado sopra i trentasette aumenta il metabolismo basale di circa il dieci-tredici per cento, e comporta perdite idriche aggiuntive di alcune centinaia di millilitri al giorno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Conseguenza assistenziale controintuitiva: il paziente febbrile ha bisogno di piu' calorie e piu' liquidi, proprio mentre mangia di meno. Chi risponde meno, per non affaticarlo, sbaglia."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il BMI: peso in chili diviso l'altezza in metri al quadrato. Sotto diciotto e mezzo sottopeso. Da diciotto e mezzo a ventiquattro e nove normopeso. Da venticinque a ventinove e nove sovrappeso."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da trenta obesita', di primo grado fino a trentaquattro e nove, di secondo fino a trentanove e nove, di terzo da quaranta in su. Sei classi, e le soglie sono quelle che i quiz chiedono."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una nota utile: nell'anziano molte linee guida alzano la soglia inferiore di normalita' a circa ventidue, perche' un BMI basso in eta' avanzata e' associato a esiti peggiori."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre strumenti di screening. Il MUST, per l'adulto in tutti i setting, considera BMI, calo ponderale non intenzionale ed effetto della malattia acuta sull'assunzione di cibo: da due in su e' rischio alto."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'MNA e' specifico per l'anziano, e qui il punteggio basso indica lo stato peggiore: attenzione al verso, perche' e' l'opposto del MUST. L'NRS-2002 e' pensato per l'ospedalizzato."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Combina stato nutrizionale, gravita' della malattia ed eta': da tre in su si interviene. E vale la regola della lezione due punto tre: il punteggio serve solo se cambia il piano."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un limite da conoscere sugli esami. L'albumina viene spesso usata come indice nutrizionale, ma e' anche un indice di infiammazione: in fase acuta scende indipendentemente dallo stato nutrizionale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stesso vale per il peso nel paziente edematoso o disidratato: misura l'acqua, non il muscolo. Il dato piu' semplice e piu' informativo resta il calo ponderale non intenzionale nel tempo: la bilancia, ogni settimana."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre condizioni da non confondere. La malnutrizione per difetto e' uno squilibrio fra apporti e fabbisogni, ed e' reversibile con un apporto adeguato."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sarcopenia e' perdita di massa e forza muscolare, e si valuta anche con la forza di presa e la velocita' del cammino, non solo con la massa: un muscolo puo' esserci e non funzionare."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cachessia e' deperimento in corso di malattia cronica con infiammazione: neoplasia, scompenso, BPCO. La caratteristica decisiva: non si corregge con la sola nutrizione, c'e' una componente catabolica che il cibo non batte."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il concetto che vale una risposta all'orale: un paziente obeso puo' essere malnutrito. La malnutrizione non e' sinonimo di magrezza: e' uno squilibrio fra apporti e fabbisogni, e convive con un BMI elevato."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Si parla di obesita' sarcopenica, ed e' particolarmente insidiosa perche' non si vede. Dirlo mostra che hai capito il concetto, e non solo memorizzato le soglie del BMI."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sei conseguenze, e nota come richiamino tutto cio' che abbiamo gia' studiato. Guarigione delle ferite rallentata: mancano proteine, zinco, vitamina C, calorie per sintetizzare il collagene."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lesioni da pressione: la nutrizione e' uno dei sei item della scala di Braden. Infezioni, per compromissione dell'immunita'. Sarcopenia e cadute, che abbiamo appena visto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Degenza e mortalita' aumentate. E risposta ai farmaci: l'ipoalbuminemia modifica la quota libera dei farmaci ad alto legame proteico, e lo vedremo nel modulo cinque. Sei conseguenze, sei motivi per pesare la persona."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Arriviamo al tema piu' importante della lezione. La disfagia e' la difficolta' a deglutire, e la sua complicanza temuta e' la polmonite ab ingestis: una polmonite che nasce da un pasto, o da un sorso d'acqua."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si distingue in orofaringea, con difficolta' a iniziare la deglutizione: ictus, Parkinson, demenza, SLA, neoplasie testa-collo. Ed esofagea, con difficolta' di transito dopo l'inizio: stenosi, neoplasie, acalasia."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni. Tosse o schiarimento della voce durante o dopo la deglutizione. Voce umida o gorgogliante dopo aver bevuto: e' il segno piu' suggestivo di ristagno, ricordatelo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Deglutizioni multiple per un solo boccone, pasto molto lungo. Fuoriuscita di cibo o ristagno di residui in bocca. Rifiuto dei liquidi, che spesso e' una difesa istintiva."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i segni indiretti: calo ponderale, disidratazione, polmoniti ricorrenti senza altra spiegazione. Chi ha polmoniti che tornano va guardato mentre beve, non solo mentre respira."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ora il punto che i quiz usano come distrattore. Una quota rilevante delle inalazioni avviene senza tosse e senza alcun segno evidente: si chiama aspirazione silente, e nessuno se ne accorge finche' non compare la febbre."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Quindi il ragionamento non tossisce, quindi deglutisce bene e' falso. Se ricordi una cosa sola di questo video, ricorda questa."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola di sicurezza. Nulla per bocca, nemmeno l'acqua, nemmeno i farmaci, prima di aver verificato che la deglutizione sia sicura. E' una regola, non un consiglio, e vale dal primo minuto."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel paziente con ictus acuto, o con qualunque sospetto, si esegue lo screening della deglutizione prima della prima somministrazione orale. E' una delle risposte piu' sicure che si possano dare in una prova pratica."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo screening infermieristico piu' diffuso e' il test dell'acqua, in genere a volumi crescenti, osservando tosse, voce umida e desaturazione. Si parte da un cucchiaino, non da un bicchiere."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un test positivo o dubbio comporta sospensione dell'alimentazione orale, segnalazione al medico e attivazione della valutazione logopedica, garantendo idratazione e terapia per altra via."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'approfondimento strumentale, FEES o videofluoroscopia, e' specialistico. E la valutazione va ripetuta, perche' la disfagia puo' migliorare: nessuno va lasciato a dieta modificata piu' del necessario."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le consistenze, e qui c'e' un'inversione controintuitiva. Nella disfagia orofaringea i liquidi fluidi sono i piu' pericolosi, non i solidi, perche' scorrono rapidamente e sfuggono al controllo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo si addensano. I solidi si modificano secondo indicazione: tritati, frullati, omogeneizzati, a seconda del livello prescritto. La consistenza e' una prescrizione, non un gusto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E vanno evitate le doppie consistenze: la minestrina con la pastina, i biscotti nel latte. Sono le piu' insidiose, perche' il liquido corre mentre il solido resta indietro."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le strategie. Seduto a novanta gradi, capo leggermente flesso in avanti, il chin tuck, mai reclinato all'indietro. Ambiente silenzioso, niente distrazioni, non parlare mentre la persona ha il boccone in bocca."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Boccone piccolo, deglutire due volte, verificare che la bocca sia vuota prima del boccone successivo. Il ritmo lo da' chi mangia, non chi imbocca."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo il pasto: seduto almeno trenta minuti, e igiene del cavo orale. Due gesti che sembrano di contorno e sono invece la parte che previene la polmonite."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il collegamento che, detto all'orale, mostra comprensione reale. L'igiene del cavo orale nel disfagico non e' comfort: e' prevenzione della polmonite, e va fatta dopo ogni pasto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I residui alimentari colonizzati vengono inalati durante il sonno. E' lo stesso meccanismo della VAP che abbiamo visto nella lezione tre punto uno. Due lezioni diverse, una sola fisiopatologia."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due avvertenze pratiche. I farmaci: verificare se possono essere frantumati o aperti. Molte forme a rilascio modificato e gastroresistenti non possono, come dice la Raccomandazione numero diciannove."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non si puo', si chiede una formulazione alternativa, non si tritura lo stesso. E la tazza con beccuccio: sembra un aiuto, ma induce iperestensione del capo e aumenta il rischio. Nella disfagia va evitata."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiudo con l'anziano che non mangia. Prima di dire che e' inappetente, escludi: la bocca, con lesioni, candidosi, protesi incongrue; i farmaci, con nausea, gusto alterato, secchezza; il dolore non controllato."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La stipsi e il fecaloma; depressione e delirium; la disfagia; e l'organizzazione: orari incongrui, cibo freddo, nessuno che aiuti. Sette cause valgono piu' di un integratore. Prossima lezione: la nutrizione enterale."
+ }
+]
