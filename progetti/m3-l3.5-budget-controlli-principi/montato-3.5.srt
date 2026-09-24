@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,670
+Gennaio, un reparto di medicina. Il primario riceve un documento: quanti ricoveri, quanto personale, quanti farmaci, quanta spesa per l'anno. Non e' una circolare qualunque: e' il budget del suo reparto.
+
+2
+00:00:14,670 --> 00:00:24,230
+Da dove arriva quel documento? E chi controlla, a fine anno, se il reparto ha fatto quello che doveva? Lo dice la legge 55, con la metodica di budget e il controllo di gestione.
+
+3
+00:00:24,230 --> 00:00:30,030
+Il budget non e' un taglio. E' un patto: obiettivi e risorse, scritti prima.
+
+4
+00:00:30,030 --> 00:00:40,090
+Quattro passaggi. La metodica di budget. La contabilita' analitica e il controllo di gestione. Il controllo della Regione. E i tre principi guida del modello veneto, per chiudere il modulo.
+
+5
+00:00:40,090 --> 00:00:49,490
+La metodica di budget e' disciplinata dagli articoli dal tredici al diciannove della legge 55. E' uno strumento di pianificazione e di controllo economico-finanziario.
+
+6
+00:00:49,490 --> 00:00:58,050
+Serve a programmare gli obiettivi, a determinare le attivita' da realizzare, i fattori produttivi da usare, le risorse finanziarie necessarie e gli investimenti.
+
+7
+00:00:58,050 --> 00:01:07,770
+E serve a verificare i risultati ottenuti rispetto agli obiettivi fissati. Prima si programma, poi si misura. E' lo stesso strumento con cui si costruisce il bilancio economico preventivo.
+
+8
+00:01:07,770 --> 00:01:15,940
+Si sviluppa su quattro livelli. Si parte dal documento di direttive: indica obiettivi, criteri, vincoli e parametri per formulare il budget.
+
+9
+00:01:15,940 --> 00:01:24,140
+La dispensa lo definisce lo strumento di raccordo fra la programmazione strategica, quella della direzione, e la programmazione operativa, quella dei reparti.
+
+10
+00:01:24,140 --> 00:01:32,330
+Poi il budget generale, che riguarda l'intera azienda. Si articola in tre: budget economico, budget finanziario e budget patrimoniale.
+
+11
+00:01:32,330 --> 00:01:41,310
+Poi i budget delle strutture, formulati per le strutture fondamentali dell'azienda. E infine i budget di centro di responsabilita', che riguardano le unita' operative.
+
+12
+00:01:41,310 --> 00:01:51,520
+Dall'alto verso il basso: direttive, budget generale, budget delle strutture, budget di centro di responsabilita'. Ogni livello scende di un gradino, fino al singolo reparto.
+
+13
+00:01:51,520 --> 00:02:01,440
+Torna al primario di medicina. Il suo budget e' l'ultimo gradino: obiettivi di attivita' e risorse assegnate, concordati con la direzione. Li' la programmazione diventa lavoro quotidiano.
+
+14
+00:02:01,440 --> 00:02:08,870
+Attenzione a un errore comune: il budget generale non e' solo economico. Ha tre facce: economica, finanziaria e patrimoniale.
+
+15
+00:02:08,870 --> 00:02:13,590
+Dalle direttive al reparto: quattro gradini, un solo filo.
+
+16
+00:02:13,590 --> 00:02:21,960
+Per sapere se il budget e' rispettato servono i numeri giusti. La contabilita' generale da' il quadro dell'azienda intera. Ma non dice quanto costa un singolo reparto.
+
+17
+00:02:21,960 --> 00:02:30,570
+Per questo c'e' la contabilita' analitica, all'articolo venticinque. Classifica, localizza e imputa i costi, secondo le caratteristiche dei processi produttivi.
+
+18
+00:02:30,570 --> 00:02:42,800
+Detto semplice: dice dove si spende e per che cosa. Rileva tre oggetti: i centri di responsabilita', le aree produttive, semplici o complesse, e i beni, servizi e prestazioni per gli utenti.
+
+19
+00:02:42,800 --> 00:02:50,700
+Il centro di responsabilita' e' un'unita' operativa a cui si assegnano risorse, per svolgere determinate attivita' e ottenere determinati risultati.
+
+20
+00:02:50,700 --> 00:03:00,830
+Per essere un centro di responsabilita' servono tre caratteristiche: attivita' omogenee, risorse impiegate significative, e un responsabile. Senza un responsabile, non c'e' centro.
+
+21
+00:03:00,830 --> 00:03:09,900
+Poi il controllo di gestione. Lo abbiamo incontrato nella lezione sugli organi: l'articolo venti della legge 56 lo mette alle dirette dipendenze del direttore generale.
+
+22
+00:03:09,900 --> 00:03:18,320
+Il suo scopo: assicurare efficacia ed efficienza ai processi di acquisizione e di impiego delle risorse. Usa la contabilita' generale e quella analitica.
+
+23
+00:03:18,320 --> 00:03:26,000
+E analizza gli scostamenti fra il budget e i dati a consuntivo. Quanto si era previsto, quanto si e' davvero speso, e perche' c'e' una differenza.
+
+24
+00:03:26,000 --> 00:03:33,020
+I risultati viaggiano con il reporting, il rapporto di gestione. E' lo strumento di comunicazione della programmazione e del controllo.
+
+25
+00:03:33,020 --> 00:03:42,500
+I report si preparano in base a chi li legge: il direttore generale, i responsabili che usano le risorse, gli altri dirigenti. Servono a confrontare obiettivi e risultati reali.
+
+26
+00:03:42,500 --> 00:03:49,680
+E se i conti vanno fuori strada? In caso di squilibrio economico e finanziario, il direttore generale puo' rivedere il budget durante l'anno.
+
+27
+00:03:49,680 --> 00:03:58,540
+Un esempio: a giugno il report mostra che la spesa per i farmaci di un reparto corre molto sopra il previsto. Si cerca il perche'. E se serve, si corregge il budget.
+
+28
+00:03:58,540 --> 00:04:04,010
+Misurare, confrontare, correggere. Il budget vive tutto l'anno.
+
+29
+00:04:04,010 --> 00:04:10,710
+Resta un livello di controllo, sopra le aziende: quello della Regione. La legge 55 le affida tre strumenti.
+
+30
+00:04:10,710 --> 00:04:20,760
+Il primo e' il visto di congruita'. La Regione lo appone al piano generale, al bilancio pluriennale di previsione, al bilancio economico preventivo e alla proposta di copertura della perdita.
+
+31
+00:04:20,760 --> 00:04:27,260
+Il secondo e' l'attivita' ispettiva e di vigilanza: la Regione puo' verificare direttamente come lavorano le aziende.
+
+32
+00:04:27,260 --> 00:04:37,040
+Il terzo e' il piu' forte. Se il direttore generale non adotta gli atti dovuti, come il piano generale o i bilanci, la Regione nomina un commissario che li adotta al suo posto.
+
+33
+00:04:37,040 --> 00:04:47,190
+Occhio all'elenco del visto di congruita': piano generale, bilancio pluriennale, bilancio economico preventivo e proposta di copertura della perdita. Quattro atti, da ricordare insieme.
+
+34
+00:04:47,190 --> 00:04:52,420
+L'azienda gestisce. La Regione vigila, e se serve interviene.
+
+35
+00:04:52,420 --> 00:05:00,360
+Chiudiamo il modulo con i tre principi guida del modello veneto. Li abbiamo annunciati nella prima lezione: integrazione, sussidiarieta', prossimita'.
+
+36
+00:05:00,360 --> 00:05:08,720
+Il primo e' l'integrazione socio-sanitaria. Sanita' e sociale nello stesso sistema, perche' i bisogni delle persone non si dividono per competenze.
+
+37
+00:05:08,720 --> 00:05:19,410
+L'integrazione lavora su tre piani. Istituzionale, con la delega dei Comuni alle ULSS. Gestionale, nel distretto. Professionale, con sanitario e sociale nello stesso percorso.
+
+38
+00:05:19,410 --> 00:05:29,830
+Il secondo e' la sussidiarieta'. In verticale: le decisioni stanno al livello piu' vicino ai cittadini, e salgono solo quando serve. Per questo i Comuni siedono nella Conferenza dei sindaci.
+
+39
+00:05:29,830 --> 00:05:41,020
+In orizzontale: il pubblico valorizza le famiglie, il volontariato, la cooperazione, il terzo settore. Il piano socio-sanitario li indica come una forza che ha fatto tenere il modello veneto.
+
+40
+00:05:41,020 --> 00:05:50,670
+Il terzo e' la prossimita'. Il piano socio-sanitario lo dice cosi': cure di media e bassa complessita' vicino al cittadino, alta complessita' centralizzata negli hub.
+
+41
+00:05:50,670 --> 00:05:58,670
+La prossimita' e' il distretto, l'assistenza domiciliare, la casa come primo luogo di cura. L'ospedale resta il luogo della fase acuta.
+
+42
+00:05:58,670 --> 00:06:07,420
+I tre principi si tengono insieme. L'integrazione dice che cosa unire, la sussidiarieta' chi decide, la prossimita' dove portare i servizi.
+
+43
+00:06:07,420 --> 00:06:12,020
+Integrare, decidere vicino, curare vicino.
+
+44
+00:06:12,020 --> 00:06:23,090
+Le tre cose che ti chiederanno. La prima: la metodica di budget ha quattro livelli. Documento di direttive, budget generale, budget delle strutture e budget di centro di responsabilita'.
+
+45
+00:06:23,090 --> 00:06:34,230
+La seconda: un centro di responsabilita' richiede attivita' omogenee, risorse significative e un responsabile. Il controllo di gestione analizza gli scostamenti fra budget e consuntivo.
+
+46
+00:06:34,230 --> 00:06:43,060
+La terza: la Regione controlla con il visto di congruita', con l'ispezione e la vigilanza, e con il commissario se il direttore generale non adotta gli atti.
+
+47
+00:06:43,060 --> 00:06:50,460
+L'ultimo distrattore: il budget non lo rivede la Regione. In caso di squilibrio economico e finanziario, lo rivede il direttore generale.
+
+48
+00:06:50,460 --> 00:07:02,400
+In sintesi: si programma, si misura, si corregge, dentro un sistema che integra e sta vicino alle persone. Nel prossimo modulo: l'organizzazione aziendale, e l'Azienda Ospedale Universita' di Padova.
