@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Mattina, un reparto di Padova. L'infermiere fa il giro letti. Accanto a lui c'e' uno studente del corso di laurea. In fondo al corridoio un medico raccoglie i dati per uno studio clinico."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre persone, tre lavori diversi, nello stesso reparto e nello stesso momento. E' la normalita' di un'azienda ospedaliero-universitaria. E per chi lavora a Padova, e' la propria azienda."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Curare, insegnare, scoprire: nello stesso luogo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Le tre missioni. Il modello dell'azienda ospedaliero-universitaria e i suoi organi. L'Azienda Ospedale Universita' di Padova. E che cosa cambia per chi ci lavora."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'azienda ospedaliera comune ha una missione: l'assistenza. Un'azienda ospedaliero-universitaria ne ha tre, legate fra loro: assistenza, didattica e ricerca."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza e' la cura dei pazienti: ricoveri, interventi, ambulatori, emergenza. E' la missione che la unisce a tutto il servizio sanitario regionale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La didattica e' la formazione: studenti di medicina, specializzandi, e i corsi di laurea delle professioni sanitarie, come infermieristica, fisioterapia, tecniche di laboratorio."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ricerca e' la produzione di conoscenza: studi clinici, ricerca biomedica e traslazionale, cioe' il passaggio dalle scoperte di laboratorio al letto del paziente."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: un nuovo protocollo per lo scompenso cardiaco nasce da uno studio, entra nella pratica del reparto e viene insegnato agli studenti. Lo stesso sapere attraversa tutte e tre le missioni."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre missioni si alimentano a vicenda. La ricerca migliora le cure. Le cure sono il luogo dove si impara. E chi impara oggi, domani cura e fa ricerca."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'integrazione non e' una formula. Senza assistenza la didattica sarebbe teoria; senza ricerca l'assistenza resterebbe ferma; senza didattica nessuno prenderebbe il testimone."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tre missioni, un solo ospedale: e' questo che rende Padova diversa."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello nasce dal decreto legislativo 517 del 1999, che disciplina i rapporti fra il servizio sanitario nazionale e le universita'. Supera i modelli diversi che esistevano prima."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole del rapporto sono fissate in un protocollo d'intesa fra la Regione e l'Universita'. Dice come la scuola di medicina contribuisce all'assistenza e come si organizza la collaborazione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il protocollo non e' un documento fatto una volta per sempre: si rinnova nel tempo, e da esso discendono gli atti attuativi che Regione e Universita' firmano insieme."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli organi dell'azienda ospedaliero-universitaria sono tre: il direttore generale, il collegio sindacale e l'organo di indirizzo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale e' nominato dalla Regione d'intesa con il Rettore dell'Universita'. E' il segno piu' visibile del governo condiviso."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organo di indirizzo e' tipico di questo modello. Propone iniziative per tenere coerente la programmazione dell'assistenza con quella della didattica e della ricerca."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ne verifica l'attuazione. Ha al massimo cinque componenti, e la sua composizione e' fissata dal protocollo d'intesa. Ne fa parte il vertice della scuola di medicina."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il luogo dove l'integrazione si fa davvero sono i dipartimenti ad attivita' integrata, detti DAI. Li' assistenza, didattica e ricerca convivono nelle stesse unita' operative."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei DAI lavorano insieme professionisti del servizio sanitario e personale universitario che svolge anche attivita' assistenziale. Stesso reparto, rapporti di lavoro diversi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a un distrattore: nell'azienda ospedaliero-universitaria il direttore generale non lo sceglie l'Universita' da sola, e nemmeno la Regione da sola. Serve l'intesa con il Rettore."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "E ancora: l'organo di indirizzo non gestisce l'azienda. Indirizza e verifica la coerenza fra le missioni. La gestione resta al direttore generale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Due istituzioni, un governo condiviso: Regione e Universita' insieme."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Veniamo a Padova. Fino al 2019 era l'Azienda Ospedaliera di Padova, gia' legata all'Universita'. Nel 2019 un nuovo accordo con l'Ateneo ne cambia e ne allarga la natura."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nasce cosi' la denominazione Azienda Ospedale Universita' Padova. Il nome dice la sostanza: un'unica azienda dove l'ospedale e l'universita' lavorano insieme."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nello stesso anno l'Azienda adotta in via definitiva il proprio atto aziendale, con la delibera 539 del 16 maggio 2019. E' il documento che ne fissa l'organizzazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piano socio-sanitario regionale 2019-2023 la individua come hub di eccellenza regionale. E' il vertice della rete ospedaliera veneta che abbiamo visto nel modulo due."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qualche numero, dal sito dell'Azienda. I posti letto previsti dalla programmazione regionale sono millesettecentoquaranta: una delle strutture ospedaliere piu' grandi d'Italia."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'area ospedaliera e' organizzata in dieci dipartimenti: nove strutturali e uno funzionale. A questi si aggiunge un dipartimento amministrativo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La funzione di hub vuol dire casi complessi da tutto il Veneto e oltre: trapianti, alta specialita', emergenza di secondo livello. E, insieme, la formazione di migliaia di studenti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Essere hub vuol dire anche responsabilita' verso gli altri ospedali: consulenze, trasferimenti, reti cliniche che collegano Padova agli ospedali spoke del territorio."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio: Padova e Verona sono le due aziende ospedaliere universitarie del Veneto. Non sono ULSS: non hanno distretti e non coprono la popolazione di un territorio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un hub di eccellenza che cura, forma e fa ricerca."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa cambia per chi lavora nel comparto? Prima di tutto la didattica entra nel lavoro quotidiano: gli studenti delle professioni sanitarie fanno tirocinio nei reparti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi li segue in reparto svolge una funzione di tutoraggio: insegna sul campo, valuta, accompagna. E' un pezzo di lavoro che in un ospedale non universitario pesa molto meno."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo la dispensa, nelle aziende integrate la titolarita' dei corsi puo' essere affidata ai dirigenti delle strutture dove si svolge la formazione, cioe' in sede ospedaliera."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la ricerca: studi clinici, protocolli sperimentali, raccolta dei dati. Anche l'infermiere, il tecnico, l'ostetrica ne fanno parte, con procedure precise."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il lavoro in equipe con personale universitario. Nello stesso reparto possono esserci dipendenti dell'Azienda e docenti dell'Universita' che fanno assistenza. Regole diverse, obiettivi comuni."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine la complessita'. Un hub riceve i casi piu' difficili: tecnologie avanzate, percorsi di alta specialita', ritmi intensi. Servono competenze aggiornate e un'organizzazione solida."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi la formazione continua: aggiornamento obbligatorio, corsi interni, crediti ECM. In un'azienda universitaria le occasioni sono molte, e contano anche per la crescita professionale."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' per questo che, nel resto del modulo, guarderemo all'atto aziendale, ai dipartimenti e al governo clinico con gli occhi di chi lavora in un'azienda ospedaliero-universitaria."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: le tre missioni dell'azienda ospedaliero-universitaria sono assistenza, didattica e ricerca, integrate fra loro."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: gli organi, secondo il decreto 517 del 1999, sono il direttore generale, nominato d'intesa con il Rettore, il collegio sindacale e l'organo di indirizzo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: l'integrazione si realizza nei dipartimenti ad attivita' integrata. E le regole del rapporto fra Regione e Universita' stanno nel protocollo d'intesa."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: l'organo di indirizzo non e' un organo di controllo contabile. Quello e' il collegio sindacale. L'organo di indirizzo tiene coerenti le missioni."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un'azienda con tre missioni e due istituzioni che la governano insieme. Nella prossima lezione: l'atto aziendale e la direzione strategica."
+ }
+]
