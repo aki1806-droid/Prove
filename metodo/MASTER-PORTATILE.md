@@ -467,6 +467,33 @@ nome che non è fra le icone a 24 cade su `illustrazione()`, che `layout.mjs`
 collega all'avvio (`collegaIllustrazioni`). Gli ausili — telo, sollevatore,
 disco, deambulatore, archetto, bastone — sono nati così.
 
+Dalla 3.3 alla 3.6 se ne aggiungono altri sei, sempre con lo stesso schema:
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `fascia` | una scala a segmenti con le soglie scritte; `marca` per una soglia in più; `uguali:true` per segmenti di pari larghezza quando i valori schiaccerebbero le classi | il BMI (3.3); diuresi, sodio, potassio, calcio (3.5) |
+| `consistenze` | tre bicchieri che versano in una gola: le gocce corrono lungo un `offset-path`, il fluido in fretta, l'addensato piano, la doppia consistenza si separa | i liquidi nella disfagia (3.3) |
+| `vie` | il profilo con naso, esofago, stomaco e digiuno; le sonde si disegnano una per volta in accento | SNG, naso-digiunale, PEG, PEJ (3.4) |
+| `bilancio` | il serbatoio delle 24 ore, con le entrate che entrano da sinistra e le uscite che escono a destra | il bilancio idrico (3.5) |
+| `distribuzione` | la sacca sopra i due compartimenti: isotonica, ipotonica, ipertonica riempiono in modo diverso | le soluzioni infusionali (3.5) |
+| `curva` con `sale:true` | la stessa curva, ma che sale soltanto | il rischio di CAUTI per giorno di permanenza (3.6) |
+
+E due cose imparate sul copione, non sulla grafica:
+
+- **i decimali detti a parole.** Il copione dice «uno virgola due» e «diciotto
+  e mezzo», il trascrittore scrive «1,2» e «18,5». Tolta la punteggiatura,
+  «1,2» diventava «1 2» e una regola già esistente lo leggeva come il rimando
+  alla lezione 1.2: la verifica segnalava buchi che non c'erano.
+  `verifica-testo.py` ora salva la virgola decimale prima di togliere la
+  punteggiatura e fa convergere «uno virgola due», «diciotto e mezzo»,
+  «ventiquattro e nove» e «24,9» su una sola parola;
+- **una deroga si dichiara, non si nasconde.** In 3.4 la voce non ha fatto
+  pausa dove il copione staccava (s02/s03), e il primo blocco è passato a 231
+  caratteri seguendo la voce. `costruisci.py` ha ora un dizionario `DEROGHE`:
+  un blocco oltre i 225 passa il controllo solo se è lì, con il motivo
+  scritto. Se le deroghe diventassero frequenti, il segnale sarebbe un altro:
+  il copione chiude i blocchi con un'anafora che invita a proseguire.
+
 Tre cose imparate facendoli:
 
 - **una classe non può chiamarsi come il contenitore della slide.** La mappa
@@ -568,7 +595,7 @@ quello che non ho potuto giudicare io»**. In quella sezione va anche quello che
 
 Un corso fatto di sole parole in pagina non è un video: è una dispensa letta ad
 alta voce. Le figure stanno in `grafica.mjs` e `figure.mjs` e sono un
-**vocabolario chiuso** — trenta tipi, le icone e quarantasette illustrazioni
+**vocabolario chiuso** — trentasei tipi, le icone e sessanta illustrazioni
 — non un disegno diverso per ogni slide.
 
 | Famiglia | Tipi | Quando |
@@ -584,6 +611,7 @@ alta voce. Le figure stanno in `grafica.mjs` e `figure.mjs` e sono un
 | clinica | `corpo` `mappa` `vap` | il corpo, la stanza, un meccanismo che va **visto** |
 | sequenze animate | `percorso` `frequenze` `bivio` | tappe che si disegnano, ripetizioni nelle 24 ore, una scelta a due |
 | postura e meccanismi | `posizioni` `apparati` `curva` `forze` `triade` | il letto di lato, gli organi, una curva, tre forze che muovono, un triangolo |
+| scale e flussi | `fascia` `consistenze` `vie` `bilancio` `distribuzione` | una scala a segmenti, tre bicchieri, quattro sonde, il serbatoio delle 24 ore, i compartimenti |
 
 Circa **trenta scene su cinquanta** portano una figura: venti della prima
 generazione e una decina di `figura`, `cifre` e `raggiera`, che prendono il
@@ -750,7 +778,7 @@ riassume.
 | `slide/layout.mjs` | 355 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 566 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/figure.mjs` | 440 | 24 illustrazioni che si disegnano, i 6 tipi della seconda generazione |
-| `slide/clinica.mjs` | 745 | 23 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, gli 11 corpi della terza generazione |
+| `slide/clinica.mjs` | 1.050 | 40 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 16 corpi della terza generazione |
 | `slide/cards.mjs` | 52 | le 50 slide in PNG |
 | `slide/clips.mjs` | 49 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
