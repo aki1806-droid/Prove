@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:14,350
+Una graduatoria interna ti vede qualche posizione sotto un collega. Vuoi capire come sono stati attribuiti i punteggi. Puoi vedere le carte? La legge 241 dice di si', con regole precise.
+
+2
+00:00:14,350 --> 00:00:22,100
+E' il diritto di accesso ai documenti amministrativi. Serve a difendere i propri interessi, ma anche a rendere l'amministrazione piu' imparziale e trasparente.
+
+3
+00:00:22,100 --> 00:00:26,920
+Le carte dell'amministrazione non sono segrete per chi ha un interesse.
+
+4
+00:00:26,920 --> 00:00:36,030
+Quattro passaggi. Chi puo' accedere, e a quali documenti. I limiti all'accesso. Come si presenta la richiesta. E che cosa fare se l'accesso viene negato.
+
+5
+00:00:36,030 --> 00:00:44,440
+L'articolo 22 definisce il diritto di accesso: il diritto degli interessati di prendere visione dei documenti amministrativi e di estrarne copia.
+
+6
+00:00:44,440 --> 00:00:54,410
+Chi sono gli interessati? Tutti i soggetti privati, compresi i portatori di interessi pubblici o diffusi, che hanno un interesse diretto, concreto e attuale, collegato al documento richiesto.
+
+7
+00:00:54,410 --> 00:01:05,870
+Diretto, cioe' personale. Concreto, cioe' legato a una situazione reale e non ipotetica. Attuale, cioe' presente al momento della richiesta. E deve corrispondere a una situazione giuridicamente tutelata.
+
+8
+00:01:05,870 --> 00:01:16,430
+Poi ci sono i controinteressati: le persone, individuate o facilmente individuabili, che dall'accesso vedrebbero compromessa la propria riservatezza. Per esempio, il collega di cui chiedi i titoli.
+
+9
+00:01:16,430 --> 00:01:27,590
+Il documento amministrativo e' ogni rappresentazione, grafica, elettronica o di altro tipo, del contenuto di atti detenuti da una pubblica amministrazione, anche interni o non legati a un procedimento.
+
+10
+00:01:27,590 --> 00:01:36,730
+Si accede ai documenti, non alle semplici informazioni. L'amministrazione non e' tenuta a elaborare dati per rispondere a una richiesta: si chiedono documenti che esistono gia'.
+
+11
+00:01:36,730 --> 00:01:47,370
+L'accesso si esercita verso le pubbliche amministrazioni, gli enti pubblici e i gestori di pubblici servizi. Quindi anche verso l'azienda sanitaria in cui lavori, finche' deve conservare quei documenti.
+
+12
+00:01:47,370 --> 00:01:55,820
+Occhio a un distrattore: l'accesso documentale non spetta a chiunque. Serve un interesse diretto, concreto e attuale, collegato al documento.
+
+13
+00:01:55,820 --> 00:02:00,420
+Un interesse vero, un documento che esiste.
+
+14
+00:02:00,420 --> 00:02:07,060
+La regola e' che tutti i documenti amministrativi sono accessibili. Le eccezioni sono quelle dell'articolo 24.
+
+15
+00:02:07,060 --> 00:02:17,750
+L'accesso e' escluso per il segreto di Stato e gli altri segreti previsti dalla legge, nei procedimenti tributari e per gli atti normativi, amministrativi generali, di pianificazione e di programmazione.
+
+16
+00:02:17,750 --> 00:02:28,160
+E nei procedimenti selettivi e' escluso per i documenti con informazioni di carattere psicoattitudinale relative a terzi. Un esempio vicino a noi: le valutazioni psicoattitudinali di altri candidati.
+
+17
+00:02:28,160 --> 00:02:38,810
+Ogni amministrazione individua le categorie di documenti sottratti all'accesso e, per ciascuna, anche il periodo di tempo per cui restano riservati. Sono segreti solo nei limiti di quella esigenza.
+
+18
+00:02:38,810 --> 00:02:47,530
+Un regolamento puo' sottrarre all'accesso anche documenti sulla vita privata e la riservatezza delle persone, compresi gli interessi sanitari, professionali ed economici.
+
+19
+00:02:47,530 --> 00:02:57,260
+Ma c'e' un contrappeso decisivo: va comunque garantito l'accesso ai documenti la cui conoscenza e' necessaria per curare o difendere i propri interessi giuridici. E' l'accesso difensivo.
+
+20
+00:02:57,260 --> 00:03:06,570
+Per i dati sulla salute il limite e' piu' stretto: l'accesso e' consentito solo se l'interesse del richiedente e' di rango almeno pari a quello della persona a cui i dati si riferiscono.
+
+21
+00:03:06,570 --> 00:03:15,830
+Non sono ammesse richieste finalizzate a un controllo generalizzato sull'operato dell'amministrazione. E l'accesso non si puo' negare quando basta differirlo, cioe' rinviarlo nel tempo.
+
+22
+00:03:15,830 --> 00:03:25,580
+Attenzione: la presenza di controinteressati non blocca automaticamente l'accesso. L'amministrazione bilancia i diritti, e l'accesso difensivo ha un peso particolare.
+
+23
+00:03:25,580 --> 00:03:30,180
+La regola e' l'accesso: le esclusioni sono eccezioni.
+
+24
+00:03:30,180 --> 00:03:41,710
+La richiesta va motivata e rivolta all'amministrazione che ha formato il documento o che lo detiene stabilmente. Il regolamento sull'accesso e' il decreto del Presidente della Repubblica 184 del 2006.
+
+25
+00:03:41,710 --> 00:03:51,340
+Se non ci sono controinteressati, l'accesso puo' essere informale: anche a voce, all'ufficio competente, indicando il documento e l'interesse. La richiesta si accoglie subito, senza formalita'.
+
+26
+00:03:51,340 --> 00:04:01,630
+Un esempio: chiedi di vedere i verbali e le schede di valutazione della tua selezione interna. Ci sono altri candidati coinvolti, e i loro titoli li riguardano: si segue la procedura formale.
+
+27
+00:04:01,630 --> 00:04:11,170
+Se invece ci sono controinteressati, o dubbi sull'interesse o sull'identita' del richiedente, si segue la procedura formale, con una richiesta scritta di cui l'ufficio rilascia ricevuta.
+
+28
+00:04:11,170 --> 00:04:18,440
+I controinteressati ricevono copia della richiesta e hanno dieci giorni per presentare una motivata opposizione. Poi l'amministrazione decide.
+
+29
+00:04:18,440 --> 00:04:27,780
+Il procedimento si conclude in trenta giorni. Se la richiesta e' irregolare o incompleta, l'amministrazione lo comunica entro dieci giorni, e il termine riparte dalla richiesta corretta.
+
+30
+00:04:27,780 --> 00:04:38,190
+Se l'accesso e' accolto, l'atto indica l'ufficio e un periodo di almeno quindici giorni per vedere i documenti. L'esame e' gratuito; la copia costa solo il rimborso della riproduzione, salvo il bollo.
+
+31
+00:04:38,190 --> 00:04:45,220
+Il rifiuto, la limitazione e il differimento devono essere motivati. Il differimento, in particolare, deve indicare quanto dura.
+
+32
+00:04:45,220 --> 00:04:53,640
+Un distrattore frequente: la richiesta di accesso documentale non e' libera da motivazione. Va motivata, spiegando l'interesse collegato al documento.
+
+33
+00:04:53,640 --> 00:04:58,450
+Chiedere per iscritto, spiegare il perche', conservare la ricevuta.
+
+34
+00:04:58,450 --> 00:05:05,930
+Se passano trenta giorni senza risposta, la richiesta si intende respinta. E' un caso in cui la legge da' al silenzio il valore di un rigetto.
+
+35
+00:05:05,930 --> 00:05:14,540
+Contro il diniego, espresso o tacito, o contro il differimento si puo' ricorrere al tribunale amministrativo regionale, secondo il codice del processo amministrativo.
+
+36
+00:05:14,540 --> 00:05:23,380
+In alternativa si puo' chiedere un riesame: al difensore civico per gli atti di comuni, province e regioni; alla Commissione per l'accesso per gli atti delle amministrazioni dello Stato.
+
+37
+00:05:23,380 --> 00:05:33,720
+Il difensore civico o la Commissione si pronunciano entro trenta giorni. Se ritengono illegittimo il diniego, lo comunicano all'amministrazione, che ha trenta giorni per confermarlo con motivazione.
+
+38
+00:05:33,720 --> 00:05:42,460
+Se l'amministrazione non conferma entro quel termine, l'accesso e' consentito. E il termine per ricorrere al giudice decorre dal momento in cui ricevi l'esito del riesame.
+
+39
+00:05:42,460 --> 00:05:53,970
+Un ultimo confronto. Accanto all'accesso documentale c'e' l'accesso civico, previsto dal decreto trasparenza, il 33 del 2013: lo puo' chiedere chiunque, senza motivare, ma incontra altri limiti.
+
+40
+00:05:53,970 --> 00:06:04,570
+Attenzione a non confonderli: l'accesso documentale serve a tutelare un interesse personale e va motivato. L'accesso civico serve al controllo diffuso e non richiede motivazione.
+
+41
+00:06:04,570 --> 00:06:09,170
+Il silenzio vale no, ma la porta resta aperta.
+
+42
+00:06:09,170 --> 00:06:20,370
+Le tre cose che ti chiederanno. La prima: l'accesso spetta agli interessati, con un interesse diretto, concreto e attuale; i controinteressati sono chi vedrebbe compromessa la propria riservatezza.
+
+43
+00:06:20,370 --> 00:06:30,330
+La seconda: esclusioni dell'articolo 24, niente controllo generalizzato, differimento invece del diniego quando basta; l'accesso difensivo va comunque garantito.
+
+44
+00:06:30,330 --> 00:06:41,630
+La terza: richiesta motivata, informale se non ci sono controinteressati; dieci giorni per l'opposizione, trenta per concludere, silenzio che vale rigetto; ricorso al giudice o riesame.
+
+45
+00:06:41,630 --> 00:06:50,510
+L'ultimo distrattore: con l'accesso documentale l'amministrazione non deve creare documenti nuovi. Si accede a quelli che esistono e che deve ancora conservare.
+
+46
+00:06:50,510 --> 00:06:59,260
+In sintesi: un interesse vero, un documento esistente, una richiesta motivata, rimedi rapidi. Nel prossimo modulo: la trasparenza nella pubblica amministrazione.
