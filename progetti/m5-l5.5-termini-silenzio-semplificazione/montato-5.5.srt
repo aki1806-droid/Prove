@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:13,580
+Hai presentato una domanda. Passano i giorni, poi le settimane, e nessuno risponde. Che cosa succede? La risposta della legge e' precisa, e cambia a seconda del tipo di procedimento.
+
+2
+00:00:13,580 --> 00:00:23,450
+A volte il silenzio e' un inadempimento, contro cui puoi reagire. A volte vale come un si'. E a volte la legge ti permette di partire senza aspettare nessuna risposta.
+
+3
+00:00:23,450 --> 00:00:28,050
+Il tempo della pubblica amministrazione ha delle regole precise.
+
+4
+00:00:28,050 --> 00:00:40,680
+Quattro passaggi. I termini del procedimento. Che cosa si puo' fare quando l'amministrazione tace. Il silenzio assenso. E gli strumenti di semplificazione: autocertificazione, SCIA e conferenza di servizi.
+
+5
+00:00:40,680 --> 00:00:49,880
+L'articolo 2 fissa il dovere di concludere. Se il procedimento nasce da un'istanza, o deve essere avviato d'ufficio, l'amministrazione lo conclude con un provvedimento espresso.
+
+6
+00:00:49,880 --> 00:00:57,480
+Il termine generale e' di trenta giorni. Vale ogni volta che una legge o un atto dell'amministrazione non ne prevede uno diverso.
+
+7
+00:00:57,480 --> 00:01:09,370
+Le amministrazioni statali e gli enti pubblici nazionali possono fissare termini diversi, ma non oltre novanta giorni. Regioni ed enti del servizio sanitario regolano i propri termini nel rispetto delle garanzie della legge.
+
+8
+00:01:09,370 --> 00:01:21,010
+Termini oltre i novanta giorni sono ammessi solo per ragioni particolari, come la complessita' del procedimento, e comunque non possono superare i centottanta giorni. Fanno eccezione cittadinanza e immigrazione.
+
+9
+00:01:21,010 --> 00:01:28,270
+Il termine decorre dall'inizio del procedimento d'ufficio o dal ricevimento della domanda, se il procedimento e' a iniziativa di parte.
+
+10
+00:01:28,270 --> 00:01:38,220
+Si puo' sospendere una sola volta, e per non piu' di trenta giorni, per acquisire informazioni o certificazioni che l'amministrazione non ha e non puo' ottenere da un'altra amministrazione.
+
+11
+00:01:38,220 --> 00:01:48,940
+Un esempio: un'azienda sanitaria stabilisce che una certa domanda del personale si chiude in sessanta giorni. Se manca un documento di un altro ente, puo' sospendere il termine una volta sola.
+
+12
+00:01:48,940 --> 00:01:57,880
+Occhio a un distrattore: il termine di trenta giorni non si puo' sospendere piu' volte. La sospensione e' una sola, e per non piu' di trenta giorni.
+
+13
+00:01:57,880 --> 00:02:02,480
+Trenta giorni come regola, una sola sospensione.
+
+14
+00:02:02,480 --> 00:02:10,210
+Se il termine scade senza provvedimento, si parla di silenzio inadempimento. L'amministrazione e' in ritardo, e il privato ha piu' strade.
+
+15
+00:02:10,210 --> 00:02:19,820
+La prima e' il potere sostitutivo. Ogni amministrazione individua una figura apicale, o un'unita' organizzativa, che interviene quando il responsabile non conclude in tempo.
+
+16
+00:02:19,820 --> 00:02:30,070
+Il nome del titolare del potere sostitutivo va pubblicato sul sito istituzionale, in modo ben visibile. Il privato puo' rivolgersi a lui, che conclude entro la meta' del termine originario.
+
+17
+00:02:30,070 --> 00:02:40,030
+Per esempio: se il termine era di sessanta giorni ed e' scaduto, il titolare del potere sostitutivo ha trenta giorni per concludere, direttamente o con un commissario.
+
+18
+00:02:40,030 --> 00:02:50,670
+La seconda strada e' il giudice amministrativo. Contro il silenzio si puo' ricorrere al tribunale amministrativo finche' dura l'inadempimento, e comunque non oltre un anno dalla scadenza del termine.
+
+19
+00:02:50,670 --> 00:03:02,160
+E c'e' il danno. Se il ritardo, doloso o colposo, causa un danno ingiusto, l'amministrazione lo risarcisce. In alcuni procedimenti a istanza di parte e' previsto anche un indennizzo per il solo ritardo.
+
+20
+00:03:02,160 --> 00:03:12,170
+Dal 2020, poi, alcuni atti di assenso adottati dopo la scadenza dei termini sono inefficaci. Il ritardo non resta senza conseguenze nemmeno per l'amministrazione.
+
+21
+00:03:12,170 --> 00:03:21,810
+Attenzione: il silenzio inadempimento non e' un rifiuto. E' un'omissione. Il procedimento resta aperto e l'amministrazione ha ancora l'obbligo di decidere.
+
+22
+00:03:21,810 --> 00:03:27,480
+Un sostituto, un giudice, un risarcimento: il ritardo ha un prezzo.
+
+23
+00:03:27,480 --> 00:03:36,470
+In certi casi, invece, il silenzio vale come accoglimento. E' il silenzio assenso, all'articolo 20. Riguarda i procedimenti a istanza di parte.
+
+24
+00:03:36,470 --> 00:03:46,970
+Se entro il termine l'amministrazione non comunica un diniego, e non indice una conferenza di servizi, il silenzio equivale all'accoglimento della domanda, senza bisogno di altre istanze o diffide.
+
+25
+00:03:46,970 --> 00:03:55,300
+Resta pero' il potere di intervenire in autotutela, cioe' di revocare o annullare l'atto formato con il silenzio, alle condizioni previste dalla legge.
+
+26
+00:03:55,300 --> 00:04:06,120
+Il silenzio assenso non vale in materie delicate: patrimonio culturale e paesaggistico, ambiente, difesa nazionale, pubblica sicurezza, immigrazione, asilo e cittadinanza.
+
+27
+00:04:06,120 --> 00:04:14,500
+E non vale, soprattutto per noi, per la salute e la pubblica incolumita'. Nelle materie sanitarie, di regola, serve un provvedimento espresso.
+
+28
+00:04:14,500 --> 00:04:25,760
+Non vale nemmeno quando il diritto europeo impone un provvedimento formale, o quando la legge qualifica il silenzio come rigetto. E dal 2021 il privato puo' chiedere un'attestazione che l'assenso si e' formato.
+
+29
+00:04:25,760 --> 00:04:34,640
+Esiste anche un silenzio assenso tra amministrazioni. Quando una deve ricevere l'assenso di un'altra, questo va dato entro trenta giorni, altrimenti si intende acquisito.
+
+30
+00:04:34,640 --> 00:04:41,450
+Ma per le amministrazioni che tutelano l'ambiente, il paesaggio, i beni culturali e la salute, il termine e' di novanta giorni.
+
+31
+00:04:41,450 --> 00:04:51,660
+Un distrattore frequente: il silenzio assenso non e' la regola generale. Vale solo nei procedimenti a istanza di parte e non nelle materie escluse, tra cui la salute.
+
+32
+00:04:51,660 --> 00:04:56,260
+Il silenzio vale si' solo dove la legge lo consente.
+
+33
+00:04:56,260 --> 00:05:05,310
+Primo strumento: l'acquisizione d'ufficio e l'autocertificazione. I documenti che un'amministrazione ha gia', o che un'altra detiene per legge, si acquisiscono d'ufficio.
+
+34
+00:05:05,310 --> 00:05:17,670
+Al cittadino si chiedono solo gli elementi per trovarli. E fatti, stati e qualita' si possono dichiarare con autocertificazione, secondo il testo unico sulla documentazione amministrativa, il 445 del 2000.
+
+35
+00:05:17,670 --> 00:05:27,720
+Secondo strumento: la segnalazione certificata di inizio attivita', la SCIA. Sostituisce autorizzazioni e licenze che dipendono solo dal possesso di requisiti fissati dalla legge.
+
+36
+00:05:27,720 --> 00:05:39,180
+L'attivita' puo' iniziare dalla data di presentazione. L'amministrazione ha sessanta giorni per controllare, trenta in edilizia, e se mancano i requisiti vieta la prosecuzione o chiede di mettersi in regola.
+
+37
+00:05:39,180 --> 00:05:45,160
+Chi dichiara il falso in una SCIA commette un reato. La semplificazione si regge sulla responsabilita' di chi dichiara.
+
+38
+00:05:45,160 --> 00:05:55,240
+Terzo strumento: la conferenza di servizi. Serve quando per decidere occorrono piu' pareri o assensi di amministrazioni diverse: invece di chiederli uno per uno, si esaminano insieme.
+
+39
+00:05:55,240 --> 00:06:06,050
+Puo' essere istruttoria, per esaminare insieme gli interessi coinvolti, o decisoria, quando servono piu' assensi. Si svolge di regola in forma semplificata, per via telematica, oppure in riunione.
+
+40
+00:06:06,050 --> 00:06:15,150
+Attenzione: la SCIA non e' un provvedimento dell'amministrazione e non e' un silenzio assenso. E' il privato che parte, e l'amministrazione controlla dopo.
+
+41
+00:06:15,150 --> 00:06:20,290
+Meno attese: chi ha i requisiti parte, i controlli arrivano dopo.
+
+42
+00:06:20,290 --> 00:06:32,100
+Le tre cose che ti chiederanno. La prima: il termine generale e' di trenta giorni, fino a novanta e in casi particolari fino a centottanta; si sospende una sola volta, per non piu' di trenta giorni.
+
+43
+00:06:32,100 --> 00:06:42,510
+La seconda: in caso di silenzio inadempimento c'e' il titolare del potere sostitutivo, che conclude nella meta' del termine, e il ricorso al giudice entro un anno dalla scadenza.
+
+44
+00:06:42,510 --> 00:06:54,260
+La terza: il silenzio assenso vale nei procedimenti a istanza di parte, ma non per la salute, l'ambiente e le altre materie escluse. Con la SCIA si parte subito e i controlli arrivano dopo.
+
+45
+00:06:54,260 --> 00:07:04,700
+L'ultimo distrattore: il silenzio assenso e il silenzio inadempimento sono opposti. Nel primo la domanda e' accolta, nel secondo l'amministrazione e' semplicemente in ritardo.
+
+46
+00:07:04,700 --> 00:07:15,020
+In sintesi: tempi certi, rimedi contro l'inerzia, silenzi con un significato preciso, strumenti per fare prima. Nell'ultima lezione del modulo: il diritto di accesso ai documenti.
