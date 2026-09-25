@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Una legge si capisce dalle prime righe. L'articolo 1 della 241 e' breve, ma dentro c'e' tutto: come deve comportarsi un'amministrazione, qualunque cosa stia decidendo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono i principi cardine. Ai quiz compaiono spesso come elenco da ricordare, ma servono soprattutto a leggere ogni altra regola della legge. Vediamoli uno per uno."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima dei singoli articoli, il modo di stare davanti al cittadino."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. L'articolo 1 e i suoi criteri. Trasparenza e partecipazione. Tempi certi e responsabilita'. Semplificazione, collaborazione e buona fede."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto di partenza e' la legalita': l'attivita' amministrativa persegue i fini determinati dalla legge. L'amministrazione non sceglie da sola i propri scopi, li riceve dalla legge."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi i criteri. L'attivita' e' retta da criteri di economicita', di efficacia, di imparzialita', di pubblicita' e di trasparenza. Cinque parole da sapere a memoria, nell'ordine della legge."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Economicita' vuol dire usare le risorse senza sprechi. Efficacia vuol dire raggiungere davvero il risultato. Non basta spendere poco: bisogna anche arrivare all'obiettivo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Imparzialita' vuol dire trattare tutti allo stesso modo, senza favoritismi. Pubblicita' e trasparenza vogliono dire che l'azione dell'amministrazione deve essere conoscibile e comprensibile."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio di imparzialita' in azienda: una graduatoria per un incarico segue criteri fissati prima, uguali per tutti, e non il nome di chi presenta la domanda."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A questi si aggiungono i principi dell'ordinamento europeo. Da li' vengono, tra gli altri, la proporzionalita' e il legittimo affidamento."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proporzionalita' e ragionevolezza non sono scritte come parole nell'articolo 1, ma sono applicate da tempo dai giudici: la misura scelta deve essere adeguata e non piu' pesante del necessario."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il comma 1-bis aggiunge una regola importante: quando adotta atti non autoritativi, l'amministrazione agisce secondo il diritto privato, salvo che la legge disponga diversamente."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il comma 1-ter estende gli stessi criteri ai soggetti privati che svolgono attivita' amministrative, con un livello di garanzia non inferiore a quello pubblico."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio a un distrattore: tra i criteri dell'articolo 1 non c'e' la produttivita' e non c'e' il profitto. Ci sono economicita', efficacia, imparzialita', pubblicita' e trasparenza."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Fini fissati dalla legge, cinque criteri per raggiungerli."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trasparenza e' il principio che ha cambiato di piu' il rapporto con il cittadino. Vuol dire che le decisioni devono essere comprensibili e conoscibili, per consentire un controllo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella 241 la trasparenza prende corpo soprattutto nel diritto di accesso ai documenti e nell'obbligo di motivare. Piu' avanti, il decreto 33 del 2013 la estendera' con la pubblicazione e l'accesso civico."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trasparenza protegge anche chi lavora nell'amministrazione: un procedimento chiaro e documentato mette al riparo da sospetti e da pressioni."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La partecipazione e' il secondo pilastro. Chi e' toccato da una decisione deve poter intervenire mentre si forma, non soltanto subirla alla fine."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo la legge prevede la comunicazione di avvio del procedimento, il diritto di vedere gli atti e di presentare memorie scritte e documenti, che l'amministrazione deve valutare."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partecipare conviene a tutti. Il cittadino difende le sue ragioni, e l'amministrazione decide con informazioni migliori, riducendo errori e contenziosi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio in sanita': prima di decidere su una richiesta di un utente o di un dipendente, l'azienda ascolta le sue ragioni e le pesa nella decisione finale."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: partecipare non vuol dire decidere insieme. La decisione resta all'amministrazione, che pero' deve tenere conto delle memorie pertinenti e spiegare perche' non le accoglie."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Vedere come si decide, e poter dire la propria prima della decisione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo principio e' la certezza dei tempi. Ogni procedimento deve concludersi con un provvedimento espresso entro un termine stabilito. Lo vedremo nel dettaglio nella lezione cinque punto cinque."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tempi certi vogliono dire poter programmare: un'impresa sa quando potra' partire, un cittadino sa quando avra' una risposta, un dipendente sa quando sara' deciso il suo caso."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto principio e' la responsabilizzazione. Per ogni procedimento c'e' un responsabile, e il ritardo non e' piu' di nessuno: pesa sulla valutazione della performance del dirigente e del funzionario."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ritardo puo' portare anche a responsabilita' disciplinare e amministrativo contabile. E se causa un danno ingiusto al cittadino, l'amministrazione deve risarcirlo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La responsabilita' ha anche un rovescio: chi guida un procedimento deve poter lavorare, con compiti chiari e termini fissati in anticipo per ogni tipo di pratica."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Responsabilizzare non vuol dire colpevolizzare. Vuol dire rendere visibile chi fa che cosa, cosi' che il lavoro fatto bene si veda e i ritardi abbiano un nome."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un distrattore frequente: il silenzio dell'amministrazione non e' mai una scelta libera e senza conseguenze. Anche quando la legge gli da' un valore, e' un'eccezione precisa, non la regola."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una data di scadenza e un nome: la fine dell'attesa senza risposta."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quinto principio e' la semplificazione. La regola base e' il divieto di aggravamento: l'amministrazione non puo' aggravare il procedimento, se non per straordinarie e motivate esigenze dell'istruttoria."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In pratica: niente passaggi inutili, niente documenti chiesti due volte. Se un dato e' gia' in possesso di un'amministrazione, lo si acquisisce d'ufficio invece di chiederlo al cittadino."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: per una domanda di mobilita' interna non si chiede al dipendente di allegare certificati che l'azienda conserva gia' nel suo fascicolo personale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da qui nascono gli strumenti che vedremo: l'autocertificazione, la segnalazione certificata di inizio attivita', il silenzio assenso, la conferenza di servizi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2020 arriva un principio nuovo, il comma 2-bis: i rapporti tra il cittadino e la pubblica amministrazione sono improntati ai principi della collaborazione e della buona fede."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vale in due direzioni. L'amministrazione non tende tranelli e non cambia le carte in tavola. E il cittadino dichiara il vero e collabora, senza usare le regole per ostacolare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Collegato c'e' l'uso della telematica: le amministrazioni sono chiamate a usare strumenti informatici e telematici, nei rapporti interni, con le altre amministrazioni e con i privati."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: semplificare non vuol dire rinunciare ai controlli. Autocertificazioni e segnalazioni si possono verificare, e chi dichiara il falso risponde anche penalmente."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Meno carte inutili, piu' fiducia reciproca, controlli dove servono."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: l'attivita' amministrativa persegue i fini della legge ed e' retta da economicita', efficacia, imparzialita', pubblicita' e trasparenza, oltre ai principi europei."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: il divieto di aggravamento. Il procedimento non si appesantisce se non per straordinarie e motivate esigenze dell'istruttoria."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: per gli atti non autoritativi si applica il diritto privato, e dal 2020 i rapporti con il cittadino sono improntati a collaborazione e buona fede."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: la trasparenza non e' nell'articolo 97 della Costituzione e non e' nata con il decreto 33. E' nell'articolo 1 della 241 dal 2005."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: legalita', criteri chiari, porte aperte, tempi certi, meno burocrazia. Nella prossima lezione: il responsabile del procedimento."
+ }
+]

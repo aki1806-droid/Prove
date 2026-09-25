@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Immagina di presentare una domanda a un ufficio pubblico, prima del 1990. Non sai chi la segue, non sai quanto ci vorra', non puoi vedere le carte. E se arriva un no, spesso non sai nemmeno perche'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi quella stessa domanda ha un responsabile con nome e cognome, un termine per la risposta, un diritto di partecipare e di vedere i documenti. In mezzo c'e' una legge: la 241 del 1990."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Da suddito che aspetta, a cittadino che ha dei diritti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Com'era l'amministrazione prima. Che cosa ha cambiato la legge del 1990. Dove si applica, anche nelle aziende sanitarie. E come e' cambiata negli anni."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima della 241 non esisteva una legge generale sul modo di procedere della pubblica amministrazione. Ogni ufficio seguiva le sue regole, spesso non scritte e poco conoscibili."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si parla di amministrazione autoreferenziale: un apparato che guardava soprattutto a se stesso, alle proprie procedure e ai propri tempi, piu' che al cittadino che aveva davanti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola era il segreto d'ufficio. I documenti restavano chiusi negli archivi e l'impiegato non poteva rivelarli: la conoscenza delle carte era l'eccezione, non il principio."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il cittadino, in questo schema, era piu' un destinatario che un interlocutore. Riceveva le decisioni, ma non partecipava alla loro formazione e spesso non ne conosceva le ragioni."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non c'era nemmeno un obbligo generale di rispondere entro un tempo certo. Una domanda poteva restare ferma a lungo, senza una data di scadenza a cui appellarsi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E anche chi lavorava negli uffici non aveva strumenti per rendere conto del proprio lavoro: senza tempi e senza responsabili, anche l'impiegato piu' scrupoloso restava invisibile."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione a non esagerare: anche prima del 1990 la Costituzione, all'articolo 97, chiedeva buon andamento e imparzialita'. Mancava pero' una legge che dicesse come realizzarli, passo dopo passo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un'amministrazione chiusa, che parlava a se stessa."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il 7 agosto 1990 arriva la legge numero 241: nuove norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi. Due parti, un solo obiettivo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo cambio: il procedimento deve concludersi con un provvedimento espresso, entro un termine. Il silenzio non e' piu' una risposta neutra: e' un ritardo di cui qualcuno risponde."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: per ogni procedimento c'e' un responsabile. Il cittadino sa a chi rivolgersi, e l'amministrazione sa chi deve portare avanti la pratica."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo: la partecipazione. Chi e' coinvolto riceve la comunicazione di avvio, puo' presentare memorie e documenti, e l'amministrazione ha l'obbligo di valutarli."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: chi chiede un'autorizzazione e rischia un no puo' ora dire la sua prima della decisione, portando documenti e argomenti che l'ufficio deve considerare."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto: l'obbligo di motivare. Ogni provvedimento deve spiegare i fatti e le ragioni giuridiche della decisione. Una decisione senza ragioni non e' piu' accettabile."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quinto: il diritto di accesso. La legge lo definisce principio generale dell'attivita' amministrativa, per favorire la partecipazione e assicurarne imparzialita' e trasparenza."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il segreto d'ufficio viene riscritto. Resta vietato dare informazioni a chi non ne ha diritto, ma fuori dai casi previsti dalle norme sull'accesso. Il segreto diventa un limite, non la regola."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Occhio a un distrattore: la 241 non ha abolito il segreto d'ufficio. Lo ha ridimensionato. Resta il dovere di riservatezza, dentro i confini fissati dalle norme sull'accesso."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tempi certi, un responsabile, il diritto di partecipare e di sapere."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove si applica la 241? Direttamente alle amministrazioni statali e agli enti pubblici nazionali, e alle societa' a capitale pubblico per le loro funzioni amministrative."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regioni e gli enti locali regolano la materia con proprie norme, ma nel rispetto delle garanzie della legge. Alcune regole, come il risarcimento del danno da ritardo, valgono per tutte le amministrazioni."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto chiave e' l'articolo 29. Alcuni obblighi sono livelli essenziali delle prestazioni, validi in tutta Italia: garantire la partecipazione, individuare un responsabile, concludere entro il termine, assicurare l'accesso."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora: la durata massima dei procedimenti, la segnalazione certificata di inizio attivita', il silenzio assenso e la conferenza di servizi. Anche questi sono livelli essenziali."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Regioni ed enti locali non possono scendere sotto queste garanzie. Possono pero' prevedere livelli ulteriori di tutela per i cittadini."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende sanitarie sono enti del servizio sanitario regionale, e sono pienamente dentro questo sistema. Ogni pratica che le riguarda, dall'istanza di un utente a un procedimento sul personale, segue queste regole."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio concreto: un dipendente chiede un trasferimento o una aspettativa. C'e' un ufficio responsabile, un termine per rispondere e, se la risposta e' negativa, una motivazione."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In pratica, ogni azienda sanitaria elenca i propri tipi di procedimento, con l'ufficio responsabile e il termine di conclusione, e rende pubbliche queste informazioni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Attenzione: la 241 non riguarda solo i cittadini esterni. Anche il dipendente pubblico, quando presenta un'istanza alla propria azienda, e' titolare delle stesse garanzie."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Garanzie minime uguali in tutta Italia, anche nelle aziende sanitarie."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La 241 non e' rimasta ferma al 1990. E' stata modificata molte volte, e chi studia per una prova deve conoscere le tappe principali."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2005 la legge 15 ha rafforzato i principi, aggiungendo tra l'altro la trasparenza nell'articolo 1 e il preavviso di rigetto, e ha disciplinato l'efficacia e l'invalidita' del provvedimento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2009 la legge 69 ha riscritto i termini del procedimento e ha introdotto il risarcimento del danno da ritardo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2012 la legge anticorruzione, la 190, ha aggiunto l'obbligo di astensione in caso di conflitto di interessi. Nello stesso anno sono arrivati i poteri sostitutivi contro l'inerzia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La riforma Madia del 2015 e i suoi decreti attuativi hanno riscritto la conferenza di servizi e rivisto la segnalazione certificata di inizio attivita'."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2020 il decreto semplificazioni ha scritto che i rapporti tra cittadino e amministrazione sono improntati ai principi della collaborazione e della buona fede."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo, quando studi, controlla sempre di avere il testo aggiornato. Molte dispense e molti quiz girano ancora con versioni vecchie della legge."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Un errore diffuso: pensare che la trasparenza sia scritta nell'articolo 97 della Costituzione. L'articolo 97 parla di buon andamento e imparzialita'. La trasparenza e' nell'articolo 1 della 241."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una legge che cresce con l'amministrazione, riforma dopo riforma."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: la legge 241 e' del 7 agosto 1990 e regola il procedimento amministrativo e il diritto di accesso ai documenti amministrativi."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: le sue novita'. Provvedimento espresso entro un termine, un responsabile del procedimento, la partecipazione, la motivazione e l'accesso come principio generale."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: per l'articolo 29 partecipazione, responsabile, termine e accesso sono livelli essenziali. Regioni ed enti possono dare piu' garanzie, non meno."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "L'ultimo distrattore: la 241 non ha eliminato il segreto d'ufficio. L'ha trasformato da regola generale a limite, dentro le norme sull'accesso."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dall'ufficio chiuso all'amministrazione che risponde, spiega e si lascia vedere. Nella prossima lezione: i principi cardine della legge."
+ }
+]

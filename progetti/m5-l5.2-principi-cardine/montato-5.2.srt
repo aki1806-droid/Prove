@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:12,770
+Una legge si capisce dalle prime righe. L'articolo 1 della 241 e' breve, ma dentro c'e' tutto: come deve comportarsi un'amministrazione, qualunque cosa stia decidendo.
+
+2
+00:00:12,770 --> 00:00:21,130
+Sono i principi cardine. Ai quiz compaiono spesso come elenco da ricordare, ma servono soprattutto a leggere ogni altra regola della legge. Vediamoli uno per uno.
+
+3
+00:00:21,130 --> 00:00:25,730
+Prima dei singoli articoli, il modo di stare davanti al cittadino.
+
+4
+00:00:25,730 --> 00:00:35,180
+Quattro passaggi. L'articolo 1 e i suoi criteri. Trasparenza e partecipazione. Tempi certi e responsabilita'. Semplificazione, collaborazione e buona fede.
+
+5
+00:00:35,180 --> 00:00:44,450
+Il punto di partenza e' la legalita': l'attivita' amministrativa persegue i fini determinati dalla legge. L'amministrazione non sceglie da sola i propri scopi, li riceve dalla legge.
+
+6
+00:00:44,450 --> 00:00:54,900
+Poi i criteri. L'attivita' e' retta da criteri di economicita', di efficacia, di imparzialita', di pubblicita' e di trasparenza. Cinque parole da sapere a memoria, nell'ordine della legge.
+
+7
+00:00:54,900 --> 00:01:04,340
+Economicita' vuol dire usare le risorse senza sprechi. Efficacia vuol dire raggiungere davvero il risultato. Non basta spendere poco: bisogna anche arrivare all'obiettivo.
+
+8
+00:01:04,340 --> 00:01:14,560
+Imparzialita' vuol dire trattare tutti allo stesso modo, senza favoritismi. Pubblicita' e trasparenza vogliono dire che l'azione dell'amministrazione deve essere conoscibile e comprensibile.
+
+9
+00:01:14,560 --> 00:01:22,890
+Un esempio di imparzialita' in azienda: una graduatoria per un incarico segue criteri fissati prima, uguali per tutti, e non il nome di chi presenta la domanda.
+
+10
+00:01:22,890 --> 00:01:30,420
+A questi si aggiungono i principi dell'ordinamento europeo. Da li' vengono, tra gli altri, la proporzionalita' e il legittimo affidamento.
+
+11
+00:01:30,420 --> 00:01:40,830
+Proporzionalita' e ragionevolezza non sono scritte come parole nell'articolo 1, ma sono applicate da tempo dai giudici: la misura scelta deve essere adeguata e non piu' pesante del necessario.
+
+12
+00:01:40,830 --> 00:01:50,930
+Il comma 1-bis aggiunge una regola importante: quando adotta atti non autoritativi, l'amministrazione agisce secondo il diritto privato, salvo che la legge disponga diversamente.
+
+13
+00:01:50,930 --> 00:01:59,770
+E il comma 1-ter estende gli stessi criteri ai soggetti privati che svolgono attivita' amministrative, con un livello di garanzia non inferiore a quello pubblico.
+
+14
+00:01:59,770 --> 00:02:09,980
+Occhio a un distrattore: tra i criteri dell'articolo 1 non c'e' la produttivita' e non c'e' il profitto. Ci sono economicita', efficacia, imparzialita', pubblicita' e trasparenza.
+
+15
+00:02:09,980 --> 00:02:14,580
+Fini fissati dalla legge, cinque criteri per raggiungerli.
+
+16
+00:02:14,580 --> 00:02:24,920
+La trasparenza e' il principio che ha cambiato di piu' il rapporto con il cittadino. Vuol dire che le decisioni devono essere comprensibili e conoscibili, per consentire un controllo.
+
+17
+00:02:24,920 --> 00:02:35,880
+Nella 241 la trasparenza prende corpo soprattutto nel diritto di accesso ai documenti e nell'obbligo di motivare. Piu' avanti, il decreto 33 del 2013 la estendera' con la pubblicazione e l'accesso civico.
+
+18
+00:02:35,880 --> 00:02:43,350
+La trasparenza protegge anche chi lavora nell'amministrazione: un procedimento chiaro e documentato mette al riparo da sospetti e da pressioni.
+
+19
+00:02:43,350 --> 00:02:51,090
+La partecipazione e' il secondo pilastro. Chi e' toccato da una decisione deve poter intervenire mentre si forma, non soltanto subirla alla fine.
+
+20
+00:02:51,090 --> 00:03:00,440
+Per questo la legge prevede la comunicazione di avvio del procedimento, il diritto di vedere gli atti e di presentare memorie scritte e documenti, che l'amministrazione deve valutare.
+
+21
+00:03:00,440 --> 00:03:08,360
+Partecipare conviene a tutti. Il cittadino difende le sue ragioni, e l'amministrazione decide con informazioni migliori, riducendo errori e contenziosi.
+
+22
+00:03:08,360 --> 00:03:16,230
+Un esempio in sanita': prima di decidere su una richiesta di un utente o di un dipendente, l'azienda ascolta le sue ragioni e le pesa nella decisione finale.
+
+23
+00:03:16,230 --> 00:03:25,580
+Attenzione: partecipare non vuol dire decidere insieme. La decisione resta all'amministrazione, che pero' deve tenere conto delle memorie pertinenti e spiegare perche' non le accoglie.
+
+24
+00:03:25,580 --> 00:03:30,350
+Vedere come si decide, e poter dire la propria prima della decisione.
+
+25
+00:03:30,350 --> 00:03:42,520
+Il terzo principio e' la certezza dei tempi. Ogni procedimento deve concludersi con un provvedimento espresso entro un termine stabilito. Lo vedremo nel dettaglio nella lezione cinque punto cinque.
+
+26
+00:03:42,520 --> 00:03:52,540
+Tempi certi vogliono dire poter programmare: un'impresa sa quando potra' partire, un cittadino sa quando avra' una risposta, un dipendente sa quando sara' deciso il suo caso.
+
+27
+00:03:52,540 --> 00:04:03,160
+Il quarto principio e' la responsabilizzazione. Per ogni procedimento c'e' un responsabile, e il ritardo non e' piu' di nessuno: pesa sulla valutazione della performance del dirigente e del funzionario.
+
+28
+00:04:03,160 --> 00:04:12,200
+Il ritardo puo' portare anche a responsabilita' disciplinare e amministrativo contabile. E se causa un danno ingiusto al cittadino, l'amministrazione deve risarcirlo.
+
+29
+00:04:12,200 --> 00:04:21,100
+La responsabilita' ha anche un rovescio: chi guida un procedimento deve poter lavorare, con compiti chiari e termini fissati in anticipo per ogni tipo di pratica.
+
+30
+00:04:21,100 --> 00:04:30,070
+Responsabilizzare non vuol dire colpevolizzare. Vuol dire rendere visibile chi fa che cosa, cosi' che il lavoro fatto bene si veda e i ritardi abbiano un nome.
+
+31
+00:04:30,070 --> 00:04:40,210
+Un distrattore frequente: il silenzio dell'amministrazione non e' mai una scelta libera e senza conseguenze. Anche quando la legge gli da' un valore, e' un'eccezione precisa, non la regola.
+
+32
+00:04:40,210 --> 00:04:45,390
+Una data di scadenza e un nome: la fine dell'attesa senza risposta.
+
+33
+00:04:45,390 --> 00:04:56,860
+Il quinto principio e' la semplificazione. La regola base e' il divieto di aggravamento: l'amministrazione non puo' aggravare il procedimento, se non per straordinarie e motivate esigenze dell'istruttoria.
+
+34
+00:04:56,860 --> 00:05:06,650
+In pratica: niente passaggi inutili, niente documenti chiesti due volte. Se un dato e' gia' in possesso di un'amministrazione, lo si acquisisce d'ufficio invece di chiederlo al cittadino.
+
+35
+00:05:06,650 --> 00:05:14,800
+Un esempio: per una domanda di mobilita' interna non si chiede al dipendente di allegare certificati che l'azienda conserva gia' nel suo fascicolo personale.
+
+36
+00:05:14,800 --> 00:05:24,000
+Da qui nascono gli strumenti che vedremo: l'autocertificazione, la segnalazione certificata di inizio attivita', il silenzio assenso, la conferenza di servizi.
+
+37
+00:05:24,000 --> 00:05:34,170
+Nel 2020 arriva un principio nuovo, il comma 2-bis: i rapporti tra il cittadino e la pubblica amministrazione sono improntati ai principi della collaborazione e della buona fede.
+
+38
+00:05:34,170 --> 00:05:43,780
+Vale in due direzioni. L'amministrazione non tende tranelli e non cambia le carte in tavola. E il cittadino dichiara il vero e collabora, senza usare le regole per ostacolare.
+
+39
+00:05:43,780 --> 00:05:53,670
+Collegato c'e' l'uso della telematica: le amministrazioni sono chiamate a usare strumenti informatici e telematici, nei rapporti interni, con le altre amministrazioni e con i privati.
+
+40
+00:05:53,670 --> 00:06:03,610
+Attenzione: semplificare non vuol dire rinunciare ai controlli. Autocertificazioni e segnalazioni si possono verificare, e chi dichiara il falso risponde anche penalmente.
+
+41
+00:06:03,610 --> 00:06:08,650
+Meno carte inutili, piu' fiducia reciproca, controlli dove servono.
+
+42
+00:06:08,650 --> 00:06:20,600
+Le tre cose che ti chiederanno. La prima: l'attivita' amministrativa persegue i fini della legge ed e' retta da economicita', efficacia, imparzialita', pubblicita' e trasparenza, oltre ai principi europei.
+
+43
+00:06:20,600 --> 00:06:28,370
+La seconda: il divieto di aggravamento. Il procedimento non si appesantisce se non per straordinarie e motivate esigenze dell'istruttoria.
+
+44
+00:06:28,370 --> 00:06:37,700
+La terza: per gli atti non autoritativi si applica il diritto privato, e dal 2020 i rapporti con il cittadino sono improntati a collaborazione e buona fede.
+
+45
+00:06:37,700 --> 00:06:48,150
+L'ultimo distrattore: la trasparenza non e' nell'articolo 97 della Costituzione e non e' nata con il decreto 33. E' nell'articolo 1 della 241 dal 2005.
+
+46
+00:06:48,150 --> 00:06:57,080
+In sintesi: legalita', criteri chiari, porte aperte, tempi certi, meno burocrazia. Nella prossima lezione: il responsabile del procedimento.
