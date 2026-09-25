@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,670
+Una domanda depositata in un ufficio puo' passare per molte scrivanie. Ma la legge vuole che, fra tutte, ce ne sia una a cui il cittadino possa sempre rivolgersi: quella del responsabile del procedimento.
+
+2
+00:00:14,670 --> 00:00:22,510
+E' una figura che molti di voi incontrano ogni giorno, o che potreste diventare. Conoscere bene le sue regole e' utile per la prova, e per il lavoro.
+
+3
+00:00:22,510 --> 00:00:27,110
+Un nome e un cognome dietro ogni pratica.
+
+4
+00:00:27,110 --> 00:00:36,290
+Quattro passaggi. Chi e' e come viene individuato il responsabile. Che cosa fa. Chi adotta il provvedimento finale. E le regole su conflitto di interessi e responsabilita'.
+
+5
+00:00:36,290 --> 00:00:47,820
+Si parte dall'articolo 4. Ogni amministrazione, per ciascun tipo di procedimento, stabilisce qual e' l'unita' organizzativa responsabile dell'istruttoria, degli adempimenti e del provvedimento finale.
+
+6
+00:00:47,820 --> 00:00:55,610
+Queste scelte non restano chiuse negli uffici: la legge chiede che siano rese pubbliche, cosi' chiunque puo' sapere quale ufficio si occupa di che cosa.
+
+7
+00:00:55,610 --> 00:01:07,060
+In un'azienda sanitaria, per esempio, l'elenco dei procedimenti indica che le pratiche dei dipendenti spettano alla gestione del personale e le richieste di accesso agli atti all'ufficio che detiene i documenti.
+
+8
+00:01:07,060 --> 00:01:17,980
+Poi l'articolo 5. Il dirigente di ciascuna unita' assegna a se' o a un altro dipendente dell'unita' la responsabilita' dell'istruttoria e di ogni altro adempimento del singolo procedimento.
+
+9
+00:01:17,980 --> 00:01:26,690
+Il dirigente sceglie in base all'organizzazione del lavoro e alle competenze: puo' distribuire i procedimenti tra piu' collaboratori, ciascuno responsabile dei propri.
+
+10
+00:01:26,690 --> 00:01:36,510
+Puo' assegnargli anche, eventualmente, l'adozione del provvedimento finale. Eventualmente: non e' automatico. L'istruttoria e la decisione possono restare in mani diverse.
+
+11
+00:01:36,510 --> 00:01:45,270
+E se il dirigente non assegna nessuno? La legge ha una regola di riserva: finche' non c'e' l'assegnazione, e' responsabile il funzionario preposto all'unita' organizzativa.
+
+12
+00:01:45,270 --> 00:01:50,620
+Cosi' un responsabile c'e' sempre. Non puo' succedere che una pratica resti senza nessuno che ne risponda.
+
+13
+00:01:50,620 --> 00:01:59,130
+L'unita' competente e il nome del responsabile vanno comunicati a chi riceve la comunicazione di avvio e, su richiesta, a chiunque vi abbia interesse.
+
+14
+00:01:59,130 --> 00:02:12,370
+Occhio a un errore diffuso, anche in molte dispense: nella 241 non si parla di RUP. Il responsabile unico del progetto e' una figura del codice dei contratti pubblici. Qui si dice responsabile del procedimento.
+
+15
+00:02:12,370 --> 00:02:17,600
+L'ufficio lo fissa l'amministrazione, la persona la assegna il dirigente.
+
+16
+00:02:17,600 --> 00:02:27,500
+I compiti sono all'articolo 6, in un elenco da conoscere. Primo: valuta le condizioni di ammissibilita', i requisiti di legittimazione e i presupposti rilevanti per il provvedimento.
+
+17
+00:02:27,500 --> 00:02:39,130
+Secondo: accerta d'ufficio i fatti. Per farlo puo' chiedere dichiarazioni e la rettifica di istanze sbagliate o incomplete, disporre accertamenti tecnici e ispezioni, ordinare l'esibizione di documenti.
+
+18
+00:02:39,130 --> 00:02:44,820
+Terzo: propone di indire la conferenza di servizi o, se ne ha la competenza, la indice lui stesso.
+
+19
+00:02:44,820 --> 00:02:50,970
+Quarto: cura le comunicazioni, le pubblicazioni e le notificazioni previste dalla legge e dai regolamenti.
+
+20
+00:02:50,970 --> 00:02:58,010
+Quinto: adotta il provvedimento finale, se ne ha la competenza. Altrimenti trasmette gli atti all'organo competente per l'adozione.
+
+21
+00:02:58,010 --> 00:03:08,070
+Un esempio in azienda: un dipendente chiede il riconoscimento di un periodo di servizio. Il responsabile verifica la domanda, chiede un documento mancante, controlla i dati e prepara l'atto.
+
+22
+00:03:08,070 --> 00:03:17,620
+Nella stessa logica, e' il responsabile del procedimento che accerta d'ufficio fatti, stati e qualita' che l'amministrazione deve certificare, senza chiederli al cittadino.
+
+23
+00:03:17,620 --> 00:03:25,710
+Il responsabile e' anche il punto di contatto: e' a lui che si chiede a che punto e' la pratica, ed e' lui che riceve le memorie e i documenti di chi partecipa.
+
+24
+00:03:25,710 --> 00:03:35,630
+Un distrattore: il responsabile non e' un semplice passacarte. Ha poteri istruttori veri: chiede documenti, dispone accertamenti, puo' indire la conferenza di servizi.
+
+25
+00:03:35,630 --> 00:03:40,840
+Valutare, accertare, comunicare, proporre o decidere.
+
+26
+00:03:40,840 --> 00:03:51,580
+Chi adotta il provvedimento finale? Se il responsabile ha la competenza, lo adotta lui. Se no, lo adotta l'organo competente, sulla base dell'istruttoria che il responsabile gli trasmette.
+
+27
+00:03:51,580 --> 00:04:02,320
+E qui c'e' una regola importante: l'organo competente, se e' diverso dal responsabile, non puo' discostarsi dalle risultanze dell'istruttoria se non indicandone la motivazione nel provvedimento finale.
+
+28
+00:04:02,320 --> 00:04:09,320
+Vuol dire che l'istruttoria conta davvero. Chi decide puo' non essere d'accordo, ma deve dire perche', per iscritto, nell'atto.
+
+29
+00:04:09,320 --> 00:04:18,250
+Un esempio: l'istruttoria conclude che un'istanza va accolta, ma il dirigente la respinge. Deve spiegare nel provvedimento quali elementi lo portano a una conclusione diversa.
+
+30
+00:04:18,250 --> 00:04:25,630
+Questa regola protegge il cittadino da decisioni arbitrarie, e protegge anche il lavoro del responsabile, che non puo' essere ignorato senza una ragione.
+
+31
+00:04:25,630 --> 00:04:33,910
+E se un altro ufficio non rende in tempo un parere? Il responsabile non risponde dei danni causati da quel ritardo, salvo il caso in cui non abbia chiesto il parere.
+
+32
+00:04:33,910 --> 00:04:41,960
+Attenzione: non e' vero che il responsabile del procedimento adotta sempre il provvedimento finale. Lo adotta solo se ne ha la competenza.
+
+33
+00:04:41,960 --> 00:04:46,560
+Chi decide puo' dissentire dall'istruttoria, ma deve motivare.
+
+34
+00:04:46,560 --> 00:04:55,340
+L'articolo 6-bis e' arrivato nel 2012 con la legge anticorruzione. Il responsabile del procedimento deve astenersi in caso di conflitto di interessi.
+
+35
+00:04:55,340 --> 00:05:06,790
+L'obbligo vale anche per i titolari degli uffici competenti ad adottare pareri, valutazioni tecniche, atti intermedi e il provvedimento finale. E va segnalata ogni situazione di conflitto, anche solo potenziale.
+
+36
+00:05:06,790 --> 00:05:15,190
+Un esempio: il responsabile scopre che l'istanza e' presentata da un suo parente stretto. Deve segnalarlo e astenersi, e la pratica passa a un altro collega.
+
+37
+00:05:15,190 --> 00:05:22,970
+Poi la responsabilita' per i tempi. La mancata o tardiva conclusione del procedimento e' un elemento di valutazione della performance individuale.
+
+38
+00:05:22,970 --> 00:05:31,870
+E puo' comportare responsabilita' disciplinare e amministrativo contabile del dirigente e del funzionario inadempiente. Il ritardo, insomma, ha sempre un nome.
+
+39
+00:05:31,870 --> 00:05:41,910
+Entro il 30 gennaio di ogni anno, poi, il titolare del potere sostitutivo comunica all'organo di governo i procedimenti conclusi in ritardo: si vede dove l'organizzazione si inceppa.
+
+40
+00:05:41,910 --> 00:05:51,720
+Per chi lavora nel comparto, essere responsabili di procedimento e' spesso legato a incarichi di funzione: e' una responsabilita' che si costruisce con competenza e con ordine nel lavoro.
+
+41
+00:05:51,720 --> 00:06:00,120
+Occhio: il conflitto va segnalato anche quando e' solo potenziale. Non serve aspettare che l'interesse personale abbia gia' influito sulla decisione.
+
+42
+00:06:00,120 --> 00:06:05,590
+Imparziale nel merito, puntuale nei tempi, trasparente nei conflitti.
+
+43
+00:06:05,590 --> 00:06:15,490
+Le tre cose che ti chiederanno. La prima: il dirigente dell'unita' assegna la responsabilita' a se' o a un dipendente; in mancanza, e' responsabile il funzionario preposto all'unita'.
+
+44
+00:06:15,490 --> 00:06:26,240
+La seconda: i compiti dell'articolo 6. Valuta i presupposti, accerta i fatti, cura la conferenza di servizi e le comunicazioni, adotta il provvedimento se competente o trasmette gli atti.
+
+45
+00:06:26,240 --> 00:06:35,380
+La terza: l'organo competente non puo' discostarsi dall'istruttoria senza motivare. E in caso di conflitto di interessi, anche potenziale, il responsabile si astiene.
+
+46
+00:06:35,380 --> 00:06:45,220
+L'ultimo distrattore: il nome del responsabile non e' riservato. Va comunicato ai destinatari della comunicazione di avvio e, a richiesta, a chiunque vi abbia interesse.
+
+47
+00:06:45,220 --> 00:06:54,940
+In sintesi: un responsabile sempre individuato, compiti precisi, decisioni motivate. Nella prossima lezione: avvio del procedimento, partecipazione e motivazione.

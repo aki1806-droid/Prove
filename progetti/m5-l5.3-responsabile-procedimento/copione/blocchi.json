@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Una domanda depositata in un ufficio puo' passare per molte scrivanie. Ma la legge vuole che, fra tutte, ce ne sia una a cui il cittadino possa sempre rivolgersi: quella del responsabile del procedimento."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una figura che molti di voi incontrano ogni giorno, o che potreste diventare. Conoscere bene le sue regole e' utile per la prova, e per il lavoro."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un nome e un cognome dietro ogni pratica."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passaggi. Chi e' e come viene individuato il responsabile. Che cosa fa. Chi adotta il provvedimento finale. E le regole su conflitto di interessi e responsabilita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si parte dall'articolo 4. Ogni amministrazione, per ciascun tipo di procedimento, stabilisce qual e' l'unita' organizzativa responsabile dell'istruttoria, degli adempimenti e del provvedimento finale."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Queste scelte non restano chiuse negli uffici: la legge chiede che siano rese pubbliche, cosi' chiunque puo' sapere quale ufficio si occupa di che cosa."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In un'azienda sanitaria, per esempio, l'elenco dei procedimenti indica che le pratiche dei dipendenti spettano alla gestione del personale e le richieste di accesso agli atti all'ufficio che detiene i documenti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'articolo 5. Il dirigente di ciascuna unita' assegna a se' o a un altro dipendente dell'unita' la responsabilita' dell'istruttoria e di ogni altro adempimento del singolo procedimento."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dirigente sceglie in base all'organizzazione del lavoro e alle competenze: puo' distribuire i procedimenti tra piu' collaboratori, ciascuno responsabile dei propri."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' assegnargli anche, eventualmente, l'adozione del provvedimento finale. Eventualmente: non e' automatico. L'istruttoria e la decisione possono restare in mani diverse."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se il dirigente non assegna nessuno? La legge ha una regola di riserva: finche' non c'e' l'assegnazione, e' responsabile il funzionario preposto all'unita' organizzativa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cosi' un responsabile c'e' sempre. Non puo' succedere che una pratica resti senza nessuno che ne risponda."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'unita' competente e il nome del responsabile vanno comunicati a chi riceve la comunicazione di avvio e, su richiesta, a chiunque vi abbia interesse."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.6,
+  "text": "Occhio a un errore diffuso, anche in molte dispense: nella 241 non si parla di RUP. Il responsabile unico del progetto e' una figura del codice dei contratti pubblici. Qui si dice responsabile del procedimento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "L'ufficio lo fissa l'amministrazione, la persona la assegna il dirigente."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I compiti sono all'articolo 6, in un elenco da conoscere. Primo: valuta le condizioni di ammissibilita', i requisiti di legittimazione e i presupposti rilevanti per il provvedimento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo: accerta d'ufficio i fatti. Per farlo puo' chiedere dichiarazioni e la rettifica di istanze sbagliate o incomplete, disporre accertamenti tecnici e ispezioni, ordinare l'esibizione di documenti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo: propone di indire la conferenza di servizi o, se ne ha la competenza, la indice lui stesso."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarto: cura le comunicazioni, le pubblicazioni e le notificazioni previste dalla legge e dai regolamenti."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinto: adotta il provvedimento finale, se ne ha la competenza. Altrimenti trasmette gli atti all'organo competente per l'adozione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio in azienda: un dipendente chiede il riconoscimento di un periodo di servizio. Il responsabile verifica la domanda, chiede un documento mancante, controlla i dati e prepara l'atto."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella stessa logica, e' il responsabile del procedimento che accerta d'ufficio fatti, stati e qualita' che l'amministrazione deve certificare, senza chiederli al cittadino."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il responsabile e' anche il punto di contatto: e' a lui che si chiede a che punto e' la pratica, ed e' lui che riceve le memorie e i documenti di chi partecipa."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.6,
+  "text": "Un distrattore: il responsabile non e' un semplice passacarte. Ha poteri istruttori veri: chiede documenti, dispone accertamenti, puo' indire la conferenza di servizi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Valutare, accertare, comunicare, proporre o decidere."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi adotta il provvedimento finale? Se il responsabile ha la competenza, lo adotta lui. Se no, lo adotta l'organo competente, sulla base dell'istruttoria che il responsabile gli trasmette."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E qui c'e' una regola importante: l'organo competente, se e' diverso dal responsabile, non puo' discostarsi dalle risultanze dell'istruttoria se non indicandone la motivazione nel provvedimento finale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vuol dire che l'istruttoria conta davvero. Chi decide puo' non essere d'accordo, ma deve dire perche', per iscritto, nell'atto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: l'istruttoria conclude che un'istanza va accolta, ma il dirigente la respinge. Deve spiegare nel provvedimento quali elementi lo portano a una conclusione diversa."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa regola protegge il cittadino da decisioni arbitrarie, e protegge anche il lavoro del responsabile, che non puo' essere ignorato senza una ragione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se un altro ufficio non rende in tempo un parere? Il responsabile non risponde dei danni causati da quel ritardo, salvo il caso in cui non abbia chiesto il parere."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.6,
+  "text": "Attenzione: non e' vero che il responsabile del procedimento adotta sempre il provvedimento finale. Lo adotta solo se ne ha la competenza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi decide puo' dissentire dall'istruttoria, ma deve motivare."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 6-bis e' arrivato nel 2012 con la legge anticorruzione. Il responsabile del procedimento deve astenersi in caso di conflitto di interessi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obbligo vale anche per i titolari degli uffici competenti ad adottare pareri, valutazioni tecniche, atti intermedi e il provvedimento finale. E va segnalata ogni situazione di conflitto, anche solo potenziale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: il responsabile scopre che l'istanza e' presentata da un suo parente stretto. Deve segnalarlo e astenersi, e la pratica passa a un altro collega."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la responsabilita' per i tempi. La mancata o tardiva conclusione del procedimento e' un elemento di valutazione della performance individuale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E puo' comportare responsabilita' disciplinare e amministrativo contabile del dirigente e del funzionario inadempiente. Il ritardo, insomma, ha sempre un nome."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entro il 30 gennaio di ogni anno, poi, il titolare del potere sostitutivo comunica all'organo di governo i procedimenti conclusi in ritardo: si vede dove l'organizzazione si inceppa."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per chi lavora nel comparto, essere responsabili di procedimento e' spesso legato a incarichi di funzione: e' una responsabilita' che si costruisce con competenza e con ordine nel lavoro."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.6,
+  "text": "Occhio: il conflitto va segnalato anche quando e' solo potenziale. Non serve aspettare che l'interesse personale abbia gia' influito sulla decisione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Imparziale nel merito, puntuale nei tempi, trasparente nei conflitti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose che ti chiederanno. La prima: il dirigente dell'unita' assegna la responsabilita' a se' o a un dipendente; in mancanza, e' responsabile il funzionario preposto all'unita'."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda: i compiti dell'articolo 6. Valuta i presupposti, accerta i fatti, cura la conferenza di servizi e le comunicazioni, adotta il provvedimento se competente o trasmette gli atti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza: l'organo competente non puo' discostarsi dall'istruttoria senza motivare. E in caso di conflitto di interessi, anche potenziale, il responsabile si astiene."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.6,
+  "text": "L'ultimo distrattore: il nome del responsabile non e' riservato. Va comunicato ai destinatari della comunicazione di avvio e, a richiesta, a chiunque vi abbia interesse."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un responsabile sempre individuato, compiti precisi, decisioni motivate. Nella prossima lezione: avvio del procedimento, partecipazione e motivazione."
+ }
+]
