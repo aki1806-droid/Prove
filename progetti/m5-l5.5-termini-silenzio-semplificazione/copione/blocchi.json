@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Hai presentato una domanda. Passano i giorni, poi le settimane, e nessuno risponde. Che cosa succede? La risposta della legge e' precisa, e cambia a seconda del tipo di procedimento."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A volte il silenzio e' un inadempimento, contro cui puoi reagire. A volte vale come un si'. E a volte la legge ti permette di partire senza aspettare nessuna risposta."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il tempo della pubblica amministrazione ha delle regole precise."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. I termini del procedimento. Che cosa si puo' fare quando l'amministrazione tace. Il silenzio assenso. E gli strumenti di semplificazione: autocertificazione, SCIA e conferenza di servizi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 2 fissa il dovere di concludere. Se il procedimento nasce da un'istanza, o deve essere avviato d'ufficio, l'amministrazione lo conclude con un provvedimento espresso."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Il termine generale e' di trenta giorni. Vale ogni volta che una legge o un atto dell'amministrazione non ne prevede uno diverso."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le amministrazioni statali e gli enti pubblici nazionali possono fissare termini diversi, ma non oltre novanta giorni. Regioni ed enti del servizio sanitario regolano i propri termini nel rispetto delle garanzie della legge."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Termini oltre i novanta giorni sono ammessi solo per ragioni particolari, come la complessita' del procedimento, e comunque non possono superare i centottanta giorni. Fanno eccezione cittadinanza e immigrazione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il termine decorre dall'inizio del procedimento d'ufficio o dal ricevimento della domanda, se il procedimento e' a iniziativa di parte."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si puo' sospendere una sola volta, e per non piu' di trenta giorni, per acquisire informazioni o certificazioni che l'amministrazione non ha e non puo' ottenere da un'altra amministrazione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda sanitaria stabilisce che una certa domanda del personale si chiude in sessanta giorni. Se manca un documento di un altro ente, puo' sospendere il termine una volta sola."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il termine di trenta giorni non si puo' sospendere piu' volte. La sospensione e' una sola, e per non piu' di trenta giorni."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta giorni come regola, una sola sospensione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il termine scade senza provvedimento, si parla di silenzio inadempimento. L'amministrazione e' in ritardo, e il privato ha piu' strade."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima e' il potere sostitutivo. Ogni amministrazione individua una figura apicale, o un'unita' organizzativa, che interviene quando il responsabile non conclude in tempo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il nome del titolare del potere sostitutivo va pubblicato sul sito istituzionale, in modo ben visibile. Il privato puo' rivolgersi a lui, che conclude entro la meta' del termine originario."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Per esempio: se il termine era di sessanta giorni ed e' scaduto, il titolare del potere sostitutivo ha trenta giorni per concludere, direttamente o con un commissario."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda strada e' il giudice amministrativo. Contro il silenzio si puo' ricorrere al tribunale amministrativo finche' dura l'inadempimento, e comunque non oltre un anno dalla scadenza del termine."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' il danno. Se il ritardo, doloso o colposo, causa un danno ingiusto, l'amministrazione lo risarcisce. In alcuni procedimenti a istanza di parte e' previsto anche un indennizzo per il solo ritardo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dal 2020, poi, alcuni atti di assenso adottati dopo la scadenza dei termini sono inefficaci. Il ritardo non resta senza conseguenze nemmeno per l'amministrazione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il silenzio inadempimento non e' un rifiuto. E' un'omissione. Il procedimento resta aperto e l'amministrazione ha ancora l'obbligo di decidere."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un sostituto, un giudice, un risarcimento: il ritardo ha un prezzo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In certi casi, invece, il silenzio vale come accoglimento. E' il silenzio assenso, all'articolo 20. Riguarda i procedimenti a istanza di parte."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se entro il termine l'amministrazione non comunica un diniego, e non indice una conferenza di servizi, il silenzio equivale all'accoglimento della domanda, senza bisogno di altre istanze o diffide."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta pero' il potere di intervenire in autotutela, cioe' di revocare o annullare l'atto formato con il silenzio, alle condizioni previste dalla legge."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il silenzio assenso non vale in materie delicate: patrimonio culturale e paesaggistico, ambiente, difesa nazionale, pubblica sicurezza, immigrazione, asilo e cittadinanza."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "E non vale, soprattutto per noi, per la salute e la pubblica incolumita'. Nelle materie sanitarie, di regola, serve un provvedimento espresso."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non vale nemmeno quando il diritto europeo impone un provvedimento formale, o quando la legge qualifica il silenzio come rigetto. E dal 2021 il privato puo' chiedere un'attestazione che l'assenso si e' formato."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste anche un silenzio assenso tra amministrazioni. Quando una deve ricevere l'assenso di un'altra, questo va dato entro trenta giorni, altrimenti si intende acquisito."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma per le amministrazioni che tutelano l'ambiente, il paesaggio, i beni culturali e la salute, il termine e' di novanta giorni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il silenzio assenso non e' la regola generale. Vale solo nei procedimenti a istanza di parte e non nelle materie escluse, tra cui la salute."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il silenzio vale si' solo dove la legge lo consente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo strumento: l'acquisizione d'ufficio e l'autocertificazione. I documenti che un'amministrazione ha gia', o che un'altra detiene per legge, si acquisiscono d'ufficio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al cittadino si chiedono solo gli elementi per trovarli. E fatti, stati e qualita' si possono dichiarare con autocertificazione, secondo il testo unico sulla documentazione amministrativa, il 445 del 2000."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo strumento: la segnalazione certificata di inizio attivita', la SCIA. Sostituisce autorizzazioni e licenze che dipendono solo dal possesso di requisiti fissati dalla legge."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "L'attivita' puo' iniziare dalla data di presentazione. L'amministrazione ha sessanta giorni per controllare, trenta in edilizia, e se mancano i requisiti vieta la prosecuzione o chiede di mettersi in regola."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi dichiara il falso in una SCIA commette un reato. La semplificazione si regge sulla responsabilita' di chi dichiara."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo strumento: la conferenza di servizi. Serve quando per decidere occorrono piu' pareri o assensi di amministrazioni diverse: invece di chiederli uno per uno, si esaminano insieme."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' essere istruttoria, per esaminare insieme gli interessi coinvolti, o decisoria, quando servono piu' assensi. Si svolge di regola in forma semplificata, per via telematica, oppure in riunione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la SCIA non e' un provvedimento dell'amministrazione e non e' un silenzio assenso. E' il privato che parte, e l'amministrazione controlla dopo."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Meno attese: chi ha i requisiti parte, i controlli arrivano dopo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il termine generale e' di trenta giorni, fino a novanta e in casi particolari fino a centottanta; si sospende una sola volta, per non piu' di trenta giorni."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: in caso di silenzio inadempimento c'e' il titolare del potere sostitutivo, che conclude nella meta' del termine, e il ricorso al giudice entro un anno dalla scadenza."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: il silenzio assenso vale nei procedimenti a istanza di parte, ma non per la salute, l'ambiente e le altre materie escluse. Con la SCIA si parte subito e i controlli arrivano dopo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il silenzio assenso e il silenzio inadempimento sono opposti. Nel primo la domanda e' accolta, nel secondo l'amministrazione e' semplicemente in ritardo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: tempi certi, rimedi contro l'inerzia, silenzi con un significato preciso, strumenti per fare prima. Nell'ultima lezione del modulo: il diritto di accesso ai documenti."
+ }
+]

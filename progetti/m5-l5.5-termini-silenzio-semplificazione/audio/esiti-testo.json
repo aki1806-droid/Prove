@@ -1,0 +1,48 @@
+{
+ "A": {
+  "parole_copione": 560,
+  "parole_dette": 562,
+  "coincidenti": 556,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "il",
+    "detto": "in"
+   },
+   {
+    "blocco": "s09",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s15",
+    "copione": "inadempimento",
+    "detto": "in adempimento"
+   },
+   {
+    "blocco": "s22",
+    "copione": "inadempimento",
+    "detto": "in adempimento"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 620,
+  "parole_dette": 622,
+  "coincidenti": 618,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s44",
+    "copione": "inadempimento",
+    "detto": "in adempimento"
+   },
+   {
+    "blocco": "s46",
+    "copione": "inadempimento",
+    "detto": "in adempimento"
+   }
+  ]
+ }
+}

@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Una graduatoria interna ti vede qualche posizione sotto un collega. Vuoi capire come sono stati attribuiti i punteggi. Puoi vedere le carte? La legge 241 dice di si', con regole precise."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il diritto di accesso ai documenti amministrativi. Serve a difendere i propri interessi, ma anche a rendere l'amministrazione piu' imparziale e trasparente."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Le carte dell'amministrazione non sono segrete per chi ha un interesse."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Chi puo' accedere, e a quali documenti. I limiti all'accesso. Come si presenta la richiesta. E che cosa fare se l'accesso viene negato."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 22 definisce il diritto di accesso: il diritto degli interessati di prendere visione dei documenti amministrativi e di estrarne copia."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi sono gli interessati? Tutti i soggetti privati, compresi i portatori di interessi pubblici o diffusi, che hanno un interesse diretto, concreto e attuale, collegato al documento richiesto."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Diretto, cioe' personale. Concreto, cioe' legato a una situazione reale e non ipotetica. Attuale, cioe' presente al momento della richiesta. E deve corrispondere a una situazione giuridicamente tutelata."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono i controinteressati: le persone, individuate o facilmente individuabili, che dall'accesso vedrebbero compromessa la propria riservatezza. Per esempio, il collega di cui chiedi i titoli."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il documento amministrativo e' ogni rappresentazione, grafica, elettronica o di altro tipo, del contenuto di atti detenuti da una pubblica amministrazione, anche interni o non legati a un procedimento."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si accede ai documenti, non alle semplici informazioni. L'amministrazione non e' tenuta a elaborare dati per rispondere a una richiesta: si chiedono documenti che esistono gia'."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'accesso si esercita verso le pubbliche amministrazioni, gli enti pubblici e i gestori di pubblici servizi. Quindi anche verso l'azienda sanitaria in cui lavori, finche' deve conservare quei documenti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'accesso documentale non spetta a chiunque. Serve un interesse diretto, concreto e attuale, collegato al documento."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un interesse vero, un documento che esiste."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La regola e' che tutti i documenti amministrativi sono accessibili. Le eccezioni sono quelle dell'articolo 24."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'accesso e' escluso per il segreto di Stato e gli altri segreti previsti dalla legge, nei procedimenti tributari e per gli atti normativi, amministrativi generali, di pianificazione e di programmazione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nei procedimenti selettivi e' escluso per i documenti con informazioni di carattere psicoattitudinale relative a terzi. Un esempio vicino a noi: le valutazioni psicoattitudinali di altri candidati."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni amministrazione individua le categorie di documenti sottratti all'accesso e, per ciascuna, anche il periodo di tempo per cui restano riservati. Sono segreti solo nei limiti di quella esigenza."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un regolamento puo' sottrarre all'accesso anche documenti sulla vita privata e la riservatezza delle persone, compresi gli interessi sanitari, professionali ed economici."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma c'e' un contrappeso decisivo: va comunque garantito l'accesso ai documenti la cui conoscenza e' necessaria per curare o difendere i propri interessi giuridici. E' l'accesso difensivo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i dati sulla salute il limite e' piu' stretto: l'accesso e' consentito solo se l'interesse del richiedente e' di rango almeno pari a quello della persona a cui i dati si riferiscono."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non sono ammesse richieste finalizzate a un controllo generalizzato sull'operato dell'amministrazione. E l'accesso non si puo' negare quando basta differirlo, cioe' rinviarlo nel tempo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la presenza di controinteressati non blocca automaticamente l'accesso. L'amministrazione bilancia i diritti, e l'accesso difensivo ha un peso particolare."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La regola e' l'accesso: le esclusioni sono eccezioni."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La richiesta va motivata e rivolta all'amministrazione che ha formato il documento o che lo detiene stabilmente. Il regolamento sull'accesso e' il decreto del Presidente della Repubblica 184 del 2006."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non ci sono controinteressati, l'accesso puo' essere informale: anche a voce, all'ufficio competente, indicando il documento e l'interesse. La richiesta si accoglie subito, senza formalita'."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: chiedi di vedere i verbali e le schede di valutazione della tua selezione interna. Ci sono altri candidati coinvolti, e i loro titoli li riguardano: si segue la procedura formale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se invece ci sono controinteressati, o dubbi sull'interesse o sull'identita' del richiedente, si segue la procedura formale, con una richiesta scritta di cui l'ufficio rilascia ricevuta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I controinteressati ricevono copia della richiesta e hanno dieci giorni per presentare una motivata opposizione. Poi l'amministrazione decide."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il procedimento si conclude in trenta giorni. Se la richiesta e' irregolare o incompleta, l'amministrazione lo comunica entro dieci giorni, e il termine riparte dalla richiesta corretta."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'accesso e' accolto, l'atto indica l'ufficio e un periodo di almeno quindici giorni per vedere i documenti. L'esame e' gratuito; la copia costa solo il rimborso della riproduzione, salvo il bollo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rifiuto, la limitazione e il differimento devono essere motivati. Il differimento, in particolare, deve indicare quanto dura."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: la richiesta di accesso documentale non e' libera da motivazione. Va motivata, spiegando l'interesse collegato al documento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chiedere per iscritto, spiegare il perche', conservare la ricevuta."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Se passano trenta giorni senza risposta, la richiesta si intende respinta. E' un caso in cui la legge da' al silenzio il valore di un rigetto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contro il diniego, espresso o tacito, o contro il differimento si puo' ricorrere al tribunale amministrativo regionale, secondo il codice del processo amministrativo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In alternativa si puo' chiedere un riesame: al difensore civico per gli atti di comuni, province e regioni; alla Commissione per l'accesso per gli atti delle amministrazioni dello Stato."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il difensore civico o la Commissione si pronunciano entro trenta giorni. Se ritengono illegittimo il diniego, lo comunicano all'amministrazione, che ha trenta giorni per confermarlo con motivazione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'amministrazione non conferma entro quel termine, l'accesso e' consentito. E il termine per ricorrere al giudice decorre dal momento in cui ricevi l'esito del riesame."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un ultimo confronto. Accanto all'accesso documentale c'e' l'accesso civico, previsto dal decreto trasparenza, il 33 del 2013: lo puo' chiedere chiunque, senza motivare, ma incontra altri limiti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione a non confonderli: l'accesso documentale serve a tutelare un interesse personale e va motivato. L'accesso civico serve al controllo diffuso e non richiede motivazione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il silenzio vale no, ma la porta resta aperta."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'accesso spetta agli interessati, con un interesse diretto, concreto e attuale; i controinteressati sono chi vedrebbe compromessa la propria riservatezza."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: esclusioni dell'articolo 24, niente controllo generalizzato, differimento invece del diniego quando basta; l'accesso difensivo va comunque garantito."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: richiesta motivata, informale se non ci sono controinteressati; dieci giorni per l'opposizione, trenta per concludere, silenzio che vale rigetto; ricorso al giudice o riesame."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: con l'accesso documentale l'amministrazione non deve creare documenti nuovi. Si accede a quelli che esistono e che deve ancora conservare."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un interesse vero, un documento esistente, una richiesta motivata, rimedi rapidi. Nel prossimo modulo: la trasparenza nella pubblica amministrazione."
+ }
+]
