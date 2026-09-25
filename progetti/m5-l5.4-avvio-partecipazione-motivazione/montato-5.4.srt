@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,040
+Una mattina arriva una lettera dall'azienda: si e' aperto un procedimento che ti riguarda. C'e' scritto chi lo segue, entro quando finira', dove puoi vedere le carte. Non e' una cortesia: e' un obbligo di legge.
+
+2
+00:00:14,040 --> 00:00:21,400
+Da quella lettera parte la partecipazione: puoi dire la tua, portare documenti, e alla fine ricevere una decisione che spiega le sue ragioni.
+
+3
+00:00:21,400 --> 00:00:26,000
+Sapere, partecipare, capire: tre diritti in fila.
+
+4
+00:00:26,000 --> 00:00:37,350
+Quattro passaggi. La comunicazione di avvio del procedimento. I diritti di chi partecipa. Il preavviso di rigetto. E l'obbligo di motivare il provvedimento. Con qualche esempio preso dalla vita di un'azienda sanitaria.
+
+5
+00:00:37,350 --> 00:00:46,200
+L'articolo 7 dice che l'avvio del procedimento va comunicato. Salvo particolari esigenze di celerita', la comunicazione va a tre categorie di soggetti.
+
+6
+00:00:46,200 --> 00:00:52,540
+Primo: i destinatari degli effetti diretti del provvedimento. Secondo: chi per legge deve intervenire nel procedimento.
+
+7
+00:00:52,540 --> 00:00:59,790
+Terzo: i soggetti individuati o facilmente individuabili, diversi dai destinatari, a cui il provvedimento puo' recare pregiudizio.
+
+8
+00:00:59,790 --> 00:01:06,240
+Resta ferma la possibilita' di adottare provvedimenti cautelari anche prima della comunicazione, quando la situazione lo richiede.
+
+9
+00:01:06,240 --> 00:01:13,530
+In pratica, se un ufficio avvia d'ufficio un procedimento che riguarda un dipendente, deve informarlo subito, e non a cose fatte.
+
+10
+00:01:13,530 --> 00:01:23,010
+L'articolo 8 dice come. La comunicazione e' personale, e deve indicare l'amministrazione competente, l'oggetto del procedimento, l'ufficio e la persona responsabile.
+
+11
+00:01:23,010 --> 00:01:30,370
+Deve indicare anche la data entro cui il procedimento deve concludersi e i rimedi in caso di inerzia, e l'ufficio dove si possono vedere gli atti.
+
+12
+00:01:30,370 --> 00:01:39,390
+Nei procedimenti a istanza di parte va indicata anche la data di presentazione dell'istanza. E se i destinatari sono troppi, l'amministrazione usa forme di pubblicita' adatte.
+
+13
+00:01:39,390 --> 00:01:45,950
+Nei procedimenti a istanza di parte, la ricevuta della domanda che contiene questi elementi vale gia' come comunicazione di avvio.
+
+14
+00:01:45,950 --> 00:01:55,050
+Occhio a un distrattore: l'omissione della comunicazione non la puo' far valere chiunque. Puo' farla valere solo il soggetto nel cui interesse la comunicazione e' prevista.
+
+15
+00:01:55,050 --> 00:01:59,690
+Chi, che cosa, entro quando, dove vedere le carte.
+
+16
+00:01:59,690 --> 00:02:10,410
+L'articolo 9 allarga la partecipazione. Puo' intervenire qualunque soggetto portatore di interessi pubblici o privati, e i portatori di interessi diffusi costituiti in associazioni o comitati.
+
+17
+00:02:10,410 --> 00:02:21,160
+La condizione e' che dal provvedimento possa derivare loro un pregiudizio. Non serve essere il destinatario diretto. Un'associazione di pazienti, per esempio, puo' intervenire in un procedimento che tocca i loro interessi.
+
+18
+00:02:21,160 --> 00:02:28,970
+L'articolo 10 dice che cosa possono fare. Prima di tutto, prendere visione degli atti del procedimento, salvo i limiti previsti per l'accesso.
+
+19
+00:02:28,970 --> 00:02:36,690
+Poi, presentare memorie scritte e documenti. E l'amministrazione ha l'obbligo di valutarli, ove siano pertinenti all'oggetto del procedimento.
+
+20
+00:02:36,690 --> 00:02:46,250
+Un esempio: un dipendente riceve la comunicazione di avvio di un procedimento sul riconoscimento di un periodo di servizio, e deposita una memoria con i documenti che lo provano.
+
+21
+00:02:46,250 --> 00:02:55,400
+La partecipazione non vale per tutti gli atti. L'articolo 13 esclude gli atti normativi, gli atti amministrativi generali, di pianificazione e di programmazione.
+
+22
+00:02:55,400 --> 00:03:03,860
+Sono esclusi anche i procedimenti tributari e alcuni procedimenti speciali previsti da leggi di settore. Qui la tutela passa per le regole proprie di quelle materie.
+
+23
+00:03:03,860 --> 00:03:12,430
+Attenzione: le norme sulla partecipazione non si applicano a un atto di programmazione. Per quegli atti valgono le regole specifiche che li disciplinano.
+
+24
+00:03:12,430 --> 00:03:17,030
+Vedere gli atti, portare memorie, essere ascoltati.
+
+25
+00:03:17,030 --> 00:03:27,230
+L'articolo 10-bis riguarda i procedimenti a istanza di parte. Prima di un provvedimento negativo, l'ufficio comunica all'istante i motivi che ostano all'accoglimento della domanda.
+
+26
+00:03:27,230 --> 00:03:35,670
+E' il preavviso di rigetto. Entro dieci giorni dal ricevimento, l'istante puo' presentare per iscritto le sue osservazioni, eventualmente con documenti.
+
+27
+00:03:35,670 --> 00:03:46,420
+Dopo le modifiche del 2020 la comunicazione sospende i termini del procedimento, che ricominciano a decorrere dieci giorni dopo le osservazioni o, se mancano, dalla scadenza del termine.
+
+28
+00:03:46,420 --> 00:03:56,410
+Se poi decide comunque di respingere, l'amministrazione deve spiegare perche' non accoglie le osservazioni, e puo' aggiungere solo i motivi ostativi che nascono da quelle osservazioni.
+
+29
+00:03:56,410 --> 00:04:04,650
+Non si possono addurre tra i motivi ostativi inadempienze o ritardi attribuibili all'amministrazione. Il cittadino non paga le lentezze dell'ufficio.
+
+30
+00:04:04,650 --> 00:04:13,540
+Il preavviso non si applica alle procedure concorsuali e ai procedimenti previdenziali e assistenziali a istanza di parte gestiti dagli enti previdenziali.
+
+31
+00:04:13,540 --> 00:04:22,080
+E un provvedimento negativo adottato senza preavviso di rigetto e' annullabile: dopo il 2020 non puo' essere salvato come vizio solo formale.
+
+32
+00:04:22,080 --> 00:04:32,940
+Un distrattore frequente: nel testo di oggi il preavviso non interrompe i termini, che poi ripartirebbero da zero. Li sospende. Molti quiz usano ancora la formula vecchia.
+
+33
+00:04:32,940 --> 00:04:37,540
+Prima del no, il diritto di rispondere entro dieci giorni.
+
+34
+00:04:37,540 --> 00:04:48,110
+L'articolo 3 fissa l'obbligo di motivazione. Ogni provvedimento amministrativo deve essere motivato, compresi quelli sull'organizzazione, sui pubblici concorsi e sul personale.
+
+35
+00:04:48,110 --> 00:04:56,160
+La motivazione indica i presupposti di fatto e le ragioni giuridiche che hanno determinato la decisione, in relazione alle risultanze dell'istruttoria.
+
+36
+00:04:56,160 --> 00:05:04,340
+Non e' richiesta per gli atti normativi e per quelli a contenuto generale, che si rivolgono a una generalita' di destinatari e non a una persona precisa.
+
+37
+00:05:04,340 --> 00:05:13,640
+La motivazione serve a due cose: permette all'interessato di capire e di difendersi, e permette al giudice di controllare se la decisione e' logica e legittima.
+
+38
+00:05:13,640 --> 00:05:22,910
+Si puo' motivare anche rinviando a un altro atto, per esempio un parere: e' la motivazione per relazione. Ma quell'atto va indicato e reso disponibile insieme alla decisione.
+
+39
+00:05:22,910 --> 00:05:28,890
+In ogni atto notificato al destinatario vanno indicati il termine e l'autorita' a cui e' possibile ricorrere.
+
+40
+00:05:28,890 --> 00:05:39,310
+Un esempio in azienda: un diniego di un'aspettativa deve dire quali fatti sono stati accertati, quale norma si applica, perche' la richiesta non si puo' accogliere e a chi ricorrere.
+
+41
+00:05:39,310 --> 00:05:49,790
+Quando una domanda e' manifestamente irricevibile, inammissibile, improcedibile o infondata, si puo' concludere in forma semplificata, con una motivazione sintetica sul punto risolutivo.
+
+42
+00:05:49,790 --> 00:05:58,330
+Attenzione: i provvedimenti sul personale non sono esclusi dall'obbligo di motivazione. La legge li nomina espressamente tra quelli da motivare.
+
+43
+00:05:58,330 --> 00:06:02,930
+Fatti, norme e il filo logico che li lega.
+
+44
+00:06:02,930 --> 00:06:13,150
+Le tre cose che ti chiederanno. La prima: l'avvio si comunica ai destinatari, a chi deve intervenire per legge e ai terzi individuabili che possono subire pregiudizio.
+
+45
+00:06:13,150 --> 00:06:25,420
+La seconda: i partecipanti possono vedere gli atti e presentare memorie e documenti, che l'amministrazione deve valutare se pertinenti. Prima di un no c'e' il preavviso, con dieci giorni per le osservazioni.
+
+46
+00:06:25,420 --> 00:06:35,880
+La terza: la motivazione indica presupposti di fatto e ragioni giuridiche; non e' richiesta per atti normativi e generali; va indicato a chi e entro quando ricorrere.
+
+47
+00:06:35,880 --> 00:06:48,150
+L'ultimo distrattore: la partecipazione non si applica agli atti normativi, amministrativi generali, di pianificazione e di programmazione. La motivazione non serve per quelli normativi e generali.
+
+48
+00:06:48,150 --> 00:06:56,230
+In sintesi: si comunica, si ascolta, si spiega. Nella prossima lezione: termini, silenzio e strumenti di semplificazione.
