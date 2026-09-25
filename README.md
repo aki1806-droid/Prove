@@ -68,6 +68,24 @@ prevista dal piano, `Organizzazione-Aziendale-Sanitaria-e-AOUPD.pdf`, non era di
 modulo è costruito sulla dispensa CISL FP (Galiazzo), sull'atto aziendale dell'ULSS 5 Polesana,
 sul PSSR 2019-2023 e su sintesi di ricerca per l'AOUPD (vedi i REGISTRO, «Da verificare»).
 
+Modulo 5 completo, Procedimento amministrativo e accesso (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 5.1 | Prima e dopo la legge 241 | 7:44 |
+| 5.2 | I principi cardine | 7:06 |
+| 5.3 | Il responsabile del procedimento | 7:04 |
+| 5.4 | Avvio, partecipazione e motivazione | 7:05 |
+| 5.5 | Termini, silenzio e semplificazione | 7:24 |
+| 5.6 | Il diritto di accesso documentale | 7:08 |
+
+Nel modulo 5 `illustra.mjs` passa a 27 illustrazioni: si aggiungono clessidra, sportello,
+archivio, cassaforte e busta; per la lezione successiva si parte dalla 5.6. La fonte prevista
+dal piano, `Procedimento-Amministrativo.pdf`, non era disponibile: il modulo è costruito sul
+testo della L. 241/1990 aggiornato al 2019 e sulla dispensa CISL FP; le modifiche 2020-2021
+sono verificate solo con estratti di ricerca, e gli errori della dispensa non sono ripresi
+(vedi i REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.
