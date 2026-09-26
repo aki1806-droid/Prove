@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un giornalista chiede alla tua azienda sanitaria quante prestazioni sono state rinviate in un anno. Il dato non e' tra quelli da pubblicare, e lui non ha un interesse personale. Deve comunque ricevere una risposta?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si'. Dal 2016 esiste un diritto di accesso a tutti i dati e i documenti detenuti dall'amministrazione, anche oltre gli obblighi di pubblicazione. E' l'accesso civico generalizzato, il FOIA italiano."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La regola e' la conoscibilita', il rifiuto e' l'eccezione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. La portata del diritto. La procedura, con i controinteressati e i tempi. I limiti, relativi e assoluti. E il bilanciamento con la protezione dei dati personali."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 5, comma 2, del decreto 33: chiunque ha diritto di accedere ai dati e ai documenti detenuti dalle pubbliche amministrazioni, ulteriori rispetto a quelli oggetto di pubblicazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scopo e' dichiarato: favorire forme diffuse di controllo sulle funzioni istituzionali e sull'uso delle risorse pubbliche, e promuovere la partecipazione al dibattito pubblico."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come per l'accesso civico semplice, non ci sono limiti di legittimazione: chiunque puo' chiedere. E la richiesta non deve essere motivata."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una svolta culturale: l'amministrazione non chiede piu' perche' vuoi sapere. Deve spiegare lei perche', eventualmente, non puo' darti quel dato."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rilascio e' gratuito, salvo il rimborso del costo effettivamente sostenuto per riprodurre i documenti su supporti materiali."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'oggetto sono dati e documenti che l'amministrazione detiene gia'. Non si puo' pretendere che l'amministrazione crei documenti nuovi o faccia elaborazioni apposta per rispondere."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: una associazione di pazienti chiede il numero di interventi eseguiti da un reparto in un anno, se il dato esiste gia' nei sistemi aziendali. E' una richiesta tipica di accesso generalizzato."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il FOIA non e' limitato ai dati a pubblicazione obbligatoria. Quello e' l'accesso civico semplice; il generalizzato va oltre."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tutto cio' che l'amministrazione detiene, salvo limiti precisi."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La richiesta si presenta, anche per via telematica, all'ufficio che detiene i dati, all'ufficio relazioni con il pubblico o a un altro ufficio indicato nella sezione Amministrazione trasparente."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve un modulo obbligatorio: basta indicare con chiarezza i dati o i documenti richiesti. Una richiesta troppo generica puo' essere precisata insieme al richiedente."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se ci sono controinteressati, cioe' persone i cui interessi privati potrebbero essere lesi, l'amministrazione li informa con raccomandata o per via telematica."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I controinteressati hanno dieci giorni per presentare una motivata opposizione. Nel frattempo il termine per rispondere resta sospeso."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il procedimento si conclude in trenta giorni con un provvedimento espresso e motivato. Rifiuto, differimento e limitazione devono indicare quale limite della legge si applica."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'accesso e' accolto nonostante l'opposizione, i dati non si trasmettono subito: devono passare almeno quindici giorni dalla comunicazione al controinteressato, per permettergli di reagire."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contro il diniego, anche parziale, o contro il silenzio, il richiedente puo' chiedere il riesame all'RPCT, che decide entro venti giorni. Poi c'e' il ricorso al giudice amministrativo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli atti di regioni ed enti locali ci si puo' rivolgere anche al difensore civico. E il controinteressato, a sua volta, puo' chiedere il riesame se l'accesso viene concesso."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: nel FOIA il silenzio non vale come accoglimento e non chiude la partita. Si attiva il riesame dell'RPCT, e poi il giudice."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dieci giorni per opporsi, trenta per decidere, venti per il riesame."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "I limiti sono nell'articolo 5-bis. Il primo gruppo protegge interessi pubblici: l'accesso si rifiuta se serve a evitare un pregiudizio concreto a uno di questi interessi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono la sicurezza e l'ordine pubblico, la sicurezza nazionale, la difesa, le relazioni internazionali, la stabilita' finanziaria ed economica dello Stato, le indagini sui reati, le attivita' ispettive."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo gruppo protegge interessi privati: la protezione dei dati personali, la liberta' e la segretezza della corrispondenza, gli interessi economici e commerciali, compresi proprieta' intellettuale e segreti commerciali."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In un'azienda sanitaria, per esempio, possono entrare in gioco gli interessi commerciali dei fornitori, come i segreti industriali contenuti in un'offerta di gara."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questi sono limiti relativi: non basta che l'interesse sia coinvolto, serve un pregiudizio concreto. L'amministrazione deve valutare caso per caso."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono le eccezioni assolute: il segreto di Stato, gli altri divieti di divulgazione previsti dalla legge e i casi di esclusione della legge 241. Qui non c'e' bilanciamento: l'accesso e' escluso."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E due regole di proporzione. Se il limite riguarda solo una parte del documento, si concede l'accesso al resto. E se basta rinviare nel tempo, l'accesso non si nega: si differisce."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: la presenza di un limite non comporta automaticamente il rifiuto. Prima vanno valutati l'accesso parziale e il differimento."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Limiti relativi da pesare, eccezioni assolute da rispettare."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "In sanita' il limite piu' frequente e' la protezione dei dati personali. Molti documenti contengono nomi, condizioni di salute, dati di dipendenti e pazienti."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando l'amministrazione nega l'accesso per tutelare i dati personali e il richiedente chiede il riesame, l'RPCT deve sentire il Garante per la protezione dei dati personali."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Garante si pronuncia entro dieci giorni, e per quel periodo il termine per decidere il riesame resta sospeso."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il dato aggregato sul numero di interventi di un reparto si puo' dare. L'elenco dei pazienti operati, con i loro nomi, no: prevale la tutela dei dati sanitari."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso la soluzione sta nel mezzo: si oscurano i dati personali e si concede il resto del documento. E' l'accesso parziale, che la legge impone di considerare."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi lavora in un ufficio che riceve una richiesta deve quindi chiedersi due cose: il dato esiste gia'? E ci sono persone da tutelare, da informare come controinteressati?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le indicazioni operative sono nelle linee guida dell'ANAC, adottate d'intesa con il Garante per la protezione dei dati personali, con la delibera 1309 del 2016."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E attenzione alle responsabilita': negare o limitare l'accesso fuori dai casi previsti dall'articolo 5-bis e' elemento di valutazione della responsabilita' dirigenziale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il FOIA non e' uno strumento per ottenere dati sanitari di altre persone. La privacy resta un limite forte, soprattutto in sanita'."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Aprire i dati dell'amministrazione, proteggere le persone."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'accesso civico generalizzato spetta a chiunque, senza motivazione, su dati e documenti detenuti dall'amministrazione, ulteriori rispetto a quelli da pubblicare."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: i controinteressati hanno dieci giorni per opporsi; la risposta arriva in trenta giorni; contro il diniego o il silenzio c'e' il riesame dell'RPCT in venti giorni, poi il giudice."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i limiti relativi dell'articolo 5-bis, pubblici e privati, richiedono un pregiudizio concreto; le eccezioni assolute escludono l'accesso; prima del rifiuto si valutano accesso parziale e differimento."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: nel FOIA non si deve spiegare perche' si chiede un dato. La motivazione e' richiesta solo nell'accesso documentale."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: conoscere e' la regola, i limiti sono precisi, la privacy si protegge. Nell'ultima lezione del modulo: chi vigila sulla trasparenza e che cosa si rischia."
+ }
+]

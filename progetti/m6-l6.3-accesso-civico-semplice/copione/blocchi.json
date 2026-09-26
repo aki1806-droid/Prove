@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Cerchi in Amministrazione trasparente i tassi di assenza del personale della tua azienda. La pagina e' vuota, oppure ferma a due anni fa. Eppure quel dato andava pubblicato. Che cosa puoi fare?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puoi chiederlo. Non devi spiegare perche', non devi pagare e non devi dimostrare di essere coinvolto. E' l'accesso civico semplice."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'amministrazione non potra' limitarsi a rispondere a te: dovra' mettere il dato sul sito, a disposizione di tutti. Vediamo come funziona, passo per passo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Se doveva essere pubblicato, chiunque puo' pretenderlo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Che cosa si puo' chiedere. Chi puo' chiedere, come e a quale ufficio. I tempi e la risposta, con i rimedi. E il confronto con l'accesso documentale della legge 241."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 5, comma 1, del decreto 33: l'obbligo di pubblicare dati, documenti e informazioni comporta il diritto di chiunque di richiederli, se la pubblicazione e' stata omessa."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'oggetto e' quindi preciso: solo cio' che la legge obbliga a pubblicare. L'accesso civico semplice e' la risposta a un inadempimento dell'amministrazione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio e' semplice: se la legge dice che un dato deve stare sul sito e li' non c'e', il cittadino non deve aspettare che l'amministrazione se ne accorga. Puo' chiederlo subito."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vale anche quando la pubblicazione e' incompleta, o non aggiornata. Se l'obbligo c'e' e il dato manca, anche solo in parte, si puo' chiedere."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Qualche esempio in sanita': i tempi medi di attesa per una prestazione, l'elenco delle strutture accreditate, i compensi di un consulente, i criteri di valutazione di un concorso, i premi distribuiti al personale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ottenere dati che non rientrano negli obblighi di pubblicazione serve invece un altro strumento, l'accesso civico generalizzato. Lo vedremo nella prossima lezione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'accesso civico semplice non riguarda qualsiasi documento. Riguarda solo dati e documenti a pubblicazione obbligatoria non pubblicati."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un obbligo mancato fa scattare un diritto di tutti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Chi puo' chiedere? Chiunque. L'esercizio del diritto non e' sottoposto ad alcuna limitazione quanto alla legittimazione del richiedente: cittadini, associazioni, giornalisti, anche i dipendenti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve un interesse diretto, concreto e attuale. Non serve essere dipendente, paziente o residente. Basta la richiesta."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la richiesta non deve essere motivata. L'amministrazione non puo' chiedere perche' vuoi quel dato, ne' valutare se il motivo e' buono."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si puo' presentare anche per via telematica, secondo il codice dell'amministrazione digitale. Una posta elettronica certificata o un modulo online sono sufficienti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve un modulo obbligatorio: basta che la richiesta indichi con chiarezza il dato o il documento che manca. Molte aziende, comunque, mettono a disposizione un modello nella sezione del sito."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A chi? La legge offre piu' strade: l'ufficio che detiene i dati, l'ufficio relazioni con il pubblico, oppure un altro ufficio indicato nella sezione Amministrazione trasparente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, proprio per i dati a pubblicazione obbligatoria, anche il responsabile della prevenzione della corruzione e della trasparenza, l'RPCT."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rilascio e' gratuito. Si paga soltanto il rimborso del costo effettivo sostenuto per riprodurre i documenti su supporti materiali."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: nell'accesso civico non si chiede il motivo. Una richiesta respinta perche' non motivata sarebbe illegittima."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chiunque puo' chiedere: senza motivare, senza pagare."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il procedimento si conclude entro trenta giorni dalla presentazione della domanda, con un provvedimento espresso e motivato, comunicato al richiedente."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la richiesta riguarda dati a pubblicazione obbligatoria, l'amministrazione non si limita a inviarli: li pubblica sul sito e comunica al richiedente il collegamento."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cosi' il dato torna disponibile per tutti, non solo per chi l'ha chiesto. La richiesta di uno ripara l'inadempimento verso l'intera collettivita'."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' una conseguenza interna. Quando l'accesso riguarda dati che andavano pubblicati, l'RPCT deve segnalare l'inadempimento."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La segnalazione va, secondo la gravita', all'ufficio per i procedimenti disciplinari, al vertice dell'amministrazione e all'organismo indipendente di valutazione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto e' chiaro anche sulle responsabilita': i dirigenti degli uffici, insieme all'RPCT, assicurano la regolare attuazione dell'accesso civico. E' un dovere, non un favore al cittadino."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'amministrazione non risponde nei trenta giorni, o risponde di no, il richiedente puo' chiedere un riesame all'RPCT, che decide entro venti giorni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione al silenzio: qui non vale come accoglimento. Chi non riceve risposta non ottiene il dato per il solo passare del tempo, e deve attivare i rimedi."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contro la decisione, o contro il silenzio, resta il ricorso al tribunale amministrativo regionale, secondo il codice del processo amministrativo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: chiedi all'ufficio relazioni con il pubblico i tempi medi di attesa non pubblicati. Entro trenta giorni li trovi sul sito, e ricevi il collegamento."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: la risposta all'accesso civico semplice non e' una copia riservata al richiedente. Il dato viene pubblicato per tutti."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta giorni, un dato pubblicato per tutti, un collegamento per te."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Mettiamo a confronto i due accessi. Il documentale della legge 241 spetta a chi ha un interesse diretto, concreto e attuale; il civico semplice spetta a chiunque."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La richiesta documentale va motivata; quella civica no. Il documentale serve a tutelare una posizione personale; il civico serve a far rispettare un obbligo di trasparenza."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel documentale l'oggetto e' qualsiasi documento collegato al suo interesse, salvo le esclusioni. Nel civico semplice l'oggetto e' solo cio' che doveva essere pubblicato."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In comune hanno il termine di trenta giorni per rispondere e la possibilita' di ricorrere al giudice amministrativo. E i due strumenti possono convivere."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi il terzo strumento, l'accesso civico generalizzato. Spetta anche lui a chiunque, senza motivare, ma riguarda dati non soggetti a pubblicazione e incontra limiti piu' ampi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un criterio pratico: prima di scrivere, controlla in Amministrazione trasparente se il dato dovrebbe esserci. Se la legge lo impone, usa l'accesso civico semplice."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione a non confonderli: chi chiede i propri verbali di valutazione per difendersi usa l'accesso documentale; chi chiede i criteri non pubblicati di un concorso puo' usare l'accesso civico."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Uno difende una posizione, l'altro difende la trasparenza."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'accesso civico semplice riguarda solo dati, informazioni e documenti a pubblicazione obbligatoria che non sono stati pubblicati."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: lo puo' presentare chiunque, senza motivazione e gratuitamente, all'ufficio che detiene i dati, all'URP, a un altro ufficio indicato o all'RPCT."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: si conclude in trenta giorni; il dato viene pubblicato e si comunica il collegamento; contro il diniego o il silenzio c'e' il riesame dell'RPCT e poi il giudice."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: l'accesso civico semplice non richiede un interesse personale. Quello e' il requisito dell'accesso documentale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un dato che manca, una richiesta semplice, una pubblicazione per tutti. Nella prossima lezione: l'accesso civico generalizzato, il FOIA, e i suoi limiti."
+ }
+]

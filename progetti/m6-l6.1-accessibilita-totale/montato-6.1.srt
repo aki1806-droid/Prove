@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:13,230
+Vuoi sapere quanto spende la tua azienda sanitaria per le consulenze, o come sono stati scelti i direttori. Non hai un interesse personale da difendere. Puoi saperlo lo stesso? Oggi si'.
+
+2
+00:00:13,230 --> 00:00:23,650
+Fino al 2013 la risposta era diversa. Per chiedere un documento serviva, di regola, un interesse diretto. Poi l'idea di fondo e' cambiata: l'amministrazione deve essere come una casa di vetro.
+
+3
+00:00:23,650 --> 00:00:28,250
+Dalla carta che serve a me, alla carta che e' di tutti.
+
+4
+00:00:28,250 --> 00:00:42,050
+Quattro passaggi. Il limite dell'accesso della legge 241. L'idea di accessibilita' totale del decreto 33 del 2013. I due strumenti e chi deve rispettarli. E il legame tra trasparenza e lotta alla corruzione.
+
+5
+00:00:42,050 --> 00:00:51,940
+Nella lezione precedente abbiamo visto l'accesso documentale. Spetta solo a chi ha un interesse diretto, concreto e attuale, collegato a una situazione giuridicamente tutelata.
+
+6
+00:00:51,940 --> 00:01:01,600
+La legge 241 lo dice in modo esplicito: non sono ammissibili richieste di accesso preordinate a un controllo generalizzato dell'operato delle pubbliche amministrazioni.
+
+7
+00:01:01,600 --> 00:01:10,710
+E' un accesso difensivo: serve a chi deve tutelare una propria posizione. Protegge il singolo, ma non permette al cittadino di controllare come si usano le risorse pubbliche.
+
+8
+00:01:10,710 --> 00:01:21,700
+La 241 e' del 1990 e nasce per proteggere il cittadino dentro il procedimento. Non pensava ancora a internet, ne' a un controllo diffuso sui conti e sulle scelte pubbliche.
+
+9
+00:01:21,700 --> 00:01:32,990
+Un esempio: un'associazione di cittadini vuole capire quanto paga un'azienda sanitaria per un servizio. Con la sola 241, senza un interesse qualificato, la richiesta non sarebbe ammissibile.
+
+10
+00:01:32,990 --> 00:01:40,540
+E anche quando l'accesso e' ammesso, riguarda solo i documenti che servono a quella posizione. Chi guarda l'amministrazione da fuori, resta fuori.
+
+11
+00:01:40,540 --> 00:01:48,870
+Occhio a un distrattore: la legge 241 non ha mai consentito un controllo diffuso sull'amministrazione. Lo esclude espressamente.
+
+12
+00:01:48,870 --> 00:01:53,470
+Un accesso per difendersi, non per controllare.
+
+13
+00:01:53,470 --> 00:02:05,690
+La svolta arriva con la legge anticorruzione, la 190 del 2012. Delega il governo a riordinare gli obblighi di pubblicita' e trasparenza. Nasce cosi' il decreto legislativo 33 del 2013.
+
+14
+00:02:05,690 --> 00:02:13,670
+L'articolo 1 da' la definizione: la trasparenza e' accessibilita' totale dei dati e dei documenti detenuti dalle pubbliche amministrazioni.
+
+15
+00:02:13,670 --> 00:02:25,170
+Con tre scopi: tutelare i diritti dei cittadini, promuovere la loro partecipazione all'attivita' amministrativa e favorire forme diffuse di controllo sulle funzioni istituzionali e sull'uso delle risorse pubbliche.
+
+16
+00:02:25,170 --> 00:02:33,410
+La parola chiave e' chiunque. Non serve dimostrare un interesse: la trasparenza e' un diritto di tutti, non solo di chi e' coinvolto in un procedimento.
+
+17
+00:02:33,410 --> 00:02:43,380
+La trasparenza concorre ad attuare il principio democratico e i principi costituzionali di imparzialita' e buon andamento. Serve a un'amministrazione aperta, al servizio del cittadino.
+
+18
+00:02:43,380 --> 00:02:52,070
+E' lo spirito dell'amministrazione aperta: un'amministrazione che rende conto di cio' che fa, apre i propri dati e permette ai cittadini di partecipare e di controllare.
+
+19
+00:02:52,070 --> 00:03:01,120
+E ha un peso preciso: e' un livello essenziale delle prestazioni, ai sensi dell'articolo 117 della Costituzione. Vale quindi in modo uniforme in tutto il paese.
+
+20
+00:03:01,120 --> 00:03:08,580
+Non e' pero' assoluta. Restano fermi il segreto di Stato, il segreto d'ufficio, il segreto statistico e la protezione dei dati personali.
+
+21
+00:03:08,580 --> 00:03:20,540
+Nel 2016 il decreto legislativo 97 riscrive il testo e aggiunge l'accesso civico generalizzato, sul modello del Freedom of Information Act. Da allora si parla di FOIA anche in Italia.
+
+22
+00:03:20,540 --> 00:03:28,950
+Attenzione: trasparenza non significa che tutto si pubblica. La legge stessa fissa dei limiti, a partire dalla protezione dei dati personali.
+
+23
+00:03:28,950 --> 00:03:33,550
+Accessibilita' totale, dentro limiti precisi.
+
+24
+00:03:33,550 --> 00:03:43,750
+L'articolo 2 dice come si realizza questa liberta' di accesso di chiunque. Con due strumenti: la pubblicazione sui siti istituzionali e l'accesso civico.
+
+25
+00:03:43,750 --> 00:03:53,090
+Pubblicare significa mettere dati e documenti sul sito, in modo che chiunque possa consultarli direttamente, senza autenticazione e senza identificarsi.
+
+26
+00:03:53,090 --> 00:04:01,070
+I due strumenti si completano. Cio' che e' obbligatorio pubblicare deve stare sul sito; per tutto il resto si puo' presentare una richiesta di accesso civico.
+
+27
+00:04:01,070 --> 00:04:10,200
+Gli articoli 3 e 7 aggiungono: cio' che e' pubblico si puo' conoscere, usare gratuitamente e riutilizzare, citando la fonte e rispettandone l'integrita'.
+
+28
+00:04:10,200 --> 00:04:18,110
+Per questo i dati vanno pubblicati in formato aperto: leggibili e riutilizzabili anche dai programmi informatici, non solo da chi li guarda sullo schermo.
+
+29
+00:04:18,110 --> 00:04:29,230
+Chi deve rispettare il decreto? Tutte le pubbliche amministrazioni indicate dal testo unico sul pubblico impiego, il 165 del 2001. Tra queste ci sono le aziende e gli enti del servizio sanitario.
+
+30
+00:04:29,230 --> 00:04:38,610
+L'articolo 41 lo ribadisce: aziende sanitarie territoriali, aziende ospedaliere ed enti del servizio sanitario sono tenuti a tutti gli obblighi di pubblicazione.
+
+31
+00:04:38,610 --> 00:04:50,180
+Il decreto si applica, in quanto compatibile, anche a enti pubblici economici, ordini professionali, societa' in controllo pubblico e ad alcuni enti privati finanziati e controllati dalla pubblica amministrazione.
+
+32
+00:04:50,180 --> 00:05:00,560
+E l'accesso della legge 241 non sparisce. Il decreto dice che restano ferme le forme di accesso degli interessati previste dalla legge 241. I due sistemi convivono.
+
+33
+00:05:00,560 --> 00:05:09,450
+Un distrattore frequente: l'accesso civico non ha sostituito l'accesso documentale. Sono strumenti diversi, con scopi diversi, e restano entrambi.
+
+34
+00:05:09,450 --> 00:05:14,470
+Pubblicare e rispondere: due strade verso la stessa casa di vetro.
+
+35
+00:05:14,470 --> 00:05:21,420
+Perche' la trasparenza sta nella legge anticorruzione? Perche' cio' che e' visibile e' piu' difficile da piegare a interessi privati.
+
+36
+00:05:21,420 --> 00:05:30,360
+Se incarichi, compensi, contratti e pagamenti sono pubblici, chiunque puo' accorgersi di un'anomalia. La trasparenza diventa una misura di prevenzione, non solo un diritto.
+
+37
+00:05:30,360 --> 00:05:39,280
+Per questo, di regola, lo stesso dirigente e' responsabile della prevenzione della corruzione e della trasparenza. E la trasparenza entra nei piani anticorruzione dell'ente.
+
+38
+00:05:39,280 --> 00:05:49,650
+Per chi lavora in azienda sanitaria significa una cosa concreta: i dati che produci o gestisci possono finire in Amministrazione trasparente, e devono essere completi, corretti e aggiornati.
+
+39
+00:05:49,650 --> 00:06:00,970
+Un esempio in sanita': le aziende pubblicano le procedure per nominare direttore generale, sanitario e amministrativo, e per affidare gli incarichi di struttura. Chiunque puo' vedere come e' stata fatta la scelta.
+
+40
+00:06:00,970 --> 00:06:10,220
+Lo stesso vale per i pagamenti. Le aziende del servizio sanitario pubblicano i dati sulle spese e sui pagamenti effettuati, distinti per tipo di lavoro, bene o servizio.
+
+41
+00:06:10,220 --> 00:06:19,740
+Attenzione: la trasparenza non e' solo un adempimento informatico. Il decreto la collega alla responsabilita' dei dirigenti e alla valutazione della performance.
+
+42
+00:06:19,740 --> 00:06:24,340
+Cio' che si vede, chiunque lo puo' controllare.
+
+43
+00:06:24,340 --> 00:06:37,620
+Le tre cose che ti chiederanno. La prima: la legge 241 esclude il controllo generalizzato; il decreto 33 del 2013 definisce la trasparenza come accessibilita' totale dei dati e dei documenti.
+
+44
+00:06:37,620 --> 00:06:47,520
+La seconda: la trasparenza si realizza con la pubblicazione sui siti e con l'accesso civico, e vale per tutte le pubbliche amministrazioni, aziende sanitarie comprese.
+
+45
+00:06:47,520 --> 00:06:59,410
+La terza: il decreto nasce dalla legge anticorruzione 190 del 2012; nel 2016 il decreto 97 introduce l'accesso civico generalizzato, il FOIA italiano.
+
+46
+00:06:59,410 --> 00:07:07,310
+L'ultimo distrattore: accessibilita' totale non vuol dire assenza di limiti. Restano segreti e protezione dei dati personali.
+
+47
+00:07:07,310 --> 00:07:16,060
+In sintesi: da un accesso per difendersi a una casa di vetro aperta a tutti. Nella prossima lezione entriamo nella sezione Amministrazione trasparente del sito.

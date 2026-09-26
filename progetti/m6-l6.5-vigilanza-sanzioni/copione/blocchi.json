@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un obbligo di pubblicazione non viene rispettato per mesi. Chi se ne accorge? Chi deve intervenire? E chi ne risponde, il dirigente, l'ufficio o l'intera azienda?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trasparenza non si regge sulla buona volonta'. Ha dei responsabili dentro l'amministrazione, un'autorita' che vigila da fuori e conseguenze precise per chi non rispetta gli obblighi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una regola senza controlli resta sulla carta."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Chi controlla dentro l'amministrazione. Il controllo esterno dell'ANAC. Le responsabilita' di chi non adempie. E le sanzioni, quelle vere, senza le semplificazioni delle dispense."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La figura centrale e' il responsabile della prevenzione della corruzione. Per l'articolo 43 del decreto 33 svolge, di norma, anche le funzioni di responsabile per la trasparenza. Da qui la sigla RPCT."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' nominato dall'organo di indirizzo dell'amministrazione, di norma tra i dirigenti di ruolo in servizio. Nelle aziende sanitarie la scelta spetta quindi alla direzione aziendale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'RPCT svolge stabilmente un'attivita' di controllo: verifica che le informazioni pubblicate siano complete, chiare e aggiornate."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando trova ritardi o inadempimenti, li segnala all'organo di indirizzo politico, all'organismo indipendente di valutazione, all'ANAC e, nei casi piu' gravi, all'ufficio per i procedimenti disciplinari."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma l'RPCT non lavora da solo. I dirigenti responsabili degli uffici garantiscono il tempestivo e regolare flusso delle informazioni da pubblicare. Sono loro a fornire i dati."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ognuno ha un ruolo: il codice di comportamento dei dipendenti pubblici chiede a ciascuno di collaborare agli obblighi di trasparenza, fornendo i dati in modo completo e puntuale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trasparenza entra anche nella programmazione. Una sezione del piano triennale di prevenzione della corruzione indica chi trasmette e chi pubblica ogni informazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la promozione di maggiori livelli di trasparenza e' un obiettivo strategico: si traduce in obiettivi organizzativi e individuali, da inserire nella programmazione dell'ente."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi, nelle amministrazioni piu' grandi, questa programmazione confluisce nel piano integrato di attivita' e organizzazione, il PIAO, nella sezione dedicata a rischi corruttivi e trasparenza."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organismo indipendente di valutazione, l'OIV, verifica la coerenza tra piano anticorruzione e piano della performance, e usa i dati sulla trasparenza per valutare dirigenti e responsabili."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'RPCT non e' l'unico responsabile della pubblicazione. I dirigenti degli uffici devono garantire il flusso dei dati."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un responsabile che controlla, dirigenti che forniscono i dati."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Da fuori vigila l'Autorita' nazionale anticorruzione, l'ANAC. Controlla l'esatto adempimento degli obblighi di pubblicazione, con poteri ispettivi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' chiedere notizie, informazioni, atti e documenti alle amministrazioni, e controllare l'operato dei responsabili per la trasparenza, anche chiedendo informazioni all'OIV."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ANAC puo' intervenire anche a seguito di segnalazioni, per esempio di cittadini o di associazioni che trovano un obbligo non rispettato in Amministrazione trasparente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se trova un inadempimento, ordina di pubblicare i dati mancanti entro un termine non superiore a trenta giorni."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il mancato rispetto dell'ordine dell'ANAC costituisce illecito disciplinare. L'ANAC lo segnala all'ufficio disciplinare, ai vertici dell'amministrazione e all'OIV."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se del caso informa anche la Corte dei conti, per le altre forme di responsabilita'. E rende pubblici i propri provvedimenti sugli inadempimenti."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ANAC definisce anche i criteri, i modelli e gli schemi standard per organizzare la sezione Amministrazione trasparente, cosi' da renderla uniforme in tutte le amministrazioni."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: l'ANAC non si limita a raccomandare. Puo' ordinare la pubblicazione con un termine, e il mancato rispetto dell'ordine e' illecito disciplinare."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un ordine, trenta giorni, un illecito se si ignora."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 46 descrive le conseguenze generali. L'inadempimento degli obblighi di pubblicazione e il rifiuto illegittimo dell'accesso civico hanno tre effetti."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo: sono elemento di valutazione della responsabilita' dirigenziale. Secondo: possono causare responsabilita' per danno all'immagine dell'amministrazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il danno all'immagine si fa valere davanti alla Corte dei conti: oltre al disservizio, l'amministrazione perde credibilita' agli occhi dei cittadini."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo: sono comunque valutati ai fini della retribuzione di risultato e del trattamento accessorio collegato alla performance individuale dei responsabili."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi e' chiamato a rispondere non e' responsabile se prova che l'inadempimento e' dipeso da una causa a lui non imputabile."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono poi conseguenze sugli atti. Gli incarichi di consulenza non pubblicati non acquistano efficacia e i compensi non si possono pagare; chi li paga risponde in via disciplinare."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sovvenzioni sopra i mille euro non producono effetti senza pubblicazione. E se mancano i dati sugli enti e le societa' controllate, e' vietato versare somme a loro favore."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda sanitaria affida una consulenza e non la pubblica. L'incarico non e' efficace, il compenso resta bloccato e il dirigente che paga comunque ne risponde."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: l'inadempimento non resta senza effetti se nessuno lo contesta. Pesa sulla valutazione e, in certi casi, blocca l'atto stesso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Responsabilita', risultato, efficacia degli atti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "E le sanzioni pecuniarie? Qui molte dispense sbagliano. L'articolo 47 non punisce con una multa qualsiasi mancata pubblicazione: riguarda casi precisi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sanzione va da cinquecento a diecimila euro per la mancata o incompleta comunicazione dei dati dell'articolo 14: situazione patrimoniale, partecipazioni in societa', compensi dei titolari di incarichi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stessa sanzione si applica al dirigente che non comunica gli emolumenti complessivi percepiti, e a chi non pubblica i dati sui pagamenti dell'amministrazione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora per gli obblighi sugli enti e le societa' controllate dell'articolo 22, e per gli amministratori che non comunicano i propri incarichi e compensi."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il direttore generale che non comunica i compensi o le partecipazioni richieste dall'articolo 14 rischia la sanzione, e il provvedimento viene pubblicato sul sito."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sanzioni sono irrogate dall'ANAC, secondo la legge generale sulle sanzioni amministrative, e il provvedimento viene a sua volta pubblicato sul sito dell'amministrazione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la sanzione da cinquecento a diecimila euro non vale per ogni omessa pubblicazione. Per le altre ci sono responsabilita' dirigenziale, disciplinare e sulla performance."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sanzioni mirate, responsabilita' diffuse."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: dentro l'amministrazione vigila l'RPCT, che controlla e segnala; i dirigenti garantiscono il flusso dei dati; l'OIV collega trasparenza e performance."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: da fuori vigila l'ANAC, che puo' ordinare di pubblicare entro trenta giorni; il mancato rispetto dell'ordine e' illecito disciplinare."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: l'inadempimento pesa sulla responsabilita' dirigenziale e sulla retribuzione di risultato; la sanzione da cinquecento a diecimila euro riguarda soprattutto i dati dell'articolo 14 e degli enti controllati."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: nelle aziende sanitarie la trasparenza non e' affare del solo ufficio informatico. Ogni ufficio che produce dati ne e' responsabile."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: chi controlla dentro, chi vigila fuori, conseguenze reali per chi non adempie. Si chiude il modulo sulla trasparenza. Nel prossimo: il trattamento dei dati personali."
+ }
+]
