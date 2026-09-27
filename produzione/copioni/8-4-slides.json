@@ -1,0 +1,390 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Lezione 8.4",
+"title": "Domande e interruzioni",
+"sub": "Parlare in pubblico senza recitare"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Quasi tutti preparano il discorso<br><span class=\"gold\">e non preparano le domande.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Ed è un errore di priorità,<br><span class=\"gold\">non di diligenza.</span>"
+},
+{
+"file": "c04",
+"layout": "swap",
+"kicker": "cosa controlli e cosa no",
+"rows": [
+[
+"Il discorso",
+"Le domande"
+],
+[
+"Lo hai scritto tu",
+"Non le hai scritte tu"
+],
+[
+"Lo controlli",
+"Non le controlli"
+]
+]
+},
+{
+"file": "c05",
+"layout": "barre",
+"kicker": "cosa ricordano davvero",
+"barre": [
+{
+"et": "il discorso",
+"v": 38,
+"val": "preparato"
+},
+{
+"et": "le domande",
+"v": 88,
+"val": "vive"
+}
+],
+"acceso": 1,
+"title": "Le persone ricordano la parte delle domande più del discorso."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Perché è viva. E perché è il momento<br><span class=\"gold\">in cui si vede se quello che hai detto regge.</span>"
+},
+{
+"file": "c07",
+"layout": "memo",
+"title": "Il discorso lo hai scritto tu.<br>Le domande no,<br>e per questo valgono di più."
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Le domande sono di quattro tipi.<br><span class=\"gold\">Riconoscere il tipo prima di rispondere è quasi tutta la tecnica.</span>"
+},
+{
+"file": "c09",
+"layout": "table",
+"kicker": "i quattro tipi, e cosa si fa",
+"cols": [
+"Che domanda è",
+"Cosa si fa"
+],
+"rows": [
+[
+"Di chiarimento",
+"rispondi e vai avanti"
+],
+[
+"Obiezione vera",
+"riconosci, rispondi, non difenderti"
+],
+[
+"Fuori tema",
+"«ne parliamo dopo», e lo mantieni"
+],
+[
+"Ostile",
+"rispondi alla sala, non a lui"
+]
+]
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "Di chiarimento: non è un attacco,<br><span class=\"gold\">e non è un'obiezione.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Obiezione vera:<br><span class=\"gold\">non è d'accordo, e porta un argomento.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Riconosci, rispondi, e non difenderti.<br><span class=\"gold\">È il modulo sei, applicato in pubblico.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Fuori tema: riguarda altro,<br><span class=\"gold\">e spesso interessa solo a chi la fa.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "«Ne parliamo dopo.»<br><span class=\"gold\">E poi lo mantieni davvero: se non lo mantieni, l'hai solo rimandata.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"title": "E il quarto: <span class=\"gold\">ostile.</span><br>Che merita un discorso a parte."
+},
+{
+"file": "c16",
+"layout": "number",
+"num": "2",
+"unit": " secondi",
+"fill": 20,
+"title": "prima di rispondere. Vale per tutte e quattro, e sono i due secondi che quasi nessuno prende."
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Rispondere immediatamente comunica<br><span class=\"gold\">che avevi già la risposta pronta.</span>"
+},
+{
+"file": "c18",
+"layout": "memo",
+"title": "Cioè che non hai ascoltato la domanda:<br>stavi aspettando<br>di poter parlare."
+},
+{
+"file": "c19",
+"layout": "quote",
+"kicker": "e si può anche riformulare",
+"title": "«Quindi la domanda è se questo vale<br>anche per i turni notturni, giusto?»"
+},
+{
+"file": "c20",
+"layout": "flusso",
+"kicker": "cosa fa la riformulazione, tutto insieme",
+"passi": [
+{
+"et": "Verifica",
+"sub": "di aver capito"
+},
+{
+"et": "Ti dà tempo",
+"sub": "pensi mentre parli"
+},
+{
+"et": "Fa sentire",
+"sub": "a chi era in fondo"
+}
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Verifica di aver capito.<br><span class=\"gold\">E ti dà tempo per pensare mentre parli.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"title": "E fa sentire la domanda a chi era in fondo,<br><span class=\"gold\">che di solito è metà sala.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Poi c'è una risposta che vale più di tutte le altre,<br><span class=\"gold\">e quasi nessuno la usa.</span>"
+},
+{
+"file": "c24",
+"layout": "quote",
+"kicker": "la risposta più forte che hai",
+"title": "«Non lo so.<br>Me lo segno e ti rispondo.»"
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "In pubblico pesa ancora di più che in privato,<br><span class=\"gold\">perché tutti stanno guardando.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "E produce l'effetto opposto a quello che temi:<br><span class=\"gold\">aumenta la fiducia in tutto il resto.</span>"
+},
+{
+"file": "c27",
+"layout": "memo",
+"title": "Se ammetti quello che non sai,<br>quello che affermi<br>diventa credibile."
+},
+{
+"file": "c28",
+"layout": "bilancia",
+"kicker": "il conto dell'inventare",
+"ciclo": 6,
+"sx": {
+"et": "se nessuno se ne accorge",
+"peso": 1
+},
+"dx": {
+"et": "se qualcuno se ne accorge",
+"peso": 9
+},
+"title": "Non guadagni niente. Oppure perdi tutto."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "È un costo asimmetrico,<br><span class=\"gold\">ed è il conto che conviene fare prima.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Una condizione però.<br><span class=\"gold\">Segnarselo davvero, e rispondere davvero.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Il segnale è quello del modulo sei:<br><span class=\"gold\">non cerca una risposta.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Non c'è nessuna informazione che lo soddisferebbe,<br><span class=\"gold\">e questo si capisce subito.</span>"
+},
+{
+"file": "c34",
+"layout": "memo",
+"title": "E spesso non c'è nemmeno una domanda.<br>C'è un'affermazione<br>con un punto interrogativo in fondo."
+},
+{
+"file": "c35",
+"layout": "flusso",
+"kicker": "tre regole, e sono tre cose che si fanno",
+"passi": [
+{
+"et": "Alla sala",
+"sub": "non a lui"
+},
+{
+"et": "Una volta sola",
+"sub": "poi chiudi"
+},
+{
+"et": "Non vincere",
+"sub": "anche se hai ragione"
+}
+],
+"acceso": 2
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "La prima: rispondi alla sala, non a lui.<br><span class=\"gold\">Lo sguardo va sulle tre ancore, non sulla persona.</span>"
+},
+{
+"file": "c37",
+"layout": "swap",
+"kicker": "e la sala la percepisce prima di te",
+"rows": [
+[
+"Un duello",
+"Una risposta"
+],
+[
+"Guardi lui",
+"Guardi la sala"
+],
+[
+"Siete in due",
+"Siete in venti"
+]
+]
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "La seconda:<br><span class=\"gold\">rispondi una volta sola.</span>"
+},
+{
+"file": "c39",
+"layout": "pila",
+"kicker": "cosa succede se rilanci",
+"blocchi": [
+"una risposta",
+"una seconda risposta",
+"un'escalation"
+],
+"acceso": 2,
+"title": "La seconda risposta non è più informazione. E la sala la legge così."
+},
+{
+"file": "c40",
+"layout": "quote",
+"kicker": "chiude senza umiliare, e ti lascia il microfono",
+"title": "«Su questo la vediamo diversamente,<br>e vado avanti.»"
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "E la terza, la più difficile di tutto il modulo:<br><span class=\"gold\">non vincere.</span>"
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "La sala non premia chi vince.<br>Premia chi non ha avuto<br>bisogno di vincere."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Ultimo caso, frequente e sottovalutato:<br><span class=\"gold\">non chiede niente nessuno.</span>"
+},
+{
+"file": "c46",
+"layout": "quote",
+"kicker": "la prima cosa che funziona: chiedere una cosa precisa",
+"title": "«Quante di voi hanno avuto<br>lo stesso problema con i turni?»"
+},
+{
+"file": "c47",
+"layout": "swap",
+"kicker": "due frasi, e una sola è una domanda",
+"rows": [
+[
+"«Ci sono domande?»",
+"«Quante di voi...?»"
+],
+[
+"Un annuncio di chiusura",
+"Una cosa a cui rispondere"
+]
+]
+},
+{
+"file": "c48",
+"layout": "number",
+"num": "7",
+"unit": "",
+"fill": 70,
+"title": "Conta fino a sette prima di chiudere. Il silenzio dopo «ci sono domande» dura, per chi sta davanti, il triplo."
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "8.4 in un quadro",
+"celle": [
+{
+"cap": "Chiarimento",
+"et": "rispondi e vai avanti"
+},
+{
+"cap": "Obiezione",
+"et": "riconosci, non difenderti"
+},
+{
+"cap": "Fuori tema",
+"et": "dopo, e lo mantieni"
+},
+{
+"cap": "Ostile",
+"et": "alla sala, una volta, non vincere",
+"acceso": true
+}
+],
+"resta": "La sala premia chi non ha avuto bisogno di vincere."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 8.4",
+"sub": "laparolagiusta.it"
+}
+]

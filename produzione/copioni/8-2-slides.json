@@ -1,0 +1,437 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Lezione 8.2",
+"title": "Preparare senza imparare a memoria",
+"sub": "Parlare in pubblico senza recitare"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Chi impara un discorso parola per parola<br><span class=\"gold\">ottiene due cose.</span>"
+},
+{
+"file": "c03",
+"layout": "bilancia",
+"kicker": "e non pesano uguale",
+"ciclo": 6,
+"sx": {
+"et": "sicurezza, prima",
+"peso": 2
+},
+"dx": {
+"et": "fragilità, durante",
+"peso": 8
+},
+"title": "La prima la senti in camerino. La seconda in sala."
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Un testo a memoria<br><span class=\"gold\">ha un percorso solo.</span>"
+},
+{
+"file": "c05",
+"layout": "bivio",
+"kicker": "perdi una frase: cosa hai al posto suo",
+"da": "«...e quindi il punto era...»",
+"rami": [
+{
+"et": "un testo a memoria",
+"sub": "un buco, e il buco si vede"
+},
+{
+"et": "una scaletta a titoli",
+"sub": "un'altra strada per lo stesso punto"
+}
+],
+"acceso": 0,
+"title": "Con un percorso solo, perdere una frase è perdere la strada."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "e la perdi quasi sempre qui",
+"active": 0,
+"rows": [
+"Qualcuno entra",
+"Uno squillo",
+"Una domanda fuori tempo"
+]
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "Cioè proprio quando ti servirebbe<br><span class=\"gold\">fermarti un secondo e ripartire.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "E c'è un secondo costo,<br>più sottile — e in certi contesti più grave."
+},
+{
+"file": "c09",
+"layout": "memo",
+"title": "Un testo imparato si sente.<br>Non si <i>riconosce</i>: si <i>sente</i>."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "tre cose che la sala registra senza nominarle",
+"rows": [
+"Il ritmo troppo regolare",
+"Le pause nei posti sbagliati",
+"Lo sguardo che va in alto"
+]
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Sempre nello stesso modo.<br><span class=\"gold\">Sempre nello stesso punto.</span>"
+},
+{
+"file": "c12",
+"layout": "quote",
+"kicker": "quello che nessuno pensa",
+"title": "«Sta recitando.»"
+},
+{
+"file": "c13",
+"layout": "memo",
+"title": "Nessuno lo pensa. Ma lo registra.<br>E chi recita non viene creduto<br>allo stesso modo."
+},
+{
+"file": "c14",
+"layout": "flusso",
+"kicker": "cosa va a memoria e cosa no",
+"passi": [
+{
+"et": "Apertura",
+"sub": "le prime due frasi, parola per parola"
+},
+{
+"et": "In mezzo",
+"sub": "solo titoli, mai parole"
+},
+{
+"et": "Chiusura",
+"sub": "l'ultima frase, parola per parola"
+}
+],
+"acceso": 1
+},
+{
+"file": "c15",
+"layout": "statement",
+"title": "L'apertura: le prime due frasi.<br><span class=\"gold\">Lì l'attivazione è al picco.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "La chiusura: l'ultima frase.<br><span class=\"gold\">Perché è quella che resta.</span>"
+},
+{
+"file": "c17",
+"layout": "confronto",
+"occhio": "perché la chiusura è la parte difficile",
+"titoli": [
+"cominciare",
+"finire"
+],
+"righe": [
+{
+"et": "l'attenzione",
+"a": "ce l'hai già",
+"b": "devi meritartela",
+"segna": true
+},
+{
+"et": "quanto resta dopo",
+"a": "poco",
+"b": "quasi tutto",
+"segna": true
+},
+{
+"et": "quanto si prepara",
+"a": "sempre",
+"b": "quasi mai",
+"segna": true
+},
+{
+"et": "quanto dura",
+"a": "due frasi",
+"b": "una frase"
+}
+],
+"chiusa": "Finire bene è più difficile che cominciare bene, e si prepara meno."
+},
+{
+"file": "c18",
+"layout": "quote",
+"kicker": "come finisce chi non ha preparato la chiusura",
+"title": "«Ecco, direi che è tutto.»"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Cancella il discorso mentre lo chiude.<br><span class=\"gold\">Sono le chiusure di scarico del modulo quattro.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "In mezzo, invece, niente parole.<br><span class=\"gold\">Solo titoli.</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "quattro voci, una riga ciascuna",
+"rows": [
+"Il turno di martedì",
+"Perché non è un caso isolato",
+"I due dati",
+"Cosa chiedo"
+]
+},
+{
+"file": "c23",
+"layout": "memo",
+"title": "Sono quattro righe.<br>Non è un discorso: è una <i>mappa</i>."
+},
+{
+"file": "c24",
+"layout": "ponte",
+"kicker": "cosa ti riporta dall'altra parte",
+"sx": "hai perso la frase",
+"dx": "riparti dal titolo",
+"vuoto": "senza scaletta, qui ti fermi",
+"ponte": "la scaletta a titoli",
+"title": "Chi conosce i titoli ha sempre una via di fuga."
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Le parole le trova sul momento.<br><span class=\"gold\">E le trova, perché quella cosa la sa.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "E qui arriva la regola<br>che decide se un punto sta in scaletta."
+},
+{
+"file": "c27",
+"layout": "number",
+"num": "3",
+"unit": " minuti",
+"fill": 45,
+"title": "senza appunti, su quel punto. Se non ci riesci, quel punto non lo sai abbastanza per metterlo in scaletta."
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Meglio toglierlo<br><span class=\"gold\">che portarlo a memoria.</span>"
+},
+{
+"file": "c29",
+"layout": "pila",
+"kicker": "cosa succede sotto una domanda",
+"blocchi": [
+"il punto crolla",
+"e si porta dietro il resto",
+"e la sala lo vede"
+],
+"acceso": 0,
+"title": "Un punto imparato e non saputo crolla in tre secondi."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Ed è una regola scomoda,<br><span class=\"gold\">perché il punto che non regge è quello a cui tieni di più.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "E adesso la preparazione che funziona.<br><span class=\"gold\">È una sola, ed è scomoda anche quella.</span>"
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "tutta la preparazione, in tre righe",
+"rows": [
+"Ad alta voce",
+"In piedi",
+"Almeno due volte"
+]
+},
+{
+"file": "c34",
+"layout": "strati",
+"kicker": "cosa nasconde il ripasso a mente",
+"sopra": "«a mente va tutto bene»",
+"sotto": [
+"una frase impronunciabile",
+"il fiato che manca a metà",
+"un passaggio che detto non sta in piedi"
+]
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Chiarissimo sulla carta.<br><span class=\"gold\">Detto, non sta in piedi.</span>"
+},
+{
+"file": "c36",
+"layout": "memo",
+"title": "A mente va sempre tutto bene,<br>perché a mente<br>non stai parlando."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Due passaggi bastano.<br><span class=\"gold\">E la seconda volta senza guardare la scaletta.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "È lì che scopri quali titoli non reggono:<br><span class=\"gold\">sono quelli che non ti vengono in mente.</span>"
+},
+{
+"file": "c39",
+"layout": "swap",
+"kicker": "perché «in piedi» non è un dettaglio",
+"rows": [
+[
+"Da seduto",
+"In piedi"
+],
+[
+"Il fiato che hai adesso",
+"Il fiato che avrai"
+],
+[
+"Una prova diversa",
+"La stessa cosa che farai"
+]
+]
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Ultima cosa: la durata.<br><span class=\"gold\">Quasi tutti preparano troppo per il tempo che hanno.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"title": "Un punto<br>ogni tre minuti."
+},
+{
+"file": "c42",
+"layout": "barre",
+"kicker": "quanti punti ci stanno davvero",
+"barre": [
+{
+"et": "dieci minuti",
+"v": 30,
+"val": "tre punti"
+},
+{
+"et": "venti minuti",
+"v": 60,
+"val": "sei punti"
+},
+{
+"et": "quello che prepari",
+"v": 88,
+"val": "sempre di più"
+}
+],
+"acceso": 2,
+"title": "Il conto non torna quasi mai, e sfora sempre dalla stessa parte."
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "Quello che ci metti a dire una cosa<br><span class=\"gold\">è sempre il doppio di quello che pensi.</span>"
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "E il tempo si accorcia all'ultimo — succede sempre.<br><span class=\"gold\">La scaletta a titoli è quello che ti permette di tagliare.</span>"
+},
+{
+"file": "c46",
+"layout": "confronto",
+"occhio": "lo stesso discorso, due modi di stare nel tempo",
+"titoli": [
+"sei punti fatti a metà",
+"tre punti fatti bene"
+],
+"righe": [
+{
+"et": "quanto dura",
+"a": "il tempo che hai",
+"b": "il tempo che hai"
+},
+{
+"et": "cosa resta",
+"a": "niente",
+"b": "tre cose",
+"segna": true
+},
+{
+"et": "come finisce",
+"a": "di corsa",
+"b": "in tempo",
+"segna": true
+},
+{
+"et": "cosa si taglia",
+"a": "pezzi da ogni punto",
+"b": "un titolo intero",
+"segna": true
+}
+],
+"chiusa": "Togli un titolo intero. Non pezzi da ogni punto."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Chi impara tutto a memoria<br>non ha una via di fuga.<br>Chi conosce i titoli ne ha sempre una."
+},
+{
+"file": "c48",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Scrivi una scaletta di quattro titoli.<br><span class=\"gold\">Non di frasi.</span>"
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "8.2 in un quadro",
+"celle": [
+{
+"cap": "Apertura",
+"et": "a memoria, due frasi"
+},
+{
+"cap": "In mezzo",
+"et": "solo titoli"
+},
+{
+"cap": "Chiusura",
+"et": "a memoria, una frase"
+},
+{
+"cap": "La prova",
+"et": "ad alta voce, in piedi",
+"acceso": true
+}
+],
+"resta": "Chi conosce i titoli ha sempre una via di fuga."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 8.2",
+"sub": "laparolagiusta.it"
+}
+]

@@ -1,0 +1,394 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Lezione 8.3",
+"title": "Ritmo, pause, sguardo",
+"sub": "Parlare in pubblico senza recitare"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Il paraverbale del primo modulo<br><span class=\"gold\">vale identico anche qui.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Con tre differenze,<br>e arrivano tutte dallo stesso fatto:<br><span class=\"gold\">le persone sono molte.</span>"
+},
+{
+"file": "c04",
+"layout": "swap",
+"kicker": "la prima differenza: il ritmo",
+"rows": [
+[
+"In due, normale",
+"In venti, veloce"
+],
+[
+"Lo stesso ritmo",
+"La stessa frase"
+]
+]
+},
+{
+"file": "c05",
+"layout": "linea",
+"kicker": "la seconda: quanto dura una pausa",
+"ciclo": 6,
+"momenti": [
+{
+"a": 20,
+"et": "in due",
+"sub": "due secondi"
+},
+{
+"a": 72,
+"et": "in sala",
+"sub": "tre o quattro"
+}
+],
+"sx": "basta poco",
+"dx": "serve di più",
+"title": "La stessa pausa, in sala, è più corta di quanto sembra."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "La terza: il volume smette di essere una leva emotiva<br><span class=\"gold\">e diventa un requisito tecnico.</span>"
+},
+{
+"file": "c07",
+"layout": "memo",
+"title": "Se non ti sentono,<br>tutto il resto non esiste."
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Sul ritmo, una regola<br>che sembra esagerata e non lo è."
+},
+{
+"file": "c09",
+"layout": "memo",
+"title": "Parla più lento<br>di quanto ti sembri necessario."
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "Il tuo metro è tarato sull'interno.<br><span class=\"gold\">E dall'interno la lentezza giusta sembra lentezza eccessiva.</span>"
+},
+{
+"file": "c11",
+"layout": "swap",
+"kicker": "due orologi diversi sulla stessa frase",
+"rows": [
+[
+"Tu",
+"Chi ascolta"
+],
+[
+"La senti mentre la pensi",
+"La sente una volta sola"
+],
+[
+"E l'hai già sentita",
+"Ed è la prima"
+]
+]
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "C'è un modo semplice per verificarlo,<br><span class=\"gold\">e non richiede nessuno che ti guardi.</span>"
+},
+{
+"file": "c13",
+"layout": "memo",
+"title": "Se hai finito prima<br>del tempo previsto,<br>sei andato veloce."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Quasi nessuno sfora per lentezza.<br><span class=\"gold\">Si sfora per aver messo troppi punti.</span>"
+},
+{
+"file": "c15",
+"layout": "flusso",
+"kicker": "le pause fanno tre lavori diversi",
+"passi": [
+{
+"et": "Separano",
+"sub": "questo argomento è finito"
+},
+{
+"et": "Sottolineano",
+"sub": "chi si era distratto torna"
+},
+{
+"et": "Fanno pensare",
+"sub": "lascia che la cosa arrivi"
+}
+]
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Il primo: <span class=\"gold\">separano.</span><br>Una pausa fra due punti dice che un argomento è finito."
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Senza, il discorso diventa un blocco unico.<br><span class=\"gold\">E le persone si perdono senza sapere dove.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Il secondo: <span class=\"gold\">sottolineano.</span><br>Il silenzio improvviso riporta su l'attenzione."
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Funziona proprio perché è un cambio.<br><span class=\"gold\">Chi si era allontanato torna a guardare, e guarda te.</span>"
+},
+{
+"file": "c20",
+"layout": "number",
+"num": "3",
+"unit": " secondi",
+"fill": 30,
+"title": "dopo una domanda o un dato. Il terzo lavoro: lasciare che arrivi."
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Senza quei tre secondi, la frase successiva lo cancella.<br><span class=\"gold\">Hai detto la cosa e l'hai coperta tu.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"title": "E va detto:<br><span class=\"gold\">la pausa in sala è molto più scomoda che in due.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Venti persone che ti guardano in silenzio<br>sono una pressione reale, e l'istinto è riempire."
+},
+{
+"file": "c24",
+"layout": "bilancia",
+"kicker": "tre secondi, e quanto pesano",
+"ciclo": 6,
+"sx": {
+"et": "quanto costano a te",
+"peso": 3
+},
+"dx": {
+"et": "quanto valgono in sala",
+"peso": 9
+},
+"title": "Chi resiste ottiene un effetto che nessuna parola produce. Ma sono tre secondi lunghi."
+},
+{
+"file": "c26",
+"layout": "quote",
+"kicker": "la sciocchezza più diffusa della manualistica",
+"title": "«Guarda tutta la sala.<br>Muovi lo sguardo.»"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Quel consiglio produce la cosa peggiore<br>che si possa fare: <span class=\"gold\">lo sguardo che scorre.</span>"
+},
+{
+"file": "c28",
+"layout": "raggi",
+"kicker": "dove arriva uno sguardo che passa",
+"centro": "lo sguardo che scorre",
+"attorno": [
+{
+"et": "la prima fila",
+"d": 95
+},
+{
+"et": "chi è in fondo",
+"d": 95
+},
+{
+"et": "chi annuisce",
+"d": 95
+},
+{
+"et": "chi guarda altrove",
+"d": 95
+}
+],
+"title": "Tocca tutti per un istante. Non arriva a nessuno."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "E comunica una cosa precisa,<br>che non vorresti comunicare: <span class=\"gold\">ricerca di approvazione.</span>"
+},
+{
+"file": "c30",
+"layout": "swap",
+"kicker": "cosa sembra chi lo fa",
+"rows": [
+[
+"Uno che parla",
+"Uno che verifica"
+],
+[
+"Sta dicendo una cosa",
+"Sta controllando se va bene"
+]
+]
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Quello che funziona<br><span class=\"gold\">è esattamente il contrario.</span>"
+},
+{
+"file": "c32",
+"layout": "raggi",
+"kicker": "tre facce, e il resto della sala",
+"centro": "tu",
+"attorno": [
+{
+"et": "una a sinistra",
+"d": 40
+},
+{
+"et": "una al centro in fondo",
+"d": 40
+},
+{
+"et": "una a destra",
+"d": 40
+},
+{
+"et": "tutti gli altri",
+"d": 92
+}
+],
+"title": "Tre punti fermi. E la sala intera si sente guardata."
+},
+{
+"file": "c33",
+"layout": "memo",
+"title": "Tre persone.<br>Non tre zone."
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Una frase intera a ciascuna.<br><span class=\"gold\">Non mezza frase: intera, fino al punto.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Chi guarda dalle altre posizioni ha l'impressione<br>che tu stia guardando la sua zona. <span class=\"gold\">Funziona geometricamente.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "E chi riceve la frase riceve un contatto vero,<br><span class=\"gold\">di quelli che si ricordano.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Un criterio per sceglierle, e va contro l'istinto:<br><span class=\"gold\">non le facce più amichevoli.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Poi le mani,<br>su cui si dicono molte sciocchezze.<br><span class=\"gold\">Quindi poche cose.</span>"
+},
+{
+"file": "c40",
+"layout": "memo",
+"title": "Le mani non vanno controllate.<br>Vanno liberate."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Un gesto pensato non è un gesto.<br><span class=\"gold\">Basta non bloccarle.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "le tre gabbie, e sono tutte volontarie",
+"rows": [
+"Niente foglio",
+"Niente tasche",
+"Niente mani intrecciate davanti"
+]
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "E i piedi decidono più delle mani,<br><span class=\"gold\">anche se nessuno li guarda.</span>"
+},
+{
+"file": "c44",
+"layout": "strati",
+"kicker": "perché l'oscillazione non la senti",
+"sopra": "chi oscilla sul posto",
+"sotto": [
+"comunica disagio senza dire niente",
+"e non se ne accorge",
+"perché è un movimento che calma chi lo fa"
+]
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "e tutto il resto si sistema quasi da solo",
+"rows": [
+"Piedi fermi",
+"Peso sui due piedi",
+"Nessuna oscillazione"
+]
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "E quando qualcosa va storto — la voce che si blocca,<br>il filo perso, un dato sbagliato — <span class=\"gold\">la risposta è sempre la stessa.</span>"
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Tre persone, non tre zone.<br>Una frase intera a ciascuna."
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "8.3 in un quadro",
+"celle": [
+{
+"cap": "Ritmo",
+"et": "più lento di quanto sembri"
+},
+{
+"cap": "Pause",
+"et": "tre o quattro secondi"
+},
+{
+"cap": "Volume",
+"et": "l'ultima fila"
+},
+{
+"cap": "Sguardo",
+"et": "tre persone, non tre zone",
+"acceso": true
+}
+],
+"resta": "Quasi tutti gli incidenti sono invisibili finché non li dichiari."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 8.3",
+"sub": "laparolagiusta.it"
+}
+]

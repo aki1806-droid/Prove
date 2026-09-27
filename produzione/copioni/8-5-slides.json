@@ -1,0 +1,315 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Lezione 8.5",
+"title": "La conversazione che ti aspetta domani",
+"sub": "Dire, ascoltare, convincere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Alla fine di un corso<br><span class=\"gold\">succede quasi sempre la stessa cosa.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Una sensazione di chiarezza.<br><span class=\"gold\">La convinzione di aver capito.</span>"
+},
+{
+"file": "c04",
+"layout": "quote",
+"kicker": "e poi",
+"title": "Nulla."
+},
+{
+"file": "c05",
+"layout": "bivio",
+"kicker": "due cose che sembrano una sola",
+"da": "hai capito",
+"rami": [
+{
+"et": "capire",
+"sub": "succede leggendo"
+},
+{
+"et": "cambiare",
+"sub": "succede solo facendo"
+}
+],
+"acceso": 1,
+"title": "Sono due cose separate, e la prima non produce la seconda."
+},
+{
+"file": "c06",
+"layout": "memo",
+"title": "Mai, da sola."
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "L'abbiamo già detto nel primo modulo,<br><span class=\"gold\">parlando del paraverbale.</span>"
+},
+{
+"file": "c08",
+"layout": "anello",
+"kicker": "perché conoscere ogni riga non basta",
+"ciclo": 6,
+"passi": [
+"conosci la riga",
+"arriva il momento",
+"fai come prima",
+"conosci la riga"
+],
+"title": "L'abitudine arriva prima della consapevolezza."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Quindi questa lezione serve a una cosa sola,<br><span class=\"gold\">e non è un riepilogo.</span>"
+},
+{
+"file": "c10",
+"layout": "memo",
+"title": "Trasformare quaranta lezioni<br>in una conversazione."
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Prima però otto righe.<br><span class=\"gold\">Una per modulo.</span>"
+},
+{
+"file": "c12",
+"layout": "quote",
+"kicker": "modulo uno",
+"title": "Se il <i>come</i> contraddice il <i>cosa</i>,<br>vince il <i>come</i>."
+},
+{
+"file": "c13",
+"layout": "quote",
+"kicker": "modulo due",
+"title": "Chi prepara la risposta<br>non sta ascoltando."
+},
+{
+"file": "c14",
+"layout": "quote",
+"kicker": "modulo tre",
+"title": "Non «hai ragione»:<br>«ha senso»."
+},
+{
+"file": "c15",
+"layout": "quote",
+"kicker": "modulo quattro",
+"title": "Una cosa sola —<br>e una richiesta."
+},
+{
+"file": "c16",
+"layout": "quote",
+"kicker": "modulo cinque",
+"title": "Chi persuade passa dal giudizio.<br>Chi manipola lo aggira."
+},
+{
+"file": "c17",
+"layout": "quote",
+"kicker": "modulo sei",
+"title": "Fatto, effetto, richiesta."
+},
+{
+"file": "c18",
+"layout": "quote",
+"kicker": "modulo sette",
+"title": "Un sì scelto,<br>non un sì scappato."
+},
+{
+"file": "c19",
+"layout": "quote",
+"kicker": "modulo otto",
+"title": "Il picco è prima,<br>non durante."
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Non è un riassunto del corso.<br><span class=\"gold\">È quello che sopravvive a sei mesi.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Se fra un anno<br>te ne ricordi tre,<br>il corso ha funzionato."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "E adesso la cosa da fare. Una sola,<br><span class=\"gold\">e va fatta oggi. Non quando capita.</span>"
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "Scegli una conversazione<br>che ti aspetta."
+},
+{
+"file": "c25",
+"layout": "swap",
+"kicker": "e non è la stessa cosa",
+"rows": [
+[
+"Una categoria",
+"Una conversazione"
+],
+[
+"«Essere più assertivo»",
+"Con una persona che ha un nome"
+],
+[
+"«Ascoltare meglio»",
+"Su una cosa che esiste"
+]
+]
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "cosa la rende precisa",
+"rows": [
+"Una persona che ha un nome",
+"Una cosa che esiste",
+"Una data"
+]
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Quella che rimandi<br><span class=\"gold\">da settimane.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Quella che finisce sempre male,<br><span class=\"gold\">e che sai già come finirà anche stavolta.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Quella che devi fare<br><span class=\"gold\">e non sai come cominciare.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Poi tre domande,<br><span class=\"gold\">e vanno fatte in quest'ordine.</span>"
+},
+{
+"file": "c32",
+"layout": "quote",
+"kicker": "la prima",
+"title": "«Cosa voglio che accada?»"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Una cosa sola. È il modulo quattro,<br><span class=\"gold\">ed è la domanda che quasi nessuno si fa prima.</span>"
+},
+{
+"file": "c34",
+"layout": "quote",
+"kicker": "la seconda",
+"title": "«Cosa chiedo, esattamente?»"
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Chi, cosa, entro quando. Se non sai rispondere,<br><span class=\"gold\">non hai ancora una richiesta: hai un malessere.</span>"
+},
+{
+"file": "c36",
+"layout": "quote",
+"kicker": "la terza",
+"title": "«Qual è il fatto da cui parto?»"
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Osservabile, datato, senza aggettivi.<br><span class=\"gold\">È il modulo sei, ed è la più scomoda delle tre.</span>"
+},
+{
+"file": "c38",
+"layout": "flusso",
+"kicker": "tre domande, in quest'ordine",
+"passi": [
+{
+"et": "Cosa voglio che accada",
+"sub": "una cosa sola"
+},
+{
+"et": "Cosa chiedo",
+"sub": "chi, cosa, entro quando"
+},
+{
+"et": "Da quale fatto parto",
+"sub": "osservabile, datato"
+}
+]
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Questa è la parte che non posso fare al posto tuo,<br><span class=\"gold\">e te la dico senza retorica.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"title": "Quaranta lezioni valgono zero<br>finché non c'è una persona vera<br>dall'altra parte."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Non andrà come l'hai preparata.<br><span class=\"gold\">Salterai un pezzo.</span>"
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "E probabilmente ti accorgerai a metà<br><span class=\"gold\">di aver usato un «ma».</span>"
+},
+{
+"file": "c44",
+"layout": "memo",
+"title": "La prima volta serve a scoprire<br>che si può fare.<br>Non a farlo bene."
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "Un'ultima cosa,<br>e poi ho finito."
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "Se dovessi tenere una sola frase di tutto il corso,<br><span class=\"gold\">non sarebbe una tecnica.</span>"
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "cinque cose che hanno una cosa sola in comune",
+"rows": [
+"Riformulare invece di ribattere",
+"Tacere tre secondi",
+"Chiedere invece di indovinare",
+"Riconoscere prima di rifiutare",
+"Riparare senza spiegare"
+]
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Tolgono te dal centro.<br>È la condizione<br>perché l'altro abbia spazio."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Un nome, un argomento, una data entro sette giorni.<br><span class=\"gold\">La parte difficile è scrivere la data.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Dire, ascoltare, convincere",
+"sub": "8 moduli · 40 lezioni",
+"site": "laparolagiusta.it"
+}
+]

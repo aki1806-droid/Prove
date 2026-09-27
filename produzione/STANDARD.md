@@ -516,6 +516,11 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   `Content-Type: audio/mpeg` e `x-amz-server-side-encryption: AES256` →
   `complete_asset_batch` → si attende `completed` con `get_asset_batch`.
   Questo risolve anche la scadenza degli URL: gli asset non scadono.
+  **Il profilo conta, non solo il ri-encoding**: va riportato a quello dei
+  blocchi — **128 kbps, 44,1 kHz, mono**. La musica di `eleven_music_v2` esce a
+  192 kbps, 48 kHz, stereo, e con quel profilo HeyGen la rifiuta lo stesso
+  («stored file type not supported: application/octet-stream»). Vale per
+  qualunque audio che non venga da `tagli.py`.
 - **Gli URL firmati ElevenLabs scadono in 2 ore** (problema aggirato dagli asset
   permanenti, ma resta valido se per qualche motivo si torna a `audio_url`).
   Vecchia nota: Si rigenerano con
@@ -539,7 +544,13 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   hanno i caratteri sbagliati: vanno rigenerate.
 - Il proxy di rete **blocca** `laparolagiusta.it`, `files2.heygen.ai`,
   `resource2.heygen.ai`. Passano `fonts.googleapis.com`, `storage.googleapis.com`,
-  `cms-toolkit-artifacts.artlist.io`, `heygen-resources-prod.s3-accelerate.amazonaws.com`.
+  `heygen-resources-prod.s3-accelerate.amazonaws.com`.
+- **`cms-toolkit-artifacts.artlist.io` non è più raggiungibile** (lo era fino al
+  modulo 5): dal modulo 6 le riprese non si scaricano da qui. Per HeyGen va
+  benissimo lo stesso, perché la scena prende l'URL e se lo scarica da sé. Per
+  *guardare* una ripresa prima di montarla, l'unica strada è il tool del
+  generatore: con un solo `generationId` per chiamata l'immagine torna dentro la
+  risposta, con due o più la risposta viene troncata e si perde.
 
 ## 7. Ordine di lavoro
 

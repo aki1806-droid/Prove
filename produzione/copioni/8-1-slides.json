@@ -1,0 +1,526 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 8 · Lezione 8.1",
+"title": "L'ansia: cosa fa al corpo, cosa farne",
+"sub": "Parlare in pubblico senza recitare"
+},
+{
+"file": "c02",
+"layout": "quote",
+"kicker": "la domanda che nessuno fa",
+"title": "«Qual è il momento peggiore?»"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Nessuno ti dirà: il terzo minuto.<br><span class=\"gold\">Il momento peggiore sono i minuti prima.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "i minuti prima",
+"rows": [
+"Mentre aspetti",
+"Mentre l'altro finisce",
+"Mentre ti alzi"
+]
+},
+{
+"file": "c05",
+"layout": "curva",
+"kicker": "quello che fa da sola",
+"ciclo": 6,
+"punti": [
+[
+0,
+28
+],
+[
+10,
+52
+],
+[
+20,
+86
+],
+[
+28,
+96
+],
+[
+34,
+74
+],
+[
+46,
+44
+],
+[
+64,
+24
+],
+[
+82,
+15
+],
+[
+100,
+12
+]
+],
+"vertice": {
+"x": 28,
+"et": "le prime due frasi"
+},
+"sx": "i minuti prima",
+"dx": "il resto",
+"title": "Dopo le prime due frasi scende. E scende da sola."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Ed è l'unica cosa davvero utile da sapere.<br><span class=\"gold\">Perché cambia l'obiettivo.</span>"
+},
+{
+"file": "c07",
+"layout": "memo",
+"title": "Non devi far sparire l'ansia.<br>Devi arrivare oltre il punto<br>in cui scende da sola."
+},
+{
+"file": "c08",
+"layout": "swap",
+"kicker": "due lavori diversi, e il primo non si può fare",
+"rows": [
+[
+"Far sparire l'ansia",
+"Arrivare oltre il punto"
+],
+[
+"Una battaglia che non si vince",
+"Due frasi"
+]
+]
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "E se si vincesse, non converrebbe.<br><span class=\"gold\">Una certa attivazione rende più presenti.</span>"
+},
+{
+"file": "c10",
+"layout": "finestra",
+"kicker": "dove sta tutto il lavoro",
+"quota": 9,
+"et": "le prime due frasi",
+"coda": "il resto, che viene da sé",
+"title": "L'obiettivo non è la calma. È arrivare in fondo a due frasi."
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Adesso cosa fa al corpo.<br><span class=\"gold\">Perché sapere cosa sta succedendo<br>toglie metà dello spavento.</span>"
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "tre effetti",
+"rows": [
+"Il respiro si accorcia e sale",
+"I muscoli si attivano",
+"L'attenzione si restringe"
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Corto e alto, sopra il petto.<br><span class=\"gold\">E la voce segue: sale di tono e perde appoggio.</span>"
+},
+{
+"file": "c14",
+"layout": "bivio",
+"kicker": "i muscoli non hanno una via di mezzo",
+"da": "l'attivazione arriva alle mani",
+"rami": [
+{
+"et": "si bloccano",
+"sub": "ferme lungo il corpo"
+},
+{
+"et": "partono",
+"sub": "gesti troppo rapidi"
+}
+],
+"title": "O si bloccano, o partono. Non c'è una via di mezzo automatica."
+},
+{
+"file": "c15",
+"layout": "memo",
+"title": "Il terzo è quello che fa più danni.<br>Ed è quello che nessuno nomina."
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "L'attenzione si restringe.<br><span class=\"gold\">E lo sguardo si aggancia ai volti più critici.</span>"
+},
+{
+"file": "c17",
+"layout": "raggi",
+"kicker": "come ti si deforma la sala",
+"centro": "quello che vedi",
+"attorno": [
+{
+"et": "le braccia conserte",
+"d": 12
+},
+{
+"et": "chi ti segue",
+"d": 92
+},
+{
+"et": "chi annuisce",
+"d": 88
+},
+{
+"et": "chi guarda il telefono",
+"d": 30
+}
+],
+"title": "Non perché contino di più: il tuo sistema sta cercando minacce."
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "È il tuo sistema che fa il suo mestiere.<br><span class=\"gold\">E lo fa male, perché qui non c'è nessuna minaccia.</span>"
+},
+{
+"file": "c19",
+"layout": "barre",
+"kicker": "quanto occupano nella tua percezione",
+"barre": [
+{
+"et": "le braccia conserte",
+"v": 86,
+"val": "metà della stanza"
+},
+{
+"et": "le quindici che seguono",
+"v": 14,
+"val": "sfondo"
+}
+],
+"acceso": 0,
+"title": "Quella persona occupa, nella tua percezione, metà della stanza."
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Le quindici che ti stanno seguendo bene<br><span class=\"gold\">non le vedi.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Non sta accadendo niente di speciale."
+},
+{
+"file": "c23",
+"layout": "flusso",
+"kicker": "nei minuti prima — la prima",
+"passi": [
+{
+"et": "Espira lungo",
+"sub": "il doppio dell'inspirazione"
+},
+{
+"et": "Muoviti",
+"sub": "trenta passi"
+},
+{
+"et": "Parla",
+"sub": "anche due frasi banali"
+}
+]
+},
+{
+"file": "c24",
+"layout": "swap",
+"kicker": "l'istruzione più inutile mai data",
+"rows": [
+[
+"«Respira profondamente»",
+"Espira lungo"
+]
+]
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Inspirare a fondo quando sei già attivato<br>non ti calma: <span class=\"gold\">ti attiva di più</span>."
+},
+{
+"file": "c26",
+"layout": "bilancia",
+"kicker": "il rapporto che conta",
+"sx": {
+"et": "inspiri in tre",
+"peso": 3
+},
+"dx": {
+"et": "espiri in sei",
+"peso": 6
+},
+"title": "È l'espirazione lunga che abbassa l'attivazione."
+},
+{
+"file": "c27",
+"layout": "flusso",
+"kicker": "la seconda",
+"passi": [
+{
+"et": "Espira lungo",
+"sub": "il doppio dell'inspirazione"
+},
+{
+"et": "Muoviti",
+"sub": "trenta passi"
+},
+{
+"et": "Parla",
+"sub": "anche due frasi banali"
+}
+]
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "L'attivazione è energia che cerca un'uscita.<br><span class=\"gold\">Se non gliela dai, se la prende dalle mani e dalla voce.</span>"
+},
+{
+"file": "c29",
+"layout": "flusso",
+"kicker": "la terza",
+"passi": [
+{
+"et": "Espira lungo",
+"sub": "il doppio dell'inspirazione"
+},
+{
+"et": "Muoviti",
+"sub": "trenta passi"
+},
+{
+"et": "Parla",
+"sub": "anche due frasi banali"
+}
+]
+},
+{
+"file": "c30",
+"layout": "ponte",
+"kicker": "cosa toglie usare la voce prima",
+"sx": "il silenzio",
+"dx": "la prima frase",
+"vuoto": "lo scarto che fa paura",
+"ponte": "due frasi banali, con chiunque",
+"title": "È l'unica cosa che va tolta."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Se la prima volta che senti la tua voce<br>è davanti a venti persone, la senti strana.<br><span class=\"gold\">È successo a tutti.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "E poi una cosa sola va imparata a memoria.<br><span class=\"gold\">Una sola. E va imparata davvero.</span>"
+},
+{
+"file": "c33",
+"layout": "memo",
+"title": "Le prime due frasi.<br>Parola per parola."
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Non per fare bella figura.<br><span class=\"gold\">Per una ragione meccanica.</span>"
+},
+{
+"file": "c35",
+"layout": "curva",
+"kicker": "dove sta il picco, e cosa chiedi lì",
+"punti": [
+[
+0,
+28
+],
+[
+10,
+52
+],
+[
+20,
+86
+],
+[
+28,
+96
+],
+[
+34,
+74
+],
+[
+46,
+44
+],
+[
+64,
+24
+],
+[
+82,
+15
+],
+[
+100,
+12
+]
+],
+"vertice": {
+"x": 28,
+"et": "qui gli chiedi di inventare una frase"
+},
+"sx": "le prime due frasi",
+"dx": "il resto",
+"title": "Chiedi al cervello la cosa che in quel momento sa fare meno."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Con due frasi già pronte<br><span class=\"gold\">non gli chiedi niente.</span><br>Le dici, e basta."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Superate quelle, il corpo comincia a scendere.<br><span class=\"gold\">E il resto viene, perché il resto lo sai.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Tu percepisci la tua attivazione dall'interno.<br><span class=\"gold\">Il battito, il respiro, il caldo in faccia.</span>"
+},
+{
+"file": "c40",
+"layout": "confronto",
+"occhio": "la stessa ansia, da due lati",
+"titoli": [
+"da dentro",
+"dalla sala"
+],
+"righe": [
+{
+"et": "il battito",
+"a": "assordante",
+"b": "non si sente",
+"segna": true
+},
+{
+"et": "il respiro",
+"a": "corto e alto",
+"b": "non si vede",
+"segna": true
+},
+{
+"et": "la bocca asciutta",
+"a": "insopportabile",
+"b": "invisibile"
+},
+{
+"et": "le mani",
+"a": "tremano",
+"b": "solo se tieni un foglio",
+"segna": true
+}
+]
+},
+{
+"file": "c41",
+"layout": "memo",
+"title": "La sala non sente il tuo battito.<br>Non vede il tuo respiro."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Quello che vedi tu dall'interno<br>e quello che vede la sala<br><span class=\"gold\">sono due cose molto diverse.</span>"
+},
+{
+"file": "c43",
+"layout": "bivio",
+"kicker": "l'unico caso in cui il tremore si vede",
+"da": "le mani tremano",
+"rami": [
+{
+"et": "foglio in mano",
+"sub": "si vede dall'ultima fila"
+},
+{
+"et": "foglio appoggiato",
+"sub": "non si vede"
+}
+],
+"acceso": 1,
+"title": "Il foglio non tradisce le mani. Le amplifica."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Trasforma un tremore che nessuno vedrebbe<br><span class=\"gold\">in una cosa che si vede dall'ultima fila.</span>"
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "E se ti serve guardarlo, guardalo appoggiato.<br><span class=\"gold\">Nessuno si offende se abbassi gli occhi su un leggio.</span>"
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Non devi far sparire l'ansia.<br>Devi arrivare oltre il punto<br>in cui scende da sola."
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "Cinque espirazioni lunghe,<br>il doppio dell'inspirazione.<br><span class=\"gold\">E le prime due frasi, parola per parola.</span>"
+},
+{
+"file": "c49",
+"layout": "cruscotto",
+"occhio": "8.1 in un quadro",
+"celle": [
+{
+"cap": "01",
+"et": "Il picco è prima, non durante"
+},
+{
+"cap": "02",
+"et": "Espira lungo, non inspira"
+},
+{
+"cap": "03",
+"et": "Due frasi a memoria"
+},
+{
+"cap": "04",
+"et": "Appoggia il foglio",
+"acceso": true
+}
+],
+"resta": "Non devi far sparire l'ansia: devi arrivare oltre il punto in cui scende da sola."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine della lezione 8.1",
+"sub": "laparolagiusta.it"
+}
+]

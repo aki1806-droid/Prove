@@ -1,0 +1,23 @@
+{
+ "s22": {
+  "tipo": "video",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-v-i-d-e-o-v1/media__1/-t-e-x-t_-t-o_-v-i-d-e-o-1d4e6e6b-27b1-4837-bb3f-fe1ee738b57a.mp4?Expires=2105827519&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=C7GQZT7mSRqAf4xfsF4b4wgHmlLyZ2bcVwZ7HNSrd0Gf1xB-dPhHyo6Af3lXmWWlbKlDsvnmphYdlxPRT5FWDuXBZqkdvTDBzdmnU3iu3hrDqnftNcF5WVNurW9qa0pv8u8t5h5qZGcA2z3g-q-oT4TA19eV9Acr7Hgg3GkDjlWh7DjN1P2vxRjj6oM9GJMmtUDojSzBDTy3nOsFSYCIBFekmjGCKcNNRXYswRfmVYUeGHz5VYrTORaooRQqeOD7LGiZEUILv-V0mLJ3uQTeehrXY5PCBBNfXW5pxQQ2MwNk609JWV9C~pJKjwla0UxrGs1xl1TY~sXP2m7szMxmrA__",
+  "cosa": "due sedie a un tavolo, una di fronte all'altra, luce di mattina dalla finestra",
+  "nome": "due-sedie-tavolo",
+  "muto": true,
+  "secondi": 25,
+  "musica": "musica/muto25.mp3"
+ },
+ "s30": {
+  "tipo": "foto",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__5/image-8a7a11f9-fc3e-4a04-b213-c582aa4a053e.png?Expires=2105826344&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=mltxe0Snmx2tsbR0oPUAgHA3mNSPuGS7MG6SbWx1aJx4foDOLCBRwK8HO99OgIJPZqW8rzDaySd7~glXOrru7k96mBON-y8g04VgAE73Xjil6f0L26W6Pqq6rBe9DtYLbe6xGNyItApRqiY5i2aHeaIvbRxhB~M28hc6fOf4XW~TpsPxa-KyNEsX-LYu9-DXBluk5m69OrES0rnyxAAWzvNdHhSLQcl6HhF2u1I7cNNGQW42WOmnGat5~B9PqWC5AjZ9~DtyqFk5m5FwcXYKsiiOl3fT2B-~~bRGrir0OgFuusNsZF~qQhmWTic2NqCf7iaEcTuld8vrUJncjxEB5A__",
+  "cosa": "un taccuino aperto quasi bianco su un tavolo di legno chiaro, sedie scure dietro",
+  "nome": "taccuino-aperto"
+ },
+ "s39": {
+  "tipo": "foto",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__7/image-e8d669ef-10bd-4c69-a592-b9c6b2a9f6c8.png?Expires=2105826344&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=BLKtHQW98wvr5zsLVkyOPXQsyIxMTN18nzZSxVbHulvetZMK-gZdpJtk4VzG1LMPm2hlJiasCzQeRMr12yXPhO~QV5q8PhKmfcV2ori1DnEwRHx3iZ2mwlwmMUPqsurA~wYinmqeL338cJ6-qUP6YsYj7YEdGJtDYu1MVH5jNZDBiCtyqA4LdVSaZwUQpZhmr1UUycI0bdQz1x4ZwBv1GPISEVHLw83MNSZlGOc61Kk1vGA9pDChaBENxxxT-E5sm7VUbJkicSgA4a3TLxFp5cJbrVpkdZ4LSx1Vaxkr-nzWwm7vQUa~GdoUgU3TyuTtUpqhEO7ERvhU2Jjee9mVCw__",
+  "cosa": "un foglio avorio con poche righe a mano e l'ultima cerchiata, una penna accanto",
+  "nome": "foglio-con-data"
+ }
+}

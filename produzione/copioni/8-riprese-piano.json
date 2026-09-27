@@ -1,0 +1,77 @@
+{
+ "nota": "Tre riprese per lezione, piazzate dove il copione le chiede e dove il parlato regge un'immagine al posto di una slide. La 8.5 ha s22 muta: 25 secondi di due sedie e musica sola.",
+ "l81": {
+  "s22": [
+   "video",
+   "sedie-vuote-a-file"
+  ],
+  "s38": [
+   "foto",
+   "porta-aperta-sala"
+  ],
+  "s45": [
+   "foto",
+   "foglio-appoggiato"
+  ]
+ },
+ "l82": {
+  "s22": [
+   "video",
+   "quattro-righe-leggio"
+  ],
+  "s33": [
+   "foto",
+   "scaletta-a-mano"
+  ],
+  "s45": [
+   "foto",
+   "orologio-sala"
+  ]
+ },
+ "l83": {
+  "s25": [
+   "video",
+   "sala-dal-fondo"
+  ],
+  "s38": [
+   "foto",
+   "sedia-prima-fila"
+  ],
+  "s47": [
+   "video",
+   "bicchiere-acqua"
+  ]
+ },
+ "l84": {
+  "s31": [
+   "video",
+   "microfono-asta"
+  ],
+  "s42": [
+   "foto",
+   "pavimento-leggio"
+  ],
+  "s45": [
+   "foto",
+   "sedia-scostata-fila"
+  ]
+ },
+ "l85": {
+  "s22": [
+   "muto",
+   "due-sedie-tavolo"
+  ],
+  "s30": [
+   "foto",
+   "taccuino-aperto"
+  ],
+  "s39": [
+   "foto",
+   "foglio-con-data"
+  ]
+ },
+ "musica": {
+  "muto25": "musica/muto25.mp3",
+  "chiusura20": "musica/chiusura20.mp3"
+ }
+}
