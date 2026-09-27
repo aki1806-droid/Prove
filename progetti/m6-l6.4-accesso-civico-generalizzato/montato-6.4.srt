@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:15,620
+Un giornalista chiede alla tua azienda sanitaria quante prestazioni sono state rinviate in un anno. Il dato non e' tra quelli da pubblicare, e lui non ha un interesse personale. Deve comunque ricevere una risposta?
+
+2
+00:00:15,620 --> 00:00:27,710
+Si'. Dal 2016 esiste un diritto di accesso a tutti i dati e i documenti detenuti dall'amministrazione, anche oltre gli obblighi di pubblicazione. E' l'accesso civico generalizzato, il FOIA italiano.
+
+3
+00:00:27,710 --> 00:00:32,620
+La regola e' la conoscibilita', il rifiuto e' l'eccezione.
+
+4
+00:00:32,620 --> 00:00:44,020
+Quattro passaggi. La portata del diritto. La procedura, con i controinteressati e i tempi. I limiti, relativi e assoluti. E il bilanciamento con la protezione dei dati personali.
+
+5
+00:00:44,020 --> 00:00:55,900
+L'articolo 5, comma 2, del decreto 33: chiunque ha diritto di accedere ai dati e ai documenti detenuti dalle pubbliche amministrazioni, ulteriori rispetto a quelli oggetto di pubblicazione.
+
+6
+00:00:55,900 --> 00:01:05,380
+Lo scopo e' dichiarato: favorire forme diffuse di controllo sulle funzioni istituzionali e sull'uso delle risorse pubbliche, e promuovere la partecipazione al dibattito pubblico.
+
+7
+00:01:05,380 --> 00:01:12,670
+Come per l'accesso civico semplice, non ci sono limiti di legittimazione: chiunque puo' chiedere. E la richiesta non deve essere motivata.
+
+8
+00:01:12,670 --> 00:01:20,440
+E' una svolta culturale: l'amministrazione non chiede piu' perche' vuoi sapere. Deve spiegare lei perche', eventualmente, non puo' darti quel dato.
+
+9
+00:01:20,440 --> 00:01:27,190
+Il rilascio e' gratuito, salvo il rimborso del costo effettivamente sostenuto per riprodurre i documenti su supporti materiali.
+
+10
+00:01:27,190 --> 00:01:36,420
+L'oggetto sono dati e documenti che l'amministrazione detiene gia'. Non si puo' pretendere che l'amministrazione crei documenti nuovi o faccia elaborazioni apposta per rispondere.
+
+11
+00:01:36,420 --> 00:01:47,480
+Un esempio: una associazione di pazienti chiede il numero di interventi eseguiti da un reparto in un anno, se il dato esiste gia' nei sistemi aziendali. E' una richiesta tipica di accesso generalizzato.
+
+12
+00:01:47,480 --> 00:01:56,180
+Occhio a un distrattore: il FOIA non e' limitato ai dati a pubblicazione obbligatoria. Quello e' l'accesso civico semplice; il generalizzato va oltre.
+
+13
+00:01:56,180 --> 00:02:00,780
+Tutto cio' che l'amministrazione detiene, salvo limiti precisi.
+
+14
+00:02:00,780 --> 00:02:11,620
+La richiesta si presenta, anche per via telematica, all'ufficio che detiene i dati, all'ufficio relazioni con il pubblico o a un altro ufficio indicato nella sezione Amministrazione trasparente.
+
+15
+00:02:11,620 --> 00:02:20,310
+Non serve un modulo obbligatorio: basta indicare con chiarezza i dati o i documenti richiesti. Una richiesta troppo generica puo' essere precisata insieme al richiedente.
+
+16
+00:02:20,310 --> 00:02:28,710
+Se ci sono controinteressati, cioe' persone i cui interessi privati potrebbero essere lesi, l'amministrazione li informa con raccomandata o per via telematica.
+
+17
+00:02:28,710 --> 00:02:36,470
+I controinteressati hanno dieci giorni per presentare una motivata opposizione. Nel frattempo il termine per rispondere resta sospeso.
+
+18
+00:02:36,470 --> 00:02:46,490
+Il procedimento si conclude in trenta giorni con un provvedimento espresso e motivato. Rifiuto, differimento e limitazione devono indicare quale limite della legge si applica.
+
+19
+00:02:46,490 --> 00:02:56,590
+Se l'accesso e' accolto nonostante l'opposizione, i dati non si trasmettono subito: devono passare almeno quindici giorni dalla comunicazione al controinteressato, per permettergli di reagire.
+
+20
+00:02:56,590 --> 00:03:07,130
+Contro il diniego, anche parziale, o contro il silenzio, il richiedente puo' chiedere il riesame all'RPCT, che decide entro venti giorni. Poi c'e' il ricorso al giudice amministrativo.
+
+21
+00:03:07,130 --> 00:03:17,320
+Per gli atti di regioni ed enti locali ci si puo' rivolgere anche al difensore civico. E il controinteressato, a sua volta, puo' chiedere il riesame se l'accesso viene concesso.
+
+22
+00:03:17,320 --> 00:03:25,970
+Attenzione: nel FOIA il silenzio non vale come accoglimento e non chiude la partita. Si attiva il riesame dell'RPCT, e poi il giudice.
+
+23
+00:03:25,970 --> 00:03:31,170
+Dieci giorni per opporsi, trenta per decidere, venti per il riesame.
+
+24
+00:03:31,170 --> 00:03:42,180
+I limiti sono nell'articolo 5-bis. Il primo gruppo protegge interessi pubblici: l'accesso si rifiuta se serve a evitare un pregiudizio concreto a uno di questi interessi.
+
+25
+00:03:42,180 --> 00:03:53,690
+Sono la sicurezza e l'ordine pubblico, la sicurezza nazionale, la difesa, le relazioni internazionali, la stabilita' finanziaria ed economica dello Stato, le indagini sui reati, le attivita' ispettive.
+
+26
+00:03:53,690 --> 00:04:05,710
+Il secondo gruppo protegge interessi privati: la protezione dei dati personali, la liberta' e la segretezza della corrispondenza, gli interessi economici e commerciali, compresi proprieta' intellettuale e segreti commerciali.
+
+27
+00:04:05,710 --> 00:04:13,780
+In un'azienda sanitaria, per esempio, possono entrare in gioco gli interessi commerciali dei fornitori, come i segreti industriali contenuti in un'offerta di gara.
+
+28
+00:04:13,780 --> 00:04:21,690
+Questi sono limiti relativi: non basta che l'interesse sia coinvolto, serve un pregiudizio concreto. L'amministrazione deve valutare caso per caso.
+
+29
+00:04:21,690 --> 00:04:33,490
+Poi ci sono le eccezioni assolute: il segreto di Stato, gli altri divieti di divulgazione previsti dalla legge e i casi di esclusione della legge 241. Qui non c'e' bilanciamento: l'accesso e' escluso.
+
+30
+00:04:33,490 --> 00:04:43,340
+E due regole di proporzione. Se il limite riguarda solo una parte del documento, si concede l'accesso al resto. E se basta rinviare nel tempo, l'accesso non si nega: si differisce.
+
+31
+00:04:43,340 --> 00:04:52,220
+Un distrattore frequente: la presenza di un limite non comporta automaticamente il rifiuto. Prima vanno valutati l'accesso parziale e il differimento.
+
+32
+00:04:52,220 --> 00:04:57,030
+Limiti relativi da pesare, eccezioni assolute da rispettare.
+
+33
+00:04:57,030 --> 00:05:06,600
+In sanita' il limite piu' frequente e' la protezione dei dati personali. Molti documenti contengono nomi, condizioni di salute, dati di dipendenti e pazienti.
+
+34
+00:05:06,600 --> 00:05:16,270
+Quando l'amministrazione nega l'accesso per tutelare i dati personali e il richiedente chiede il riesame, l'RPCT deve sentire il Garante per la protezione dei dati personali.
+
+35
+00:05:16,270 --> 00:05:22,210
+Il Garante si pronuncia entro dieci giorni, e per quel periodo il termine per decidere il riesame resta sospeso.
+
+36
+00:05:22,210 --> 00:05:31,680
+Un esempio: il dato aggregato sul numero di interventi di un reparto si puo' dare. L'elenco dei pazienti operati, con i loro nomi, no: prevale la tutela dei dati sanitari.
+
+37
+00:05:31,680 --> 00:05:40,130
+Spesso la soluzione sta nel mezzo: si oscurano i dati personali e si concede il resto del documento. E' l'accesso parziale, che la legge impone di considerare.
+
+38
+00:05:40,130 --> 00:05:48,890
+Chi lavora in un ufficio che riceve una richiesta deve quindi chiedersi due cose: il dato esiste gia'? E ci sono persone da tutelare, da informare come controinteressati?
+
+39
+00:05:48,890 --> 00:05:58,490
+Le indicazioni operative sono nelle linee guida dell'ANAC, adottate d'intesa con il Garante per la protezione dei dati personali, con la delibera 1309 del 2016.
+
+40
+00:05:58,490 --> 00:06:07,500
+E attenzione alle responsabilita': negare o limitare l'accesso fuori dai casi previsti dall'articolo 5-bis e' elemento di valutazione della responsabilita' dirigenziale.
+
+41
+00:06:07,500 --> 00:06:16,170
+Attenzione: il FOIA non e' uno strumento per ottenere dati sanitari di altre persone. La privacy resta un limite forte, soprattutto in sanita'.
+
+42
+00:06:16,170 --> 00:06:20,770
+Aprire i dati dell'amministrazione, proteggere le persone.
+
+43
+00:06:20,770 --> 00:06:32,890
+Le tre cose che ti chiederanno. La prima: l'accesso civico generalizzato spetta a chiunque, senza motivazione, su dati e documenti detenuti dall'amministrazione, ulteriori rispetto a quelli da pubblicare.
+
+44
+00:06:32,890 --> 00:06:44,420
+La seconda: i controinteressati hanno dieci giorni per opporsi; la risposta arriva in trenta giorni; contro il diniego o il silenzio c'e' il riesame dell'RPCT in venti giorni, poi il giudice.
+
+45
+00:06:44,420 --> 00:06:57,470
+La terza: i limiti relativi dell'articolo 5-bis, pubblici e privati, richiedono un pregiudizio concreto; le eccezioni assolute escludono l'accesso; prima del rifiuto si valutano accesso parziale e differimento.
+
+46
+00:06:57,470 --> 00:07:05,390
+L'ultimo distrattore: nel FOIA non si deve spiegare perche' si chiede un dato. La motivazione e' richiesta solo nell'accesso documentale.
+
+47
+00:07:05,390 --> 00:07:14,620
+In sintesi: conoscere e' la regola, i limiti sono precisi, la privacy si protegge. Nell'ultima lezione del modulo: chi vigila sulla trasparenza e che cosa si rischia.

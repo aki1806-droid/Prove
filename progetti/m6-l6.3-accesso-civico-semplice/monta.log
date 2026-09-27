@@ -54,3 +54,16 @@ montato-6.3.srt  48 sottotitoli
 :0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 141 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
       Metadata:
  
+CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)
+
+  [OK  ] verifica per trascrizione (traccia intera): 100.0% delle parole coincide, buchi nel parlato: 0
+  [OK  ] fascia 8.5-21 car/s: tutti dentro
+  [OK  ] PNG renderizzati e guardati: 50 su 50 scene (tetto 50)
+  [OK  ] nessuna slide sfora la cornice: 0 sforano
+  [OK  ] scene totali: 50 (tetto 50)
+  [OK  ] durata 7:12.95 — chiesti 7:01.00
+  [OK  ] sottotitoli SRT: 48 righe su 48 blocchi
+  [NO  ] registro con la sezione «da verificare»
+
+7/8 superati
+FATTO
