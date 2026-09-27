@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,680
+Apri il sito della tua azienda sanitaria e scorri fino in fondo alla pagina. C'e' una voce che si chiama Amministrazione trasparente. Dietro quel collegamento c'e' quasi tutta la vita dell'azienda.
+
+2
+00:00:14,680 --> 00:00:25,220
+Organizzazione, personale, concorsi, incarichi, contratti, bilanci, pagamenti, tempi di attesa. Tutto con la stessa struttura, uguale per ogni amministrazione.
+
+3
+00:00:25,220 --> 00:00:29,820
+Una sola porta d'ingresso per tutte le informazioni pubbliche.
+
+4
+00:00:29,820 --> 00:00:40,920
+Quattro passaggi. Le regole della sezione. La mappa delle sotto-sezioni. Gli obblighi specifici della sanita'. E il confine tra trasparenza e riservatezza dei dati personali.
+
+5
+00:00:40,920 --> 00:00:50,360
+L'articolo 9 del decreto 33 lo stabilisce: nella home page del sito istituzionale c'e' un'apposita sezione chiamata Amministrazione trasparente.
+
+6
+00:00:50,360 --> 00:00:59,280
+Li' si pubblicano dati, informazioni e documenti obbligatori. Si puo' anche mettere un collegamento a un'altra pagina del sito, per non duplicare le informazioni.
+
+7
+00:00:59,280 --> 00:01:07,210
+Le amministrazioni non possono mettere filtri o soluzioni tecniche che impediscano ai motori di ricerca di trovare i contenuti della sezione.
+
+8
+00:01:07,210 --> 00:01:15,900
+La struttura e' la stessa in ogni amministrazione. Chi ha imparato a cercare nel sito di un'azienda sanitaria sa cercare anche in quello di un comune o di un ministero.
+
+9
+00:01:15,900 --> 00:01:27,280
+I dati devono avere qualita': integri, aggiornati, completi, tempestivi, semplici da consultare e comprensibili. E la cura della qualita' non puo' giustificare un ritardo nella pubblicazione.
+
+10
+00:01:27,280 --> 00:01:35,340
+Vanno pubblicati in formato aperto, cosi' che chiunque possa riutilizzarli, con il solo obbligo di citare la fonte e di rispettarne l'integrita'.
+
+11
+00:01:35,340 --> 00:01:45,310
+Quanto restano online? Di regola cinque anni, a partire dal primo gennaio dell'anno successivo a quello in cui scatta l'obbligo, e comunque finche' gli atti producono effetti.
+
+12
+00:01:45,310 --> 00:01:52,320
+Dopo la scadenza i dati non spariscono dal diritto del cittadino: si possono ancora ottenere con una richiesta di accesso civico.
+
+13
+00:01:52,320 --> 00:02:00,980
+Occhio a un distrattore: la durata ordinaria della pubblicazione non e' di un anno. E' di cinque anni, dal primo gennaio successivo.
+
+14
+00:02:00,980 --> 00:02:06,300
+Una sezione in home page, dati aperti, cinque anni online.
+
+15
+00:02:06,300 --> 00:02:16,490
+La sezione ha una struttura fissa, fatta di sotto-sezioni. Il decreto la disegna in un allegato, poi aggiornato dagli schemi dell'autorita' anticorruzione, l'ANAC.
+
+16
+00:02:16,490 --> 00:02:28,130
+Organizzazione: gli organi di indirizzo e amministrazione, l'articolazione degli uffici con i dirigenti responsabili, l'organigramma, i telefoni, le caselle di posta elettronica e di posta certificata.
+
+17
+00:02:28,130 --> 00:02:39,580
+Consulenti e collaboratori: per ogni incarico, gli estremi dell'atto, il curriculum e il compenso. Senza pubblicazione l'incarico non diventa efficace e il compenso non si puo' pagare.
+
+18
+00:02:39,580 --> 00:02:48,570
+Personale: dotazione organica, costo del personale, tassi di assenza, incarichi autorizzati ai dipendenti, contratti collettivi e integrativi.
+
+19
+00:02:48,570 --> 00:02:59,180
+Un esempio che ti riguarda da vicino: la sotto-sezione Bandi di concorso. Qui si pubblicano i bandi, i criteri di valutazione della commissione e le tracce delle prove scritte.
+
+20
+00:02:59,180 --> 00:03:08,650
+Per chi prepara una selezione e' una risorsa preziosa: bandi precedenti, criteri e tracce aiutano a capire che cosa viene chiesto e come viene valutato.
+
+21
+00:03:08,650 --> 00:03:18,070
+Performance: i piani e le relazioni, l'ammontare dei premi stanziati e distribuiti e il grado di differenziazione nell'attribuzione, in forma aggregata.
+
+22
+00:03:18,070 --> 00:03:26,970
+Enti controllati: l'elenco degli enti vigilati, delle societa' partecipate e degli enti di diritto privato controllati, con i dati principali di ciascuno.
+
+23
+00:03:26,970 --> 00:03:37,820
+Poi i provvedimenti, i contratti e le gare, le sovvenzioni e i contributi, i bilanci preventivi e consuntivi, i beni immobili, i controlli e i rilievi della Corte dei conti.
+
+24
+00:03:37,820 --> 00:03:47,640
+Per le sovvenzioni sopra i mille euro la pubblicazione e' condizione di efficacia dell'atto. Anche qui, senza pubblicazione, il vantaggio economico non produce effetti.
+
+25
+00:03:47,640 --> 00:03:58,010
+E ancora: i tempi di pagamento dei fornitori, con l'indicatore annuale di tempestivita', e per ogni procedimento il nome del titolare del potere sostitutivo in caso di inerzia.
+
+26
+00:03:58,010 --> 00:04:02,610
+Ogni voce del menu e' un obbligo di legge.
+
+27
+00:04:02,610 --> 00:04:15,030
+Per il servizio sanitario c'e' una norma dedicata, l'articolo 41. Aziende sanitarie territoriali, aziende ospedaliere ed enti del servizio sanitario rispettano tutti gli obblighi, piu' alcuni in aggiunta.
+
+28
+00:04:15,030 --> 00:04:26,010
+Primo: i dati su tutte le spese e tutti i pagamenti, distinti per tipo di lavoro, bene o servizio, consultabili in forma sintetica e aggregata anche per periodo e per beneficiario.
+
+29
+00:04:26,010 --> 00:04:35,890
+Secondo: le procedure di conferimento degli incarichi di direttore generale, sanitario e amministrativo, e di responsabile di dipartimento e di struttura semplice e complessa.
+
+30
+00:04:35,890 --> 00:04:45,070
+Si pubblicano i bandi e gli avvisi di selezione, lo svolgimento delle procedure e gli atti di conferimento. Chiunque puo' ricostruire come e' stato scelto un direttore.
+
+31
+00:04:45,070 --> 00:04:51,820
+Terzo: l'elenco delle strutture sanitarie private accreditate, aggiornato ogni anno, con gli accordi stipulati con loro.
+
+32
+00:04:51,820 --> 00:04:58,950
+Le Regioni, poi, inseriscono il rispetto degli obblighi di pubblicita' tra i requisiti per l'accreditamento delle strutture sanitarie.
+
+33
+00:04:58,950 --> 00:05:09,810
+Quarto, il piu' vicino ai cittadini: la sezione Liste di attesa. Criteri di formazione delle liste, tempi previsti e tempi medi effettivi per ogni tipo di prestazione.
+
+34
+00:05:09,810 --> 00:05:18,980
+E un dettaglio da ricordare: per la dirigenza sanitaria tra le attivita' professionali da pubblicare rientra anche la libera professione svolta in regime intramurario.
+
+35
+00:05:18,980 --> 00:05:28,830
+Un distrattore frequente: le liste di attesa non sono un'informazione facoltativa. Tempi previsti e tempi medi effettivi sono un obbligo di legge.
+
+36
+00:05:28,830 --> 00:05:34,620
+Spese, nomine, accreditati, liste d'attesa: la sanita' in vetrina.
+
+37
+00:05:34,620 --> 00:05:42,820
+Trasparenza non vuol dire esporre le persone. L'articolo 7-bis fissa i limiti che derivano dalla protezione dei dati personali.
+
+38
+00:05:42,820 --> 00:05:52,730
+I dati personali pubblicati per obbligo, esclusi quelli sensibili e giudiziari, si possono indicizzare e riutilizzare. Quelli pubblicati senza un obbligo vanno resi anonimi.
+
+39
+00:05:52,730 --> 00:06:01,800
+Nei documenti pubblicati vanno resi non intelligibili i dati personali non pertinenti, e i dati sensibili o giudiziari non indispensabili allo scopo.
+
+40
+00:06:01,800 --> 00:06:09,810
+Non si possono diffondere le notizie sulla natura delle malattie che causano le assenze. E restano fermi i limiti alla diffusione dei dati sulla salute.
+
+41
+00:06:09,810 --> 00:06:20,290
+Lo stesso per i contributi: non si pubblicano i dati che permettono di identificare chi li riceve, se da quei dati si ricavano lo stato di salute o una situazione di disagio economico o sociale.
+
+42
+00:06:20,290 --> 00:06:27,550
+Attenzione: pubblicare il tasso di assenza di un ufficio e' un obbligo. Pubblicare la malattia di un collega e' vietato.
+
+43
+00:06:27,550 --> 00:06:32,150
+Trasparenza sull'amministrazione, rispetto per le persone.
+
+44
+00:06:32,150 --> 00:06:43,900
+Le tre cose che ti chiederanno. La prima: la sezione Amministrazione trasparente sta nella home page; i dati sono aperti e restano online di regola cinque anni, dal primo gennaio successivo.
+
+45
+00:06:43,900 --> 00:06:57,780
+La seconda: le sotto-sezioni coprono organizzazione, personale, bandi di concorso, performance, contratti, bilanci e pagamenti; per consulenze e sovvenzioni la pubblicazione e' condizione di efficacia.
+
+46
+00:06:57,780 --> 00:07:08,810
+La terza: l'articolo 41 impone alle aziende sanitarie di pubblicare spese e pagamenti, le nomine dei direttori, le strutture accreditate e le liste di attesa.
+
+47
+00:07:08,810 --> 00:07:17,630
+L'ultimo distrattore: la trasparenza non autorizza a pubblicare i dati sanitari delle persone. Il limite della riservatezza resta sempre.
+
+48
+00:07:17,630 --> 00:07:27,120
+In sintesi: una sezione, una mappa, obblighi precisi, e un confine chiaro con la privacy. Nella prossima lezione: come si chiede un dato che non e' stato pubblicato.
