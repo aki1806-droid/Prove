@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,940
+Un'operatrice apre la cartella di un vicino di casa, ricoverato in un altro reparto. Non lo segue, non lo cura: vuole solo sapere come sta. Nessuno la vede. O forse si'.
+
+2
+00:00:12,940 --> 00:00:22,130
+Ogni accesso ai sistemi clinici lascia una traccia. E quel gesto, fatto per curiosita', tocca la categoria di dati che il regolamento protegge di piu': i dati sulla salute.
+
+3
+00:00:22,130 --> 00:00:26,730
+Alcuni dati raccontano la parte piu' fragile di una persona.
+
+4
+00:00:26,730 --> 00:00:38,410
+Quattro passaggi. Il divieto dell'articolo 9. Le eccezioni che lo rendono superabile. Il dato sanitario in azienda, tra cura e segreto. E poi dossier, fascicolo sanitario e accessi.
+
+5
+00:00:38,410 --> 00:00:47,930
+L'articolo 9 del regolamento parte da un divieto. E' vietato trattare le categorie particolari di dati personali, quelle che un tempo si chiamavano dati sensibili.
+
+6
+00:00:47,930 --> 00:00:55,900
+Sono i dati che rivelano l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, l'appartenenza sindacale.
+
+7
+00:00:55,900 --> 00:01:05,810
+E poi i dati genetici, i dati biometrici usati per identificare una persona in modo univoco, i dati relativi alla salute, alla vita sessuale o all'orientamento sessuale.
+
+8
+00:01:05,810 --> 00:01:15,270
+Perche' una tutela rafforzata? Perche' da questi dati possono nascere discriminazioni, esclusioni, danni difficili da riparare. Lavoro, relazioni, reputazione.
+
+9
+00:01:15,270 --> 00:01:26,920
+Il dato relativo alla salute e' definito in modo ampio: riguarda la salute fisica o mentale, compresa la prestazione di servizi sanitari. Anche sapere che una persona e' ricoverata in oncologia e' un dato sulla salute.
+
+10
+00:01:26,920 --> 00:01:37,140
+Attenzione ai dati del personale: un certificato di malattia, un giudizio di idoneita' con limitazioni, una richiesta di permessi per assistere un familiare disabile sono dati sulla salute.
+
+11
+00:01:37,140 --> 00:01:44,580
+I dati su condanne penali e reati non sono tra questi: hanno una disciplina propria, nell'articolo 10 del regolamento e nel Codice.
+
+12
+00:01:44,580 --> 00:01:53,560
+Occhio a un distrattore: il dato sanitario non e' solo la diagnosi. Anche un appuntamento in un ambulatorio specialistico puo' rivelare lo stato di salute.
+
+13
+00:01:53,560 --> 00:01:58,160
+Prima il divieto, poi le eccezioni, sempre precise.
+
+14
+00:01:58,160 --> 00:02:05,020
+Il divieto non vale in dieci casi, elencati nel paragrafo 2. Per chi lavora in sanita' alcuni sono decisivi.
+
+15
+00:02:05,020 --> 00:02:13,670
+Il primo e' il consenso esplicito dell'interessato, per finalita' specifiche. Esplicito, non solo inequivocabile: un gradino in piu' rispetto ai dati comuni.
+
+16
+00:02:13,670 --> 00:02:23,080
+Poi gli obblighi in materia di lavoro e sicurezza sociale; l'interesse vitale di una persona incapace di dare il consenso; l'accertamento o la difesa di un diritto in giudizio.
+
+17
+00:02:23,080 --> 00:02:30,500
+Poi l'interesse pubblico rilevante, sulla base del diritto dell'Unione o dello Stato, con misure appropriate e specifiche per le persone.
+
+18
+00:02:30,500 --> 00:02:40,400
+E la lettera h: medicina preventiva e del lavoro, diagnosi, assistenza o terapia sanitaria o sociale, gestione dei sistemi e servizi sanitari. E' la base della cura.
+
+19
+00:02:40,400 --> 00:02:48,790
+Seguono la sanita' pubblica, come la protezione da gravi minacce per la salute, e la ricerca scientifica, l'archiviazione e la statistica, con garanzie adeguate.
+
+20
+00:02:48,790 --> 00:03:00,770
+Per la lettera h il paragrafo 3 aggiunge una condizione: i dati devono essere trattati da un professionista soggetto al segreto professionale, o sotto la sua responsabilita', o da un'altra persona tenuta alla segretezza.
+
+21
+00:03:00,770 --> 00:03:10,360
+E il paragrafo 4 lascia agli Stati la possibilita' di prevedere ulteriori condizioni per i dati genetici, biometrici e sulla salute. L'Italia l'ha fatto nel Codice.
+
+22
+00:03:10,360 --> 00:03:19,120
+Anche l'appartenenza sindacale e' una categoria particolare. La trattenuta della quota in busta paga passa per l'ufficio del personale, che la tratta con la stessa riservatezza.
+
+23
+00:03:19,120 --> 00:03:28,300
+Un distrattore frequente: per le categorie particolari il consenso non e' la sola via. E' una delle eccezioni, e in sanita' non e' quella principale.
+
+24
+00:03:28,300 --> 00:03:32,930
+La cura e' un'eccezione prevista, non un favore concesso.
+
+25
+00:03:32,930 --> 00:03:44,990
+Ecco perche' in ospedale non si chiede il consenso privacy per curare. Diagnosi, assistenza e terapia poggiano sulla lettera h, con le garanzie del segreto. Lo ha chiarito il Garante nel 2019.
+
+26
+00:03:44,990 --> 00:03:55,950
+Il consenso resta necessario per attivita' non indispensabili alla cura: per esempio alcuni servizi facoltativi, come certe applicazioni o la consegna dei referti online, o iniziative promozionali.
+
+27
+00:03:55,950 --> 00:04:05,180
+Il Codice aggiunge le sue regole. L'articolo due sexies elenca i trattamenti di interesse pubblico rilevante, tra cui i compiti del servizio sanitario nazionale.
+
+28
+00:04:05,180 --> 00:04:15,660
+L'articolo due septies affida al Garante misure di garanzia per dati genetici, biometrici e sanitari. E fissa un divieto netto: i dati sulla salute non possono essere diffusi.
+
+29
+00:04:15,660 --> 00:04:25,180
+Il segreto non riguarda solo medici e infermieri. Chi lavora in amministrazione, all'accettazione o nei servizi tratta gli stessi dati, ed e' tenuto al segreto d'ufficio.
+
+30
+00:04:25,180 --> 00:04:34,300
+Nelle sale d'attesa si chiamano i pazienti senza rivelare la malattia, per esempio con un numero. E i referti si consegnano all'interessato o a una persona da lui delegata.
+
+31
+00:04:34,300 --> 00:04:43,750
+Un esempio: un familiare telefona in reparto per sapere come sta un paziente. Le informazioni si danno solo alle persone che il paziente ha indicato, non a chiunque chieda.
+
+32
+00:04:43,750 --> 00:04:51,050
+E nelle emergenze? La cura viene prima: l'informativa puo' essere data anche dopo la prestazione, quando la persona e' in grado di riceverla.
+
+33
+00:04:51,050 --> 00:04:58,840
+Attenzione: il modulo firmato all'accettazione non e' cio' che rende lecita la cura. E' la legge, con il segreto professionale.
+
+34
+00:04:58,840 --> 00:05:03,810
+Curare senza chiedere il consenso, proteggere senza eccezioni.
+
+35
+00:05:03,810 --> 00:05:12,270
+Due strumenti digitali rendono tutto piu' concreto. Il dossier sanitario raccoglie gli eventi clinici di un paziente all'interno della stessa azienda.
+
+36
+00:05:12,270 --> 00:05:20,700
+Secondo le linee guida del Garante, il dossier si costituisce con il consenso del paziente, specifico e facoltativo. Chi non lo da' viene curato lo stesso.
+
+37
+00:05:20,700 --> 00:05:32,500
+Il fascicolo sanitario elettronico, invece, raccoglie la storia clinica di una persona tra strutture diverse. Dal 2020 si alimenta senza consenso; il consenso serve per la consultazione da parte dei professionisti.
+
+38
+00:05:32,500 --> 00:05:41,400
+Il fascicolo e' gestito dalle regioni e collegato a livello nazionale. L'assistito puo' consultarlo online: referti, lettere di dimissione, vaccinazioni.
+
+39
+00:05:41,400 --> 00:05:48,080
+In entrambi il paziente puo' chiedere l'oscuramento di alcuni eventi: restano nella documentazione, ma non sono visibili a tutti.
+
+40
+00:05:48,080 --> 00:05:55,600
+E soprattutto: gli accessi sono tracciati. Il sistema registra chi ha aperto cosa e quando, e le registrazioni si possono controllare.
+
+41
+00:05:55,600 --> 00:06:05,180
+Torniamo all'operatrice curiosa. Il suo accesso non ha una finalita' di cura: e' un trattamento illecito, puo' essere un illecito disciplinare e, nei casi piu' gravi, un reato.
+
+42
+00:06:05,180 --> 00:06:13,880
+Attenzione: avere le credenziali non significa avere il diritto di consultare. Si accede solo ai pazienti che si seguono, per il tempo necessario.
+
+43
+00:06:13,880 --> 00:06:18,530
+Ogni accesso lascia una traccia, ogni traccia chiede una ragione.
+
+44
+00:06:18,530 --> 00:06:29,560
+Le tre cose che ti chiederanno. La prima: l'articolo 9 vieta di trattare le categorie particolari, tra cui i dati sulla salute, genetici e biometrici, salvo dieci eccezioni.
+
+45
+00:06:29,560 --> 00:06:40,440
+La seconda: la cura si fonda sulla lettera h, con il segreto professionale del paragrafo 3, non sul consenso. Il consenso esplicito serve per attivita' non necessarie alla cura.
+
+46
+00:06:40,440 --> 00:06:51,380
+La terza: i dati sulla salute non si diffondono; il dossier richiede il consenso, il fascicolo si alimenta senza; gli accessi sono tracciati e solo chi cura puo' consultare.
+
+47
+00:06:51,380 --> 00:06:59,740
+L'ultimo distrattore: l'obbligo di riservatezza non e' solo del personale sanitario. Vale per chiunque, in azienda, tratti quei dati.
+
+48
+00:06:59,740 --> 00:07:07,410
+In sintesi: un divieto forte, eccezioni precise, un segreto che vale per tutti. Nella prossima lezione: i diritti dell'interessato.
