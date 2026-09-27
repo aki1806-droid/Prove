@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:13,660
+Venerdi' sera. Una mail con venti referti parte verso l'indirizzo sbagliato. Chi deve saperlo? Entro quando? E chi ne risponde: chi ha premuto invio, il dirigente, l'azienda?
+
+2
+00:00:13,660 --> 00:00:22,340
+Per rispondere servono tre cose: sapere chi fa cosa nel trattamento, conoscere gli adempimenti che il regolamento impone, e le conseguenze se qualcosa va storto.
+
+3
+00:00:22,340 --> 00:00:26,950
+Ruoli chiari, tempi certi, responsabilita' precise.
+
+4
+00:00:26,950 --> 00:00:38,350
+Quattro passaggi. Titolare, responsabile e persone autorizzate. Il responsabile della protezione dei dati. Registro, valutazione d'impatto e violazioni. E infine le sanzioni.
+
+5
+00:00:38,350 --> 00:00:49,660
+Il titolare e' chi determina finalita' e mezzi del trattamento. In un'azienda sanitaria pubblica e' l'azienda stessa, rappresentata dal direttore generale. Non il singolo dirigente, non l'ufficio.
+
+6
+00:00:49,660 --> 00:00:59,080
+Quando due o piu' soggetti decidono insieme finalita' e mezzi, sono contitolari. Un accordo interno stabilisce chi fa cosa, e l'interessato puo' rivolgersi a ciascuno.
+
+7
+00:00:59,080 --> 00:01:09,290
+Il responsabile del trattamento, nel regolamento, e' un soggetto diverso: tratta i dati per conto del titolare. Di solito e' esterno, come una ditta informatica o un servizio in appalto.
+
+8
+00:01:09,290 --> 00:01:21,890
+Il titolare deve scegliere responsabili che offrono garanzie sufficienti, e vincolarli con un contratto: istruzioni documentate, riservatezza, sicurezza, cancellazione o restituzione dei dati a fine servizio.
+
+9
+00:01:21,890 --> 00:01:31,820
+Il responsabile non puo' affidare il lavoro ad altri senza autorizzazione scritta del titolare. E se decide lui le finalita', diventa a sua volta titolare, con tutte le conseguenze.
+
+10
+00:01:31,820 --> 00:01:41,230
+Un esempio: la ditta che gestisce il software delle cartelle cliniche. Accede ai dati solo per la manutenzione, secondo le istruzioni e il contratto dell'azienda.
+
+11
+00:01:41,230 --> 00:01:50,360
+E i dipendenti? Sono persone autorizzate al trattamento: agiscono sotto l'autorita' del titolare e secondo le sue istruzioni. Un tempo si chiamavano incaricati.
+
+12
+00:01:50,360 --> 00:02:00,080
+Il Codice, all'articolo due quaterdecies, permette inoltre al titolare di attribuire compiti specifici a persone designate, per esempio i dirigenti delle strutture.
+
+13
+00:02:00,080 --> 00:02:10,110
+Occhio a un distrattore: nel regolamento il responsabile non e' il dirigente interno. E' chi tratta i dati per conto del titolare, spesso un soggetto esterno.
+
+14
+00:02:10,110 --> 00:02:14,710
+Chi decide, chi esegue, chi opera sotto istruzioni.
+
+15
+00:02:14,710 --> 00:02:25,320
+Il responsabile della protezione dei dati, in inglese Data Protection Officer, e' obbligatorio per le autorita' e gli organismi pubblici. Ogni azienda sanitaria pubblica deve averlo.
+
+16
+00:02:25,320 --> 00:02:35,970
+E' obbligatorio anche per chi tratta su larga scala categorie particolari di dati, o monitora le persone in modo regolare e sistematico. Puo' essere un dipendente o un professionista esterno.
+
+17
+00:02:35,970 --> 00:02:47,220
+E' scelto per le sue competenze in materia di protezione dei dati. Deve essere indipendente: non riceve istruzioni sui suoi compiti, riferisce al vertice e non puo' essere penalizzato per come li svolge.
+
+18
+00:02:47,220 --> 00:02:58,620
+I suoi compiti: informare e consigliare titolare e dipendenti, sorvegliare il rispetto delle regole, dare pareri sulla valutazione d'impatto, cooperare con il Garante ed essere il suo punto di contatto.
+
+19
+00:02:58,620 --> 00:03:07,400
+Non decide al posto del titolare e non firma le notifiche a nome proprio. Consiglia e controlla; le decisioni e le responsabilita' restano del titolare.
+
+20
+00:03:07,400 --> 00:03:16,070
+I suoi dati di contatto sono pubblicati e indicati nell'informativa. Chiunque, paziente o dipendente, puo' rivolgersi a lui per le questioni sui propri dati.
+
+21
+00:03:16,070 --> 00:03:26,270
+Un distrattore frequente: il responsabile della protezione dei dati non e' chi risponde delle violazioni. Risponde il titolare; il DPO vigila e consiglia.
+
+22
+00:03:26,270 --> 00:03:30,870
+Un consigliere indipendente, non un capro espiatorio.
+
+23
+00:03:30,870 --> 00:03:43,050
+Il primo adempimento e' il registro delle attivita' di trattamento: per ogni trattamento, finalita', categorie di dati e di persone, destinatari, tempi di cancellazione, misure di sicurezza.
+
+24
+00:03:43,050 --> 00:03:53,440
+Le organizzazioni con meno di duecentocinquanta dipendenti ne sono in parte esonerate, ma non se trattano categorie particolari di dati. Un'azienda sanitaria il registro lo tiene sempre.
+
+25
+00:03:53,440 --> 00:04:03,810
+Il secondo e' la valutazione d'impatto, in inglese DPIA. Si fa prima di un trattamento che presenta un rischio elevato per le persone, per esempio su larga scala di dati sanitari.
+
+26
+00:04:03,810 --> 00:04:13,490
+Un esempio: un nuovo servizio di telemedicina, o una piattaforma regionale di dati clinici. Si descrivono i rischi e le misure per ridurli, con il parere del DPO.
+
+27
+00:04:13,490 --> 00:04:22,510
+Sullo sfondo c'e' l'obbligo di sicurezza dell'articolo 32: cifratura, sistemi riservati e disponibili, capacita' di ripristinare i dati, verifiche periodiche.
+
+28
+00:04:22,510 --> 00:04:31,080
+Il terzo riguarda le violazioni dei dati: distruzione, perdita, modifica, divulgazione o accesso non autorizzato, anche solo accidentali.
+
+29
+00:04:31,080 --> 00:04:42,060
+Il titolare notifica la violazione al Garante senza ingiustificato ritardo e, ove possibile, entro settantadue ore da quando ne e' venuto a conoscenza. Non serve se e' improbabile un rischio per le persone.
+
+30
+00:04:42,060 --> 00:04:51,060
+Se la notifica arriva dopo le settantadue ore, va motivato il ritardo. E se il rischio per le persone e' elevato, bisogna avvisare anche loro, con un linguaggio semplice e chiaro.
+
+31
+00:04:51,060 --> 00:05:01,590
+Ogni violazione, anche quella non notificata, va documentata. Torniamo alla mail di venerdi': chi se ne accorge avvisa subito il proprio responsabile e il DPO, secondo la procedura aziendale.
+
+32
+00:05:01,590 --> 00:05:10,280
+Attenzione: le settantadue ore non partono dal lunedi' mattina. Partono da quando il titolare viene a conoscenza della violazione, weekend compreso.
+
+33
+00:05:10,280 --> 00:05:14,880
+Registrare, valutare prima, reagire in fretta.
+
+34
+00:05:14,880 --> 00:05:25,420
+Le sanzioni amministrative del regolamento hanno due livelli. Il primo arriva fino a dieci milioni di euro o, per le imprese, al due per cento del fatturato mondiale annuo, se superiore.
+
+35
+00:05:25,420 --> 00:05:33,880
+Riguarda la violazione degli obblighi di titolare e responsabile: sicurezza, registro, valutazione d'impatto, notifica delle violazioni, DPO.
+
+36
+00:05:33,880 --> 00:05:45,460
+Il secondo arriva fino a venti milioni di euro o al quattro per cento del fatturato. Riguarda i principi, le basi giuridiche, le condizioni del consenso, le categorie particolari, i diritti degli interessati.
+
+37
+00:05:45,460 --> 00:05:54,670
+Il regolamento lascia agli Stati la scelta di applicare le sanzioni anche agli enti pubblici. L'Italia non li ha esclusi: il Garante sanziona anche aziende sanitarie e ospedali.
+
+38
+00:05:54,670 --> 00:06:05,650
+Chi ha subito un danno, materiale o immateriale, ha diritto al risarcimento. E il Codice prevede anche reati, come il trattamento illecito di dati a fine di profitto o di danno, che provoca un nocumento.
+
+39
+00:06:05,650 --> 00:06:14,520
+Per chi lavora in azienda c'e' poi la responsabilita' disciplinare. Chi viola le istruzioni ricevute, per esempio consultando dati senza ragione, ne risponde personalmente.
+
+40
+00:06:14,520 --> 00:06:22,470
+Attenzione: le sanzioni non sono tutte da venti milioni. Ci sono due livelli, dieci e venti milioni, a seconda della norma violata.
+
+41
+00:06:22,470 --> 00:06:27,070
+Due livelli di sanzione, una responsabilita' per ciascuno.
+
+42
+00:06:27,070 --> 00:06:38,810
+Le tre cose che ti chiederanno. La prima: il titolare decide finalita' e mezzi; il responsabile tratta per suo conto, con un contratto; i dipendenti sono persone autorizzate, che seguono istruzioni.
+
+43
+00:06:38,810 --> 00:06:52,090
+La seconda: il DPO e' obbligatorio negli enti pubblici, indipendente, consiglia e sorveglia; il registro e la valutazione d'impatto sono adempimenti del titolare; le violazioni si notificano entro settantadue ore.
+
+44
+00:06:52,090 --> 00:07:03,650
+La terza: le sanzioni hanno due livelli, fino a dieci milioni o due per cento e fino a venti milioni o quattro per cento; si aggiungono risarcimento, reati e responsabilita' disciplinare.
+
+45
+00:07:03,650 --> 00:07:10,920
+L'ultimo distrattore: la notifica della violazione non spetta al DPO. Spetta al titolare, che il DPO consiglia.
+
+46
+00:07:10,920 --> 00:07:19,840
+In sintesi: ruoli chiari, adempimenti concreti, sanzioni a due livelli. Si chiude il modulo sulla protezione dei dati. Nel prossimo: il pubblico impiego.
