@@ -104,6 +104,26 @@ di cui non riprende gli errori (per esempio la sanzione dell'art. 47 presentata 
 PIAO, Corte cost. 20/2019 e le altre novità successive al 2017 sono da verificare sul testo
 vigente (vedi i REGISTRO, «Da verificare»).
 
+Modulo 7 completo, Trattamento dei dati personali (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 7.1 | Dalla 675/1996 al GDPR | 7:50 |
+| 7.2 | I principi del trattamento | 7:32 |
+| 7.3 | Le basi giuridiche | 7:28 |
+| 7.4 | Categorie particolari e dato sanitario | 7:16 |
+| 7.5 | I diritti dell'interessato | 7:27 |
+| 7.6 | Ruoli, adempimenti e sanzioni | 7:28 |
+
+Nel modulo 7 `illustra.mjs` passa a 36 illustrazioni: si aggiungono globo, imbuto, cartellaclinica,
+impronta e bilancia (da non confondere con «bilancio», il libro dei conti); per la lezione successiva
+si parte dalla 7.6. La fonte prevista dal piano, `Privacy-e-Protezione-dei-Dati-Personali.pdf`, non era
+disponibile: il modulo è costruito sul testo del Regolamento (UE) 2016/679 (edizione del Garante, 2017)
+e sulle dispense su Drive, di cui non riprende gli errori (per esempio i «30 giorni» per rispondere, il
+consenso per alimentare il FSE, il DPO che notifica le violazioni). Il testo vigente del Codice
+(D.Lgs. 196/2003 dopo il D.Lgs. 101/2018) non era raggiungibile: gli articoli del Codice citati sono da
+verificare (vedi i REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.
