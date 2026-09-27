@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] All'accettazione un paziente rifiuta di firmare il modulo sulla privacy. Dice: non do il consenso. L'ospedale puo' comunque curarlo, e registrare i suoi dati?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si'. E la ragione e' il cuore di questa lezione: il consenso e' solo una delle basi che rendono lecito un trattamento, e non e' nemmeno la piu' importante per una pubblica amministrazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni trattamento ha bisogno di una base."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le sei basi dell'articolo 6. Il consenso e le sue caratteristiche. Obbligo di legge e interesse pubblico, le basi della sanita' pubblica. E le altre tre: contratto, interessi vitali, legittimo interesse."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 6 del regolamento dice che il trattamento e' lecito solo se ricorre almeno una di sei condizioni. Non ce ne sono altre."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima: il consenso dell'interessato. Seconda: l'esecuzione di un contratto di cui l'interessato e' parte. Terza: un obbligo legale a cui e' soggetto il titolare."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarta: la salvaguardia degli interessi vitali dell'interessato o di un'altra persona. Quinta: l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sesta: il legittimo interesse del titolare o di terzi, purche' non prevalgano i diritti e le liberta' dell'interessato."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sei basi sono sullo stesso piano: non c'e' una gerarchia. Ma quasi tutte contengono una parola decisiva: necessario. Il trattamento deve essere necessario per quello scopo."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la base va individuata prima di iniziare il trattamento, e indicata nell'informativa. Non si cambia a meta' strada, cercando quella che fa piu' comodo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: per la stessa persona le basi possono cambiare. I dati di un dipendente per lo stipendio poggiano su un obbligo di legge; la sua foto su un opuscolo, sul consenso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il consenso non e' la regola generale da cui partire. E' una base tra sei, e spesso non e' quella giusta."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sei basi, tutte alla pari, tutte legate alla necessita'."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Quando si usa, il consenso deve avere quattro caratteristiche. Il regolamento lo definisce come una manifestazione di volonta' libera, specifica, informata e inequivocabile."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Libera: la persona puo' dire di no senza subire conseguenze. Specifica: riguarda una finalita' precisa, non tutto in blocco. Informata: la persona sa a cosa acconsente."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Inequivocabile: serve una dichiarazione o un'azione positiva. Il silenzio, l'inattivita' o una casella gia' spuntata non sono un consenso."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 7 aggiunge le condizioni. Il titolare deve poter dimostrare che il consenso c'e'. Se sta in un modulo che parla d'altro, la richiesta deve essere chiaramente distinguibile."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il consenso si puo' revocare in qualsiasi momento, con la stessa facilita' con cui e' stato dato. La revoca non rende illecito quello che e' stato fatto prima."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi un limite di fondo. Il consenso e' libero solo se non c'e' un forte squilibrio tra le parti. Tra cittadino e autorita' pubblica, o tra lavoratore e datore di lavoro, questo squilibrio spesso c'e'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo, nella pubblica amministrazione e nel rapporto di lavoro, il consenso raramente e' la base adatta. Si usa per attivita' davvero facoltative."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la partecipazione volontaria a un'indagine sulla soddisfazione, o la foto di un dipendente sulla pagina web di un progetto. Qui la persona puo' davvero scegliere."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i minori, nei servizi online offerti direttamente, il regolamento fissa i 16 anni e permette agli Stati di scendere fino a 13. L'Italia ha scelto 14 anni."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: i 14 anni non valgono per le cure. Riguardano il consenso ai servizi della societa' dell'informazione, come app e piattaforme online."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Libero, specifico, informato, inequivocabile, revocabile."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Per un'azienda sanitaria pubblica le basi piu' frequenti sono due: l'obbligo di legge e il compito di interesse pubblico."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento chiede che queste due basi siano stabilite dal diritto dell'Unione o dello Stato membro. Non basta che il titolare ritenga utile un trattamento: serve una norma."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Italia la regola e' nell'articolo 2-ter del Codice: la base per i trattamenti di interesse pubblico e' una norma di legge o, nei casi previsti, di regolamento. Il testo e' stato ritoccato nel 2021."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Esempi di obbligo di legge: i dati del personale trattati per stipendi, contributi e dichiarazioni fiscali. L'azienda non chiede il consenso: la legge le impone di farlo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Esempi di compito di interesse pubblico: la gestione delle liste d'attesa, i programmi di screening, la vigilanza igienico sanitaria. Sono le funzioni per cui l'azienda esiste."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torniamo al paziente che non firma. L'ospedale non tratta i suoi dati perche' ha acconsentito, ma perche' curarlo e' il suo compito, previsto dalla legge."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i dati sulla salute la regola e' ancora piu' precisa, perche' sono dati particolari: la vedremo nella prossima lezione, con l'articolo 9 del regolamento."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modulo che si firma all'accettazione, spesso, non e' un consenso: e' la presa visione dell'informativa. Due cose diverse, che molti confondono."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: senza il consenso l'azienda non resta paralizzata. Se c'e' una norma che le affida il compito, il trattamento e' lecito."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nella sanita' pubblica la base e' quasi sempre una norma."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Restano tre basi. Il contratto: il trattamento e' necessario per eseguire un contratto di cui l'interessato e' parte, o misure precontrattuali chieste da lui."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: i dati di un professionista con cui l'azienda firma un contratto di collaborazione, o di un fornitore persona fisica per i pagamenti."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interessi vitali: il trattamento serve a proteggere la vita dell'interessato o di un'altra persona. E' una base di emergenza, da usare quando nessun'altra e' disponibile."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il legittimo interesse: il titolare persegue un proprio interesse, ad esempio la sicurezza dei locali, dopo aver bilanciato i diritti delle persone coinvolte."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il regolamento e' chiaro: il legittimo interesse non si applica ai trattamenti delle autorita' pubbliche nell'esecuzione dei loro compiti. Per l'azienda sanitaria pubblica, nei suoi compiti, questa porta e' chiusa."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel privato il legittimo interesse e' piu' frequente. Anche una struttura sanitaria privata, pero', deve bilanciarlo con cura quando tocca dati di pazienti e dipendenti."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ultima regola: l'uso dei dati per una finalita' diversa da quella iniziale richiede una nuova base, o una verifica di compatibilita' con lo scopo originario."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: una pubblica amministrazione non puo' giustificare i propri compiti con il legittimo interesse. Serve una norma."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Contratto, vita, interesse: ognuno con i suoi confini."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'articolo 6 prevede sei basi giuridiche, alla pari. Consenso, contratto, obbligo legale, interessi vitali, interesse pubblico, legittimo interesse."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il consenso deve essere libero, specifico, informato e inequivocabile, dimostrabile e revocabile. Nella pubblica amministrazione raramente e' la base adatta."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: per un'azienda sanitaria pubblica le basi tipiche sono l'obbligo di legge e il compito di interesse pubblico, fondati su una norma. Il legittimo interesse non vale per i suoi compiti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: firmare l'informativa non significa dare il consenso. E' la prova di essere stati informati."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: sei basi, un consenso con regole precise, una sanita' pubblica che agisce per legge. Nella prossima lezione: le categorie particolari e il dato sanitario."
+ }
+]

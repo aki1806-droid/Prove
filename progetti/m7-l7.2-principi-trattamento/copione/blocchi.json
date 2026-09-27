@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In un ambulatorio c'e' un quaderno. Dentro, da quindici anni, i nomi e i numeri di telefono dei pazienti dimessi, tenuti per ogni evenienza. Sta sullo scaffale, alla portata di chiunque passi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nessuno lo ha mai usato male. Eppure quel quaderno viola almeno tre principi del regolamento europeo. Oggi vediamo quali, e perche'."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sei principi, e un titolare che deve saperli dimostrare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi, tutti nell'articolo 5 del regolamento. Liceita', correttezza e trasparenza. Finalita' e minimizzazione. Esattezza e conservazione. Integrita' e riservatezza."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo principio ha tre parole. I dati devono essere trattati in modo lecito, corretto e trasparente nei confronti dell'interessato."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lecito significa che il trattamento deve poggiare su una base giuridica prevista dal regolamento: un obbligo di legge, un compito di interesse pubblico, la cura, il consenso. Le vedremo nella prossima lezione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Corretto significa leale: niente raccolte nascoste, niente usi che la persona non potrebbe ragionevolmente aspettarsi, niente pressioni per ottenere piu' dati del dovuto."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trasparente significa che la persona deve sapere chi tratta i suoi dati, per quali finalita', per quanto tempo, e quali diritti ha. E' il compito dell'informativa."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento chiede che queste informazioni siano concise, facilmente accessibili e scritte con un linguaggio semplice e chiaro. Un modulo incomprensibile non basta."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: all'accettazione il paziente riceve un'informativa che spiega a chi andranno i suoi dati, per esempio al medico di famiglia o al fascicolo sanitario, e come esercitare i propri diritti."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trasparenza vale anche verso i dipendenti. L'azienda informa il proprio personale su come tratta i suoi dati: presenze, retribuzione, sorveglianza sanitaria, valutazioni."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: trasparenza non significa pubblicare i dati. Significa informare la persona su come vengono trattati i suoi."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Lecito, leale, chiaro per chi e' coinvolto."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il secondo principio e' la limitazione della finalita'. I dati sono raccolti per finalita' determinate, esplicite e legittime. Una finalita' vaga, come per ogni evenienza, non basta."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La finalita' va decisa prima di raccogliere i dati, non dopo. E deve essere esplicita: dichiarata, comunicata, riconoscibile da chi fornisce le proprie informazioni."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi non possono essere trattati in modo incompatibile con quelle finalita'. I dati raccolti per curare una persona non diventano, per questo, dati da usare per qualsiasi altro scopo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento prevede un'eccezione: archiviazione nel pubblico interesse, ricerca scientifica o storica e statistica non sono considerate incompatibili, con garanzie adeguate."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: i numeri di telefono raccolti per avvisare dell'esito di un esame non possono essere usati per inviare pubblicita' di un evento, o passati a un'associazione."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo principio e' la minimizzazione. I dati devono essere adeguati, pertinenti e limitati a quanto necessario rispetto alle finalita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si raccoglie tutto cio' che potrebbe servire un giorno. Si raccoglie cio' che serve adesso, per quello scopo preciso."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: per prenotare una visita non serve chiedere la professione o lo stato civile. Per una richiesta di ferie non serve allegare la diagnosi: basta il dato necessario."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La minimizzazione vale anche per l'accesso. Chi lavora in un reparto consulta i dati dei pazienti che segue, non quelli di tutto l'ospedale."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: avere un dato non autorizza a usarlo per qualunque scopo. Conta la finalita' per cui e' stato raccolto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Uno scopo preciso, solo i dati che servono."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il quarto principio e' l'esattezza. I dati devono essere esatti e, se necessario, aggiornati. Vale per l'anagrafe dei pazienti come per quella del personale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il titolare deve adottare tutte le misure ragionevoli per cancellare o rettificare tempestivamente i dati inesatti. In sanita' un dato sbagliato non e' solo un problema di privacy: e' un rischio clinico."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'allergia registrata sul paziente sbagliato, o un indirizzo non aggiornato a cui arriva un referto. Correggere in fretta protegge la persona due volte."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quinto principio e' la limitazione della conservazione. I dati si conservano in una forma che consente di identificare la persona per il tempo necessario alle finalita', non oltre."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche qui il regolamento ammette periodi piu' lunghi per archiviazione nel pubblico interesse, ricerca o statistica, con misure adeguate."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In sanita' molti tempi di conservazione sono fissati da norme specifiche: per alcuni documenti, come la cartella clinica, sono molto lunghi. Il principio chiede che ogni tempo sia definito, non lasciato al caso."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'amministrazione fissa, per ogni tipo di documento, un tempo di conservazione. Scaduto il termine, i dati si cancellano o si rendono anonimi, secondo le regole sugli archivi pubblici."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torniamo al quaderno dell'ambulatorio. Quindici anni di numeri tenuti per ogni evenienza: nessuna finalita' precisa, dati in eccesso, nessun termine. Ecco tre principi violati."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: conservare piu' a lungo non e' prudenza. Senza una ragione e un termine, e' una violazione del principio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dati corretti, e solo per il tempo che serve."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il sesto principio e' integrita' e riservatezza. I dati devono essere trattati con un'adeguata sicurezza, mediante misure tecniche e organizzative."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La protezione riguarda tre rischi: i trattamenti non autorizzati o illeciti, la perdita e la distruzione, il danno accidentale. L'articolo 32 del regolamento ne fa un obbligo preciso."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quaderno sullo scaffale, alla portata di chiunque, e' la terza violazione: nessuna protezione dagli accessi non autorizzati."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Integrita' significa anche che i dati non vengano alterati. Un valore di laboratorio modificato per errore, o da chi non ne ha titolo, e' una violazione quanto una fuga di notizie."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Esempi di ogni giorno: un computer lasciato aperto in corridoio, una password condivisa tra colleghi, cartelle su un carrello incustodito, un referto inviato all'indirizzo sbagliato."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le misure sono tecniche, come credenziali personali, cifratura e copie di sicurezza, e organizzative, come istruzioni, formazione e regole su chi puo' accedere a cosa."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sopra i sei principi c'e' la regola della lezione precedente: il titolare e' competente per il loro rispetto, ed e' in grado di dimostrarlo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la sicurezza non e' solo un problema dell'informatica. Un fascicolo lasciato in vista e' una violazione come un server non protetto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Proteggere dagli accessi, dalle perdite, dagli errori."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: sei principi nell'articolo 5. Liceita', correttezza e trasparenza; limitazione della finalita'; minimizzazione; esattezza; limitazione della conservazione; integrita' e riservatezza."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: i dati si raccolgono per finalita' determinate, esplicite e legittime, e solo quelli necessari; l'ulteriore uso deve essere compatibile, con eccezioni per archivio, ricerca e statistica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i dati vanno tenuti esatti, conservati solo per il tempo necessario e protetti con misure tecniche e organizzative. E il titolare deve saperlo dimostrare."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: i principi non valgono solo per i dati digitali. Valgono anche per la carta, dal quaderno alla cartella clinica."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: sei principi che valgono per ogni dato, dalla cartella al quaderno. Nella prossima lezione: le basi giuridiche, cioe' quando un trattamento e' lecito."
+ }
+]

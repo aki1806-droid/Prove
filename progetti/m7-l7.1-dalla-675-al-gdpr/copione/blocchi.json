@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In una giornata di reparto passano per le tue mani decine di dati: nomi, diagnosi, terapie, numeri di telefono, turni dei colleghi. Chi decide come vanno trattati? E da quando?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta ha trent'anni di storia: una legge del 1996, un codice del 2003, un regolamento europeo del 2016. Tre stagioni, e ognuna ha cambiato il modo di lavorare negli ospedali."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Proteggere i dati significa proteggere le persone."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. La prima stagione, con la legge 675. La seconda, con il Codice del 2003. La terza, con il regolamento europeo. E l'idea che la attraversa: la responsabilizzazione."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La prima legge organica italiana sulla protezione dei dati e' la legge 675 del 31 dicembre 1996. Nasce per dare attuazione a una direttiva europea, la 95/46."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fino ad allora, in Italia, non c'era una disciplina generale. Esistevano il segreto professionale, il segreto d'ufficio, qualche norma sparsa. Mancava un diritto della persona sui propri dati."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La 675 introduce parole che usiamo ancora: trattamento, interessato, titolare, consenso. E istituisce un'autorita' indipendente: il Garante per la protezione dei dati personali."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i dati piu' delicati, come quelli sulla salute, la 675 prevede cautele rafforzate. Nasce la distinzione tra dati comuni e dati sensibili."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il messaggio e' nuovo: i dati di una persona non appartengono a chi li raccoglie. Chi li tratta deve farlo secondo regole, e la persona puo' intervenire."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: la privacy non nasce con il regolamento europeo. In Italia la prima legge organica e' del 1996, oltre vent'anni prima."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il 1996: i dati diventano un diritto della persona."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Nel giro di pochi anni le norme si moltiplicano. Il legislatore le riunisce in un testo unico: il decreto legislativo 196 del 30 giugno 2003, il Codice in materia di protezione dei dati personali."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Codice entra in vigore il primo gennaio 2004. Contiene una parte generale e parti dedicate ai settori: tra queste, una disciplina specifica per i trattamenti in ambito sanitario."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Codice elenca anche le misure minime di sicurezza, in un disciplinare tecnico: password, aggiornamenti, copie di sicurezza. Un elenco di adempimenti uguale per tutti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel Codice le figure sono tre: il titolare, il responsabile e gli incaricati. Con il regolamento europeo, gli incaricati diventeranno le persone autorizzate al trattamento."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In quegli anni la protezione dei dati sale di rango. La Carta dei diritti fondamentali dell'Unione europea, all'articolo 8, la riconosce come diritto autonomo, distinto dal rispetto della vita privata."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Negli ospedali questa stagione porta l'informativa ai pazienti, le regole sulla consegna dei referti, la cura nel chiamare le persone in sala d'attesa senza rivelarne la malattia."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il Codice del 2003 non e' stato abrogato dal regolamento europeo. E' ancora in vigore, profondamente modificato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il 2003: un codice unico, regole per ogni settore."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La terza stagione e' europea. Il regolamento 2016/679, noto come GDPR, e' adottato il 27 aprile 2016 ed entra in vigore nel maggio dello stesso anno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma si applica dal 25 maggio 2018. Due anni di tempo per adeguarsi: e' questa la data che tutti ricordano."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' un regolamento e non un'altra direttiva? Perche' il regolamento e' direttamente applicabile in ciascuno Stato membro. Non serve una legge nazionale che lo recepisca: le regole sono le stesse ovunque."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento abroga la vecchia direttiva 95/46, quella da cui era nata la legge 675. Si chiude cosi' la prima stagione anche sul piano europeo."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Italia adegua comunque il proprio diritto con il decreto legislativo 101 del 2018. Il Codice resta, ma viene riscritto: tiene le norme nazionali negli spazi che il regolamento lascia agli Stati."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proprio la sanita', il lavoro e la pubblica amministrazione sono tra questi spazi. Per questo, nelle prossime lezioni, leggeremo insieme il regolamento e il Codice."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento parte da alcune definizioni. Dato personale e' qualsiasi informazione su una persona fisica identificata o identificabile, anche indirettamente: un nome, un numero, un codice, un'immagine."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trattamento e' qualsiasi operazione sui dati: raccogliere, registrare, consultare, comunicare, conservare, cancellare. Anche solo leggere una cartella clinica e' un trattamento."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'interessato e' la persona a cui i dati si riferiscono. Il titolare e' chi decide finalita' e mezzi del trattamento: in un'azienda sanitaria, l'azienda stessa."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il regolamento guarda oltre i confini. Si applica a chi ha uno stabilimento nell'Unione, ovunque tratti i dati. E anche a chi sta fuori, se offre beni o servizi a persone nell'Unione o ne monitora il comportamento."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: una piattaforma di telemedicina con sede fuori dall'Europa, che offre consulti a pazienti italiani, deve rispettare il regolamento come un'azienda italiana."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il GDPR non vale solo per chi ha sede in Europa. Conta anche dove si trovano le persone a cui i dati si riferiscono."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il 2018: regole uguali in tutta Europa, anche per chi viene da fuori."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'idea che distingue il regolamento e' la responsabilizzazione, in inglese accountability. E' scritta nell'articolo 5: il titolare e' competente per il rispetto dei principi, ed e' in grado di comprovarlo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non basta fare le cose giuste: bisogna poterlo dimostrare. Documenti, procedure, scelte motivate. Se il Garante chiede, il titolare deve saper mostrare come protegge i dati."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 24 precisa il metodo. Il titolare mette in atto misure tecniche e organizzative adeguate, tenendo conto della natura, del contesto, delle finalita' e dei rischi per le persone."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cambia la logica. Prima c'era un elenco di misure minime, uguali per tutti. Ora c'e' un approccio basato sul rischio: ogni titolare valuta i propri trattamenti e sceglie le misure proporzionate."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 25 aggiunge due principi. Protezione dei dati fin dalla progettazione: pensarci prima, quando si sceglie un software o si organizza un servizio."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E protezione per impostazione predefinita: di base, si trattano solo i dati necessari, e non si rendono accessibili a un numero indefinito di persone."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio in azienda sanitaria: un nuovo gestionale di reparto. Si decide prima chi vede quali dati, per quanto tempo si conservano, come si registrano gli accessi. Non dopo."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E per chi lavora in reparto o in ufficio? La responsabilizzazione passa anche da ciascuno: seguire le istruzioni ricevute, usare solo le proprie credenziali, consultare solo i dati che servono."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: accountability non significa inviare moduli al Garante. Significa organizzarsi e poter dimostrare di rispettare le regole."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Non solo rispettare le regole: saperlo dimostrare."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: tre stagioni. La legge 675 del 1996, il Codice del 2003 in vigore dal 2004, il regolamento europeo 2016/679, applicabile dal 25 maggio 2018."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il regolamento e' direttamente applicabile; il decreto 101 del 2018 adegua il Codice, che resta in vigore. E il regolamento vale anche per chi e' fuori dall'Unione, se tratta dati di persone nell'Unione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: responsabilizzazione. Il titolare rispetta i principi e sa dimostrarlo, con misure adeguate ai rischi, fin dalla progettazione e per impostazione predefinita."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il GDPR non e' entrato in vigore il 25 maggio 2018. Quella e' la data da cui si applica; in vigore lo era dal 2016."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: tre stagioni, un diritto della persona, un titolare che deve saper dimostrare. Nella prossima lezione: i principi del trattamento."
+ }
+]

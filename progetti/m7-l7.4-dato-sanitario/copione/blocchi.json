@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'operatrice apre la cartella di un vicino di casa, ricoverato in un altro reparto. Non lo segue, non lo cura: vuole solo sapere come sta. Nessuno la vede. O forse si'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni accesso ai sistemi clinici lascia una traccia. E quel gesto, fatto per curiosita', tocca la categoria di dati che il regolamento protegge di piu': i dati sulla salute."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Alcuni dati raccontano la parte piu' fragile di una persona."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Il divieto dell'articolo 9. Le eccezioni che lo rendono superabile. Il dato sanitario in azienda, tra cura e segreto. E poi dossier, fascicolo sanitario e accessi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 9 del regolamento parte da un divieto. E' vietato trattare le categorie particolari di dati personali, quelle che un tempo si chiamavano dati sensibili."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono i dati che rivelano l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, l'appartenenza sindacale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi i dati genetici, i dati biometrici usati per identificare una persona in modo univoco, i dati relativi alla salute, alla vita sessuale o all'orientamento sessuale."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' una tutela rafforzata? Perche' da questi dati possono nascere discriminazioni, esclusioni, danni difficili da riparare. Lavoro, relazioni, reputazione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dato relativo alla salute e' definito in modo ampio: riguarda la salute fisica o mentale, compresa la prestazione di servizi sanitari. Anche sapere che una persona e' ricoverata in oncologia e' un dato sulla salute."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione ai dati del personale: un certificato di malattia, un giudizio di idoneita' con limitazioni, una richiesta di permessi per assistere un familiare disabile sono dati sulla salute."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I dati su condanne penali e reati non sono tra questi: hanno una disciplina propria, nell'articolo 10 del regolamento e nel Codice."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il dato sanitario non e' solo la diagnosi. Anche un appuntamento in un ambulatorio specialistico puo' rivelare lo stato di salute."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima il divieto, poi le eccezioni, sempre precise."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il divieto non vale in dieci casi, elencati nel paragrafo 2. Per chi lavora in sanita' alcuni sono decisivi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il consenso esplicito dell'interessato, per finalita' specifiche. Esplicito, non solo inequivocabile: un gradino in piu' rispetto ai dati comuni."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi gli obblighi in materia di lavoro e sicurezza sociale; l'interesse vitale di una persona incapace di dare il consenso; l'accertamento o la difesa di un diritto in giudizio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'interesse pubblico rilevante, sulla base del diritto dell'Unione o dello Stato, con misure appropriate e specifiche per le persone."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la lettera h: medicina preventiva e del lavoro, diagnosi, assistenza o terapia sanitaria o sociale, gestione dei sistemi e servizi sanitari. E' la base della cura."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seguono la sanita' pubblica, come la protezione da gravi minacce per la salute, e la ricerca scientifica, l'archiviazione e la statistica, con garanzie adeguate."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la lettera h il paragrafo 3 aggiunge una condizione: i dati devono essere trattati da un professionista soggetto al segreto professionale, o sotto la sua responsabilita', o da un'altra persona tenuta alla segretezza."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il paragrafo 4 lascia agli Stati la possibilita' di prevedere ulteriori condizioni per i dati genetici, biometrici e sulla salute. L'Italia l'ha fatto nel Codice."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche l'appartenenza sindacale e' una categoria particolare. La trattenuta della quota in busta paga passa per l'ufficio del personale, che la tratta con la stessa riservatezza."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: per le categorie particolari il consenso non e' la sola via. E' una delle eccezioni, e in sanita' non e' quella principale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La cura e' un'eccezione prevista, non un favore concesso."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Ecco perche' in ospedale non si chiede il consenso privacy per curare. Diagnosi, assistenza e terapia poggiano sulla lettera h, con le garanzie del segreto. Lo ha chiarito il Garante nel 2019."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il consenso resta necessario per attivita' non indispensabili alla cura: per esempio alcuni servizi facoltativi, come certe applicazioni o la consegna dei referti online, o iniziative promozionali."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Codice aggiunge le sue regole. L'articolo 2-sexies elenca i trattamenti di interesse pubblico rilevante, tra cui i compiti del servizio sanitario nazionale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 2-septies affida al Garante misure di garanzia per dati genetici, biometrici e sanitari. E fissa un divieto netto: i dati sulla salute non possono essere diffusi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il segreto non riguarda solo medici e infermieri. Chi lavora in amministrazione, all'accettazione o nei servizi tratta gli stessi dati, ed e' tenuto al segreto d'ufficio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle sale d'attesa si chiamano i pazienti senza rivelare la malattia, per esempio con un numero. E i referti si consegnano all'interessato o a una persona da lui delegata."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un familiare telefona in reparto per sapere come sta un paziente. Le informazioni si danno solo alle persone che il paziente ha indicato, non a chiunque chieda."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nelle emergenze? La cura viene prima: l'informativa puo' essere data anche dopo la prestazione, quando la persona e' in grado di riceverla."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il modulo firmato all'accettazione non e' cio' che rende lecita la cura. E' la legge, con il segreto professionale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Curare senza chiedere il consenso, proteggere senza eccezioni."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Due strumenti digitali rendono tutto piu' concreto. Il dossier sanitario raccoglie gli eventi clinici di un paziente all'interno della stessa azienda."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo le linee guida del Garante, il dossier si costituisce con il consenso del paziente, specifico e facoltativo. Chi non lo da' viene curato lo stesso."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fascicolo sanitario elettronico, invece, raccoglie la storia clinica di una persona tra strutture diverse. Dal 2020 si alimenta senza consenso; il consenso serve per la consultazione da parte dei professionisti."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fascicolo e' gestito dalle regioni e collegato a livello nazionale. L'assistito puo' consultarlo online: referti, lettere di dimissione, vaccinazioni."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In entrambi il paziente puo' chiedere l'oscuramento di alcuni eventi: restano nella documentazione, ma non sono visibili a tutti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto: gli accessi sono tracciati. Il sistema registra chi ha aperto cosa e quando, e le registrazioni si possono controllare."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torniamo all'operatrice curiosa. Il suo accesso non ha una finalita' di cura: e' un trattamento illecito, puo' essere un illecito disciplinare e, nei casi piu' gravi, un reato."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: avere le credenziali non significa avere il diritto di consultare. Si accede solo ai pazienti che si seguono, per il tempo necessario."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni accesso lascia una traccia, ogni traccia chiede una ragione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'articolo 9 vieta di trattare le categorie particolari, tra cui i dati sulla salute, genetici e biometrici, salvo dieci eccezioni."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: la cura si fonda sulla lettera h, con il segreto professionale del paragrafo 3, non sul consenso. Il consenso esplicito serve per attivita' non necessarie alla cura."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i dati sulla salute non si diffondono; il dossier richiede il consenso, il fascicolo si alimenta senza; gli accessi sono tracciati e solo chi cura puo' consultare."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: l'obbligo di riservatezza non e' solo del personale sanitario. Vale per chiunque, in azienda, tratti quei dati."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un divieto forte, eccezioni precise, un segreto che vale per tutti. Nella prossima lezione: i diritti dell'interessato."
+ }
+]
