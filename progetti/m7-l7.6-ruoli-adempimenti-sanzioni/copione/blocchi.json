@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Venerdi' sera. Una mail con venti referti parte verso l'indirizzo sbagliato. Chi deve saperlo? Entro quando? E chi ne risponde: chi ha premuto invio, il dirigente, l'azienda?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per rispondere servono tre cose: sapere chi fa cosa nel trattamento, conoscere gli adempimenti che il regolamento impone, e le conseguenze se qualcosa va storto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ruoli chiari, tempi certi, responsabilita' precise."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Titolare, responsabile e persone autorizzate. Il responsabile della protezione dei dati. Registro, valutazione d'impatto e violazioni. E infine le sanzioni."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il titolare e' chi determina finalita' e mezzi del trattamento. In un'azienda sanitaria pubblica e' l'azienda stessa, rappresentata dal direttore generale. Non il singolo dirigente, non l'ufficio."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando due o piu' soggetti decidono insieme finalita' e mezzi, sono contitolari. Un accordo interno stabilisce chi fa cosa, e l'interessato puo' rivolgersi a ciascuno."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il responsabile del trattamento, nel regolamento, e' un soggetto diverso: tratta i dati per conto del titolare. Di solito e' esterno, come una ditta informatica o un servizio in appalto."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il titolare deve scegliere responsabili che offrono garanzie sufficienti, e vincolarli con un contratto: istruzioni documentate, riservatezza, sicurezza, cancellazione o restituzione dei dati a fine servizio."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il responsabile non puo' affidare il lavoro ad altri senza autorizzazione scritta del titolare. E se decide lui le finalita', diventa a sua volta titolare, con tutte le conseguenze."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la ditta che gestisce il software delle cartelle cliniche. Accede ai dati solo per la manutenzione, secondo le istruzioni e il contratto dell'azienda."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i dipendenti? Sono persone autorizzate al trattamento: agiscono sotto l'autorita' del titolare e secondo le sue istruzioni. Un tempo si chiamavano incaricati."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Codice, all'articolo due quaterdecies, permette inoltre al titolare di attribuire compiti specifici a persone designate, per esempio i dirigenti delle strutture."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: nel regolamento il responsabile non e' il dirigente interno. E' chi tratta i dati per conto del titolare, spesso un soggetto esterno."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi decide, chi esegue, chi opera sotto istruzioni."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il responsabile della protezione dei dati, in inglese Data Protection Officer, e' obbligatorio per le autorita' e gli organismi pubblici. Ogni azienda sanitaria pubblica deve averlo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' obbligatorio anche per chi tratta su larga scala categorie particolari di dati, o monitora le persone in modo regolare e sistematico. Puo' essere un dipendente o un professionista esterno."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' scelto per le sue competenze in materia di protezione dei dati. Deve essere indipendente: non riceve istruzioni sui suoi compiti, riferisce al vertice e non puo' essere penalizzato per come li svolge."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I suoi compiti: informare e consigliare titolare e dipendenti, sorvegliare il rispetto delle regole, dare pareri sulla valutazione d'impatto, cooperare con il Garante ed essere il suo punto di contatto."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non decide al posto del titolare e non firma le notifiche a nome proprio. Consiglia e controlla; le decisioni e le responsabilita' restano del titolare."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I suoi dati di contatto sono pubblicati e indicati nell'informativa. Chiunque, paziente o dipendente, puo' rivolgersi a lui per le questioni sui propri dati."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il responsabile della protezione dei dati non e' chi risponde delle violazioni. Risponde il titolare; il DPO vigila e consiglia."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un consigliere indipendente, non un capro espiatorio."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo adempimento e' il registro delle attivita' di trattamento: per ogni trattamento, finalita', categorie di dati e di persone, destinatari, tempi di cancellazione, misure di sicurezza."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le organizzazioni con meno di duecentocinquanta dipendenti ne sono in parte esonerate, ma non se trattano categorie particolari di dati. Un'azienda sanitaria il registro lo tiene sempre."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' la valutazione d'impatto, in inglese DPIA. Si fa prima di un trattamento che presenta un rischio elevato per le persone, per esempio su larga scala di dati sanitari."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un nuovo servizio di telemedicina, o una piattaforma regionale di dati clinici. Si descrivono i rischi e le misure per ridurli, con il parere del DPO."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sullo sfondo c'e' l'obbligo di sicurezza dell'articolo 32: cifratura, sistemi riservati e disponibili, capacita' di ripristinare i dati, verifiche periodiche."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo riguarda le violazioni dei dati: distruzione, perdita, modifica, divulgazione o accesso non autorizzato, anche solo accidentali."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il titolare notifica la violazione al Garante senza ingiustificato ritardo e, ove possibile, entro settantadue ore da quando ne e' venuto a conoscenza. Non serve se e' improbabile un rischio per le persone."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la notifica arriva dopo le settantadue ore, va motivato il ritardo. E se il rischio per le persone e' elevato, bisogna avvisare anche loro, con un linguaggio semplice e chiaro."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni violazione, anche quella non notificata, va documentata. Torniamo alla mail di venerdi': chi se ne accorge avvisa subito il proprio responsabile e il DPO, secondo la procedura aziendale."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le settantadue ore non partono dal lunedi' mattina. Partono da quando il titolare viene a conoscenza della violazione, weekend compreso."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Registrare, valutare prima, reagire in fretta."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Le sanzioni amministrative del regolamento hanno due livelli. Il primo arriva fino a dieci milioni di euro o, per le imprese, al due per cento del fatturato mondiale annuo, se superiore."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riguarda la violazione degli obblighi di titolare e responsabile: sicurezza, registro, valutazione d'impatto, notifica delle violazioni, DPO."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo arriva fino a venti milioni di euro o al quattro per cento del fatturato. Riguarda i principi, le basi giuridiche, le condizioni del consenso, le categorie particolari, i diritti degli interessati."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento lascia agli Stati la scelta di applicare le sanzioni anche agli enti pubblici. L'Italia non li ha esclusi: il Garante sanziona anche aziende sanitarie e ospedali."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi ha subito un danno, materiale o immateriale, ha diritto al risarcimento. E il Codice prevede anche reati, come il trattamento illecito di dati a fine di profitto o di danno, che provoca un nocumento."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per chi lavora in azienda c'e' poi la responsabilita' disciplinare. Chi viola le istruzioni ricevute, per esempio consultando dati senza ragione, ne risponde personalmente."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le sanzioni non sono tutte da venti milioni. Ci sono due livelli, dieci e venti milioni, a seconda della norma violata."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Due livelli di sanzione, una responsabilita' per ciascuno."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il titolare decide finalita' e mezzi; il responsabile tratta per suo conto, con un contratto; i dipendenti sono persone autorizzate, che seguono istruzioni."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il DPO e' obbligatorio negli enti pubblici, indipendente, consiglia e sorveglia; il registro e la valutazione d'impatto sono adempimenti del titolare; le violazioni si notificano entro settantadue ore."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le sanzioni hanno due livelli, fino a dieci milioni o due per cento e fino a venti milioni o quattro per cento; si aggiungono risarcimento, reati e responsabilita' disciplinare."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: la notifica della violazione non spetta al DPO. Spetta al titolare, che il DPO consiglia."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: ruoli chiari, adempimenti concreti, sanzioni a due livelli. Si chiude il modulo sulla protezione dei dati. Nel prossimo: il pubblico impiego."
+ }
+]

@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:13,950
+In una giornata di reparto passano per le tue mani decine di dati: nomi, diagnosi, terapie, numeri di telefono, turni dei colleghi. Chi decide come vanno trattati? E da quando?
+
+2
+00:00:13,950 --> 00:00:25,410
+La risposta ha trent'anni di storia: una legge del 1996, un codice del 2003, un regolamento europeo del 2016. Tre stagioni, e ognuna ha cambiato il modo di lavorare negli ospedali.
+
+3
+00:00:25,410 --> 00:00:30,010
+Proteggere i dati significa proteggere le persone.
+
+4
+00:00:30,010 --> 00:00:42,090
+Quattro passaggi. La prima stagione, con la legge 675. La seconda, con il Codice del 2003. La terza, con il regolamento europeo. E l'idea che la attraversa: la responsabilizzazione.
+
+5
+00:00:42,090 --> 00:00:54,610
+La prima legge organica italiana sulla protezione dei dati e' la legge 675 del 31 dicembre 1996. Nasce per dare attuazione a una direttiva europea, la 95/46.
+
+6
+00:00:54,610 --> 00:01:04,650
+Fino ad allora, in Italia, non c'era una disciplina generale. Esistevano il segreto professionale, il segreto d'ufficio, qualche norma sparsa. Mancava un diritto della persona sui propri dati.
+
+7
+00:01:04,650 --> 00:01:15,680
+La 675 introduce parole che usiamo ancora: trattamento, interessato, titolare, consenso. E istituisce un'autorita' indipendente: il Garante per la protezione dei dati personali.
+
+8
+00:01:15,680 --> 00:01:23,920
+Per i dati piu' delicati, come quelli sulla salute, la 675 prevede cautele rafforzate. Nasce la distinzione tra dati comuni e dati sensibili.
+
+9
+00:01:23,920 --> 00:01:31,710
+Il messaggio e' nuovo: i dati di una persona non appartengono a chi li raccoglie. Chi li tratta deve farlo secondo regole, e la persona puo' intervenire.
+
+10
+00:01:31,710 --> 00:01:40,930
+Occhio a un distrattore: la privacy non nasce con il regolamento europeo. In Italia la prima legge organica e' del 1996, oltre vent'anni prima.
+
+11
+00:01:40,930 --> 00:01:45,870
+Il 1996: i dati diventano un diritto della persona.
+
+12
+00:01:45,870 --> 00:01:57,900
+Nel giro di pochi anni le norme si moltiplicano. Il legislatore le riunisce in un testo unico: il decreto legislativo 196 del 30 giugno 2003, il Codice in materia di protezione dei dati personali.
+
+13
+00:01:57,900 --> 00:02:07,740
+Il Codice entra in vigore il primo gennaio 2004. Contiene una parte generale e parti dedicate ai settori: tra queste, una disciplina specifica per i trattamenti in ambito sanitario.
+
+14
+00:02:07,740 --> 00:02:16,860
+Il Codice elenca anche le misure minime di sicurezza, in un disciplinare tecnico: password, aggiornamenti, copie di sicurezza. Un elenco di adempimenti uguale per tutti.
+
+15
+00:02:16,860 --> 00:02:26,140
+Nel Codice le figure sono tre: il titolare, il responsabile e gli incaricati. Con il regolamento europeo, gli incaricati diventeranno le persone autorizzate al trattamento.
+
+16
+00:02:26,140 --> 00:02:36,310
+In quegli anni la protezione dei dati sale di rango. La Carta dei diritti fondamentali dell'Unione europea, all'articolo 8, la riconosce come diritto autonomo, distinto dal rispetto della vita privata.
+
+17
+00:02:36,310 --> 00:02:45,660
+Negli ospedali questa stagione porta l'informativa ai pazienti, le regole sulla consegna dei referti, la cura nel chiamare le persone in sala d'attesa senza rivelarne la malattia.
+
+18
+00:02:45,660 --> 00:02:53,420
+Attenzione: il Codice del 2003 non e' stato abrogato dal regolamento europeo. E' ancora in vigore, profondamente modificato.
+
+19
+00:02:53,420 --> 00:02:58,020
+Il 2003: un codice unico, regole per ogni settore.
+
+20
+00:02:58,020 --> 00:03:08,540
+La terza stagione e' europea. Il regolamento 2016/679, noto come GDPR, e' adottato il 27 aprile 2016 ed entra in vigore nel maggio dello stesso anno.
+
+21
+00:03:08,540 --> 00:03:15,290
+Ma si applica dal 25 maggio 2018. Due anni di tempo per adeguarsi: e' questa la data che tutti ricordano.
+
+22
+00:03:15,290 --> 00:03:28,000
+Perche' un regolamento e non un'altra direttiva? Perche' il regolamento e' direttamente applicabile in ciascuno Stato membro. Non serve una legge nazionale che lo recepisca: le regole sono le stesse ovunque.
+
+23
+00:03:28,000 --> 00:03:38,270
+Il regolamento abroga la vecchia direttiva 95/46, quella da cui era nata la legge 675. Si chiude cosi' la prima stagione anche sul piano europeo.
+
+24
+00:03:38,270 --> 00:03:49,910
+L'Italia adegua comunque il proprio diritto con il decreto legislativo 101 del 2018. Il Codice resta, ma viene riscritto: tiene le norme nazionali negli spazi che il regolamento lascia agli Stati.
+
+25
+00:03:49,910 --> 00:03:59,360
+Proprio la sanita', il lavoro e la pubblica amministrazione sono tra questi spazi. Per questo, nelle prossime lezioni, leggeremo insieme il regolamento e il Codice.
+
+26
+00:03:59,360 --> 00:04:11,730
+Il regolamento parte da alcune definizioni. Dato personale e' qualsiasi informazione su una persona fisica identificata o identificabile, anche indirettamente: un nome, un numero, un codice, un'immagine.
+
+27
+00:04:11,730 --> 00:04:22,500
+Trattamento e' qualsiasi operazione sui dati: raccogliere, registrare, consultare, comunicare, conservare, cancellare. Anche solo leggere una cartella clinica e' un trattamento.
+
+28
+00:04:22,500 --> 00:04:31,440
+L'interessato e' la persona a cui i dati si riferiscono. Il titolare e' chi decide finalita' e mezzi del trattamento: in un'azienda sanitaria, l'azienda stessa.
+
+29
+00:04:31,440 --> 00:04:43,590
+E il regolamento guarda oltre i confini. Si applica a chi ha uno stabilimento nell'Unione, ovunque tratti i dati. E anche a chi sta fuori, se offre beni o servizi a persone nell'Unione o ne monitora il comportamento.
+
+30
+00:04:43,590 --> 00:04:53,290
+Un esempio: una piattaforma di telemedicina con sede fuori dall'Europa, che offre consulti a pazienti italiani, deve rispettare il regolamento come un'azienda italiana.
+
+31
+00:04:53,290 --> 00:05:02,070
+Un distrattore frequente: il GDPR non vale solo per chi ha sede in Europa. Conta anche dove si trovano le persone a cui i dati si riferiscono.
+
+32
+00:05:02,070 --> 00:05:07,730
+Il 2018: regole uguali in tutta Europa, anche per chi viene da fuori.
+
+33
+00:05:07,730 --> 00:05:19,650
+L'idea che distingue il regolamento e' la responsabilizzazione, in inglese accountability. E' scritta nell'articolo 5: il titolare e' competente per il rispetto dei principi, ed e' in grado di comprovarlo.
+
+34
+00:05:19,650 --> 00:05:29,630
+Non basta fare le cose giuste: bisogna poterlo dimostrare. Documenti, procedure, scelte motivate. Se il Garante chiede, il titolare deve saper mostrare come protegge i dati.
+
+35
+00:05:29,630 --> 00:05:40,750
+L'articolo 24 precisa il metodo. Il titolare mette in atto misure tecniche e organizzative adeguate, tenendo conto della natura, del contesto, delle finalita' e dei rischi per le persone.
+
+36
+00:05:40,750 --> 00:05:51,290
+Cambia la logica. Prima c'era un elenco di misure minime, uguali per tutti. Ora c'e' un approccio basato sul rischio: ogni titolare valuta i propri trattamenti e sceglie le misure proporzionate.
+
+37
+00:05:51,290 --> 00:06:00,070
+L'articolo 25 aggiunge due principi. Protezione dei dati fin dalla progettazione: pensarci prima, quando si sceglie un software o si organizza un servizio.
+
+38
+00:06:00,070 --> 00:06:08,540
+E protezione per impostazione predefinita: di base, si trattano solo i dati necessari, e non si rendono accessibili a un numero indefinito di persone.
+
+39
+00:06:08,540 --> 00:06:18,710
+Un esempio in azienda sanitaria: un nuovo gestionale di reparto. Si decide prima chi vede quali dati, per quanto tempo si conservano, come si registrano gli accessi. Non dopo.
+
+40
+00:06:18,710 --> 00:06:29,480
+E per chi lavora in reparto o in ufficio? La responsabilizzazione passa anche da ciascuno: seguire le istruzioni ricevute, usare solo le proprie credenziali, consultare solo i dati che servono.
+
+41
+00:06:29,480 --> 00:06:38,030
+Attenzione: accountability non significa inviare moduli al Garante. Significa organizzarsi e poter dimostrare di rispettare le regole.
+
+42
+00:06:38,030 --> 00:06:42,630
+Non solo rispettare le regole: saperlo dimostrare.
+
+43
+00:06:42,630 --> 00:06:59,400
+Le tre cose che ti chiederanno. La prima: tre stagioni. La legge 675 del 1996, il Codice del 2003 in vigore dal 2004, il regolamento europeo 2016/679, applicabile dal 25 maggio 2018.
+
+44
+00:06:59,400 --> 00:07:13,230
+La seconda: il regolamento e' direttamente applicabile; il decreto 101 del 2018 adegua il Codice, che resta in vigore. E il regolamento vale anche per chi e' fuori dall'Unione, se tratta dati di persone nell'Unione.
+
+45
+00:07:13,230 --> 00:07:23,850
+La terza: responsabilizzazione. Il titolare rispetta i principi e sa dimostrarlo, con misure adeguate ai rischi, fin dalla progettazione e per impostazione predefinita.
+
+46
+00:07:23,850 --> 00:07:33,860
+L'ultimo distrattore: il GDPR non e' entrato in vigore il 25 maggio 2018. Quella e' la data da cui si applica; in vigore lo era dal 2016.
+
+47
+00:07:33,860 --> 00:07:41,940
+In sintesi: tre stagioni, un diritto della persona, un titolare che deve saper dimostrare. Nella prossima lezione: i principi del trattamento.

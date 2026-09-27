@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Una paziente scrive all'azienda sanitaria. Chiede di sapere quali dati avete su di lei, di correggere un'allergia registrata per errore e di cancellare tutta la sua cartella. Cosa si puo' fare, e cosa no?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono tre richieste diverse, e ognuna corrisponde a un diritto preciso del regolamento europeo. Due vanno soddisfatte. La terza, in gran parte, no. Vediamo perche'."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "I dati sono della persona: i diritti le restituiscono il controllo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Come si esercitano i diritti. Accesso e rettifica. Cancellazione e limitazione. E infine portabilita', opposizione e decisioni automatizzate."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "I diritti sono negli articoli da 15 a 22. L'articolo 12 fissa le regole comuni: il titolare deve agevolarne l'esercizio, non ostacolarlo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta arriva senza ingiustificato ritardo e comunque entro un mese dalla richiesta. Se la richiesta e' complessa, o le richieste sono molte, il termine si puo' prorogare di altri due mesi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma la proroga va comunicata all'interessato entro il primo mese, con i motivi. E se il titolare non da' seguito alla richiesta, deve spiegare perche' e ricordare la possibilita' di reclamo e di ricorso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esercizio dei diritti e' gratuito. Solo per richieste manifestamente infondate o eccessive, per esempio ripetitive, il titolare puo' chiedere un contributo spese o rifiutare, dimostrandone il motivo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se ci sono dubbi ragionevoli sull'identita' di chi chiede, il titolare puo' chiedere informazioni per verificarla. Consegnare dati sanitari alla persona sbagliata sarebbe una violazione grave."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la richiesta arriva all'ufficio relazioni con il pubblico. Va protocollata e inoltrata subito all'ufficio competente, perche' il mese decorre dal ricevimento, non da quando arriva sulla scrivania giusta."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il termine non e' di trenta giorni fissi. E' un mese, prorogabile di due, sempre con una comunicazione motivata."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un mese per rispondere, gratis, alla persona giusta."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo diritto e' l'accesso, articolo 15. La persona ha diritto di sapere se sono trattati dati che la riguardano e, in quel caso, di ottenerne una copia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Insieme ai dati riceve le informazioni essenziali: le finalita', le categorie di dati, i destinatari, il periodo di conservazione, i suoi diritti e l'origine dei dati, se non li ha forniti lei."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "In sanita' l'accesso riguarda anche la documentazione clinica. La legge 24 del 2017 prevede che la copia della documentazione sanitaria sia fornita entro sette giorni dalla richiesta, con eventuali integrazioni entro trenta."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche un dipendente puo' esercitare l'accesso sui dati che l'azienda tratta su di lui: fascicolo personale, presenze, valutazioni. Con i limiti che tutelano i diritti di altre persone."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo diritto e' la rettifica, articolo 16: correggere i dati inesatti e integrare quelli incompleti, anche con una dichiarazione della persona."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il caso dell'allergia registrata per errore. L'azienda la corregge senza ritardo: e' un diritto della paziente, ma anche una garanzia per chi la cura."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In ambito clinico, pero', la rettifica non cancella la storia. Una diagnosi superata non si riscrive: si aggiorna, lasciando traccia di cio' che era stato registrato."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando i dati vengono rettificati, cancellati o limitati, il titolare lo comunica anche ai destinatari a cui li aveva trasmessi. E' l'obbligo dell'articolo 19."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: l'accesso non richiede una motivazione. La persona non deve spiegare perche' vuole sapere quali dati la riguardano."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sapere, avere copia, correggere senza ritardo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il terzo diritto e' la cancellazione, articolo 17, chiamata anche diritto all'oblio. Si applica in casi precisi."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per esempio quando i dati non servono piu', quando la persona revoca il consenso e non c'e' altra base, quando si oppone e prevale il suo interesse, o quando il trattamento e' illecito."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il diritto ha dei limiti. Non si applica quando il trattamento e' necessario per un obbligo di legge, per un compito di interesse pubblico, per motivi di sanita' pubblica, per archivio e ricerca."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco la risposta alla terza richiesta della paziente: la cartella clinica non si cancella. E' documentazione che l'azienda deve conservare per legge, a garanzia della stessa paziente."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Si possono cancellare, invece, dati non necessari: per esempio un recapito raccolto per un servizio facoltativo, con il consenso, che la persona ha poi revocato."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto diritto e' la limitazione, articolo 18. I dati restano conservati ma si congelano: si usano solo in casi particolari."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Succede quando la persona contesta l'esattezza, per il tempo della verifica; quando il trattamento e' illecito ma lei preferisce non cancellare; quando servono per difendere un suo diritto; o mentre si valuta un'opposizione."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da non confondere con l'oscuramento nel dossier e nel fascicolo sanitario: e' una garanzia diversa, prevista dalle regole specifiche della sanita'."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il diritto all'oblio non e' assoluto. Cede davanti agli obblighi di legge e ai compiti di interesse pubblico, come la conservazione della cartella clinica."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Cancellare quando si puo', congelare quando serve."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il quinto diritto e' la portabilita', articolo 20: ricevere i propri dati in un formato strutturato e leggibile da un computer, e trasmetterli a un altro titolare."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma vale solo se il trattamento si basa sul consenso o su un contratto, ed e' automatizzato. E non si applica ai trattamenti necessari per un compito di interesse pubblico."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per un'azienda sanitaria pubblica, quindi, la portabilita' in senso stretto raramente spetta. Resta pero' il diritto di accesso e di copia, che copre gran parte delle esigenze."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sesto diritto e' l'opposizione, articolo 21: per motivi legati alla sua situazione particolare, la persona puo' opporsi ai trattamenti basati sull'interesse pubblico o sul legittimo interesse."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il titolare deve fermarsi, a meno che dimostri motivi legittimi cogenti che prevalgono. Per il marketing diretto, invece, l'opposizione vale sempre, senza bisogno di motivi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine l'articolo 22: il diritto di non subire una decisione basata unicamente su un trattamento automatizzato, compresa la profilazione, che produca effetti giuridici o incida su di lei in modo significativo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un algoritmo che assegna automaticamente le priorita' di una lista d'attesa. Deve restare sempre possibile l'intervento di una persona, che valuti e decida."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il titolare non risponde, o risponde male, la persona puo' presentare reclamo al Garante o ricorrere al giudice. E chi subisce un danno ha diritto al risarcimento."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola pratica per gli uffici: ogni richiesta sui dati personali va riconosciuta, registrata e trasmessa subito a chi deve rispondere."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la portabilita' non e' un diritto generale su tutti i dati. Serve il consenso o il contratto, e un trattamento automatizzato."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Diritti forti, ognuno con i suoi confini."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: i diritti degli articoli da 15 a 22 si esercitano gratuitamente; la risposta arriva entro un mese, prorogabile di due con motivazione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: accesso e rettifica spettano di regola; la cancellazione no, perche' cede davanti agli obblighi di legge e ai compiti pubblici, come la conservazione della cartella clinica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: la portabilita' vale solo per consenso o contratto e trattamenti automatizzati; l'opposizione si basa sulla situazione particolare; contro le risposte mancate c'e' il reclamo al Garante."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: per ottenere la copia dei propri dati la persona non deve pagare. Il contributo spese e' un'eccezione, per richieste eccessive."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: sapere, correggere, cancellare quando si puo', opporsi quando serve. Nella prossima lezione: ruoli, adempimenti e sanzioni."
+ }
+]

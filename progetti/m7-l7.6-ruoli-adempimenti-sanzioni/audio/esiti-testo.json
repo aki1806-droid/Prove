@@ -1,0 +1,42 @@
+{
+ "A": {
+  "parole_copione": 531,
+  "parole_dette": 531,
+  "coincidenti": 531,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 611,
+  "parole_dette": 607,
+  "coincidenti": 602,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "dal",
+    "detto": "da"
+   },
+   {
+    "blocco": "s35",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s37",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s45",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s45",
+    "copione": "per 100",
+    "detto": "percento"
+   }
+  ]
+ }
+}

@@ -42,8 +42,8 @@ BLOCCHI = [
 
  (5,"chiaro",0.5,"Ecco perche' in ospedale non si chiede il consenso privacy per curare. Diagnosi, assistenza e terapia poggiano sulla lettera h, con le garanzie del segreto. Lo ha chiarito il Garante nel 2019."),
  (5,"chiaro",0,"Il consenso resta necessario per attivita' non indispensabili alla cura: per esempio alcuni servizi facoltativi, come certe applicazioni o la consegna dei referti online, o iniziative promozionali."),
- (5,"chiaro",0,"Il Codice aggiunge le sue regole. L'articolo 2-sexies elenca i trattamenti di interesse pubblico rilevante, tra cui i compiti del servizio sanitario nazionale."),
- (5,"chiaro",0,"L'articolo 2-septies affida al Garante misure di garanzia per dati genetici, biometrici e sanitari. E fissa un divieto netto: i dati sulla salute non possono essere diffusi."),
+ (5,"chiaro",0,"Il Codice aggiunge le sue regole. L'articolo due sexies elenca i trattamenti di interesse pubblico rilevante, tra cui i compiti del servizio sanitario nazionale."),
+ (5,"chiaro",0,"L'articolo due septies affida al Garante misure di garanzia per dati genetici, biometrici e sanitari. E fissa un divieto netto: i dati sulla salute non possono essere diffusi."),
  (5,"chiaro",0,"Il segreto non riguarda solo medici e infermieri. Chi lavora in amministrazione, all'accettazione o nei servizi tratta gli stessi dati, ed e' tenuto al segreto d'ufficio."),
  (5,"chiaro",0,"Nelle sale d'attesa si chiamano i pazienti senza rivelare la malattia, per esempio con un numero. E i referti si consegnano all'interessato o a una persona da lui delegata."),
  (5,"chiaro",0.6,"Un esempio: un familiare telefona in reparto per sapere come sta un paziente. Le informazioni si danno solo alle persone che il paziente ha indicato, non a chiunque chieda."),

@@ -5,8 +5,8 @@
   s06  audio  12.52s  scena  12.52s  scarto    0 ms
   s07  audio  10.04s  scena  10.04s  scarto    0 ms
   s08  audio  11.03s  scena  11.04s  scarto   10 ms
-  s09  audio   8.87s  scena   8.87s  scarto    0 ms
-  s10  audio   7.21s  scena   7.20s  scarto   10 ms
+  s09  audio   8.24s  scena   8.24s  scarto    0 ms
+  s10  audio   7.79s  scena   7.80s  scarto   10 ms
   s11  audio   9.22s  scena   9.24s  scarto   20 ms
   s12  audio   4.94s  scena   4.94s  scarto    0 ms
   s13  audio  12.03s  scena  12.04s  scarto   10 ms
@@ -46,5 +46,23 @@
   s47  audio  10.01s  scena  10.00s  scarto   10 ms
   s48  audio   8.08s  scena   8.08s  scarto    0 ms
 
-49 scene · parlato 459.1 s · con copertina 3 s e chiusura 10 s → 7:52.1
+49 scene · parlato 459.0 s · con copertina 3 s e chiusura 10 s → 7:52.0
 scarto massimo audio/video: 20 ms su s29
+montato-7.1.mp4  7:52.31  17 MB
+montato-7.1.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 155 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+      Metadata:
+ 
+CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)
+
+  [OK  ] verifica per trascrizione (traccia intera): 100.0% delle parole coincide, buchi nel parlato: 0
+  [OK  ] fascia 8.5-21 car/s: tutti dentro
+  [OK  ] PNG renderizzati e guardati: 49 su 49 scene (tetto 50)
+  [OK  ] nessuna slide sfora la cornice: 0 sforano
+  [OK  ] scene totali: 49 (tetto 50)
+  [OK  ] durata 7:52.31 — chiesti 7:01.00
+  [OK  ] sottotitoli SRT: 47 righe su 47 blocchi
+  [NO  ] registro con la sezione «da verificare»
+
+7/8 superati
+FATTO
