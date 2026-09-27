@@ -86,6 +86,24 @@ testo della L. 241/1990 aggiornato al 2019 e sulla dispensa CISL FP; le modifich
 sono verificate solo con estratti di ricerca, e gli errori della dispensa non sono ripresi
 (vedi i REGISTRO, «Da verificare»).
 
+Modulo 6 completo, Trasparenza nella pubblica amministrazione (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 6.1 | Dall'accesso difensivo all'accessibilità totale | 7:25 |
+| 6.2 | «Amministrazione Trasparente» | 7:36 |
+| 6.3 | L'accesso civico semplice | 7:11 |
+| 6.4 | L'accesso civico generalizzato (FOIA) | 7:24 |
+| 6.5 | Chi vigila e che cosa si rischia | 7:31 |
+
+Nel modulo 6 `illustra.mjs` passa a 31 illustrazioni: si aggiungono vetro, sito, porta e faro;
+per la lezione successiva si parte dalla 6.5. La fonte prevista dal piano,
+`Trasparenza-nella-Pubblica-Amministrazione.pdf`, non era disponibile: il modulo è costruito sul
+testo del D.Lgs. 33/2013 aggiornato al 2017 (dopo il D.Lgs. 97/2016) e sulle dispense su Drive,
+di cui non riprende gli errori (per esempio la sanzione dell'art. 47 presentata come generale).
+PIAO, Corte cost. 20/2019 e le altre novità successive al 2017 sono da verificare sul testo
+vigente (vedi i REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.
