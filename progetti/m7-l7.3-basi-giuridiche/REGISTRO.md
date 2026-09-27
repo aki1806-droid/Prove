@@ -21,7 +21,7 @@ Ogni clip dura quanto il suo blocco audio (fino a 30 s), così l'animazione d'am
 | parlato lavorato | **436,8 s** (24 pose) |
 | CPS misurato | 16,7 car/s sul lavorato |
 | montato locale | **7:30,19** |
-| montato HeyGen | **{HG}** |
+| montato HeyGen | **7:28,91** |
 
 ## Verifiche
 
@@ -38,9 +38,9 @@ Ogni clip dura quanto il suo blocco audio (fino a 30 s), così l'animazione d'am
 
 ## Montaggio
 
-- Lotto HeyGen `{LOTTO}`: 98 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Lotto HeyGen `56941a5f85894f3ebd2e3da899621433`: 98 file accoppiati per posizione, 0 discordi sul `content-type`.
 - Payload: 50 scene; 48 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
+- Video HeyGen: `5cfb15f1e24bedde2657f27ab596f162` (https://app.heygen.com/videos/5cfb15f1e24bedde2657f27ab596f162).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo
