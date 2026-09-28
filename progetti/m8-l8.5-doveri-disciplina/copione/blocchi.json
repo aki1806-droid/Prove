@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un dipendente timbra il cartellino e poi esce per una commissione privata. Un collega se ne accorge e lo dice al coordinatore. Che cosa succede adesso, e in quanto tempo?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Succede un procedimento disciplinare, con tempi e garanzie fissati dalla legge. Ma prima di arrivarci bisogna sapere quali sono i doveri di chi lavora per un'amministrazione pubblica."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Doveri chiari, sanzioni proporzionate, un procedimento con garanzie."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. I doveri del dipendente pubblico. Il codice di comportamento. Le sanzioni disciplinari. E il procedimento, con i suoi termini."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Tutto parte dalla Costituzione. L'articolo 98 dice che i pubblici impiegati sono al servizio esclusivo della Nazione. Non di un partito, non di un interesse privato."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 54 del 165 traduce questo principio in doveri: diligenza, lealta', imparzialita' e servizio esclusivo alla cura dell'interesse pubblico."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A questi doveri si aggiungono quelli del contratto collettivo: rispettare l'orario, eseguire le disposizioni ricevute, tenere un comportamento corretto con colleghi e utenti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' la riservatezza: le informazioni conosciute per ragioni d'ufficio non si usano a fini privati, e non si diffondono fuori dai casi previsti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' l'esclusivita' del rapporto. L'articolo 53 vieta gli incarichi incompatibili, e per gli altri incarichi retribuiti serve l'autorizzazione dell'amministrazione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un tecnico di radiologia che vuole fare qualche ora in un centro privato deve chiedere prima l'autorizzazione. Senza, il compenso va restituito all'amministrazione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il divieto non riguarda solo il secondo lavoro fisso. Anche un incarico occasionale retribuito, se non autorizzato, e' una violazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Al servizio della Nazione, non di un interesse privato."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il codice di comportamento nazionale e' un regolamento del 2013, aggiornato nel 2023. Ogni amministrazione adotta poi un proprio codice, che lo integra e lo specifica."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sui regali la regola e' netta: non si chiedono e non si accettano, salvo quelli d'uso di modico valore, di norma non oltre centocinquanta euro. Mai in cambio di un atto d'ufficio."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul conflitto di interessi: il dipendente deve astenersi dalle decisioni che coinvolgono interessi propri, di parenti o di persone con cui ha rapporti stretti, e deve comunicarlo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono le regole in servizio e con il pubblico: non ritardare le pratiche, usare con cura i beni e gli strumenti dell'ufficio, rispondere con cortesia e farsi riconoscere."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aggiornamento del 2023 ha aggiunto regole sull'uso delle tecnologie e dei social: niente dichiarazioni che danneggino l'immagine dell'amministrazione, niente uso privato degli strumenti di lavoro."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto: violare il codice di comportamento e' fonte di responsabilita' disciplinare. Le violazioni gravi o ripetute possono portare fino al licenziamento."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un familiare di un paziente offre una bottiglia di vino a Natale, per ringraziare. E' un regalo d'uso di modico valore. Una busta con del denaro, invece, no."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il codice non e' un elenco di buone maniere senza conseguenze. La sua violazione e' un illecito disciplinare."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un codice che vale ogni giorno, in ogni reparto."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 55 del 165 dice che al pubblico impiego si applica la regola del codice civile: la sanzione deve essere proporzionata alla gravita' dell'infrazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tipo di infrazioni e di sanzioni lo stabiliscono i contratti collettivi, nel codice disciplinare. E pubblicarlo sul sito dell'amministrazione vale come affiggerlo all'ingresso."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I contratti possono prevedere una conciliazione, ma non nei casi da licenziamento. E non esistono collegi interni per impugnare le sanzioni: si va dal giudice del lavoro."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sanzioni vanno per gradi. Il rimprovero verbale, il rimprovero scritto, la multa fino a quattro ore di retribuzione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la sospensione dal servizio senza retribuzione, fino a dieci giorni, e oltre, fino a sei mesi. Infine il licenziamento, con preavviso o senza preavviso."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono casi in cui il licenziamento e' previsto direttamente dalla legge, all'articolo 55 quater. Il primo e' la falsa attestazione della presenza in servizio, anche alterando il sistema di rilevazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi le assenze ingiustificate per piu' di tre giorni in un biennio, le falsita' per ottenere l'assunzione o una progressione, le condotte aggressive o moleste, le condanne penali con interdizione dai pubblici uffici."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora le violazioni gravi o ripetute del codice di comportamento, e una valutazione negativa della performance ripetuta per tre anni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: la sospensione dal servizio non arriva a un anno. Il massimo previsto dai contratti e' di sei mesi."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una scala di sanzioni, proporzionate alla gravita'."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il procedimento e' nell'articolo 55 bis. Per le infrazioni minori, punite con il rimprovero verbale, decide il responsabile della struttura in cui lavora il dipendente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per tutto il resto c'e' l'ufficio per i procedimenti disciplinari. Il responsabile della struttura gli segnala i fatti subito, e comunque entro dieci giorni."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ufficio contesta l'addebito per iscritto, subito e comunque entro trenta giorni da quando ha ricevuto la segnalazione o ha avuto piena conoscenza dei fatti."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi convoca il dipendente per l'audizione a sua difesa, con un preavviso di almeno venti giorni. Il dipendente puo' farsi assistere da un avvocato o da un rappresentante sindacale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La contestazione si invia con la posta elettronica certificata, se il dipendente ne ha una, oppure si consegna a mano o si spedisce con raccomandata."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il procedimento si conclude entro centoventi giorni dalla contestazione, con l'archiviazione o con la sanzione. I termini di contestazione e di conclusione sono perentori."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se il dipendente si trasferisce in un'altra amministrazione, il procedimento non si ferma: prosegue la', con nuovi termini."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la falsa attestazione della presenza c'e' una corsia rapida: sospensione cautelare senza stipendio entro quarantotto ore da quando il fatto e' noto, e un procedimento accelerato."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo al cartellino. Il coordinatore segnala, l'ufficio disciplinare sospende in via cautelare, contesta, ascolta il dipendente. Se il fatto e' provato, si arriva al licenziamento."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il procedimento disciplinare va avanti anche se c'e' un processo penale sugli stessi fatti. Il dirigente che non avvia l'azione disciplinare quando deve, ne risponde a sua volta."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il termine per contestare l'addebito non e' di venti giorni. E' di trenta giorni. I venti giorni sono il preavviso minimo per l'audizione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta giorni per contestare, centoventi per concludere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: i doveri sono diligenza, lealta', imparzialita' e servizio esclusivo all'interesse pubblico; gli incarichi esterni vanno autorizzati."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il codice di comportamento e' del 2013, aggiornato nel 2023, e ogni ente ha il suo; regali solo di modico valore; la violazione e' un illecito disciplinare."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le sanzioni vanno dal rimprovero verbale al licenziamento; l'ufficio contesta entro trenta giorni, con preavviso di venti per l'audizione, e conclude entro centoventi."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il rimprovero verbale non lo decide l'ufficio per i procedimenti disciplinari. Lo decide il responsabile della struttura."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: doveri chiari, un codice che vale ogni giorno, sanzioni proporzionate e termini certi. Nell'ultima lezione del modulo: performance, mobilita' e lavoro agile."
+ }
+]
