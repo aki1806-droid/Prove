@@ -1,0 +1,49 @@
+Ecco la tabella da fotografare. Contatto: germi multiresistenti, Clostridioides difficile, scabbia, norovirus. Droplet: influenza, pertosse, meningococco, parotite, rosolia.
+
+Via aerea: tubercolosi, morbillo, varicella, zoster disseminato. Un trucco per la via aerea: sono quattro, e se ricordi TBC, morbillo e varicella hai gia' le tre che i quiz chiedono quasi sempre.
+
+La pressione della stanza, e qui l'errore di inversione e' frequentissimo. Pressione negativa: l'aria entra dal corridoio ma non esce verso il corridoio.
+
+Si usa per il paziente contagioso per via aerea: si protegge l'esterno dal paziente, il corridoio, il reparto. Pressione positiva: l'aria esce ma non entra.
+
+Si usa per il paziente immunodepresso: si protegge il paziente dall'esterno. Stessa stanza, stessa porta chiusa, ma il ventilatore spinge nella direzione opposta.
+
+[serious] Negativo trattiene dentro, positivo tiene fuori. Chi ha in mente le frecce dell'aria non sbaglia piu': la negativa aspira, la positiva soffia.
+
+L'isolamento protettivo, o inverso, protegge il paziente immunodepresso: neutropenia grave, trapianto di midollo. Stanza singola, e nei casi indicati pressione positiva con filtri HEPA.
+
+Igiene delle mani rigorosissima. Niente fiori e piante, che veicolano funghi e batteri. Limitazione dei visitatori con sintomi, attenzione agli alimenti secondo le indicazioni.
+
+Qui il pericolo non e' il paziente: sono tutti gli altri. Il fiore sul comodino, il visitatore con il raffreddore, la mano non igienizzata di chi entra. La logica dell'isolamento si rovescia.
+
+La coorte. Quando le stanze singole non bastano, si possono raggruppare nella stessa stanza pazienti colonizzati o infetti dallo stesso microrganismo, con le stesse precauzioni per tutti.
+
+Non pazienti con germi diversi, e non un paziente infetto con uno sospetto. Nelle epidemie si puo' arrivare alla coorte anche del personale, dedicando gli stessi operatori agli stessi pazienti.
+
+Un principio che vale una risposta intera: le precauzioni si avviano sul sospetto clinico, non si aspetta la conferma di laboratorio. E' l'isolamento empirico.
+
+Diarrea acuta di possibile origine infettiva: contatto, subito. Tosse, febbre, dimagrimento e infiltrato apicale in un paziente a rischio: via aerea, subito.
+
+[serious] Aspettare il referto significa esporre per giorni pazienti e colleghi. Si parte dal sospetto, e se il referto e' negativo si sospende: costa meno di un'epidemia.
+
+L'isolamento funziona solo se tutti lo sanno. Segnaletica sulla porta con il tipo di precauzione, cosi' chi arriva sa che cosa indossare; DPI disponibili all'ingresso, prima della soglia.
+
+Informazione al paziente e ai visitatori, che devono sapere che cosa fare e perche'. E comunicazione in caso di trasferimento a un altro reparto o servizio, che deve essere avvisato prima.
+
+E un aspetto che i candidati migliori citano. L'isolamento ha un costo umano. Studi osservazionali mostrano che i pazienti isolati ricevono meno visite dagli operatori, e piu' brevi.
+
+Hanno piu' ansia, depressione e senso di stigma, e vanno incontro a piu' eventi avversi, come cadute e lesioni. La porta chiusa protegge il reparto, ma isola la persona.
+
+La risposta professionale e' garantire lo stesso standard di assistenza e di relazione, e spiegare alla persona il senso delle misure. Isolato il germe, non la persona.
+
+Le precauzioni si sospendono secondo criteri definiti dalla procedura aziendale e dal microrganismo: criteri clinici, la fine dei sintomi, o microbiologici, i tamponi negativi.
+
+Non si sospendono a sensazione, e non si prolungano per abitudine: entrambe le cose hanno un costo, per il reparto la prima, per la persona la seconda. La data di rivalutazione va scritta.
+
+Nelle aziende venete le precauzioni aggiuntive seguono procedure aziendali che definiscono, per ogni microrganismo, isolamento, DPI e criteri di sospensione. Le stanze a pressione negativa sono individuate per reparto.
+
+E per molte malattie infettive scatta la notifica al Dipartimento di Prevenzione dell'ULSS, che attiva le misure per i contatti: un aggancio utile per le domande su tubercolosi e meningite.
+
+Ricapitoliamo. Contatto: guanti e camice all'ingresso, attrezzature dedicate. Droplet: mascherina chirurgica entro uno-due metri, porta anche aperta. Via aerea: respiratore FFP2 o FFP3, pressione negativa, porta chiusa.
+
+[warm] La negativa trattiene il contagio dentro, la positiva protegge l'immunodepresso. E le precauzioni si avviano sul sospetto. Prossima lezione: come si indossano e, soprattutto, come si tolgono i DPI. A tra poco.

@@ -1,0 +1,45 @@
+[warm] Le precauzioni standard valgono per tutti. Ma per alcuni microrganismi, trasmessi in modo particolare, non bastano: servono precauzioni aggiuntive, basate sulla via di trasmissione.
+
+Questa lezione e' costruita come una tabella a tre colonne, contatto, droplet, via aerea, e i quiz la interrogano in un solo modo: per questa malattia, quali precauzioni?
+
+Il principio e' nella parola: aggiuntive. Si sommano alle precauzioni standard, non le sostituiscono. E si scelgono in base alla via di trasmissione del microrganismo, vista nella lezione quattro punto uno.
+
+Contatto, droplet, via aerea: tre colonne, e ogni malattia sta in una di queste. Alcune ne richiedono piu' di una insieme, e il quiz lo sa: la risposta giusta a volte e' due colonne, non una.
+
+Le precauzioni da contatto. Quando: germi multiresistenti, MRSA, VRE, enterobatteri resistenti; Clostridioides difficile; scabbia; norovirus; diarree infettive; lesioni cutanee infette non contenibili.
+
+Come: stanza singola o coorte con pazienti colonizzati dallo stesso germe. Guanti e camice indossati all'ingresso nella stanza, non solo quando si tocca il paziente.
+
+Attrezzature dedicate: fonendoscopio, sfigmomanometro, termometro restano nella stanza. E pulizia ambientale rinforzata, perche' il germe da contatto vive sulle superfici.
+
+[serious] All'ingresso, non al contatto: e' il dettaglio che i quiz chiedono. Chi indossa i guanti solo quando tocca il paziente ha gia' toccato la sponda, il comodino, la pompa.
+
+Un caso particolare che ricorre: il Clostridioides difficile. Oltre alle precauzioni da contatto, richiede il lavaggio delle mani con acqua e sapone, perche' le spore resistono all'alcol, come sai dalla tre punto sette.
+
+E la disinfezione ambientale con prodotti sporicidi, tipicamente a base di cloro. Il gel alcolico da solo, qui, non basta: contatto, acqua e sapone, cloro.
+
+Le precauzioni da droplet. Quando: influenza, pertosse, meningite da meningococco, parotite, rosolia, infezioni da Mycoplasma, difterite faringea. Malattie che si trasmettono con la tosse, da vicino.
+
+Come: stanza singola o coorte. L'operatore indossa la mascherina chirurgica quando si trova entro uno-due metri dal paziente, la distanza che le goccioline percorrono prima di cadere.
+
+Distanza adeguata fra i letti se in coorte. E durante i trasferimenti e' il paziente a indossare la mascherina chirurgica, per contenere le proprie emissioni.
+
+La porta puo' restare aperta: le goccioline non viaggiano nell'aria del corridoio, cadono entro due metri. E' la differenza con la via aerea, e vale una domanda.
+
+Le precauzioni per via aerea. Quando: tubercolosi polmonare o laringea in fase contagiosa, morbillo, varicella, herpes zoster disseminato. Quattro malattie, e l'aria stessa della stanza e' il veicolo.
+
+Come: stanza singola a pressione negativa, con un numero elevato di ricambi d'aria orari e scarico all'esterno o filtrato. Porta sempre chiusa, anche quando nessuno sta entrando.
+
+L'operatore indossa un respiratore FFP2 o FFP3 prima di entrare, non una mascherina chirurgica. Il paziente, durante i trasferimenti, indossa la mascherina chirurgica.
+
+[serious] Pressione negativa, porta chiusa, respiratore: tre elementi, e se ne manca uno l'isolamento per via aerea non c'e'. I nuclei sotto i cinque micron restano sospesi e viaggiano.
+
+Il dettaglio che confonde di piu', e che i quiz mettono nei distrattori. Perche' all'operatore il respiratore e al paziente la mascherina chirurgica? Perche' i due dispositivi fanno cose diverse.
+
+Il respiratore FFP protegge chi lo indossa dall'inalazione di particelle. La mascherina chirurgica protegge gli altri dalle emissioni di chi la indossa, e non sigilla.
+
+Al paziente contagioso che si sposta serve contenere le proprie emissioni: la chirurgica basta ed e' piu' tollerata. Lo vedremo meglio nella lezione quattro punto quattro.
+
+Due note su morbillo e varicella. Dove possibile, si assegna all'assistenza personale immune, per vaccinazione o malattia pregressa: gli operatori suscettibili, se possibile, non entrano.
+
+E la varicella richiede via aerea piu' contatto, fino a quando tutte le lesioni non sono in fase di crosta. E' l'esempio classico di malattia con doppia precauzione.
