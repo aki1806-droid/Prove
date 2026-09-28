@@ -578,7 +578,11 @@ Sei cose imparate nel modulo 4:
   insieme in background (carico 20 su 4 core, ma finiscono), e i lotti di
   HeyGen si aprono man mano. L'elaborazione dei lotti però è condivisa: con
   quattro lotti aperti insieme un file può restare «processing» per
-  minuti, e la resa aspetta il 98/98;
+  minuti, e la resa aspetta il 98/98. Se un solo item resta indietro per
+  più di cinque minuti (è successo in 4.3, 4.6 e 4.8, sempre a un clip),
+  si apre un lotto di sicurezza da un file con lo stesso clip: nei tre casi
+  l'originale è arrivato prima del lotto di sicurezza, ma il ricambio era
+  pronto da montare al posto dell'id fermo;
 - **i file di HeyGen non si scaricano da qui.** Il proxy di rete blocca
   `files2.heygen.ai` (403 sul CONNECT): l'SRT prodotto con `caption` non è un
   ripiego per la trascrizione. E la quota mensile di ElevenLabs si esaurisce

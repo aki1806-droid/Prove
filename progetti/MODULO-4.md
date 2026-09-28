@@ -13,12 +13,14 @@ delle prevalenze, i germi, le goccioline e i nuclei sospesi.
 | 4.5 | Decontaminazione, disinfezione e sterilizzazione | 8:56.5 | `3e03259979d0e2f276cbdeaf1ac8d70c` |
 | 4.6 | Antibiotico-resistenza e stewardship | 8:50.8 | `52ecbceb599dde5bbcac5e0bd10d895b` |
 | 4.7 | Rischio biologico e gestione dei rifiuti | 8:41.7 | `985f3cc648f6125ad1f8f7a805acb6c1` |
-| 4.8 | Riepilogo del Modulo 4 e autovalutazione | — | slide pronte; voce ferma per quota |
+| 4.8 | Riepilogo del Modulo 4 e autovalutazione | 8:40.1 | `129704b8932ee7cb4672dd2aba0d00eb` |
 
-Le lezioni da 4.2 a 4.8 hanno copione, slide e registro pronti; la voce si
-fa in un giro solo quando il credito ElevenLabs torna (esaurito il 28-09
-dopo la 4.1), la traccia B della 4.1 è stata trascritta e verificata al ritorno del credito. Corpi nati
-qui: anelli, percento, colonne, pressione, selezione, il percorso a due righe.
+Il modulo è completo: otto rese fra 8:40 e 9:02. Il credito ElevenLabs si è
+esaurito il 28-09 dopo la 4.1; le lezioni da 4.2 a 4.8 sono state preparate
+(copione, slide, registro) a voce ferma e poi doppiate, verificate e montate
+in un giro solo al ritorno del credito, con i lotti HeyGen aperti in
+parallelo. Corpi nati qui: anelli, percento, colonne, pressione, selezione,
+il percorso a due righe.
 
 Lo script del committente è in `m4-l4.1-catena/origine/Script_video_MODULO_4.md`;
 ogni lezione tiene la propria parte in `origine/script-4.N.md`. La nota
