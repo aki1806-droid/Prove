@@ -1,0 +1,45 @@
+[warm] L'antibiotico-resistenza e' considerata una delle principali minacce per la salute pubblica di questo secolo, e l'Italia e' fra i Paesi europei piu' colpiti. Questa lezione ha due parti: il nemico, e la strategia.
+
+Per l'infermiere non e' un tema da microbiologi: la diffusione dei germi resistenti passa dalle mani e dall'ambiente, e l'uso corretto degli antibiotici passa anche dalla somministrazione.
+
+L'antibiotico-resistenza e' la capacita' di un microrganismo di sopravvivere a un farmaco che normalmente lo eliminerebbe. E' un fenomeno naturale, che esiste da prima degli antibiotici.
+
+Ma e' enormemente accelerato dall'uso eccessivo e inappropriato degli antibiotici, che uccide i germi sensibili e seleziona quelli resistenti: restano quelli che il farmaco non tocca, e si moltiplicano.
+
+Quando un germe e' resistente a piu' classi di antibiotici si parla di MDRO, organismi multiresistenti. E' la sigla che torna in tutte le procedure di isolamento.
+
+Il peso del problema. Le stime europee attribuiscono alle infezioni da germi resistenti decine di migliaia di decessi ogni anno nell'Unione, e l'Italia e' fra i Paesi con la quota piu' alta di questi decessi.
+
+Un dato che ricorre: la resistenza ai carbapenemi, antibiotici di ultima linea, in Klebsiella pneumoniae e' in Italia fra le piu' elevate d'Europa. Non e' un problema futuro: e' nei nostri reparti.
+
+I nomi da conoscere, con le sigle, scandite una per una. MRSA: Staphylococcus aureus resistente alla meticillina. VRE: enterococchi resistenti alla vancomicina, gli enterococchi dell'intestino.
+
+ESBL: enterobatteri produttori di beta-lattamasi a spettro esteso. CRE: enterobatteri resistenti ai carbapenemi, fra cui la KPC, Klebsiella pneumoniae produttrice di carbapenemasi.
+
+E poi Acinetobacter baumannii e Pseudomonas aeruginosa multiresistenti, i germi che si incontrano nelle terapie intensive e nei pazienti ventilati. Sei nomi, sei sigle da saper sciogliere.
+
+Accanto a questi, il Clostridioides difficile, che non e' un MDRO in senso stretto ma e' figlio diretto dell'uso di antibiotici: lo ritroveremo alla fine della lezione.
+
+Un punto chiave, ripreso dalla lezione quattro punto uno. La maggior parte dei portatori di MDRO e' colonizzata, non infetta: il germe e' nell'intestino, sulla cute, nel naso, senza causare malattia.
+
+Ma il colonizzato e' un serbatoio, e la trasmissione avviene soprattutto per contatto: attraverso le mani degli operatori e l'ambiente, le superfici, i dispositivi condivisi.
+
+[serious] Per questo le precauzioni da contatto valgono per il colonizzato come per l'infetto. Non serve la febbre perche' il germe passi da un letto all'altro.
+
+Lo screening serve a scoprire i colonizzati prima che trasmettano il germe: un tampone all'ingresso, e si sa chi isolare. Si esegue nei pazienti a rischio, secondo la procedura aziendale.
+
+A rischio sono i pazienti con precedenti ricoveri, i trasferiti da altri ospedali o da RSA, chi entra in terapia intensiva. Per l'MRSA il tampone nasale; per CRE e VRE il tampone rettale.
+
+In molte aziende i pazienti a rischio vengono gestiti con precauzioni da contatto in attesa del risultato: si isola prima, si conferma dopo.
+
+La decolonizzazione. Per l'MRSA esistono protocolli con mupirocina nasale e lavaggi corporei con clorexidina, usati in indicazioni selezionate, per esempio prima di un intervento di chirurgia protesica o cardiaca.
+
+Per gli enterobatteri resistenti ai carbapenemi, invece, non esiste una decolonizzazione efficace di routine: la difesa e' impedirne la trasmissione. Mani, contatto, ambiente.
+
+Sul piano nazionale, le batteriemie da enterobatteri produttori di carbapenemasi sono oggetto di una sorveglianza specifica con segnalazione obbligatoria, secondo le indicazioni del Ministero della Salute.
+
+E il quadro programmatorio e' il PNCAR, il Piano Nazionale di Contrasto all'Antibiotico-Resistenza, che abbiamo citato nella lezione quattro punto uno.
+
+Seconda parte: la strategia. L'antimicrobial stewardship, letteralmente la buona amministrazione degli antimicrobici, e' l'insieme coordinato di interventi per promuovere l'uso appropriato degli antimicrobici.
+
+Gli obiettivi sono quattro: migliori esiti clinici, meno resistenze, meno effetti avversi, meno infezioni da Clostridioides difficile. Non significa usare meno antibiotici a prescindere: significa usarli meglio.

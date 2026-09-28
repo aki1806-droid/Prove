@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] L'antibiotico-resistenza e' considerata una delle principali minacce per la salute pubblica di questo secolo, e l'Italia e' fra i Paesi europei piu' colpiti. Questa lezione ha due parti: il nemico, e la strategia."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'infermiere non e' un tema da microbiologi: la diffusione dei germi resistenti passa dalle mani e dall'ambiente, e l'uso corretto degli antibiotici passa anche dalla somministrazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'antibiotico-resistenza e' la capacita' di un microrganismo di sopravvivere a un farmaco che normalmente lo eliminerebbe. E' un fenomeno naturale, che esiste da prima degli antibiotici."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma e' enormemente accelerato dall'uso eccessivo e inappropriato degli antibiotici, che uccide i germi sensibili e seleziona quelli resistenti: restano quelli che il farmaco non tocca, e si moltiplicano."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando un germe e' resistente a piu' classi di antibiotici si parla di MDRO, organismi multiresistenti. E' la sigla che torna in tutte le procedure di isolamento."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il peso del problema. Le stime europee attribuiscono alle infezioni da germi resistenti decine di migliaia di decessi ogni anno nell'Unione, e l'Italia e' fra i Paesi con la quota piu' alta di questi decessi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dato che ricorre: la resistenza ai carbapenemi, antibiotici di ultima linea, in Klebsiella pneumoniae e' in Italia fra le piu' elevate d'Europa. Non e' un problema futuro: e' nei nostri reparti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I nomi da conoscere, con le sigle, scandite una per una. MRSA: Staphylococcus aureus resistente alla meticillina. VRE: enterococchi resistenti alla vancomicina, gli enterococchi dell'intestino."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "ESBL: enterobatteri produttori di beta-lattamasi a spettro esteso. CRE: enterobatteri resistenti ai carbapenemi, fra cui la KPC, Klebsiella pneumoniae produttrice di carbapenemasi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi Acinetobacter baumannii e Pseudomonas aeruginosa multiresistenti, i germi che si incontrano nelle terapie intensive e nei pazienti ventilati. Sei nomi, sei sigle da saper sciogliere."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto a questi, il Clostridioides difficile, che non e' un MDRO in senso stretto ma e' figlio diretto dell'uso di antibiotici: lo ritroveremo alla fine della lezione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punto chiave, ripreso dalla lezione quattro punto uno. La maggior parte dei portatori di MDRO e' colonizzata, non infetta: il germe e' nell'intestino, sulla cute, nel naso, senza causare malattia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il colonizzato e' un serbatoio, e la trasmissione avviene soprattutto per contatto: attraverso le mani degli operatori e l'ambiente, le superfici, i dispositivi condivisi."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Per questo le precauzioni da contatto valgono per il colonizzato come per l'infetto. Non serve la febbre perche' il germe passi da un letto all'altro."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo screening serve a scoprire i colonizzati prima che trasmettano il germe: un tampone all'ingresso, e si sa chi isolare. Si esegue nei pazienti a rischio, secondo la procedura aziendale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A rischio sono i pazienti con precedenti ricoveri, i trasferiti da altri ospedali o da RSA, chi entra in terapia intensiva. Per l'MRSA il tampone nasale; per CRE e VRE il tampone rettale."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In molte aziende i pazienti a rischio vengono gestiti con precauzioni da contatto in attesa del risultato: si isola prima, si conferma dopo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La decolonizzazione. Per l'MRSA esistono protocolli con mupirocina nasale e lavaggi corporei con clorexidina, usati in indicazioni selezionate, per esempio prima di un intervento di chirurgia protesica o cardiaca."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli enterobatteri resistenti ai carbapenemi, invece, non esiste una decolonizzazione efficace di routine: la difesa e' impedirne la trasmissione. Mani, contatto, ambiente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul piano nazionale, le batteriemie da enterobatteri produttori di carbapenemasi sono oggetto di una sorveglianza specifica con segnalazione obbligatoria, secondo le indicazioni del Ministero della Salute."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il quadro programmatorio e' il PNCAR, il Piano Nazionale di Contrasto all'Antibiotico-Resistenza, che abbiamo citato nella lezione quattro punto uno."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda parte: la strategia. L'antimicrobial stewardship, letteralmente la buona amministrazione degli antimicrobici, e' l'insieme coordinato di interventi per promuovere l'uso appropriato degli antimicrobici."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi sono quattro: migliori esiti clinici, meno resistenze, meno effetti avversi, meno infezioni da Clostridioides difficile. Non significa usare meno antibiotici a prescindere: significa usarli meglio."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole dell'uso appropriato. Il farmaco giusto, alla dose giusta, per la via giusta, per la durata giusta: piu' breve possibile, compatibilmente con l'efficacia."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La de-escalation: iniziare con un farmaco ad ampio spettro se necessario, e restringere appena arriva l'antibiogramma. Il passaggio precoce dalla via endovenosa alla via orale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le colture prima di iniziare l'antibiotico, quando possibile. E' la regola che tocca l'infermiere piu' da vicino, e la vediamo subito."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ruolo dell'infermiere e' concreto, e comincia dai campioni. Le colture si prelevano prima della prima dose di antibiotico, altrimenti possono risultare falsamente negative."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le emocolture: almeno due set, da siti diversi, con volume adeguato, indicativamente otto-dieci millilitri per flacone nell'adulto, perche' il volume e' il primo determinante della sensibilita'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Antisepsi accurata della cute e del tappo del flacone, e niente prelievo dal catetere se non e' indicato. Una coltura contaminata porta a terapie inutili: e' stewardship anche questa."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la somministrazione. Rispettare gli orari: per molti antibiotici l'efficacia dipende dal mantenimento di concentrazioni adeguate, e uno slittamento di ore conta."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Somministrare tempestivamente la prima dose nella sepsi, dove ogni ora di ritardo peggiora la prognosi. Rispettare i tempi di infusione prescritti: un'infusione troppo veloce o troppo lenta cambia l'effetto del farmaco."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segnalare reazioni ed effetti avversi, a partire dalla diarrea. E contribuire a ricordare la rivalutazione della terapia a quarantotto-settantadue ore, quando arrivano le colture."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la parte piu' potente del ruolo infermieristico: ogni infezione prevenuta e' un antibiotico non usato. Igiene delle mani, precauzioni, rimozione precoce dei dispositivi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'educazione della persona e dei familiari: assumere l'antibiotico esattamente come prescritto, non conservare gli avanzi per la prossima volta."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Non chiedere antibiotici per il raffreddore o l'influenza, che sono malattie virali. Ogni infezione prevenuta e' un antibiotico non usato: e' la frase da portare a casa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un concetto che chiude il quadro: One Health, una sola salute. La salute umana, quella animale e quella ambientale sono collegate, e le resistenze circolano fra le tre."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antibiotici usati negli allevamenti e quelli dispersi nell'ambiente selezionano resistenze tanto quanto quelli usati in ospedale. E' l'approccio adottato dal PNCAR e dalle organizzazioni internazionali."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso tipico. Paziente trasferito da una RSA, febbrile, con catetere vescicale da dieci giorni. Che cosa fai prima della prima dose di antibiotico?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Precauzioni da contatto e screening secondo procedura, tampone rettale compreso, perche' proviene da una struttura a rischio: una RSA e' fra le provenienze che la procedura elenca."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Emocolture, due set, siti diversi, volume adeguato, e urinocoltura dal punto di prelievo del catetere, o meglio dal catetere sostituito se indicato, prima della prima dose. Poi l'antibiotico prescritto, subito."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la domanda che nessuno fa: quel catetere serve ancora? Dieci giorni di catetere sono dieci giorni di porta aperta."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un collegamento da portare all'orale. L'antibiotico altera la flora intestinale; la flora alterata lascia spazio al difficile; il difficile causa diarrea e si trasmette per contatto, con spore resistenti all'alcol."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco perche' stewardship, igiene delle mani e isolamento sono la stessa battaglia vista da tre lati. Le lezioni tre punto sette, quattro punto tre e questa si tengono per mano."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del servizio sanitario veneto operano programmi di antimicrobial stewardship con gruppi multidisciplinari: infettivologo, microbiologo, farmacista, infermiere. Quattro professioni allo stesso tavolo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Monitorano i consumi di antibiotici, le resistenze locali e gli MDRO, e diffondono protocolli di terapia empirica. All'orale la parola chiave e' multidisciplinare: l'infermiere e' parte del programma, non esecutore a valle."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Le sigle: MRSA, VRE, ESBL, CRE e KPC. Il colonizzato e' un serbatoio. Screening nasale per l'MRSA, rettale per CRE e VRE."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stewardship e' farmaco, dose, via e durata giusti, con de-escalation e passaggio precoce alla via orale. Le colture si prelevano prima della prima dose, e le emocolture in due set da siti diversi."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E la frase da ricordare: ogni infezione prevenuta e' un antibiotico non usato. Nella prossima lezione il rischio biologico per l'operatore, e la gestione dei rifiuti. A tra poco."
+ }
+]

@@ -1,0 +1,49 @@
+Le regole dell'uso appropriato. Il farmaco giusto, alla dose giusta, per la via giusta, per la durata giusta: piu' breve possibile, compatibilmente con l'efficacia.
+
+La de-escalation: iniziare con un farmaco ad ampio spettro se necessario, e restringere appena arriva l'antibiogramma. Il passaggio precoce dalla via endovenosa alla via orale.
+
+E le colture prima di iniziare l'antibiotico, quando possibile. E' la regola che tocca l'infermiere piu' da vicino, e la vediamo subito.
+
+Il ruolo dell'infermiere e' concreto, e comincia dai campioni. Le colture si prelevano prima della prima dose di antibiotico, altrimenti possono risultare falsamente negative.
+
+Le emocolture: almeno due set, da siti diversi, con volume adeguato, indicativamente otto-dieci millilitri per flacone nell'adulto, perche' il volume e' il primo determinante della sensibilita'.
+
+Antisepsi accurata della cute e del tappo del flacone, e niente prelievo dal catetere se non e' indicato. Una coltura contaminata porta a terapie inutili: e' stewardship anche questa.
+
+Poi la somministrazione. Rispettare gli orari: per molti antibiotici l'efficacia dipende dal mantenimento di concentrazioni adeguate, e uno slittamento di ore conta.
+
+Somministrare tempestivamente la prima dose nella sepsi, dove ogni ora di ritardo peggiora la prognosi. Rispettare i tempi di infusione prescritti: un'infusione troppo veloce o troppo lenta cambia l'effetto del farmaco.
+
+Segnalare reazioni ed effetti avversi, a partire dalla diarrea. E contribuire a ricordare la rivalutazione della terapia a quarantotto-settantadue ore, quando arrivano le colture.
+
+E la parte piu' potente del ruolo infermieristico: ogni infezione prevenuta e' un antibiotico non usato. Igiene delle mani, precauzioni, rimozione precoce dei dispositivi.
+
+E l'educazione della persona e dei familiari: assumere l'antibiotico esattamente come prescritto, non conservare gli avanzi per la prossima volta.
+
+[serious] Non chiedere antibiotici per il raffreddore o l'influenza, che sono malattie virali. Ogni infezione prevenuta e' un antibiotico non usato: e' la frase da portare a casa.
+
+Un concetto che chiude il quadro: One Health, una sola salute. La salute umana, quella animale e quella ambientale sono collegate, e le resistenze circolano fra le tre.
+
+Gli antibiotici usati negli allevamenti e quelli dispersi nell'ambiente selezionano resistenze tanto quanto quelli usati in ospedale. E' l'approccio adottato dal PNCAR e dalle organizzazioni internazionali.
+
+Un caso tipico. Paziente trasferito da una RSA, febbrile, con catetere vescicale da dieci giorni. Che cosa fai prima della prima dose di antibiotico?
+
+Precauzioni da contatto e screening secondo procedura, tampone rettale compreso, perche' proviene da una struttura a rischio: una RSA e' fra le provenienze che la procedura elenca.
+
+Emocolture, due set, siti diversi, volume adeguato, e urinocoltura dal punto di prelievo del catetere, o meglio dal catetere sostituito se indicato, prima della prima dose. Poi l'antibiotico prescritto, subito.
+
+E la domanda che nessuno fa: quel catetere serve ancora? Dieci giorni di catetere sono dieci giorni di porta aperta.
+
+Un collegamento da portare all'orale. L'antibiotico altera la flora intestinale; la flora alterata lascia spazio al difficile; il difficile causa diarrea e si trasmette per contatto, con spore resistenti all'alcol.
+
+Ecco perche' stewardship, igiene delle mani e isolamento sono la stessa battaglia vista da tre lati. Le lezioni tre punto sette, quattro punto tre e questa si tengono per mano.
+
+Nelle aziende del servizio sanitario veneto operano programmi di antimicrobial stewardship con gruppi multidisciplinari: infettivologo, microbiologo, farmacista, infermiere. Quattro professioni allo stesso tavolo.
+
+Monitorano i consumi di antibiotici, le resistenze locali e gli MDRO, e diffondono protocolli di terapia empirica. All'orale la parola chiave e' multidisciplinare: l'infermiere e' parte del programma, non esecutore a valle.
+
+Ricapitoliamo. Le sigle: MRSA, VRE, ESBL, CRE e KPC. Il colonizzato e' un serbatoio. Screening nasale per l'MRSA, rettale per CRE e VRE.
+
+La stewardship e' farmaco, dose, via e durata giusti, con de-escalation e passaggio precoce alla via orale. Le colture si prelevano prima della prima dose, e le emocolture in due set da siti diversi.
+
+[warm] E la frase da ricordare: ogni infezione prevenuta e' un antibiotico non usato. Nella prossima lezione il rischio biologico per l'operatore, e la gestione dei rifiuti. A tra poco.
