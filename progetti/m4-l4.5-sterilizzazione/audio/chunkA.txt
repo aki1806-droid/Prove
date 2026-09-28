@@ -1,0 +1,49 @@
+[warm] Tre parole che nel linguaggio comune si usano come sinonimi, e che nei concorsi sono la fonte di molti errori: decontaminazione, disinfezione, sterilizzazione.
+
+Indicano livelli diversi di abbattimento dei microrganismi, per scopi diversi, e si scelgono con un criterio preciso: la classificazione di Spaulding. Partiamo dalle definizioni.
+
+Le definizioni. Detersione: rimozione meccanica dello sporco e del materiale organico. Disinfezione: eliminazione dei microrganismi patogeni, ma non necessariamente delle spore.
+
+Sterilizzazione: eliminazione di tutti i microrganismi, spore comprese, le forme piu' resistenti. E antisepsi: la disinfezione applicata ai tessuti viventi, cute e mucose.
+
+Da qui la distinzione di linguaggio, che vale una domanda: gli antisettici si usano sulla persona, i disinfettanti sugli oggetti. Stessa famiglia di sostanze, due nomi, due bersagli.
+
+E la regola che precede tutto, quella da dire per prima all'orale: senza detersione non esiste disinfezione ne' sterilizzazione efficace. Lo sporco va via prima di tutto il resto.
+
+Il materiale organico, sangue, secrezioni, residui, protegge i microrganismi dall'agente disinfettante e ne inattiva molti. Un disinfettante su uno strumento sporco non disinfetta.
+
+[serious] E' per questo che la detersione accurata e' il passaggio piu' importante di tutto il ciclo. Prima si pulisce, poi si disinfetta o si sterilizza. Mai al contrario.
+
+La classificazione di Spaulding divide i dispositivi secondo il rischio di trasmettere infezioni, cioe' secondo dove arrivano nel corpo del paziente. Tre classi, tre trattamenti.
+
+Critici: entrano in tessuti sterili o nel sistema vascolare. Strumenti chirurgici, cateteri vascolari, aghi. Richiedono la sterilizzazione, senza eccezioni.
+
+Semicritici: vengono a contatto con mucose o cute non integra. Endoscopi, lame del laringoscopio, termometri rettali. Richiedono almeno una disinfezione di alto livello.
+
+Non critici: toccano solo cute integra. Sfigmomanometro, fonendoscopio, padelle. Richiedono detersione e disinfezione di basso livello, fra un paziente e l'altro.
+
+Gli esempi da non sbagliare, quelli che i quiz chiedono. Bisturi, pinze chirurgiche, cateteri venosi: critici. Endoscopio flessibile, lama del laringoscopio: semicritici.
+
+Fonendoscopio, bracciale dello sfigmomanometro, termometro cutaneo: non critici. La domanda da farsi e' sempre una: dove arriva il dispositivo? Tessuto sterile, mucosa, o cute integra.
+
+I tre livelli di disinfezione. Alto livello: uccide tutti i microrganismi, comprese parte delle spore. Si usa per i semicritici, con acido peracetico, glutaraldeide, ortoftalaldeide.
+
+Livello intermedio: uccide anche i micobatteri, il bacillo della tubercolosi compreso, ma non le spore. Alcol, cloroderivati, cioe' i composti del cloro, e iodofori.
+
+Basso livello: batteri in forma vegetativa e alcuni virus. I sali di ammonio quaternario, sulle superfici e sui non critici. Il parametro che distingue i livelli e' la capacita' di uccidere micobatteri e spore.
+
+Gli antisettici piu' usati. La clorexidina, in particolare al due per cento in soluzione alcolica al settanta, che e' l'antisettico di scelta per la cute prima dell'inserimento dei cateteri venosi centrali.
+
+Lo vedremo nel modulo sei, con i cateteri. Poi lo iodopovidone, lo iodio legato a un polimero. E l'alcol etilico al settanta per cento, la concentrazione che funziona meglio.
+
+E la regola comune a tutti: rispettare il tempo di contatto e lasciar asciugare spontaneamente. Un antisettico asciugato con la garza prima del tempo non ha fatto il suo lavoro.
+
+Il ciclo che trasforma uno strumento usato in uno strumento sterile. Decontaminazione, subito dopo l'uso, per ridurre la carica e proteggere l'operatore che lo maneggera'.
+
+Detersione, manuale o in lavastrumenti. Risciacquo. Asciugatura, perche' l'umidita' compromette la sterilizzazione. Controllo dell'integrita' e della funzionalita'.
+
+Confezionamento. Sterilizzazione. Conservazione e tracciabilita'. Otto passaggi, e il primo e' a carico di chi ha usato lo strumento, cioe' del reparto.
+
+La decontaminazione merita un chiarimento, perche' e' spesso confusa con la disinfezione. E' il trattamento iniziale, per immersione in soluzione disinfettante, dello strumento appena usato, prima della detersione.
+
+Il suo scopo principale non e' rendere sicuro lo strumento per il paziente: e' proteggere l'operatore che dovra' maneggiarlo e lavarlo. E' un obbligo previsto dalla normativa sul rischio biologico.

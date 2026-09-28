@@ -10,7 +10,7 @@ delle prevalenze, i germi, le goccioline e i nuclei sospesi.
 | 4.2 | Igiene delle mani e precauzioni standard | — | slide pronte; voce ferma per quota |
 | 4.3 | Precauzioni aggiuntive e isolamento | — | slide pronte; voce ferma per quota |
 | 4.4 | DPI: scelta, vestizione e svestizione | — | slide pronte; voce ferma per quota |
-| 4.5 | Decontaminazione, disinfezione e sterilizzazione | — | — |
+| 4.5 | Decontaminazione, disinfezione e sterilizzazione | — | slide pronte; voce ferma per quota |
 | 4.6 | Antibiotico-resistenza e stewardship | — | — |
 | 4.7 | Rischio biologico e gestione dei rifiuti | — | — |
 | 4.8 | Riepilogo del Modulo 4 e autovalutazione | — | — |

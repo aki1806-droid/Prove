@@ -1,0 +1,45 @@
+I metodi di sterilizzazione. Il vapore saturo sotto pressione, in autoclave, e' il metodo di prima scelta per tutto cio' che resiste al calore: economico, rapido, senza residui tossici.
+
+I cicli piu' comuni sono a centoventuno o a centotrentaquattro gradi, con tempi piu' brevi alla temperatura piu' alta: piu' caldo, meno minuti. Vapore, pressione, temperatura e tempo sono i quattro parametri del ciclo.
+
+Per i materiali termolabili: l'ossido di etilene, efficace ma tossico, che richiede una lunga aerazione; il gas plasma di perossido di idrogeno, a bassa temperatura e senza residui; l'acido peracetico per alcuni dispositivi.
+
+Come si sa che la sterilizzazione e' avvenuta? Con gli indicatori. Fisici: i parametri di temperatura, pressione e tempo registrati dall'autoclave.
+
+Chimici: sostanze che cambiano colore se esposte alle condizioni richieste. Dal nastro sulla confezione, che dice solo che il pacco e' passato in autoclave, agli indicatori piu' complessi.
+
+Fra questi il test di Bowie-Dick, eseguito ogni giorno, prima del primo ciclo, per verificare la rimozione dell'aria nelle autoclavi a vuoto: se resta aria, il vapore non arriva ovunque.
+
+Biologici: spore di microrganismi molto resistenti, Geobacillus stearothermophilus per il vapore, che dopo il ciclo non devono crescere. Sono i piu' affidabili.
+
+Un'attenzione che i quiz amano. Il nastro indicatore esterno che cambia colore indica soltanto che la confezione e' stata esposta al processo di sterilizzazione, cioe' che e' entrata in autoclave.
+
+[serious] Non garantisce che il contenuto sia sterile. Per questo esistono gli indicatori interni, dentro la confezione, e la verifica dei parametri del ciclo. Il nastro dice: e' passato. Non dice: e' sterile.
+
+La conservazione, dopo la centrale. Il materiale sterile si ripone in un luogo asciutto, pulito, chiuso, sollevato dal pavimento e lontano da fonti di umidita' e di calore.
+
+Oggi si parla di sterilita' evento-correlata: la confezione resta sterile finche' un evento, una lacerazione, l'umidita', una caduta, non la compromette. Non e' la data a decidere, e' l'evento.
+
+Quindi prima dell'uso si verifica: integrita' dell'involucro, assenza di umidita' o macchie, viraggio dell'indicatore, data e lotto. E si usa prima il materiale sterilizzato prima: il principio FIFO.
+
+Una confezione caduta a terra o bagnata non e' piu' sterile, qualunque data porti. Si scarta, e si rimanda in centrale.
+
+La tracciabilita' collega ogni confezione al suo lotto, al ciclo, all'autoclave e all'operatore, e, tramite etichetta applicata in cartella o nel registro operatorio, al paziente su cui e' stata usata.
+
+Serve a una cosa molto concreta: se un ciclo risulta non conforme, si sa esattamente quali pazienti sono stati esposti e quali confezioni vanno ritirate. Senza tracciabilita', un ciclo fallito e' un ciclo invisibile.
+
+Un cenno all'ambiente, che e' un serbatoio. Le superfici da trattare con piu' attenzione sono quelle ad alto contatto: sponde del letto, campanello, pompe infusionali, maniglie, tastiere.
+
+Anche qui: prima la pulizia, poi la disinfezione; si procede dal pulito allo sporco e dall'alto verso il basso. E con il Clostridioides difficile serve una disinfezione sporicida, come nella lezione quattro punto tre.
+
+E una regola netta: un dispositivo monouso e' monouso. Il suo riutilizzo, anche dopo averlo «disinfettato», non e' consentito, perche' il fabbricante non ne garantisce la sicurezza dopo il primo uso.
+
+Nelle aziende del servizio sanitario veneto la sterilizzazione e' concentrata in centrali di sterilizzazione aziendali, spesso con tracciabilita' informatizzata dei set chirurgici fino al paziente.
+
+Il riprocessamento degli endoscopi segue procedure dedicate, e la sanificazione ambientale e' regolata da capitolati e protocolli con controlli periodici. Per il candidato conta saper dire chi fa che cosa.
+
+Ricapitoliamo. Senza detersione, niente disinfezione. Spaulding: critico, sterilizzazione; semicritico, disinfezione di alto livello; non critico, basso livello. L'autoclave a vapore e' il metodo di prima scelta.
+
+[warm] Gli indicatori biologici sono i piu' affidabili, e il nastro esterno non garantisce la sterilita' del contenuto. La sterilita' e' evento-correlata: si verifica la confezione prima di ogni uso.
+
+Il reparto decontamina e conserva, la centrale sterilizza e traccia. Nella prossima lezione, la minaccia che rende tutto questo ancora piu' urgente: la resistenza agli antibiotici. A tra poco.
