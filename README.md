@@ -132,8 +132,8 @@ Modulo 8 completo, Normativa sul pubblico impiego (stessa voce e stesso metodo):
 | 8.2 | I cinque principi | 7:33 |
 | 8.3 | L'accesso | 7:24 |
 | 8.4 | La dirigenza | 7:24 |
-| 8.5 | Doveri e responsabilità disciplinare | D85 |
-| 8.6 | Performance, mobilità, lavoro agile | D86 |
+| 8.5 | Doveri e responsabilità disciplinare | 7:36 |
+| 8.6 | Performance, mobilità, lavoro agile | 7:29 |
 
 Nel modulo 8 `illustra.mjs` passa a 41 illustrazioni: si aggiungono timone, podio, firma, cruscotto
 e lavoroagile; per la lezione successiva si parte dalla 8.6. La fonte prevista dal piano,
