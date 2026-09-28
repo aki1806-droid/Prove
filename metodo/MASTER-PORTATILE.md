@@ -562,6 +562,23 @@ Sei cose imparate nel modulo 4:
 - **la copertina regge due righe di titolo, non tre.** «Decontaminazione,
   disinfezione e sterilizzazione» sforava di 15 px: la riga del modulo si
   accorcia («Prevenzione e controllo delle ICA») e il controllo passa;
+- **una regola a coppie di parole dipende dalla parità.** Per far
+  convergere «quattro punto sei» e «4.6», la prima versione di
+  `verifica-testo.py` fondeva ogni coppia di cifre singole adiacenti: ma
+  `re.sub` prende le coppie non sovrapposte da sinistra, e una parola in più
+  o in meno prima del punto cambiava quali parole finivano in coppia
+  («lezione34» da una parte, «3 4virgola5» dall'altra). I rimandi si
+  uniformano PRIMA di togliere la punteggiatura, sulla cifra con il punto o
+  il trattino («4.6», «1-2», «1/2») e sulle parole con il trattino
+  («uno-due»), e a parole con «punto» in mezzo: forme che non dipendono da
+  ciò che le precede;
+- **i lotti di asset si caricano uno alla volta, ma si possono aprire in
+  parallelo.** Sette lezioni in un giro: le voci di ElevenLabs si chiedono a
+  due a due mentre le precedenti si tagliano, i montaggi locali girano tutti
+  insieme in background (carico 20 su 4 core, ma finiscono), e i lotti di
+  HeyGen si aprono man mano. L'elaborazione dei lotti però è condivisa: con
+  quattro lotti aperti insieme un file può restare «processing» per
+  minuti, e la resa aspetta il 98/98;
 - **i file di HeyGen non si scaricano da qui.** Il proxy di rete blocca
   `files2.heygen.ai` (403 sul CONNECT): l'SRT prodotto con `caption` non è un
   ripiego per la trascrizione. E la quota mensile di ElevenLabs si esaurisce
