@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,650
+Tre parole che nel linguaggio comune si usano come sinonimi, e che nei concorsi sono la fonte di molti errori: decontaminazione, disinfezione, sterilizzazione.
+
+2
+00:00:12,650 --> 00:00:22,900
+Indicano livelli diversi di abbattimento dei microrganismi, per scopi diversi, e si scelgono con un criterio preciso: la classificazione di Spaulding. Partiamo dalle definizioni.
+
+3
+00:00:22,900 --> 00:00:34,380
+Le definizioni. Detersione: rimozione meccanica dello sporco e del materiale organico. Disinfezione: eliminazione dei microrganismi patogeni, ma non necessariamente delle spore.
+
+4
+00:00:34,380 --> 00:00:45,570
+Sterilizzazione: eliminazione di tutti i microrganismi, spore comprese, le forme piu' resistenti. E antisepsi: la disinfezione applicata ai tessuti viventi, cute e mucose.
+
+5
+00:00:45,570 --> 00:00:56,540
+Da qui la distinzione di linguaggio, che vale una domanda: gli antisettici si usano sulla persona, i disinfettanti sugli oggetti. Stessa famiglia di sostanze, due nomi, due bersagli.
+
+6
+00:00:56,540 --> 00:01:07,600
+E la regola che precede tutto, quella da dire per prima all'orale: senza detersione non esiste disinfezione ne' sterilizzazione efficace. Lo sporco va via prima di tutto il resto.
+
+7
+00:01:07,600 --> 00:01:19,650
+Il materiale organico, sangue, secrezioni, residui, protegge i microrganismi dall'agente disinfettante e ne inattiva molti. Un disinfettante su uno strumento sporco non disinfetta.
+
+8
+00:01:19,650 --> 00:01:30,040
+E' per questo che la detersione accurata e' il passaggio piu' importante di tutto il ciclo. Prima si pulisce, poi si disinfetta o si sterilizza. Mai al contrario.
+
+9
+00:01:30,040 --> 00:01:40,270
+La classificazione di Spaulding divide i dispositivi secondo il rischio di trasmettere infezioni, cioe' secondo dove arrivano nel corpo del paziente. Tre classi, tre trattamenti.
+
+10
+00:01:40,270 --> 00:01:49,980
+Critici: entrano in tessuti sterili o nel sistema vascolare. Strumenti chirurgici, cateteri vascolari, aghi. Richiedono la sterilizzazione, senza eccezioni.
+
+11
+00:01:49,980 --> 00:02:00,490
+Semicritici: vengono a contatto con mucose o cute non integra. Endoscopi, lame del laringoscopio, termometri rettali. Richiedono almeno una disinfezione di alto livello.
+
+12
+00:02:00,490 --> 00:02:10,900
+Non critici: toccano solo cute integra. Sfigmomanometro, fonendoscopio, padelle. Richiedono detersione e disinfezione di basso livello, fra un paziente e l'altro.
+
+13
+00:02:10,900 --> 00:02:21,050
+Gli esempi da non sbagliare, quelli che i quiz chiedono. Bisturi, pinze chirurgiche, cateteri venosi: critici. Endoscopio flessibile, lama del laringoscopio: semicritici.
+
+14
+00:02:21,050 --> 00:02:32,720
+Fonendoscopio, bracciale dello sfigmomanometro, termometro cutaneo: non critici. La domanda da farsi e' sempre una: dove arriva il dispositivo? Tessuto sterile, mucosa, o cute integra.
+
+15
+00:02:32,720 --> 00:02:44,380
+I tre livelli di disinfezione. Alto livello: uccide tutti i microrganismi, comprese parte delle spore. Si usa per i semicritici, con acido peracetico, glutaraldeide, ortoftalaldeide.
+
+16
+00:02:44,380 --> 00:02:54,620
+Livello intermedio: uccide anche i micobatteri, il bacillo della tubercolosi compreso, ma non le spore. Alcol, cloroderivati, cioe' i composti del cloro, e iodofori.
+
+17
+00:02:54,620 --> 00:03:07,320
+Basso livello: batteri in forma vegetativa e alcuni virus. I sali di ammonio quaternario, sulle superfici e sui non critici. Il parametro che distingue i livelli e' la capacita' di uccidere micobatteri e spore.
+
+18
+00:03:07,320 --> 00:03:19,170
+Gli antisettici piu' usati. La clorexidina, in particolare al due per cento in soluzione alcolica al settanta, che e' l'antisettico di scelta per la cute prima dell'inserimento dei cateteri venosi centrali.
+
+19
+00:03:19,170 --> 00:03:29,570
+Lo vedremo nel modulo sei, con i cateteri. Poi lo iodopovidone, lo iodio legato a un polimero. E l'alcol etilico al settanta per cento, la concentrazione che funziona meglio.
+
+20
+00:03:29,570 --> 00:03:39,320
+E la regola comune a tutti: rispettare il tempo di contatto e lasciar asciugare spontaneamente. Un antisettico asciugato con la garza prima del tempo non ha fatto il suo lavoro.
+
+21
+00:03:39,320 --> 00:03:49,000
+Il ciclo che trasforma uno strumento usato in uno strumento sterile. Decontaminazione, subito dopo l'uso, per ridurre la carica e proteggere l'operatore che lo maneggera'.
+
+22
+00:03:49,000 --> 00:03:58,720
+Detersione, manuale o in lavastrumenti. Risciacquo. Asciugatura, perche' l'umidita' compromette la sterilizzazione. Controllo dell'integrita' e della funzionalita'.
+
+23
+00:03:58,720 --> 00:04:08,060
+Confezionamento. Sterilizzazione. Conservazione e tracciabilita'. Otto passaggi, e il primo e' a carico di chi ha usato lo strumento, cioe' del reparto.
+
+24
+00:04:08,060 --> 00:04:20,040
+La decontaminazione merita un chiarimento, perche' e' spesso confusa con la disinfezione. E' il trattamento iniziale, per immersione in soluzione disinfettante, dello strumento appena usato, prima della detersione.
+
+25
+00:04:20,040 --> 00:04:30,850
+Il suo scopo principale non e' rendere sicuro lo strumento per il paziente: e' proteggere l'operatore che dovra' maneggiarlo e lavarlo. E' un obbligo previsto dalla normativa sul rischio biologico.
+
+26
+00:04:30,850 --> 00:04:41,260
+I metodi di sterilizzazione. Il vapore saturo sotto pressione, in autoclave, e' il metodo di prima scelta per tutto cio' che resiste al calore: economico, rapido, senza residui tossici.
+
+27
+00:04:41,260 --> 00:04:53,540
+I cicli piu' comuni sono a centoventuno o a centotrentaquattro gradi, con tempi piu' brevi alla temperatura piu' alta: piu' caldo, meno minuti. Vapore, pressione, temperatura e tempo sono i quattro parametri del ciclo.
+
+28
+00:04:53,540 --> 00:05:06,830
+Per i materiali termolabili: l'ossido di etilene, efficace ma tossico, che richiede una lunga aerazione; il gas plasma di perossido di idrogeno, a bassa temperatura e senza residui; l'acido peracetico per alcuni dispositivi.
+
+29
+00:05:06,830 --> 00:05:15,380
+Come si sa che la sterilizzazione e' avvenuta? Con gli indicatori. Fisici: i parametri di temperatura, pressione e tempo registrati dall'autoclave.
+
+30
+00:05:15,380 --> 00:05:25,230
+Chimici: sostanze che cambiano colore se esposte alle condizioni richieste. Dal nastro sulla confezione, che dice solo che il pacco e' passato in autoclave, agli indicatori piu' complessi.
+
+31
+00:05:25,230 --> 00:05:36,190
+Fra questi il test di Bowie-Dick, eseguito ogni giorno, prima del primo ciclo, per verificare la rimozione dell'aria nelle autoclavi a vuoto: se resta aria, il vapore non arriva ovunque.
+
+32
+00:05:36,190 --> 00:05:46,110
+Biologici: spore di microrganismi molto resistenti, Geobacillus stearothermophilus per il vapore, che dopo il ciclo non devono crescere. Sono i piu' affidabili.
+
+33
+00:05:46,110 --> 00:05:56,660
+Un'attenzione che i quiz amano. Il nastro indicatore esterno che cambia colore indica soltanto che la confezione e' stata esposta al processo di sterilizzazione, cioe' che e' entrata in autoclave.
+
+34
+00:05:56,660 --> 00:06:09,500
+Non garantisce che il contenuto sia sterile. Per questo esistono gli indicatori interni, dentro la confezione, e la verifica dei parametri del ciclo. Il nastro dice: e' passato. Non dice: e' sterile.
+
+35
+00:06:09,500 --> 00:06:19,520
+La conservazione, dopo la centrale. Il materiale sterile si ripone in un luogo asciutto, pulito, chiuso, sollevato dal pavimento e lontano da fonti di umidita' e di calore.
+
+36
+00:06:19,520 --> 00:06:31,040
+Oggi si parla di sterilita' evento-correlata: la confezione resta sterile finche' un evento, una lacerazione, l'umidita', una caduta, non la compromette. Non e' la data a decidere, e' l'evento.
+
+37
+00:06:31,040 --> 00:06:43,320
+Quindi prima dell'uso si verifica: integrita' dell'involucro, assenza di umidita' o macchie, viraggio dell'indicatore, data e lotto. E si usa prima il materiale sterilizzato prima: il principio FIFO.
+
+38
+00:06:43,320 --> 00:06:50,230
+Una confezione caduta a terra o bagnata non e' piu' sterile, qualunque data porti. Si scarta, e si rimanda in centrale.
+
+39
+00:06:50,230 --> 00:07:01,790
+La tracciabilita' collega ogni confezione al suo lotto, al ciclo, all'autoclave e all'operatore, e, tramite etichetta applicata in cartella o nel registro operatorio, al paziente su cui e' stata usata.
+
+40
+00:07:01,790 --> 00:07:14,000
+Serve a una cosa molto concreta: se un ciclo risulta non conforme, si sa esattamente quali pazienti sono stati esposti e quali confezioni vanno ritirate. Senza tracciabilita', un ciclo fallito e' un ciclo invisibile.
+
+41
+00:07:14,000 --> 00:07:24,990
+Un cenno all'ambiente, che e' un serbatoio. Le superfici da trattare con piu' attenzione sono quelle ad alto contatto: sponde del letto, campanello, pompe infusionali, maniglie, tastiere.
+
+42
+00:07:24,990 --> 00:07:37,690
+Anche qui: prima la pulizia, poi la disinfezione; si procede dal pulito allo sporco e dall'alto verso il basso. E con il Clostridioides difficile serve una disinfezione sporicida, come nella lezione quattro punto tre.
+
+43
+00:07:37,690 --> 00:07:49,040
+E una regola netta: un dispositivo monouso e' monouso. Il suo riutilizzo, anche dopo averlo «disinfettato», non e' consentito, perche' il fabbricante non ne garantisce la sicurezza dopo il primo uso.
+
+44
+00:07:49,040 --> 00:08:00,150
+Nelle aziende del servizio sanitario veneto la sterilizzazione e' concentrata in centrali di sterilizzazione aziendali, spesso con tracciabilita' informatizzata dei set chirurgici fino al paziente.
+
+45
+00:08:00,150 --> 00:08:11,910
+Il riprocessamento degli endoscopi segue procedure dedicate, e la sanificazione ambientale e' regolata da capitolati e protocolli con controlli periodici. Per il candidato conta saper dire chi fa che cosa.
+
+46
+00:08:11,910 --> 00:08:25,720
+Ricapitoliamo. Senza detersione, niente disinfezione. Spaulding: critico, sterilizzazione; semicritico, disinfezione di alto livello; non critico, basso livello. L'autoclave a vapore e' il metodo di prima scelta.
+
+47
+00:08:25,720 --> 00:08:36,570
+Gli indicatori biologici sono i piu' affidabili, e il nastro esterno non garantisce la sterilita' del contenuto. La sterilita' e' evento-correlata: si verifica la confezione prima di ogni uso.
+
+48
+00:08:36,570 --> 00:08:47,460
+Il reparto decontamina e conserva, la centrale sterilizza e traccia. Nella prossima lezione, la minaccia che rende tutto questo ancora piu' urgente: la resistenza agli antibiotici. A tra poco.

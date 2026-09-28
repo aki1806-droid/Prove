@@ -22,19 +22,34 @@ fonendoscopio.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | *in attesa della voce* |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,45 (A $0,69 · B $0,75) |
+| costo trascrizioni | $0,58 |
 | costo voce | da generare |
 | pause senza voce | nessuna; quattro pose brevi sulle slide sul verde (s09, s19, s30, s38) |
 
 ```
 CARATTERI  8.670          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:47.8
-tracce grezze             —   (stacco dopo s24)
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**624/627 parole**, la B **686/686**, nessun buco. Le rese diverse
+(non buchi): s04 «alle» sentito «le»; s12 «pertosse» sentito «per tosse»; s23 «all» sentito «l».
 
 ## Le scene
 

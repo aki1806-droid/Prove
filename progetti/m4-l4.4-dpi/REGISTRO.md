@@ -21,17 +21,21 @@ al posto del cerchio con la croce della 4.3.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | voce non ancora generata (quota ElevenLabs esaurita il 28-09) |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,49 (A $0,71 · B $0,77) |
+| costo trascrizioni | $0,58 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s26, s35) |
 
 ```
 CARATTERI  8.935          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        9:01.0
 stacco tracce             dopo s24   (chunk A 4.310 car · chunk B 4.625 car)
+tracce grezze             A 309.1 s  ·  B 326.4 s
+silenzi                   fattore 1,126   ->   atempo 1,074
 ```
 
 Il primo giro era a 7.820 caratteri, sotto gli otto minuti: ventiquattro
@@ -39,6 +43,20 @@ blocchi corti sono stati allungati con frasi prese dallo script o dal suo
 testo a schermo («il testo unico sulla sicurezza», «qualitativa o
 quantitativa», «sopra gli occhiali da vista ci va la visiera», «gli occhi sono
 una porta d'ingresso»), senza aggiungere fatti che lo script non contiene.
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**709/711 parole**, la B **734/734**, nessun buco. Le rese diverse
+(non buchi): nessuna.
 
 ## Le scene
 

@@ -18,17 +18,21 @@ riempimento (`taglienti`). Il contenitore dei rifiuti infettivi torna dalla 4.4.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | voce non ancora generata (quota ElevenLabs esaurita il 28-09) |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,44 (A $0,67 · B $0,76) |
+| costo trascrizioni | $0,53 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s16, s43) |
 
 ```
 CARATTERI  8.608          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:41.8
 stacco tracce             dopo s23   (chunk A 4.060 car · chunk B 4.548 car)
+tracce grezze             A 271.3 s  ·  B 310.2 s
+silenzi                   fattore 1,075   ->   atempo 1,068
 ```
 
 Lo script è lungo (1.620 parole): il caso d'esame a sei passi sta in quattro
@@ -36,6 +40,20 @@ blocchi, e la chiusura in quattro. Il primo giro era a 7.885 caratteri;
 diciotto blocchi sono stati allungati con frasi prese dallo script («tre
 numeri, tre virus, un ordine», «le immunoglobuline coprono subito, il vaccino
 copre dopo», «un vassoio, un piano»).
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**639/646 parole**, la B **694/696**, nessun buco. Le rese diverse
+(non buchi): s22 «le» sentito «da»; s24 «milliunita» sentito «millounita»; s37 «maggiore» sentito «maggior».
 
 ## Le scene
 

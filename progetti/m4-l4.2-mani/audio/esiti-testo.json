@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 752,
+  "parole_dette": 751,
+  "coincidenti": 750,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "micro lesioni",
+    "detto": "microlesioni"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 656,
+  "parole_dette": 656,
+  "coincidenti": 654,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s34",
+    "copione": "i",
+    "detto": "nei"
+   },
+   {
+    "blocco": "s42",
+    "copione": "al",
+    "detto": "a"
+   }
+  ]
+ }
+}

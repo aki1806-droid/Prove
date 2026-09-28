@@ -1,0 +1,33 @@
+{
+ "A": {
+  "parole_copione": 646,
+  "parole_dette": 643,
+  "coincidenti": 639,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s22",
+    "copione": "le",
+    "detto": "da"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 696,
+  "parole_dette": 696,
+  "coincidenti": 694,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s24",
+    "copione": "milliunita",
+    "detto": "millounita"
+   },
+   {
+    "blocco": "s37",
+    "copione": "maggiore",
+    "detto": "maggior"
+   }
+  ]
+ }
+}

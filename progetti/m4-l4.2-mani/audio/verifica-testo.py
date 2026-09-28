@@ -154,6 +154,14 @@ def parole(s):
     # sola parola («1virgola2»), altrimenti «1 2» diventa un rimando alla
     # lezione 1.2 e il confronto segnala un buco che non c'e' (visto su 3.3).
     s = re.sub(r"(\d),(\d)", r"\1virgola\2", s)
+    # Le coppie di cifre legate da punto o trattino («4.6», «1-2») e le coppie
+    # di numeri a parole con il trattino («uno-due») convergono qui, con la
+    # punteggiatura ancora presente: una regola a coppie di parole qualunque
+    # dipenderebbe dalla parita' delle parole che precedono, e su 4.2 dava
+    # «lezione34» da una parte e «3 4virgola5» dall'altra.
+    s = re.sub(r"\b(\d)[./\-](\d)\b", r" lezione\1\2 ", s)
+    s = re.sub(r"\b(uno|due|tre|quattro|cinque|sei|sette|otto|nove)-(uno|due|tre|quattro|cinque|sei|sette|otto|nove)\b",
+               lambda m: f" lezione{cifra(m.group(1))}{cifra(m.group(2))} ", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     # I rimandi alle lezioni di qualunque modulo: il copione dice «quattro
     # punto sei», il trascrittore scrive «4.6», che senza punteggiatura e'
@@ -164,7 +172,6 @@ def parole(s):
         a, b = cifra(m.group(1)), cifra(m.group(2))
         return f" lezione{a}{b} " if a.isdigit() and b.isdigit() and len(a) == 1 and len(b) == 1 else m.group(0)
     s = re.sub(r"\b([a-z0-9]+)\s+punto\s+([a-z0-9]+)\b", _lez, s)
-    s = re.sub(r"\b([a-z0-9]+)\s+([a-z0-9]+)\b", _lez, s)
     s = re.sub(r"\b([a-z0-9]+)\s+litro\s+e\s+mezzo\b", lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+e\s+mezzo\b",          lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+virgola\s+([a-z0-9]+)\b",

@@ -1,0 +1,32 @@
+{
+ "A": {
+  "parole_copione": 627,
+  "parole_dette": 628,
+  "coincidenti": 624,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "alle",
+    "detto": "le"
+   },
+   {
+    "blocco": "s12",
+    "copione": "pertosse",
+    "detto": "per tosse"
+   },
+   {
+    "blocco": "s23",
+    "copione": "all",
+    "detto": "l"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 686,
+  "parole_dette": 686,
+  "coincidenti": 686,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

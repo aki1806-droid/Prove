@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,460
+Le precauzioni standard valgono per tutti. Ma per alcuni microrganismi, trasmessi in modo particolare, non bastano: servono precauzioni aggiuntive, basate sulla via di trasmissione.
+
+2
+00:00:13,460 --> 00:00:24,120
+Questa lezione e' costruita come una tabella a tre colonne, contatto, droplet, via aerea, e i quiz la interrogano in un solo modo: per questa malattia, quali precauzioni?
+
+3
+00:00:24,120 --> 00:00:36,320
+Il principio e' nella parola: aggiuntive. Si sommano alle precauzioni standard, non le sostituiscono. E si scelgono in base alla via di trasmissione del microrganismo, vista nella lezione quattro punto uno.
+
+4
+00:00:36,320 --> 00:00:48,730
+Contatto, droplet, via aerea: tre colonne, e ogni malattia sta in una di queste. Alcune ne richiedono piu' di una insieme, e il quiz lo sa: la risposta giusta a volte e' due colonne, non una.
+
+5
+00:00:48,730 --> 00:01:04,550
+Le precauzioni da contatto. Quando: germi multiresistenti, MRSA, VRE, enterobatteri resistenti; Clostridioides difficile; scabbia; norovirus; diarree infettive; lesioni cutanee infette non contenibili.
+
+6
+00:01:04,550 --> 00:01:14,650
+Come: stanza singola o coorte con pazienti colonizzati dallo stesso germe. Guanti e camice indossati all'ingresso nella stanza, non solo quando si tocca il paziente.
+
+7
+00:01:14,650 --> 00:01:25,660
+Attrezzature dedicate: fonendoscopio, sfigmomanometro, termometro restano nella stanza. E pulizia ambientale rinforzata, perche' il germe da contatto vive sulle superfici.
+
+8
+00:01:25,660 --> 00:01:36,570
+All'ingresso, non al contatto: e' il dettaglio che i quiz chiedono. Chi indossa i guanti solo quando tocca il paziente ha gia' toccato la sponda, il comodino, la pompa.
+
+9
+00:01:36,570 --> 00:01:48,740
+Un caso particolare che ricorre: il Clostridioides difficile. Oltre alle precauzioni da contatto, richiede il lavaggio delle mani con acqua e sapone, perche' le spore resistono all'alcol, come sai dalla tre punto sette.
+
+10
+00:01:48,740 --> 00:01:58,760
+E la disinfezione ambientale con prodotti sporicidi, tipicamente a base di cloro. Il gel alcolico da solo, qui, non basta: contatto, acqua e sapone, cloro.
+
+11
+00:01:58,760 --> 00:02:11,930
+Le precauzioni da droplet. Quando: influenza, pertosse, meningite da meningococco, parotite, rosolia, infezioni da Mycoplasma, difterite faringea. Malattie che si trasmettono con la tosse, da vicino.
+
+12
+00:02:11,930 --> 00:02:22,860
+Come: stanza singola o coorte. L'operatore indossa la mascherina chirurgica quando si trova entro uno-due metri dal paziente, la distanza che le goccioline percorrono prima di cadere.
+
+13
+00:02:22,860 --> 00:02:31,790
+Distanza adeguata fra i letti se in coorte. E durante i trasferimenti e' il paziente a indossare la mascherina chirurgica, per contenere le proprie emissioni.
+
+14
+00:02:31,790 --> 00:02:40,870
+La porta puo' restare aperta: le goccioline non viaggiano nell'aria del corridoio, cadono entro due metri. E' la differenza con la via aerea, e vale una domanda.
+
+15
+00:02:40,870 --> 00:02:53,910
+Le precauzioni per via aerea. Quando: tubercolosi polmonare o laringea in fase contagiosa, morbillo, varicella, herpes zoster disseminato. Quattro malattie, e l'aria stessa della stanza e' il veicolo.
+
+16
+00:02:53,910 --> 00:03:04,540
+Come: stanza singola a pressione negativa, con un numero elevato di ricambi d'aria orari e scarico all'esterno o filtrato. Porta sempre chiusa, anche quando nessuno sta entrando.
+
+17
+00:03:04,540 --> 00:03:14,320
+L'operatore indossa un respiratore FFP2 o FFP3 prima di entrare, non una mascherina chirurgica. Il paziente, durante i trasferimenti, indossa la mascherina chirurgica.
+
+18
+00:03:14,320 --> 00:03:28,220
+Pressione negativa, porta chiusa, respiratore: tre elementi, e se ne manca uno l'isolamento per via aerea non c'e'. I nuclei sotto i cinque micron restano sospesi e viaggiano.
+
+19
+00:03:28,220 --> 00:03:39,140
+Il dettaglio che confonde di piu', e che i quiz mettono nei distrattori. Perche' all'operatore il respiratore e al paziente la mascherina chirurgica? Perche' i due dispositivi fanno cose diverse.
+
+20
+00:03:39,140 --> 00:03:49,120
+Il respiratore FFP protegge chi lo indossa dall'inalazione di particelle. La mascherina chirurgica protegge gli altri dalle emissioni di chi la indossa, e non sigilla.
+
+21
+00:03:49,120 --> 00:03:58,970
+Al paziente contagioso che si sposta serve contenere le proprie emissioni: la chirurgica basta ed e' piu' tollerata. Lo vedremo meglio nella lezione quattro punto quattro.
+
+22
+00:03:58,970 --> 00:04:10,040
+Due note su morbillo e varicella. Dove possibile, si assegna all'assistenza personale immune, per vaccinazione o malattia pregressa: gli operatori suscettibili, se possibile, non entrano.
+
+23
+00:04:10,040 --> 00:04:19,630
+E la varicella richiede via aerea piu' contatto, fino a quando tutte le lesioni non sono in fase di crosta. E' l'esempio classico di malattia con doppia precauzione.
+
+24
+00:04:19,630 --> 00:04:31,830
+Ecco la tabella da fotografare. Contatto: germi multiresistenti, Clostridioides difficile, scabbia, norovirus. Droplet: influenza, pertosse, meningococco, parotite, rosolia.
+
+25
+00:04:31,830 --> 00:04:44,780
+Via aerea: tubercolosi, morbillo, varicella, zoster disseminato. Un trucco per la via aerea: sono quattro, e se ricordi TBC, morbillo e varicella hai gia' le tre che i quiz chiedono quasi sempre.
+
+26
+00:04:44,780 --> 00:04:52,720
+La pressione della stanza, e qui l'errore di inversione e' frequentissimo. Pressione negativa: l'aria entra dal corridoio ma non esce verso il corridoio.
+
+27
+00:04:52,720 --> 00:05:02,190
+Si usa per il paziente contagioso per via aerea: si protegge l'esterno dal paziente, il corridoio, il reparto. Pressione positiva: l'aria esce ma non entra.
+
+28
+00:05:02,190 --> 00:05:11,200
+Si usa per il paziente immunodepresso: si protegge il paziente dall'esterno. Stessa stanza, stessa porta chiusa, ma il ventilatore spinge nella direzione opposta.
+
+29
+00:05:11,200 --> 00:05:20,290
+Negativo trattiene dentro, positivo tiene fuori. Chi ha in mente le frecce dell'aria non sbaglia piu': la negativa aspira, la positiva soffia.
+
+30
+00:05:20,290 --> 00:05:31,060
+L'isolamento protettivo, o inverso, protegge il paziente immunodepresso: neutropenia grave, trapianto di midollo. Stanza singola, e nei casi indicati pressione positiva con filtri HEPA.
+
+31
+00:05:31,060 --> 00:05:40,890
+Igiene delle mani rigorosissima. Niente fiori e piante, che veicolano funghi e batteri. Limitazione dei visitatori con sintomi, attenzione agli alimenti secondo le indicazioni.
+
+32
+00:05:40,890 --> 00:05:50,990
+Qui il pericolo non e' il paziente: sono tutti gli altri. Il fiore sul comodino, il visitatore con il raffreddore, la mano non igienizzata di chi entra. La logica dell'isolamento si rovescia.
+
+33
+00:05:50,990 --> 00:06:01,390
+La coorte. Quando le stanze singole non bastano, si possono raggruppare nella stessa stanza pazienti colonizzati o infetti dallo stesso microrganismo, con le stesse precauzioni per tutti.
+
+34
+00:06:01,390 --> 00:06:11,860
+Non pazienti con germi diversi, e non un paziente infetto con uno sospetto. Nelle epidemie si puo' arrivare alla coorte anche del personale, dedicando gli stessi operatori agli stessi pazienti.
+
+35
+00:06:11,860 --> 00:06:20,180
+Un principio che vale una risposta intera: le precauzioni si avviano sul sospetto clinico, non si aspetta la conferma di laboratorio. E' l'isolamento empirico.
+
+36
+00:06:20,180 --> 00:06:30,390
+Diarrea acuta di possibile origine infettiva: contatto, subito. Tosse, febbre, dimagrimento e infiltrato apicale in un paziente a rischio: via aerea, subito.
+
+37
+00:06:30,390 --> 00:06:40,460
+Aspettare il referto significa esporre per giorni pazienti e colleghi. Si parte dal sospetto, e se il referto e' negativo si sospende: costa meno di un'epidemia.
+
+38
+00:06:40,460 --> 00:06:51,010
+L'isolamento funziona solo se tutti lo sanno. Segnaletica sulla porta con il tipo di precauzione, cosi' chi arriva sa che cosa indossare; DPI disponibili all'ingresso, prima della soglia.
+
+39
+00:06:51,010 --> 00:07:00,810
+Informazione al paziente e ai visitatori, che devono sapere che cosa fare e perche'. E comunicazione in caso di trasferimento a un altro reparto o servizio, che deve essere avvisato prima.
+
+40
+00:07:00,810 --> 00:07:10,620
+E un aspetto che i candidati migliori citano. L'isolamento ha un costo umano. Studi osservazionali mostrano che i pazienti isolati ricevono meno visite dagli operatori, e piu' brevi.
+
+41
+00:07:10,620 --> 00:07:20,330
+Hanno piu' ansia, depressione e senso di stigma, e vanno incontro a piu' eventi avversi, come cadute e lesioni. La porta chiusa protegge il reparto, ma isola la persona.
+
+42
+00:07:20,330 --> 00:07:29,590
+La risposta professionale e' garantire lo stesso standard di assistenza e di relazione, e spiegare alla persona il senso delle misure. Isolato il germe, non la persona.
+
+43
+00:07:29,590 --> 00:07:39,670
+Le precauzioni si sospendono secondo criteri definiti dalla procedura aziendale e dal microrganismo: criteri clinici, la fine dei sintomi, o microbiologici, i tamponi negativi.
+
+44
+00:07:39,670 --> 00:07:49,540
+Non si sospendono a sensazione, e non si prolungano per abitudine: entrambe le cose hanno un costo, per il reparto la prima, per la persona la seconda. La data di rivalutazione va scritta.
+
+45
+00:07:49,540 --> 00:08:02,040
+Nelle aziende venete le precauzioni aggiuntive seguono procedure aziendali che definiscono, per ogni microrganismo, isolamento, DPI e criteri di sospensione. Le stanze a pressione negativa sono individuate per reparto.
+
+46
+00:08:02,040 --> 00:08:11,840
+E per molte malattie infettive scatta la notifica al Dipartimento di Prevenzione dell'ULSS, che attiva le misure per i contatti: un aggancio utile per le domande su tubercolosi e meningite.
+
+47
+00:08:11,840 --> 00:08:26,190
+Ricapitoliamo. Contatto: guanti e camice all'ingresso, attrezzature dedicate. Droplet: mascherina chirurgica entro uno-due metri, porta anche aperta. Via aerea: respiratore FFP2 o FFP3, pressione negativa, porta chiusa.
+
+48
+00:08:26,190 --> 00:08:38,940
+La negativa trattiene il contagio dentro, la positiva protegge l'immunodepresso. E le precauzioni si avviano sul sospetto. Prossima lezione: come si indossano e, soprattutto, come si tolgono i DPI. A tra poco.

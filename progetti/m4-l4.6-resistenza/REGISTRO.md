@@ -17,23 +17,41 @@ prevenzione. One Health torna come triade, e il caso d'esame è un percorso.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | voce non ancora generata (quota ElevenLabs esaurita il 28-09) |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,46 (A $0,72 · B $0,74) |
+| costo trascrizioni | $0,56 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s15, s36) |
 
 ```
 CARATTERI  8.765          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:51.0
 stacco tracce             dopo s24   (chunk A 4.326 car · chunk B 4.439 car)
+tracce grezze             A 292.9 s  ·  B 325.7 s
+silenzi                   fattore 1,124   ->   atempo 1,068
 ```
 
 Lo script chiede di «scandire con pausa le sigle della slide 4»: le sigle
 stanno in quattro blocchi su quattro scene, e ogni blocco ne porta al massimo
 due. La frase da enfatizzare, «ogni infezione prevenuta è un antibiotico non
 usato», sta sul verde (s36) e torna in chiusura (s49).
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**647/649 parole**, la B **675/677**, nessun buco. Le rese diverse
+(non buchi): s03 «l» sentito «le»; s04 «microrganismo» sentito «microorganismo»; s30 «coltura» sentito «cultura»; s38 «pncar» sentito «pncr».
 
 ## Le scene
 

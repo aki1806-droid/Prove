@@ -1,0 +1,73 @@
+{
+ "A": {
+  "parole_copione": 680,
+  "parole_dette": 676,
+  "coincidenti": 665,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "spaulding",
+    "detto": "spalding"
+   },
+   {
+    "blocco": "s05",
+    "copione": "spaulding",
+    "detto": "spalding"
+   },
+   {
+    "blocco": "s07",
+    "copione": "via",
+    "detto": "vie"
+   },
+   {
+    "blocco": "s09",
+    "copione": "reason",
+    "detto": "rison"
+   },
+   {
+    "blocco": "s10",
+    "copione": "sub glottica",
+    "detto": "subglottica"
+   },
+   {
+    "blocco": "s22",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s22",
+    "copione": "una 2",
+    "detto": "lezione12"
+   },
+   {
+    "blocco": "s23",
+    "copione": "milliunita",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s26",
+    "copione": "spaulding",
+    "detto": "spalding"
+   },
+   {
+    "blocco": "s26",
+    "copione": "semicritico",
+    "detto": "semi critico"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 657,
+  "parole_dette": 657,
+  "coincidenti": 656,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s46",
+    "copione": "spaulding",
+    "detto": "spalding"
+   }
+  ]
+ }
+}

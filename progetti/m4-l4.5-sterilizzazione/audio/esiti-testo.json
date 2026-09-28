@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 640,
+  "parole_dette": 638,
+  "coincidenti": 629,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "dei microrganismi",
+    "detto": "di microorganismi"
+   },
+   {
+    "blocco": "s04",
+    "copione": "microrganismi",
+    "detto": "microorganismi"
+   },
+   {
+    "blocco": "s05",
+    "copione": "microrganismi",
+    "detto": "microorganismi"
+   },
+   {
+    "blocco": "s08",
+    "copione": "microrganismi",
+    "detto": "microorganismi"
+   },
+   {
+    "blocco": "s16",
+    "copione": "microrganismi",
+    "detto": "microorganismi"
+   },
+   {
+    "blocco": "s17",
+    "copione": "cloroderivati",
+    "detto": "cloro derivati"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 676,
+  "parole_dette": 678,
+  "coincidenti": 672,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "microrganismi",
+    "detto": "microorganismi"
+   },
+   {
+    "blocco": "s44",
+    "copione": "monouso",
+    "detto": "mono uso"
+   },
+   {
+    "blocco": "s47",
+    "copione": "spaulding",
+    "detto": "spalding"
+   },
+   {
+    "blocco": "s47",
+    "copione": "semicritico",
+    "detto": "semi critico"
+   }
+  ]
+ }
+}

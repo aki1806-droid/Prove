@@ -45,6 +45,7 @@ progetti/<modulo>-<lezione>/
 | `m3-l3.7-intestinale` | Modulo 3 · 3.7 Eliminazione intestinale, dolore e sonno | 9:08.6 | `d09962bf851b8ea74931786cba69b23b` |
 | `m3-l3.8-riepilogo` | Modulo 3 · 3.8 Riepilogo del Modulo 3 e autovalutazione | 9:09.5 | `76d4ae9f8f169396b1cdb1af1e87dcff` |
 | `m4-l4.1-catena` | Modulo 4 · 4.1 Le ICA: epidemiologia e catena delle infezioni | 9:01.7 | `a35300c5f3e66ecc0a895e332bd70e3e` |
+| `m4-l4.2-mani` | Modulo 4 · 4.2 Igiene delle mani e precauzioni standard | 8:47.3 | `56cbc037a5362ca3652459fb787e9eb5` |
 
 Sedici micro-lezioni in due moduli con la grafica di seconda generazione, e
 dal modulo 3 la terza generazione (`slide/clinica.mjs`, settembre 2026). Gli indici e i registri stanno in `progetti/`.

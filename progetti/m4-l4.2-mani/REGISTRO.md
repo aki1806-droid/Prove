@@ -18,23 +18,38 @@ rubinetto con le gocce, il guanto, l'incavo del gomito.
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | *in attesa della voce* |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,45 (A $0,75 · B $0,70) |
+| costo trascrizioni | $0,57 |
 | costo voce | da generare |
 | pause senza voce | nessuna; tre pose brevi sulle slide sul verde (s10, s27, s31) |
 
 ```
 CARATTERI  8.681          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:47.2
-tracce grezze             —   (stacco dopo s27)
 ```
 
 Il primo giro era a 8.019 caratteri: diciotto blocchi allungati con frasi
 dello script («la risposta giusta quando il quiz non specifica altro», «il
 gel non toglie lo sporco, lo disinfetta») e tre accorciati.
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 26 | 22 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**750/752 parole**, la B **654/656**, nessun buco. Le rese diverse
+(non buchi): s26 «micro lesioni» sentito «microlesioni»; s34 «i» sentito «nei»; s42 «al» sentito «a».
 
 ## Le scene
 
@@ -67,8 +82,8 @@ gel non toglie lo sporco, lo disinfetta») e tre accorciati.
 
 | | |
 |---|---|
-| resa pubblicata | *ferma: nessuna traccia (quota voce esaurita)* |
-| lotto asset | *da caricare dopo il montaggio* |
+| resa pubblicata | `56cbc037a5362ca3652459fb787e9eb5` — 527.257 s (8:47.3), 1080p 16:9, resa in 60 s, con SRT (`subtitle_url`) |
+| lotto asset | `9bb57bd4712d40d38b3bf6d4eeead0c1` — 98 file, 19 MB, tutti completati |
 
 ---
 

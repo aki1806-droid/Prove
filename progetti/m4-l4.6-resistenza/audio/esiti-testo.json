@@ -1,0 +1,38 @@
+{
+ "A": {
+  "parole_copione": 649,
+  "parole_dette": 649,
+  "coincidenti": 647,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "l",
+    "detto": "le"
+   },
+   {
+    "blocco": "s04",
+    "copione": "microrganismo",
+    "detto": "microorganismo"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 677,
+  "parole_dette": 677,
+  "coincidenti": 675,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "coltura",
+    "detto": "cultura"
+   },
+   {
+    "blocco": "s38",
+    "copione": "pncar",
+    "detto": "pncr"
+   }
+  ]
+ }
+}

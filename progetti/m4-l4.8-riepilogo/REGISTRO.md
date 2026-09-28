@@ -17,17 +17,21 @@ tutta insieme.
 | | |
 |---|---|
 | durata chiesta dallo script | 8 minuti |
-| durata ottenuta | voce non ancora generata (quota ElevenLabs esaurita il 28-09) |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 16 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,43 (A $0,73 · B $0,70) |
+| costo trascrizioni | $0,55 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s09, s41) |
 
 ```
 CARATTERI  8.579          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:40.0
 stacco tracce             dopo s26   (chunk A 4.423 car · chunk B 4.156 car)
+tracce grezze             A 302.2 s  ·  B 302.2 s
+silenzi                   fattore 1,100   ->   atempo 1,089
 ```
 
 Lo script è corto (1.200 parole, 7.349 caratteri nel primo giro): venti
@@ -37,6 +41,20 @@ sterile entra sterile», «la parte davanti è contaminata per definizione»),
 non con fatti nuovi. Lo script chiede che bundle, numeri e tabelle restino a
 schermo più a lungo: i bundle hanno sette scene, i numeri quattro, le
 tabelle tre.
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**665/680 parole**, la B **656/657**, nessun buco. Le rese diverse
+(non buchi): s03 «spaulding» sentito «spalding»; s05 «spaulding» sentito «spalding»; s07 «via» sentito «vie»; s09 «reason» sentito «rison»; s10 «sub glottica» sentito «subglottica»; s22 «per 100» sentito «percento»; s22 «una 2» sentito «lezione12»; s23 «milliunita» sentito «mg»; s26 «spaulding» sentito «spalding»; s26 «semicritico» sentito «semi critico»; s46 «spaulding» sentito «spalding».
 
 ## Le scene
 

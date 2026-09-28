@@ -18,23 +18,41 @@ posto era della fila dei tre indicatori).
 | | |
 |---|---|
 | durata chiesta dallo script | 9 minuti |
-| durata ottenuta | voce non ancora generata (quota ElevenLabs esaurita il 28-09) |
+| durata ottenuta | vedi «La resa» |
 | slide dello script | 18 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,48 (A $0,74 · B $0,74) |
+| costo trascrizioni | $0,57 |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s09, s35) |
 
 ```
 CARATTERI  8.857          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:56.4
 stacco tracce             dopo s26   (chunk A 4.461 car · chunk B 4.396 car)
+tracce grezze             A 334.5 s  ·  B 290.3 s
+silenzi                   fattore 1,106   ->   atempo 1,084
 ```
 
 Lo script è il più denso del modulo (1.560 parole): il primo giro dava
 cinquantuno blocchi. Tre sono stati assorbiti nei vicini («chi fa che cosa»
 è passato nella chiusura, la norma sul rischio biologico nel blocco della
 decontaminazione, il parametro dei livelli in quello del basso livello).
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**629/640 parole**, la B **672/676**, nessun buco. Le rese diverse
+(non buchi): s03 «dei microrganismi» sentito «di microorganismi»; s04 «microrganismi» sentito «microorganismi»; s05 «microrganismi» sentito «microorganismi»; s08 «microrganismi» sentito «microorganismi»; s16 «microrganismi» sentito «microorganismi»; s17 «cloroderivati» sentito «cloro derivati»; s33 «microrganismi» sentito «microorganismi»; s44 «monouso» sentito «mono uso»; s47 «spaulding» sentito «spalding»; s47 «semicritico» sentito «semi critico».
 
 ## Le scene
 
