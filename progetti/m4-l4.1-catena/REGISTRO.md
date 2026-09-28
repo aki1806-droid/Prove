@@ -26,7 +26,7 @@ fotografica (prevalenza), la pellicola (incidenza), la zanzara (vettori).
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
 | costo voce | $1,49 (A $0,76 · B $0,72) |
-| costo trascrizioni | $0,29 (solo A: vedi sotto) |
+| costo trascrizioni | $0,56 (A $0,29 · B $0,27, questa il giorno dopo, al ritorno del credito) |
 | pause senza voce | nessuna; tre pose brevi sulle slide sul verde (s12, s19, s35) |
 
 ```
@@ -54,18 +54,22 @@ La voce ha corso nei primi due blocchi (s02 e s03 sopra i 19 car/s grezzi):
 nessuna pausa mancante, solo un ritmo più svelto, e dopo il taglio delle
 pause i blocchi rientrano.
 
-### La traccia B non è trascritta
+### La verifica per trascrizione
 
-La trascrizione della traccia A conferma **714/719 parole**, nessun buco (le
-rese diverse sono «CAUTI» sentito «CAUT» e «di» reso «d'»). La traccia B non
-ha potuto essere trascritta da ElevenLabs: la quota mensile si è esaurita di
-nuovo (232 crediti residui contro i 1.630 richiesti), subito dopo la voce di
-questa lezione. Il ripiego tentato, il file SRT che HeyGen produce alla resa
-con `caption`, non è raggiungibile da questa macchina: il proxy di rete
-blocca `files2.heygen.ai`. Per B restano le prove dell'allineamento: 123
-spezzoni di audio per 125 pezzi di testo, nessun blocco fuori fascia, nessun
-taglio nel parlato. Il controllo «verifica per trascrizione» resta **7/8**
-finché il credito non torna: allora si trascrive B e si chiude.
+La traccia A conferma **713/717 parole**, la B **659/662**, nessun buco (le
+rese diverse sono «CAUTI» sentito «CAUT», «di» reso «d'», «batteriemie»
+scritto «batterie mie», «bundle» sentito «bando», «coordinati» reso
+«coordinate»). La B è stata trascritta il giorno dopo la resa: la quota
+mensile di ElevenLabs si era esaurita subito dopo la voce di questa lezione
+(232 crediti residui contro i 1.630 richiesti), e il ripiego dell'SRT di
+HeyGen non è raggiungibile da qui perché il proxy blocca `files2.heygen.ai`.
+La resa era stata pubblicata con il controllo a 7/8 dichiarato; ora è 8/8.
+
+La B ha anche insegnato una regola a `verifica-testo.py`: «nella lezione
+quattro punto sei. È un aggancio» diventa nel trascritto «lezione 4.6. È un»,
+che senza punteggiatura è «4 6 e un», e la regola dei decimali lo leggeva
+come 6,1 segnalando un buco. I rimandi alle lezioni di qualunque modulo ora
+convergono su «lezione46» prima della regola dei decimali.
 
 ## Le scene
 
@@ -111,7 +115,6 @@ finché il credito non torna: allora si trascrive B e si chiude.
 - Il percento colora i primi n tondini in ordine di lettura, da in alto a
   sinistra: è una scelta grafica, non una distribuzione. La forbice «un terzo
   – metà» è resa con 33 pieni e 17 a mezza tinta.
-- **La traccia B va trascritta appena il credito ElevenLabs torna** (asset
-  `AXz4sydCDF9bGjBNalHc` già sul flow): fino ad allora la resa è pubblicata
-  con la verifica per trascrizione a metà, dichiarata qui e nel controllo
-  7/8.
+- La resa pubblicata è quella del 28-09: la trascrizione della B, fatta
+  dopo, non ha trovato nulla da correggere, quindi il video non è stato
+  rifatto.

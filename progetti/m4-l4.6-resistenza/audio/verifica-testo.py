@@ -155,6 +155,16 @@ def parole(s):
     # lezione 1.2 e il confronto segnala un buco che non c'e' (visto su 3.3).
     s = re.sub(r"(\d),(\d)", r"\1virgola\2", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
+    # I rimandi alle lezioni di qualunque modulo: il copione dice «quattro
+    # punto sei», il trascrittore scrive «4.6», che senza punteggiatura e'
+    # «4 6». Le due forme convergono su «lezione46» PRIMA della regola
+    # «numero e cifra», che altrimenti legge «6. E un» come 6,1 (visto su 4.1).
+    # Vale anche per due cifre singole in fila («uno-due metri», «1-2»).
+    def _lez(m):
+        a, b = cifra(m.group(1)), cifra(m.group(2))
+        return f" lezione{a}{b} " if a.isdigit() and b.isdigit() and len(a) == 1 and len(b) == 1 else m.group(0)
+    s = re.sub(r"\b([a-z0-9]+)\s+punto\s+([a-z0-9]+)\b", _lez, s)
+    s = re.sub(r"\b([a-z0-9]+)\s+([a-z0-9]+)\b", _lez, s)
     s = re.sub(r"\b([a-z0-9]+)\s+litro\s+e\s+mezzo\b", lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+e\s+mezzo\b",          lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+virgola\s+([a-z0-9]+)\b",

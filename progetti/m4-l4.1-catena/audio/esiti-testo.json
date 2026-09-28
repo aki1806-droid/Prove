@@ -1,0 +1,53 @@
+{
+ "A": {
+  "parole_copione": 717,
+  "parole_dette": 717,
+  "coincidenti": 713,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s13",
+    "copione": "cauti",
+    "detto": "caut"
+   },
+   {
+    "blocco": "s15",
+    "copione": "cauti",
+    "detto": "caut"
+   },
+   {
+    "blocco": "s18",
+    "copione": "di",
+    "detto": "d"
+   },
+   {
+    "blocco": "s22",
+    "copione": "di",
+    "detto": "d"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 662,
+  "parole_dette": 663,
+  "coincidenti": 659,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s38",
+    "copione": "batteriemie",
+    "detto": "batterie mie"
+   },
+   {
+    "blocco": "s45",
+    "copione": "bundle",
+    "detto": "bando"
+   },
+   {
+    "blocco": "s46",
+    "copione": "coordinati",
+    "detto": "coordinate"
+   }
+  ]
+ }
+}
