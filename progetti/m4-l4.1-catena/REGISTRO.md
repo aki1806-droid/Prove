@@ -54,15 +54,18 @@ La voce ha corso nei primi due blocchi (s02 e s03 sopra i 19 car/s grezzi):
 nessuna pausa mancante, solo un ritmo più svelto, e dopo il taglio delle
 pause i blocchi rientrano.
 
-### La trascrizione di B è arrivata dai sottotitoli della resa
+### La traccia B non è trascritta
 
 La trascrizione della traccia A conferma **714/719 parole**, nessun buco (le
 rese diverse sono «CAUTI» sentito «CAUT» e «di» reso «d'»). La traccia B non
 ha potuto essere trascritta da ElevenLabs: la quota mensile si è esaurita di
 nuovo (232 crediti residui contro i 1.630 richiesti), subito dopo la voce di
-questa lezione. La verifica di B è stata fatta sul file SRT che HeyGen
-produce alla resa (`caption`): stesso confronto parola per parola, stessa
-soglia. Il metodo lo registra come ripiego valido, non come sostituto.
+questa lezione. Il ripiego tentato, il file SRT che HeyGen produce alla resa
+con `caption`, non è raggiungibile da questa macchina: il proxy di rete
+blocca `files2.heygen.ai`. Per B restano le prove dell'allineamento: 123
+spezzoni di audio per 125 pezzi di testo, nessun blocco fuori fascia, nessun
+taglio nel parlato. Il controllo «verifica per trascrizione» resta **7/8**
+finché il credito non torna: allora si trascrive B e si chiude.
 
 ## Le scene
 
@@ -98,8 +101,8 @@ soglia. Il metodo lo registra come ripiego valido, non come sostituto.
 
 | | |
 |---|---|
-| resa pubblicata | RESA41 |
-| lotto asset | LOTTO41 |
+| resa pubblicata | `a35300c5f3e66ecc0a895e332bd70e3e` — 541,730 s (9:01.7), 1080p 16:9, resa in 79 s, con SRT (`subtitle_url`) |
+| lotto asset | `2054e227862d405aaf525fb839597e7e` — 98 file, 20 MB, tutti completati |
 
 ---
 
@@ -108,6 +111,7 @@ soglia. Il metodo lo registra come ripiego valido, non come sostituto.
 - Il percento colora i primi n tondini in ordine di lettura, da in alto a
   sinistra: è una scelta grafica, non una distribuzione. La forbice «un terzo
   – metà» è resa con 33 pieni e 17 a mezza tinta.
-- La trascrizione di B viene dai sottotitoli HeyGen, non da Scribe: quando
-  il credito torna, si può rifare con Scribe per uniformità, ma la verifica
-  parola per parola è la stessa.
+- **La traccia B va trascritta appena il credito ElevenLabs torna** (asset
+  `AXz4sydCDF9bGjBNalHc` già sul flow): fino ad allora la resa è pubblicata
+  con la verifica per trascrizione a metà, dichiarata qui e nel controllo
+  7/8.

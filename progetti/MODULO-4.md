@@ -6,9 +6,9 @@ delle prevalenze, i germi, le goccioline e i nuclei sospesi.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 4.1 | Le ICA: epidemiologia e catena delle infezioni | — | in lavorazione |
-| 4.2 | Igiene delle mani e precauzioni standard | — | — |
-| 4.3 | Precauzioni aggiuntive e isolamento | — | — |
+| 4.1 | Le ICA: epidemiologia e catena delle infezioni | 9:01.7 | `a35300c5f3e66ecc0a895e332bd70e3e` (trascrizione B in sospeso) |
+| 4.2 | Igiene delle mani e precauzioni standard | — | slide pronte; voce ferma per quota |
+| 4.3 | Precauzioni aggiuntive e isolamento | — | slide pronte; voce ferma per quota |
 | 4.4 | DPI: scelta, vestizione e svestizione | — | — |
 | 4.5 | Decontaminazione, disinfezione e sterilizzazione | — | — |
 | 4.6 | Antibiotico-resistenza e stewardship | — | — |
