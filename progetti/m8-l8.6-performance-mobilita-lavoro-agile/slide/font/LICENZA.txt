@@ -1,0 +1,4 @@
+Inter (Rasmus Andersson) e Source Serif 4 (Adobe) sono distribuiti con licenza
+SIL Open Font License 1.1, che consente incorporamento e redistribuzione.
+Testo della licenza: https://openfontlicense.org/open-font-license-official-text/
+Sorgente: Google Fonts, sottoinsiemi latin e latin-ext.

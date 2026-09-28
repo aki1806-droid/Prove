@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Due infermiere, stesso turno di notte. Una lavora in un ospedale pubblico, l'altra in una clinica privata. Il loro rapporto di lavoro, oggi, poggia sullo stesso codice civile."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trent'anni fa non era cosi'. Il dipendente pubblico aveva uno statuto a parte, fatto di leggi e di atti dell'amministrazione. Poi e' arrivata la privatizzazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Stesso lavoro, regole sempre piu' vicine a quelle di tutti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Com'era il pubblico impiego prima degli anni Novanta. Le tappe della riforma. Che cosa vuol dire privatizzazione. E che cosa, ancora oggi, resta pubblico."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Fino agli anni Novanta il rapporto di pubblico impiego era un rapporto di diritto pubblico. Non nasceva da un contratto, ma da un atto di nomina dell'amministrazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli impiegati dello Stato valeva un testo unico del 1957. Diritti, doveri, carriera e stipendio erano fissati dalla legge e dai regolamenti, non da un accordo tra le parti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge quadro del 1983 aveva aperto una strada: accordi sindacali per comparto. Ma quegli accordi valevano solo dopo essere stati recepiti in un decreto del Presidente della Repubblica."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le liti? Per il dipendente pubblico il giudice era quello amministrativo, cioe' il TAR, come per qualunque atto della pubblica amministrazione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Il risultato era un sistema rigido: regole diverse per ogni categoria, leggi che aggiungevano indennita' a singoli gruppi, costi difficili da controllare, poca attenzione ai risultati."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'inizio degli anni Novanta, con la crisi dei conti pubblici, questa rigidita' non era piu' sostenibile. Serviva un lavoro pubblico piu' efficiente, con costi sotto controllo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: prima della riforma il dipendente pubblico non era senza tutele. Aveva uno statuto proprio, di diritto pubblico, diverso da quello del lavoratore privato."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un rapporto di diritto pubblico, nato da un atto di nomina."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La svolta arriva con la legge delega 421 del 1992 e il decreto legislativo 29 del 1993. E' la prima privatizzazione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rapporto di lavoro passa sotto il codice civile e i contratti collettivi. Nasce l'ARAN, l'agenzia che rappresenta le amministrazioni al tavolo della contrattazione nazionale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da allora stipendi e gran parte delle regole del rapporto si decidono al tavolo tra ARAN e sindacati, nei contratti collettivi nazionali di comparto, come quello della sanita'."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda privatizzazione arriva con le leggi Bassanini: la legge 59 del 1997 e il decreto legislativo 80 del 1998. La contrattualizzazione si estende anche alla dirigenza."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dal primo luglio 1998 le controversie di lavoro dei dipendenti pubblici passano al giudice ordinario, il giudice del lavoro, come per i dipendenti privati."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2001 tutte queste norme vengono riordinate in un solo testo: il decreto legislativo 165 del 30 marzo 2001, le norme generali sul lavoro alle dipendenze delle amministrazioni pubbliche."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi le riforme successive. Nel 2009 la riforma Brunetta, con il decreto legislativo 150: performance, merito, disciplina. Nel 2015 e 2017 la riforma Madia, che riscrive parti del 165."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine, dal 2021, le misure per il reclutamento e il piano integrato di attivita' e organizzazione, il PIAO. Le vedremo nelle prossime lezioni."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il 165 del 2001 non ha inventato la privatizzazione. L'ha raccolta e riordinata. La svolta vera e' del 1993."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 0.8,
+  "text": "Dal 1993 al 2001: dalla legge al contratto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Che cosa vuol dire, allora, privatizzazione? L'articolo 2 del 165 lo dice chiaramente: i rapporti di lavoro dei dipendenti pubblici sono regolati dal codice civile e dalle leggi sul lavoro nell'impresa."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Salvo le regole diverse del decreto stesso, che sono inderogabili. E i rapporti individuali sono regolati da contratti: il trattamento economico si stabilisce solo con i contratti collettivi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 1 elenca le amministrazioni a cui si applica: Stato, regioni, enti locali, scuole, universita', e anche le aziende e gli enti del Servizio sanitario nazionale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli scopi sono scritti nello stesso articolo: accrescere l'efficienza delle amministrazioni, razionalizzare il costo del lavoro pubblico, valorizzare le persone con condizioni uniformi a quelle del lavoro privato."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolo 5 aggiunge un punto decisivo: le misure di gestione del personale e l'organizzazione del lavoro negli uffici si adottano con la capacita' e i poteri del privato datore di lavoro."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il turno, le ferie, l'assegnazione a un reparto. Sono atti di gestione del rapporto di lavoro, adottati dal dirigente come farebbe un datore di lavoro privato."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se nasce una lite, per esempio su un trasferimento o su una sanzione, si va davanti al giudice del lavoro. Lo stabilisce l'articolo 63."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quel giudice puo' anche disapplicare un atto amministrativo illegittimo che sta a monte del rapporto. E se il licenziamento e' illegittimo, puo' ordinare di reintegrare il lavoratore."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo molti preferiscono dire contrattualizzazione: l'ente resta pubblico, il datore di lavoro resta pubblico, ma il rapporto si regola con il contratto."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: privatizzare il pubblico impiego non significa trasformare l'ospedale in un'azienda privata, ne' vendere il servizio. Cambia la regola del rapporto, non la natura dell'ente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "L'ente resta pubblico, il rapporto diventa contrattuale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Ma non tutto e' diventato privato. L'articolo 3 elenca il personale che resta in regime di diritto pubblico."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono i magistrati, gli avvocati dello Stato, i militari e le forze di polizia, la carriera diplomatica e prefettizia, i vigili del fuoco, i professori e ricercatori universitari."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta pubblica anche la grande organizzazione. Le linee fondamentali degli uffici, gli uffici piu' importanti, le dotazioni si decidono con atti organizzativi, secondo l'articolo 2."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Resta pubblico l'accesso: l'articolo 97 della Costituzione vuole che agli impieghi pubblici si acceda per concorso, salvo i casi stabiliti dalla legge."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo le liti sulle procedure di concorso per l'assunzione restano al giudice amministrativo. Una volta assunti, invece, il giudice e' quello del lavoro."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E restano regole di legge speciali per i dipendenti pubblici: le incompatibilita', il codice di comportamento, il procedimento disciplinare, le responsabilita'."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E restano i vincoli di spesa: quante persone assumere e quanto costa il personale dipende da limiti fissati dalla legge e dai bilanci pubblici, non solo dal contratto."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Pensiamo all'infermiera dell'inizio. Il turno lo decide il coordinatore con i poteri del datore di lavoro. Ma per entrare ha vinto un concorso, e non puo' fare un secondo lavoro senza autorizzazione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: non tutti i dipendenti pubblici sono contrattualizzati. Magistrati, militari, forze di polizia e professori universitari hanno ancora un ordinamento di diritto pubblico."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Contratto per il rapporto, legge per l'accesso e le garanzie."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: prima degli anni Novanta il rapporto era di diritto pubblico, nasceva da un atto di nomina e le liti andavano al giudice amministrativo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: la privatizzazione parte con il decreto legislativo 29 del 1993, prosegue con le leggi Bassanini e il decreto 80 del 1998, e viene riordinata nel decreto legislativo 165 del 2001."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: oggi il rapporto e' regolato dal codice civile e dai contratti; restano pubblici l'accesso per concorso, la macro organizzazione e il personale dell'articolo 3."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: le liti sul rapporto di lavoro vanno al giudice ordinario, non al TAR. Al giudice amministrativo restano i concorsi per l'assunzione."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dalla nomina al contratto, dal TAR al giudice del lavoro, con alcune garanzie che restano pubbliche. Nella prossima lezione: i cinque principi della riforma."
+ }
+]

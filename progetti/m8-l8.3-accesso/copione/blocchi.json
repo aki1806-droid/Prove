@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un giovane operatore legge un bando della sua azienda sanitaria: posti da assistente amministrativo. Requisiti, prove, scadenze. Da dove viene tutta questa procedura?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Viene da un principio della Costituzione e da poche regole del 165. Conoscerle serve due volte: per partecipare a un concorso, e per capire la selezione interna che stai preparando."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni posto pubblico si conquista con una prova aperta."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le vie d'ingresso nella pubblica amministrazione. I principi del concorso. Il bando, i requisiti e le prove. E infine la graduatoria, con quello che viene dopo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'articolo 35 del 165 dice che l'assunzione avviene con un contratto individuale di lavoro. Ma a quel contratto si arriva per strade precise, fissate dalla legge."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La strada principale sono le procedure selettive, cioe' i concorsi, che devono accertare la professionalita' richiesta e garantire in misura adeguata l'accesso dall'esterno."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda strada e' l'avviamento dalle liste dei centri per l'impiego. Vale per i profili per cui basta la scuola dell'obbligo, con eventuali requisiti professionali in piu'."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza riguarda le categorie protette: le persone con disabilita' e le altre categorie previste dalla legge 68 del 1999 hanno assunzioni obbligatorie, anche per chiamata numerica."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ogni assunzione parte dalla programmazione: l'amministrazione avvia le procedure sulla base del proprio piano triennale dei fabbisogni di personale, oggi parte del PIAO."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E prima di bandire un concorso l'ente deve verificare se puo' coprire il posto con personale gia' pubblico, attraverso la mobilita'. La vedremo nell'ultima lezione del modulo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda sanitaria che deve coprire posti di operatore tecnico con la sola scuola dell'obbligo puo' chiedere l'avviamento al centro per l'impiego, con una prova di idoneita'."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'avviamento dalle liste non e' una scorciatoia libera. Vale solo per i profili previsti dalla legge, e anche li' serve una prova di idoneita'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tre strade, nessuna scelta a discrezione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il comma 3 dell'articolo 35 fissa i principi di ogni procedura. Il primo e' la pubblicita': il bando deve essere conosciuto da tutti quelli che possono partecipare."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'imparzialita', l'economicita' e la rapidita' delle procedure, anche con sistemi automatizzati e con prove preselettive quando i candidati sono molti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Servono meccanismi oggettivi e trasparenti, capaci di verificare le attitudini e la professionalita' richieste per quel posto. E il rispetto delle pari opportunita' tra donne e uomini."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le procedure sono decentrate: di regola ogni amministrazione organizza le proprie selezioni, secondo il proprio piano dei fabbisogni."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La commissione e' composta solo da esperti di provata competenza: funzionari, docenti, esperti esterni. Mai politici dell'amministrazione, ne' rappresentanti sindacali."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: in un concorso con migliaia di domande l'azienda puo' fare una preselezione con quiz al computer, e ammettere alle prove solo chi la supera."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I dettagli stanno nei regolamenti. Quello generale sui concorsi e' del 1994, riscritto nel 2023. Per il comparto sanita' c'e' un regolamento specifico, del 2001."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: nella commissione possono stare anche esperti esterni all'amministrazione. Quello che la legge esclude sono i politici e i sindacalisti."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Pubblicita', imparzialita', trasparenza, esperti veri."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il bando e' la legge del concorso. Indica i posti, i requisiti, le prove, i titoli valutabili, le scadenze. E vincola sia i candidati sia l'amministrazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I requisiti generali sono l'eta' minima, l'idoneita' fisica, il godimento dei diritti politici, il titolo di studio richiesto per il profilo. E la cittadinanza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per alcuni profili sanitari servono anche requisiti professionali specifici, come il titolo abilitante e l'iscrizione all'albo della professione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulla cittadinanza: l'articolo 38 apre ai cittadini dell'Unione europea tutti i posti che non comportano l'esercizio di pubblici poteri o la tutela dell'interesse nazionale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prove possono essere scritte, pratiche e orali, secondo il profilo. E nei concorsi si accertano anche la conoscenza della lingua inglese e delle tecnologie informatiche."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli ultimi anni le procedure sono diventate piu' digitali: prove al computer, bandi pubblicati anche sul portale unico del reclutamento, inPA, e domande presentate online."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bando indica anche le riserve di posti e i titoli di preferenza previsti dalla legge, per esempio per i militari congedati o per chi ha gia' lavorato con contratto a termine nell'ente."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo al bando da assistente amministrativo. Il diploma e' il requisito d'accesso; poi prova scritta, prova orale con inglese e informatica, e una valutazione dei titoli."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il bando non si puo' cambiare a piacere durante la procedura. Fissa le regole prima, perche' tutti conoscano in anticipo come saranno valutati."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il bando e' la regola uguale per tutti, scritta prima."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Alla fine delle prove la commissione forma la graduatoria di merito. Chi e' nei primi posti utili vince il concorso; gli altri che hanno superato le prove sono idonei."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le graduatorie restano valide per un periodo fissato dalla legge, di norma due anni dall'approvazione. In quel tempo l'amministrazione puo' scorrerle per coprire altri posti."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: su dieci posti a bando, chi e' arrivato quindicesimo puo' essere assunto l'anno dopo, se l'azienda decide di coprire altri cinque posti con la stessa graduatoria."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi vince firma il contratto individuale e comincia con un periodo di prova, fissato dal contratto collettivo. Superata la prova, l'assunzione diventa definitiva."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' un vincolo: i vincitori devono restare nella sede di prima destinazione per almeno cinque anni. Serve a evitare che i posti si svuotino subito dopo il concorso."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi e' gia' dentro l'amministrazione, invece, puo' crescere con le progressioni tra le aree: una procedura comparativa, con almeno la meta' dei posti riservata all'accesso dall'esterno."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella procedura contano la valutazione positiva degli ultimi tre anni, l'assenza di sanzioni disciplinari, i titoli e le competenze ulteriori, il numero e il tipo di incarichi svolti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se qualcosa va storto nel concorso? Le liti sulle procedure di assunzione vanno al giudice amministrativo. Dopo l'assunzione, come abbiamo visto, al giudice del lavoro."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: l'idoneo non ha diritto all'assunzione. Puo' essere chiamato se la graduatoria viene scorsa mentre e' valida, ma non puo' pretendere il posto."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Vincere apre la porta, l'idoneita' la tiene socchiusa."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: si entra con procedure selettive, con l'avviamento dalle liste per i profili della scuola dell'obbligo, o con le assunzioni obbligatorie delle categorie protette."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il concorso segue i principi dell'articolo 35, cioe' pubblicita', imparzialita', trasparenza, pari opportunita', e una commissione di soli esperti, senza politici ne' sindacalisti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: la graduatoria resta valida per un periodo fissato dalla legge, i vincitori restano cinque anni nella prima sede, e gli interni crescono con la procedura comparativa."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: i cittadini dell'Unione europea possono accedere ai posti pubblici, salvo quelli che comportano pubblici poteri o la tutela dell'interesse nazionale."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: strade fissate dalla legge, un bando uguale per tutti, una graduatoria di merito. Nella prossima lezione: la dirigenza e le sue responsabilita'."
+ }
+]
