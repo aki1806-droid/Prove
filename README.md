@@ -49,6 +49,8 @@ progetti/<modulo>-<lezione>/
 | `m4-l4.3-isolamento` | Modulo 4 · 4.3 Precauzioni aggiuntive e isolamento | 8:48.0 | `6e62854a021ec5bce27e4fbe2b664c16` |
 | `m4-l4.5-sterilizzazione` | Modulo 4 · 4.5 Decontaminazione, disinfezione e sterilizzazione | 8:56.5 | `3e03259979d0e2f276cbdeaf1ac8d70c` |
 | `m4-l4.4-dpi` | Modulo 4 · 4.4 DPI: scelta, vestizione e svestizione | 9:01.0 | `0947e8d07532a5b4a3fd27bdc8e35195` |
+| `m4-l4.6-resistenza` | Modulo 4 · 4.6 Antibiotico-resistenza e stewardship | 8:50.8 | `52ecbceb599dde5bbcac5e0bd10d895b` |
+| `m4-l4.7-rifiuti` | Modulo 4 · 4.7 Rischio biologico e gestione dei rifiuti | 8:41.7 | `985f3cc648f6125ad1f8f7a805acb6c1` |
 
 Sedici micro-lezioni in due moduli con la grafica di seconda generazione, e
 dal modulo 3 la terza generazione (`slide/clinica.mjs`, settembre 2026). Gli indici e i registri stanno in `progetti/`.

@@ -82,8 +82,12 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-Da fare quando il credito ElevenLabs torna: voce A/B, allineamento, verifica
-per trascrizione, montaggio, caricamento e resa HeyGen.
+| | |
+|---|---|
+| resa pubblicata | `985f3cc648f6125ad1f8f7a805acb6c1` — 521.713 s (8:41.7), 1080p 16:9, resa in 63 s, con SRT (`subtitle_url`) |
+| lotto asset | `31df28522bcc4dd6bcc066943504853f` — 98 file, 19 MB, tutti completati |
+
+---
 
 ## Da verificare
 
