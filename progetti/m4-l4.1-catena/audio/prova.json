@@ -1,0 +1,278 @@
+[
+ {
+  "n": 1,
+  "traccia": "A",
+  "id": "s03",
+  "taglio": 10.41
+ },
+ {
+  "n": 2,
+  "traccia": "A",
+  "id": "s04",
+  "taglio": 19.407
+ },
+ {
+  "n": 3,
+  "traccia": "A",
+  "id": "s05",
+  "taglio": 32.2
+ },
+ {
+  "n": 4,
+  "traccia": "A",
+  "id": "s06",
+  "taglio": 42.369
+ },
+ {
+  "n": 5,
+  "traccia": "A",
+  "id": "s07",
+  "taglio": 53.496
+ },
+ {
+  "n": 6,
+  "traccia": "A",
+  "id": "s08",
+  "taglio": 66.309
+ },
+ {
+  "n": 7,
+  "traccia": "A",
+  "id": "s09",
+  "taglio": 77.465
+ },
+ {
+  "n": 8,
+  "traccia": "A",
+  "id": "s10",
+  "taglio": 89.71
+ },
+ {
+  "n": 9,
+  "traccia": "A",
+  "id": "s11",
+  "taglio": 103.876
+ },
+ {
+  "n": 10,
+  "traccia": "A",
+  "id": "s12",
+  "taglio": 112.038
+ },
+ {
+  "n": 11,
+  "traccia": "A",
+  "id": "s13",
+  "taglio": 120.877
+ },
+ {
+  "n": 12,
+  "traccia": "A",
+  "id": "s14",
+  "taglio": 135.03
+ },
+ {
+  "n": 13,
+  "traccia": "A",
+  "id": "s15",
+  "taglio": 149.783
+ },
+ {
+  "n": 14,
+  "traccia": "A",
+  "id": "s16",
+  "taglio": 163.91
+ },
+ {
+  "n": 15,
+  "traccia": "A",
+  "id": "s17",
+  "taglio": 181.209
+ },
+ {
+  "n": 16,
+  "traccia": "A",
+  "id": "s18",
+  "taglio": 193.527
+ },
+ {
+  "n": 17,
+  "traccia": "A",
+  "id": "s19",
+  "taglio": 204.059
+ },
+ {
+  "n": 18,
+  "traccia": "A",
+  "id": "s20",
+  "taglio": 213.567
+ },
+ {
+  "n": 19,
+  "traccia": "A",
+  "id": "s21",
+  "taglio": 225.298
+ },
+ {
+  "n": 20,
+  "traccia": "A",
+  "id": "s22",
+  "taglio": 237.815
+ },
+ {
+  "n": 21,
+  "traccia": "A",
+  "id": "s23",
+  "taglio": 253.123
+ },
+ {
+  "n": 22,
+  "traccia": "A",
+  "id": "s24",
+  "taglio": 266.839
+ },
+ {
+  "n": 23,
+  "traccia": "A",
+  "id": "s25",
+  "taglio": 276.637
+ },
+ {
+  "n": 24,
+  "traccia": "A",
+  "id": "s26",
+  "taglio": 290.051
+ },
+ {
+  "n": 25,
+  "traccia": "A",
+  "id": "s27",
+  "taglio": 302.039
+ },
+ {
+  "n": 26,
+  "traccia": "B",
+  "id": "s29",
+  "taglio": 12.857
+ },
+ {
+  "n": 27,
+  "traccia": "B",
+  "id": "s30",
+  "taglio": 26.441
+ },
+ {
+  "n": 28,
+  "traccia": "B",
+  "id": "s31",
+  "taglio": 38.404
+ },
+ {
+  "n": 29,
+  "traccia": "B",
+  "id": "s32",
+  "taglio": 55.579
+ },
+ {
+  "n": 30,
+  "traccia": "B",
+  "id": "s33",
+  "taglio": 69.8
+ },
+ {
+  "n": 31,
+  "traccia": "B",
+  "id": "s34",
+  "taglio": 82.461
+ },
+ {
+  "n": 32,
+  "traccia": "B",
+  "id": "s35",
+  "taglio": 96.002
+ },
+ {
+  "n": 33,
+  "traccia": "B",
+  "id": "s36",
+  "taglio": 105.399
+ },
+ {
+  "n": 34,
+  "traccia": "B",
+  "id": "s37",
+  "taglio": 117.668
+ },
+ {
+  "n": 35,
+  "traccia": "B",
+  "id": "s38",
+  "taglio": 130.284
+ },
+ {
+  "n": 36,
+  "traccia": "B",
+  "id": "s39",
+  "taglio": 145.219
+ },
+ {
+  "n": 37,
+  "traccia": "B",
+  "id": "s40",
+  "taglio": 158.371
+ },
+ {
+  "n": 38,
+  "traccia": "B",
+  "id": "s41",
+  "taglio": 173.042
+ },
+ {
+  "n": 39,
+  "traccia": "B",
+  "id": "s42",
+  "taglio": 184.642
+ },
+ {
+  "n": 40,
+  "traccia": "B",
+  "id": "s43",
+  "taglio": 199.925
+ },
+ {
+  "n": 41,
+  "traccia": "B",
+  "id": "s44",
+  "taglio": 213.203
+ },
+ {
+  "n": 42,
+  "traccia": "B",
+  "id": "s45",
+  "taglio": 225.053
+ },
+ {
+  "n": 43,
+  "traccia": "B",
+  "id": "s46",
+  "taglio": 239.536
+ },
+ {
+  "n": 44,
+  "traccia": "B",
+  "id": "s47",
+  "taglio": 251.441
+ },
+ {
+  "n": 45,
+  "traccia": "B",
+  "id": "s48",
+  "taglio": 265.683
+ },
+ {
+  "n": 46,
+  "traccia": "B",
+  "id": "s49",
+  "taglio": 281.729
+ }
+]

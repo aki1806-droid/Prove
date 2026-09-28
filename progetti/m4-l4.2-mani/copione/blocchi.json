@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Se c'e' una sola misura di prevenzione da ricordare di tutto il corso, e' questa: l'igiene delle mani. E' la misura singola piu' efficace contro le infezioni correlate all'assistenza."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Costa quasi nulla, e resta la piu' disattesa. Nei concorsi e' una certezza: i cinque momenti dell'OMS compaiono praticamente sempre, in una forma o nell'altra, e questa lezione li spiega uno per uno."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' le mani. Le mani degli operatori sono il principale veicolo della trasmissione per contatto, la via piu' frequente in ospedale. Sulla cute esistono due flore, e la differenza fra le due spiega tutto."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La flora residente vive stabilmente negli strati profondi ed e' poco patogena. La flora transitoria si acquisisce toccando pazienti e superfici: e' quella che causa la maggior parte delle ICA."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si trasmette facilmente, e si rimuove facilmente con l'igiene delle mani. E' la buona notizia: il germe che fa piu' danno e' anche quello che se ne va con venti secondi di gel."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I cinque momenti. Uno: prima del contatto con il paziente. Due: prima di una manovra pulita o asettica, un prelievo, una medicazione, la preparazione di un farmaco. Sono i due prima."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: dopo il rischio di esposizione a un liquido biologico, anche se avevi i guanti. Quattro: dopo il contatto con il paziente, quando lasci il suo letto."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: dopo il contatto con cio' che circonda il paziente, letto, comodino, attrezzature, anche se il paziente non e' stato toccato. Sono i tre dopo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Memorizzali nell'ordine: due prima, tre dopo. Nei quiz compaiono spesso mescolati, e la trappola e' proprio l'ordine."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Capire la logica aiuta a non confonderli. I momenti uno e due, i prima, proteggono il paziente dai germi che porti sulle mani, raccolti dal paziente precedente o dall'ambiente."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I momenti tre, quattro e cinque, i dopo, proteggono te e l'ambiente dai germi del paziente, impedendo che tu li porti altrove: al collega, al paziente della stanza accanto, a casa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il quinto e' il piu' dimenticato: si toccano le sponde, la pompa, il campanello, e si esce senza igienizzare. Il paziente non l'hai toccato, la sua flora si'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il concetto che sta sotto e' quello di zona paziente: la persona e l'ambiente immediatamente circostante, colonizzato dalla sua flora. Tutto il resto e' area sanitaria."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'igiene delle mani si fa ogni volta che si passa da una zona all'altra. Entrare nella zona paziente: momento uno. Uscirne: momento quattro o cinque."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due metodi, e la domanda e' quale e quando. La frizione con soluzione alcolica e' il metodo di scelta nella maggior parte delle situazioni: e' la risposta giusta quando il quiz non specifica altro."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' piu' rapida, piu' efficace sulla flora transitoria, meglio tollerata dalla cute e disponibile al punto di cura. Dura venti-trenta secondi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il lavaggio con acqua e sapone dura quaranta-sessanta secondi, il doppio, ed e' necessario quando le mani sono visibilmente sporche: il gel non toglie lo sporco, lo disinfetta."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo il contatto con spore, il Clostridioides difficile della lezione tre punto sette, e dopo l'uso della toilette. Sporco visibile, spore, toilette: tre casi, e negli altri il gel."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica prevede una sequenza di movimenti che copre tutte le superfici: palmo contro palmo, dorso della mano con il palmo dell'altra, dita intrecciate, dorso delle dita."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pollici con rotazione, polpastrelli sul palmo. Le zone piu' dimenticate sono pollici, polpastrelli e spazi interdigitali: e' li' che i controlli con la lampada trovano i residui."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nella frizione si strofina fino ad asciugatura completa: l'alcol agisce mentre evapora, non va asciugato con la carta. Chi si asciuga le mani ha interrotto la disinfezione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'igiene funziona solo su mani in condizione. Unghie corte, niente unghie artificiali ne' smalto: sotto le unghie lunghe e artificiali i germi si annidano e l'igiene non li raggiunge."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente anelli, orologi, braccialetti. Avambracci scoperti. E cura della cute: le mani screpolate trattengono piu' germi, per questo si usano creme protettive fuori dall'attivita' assistenziale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il concetto su cui i quiz costruiscono il distrattore piu' frequente: i guanti non sostituiscono l'igiene delle mani. Mai, in nessuno dei cinque momenti."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si fa l'igiene prima di indossarli e dopo averli tolti, perche' i guanti hanno micro-lesioni invisibili e le mani si contaminano nel momento in cui li si sfila."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] I guanti si cambiano fra un paziente e l'altro, e anche fra una sede sporca e una pulita dello stesso paziente. E non si lavano ne' si igienizzano i guanti indossati."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste poi l'antisepsi chirurgica delle mani, prima degli interventi: con antisettico specifico o con frizione alcolica chirurgica, su mani e avambracci fino al gomito."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si tengono le mani piu' in alto dei gomiti, perche' l'acqua scoli dalle zone piu' pulite verso quelle meno pulite, e non il contrario. La vedremo nel modulo nove, con la sala operatoria."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo alle precauzioni standard, e la loro definizione e' la domanda: si applicano a tutti i pazienti, indipendentemente dalla diagnosi e dallo stato infettivo presunto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Ogni sangue e ogni liquido biologico va considerato potenzialmente infetto. Non si decide chi e' a rischio guardandolo: si protegge sempre. A tutti i pazienti: tre parole che nei quiz valgono la risposta."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contenuto. Igiene delle mani. DPI scelti in base al rischio di esposizione, non alla diagnosi. Igiene respiratoria. Collocazione appropriata del paziente."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gestione delle attrezzature: pulire e disinfettare fra un paziente e l'altro. Pulizia ambientale. Gestione della biancheria sporca, senza scuoterla."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pratiche iniettive sicure. Prevenzione delle punture accidentali. Nove elementi: la lista completa vale una domanda aperta, e i primi due, mani e DPI, valgono i quiz."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le pratiche iniettive sicure meritano un approfondimento, perche' gli errori qui hanno causato epidemie documentate di epatite. Un ago e una siringa per un solo paziente e un solo utilizzo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Preferire i flaconi monodose. Se si usa un multidose: ago e siringa sterili a ogni prelievo, disinfezione del tappo, e mai rientrare in un flacone con una siringa gia' usata, nemmeno cambiando l'ago."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le sacche di soluzione non sono una fonte comune di diluente per piu' pazienti: una sacca, un paziente. Regole semplici, che una sola eccezione trasforma in un'epidemia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'igiene respiratoria, o etichetta della tosse, entrata nelle precauzioni standard dopo le epidemie respiratorie. Coprire bocca e naso con un fazzoletto o con l'incavo del gomito, non con la mano."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gettare subito il fazzoletto. Igiene delle mani. Mascherina chirurgica alla persona che tossisce, se tollerata. Distanza di almeno un metro nelle aree di attesa. Si insegna ai pazienti e ai visitatori, e si pratica per primi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dato scomodo: l'adesione all'igiene delle mani, misurata con l'osservazione diretta, e' spesso ben sotto cio' che gli operatori pensano di fare. Chi si osserva da solo si sopravvaluta."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cause: carico di lavoro, dispenser lontani dal punto di cura, irritazione cutanea, la convinzione che i guanti bastino, semplice dimenticanza. Nessuna e' cattiva volonta': sono ostacoli, e si rimuovono."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le leve che funzionano sono quelle dell'OMS: dispenser al letto, formazione, osservazione e feedback, promemoria, e l'esempio dei colleghi piu' esperti. Nessuna da sola: tutte insieme."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso del tipo che si trova nelle prove. Misuri la pressione al paziente, sistemi il cuscino, poi prepari un'infusione endovenosa per lo stesso paziente. Quando fai l'igiene?"
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di toccarlo: momento uno. Prima della manovra asettica di preparazione e collegamento dell'infusione: momento due, anche se l'avevi appena fatta, perche' nel frattempo hai toccato il paziente e il letto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo, uscendo dalla zona paziente: momento quattro. La risposta una volta all'inizio e' sbagliata: tre igieni in una visita di cinque minuti, e ognuna ha un motivo diverso."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del servizio sanitario veneto l'igiene delle mani e' oggetto di campagne aziendali periodiche, con osservazione dell'adesione da parte degli infermieri addetti al controllo delle infezioni."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dispenser al punto di cura e restituzione dei risultati ai reparti; molte aziende aderiscono alla giornata mondiale dell'OMS del cinque maggio. All'orale, citare l'osservazione con feedback mostra che sai come si misura."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Cinque momenti: due prima, tre dopo. Frizione alcolica di scelta, venti-trenta secondi, fino ad asciugatura; lavaggio quaranta-sessanta secondi, quando le mani sono sporche o in presenza di spore."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] I guanti non sostituiscono l'igiene. Unghie corte, niente gioielli. Le precauzioni standard valgono per tutti: ogni liquido biologico e' potenzialmente infetto. Prossima: quando le standard non bastano. A tra poco."
+ }
+]
