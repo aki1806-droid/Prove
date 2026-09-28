@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Fin qui abbiamo protetto il paziente. In questa lezione proteggiamo te. Il rischio biologico e' il principale rischio professionale dell'infermiere: sangue, liquidi biologici, aghi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la puntura accidentale con ago contaminato e' l'infortunio piu' tipico: un gesto di un secondo, e poi settimane di esami e di attesa."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La lezione ha un momento centrale: che cosa fare nei primi minuti dopo un'esposizione. E' una domanda che compare nei concorsi, ed e' una sequenza che potresti dover applicare davvero."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro. Il decreto legislativo ottantuno del duemilaotto, al Titolo decimo, disciplina l'esposizione ad agenti biologici e li classifica in quattro gruppi di pericolosita' crescente."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto legislativo diciannove del duemilaquattordici, che recepisce una direttiva europea, riguarda la prevenzione delle ferite da taglio e da punta in sanita': dispositivi di sicurezza, formazione, divieti, segnalazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quanto e' alto il rischio dopo una puntura con ago contaminato da un paziente fonte positivo? Per l'epatite B, fino al trenta per cento, se il paziente ha un'elevata replicazione virale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'epatite C, intorno all'uno-due per cento. Per l'HIV, circa lo zero virgola tre per cento. Nei manuali trovi la regola del trenta, del tre, dello zero virgola tre: tre numeri, tre virus, un ordine."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il valore per l'epatite C e' stato ridimensionato dagli studi piu' recenti, ma l'ordine resta quello: l'epatite B molto piu' trasmissibile della C, e la C piu' dell'HIV."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione. Dispositivi con meccanismo di protezione: aghi retrattili, cappucci di sicurezza, sistemi senza ago per le linee infusionali."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Divieto di reincappucciare gli aghi: e' il gesto che causa una quota rilevante delle punture. Smaltimento immediato nel contenitore per taglienti posizionato al punto d'uso, non dall'altra parte della stanza, non dopo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non passare mai un tagliente da una mano all'altra: si appoggia in una zona neutra, un vassoio, un piano, e l'altro lo prende da li'. Tre regole, e tutte e tre nascono da infortuni veri."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contenitore per taglienti: rigido, resistente alla perforazione, a chiusura definitiva. Si riempie solo fino alla linea indicata, indicativamente tre quarti del volume, e non un ago di piu'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mai spingere dentro il materiale per farcelo stare: e' cosi' che l'ago sporgente punge la mano che spinge. E si chiude definitivamente prima dello smaltimento, senza riaprirlo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco la sequenza dei primi minuti, quella da sapere a memoria. Per una puntura o un taglio: lavare subito con acqua e sapone, lasciando sanguinare liberamente."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Ma senza spremere, perche' la compressione traumatizza i tessuti. E niente sostanze caustiche, come la candeggina: non servono e fanno danno."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le mucose e gli occhi: irrigare abbondantemente con acqua o soluzione fisiologica, togliendo le lenti a contatto. Per la cute lesa esposta a sangue: lavare e disinfettare."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Subito dopo: segnalare immediatamente, al coordinatore e al servizio individuato dalla procedura aziendale, il pronto soccorso, il medico competente, il servizio di medicina del lavoro."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si identifica il paziente fonte, si compila la denuncia di infortunio. Il motivo dell'urgenza e' uno solo: la profilassi per l'HIV funziona meglio quanto prima viene iniziata, e le ore contano."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli esami. Sull'operatore, esami basali per epatite B, epatite C e HIV, che servono a documentare lo stato al momento dell'esposizione: se poi qualcosa cambia, si sa da quando."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul paziente fonte, i test previo consenso: e' un suo diritto, e la procedura dice come chiederlo. E poi un follow-up sierologico dell'operatore nei mesi successivi, secondo protocollo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La profilassi post-esposizione, virus per virus. Per l'HIV: si inizia il prima possibile, idealmente entro una-due ore, e comunque non oltre le quarantotto-settantadue ore, dopo le quali l'efficacia si considera trascurabile."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dura ventotto giorni. La decisione spetta al medico, sulla base del tipo di esposizione e dello stato del paziente fonte: non tutte le esposizioni la richiedono, ma tutte vanno valutate in fretta."
+ },
+ {
+  "id": "s24",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'epatite B: se l'operatore e' vaccinato con risposta documentata, anticorpi anti-HBs pari o superiori a dieci milliunita' per millilitro, non serve nulla."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non e' vaccinato, o non ha risposto al vaccino, si somministrano immunoglobuline specifiche e vaccino, preferibilmente entro ventiquattro ore: le immunoglobuline coprono subito, il vaccino copre dopo."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'epatite C: non esiste una profilassi. Si fa un follow-up per diagnosticare precocemente un'eventuale infezione e trattarla, perche' oggi l'epatite C e' curabile."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione piu' efficace e' a monte: le vaccinazioni degli operatori, raccomandate dal Piano nazionale. Epatite B, con verifica della risposta anticorpale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Influenza stagionale, che protegge l'operatore e soprattutto i pazienti fragili, che dall'operatore la prendono. Morbillo, parotite, rosolia. Varicella, per chi non l'ha avuta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Difterite, tetano e pertosse, fondamentale in area pediatrica e ostetrica. E COVID-19 secondo le indicazioni vigenti. Vaccinarsi e' anche una responsabilita' deontologica verso chi assisti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo ai rifiuti, l'altra meta' della lezione. Il riferimento e' il DPR duecentocinquantaquattro del duemilatre, che classifica i rifiuti sanitari in categorie con destini diversi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rifiuti pericolosi a rischio infettivo: tutto cio' che e' venuto a contatto con sangue e liquidi biologici, i taglienti, i materiali dei pazienti in isolamento. Gli assimilati agli urbani: carta, imballaggi, residui puliti."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rifiuti pericolosi non a rischio infettivo: sostanze chimiche, farmaci citotossici. E categorie che richiedono particolari sistemi di gestione, come i farmaci scaduti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione dei rifiuti a rischio infettivo. Contenitori dedicati, rigidi, con sacco interno e chiusura definitiva, riconoscibili dal simbolo del rischio biologico."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si riempiono fino al limite indicato e si chiudono dove sono stati prodotti, nel punto di produzione. Il deposito temporaneo in reparto ha limiti di tempo stabiliti dalla norma."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E mai comprimere i sacchi con le mani per farci stare altro materiale: e' un altro modo classico di pungersi, con un ago che qualcuno ha buttato nel sacco sbagliato."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un aspetto spesso trascurato: cio' che non e' contaminato non va nei rifiuti infettivi. Gli imballaggi, la carta, le confezioni integre vanno nella raccolta ordinaria."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rifiuti infettivi hanno costi di smaltimento molto piu' alti e un maggiore impatto ambientale. Separare correttamente al punto di produzione e' parte della professionalita'."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una situazione pratica: uno spandimento di sangue o di liquidi biologici su una superficie, un pavimento, un piano di lavoro. Si indossano i DPI, si assorbe con materiale monouso."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si disinfetta con un prodotto adeguato, tipicamente a base di cloro, secondo la procedura, e si smaltisce tutto come rifiuto a rischio infettivo. Esistono kit dedicati in molti reparti."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso, e la risposta in ordine. Durante un prelievo ti pungi con l'ago usato. Uno: metti in sicurezza il paziente e smaltisci l'ago. Due: lavi con acqua e sapone, lasciando sanguinare senza spremere."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: segnali immediatamente al coordinatore e al servizio previsto dalla procedura. Quattro: si identifica il paziente fonte e si richiedono i test con il suo consenso."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: esami basali tuoi e valutazione della profilassi, che per l'HIV va iniziata entro poche ore. Sei: denuncia di infortunio e follow-up."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Chi risponde «disinfetto con alcol e finisco il turno» sbaglia la domanda e rischia la salute."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del servizio sanitario veneto esiste una procedura per l'esposizione accidentale a materiale biologico, con un percorso rapido attivo ventiquattro ore su ventiquattro, spesso tramite il pronto soccorso."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E presa in carico successiva del medico competente. I dispositivi di sicurezza sono adottati ai sensi del decreto diciannove, e la gestione dei rifiuti segue procedure aziendali con formazione del personale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Rischio di trasmissione: epatite B maggiore di epatite C, maggiore di HIV. Mai reincappucciare; contenitore al punto d'uso, riempito fino alla linea."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo una puntura: lavare con acqua e sapone, lasciar sanguinare senza spremere, niente caustici, segnalare subito al coordinatore e al servizio previsto."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Profilassi per l'HIV entro una-due ore, al massimo quarantotto-settantadue, per ventotto giorni. Epatite B: nessun intervento se vaccinato con risposta. Epatite C: nessuna profilassi, solo follow-up."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E la parola chiave e' tempestivita': ogni passo di questa lezione vale di piu' quanto prima lo fai. Nella prossima lezione ricomponiamo il modulo quattro. A tra poco."
+ }
+]

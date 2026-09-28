@@ -12,7 +12,7 @@ delle prevalenze, i germi, le goccioline e i nuclei sospesi.
 | 4.4 | DPI: scelta, vestizione e svestizione | — | slide pronte; voce ferma per quota |
 | 4.5 | Decontaminazione, disinfezione e sterilizzazione | — | slide pronte; voce ferma per quota |
 | 4.6 | Antibiotico-resistenza e stewardship | — | slide pronte; voce ferma per quota |
-| 4.7 | Rischio biologico e gestione dei rifiuti | — | — |
+| 4.7 | Rischio biologico e gestione dei rifiuti | — | slide pronte; voce ferma per quota |
 | 4.8 | Riepilogo del Modulo 4 e autovalutazione | — | — |
 
 Lo script del committente è in `m4-l4.1-catena/origine/Script_video_MODULO_4.md`;
