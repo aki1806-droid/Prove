@@ -524,6 +524,51 @@ E due cose imparate sul copione, non sulla grafica:
   scritto. Se le deroghe diventassero frequenti, il segnale sarebbe un altro:
   il copione chiude i blocchi con un'anafora che invita a proseguire.
 
+Il modulo 4 ne aggiunge sei, e con loro trentacinque illustrazioni
+(ferita, catetere centrale, contatto, goccia, nuclei sospesi, microbo,
+fotografia, pellicola, zanzara, zona, dispenser, rubinetto, guanto, gomito,
+mascherina, respiratore, camice, cartello, fiore, fonendo, occhiali, rifiuti,
+il guanto che si sfila, le due dita, il pacchetto, vasca, autoclave, pacco,
+provetta, puntura, taglienti…):
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `anelli` | sei ovali concatenati che compaiono uno per volta, con l'etichetta sotto; `rotto` è l'anello che si separa in due metà in accento; `attive` li accende a gruppi | la catena delle infezioni (4.1), il filo del riepilogo (4.8) |
+| `percento` | cento tondini in dieci file, i primi `n` in accento, da `da` a `n` a mezza tinta, il testo grande a destra | «otto ricoverati su cento», «fra un terzo e la metà» (4.1) |
+| `colonne` | una tabella a due o tre colonne con l'intestazione a pillola e le voci che scendono una per volta; `attive` accende le colonne a gruppi | la tabella delle precauzioni (4.3), Spaulding (4.5), i bundle (4.8) |
+| `pressione` | una o due stanze viste dall'alto: porta, letto, bocchetta, e le frecce dell'aria che entrano (negativa) o escono (positiva), in loop | la stanza a pressione negativa e quella positiva (4.3) |
+| `selezione` | un campo di quaranta germi, sei già resistenti; `fase:'dopo'` fa svanire i sensibili, `'poi'` mostra il campo tutto resistente | il meccanismo della selezione (4.6) |
+| `percorso` a due righe | oltre le cinque tappe la linea va a serpentina, e l'ultima tappa della prima riga porta l'etichetta **sopra**, fuori dal raccordo verticale | il caso TBC a sei passi (4.4), la puntura a sei passi (4.7) |
+
+Sei cose imparate nel modulo 4:
+
+- **un foglio di stile che forza `text-anchor` annulla l'ancora calcolata.**
+  Il ciclo scriveva `text-anchor="start"` a destra ed `"end"` a sinistra, ma
+  `.fig .nodo .lbl{text-anchor:middle}` vinceva: con cinque passi e nomi
+  corti non si vedeva, con otto passi «Sterilizzazione» stava sopra il nodo.
+  L'ancora va in linea (`style="text-anchor:…"`), e oltre i sei passi il
+  cerchio si stringe (raggio 196, riquadro 680) perché l'etichetta in alto
+  non salga sul sopratitolo;
+- **`foreignObject div{display:flex}` prende anche i div interni.** Nella
+  selezione ogni parola in accento andava a capo da sola: il `div` del
+  titolo era diventato una colonna flex e i suoi figli in linea righe. La
+  regola vale per `foreignObject > div`;
+- **una stanza sola non sta nel `viewBox` di due.** Il corpo `pressione` con
+  una stanza sola usava la larghezza di una stanza e la card lo scalava a
+  tutta slide: il `viewBox` resta 1656 e la stanza si centra;
+- **un `tre` senza riga di spiegazione è più stretto degli altri.** «0,3 %»
+  andava a capo nella terza casella perché le caselle si dividono il posto
+  per contenuto: si aggiunge la riga, non si tocca il corpo;
+- **la copertina regge due righe di titolo, non tre.** «Decontaminazione,
+  disinfezione e sterilizzazione» sforava di 15 px: la riga del modulo si
+  accorcia («Prevenzione e controllo delle ICA») e il controllo passa;
+- **i file di HeyGen non si scaricano da qui.** Il proxy di rete blocca
+  `files2.heygen.ai` (403 sul CONNECT): l'SRT prodotto con `caption` non è un
+  ripiego per la trascrizione. E la quota mensile di ElevenLabs si esaurisce
+  a metà modulo: una traccia costa 4.400–4.700 crediti, una trascrizione
+  1.600–2.000. Quando il credito manca si preparano copione, slide e registro
+  di tutte le lezioni che restano, e la voce si fa in un giro solo dopo.
+
 Tre cose imparate facendoli:
 
 - **una classe non può chiamarsi come il contenitore della slide.** La mappa
@@ -808,7 +853,7 @@ riassume.
 | `slide/layout.mjs` | 355 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 566 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/figure.mjs` | 440 | 24 illustrazioni che si disegnano, i 6 tipi della seconda generazione |
-| `slide/clinica.mjs` | 1.230 | 45 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 18 corpi della terza generazione |
+| `slide/clinica.mjs` | 1.559 | 77 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 23 corpi della terza generazione |
 | `slide/cards.mjs` | 52 | le 50 slide in PNG |
 | `slide/clips.mjs` | 49 | le scene animate in MP4 |
 | `monta-scene.py` | 37 | il payload delle scene per il montaggio |
