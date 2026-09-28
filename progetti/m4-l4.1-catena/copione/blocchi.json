@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Apriamo il modulo quattro, uno dei blocchi a resa piu' alta nei quiz: definizioni precise, numeri, sequenze. Ma c'e' anche una ragione piu' profonda per studiarlo bene."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le infezioni correlate all'assistenza sono l'evento avverso piu' frequente in sanita', e l'infermiere e' il professionista che ha piu' contatti con la persona assistita."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] La prevenzione passa, letteralmente, dalle sue mani. Questa lezione mette le basi: che cosa sono le ICA, quanto pesano, e il modello a sei anelli che spiega come nascono e come si fermano."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'infezione correlata all'assistenza e' un'infezione che insorge durante o dopo un percorso di cura, e che non era presente ne' in incubazione al momento dell'accesso."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Convenzionalmente, in ospedale, e' quella che compare dopo quarantotto ore dal ricovero. Prima di quel limite l'infezione era gia' in incubazione: non e' correlata all'assistenza."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nota la parola: assistenza, non ospedale. Il vecchio termine infezioni ospedaliere e' stato superato perche' le ICA nascono anche in RSA, a domicilio, negli ambulatori, in dialisi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un'infezione puo' essere correlata all'assistenza anche se compare dopo la dimissione. L'esempio classico e' l'infezione del sito chirurgico, che si conta con un calendario preciso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si considera tale se compare entro trenta giorni dall'intervento, ed entro novanta se e' stato impiantato materiale protesico. Il paziente e' a casa, ma l'infezione e' nata in sala operatoria."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri. Negli studi di prevalenza italiani, circa otto ricoverati su cento presentano un'ICA in un dato giorno, sopra la media europea. Otto su cento: in un reparto da venticinque letti, due persone."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il dato che da' senso a tutto il modulo: una quota stimata fra un terzo e la meta' di queste infezioni e' prevenibile con misure note."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Non servono tecnologie nuove: serve applicare bene cio' che gia' sappiamo. Fino a meta' prevenibili: tienilo come titolo del modulo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sedi principali sono quattro, e ognuna ha una sigla che devi saper sciogliere. Polmoniti, con la VAP, la polmonite associata a ventilazione. Infezioni urinarie, con le CAUTI, associate a catetere."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infezioni del sito chirurgico, le SSI. E batteriemie, con le CLABSI, associate a catetere venoso centrale. Tre di queste quattro sono legate a un dispositivo: ed e' li' che la prevenzione e' piu' efficace."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fissiamole in inglese, perche' nei quiz compaiono cosi', senza spiegazione. VAP: Ventilator-Associated Pneumonia. CAUTI: Catheter-Associated Urinary Tract Infection."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "CLABSI: Central Line-Associated Bloodstream Infection. SSI: Surgical Site Infection. Quattro sigle, quattro sedi, tre dispositivi: il ventilatore, il catetere vescicale, il catetere venoso centrale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello che spiega come nasce un'infezione e' la catena delle infezioni, sei anelli. Agente infettivo. Serbatoio, dove l'agente vive e si moltiplica. Porta di uscita."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Via di trasmissione. Porta di ingresso. Ospite suscettibile. L'infezione si realizza solo se tutti e sei gli anelli sono presenti, uno dopo l'altro."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E il principio della prevenzione e' semplice: basta spezzare un anello. Uno qualunque. La catena si interrompe, e l'infezione non arriva."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco dove agisce l'infermiere su ogni anello. Sull'agente: disinfezione, sterilizzazione, terapia. Sul serbatoio: pulizia e disinfezione ambientale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulla porta di uscita: gestione di secrezioni, escreti, ferite, igiene respiratoria. Sulla via di trasmissione: igiene delle mani e DPI, l'anello su cui l'infermiere pesa di piu'."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulla porta di ingresso: asepsi nella gestione di cateteri, accessi vascolari, ferite. Sull'ospite: nutrizione, mobilizzazione, igiene, vaccinazioni. Sei anelli, e su tutti e sei c'e' un gesto infermieristico."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sei anelli, sei famiglie di interventi. E quasi tutti sono gesti che hai gia' incontrato nel modulo tre: l'igiene, la nutrizione, il catetere. La prevenzione delle ICA e' assistenza di base fatta bene."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vie di trasmissione. Contatto, diretto, mani e cute, o indiretto, attraverso oggetti e superfici: e' la via piu' frequente in ospedale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Droplet: goccioline di grandi dimensioni, oltre cinque micron, emesse con tosse e starnuti, che cadono entro uno-due metri dalla persona che le emette. Oltre quella distanza, il pavimento le ferma."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Via aerea: nuclei di goccioline sotto i cinque micron, che restano sospesi nell'aria a lungo e percorrono distanze maggiori. E' la differenza fra una mascherina e un respiratore."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il veicolo comune, cibo, acqua, farmaci contaminati, e i vettori. Questa distinzione e' la base delle precauzioni della lezione quattro punto tre: contatto, droplet, aerea."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'altra distinzione. Le infezioni endogene sono causate dalla flora della persona stessa, che raggiunge una sede dove non dovrebbe stare: i batteri intestinali che risalgono lungo il catetere vescicale, per esempio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quelle esogene vengono dall'esterno: altri pazienti, operatori, ambiente, attrezzature: e' il caso in cui le mani dell'operatore fanno da ponte. Molte infezioni da dispositivo, invece, sono endogene."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'asepsi al momento dell'inserimento e della manipolazione conta tanto quanto l'igiene delle mani: il germe e' gia' li', addosso alla persona, e il dispositivo gli apre la strada."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ospite suscettibile. I fattori che lo rendono piu' vulnerabile: eta' estreme, immunodepressione, malattie croniche, diabete, malnutrizione, dispositivi invasivi, chirurgia, degenza prolungata, terapia antibiotica."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcuni non si possono cambiare. Altri si': i dispositivi si tolgono prima, la nutrizione si corregge, la degenza si accorcia. Su quelli lavora l'infermiere: ogni giorno di catetere in meno e' un rischio in meno."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una distinzione che i quiz chiedono e che ha conseguenze pratiche. Colonizzazione: il microrganismo e' presente e si moltiplica, ma senza reazione dell'ospite e senza malattia."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infezione: il microrganismo invade i tessuti e provoca una risposta clinica, con segni e sintomi. Il colonizzato di norma non si tratta con antibiotici: non c'e' una malattia da curare."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Ma e' comunque un serbatoio, e quindi richiede le precauzioni per non trasmettere il microrganismo ad altri. Non trattare non vuol dire non isolare."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per prevenire bisogna misurare. La sorveglianza delle ICA usa due strumenti. Gli studi di prevalenza, una fotografia di quanti pazienti hanno un'infezione in un dato giorno."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Semplici, ripetibili, confrontabili, come quelli europei coordinati dall'ECDC. E gli studi di incidenza, che contano i nuovi casi in un periodo: piu' precisi, piu' onerosi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto a questi, sorveglianze mirate: sito chirurgico, terapia intensiva, batteriemie da germi resistenti. La prevalenza e' una fotografia, l'incidenza e' un film: i quiz chiedono la differenza."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'organizzazione. In ogni ospedale opera il Comitato per il Controllo delle Infezioni Ospedaliere, il CIO, previsto fin dalle circolari ministeriali degli anni Ottanta, con funzioni di indirizzo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto, un gruppo operativo e una figura infermieristica specifica: l'infermiere addetto al controllo delle infezioni, l'ICI, che si occupa di sorveglianza, formazione, supporto ai reparti e verifica delle pratiche."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In molte realta' ci sono poi referenti di reparto, il collegamento fra il comitato e chi lavora al letto. E' una possibile evoluzione di carriera, e all'orale vale la pena citarla."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro nazionale. Il riferimento e' il Piano Nazionale di Contrasto all'Antibiotico-Resistenza, il PNCAR, che considera la prevenzione delle ICA uno dei pilastri, insieme all'uso appropriato degli antibiotici."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'approccio e' One Health: salute umana, animale e ambientale sono collegate, e un antibiotico usato male in uno dei tre ambiti pesa sugli altri due. Ne riparleremo nella lezione quattro punto sei."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un aggancio al modulo uno. Le ICA sono eventi avversi, e rientrano nella sicurezza delle cure prevista dalla legge ventiquattro del duemiladiciassette, la legge Gelli-Bianco."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In un contenzioso la domanda non e' se il paziente ha avuto un'infezione, ma se sono state adottate le misure previste. E risponde la documentazione: bundle registrato, motivazione del catetere, rivalutazione quotidiana."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto le aziende partecipano alla sorveglianza regionale delle ICA e agli studi di prevalenza coordinati a livello nazionale ed europeo, con comitati aziendali per il controllo delle infezioni."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infermieri addetti al controllo, e indicatori che entrano nella valutazione della qualita'. Per l'orale basta una frase: la prevenzione delle ICA e' organizzata in azienda, con un comitato dedicato e sorveglianza continua."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Un'ICA compare dopo quarantotto ore e non era presente ne' in incubazione. Il sito chirurgico si sorveglia fino a trenta giorni, novanta con impianto. Circa otto ricoverati su cento, e fino a meta' prevenibili."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Sei anelli, e basta spezzarne uno. Colonizzazione non e' infezione, ma il colonizzato e' un serbatoio. Nella prossima lezione, l'anello che l'infermiere controlla piu' di ogni altro: le mani. A tra poco."
+ }
+]

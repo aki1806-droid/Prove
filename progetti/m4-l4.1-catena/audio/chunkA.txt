@@ -1,0 +1,51 @@
+[warm] Apriamo il modulo quattro, uno dei blocchi a resa piu' alta nei quiz: definizioni precise, numeri, sequenze. Ma c'e' anche una ragione piu' profonda per studiarlo bene.
+
+Le infezioni correlate all'assistenza sono l'evento avverso piu' frequente in sanita', e l'infermiere e' il professionista che ha piu' contatti con la persona assistita.
+
+[serious] La prevenzione passa, letteralmente, dalle sue mani. Questa lezione mette le basi: che cosa sono le ICA, quanto pesano, e il modello a sei anelli che spiega come nascono e come si fermano.
+
+Un'infezione correlata all'assistenza e' un'infezione che insorge durante o dopo un percorso di cura, e che non era presente ne' in incubazione al momento dell'accesso.
+
+Convenzionalmente, in ospedale, e' quella che compare dopo quarantotto ore dal ricovero. Prima di quel limite l'infezione era gia' in incubazione: non e' correlata all'assistenza.
+
+Nota la parola: assistenza, non ospedale. Il vecchio termine infezioni ospedaliere e' stato superato perche' le ICA nascono anche in RSA, a domicilio, negli ambulatori, in dialisi.
+
+E un'infezione puo' essere correlata all'assistenza anche se compare dopo la dimissione. L'esempio classico e' l'infezione del sito chirurgico, che si conta con un calendario preciso.
+
+Si considera tale se compare entro trenta giorni dall'intervento, ed entro novanta se e' stato impiantato materiale protesico. Il paziente e' a casa, ma l'infezione e' nata in sala operatoria.
+
+I numeri. Negli studi di prevalenza italiani, circa otto ricoverati su cento presentano un'ICA in un dato giorno, sopra la media europea. Otto su cento: in un reparto da venticinque letti, due persone.
+
+E il dato che da' senso a tutto il modulo: una quota stimata fra un terzo e la meta' di queste infezioni e' prevenibile con misure note.
+
+[serious] Non servono tecnologie nuove: serve applicare bene cio' che gia' sappiamo. Fino a meta' prevenibili: tienilo come titolo del modulo.
+
+Le sedi principali sono quattro, e ognuna ha una sigla che devi saper sciogliere. Polmoniti, con la VAP, la polmonite associata a ventilazione. Infezioni urinarie, con le CAUTI, associate a catetere.
+
+Infezioni del sito chirurgico, le SSI. E batteriemie, con le CLABSI, associate a catetere venoso centrale. Tre di queste quattro sono legate a un dispositivo: ed e' li' che la prevenzione e' piu' efficace.
+
+Fissiamole in inglese, perche' nei quiz compaiono cosi', senza spiegazione. VAP: Ventilator-Associated Pneumonia. CAUTI: Catheter-Associated Urinary Tract Infection.
+
+CLABSI: Central Line-Associated Bloodstream Infection. SSI: Surgical Site Infection. Quattro sigle, quattro sedi, tre dispositivi: il ventilatore, il catetere vescicale, il catetere venoso centrale.
+
+Il modello che spiega come nasce un'infezione e' la catena delle infezioni, sei anelli. Agente infettivo. Serbatoio, dove l'agente vive e si moltiplica. Porta di uscita.
+
+Via di trasmissione. Porta di ingresso. Ospite suscettibile. L'infezione si realizza solo se tutti e sei gli anelli sono presenti, uno dopo l'altro.
+
+[serious] E il principio della prevenzione e' semplice: basta spezzare un anello. Uno qualunque. La catena si interrompe, e l'infezione non arriva.
+
+Ed ecco dove agisce l'infermiere su ogni anello. Sull'agente: disinfezione, sterilizzazione, terapia. Sul serbatoio: pulizia e disinfezione ambientale.
+
+Sulla porta di uscita: gestione di secrezioni, escreti, ferite, igiene respiratoria. Sulla via di trasmissione: igiene delle mani e DPI, l'anello su cui l'infermiere pesa di piu'.
+
+Sulla porta di ingresso: asepsi nella gestione di cateteri, accessi vascolari, ferite. Sull'ospite: nutrizione, mobilizzazione, igiene, vaccinazioni. Sei anelli, e su tutti e sei c'e' un gesto infermieristico.
+
+Sei anelli, sei famiglie di interventi. E quasi tutti sono gesti che hai gia' incontrato nel modulo tre: l'igiene, la nutrizione, il catetere. La prevenzione delle ICA e' assistenza di base fatta bene.
+
+Le vie di trasmissione. Contatto, diretto, mani e cute, o indiretto, attraverso oggetti e superfici: e' la via piu' frequente in ospedale.
+
+Droplet: goccioline di grandi dimensioni, oltre cinque micron, emesse con tosse e starnuti, che cadono entro uno-due metri dalla persona che le emette. Oltre quella distanza, il pavimento le ferma.
+
+Via aerea: nuclei di goccioline sotto i cinque micron, che restano sospesi nell'aria a lungo e percorrono distanze maggiori. E' la differenza fra una mascherina e un respiratore.
+
+Poi il veicolo comune, cibo, acqua, farmaci contaminati, e i vettori. Questa distinzione e' la base delle precauzioni della lezione quattro punto tre: contatto, droplet, aerea.

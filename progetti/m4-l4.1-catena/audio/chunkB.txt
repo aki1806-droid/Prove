@@ -1,0 +1,43 @@
+Un'altra distinzione. Le infezioni endogene sono causate dalla flora della persona stessa, che raggiunge una sede dove non dovrebbe stare: i batteri intestinali che risalgono lungo il catetere vescicale, per esempio.
+
+Quelle esogene vengono dall'esterno: altri pazienti, operatori, ambiente, attrezzature: e' il caso in cui le mani dell'operatore fanno da ponte. Molte infezioni da dispositivo, invece, sono endogene.
+
+Per questo l'asepsi al momento dell'inserimento e della manipolazione conta tanto quanto l'igiene delle mani: il germe e' gia' li', addosso alla persona, e il dispositivo gli apre la strada.
+
+L'ospite suscettibile. I fattori che lo rendono piu' vulnerabile: eta' estreme, immunodepressione, malattie croniche, diabete, malnutrizione, dispositivi invasivi, chirurgia, degenza prolungata, terapia antibiotica.
+
+Alcuni non si possono cambiare. Altri si': i dispositivi si tolgono prima, la nutrizione si corregge, la degenza si accorcia. Su quelli lavora l'infermiere: ogni giorno di catetere in meno e' un rischio in meno.
+
+Una distinzione che i quiz chiedono e che ha conseguenze pratiche. Colonizzazione: il microrganismo e' presente e si moltiplica, ma senza reazione dell'ospite e senza malattia.
+
+Infezione: il microrganismo invade i tessuti e provoca una risposta clinica, con segni e sintomi. Il colonizzato di norma non si tratta con antibiotici: non c'e' una malattia da curare.
+
+[serious] Ma e' comunque un serbatoio, e quindi richiede le precauzioni per non trasmettere il microrganismo ad altri. Non trattare non vuol dire non isolare.
+
+Per prevenire bisogna misurare. La sorveglianza delle ICA usa due strumenti. Gli studi di prevalenza, una fotografia di quanti pazienti hanno un'infezione in un dato giorno.
+
+Semplici, ripetibili, confrontabili, come quelli europei coordinati dall'ECDC. E gli studi di incidenza, che contano i nuovi casi in un periodo: piu' precisi, piu' onerosi.
+
+Accanto a questi, sorveglianze mirate: sito chirurgico, terapia intensiva, batteriemie da germi resistenti. La prevalenza e' una fotografia, l'incidenza e' un film: i quiz chiedono la differenza.
+
+L'organizzazione. In ogni ospedale opera il Comitato per il Controllo delle Infezioni Ospedaliere, il CIO, previsto fin dalle circolari ministeriali degli anni Ottanta, con funzioni di indirizzo.
+
+Accanto, un gruppo operativo e una figura infermieristica specifica: l'infermiere addetto al controllo delle infezioni, l'ICI, che si occupa di sorveglianza, formazione, supporto ai reparti e verifica delle pratiche.
+
+In molte realta' ci sono poi referenti di reparto, il collegamento fra il comitato e chi lavora al letto. E' una possibile evoluzione di carriera, e all'orale vale la pena citarla.
+
+Il quadro nazionale. Il riferimento e' il Piano Nazionale di Contrasto all'Antibiotico-Resistenza, il PNCAR, che considera la prevenzione delle ICA uno dei pilastri, insieme all'uso appropriato degli antibiotici.
+
+L'approccio e' One Health: salute umana, animale e ambientale sono collegate, e un antibiotico usato male in uno dei tre ambiti pesa sugli altri due. Ne riparleremo nella lezione quattro punto sei.
+
+E un aggancio al modulo uno. Le ICA sono eventi avversi, e rientrano nella sicurezza delle cure prevista dalla legge ventiquattro del duemiladiciassette, la legge Gelli-Bianco.
+
+In un contenzioso la domanda non e' se il paziente ha avuto un'infezione, ma se sono state adottate le misure previste. E risponde la documentazione: bundle registrato, motivazione del catetere, rivalutazione quotidiana.
+
+In Veneto le aziende partecipano alla sorveglianza regionale delle ICA e agli studi di prevalenza coordinati a livello nazionale ed europeo, con comitati aziendali per il controllo delle infezioni.
+
+Infermieri addetti al controllo, e indicatori che entrano nella valutazione della qualita'. Per l'orale basta una frase: la prevenzione delle ICA e' organizzata in azienda, con un comitato dedicato e sorveglianza continua.
+
+Ricapitoliamo. Un'ICA compare dopo quarantotto ore e non era presente ne' in incubazione. Il sito chirurgico si sorveglia fino a trenta giorni, novanta con impianto. Circa otto ricoverati su cento, e fino a meta' prevenibili.
+
+[warm] Sei anelli, e basta spezzarne uno. Colonizzazione non e' infezione, ma il colonizzato e' un serbatoio. Nella prossima lezione, l'anello che l'infermiere controlla piu' di ogni altro: le mani. A tra poco.
