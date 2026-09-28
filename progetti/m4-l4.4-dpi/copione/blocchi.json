@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] I dispositivi di protezione individuale, i DPI, proteggono solo se si scelgono bene, si indossano bene e, soprattutto, si tolgono bene. Tre verbi, e il terzo e' quello che conta di piu'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' nella svestizione che avviene la maggior parte delle autocontaminazioni, ed e' per questo che le sequenze vengono chieste nei concorsi e verificate nelle prove pratiche."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa lezione e' costruita intorno a due sequenze e a un principio: la sequenza della vestizione, la sequenza della svestizione, e la regola su che cosa si puo' toccare e che cosa no."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I DPI sono disciplinati dal decreto legislativo ottantuno del duemilaotto, il testo unico sulla sicurezza nei luoghi di lavoro: sono attrezzature destinate a proteggere il lavoratore da uno o piu' rischi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro li fornisce, li mantiene efficienti, forma e addestra all'uso. Il lavoratore li utilizza correttamente, ne ha cura e segnala difetti e mancanze."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un obbligo reciproco: il datore fornisce, forma e addestra; il lavoratore utilizza e segnala. E per l'infermiere e' anche una responsabilita' verso i pazienti: il DPI che protegge te protegge anche chi assisti dopo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La distinzione fondamentale. La mascherina chirurgica e' un dispositivo medico: protegge l'ambiente e il paziente dalle emissioni di chi la indossa."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Protegge anche l'operatore, ma solo da schizzi e goccioline grandi: non sigilla sul volto, e quindi non protegge dall'inalazione di particelle fini. E' una barriera, non un filtro."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il respiratore, o facciale filtrante FFP, e' un DPI: protegge chi lo indossa dall'inalazione, perche' filtra e aderisce al viso. Dispositivo medico da una parte, DPI dall'altra."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I facciali filtranti si classificano per efficienza filtrante: FFP1 circa ottanta per cento, FFP2 circa novantaquattro, FFP3 circa novantanove. In sanita' si usano FFP2 e FFP3."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'FFP3 e' indicato nelle procedure che generano aerosol, intubazione, broncoscopia, aspirazione a circuito aperto, ventilazione non invasiva, su pazienti con infezioni trasmissibili per via aerea."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un respiratore protegge solo se aderisce al viso. Si distinguono due cose: il fit test, la prova di tenuta, qualitativa o quantitativa, eseguita una volta per scegliere il modello adatto al proprio viso, e il fit check."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fit check e' il controllo di tenuta che si fa a ogni vestizione: si inspira ed espira coprendo il filtro, verificando che non ci siano perdite ai bordi. Barba e basette compromettono la tenuta."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un dettaglio: il respiratore con valvola protegge chi lo indossa, ma lascia uscire l'aria espirata non filtrata. Non va usato dove serve proteggere il campo sterile o gli altri."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli altri DPI. I guanti: sterili per le manovre asettiche, non sterili per il contatto con liquidi biologici; in nitrile o lattice, con attenzione alle allergie."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il camice, impermeabile se c'e' rischio di schizzi abbondanti, altrimenti in tessuto non tessuto. Occhiali protettivi o visiera, quando c'e' rischio di schizzi su occhi e mucose: gli occhi sono una porta d'ingresso."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E gli occhiali da vista non sono un DPI: non chiudono ai lati, e uno schizzo li aggira. Vale una domanda al concorso, e vale un errore in reparto: sopra gli occhiali da vista ci va la visiera."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio della scelta, che deriva dalle precauzioni standard della lezione quattro punto due: i DPI si scelgono in base a che cosa sto per fare, non a chi e' il paziente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un prelievo richiede i guanti. Un'aspirazione tracheale richiede guanti, camice e protezione di occhi e bocca, perche' genera schizzi. L'igiene di un paziente incontinente richiede guanti e camice."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La domanda da farsi, prima di ogni manovra, e': che cosa potrebbe raggiungermi, e dove? Le mani, gli occhi, la bocca, la divisa. La risposta dice quali DPI. Il nome sulla cartella non dice niente."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La vestizione, che si fa prima di entrare. Uno: igiene delle mani. Due: camice, allacciato dietro al collo e alla vita. Tre: mascherina o respiratore, con il fit check se e' un FFP."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: occhiali o visiera. Cinque: guanti, per ultimi, sopra i polsini del camice, cosi' che non resti pelle scoperta fra il guanto e la manica. Cinque passi, sempre nello stesso ordine."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La logica: i guanti vanno per ultimi perche' devono essere puliti quando si inizia a lavorare. Tutto quello che si tocca dopo averli messi e' il paziente, non il proprio camice."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora la svestizione, che e' il momento critico, quello in cui si sbaglia. Il principio che governa tutto: la parte anteriore e la superficie esterna dei DPI sono contaminate, per definizione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Si toccano solo le parti pulite: i lacci, gli elastici, l'interno del camice e dei guanti. E le mani non toccano mai il proprio viso, in nessun momento della sequenza."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sequenza della svestizione. Uno: guanti, che sono la parte piu' contaminata, e vanno via per primi. Due: occhiali o visiera, afferrandoli dall'elastico o dalle stanghette posteriori, mai dalla parte davanti."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: camice, slacciato dai lacci e arrotolato verso l'interno, cosi' che la parte contaminata resti chiusa dentro e l'interno pulito resti fuori."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: mascherina o respiratore, sfilandoli dagli elastici senza toccare la parte frontale. E nelle precauzioni per via aerea il respiratore si toglie fuori dalla stanza, dopo aver chiuso la porta."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: igiene delle mani, che chiude la sequenza. E se in un qualunque passaggio le mani si contaminano, si fa l'igiene subito, anche a meta' sequenza, e poi si riprende da dove si era."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste una variante accettata, in cui camice e guanti si tolgono insieme: si afferra il camice sul davanti con le mani guantate, lo si stacca dai lacci, lo si arrotola verso l'interno."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Arrivati ai polsi, si sfilano i guanti all'interno del camice stesso. L'importante non e' quale sequenza, ma che quella adottata dall'azienda sia sempre la stessa e addestrata."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rimozione dei guanti, che e' una piccola tecnica a se'. Con la mano guantata si afferra il primo guanto all'esterno del polso e lo si sfila rovesciandolo. Lo si tiene nella mano ancora guantata."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si infilano due dita nude sotto il secondo guanto, dall'interno del polso, che e' la parte pulita, e lo si sfila rovesciandolo sopra il primo, che resta chiuso dentro."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Si ottiene un pacchetto chiuso, con l'esterno contaminato tutto dentro. Pelle con pelle, guanto con guanto: e' la frase da ricordare."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I punti in cui gli operatori si contaminano davvero, osservati negli studi di simulazione. Toccarsi il viso durante l'assistenza, o sistemarsi la mascherina con i guanti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Toccare la parte anteriore della mascherina nel toglierla, invece degli elastici. Sfilare il camice dalla testa, invece di arrotolarlo. Scuotere i DPI, disperdendo quello che c'e' sopra."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riutilizzare dispositivi monouso. Uscire dalla stanza con i guanti addosso, contaminando maniglie e corridoio. Sapere dove si sbaglia e' meta' della prevenzione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle situazioni ad alto rischio, epidemie, patogeni altamente trasmissibili, si usa la tecnica del buddy, o osservatore: un collega osserva la vestizione e la svestizione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Legge la sequenza passo per passo, ad alta voce, e segnala gli errori prima che diventino contaminazioni. E' la logica del doppio controllo della lezione due punto sei: l'occhio esterno vede cio' che chi agisce non vede."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo smaltimento, che e' l'ultimo passo della svestizione. I DPI monouso contaminati sono rifiuti sanitari pericolosi a rischio infettivo, e vanno nel contenitore dedicato, non in un cestino qualunque."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posizionato all'interno della stanza o immediatamente all'uscita, cosi' da non attraversare il reparto con materiale contaminato in mano. La classificazione dei rifiuti la vedremo nella lezione quattro punto sette."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso tipico. Paziente con tubercolosi polmonare bacillifera: quali DPI, in che ordine, e dove togli il respiratore? Risposta: precauzioni per via aerea, stanza a pressione negativa con porta chiusa."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vestizione: igiene delle mani, camice se previsto, respiratore FFP2, FFP3 per le procedure che generano aerosol, con fit check, guanti."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Svestizione: guanti, camice, igiene delle mani, uscita dalla stanza, chiusura della porta, e solo allora rimozione del respiratore dagli elastici, seguita da nuova igiene delle mani."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del servizio sanitario veneto l'uso dei DPI e' regolato da procedure aziendali e rientra nella valutazione dei rischi del Servizio di Prevenzione e Protezione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che organizza la formazione e l'addestramento obbligatori e, per i respiratori, il fit test. All'orale collega sempre i DPI a due piani: la tutela del lavoratore, decreto ottantuno, e la prevenzione delle ICA."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Vestizione: igiene, camice, mascherina, occhiali, guanti per ultimi. Svestizione: guanti per primi, occhiali, camice arrotolato verso l'interno, mascherina, igiene delle mani. Si toccano solo lacci ed elastici."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella via aerea il respiratore si toglie fuori dalla stanza. La chirurgica protegge gli altri, il respiratore protegge te. Il fit check si fa a ogni vestizione. Prossima lezione: come si rendono sicuri gli strumenti."
+ }
+]

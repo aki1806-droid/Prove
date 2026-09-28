@@ -1,0 +1,49 @@
+Ora la svestizione, che e' il momento critico, quello in cui si sbaglia. Il principio che governa tutto: la parte anteriore e la superficie esterna dei DPI sono contaminate, per definizione.
+
+[serious] Si toccano solo le parti pulite: i lacci, gli elastici, l'interno del camice e dei guanti. E le mani non toccano mai il proprio viso, in nessun momento della sequenza.
+
+La sequenza della svestizione. Uno: guanti, che sono la parte piu' contaminata, e vanno via per primi. Due: occhiali o visiera, afferrandoli dall'elastico o dalle stanghette posteriori, mai dalla parte davanti.
+
+Tre: camice, slacciato dai lacci e arrotolato verso l'interno, cosi' che la parte contaminata resti chiusa dentro e l'interno pulito resti fuori.
+
+Quattro: mascherina o respiratore, sfilandoli dagli elastici senza toccare la parte frontale. E nelle precauzioni per via aerea il respiratore si toglie fuori dalla stanza, dopo aver chiuso la porta.
+
+Cinque: igiene delle mani, che chiude la sequenza. E se in un qualunque passaggio le mani si contaminano, si fa l'igiene subito, anche a meta' sequenza, e poi si riprende da dove si era.
+
+Esiste una variante accettata, in cui camice e guanti si tolgono insieme: si afferra il camice sul davanti con le mani guantate, lo si stacca dai lacci, lo si arrotola verso l'interno.
+
+Arrivati ai polsi, si sfilano i guanti all'interno del camice stesso. L'importante non e' quale sequenza, ma che quella adottata dall'azienda sia sempre la stessa e addestrata.
+
+La rimozione dei guanti, che e' una piccola tecnica a se'. Con la mano guantata si afferra il primo guanto all'esterno del polso e lo si sfila rovesciandolo. Lo si tiene nella mano ancora guantata.
+
+Poi si infilano due dita nude sotto il secondo guanto, dall'interno del polso, che e' la parte pulita, e lo si sfila rovesciandolo sopra il primo, che resta chiuso dentro.
+
+[serious] Si ottiene un pacchetto chiuso, con l'esterno contaminato tutto dentro. Pelle con pelle, guanto con guanto: e' la frase da ricordare.
+
+I punti in cui gli operatori si contaminano davvero, osservati negli studi di simulazione. Toccarsi il viso durante l'assistenza, o sistemarsi la mascherina con i guanti.
+
+Toccare la parte anteriore della mascherina nel toglierla, invece degli elastici. Sfilare il camice dalla testa, invece di arrotolarlo. Scuotere i DPI, disperdendo quello che c'e' sopra.
+
+Riutilizzare dispositivi monouso. Uscire dalla stanza con i guanti addosso, contaminando maniglie e corridoio. Sapere dove si sbaglia e' meta' della prevenzione.
+
+Nelle situazioni ad alto rischio, epidemie, patogeni altamente trasmissibili, si usa la tecnica del buddy, o osservatore: un collega osserva la vestizione e la svestizione.
+
+Legge la sequenza passo per passo, ad alta voce, e segnala gli errori prima che diventino contaminazioni. E' la logica del doppio controllo della lezione due punto sei: l'occhio esterno vede cio' che chi agisce non vede.
+
+Lo smaltimento, che e' l'ultimo passo della svestizione. I DPI monouso contaminati sono rifiuti sanitari pericolosi a rischio infettivo, e vanno nel contenitore dedicato, non in un cestino qualunque.
+
+Posizionato all'interno della stanza o immediatamente all'uscita, cosi' da non attraversare il reparto con materiale contaminato in mano. La classificazione dei rifiuti la vedremo nella lezione quattro punto sette.
+
+Un caso tipico. Paziente con tubercolosi polmonare bacillifera: quali DPI, in che ordine, e dove togli il respiratore? Risposta: precauzioni per via aerea, stanza a pressione negativa con porta chiusa.
+
+Vestizione: igiene delle mani, camice se previsto, respiratore FFP2, FFP3 per le procedure che generano aerosol, con fit check, guanti.
+
+Svestizione: guanti, camice, igiene delle mani, uscita dalla stanza, chiusura della porta, e solo allora rimozione del respiratore dagli elastici, seguita da nuova igiene delle mani.
+
+Nelle aziende del servizio sanitario veneto l'uso dei DPI e' regolato da procedure aziendali e rientra nella valutazione dei rischi del Servizio di Prevenzione e Protezione.
+
+Che organizza la formazione e l'addestramento obbligatori e, per i respiratori, il fit test. All'orale collega sempre i DPI a due piani: la tutela del lavoratore, decreto ottantuno, e la prevenzione delle ICA.
+
+Ricapitoliamo. Vestizione: igiene, camice, mascherina, occhiali, guanti per ultimi. Svestizione: guanti per primi, occhiali, camice arrotolato verso l'interno, mascherina, igiene delle mani. Si toccano solo lacci ed elastici.
+
+[warm] Nella via aerea il respiratore si toglie fuori dalla stanza. La chirurgica protegge gli altri, il respiratore protegge te. Il fit check si fa a ogni vestizione. Prossima lezione: come si rendono sicuri gli strumenti.
