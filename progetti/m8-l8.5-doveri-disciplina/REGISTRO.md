@@ -1,4 +1,4 @@
-# REGISTRO — Lezione 8.3 · L'accesso
+# REGISTRO — Lezione 8.5 · Doveri e responsabilità disciplinare
 
 Corso **Progressione verticale · Comparto Sanità**, Modulo 8, Normativa sul pubblico impiego.
 Stesso metodo, voce, marchio e palette dei moduli 1-7: voce di Luca Ward (`tVdVcJPudubxmTmAw4tE`,
@@ -8,55 +8,57 @@ che nel modulo 8 passa da 36 a 41 illustrazioni SVG originali animate: si aggiun
 cruscotto (il quadrante con la lancetta che si muove) e lavoroagile (portatile, orologio, finestra, wifi e pianta).
 Ogni clip dura quanto il suo blocco audio (fino a 30 s), così l'animazione d'ambiente continua per tutta la scena.
 
-**Fonti**: Art. 97 Cost.; D.Lgs. 165/2001 artt. 35, 35-ter, 36, 37, 38, 52 c. 1-bis; L. 68/1999; D.P.R. 487/1994 (riscritto dal D.P.R. 82/2023); D.P.R. 220/2001; dispensa su Drive (con correzioni).
+**Fonti**: Art. 98 Cost.; D.Lgs. 165/2001 artt. 53, 54, 55, 55-bis, 55-ter, 55-quater, 55-sexies; D.P.R. 62/2013 artt. 3, 4, 6, 7, 11, 12; art. 2106 c.c.; dispensa su Drive (con correzioni).
 
 ## Aritmetica
 
 | | valore |
 |---|---|
-| blocchi / scene | 47 / 49 |
-| caratteri | 7.402 con i tag |
-| stacco | dopo **s23** |
-| grezzo | A 243,36 s · B 310,00 s = 553,4 s |
-| parlato lavorato | **432,3 s** (23 pose) |
-| CPS misurato | 17,1 car/s sul lavorato |
-| montato locale | **7:25,68** |
-| montato HeyGen | **7:24,33** |
+| blocchi / scene | 48 / 50 |
+| caratteri | 7.373 con i tag |
+| stacco | dopo **s22** |
+| grezzo | A 226,96 s · B 325,12 s = 552,1 s |
+| parlato lavorato | **443,6 s** (22 pose) |
+| CPS misurato | 16,6 car/s sul lavorato |
+| montato locale | **7:36,92** |
+| montato HeyGen | **{HG}** |
 
 ## Verifiche
 
 - **Trascrizione delle tracce intere** (da asset audio, `eleven_scribe_v1`):
-  A: 518/519 parole, 0 buchi
-  B: 644/644 parole, 0 buchi
-- **Confini**: Nessuna coppia di segno opposto, nessun blocco fuori fascia.
-  `audio/correzioni.json` = nessuna.
+  A: 497/498 parole, 0 buchi
+  B: 661/661 parole, 0 buchi
+- **Confini**: **s27/s28**: confine spostato (−0,8 s richiesti, il taglio si è fermato sul silenzio più vicino); scarto residuo ±0,5 s.
+  `audio/correzioni.json` = {"B": {"4": {"secondi": -0.8}}}.
 - **Temi cambiati rispetto al copione**: nessuno.
 - **Slide**: PNG guardati in provini da nove, traboccamento verificato con i caratteri veri.
-  - **s33**: a capo del titolo rifatti.
+  - **s41**: la `catena` a cinque anelli sforava di 111 px; ridotta a quattro (contestazione e audizione insieme).
+  - **s49**: a capo del titolo rifatti.
 - `controlli.py`: 8/8.
 
 ## Montaggio
 
-- Lotto HeyGen `c424a22fe682405b98c3d295b30b09e7`: 96 file accoppiati per posizione, 0 discordi sul `content-type`.
-- Payload: 49 scene; 47 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
-- Video HeyGen: `ad93ba1fe458664f1c0a3df8d0cecdc0` (https://app.heygen.com/videos/ad93ba1fe458664f1c0a3df8d0cecdc0).
+- Lotto HeyGen `{LOTTO}`: 98 file accoppiati per posizione, 0 discordi sul `content-type`.{EXTRA}
+- Payload: 50 scene; 48 scene video, tutte con `audio_asset_id` e `playback {freeze, mute}`.
+- Video HeyGen: `{VID}` (https://app.heygen.com/videos/{VID}).
 - Il file consegnato non si scarica da questa sessione (proxy: 403 su files2.heygen.ai).
 
 ## Costo
 
 ```
-voce, due tracce, 7.402 caratteri, eleven_v3        ≈ $1,24  (misurato)
+voce, due tracce, 7.373 caratteri, eleven_v3        ≈ $1,23  (misurato)
 trascrizione delle due tracce intere               ≈ $0,50  (misurato)
                                                     -------
-                                                    ≈ $1,74
+                                                    ≈ $1,73
 ```
 
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **Nessuno ha ancora ascoltato il video.** La verifica è per trascrizione, durate e fotogrammi.
 - Da confrontare con le fonti, in particolare:
-  - Permanenza di cinque anni nella prima sede (art. 35 c. 5-bis), graduatorie valide due anni (c. 5-ter), portale inPA (art. 35-ter): da confermare sul testo vigente.
-  - D.P.R. 220/2001 per i concorsi del comparto Sanità e D.P.R. 82/2023: non letti.
+  - Scala delle sanzioni (multa fino a 4 ore, sospensione fino a 10 giorni e fino a 6 mesi): dal CCNL Sanità, da confermare sul testo vigente.
+  - Regali fino a 150 euro: soglia orientativa del D.P.R. 62 art. 4 c. 5; i codici delle aziende possono fissarla più bassa.
+  - Regole su tecnologie e social: D.P.R. 81/2023, non letto.
   - Gli esempi in azienda sanitaria sono inventati a scopo didattico.
 - **La fonte prevista dal piano del corso per il modulo 8, `Pubblico-Impiego.pdf`, non è disponibile** (né nel repository né su Drive). I contenuti vengono dal **testo del D.Lgs. 165/2001 aggiornato al 24 gennaio 2020** su Drive (con il D.Lgs. 75/2017), dal **D.P.R. 62/2013** nel testo originario (senza il D.P.R. 81/2023), da estratti del **D.Lgs. 150/2009** (testo vigente dal 22/6/2017), da una dispensa del 2025 su Drive e dalla conoscenza generale della materia. Le modifiche successive al 2020 (D.L. 80/2021, D.L. 36/2022, D.P.R. 82/2023, D.P.R. 81/2023, L. 114/2024) non sono state lette sul testo vigente: il proxy blocca Gazzetta Ufficiale e normattiva. Sono **da verificare**.
 - La **dispensa contiene errori** che il corso non riprende: contestazione disciplinare «entro 20 giorni» (sono 30; 20 è il preavviso per l'audizione); abuso d'ufficio ancora citato (abrogato dalla L. 114/2024); incarichi dirigenziali «da 2 a 7 anni» (oggi 3-5); esterni «5% + 5%» (10% e 8%); «concorsi interni» per la prima fascia; il «ruolo unico» della dirigenza presentato come attuato; la dirigenza del SSN (D.Lgs. 502/1992) assente; spoils system a 90 giorni esteso a tutti gli incarichi (solo quelli di vertice); contratti integrativi «alla Corte dei conti in 5 giorni» (vanno ad ARAN e CNEL; la Corte certifica il CCNL); OIV che «valida il piano» (valida la relazione); PIAO assente; fasce 25/50/25 presentate come vigenti; dotazioni organiche «ogni tre anni» (oggi piano dei fabbisogni); co.co.co. ammesse (vietate dall'art. 7 c. 5-bis); nulla osta alla mobilità (abolito, salvo SSN e piccoli enti); la regola dei 50 km messa fra le eccedenze (è l'art. 30 c. 2); aree di classificazione diverse dal CCNL Sanità 2019-2021; progressione verticale al 50% ambigua e presentata come «concorso per soli titoli»; deroga Madia al 20% indicata come 30%; riforma Bassanini ridotta alla semplificazione; L. 421/1992 omessa; «Testo Unico» usato come nome ufficiale (è solo d'uso); D.P.R. 62 senza l'aggiornamento 2023; «cinque responsabilità»; D.P.R. 487/1994 senza la riscrittura del D.P.R. 82/2023; onnicomprensività presentata in modo fuorviante; casi dell'art. 55-quater vaghi.
