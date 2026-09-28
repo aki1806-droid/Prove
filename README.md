@@ -124,6 +124,27 @@ consenso per alimentare il FSE, il DPO che notifica le violazioni). Il testo vig
 (D.Lgs. 196/2003 dopo il D.Lgs. 101/2018) non era raggiungibile: gli articoli del Codice citati sono da
 verificare (vedi i REGISTRO, «Da verificare»).
 
+Modulo 8 completo, Normativa sul pubblico impiego (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 8.1 | Dalla specialità alla privatizzazione | 7:57 |
+| 8.2 | I cinque principi | 7:33 |
+| 8.3 | L'accesso | 7:24 |
+| 8.4 | La dirigenza | 7:24 |
+| 8.5 | Doveri e responsabilità disciplinare | D85 |
+| 8.6 | Performance, mobilità, lavoro agile | D86 |
+
+Nel modulo 8 `illustra.mjs` passa a 41 illustrazioni: si aggiungono timone, podio, firma, cruscotto
+e lavoroagile; per la lezione successiva si parte dalla 8.6. La fonte prevista dal piano,
+`Pubblico-Impiego.pdf`, non era disponibile: il modulo è costruito sul testo del D.Lgs. 165/2001
+aggiornato al 24 gennaio 2020, sul D.P.R. 62/2013 (testo originario), su estratti del D.Lgs. 150/2009 e
+su una dispensa del 2025 su Drive, di cui non riprende gli errori (per esempio la contestazione
+disciplinare «entro 20 giorni», l'abuso d'ufficio ancora citato, gli incarichi dirigenziali «da 2 a 7
+anni», l'OIV che «valida il piano»). Le modifiche successive al 2020 (D.L. 80/2021, D.P.R. 82/2023,
+D.P.R. 81/2023, L. 114/2024) non erano raggiungibili sul testo vigente e sono da verificare (vedi i
+REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.
