@@ -47,6 +47,7 @@ progetti/<modulo>-<lezione>/
 | `m4-l4.1-catena` | Modulo 4 · 4.1 Le ICA: epidemiologia e catena delle infezioni | 9:01.7 | `a35300c5f3e66ecc0a895e332bd70e3e` |
 | `m4-l4.2-mani` | Modulo 4 · 4.2 Igiene delle mani e precauzioni standard | 8:47.3 | `56cbc037a5362ca3652459fb787e9eb5` |
 | `m4-l4.3-isolamento` | Modulo 4 · 4.3 Precauzioni aggiuntive e isolamento | 8:48.0 | `6e62854a021ec5bce27e4fbe2b664c16` |
+| `m4-l4.5-sterilizzazione` | Modulo 4 · 4.5 Decontaminazione, disinfezione e sterilizzazione | 8:56.5 | `3e03259979d0e2f276cbdeaf1ac8d70c` |
 
 Sedici micro-lezioni in due moduli con la grafica di seconda generazione, e
 dal modulo 3 la terza generazione (`slide/clinica.mjs`, settembre 2026). Gli indici e i registri stanno in `progetti/`.
