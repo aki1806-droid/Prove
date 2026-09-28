@@ -8,7 +8,7 @@ delle prevalenze, i germi, le goccioline e i nuclei sospesi.
 |---|---|---|---|
 | 4.1 | Le ICA: epidemiologia e catena delle infezioni | 9:01.7 | `a35300c5f3e66ecc0a895e332bd70e3e` |
 | 4.2 | Igiene delle mani e precauzioni standard | 8:47.3 | `56cbc037a5362ca3652459fb787e9eb5` |
-| 4.3 | Precauzioni aggiuntive e isolamento | — | slide pronte; voce ferma per quota |
+| 4.3 | Precauzioni aggiuntive e isolamento | 8:48.0 | `6e62854a021ec5bce27e4fbe2b664c16` |
 | 4.4 | DPI: scelta, vestizione e svestizione | — | slide pronte; voce ferma per quota |
 | 4.5 | Decontaminazione, disinfezione e sterilizzazione | — | slide pronte; voce ferma per quota |
 | 4.6 | Antibiotico-resistenza e stewardship | — | slide pronte; voce ferma per quota |

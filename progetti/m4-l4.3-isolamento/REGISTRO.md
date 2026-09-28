@@ -78,8 +78,8 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 | | |
 |---|---|
-| resa pubblicata | *ferma: nessuna traccia (quota voce esaurita)* |
-| lotto asset | *da caricare dopo il montaggio* |
+| resa pubblicata | `6e62854a021ec5bce27e4fbe2b664c16` — 527.977 s (8:48.0), 1080p 16:9, resa in 79 s, con SRT (`subtitle_url`) |
+| lotto asset | `46c707e9c5c54dd48b9d4700e835c045` — 98 file, 19 MB, tutti completati |
 
 ---
 
