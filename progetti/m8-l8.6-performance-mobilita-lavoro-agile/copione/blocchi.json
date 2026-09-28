@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'impiegata dell'ufficio acquisti chiede tre cose nello stesso mese: sapere come e' stata valutata, trasferirsi nell'azienda sanitaria vicino a casa, lavorare da casa due giorni a settimana."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre richieste, tre capitoli del pubblico impiego di oggi. E tutte e tre passano da regole precise, che l'azienda deve rispettare e che conviene conoscere."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Misurare il lavoro, muovere le persone, cambiare il modo di lavorare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Il ciclo della performance. La mobilita' tra amministrazioni. I vincoli di spesa e la digitalizzazione. E infine il lavoro agile."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il decreto legislativo 150 del 2009 organizza la performance come un ciclo. Si parte dagli obiettivi, collegati alle risorse disponibili."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si monitora durante l'anno, si misura e si valuta, si usano i sistemi premianti e infine si rendiconta, ai cittadini e agli organi di controllo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi stanno nel piano della performance, da adottare entro il trentuno gennaio. Oggi, per la maggior parte delle amministrazioni, e' una sezione del PIAO."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il PIAO, il piano integrato di attivita' e organizzazione, riunisce in un solo documento performance, fabbisogni di personale, lavoro agile, formazione e prevenzione della corruzione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla fine dell'anno arriva la relazione sulla performance, entro il trenta giugno. La valida l'organismo indipendente di valutazione, l'OIV."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'OIV da' anche un parere vincolante sul sistema di misurazione e valutazione, e verifica che il ciclo funzioni. E' un organismo esterno, di esperti."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La valutazione riguarda la performance organizzativa, cioe' dell'ente e delle strutture, e quella individuale, di dirigenti e dipendenti: risultati, competenze, comportamenti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un tempo la legge fissava fasce rigide di merito, con un quarto dei dipendenti senza premio. Dal 2017 i criteri di differenziazione li stabiliscono i contratti collettivi."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'OIV non valida il piano della performance. Valida la relazione, cioe' i risultati. Il piano lo adotta l'organo di indirizzo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Obiettivi a gennaio, risultati a giugno, un giudice esterno."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La mobilita' volontaria e' nell'articolo 30 del 165: il passaggio diretto di un dipendente da un'amministrazione a un'altra, con la cessione del contratto."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'amministrazione che vuole coprire un posto per mobilita' pubblica un avviso, con i requisiti e le competenze richieste, e seleziona tra le domande."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dal 2021 per la maggior parte degli enti non serve piu' il via libera dell'amministrazione di partenza, salvo casi particolari. Ma per il Servizio sanitario nazionale l'assenso serve ancora."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo all'impiegata. Per passare a un'altra azienda sanitaria deve rispondere a un avviso di mobilita', e l'azienda di provenienza deve dare il suo assenso."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono i trasferimenti decisi dall'amministrazione: nello stesso comune o in sedi entro cinquanta chilometri, anche senza il consenso del dipendente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono le assegnazioni temporanee, come il comando e il distacco: il dipendente lavora per un periodo presso un altro ente, senza cambiare amministrazione di appartenenza."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine le eccedenze: se un ente ha personale in esubero, prova a ricollocarlo. Chi resta senza posto va in disponibilita', per un massimo di ventiquattro mesi, con l'ottanta per cento dello stipendio."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E prima di assumere dall'esterno, l'ente deve comunicare i posti che vuole coprire, per verificare se c'e' personale in disponibilita' da ricollocare."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: in sanita' la mobilita' volontaria richiede ancora il nulla osta dell'azienda di appartenenza. La liberalizzazione del 2021 non vale per il Servizio sanitario."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ci si muove per avviso, con regole diverse per la sanita'."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Ogni scelta sul personale deve stare dentro i vincoli di spesa. Il piano dei fabbisogni si costruisce entro le risorse disponibili e le capacita' assunzionali fissate dalla legge."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piano dei fabbisogni e' triennale e si aggiorna ogni anno. Ha preso il posto della vecchia dotazione organica: non conta piu' un elenco fisso di posti, ma la spesa sostenibile."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel Servizio sanitario anche la spesa complessiva per il personale ha un limite fissato dalla legge, che le regioni devono rispettare."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il fondo per il salario accessorio, di regola, non puo' superare quello del 2016, salvo le deroghe previste dalla legge e dai contratti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la digitalizzazione. Il codice dell'amministrazione digitale chiede documenti informatici, identita' digitale, servizi online. E chiede dipendenti capaci di usarli."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo la formazione e' diventata un dovere e un diritto: una direttiva del 2023 chiede almeno ventiquattro ore di formazione l'anno per ogni dipendente."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il fascicolo del personale diventa digitale, le richieste di ferie passano da un portale, la firma e' elettronica. Chi non si forma, resta indietro."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il piano dei fabbisogni non e' una lista dei desideri. Si costruisce dentro i vincoli di spesa e le capacita' assunzionali."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Risorse contate, competenze digitali, formazione continua."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il lavoro agile e' regolato dalla legge 81 del 2017. E' un modo di svolgere il lavoro subordinato, deciso con un accordo tra il dipendente e l'amministrazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si lavora per fasi, cicli e obiettivi, senza precisi vincoli di orario o di luogo, con strumenti tecnologici, in parte in sede e in parte fuori, entro i limiti dell'orario massimo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'accordo e' scritto e individuale. Stabilisce i giorni fuori sede, gli strumenti, i tempi di riposo e le fasce in cui il dipendente puo' essere contattato."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dipendente ha diritto alla disconnessione: fuori dalle fasce concordate non deve rispondere. E ha lo stesso trattamento economico di chi lavora in sede."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro resta responsabile della sicurezza: consegna un'informativa scritta sui rischi. E la legge da' priorita' ad alcune situazioni, come i genitori di figli piccoli o i lavoratori fragili."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel pubblico impiego il lavoro agile e' disciplinato anche dai contratti collettivi. Il contratto della sanita' distingue il lavoro agile dal lavoro da remoto, che ha orario e luogo definiti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo all'impiegata. Il suo lavoro di ufficio si puo' svolgere per obiettivi: con un accordo individuale puo' lavorare da casa due giorni, con fasce di contattabilita'."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non tutte le attivita' pero' si prestano. Chi assiste i pazienti in reparto svolge un lavoro che non si puo' fare a distanza. L'amministrazione individua le attivita' compatibili."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il lavoro agile non e' un diritto automatico di tutti. Nasce da un accordo individuale, per attivita' compatibili, secondo le regole del contratto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Lavorare per obiettivi, con il diritto di staccare."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il ciclo della performance va dagli obiettivi alla rendicontazione; il piano entro il trentuno gennaio, oggi nel PIAO; la relazione entro il trenta giugno, validata dall'OIV."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: la mobilita' volontaria e' il passaggio diretto dell'articolo 30; nel Servizio sanitario serve ancora l'assenso; i trasferimenti d'ufficio restano entro cinquanta chilometri."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: il lavoro agile nasce da un accordo individuale, lavora per obiettivi, garantisce la disconnessione e lo stesso trattamento economico."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il lavoro agile non e' lo stesso del lavoro da remoto. Nel lavoro agile non ci sono precisi vincoli di orario e di luogo."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: si misura il lavoro, ci si muove con regole, si lavora anche in modo agile. Si chiude il modulo sul pubblico impiego. Nel prossimo: salute e sicurezza sul lavoro."
+ }
+]

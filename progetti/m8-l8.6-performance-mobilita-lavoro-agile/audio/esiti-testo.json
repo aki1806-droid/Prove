@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 569,
+  "parole_dette": 567,
+  "coincidenti": 567,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 609,
+  "parole_dette": 609,
+  "coincidenti": 608,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s46",
+    "copione": "chilometri",
+    "detto": "km"
+   }
+  ]
+ }
+}
