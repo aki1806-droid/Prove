@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'azienda sanitaria ha bisogno di guanti monouso per tutti i reparti. Deve fare una gara da sola, o puo' comprarli attraverso qualcun altro che ha gia' fatto la gara per molte aziende?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella maggior parte dei casi la risposta e': attraverso qualcun altro. Per capirlo bisogna conoscere i soggetti del sistema degli appalti, e quello che ciascuno puo' fare."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni gara ha i suoi protagonisti, con ruoli precisi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le stazioni appaltanti e il responsabile unico del progetto. Gli operatori economici. Le centrali di committenza e i soggetti aggregatori. E chi controlla e sostiene il sistema."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La stazione appaltante e' il soggetto che affida il contratto: amministrazioni dello Stato, regioni, enti locali, aziende sanitarie, organismi di diritto pubblico e altri enti obbligati."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le concessioni si parla di ente concedente. In entrambi i casi e' il committente pubblico, che decide che cosa acquistare, come farlo e a quali condizioni."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il codice del 2023 le stazioni appaltanti devono essere qualificate per gestire le procedure piu' complesse. La qualificazione dipende da personale, esperienza e strumenti digitali."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Senza qualificazione un'amministrazione puo' procedere da sola solo per gli affidamenti diretti e per i lavori di importo piu' basso. Oltre, deve rivolgersi a una stazione qualificata."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ogni procedura la stazione appaltante nomina un responsabile unico del progetto, il RUP. Segue il contratto in tutte le fasi: programmazione, progettazione, affidamento ed esecuzione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il RUP e' un dipendente della stazione appaltante, con competenze adeguate. Si possono nominare responsabili di singole fasi, ma il RUP resta unico e coordina."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il RUP puo' avere una struttura di supporto e, per incarichi di assistenza, il codice consente di destinare fino all'uno per cento dell'importo posto a base di gara."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiunque partecipi alla procedura deve evitare i conflitti di interesse. Se ha un interesse personale che puo' minacciare la sua imparzialita', lo dichiara e si astiene."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: RUP oggi significa responsabile unico del progetto, non del procedimento. Il codice del 2023 ha cambiato il nome per sottolineare il risultato."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un solo responsabile, dall'idea al collaudo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Dall'altra parte ci sono gli operatori economici: chiunque offra sul mercato lavori, forniture o servizi. Imprese individuali, societa', cooperative, consorzi, professionisti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Possono partecipare anche insieme, riunendosi in raggruppamenti temporanei o in consorzi. Vedremo in una lezione dedicata come funzionano e chi risponde di che cosa."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per partecipare, l'operatore deve avere requisiti di ordine generale, cioe' di affidabilita' morale, e requisiti speciali di capacita', legati all'oggetto del contratto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I dati dell'impresa, come certificati, regolarita' contributiva e fiscale, stanno in un fascicolo digitale gestito dall'Autorita' anticorruzione, consultato dalle stazioni appaltanti."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice vuole favorire anche le piccole e medie imprese: per esempio dividendo gli appalti in lotti, quando e' possibile, e motivando la scelta quando non lo si fa."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli operatori stranieri dell'Unione europea partecipano alle stesse condizioni delle imprese italiane: la parita' di trattamento e' uno dei cardini delle direttive."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda sanitaria divide la gara per la manutenzione in lotti per territorio. Cosi' possono partecipare anche imprese locali piu' piccole, non solo i grandi gruppi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: operatore economico non vuol dire solo grande impresa. Anche un professionista o una piccola cooperativa sono operatori economici."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un mercato aperto e' la prima garanzia di prezzi giusti."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Per comprare meglio e spendere meno, gli acquisti vengono aggregati. La centrale di committenza fa le gare per conto di altre amministrazioni, o mette a disposizione contratti gia' pronti."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La centrale nazionale e' Consip, che gestisce convenzioni, accordi quadro e il mercato elettronico della pubblica amministrazione, dove si fanno ordini e richieste di offerta."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto a Consip operano le centrali regionali. Insieme formano l'elenco dei soggetti aggregatori, previsto da una legge del 2014 per ridurre e razionalizzare la spesa."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per alcune categorie di beni e servizi, fissate con decreto, le amministrazioni devono passare dai soggetti aggregatori. In sanita' ci sono farmaci, vaccini, dispositivi, pulizie, ristorazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti sono diversi. La convenzione e' un contratto quadro gia' aggiudicato, a cui si aderisce con un ordine. L'accordo quadro fissa le regole per i contratti successivi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel Veneto, per la sanita', il ruolo di centrale di committenza regionale e' svolto da Azienda Zero, che fa le gare per le aziende sanitarie della regione."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche quando compra tramite una centrale, l'azienda nomina un RUP per il singolo acquisto. La centrale, a sua volta, ha un proprio RUP per le attivita' che gestisce."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo ai guanti. L'azienda aderisce alla convenzione della centrale regionale, gia' aggiudicata, e fa il suo ordine. Nessuna gara in proprio, prezzi gia' negoziati per volumi grandi."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: Consip non e' l'unica centrale. Esistono le centrali regionali, e per la sanita' sono spesso quelle a cui le aziende devono rivolgersi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Comprare insieme per comprare meglio e spendere meno."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il sistema ha un'autorita' di vigilanza: l'ANAC, l'Autorita' nazionale anticorruzione. Vigila sui contratti pubblici, gestisce la banca dati nazionale e l'elenco delle stazioni qualificate."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ANAC puo' anche dare pareri per risolvere una controversia prima che arrivi davanti a un giudice, ed emana bandi tipo e atti di indirizzo per le stazioni appaltanti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il supporto tecnico viene anche dal Ministero delle infrastrutture e, per le opere, dal Consiglio superiore dei lavori pubblici. Per i lavori piu' grandi c'e' il collegio consultivo tecnico."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegio consultivo tecnico aiuta a risolvere rapidamente le controversie durante l'esecuzione dei lavori, per evitare che il cantiere si fermi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi la Corte dei conti, che puo' chiamare a rispondere del danno erariale chi ha causato uno spreco di denaro pubblico con dolo o colpa grave."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le controversie sulla procedura di gara vanno davanti al giudice amministrativo, con termini brevi. Quelle sull'esecuzione del contratto, di regola, davanti al giudice ordinario."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'impresa esclusa da una gara ritiene l'esclusione illegittima. Puo' chiedere un parere all'ANAC, oppure ricorrere al tribunale amministrativo regionale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: l'ANAC non e' un giudice. Vigila, regola e da' pareri; le controversie si decidono davanti al giudice amministrativo o ordinario."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi vigila, chi aiuta, chi decide le liti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: le stazioni appaltanti devono essere qualificate per le procedure piu' complesse, e per ogni procedura nominano un responsabile unico del progetto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: centrali di committenza e soggetti aggregatori, con Consip e le centrali regionali, aggregano gli acquisti; per alcune categorie passare da loro e' obbligatorio."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: l'ANAC vigila, gestisce la banca dati e l'elenco delle stazioni qualificate; le liti sulla gara vanno al giudice amministrativo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: anche comprando tramite una centrale di committenza, l'azienda sanitaria nomina comunque un RUP per il proprio acquisto."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: chi compra, chi vende, chi aggrega, chi vigila. Nella prossima lezione: le soglie europee e le procedure per scegliere il contraente."
+ }
+]

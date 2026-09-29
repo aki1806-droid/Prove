@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In un ospedale ci sono una mensa per i pazienti, un parcheggio a pagamento e un bar nell'atrio. Tutti e tre sono gestiti da imprese esterne. Sono tutti appalti?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No. Alcuni sono appalti, altri concessioni. La differenza non sta nel nome del contratto, ma in una domanda precisa: chi si assume il rischio della gestione?"
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tutto dipende da chi corre il rischio della gestione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Che cos'e' un appalto e quali tipi esistono. Che cos'e' una concessione e il rischio operativo. Esempi dalla sanita'. E a quali contratti si applica il codice."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'appalto e' un contratto a titolo oneroso, stipulato per iscritto tra una o piu' stazioni appaltanti e uno o piu' operatori economici."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha per oggetto l'esecuzione di lavori, la fornitura di prodotti o la prestazione di servizi. In cambio l'amministrazione paga un prezzo: e' lei a sostenere la spesa."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono quindi tre i tipi di appalto. I lavori: costruire, ristrutturare, demolire un'opera. Le forniture: acquistare, prendere in locazione o in leasing dei beni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I servizi: tutte le prestazioni che non sono lavori ne' forniture, come pulizie, manutenzioni, lavanderia, ristorazione, vigilanza o servizi informatici."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso un contratto mescola prestazioni diverse. Nei contratti misti si guarda all'oggetto principale, di solito quello di valore piu' alto, per decidere quali regole applicare."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'appalto e' un contratto di diritto privato, ma preceduto da una procedura pubblica: la scelta del contraente segue le regole del codice, poi il rapporto segue anche il codice civile."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Appalto e concessione sono contratti passivi: comportano una spesa o l'uso di risorse pubbliche. I contratti attivi, come la vendita o l'affitto di un bene pubblico, seguono altre regole."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un laboratorio prende in uso degli analizzatori, con reagenti e assistenza tecnica compresi. E' un contratto misto, di fornitura e di servizio, spesso chiamato service."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: la locazione e il leasing di beni non sono estranei al codice. Anche prendere in affitto un'apparecchiatura e' una fornitura."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Lavori, forniture, servizi: l'amministrazione paga."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La concessione e' anch'essa un contratto a titolo oneroso e scritto. Ma cambia il corrispettivo: l'impresa viene ripagata con il diritto di gestire l'opera o il servizio."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A volte a quel diritto si aggiunge un prezzo pagato dall'amministrazione. Ma l'elemento decisivo e' un altro: il concessionario si assume il rischio operativo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rischio operativo significa che in condizioni normali non e' garantito il recupero degli investimenti e dei costi. Il concessionario puo' guadagnare, ma puo' anche perdere."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio puo' stare dal lato della domanda, quando gli utenti sono meno del previsto. O dal lato dell'offerta, quando il servizio costa piu' del previsto o non rispetta gli standard."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'amministrazione garantisce comunque all'impresa di coprire i costi, il rischio non e' trasferito. Allora, anche se si chiama concessione, in sostanza e' un appalto."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La durata della concessione e' limitata: deve bastare a recuperare gli investimenti con un ritorno ragionevole, ma non di piu'. Una concessione troppo lunga chiude il mercato."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le concessioni hanno regole proprie nel codice, insieme al partenariato pubblico privato, che unisce capitali privati e finalita' pubbliche, per esempio nella costruzione di un ospedale."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'impresa costruisce e gestisce il parcheggio dell'ospedale, incassando le tariffe dagli utenti. Se le auto sono poche, ci perde. Questa e' una concessione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: nella concessione non e' vero che l'amministrazione garantisce i ricavi all'impresa. Se li garantisse, il rischio operativo non passerebbe al concessionario."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nella concessione il rischio passa all'impresa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "In sanita' gli appalti sono ovunque. Farmaci, dispositivi medici e apparecchiature sono forniture. Pulizie, mensa, lavanderia e trasporto dei campioni sono servizi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ristrutturazione di un reparto o la costruzione di un nuovo padiglione sono lavori. E la manutenzione degli impianti, a seconda dei casi, puo' essere un servizio o un lavoro."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le concessioni sono meno frequenti, ma ci sono: il bar interno, i distributori automatici, i parcheggi, alcuni servizi rivolti direttamente ai visitatori."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella stessa famiglia rientra la finanza di progetto per un nuovo ospedale: il privato costruisce, poi gestisce per anni alcuni servizi non sanitari e si ripaga nel tempo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torniamo all'inizio. La mensa per i pazienti e' un appalto di servizi: la paga l'azienda. Il parcheggio a pagamento e il bar, pagati dagli utenti, sono di regola concessioni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La distinzione conta: cambiano le regole di gara, la durata del contratto, il calcolo del valore e chi sopporta le perdite se le cose vanno male."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le concessioni il valore si calcola sul fatturato che il concessionario puo' realizzare per tutta la durata del contratto, non su quanto paga l'amministrazione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: i distributori automatici di bevande in un ospedale. L'impresa incassa dalle vendite e magari versa un canone all'azienda. Il rischio di vendere poco resta suo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: non conta come le parti chiamano il contratto. Conta chi sopporta il rischio della gestione e come viene pagata l'impresa."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La sostanza prevale sempre sul nome del contratto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il codice si applica ai contratti di appalto e di concessione delle amministrazioni pubbliche e degli altri soggetti obbligati, come gli organismi di diritto pubblico."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende sanitarie sono amministrazioni aggiudicatrici a tutti gli effetti, come ministeri, regioni e comuni. Per loro il codice vale per intero."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una parte a se' riguarda i settori speciali: acqua, energia, trasporti e servizi postali, dove operano anche imprese private con diritti speciali o esclusivi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcuni contratti sono esclusi, perche' hanno una disciplina propria: per esempio l'acquisto o la locazione di terreni e fabbricati, i contratti di lavoro, alcuni servizi legali e di arbitrato."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche per i contratti esclusi valgono pero' i principi generali del codice: risultato, fiducia, accesso al mercato, trasparenza."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il valore stimato del contratto si calcola al netto dell'IVA, comprendendo opzioni e rinnovi. E un appalto non si puo' frazionare artificialmente per stare sotto le soglie."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda divide in dieci piccoli acquisti una fornitura unica, per affidarli direttamente senza gara. E' un frazionamento vietato."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il valore stimato non si calcola IVA compresa, e non esclude i rinnovi previsti. Conta l'importo massimo che il contratto puo' raggiungere, al netto dell'IVA."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il valore si misura intero, senza trucchi."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'appalto ha per oggetto lavori, forniture o servizi, e il corrispettivo e' un prezzo pagato dall'amministrazione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: nella concessione l'impresa e' ripagata con il diritto di gestire, e si assume il rischio operativo, dal lato della domanda o dell'offerta."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: il valore stimato si calcola al netto dell'IVA, con opzioni e rinnovi, ed e' vietato frazionare artificialmente un contratto."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il bar interno gestito da un'impresa che incassa dagli utenti non e' un appalto di servizi. Di regola e' una concessione."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: chi paga, chi gestisce, chi rischia. Nella prossima lezione: i soggetti del sistema, dalle stazioni appaltanti alle centrali di committenza."
+ }
+]
