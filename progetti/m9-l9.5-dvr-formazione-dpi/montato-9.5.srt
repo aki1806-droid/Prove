@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,500
+Un'infermiera neoassunta entra in reparto il primo giorno. Qualcuno le consegna una divisa, un paio di guanti e le dice: il resto lo impari strada facendo. E' sufficiente?
+
+2
+00:00:13,500 --> 00:00:23,400
+No. Prima di lavorare deve sapere quali rischi corre, come proteggersi e cosa fare in caso di emergenza. E tutto questo parte da un documento: la valutazione dei rischi.
+
+3
+00:00:23,400 --> 00:00:28,000
+Prima si conosce il rischio, poi si lavora.
+
+4
+00:00:28,000 --> 00:00:38,210
+Quattro passaggi. Il documento di valutazione dei rischi. Quando va aggiornato. Informazione, formazione e addestramento. E i dispositivi di protezione individuale.
+
+5
+00:00:38,210 --> 00:00:48,590
+La valutazione riguarda tutti i rischi per la sicurezza e la salute dei lavoratori, anche nella scelta delle attrezzature, delle sostanze e nella sistemazione dei luoghi di lavoro.
+
+6
+00:00:48,590 --> 00:00:59,020
+Compresi i rischi di gruppi particolari: lo stress lavoro correlato, le lavoratrici in gravidanza, le differenze di genere, di eta' e di provenienza, e la tipologia del contratto.
+
+7
+00:00:59,020 --> 00:01:08,930
+Il datore di lavoro la effettua insieme al responsabile del servizio di prevenzione e al medico competente, dopo aver consultato il rappresentante dei lavoratori per la sicurezza.
+
+8
+00:01:08,930 --> 00:01:18,180
+Il risultato e' il documento di valutazione dei rischi. Deve avere data certa, anche attraverso la firma del datore di lavoro e delle altre figure che hanno partecipato.
+
+9
+00:01:18,180 --> 00:01:28,530
+Contiene la relazione sui rischi con i criteri usati, le misure di prevenzione e i dispositivi adottati, il programma di miglioramento, le procedure e i ruoli di chi deve attuarle.
+
+10
+00:01:28,530 --> 00:01:37,370
+E indica i nomi del responsabile del servizio, del rappresentante dei lavoratori e del medico competente, e le mansioni che espongono a rischi specifici.
+
+11
+00:01:37,370 --> 00:01:46,240
+Il rappresentante dei lavoratori per la sicurezza, su richiesta, riceve copia del documento, anche su supporto informatico, e puo' consultarlo in azienda.
+
+12
+00:01:46,240 --> 00:01:56,070
+Deve essere semplice, breve e comprensibile: non un faldone da archivio, ma uno strumento operativo per pianificare la prevenzione. E va custodito presso l'unita' produttiva.
+
+13
+00:01:56,070 --> 00:02:05,170
+Occhio a un distrattore: il documento non e' firmato solo per bellezza. Le firme servono anche a dare data certa, e la valutazione non si puo' delegare.
+
+14
+00:02:05,170 --> 00:02:09,770
+Un documento vivo, non un faldone in archivio.
+
+15
+00:02:09,770 --> 00:02:18,400
+La valutazione non si fa una volta per sempre. Va rielaborata subito quando cambiano in modo significativo il processo di lavoro o l'organizzazione.
+
+16
+00:02:18,400 --> 00:02:28,210
+E ancora: quando evolvono la tecnica, la prevenzione o la protezione, dopo infortuni significativi, o quando i risultati della sorveglianza sanitaria lo rendono necessario.
+
+17
+00:02:28,210 --> 00:02:38,160
+In questi casi il documento va rielaborato entro trenta giorni. Ma le misure di prevenzione si aggiornano subito, e il rappresentante dei lavoratori va informato immediatamente.
+
+18
+00:02:38,160 --> 00:02:49,300
+Un esempio: un reparto viene trasformato in area per pazienti infettivi. Cambiano i rischi biologici, i percorsi, i dispositivi. La valutazione va rifatta, non basta una circolare.
+
+19
+00:02:49,300 --> 00:02:55,520
+Per le nuove attivita' la valutazione va fatta subito, e il documento completato entro novanta giorni dall'inizio.
+
+20
+00:02:55,520 --> 00:03:04,210
+Per le aziende piccole esistono procedure standardizzate. Ma non valgono per le strutture sanitarie piu' grandi, ne' dove ci sono rischi chimici o biologici.
+
+21
+00:03:04,210 --> 00:03:13,900
+Attenzione: non esiste una scadenza fissa ogni tre anni per il documento. Si aggiorna quando cambia qualcosa di significativo, e in quel caso entro trenta giorni.
+
+22
+00:03:13,900 --> 00:03:18,500
+Cambia il lavoro, cambia la valutazione.
+
+23
+00:03:18,500 --> 00:03:29,000
+Ora le persone. Ogni lavoratore deve ricevere un'informazione adeguata: sui rischi generali dell'azienda, sulle procedure di primo soccorso, antincendio ed evacuazione.
+
+24
+00:03:29,000 --> 00:03:39,670
+E sui nomi degli addetti alle emergenze, del responsabile del servizio di prevenzione e del medico competente. Poi sui rischi specifici della sua attivita' e sulle sostanze pericolose che usa.
+
+25
+00:03:39,670 --> 00:03:45,350
+L'informazione deve essere comprensibile. Per i lavoratori stranieri va verificato che capiscano la lingua usata.
+
+26
+00:03:45,350 --> 00:03:54,380
+Poi c'e' la formazione, sufficiente e adeguata. Una parte generale, sui concetti di rischio, danno, prevenzione, diritti e doveri, organi di vigilanza.
+
+27
+00:03:54,380 --> 00:04:01,690
+E una parte specifica, sui rischi della mansione e del settore. La durata e i contenuti sono fissati dagli accordi tra Stato e Regioni.
+
+28
+00:04:01,690 --> 00:04:13,740
+Con l'accordo del 2011 la sanita' e' a rischio alto: quattro ore di formazione generale e dodici di specifica, con aggiornamento di sei ore ogni cinque anni. Un nuovo accordo del 2025 ha riordinato la materia.
+
+29
+00:04:13,740 --> 00:04:21,720
+La formazione va fatta all'assunzione, al cambio di mansione, all'arrivo di nuove attrezzature, tecnologie o sostanze, e va ripetuta periodicamente.
+
+30
+00:04:21,720 --> 00:04:29,990
+L'addestramento, infine, si fa sul luogo di lavoro e da una persona esperta: per esempio l'uso del sollevatore, o la vestizione con i dispositivi per l'isolamento.
+
+31
+00:04:29,990 --> 00:04:37,850
+Anche dirigenti e preposti hanno percorsi di formazione propri, e il rappresentante dei lavoratori ha una formazione iniziale e aggiornamenti periodici.
+
+32
+00:04:37,850 --> 00:04:47,170
+Un distrattore frequente: la formazione non si fa fuori dall'orario di lavoro a spese del lavoratore. Si svolge in orario di lavoro e non comporta costi per lui.
+
+33
+00:04:47,170 --> 00:04:51,930
+Informare, formare, addestrare: tre passi diversi.
+
+34
+00:04:51,930 --> 00:05:00,480
+L'ultima barriera sono i dispositivi di protezione individuale: attrezzature indossate o tenute dal lavoratore per proteggerlo da uno o piu' rischi.
+
+35
+00:05:00,480 --> 00:05:08,230
+Si usano quando i rischi non si possono evitare o ridurre abbastanza con misure tecniche, protezione collettiva o organizzazione del lavoro.
+
+36
+00:05:08,230 --> 00:05:17,120
+Devono essere conformi alle norme europee, adeguati ai rischi e alle condizioni di lavoro, adatti alla persona che li usa, e compatibili tra loro se ne servono piu' di uno.
+
+37
+00:05:17,120 --> 00:05:26,050
+Il datore di lavoro li sceglie dopo aver analizzato i rischi, li fornisce gratuitamente, ne cura la manutenzione e la sostituzione, e informa e forma sul loro uso.
+
+38
+00:05:26,050 --> 00:05:37,220
+Sono divisi in tre categorie. La terza protegge da rischi gravissimi, come la morte o danni irreversibili: per esempio i facciali filtranti contro gli agenti biologici. Per questi l'addestramento e' obbligatorio.
+
+39
+00:05:37,220 --> 00:05:46,340
+Il lavoratore deve usarli correttamente, averne cura, non modificarli e segnalare subito difetti o problemi al datore di lavoro, al dirigente o al preposto.
+
+40
+00:05:46,340 --> 00:05:54,680
+Di regola i dispositivi sono personali. Se lo stesso dispositivo deve essere usato da piu' persone, vanno prese misure per evitare problemi di igiene e di salute.
+
+41
+00:05:54,680 --> 00:06:05,260
+Un esempio: in reparto arriva un paziente con tubercolosi. Serve un facciale filtrante adatto, scelto dopo la valutazione, provato per la tenuta sul viso e indossato come da addestramento.
+
+42
+00:06:05,260 --> 00:06:15,480
+Attenzione: una mascherina chirurgica non e' sempre un dispositivo di protezione individuale. Protegge soprattutto il paziente; per proteggere chi assiste servono i facciali filtranti.
+
+43
+00:06:15,480 --> 00:06:20,080
+Il dispositivo giusto, scelto bene, usato bene.
+
+44
+00:06:20,080 --> 00:06:30,370
+Le tre cose che ti chiederanno. La prima: il documento di valutazione riguarda tutti i rischi, ha data certa, e si rielabora entro trenta giorni quando cambia qualcosa di significativo.
+
+45
+00:06:30,370 --> 00:06:40,640
+La seconda: informazione, formazione e addestramento sono cose diverse; la formazione si fa all'assunzione, al cambio di mansione e con le novita', in orario di lavoro.
+
+46
+00:06:40,640 --> 00:06:50,420
+La terza: i dispositivi di protezione individuale sono l'ultima barriera; li sceglie e li fornisce gratis il datore di lavoro, il lavoratore li usa e ne ha cura.
+
+47
+00:06:50,420 --> 00:06:58,570
+L'ultimo distrattore: il documento di valutazione non si scrive una volta per tutte al momento dell'apertura della struttura. Va tenuto aggiornato.
+
+48
+00:06:58,570 --> 00:07:09,810
+In sintesi: valutare, scrivere, aggiornare, formare, proteggere. Nell'ultima lezione del modulo: i rischi specifici della sanita', le emergenze, la sorveglianza sanitaria e le sanzioni.
