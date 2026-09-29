@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'infermiera neoassunta entra in reparto il primo giorno. Qualcuno le consegna una divisa, un paio di guanti e le dice: il resto lo impari strada facendo. E' sufficiente?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No. Prima di lavorare deve sapere quali rischi corre, come proteggersi e cosa fare in caso di emergenza. E tutto questo parte da un documento: la valutazione dei rischi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima si conosce il rischio, poi si lavora."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Il documento di valutazione dei rischi. Quando va aggiornato. Informazione, formazione e addestramento. E i dispositivi di protezione individuale."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La valutazione riguarda tutti i rischi per la sicurezza e la salute dei lavoratori, anche nella scelta delle attrezzature, delle sostanze e nella sistemazione dei luoghi di lavoro."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Compresi i rischi di gruppi particolari: lo stress lavoro correlato, le lavoratrici in gravidanza, le differenze di genere, di eta' e di provenienza, e la tipologia del contratto."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro la effettua insieme al responsabile del servizio di prevenzione e al medico competente, dopo aver consultato il rappresentante dei lavoratori per la sicurezza."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato e' il documento di valutazione dei rischi. Deve avere data certa, anche attraverso la firma del datore di lavoro e delle altre figure che hanno partecipato."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contiene la relazione sui rischi con i criteri usati, le misure di prevenzione e i dispositivi adottati, il programma di miglioramento, le procedure e i ruoli di chi deve attuarle."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E indica i nomi del responsabile del servizio, del rappresentante dei lavoratori e del medico competente, e le mansioni che espongono a rischi specifici."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rappresentante dei lavoratori per la sicurezza, su richiesta, riceve copia del documento, anche su supporto informatico, e puo' consultarlo in azienda."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Deve essere semplice, breve e comprensibile: non un faldone da archivio, ma uno strumento operativo per pianificare la prevenzione. E va custodito presso l'unita' produttiva."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il documento non e' firmato solo per bellezza. Le firme servono anche a dare data certa, e la valutazione non si puo' delegare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un documento vivo, non un faldone in archivio."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La valutazione non si fa una volta per sempre. Va rielaborata subito quando cambiano in modo significativo il processo di lavoro o l'organizzazione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora: quando evolvono la tecnica, la prevenzione o la protezione, dopo infortuni significativi, o quando i risultati della sorveglianza sanitaria lo rendono necessario."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questi casi il documento va rielaborato entro trenta giorni. Ma le misure di prevenzione si aggiornano subito, e il rappresentante dei lavoratori va informato immediatamente."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un reparto viene trasformato in area per pazienti infettivi. Cambiano i rischi biologici, i percorsi, i dispositivi. La valutazione va rifatta, non basta una circolare."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le nuove attivita' la valutazione va fatta subito, e il documento completato entro novanta giorni dall'inizio."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le aziende piccole esistono procedure standardizzate. Ma non valgono per le strutture sanitarie piu' grandi, ne' dove ci sono rischi chimici o biologici."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: non esiste una scadenza fissa ogni tre anni per il documento. Si aggiorna quando cambia qualcosa di significativo, e in quel caso entro trenta giorni."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Cambia il lavoro, cambia la valutazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Ora le persone. Ogni lavoratore deve ricevere un'informazione adeguata: sui rischi generali dell'azienda, sulle procedure di primo soccorso, antincendio ed evacuazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sui nomi degli addetti alle emergenze, del responsabile del servizio di prevenzione e del medico competente. Poi sui rischi specifici della sua attivita' e sulle sostanze pericolose che usa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'informazione deve essere comprensibile. Per i lavoratori stranieri va verificato che capiscano la lingua usata."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' la formazione, sufficiente e adeguata. Una parte generale, sui concetti di rischio, danno, prevenzione, diritti e doveri, organi di vigilanza."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una parte specifica, sui rischi della mansione e del settore. La durata e i contenuti sono fissati dagli accordi tra Stato e Regioni."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con l'accordo del 2011 la sanita' e' a rischio alto: quattro ore di formazione generale e dodici di specifica, con aggiornamento di sei ore ogni cinque anni. Un nuovo accordo del 2025 ha riordinato la materia."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La formazione va fatta all'assunzione, al cambio di mansione, all'arrivo di nuove attrezzature, tecnologie o sostanze, e va ripetuta periodicamente."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'addestramento, infine, si fa sul luogo di lavoro e da una persona esperta: per esempio l'uso del sollevatore, o la vestizione con i dispositivi per l'isolamento."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche dirigenti e preposti hanno percorsi di formazione propri, e il rappresentante dei lavoratori ha una formazione iniziale e aggiornamenti periodici."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: la formazione non si fa fuori dall'orario di lavoro a spese del lavoratore. Si svolge in orario di lavoro e non comporta costi per lui."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Informare, formare, addestrare: tre passi diversi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'ultima barriera sono i dispositivi di protezione individuale: attrezzature indossate o tenute dal lavoratore per proteggerlo da uno o piu' rischi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano quando i rischi non si possono evitare o ridurre abbastanza con misure tecniche, protezione collettiva o organizzazione del lavoro."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Devono essere conformi alle norme europee, adeguati ai rischi e alle condizioni di lavoro, adatti alla persona che li usa, e compatibili tra loro se ne servono piu' di uno."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro li sceglie dopo aver analizzato i rischi, li fornisce gratuitamente, ne cura la manutenzione e la sostituzione, e informa e forma sul loro uso."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono divisi in tre categorie. La terza protegge da rischi gravissimi, come la morte o danni irreversibili: per esempio i facciali filtranti contro gli agenti biologici. Per questi l'addestramento e' obbligatorio."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il lavoratore deve usarli correttamente, averne cura, non modificarli e segnalare subito difetti o problemi al datore di lavoro, al dirigente o al preposto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Di regola i dispositivi sono personali. Se lo stesso dispositivo deve essere usato da piu' persone, vanno prese misure per evitare problemi di igiene e di salute."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: in reparto arriva un paziente con tubercolosi. Serve un facciale filtrante adatto, scelto dopo la valutazione, provato per la tenuta sul viso e indossato come da addestramento."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: una mascherina chirurgica non e' sempre un dispositivo di protezione individuale. Protegge soprattutto il paziente; per proteggere chi assiste servono i facciali filtranti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il dispositivo giusto, scelto bene, usato bene."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il documento di valutazione riguarda tutti i rischi, ha data certa, e si rielabora entro trenta giorni quando cambia qualcosa di significativo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: informazione, formazione e addestramento sono cose diverse; la formazione si fa all'assunzione, al cambio di mansione e con le novita', in orario di lavoro."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i dispositivi di protezione individuale sono l'ultima barriera; li sceglie e li fornisce gratis il datore di lavoro, il lavoratore li usa e ne ha cura."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il documento di valutazione non si scrive una volta per tutte al momento dell'apertura della struttura. Va tenuto aggiornato."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: valutare, scrivere, aggiornare, formare, proteggere. Nell'ultima lezione del modulo: i rischi specifici della sanita', le emergenze, la sorveglianza sanitaria e le sanzioni."
+ }
+]
