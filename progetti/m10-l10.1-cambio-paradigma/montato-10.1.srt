@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:13,410
+Un'azienda sanitaria deve acquistare nuovi letti per la terapia intensiva. Servono in fretta, devono essere buoni e il prezzo deve essere giusto. Quale regola viene prima?
+
+2
+00:00:13,410 --> 00:00:24,840
+Per anni la risposta e' stata: la procedura. Carte perfette, anche se i letti arrivavano tardi. Il codice dei contratti del 2023 prova a cambiare la risposta: prima di tutto, il risultato.
+
+3
+00:00:24,840 --> 00:00:29,480
+Dalla procedura come fine al risultato come fine.
+
+4
+00:00:29,480 --> 00:00:41,260
+Quattro passaggi. I problemi del vecchio codice. Come nasce il codice del 2023. I tre principi che lo reggono: risultato, fiducia, accesso al mercato. E gli altri principi da conoscere.
+
+5
+00:00:41,260 --> 00:00:52,450
+Gli appalti pubblici sono i contratti con cui un'amministrazione acquista lavori, beni e servizi. Muovono una parte importante della spesa pubblica, e nella sanita' una parte enorme.
+
+6
+00:00:52,450 --> 00:01:02,200
+Le regole vengono in gran parte dalle direttive europee: concorrenza, parita' di trattamento, trasparenza. L'Italia le ha recepite con codici che si sono succeduti nel tempo.
+
+7
+00:01:02,200 --> 00:01:15,370
+Negli anni Novanta arriva la legge quadro sui lavori pubblici. Nel 2006 il primo codice dei contratti. Nel 2016 un nuovo codice, il decreto legislativo 50, che recepisce le direttive del 2014.
+
+8
+00:01:15,370 --> 00:01:26,810
+Il codice del 2016 rinviava molte regole a linee guida e a un regolamento che non e' mai arrivato del tutto. Il risultato era un sistema frammentato, difficile da leggere e da applicare.
+
+9
+00:01:26,810 --> 00:01:36,490
+E' stato modificato decine di volte: correttivi, decreti per sbloccare i cantieri, semplificazioni legate alla pandemia e al piano nazionale di ripresa e resilienza.
+
+10
+00:01:36,490 --> 00:01:47,200
+Il funzionario, stretto fra regole instabili e timore di sbagliare, tendeva a difendersi: piu' carte, piu' pareri, meno decisioni. E' quella che si chiama burocrazia difensiva.
+
+11
+00:01:47,200 --> 00:01:58,500
+Un esempio: per paura di contestazioni, una gara per un servizio semplice viene appesantita da richieste inutili. Partecipano poche imprese, i tempi si allungano, e il reparto aspetta.
+
+12
+00:01:58,500 --> 00:02:10,190
+Occhio a un distrattore: il codice del 2016 non e' piu' quello da studiare. Dal primo luglio 2023 le nuove procedure seguono il decreto legislativo 36 del 2023.
+
+13
+00:02:10,190 --> 00:02:15,000
+Troppe regole instabili producono paura, non legalita'.
+
+14
+00:02:15,000 --> 00:02:25,230
+Nel 2022 il Parlamento approva una legge delega per riscrivere la materia. Il testo del nuovo codice viene preparato dal Consiglio di Stato, con un lavoro di semplificazione.
+
+15
+00:02:25,230 --> 00:02:37,820
+Nasce cosi' il decreto legislativo 31 marzo 2023, numero 36: il nuovo codice dei contratti pubblici. Entra in vigore il primo aprile 2023, ma le sue regole si applicano dal primo luglio.
+
+16
+00:02:37,820 --> 00:02:49,100
+La digitalizzazione di tutto il ciclo di vita dei contratti diventa operativa dal primo gennaio 2024: piattaforme telematiche, banca dati nazionale, fascicolo digitale dell'impresa.
+
+17
+00:02:49,100 --> 00:02:59,170
+La novita' di metodo e' che il codice e' autoapplicativo: non serve un regolamento per farlo funzionare. Le regole di dettaglio stanno negli allegati, che fanno parte del codice stesso.
+
+18
+00:02:59,170 --> 00:03:10,590
+E' diviso in libri: principi e disposizioni comuni, appalti nei settori ordinari, settori speciali, partenariato pubblico privato e concessioni, contenzioso e disposizioni finali.
+
+19
+00:03:10,590 --> 00:03:21,880
+Le regole seguono le fasi del contratto: programmazione, progettazione, scelta del contraente, esecuzione. Chi lavora in un ufficio acquisti le ritrova nello stesso ordine in cui le incontra.
+
+20
+00:03:21,880 --> 00:03:32,250
+Alla fine del 2024 e' arrivato un decreto correttivo, che ha ritoccato molti articoli senza cambiarne l'impostazione. Per l'esame conviene conoscere l'architettura e i principi.
+
+21
+00:03:32,250 --> 00:03:42,580
+Un esempio: l'azienda che compra i letti oggi usa una piattaforma telematica certificata, e i dati della gara confluiscono nella banca dati nazionale dei contratti pubblici.
+
+22
+00:03:42,580 --> 00:03:50,680
+Attenzione: il nuovo codice non ha bisogno di un regolamento attuativo per funzionare. Le regole di dettaglio sono negli allegati.
+
+23
+00:03:50,680 --> 00:03:55,280
+Un codice che si applica da solo, allegati compresi.
+
+24
+00:03:55,280 --> 00:04:08,050
+Il codice si apre con tre principi. Il primo, all'articolo 1, e' il principio del risultato: affidare ed eseguire il contratto con la massima tempestivita' e il miglior rapporto tra qualita' e prezzo.
+
+25
+00:04:08,050 --> 00:04:18,730
+Il risultato non scavalca la legge: va perseguito nel rispetto dei principi di legalita', trasparenza e concorrenza. Ma diventa il criterio per esercitare la discrezionalita'.
+
+26
+00:04:18,730 --> 00:04:30,050
+Il secondo, all'articolo 2, e' il principio della fiducia: fiducia nell'azione legittima, trasparente e corretta dell'amministrazione, dei suoi funzionari e degli operatori economici.
+
+27
+00:04:30,050 --> 00:04:39,690
+Serve a valorizzare l'iniziativa e l'autonomia decisionale dei funzionari. Per questo il codice delimita la colpa grave e prevede coperture assicurative per il personale.
+
+28
+00:04:39,690 --> 00:04:52,210
+Il terzo, all'articolo 3, e' il principio dell'accesso al mercato: favorire la partecipazione delle imprese, nel rispetto di concorrenza, imparzialita', non discriminazione, pubblicita' e proporzionalita'.
+
+29
+00:04:52,210 --> 00:05:01,540
+I tre principi non sono decorazioni. L'articolo 4 dice che le altre norme del codice si interpretano e si applicano alla luce di questi tre principi.
+
+30
+00:05:01,540 --> 00:05:11,820
+Torniamo ai letti. Se il bando chiede requisiti sproporzionati, poche imprese partecipano e la consegna ritarda. Si tradiscono insieme il risultato e l'accesso al mercato.
+
+31
+00:05:11,820 --> 00:05:21,670
+Un distrattore frequente: il principio del risultato non autorizza a violare le regole per fare prima. Il risultato si persegue nel rispetto della legalita'.
+
+32
+00:05:21,670 --> 00:05:26,940
+Risultato, fiducia, mercato: la bussola del codice.
+
+33
+00:05:26,940 --> 00:05:36,910
+Seguono altri principi. Buona fede e tutela dell'affidamento: amministrazione e imprese devono comportarsi con correttezza, anche prima della firma del contratto.
+
+34
+00:05:36,910 --> 00:05:48,180
+Solidarieta' e sussidiarieta' orizzontale, che consentono forme di collaborazione con il terzo settore. E auto organizzazione: l'amministrazione puo' scegliere se fare da se' o affidare all'esterno.
+
+35
+00:05:48,180 --> 00:05:57,610
+Poi l'autonomia contrattuale, la conservazione dell'equilibrio del contratto quando circostanze straordinarie lo alterano, e la tassativita' delle cause di esclusione.
+
+36
+00:05:57,610 --> 00:06:06,850
+Un principio tocca da vicino il lavoro: al personale impiegato negli appalti si applica il contratto collettivo nazionale del settore, indicato dalla stazione appaltante.
+
+37
+00:06:06,850 --> 00:06:16,580
+E ci sono regole trasversali: prevenire e risolvere i conflitti di interesse di chi partecipa alla procedura, e garantire la trasparenza lungo tutto il ciclo di vita del contratto.
+
+38
+00:06:16,580 --> 00:06:26,730
+Negli affidamenti sotto soglia vale anche il principio di rotazione: di regola non si affida di nuovo allo stesso contraente uscente due commesse consecutive dello stesso settore.
+
+39
+00:06:26,730 --> 00:06:36,110
+Un esempio: il servizio di pulizie di un ospedale viene affidato. Nel bando va indicato il contratto collettivo applicabile, a tutela di chi lavorera' nei reparti.
+
+40
+00:06:36,110 --> 00:06:44,300
+Attenzione: le cause di esclusione non si inventano bando per bando. Sono tassative: quelle previste dal codice, e non altre.
+
+41
+00:06:44,300 --> 00:06:49,090
+Principi chiari per decisioni piu' libere e piu' responsabili.
+
+42
+00:06:49,090 --> 00:07:00,790
+Le tre cose che ti chiederanno. La prima: il nuovo codice e' il decreto legislativo 36 del 2023, in vigore dal primo aprile e applicabile dal primo luglio 2023.
+
+43
+00:07:00,790 --> 00:07:10,680
+La seconda: e' autoapplicativo, con le regole di dettaglio negli allegati; la digitalizzazione del ciclo di vita dei contratti e' operativa dal 2024.
+
+44
+00:07:10,680 --> 00:07:19,540
+La terza: i principi guida sono il risultato, la fiducia e l'accesso al mercato, e le altre norme si interpretano alla loro luce.
+
+45
+00:07:19,540 --> 00:07:29,120
+L'ultimo distrattore: il principio della fiducia non elimina i controlli. Valorizza l'autonomia dei funzionari, dentro regole di legalita' e trasparenza.
+
+46
+00:07:29,120 --> 00:07:39,540
+In sintesi: meno burocrazia difensiva, piu' risultato, piu' fiducia. Nella prossima lezione: che cosa distingue un appalto da una concessione, e a quali contratti si applica il codice.
