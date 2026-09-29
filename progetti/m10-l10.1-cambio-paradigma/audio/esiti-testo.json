@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 580,
+  "parole_dette": 580,
+  "coincidenti": 579,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "deve",
+    "detto": "dev"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 555,
+  "parole_dette": 554,
+  "coincidenti": 553,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "auto organizzazione",
+    "detto": "autorganizzazione"
+   }
+  ]
+ }
+}

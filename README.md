@@ -166,6 +166,27 @@ il direttore generale datore di lavoro «in quanto titolare del rapporto», la s
 2016 (L. 215/2021, D.L. 146/2021, Accordo Stato-Regioni 2025, D.L. 19/2024) e gli articoli letti solo
 nell'indice sono da verificare (vedi i REGISTRO, «Da verificare»).
 
+Modulo 10 completo, Appalti pubblici (D.Lgs. 36/2023; stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 10.1 | Il cambio di paradigma del 2023 | 7:49 |
+| 10.2 | Appalto, concessione, ambito | 7:31 |
+| 10.3 | I soggetti | 7:27 |
+| 10.4 | Soglie e procedure | 7:26 |
+| 10.5 | Aggiudicazione e anomalia | 7:20 |
+| 10.6 | Requisiti e forme di partecipazione | 7:15 |
+| 10.7 | Esecuzione del contratto | 7:12 |
+
+Nel modulo 10 `illustra.mjs` passa a 51 illustrazioni: si aggiungono gru, carrello, martelletto, furgone
+e catena; per la lezione successiva si parte dalla 10.7. La fonte prevista dal piano, `Appalti-Pubblici.pdf`,
+non era disponibile: il modulo è costruito su due dispense su Drive sul D.Lgs. 36/2023, di cui non riprende
+gli errori (per esempio il «responsabile unico del procedimento», le esclusioni «ex art. 80», lo stand still
+di «32 giorni», le soglie 2024-2025 presentate come vigenti). Il testo vigente del codice, il correttivo del
+2024 e le soglie 2026-2027 non erano raggiungibili e sono da verificare (vedi i REGISTRO, «Da verificare»).
+Nella 10.2 la prima traccia B aveva perso tre parole («un frazionamento vietato»): rigenerata, e il video
+rifatto (il primo, `76e433298af9728e906e5e9672b77605`, è sostituito).
+
 ## Come si lavora
 
 - Il branch principale è `main`.

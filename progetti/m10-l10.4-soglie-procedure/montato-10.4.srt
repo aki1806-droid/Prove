@@ -1,0 +1,179 @@
+1
+00:00:03,000 --> 00:00:14,730
+Tre acquisti nella stessa azienda sanitaria: una stampante da duemila euro, un servizio di manutenzione da centottantamila, un nuovo padiglione da dieci milioni. Si comprano allo stesso modo?
+
+2
+00:00:14,730 --> 00:00:25,220
+No. Il valore del contratto decide la procedura: quanto piu' il valore sale, tanto piu' la gara deve essere aperta, pubblicizzata e rigorosa. Il confine principale sono le soglie europee.
+
+3
+00:00:25,220 --> 00:00:29,820
+Il valore del contratto decide la strada da seguire.
+
+4
+00:00:29,820 --> 00:00:41,440
+Quattro passaggi. Le soglie europee. Gli affidamenti sotto soglia. Le procedure ordinarie sopra soglia: aperta e ristretta. E le procedure speciali, da usare solo in certi casi.
+
+5
+00:00:41,440 --> 00:00:53,390
+Le soglie di rilevanza europea sono importi fissati dalle direttive. Sopra soglia valgono per intero le regole europee di pubblicita' e concorrenza; sotto soglia il codice consente procedure piu' snelle.
+
+6
+00:00:53,390 --> 00:01:02,180
+Le soglie vengono aggiornate ogni due anni dalla Commissione europea. Per questo conviene ricordarne l'ordine di grandezza, piu' che la cifra esatta di un singolo biennio.
+
+7
+00:01:02,180 --> 00:01:13,370
+Per i lavori e le concessioni la soglia e' di poco superiore ai cinque milioni di euro. Per gli appalti di servizi e forniture delle amministrazioni come le aziende sanitarie, poco oltre i duecentomila euro.
+
+8
+00:01:13,370 --> 00:01:23,940
+Per le forniture delle autorita' governative centrali, come i ministeri, la soglia e' un po' piu' bassa. Per i servizi sociali e altri servizi specifici e' di settecentocinquantamila euro.
+
+9
+00:01:23,940 --> 00:01:33,500
+Il confronto si fa con il valore stimato: al netto dell'IVA, comprese le opzioni e i rinnovi. E vale il divieto di frazionare l'appalto per farlo scendere sotto la soglia.
+
+10
+00:01:33,500 --> 00:01:44,220
+Un esempio: un servizio di lavanderia da ottantamila euro l'anno, per tre anni rinnovabili per altri due. Il valore stimato e' di quattrocentomila euro: e' sopra la soglia europea.
+
+11
+00:01:44,220 --> 00:01:53,710
+Occhio a un distrattore: le soglie europee non sono fisse per sempre. Cambiano ogni due anni, e vanno controllate sul provvedimento del biennio in corso.
+
+12
+00:01:53,710 --> 00:01:58,630
+Sopra la soglia, l'Europa; sotto, regole piu' snelle.
+
+13
+00:01:58,630 --> 00:02:09,160
+Sotto soglia il codice prevede due strade. La prima e' l'affidamento diretto: la stazione appaltante sceglie l'operatore, anche senza consultarne altri, motivando la scelta.
+
+14
+00:02:09,160 --> 00:02:19,700
+E' ammesso per servizi e forniture sotto i centoquarantamila euro, e per i lavori sotto i centocinquantamila. L'affidatario deve comunque avere i requisiti e l'esperienza adeguati.
+
+15
+00:02:19,700 --> 00:02:29,220
+La seconda strada e' la procedura negoziata senza bando: si invitano piu' operatori, scelti con un'indagine di mercato o da un elenco, e si mettono a confronto le offerte.
+
+16
+00:02:29,220 --> 00:02:40,950
+Per servizi e forniture dai centoquarantamila euro fino alla soglia europea si invitano almeno cinque operatori. Per i lavori, almeno cinque fino a un milione, almeno dieci oltre il milione.
+
+17
+00:02:40,950 --> 00:02:49,050
+Anche sotto soglia si puo' sempre scegliere una procedura ordinaria, piu' aperta. Le procedure semplificate sono una facolta', non un obbligo.
+
+18
+00:02:49,050 --> 00:02:58,900
+E vale il principio di rotazione: di regola non si affida al contraente uscente una commessa consecutiva dello stesso settore. Solo in casi motivati lo si puo' reinvitare.
+
+19
+00:02:58,900 --> 00:03:09,160
+Per gli affidamenti diretti di valore molto basso, sotto i cinquemila euro, il codice consente di derogare alla rotazione. Sopra quella cifra, la deroga va motivata caso per caso.
+
+20
+00:03:09,160 --> 00:03:20,620
+Un esempio: la stampante da duemila euro si compra con affidamento diretto, anche sul mercato elettronico. Il servizio di manutenzione da centottantamila euro richiede almeno cinque inviti.
+
+21
+00:03:20,620 --> 00:03:30,170
+Attenzione: affidamento diretto non vuol dire senza regole. Servono la determina, la verifica dei requisiti, la rotazione e la pubblicazione dei dati.
+
+22
+00:03:30,170 --> 00:03:34,770
+Semplice non vuol dire libero da regole e controlli.
+
+23
+00:03:34,770 --> 00:03:45,090
+Sopra soglia le procedure ordinarie sono due. La procedura aperta: qualsiasi operatore interessato puo' presentare un'offerta, in risposta al bando pubblicato.
+
+24
+00:03:45,090 --> 00:03:54,980
+Il termine minimo per ricevere le offerte e' di trenta giorni dalla trasmissione del bando, riducibile in caso di urgenza motivata. E' la procedura piu' usata e piu' aperta alla concorrenza.
+
+25
+00:03:54,980 --> 00:04:05,860
+La procedura ristretta ha due tempi. Prima chiunque puo' chiedere di partecipare; poi la stazione appaltante seleziona i candidati con i requisiti e invita solo loro a presentare l'offerta.
+
+26
+00:04:05,860 --> 00:04:15,140
+La ristretta e' utile quando si vuole selezionare prima le imprese piu' qualificate, per esempio in appalti tecnicamente complessi, e confrontare poi un numero gestibile di offerte.
+
+27
+00:04:15,140 --> 00:04:25,020
+Nella procedura ristretta i candidati invitati devono essere almeno cinque, se ce ne sono abbastanza con i requisiti. La stazione appaltante puo' fissare prima anche un numero massimo.
+
+28
+00:04:25,020 --> 00:04:33,190
+In entrambe le procedure tutto si svolge su piattaforme telematiche: bando, documenti, offerte e comunicazioni viaggiano in forma digitale.
+
+29
+00:04:33,190 --> 00:04:44,360
+Le fasi sono sempre le stesse: decisione di contrarre, pubblicazione, offerte, valutazione, proposta di aggiudicazione, verifica dei requisiti, aggiudicazione e stipula del contratto.
+
+30
+00:04:44,360 --> 00:04:54,860
+Un esempio: il servizio di ristorazione per i pazienti di un ospedale, per cinque anni. Si pubblica il bando con procedura aperta e tutte le imprese interessate possono presentare offerta.
+
+31
+00:04:54,860 --> 00:05:04,290
+Un distrattore frequente: nella procedura ristretta non tutti possono presentare un'offerta. Tutti possono chiedere di partecipare, ma offrono solo gli invitati.
+
+32
+00:05:04,290 --> 00:05:08,890
+Aperta a tutti, oppure ristretta ai selezionati.
+
+33
+00:05:08,890 --> 00:05:19,560
+Ci sono poi procedure da usare solo in presenza di condizioni precise. La competitiva con negoziazione: la stazione appaltante negozia con gli operatori le offerte iniziali per migliorarle.
+
+34
+00:05:19,560 --> 00:05:28,990
+Il dialogo competitivo serve per appalti particolarmente complessi, quando l'amministrazione non sa ancora definire la soluzione tecnica: la costruisce dialogando con i candidati.
+
+35
+00:05:28,990 --> 00:05:38,580
+Il partenariato per l'innovazione serve quando si cerca un prodotto o un servizio che sul mercato non esiste ancora: si finanzia la ricerca e poi si acquista cio' che ne risulta.
+
+36
+00:05:38,580 --> 00:05:50,310
+La procedura negoziata senza bando, sopra soglia, e' un'eccezione: gara andata deserta, un solo operatore in grado di fornire la prestazione, oppure estrema urgenza non imputabile all'amministrazione.
+
+37
+00:05:50,310 --> 00:06:00,500
+In questi casi si consultano, se esistono, almeno tre operatori, e la scelta va motivata con cura. L'urgenza deve derivare da eventi imprevedibili, non da ritardi dell'amministrazione.
+
+38
+00:06:00,500 --> 00:06:10,450
+Un esempio: un ospedale deve acquistare i ricambi originali di un'apparecchiatura, che solo il produttore puo' fornire per ragioni tecniche. La negoziata senza bando e' giustificata.
+
+39
+00:06:10,450 --> 00:06:20,740
+Attenzione: il ritardo dell'amministrazione nel programmare la gara non giustifica la procedura negoziata senza bando per urgenza. L'urgenza non deve esserle imputabile.
+
+40
+00:06:20,740 --> 00:06:25,340
+Le eccezioni si motivano, non si presumono.
+
+41
+00:06:25,340 --> 00:06:35,560
+Le tre cose che ti chiederanno. La prima: le soglie europee cambiano ogni due anni; per servizi e forniture delle aziende sanitarie sono poco oltre i duecentomila euro.
+
+42
+00:06:35,560 --> 00:06:47,560
+La seconda: sotto soglia, affidamento diretto sotto i centoquarantamila euro per servizi e forniture e i centocinquantamila per i lavori; oltre, procedura negoziata con almeno cinque inviti.
+
+43
+00:06:47,560 --> 00:06:57,750
+La terza: sopra soglia le procedure ordinarie sono l'aperta e la ristretta; le altre, e soprattutto la negoziata senza bando, richiedono presupposti precisi.
+
+44
+00:06:57,750 --> 00:07:07,650
+L'ultimo distrattore: nella procedura aperta il termine minimo per le offerte non e' di dieci giorni. E' di trenta giorni dalla trasmissione del bando, salvo urgenza.
+
+45
+00:07:07,650 --> 00:07:17,400
+In sintesi: il valore sceglie la strada, i principi la guidano. Nella prossima lezione: come si aggiudica una gara, e come si riconosce un'offerta anormalmente bassa.

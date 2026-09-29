@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:10,250
+La gara per il nuovo servizio di lavanderia e' finita, l'impresa ha vinto. Il lavoro dell'ufficio acquisti e' concluso?
+
+2
+00:00:10,250 --> 00:00:21,480
+No: comincia la parte piu' lunga. Il contratto va firmato, eseguito, controllato, pagato e verificato alla fine. Un'ottima gara seguita da un'esecuzione trascurata non produce il risultato.
+
+3
+00:00:21,480 --> 00:00:26,270
+La gara si vince in un giorno, il contratto si esegue per anni.
+
+4
+00:00:26,270 --> 00:00:36,220
+Quattro passaggi. Dall'aggiudicazione alla firma del contratto. Chi dirige l'esecuzione. Le modifiche e le varianti. Pagamenti, garanzie, penali e collaudo.
+
+5
+00:00:36,220 --> 00:00:44,450
+Dopo la proposta di aggiudicazione, la stazione appaltante verifica i requisiti dichiarati dall'impresa. Solo allora l'aggiudicazione diventa efficace.
+
+6
+00:00:44,450 --> 00:00:53,260
+L'aggiudicazione va comunicata a tutti i concorrenti. Da quel momento decorre un termine di attesa, detto stand still, prima del quale il contratto non si puo' firmare.
+
+7
+00:00:53,260 --> 00:01:01,560
+Serve a permettere a chi ha perso di fare ricorso prima che il contratto sia firmato. Non si applica, per esempio, sotto soglia o quando c'era una sola offerta.
+
+8
+00:01:01,560 --> 00:01:11,550
+Il contratto si stipula per iscritto, in forma elettronica, a pena di nullita'. Per gli affidamenti diretti e le procedure negoziate basta uno scambio di lettere, anche via posta certificata.
+
+9
+00:01:11,550 --> 00:01:20,230
+Prima della firma l'impresa presta la garanzia definitiva, di solito pari al dieci per cento dell'importo del contratto. Tutela l'amministrazione se l'impresa non adempie.
+
+10
+00:01:20,230 --> 00:01:27,180
+In caso di urgenza l'esecuzione puo' iniziare prima della stipula, con un provvedimento motivato. E' un'eccezione, non la regola.
+
+11
+00:01:27,180 --> 00:01:35,790
+L'esito della gara si pubblica, e i dati del contratto confluiscono nella banca dati nazionale, dove restano consultabili per tutta la sua durata, fino al collaudo.
+
+12
+00:01:35,790 --> 00:01:45,760
+Un esempio: aggiudicata la lavanderia, l'azienda verifica il certificato antimafia e la regolarita' contributiva dell'impresa, attende il termine di legge e firma il contratto.
+
+13
+00:01:45,760 --> 00:01:54,170
+Occhio a un distrattore: l'aggiudicazione non e' efficace prima della verifica dei requisiti. E non e' ancora il contratto: la firma arriva dopo.
+
+14
+00:01:54,170 --> 00:01:58,770
+Aggiudicare, verificare, attendere, firmare.
+
+15
+00:01:58,770 --> 00:02:07,600
+L'esecuzione del contratto e' diretta dal responsabile unico del progetto, che controlla la qualita' delle prestazioni. Per farlo si avvale di figure specifiche.
+
+16
+00:02:07,600 --> 00:02:16,490
+Per i servizi e le forniture c'e' il direttore dell'esecuzione del contratto: verifica che il servizio sia svolto come previsto, segnala i problemi e propone le penali.
+
+17
+00:02:16,490 --> 00:02:25,290
+Per i lavori c'e' il direttore dei lavori, che coordina e controlla il cantiere sul piano tecnico e contabile, aiutato se serve da direttori operativi e ispettori.
+
+18
+00:02:25,290 --> 00:02:34,620
+In sanita' il direttore dell'esecuzione e' spesso chi usa il servizio ogni giorno: un coordinatore infermieristico, un ingegnere clinico, un responsabile della logistica.
+
+19
+00:02:34,620 --> 00:02:44,120
+Il controllo si basa su documenti: verbali di avvio, controlli a campione, segnalazioni dei reparti, relazioni periodiche. Sono la prova se nasce una contestazione.
+
+20
+00:02:44,120 --> 00:02:53,020
+Anche dopo la gara chi controlla deve restare imparziale: il RUP e il direttore dell'esecuzione non possono avere interessi personali legati all'impresa che controllano.
+
+21
+00:02:53,020 --> 00:03:02,580
+Un esempio: il direttore dell'esecuzione della lavanderia riceve dai reparti le segnalazioni di biancheria consegnata in ritardo, le verbalizza e le trasmette al RUP.
+
+22
+00:03:02,580 --> 00:03:12,080
+Attenzione: il direttore dell'esecuzione non sostituisce il RUP. Il RUP dirige l'esecuzione; il direttore dell'esecuzione lo supporta nei controlli.
+
+23
+00:03:12,080 --> 00:03:16,680
+Senza controlli, il contratto resta sulla carta.
+
+24
+00:03:16,680 --> 00:03:28,070
+Durante l'esecuzione il contratto puo' cambiare, ma solo nei casi ammessi dal codice. Altrimenti si aggirerebbe la gara, dando all'impresa un contratto diverso da quello messo in concorrenza.
+
+25
+00:03:28,070 --> 00:03:38,160
+Sono ammesse le modifiche previste gia' nei documenti di gara con clausole chiare e precise, come le opzioni. E le varianti dovute a circostanze imprevedibili, entro limiti di valore.
+
+26
+00:03:38,160 --> 00:03:47,790
+Sono ammesse anche prestazioni supplementari che non si possono affidare ad altri senza gravi inconvenienti, e le modifiche non sostanziali, che non alterano la natura del contratto.
+
+27
+00:03:47,790 --> 00:03:57,610
+C'e' poi il quinto d'obbligo: se serve un aumento o una diminuzione della prestazione fino a un quinto dell'importo, l'impresa deve eseguirla alle stesse condizioni del contratto.
+
+28
+00:03:57,610 --> 00:04:07,860
+Il codice prevede anche la revisione dei prezzi: i contratti devono contenere clausole che adeguano i prezzi quando i costi cambiano oltre una certa soglia, per variazioni non prevedibili.
+
+29
+00:04:07,860 --> 00:04:17,630
+Ogni modifica va motivata e documentata, e le piu' rilevanti vanno comunicate all'Autorita' anticorruzione. La trasparenza accompagna il contratto fino all'ultimo giorno.
+
+30
+00:04:17,630 --> 00:04:27,520
+Un esempio: apre un nuovo reparto e serve piu' biancheria. Se l'aumento sta entro un quinto dell'importo, l'impresa della lavanderia deve fornirla alle stesse condizioni.
+
+31
+00:04:27,520 --> 00:04:37,100
+Un distrattore frequente: il quinto d'obbligo non e' una scelta dell'impresa. Entro quel limite l'impresa e' tenuta a eseguire, senza poter chiedere la risoluzione.
+
+32
+00:04:37,100 --> 00:04:41,700
+Il contratto puo' cambiare, ma dentro regole precise.
+
+33
+00:04:41,700 --> 00:04:51,140
+Il pagamento avviene dopo la verifica delle prestazioni, spesso per stati di avanzamento. Si puo' prevedere un'anticipazione del prezzo all'inizio, garantita dall'impresa.
+
+34
+00:04:51,140 --> 00:05:00,630
+Le pubbliche amministrazioni devono pagare entro trenta giorni. Per gli enti del servizio sanitario nazionale il termine e' di sessanta giorni. I ritardi producono interessi.
+
+35
+00:05:00,630 --> 00:05:10,780
+I pagamenti sono tracciabili: avvengono su conti correnti dedicati e riportano il codice identificativo della gara. Prima di pagare si verifica la regolarita' contributiva dell'impresa.
+
+36
+00:05:10,780 --> 00:05:20,890
+Se l'impresa ritarda o non rispetta gli standard si applicano le penali previste dal contratto, calcolate per ogni giorno di ritardo, fino a un massimo del dieci per cento dell'importo.
+
+37
+00:05:20,890 --> 00:05:31,040
+Alla fine si verifica il risultato: per i lavori con il collaudo, per servizi e forniture con la verifica di conformita'. Nei casi piu' semplici basta un certificato di regolare esecuzione.
+
+38
+00:05:31,040 --> 00:05:40,830
+Anche la garanzia definitiva segue il contratto: viene svincolata progressivamente, man mano che le prestazioni sono eseguite, e del tutto dopo il collaudo o la verifica finale.
+
+39
+00:05:40,830 --> 00:05:50,490
+Nei casi gravi l'amministrazione puo' risolvere il contratto per grave inadempimento, e puo' anche recedere, pagando le prestazioni eseguite e una parte di quelle non eseguite.
+
+40
+00:05:50,490 --> 00:06:02,310
+Un esempio: la lavanderia consegna ripetutamente in ritardo. Il direttore dell'esecuzione documenta, il RUP contesta e applica le penali; se l'inadempimento e' grave, si arriva alla risoluzione.
+
+41
+00:06:02,310 --> 00:06:11,570
+Attenzione: le penali non si applicano senza contestazione. L'impresa deve poter presentare le sue controdeduzioni prima che la penale sia applicata.
+
+42
+00:06:11,570 --> 00:06:16,170
+Pagare bene, controllare sempre, collaudare alla fine.
+
+43
+00:06:16,170 --> 00:06:27,510
+Le tre cose che ti chiederanno. La prima: l'aggiudicazione e' efficace dopo la verifica dei requisiti; il contratto si firma dopo il termine di stand still, in forma scritta elettronica.
+
+44
+00:06:27,510 --> 00:06:36,530
+La seconda: l'esecuzione la dirige il RUP, con il direttore dell'esecuzione per servizi e forniture e il direttore dei lavori per i lavori.
+
+45
+00:06:36,530 --> 00:06:46,620
+La terza: le modifiche sono ammesse solo nei casi previsti, con il quinto d'obbligo; si paga dopo le verifiche, e alla fine c'e' il collaudo o la verifica di conformita'.
+
+46
+00:06:46,620 --> 00:06:53,850
+L'ultimo distrattore: per le aziende sanitarie il termine di pagamento non e' di trenta giorni. E' di sessanta giorni.
+
+47
+00:06:53,850 --> 00:07:03,370
+In sintesi: una buona gara e un'esecuzione seguita da vicino. Si chiude il modulo sugli appalti. Nel prossimo: gli elementi di contabilita' delle pubbliche amministrazioni.

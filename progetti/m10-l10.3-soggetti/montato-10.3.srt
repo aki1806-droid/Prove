@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:13,470
+Un'azienda sanitaria ha bisogno di guanti monouso per tutti i reparti. Deve fare una gara da sola, o puo' comprarli attraverso qualcun altro che ha gia' fatto la gara per molte aziende?
+
+2
+00:00:13,470 --> 00:00:22,290
+Nella maggior parte dei casi la risposta e': attraverso qualcun altro. Per capirlo bisogna conoscere i soggetti del sistema degli appalti, e quello che ciascuno puo' fare.
+
+3
+00:00:22,290 --> 00:00:26,890
+Ogni gara ha i suoi protagonisti, con ruoli precisi.
+
+4
+00:00:26,890 --> 00:00:38,280
+Quattro passaggi. Le stazioni appaltanti e il responsabile unico del progetto. Gli operatori economici. Le centrali di committenza e i soggetti aggregatori. E chi controlla e sostiene il sistema.
+
+5
+00:00:38,280 --> 00:00:49,300
+La stazione appaltante e' il soggetto che affida il contratto: amministrazioni dello Stato, regioni, enti locali, aziende sanitarie, organismi di diritto pubblico e altri enti obbligati.
+
+6
+00:00:49,300 --> 00:00:58,300
+Per le concessioni si parla di ente concedente. In entrambi i casi e' il committente pubblico, che decide che cosa acquistare, come farlo e a quali condizioni.
+
+7
+00:00:58,300 --> 00:01:09,170
+Con il codice del 2023 le stazioni appaltanti devono essere qualificate per gestire le procedure piu' complesse. La qualificazione dipende da personale, esperienza e strumenti digitali.
+
+8
+00:01:09,170 --> 00:01:19,190
+Senza qualificazione un'amministrazione puo' procedere da sola solo per gli affidamenti diretti e per i lavori di importo piu' basso. Oltre, deve rivolgersi a una stazione qualificata.
+
+9
+00:01:19,190 --> 00:01:30,550
+Per ogni procedura la stazione appaltante nomina un responsabile unico del progetto, il RUP. Segue il contratto in tutte le fasi: programmazione, progettazione, affidamento ed esecuzione.
+
+10
+00:01:30,550 --> 00:01:40,150
+Il RUP e' un dipendente della stazione appaltante, con competenze adeguate. Si possono nominare responsabili di singole fasi, ma il RUP resta unico e coordina.
+
+11
+00:01:40,150 --> 00:01:49,320
+Il RUP puo' avere una struttura di supporto e, per incarichi di assistenza, il codice consente di destinare fino all'uno per cento dell'importo posto a base di gara.
+
+12
+00:01:49,320 --> 00:01:58,330
+Chiunque partecipi alla procedura deve evitare i conflitti di interesse. Se ha un interesse personale che puo' minacciare la sua imparzialita', lo dichiara e si astiene.
+
+13
+00:01:58,330 --> 00:02:09,750
+Occhio a un distrattore: RUP oggi significa responsabile unico del progetto, non del procedimento. Il codice del 2023 ha cambiato il nome per sottolineare il risultato.
+
+14
+00:02:09,750 --> 00:02:14,350
+Un solo responsabile, dall'idea al collaudo.
+
+15
+00:02:14,350 --> 00:02:25,660
+Dall'altra parte ci sono gli operatori economici: chiunque offra sul mercato lavori, forniture o servizi. Imprese individuali, societa', cooperative, consorzi, professionisti.
+
+16
+00:02:25,660 --> 00:02:34,930
+Possono partecipare anche insieme, riunendosi in raggruppamenti temporanei o in consorzi. Vedremo in una lezione dedicata come funzionano e chi risponde di che cosa.
+
+17
+00:02:34,930 --> 00:02:44,150
+Per partecipare, l'operatore deve avere requisiti di ordine generale, cioe' di affidabilita' morale, e requisiti speciali di capacita', legati all'oggetto del contratto.
+
+18
+00:02:44,150 --> 00:02:54,500
+I dati dell'impresa, come certificati, regolarita' contributiva e fiscale, stanno in un fascicolo digitale gestito dall'Autorita' anticorruzione, consultato dalle stazioni appaltanti.
+
+19
+00:02:54,500 --> 00:03:03,060
+Il codice vuole favorire anche le piccole e medie imprese: per esempio dividendo gli appalti in lotti, quando e' possibile, e motivando la scelta quando non lo si fa.
+
+20
+00:03:03,060 --> 00:03:11,610
+Gli operatori stranieri dell'Unione europea partecipano alle stesse condizioni delle imprese italiane: la parita' di trattamento e' uno dei cardini delle direttive.
+
+21
+00:03:11,610 --> 00:03:22,280
+Un esempio: un'azienda sanitaria divide la gara per la manutenzione in lotti per territorio. Cosi' possono partecipare anche imprese locali piu' piccole, non solo i grandi gruppi.
+
+22
+00:03:22,280 --> 00:03:31,560
+Attenzione: operatore economico non vuol dire solo grande impresa. Anche un professionista o una piccola cooperativa sono operatori economici.
+
+23
+00:03:31,560 --> 00:03:36,160
+Un mercato aperto e' la prima garanzia di prezzi giusti.
+
+24
+00:03:36,160 --> 00:03:46,590
+Per comprare meglio e spendere meno, gli acquisti vengono aggregati. La centrale di committenza fa le gare per conto di altre amministrazioni, o mette a disposizione contratti gia' pronti.
+
+25
+00:03:46,590 --> 00:03:56,410
+La centrale nazionale e' Consip, che gestisce convenzioni, accordi quadro e il mercato elettronico della pubblica amministrazione, dove si fanno ordini e richieste di offerta.
+
+26
+00:03:56,410 --> 00:04:06,490
+Accanto a Consip operano le centrali regionali. Insieme formano l'elenco dei soggetti aggregatori, previsto da una legge del 2014 per ridurre e razionalizzare la spesa.
+
+27
+00:04:06,490 --> 00:04:18,000
+Per alcune categorie di beni e servizi, fissate con decreto, le amministrazioni devono passare dai soggetti aggregatori. In sanita' ci sono farmaci, vaccini, dispositivi, pulizie, ristorazione.
+
+28
+00:04:18,000 --> 00:04:27,370
+Gli strumenti sono diversi. La convenzione e' un contratto quadro gia' aggiudicato, a cui si aderisce con un ordine. L'accordo quadro fissa le regole per i contratti successivi.
+
+29
+00:04:27,370 --> 00:04:35,440
+Nel Veneto, per la sanita', il ruolo di centrale di committenza regionale e' svolto da Azienda Zero, che fa le gare per le aziende sanitarie della regione.
+
+30
+00:04:35,440 --> 00:04:44,410
+Anche quando compra tramite una centrale, l'azienda nomina un RUP per il singolo acquisto. La centrale, a sua volta, ha un proprio RUP per le attivita' che gestisce.
+
+31
+00:04:44,410 --> 00:04:55,280
+Torniamo ai guanti. L'azienda aderisce alla convenzione della centrale regionale, gia' aggiudicata, e fa il suo ordine. Nessuna gara in proprio, prezzi gia' negoziati per volumi grandi.
+
+32
+00:04:55,280 --> 00:05:05,270
+Un distrattore frequente: Consip non e' l'unica centrale. Esistono le centrali regionali, e per la sanita' sono spesso quelle a cui le aziende devono rivolgersi.
+
+33
+00:05:05,270 --> 00:05:09,870
+Comprare insieme per comprare meglio e spendere meno.
+
+34
+00:05:09,870 --> 00:05:21,110
+Il sistema ha un'autorita' di vigilanza: l'ANAC, l'Autorita' nazionale anticorruzione. Vigila sui contratti pubblici, gestisce la banca dati nazionale e l'elenco delle stazioni qualificate.
+
+35
+00:05:21,110 --> 00:05:30,500
+L'ANAC puo' anche dare pareri per risolvere una controversia prima che arrivi davanti a un giudice, ed emana bandi tipo e atti di indirizzo per le stazioni appaltanti.
+
+36
+00:05:30,500 --> 00:05:40,510
+Il supporto tecnico viene anche dal Ministero delle infrastrutture e, per le opere, dal Consiglio superiore dei lavori pubblici. Per i lavori piu' grandi c'e' il collegio consultivo tecnico.
+
+37
+00:05:40,510 --> 00:05:48,040
+Il collegio consultivo tecnico aiuta a risolvere rapidamente le controversie durante l'esecuzione dei lavori, per evitare che il cantiere si fermi.
+
+38
+00:05:48,040 --> 00:05:56,070
+C'e' poi la Corte dei conti, che puo' chiamare a rispondere del danno erariale chi ha causato uno spreco di denaro pubblico con dolo o colpa grave.
+
+39
+00:05:56,070 --> 00:06:05,410
+Le controversie sulla procedura di gara vanno davanti al giudice amministrativo, con termini brevi. Quelle sull'esecuzione del contratto, di regola, davanti al giudice ordinario.
+
+40
+00:06:05,410 --> 00:06:15,330
+Un esempio: un'impresa esclusa da una gara ritiene l'esclusione illegittima. Puo' chiedere un parere all'ANAC, oppure ricorrere al tribunale amministrativo regionale.
+
+41
+00:06:15,330 --> 00:06:24,880
+Attenzione: l'ANAC non e' un giudice. Vigila, regola e da' pareri; le controversie si decidono davanti al giudice amministrativo o ordinario.
+
+42
+00:06:24,880 --> 00:06:29,480
+Chi vigila, chi aiuta, chi decide le liti.
+
+43
+00:06:29,480 --> 00:06:40,510
+Le tre cose che ti chiederanno. La prima: le stazioni appaltanti devono essere qualificate per le procedure piu' complesse, e per ogni procedura nominano un responsabile unico del progetto.
+
+44
+00:06:40,510 --> 00:06:51,350
+La seconda: centrali di committenza e soggetti aggregatori, con Consip e le centrali regionali, aggregano gli acquisti; per alcune categorie passare da loro e' obbligatorio.
+
+45
+00:06:51,350 --> 00:07:00,270
+La terza: l'ANAC vigila, gestisce la banca dati e l'elenco delle stazioni qualificate; le liti sulla gara vanno al giudice amministrativo.
+
+46
+00:07:00,270 --> 00:07:09,040
+L'ultimo distrattore: anche comprando tramite una centrale di committenza, l'azienda sanitaria nomina comunque un RUP per il proprio acquisto.
+
+47
+00:07:09,040 --> 00:07:17,930
+In sintesi: chi compra, chi vende, chi aggrega, chi vigila. Nella prossima lezione: le soglie europee e le procedure per scegliere il contraente.

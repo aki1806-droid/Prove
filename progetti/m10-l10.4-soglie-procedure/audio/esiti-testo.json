@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 561,
+  "parole_dette": 558,
+  "coincidenti": 543,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "deve",
+    "detto": "dev"
+   },
+   {
+    "blocco": "s08",
+    "copione": "200000 euro",
+    "detto": "200 000"
+   },
+   {
+    "blocco": "s09",
+    "copione": "750000 euro",
+    "detto": "750 000"
+   },
+   {
+    "blocco": "s11",
+    "copione": "80000 euro",
+    "detto": "80 000"
+   },
+   {
+    "blocco": "s11",
+    "copione": "400000 euro",
+    "detto": "400 000"
+   },
+   {
+    "blocco": "s15",
+    "copione": "140000 euro",
+    "detto": "140 000"
+   },
+   {
+    "blocco": "s17",
+    "copione": "140000 euro",
+    "detto": "140 000"
+   },
+   {
+    "blocco": "s21",
+    "copione": "centottantamila euro",
+    "detto": "180 000"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 572,
+  "parole_dette": 569,
+  "coincidenti": 565,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s24",
+    "copione": "sopra soglia",
+    "detto": "soprasoglia"
+   },
+   {
+    "blocco": "s31",
+    "copione": "il",
+    "detto": "in"
+   },
+   {
+    "blocco": "s37",
+    "copione": "sopra soglia",
+    "detto": "soprasoglia"
+   },
+   {
+    "blocco": "s44",
+    "copione": "sopra soglia",
+    "detto": "soprasoglia"
+   }
+  ]
+ }
+}

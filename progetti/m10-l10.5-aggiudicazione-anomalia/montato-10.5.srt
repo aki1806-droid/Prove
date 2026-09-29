@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:11,060
+Gara per la mensa dei pazienti di un ospedale. Un'impresa offre un pasto a un prezzo molto piu' basso di tutte le altre. Vince automaticamente?
+
+2
+00:00:11,060 --> 00:00:21,100
+No, per due ragioni. Nella ristorazione ospedaliera non basta il prezzo: conta la qualita'. E un prezzo troppo basso fa nascere un dubbio: come si fa a garantire il servizio a quel costo?
+
+3
+00:00:21,100 --> 00:00:25,700
+Il prezzo piu' basso non e' sempre l'offerta migliore.
+
+4
+00:00:25,700 --> 00:00:35,190
+Quattro passaggi. I due criteri di aggiudicazione. Quando la qualita' e' obbligatoria. La commissione giudicatrice e i punteggi. E le offerte anormalmente basse.
+
+5
+00:00:35,190 --> 00:00:42,640
+Il codice prevede due criteri per scegliere l'offerta vincente. Il primo, quello di regola, e' l'offerta economicamente piu' vantaggiosa.
+
+6
+00:00:42,640 --> 00:00:54,640
+Si individua sulla base del miglior rapporto tra qualita' e prezzo: si valutano elementi tecnici, come organizzazione, materiali, assistenza, e poi il prezzo. Vince chi ottiene il punteggio totale piu' alto.
+
+7
+00:00:54,640 --> 00:01:03,170
+Si puo' anche ragionare sul costo complessivo, compreso il costo del ciclo di vita: acquisto, consumi, manutenzione e smaltimento, non solo il prezzo iniziale.
+
+8
+00:01:03,170 --> 00:01:12,500
+Il secondo criterio e' il minor prezzo: vince chi offre di meno. E' ammesso per servizi e forniture standardizzati, o le cui condizioni sono gia' definite dal mercato.
+
+9
+00:01:12,500 --> 00:01:22,890
+Il minor prezzo non e' mai ammesso per i servizi ad alta intensita' di manodopera, dove il costo del lavoro pesa di piu': li' un ribasso eccessivo finisce quasi sempre sulle spalle dei lavoratori.
+
+10
+00:01:22,890 --> 00:01:33,910
+Un esempio: le siringhe monouso standard possono essere aggiudicate al minor prezzo. Un'apparecchiatura per la radioterapia no: servono qualita', assistenza e costo del ciclo di vita.
+
+11
+00:01:33,910 --> 00:01:41,120
+Il criterio scelto va indicato nel bando e non si cambia durante la gara. Le imprese devono sapere prima su che cosa verranno valutate.
+
+12
+00:01:41,120 --> 00:01:50,680
+Anche con il minor prezzo i requisiti minimi di qualita' restano: sono fissati nel capitolato tecnico, e un prodotto che non li rispetta non e' ammesso, qualunque sia il suo prezzo.
+
+13
+00:01:50,680 --> 00:01:58,550
+Occhio a un distrattore: il criterio ordinario non e' il minor prezzo. Di regola si usa l'offerta economicamente piu' vantaggiosa.
+
+14
+00:01:58,550 --> 00:02:03,150
+Qualita' e prezzo si valutano insieme, di regola.
+
+15
+00:02:03,150 --> 00:02:13,670
+Per alcuni contratti il codice impone l'offerta economicamente piu' vantaggiosa. Il primo gruppo sono i servizi sociali e la ristorazione ospedaliera, assistenziale e scolastica.
+
+16
+00:02:13,670 --> 00:02:22,660
+Poi i servizi ad alta intensita' di manodopera: quelli in cui il costo del personale e' almeno la meta' del valore del contratto, come pulizie, assistenza, vigilanza.
+
+17
+00:02:22,660 --> 00:02:33,610
+Ancora: i servizi di ingegneria e architettura e gli altri servizi tecnici e intellettuali dai centoquarantamila euro in su, e le forniture e i servizi ad alto contenuto tecnologico o innovativi.
+
+18
+00:02:33,610 --> 00:02:42,290
+E infine le gare con dialogo competitivo o partenariato per l'innovazione, e l'appalto integrato, dove la stessa impresa progetta ed esegue i lavori.
+
+19
+00:02:42,290 --> 00:02:51,550
+E' il divieto del massimo ribasso negli ambiti piu' delicati: quando dietro un servizio ci sono persone da assistere o lavoratori da tutelare, il solo prezzo non puo' decidere.
+
+20
+00:02:51,550 --> 00:02:59,910
+Nei contratti di servizi la stazione appaltante indica anche il contratto collettivo da applicare al personale, per evitare che la concorrenza si faccia sui salari.
+
+21
+00:02:59,910 --> 00:03:10,210
+Torniamo alla mensa. La ristorazione ospedaliera va aggiudicata con l'offerta economicamente piu' vantaggiosa: menu', qualita' delle materie prime, diete speciali, tempi di consegna.
+
+22
+00:03:10,210 --> 00:03:18,320
+Attenzione: per il servizio di pulizie di un ospedale il minor prezzo non si puo' usare. E' un servizio ad alta intensita' di manodopera.
+
+23
+00:03:18,320 --> 00:03:22,920
+Dove ci sono persone, decide anche la qualita'.
+
+24
+00:03:22,920 --> 00:03:33,770
+Con l'offerta economicamente piu' vantaggiosa le offerte tecniche vengono valutate da una commissione giudicatrice, nominata dopo la scadenza del termine per presentare le offerte.
+
+25
+00:03:33,770 --> 00:03:43,050
+La commissione e' composta da un numero dispari di componenti, al massimo cinque, esperti nel settore dell'appalto. I componenti non devono essere in conflitto di interessi.
+
+26
+00:03:43,050 --> 00:03:53,310
+Il bando indica i criteri di valutazione e i punteggi, di solito su cento punti. Il codice fissa un tetto: al prezzo non si possono attribuire piu' di trenta punti su cento.
+
+27
+00:03:53,310 --> 00:04:01,700
+Cosi' la qualita' pesa almeno per settanta punti. Per ogni criterio il bando puo' prevedere sottocriteri, pesi e il modo di calcolare i punteggi.
+
+28
+00:04:01,700 --> 00:04:11,770
+Le offerte sono in buste separate, oggi digitali: prima si apre la documentazione amministrativa, poi l'offerta tecnica, e solo dopo la valutazione tecnica l'offerta economica.
+
+29
+00:04:11,770 --> 00:04:21,400
+Alla fine si forma la graduatoria e la proposta di aggiudicazione. La stazione appaltante verifica i requisiti del primo classificato e aggiudica con un proprio provvedimento.
+
+30
+00:04:21,400 --> 00:04:32,480
+Un esempio: in una gara per dispositivi medici la commissione e' formata da un farmacista, un ingegnere clinico e un medico del reparto utilizzatore, esperti dell'oggetto della gara.
+
+31
+00:04:32,480 --> 00:04:41,620
+Un distrattore frequente: la commissione non si nomina prima della scadenza delle offerte. Si nomina dopo, per evitare pressioni sui suoi componenti.
+
+32
+00:04:41,620 --> 00:04:46,220
+Prima si guarda la qualita', poi si apre il prezzo.
+
+33
+00:04:46,220 --> 00:04:56,050
+Resta il caso del prezzo troppo basso. Il codice parla di offerta anormalmente bassa: un'offerta che, per il prezzo o per altri elementi, non sembra sostenibile.
+
+34
+00:04:56,050 --> 00:05:06,220
+In questi casi la stazione appaltante chiede all'impresa spiegazioni scritte, assegnando un termine. E' un contraddittorio: l'impresa puo' dimostrare come riesce a stare nei costi.
+
+35
+00:05:06,220 --> 00:05:15,270
+Le spiegazioni possono riguardare l'economia del processo produttivo, le soluzioni tecniche, condizioni favorevoli di cui l'impresa gode, l'originalita' del progetto.
+
+36
+00:05:15,270 --> 00:05:25,740
+Ci sono pero' cose che non si possono giustificare: trattamenti salariali inferiori ai minimi inderogabili, e oneri per la sicurezza sotto quanto previsto. Su questi non si risparmia.
+
+37
+00:05:25,740 --> 00:05:35,380
+Per questo le imprese indicano a parte, nell'offerta, i costi della manodopera e gli oneri della sicurezza aziendali, che la stazione appaltante verifica prima di aggiudicare.
+
+38
+00:05:35,380 --> 00:05:45,350
+Se la stazione appaltante esclude un'offerta perche' anomala, deve motivare la decisione. E se accetta le spiegazioni, deve comunque poter dimostrare di averle valutate con attenzione.
+
+39
+00:05:45,350 --> 00:05:56,400
+Sotto soglia, quando si usa il minor prezzo e arrivano almeno cinque offerte, la stazione appaltante puo' escludere automaticamente le offerte anomale, con un metodo di calcolo fissato negli allegati.
+
+40
+00:05:56,400 --> 00:06:06,930
+Torniamo alla mensa. L'impresa con il prezzo bassissimo deve spiegare come paga il personale e le materie prime. Se le spiegazioni non reggono, l'offerta viene esclusa.
+
+41
+00:06:06,930 --> 00:06:16,800
+Attenzione: l'offerta anomala non si esclude subito, sopra soglia. Prima si chiedono le spiegazioni e si valuta in contraddittorio; si esclude solo se non convincono.
+
+42
+00:06:16,800 --> 00:06:21,400
+Un ribasso si spiega, oppure si esclude.
+
+43
+00:06:21,400 --> 00:06:31,860
+Le tre cose che ti chiederanno. La prima: i criteri sono l'offerta economicamente piu' vantaggiosa, che e' la regola, e il minor prezzo, solo per prestazioni standardizzate.
+
+44
+00:06:31,860 --> 00:06:44,150
+La seconda: l'offerta economicamente piu' vantaggiosa e' obbligatoria per servizi sociali, ristorazione ospedaliera e servizi ad alta intensita' di manodopera; al prezzo al massimo trenta punti.
+
+45
+00:06:44,150 --> 00:06:53,590
+La terza: l'offerta anormalmente bassa si verifica in contraddittorio; non si giustificano salari sotto i minimi ne' oneri di sicurezza ridotti.
+
+46
+00:06:53,590 --> 00:07:01,170
+L'ultimo distrattore: la commissione giudicatrice non ha un numero pari di componenti. E' dispari, al massimo cinque.
+
+47
+00:07:01,170 --> 00:07:10,550
+In sintesi: qualita' e prezzo insieme, e i ribassi sotto controllo. Nella prossima lezione: chi puo' partecipare alle gare, e come si partecipa insieme ad altri.
