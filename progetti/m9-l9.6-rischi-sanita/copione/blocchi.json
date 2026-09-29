@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In un solo turno di notte un infermiere puo' maneggiare aghi, farmaci pericolosi, sollevare pazienti, entrare in radiologia e gestire un familiare aggressivo. Pochi lavori concentrano tanti rischi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo la sanita' e' classificata a rischio alto, e il decreto 81 dedica titoli interi ai rischi che in ospedale si incontrano ogni giorno."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "In ospedale i rischi non si sommano: si intrecciano."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Il rischio biologico e le punture d'ago. Chimico, movimentazione e radiazioni. Stress, aggressioni ed emergenze. Infine sorveglianza sanitaria e sanzioni."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il rischio piu' tipico della sanita' e' quello biologico: virus, batteri e altri microrganismi che possono causare infezioni. Lo regola il titolo decimo del decreto."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli agenti biologici sono divisi in quattro gruppi, secondo la gravita' della malattia, la capacita' di diffondersi e la disponibilita' di cure o profilassi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo gruppo difficilmente causa malattie. Il quarto comprende agenti che causano malattie gravi, si diffondono facilmente e di solito non hanno cure efficaci."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro valuta il rischio biologico, adotta misure tecniche e organizzative, fornisce i dispositivi e mette a disposizione i vaccini efficaci, su indicazione del medico competente."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un capitolo a parte riguarda le ferite da taglienti: aghi, bisturi, lame. Dal 2014 il decreto ha un titolo dedicato, che recepisce una direttiva europea."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole sono precise: eliminare la pratica del reincappucciamento, usare dispositivi medici con meccanismi di protezione, contenitori rigidi vicino al punto di utilizzo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se l'incidente avviene, il lavoratore deve segnalarlo subito, per ricevere assistenza, profilassi e controlli. L'azienda analizza l'evento per evitare che si ripeta."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'infermiera si punge con un ago usato su un paziente con epatite. Segnala subito, riceve la profilassi indicata e segue i controlli nei mesi successivi."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: reincappucciare l'ago con due mani non e' una buona pratica. E' proprio il gesto che la norma chiede di eliminare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "L'ago non si rincappuccia: si getta subito."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Poi il rischio chimico. In sanita' si usano disinfettanti, gas anestetici, farmaci antiblastici, e la formaldeide nei laboratori di anatomia patologica."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcune di queste sostanze sono cancerogene. Per loro valgono regole piu' severe: sostituirle quando possibile, sistemi chiusi, cappe aspiranti, registro degli esposti."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni sostanza pericolosa ha una scheda di sicurezza, che indica i pericoli, le precauzioni e cosa fare in caso di contatto o di sversamento. Va tenuta a disposizione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi la movimentazione manuale dei carichi, regolata dal titolo sesto. In sanita' il carico piu' frequente e' il paziente, e i disturbi alla schiena sono tra le malattie piu' diffuse."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il datore di lavoro deve evitare la movimentazione manuale con ausili e organizzazione: sollevatori, teli ad alto scorrimento, personale sufficiente. Esistono metodi specifici per valutare il rischio."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le radiazioni ionizzanti, in radiologia, medicina nucleare e sala operatoria, vale un decreto specifico del 2020, che ha sostituito le vecchie norme del 1995."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esperto di radioprotezione cura la sorveglianza fisica e i dosimetri; il medico autorizzato segue la salute dei lavoratori piu' esposti."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la fascia lombare non sostituisce gli ausili. La prima misura contro il mal di schiena e' evitare di sollevare a mano, con attrezzature e organizzazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima gli ausili, poi la forza delle braccia."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Tra i rischi da valutare c'e' anche lo stress lavoro correlato: turni, carichi di lavoro, conflitti, poca autonomia. La valutazione parte da indicatori oggettivi, come assenze e infortuni."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se emergono problemi, si passa a una valutazione approfondita, ascoltando i lavoratori, e si adottano misure organizzative: non basta un corso sulla gestione dello stress."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un rischio cresciuto molto negli ultimi anni sono le aggressioni al personale, soprattutto in pronto soccorso, psichiatria e servizi a contatto con il pubblico."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una legge del 2020 ha inasprito le pene per chi aggredisce il personale sanitario, ha istituito un osservatorio nazionale e una giornata di sensibilizzazione, il 12 marzo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ministero ha anche una raccomandazione specifica per prevenire gli atti di violenza: valutazione dei rischi, organizzazione degli spazi, formazione, segnalazione di ogni episodio."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi le emergenze. Il datore di lavoro organizza il primo soccorso, la lotta antincendio e l'evacuazione, e designa i lavoratori addetti, che ricevono una formazione specifica."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi viene designato non puo' rifiutare, se non per un giustificato motivo. E tutti devono conoscere il piano di emergenza e le vie di fuga del proprio reparto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: in ospedale molti pazienti non possono camminare. Per questo si privilegia l'evacuazione orizzontale progressiva, verso un compartimento vicino e protetto."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: l'aggressione al personale non e' un rischio del mestiere da accettare. Va prevenuta, valutata come ogni altro rischio e sempre segnalata."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Anche la violenza e' un rischio da prevenire."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La sorveglianza sanitaria, all'articolo 41, la svolge il medico competente per i lavoratori esposti a rischi che la richiedono."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Comprende la visita preventiva, prima dell'adibizione alla mansione, e quella periodica, di norma una volta all'anno, salvo diversa periodicita' decisa dal medico o dalla legge."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono poi la visita su richiesta del lavoratore, quella al cambio di mansione, alla cessazione del rapporto nei casi previsti, e al rientro dopo un'assenza per malattia di oltre sessanta giorni."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contro il giudizio di idoneita' si puo' fare ricorso all'organo di vigilanza territorialmente competente, entro trenta giorni dalla comunicazione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le visite non possono servire ad accertare lo stato di gravidanza, ne' negli altri casi vietati dalla legge. E il giudizio va comunicato per iscritto al lavoratore e al datore di lavoro."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine le sanzioni. Il decreto prevede soprattutto contravvenzioni, punite con l'arresto o con l'ammenda, per datori di lavoro, dirigenti, preposti, medici competenti e anche lavoratori."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per esempio, il datore di lavoro che non valuta i rischi o non nomina il responsabile del servizio di prevenzione rischia l'arresto da tre a sei mesi o l'ammenda."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molte violazioni si possono sanare: l'organo di vigilanza impartisce una prescrizione con un termine. Se si adempie e si paga una somma ridotta, il reato si estingue."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: anche il lavoratore puo' essere sanzionato, per esempio se non usa i dispositivi di protezione o rimuove le protezioni. La sicurezza e' un dovere di tutti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Visite per proteggere, sanzioni per correggere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: gli agenti biologici sono in quattro gruppi; per i taglienti si elimina il reincappucciamento e si usano dispositivi con protezione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: contro il rischio da movimentazione vengono prima gli ausili e l'organizzazione; stress e aggressioni sono rischi da valutare e prevenire."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: la sorveglianza sanitaria comprende visite preventive, periodiche e su richiesta; contro il giudizio si ricorre entro trenta giorni all'organo di vigilanza."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il ricorso contro il giudizio del medico competente non si presenta al datore di lavoro. Si presenta all'organo di vigilanza."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: conoscere i rischi, prevenirli, sorvegliare la salute. Si chiude il modulo sulla sicurezza. Nel prossimo: gli appalti pubblici e il codice dei contratti."
+ }
+]
