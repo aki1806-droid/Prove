@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] La gara per il nuovo servizio di lavanderia e' finita, l'impresa ha vinto. Il lavoro dell'ufficio acquisti e' concluso?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No: comincia la parte piu' lunga. Il contratto va firmato, eseguito, controllato, pagato e verificato alla fine. Un'ottima gara seguita da un'esecuzione trascurata non produce il risultato."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La gara si vince in un giorno, il contratto si esegue per anni."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Dall'aggiudicazione alla firma del contratto. Chi dirige l'esecuzione. Le modifiche e le varianti. Pagamenti, garanzie, penali e collaudo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Dopo la proposta di aggiudicazione, la stazione appaltante verifica i requisiti dichiarati dall'impresa. Solo allora l'aggiudicazione diventa efficace."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aggiudicazione va comunicata a tutti i concorrenti. Da quel momento decorre un termine di attesa, detto stand still, prima del quale il contratto non si puo' firmare."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve a permettere a chi ha perso di fare ricorso prima che il contratto sia firmato. Non si applica, per esempio, sotto soglia o quando c'era una sola offerta."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contratto si stipula per iscritto, in forma elettronica, a pena di nullita'. Per gli affidamenti diretti e le procedure negoziate basta uno scambio di lettere, anche via posta certificata."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima della firma l'impresa presta la garanzia definitiva, di solito pari al dieci per cento dell'importo del contratto. Tutela l'amministrazione se l'impresa non adempie."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In caso di urgenza l'esecuzione puo' iniziare prima della stipula, con un provvedimento motivato. E' un'eccezione, non la regola."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esito della gara si pubblica, e i dati del contratto confluiscono nella banca dati nazionale, dove restano consultabili per tutta la sua durata, fino al collaudo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: aggiudicata la lavanderia, l'azienda verifica il certificato antimafia e la regolarita' contributiva dell'impresa, attende il termine di legge e firma il contratto."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: l'aggiudicazione non e' efficace prima della verifica dei requisiti. E non e' ancora il contratto: la firma arriva dopo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Aggiudicare, verificare, attendere, firmare."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'esecuzione del contratto e' diretta dal responsabile unico del progetto, che controlla la qualita' delle prestazioni. Per farlo si avvale di figure specifiche."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i servizi e le forniture c'e' il direttore dell'esecuzione del contratto: verifica che il servizio sia svolto come previsto, segnala i problemi e propone le penali."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i lavori c'e' il direttore dei lavori, che coordina e controlla il cantiere sul piano tecnico e contabile, aiutato se serve da direttori operativi e ispettori."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In sanita' il direttore dell'esecuzione e' spesso chi usa il servizio ogni giorno: un coordinatore infermieristico, un ingegnere clinico, un responsabile della logistica."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il controllo si basa su documenti: verbali di avvio, controlli a campione, segnalazioni dei reparti, relazioni periodiche. Sono la prova se nasce una contestazione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche dopo la gara chi controlla deve restare imparziale: il RUP e il direttore dell'esecuzione non possono avere interessi personali legati all'impresa che controllano."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il direttore dell'esecuzione della lavanderia riceve dai reparti le segnalazioni di biancheria consegnata in ritardo, le verbalizza e le trasmette al RUP."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il direttore dell'esecuzione non sostituisce il RUP. Il RUP dirige l'esecuzione; il direttore dell'esecuzione lo supporta nei controlli."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Senza controlli, il contratto resta sulla carta."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Durante l'esecuzione il contratto puo' cambiare, ma solo nei casi ammessi dal codice. Altrimenti si aggirerebbe la gara, dando all'impresa un contratto diverso da quello messo in concorrenza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono ammesse le modifiche previste gia' nei documenti di gara con clausole chiare e precise, come le opzioni. E le varianti dovute a circostanze imprevedibili, entro limiti di valore."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono ammesse anche prestazioni supplementari che non si possono affidare ad altri senza gravi inconvenienti, e le modifiche non sostanziali, che non alterano la natura del contratto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi il quinto d'obbligo: se serve un aumento o una diminuzione della prestazione fino a un quinto dell'importo, l'impresa deve eseguirla alle stesse condizioni del contratto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice prevede anche la revisione dei prezzi: i contratti devono contenere clausole che adeguano i prezzi quando i costi cambiano oltre una certa soglia, per variazioni non prevedibili."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni modifica va motivata e documentata, e le piu' rilevanti vanno comunicate all'Autorita' anticorruzione. La trasparenza accompagna il contratto fino all'ultimo giorno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: apre un nuovo reparto e serve piu' biancheria. Se l'aumento sta entro un quinto dell'importo, l'impresa della lavanderia deve fornirla alle stesse condizioni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il quinto d'obbligo non e' una scelta dell'impresa. Entro quel limite l'impresa e' tenuta a eseguire, senza poter chiedere la risoluzione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il contratto puo' cambiare, ma dentro regole precise."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il pagamento avviene dopo la verifica delle prestazioni, spesso per stati di avanzamento. Si puo' prevedere un'anticipazione del prezzo all'inizio, garantita dall'impresa."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le pubbliche amministrazioni devono pagare entro trenta giorni. Per gli enti del servizio sanitario nazionale il termine e' di sessanta giorni. I ritardi producono interessi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I pagamenti sono tracciabili: avvengono su conti correnti dedicati e riportano il codice identificativo della gara. Prima di pagare si verifica la regolarita' contributiva dell'impresa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'impresa ritarda o non rispetta gli standard si applicano le penali previste dal contratto, calcolate per ogni giorno di ritardo, fino a un massimo del dieci per cento dell'importo."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla fine si verifica il risultato: per i lavori con il collaudo, per servizi e forniture con la verifica di conformita'. Nei casi piu' semplici basta un certificato di regolare esecuzione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche la garanzia definitiva segue il contratto: viene svincolata progressivamente, man mano che le prestazioni sono eseguite, e del tutto dopo il collaudo o la verifica finale."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei casi gravi l'amministrazione puo' risolvere il contratto per grave inadempimento, e puo' anche recedere, pagando le prestazioni eseguite e una parte di quelle non eseguite."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la lavanderia consegna ripetutamente in ritardo. Il direttore dell'esecuzione documenta, il RUP contesta e applica le penali; se l'inadempimento e' grave, si arriva alla risoluzione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le penali non si applicano senza contestazione. L'impresa deve poter presentare le sue controdeduzioni prima che la penale sia applicata."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Pagare bene, controllare sempre, collaudare alla fine."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: l'aggiudicazione e' efficace dopo la verifica dei requisiti; il contratto si firma dopo il termine di stand still, in forma scritta elettronica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: l'esecuzione la dirige il RUP, con il direttore dell'esecuzione per servizi e forniture e il direttore dei lavori per i lavori."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le modifiche sono ammesse solo nei casi previsti, con il quinto d'obbligo; si paga dopo le verifiche, e alla fine c'e' il collaudo o la verifica di conformita'."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: per le aziende sanitarie il termine di pagamento non e' di trenta giorni. E' di sessanta giorni."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: una buona gara e un'esecuzione seguita da vicino. Si chiude il modulo sugli appalti. Nel prossimo: gli elementi di contabilita' delle pubbliche amministrazioni."
+ }
+]

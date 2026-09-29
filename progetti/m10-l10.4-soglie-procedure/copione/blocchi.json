@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Tre acquisti nella stessa azienda sanitaria: una stampante da duemila euro, un servizio di manutenzione da centottantamila, un nuovo padiglione da dieci milioni. Si comprano allo stesso modo?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No. Il valore del contratto decide la procedura: quanto piu' il valore sale, tanto piu' la gara deve essere aperta, pubblicizzata e rigorosa. Il confine principale sono le soglie europee."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il valore del contratto decide la strada da seguire."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le soglie europee. Gli affidamenti sotto soglia. Le procedure ordinarie sopra soglia: aperta e ristretta. E le procedure speciali, da usare solo in certi casi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Le soglie di rilevanza europea sono importi fissati dalle direttive. Sopra soglia valgono per intero le regole europee di pubblicita' e concorrenza; sotto soglia il codice consente procedure piu' snelle."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le soglie vengono aggiornate ogni due anni dalla Commissione europea. Per questo conviene ricordarne l'ordine di grandezza, piu' che la cifra esatta di un singolo biennio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i lavori e le concessioni la soglia e' di poco superiore ai cinque milioni di euro. Per gli appalti di servizi e forniture delle amministrazioni come le aziende sanitarie, poco oltre i duecentomila euro."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le forniture delle autorita' governative centrali, come i ministeri, la soglia e' un po' piu' bassa. Per i servizi sociali e altri servizi specifici e' di settecentocinquantamila euro."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il confronto si fa con il valore stimato: al netto dell'IVA, comprese le opzioni e i rinnovi. E vale il divieto di frazionare l'appalto per farlo scendere sotto la soglia."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un servizio di lavanderia da ottantamila euro l'anno, per tre anni rinnovabili per altri due. Il valore stimato e' di quattrocentomila euro: e' sopra la soglia europea."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: le soglie europee non sono fisse per sempre. Cambiano ogni due anni, e vanno controllate sul provvedimento del biennio in corso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sopra la soglia, l'Europa; sotto, regole piu' snelle."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Sotto soglia il codice prevede due strade. La prima e' l'affidamento diretto: la stazione appaltante sceglie l'operatore, anche senza consultarne altri, motivando la scelta."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' ammesso per servizi e forniture sotto i centoquarantamila euro, e per i lavori sotto i centocinquantamila. L'affidatario deve comunque avere i requisiti e l'esperienza adeguati."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda strada e' la procedura negoziata senza bando: si invitano piu' operatori, scelti con un'indagine di mercato o da un elenco, e si mettono a confronto le offerte."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per servizi e forniture dai centoquarantamila euro fino alla soglia europea si invitano almeno cinque operatori. Per i lavori, almeno cinque fino a un milione, almeno dieci oltre il milione."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche sotto soglia si puo' sempre scegliere una procedura ordinaria, piu' aperta. Le procedure semplificate sono una facolta', non un obbligo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vale il principio di rotazione: di regola non si affida al contraente uscente una commessa consecutiva dello stesso settore. Solo in casi motivati lo si puo' reinvitare."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli affidamenti diretti di valore molto basso, sotto i cinquemila euro, il codice consente di derogare alla rotazione. Sopra quella cifra, la deroga va motivata caso per caso."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la stampante da duemila euro si compra con affidamento diretto, anche sul mercato elettronico. Il servizio di manutenzione da centottantamila euro richiede almeno cinque inviti."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: affidamento diretto non vuol dire senza regole. Servono la determina, la verifica dei requisiti, la rotazione e la pubblicazione dei dati."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Semplice non vuol dire libero da regole e controlli."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Sopra soglia le procedure ordinarie sono due. La procedura aperta: qualsiasi operatore interessato puo' presentare un'offerta, in risposta al bando pubblicato."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il termine minimo per ricevere le offerte e' di trenta giorni dalla trasmissione del bando, riducibile in caso di urgenza motivata. E' la procedura piu' usata e piu' aperta alla concorrenza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La procedura ristretta ha due tempi. Prima chiunque puo' chiedere di partecipare; poi la stazione appaltante seleziona i candidati con i requisiti e invita solo loro a presentare l'offerta."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ristretta e' utile quando si vuole selezionare prima le imprese piu' qualificate, per esempio in appalti tecnicamente complessi, e confrontare poi un numero gestibile di offerte."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella procedura ristretta i candidati invitati devono essere almeno cinque, se ce ne sono abbastanza con i requisiti. La stazione appaltante puo' fissare prima anche un numero massimo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In entrambe le procedure tutto si svolge su piattaforme telematiche: bando, documenti, offerte e comunicazioni viaggiano in forma digitale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi sono sempre le stesse: decisione di contrarre, pubblicazione, offerte, valutazione, proposta di aggiudicazione, verifica dei requisiti, aggiudicazione e stipula del contratto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il servizio di ristorazione per i pazienti di un ospedale, per cinque anni. Si pubblica il bando con procedura aperta e tutte le imprese interessate possono presentare offerta."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: nella procedura ristretta non tutti possono presentare un'offerta. Tutti possono chiedere di partecipare, ma offrono solo gli invitati."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Aperta a tutti, oppure ristretta ai selezionati."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Ci sono poi procedure da usare solo in presenza di condizioni precise. La competitiva con negoziazione: la stazione appaltante negozia con gli operatori le offerte iniziali per migliorarle."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dialogo competitivo serve per appalti particolarmente complessi, quando l'amministrazione non sa ancora definire la soluzione tecnica: la costruisce dialogando con i candidati."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il partenariato per l'innovazione serve quando si cerca un prodotto o un servizio che sul mercato non esiste ancora: si finanzia la ricerca e poi si acquista cio' che ne risulta."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La procedura negoziata senza bando, sopra soglia, e' un'eccezione: gara andata deserta, un solo operatore in grado di fornire la prestazione, oppure estrema urgenza non imputabile all'amministrazione."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questi casi si consultano, se esistono, almeno tre operatori, e la scelta va motivata con cura. L'urgenza deve derivare da eventi imprevedibili, non da ritardi dell'amministrazione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un ospedale deve acquistare i ricambi originali di un'apparecchiatura, che solo il produttore puo' fornire per ragioni tecniche. La negoziata senza bando e' giustificata."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il ritardo dell'amministrazione nel programmare la gara non giustifica la procedura negoziata senza bando per urgenza. L'urgenza non deve esserle imputabile."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Le eccezioni si motivano, non si presumono."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: le soglie europee cambiano ogni due anni; per servizi e forniture delle aziende sanitarie sono poco oltre i duecentomila euro."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: sotto soglia, affidamento diretto sotto i centoquarantamila euro per servizi e forniture e i centocinquantamila per i lavori; oltre, procedura negoziata con almeno cinque inviti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: sopra soglia le procedure ordinarie sono l'aperta e la ristretta; le altre, e soprattutto la negoziata senza bando, richiedono presupposti precisi."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: nella procedura aperta il termine minimo per le offerte non e' di dieci giorni. E' di trenta giorni dalla trasmissione del bando, salvo urgenza."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: il valore sceglie la strada, i principi la guidano. Nella prossima lezione: come si aggiudica una gara, e come si riconosce un'offerta anormalmente bassa."
+ }
+]

@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Una piccola impresa di pulizie vuole partecipare alla gara di un grande ospedale, ma non ha il fatturato richiesto. Deve rinunciare?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non necessariamente. Puo' unirsi ad altre imprese, oppure prendere in prestito i requisiti di un'altra impresa. Ma alcuni requisiti non si possono prestare: quelli di affidabilita' morale."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Le capacita' si possono sommare, l'onesta' no."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. I requisiti di ordine generale e le cause di esclusione. I requisiti speciali e l'avvalimento. I raggruppamenti temporanei di imprese. E il subappalto."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Per partecipare a una gara servono anzitutto i requisiti di ordine generale: l'impresa deve essere affidabile. Il codice elenca le cause che la escludono."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcune cause di esclusione sono automatiche: condanne definitive per reati gravi come corruzione, turbativa d'asta, terrorismo, riciclaggio, e le situazioni previste dalla legislazione antimafia."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono automatiche anche le gravi violazioni definitivamente accertate nel pagamento di imposte e contributi, lo stato di liquidazione o di fallimento, e le false dichiarazioni iscritte nel casellario."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Altre cause sono non automatiche: la stazione appaltante deve valutarle. Per esempio gravi infrazioni in materia di salute e sicurezza sul lavoro, o un grave illecito professionale."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice prevede anche il ravvedimento: un'impresa che ha commesso un illecito puo' dimostrare di aver risarcito il danno e adottato misure per non ripeterlo, ed evitare l'esclusione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I requisiti si dichiarano con il documento di gara unico europeo e si verificano sul fascicolo digitale dell'impresa. Mancanze formali si possono sanare con il soccorso istruttorio."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il soccorso istruttorio la stazione appaltante assegna da cinque a dieci giorni per integrare i documenti. Non si puo' pero' usare per modificare l'offerta tecnica o economica."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'impresa dimentica di allegare una dichiarazione amministrativa. Riceve la richiesta di integrazione, la presenta nei termini e resta in gara."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: le cause di esclusione non sono piu' all'articolo 80, che era del vecchio codice. Oggi sono agli articoli 94 e seguenti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima l'affidabilita', poi tutto il resto."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Poi ci sono i requisiti speciali, legati all'oggetto del contratto. Sono di tre tipi: idoneita' professionale, capacita' economica e finanziaria, capacita' tecniche e professionali."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'idoneita' professionale e' di solito l'iscrizione alla camera di commercio per l'attivita' oggetto dell'appalto. La capacita' economica si misura spesso con il fatturato."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le capacita' tecniche si dimostrano con servizi analoghi gia' svolti, personale, attrezzature, certificazioni di qualita'. Per i lavori c'e' un sistema di qualificazione per categorie."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I requisiti devono essere proporzionati all'oggetto del contratto. Chiedere un fatturato troppo alto, per esempio, esclude inutilmente le piccole imprese e viola l'accesso al mercato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei documenti di gara vanno indicati in modo chiaro e fin dall'inizio: un'impresa deve poter capire, leggendo il bando, se ha le carte in regola per partecipare."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se un'impresa non ha tutti i requisiti speciali, puo' usare l'avvalimento: si appoggia alle capacita' di un'altra impresa, detta ausiliaria, che le mette a disposizione risorse e mezzi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve un contratto di avvalimento, e l'ausiliaria risponde in solido con il concorrente verso la stazione appaltante. L'avvalimento non vale per i requisiti di ordine generale."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo alla piccola impresa di pulizie. Con un contratto di avvalimento puo' appoggiarsi al fatturato e all'esperienza di un'impresa piu' grande, che risponde insieme a lei."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: con l'avvalimento non si prestano i requisiti morali. L'onorabilita' e l'assenza di condanne deve averle ciascuna impresa per conto proprio."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Si possono prestare i mezzi, non la reputazione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Un altro modo di partecipare insieme e' il raggruppamento temporaneo di imprese. Piu' operatori conferiscono un mandato collettivo a uno di loro, la mandataria, che presenta l'offerta."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'offerta si indica quali parti del contratto eseguira' ciascuna impresa. Il raggruppamento nasce per quella gara, e non crea una nuova societa'."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il raggruppamento e' orizzontale quando le imprese fanno lo stesso tipo di prestazione, dividendosela. E' verticale quando una fa la prestazione principale e le altre quelle secondarie."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel raggruppamento orizzontale tutte le imprese rispondono in solido verso la stazione appaltante. Nel verticale le mandanti rispondono per la propria parte, e la mandataria in solido per tutto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono anche i consorzi, stabili o di cooperative, che partecipano come un unico soggetto e indicano le imprese consorziate che eseguiranno il servizio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una stessa impresa non puo' partecipare alla gara sia da sola sia dentro un raggruppamento: si alterebbe la concorrenza, perche' presenterebbe di fatto due offerte."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: tre imprese si uniscono per la gara di manutenzione degli impianti di un ospedale. Una fa gli impianti elettrici, principali, le altre quelli idraulici e antincendio: e' un verticale."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: nel raggruppamento orizzontale non risponde solo la mandataria. Tutte le imprese rispondono in solido verso la stazione appaltante."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Insieme per vincere, insieme per rispondere."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il subappalto e' il contratto con cui l'appaltatore affida a un'altra impresa l'esecuzione di una parte delle prestazioni. Il contratto d'appalto, invece, non si puo' cedere."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice non fissa piu' un limite percentuale generale. E' la stazione appaltante che indica nei documenti di gara le prestazioni che l'appaltatore deve eseguire direttamente."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il subappalto deve essere autorizzato dalla stazione appaltante, che verifica i requisiti del subappaltatore. E l'impresa deve averlo dichiarato gia' in sede di offerta."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'appaltatore resta responsabile verso la stazione appaltante di tutto il contratto, e risponde in solido con il subappaltatore degli obblighi retributivi e contributivi verso i lavoratori."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ai lavoratori del subappaltatore spetta lo stesso trattamento economico e normativo che avrebbero avuto dall'appaltatore, compreso il contratto collettivo applicato."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: l'impresa che ha vinto le pulizie subappalta la sanificazione delle sale operatorie. Serve l'autorizzazione, e i lavoratori del subappaltatore hanno le stesse tutele."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il subappalto non libera l'appaltatore dalle sue responsabilita'. Resta responsabile verso la stazione appaltante, e in solido per i lavoratori."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi subappalta, resta comunque responsabile."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: i requisiti generali di affidabilita' sono agli articoli 94 e seguenti, con cause di esclusione automatiche e non automatiche."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: con l'avvalimento si prestano i requisiti speciali, non quelli generali, e l'ausiliaria risponde in solido; nei raggruppamenti orizzontali rispondono in solido tutte le imprese."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: il subappalto va autorizzato, l'appaltatore resta responsabile e risponde in solido per i lavoratori, che hanno lo stesso trattamento."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il soccorso istruttorio non serve a correggere l'offerta economica. Serve a integrare documenti e dichiarazioni mancanti."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: affidabilita' per tutti, capacita' anche insieme, responsabilita' sempre. Nell'ultima lezione del modulo: l'esecuzione del contratto, dalla firma al collaudo."
+ }
+]
