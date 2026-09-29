@@ -95,97 +95,97 @@ Attenzione: nella concessione non e' vero che l'amministrazione garantisce i ric
 Nella concessione il rischio passa all'impresa.
 
 25
-00:03:51,170 --> 00:04:01,770
+00:03:51,170 --> 00:04:01,170
 In sanita' gli appalti sono ovunque. Farmaci, dispositivi medici e apparecchiature sono forniture. Pulizie, mensa, lavanderia e trasporto dei campioni sono servizi.
 
 26
-00:04:01,770 --> 00:04:10,770
+00:04:01,170 --> 00:04:10,260
 La ristrutturazione di un reparto o la costruzione di un nuovo padiglione sono lavori. E la manutenzione degli impianti, a seconda dei casi, puo' essere un servizio o un lavoro.
 
 27
-00:04:10,770 --> 00:04:19,370
+00:04:10,260 --> 00:04:19,060
 Le concessioni sono meno frequenti, ma ci sono: il bar interno, i distributori automatici, i parcheggi, alcuni servizi rivolti direttamente ai visitatori.
 
 28
-00:04:19,370 --> 00:04:28,730
+00:04:19,060 --> 00:04:28,430
 Nella stessa famiglia rientra la finanza di progetto per un nuovo ospedale: il privato costruisce, poi gestisce per anni alcuni servizi non sanitari e si ripaga nel tempo.
 
 29
-00:04:28,730 --> 00:04:38,180
+00:04:28,430 --> 00:04:38,130
 Torniamo all'inizio. La mensa per i pazienti e' un appalto di servizi: la paga l'azienda. Il parcheggio a pagamento e il bar, pagati dagli utenti, sono di regola concessioni.
 
 30
-00:04:38,180 --> 00:04:45,980
+00:04:38,130 --> 00:04:46,110
 La distinzione conta: cambiano le regole di gara, la durata del contratto, il calcolo del valore e chi sopporta le perdite se le cose vanno male.
 
 31
-00:04:45,980 --> 00:04:54,550
+00:04:46,110 --> 00:04:54,580
 Per le concessioni il valore si calcola sul fatturato che il concessionario puo' realizzare per tutta la durata del contratto, non su quanto paga l'amministrazione.
 
 32
-00:04:54,550 --> 00:05:05,040
+00:04:54,580 --> 00:05:04,790
 Un esempio: i distributori automatici di bevande in un ospedale. L'impresa incassa dalle vendite e magari versa un canone all'azienda. Il rischio di vendere poco resta suo.
 
 33
-00:05:05,040 --> 00:05:13,720
+00:05:04,790 --> 00:05:13,200
 Un distrattore frequente: non conta come le parti chiamano il contratto. Conta chi sopporta il rischio della gestione e come viene pagata l'impresa.
 
 34
-00:05:13,720 --> 00:05:18,320
+00:05:13,200 --> 00:05:17,800
 La sostanza prevale sempre sul nome del contratto.
 
 35
-00:05:18,320 --> 00:05:27,510
+00:05:17,800 --> 00:05:27,120
 Il codice si applica ai contratti di appalto e di concessione delle amministrazioni pubbliche e degli altri soggetti obbligati, come gli organismi di diritto pubblico.
 
 36
-00:05:27,510 --> 00:05:36,520
+00:05:27,120 --> 00:05:35,890
 Le aziende sanitarie sono amministrazioni aggiudicatrici a tutti gli effetti, come ministeri, regioni e comuni. Per loro il codice vale per intero.
 
 37
-00:05:36,520 --> 00:05:46,350
+00:05:35,890 --> 00:05:45,410
 Una parte a se' riguarda i settori speciali: acqua, energia, trasporti e servizi postali, dove operano anche imprese private con diritti speciali o esclusivi.
 
 38
-00:05:46,350 --> 00:05:57,100
+00:05:45,410 --> 00:05:56,010
 Alcuni contratti sono esclusi, perche' hanno una disciplina propria: per esempio l'acquisto o la locazione di terreni e fabbricati, i contratti di lavoro, alcuni servizi legali e di arbitrato.
 
 39
-00:05:57,100 --> 00:06:05,200
+00:05:56,010 --> 00:06:03,780
 Anche per i contratti esclusi valgono pero' i principi generali del codice: risultato, fiducia, accesso al mercato, trasparenza.
 
 40
-00:06:05,200 --> 00:06:14,800
+00:06:03,780 --> 00:06:13,500
 Il valore stimato del contratto si calcola al netto dell'IVA, comprendendo opzioni e rinnovi. E un appalto non si puo' frazionare artificialmente per stare sotto le soglie.
 
 41
-00:06:14,800 --> 00:06:23,870
+00:06:13,500 --> 00:06:22,320
 Un esempio: un'azienda divide in dieci piccoli acquisti una fornitura unica, per affidarli direttamente senza gara. E' un frazionamento vietato.
 
 42
-00:06:23,870 --> 00:06:33,460
+00:06:22,320 --> 00:06:32,440
 Attenzione: il valore stimato non si calcola IVA compresa, e non esclude i rinnovi previsti. Conta l'importo massimo che il contratto puo' raggiungere, al netto dell'IVA.
 
 43
-00:06:33,460 --> 00:06:38,060
+00:06:32,440 --> 00:06:37,040
 Il valore si misura intero, senza trucchi.
 
 44
-00:06:38,060 --> 00:06:47,960
+00:06:37,040 --> 00:06:46,680
 Le tre cose che ti chiederanno. La prima: l'appalto ha per oggetto lavori, forniture o servizi, e il corrispettivo e' un prezzo pagato dall'amministrazione.
 
 45
-00:06:47,960 --> 00:06:57,410
+00:06:46,680 --> 00:06:55,620
 La seconda: nella concessione l'impresa e' ripagata con il diritto di gestire, e si assume il rischio operativo, dal lato della domanda o dell'offerta.
 
 46
-00:06:57,410 --> 00:07:06,680
+00:06:55,620 --> 00:07:04,230
 La terza: il valore stimato si calcola al netto dell'IVA, con opzioni e rinnovi, ed e' vietato frazionare artificialmente un contratto.
 
 47
-00:07:06,680 --> 00:07:15,750
+00:07:04,230 --> 00:07:12,990
 L'ultimo distrattore: il bar interno gestito da un'impresa che incassa dagli utenti non e' un appalto di servizi. Di regola e' una concessione.
 
 48
-00:07:15,750 --> 00:07:24,730
+00:07:12,990 --> 00:07:21,920
 In sintesi: chi paga, chi gestisce, chi rischia. Nella prossima lezione: i soggetti del sistema, dalle stazioni appaltanti alle centrali di committenza.
