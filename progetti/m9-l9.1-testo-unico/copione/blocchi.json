@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'infermiera si punge con un ago usato durante la terapia. Trent'anni fa, in molti reparti, era considerato un incidente del mestiere. Oggi e' un evento da prevenire, registrare e analizzare."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In mezzo c'e' un cambio di mentalita': dalla sicurezza come elenco di divieti alla sicurezza come organizzazione. E quel cambio ha un nome: il decreto legislativo 81 del 2008."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dalla regola da rispettare al rischio da governare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le norme degli anni Cinquanta. La svolta europea degli anni Novanta. Il Testo Unico del 2008. E quello che e' cambiato dopo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo fondamento e' nel codice civile del 1942. L'articolo 2087 obbliga l'imprenditore a tutelare l'integrita' fisica e la personalita' morale di chi lavora."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi arriva la Costituzione. La salute e' un diritto fondamentale, il lavoro va tutelato in tutte le sue forme, e l'iniziativa economica non puo' svolgersi in modo da recare danno alla sicurezza."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli anni Cinquanta arrivano i primi decreti tecnici: uno del 1955 sulla prevenzione degli infortuni, uno del 1956 sull'igiene del lavoro, un altro sulle costruzioni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Erano norme minuziose: altezza dei parapetti, protezione delle macchine, aerazione dei locali. Utili, ma pensate soprattutto per la fabbrica e il cantiere."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la responsabilita' ricadeva quasi tutta sul datore di lavoro. Il lavoratore era visto come qualcuno da proteggere, non come un protagonista della prevenzione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 1970 lo Statuto dei lavoratori da' ai lavoratori il diritto di controllare l'applicazione delle norme di prevenzione. Nel 1978 la riforma sanitaria affida la vigilanza alle unita' sanitarie locali."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un ospedale degli anni Settanta doveva rispettare decine di prescrizioni tecniche, ma nessuna norma gli chiedeva di valutare, reparto per reparto, i rischi di chi ci lavorava."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: la sicurezza sul lavoro non nasce nel 2008. Nel 2008 le regole vengono riunite e riordinate, ma l'obbligo di tutela esisteva gia' dal 1942."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tante regole, scritte in tempi diversi, ma nessun sistema."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La svolta arriva dall'Europa. Nel 1989 una direttiva quadro cambia l'impostazione: il datore di lavoro deve valutare i rischi e organizzare la prevenzione, coinvolgendo i lavoratori."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La direttiva introduce anche un principio chiave: il lavoratore non e' solo protetto, ma partecipa. Deve essere informato, formato e consultato sulle scelte di prevenzione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Italia la recepisce con il decreto legislativo 626 del 1994. E' il decreto che fa entrare la sicurezza sul lavoro nel linguaggio comune, anche negli ospedali."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due anni dopo, nel 1996, un decreto correttivo precisa molti punti del 626, anche per l'applicazione nelle pubbliche amministrazioni."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il 626 arrivano le figure che conosciamo ancora oggi: il servizio di prevenzione e protezione con il suo responsabile, il rappresentante dei lavoratori per la sicurezza, il medico competente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E arrivano gli strumenti: il documento di valutazione dei rischi, la formazione dei lavoratori, la riunione periodica. La sicurezza diventa un processo, non solo un insieme di divieti."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: dopo il 626 un'azienda sanitaria deve chiedersi, per ogni reparto, quali rischi corre chi ci lavora. Il laboratorio ha rischi diversi dalla radiologia, e la radiologia dalla cucina."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In quegli anni, in molte aziende sanitarie, nascono i primi servizi di prevenzione interni, spesso con poche persone e molto lavoro arretrato da recuperare."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il quadro resta frammentato. Accanto al 626 restano in vigore i decreti degli anni Cinquanta e tante leggi speciali, spesso scritte in epoche diverse e non sempre coerenti tra loro."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il 626 del 1994 non e' una legge nata in Italia da zero. Recepisce la direttiva quadro europea del 1989 e altre direttive particolari."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dall'Europa, l'idea di valutare e organizzare."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Nel 2007 il Parlamento delega il governo a riordinare tutta la materia in un unico testo. Nasce cosi' il decreto legislativo 81, del 9 aprile 2008."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riordino arriva anche sotto la spinta di gravi incidenti sul lavoro, che in quegli anni riportano la sicurezza al centro del dibattito pubblico."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entra in vigore il 15 maggio 2008 e abroga il 626 e i vecchi decreti degli anni Cinquanta, riprendendone i contenuti ancora utili in un quadro unico."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un testo ampio: oltre trecento articoli, divisi in tredici titoli, e numerosi allegati tecnici. Il primo titolo contiene i principi comuni a tutti i settori."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli altri titoli trattano i rischi specifici: luoghi di lavoro, attrezzature, dispositivi di protezione, cantieri, segnaletica, movimentazione dei carichi, videoterminali."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi gli agenti fisici, come rumore, vibrazioni e radiazioni ottiche, le sostanze pericolose, gli agenti cancerogeni, gli agenti biologici, le atmosfere esplosive."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo chiamiamo tutti Testo Unico, ma e' un nome d'uso: formalmente e' un decreto legislativo, adottato in attuazione della legge delega del 2007."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le pubbliche amministrazioni il decreto chiarisce chi e' il datore di lavoro: il dirigente con poteri di gestione individuato dall'organo di vertice. In un'azienda sanitaria, di regola, il direttore generale."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2009 arriva un ampio correttivo, il decreto legislativo 106, che modifica molti articoli, precisa le deleghe e le sanzioni, ma non cambia l'impianto generale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il decreto 81 non si applica solo alle imprese private. Vale per tutti i settori, pubblici e privati, e quindi anche per le aziende sanitarie."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un solo testo, principi comuni, rischi specifici."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il decreto 81 non e' rimasto fermo. Negli anni e' stato modificato molte volte, per adeguarlo a nuove direttive e ai problemi emersi nei luoghi di lavoro."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2021 una legge ha rafforzato il ruolo del preposto, che deve intervenire e interrompere l'attivita' in caso di comportamenti pericolosi, e ha rivisto le regole sulla formazione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2024 e' arrivata la patente a crediti per le imprese che lavorano nei cantieri: chi accumula violazioni perde punti, e senza punti non puo' piu' lavorare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono cresciute anche le sanzioni e i poteri di vigilanza, e sono arrivate regole nuove per i cantieri. La direzione e' sempre la stessa: meno adempimenti di carta, piu' prevenzione reale."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cambiano anche i numeri: gli importi delle sanzioni vengono rivalutati nel tempo. Per l'esame conviene ricordare i principi e le figure, piu' che le singole cifre."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio in reparto: il coordinatore infermieristico, che organizza i turni e controlla il lavoro, e' di regola un preposto. E dal 2021 ha doveri di vigilanza piu' precisi."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: quando studi, controlla sempre il testo aggiornato. Molte dispense citano ancora il 626 come legge in vigore, o riportano versioni superate del decreto 81."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una legge viva, che cambia con il lavoro."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: le radici sono l'articolo 2087 del codice civile, la Costituzione e i decreti tecnici degli anni Cinquanta."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il decreto 626 del 1994 recepisce la direttiva quadro europea e introduce valutazione dei rischi, servizio di prevenzione, rappresentante dei lavoratori e medico competente."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: il decreto 81 del 2008 riunisce la materia in un unico testo, vale per tutti i settori pubblici e privati, ed e' stato corretto nel 2009 e aggiornato piu' volte."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: Testo Unico non e' il nome ufficiale. Il nome corretto e' decreto legislativo 9 aprile 2008, numero 81."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dalle regole sparse al sistema, dalla fabbrica a tutti i luoghi di lavoro. Nella prossima lezione: i principi su cui si regge la prevenzione."
+ }
+]
