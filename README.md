@@ -145,6 +145,27 @@ anni», l'OIV che «valida il piano»). Le modifiche successive al 2020 (D.L. 80
 D.P.R. 81/2023, L. 114/2024) non erano raggiungibili sul testo vigente e sono da verificare (vedi i
 REGISTRO, «Da verificare»).
 
+Modulo 9 completo, Salute e sicurezza sul lavoro (stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 9.1 | Dalla frammentazione al Testo Unico | 7:54 |
+| 9.2 | I sei principi | 7:38 |
+| 9.3 | Campo di applicazione | 7:30 |
+| 9.4 | Le figure della sicurezza | 7:20 |
+| 9.5 | DVR, formazione, DPI | 7:19 |
+| 9.6 | Rischi specifici in sanità | 7:35 |
+
+Nel modulo 9 `illustra.mjs` passa a 46 illustrazioni: si aggiungono casco, cartello, estintore, dpi
+e siringa; per la lezione successiva si parte dalla 9.6. La fonte prevista dal piano,
+`Tutela-della-Salute-e-Sicurezza-sul-Lavoro.pdf`, non era disponibile: il modulo è costruito sul testo
+del D.Lgs. 81/2008 nell'edizione di giugno 2016 del Ministero del Lavoro (letto per esteso solo in parte)
+e su una dispensa su Drive, di cui non riprende gli errori (per esempio forze armate e polizia «escluse»,
+il direttore generale datore di lavoro «in quanto titolare del rapporto», la sanità «a rischio medio» con
+8 ore di formazione specifica, l'aggiornamento dei dirigenti «sessennale»). Le modifiche successive al
+2016 (L. 215/2021, D.L. 146/2021, Accordo Stato-Regioni 2025, D.L. 19/2024) e gli articoli letti solo
+nell'indice sono da verificare (vedi i REGISTRO, «Da verificare»).
+
 ## Come si lavora
 
 - Il branch principale è `main`.

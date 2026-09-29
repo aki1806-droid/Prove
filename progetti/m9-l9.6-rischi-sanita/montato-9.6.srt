@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:16,180
+In un solo turno di notte un infermiere puo' maneggiare aghi, farmaci pericolosi, sollevare pazienti, entrare in radiologia e gestire un familiare aggressivo. Pochi lavori concentrano tanti rischi.
+
+2
+00:00:16,180 --> 00:00:24,810
+Per questo la sanita' e' classificata a rischio alto, e il decreto 81 dedica titoli interi ai rischi che in ospedale si incontrano ogni giorno.
+
+3
+00:00:24,810 --> 00:00:29,440
+In ospedale i rischi non si sommano: si intrecciano.
+
+4
+00:00:29,440 --> 00:00:41,720
+Quattro passaggi. Il rischio biologico e le punture d'ago. Chimico, movimentazione e radiazioni. Stress, aggressioni ed emergenze. Infine sorveglianza sanitaria e sanzioni.
+
+5
+00:00:41,720 --> 00:00:52,120
+Il rischio piu' tipico della sanita' e' quello biologico: virus, batteri e altri microrganismi che possono causare infezioni. Lo regola il titolo decimo del decreto.
+
+6
+00:00:52,120 --> 00:01:01,000
+Gli agenti biologici sono divisi in quattro gruppi, secondo la gravita' della malattia, la capacita' di diffondersi e la disponibilita' di cure o profilassi.
+
+7
+00:01:01,000 --> 00:01:10,360
+Il primo gruppo difficilmente causa malattie. Il quarto comprende agenti che causano malattie gravi, si diffondono facilmente e di solito non hanno cure efficaci.
+
+8
+00:01:10,360 --> 00:01:21,530
+Il datore di lavoro valuta il rischio biologico, adotta misure tecniche e organizzative, fornisce i dispositivi e mette a disposizione i vaccini efficaci, su indicazione del medico competente.
+
+9
+00:01:21,530 --> 00:01:31,700
+Un capitolo a parte riguarda le ferite da taglienti: aghi, bisturi, lame. Dal 2014 il decreto ha un titolo dedicato, che recepisce una direttiva europea.
+
+10
+00:01:31,700 --> 00:01:41,370
+Le regole sono precise: eliminare la pratica del reincappucciamento, usare dispositivi medici con meccanismi di protezione, contenitori rigidi vicino al punto di utilizzo.
+
+11
+00:01:41,370 --> 00:01:50,820
+E se l'incidente avviene, il lavoratore deve segnalarlo subito, per ricevere assistenza, profilassi e controlli. L'azienda analizza l'evento per evitare che si ripeta.
+
+12
+00:01:50,820 --> 00:02:01,020
+Un esempio: un'infermiera si punge con un ago usato su un paziente con epatite. Segnala subito, riceve la profilassi indicata e segue i controlli nei mesi successivi.
+
+13
+00:02:01,020 --> 00:02:09,310
+Occhio a un distrattore: reincappucciare l'ago con due mani non e' una buona pratica. E' proprio il gesto che la norma chiede di eliminare.
+
+14
+00:02:09,310 --> 00:02:13,910
+L'ago non si rincappuccia: si getta subito.
+
+15
+00:02:13,910 --> 00:02:24,250
+Poi il rischio chimico. In sanita' si usano disinfettanti, gas anestetici, farmaci antiblastici, e la formaldeide nei laboratori di anatomia patologica.
+
+16
+00:02:24,250 --> 00:02:34,370
+Alcune di queste sostanze sono cancerogene. Per loro valgono regole piu' severe: sostituirle quando possibile, sistemi chiusi, cappe aspiranti, registro degli esposti.
+
+17
+00:02:34,370 --> 00:02:44,390
+Ogni sostanza pericolosa ha una scheda di sicurezza, che indica i pericoli, le precauzioni e cosa fare in caso di contatto o di sversamento. Va tenuta a disposizione.
+
+18
+00:02:44,390 --> 00:02:54,730
+C'e' poi la movimentazione manuale dei carichi, regolata dal titolo sesto. In sanita' il carico piu' frequente e' il paziente, e i disturbi alla schiena sono tra le malattie piu' diffuse.
+
+19
+00:02:54,730 --> 00:03:06,450
+Il datore di lavoro deve evitare la movimentazione manuale con ausili e organizzazione: sollevatori, teli ad alto scorrimento, personale sufficiente. Esistono metodi specifici per valutare il rischio.
+
+20
+00:03:06,450 --> 00:03:17,730
+Per le radiazioni ionizzanti, in radiologia, medicina nucleare e sala operatoria, vale un decreto specifico del 2020, che ha sostituito le vecchie norme del 1995.
+
+21
+00:03:17,730 --> 00:03:25,840
+L'esperto di radioprotezione cura la sorveglianza fisica e i dosimetri; il medico autorizzato segue la salute dei lavoratori piu' esposti.
+
+22
+00:03:25,840 --> 00:03:36,310
+Attenzione: la fascia lombare non sostituisce gli ausili. La prima misura contro il mal di schiena e' evitare di sollevare a mano, con attrezzature e organizzazione.
+
+23
+00:03:36,310 --> 00:03:40,910
+Prima gli ausili, poi la forza delle braccia.
+
+24
+00:03:40,910 --> 00:03:52,160
+Tra i rischi da valutare c'e' anche lo stress lavoro correlato: turni, carichi di lavoro, conflitti, poca autonomia. La valutazione parte da indicatori oggettivi, come assenze e infortuni.
+
+25
+00:03:52,160 --> 00:04:01,370
+Se emergono problemi, si passa a una valutazione approfondita, ascoltando i lavoratori, e si adottano misure organizzative: non basta un corso sulla gestione dello stress.
+
+26
+00:04:01,370 --> 00:04:09,880
+Un rischio cresciuto molto negli ultimi anni sono le aggressioni al personale, soprattutto in pronto soccorso, psichiatria e servizi a contatto con il pubblico.
+
+27
+00:04:09,880 --> 00:04:19,890
+Una legge del 2020 ha inasprito le pene per chi aggredisce il personale sanitario, ha istituito un osservatorio nazionale e una giornata di sensibilizzazione, il 12 marzo.
+
+28
+00:04:19,890 --> 00:04:30,310
+Il ministero ha anche una raccomandazione specifica per prevenire gli atti di violenza: valutazione dei rischi, organizzazione degli spazi, formazione, segnalazione di ogni episodio.
+
+29
+00:04:30,310 --> 00:04:40,000
+Poi le emergenze. Il datore di lavoro organizza il primo soccorso, la lotta antincendio e l'evacuazione, e designa i lavoratori addetti, che ricevono una formazione specifica.
+
+30
+00:04:40,000 --> 00:04:48,330
+Chi viene designato non puo' rifiutare, se non per un giustificato motivo. E tutti devono conoscere il piano di emergenza e le vie di fuga del proprio reparto.
+
+31
+00:04:48,330 --> 00:04:57,850
+Un esempio: in ospedale molti pazienti non possono camminare. Per questo si privilegia l'evacuazione orizzontale progressiva, verso un compartimento vicino e protetto.
+
+32
+00:04:57,850 --> 00:05:07,700
+Un distrattore frequente: l'aggressione al personale non e' un rischio del mestiere da accettare. Va prevenuta, valutata come ogni altro rischio e sempre segnalata.
+
+33
+00:05:07,700 --> 00:05:12,300
+Anche la violenza e' un rischio da prevenire.
+
+34
+00:05:12,300 --> 00:05:19,640
+La sorveglianza sanitaria, all'articolo 41, la svolge il medico competente per i lavoratori esposti a rischi che la richiedono.
+
+35
+00:05:19,640 --> 00:05:29,090
+Comprende la visita preventiva, prima dell'adibizione alla mansione, e quella periodica, di norma una volta all'anno, salvo diversa periodicita' decisa dal medico o dalla legge.
+
+36
+00:05:29,090 --> 00:05:39,080
+Ci sono poi la visita su richiesta del lavoratore, quella al cambio di mansione, alla cessazione del rapporto nei casi previsti, e al rientro dopo un'assenza per malattia di oltre sessanta giorni.
+
+37
+00:05:39,080 --> 00:05:46,670
+Contro il giudizio di idoneita' si puo' fare ricorso all'organo di vigilanza territorialmente competente, entro trenta giorni dalla comunicazione.
+
+38
+00:05:46,670 --> 00:05:56,290
+Le visite non possono servire ad accertare lo stato di gravidanza, ne' negli altri casi vietati dalla legge. E il giudizio va comunicato per iscritto al lavoratore e al datore di lavoro.
+
+39
+00:05:56,290 --> 00:06:06,980
+Infine le sanzioni. Il decreto prevede soprattutto contravvenzioni, punite con l'arresto o con l'ammenda, per datori di lavoro, dirigenti, preposti, medici competenti e anche lavoratori.
+
+40
+00:06:06,980 --> 00:06:15,670
+Per esempio, il datore di lavoro che non valuta i rischi o non nomina il responsabile del servizio di prevenzione rischia l'arresto da tre a sei mesi o l'ammenda.
+
+41
+00:06:15,670 --> 00:06:24,810
+Molte violazioni si possono sanare: l'organo di vigilanza impartisce una prescrizione con un termine. Se si adempie e si paga una somma ridotta, il reato si estingue.
+
+42
+00:06:24,810 --> 00:06:34,460
+Attenzione: anche il lavoratore puo' essere sanzionato, per esempio se non usa i dispositivi di protezione o rimuove le protezioni. La sicurezza e' un dovere di tutti.
+
+43
+00:06:34,460 --> 00:06:39,060
+Visite per proteggere, sanzioni per correggere.
+
+44
+00:06:39,060 --> 00:06:49,050
+Le tre cose che ti chiederanno. La prima: gli agenti biologici sono in quattro gruppi; per i taglienti si elimina il reincappucciamento e si usano dispositivi con protezione.
+
+45
+00:06:49,050 --> 00:06:58,610
+La seconda: contro il rischio da movimentazione vengono prima gli ausili e l'organizzazione; stress e aggressioni sono rischi da valutare e prevenire.
+
+46
+00:06:58,610 --> 00:07:08,390
+La terza: la sorveglianza sanitaria comprende visite preventive, periodiche e su richiesta; contro il giudizio si ricorre entro trenta giorni all'organo di vigilanza.
+
+47
+00:07:08,390 --> 00:07:16,820
+L'ultimo distrattore: il ricorso contro il giudizio del medico competente non si presenta al datore di lavoro. Si presenta all'organo di vigilanza.
+
+48
+00:07:16,820 --> 00:07:26,420
+In sintesi: conoscere i rischi, prevenirli, sorvegliare la salute. Si chiude il modulo sulla sicurezza. Nel prossimo: gli appalti pubblici e il codice dei contratti.
