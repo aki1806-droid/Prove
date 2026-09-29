@@ -1,0 +1,56 @@
+  [114 pezzi di testo · 113 spezzoni di audio · 17.0 car/s grezzi · pausa minima 0.18 s · 0 fuori fascia]
+
+traccia A  295.36 s grezzi  ·  24 blocchi
+  s02     0.00 ->   14.17  14.17s grezzi  ~ 18.3 car/s
+  s03    14.17 ->   28.02  13.85s grezzi  ~ 15.3 car/s
+  s04    28.02 ->   32.71   4.69s grezzi  ~ 12.2 car/s
+  s05    32.71 ->   48.65  15.95s grezzi  ~ 14.2 car/s
+  s06    48.65 ->   60.19  11.53s grezzi  ~ 16.6 car/s
+  s07    60.19 ->   74.26  14.07s grezzi  ~ 15.4 car/s
+  s08    74.26 ->   84.23   9.98s grezzi  ~ 18.4 car/s
+  s09    84.23 ->   97.17  12.93s grezzi  ~ 18.4 car/s
+  s10    97.17 ->  107.94  10.77s grezzi  ~ 14.4 car/s
+  s11   107.94 ->  122.32  14.38s grezzi  ~ 17.8 car/s
+  s12   122.32 ->  135.19  12.87s grezzi  ~ 16.9 car/s
+  s13   135.19 ->  148.58  13.39s grezzi  ~ 16.3 car/s
+  s14   148.58 ->  154.05   5.48s grezzi  ~ 12.3 car/s
+  s15   154.05 ->  167.23  13.18s grezzi  ~ 18.2 car/s
+  s16   167.23 ->  182.06  14.82s grezzi  ~ 14.6 car/s
+  s17   182.06 ->  198.16  16.11s grezzi  ~ 15.1 car/s
+  s18   198.16 ->  210.72  12.56s grezzi  ~ 17.9 car/s
+  s19   210.72 ->  222.40  11.68s grezzi  ~ 19.3 car/s
+  s20   222.40 ->  233.50  11.10s grezzi  ~ 18.2 car/s
+  s21   233.50 ->  250.45  16.95s grezzi  ~ 16.2 car/s
+  s22   250.45 ->  266.70  16.25s grezzi  ~ 17.2 car/s
+  s23   266.70 ->  279.97  13.27s grezzi  ~ 17.7 car/s
+  s24   279.97 ->  291.95  11.98s grezzi  ~ 16.9 car/s
+  s25   291.95 ->  295.36   3.41s grezzi  ~ 15.3 car/s
+  [92 pezzi di testo · 68 spezzoni di audio · 16.2 car/s grezzi · pausa minima 0.22 s · 0 fuori fascia]
+
+traccia B  272.40 s grezzi  ·  23 blocchi
+  s26     0.00 ->    8.39   8.39s grezzi  ~ 19.8 car/s
+  s27     8.39 ->   23.45  15.06s grezzi  ~ 18.1 car/s
+  s28    23.45 ->   35.10  11.65s grezzi  ~ 19.3 car/s
+  s29    35.10 ->   46.54  11.44s grezzi  ~ 17.8 car/s
+  s30    46.54 ->   59.15  12.61s grezzi  ~ 19.1 car/s
+  s31    59.15 ->   69.36  10.21s grezzi  ~ 18.1 car/s
+  s32    69.36 ->   81.45  12.09s grezzi  ~ 17.5 car/s
+  s33    81.45 ->   96.55  15.09s grezzi  ~ 16.3 car/s
+  s34    96.55 ->  106.63  10.08s grezzi  ~ 16.8 car/s
+  s35   106.63 ->  111.10   4.48s grezzi  ~ 15.7 car/s
+  s36   111.10 ->  124.99  13.88s grezzi  ~ 16.1 car/s
+  s37   124.99 ->  138.34  13.35s grezzi  ~ 17.1 car/s
+  s38   138.34 ->  151.83  13.49s grezzi  ~ 18.4 car/s
+  s39   151.83 ->  163.94  12.11s grezzi  ~ 18.1 car/s
+  s40   163.94 ->  177.47  13.53s grezzi  ~ 18.1 car/s
+  s41   177.47 ->  188.16  10.69s grezzi  ~ 18.7 car/s
+  s42   188.16 ->  201.32  13.16s grezzi  ~ 17.5 car/s
+  s43   201.32 ->  205.65   4.33s grezzi  ~ 16.2 car/s
+  s44   205.65 ->  220.10  14.45s grezzi  ~ 16.4 car/s
+  s45   220.10 ->  234.27  14.17s grezzi  ~ 16.4 car/s
+  s46   234.27 ->  247.85  13.58s grezzi  ~ 16.4 car/s
+  s47   247.85 ->  259.11  11.26s grezzi  ~ 17.2 car/s
+  s48   259.11 ->  272.40  13.29s grezzi  ~ 17.4 car/s
+
+fuori fascia: 0
+prova.mp3: 45 spezzoni, 184.5 s — 1,6 s prima di ogni taglio, separati da 2.5 s di silenzio

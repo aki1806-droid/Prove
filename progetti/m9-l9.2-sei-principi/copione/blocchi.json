@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In un reparto si usa ancora un disinfettante molto irritante. Si puo' dare a tutti una mascherina, oppure cambiare prodotto. La legge dice con chiarezza quale strada va tentata per prima."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta sta nell'articolo 15 del decreto 81, che elenca le misure generali di tutela. Non sono consigli: sono il metodo che ogni datore di lavoro deve seguire."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prima si toglie il pericolo, poi ci si protegge."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Le parole di base: pericolo, rischio, prevenzione. Poi i sei principi, a coppie: prevenire e valutare, partecipare e programmare, formare e migliorare."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'elenco dell'articolo 15 e' lungo, dalla lettera a fino alla lettera z. Per ricordarlo conviene raggrupparlo in sei principi, come facciamo in questa lezione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il pericolo e' una proprieta' intrinseca di qualcosa: un agente chimico, una macchina, un virus. E' li', che lo si usi o no."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio e' la probabilita' che quel pericolo produca davvero un danno, nelle condizioni concrete in cui si lavora. Dipende da quanto, come e per quanto tempo si e' esposti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per stimarlo si guardano due cose insieme: quanto e' probabile che l'evento accada, e quanto sarebbe grave il danno. Cresce l'una o l'altra, cresce il rischio."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un ago usato e' un pericolo. Il rischio cambia molto se l'ago si reincappuccia a mano o se si getta subito nel contenitore rigido accanto al letto."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo due reparti con gli stessi pericoli possono avere rischi molto diversi: contano l'organizzazione, le procedure, gli strumenti e la formazione di chi ci lavora."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione e' l'insieme delle misure per evitare o diminuire i rischi professionali, rispettando anche la salute della popolazione e l'ambiente esterno."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la salute, per il decreto, non e' solo assenza di malattia. E' uno stato di completo benessere fisico, mentale e sociale, come nella definizione dell'Organizzazione mondiale della sanita'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: pericolo e rischio non sono sinonimi. Il pericolo e' la fonte del danno, il rischio e' la probabilita' che il danno si verifichi."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il pericolo resta, il rischio si puo' governare."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo principio e' la prevenzione primaria. Prima di tutto si eliminano i rischi. Solo quando non e' possibile, si riducono al minimo, secondo il progresso tecnico."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da qui discende un ordine preciso. Ridurre i rischi alla fonte. Sostituire cio' che e' pericoloso con cio' che non lo e', o lo e' meno. Limitare il numero di lavoratori esposti."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto: le misure di protezione collettiva hanno la priorita' su quelle individuali. Una cappa aspirante viene prima della mascherina."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo al disinfettante irritante. Prima si valuta se sostituirlo con uno meno pericoloso. Poi si migliora l'aerazione. Solo alla fine, per il rischio residuo, i dispositivi individuali."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo principio e' la valutazione dei rischi. E' la prima misura dell'elenco: una valutazione globale e documentata di tutti i rischi presenti nell'organizzazione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non basta guardare le macchine. Contano anche l'organizzazione del lavoro, i turni, l'ergonomia dei posti, il lavoro monotono e ripetitivo, e i gruppi di lavoratori piu' esposti."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tra le misure c'e' anche il controllo sanitario dei lavoratori e, per motivi di salute, l'allontanamento dall'esposizione, con l'adibizione, ove possibile, ad altra mansione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: i dispositivi di protezione individuale non sono la prima misura. Sono l'ultima barriera, quando il rischio non si puo' eliminare o ridurre in altro modo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Eliminare, ridurre, sostituire. Poi proteggere."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il terzo principio e' la partecipazione. Tra le misure generali ci sono la partecipazione e la consultazione dei lavoratori e dei loro rappresentanti per la sicurezza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi lavora in reparto conosce i rischi meglio di chiunque altro. Per questo la legge vuole che sia ascoltato, e non solo informato a cose fatte."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto principio e' la programmazione. La prevenzione va programmata come un insieme coerente, che tenga conto della tecnica, dell'ambiente e dell'organizzazione del lavoro."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Significa decidere priorita', tempi e responsabili. Le misure di prevenzione non si improvvisano quando accade un infortunio: si pianificano prima."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: i lavoratori segnalano mal di schiena nel sollevare i pazienti. Il rappresentante lo porta in riunione, e l'azienda programma sollevatori e formazione, con tempi e responsabili."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rientrano in questo quadro anche le misure di emergenza: primo soccorso, lotta antincendio, evacuazione, pericolo grave e immediato. E la manutenzione regolare di ambienti e impianti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono le istruzioni adeguate ai lavoratori e l'uso di segnali di avvertimento e di sicurezza. Il rischio si comunica anche con un cartello chiaro, nel posto giusto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: consultare i lavoratori non e' una cortesia facoltativa. La partecipazione e la consultazione sono misure generali di tutela, previste dalla legge."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi conosce il rischio, partecipa alle scelte."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il quinto principio e' la formazione. Il decreto chiede informazione e formazione adeguate per i lavoratori, per i dirigenti e i preposti, e per i rappresentanti per la sicurezza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono tre cose diverse. L'informazione fornisce conoscenze utili sui rischi. La formazione e' un processo educativo che costruisce competenze. L'addestramento insegna l'uso pratico di attrezzature e procedure."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La formazione va ripetuta periodicamente, e ogni volta che cambia la mansione o arrivano nuove attrezzature, nuove tecnologie o nuove sostanze."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sesto principio e' il miglioramento continuo. Il decreto chiede di programmare le misure per migliorare nel tempo i livelli di sicurezza, anche con codici di condotta e buone prassi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza non e' un traguardo raggiunto una volta per tutte. Si misura, si rivede, si aggiorna quando cambiano i processi, le tecnologie, le conoscenze."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il miglioramento passa anche dai quasi incidenti: eventi che non hanno fatto danni, ma avrebbero potuto. Segnalarli e analizzarli serve a prevenire quelli veri."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: dopo alcune punture accidentali, l'azienda introduce aghi con dispositivo di sicurezza, forma il personale e verifica dopo sei mesi se gli infortuni sono diminuiti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' una regola che chiude l'articolo 15: le misure di sicurezza, igiene e salute non devono in nessun caso comportare oneri finanziari per i lavoratori."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi i dispositivi di protezione, la formazione, le visite mediche sono a carico dell'azienda. La formazione, di regola, si svolge durante l'orario di lavoro."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: informazione, formazione e addestramento non sono la stessa cosa. Ricordale in ordine: conoscere, capire, saper fare."
+ },
+ {
+  "id": "s44",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sapere, saper fare, e fare sempre un po' meglio."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il pericolo e' la proprieta' intrinseca di un fattore, il rischio e' la probabilita' che produca un danno."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: l'articolo 15 mette al primo posto la valutazione dei rischi e l'eliminazione alla fonte; la protezione collettiva viene prima di quella individuale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i principi comprendono partecipazione, programmazione, formazione e miglioramento continuo, e la sicurezza non costa nulla al lavoratore."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il datore di lavoro non puo' far pagare ai lavoratori i dispositivi di protezione o i corsi obbligatori. Lo vieta l'articolo 15."
+ },
+ {
+  "id": "s49",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: si valuta, si elimina, si riduce, si coinvolge, si forma, si migliora. Nella prossima lezione: a chi si applica il decreto, e fino a dove arriva la nozione di lavoratore."
+ }
+]

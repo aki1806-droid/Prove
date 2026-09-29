@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,930
+Un'infermiera si punge con un ago usato durante la terapia. Trent'anni fa, in molti reparti, era considerato un incidente del mestiere. Oggi e' un evento da prevenire, registrare e analizzare.
+
+2
+00:00:14,930 --> 00:00:25,410
+In mezzo c'e' un cambio di mentalita': dalla sicurezza come elenco di divieti alla sicurezza come organizzazione. E quel cambio ha un nome: il decreto legislativo 81 del 2008.
+
+3
+00:00:25,410 --> 00:00:30,010
+Dalla regola da rispettare al rischio da governare.
+
+4
+00:00:30,010 --> 00:00:38,570
+Quattro passaggi. Le norme degli anni Cinquanta. La svolta europea degli anni Novanta. Il Testo Unico del 2008. E quello che e' cambiato dopo.
+
+5
+00:00:38,570 --> 00:00:49,360
+Il primo fondamento e' nel codice civile del 1942. L'articolo 2087 obbliga l'imprenditore a tutelare l'integrita' fisica e la personalita' morale di chi lavora.
+
+6
+00:00:49,360 --> 00:00:59,280
+Poi arriva la Costituzione. La salute e' un diritto fondamentale, il lavoro va tutelato in tutte le sue forme, e l'iniziativa economica non puo' svolgersi in modo da recare danno alla sicurezza.
+
+7
+00:00:59,280 --> 00:01:10,420
+Negli anni Cinquanta arrivano i primi decreti tecnici: uno del 1955 sulla prevenzione degli infortuni, uno del 1956 sull'igiene del lavoro, un altro sulle costruzioni.
+
+8
+00:01:10,420 --> 00:01:18,990
+Erano norme minuziose: altezza dei parapetti, protezione delle macchine, aerazione dei locali. Utili, ma pensate soprattutto per la fabbrica e il cantiere.
+
+9
+00:01:18,990 --> 00:01:26,950
+E la responsabilita' ricadeva quasi tutta sul datore di lavoro. Il lavoratore era visto come qualcuno da proteggere, non come un protagonista della prevenzione.
+
+10
+00:01:26,950 --> 00:01:39,720
+Nel 1970 lo Statuto dei lavoratori da' ai lavoratori il diritto di controllare l'applicazione delle norme di prevenzione. Nel 1978 la riforma sanitaria affida la vigilanza alle unita' sanitarie locali.
+
+11
+00:01:39,720 --> 00:01:50,210
+Un esempio: un ospedale degli anni Settanta doveva rispettare decine di prescrizioni tecniche, ma nessuna norma gli chiedeva di valutare, reparto per reparto, i rischi di chi ci lavorava.
+
+12
+00:01:50,210 --> 00:02:01,850
+Occhio a un distrattore: la sicurezza sul lavoro non nasce nel 2008. Nel 2008 le regole vengono riunite e riordinate, ma l'obbligo di tutela esisteva gia' dal 1942.
+
+13
+00:02:01,850 --> 00:02:06,450
+Tante regole, scritte in tempi diversi, ma nessun sistema.
+
+14
+00:02:06,450 --> 00:02:17,900
+La svolta arriva dall'Europa. Nel 1989 una direttiva quadro cambia l'impostazione: il datore di lavoro deve valutare i rischi e organizzare la prevenzione, coinvolgendo i lavoratori.
+
+15
+00:02:17,900 --> 00:02:27,700
+La direttiva introduce anche un principio chiave: il lavoratore non e' solo protetto, ma partecipa. Deve essere informato, formato e consultato sulle scelte di prevenzione.
+
+16
+00:02:27,700 --> 00:02:38,020
+L'Italia la recepisce con il decreto legislativo 626 del 1994. E' il decreto che fa entrare la sicurezza sul lavoro nel linguaggio comune, anche negli ospedali.
+
+17
+00:02:38,020 --> 00:02:46,860
+Due anni dopo, nel 1996, un decreto correttivo precisa molti punti del 626, anche per l'applicazione nelle pubbliche amministrazioni.
+
+18
+00:02:46,860 --> 00:02:57,530
+Con il 626 arrivano le figure che conosciamo ancora oggi: il servizio di prevenzione e protezione con il suo responsabile, il rappresentante dei lavoratori per la sicurezza, il medico competente.
+
+19
+00:02:57,530 --> 00:03:07,380
+E arrivano gli strumenti: il documento di valutazione dei rischi, la formazione dei lavoratori, la riunione periodica. La sicurezza diventa un processo, non solo un insieme di divieti.
+
+20
+00:03:07,380 --> 00:03:19,450
+Un esempio: dopo il 626 un'azienda sanitaria deve chiedersi, per ogni reparto, quali rischi corre chi ci lavora. Il laboratorio ha rischi diversi dalla radiologia, e la radiologia dalla cucina.
+
+21
+00:03:19,450 --> 00:03:28,620
+In quegli anni, in molte aziende sanitarie, nascono i primi servizi di prevenzione interni, spesso con poche persone e molto lavoro arretrato da recuperare.
+
+22
+00:03:28,620 --> 00:03:38,920
+Ma il quadro resta frammentato. Accanto al 626 restano in vigore i decreti degli anni Cinquanta e tante leggi speciali, spesso scritte in epoche diverse e non sempre coerenti tra loro.
+
+23
+00:03:38,920 --> 00:03:51,100
+Attenzione: il 626 del 1994 non e' una legge nata in Italia da zero. Recepisce la direttiva quadro europea del 1989 e altre direttive particolari.
+
+24
+00:03:51,100 --> 00:03:55,700
+Dall'Europa, l'idea di valutare e organizzare.
+
+25
+00:03:55,700 --> 00:04:07,410
+Nel 2007 il Parlamento delega il governo a riordinare tutta la materia in un unico testo. Nasce cosi' il decreto legislativo 81, del 9 aprile 2008.
+
+26
+00:04:07,410 --> 00:04:14,690
+Il riordino arriva anche sotto la spinta di gravi incidenti sul lavoro, che in quegli anni riportano la sicurezza al centro del dibattito pubblico.
+
+27
+00:04:14,690 --> 00:04:24,780
+Entra in vigore il 15 maggio 2008 e abroga il 626 e i vecchi decreti degli anni Cinquanta, riprendendone i contenuti ancora utili in un quadro unico.
+
+28
+00:04:24,780 --> 00:04:33,740
+E' un testo ampio: oltre trecento articoli, divisi in tredici titoli, e numerosi allegati tecnici. Il primo titolo contiene i principi comuni a tutti i settori.
+
+29
+00:04:33,740 --> 00:04:44,030
+Gli altri titoli trattano i rischi specifici: luoghi di lavoro, attrezzature, dispositivi di protezione, cantieri, segnaletica, movimentazione dei carichi, videoterminali.
+
+30
+00:04:44,030 --> 00:04:53,740
+E poi gli agenti fisici, come rumore, vibrazioni e radiazioni ottiche, le sostanze pericolose, gli agenti cancerogeni, gli agenti biologici, le atmosfere esplosive.
+
+31
+00:04:53,740 --> 00:05:02,430
+Lo chiamiamo tutti Testo Unico, ma e' un nome d'uso: formalmente e' un decreto legislativo, adottato in attuazione della legge delega del 2007.
+
+32
+00:05:02,430 --> 00:05:13,480
+Per le pubbliche amministrazioni il decreto chiarisce chi e' il datore di lavoro: il dirigente con poteri di gestione individuato dall'organo di vertice. In un'azienda sanitaria, di regola, il direttore generale.
+
+33
+00:05:13,480 --> 00:05:23,090
+Nel 2009 arriva un ampio correttivo, il decreto legislativo 106, che modifica molti articoli, precisa le deleghe e le sanzioni, ma non cambia l'impianto generale.
+
+34
+00:05:23,090 --> 00:05:33,510
+Un distrattore frequente: il decreto 81 non si applica solo alle imprese private. Vale per tutti i settori, pubblici e privati, e quindi anche per le aziende sanitarie.
+
+35
+00:05:33,510 --> 00:05:38,110
+Un solo testo, principi comuni, rischi specifici.
+
+36
+00:05:38,110 --> 00:05:47,120
+Il decreto 81 non e' rimasto fermo. Negli anni e' stato modificato molte volte, per adeguarlo a nuove direttive e ai problemi emersi nei luoghi di lavoro.
+
+37
+00:05:47,120 --> 00:05:56,960
+Nel 2021 una legge ha rafforzato il ruolo del preposto, che deve intervenire e interrompere l'attivita' in caso di comportamenti pericolosi, e ha rivisto le regole sulla formazione.
+
+38
+00:05:56,960 --> 00:06:06,040
+Nel 2024 e' arrivata la patente a crediti per le imprese che lavorano nei cantieri: chi accumula violazioni perde punti, e senza punti non puo' piu' lavorare.
+
+39
+00:06:06,040 --> 00:06:16,570
+Sono cresciute anche le sanzioni e i poteri di vigilanza, e sono arrivate regole nuove per i cantieri. La direzione e' sempre la stessa: meno adempimenti di carta, piu' prevenzione reale.
+
+40
+00:06:16,570 --> 00:06:25,140
+E cambiano anche i numeri: gli importi delle sanzioni vengono rivalutati nel tempo. Per l'esame conviene ricordare i principi e le figure, piu' che le singole cifre.
+
+41
+00:06:25,140 --> 00:06:35,660
+Un esempio in reparto: il coordinatore infermieristico, che organizza i turni e controlla il lavoro, e' di regola un preposto. E dal 2021 ha doveri di vigilanza piu' precisi.
+
+42
+00:06:35,660 --> 00:06:47,160
+Attenzione: quando studi, controlla sempre il testo aggiornato. Molte dispense citano ancora il 626 come legge in vigore, o riportano versioni superate del decreto 81.
+
+43
+00:06:47,160 --> 00:06:51,760
+Una legge viva, che cambia con il lavoro.
+
+44
+00:06:51,760 --> 00:07:01,740
+Le tre cose che ti chiederanno. La prima: le radici sono l'articolo 2087 del codice civile, la Costituzione e i decreti tecnici degli anni Cinquanta.
+
+45
+00:07:01,740 --> 00:07:15,440
+La seconda: il decreto 626 del 1994 recepisce la direttiva quadro europea e introduce valutazione dei rischi, servizio di prevenzione, rappresentante dei lavoratori e medico competente.
+
+46
+00:07:15,440 --> 00:07:27,150
+La terza: il decreto 81 del 2008 riunisce la materia in un unico testo, vale per tutti i settori pubblici e privati, ed e' stato corretto nel 2009 e aggiornato piu' volte.
+
+47
+00:07:27,150 --> 00:07:36,850
+L'ultimo distrattore: Testo Unico non e' il nome ufficiale. Il nome corretto e' decreto legislativo 9 aprile 2008, numero 81.
+
+48
+00:07:36,850 --> 00:07:45,410
+In sintesi: dalle regole sparse al sistema, dalla fabbrica a tutti i luoghi di lavoro. Nella prossima lezione: i principi su cui si regge la prevenzione.
