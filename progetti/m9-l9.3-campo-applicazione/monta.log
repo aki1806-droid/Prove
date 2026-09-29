@@ -14,3 +14,54 @@
   s15  audio  10.25s  scena  10.24s  scarto   10 ms
   s16  audio   9.83s  scena   9.84s  scarto   10 ms
   s17  audio  10.96s  scena  10.96s  scarto    0 ms
+  s18  audio   9.01s  scena   9.00s  scarto   10 ms
+  s19  audio   8.98s  scena   8.98s  scarto    0 ms
+  s20  audio   8.36s  scena   8.36s  scarto    0 ms
+  s21  audio  12.39s  scena  12.39s  scarto    0 ms
+  s22  audio  11.61s  scena  11.60s  scarto   10 ms
+  s23  audio  10.01s  scena  10.00s  scarto   10 ms
+  s24  audio   9.04s  scena   9.04s  scarto    0 ms
+  s25  audio   4.60s  scena   4.60s  scarto    0 ms
+  s26  audio   7.94s  scena   7.94s  scarto    0 ms
+  s27  audio  12.28s  scena  12.28s  scarto    0 ms
+  s28  audio   9.05s  scena   9.04s  scarto   10 ms
+  s29  audio   8.55s  scena   8.56s  scarto   10 ms
+  s30  audio  10.15s  scena  10.16s  scarto   10 ms
+  s31  audio   8.38s  scena   8.38s  scarto    0 ms
+  s32  audio   9.51s  scena   9.52s  scarto   10 ms
+  s33  audio  11.73s  scena  11.72s  scarto   10 ms
+  s34  audio   8.28s  scena   8.28s  scarto    0 ms
+  s35  audio   4.60s  scena   4.60s  scarto    0 ms
+  s36  audio  10.90s  scena  10.91s  scarto   10 ms
+  s37  audio  10.34s  scena  10.35s  scarto   10 ms
+  s38  audio  10.43s  scena  10.44s  scarto   10 ms
+  s39  audio   9.07s  scena   9.07s  scarto    0 ms
+  s40  audio  10.71s  scena  10.72s  scarto   10 ms
+  s41  audio   8.18s  scena   8.19s  scarto   10 ms
+  s42  audio  10.67s  scena  10.68s  scarto   10 ms
+  s43  audio   4.60s  scena   4.60s  scarto    0 ms
+  s44  audio  11.08s  scena  11.08s  scarto    0 ms
+  s45  audio  11.65s  scena  11.64s  scarto   10 ms
+  s46  audio  11.07s  scena  11.07s  scarto    0 ms
+  s47  audio   9.34s  scena   9.35s  scarto   10 ms
+  s48  audio   9.85s  scena   9.84s  scarto   10 ms
+
+49 scene · parlato 437.5 s · con copertina 3 s e chiusura 10 s → 7:30.5
+scarto massimo audio/video: 10 ms su s28
+montato-9.3.mp4  7:30.80  15 MB
+montato-9.3.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 126 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata
+CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)
+
+  [OK  ] verifica per trascrizione (traccia intera): 100.0% delle parole coincide, buchi nel parlato: 0
+  [OK  ] fascia 8.5-21 car/s: tutti dentro
+  [OK  ] PNG renderizzati e guardati: 49 su 49 scene (tetto 50)
+  [OK  ] nessuna slide sfora la cornice: 0 sforano
+  [OK  ] scene totali: 49 (tetto 50)
+  [OK  ] durata 7:30.80 — chiesti 7:01.00
+  [OK  ] sottotitoli SRT: 47 righe su 47 blocchi
+  [NO  ] registro con la sezione «da verificare»
+
+7/8 superati
+FATTO

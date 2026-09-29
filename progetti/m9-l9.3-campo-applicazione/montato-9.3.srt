@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,470
+In una sala operatoria lavorano insieme un'infermiera dipendente, uno specializzando, una studentessa in tirocinio e il tecnico di una ditta esterna. Chi di loro e' tutelato dal decreto 81?
+
+2
+00:00:14,470 --> 00:00:23,460
+La risposta e': tutti. Ma ciascuno in modo diverso, e con responsabilita' che ricadono su soggetti diversi. Capire il campo di applicazione serve proprio a questo.
+
+3
+00:00:23,460 --> 00:00:28,060
+La tutela segue il lavoro, non il contratto.
+
+4
+00:00:28,060 --> 00:00:38,470
+Quattro passaggi. L'universalita' del decreto. La nozione di lavoratore. I casi di tirocinanti, specializzandi e volontari. E il lavoro delle ditte esterne dentro l'ospedale.
+
+5
+00:00:38,470 --> 00:00:47,030
+L'articolo 3 apre con una frase netta: il decreto si applica a tutti i settori di attivita', privati e pubblici, e a tutte le tipologie di rischio.
+
+6
+00:00:47,030 --> 00:00:57,150
+Non ci sono settori esclusi in partenza. Ospedali, uffici, laboratori, cucine, magazzini, servizi territoriali: ovunque c'e' lavoro organizzato, si applica il decreto.
+
+7
+00:00:57,150 --> 00:01:04,700
+Il decreto vuole anche una tutela uniforme su tutto il territorio nazionale, con gli stessi livelli essenziali di protezione in ogni regione.
+
+8
+00:01:04,700 --> 00:01:15,050
+Per alcuni ambiti, come forze armate, polizia, vigili del fuoco, protezione civile, universita' e scuole, le regole si applicano tenendo conto delle particolari esigenze del servizio.
+
+9
+00:01:15,050 --> 00:01:22,050
+Ma attenzione: non e' un'esclusione. E' un adattamento, che deve essere definito con appositi decreti. La tutela resta.
+
+10
+00:01:22,050 --> 00:01:32,800
+E il decreto copre tutti i rischi: non solo quelli fisici e chimici, ma anche quelli legati all'organizzazione, come lo stress lavoro correlato, e le differenze di genere, di eta' e di provenienza.
+
+11
+00:01:32,800 --> 00:01:42,330
+Un esempio: in un'azienda sanitaria il decreto vale per il pronto soccorso come per l'ufficio del personale. Cambiano i rischi da valutare, non l'obbligo di valutarli.
+
+12
+00:01:42,330 --> 00:01:52,490
+Occhio a un distrattore: forze armate, polizia e vigili del fuoco non sono esclusi dal decreto. Il decreto si applica anche a loro, adattato alle esigenze del servizio.
+
+13
+00:01:52,490 --> 00:01:57,090
+Tutti i settori, tutti i rischi, nessuna esclusione.
+
+14
+00:01:57,090 --> 00:02:07,340
+Il cuore della lezione e' la definizione di lavoratore, all'articolo 2. E' la persona che svolge un'attivita' lavorativa nell'organizzazione di un datore di lavoro, pubblico o privato.
+
+15
+00:02:07,340 --> 00:02:17,170
+Tre parole contano piu' di tutte. Primo: indipendentemente dalla tipologia contrattuale. Tempo indeterminato, determinato, somministrato, part time: non fa differenza.
+
+16
+00:02:17,170 --> 00:02:28,130
+Secondo: con o senza retribuzione. Anche chi non e' pagato, se lavora dentro l'organizzazione, e' tutelato. Terzo: anche al solo fine di apprendere un mestiere, un'arte o una professione.
+
+17
+00:02:28,130 --> 00:02:37,140
+E' una nozione sostanziale, non formale. Non si guarda l'etichetta del contratto, ma il fatto che una persona lavori dentro un'organizzazione altrui, esposta ai suoi rischi.
+
+18
+00:02:37,140 --> 00:02:46,120
+Il lavoratore somministrato, inviato da un'agenzia, e' tutelato anche dall'azienda dove lavora, che deve proteggerlo dai rischi del luogo di lavoro come i propri dipendenti.
+
+19
+00:02:46,120 --> 00:02:54,480
+Resta tutelato anche chi lavora a distanza o in modalita' agile: il datore di lavoro deve informarlo sui rischi e fornirgli attrezzature adeguate e sicure.
+
+20
+00:02:54,480 --> 00:03:06,870
+La legge equipara poi al lavoratore alcune figure: i soci lavoratori di cooperativa, i tirocinanti, gli allievi di scuole e universita' quando usano laboratori, attrezzature e agenti chimici, fisici o biologici.
+
+21
+00:03:06,870 --> 00:03:18,480
+Restano fuori soltanto gli addetti ai servizi domestici e familiari. Per i lavoratori autonomi valgono regole minime: attrezzature a norma, dispositivi di protezione, e il cartellino di riconoscimento negli appalti.
+
+22
+00:03:18,480 --> 00:03:28,490
+Un esempio: un'operatrice socio sanitaria assunta da una cooperativa lavora in reparto. E' lavoratrice ai fini del decreto, anche se il suo contratto non e' con l'azienda sanitaria.
+
+23
+00:03:28,490 --> 00:03:37,530
+Attenzione: non e' vero che il decreto tutela solo i dipendenti a tempo indeterminato. Conta il lavoro svolto nell'organizzazione, non il tipo di contratto.
+
+24
+00:03:37,530 --> 00:03:42,130
+Conta dove lavori, non come sei assunto.
+
+25
+00:03:42,130 --> 00:03:50,070
+In sanita' questa nozione estesa ha conseguenze concrete, perche' negli ospedali lavorano molte persone che non sono dipendenti.
+
+26
+00:03:50,070 --> 00:04:02,350
+I tirocinanti, come gli studenti dei corsi di laurea in infermieristica, sono equiparati ai lavoratori. Devono ricevere informazione, formazione, dispositivi di protezione e, se esposti, sorveglianza sanitaria.
+
+27
+00:04:02,350 --> 00:04:11,400
+Gli specializzandi svolgono attivita' assistenziale in reparto, sotto la guida dei tutor. Sono esposti agli stessi rischi del personale, e devono avere la stessa protezione.
+
+28
+00:04:11,400 --> 00:04:19,950
+Chi deve garantirla dipende dagli accordi tra universita' e azienda sanitaria. Ma per chi lavora in reparto le misure devono esserci, e devono essere uguali.
+
+29
+00:04:19,950 --> 00:04:30,100
+I volontari, per esempio quelli delle associazioni che operano in ospedale, hanno una tutela piu' leggera. Ma l'azienda deve informarli sui rischi specifici e sulle misure di emergenza.
+
+30
+00:04:30,100 --> 00:04:38,480
+E deve adottare le misure utili a eliminare o ridurre al minimo i rischi di interferenza tra l'attivita' dei volontari e quella del personale.
+
+31
+00:04:38,480 --> 00:04:47,990
+Per tutti la regola pratica e' la stessa: prima di entrare in reparto bisogna sapere quali rischi si incontrano, cosa fare in caso di emergenza e a chi rivolgersi.
+
+32
+00:04:47,990 --> 00:04:59,720
+Un esempio: una studentessa di infermieristica in tirocinio si punge con un ago. L'evento va gestito come per un dipendente: primo soccorso, profilassi, segnalazione, analisi dell'accaduto.
+
+33
+00:04:59,720 --> 00:05:08,000
+Un distrattore frequente: il tirocinante non pagato non e' escluso dalla tutela. La legge lo equipara espressamente al lavoratore.
+
+34
+00:05:08,000 --> 00:05:12,600
+Chi impara in reparto, va protetto come chi ci lavora.
+
+35
+00:05:12,600 --> 00:05:23,500
+Resta un caso tipico dell'ospedale: le ditte esterne. Pulizie, mensa, manutenzione, trasporti, lavanderia. Il loro personale lavora dentro gli spazi dell'azienda sanitaria.
+
+36
+00:05:23,500 --> 00:05:33,840
+Qui il decreto chiede cooperazione e coordinamento. Il committente verifica l'idoneita' dell'impresa, la informa sui rischi dei luoghi e coordina gli interventi di prevenzione.
+
+37
+00:05:33,840 --> 00:05:44,270
+Lo strumento e' il documento unico di valutazione dei rischi da interferenze. Individua i rischi che nascono dalla presenza contemporanea di piu' imprese e le misure per eliminarli o ridurli.
+
+38
+00:05:44,270 --> 00:05:53,340
+Il documento si allega al contratto d'appalto e si aggiorna quando cambiano i lavori. E i costi della sicurezza per le interferenze non possono essere ribassati in gara.
+
+39
+00:05:53,340 --> 00:06:04,050
+Un esempio: la ditta delle pulizie lava i pavimenti del corridoio mentre passano i letti dei pazienti. Il rischio di scivolare nasce dall'incontro delle due attivita', e va previsto prima.
+
+40
+00:06:04,050 --> 00:06:12,230
+E chi lavora per una ditta in appalto deve essere riconoscibile: porta una tessera con fotografia, generalita' e indicazione del proprio datore di lavoro.
+
+41
+00:06:12,230 --> 00:06:22,900
+Attenzione: il personale delle ditte esterne non e' fuori dalla responsabilita' dell'azienda sanitaria. Per i rischi da interferenza, il committente deve cooperare e coordinare.
+
+42
+00:06:22,900 --> 00:06:27,500
+Dove si incontrano due lavori, nasce un rischio nuovo.
+
+43
+00:06:27,500 --> 00:06:38,580
+Le tre cose che ti chiederanno. La prima: il decreto si applica a tutti i settori, pubblici e privati, e a tutte le tipologie di rischio; per alcuni ambiti si adatta, ma non esclude.
+
+44
+00:06:38,580 --> 00:06:50,230
+La seconda: lavoratore e' chi lavora nell'organizzazione altrui, con qualunque contratto, con o senza retribuzione, anche solo per imparare; tirocinanti e allievi sono equiparati.
+
+45
+00:06:50,230 --> 00:07:01,300
+La terza: per le ditte esterne servono cooperazione, coordinamento e il documento sui rischi da interferenze; per i volontari, informazione e riduzione delle interferenze.
+
+46
+00:07:01,300 --> 00:07:10,640
+L'ultimo distrattore: gli unici esclusi dalla nozione di lavoratore sono gli addetti ai servizi domestici e familiari, non i precari o i tirocinanti.
+
+47
+00:07:10,640 --> 00:07:20,490
+In sintesi: la tutela segue la persona che lavora, ovunque e comunque lavori. Nella prossima lezione: le figure della sicurezza, dal datore di lavoro al medico competente.
