@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'azienda sanitaria deve acquistare nuovi letti per la terapia intensiva. Servono in fretta, devono essere buoni e il prezzo deve essere giusto. Quale regola viene prima?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per anni la risposta e' stata: la procedura. Carte perfette, anche se i letti arrivavano tardi. Il codice dei contratti del 2023 prova a cambiare la risposta: prima di tutto, il risultato."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Dalla procedura come fine al risultato come fine."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. I problemi del vecchio codice. Come nasce il codice del 2023. I tre principi che lo reggono: risultato, fiducia, accesso al mercato. E gli altri principi da conoscere."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Gli appalti pubblici sono i contratti con cui un'amministrazione acquista lavori, beni e servizi. Muovono una parte importante della spesa pubblica, e nella sanita' una parte enorme."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole vengono in gran parte dalle direttive europee: concorrenza, parita' di trattamento, trasparenza. L'Italia le ha recepite con codici che si sono succeduti nel tempo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli anni Novanta arriva la legge quadro sui lavori pubblici. Nel 2006 il primo codice dei contratti. Nel 2016 un nuovo codice, il decreto legislativo 50, che recepisce le direttive del 2014."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice del 2016 rinviava molte regole a linee guida e a un regolamento che non e' mai arrivato del tutto. Il risultato era un sistema frammentato, difficile da leggere e da applicare."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' stato modificato decine di volte: correttivi, decreti per sbloccare i cantieri, semplificazioni legate alla pandemia e al piano nazionale di ripresa e resilienza."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il funzionario, stretto fra regole instabili e timore di sbagliare, tendeva a difendersi: piu' carte, piu' pareri, meno decisioni. E' quella che si chiama burocrazia difensiva."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: per paura di contestazioni, una gara per un servizio semplice viene appesantita da richieste inutili. Partecipano poche imprese, i tempi si allungano, e il reparto aspetta."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il codice del 2016 non e' piu' quello da studiare. Dal primo luglio 2023 le nuove procedure seguono il decreto legislativo 36 del 2023."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Troppe regole instabili producono paura, non legalita'."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Nel 2022 il Parlamento approva una legge delega per riscrivere la materia. Il testo del nuovo codice viene preparato dal Consiglio di Stato, con un lavoro di semplificazione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nasce cosi' il decreto legislativo 31 marzo 2023, numero 36: il nuovo codice dei contratti pubblici. Entra in vigore il primo aprile 2023, ma le sue regole si applicano dal primo luglio."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La digitalizzazione di tutto il ciclo di vita dei contratti diventa operativa dal primo gennaio 2024: piattaforme telematiche, banca dati nazionale, fascicolo digitale dell'impresa."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La novita' di metodo e' che il codice e' autoapplicativo: non serve un regolamento per farlo funzionare. Le regole di dettaglio stanno negli allegati, che fanno parte del codice stesso."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' diviso in libri: principi e disposizioni comuni, appalti nei settori ordinari, settori speciali, partenariato pubblico privato e concessioni, contenzioso e disposizioni finali."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole seguono le fasi del contratto: programmazione, progettazione, scelta del contraente, esecuzione. Chi lavora in un ufficio acquisti le ritrova nello stesso ordine in cui le incontra."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla fine del 2024 e' arrivato un decreto correttivo, che ha ritoccato molti articoli senza cambiarne l'impostazione. Per l'esame conviene conoscere l'architettura e i principi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: l'azienda che compra i letti oggi usa una piattaforma telematica certificata, e i dati della gara confluiscono nella banca dati nazionale dei contratti pubblici."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il nuovo codice non ha bisogno di un regolamento attuativo per funzionare. Le regole di dettaglio sono negli allegati."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un codice che si applica da solo, allegati compresi."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il codice si apre con tre principi. Il primo, all'articolo 1, e' il principio del risultato: affidare ed eseguire il contratto con la massima tempestivita' e il miglior rapporto tra qualita' e prezzo."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato non scavalca la legge: va perseguito nel rispetto dei principi di legalita', trasparenza e concorrenza. Ma diventa il criterio per esercitare la discrezionalita'."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo, all'articolo 2, e' il principio della fiducia: fiducia nell'azione legittima, trasparente e corretta dell'amministrazione, dei suoi funzionari e degli operatori economici."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve a valorizzare l'iniziativa e l'autonomia decisionale dei funzionari. Per questo il codice delimita la colpa grave e prevede coperture assicurative per il personale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo, all'articolo 3, e' il principio dell'accesso al mercato: favorire la partecipazione delle imprese, nel rispetto di concorrenza, imparzialita', non discriminazione, pubblicita' e proporzionalita'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tre principi non sono decorazioni. L'articolo 4 dice che le altre norme del codice si interpretano e si applicano alla luce di questi tre principi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo ai letti. Se il bando chiede requisiti sproporzionati, poche imprese partecipano e la consegna ritarda. Si tradiscono insieme il risultato e l'accesso al mercato."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il principio del risultato non autorizza a violare le regole per fare prima. Il risultato si persegue nel rispetto della legalita'."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Risultato, fiducia, mercato: la bussola del codice."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Seguono altri principi. Buona fede e tutela dell'affidamento: amministrazione e imprese devono comportarsi con correttezza, anche prima della firma del contratto."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Solidarieta' e sussidiarieta' orizzontale, che consentono forme di collaborazione con il terzo settore. E auto organizzazione: l'amministrazione puo' scegliere se fare da se' o affidare all'esterno."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'autonomia contrattuale, la conservazione dell'equilibrio del contratto quando circostanze straordinarie lo alterano, e la tassativita' delle cause di esclusione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un principio tocca da vicino il lavoro: al personale impiegato negli appalti si applica il contratto collettivo nazionale del settore, indicato dalla stazione appaltante."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono regole trasversali: prevenire e risolvere i conflitti di interesse di chi partecipa alla procedura, e garantire la trasparenza lungo tutto il ciclo di vita del contratto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli affidamenti sotto soglia vale anche il principio di rotazione: di regola non si affida di nuovo allo stesso contraente uscente due commesse consecutive dello stesso settore."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il servizio di pulizie di un ospedale viene affidato. Nel bando va indicato il contratto collettivo applicabile, a tutela di chi lavorera' nei reparti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le cause di esclusione non si inventano bando per bando. Sono tassative: quelle previste dal codice, e non altre."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Principi chiari per decisioni piu' libere e piu' responsabili."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il nuovo codice e' il decreto legislativo 36 del 2023, in vigore dal primo aprile e applicabile dal primo luglio 2023."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: e' autoapplicativo, con le regole di dettaglio negli allegati; la digitalizzazione del ciclo di vita dei contratti e' operativa dal 2024."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: i principi guida sono il risultato, la fiducia e l'accesso al mercato, e le altre norme si interpretano alla loro luce."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il principio della fiducia non elimina i controlli. Valorizza l'autonomia dei funzionari, dentro regole di legalita' e trasparenza."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: meno burocrazia difensiva, piu' risultato, piu' fiducia. Nella prossima lezione: che cosa distingue un appalto da una concessione, e a quali contratti si applica il codice."
+ }
+]
