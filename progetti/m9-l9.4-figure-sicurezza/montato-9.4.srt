@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:14,900
+In un reparto un sollevatore per pazienti e' guasto da settimane. Il personale lo sa, il coordinatore lo sa, qualcuno ha anche scritto una mail. Ma chi, esattamente, doveva fare che cosa?
+
+2
+00:00:14,900 --> 00:00:25,590
+Il decreto 81 risponde con una catena di figure, ciascuna con i suoi obblighi. Se la catena funziona, il problema si risolve in fretta. Se si spezza, qualcuno ne risponde.
+
+3
+00:00:25,590 --> 00:00:30,190
+Ogni anello della catena ha il suo compito.
+
+4
+00:00:30,190 --> 00:00:41,260
+Quattro passaggi. Il datore di lavoro e i suoi obblighi non delegabili. Dirigenti e preposti. Il servizio di prevenzione e il medico competente. I lavoratori e i loro rappresentanti.
+
+5
+00:00:41,260 --> 00:00:53,110
+Il datore di lavoro e' chi ha la responsabilita' dell'organizzazione, con poteri decisionali e di spesa. Nelle pubbliche amministrazioni e' il dirigente con poteri di gestione, individuato dall'organo di vertice.
+
+6
+00:00:53,110 --> 00:01:02,330
+Se l'individuazione manca, o non rispetta i criteri, il datore di lavoro coincide con l'organo di vertice. In un'azienda sanitaria, di regola, il direttore generale.
+
+7
+00:01:02,330 --> 00:01:09,520
+E' la figura che risponde per prima: dalle sue scelte di organizzazione e di spesa dipende tutto il sistema di prevenzione dell'azienda.
+
+8
+00:01:09,520 --> 00:01:20,760
+Il datore di lavoro ha due obblighi che non puo' delegare a nessuno: la valutazione di tutti i rischi, con il documento che ne deriva, e la designazione del responsabile del servizio di prevenzione e protezione.
+
+9
+00:01:20,760 --> 00:01:33,680
+Per il resto, puo' delegare. Ma la delega di funzioni ha condizioni precise: atto scritto con data certa, un delegato con professionalita' ed esperienza adeguate, e tutti i poteri di organizzazione, gestione e controllo.
+
+10
+00:01:33,680 --> 00:01:42,200
+Il delegato deve avere anche l'autonomia di spesa necessaria, e deve accettare la delega per iscritto. Alla delega va data adeguata e tempestiva pubblicita'.
+
+11
+00:01:42,200 --> 00:01:50,020
+E la delega non libera del tutto il datore di lavoro: resta il suo obbligo di vigilare che il delegato svolga correttamente le funzioni trasferite.
+
+12
+00:01:50,020 --> 00:01:59,150
+Occhio a un distrattore: la valutazione dei rischi non si puo' delegare. Il datore di lavoro puo' farsi aiutare, ma la responsabilita' del documento resta sua.
+
+13
+00:01:59,150 --> 00:02:03,910
+Si possono delegare i compiti, non la responsabilita' di valutare.
+
+14
+00:02:03,910 --> 00:02:13,730
+Il dirigente attua le direttive del datore di lavoro: organizza l'attivita' lavorativa e vigila su di essa, con competenze professionali e poteri adeguati all'incarico.
+
+15
+00:02:13,730 --> 00:02:26,510
+In sanita' sono dirigenti, per la sicurezza, i direttori di struttura complessa e i responsabili dei servizi. Hanno obblighi propri: designare gli addetti alle emergenze, fornire i dispositivi, formare e informare.
+
+16
+00:02:26,510 --> 00:02:35,770
+Il preposto e' chi sovrintende all'attivita' lavorativa e garantisce l'attuazione delle direttive, controllando che siano eseguite correttamente, con un potere di iniziativa.
+
+17
+00:02:35,770 --> 00:02:46,960
+Deve vigilare che i lavoratori rispettino le regole e usino i dispositivi di protezione, far accedere alle zone a rischio grave solo chi e' stato istruito, e segnalare subito carenze e pericoli.
+
+18
+00:02:46,960 --> 00:02:59,320
+Dal 2021 i suoi compiti sono piu' incisivi: se vede un comportamento pericoloso deve intervenire per correggerlo e, se serve, interrompere l'attivita'. E il datore di lavoro deve individuarlo formalmente.
+
+19
+00:02:59,320 --> 00:03:06,590
+Dirigenti e preposti ricevono una formazione specifica, in aggiunta a quella dei lavoratori, e devono aggiornarla periodicamente.
+
+20
+00:03:06,590 --> 00:03:17,250
+Torniamo al sollevatore guasto. Il coordinatore, come preposto, deve segnalarlo subito al dirigente. Il dirigente deve provvedere, e intanto va organizzata un'alternativa sicura.
+
+21
+00:03:17,250 --> 00:03:26,410
+Attenzione: preposto non e' un titolo, e' una funzione. Chi di fatto sovrintende al lavoro di altri e' preposto, anche senza una nomina scritta.
+
+22
+00:03:26,410 --> 00:03:31,010
+Chi dirige organizza, chi sovrintende vigila.
+
+23
+00:03:31,010 --> 00:03:42,600
+Il servizio di prevenzione e protezione e' l'insieme di persone e mezzi che supporta il datore di lavoro. E' guidato da un responsabile, designato dal datore di lavoro, a cui risponde.
+
+24
+00:03:42,600 --> 00:03:53,240
+Il servizio individua i fattori di rischio, contribuisce alla valutazione, elabora misure e procedure di sicurezza, propone i programmi di formazione e partecipa alla riunione periodica.
+
+25
+00:03:53,240 --> 00:04:02,440
+Per farne parte serve almeno un diploma di scuola superiore e corsi specifici con verifica dell'apprendimento. Per il responsabile e' richiesta una formazione ulteriore.
+
+26
+00:04:02,440 --> 00:04:10,830
+Nelle strutture di ricovero e cura con oltre cinquanta lavoratori il servizio deve essere interno, e anche il responsabile deve essere interno all'azienda.
+
+27
+00:04:10,830 --> 00:04:19,960
+Il medico competente e' nominato dal datore di lavoro. Collabora alla valutazione dei rischi, programma ed effettua la sorveglianza sanitaria, e visita gli ambienti di lavoro.
+
+28
+00:04:19,960 --> 00:04:28,500
+Esprime il giudizio di idoneita' alla mansione: idoneo, idoneo con prescrizioni o limitazioni, non idoneo in modo temporaneo o permanente.
+
+29
+00:04:28,500 --> 00:04:37,180
+Per ogni lavoratore sottoposto a sorveglianza tiene una cartella sanitaria e di rischio, coperta dal segreto professionale, che va conservata per almeno dieci anni.
+
+30
+00:04:37,180 --> 00:04:46,360
+Un distrattore frequente: il responsabile del servizio di prevenzione non e' il datore di lavoro. E' un consulente tecnico che lo supporta, e non ne prende il posto.
+
+31
+00:04:46,360 --> 00:04:51,250
+Il servizio consiglia, il medico sorveglia, il datore decide.
+
+32
+00:04:51,250 --> 00:05:00,730
+Anche i lavoratori hanno obblighi precisi. Ognuno deve prendersi cura della propria salute e sicurezza e di quella delle altre persone presenti, secondo la formazione ricevuta.
+
+33
+00:05:00,730 --> 00:05:10,420
+Devono osservare le istruzioni, usare correttamente attrezzature e dispositivi, segnalare subito carenze e pericoli, partecipare alla formazione e sottoporsi ai controlli sanitari.
+
+34
+00:05:10,420 --> 00:05:18,020
+E non devono rimuovere o modificare i dispositivi di sicurezza, ne' compiere di propria iniziativa operazioni che non sono di loro competenza.
+
+35
+00:05:18,020 --> 00:05:28,240
+Il rappresentante dei lavoratori per la sicurezza e' eletto o designato dai lavoratori. Accede ai luoghi di lavoro, e' consultato sulla valutazione dei rischi e riceve copia del documento.
+
+36
+00:05:28,240 --> 00:05:36,220
+Il numero dei rappresentanti cresce con le dimensioni dell'azienda. In una grande azienda sanitaria ce ne sono diversi, per coprire sedi e servizi.
+
+37
+00:05:36,220 --> 00:05:44,660
+Puo' fare proposte, segnalare i rischi e, se le misure non sono adeguate, rivolgersi agli organi di vigilanza. Non puo' subire pregiudizi per la sua attivita'.
+
+38
+00:05:44,660 --> 00:05:55,380
+Nelle aziende con piu' di quindici lavoratori, almeno una volta all'anno si tiene la riunione periodica: datore di lavoro, responsabile del servizio, medico competente e rappresentante dei lavoratori.
+
+39
+00:05:55,380 --> 00:06:06,100
+In quella riunione si esaminano il documento di valutazione, l'andamento di infortuni e malattie professionali, i dispositivi di protezione e i programmi di formazione. E si redige un verbale.
+
+40
+00:06:06,100 --> 00:06:16,780
+Attenzione: il rappresentante dei lavoratori per la sicurezza non e' nominato dal datore di lavoro. E' eletto o designato dai lavoratori, di norma nell'ambito delle rappresentanze sindacali.
+
+41
+00:06:16,780 --> 00:06:21,380
+La sicurezza e' un lavoro di squadra, con ruoli chiari.
+
+42
+00:06:21,380 --> 00:06:30,940
+Le tre cose che ti chiederanno. La prima: il datore di lavoro non puo' delegare la valutazione dei rischi e la designazione del responsabile del servizio di prevenzione.
+
+43
+00:06:30,940 --> 00:06:39,900
+La seconda: il dirigente organizza e vigila, il preposto sovrintende e controlla; il lavoratore deve curare la propria sicurezza e quella degli altri.
+
+44
+00:06:39,900 --> 00:06:50,940
+La terza: il servizio di prevenzione supporta il datore di lavoro, il medico competente fa la sorveglianza sanitaria, il rappresentante dei lavoratori e' eletto o designato dai lavoratori.
+
+45
+00:06:50,940 --> 00:06:58,960
+L'ultimo distrattore: la riunione periodica non e' facoltativa. Oltre i quindici lavoratori va convocata almeno una volta all'anno.
+
+46
+00:06:58,960 --> 00:07:10,800
+In sintesi: un datore che valuta, dirigenti che organizzano, preposti che vigilano, lavoratori che partecipano. Nella prossima lezione: il documento di valutazione, la formazione e i dispositivi di protezione.
