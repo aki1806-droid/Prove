@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:12,240
+Una regione vuole sapere quanto ha speso nell'anno per la tutela della salute, e quanto di quella spesa e' andato in investimenti. Dove lo trova, nel bilancio?
+
+2
+00:00:12,240 --> 00:00:22,190
+Lo trova perche' ogni spesa ha un indirizzo preciso: una missione, un programma, un titolo. Il sistema di bilancio armonizzato e' costruito come una mappa, uguale per tutti.
+
+3
+00:00:22,190 --> 00:00:27,340
+Ogni euro ha un indirizzo, scritto nello stesso modo per tutti.
+
+4
+00:00:27,340 --> 00:00:38,140
+Quattro passaggi. I documenti del sistema di bilancio. Come si classificano le entrate. Come si classificano le spese. E il piano dei conti integrato, con il documento unico di programmazione.
+
+5
+00:00:38,140 --> 00:00:50,840
+Il sistema di bilancio degli enti territoriali parte dalla programmazione. Per gli enti locali il documento guida e' il DUP, il documento unico di programmazione; per le regioni, il documento di economia e finanza regionale.
+
+6
+00:00:50,840 --> 00:00:59,910
+Poi viene il bilancio di previsione finanziario. Copre almeno tre anni: per ciascuno indica le previsioni di competenza, e per il primo anno anche le previsioni di cassa.
+
+7
+00:00:59,910 --> 00:01:07,110
+Il bilancio di previsione degli enti locali si approva entro il trentuno dicembre dell'anno precedente. E' il documento che autorizza la spesa.
+
+8
+00:01:07,110 --> 00:01:16,220
+Negli enti locali la giunta traduce il bilancio nel piano esecutivo di gestione, il PEG: assegna ai dirigenti obiettivi e risorse, capitolo per capitolo.
+
+9
+00:01:16,220 --> 00:01:26,950
+A fine anno c'e' il rendiconto, che dimostra i risultati. Comprende il conto del bilancio, il conto economico e lo stato patrimoniale. Negli enti locali si approva entro il trenta aprile.
+
+10
+00:01:26,950 --> 00:01:37,580
+Nel rendiconto il risultato di amministrazione dice se l'ente ha chiuso in avanzo o in disavanzo, e quali quote sono gia' vincolate, accantonate o destinate agli investimenti.
+
+11
+00:01:37,580 --> 00:01:46,820
+Infine il bilancio consolidato, che somma i conti dell'ente con quelli degli enti e delle societa' che controlla. Negli enti locali si approva entro il trenta settembre.
+
+12
+00:01:46,820 --> 00:01:59,040
+Un esempio: un comune approva a dicembre il bilancio dei tre anni successivi, a gennaio il PEG; il rendiconto del primo anno arriva entro aprile dell'anno dopo, il consolidato entro settembre.
+
+13
+00:01:59,040 --> 00:02:07,880
+Occhio a un distrattore: il bilancio di previsione degli enti territoriali non e' solo annuale. E' almeno triennale, con la cassa per il primo anno.
+
+14
+00:02:07,880 --> 00:02:13,680
+Programmare, prevedere, gestire, rendicontare, consolidare.
+
+15
+00:02:13,680 --> 00:02:25,470
+Le entrate si classificano in titoli, secondo la fonte di provenienza; poi in tipologie, secondo la natura; e in categorie, secondo l'oggetto. Tre livelli, dal generale al particolare.
+
+16
+00:02:25,470 --> 00:02:34,390
+Il primo titolo raccoglie le entrate correnti di natura tributaria, contributiva e perequativa: tributi propri, compartecipazioni, fondi perequativi.
+
+17
+00:02:34,390 --> 00:02:45,200
+Il secondo sono i trasferimenti correnti, da altre amministrazioni. Il terzo, le entrate extratributarie: vendita di beni e servizi, proventi, interessi, rimborsi.
+
+18
+00:02:45,200 --> 00:02:54,760
+Il quarto titolo sono le entrate in conto capitale, per esempio contributi agli investimenti e alienazioni. Il quinto, le entrate da riduzione di attivita' finanziarie.
+
+19
+00:02:54,760 --> 00:03:04,770
+Il sesto e' l'accensione di prestiti, il settimo le anticipazioni dal tesoriere. Poi le entrate per conto terzi e le partite di giro, che l'ente incassa e poi riversa.
+
+20
+00:03:04,770 --> 00:03:14,400
+Distinguere i titoli serve a verificare gli equilibri: le entrate correnti, cioe' i primi tre titoli, devono coprire le spese correnti e le quote di rimborso dei prestiti.
+
+21
+00:03:14,400 --> 00:03:24,600
+Un esempio: un contributo della regione per rifare un ponte e' un'entrata in conto capitale, titolo quarto. Il fondo per le spese di gestione e' un trasferimento corrente.
+
+22
+00:03:24,600 --> 00:03:34,780
+Attenzione: le entrate non si fermano a sei titoli, come in alcuni quiz. Ci sono anche le anticipazioni dal tesoriere e le entrate per conto terzi e partite di giro.
+
+23
+00:03:34,780 --> 00:03:39,380
+Da dove arriva il denaro dice che cosa puo' finanziare.
+
+24
+00:03:39,380 --> 00:03:50,330
+Le spese si classificano prima per missioni, che rappresentano le funzioni principali e gli obiettivi strategici dell'ente. Per le regioni, la missione tredici e' la tutela della salute.
+
+25
+00:03:50,330 --> 00:04:00,200
+Le missioni si articolano in programmi, cioe' aggregati omogenei di attivita' per realizzare gli obiettivi. E' la classificazione che permette di sapere a che cosa servono le spese.
+
+26
+00:04:00,200 --> 00:04:09,740
+Poi ci sono i titoli, che dicono la natura economica della spesa. Il primo sono le spese correnti, il secondo le spese in conto capitale, cioe' gli investimenti.
+
+27
+00:04:09,740 --> 00:04:19,520
+Seguono le spese per incremento di attivita' finanziarie, il rimborso dei prestiti, la chiusura delle anticipazioni dal tesoriere e le uscite per conto terzi e partite di giro.
+
+28
+00:04:19,520 --> 00:04:29,070
+I titoli si dividono in macroaggregati: per le spese correnti, per esempio, redditi da lavoro dipendente, acquisto di beni e servizi, trasferimenti, interessi.
+
+29
+00:04:29,070 --> 00:04:38,990
+Missioni e programmi sono raccordati alla classificazione europea delle funzioni di governo. Cosi' la spesa per la salute di una regione italiana si confronta con quella di altri paesi.
+
+30
+00:04:38,990 --> 00:04:48,480
+Il consiglio vota il bilancio per tipologie di entrata e per programmi di spesa; il dettaglio in capitoli lo gestisce poi la giunta, con il piano esecutivo di gestione.
+
+31
+00:04:48,480 --> 00:04:58,310
+Torniamo alla regione. Nella missione tredici trova tutta la spesa per la salute; guardando il titolo secondo vede quanto e' andato in investimenti, come nuovi ospedali.
+
+32
+00:04:58,310 --> 00:05:08,320
+Un distrattore frequente: le missioni non indicano la natura della spesa. Indicano la finalita'; la natura economica la dicono i titoli e i macroaggregati.
+
+33
+00:05:08,320 --> 00:05:13,540
+La missione dice perche' si spende, il titolo dice come.
+
+34
+00:05:13,540 --> 00:05:24,560
+Tutte queste classificazioni si agganciano al piano dei conti integrato, previsto dall'articolo 4 e riportato in un allegato. E' unico per tutti gli enti che adottano la contabilita' finanziaria.
+
+35
+00:05:24,560 --> 00:05:34,650
+Si chiama integrato perche' collega tre contabilita': finanziaria, economica e patrimoniale. Da una stessa registrazione si ricavano gli effetti su tutti e tre i conti.
+
+36
+00:05:34,650 --> 00:05:45,160
+E' organizzato per livelli, dal titolo fino alla voce piu' di dettaglio. I codici del piano dei conti viaggiano anche sui pagamenti e sugli incassi registrati dal sistema dei tesorieri.
+
+37
+00:05:45,160 --> 00:05:54,750
+Il DUP e' il presupposto di tutti gli altri documenti. Ha una sezione strategica, che copre il mandato dell'amministrazione, e una sezione operativa, che copre il triennio.
+
+38
+00:05:54,750 --> 00:06:03,550
+Negli enti locali la giunta presenta il DUP al consiglio entro il trentuno luglio, per il triennio successivo. Poi lo aggiorna insieme al bilancio di previsione.
+
+39
+00:06:03,550 --> 00:06:12,920
+Nel DUP si fissano gli indirizzi: programma dei lavori pubblici, fabbisogno di personale, piano delle alienazioni. Il bilancio traduce quegli indirizzi in numeri.
+
+40
+00:06:12,920 --> 00:06:23,680
+Un esempio: un comune decide nel DUP di ristrutturare una casa di riposo. L'opera entra nel programma dei lavori, poi nel bilancio al titolo secondo della missione giusta.
+
+41
+00:06:23,680 --> 00:06:32,390
+Attenzione: il DUP non e' un documento facoltativo, ne' riguarda le aziende sanitarie. E' lo strumento di programmazione degli enti locali.
+
+42
+00:06:32,390 --> 00:06:36,990
+Un solo piano dei conti, tre contabilita' collegate.
+
+43
+00:06:36,990 --> 00:06:48,010
+Le tre cose che ti chiederanno. La prima: il sistema di bilancio comprende programmazione, bilancio di previsione almeno triennale, PEG, rendiconto e bilancio consolidato.
+
+44
+00:06:48,010 --> 00:06:58,040
+La seconda: le entrate si classificano in titoli, tipologie e categorie; le spese in missioni, programmi, titoli e macroaggregati.
+
+45
+00:06:58,040 --> 00:07:08,690
+La terza: il piano dei conti integrato collega contabilita' finanziaria, economica e patrimoniale; il DUP e' il documento unico di programmazione degli enti locali.
+
+46
+00:07:08,690 --> 00:07:17,980
+L'ultimo distrattore: il rendiconto degli enti locali non si approva entro il trentuno dicembre. Si approva entro il trenta aprile dell'anno successivo.
+
+47
+00:07:17,980 --> 00:07:26,030
+In sintesi: una mappa comune per ogni euro pubblico. Nella prossima lezione: il Titolo secondo del decreto, dedicato alle aziende sanitarie.
