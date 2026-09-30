@@ -1,0 +1,303 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Trenta domande, dalle undici materie del corso. Per ognuna vedi le quattro risposte sullo schermo. Se vuoi metterti alla prova, ferma il video e scegli, prima di sentire la soluzione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ogni domanda diro' la lettera giusta e il perche' in una frase. Il perche' conta piu' della lettera: e' quello che ti fa riconoscere la stessa trappola in una domanda diversa."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Non conta indovinare: conta sapere perche'."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro serie. Sanita' nazionale e Veneto. Azienda, procedimento e trasparenza. Privacy, lavoro pubblico e sicurezza. Infine sicurezza, appalti e contabilita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Domanda uno. Quale legge istituisce le unita' sanitarie locali? Risposta B: la legge 833 del 1978. Il decreto 502 del 1992 le trasformera' in aziende, con personalita' giuridica pubblica."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda due. Chi nomina il direttore amministrativo di un'azienda sanitaria? Risposta C: il direttore generale. La Regione nomina il direttore generale; e' lui a scegliere il direttore amministrativo e quello sanitario."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda tre. Che cosa da' diritto a essere pagati dal servizio sanitario? Risposta C: l'accordo contrattuale, entro volumi e tetti di spesa. L'accreditamento da solo non obbliga a remunerare le prestazioni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda quattro. Di quando sono i LEA vigenti? Risposta A: del 12 gennaio 2017. Il 2001 e' l'anno del primo elenco, oggi superato, e il 1999 quello del decreto che li introduce."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda cinque. Da quando le ULSS del Veneto sono nove? Risposta D: dal primo gennaio 2017. La legge regionale 19 e' dell'ottobre 2016, ma il nuovo assetto parte dopo."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda sei. Chi approva il Piano di Zona? Risposta C: il Comitato dei Sindaci del distretto. Non la Regione e non il direttore generale: il Piano di Zona e' lo strumento dei Comuni per i servizi sociali."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda sette. Che cos'e' la centrale operativa territoriale? Risposta A: la centrale della continuita' delle cure, che governa le transizioni. Non e' il 118, che gestisce l'emergenza."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda otto. Di che cosa si occupa la legge regionale 56 del 1994? Risposta B: del riordino del servizio sanitario regionale. Programmazione, contabilita' e controlli sono della 55, sua gemella."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Otto domande, e dietro ogni risposta sbagliata una trappola precisa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Domanda nove. Chi nomina il direttore generale di un'azienda ospedaliero universitaria? Risposta D: la Regione, d'intesa con il Rettore. Nessuno dei due da solo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda dieci. Chi adotta l'atto aziendale? Risposta B: il direttore generale, sui criteri della Regione, che poi lo approva. Non e' una legge regionale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda undici. Che cos'e' una unita' operativa semplice? Risposta A: una struttura dentro una complessa, senza budget autonomo. E' la UOSD a rispondere al dipartimento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda dodici. Qual e' il termine generale del procedimento, se nessuna norma ne fissa un altro? Risposta B: trenta giorni. Si puo' arrivare a novanta, e in casi particolari a centottanta, ma serve una norma che lo preveda."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda tredici. Quando vale il silenzio assenso? Risposta D: nei procedimenti a istanza di parte, salvo le materie escluse come la salute. Non e' la regola generale."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda quattordici. Che cosa serve per l'accesso documentale? Risposta A: un interesse diretto, concreto e attuale, collegato al documento. E la richiesta va motivata."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda quindici. Per quanto restano pubblicati i dati in Amministrazione trasparente? Risposta C: di regola cinque anni, dal primo gennaio successivo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda sedici. Chi puo' chiedere l'accesso civico generalizzato? Risposta B: chiunque, senza motivazione, anche su dati e documenti che non sono da pubblicare. E' il FOIA italiano, dal 2016."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi chiede, perche' chiede, entro quando si risponde."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Domanda diciassette. Da quando si applica il regolamento europeo sulla protezione dei dati? Risposta D: dal 25 maggio 2018. In vigore lo era dal 2016: e' la trappola della lezione precedente."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda diciotto. Su quale base un'azienda sanitaria pubblica tratta i dati per curare? Risposta C: la finalita' di cura, con il segreto professionale. Non sul consenso."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda diciannove. Entro quando si notifica al Garante una violazione dei dati? Risposta A: entro settantadue ore da quando il titolare ne e' venuto a conoscenza, fine settimana compreso."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda venti. A quale giudice vanno le liti sul rapporto di lavoro pubblico? Risposta B: al giudice ordinario. Al giudice amministrativo restano le liti sui concorsi per l'assunzione."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventuno. Quanto dura un incarico dirigenziale? Risposta C: da tre a cinque anni. La forbice da due a sette anni era la regola di fine anni Novanta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventidue. Chi decide il rimprovero verbale? Risposta D: il responsabile della struttura. Le sanzioni piu' gravi spettano all'ufficio per i procedimenti disciplinari."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventitre'. Chi sceglie il rappresentante dei lavoratori per la sicurezza? Risposta A: i lavoratori, che lo eleggono o lo designano, di norma tra le rappresentanze sindacali. Non il datore di lavoro."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi decide, chi nomina, chi risponde: sempre la stessa domanda."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Domanda ventiquattro. Che posto hanno i dispositivi di protezione individuale tra le misure di tutela? Risposta B: l'ultimo. Vengono dopo l'eliminazione del rischio e la protezione collettiva."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda venticinque. Dove si ricorre contro il giudizio del medico competente? Risposta C: all'organo di vigilanza, entro trenta giorni. Non al datore di lavoro."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventisei. Qual e' il criterio ordinario di aggiudicazione negli appalti? Risposta A: l'offerta economicamente piu' vantaggiosa. Il minor prezzo e' l'eccezione, per le prestazioni standardizzate."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventisette. Che cosa si puo' prestare con l'avvalimento? Risposta D: i requisiti speciali. I requisiti generali, come l'onorabilita', non si prestano, e l'impresa ausiliaria risponde in solido."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventotto. Entro quanto pagano i fornitori le aziende sanitarie? Risposta B: sessanta giorni. Trenta e' il termine ordinario per le altre amministrazioni."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda ventinove. Quanti sono i principi contabili generali del decreto 118? Risposta C: diciotto. Alcune dispense ne contano diciassette, e dimenticano la prevalenza della sostanza sulla forma."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.3,
+  "text": "Domanda trenta. Entro quando la Giunta approva il consolidato del servizio sanitario regionale? Risposta A: il 30 giugno. Il 30 aprile le aziende adottano i propri bilanci, il 31 maggio la Giunta li approva."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta domande, e le trappole sono sempre le stesse."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: quasi un terzo di queste domande chiedeva chi fa che cosa. Nomine, approvazioni, controlli: ripassali per soggetto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: molte altre chiedevano date e termini. Trenta giorni, sessanta giorni, settantadue ore, il 30 giugno. Sono i numeri della lezione precedente."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: se una risposta ti ha sorpreso, torna alla lezione da cui viene. Ogni domanda di oggi ha la sua spiegazione piu' ampia in una lezione del corso."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: una simulazione andata bene non vuol dire che il ripasso sia finito. Ripeti le domande sbagliate tra qualche giorno, e controlla di ricordare il perche'."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: trenta domande, e un metodo per le prossime. Nell'ultima lezione del corso: le ultime quarantotto ore prima della prova."
+ }
+]

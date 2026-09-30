@@ -1,0 +1,38 @@
+{
+ "A": {
+  "parole_copione": 684,
+  "parole_dette": 684,
+  "coincidenti": 681,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "primo",
+    "detto": "1"
+   },
+   {
+    "blocco": "s07",
+    "copione": "primo",
+    "detto": "1"
+   },
+   {
+    "blocco": "s10",
+    "copione": "primo",
+    "detto": "1"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 627,
+  "parole_dette": 628,
+  "coincidenti": 626,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "10000",
+    "detto": "10 000"
+   }
+  ]
+ }
+}

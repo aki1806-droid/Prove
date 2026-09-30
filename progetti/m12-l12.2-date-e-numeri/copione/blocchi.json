@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In una prova a quiz molte domande chiedono una data, un numero, un termine. Sono le domande che si sbagliano per un soffio, e che si possono preparare con certezza."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In tutto il corso ne sono passate centinaia. Qui ne restano sessanta: quelle che tornano piu' spesso nei quiz e che reggono tutte le altre. Non vanno capite di nuovo: vanno ripassate, fino a saperle a memoria."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Sessanta numeri, e ognuno con la sua storia."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro gruppi. La sanita' nazionale. Il Veneto e l'azienda. Procedimento, trasparenza e privacy. E infine lavoro pubblico, sicurezza, appalti e contabilita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Uno: la legge 833 del 1978, che istituisce il servizio sanitario nazionale. Due: febbraio 1992, il Trattato di Maastricht. Tre: la legge delega 421 del 1992."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: il decreto 502 del dicembre 1992, che crea le aziende sanitarie. Cinque: il decreto 517 del 1993, che lo corregge. Sei: il decreto 229 del 1999, la riforma che introduce i LEA."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette: da tre a cinque anni, il contratto del direttore generale. Otto: il 2001, anno del primo elenco dei LEA e della riforma del Titolo quinto della Costituzione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nove: il 12 gennaio 2017, data dei LEA vigenti. Dieci: tre macroaree, cioe' prevenzione, assistenza distrettuale e assistenza ospedaliera."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Undici: il decreto 68 del 2011, che introduce i costi standard nel riparto. Dodici: tre organi dell'azienda, cioe' direttore generale, collegio di direzione e collegio sindacale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un modo per ricordarle: raccontale come una storia. Nel 1978 nasce il servizio, nel 1992 diventa azienda, nel 1999 si completa, e dal 2001 la Costituzione lo divide tra Stato e Regioni."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il decreto 517 compare due volte in questo corso. Quello del 1993 corregge il 502; quello del 1999 disciplina le aziende ospedaliero universitarie."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Settantotto, novantadue, novantanove: la sanita' in tre anni."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Tredici: il 14 settembre 1994, le leggi regionali 55 e 56. Quattordici: la legge regionale 19 del 25 ottobre 2016, che istituisce Azienda Zero."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindici: il primo gennaio 2017, quando le ULSS passano da ventuno a nove. Sedici: il 30 settembre, entro cui la Giunta riferisce ogni anno al Consiglio regionale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Diciassette: il 31 dicembre, per il bilancio preventivo dell'anno dopo. Diciotto: il 30 aprile, per il bilancio d'esercizio dell'anno appena chiuso."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Diciannove: cinque hub, con un bacino di circa un milione di abitanti ciascuno. Venti: quattro reti tempo dipendenti, cioe' emergenza, cardiologia, trauma e ictus."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventuno: da quattro a sei settimane, la degenza di norma nelle cure intermedie. Ventidue: la delibera 1306 del 2017, sull'atto aziendale nel Veneto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventitre': il decreto 171 del 2016, con l'elenco nazionale dei direttori generali, verificati entro ventiquattro mesi. Ventiquattro: il decreto 517 del 1999, sulle aziende ospedaliero universitarie."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un modo per ricordarle: il 1994 fonda il modello veneto, il 2016 lo riorganizza, il 2017 lo rende operativo. E i bilanci corrono tra due date, 31 dicembre e 30 aprile."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Novantaquattro fonda, duemilasedici riorganizza."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Venticinque: la legge 241 del 7 agosto 1990. Ventisei: trenta giorni, il termine generale del procedimento, fino a novanta e in casi particolari fino a centottanta."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventisette: una sola sospensione, per non piu' di trenta giorni. Ventotto: dieci giorni per le osservazioni dopo il preavviso di rigetto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventinove: un anno dalla scadenza del termine, per ricorrere contro il silenzio. Trenta: nell'accesso documentale, dieci giorni per l'opposizione e trenta per concludere."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trentuno: la legge 190 del 2012, anticorruzione. Trentadue: il decreto 33 del 2013, sulla trasparenza. Trentatre': il decreto 97 del 2016, che introduce l'accesso civico generalizzato."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trentaquattro: cinque anni di pubblicazione, dal primo gennaio successivo. Trentacinque: venti giorni per il riesame del responsabile della trasparenza."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trentasei: da cinquecento a diecimila euro, la sanzione per alcuni obblighi di pubblicazione. Trentasette: la legge 675 del 31 dicembre 1996, la prima sulla privacy."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trentotto: il codice della privacy del 2003, in vigore dal 2004. Trentanove: il regolamento europeo del 27 aprile 2016, che si applica dal 25 maggio 2018."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quaranta: settantadue ore per notificare una violazione dei dati. Quarantuno: un mese per rispondere ai diritti dell'interessato, prorogabile di due."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarantadue: le sanzioni del regolamento, fino a dieci milioni o il due per cento, e fino a venti milioni o il quattro per cento del fatturato."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione a due termini gemelli: dieci giorni ai controinteressati per opporsi valgono sia nell'accesso documentale sia nel FOIA. Ma solo il primo richiede una motivazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta giorni per decidere, settantadue ore per avvisare."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Quarantatre': il decreto 29 del 1993, che avvia la privatizzazione del lavoro pubblico. Quarantaquattro: il decreto 165 del 2001, che la riordina."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarantacinque: da tre a cinque anni, l'incarico dirigenziale. Quarantasei: nel procedimento disciplinare, trenta giorni per contestare, venti di preavviso, centoventi per concludere."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarantasette: sei mesi, la sospensione massima dal servizio. Quarantotto: il piano della performance entro il 31 gennaio, la relazione entro il 30 giugno."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarantanove: il decreto 81 del 9 aprile 2008, sulla sicurezza. Cinquanta: la direttiva quadro europea del 1989, recepita dal decreto 626 del 1994."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinquantuno: trenta giorni, per rielaborare la valutazione dei rischi e per ricorrere contro il giudizio del medico competente. Cinquantadue: oltre quindici lavoratori, la riunione periodica annuale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinquantatre': il codice dei contratti, decreto 36 del 2023, in vigore dal primo aprile e applicato dal primo luglio. Cinquantaquattro: centoquarantamila euro, sotto cui si affida direttamente."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinquantacinque: almeno cinque operatori invitati nella procedura negoziata. Cinquantasei: trenta punti al massimo al prezzo, quando il criterio e' l'offerta economicamente piu' vantaggiosa."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinquantasette: sessanta giorni, il termine di pagamento per le aziende sanitarie. Cinquantotto: la legge 42 del 2009 e il decreto 118 del 2011, sull'armonizzazione dei bilanci."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinquantanove: diciotto principi contabili generali. Sessanta: il 30 giugno, entro cui la Giunta approva il bilancio consolidato del servizio sanitario regionale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio: i centoquarantamila euro valgono per servizi e forniture. Per i lavori l'affidamento diretto arriva a centocinquantamila, e le soglie europee cambiano ogni due anni."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trenta, sessanta, centoventi: i giorni che contano."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: ogni data si ricorda con il suo fatto. Il 1978 e' la nascita del servizio, il 1992 le aziende, il 2016 Azienda Zero e il regolamento europeo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: i termini tornano. Trenta giorni ricorrono nel procedimento, nell'accesso, nel disciplinare e nella sicurezza; il 30 aprile e il 31 dicembre in ogni bilancio."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le soglie e i termini degli appalti cambiano nel tempo. Prima della prova, controlla le cifre vigenti sul bando e sui testi aggiornati."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il GDPR non e' del 2018. E' del 2016; dal 2018 si applica. E' la data che piu' spesso finisce nel posto sbagliato."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: sessanta numeri, legati ai loro fatti. Nella prossima lezione: una simulazione commentata, trenta domande sulle undici materie."
+ }
+]

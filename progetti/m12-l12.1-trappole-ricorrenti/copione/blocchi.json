@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Una domanda da quiz: il regolamento europeo sulla protezione dei dati e' entrato in vigore il 25 maggio 2018. Vero o falso? Molti rispondono vero. Ed e' falso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il regolamento entra in vigore nel 2016, e dal 25 maggio 2018 si applica. Chi ha studiato lo sa, ma sotto tempo una data giusta al posto sbagliato inganna. E le trappole dei quiz si ripetono."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi conosce la forma della trappola, non ci cade."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro trappole. Le date vicine. I numeri simili. Le parole assolute, come sempre e mai. E le competenze scambiate tra organi: chi nomina, chi approva, chi decide."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La prima trappola usa due date vere, ma le scambia. Succede quando una norma ha piu' momenti: approvazione, entrata in vigore, applicazione. Il quiz ne prende uno e lo attacca all'altro."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice dei contratti pubblici, decreto 36 del 2023, entra in vigore il primo aprile e si applica dal primo luglio. Due date dello stesso anno, a tre mesi di distanza: il terreno ideale per un distrattore."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei bilanci succede lo stesso. Il preventivo si approva entro il 31 dicembre dell'anno prima; il bilancio d'esercizio si adotta entro il 30 aprile dell'anno dopo. Il consolidato regionale, entro il 30 giugno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono le sequenze. Il Trattato di Maastricht a febbraio del 1992, la legge delega 421 a ottobre, il decreto 502 a dicembre. Il quiz inverte l'ordine, e mette il decreto prima della delega."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono gli anni che si confondono. La legge regionale 19 e' dell'ottobre 2016, ma le nove ULSS partono dal primo gennaio 2017. Il modello hub and spoke nasce con il Piano del 2012, non con quello del 2019."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il metodo e' semplice: per ogni data chiediti che cosa succede. Una norma nasce, entra in vigore, si applica. Se la domanda usa un verbo e la data appartiene a un altro, la risposta e' sbagliata."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il codice della privacy e' del 2003, entra in vigore nel 2004, e non e' stato abrogato dal regolamento europeo. Tre fatti e tre trappole possibili, in una sola domanda."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la trappola delle date non si vince imparando piu' date. Si vince legando ogni data al suo verbo, e ai due o tre fatti che la circondano."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni data ha un verbo: nasce, entra in vigore, si applica."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La seconda trappola sono i numeri che si somigliano. Leggi con lo stesso numero e anni diversi, numeri vicini e materie lontane. Il quiz ne cambia uno solo, e la frase sembra ancora giusta."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso piu' insidioso e' il 517. Il decreto 517 del 1993 corregge il 502. Il decreto 517 del 1999 disciplina le aziende ospedaliero universitarie. Stesso numero, sei anni di distanza, due materie."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel Veneto c'e' la 55. La legge regionale 55 del 1982 non e' la 55 del 1994. E tra le leggi gemelle del 1994, la 55 regola programmazione e conti, la 56 il riordino. Invertirle e' l'errore classico."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella privacy ci sono la legge 675 del 1996, il codice del 2003 e il regolamento europeo 679 del 2016. Il 675 e il 679 si somigliano, ma tra l'uno e l'altro ci sono vent'anni e un cambio di sistema."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel lavoro pubblico, il decreto 29 del 1993 avvia la privatizzazione e il 165 del 2001 la riordina. Nella sicurezza, il 626 del 1994 anticipa l'81 del 2008, che oggi e' il riferimento."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli appalti le cause di esclusione non stanno piu' all'articolo 80, che era del codice del 2016: oggi stanno agli articoli 94 e seguenti. Nella contabilita', la legge 42 del 2009 delega e il decreto 118 del 2011 attua."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un quiz chiede quale norma disciplina le aziende ospedaliero universitarie, e offre il decreto 517 del 1993. Il numero e' giusto, l'anno no. Basta quello per sbagliare."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio: il numero da solo non basta mai. Una legge si ricorda con tre elementi insieme, numero, anno e materia. Se uno dei tre non torna, il quiz ti sta tendendo una trappola."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Numero, anno e materia: sempre tutti e tre."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La terza trappola sono le parole assolute: sempre, mai, solo, tutti, nessuno. Nel diritto le regole hanno quasi sempre eccezioni, e la parola assoluta le cancella."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il silenzio assenso non e' la regola generale: vale nei procedimenti a istanza di parte, e non per la salute. E il consenso non e' l'unica base per trattare i dati: e' una su sei."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'accesso documentale non spetta a chiunque: serve un interesse diretto, concreto e attuale. L'accesso civico, al contrario, spetta davvero a chiunque, e senza motivazione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il diritto all'oblio non e' assoluto: cede davanti alla conservazione della cartella clinica. E i dispositivi di protezione individuale non sono la prima misura: sono l'ultima barriera."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma attenzione a non generalizzare: a volte l'assoluto e' giusto. Un contratto a termine irregolare non diventa mai un posto fisso nella pubblica amministrazione. Qui il mai e' corretto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nella sicurezza gli unici esclusi dalla nozione di lavoratore sono gli addetti ai servizi domestici e familiari. Quando e' la legge a usare l'assoluto, il quiz lo riprende fedelmente."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la sanzione da cinquecento a diecimila euro vale per ogni omessa pubblicazione? No, riguarda soprattutto i dati dell'articolo 14. E' il per ogni a rendere falsa la frase."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la parola assoluta non prova che la risposta sia sbagliata. E' un segnale per rileggere. Chiediti se conosci un'eccezione: se la conosci, la frase e' falsa."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Davanti a sempre e mai, cerca l'eccezione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La quarta trappola scambia i soggetti. La frase descrive un atto vero, ma lo attribuisce a chi non lo compie. Nomina, approva, adotta, presiede: ogni verbo ha il suo titolare."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Regione nomina il direttore generale. Il direttore generale nomina il direttore amministrativo e il direttore sanitario. Nell'azienda ospedaliero universitaria la Regione nomina d'intesa con il Rettore."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale adotta il bilancio d'esercizio; alla Regione spetta il controllo. Il Piano di Zona lo approva il Comitato dei Sindaci del distretto, non la Regione e non il direttore generale."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il consiglio dei sanitari lo presiede il direttore sanitario, il collegio di direzione il direttore generale. Il Comitato dei direttori generali lo presiede il direttore dell'Area Sanita' e Sociale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella sicurezza il rappresentante dei lavoratori e' eletto o designato dai lavoratori, non nominato dal datore. Nella privacy la violazione la notifica il titolare, non il responsabile della protezione dei dati."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel pubblico impiego l'OIV valida la relazione sulla performance, non il piano. E il rimprovero verbale lo decide il responsabile della struttura, non l'ufficio per i procedimenti disciplinari."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: chi nomina il direttore generale di Azienda Zero? Non la Giunta nel suo insieme, e non il Consiglio regionale: lo nomina il Presidente della Giunta regionale."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un trucco frequente: il soggetto sbagliato e' quasi sempre vicino a quello giusto. Regione e Giunta, direttore generale e direttore sanitario. Il quiz non inventa: sposta."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ogni verbo ha il suo titolare: chi nomina, chi approva, chi controlla."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: ogni data ha un verbo. Nascita, entrata in vigore, applicazione e scadenza non sono la stessa cosa."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: una legge si riconosce da tre elementi insieme, numero, anno e materia. Se il quiz ne cambia uno solo, la risposta e' sbagliata."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: davanti a una parola assoluta cerca l'eccezione, e davanti a un atto chiediti chi ne e' il titolare."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: non c'e' una regola per cui la risposta piu' lunga, o sempre la stessa lettera, sia quella giusta. Nei quiz ben fatti l'unica strategia che regge e' conoscere la materia."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: le trappole si ripetono, e chi le riconosce guadagna punti. Nella prossima lezione: le sessanta date e numeri da mandare a memoria."
+ }
+]
