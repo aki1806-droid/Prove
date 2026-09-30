@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:13,180
+In un'azienda sanitaria viene scoperta una tangente sulle forniture di laboratorio. La sentenza diventa definitiva. Oltre al dipendente condannato, chi altro deve rispondere?
+
+2
+00:00:13,180 --> 00:00:23,570
+La legge 190 da' una risposta precisa: anche il responsabile della prevenzione, salvo che dimostri di aver fatto il proprio lavoro. E' una delle figure piu' esposte dell'intera amministrazione.
+
+3
+00:00:23,570 --> 00:00:28,170
+Chi deve prevenire risponde di cio' che non ha prevenuto.
+
+4
+00:00:28,170 --> 00:00:37,580
+Quattro passaggi. Come viene nominato e perche' deve essere autonomo. Che cosa fa. Di che cosa risponde. E la rete di persone che lavora con lui.
+
+5
+00:00:37,580 --> 00:00:48,510
+La sigla e' RPCT: responsabile della prevenzione della corruzione e della trasparenza. Dal 2016 le due funzioni, prima separate, sono riunite di norma in una sola persona.
+
+6
+00:00:48,510 --> 00:00:56,220
+Lo individua l'organo di indirizzo, di norma tra i dirigenti di ruolo in servizio. In azienda sanitaria la nomina spetta al direttore generale.
+
+7
+00:00:56,220 --> 00:01:06,210
+La legge chiede di disporre le modifiche organizzative necessarie perche' il responsabile abbia funzioni e poteri idonei, e possa svolgere l'incarico con piena autonomia ed effettivita'.
+
+8
+00:01:06,210 --> 00:01:15,560
+Il nome del responsabile va comunicato all'ANAC e pubblicato sul sito, in Amministrazione trasparente. Chiunque deve poter sapere chi presidia la prevenzione in quell'ente.
+
+9
+00:01:15,560 --> 00:01:26,770
+Proprio per garantire l'autonomia, il Piano nazionale sconsiglia di scegliere dirigenti che operano nelle aree piu' a rischio, come contratti o patrimonio, e chi guida l'ufficio per i procedimenti disciplinari.
+
+10
+00:01:26,770 --> 00:01:37,010
+L'autonomia e' anche protetta. Le misure discriminatorie contro il responsabile, per motivi legati alle sue funzioni, vanno segnalate all'ANAC, che puo' chiedere informazioni e intervenire.
+
+11
+00:01:37,010 --> 00:01:45,610
+Serve infine una struttura di supporto adeguata: persone e mezzi. Nelle aziende grandi e' di solito un ufficio dedicato, che lavora con il responsabile.
+
+12
+00:01:45,610 --> 00:01:55,410
+Attenzione: l'RPCT non e' un consulente esterno. E' di norma un dirigente di ruolo in servizio nell'amministrazione, nominato dall'organo di indirizzo.
+
+13
+00:01:55,410 --> 00:02:00,210
+Un dirigente interno, nominato dal vertice, ma autonomo.
+
+14
+00:02:00,210 --> 00:02:12,120
+Il primo compito e' il piano. L'RPCT lo propone all'organo di indirizzo e, entro lo stesso termine del 31 gennaio, definisce come selezionare e formare chi lavora nei settori piu' esposti.
+
+15
+00:02:12,120 --> 00:02:21,790
+Poi verifica che il piano sia attuato davvero e che sia idoneo. Ne propone la modifica quando emergono violazioni importanti o quando cambiano l'organizzazione o le attivita'.
+
+16
+00:02:21,790 --> 00:02:29,970
+Per farlo ha accesso agli atti e alle informazioni necessarie, e puo' chiedere spiegazioni ai dipendenti che hanno istruito o adottato un provvedimento.
+
+17
+00:02:29,970 --> 00:02:39,770
+Verifica, d'intesa con il dirigente competente, la rotazione effettiva degli incarichi negli uffici piu' a rischio. E individua il personale da inserire nei programmi di formazione.
+
+18
+00:02:39,770 --> 00:02:49,800
+Segnala all'organo di indirizzo e all'organismo di valutazione le disfunzioni nell'attuazione delle misure, e indica all'ufficio disciplinare i nomi dei dipendenti che non le hanno applicate.
+
+19
+00:02:49,800 --> 00:03:01,260
+Entro il 15 dicembre di ogni anno trasmette all'organismo di valutazione e all'organo di indirizzo una relazione sui risultati dell'attivita' svolta, e la pubblica sul sito. L'ANAC ne fornisce il modello.
+
+20
+00:03:01,260 --> 00:03:11,130
+Vigila inoltre sul rispetto delle regole su inconferibilita' e incompatibilita' degli incarichi, e sulla trasparenza: la parte che hai visto nell'ultima lezione del modulo precedente.
+
+21
+00:03:11,130 --> 00:03:20,050
+E' anche il destinatario delle richieste di accesso civico semplice, e decide sul riesame quando un accesso generalizzato viene negato o resta senza risposta.
+
+22
+00:03:20,050 --> 00:03:33,150
+Un esempio: il piano prevede la rotazione del responsabile degli acquisti di farmacia, ma dopo due anni nulla e' cambiato. L'RPCT lo verifica con il dirigente e lo segnala alla direzione e all'organismo di valutazione.
+
+23
+00:03:33,150 --> 00:03:44,880
+Occhio al distrattore: la relazione annuale dell'RPCT non va al Parlamento. Va all'organismo di valutazione e all'organo di indirizzo, e si pubblica sul sito entro il 15 dicembre.
+
+24
+00:03:44,880 --> 00:03:49,530
+Propone il piano, verifica, segnala, riferisce.
+
+25
+00:03:49,530 --> 00:04:00,210
+Veniamo alla responsabilita'. Se nell'amministrazione e' commesso un reato di corruzione, accertato con sentenza passata in giudicato, l'RPCT ne risponde.
+
+26
+00:04:00,210 --> 00:04:10,260
+Risponde sul piano dirigenziale, disciplinare, e per il danno erariale e all'immagine della pubblica amministrazione. Non e' una responsabilita' penale: e' per non aver prevenuto.
+
+27
+00:04:10,260 --> 00:04:20,160
+La responsabilita' dirigenziale, secondo l'articolo 21 del decreto 165, puo' portare al mancato rinnovo dell'incarico e, nei casi piu' gravi, alla sua revoca.
+
+28
+00:04:20,160 --> 00:04:30,510
+Puo' liberarsi solo provando due cose insieme: di aver predisposto il piano prima del fatto, rispettandone le regole, e di aver vigilato sul suo funzionamento e sulla sua osservanza.
+
+29
+00:04:30,510 --> 00:04:39,540
+La sanzione disciplinare non puo' essere inferiore alla sospensione dal servizio con privazione della retribuzione, da un minimo di un mese a un massimo di sei mesi.
+
+30
+00:04:39,540 --> 00:04:50,560
+C'e' poi un secondo caso: le ripetute violazioni delle misure del piano. Qui l'RPCT risponde per omesso controllo, salvo che provi di aver comunicato le misure agli uffici e di aver vigilato.
+
+31
+00:04:50,560 --> 00:05:01,430
+Torniamo alla tangente sulle forniture. Se il piano c'era, prevedeva controlli sugli acquisti e l'RPCT li ha verificati, non risponde. Se il piano era solo sulla carta, si'.
+
+32
+00:05:01,430 --> 00:05:12,630
+Attenzione: per la responsabilita' dell'RPCT non basta un'indagine o una condanna in primo grado. Serve un reato di corruzione accertato con sentenza passata in giudicato.
+
+33
+00:05:12,630 --> 00:05:17,950
+Piano prima del fatto, vigilanza dopo: le due prove che salvano.
+
+34
+00:05:17,950 --> 00:05:28,940
+L'RPCT non puo' presidiare da solo un'azienda di migliaia di persone. Il piano individua dei referenti nelle strutture, che raccolgono le informazioni e seguono l'attuazione delle misure.
+
+35
+00:05:28,940 --> 00:05:40,490
+I dirigenti hanno obblighi propri, fissati dall'articolo 16 del decreto 165: concorrono a definire le misure, ne controllano il rispetto negli uffici e monitorano le attivita' piu' esposte.
+
+36
+00:05:40,490 --> 00:05:51,560
+Ai dirigenti spetta anche la rotazione straordinaria: se contro un dipendente si avvia un procedimento penale o disciplinare per condotte corruttive, dispongono lo spostamento con provvedimento motivato.
+
+37
+00:05:51,560 --> 00:06:01,110
+E i dipendenti? Devono rispettare le misure del piano e collaborare con il responsabile. La loro violazione e' illecito disciplinare: lo dice la stessa legge 190.
+
+38
+00:06:01,110 --> 00:06:13,190
+L'organismo di valutazione chiude il cerchio: verifica che piano e performance siano coerenti, puo' chiedere documenti all'RPCT e sentire i dipendenti, e riferisce all'ANAC sullo stato delle misure.
+
+39
+00:06:13,190 --> 00:06:24,350
+Un esempio: un referente di dipartimento segnala che il controllo sui campioni gratuiti di farmaci previsto dal piano non si fa. L'RPCT verifica e chiede al dirigente di intervenire.
+
+40
+00:06:24,350 --> 00:06:34,930
+Occhio: la prevenzione non e' compito del solo RPCT. Dirigenti e dipendenti hanno obblighi propri, e la violazione delle misure del piano e' illecito disciplinare.
+
+41
+00:06:34,930 --> 00:06:39,530
+Un responsabile al centro, una rete intorno.
+
+42
+00:06:39,530 --> 00:06:50,810
+Le tre cose da portare alla prova. La prima: l'RPCT e' nominato dall'organo di indirizzo, di norma tra i dirigenti di ruolo in servizio, e deve avere poteri e autonomia effettivi.
+
+43
+00:06:50,810 --> 00:07:01,730
+La seconda: propone il piano, ne verifica l'attuazione e la rotazione, segnala le disfunzioni e, entro il 15 dicembre, trasmette e pubblica la relazione annuale.
+
+44
+00:07:01,730 --> 00:07:13,030
+La terza: per un reato di corruzione accertato con sentenza definitiva risponde, salvo provare piano e vigilanza; la sanzione disciplinare va da uno a sei mesi di sospensione.
+
+45
+00:07:13,030 --> 00:07:20,440
+L'ultimo distrattore: l'RPCT non adotta il piano. Lo propone; l'adozione resta all'organo di indirizzo.
+
+46
+00:07:20,440 --> 00:07:30,800
+In sintesi: un responsabile autonomo, con compiti precisi e una responsabilita' vera. Nella prossima lezione: conflitti di interessi, incarichi e codice di comportamento.
