@@ -1,0 +1,179 @@
+1
+00:00:03,000 --> 00:00:12,300
+Il cognato di un funzionario partecipa a una gara per la manutenzione delle apparecchiature. Il funzionario non ha fatto niente di illecito. Deve comunque fare un passo indietro?
+
+2
+00:00:12,300 --> 00:00:20,970
+Si'. L'imparzialita' non chiede solo di non favorire nessuno: chiede di non trovarsi nella posizione di poterlo fare. E' il filo che lega le regole di questa lezione.
+
+3
+00:00:20,970 --> 00:00:25,960
+Imparziale non e' solo chi non favorisce: e' chi non puo' favorire.
+
+4
+00:00:25,960 --> 00:00:37,160
+Quattro passaggi. Il conflitto di interessi e l'obbligo di astensione. Incarichi esterni, commissioni e pantouflage. Inconferibilita' e incompatibilita'. E il codice di comportamento.
+
+5
+00:00:37,160 --> 00:00:50,620
+La legge 190 ha aggiunto alla legge 241 l'articolo 6-bis. Il responsabile del procedimento e chi adotta pareri, valutazioni tecniche e provvedimento finale deve astenersi in caso di conflitto di interessi.
+
+6
+00:00:50,620 --> 00:01:00,370
+Conta anche il conflitto potenziale. Non serve che l'interesse privato abbia gia' influito sulla decisione: basta che possa influire. E ogni situazione di conflitto va segnalata.
+
+7
+00:01:00,370 --> 00:01:12,200
+Il codice di comportamento precisa quando astenersi: se la decisione coinvolge interessi propri, del coniuge o del convivente, di parenti e affini entro il secondo grado, o di persone con cui si ha frequentazione abituale.
+
+8
+00:01:12,200 --> 00:01:23,150
+E ancora quando si e' in causa pendente o grave inimicizia con chi e' interessato, o si ricopre un ruolo in enti e associazioni coinvolti. E in ogni altro caso di gravi ragioni di convenienza.
+
+9
+00:01:23,150 --> 00:01:30,610
+Chi decide se il dipendente deve astenersi? Il responsabile dell'ufficio di appartenenza, cioe' il suo dirigente. Non il dipendente da solo.
+
+10
+00:01:30,610 --> 00:01:40,540
+Assegnato a un ufficio, il dipendente deve anche comunicare i rapporti di collaborazione retribuiti avuti negli ultimi tre anni con soggetti privati interessati alle attivita' di quell'ufficio.
+
+11
+00:01:40,540 --> 00:01:50,540
+Torniamo al cognato in gara. Il funzionario segnala il conflitto al dirigente, che decide l'astensione e affida la pratica ad altri. La gara prosegue, l'imparzialita' e' salva.
+
+12
+00:01:50,540 --> 00:01:58,400
+Attenzione: l'obbligo di astensione non scatta solo quando il conflitto e' certo e attuale. Scatta anche per il conflitto potenziale.
+
+13
+00:01:58,400 --> 00:02:03,000
+Segnalare, astenersi, lasciare decidere al dirigente.
+
+14
+00:02:03,000 --> 00:02:12,490
+Il dipendente pubblico non puo' svolgere incarichi retribuiti fuori dall'ufficio senza autorizzazione. Lo prevede l'articolo 53 del decreto 165.
+
+15
+00:02:12,490 --> 00:02:23,380
+Prima di autorizzare, l'amministrazione verifica che non ci siano conflitti di interessi, anche potenziali. Chi incassa compensi non autorizzati deve versarli all'ente, o ne risponde alla Corte dei conti.
+
+16
+00:02:23,380 --> 00:02:34,690
+Poi c'e' l'articolo 35-bis. Chi e' condannato, anche con sentenza non definitiva, per reati contro la pubblica amministrazione non puo' far parte di commissioni di concorso, nemmeno come segretario.
+
+17
+00:02:34,690 --> 00:02:44,720
+Non puo' far parte di commissioni di gara, ne' essere assegnato agli uffici che gestiscono risorse finanziarie, acquisti o contributi. Anche questa norma e' figlia della legge 190.
+
+18
+00:02:44,720 --> 00:02:57,250
+Infine il pantouflage, il passaggio dal pubblico al privato. Chi negli ultimi tre anni ha esercitato poteri autoritativi o negoziali non puo' lavorare, nei tre anni dopo la cessazione, per i privati destinatari dei suoi atti.
+
+19
+00:02:57,250 --> 00:03:06,820
+I contratti conclusi in violazione sono nulli. E i privati che li hanno conclusi non possono contrattare con le pubbliche amministrazioni per tre anni, con obbligo di restituire i compensi.
+
+20
+00:03:06,820 --> 00:03:17,170
+Un esempio: il dirigente che ha firmato per anni i contratti di fornitura di dispositivi va in pensione e viene assunto da quel fornitore. E' proprio il caso che il divieto vuole impedire.
+
+21
+00:03:17,170 --> 00:03:26,280
+Occhio al distrattore: il divieto dell'articolo 35-bis non richiede una condanna definitiva. Basta una sentenza anche non passata in giudicato.
+
+22
+00:03:26,280 --> 00:03:30,880
+Tre anni prima, tre anni dopo: il pantouflage.
+
+23
+00:03:30,880 --> 00:03:43,030
+Il decreto legislativo 39 del 2013 distingue due situazioni. L'inconferibilita' guarda al passato: impedisce di conferire un incarico a chi si trova in certe condizioni pregresse.
+
+24
+00:03:43,030 --> 00:03:55,630
+Le condizioni sono tre: una condanna, anche non definitiva, per reati contro la pubblica amministrazione; incarichi in enti privati regolati o finanziati dall'amministrazione; cariche politiche ricoperte di recente.
+
+25
+00:03:55,630 --> 00:04:07,360
+L'incompatibilita' guarda al presente: e' l'obbligo di scegliere tra l'incarico e un'altra carica incompatibile, entro quindici giorni dalla contestazione dell'RPCT. Se non si sceglie, si decade.
+
+26
+00:04:07,360 --> 00:04:20,170
+Il decreto ha articoli dedicati alle aziende sanitarie, per gli incarichi di direttore generale, direttore amministrativo e direttore sanitario. I periodi di attesa dopo una carica politica sono fissati caso per caso.
+
+27
+00:04:20,170 --> 00:04:31,710
+Chi riceve l'incarico presenta una dichiarazione sull'insussistenza delle cause di inconferibilita': senza, l'incarico non acquista efficacia. Sull'incompatibilita' la dichiarazione si rinnova ogni anno.
+
+28
+00:04:31,710 --> 00:04:42,240
+Un esempio: il direttore sanitario di un'azienda diventa anche amministratore di una clinica privata accreditata con la stessa Regione. E' un caso di incompatibilita': deve scegliere.
+
+29
+00:04:42,240 --> 00:04:54,650
+Gli atti di conferimento che violano il decreto sono nulli. E chi li ha conferiti non puo', per tre mesi, conferire gli incarichi di sua competenza. Vigilano l'RPCT, che contesta le violazioni, e l'ANAC.
+
+30
+00:04:54,650 --> 00:05:07,390
+Attenzione a un errore delle dispense: le cariche politiche recenti non rientrano nell'articolo 3 del decreto 39, che riguarda solo le condanne. Hanno articoli propri, anche specifici per la sanita'.
+
+31
+00:05:07,390 --> 00:05:12,620
+Inconferibile guarda al passato, incompatibile al presente.
+
+32
+00:05:12,620 --> 00:05:25,890
+Il codice di comportamento dei dipendenti pubblici e' il decreto del Presidente della Repubblica 62 del 2013, aggiornato nel 2023. Traduce in doveri concreti diligenza, lealta' e imparzialita'.
+
+33
+00:05:25,890 --> 00:05:37,700
+Il caso piu' citato sono i regali. Si possono accettare solo regali d'uso di modico valore, cioe' in via orientativa non oltre centocinquanta euro, anche sotto forma di sconto. Mai chiederli.
+
+34
+00:05:37,700 --> 00:05:49,240
+I codici delle singole amministrazioni possono abbassare quel limite o escludere del tutto i regali. Molte aziende sanitarie lo fanno, per i rapporti con pazienti, fornitori e industria farmaceutica.
+
+35
+00:05:49,240 --> 00:06:00,760
+L'aggiornamento del 2023 aggiunge regole sull'uso delle tecnologie e dei social: niente dichiarazioni che danneggino l'immagine dell'amministrazione, e uso degli strumenti di lavoro per fini di ufficio.
+
+36
+00:06:00,760 --> 00:06:11,380
+Ogni amministrazione adotta anche un proprio codice, con una procedura aperta alla partecipazione e il parere obbligatorio dell'organismo di valutazione. Lo integra, non lo sostituisce.
+
+37
+00:06:11,380 --> 00:06:21,150
+I dirigenti hanno doveri in piu': dare l'esempio, vigilare sui collaboratori e comunicare le partecipazioni e gli interessi finanziari che possono metterli in conflitto.
+
+38
+00:06:21,150 --> 00:06:29,090
+La violazione del codice e' fonte di responsabilita' disciplinare. Le violazioni gravi o reiterate possono portare fino al licenziamento.
+
+39
+00:06:29,090 --> 00:06:39,150
+Occhio: centocinquanta euro non e' un diritto a ricevere regali fino a quella cifra. E' un limite orientativo massimo, che i codici aziendali possono abbassare.
+
+40
+00:06:39,150 --> 00:06:44,700
+Modico valore, mai chiesto, e il codice aziendale puo' dire di meno.
+
+41
+00:06:44,700 --> 00:06:56,160
+Le tre cose da portare alla prova. La prima: in caso di conflitto di interessi, anche potenziale, ci si astiene e lo si segnala; sull'astensione decide il dirigente dell'ufficio.
+
+42
+00:06:56,160 --> 00:07:08,710
+La seconda: il decreto 39 distingue l'inconferibilita', che guarda al passato, dall'incompatibilita', che impone di scegliere entro quindici giorni dalla contestazione; gli atti contrari sono nulli.
+
+43
+00:07:08,710 --> 00:07:20,350
+La terza: pantouflage vuol dire tre anni di divieto dopo la cessazione; i regali sono ammessi solo se d'uso e di modico valore, in via orientativa fino a centocinquanta euro.
+
+44
+00:07:20,350 --> 00:07:28,500
+L'ultimo distrattore: per il divieto di stare in commissione basta una condanna non definitiva. Non bisogna aspettare la Cassazione.
+
+45
+00:07:28,500 --> 00:07:37,150
+In sintesi: astenersi, scegliere, non accettare. Nell'ultima lezione del modulo: chi segnala gli illeciti e le altre misure di prevenzione.

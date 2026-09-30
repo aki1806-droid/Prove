@@ -104,6 +104,24 @@ di cui non riprende gli errori (per esempio la sanzione dell'art. 47 presentata 
 PIAO, Corte cost. 20/2019 e le altre novità successive al 2017 sono da verificare sul testo
 vigente (vedi i REGISTRO, «Da verificare»).
 
+Modulo 6-bis completo, Anticorruzione (L. 190/2012; aggiunto su richiesta dopo il modulo 6,
+stessa voce e stesso metodo; cartelle `progetti/m6b-l6b.N-...`):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 6b.1 | La legge 190 e il sistema di prevenzione | 7:41 |
+| 6b.2 | Il piano e la gestione del rischio | 7:26 |
+| 6b.3 | Il responsabile della prevenzione | 7:39 |
+| 6b.4 | Imparzialità: conflitti, incarichi, codice | 7:46 |
+| 6b.5 | Whistleblowing e misure di prevenzione | 7:38 |
+
+Il modulo 6-bis non aggiunge illustrazioni (restano 61). È costruito sul testo della L. 190/2012
+e sulle dispense su Drive, senza riprenderne gli errori. D.Lgs. 39/2013, DPR 62/2013 (con il
+DPR 81/2023), PIAO, D.Lgs. 24/2023 e PNA non sono stati letti: sono da verificare sul testo
+vigente (vedi i REGISTRO, «Da verificare»). Nella voce «OIV» è detto «organismo di valutazione», perché la sigla
+veniva pronunciata male; sulle slide resta «OIV». La chiusura della lezione 6.5 annuncia ancora
+il modulo 7: il 6-bis si inserisce tra i due e la 6b.5 chiude annunciando il modulo 7.
+
 Modulo 7 completo, Trattamento dei dati personali (stessa voce e stesso metodo):
 
 | lezione | titolo | durata |
