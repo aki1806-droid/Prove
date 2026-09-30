@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,050
+Un'azienda sanitaria del Veneto e una della Lombardia spendono per i farmaci. Fino a pochi anni fa confrontare i loro bilanci era quasi impossibile. Perche'?
+
+2
+00:00:14,050 --> 00:00:25,780
+Perche' ogni ente contava a modo suo: regole, schemi e voci diverse. Il decreto legislativo 118 del 2011 nasce per far parlare a tutti i bilanci pubblici la stessa lingua.
+
+3
+00:00:25,780 --> 00:00:30,380
+Stessi conti, stessa lingua, bilanci confrontabili.
+
+4
+00:00:30,380 --> 00:00:40,690
+Quattro passaggi. Com'erano i conti prima del 2011. La legge delega e il decreto. Gli obiettivi dell'armonizzazione. E l'architettura del decreto, con i suoi allegati.
+
+5
+00:00:40,690 --> 00:00:51,700
+Prima dell'armonizzazione convivevano sistemi diversi. Regioni ed enti locali usavano la contabilita' finanziaria, basata sulle entrate e sulle spese autorizzate dal bilancio di previsione.
+
+6
+00:00:51,700 --> 00:01:01,510
+La contabilita' finanziaria dice quanto si puo' spendere e quanto si e' speso. Ma da sola non dice quanto costa davvero un servizio, ne' quanto vale il patrimonio dell'ente.
+
+7
+00:01:01,510 --> 00:01:12,310
+Le aziende sanitarie avevano gia' cambiato strada: con il decreto 502 del 1992 erano passate alla contabilita' economico patrimoniale, in partita doppia, come le imprese.
+
+8
+00:01:12,310 --> 00:01:22,150
+Ma ogni regione aveva scritto le sue regole. Nel Veneto, per esempio, una legge regionale del 1994 disciplinava l'assetto contabile delle aziende sanitarie.
+
+9
+00:01:22,150 --> 00:01:33,090
+Il risultato era una babele: piani dei conti diversi, schemi di bilancio diversi, criteri di valutazione diversi. Sommare o confrontare i conti pubblici diventava un lavoro di traduzione.
+
+10
+00:01:33,090 --> 00:01:42,520
+E lo Stato faticava a costruire in modo affidabile il conto consolidato delle pubbliche amministrazioni, che l'Unione europea chiede per verificare deficit e debito.
+
+11
+00:01:42,520 --> 00:01:53,720
+Un esempio: due aziende sanitarie registrano lo stesso acquisto di un'apparecchiatura in voci diverse. Nei due bilanci il costo compare in modo diverso, e il confronto salta.
+
+12
+00:01:53,720 --> 00:02:05,560
+Occhio a un distrattore: le aziende sanitarie non sono passate alla contabilita' economica con il decreto del 2011. Ci erano arrivate con il decreto 502 del 1992.
+
+13
+00:02:05,560 --> 00:02:10,260
+Senza regole comuni, i numeri non si possono confrontare.
+
+14
+00:02:10,260 --> 00:02:22,720
+L'armonizzazione e' uno dei pilastri del federalismo fiscale. La legge delega e' la numero 42 del 2009, che agli articoli 1 e 2 chiede sistemi contabili e schemi di bilancio omogenei.
+
+15
+00:02:22,720 --> 00:02:34,270
+Nello stesso anno la legge 196 del 2009 riordina la contabilita' e la finanza pubblica. Il decreto 118 fa lo stesso lavoro per regioni, enti locali e loro organismi.
+
+16
+00:02:34,270 --> 00:02:45,760
+Il decreto legislativo e' del 23 giugno 2011, numero 118. Il titolo dice gia' tutto: disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio.
+
+17
+00:02:45,760 --> 00:02:57,810
+Per gli enti territoriali si parte con una sperimentazione, dal 2012. Il decreto correttivo 126 del 2014 lo modifica in profondita', e le nuove regole vanno a regime dal 2015.
+
+18
+00:02:57,810 --> 00:03:07,810
+La parte sanitaria, il Titolo secondo, si applica invece gia' dal 2012: le aziende sanitarie avevano la contabilita' economica, e bisognava soprattutto uniformarla.
+
+19
+00:03:07,810 --> 00:03:18,000
+Il decreto viene aggiornato nel tempo con decreti ministeriali, anche su proposta di una commissione tecnica, la commissione Arconet, che segue l'applicazione dei principi contabili.
+
+20
+00:03:18,000 --> 00:03:27,770
+Un esempio: nel 2015 un comune adotta per la prima volta i nuovi schemi di bilancio e il nuovo piano dei conti, gli stessi di ogni altro comune e di ogni regione.
+
+21
+00:03:27,770 --> 00:03:38,420
+Attenzione: la legge 42 del 2009 non e' il decreto sull'armonizzazione. E' la legge delega sul federalismo fiscale, da cui il decreto 118 discende.
+
+22
+00:03:38,420 --> 00:03:45,060
+Una delega nel 2009, un decreto nel 2011, un correttivo nel 2014.
+
+23
+00:03:45,060 --> 00:03:53,790
+Gli obiettivi si riassumono in tre parole. La prima e' omogeneita': tutti gli enti usano le stesse regole, gli stessi schemi e lo stesso piano dei conti.
+
+24
+00:03:53,790 --> 00:04:03,190
+La seconda e' confrontabilita': i bilanci di enti diversi, e dello stesso ente in anni diversi, si possono mettere a confronto. E' la base per misurare costi e risultati.
+
+25
+00:04:03,190 --> 00:04:11,060
+La terza e' trasparenza: i conti devono essere leggibili anche da chi non li ha scritti, dai cittadini agli organi di controllo, e vanno pubblicati.
+
+26
+00:04:11,060 --> 00:04:21,450
+Per arrivarci, il decreto introduce regole contabili uniformi, un piano dei conti integrato comune, il bilancio consolidato con gli enti controllati e un sistema di indicatori di risultato.
+
+27
+00:04:21,450 --> 00:04:29,730
+C'e' poi il raccordo con le regole europee: i conti degli enti devono poter confluire nel conto delle pubbliche amministrazioni che l'Italia trasmette all'Unione.
+
+28
+00:04:29,730 --> 00:04:38,340
+Armonizzare serve anche al coordinamento della finanza pubblica: se tutti contano allo stesso modo, lo Stato puo' verificare equilibri e vincoli di ogni livello di governo.
+
+29
+00:04:38,340 --> 00:04:47,760
+Gli indicatori accompagnano il bilancio di previsione e il rendiconto: misurano in modo uniforme i risultati e l'andamento dei conti, cosi' gli enti si possono confrontare tra loro.
+
+30
+00:04:47,760 --> 00:04:57,400
+Un esempio: con conti armonizzati si puo' confrontare il costo per abitante dell'assistenza farmaceutica di due regioni, voce per voce, senza riclassificare i bilanci.
+
+31
+00:04:57,400 --> 00:05:06,750
+Un distrattore frequente: armonizzare non vuol dire accentrare. Ogni ente resta autonomo nelle sue scelte; sono comuni le regole con cui le rappresenta nei conti.
+
+32
+00:05:06,750 --> 00:05:12,310
+Omogeneita', confrontabilita', trasparenza: tre parole per un obiettivo.
+
+33
+00:05:12,310 --> 00:05:21,000
+Il decreto e' diviso in titoli. Il Titolo primo detta i principi contabili generali e applicati per regioni, enti locali e loro enti strumentali.
+
+34
+00:05:21,000 --> 00:05:31,140
+Il Titolo secondo, dall'articolo 19, riguarda il settore sanitario: la parte sanitaria del bilancio regionale, la gestione sanitaria accentrata, le aziende sanitarie e ospedaliere.
+
+35
+00:05:31,140 --> 00:05:40,610
+Il Titolo terzo, aggiunto dal correttivo del 2014, disciplina l'ordinamento finanziario e contabile delle regioni. Seguono le disposizioni finali e transitorie.
+
+36
+00:05:40,610 --> 00:05:49,340
+Per gli enti locali, le regole del decreto si leggono insieme al testo unico degli enti locali, che il correttivo del 2014 ha aggiornato nella parte sulla contabilita'.
+
+37
+00:05:49,340 --> 00:05:57,320
+Gran parte delle regole operative sta negli allegati. Il primo contiene i principi contabili generali; altri contengono i principi contabili applicati.
+
+38
+00:05:57,320 --> 00:06:07,420
+I principi applicati riguardano la programmazione, la contabilita' finanziaria, la contabilita' economico patrimoniale e il bilancio consolidato. Poi ci sono il piano dei conti e gli schemi.
+
+39
+00:06:07,420 --> 00:06:16,290
+Per le aziende sanitarie contano soprattutto il Titolo secondo e il codice civile, a cui il decreto rinvia per il bilancio d'esercizio, salvo quanto diversamente previsto.
+
+40
+00:06:16,290 --> 00:06:26,270
+Un esempio: per capire come si registra un credito di dubbia esigibilita', il ragioniere di un comune consulta il principio applicato della contabilita' finanziaria, tra gli allegati.
+
+41
+00:06:26,270 --> 00:06:34,570
+Attenzione: le aziende sanitarie non seguono il Titolo primo come i comuni. Il loro riferimento e' il Titolo secondo, dall'articolo 19.
+
+42
+00:06:34,570 --> 00:06:39,170
+I titoli dicono a chi, gli allegati dicono come.
+
+43
+00:06:39,170 --> 00:06:50,390
+Le tre cose che ti chiederanno. La prima: il decreto legislativo 118 del 2011 armonizza sistemi contabili e schemi di bilancio di regioni, enti locali e loro organismi.
+
+44
+00:06:50,390 --> 00:07:03,650
+La seconda: discende dalla legge delega 42 del 2009 sul federalismo fiscale, ed e' stato corretto dal decreto 126 del 2014; per gli enti territoriali e' a regime dal 2015.
+
+45
+00:07:03,650 --> 00:07:11,790
+La terza: gli obiettivi sono omogeneita', confrontabilita' e trasparenza; il Titolo secondo, dall'articolo 19, riguarda la sanita'.
+
+46
+00:07:11,790 --> 00:07:21,110
+L'ultimo distrattore: il decreto 118 non riguarda solo gli enti locali. Si applica anche alle regioni e, con il Titolo secondo, al servizio sanitario.
+
+47
+00:07:21,110 --> 00:07:29,130
+In sintesi: una lingua comune per i conti pubblici. Nella prossima lezione: i principi contabili, a partire dalla competenza finanziaria potenziata.
