@@ -108,6 +108,8 @@ RESE = [
  (r"\b1[\s.]+7\b",                        " lezione17 "),
  # Fonetica: «illecito» e «il lecito» suonano identici in italiano.
  (r"\bil\s+leciti?o\b", " illecito "),
+ # PV 12.3: «ripassali per soggetto» e «ripassa l'ipersoggetto» sono le stesse sillabe.
+ (r"\bripassa\s*l['\u2019\s]*ipersoggetto\b", " ripassali per soggetto "),
  # Le sigle: il trascrittore a volte le compita lettera per lettera.
  (r"\bf\s+n\s+o\s+p\s+i\b",             " fnopi "),
  (r"\bo\s+p\s+i\b",                       " opi "),

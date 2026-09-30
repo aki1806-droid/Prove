@@ -1,0 +1,171 @@
+1
+00:00:03,000 --> 00:00:14,040
+Trenta domande, dalle undici materie del corso. Per ognuna vedi le quattro risposte sullo schermo. Se vuoi metterti alla prova, ferma il video e scegli, prima di sentire la soluzione.
+
+2
+00:00:14,040 --> 00:00:23,400
+Per ogni domanda diro' la lettera giusta e il perche' in una frase. Il perche' conta piu' della lettera: e' quello che ti fa riconoscere la stessa trappola in una domanda diversa.
+
+3
+00:00:23,400 --> 00:00:28,000
+Non conta indovinare: conta sapere perche'.
+
+4
+00:00:28,000 --> 00:00:38,540
+Quattro serie. Sanita' nazionale e Veneto. Azienda, procedimento e trasparenza. Privacy, lavoro pubblico e sicurezza. Infine sicurezza, appalti e contabilita'.
+
+5
+00:00:38,540 --> 00:00:53,260
+Domanda uno. Quale legge istituisce le unita' sanitarie locali? Risposta B: la legge 833 del 1978. Il decreto 502 del 1992 le trasformera' in aziende, con personalita' giuridica pubblica.
+
+6
+00:00:53,260 --> 00:01:05,870
+Domanda due. Chi nomina il direttore amministrativo di un'azienda sanitaria? Risposta C: il direttore generale. La Regione nomina il direttore generale; e' lui a scegliere il direttore amministrativo e quello sanitario.
+
+7
+00:01:05,870 --> 00:01:18,430
+Domanda tre. Che cosa da' diritto a essere pagati dal servizio sanitario? Risposta C: l'accordo contrattuale, entro volumi e tetti di spesa. L'accreditamento da solo non obbliga a remunerare le prestazioni.
+
+8
+00:01:18,430 --> 00:01:32,080
+Domanda quattro. Di quando sono i LEA vigenti? Risposta A: del 12 gennaio 2017. Il 2001 e' l'anno del primo elenco, oggi superato, e il 1999 quello del decreto che li introduce.
+
+9
+00:01:32,080 --> 00:01:44,430
+Domanda cinque. Da quando le ULSS del Veneto sono nove? Risposta D: dal primo gennaio 2017. La legge regionale 19 e' dell'ottobre 2016, ma il nuovo assetto parte dopo.
+
+10
+00:01:44,430 --> 00:01:56,700
+Domanda sei. Chi approva il Piano di Zona? Risposta C: il Comitato dei Sindaci del distretto. Non la Regione e non il direttore generale: il Piano di Zona e' lo strumento dei Comuni per i servizi sociali.
+
+11
+00:01:56,700 --> 00:02:08,200
+Domanda sette. Che cos'e' la centrale operativa territoriale? Risposta A: la centrale della continuita' delle cure, che governa le transizioni. Non e' il 118, che gestisce l'emergenza.
+
+12
+00:02:08,200 --> 00:02:22,680
+Domanda otto. Di che cosa si occupa la legge regionale 56 del 1994? Risposta B: del riordino del servizio sanitario regionale. Programmazione, contabilita' e controlli sono della 55, sua gemella.
+
+13
+00:02:22,680 --> 00:02:28,100
+Otto domande, e dietro ogni risposta sbagliata una trappola precisa.
+
+14
+00:02:28,100 --> 00:02:38,080
+Domanda nove. Chi nomina il direttore generale di un'azienda ospedaliero universitaria? Risposta D: la Regione, d'intesa con il Rettore. Nessuno dei due da solo.
+
+15
+00:02:38,080 --> 00:02:47,320
+Domanda dieci. Chi adotta l'atto aziendale? Risposta B: il direttore generale, sui criteri della Regione, che poi lo approva. Non e' una legge regionale.
+
+16
+00:02:47,320 --> 00:02:58,490
+Domanda undici. Che cos'e' una unita' operativa semplice? Risposta A: una struttura dentro una complessa, senza budget autonomo. E' la UOSD a rispondere al dipartimento.
+
+17
+00:02:58,490 --> 00:03:11,390
+Domanda dodici. Qual e' il termine generale del procedimento, se nessuna norma ne fissa un altro? Risposta B: trenta giorni. Si puo' arrivare a novanta, e in casi particolari a centottanta, ma serve una norma che lo preveda.
+
+18
+00:03:11,390 --> 00:03:21,140
+Domanda tredici. Quando vale il silenzio assenso? Risposta D: nei procedimenti a istanza di parte, salvo le materie escluse come la salute. Non e' la regola generale.
+
+19
+00:03:21,140 --> 00:03:31,540
+Domanda quattordici. Che cosa serve per l'accesso documentale? Risposta A: un interesse diretto, concreto e attuale, collegato al documento. E la richiesta va motivata.
+
+20
+00:03:31,540 --> 00:03:40,980
+Domanda quindici. Per quanto restano pubblicati i dati in Amministrazione trasparente? Risposta C: di regola cinque anni, dal primo gennaio successivo.
+
+21
+00:03:40,980 --> 00:03:53,130
+Domanda sedici. Chi puo' chiedere l'accesso civico generalizzato? Risposta B: chiunque, senza motivazione, anche su dati e documenti che non sono da pubblicare. E' il FOIA italiano, dal 2016.
+
+22
+00:03:53,130 --> 00:03:57,730
+Chi chiede, perche' chiede, entro quando si risponde.
+
+23
+00:03:57,730 --> 00:04:11,220
+Domanda diciassette. Da quando si applica il regolamento europeo sulla protezione dei dati? Risposta D: dal 25 maggio 2018. In vigore lo era dal 2016: e' la trappola della lezione precedente.
+
+24
+00:04:11,220 --> 00:04:21,960
+Domanda diciotto. Su quale base un'azienda sanitaria pubblica tratta i dati per curare? Risposta C: la finalita' di cura, con il segreto professionale. Non sul consenso.
+
+25
+00:04:21,960 --> 00:04:33,280
+Domanda diciannove. Entro quando si notifica al Garante una violazione dei dati? Risposta A: entro settantadue ore da quando il titolare ne e' venuto a conoscenza, fine settimana compreso.
+
+26
+00:04:33,280 --> 00:04:44,420
+Domanda venti. A quale giudice vanno le liti sul rapporto di lavoro pubblico? Risposta B: al giudice ordinario. Al giudice amministrativo restano le liti sui concorsi per l'assunzione.
+
+27
+00:04:44,420 --> 00:04:54,830
+Domanda ventuno. Quanto dura un incarico dirigenziale? Risposta C: da tre a cinque anni. La forbice da due a sette anni era la regola di fine anni Novanta.
+
+28
+00:04:54,830 --> 00:05:05,140
+Domanda ventidue. Chi decide il rimprovero verbale? Risposta D: il responsabile della struttura. Le sanzioni piu' gravi spettano all'ufficio per i procedimenti disciplinari.
+
+29
+00:05:05,140 --> 00:05:17,430
+Domanda ventitre'. Chi sceglie il rappresentante dei lavoratori per la sicurezza? Risposta A: i lavoratori, che lo eleggono o lo designano, di norma tra le rappresentanze sindacali. Non il datore di lavoro.
+
+30
+00:05:17,430 --> 00:05:22,760
+Chi decide, chi nomina, chi risponde: sempre la stessa domanda.
+
+31
+00:05:22,760 --> 00:05:34,570
+Domanda ventiquattro. Che posto hanno i dispositivi di protezione individuale tra le misure di tutela? Risposta B: l'ultimo. Vengono dopo l'eliminazione del rischio e la protezione collettiva.
+
+32
+00:05:34,570 --> 00:05:44,560
+Domanda venticinque. Dove si ricorre contro il giudizio del medico competente? Risposta C: all'organo di vigilanza, entro trenta giorni. Non al datore di lavoro.
+
+33
+00:05:44,560 --> 00:05:56,380
+Domanda ventisei. Qual e' il criterio ordinario di aggiudicazione negli appalti? Risposta A: l'offerta economicamente piu' vantaggiosa. Il minor prezzo e' l'eccezione, per le prestazioni standardizzate.
+
+34
+00:05:56,380 --> 00:06:08,480
+Domanda ventisette. Che cosa si puo' prestare con l'avvalimento? Risposta D: i requisiti speciali. I requisiti generali, come l'onorabilita', non si prestano, e l'impresa ausiliaria risponde in solido.
+
+35
+00:06:08,480 --> 00:06:18,800
+Domanda ventotto. Entro quanto pagano i fornitori le aziende sanitarie? Risposta B: sessanta giorni. Trenta e' il termine ordinario per le altre amministrazioni.
+
+36
+00:06:18,800 --> 00:06:31,260
+Domanda ventinove. Quanti sono i principi contabili generali del decreto 118? Risposta C: diciotto. Alcune dispense ne contano diciassette, e dimenticano la prevalenza della sostanza sulla forma.
+
+37
+00:06:31,260 --> 00:06:44,110
+Domanda trenta. Entro quando la Giunta approva il consolidato del servizio sanitario regionale? Risposta A: il 30 giugno. Il 30 aprile le aziende adottano i propri bilanci, il 31 maggio la Giunta li approva.
+
+38
+00:06:44,110 --> 00:06:48,710
+Trenta domande, e le trappole sono sempre le stesse.
+
+39
+00:06:48,710 --> 00:06:59,160
+Le tre cose da portare alla prova. La prima: quasi un terzo di queste domande chiedeva chi fa che cosa. Nomine, approvazioni, controlli: ripassali per soggetto.
+
+40
+00:06:59,160 --> 00:07:09,480
+La seconda: molte altre chiedevano date e termini. Trenta giorni, sessanta giorni, settantadue ore, il 30 giugno. Sono i numeri della lezione precedente.
+
+41
+00:07:09,480 --> 00:07:18,640
+La terza: se una risposta ti ha sorpreso, torna alla lezione da cui viene. Ogni domanda di oggi ha la sua spiegazione piu' ampia in una lezione del corso.
+
+42
+00:07:18,640 --> 00:07:28,750
+L'ultimo distrattore: una simulazione andata bene non vuol dire che il ripasso sia finito. Ripeti le domande sbagliate tra qualche giorno, e controlla di ricordare il perche'.
+
+43
+00:07:28,750 --> 00:07:36,080
+In sintesi: trenta domande, e un metodo per le prossime. Nell'ultima lezione del corso: le ultime quarantotto ore prima della prova.

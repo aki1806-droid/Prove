@@ -1,0 +1,32 @@
+{
+ "A": {
+  "parole_copione": 577,
+  "parole_dette": 577,
+  "coincidenti": 574,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s10",
+    "copione": "primo",
+    "detto": "1"
+   },
+   {
+    "blocco": "s15",
+    "copione": "ospedaliero",
+    "detto": "ospedaliera"
+   },
+   {
+    "blocco": "s21",
+    "copione": "primo",
+    "detto": "1"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 544,
+  "parole_dette": 544,
+  "coincidenti": 544,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

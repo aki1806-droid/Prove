@@ -1,0 +1,179 @@
+1
+00:00:03,000 --> 00:00:13,930
+Una domanda da quiz: il regolamento europeo sulla protezione dei dati e' entrato in vigore il 25 maggio 2018. Vero o falso? Molti rispondono vero. Ed e' falso.
+
+2
+00:00:13,930 --> 00:00:26,110
+Il regolamento entra in vigore nel 2016, e dal 25 maggio 2018 si applica. Chi ha studiato lo sa, ma sotto tempo una data giusta al posto sbagliato inganna. E le trappole dei quiz si ripetono.
+
+3
+00:00:26,110 --> 00:00:30,710
+Chi conosce la forma della trappola, non ci cade.
+
+4
+00:00:30,710 --> 00:00:41,470
+Quattro trappole. Le date vicine. I numeri simili. Le parole assolute, come sempre e mai. E le competenze scambiate tra organi: chi nomina, chi approva, chi decide.
+
+5
+00:00:41,470 --> 00:00:52,710
+La prima trappola usa due date vere, ma le scambia. Succede quando una norma ha piu' momenti: approvazione, entrata in vigore, applicazione. Il quiz ne prende uno e lo attacca all'altro.
+
+6
+00:00:52,710 --> 00:01:05,030
+Il codice dei contratti pubblici, decreto 36 del 2023, entra in vigore il primo aprile e si applica dal primo luglio. Due date dello stesso anno, a tre mesi di distanza: il terreno ideale per un distrattore.
+
+7
+00:01:05,030 --> 00:01:16,640
+Nei bilanci succede lo stesso. Il preventivo si approva entro il 31 dicembre dell'anno prima; il bilancio d'esercizio si adotta entro il 30 aprile dell'anno dopo. Il consolidato regionale, entro il 30 giugno.
+
+8
+00:01:16,640 --> 00:01:31,800
+Poi ci sono le sequenze. Il Trattato di Maastricht a febbraio del 1992, la legge delega 421 a ottobre, il decreto 502 a dicembre. Il quiz inverte l'ordine, e mette il decreto prima della delega.
+
+9
+00:01:31,800 --> 00:01:47,970
+E ci sono gli anni che si confondono. La legge regionale 19 e' dell'ottobre 2016, ma le nove ULSS partono dal primo gennaio 2017. Il modello hub and spoke nasce con il Piano del 2012, non con quello del 2019.
+
+10
+00:01:47,970 --> 00:02:02,860
+Il metodo e' semplice: per ogni data chiediti che cosa succede. Una norma nasce, entra in vigore, si applica. Se la domanda usa un verbo e la data appartiene a un altro, la risposta e' sbagliata.
+
+11
+00:02:02,860 --> 00:02:16,320
+Un esempio: il codice della privacy e' del 2003, entra in vigore nel 2004, e non e' stato abrogato dal regolamento europeo. Tre fatti e tre trappole possibili, in una sola domanda.
+
+12
+00:02:16,320 --> 00:02:27,040
+Attenzione: la trappola delle date non si vince imparando piu' date. Si vince legando ogni data al suo verbo, e ai due o tre fatti che la circondano.
+
+13
+00:02:27,040 --> 00:02:31,640
+Ogni data ha un verbo: nasce, entra in vigore, si applica.
+
+14
+00:02:31,640 --> 00:02:46,260
+La seconda trappola sono i numeri che si somigliano. Leggi con lo stesso numero e anni diversi, numeri vicini e materie lontane. Il quiz ne cambia uno solo, e la frase sembra ancora giusta.
+
+15
+00:02:46,260 --> 00:03:00,840
+Il caso piu' insidioso e' il 517. Il decreto 517 del 1993 corregge il 502. Il decreto 517 del 1999 disciplina le aziende ospedaliero universitarie. Stesso numero, sei anni di distanza, due materie.
+
+16
+00:03:00,840 --> 00:03:13,730
+Nel Veneto c'e' la 55. La legge regionale 55 del 1982 non e' la 55 del 1994. E tra le leggi gemelle del 1994, la 55 regola programmazione e conti, la 56 il riordino. Invertirle e' l'errore classico.
+
+17
+00:03:13,730 --> 00:03:28,880
+Nella privacy ci sono la legge 675 del 1996, il codice del 2003 e il regolamento europeo 679 del 2016. Il 675 e il 679 si somigliano, ma tra l'uno e l'altro ci sono vent'anni e un cambio di sistema.
+
+18
+00:03:28,880 --> 00:03:41,510
+Nel lavoro pubblico, il decreto 29 del 1993 avvia la privatizzazione e il 165 del 2001 la riordina. Nella sicurezza, il 626 del 1994 anticipa l'81 del 2008, che oggi e' il riferimento.
+
+19
+00:03:41,510 --> 00:03:57,370
+Negli appalti le cause di esclusione non stanno piu' all'articolo 80, che era del codice del 2016: oggi stanno agli articoli 94 e seguenti. Nella contabilita', la legge 42 del 2009 delega e il decreto 118 del 2011 attua.
+
+20
+00:03:57,370 --> 00:04:09,970
+Un esempio: un quiz chiede quale norma disciplina le aziende ospedaliero universitarie, e offre il decreto 517 del 1993. Il numero e' giusto, l'anno no. Basta quello per sbagliare.
+
+21
+00:04:09,970 --> 00:04:21,240
+Occhio: il numero da solo non basta mai. Una legge si ricorda con tre elementi insieme, numero, anno e materia. Se uno dei tre non torna, il quiz ti sta tendendo una trappola.
+
+22
+00:04:21,240 --> 00:04:25,840
+Numero, anno e materia: sempre tutti e tre.
+
+23
+00:04:25,840 --> 00:04:38,050
+La terza trappola sono le parole assolute: sempre, mai, solo, tutti, nessuno. Nel diritto le regole hanno quasi sempre eccezioni, e la parola assoluta le cancella.
+
+24
+00:04:38,050 --> 00:04:48,290
+Il silenzio assenso non e' la regola generale: vale nei procedimenti a istanza di parte, e non per la salute. E il consenso non e' l'unica base per trattare i dati: e' una su sei.
+
+25
+00:04:48,290 --> 00:04:58,500
+L'accesso documentale non spetta a chiunque: serve un interesse diretto, concreto e attuale. L'accesso civico, al contrario, spetta davvero a chiunque, e senza motivazione.
+
+26
+00:04:58,500 --> 00:05:08,920
+Il diritto all'oblio non e' assoluto: cede davanti alla conservazione della cartella clinica. E i dispositivi di protezione individuale non sono la prima misura: sono l'ultima barriera.
+
+27
+00:05:08,920 --> 00:05:19,370
+Ma attenzione a non generalizzare: a volte l'assoluto e' giusto. Un contratto a termine irregolare non diventa mai un posto fisso nella pubblica amministrazione. Qui il mai e' corretto.
+
+28
+00:05:19,370 --> 00:05:29,780
+E nella sicurezza gli unici esclusi dalla nozione di lavoratore sono gli addetti ai servizi domestici e familiari. Quando e' la legge a usare l'assoluto, il quiz lo riprende fedelmente.
+
+29
+00:05:29,780 --> 00:05:41,540
+Un esempio: la sanzione da cinquecento a diecimila euro vale per ogni omessa pubblicazione? No, riguarda soprattutto i dati dell'articolo 14. E' il per ogni a rendere falsa la frase.
+
+30
+00:05:41,540 --> 00:05:51,780
+Attenzione: la parola assoluta non prova che la risposta sia sbagliata. E' un segnale per rileggere. Chiediti se conosci un'eccezione: se la conosci, la frase e' falsa.
+
+31
+00:05:51,780 --> 00:05:56,380
+Davanti a sempre e mai, cerca l'eccezione.
+
+32
+00:05:56,380 --> 00:06:07,780
+La quarta trappola scambia i soggetti. La frase descrive un atto vero, ma lo attribuisce a chi non lo compie. Nomina, approva, adotta, presiede: ogni verbo ha il suo titolare.
+
+33
+00:06:07,780 --> 00:06:19,450
+La Regione nomina il direttore generale. Il direttore generale nomina il direttore amministrativo e il direttore sanitario. Nell'azienda ospedaliero universitaria la Regione nomina d'intesa con il Rettore.
+
+34
+00:06:19,450 --> 00:06:30,560
+Il direttore generale adotta il bilancio d'esercizio; alla Regione spetta il controllo. Il Piano di Zona lo approva il Comitato dei Sindaci del distretto, non la Regione e non il direttore generale.
+
+35
+00:06:30,560 --> 00:06:41,450
+Il consiglio dei sanitari lo presiede il direttore sanitario, il collegio di direzione il direttore generale. Il Comitato dei direttori generali lo presiede il direttore dell'Area Sanita' e Sociale.
+
+36
+00:06:41,450 --> 00:06:53,610
+Nella sicurezza il rappresentante dei lavoratori e' eletto o designato dai lavoratori, non nominato dal datore. Nella privacy la violazione la notifica il titolare, non il responsabile della protezione dei dati.
+
+37
+00:06:53,610 --> 00:07:04,520
+Nel pubblico impiego l'OIV valida la relazione sulla performance, non il piano. E il rimprovero verbale lo decide il responsabile della struttura, non l'ufficio per i procedimenti disciplinari.
+
+38
+00:07:04,520 --> 00:07:14,110
+Un esempio: chi nomina il direttore generale di Azienda Zero? Non la Giunta nel suo insieme, e non il Consiglio regionale: lo nomina il Presidente della Giunta regionale.
+
+39
+00:07:14,110 --> 00:07:25,360
+Occhio a un trucco frequente: il soggetto sbagliato e' quasi sempre vicino a quello giusto. Regione e Giunta, direttore generale e direttore sanitario. Il quiz non inventa: sposta.
+
+40
+00:07:25,360 --> 00:07:30,820
+Ogni verbo ha il suo titolare: chi nomina, chi approva, chi controlla.
+
+41
+00:07:30,820 --> 00:07:40,610
+Le tre cose da portare alla prova. La prima: ogni data ha un verbo. Nascita, entrata in vigore, applicazione e scadenza non sono la stessa cosa.
+
+42
+00:07:40,610 --> 00:07:49,570
+La seconda: una legge si riconosce da tre elementi insieme, numero, anno e materia. Se il quiz ne cambia uno solo, la risposta e' sbagliata.
+
+43
+00:07:49,570 --> 00:07:56,680
+La terza: davanti a una parola assoluta cerca l'eccezione, e davanti a un atto chiediti chi ne e' il titolare.
+
+44
+00:07:56,680 --> 00:08:08,100
+L'ultimo distrattore: non c'e' una regola per cui la risposta piu' lunga, o sempre la stessa lettera, sia quella giusta. Nei quiz ben fatti l'unica strategia che regge e' conoscere la materia.
+
+45
+00:08:08,100 --> 00:08:15,970
+In sintesi: le trappole si ripetono, e chi le riconosce guadagna punti. Nella prossima lezione: le sessanta date e numeri da mandare a memoria.

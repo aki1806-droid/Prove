@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:14,070
+In una prova a quiz molte domande chiedono una data, un numero, un termine. Sono le domande che si sbagliano per un soffio, e che si possono preparare con certezza.
+
+2
+00:00:14,070 --> 00:00:25,930
+In tutto il corso ne sono passate centinaia. Qui ne restano sessanta: quelle che tornano piu' spesso nei quiz e che reggono tutte le altre. Non vanno capite di nuovo: vanno ripassate, fino a saperle a memoria.
+
+3
+00:00:25,930 --> 00:00:30,530
+Sessanta numeri, e ognuno con la sua storia.
+
+4
+00:00:30,530 --> 00:00:41,520
+Quattro gruppi. La sanita' nazionale. Il Veneto e l'azienda. Procedimento, trasparenza e privacy. E infine lavoro pubblico, sicurezza, appalti e contabilita'.
+
+5
+00:00:41,520 --> 00:00:56,790
+Uno: la legge 833 del 1978, che istituisce il servizio sanitario nazionale. Due: febbraio 1992, il Trattato di Maastricht. Tre: la legge delega 421 del 1992.
+
+6
+00:00:56,790 --> 00:01:14,640
+Quattro: il decreto 502 del dicembre 1992, che crea le aziende sanitarie. Cinque: il decreto 517 del 1993, che lo corregge. Sei: il decreto 229 del 1999, la riforma che introduce i LEA.
+
+7
+00:01:14,640 --> 00:01:25,250
+Sette: da tre a cinque anni, il contratto del direttore generale. Otto: il 2001, anno del primo elenco dei LEA e della riforma del Titolo quinto della Costituzione.
+
+8
+00:01:25,250 --> 00:01:36,190
+Nove: il 12 gennaio 2017, data dei LEA vigenti. Dieci: tre macroaree, cioe' prevenzione, assistenza distrettuale e assistenza ospedaliera.
+
+9
+00:01:36,190 --> 00:01:48,770
+Undici: il decreto 68 del 2011, che introduce i costi standard nel riparto. Dodici: tre organi dell'azienda, cioe' direttore generale, collegio di direzione e collegio sindacale.
+
+10
+00:01:48,770 --> 00:02:04,490
+Un modo per ricordarle: raccontale come una storia. Nel 1978 nasce il servizio, nel 1992 diventa azienda, nel 1999 si completa, e dal 2001 la Costituzione lo divide tra Stato e Regioni.
+
+11
+00:02:04,490 --> 00:02:18,580
+Attenzione: il decreto 517 compare due volte in questo corso. Quello del 1993 corregge il 502; quello del 1999 disciplina le aziende ospedaliero universitarie.
+
+12
+00:02:18,580 --> 00:02:24,390
+Settantotto, novantadue, novantanove: la sanita' in tre anni.
+
+13
+00:02:24,390 --> 00:02:38,630
+Tredici: il 14 settembre 1994, le leggi regionali 55 e 56. Quattordici: la legge regionale 19 del 25 ottobre 2016, che istituisce Azienda Zero.
+
+14
+00:02:38,630 --> 00:02:49,970
+Quindici: il primo gennaio 2017, quando le ULSS passano da ventuno a nove. Sedici: il 30 settembre, entro cui la Giunta riferisce ogni anno al Consiglio regionale.
+
+15
+00:02:49,970 --> 00:02:59,960
+Diciassette: il 31 dicembre, per il bilancio preventivo dell'anno dopo. Diciotto: il 30 aprile, per il bilancio d'esercizio dell'anno appena chiuso.
+
+16
+00:02:59,960 --> 00:03:10,460
+Diciannove: cinque hub, con un bacino di circa un milione di abitanti ciascuno. Venti: quattro reti tempo dipendenti, cioe' emergenza, cardiologia, trauma e ictus.
+
+17
+00:03:10,460 --> 00:03:21,740
+Ventuno: da quattro a sei settimane, la degenza di norma nelle cure intermedie. Ventidue: la delibera 1306 del 2017, sull'atto aziendale nel Veneto.
+
+18
+00:03:21,740 --> 00:03:37,500
+Ventitre': il decreto 171 del 2016, con l'elenco nazionale dei direttori generali, verificati entro ventiquattro mesi. Ventiquattro: il decreto 517 del 1999, sulle aziende ospedaliero universitarie.
+
+19
+00:03:37,500 --> 00:03:51,690
+Un modo per ricordarle: il 1994 fonda il modello veneto, il 2016 lo riorganizza, il 2017 lo rende operativo. E i bilanci corrono tra due date, 31 dicembre e 30 aprile.
+
+20
+00:03:51,690 --> 00:03:56,370
+Novantaquattro fonda, duemilasedici riorganizza.
+
+21
+00:03:56,370 --> 00:04:09,210
+Venticinque: la legge 241 del 7 agosto 1990. Ventisei: trenta giorni, il termine generale del procedimento, fino a novanta e in casi particolari fino a centottanta.
+
+22
+00:04:09,210 --> 00:04:17,500
+Ventisette: una sola sospensione, per non piu' di trenta giorni. Ventotto: dieci giorni per le osservazioni dopo il preavviso di rigetto.
+
+23
+00:04:17,500 --> 00:04:27,950
+Ventinove: un anno dalla scadenza del termine, per ricorrere contro il silenzio. Trenta: nell'accesso documentale, dieci giorni per l'opposizione e trenta per concludere.
+
+24
+00:04:27,950 --> 00:04:41,980
+Trentuno: la legge 190 del 2012, anticorruzione. Trentadue: il decreto 33 del 2013, sulla trasparenza. Trentatre': il decreto 97 del 2016, che introduce l'accesso civico generalizzato.
+
+25
+00:04:41,980 --> 00:04:50,900
+Trentaquattro: cinque anni di pubblicazione, dal primo gennaio successivo. Trentacinque: venti giorni per il riesame del responsabile della trasparenza.
+
+26
+00:04:50,900 --> 00:05:01,770
+Trentasei: da cinquecento a diecimila euro, la sanzione per alcuni obblighi di pubblicazione. Trentasette: la legge 675 del 31 dicembre 1996, la prima sulla privacy.
+
+27
+00:05:01,770 --> 00:05:15,020
+Trentotto: il codice della privacy del 2003, in vigore dal 2004. Trentanove: il regolamento europeo del 27 aprile 2016, che si applica dal 25 maggio 2018.
+
+28
+00:05:15,020 --> 00:05:23,710
+Quaranta: settantadue ore per notificare una violazione dei dati. Quarantuno: un mese per rispondere ai diritti dell'interessato, prorogabile di due.
+
+29
+00:05:23,710 --> 00:05:31,860
+Quarantadue: le sanzioni del regolamento, fino a dieci milioni o il due per cento, e fino a venti milioni o il quattro per cento del fatturato.
+
+30
+00:05:31,860 --> 00:05:42,440
+Attenzione a due termini gemelli: dieci giorni ai controinteressati per opporsi valgono sia nell'accesso documentale sia nel FOIA. Ma solo il primo richiede una motivazione.
+
+31
+00:05:42,440 --> 00:05:47,040
+Trenta giorni per decidere, settantadue ore per avvisare.
+
+32
+00:05:47,040 --> 00:05:58,230
+Quarantatre': il decreto 29 del 1993, che avvia la privatizzazione del lavoro pubblico. Quarantaquattro: il decreto 165 del 2001, che la riordina.
+
+33
+00:05:58,230 --> 00:06:09,060
+Quarantacinque: da tre a cinque anni, l'incarico dirigenziale. Quarantasei: nel procedimento disciplinare, trenta giorni per contestare, venti di preavviso, centoventi per concludere.
+
+34
+00:06:09,060 --> 00:06:18,450
+Quarantasette: sei mesi, la sospensione massima dal servizio. Quarantotto: il piano della performance entro il 31 gennaio, la relazione entro il 30 giugno.
+
+35
+00:06:18,450 --> 00:06:31,500
+Quarantanove: il decreto 81 del 9 aprile 2008, sulla sicurezza. Cinquanta: la direttiva quadro europea del 1989, recepita dal decreto 626 del 1994.
+
+36
+00:06:31,500 --> 00:06:42,690
+Cinquantuno: trenta giorni, per rielaborare la valutazione dei rischi e per ricorrere contro il giudizio del medico competente. Cinquantadue: oltre quindici lavoratori, la riunione periodica annuale.
+
+37
+00:06:42,690 --> 00:06:54,530
+Cinquantatre': il codice dei contratti, decreto 36 del 2023, in vigore dal primo aprile e applicato dal primo luglio. Cinquantaquattro: centoquarantamila euro, sotto cui si affida direttamente.
+
+38
+00:06:54,530 --> 00:07:04,850
+Cinquantacinque: almeno cinque operatori invitati nella procedura negoziata. Cinquantasei: trenta punti al massimo al prezzo, quando il criterio e' l'offerta economicamente piu' vantaggiosa.
+
+39
+00:07:04,850 --> 00:07:16,830
+Cinquantasette: sessanta giorni, il termine di pagamento per le aziende sanitarie. Cinquantotto: la legge 42 del 2009 e il decreto 118 del 2011, sull'armonizzazione dei bilanci.
+
+40
+00:07:16,830 --> 00:07:26,690
+Cinquantanove: diciotto principi contabili generali. Sessanta: il 30 giugno, entro cui la Giunta approva il bilancio consolidato del servizio sanitario regionale.
+
+41
+00:07:26,690 --> 00:07:37,210
+Occhio: i centoquarantamila euro valgono per servizi e forniture. Per i lavori l'affidamento diretto arriva a centocinquantamila, e le soglie europee cambiano ogni due anni.
+
+42
+00:07:37,210 --> 00:07:42,130
+Trenta, sessanta, centoventi: i giorni che contano.
+
+43
+00:07:42,130 --> 00:07:57,070
+Le tre cose da portare alla prova. La prima: ogni data si ricorda con il suo fatto. Il 1978 e' la nascita del servizio, il 1992 le aziende, il 2016 Azienda Zero e il regolamento europeo.
+
+44
+00:07:57,070 --> 00:08:08,480
+La seconda: i termini tornano. Trenta giorni ricorrono nel procedimento, nell'accesso, nel disciplinare e nella sicurezza; il 30 aprile e il 31 dicembre in ogni bilancio.
+
+45
+00:08:08,480 --> 00:08:17,620
+La terza: le soglie e i termini degli appalti cambiano nel tempo. Prima della prova, controlla le cifre vigenti sul bando e sui testi aggiornati.
+
+46
+00:08:17,620 --> 00:08:28,110
+L'ultimo distrattore: il GDPR non e' del 2018. E' del 2016; dal 2018 si applica. E' la data che piu' spesso finisce nel posto sbagliato.
+
+47
+00:08:28,110 --> 00:08:36,530
+In sintesi: sessanta numeri, legati ai loro fatti. Nella prossima lezione: una simulazione commentata, trenta domande sulle undici materie.

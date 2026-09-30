@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:14,870
+Mancano due giorni alla prova. Hai studiato undici materie, dalla sanita' alla contabilita', e la tentazione e' ricominciare tutto da capo, dalla prima pagina del primo modulo. E' l'errore piu' comune.
+
+2
+00:00:14,870 --> 00:00:22,590
+Le ultime quarantotto ore non servono a imparare cose nuove. Servono a mettere in ordine quello che sai gia', e ad arrivare alla prova lucidi e riposati.
+
+3
+00:00:22,590 --> 00:00:27,190
+Nelle ultime ore non si impara: si mette in ordine.
+
+4
+00:00:27,190 --> 00:00:34,680
+Quattro passaggi. Che cosa ripassare. Che cosa lasciare perdere. Come si legge un quesito quando il tempo stringe. E il giorno della prova.
+
+5
+00:00:34,680 --> 00:00:44,320
+La prima cosa da ripassare sono le tre cose di ogni lezione. Sono poche frasi per lezione, e insieme fanno lo scheletro dell'intero corso. Si rileggono in un pomeriggio.
+
+6
+00:00:44,320 --> 00:00:54,310
+La seconda sono le sessanta date e numeri. Ripetile ad alta voce, e per ognuna di' anche il fatto a cui e' legata. Una data senza il suo fatto e' la prima a scappare sotto tempo.
+
+7
+00:00:54,310 --> 00:01:02,770
+La terza sono i distrattori. Ogni lezione ne ha quattro o cinque, e sono le frasi sbagliate che troverai nei quiz. Leggili cosi': falso, perche'.
+
+8
+00:01:02,770 --> 00:01:11,010
+La quarta sono le domande che hai sbagliato nelle simulazioni. Valgono piu' di quelle giuste: ti dicono dove la trappola ha funzionato, e dove funzionera' ancora.
+
+9
+00:01:11,010 --> 00:01:21,110
+Nelle materie che senti piu' lontane, come appalti e contabilita', fermati sulle tre cose e sui distrattori. Non inseguire i dettagli che non hai mai fissato: non li fisserai adesso.
+
+10
+00:01:21,110 --> 00:01:30,190
+Il ripasso utile e' attivo. Copri la risposta, prova a dirla, poi controlla. Rileggere una pagina gia' letta da' la sensazione di sapere, ma fissa molto meno.
+
+11
+00:01:30,190 --> 00:01:40,860
+Se puoi, ripassa con un collega che prepara la stessa prova. Interrogatevi a turno sulle date e sui distrattori: spiegare ad alta voce e' il modo piu' rapido per scoprire che cosa non e' ancora chiaro.
+
+12
+00:01:40,860 --> 00:01:52,790
+Un esempio di piano: il primo giorno, la mattina le tre cose dei primi sei moduli, il pomeriggio quelle degli altri cinque. Il secondo giorno, date e distrattori al mattino, una simulazione al pomeriggio.
+
+13
+00:01:52,790 --> 00:02:00,790
+Attenzione: rileggere tutto non e' ripassare. Se alla fine del giorno non hai provato a rispondere senza guardare, hai solo riletto.
+
+14
+00:02:00,790 --> 00:02:05,780
+Tre cose, sessanta numeri, i distrattori: lo scheletro basta.
+
+15
+00:02:05,780 --> 00:02:15,440
+Poi c'e' quello che conviene lasciare perdere. Prima di tutto i materiali nuovi: dispense mai viste, raccolte di quiz senza fonte, catene di messaggi con le domande sicure.
+
+16
+00:02:15,440 --> 00:02:26,010
+Nel corso lo abbiamo visto piu' volte: dispense e quiz in circolazione contengono errori. Principi contabili contati come diciassette, entrate in sei titoli, date di codici superati.
+
+17
+00:02:26,010 --> 00:02:35,410
+Lascia perdere anche i dettagli marginali: il numero del comma, la formulazione esatta di un elenco lungo. I quiz premiano chi riconosce il concetto giusto, non chi recita l'articolo.
+
+18
+00:02:35,410 --> 00:02:43,230
+E lascia perdere la notte sui libri. Il sonno serve a fissare quello che hai studiato. Una notte in bianco toglie alla prova piu' di quanto aggiunga il ripasso.
+
+19
+00:02:43,230 --> 00:02:53,320
+Se hai un dubbio su una cifra che cambia nel tempo, come le soglie degli appalti, non cercare conferme dell'ultimo minuto su fonti incerte. Fidati del testo vigente e di cio' che dice il bando.
+
+20
+00:02:53,320 --> 00:03:03,130
+Un esempio: la sera prima trovi in rete un quiz che da' le entrate degli enti territoriali in sei titoli. Non cambiare quello che sai: nel corso hai visto perche' e' incompleto.
+
+21
+00:03:03,130 --> 00:03:12,190
+Occhio: un quiz trovato in rete non e' una fonte. Nel preparare questo corso ne abbiamo trovati diversi con risposte sbagliate, anche su punti da esame.
+
+22
+00:03:12,190 --> 00:03:16,790
+Meno materiale, piu' sonno, nessuna fonte nuova.
+
+23
+00:03:16,790 --> 00:03:25,830
+Durante la prova, leggi la domanda fino in fondo prima di guardare le risposte. Cerca il soggetto e il verbo: chi fa che cosa, e in quale momento.
+
+24
+00:03:25,830 --> 00:03:36,110
+Fai attenzione alle negazioni: non, tranne, fatta eccezione. Molti quiz chiedono quale risposta e' falsa, e chi legge di corsa sceglie la prima frase vera che trova.
+
+25
+00:03:36,110 --> 00:03:47,000
+Poi elimina. Di solito due risposte si scartano subito, e resta un confronto tra due. Li' cerca la trappola: una data vicina, un numero simile, una parola assoluta, un soggetto spostato.
+
+26
+00:03:47,000 --> 00:03:57,390
+Leggi sempre tutte e quattro le risposte, anche quando la prima ti sembra giusta. A volte ce n'e' una piu' completa, e la domanda chiede proprio quella: la piu' corretta, non una corretta.
+
+27
+00:03:57,390 --> 00:04:05,240
+Se una domanda ti blocca, non fermarti. Segnala il numero e passa alla successiva: ci torni alla fine, con la testa piu' libera e il tempo che ti resta.
+
+28
+00:04:05,240 --> 00:04:13,380
+Cambia una risposta solo se ricordi un fatto preciso che la smentisce. Una sensazione vaga, a fine prova, non e' un buon motivo per tornare indietro.
+
+29
+00:04:13,380 --> 00:04:23,410
+Controlla nel bando come si calcola il punteggio. Se le risposte sbagliate tolgono punti, lasciare in bianco una domanda davvero incerta puo' convenire. Se non ne tolgono, rispondi a tutte.
+
+30
+00:04:23,410 --> 00:04:34,830
+Un esempio: quale tra questi non e' un organo dell'azienda sanitaria? Direttore generale, collegio di direzione, collegio sindacale, direttore sanitario. La risposta e' il direttore sanitario.
+
+31
+00:04:34,830 --> 00:04:44,960
+Attenzione alle doppie negazioni, come non e' vero che non. Riformula la frase in positivo prima di rispondere: e' il modo piu' rapido per non cadere nell'inganno.
+
+32
+00:04:44,960 --> 00:04:49,560
+Soggetto, verbo, negazione: poi elimina.
+
+33
+00:04:49,560 --> 00:04:58,590
+La sera prima prepara tutto: documento d'identita', convocazione e quello che il bando chiede di portare. Controlla indirizzo, orario e tempi del viaggio.
+
+34
+00:04:58,590 --> 00:05:08,130
+La mattina mangia qualcosa di leggero e arriva con anticipo. L'identificazione e le istruzioni richiedono tempo, e cominciare di corsa costa lucidita' nelle prime domande.
+
+35
+00:05:08,130 --> 00:05:18,010
+Ascolta con attenzione le istruzioni della commissione: quanto tempo hai, come si segna la risposta, se si puo' correggere. Un errore di procedura puo' costare quanto una risposta sbagliata.
+
+36
+00:05:18,010 --> 00:05:28,340
+Gestisci il tempo in due giri. Nel primo rispondi a tutto cio' che sai con sicurezza. Nel secondo torni sulle domande segnalate. Tieni qualche minuto per controllare di non averne saltata nessuna.
+
+37
+00:05:28,340 --> 00:05:37,310
+Un po' di ansia e' normale, e aiuta a restare attenti. Se una domanda ti mette in difficolta', respira e vai avanti: una domanda difficile non dice come andra' la prova.
+
+38
+00:05:37,310 --> 00:05:48,400
+Prima di consegnare, controlla anche i dati che non riguardano le domande: nome, codice, firme o etichette richieste. Sono dettagli di pochi secondi, ma un foglio incompleto puo' costare la prova.
+
+39
+00:05:48,400 --> 00:06:00,040
+Un esempio: a meta' prova ti accorgi di aver saltato una riga del foglio risposte. Fermati, ricontrolla la numerazione dall'ultima domanda sicura, e riallinea. Meglio un minuto perso che dieci risposte spostate.
+
+40
+00:06:00,040 --> 00:06:09,880
+Occhio: le modalita' cambiano da una prova all'altra. Carta o computer, durata, penalita': vale sempre quello che dice il bando, non quello che raccontano i colleghi.
+
+41
+00:06:09,880 --> 00:06:14,480
+Arriva presto, ascolta le istruzioni, fai due giri.
+
+42
+00:06:14,480 --> 00:06:23,420
+Le tre cose da portare alla prova. La prima: nelle ultime quarantotto ore ripassa in modo attivo tre cose, date e distrattori, e dormi.
+
+43
+00:06:23,420 --> 00:06:33,070
+La seconda: leggi ogni quesito cercando soggetto, verbo e negazioni, poi elimina le risposte impossibili e cerca la trappola tra le ultime due.
+
+44
+00:06:33,070 --> 00:06:40,010
+La terza: controlla nel bando tempo, punteggio e materiali, e arriva in anticipo, con i documenti pronti.
+
+45
+00:06:40,010 --> 00:06:49,580
+L'ultimo distrattore e' pensare di non sapere abbastanza. Hai attraversato undici materie, lezione dopo lezione: il lavoro e' fatto. Adesso si raccoglie.
+
+46
+00:06:49,580 --> 00:06:57,960
+In sintesi: ordine, sonno e attenzione alle parole. Qui si chiude il corso. Buona prova, da tutta la CISL FP Padova Rovigo.
