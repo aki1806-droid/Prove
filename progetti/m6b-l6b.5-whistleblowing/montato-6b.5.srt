@@ -1,0 +1,183 @@
+1
+00:00:03,000 --> 00:00:12,250
+Un'infermiera si accorge che le ore di un servizio in appalto vengono pagate anche quando il personale non c'e'. Se lo dice, rischia il posto? E a chi deve dirlo?
+
+2
+00:00:12,250 --> 00:00:22,460
+Senza tutele, molti tacerebbero. Per questo la legge protegge chi segnala un illecito scoperto nel lavoro. E' il whistleblowing, dall'inglese: chi soffia nel fischietto.
+
+3
+00:00:22,460 --> 00:00:27,060
+Chi segnala un illecito va protetto, non punito.
+
+4
+00:00:27,060 --> 00:00:38,590
+Quattro passaggi. Chi puo' segnalare, e che cosa. I canali di segnalazione. Riservatezza e divieto di ritorsioni. E le altre misure: rotazione, formazione, patti di integrita'.
+
+5
+00:00:38,590 --> 00:00:50,650
+La prima tutela arriva con la legge 190, che nel 2012 introduce l'articolo 54-bis nel decreto 165. La legge 179 del 2017 la rafforza.
+
+6
+00:00:50,650 --> 00:01:04,550
+Oggi la disciplina e' il decreto legislativo 24 del 2023, che attua la direttiva europea 1937 del 2019. Sostituisce l'articolo 54-bis e vale sia per il settore pubblico sia per quello privato.
+
+7
+00:01:04,550 --> 00:01:15,370
+Chi e' protetto? Non solo i dipendenti. Anche collaboratori, consulenti, liberi professionisti, volontari e tirocinanti, e persino chi e' ancora in selezione o ha gia' lasciato il lavoro.
+
+8
+00:01:15,370 --> 00:01:25,820
+La protezione si estende a chi aiuta il segnalante, il facilitatore, ai colleghi con un rapporto abituale e ai parenti fino al quarto grado che lavorano nello stesso contesto.
+
+9
+00:01:25,820 --> 00:01:35,530
+Che cosa si segnala? Violazioni del diritto nazionale o europeo che ledono l'interesse pubblico o l'integrita' dell'amministrazione: illeciti penali, civili, amministrativi e contabili.
+
+10
+00:01:35,530 --> 00:01:44,770
+Non rientrano le rivendicazioni personali sul proprio rapporto di lavoro. Un conflitto con il capo reparto sui turni non e' whistleblowing: si affronta con gli strumenti ordinari.
+
+11
+00:01:44,770 --> 00:01:53,710
+La segnalazione deve basarsi su fondati motivi. Non servono prove certe, ma nemmeno semplici voci: servono elementi concreti, conosciuti nel contesto di lavoro.
+
+12
+00:01:53,710 --> 00:02:02,940
+E le segnalazioni anonime? L'ANAC le tratta come segnalazioni ordinarie. Se poi il segnalante viene identificato e subisce ritorsioni, le tutele valgono anche per lui.
+
+13
+00:02:02,940 --> 00:02:11,120
+Attenzione: la tutela non riguarda solo i dipendenti di ruolo. Copre anche collaboratori, consulenti, tirocinanti e volontari.
+
+14
+00:02:11,120 --> 00:02:15,980
+Un illecito che tocca l'interesse pubblico, non una lite personale.
+
+15
+00:02:15,980 --> 00:02:25,650
+I canali sono quattro. Il primo e' il canale interno. Nelle amministrazioni pubbliche e' affidato al responsabile della prevenzione della corruzione, l'RPCT.
+
+16
+00:02:25,650 --> 00:02:35,960
+La segnalazione interna puo' essere scritta, anche con piattaforma informatica, oppure orale. Entro sette giorni il segnalante riceve un avviso di ricevimento, entro tre mesi un riscontro.
+
+17
+00:02:35,960 --> 00:02:44,810
+Chi gestisce il canale deve dare seguito alla segnalazione: verificarne la fondatezza, chiedere integrazioni e, se serve, trasmetterla agli organi competenti.
+
+18
+00:02:44,810 --> 00:02:56,330
+Il secondo e' il canale esterno, gestito dall'ANAC. Si usa a certe condizioni: se il canale interno manca o non funziona, se la segnalazione interna e' rimasta senza seguito, o se si temono ritorsioni.
+
+19
+00:02:56,330 --> 00:03:06,910
+Il terzo e' la divulgazione pubblica, per esempio attraverso la stampa. E' ammessa solo in casi precisi, come un pericolo imminente per l'interesse pubblico o una segnalazione rimasta senza risposta.
+
+20
+00:03:06,910 --> 00:03:15,590
+Il quarto e' la denuncia all'autorita' giudiziaria o alla Corte dei conti. Resta sempre possibile, e per chi ha la qualifica di pubblico ufficiale puo' essere un obbligo.
+
+21
+00:03:15,590 --> 00:03:24,230
+Torniamo all'infermiera. Puo' segnalare all'RPCT con la piattaforma dell'azienda. Se entro tre mesi non riceve riscontro, puo' rivolgersi all'ANAC.
+
+22
+00:03:24,230 --> 00:03:32,920
+Occhio al distrattore: il canale esterno dell'ANAC non e' libero in ogni caso. Si usa alle condizioni del decreto, di regola dopo il canale interno.
+
+23
+00:03:32,920 --> 00:03:37,520
+Interno, esterno, pubblico, giudiziario.
+
+24
+00:03:37,520 --> 00:03:48,620
+La prima tutela e' la riservatezza. L'identita' del segnalante non puo' essere rivelata, senza il suo consenso espresso, a persone diverse da quelle competenti a gestire la segnalazione.
+
+25
+00:03:48,620 --> 00:03:57,790
+La segnalazione e' sottratta all'accesso documentale e all'accesso civico. Nel procedimento disciplinare, l'identita' puo' emergere solo con il consenso del segnalante.
+
+26
+00:03:57,790 --> 00:04:07,560
+La seconda tutela e' il divieto di ritorsioni: licenziamento, demansionamento, trasferimento, note negative, mancata promozione. Gli atti ritorsivi sono nulli.
+
+27
+00:04:07,560 --> 00:04:16,890
+E l'onere della prova e' invertito. Si presume che la misura sfavorevole sia una ritorsione; tocca all'amministrazione dimostrare che dipende da ragioni estranee alla segnalazione.
+
+28
+00:04:16,890 --> 00:04:27,120
+Le ritorsioni si comunicano all'ANAC, che puo' applicare sanzioni da diecimila a cinquantamila euro. Le stesse sanzioni valgono per chi viola la riservatezza o non attiva i canali.
+
+29
+00:04:27,120 --> 00:04:37,040
+Le tutele hanno un limite: cadono se viene accertata la responsabilita' del segnalante per calunnia o diffamazione, o una sua responsabilita' civile per dolo o colpa grave.
+
+30
+00:04:37,040 --> 00:04:47,270
+Torniamo all'infermiera: dopo la segnalazione viene spostata in un reparto lontano, senza ragioni organizzative. Si presume una ritorsione, e l'azienda deve provare il contrario.
+
+31
+00:04:47,270 --> 00:04:56,080
+Attenzione: non e' il segnalante a dover provare la ritorsione. E' l'amministrazione a dover dimostrare che la misura non dipende dalla segnalazione.
+
+32
+00:04:56,080 --> 00:05:01,310
+Identita' protetta, ritorsioni nulle, prova a carico dell'ente.
+
+33
+00:05:01,310 --> 00:05:12,640
+Le altre misure. La prima e' la rotazione ordinaria del personale nelle aree piu' esposte: evita che la permanenza a lungo nello stesso ruolo crei relazioni opache con fornitori e utenti.
+
+34
+00:05:12,640 --> 00:05:22,680
+La legge non fissa una durata. I criteri li stabilisce ogni amministrazione nel proprio piano. Dove la rotazione non e' possibile, per competenze infungibili, si usano misure alternative.
+
+35
+00:05:22,680 --> 00:05:32,780
+La principale e' la segregazione delle funzioni: chi istruisce una pratica, chi la decide e chi la controlla sono persone diverse. Si aggiungono la doppia firma e i controlli a campione.
+
+36
+00:05:32,780 --> 00:05:45,250
+La seconda misura e' la formazione, generale per tutti e specifica per chi lavora nelle aree a rischio. Dal 2023 il codice di comportamento prevede anche una formazione obbligatoria su etica e comportamento.
+
+37
+00:05:45,250 --> 00:05:56,280
+La terza sono i patti di integrita'. Le stazioni appaltanti possono prevedere nei bandi che il mancato rispetto dei protocolli di legalita' o dei patti di integrita' sia causa di esclusione dalla gara.
+
+38
+00:05:56,280 --> 00:06:05,680
+Anche l'informatizzazione e' una misura: gare telematiche, agende di prenotazione informatizzate, atti tracciati. Ogni passaggio lascia un segno che si puo' controllare.
+
+39
+00:06:05,680 --> 00:06:16,600
+Un esempio: un'azienda ospedaliera fa firmare a ogni concorrente un patto in cui si impegna a non offrire utilita' e a segnalare ogni tentativo di turbativa. Chi lo viola e' escluso.
+
+40
+00:06:16,600 --> 00:06:25,570
+Occhio a un errore delle dispense: nessuna legge impone di ruotare i dirigenti ogni cinque anni. La durata la fissa il piano di ogni amministrazione.
+
+41
+00:06:25,570 --> 00:06:30,910
+Ruotare, separare le funzioni, formare, far firmare patti.
+
+42
+00:06:30,910 --> 00:06:44,450
+Le tre cose da portare alla prova. La prima: il whistleblowing oggi e' regolato dal decreto 24 del 2023; protegge dipendenti, collaboratori, consulenti, tirocinanti, facilitatori e colleghi.
+
+43
+00:06:44,450 --> 00:06:56,470
+La seconda: il canale interno e' affidato all'RPCT, con avviso entro sette giorni e riscontro entro tre mesi; poi, a certe condizioni, canale esterno dell'ANAC e divulgazione pubblica.
+
+44
+00:06:56,470 --> 00:07:07,810
+La terza: identita' riservata, ritorsioni nulle, onere della prova a carico dell'ente; tra le misure, rotazione con criteri fissati dal piano, formazione e patti di integrita'.
+
+45
+00:07:07,810 --> 00:07:19,190
+L'ultimo distrattore: l'articolo 54-bis del decreto 165 non e' piu' la norma di riferimento. Dal 2023 la tutela e' nel decreto legislativo 24.
+
+46
+00:07:19,190 --> 00:07:29,430
+In sintesi: proteggere chi parla, e organizzarsi perche' la corruzione trovi meno spazio. Si chiude il modulo sull'anticorruzione. Nel prossimo: il trattamento dei dati personali.
