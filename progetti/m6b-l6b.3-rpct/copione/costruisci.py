@@ -20,7 +20,7 @@ BLOCCHI = [
  (3,"chiaro",0,"Lo individua l'organo di indirizzo, di norma tra i dirigenti di ruolo in servizio. In azienda sanitaria la nomina spetta al direttore generale."),
  (3,"chiaro",0,"La legge chiede di disporre le modifiche organizzative necessarie perche' il responsabile abbia funzioni e poteri idonei, e possa svolgere l'incarico con piena autonomia ed effettivita'."),
  (3,"chiaro",0,"Il nome del responsabile va comunicato all'ANAC e pubblicato sul sito, in Amministrazione trasparente. Chiunque deve poter sapere chi presidia la prevenzione in quell'ente."),
- (3,"chiaro",0,"Per questo il Piano nazionale sconsiglia di scegliere dirigenti che operano nelle aree piu' a rischio, come contratti o patrimonio, e chi guida l'ufficio per i procedimenti disciplinari."),
+ (3,"chiaro",0,"Proprio per garantire l'autonomia, il Piano nazionale sconsiglia di scegliere dirigenti che operano nelle aree piu' a rischio, come contratti o patrimonio, e chi guida l'ufficio per i procedimenti disciplinari."),
  (3,"chiaro",0,"L'autonomia e' anche protetta. Le misure discriminatorie contro il responsabile, per motivi legati alle sue funzioni, vanno segnalate all'ANAC, che puo' chiedere informazioni e intervenire."),
  (3,"chiaro",0,"Serve infine una struttura di supporto adeguata: persone e mezzi. Nelle aziende grandi e' di solito un ufficio dedicato, che lavora con il responsabile."),
  (3,"tenue",0.8,"Attenzione: l'RPCT non e' un consulente esterno. E' di norma un dirigente di ruolo in servizio nell'amministrazione, nominato dall'organo di indirizzo."),
