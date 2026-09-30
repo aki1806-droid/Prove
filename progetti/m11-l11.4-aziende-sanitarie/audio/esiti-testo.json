@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 546,
+  "parole_dette": 545,
+  "coincidenti": 544,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s20",
+    "copione": "e d",
+    "detto": "ed"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 568,
+  "parole_dette": 569,
+  "coincidenti": 567,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s42",
+    "copione": "zooprofilattici",
+    "detto": "zoo profilattici"
+   }
+  ]
+ }
+}

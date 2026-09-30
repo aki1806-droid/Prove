@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'azienda sanitaria del Veneto e una della Lombardia spendono per i farmaci. Fino a pochi anni fa confrontare i loro bilanci era quasi impossibile. Perche'?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' ogni ente contava a modo suo: regole, schemi e voci diverse. Il decreto legislativo 118 del 2011 nasce per far parlare a tutti i bilanci pubblici la stessa lingua."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Stessi conti, stessa lingua, bilanci confrontabili."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Com'erano i conti prima del 2011. La legge delega e il decreto. Gli obiettivi dell'armonizzazione. E l'architettura del decreto, con i suoi allegati."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Prima dell'armonizzazione convivevano sistemi diversi. Regioni ed enti locali usavano la contabilita' finanziaria, basata sulle entrate e sulle spese autorizzate dal bilancio di previsione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La contabilita' finanziaria dice quanto si puo' spendere e quanto si e' speso. Ma da sola non dice quanto costa davvero un servizio, ne' quanto vale il patrimonio dell'ente."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende sanitarie avevano gia' cambiato strada: con il decreto 502 del 1992 erano passate alla contabilita' economico patrimoniale, in partita doppia, come le imprese."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma ogni regione aveva scritto le sue regole. Nel Veneto, per esempio, una legge regionale del 1994 disciplinava l'assetto contabile delle aziende sanitarie."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il risultato era una babele: piani dei conti diversi, schemi di bilancio diversi, criteri di valutazione diversi. Sommare o confrontare i conti pubblici diventava un lavoro di traduzione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E lo Stato faticava a costruire in modo affidabile il conto consolidato delle pubbliche amministrazioni, che l'Unione europea chiede per verificare deficit e debito."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: due aziende sanitarie registrano lo stesso acquisto di un'apparecchiatura in voci diverse. Nei due bilanci il costo compare in modo diverso, e il confronto salta."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: le aziende sanitarie non sono passate alla contabilita' economica con il decreto del 2011. Ci erano arrivate con il decreto 502 del 1992."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Senza regole comuni, i numeri non si possono confrontare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'armonizzazione e' uno dei pilastri del federalismo fiscale. La legge delega e' la numero 42 del 2009, che agli articoli 1 e 2 chiede sistemi contabili e schemi di bilancio omogenei."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nello stesso anno la legge 196 del 2009 riordina la contabilita' e la finanza pubblica. Il decreto 118 fa lo stesso lavoro per regioni, enti locali e loro organismi."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto legislativo e' del 23 giugno 2011, numero 118. Il titolo dice gia' tutto: disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli enti territoriali si parte con una sperimentazione, dal 2012. Il decreto correttivo 126 del 2014 lo modifica in profondita', e le nuove regole vanno a regime dal 2015."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La parte sanitaria, il Titolo secondo, si applica invece gia' dal 2012: le aziende sanitarie avevano la contabilita' economica, e bisognava soprattutto uniformarla."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto viene aggiornato nel tempo con decreti ministeriali, anche su proposta di una commissione tecnica, la commissione Arconet, che segue l'applicazione dei principi contabili."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: nel 2015 un comune adotta per la prima volta i nuovi schemi di bilancio e il nuovo piano dei conti, gli stessi di ogni altro comune e di ogni regione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la legge 42 del 2009 non e' il decreto sull'armonizzazione. E' la legge delega sul federalismo fiscale, da cui il decreto 118 discende."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una delega nel 2009, un decreto nel 2011, un correttivo nel 2014."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Gli obiettivi si riassumono in tre parole. La prima e' omogeneita': tutti gli enti usano le stesse regole, gli stessi schemi e lo stesso piano dei conti."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda e' confrontabilita': i bilanci di enti diversi, e dello stesso ente in anni diversi, si possono mettere a confronto. E' la base per misurare costi e risultati."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza e' trasparenza: i conti devono essere leggibili anche da chi non li ha scritti, dai cittadini agli organi di controllo, e vanno pubblicati."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per arrivarci, il decreto introduce regole contabili uniformi, un piano dei conti integrato comune, il bilancio consolidato con gli enti controllati e un sistema di indicatori di risultato."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi il raccordo con le regole europee: i conti degli enti devono poter confluire nel conto delle pubbliche amministrazioni che l'Italia trasmette all'Unione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Armonizzare serve anche al coordinamento della finanza pubblica: se tutti contano allo stesso modo, lo Stato puo' verificare equilibri e vincoli di ogni livello di governo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli indicatori accompagnano il bilancio di previsione e il rendiconto: misurano in modo uniforme i risultati e l'andamento dei conti, cosi' gli enti si possono confrontare tra loro."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: con conti armonizzati si puo' confrontare il costo per abitante dell'assistenza farmaceutica di due regioni, voce per voce, senza riclassificare i bilanci."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: armonizzare non vuol dire accentrare. Ogni ente resta autonomo nelle sue scelte; sono comuni le regole con cui le rappresenta nei conti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Omogeneita', confrontabilita', trasparenza: tre parole per un obiettivo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il decreto e' diviso in titoli. Il Titolo primo detta i principi contabili generali e applicati per regioni, enti locali e loro enti strumentali."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Titolo secondo, dall'articolo 19, riguarda il settore sanitario: la parte sanitaria del bilancio regionale, la gestione sanitaria accentrata, le aziende sanitarie e ospedaliere."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Titolo terzo, aggiunto dal correttivo del 2014, disciplina l'ordinamento finanziario e contabile delle regioni. Seguono le disposizioni finali e transitorie."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli enti locali, le regole del decreto si leggono insieme al testo unico degli enti locali, che il correttivo del 2014 ha aggiornato nella parte sulla contabilita'."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gran parte delle regole operative sta negli allegati. Il primo contiene i principi contabili generali; altri contengono i principi contabili applicati."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I principi applicati riguardano la programmazione, la contabilita' finanziaria, la contabilita' economico patrimoniale e il bilancio consolidato. Poi ci sono il piano dei conti e gli schemi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le aziende sanitarie contano soprattutto il Titolo secondo e il codice civile, a cui il decreto rinvia per il bilancio d'esercizio, salvo quanto diversamente previsto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: per capire come si registra un credito di dubbia esigibilita', il ragioniere di un comune consulta il principio applicato della contabilita' finanziaria, tra gli allegati."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le aziende sanitarie non seguono il Titolo primo come i comuni. Il loro riferimento e' il Titolo secondo, dall'articolo 19."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "I titoli dicono a chi, gli allegati dicono come."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il decreto legislativo 118 del 2011 armonizza sistemi contabili e schemi di bilancio di regioni, enti locali e loro organismi."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: discende dalla legge delega 42 del 2009 sul federalismo fiscale, ed e' stato corretto dal decreto 126 del 2014; per gli enti territoriali e' a regime dal 2015."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: gli obiettivi sono omogeneita', confrontabilita' e trasparenza; il Titolo secondo, dall'articolo 19, riguarda la sanita'."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il decreto 118 non riguarda solo gli enti locali. Si applica anche alle regioni e, con il Titolo secondo, al servizio sanitario."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: una lingua comune per i conti pubblici. Nella prossima lezione: i principi contabili, a partire dalla competenza finanziaria potenziata."
+ }
+]

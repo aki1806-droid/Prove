@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un comune firma a dicembre un contratto per rifare una scuola. I lavori dureranno due anni e si pagheranno a stati di avanzamento. In quale bilancio va la spesa?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non tutta nell'anno della firma. Con il decreto 118 la spesa si imputa agli anni in cui i pagamenti diventano esigibili. Dietro questa scelta ci sono i principi contabili."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "I principi dicono come contare, prima ancora di cosa contare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. I principi che danno forma al bilancio. I principi sulla qualita' dell'informazione. La competenza finanziaria potenziata. E la competenza economica, con l'equilibrio di bilancio."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "I principi contabili generali, detti anche postulati, stanno nel primo allegato al decreto. Sono diciotto, e valgono per tutti gli enti che il decreto armonizza."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' l'annualita': il bilancio si riferisce a un esercizio che coincide con l'anno solare, dal primo gennaio al trentuno dicembre, anche quando le previsioni sono pluriennali."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' l'unita': il bilancio e' uno solo, e il complesso delle entrate finanzia il complesso delle spese, salvo le entrate vincolate per legge a uno scopo preciso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' l'universalita': nel bilancio devono comparire tutte le operazioni dell'ente. Non sono ammesse gestioni fuori bilancio, cioe' fondi che sfuggono ai conti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto e' l'integrita': entrate e spese si iscrivono per intero, al lordo, senza compensazioni. Non si scrive solo la differenza tra quanto si incassa e quanto si paga."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questi primi quattro principi disegnano la forma del bilancio: dicono che cosa ci deve stare e come ci deve stare, prima ancora di entrare nel merito dei numeri."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda paga una fornitura e incassa una penale dallo stesso fornitore. Nel bilancio compaiono due importi distinti, non il saldo fra i due."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il principio si chiama dell'unita' del bilancio, non dell'unicita'. Alcune dispense lo scrivono in modo sbagliato."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un anno, un bilancio, tutte le operazioni, per intero."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Un secondo gruppo riguarda la qualita' dell'informazione. Veridicita', attendibilita', correttezza e comprensibilita': i conti devono rappresentare la realta', in modo chiaro."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la significativita' e la rilevanza: le stime devono essere ragionevoli e l'informazione deve servire a chi decide. E la flessibilita' e la congruita', che adattano mezzi e fini."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prudenza impone di iscrivere le entrate solo se ragionevolmente certe, e le spese anche quando sono solo probabili. Meglio sottostimare le entrate che gonfiarle."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La coerenza lega programmazione, previsioni, gestione e rendiconto. La continuita' e la costanza chiedono di non cambiare criteri da un anno all'altro senza una ragione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vengono poi la comparabilita' e la verificabilita', la neutralita' o imparzialita' di chi redige i conti, e la pubblicita': i documenti contabili vanno resi accessibili."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ultimo e' la prevalenza della sostanza sulla forma: le operazioni si rappresentano secondo la loro realta' economica, non soltanto secondo la loro veste giuridica."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un ente cambia il metodo di valutazione delle rimanenze. Deve spiegarlo e renderne conto, altrimenti i bilanci di due anni non sono piu' confrontabili."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: i principi generali non sono diciassette, come in alcuni elenchi. Sono diciotto, e l'ultimo e' la prevalenza della sostanza sulla forma."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Numeri veri, chiari, prudenti e confrontabili."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il cuore della riforma per gli enti territoriali e' la competenza finanziaria potenziata. Stabilisce quando un'entrata o una spesa entra nei conti, e in quale anno."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le obbligazioni giuridicamente perfezionate si registrano quando nascono, ma si imputano all'esercizio in cui vengono a scadenza, cioe' quando diventano esigibili."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'entrata il momento chiave e' l'accertamento: si verifica la ragione del credito, si individua il debitore, si quantifica la somma e si fissa la scadenza."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la spesa e' l'impegno: si vincola una somma a uno scopo, individuando il creditore, l'importo e la scadenza. Poi vengono la liquidazione, l'ordinazione e il pagamento."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se una spesa e' finanziata oggi ma si paghera' negli anni successivi, le risorse passano da un anno all'altro con il fondo pluriennale vincolato, che ne garantisce la copertura."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entrate accertate e non riscosse diventano residui attivi; spese impegnate e non pagate, residui passivi. Ogni anno i residui si riaccertano, e restano solo quelli ancora dovuti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'effetto e' che il bilancio non accumula piu' impegni per spese che si faranno chissa' quando: i residui si riducono e i conti si avvicinano alla cassa reale."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo alla scuola. Il comune impegna la spesa alla firma, ma la imputa ai due anni dei lavori, secondo gli stati di avanzamento. Il fondo pluriennale porta la copertura."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: con la competenza potenziata la spesa non si imputa tutta all'anno della firma del contratto. Si imputa all'anno in cui diventa esigibile."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Si registra quando nasce, si imputa quando scade."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Accanto alla competenza finanziaria c'e' la competenza economica: costi e ricavi si attribuiscono all'esercizio in cui si consumano le risorse o si producono i servizi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il principio delle aziende sanitarie, che tengono solo la contabilita' economico patrimoniale. Gli enti territoriali la affiancano alla contabilita' finanziaria."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio di competenza economica e' l'ammortamento: un'apparecchiatura che dura dieci anni non pesa tutta sul primo anno, ma si distribuisce sugli anni in cui viene usata."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prudenza ha anche uno strumento preciso: il fondo crediti di dubbia esigibilita'. Accantona risorse per la parte di crediti che, secondo l'esperienza, non si riuscira' a riscuotere."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' l'equilibrio di bilancio: le spese correnti vanno coperte da entrate correnti, e gli investimenti da entrate in conto capitale o da debito ammesso dalla legge."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il debito, di regola, puo' finanziare solo investimenti, non la spesa corrente come stipendi e acquisti. Chi chiude in disavanzo deve recuperarlo negli esercizi successivi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le aziende sanitarie l'equilibrio e' economico: i costi dell'anno devono trovare copertura nei ricavi e nei contributi assegnati dalla regione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un comune accerta multe per un milione, ma ne riscuote di solito il sessanta per cento. Accantona nel fondo la parte che rischia di non incassare."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il fondo crediti di dubbia esigibilita' non e' una spesa da pagare a qualcuno. E' un accantonamento prudenziale, che non si puo' impegnare."
+ },
+ {
+  "id": "s43",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Contare il giusto, e non spendere cio' che non si incassa."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: i principi contabili generali sono diciotto, nel primo allegato al decreto, dall'annualita' alla prevalenza della sostanza sulla forma."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: con la competenza finanziaria potenziata le obbligazioni si registrano quando si perfezionano e si imputano all'esercizio in cui scadono; accertamento per le entrate, impegno per le spese."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le aziende sanitarie seguono la competenza economica; il fondo crediti di dubbia esigibilita' e l'equilibrio di bilancio tutelano la prudenza."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: i residui attivi non sono entrate gia' incassate. Sono entrate accertate e non ancora riscosse alla fine dell'anno."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: regole comuni per contare nello stesso modo. Nella prossima lezione: i documenti del sistema di bilancio e il piano dei conti integrato."
+ }
+]

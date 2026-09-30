@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 579,
+  "parole_dette": 580,
+  "coincidenti": 578,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s18",
+    "copione": "extratributarie",
+    "detto": "extra tributarie"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 586,
+  "parole_dette": 586,
+  "coincidenti": 586,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

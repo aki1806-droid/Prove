@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Nel Veneto ci sono nove aziende ULSS, due aziende ospedaliero universitarie, un istituto oncologico e Azienda Zero. Ognuna ha il suo bilancio. Ma quanto spende, in tutto, la sanita' veneta?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per saperlo non basta sommare i bilanci: bisogna aggiungere le spese che la regione gestisce direttamente, e togliere gli scambi tra un'azienda e l'altra. E' il lavoro del consolidato."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Tanti bilanci, un solo conto della sanita' regionale."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. La gestione sanitaria accentrata. Il caso del Veneto, con Azienda Zero. Il bilancio consolidato e il ciclo di bilancio. E le aziende ospedaliero universitarie."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Non tutto il fondo sanitario va subito alle aziende. Una parte la regione la gestisce direttamente: fondi da ripartire, progetti regionali, rapporti con altre regioni per la mobilita' dei pazienti."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per queste operazioni il decreto 118 chiede alla regione di individuare uno specifico centro di responsabilita': la gestione sanitaria accentrata, indicata con la sigla GSA."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La GSA tiene una contabilita' economico patrimoniale, come le aziende, per le operazioni sanitarie gestite dalla regione. Cosi' anche quelle risorse finiscono in un bilancio confrontabile."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha un responsabile della gestione sanitaria accentrata, che tiene le scritture e redige i bilanci, e un responsabile della certificazione, detto anche terzo certificatore, che le verifica."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come ogni contabilita' in partita doppia, la GSA ha i suoi libri obbligatori: il libro giornale e il libro degli inventari. Redige un bilancio preventivo e un bilancio d'esercizio."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La GSA e' anche il punto in cui si raccolgono i conti dell'intero servizio sanitario regionale: e' il suo responsabile a predisporre il bilancio consolidato."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la regione trattiene una quota del fondo per un progetto di screening in tutte le aziende. La registra la GSA, e la trasferisce alle aziende man mano che il progetto avanza."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: la gestione sanitaria accentrata non e' un'azienda sanitaria in piu'. E' un centro di responsabilita' per le operazioni che la regione gestisce direttamente."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Cio' che la regione gestisce, la GSA lo registra."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Nel Veneto la legge regionale 19 del 2016 ha istituito Azienda Zero. Tra le sue funzioni ci sono le funzioni e le responsabilita' della gestione sanitaria accentrata previste dal decreto 118."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Azienda Zero gestisce i flussi di cassa del finanziamento sanitario regionale, sui conti di tesoreria intestati alla sanita', e tiene le scritture contabili della GSA."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Redige il bilancio preventivo e consuntivo della GSA e il bilancio consolidato, preventivo e consuntivo, del servizio sanitario regionale, con i relativi allegati."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Su questi bilanci l'Area Sanita' e Sociale della regione appone il visto di congruita'. Il bilancio della GSA e' poi approvato dalla Giunta regionale, sentita la commissione consiliare."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale di Azienda Zero svolge le funzioni di responsabile della GSA. Il collegio sindacale di Azienda Zero svolge l'attivita' di terzo certificatore."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Azienda Zero puo' anche affidare la certificazione contabile a una societa' di revisione iscritta nel registro dei revisori, come prevede il decreto ministeriale sulla certificabilita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: a fine anno Azienda Zero raccoglie i bilanci delle aziende venete, li consolida con la GSA e trasmette il consolidato alla regione per il visto e per l'approvazione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: nel Veneto il responsabile della GSA non e' il direttore di un'azienda ULSS. E' il direttore generale di Azienda Zero, secondo la legge regionale."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Nel Veneto la GSA ha un indirizzo: Azienda Zero."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il bilancio consolidato del servizio sanitario regionale mette insieme i bilanci della GSA e degli enti sanitari. E' redatto sia a preventivo sia a consuntivo, con gli stessi schemi."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Consolidare non vuol dire solo sommare: si eliminano i rapporti interni, come i servizi che un'azienda vende a un'altra, per non contare due volte la stessa spesa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ciclo comincia prima dell'anno: il bilancio preventivo, delle aziende e consolidato, si approva entro il trentuno dicembre dell'anno precedente, in coerenza con la programmazione regionale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante l'anno la regione monitora i conti delle aziende, con rilevazioni periodiche dei costi. Se l'equilibrio e' a rischio, chiede misure correttive prima della chiusura."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A consuntivo, aziende e GSA adottano il bilancio d'esercizio entro il trenta aprile. La Giunta approva i bilanci delle aziende entro il trentuno maggio, e il consolidato entro il trenta giugno."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I bilanci approvati si pubblicano entro sessanta giorni. Il consolidato serve anche alle verifiche nazionali sull'equilibrio del servizio sanitario di ogni regione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda ULSS paga a un'azienda ospedaliera le prestazioni per i propri residenti. Nel consolidato quel costo e quel ricavo si elidono: per la regione e' la stessa spesa."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il consolidato non si approva entro il trenta aprile. Entro il trenta aprile le aziende adottano i propri bilanci; il consolidato arriva entro il trenta giugno."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Aprile le aziende, maggio la Giunta, giugno il consolidato."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Le aziende ospedaliero universitarie nascono dall'incontro tra servizio sanitario e universita'. La loro disciplina e' nel decreto legislativo 517 del 1999."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Integrano tre funzioni: assistenza, didattica e ricerca. Nello stesso ospedale lavorano personale del servizio sanitario e personale universitario, e si formano medici e professionisti."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rapporti tra regione e universita' sono regolati da protocolli d'intesa, che definiscono l'apporto di ciascuna e le strutture necessarie alla didattica e alla ricerca."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale e' nominato dalla regione d'intesa con il rettore. Accanto a lui c'e' un organo di indirizzo, che assicura la coerenza tra programmazione sanitaria e attivita' universitarie."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono poi il collegio sindacale, con compiti di controllo contabile, e il collegio di direzione. Sul piano contabile l'azienda ospedaliero universitaria segue il Titolo secondo del decreto 118."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il suo bilancio d'esercizio ha gli stessi schemi e gli stessi criteri di valutazione delle altre aziende, e rientra nel consolidato regionale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: nell'azienda di Padova un reparto e' diretto da un professore universitario. La sua attivita' assistenziale e i suoi costi entrano nel bilancio dell'azienda come quelli di ogni altro reparto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: il direttore generale di un'azienda ospedaliero universitaria non e' nominato dal rettore. E' nominato dalla regione, d'intesa con il rettore."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Curare, insegnare, ricercare, con un solo bilancio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: la GSA e' il centro di responsabilita' regionale per le risorse sanitarie gestite direttamente, con contabilita' economico patrimoniale e un terzo certificatore."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: nel Veneto le funzioni della GSA sono di Azienda Zero, il cui direttore generale ne e' responsabile; il consolidato regionale si approva entro il trenta giugno."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: le aziende ospedaliero universitarie integrano assistenza, didattica e ricerca; il direttore generale e' nominato dalla regione d'intesa con il rettore."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il consolidato non e' la semplice somma dei bilanci. Si eliminano gli scambi interni tra le aziende."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: dai conti delle aziende al conto della sanita' regionale. Si chiude il modulo sulla contabilita'. Nel prossimo: la prova, e le trappole ricorrenti dei quiz."
+ }
+]

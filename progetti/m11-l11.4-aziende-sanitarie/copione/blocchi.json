@@ -1,0 +1,317 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'azienda sanitaria compra una TAC da un milione di euro. Il bilancio di quell'anno chiude con una perdita di un milione? E chi controlla che i numeri siano giusti?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No: la TAC si ammortizza negli anni in cui si usa, e se e' pagata con contributi della regione il suo costo viene neutralizzato. Sono le regole del Titolo secondo del decreto 118."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "In sanita' si contano i costi, non solo i pagamenti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. A chi si applica il Titolo secondo. La contabilita' economico patrimoniale. I documenti contabili obbligatori. E i criteri di valutazione specifici per la sanita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il Titolo secondo del decreto, dall'articolo 19, detta i principi contabili del servizio sanitario. Ha un obiettivo preciso: bilanci sanitari omogenei, confrontabili e aggregabili."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si applica alle regioni, per la parte del bilancio che riguarda il finanziamento del servizio sanitario, e alla gestione sanitaria accentrata, che vedremo nella prossima lezione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si applica poi agli enti del servizio sanitario: aziende sanitarie locali, aziende ospedaliere, aziende ospedaliero universitarie, istituti di ricovero e cura a carattere scientifico pubblici."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rientrano anche gli istituti zooprofilattici sperimentali. Nel Veneto, quindi, le aziende ULSS, le aziende ospedaliere universitarie di Padova e Verona, l'istituto oncologico veneto e lo zooprofilattico delle Venezie."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel bilancio regionale le entrate e le spese per la sanita' devono stare in un perimetro separato e riconoscibile. Il decreto la chiama perimetrazione: la sanita' non si confonde col resto."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche la cassa e' separata: le risorse del servizio sanitario passano su conti di tesoreria intestati alla sanita', cosi' non possono essere usate per altre spese della regione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: la regione riceve le risorse del fondo sanitario. Le iscrive nel perimetro sanitario del proprio bilancio e le trasferisce alle aziende attraverso i conti della sanita'."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un distrattore: il Titolo secondo non riguarda solo le aziende ULSS. Vale anche per aziende ospedaliere e universitarie, istituti di ricovero pubblici e zooprofilattici."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un perimetro chiaro per il denaro della salute."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Gli enti del servizio sanitario tengono la contabilita' economico patrimoniale, in partita doppia. Ogni fatto di gestione produce effetti su costi e ricavi, e su attivita' e passivita'."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il bilancio d'esercizio si applicano le regole del codice civile sul bilancio delle societa', dagli articoli 2423 in poi, salvo quanto il decreto dispone in modo diverso."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piano dei conti di ogni azienda deve essere riconducibile, voce per voce, ai modelli ministeriali di stato patrimoniale e conto economico. L'azienda puo' aggiungere sottovoci, non cambiarle."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una casistica applicativa, approvata con decreto ministeriale, spiega come trattare le operazioni piu' frequenti, cosi' che tutte le aziende le registrino allo stesso modo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto chiede anche che i bilanci siano certificabili: le regioni hanno adottato percorsi attuativi di certificabilita', per arrivare a conti verificabili da un revisore esterno."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro l'azienda il controllo contabile spetta al collegio sindacale, che verifica la regolarita' delle scritture e redige una relazione sui bilanci preventivo e d'esercizio."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda riceve una fattura di dicembre per servizi di pulizia. Il costo va nel conto economico di quell'anno, anche se il pagamento arriva a febbraio."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le aziende sanitarie non tengono la contabilita' finanziaria degli enti locali, con impegni e accertamenti. Tengono la contabilita' economico patrimoniale."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Partita doppia e codice civile, dentro regole comuni."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo documento e' il bilancio preventivo economico annuale. E' coerente con la programmazione sanitaria ed economico finanziaria della regione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Comprende il conto economico preventivo e il piano dei flussi di cassa prospettici. E' corredato da una nota illustrativa, dal piano degli investimenti e dalla relazione del direttore generale."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piano degli investimenti e' triennale, a scorrimento: indica gli investimenti da fare, il fabbisogno e le fonti di finanziamento. Al preventivo si allega anche la relazione del collegio sindacale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A consuntivo c'e' il bilancio d'esercizio, riferito all'anno solare. Si compone di stato patrimoniale, conto economico, rendiconto finanziario e nota integrativa."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' accompagnato dalla relazione sulla gestione del direttore generale, che contiene anche il modello LA: i costi sostenuti per ciascun livello essenziale di assistenza."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore generale adotta il bilancio d'esercizio entro il trenta aprile dell'anno successivo. Gli schemi sono quelli ministeriali, uguali in tutta Italia."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: nel modello LA un'azienda indica quanto ha speso per la prevenzione collettiva, per l'assistenza distrettuale e per quella ospedaliera, secondo le stesse regole di ogni regione."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Un distrattore frequente: il bilancio d'esercizio dell'azienda non si ferma a stato patrimoniale e conto economico. Ci sono anche rendiconto finanziario e nota integrativa."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Prevedere a dicembre, rendere conto ad aprile."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il decreto fissa criteri di valutazione specifici per la sanita'. Le rimanenze di beni fungibili, come farmaci e dispositivi, si valutano al costo medio ponderato."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I beni durevoli si ammortizzano con le aliquote fissate dal decreto. I terreni non si ammortizzano, e i beni di valore molto modesto si spesano interamente nell'anno."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I contributi in conto capitale per gli investimenti si iscrivono nel patrimonio netto. Man mano che il bene si ammortizza, una quota del contributo va a ricavo e ne neutralizza il costo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la sterilizzazione degli ammortamenti: il bene finanziato dalla regione non genera una perdita, perche' il suo ammortamento e' coperto dal contributo ricevuto."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I contributi vincolati a uno scopo e non ancora usati si accantonano per gli esercizi successivi. I contributi per il ripiano delle perdite si iscrivono sulla base dell'atto di assegnazione."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regione verifica che gli accantonamenti ai fondi rischi siano adeguati. Non si possono iscrivere fondi generici: il rischio deve essere determinato e almeno probabile."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo alla TAC. Se dura otto anni, ogni anno si ammortizza un ottavo del costo. E se e' finanziata dalla regione, lo stesso ottavo del contributo va a ricavo: effetto nullo sul risultato."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: le rimanenze di beni fungibili non si valutano al prezzo dell'ultimo acquisto. Il decreto prevede il costo medio ponderato."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il bene si ammortizza, il contributo lo neutralizza."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose che ti chiederanno. La prima: il Titolo secondo, dall'articolo 19, si applica alla sanita' regionale, alla GSA, alle aziende sanitarie e ospedaliere, agli istituti di ricovero pubblici e agli zooprofilattici."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: le aziende tengono la contabilita' economico patrimoniale e applicano il codice civile; preventivo economico annuale e bilancio d'esercizio, adottato entro il trenta aprile."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: rimanenze al costo medio ponderato, ammortamenti con aliquote fissate, contributi in conto capitale che sterilizzano gli ammortamenti."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il modello LA non e' un documento di cassa. Rileva i costi dell'azienda per ciascun livello essenziale di assistenza."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: conti economici, uguali per tutte le aziende. Nell'ultima lezione del modulo: la gestione sanitaria accentrata, il consolidato regionale e le aziende ospedaliero universitarie."
+ }
+]
