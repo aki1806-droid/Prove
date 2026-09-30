@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] In un'azienda sanitaria viene scoperta una tangente sulle forniture di laboratorio. La sentenza diventa definitiva. Oltre al dipendente condannato, chi altro deve rispondere?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge 190 da' una risposta precisa: anche il responsabile della prevenzione, salvo che dimostri di aver fatto il proprio lavoro. E' una delle figure piu' esposte dell'intera amministrazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi deve prevenire risponde di cio' che non ha prevenuto."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Come viene nominato e perche' deve essere autonomo. Che cosa fa. Di che cosa risponde. E la rete di persone che lavora con lui."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La sigla e' RPCT: responsabile della prevenzione della corruzione e della trasparenza. Dal 2016 le due funzioni, prima separate, sono riunite di norma in una sola persona."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo individua l'organo di indirizzo, di norma tra i dirigenti di ruolo in servizio. In azienda sanitaria la nomina spetta al direttore generale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge chiede di disporre le modifiche organizzative necessarie perche' il responsabile abbia funzioni e poteri idonei, e possa svolgere l'incarico con piena autonomia ed effettivita'."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il nome del responsabile va comunicato all'ANAC e pubblicato sul sito, in Amministrazione trasparente. Chiunque deve poter sapere chi presidia la prevenzione in quell'ente."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo il Piano nazionale sconsiglia di scegliere dirigenti che operano nelle aree piu' a rischio, come contratti o patrimonio, e chi guida l'ufficio per i procedimenti disciplinari."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'autonomia e' anche protetta. Le misure discriminatorie contro il responsabile, per motivi legati alle sue funzioni, vanno segnalate all'ANAC, che puo' chiedere informazioni e intervenire."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve infine una struttura di supporto adeguata: persone e mezzi. Nelle aziende grandi e' di solito un ufficio dedicato, che lavora con il responsabile."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: l'RPCT non e' un consulente esterno. E' di norma un dirigente di ruolo in servizio nell'amministrazione, nominato dall'organo di indirizzo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un dirigente interno, nominato dal vertice, ma autonomo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo compito e' il piano. L'RPCT lo propone all'organo di indirizzo e, entro lo stesso termine del 31 gennaio, definisce come selezionare e formare chi lavora nei settori piu' esposti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi verifica che il piano sia attuato davvero e che sia idoneo. Ne propone la modifica quando emergono violazioni importanti o quando cambiano l'organizzazione o le attivita'."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per farlo ha accesso agli atti e alle informazioni necessarie, e puo' chiedere spiegazioni ai dipendenti che hanno istruito o adottato un provvedimento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Verifica, d'intesa con il dirigente competente, la rotazione effettiva degli incarichi negli uffici piu' a rischio. E individua il personale da inserire nei programmi di formazione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segnala all'organo di indirizzo e all'OIV le disfunzioni nell'attuazione delle misure, e indica all'ufficio disciplinare i nomi dei dipendenti che non le hanno applicate."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Entro il 15 dicembre di ogni anno trasmette all'OIV e all'organo di indirizzo una relazione sui risultati dell'attivita' svolta, e la pubblica sul sito. L'ANAC ne fornisce il modello."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vigila inoltre sul rispetto delle regole su inconferibilita' e incompatibilita' degli incarichi, e sulla trasparenza: la parte che hai visto nell'ultima lezione del modulo precedente."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' anche il destinatario delle richieste di accesso civico semplice, e decide sul riesame quando un accesso generalizzato viene negato o resta senza risposta."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il piano prevede la rotazione del responsabile degli acquisti di farmacia, ma dopo due anni nulla e' cambiato. L'RPCT lo verifica con il dirigente e lo segnala alla direzione e all'OIV."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio al distrattore: la relazione annuale dell'RPCT non va al Parlamento. Va all'OIV e all'organo di indirizzo, e si pubblica sul sito entro il 15 dicembre."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Propone il piano, verifica, segnala, riferisce."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Veniamo alla responsabilita'. Se nell'amministrazione e' commesso un reato di corruzione, accertato con sentenza passata in giudicato, l'RPCT ne risponde."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Risponde sul piano dirigenziale, disciplinare, e per il danno erariale e all'immagine della pubblica amministrazione. Non e' una responsabilita' penale: e' per non aver prevenuto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La responsabilita' dirigenziale, secondo l'articolo 21 del decreto 165, puo' portare al mancato rinnovo dell'incarico e, nei casi piu' gravi, alla sua revoca."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' liberarsi solo provando due cose insieme: di aver predisposto il piano prima del fatto, rispettandone le regole, e di aver vigilato sul suo funzionamento e sulla sua osservanza."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sanzione disciplinare non puo' essere inferiore alla sospensione dal servizio con privazione della retribuzione, da un minimo di un mese a un massimo di sei mesi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' poi un secondo caso: le ripetute violazioni delle misure del piano. Qui l'RPCT risponde per omesso controllo, salvo che provi di aver comunicato le misure agli uffici e di aver vigilato."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo alla tangente sulle forniture. Se il piano c'era, prevedeva controlli sugli acquisti e l'RPCT li ha verificati, non risponde. Se il piano era solo sulla carta, si'."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: per la responsabilita' dell'RPCT non basta un'indagine o una condanna in primo grado. Serve un reato di corruzione accertato con sentenza passata in giudicato."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Piano prima del fatto, vigilanza dopo: le due prove che salvano."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "L'RPCT non puo' presidiare da solo un'azienda di migliaia di persone. Il piano individua dei referenti nelle strutture, che raccolgono le informazioni e seguono l'attuazione delle misure."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I dirigenti hanno obblighi propri, fissati dall'articolo 16 del decreto 165: concorrono a definire le misure, ne controllano il rispetto negli uffici e monitorano le attivita' piu' esposte."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ai dirigenti spetta anche la rotazione straordinaria: se contro un dipendente si avvia un procedimento penale o disciplinare per condotte corruttive, dispongono lo spostamento con provvedimento motivato."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i dipendenti? Devono rispettare le misure del piano e collaborare con il responsabile. La loro violazione e' illecito disciplinare: lo dice la stessa legge 190."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'OIV chiude il cerchio: verifica che piano e performance siano coerenti, puo' chiedere documenti all'RPCT e sentire i dipendenti, e riferisce all'ANAC sullo stato delle misure."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un referente di dipartimento segnala che il controllo sui campioni gratuiti di farmaci previsto dal piano non si fa. L'RPCT verifica e chiede al dirigente di intervenire."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio: la prevenzione non e' compito del solo RPCT. Dirigenti e dipendenti hanno obblighi propri, e la violazione delle misure del piano e' illecito disciplinare."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un responsabile al centro, una rete intorno."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: l'RPCT e' nominato dall'organo di indirizzo, di norma tra i dirigenti di ruolo in servizio, e deve avere poteri e autonomia effettivi."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: propone il piano, ne verifica l'attuazione e la rotazione, segnala le disfunzioni e, entro il 15 dicembre, trasmette e pubblica la relazione annuale."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: per un reato di corruzione accertato con sentenza definitiva risponde, salvo provare piano e vigilanza; la sanzione disciplinare va da uno a sei mesi di sospensione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: l'RPCT non adotta il piano. Lo propone; l'adozione resta all'organo di indirizzo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: un responsabile autonomo, con compiti precisi e una responsabilita' vera. Nella prossima lezione: conflitti di interessi, incarichi e codice di comportamento."
+ }
+]

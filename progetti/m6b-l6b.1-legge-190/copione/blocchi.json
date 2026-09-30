@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Una gara per le protesi viene scritta su misura per un solo fornitore. Nessuno ha ancora preso soldi, nessun reato e' stato scoperto. Eppure qualcosa si e' gia' rotto."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per decenni la corruzione si e' combattuta solo dopo, con il processo penale. La legge 190 del 2012 cambia prospettiva: la corruzione si previene, prima che diventi reato, dentro l'organizzazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La corruzione non si punisce soltanto: si previene."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Perche' serviva una legge sulla prevenzione. Che cosa intende per corruzione. Chi sono gli attori nazionali. E quali decreti completano il sistema."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La legge 6 novembre 2012, numero 190, porta il titolo: disposizioni per la prevenzione e la repressione della corruzione e dell'illegalita' nella pubblica amministrazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nasce anche da obblighi internazionali. Il primo comma richiama la Convenzione delle Nazioni Unite contro la corruzione del 2003 e la Convenzione penale del Consiglio d'Europa, firmata a Strasburgo nel 1999."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La novita' e' il doppio binario. Accanto alla repressione penale, che interviene dopo il fatto, la legge costruisce un sistema amministrativo di prevenzione, che lavora prima."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione ha quattro strumenti principali: un piano nazionale, un piano in ogni amministrazione, un responsabile interno e la trasparenza. Li vedremo uno per lezione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello e' decentrato. Regole e indirizzi sono nazionali, ma ogni amministrazione analizza i propri rischi e sceglie le proprie misure: non esiste un piano valido per tutti."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge riguarda tutte le pubbliche amministrazioni dell'articolo 1, comma 2, del decreto 165. Ci sono quindi dentro le aziende sanitarie, le aziende ospedaliere e le aziende ospedaliero universitarie."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: il capitolato scritto su misura non e' ancora corruzione in senso penale. Ma e' proprio il tipo di rischio che il piano dell'azienda deve individuare e prevenire."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la legge 190 non e' solo una legge penale. La sua parte piu' ampia riguarda l'organizzazione delle amministrazioni, cioe' la prevenzione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Due binari: reprimere dopo, prevenire prima."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Che cosa intende la prevenzione per corruzione? Non solo i reati del codice penale, come la corruzione per un atto contrario ai doveri d'ufficio o la concussione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Piano nazionale adotta una nozione piu' ampia: ogni situazione in cui un potere pubblico viene usato per un interesse privato. La chiama anche cattiva amministrazione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rientrano quindi anche comportamenti che non sono reato: una pratica che si ferma senza motivo, un'assunzione pilotata, un conflitto di interessi taciuto, un favore fatto a un conoscente."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il motivo per cui la prevenzione guarda ai processi, non alle persone. Si chiede dove un potere discrezionale potrebbe essere piegato, e con quali controlli lo si impedisce."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa agli appalti: un requisito tecnico troppo stretto, una proroga ripetuta senza gara, un collaudo firmato senza verifiche. Sono eventi rischiosi anche prima di qualsiasi tangente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio in ospedale: un paziente viene spostato avanti nella lista d'attesa per amicizia, senza denaro. Non c'e' reato di corruzione, ma c'e' uso privato di un potere pubblico."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio al distrattore: la prevenzione non riguarda solo i reati accertati da un giudice. Riguarda anche la cattiva amministrazione, che nel codice penale non c'e'."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Corruzione, per la prevenzione: un potere pubblico piegato a un interesse privato."
+ },
+ {
+  "id": "s23",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Il primo attore e' l'Autorita' nazionale anticorruzione, l'ANAC. La legge 190 affida inizialmente questo ruolo alla CIVIT, la commissione per la valutazione e la trasparenza."
+ },
+ {
+  "id": "s24",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel 2013 la commissione prende il nome di ANAC. Nel 2014 riceve anche le funzioni dell'Autorita' per la vigilanza sui contratti pubblici, che viene soppressa. Da allora vigila anche sugli appalti."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ANAC adotta il Piano nazionale anticorruzione, vigila sull'applicazione delle misure e sulla trasparenza, ha poteri ispettivi e puo' ordinare di adottare atti o di rimuovere comportamenti contrari ai piani."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni anno, entro il 31 dicembre, riferisce al Parlamento sull'attivita' di contrasto della corruzione e sull'efficacia delle norme."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Piano nazionale anticorruzione, il PNA, ha durata triennale ed e' aggiornato. E' un atto di indirizzo: ogni amministrazione lo usa per costruire il proprio piano, adattandolo alla propria realta'."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il PNA e' adottato sentiti il Comitato interministeriale e la Conferenza unificata. Individua i principali rischi e i relativi rimedi, con obiettivi e tempi per le misure."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la sanita' il PNA ha avuto un approfondimento specifico nell'aggiornamento del 2015. Il PNA 2022, approvato dall'ANAC all'inizio del 2023, rafforza il legame tra anticorruzione e programmazione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo attore nazionale e' il Dipartimento della funzione pubblica. Coordina le strategie di prevenzione, definisce metodologie comuni e criteri per la rotazione dei dirigenti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accanto a loro restano gli altri presidi: la magistratura per i reati, la Corte dei conti per il danno erariale e, dentro ogni ente, l'organismo indipendente di valutazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: l'ANAC non nasce nel 2014. La legge 190 del 2012 la prevede gia', affidandone il ruolo alla CIVIT; nel 2014 le vengono aggiunte le funzioni sugli appalti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "L'ANAC indirizza e vigila, ogni amministrazione si organizza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La legge 190 contiene anche le deleghe per altri provvedimenti. Da li' nascono, nel 2013, tre testi che ogni candidato deve conoscere."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il decreto legislativo 33 del 2013 sulla trasparenza, che hai studiato nel modulo precedente. La trasparenza e' considerata essa stessa una misura di prevenzione della corruzione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' il decreto legislativo 39 del 2013, su inconferibilita' e incompatibilita' degli incarichi. Stabilisce chi non puo' ricevere, o mantenere, un incarico dirigenziale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' il codice di comportamento dei dipendenti pubblici, approvato con il decreto del Presidente della Repubblica 62 del 2013 e aggiornato nel 2023."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge modifica anche il decreto 165: introduce il divieto di far parte di commissioni per chi e' condannato per reati contro la pubblica amministrazione, e la tutela di chi segnala illeciti."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul versante penale, invece, la legge 3 del 2019, detta spazzacorrotti, inasprisce le pene per i reati contro la pubblica amministrazione. E' repressione, non prevenzione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda sanitaria vuole nominare direttore amministrativo una persona condannata in primo grado per peculato. Quale decreto lo vieta? Il 39 del 2013, sugli incarichi."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio: il decreto 39 non parla di trasparenza e il decreto 33 non parla di incarichi. Scambiare i due numeri e' uno degli errori piu' frequenti nei quiz."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Trentatre' trasparenza, trentanove incarichi, sessantadue comportamento."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: la legge 190 del 2012 affianca alla repressione penale un sistema di prevenzione, per tutte le amministrazioni, aziende sanitarie comprese."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: per la prevenzione la corruzione e' ogni uso di un potere pubblico per un interesse privato, anche quando non e' reato."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: l'ANAC adotta il Piano nazionale e vigila; i decreti del 2013 sono il 33 sulla trasparenza, il 39 sugli incarichi e il DPR 62 sul codice di comportamento."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: il Piano nazionale non sostituisce i piani delle amministrazioni. Li orienta, e ognuna deve scrivere il proprio."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: prevenire prima, con un'autorita' nazionale e regole comuni. Nella prossima lezione: il piano di ogni amministrazione e la gestione del rischio."
+ }
+]

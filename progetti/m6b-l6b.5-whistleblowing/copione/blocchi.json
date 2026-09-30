@@ -1,0 +1,324 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "[serious] Un'infermiera si accorge che le ore di un servizio in appalto vengono pagate anche quando il personale non c'e'. Se lo dice, rischia il posto? E a chi deve dirlo?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Senza tutele, molti tacerebbero. Per questo la legge protegge chi segnala un illecito scoperto nel lavoro. E' il whistleblowing, dall'inglese: chi soffia nel fischietto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Chi segnala un illecito va protetto, non punito."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Quattro passaggi. Chi puo' segnalare, e che cosa. I canali di segnalazione. Riservatezza e divieto di ritorsioni. E le altre misure: rotazione, formazione, patti di integrita'."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La prima tutela arriva con la legge 190, che nel 2012 introduce l'articolo 54-bis nel decreto 165. La legge 179 del 2017 la rafforza."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi la disciplina e' il decreto legislativo 24 del 2023, che attua la direttiva europea 1937 del 2019. Sostituisce l'articolo 54-bis e vale sia per il settore pubblico sia per quello privato."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi e' protetto? Non solo i dipendenti. Anche collaboratori, consulenti, liberi professionisti, volontari e tirocinanti, e persino chi e' ancora in selezione o ha gia' lasciato il lavoro."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La protezione si estende a chi aiuta il segnalante, il facilitatore, ai colleghi con un rapporto abituale e ai parenti fino al quarto grado che lavorano nello stesso contesto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa si segnala? Violazioni del diritto nazionale o europeo che ledono l'interesse pubblico o l'integrita' dell'amministrazione: illeciti penali, civili, amministrativi e contabili."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non rientrano le rivendicazioni personali sul proprio rapporto di lavoro. Un conflitto con il capo reparto sui turni non e' whistleblowing: si affronta con gli strumenti ordinari."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La segnalazione deve basarsi su fondati motivi. Non servono prove certe, ma nemmeno semplici voci: servono elementi concreti, conosciuti nel contesto di lavoro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le segnalazioni anonime? L'ANAC le tratta come segnalazioni ordinarie. Se poi il segnalante viene identificato e subisce ritorsioni, le tutele valgono anche per lui."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: la tutela non riguarda solo i dipendenti di ruolo. Copre anche collaboratori, consulenti, tirocinanti e volontari."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un illecito che tocca l'interesse pubblico, non una lite personale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "I canali sono quattro. Il primo e' il canale interno. Nelle amministrazioni pubbliche e' affidato al responsabile della prevenzione della corruzione, l'RPCT."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La segnalazione interna puo' essere scritta, anche con piattaforma informatica, oppure orale. Entro sette giorni il segnalante riceve un avviso di ricevimento, entro tre mesi un riscontro."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi gestisce il canale deve dare seguito alla segnalazione: verificarne la fondatezza, chiedere integrazioni e, se serve, trasmetterla agli organi competenti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' il canale esterno, gestito dall'ANAC. Si usa a certe condizioni: se il canale interno manca o non funziona, se la segnalazione interna e' rimasta senza seguito, o se si temono ritorsioni."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' la divulgazione pubblica, per esempio attraverso la stampa. E' ammessa solo in casi precisi, come un pericolo imminente per l'interesse pubblico o una segnalazione rimasta senza risposta."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quarto e' la denuncia all'autorita' giudiziaria o alla Corte dei conti. Resta sempre possibile, e per chi ha la qualifica di pubblico ufficiale puo' essere un obbligo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo all'infermiera. Puo' segnalare all'RPCT con la piattaforma dell'azienda. Se entro tre mesi non riceve riscontro, puo' rivolgersi all'ANAC."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio al distrattore: il canale esterno dell'ANAC non e' libero in ogni caso. Si usa alle condizioni del decreto, di regola dopo il canale interno."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Interno, esterno, pubblico, giudiziario."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "La prima tutela e' la riservatezza. L'identita' del segnalante non puo' essere rivelata, senza il suo consenso espresso, a persone diverse da quelle competenti a gestire la segnalazione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La segnalazione e' sottratta all'accesso documentale e all'accesso civico. Nel procedimento disciplinare, l'identita' puo' emergere solo con il consenso del segnalante."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda tutela e' il divieto di ritorsioni: licenziamento, demansionamento, trasferimento, note negative, mancata promozione. Gli atti ritorsivi sono nulli."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'onere della prova e' invertito. Si presume che la misura sfavorevole sia una ritorsione; tocca all'amministrazione dimostrare che dipende da ragioni estranee alla segnalazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ritorsioni si comunicano all'ANAC, che puo' applicare sanzioni da diecimila a cinquantamila euro. Le stesse sanzioni valgono per chi viola la riservatezza o non attiva i canali."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tutele hanno un limite: cadono se viene accertata la responsabilita' del segnalante per calunnia o diffamazione, o una sua responsabilita' civile per dolo o colpa grave."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Torniamo all'infermiera: dopo la segnalazione viene spostata in un reparto lontano, senza ragioni organizzative. Si presume una ritorsione, e l'azienda deve provare il contrario."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Attenzione: non e' il segnalante a dover provare la ritorsione. E' l'amministrazione a dover dimostrare che la misura non dipende dalla segnalazione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Identita' protetta, ritorsioni nulle, prova a carico dell'ente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.5,
+  "text": "Le altre misure. La prima e' la rotazione ordinaria del personale nelle aree piu' esposte: evita che la permanenza a lungo nello stesso ruolo crei relazioni opache con fornitori e utenti."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge non fissa una durata. I criteri li stabilisce ogni amministrazione nel proprio piano. Dove la rotazione non e' possibile, per competenze infungibili, si usano misure alternative."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La principale e' la segregazione delle funzioni: chi istruisce una pratica, chi la decide e chi la controlla sono persone diverse. Si aggiungono la doppia firma e i controlli a campione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda misura e' la formazione, generale per tutti e specifica per chi lavora nelle aree a rischio. Dal 2023 il codice di comportamento prevede anche una formazione obbligatoria su etica e comportamento."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza sono i patti di integrita'. Le stazioni appaltanti possono prevedere nei bandi che il mancato rispetto dei protocolli di legalita' o dei patti di integrita' sia causa di esclusione dalla gara."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche l'informatizzazione e' una misura: gare telematiche, agende di prenotazione informatizzate, atti tracciati. Ogni passaggio lascia un segno che si puo' controllare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0.6,
+  "text": "Un esempio: un'azienda ospedaliera fa firmare a ogni concorrente un patto in cui si impegna a non offrire utilita' e a segnalare ogni tentativo di turbativa. Chi lo viola e' escluso."
+ },
+ {
+  "id": "s41",
+  "capitolo": 6,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "Occhio a un errore delle dispense: nessuna legge impone di ruotare i dirigenti ogni cinque anni. La durata la fissa il piano di ogni amministrazione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Ruotare, separare le funzioni, formare, far firmare patti."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "Le tre cose da portare alla prova. La prima: il whistleblowing oggi e' regolato dal decreto 24 del 2023; protegge dipendenti, collaboratori, consulenti, tirocinanti, facilitatori e colleghi."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La seconda: il canale interno e' affidato all'RPCT, con avviso entro sette giorni e riscontro entro tre mesi; poi, a certe condizioni, canale esterno dell'ANAC e divulgazione pubblica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0.8,
+  "text": "La terza: identita' riservata, ritorsioni nulle, onere della prova a carico dell'ente; tra le misure, rotazione con criteri fissati dal piano, formazione e patti di integrita'."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "tenue",
+  "posa": 0.8,
+  "text": "L'ultimo distrattore: l'articolo 54-bis del decreto 165 non e' piu' la norma di riferimento. Dal 2023 la tutela e' nel decreto legislativo 24."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 0,
+  "text": "[warm] In sintesi: proteggere chi parla, e organizzarsi perche' la corruzione trovi meno spazio. Si chiude il modulo sull'anticorruzione. Nel prossimo: il trattamento dei dati personali."
+ }
+]
