@@ -187,6 +187,25 @@ di «32 giorni», le soglie 2024-2025 presentate come vigenti). Il testo vigente
 Nella 10.2 la prima traccia B aveva perso tre parole («un frazionamento vietato»): rigenerata, e il video
 rifatto (il primo, `76e433298af9728e906e5e9672b77605`, è sostituito).
 
+Modulo 11 completo, Contabilità delle PA (D.Lgs. 118/2011; stessa voce e stesso metodo):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 11.1 | Perché l'armonizzazione | 7:38 |
+| 11.2 | I principi contabili | 7:20 |
+| 11.3 | Il sistema di bilancio | 7:35 |
+| 11.4 | Il Titolo II: le aziende sanitarie | 7:42 |
+| 11.5 | GSA, consolidato e AOU | 7:31 |
+
+Nel modulo 11 `illustra.mjs` passa a 56 illustrazioni: si aggiungono calcolatrice, salvadanaio, spartito,
+matrioska e abaco; per la lezione successiva si parte dalla 11.5. La fonte prevista dal piano, il testo del
+D.Lgs. 118/2011, non era su Drive: il modulo è costruito su una dispensa sulla contabilità economico
+patrimoniale, su un test di organizzazione e contabilità e sulla L.R. Veneto 19/2016 (Azienda Zero), di cui
+non riprende gli errori (il principio dell'«unicità» invece che dell'unità, 17 principi generali invece di 18,
+le entrate «in 6 titoli», il bilancio di previsione degli enti territoriali «annuale»). Il testo vigente del
+decreto e i termini precisi sono da verificare (vedi i REGISTRO, «Da verificare»). Nella 11.3 tre clip erano
+rimaste ferme nella coda di HeyGen e sono state ricaricate prima del montaggio.
+
 ## Come si lavora
 
 - Il branch principale è `main`.
