@@ -24,3 +24,42 @@
   s25  audio   8.61s  scena   8.60s  scarto   10 ms
   s26  audio  10.47s  scena  10.47s  scarto    0 ms
   s27  audio   9.10s  scena   9.10s  scarto    0 ms
+  s28  audio  11.04s  scena  11.04s  scarto    0 ms
+  s29  audio   8.55s  scena   8.56s  scarto   10 ms
+  s30  audio  12.18s  scena  12.19s  scarto   10 ms
+  s31  audio  10.85s  scena  10.84s  scarto   10 ms
+  s32  audio   5.05s  scena   5.04s  scarto   10 ms
+  s33  audio  11.06s  scena  11.07s  scarto   10 ms
+  s34  audio  10.96s  scena  10.96s  scarto    0 ms
+  s35  audio   8.96s  scena   8.96s  scarto    0 ms
+  s36  audio  10.44s  scena  10.44s  scarto    0 ms
+  s37  audio  11.27s  scena  11.28s  scarto   10 ms
+  s38  audio   7.92s  scena   7.92s  scarto    0 ms
+  s39  audio  11.50s  scena  11.51s  scarto   10 ms
+  s40  audio   9.35s  scena   9.35s  scarto    0 ms
+  s41  audio   4.84s  scena   4.84s  scarto    0 ms
+  s42  audio  12.56s  scena  12.56s  scarto    0 ms
+  s43  audio  11.25s  scena  11.24s  scarto   10 ms
+  s44  audio  10.50s  scena  10.51s  scarto   10 ms
+  s45  audio   7.80s  scena   7.80s  scarto    0 ms
+  s46  audio   9.79s  scena   9.79s  scarto    0 ms
+
+47 scene · parlato 439.2 s · con copertina 3 s e chiusura 10 s → 7:32.2
+scarto massimo audio/video: 10 ms su s23
+montato-11.5.mp4  7:32.51  15 MB
+montato-11.5.srt  45 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 136 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata
+CONTROLLI PRIMA DI CONSEGNARE (MASTER §6)
+
+  [OK  ] verifica per trascrizione (traccia intera): 100.0% delle parole coincide, buchi nel parlato: 0
+  [OK  ] fascia 8.5-21 car/s: tutti dentro
+  [OK  ] PNG renderizzati e guardati: 47 su 47 scene (tetto 50)
+  [OK  ] nessuna slide sfora la cornice: 0 sforano
+  [OK  ] scene totali: 47 (tetto 50)
+  [OK  ] durata 7:32.51 — chiesti 7:01.00
+  [OK  ] sottotitoli SRT: 45 righe su 45 blocchi
+  [NO  ] registro con la sezione «da verificare»
+
+7/8 superati
+FATTO
