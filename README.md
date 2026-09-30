@@ -213,7 +213,7 @@ Modulo 12 completo, La prova (stessa voce e stesso metodo; ultimo modulo del cor
 | 12.1 | Le trappole ricorrenti | 8:25 |
 | 12.2 | Le sessanta date e numeri | 8:45 |
 | 12.3 | Simulazione commentata | 7:45 |
-| 12.4 | Le ultime quarantotto ore | {D124} |
+| 12.4 | Le ultime quarantotto ore | 7:07 |
 
 Nel modulo 12 `illustra.mjs` passa a 61 illustrazioni: si aggiungono amo, schede, schedina, cronometro e
 traguardo; la 12.3 introduce in `slide/layout.mjs` la scena `quiz` (quattro opzioni, le sbagliate si spengono
