@@ -206,6 +206,22 @@ le entrate «in 6 titoli», il bilancio di previsione degli enti territoriali «
 decreto e i termini precisi sono da verificare (vedi i REGISTRO, «Da verificare»). Nella 11.3 tre clip erano
 rimaste ferme nella coda di HeyGen e sono state ricaricate prima del montaggio.
 
+Modulo 12 completo, La prova (stessa voce e stesso metodo; ultimo modulo del corso):
+
+| lezione | titolo | durata |
+|---|---|---|
+| 12.1 | Le trappole ricorrenti | 8:25 |
+| 12.2 | Le sessanta date e numeri | 8:45 |
+| 12.3 | Simulazione commentata | 7:45 |
+| 12.4 | Le ultime quarantotto ore | {D124} |
+
+Nel modulo 12 `illustra.mjs` passa a 61 illustrazioni: si aggiungono amo, schede, schedina, cronometro e
+traguardo; la 12.3 introduce in `slide/layout.mjs` la scena `quiz` (quattro opzioni, le sbagliate si spengono
+quando la voce dice la risposta). Il piano prevedeva di scrivere il modulo sul bando AOUPD, che non era su Drive:
+il modulo è costruito sui contenuti già verificati del corso (le «tre cose» e i distrattori delle lezioni
+1.1-11.5), e modalità, durata e punteggio della prova non sono mai dati per certi: i testi rimandano sempre al
+bando. Tutto ciò che il modulo ripete eredita i «da verificare» dei REGISTRO dei moduli 1-11.
+
 ## Come si lavora
 
 - Il branch principale è `main`.
