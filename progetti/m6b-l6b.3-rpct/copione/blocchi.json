@@ -123,14 +123,14 @@
   "capitolo": 4,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Segnala all'organo di indirizzo e all'OIV le disfunzioni nell'attuazione delle misure, e indica all'ufficio disciplinare i nomi dei dipendenti che non le hanno applicate."
+  "text": "Segnala all'organo di indirizzo e all'organismo di valutazione le disfunzioni nell'attuazione delle misure, e indica all'ufficio disciplinare i nomi dei dipendenti che non le hanno applicate."
  },
  {
   "id": "s20",
   "capitolo": 4,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Entro il 15 dicembre di ogni anno trasmette all'OIV e all'organo di indirizzo una relazione sui risultati dell'attivita' svolta, e la pubblica sul sito. L'ANAC ne fornisce il modello."
+  "text": "Entro il 15 dicembre di ogni anno trasmette all'organismo di valutazione e all'organo di indirizzo una relazione sui risultati dell'attivita' svolta, e la pubblica sul sito. L'ANAC ne fornisce il modello."
  },
  {
   "id": "s21",
@@ -151,14 +151,14 @@
   "capitolo": 4,
   "tema": "chiaro",
   "posa": 0.6,
-  "text": "Un esempio: il piano prevede la rotazione del responsabile degli acquisti di farmacia, ma dopo due anni nulla e' cambiato. L'RPCT lo verifica con il dirigente e lo segnala alla direzione e all'OIV."
+  "text": "Un esempio: il piano prevede la rotazione del responsabile degli acquisti di farmacia, ma dopo due anni nulla e' cambiato. L'RPCT lo verifica con il dirigente e lo segnala alla direzione e all'organismo di valutazione."
  },
  {
   "id": "s24",
   "capitolo": 4,
   "tema": "tenue",
   "posa": 0.8,
-  "text": "Occhio al distrattore: la relazione annuale dell'RPCT non va al Parlamento. Va all'OIV e all'organo di indirizzo, e si pubblica sul sito entro il 15 dicembre."
+  "text": "Occhio al distrattore: la relazione annuale dell'RPCT non va al Parlamento. Va all'organismo di valutazione e all'organo di indirizzo, e si pubblica sul sito entro il 15 dicembre."
  },
  {
   "id": "s25",
@@ -263,7 +263,7 @@
   "capitolo": 6,
   "tema": "chiaro",
   "posa": 0,
-  "text": "L'OIV chiude il cerchio: verifica che piano e performance siano coerenti, puo' chiedere documenti all'RPCT e sentire i dipendenti, e riferisce all'ANAC sullo stato delle misure."
+  "text": "L'organismo di valutazione chiude il cerchio: verifica che piano e performance siano coerenti, puo' chiedere documenti all'RPCT e sentire i dipendenti, e riferisce all'ANAC sullo stato delle misure."
  },
  {
   "id": "s40",

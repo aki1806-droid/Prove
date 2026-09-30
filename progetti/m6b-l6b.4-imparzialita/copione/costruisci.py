@@ -50,7 +50,7 @@ BLOCCHI = [
  (6,"chiaro",0,"Il caso piu' citato sono i regali. Si possono accettare solo regali d'uso di modico valore, cioe' in via orientativa non oltre centocinquanta euro, anche sotto forma di sconto. Mai chiederli."),
  (6,"chiaro",0,"I codici delle singole amministrazioni possono abbassare quel limite o escludere del tutto i regali. Molte aziende sanitarie lo fanno, per i rapporti con pazienti, fornitori e industria farmaceutica."),
  (6,"chiaro",0,"L'aggiornamento del 2023 aggiunge regole sull'uso delle tecnologie e dei social: niente dichiarazioni che danneggino l'immagine dell'amministrazione, e uso degli strumenti di lavoro per fini di ufficio."),
- (6,"chiaro",0,"Ogni amministrazione adotta anche un proprio codice, con una procedura aperta alla partecipazione e il parere obbligatorio dell'OIV. Lo integra, non lo sostituisce."),
+ (6,"chiaro",0,"Ogni amministrazione adotta anche un proprio codice, con una procedura aperta alla partecipazione e il parere obbligatorio dell'organismo di valutazione. Lo integra, non lo sostituisce."),
  (6,"chiaro",0,"I dirigenti hanno doveri in piu': dare l'esempio, vigilare sui collaboratori e comunicare le partecipazioni e gli interessi finanziari che possono metterli in conflitto."),
  (6,"chiaro",0,"La violazione del codice e' fonte di responsabilita' disciplinare. Le violazioni gravi o reiterate possono portare fino al licenziamento."),
  (6,"tenue",0.8,"Occhio: centocinquanta euro non e' un diritto a ricevere regali fino a quella cifra. E' un limite orientativo massimo, che i codici aziendali possono abbassare."),

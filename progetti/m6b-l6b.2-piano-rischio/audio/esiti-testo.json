@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 517,
+  "parole_dette": 517,
+  "coincidenti": 517,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 626,
+  "parole_dette": 627,
+  "coincidenti": 625,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s43",
+    "copione": "anticorruzione",
+    "detto": "anti corruzione"
+   }
+  ]
+ }
+}
