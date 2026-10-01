@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] I drenaggi servono a far uscire dal corpo cio' che non deve accumularsi: sangue, siero, pus, bile, aria."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono dispositivi semplici, ma cio' che esce dal drenaggio e' un'informazione clinica: quantita' e aspetto raccontano come sta andando il decorso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda parte della lezione e' dedicata al drenaggio toracico, che ha regole sue e domande d'esame precise: l'oscillazione, le bollicine, il non clampare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I drenaggi si dividono in due famiglie. Passivi, che funzionano per capillarita' o per gravita': il Penrose, una lamina morbida che fa scorrere i liquidi nella medicazione o in una sacca."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i drenaggi a caduta, con una sacca posta piu' in basso del punto di uscita. Attivi, o aspirativi, che funzionano con una pressione negativa."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Redon, con un flacone sottovuoto, e il Jackson-Pratt, con una pompetta a bulbo che si comprime per creare l'aspirazione. Due famiglie, quattro nomi: i quiz li chiedono per nome."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione comune. Fissaggio sicuro, senza trazione. Tubo senza pieghe ne' compressioni, anche sotto il paziente."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei drenaggi a caduta il raccoglitore va sempre piu' in basso del punto di uscita, ma mai a terra."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli aspirativi si verifica che il vuoto sia mantenuto: il Redon ha un indicatore che si modifica quando il vuoto si esaurisce, il Jackson-Pratt deve restare compresso. E il punto di uscita si medica con tecnica asettica."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Misurare e osservare. A ogni turno, o con la frequenza prescritta, si registrano quantita' e caratteristiche: ematico, siero-ematico, sieroso, purulento, biliare, enterico."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'andamento atteso e' una progressiva riduzione e uno schiarimento: dall'ematico al siero-ematico al sieroso. Meno, e piu' chiaro: e' il decorso che va bene."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segnali d'allarme: un aumento improvviso, sangue rosso vivo, possibile emorragia, un cambio di aspetto, bile, contenuto intestinale, pus."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un arresto brusco, che puo' significare un'ostruzione o uno spostamento, non necessariamente un miglioramento. Un drenaggio che smette di colpo e' da controllare, non da festeggiare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo svuotamento. Con tecnica asettica. Per il Redon, quando il flacone e' pieno o ha perso il vuoto, si chiude il morsetto e si sostituisce il flacone."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il Jackson-Pratt, si svuota il bulbo, lo si comprime e si chiude il tappo, cosi' che riprenda l'aspirazione. E si annota la quantita' prima di svuotare."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rimozione avviene su prescrizione. Per i drenaggi aspirativi si interrompe il vuoto prima di sfilarli, altrimenti l'aspirazione trattiene i tessuti e la rimozione diventa dolorosa e traumatica."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sfila con un movimento continuo e deciso, si verifica l'integrita' della punta, si medica e si sorveglia il punto di uscita."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il drenaggio toracico. Fra i due foglietti della pleura c'e' normalmente una pressione negativa, che tiene il polmone espanso."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se entra aria, lo pneumotorace, o si raccoglie liquido o sangue, versamento, emotorace, il polmone collassa. Il drenaggio serve a far uscire aria e liquidi e a ripristinare la pressione negativa."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aria sale, quindi per lo pneumotorace il drenaggio si posiziona piu' in alto; il liquido scende, quindi per il versamento piu' in basso."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema piu' usato ha tre camere. La camera di raccolta, graduata, dove si accumulano i liquidi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La camera del sigillo idraulico: una piccola colonna d'acqua che funziona da valvola: l'aria puo' uscire dal torace, ma non rientrare."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la camera del controllo dell'aspirazione, che regola la pressione negativa applicata, con una colonna d'acqua o con un regolatore a secco."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due fenomeni da saper interpretare, e sono le domande d'esame. Il primo: l'oscillazione del livello dell'acqua nel sigillo idraulico, sincrona con il respiro."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel paziente che respira spontaneamente il livello sale in inspirazione e scende in espirazione. Se l'oscillazione c'e', il sistema e' pervio."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se manca, ci sono due possibilita': il tubo e' occluso o piegato, oppure il polmone si e' completamente riespanso. Quale delle due lo dicono la clinica e la radiografia."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: le bollicine, il gorgogliamento. Nella camera del sigillo idraulico, le bollicine indicano una perdita d'aria."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se sono intermittenti, in espirazione o con la tosse, e' l'aria che esce dal torace: nello pneumotorace e' atteso, e la loro scomparsa indica che la perdita si sta chiudendo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se sono continue, potrebbe esserci una perdita nel sistema: si controllano le connessioni e il tubo."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione a non confondere le camere: nella camera di aspirazione a umido, un gorgogliamento lieve e continuo e' il funzionamento normale. Stesse bollicine, camera diversa, significato opposto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole di sicurezza. Il sistema sta sempre piu' in basso del torace, e in verticale, perche' se si rovescia il sigillo idraulico si perde. Nessuna ansa declive del tubo, dove il liquido ristagna e ostacola il drenaggio."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola piu' importante: il drenaggio non si clampa di routine, nemmeno durante il trasporto. Clampare un drenaggio in un paziente con perdita d'aria puo' provocare uno pneumotorace iperteso, che e' un'emergenza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il clampaggio si fa solo nelle situazioni previste dalla procedura, per brevissimo tempo. E si registrano quantita' e caratteristiche, avvisando subito se il drenaggio di sangue supera la soglia indicata dal chirurgo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fare se il tubo si scollega dal sistema. L'aria potrebbe rientrare nel torace. Si immerge subito l'estremita' del tubo toracico in un contenitore con acqua sterile o fisiologica, per due-tre centimetri."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si ricrea cosi' un sigillo idraulico improvvisato. Oppure si collega rapidamente un sistema nuovo. Poi si avvisa il medico e si sorvegliano respiro e saturazione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se il tubo esce dal torace: si copre subito il foro con una medicazione occlusiva, secondo la procedura, spesso fissata su tre lati, cosi' che funzioni da valvola, lasciando uscire l'aria senza farla rientrare."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiama il medico e si sorvegliano i segni dello pneumotorace iperteso, da riconoscere subito: dispnea che peggiora, tachicardia, ipotensione, desaturazione, deviazione della trachea verso il lato opposto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Assenza del murmure vescicolare da un lato, turgore giugulare, enfisema sottocutaneo, una crepitazione sotto la cute, come neve schiacciata. E' un'emergenza che il medico tratta con una decompressione immediata."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rimozione del drenaggio toracico avviene su prescrizione, secondo procedura: alla persona si chiede una manovra respiratoria precisa, come la Valsalva, per evitare che l'aria entri durante l'estrazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si applica una medicazione occlusiva, si esegue una radiografia di controllo e si sorveglia il respiro nelle ore successive."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente con drenaggio toracico per pneumotorace; durante il trasporto in radiologia il collega propone di clampare il tubo per sicurezza. Che cosa fai?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si clampa: il sistema si trasporta piu' in basso del torace, in verticale, senza clampaggio, perche' con una perdita d'aria il clampaggio puo' causare uno pneumotorace iperteso."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E' un esempio di comportamento intuitivo ma pericoloso, e l'esame lo sa."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete la gestione dei drenaggi e' regolata da procedure aziendali, con formazione specifica nei reparti di chirurgia toracica, cardiochirurgia e area critica, dove i sistemi a tre camere sono piu' diffusi."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale: oscillazione, bollicine e regola del non clampare. Tre parole, e la commissione sa che il drenaggio toracico l'hai capito."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Drenaggi passivi e attivi. Misurare quantita' e aspetto; aumento improvviso o sangue rosso vivo sono allarmi. Interrompere il vuoto prima della rimozione."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Drenaggio toracico: l'oscillazione indica pervieta', le bollicine nel sigillo una perdita d'aria. Sistema sotto il torace, in verticale, e mai clampare di routine. Se si scollega: estremita' in acqua sterile."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo il modulo sette. A tra poco."
+ }
+]

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo sette. Al centro del riepilogo c'e' uno strumento: l'albero decisionale della medicazione, che collega la valutazione alla scelta."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi le tabelle, le sequenze di emergenza e le confusioni che costano piu' punti. E otto domande secche, per misurarsi: otto risposte che il quiz pretende in pochi secondi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette lezioni: valutazione e TIME, lesioni da pressione e stadiazione, ulcere vascolari e piede diabetico, ferite chirurgiche ed eviscerazione, medicazioni avanzate e NPWT, stomie, drenaggi e drenaggio toracico."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un filo comune: prima si valuta e si toglie la causa, poi si medica. E' la frase del modulo, e torna alla fine."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'albero decisionale, in sette passi. Uno: valutare, con TIME, misure e foto, le ore dodici verso la testa. Due: la causa e' stata rimossa? Scarico, compressione se l'ABI lo consente, rivascolarizzazione, controllo glicemico."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: il tessuto: se c'e' necrosi o slough, debridement, salvo l'escara stabile del tallone e l'arto ischemico."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: l'infezione: se ci sono segni, antimicrobica, mai occlusiva, tampone dopo la detersione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: l'umidita': secca, idrogel; essudante, alginato, idrofibra, schiuma. Sei: i margini e la cute intorno, da proteggere. Sette: rivalutare."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette passi, e il settimo riporta al primo: una lesione si rivaluta a ogni medicazione, perche' la risposta di oggi puo' non essere quella di domani."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella delle lesioni da pressione. Uno: eritema non sbiancante. Due: spessore parziale, flittene sierosa. Tre: spessore totale, adipe visibile."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: fascia, muscolo, tendine, osso. Non stadiabile: fondo coperto. Danno dei tessuti profondi: viola o marrone, flittene ematica."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non si retrostadia: uno stadio quattro che guarisce resta uno stadio quattro in guarigione, perche' i tessuti ricostruiti non sono quelli originali. Sei righe, e il quiz le chiede una per una."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Venosa contro arteriosa. Venosa: malleolo mediale, essudato, migliora sollevando, polsi presenti, e si tratta con la compressione, se l'ABI e' almeno zero virgola otto."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Arteriosa: dita, cute pallida, peggiora sollevando, polsi assenti, niente compressione e valutazione vascolare, perche' senza rivascolarizzazione spesso non guarisce."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "ABI normale zero virgola nove-uno virgola tre; sotto zero virgola cinque compressione controindicata. E senza ABI, nessuna compressione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sequenze di emergenza. Eviscerazione: aiuto, ginocchia flesse, garze sterili con fisiologica tiepida, non riposizionare, digiuno, chirurgo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stomia scura: chirurgo subito. Drenaggio toracico scollegato: estremita' in acqua sterile. Tubo estratto dal torace: medicazione occlusiva, medico. Pneumotorace iperteso: riconoscerlo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque emergenze, e in quattro su cinque la risposta finisce con la stessa parola: medico, o chirurgo. La prima mossa e' quasi sempre dell'infermiere, la seconda non e' mai solo sua."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri. Lesione cronica oltre quattro-sei settimane. Medicazione chirurgica sterile per quarantotto ore. Infezione del sito entro trenta o novanta giorni."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Punti: volto tre-cinque giorni, articolazioni quattordici o piu'. Deiscenza fra il quinto e il decimo giorno. Antimicrobiche per circa due settimane, poi si rivaluta."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "NPWT intorno a meno centoventicinque, cambio ogni quarantotto-settantadue ore. Foro della placca due-tre millimetri piu' ampio. Ileostomia ad alta portata oltre uno virgola cinque-due litri."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono dieci numeri. Fermati, copiali nel quaderno, e riparti: il quiz li chiede tutti."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le confusioni. Uno: l'infiammazione dei primi giorni non e' infezione. Due: l'odore del gel dell'idrocolloide non e' pus."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: dermatite da incontinenza e MARSI non sono lesioni da pressione, e hanno una prevenzione diversa. Quattro: lo stadio uno e' rosso, il danno dei tessuti profondi e' viola, e il viola corre."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: colostomia a sinistra con feci formate, ileostomia a destra con feci liquide. Sei: l'irrigazione solo nella colostomia sinistra."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette: le bollicine nel sigillo idraulico indicano una perdita d'aria, il gorgogliamento nella camera di aspirazione e' normale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Otto: l'assenza di oscillazione significa occlusione oppure polmone riespanso. Otto confusioni, otto punti che si perdono in un attimo e si recuperano con una lettura."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I casi. Area viola al sacro in Braden undici: danno dei tessuti profondi, scarico, superficie dinamica, sorveglianza. Ulcera malleolare e richiesta di compressione senza ABI: prima l'ABI."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Liquido rosato abbondante al sesto giorno dopo la laparotomia: deiscenza imminente, non si lascia il paziente, ginocchia flesse, chirurgo."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stomia violacea in seconda giornata: chirurgo subito, sacca trasparente per guardarla. Clampare il drenaggio nel trasporto: no, sotto il torace e in verticale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "L'autovalutazione. Due domande alla volta, risposta secca. Uno: quale medicazione su una lesione secca o necrotica? Due: l'escara secca e stabile al tallone si rimuove?"
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno: l'idrogel, che cede umidita'. Due: no, non si rimuove: funziona da copertura naturale, soprattutto se la perfusione e' scarsa."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Tre: uno stadio quattro che si riempie di granulazione, come lo classifichi? Quattro: ulcera venosa, l'ABI non e' stato misurato: si comprime?"
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: stadio quattro in guarigione, non si retrostadia. Quattro: no, senza ABI non si comprime."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Cinque: la prima mossa nell'eviscerazione? Sei: in quale stomia si puo' fare l'irrigazione?"
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: restare con il paziente e chiamare aiuto, poi supino a ginocchia flesse. Sei: solo nella colostomia sinistra, mai nell'ileostomia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Sette: bollicine continue nel sigillo idraulico, che cosa significano? Otto: il drenaggio toracico si clampa nel trasporto?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette: possibile perdita nel sistema, si controllano connessioni e tubo. Otto: no, mai di routine. Ogni errore ti dice quale lezione riguardare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli. Braden e nutrizione con i moduli due e tre. Il bundle SSI con il modulo quattro."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tamponi e colture con la lezione sei punto sette. Le lesioni da dispositivo con i dispositivi dei moduli tre e sei. Un modulo che si tiene con gli altri vale di piu' all'orale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli agganci veneti. Infermieri esperti in wound care e ambulatori vulnologici. Prontuari delle medicazioni avanzate. Le lesioni da pressione come indicatore di qualita'."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Percorsi per il piede diabetico con equipe multidisciplinari. Ambulatori di stomaterapia con infermieri stomaterapisti, e fornitura dei presidi tramite distretto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Test del modulo, trenta domande, soglia ventuno. Disegna a memoria l'albero decisionale: sette passi, su un foglio bianco, senza guardare."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel quaderno: stadi, venosa e arteriosa, classi di medicazione. E scrivi il caso dell'eviscerazione con lo schema in cinque passi: che cosa pensi, che cosa fai subito, chi avvisi, che cosa sorvegli, che cosa documenti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del modulo: prima si valuta e si toglie la causa, poi si medica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nessuna medicazione guarisce una lesione da pressione senza scarico, un'ulcera venosa senza compressione, un piede diabetico senza scarico e controllo glicemico. La medicazione e' l'ultimo passo, non il primo."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel prossimo modulo entriamo nell'area medica, apparato per apparato: cuore, polmone, diabete, rene, fegato, cervello, oncologia ed ematologia. Otto lezioni, come sempre."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E' il modulo in cui tutto cio' che abbiamo studiato finora si applica alle malattie piu' frequenti nei reparti. Ci vediamo li'."
+ }
+]

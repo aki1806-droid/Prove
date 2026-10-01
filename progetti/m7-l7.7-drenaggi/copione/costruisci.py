@@ -5,75 +5,76 @@ import json, re, sys
 # (capitolo, tema slide, posa in secondi, testo parlato)
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Una stomia e' un'apertura chirurgica che porta all'esterno un tratto di intestino o le vie urinarie. Per la persona e' un cambiamento profondo del corpo, dell'immagine di se' e della vita quotidiana."),
- (1,"chiaro",0,"Per l'infermiere e' un ambito in cui contano insieme la tecnica, presidi, cute, complicanze, e la relazione, perche' una persona che non accetta la stomia difficilmente imparera' a gestirla."),
+ (1,"chiaro",0,"[warm] I drenaggi servono a far uscire dal corpo cio' che non deve accumularsi: sangue, siero, pus, bile, aria."),
+ (1,"chiaro",0,"Sono dispositivi semplici, ma cio' che esce dal drenaggio e' un'informazione clinica: quantita' e aspetto raccontano come sta andando il decorso."),
+ (1,"chiaro",0,"La seconda parte della lezione e' dedicata al drenaggio toracico, che ha regole sue e domande d'esame precise: l'oscillazione, le bollicine, il non clampare."),
 
- (2,"chiaro",0,"I tipi. La colostomia porta all'esterno il colon, di solito sul lato sinistro dell'addome: le feci sono formate o semiformate, perche' il colon ha gia' riassorbito l'acqua."),
- (2,"chiaro",0,"L'ileostomia porta all'esterno l'ileo, di solito a destra: le feci sono liquide e ricche di enzimi digestivi, molto aggressivi per la cute."),
- (2,"chiaro",0,"L'urostomia deriva le urine, per esempio con il condotto ileale secondo Bricker: il flusso e' continuo, e la presenza di muco e' normale, perche' il condotto e' fatto di intestino."),
- (2,"chiaro",0,"Le stomie possono essere temporanee o definitive, terminali o a doppia canna. Sinistra e destra, formate e liquide: i quiz incrociano queste quattro parole."),
+ (2,"chiaro",0,"I drenaggi si dividono in due famiglie. Passivi, che funzionano per capillarita' o per gravita': il Penrose, una lamina morbida che fa scorrere i liquidi nella medicazione o in una sacca."),
+ (2,"chiaro",0,"E i drenaggi a caduta, con una sacca posta piu' in basso del punto di uscita. Attivi, o aspirativi, che funzionano con una pressione negativa."),
+ (2,"chiaro",0,"Il Redon, con un flacone sottovuoto, e il Jackson-Pratt, con una pompetta a bulbo che si comprime per creare l'aspirazione. Due famiglie, quattro nomi: i quiz li chiedono per nome."),
 
- (3,"chiaro",0,"La stomia normale e' rossa, umida, lucida, leggermente protrudente, l'ileostomia di piu', circa due-tre centimetri, per allontanare le feci liquide dalla cute."),
- (3,"chiaro",0,"E non e' dolente al tatto, perche' la mucosa non ha recettori del dolore. Nei primi giorni e' edematosa, e si riduce nelle settimane successive."),
- (3,"chiaro",0,"I segnali d'allarme: una stomia pallida, scura, violacea o nera indica ischemia o necrosi, e va segnalata subito al chirurgo. Poi la retrazione e il sanguinamento abbondante."),
+ (3,"chiaro",0,"La gestione comune. Fissaggio sicuro, senza trazione. Tubo senza pieghe ne' compressioni, anche sotto il paziente."),
+ (3,"chiaro",0,"Nei drenaggi a caduta il raccoglitore va sempre piu' in basso del punto di uscita, ma mai a terra."),
+ (3,"chiaro",0,"Negli aspirativi si verifica che il vuoto sia mantenuto: il Redon ha un indicatore che si modifica quando il vuoto si esaurisce, il Jackson-Pratt deve restare compresso. E il punto di uscita si medica con tecnica asettica."),
 
- (4,"chiaro",0,"I presidi. Possono essere monopezzo, con placca e sacca unite, o a due pezzi, con la placca che resta in sede alcuni giorni e la sacca che si cambia."),
- (4,"chiaro",0,"Il tipo di sacca dipende dalla stomia: chiusa per la colostomia con feci formate; aperta, o drenabile, per l'ileostomia, che va svuotata piu' volte al giorno."),
- (4,"chiaro",0,"Con rubinetto e valvola anti-reflusso per l'urostomia, collegabile di notte a una sacca di raccolta piu' grande. Molte sacche hanno un filtro per i gas."),
+ (4,"chiaro",0,"Misurare e osservare. A ogni turno, o con la frequenza prescritta, si registrano quantita' e caratteristiche: ematico, siero-ematico, sieroso, purulento, biliare, enterico."),
+ (4,"chiaro",0,"L'andamento atteso e' una progressiva riduzione e uno schiarimento: dall'ematico al siero-ematico al sieroso. Meno, e piu' chiaro: e' il decorso che va bene."),
+ (4,"chiaro",0,"I segnali d'allarme: un aumento improvviso, sangue rosso vivo, possibile emorragia, un cambio di aspetto, bile, contenuto intestinale, pus."),
+ (4,"chiaro",0,"E un arresto brusco, che puo' significare un'ostruzione o uno spostamento, non necessariamente un miglioramento. Un drenaggio che smette di colpo e' da controllare, non da festeggiare."),
 
- (5,"chiaro",0,"Un dettaglio tecnico che determina tutto: la misura del foro della placca. Si misura la stomia con l'apposito misuratore, e si ritaglia la placca due-tre millimetri piu' ampia della stomia."),
- (5,"chiaro",0,"Un foro troppo largo lascia la cute esposta agli effluenti, che la irritano; uno troppo stretto traumatizza la mucosa."),
- (5,"chiaro",0,"E nelle prime settimane si rimisura spesso, perche' l'edema si riduce e la stomia diventa piu' piccola: la placca giusta a due giorni e' larga a due settimane."),
+ (5,"chiaro",0,"Lo svuotamento. Con tecnica asettica. Per il Redon, quando il flacone e' pieno o ha perso il vuoto, si chiude il morsetto e si sostituisce il flacone."),
+ (5,"chiaro",0,"Per il Jackson-Pratt, si svuota il bulbo, lo si comprime e si chiude il tappo, cosi' che riprenda l'aspirazione. E si annota la quantita' prima di svuotare."),
 
- (6,"chiaro",0,"Il cambio. Si rimuove la placca delicatamente, dall'alto verso il basso, sostenendo la cute con l'altra mano."),
- (6,"chiaro",0,"Si deterge la stomia e la cute con acqua tiepida e garze morbide: niente alcol, niente disinfettanti, niente solventi, che danneggiano la cute e la mucosa."),
- (6,"chiaro",0,"Si asciuga bene, tamponando, perche' sulla cute umida la placca non aderisce. Si ispeziona. Si applica la nuova placca dal basso verso l'alto."),
- (6,"chiaro",0,"E la sacca si svuota quando e' piena per un terzo o meta', perche' una sacca troppo piena si stacca per il peso. Si toglie dall'alto, si mette dal basso: la sequenza e' una domanda da quiz."),
+ (6,"chiaro",0,"La rimozione avviene su prescrizione. Per i drenaggi aspirativi si interrompe il vuoto prima di sfilarli, altrimenti l'aspirazione trattiene i tessuti e la rimozione diventa dolorosa e traumatica."),
+ (6,"chiaro",0,"Si sfila con un movimento continuo e deciso, si verifica l'integrita' della punta, si medica e si sorveglia il punto di uscita."),
 
- (7,"chiaro",0,"La complicanza piu' frequente e' la dermatite peristomale: la cute intorno alla stomia si arrossa, si irrita, si lesiona."),
- (7,"chiaro",0,"La causa piu' comune sono le perdite di effluente sotto la placca, soprattutto nell'ileostomia, dove gli enzimi digeriscono letteralmente la cute. Altre cause: gli adesivi, le allergie, le infezioni micotiche."),
- (7,"chiaro",0,"La prevenzione: foro corretto, prodotti barriera, pasta o anelli per riempire le pieghe cutanee, e una rimozione atraumatica della placca."),
+ (7,"chiaro",0,"Il drenaggio toracico. Fra i due foglietti della pleura c'e' normalmente una pressione negativa, che tiene il polmone espanso."),
+ (7,"chiaro",0,"Se entra aria, lo pneumotorace, o si raccoglie liquido o sangue, versamento, emotorace, il polmone collassa. Il drenaggio serve a far uscire aria e liquidi e a ripristinare la pressione negativa."),
+ (7,"chiaro",0,"L'aria sale, quindi per lo pneumotorace il drenaggio si posiziona piu' in alto; il liquido scende, quindi per il versamento piu' in basso."),
 
- (8,"chiaro",0,"Le complicanze. Precoci: necrosi, edema, sanguinamento, retrazione, distacco fra mucosa e cute, dermatite, e l'alta portata dell'ileostomia."),
- (8,"chiaro",0,"Tardive: l'ernia parastomale, la piu' frequente, un rigonfiamento intorno alla stomia; il prolasso, con la stomia che si allunga all'esterno; la stenosi, il restringimento; la retrazione; i granulomi."),
+ (8,"chiaro",0,"Il sistema piu' usato ha tre camere. La camera di raccolta, graduata, dove si accumulano i liquidi."),
+ (8,"chiaro",0,"La camera del sigillo idraulico: una piccola colonna d'acqua che funziona da valvola: l'aria puo' uscire dal torace, ma non rientrare."),
+ (8,"chiaro",0,"E la camera del controllo dell'aspirazione, che regola la pressione negativa applicata, con una colonna d'acqua o con un regolatore a secco."),
 
- (9,"chiaro",0,"L'ileostomia ad alta portata merita attenzione: quando la stomia perde piu' di circa uno virgola cinque-due litri al giorno, la persona rischia disidratazione, perdita di potassio e sodio, fino all'insufficienza renale."),
- (9,"chiaro",0,"Si sorvegliano bilancio idrico, diuresi, sete, crampi, debolezza: il bilancio della lezione tre punto cinque, con una voce in piu' nelle uscite."),
- (9,"chiaro",0,"E un'indicazione educativa controintuitiva: bere solo acqua puo' peggiorare la perdita di sali; servono anche soluzioni con elettroliti, secondo indicazione."),
+ (9,"chiaro",0,"Due fenomeni da saper interpretare, e sono le domande d'esame. Il primo: l'oscillazione del livello dell'acqua nel sigillo idraulico, sincrona con il respiro."),
+ (9,"chiaro",0,"Nel paziente che respira spontaneamente il livello sale in inspirazione e scende in espirazione. Se l'oscillazione c'e', il sistema e' pervio."),
+ (9,"chiaro",0,"Se manca, ci sono due possibilita': il tubo e' occluso o piegato, oppure il polmone si e' completamente riespanso. Quale delle due lo dicono la clinica e la radiografia."),
 
- (10,"chiaro",0,"Alimentazione e farmaci. Con l'ileostomia: masticare bene, fare attenzione ai cibi molto fibrosi, come mais, frutta secca, sedano, che possono ostruire la stomia, e garantire liquidi e sali."),
- (10,"chiaro",0,"Con la colostomia: attenzione agli alimenti che producono gas e odore."),
- (10,"chiaro",0,"E una nota sui farmaci: nell'ileostomia le compresse a rilascio modificato o gastroresistenti possono non essere assorbite del tutto, e a volte si ritrovano intatte nella sacca. Va segnalato."),
+ (10,"chiaro",0,"Il secondo: le bollicine, il gorgogliamento. Nella camera del sigillo idraulico, le bollicine indicano una perdita d'aria."),
+ (10,"chiaro",0,"Se sono intermittenti, in espirazione o con la tosse, e' l'aria che esce dal torace: nello pneumotorace e' atteso, e la loro scomparsa indica che la perdita si sta chiudendo."),
+ (10,"chiaro",0,"Se sono continue, potrebbe esserci una perdita nel sistema: si controllano le connessioni e il tubo."),
+ (10,"chiaro",0,"Attenzione a non confondere le camere: nella camera di aspirazione a umido, un gorgogliamento lieve e continuo e' il funzionamento normale. Stesse bollicine, camera diversa, significato opposto."),
 
- (11,"chiaro",0,"L'irrigazione: un lavaggio periodico del colon attraverso la stomia, che permette uno svuotamento programmato e, nei periodi fra un'irrigazione e l'altra, di usare un presidio molto piccolo."),
- (11,"chiaro",0,"E' indicata solo nella colostomia sinistra, in persone selezionate e addestrate. Mai nell'ileostomia, che ha un contenuto liquido continuo."),
+ (11,"chiaro",0,"Le regole di sicurezza. Il sistema sta sempre piu' in basso del torace, e in verticale, perche' se si rovescia il sigillo idraulico si perde. Nessuna ansa declive del tubo, dove il liquido ristagna e ostacola il drenaggio."),
+ (11,"chiaro",0,"E la regola piu' importante: il drenaggio non si clampa di routine, nemmeno durante il trasporto. Clampare un drenaggio in un paziente con perdita d'aria puo' provocare uno pneumotorace iperteso, che e' un'emergenza."),
+ (11,"chiaro",0,"Il clampaggio si fa solo nelle situazioni previste dalla procedura, per brevissimo tempo. E si registrano quantita' e caratteristiche, avvisando subito se il drenaggio di sangue supera la soglia indicata dal chirurgo."),
 
- (12,"chiaro",0,"L'urostomia. Il flusso e' continuo, quindi il cambio del presidio si fa preferibilmente al mattino, prima di bere, quando la produzione e' minore. Il muco nelle urine e' normale."),
- (12,"chiaro",0,"La sacca ha una valvola anti-reflusso, e di notte si collega a una sacca piu' grande. Si raccomanda un'idratazione abbondante, per prevenire le infezioni."),
- (12,"chiaro",0,"E il campione di urine si preleva direttamente dalla stomia, con tecnica sterile, non dalla sacca: la stessa regola del catetere nella lezione tre punto sei."),
+ (12,"chiaro",0,"Che cosa fare se il tubo si scollega dal sistema. L'aria potrebbe rientrare nel torace. Si immerge subito l'estremita' del tubo toracico in un contenitore con acqua sterile o fisiologica, per due-tre centimetri."),
+ (12,"chiaro",0,"Si ricrea cosi' un sigillo idraulico improvvisato. Oppure si collega rapidamente un sistema nuovo. Poi si avvisa il medico e si sorvegliano respiro e saturazione."),
 
- (13,"chiaro",0,"La parte che distingue un buon infermiere: la preparazione e l'impatto psicologico. Prima dell'intervento programmato si esegue la marcatura della sede della stomia."),
- (13,"chiaro",0,"Si valuta la persona seduta, in piedi e sdraiata, per scegliere un punto visibile alla persona, lontano da pieghe, cicatrici e cinture. Si informa."),
- (13,"chiaro",0,"Poi si lavora sull'immagine corporea, sulla sessualita', sulla vita sociale e lavorativa, coinvolgendo il partner se la persona lo desidera, e indicando le associazioni di persone stomizzate, che sono una risorsa preziosa."),
+ (13,"chiaro",0,"E se il tubo esce dal torace: si copre subito il foro con una medicazione occlusiva, secondo la procedura, spesso fissata su tre lati, cosi' che funzioni da valvola, lasciando uscire l'aria senza farla rientrare."),
 
- (14,"chiaro",0,"L'educazione alla dimissione. Autonomia nel cambio del presidio, verificata facendolo eseguire alla persona o al caregiver, non solo spiegandolo. Riconoscere le complicanze."),
- (14,"chiaro",0,"Alimentazione e idratazione. Come ottenere la fornitura dei presidi, che sono a carico del Servizio Sanitario. E i riferimenti: l'ambulatorio di stomaterapia, a cui rivolgersi per qualunque problema."),
+ (14,"chiaro",0,"Si chiama il medico e si sorvegliano i segni dello pneumotorace iperteso, da riconoscere subito: dispnea che peggiora, tachicardia, ipotensione, desaturazione, deviazione della trachea verso il lato opposto."),
+ (14,"chiaro",0,"Assenza del murmure vescicolare da un lato, turgore giugulare, enfisema sottocutaneo, una crepitazione sotto la cute, come neve schiacciata. E' un'emergenza che il medico tratta con una decompressione immediata."),
 
- (15,"chiaro",0,"Il caso. Seconda giornata dopo il confezionamento di una colostomia; la stomia appare violacea scura. Che cosa pensi? Sofferenza ischemica, possibile necrosi."),
- (15,"chiaro",0,"Che cosa fai? Avvisi subito il chirurgo, perche' una necrosi puo' estendersi in profondita' e richiedere un nuovo intervento."),
- (15,"profondo",1.2,"Usi una sacca trasparente per osservare la stomia senza rimuovere il presidio, rilevi i parametri, documenti l'aspetto e l'ora. [serious] Non e' un problema di medicazione: e' un'urgenza chirurgica."),
+ (15,"chiaro",0,"La rimozione del drenaggio toracico avviene su prescrizione, secondo procedura: alla persona si chiede una manovra respiratoria precisa, come la Valsalva, per evitare che l'aria entri durante l'estrazione."),
+ (15,"chiaro",0,"Si applica una medicazione occlusiva, si esegue una radiografia di controllo e si sorveglia il respiro nelle ore successive."),
 
- (16,"chiaro",0,"In Veneto esistono ambulatori di stomaterapia ospedalieri e territoriali, con infermieri stomaterapisti, e la fornitura dei presidi avviene tramite il distretto, nell'ambito dell'assistenza protesica e integrativa."),
- (16,"chiaro",0,"All'orale, la figura dell'infermiere stomaterapista e' un ottimo esempio di competenza specialistica infermieristica: formazione dedicata, ambulatorio proprio, presa in carico che continua a casa."),
+ (16,"chiaro",0,"Il caso. Paziente con drenaggio toracico per pneumotorace; durante il trasporto in radiologia il collega propone di clampare il tubo per sicurezza. Che cosa fai?"),
+ (16,"chiaro",0,"Non si clampa: il sistema si trasporta piu' in basso del torace, in verticale, senza clampaggio, perche' con una perdita d'aria il clampaggio puo' causare uno pneumotorace iperteso."),
+ (16,"profondo",1.2,"[serious] E' un esempio di comportamento intuitivo ma pericoloso, e l'esame lo sa."),
 
- (17,"chiaro",0,"Ricapitoliamo. Colostomia: sinistra, feci formate. Ileostomia: destra, feci liquide ed enzimi. Urostomia: flusso continuo, muco normale. Stomia rossa e umida; scura e' un allarme."),
- (17,"chiaro",0,"Foro due-tre millimetri piu' ampio. Solo acqua per detergere. L'ernia parastomale e' la complicanza tardiva piu' frequente. Irrigazione solo nella colostomia sinistra."),
- (17,"chiaro",0,"[warm] Nella prossima lezione: i drenaggi, compreso il drenaggio toracico. A tra poco."),
+ (17,"chiaro",0,"Nelle aziende venete la gestione dei drenaggi e' regolata da procedure aziendali, con formazione specifica nei reparti di chirurgia toracica, cardiochirurgia e area critica, dove i sistemi a tre camere sono piu' diffusi."),
+ (17,"chiaro",0,"All'orale: oscillazione, bollicine e regola del non clampare. Tre parole, e la commissione sa che il drenaggio toracico l'hai capito."),
+
+ (18,"chiaro",0,"Ricapitoliamo. Drenaggi passivi e attivi. Misurare quantita' e aspetto; aumento improvviso o sangue rosso vivo sono allarmi. Interrompere il vuoto prima della rimozione."),
+ (18,"chiaro",0,"Drenaggio toracico: l'oscillazione indica pervieta', le bollicine nel sigillo una perdita d'aria. Sistema sotto il torace, in verticale, e mai clampare di routine. Se si scollega: estremita' in acqua sterile."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo sette. A tra poco."),
 ]
 
-CAPITOLI = {1:"Apertura",2:"I tipi",3:"La stomia normale e l'allarme",4:"I presidi",5:"Il foro della placca",6:"Il cambio",
- 7:"La dermatite peristomale",8:"Le complicanze",9:"L'alta portata",10:"Alimentazione e farmaci",11:"L'irrigazione",12:"L'urostomia",
- 13:"Preparazione e impatto psicologico",14:"L'educazione alla dimissione",15:"Il caso",16:"In Veneto",17:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Due famiglie",3:"La gestione comune",4:"Misurare e osservare",5:"Lo svuotamento",6:"La rimozione",
+ 7:"Il drenaggio toracico",8:"Le tre camere",9:"L'oscillazione",10:"Le bollicine",11:"Le regole di sicurezza",12:"Se si scollega",
+ 13:"Se esce dal torace",14:"Lo pneumotorace iperteso",15:"La rimozione del toracico",16:"Il caso",17:"In Veneto",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

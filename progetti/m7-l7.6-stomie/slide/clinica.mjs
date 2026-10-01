@@ -3020,7 +3020,7 @@ export const CORPI_CLINICA = {
         <path d="M${s.x + 30} ${s.y}C${s.x + 200} ${s.y} 900 ${ty} 1000 ${ty}"/><circle class="${s.urina ? 'urina' : ''}" cx="${s.x}" cy="${s.y}" r="${s.key ? 34 : 30}"/>
         <text class="n" x="${tx}" y="${ty - 6}">${s.t}</text><text class="d ${s.key ? 'key' : ''}" x="${tx}" y="${ty + 30}">${piano(s.d)}</text></g>`; }).join('');
     return `<div class="addome"><svg class="fig gfx" viewBox="0 0 1656 540">${tronco}${intest}${st}
-      <text class="lato" x="${cx - 190}" y="520">destra della persona</text><text class="lato" x="${cx + 190}" y="520">sinistra della persona</text></svg></div>`;
+      <text class="lato" x="${cx - 340}" y="470">destra</text><text class="lato" x="${cx - 340}" y="500" style="font-size:18px;letter-spacing:0;text-transform:none">della persona</text><text class="lato" x="${cx + 340}" y="470">sinistra</text><text class="lato" x="${cx + 340}" y="500" style="font-size:18px;letter-spacing:0;text-transform:none">della persona</text></svg></div>`;
   },
 
   // Il foro della placca: tre pannelli, il foro troppo largo con la cute
@@ -3035,7 +3035,7 @@ export const CORPI_CLINICA = {
         <path class="anello" d="M${cx - 170} ${cy}a170 170 0 1 0 340 0a170 170 0 1 0 -340 0M${cx - foro} ${cy}a${foro} ${foro} 0 1 1 ${foro * 2} 0a${foro} ${foro} 0 1 1 -${foro * 2} 0" fill-rule="evenodd"/>
         ${i === 0 ? `<circle class="ross" cx="${cx}" cy="${cy}" r="${foro - 4}" style="animation-delay:1s"/>` : ''}
         <circle class="stoma" cx="${cx}" cy="${cy}" r="${i === 2 ? r - 6 : r}"/>
-        ${i === 1 ? `<path class="segno" d="M${cx + r + 2} ${cy - 90}v-30M${cx + foro} ${cy - 90}v-30M${cx + r + 2} ${cy - 105}h${foro - r - 2}"/><text class="mm" x="${cx + 120}" y="${cy - 112}" style="animation-delay:1s">2–3 mm</text>` : ''}
+        ${i === 1 ? `<path class="segno" d="M${cx + r + 2} ${cy - 16}v32M${cx + foro} ${cy - 16}v32M${cx + r + 2} ${cy}h${foro - r - 2}"/><text class="mm" x="${cx + foro + 60}" y="${cy + 9}" style="animation-delay:1s">2–3 mm</text>` : ''}
         <text class="pt" x="${cx}" y="${cy + 240}">${T[0]}</text><text class="pd" x="${cx}" y="${cy + 274}">${T[1]}</text></g>`; };
     return `<div class="placca"><svg class="fig gfx" viewBox="0 0 1656 540">${pan(0, 276)}${pan(1, 828)}${pan(2, 1380)}</svg></div>`;
   },
