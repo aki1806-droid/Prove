@@ -57,12 +57,16 @@ progetti/<modulo>-<lezione>/
 | `m5-l5.3-calcoli` | Modulo 5 · 5.3 Il calcolo delle dosi e delle velocità di infusione | 8:55.1 | `66548d96aa8517e4bec4f9e8625dda93` |
 | `m5-l5.4-sicurezza` | Modulo 5 · 5.4 La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
 | `m5-l5.5-cardio` | Modulo 5 · 5.5 Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
+| `m5-l5.7-preparazione` | Modulo 5 · 5.7 Preparazione, stabilità e gestione dei farmaci in reparto | 11:05.2 | `f48270aa38d8bc5e0fa135ee4e15ed51` |
+
+La 5.7 è il pilota della via HeyGen (voce Giovanni Rossi, motore `eleven_v3`
+sintetizzato dallo studio): le altre hanno la voce GianP da ElevenLabs.
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 
-Le lezioni 5.6–5.8 e i moduli 6, 7 e 8 (ventiquattro lezioni, cartelle
+Le lezioni 5.6 e 5.8 e i moduli 6, 7 e 8 (ventiquattro lezioni, cartelle
 `m6-*`, `m7-*`, `m8-*`) sono pronti fino alle slide e ai registri, in
 attesa della voce: i crediti ElevenLabs si sono esauriti dopo la voce
 della 5.6, e per il MASTER le voci si fanno in un giro solo al rinnovo. Le

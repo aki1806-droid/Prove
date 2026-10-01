@@ -23,9 +23,9 @@ guanto, camice, occhiali, siringa, aerosol, mani, bocca, puntura, cuore.
 | slide dello script | 19 |
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
-| voce | GianP — News Info and Documentary, `eleven_v3` |
-| costo voce | *in attesa dei crediti* |
-| costo trascrizioni | *in attesa dei crediti* |
+| voce | **via HeyGen**: Giovanni Rossi `7b6722df52c44a79b6adb6c3074588d8`, motore `eleven_v3`, sintetizzata dallo studio scena per scena (`monta-scene-heygen.py`) |
+| costo voce | 0 $ — crediti HeyGen del piano (vedi «La resa») |
+| costo trascrizioni | nessuna: una scena, un blocco, i confini li fa lo studio |
 | pause senza voce | nessuna; tre pose brevi sulle slide sul verde (s17, s29, s40) |
 
 ```
@@ -42,11 +42,16 @@ percorso a sette tappe si accende in due scene.
 
 ## I confini
 
-*in attesa della voce*
+Non ci sono confini da scegliere: ogni scena porta il testo del suo blocco e lo
+studio sintetizza la voce dentro la scena. Niente tracce, niente `tagli.py`,
+niente trascrizione. Il copione letto e' esattamente `copione/blocchi.json`
+senza i tag di stile (`[warm]`, `[serious]`), tolti perche' finirebbero nei
+sottotitoli.
 
 ### La verifica per trascrizione
 
-*in attesa della voce*
+Non serve: il testo di ogni scena e' il blocco stesso. L'SRT lo produce lo
+studio (`subtitle_url`).
 
 ## Le scene
 
@@ -70,13 +75,25 @@ percorso a sette tappe si accende in due scene.
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `f48270aa38d8bc5e0fa135ee4e15ed51` — 665.225 s (11:05.2), 1080p 16:9, resa in 365 s, con SRT (`subtitle_url`) |
+| lotto asset | `431accd4116c49ecbb901fdde1cfd13b` — 50 file (48 clip + 2 copertine), 6 MB, tutti completati in ~3 minuti |
+| crediti HeyGen | 4.234 prima del render, 4.233 dopo: **1 credito** per l'intero montaggio con 48 blocchi di voce, non 48 come stimato dai sondaggi a chiamata singola |
+| durata | 665,2 s contro una stima di 9:34 a 15,5 car/s: lo studio legge a ~13,3 car/s effettivi, con una coda di silenzio a ogni scena. Per riportarla verso i 9:30 basta `voice_settings.speed` 1,15 e un nuovo render |
 
 ---
 
 ## Da verificare
 
-- La voce: le due tracce sono state rifiutate da ElevenLabs per crediti
-  esauriti (3.747 residui, 10.045 richiesti). I chunk sono in `audio/`,
-  pronti per `creative_generate_speech` al rinnovo; poi tagli, trascrizione,
-  verifica, montaggio.
+- **La voce e' quella della via HeyGen**, non GianP: e' il pilota del doppio
+  metodo. Da ascoltare per intero: pronuncia dei termini (amfotericina,
+  luer-lock, UFA, SSSR), le pause fra le scene, il ritmo. Per tornare a GianP
+  i chunk sono in `audio/`, pronti per `creative_generate_speech` al rinnovo
+  ElevenLabs; poi tagli, trascrizione, verifica e `monta-scene.py` sulle
+  stesse clip (gli id sono in `asset-id.json`).
+- **La durata e' 11:05**, un minuto e mezzo oltre lo script (9:30). Se
+  stona con le altre lezioni del corso si rifa' il render con `speed` 1,15
+  (stima 9:40): costa un credito HeyGen e quattro minuti.
+- Il render di 50 scene con la voce dentro ha preso 6 minuti (365 s), non i
+  3-4 soliti: la sintesi avviene durante il render.

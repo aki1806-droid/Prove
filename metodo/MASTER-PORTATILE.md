@@ -986,9 +986,11 @@ Giovanni Rossi `7b6722df52c44a79b6adb6c3074588d8`. Misurato il 1° ottobre
 
 ```
                          via ElevenLabs                via HeyGen
-voce                     2 tracce, ~9.000 crediti EL   ~48 crediti HeyGen (1 a blocco)
+voce                     2 tracce, ~9.000 crediti EL   dentro il render
 trascrizione             ~3.500 crediti EL             non serve (lo studio taglia da se')
-render                   gratis                        gratis (misurato: 1 credito, era il blocco)
+render                   gratis                        1 credito HeyGen per l'intera lezione (misurato sulla 5.7:
+                                                       4.234 → 4.233 con 48 blocchi di voce; create_speech da solo
+                                                       costa invece 1 credito a chiamata)
 file da caricare         98                            50 (clip + 2 copertine)
 controlli sui confini    tagli.py, verifica-testo      non servono: una scena, un blocco
 in dollari               ~$2,05                        0 (crediti del piano, si azzerano al rinnovo)
@@ -1018,6 +1020,13 @@ di modulo e nel README. Costo: quello di sempre, ~$2,05.
 
 Il contrario vale uguale: una lezione fatta con GianP si rifà con HeyGen
 caricando niente (le clip ci sono già) e lanciando `monta-scene-heygen.py`.
+
+**Il pilota: la 5.7.** 50 file caricati in 3 minuti, render di 6 minuti (la
+sintesi avviene durante il render, non prima), 1 credito. Durata 11:05 contro
+i 9:34 stimati a 15,5 car/s: lo studio legge a ~13,3 car/s effettivi, con una
+coda di silenzio a ogni scena. La costante `VELOCITA` di
+`monta-scene-heygen.py` va in `voice_settings.speed`: con 1,15 la stima torna
+sui 9:40. Si decide dopo aver ascoltato, perché una voce accelerata si sente.
 
 **Quello che la via HeyGen non dà.** La voce è un'altra, e un corso con due
 voci si sente: la scelta va presa per modulo, non per lezione. I file audio
