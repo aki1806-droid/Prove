@@ -15,7 +15,11 @@ degli stupefacenti (5.6).
 Stato: 5.1–5.5 pubblicate. 5.6 è doppiata, tagliata e montata in locale,
 in attesa della verifica per trascrizione; 5.7 e 5.8 hanno copione, slide
 e registro, in attesa della voce: i crediti ElevenLabs si sono esauriti
-dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una traccia ne chiede 10.045; nessun addebito).
+dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una traccia ne chiede 10.045; nessun addebito). Lo stesso giorno è stata
+misurata la seconda via, lo studio HeyGen con il motore `eleven_v3` e la
+voce Giovanni Rossi (MASTER, «Due vie per la voce»): ~48 crediti HeyGen a
+lezione su 4.256 residui, che scadono il 5 ottobre; render di prova
+`c0f67c8efc7d65d399285b0fda4bd36f`. In attesa della scelta.
 
 | | lezione | durata | resa |
 |---|---|---|---|

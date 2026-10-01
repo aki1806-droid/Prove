@@ -69,6 +69,12 @@ della 5.6, e per il MASTER le voci si fanno in un giro solo al rinnovo. Le
 schede di modulo (`progetti/MODULO-N.md`) dicono lo stato lezione per
 lezione.
 
+Per la voce ci sono due vie, documentate nel MASTER («Due vie per la
+voce»): le tracce ElevenLabs tagliate in blocchi (`monta-scene.py`) e il
+parlato sintetizzato dallo studio HeyGen scena per scena
+(`monta-scene-heygen.py`). Le clip sono le stesse: una lezione fatta con
+l'una si rifà con l'altra rimontando, senza toccare copione e slide.
+
 ## Una lezione nuova
 
 ```

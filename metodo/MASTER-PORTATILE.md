@@ -975,6 +975,56 @@ trascrizione delle due tracce intere             ~$0,60
 
 Il render del montaggio e i caricamenti non si pagano a consumo.
 
+## Due vie per la voce, e come si torna indietro
+
+Quando la quota ElevenLabs finisce a metà modulo, c'è una seconda via che
+non la tocca: lo studio di HeyGen sintetizza il parlato scena per scena dal
+testo dei blocchi, con lo **stesso motore** (`eleven_v3`, addebitato sui
+crediti HeyGen) ma una voce del suo catalogo — GianP non c'è, si usa
+Giovanni Rossi `7b6722df52c44a79b6adb6c3074588d8`. Misurato il 1° ottobre
+2026 su piano Pro:
+
+```
+                         via ElevenLabs                via HeyGen
+voce                     2 tracce, ~9.000 crediti EL   ~48 crediti HeyGen (1 a blocco)
+trascrizione             ~3.500 crediti EL             non serve (lo studio taglia da se')
+render                   gratis                        gratis (misurato: 1 credito, era il blocco)
+file da caricare         98                            50 (clip + 2 copertine)
+controlli sui confini    tagli.py, verifica-testo      non servono: una scena, un blocco
+in dollari               ~$2,05                        0 (crediti del piano, si azzerano al rinnovo)
+```
+
+I crediti HeyGen del piano **scadono al rinnovo mensile**: quelli non usati
+si perdono. È l'argomento per spenderli, e insieme la ragione per non
+contarci oltre il mese.
+
+**La via HeyGen, passo per passo.** Passi 1 e 4 come sempre; si saltano 2 e 3;
+al Passo 6 si caricano solo clip e copertine (`manifest-clip.py`, 50 file);
+al Passo 7 `python3 monta-scene-heygen.py` scrive `scene-heygen.json` — ogni
+scena video porta `script`, `voice_id` e `voice_settings.engine_settings`
+`{engine_type: elevenlabs, model: eleven_v3}`, più il solito `playback`
+freeze+mute — e lo si passa a `create_video_from_studio` con `caption`.
+I tag di `eleven_v3` (`[warm]`…) si tolgono dallo script: finirebbero nei
+sottotitoli. Nel REGISTRO la riga «voce» dice quale via: è l'unico punto in
+cui le due si distinguono.
+
+**Tornare a ElevenLabs, in qualsiasi momento.** Niente della via HeyGen
+sovrascrive la via vecchia: `copione/`, `audio/chunkA.txt` e `chunkB.txt`,
+`tagli.py`, `monta-scene.py` restano come erano, e le clip caricate sono le
+stesse. Per rifare una lezione con GianP si eseguono i Passi 2, 3 e 6 (solo i
+48 mp3, riusando gli id delle clip già in `asset-id.json`) e il Passo 7 con
+`monta-scene.py`: la resa nuova sostituisce l'id nel REGISTRO, nella scheda
+di modulo e nel README. Costo: quello di sempre, ~$2,05.
+
+Il contrario vale uguale: una lezione fatta con GianP si rifà con HeyGen
+caricando niente (le clip ci sono già) e lanciando `monta-scene-heygen.py`.
+
+**Quello che la via HeyGen non dà.** La voce è un'altra, e un corso con due
+voci si sente: la scelta va presa per modulo, non per lezione. I file audio
+non si scaricano da qui (il proxy blocca `resource2.heygen.ai`), quindi
+niente copia locale di controllo né `controlli.py`: la durata si legge dal
+render, i confini li fa lo studio e non sbagliano per costruzione.
+
 ---
 
 # 9. Come ripartire in una chat nuova
