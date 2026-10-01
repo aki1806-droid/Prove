@@ -13,16 +13,14 @@ respiro, il naloxone che dura meno dell'oppioide, la pagina del registro
 degli stupefacenti (5.6).
 
 Stato: 5.1–5.5 pubblicate. 5.6 è doppiata, tagliata e montata in locale,
-in attesa della verifica per trascrizione; 5.7 è resa con la via HeyGen (vedi sotto); 5.8 ha copione, slide
+in attesa della verifica per trascrizione; 5.7 e 5.8 hanno copione, slide
 e registro, in attesa della voce: i crediti ElevenLabs si sono esauriti
-dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una traccia ne chiede 10.045; nessun addebito). Lo stesso giorno è stata
-misurata la seconda via, lo studio HeyGen con il motore `eleven_v3` e la
-voce Giovanni Rossi (MASTER, «Due vie per la voce»): 1 credito HeyGen a
-lezione su 4.256 residui, che scadono il 5 ottobre; render di prova
-`c0f67c8efc7d65d399285b0fda4bd36f`. La 5.7 è il pilota della via HeyGen: resa
-`f48270aa38d8bc5e0fa135ee4e15ed51`, 11:05, 1 credito, voce Giovanni Rossi; da
-ascoltare prima di proseguire con 5.8 e i moduli 6–8, e con la durata da
-decidere (`speed` 1,15 per tornare sui 9:40).
+dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una
+traccia ne chiede 10.045; nessun addebito). Lo stesso giorno la 5.7 è stata
+resa per prova con la via HeyGen (voce Giovanni Rossi, motore `eleven_v3`
+dello studio, 1 credito HeyGen, 11:05, resa `f48270aa38d8bc5e0fa135ee4e15ed51`)
+e scartata per la voce: si torna a GianP al rinnovo dei crediti ElevenLabs,
+sulle stesse clip gia' caricate (`asset-id.json`).
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -32,7 +30,7 @@ decidere (`speed` 1,15 per tornare sui 9:40).
 | 5.4 | La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
 | 5.5 | Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
 | 5.6 | Antibiotici, analgesici e stupefacenti | — | da fare |
-| 5.7 | Preparazione, stabilità e gestione dei farmaci in reparto | 11:05.2 | `f48270aa38d8bc5e0fa135ee4e15ed51` |
+| 5.7 | Preparazione, stabilità e gestione dei farmaci in reparto | — | in attesa della voce |
 | 5.8 | Riepilogo del Modulo 5 e venti calcoli cronometrati | — | da fare |
 
 Lo script del committente è in `m5-l5.1-principi/origine/Script_video_MODULO_5.md`;

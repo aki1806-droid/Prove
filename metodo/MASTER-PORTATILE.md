@@ -1028,6 +1028,11 @@ coda di silenzio a ogni scena. La costante `VELOCITA` di
 `monta-scene-heygen.py` va in `voice_settings.speed`: con 1,15 la stima torna
 sui 9:40. Si decide dopo aver ascoltato, perché una voce accelerata si sente.
 
+Ascoltata, la resa è stata **scartata dal committente per la voce**: il corso
+resta con GianP, e la via HeyGen resta scritta qui come ripiego misurato, non
+come alternativa in uso. La lezione del pilota: la scelta della voce è del
+committente e si fa prima di montare, su un provino, non dopo.
+
 **Quello che la via HeyGen non dà.** La voce è un'altra, e un corso con due
 voci si sente: la scelta va presa per modulo, non per lezione. I file audio
 non si scaricano da qui (il proxy blocca `resource2.heygen.ai`), quindi
