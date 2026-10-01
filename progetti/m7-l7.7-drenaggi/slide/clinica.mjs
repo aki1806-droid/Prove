@@ -1569,6 +1569,34 @@ export const CSS_CLINICA = `
 .npwt .eff .ed{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg)}
 .npwt .fr{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
 
+/* ---- 7.6: stomie ---- */
+.addome svg,.placca svg{width:100%;height:auto;overflow:visible}
+.addome .tronco{fill:#F1DCCB;stroke:var(--tit);stroke-width:5}
+.addome .ombelico{fill:none;stroke:var(--tit);stroke-width:4}
+.addome .intest{fill:none;stroke:#D9A3A3;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+.addome .st{opacity:0;animation:pop .5s both;transform-box:fill-box;transform-origin:center}
+.addome .st.off{animation:none;opacity:.15}
+.addome .st circle{fill:#D9484F;stroke:var(--tit);stroke-width:4}
+.addome .st circle.urina{fill:#E8B04A}
+.addome .st .n{font-family:'Inter',sans-serif;font-size:30px;font-weight:800;fill:var(--tit)}
+.addome .st.key .n{fill:var(--acc)}
+.addome .st .d{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg)}
+.addome .st .d.key{font-weight:700;fill:var(--tit)}
+.addome .st path{fill:none;stroke:var(--linea);stroke-width:3}
+.addome .lato{font-family:'Inter',sans-serif;font-size:22px;font-weight:600;fill:var(--fg);text-anchor:middle;letter-spacing:.06em;text-transform:uppercase}
+.placca .pan{opacity:0;animation:appari .5s both}
+.placca .pan.off{animation:none;opacity:.18}
+.placca .cute{fill:#F1DCCB;stroke:var(--tit);stroke-width:4}
+.placca .anello{fill:#E9EEF4;stroke:var(--tit);stroke-width:4}
+.placca .stoma{fill:#D9484F;stroke:var(--tit);stroke-width:4}
+.placca .ross{fill:#F4A3A3;opacity:0;animation:appari .5s both}
+.placca .segno{fill:none;stroke:var(--acc);stroke-width:5;stroke-linecap:round}
+.placca .pt{font-family:'Inter',sans-serif;font-size:30px;font-weight:700;fill:var(--tit);text-anchor:middle}
+.placca .pan.key .pt{fill:#1E8A4C}
+.placca .pan.no .pt{fill:var(--acc)}
+.placca .pd{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg);text-anchor:middle}
+.placca .mm{font-family:'Inter',sans-serif;font-size:26px;font-weight:800;fill:var(--acc);text-anchor:middle;opacity:0;animation:appari .4s both}
+
 `;
 
 // ---------- pezzi ----------
@@ -2971,6 +2999,45 @@ export const CORPI_CLINICA = {
     const margini = `<path class="fr" pathLength="1" d="M${x + 60} ${y + 60}l60 0M${x + 100} ${y + 44}l20 16-20 16M${x + w - 60} ${y + 60}l-60 0M${x + w - 100} ${y + 44}l-20 16 20 16" style="animation-delay:2s"/>`;
     return `<div class="npwt"><svg class="fig gfx" viewBox="0 0 1656 540">${cute}${schiuma}${film}${tubo}${gocce}${pompa}${margini}${eff}
       <text class="et" x="828" y="520">${piano(d.sotto ?? 'schiuma o garza nella lesione · film sigillante · pompa: pressione subatmosferica, continua o intermittente')}</text></svg></div>`;
+  },
+
+  // ---- 7.6: stomie ----
+  // L'addome visto di fronte con le tre stomie al posto giusto: la
+  // colostomia a sinistra della persona (a destra di chi guarda), l'ileo-
+  // stomia a destra, l'urostomia più in basso a destra; ogni stomia ha il
+  // nome e la natura dell'effluente. `attive` accende le stomie.
+  addome: d => {
+    const attive = d.attive ?? [0, 1, 2], cx = 500;
+    const tronco = `<path class="tronco" d="M${cx - 260} 20h520v380c0 60-60 110-130 110h-260c-70 0-130-50-130-110z"/><path class="ombelico" d="M${cx - 14} 250a14 14 0 1 0 28 0a14 14 0 1 0 -28 0"/>`;
+    const intest = `<path class="intest" d="M${cx + 150} 140v180c0 40-40 60-80 60h-160c-40 0-80-20-80-60v-160"/>`;
+    const ST = [
+      { x: cx + 150, y: 200, t: 'Colostomia', d: 'colon · feci formate o semiformate', lato: 'sinistra' },
+      { x: cx - 170, y: 230, t: 'Ileostomia', d: 'ileo · feci liquide, ricche di enzimi', lato: 'destra', key: true },
+      { x: cx - 120, y: 380, t: 'Urostomia', d: 'urine · flusso continuo, muco normale', urina: true },
+    ];
+    const st = ST.map((s, i) => { const tx = s.x > cx ? 1020 : 1020, ty = 120 + i * 150;
+      return `<g class="st ${attive.includes(i) ? '' : 'off'} ${s.key ? 'key' : ''}" style="animation-delay:${num(.4 + i * .35)}s">
+        <path d="M${s.x + 30} ${s.y}C${s.x + 200} ${s.y} 900 ${ty} 1000 ${ty}"/><circle class="${s.urina ? 'urina' : ''}" cx="${s.x}" cy="${s.y}" r="${s.key ? 34 : 30}"/>
+        <text class="n" x="${tx}" y="${ty - 6}">${s.t}</text><text class="d ${s.key ? 'key' : ''}" x="${tx}" y="${ty + 30}">${piano(s.d)}</text></g>`; }).join('');
+    return `<div class="addome"><svg class="fig gfx" viewBox="0 0 1656 540">${tronco}${intest}${st}
+      <text class="lato" x="${cx - 190}" y="520">destra della persona</text><text class="lato" x="${cx + 190}" y="520">sinistra della persona</text></svg></div>`;
+  },
+
+  // Il foro della placca: tre pannelli, il foro troppo largo con la cute
+  // esposta e arrossata, quello giusto 2-3 mm più ampio, quello troppo
+  // stretto che stringe la mucosa. `attive` accende i pannelli.
+  placca: d => {
+    const attive = d.attive ?? [0, 1, 2];
+    const pan = (i, cx) => { const cy = 230, r = 62, foro = [112, 70, 52][i], on = attive.includes(i) ? '' : 'off';
+      const T = [['Troppo largo', 'la cute esposta agli effluenti si irrita', 'no'], ['Giusto: 2–3 mm più ampio', 'misurato con il misuratore', 'key'], ['Troppo stretto', 'traumatizza la mucosa', 'no']][i];
+      return `<g class="pan ${on} ${T[2]}" style="animation-delay:${num(.2 + i * .35)}s">
+        <rect class="cute" x="${cx - 200}" y="${cy - 170}" width="400" height="340" rx="30"/>
+        <path class="anello" d="M${cx - 170} ${cy}a170 170 0 1 0 340 0a170 170 0 1 0 -340 0M${cx - foro} ${cy}a${foro} ${foro} 0 1 1 ${foro * 2} 0a${foro} ${foro} 0 1 1 -${foro * 2} 0" fill-rule="evenodd"/>
+        ${i === 0 ? `<circle class="ross" cx="${cx}" cy="${cy}" r="${foro - 4}" style="animation-delay:1s"/>` : ''}
+        <circle class="stoma" cx="${cx}" cy="${cy}" r="${i === 2 ? r - 6 : r}"/>
+        ${i === 1 ? `<path class="segno" d="M${cx + r + 2} ${cy - 90}v-30M${cx + foro} ${cy - 90}v-30M${cx + r + 2} ${cy - 105}h${foro - r - 2}"/><text class="mm" x="${cx + 120}" y="${cy - 112}" style="animation-delay:1s">2–3 mm</text>` : ''}
+        <text class="pt" x="${cx}" y="${cy + 240}">${T[0]}</text><text class="pd" x="${cx}" y="${cy + 274}">${T[1]}</text></g>`; };
+    return `<div class="placca"><svg class="fig gfx" viewBox="0 0 1656 540">${pan(0, 276)}${pan(1, 828)}${pan(2, 1380)}</svg></div>`;
   },
 
   percento: d => {

@@ -35,7 +35,7 @@ BLOCCHI = [
  (8,"chiaro",0,"Le medicazioni antimicrobiche: all'argento, allo iodio, al PHMB, al miele. Si usano quando c'e' un'infezione locale o il sospetto di biofilm, e per periodi limitati."),
  (8,"chiaro",0,"Si rivaluta indicativamente dopo due settimane, e se l'infezione e' risolta si torna a una medicazione non antimicrobica. Non si usano a scopo preventivo, ne' all'infinito."),
 
- (9,"chiaro",0,"Le altre classi. Il carbone attivo, per il controllo dell'odore, importante nelle lesioni neoplastiche e per la dignita' della persona. Le interfacce non aderenti, che proteggono il tessuto di granulazione alla rimozione."),
+ (9,"chiaro",0,"Le altre classi. Il carbone attivo, per il controllo dell'odore, importante nelle lesioni neoplastiche e per la dignita' della persona. Le interfacce non aderenti, che proteggono la granulazione alla rimozione."),
  (9,"chiaro",0,"Le medicazioni bioattive, collagene, acido ialuronico, modulatori delle proteasi, per le lesioni ferme nonostante una gestione corretta."),
  (9,"chiaro",0,"E le garze tradizionali, che non vanno messe a contatto con il fondo: aderiscono e, alla rimozione, strappano il tessuto nuovo. E' il trauma da medicazione della lezione sette punto uno."),
 
@@ -46,10 +46,10 @@ BLOCCHI = [
 
  (11,"chiaro",0,"La terapia a pressione negativa, o NPWT. Nella lesione si posiziona una schiuma o una garza, si sigilla con un film, e una pompa applica una pressione subatmosferica."),
  (11,"chiaro",0,"Spesso intorno a meno centoventicinque millimetri di mercurio, in modo continuo o intermittente. Gli effetti: rimuove l'essudato, riduce l'edema, stimola la granulazione e avvicina i margini."),
- (11,"chiaro",0,"La medicazione si cambia indicativamente ogni quarantotto-settantadue ore. Le controindicazioni: necrosi non rimossa, osteomielite non trattata, neoplasia nella lesione, vasi, organi o anastomosi esposti, fistole non esplorate."),
+ (11,"chiaro",0,"La medicazione si cambia ogni quarantotto-settantadue ore. Le controindicazioni: necrosi non rimossa, osteomielite non trattata, neoplasia nella lesione, vasi, organi o anastomosi esposti, fistole non esplorate."),
 
  (12,"chiaro",0,"Cautela nel paziente anticoagulato, per il rischio di sanguinamento, che durante la terapia va cercato nel contenitore. La gestione: gli allarmi di perdita del sigillo e di contenitore pieno."),
- (12,"chiaro",0,"E una regola: se la pompa resta spenta oltre il tempo previsto dalla procedura, spesso due ore, la medicazione va rimossa, perche' una schiuma chiusa senza aspirazione diventa un ambiente favorevole ai batteri."),
+ (12,"chiaro",0,"E una regola: se la pompa resta spenta oltre il tempo previsto dalla procedura, spesso due ore, la medicazione va rimossa: una schiuma chiusa senza aspirazione e' un ambiente favorevole ai batteri."),
 
  (13,"chiaro",0,"Il debridement, la rimozione del tessuto non vitale. Autolitico, con idrogel e idrocolloidi: lento, selettivo, indolore, di competenza infermieristica. Enzimatico, con prodotti specifici su prescrizione."),
  (13,"chiaro",0,"Meccanico, per esempio con garze che si seccano e strappano il tessuto: non selettivo e doloroso, oggi sconsigliato. Biologico, con larve sterili."),

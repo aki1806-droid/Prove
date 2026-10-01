@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una stomia e' un'apertura chirurgica che porta all'esterno un tratto di intestino o le vie urinarie. Per la persona e' un cambiamento profondo del corpo, dell'immagine di se' e della vita quotidiana."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'infermiere e' un ambito in cui contano insieme la tecnica, presidi, cute, complicanze, e la relazione, perche' una persona che non accetta la stomia difficilmente imparera' a gestirla."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tipi. La colostomia porta all'esterno il colon, di solito sul lato sinistro dell'addome: le feci sono formate o semiformate, perche' il colon ha gia' riassorbito l'acqua."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ileostomia porta all'esterno l'ileo, di solito a destra: le feci sono liquide e ricche di enzimi digestivi, molto aggressivi per la cute."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'urostomia deriva le urine, per esempio con il condotto ileale secondo Bricker: il flusso e' continuo, e la presenza di muco e' normale, perche' il condotto e' fatto di intestino."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le stomie possono essere temporanee o definitive, terminali o a doppia canna. Sinistra e destra, formate e liquide: i quiz incrociano queste quattro parole."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stomia normale e' rossa, umida, lucida, leggermente protrudente, l'ileostomia di piu', circa due-tre centimetri, per allontanare le feci liquide dalla cute."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non e' dolente al tatto, perche' la mucosa non ha recettori del dolore. Nei primi giorni e' edematosa, e si riduce nelle settimane successive."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segnali d'allarme: una stomia pallida, scura, violacea o nera indica ischemia o necrosi, e va segnalata subito al chirurgo. Poi la retrazione e il sanguinamento abbondante."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I presidi. Possono essere monopezzo, con placca e sacca unite, o a due pezzi, con la placca che resta in sede alcuni giorni e la sacca che si cambia."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tipo di sacca dipende dalla stomia: chiusa per la colostomia con feci formate; aperta, o drenabile, per l'ileostomia, che va svuotata piu' volte al giorno."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con rubinetto e valvola anti-reflusso per l'urostomia, collegabile di notte a una sacca di raccolta piu' grande. Molte sacche hanno un filtro per i gas."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio tecnico che determina tutto: la misura del foro della placca. Si misura la stomia con l'apposito misuratore, e si ritaglia la placca due-tre millimetri piu' ampia della stomia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un foro troppo largo lascia la cute esposta agli effluenti, che la irritano; uno troppo stretto traumatizza la mucosa."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nelle prime settimane si rimisura spesso, perche' l'edema si riduce e la stomia diventa piu' piccola: la placca giusta a due giorni e' larga a due settimane."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il cambio. Si rimuove la placca delicatamente, dall'alto verso il basso, sostenendo la cute con l'altra mano."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si deterge la stomia e la cute con acqua tiepida e garze morbide: niente alcol, niente disinfettanti, niente solventi, che danneggiano la cute e la mucosa."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si asciuga bene, tamponando, perche' sulla cute umida la placca non aderisce. Si ispeziona. Si applica la nuova placca dal basso verso l'alto."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la sacca si svuota quando e' piena per un terzo o meta', perche' una sacca troppo piena si stacca per il peso. Si toglie dall'alto, si mette dal basso: la sequenza e' una domanda da quiz."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La complicanza piu' frequente e' la dermatite peristomale: la cute intorno alla stomia si arrossa, si irrita, si lesiona."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La causa piu' comune sono le perdite di effluente sotto la placca, soprattutto nell'ileostomia, dove gli enzimi digeriscono letteralmente la cute. Altre cause: gli adesivi, le allergie, le infezioni micotiche."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione: foro corretto, prodotti barriera, pasta o anelli per riempire le pieghe cutanee, e una rimozione atraumatica della placca."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le complicanze. Precoci: necrosi, edema, sanguinamento, retrazione, distacco fra mucosa e cute, dermatite, e l'alta portata dell'ileostomia."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tardive: l'ernia parastomale, la piu' frequente, un rigonfiamento intorno alla stomia; il prolasso, con la stomia che si allunga all'esterno; la stenosi, il restringimento; la retrazione; i granulomi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ileostomia ad alta portata merita attenzione: quando la stomia perde piu' di circa uno virgola cinque-due litri al giorno, la persona rischia disidratazione, perdita di potassio e sodio, fino all'insufficienza renale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano bilancio idrico, diuresi, sete, crampi, debolezza: il bilancio della lezione tre punto cinque, con una voce in piu' nelle uscite."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un'indicazione educativa controintuitiva: bere solo acqua puo' peggiorare la perdita di sali; servono anche soluzioni con elettroliti, secondo indicazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alimentazione e farmaci. Con l'ileostomia: masticare bene, fare attenzione ai cibi molto fibrosi, come mais, frutta secca, sedano, che possono ostruire la stomia, e garantire liquidi e sali."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la colostomia: attenzione agli alimenti che producono gas e odore."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una nota sui farmaci: nell'ileostomia le compresse a rilascio modificato o gastroresistenti possono non essere assorbite del tutto, e a volte si ritrovano intatte nella sacca. Va segnalato."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'irrigazione: un lavaggio periodico del colon attraverso la stomia, che permette uno svuotamento programmato e, nei periodi fra un'irrigazione e l'altra, di usare un presidio molto piccolo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' indicata solo nella colostomia sinistra, in persone selezionate e addestrate. Mai nell'ileostomia, che ha un contenuto liquido continuo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'urostomia. Il flusso e' continuo, quindi il cambio del presidio si fa preferibilmente al mattino, prima di bere, quando la produzione e' minore. Il muco nelle urine e' normale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sacca ha una valvola anti-reflusso, e di notte si collega a una sacca piu' grande. Si raccomanda un'idratazione abbondante, per prevenire le infezioni."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il campione di urine si preleva direttamente dalla stomia, con tecnica sterile, non dalla sacca: la stessa regola del catetere nella lezione tre punto sei."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La parte che distingue un buon infermiere: la preparazione e l'impatto psicologico. Prima dell'intervento programmato si esegue la marcatura della sede della stomia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si valuta la persona seduta, in piedi e sdraiata, per scegliere un punto visibile alla persona, lontano da pieghe, cicatrici e cinture. Si informa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si lavora sull'immagine corporea, sulla sessualita', sulla vita sociale e lavorativa, coinvolgendo il partner se la persona lo desidera, e indicando le associazioni di persone stomizzate, che sono una risorsa preziosa."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione alla dimissione. Autonomia nel cambio del presidio, verificata facendolo eseguire alla persona o al caregiver, non solo spiegandolo. Riconoscere le complicanze."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alimentazione e idratazione. Come ottenere la fornitura dei presidi, che sono a carico del Servizio Sanitario. E i riferimenti: l'ambulatorio di stomaterapia, a cui rivolgersi per qualunque problema."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Seconda giornata dopo il confezionamento di una colostomia; la stomia appare violacea scura. Che cosa pensi? Sofferenza ischemica, possibile necrosi."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Avvisi subito il chirurgo, perche' una necrosi puo' estendersi in profondita' e richiedere un nuovo intervento."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Usi una sacca trasparente per osservare la stomia senza rimuovere il presidio, rilevi i parametri, documenti l'aspetto e l'ora. [serious] Non e' un problema di medicazione: e' un'urgenza chirurgica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto esistono ambulatori di stomaterapia ospedalieri e territoriali, con infermieri stomaterapisti, e la fornitura dei presidi avviene tramite il distretto, nell'ambito dell'assistenza protesica e integrativa."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la figura dell'infermiere stomaterapista e' un ottimo esempio di competenza specialistica infermieristica: formazione dedicata, ambulatorio proprio, presa in carico che continua a casa."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Colostomia: sinistra, feci formate. Ileostomia: destra, feci liquide ed enzimi. Urostomia: flusso continuo, muco normale. Stomia rossa e umida; scura e' un allarme."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Foro due-tre millimetri piu' ampio. Solo acqua per detergere. L'ernia parastomale e' la complicanza tardiva piu' frequente. Irrigazione solo nella colostomia sinistra."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: i drenaggi, compreso il drenaggio toracico. A tra poco."
+ }
+]
