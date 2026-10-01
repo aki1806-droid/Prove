@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] In neurologia c'e' una frase che riassume tutto: il tempo e' cervello. Durante un ictus si perdono neuroni a ogni minuto, e il trattamento dipende da quanto rapidamente si riconoscono i sintomi e si attiva il percorso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa lezione e' costruita intorno all'ictus, e completa il quadro con la valutazione neurologica, l'ipertensione endocranica e le principali malattie croniche."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ictus e' di due tipi. Ischemico, circa l'ottanta-ottantacinque per cento: un'arteria cerebrale si occlude. Emorragico, il resto: un vaso si rompe."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I sintomi possono essere identici, e solo la TC distingue i due tipi: una distinzione decisiva, perche' il trattamento dell'uno e' dannoso per l'altro."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'attacco ischemico transitorio, il TIA: un deficit che regredisce completamente. Non e' un falso allarme: e' un segnale ad alto rischio di ictus nei giorni successivi, e richiede una valutazione urgente."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riconoscimento, con la scala FAST, che riprende la scala di Cincinnati. F, face: si chiede di sorridere e si osserva se il volto e' asimmetrico."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A, arms: si chiede di alzare le braccia a occhi chiusi per dieci secondi, e si osserva se un braccio cade. S, speech: si chiede di ripetere una frase, e si osserva se il linguaggio e' impastato o confuso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "T, time: si annota l'ora e si attiva subito il percorso. Anche un solo segno alterato basta per sospettare un ictus."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dato piu' prezioso che l'infermiere puo' raccogliere: l'ora di insorgenza, o meglio l'ultima volta in cui la persona e' stata vista in benessere."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la persona si sveglia con i sintomi, l'ora di riferimento non e' il risveglio, ma l'ora in cui e' andata a dormire. Da quell'orario dipende se si puo' fare la trombolisi o la trombectomia."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso stroke. Riconoscimento, centodiciotto, trasporto in un ospedale con stroke unit. TC dell'encefalo senza contrasto, urgente, per escludere l'emorragia."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemia, sempre: un'ipoglicemia puo' dare sintomi identici a un ictus, e si corregge in un minuto."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi, nell'ictus ischemico, la trombolisi endovenosa, che scioglie il trombo, entro quattro ore e mezza dall'esordio, e nei casi selezionati la trombectomia meccanica, che lo rimuove con un catetere, di solito entro sei ore."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trombolisi: un farmaco potente, con un rischio di sanguinamento. Prima: pressione sotto centottantacinque su centodieci; si controlla la glicemia, si posizionano gli accessi, si rileva il peso per la dose."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si evitano le procedure invasive non indispensabili, catetere, sondino, intramuscolari, che poi sanguinerebbero."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo: valutazioni neurologiche e pressione frequenti, per esempio ogni quindici minuti nelle prime ore, poi a intervalli crescenti secondo protocollo; pressione sotto centottanta su centocinque nelle prime ventiquattro ore."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sorveglianza di sanguinamento, peggioramento neurologico, che puo' indicare un'emorragia cerebrale, e angioedema."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza nell'ictus, dove l'infermiere fa molta differenza. Screening della deglutizione prima di qualsiasi cosa per bocca, nemmeno l'acqua, nemmeno i farmaci: lo abbiamo visto nella lezione tre punto tre."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posizionamento corretto dell'arto plegico, sostenendo la spalla per prevenire la sublussazione: non si tira mai la persona per il braccio plegico."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prevenzione di polmonite, trombosi, lesioni da pressione, cadute. Mobilizzazione precoce. Comunicazione con la persona afasica: frasi brevi, domande chiuse, tempo per rispondere."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Continenza e umore, perche' la depressione dopo l'ictus e' frequente. E' un'assistenza che dura settimane, e ogni giorno conta quanto il primo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La valutazione neurologica. La Glasgow Coma Scale della lezione due punto tre: occhi quattro, verbale cinque, motoria sei, da tre a quindici. Le pupille: dimensione, simmetria, reattivita' alla luce."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'anisocoria di nuova comparsa, una pupilla piu' dilatata dell'altra, e' un segnale d'allarme: puo' indicare una compressione del cervello. La forza degli arti, i parametri vitali. Nell'ictus anche la scala NIHSS."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipertensione endocranica: la pressione dentro il cranio aumenta, per un'emorragia, un trauma, un tumore, un edema. I segni: cefalea che peggiora, vomito improvviso, coscienza alterata, il primo da cogliere, anisocoria."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un segno tardivo, che indica un'erniazione imminente, e' la triade di Cushing: ipertensione con pressione differenziale ampia, bradicardia e respiro irregolare."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pressione alta e polso lento in un paziente neurologico non sono una contraddizione: sono un allarme."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza. Testata a trenta gradi, per favorire il deflusso venoso dal cranio. Capo in asse, senza flessione o rotazione, che comprimerebbero le vene giugulari."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Evitare tutto cio' che aumenta la pressione: Valsalva, sforzi, tosse, quindi anche prevenire la stipsi, aspirazioni non necessarie o prolungate."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mantenere normotermia e normoglicemia, controllare dolore e agitazione. E niente soluzioni ipotoniche, come abbiamo visto nella lezione sei punto tre."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La crisi epilettica. Durante la crisi: proteggere dai traumi, allontanando oggetti e sostenendo la testa; non mettere nulla in bocca, non si ingoia la lingua, e' un falso mito; non trattenere i movimenti; cronometrare."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al termine: posizione laterale di sicurezza, ossigeno, aspirazione se necessaria, e la persona resta confusa per un po', nella fase post-critica. Si osservano e si documentano le caratteristiche."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E lo stato di male: una crisi che dura oltre cinque minuti, o crisi ripetute senza recupero, e' un'emergenza, che si tratta con una benzodiazepina secondo protocollo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il morbo di Parkinson: tremore a riposo, rigidita', lentezza dei movimenti, instabilita' posturale. Un punto infermieristico cruciale: la levodopa va somministrata puntualmente, agli orari esatti prescritti."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un ritardo di un'ora puo' bloccare la persona, impedirle di camminare o di deglutire. I pasti ricchi di proteine possono ridurne l'assorbimento. E non si sospende mai bruscamente."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rischi: cadute, disfagia, stipsi, ipotensione ortostatica. E alcuni farmaci comuni, come aloperidolo e metoclopramide, peggiorano i sintomi e vanno evitati: va segnalato se prescritti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due malattie croniche. La sclerosi multipla: demielinizzante, spesso a ricadute, colpisce giovani adulti, con fatica, disturbi visivi, sensitivi, motori e vescicali; il calore peggiora transitoriamente i sintomi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La SLA: degenerazione progressiva dei motoneuroni, con debolezza, disfagia, che porta alla PEG, e insufficienza respiratoria, che porta alla NIV, mentre la mente resta spesso lucida."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui la comunicazione aumentativa e la pianificazione condivisa delle cure, prevista dalla legge duecentodiciannove, diventano centrali: la persona decide oggi le cure di domani."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Ore dieci e trenta: un paziente ricoverato per polmonite non riesce piu' a sollevare il braccio destro e parla in modo confuso. Al giro delle nove era in ordine. Che cosa fai?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "FAST positiva: sospetto ictus. Annoti l'ultima volta visto in benessere: le nove. Attivi subito il medico secondo il percorso stroke intraospedaliero."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemia, parametri, saturazione, GCS e pupille. Nulla per bocca. Accesso venoso."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E' un ictus in ospedale, e il tempo conta esattamente come fuori."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto opera una rete per l'ictus con stroke unit, centri hub per la trombectomia e centri spoke, e il percorso preospedaliero del centodiciotto. All'orale, collega FAST, ora e rete: e' la catena che decide l'esito."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tabelle da fotografare. FAST: volto, braccia, linguaggio, tempo. Trombolisi entro quattro ore e mezza: prima pressione sotto centottantacinque su centodieci e glicemia; dopo sotto centottanta su centocinque."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ipertensione endocranica: testata a trenta, capo in asse. Cushing: ipertensione, bradicardia, respiro irregolare. Crisi: niente in bocca, cronometrare; stato di male oltre cinque minuti. Levodopa puntuale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli, utili all'orale: la disfagia della lezione tre punto tre, la GCS della due punto tre, le soluzioni ipotoniche della sei punto tre."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli anticoagulanti e la fibrillazione atriale, prima causa di ictus cardioembolico, delle lezioni cinque punto cinque e otto punto uno, e la legge duecentodiciannove della lezione uno punto sei."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una frase da portare via: il tempo e' cervello. Riconoscere, annotare l'ora, attivare. Nella prossima lezione: oncologia ed ematologia, con la neutropenia febbrile, un'altra emergenza in cui ogni ora conta. A tra poco."
+ }
+]
