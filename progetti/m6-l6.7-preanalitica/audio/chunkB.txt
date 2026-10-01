@@ -1,3 +1,9 @@
+La tecnica, perche' un'emocoltura contaminata dalla flora cutanea porta a terapie inutili. Antisepsi della cute con clorexidina alcolica, lasciata asciugare; disinfezione dei tappi; non ripalpare dopo l'antisepsi.
+
+L'ordine dei flaconi: con il butterfly si riempie prima l'aerobio, perche' la piccola quantita' d'aria del tubicino finisce li' e non nell'anaerobio; con la siringa si inocula prima l'anaerobio.
+
+Poi si etichetta e si invia subito, o si conserva secondo procedura, non in frigorifero: i flaconi sono terreni di coltura, e il freddo ferma la crescita che invece si vuole vedere.
+
 L'urinocoltura. Dopo l'igiene dei genitali, si raccoglie il mitto intermedio, scartando il primo getto, in un contenitore sterile. Nel cateterizzato, dal punto di prelievo dedicato, mai dalla sacca: lezione tre punto sei.
 
 Il campione si invia entro due ore, o si refrigera secondo procedura, perche' a temperatura ambiente i batteri si moltiplicano e falsano la carica.
@@ -28,9 +34,9 @@ I campioni viaggiano in contenitori chiusi, a prova di perdita, con il simbolo d
 
 Il caso. Il laboratorio comunica un potassio di sei virgola otto in un paziente asintomatico, con ECG in ordine. Il prelievo era stato difficoltoso, con ago sottile e laccio prolungato. Che cosa pensi?
 
-Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, verifichi se il laboratorio segnala emolisi, e su indicazione ripeti il prelievo con tecnica corretta.
+Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, chiedi al laboratorio se segnala emolisi, e su indicazione ripeti il prelievo.
 
-[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera.
+[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera. Il dubbio sul campione non sospende mai la sorveglianza sulla persona.
 
 In Veneto molte aziende usano sistemi informatici di richiesta con etichette stampate al letto a partire dal braccialetto del paziente, che riducono gli errori di identificazione.
 

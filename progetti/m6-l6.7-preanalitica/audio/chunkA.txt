@@ -2,11 +2,11 @@
 
 Identificazione, prelievo, provette, conservazione, trasporto: e' la fase gestita dall'infermiere, e per questo e' la fase in cui l'infermiere puo' fare la differenza.
 
-Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti.
+Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti. E quasi sempre l'errore e' invisibile: il referto arriva, e nessuno sa che e' falso.
 
 Il primo passo e' sempre lo stesso: identificazione attiva. Poi l'etichettatura, che si fa al letto, davanti al paziente, subito dopo il prelievo.
 
-Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio.
+Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio. Prima si preleva, poi si etichetta, senza allontanarsi dal letto.
 
 E la richiesta deve essere completa, con l'esame, la data, l'ora del prelievo e l'operatore: l'ora conta, perche' alcuni valori cambiano nella giornata.
 
@@ -24,7 +24,7 @@ Tre: siero, tappo rosso o giallo, con o senza gel. Quattro: eparina, tappo verde
 
 Il motivo dell'ordine e' evitare che l'additivo di una provetta contamini la successiva: per esempio l'EDTA, se passa nella provetta del siero, abbassa il calcio e alza il potassio.
 
-E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo.
+E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo. Sei provette, un ordine: dalla piu' delicata alla meno delicata.
 
 Due dettagli. La provetta del citrato va riempita esattamente fino alla tacca: il test della coagulazione richiede un rapporto preciso fra sangue e anticoagulante, nove a uno. Poco piena, da' risultati falsamente alterati.
 
@@ -42,10 +42,4 @@ Le emocolture, che riprendiamo dalle lezioni quattro punto sei e sei punto due. 
 
 Almeno due set, ciascuno con un flacone aerobio e uno anaerobio, da due punzioni diverse. Volume: otto-dieci millilitri per flacone nell'adulto: il volume e' il principale determinante della sensibilita'.
 
-Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento.
-
-La tecnica, perche' un'emocoltura contaminata dalla flora cutanea porta a terapie inutili. Antisepsi della cute con clorexidina alcolica, lasciata asciugare; disinfezione dei tappi; non ripalpare dopo l'antisepsi.
-
-L'ordine dei flaconi: con il butterfly si riempie prima l'aerobio, perche' la piccola quantita' d'aria del tubicino finisce li' e non nell'anaerobio; con la siringa si inocula prima l'anaerobio.
-
-Poi si etichetta e si invia subito, o si conserva secondo procedura, non in frigorifero: i flaconi sono terreni di coltura, e il freddo ferma la crescita che invece si vuole vedere.
+Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento: e' il confronto fra i due che dice se il catetere e' la fonte.

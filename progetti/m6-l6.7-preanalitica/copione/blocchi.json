@@ -18,7 +18,7 @@
   "capitolo": 1,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti."
+  "text": "Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti. E quasi sempre l'errore e' invisibile: il referto arriva, e nessuno sa che e' falso."
  },
  {
   "id": "s05",
@@ -32,7 +32,7 @@
   "capitolo": 2,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio."
+  "text": "Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio. Prima si preleva, poi si etichetta, senza allontanarsi dal letto."
  },
  {
   "id": "s07",
@@ -95,7 +95,7 @@
   "capitolo": 4,
   "tema": "chiaro",
   "posa": 0,
-  "text": "E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo."
+  "text": "E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo. Sei provette, un ordine: dalla piu' delicata alla meno delicata."
  },
  {
   "id": "s16",
@@ -158,7 +158,7 @@
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento."
+  "text": "Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento: e' il confronto fra i due che dice se il catetere e' la fonte."
  },
  {
   "id": "s25",
@@ -291,14 +291,14 @@
   "capitolo": 15,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, verifichi se il laboratorio segnala emolisi, e su indicazione ripeti il prelievo con tecnica corretta."
+  "text": "Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, chiedi al laboratorio se segnala emolisi, e su indicazione ripeti il prelievo."
  },
  {
   "id": "s44",
   "capitolo": 15,
   "tema": "profondo",
   "posa": 1.2,
-  "text": "[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera."
+  "text": "[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera. Il dubbio sul campione non sospende mai la sorveglianza sulla persona."
  },
  {
   "id": "s45",
