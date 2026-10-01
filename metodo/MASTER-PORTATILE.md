@@ -667,6 +667,67 @@ Nove cose imparate nel modulo 5:
   5.8 sono state portate fino alle slide, ai registri e, dove la voce c'era,
   al montaggio, in attesa del rinnovo.
 
+I moduli 6, 7 e 8 (ventiquattro lezioni fatte senza voce, in attesa dei
+crediti) aggiungono trentatré corpi, due o tre per lezione, e nessuna
+illustrazione: dal modulo 6 in poi la scena di una lezione si regge sul
+corpo, e le illustrazioni della libreria bastano per l'anello e le figure.
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `calibri`, `vene` | i sei gauge con i colori standard; il braccio con le zone delle vene | gli accessi periferici (6.1) |
+| `accessi` | il torace con la cava e i cinque dispositivi centrali, il Midline che si ferma prima | gli accessi centrali (6.2) |
+| `tonicita` | la cellula nei tre ambienti, che si gonfia, resta, si raggrinza | i cristalloidi (6.3) |
+| `ega` | le tre colonne di pH, CO₂ e bicarbonato con i valori che salgono e scendono | l'emogasanalisi (6.4) |
+| `sacca` | la multicamera che si attiva e l'emulsione rotta | la nutrizione parenterale (6.5) |
+| `gruppi` | le sacche «0 −» e «AB» che vanno a tutti i gruppi | i donatori universali (6.6) |
+| `provette` | le sei provette nell'ordine di prelievo con i tappi, l'EDTA nel siero, il citrato alla tacca | la preanalitica (6.7) |
+| `fasi`, `intenzioni`, `time`, `fondo`, `orologio` | le quattro fasi sul tempo; le tre intenzioni in sezione; le tessere del TIME; i colori del fondo; le ore 12 verso la testa | la valutazione della lesione (7.1) |
+| `stadi`, `sedi` | la cute a cinque strati scavata fino allo stadio; le tre posizioni con i punti d'appoggio | le lesioni da pressione (7.2) |
+| `gambe2`, `abi` | le due gambe a confronto; la scala dell'ABI con le soglie | le ulcere vascolari (7.3) |
+| `ssi`, `giorni`, `punti` | le tre profondità dell'infezione; i giorni dei punti per sede; la rimozione giusta e sbagliata | le ferite chirurgiche (7.4) |
+| `umido`, `albero`, `npwt` | le tre lesioni secca, umida, bagnata; lesione → classe; la pressione negativa | le medicazioni avanzate (7.5) |
+| `addome`, `placca` | le tre stomie al posto giusto; il foro troppo largo, giusto, stretto | le stomie (7.6) |
+| `pleura`, `camere` | aria in alto e liquido in basso; le tre camere con oscillazione e bollicine | i drenaggi (7.7) |
+| `scompenso`, `ecg` | i due lati dello scompenso; la striscia millimetrata con i ritmi che si disegnano | la cardiologia (8.1) |
+| `o2`, `cannula` | i dispositivi sull'asse dei litri con la FiO₂; la cuffia e il catetere di aspirazione | l'ossigenoterapia (8.2) |
+| `potassio`, `sensore` | i K⁺ che entrano con l'insulina; il ritardo interstiziale | la diabetologia (8.3) |
+| `rene3`, `fistola` | le tre cause dell'insufficienza acuta; l'avambraccio con la fistola e i «mai» | la nefrologia (8.4) |
+| `tubo`, `asterixis` | il Treitz con l'emorragia alta e bassa; le mani che sbattono e i fattori | la gastroenterologia (8.5) |
+| `fast`, `cranio` | le quattro tessere; la massa che spinge, le pupille, il letto a 30° | la neurologia (8.6) |
+| `nadir`, `soglie` | la curva che scende a 7–14 giorni; neutrofili più febbre, e la regola dei 60 minuti | l'oncologia (8.7) |
+
+Sette cose imparate nei moduli 6, 7 e 8:
+
+- **le scene seguono i blocchi, uno a uno.** In 8.2 le cinquanta scene
+  erano state scritte a soggetto, con i dispositivi in un ordine e il
+  copione in un altro: s02–s49 sono i blocchi 1–48, sempre, e la lista
+  «capitolo, blocchi» va scritta prima delle scene;
+- **un corpo con un solo stato è un'illustrazione.** I corpi che hanno
+  retto una lezione hanno tutti un interruttore (`attive`, `modo`,
+  `livello`, `stadio`, `ritmo`): la stessa figura si accende in due o tre
+  tempi sul copione, e la slide successiva non ricomincia da capo;
+- **le classi di un corpo portano il suo prefisso, sempre.** `.freccia`,
+  `.tempo`, `.caso` (6.1, 5.6) erano già classi del tema: il testo usciva
+  rosso o sparso. Ogni corpo nuovo ha le sue (`.verso`, `.assetempo`,
+  `.segno`), e un corpo che ne riusa uno altrui si guarda nel provino;
+- **le didascalie lunghe sotto tre pannelli si sovrappongono.** I tre reni
+  (8.4), le tre camere (7.7), le quattro fasi (7.1): sotto i 550 px per
+  pannello la didascalia si spezza su due righe nel corpo, non si
+  accorcia nel contenuto, altrimenti si perde la frase dello script;
+- **un copione corto si allunga con lo script, non con la fantasia.** Le
+  lezioni da 42–46 blocchi (6.3–6.5, 7.2, 7.3, 8.4, 8.5, 8.8) sono salite a
+  48 dividendo i blocchi lunghi e aggiungendo frasi delle liste «a
+  schermo» o delle lezioni vicine del modulo; `MIRA` a 16,3 quando i
+  caratteri restano sotto gli 8.000;
+- **il copertina di chiusura con tre righe sfora.** «7.4 / Ferite
+  chirurgiche e infezione / del sito chirurgico» esce di 123 px: la
+  copertina tiene due righe di titolo e il resto va nel sottotitolo;
+- **senza crediti si va avanti lo stesso, e il lavoro vale.** Ventiquattro
+  lezioni portate a copione, slide e registro in attesa della voce: al
+  rinnovo restano, per ciascuna, le due tracce, i tagli, le trascrizioni,
+  il caricamento e la resa. I registri nascono con «in attesa della
+  voce» nelle sezioni della voce e il MASTER dice che cosa manca.
+
 Tre cose imparate facendoli:
 
 - **una classe non può chiamarsi come il contenitore della slide.** La mappa

@@ -58,9 +58,16 @@ progetti/<modulo>-<lezione>/
 | `m5-l5.4-sicurezza` | Modulo 5 · 5.4 La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
 | `m5-l5.5-cardio` | Modulo 5 · 5.5 Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
 
-Le micro-lezioni dei moduli finiti e quelle del modulo 5 in corso: i primi due con la grafica di
-seconda generazione, il 3 e il 4 con la terza (`slide/clinica.mjs`, settembre
+Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
+generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
+
+Le lezioni 5.6–5.8 e i moduli 6, 7 e 8 (ventiquattro lezioni, cartelle
+`m6-*`, `m7-*`, `m8-*`) sono pronti fino alle slide e ai registri, in
+attesa della voce: i crediti ElevenLabs si sono esauriti dopo la voce
+della 5.6, e per il MASTER le voci si fanno in un giro solo al rinnovo. Le
+schede di modulo (`progetti/MODULO-N.md`) dicono lo stato lezione per
+lezione.
 
 ## Una lezione nuova
 
