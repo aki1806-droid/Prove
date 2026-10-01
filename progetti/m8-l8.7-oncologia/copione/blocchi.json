@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] In oncologia l'infermiere accompagna la persona per mesi o anni, attraverso trattamenti pesanti e momenti difficili. Questa lezione unisce due piani."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quello tecnico: la gestione degli effetti dei trattamenti e delle emergenze, prima fra tutte la neutropenia febbrile. E quello umano: la persona con un tumore non e' solo un corpo da trattare."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un richiamo alla lezione cinque punto sette, che contiene la parte tecnica: allestimento centralizzato nell'UFA, DPI nella somministrazione, la sequenza dello stravaso."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli escreti contaminati per almeno quarantotto ore, e la Raccomandazione quattordici sugli errori con gli antineoplastici. Qui ci occupiamo degli effetti dei trattamenti sulla persona."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nausea e vomito da chemioterapia si distinguono in tre tipi. Anticipatori: compaiono prima del trattamento, per un meccanismo di condizionamento, basta l'odore dell'ospedale."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Acuti: entro ventiquattro ore. Ritardati: dopo ventiquattro ore, anche per giorni."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola: gli antiemetici si somministrano prima del trattamento e secondo lo schema prescritto, non solo al bisogno, perche' e' molto piu' facile prevenire la nausea che fermarla."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E consigli pratici: pasti piccoli e frequenti, cibi freddi, meno odorosi, evitare odori forti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mucosite: infiammazione e ulcerazione delle mucose, soprattutto della bocca. Provoca dolore, difficolta' a mangiare e un rischio di infezione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza: igiene orale con spazzolino morbido, sciacqui blandi con soluzione fisiologica o bicarbonato, niente collutori alcolici, che bruciano e seccano."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Analgesia, perche' una mucosite grave fa male come un'ustione, e nutrizione. Con alcuni farmaci si usa la crioterapia: tenere ghiaccio in bocca durante l'infusione riduce la mucosite."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mielosoppressione: la chemioterapia riduce la produzione del midollo, con un calo di globuli bianchi, rossi e piastrine."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto piu' basso si chiama nadir, e cade di solito sette-quattordici giorni dopo il trattamento: e' il periodo di maggiore rischio, spesso quando la persona e' gia' a casa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La neutropenia espone alle infezioni, l'anemia da' astenia e dispnea, la piastrinopenia espone al sanguinamento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La neutropenia febbrile, l'emergenza oncologica piu' frequente. Neutrofili sotto cinquecento, o sotto mille con previsione di calo, con febbre da trentotto virgola tre in una singola misurazione, o da trentotto persistente."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un'emergenza: una persona senza difese puo' morire di sepsi in poche ore. La regola: emocolture, periferiche e dal catetere, e antibiotico ad ampio spettro entro sessanta minuti."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una trappola: i segni di infezione possono essere minimi, perche' senza neutrofili non si forma pus ne' infiammazione evidente. A volte la febbre e' l'unico segno."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le misure nel paziente neutropenico. Igiene delle mani rigorosissima. Niente visitatori con sintomi di infezione. Igiene orale e cutanea. Sicurezza degli alimenti secondo indicazione. Niente fiori e piante."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nessuna manovra rettale: niente temperatura rettale, niente supposte ne' clisteri, che possono causare microlesioni e batteriemie. Nei casi indicati, l'isolamento protettivo della lezione quattro punto tre."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'educazione: misurare la febbre a casa e sapere chi chiamare, subito, se supera la soglia."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La piastrinopenia. Il rischio di sanguinamento aumenta sotto circa cinquantamila piastrine, e diventa spontaneo sotto diecimila-ventimila."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni: petecchie, piccoli puntini rossi, ecchimosi, sangue dalle gengive, epistassi, sangue nelle urine o nelle feci."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le precauzioni sono quelle dell'anticoagulato della lezione cinque punto cinque: spazzolino morbido, rasoio elettrico, niente intramuscolari ne' manovre rettali, prevenire le cadute, compressione prolungata dopo i prelievi."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E trasfusione di piastrine secondo prescrizione: a venti-ventiquattro gradi, in agitazione, come nella lezione sei punto sei."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le emergenze oncologiche da riconoscere. La sindrome da lisi tumorale: la distruzione rapida di molte cellule tumorali libera nel sangue potassio, fosforo e acido urico, con danno renale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si previene con idratazione e farmaci specifici, e si monitorano elettroliti e diuresi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La compressione midollare: dolore dorsale che peggiora, debolezza delle gambe, disturbi sfinterici: e' un'urgenza, perche' ogni ora di ritardo aumenta il rischio di paralisi permanente."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sindrome della vena cava superiore, con edema di volto e collo e dispnea. E l'ipercalcemia, con confusione, stipsi e poliuria."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli altri effetti. L'alopecia, che ha un forte impatto sull'immagine di se': va spiegata prima, perche' coglierla di sorpresa e' peggio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fatigue, una stanchezza che non passa con il riposo: e' l'effetto piu' frequente e piu' sottovalutato. La neuropatia periferica, con formicolii a mani e piedi. Le alterazioni del gusto, che peggiorano l'alimentazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infertilita', di cui si informa prima del trattamento, per le possibili misure di preservazione. Diarrea o stipsi."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il supporto nutrizionale. La persona con un tumore e' ad alto rischio di malnutrizione e di cachessia, che ricordi dalla lezione tre punto tre non si corregge solo con il cibo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue lo screening nutrizionale, si offrono pasti piccoli e frequenti e cibi graditi, supplementi, e soprattutto si trattano i sintomi che impediscono di mangiare: nausea, mucosite, dolore, stipsi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il supporto psicologico. La diagnosi e i trattamenti portano ansia, paura, a volte depressione, e cambiano la vita della famiglia e il lavoro."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere offre ascolto, informazione graduale, presenza: gli strumenti della lezione due punto sette. Coinvolge il caregiver e attiva, quando serve, la psico-oncologia."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un concetto importante: le cure palliative non riguardano solo il fine vita. Le cure palliative precoci, simultanee alle terapie oncologiche, migliorano la qualita' della vita. Lo vedremo nel modulo undici."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La radioterapia, in cenni. La cute dell'area irradiata va trattata con delicatezza: lavaggio delicato, asciugare tamponando, niente creme subito prima della seduta, niente sole."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non cancellare i segni di centratura disegnati sulla pelle. La fatigue. Gli effetti legati alla sede: mucosite nel distretto testa-collo, diarrea nella pelvi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nella brachiterapia, in cui la sorgente radioattiva e' dentro il corpo, valgono le regole della radioprotezione: limitare il tempo, aumentare la distanza, usare le schermature."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Una donna in chemioterapia, ultimo ciclo dieci giorni fa, siamo nel periodo del nadir, telefona: febbre a trentotto virgola quattro, nessun altro sintomo, si sente solo un po' stanca. Che cosa fai?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tratti come una possibile neutropenia febbrile finche' non si dimostra il contrario: deve presentarsi subito in ospedale secondo il percorso previsto."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove si eseguono emocromo, emocolture e antibiotico entro un'ora."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Prenda un antipiretico e vediamo domani e' la risposta che puo' costarle la vita."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto la Rete Oncologica Veneta coordina i percorsi diagnostico-terapeutici per ciascun tipo di tumore, con figure infermieristiche dedicate e case manager che accompagnano la persona lungo il percorso."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono i day hospital oncologici, la rete delle cure palliative e gli screening regionali per mammella, cervice e colon-retto. All'orale, citare la Rete Oncologica Veneta e il case manager mostra conoscenza del sistema."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sintesi. Antiemetici prima del trattamento. Mucosite: niente collutori alcolici. Nadir a sette-quattordici giorni. Neutropenia febbrile: sotto cinquecento e febbre da trentotto virgola tre, antibiotico entro un'ora."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel neutropenico niente manovre rettali, niente fiori. Piastrine sotto cinquantamila rischio, sotto dieci-ventimila sanguinamento spontaneo. Compressione midollare: urgenza. Radioterapia: non cancellare i segni."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una frase da portare via: la febbre in un paziente in chemioterapia e' un'emergenza finche' non si dimostra il contrario. Nella prossima lezione ricomponiamo il modulo otto, con i segni d'allarme. A tra poco."
+ }
+]

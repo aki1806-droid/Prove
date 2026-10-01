@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo otto, il piu' ampio dal punto di vista clinico. Il riepilogo e' organizzato in un modo che ti servira' nella prova pratica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ogni apparato, i segni d'allarme che l'infermiere deve riconoscere, e che cosa fare subito. E' lo schema dell'infermiere esperto quando entra in una stanza: guarda, riconosce, agisce. E alla fine, otto domande secche."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio che tiene insieme tutto il modulo: riconoscere precocemente il deterioramento."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti li conosci: i sistemi di allerta come la NEWS2 della lezione due punto tre, e la comunicazione strutturata SBAR della lezione due punto sette."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una regola: si guarda il paziente, non solo il monitor. Il monitor dice un numero, il paziente dice se quel numero e' vero."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cuore. Dolore toracico, anche atipico in donne, anziani e diabetici: ECG entro dieci minuti. Aumento rapido di peso, un chilo e mezzo-due in due-tre giorni, dispnea, ortopnea: scompenso."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul monitor, la fibrillazione ventricolare si defibrilla; asistolia e attivita' elettrica senza polso no."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la fibrillazione atriale, irregolare e senza onde P, con il suo rischio di ictus: il filo che lega la prima lezione del modulo alla sesta."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Polmone. Dispnea improvvisa con desaturazione e tachicardia: embolia polmonare, spesso da una trombosi venosa profonda. Asmatico silenzioso, che non riesce a parlare: attacco grave."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "BPCO sempre piu' sonnolento in ossigeno: ipercapnia, target ottantotto-novantadue. Monossido di carbonio: saturazione falsamente normale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola che vale da sola molte domande: l'ossigeno e' un farmaco, con una prescrizione, una dose e un obiettivo di saturazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Metabolismo. Confusione, sudorazione, tremore: glicemia subito, perche' l'ipoglicemia si corregge in un minuto e uccide se non riconosciuta."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Respiro di Kussmaul e alito fruttato: chetoacidosi, e attenzione al potassio. Anziano disidratato e confuso con glicemia oltre seicento: stato iperosmolare. Corticosteroidi sospesi e ipotensione: crisi surrenalica."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rene. Oliguria: prima catetere e globo, perche' spesso l'anuria si risolve sbloccando un catetere. Fremito della fistola assente: possibile trombosi, si avvisa subito."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Liquido di dialisi peritoneale torbido: peritonite. Potassio alto: ECG, e verificare l'emolisi del campione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la diuresi oraria: sotto mezzo millilitro per chilo per ora per sei ore e' un criterio di insufficienza renale acuta. Il numero che dice per primo se il rene sta cedendo."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Apparato digerente. Ematemesi, melena, tachicardia e ipotensione: emorragia digestiva, e l'emoglobina scende in ritardo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cirrotico confuso con asterixis: encefalopatia, e si cercano stipsi, sanguinamento, sedativi. Dolore epigastrico a barra verso il dorso: pancreatite."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo la gastroscopia con l'anestetico in gola, niente per bocca finche' non torna il riflesso della deglutizione: la regola della disfagia, che qui vale per un'ora."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sistema nervoso. Volto asimmetrico, braccio che cade, linguaggio alterato: FAST positiva, si annota l'ora, si controlla la glicemia, si attiva il percorso stroke."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anisocoria nuova, cefalea, vomito, calo della coscienza: ipertensione endocranica. Ipertensione con bradicardia e respiro irregolare: Cushing, segno tardivo. Crisi oltre cinque minuti: stato di male."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oncologia. Febbre in chemioterapia, soprattutto al nadir, sette-quattordici giorni dopo il ciclo: neutropenia febbrile, emocolture e antibiotico entro sessanta minuti."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dolore dorsale e debolezza delle gambe: compressione midollare. Petecchie e gengive che sanguinano: piastrinopenia."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette apparati, un elenco di segni: e' la tabella che la lezione ti chiede di costruire, e che la prova pratica ti chiedera' di sapere a memoria."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri. NYHA da uno a quattro. ECG entro dieci minuti. Target di saturazione novantaquattro-novantotto, ottantotto-novantadue negli ipercapnici."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Occhialini uno-sei litri, maschera semplice almeno cinque, reservoir dieci-quindici. Venturi quando serve precisione."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cuffia venti-trenta. Aspirazione dieci-quindici secondi. Glicata da sei virgola cinque. Target in reparto centoquaranta-centottanta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trombolisi entro quattro ore e mezza, pressione sotto centottantacinque su centodieci prima e sotto centottanta su centocinque dopo. Neutrofili sotto cinquecento, piastrine sotto cinquantamila."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono quindici numeri. Fermati, copiali nel quaderno, e riparti: il quiz li chiede tutti, e la prova pratica li pretende senza esitazione."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le confusioni. L'ossigeno: piu' non e' sempre meglio. Venturi: FiO2 precisa. Chetoacidosi e stato iperosmolare non sono la stessa cosa. Colica: agitato; peritonite: immobile."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Braccio con fistola: niente pressione. Lock del catetere da dialisi: aspirare. Nella crisi epilettica: niente in bocca. Levodopa: puntuale. Otto confusioni, otto punti che si perdono in un attimo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "L'autovalutazione. Due domande alla volta, risposta secca. Uno: donna anziana diabetica con dolore epigastrico e sudorazione, che cosa fai per primo? Due: paziente con BPCO, quale target di saturazione?"
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno: ECG entro dieci minuti, e' una presentazione atipica finche' non si dimostra il contrario. Due: ottantotto-novantadue."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Tre: respiro di Kussmaul e alito fruttato in un giovane con diabete di tipo uno, che cosa pensi? Quattro: il fremito della fistola e' scomparso, che cosa fai?"
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: chetoacidosi, con attenzione al potassio durante il trattamento. Quattro: avvisi subito, e' una possibile trombosi."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Cinque: cirrotico confuso con stipsi da tre giorni, che cosa cerchi? Sei: un braccio che cade e il linguaggio impastato, che cosa annoti per primo?"
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: il fattore scatenante: la stipsi, e un eventuale sedativo. Sei: l'ultima volta visto in benessere, e si attiva il percorso stroke."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 2.0,
+  "text": "Sette: febbre a trentotto virgola quattro dieci giorni dopo la chemioterapia, che cosa fai? Otto: pressione alta e polso lento in un paziente neurologico, che cosa significa?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette: emocolture e antibiotico entro sessanta minuti, e' una neutropenia febbrile finche' non si dimostra il contrario. Otto: triade di Cushing, un allarme di erniazione. Otto su otto e' il livello atteso."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli: l'ossigeno e l'emogas con la sei punto quattro; i farmaci cardiovascolari, le insuline e gli anticoagulanti con la cinque punto cinque; la disfagia con la tre punto tre."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antiblastici con la cinque punto sette; l'isolamento protettivo con la quattro punto tre; le emocolture con la sei punto sette. All'orale, collegare dimostra padronanza."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli agganci veneti del modulo. La rete STEMI, con l'ECG teletrasmesso dal centodiciotto. La rete ictus, con centri hub e spoke. La Rete Oncologica Veneta."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione integrata del diabete. La rete nefrologica e la dialisi domiciliare. Gli screening oncologici regionali. Tutte reti: e' la parola chiave del sistema veneto, che approfondiremo nel modulo tredici."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Test del modulo, trenta domande, soglia ventuno. Costruisci una tabella personale: per ogni apparato, segno d'allarme e azione, su un foglio solo, da rileggere la sera prima della prova."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E scrivi per intero due casi con lo schema in cinque passi: il dolore toracico atipico e il sospetto ictus. Sono fra le tracce piu' probabili della prova pratica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del modulo: riconoscere presto, comunicare chiaro, agire nel tempo giusto. Il tempo e' muscolo nell'infarto, e' cervello nell'ictus, e' vita nella neutropenia febbrile."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel prossimo modulo passiamo all'area chirurgica: la preparazione all'intervento, la sala operatoria, il risveglio e il decorso post-operatorio. Otto lezioni, come sempre."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Ritroverai molte cose gia' viste, dal bundle delle infezioni del sito chirurgico alla gestione del dolore, applicate al percorso del paziente chirurgico. Ci vediamo li'."
+ }
+]
