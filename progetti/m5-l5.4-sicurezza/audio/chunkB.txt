@@ -1,0 +1,45 @@
+I farmaci LASA, look-alike, sound-alike: simili per confezione o per nome. Due flaconi quasi identici, due nomi che si pronunciano quasi uguali.
+
+Le misure: conservazione separata, etichette di allerta, le lettere maiuscole differenziali, DOPamina e DOBUTamina con le lettere diverse in maiuscolo, la lettura ad alta voce del nome e il read-back.
+
+La Raccomandazione diciassette introduce due parole. La ricognizione: la raccolta completa della terapia che la persona assume a casa, compresi integratori, prodotti erboristici e farmaci da banco, che spesso nessuno chiede.
+
+La riconciliazione: il confronto fra quella terapia e quella prescritta, a ogni passaggio di setting, ingresso, trasferimento, dimissione, per individuare omissioni, duplicazioni e interazioni.
+
+L'infermiere partecipa soprattutto alla ricognizione, perche' e' lui a raccogliere l'anamnesi. Una domanda in piu' all'ingresso, prende qualcosa senza ricetta?, vale un'interazione evitata.
+
+Che cosa si fa quando si scopre un errore in terapia? Uno: si valuta il paziente, parametri, sintomi, e lo si mette in sicurezza. Due: si avvisa subito il medico.
+
+Tre: si attuano gli interventi prescritti, compreso l'eventuale antidoto. Quattro: si informa la persona, con la trasparenza vista nella lezione due punto sei.
+
+Cinque: si documenta in cartella cio' che e' accaduto, in modo oggettivo e senza giudizi. Sei: si segnala con l'incident reporting, che e' cosa diversa dalla registrazione in cartella.
+
+E che cosa non si fa mai. Non si nasconde l'errore. Non si modifica la documentazione: sarebbe falso in atto pubblico, come nella lezione due punto quattro.
+
+Non si aspetta per vedere se succede qualcosa: il tempo e' spesso cio' che fa la differenza fra un errore senza conseguenze e un danno. E non si attribuisce l'errore ad altri senza verifica.
+
+[serious] La responsabilita' piu' grave, quasi sempre, non nasce dall'errore ma da cio' che si fa dopo.
+
+Il rifiuto della terapia. La persona capace ha il diritto di rifiutare, come stabilisce la legge duecentodiciannove. L'infermiere esplora i motivi: spesso effetti collaterali, paura, incomprensione, difficolta' a deglutire.
+
+Informa sulle conseguenze, non somministra di nascosto, avvisa il medico e documenta il rifiuto e l'informazione data.
+
+Somministrare un farmaco nascosto nel cibo a una persona capace che l'ha rifiutato e' una violazione della sua liberta'. Per la persona non capace, decide un percorso definito con il medico e chi la rappresenta.
+
+Un aggancio al modulo uno. L'OSS puo' aiutare la persona nell'assunzione della terapia orale gia' preparata, su attribuzione dell'infermiere e secondo la procedura aziendale.
+
+Ma la preparazione, la verifica delle sette G e la responsabilita' della somministrazione restano infermieristiche. Attribuire non significa delegare la responsabilita'. E l'OSS non prepara, non controlla, non registra.
+
+Il caso. Alle otto somministri la terapia al paziente del letto dodici; alle otto e un quarto ti accorgi che era quella del letto quattordici. Che cosa fai?
+
+Valuti subito il paziente del letto dodici, parametri, coscienza, sintomi, considerando quali farmaci ha ricevuto. Avvisi il medico con una comunicazione SBAR. Attui gli interventi prescritti.
+
+Ricordi che anche il paziente del letto quattordici non ha ricevuto la sua terapia. Informi la persona. Documenti in cartella. Segnali con l'incident reporting. E poi ti chiedi, con il gruppo, perche' e' successo.
+
+Nelle aziende venete la terapia e' gestita con la scheda unica di terapia informatizzata, che elimina la trascrizione. Esistono procedure aziendali su farmaci ad alto rischio, LASA, ricognizione e riconciliazione.
+
+E in molte realta' l'identificazione avviene con braccialetto, o con codice a barre letto al letto, che chiude il cerchio fra prescrizione, farmaco e persona. Il sistema aiuta, ma il terzo controllo resta tuo.
+
+Ricapitoliamo. Le sette G. I tre controlli, l'ultimo al letto. Identificazione attiva con due identificativi. Niente U, niente zero dopo la virgola. Chi prepara somministra. Per i farmaci ad alto rischio, doppio controllo.
+
+[warm] Le Raccomandazioni uno, sette, dodici, quattordici, diciassette, diciannove. Davanti a un errore: valutare, avvisare, informare, documentare, segnalare. Mai nascondere. Prossima lezione: le classi di farmaci.

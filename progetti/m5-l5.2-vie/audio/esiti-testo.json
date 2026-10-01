@@ -1,0 +1,113 @@
+{
+ "A": {
+  "parole_copione": 714,
+  "parole_dette": 717,
+  "coincidenti": 705,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s07",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s11",
+    "copione": "lezione46",
+    "detto": "4 6"
+   },
+   {
+    "blocco": "s17",
+    "copione": "preriempite",
+    "detto": "pre riempite"
+   },
+   {
+    "blocco": "s20",
+    "copione": "pomfo",
+    "detto": "ponfo"
+   },
+   {
+    "blocco": "s22",
+    "copione": "glutee",
+    "detto": "gluteo"
+   },
+   {
+    "blocco": "s25",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s25",
+    "copione": "dorsoglutea",
+    "detto": "dorso glutea"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 710,
+  "parole_dette": 708,
+  "coincidenti": 696,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "z",
+    "detto": "zeta"
+   },
+   {
+    "blocco": "s26",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "fentanil",
+    "detto": "fentanyl"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "fentanil",
+    "detto": "fentanyl"
+   },
+   {
+    "blocco": "s40",
+    "copione": "teach back",
+    "detto": "teachback"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s48",
+    "copione": "z",
+    "detto": "zeta"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

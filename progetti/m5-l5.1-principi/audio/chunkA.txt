@@ -1,0 +1,49 @@
+[warm] Entriamo nel modulo che, nei concorsi infermieristici, pesa piu' di ogni altro. La farmacologia produce domande secche, calcoli e casi clinici.
+
+E soprattutto riguarda l'attivita' in cui l'infermiere si assume una responsabilita' diretta: la somministrazione. Otto lezioni: i principi, le vie, i calcoli, la sicurezza, le classi di farmaci, la gestione in reparto.
+
+Si comincia dai principi. Non per diventare farmacologi, ma per capire perche' un farmaco si comporta in un certo modo, e quindi che cosa sorvegliare.
+
+Due parole da non confondere, perche' i quiz le mettono una accanto all'altra. La farmacocinetica studia che cosa fa l'organismo al farmaco: come lo assorbe, lo distribuisce, lo trasforma e lo elimina.
+
+La farmacodinamica studia che cosa fa il farmaco all'organismo: dove agisce e con quale effetto. Una frase ciascuna, ed e' gia' una risposta d'esame.
+
+La farmacocinetica si riassume nella sigla ADME. Assorbimento: il passaggio dal sito di somministrazione al sangue. Distribuzione: il trasporto ai tessuti.
+
+Metabolismo: la trasformazione, soprattutto nel fegato, attraverso gli enzimi del citocromo P450. Eliminazione: soprattutto per via renale, ma anche biliare, polmonare, cutanea.
+
+Fegato e rene sono i due organi da cui dipende quanto a lungo un farmaco resta nel corpo. Quando uno dei due funziona male, il farmaco resta di piu'.
+
+La biodisponibilita' e' la frazione della dose che raggiunge la circolazione in forma attiva. Per la via endovenosa e' per definizione il cento per cento: il farmaco e' gia' nel sangue.
+
+Per la via orale e' minore, perche' il farmaco assorbito dall'intestino passa prima dal fegato, che ne inattiva una parte: e' l'effetto di primo passaggio.
+
+Ecco perche' la dose orale di un farmaco e' spesso piu' alta di quella endovenosa. La via sublinguale evita questo passaggio, la nitroglicerina e' l'esempio classico, e la via rettale lo evita in parte.
+
+Nel sangue molti farmaci si legano alle proteine plasmatiche, soprattutto all'albumina. Solo la quota libera e' attiva: quella legata e' una riserva che non agisce.
+
+Se l'albumina e' bassa, ricordi la malnutrizione della lezione tre punto tre, aumenta la quota libera, e con essa effetto e tossicita', anche a dose invariata. Conta soprattutto per warfarin e fenitoina.
+
+L'emivita e' il tempo necessario perche' la concentrazione plasmatica del farmaco si dimezzi: da cento a cinquanta, poi a venticinque, poi a dodici e mezzo. Da questa definizione discendono due regole molto utili.
+
+Con somministrazioni regolari, lo stato stazionario, la concentrazione stabile, si raggiunge dopo circa quattro-cinque emivite. E dopo la sospensione, il farmaco si considera eliminato dopo altre quattro-cinque.
+
+Un farmaco con emivita lunga ci mette tanto ad agire del tutto, e tanto ad andarsene. Ed e' per questo che alcune terapie partono con una dose di carico, per non aspettare cinque emivite.
+
+La finestra terapeutica e' l'intervallo fra la concentrazione efficace e quella tossica. Quando e' stretta, basta poco per passare dall'una all'altra.
+
+E il farmaco richiede il monitoraggio dei livelli ematici, il TDM. I farmaci da ricordare: digossina, litio, warfarin, che si monitora con l'INR, fenitoina, teofillina, gli aminoglicosidi e la vancomicina.
+
+Per questi l'infermiere presta attenzione anche all'orario del prelievo rispetto alla dose: un livello prelevato al momento sbagliato non si interpreta.
+
+La farmacodinamica in tre concetti. Un agonista si lega al recettore e lo attiva; un antagonista si lega e lo blocca. Il naloxone, antagonista degli oppioidi, ne e' l'esempio perfetto.
+
+La tolleranza e' la necessita' di dosi crescenti per ottenere lo stesso effetto. La dipendenza puo' essere fisica, con sindrome da astinenza alla sospensione, o psichica.
+
+Vedremo nella lezione cinque punto sei come tolleranza e dipendenza si applicano agli oppioidi, dove il confine fra l'una e l'altra decide la terapia del dolore.
+
+Le interazioni. Farmacocinetiche: un farmaco modifica il destino di un altro, tipicamente agendo sugli enzimi epatici. Gli induttori, come la rifampicina, accelerano il metabolismo e riducono l'effetto.
+
+Gli inibitori, come alcuni antibiotici macrolidi e antimicotici, lo rallentano e aumentano l'effetto. Farmacodinamiche: due farmaci sommano o contrastano i loro effetti.
+
+E le interazioni farmaco-cibo: warfarin e vitamina K; levotiroxina a digiuno; latte e calcio che riducono l'assorbimento di tetracicline e chinoloni; il pompelmo, che inibisce il metabolismo di molti farmaci.

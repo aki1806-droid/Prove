@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il calcolo delle dosi e' la parte del programma che spaventa di piu', e ingiustamente. Tutti i calcoli dell'esame si risolvono con quattro strumenti."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una proporzione, una conversione di unita', la lettura di una percentuale e una formula per le gocce. In questa lezione li vediamo uno per uno, con esercizi svolti."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tieni carta e penna: quando vedi la scritta metti in pausa, prova a risolvere da solo prima di ascoltare la soluzione. Il video ti lascia qualche secondo, e il resto lo fai tu con il tasto pausa."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo strumento: le conversioni. Un grammo e' mille milligrammi. Un milligrammo e' mille microgrammi. Un litro e' mille millilitri."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi ci sono le unita' internazionali, per insulina ed eparina, e i milliequivalenti, per gli elettroliti come il potassio: queste non si convertono in grammi, si leggono sulla confezione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La regola d'oro: prima di calcolare, porta tutto alla stessa unita'. La maggior parte degli errori nasce qui, non nel calcolo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo strumento: la proporzione. Quasi ogni calcolo di dose si risolve cosi': dose prescritta diviso dose disponibile, moltiplicato per il volume in cui la dose disponibile e' contenuta."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quello che mi serve, quello che ho, e in quanto liquido si trova. Tre numeri, e il quarto viene da solo: e' la stessa proporzione in tutti gli esercizi che seguono."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Primo esercizio. Prescritti settantacinque milligrammi. Disponibile una fiala da cento milligrammi in due millilitri. Quanti millilitri aspiri? Metti in pausa e prova."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Soluzione: settantacinque diviso cento fa zero virgola settantacinque, per due millilitri fa uno virgola cinque. Buon senso: mi servono tre quarti della fiala, e tre quarti di due millilitri sono uno e mezzo. Torna."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Secondo esercizio, con una trappola. Prescritti cinquecento microgrammi, disponibile una fiala da un milligrammo in due millilitri. Pausa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima si uniforma: un milligrammo sono mille microgrammi. Poi la proporzione: cinquecento diviso mille fa zero virgola cinque, per due fa un millilitro."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Chi dimentica la conversione ottiene un risultato mille volte sbagliato. Ed e' esattamente l'errore che uccide."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo strumento: le percentuali. Una soluzione al per cento peso su volume indica i grammi contenuti in cento millilitri."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fisiologica allo zero virgola nove per cento contiene zero virgola nove grammi in cento millilitri, cioe' nove grammi per litro. La glucosata al cinque per cento: cinque grammi in cento millilitri, cinquanta per litro."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un trucco utilissimo: la percentuale moltiplicata per dieci da' i milligrammi per millilitro. Una soluzione al due per cento contiene venti milligrammi per millilitro."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Esercizio. Prescritti sessanta milligrammi di lidocaina, disponibile al due per cento. Pausa."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il due per cento corrisponde a venti milligrammi per millilitro. Sessanta diviso venti fa tre millilitri. Visto? Con il trucco, un calcolo che sembrava difficile si fa a mente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Un caso frequentissimo: la polvere da ricostituire. Flacone da un grammo da sciogliere in dieci millilitri; prescritti settecentocinquanta milligrammi. Pausa."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la ricostituzione ho mille milligrammi in dieci millilitri, cioe' cento milligrammi per millilitro. Settecentocinquanta diviso cento fa sette virgola cinque millilitri."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione: alcune polveri, sciogliendosi, aumentano il volume finale. Se la scheda tecnica indica un volume finale diverso, si usa quello, non i dieci millilitri del solvente."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Le unita' internazionali. Eparina venticinquemila unita' in cinquanta millilitri; prescritte mille unita' all'ora. A quanti millilitri all'ora imposti la pompa? Pausa."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima la concentrazione: venticinquemila diviso cinquanta fa cinquecento unita' per millilitro. Poi: mille diviso cinquecento fa due millilitri all'ora."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' lo schema di tutte le infusioni continue: concentrazione, poi velocita'. Due passaggi, sempre nello stesso ordine, qualunque sia il farmaco."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insulina, che ha regole sue. La concentrazione standard e' cento unita' per millilitro. Si usano siringhe da insulina graduate direttamente in unita', o le penne: non si converte in millilitri."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un dettaglio di sicurezza: nella prescrizione non si scrive mai U per unita', perche' una U scritta male si legge come uno zero: dieci U diventa cento, dieci volte la dose. Si scrive per esteso: unita'."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarto strumento: la velocita' di infusione. In millilitri all'ora, per le pompe: volume diviso il tempo in ore. Mille millilitri in otto ore: centoventicinque millilitri all'ora."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E attenzione ai minuti: duecentocinquanta millilitri in trenta minuti significa duecentocinquanta in mezz'ora, cioe' cinquecento millilitri all'ora. Il tempo va sempre espresso in ore."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le infusioni a caduta si contano le gocce al minuto: volume per fattore di gocciolamento, diviso il tempo in minuti. E' l'unico calcolo in cui si usano i minuti: ricordalo, e' la trappola piu' frequente."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fattore di gocciolamento e' il numero di gocce che formano un millilitro, ed e' scritto sulla confezione del deflussore: il deflussore standard ha venti gocce per millilitro, il microgocciolatore sessanta."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Esercizio. Mille millilitri in otto ore, deflussore da venti gocce per millilitro. Quante gocce al minuto? Pausa."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Otto ore sono quattrocentottanta minuti. Mille per venti fa ventimila gocce totali. Ventimila diviso quattrocentottanta fa quarantuno virgola sei, arrotondato a quarantadue gocce al minuto. Le gocce sono intere, si arrotonda."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due scorciatoie che fanno risparmiare tempo in sede d'esame. Con il microgocciolatore da sessanta gocce, le gocce al minuto sono uguali ai millilitri all'ora: trenta millilitri all'ora sono trenta gocce al minuto."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il deflussore standard da venti, le gocce al minuto sono i millilitri all'ora divisi per tre: centoventicinque millilitri all'ora diventano circa quarantadue gocce. Rifai l'esercizio precedente cosi', e vedrai che torna."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Il calcolo per chilo di peso, tipico della pediatria. Paracetamolo quindici milligrammi per chilo a un bambino di dodici chili; sciroppo da centoventi milligrammi in cinque millilitri. Pausa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dose: quindici per dodici fa centottanta milligrammi. Volume: centottanta diviso centoventi fa uno virgola cinque, per cinque fa sette virgola cinque millilitri. Due passaggi: prima la dose, poi il volume."
+ },
+ {
+  "id": "s38",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Il calcolo piu' lungo: i microgrammi per chilo per minuto, tipici dell'area critica. Dopamina cinque microgrammi per chilo per minuto, settanta chili, duecento milligrammi in cinquanta millilitri. Pausa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passo uno, la dose al minuto: cinque per settanta fa trecentocinquanta microgrammi al minuto. Passo due, all'ora: per sessanta fa ventunomila microgrammi, cioe' ventuno milligrammi all'ora."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passo tre, la concentrazione: duecento diviso cinquanta fa quattro milligrammi per millilitro. Passo quattro: ventuno diviso quattro fa cinque virgola venticinque millilitri all'ora."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro passi, sempre gli stessi: dose al minuto, dose all'ora, concentrazione, velocita'. Scritti in colonna, il calcolo piu' temuto diventa una lista."
+ },
+ {
+  "id": "s42",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La domanda inversa: quanto dura un'infusione? Volume diviso velocita'. Duecentocinquanta millilitri a cinquanta millilitri all'ora durano cinque ore; se e' iniziata alle nove, finisce alle quattordici."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sembra banale, ma nella pratica serve a programmare il cambio della sacca e a evitare che una via resti senza infusione, o che un farmaco finisca prima del previsto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola piu' importante di tutte: il controllo di buon senso. Dopo ogni calcolo chiediti: ha senso? Dieci fiale, o una frazione minuscola di fiala, quasi certamente sono un errore, di unita' o di virgola."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i farmaci ad alto rischio, e in caso di dubbio, il calcolo va sottoposto a doppio controllo indipendente, come abbiamo visto nella lezione due punto sei. Nessuno si offende se un collega ricontrolla un calcolo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cinque formule da portare all'esame. Una: volume uguale prescritto diviso disponibile per volume. Due: percentuale per dieci uguale milligrammi per millilitro. Tre: millilitri all'ora uguale volume diviso ore."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: gocce al minuto uguale volume per fattore diviso minuti. Cinque: per i microgrammi per chilo per minuto, dose al minuto, dose all'ora, concentrazione, velocita'. Questa slide e' da fotografare."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una frase da portare via: prima uniformare le unita', poi calcolare, poi chiedersi se ha senso. Nel riepilogo del modulo troverai venti calcoli cronometrati, per allenarti con il tempo contato come all'esame."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: la somministrazione sicura, le regole delle G, il doppio controllo, gli errori che non si devono fare. A tra poco."
+ }
+]

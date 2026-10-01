@@ -1,0 +1,73 @@
+{
+ "A": {
+  "parole_copione": 699,
+  "parole_dette": 699,
+  "coincidenti": 693,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s16",
+    "copione": "lezione45",
+    "detto": "4 5"
+   },
+   {
+    "blocco": "s16",
+    "copione": "lezione45",
+    "detto": "4 5"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 661,
+  "parole_dette": 660,
+  "coincidenti": 650,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "ipoalbuminemia e",
+    "detto": "ipoalbumina ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ipoalbuminemia",
+    "detto": "ipoalbumina"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s48",
+    "copione": "lezione45",
+    "detto": "4 5"
+   },
+   {
+    "blocco": "s49",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

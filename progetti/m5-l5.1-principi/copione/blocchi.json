@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Entriamo nel modulo che, nei concorsi infermieristici, pesa piu' di ogni altro. La farmacologia produce domande secche, calcoli e casi clinici."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto riguarda l'attivita' in cui l'infermiere si assume una responsabilita' diretta: la somministrazione. Otto lezioni: i principi, le vie, i calcoli, la sicurezza, le classi di farmaci, la gestione in reparto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si comincia dai principi. Non per diventare farmacologi, ma per capire perche' un farmaco si comporta in un certo modo, e quindi che cosa sorvegliare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due parole da non confondere, perche' i quiz le mettono una accanto all'altra. La farmacocinetica studia che cosa fa l'organismo al farmaco: come lo assorbe, lo distribuisce, lo trasforma e lo elimina."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La farmacodinamica studia che cosa fa il farmaco all'organismo: dove agisce e con quale effetto. Una frase ciascuna, ed e' gia' una risposta d'esame."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La farmacocinetica si riassume nella sigla ADME. Assorbimento: il passaggio dal sito di somministrazione al sangue. Distribuzione: il trasporto ai tessuti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Metabolismo: la trasformazione, soprattutto nel fegato, attraverso gli enzimi del citocromo P450. Eliminazione: soprattutto per via renale, ma anche biliare, polmonare, cutanea."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fegato e rene sono i due organi da cui dipende quanto a lungo un farmaco resta nel corpo. Quando uno dei due funziona male, il farmaco resta di piu'."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La biodisponibilita' e' la frazione della dose che raggiunge la circolazione in forma attiva. Per la via endovenosa e' per definizione il cento per cento: il farmaco e' gia' nel sangue."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la via orale e' minore, perche' il farmaco assorbito dall'intestino passa prima dal fegato, che ne inattiva una parte: e' l'effetto di primo passaggio."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco perche' la dose orale di un farmaco e' spesso piu' alta di quella endovenosa. La via sublinguale evita questo passaggio, la nitroglicerina e' l'esempio classico, e la via rettale lo evita in parte."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel sangue molti farmaci si legano alle proteine plasmatiche, soprattutto all'albumina. Solo la quota libera e' attiva: quella legata e' una riserva che non agisce."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'albumina e' bassa, ricordi la malnutrizione della lezione tre punto tre, aumenta la quota libera, e con essa effetto e tossicita', anche a dose invariata. Conta soprattutto per warfarin e fenitoina."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emivita e' il tempo necessario perche' la concentrazione plasmatica del farmaco si dimezzi: da cento a cinquanta, poi a venticinque, poi a dodici e mezzo. Da questa definizione discendono due regole molto utili."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con somministrazioni regolari, lo stato stazionario, la concentrazione stabile, si raggiunge dopo circa quattro-cinque emivite. E dopo la sospensione, il farmaco si considera eliminato dopo altre quattro-cinque."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un farmaco con emivita lunga ci mette tanto ad agire del tutto, e tanto ad andarsene. Ed e' per questo che alcune terapie partono con una dose di carico, per non aspettare cinque emivite."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La finestra terapeutica e' l'intervallo fra la concentrazione efficace e quella tossica. Quando e' stretta, basta poco per passare dall'una all'altra."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il farmaco richiede il monitoraggio dei livelli ematici, il TDM. I farmaci da ricordare: digossina, litio, warfarin, che si monitora con l'INR, fenitoina, teofillina, gli aminoglicosidi e la vancomicina."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questi l'infermiere presta attenzione anche all'orario del prelievo rispetto alla dose: un livello prelevato al momento sbagliato non si interpreta."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La farmacodinamica in tre concetti. Un agonista si lega al recettore e lo attiva; un antagonista si lega e lo blocca. Il naloxone, antagonista degli oppioidi, ne e' l'esempio perfetto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tolleranza e' la necessita' di dosi crescenti per ottenere lo stesso effetto. La dipendenza puo' essere fisica, con sindrome da astinenza alla sospensione, o psichica."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vedremo nella lezione cinque punto sei come tolleranza e dipendenza si applicano agli oppioidi, dove il confine fra l'una e l'altra decide la terapia del dolore."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le interazioni. Farmacocinetiche: un farmaco modifica il destino di un altro, tipicamente agendo sugli enzimi epatici. Gli induttori, come la rifampicina, accelerano il metabolismo e riducono l'effetto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli inibitori, come alcuni antibiotici macrolidi e antimicotici, lo rallentano e aumentano l'effetto. Farmacodinamiche: due farmaci sommano o contrastano i loro effetti."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le interazioni farmaco-cibo: warfarin e vitamina K; levotiroxina a digiuno; latte e calcio che riducono l'assorbimento di tetracicline e chinoloni; il pompelmo, che inibisce il metabolismo di molti farmaci."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La reazione avversa, o ADR, e' una risposta nociva e non voluta a un medicinale. La definizione attuale include anche le reazioni da errore terapeutico, uso off-label, abuso ed esposizione professionale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si classificano in tipo A, dose-dipendenti e prevedibili dall'azione del farmaco: l'emorragia da anticoagulante. E tipo B, non dose-dipendenti e imprevedibili: l'allergia, l'idiosincrasia."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Le prime sono le piu' frequenti, le seconde le piu' temute. E in tutte e due i casi chi le vede per primo, al letto, e' quasi sempre l'infermiere."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La farmacovigilanza e' il sistema che raccoglie e valuta le reazioni avverse dopo l'immissione in commercio. Per gli operatori sanitari, infermieri compresi, segnalare le sospette reazioni avverse e' un obbligo."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si fa tempestivamente tramite la scheda o la piattaforma online della Rete Nazionale di Farmacovigilanza dell'AIFA, che fa capo al Responsabile locale di farmacovigilanza. Anche i cittadini possono segnalare."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Basta il sospetto, non serve la certezza del nesso. E i farmaci contrassegnati dal triangolo nero rovesciato sono sotto monitoraggio addizionale: per questi la segnalazione e' ancora piu' preziosa."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una distinzione che collega questo modulo al modulo due. La reazione avversa si segnala alla farmacovigilanza. L'errore in terapia si segnala con l'incident reporting del rischio clinico."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se un errore provoca una reazione avversa, si fanno entrambe le segnalazioni, perche' servono a sistemi diversi: uno studia il farmaco, l'altro studia il processo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente anziano, che e' la maggior parte dei ricoverati. Ha meno acqua corporea, quindi i farmaci idrosolubili raggiungono concentrazioni piu' alte."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha piu' massa grassa, quindi i farmaci liposolubili, come le benzodiazepine, si accumulano e durano di piu'. Ha una ridotta funzione renale ed epatica, spesso ipoalbuminemia."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto e' in politerapia, con un rischio di interazioni che cresce con il numero dei farmaci. La regola e': start low, go slow. Si comincia con dosi basse e si aumenta lentamente."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono strumenti, come i criteri di Beers, che elencano i farmaci potenzialmente inappropriati nell'anziano: benzodiazepine a lunga durata, anticolinergici, alcuni antistaminici e altri."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si parla sempre piu' di deprescrizione: ridurre o sospendere i farmaci non piu' utili. L'infermiere non deprescrive, ma osserva e segnala: la sonnolenza nuova, la confusione, le cadute, la stipsi, l'ipotensione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente con insufficienza renale. Molti farmaci si eliminano per via renale, quindi la dose o l'intervallo vanno adattati alla funzione renale stimata, il filtrato o la clearance della creatinina."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vanno sorvegliati i farmaci nefrotossici: FANS, aminoglicosidi, vancomicina, mezzi di contrasto iodati. La metformina va gestita secondo protocollo prima di un esame con contrasto, per il rischio di acidosi lattica."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso da ragionare. Anziana in politerapia, da due giorni sonnolenta e confusa, albumina bassa, in terapia con fenitoina e una benzodiazepina la sera. Che cosa pensi?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due meccanismi insieme. L'ipoalbuminemia aumenta la quota libera della fenitoina, farmaco a finestra stretta. La benzodiazepina si accumula nel tessuto adiposo dell'anziano."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Rilevi parametri e stato di coscienza, avvisi il medico segnalando il sospetto, sorvegli il rischio di caduta, e se confermato si valuta la segnalazione di farmacovigilanza. E' il livello che la prova premia."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto le segnalazioni confluiscono dal Responsabile aziendale di farmacovigilanza al Centro regionale di farmacovigilanza, che le valuta e le trasmette alla rete nazionale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende promuovono inoltre la ricognizione della terapia all'ingresso e la sua riconciliazione nei passaggi di setting, come prevede la Raccomandazione diciassette del Ministero."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la catena completa e' questa: l'operatore segnala, il responsabile aziendale raccoglie, il centro regionale valuta, l'AIFA mette in rete. Quattro passaggi, e la risposta e' piena."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. ADME. Endovenosa cento per cento, orale ridotta dal primo passaggio. Steady state ed eliminazione in quattro-cinque emivite. Finestra stretta: digossina, litio, warfarin, fenitoina, aminoglicosidi, vancomicina."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La reazione avversa si segnala sul sospetto. E nell'anziano: start low, go slow. Nella prossima lezione, le vie di somministrazione e le tecniche: angoli, aghi, sedi e volumi. A tra poco."
+ }
+]

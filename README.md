@@ -52,8 +52,9 @@ progetti/<modulo>-<lezione>/
 | `m4-l4.6-resistenza` | Modulo 4 · 4.6 Antibiotico-resistenza e stewardship | 8:50.8 | `52ecbceb599dde5bbcac5e0bd10d895b` |
 | `m4-l4.7-rifiuti` | Modulo 4 · 4.7 Rischio biologico e gestione dei rifiuti | 8:41.7 | `985f3cc648f6125ad1f8f7a805acb6c1` |
 | `m4-l4.8-riepilogo` | Modulo 4 · 4.8 Riepilogo del Modulo 4 e autovalutazione | 8:40.1 | `129704b8932ee7cb4672dd2aba0d00eb` |
+| `m5-l5.1-principi` | Modulo 5 · 5.1 Principi di farmacologia per l'infermiere | 8:56.4 | `018849a44c2df09bfd81b0ba739676b9` |
 
-Trentadue micro-lezioni in quattro moduli: i primi due con la grafica di
+Le micro-lezioni dei moduli finiti e quelle del modulo 5 in corso: i primi due con la grafica di
 seconda generazione, il 3 e il 4 con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 

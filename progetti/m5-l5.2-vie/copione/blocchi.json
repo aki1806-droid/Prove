@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lezione tecnica, e quindi densa di dettagli che i quiz chiedono in modo preciso: angoli, aghi, sedi, volumi. Ma prima dei dettagli, un principio."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via di somministrazione non e' intercambiabile. Cambia la rapidita' d'azione, la biodisponibilita', il rischio: la stessa dose per bocca o in vena sono due cose diverse."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Somministrare per una via diversa da quella prescritta e' un errore in terapia, anche se il farmaco e la dose sono giusti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via orale: la piu' usata, la piu' sicura, la piu' economica. La persona va posta seduta o semiseduta, il farmaco si assume con un bicchiere d'acqua, mai sdraiati."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se c'e' un dubbio sulla deglutizione vale la regola della lezione tre punto tre. Le forme a rilascio modificato e gastroresistenti non si frantumano ne' si aprono, come prevede la Raccomandazione diciannove."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un dettaglio di responsabilita': l'infermiere verifica che il farmaco sia stato assunto. Una compressa lasciata sul comodino non e' una terapia somministrata, e in cartella non si puo' firmare."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via sublinguale, e la buccale: il farmaco si scioglie sotto la lingua o contro la guancia e passa direttamente nel sangue attraverso la mucosa, evitando il primo passaggio nel fegato. L'effetto e' rapido, in pochi minuti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esempio classico e' la nitroglicerina nel dolore anginoso. Si istruisce la persona a non deglutire, non masticare e non bere finche' il farmaco non si e' sciolto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via sottocutanea. Il farmaco va nel tessuto sotto la cute, dove l'assorbimento e' lento e continuo. Si usano volumi piccoli, indicativamente fino a uno-due millilitri."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aghi sottili, venticinque-ventisette gauge, e corti, fra quattro e otto millimetri; per le penne da insulina oggi si usano aghi da quattro-sei millimetri."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'angolo e' di novanta gradi; si scende a quarantacinque nella persona molto magra o con un ago piu' lungo, per non arrivare nel muscolo, dove l'assorbimento sarebbe diverso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sedi: addome, mantenendo una distanza dall'ombelico, cosce anteriori e laterali, faccia posteriore delle braccia, glutei. E la regola che vale soprattutto per l'insulina: la rotazione delle sedi."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Iniettare sempre nello stesso punto provoca lipodistrofia, ispessimenti del tessuto in cui l'assorbimento diventa irregolare: una causa frequente e sottovalutata di glicemie instabili."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ispezione delle sedi di iniezione fa parte dell'assistenza al diabetico: si guarda e si palpa l'addome, non si chiede soltanto dove si fa l'insulina. Una lipodistrofia si sente sotto le dita prima che si veda."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'eparina a basso peso molecolare per via sottocutanea ha regole sue, chieste spessissimo. Di norma nell'addome. Si mantiene il pizzico cutaneo per tutta l'iniezione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si aspira e non si massaggia la sede, perche' entrambe le manovre favoriscono l'ematoma. Nelle siringhe preriempite non si espelle la bolla d'aria."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La bolla serve a spingere fuori tutto il farmaco e a chiudere il tramite. Iniezione lenta. Quattro regole, e nei quiz la domanda e' quasi sempre su una delle quattro."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via intradermica, per completezza. Il farmaco va nel derma, appena sotto l'epidermide, con un angolo molto basso, dieci-quindici gradi, ago sottile con il bisello rivolto verso l'alto."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se e' corretta si forma un piccolo pomfo, che e' la prova che il farmaco e' nel derma e non sotto. Si usa per l'intradermoreazione di Mantoux per la tubercolosi e per i test allergici. Non si massaggia."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via intramuscolare. Il muscolo e' molto vascolarizzato, quindi l'assorbimento e' piu' rapido che nel sottocutaneo. Aghi fra ventuno e ventitre' gauge, lunghi venticinque-trentotto millimetri secondo sede e corporatura."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Angolo di novanta gradi. I volumi dipendono dalla sede: il deltoide accoglie volumi piccoli, indicativamente fino a un millilitro; le sedi glutee e il vasto laterale volumi maggiori."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sedi. La ventroglutea e' oggi la sede preferita nell'adulto: il muscolo e' spesso, e la zona e' lontana dal nervo sciatico e dai grandi vasi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si individua appoggiando il palmo sul grande trocantere e divaricando indice e medio verso la cresta iliaca: si inietta nel triangolo fra le dita. Un repere a mano, che vale anche come risposta all'orale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il deltoide per vaccini e piccoli volumi. Il vasto laterale della coscia e' la sede di scelta nel lattante. E la dorsoglutea, nel quadrante supero-esterno: tradizionale, ma con il rischio di ledere il nervo sciatico."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica a Z, che il programma d'esame cita espressamente. Si sposta lateralmente la cute di due-tre centimetri tenendola ferma, si inietta, si attende circa dieci secondi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si estrae l'ago e solo allora si rilascia la cute. I piani tissutali tornano in posizione e il tramite si spezza a zeta, chiudendosi: il farmaco resta nel muscolo e non refluisce nel sottocutaneo."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' indicata per farmaci irritanti o che macchiano la cute, come il ferro, ma molte procedure la raccomandano per tutte le intramuscolari."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una domanda su cui i manuali piu' vecchi e quelli recenti divergono: si aspira prima di iniettare? Le raccomandazioni attuali non prevedono l'aspirazione per le vaccinazioni e nelle sedi prive di grossi vasi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventroglutea, deltoide e vasto laterale: aspirare allunga l'iniezione e aumenta il dolore senza un beneficio dimostrato. Nella dorsoglutea era prevista per l'arteria glutea. La risposta prudente: la procedura aziendale."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le complicanze dell'intramuscolare: la lesione del nervo sciatico, con dolore irradiato e deficit motorio, che e' la piu' grave e la piu' contestata sul piano medico-legale; l'ascesso da contaminazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ematoma, soprattutto nei pazienti anticoagulati, nei quali l'intramuscolare va evitata se possibile; il dolore; la rottura dell'ago; l'iniezione accidentale in un vaso. La scelta corretta della sede e' la prima prevenzione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via endovenosa. Effetto immediato, biodisponibilita' del cento per cento, e per questo il rischio piu' alto: un errore endovenoso non si puo' richiamare, e un errore irreversibile si previene solo prima."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il bolo si somministra lentamente, nei minuti indicati dalla scheda tecnica. Bolo non significa spinto."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infusione puo' essere intermittente o continua, e per i farmaci ad alto rischio si usa la pompa. Le complicanze, flebite, stravaso, reazioni, embolia gassosa, le vedremo nel modulo sei."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via transdermica: cerotti che rilasciano il farmaco in modo controllato per ore o giorni, come fentanil, nitroglicerina, buprenorfina. Comodi, ma con una farmacocinetica lunga, che non si interrompe togliendo il cerotto."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole: rimuovere il cerotto precedente, dimenticarlo significa raddoppiare la dose; ruotare la sede su cute integra e senza peli; annotare data e ora; non tagliare il cerotto se non previsto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una trappola seria: il calore, febbre, borsa dell'acqua calda, coperta termica, aumenta l'assorbimento, e con il fentanil puo' causare un sovradosaggio."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via inalatoria: il farmaco arriva direttamente ai bronchi. Spray predosati, meglio con distanziatore, che elimina il problema della coordinazione fra spruzzo e inspirazione; inalatori di polvere; aerosol."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'efficacia dipende dalla tecnica, che va verificata, con il teach-back della lezione due punto sette. E dopo i corticosteroidi inalatori, risciacquare la bocca, per prevenire la candidosi del cavo orale."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via oculare. Si abbassa la palpebra inferiore e si instilla nel sacco congiuntivale inferiore, senza toccare l'occhio con il flacone. Poi si preme sull'angolo interno dell'occhio per uno-due minuti."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiude il dotto lacrimale e si riduce l'assorbimento sistemico, importante con i colliri beta-bloccanti, che possono dare bradicardia. Fra colliri diversi almeno cinque minuti, e prima il collirio, poi la pomata."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La via rettale. Persona in decubito laterale sinistro, come per il clistere; la supposta si introduce oltre lo sfintere anale interno, altrimenti viene espulsa."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' utile quando la via orale non e' praticabile, per vomito o incoscienza, ma l'assorbimento e' variabile: la dose che arriva non e' prevedibile come per bocca."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un cenno alla via intraossea: in emergenza, quando un accesso venoso non si ottiene rapidamente, si accede al midollo osseo nella tibia o nell'omero prossimale. Da li' passano tutti i farmaci e i liquidi della rianimazione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete le tecniche iniettive sono regolate da procedure aziendali aggiornate alle evidenze, con dispositivi di sicurezza per la prevenzione delle punture, ricordi la lezione quattro punto sette."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, in molte realta', formazione specifica sulla sede ventroglutea. All'orale, citare la ventroglutea come sede preferita, con la ragione anatomica, fa subito la differenza."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Sottocutanea a novanta gradi, quarantacinque nel magro. Eparina: non aspirare, non massaggiare, non espellere la bolla. Intradermica a dieci-quindici gradi. Intramuscolare a novanta, ventroglutea e tecnica a Z."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Transdermica: togliere il cerotto vecchio e niente calore. Oculare: pressione sull'angolo interno. Nella prossima lezione, la piu' temuta: il calcolo delle dosi. E' piu' semplice di quanto sembri. A tra poco."
+ }
+]

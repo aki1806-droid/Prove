@@ -1,0 +1,43 @@
+Quarto strumento: la velocita' di infusione. In millilitri all'ora, per le pompe: volume diviso il tempo in ore. Mille millilitri in otto ore: centoventicinque millilitri all'ora.
+
+E attenzione ai minuti: duecentocinquanta millilitri in trenta minuti significa duecentocinquanta in mezz'ora, cioe' cinquecento millilitri all'ora. Il tempo va sempre espresso in ore.
+
+Per le infusioni a caduta si contano le gocce al minuto: volume per fattore di gocciolamento, diviso il tempo in minuti. E' l'unico calcolo in cui si usano i minuti: ricordalo, e' la trappola piu' frequente.
+
+Il fattore di gocciolamento e' il numero di gocce che formano un millilitro, ed e' scritto sulla confezione del deflussore: il deflussore standard ha venti gocce per millilitro, il microgocciolatore sessanta.
+
+Esercizio. Mille millilitri in otto ore, deflussore da venti gocce per millilitro. Quante gocce al minuto? Pausa.
+
+Otto ore sono quattrocentottanta minuti. Mille per venti fa ventimila gocce totali. Ventimila diviso quattrocentottanta fa quarantuno virgola sei, arrotondato a quarantadue gocce al minuto. Le gocce sono intere, si arrotonda.
+
+Due scorciatoie che fanno risparmiare tempo in sede d'esame. Con il microgocciolatore da sessanta gocce, le gocce al minuto sono uguali ai millilitri all'ora: trenta millilitri all'ora sono trenta gocce al minuto.
+
+Con il deflussore standard da venti, le gocce al minuto sono i millilitri all'ora divisi per tre: centoventicinque millilitri all'ora diventano circa quarantadue gocce. Rifai l'esercizio precedente cosi', e vedrai che torna.
+
+Il calcolo per chilo di peso, tipico della pediatria. Paracetamolo quindici milligrammi per chilo a un bambino di dodici chili; sciroppo da centoventi milligrammi in cinque millilitri. Pausa.
+
+Dose: quindici per dodici fa centottanta milligrammi. Volume: centottanta diviso centoventi fa uno virgola cinque, per cinque fa sette virgola cinque millilitri. Due passaggi: prima la dose, poi il volume.
+
+Il calcolo piu' lungo: i microgrammi per chilo per minuto, tipici dell'area critica. Dopamina cinque microgrammi per chilo per minuto, settanta chili, duecento milligrammi in cinquanta millilitri. Pausa.
+
+Passo uno, la dose al minuto: cinque per settanta fa trecentocinquanta microgrammi al minuto. Passo due, all'ora: per sessanta fa ventunomila microgrammi, cioe' ventuno milligrammi all'ora.
+
+Passo tre, la concentrazione: duecento diviso cinquanta fa quattro milligrammi per millilitro. Passo quattro: ventuno diviso quattro fa cinque virgola venticinque millilitri all'ora.
+
+Quattro passi, sempre gli stessi: dose al minuto, dose all'ora, concentrazione, velocita'. Scritti in colonna, il calcolo piu' temuto diventa una lista.
+
+La domanda inversa: quanto dura un'infusione? Volume diviso velocita'. Duecentocinquanta millilitri a cinquanta millilitri all'ora durano cinque ore; se e' iniziata alle nove, finisce alle quattordici.
+
+Sembra banale, ma nella pratica serve a programmare il cambio della sacca e a evitare che una via resti senza infusione, o che un farmaco finisca prima del previsto.
+
+E la regola piu' importante di tutte: il controllo di buon senso. Dopo ogni calcolo chiediti: ha senso? Dieci fiale, o una frazione minuscola di fiala, quasi certamente sono un errore, di unita' o di virgola.
+
+Per i farmaci ad alto rischio, e in caso di dubbio, il calcolo va sottoposto a doppio controllo indipendente, come abbiamo visto nella lezione due punto sei. Nessuno si offende se un collega ricontrolla un calcolo.
+
+Le cinque formule da portare all'esame. Una: volume uguale prescritto diviso disponibile per volume. Due: percentuale per dieci uguale milligrammi per millilitro. Tre: millilitri all'ora uguale volume diviso ore.
+
+Quattro: gocce al minuto uguale volume per fattore diviso minuti. Cinque: per i microgrammi per chilo per minuto, dose al minuto, dose all'ora, concentrazione, velocita'. Questa slide e' da fotografare.
+
+Una frase da portare via: prima uniformare le unita', poi calcolare, poi chiedersi se ha senso. Nel riepilogo del modulo troverai venti calcoli cronometrati, per allenarti con il tempo contato come all'esame.
+
+[warm] Nella prossima lezione: la somministrazione sicura, le regole delle G, il doppio controllo, gli errori che non si devono fare. A tra poco.

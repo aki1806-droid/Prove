@@ -1,0 +1,45 @@
+La reazione avversa, o ADR, e' una risposta nociva e non voluta a un medicinale. La definizione attuale include anche le reazioni da errore terapeutico, uso off-label, abuso ed esposizione professionale.
+
+Si classificano in tipo A, dose-dipendenti e prevedibili dall'azione del farmaco: l'emorragia da anticoagulante. E tipo B, non dose-dipendenti e imprevedibili: l'allergia, l'idiosincrasia.
+
+[serious] Le prime sono le piu' frequenti, le seconde le piu' temute. E in tutte e due i casi chi le vede per primo, al letto, e' quasi sempre l'infermiere.
+
+La farmacovigilanza e' il sistema che raccoglie e valuta le reazioni avverse dopo l'immissione in commercio. Per gli operatori sanitari, infermieri compresi, segnalare le sospette reazioni avverse e' un obbligo.
+
+Si fa tempestivamente tramite la scheda o la piattaforma online della Rete Nazionale di Farmacovigilanza dell'AIFA, che fa capo al Responsabile locale di farmacovigilanza. Anche i cittadini possono segnalare.
+
+[serious] Basta il sospetto, non serve la certezza del nesso. E i farmaci contrassegnati dal triangolo nero rovesciato sono sotto monitoraggio addizionale: per questi la segnalazione e' ancora piu' preziosa.
+
+Una distinzione che collega questo modulo al modulo due. La reazione avversa si segnala alla farmacovigilanza. L'errore in terapia si segnala con l'incident reporting del rischio clinico.
+
+Se un errore provoca una reazione avversa, si fanno entrambe le segnalazioni, perche' servono a sistemi diversi: uno studia il farmaco, l'altro studia il processo.
+
+Il paziente anziano, che e' la maggior parte dei ricoverati. Ha meno acqua corporea, quindi i farmaci idrosolubili raggiungono concentrazioni piu' alte.
+
+Ha piu' massa grassa, quindi i farmaci liposolubili, come le benzodiazepine, si accumulano e durano di piu'. Ha una ridotta funzione renale ed epatica, spesso ipoalbuminemia.
+
+E soprattutto e' in politerapia, con un rischio di interazioni che cresce con il numero dei farmaci. La regola e': start low, go slow. Si comincia con dosi basse e si aumenta lentamente.
+
+Esistono strumenti, come i criteri di Beers, che elencano i farmaci potenzialmente inappropriati nell'anziano: benzodiazepine a lunga durata, anticolinergici, alcuni antistaminici e altri.
+
+E si parla sempre piu' di deprescrizione: ridurre o sospendere i farmaci non piu' utili. L'infermiere non deprescrive, ma osserva e segnala: la sonnolenza nuova, la confusione, le cadute, la stipsi, l'ipotensione.
+
+Il paziente con insufficienza renale. Molti farmaci si eliminano per via renale, quindi la dose o l'intervallo vanno adattati alla funzione renale stimata, il filtrato o la clearance della creatinina.
+
+E vanno sorvegliati i farmaci nefrotossici: FANS, aminoglicosidi, vancomicina, mezzi di contrasto iodati. La metformina va gestita secondo protocollo prima di un esame con contrasto, per il rischio di acidosi lattica.
+
+Un caso da ragionare. Anziana in politerapia, da due giorni sonnolenta e confusa, albumina bassa, in terapia con fenitoina e una benzodiazepina la sera. Che cosa pensi?
+
+Due meccanismi insieme. L'ipoalbuminemia aumenta la quota libera della fenitoina, farmaco a finestra stretta. La benzodiazepina si accumula nel tessuto adiposo dell'anziano.
+
+Che cosa fai? Rilevi parametri e stato di coscienza, avvisi il medico segnalando il sospetto, sorvegli il rischio di caduta, e se confermato si valuta la segnalazione di farmacovigilanza. E' il livello che la prova premia.
+
+In Veneto le segnalazioni confluiscono dal Responsabile aziendale di farmacovigilanza al Centro regionale di farmacovigilanza, che le valuta e le trasmette alla rete nazionale.
+
+Le aziende promuovono inoltre la ricognizione della terapia all'ingresso e la sua riconciliazione nei passaggi di setting, come prevede la Raccomandazione diciassette del Ministero.
+
+All'orale, la catena completa e' questa: l'operatore segnala, il responsabile aziendale raccoglie, il centro regionale valuta, l'AIFA mette in rete. Quattro passaggi, e la risposta e' piena.
+
+Ricapitoliamo. ADME. Endovenosa cento per cento, orale ridotta dal primo passaggio. Steady state ed eliminazione in quattro-cinque emivite. Finestra stretta: digossina, litio, warfarin, fenitoina, aminoglicosidi, vancomicina.
+
+[warm] La reazione avversa si segnala sul sospetto. E nell'anziano: start low, go slow. Nella prossima lezione, le vie di somministrazione e le tecniche: angoli, aghi, sedi e volumi. A tra poco.

@@ -1,0 +1,51 @@
+[warm] Il calcolo delle dosi e' la parte del programma che spaventa di piu', e ingiustamente. Tutti i calcoli dell'esame si risolvono con quattro strumenti.
+
+Una proporzione, una conversione di unita', la lettura di una percentuale e una formula per le gocce. In questa lezione li vediamo uno per uno, con esercizi svolti.
+
+Tieni carta e penna: quando vedi la scritta metti in pausa, prova a risolvere da solo prima di ascoltare la soluzione. Il video ti lascia qualche secondo, e il resto lo fai tu con il tasto pausa.
+
+Primo strumento: le conversioni. Un grammo e' mille milligrammi. Un milligrammo e' mille microgrammi. Un litro e' mille millilitri.
+
+Poi ci sono le unita' internazionali, per insulina ed eparina, e i milliequivalenti, per gli elettroliti come il potassio: queste non si convertono in grammi, si leggono sulla confezione.
+
+[serious] La regola d'oro: prima di calcolare, porta tutto alla stessa unita'. La maggior parte degli errori nasce qui, non nel calcolo.
+
+Secondo strumento: la proporzione. Quasi ogni calcolo di dose si risolve cosi': dose prescritta diviso dose disponibile, moltiplicato per il volume in cui la dose disponibile e' contenuta.
+
+Quello che mi serve, quello che ho, e in quanto liquido si trova. Tre numeri, e il quarto viene da solo: e' la stessa proporzione in tutti gli esercizi che seguono.
+
+Primo esercizio. Prescritti settantacinque milligrammi. Disponibile una fiala da cento milligrammi in due millilitri. Quanti millilitri aspiri? Metti in pausa e prova.
+
+Soluzione: settantacinque diviso cento fa zero virgola settantacinque, per due millilitri fa uno virgola cinque. Buon senso: mi servono tre quarti della fiala, e tre quarti di due millilitri sono uno e mezzo. Torna.
+
+Secondo esercizio, con una trappola. Prescritti cinquecento microgrammi, disponibile una fiala da un milligrammo in due millilitri. Pausa.
+
+Prima si uniforma: un milligrammo sono mille microgrammi. Poi la proporzione: cinquecento diviso mille fa zero virgola cinque, per due fa un millilitro.
+
+[serious] Chi dimentica la conversione ottiene un risultato mille volte sbagliato. Ed e' esattamente l'errore che uccide.
+
+Terzo strumento: le percentuali. Una soluzione al per cento peso su volume indica i grammi contenuti in cento millilitri.
+
+La fisiologica allo zero virgola nove per cento contiene zero virgola nove grammi in cento millilitri, cioe' nove grammi per litro. La glucosata al cinque per cento: cinque grammi in cento millilitri, cinquanta per litro.
+
+E un trucco utilissimo: la percentuale moltiplicata per dieci da' i milligrammi per millilitro. Una soluzione al due per cento contiene venti milligrammi per millilitro.
+
+Esercizio. Prescritti sessanta milligrammi di lidocaina, disponibile al due per cento. Pausa.
+
+Il due per cento corrisponde a venti milligrammi per millilitro. Sessanta diviso venti fa tre millilitri. Visto? Con il trucco, un calcolo che sembrava difficile si fa a mente.
+
+Un caso frequentissimo: la polvere da ricostituire. Flacone da un grammo da sciogliere in dieci millilitri; prescritti settecentocinquanta milligrammi. Pausa.
+
+Dopo la ricostituzione ho mille milligrammi in dieci millilitri, cioe' cento milligrammi per millilitro. Settecentocinquanta diviso cento fa sette virgola cinque millilitri.
+
+Attenzione: alcune polveri, sciogliendosi, aumentano il volume finale. Se la scheda tecnica indica un volume finale diverso, si usa quello, non i dieci millilitri del solvente.
+
+Le unita' internazionali. Eparina venticinquemila unita' in cinquanta millilitri; prescritte mille unita' all'ora. A quanti millilitri all'ora imposti la pompa? Pausa.
+
+Prima la concentrazione: venticinquemila diviso cinquanta fa cinquecento unita' per millilitro. Poi: mille diviso cinquecento fa due millilitri all'ora.
+
+E' lo schema di tutte le infusioni continue: concentrazione, poi velocita'. Due passaggi, sempre nello stesso ordine, qualunque sia il farmaco.
+
+L'insulina, che ha regole sue. La concentrazione standard e' cento unita' per millilitro. Si usano siringhe da insulina graduate direttamente in unita', o le penne: non si converte in millilitri.
+
+E un dettaglio di sicurezza: nella prescrizione non si scrive mai U per unita', perche' una U scritta male si legge come uno zero: dieci U diventa cento, dieci volte la dose. Si scrive per esteso: unita'.

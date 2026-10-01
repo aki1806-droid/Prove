@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,250
+Lezione tecnica, e quindi densa di dettagli che i quiz chiedono in modo preciso: angoli, aghi, sedi, volumi. Ma prima dei dettagli, un principio.
+
+2
+00:00:12,250 --> 00:00:22,590
+La via di somministrazione non e' intercambiabile. Cambia la rapidita' d'azione, la biodisponibilita', il rischio: la stessa dose per bocca o in vena sono due cose diverse.
+
+3
+00:00:22,590 --> 00:00:30,130
+Somministrare per una via diversa da quella prescritta e' un errore in terapia, anche se il farmaco e la dose sono giusti.
+
+4
+00:00:30,130 --> 00:00:39,830
+La via orale: la piu' usata, la piu' sicura, la piu' economica. La persona va posta seduta o semiseduta, il farmaco si assume con un bicchiere d'acqua, mai sdraiati.
+
+5
+00:00:39,830 --> 00:00:51,450
+Se c'e' un dubbio sulla deglutizione vale la regola della lezione tre punto tre. Le forme a rilascio modificato e gastroresistenti non si frantumano ne' si aprono, come prevede la Raccomandazione diciannove.
+
+6
+00:00:51,450 --> 00:01:02,360
+E un dettaglio di responsabilita': l'infermiere verifica che il farmaco sia stato assunto. Una compressa lasciata sul comodino non e' una terapia somministrata, e in cartella non si puo' firmare.
+
+7
+00:01:02,360 --> 00:01:15,350
+La via sublinguale, e la buccale: il farmaco si scioglie sotto la lingua o contro la guancia e passa direttamente nel sangue attraverso la mucosa, evitando il primo passaggio nel fegato. L'effetto e' rapido, in pochi minuti.
+
+8
+00:01:15,350 --> 00:01:24,540
+L'esempio classico e' la nitroglicerina nel dolore anginoso. Si istruisce la persona a non deglutire, non masticare e non bere finche' il farmaco non si e' sciolto.
+
+9
+00:01:24,540 --> 00:01:34,740
+La via sottocutanea. Il farmaco va nel tessuto sotto la cute, dove l'assorbimento e' lento e continuo. Si usano volumi piccoli, indicativamente fino a uno-due millilitri.
+
+10
+00:01:34,740 --> 00:01:44,800
+Aghi sottili, venticinque-ventisette gauge, e corti, fra quattro e otto millimetri; per le penne da insulina oggi si usano aghi da quattro-sei millimetri.
+
+11
+00:01:44,800 --> 00:01:54,160
+L'angolo e' di novanta gradi; si scende a quarantacinque nella persona molto magra o con un ago piu' lungo, per non arrivare nel muscolo, dove l'assorbimento sarebbe diverso.
+
+12
+00:01:54,160 --> 00:02:06,370
+Le sedi: addome, mantenendo una distanza dall'ombelico, cosce anteriori e laterali, faccia posteriore delle braccia, glutei. E la regola che vale soprattutto per l'insulina: la rotazione delle sedi.
+
+13
+00:02:06,370 --> 00:02:17,670
+Iniettare sempre nello stesso punto provoca lipodistrofia, ispessimenti del tessuto in cui l'assorbimento diventa irregolare: una causa frequente e sottovalutata di glicemie instabili.
+
+14
+00:02:17,670 --> 00:02:29,810
+L'ispezione delle sedi di iniezione fa parte dell'assistenza al diabetico: si guarda e si palpa l'addome, non si chiede soltanto dove si fa l'insulina. Una lipodistrofia si sente sotto le dita prima che si veda.
+
+15
+00:02:29,810 --> 00:02:40,010
+L'eparina a basso peso molecolare per via sottocutanea ha regole sue, chieste spessissimo. Di norma nell'addome. Si mantiene il pizzico cutaneo per tutta l'iniezione.
+
+16
+00:02:40,010 --> 00:02:48,690
+Non si aspira e non si massaggia la sede, perche' entrambe le manovre favoriscono l'ematoma. Nelle siringhe preriempite non si espelle la bolla d'aria.
+
+17
+00:02:48,690 --> 00:02:58,370
+La bolla serve a spingere fuori tutto il farmaco e a chiudere il tramite. Iniezione lenta. Quattro regole, e nei quiz la domanda e' quasi sempre su una delle quattro.
+
+18
+00:02:58,370 --> 00:03:10,050
+La via intradermica, per completezza. Il farmaco va nel derma, appena sotto l'epidermide, con un angolo molto basso, dieci-quindici gradi, ago sottile con il bisello rivolto verso l'alto.
+
+19
+00:03:10,050 --> 00:03:21,490
+Se e' corretta si forma un piccolo pomfo, che e' la prova che il farmaco e' nel derma e non sotto. Si usa per l'intradermoreazione di Mantoux per la tubercolosi e per i test allergici. Non si massaggia.
+
+20
+00:03:21,490 --> 00:03:34,780
+La via intramuscolare. Il muscolo e' molto vascolarizzato, quindi l'assorbimento e' piu' rapido che nel sottocutaneo. Aghi fra ventuno e ventitre' gauge, lunghi venticinque-trentotto millimetri secondo sede e corporatura.
+
+21
+00:03:34,780 --> 00:03:45,520
+Angolo di novanta gradi. I volumi dipendono dalla sede: il deltoide accoglie volumi piccoli, indicativamente fino a un millilitro; le sedi glutee e il vasto laterale volumi maggiori.
+
+22
+00:03:45,520 --> 00:03:53,860
+Le sedi. La ventroglutea e' oggi la sede preferita nell'adulto: il muscolo e' spesso, e la zona e' lontana dal nervo sciatico e dai grandi vasi.
+
+23
+00:03:53,860 --> 00:04:05,730
+Si individua appoggiando il palmo sul grande trocantere e divaricando indice e medio verso la cresta iliaca: si inietta nel triangolo fra le dita. Un repere a mano, che vale anche come risposta all'orale.
+
+24
+00:04:05,730 --> 00:04:18,200
+Il deltoide per vaccini e piccoli volumi. Il vasto laterale della coscia e' la sede di scelta nel lattante. E la dorsoglutea, nel quadrante supero-esterno: tradizionale, ma con il rischio di ledere il nervo sciatico.
+
+25
+00:04:18,200 --> 00:04:28,590
+La tecnica a Z, che il programma d'esame cita espressamente. Si sposta lateralmente la cute di due-tre centimetri tenendola ferma, si inietta, si attende circa dieci secondi.
+
+26
+00:04:28,590 --> 00:04:40,870
+Si estrae l'ago e solo allora si rilascia la cute. I piani tissutali tornano in posizione e il tramite si spezza a zeta, chiudendosi: il farmaco resta nel muscolo e non refluisce nel sottocutaneo.
+
+27
+00:04:40,870 --> 00:04:48,590
+E' indicata per farmaci irritanti o che macchiano la cute, come il ferro, ma molte procedure la raccomandano per tutte le intramuscolari.
+
+28
+00:04:48,590 --> 00:05:00,100
+Una domanda su cui i manuali piu' vecchi e quelli recenti divergono: si aspira prima di iniettare? Le raccomandazioni attuali non prevedono l'aspirazione per le vaccinazioni e nelle sedi prive di grossi vasi.
+
+29
+00:05:00,100 --> 00:05:13,940
+Ventroglutea, deltoide e vasto laterale: aspirare allunga l'iniezione e aumenta il dolore senza un beneficio dimostrato. Nella dorsoglutea era prevista per l'arteria glutea. La risposta prudente: la procedura aziendale.
+
+30
+00:05:13,940 --> 00:05:25,690
+Le complicanze dell'intramuscolare: la lesione del nervo sciatico, con dolore irradiato e deficit motorio, che e' la piu' grave e la piu' contestata sul piano medico-legale; l'ascesso da contaminazione.
+
+31
+00:05:25,690 --> 00:05:38,630
+L'ematoma, soprattutto nei pazienti anticoagulati, nei quali l'intramuscolare va evitata se possibile; il dolore; la rottura dell'ago; l'iniezione accidentale in un vaso. La scelta corretta della sede e' la prima prevenzione.
+
+32
+00:05:38,630 --> 00:05:50,690
+La via endovenosa. Effetto immediato, biodisponibilita' del cento per cento, e per questo il rischio piu' alto: un errore endovenoso non si puo' richiamare, e un errore irreversibile si previene solo prima.
+
+33
+00:05:50,690 --> 00:05:58,300
+Il bolo si somministra lentamente, nei minuti indicati dalla scheda tecnica. Bolo non significa spinto.
+
+34
+00:05:58,300 --> 00:06:10,360
+L'infusione puo' essere intermittente o continua, e per i farmaci ad alto rischio si usa la pompa. Le complicanze, flebite, stravaso, reazioni, embolia gassosa, le vedremo nel modulo sei.
+
+35
+00:06:10,360 --> 00:06:24,100
+La via transdermica: cerotti che rilasciano il farmaco in modo controllato per ore o giorni, come fentanil, nitroglicerina, buprenorfina. Comodi, ma con una farmacocinetica lunga, che non si interrompe togliendo il cerotto.
+
+36
+00:06:24,100 --> 00:06:36,340
+Le regole: rimuovere il cerotto precedente, dimenticarlo significa raddoppiare la dose; ruotare la sede su cute integra e senza peli; annotare data e ora; non tagliare il cerotto se non previsto.
+
+37
+00:06:36,340 --> 00:06:46,070
+E una trappola seria: il calore, febbre, borsa dell'acqua calda, coperta termica, aumenta l'assorbimento, e con il fentanil puo' causare un sovradosaggio.
+
+38
+00:06:46,070 --> 00:06:58,820
+La via inalatoria: il farmaco arriva direttamente ai bronchi. Spray predosati, meglio con distanziatore, che elimina il problema della coordinazione fra spruzzo e inspirazione; inalatori di polvere; aerosol.
+
+39
+00:06:58,820 --> 00:07:10,360
+L'efficacia dipende dalla tecnica, che va verificata, con il teach-back della lezione due punto sette. E dopo i corticosteroidi inalatori, risciacquare la bocca, per prevenire la candidosi del cavo orale.
+
+40
+00:07:10,360 --> 00:07:21,560
+La via oculare. Si abbassa la palpebra inferiore e si instilla nel sacco congiuntivale inferiore, senza toccare l'occhio con il flacone. Poi si preme sull'angolo interno dell'occhio per uno-due minuti.
+
+41
+00:07:21,560 --> 00:07:33,930
+Si chiude il dotto lacrimale e si riduce l'assorbimento sistemico, importante con i colliri beta-bloccanti, che possono dare bradicardia. Fra colliri diversi almeno cinque minuti, e prima il collirio, poi la pomata.
+
+42
+00:07:33,930 --> 00:07:43,410
+La via rettale. Persona in decubito laterale sinistro, come per il clistere; la supposta si introduce oltre lo sfintere anale interno, altrimenti viene espulsa.
+
+43
+00:07:43,410 --> 00:07:52,580
+E' utile quando la via orale non e' praticabile, per vomito o incoscienza, ma l'assorbimento e' variabile: la dose che arriva non e' prevedibile come per bocca.
+
+44
+00:07:52,580 --> 00:08:05,520
+E un cenno alla via intraossea: in emergenza, quando un accesso venoso non si ottiene rapidamente, si accede al midollo osseo nella tibia o nell'omero prossimale. Da li' passano tutti i farmaci e i liquidi della rianimazione.
+
+45
+00:08:05,520 --> 00:08:17,030
+Nelle aziende venete le tecniche iniettive sono regolate da procedure aziendali aggiornate alle evidenze, con dispositivi di sicurezza per la prevenzione delle punture, ricordi la lezione quattro punto sette.
+
+46
+00:08:17,030 --> 00:08:27,080
+E, in molte realta', formazione specifica sulla sede ventroglutea. All'orale, citare la ventroglutea come sede preferita, con la ragione anatomica, fa subito la differenza.
+
+47
+00:08:27,080 --> 00:08:41,900
+Ricapitoliamo. Sottocutanea a novanta gradi, quarantacinque nel magro. Eparina: non aspirare, non massaggiare, non espellere la bolla. Intradermica a dieci-quindici gradi. Intramuscolare a novanta, ventroglutea e tecnica a Z.
+
+48
+00:08:41,900 --> 00:08:54,060
+Transdermica: togliere il cerotto vecchio e niente calore. Oculare: pressione sull'angolo interno. Nella prossima lezione, la piu' temuta: il calcolo delle dosi. E' piu' semplice di quanto sembri. A tra poco.

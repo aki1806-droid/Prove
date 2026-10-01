@@ -1,0 +1,148 @@
+{
+ "A": {
+  "parole_copione": 639,
+  "parole_dette": 642,
+  "coincidenti": 614,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s05",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s05",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s06",
+    "copione": "milliequivalenti",
+    "detto": "1 000 equivalenti"
+   },
+   {
+    "blocco": "s13",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s13",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s14",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s23",
+    "copione": "25000",
+    "detto": "25 000"
+   },
+   {
+    "blocco": "s23",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s24",
+    "copione": "25000",
+    "detto": "25 000"
+   },
+   {
+    "blocco": "s24",
+    "copione": "1000",
+    "detto": "1 000"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 639,
+  "parole_dette": 642,
+  "coincidenti": 628,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "quattrocentottanta",
+    "detto": "480"
+   },
+   {
+    "blocco": "s33",
+    "copione": "20000",
+    "detto": "20 000"
+   },
+   {
+    "blocco": "s33",
+    "copione": "20000",
+    "detto": "20 000"
+   },
+   {
+    "blocco": "s33",
+    "copione": "quattrocentottanta",
+    "detto": "480"
+   },
+   {
+    "blocco": "s35",
+    "copione": "i",
+    "detto": "in"
+   },
+   {
+    "blocco": "s37",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s37",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s39",
+    "copione": "21000",
+    "detto": "21 000"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
