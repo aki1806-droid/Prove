@@ -8,9 +8,9 @@ Un filo comune: prima si valuta e si toglie la causa, poi si medica. E' la frase
 
 L'albero decisionale, in sette passi. Uno: valutare, con TIME, misure e foto, le ore dodici verso la testa. Due: la causa e' stata rimossa? Scarico, compressione se l'ABI lo consente, rivascolarizzazione, controllo glicemico.
 
-Tre: il tessuto: se c'e' necrosi o slough, debridement, salvo l'escara stabile del tallone e l'arto ischemico.
+Tre: il tessuto: se c'e' necrosi o slough, debridement, salvo l'escara stabile del tallone e l'arto ischemico, dove il tessuto rimosso non ricresce.
 
-Quattro: l'infezione: se ci sono segni, antimicrobica, mai occlusiva, tampone dopo la detersione.
+Quattro: l'infezione: se ci sono segni, antimicrobica, mai occlusiva, tampone dopo la detersione, sul tessuto vitale e non sul pus.
 
 Cinque: l'umidita': secca, idrogel; essudante, alginato, idrofibra, schiuma. Sei: i margini e la cute intorno, da proteggere. Sette: rivalutare.
 
@@ -30,7 +30,7 @@ ABI normale zero virgola nove-uno virgola tre; sotto zero virgola cinque compres
 
 Le sequenze di emergenza. Eviscerazione: aiuto, ginocchia flesse, garze sterili con fisiologica tiepida, non riposizionare, digiuno, chirurgo.
 
-Stomia scura: chirurgo subito. Drenaggio toracico scollegato: estremita' in acqua sterile. Tubo estratto dal torace: medicazione occlusiva, medico. Pneumotorace iperteso: riconoscerlo.
+Stomia scura: chirurgo subito. Drenaggio toracico scollegato: estremita' in acqua sterile. Tubo estratto dal torace: medicazione occlusiva, medico. Pneumotorace iperteso: riconoscerlo, trachea deviata e ipotensione.
 
 Cinque emergenze, e in quattro su cinque la risposta finisce con la stessa parola: medico, o chirurgo. La prima mossa e' quasi sempre dell'infermiere, la seconda non e' mai solo sua.
 

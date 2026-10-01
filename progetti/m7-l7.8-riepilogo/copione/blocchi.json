@@ -39,14 +39,14 @@
   "capitolo": 3,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Tre: il tessuto: se c'e' necrosi o slough, debridement, salvo l'escara stabile del tallone e l'arto ischemico."
+  "text": "Tre: il tessuto: se c'e' necrosi o slough, debridement, salvo l'escara stabile del tallone e l'arto ischemico, dove il tessuto rimosso non ricresce."
  },
  {
   "id": "s08",
   "capitolo": 3,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Quattro: l'infezione: se ci sono segni, antimicrobica, mai occlusiva, tampone dopo la detersione."
+  "text": "Quattro: l'infezione: se ci sono segni, antimicrobica, mai occlusiva, tampone dopo la detersione, sul tessuto vitale e non sul pus."
  },
  {
   "id": "s09",
@@ -116,7 +116,7 @@
   "capitolo": 6,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Stomia scura: chirurgo subito. Drenaggio toracico scollegato: estremita' in acqua sterile. Tubo estratto dal torace: medicazione occlusiva, medico. Pneumotorace iperteso: riconoscerlo."
+  "text": "Stomia scura: chirurgo subito. Drenaggio toracico scollegato: estremita' in acqua sterile. Tubo estratto dal torace: medicazione occlusiva, medico. Pneumotorace iperteso: riconoscerlo, trachea deviata e ipotensione."
  },
  {
   "id": "s19",
@@ -221,7 +221,7 @@
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Uno: l'idrogel, che cede umidita'. Due: no, non si rimuove: funziona da copertura naturale, soprattutto se la perfusione e' scarsa."
+  "text": "Uno: l'idrogel, che cede umidita' e favorisce il debridement autolitico. Due: no, non si rimuove: funziona da copertura naturale, soprattutto se la perfusione e' scarsa."
  },
  {
   "id": "s34",
@@ -235,7 +235,7 @@
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Tre: stadio quattro in guarigione, non si retrostadia. Quattro: no, senza ABI non si comprime."
+  "text": "Tre: stadio quattro in guarigione, non si retrostadia. Quattro: no, senza ABI non si comprime: un'arteriopatia associata e' frequente nell'anziano."
  },
  {
   "id": "s36",
@@ -263,14 +263,14 @@
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Sette: possibile perdita nel sistema, si controllano connessioni e tubo. Otto: no, mai di routine. Ogni errore ti dice quale lezione riguardare."
+  "text": "Sette: possibile perdita nel sistema, si controllano connessioni e tubo. Otto: no, mai di routine: sotto il torace, in verticale. Otto su otto e' il livello atteso: ogni errore ti dice quale lezione riguardare."
  },
  {
   "id": "s40",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
-  "text": "I fili con gli altri moduli. Braden e nutrizione con i moduli due e tre. Il bundle SSI con il modulo quattro."
+  "text": "I fili con gli altri moduli. Braden e nutrizione con i moduli due e tre: la soglia di sedici e le proteine. Il bundle SSI con il modulo quattro: rasoio, profilassi, normotermia."
  },
  {
   "id": "s41",
