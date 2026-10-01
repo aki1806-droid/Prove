@@ -15,7 +15,7 @@ degli stupefacenti (5.6).
 Stato: 5.1–5.5 pubblicate. 5.6 è doppiata, tagliata e montata in locale,
 in attesa della verifica per trascrizione; 5.7 e 5.8 hanno copione, slide
 e registro, in attesa della voce: i crediti ElevenLabs si sono esauriti
-dopo la voce di 5.6.
+dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una traccia ne chiede 10.045; nessun addebito).
 
 | | lezione | durata | resa |
 |---|---|---|---|
