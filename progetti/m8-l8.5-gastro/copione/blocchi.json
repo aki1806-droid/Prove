@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] L'apparato digerente produce due tipi di domande d'esame: le emergenze, l'emorragia digestiva, la pancreatite, e le procedure, l'endoscopia, la preparazione intestinale, la paracentesi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In mezzo c'e' la cirrosi, una malattia cronica con complicanze che l'infermiere deve saper riconoscere presto, a partire dall'encefalopatia."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre blocchi, quindi: cio' che sanguina, cio' che si scompensa, cio' che si prepara. E un filo: quasi tutto, qui, l'infermiere lo vede prima del laboratorio."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emorragia digestiva. Si dice alta se l'origine e' a monte del legamento di Treitz, esofago, stomaco, duodeno, e si manifesta con ematemesi, vomito di sangue rosso o a fondo di caffe', cioe' sangue digerito."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E con melena, feci nere, picee, maleodoranti. Le cause principali: ulcera peptica e varici esofagee."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si dice bassa se l'origine e' nel colon o nel retto, con sangue rosso dall'ano: diverticoli, neoplasie, emorroidi. Un'avvertenza: un'emorragia alta molto abbondante puo' passare cosi' in fretta da arrivare rossa dal retto."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza. Parametri e segni di shock: tachicardia, ipotensione, pallore, sudorazione, oliguria, agitazione. Due accessi venosi di grosso calibro."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prelievi: emocromo, coagulazione, gruppo e prove crociate. Digiuno, perche' seguira' un'endoscopia urgente. Liquidi ed emocomponenti secondo prescrizione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un'avvertenza importante: nelle prime ore l'emoglobina puo' essere ancora normale, perche' si perde sangue intero; scende in ritardo. Un'emoglobina normale non esclude un'emorragia grave: contano i parametri."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le varici esofagee sono vene dilatate dell'esofago, conseguenza dell'ipertensione portale nella cirrosi. Quando sanguinano, il sanguinamento e' spesso massivo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento, su prescrizione, comprende farmaci vasoattivi, profilassi antibiotica e legatura endoscopica."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'infermiere, oltre allo shock, conta la sorveglianza delle vie aeree, per il rischio di inalazione del sangue vomitato: un paziente che vomita sangue e perde coscienza va messo sul fianco."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cirrosi: un danno epatico cronico in cui il fegato si riempie di tessuto fibroso. Le cause principali: alcol, virus dell'epatite B e C, e sempre piu' la steatosi legata a obesita' e diabete."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le complicanze: ascite, varici, encefalopatia, ittero, coagulopatia, il fegato produce meno fattori della coagulazione, infezioni come la peritonite batterica spontanea, e insufficienza renale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ascite: liquido nella cavita' addominale. L'assistenza: dieta iposodica, diuretici secondo prescrizione, peso quotidiano e circonferenza addominale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Misurata sempre nello stesso punto, di solito all'ombelico, segnato con un pennarello, e alla stessa ora. Bilancio idrico."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione al respiro, perche' un'ascite voluminosa comprime il diaframma, e alla cute tesa dell'addome."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La paracentesi, eseguita dal medico con l'assistenza infermieristica. Prima: consenso e, dettaglio da ricordare, far svuotare la vescica, per non pungerla. Posizione supina o semiseduta, asepsi."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante e dopo: sorveglianza della pressione, perche' la rimozione di molti litri puo' causare ipotensione. Si registra la quantita' drenata."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nelle paracentesi di grande volume si somministra albumina secondo prescrizione, la ritrovi nella lezione sei punto tre. Poi si sorveglia il punto di puntura, da cui il liquido puo' continuare a uscire."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'encefalopatia epatica: il fegato malato non elimina l'ammoniaca e altre sostanze prodotte nell'intestino, che arrivano al cervello."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I primi segni sono subdoli: inversione del ritmo sonno-veglia, confusione, cambiamenti della personalita'. Chi conosce il paziente li nota prima di chi lo visita."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'asterixis, o flapping tremor: chiedendo alla persona di tenere le braccia tese con i polsi estesi, le mani sbattono come ali. Fino al coma."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fattori scatenanti sono la chiave per l'infermiere: stipsi, emorragia digestiva, il sangue nell'intestino e' una fonte di ammoniaca, infezioni, sedativi, squilibri elettrolitici, disidratazione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza. Il lattulosio, secondo prescrizione, con un obiettivo preciso: due-tre evacuazioni morbide al giorno, perche' riduce l'assorbimento dell'ammoniaca. A volte un antibiotico intestinale, la rifaximina."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prevenire la stipsi, evitare i sedativi, sorvegliare lo stato di coscienza e la sicurezza, perche' la persona confusa cade."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cercare sempre il fattore scatenante. Un cirrotico con stipsi da tre giorni che diventa confuso: il nesso c'e'."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La pancreatite acuta. Il dolore e' epigastrico, intenso, a barra, irradiato al dorso, con nausea e vomito. Le cause principali sono i calcoli biliari e l'alcol. Gli enzimi amilasi e lipasi sono elevati."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza: analgesia adeguata, liquidi precoci secondo prescrizione, monitoraggio di parametri, diuresi, glicemia e calcio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un aggiornamento rispetto ai vecchi manuali: non si tiene il paziente a digiuno a lungo; la nutrizione precoce, preferibilmente enterale, appena possibile, riduce le complicanze."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le procedure. La gastroscopia: digiuno dai solidi, di norma almeno sei ore, e dai liquidi chiari, di norma due, secondo procedura. Consenso, rimozione delle protesi dentarie, gestione degli anticoagulanti secondo indicazione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo: se e' stato usato un anestetico locale in gola, niente cibo ne' bevande finche' non ritorna il riflesso della deglutizione: e' la regola della disfagia della lezione tre punto tre."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sorveglianza di dolore, febbre, enfisema: possibili segni di perforazione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La colonscopia. Il risultato dipende dalla preparazione intestinale: dieta povera di scorie nei giorni precedenti, liquidi chiari il giorno prima."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la soluzione lassativa, spesso in dose frazionata, una parte la sera, una la mattina: la seconda meta' vicina all'esame pulisce meglio."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sospende il ferro secondo indicazione, perche' scurisce le feci. La preparazione e' adeguata quando le scariche sono liquide, chiare, giallastre."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'anziano si sorvegliano disidratazione, squilibri elettrolitici e il rischio di caduta nelle corse notturne al bagno. Dopo l'esame: dolore e sanguinamento, soprattutto dopo l'asportazione di polipi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ittero: la colorazione gialla di cute e sclere, da aumento della bilirubina. Nell'ittero da ostruzione delle vie biliari le urine diventano scure e le feci chiare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sintomo piu' fastidioso per la persona e' spesso il prurito: igiene delicata, unghie corte, cute idratata, e segnalazione per la terapia."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente cirrotico, da ieri piu' sonnolento e confuso, alvo chiuso da tre giorni, e stanotte ha ricevuto una benzodiazepina. Che cosa pensi?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Encefalopatia epatica, con due fattori scatenanti evidenti: la stipsi e il sedativo. Che cosa fai? Valuti coscienza e asterixis, rilevi parametri e glicemia."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Avvisi il medico segnalando i fattori scatenanti, e prepari il lattulosio secondo prescrizione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E sorvegli la sicurezza e il rischio di inalazione. Il nesso c'era gia' ieri sera, nella consegna: tre giorni senza alvo e una benzodiazepina."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto, accanto ai servizi di endoscopia digestiva e ai percorsi per l'emorragia digestiva, e' attivo il programma regionale di screening del tumore del colon-retto."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la ricerca del sangue occulto nelle feci e la colonscopia di approfondimento: un tema di prevenzione che collega questa lezione al modulo undici."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sintesi. Ematemesi e melena: emorragia alta; rettorragia: bassa. L'emoglobina scende in ritardo. Due accessi di grosso calibro. Ascite: peso e circonferenza. Paracentesi: vescica vuota, albumina."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Encefalopatia: asterixis, lattulosio per due-tre scariche, niente sedativi. Pancreatite: dolore a barra verso il dorso. Dopo la gastroscopia: aspettare il riflesso della deglutizione."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione entriamo in neurologia, con l'ictus al centro: riconoscerlo in pochi secondi e attivare il percorso giusto puo' cambiare la vita di una persona. A tra poco."
+ }
+]

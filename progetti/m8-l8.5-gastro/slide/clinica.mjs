@@ -1744,6 +1744,30 @@ export const CSS_CLINICA = `
 .rene3 .pd{font-family:'Inter',sans-serif;font-size:22px;fill:var(--fg);text-anchor:middle}
 .rene3 .fr{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
 
+/* ---- 8.5: gastroenterologia ---- */
+.tubo svg,.asterixis svg{width:100%;height:auto;overflow:visible}
+.tubo .organo{fill:#F4D9C6;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.tubo .treitz{stroke:var(--acc);stroke-width:5;stroke-dasharray:14 10}
+.tubo .tt{font-family:'Inter',sans-serif;font-size:24px;font-weight:700;fill:var(--acc);text-anchor:middle}
+.tubo .zona{opacity:0;animation:appari .5s both}
+.tubo .zona.off{animation:none;opacity:.16}
+.tubo .zona .zt{font-family:'Inter',sans-serif;font-size:32px;font-weight:800;fill:var(--tit)}
+.tubo .zona.key .zt{fill:var(--acc)}
+.tubo .zona .zd{font-family:'Inter',sans-serif;font-size:24px;fill:var(--fg)}
+.tubo .sangue{fill:#B9262E;opacity:0;animation:appari .5s both}
+.tubo .sangue.nero{fill:#2B2420}
+.tubo .lab{font-family:'Inter',sans-serif;font-size:22px;font-weight:600;fill:var(--fg);text-anchor:middle}
+.asterixis .braccio{fill:#F1DCCB;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.asterixis .mano{fill:#F1DCCB;stroke:var(--tit);stroke-width:5;stroke-linejoin:round;transform-box:fill-box;transform-origin:left center;animation:sbatte 1.2s ease-in-out infinite}
+.asterixis .fr{fill:none;stroke:var(--acc);stroke-width:5;stroke-linecap:round;opacity:0;animation:appari .4s both}
+.asterixis .lab{font-family:'Inter',sans-serif;font-size:30px;font-weight:700;fill:var(--tit);text-anchor:middle}
+.asterixis .ld{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg);text-anchor:middle}
+.asterixis .fat{opacity:0;animation:scivola .4s both}
+.asterixis .fat .ft{font-family:'Inter',sans-serif;font-size:28px;font-weight:700;fill:var(--tit)}
+.asterixis .fat.key .ft{fill:var(--acc)}
+.asterixis .fat .fn{font-family:'Inter',sans-serif;font-size:28px;font-weight:800;fill:var(--acc)}
+@keyframes sbatte{0%,100%{transform:rotate(-16deg)}50%{transform:rotate(14deg)}}
+
 `;
 
 // ---------- pezzi ----------
@@ -3415,6 +3439,41 @@ export const CORPI_CLINICA = {
       return `<g class="pan ${on} ${(d.key ?? []).includes(i) ? 'key' : ''}" style="animation-delay:${num(.2 + i * .35)}s">${vaso}${rene}${ure}${fr}
         <text class="pt" x="${cx}" y="456">${T[0]}</text><text class="pd" x="${cx}" y="490">${T[1].split(': ')[0]}</text><text class="pd" x="${cx}" y="520">${T[1].split(': ')[1]}</text></g>`; };
     return `<div class="rene3"><svg class="fig gfx" viewBox="0 0 1656 540">${pan(0, 330)}${pan(1, 828)}${pan(2, 1326)}</svg></div>`;
+  },
+
+  // ---- 8.5: gastroenterologia ----
+  // Il tubo digerente in sagoma: esofago, stomaco, duodeno sopra la linea
+  // tratteggiata del legamento di Treitz, l'intestino sotto; `livello`
+  // 'alta' accende la parte alta con il sangue a fondo di caffè e la
+  // melena, 'bassa' il colon con il sangue rosso. A destra le cause.
+  tubo: d => {
+    const alta = d.livello !== 'bassa', tutti = d.livello == null;
+    const eso = `<path class="organo" d="M560 20h40v150h-40z"/>`;
+    const sto = `<path class="organo" d="M600 170c90-10 150 40 140 110s-80 90-150 70-80-70-60-120c10-30 30-50 70-60z"/>`;
+    const duo = `<path class="organo" d="M560 300c-40 20-60 60-40 100s70 50 110 40"/>`;
+    const colon = `<path class="organo" d="M330 460c0-50 40-80 80-80h320c40 0 80 30 80 80v60H330z"/><path class="organo" d="M380 380v-60h20v60M760 380v-60h20v60"/>`;
+    const treitz = `<line class="treitz" x1="300" y1="430" x2="860" y2="430"/><text class="tt" x="580" y="418">legamento di Treitz</text>`;
+    const sA = alta || tutti ? `<ellipse class="sangue" cx="640" cy="270" rx="46" ry="26" style="animation-delay:.8s"/>` : '';
+    const sB = !alta || tutti ? `<ellipse class="sangue" cx="700" cy="490" rx="40" ry="18" style="animation-delay:.8s"/>` : '';
+    const A = { t: 'Alta', d: ['a monte del Treitz: esofago, stomaco, duodeno', 'ematemesi: sangue rosso o «a fondo di caffè»', 'melena: feci nere, picee, maleodoranti', 'ulcera peptica, varici esofagee'] };
+    const B = { t: 'Bassa', d: ['colon e retto', 'sangue rosso dall’ano', 'diverticoli, neoplasie, emorroidi'] };
+    const zona = (z, y, on, key) => `<g class="zona ${on ? '' : 'off'} ${key ? 'key' : ''}" style="animation-delay:.4s"><text class="zt" x="960" y="${y}">${z.t}</text>${z.d.map((t, k) => `<text class="zd" x="960" y="${y + 40 + k * 36}">${piano(t)}</text>`).join('')}</g>`;
+    return `<div class="tubo"><svg class="fig gfx" viewBox="0 0 1656 540">${eso}${sto}${duo}${colon}${treitz}${sA}${sB}
+      ${zona(A, 70, alta || tutti, alta && !tutti)}${zona(B, 320, !alta || tutti, !alta && !tutti)}
+      <text class="lab" x="580" y="535">${piano(d.sotto ?? 'un’emorragia alta massiva può arrivare rossa dal retto')}</text></svg></div>`;
+  },
+
+  // L'asterixis: le braccia tese con i polsi estesi e le mani che
+  // sbattono come ali; a destra i fattori scatenanti (`attive`).
+  asterixis: d => {
+    const F = d.voci ?? ['Stipsi', 'Emorragia digestiva', 'Infezioni', 'Sedativi', 'Squilibri elettrolitici, disidratazione'];
+    const attive = d.attive ?? F.map((_, i) => i);
+    const braccio = (y) => `<path class="braccio" d="M80 ${y - 30}h420a30 30 0 0 1 0 60H80z"/><path class="mano" d="M500 ${y - 34}h90a16 16 0 0 1 16 16v4a16 16 0 0 1 -16 16h-20l10 30h-30l-10-30h-40z"/>
+      <path class="fr" d="M620 ${y - 70}q20 20 0 40M620 ${y + 30}q20 20 0 40" style="animation-delay:1s"/>`;
+    const lista = F.map((f, i) => `<g class="fat ${attive.includes(i) ? '' : 'off'} ${(d.key ?? []).includes(i) ? 'key' : ''}" style="animation-delay:${num(.5 + i * .25)}s"><text class="fn" x="900" y="${110 + i * 78}">${i + 1}</text><text class="ft" x="950" y="${110 + i * 78}">${piano(f)}</text></g>`).join('');
+    return `<div class="asterixis"><svg class="fig gfx" viewBox="0 0 1656 540">${braccio(170)}${braccio(330)}
+      <text class="lab" x="380" y="470">${piano(d.titolo ?? 'Asterixis, flapping tremor')}</text><text class="ld" x="380" y="504">${piano(d.sotto ?? 'braccia tese, polsi estesi: le mani «sbattono» come ali')}</text>
+      ${d.testa ? `<text class="lab" x="950" y="52" text-anchor="start" style="fill:var(--acc)">${piano(d.testa)}</text>` : ''}${lista}</svg></div>`;
   },
 
   percento: d => {
