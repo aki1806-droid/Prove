@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le lesioni da pressione sono considerate un indicatore della qualita' dell'assistenza infermieristica: in gran parte sono prevenibili."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le abbiamo gia' incontrate nella scala di Braden e nella mobilizzazione. Qui completiamo il quadro con la stadiazione, che e' la parte che i concorsi chiedono con maggiore precisione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stadiazione e' un linguaggio comune: chi dice stadio tre dice la stessa cosa in reparto, a domicilio e in sede d'esame. Per questo va imparata parola per parola."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La definizione internazionale, dell'NPIAP e dell'EPUAP: una lesione da pressione e' un danno localizzato della cute e dei tessuti sottostanti, di solito su una prominenza ossea o in relazione a un dispositivo medico."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Causato da pressione, o da pressione combinata con forze di taglio. Due parole da notare: dispositivo, perche' oggi molte lesioni nascono da sondini, maschere, tubi; e taglio, che abbiamo visto nella lezione tre punto due."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sedi dipendono dalla posizione. In posizione supina: sacro e talloni, le due sedi piu' frequenti, poi occipite, scapole, gomiti. Sul fianco: trocantere, malleoli, orecchio. Seduti: ischio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le lesioni da dispositivo: naso e orecchie per sondini e occhialini, il volto per le maschere della ventilazione non invasiva, le labbra per il tubo, la cute sotto collari, tutori e cateteri."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni dispositivo va controllato e la sua cute ispezionata. Una maschera stretta per una notte lascia un segno che la Braden non aveva previsto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stadiazione NPIAP-EPUAP. Stadio uno: la cute e' integra, ma c'e' un eritema non sbiancante. Si verifica con la digitopressione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si preme con un dito, o con un vetrino trasparente, e se l'area non impallidisce il danno e' iniziato. Nella cute scura l'eritema puo' non vedersi: si valutano temperatura, consistenza e dolore."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stadio uno e' il campanello d'allarme: da qui in poi si interviene subito sullo scarico. E' l'unico stadio in cui la cute e' ancora intera."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stadio due: perdita di cute a spessore parziale, con il derma esposto. Il letto e' rosa o rosso, umido. Puo' presentarsi come una flittene a contenuto sieroso, integra o rotta."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si vedono tessuto adiposo, slough o escara: se ci sono, lo stadio e' piu' avanzato. Il letto rosa e umido e' un derma vivo, non un fondo da riempire."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E attenzione: le lesioni da umidita', come la dermatite da incontinenza, e le lesioni da adesivi non sono lesioni da pressione di stadio due, anche se possono somigliarvi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stadio tre: perdita di cute a spessore totale, con il tessuto adiposo visibile. Possono esserci slough, escara, sottominature e tunnel. Ma non si vedono fascia, muscolo, tendine o osso."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La profondita' varia molto con la sede: sul naso o sull'orecchio uno stadio tre e' sottile, sul sacro di una persona obesa puo' essere profondo. Lo stadio dice che cosa si vede, non quanti centimetri."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stadio quattro: perdita a spessore totale con esposizione di fascia, muscolo, tendine, legamento, cartilagine o osso. Sono frequenti sottominature e tunnel, e c'e' il rischio di osteomielite."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola per distinguere il tre dal quattro e' semplice: nel quattro si vede qualcosa sotto l'adipe. Fascia, muscolo, tendine, legamento, cartilagine o osso: ne basta uno."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due categorie oltre gli stadi. Non stadiabile: la perdita e' a spessore totale, ma il fondo e' coperto da slough o escara e non si puo' valutarne la profondita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Solo dopo la rimozione si sapra' se e' uno stadio tre o quattro. Danno dei tessuti profondi: un'area rosso scuro, marrone o violacea che non sbianca, o una flittene a contenuto ematico."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il danno e' partito in profondita', vicino all'osso, e puo' evolvere rapidamente anche con ogni cura. Si vede la superficie, ma il danno sta sotto."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una regola: un'escara secca e stabile al tallone, senza segni di infezione, non si rimuove: funziona da copertura naturale, soprattutto se la perfusione e' scarsa."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due regole. La stadiazione non si percorre all'indietro: uno stadio quattro che si sta riempiendo di granulazione non diventa uno stadio tre, ma resta uno stadio quattro in guarigione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' i tessuti ricostruiti non sono uguali a quelli originali. Le lesioni da dispositivo si stadiano con lo stesso sistema; quelle delle mucose, invece, non si stadiano."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diagnosi differenziale, che i concorsi chiedono. La dermatite associata a incontinenza: area perineale diffusa, con margini sfumati, superficiale, non legata a una prominenza ossea."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le MARSI, lesioni cutanee da adesivi medicali: strappi e flittene da trazione causati da cerotti e medicazioni rimossi male. Le lesioni da frizione, o skin tear, nella cute fragile dell'anziano."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nessuna di queste e' una lesione da pressione, e ognuna ha una prevenzione diversa: un prodotto barriera, un cerotto rimosso bene, una manovra piu' delicata."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione comincia dalla valutazione: scala di Braden all'ingresso e a ogni variazione, ricordi la soglia di sedici della lezione due punto tre."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rivalutazione non e' a scadenza: ogni variazione clinica, un intervento, una febbre, un peggioramento, riapre la Braden."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ispezione quotidiana della cute, con attenzione a tutte le sedi a rischio e ai dispositivi, e valutazione nutrizionale. Tre gesti, ogni giorno, e la maggior parte delle lesioni non nasce."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi. Riposizionamento programmato, con il decubito laterale a trenta gradi, come nella lezione tre punto due. Talloni sospesi, sollevati dal materasso."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Superfici di supporto: materassi in schiuma ad alta specificita' o viscoelastici per il rischio moderato, superfici dinamiche a pressione alternata per il rischio alto o quando la lesione e' gia' presente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma nessuna superficie sostituisce il riposizionamento. Gestione del microclima e dell'umidita', con detergenti delicati e prodotti barriera."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nutrizione adeguata in proteine e calorie, come nella lezione tre punto tre. Niente massaggi. E protezione della cute sotto i dispositivi, con medicazioni in schiuma dove indicato."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente seduto in poltrona o in carrozzina. Cuscino antidecubito specifico, mai a ciambella, che comprime i vasi intorno all'area e peggiora la perfusione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riposizionamento piu' frequente, ogni ora. Se la persona e' in grado, le si insegna a spostare il peso ogni quindici minuti. E i piedi ben appoggiati, per non scaricare tutto sugli ischi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Al sacro di un paziente allettato, Braden undici, compare un'area violacea non sbiancante su cute integra, dolente. Come la classifichi?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' uno stadio uno, che e' eritema rosso: e' un danno dei tessuti profondi. Che cosa fai? Scarico completo della sede, niente decubito supino, superficie dinamica, riposizionamento programmato."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Valutazione nutrizionale, gestione dell'umidita', documentazione con misure e foto, segnalazione secondo procedura: la lesione e' insorta in reparto, e si dichiara."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E sorveglianza ravvicinata, perche' puo' evolvere rapidamente verso uno stadio tre o quattro."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto le lesioni da pressione sono monitorate come indicatore di qualita', con procedure aziendali di prevenzione e trattamento, la Braden integrata nella cartella elettronica."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la segnalazione delle lesioni insorte durante la degenza. A domicilio, gli ausili antidecubito, materassi e cuscini, si ottengono tramite il distretto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, collega sempre la prevenzione alla responsabilita': una lesione insorta in reparto con una Braden non compilata e' difficile da difendere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella da fotografare. Stadio uno: eritema non sbiancante su cute integra. Stadio due: spessore parziale, derma esposto, flittene sierosa. Stadio tre: spessore totale, adipe visibile."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stadio quattro: esposizione di fascia, muscolo, tendine, osso. Non stadiabile: fondo coperto. Danno dei tessuti profondi: viola o marrone, flittene ematica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Pressione, con o senza taglio, su prominenza ossea o dispositivo. Non si retrostadia. Escara secca e stabile al tallone: non si rimuove."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dermatite da incontinenza e MARSI non sono lesioni da pressione. Niente ciambelle, niente massaggi. E la Braden compilata, sempre."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: ulcere vascolari e piede diabetico. A tra poco."
+ }
+]

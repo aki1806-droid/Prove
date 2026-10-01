@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il wound care e' una delle aree in cui l'infermiere ha l'autonomia piu' ampia: valuta la lesione, sceglie la medicazione, ne segue l'evoluzione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' anche un'area in cui l'errore piu' comune non e' tecnico, ma di metodo: medicare senza aver valutato. Si guarda la ferita, si apre la medicazione che c'e' nell'armadio, e si copre."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questo modulo parte dunque dalla valutazione, perche' la medicazione giusta discende da una lesione ben descritta. Otto lezioni: valutazione, lesioni da pressione, ulcere, ferite chirurgiche, medicazioni, stomie, drenaggi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La guarigione attraversa quattro fasi, che si sovrappongono. Emostasi: nei primi minuti e nelle prime ore, coagulo e vasocostrizione: il sangue si ferma prima che qualunque altra cosa cominci."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infiammatoria: nei primi giorni, con arrossamento, calore, edema ed essudato. Che quindi, in questa fase, non sono segni di infezione: sono la guarigione che lavora."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proliferativa: formazione del tessuto di granulazione, contrazione dei margini ed epitelizzazione, nell'arco di giorni e settimane: e' la fase in cui la lesione si riempie e si chiude."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rimodellamento: la cicatrice si riorganizza e si rinforza per mesi, fino a uno-due anni, senza mai tornare alla resistenza della cute originaria."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre modalita'. Per prima intenzione: i margini sono accostati, come in una ferita chirurgica suturata, e la guarigione e' rapida, con una cicatrice sottile."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per seconda intenzione: la lesione resta aperta e si riempie dal fondo con tessuto di granulazione, come nelle lesioni da pressione e nelle ulcere: e' piu' lenta."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per terza intenzione: la ferita viene lasciata aperta per un periodo, per esempio perche' contaminata, e poi chiusa. Chiusura ritardata, non mancata."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una lesione si definisce cronica quando non progredisce attraverso le fasi della guarigione nei tempi attesi, indicativamente dopo quattro-sei settimane. Cronica non vuol dire vecchia: vuol dire ferma."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso resta bloccata nella fase infiammatoria. Le lesioni da pressione, le ulcere vascolari e il piede diabetico sono le lesioni croniche per eccellenza, e sono quelle dei prossimi video."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fattori che ostacolano la guarigione. Sistemici: eta', malnutrizione, ricordi le proteine della lezione tre punto tre, diabete, ridotta perfusione, anemia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora fumo, corticosteroidi e immunosoppressori, chemioterapia. Locali: pressione che persiste, infezione, necrosi, essudato non gestito, corpi estranei."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i traumi da medicazione, come rimuovere una garza aderente al fondo. Una lesione non guarisce se si medica bene ma non si toglie la causa."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento di valutazione piu' usato e' il modello TIME, che il programma cita espressamente. T, tissue: c'e' tessuto non vitale, necrosi o fibrina? Va rimosso con il debridement."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I, infection o inflammation: ci sono segni di infezione o di infiammazione persistente? Allora si controlla la carica batterica."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "M, moisture: l'umidita' e' in equilibrio, o la lesione e' troppo secca o troppo bagnata? Si gestisce l'essudato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, edge: i margini avanzano, o sono fermi, introflessi, sottominati? Quattro domande, e ciascuna porta a un intervento. E' questo che lo rende uno strumento, e non una sigla."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fondo della lesione si descrive anche con i colori. Nero: necrosi, l'escara. Giallo: slough, fibrina, tessuto devitalizzato umido."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rosso: tessuto di granulazione, che quando e' sano e' rosso vivo, granuloso e umido. Rosa: epitelizzazione, la cute nuova che avanza dai margini."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una granulazione pallida, scura o friabile, che sanguina facilmente, e' un segnale d'allarme: puo' indicare infezione o scarsa perfusione. Il rosso giusto e' un rosso vivo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'essudato: si descrivono quantita', assente, scarso, moderato o abbondante, e tipo: sieroso, chiaro; siero-ematico, rosato; ematico; purulento, torbido, giallo-verde."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'odore si valuta dopo la detersione, perche' alcune medicazioni, come gli idrocolloidi, producono un odore caratteristico che non indica infezione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un cambiamento improvviso di quantita', colore o odore e' un possibile segno di infezione. Il confronto con la medicazione precedente vale piu' del dato isolato."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I margini: regolari, macerati, introflessi, l'epibolia, che si arrotolano verso l'interno e impediscono all'epitelio di avanzare, o sottominati, con una cavita' sotto il bordo."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cute perilesionale: integra, arrossata, macerata, bianca e rammollita, segno di un essudato non gestito, eczematosa, callosa."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proteggere la cute intorno alla lesione e' parte della medicazione: una lesione che si allarga per macerazione e' una medicazione sbagliata, non una malattia che peggiora."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La misurazione. Si misurano lunghezza, larghezza e profondita', in centimetri. Per descrivere posizione di tunnel e sottominature si usa il metodo a orologio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ore dodici sono rivolte verso la testa del paziente: sottominatura di due centimetri a ore tre. Si misura con uno specillo sterile."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E per confrontare nel tempo, stessa tecnica e, quando possibile, stesso operatore. Una misura presa in due modi diversi non dice se la lesione migliora."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infezione. I segni classici sono rossore, calore, dolore, tumefazione e perdita di funzione. Ma nelle lesioni croniche l'infezione e' spesso piu' subdola, e i cinque segni classici possono mancare tutti."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dolore nuovo o in aumento, granulazione friabile, aumento dell'essudato, odore, una lesione che smette di migliorare o si allarga. E i segni sistemici: febbre, alterazione degli esami."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dolore che cambia e' uno dei segnali piu' precoci, e va sempre chiesto. Chi medica in silenzio perde il primo segno."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il campione per la coltura si preleva solo quando ci sono segni di infezione: tutte le lesioni croniche sono colonizzate, e un tampone fatto a caso da' sempre un risultato."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima si deterge con fisiologica, poi si campiona il tessuto vitale, non il pus o la necrosi. La tecnica piu' usata e' quella di Levine."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si ruota il tampone su circa un centimetro quadrato di tessuto vitale, con una lieve pressione. Il riferimento resta la biopsia tissutale, di competenza medica."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La documentazione fotografica e' molto utile per seguire l'evoluzione, ma ha regole precise. Il consenso della persona. Un righello o un'etichetta di riferimento nella foto, perche' la misura si legga anche dopo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stessa distanza, luce e angolazione fra una foto e l'altra. Data, sede, identificativo. E l'archiviazione sicura secondo la procedura aziendale."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Mai sul telefono personale: e' la violazione della privacy vista nella lezione uno punto sette."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima della medicazione, la detersione, a ogni cambio: si usa soluzione fisiologica o acqua potabile, a temperatura ambiente o tiepida, perche' una lesione raffreddata rallenta la guarigione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle lesioni con biofilm si usano soluzioni detergenti specifiche. Gli antisettici non si usano di routine sulle lesioni croniche: possono danneggiare il tessuto di granulazione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si riservano a indicazioni specifiche e periodi limitati. Detergere non e' disinfettare: la prima cosa si fa sempre, la seconda quasi mai."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete esistono infermieri esperti in wound care, spesso con formazione specifica, ambulatori dedicati e prontuari aziendali delle medicazioni avanzate."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La continuita' con il territorio passa da ADI e ambulatori distrettuali, perche' la maggior parte delle lesioni croniche si cura a casa, e chi le medica a casa deve descriverle nello stesso modo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la parola chiave e' valutazione strutturata: TIME, misure, foto, documentazione. Chi descrive bene una lesione ha gia' detto come la medichera'."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Quattro fasi: emostasi, infiammatoria, proliferativa, rimodellamento. Guarigione per prima, seconda e terza intenzione. TIME: tessuto, infezione, umidita', margini."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Colori: nero, giallo, rosso, rosa. Misure con le ore dodici verso la testa. Tampone solo con segni di infezione, dopo la detersione. [warm] Nella prossima lezione: le lesioni da pressione. A tra poco."
+ }
+]
