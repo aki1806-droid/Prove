@@ -1714,6 +1714,36 @@ export const CSS_CLINICA = `
 .sensore .mt{font-family:'Inter',sans-serif;font-size:28px;font-weight:800;fill:var(--acc);text-anchor:middle;opacity:0;animation:appari .4s both}
 .sensore .tk{font-family:'Inter',sans-serif;font-size:22px;fill:var(--fg);text-anchor:middle}
 
+/* ---- 8.4: nefrologia ---- */
+.fistola svg,.rene3 svg{width:100%;height:auto;overflow:visible}
+.fistola .braccio{fill:#F1DCCB;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.fistola .art{fill:none;stroke:#D70328;stroke-width:12;stroke-linecap:round}
+.fistola .vena{fill:none;stroke:#5FA8E0;stroke-width:12;stroke-linecap:round}
+.fistola .vena.grossa{stroke-width:26;stroke:#3F7FBF}
+.fistola .anast{fill:#8E5BB5;stroke:var(--tit);stroke-width:3;opacity:0;animation:pop .4s both;transform-box:fill-box;transform-origin:center}
+.fistola .onda{fill:none;stroke:var(--acc);stroke-width:4;stroke-linecap:round;opacity:0;animation:appari .4s both}
+.fistola .lab{font-family:'Inter',sans-serif;font-size:26px;font-weight:700;fill:var(--tit);text-anchor:middle}
+.fistola .ld{font-family:'Inter',sans-serif;font-size:22px;fill:var(--fg);text-anchor:middle}
+.fistola .no{opacity:0;animation:scivola .4s both}
+.fistola .no.off{animation:none;opacity:.18}
+.fistola .no .nt{font-family:'Inter',sans-serif;font-size:27px;font-weight:700;fill:var(--tit)}
+.fistola .no .nx{font-family:'Inter',sans-serif;font-size:30px;font-weight:800;fill:var(--acc)}
+.fistola .no.key .nt{fill:var(--acc)}
+.fistola .bracciale{fill:none;stroke:var(--acc);stroke-width:8;stroke-dasharray:14 10;opacity:0;animation:appari .5s both}
+.fistola .croce{fill:none;stroke:var(--acc);stroke-width:12;stroke-linecap:round;opacity:0;animation:appari .3s both}
+.rene3 .pan{opacity:0;animation:appari .5s both}
+.rene3 .pan.off{animation:none;opacity:.18}
+.rene3 .rene{fill:#E8B7A8;stroke:var(--tit);stroke-width:5}
+.rene3 .rene.danno{fill:#C8323A}
+.rene3 .vaso{fill:none;stroke:#D70328;stroke-width:14;stroke-linecap:round}
+.rene3 .vaso.poco{stroke-width:6;stroke-dasharray:12 12}
+.rene3 .ure{fill:none;stroke:#E9C84A;stroke-width:12;stroke-linecap:round}
+.rene3 .blocco{fill:#2B2420;stroke:var(--tit);stroke-width:3}
+.rene3 .pt{font-family:'Inter',sans-serif;font-size:32px;font-weight:800;fill:var(--tit);text-anchor:middle}
+.rene3 .pan.key .pt{fill:var(--acc)}
+.rene3 .pd{font-family:'Inter',sans-serif;font-size:22px;fill:var(--fg);text-anchor:middle}
+.rene3 .fr{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
+
 `;
 
 // ---------- pezzi ----------
@@ -3346,6 +3376,45 @@ export const CORPI_CLINICA = {
       <text class="mt" x="${x0 + 600 + lag / 2}" y="${Y(300) - 84}" style="animation-delay:2.2s">${piano(d.ritardo ?? '10–15 minuti di ritardo')}</text>
       <text class="leg" x="${x0}" y="60" fill="#D70328">glicemia nel sangue (capillare)</text><text class="leg" x="${x0}" y="96" fill="#5FA8E0">glucosio interstiziale (sensore)</text>
       <text class="tk" x="${x1}" y="${y0 + 36}" text-anchor="end" style="font-size:20px">${piano(d.sotto ?? 'in ipoglicemia, o se non torna con i sintomi: conferma con il dito')}</text></svg></div>`;
+  },
+
+  // ---- 8.4: nefrologia ----
+  // L'avambraccio con la fistola: l'arteria rossa e la vena azzurra che
+  // si incontrano all'anastomosi, la vena che si ingrossa a valle con le
+  // onde del fremito; a destra l'elenco dei «mai» (`voci`, `attive`); in
+  // modo 'pressione' il bracciale barrato.
+  fistola: d => {
+    const y = 300, x0 = 120, x1 = 700;
+    const braccio = `<path class="braccio" d="M${x0 - 60} ${y - 110}h${x1 - x0 + 40}c60 0 110 40 110 110s-50 110-110 110h-${x1 - x0 + 40}z"/>`;
+    const art = `<path class="art" d="M${x0 - 40} ${y + 50}H${x0 + 260}"/>`;
+    const vena = `<path class="vena" d="M${x0 - 40} ${y - 50}H${x0 + 230}"/><path class="vena grossa" d="M${x0 + 300} ${y - 50}H${x1 + 40}"/>`;
+    const anast = `<circle class="anast" cx="${x0 + 270}" cy="${y}" r="30" style="animation-delay:.8s"/><path class="vena" d="M${x0 + 260} ${y + 50}c20 0 20-100 40-100"/>`;
+    const onde = [0, 1, 2].map(k => `<path class="onda" d="M${x0 + 380 + k * 90} ${y - 100}q15-16 30 0t30 0" style="animation-delay:${num(1.2 + k * .2)}s"/>`).join('');
+    const press = d.modo === 'pressione' ? `<rect class="bracciale" x="${x0 + 420}" y="${y - 130}" width="120" height="260" rx="20" style="animation-delay:.6s"/><path class="croce" d="M${x0 + 420} ${y - 130}l120 260M${x0 + 540} ${y - 130}l-120 260" style="animation-delay:1.2s"/>` : '';
+    const V = d.voci ?? ['Misurare la pressione', 'Prelievi e cannule', 'Lacci, bracciali, orologi, indumenti stretti', 'Sollevare pesi', 'Dormirci sopra'];
+    const attive = d.attive ?? V.map((_, i) => i);
+    const lista = V.map((v, i) => `<g class="no ${attive.includes(i) ? '' : 'off'} ${(d.key ?? []).includes(i) ? 'key' : ''}" style="animation-delay:${num(.5 + i * .25)}s"><text class="nx" x="960" y="${100 + i * 80}">✗</text><text class="nt" x="1010" y="${100 + i * 80}">${piano(v)}</text></g>`).join('');
+    return `<div class="fistola"><svg class="fig gfx" viewBox="0 0 1656 540">${braccio}${art}${vena}${anast}${onde}${press}
+      <text class="lab" x="${x0 + 90}" y="${y + 100}" style="fill:#D70328">arteria</text><text class="lab" x="${x0 + 90}" y="${y - 90}" style="fill:#3F7FBF">vena</text>
+      <text class="lab" x="${x0 + 520}" y="${y - 130}" style="fill:var(--acc)">${press ? '' : 'fremito'}</text>
+      <text class="lab" x="420" y="500">${piano(d.testo ?? 'Fistola artero-venosa: la vena si arterializza e diventa pungibile')}</text>
+      ${d.titolo ? `<text class="lab" x="1010" y="52" text-anchor="start" style="fill:var(--acc);font-size:30px">${piano(d.titolo)}</text>` : ''}${lista}</svg></div>`;
+  },
+
+  // Le tre cause dell'insufficienza renale acuta: prerenale (il vaso che
+  // porta poco sangue), renale (il rene danneggiato), postrenale
+  // (l'uretere bloccato). `attive` accende i pannelli.
+  rene3: d => {
+    const attive = d.attive ?? [0, 1, 2];
+    const pan = (i, cx) => { const cy = 230, on = attive.includes(i) ? '' : 'off';
+      const rene = `<path class="rene ${i === 1 ? 'danno' : ''}" d="M${cx} ${cy - 110}c-70 0-110 50-110 110s40 110 110 110c30 0 50-20 50-40s-20-30-20-70 20-50 20-70-20-40-50-40z"/>`;
+      const vaso = `<path class="vaso ${i === 0 ? 'poco' : ''}" d="M${cx - 260} ${cy - 20}h150"/>`;
+      const ure = `<path class="ure" d="M${cx + 20} ${cy + 100}c0 60 10 90 20 140"/>${i === 2 ? `<circle class="blocco" cx="${cx + 34}" cy="${cy + 190}" r="18"/>` : ''}`;
+      const fr = i === 0 ? `<path class="fr" pathLength="1" d="M${cx - 240} ${cy - 70}h100M${cx - 160} ${cy - 90}l20 20-20 20" style="animation-delay:1s"/>` : i === 2 ? `<path class="fr" pathLength="1" d="M${cx + 90} ${cy + 160}v60M${cx + 76} ${cy + 204}l14 16 14-16" style="animation-delay:1s"/>` : '';
+      const T = [['Prerenale', 'poco sangue: disidratazione, emorragia, shock, scompenso'], ['Renale', 'danno del tessuto: nefrotossici, contrasto, sepsi'], ['Postrenale', 'l’urina non esce: prostata, calcoli, catetere ostruito']][i];
+      return `<g class="pan ${on} ${(d.key ?? []).includes(i) ? 'key' : ''}" style="animation-delay:${num(.2 + i * .35)}s">${vaso}${rene}${ure}${fr}
+        <text class="pt" x="${cx}" y="470">${T[0]}</text><text class="pd" x="${cx}" y="504">${T[1]}</text></g>`; };
+    return `<div class="rene3"><svg class="fig gfx" viewBox="0 0 1656 540">${pan(0, 330)}${pan(1, 828)}${pan(2, 1326)}</svg></div>`;
   },
 
   percento: d => {

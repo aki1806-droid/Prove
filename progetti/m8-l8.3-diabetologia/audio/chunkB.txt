@@ -38,7 +38,7 @@ In Veneto il diabete e' gestito con percorsi diagnostico-terapeutici che integra
 
 E fornitura dei dispositivi per l'autocontrollo tramite il distretto. E' il modello della gestione integrata della cronicita', che vedremo nel modulo tredici.
 
-Ricapitoliamo. Tipo uno: chetoacidosi. Tipo due: stato iperosmolare. Diagnosi: digiuno da centoventisei, glicata da sei virgola cinque. Il sensore ha un ritardo di dieci-quindici minuti. In ospedale basal-bolus, target centoquaranta-centottanta.
+Ricapitoliamo. Tipo uno: chetoacidosi. Tipo due: stato iperosmolare. Diagnosi: digiuno da centoventisei, glicata da sei virgola cinque. Sensore: ritardo di dieci-quindici minuti. Basal-bolus, target centoquaranta-centottanta.
 
 Chetoacidosi: liquidi, insulina endovena, e attenzione al potassio. Nei giorni di malattia non si sospende l'insulina. Levotiroxina a digiuno. Corticosteroidi: mai sospensione brusca.
 

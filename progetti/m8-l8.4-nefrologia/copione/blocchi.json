@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il rene e' l'organo che fa i conti: elimina scorie, regola acqua ed elettroliti, controlla l'equilibrio acido-base e la pressione. Quando cede, i conti saltano tutti insieme."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo l'insufficienza renale acuta e cronica, la dialisi, con la fistola artero-venosa, che i concorsi chiedono sempre, e alcuni quadri urologici."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un filo per tutta la lezione: la diuresi oraria. E' il numero che dice per primo se il rene sta cedendo, prima della creatinina e prima dei sintomi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insufficienza renale acuta: la funzione renale si riduce in ore o giorni. Le cause si dividono in tre gruppi. Prerenali: il rene e' sano ma riceve poco sangue: disidratazione, emorragia, shock, scompenso."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Renali: il danno e' nel tessuto renale: farmaci nefrotossici, mezzi di contrasto, sepsi. Postrenali: l'urina non riesce a uscire: ipertrofia prostatica, calcoli, e un banale catetere ostruito."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I criteri: un aumento rapido della creatinina o una diuresi sotto mezzo millilitro per chilo per ora per sei ore: ecco perche' la diuresi oraria e' cosi' importante."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Davanti a un'oliguria, prima di pensare al rene, l'infermiere controlla le cause piu' semplici. Il catetere e' pervio, senza pieghe o coaguli? C'e' un globo vescicale, verificabile con il bladder scanner?"
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La persona e' disidratata? Che cosa dicono parametri e bilancio? Ci sono farmaci nefrotossici in corso? Spesso l'anuria si risolve sbloccando un catetere."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insufficienza renale cronica: una riduzione della funzione che dura piu' di tre mesi. Si classifica in stadi in base al filtrato glomerulare, da G uno, con filtrato normale, a G cinque, sotto quindici."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il G cinque e' l'insufficienza terminale, che richiede dialisi o trapianto. Le cause principali sono diabete e ipertensione: le due malattie delle lezioni precedenti arrivano qui."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le complicanze: iperkaliemia, acidosi metabolica, anemia, perche' il rene produce meno eritropoietina, sovraccarico di liquidi, ipertensione, alterazioni di calcio e fosforo con danno osseo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza. Bilancio idrico e peso. Una dieta con proteine adattate allo stadio, ridotte prima della dialisi, aumentate in dialisi, come nella lezione tre punto tre, e riduzione di potassio, fosforo e sodio."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Restrizione idrica se prescritta. Farmaci con dosi adattate, evitando i nefrotossici."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la protezione del patrimonio venoso dell'arto non dominante, che potrebbe servire per una fistola: niente prelievi ne' cannule su quel braccio, come abbiamo detto nella lezione sei punto uno."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emodialisi: il sangue esce dal corpo, passa attraverso un filtro, il rene artificiale, e rientra depurato. Di norma tre sedute a settimana di circa quattro ore."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve un accesso vascolare ad alto flusso: la fistola artero-venosa, che e' l'accesso di scelta, una protesi vascolare, oppure un catetere venoso centrale tunnellizzato per dialisi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fistola artero-venosa: il chirurgo collega un'arteria e una vena dell'avambraccio, per esempio la radiale e la cefalica. La vena riceve sangue ad alta pressione, si dilata, si rinforza, e diventa pungibile per la dialisi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il controllo quotidiano: si palpa il fremito, una vibrazione continua, il thrill, e si ausculta il soffio, il bruit."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il fremito scompare, la fistola potrebbe essere trombizzata: si avvisa subito, perche' un intervento tempestivo puo' salvarla. Un fremito che manca e' una telefonata, non un'annotazione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco l'elenco che i concorsi chiedono sempre: che cosa non si fa sul braccio con la fistola. Niente misurazione della pressione. Niente prelievi ne' cannule."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente lacci, bracciali, orologi, indumenti stretti. Non sollevare pesi. Non dormire sopra quel braccio. Tutto cio' che comprime puo' trombizzarla."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molti reparti mettono un cartello al letto, perche' basta un collega distratto per perdere un accesso che e' la vita del paziente."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente che rientra dalla dialisi. Puo' essere ipoteso, perche' sono stati rimossi liquidi: attenzione all'alzata. Puo' sanguinare dai punti di puntura, perche' durante la seduta si usa l'eparina."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il peso si confronta con il peso secco, l'obiettivo stabilito dal nefrologo. Stanchezza e crampi sono frequenti."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E piu' raramente la sindrome da disequilibrio, con cefalea, nausea, confusione, per i rapidi spostamenti di soluti: si segnala, non si aspetta che passi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il catetere per dialisi merita una regola a parte. E' gestito dal personale della dialisi o secondo una procedura specifica, perche' i suoi lumi contengono un lock ad alta concentrazione di eparina o citrato."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se qualcuno lo usasse per un'infusione spingendo prima la soluzione, inietterebbe al paziente una dose di anticoagulante molto alta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi non si usa per infusioni o prelievi senza indicazione, e quando si usa, il lock va aspirato e scartato, mai spinto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dialisi peritoneale: il filtro e' il peritoneo stesso. Attraverso un catetere addominale si introduce un liquido, che resta in addome per alcune ore e poi viene drenato portando via scorie e acqua."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' essere manuale, con scambi piu' volte al giorno, o automatizzata, con una macchina di notte. Si fa a domicilio, e richiede un'asepsi rigorosa."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La complicanza principale e' la peritonite: il primo segno e' spesso un liquido drenato torbido, poi dolore addominale e febbre. Si raccoglie un campione del liquido e si avvisa il centro."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due quadri urologici. La ritenzione l'abbiamo vista nella lezione tre punto sei. L'ematuria: si monitorano colore e coaguli."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo alcuni interventi, come la resezione prostatica, si usa il catetere a tre vie con irrigazione continua, per impedire la formazione di coaguli."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bilancio richiede un piccolo calcolo: le urine reali sono il drenato meno l'irrigato. Chi segna tutto il drenato come diuresi inventa litri di urina che non esistono."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se l'irrigazione non defluisce, compaiono dolore e globo, c'e' un'ostruzione da coaguli da segnalare."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La colica renale: un dolore lombare molto intenso che si irradia verso l'inguine. Un segno che aiuta: la persona e' agitata, si muove, non trova una posizione."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al contrario di chi ha una peritonite, che sta immobile perche' ogni movimento fa male. Nausea, ematuria. L'assistenza: analgesia, idratazione secondo indicazione, e filtrare le urine per recuperare il calcolo da analizzare."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente in emodialisi con fistola al braccio sinistro; un collega sta per misurare la pressione a sinistra, perche' il destro ha una cannula. Che cosa fai?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo fermi: sul braccio con la fistola non si misura la pressione. Si misura sul destro, al di sopra della cannula se possibile, o si valutano alternative come l'arto inferiore secondo procedura."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Poi verifichi il fremito della fistola e suggerisci un cartello al letto. Un accesso che e' la vita del paziente non si affida alla memoria dei colleghi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto i pazienti in dialisi sono seguiti da una rete nefrologica con centri ospedalieri e centri ad assistenza limitata."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la dialisi peritoneale domiciliare prevede un addestramento strutturato della persona e del caregiver, condotto dagli infermieri di nefrologia."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la dialisi peritoneale e' un buon esempio di autogestione sostenuta dall'educazione infermieristica: la persona fa a casa, ogni giorno, cio' che le e' stato insegnato bene una volta."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella della fistola, da fotografare. Ogni giorno: fremito e soffio. Mai: pressione, prelievi, cannule, lacci, orologi, pesi, dormirci sopra."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fremito assente: possibile trombosi, si avvisa subito. Tre righe, e il quiz le chiede tutte e tre, quasi sempre nella forma: quale di queste azioni e' corretta sul braccio con la fistola? Nessuna."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Insufficienza acuta prerenale, renale, postrenale. Davanti all'oliguria, prima il catetere e il globo. Insufficienza cronica: iperkaliemia, anemia, sovraccarico. Emodialisi tre volte a settimana."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fistola: fremito ogni giorno, niente pressione. Lock del catetere da dialisi: aspirare, mai spingere. Peritoneale: liquido torbido e' peritonite. Colica: agitato; peritonite: immobile."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: apparato digerente e fegato. A tra poco."
+ }
+]

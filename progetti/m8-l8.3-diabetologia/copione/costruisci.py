@@ -66,7 +66,7 @@ BLOCCHI = [
  (16,"chiaro",0,"In Veneto il diabete e' gestito con percorsi diagnostico-terapeutici che integrano i servizi di diabetologia e i medici di medicina generale, con educazione terapeutica strutturata, spesso affidata agli infermieri."),
  (16,"chiaro",0,"E fornitura dei dispositivi per l'autocontrollo tramite il distretto. E' il modello della gestione integrata della cronicita', che vedremo nel modulo tredici."),
 
- (17,"chiaro",0,"Ricapitoliamo. Tipo uno: chetoacidosi. Tipo due: stato iperosmolare. Diagnosi: digiuno da centoventisei, glicata da sei virgola cinque. Il sensore ha un ritardo di dieci-quindici minuti. In ospedale basal-bolus, target centoquaranta-centottanta."),
+ (17,"chiaro",0,"Ricapitoliamo. Tipo uno: chetoacidosi. Tipo due: stato iperosmolare. Diagnosi: digiuno da centoventisei, glicata da sei virgola cinque. Sensore: ritardo di dieci-quindici minuti. Basal-bolus, target centoquaranta-centottanta."),
  (17,"chiaro",0,"Chetoacidosi: liquidi, insulina endovena, e attenzione al potassio. Nei giorni di malattia non si sospende l'insulina. Levotiroxina a digiuno. Corticosteroidi: mai sospensione brusca."),
  (17,"chiaro",0,"[warm] Nella prossima lezione: rene e vie urinarie. A tra poco."),
 ]
