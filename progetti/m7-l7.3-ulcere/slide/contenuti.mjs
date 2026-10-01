@@ -6,8 +6,8 @@
 // compressione. Il piede diabetico sta nelle griglie, nel percorso e nella
 // fascia di Wagner.
 
-const VEN = ["**Malleolo mediale**", "Superficiale, margini irregolari", "Essudato **abbondante**", "Edema, cute **pigmentata**, eczema", "Dolore moderato, **migliora sollevando**"];
-const ART = ["**Dita**, tallone, dorso del piede", "Margini **netti**, a stampo", "Fondo pallido o necrotico, essudato **scarso**", "Cute **pallida, fredda, glabra**", "Dolore intenso, **peggiora sollevando**"];
+const VEN = ["**Malleolo mediale**", "Superficiale, margini irregolari", "Essudato **abbondante**", "Edema, cute **pigmentata**, eczema", "Dolore: **migliora sollevando**"];
+const ART = ["**Dita**, tallone, dorso del piede", "Margini **netti**, a stampo", "Fondo pallido o necrotico", "Essudato **scarso**", "Cute **pallida, fredda, glabra**", "Dolore: **peggiora sollevando**"];
 
 export const SCENE = [
 {id:"s01", tipo:"copertina", tema:"chiaro",
@@ -29,10 +29,10 @@ export const SCENE = [
   testo:"La gamba racconta **anni di ristagno** prima dell'ulcera: chi guarda solo l'ulcera non vede la causa."},
 
 {id:"s09", tipo:"gambe2", tema:"chiaro", sopratitolo:"L'ulcera arteriosa · ischemia: il sangue arterioso non arriva · le zone più distali", attive:[1], key:[1], voci:[[], ART.slice(0,1)]},
-{id:"s10", tipo:"gambe2", tema:"chiaro", sopratitolo:"L'ulcera arteriosa · margini netti, come fatti con uno stampo", attive:[1], key:[1], voci:[[], ART.slice(0,4)]},
+{id:"s10", tipo:"gambe2", tema:"chiaro", sopratitolo:"L'ulcera arteriosa · margini netti, come fatti con uno stampo", attive:[1], key:[1], voci:[[], ART.slice(0,5)]},
 {id:"s11", tipo:"gambe2", tema:"chiaro", sopratitolo:"L'ulcera arteriosa · sollievo con la gamba penzoloni fuori dal letto · polsi assenti o ridotti", attive:[1], key:[1], voci:[[], ART]},
 
-{id:"s12", tipo:"gambe2", tema:"chiaro", sopratitolo:"Il confronto · sede, essudato, cute", voci:[VEN.slice(0,4), ART.slice(0,4)]},
+{id:"s12", tipo:"gambe2", tema:"chiaro", sopratitolo:"Il confronto · sede, essudato, cute", voci:[VEN.slice(0,4), ART.slice(0,5)]},
 {id:"s13", tipo:"confronto", tema:"chiaro", sopratitolo:"Se ricordi solo una riga, ricorda quella del dolore e della posizione: è la più chiesta", col:[
   {h:"Venosa", t:"**migliora** sollevando · polsi **presenti**", key:true}, {h:"Arteriosa", t:"**peggiora** sollevando · polsi **assenti**"}]},
 

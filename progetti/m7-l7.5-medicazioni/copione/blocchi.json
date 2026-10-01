@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le medicazioni avanzate sono decine, con nomi commerciali diversi in ogni azienda. Studiarle per marca e' inutile."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si studiano per classe, e ogni classe risponde a un problema preciso della lesione: troppo secca, troppo bagnata, necrotica, infetta."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scelta della medicazione discende dalla valutazione con il TIME della lezione sette punto uno: prima la domanda, poi la risposta che sta nell'armadio."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio che sta alla base di tutte le medicazioni avanzate: una lesione guarisce piu' rapidamente in un ambiente umido controllato."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una lesione secca forma una crosta e rallenta la migrazione delle cellule; una lesione troppo bagnata macera la cute intorno."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La medicazione serve a mantenere l'equilibrio: aggiungere umidita' dove manca, assorbirla dove eccede. Tutte le classi che seguono fanno una di queste due cose, o proteggono."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le classi. I film in poliuretano: trasparenti, semipermeabili, lasciano passare gas e vapore, non liquidi ne' batteri."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano per proteggere la cute, sugli stadi uno, su lesioni superficiali senza essudato, come medicazione secondaria e per fissare gli accessi vascolari."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non assorbono: su una lesione essudante provocano macerazione. Il film si vede attraverso, e questo e' il suo pregio: la lesione si controlla senza scoprirla."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli idrocolloidi: medicazioni occlusive che a contatto con l'essudato formano un gel. Indicati per lesioni con essudato scarso o moderato."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Favoriscono il debridement autolitico, cioe' lo scioglimento del tessuto devitalizzato da parte degli enzimi della lesione stessa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla rimozione il gel ha un odore caratteristico e un aspetto giallastro che non va scambiato per pus: lo abbiamo detto nella lezione sette punto uno, l'odore si valuta dopo la detersione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si usano su lesioni infette, l'occlusione favorisce i batteri anaerobi, ne' molto essudanti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli idrogel: contengono molta acqua e cedono umidita'. Sono indicati sulle lesioni secche, sulla necrosi e sullo slough da ammorbidire, perche' favoriscono il debridement autolitico."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiedono una medicazione secondaria, e vanno applicati solo sul fondo, proteggendo i margini dalla macerazione: l'acqua che serve al fondo fa male alla cute intorno."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli alginati, di calcio, derivati dalle alghe: altissimo assorbimento, formano un gel, e hanno proprieta' emostatiche, utili sulle lesioni che sanguinano."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le idrofibre, in carbossimetilcellulosa: anch'esse ad alto assorbimento, trattengono l'essudato in verticale, proteggendo i margini."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano su lesioni molto essudanti e per riempire cavita'. Mai su lesioni secche, che seccherebbero ancora di piu'. Richiedono una medicazione secondaria."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le schiume in poliuretano: assorbono essudato moderato o abbondante, offrono protezione meccanica e ammortizzazione, e molte hanno un bordo in silicone che si rimuove senza traumi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano anche in prevenzione, su sacro e talloni, e sotto i dispositivi, come abbiamo visto nella lezione sette punto due."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le medicazioni antimicrobiche: all'argento, allo iodio, al PHMB, al miele. Si usano quando c'e' un'infezione locale o il sospetto di biofilm, e per periodi limitati."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si rivaluta indicativamente dopo due settimane, e se l'infezione e' risolta si torna a una medicazione non antimicrobica. Non si usano a scopo preventivo, ne' all'infinito."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le altre classi. Il carbone attivo, per il controllo dell'odore, importante nelle lesioni neoplastiche e per la dignita' della persona. Le interfacce non aderenti, che proteggono il tessuto di granulazione alla rimozione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le medicazioni bioattive, collagene, acido ialuronico, modulatori delle proteasi, per le lesioni ferme nonostante una gestione corretta."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le garze tradizionali, che non vanno messe a contatto con il fondo: aderiscono e, alla rimozione, strappano il tessuto nuovo. E' il trauma da medicazione della lezione sette punto uno."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'albero decisionale, che e' il cuore della lezione. Lesione secca o necrotica: idrogel. Slough con poco essudato: idrocolloide o idrogel."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molto essudante: alginato, idrofibra, schiuma. Infetta: antimicrobica, e mai occlusiva. Granulazione con poco essudato: schiuma sottile o idrocolloide."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Epitelizzazione: film o idrocolloide sottile. Cavita': si riempie con alginato o idrofibra, senza stipare, perche' comprimere il fondo lo danneggia."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette righe, e ogni riga e' una risposta d'esame. Il quiz descrive la lesione, tu rispondi con la classe: non con la marca, con la classe."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terapia a pressione negativa, o NPWT. Nella lesione si posiziona una schiuma o una garza, si sigilla con un film, e una pompa applica una pressione subatmosferica."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso intorno a meno centoventicinque millimetri di mercurio, in modo continuo o intermittente. Gli effetti: rimuove l'essudato, riduce l'edema, stimola la granulazione e avvicina i margini."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La medicazione si cambia indicativamente ogni quarantotto-settantadue ore. Le controindicazioni: necrosi non rimossa, osteomielite non trattata, neoplasia nella lesione, vasi, organi o anastomosi esposti, fistole non esplorate."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cautela nel paziente anticoagulato, per il rischio di sanguinamento, che durante la terapia va cercato nel contenitore. La gestione: gli allarmi di perdita del sigillo e di contenitore pieno."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una regola: se la pompa resta spenta oltre il tempo previsto dalla procedura, spesso due ore, la medicazione va rimossa, perche' una schiuma chiusa senza aspirazione diventa un ambiente favorevole ai batteri."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il debridement, la rimozione del tessuto non vitale. Autolitico, con idrogel e idrocolloidi: lento, selettivo, indolore, di competenza infermieristica. Enzimatico, con prodotti specifici su prescrizione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meccanico, per esempio con garze che si seccano e strappano il tessuto: non selettivo e doloroso, oggi sconsigliato. Biologico, con larve sterili."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con taglienti: il debridement conservativo puo' essere eseguito da un infermiere formato, secondo le procedure aziendali; quello chirurgico e' medico."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E quando non si fa debridement. Sull'escara secca e stabile al tallone, senza infezione, come abbiamo visto. Sull'arto ischemico non rivascolarizzato, perche' il tessuto rimosso non puo' ricrescere e la lesione si allarga."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nella persona in fine vita, quando l'obiettivo non e' la guarigione ma il comfort: gestione dell'odore, dell'essudato e del dolore. Lo vedremo nel modulo undici."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Lesione sacrale stadio tre, fondo con slough per il sessanta per cento, essudato abbondante, cute perilesionale macerata, nessun segno di infezione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il TIME: tessuto non vitale da rimuovere; infezione assente; umidita' in eccesso; margini a rischio per la macerazione. Quattro lettere, quattro risposte."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scelta: detersione, protezione della cute perilesionale con un prodotto barriera, e una medicazione ad alto assorbimento, alginato o idrofibra con una schiuma come secondaria, valutando un debridement per lo slough."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E naturalmente scarico e nutrizione: la medicazione da sola non guarisce una lesione da pressione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto ogni azienda ha un prontuario delle medicazioni avanzate, con indicazioni d'uso, e infermieri esperti in wound care che fanno da consulenti. In alcuni percorsi la NPWT prosegue anche a domicilio."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, citare la scelta per classe in base al TIME mostra metodo: la commissione non vuole il nome del prodotto, vuole il ragionamento."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Ambiente umido controllato. Secca: idrogel. Essudante: alginato, idrofibra, schiuma. Infetta: antimicrobica, mai occlusiva, e per periodi limitati."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "NPWT: circa meno centoventicinque, cambio ogni quarantotto-settantadue ore, e se la pompa resta spenta troppo a lungo si rimuove. Debridement: autolitico, enzimatico, con taglienti, mai sull'escara stabile del tallone."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: le stomie. A tra poco."
+ }
+]

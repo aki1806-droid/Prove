@@ -2754,10 +2754,10 @@ export const CORPI_CLINICA = {
                       : `<rect class="ulcera art" x="${x1 + 120}" y="372" width="34" height="26" rx="4"/><rect class="ulcera art" x="${x0 - 30}" y="380" width="24" height="24" rx="4"/>`;
       const polso = `<g class="polso ${ven ? '' : 'no'}" style="animation-delay:1.2s"><circle cx="${x1 + 70}" cy="340" r="28"/><text x="${x1 + 70}" y="349">${ven ? '✓' : '✗'}</text></g>`;
       const T = ven ? ['Venosa', 'polsi presenti'] : ['Arteriosa', 'polsi assenti'];
-      const voci = (d.voci?.[i] ?? []).map((v, k) => `<text class="gv ${/^\*\*/.test(v) ? 'key' : ''}" x="${cx + 300}" y="${80 + k * 48}" style="animation-delay:${num(.6 + k * .18)}s">${piano(v)}</text>`).join('');
+      const voci = (d.voci?.[i] ?? []).map((v, k) => `<text class="gv ${/^\*\*/.test(v) ? 'key' : ''}" x="${cx + 290}" y="${80 + k * 48}" style="animation-delay:${num(.6 + k * .18)}s">${piano(v)}</text>`).join('');
       return `<g class="pan ${on} ${(d.key ?? []).includes(i) ? 'key' : ''}" style="animation-delay:${num(.2 + i * .35)}s">${cute}${pigm}${peli}${ulc}${polso}
         <text class="gt" x="${cx + 60}" y="500">${T[0]}</text><text class="gv" x="${cx + 60}" y="532" text-anchor="middle" style="animation-delay:1.3s">${T[1]}</text>${voci}</g>`; };
-    return `<div class="gambe2"><svg class="fig gfx" viewBox="0 0 1656 540">${gamba(0, 180)}${gamba(1, 940)}</svg></div>`;
+    return `<div class="gambe2"><svg class="fig gfx" viewBox="0 0 1656 540">${gamba(0, 180)}${gamba(1, 1000)}</svg></div>`;
   },
 
   // La scala dell'ABI: l'asse da 0 a 1,5 con le zone (ischemia grave,

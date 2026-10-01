@@ -45,7 +45,7 @@ BLOCCHI = [
  (9,"chiaro",0,"Cinque: digiuno, perche' tornera' in sala. Sei: parametri e segni di shock. Sette: rassicurare, perche' e' un'esperienza terrificante. Otto: avvisare subito il chirurgo."),
 
  (10,"chiaro",0,"La prevenzione della deiscenza. Insegnare alla persona a sostenere la ferita con un cuscino o con le mani quando tossisce, starnutisce o si muove."),
- (10,"chiaro",0,"Insegnare ad alzarsi girandosi prima sul fianco, invece di sollevarsi di colpo usando gli addominali. Nutrizione, controllo glicemico, e fasce addominali su indicazione. La deiscenza si previene con le stesse cose che la causano, al contrario."),
+ (10,"chiaro",0,"Insegnare ad alzarsi girandosi prima sul fianco, invece di sollevarsi di colpo usando gli addominali. Nutrizione, controllo glicemico, e fasce addominali su indicazione: le cause della deiscenza, al contrario."),
 
  (11,"chiaro",0,"Quando la ferita e' infetta o si e' aperta senza eviscerazione: si avvisa il chirurgo, si raccolgono i campioni su indicazione, con la tecnica della lezione sette punto uno: tessuto vitale, non pus."),
  (11,"chiaro",0,"E spesso la ferita viene aperta del tutto e lasciata guarire per seconda intenzione, con medicazioni avanzate o con la terapia a pressione negativa, che vediamo nella prossima lezione."),

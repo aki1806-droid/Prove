@@ -1531,6 +1531,44 @@ export const CSS_CLINICA = `
 .ssi .liv .ld{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg)}
 .ssi .ross{fill:#D9484F;opacity:0;animation:appari .6s both}
 
+/* ---- 7.5: medicazioni avanzate ---- */
+.umido svg,.npwt svg{width:100%;height:auto;overflow:visible}
+.umido .pan{opacity:0;animation:appari .5s both}
+.umido .pan.off{animation:none;opacity:.18}
+.umido .cute{fill:#F1DCCB;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.umido .fondo{fill:#C8323A}
+.umido .crosta{fill:#6B3A2A;stroke:var(--tit);stroke-width:3}
+.umido .lucido{fill:#F4B5BB;opacity:.9}
+.umido .macer{fill:#EDE3DA;stroke:#BFAFA2;stroke-width:3}
+.umido .goccia{fill:#9AC4E8;stroke:var(--tit);stroke-width:3;opacity:0;animation:pop .4s both;transform-box:fill-box;transform-origin:center}
+.umido .ut{font-family:'Inter',sans-serif;font-size:32px;font-weight:700;fill:var(--tit);text-anchor:middle}
+.umido .pan.key .ut{fill:var(--acc)}
+.umido .ud{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg);text-anchor:middle}
+.umido .uf{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
+.albero{display:grid;grid-template-columns:1fr 60px 1.1fr;gap:10px 18px;width:100%;align-items:center}
+.albero .r{display:contents}
+.albero .r > div{opacity:0;animation:scivola .45s both}
+.albero .r.off > div{animation:none;opacity:.2}
+.albero .lesione{font-family:'Inter',sans-serif;font-size:27px;font-weight:600;color:var(--tit);padding:10px 18px;border:2px solid var(--linea);border-radius:14px;background:var(--bg)}
+.albero .r.key .lesione{border-color:var(--acc);background:#FDECEF}
+.albero .fr{font-family:'Inter',sans-serif;font-size:34px;font-weight:800;color:var(--acc);text-align:center}
+.albero .classe{font-family:'Inter',sans-serif;font-size:27px;font-weight:700;color:var(--acc);padding:10px 18px}
+.albero .classe small{display:block;font-size:21px;font-weight:500;color:var(--fg)}
+.npwt .cute{fill:#F1DCCB;stroke:var(--tit);stroke-width:5;stroke-linejoin:round}
+.npwt .schiuma{fill:#2B2420;opacity:.85}
+.npwt .film{fill:none;stroke:#5FA8E0;stroke-width:6;stroke-linecap:round}
+.npwt .tubo{fill:none;stroke:var(--tit);stroke-width:8;stroke-linecap:round}
+.npwt .pompa{fill:var(--bg);stroke:var(--tit);stroke-width:5}
+.npwt .valore{font-family:'Inter',sans-serif;font-size:44px;font-weight:800;fill:var(--acc);text-anchor:middle}
+.npwt .et{font-family:'Inter',sans-serif;font-size:24px;font-weight:600;fill:var(--tit);text-anchor:middle}
+.npwt .goccia{fill:#9AC4E8;opacity:0;animation:appari .4s both}
+.npwt .eff{opacity:0;animation:scivola .5s both}
+.npwt .eff.off{animation:none;opacity:.18}
+.npwt .eff .et2{font-family:'Inter',sans-serif;font-size:30px;font-weight:700;fill:var(--tit)}
+.npwt .eff.key .et2{fill:var(--acc)}
+.npwt .eff .ed{font-family:'Inter',sans-serif;font-size:23px;fill:var(--fg)}
+.npwt .fr{fill:none;stroke:var(--acc);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna .6s both}
+
 `;
 
 // ---------- pezzi ----------
@@ -2878,6 +2916,61 @@ export const CORPI_CLINICA = {
     const liv = L.map((l, i) => `<g class="liv ${attive.includes(i) ? '' : 'off'} ${l.key ? 'key' : ''}" style="animation-delay:${num(.5 + i * .35)}s">
       <path d="M${x + w + 30} ${l.y - 40}h30v${i === 2 ? 40 : 90}h-30"/><text class="lt" x="${x + w + 90}" y="${l.y + (i === 2 ? -6 : 14)}">${l.t}</text><text class="ld" x="${x + w + 90}" y="${l.y + (i === 2 ? 28 : 48)}">${piano(l.d)}</text></g>`).join('');
     return `<div class="ssi"><svg class="fig gfx" viewBox="0 0 1656 540">${strati}${ross}${ferita}${liv}</svg></div>`;
+  },
+
+  // ---- 7.5: medicazioni avanzate ----
+  // L'ambiente umido: tre lesioni in sezione, la secca con la crosta, la
+  // umida controllata con il fondo lucido, la troppo bagnata con la cute
+  // intorno macerata; le frecce dicono che cosa fa la medicazione
+  // (aggiunge, mantiene, assorbe). `attive` accende i pannelli.
+  umido: d => {
+    const attive = d.attive ?? [0, 1, 2];
+    const pan = (i, cx) => { const y = 200, w = 420, x = cx - w / 2, on = attive.includes(i) ? '' : 'off';
+      const cute = `<path class="cute" d="M${x} ${y}h${w / 2 - 120}c10 60 40 100 120 104s110-44 120-104h${w / 2 - 120}v170h-${w}z"/>`;
+      const dentro = i === 0 ? `<path class="crosta" d="M${cx - 110} ${y + 6}c20-30 60-40 110-40s90 10 110 40c-20 30-60 44-110 44s-90-14-110-44z"/>`
+        : i === 1 ? `<path class="fondo" d="M${cx - 100} ${y + 30}c14 40 40 70 100 72s86-32 100-72z"/><ellipse class="lucido" cx="${cx - 30}" cy="${y + 56}" rx="34" ry="10"/>`
+        : `<path class="fondo" d="M${cx - 100} ${y + 30}c14 40 40 70 100 72s86-32 100-72z"/><path class="macer" d="M${x + 10} ${y - 2}h${w / 2 - 128}c-6 10-12 20-14 30h-${w / 2 - 110}zM${x + w - 10} ${y - 2}h-${w / 2 - 128}c6 10 12 20 14 30h${w / 2 - 110}z"/>
+           ${[[-150, 60], [150, 60], [-180, 110], [180, 110]].map(([dx, dy], k) => `<path class="goccia" d="M${cx + dx} ${y + dy}c-12-18-12-30 0-42c12 12 12 24 0 42z" style="animation-delay:${num(.8 + k * .15)}s"/>`).join('')}`;
+      const fr = i === 0 ? `<path class="uf" pathLength="1" d="M${cx} ${y - 110}v70M${cx - 20} ${y - 60}l20 20 20-20" style="animation-delay:1.2s"/>`
+        : i === 2 ? `<path class="uf" pathLength="1" d="M${cx} ${y - 40}v-70M${cx - 20} ${y - 90}l20-20 20 20" style="animation-delay:1.2s"/>` : '';
+      const T = [['Troppo secca', 'crosta: le cellule non migrano', 'si aggiunge umidità'], ['Umido controllato', 'il fondo lucido: guarisce più in fretta', 'si mantiene'], ['Troppo bagnata', 'la cute intorno macera', 'si assorbe']][i];
+      return `<g class="pan ${on} ${i === 1 ? 'key' : ''}" style="animation-delay:${num(.2 + i * .35)}s">${cute}${dentro}${fr}
+        <text class="ut" x="${cx}" y="${y + 230}">${T[0]}</text><text class="ud" x="${cx}" y="${y + 266}">${T[1]}</text><text class="ud" x="${cx}" y="${y + 296}" style="font-weight:700;fill:var(--acc)">${T[2]}</text></g>`; };
+    return `<div class="umido"><svg class="fig gfx" viewBox="0 0 1656 540">${pan(0, 276)}${pan(1, 828)}${pan(2, 1380)}</svg></div>`;
+  },
+
+  // L'albero decisionale: righe «lesione → classe». `righe` [{l, c, d, key}],
+  // `attive` accende le righe.
+  albero: d => {
+    const R = d.righe ?? [
+      { l: 'Secca o necrotica', c: 'Idrogel' }, { l: 'Slough con poco essudato', c: 'Idrocolloide o idrogel' },
+      { l: 'Molto essudante', c: 'Alginato, idrofibra, schiuma' }, { l: 'Infetta', c: 'Antimicrobica', d: 'mai occlusiva', key: true },
+      { l: 'Granulazione con poco essudato', c: 'Schiuma sottile o idrocolloide' }, { l: 'Epitelizzazione', c: 'Film o idrocolloide sottile' },
+      { l: 'Cavità', c: 'Si riempie: alginato o idrofibra', d: 'senza stipare' },
+    ];
+    const attive = d.attive ?? R.map((_, i) => i);
+    return `<div class="albero">${R.map((r, i) => `<div class="r ${attive.includes(i) ? '' : 'off'} ${r.key ? 'key' : ''}">
+      <div class="lesione" style="animation-delay:${num(.2 + i * .18)}s">${acc(r.l)}</div><div class="fr" style="animation-delay:${num(.3 + i * .18)}s">→</div>
+      <div class="classe" style="animation-delay:${num(.4 + i * .18)}s">${acc(r.c)}${r.d ? `<small>${acc(r.d)}</small>` : ''}</div></div>`).join('')}</div>`;
+  },
+
+  // La terapia a pressione negativa: la lesione con la schiuma dentro, il
+  // film che sigilla, il tubo verso la pompa con il valore, le gocce di
+  // essudato che salgono; a destra gli effetti (`attive`).
+  npwt: d => {
+    const cx = 440, y = 220, w = 620, x = cx - w / 2;
+    const cute = `<path class="cute" d="M${x} ${y}h${w / 2 - 140}c10 70 50 110 140 114s130-44 140-114h${w / 2 - 140}v180h-${w}z"/>`;
+    const schiuma = `<path class="schiuma" d="M${cx - 128} ${y + 8}c10 60 48 98 128 100s118-40 128-100z"/>`;
+    const film = `<path class="film" d="M${x + 40} ${y - 6}h${w - 80}"/>`;
+    const tubo = `<path class="tubo" d="M${cx + 40} ${y - 6}v-60c0-30 20-50 50-50h300c30 0 50 20 50 50v26"/>`;
+    const pompa = `<rect class="pompa" x="${cx + 320}" y="${y - 30}" width="240" height="150" rx="22"/><text class="valore" x="${cx + 440}" y="${y + 40}">${d.valore ?? '−125'}</text><text class="et" x="${cx + 440}" y="${y + 90}">mmHg</text>`;
+    const gocce = [0, 1, 2].map(k => `<circle class="goccia" cx="${cx + 40}" cy="${y - 20 - k * 22}" r="7" style="animation-delay:${num(1 + k * .3)}s"/>`).join('');
+    const E = [{ t: 'Rimuove l’essudato' }, { t: 'Riduce l’edema' }, { t: 'Stimola la granulazione', key: true }, { t: 'Avvicina i margini' }];
+    const attive = d.attive ?? [0, 1, 2, 3];
+    const eff = E.map((e, i) => `<g class="eff ${attive.includes(i) ? '' : 'off'} ${e.key ? 'key' : ''}" style="animation-delay:${num(1.4 + i * .25)}s"><text class="et2" x="1140" y="${150 + i * 90}">${e.t}</text></g>`).join('');
+    const margini = `<path class="fr" pathLength="1" d="M${x + 60} ${y + 60}l60 0M${x + 100} ${y + 44}l20 16-20 16M${x + w - 60} ${y + 60}l-60 0M${x + w - 100} ${y + 44}l-20 16 20 16" style="animation-delay:2s"/>`;
+    return `<div class="npwt"><svg class="fig gfx" viewBox="0 0 1656 540">${cute}${schiuma}${film}${tubo}${gocce}${pompa}${margini}${eff}
+      <text class="et" x="${cx}" y="${y + 250}">${piano(d.sotto ?? 'schiuma o garza nella lesione · film sigillante · pompa: pressione subatmosferica, continua o intermittente')}</text></svg></div>`;
   },
 
   percento: d => {
