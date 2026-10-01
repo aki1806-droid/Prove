@@ -1,0 +1,45 @@
+Passiamo alla normativa. Il riferimento e' il DPR trecentonove del millenovecentonovanta, il Testo unico sugli stupefacenti, che classifica le sostanze in tabelle e disciplina prescrizione, detenzione e registrazione.
+
+La legge trentotto del duemiladieci, sulla terapia del dolore, ha introdotto semplificazioni per i farmaci oppioidi usati nel dolore, per favorirne l'accesso.
+
+In reparto gli stupefacenti si gestiscono con il registro di carico e scarico. E' un registro a pagine numerate, vidimato dal Direttore Sanitario, con una sezione per ciascun farmaco.
+
+Ogni carico, cioe' ogni fornitura dalla farmacia, e ogni scarico, cioe' ogni somministrazione, si registra con data, paziente, quantita' e firma.
+
+Il registro e' tenuto dal responsabile dell'assistenza infermieristica; il direttore dell'unita' operativa risponde della corrispondenza fra giacenza contabile e reale. Si conserva due anni dall'ultima registrazione.
+
+Le regole di compilazione riprendono la lezione due punto quattro, con ancora piu' rigore. La registrazione e' contestuale alla somministrazione. Niente correttore ne' cancellature: si corregge con una riga e una firma.
+
+La giacenza deve essere verificabile in ogni momento, e ogni discrepanza va spiegata.
+
+Se si usa solo una parte di una fiala, il residuo si smaltisce e si documenta secondo la procedura aziendale, spesso alla presenza di un testimone. Rotture e smarrimenti si annotano e si segnalano.
+
+La custodia. Gli stupefacenti si conservano in un armadio o in una cassaforte dedicata, chiusa a chiave, e le chiavi sono custodite dall'infermiere responsabile del turno.
+
+Con un passaggio esplicito alla consegna, in molti reparti con verifica della giacenza al cambio turno. I farmaci scaduti si tengono separati e identificati, e tornano alla farmacia secondo la procedura: non si buttano.
+
+Un richiamo alla responsabilita', perche' in questo ambito un errore di registrazione non e' un errore formale. Una discrepanza fra giacenza contabile e reale ha rilevanza disciplinare e puo' averne una penale.
+
+[serious] Chi firma lo scarico attesta di aver somministrato quella quantita' a quel paziente. Per questo, come in tutta la documentazione, mai firmare per un collega.
+
+Un aspetto etico che all'orale distingue. Una persona con una storia di dipendenza ha diritto a un trattamento efficace del dolore come chiunque altro. Puo' avere una tolleranza e richiedere dosi piu' alte.
+
+E richieste frequenti di analgesico possono essere il segno di un dolore non controllato, la pseudodipendenza, piu' che di una ricerca della sostanza. Il pregiudizio porta al sottotrattamento, anch'esso un errore.
+
+Il caso. Paziente anziano in terapia con morfina, da un'ora sempre piu' sonnolento, frequenza respiratoria nove, saturazione novanta. Che cosa fai? E' una depressione respiratoria da oppioide in evoluzione.
+
+Stimoli la persona e valuti la risposta, sospendi l'infusione o la PCA se presente, ossigeno secondo protocollo, avvisi subito il medico con SBAR, prepari il naloxone.
+
+E sorvegli a lungo anche dopo la risposta, perche' il naloxone dura meno della morfina. Poi documenti e ti chiedi se c'erano fattori predisponenti: funzione renale, benzodiazepine associate.
+
+Nelle aziende del SSSR veneto la gestione degli stupefacenti e' regolata da procedure aziendali che recepiscono il DPR trecentonove, e in alcune realta' si usano armadi informatizzati che tracciano ogni prelievo.
+
+La rete regionale di terapia del dolore e cure palliative attua la legge trentotto, con la rilevazione del dolore in cartella. All'orale: normativa, registro, custodia, responsabilita', in quest'ordine.
+
+La sintesi in una slide. Beta-lattamici: intervalli rispettati. Aminoglicosidi e vancomicina: livelli e reni. Vancomicina lenta. Anafilassi: adrenalina intramuscolo, mezzo milligrammo.
+
+Paracetamolo al massimo quattro grammi, meno se il fegato e' fragile. FANS: stomaco, reni, sanguinamento. Oppioidi: la sedazione precede la depressione respiratoria, e il naloxone dura meno.
+
+E per gli stupefacenti: DPR trecentonove del novanta; registro vidimato a pagine numerate; registrazione contestuale; armadio chiuso a chiave; corrispondenza fra giacenza contabile e reale; registro conservato per due anni.
+
+[warm] Nella prossima lezione: preparazione, stabilita' e conservazione dei farmaci, fino agli antiblastici e al carrello delle emergenze. A tra poco.

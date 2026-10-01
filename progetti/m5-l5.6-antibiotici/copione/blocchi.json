@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Tre famiglie di farmaci, e la terza porta con se' una normativa specifica che i concorsi chiedono con precisione: la gestione degli stupefacenti in reparto."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dagli antibiotici, ripresi dal punto di vista della somministrazione: l'antibiotico-resistenza l'abbiamo vista nella lezione quattro punto sei."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un concetto che spiega perche' l'orario conta. Gli antibiotici tempo-dipendenti, i beta-lattamici: penicilline, cefalosporine, carbapenemi, funzionano in base al tempo in cui la concentrazione resta sopra la soglia efficace."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questi rispettare gli intervalli e' essenziale, e talvolta si prescrive l'infusione prolungata. I concentrazione-dipendenti, come gli aminoglicosidi, funzionano in base al picco: spesso in dose unica giornaliera."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le classi da conoscere per cio' che l'infermiere sorveglia. Aminoglicosidi, gentamicina e amikacina: nefrotossicita' e ototossicita', con monitoraggio dei livelli."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vancomicina: nefrotossicita', monitoraggio dei livelli, e la sindrome dell'uomo rosso: arrossamento di viso e tronco, prurito, ipotensione, se l'infusione e' troppo rapida."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' un'allergia: si previene rallentando l'infusione, in genere almeno un'ora. Fluorochinoloni: tendinopatie e allungamento del QT. Macrolidi: QT e interazioni. Metronidazolo: effetto antabuse con l'alcol."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'allergia. Prima della prima dose di qualunque antibiotico si chiede sempre delle allergie, e la risposta si registra in modo evidente. Dopo la prima dose la persona si osserva."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni dell'anafilassi: orticaria, angioedema, broncospasmo, ipotensione. Il farmaco di primo intervento e' l'adrenalina per via intramuscolare: non endovena, non sottocute."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'adulto zero virgola cinque milligrammi, cioe' mezzo millilitro della fiala da un milligrammo per millilitro, nella faccia anterolaterale della coscia, ripetibile dopo cinque minuti. Lo riprenderemo nel modulo dieci."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli analgesici, partendo dal piu' usato: il paracetamolo. Nell'adulto la dose massima indicativa e' di quattro grammi al giorno, da ridurre nell'epatopatia, nell'alcolismo e nel basso peso, sotto i cinquanta chili."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove per via endovenosa la dose si calcola sul peso. La sua tossicita' e' epatica. E una trappola frequente: molti farmaci da banco e molte associazioni contengono paracetamolo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi la dose giornaliera si somma senza che nessuno se ne accorga. Nella ricognizione della terapia, va chiesto."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I FANS, antinfiammatori non steroidei. Efficaci, ma con molti effetti avversi: gastrolesivita', che richiede gastroprotezione nei soggetti a rischio; nefrotossicita', soprattutto nel disidratato."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ritenzione idrica, che peggiora lo scompenso; aumento del rischio di sanguinamento, pericoloso nell'anticoagulato; rischio cardiovascolare. Nell'anziano vanno usati con molta cautela."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli oppioidi. Deboli, come codeina e tramadolo; il tramadolo ha anche un'azione serotoninergica e abbassa la soglia convulsiva. Forti, come morfina, ossicodone, fentanil, idromorfone, metadone."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti avversi da conoscere: sedazione, depressione respiratoria, stipsi, a cui, ricordi, non si sviluppa tolleranza, nausea, prurito, ritenzione urinaria, miosi, cioe' pupille puntiformi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La depressione respiratoria e' l'effetto piu' temuto, e il principio di sorveglianza e' quello gia' visto con la PCA nella lezione tre punto sette: la sedazione compare prima."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Una persona sempre piu' sonnolenta e' una persona che, se non intercettata, rallentera' il respiro. Si sorvegliano livello di sedazione, frequenza respiratoria e saturazione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con attenzione a chi e' piu' a rischio: anziano, prima dose, insufficienza renale, e soprattutto l'associazione con benzodiazepine o altri sedativi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'antidoto e' il naloxone, antagonista dei recettori degli oppioidi. Una caratteristica da sapere: ha un'emivita breve, spesso piu' breve dell'oppioide che deve contrastare."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi dopo il risveglio la persona puo' tornare a sedarsi: la sorveglianza deve proseguire, e possono servire dosi ripetute."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel paziente con dolore si titola, cioe' si somministra a piccole dosi, per ripristinare il respiro senza annullare del tutto l'analgesia e scatenare un dolore violento."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre concetti clinici. La titolazione: la dose si aumenta progressivamente fino al controllo del dolore. La dose di soccorso, per il dolore episodico intenso, prescritta accanto alla terapia di base."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le conversioni: la morfina orale e' meno biodisponibile di quella endovenosa, il primo passaggio della lezione cinque punto uno: circa due-tre a uno. Cambiare via o oppioide richiede tabelle di conversione e prescrizione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo alla normativa. Il riferimento e' il DPR trecentonove del millenovecentonovanta, il Testo unico sugli stupefacenti, che classifica le sostanze in tabelle e disciplina prescrizione, detenzione e registrazione."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge trentotto del duemiladieci, sulla terapia del dolore, ha introdotto semplificazioni per i farmaci oppioidi usati nel dolore, per favorirne l'accesso."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In reparto gli stupefacenti si gestiscono con il registro di carico e scarico. E' un registro a pagine numerate, vidimato dal Direttore Sanitario, con una sezione per ciascun farmaco."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni carico, cioe' ogni fornitura dalla farmacia, e ogni scarico, cioe' ogni somministrazione, si registra con data, paziente, quantita' e firma."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il registro e' tenuto dal responsabile dell'assistenza infermieristica; il direttore dell'unita' operativa risponde della corrispondenza fra giacenza contabile e reale. Si conserva due anni dall'ultima registrazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole di compilazione riprendono la lezione due punto quattro, con ancora piu' rigore. La registrazione e' contestuale alla somministrazione. Niente correttore ne' cancellature: si corregge con una riga e una firma."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La giacenza deve essere verificabile in ogni momento, e ogni discrepanza va spiegata."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se si usa solo una parte di una fiala, il residuo si smaltisce e si documenta secondo la procedura aziendale, spesso alla presenza di un testimone. Rotture e smarrimenti si annotano e si segnalano."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La custodia. Gli stupefacenti si conservano in un armadio o in una cassaforte dedicata, chiusa a chiave, e le chiavi sono custodite dall'infermiere responsabile del turno."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un passaggio esplicito alla consegna, in molti reparti con verifica della giacenza al cambio turno. I farmaci scaduti si tengono separati e identificati, e tornano alla farmacia secondo la procedura: non si buttano."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un richiamo alla responsabilita', perche' in questo ambito un errore di registrazione non e' un errore formale. Una discrepanza fra giacenza contabile e reale ha rilevanza disciplinare e puo' averne una penale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Chi firma lo scarico attesta di aver somministrato quella quantita' a quel paziente. Per questo, come in tutta la documentazione, mai firmare per un collega."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un aspetto etico che all'orale distingue. Una persona con una storia di dipendenza ha diritto a un trattamento efficace del dolore come chiunque altro. Puo' avere una tolleranza e richiedere dosi piu' alte."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E richieste frequenti di analgesico possono essere il segno di un dolore non controllato, la pseudodipendenza, piu' che di una ricerca della sostanza. Il pregiudizio porta al sottotrattamento, anch'esso un errore."
+ },
+ {
+  "id": "s41",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente anziano in terapia con morfina, da un'ora sempre piu' sonnolento, frequenza respiratoria nove, saturazione novanta. Che cosa fai? E' una depressione respiratoria da oppioide in evoluzione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stimoli la persona e valuti la risposta, sospendi l'infusione o la PCA se presente, ossigeno secondo protocollo, avvisi subito il medico con SBAR, prepari il naloxone."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sorvegli a lungo anche dopo la risposta, perche' il naloxone dura meno della morfina. Poi documenti e ti chiedi se c'erano fattori predisponenti: funzione renale, benzodiazepine associate."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del SSSR veneto la gestione degli stupefacenti e' regolata da procedure aziendali che recepiscono il DPR trecentonove, e in alcune realta' si usano armadi informatizzati che tracciano ogni prelievo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rete regionale di terapia del dolore e cure palliative attua la legge trentotto, con la rilevazione del dolore in cartella. All'orale: normativa, registro, custodia, responsabilita', in quest'ordine."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sintesi in una slide. Beta-lattamici: intervalli rispettati. Aminoglicosidi e vancomicina: livelli e reni. Vancomicina lenta. Anafilassi: adrenalina intramuscolo, mezzo milligrammo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Paracetamolo al massimo quattro grammi, meno se il fegato e' fragile. FANS: stomaco, reni, sanguinamento. Oppioidi: la sedazione precede la depressione respiratoria, e il naloxone dura meno."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E per gli stupefacenti: DPR trecentonove del novanta; registro vidimato a pagine numerate; registrazione contestuale; armadio chiuso a chiave; corrispondenza fra giacenza contabile e reale; registro conservato per due anni."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: preparazione, stabilita' e conservazione dei farmaci, fino agli antiblastici e al carrello delle emergenze. A tra poco."
+ }
+]

@@ -14,8 +14,6 @@ E una regola pratica: si danno al mattino, per non costringere la persona ad alz
 
 Il monitoraggio di chi assume un diuretico e' quello della lezione tre punto cinque: peso quotidiano, bilancio idrico, diuresi, pressione, anche in piedi, per l'ipotensione ortostatica, potassio e funzione renale.
 
-E' il paziente scompensato, e lo ritroveremo nel modulo otto. Un chilo in piu' sulla bilancia in un giorno e' un litro di liquidi trattenuti, e va riferito.
-
 ACE-inibitori e sartani abbassano la pressione e proteggono cuore e reni. Gli ACE-inibitori hanno un effetto collaterale caratteristico: la tosse secca, che spesso porta a passare a un sartano.
 
 Il piu' grave e' l'angioedema, gonfiore di labbra, lingua, glottide, che e' un'emergenza. Entrambe le classi possono dare iperkaliemia e ipotensione, soprattutto alla prima dose.
@@ -32,7 +30,7 @@ I nitrati, come la nitroglicerina, danno cefalea e ipotensione, e sono controind
 
 L'amiodarone, antiaritmico, e' irritante per le vene, in periferica da' flebite, e a lungo termine puo' alterare tiroide, cute e polmone.
 
-La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto intero; sotto la soglia, si sospende e si avvisa.
+La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto; sotto la soglia si sospende e si avvisa.
 
 I segni di tossicita': nausea, vomito, perdita di appetito, disturbi visivi, la visione gialla, bradicardia e aritmie.
 
@@ -45,3 +43,9 @@ L'intermedia, la NPH, e' lattiginosa e va rotolata fra le mani, non agitata. Le 
 La conservazione. Le confezioni non aperte stanno in frigorifero, fra due e otto gradi. Mai congelare: l'insulina congelata si altera anche se scongelata.
 
 La penna in uso si tiene a temperatura ambiente per il periodo indicato dal produttore, generalmente alcune settimane, e si annota la data di apertura. E' la catena del freddo della lezione cinque punto sette.
+
+L'ipoglicemia, sotto i settanta milligrammi per decilitro. I sintomi sono di due tipi: adrenergici, tremore, sudorazione, tachicardia, fame; e neuroglicopenici, confusione, comportamento anomalo, sonnolenza fino al coma.
+
+Nell'anziano e in chi assume beta-bloccanti i primi possono mancare. Nella persona cosciente vale la regola del quindici: quindici grammi di zuccheri semplici, succo, zucchero sciolto in acqua, bustine di glucosio.
+
+[serious] E ricontrollo dopo quindici minuti. Nella persona incosciente, niente per bocca: glucagone intramuscolo o sottocute, oppure glucosio endovena, secondo protocollo.

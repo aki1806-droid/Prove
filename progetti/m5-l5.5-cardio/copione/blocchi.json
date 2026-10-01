@@ -57,289 +57,282 @@
  },
  {
   "id": "s10",
-  "capitolo": 4,
-  "tema": "chiaro",
-  "posa": 0,
-  "text": "E' il paziente scompensato, e lo ritroveremo nel modulo otto. Un chilo in piu' sulla bilancia in un giorno e' un litro di liquidi trattenuti, e va riferito."
- },
- {
-  "id": "s11",
   "capitolo": 5,
   "tema": "chiaro",
   "posa": 0,
   "text": "ACE-inibitori e sartani abbassano la pressione e proteggono cuore e reni. Gli ACE-inibitori hanno un effetto collaterale caratteristico: la tosse secca, che spesso porta a passare a un sartano."
  },
  {
-  "id": "s12",
+  "id": "s11",
   "capitolo": 5,
   "tema": "chiaro",
   "posa": 0,
   "text": "Il piu' grave e' l'angioedema, gonfiore di labbra, lingua, glottide, che e' un'emergenza. Entrambe le classi possono dare iperkaliemia e ipotensione, soprattutto alla prima dose."
  },
  {
-  "id": "s13",
+  "id": "s12",
   "capitolo": 6,
   "tema": "chiaro",
   "posa": 0,
   "text": "I beta-bloccanti. Rallentano il cuore, quindi il primo effetto da sorvegliare e' la bradicardia, insieme all'ipotensione. Quelli non selettivi possono dare broncospasmo negli asmatici."
  },
  {
-  "id": "s14",
+  "id": "s13",
   "capitolo": 6,
   "tema": "chiaro",
   "posa": 0,
   "text": "Nel diabetico mascherano i segni adrenergici dell'ipoglicemia, come tremore e tachicardia. Non si sospendono bruscamente, per il rischio di rimbalzo."
  },
  {
-  "id": "s15",
+  "id": "s14",
   "capitolo": 6,
   "tema": "chiaro",
   "posa": 0,
   "text": "E prima di somministrarli si controllano frequenza e pressione: se la prescrizione indica soglie, sotto quelle soglie si sospende e si avvisa."
  },
  {
-  "id": "s16",
+  "id": "s15",
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
   "text": "Tre classi in una slide. I calcio-antagonisti diidropiridinici danno edemi alle caviglie e cefalea; verapamil e diltiazem danno bradicardia."
  },
  {
-  "id": "s17",
+  "id": "s16",
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
   "text": "I nitrati, come la nitroglicerina, danno cefalea e ipotensione, e sono controindicati in chi ha assunto farmaci per la disfunzione erettile, come il sildenafil: la combinazione provoca ipotensioni gravi. Va chiesto."
  },
  {
-  "id": "s18",
+  "id": "s17",
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
   "text": "L'amiodarone, antiaritmico, e' irritante per le vene, in periferica da' flebite, e a lungo termine puo' alterare tiroide, cute e polmone."
  },
  {
-  "id": "s19",
+  "id": "s18",
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
-  "text": "La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto intero; sotto la soglia, si sospende e si avvisa."
+  "text": "La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto; sotto la soglia si sospende e si avvisa."
  },
  {
-  "id": "s20",
+  "id": "s19",
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
   "text": "I segni di tossicita': nausea, vomito, perdita di appetito, disturbi visivi, la visione gialla, bradicardia e aritmie."
  },
  {
-  "id": "s21",
+  "id": "s20",
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
   "text": "E un'interazione da sapere: l'ipokaliemia, per esempio da diuretico dell'ansa, aumenta la tossicita' della digossina. Due farmaci che spesso si trovano nella stessa terapia."
  },
  {
-  "id": "s22",
+  "id": "s21",
   "capitolo": 9,
   "tema": "chiaro",
   "posa": 0,
   "text": "Le insuline. Gli analoghi rapidi agiscono in dieci-quindici minuti e si somministrano al pasto: se la persona poi non mangia, il rischio di ipoglicemia e' immediato. La regolare umana agisce in circa mezz'ora."
  },
  {
-  "id": "s23",
+  "id": "s22",
   "capitolo": 9,
   "tema": "chiaro",
   "posa": 0,
   "text": "L'intermedia, la NPH, e' lattiginosa e va rotolata fra le mani, non agitata. Le basali, glargine e degludec, non hanno picco e non si miscelano. In vena si usa solo la rapida o la regolare."
  },
  {
-  "id": "s24",
+  "id": "s23",
   "capitolo": 10,
   "tema": "chiaro",
   "posa": 0,
   "text": "La conservazione. Le confezioni non aperte stanno in frigorifero, fra due e otto gradi. Mai congelare: l'insulina congelata si altera anche se scongelata."
  },
  {
-  "id": "s25",
+  "id": "s24",
   "capitolo": 10,
   "tema": "chiaro",
   "posa": 0,
   "text": "La penna in uso si tiene a temperatura ambiente per il periodo indicato dal produttore, generalmente alcune settimane, e si annota la data di apertura. E' la catena del freddo della lezione cinque punto sette."
  },
  {
-  "id": "s26",
+  "id": "s25",
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
   "text": "L'ipoglicemia, sotto i settanta milligrammi per decilitro. I sintomi sono di due tipi: adrenergici, tremore, sudorazione, tachicardia, fame; e neuroglicopenici, confusione, comportamento anomalo, sonnolenza fino al coma."
  },
  {
-  "id": "s27",
+  "id": "s26",
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
   "text": "Nell'anziano e in chi assume beta-bloccanti i primi possono mancare. Nella persona cosciente vale la regola del quindici: quindici grammi di zuccheri semplici, succo, zucchero sciolto in acqua, bustine di glucosio."
  },
  {
-  "id": "s28",
+  "id": "s27",
   "capitolo": 11,
   "tema": "profondo",
   "posa": 1.2,
   "text": "[serious] E ricontrollo dopo quindici minuti. Nella persona incosciente, niente per bocca: glucagone intramuscolo o sottocute, oppure glucosio endovena, secondo protocollo."
  },
  {
-  "id": "s29",
+  "id": "s28",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
   "text": "Gli antidiabetici non insulinici. La metformina, il farmaco di base: disturbi gastrointestinali e, raramente, acidosi lattica; va gestita secondo protocollo prima di esami con mezzo di contrasto e interventi."
  },
  {
-  "id": "s30",
+  "id": "s29",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
   "text": "Le sulfaniluree stimolano l'insulina e possono dare ipoglicemie, anche prolungate, soprattutto nell'anziano. Gli agonisti GLP-1, i glutide, sono iniettivi e danno spesso nausea."
  },
  {
-  "id": "s31",
+  "id": "s30",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Gli SGLT2-inibitori, i gliflozin, eliminano glucosio con le urine: favoriscono infezioni genitourinarie e possono dare chetoacidosi anche con glicemia normale; si sospendono prima degli interventi. E i gliptin completano la famiglia."
+  "text": "Gli SGLT2-inibitori, i gliflozin, eliminano glucosio con le urine: favoriscono infezioni genitourinarie e possono dare chetoacidosi anche con glicemia normale; si sospendono prima degli interventi."
  },
  {
-  "id": "s32",
+  "id": "s31",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "Gli anticoagulanti, cominciando dalle eparine. L'eparina non frazionata si somministra di solito in infusione endovenosa continua, con pompa, e si monitora con l'aPTT; il suo antidoto e' la protamina solfato."
  },
  {
-  "id": "s33",
+  "id": "s32",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "Le eparine a basso peso molecolare, come l'enoxaparina, si danno sottocute, a dose calcolata sul peso e adattata alla funzione renale; non richiedono monitoraggio di routine, e la protamina le neutralizza solo in parte."
  },
  {
-  "id": "s34",
+  "id": "s33",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "Con tutte le eparine si sorvegliano le piastrine, per il rischio di trombocitopenia indotta da eparina, la HIT."
  },
  {
-  "id": "s35",
+  "id": "s34",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "Il warfarin, antagonista della vitamina K. Agisce in giorni, non in ore, e si monitora con l'INR, il cui range abituale e' fra due e tre, piu' alto in alcuni portatori di valvole meccaniche."
  },
  {
-  "id": "s36",
+  "id": "s35",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Ha moltissime interazioni: antibiotici, amiodarone, FANS, alcol. Sull'alimentazione, un errore frequente nei quiz: la vitamina K non va esclusa, va assunta con costanza, perche' sono le variazioni brusche a destabilizzare l'INR."
+  "text": "Molte interazioni: antibiotici, amiodarone, FANS, alcol. Sull'alimentazione, un errore da quiz: la vitamina K non va esclusa, va assunta con costanza, perche' sono le variazioni brusche a destabilizzare l'INR."
  },
  {
-  "id": "s37",
+  "id": "s36",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "L'antidoto e' la vitamina K; nel sanguinamento grave si usa il concentrato di complesso protrombinico."
  },
  {
-  "id": "s38",
+  "id": "s37",
   "capitolo": 15,
   "tema": "chiaro",
   "posa": 0,
   "text": "I DOAC, gli anticoagulanti orali diretti. Il dabigatran inibisce la trombina; rivaroxaban, apixaban, edoxaban inibiscono il fattore dieci attivato. Non richiedono l'INR di routine, e hanno meno interazioni del warfarin."
  },
  {
-  "id": "s39",
+  "id": "s38",
   "capitolo": 15,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Ma hanno un'emivita breve: una dose saltata lascia la persona scoperta in fretta, e l'aderenza e' cruciale. Si adattano alla funzione renale. Antidoti: idarucizumab per il dabigatran; per gli anti-Xa un antidoto specifico, o il complesso protrombinico."
+  "text": "Ma hanno un'emivita breve: una dose saltata lascia la persona scoperta in fretta, e l'aderenza e' cruciale. Antidoti: idarucizumab per il dabigatran; per gli anti-Xa un antidoto specifico, o il complesso protrombinico."
  },
  {
-  "id": "s40",
+  "id": "s39",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "Gli antiaggreganti non sono anticoagulanti, ma aumentano anch'essi il rischio di sanguinamento: acido acetilsalicilico, clopidogrel, ticagrelor, prasugrel."
  },
  {
-  "id": "s41",
+  "id": "s40",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "Dopo l'impianto di uno stent coronarico si usa la doppia antiaggregazione, e sospenderla senza indicazione del cardiologo espone alla trombosi dello stent, un evento spesso fatale."
  },
  {
-  "id": "s42",
+  "id": "s41",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "Se un paziente dice il medico di base mi ha detto di smettere l'aspirina prima dell'intervento, la domanda da porre e': ha uno stent?"
  },
  {
-  "id": "s43",
+  "id": "s42",
   "capitolo": 17,
   "tema": "chiaro",
   "posa": 0,
   "text": "L'assistenza al paziente anticoagulato. Sorvegliare i segni di sanguinamento: gengive, epistassi, urine scure o rosse, feci nere, ematomi, e una cefalea improvvisa, che puo' indicare un sanguinamento cerebrale."
  },
  {
-  "id": "s44",
+  "id": "s43",
   "capitolo": 17,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Spazzolino morbido e rasoio elettrico. Evitare le intramuscolari. Compressione prolungata dopo prelievi e rimozione di accessi. Prevenzione delle cadute, piu' gravi nell'anticoagulato, lezione tre punto uno. E educazione alla dimissione."
+  "text": "Spazzolino morbido e rasoio elettrico. Evitare le intramuscolari. Compressione prolungata dopo prelievi e rimozione di accessi. Prevenzione delle cadute, lezione tre punto uno. E educazione alla dimissione."
  },
  {
-  "id": "s45",
+  "id": "s44",
   "capitolo": 18,
   "tema": "chiaro",
   "posa": 0,
   "text": "La tabella degli antidoti, da fotografare. Eparina non frazionata: protamina. Warfarin: vitamina K, e nei casi gravi complesso protrombinico. Dabigatran: idarucizumab."
  },
  {
-  "id": "s46",
+  "id": "s45",
   "capitolo": 18,
   "tema": "chiaro",
   "posa": 0,
   "text": "Anti-Xa: antidoto specifico dove disponibile o complesso protrombinico. Ipoglicemia da insulina: glucagone o glucosio. Digossina: anticorpi specifici antidigossina."
  },
  {
-  "id": "s47",
+  "id": "s46",
   "capitolo": 19,
   "tema": "chiaro",
   "posa": 0,
   "text": "In Veneto la sorveglianza della terapia anticoagulante orale passa da centri e ambulatori dedicati, spesso con presa in carico territoriale, e le aziende hanno procedure sull'ipoglicemia e sull'insulina in reparto."
  },
  {
-  "id": "s48",
+  "id": "s47",
   "capitolo": 19,
   "tema": "chiaro",
   "posa": 0,
   "text": "All'orale, la risposta completa collega il farmaco all'educazione terapeutica alla dimissione, con il teach-back: chi va a casa con un anticoagulante o con l'insulina deve saper riconoscere i segni di allarme."
  },
  {
-  "id": "s49",
+  "id": "s48",
   "capitolo": 20,
   "tema": "chiaro",
   "posa": 0,
   "text": "Ricapitoliamo. Diuretici al mattino, controllando il potassio. Beta-bloccanti: frequenza e pressione prima. Digossina: polso apicale per un minuto, e l'ipokaliemia ne aumenta la tossicita'."
  },
  {
-  "id": "s50",
+  "id": "s49",
   "capitolo": 20,
   "tema": "chiaro",
   "posa": 0,
-  "text": "[warm] Ipoglicemia sotto settanta: regola del quindici, niente per bocca se incosciente. Warfarin: INR due-tre, vitamina K con costanza. DOAC: niente INR, nessuna dose saltata. Prossima lezione: antibiotici, analgesici e stupefacenti."
+  "text": "[warm] Ipoglicemia sotto settanta: regola del quindici, niente per bocca se incosciente. Warfarin: INR due-tre, vitamina K con costanza. DOAC: niente INR, nessuna dose saltata. Gli antidoti a memoria. A tra poco."
  }
 ]

@@ -64,6 +64,8 @@ def _sotto1000(s):
 
 def cifra(s):
     """La parola-numero come cifra, oppure la parola stessa se non lo e'."""
+    # «zero» da solo: «cinque virgola zero» contro «5,0» (visto su 5.4).
+    if s == "zero": return "0"
     if s.startswith("mille"):
         p = _sotto1000(s[5:])
         if p is not None: return str(1000+p)
@@ -181,16 +183,22 @@ def parole(s):
     s = re.sub(r"\b([a-z0-9]+)\s+litro\s+e\s+mezzo\b", lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+e\s+mezzo\b",          lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     # ...ma solo fra due numeri: «di unita' o di virgola. Per i farmaci» (5.3)
-    # a fine blocco fondeva «di virgola per» su un lato solo.
-    s = re.sub(r"\b([a-z0-9]+)\s+virgola\s+([a-z0-9]+)\b",
-               lambda m: f" {cifra(m.group(1))}virgola{cifra(m.group(2))} "
-                         if cifra(m.group(1)).isdigit() and cifra(m.group(2)).isdigit() else m.group(0), s)
+    # a fine blocco fondeva «di virgola per» su un lato solo. E a parole, non
+    # con un'espressione regolare: «la virgola cinque virgola zero» (5.4) la
+    # faceva fallire su «la virgola cinque» consumando il «cinque» che serviva
+    # alla coppia vera.
     # «ventiquattro e nove» per 24,9: numero, «e», una cifra sola. Vale solo
     # se le due parti sono davvero numeri, altrimenti «e nove» resta com'e'.
-    s = re.sub(r"\b([a-z0-9]+)\s+e\s+([a-z0-9]+)\b",
-               lambda m: f" {cifra(m.group(1))}virgola{cifra(m.group(2))} "
-                         if cifra(m.group(1)).isdigit() and cifra(m.group(2)).isdigit() and len(cifra(m.group(2))) == 1
-                         else m.group(0), s)
+    def _fondi(s):
+        t, out, i = s.split(), [], 0
+        while i < len(t):
+            if i + 2 < len(t) and t[i + 1] in ("virgola", "e"):
+                a, b = cifra(t[i]), cifra(t[i + 2])
+                if a.isdigit() and b.isdigit() and (t[i + 1] == "virgola" or len(b) == 1):
+                    out.append(f"{a}virgola{b}"); i += 3; continue
+            out.append(t[i]); i += 1
+        return " ".join(out)
+    s = _fondi(s)
     for pat, con in RESE: s = re.sub(pat, con, s)
     return [cifra(p) for p in re.findall(r"[a-z0-9]+", s)]
 

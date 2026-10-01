@@ -1301,12 +1301,12 @@ export const CORPI_CLINICA = {
 
   // Tappe lungo una linea. tappe: [{t, d, key}], attive: indici accesi (default tutti).
   percorso: d => {
-    const n = d.tappe.length, W = 1656, H = n > 5 ? 700 : 400;
+    const n = d.tappe.length, W = 1656, H = n > 5 ? 660 : 400;
     const righe = n > 5 ? 2 : 1, perRiga = Math.ceil(n / righe);
     const pts = d.tappe.map((_, i) => {
       const r = Math.floor(i / perRiga), c = i % perRiga;
       const cc = r % 2 ? perRiga - 1 - c : c;                      // a serpentina
-      const x = 130 + cc * ((W - 260) / (perRiga - 1)), y = righe === 1 ? 110 : 190 + r * 310;
+      const x = 130 + cc * ((W - 260) / (perRiga - 1)), y = righe === 1 ? 110 : 180 + r * 300;
       return [x, y];
     });
     const via = pts.map(([x, y], i) => {

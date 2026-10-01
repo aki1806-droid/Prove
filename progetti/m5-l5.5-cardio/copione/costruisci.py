@@ -15,7 +15,6 @@ BLOCCHI = [
  (3,"chiaro",0,"E una regola pratica: si danno al mattino, per non costringere la persona ad alzarsi di notte, con il rischio di caduta che ne consegue."),
 
  (4,"chiaro",0,"Il monitoraggio di chi assume un diuretico e' quello della lezione tre punto cinque: peso quotidiano, bilancio idrico, diuresi, pressione, anche in piedi, per l'ipotensione ortostatica, potassio e funzione renale."),
- (4,"chiaro",0,"E' il paziente scompensato, e lo ritroveremo nel modulo otto. Un chilo in piu' sulla bilancia in un giorno e' un litro di liquidi trattenuti, e va riferito."),
 
  (5,"chiaro",0,"ACE-inibitori e sartani abbassano la pressione e proteggono cuore e reni. Gli ACE-inibitori hanno un effetto collaterale caratteristico: la tosse secca, che spesso porta a passare a un sartano."),
  (5,"chiaro",0,"Il piu' grave e' l'angioedema, gonfiore di labbra, lingua, glottide, che e' un'emergenza. Entrambe le classi possono dare iperkaliemia e ipotensione, soprattutto alla prima dose."),
@@ -28,7 +27,7 @@ BLOCCHI = [
  (7,"chiaro",0,"I nitrati, come la nitroglicerina, danno cefalea e ipotensione, e sono controindicati in chi ha assunto farmaci per la disfunzione erettile, come il sildenafil: la combinazione provoca ipotensioni gravi. Va chiesto."),
  (7,"chiaro",0,"L'amiodarone, antiaritmico, e' irritante per le vene, in periferica da' flebite, e a lungo termine puo' alterare tiroide, cute e polmone."),
 
- (8,"chiaro",0,"La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto intero; sotto la soglia, si sospende e si avvisa."),
+ (8,"chiaro",0,"La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto; sotto la soglia si sospende e si avvisa."),
  (8,"chiaro",0,"I segni di tossicita': nausea, vomito, perdita di appetito, disturbi visivi, la visione gialla, bradicardia e aritmie."),
  (8,"chiaro",0,"E un'interazione da sapere: l'ipokaliemia, per esempio da diuretico dell'ansa, aumenta la tossicita' della digossina. Due farmaci che spesso si trovano nella stessa terapia."),
 
@@ -44,25 +43,25 @@ BLOCCHI = [
 
  (12,"chiaro",0,"Gli antidiabetici non insulinici. La metformina, il farmaco di base: disturbi gastrointestinali e, raramente, acidosi lattica; va gestita secondo protocollo prima di esami con mezzo di contrasto e interventi."),
  (12,"chiaro",0,"Le sulfaniluree stimolano l'insulina e possono dare ipoglicemie, anche prolungate, soprattutto nell'anziano. Gli agonisti GLP-1, i glutide, sono iniettivi e danno spesso nausea."),
- (12,"chiaro",0,"Gli SGLT2-inibitori, i gliflozin, eliminano glucosio con le urine: favoriscono infezioni genitourinarie e possono dare chetoacidosi anche con glicemia normale; si sospendono prima degli interventi. E i gliptin completano la famiglia."),
+ (12,"chiaro",0,"Gli SGLT2-inibitori, i gliflozin, eliminano glucosio con le urine: favoriscono infezioni genitourinarie e possono dare chetoacidosi anche con glicemia normale; si sospendono prima degli interventi."),
 
  (13,"chiaro",0,"Gli anticoagulanti, cominciando dalle eparine. L'eparina non frazionata si somministra di solito in infusione endovenosa continua, con pompa, e si monitora con l'aPTT; il suo antidoto e' la protamina solfato."),
  (13,"chiaro",0,"Le eparine a basso peso molecolare, come l'enoxaparina, si danno sottocute, a dose calcolata sul peso e adattata alla funzione renale; non richiedono monitoraggio di routine, e la protamina le neutralizza solo in parte."),
  (13,"chiaro",0,"Con tutte le eparine si sorvegliano le piastrine, per il rischio di trombocitopenia indotta da eparina, la HIT."),
 
  (14,"chiaro",0,"Il warfarin, antagonista della vitamina K. Agisce in giorni, non in ore, e si monitora con l'INR, il cui range abituale e' fra due e tre, piu' alto in alcuni portatori di valvole meccaniche."),
- (14,"chiaro",0,"Ha moltissime interazioni: antibiotici, amiodarone, FANS, alcol. Sull'alimentazione, un errore frequente nei quiz: la vitamina K non va esclusa, va assunta con costanza, perche' sono le variazioni brusche a destabilizzare l'INR."),
+ (14,"chiaro",0,"Molte interazioni: antibiotici, amiodarone, FANS, alcol. Sull'alimentazione, un errore da quiz: la vitamina K non va esclusa, va assunta con costanza, perche' sono le variazioni brusche a destabilizzare l'INR."),
  (14,"chiaro",0,"L'antidoto e' la vitamina K; nel sanguinamento grave si usa il concentrato di complesso protrombinico."),
 
  (15,"chiaro",0,"I DOAC, gli anticoagulanti orali diretti. Il dabigatran inibisce la trombina; rivaroxaban, apixaban, edoxaban inibiscono il fattore dieci attivato. Non richiedono l'INR di routine, e hanno meno interazioni del warfarin."),
- (15,"chiaro",0,"Ma hanno un'emivita breve: una dose saltata lascia la persona scoperta in fretta, e l'aderenza e' cruciale. Si adattano alla funzione renale. Antidoti: idarucizumab per il dabigatran; per gli anti-Xa un antidoto specifico, o il complesso protrombinico."),
+ (15,"chiaro",0,"Ma hanno un'emivita breve: una dose saltata lascia la persona scoperta in fretta, e l'aderenza e' cruciale. Antidoti: idarucizumab per il dabigatran; per gli anti-Xa un antidoto specifico, o il complesso protrombinico."),
 
  (16,"chiaro",0,"Gli antiaggreganti non sono anticoagulanti, ma aumentano anch'essi il rischio di sanguinamento: acido acetilsalicilico, clopidogrel, ticagrelor, prasugrel."),
  (16,"chiaro",0,"Dopo l'impianto di uno stent coronarico si usa la doppia antiaggregazione, e sospenderla senza indicazione del cardiologo espone alla trombosi dello stent, un evento spesso fatale."),
  (16,"chiaro",0,"Se un paziente dice il medico di base mi ha detto di smettere l'aspirina prima dell'intervento, la domanda da porre e': ha uno stent?"),
 
  (17,"chiaro",0,"L'assistenza al paziente anticoagulato. Sorvegliare i segni di sanguinamento: gengive, epistassi, urine scure o rosse, feci nere, ematomi, e una cefalea improvvisa, che puo' indicare un sanguinamento cerebrale."),
- (17,"chiaro",0,"Spazzolino morbido e rasoio elettrico. Evitare le intramuscolari. Compressione prolungata dopo prelievi e rimozione di accessi. Prevenzione delle cadute, piu' gravi nell'anticoagulato, lezione tre punto uno. E educazione alla dimissione."),
+ (17,"chiaro",0,"Spazzolino morbido e rasoio elettrico. Evitare le intramuscolari. Compressione prolungata dopo prelievi e rimozione di accessi. Prevenzione delle cadute, lezione tre punto uno. E educazione alla dimissione."),
 
  (18,"chiaro",0,"La tabella degli antidoti, da fotografare. Eparina non frazionata: protamina. Warfarin: vitamina K, e nei casi gravi complesso protrombinico. Dabigatran: idarucizumab."),
  (18,"chiaro",0,"Anti-Xa: antidoto specifico dove disponibile o complesso protrombinico. Ipoglicemia da insulina: glucagone o glucosio. Digossina: anticorpi specifici antidigossina."),
@@ -71,7 +70,7 @@ BLOCCHI = [
  (19,"chiaro",0,"All'orale, la risposta completa collega il farmaco all'educazione terapeutica alla dimissione, con il teach-back: chi va a casa con un anticoagulante o con l'insulina deve saper riconoscere i segni di allarme."),
 
  (20,"chiaro",0,"Ricapitoliamo. Diuretici al mattino, controllando il potassio. Beta-bloccanti: frequenza e pressione prima. Digossina: polso apicale per un minuto, e l'ipokaliemia ne aumenta la tossicita'."),
- (20,"chiaro",0,"[warm] Ipoglicemia sotto settanta: regola del quindici, niente per bocca se incosciente. Warfarin: INR due-tre, vitamina K con costanza. DOAC: niente INR, nessuna dose saltata. Prossima lezione: antibiotici, analgesici e stupefacenti."),
+ (20,"chiaro",0,"[warm] Ipoglicemia sotto settanta: regola del quindici, niente per bocca se incosciente. Warfarin: INR due-tre, vitamina K con costanza. DOAC: niente INR, nessuna dose saltata. Gli antidoti a memoria. A tra poco."),
 ]
 
 CAPITOLI = {1:"Apertura",2:"Il trucco dei suffissi",3:"I diuretici",4:"Il monitoraggio del diuretico",5:"ACE-inibitori e sartani",

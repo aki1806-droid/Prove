@@ -1,0 +1,98 @@
+{
+ "A": {
+  "parole_copione": 689,
+  "parole_dette": 688,
+  "coincidenti": 680,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s09",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s11",
+    "copione": "chiede",
+    "detto": "chieda"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "convalida",
+    "detto": "con valida"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 648,
+  "parole_dette": 645,
+  "coincidenti": 635,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "read back",
+    "detto": "readback"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s41",
+    "copione": "oss",
+    "detto": "os"
+   },
+   {
+    "blocco": "s42",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s42",
+    "copione": "oss",
+    "detto": "os"
+   },
+   {
+    "blocco": "s43",
+    "copione": "8virgola1 quarto",
+    "detto": "8 15"
+   },
+   {
+    "blocco": "s47",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s48",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s48",
+    "copione": "al",
+    "detto": "a"
+   }
+  ]
+ }
+}

@@ -106,7 +106,7 @@ export const SCENE = [
   titolo:"Simili per **confezione** o per **nome**.",
   sotto:"Due flaconi quasi identici, due nomi che si pronunciano quasi uguali."},
 {id:"s28", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Le misure · conservazione separata, etichette di allerta, lettura ad alta voce, read-back",
-  da:{h:"Dopamina · Dobutamina", t:"si confondono"}, a:{h:"DOPamina · DOBUTamina", t:"le lettere diverse in maiuscolo"},
+  da:{h:"Si confondono", t:"Dopamina · Dobutamina"}, a:{h:"Lettere differenziali", t:"DOPamina · DOBUTamina"},
   sotto:"La tecnica delle lettere maiuscole differenziali."},
 
 {id:"s29", tipo:"confronto", tema:"chiaro", sopratitolo:"La Raccomandazione 17 · due parole", col:[
@@ -167,6 +167,6 @@ export const SCENE = [
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Prossima lezione",
-  titolo:"5.5<br>Farmaci cardiovascolari,<br>antidiabetici e anticoagulanti", sottotitolo:"Che cosa controllare prima, che cosa sorvegliare dopo, qual è l'antidoto",
+  titolo:"5.5<br>Tre famiglie di farmaci", sottotitolo:"Cardiovascolari, antidiabetici, anticoagulanti: che cosa controllare prima, sorvegliare dopo, e l'antidoto",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 ];
