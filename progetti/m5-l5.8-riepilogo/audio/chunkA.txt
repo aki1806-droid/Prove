@@ -1,0 +1,49 @@
+[warm] Chiudiamo il modulo piu' pesante del corso con una lezione diversa dalle altre: prima un rapido riepilogo dei punti chiave, poi venti calcoli cronometrati.
+
+Per ogni coppia di calcoli avrai quaranta secondi, venti a calcolo: il tempo che avrai davvero in sede d'esame. Prendi carta e penna, e metti in pausa se ti serve piu' tempo. Ma prova a stare nei tempi.
+
+Il riepilogo, in due slide. ADME: assorbimento, distribuzione, metabolismo, eliminazione. Biodisponibilita' endovenosa del cento per cento. Primo passaggio epatico, che riduce la dose orale.
+
+Stato stazionario ed eliminazione in quattro-cinque emivite. Finestra stretta, con il monitoraggio dei livelli: digossina, litio, warfarin, fenitoina, aminoglicosidi, vancomicina.
+
+La reazione avversa si segnala sul sospetto, alla rete nazionale di farmacovigilanza; l'errore in terapia con l'incident reporting. E nell'anziano: start low, go slow.
+
+Le sette G e i tre controlli, l'ultimo al letto. Identificazione attiva con due identificativi. Niente U, niente zero dopo la virgola. Le Raccomandazioni uno, sette, dodici, quattordici, diciassette, diciannove.
+
+Davanti a un errore: valutare, avvisare, informare, documentare, segnalare. Gli antidoti: protamina, vitamina K, idarucizumab, naloxone, glucagone.
+
+Gli stupefacenti: DPR trecentonove del millenovecentonovanta, registro di carico e scarico vidimato, conservazione due anni. Ora i calcoli.
+
+Calcolo uno: prescritti quaranta milligrammi, fiala da venti milligrammi per millilitro. Calcolo due: prescritti duecentocinquanta milligrammi, compresse da cinquecento. Quaranta secondi: metti in pausa.
+
+Uno: la regola del tre della lezione cinque punto tre: dose prescritta diviso dose disponibile, per il volume. Quaranta diviso venti fa due: due millilitri.
+
+Due: duecentocinquanta diviso cinquecento fa zero virgola cinque: mezza compressa, se la compressa e' divisibile. Altrimenti si chiede una formulazione adatta.
+
+Tre: prescritti zero virgola venticinque milligrammi, fiala da zero virgola cinque milligrammi in due millilitri. Quattro: prescritti trecento microgrammi, fiala da un milligrammo in un millilitro. Quaranta secondi.
+
+Tre: zero virgola cinque in due millilitri e' zero virgola venticinque per millilitro, quindi un millilitro. Meta' della fiala, e il buon senso lo conferma.
+
+Quattro: prima la conversione. Un milligrammo sono mille microgrammi; trecento su mille fa zero virgola tre: zero virgola tre millilitri.
+
+Cinque: prescritti duecento milligrammi di una soluzione al dieci per cento. Sei: quanti grammi di glucosio ci sono in dieci millilitri di glucosata al trentatre' per cento? Quaranta secondi.
+
+Cinque: il dieci per cento sono dieci grammi in cento millilitri, cioe' cento milligrammi per millilitro, percentuale per dieci. Duecento diviso cento: due millilitri.
+
+Sei: il trentatre' per cento sono trentatre' grammi in cento millilitri, quindi in dieci millilitri tre virgola tre grammi. Percentuale per dieci: i milligrammi per millilitro.
+
+Sette: cinquecento millilitri in quattro ore, quanti millilitri all'ora? Otto: millecinquecento millilitri in ventiquattro ore? Quaranta secondi.
+
+Sette: volume diviso ore, cinquecento diviso quattro: centoventicinque millilitri all'ora. Otto: millecinquecento diviso ventiquattro fa sessantadue virgola cinque millilitri all'ora. La formula piu' semplice del modulo.
+
+Nove: cinquecento millilitri in cinque ore, deflussore da venti gocce: quante gocce al minuto? Dieci: cento millilitri in trenta minuti, stesso deflussore. Quaranta secondi.
+
+Nove: volume per fattore diviso minuti. Cinquecento per venti fa diecimila, diviso trecento minuti fa trentatre' gocce al minuto.
+
+Dieci: cento per venti fa duemila, diviso trenta fa sessantasette gocce al minuto. Il tempo in minuti, sempre: e' l'errore piu' frequente.
+
+Undici: microgocciolatore, quaranta millilitri all'ora: quante gocce al minuto? Dodici: deflussore da venti, novanta millilitri all'ora. Usa le scorciatoie. Quaranta secondi.
+
+Undici: con il microgocciolatore, sessanta gocce per millilitro, gocce al minuto e millilitri all'ora coincidono: quaranta gocce al minuto.
+
+Dodici: con il deflussore da venti si divide per tre: novanta diviso tre, trenta gocce al minuto. Le scorciatoie della lezione cinque punto tre.

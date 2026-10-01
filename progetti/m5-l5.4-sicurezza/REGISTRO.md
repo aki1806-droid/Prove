@@ -77,7 +77,10 @@ virgola cinque» consumando il «cinque» che serviva alla coppia vera. Ora
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `54a45652bb75397a8dcde4ab22d7deb1` — 541.613 s (9:01.6), 1080p 16:9, resa in 69 s, con SRT (`subtitle_url`) |
+| lotto asset | `b0896efe4a5e4242981e7f78a4edc6af` — 98 file, 20 MB, tutti completati |
 
 ---
 

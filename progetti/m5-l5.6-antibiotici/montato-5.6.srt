@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,390
+Tre famiglie di farmaci, e la terza porta con se' una normativa specifica che i concorsi chiedono con precisione: la gestione degli stupefacenti in reparto.
+
+2
+00:00:11,390 --> 00:00:19,360
+Partiamo dagli antibiotici, ripresi dal punto di vista della somministrazione: l'antibiotico-resistenza l'abbiamo vista nella lezione quattro punto sei.
+
+3
+00:00:19,360 --> 00:00:32,300
+Un concetto che spiega perche' l'orario conta. Gli antibiotici tempo-dipendenti, i beta-lattamici: penicilline, cefalosporine, carbapenemi, funzionano in base al tempo in cui la concentrazione resta sopra la soglia efficace.
+
+4
+00:00:32,300 --> 00:00:44,430
+Per questi rispettare gli intervalli e' essenziale, e talvolta si prescrive l'infusione prolungata. I concentrazione-dipendenti, come gli aminoglicosidi, funzionano in base al picco: spesso in dose unica giornaliera.
+
+5
+00:00:44,430 --> 00:00:53,800
+Le classi da conoscere per cio' che l'infermiere sorveglia. Aminoglicosidi, gentamicina e amikacina: nefrotossicita' e ototossicita', con monitoraggio dei livelli.
+
+6
+00:00:53,800 --> 00:01:04,530
+Vancomicina: nefrotossicita', monitoraggio dei livelli, e la sindrome dell'uomo rosso: arrossamento di viso e tronco, prurito, ipotensione, se l'infusione e' troppo rapida.
+
+7
+00:01:04,530 --> 00:01:18,520
+Non e' un'allergia: si previene rallentando l'infusione, in genere almeno un'ora. Fluorochinoloni: tendinopatie e allungamento del QT. Macrolidi: QT e interazioni. Metronidazolo: effetto antabuse con l'alcol.
+
+8
+00:01:18,520 --> 00:01:28,390
+L'allergia. Prima della prima dose di qualunque antibiotico si chiede sempre delle allergie, e la risposta si registra in modo evidente. Dopo la prima dose la persona si osserva.
+
+9
+00:01:28,390 --> 00:01:39,380
+I segni dell'anafilassi: orticaria, angioedema, broncospasmo, ipotensione. Il farmaco di primo intervento e' l'adrenalina per via intramuscolare: non endovena, non sottocute.
+
+10
+00:01:39,380 --> 00:01:51,520
+Nell'adulto zero virgola cinque milligrammi, cioe' mezzo millilitro della fiala da un milligrammo per millilitro, nella faccia anterolaterale della coscia, ripetibile dopo cinque minuti. Lo riprenderemo nel modulo dieci.
+
+11
+00:01:51,520 --> 00:02:03,430
+Gli analgesici, partendo dal piu' usato: il paracetamolo. Nell'adulto la dose massima indicativa e' di quattro grammi al giorno, da ridurre nell'epatopatia, nell'alcolismo e nel basso peso, sotto i cinquanta chili.
+
+12
+00:02:03,430 --> 00:02:13,970
+Dove per via endovenosa la dose si calcola sul peso. La sua tossicita' e' epatica. E una trappola frequente: molti farmaci da banco e molte associazioni contengono paracetamolo.
+
+13
+00:02:13,970 --> 00:02:19,910
+Quindi la dose giornaliera si somma senza che nessuno se ne accorga. Nella ricognizione della terapia, va chiesto.
+
+14
+00:02:19,910 --> 00:02:31,470
+I FANS, antinfiammatori non steroidei. Efficaci, ma con molti effetti avversi: gastrolesivita', che richiede gastroprotezione nei soggetti a rischio; nefrotossicita', soprattutto nel disidratato.
+
+15
+00:02:31,470 --> 00:02:41,910
+Ritenzione idrica, che peggiora lo scompenso; aumento del rischio di sanguinamento, pericoloso nell'anticoagulato; rischio cardiovascolare. Nell'anziano vanno usati con molta cautela.
+
+16
+00:02:41,910 --> 00:02:54,580
+Gli oppioidi. Deboli, come codeina e tramadolo; il tramadolo ha anche un'azione serotoninergica e abbassa la soglia convulsiva. Forti, come morfina, ossicodone, fentanil, idromorfone, metadone.
+
+17
+00:02:54,580 --> 00:03:06,750
+Gli effetti avversi da conoscere: sedazione, depressione respiratoria, stipsi, a cui, ricordi, non si sviluppa tolleranza, nausea, prurito, ritenzione urinaria, miosi, cioe' pupille puntiformi.
+
+18
+00:03:06,750 --> 00:03:16,400
+La depressione respiratoria e' l'effetto piu' temuto, e il principio di sorveglianza e' quello gia' visto con la PCA nella lezione tre punto sette: la sedazione compare prima.
+
+19
+00:03:16,400 --> 00:03:27,480
+Una persona sempre piu' sonnolenta e' una persona che, se non intercettata, rallentera' il respiro. Si sorvegliano livello di sedazione, frequenza respiratoria e saturazione.
+
+20
+00:03:27,480 --> 00:03:35,960
+Con attenzione a chi e' piu' a rischio: anziano, prima dose, insufficienza renale, e soprattutto l'associazione con benzodiazepine o altri sedativi.
+
+21
+00:03:35,960 --> 00:03:45,250
+L'antidoto e' il naloxone, antagonista dei recettori degli oppioidi. Una caratteristica da sapere: ha un'emivita breve, spesso piu' breve dell'oppioide che deve contrastare.
+
+22
+00:03:45,250 --> 00:03:52,160
+Quindi dopo il risveglio la persona puo' tornare a sedarsi: la sorveglianza deve proseguire, e possono servire dosi ripetute.
+
+23
+00:03:52,160 --> 00:04:01,330
+Nel paziente con dolore si titola, cioe' si somministra a piccole dosi, per ripristinare il respiro senza annullare del tutto l'analgesia e scatenare un dolore violento.
+
+24
+00:04:01,330 --> 00:04:12,580
+Tre concetti clinici. La titolazione: la dose si aumenta progressivamente fino al controllo del dolore. La dose di soccorso, per il dolore episodico intenso, prescritta accanto alla terapia di base.
+
+25
+00:04:12,580 --> 00:04:26,260
+E le conversioni: la morfina orale e' meno biodisponibile di quella endovenosa, il primo passaggio della lezione cinque punto uno: circa due-tre a uno. Cambiare via o oppioide richiede tabelle di conversione e prescrizione.
+
+26
+00:04:26,260 --> 00:04:39,840
+Passiamo alla normativa. Il riferimento e' il DPR trecentonove del millenovecentonovanta, il Testo unico sugli stupefacenti, che classifica le sostanze in tabelle e disciplina prescrizione, detenzione e registrazione.
+
+27
+00:04:39,840 --> 00:04:48,830
+La legge trentotto del duemiladieci, sulla terapia del dolore, ha introdotto semplificazioni per i farmaci oppioidi usati nel dolore, per favorirne l'accesso.
+
+28
+00:04:48,830 --> 00:04:59,320
+In reparto gli stupefacenti si gestiscono con il registro di carico e scarico. E' un registro a pagine numerate, vidimato dal Direttore Sanitario, con una sezione per ciascun farmaco.
+
+29
+00:04:59,320 --> 00:05:08,890
+Ogni carico, cioe' ogni fornitura dalla farmacia, e ogni scarico, cioe' ogni somministrazione, si registra con data, paziente, quantita' e firma.
+
+30
+00:05:08,890 --> 00:05:20,820
+Il registro e' tenuto dal responsabile dell'assistenza infermieristica; il direttore dell'unita' operativa risponde della corrispondenza fra giacenza contabile e reale. Si conserva due anni dall'ultima registrazione.
+
+31
+00:05:20,820 --> 00:05:34,330
+Le regole di compilazione riprendono la lezione due punto quattro, con ancora piu' rigore. La registrazione e' contestuale alla somministrazione. Niente correttore ne' cancellature: si corregge con una riga e una firma.
+
+32
+00:05:34,330 --> 00:05:39,390
+La giacenza deve essere verificabile in ogni momento, e ogni discrepanza va spiegata.
+
+33
+00:05:39,390 --> 00:05:50,840
+Se si usa solo una parte di una fiala, il residuo si smaltisce e si documenta secondo la procedura aziendale, spesso alla presenza di un testimone. Rotture e smarrimenti si annotano e si segnalano.
+
+34
+00:05:50,840 --> 00:06:00,810
+La custodia. Gli stupefacenti si conservano in un armadio o in una cassaforte dedicata, chiusa a chiave, e le chiavi sono custodite dall'infermiere responsabile del turno.
+
+35
+00:06:00,810 --> 00:06:13,140
+Con un passaggio esplicito alla consegna, in molti reparti con verifica della giacenza al cambio turno. I farmaci scaduti si tengono separati e identificati, e tornano alla farmacia secondo la procedura: non si buttano.
+
+36
+00:06:13,140 --> 00:06:23,820
+Un richiamo alla responsabilita', perche' in questo ambito un errore di registrazione non e' un errore formale. Una discrepanza fra giacenza contabile e reale ha rilevanza disciplinare e puo' averne una penale.
+
+37
+00:06:23,820 --> 00:06:35,580
+Chi firma lo scarico attesta di aver somministrato quella quantita' a quel paziente. Per questo, come in tutta la documentazione, mai firmare per un collega.
+
+38
+00:06:35,580 --> 00:06:46,760
+Un aspetto etico che all'orale distingue. Una persona con una storia di dipendenza ha diritto a un trattamento efficace del dolore come chiunque altro. Puo' avere una tolleranza e richiedere dosi piu' alte.
+
+39
+00:06:46,760 --> 00:06:58,810
+E richieste frequenti di analgesico possono essere il segno di un dolore non controllato, la pseudodipendenza, piu' che di una ricerca della sostanza. Il pregiudizio porta al sottotrattamento, anch'esso un errore.
+
+40
+00:06:58,810 --> 00:07:11,500
+Il caso. Paziente anziano in terapia con morfina, da un'ora sempre piu' sonnolento, frequenza respiratoria nove, saturazione novanta. Che cosa fai? E' una depressione respiratoria da oppioide in evoluzione.
+
+41
+00:07:11,500 --> 00:07:22,220
+Stimoli la persona e valuti la risposta, sospendi l'infusione o la PCA se presente, ossigeno secondo protocollo, avvisi subito il medico con SBAR, prepari il naloxone.
+
+42
+00:07:22,220 --> 00:07:33,480
+E sorvegli a lungo anche dopo la risposta, perche' il naloxone dura meno della morfina. Poi documenti e ti chiedi se c'erano fattori predisponenti: funzione renale, benzodiazepine associate.
+
+43
+00:07:33,480 --> 00:07:47,150
+Nelle aziende del SSSR veneto la gestione degli stupefacenti e' regolata da procedure aziendali che recepiscono il DPR trecentonove, e in alcune realta' si usano armadi informatizzati che tracciano ogni prelievo.
+
+44
+00:07:47,150 --> 00:07:59,850
+La rete regionale di terapia del dolore e cure palliative attua la legge trentotto, con la rilevazione del dolore in cartella. All'orale: normativa, registro, custodia, responsabilita', in quest'ordine.
+
+45
+00:07:59,850 --> 00:08:12,620
+La sintesi in una slide. Beta-lattamici: intervalli rispettati. Aminoglicosidi e vancomicina: livelli e reni. Vancomicina lenta. Anafilassi: adrenalina intramuscolo, mezzo milligrammo.
+
+46
+00:08:12,620 --> 00:08:25,190
+Paracetamolo al massimo quattro grammi, meno se il fegato e' fragile. FANS: stomaco, reni, sanguinamento. Oppioidi: la sedazione precede la depressione respiratoria, e il naloxone dura meno.
+
+47
+00:08:25,190 --> 00:08:39,510
+E per gli stupefacenti: DPR trecentonove del novanta; registro vidimato a pagine numerate; registrazione contestuale; armadio chiuso a chiave; corrispondenza fra giacenza contabile e reale; registro conservato per due anni.
+
+48
+00:08:39,510 --> 00:08:48,210
+Nella prossima lezione: preparazione, stabilita' e conservazione dei farmaci, fino agli antiblastici e al carrello delle emergenze. A tra poco.

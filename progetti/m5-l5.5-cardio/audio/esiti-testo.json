@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 696,
+  "parole_dette": 697,
+  "coincidenti": 690,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "ed enalapril",
+    "detto": "e denalapril"
+   },
+   {
+    "blocco": "s08",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s27",
+    "copione": "sottocute",
+    "detto": "sotto cute"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 601,
+  "parole_dette": 604,
+  "coincidenti": 596,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "sottocute",
+    "detto": "sotto cute"
+   },
+   {
+    "blocco": "s37",
+    "copione": "edoxaban",
+    "detto": "ed oxaban"
+   },
+   {
+    "blocco": "s37",
+    "copione": "10",
+    "detto": "x"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "antidigossina",
+    "detto": "anti digossina"
+   }
+  ]
+ }
+}

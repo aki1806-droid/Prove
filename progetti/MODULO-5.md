@@ -12,8 +12,8 @@ il farmaco.
 | 5.1 | Principi di farmacologia per l'infermiere | 8:56.4 | `018849a44c2df09bfd81b0ba739676b9` |
 | 5.2 | Vie di somministrazione e tecniche | 9:03.1 | `d13d3dbee433d679793e5750a63ccddf` |
 | 5.3 | Il calcolo delle dosi e delle velocità di infusione | 8:55.1 | `66548d96aa8517e4bec4f9e8625dda93` |
-| 5.4 | La somministrazione sicura | — | da fare |
-| 5.5 | Farmaci cardiovascolari, antidiabetici e anticoagulanti | — | da fare |
+| 5.4 | La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
+| 5.5 | Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
 | 5.6 | Antibiotici, analgesici e stupefacenti | — | da fare |
 | 5.7 | Preparazione, stabilità e gestione dei farmaci in reparto | — | da fare |
 | 5.8 | Riepilogo del Modulo 5 e venti calcoli cronometrati | — | da fare |

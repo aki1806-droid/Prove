@@ -1,191 +1,191 @@
 1
-00:00:03,000 --> 00:00:11,940
+00:00:03,000 --> 00:00:12,040
 L'errore in terapia e' uno degli eventi avversi piu' frequenti in sanita', e la somministrazione e' l'ultimo anello della catena: dopo, non c'e' piu' nessuno che possa intercettarlo.
 
 2
-00:00:11,940 --> 00:00:22,970
+00:00:12,040 --> 00:00:23,190
 Per questo l'infermiere e' l'ultima barriera. Questa lezione mette insieme rischio clinico, documentazione e responsabilita', e li applica al gesto piu' frequente della giornata.
 
 3
-00:00:22,970 --> 00:00:33,530
+00:00:23,190 --> 00:00:33,880
 Il processo di gestione della terapia ha piu' fasi: prescrizione, trascrizione, che la scheda unica di terapia tende a eliminare, approvvigionamento e conservazione, preparazione.
 
 4
-00:00:33,530 --> 00:00:44,150
+00:00:33,880 --> 00:00:44,630
 Poi distribuzione, somministrazione e monitoraggio degli effetti. L'errore puo' nascere in ciascuna. Ma solo alcune sono in mano all'infermiere, e la somministrazione e' la sua.
 
 5
-00:00:44,150 --> 00:00:51,100
+00:00:44,630 --> 00:00:51,660
 Le regole delle sette G, che trovi in quasi tutti i quiz. Giusto farmaco. Giusta dose. Giusta via. Giusto orario.
 
 6
-00:00:51,100 --> 00:00:59,370
+00:00:51,660 --> 00:01:00,030
 Giusto paziente. Giusta registrazione. Giusto controllo, cioe' il monitoraggio degli effetti. Sette, e in quest'ordine le ricordi meglio.
 
 7
-00:00:59,370 --> 00:01:11,020
+00:01:00,030 --> 00:01:11,820
 Alcuni testi ne aggiungono altre, la giusta informazione al paziente, la giusta preparazione, il diritto al rifiuto, ma le sette di base sono queste. Se in un quiz trovi un elenco incompleto, cerca quella che manca.
 
 8
-00:01:11,020 --> 00:01:22,140
+00:01:11,820 --> 00:01:23,070
 Accanto alle sette G, la regola dei tre controlli: si confronta il farmaco con la prescrizione quando lo si preleva dall'armadio, durante la preparazione, e al letto del paziente, prima di somministrarlo.
 
 9
-00:01:22,140 --> 00:01:31,690
+00:01:23,070 --> 00:01:32,720
 Il terzo e' il piu' importante, perche' e' l'unico fatto davanti alla persona e al suo braccialetto. Gli altri due si fanno in una stanza; questo si fa con il paziente.
 
 10
-00:01:31,690 --> 00:01:40,370
+00:01:32,720 --> 00:01:41,510
 Il giusto paziente, che e' la G piu' violata. L'identificazione deve essere attiva: si chiede alla persona di dire nome, cognome e data di nascita.
 
 11
-00:01:40,370 --> 00:01:51,170
+00:01:41,510 --> 00:01:52,460
 Non si chiede lei e' il signor Rossi?, perche' una persona confusa o ipoacusica risponde si'. Si usano almeno due identificativi e si confrontano con il braccialetto e con la prescrizione.
 
 12
-00:01:51,170 --> 00:01:56,680
+00:01:52,460 --> 00:01:58,020
 E il numero di letto non e' mai un identificativo: i pazienti si spostano.
 
 13
-00:01:56,680 --> 00:02:08,480
+00:01:58,020 --> 00:02:09,950
 La prescrizione, come abbiamo visto nella lezione due punto quattro, deve essere scritta, leggibile, completa e firmata. Quelle verbali si limitano all'urgenza, con read-back e convalida scritta.
 
 14
-00:02:08,480 --> 00:02:20,840
+00:02:09,950 --> 00:02:22,450
 E se la prescrizione e' incompleta o dubbia, la risposta e' sempre la stessa del modulo uno: si chiede chiarimento, e se il dubbio permane non si procede e si documenta. L'infermiere non interpreta una prescrizione.
 
 15
-00:02:20,840 --> 00:02:33,030
+00:02:22,450 --> 00:02:34,790
 Le abbreviazioni pericolose, che i quiz chiedono sempre piu' spesso. Mai U per unita': si scrive per esteso. Mai lo zero dopo la virgola: cinque virgola zero milligrammi puo' essere letto cinquanta.
 
 16
-00:02:33,030 --> 00:02:47,940
+00:02:34,790 --> 00:02:49,890
 Sempre lo zero prima della virgola: zero virgola cinque, non virgola cinque, che si legge cinque. Il simbolo dei microgrammi si confonde con mg: meglio mcg. Errori di dieci, cento, mille volte nascono da un segno.
 
 17
-00:02:47,940 --> 00:02:59,220
+00:02:49,890 --> 00:03:01,310
 Una regola organizzativa con un fondamento di responsabilita': chi prepara, somministra e registra. Non si somministrano farmaci preparati da altri, perche' non si puo' garantire cio' che non si e' controllato.
 
 18
-00:02:59,220 --> 00:03:10,740
+00:03:01,310 --> 00:03:12,980
 Ogni preparazione endovenosa va etichettata, paziente, farmaco, dose, orario, operatore, e non si prepara con largo anticipo. Una siringa senza etichetta e' una siringa sconosciuta.
 
 19
-00:03:10,740 --> 00:03:22,610
+00:03:12,980 --> 00:03:24,990
 Un fattore di rischio molto studiato: le interruzioni. Ogni interruzione durante la preparazione aumenta la probabilita' di errore. Le strategie adottate in molti ospedali: una zona di preparazione dedicata.
 
 20
-00:03:22,610 --> 00:03:34,060
+00:03:24,990 --> 00:03:36,580
 Una segnalazione visiva, come la pettorina che indica non disturbare, sto preparando la terapia, e regole condivise nel gruppo. E' un esempio perfetto di intervento sul sistema, secondo la logica di Reason.
 
 21
-00:03:34,060 --> 00:03:45,900
+00:03:36,580 --> 00:03:48,570
 I farmaci ad alto rischio, o high alert: quelli che, in caso di errore, causano piu' facilmente danni gravi. Anticoagulanti, insuline, oppioidi, potassio e soluzioni elettrolitiche concentrate.
 
 22
-00:03:45,900 --> 00:03:57,250
+00:03:48,570 --> 00:04:00,060
 Chemioterapici, agonisti adrenergici come adrenalina e noradrenalina, sedativi endovenosi, bloccanti neuromuscolari, digossina. Nove classi, da saper riconoscere a colpo d'occhio.
 
 23
-00:03:57,250 --> 00:04:08,090
+00:04:00,060 --> 00:04:11,030
 Per questi valgono misure rinforzate: conservazione separata, etichettatura, doppio controllo indipendente, pompe infusionali. Indipendente: ciascuno calcola per conto proprio.
 
 24
-00:04:08,090 --> 00:04:20,610
+00:04:11,030 --> 00:04:23,700
 Le Raccomandazioni ministeriali sulla terapia, che conviene saper citare per numero. La uno, sul potassio concentrato. La sette, madre di tutte, sulla prevenzione di morte, coma o grave danno da errori in terapia.
 
 25
-00:04:20,610 --> 00:04:32,170
+00:04:23,700 --> 00:04:35,390
 La dodici, sui farmaci LASA. La quattordici, sugli errori con i farmaci antineoplastici. La diciassette, sulla riconciliazione. La diciannove, sulla manipolazione delle forme orali solide.
 
 26
-00:04:32,170 --> 00:04:41,910
+00:04:35,390 --> 00:04:45,250
 I farmaci LASA, look-alike, sound-alike: simili per confezione o per nome. Due flaconi quasi identici, due nomi che si pronunciano quasi uguali.
 
 27
-00:04:41,910 --> 00:04:54,080
+00:04:45,250 --> 00:04:57,560
 Le misure: conservazione separata, etichette di allerta, le lettere maiuscole differenziali, DOPamina e DOBUTamina con le lettere diverse in maiuscolo, la lettura ad alta voce del nome e il read-back.
 
 28
-00:04:54,080 --> 00:05:07,150
+00:04:57,560 --> 00:05:10,780
 La Raccomandazione diciassette introduce due parole. La ricognizione: la raccolta completa della terapia che la persona assume a casa, compresi integratori, prodotti erboristici e farmaci da banco, che spesso nessuno chiede.
 
 29
-00:05:07,150 --> 00:05:18,410
+00:05:10,780 --> 00:05:22,170
 La riconciliazione: il confronto fra quella terapia e quella prescritta, a ogni passaggio di setting, ingresso, trasferimento, dimissione, per individuare omissioni, duplicazioni e interazioni.
 
 30
-00:05:18,410 --> 00:05:29,780
+00:05:22,170 --> 00:05:33,680
 L'infermiere partecipa soprattutto alla ricognizione, perche' e' lui a raccogliere l'anamnesi. Una domanda in piu' all'ingresso, prende qualcosa senza ricetta?, vale un'interazione evitata.
 
 31
-00:05:29,780 --> 00:05:39,460
+00:05:33,680 --> 00:05:43,490
 Che cosa si fa quando si scopre un errore in terapia? Uno: si valuta il paziente, parametri, sintomi, e lo si mette in sicurezza. Due: si avvisa subito il medico.
 
 32
-00:05:39,460 --> 00:05:48,660
+00:05:43,490 --> 00:05:52,800
 Tre: si attuano gli interventi prescritti, compreso l'eventuale antidoto. Quattro: si informa la persona, con la trasparenza vista nella lezione due punto sei.
 
 33
-00:05:48,660 --> 00:05:59,830
+00:05:52,800 --> 00:06:04,100
 Cinque: si documenta in cartella cio' che e' accaduto, in modo oggettivo e senza giudizi. Sei: si segnala con l'incident reporting, che e' cosa diversa dalla registrazione in cartella.
 
 34
-00:05:59,830 --> 00:06:08,830
+00:06:04,100 --> 00:06:13,220
 E che cosa non si fa mai. Non si nasconde l'errore. Non si modifica la documentazione: sarebbe falso in atto pubblico, come nella lezione due punto quattro.
 
 35
-00:06:08,830 --> 00:06:19,800
+00:06:13,220 --> 00:06:24,320
 Non si aspetta per vedere se succede qualcosa: il tempo e' spesso cio' che fa la differenza fra un errore senza conseguenze e un danno. E non si attribuisce l'errore ad altri senza verifica.
 
 36
-00:06:19,800 --> 00:06:26,330
+00:06:24,320 --> 00:06:30,920
 La responsabilita' piu' grave, quasi sempre, non nasce dall'errore ma da cio' che si fa dopo.
 
 37
-00:06:26,330 --> 00:06:37,650
+00:06:30,920 --> 00:06:42,380
 Il rifiuto della terapia. La persona capace ha il diritto di rifiutare, come stabilisce la legge duecentodiciannove. L'infermiere esplora i motivi: spesso effetti collaterali, paura, incomprensione, difficolta' a deglutire.
 
 38
-00:06:37,650 --> 00:06:43,490
+00:06:42,380 --> 00:06:48,300
 Informa sulle conseguenze, non somministra di nascosto, avvisa il medico e documenta il rifiuto e l'informazione data.
 
 39
-00:06:43,490 --> 00:06:54,540
+00:06:48,300 --> 00:06:59,480
 Somministrare un farmaco nascosto nel cibo a una persona capace che l'ha rifiutato e' una violazione della sua liberta'. Per la persona non capace, decide un percorso definito con il medico e chi la rappresenta.
 
 40
-00:06:54,540 --> 00:07:07,370
+00:06:59,480 --> 00:07:12,470
 Un aggancio al modulo uno. L'OSS puo' aiutare la persona nell'assunzione della terapia orale gia' preparata, su attribuzione dell'infermiere e secondo la procedura aziendale.
 
 41
-00:07:07,370 --> 00:07:20,430
+00:07:12,470 --> 00:07:25,680
 Ma la preparazione, la verifica delle sette G e la responsabilita' della somministrazione restano infermieristiche. Attribuire non significa delegare la responsabilita'. E l'OSS non prepara, non controlla, non registra.
 
 42
-00:07:20,430 --> 00:07:29,040
+00:07:25,680 --> 00:07:34,390
 Il caso. Alle otto somministri la terapia al paziente del letto dodici; alle otto e un quarto ti accorgi che era quella del letto quattordici. Che cosa fai?
 
 43
-00:07:29,040 --> 00:07:40,990
+00:07:34,390 --> 00:07:46,490
 Valuti subito il paziente del letto dodici, parametri, coscienza, sintomi, considerando quali farmaci ha ricevuto. Avvisi il medico con una comunicazione SBAR. Attui gli interventi prescritti.
 
 44
-00:07:40,990 --> 00:07:53,110
+00:07:46,490 --> 00:07:58,750
 Ricordi che anche il paziente del letto quattordici non ha ricevuto la sua terapia. Informi la persona. Documenti in cartella. Segnali con l'incident reporting. E poi ti chiedi, con il gruppo, perche' e' successo.
 
 45
-00:07:53,110 --> 00:08:04,050
+00:07:58,750 --> 00:08:09,820
 Nelle aziende venete la terapia e' gestita con la scheda unica di terapia informatizzata, che elimina la trascrizione. Esistono procedure aziendali su farmaci ad alto rischio, LASA, ricognizione e riconciliazione.
 
 46
-00:08:04,050 --> 00:08:14,840
+00:08:09,820 --> 00:08:20,740
 E in molte realta' l'identificazione avviene con braccialetto, o con codice a barre letto al letto, che chiude il cerchio fra prescrizione, farmaco e persona. Il sistema aiuta, ma il terzo controllo resta tuo.
 
 47
-00:08:14,840 --> 00:08:29,570
+00:08:20,740 --> 00:08:35,650
 Ricapitoliamo. Le sette G. I tre controlli, l'ultimo al letto. Identificazione attiva con due identificativi. Niente U, niente zero dopo la virgola. Chi prepara somministra. Per i farmaci ad alto rischio, doppio controllo.
 
 48
-00:08:29,570 --> 00:08:46,310
+00:08:35,650 --> 00:08:52,600
 Le Raccomandazioni uno, sette, dodici, quattordici, diciassette, diciannove. Davanti a un errore: valutare, avvisare, informare, documentare, segnalare. Mai nascondere. Prossima lezione: le classi di farmaci.

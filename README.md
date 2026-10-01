@@ -55,6 +55,8 @@ progetti/<modulo>-<lezione>/
 | `m5-l5.1-principi` | Modulo 5 · 5.1 Principi di farmacologia per l'infermiere | 8:56.4 | `018849a44c2df09bfd81b0ba739676b9` |
 | `m5-l5.2-vie` | Modulo 5 · 5.2 Vie di somministrazione e tecniche | 9:03.1 | `d13d3dbee433d679793e5750a63ccddf` |
 | `m5-l5.3-calcoli` | Modulo 5 · 5.3 Il calcolo delle dosi e delle velocità di infusione | 8:55.1 | `66548d96aa8517e4bec4f9e8625dda93` |
+| `m5-l5.4-sicurezza` | Modulo 5 · 5.4 La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
+| `m5-l5.5-cardio` | Modulo 5 · 5.5 Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
 
 Le micro-lezioni dei moduli finiti e quelle del modulo 5 in corso: i primi due con la grafica di
 seconda generazione, il 3 e il 4 con la terza (`slide/clinica.mjs`, settembre

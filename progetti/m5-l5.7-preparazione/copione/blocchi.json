@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Fra la farmacia e il paziente c'e' un tratto di strada che attraversa il reparto: l'armadio, il frigorifero, il piano di preparazione, la linea infusionale."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In ciascuno di questi punti un farmaco corretto puo' diventare inefficace o pericoloso. La lezione riguarda la qualita' del farmaco, e si chiude con due temi ad alto rischio: gli antiblastici e il carrello delle emergenze."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due operazioni diverse. La ricostituzione scioglie una polvere; la diluizione porta una soluzione a una concentrazione minore. In entrambi i casi il solvente e il volume sono quelli indicati nella scheda tecnica del farmaco."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cioe' il riassunto delle caratteristiche del prodotto, la fonte da consultare. E non e' indifferente quale solvente si usa: alcuni farmaci precipitano in fisiologica, altri in glucosata."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre esempi che ricorrono. L'amfotericina B si diluisce solo in glucosata al cinque per cento: in fisiologica precipita. La fenitoina, al contrario, solo in fisiologica: in glucosata precipita."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ceftriaxone non va mai miscelato con soluzioni contenenti calcio, come il Ringer lattato, per il rischio di precipitati, gravissimo nei neonati."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si imparano tutti a memoria: si impara a consultare la scheda tecnica o la farmacia, prima di diluire."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole della preparazione. Tecnica asettica, con igiene delle mani e disinfezione dei tappi dei flaconi. Preparare immediatamente prima dell'uso, non all'inizio del turno per tutto il giro."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Etichettare ogni preparazione: paziente, farmaco, dose, concentrazione, data e ora, operatore. I flaconi monodose si usano una sola volta, anche se avanza farmaco."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I multidose si datano all'apertura, con data e ora, e si conservano e si eliminano secondo la scheda tecnica e la procedura aziendale, non oltre il termine indicato."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La stabilita'. Un farmaco ricostituito o diluito resta efficace e sicuro per un tempo limitato, indicato nella scheda tecnica, che dipende da temperatura, luce e contenitore."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'infusione preparata e lasciata per ore su un carrello puo' non essere piu' cio' che era stato prescritto. E' un'altra ragione per preparare subito prima."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcuni farmaci sono fotosensibili: la luce li degrada. Vanno protetti con sacche coprenti e deflussori oscurati, dalla preparazione alla fine dell'infusione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esempi: il nitroprussiato, l'amfotericina B, alcuni chemioterapici, le vitamine nelle nutrizioni parenterali. Se il farmaco arriva in un contenitore scuro, non va travasato in uno trasparente."
+ },
+ {
+  "id": "s16",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La compatibilita' in linea, quando piu' farmaci passano nella stessa via. Le incompatibilita' possono essere fisiche, precipitati, torbidita', cambi di colore, o chimiche."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E queste non si vedono: il farmaco viene inattivato senza segni. Le regole: nel dubbio si usa un lume dedicato o si lava la linea fra un farmaco e l'altro; si consultano tabelle di compatibilita' e la farmacia."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mai aggiungere farmaci a sangue ed emocomponenti. E un esempio classico da quiz: il bicarbonato precipita con il calcio e inattiva le catecolamine, come l'adrenalina."
+ },
+ {
+  "id": "s19",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La catena del freddo. Insuline non aperte, vaccini, molti farmaci biologici si conservano fra due e otto gradi. Il frigorifero dev'essere dedicato ai farmaci, niente alimenti."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un termometro di minima e massima e una registrazione periodica della temperatura, secondo la procedura. E mai congelare: i farmaci stanno lontano dalla parete fredda del frigorifero."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se si scopre un'escursione fuori range, i farmaci si isolano, non si usano e non si buttano, e si contatta la farmacia, che valuta se sono ancora utilizzabili."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'armadio farmaceutico di reparto. Ordine e separazione: i farmaci ad alto rischio e i LASA in posizioni distinte e segnalate, il potassio concentrato dove previsto dalla procedura della Raccomandazione uno."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Controllo periodico delle scadenze, con il principio FIFO: prima si usa cio' che scade prima. I farmaci portati da casa dal paziente si gestiscono secondo la procedura: identificati, custoditi, mai usati senza prescrizione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antiblastici, o chemioterapici antineoplastici. Sono farmaci citotossici: agiscono sulle cellule in divisione, e per questo sono potenzialmente mutageni, cancerogeni e teratogeni anche per chi li manipola."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'esposizione dell'operatore avviene per inalazione di aerosol, contatto cutaneo, ingestione accidentale e puntura accidentale con un ago contaminato."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro e' quello del decreto ottantuno del duemilaotto e delle linee guida nazionali sulla sicurezza degli operatori esposti a chemioterapici antiblastici, che il concorso puo' citare."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola fondamentale: gli antiblastici si preparano in modo centralizzato, in un'unita' dedicata, l'UFA, Unita' Farmaci Antiblastici, sotto la responsabilita' del farmacista ospedaliero."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sotto cappa di sicurezza biologica a flusso laminare verticale, possibilmente con sistemi chiusi di trasferimento, da personale formato. Le operatrici in gravidanza e in allattamento sono escluse dall'esposizione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il reparto non prepara: riceve e somministra."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La somministrazione. DPI: guanti adatti, spesso doppi, camice monouso a maniche lunghe chiuso davanti, protezione oculare se c'e' rischio di schizzi. Raccordi luer-lock, che non si staccano."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il deflussore si riempie con soluzione priva di farmaco, cosi' che l'aria espulsa non contenga chemioterapico. Si verifica la pervieta' dell'accesso prima di iniziare. Il kit per gli spandimenti sta a portata di mano."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stravaso di un antiblastico vescicante puo' causare necrosi dei tessuti. La sequenza: fermare subito l'infusione; lasciare in sede l'ago-cannula e aspirare quanto possibile del farmaco; poi rimuovere; avvisare il medico."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Applicare le misure specifiche per quel farmaco: per molti il freddo, per alcuni, come gli alcaloidi della vinca, il caldo, dove previsto un antidoto. Sollevare l'arto; delimitare, documentare, sorvegliare nei giorni dopo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni reparto oncologico ha la sua procedura: all'esame si cita la sequenza, dal fermare l'infusione al documentare, e si rinvia alla procedura per il dettaglio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre ultime regole. Gli escreti del paziente, urine, feci, vomito, contengono farmaco per almeno quarantotto ore, per alcuni farmaci di piu': si maneggiano con guanti e camice, come il farmaco stesso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno spandimento si gestisce con il kit dedicato, i DPI e un contenimento dall'esterno verso il centro. I rifiuti vanno nei contenitori specifici per citotossici, ricordi la classificazione della lezione quattro punto sette."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la Raccomandazione quattordici del Ministero riguarda proprio la prevenzione degli errori con questi farmaci, gli antineoplastici."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il carrello delle emergenze. Il contenuto e' standardizzato, uguale in tutti i reparti dell'azienda, e noto a tutto il personale; la posizione e' nota e il carrello accessibile, mai ingombrato da altro materiale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si controlla con cadenza programmata dalla procedura e dopo ogni utilizzo, con una check-list firmata e un sigillo che attesta l'integrita'. Si verificano scadenze, defibrillatore, aspiratore, bombola di ossigeno."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Un carrello incompleto si scopre nel momento peggiore: durante un arresto cardiaco."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci che trovi in ogni carrello: adrenalina, amiodarone, atropina, naloxone, glucosio, e gli altri previsti dalla procedura, in formulazioni e concentrazioni standardizzate, uguali in tutta l'azienda."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cosi' che in emergenza nessuno debba calcolare con una concentrazione diversa dal solito. Li useremo nel modulo dieci, quello delle emergenze."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un caso breve. Al mattino il termometro del frigorifero dei farmaci segna una massima di quattordici gradi nella notte. Che cosa fai? Non usi i farmaci e non li butti: li isoli, in attesa di valutazione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contatti la farmacia, che valuta per ciascun farmaco se e' ancora utilizzabile. Verifichi il funzionamento del frigorifero e segnali il guasto. Documenti. E se nel frattempo serve un farmaco, lo chiedi alla farmacia."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende del SSSR veneto gli antiblastici sono allestiti nelle UFA aziendali, con tracciabilita' della preparazione, e il personale esposto e' sottoposto a sorveglianza sanitaria dal medico competente."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono procedure aziendali su conservazione, catena del freddo e carrello delle emergenze, con controlli verificabili e firmati. All'orale, per gli antiblastici, la parola chiave e' centralizzazione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Solvente e volume dalla scheda tecnica. Preparare subito prima ed etichettare. Monodose una volta sola. Fotosensibili al buio. Nel dubbio sulla compatibilita', lume dedicato."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Catena del freddo: fra due e otto gradi, frigorifero dedicato, mai congelare. Antiblastici: centralizzati, DPI, sequenza dello stravaso. Carrello delle emergenze: controllato, sigillato, ricontrollato dopo ogni uso."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo il modulo, con il riepilogo del modulo cinque e i venti calcoli cronometrati. A tra poco."
+ }
+]

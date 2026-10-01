@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,240
+Tre famiglie di farmaci che trovi in quasi ogni reparto, e tre famiglie ad alto rischio. Per ciascuna l'approccio e' lo stesso, ed e' quello che i concorsi premiano.
+
+2
+00:00:11,240 --> 00:00:20,810
+Non serve conoscere tutti i principi attivi: serve sapere che cosa controllare prima di somministrare, che cosa sorvegliare dopo, e qual e' l'antidoto se qualcosa va storto.
+
+3
+00:00:20,810 --> 00:00:33,930
+Un trucco che fa risparmiare molte domande: i suffissi. Pril: ACE-inibitori, come ramipril ed enalapril. Sartan: sartani. Olol: beta-bloccanti. Dipina: calcio-antagonisti come l'amlodipina.
+
+4
+00:00:33,930 --> 00:00:44,440
+Gliflozin, gliptin, glutide: tre famiglie di antidiabetici. Parina: eparine a basso peso molecolare. Riconoscere la classe dal nome ti dice subito che cosa sorvegliare.
+
+5
+00:00:44,440 --> 00:00:56,770
+I diuretici. Quelli dell'ansa, come la furosemide, sono i piu' potenti: sorvegliare potassio, pressione, segni di disidratazione, e in endovena non somministrarli rapidamente, per il rischio di ototossicita'.
+
+6
+00:00:56,770 --> 00:01:07,020
+I tiazidici danno ipokaliemia, iperglicemia e aumento dell'acido urico. I risparmiatori di potassio, come lo spironolattone, fanno il contrario: iperkaliemia.
+
+7
+00:01:07,020 --> 00:01:14,300
+E una regola pratica: si danno al mattino, per non costringere la persona ad alzarsi di notte, con il rischio di caduta che ne consegue.
+
+8
+00:01:14,300 --> 00:01:26,980
+Il monitoraggio di chi assume un diuretico e' quello della lezione tre punto cinque: peso quotidiano, bilancio idrico, diuresi, pressione, anche in piedi, per l'ipotensione ortostatica, potassio e funzione renale.
+
+9
+00:01:26,980 --> 00:01:38,430
+ACE-inibitori e sartani abbassano la pressione e proteggono cuore e reni. Gli ACE-inibitori hanno un effetto collaterale caratteristico: la tosse secca, che spesso porta a passare a un sartano.
+
+10
+00:01:38,430 --> 00:01:49,510
+Il piu' grave e' l'angioedema, gonfiore di labbra, lingua, glottide, che e' un'emergenza. Entrambe le classi possono dare iperkaliemia e ipotensione, soprattutto alla prima dose.
+
+11
+00:01:49,510 --> 00:01:59,850
+I beta-bloccanti. Rallentano il cuore, quindi il primo effetto da sorvegliare e' la bradicardia, insieme all'ipotensione. Quelli non selettivi possono dare broncospasmo negli asmatici.
+
+12
+00:01:59,850 --> 00:02:08,570
+Nel diabetico mascherano i segni adrenergici dell'ipoglicemia, come tremore e tachicardia. Non si sospendono bruscamente, per il rischio di rimbalzo.
+
+13
+00:02:08,570 --> 00:02:17,150
+E prima di somministrarli si controllano frequenza e pressione: se la prescrizione indica soglie, sotto quelle soglie si sospende e si avvisa.
+
+14
+00:02:17,150 --> 00:02:26,060
+Tre classi in una slide. I calcio-antagonisti diidropiridinici danno edemi alle caviglie e cefalea; verapamil e diltiazem danno bradicardia.
+
+15
+00:02:26,060 --> 00:02:39,420
+I nitrati, come la nitroglicerina, danno cefalea e ipotensione, e sono controindicati in chi ha assunto farmaci per la disfunzione erettile, come il sildenafil: la combinazione provoca ipotensioni gravi. Va chiesto.
+
+16
+00:02:39,420 --> 00:02:48,060
+L'amiodarone, antiaritmico, e' irritante per le vene, in periferica da' flebite, e a lungo termine puo' alterare tiroide, cute e polmone.
+
+17
+00:02:48,060 --> 00:03:01,170
+La digossina, domanda classica. Ha una finestra terapeutica stretta, ricordi la lezione cinque punto uno. Prima della somministrazione si controlla la frequenza apicale per un minuto; sotto la soglia si sospende e si avvisa.
+
+18
+00:03:01,170 --> 00:03:09,290
+I segni di tossicita': nausea, vomito, perdita di appetito, disturbi visivi, la visione gialla, bradicardia e aritmie.
+
+19
+00:03:09,290 --> 00:03:19,290
+E un'interazione da sapere: l'ipokaliemia, per esempio da diuretico dell'ansa, aumenta la tossicita' della digossina. Due farmaci che spesso si trovano nella stessa terapia.
+
+20
+00:03:19,290 --> 00:03:31,790
+Le insuline. Gli analoghi rapidi agiscono in dieci-quindici minuti e si somministrano al pasto: se la persona poi non mangia, il rischio di ipoglicemia e' immediato. La regolare umana agisce in circa mezz'ora.
+
+21
+00:03:31,790 --> 00:03:44,970
+L'intermedia, la NPH, e' lattiginosa e va rotolata fra le mani, non agitata. Le basali, glargine e degludec, non hanno picco e non si miscelano. In vena si usa solo la rapida o la regolare.
+
+22
+00:03:44,970 --> 00:03:54,820
+La conservazione. Le confezioni non aperte stanno in frigorifero, fra due e otto gradi. Mai congelare: l'insulina congelata si altera anche se scongelata.
+
+23
+00:03:54,820 --> 00:04:06,270
+La penna in uso si tiene a temperatura ambiente per il periodo indicato dal produttore, generalmente alcune settimane, e si annota la data di apertura. E' la catena del freddo della lezione cinque punto sette.
+
+24
+00:04:06,270 --> 00:04:20,960
+L'ipoglicemia, sotto i settanta milligrammi per decilitro. I sintomi sono di due tipi: adrenergici, tremore, sudorazione, tachicardia, fame; e neuroglicopenici, confusione, comportamento anomalo, sonnolenza fino al coma.
+
+25
+00:04:20,960 --> 00:04:33,530
+Nell'anziano e in chi assume beta-bloccanti i primi possono mancare. Nella persona cosciente vale la regola del quindici: quindici grammi di zuccheri semplici, succo, zucchero sciolto in acqua, bustine di glucosio.
+
+26
+00:04:33,530 --> 00:04:44,560
+E ricontrollo dopo quindici minuti. Nella persona incosciente, niente per bocca: glucagone intramuscolo o sottocute, oppure glucosio endovena, secondo protocollo.
+
+27
+00:04:44,560 --> 00:04:57,480
+Gli antidiabetici non insulinici. La metformina, il farmaco di base: disturbi gastrointestinali e, raramente, acidosi lattica; va gestita secondo protocollo prima di esami con mezzo di contrasto e interventi.
+
+28
+00:04:57,480 --> 00:05:09,240
+Le sulfaniluree stimolano l'insulina e possono dare ipoglicemie, anche prolungate, soprattutto nell'anziano. Gli agonisti GLP-1, i glutide, sono iniettivi e danno spesso nausea.
+
+29
+00:05:09,240 --> 00:05:22,240
+Gli SGLT2-inibitori, i gliflozin, eliminano glucosio con le urine: favoriscono infezioni genitourinarie e possono dare chetoacidosi anche con glicemia normale; si sospendono prima degli interventi.
+
+30
+00:05:22,240 --> 00:05:35,340
+Gli anticoagulanti, cominciando dalle eparine. L'eparina non frazionata si somministra di solito in infusione endovenosa continua, con pompa, e si monitora con l'aPTT; il suo antidoto e' la protamina solfato.
+
+31
+00:05:35,340 --> 00:05:47,880
+Le eparine a basso peso molecolare, come l'enoxaparina, si danno sottocute, a dose calcolata sul peso e adattata alla funzione renale; non richiedono monitoraggio di routine, e la protamina le neutralizza solo in parte.
+
+32
+00:05:47,880 --> 00:05:54,620
+Con tutte le eparine si sorvegliano le piastrine, per il rischio di trombocitopenia indotta da eparina, la HIT.
+
+33
+00:05:54,620 --> 00:06:06,610
+Il warfarin, antagonista della vitamina K. Agisce in giorni, non in ore, e si monitora con l'INR, il cui range abituale e' fra due e tre, piu' alto in alcuni portatori di valvole meccaniche.
+
+34
+00:06:06,610 --> 00:06:20,920
+Molte interazioni: antibiotici, amiodarone, FANS, alcol. Sull'alimentazione, un errore da quiz: la vitamina K non va esclusa, va assunta con costanza, perche' sono le variazioni brusche a destabilizzare l'INR.
+
+35
+00:06:20,920 --> 00:06:26,980
+L'antidoto e' la vitamina K; nel sanguinamento grave si usa il concentrato di complesso protrombinico.
+
+36
+00:06:26,980 --> 00:06:40,890
+I DOAC, gli anticoagulanti orali diretti. Il dabigatran inibisce la trombina; rivaroxaban, apixaban, edoxaban inibiscono il fattore dieci attivato. Non richiedono l'INR di routine, e hanno meno interazioni del warfarin.
+
+37
+00:06:40,890 --> 00:06:54,370
+Ma hanno un'emivita breve: una dose saltata lascia la persona scoperta in fretta, e l'aderenza e' cruciale. Antidoti: idarucizumab per il dabigatran; per gli anti-Xa un antidoto specifico, o il complesso protrombinico.
+
+38
+00:06:54,370 --> 00:07:03,790
+Gli antiaggreganti non sono anticoagulanti, ma aumentano anch'essi il rischio di sanguinamento: acido acetilsalicilico, clopidogrel, ticagrelor, prasugrel.
+
+39
+00:07:03,790 --> 00:07:14,080
+Dopo l'impianto di uno stent coronarico si usa la doppia antiaggregazione, e sospenderla senza indicazione del cardiologo espone alla trombosi dello stent, un evento spesso fatale.
+
+40
+00:07:14,080 --> 00:07:21,540
+Se un paziente dice il medico di base mi ha detto di smettere l'aspirina prima dell'intervento, la domanda da porre e': ha uno stent?
+
+41
+00:07:21,540 --> 00:07:34,890
+L'assistenza al paziente anticoagulato. Sorvegliare i segni di sanguinamento: gengive, epistassi, urine scure o rosse, feci nere, ematomi, e una cefalea improvvisa, che puo' indicare un sanguinamento cerebrale.
+
+42
+00:07:34,890 --> 00:07:47,470
+Spazzolino morbido e rasoio elettrico. Evitare le intramuscolari. Compressione prolungata dopo prelievi e rimozione di accessi. Prevenzione delle cadute, lezione tre punto uno. E educazione alla dimissione.
+
+43
+00:07:47,470 --> 00:07:58,640
+La tabella degli antidoti, da fotografare. Eparina non frazionata: protamina. Warfarin: vitamina K, e nei casi gravi complesso protrombinico. Dabigatran: idarucizumab.
+
+44
+00:07:58,640 --> 00:08:10,110
+Anti-Xa: antidoto specifico dove disponibile o complesso protrombinico. Ipoglicemia da insulina: glucagone o glucosio. Digossina: anticorpi specifici antidigossina.
+
+45
+00:08:10,110 --> 00:08:22,040
+In Veneto la sorveglianza della terapia anticoagulante orale passa da centri e ambulatori dedicati, spesso con presa in carico territoriale, e le aziende hanno procedure sull'ipoglicemia e sull'insulina in reparto.
+
+46
+00:08:22,040 --> 00:08:33,790
+All'orale, la risposta completa collega il farmaco all'educazione terapeutica alla dimissione, con il teach-back: chi va a casa con un anticoagulante o con l'insulina deve saper riconoscere i segni di allarme.
+
+47
+00:08:33,790 --> 00:08:45,600
+Ricapitoliamo. Diuretici al mattino, controllando il potassio. Beta-bloccanti: frequenza e pressione prima. Digossina: polso apicale per un minuto, e l'ipokaliemia ne aumenta la tossicita'.
+
+48
+00:08:45,600 --> 00:09:00,850
+Ipoglicemia sotto settanta: regola del quindici, niente per bocca se incosciente. Warfarin: INR due-tre, vitamina K con costanza. DOAC: niente INR, nessuna dose saltata. Gli antidoti a memoria. A tra poco.
