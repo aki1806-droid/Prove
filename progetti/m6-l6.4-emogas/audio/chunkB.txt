@@ -1,0 +1,45 @@
+Proviamo. pH sette virgola ventotto, CO2 cinquantotto, bicarbonato venticinque. Metti in pausa e applica i quattro passi.
+
+pH basso: acidosi. CO2 alta, in direzione opposta al pH: respiratoria. Bicarbonato normale: non compensata. E' un'acidosi respiratoria acuta: per esempio un paziente sedato eccessivamente.
+
+Secondo. pH sette virgola ventidue, CO2 ventisei, bicarbonato undici. Metti in pausa, stessi quattro passi.
+
+pH basso: acidosi. Bicarbonato basso, nella stessa direzione del pH: metabolica. CO2 bassa: il polmone iperventila, ma il pH e' ancora alterato: parzialmente compensata. La chetoacidosi diabetica, con il Kussmaul.
+
+Terzo. pH sette virgola trentasette, CO2 sessanta, bicarbonato trentaquattro. Metti in pausa: questo e' il piu' difficile.
+
+Il pH e' normale, ma vicino al lato acido. CO2 alta e bicarbonato alto: entrambi alterati. Il disturbo primario e' quello coerente con il lato del pH, cioe' l'acidosi respiratoria.
+
+E il rene ha trattenuto bicarbonato fino a compensarla completamente. E' il quadro tipico del paziente con BPCO cronica ipercapnica stabile.
+
+Il prelievo arterioso. La sede preferita e' l'arteria radiale, superficiale e con un buon circolo collaterale garantito dall'ulnare: se la radiale si chiude, la mano resta irrorata.
+
+Prima di pungere si esegue il test di Allen modificato: si comprimono contemporaneamente radiale e ulnare, si fa aprire e chiudere la mano finche' il palmo impallidisce, poi si rilascia solo l'ulnare.
+
+Se il colore ritorna rapidamente, entro il tempo indicato dalla procedura, il circolo collaterale e' adeguato. Se non ritorna, quella radiale non si punge.
+
+La tecnica e la gestione del campione. Siringa eparinata dedicata. Angolo di trenta-quarantacinque gradi sulla radiale. Dopo il prelievo si eliminano subito le bolle d'aria e si tappa: l'aria altera i valori dei gas.
+
+Si comprime la sede per almeno cinque minuti, di piu' nel paziente anticoagulato, per evitare l'ematoma. Si indicano sulla richiesta la FiO2 e la temperatura.
+
+Il campione va analizzato il prima possibile, indicativamente entro un quarto d'ora: le cellule del sangue continuano a consumare ossigeno e a produrre CO2 anche nella siringa.
+
+E se si e' appena modificata l'ossigenoterapia, si attende che la situazione si stabilizzi prima del prelievo, altrimenti l'esame fotografa un momento di passaggio.
+
+Il caso, che collega questa lezione al modulo otto. Paziente con BPCO in ossigeno a sei litri con maschera semplice, sempre piu' sonnolento. Emogas: pH sette virgola venticinque, CO2 settantacinque, bicarbonato trentadue.
+
+Lettura: acidosi respiratoria parzialmente compensata. Il rene aveva gia' compensato una ipercapnia cronica, ma ora la CO2 e' salita ancora. Una delle cause possibili e' l'eccesso di ossigeno nell'ipercapnico cronico.
+
+Che cosa fai? Avvisi subito il medico, rivaluti l'ossigenoterapia secondo prescrizione con un obiettivo di saturazione adeguato, spesso ottantotto-novantadue per cento in questi pazienti.
+
+Sorvegli la coscienza e prepari la possibile ventilazione non invasiva. E' il caso che chiude il cerchio: la sonnolenza e' il segno, l'emogas la conferma.
+
+Nelle aziende venete gli emogasanalizzatori sono disponibili nei reparti critici e in pronto soccorso come strumenti point-of-care, e il prelievo arterioso e' regolato da procedure aziendali.
+
+Spesso con percorsi di formazione e verifica della competenza infermieristica. All'orale, citare il test di Allen e la gestione del campione mostra precisione tecnica.
+
+Ricapitoliamo. pH fra sette virgola trentacinque e sette virgola quarantacinque; CO2 trentacinque-quarantacinque; bicarbonato ventidue-ventisei. Quattro passi: pH, CO2, bicarbonato, compenso.
+
+ROME: respiratorio opposto, metabolico uguale. Kussmaul: acidosi metabolica. Ipoventilazione: acidosi respiratoria.
+
+[warm] Prima della radiale il test di Allen; dopo il prelievo niente bolle e compressione di almeno cinque minuti. Nella prossima lezione: la nutrizione parenterale. A tra poco.

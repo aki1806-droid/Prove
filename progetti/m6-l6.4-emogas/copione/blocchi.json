@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] L'emogasanalisi e' una delle parti del programma che i candidati temono di piu', e una delle piu' facili da trasformare in punti sicuri."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve diventare rianimatori: serve un metodo in quattro passi e una manciata di valori normali. Alla fine di questa lezione saprai leggere i quattro disturbi fondamentali e il loro compenso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi vediamo come si esegue correttamente il prelievo arterioso, dal test di Allen alla siringa senza bolle."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I valori da sapere a memoria. pH fra sette virgola trentacinque e sette virgola quarantacinque. Anidride carbonica, la PaCO2, fra trentacinque e quarantacinque millimetri di mercurio."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Bicarbonati fra ventidue e ventisei. Ossigeno, la PaO2, fra ottanta e cento in aria nell'adulto, meno nell'anziano. Saturazione sopra il novantacinque per cento. Eccesso di basi fra meno due e piu' due. Lattati sotto due."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio. L'equilibrio acido-base dipende da due componenti. L'anidride carbonica, che si comporta come un acido ed e' regolata dal polmone, in pochi minuti, aumentando o riducendo la ventilazione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il bicarbonato, che e' una base ed e' regolato dal rene, in ore o giorni. Il pH e' il risultato del rapporto fra le due. Piu' CO2 significa piu' acido; piu' bicarbonato significa piu' base. Due organi, due velocita': il polmone corregge in minuti, il rene in giorni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il metodo. Uno: guarda il pH. Sotto sette virgola trentacinque e' acidosi, sopra sette virgola quarantacinque alcalosi."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: guarda la CO2. Se spiega il pH, alta nell'acidosi, bassa nell'alcalosi, il disturbo e' respiratorio. Tre: guarda il bicarbonato. Se spiega il pH, basso nell'acidosi, alto nell'alcalosi, il disturbo e' metabolico."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: il compenso. L'altro valore si muove per riportare il pH verso la norma? Se si', il corpo sta gia' lavorando, e il quadro e' compensato in parte o del tutto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un trucco mnemonico che funziona sempre: ROME, Respiratory Opposite, Metabolic Equal. Quattro lettere, e il passo due e il passo tre si fanno a colpo d'occhio."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei disturbi respiratori, pH e CO2 vanno in direzione opposta: pH giu', CO2 su. Nei disturbi metabolici, pH e bicarbonato vanno nella stessa direzione: pH giu', bicarbonato giu'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I quattro disturbi. Acidosi respiratoria: pH basso, CO2 alta. La causa e' l'ipoventilazione: la CO2 non viene eliminata, e si accumula come acido."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli esempi: BPCO riacutizzata, sedazione eccessiva da oppioidi o benzodiazepine, ricordi la lezione cinque punto sei, malattie neuromuscolari, ostruzione delle vie aeree."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni: sonnolenza, confusione, cefalea, fino al coma ipercapnico. Un paziente con BPCO sempre piu' sonnolento e' un'acidosi respiratoria finche' non si dimostra il contrario."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcalosi respiratoria: pH alto, CO2 bassa. La causa e' l'iperventilazione: si elimina troppa CO2, e il sangue perde acido."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli esempi: ansia e attacco di panico, dolore, febbre, le fasi iniziali della sepsi, l'embolia polmonare. I segni: formicolii intorno alla bocca e alle dita, crampi, vertigini."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione: attribuire sempre l'iperventilazione all'ansia e' pericoloso, perche' la stessa alterazione si trova nella sepsi iniziale e nell'embolia."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Acidosi metabolica: pH basso, bicarbonato basso. Le cause: chetoacidosi diabetica; acidosi lattica da shock o sepsi; insufficienza renale; diarrea profusa, che perde bicarbonato; intossicazioni."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo si misurano i lattati. Il compenso e' respiratorio: il polmone iperventila per eliminare CO2, con il respiro di Kussmaul, profondo e frequente. Vedere un Kussmaul significa pensare a un'acidosi metabolica."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcalosi metabolica: pH alto, bicarbonato alto. Le cause: vomito e aspirazione gastrica prolungata da sondino, che fanno perdere acido; diuretici; ipokaliemia."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il compenso e' una ipoventilazione, con CO2 che sale. Un paziente con sondino in aspirazione da giorni e diuretico in terapia e' il candidato tipico."
+ },
+ {
+  "id": "s24",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il compenso. Se l'altro valore e' normale, il disturbo e' non compensato. Se l'altro valore si sposta ma il pH e' ancora alterato, e' parzialmente compensato."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il pH e' rientrato nella norma, e' completamente compensato, e in genere il pH resta vicino al limite del lato del disturbo primario."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Una regola: il compenso non supera mai la correzione. Il pH non passa dall'acidosi all'alcalosi per effetto del compenso."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Proviamo. pH sette virgola ventotto, CO2 cinquantotto, bicarbonato venticinque. Metti in pausa e applica i quattro passi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "pH basso: acidosi. CO2 alta, in direzione opposta al pH: respiratoria. Bicarbonato normale: non compensata. E' un'acidosi respiratoria acuta: per esempio un paziente sedato eccessivamente."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Secondo. pH sette virgola ventidue, CO2 ventisei, bicarbonato undici. Metti in pausa, stessi quattro passi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "pH basso: acidosi. Bicarbonato basso, nella stessa direzione del pH: metabolica. CO2 bassa: il polmone iperventila, ma il pH e' ancora alterato: parzialmente compensata. La chetoacidosi diabetica, con il Kussmaul."
+ },
+ {
+  "id": "s31",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 2.5,
+  "text": "Terzo. pH sette virgola trentasette, CO2 sessanta, bicarbonato trentaquattro. Metti in pausa: questo e' il piu' difficile."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il pH e' normale, ma vicino al lato acido. CO2 alta e bicarbonato alto: entrambi alterati. Il disturbo primario e' quello coerente con il lato del pH, cioe' l'acidosi respiratoria."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il rene ha trattenuto bicarbonato fino a compensarla completamente. E' il quadro tipico del paziente con BPCO cronica ipercapnica stabile."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il prelievo arterioso. La sede preferita e' l'arteria radiale, superficiale e con un buon circolo collaterale garantito dall'ulnare: se la radiale si chiude, la mano resta irrorata."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di pungere si esegue il test di Allen modificato: si comprimono contemporaneamente radiale e ulnare, si fa aprire e chiudere la mano finche' il palmo impallidisce, poi si rilascia solo l'ulnare."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il colore ritorna rapidamente, entro il tempo indicato dalla procedura, il circolo collaterale e' adeguato. Se non ritorna, quella radiale non si punge."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica e la gestione del campione. Siringa eparinata dedicata. Angolo di trenta-quarantacinque gradi sulla radiale. Dopo il prelievo si eliminano subito le bolle d'aria e si tappa: l'aria altera i valori dei gas."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si comprime la sede per almeno cinque minuti, di piu' nel paziente anticoagulato, per evitare l'ematoma. Si indicano sulla richiesta la FiO2 e la temperatura."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il campione va analizzato il prima possibile, indicativamente entro un quarto d'ora: le cellule del sangue continuano a consumare ossigeno e a produrre CO2 anche nella siringa."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se si e' appena modificata l'ossigenoterapia, si attende che la situazione si stabilizzi prima del prelievo, altrimenti l'esame fotografa un momento di passaggio."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso, che collega questa lezione al modulo otto. Paziente con BPCO in ossigeno a sei litri con maschera semplice, sempre piu' sonnolento. Emogas: pH sette virgola venticinque, CO2 settantacinque, bicarbonato trentadue."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lettura: acidosi respiratoria parzialmente compensata. Il rene aveva gia' compensato una ipercapnia cronica, ma ora la CO2 e' salita ancora. Una delle cause possibili e' l'eccesso di ossigeno nell'ipercapnico cronico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Avvisi subito il medico, rivaluti l'ossigenoterapia secondo prescrizione con un obiettivo di saturazione adeguato, spesso ottantotto-novantadue per cento in questi pazienti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sorvegli la coscienza e prepari la possibile ventilazione non invasiva. E' il caso che chiude il cerchio: la sonnolenza e' il segno, l'emogas la conferma."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete gli emogasanalizzatori sono disponibili nei reparti critici e in pronto soccorso come strumenti point-of-care, e il prelievo arterioso e' regolato da procedure aziendali."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso con percorsi di formazione e verifica della competenza infermieristica. All'orale, citare il test di Allen e la gestione del campione mostra precisione tecnica."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. pH fra sette virgola trentacinque e sette virgola quarantacinque; CO2 trentacinque-quarantacinque; bicarbonato ventidue-ventisei. Quattro passi: pH, CO2, bicarbonato, compenso."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "ROME: respiratorio opposto, metabolico uguale. Kussmaul: acidosi metabolica. Ipoventilazione: acidosi respiratoria."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Prima della radiale il test di Allen; dopo il prelievo niente bolle e compressione di almeno cinque minuti. Nella prossima lezione: la nutrizione parenterale. A tra poco."
+ }
+]

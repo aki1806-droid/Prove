@@ -1,0 +1,49 @@
+[warm] L'emogasanalisi e' una delle parti del programma che i candidati temono di piu', e una delle piu' facili da trasformare in punti sicuri.
+
+Non serve diventare rianimatori: serve un metodo in quattro passi e una manciata di valori normali. Alla fine di questa lezione saprai leggere i quattro disturbi fondamentali e il loro compenso.
+
+Poi vediamo come si esegue correttamente il prelievo arterioso, dal test di Allen alla siringa senza bolle.
+
+I valori da sapere a memoria. pH fra sette virgola trentacinque e sette virgola quarantacinque. Anidride carbonica, la PaCO2, fra trentacinque e quarantacinque millimetri di mercurio.
+
+Bicarbonati fra ventidue e ventisei. Ossigeno, la PaO2, fra ottanta e cento in aria nell'adulto, meno nell'anziano. Saturazione sopra il novantacinque per cento. Eccesso di basi fra meno due e piu' due. Lattati sotto due.
+
+Il principio. L'equilibrio acido-base dipende da due componenti. L'anidride carbonica, che si comporta come un acido ed e' regolata dal polmone, in pochi minuti, aumentando o riducendo la ventilazione.
+
+E il bicarbonato, che e' una base ed e' regolato dal rene, in ore o giorni. Il pH e' il risultato del rapporto fra le due. Piu' CO2 significa piu' acido; piu' bicarbonato significa piu' base. Due organi, due velocita': il polmone corregge in minuti, il rene in giorni.
+
+Il metodo. Uno: guarda il pH. Sotto sette virgola trentacinque e' acidosi, sopra sette virgola quarantacinque alcalosi.
+
+Due: guarda la CO2. Se spiega il pH, alta nell'acidosi, bassa nell'alcalosi, il disturbo e' respiratorio. Tre: guarda il bicarbonato. Se spiega il pH, basso nell'acidosi, alto nell'alcalosi, il disturbo e' metabolico.
+
+Quattro: il compenso. L'altro valore si muove per riportare il pH verso la norma? Se si', il corpo sta gia' lavorando, e il quadro e' compensato in parte o del tutto.
+
+Un trucco mnemonico che funziona sempre: ROME, Respiratory Opposite, Metabolic Equal. Quattro lettere, e il passo due e il passo tre si fanno a colpo d'occhio.
+
+Nei disturbi respiratori, pH e CO2 vanno in direzione opposta: pH giu', CO2 su. Nei disturbi metabolici, pH e bicarbonato vanno nella stessa direzione: pH giu', bicarbonato giu'.
+
+I quattro disturbi. Acidosi respiratoria: pH basso, CO2 alta. La causa e' l'ipoventilazione: la CO2 non viene eliminata, e si accumula come acido.
+
+Gli esempi: BPCO riacutizzata, sedazione eccessiva da oppioidi o benzodiazepine, ricordi la lezione cinque punto sei, malattie neuromuscolari, ostruzione delle vie aeree.
+
+I segni: sonnolenza, confusione, cefalea, fino al coma ipercapnico. Un paziente con BPCO sempre piu' sonnolento e' un'acidosi respiratoria finche' non si dimostra il contrario.
+
+Alcalosi respiratoria: pH alto, CO2 bassa. La causa e' l'iperventilazione: si elimina troppa CO2, e il sangue perde acido.
+
+Gli esempi: ansia e attacco di panico, dolore, febbre, le fasi iniziali della sepsi, l'embolia polmonare. I segni: formicolii intorno alla bocca e alle dita, crampi, vertigini.
+
+Attenzione: attribuire sempre l'iperventilazione all'ansia e' pericoloso, perche' la stessa alterazione si trova nella sepsi iniziale e nell'embolia.
+
+Acidosi metabolica: pH basso, bicarbonato basso. Le cause: chetoacidosi diabetica; acidosi lattica da shock o sepsi; insufficienza renale; diarrea profusa, che perde bicarbonato; intossicazioni.
+
+Per questo si misurano i lattati. Il compenso e' respiratorio: il polmone iperventila per eliminare CO2, con il respiro di Kussmaul, profondo e frequente. Vedere un Kussmaul significa pensare a un'acidosi metabolica.
+
+Alcalosi metabolica: pH alto, bicarbonato alto. Le cause: vomito e aspirazione gastrica prolungata da sondino, che fanno perdere acido; diuretici; ipokaliemia.
+
+Il compenso e' una ipoventilazione, con CO2 che sale. Un paziente con sondino in aspirazione da giorni e diuretico in terapia e' il candidato tipico.
+
+Il compenso. Se l'altro valore e' normale, il disturbo e' non compensato. Se l'altro valore si sposta ma il pH e' ancora alterato, e' parzialmente compensato.
+
+Se il pH e' rientrato nella norma, e' completamente compensato, e in genere il pH resta vicino al limite del lato del disturbo primario.
+
+[serious] Una regola: il compenso non supera mai la correzione. Il pH non passa dall'acidosi all'alcalosi per effetto del compenso.

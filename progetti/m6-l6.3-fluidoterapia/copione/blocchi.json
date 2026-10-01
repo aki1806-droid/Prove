@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] I liquidi endovenosi sono farmaci. Hanno indicazioni, dosi, effetti avversi e controindicazioni, e richiedono una prescrizione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'abitudine di considerare la flebo di fisiologica un gesto neutro e' all'origine di molti sovraccarichi e squilibri: sodio in eccesso, acqua libera dove non serve."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione riprendiamo le soluzioni della lezione tre punto cinque e aggiungiamo i dispositivi: pompe, elastomeri, allarmi. E chiudiamo con un caso che i concorsi amano: il sovraccarico."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fluidoterapia ha tre scopi, e conviene sempre chiedersi quale si sta perseguendo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rianimazione: ripristinare rapidamente un volume circolante perso, come in uno shock."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mantenimento: coprire i fabbisogni di chi non puo' bere, circa venticinque-trenta millilitri per chilo al giorno: per settanta chili, circa due litri."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sostituzione: reintegrare perdite in corso, come vomito, drenaggi, diarrea, fistole, misurate nel bilancio idrico della lezione tre punto cinque."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'infusione di mantenimento che prosegue per giorni senza che nessuno la rivaluti e' una delle cause piu' comuni di sovraccarico."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I cristalloidi, soluzioni di acqua con elettroliti o glucosio. Isotonici: la fisiologica allo zero virgola nove per cento, che in grandi volumi, per il suo alto contenuto di cloro, puo' causare acidosi ipercloremica."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le soluzioni bilanciate, come il Ringer lattato, con una composizione piu' vicina al plasma: meno cloro, e un tampone al posto di una parte del cloro."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ipotonici: la glucosata al cinque per cento, che una volta metabolizzato il glucosio si comporta come acqua libera, e la fisiologica allo zero virgola quarantacinque."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ipertonici: fisiologica al tre per cento, glucosate concentrate, bicarbonato: richiamano acqua nei vasi, e per questo si danno solo su prescrizione specifica e con monitoraggio stretto."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due regole da sapere. La glucosata al cinque per cento non espande il volume circolante: si distribuisce in tutti i compartimenti, e solo una piccola parte resta nei vasi."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le soluzioni ipotoniche sono controindicate nel trauma cranico e nell'ipertensione endocranica: l'acqua libera entra nelle cellule cerebrali e peggiora l'edema. E' una domanda d'esame e un errore reale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I colloidi contengono molecole grandi che restano piu' a lungo nei vasi. L'albumina ha indicazioni specifiche, come la paracentesi evacuativa nel paziente cirrotico, che vedremo nel modulo otto."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono le gelatine. Gli amidi idrossietilici sono stati fortemente limitati dalle autorita' regolatorie europee per il rischio di danno renale e di aumento della mortalita' nei pazienti critici."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella pratica attuale, per la maggior parte delle situazioni, si preferiscono i cristalloidi, e i colloidi restano per indicazioni selezionate."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il monitoraggio di una persona in fluidoterapia. Parametri vitali, diuresi e bilancio idrico, peso, stato di coscienza: gli stessi strumenti della lezione tre punto cinque, letti ogni giorno."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di sovraccarico, soprattutto nell'anziano e nel cardiopatico: dispnea, rantoli alle basi, edemi, turgore delle giugulari, aumento di peso. Un chilo in piu' in un giorno e' un litro di liquidi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Elettroliti e glicemia, specie con le glucosate, che nel diabetico alzano la glicemia. E naturalmente la sede di accesso, come nella lezione sei punto uno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le infusioni a caduta, regolate con la rotella del deflussore o con un regolatore di precisione. Sono semplici, non hanno bisogno di corrente, ma sono imprecise."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La velocita' cambia con l'altezza della sacca, la posizione del braccio, la pervieta' della cannula. Per questo non si usano per i farmaci ad alto rischio, e vanno controllate spesso."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il calcolo delle gocce l'abbiamo visto nella lezione cinque punto tre: volume per fattore del deflussore, diviso i minuti; e la velocita' va ricontrollata ogni volta che si passa dal letto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le pompe volumetriche. Si impostano velocita' in millilitri all'ora e volume da infondere, e la pompa conta cio' che ha infuso. Gli allarmi: occlusione a monte o a valle, aria in linea, fine infusione, batteria."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La regola: un allarme non si silenzia senza capirne la causa, e non si disattiva mai."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le pompe hanno un sistema anti-flusso libero, che impedisce all'infusione di scorrere senza controllo quando il set viene rimosso dalla pompa: senza quel sistema, la sacca scorrerebbe a caduta libera."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le pompe cosiddette intelligenti contengono librerie di farmaci con limiti di dose: se si imposta una velocita' fuori range, la pompa avvisa. E' una barriera di sicurezza nel senso di Reason."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le pompe a siringa gestiscono piccoli volumi con alta precisione, e si usano per farmaci ad alto rischio a flusso basso, come in area critica e in pediatria, dove un millilitro in piu' e' una dose in piu'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due attenzioni. L'altezza della pompa rispetto al paziente: una siringa posizionata molto in alto e non ben fissata puo' dare un effetto sifone, con un bolo involontario."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il cambio siringa dei farmaci salvavita, come la noradrenalina, va organizzato in modo da non interrompere l'infusione: anche pochi minuti di sospensione possono provocare un crollo pressorio."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli elastomeri: un palloncino elastico che spinge il farmaco a un flusso prefissato, senza elettricita'. Si usano per analgesia, chemioterapia, antibiotici, anche a domicilio, dove la persona lo porta con se'."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due cose da sapere. Il flusso varia con la temperatura: il calore lo accelera, il freddo lo rallenta; per questo l'elastomero si tiene secondo le indicazioni del produttore, non vicino a fonti di calore."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'unico modo di controllarne il funzionamento e' verificare la riduzione progressiva del volume nel tempo previsto. Non si apre, non si comprime."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Regole comuni a tutti i dispositivi. Verificare prescrizione, soluzione, velocita' e volume: le sette G della lezione cinque punto quattro valgono anche per una flebo. Etichettare le linee, soprattutto quando sono molte."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tracciare ogni linea con il dito dalla sacca al paziente a ogni consegna: e' il modo per accorgersi di una linea collegata alla via sbagliata."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non aggiungere farmaci alle sacche se non previsto dalla procedura. E verificare la compatibilita', come nella lezione cinque punto sette."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Anziano cardiopatico, da tre giorni in fisiologica a cento millilitri all'ora di mantenimento; stanotte dispnoico, con rantoli alle basi e due chili in piu'. Che cosa pensi? Sovraccarico di liquidi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Riduci l'infusione al minimo per mantenere la via pervia, metti la persona seduta, ossigeno secondo protocollo, rilevi parametri e saturazione, avvisi subito il medico. Poi bilancio, peso, diuresi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E la domanda di fondo: chi aveva rivalutato quell'infusione negli ultimi tre giorni?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'anziano e nel cardiopatico la fluidoterapia va gestita con volumi e velocita' piu' bassi, con una rivalutazione quotidiana della prescrizione, e con il passaggio alla via orale appena possibile."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola vale come per i dispositivi: ogni giorno, serve ancora? Una flebo rivalutata ogni giorno e' una flebo che si toglie in tempo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete si stanno diffondendo pompe con librerie di farmaci, e la gestione delle infusioni e' regolata da procedure aziendali."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli elastomeri sono usati anche nei percorsi di continuita' ospedale-territorio, per esempio per terapie antibiotiche o analgesiche domiciliari con presa in carico in ADI."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Fisiologica zero virgola nove: isotonica, in grandi volumi acidosi ipercloremica. Bilanciate: isotoniche, piu' vicine al plasma."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glucosata cinque: ipotonica, non espande il volume, no nel trauma cranico. Colloidi: indicazioni selezionate. Ipertoniche: solo su prescrizione specifica, con monitoraggio stretto."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. I liquidi sono farmaci. Tre scopi: rianimazione, mantenimento, sostituzione. Sorvegliare il sovraccarico. Mai silenziare un allarme senza capirne la causa."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'elastomero il calore accelera il flusso. Tracciare le linee a ogni consegna, dalla sacca al paziente. E nell'anziano e nel cardiopatico: volumi e velocita' piu' bassi, rivalutazione quotidiana."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: l'emogasanalisi, che spaventa molti candidati e che con un metodo in quattro passi diventa semplice. A tra poco."
+ }
+]

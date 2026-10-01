@@ -1,0 +1,45 @@
+[warm] I liquidi endovenosi sono farmaci. Hanno indicazioni, dosi, effetti avversi e controindicazioni, e richiedono una prescrizione.
+
+L'abitudine di considerare la flebo di fisiologica un gesto neutro e' all'origine di molti sovraccarichi e squilibri: sodio in eccesso, acqua libera dove non serve.
+
+In questa lezione riprendiamo le soluzioni della lezione tre punto cinque e aggiungiamo i dispositivi: pompe, elastomeri, allarmi. E chiudiamo con un caso che i concorsi amano: il sovraccarico.
+
+La fluidoterapia ha tre scopi, e conviene sempre chiedersi quale si sta perseguendo.
+
+Rianimazione: ripristinare rapidamente un volume circolante perso, come in uno shock.
+
+Mantenimento: coprire i fabbisogni di chi non puo' bere, circa venticinque-trenta millilitri per chilo al giorno: per settanta chili, circa due litri.
+
+Sostituzione: reintegrare perdite in corso, come vomito, drenaggi, diarrea, fistole, misurate nel bilancio idrico della lezione tre punto cinque.
+
+Un'infusione di mantenimento che prosegue per giorni senza che nessuno la rivaluti e' una delle cause piu' comuni di sovraccarico.
+
+I cristalloidi, soluzioni di acqua con elettroliti o glucosio. Isotonici: la fisiologica allo zero virgola nove per cento, che in grandi volumi, per il suo alto contenuto di cloro, puo' causare acidosi ipercloremica.
+
+E le soluzioni bilanciate, come il Ringer lattato, con una composizione piu' vicina al plasma: meno cloro, e un tampone al posto di una parte del cloro.
+
+Ipotonici: la glucosata al cinque per cento, che una volta metabolizzato il glucosio si comporta come acqua libera, e la fisiologica allo zero virgola quarantacinque.
+
+Ipertonici: fisiologica al tre per cento, glucosate concentrate, bicarbonato: richiamano acqua nei vasi, e per questo si danno solo su prescrizione specifica e con monitoraggio stretto.
+
+Due regole da sapere. La glucosata al cinque per cento non espande il volume circolante: si distribuisce in tutti i compartimenti, e solo una piccola parte resta nei vasi.
+
+E le soluzioni ipotoniche sono controindicate nel trauma cranico e nell'ipertensione endocranica: l'acqua libera entra nelle cellule cerebrali e peggiora l'edema. E' una domanda d'esame e un errore reale.
+
+I colloidi contengono molecole grandi che restano piu' a lungo nei vasi. L'albumina ha indicazioni specifiche, come la paracentesi evacuativa nel paziente cirrotico, che vedremo nel modulo otto.
+
+Esistono le gelatine. Gli amidi idrossietilici sono stati fortemente limitati dalle autorita' regolatorie europee per il rischio di danno renale e di aumento della mortalita' nei pazienti critici.
+
+Nella pratica attuale, per la maggior parte delle situazioni, si preferiscono i cristalloidi, e i colloidi restano per indicazioni selezionate.
+
+Il monitoraggio di una persona in fluidoterapia. Parametri vitali, diuresi e bilancio idrico, peso, stato di coscienza: gli stessi strumenti della lezione tre punto cinque, letti ogni giorno.
+
+I segni di sovraccarico, soprattutto nell'anziano e nel cardiopatico: dispnea, rantoli alle basi, edemi, turgore delle giugulari, aumento di peso. Un chilo in piu' in un giorno e' un litro di liquidi.
+
+Elettroliti e glicemia, specie con le glucosate, che nel diabetico alzano la glicemia. E naturalmente la sede di accesso, come nella lezione sei punto uno.
+
+Le infusioni a caduta, regolate con la rotella del deflussore o con un regolatore di precisione. Sono semplici, non hanno bisogno di corrente, ma sono imprecise.
+
+La velocita' cambia con l'altezza della sacca, la posizione del braccio, la pervieta' della cannula. Per questo non si usano per i farmaci ad alto rischio, e vanno controllate spesso.
+
+Il calcolo delle gocce l'abbiamo visto nella lezione cinque punto tre: volume per fattore del deflussore, diviso i minuti; e la velocita' va ricontrollata ogni volta che si passa dal letto.
