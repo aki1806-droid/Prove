@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Un dato che sorprende molti: la maggior parte degli errori di laboratorio non nasce in laboratorio, ma prima, nella fase preanalitica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Identificazione, prelievo, provette, conservazione, trasporto: e' la fase gestita dall'infermiere, e per questo e' la fase in cui l'infermiere puo' fare la differenza."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo passo e' sempre lo stesso: identificazione attiva. Poi l'etichettatura, che si fa al letto, davanti al paziente, subito dopo il prelievo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la richiesta deve essere completa, con l'esame, la data, l'ora del prelievo e l'operatore: l'ora conta, perche' alcuni valori cambiano nella giornata."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le condizioni del prelievo. Il laccio si tiene per meno di un minuto: oltre, si concentrano i componenti del sangue e i valori cambiano."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente pugno aperto e chiuso ripetutamente, che altera il potassio: ricordi la pseudo-iperkaliemia della lezione tre punto cinque."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Paziente a riposo, a digiuno quando l'esame lo richiede: la glicemia a digiuno della lezione cinque punto cinque, i trigliceridi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non si preleva dall'arto in cui scorre un'infusione, che diluisce o contamina il campione: se e' proprio inevitabile, si preleva a valle, a infusione sospesa, secondo procedura."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ordine di prelievo delle provette, che i quiz chiedono spesso. Uno: emocolture, per prime, per non contaminarle con gli additivi delle altre. Due: citrato, tappo azzurro, per la coagulazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: siero, tappo rosso o giallo, con o senza gel. Quattro: eparina, tappo verde. Cinque: EDTA, tappo viola, per l'emocromo. Sei: fluoruro, tappo grigio, per la glicemia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il motivo dell'ordine e' evitare che l'additivo di una provetta contamini la successiva: per esempio l'EDTA, se passa nella provetta del siero, abbassa il calcio e alza il potassio."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due dettagli. La provetta del citrato va riempita esattamente fino alla tacca: il test della coagulazione richiede un rapporto preciso fra sangue e anticoagulante, nove a uno. Poco piena, da' risultati falsamente alterati."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E con il butterfly, se la prima provetta e' il citrato, si usa prima una provetta di scarto, per riempire d'aria il tubicino ed evitare che la provetta del citrato resti incompleta."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutte le provette con additivo si capovolgono delicatamente il numero di volte indicato: mai agitarle, perche' si provoca emolisi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emolisi, la rottura dei globuli rossi nel campione. Le cause sono quasi tutte nostre: ago troppo sottile, aspirazione vigorosa con la siringa, laccio prolungato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Provette agitate, sangue spinto con forza dalla siringa nella provetta, prelievo da una cannula appena posizionata: in tutti i casi i globuli rossi si rompono e versano il loro potassio nel siero."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'effetto piu' importante: il potassio falsamente alto, insieme ad altri valori come LDH e transaminasi. Un campione emolizzato si ripete: non si interpreta."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le emocolture, che riprendiamo dalle lezioni quattro punto sei e sei punto due. Si prelevano al rialzo febbrile o, meglio ancora, all'insorgenza del brivido, e prima dell'antibiotico, che altrimenti sterilizza il campione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Almeno due set, ciascuno con un flacone aerobio e uno anaerobio, da due punzioni diverse. Volume: otto-dieci millilitri per flacone nell'adulto: il volume e' il principale determinante della sensibilita'."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica, perche' un'emocoltura contaminata dalla flora cutanea porta a terapie inutili. Antisepsi della cute con clorexidina alcolica, lasciata asciugare; disinfezione dei tappi; non ripalpare dopo l'antisepsi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ordine dei flaconi: con il butterfly si riempie prima l'aerobio, perche' la piccola quantita' d'aria del tubicino finisce li' e non nell'anaerobio; con la siringa si inocula prima l'anaerobio."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si etichetta e si invia subito, o si conserva secondo procedura, non in frigorifero: i flaconi sono terreni di coltura, e il freddo ferma la crescita che invece si vuole vedere."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'urinocoltura. Dopo l'igiene dei genitali, si raccoglie il mitto intermedio, scartando il primo getto, in un contenitore sterile. Nel cateterizzato, dal punto di prelievo dedicato, mai dalla sacca: lezione tre punto sei."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il campione si invia entro due ore, o si refrigera secondo procedura, perche' a temperatura ambiente i batteri si moltiplicano e falsano la carica."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli altri campioni. Il tampone richiede la sede giusta, la tecnica giusta e il terreno di trasporto adeguato: un tampone secco e' un tampone morto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sulle lesioni si deterge prima e si campiona il tessuto vitale, non il pus superficiale o la necrosi: lo vedremo nel modulo sette."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le feci per il Clostridium difficile solo se non formate. L'espettorato al mattino, dopo aver sciacquato la bocca con acqua, da una tosse profonda: la saliva non serve."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alcuni valori di riferimento da conoscere, con un'avvertenza: i valori esatti dipendono dal laboratorio, e nella pratica si usano quelli scritti sul referto."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Emoglobina: nell'uomo circa tredici-diciassette, nella donna circa dodici-quindici grammi per decilitro. Globuli bianchi: circa quattromila-diecimila per millimetro cubo. Piastrine: circa centocinquantamila-quattrocentomila."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chimica. Glicemia a digiuno: normale fra settanta e novantanove; fra cento e centoventicinque alterata; da centoventisei, se confermata, compatibile con il diabete."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Emoglobina glicata: da sei virgola cinque per cento compatibile con diabete. Creatinina: circa zero virgola sei-uno virgola due milligrammi per decilitro."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sodio e potassio li conosci dalla lezione tre punto cinque. INR circa uno in chi non assume anticoagulanti. La PCR, indice di infiammazione, secondo il laboratorio."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un concetto di sicurezza: il valore critico, un risultato che indica un pericolo immediato per il paziente: un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il laboratorio lo comunica direttamente al reparto. Chi lo riceve applica il read-back della lezione due punto sette, avvisa subito il medico e documenta l'orario della comunicazione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasporto. Ogni esame ha tempi e temperature previsti: alcuni campioni vanno in ghiaccio, altri a temperatura ambiente, le emocolture mai in frigorifero."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I campioni viaggiano in contenitori chiusi, a prova di perdita, con il simbolo del rischio biologico, e le richieste vanno separate dai campioni."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Il laboratorio comunica un potassio di sei virgola otto in un paziente asintomatico, con ECG in ordine. Il prelievo era stato difficoltoso, con ago sottile e laccio prolungato. Che cosa pensi?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, verifichi se il laboratorio segnala emolisi, e su indicazione ripeti il prelievo con tecnica corretta."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto molte aziende usano sistemi informatici di richiesta con etichette stampate al letto a partire dal braccialetto del paziente, che riducono gli errori di identificazione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono procedure aziendali sulla fase preanalitica e sulla comunicazione dei valori critici. All'orale, collega sempre la preanalitica alla sicurezza del paziente."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Etichettare al letto. Laccio meno di un minuto. Mai dal braccio con infusione. Ordine: emocolture, citrato, siero, eparina, EDTA, fluoruro."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Citrato fino alla tacca, provette mai agitate. Emocolture: due set, otto-dieci millilitri, prima dell'antibiotico. Urinocoltura: mitto intermedio, mai dalla sacca."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo il modulo sei, con l'autovalutazione: dalla cannula alla provetta, tutto cio' che passa per una vena. A tra poco."
+ }
+]

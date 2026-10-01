@@ -16,7 +16,7 @@ BLOCCHI = [
  (3,"chiaro",0,"Plasma fresco congelato, per i deficit dei fattori della coagulazione. Crioprecipitato, ricco di fibrinogeno."),
  (3,"chiaro",0,"E una distinzione: i plasmaderivati, albumina, immunoglobuline, concentrati di fattori, sono prodotti industriali e si gestiscono come farmaci."),
 
- (4,"chiaro",0,"La conservazione, dove nascono errori silenziosi. Le emazie stanno in frigoemoteca, fra due e sei gradi. Le piastrine a temperatura ambiente, venti-ventiquattro gradi, in agitazione continua: mai in frigorifero, che le danneggia."),
+ (4,"chiaro",0,"La conservazione, dove nascono errori silenziosi. Le emazie stanno in frigoemoteca, fra due e sei gradi. Le piastrine a temperatura ambiente, venti-ventiquattro gradi, in agitazione continua: mai in frigorifero."),
  (4,"chiaro",0,"Il plasma e' congelato e si scongela subito prima dell'uso. In reparto non si conservano emocomponenti: non nel frigorifero dei farmaci, non vicino a fonti di calore."),
 
  (5,"chiaro",0,"Il quadro normativo: la legge duecentodiciannove del duemilacinque sulle attivita' trasfusionali, e il decreto legislativo duecentosessantuno del duemilasette."),
