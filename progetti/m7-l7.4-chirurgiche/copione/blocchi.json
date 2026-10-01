@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La ferita chirurgica guarisce per prima intenzione, e nella maggior parte dei casi guarisce senza problemi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il compito dell'infermiere e' proteggerla nei primi giorni, riconoscere presto un'infezione o una deiscenza, e sapere che cosa fare nell'unica vera emergenza di questa lezione: l'eviscerazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre cose, quindi: proteggere, riconoscere, agire. La lezione le segue in quest'ordine, e il caso finale le mette insieme."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La medicazione applicata in sala operatoria, sterile, non si rimuove nelle prime quarantotto ore, se non per necessita': sanguinamento, essudato abbondante, distacco, segni di infezione."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In quei primi due giorni la ferita si sta sigillando, e ogni apertura e' un rischio. Quando la si rinnova, si usa una tecnica asettica."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo quarantotto ore, di norma, la persona puo' fare la doccia, secondo l'indicazione del chirurgo: la ferita sigillata non teme l'acqua, teme le mani."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa osservare. Margini accostati. Un lieve arrossamento dei margini nei primi giorni e' normale: e' la fase infiammatoria della guarigione, che abbiamo visto nella lezione sette punto uno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'essudato: quantita' e tipo. Il dolore, e soprattutto il suo andamento: un dolore che aumenta dopo i primi giorni invece di diminuire e' un segnale."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i segni sistemici: i parametri, con la temperatura. Una ferita si guarda ogni giorno con gli stessi occhi, e si scrive cio' che si vede: il confronto con ieri e' la valutazione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infezione del sito chirurgico, che abbiamo gia' definito nella lezione quattro punto uno: entro trenta giorni, novanta con impianto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si classifica in superficiale, che interessa cute e sottocute; profonda, che interessa fasce e muscoli; di organo o spazio, come un ascesso addominale. Tre profondita', e la terza non si vede dalla ferita."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni: rossore che si estende, calore, edema, dolore in aumento, essudato purulento, apertura della ferita, febbre, in genere dal terzo-quinto giorno."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una febbre nelle prime ventiquattro-quarantotto ore, invece, raramente dipende dalla ferita: ha quasi sempre un'altra causa, e la ferita non si apre per cercarla."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bundle di prevenzione delle infezioni del sito chirurgico, in tre tempi. Prima dell'intervento: doccia preoperatoria; niente tricotomia con il rasoio, che provoca microlesioni colonizzate."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se serve, si usa il clipper, subito prima dell'intervento. Controllo della glicemia; abbandono del fumo; nutrizione: le stesse cose che ostacolano la guarigione nella lezione sette punto uno."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante: profilassi antibiotica entro sessanta minuti prima dell'incisione; antisepsi con clorexidina alcolica; mantenimento della normotermia, perche' l'ipotermia aumenta le infezioni."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo: medicazione sterile per quarantotto ore e igiene delle mani. Lo riprenderemo nel modulo nove. Prima, durante, dopo: la ferita si protegge in tre tempi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rimozione dei punti e delle agrafes avviene su indicazione del chirurgo, con tempi che dipendono dalla sede. Indicativamente: volto tre-cinque giorni, perche' la vascolarizzazione e' ottima e si vuole una cicatrice minima."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cuoio capelluto, tronco e addome sette-dieci; arti dieci-quattordici; zone articolari e sotto tensione quattordici o piu'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei quiz conta l'ordine: il volto per primo, le articolazioni per ultime. Dove la cute e' ben irrorata si toglie presto, dove e' in tensione si aspetta."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica. Asepsi. Per il punto, si solleva il nodo con la pinza, si taglia il filo vicino alla cute, dal lato opposto al nodo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si sfila in modo che la parte esterna, contaminata, non attraversi il tessuto. E' il dettaglio che il quiz chiede: il filo che era fuori non deve passare dentro."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso si rimuovono a punti alterni, verificando che la ferita tenga, prima di rimuovere gli altri. Al termine si possono applicare strisce adesive di rinforzo."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La deiscenza: i margini della ferita si separano, in genere fra il quinto e il decimo giorno."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fattori di rischio: obesita', diabete, malnutrizione, corticosteroidi, infezione, e tutto cio' che aumenta la pressione addominale: tosse, vomito, distensione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un segno premonitore da conoscere: un'improvvisa fuoriuscita di liquido siero-ematico abbondante dalla ferita, a volte con la sensazione riferita di qualcosa che si e' rotto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'eviscerazione: i visceri fuoriescono attraverso la ferita. E' un'emergenza chirurgica, e la sequenza va saputa. Uno: si resta con il paziente e si chiama aiuto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: posizione supina con le ginocchia flesse e la testata lievemente sollevata, per ridurre la tensione sulla parete addominale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: si coprono i visceri con garze sterili imbevute di fisiologica tiepida, perche' non si secchino. Quattro: non si tenta di riposizionarli."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: digiuno, perche' tornera' in sala. Sei: parametri e segni di shock. Sette: rassicurare, perche' e' un'esperienza terrificante. Otto: avvisare subito il chirurgo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione della deiscenza. Insegnare alla persona a sostenere la ferita con un cuscino o con le mani quando tossisce, starnutisce o si muove."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Insegnare ad alzarsi girandosi prima sul fianco, invece di sollevarsi di colpo usando gli addominali. Nutrizione, controllo glicemico, e fasce addominali su indicazione. La deiscenza si previene con le stesse cose che la causano, al contrario."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando la ferita e' infetta o si e' aperta senza eviscerazione: si avvisa il chirurgo, si raccolgono i campioni su indicazione, con la tecnica della lezione sette punto uno: tessuto vitale, non pus."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E spesso la ferita viene aperta del tutto e lasciata guarire per seconda intenzione, con medicazioni avanzate o con la terapia a pressione negativa, che vediamo nella prossima lezione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un collegamento importante: il dolore della ferita. Una persona con dolore non controllato non si mobilizza, respira superficialmente e non tossisce, con il rischio di complicanze polmonari e trombotiche."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'analgesia adeguata e rivalutata, come nella lezione tre punto sette, e' anche prevenzione delle complicanze. Chi non ha dolore respira, tossisce, cammina."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Sesto giorno dopo una laparotomia, paziente obeso e diabetico; dopo un colpo di tosse la medicazione si bagna di abbondante liquido rosato. Che cosa pensi?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segno premonitore di deiscenza: il giorno giusto, i fattori di rischio giusti, il liquido giusto. Che cosa fai? Non lasci il paziente, lo metti supino con le ginocchia flesse, ispezioni la ferita."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se ci sono visceri esposti applichi la sequenza dell'eviscerazione. Copri con garze sterili, digiuno, parametri."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E avvisi subito il chirurgo. Una ferita che cede non aspetta il giro del mattino."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete le infezioni del sito chirurgico sono oggetto di sorveglianza, il bundle di prevenzione e' integrato nelle procedure e nella check-list di sala operatoria."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la medicazione delle ferite segue procedure aziendali. Molte infezioni compaiono dopo la dimissione: per questo l'educazione del paziente sui segni da riconoscere e' parte della prevenzione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione alla dimissione: insegnare a riconoscere rossore che si estende, secrezione purulenta, dolore in aumento, febbre e apertura della ferita."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spiegare igiene e doccia; dire chiaramente a chi rivolgersi. Con il teach-back della lezione due punto sette: la persona ripete, con parole sue, che cosa deve guardare e chi deve chiamare."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Medicazione sterile per quarantotto ore. Infezione del sito entro trenta o novanta giorni. Bundle: niente rasoio, profilassi entro sessanta minuti, normotermia."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Punti: volto tre-cinque giorni, articolazioni quattordici. Deiscenza fra il quinto e il decimo giorno, annunciata dal liquido siero-ematico abbondante."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Eviscerazione: ginocchia flesse, garze con fisiologica tiepida, non riposizionare, digiuno, chirurgo subito."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: le medicazioni avanzate. A tra poco."
+ }
+]

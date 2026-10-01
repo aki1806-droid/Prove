@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le ulcere degli arti inferiori sono un problema enorme, soprattutto a domicilio, e il loro trattamento parte da una domanda sola: qual e' la causa?"
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'ulcera venosa e un'ulcera arteriosa si curano in modo opposto: la compressione che guarisce la prima puo' far perdere l'arto nella seconda."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo la diagnosi differenziale e' il cuore della lezione. Prima si capisce quale gamba si ha davanti, poi si apre la medicazione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ulcera venosa, la piu' frequente. La causa e' l'insufficienza venosa: il sangue ristagna nelle vene della gamba e la pressione danneggia i tessuti."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sede tipica: il malleolo mediale, il terzo inferiore della gamba, la cosiddetta zona della ghetta. E' superficiale, con margini irregolari ed essudato abbondante."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Intorno: edema, cute iperpigmentata brunastra, eczema, indurimento. Il dolore e' moderato e migliora sollevando la gamba. I polsi periferici sono presenti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Edema, iperpigmentazione, eczema, lipodermatosclerosi: la gamba racconta anni di ristagno prima dell'ulcera. Chi guarda solo l'ulcera non vede la causa."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ulcera arteriosa. La causa e' l'ischemia: il sangue arterioso non arriva. Sede: dita, tallone, dorso del piede, zona pretibiale: le zone piu' distali, dove il sangue arriva per ultimo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Margini netti, come fatti con uno stampo, fondo pallido o necrotico, essudato scarso. La cute e' pallida, fredda, lucida, senza peli."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dolore e' intenso, peggiora sollevando la gamba e di notte, e la persona trova sollievo tenendo la gamba penzoloni fuori dal letto. I polsi sono assenti o ridotti."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il confronto in una tabella. Sede: malleolo mediale contro dita e piede. Essudato: abbondante contro scarso. Cute: edematosa e pigmentata contro pallida, fredda e glabra."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dolore: migliora sollevando contro peggiora sollevando. Polsi: presenti contro assenti. Se ricordi solo una riga, ricorda quella del dolore e della posizione: e' la piu' chiesta."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento che decide: l'indice caviglia-braccio, o ABI. E' il rapporto fra la pressione sistolica alla caviglia e quella al braccio, prendendo la piu' alta fra le due braccia, misurate con un Doppler."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Normale fra circa zero virgola nove e uno virgola tre: alla caviglia la pressione e' circa quella del braccio, o un po' piu' alta. Sotto zero virgola nove indica arteriopatia. Sotto zero virgola cinque un'ischemia grave."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sopra uno virgola tre indica arterie incomprimibili perche' calcificate, tipiche del diabetico: il valore non e' affidabile e servono altri esami."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La compressione e' il trattamento dell'ulcera venosa: senza compressione, un'ulcera venosa difficilmente guarisce, perche' la causa, il ristagno, resta. Ma prima si misura l'ABI."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da zero virgola otto in su: compressione indicata. Fra zero virgola cinque e zero virgola otto: compressione ridotta, solo su indicazione specialistica. Sotto zero virgola cinque: compressione controindicata."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola di sicurezza: senza ABI non si comprime. Un bendaggio su un arto ischemico puo' provocare necrosi. E' la regola che il caso di oggi mettera' alla prova."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bendaggio. Piede a novanta gradi. Dalla base delle dita fino sotto il ginocchio, includendo il tallone. Pressione graduata: maggiore alla caviglia e decrescente verso l'alto, per favorire il ritorno venoso."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spire sovrapposte in modo regolare, perche' la pressione deve essere uniforme. Oggi si usano spesso sistemi multicomponente."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si sorvegliano dolore, intorpidimento, colorito e temperatura delle dita: se compaiono, il bendaggio si allenta e si avvisa. Le dita restano fuori proprio per questo: per guardarle."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le altre misure. Sollevare le gambe a riposo. Camminare, perche' la contrazione del polpaccio pompa il sangue verso l'alto: e' la pompa muscolare del polpaccio. Evitare di stare a lungo in piedi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo la guarigione, le calze elastiche terapeutiche, spesso per tutta la vita: le ulcere venose recidivano molto se si sospende la compressione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'ulcera arteriosa, la priorita' e' la valutazione vascolare specialistica, perche' senza rivascolarizzazione spesso non guarisce. Niente compressione. Non sollevare l'arto."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proteggere dal freddo, ma niente fonti di calore dirette, come borse dell'acqua calda: su un arto ischemico e spesso poco sensibile provocano ustioni."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le escare secche stabili non si rimuovono. Controllo del dolore. E l'abbandono del fumo. Tutto quello che nella venosa aiuta, qui e' al contrario."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piede diabetico. Tre meccanismi, spesso insieme. La neuropatia: la persona non sente piu' il dolore, quindi non si accorge di una scarpa che stringe, di un sassolino, di una bruciatura."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'arteriopatia: la perfusione e' ridotta. L'infezione, che nel diabetico progredisce rapidamente. Il risultato puo' essere un'ulcera che nessuno ha notato finche' non e' grave."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso coesistono: una scarpa che stringe su un piede che non sente, con poco sangue, e un'infezione che corre. Il piede diabetico e' tre problemi in uno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due classificazioni. Quella di Wagner, dal grado zero, piede a rischio senza lesioni, al grado cinque, gangrena estesa. Sei gradi, e il grado zero e' gia' un piede da sorvegliare."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E quella dell'Universita' del Texas, che combina la profondita' della lesione con la presenza di infezione e ischemia."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La valutazione della neuropatia si fa con il monofilamento da dieci grammi: se la persona non lo percepisce in alcuni punti del piede, ha perso la sensibilita' protettiva. Poi la palpazione dei polsi e l'ispezione."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento dell'ulcera plantare diabetica si regge su un principio: lo scarico. Se la persona continua a camminare sulla lesione, l'ulcera non guarisce, qualunque medicazione si usi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano gessi a contatto totale, tutori, calzature e plantari specifici. E' l'equivalente, per il piede, del riposizionamento nelle lesioni da pressione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la prevenzione, che e' soprattutto educazione. Ispezionare i piedi ogni giorno, anche con uno specchio. Lavarli con acqua tiepida, verificandone la temperatura con il gomito o un termometro, non con il piede che non sente."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Asciugare bene fra le dita. Unghie tagliate dritte. Mai camminare scalzi. Calzature comode, controllate all'interno prima di indossarle: un sassolino non si sente, si trova."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente fonti di calore, niente callifughi. E rivolgersi subito per qualunque lesione, anche piccola: nel piede che non sente, piccola non vuol dire innocua."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Anziana con ulcera al malleolo mediale, edema, essudato abbondante: il quadro e' venoso. Viene chiesto un bendaggio compressivo, ma l'ABI non e' stato misurato. Che cosa fai?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non applichi la compressione finche' l'ABI non e' stato valutato, perche' un'arteriopatia associata e' frequente nell'anziano e la compressione potrebbe essere dannosa. Lo segnali e ne chiedi la misurazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel frattempo detergi, gestisci l'essudato, proteggi la cute perilesionale e consigli di sollevare la gamba a riposo: tutto cio' che aiuta la venosa senza rischiare l'arteriosa."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Un quadro venoso evidente non esclude un'arteriopatia nascosta: e' l'ABI che lo esclude, non l'occhio."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto esistono percorsi e centri di riferimento per il piede diabetico, con equipe multidisciplinari, e ambulatori vulnologici aziendali e territoriali."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La maggior parte delle ulcere degli arti inferiori si cura a domicilio, con l'ADI: e' li' che l'infermiere decide, spesso da solo, se quella gamba si puo' comprimere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la parola chiave per il piede diabetico e' multidisciplinarieta', e per l'ulcera venosa ABI prima della compressione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Venosa: malleolo mediale, essudato abbondante, migliora sollevando, polsi presenti. Arteriosa: dita, cute pallida, peggiora sollevando, polsi assenti."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "ABI normale zero virgola nove-uno virgola tre; sotto zero virgola cinque niente compressione; e senza ABI, nessuna compressione."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piede diabetico: neuropatia, arteriopatia, infezione; scarico; educazione. E il monofilamento da dieci grammi per la sensibilita'."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: le ferite chirurgiche. A tra poco."
+ }
+]
