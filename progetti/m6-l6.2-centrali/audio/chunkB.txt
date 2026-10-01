@@ -1,0 +1,47 @@
+I lavaggi, o flush. Si lava con soluzione fisiologica prima e dopo ogni farmaco, fra farmaci diversi e dopo i prelievi. La tecnica e' pulsante, piccole spinte e pause, che crea turbolenza e pulisce meglio il lume.
+
+Si usano siringhe da almeno dieci millilitri: le siringhe piccole generano pressioni molto alte e possono rompere il catetere. Si chiude a pressione positiva, per evitare il reflusso di sangue in punta.
+
+Il lock, cioe' la soluzione lasciata nel catetere fra un uso e l'altro, dipende dal dispositivo e dalla procedura: spesso fisiologica, in alcuni casi altre soluzioni.
+
+Il port si punge attraverso la cute con un ago di Huber, un ago speciale non carotante, che non asporta frammenti della membrana di silicone e ne preserva la durata.
+
+La puntura richiede tecnica asettica; l'ago in sede si cambia secondo procedura. Quando il port non viene usato, va lavato periodicamente, secondo le indicazioni del produttore e della procedura aziendale.
+
+Le complicanze, in tre famiglie. Meccaniche: all'inserimento pneumotorace, puntura arteriosa, malposizione, aritmie se la punta irrita il cuore.
+
+Durante la gestione occlusione, rottura, dislocazione; e l'embolia gassosa, che merita una slide a se'. Per l'occlusione vale la regola della lezione precedente: non si forza con la siringa.
+
+L'embolia gassosa: aria che entra nel circolo da un catetere aperto, una connessione staccata, una rimozione scorretta. I segni sono improvvisi: dispnea, dolore toracico, ipotensione, cianosi, coscienza alterata.
+
+La condotta: chiudere la via d'ingresso dell'aria; paziente in decubito laterale sinistro, capo in basso, in Trendelenburg, per intrappolare l'aria nel ventricolo destro; ossigeno; chiamare il medico.
+
+E la prevenzione al momento della rimozione del CVC: paziente supino o in Trendelenburg, rimozione in espirazione o durante una manovra di Valsalva, e medicazione occlusiva sulla sede.
+
+Le complicanze trombotiche: una trombosi venosa del braccio o del collo, con edema, dolore, turgore delle vene superficiali, da segnalare subito. E quelle infettive: infezione della sede di uscita, del tunnel, batteriemia.
+
+Un segno da conoscere: il brivido che compare durante o subito dopo il lavaggio del catetere suggerisce che il catetere sia colonizzato e che il lavaggio stia immettendo batteri in circolo. Va segnalato immediatamente.
+
+Quando si sospetta un'infezione del catetere, le emocolture si prelevano in modo appaiato: un set dal catetere e uno da una vena periferica, nello stesso momento.
+
+Il confronto fra i tempi in cui i due set diventano positivi aiuta a capire se la sorgente e' proprio il catetere. Rivedremo le emocolture nella lezione sei punto sette.
+
+Il caso. Paziente con PICC per terapia antibiotica; dopo il lavaggio del catetere compare febbre a trentotto e otto con brivido. Che cosa fai?
+
+Sospendi l'uso del catetere, ispezioni la sede, rilevi i parametri, avvisi il medico; prepari le emocolture appaiate, dal PICC e da vena periferica, prima di qualunque modifica della terapia antibiotica.
+
+Poi sara' il medico a decidere se il catetere va rimosso. Documenti l'episodio e l'orario esatto del brivido.
+
+Nelle aziende venete il posizionamento di PICC e Midline e' spesso affidato a team infermieristici formati, con ecoguida e conferma ECG della punta: l'evoluzione delle competenze del modulo uno, in concreto.
+
+Il bundle CLABSI e' integrato nelle procedure, e le batteriemie rientrano nella sorveglianza delle ICA. All'orale, citare il team accessi vascolari a gestione infermieristica e' un ottimo aggancio.
+
+La tabella da fotografare. CVC non tunnellizzato: centrale, breve termine. PICC: centrale, medio-lungo termine. Midline: periferico, qualche settimana.
+
+Tunnellizzato: centrale, lungo termine. Port: centrale, lungo termine, uso intermittente, ago di Huber. Cinque dispositivi, una sola domanda da farsi: dove sta la punta?
+
+Ricapitoliamo. Conferma della punta prima di usare un centrale. Massime barriere sterili e clorexidina alcolica all'inserimento. Scrub the hub. Medicazione trasparente ogni sette giorni, garza ogni due.
+
+Siringhe da almeno dieci millilitri e tecnica pulsante. Embolia gassosa: laterale sinistro e Trendelenburg. Brivido al lavaggio: allarme.
+
+[warm] E, ogni giorno, serve ancora? E' la stessa domanda della lezione sei punto uno, e vale ancora di piu' per un centrale. Nella prossima lezione: la fluidoterapia. A tra poco.
