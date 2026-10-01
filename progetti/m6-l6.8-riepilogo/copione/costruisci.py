@@ -3,76 +3,76 @@
 import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
+# (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Un dato che sorprende molti: la maggior parte degli errori di laboratorio non nasce in laboratorio, ma prima, nella fase preanalitica."),
- (1,"chiaro",0,"Identificazione, prelievo, provette, conservazione, trasporto: e' la fase gestita dall'infermiere, e per questo e' la fase in cui l'infermiere puo' fare la differenza."),
- (1,"chiaro",0,"Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti. E quasi sempre l'errore e' invisibile: il referto arriva, e nessuno sa che e' falso."),
+ (1,"chiaro",0,"[warm] Chiudiamo il modulo sei. E' un modulo di procedure, e il modo migliore per ripassarlo e' metterle a confronto: che cosa hanno in comune, dove differiscono, dove si sbaglia."),
+ (1,"chiaro",0,"Poi le confusioni che costano piu' punti, i casi tipici, e una breve autovalutazione: otto domande secche, di quelle che il quiz fa davvero."),
+ (1,"chiaro",0,"Tieni a portata di mano il quaderno: i numeri di questo modulo si imparano scrivendoli, non ascoltandoli."),
 
- (2,"chiaro",0,"Il primo passo e' sempre lo stesso: identificazione attiva. Poi l'etichettatura, che si fa al letto, davanti al paziente, subito dopo il prelievo."),
- (2,"chiaro",0,"Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio. Prima si preleva, poi si etichetta, senza allontanarsi dal letto."),
- (2,"chiaro",0,"E la richiesta deve essere completa, con l'esame, la data, l'ora del prelievo e l'operatore: l'ora conta, perche' alcuni valori cambiano nella giornata."),
+ (2,"chiaro",0,"Sette lezioni: accessi periferici e scala VIP; accessi centrali e bundle; fluidoterapia e sovraccarico; emogasanalisi e ROME; nutrizione parenterale e rialimentazione; trasfusione e doppio controllo; preanalitica e provette."),
+ (2,"chiaro",0,"Il filo comune e' uno: il sistema vascolare come porta d'accesso. Per curare, e per sbagliare. Ogni lezione e' una cosa che entra o che esce da una vena."),
 
- (3,"chiaro",0,"Le condizioni del prelievo. Il laccio si tiene per meno di un minuto: oltre, si concentrano i componenti del sangue e i valori cambiano."),
- (3,"chiaro",0,"Niente pugno aperto e chiuso ripetutamente, che altera il potassio: ricordi la pseudo-iperkaliemia della lezione tre punto cinque."),
- (3,"chiaro",0,"Paziente a riposo, a digiuno quando l'esame lo richiede: la glicemia a digiuno della lezione cinque punto cinque, i trigliceridi."),
- (3,"chiaro",0,"E non si preleva dall'arto in cui scorre un'infusione, che diluisce o contamina il campione: se e' proprio inevitabile, si preleva a valle, a infusione sospesa, secondo procedura."),
+ (3,"chiaro",0,"Che cosa hanno in comune tutte queste procedure? Identificazione attiva del paziente, sempre, prima di toccare qualsiasi cosa: nome, cognome e data di nascita detti da lui, confrontati con il braccialetto."),
+ (3,"chiaro",0,"Asepsi, con clorexidina alcolica lasciata asciugare e niente ripalpazione. Disinfezione dei connettori, lo scrub the hub. Valutazione regolare del dispositivo."),
+ (3,"chiaro",0,"La domanda quotidiana: serve ancora? Un dispositivo che non serve si rimuove. E la documentazione: inserimento, valutazione, rimozione, con data e firma."),
 
- (4,"chiaro",0,"L'ordine di prelievo delle provette, che i quiz chiedono spesso. Uno: emocolture, per prime, per non contaminarle con gli additivi delle altre. Due: citrato, tappo azzurro, per la coagulazione."),
- (4,"chiaro",0,"Tre: siero, tappo rosso o giallo, con o senza gel. Quattro: eparina, tappo verde. Cinque: EDTA, tappo viola, per l'emocromo. Sei: fluoruro, tappo grigio, per la glicemia."),
- (4,"chiaro",0,"Il motivo dell'ordine e' evitare che l'additivo di una provetta contamini la successiva: per esempio l'EDTA, se passa nella provetta del siero, abbassa il calcio e alza il potassio."),
- (4,"chiaro",0,"E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo. Sei provette, un ordine: dalla piu' delicata alla meno delicata."),
+ (4,"chiaro",0,"Periferico e centrale a confronto. Periferico: calibro piu' piccolo possibile, sostituzione su indicazione clinica e non a scadenza fissa, scala VIP con rimozione da due."),
+ (4,"chiaro",0,"Centrale: conferma della punta prima dell'uso, massime barriere sterili all'inserimento, medicazione trasparente ogni sette giorni, attenzione all'embolia gassosa."),
+ (4,"chiaro",0,"E il Midline, che e' periferico: si inserisce come un PICC, in una vena del braccio, ma e' piu' corto, e la punta resta nell'ascellare o nella basilica. Chi lo chiama centrale perde il punto."),
 
- (5,"chiaro",0,"Due dettagli. La provetta del citrato va riempita esattamente fino alla tacca: il test della coagulazione richiede un rapporto preciso fra sangue e anticoagulante, nove a uno. Poco piena, da' risultati falsamente alterati."),
- (5,"chiaro",0,"E con il butterfly, se la prima provetta e' il citrato, si usa prima una provetta di scarto, per riempire d'aria il tubicino ed evitare che la provetta del citrato resti incompleta."),
- (5,"chiaro",0,"Tutte le provette con additivo si capovolgono delicatamente il numero di volte indicato: mai agitarle, perche' si provoca emolisi."),
+ (5,"chiaro",0,"I numeri del modulo. Gauge: numero basso, calibro grande. Sopra novecento milliosmoli per litro, via centrale. Siringhe da almeno dieci millilitri per i lavaggi."),
+ (5,"chiaro",0,"pH sette virgola trentacinque-sette virgola quarantacinque. CO2 trentacinque-quarantacinque. Bicarbonato ventidue-ventisei. Compressione dopo il prelievo arterioso: almeno cinque minuti."),
+ (5,"chiaro",0,"Emazie a due-sei gradi, trasfuse entro quattro ore; piastrine a venti-ventiquattro gradi, in agitazione. Laccio meno di un minuto. Emocolture: otto-dieci millilitri per flacone."),
+ (5,"chiaro",0,"Sono dodici numeri, e stanno in tre slide: fermati, copiali nel quaderno, e riparti. Un numero scritto una volta vale piu' di tre ascolti, e il quiz li chiede tutti e dodici."),
 
- (6,"chiaro",0,"L'emolisi, la rottura dei globuli rossi nel campione. Le cause sono quasi tutte nostre: ago troppo sottile, aspirazione vigorosa con la siringa, laccio prolungato."),
- (6,"chiaro",0,"Provette agitate, sangue spinto con forza dalla siringa nella provetta, prelievo da una cannula appena posizionata: in tutti i casi i globuli rossi si rompono e versano il loro potassio nel siero."),
- (6,"chiaro",0,"L'effetto piu' importante: il potassio falsamente alto, insieme ad altri valori come LDH e transaminasi. Un campione emolizzato si ripete: non si interpreta."),
+ (6,"chiaro",0,"Le tre sequenze di emergenza. Stravaso: fermare l'infusione, scollegare e aspirare dalla cannula, rimuovere, sollevare l'arto, avvisare il medico, delimitare e documentare."),
+ (6,"chiaro",0,"Embolia gassosa: chiudere la via d'ingresso dell'aria, paziente in laterale sinistro in Trendelenburg, con il capo in basso, per intrappolare l'aria nel ventricolo destro, ossigeno, medico."),
+ (6,"chiaro",0,"Reazione trasfusionale: fermare, accesso con fisiologica e deflussore nuovo, parametri, medico, ricontrollo di identita' e sacca, invio di sacca e campioni, urine, segnalazione."),
 
- (7,"chiaro",0,"Le emocolture, che riprendiamo dalle lezioni quattro punto sei e sei punto due. Si prelevano al rialzo febbrile o, meglio ancora, all'insorgenza del brivido, e prima dell'antibiotico, che altrimenti sterilizza il campione."),
- (7,"chiaro",0,"Almeno due set, ciascuno con un flacone aerobio e uno anaerobio, da due punzioni diverse. Volume: otto-dieci millilitri per flacone nell'adulto: il volume e' il principale determinante della sensibilita'."),
- (7,"chiaro",0,"Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento: e' il confronto fra i due che dice se il catetere e' la fonte."),
+ (7,"chiaro",0,"Le confusioni che costano piu' punti. Uno: il Midline non e' centrale. Due: infiltrazione se la soluzione non e' vescicante, stravaso se lo e'."),
+ (7,"chiaro",0,"Tre: la glucosata al cinque per cento non espande il volume circolante: dopo il metabolismo del glucosio resta acqua libera, che si distribuisce in tutti i compartimenti, e solo una piccola parte resta nei vasi."),
+ (7,"chiaro",0,"Quattro: il donatore universale di emazie e' zero negativo, quello di plasma e' AB. L'inversione e' la domanda classica, e la risposta istintiva e' quella sbagliata."),
 
- (8,"chiaro",0,"La tecnica, perche' un'emocoltura contaminata dalla flora cutanea porta a terapie inutili. Antisepsi della cute con clorexidina alcolica, lasciata asciugare; disinfezione dei tappi; non ripalpare dopo l'antisepsi."),
- (8,"chiaro",0,"L'ordine dei flaconi: con il butterfly si riempie prima l'aerobio, perche' la piccola quantita' d'aria del tubicino finisce li' e non nell'anaerobio; con la siringa si inocula prima l'anaerobio."),
- (8,"chiaro",0,"Poi si etichetta e si invia subito, o si conserva secondo procedura, non in frigorifero: i flaconi sono terreni di coltura, e il freddo ferma la crescita che invece si vuole vedere."),
+ (8,"chiaro",0,"Cinque: ROME. Respiratorio opposto, metabolico uguale: pH e CO2 in direzione opposta nel disturbo respiratorio, pH e bicarbonato nella stessa direzione in quello metabolico."),
+ (8,"chiaro",0,"Sei: le piastrine mai in frigorifero. Sette: con il sangue solo fisiologica: la glucosata provoca emolisi, il Ringer con il suo calcio favorisce la coagulazione, i farmaci in linea mai."),
+ (8,"chiaro",0,"Otto: emocolture con il butterfly, prima l'aerobio; con la siringa, prima l'anaerobio. L'aria del tubicino deve finire nel flacone che l'aria la tollera."),
 
- (9,"chiaro",0,"L'urinocoltura. Dopo l'igiene dei genitali, si raccoglie il mitto intermedio, scartando il primo getto, in un contenitore sterile. Nel cateterizzato, dal punto di prelievo dedicato, mai dalla sacca: lezione tre punto sei."),
- (9,"chiaro",0,"Il campione si invia entro due ore, o si refrigera secondo procedura, perche' a temperatura ambiente i batteri si moltiplicano e falsano la carica."),
+ (9,"chiaro",0,"I casi. Cannula con VIP due e nessuna terapia endovenosa in corso: si rimuove e non si riposiziona. Due motivi per toglierla, nessuno per tenerla."),
+ (9,"chiaro",0,"Brivido al lavaggio del PICC: si sospetta una CLABSI. Emocolture appaiate, dal catetere e da vena periferica nello stesso momento, e medico: il confronto dei tempi di positivizzazione dice se la sorgente e' il catetere."),
+ (9,"chiaro",0,"Sacca di parenterale finita di notte: glucosata secondo procedura per evitare l'ipoglicemia da rimbalzo, glicemia, medico. Non si lascia la via vuota."),
 
- (10,"chiaro",0,"Gli altri campioni. Il tampone richiede la sede giusta, la tecnica giusta e il terreno di trasporto adeguato: un tampone secco e' un tampone morto."),
- (10,"chiaro",0,"Sulle lesioni si deterge prima e si campiona il tessuto vitale, non il pus superficiale o la necrosi: lo vedremo nel modulo sette."),
- (10,"chiaro",0,"Le feci per il Clostridium difficile solo se non formate. L'espettorato al mattino, dopo aver sciacquato la bocca con acqua, da una tosse profonda: la saliva non serve."),
+ (10,"chiaro",0,"Paziente con BPCO sonnolento in ossigeno ad alto flusso, con CO2 alta: acidosi respiratoria. Medico, e rivalutazione dell'ossigeno con target ottantotto-novantadue."),
+ (10,"chiaro",0,"Dolore lombare e ipotensione dopo dieci minuti di trasfusione: reazione emolitica. La sequenza, tutta, a partire da fermare."),
+ (10,"chiaro",0,"Potassio alto in un prelievo difficoltoso: possibile emolisi, medico e ripetizione. Anziano cardiopatico in mantenimento da giorni, dispnoico: sovraccarico, ridurre l'infusione, medico."),
 
- (11,"chiaro",0,"Alcuni valori di riferimento da conoscere, con un'avvertenza: i valori esatti dipendono dal laboratorio, e nella pratica si usano quelli scritti sul referto."),
- (11,"chiaro",0,"Emoglobina: nell'uomo circa tredici-diciassette, nella donna circa dodici-quindici grammi per decilitro. Globuli bianchi: circa quattromila-diecimila per millimetro cubo. Piastrine: circa centocinquantamila-quattrocentomila."),
+ (11,"chiaro",2.0,"L'autovalutazione. Due domande alla volta, risposta secca. Uno: qual e' la prima provetta dell'ordine di prelievo? Due: il Midline e' un accesso centrale?"),
+ (11,"chiaro",0,"Uno: le emocolture, per prime, per non contaminarle. Due: no, il Midline e' periferico: la punta resta in una vena del braccio, e per questo non riceve cio' che richiede la via centrale."),
+ (11,"chiaro",2.0,"Tre: qual e' il donatore universale di plasma? Quattro: le piastrine si conservano in frigorifero?"),
+ (11,"chiaro",0,"Tre: AB, perche' il plasma AB non ha anticorpi anti-A ne' anti-B. Quattro: mai: a venti-ventiquattro gradi, in agitazione continua."),
+ (11,"chiaro",2.0,"Cinque: pH basso e CO2 alta, disturbo respiratorio o metabolico? Sei: con il sangue, quale soluzione va in linea?"),
+ (11,"chiaro",0,"Cinque: respiratorio, perche' pH e CO2 vanno in direzione opposta: ROME, respiratorio opposto. Sei: solo fisiologica."),
+ (11,"chiaro",2.0,"Sette: cannula con VIP due, che cosa fai? Otto: sopra novecento milliosmoli per litro, quale via?"),
+ (11,"chiaro",0,"Sette: si rimuove, e non si riposiziona se non serve. Otto: via centrale, perche' solo un vaso di grosso calibro tollera quella osmolarita'. Otto su otto e' il livello atteso: ogni errore ti dice quale lezione riguardare."),
 
- (12,"chiaro",0,"La chimica. Glicemia a digiuno: normale fra settanta e novantanove; fra cento e centoventicinque alterata; da centoventisei, se confermata, compatibile con il diabete."),
- (12,"chiaro",0,"Emoglobina glicata: da sei virgola cinque per cento compatibile con diabete. Creatinina: circa zero virgola sei-uno virgola due milligrammi per decilitro."),
- (12,"chiaro",0,"Sodio e potassio li conosci dalla lezione tre punto cinque. INR circa uno in chi non assume anticoagulanti. La PCR, indice di infiammazione, secondo il laboratorio."),
+ (12,"chiaro",0,"E i fili con gli altri moduli, utili all'orale per mostrare una visione d'insieme. Il bundle CLABSI si collega al modulo quattro. Il potassio, le compatibilita' e i calcoli al modulo cinque."),
+ (12,"chiaro",0,"La sindrome da rialimentazione alla lezione tre punto quattro. L'identificazione e il doppio controllo al modulo due. Un modulo che si tiene con gli altri vale di piu' di uno isolato."),
 
- (13,"chiaro",0,"Un concetto di sicurezza: il valore critico, un risultato che indica un pericolo immediato per il paziente: un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (13,"chiaro",0,"Il laboratorio lo comunica direttamente al reparto. Chi lo riceve applica il read-back della lezione due punto sette, avvisa subito il medico e documenta l'orario della comunicazione."),
+ (13,"chiaro",0,"Gli agganci veneti. Team accessi vascolari con PICC e Midline a gestione infermieristica. Servizi trasfusionali e coordinamento regionale."),
+ (13,"chiaro",0,"Procedure su sicurezza trasfusionale, preanalitica e valori critici, e in alcune realta' l'identificazione elettronica al letto. Nutrizione artificiale domiciliare con presa in carico distrettuale."),
 
- (14,"chiaro",0,"Il trasporto. Ogni esame ha tempi e temperature previsti: alcuni campioni vanno in ghiaccio, altri a temperatura ambiente, le emocolture mai in frigorifero."),
- (14,"chiaro",0,"I campioni viaggiano in contenitori chiusi, a prova di perdita, con il simbolo del rischio biologico, e le richieste vanno separate dai campioni."),
+ (14,"chiaro",0,"Come proseguire. Test del modulo, trenta domande, soglia ventuno. Rifai gli esercizi di emogasanalisi della lezione sei punto quattro finche' la lettura non diventa automatica: prima il pH, poi la CO2, poi il bicarbonato."),
+ (14,"chiaro",0,"Nel quaderno: numeri, sequenze, ordine delle provette. E scrivi per intero il caso della reazione trasfusionale con lo schema in cinque passi: e' una traccia molto probabile."),
+ (14,"chiaro",0,"Lo schema e' quello di tutti i casi: che cosa pensi, che cosa fai subito, chi avvisi, che cosa sorvegli, che cosa documenti."),
 
- (15,"chiaro",0,"Il caso. Il laboratorio comunica un potassio di sei virgola otto in un paziente asintomatico, con ECG in ordine. Il prelievo era stato difficoltoso, con ago sottile e laccio prolungato. Che cosa pensi?"),
- (15,"chiaro",0,"Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, chiedi al laboratorio se segnala emolisi, e su indicazione ripeti il prelievo."),
- (15,"profondo",1.2,"[serious] Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera. Il dubbio sul campione non sospende mai la sorveglianza sulla persona."),
+ (15,"profondo",1.2,"[serious] La frase del modulo: ogni accesso vascolare e' una porta aperta. Si apre con l'asepsi, si sorveglia ogni giorno, si chiude appena possibile."),
 
- (16,"chiaro",0,"In Veneto molte aziende usano sistemi informatici di richiesta con etichette stampate al letto a partire dal braccialetto del paziente, che riducono gli errori di identificazione."),
- (16,"chiaro",0,"Esistono procedure aziendali sulla fase preanalitica e sulla comunicazione dei valori critici. All'orale, collega sempre la preanalitica alla sicurezza del paziente."),
-
- (17,"chiaro",0,"Ricapitoliamo. Etichettare al letto. Laccio meno di un minuto. Mai dal braccio con infusione. Ordine: emocolture, citrato, siero, eparina, EDTA, fluoruro."),
- (17,"chiaro",0,"Citrato fino alla tacca, provette mai agitate. Emocolture: due set, otto-dieci millilitri, prima dell'antibiotico. Urinocoltura: mitto intermedio, mai dalla sacca."),
- (17,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo sei, con l'autovalutazione: dalla cannula alla provetta, tutto cio' che passa per una vena. A tra poco."),
+ (16,"chiaro",0,"Nel prossimo modulo passiamo dall'interno all'esterno del corpo: lesioni, medicazioni, stomie e drenaggi."),
+ (16,"chiaro",0,"[warm] E' un'area in cui l'infermiere ha un'autonomia molto ampia, e i concorsi lo sanno. Modulo sette: wound care, stomie e drenaggi. Ci vediamo li'."),
 ]
 
-CAPITOLI = {1:"Apertura",2:"Identificazione ed etichettatura",3:"Il laccio e il paziente",4:"L'ordine delle provette",5:"Due dettagli sulle provette",
- 6:"L'emolisi",7:"Le emocolture: quando e quante",8:"Le emocolture: la tecnica",9:"L'urinocoltura",10:"Gli altri campioni",
- 11:"L'emocromo",12:"La chimica",13:"Il valore critico",14:"Il trasporto",15:"Il caso",16:"In Veneto",17:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La mappa",3:"Cio' che hanno in comune",4:"Periferico e centrale",5:"I numeri del modulo",
+ 6:"Le sequenze",7:"Le confusioni, prima parte",8:"Le confusioni, seconda parte",9:"I casi, prima parte",10:"I casi, seconda parte",
+ 11:"L'autovalutazione",12:"Il filo con gli altri moduli",13:"In Veneto",14:"Come proseguire",15:"La frase del modulo",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
