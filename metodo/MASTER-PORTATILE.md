@@ -590,6 +590,83 @@ Sei cose imparate nel modulo 4:
   1.600–2.000. Quando il credito manca si preparano copione, slide e registro
   di tutte le lezioni che restano, e la voce si fa in un giro solo dopo.
 
+Il modulo 5 ne aggiunge sedici, e con loro ventiquattro illustrazioni
+(pillola, fegato, rene, pompelmo, triangolo nero, anziano, recettore,
+bilancia, cerotto, spray, collirio, supposta, osso, calcolatrice,
+gocciolatore, pettorina, armadio, etichetta, flaconi simili, cuore con la
+traccia, penna da insulina, frigorifero, bicchiere di succo, goccia di
+sangue):
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `adme` | il vaso con le quattro stazioni (A, D, M, E) che si accendono nell'ordine della voce, il fegato sopra la M e il rene sotto la E, tre puntini che corrono nel lume | la farmacocinetica (5.1) |
+| `emivita` | la curva che si dimezza a ogni t½ con i livelli 100, 50, 25, 12,5; in modo `accumulo` le dosi ripetute a dente di sega fino al plateau | l'emivita e lo steady state (5.1) |
+| `finestra` | la banda fra concentrazione minima efficace e tossica, la stessa dose che la rispetta se ampia e la supera se `stretta`; la lista dei farmaci da TDM a destra, `fitta` oltre le cinque voci | la finestra terapeutica (5.1) |
+| `recettore` | la membrana con la tasca: l'agonista che cala e il segnale che parte, l'antagonista che la occupa | agonisti e antagonisti, il naloxone (5.1) |
+| `legame` | le albumine che tengono i puntini del farmaco legato e i pochi liberi in accento; con meno albumine i liberi crescono | il legame proteico e l'ipoalbuminemia (5.1) |
+| `iniezione` | la sezione della cute a tre strati e l'ago che si disegna all'angolo giusto (`angolo`, `strato` id/sc/im), con l'etichetta della lunghezza | le vie parenterali (5.2) |
+| `zeta` | la tecnica a Z in tre quadri: la cute spostata, il deposito, il tramite che si spezza | la Z per i farmaci irritanti (5.2) |
+| `sedi` | la sagoma di fronte e di spalle con le zone (`voci` con x, y, rx, ry, lato) che si accendono nell'ordine della voce | le sedi intramuscolari e sottocutanee (5.2) |
+| `calcolo` | la formula scritta un segno per volta: i dati, gli operatori in grigio, il risultato dopo l'uguale in accento, la nota sotto | i calcoli delle dosi (5.3), i venti calcoli (5.8) |
+| `pausa` | il glifo della pausa che si disegna, l'esercizio in corsivo, i dati a pillole, l'etichetta del tempo | gli esercizi (5.3, 5.8) |
+| `gocce` | due camere di gocciolamento, 20 e 60 gocce per millilitro, con le gocce che cadono a ritmo diverso | il fattore del deflussore (5.3) |
+| `profili` | le quattro curve delle insuline sulle 24 ore (rapida, regolare, NPH, basale piatta), con il triangolo del pasto; le etichette sulla discesa (`lp`) | le insuline (5.5) |
+| `mic` | due pannelli con la soglia efficace: tre dosi a intervalli e la fascia di tempo sopra la soglia sotto l'asse; una dose alta con il picco | tempo- e concentrazione-dipendenti (5.6) |
+| `respiro` | la sedazione che sale a gradini e la frequenza respiratoria che cala solo dopo, con la finestra «qui si interviene»; `caso` segna FR 9 e SpO₂ 90 | la depressione respiratoria da oppioidi (5.6) |
+| `antidoto` | due curve che calano dalla stessa altezza, l'antidoto in fretta e l'oppioide piano, e la fascia in cui la persona torna a sedarsi | il naloxone (5.6) |
+| `registro` | la pagina del registro di carico e scarico, numerata e vidimata, che si compila riga per riga; `evidenzia` accende una riga, `correzione` la barra con riga e firma | gli stupefacenti (5.6) |
+
+Il `percorso` a due righe è sceso a 660 di altezza (seconda riga a 180 +
+300 r): a 700 sforava di 16 px con sei tappe (5.4).
+
+Nove cose imparate nel modulo 5:
+
+- **due chiamate Bash in parallelo si contendono la cartella di lavoro.**
+  Anche `cd X && comando` all'inizio del comando è finito eseguito in
+  un'altra cartella: il `contenuti.mjs` di 5.1 è nato nella radice della
+  lezione, una patch per 5.4 è caduta su 5.5. Sempre percorsi assoluti, e
+  i comandi che hanno bisogno della cartella vanno in una sottoshell
+  `( cd /abs && … )`. E `pkill -f` con un motivo che compare anche nel
+  comando che lo lancia uccide il comando stesso (uscita 144);
+- **i decimali si fondono parola per parola, non con un'espressione
+  regolare.** «la virgola cinque virgola zero» (5.4): la regola a coppie
+  prendeva «la virgola cinque», falliva perché «la» non è un numero, ma
+  consumava il «cinque» che serviva alla coppia vera. `verifica-testo.py`
+  scorre le parole e fonde `numero virgola numero` e `numero e cifra` dove
+  i vicini sono davvero numeri; «zero» vale 0; e «19. E un» diventa
+  «19 ee un» prima di togliere la punteggiatura, altrimenti si legge 19,1;
+- **`${num(y) + 50}` concatena.** `num()` restituisce una stringa, e «451»
+  + 50 fa «45150»: il testo finisce a quarantacinque metri dal foglio e
+  nessun controllo lo vede, perché non sfora, sparisce. La somma va dentro
+  `num()`. Il `-` non ha questo problema, e per questo il difetto si
+  nasconde: nel 5.6 erano sette casi, tutti con il più;
+- **quando la voce apre in fretta e il resto è lento, si abbassa la mira,
+  non si sposta il confine.** In 5.4 e 5.5 il primo blocco usciva a 21,1 e
+  21,7 car/s dopo il montaggio, con i confini giusti (le pause lo
+  confermano). `MIRA` in `tagli.py` è per lezione: 16,8 e 16,3 car/s invece
+  di 17, e la lezione dura 9:03 e 9:11 invece di 8:57 e 8:49;
+- **le etichette di quattro curve non stanno tutte al picco.** Nei profili
+  delle insuline si coprivano l'una con l'altra: ciascuna sta sulla
+  discesa della sua curva, alla sua altezza (`lp: [ora, ancora]`);
+- **una cifra con la barra è una cifra con il suffisso.** «309/1990» in
+  un `cifre` sfora di 23 px: `n:"309", suf:"/1990"`;
+- **la libreria si estende anche a ritroso.** `nuova-lezione.sh` copia
+  dall'ultima lezione: se la libreria della lezione N cresce dopo che la
+  N+1 è stata creata, `libreria-aggiungi.py` si rilancia sulla N+1 (la
+  chiave la rende idempotente). Le correzioni ai corpi si fanno sui tre
+  file sorgente (`mNN-illu/css/corpi.txt`) E in ogni `clinica.mjs` che li
+  ha già;
+- **il registro si scrive prima della resa.** `controlli.py` chiede la
+  sezione «Da verificare»: senza registro la lezione resta a 7/8 e non si
+  monta. Il registro nasce con «La resa: *in corso*» e `registro-resa.py`
+  lo completa, con la tabella del modulo e il README;
+- **i crediti di ElevenLabs si guardano prima di chiedere la voce.** Le
+  due tracce di 5.7 sono state rifiutate con 3.747 crediti residui (una
+  traccia ne chiede 10.000 di riserva, pur costandone 4.500): con quello
+  che restava si sono fatte le trascrizioni di 5.5. Le lezioni 5.6, 5.7 e
+  5.8 sono state portate fino alle slide, ai registri e, dove la voce c'era,
+  al montaggio, in attesa del rinnovo.
+
 Tre cose imparate facendoli:
 
 - **una classe non può chiamarsi come il contenitore della slide.** La mappa

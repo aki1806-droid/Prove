@@ -1,11 +1,21 @@
 # Modulo 5 — Farmacologia e gestione sicura della terapia
 
 Otto micro-lezioni. La grafica di terza generazione (`slide/clinica.mjs`)
-qui mostra i meccanismi del farmaco: il vaso dell'ADME con le quattro
-stazioni, la curva che si dimezza a ogni emivita e l'accumulo a dente di
-sega fino allo steady state, la finestra terapeutica che si restringe, il
-recettore con l'agonista che cala nella tasca, l'albumina che tiene legato
-il farmaco.
+qui mostra i meccanismi del farmaco e gli strumenti del reparto: il vaso
+dell'ADME, la curva dell'emivita con l'accumulo fino allo steady state, la
+finestra terapeutica che si restringe, il recettore, il legame all'albumina
+(5.1); la sezione della cute con gli aghi all'angolo giusto, la tecnica a Z
+in tre quadri, le sedi che si accendono sulla sagoma (5.2); il calcolo
+scritto un segno per volta, la pausa con il cronometro, le due camere di
+gocciolamento (5.3); i profili delle insuline sulle ventiquattro ore (5.5);
+le curve tempo- e concentrazione-dipendenti, la sedazione che precede il
+respiro, il naloxone che dura meno dell'oppioide, la pagina del registro
+degli stupefacenti (5.6).
+
+Stato: 5.1–5.5 pubblicate. 5.6 è doppiata, tagliata e montata in locale,
+in attesa della verifica per trascrizione; 5.7 e 5.8 hanno copione, slide
+e registro, in attesa della voce: i crediti ElevenLabs si sono esauriti
+dopo la voce di 5.6.
 
 | | lezione | durata | resa |
 |---|---|---|---|

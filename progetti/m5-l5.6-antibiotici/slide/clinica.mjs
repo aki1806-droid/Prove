@@ -2083,7 +2083,7 @@ export const CORPI_CLINICA = {
       <line class="guida" x1="${xa}" y1="${num(yR(16))}" x2="${xb}" y2="${num(yR(16))}"/>
       <path class="fr" pathLength="1" d="${pR}"/>
       <text class="assetempo" x="${xb}" y="${num(yR(9) + 50)}" text-anchor="end">tempo →</text>
-      ${d.caso ? `<g class="segno"><circle cx="${num(X(1))}" cy="${num(yR(9))}" r="16"/><text x="${num(X(1)) - 34}" y="${num(yR(9) + 12)}" text-anchor="end">FR 9 · SpO₂ 90%</text></g>` : ''}
+      ${d.caso ? `<g class="segno"><circle cx="${num(X(1))}" cy="${num(yR(9))}" r="16"/><text x="${num(X(1) + 6)}" y="${num(yR(9) - 30)}" text-anchor="end">FR 9 · SpO₂ 90%</text></g>` : ''}
     </svg></div>`;
   },
 
