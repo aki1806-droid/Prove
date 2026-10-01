@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lezione ad altissima resa d'esame. Contiene una regola che vale da sola molte domande: l'ossigeno e' un farmaco, con una prescrizione, una dose e un obiettivo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E contiene i dispositivi, occhialini, maschere, Venturi, alti flussi, ventilazione non invasiva, che i quiz chiedono con numeri precisi. Chiudiamo con la tracheostomia e la broncoaspirazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due malattie ostruttive. La BPCO: ostruzione cronica, poco reversibile, causata soprattutto dal fumo; si aggrava nelle riacutizzazioni, spesso infettive."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E molti pazienti hanno un rischio di ipercapnia, cioe' di accumulo di anidride carbonica. L'asma: ostruzione reversibile, legata a un'infiammazione delle vie aeree."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di un attacco grave: non riesce a parlare in frasi complete, torace silenzioso perche' passa pochissima aria, cianosi, sonnolenza, esaurimento. Un asmatico che smette di sibilare puo' stare peggiorando."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre quadri acuti. La polmonite: febbre, tosse, espettorato, dolore pleurico, dispnea. Ma nell'anziano spesso si presenta solo con confusione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'embolia polmonare: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso conseguenza di una trombosi venosa profonda: il legame con la lezione tre punto due."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il versamento pleurico: liquido fra i foglietti pleurici, con dispnea e murmure ridotto, che si drena con la toracentesi."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La toracentesi, eseguita dal medico con l'assistenza infermieristica. La persona sta seduta, protesa in avanti con le braccia appoggiate su un tavolino, per allargare gli spazi intercostali."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano parametri, saturazione, tosse e dolore. La quantita' rimossa in una volta e' limitata: un drenaggio troppo rapido puo' causare un edema polmonare da riespansione. Dopo, radiografia di controllo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio fondamentale: l'ossigeno e' un farmaco. Si somministra su prescrizione, e la prescrizione indica un obiettivo di saturazione. Per la maggior parte delle persone il target e' novantaquattro-novantotto per cento."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei pazienti a rischio di ipercapnia, BPCO, obesita' grave, malattie neuromuscolari, il target e' ottantotto-novantadue per cento."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi il caso della lezione sei punto quattro: troppo ossigeno in un paziente ipercapnico puo' peggiorare l'acidosi respiratoria, fino al coma. Piu' ossigeno non e' sempre meglio."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I dispositivi. Gli occhialini nasali: flussi da uno a sei litri al minuto, con una FiO2 indicativa fra circa ventiquattro e quarantaquattro per cento. Una regola pratica e' circa quattro punti in piu' per ogni litro."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono comodi e permettono di parlare e mangiare, ma la FiO2 reale varia con il modo di respirare. Ai flussi piu' alti si usa l'umidificazione secondo procedura."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La maschera semplice: cinque-dieci litri al minuto, con una FiO2 circa del trentacinque-cinquantacinque per cento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola: mai sotto cinque litri, perche' con un flusso basso la persona rirespira la propria anidride carbonica rimasta nella maschera."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La maschera con reservoir, con un pallone di riserva: dieci-quindici litri al minuto, FiO2 fino a sessanta-novanta per cento, per la grave ipossiemia. Il pallone resta gonfio: se si affloscia, il flusso e' insufficiente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La maschera di Venturi: garantisce una FiO2 precisa e costante, indicativamente dal ventiquattro al sessanta per cento, indipendentemente da come respira la persona."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Funziona con valvole colorate intercambiabili: ogni valvola corrisponde a una FiO2, e su ogni valvola e' scritto il flusso da impostare sul flussimetro."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il dispositivo di scelta quando serve precisione, come nel paziente con BPCO a rischio di ipercapnia."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli alti flussi nasali: flussi fino a sessanta litri al minuto di gas riscaldato e umidificato, con una FiO2 regolabile dal ventuno al cento per cento."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Generano una lieve pressione positiva e lavano lo spazio morto delle vie aeree. Sono ben tollerati e si usano sempre piu' nell'insufficienza respiratoria acuta."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza. L'ossigeno alimenta la combustione: niente fiamme, niente fumo, niente grassi o creme oleose sui raccordi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Bombole fissate e verificate prima dei trasporti: un trasporto con una bombola vuota e' un evento avverso evitabile. E sorveglianza della cute sotto occhialini e maschere: sono sedi di lesioni da dispositivo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I limiti del saturimetro, domanda frequente. Lettura inaffidabile con perfusione ridotta, estremita' fredde, movimento, smalto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'intossicazione da monossido di carbonio la saturazione risulta falsamente normale, perche' lo strumento non distingue l'emoglobina legata al monossido."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'anemia grave la saturazione puo' essere normale anche se il sangue trasporta poco ossigeno. E la saturazione non misura l'anidride carbonica: un paziente ipercapnico puo' saturare bene."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ventilazione non invasiva. La CPAP applica una pressione positiva continua: si usa nell'edema polmonare acuto e nelle apnee ostruttive del sonno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La NIV a due livelli applica una pressione piu' alta in inspirazione e una piu' bassa in espirazione: e' il trattamento della riacutizzazione di BPCO con acidosi ipercapnica. Interfacce: maschera oronasale, facciale, casco."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza in NIV e' molto infermieristica. Spiegare e rassicurare: la maschera stretta sul volto da' senso di soffocamento, e una persona agitata non si adatta. Interfaccia della misura giusta, perdite contenute."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Protezione della cute, soprattutto sul dorso del naso, dove le lesioni da dispositivo sono frequentissime. Monitoraggio di frequenza respiratoria, saturazione, emogas e coscienza. Distensione gastrica e secchezza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i segni di fallimento, peggioramento della coscienza, dell'emogas, della fatica, vanno segnalati subito, perche' puo' servire l'intubazione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aerosolterapia. Persona seduta, boccaglio preferibile alla maschera, che deposita farmaco su volto e occhi. Respirazione lenta e profonda."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo i corticosteroidi, risciacquare la bocca: ricordi la candidosi della lezione cinque punto due. E pulizia e asciugatura dell'apparecchio, per non nebulizzare batteri."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tracheostomia. La cannula puo' essere cuffiata o no, fenestrata o no; molte hanno una controcannula interna, che si pulisce o si sostituisce secondo procedura per evitare l'occlusione da secrezioni."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cuffia si mantiene a una pressione di venti-trenta centimetri d'acqua, controllata con il manometro: troppo poco favorisce l'inalazione, troppo lede la trachea."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aria non passa piu' dal naso: serve umidificazione, con un naso artificiale. Al letto sempre una cannula di riserva, anche piu' piccola, un dilatatore e un aspiratore funzionante: se la cannula esce, non c'e' tempo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La broncoaspirazione. Si esegue quando serve, secrezioni udibili o visibili, desaturazione, non a orario, perche' ogni aspirazione irrita la mucosa e puo' causare ipossia. Preossigenazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tecnica sterile, o sistema chiuso. Catetere non piu' grande della meta' del diametro interno della cannula: la persona deve respirare intorno al catetere. Pressione indicativa ottanta-centocinquanta millimetri di mercurio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si aspira solo in risalita, ruotando il catetere, mai in discesa. Ogni passaggio non oltre dieci-quindici secondi. Niente fisiologica di routine. Si sorvegliano saturazione e frequenza: rischio di bradicardia vagale."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente con BPCO, saturazione ottantasei in aria, prescrizione di ossigeno con target ottantotto-novantadue. Quale dispositivo?"
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La maschera di Venturi a bassa FiO2, per esempio ventiquattro o ventotto per cento, che garantisce una concentrazione precisa; in alternativa gli occhialini a basso flusso, con stretto controllo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Poi rivaluti la saturazione, la coscienza e l'emogas. La risposta sbagliata e' la maschera con reservoir, per stare tranquilli."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto esistono unita' di terapia semi-intensiva respiratoria in cui la NIV e' gestita con un ruolo infermieristico centrale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ossigenoterapia domiciliare a lungo termine e' prescritta e fornita tramite il distretto, e i pazienti tracheostomizzati a domicilio sono seguiti con percorsi dedicati e addestramento del caregiver."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. L'ossigeno e' un farmaco. Target novantaquattro-novantotto, ipercapnici ottantotto-novantadue. Occhialini uno-sei litri; maschera semplice mai sotto cinque; reservoir dieci-quindici; Venturi: FiO2 precisa."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il monossido di carbonio la saturazione e' falsamente normale. Cuffia a venti-trenta. Aspirare solo in risalita, al massimo dieci-quindici secondi. [warm] Nella prossima lezione: diabete e malattie endocrine. A tra poco."
+ }
+]

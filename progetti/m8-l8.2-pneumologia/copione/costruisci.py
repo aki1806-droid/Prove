@@ -5,76 +5,77 @@ import json, re, sys
 # (capitolo, tema slide, posa in secondi, testo parlato)
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Apriamo il modulo dell'area medica, organizzato per apparati. Si comincia dal cuore, con tre temi che i concorsi chiedono sempre."),
- (1,"chiaro",0,"Lo scompenso cardiaco, il dolore toracico con le sindromi coronariche acute, e la lettura di base dell'ECG."),
- (1,"chiaro",0,"Non serve leggere un tracciato come un cardiologo: serve riconoscere i ritmi che richiedono un intervento immediato. Pochi, e si imparano guardandoli."),
+ (1,"chiaro",0,"[warm] Lezione ad altissima resa d'esame. Contiene una regola che vale da sola molte domande: l'ossigeno e' un farmaco, con una prescrizione, una dose e un obiettivo."),
+ (1,"chiaro",0,"E contiene i dispositivi, occhialini, maschere, Venturi, alti flussi, ventilazione non invasiva, che i quiz chiedono con numeri precisi. Chiudiamo con la tracheostomia e la broncoaspirazione."),
 
- (2,"chiaro",0,"Lo scompenso cardiaco: il cuore non riesce piu' a pompare una quantita' di sangue adeguata ai bisogni dell'organismo."),
- (2,"chiaro",0,"Se cede il ventricolo sinistro, il sangue ristagna nei polmoni: dispnea, ortopnea, la persona dorme con piu' cuscini, dispnea parossistica notturna, rantoli alle basi."),
- (2,"chiaro",0,"Se cede il destro, il ristagno e' sistemico: edemi declivi, turgore delle giugulari, fegato ingrandito, ascite. Spesso le due forme coesistono."),
+ (2,"chiaro",0,"Due malattie ostruttive. La BPCO: ostruzione cronica, poco reversibile, causata soprattutto dal fumo; si aggrava nelle riacutizzazioni, spesso infettive."),
+ (2,"chiaro",0,"E molti pazienti hanno un rischio di ipercapnia, cioe' di accumulo di anidride carbonica. L'asma: ostruzione reversibile, legata a un'infiammazione delle vie aeree."),
+ (2,"chiaro",0,"I segni di un attacco grave: non riesce a parlare in frasi complete, torace silenzioso perche' passa pochissima aria, cianosi, sonnolenza, esaurimento. Un asmatico che smette di sibilare puo' stare peggiorando."),
 
- (3,"chiaro",0,"La classificazione funzionale NYHA, in quattro classi, chiesta spesso. Classe uno: nessuna limitazione. Classe due: sintomi con l'attivita' ordinaria, come salire le scale."),
- (3,"chiaro",0,"Classe tre: sintomi con attivita' inferiori all'ordinaria, come vestirsi o camminare in casa. Classe quattro: sintomi anche a riposo. La classe e' una domanda sulla vita quotidiana, non un esame."),
+ (3,"chiaro",0,"Tre quadri acuti. La polmonite: febbre, tosse, espettorato, dolore pleurico, dispnea. Ma nell'anziano spesso si presenta solo con confusione."),
+ (3,"chiaro",0,"L'embolia polmonare: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso conseguenza di una trombosi venosa profonda: il legame con la lezione tre punto due."),
+ (3,"chiaro",0,"Il versamento pleurico: liquido fra i foglietti pleurici, con dispnea e murmure ridotto, che si drena con la toracentesi."),
 
- (4,"chiaro",0,"L'assistenza. Posizione semiseduta o seduta. Ossigeno se la saturazione e' bassa, secondo prescrizione. Peso quotidiano, il miglior indicatore dell'accumulo di liquidi, come nella lezione tre punto cinque."),
- (4,"chiaro",0,"Bilancio idrico e diuresi. Restrizione idrica se prescritta, dieta iposodica. Sorveglianza di potassio e creatinina con i diuretici. Riposo alternato ad attivita' graduale."),
+ (4,"chiaro",0,"La toracentesi, eseguita dal medico con l'assistenza infermieristica. La persona sta seduta, protesa in avanti con le braccia appoggiate su un tavolino, per allargare gli spazi intercostali."),
+ (4,"chiaro",0,"Si sorvegliano parametri, saturazione, tosse e dolore. La quantita' rimossa in una volta e' limitata: un drenaggio troppo rapido puo' causare un edema polmonare da riespansione. Dopo, radiografia di controllo."),
 
- (5,"chiaro",0,"L'educazione, che riduce davvero i ricoveri. Pesarsi ogni giorno, alla stessa ora, e contattare il medico se il peso aumenta rapidamente, indicativamente di un chilo e mezzo-due in due-tre giorni."),
- (5,"chiaro",0,"E' un accumulo di liquidi che anticipa i sintomi: la bilancia se ne accorge prima del respiro. Riconoscere la dispnea, gli edemi, il bisogno di piu' cuscini per dormire."),
- (5,"chiaro",0,"Aderenza alla terapia, poco sale, attivita' fisica regolare, vaccinazioni."),
+ (5,"chiaro",0,"Il principio fondamentale: l'ossigeno e' un farmaco. Si somministra su prescrizione, e la prescrizione indica un obiettivo di saturazione. Per la maggior parte delle persone il target e' novantaquattro-novantotto per cento."),
+ (5,"chiaro",0,"Nei pazienti a rischio di ipercapnia, BPCO, obesita' grave, malattie neuromuscolari, il target e' ottantotto-novantadue per cento."),
+ (5,"chiaro",0,"Ricordi il caso della lezione sei punto quattro: troppo ossigeno in un paziente ipercapnico puo' peggiorare l'acidosi respiratoria, fino al coma. Piu' ossigeno non e' sempre meglio."),
 
- (6,"chiaro",0,"Le sindromi coronariche acute. Il sintomo tipico: un dolore oppressivo dietro lo sterno, un peso sul petto, che si irradia al braccio sinistro, alla mandibola, al dorso o all'epigastrio. Dura piu' di venti minuti, con sudorazione, nausea, dispnea."),
- (6,"chiaro",0,"Ma attenzione alle presentazioni atipiche nelle donne, negli anziani e nei diabetici: solo dispnea, stanchezza, dolore epigastrico, o nessun dolore. Molti infarti vengono scambiati per una cattiva digestione."),
+ (6,"chiaro",0,"I dispositivi. Gli occhialini nasali: flussi da uno a sei litri al minuto, con una FiO2 indicativa fra circa ventiquattro e quarantaquattro per cento. Una regola pratica e' circa quattro punti in piu' per ogni litro."),
+ (6,"chiaro",0,"Sono comodi e permettono di parlare e mangiare, ma la FiO2 reale varia con il modo di respirare. Ai flussi piu' alti si usa l'umidificazione secondo procedura."),
 
- (7,"chiaro",0,"Due quadri. Lo STEMI, con sopraslivellamento del tratto ST all'ECG: una coronaria e' completamente occlusa, e il trattamento e' la riperfusione urgente, di norma con angioplastica primaria."),
- (7,"chiaro",0,"L'NSTEMI e l'angina instabile, senza sopraslivellamento. La diagnosi di danno miocardico si basa sulla troponina, che si ripete a intervalli secondo protocollo, perche' un primo valore normale non esclude l'infarto."),
+ (7,"chiaro",0,"La maschera semplice: cinque-dieci litri al minuto, con una FiO2 circa del trentacinque-cinquantacinque per cento."),
+ (7,"chiaro",0,"E la regola: mai sotto cinque litri, perche' con un flusso basso la persona rirespira la propria anidride carbonica rimasta nella maschera."),
+ (7,"chiaro",0,"La maschera con reservoir, con un pallone di riserva: dieci-quindici litri al minuto, FiO2 fino a sessanta-novanta per cento, per la grave ipossiemia. Il pallone resta gonfio: se si affloscia, il flusso e' insufficiente."),
 
- (8,"chiaro",0,"Che cosa fa l'infermiere davanti a un dolore toracico. ECG a dodici derivazioni entro dieci minuti dal primo contatto: e' il numero da ricordare."),
- (8,"chiaro",0,"Monitoraggio del ritmo, parametri e saturazione, accesso venoso, prelievi per la troponina. Riposo, rassicurazione."),
- (8,"chiaro",0,"Ossigeno solo se la saturazione e' bassa: un tempo si dava a tutti, oggi no. Farmaci secondo prescrizione o protocollo, e avviso immediato al medico. Il tempo e' muscolo cardiaco."),
+ (8,"chiaro",0,"La maschera di Venturi: garantisce una FiO2 precisa e costante, indicativamente dal ventiquattro al sessanta per cento, indipendentemente da come respira la persona."),
+ (8,"chiaro",0,"Funziona con valvole colorate intercambiabili: ogni valvola corrisponde a una FiO2, e su ogni valvola e' scritto il flusso da impostare sul flussimetro."),
+ (8,"chiaro",0,"E' il dispositivo di scelta quando serve precisione, come nel paziente con BPCO a rischio di ipercapnia."),
 
- (9,"chiaro",0,"Due farmaci del dolore toracico, con le loro cautele. I nitrati sono controindicati se la pressione e' bassa, nell'infarto del ventricolo destro e dopo i farmaci per la disfunzione erettile, come nella lezione cinque punto cinque."),
- (9,"chiaro",0,"L'acido acetilsalicilico si somministra secondo protocollo, se non ci sono controindicazioni come allergia o sanguinamento in atto."),
+ (9,"chiaro",0,"Gli alti flussi nasali: flussi fino a sessanta litri al minuto di gas riscaldato e umidificato, con una FiO2 regolabile dal ventuno al cento per cento."),
+ (9,"chiaro",0,"Generano una lieve pressione positiva e lavano lo spazio morto delle vie aeree. Sono ben tollerati e si usano sempre piu' nell'insufficienza respiratoria acuta."),
 
- (10,"chiaro",0,"L'ipertensione: valori pari o superiori a centoquaranta su novanta, in misurazioni ripetute. La tecnica di misurazione e' una domanda frequente: persona seduta da cinque minuti."),
- (10,"chiaro",0,"Bracciale della misura giusta, un bracciale piccolo su un braccio grande sovrastima la pressione, braccio all'altezza del cuore, almeno due misurazioni."),
- (10,"chiaro",0,"La crisi ipertensiva si distingue in urgenza, senza danno d'organo, ed emergenza, con danno d'organo: dolore toracico, deficit neurologici, edema polmonare, che richiede trattamento immediato."),
+ (10,"chiaro",0,"La sicurezza. L'ossigeno alimenta la combustione: niente fiamme, niente fumo, niente grassi o creme oleose sui raccordi."),
+ (10,"chiaro",0,"Bombole fissate e verificate prima dei trasporti: un trasporto con una bombola vuota e' un evento avverso evitabile. E sorveglianza della cute sotto occhialini e maschere: sono sedi di lesioni da dispositivo."),
 
- (11,"chiaro",0,"La lettura di base dell'ECG, in cinque domande. Uno: la frequenza, normale fra sessanta e cento. Il metodo piu' semplice: contare i complessi QRS in sei secondi e moltiplicare per dieci."),
- (11,"chiaro",0,"Oppure dividere trecento per il numero di quadrati grandi fra due onde R. Due: il ritmo e' regolare o irregolare? Tre: c'e' un'onda P prima di ogni QRS?"),
- (11,"chiaro",0,"Quattro: l'intervallo PR e' fra zero virgola dodici e zero virgola venti secondi? Cinque: il QRS e' stretto, sotto zero virgola dodici, o largo? Tutte risposte normali: e' un ritmo sinusale."),
+ (11,"chiaro",0,"I limiti del saturimetro, domanda frequente. Lettura inaffidabile con perfusione ridotta, estremita' fredde, movimento, smalto."),
+ (11,"chiaro",0,"Nell'intossicazione da monossido di carbonio la saturazione risulta falsamente normale, perche' lo strumento non distingue l'emoglobina legata al monossido."),
+ (11,"chiaro",0,"Nell'anemia grave la saturazione puo' essere normale anche se il sangue trasporta poco ossigeno. E la saturazione non misura l'anidride carbonica: un paziente ipercapnico puo' saturare bene."),
 
- (12,"chiaro",0,"I ritmi da riconoscere. La fibrillazione atriale, l'aritmia piu' frequente: ritmo irregolarmente irregolare, nessuna onda P, linea di base tremolante, QRS stretto."),
- (12,"chiaro",0,"Il rischio principale e' l'ictus, perche' nell'atrio che non si contrae si formano trombi: per questo molti pazienti sono in terapia anticoagulante, i farmaci della lezione cinque punto cinque."),
- (12,"chiaro",0,"Al polso si sente un battito irregolare, e la frequenza va misurata all'apice per un minuto: il polso radiale perde i battiti deboli, e conta meno di quanto il cuore batta."),
+ (12,"chiaro",0,"La ventilazione non invasiva. La CPAP applica una pressione positiva continua: si usa nell'edema polmonare acuto e nelle apnee ostruttive del sonno."),
+ (12,"chiaro",0,"La NIV a due livelli applica una pressione piu' alta in inspirazione e una piu' bassa in espirazione: e' il trattamento della riacutizzazione di BPCO con acidosi ipercapnica. Interfacce: maschera oronasale, facciale, casco."),
 
- (13,"chiaro",0,"I ritmi dell'arresto cardiaco. La tachicardia ventricolare: QRS larghi, regolari e rapidi; puo' avere il polso o no."),
- (13,"chiaro",0,"La fibrillazione ventricolare: un'attivita' caotica, senza QRS riconoscibili; e' un arresto cardiaco, ed e' defibrillabile."),
- (13,"chiaro",0,"L'asistolia: una linea piatta, prima di tutto si verificano cavi e derivazioni e si controlla il paziente; non e' defibrillabile. E l'attivita' elettrica senza polso: un tracciato organizzato in un paziente senza polso, non defibrillabile."),
- (13,"profondo",1.2,"[serious] Il principio, che vedremo nel modulo dieci: si guarda il paziente, non solo il monitor."),
+ (13,"chiaro",0,"L'assistenza in NIV e' molto infermieristica. Spiegare e rassicurare: la maschera stretta sul volto da' senso di soffocamento, e una persona agitata non si adatta. Interfaccia della misura giusta, perdite contenute."),
+ (13,"chiaro",0,"Protezione della cute, soprattutto sul dorso del naso, dove le lesioni da dispositivo sono frequentissime. Monitoraggio di frequenza respiratoria, saturazione, emogas e coscienza. Distensione gastrica e secchezza."),
+ (13,"chiaro",0,"E i segni di fallimento, peggioramento della coscienza, dell'emogas, della fatica, vanno segnalati subito, perche' puo' servire l'intubazione."),
 
- (14,"chiaro",0,"Le bradicardie. La bradicardia sinusale, sotto sessanta, spesso fisiologica negli sportivi o dovuta a farmaci come i beta-bloccanti."),
- (14,"chiaro",0,"E i blocchi atrioventricolari, in cui l'impulso fatica a passare dagli atri ai ventricoli: di primo grado, con un PR lungo; di secondo grado; di terzo grado, o completo: atri e ventricoli battono ognuno per conto proprio."),
- (14,"chiaro",0,"I sintomi: astenia, vertigini, sincope, ipotensione. Il blocco completo spesso richiede un pacemaker."),
+ (14,"chiaro",0,"L'aerosolterapia. Persona seduta, boccaglio preferibile alla maschera, che deposita farmaco su volto e occhi. Respirazione lenta e profonda."),
+ (14,"chiaro",0,"Dopo i corticosteroidi, risciacquare la bocca: ricordi la candidosi della lezione cinque punto due. E pulizia e asciugatura dell'apparecchio, per non nebulizzare batteri."),
 
- (15,"chiaro",0,"Il pacemaker. All'ECG si vede uno spike, un sottile tratto verticale, prima della P o del QRS. Dopo l'impianto: sorveglianza della ferita e dei segni di ematoma."),
- (15,"chiaro",0,"Per alcune settimane si limitano i movimenti ampi del braccio dal lato dell'impianto, per non spostare gli elettrodi."),
- (15,"chiaro",0,"La persona porta con se' la tessera del dispositivo, fa attenzione ai campi magnetici, e puo' fare una risonanza magnetica solo se il dispositivo e' compatibile e secondo protocollo."),
+ (15,"chiaro",0,"La tracheostomia. La cannula puo' essere cuffiata o no, fenestrata o no; molte hanno una controcannula interna, che si pulisce o si sostituisce secondo procedura per evitare l'occlusione da secrezioni."),
+ (15,"chiaro",0,"La cuffia si mantiene a una pressione di venti-trenta centimetri d'acqua, controllata con il manometro: troppo poco favorisce l'inalazione, troppo lede la trachea."),
+ (15,"chiaro",0,"L'aria non passa piu' dal naso: serve umidificazione, con un naso artificiale. Al letto sempre una cannula di riserva, anche piu' piccola, un dilatatore e un aspiratore funzionante: se la cannula esce, non c'e' tempo."),
 
- (16,"chiaro",0,"Il caso. Donna di settantadue anni, diabetica, da un'ora dolore epigastrico e nausea, ed e' sudata. Che cosa pensi? Una presentazione atipica di una sindrome coronarica acuta, finche' non si dimostra il contrario."),
- (16,"chiaro",0,"Che cosa fai? ECG entro dieci minuti, monitoraggio, parametri e saturazione, accesso venoso, prelievi, riposo, avviso immediato al medico."),
- (16,"chiaro",0,"E' solo una cattiva digestione e' la risposta che i concorsi costruiscono per farti sbagliare. Donna, anziana, diabetica: tre ragioni per non crederci."),
+ (16,"chiaro",0,"La broncoaspirazione. Si esegue quando serve, secrezioni udibili o visibili, desaturazione, non a orario, perche' ogni aspirazione irrita la mucosa e puo' causare ipossia. Preossigenazione."),
+ (16,"chiaro",0,"Tecnica sterile, o sistema chiuso. Catetere non piu' grande della meta' del diametro interno della cannula: la persona deve respirare intorno al catetere. Pressione indicativa ottanta-centocinquanta millimetri di mercurio."),
+ (16,"chiaro",0,"Si aspira solo in risalita, ruotando il catetere, mai in discesa. Ogni passaggio non oltre dieci-quindici secondi. Niente fisiologica di routine. Si sorvegliano saturazione e frequenza: rischio di bradicardia vagale."),
 
- (17,"chiaro",0,"In Veneto opera una rete per l'infarto acuto: il centodiciotto esegue l'ECG sul territorio, lo teletrasmette allo specialista e, in caso di STEMI, porta il paziente direttamente in emodinamica, saltando il pronto soccorso."),
- (17,"chiaro",0,"Esistono ambulatori dello scompenso e progetti di telemonitoraggio, sempre piu' legati all'infermiere di famiglia e comunita'. All'orale, la frase chiave e': la rete STEMI riduce il tempo alla riperfusione."),
+ (17,"chiaro",0,"Il caso. Paziente con BPCO, saturazione ottantasei in aria, prescrizione di ossigeno con target ottantotto-novantadue. Quale dispositivo?"),
+ (17,"chiaro",0,"La maschera di Venturi a bassa FiO2, per esempio ventiquattro o ventotto per cento, che garantisce una concentrazione precisa; in alternativa gli occhialini a basso flusso, con stretto controllo."),
+ (17,"profondo",1.2,"[serious] Poi rivaluti la saturazione, la coscienza e l'emogas. La risposta sbagliata e' la maschera con reservoir, per stare tranquilli."),
 
- (18,"chiaro",0,"Ricapitoliamo. Scompenso sinistro: polmone; destro: edemi. NYHA da uno a quattro. Peso quotidiano. Dolore toracico: ECG entro dieci minuti, ossigeno solo se la saturazione e' bassa. Attenzione alle presentazioni atipiche."),
- (18,"chiaro",0,"Fibrillazione atriale: irregolare, senza onde P, rischio di ictus. Fibrillazione ventricolare: defibrillabile. Asistolia: non defibrillabile. [warm] Nella prossima lezione: polmone e ossigenoterapia. A tra poco."),
+ (18,"chiaro",0,"In Veneto esistono unita' di terapia semi-intensiva respiratoria in cui la NIV e' gestita con un ruolo infermieristico centrale."),
+ (18,"chiaro",0,"L'ossigenoterapia domiciliare a lungo termine e' prescritta e fornita tramite il distretto, e i pazienti tracheostomizzati a domicilio sono seguiti con percorsi dedicati e addestramento del caregiver."),
+
+ (19,"chiaro",0,"Ricapitoliamo. L'ossigeno e' un farmaco. Target novantaquattro-novantotto, ipercapnici ottantotto-novantadue. Occhialini uno-sei litri; maschera semplice mai sotto cinque; reservoir dieci-quindici; Venturi: FiO2 precisa."),
+ (19,"chiaro",0,"Con il monossido di carbonio la saturazione e' falsamente normale. Cuffia a venti-trenta. Aspirare solo in risalita, al massimo dieci-quindici secondi. [warm] Nella prossima lezione: diabete e malattie endocrine. A tra poco."),
 ]
 
-CAPITOLI = {1:"Apertura",2:"Lo scompenso",3:"La NYHA",4:"L'assistenza",5:"L'educazione",6:"Il dolore toracico",7:"STEMI e NSTEMI",
- 8:"Che cosa fa l'infermiere",9:"Nitrati e aspirina",10:"L'ipertensione",11:"La lettura dell'ECG",12:"La fibrillazione atriale",
- 13:"I ritmi dell'arresto",14:"Le bradicardie",15:"Il pacemaker",16:"Il caso",17:"In Veneto",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"BPCO e asma",3:"Tre quadri acuti",4:"La toracentesi",5:"L'ossigeno e' un farmaco",6:"Gli occhialini",
+ 7:"Le maschere",8:"La Venturi",9:"Gli alti flussi",10:"La sicurezza",11:"I limiti del saturimetro",12:"CPAP e NIV",
+ 13:"L'assistenza in NIV",14:"L'aerosol",15:"La tracheostomia",16:"La broncoaspirazione",17:"Il caso",18:"In Veneto",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -1,0 +1,49 @@
+[warm] Il diabete e' una delle malattie croniche piu' diffuse, e in ospedale lo trovi in quasi ogni reparto, anche quando non e' il motivo del ricovero.
+
+I farmaci li abbiamo visti nella lezione cinque punto cinque; qui ci occupiamo della malattia, delle sue emergenze, chetoacidosi e stato iperosmolare, e dell'educazione, che e' la parte piu' infermieristica della cura.
+
+Due forme principali. Il tipo uno: autoimmune, il sistema immunitario distrugge le cellule che producono insulina, e la carenza e' assoluta.
+
+Esordisce spesso in eta' giovane, richiede insulina da subito, e la sua emergenza tipica e' la chetoacidosi.
+
+Il tipo due: c'e' insulino-resistenza con un deficit relativo; riguarda l'adulto, spesso in sovrappeso, con esordio lento e a lungo silente; la sua emergenza tipica e' lo stato iperosmolare.
+
+I criteri diagnostici. Glicemia a digiuno da centoventisei in su, confermata. Emoglobina glicata da sei virgola cinque per cento. Glicemia da duecento in su due ore dopo un carico orale di glucosio.
+
+Oppure una glicemia casuale da duecento in su con i sintomi tipici: poliuria, polidipsia, calo di peso. L'emoglobina glicata riflette la media glicemica degli ultimi due-tre mesi.
+
+La glicemia capillare, gesto quotidiano. Mani lavate con acqua e asciugate: residui di zucchero sulle dita falsano il valore. Si punge il lato del polpastrello, meno doloroso, ruotando le dita.
+
+Lo strumento e' controllato secondo procedura. Si registra l'orario e il rapporto con il pasto. E un valore anomalo e inatteso si ripete, guardando la persona: la glicemia e' un dato, non una diagnosi.
+
+I sensori per il monitoraggio continuo o flash sono sempre piu' diffusi, e molti pazienti arrivano in ospedale con il loro.
+
+Misurano il glucosio nel liquido interstiziale, non nel sangue, con un ritardo di circa dieci-quindici minuti rispetto alla glicemia capillare.
+
+Per questo in caso di ipoglicemia o di un valore discordante con i sintomi si conferma con la glicemia capillare. Il sensore racconta il passato prossimo, il dito racconta adesso.
+
+L'insulina in ospedale. Lo schema raccomandato e' il basal-bolus: un'insulina basale, una rapida ai pasti e una dose di correzione se la glicemia e' alta.
+
+L'uso della sola scala di correzione, senza basale, e' sconsigliato, perche' insegue la glicemia invece di prevenirla.
+
+Gli obiettivi in reparto, nella maggior parte dei pazienti, sono indicativamente fra centoquaranta e centottanta: ne' l'ipoglicemia del ricoverato, ne' la glicemia che bagna le ferite.
+
+E due regole pratiche: la rapida si coordina con il pasto, se il vassoio arriva in ritardo, si aspetta; e nel paziente a digiuno lo schema si rivede con il medico.
+
+L'ipoglicemia, che abbiamo visto nella lezione cinque punto cinque: sotto settanta, regola del quindici, e nell'incosciente niente per bocca, ma glucagone o glucosio endovena.
+
+Qui aggiungo un passo: cercare la causa. Pasto saltato, dose eccessiva, attivita' fisica, alcol, peggioramento della funzione renale, che rallenta l'eliminazione dell'insulina e delle sulfaniluree.
+
+Senza la causa, l'ipoglicemia si ripete: lo zucchero corregge il numero, la causa corregge il paziente.
+
+La chetoacidosi diabetica, tipica del tipo uno, a volte proprio al suo esordio. Senza insulina, l'organismo brucia i grassi e produce corpi chetonici, che sono acidi.
+
+Il quadro: glicemia elevata, acidosi metabolica e chetoni nel sangue e nelle urine.
+
+I segni: poliuria, sete, disidratazione, nausea, vomito, dolore addominale, che puo' simulare un addome acuto, il respiro di Kussmaul della lezione sei punto quattro, l'alito acetonico, e l'alterazione della coscienza.
+
+Il trattamento, che l'infermiere gestisce minuto per minuto. Liquidi, perche' la disidratazione e' grave. Insulina in infusione endovenosa continua, con pompa. E il punto che i concorsi chiedono: il potassio.
+
+L'insulina spinge il potassio dentro le cellule, quindi durante il trattamento il potassio plasmatico scende, anche se all'inizio sembrava normale o alto.
+
+Si controlla spesso e si reintegra, e l'insulina non si avvia se il potassio di partenza e' troppo basso, per il rischio di aritmie. Glicemia oraria, bilancio idrico, coscienza, emogas.

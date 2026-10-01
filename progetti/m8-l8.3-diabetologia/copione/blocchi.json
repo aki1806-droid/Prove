@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il diabete e' una delle malattie croniche piu' diffuse, e in ospedale lo trovi in quasi ogni reparto, anche quando non e' il motivo del ricovero."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci li abbiamo visti nella lezione cinque punto cinque; qui ci occupiamo della malattia, delle sue emergenze, chetoacidosi e stato iperosmolare, e dell'educazione, che e' la parte piu' infermieristica della cura."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due forme principali. Il tipo uno: autoimmune, il sistema immunitario distrugge le cellule che producono insulina, e la carenza e' assoluta."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esordisce spesso in eta' giovane, richiede insulina da subito, e la sua emergenza tipica e' la chetoacidosi."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tipo due: c'e' insulino-resistenza con un deficit relativo; riguarda l'adulto, spesso in sovrappeso, con esordio lento e a lungo silente; la sua emergenza tipica e' lo stato iperosmolare."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I criteri diagnostici. Glicemia a digiuno da centoventisei in su, confermata. Emoglobina glicata da sei virgola cinque per cento. Glicemia da duecento in su due ore dopo un carico orale di glucosio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oppure una glicemia casuale da duecento in su con i sintomi tipici: poliuria, polidipsia, calo di peso. L'emoglobina glicata riflette la media glicemica degli ultimi due-tre mesi."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La glicemia capillare, gesto quotidiano. Mani lavate con acqua e asciugate: residui di zucchero sulle dita falsano il valore. Si punge il lato del polpastrello, meno doloroso, ruotando le dita."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento e' controllato secondo procedura. Si registra l'orario e il rapporto con il pasto. E un valore anomalo e inatteso si ripete, guardando la persona: la glicemia e' un dato, non una diagnosi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I sensori per il monitoraggio continuo o flash sono sempre piu' diffusi, e molti pazienti arrivano in ospedale con il loro."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Misurano il glucosio nel liquido interstiziale, non nel sangue, con un ritardo di circa dieci-quindici minuti rispetto alla glicemia capillare."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo in caso di ipoglicemia o di un valore discordante con i sintomi si conferma con la glicemia capillare. Il sensore racconta il passato prossimo, il dito racconta adesso."
+ },
+ {
+  "id": "s14",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insulina in ospedale. Lo schema raccomandato e' il basal-bolus: un'insulina basale, una rapida ai pasti e una dose di correzione se la glicemia e' alta."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'uso della sola scala di correzione, senza basale, e' sconsigliato, perche' insegue la glicemia invece di prevenirla."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi in reparto, nella maggior parte dei pazienti, sono indicativamente fra centoquaranta e centottanta: ne' l'ipoglicemia del ricoverato, ne' la glicemia che bagna le ferite."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E due regole pratiche: la rapida si coordina con il pasto, se il vassoio arriva in ritardo, si aspetta; e nel paziente a digiuno lo schema si rivede con il medico."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipoglicemia, che abbiamo visto nella lezione cinque punto cinque: sotto settanta, regola del quindici, e nell'incosciente niente per bocca, ma glucagone o glucosio endovena."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui aggiungo un passo: cercare la causa. Pasto saltato, dose eccessiva, attivita' fisica, alcol, peggioramento della funzione renale, che rallenta l'eliminazione dell'insulina e delle sulfaniluree."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Senza la causa, l'ipoglicemia si ripete: lo zucchero corregge il numero, la causa corregge il paziente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chetoacidosi diabetica, tipica del tipo uno, a volte proprio al suo esordio. Senza insulina, l'organismo brucia i grassi e produce corpi chetonici, che sono acidi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro: glicemia elevata, acidosi metabolica e chetoni nel sangue e nelle urine."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni: poliuria, sete, disidratazione, nausea, vomito, dolore addominale, che puo' simulare un addome acuto, il respiro di Kussmaul della lezione sei punto quattro, l'alito acetonico, e l'alterazione della coscienza."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento, che l'infermiere gestisce minuto per minuto. Liquidi, perche' la disidratazione e' grave. Insulina in infusione endovenosa continua, con pompa. E il punto che i concorsi chiedono: il potassio."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insulina spinge il potassio dentro le cellule, quindi durante il trattamento il potassio plasmatico scende, anche se all'inizio sembrava normale o alto."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si controlla spesso e si reintegra, e l'insulina non si avvia se il potassio di partenza e' troppo basso, per il rischio di aritmie. Glicemia oraria, bilancio idrico, coscienza, emogas."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stato iperosmolare, tipico dell'anziano con diabete di tipo due. La glicemia e' molto elevata, spesso oltre seicento, il sangue diventa iperosmolare e la disidratazione e' grave, con la coscienza alterata fino al coma."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I chetoni sono assenti o modesti, quindi niente respiro di Kussmaul e niente alito acetonico. L'esordio e' lento, nell'arco di giorni, spesso in un anziano che beve poco o ha un'infezione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la mortalita' e' piu' alta di quella della chetoacidosi. Il trattamento si basa soprattutto sui liquidi, oltre all'insulina."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il confronto in una tabella. Chetoacidosi: tipo uno, glicemia sopra duecentocinquanta, acidosi e chetoni, Kussmaul e alito acetonico, esordio in ore."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stato iperosmolare: tipo due, glicemia sopra seicento, chetoni assenti o modesti, niente Kussmaul, esordio in giorni, disidratazione grave. Sei righe, e il quiz le incrocia."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione terapeutica, il cuore dell'assistenza al diabetico. Autocontrollo glicemico. Tecnica di iniezione e rotazione delle sedi. Riconoscere e trattare l'ipoglicemia."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le regole per i giorni di malattia, che molti ignorano: quando si ha febbre o non si mangia, non si sospende l'insulina basale, e' proprio cosi' che nasce la chetoacidosi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si misura piu' spesso, si beve, e si contatta il medico. Poi alimentazione, attivita' fisica, cura del piede come nella lezione sette punto tre, guida e lavoro. Sempre con il teach-back."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tiroide, in sintesi. L'ipotiroidismo rallenta tutto: astenia, intolleranza al freddo, bradicardia, stipsi, aumento di peso, cute secca."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipertiroidismo accelera tutto: tachicardia, a volte fibrillazione atriale, calo di peso, tremori, intolleranza al caldo, agitazione, e nel morbo di Graves l'esoftalmo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'indicazione pratica ricorrente: la levotiroxina si assume a digiuno, trenta-sessanta minuti prima della colazione, perche' il cibo ne riduce l'assorbimento."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il surrene, con un'implicazione che riguarda molti pazienti: chi assume corticosteroidi a lungo ha il surrene addormentato. Per questo la terapia non si sospende bruscamente, ma si riduce gradualmente."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nelle situazioni di stress, un intervento, un'infezione, puo' comparire una crisi surrenalica, con ipotensione, ipoglicemia, iponatriemia, fino allo shock."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E gli effetti dei corticosteroidi da sorvegliare: iperglicemia, ritenzione idrica, osteoporosi, infezioni, ritardo di guarigione delle ferite, come nella lezione sette punto uno."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Ragazzo di diciannove anni con diabete di tipo uno; da due giorni febbre e vomito, ha sospeso l'insulina perche' non mangiava; ora e' sonnolento, respira profondamente, alito fruttato. Che cosa pensi?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chetoacidosi, causata proprio dalla sospensione dell'insulina nei giorni di malattia. Che cosa fai? Glicemia, chetonemia, avviso immediato al medico, accesso venoso, prelievi ed emogas, monitoraggio."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E preparazione di liquidi e insulina in infusione, con controllo del potassio."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] E poi, a distanza, l'educazione alle regole dei giorni di malattia: l'emergenza di oggi e' la lezione che non e' stata fatta ieri."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto il diabete e' gestito con percorsi diagnostico-terapeutici che integrano i servizi di diabetologia e i medici di medicina generale, con educazione terapeutica strutturata, spesso affidata agli infermieri."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E fornitura dei dispositivi per l'autocontrollo tramite il distretto. E' il modello della gestione integrata della cronicita', che vedremo nel modulo tredici."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Tipo uno: chetoacidosi. Tipo due: stato iperosmolare. Diagnosi: digiuno da centoventisei, glicata da sei virgola cinque. Il sensore ha un ritardo di dieci-quindici minuti. In ospedale basal-bolus, target centoquaranta-centottanta."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chetoacidosi: liquidi, insulina endovena, e attenzione al potassio. Nei giorni di malattia non si sospende l'insulina. Levotiroxina a digiuno. Corticosteroidi: mai sospensione brusca."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: rene e vie urinarie. A tra poco."
+ }
+]
