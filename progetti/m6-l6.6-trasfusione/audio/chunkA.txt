@@ -1,0 +1,47 @@
+[warm] La trasfusione e' una delle terapie piu' sicure, quando la procedura e' rispettata, e una delle piu' pericolose, quando non lo e'.
+
+La reazione da incompatibilita' AB zero e' un evento sentinella, oggetto della Raccomandazione ministeriale numero cinque, e nasce quasi sempre da un errore di identificazione: del paziente, del campione, della sacca.
+
+Questa lezione e' costruita intorno a una regola: ogni passaggio di identificazione si fa al letto del paziente.
+
+Le basi. Il sistema AB zero distingue i gruppi A, B, AB e zero; il fattore Rh distingue positivo e negativo.
+
+Per le emazie, il donatore universale e' zero Rh negativo, perche' i suoi globuli rossi non hanno antigeni A, B ne' D; il ricevente universale e' AB Rh positivo.
+
+Per il plasma vale il contrario: il donatore universale e' AB, perche' il suo plasma non contiene anticorpi anti-A ne' anti-B. Questa inversione e' una domanda classica.
+
+Gli emocomponenti. Emazie concentrate, per l'anemia: nell'adulto un'unita' aumenta l'emoglobina di circa un grammo per decilitro. Piastrine, per la piastrinopenia con sanguinamento o rischio.
+
+Plasma fresco congelato, per i deficit dei fattori della coagulazione. Crioprecipitato, ricco di fibrinogeno.
+
+E una distinzione: i plasmaderivati, albumina, immunoglobuline, concentrati di fattori, sono prodotti industriali e si gestiscono come farmaci.
+
+La conservazione, dove nascono errori silenziosi. Le emazie stanno in frigoemoteca, fra due e sei gradi. Le piastrine a temperatura ambiente, venti-ventiquattro gradi, in agitazione continua: mai in frigorifero, che le danneggia.
+
+Il plasma e' congelato e si scongela subito prima dell'uso. In reparto non si conservano emocomponenti: non nel frigorifero dei farmaci, non vicino a fonti di calore.
+
+Il quadro normativo: la legge duecentodiciannove del duemilacinque sulle attivita' trasfusionali, e il decreto legislativo duecentosessantuno del duemilasette.
+
+Il decreto ministeriale del due novembre duemilaquindici sui requisiti di qualita' e sicurezza, e la Raccomandazione numero cinque. La trasfusione richiede un consenso informato specifico.
+
+E il rifiuto della persona capace, pensiamo ai Testimoni di Geova, va rispettato, come stabilisce la legge duecentodiciannove del duemiladiciassette: si documenta, si informa il medico, e si valutano le alternative.
+
+La richiesta e' compilata e firmata dal medico. Il prelievo per i test pre-trasfusionali e' il primo punto critico. Identificazione attiva del paziente al letto: nome, cognome, data di nascita detti da lui.
+
+Etichettatura della provetta al letto, davanti al paziente, mai prima, mai dopo in infermeria; firma di chi ha prelevato.
+
+E per la determinazione del gruppo la normativa richiede due campioni prelevati in momenti diversi, cosi' che un errore su uno dei due venga intercettato dal confronto.
+
+Al ritiro della sacca si verificano: integrita', aspetto del contenuto, niente coaguli, niente colore anomalo, scadenza, etichetta di compatibilita' e corrispondenza con il paziente.
+
+E la trasfusione va iniziata entro i tempi previsti dalla procedura dopo l'uscita della sacca dal servizio trasfusionale, perche' un'unita' di emazie fuori dal frigorifero non puo' restarci a lungo.
+
+Il momento cruciale: il doppio controllo al letto del paziente, eseguito da due operatori secondo la procedura aziendale. Non in infermeria, non al bancone: al letto.
+
+Si esegue l'identificazione attiva, si controlla il braccialetto, e si confrontano i dati del paziente con la richiesta, con l'etichetta di assegnazione e con l'etichetta della sacca: gruppo, Rh, numero dell'unita', scadenza.
+
+[serious] Entrambi gli operatori firmano. Le reazioni AB zero nascono quasi tutte da un controllo fatto lontano dal paziente.
+
+Il materiale. Un deflussore specifico con filtro, da centosettanta-duecento micron, che trattiene microaggregati e coaguli. Un accesso venoso adeguato.
+
+E la regola della compatibilita': con il sangue va solo la fisiologica allo zero virgola nove per cento. Mai la glucosata, che provoca emolisi; mai il Ringer, il cui calcio fa coagulare la linea; mai farmaci in linea.

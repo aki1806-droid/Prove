@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La trasfusione e' una delle terapie piu' sicure, quando la procedura e' rispettata, e una delle piu' pericolose, quando non lo e'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La reazione da incompatibilita' AB zero e' un evento sentinella, oggetto della Raccomandazione ministeriale numero cinque, e nasce quasi sempre da un errore di identificazione: del paziente, del campione, della sacca."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa lezione e' costruita intorno a una regola: ogni passaggio di identificazione si fa al letto del paziente."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le basi. Il sistema AB zero distingue i gruppi A, B, AB e zero; il fattore Rh distingue positivo e negativo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le emazie, il donatore universale e' zero Rh negativo, perche' i suoi globuli rossi non hanno antigeni A, B ne' D; il ricevente universale e' AB Rh positivo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il plasma vale il contrario: il donatore universale e' AB, perche' il suo plasma non contiene anticorpi anti-A ne' anti-B. Questa inversione e' una domanda classica."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli emocomponenti. Emazie concentrate, per l'anemia: nell'adulto un'unita' aumenta l'emoglobina di circa un grammo per decilitro. Piastrine, per la piastrinopenia con sanguinamento o rischio."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Plasma fresco congelato, per i deficit dei fattori della coagulazione. Crioprecipitato, ricco di fibrinogeno."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una distinzione: i plasmaderivati, albumina, immunoglobuline, concentrati di fattori, sono prodotti industriali e si gestiscono come farmaci."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La conservazione, dove nascono errori silenziosi. Le emazie stanno in frigoemoteca, fra due e sei gradi. Le piastrine a temperatura ambiente, venti-ventiquattro gradi, in agitazione continua: mai in frigorifero, che le danneggia."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il plasma e' congelato e si scongela subito prima dell'uso. In reparto non si conservano emocomponenti: non nel frigorifero dei farmaci, non vicino a fonti di calore."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il quadro normativo: la legge duecentodiciannove del duemilacinque sulle attivita' trasfusionali, e il decreto legislativo duecentosessantuno del duemilasette."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il decreto ministeriale del due novembre duemilaquindici sui requisiti di qualita' e sicurezza, e la Raccomandazione numero cinque. La trasfusione richiede un consenso informato specifico."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il rifiuto della persona capace, pensiamo ai Testimoni di Geova, va rispettato, come stabilisce la legge duecentodiciannove del duemiladiciassette: si documenta, si informa il medico, e si valutano le alternative."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La richiesta e' compilata e firmata dal medico. Il prelievo per i test pre-trasfusionali e' il primo punto critico. Identificazione attiva del paziente al letto: nome, cognome, data di nascita detti da lui."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Etichettatura della provetta al letto, davanti al paziente, mai prima, mai dopo in infermeria; firma di chi ha prelevato."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E per la determinazione del gruppo la normativa richiede due campioni prelevati in momenti diversi, cosi' che un errore su uno dei due venga intercettato dal confronto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al ritiro della sacca si verificano: integrita', aspetto del contenuto, niente coaguli, niente colore anomalo, scadenza, etichetta di compatibilita' e corrispondenza con il paziente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la trasfusione va iniziata entro i tempi previsti dalla procedura dopo l'uscita della sacca dal servizio trasfusionale, perche' un'unita' di emazie fuori dal frigorifero non puo' restarci a lungo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il momento cruciale: il doppio controllo al letto del paziente, eseguito da due operatori secondo la procedura aziendale. Non in infermeria, non al bancone: al letto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue l'identificazione attiva, si controlla il braccialetto, e si confrontano i dati del paziente con la richiesta, con l'etichetta di assegnazione e con l'etichetta della sacca: gruppo, Rh, numero dell'unita', scadenza."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Entrambi gli operatori firmano. Le reazioni AB zero nascono quasi tutte da un controllo fatto lontano dal paziente."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il materiale. Un deflussore specifico con filtro, da centosettanta-duecento micron, che trattiene microaggregati e coaguli. Un accesso venoso adeguato."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la regola della compatibilita': con il sangue va solo la fisiologica allo zero virgola nove per cento. Mai la glucosata, che provoca emolisi; mai il Ringer, il cui calcio fa coagulare la linea; mai farmaci in linea."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'avvio. Si rilevano i parametri vitali prima di iniziare. I primi quindici minuti si infonde lentamente, con l'infermiere presente o nelle immediate vicinanze."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' le reazioni piu' gravi compaiono proprio nei primi minuti e con piccoli volumi. Dopo quindici minuti si rilevano di nuovo i parametri, poi secondo procedura e alla fine."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'unita' di emazie si completa entro quattro ore dall'uscita dalla conservazione; piastrine e plasma si infondono subito e piu' rapidamente."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le reazioni acute. La piu' grave e' la emolitica acuta da incompatibilita' AB zero: febbre, brividi, dolore lombare o toracico, ipotensione, urine scure, e spesso un senso di morte imminente riferito dalla persona."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la febbrile non emolitica, la piu' frequente e benigna. L'allergica, dall'orticaria fino all'anafilassi. Il TACO, sovraccarico circolatorio, nell'anziano e nel cardiopatico."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TRALI, danno polmonare acuto con insufficienza respiratoria entro sei ore. E la contaminazione batterica, con quadro settico."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Davanti a una sospetta reazione, la sequenza. Uno: fermare subito la trasfusione. Due: mantenere l'accesso venoso con fisiologica, collegata con un deflussore nuovo, per non infondere altro sangue rimasto nella linea."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: parametri vitali. Quattro: avvisare il medico. Cinque: ricontrollare l'identita' del paziente e i dati della sacca, per scoprire subito un eventuale errore."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E verificare che lo stesso errore non abbia coinvolto un altro paziente. Sei: inviare sacca, deflussore e campioni al trasfusionale, senza buttare nulla. Sette: le urine. Otto: documentare e segnalare all'emovigilanza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le reazioni tardive, che compaiono giorni o mesi dopo: emolisi ritardata, infezioni trasmesse, oggi molto rare grazie ai test, alloimmunizzazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sovraccarico di ferro nei pazienti politrasfusi, e la rara malattia del trapianto contro l'ospite, prevenuta con l'irradiazione degli emocomponenti nei pazienti a rischio."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tracciabilita'. In cartella si registrano il numero dell'unita', gli orari di inizio e fine, i parametri, eventuali reazioni e gli operatori."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al trasfusionale si restituisce l'attestazione di avvenuta trasfusione, che chiude il circuito: ogni unita' di sangue e' tracciata dal donatore al ricevente. Le reazioni confluiscono nel sistema nazionale di emovigilanza."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una regola organizzativa nata dagli errori reali: non si ritirano ne' si preparano contemporaneamente sacche destinate a pazienti diversi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un paziente, una sacca, un doppio controllo alla volta. Gli scambi di sacca avvengono quasi sempre quando due trasfusioni sono state gestite insieme."
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Dopo dieci minuti dall'inizio della trasfusione il paziente riferisce dolore lombare, e' agitato, ha brividi, pressione ottantacinque su cinquanta. Che cosa pensi? Reazione emolitica acuta, probabile AB zero."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? La sequenza: fermi subito, mantieni l'accesso con fisiologica e deflussore nuovo, parametri, chiami il medico, ricontrolli identita' e sacca, invii tutto al trasfusionale, raccogli le urine, documenti e segnali."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E verifichi che non ci sia un altro paziente che sta ricevendo la sacca destinata a questo: e' un'emergenza, e puo' essere doppia."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto i servizi trasfusionali aziendali operano in un coordinamento regionale delle attivita' trasfusionali. Ogni azienda ha una procedura sulla sicurezza trasfusionale che definisce chi esegue il doppio controllo e come."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In alcune realta' si usano sistemi elettronici di identificazione al letto, con braccialetto e lettura ottica. All'orale, la frase chiave e': doppio controllo al letto del paziente."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella da fotografare. Emazie a due-sei gradi, completate entro quattro ore. Piastrine a venti-ventiquattro gradi in agitazione, mai in frigo. Plasma scongelato al momento."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Solo fisiologica, filtro, primi quindici minuti lenti e sorvegliati. Donatore universale di emazie zero negativo; di plasma AB."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo con la regola che tiene insieme tutta la lezione: ogni identificazione si fa al letto del paziente. Provetta etichettata davanti al paziente. Due campioni per il gruppo. Doppio controllo al letto."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E davanti a una reazione: fermare, mantenere l'accesso, ricontrollare, inviare tutto al trasfusionale. Nella prossima lezione: i prelievi e la fase preanalitica. A tra poco."
+ }
+]

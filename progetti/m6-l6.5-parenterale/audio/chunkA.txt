@@ -1,0 +1,45 @@
+[warm] Nella lezione tre punto quattro abbiamo stabilito un principio: se l'intestino funziona, si usa l'intestino.
+
+La nutrizione parenterale e' cio' che si fa quando l'intestino non puo' essere usato, o non basta. E' una terapia potente e complessa, con rischi infettivi e metabolici precisi.
+
+E la sua sicurezza dipende in larga parte dalla gestione infermieristica: la via, la sacca, la pompa, il monitoraggio.
+
+Le indicazioni. Un intestino non utilizzabile: occlusione, ileo prolungato, ischemia, fistole ad alta portata, intestino corto, mucosite grave.
+
+Oppure una nutrizione enterale insufficiente: la parenterale si aggiunge. E il contrario: se l'intestino funziona, la parenterale non e' indicata: meno fisiologica, piu' costosa, piu' rischiosa.
+
+Due modalita'. La parenterale centrale usa sacche con osmolarita' superiore a circa novecento milliosmoli, che solo un vaso di grosso calibro tollera: richiede un CVC o un PICC, con un lume dedicato.
+
+La parenterale periferica usa sacche meno concentrate, sotto i novecento, per periodi brevi, attraverso una vena periferica o un Midline, con le attenzioni alla flebite della lezione sei punto uno.
+
+La regola: la via la decide l'osmolarita' della sacca, scritta in etichetta. Prima di collegare, si legge.
+
+Ricordi il Midline della lezione sei punto due: mai una sacca centrale in un Midline. La punta e' periferica, e novecento milliosmoli in una vena periferica sono una flebite chimica.
+
+Le sacche. Binarie, con glucosio e aminoacidi; ternarie, o tre in uno, con anche i lipidi, l'emulsione bianca che vedremo fra poco.
+
+Possono essere industriali, spesso multicamera, che si attivano rompendo i setti fra le camere subito prima dell'uso: se dimenticato, si infonde una sola componente, per esempio solo glucosio.
+
+Oppure allestite in farmacia su misura. Le vitamine e gli oligoelementi si aggiungono secondo procedura, in condizioni asettiche, di norma non in reparto.
+
+Prima di collegare, i controlli. Prescrizione, paziente, composizione, via prevista, scadenza. Integrita' della sacca. Setti rotti e contenuto miscelato. Le sette G, per una sacca che vale un farmaco ad alto rischio.
+
+E l'aspetto dell'emulsione lipidica. Un leggero affioramento biancastro omogeneo, che si rimescola capovolgendo la sacca, e' accettabile.
+
+La comparsa di gocce d'olio o di uno strato giallastro separato indica la rottura dell'emulsione, e la sacca non si usa: i lipidi non piu' emulsionati sono un rischio embolico.
+
+E' un controllo a occhio, e vale quanto quelli sull'etichetta: una sacca rotta e' una sacca da restituire alla farmacia, non da provare.
+
+La somministrazione. Sempre con pompa volumetrica. Su un lume dedicato: niente farmaci, niente prelievi da quel lume, perche' ogni accesso e' un rischio di contaminazione e di incompatibilita'.
+
+Filtro secondo procedura. Il deflussore si cambia ogni ventiquattro ore se la sacca contiene lipidi: i lipidi, ricordi, favoriscono la crescita batterica.
+
+La sacca si infonde nel tempo previsto, di solito entro ventiquattro ore dall'apertura. E la linea si etichetta: nutrizione parenterale, data e ora di apertura.
+
+Una regola specifica della parenterale: la gradualita'. Si avvia a velocita' ridotta e si aumenta secondo prescrizione, nell'arco di ore o giorni secondo il rischio della persona.
+
+[serious] E non si interrompe bruscamente: l'organismo ha aumentato l'insulina in risposta al glucosio continuo, e se il glucosio si ferma di colpo si rischia un'ipoglicemia di rimbalzo.
+
+Se la sacca finisce prima della successiva o l'infusione si interrompe, si segue la procedura, spesso una glucosata, e si controlla la glicemia.
+
+E se l'infusione e' in ritardo, non si accelera per recuperare: il glucosio in piu' all'ora e' iperglicemia, non recupero.
