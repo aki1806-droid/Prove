@@ -1,0 +1,45 @@
+La lettura di base dell'ECG, in cinque domande. Uno: la frequenza, normale fra sessanta e cento. Il metodo piu' semplice: contare i complessi QRS in sei secondi e moltiplicare per dieci.
+
+Oppure dividere trecento per il numero di quadrati grandi fra due onde R. Due: il ritmo e' regolare o irregolare? Tre: c'e' un'onda P prima di ogni QRS?
+
+Quattro: l'intervallo PR e' fra zero virgola dodici e zero virgola venti secondi? Cinque: il QRS e' stretto, sotto zero virgola dodici, o largo? Tutte risposte normali: e' un ritmo sinusale.
+
+I ritmi da riconoscere. La fibrillazione atriale, l'aritmia piu' frequente: ritmo irregolarmente irregolare, nessuna onda P, linea di base tremolante, QRS stretto.
+
+Il rischio principale e' l'ictus, perche' nell'atrio che non si contrae si formano trombi: per questo molti pazienti sono in terapia anticoagulante, i farmaci della lezione cinque punto cinque.
+
+Al polso si sente un battito irregolare, e la frequenza va misurata all'apice per un minuto: il polso radiale perde i battiti deboli, e conta meno di quanto il cuore batta.
+
+I ritmi dell'arresto cardiaco. La tachicardia ventricolare: QRS larghi, regolari e rapidi; puo' avere il polso o no.
+
+La fibrillazione ventricolare: un'attivita' caotica, senza QRS riconoscibili; e' un arresto cardiaco, ed e' defibrillabile.
+
+L'asistolia: una linea piatta, prima si verificano cavi e derivazioni e si controlla il paziente; non e' defibrillabile. E l'attivita' elettrica senza polso: tracciato organizzato, paziente senza polso, non defibrillabile.
+
+[serious] Il principio, che vedremo nel modulo dieci: si guarda il paziente, non solo il monitor.
+
+Le bradicardie. La bradicardia sinusale, sotto sessanta, spesso fisiologica negli sportivi o dovuta a farmaci come i beta-bloccanti.
+
+E i blocchi atrioventricolari, in cui l'impulso fatica a passare dagli atri ai ventricoli: di primo grado, con un PR lungo; di secondo grado; di terzo grado, o completo: atri e ventricoli battono ognuno per conto proprio.
+
+I sintomi: astenia, vertigini, sincope, ipotensione. Il blocco completo spesso richiede un pacemaker.
+
+Il pacemaker. All'ECG si vede uno spike, un sottile tratto verticale, prima della P o del QRS. Dopo l'impianto: sorveglianza della ferita e dei segni di ematoma.
+
+Per alcune settimane si limitano i movimenti ampi del braccio dal lato dell'impianto, per non spostare gli elettrodi.
+
+La persona porta con se' la tessera del dispositivo, fa attenzione ai campi magnetici, e puo' fare una risonanza magnetica solo se il dispositivo e' compatibile e secondo protocollo.
+
+Il caso. Donna di settantadue anni, diabetica, da un'ora dolore epigastrico e nausea, ed e' sudata. Che cosa pensi? Una presentazione atipica di una sindrome coronarica acuta, finche' non si dimostra il contrario.
+
+Che cosa fai? ECG entro dieci minuti, monitoraggio, parametri e saturazione, accesso venoso, prelievi, riposo, avviso immediato al medico.
+
+E' solo una cattiva digestione e' la risposta che i concorsi costruiscono per farti sbagliare. Donna, anziana, diabetica: tre ragioni per non crederci.
+
+In Veneto opera una rete per l'infarto acuto: il centodiciotto esegue l'ECG sul territorio, lo teletrasmette allo specialista e, in caso di STEMI, porta il paziente direttamente in emodinamica, saltando il pronto soccorso.
+
+Esistono ambulatori dello scompenso e progetti di telemonitoraggio, sempre piu' legati all'infermiere di famiglia e comunita'. All'orale, la frase chiave e': la rete STEMI riduce il tempo alla riperfusione.
+
+Ricapitoliamo. Scompenso sinistro: polmone; destro: edemi. NYHA da uno a quattro. Peso quotidiano. Dolore toracico: ECG entro dieci minuti, ossigeno solo se la saturazione e' bassa. Attenzione alle presentazioni atipiche.
+
+Fibrillazione atriale: irregolare, senza onde P, rischio di ictus. Fibrillazione ventricolare: defibrillabile. Asistolia: non defibrillabile. [warm] Nella prossima lezione: polmone e ossigenoterapia. A tra poco.

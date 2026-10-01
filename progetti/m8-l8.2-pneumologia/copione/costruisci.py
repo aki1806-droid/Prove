@@ -23,7 +23,7 @@ BLOCCHI = [
  (5,"chiaro",0,"E' un accumulo di liquidi che anticipa i sintomi: la bilancia se ne accorge prima del respiro. Riconoscere la dispnea, gli edemi, il bisogno di piu' cuscini per dormire."),
  (5,"chiaro",0,"Aderenza alla terapia, poco sale, attivita' fisica regolare, vaccinazioni."),
 
- (6,"chiaro",0,"Le sindromi coronariche acute. Il sintomo tipico: un dolore oppressivo dietro lo sterno, un peso sul petto, irradiato a braccio sinistro, mandibola, dorso o epigastrio. Dura piu' di venti minuti, con sudore, nausea, dispnea."),
+ (6,"chiaro",0,"Le sindromi coronariche acute. Il sintomo tipico: un dolore oppressivo dietro lo sterno, un peso sul petto, che si irradia al braccio sinistro, alla mandibola, al dorso o all'epigastrio. Dura piu' di venti minuti, con sudorazione, nausea, dispnea."),
  (6,"chiaro",0,"Ma attenzione alle presentazioni atipiche nelle donne, negli anziani e nei diabetici: solo dispnea, stanchezza, dolore epigastrico, o nessun dolore. Molti infarti vengono scambiati per una cattiva digestione."),
 
  (7,"chiaro",0,"Due quadri. Lo STEMI, con sopraslivellamento del tratto ST all'ECG: una coronaria e' completamente occlusa, e il trattamento e' la riperfusione urgente, di norma con angioplastica primaria."),
@@ -33,7 +33,7 @@ BLOCCHI = [
  (8,"chiaro",0,"Monitoraggio del ritmo, parametri e saturazione, accesso venoso, prelievi per la troponina. Riposo, rassicurazione."),
  (8,"chiaro",0,"Ossigeno solo se la saturazione e' bassa: un tempo si dava a tutti, oggi no. Farmaci secondo prescrizione o protocollo, e avviso immediato al medico. Il tempo e' muscolo cardiaco."),
 
- (9,"chiaro",0,"Due farmaci del dolore toracico, con le loro cautele. I nitrati sono controindicati se la pressione e' bassa, nell'infarto del ventricolo destro e dopo i farmaci per la disfunzione erettile: lezione cinque punto cinque."),
+ (9,"chiaro",0,"Due farmaci del dolore toracico, con le loro cautele. I nitrati sono controindicati se la pressione e' bassa, nell'infarto del ventricolo destro e dopo i farmaci per la disfunzione erettile, come nella lezione cinque punto cinque."),
  (9,"chiaro",0,"L'acido acetilsalicilico si somministra secondo protocollo, se non ci sono controindicazioni come allergia o sanguinamento in atto."),
 
  (10,"chiaro",0,"L'ipertensione: valori pari o superiori a centoquaranta su novanta, in misurazioni ripetute. La tecnica di misurazione e' una domanda frequente: persona seduta da cinque minuti."),
@@ -50,7 +50,7 @@ BLOCCHI = [
 
  (13,"chiaro",0,"I ritmi dell'arresto cardiaco. La tachicardia ventricolare: QRS larghi, regolari e rapidi; puo' avere il polso o no."),
  (13,"chiaro",0,"La fibrillazione ventricolare: un'attivita' caotica, senza QRS riconoscibili; e' un arresto cardiaco, ed e' defibrillabile."),
- (13,"chiaro",0,"L'asistolia: una linea piatta, prima si verificano cavi e derivazioni e si controlla il paziente; non e' defibrillabile. E l'attivita' elettrica senza polso: tracciato organizzato, paziente senza polso, non defibrillabile."),
+ (13,"chiaro",0,"L'asistolia: una linea piatta, prima di tutto si verificano cavi e derivazioni e si controlla il paziente; non e' defibrillabile. E l'attivita' elettrica senza polso: un tracciato organizzato in un paziente senza polso, non defibrillabile."),
  (13,"profondo",1.2,"[serious] Il principio, che vedremo nel modulo dieci: si guarda il paziente, non solo il monitor."),
 
  (14,"chiaro",0,"Le bradicardie. La bradicardia sinusale, sotto sessanta, spesso fisiologica negli sportivi o dovuta a farmaci come i beta-bloccanti."),
