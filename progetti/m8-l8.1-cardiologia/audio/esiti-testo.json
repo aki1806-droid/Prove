@@ -1,0 +1,63 @@
+{
+ "A": {
+  "parole_copione": 616,
+  "parole_dette": 620,
+  "coincidenti": 606,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "cede il",
+    "detto": "c e del"
+   },
+   {
+    "blocco": "s07",
+    "copione": "cede il",
+    "detto": "c e del"
+   },
+   {
+    "blocco": "s10",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s12",
+    "copione": "1 chilovirgola5",
+    "detto": "1virgola5 kg"
+   },
+   {
+    "blocco": "s12",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "a"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 597,
+  "parole_dette": 597,
+  "coincidenti": 595,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

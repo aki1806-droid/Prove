@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 650,
+  "parole_dette": 648,
+  "coincidenti": 643,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s11",
+    "copione": "siero ematico",
+    "detto": "sieroematico"
+   },
+   {
+    "blocco": "s12",
+    "copione": "siero ematico",
+    "detto": "sieroematico"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 587,
+  "parole_dette": 588,
+  "coincidenti": 579,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "clampa",
+    "detto": "clampe"
+   },
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

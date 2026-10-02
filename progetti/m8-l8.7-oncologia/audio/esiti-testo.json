@@ -1,0 +1,104 @@
+{
+ "A": {
+  "parole_copione": 546,
+  "parole_dette": 549,
+  "coincidenti": 536,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "50000",
+    "detto": "50 000"
+   },
+   {
+    "blocco": "s22",
+    "copione": "10000 20000",
+    "detto": "10 000 20 000"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 606,
+  "parole_dette": 607,
+  "coincidenti": 595,
+  "buchi": [
+   {
+    "blocco": "s36",
+    "parole_copione": "psico oncologia e",
+    "al_loro_posto": "psiconcologia ee"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "di cachessia",
+    "detto": "dica che sia"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "brachiterapia",
+    "detto": "brachi terapia"
+   },
+   {
+    "blocco": "s48",
+    "copione": "50000",
+    "detto": "50mila"
+   },
+   {
+    "blocco": "s48",
+    "copione": "20000",
+    "detto": "20mila"
+   }
+  ]
+ }
+}

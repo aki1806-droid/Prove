@@ -1,0 +1,98 @@
+{
+ "A": {
+  "parole_copione": 596,
+  "parole_dette": 592,
+  "coincidenti": 579,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "artero venosa",
+    "detto": "arterovenosa"
+   },
+   {
+    "blocco": "s05",
+    "copione": "prerenali",
+    "detto": "pre renali"
+   },
+   {
+    "blocco": "s06",
+    "copione": "postrenali",
+    "detto": "post renali"
+   },
+   {
+    "blocco": "s07",
+    "copione": "millilitro",
+    "detto": "millimetro"
+   },
+   {
+    "blocco": "s10",
+    "copione": "g 1",
+    "detto": "g1"
+   },
+   {
+    "blocco": "s10",
+    "copione": "g 5",
+    "detto": "g5"
+   },
+   {
+    "blocco": "s11",
+    "copione": "g 5",
+    "detto": "g5"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "artero venosa",
+    "detto": "arterovenosa"
+   },
+   {
+    "blocco": "s17",
+    "copione": "tunnellizzato",
+    "detto": "tunnelizzato"
+   },
+   {
+    "blocco": "s18",
+    "copione": "artero venosa",
+    "detto": "arterovenosa"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 656,
+  "parole_dette": 656,
+  "coincidenti": 651,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "1",
+    "detto": "una"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s41",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

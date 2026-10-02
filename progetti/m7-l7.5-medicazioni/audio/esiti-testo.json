@@ -1,0 +1,63 @@
+{
+ "A": {
+  "parole_copione": 567,
+  "parole_dette": 566,
+  "coincidenti": 561,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s10",
+    "copione": "essudante",
+    "detto": "sudante"
+   },
+   {
+    "blocco": "s18",
+    "copione": "esse",
+    "detto": "essi"
+   },
+   {
+    "blocco": "s23",
+    "copione": "risolta",
+    "detto": "irrisolta"
+   },
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 567,
+  "parole_dette": 565,
+  "coincidenti": 561,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

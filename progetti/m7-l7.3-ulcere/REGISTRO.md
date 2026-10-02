@@ -29,6 +29,8 @@ Nessuna illustrazione nuova.
 | voce | GianP — News Info and Documentary, `eleven_v3` |
 | costo voce | $1,31 (A $0,64 · B $0,67) |
 | costo trascrizioni | $0,49 |
+| costo voce | $1,31 (A $0,64 · B $0,67) |
+| costo trascrizioni | $0,49 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s41) |
@@ -37,6 +39,8 @@ Nessuna illustrazione nuova.
 CARATTERI  7.871          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:58     (MIRA 16,3: circa 8:20)
 stacco tracce             dopo s24   (chunk A 3.883 car · chunk B 3.988 car)
+tracce grezze             A 252.7 s  ·  B 285.2 s
+silenzi                   fattore 1,070   ->   atempo 1,041
 tracce grezze             A 252.7 s  ·  B 285.2 s
 silenzi                   fattore 1,070   ->   atempo 1,041
 ```
@@ -70,6 +74,20 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 **0/590 parole**, la B **1/615**, nessun buco. Le rese diverse
 (non buchi): nessuna.
 
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**582/590 parole**, la B **600/615**, nessun buco. Le rese diverse
+(non buchi): s06 «e» sentito «ee»; s13 «migliora» sentito «migliore»; s13 «e» sentito «ee»; s14 «e» sentito «ee»; s19 «e» sentito «ee»; s19 «e» sentito «ee»; s21 «multicomponente» sentito «multi componente»; s24 «e» sentito «ee»; s27 «ee» sentito «e»; s30 «1 2» sentito «lezione12»; s32 «e» sentito «ee»; s35 «e» sentito «ee»; s36 «e» sentito «ee»; s39 «essudato» sentito «e sudato»; s39 «abi» sentito «ab»; s40 «abi» sentito «ab»; s42 «e» sentito «ee»; s42 «abi» sentito «ab»; s44 «e» sentito «ee»; s45 «abi» sentito «ab»; s47 «abi» sentito «ab»; s47 «abi» sentito «ab».
+
 ## Le scene
 
 | scene | corpo | contenuto |
@@ -96,10 +114,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `bed5eeb5c526c358561e049053deeed0` — 496.685 s (8:16.7), 1080p 16:9, resa in 89 s, con SRT (`subtitle_url`) |
+| lotto asset | `8942cae6890d4ccf920dd44bbc51bc85` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s06, trascritto «ee»); «migliora» (s13, trascritto «migliore»); «e» (s13, trascritto «ee»); «e» (s14, trascritto «ee»); «e» (s19, trascritto «ee»); «e» (s19, trascritto «ee»); «multicomponente» (s21, trascritto «multi componente»); «e» (s24, trascritto «ee»); «ee» (s27, trascritto «e»); «1 2» (s30, trascritto «lezione12»); «e» (s32, trascritto «ee»); «e» (s35, trascritto «ee»); «e» (s36, trascritto «ee»); «essudato» (s39, trascritto «e sudato»); «abi» (s39, trascritto «ab»); «abi» (s40, trascritto «ab»); «e» (s42, trascritto «ee»); «abi» (s42, trascritto «ab»); «e» (s44, trascritto «ee»); «abi» (s45, trascritto «ab»); «abi» (s47, trascritto «ab»); «abi» (s47, trascritto «ab»).

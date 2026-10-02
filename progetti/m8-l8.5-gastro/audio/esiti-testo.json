@@ -1,0 +1,83 @@
+{
+ "A": {
+  "parole_copione": 584,
+  "parole_dette": 585,
+  "coincidenti": 581,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "picee",
+    "detto": "pice"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 571,
+  "parole_dette": 573,
+  "coincidenti": 561,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "vicina",
+    "detto": "vicino"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "alvo",
+    "detto": "albo"
+   },
+   {
+    "blocco": "s48",
+    "copione": "lezione23",
+    "detto": "2 3"
+   }
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 542,
+  "parole_dette": 544,
+  "coincidenti": 533,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s05",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s07",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "petecchie",
+    "detto": "petechie"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 590,
+  "parole_dette": 592,
+  "coincidenti": 584,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "nyha",
+    "detto": "nyah"
+   },
+   {
+    "blocco": "s27",
+    "copione": "lezione16",
+    "detto": "1 6"
+   },
+   {
+    "blocco": "s28",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s29",
+    "copione": "centottantacinque",
+    "detto": "185"
+   },
+   {
+    "blocco": "s29",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s29",
+    "copione": "50000",
+    "detto": "50 000"
+   }
+  ]
+ }
+}

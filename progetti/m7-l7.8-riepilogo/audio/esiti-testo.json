@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 569,
+  "parole_dette": 572,
+  "coincidenti": 556,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s06",
+    "copione": "l abi",
+    "detto": "la b"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "l abi",
+    "detto": "la b"
+   },
+   {
+    "blocco": "s16",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s16",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s20",
+    "copione": "lezione46",
+    "detto": "4 6"
+   },
+   {
+    "blocco": "s21",
+    "copione": "lezione35",
+    "detto": "3 5"
+   },
+   {
+    "blocco": "s22",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s25",
+    "copione": "marsi",
+    "detto": "marci"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 573,
+  "parole_dette": 574,
+  "coincidenti": 572,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

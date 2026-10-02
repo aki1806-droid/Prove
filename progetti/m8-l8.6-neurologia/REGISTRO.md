@@ -24,6 +24,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,66 · B $0,73) |
+| costo trascrizioni | $0,54 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s43) |
@@ -32,6 +34,8 @@ Nessuna illustrazione nuova.
 CARATTERI  8.291          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:22
 stacco tracce             dopo s24   (chunk A 3.953 car · chunk B 4.338 car)
+tracce grezze             A 277.5 s  ·  B 312.2 s
+silenzi                   fattore 1,084   ->   atempo 1,116
 ```
 
 Lo script è di 18 slide e circa 1.750 parole: i 50 blocchi iniziali erano
@@ -45,6 +49,20 @@ i 225 caratteri accorciati senza perdere numeri. `MIRA` a 17,0.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**614/621 parole**, la B **629/635**, nessun buco. Le rese diverse
+(non buchi): s06 «e» sentito «ee»; s14 «trombectomia» sentito «trombectomica»; s15 «centottantacinque» sentito «185»; s17 «centottanta» sentito «180»; s22 «e» sentito «ee»; s33 «e» sentito «ee»; s35 «ee» sentito «e»; s43 «e» sentito «ee»; s45 «centottantacinque» sentito «185»; s45 «centottanta» sentito «180».
 
 ## Le scene
 

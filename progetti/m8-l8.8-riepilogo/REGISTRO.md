@@ -26,6 +26,8 @@ con stipsi, la FAST, la febbre al nadir, Cushing), e le risposte sono le sue.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,28 (A $0,61 · B $0,67) |
+| costo trascrizioni | $0,55 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | quattro pose di 2 s sulle domande (s33, s35, s37, s39) e una breve sulla frase del modulo (s47) |
@@ -34,6 +36,8 @@ con stipsi, la FAST, la febbre al nadir, Cushing), e le risposte sono le sue.
 CARATTERI  7.641          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:52     (MIRA 16,3: circa 8:10)
 stacco tracce             dopo s25   (chunk A 3.671 car · chunk B 3.970 car)
+tracce grezze             A 292.0 s  ·  B 318.7 s
+silenzi                   fattore 1,174   ->   atempo 1,110
 ```
 
 Lo script è di 16 slide e circa 1.200 parole: i 42 blocchi iniziali sono
@@ -49,6 +53,20 @@ blocchi con frasi dello stesso script. `MIRA` a 16,3.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**533/542 parole**, la B **584/590**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s05 «news2» sentito «news 2»; s06 «e» sentito «ee»; s07 «lezione23» sentito «2 3»; s09 «e» sentito «ee»; s12 «e» sentito «ee»; s17 «e» sentito «ee»; s20 «e» sentito «ee»; s24 «petecchie» sentito «petechie»; s26 «nyha» sentito «nyah»; s27 «lezione16» sentito «1 6»; s28 «centottanta» sentito «180»; s29 «centottantacinque» sentito «185»; s29 «centottanta» sentito «180»; s29 «50000» sentito «50 000».
 
 ## Le scene
 

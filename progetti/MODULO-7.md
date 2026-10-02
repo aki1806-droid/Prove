@@ -19,10 +19,10 @@ man mano che le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 7.1 | Riparazione tessutale e valutazione della lesione | — | da fare |
-| 7.2 | Lesioni da pressione | — | da fare |
-| 7.3 | Ulcere vascolari e piede diabetico | — | da fare |
-| 7.4 | Ferite chirurgiche e infezione del sito chirurgico | — | da fare |
+| 7.1 | Riparazione tessutale e valutazione della lesione | 8:14.9 | `c6629b845a60382038b7cf0a1ca80ed2` |
+| 7.2 | Lesioni da pressione | 8:25.4 | `e82517348e27587fb43e4ca5761e38bd` |
+| 7.3 | Ulcere vascolari e piede diabetico | 8:16.7 | `bed5eeb5c526c358561e049053deeed0` |
+| 7.4 | Ferite chirurgiche e infezione del sito chirurgico | 8:03.3 | `191943f9cbd1be058bda05dbae15d5d2` |
 | 7.5 | Medicazioni avanzate | — | da fare |
 | 7.6 | Stomie digestive e urinarie | — | da fare |
 | 7.7 | Drenaggi | — | da fare |

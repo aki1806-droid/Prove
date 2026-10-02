@@ -1,0 +1,73 @@
+{
+ "A": {
+  "parole_copione": 628,
+  "parole_dette": 613,
+  "coincidenti": 610,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s03",
+    "copione": "alti flussi",
+    "detto": "altiflussi"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 595,
+  "parole_dette": 595,
+  "coincidenti": 584,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "emogas",
+    "detto": "emo gas"
+   },
+   {
+    "blocco": "s34",
+    "copione": "emogas",
+    "detto": "emo gas"
+   },
+   {
+    "blocco": "s36",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s44",
+    "copione": "a bassa",
+    "detto": "abbassa"
+   },
+   {
+    "blocco": "s45",
+    "copione": "emogas",
+    "detto": "emo gas"
+   }
+  ]
+ }
+}

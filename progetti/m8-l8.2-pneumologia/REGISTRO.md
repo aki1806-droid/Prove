@@ -26,6 +26,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,39 (A $0,69 · B $0,70) |
+| costo trascrizioni | $0,54 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s45) |
@@ -34,6 +36,8 @@ Nessuna illustrazione nuova.
 CARATTERI  8.337          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:25
 stacco tracce             dopo s26   (chunk A 4.189 car · chunk B 4.148 car)
+tracce grezze             A 288.6 s  ·  B 309.9 s
+silenzi                   fattore 1,096   ->   atempo 1,114
 ```
 
 Lo script è di 19 slide e circa 1.800 parole, il più denso del corso: i
@@ -49,6 +53,20 @@ accorciati senza perdere numeri. `MIRA` a 17,0.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**610/628 parole**, la B **584/595**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s03 «alti flussi» sentito «altiflussi»; s22 «e» sentito «ee»; s29 «ee» sentito «e»; s31 «e» sentito «ee»; s33 «emogas» sentito «emo gas»; s34 «emogas» sentito «emo gas»; s36 «ee» sentito «e»; s39 «al» sentito «a»; s44 «a bassa» sentito «abbassa»; s45 «emogas» sentito «emo gas».
 
 ## Le scene
 

@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:09,840
+Apriamo il modulo dell'area medica, organizzato per apparati. Si comincia dal cuore, con tre temi che i concorsi chiedono sempre.
+
+2
+00:00:09,840 --> 00:00:15,990
+Lo scompenso cardiaco, il dolore toracico con le sindromi coronariche acute, e la lettura di base dell'ECG.
+
+3
+00:00:15,990 --> 00:00:23,620
+Non serve leggere un tracciato come un cardiologo: serve riconoscere i ritmi che richiedono un intervento immediato. Pochi, e si imparano guardandoli.
+
+4
+00:00:23,620 --> 00:00:29,880
+Lo scompenso cardiaco: il cuore non riesce piu' a pompare una quantita' di sangue adeguata ai bisogni dell'organismo.
+
+5
+00:00:29,880 --> 00:00:39,920
+Se cede il ventricolo sinistro, il sangue ristagna nei polmoni: dispnea, ortopnea, la persona dorme con piu' cuscini, dispnea parossistica notturna, rantoli alle basi.
+
+6
+00:00:39,920 --> 00:00:48,880
+Se cede il destro, il ristagno e' sistemico: edemi declivi, turgore delle giugulari, fegato ingrandito, ascite. Spesso le due forme coesistono.
+
+7
+00:00:48,880 --> 00:01:00,540
+La classificazione funzionale NYHA, in quattro classi, chiesta spesso. Classe uno: nessuna limitazione. Classe due: sintomi con l'attivita' ordinaria, come salire le scale.
+
+8
+00:01:00,540 --> 00:01:11,910
+Classe tre: sintomi con attivita' inferiori all'ordinaria, come vestirsi o camminare in casa. Classe quattro: sintomi anche a riposo. La classe e' una domanda sulla vita quotidiana, non un esame.
+
+9
+00:01:11,910 --> 00:01:23,510
+L'assistenza. Posizione semiseduta o seduta. Ossigeno se la saturazione e' bassa, secondo prescrizione. Peso quotidiano, il miglior indicatore dell'accumulo di liquidi, come nella lezione tre punto cinque.
+
+10
+00:01:23,510 --> 00:01:34,360
+Bilancio idrico e diuresi. Restrizione idrica se prescritta, dieta iposodica. Sorveglianza di potassio e creatinina con i diuretici. Riposo alternato ad attivita' graduale.
+
+11
+00:01:34,360 --> 00:01:45,420
+L'educazione, che riduce davvero i ricoveri. Pesarsi ogni giorno, alla stessa ora, e contattare il medico se il peso aumenta rapidamente, indicativamente di un chilo e mezzo-due in due-tre giorni.
+
+12
+00:01:45,420 --> 00:01:54,800
+E' un accumulo di liquidi che anticipa i sintomi: la bilancia se ne accorge prima del respiro. Riconoscere la dispnea, gli edemi, il bisogno di piu' cuscini per dormire.
+
+13
+00:01:54,800 --> 00:01:59,490
+Aderenza alla terapia, poco sale, attivita' fisica regolare, vaccinazioni.
+
+14
+00:01:59,490 --> 00:02:13,900
+Le sindromi coronariche acute. Il sintomo tipico: un dolore oppressivo dietro lo sterno, un peso sul petto, irradiato a braccio sinistro, mandibola, dorso o epigastrio. Dura piu' di venti minuti, con sudore, nausea, dispnea.
+
+15
+00:02:13,900 --> 00:02:25,890
+Ma attenzione alle presentazioni atipiche nelle donne, negli anziani e nei diabetici: solo dispnea, stanchezza, dolore epigastrico, o nessun dolore. Molti infarti vengono scambiati per una cattiva digestione.
+
+16
+00:02:25,890 --> 00:02:37,430
+Due quadri. Lo STEMI, con sopraslivellamento del tratto ST all'ECG: una coronaria e' completamente occlusa, e il trattamento e' la riperfusione urgente, di norma con angioplastica primaria.
+
+17
+00:02:37,430 --> 00:02:49,750
+L'NSTEMI e l'angina instabile, senza sopraslivellamento. La diagnosi di danno miocardico si basa sulla troponina, che si ripete a intervalli secondo protocollo, perche' un primo valore normale non esclude l'infarto.
+
+18
+00:02:49,750 --> 00:02:58,300
+Che cosa fa l'infermiere davanti a un dolore toracico. ECG a dodici derivazioni entro dieci minuti dal primo contatto: e' il numero da ricordare.
+
+19
+00:02:58,300 --> 00:03:05,500
+Monitoraggio del ritmo, parametri e saturazione, accesso venoso, prelievi per la troponina. Riposo, rassicurazione.
+
+20
+00:03:05,500 --> 00:03:16,310
+Ossigeno solo se la saturazione e' bassa: un tempo si dava a tutti, oggi no. Farmaci secondo prescrizione o protocollo, e avviso immediato al medico. Il tempo e' muscolo cardiaco.
+
+21
+00:03:16,310 --> 00:03:28,660
+Due farmaci del dolore toracico, con le loro cautele. I nitrati sono controindicati se la pressione e' bassa, nell'infarto del ventricolo destro e dopo i farmaci per la disfunzione erettile: lezione cinque punto cinque.
+
+22
+00:03:28,660 --> 00:03:36,220
+L'acido acetilsalicilico si somministra secondo protocollo, se non ci sono controindicazioni come allergia o sanguinamento in atto.
+
+23
+00:03:36,220 --> 00:03:46,720
+L'ipertensione: valori pari o superiori a centoquaranta su novanta, in misurazioni ripetute. La tecnica di misurazione e' una domanda frequente: persona seduta da cinque minuti.
+
+24
+00:03:46,720 --> 00:03:55,140
+Bracciale della misura giusta, un bracciale piccolo su un braccio grande sovrastima la pressione, braccio all'altezza del cuore, almeno due misurazioni.
+
+25
+00:03:55,140 --> 00:04:06,830
+La crisi ipertensiva si distingue in urgenza, senza danno d'organo, ed emergenza, con danno d'organo: dolore toracico, deficit neurologici, edema polmonare, che richiede trattamento immediato.
+
+26
+00:04:06,830 --> 00:04:18,960
+La lettura di base dell'ECG, in cinque domande. Uno: la frequenza, normale fra sessanta e cento. Il metodo piu' semplice: contare i complessi QRS in sei secondi e moltiplicare per dieci.
+
+27
+00:04:18,960 --> 00:04:28,610
+Oppure dividere trecento per il numero di quadrati grandi fra due onde R. Due: il ritmo e' regolare o irregolare? Tre: c'e' un'onda P prima di ogni QRS?
+
+28
+00:04:28,610 --> 00:04:39,520
+Quattro: l'intervallo PR e' fra zero virgola dodici e zero virgola venti secondi? Cinque: il QRS e' stretto, sotto zero virgola dodici, o largo? Tutte risposte normali: e' un ritmo sinusale.
+
+29
+00:04:39,520 --> 00:04:50,680
+I ritmi da riconoscere. La fibrillazione atriale, l'aritmia piu' frequente: ritmo irregolarmente irregolare, nessuna onda P, linea di base tremolante, QRS stretto.
+
+30
+00:04:50,680 --> 00:05:00,980
+Il rischio principale e' l'ictus, perche' nell'atrio che non si contrae si formano trombi: per questo molti pazienti sono in terapia anticoagulante, i farmaci della lezione cinque punto cinque.
+
+31
+00:05:00,980 --> 00:05:10,090
+Al polso si sente un battito irregolare, e la frequenza va misurata all'apice per un minuto: il polso radiale perde i battiti deboli, e conta meno di quanto il cuore batta.
+
+32
+00:05:10,090 --> 00:05:17,650
+I ritmi dell'arresto cardiaco. La tachicardia ventricolare: QRS larghi, regolari e rapidi; puo' avere il polso o no.
+
+33
+00:05:17,650 --> 00:05:24,930
+La fibrillazione ventricolare: un'attivita' caotica, senza QRS riconoscibili; e' un arresto cardiaco, ed e' defibrillabile.
+
+34
+00:05:24,930 --> 00:05:37,930
+L'asistolia: una linea piatta, prima si verificano cavi e derivazioni e si controlla il paziente; non e' defibrillabile. E l'attivita' elettrica senza polso: tracciato organizzato, paziente senza polso, non defibrillabile.
+
+35
+00:05:37,930 --> 00:05:43,900
+Il principio, che vedremo nel modulo dieci: si guarda il paziente, non solo il monitor.
+
+36
+00:05:43,900 --> 00:05:51,790
+Le bradicardie. La bradicardia sinusale, sotto sessanta, spesso fisiologica negli sportivi o dovuta a farmaci come i beta-bloccanti.
+
+37
+00:05:51,790 --> 00:06:04,620
+E i blocchi atrioventricolari, in cui l'impulso fatica a passare dagli atri ai ventricoli: di primo grado, con un PR lungo; di secondo grado; di terzo grado, o completo: atri e ventricoli battono ognuno per conto proprio.
+
+38
+00:06:04,620 --> 00:06:11,340
+I sintomi: astenia, vertigini, sincope, ipotensione. Il blocco completo spesso richiede un pacemaker.
+
+39
+00:06:11,340 --> 00:06:21,610
+Il pacemaker. All'ECG si vede uno spike, un sottile tratto verticale, prima della P o del QRS. Dopo l'impianto: sorveglianza della ferita e dei segni di ematoma.
+
+40
+00:06:21,610 --> 00:06:27,610
+Per alcune settimane si limitano i movimenti ampi del braccio dal lato dell'impianto, per non spostare gli elettrodi.
+
+41
+00:06:27,610 --> 00:06:36,780
+La persona porta con se' la tessera del dispositivo, fa attenzione ai campi magnetici, e puo' fare una risonanza magnetica solo se il dispositivo e' compatibile e secondo protocollo.
+
+42
+00:06:36,780 --> 00:06:49,740
+Il caso. Donna di settantadue anni, diabetica, da un'ora dolore epigastrico e nausea, ed e' sudata. Che cosa pensi? Una presentazione atipica di una sindrome coronarica acuta, finche' non si dimostra il contrario.
+
+43
+00:06:49,740 --> 00:06:57,890
+Che cosa fai? ECG entro dieci minuti, monitoraggio, parametri e saturazione, accesso venoso, prelievi, riposo, avviso immediato al medico.
+
+44
+00:06:57,890 --> 00:07:06,560
+E' solo una cattiva digestione e' la risposta che i concorsi costruiscono per farti sbagliare. Donna, anziana, diabetica: tre ragioni per non crederci.
+
+45
+00:07:06,560 --> 00:07:18,570
+In Veneto opera una rete per l'infarto acuto: il centodiciotto esegue l'ECG sul territorio, lo teletrasmette allo specialista e, in caso di STEMI, porta il paziente direttamente in emodinamica, saltando il pronto soccorso.
+
+46
+00:07:18,570 --> 00:07:29,910
+Esistono ambulatori dello scompenso e progetti di telemonitoraggio, sempre piu' legati all'infermiere di famiglia e comunita'. All'orale, la frase chiave e': la rete STEMI riduce il tempo alla riperfusione.
+
+47
+00:07:29,910 --> 00:07:45,300
+Ricapitoliamo. Scompenso sinistro: polmone; destro: edemi. NYHA da uno a quattro. Peso quotidiano. Dolore toracico: ECG entro dieci minuti, ossigeno solo se la saturazione e' bassa. Attenzione alle presentazioni atipiche.
+
+48
+00:07:45,300 --> 00:07:58,100
+Fibrillazione atriale: irregolare, senza onde P, rischio di ictus. Fibrillazione ventricolare: defibrillabile. Asistolia: non defibrillabile.  Nella prossima lezione: polmone e ossigenoterapia. A tra poco.

@@ -68,6 +68,10 @@ progetti/<modulo>-<lezione>/
 | `m6-l6.6-trasfusione` | Modulo 6 · 6.6 Emocomponenti ed emotrasfusione | 8:21.6 | `e2369fe63a53badbe49665fa41a20289` |
 | `m6-l6.7-preanalitica` | Modulo 6 · 6.7 Prelievi ed esami: la fase preanalitica | 8:39.8 | `54c41def1cc81dbb69f61944792a5515` |
 | `m6-l6.8-riepilogo` | Modulo 6 · 6.8 Riepilogo del Modulo 6 e autovalutazione | 8:23.4 | `3147b0285563d62ee7de1e4bb5b83ba8` |
+| `m7-l7.1-riparazione` | Modulo 7 · 7.1 Riparazione tessutale e valutazione della lesione | 8:14.9 | `c6629b845a60382038b7cf0a1ca80ed2` |
+| `m7-l7.2-pressione` | Modulo 7 · 7.2 Lesioni da pressione | 8:25.4 | `e82517348e27587fb43e4ca5761e38bd` |
+| `m7-l7.3-ulcere` | Modulo 7 · 7.3 Ulcere vascolari e piede diabetico | 8:16.7 | `bed5eeb5c526c358561e049053deeed0` |
+| `m7-l7.4-chirurgiche` | Modulo 7 · 7.4 Ferite chirurgiche e infezione del sito chirurgico | 8:03.3 | `191943f9cbd1be058bda05dbae15d5d2` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

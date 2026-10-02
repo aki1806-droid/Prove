@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 621,
+  "parole_dette": 619,
+  "coincidenti": 614,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "trombectomia",
+    "detto": "trombectomica"
+   },
+   {
+    "blocco": "s15",
+    "copione": "centottantacinque",
+    "detto": "185"
+   },
+   {
+    "blocco": "s17",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 635,
+  "parole_dette": 634,
+  "coincidenti": 629,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "centottantacinque",
+    "detto": "185"
+   },
+   {
+    "blocco": "s45",
+    "copione": "centottanta",
+    "detto": "180"
+   }
+  ]
+ }
+}

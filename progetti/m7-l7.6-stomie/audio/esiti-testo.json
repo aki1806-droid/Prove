@@ -1,0 +1,83 @@
+{
+ "A": {
+  "parole_copione": 639,
+  "parole_dette": 643,
+  "coincidenti": 632,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "semiformate",
+    "detto": "semi formate"
+   },
+   {
+    "blocco": "s08",
+    "copione": "lezione23",
+    "detto": "da 2 a 3"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "anti reflusso",
+    "detto": "antireflusso"
+   },
+   {
+    "blocco": "s14",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 592,
+  "parole_dette": 591,
+  "coincidenti": 583,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "anti reflusso",
+    "detto": "antireflusso"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s48",
+    "copione": "lezione23",
+    "detto": "2 3"
+   }
+  ]
+ }
+}

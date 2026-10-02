@@ -29,6 +29,8 @@ Nessuna illustrazione nuova.
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
 | costo voce | $1,28 (A $0,63 · B $0,65) |
+| costo trascrizioni | $0,50 |
+| costo voce | $1,28 (A $0,63 · B $0,65) |
 | costo trascrizioni | $0,53 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
@@ -38,6 +40,8 @@ Nessuna illustrazione nuova.
 CARATTERI  7.646          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:46     (MIRA 16,3: circa 8:05)
 stacco tracce             dopo s24   (chunk A 3.771 car · chunk B 3.875 car)
+tracce grezze             A 265.7 s  ·  B 285.6 s
+silenzi                   fattore 1,150   ->   atempo 1,022
 tracce grezze             A 265.7 s  ·  B 285.6 s
 silenzi                   fattore 1,150   ->   atempo 1,022
 ```
@@ -71,6 +75,20 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 **1/587 parole**, la B **1/578**, nessun buco. Le rese diverse
 (non buchi): nessuna.
 
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**583/587 parole**, la B **572/578**, nessun buco. Le rese diverse
+(non buchi): s08 «e» sentito «ee»; s10 «e» sentito «ee»; s19 «lezione35» sentito «da 3 a 5»; s23 «e» sentito «ee»; s27 «siero ematico» sentito «sieroematico»; s28 «e» sentito «ee»; s47 «lezione35» sentito «da 3 a 5»; s47 «siero ematico» sentito «sieroematico».
+
 ## Le scene
 
 | scene | corpo | contenuto |
@@ -95,10 +113,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `191943f9cbd1be058bda05dbae15d5d2` — 483.303 s (8:03.3), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| lotto asset | `1aacc278fb944cacb00c5ae4b01b580d` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s08, trascritto «ee»); «e» (s10, trascritto «ee»); «lezione35» (s19, trascritto «da 3 a 5»); «e» (s23, trascritto «ee»); «siero ematico» (s27, trascritto «sieroematico»); «e» (s28, trascritto «ee»); «lezione35» (s47, trascritto «da 3 a 5»); «siero ematico» (s47, trascritto «sieroematico»).

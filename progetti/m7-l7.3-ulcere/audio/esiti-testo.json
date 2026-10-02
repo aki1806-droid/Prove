@@ -1,33 +1,128 @@
 {
  "A": {
   "parole_copione": 590,
-  "parole_dette": 33,
-  "coincidenti": 0,
-  "buchi": [
+  "parole_dette": 591,
+  "coincidenti": 582,
+  "buchi": [],
+  "sostituzioni_brevi": [
    {
-    "blocco": "s02",
-    "parole_copione": "le ulcere degli arti inferiori sono 1 problema enorme soprattutto a domicilio e il loro trattamento parte da una domanda sola qual e la causa 1 ulcera venosa e 1 ulcera arteriosa si curano in modo opposto la compressione che guarisce la prima puo far perdere l arto nella seconda per questo la diagnosi differenziale e il cuore della lezione prima si capisce quale gamba si ha davanti poi si apre la medicazione l ulcera venosa la piu frequente la causa e l insufficienza venosa il sangue ristagna nelle vene della gamba e la pressione danneggia i tessuti sede tipica il malleolo mediale il terzo inferiore della gamba la cosiddetta zona della ghetta e superficiale con margini irregolari ed essudato abbondante intorno edema cute iperpigmentata brunastra eczema indurimento il dolore e moderato e migliora sollevando la gamba i polsi periferici sono presenti edema iperpigmentazione eczema lipodermatosclerosi la gamba racconta anni di ristagno prima dell ulcera chi guarda solo l ulcera non vede la causa l ulcera arteriosa la causa e l ischemia il sangue arterioso non arriva sede dita tallone dorso del piede zona pretibiale le zone piu distali dove il sangue arriva per ultimo margini netti come fatti con 1 stampo fondo pallido o necrotico essudato scarso la cute e pallida fredda lucida senza peli il dolore e intenso peggiora sollevando la gamba e di notte e la persona trova sollievo tenendo la gamba penzoloni fuori dal letto i polsi sono assenti o ridotti il confronto in una tabella sede malleolo mediale contro dita e piede essudato abbondante contro scarso cute edematosa e pigmentata contro pallida fredda e glabra dolore migliora sollevando contro peggiora sollevando polsi presenti contro assenti se ricordi solo una riga ricorda quella del dolore e della posizione e la piu chiesta lo strumento che decide l indice caviglia braccio o abi e il rapporto fra la pressione sistolica alla caviglia e quella al braccio prendendo la piu alta fra le 2 braccia misurate con 1 doppler normale fra circa 0virgola9 e 1virgola3 alla caviglia la pressione e circa quella del braccio o 1 po piu alta sotto 0virgola9 indica arteriopatia sotto 0virgola5 1 ischemia grave e sopra 1virgola3 indica arterie incomprimibili perche calcificate tipiche del diabetico il valore non e affidabile e servono altri esami la compressione e il trattamento dell ulcera venosa senza compressione 1 ulcera venosa difficilmente guarisce perche la causa il ristagno resta ma prima si misura l abi da 0virgola8 in su compressione indicata fra 0virgola5 e 0virgola8 compressione ridotta solo su indicazione specialistica sotto 0virgola5 compressione controindicata e la regola di sicurezza senza abi non si comprime 1 bendaggio su 1 arto ischemico puo provocare necrosi e la regola che il caso di oggi mettera alla prova il bendaggio piede a 90 gradi dalla base delle dita fino sotto il ginocchio includendo il tallone pressione graduata maggiore alla caviglia e decrescente verso l alto per favorire il ritorno venoso spire sovrapposte in modo regolare perche la pressione deve essere uniforme oggi si usano spesso sistemi multicomponente e si sorvegliano dolore intorpidimento colorito e temperatura delle dita se compaiono il bendaggio si allenta e si avvisa le dita restano fuori proprio per questo per guardarle le altre misure sollevare le gambe a riposo camminare perche la contrazione del polpaccio pompa il sangue verso l alto e la pompa muscolare del polpaccio evitare di stare a lungo in piedi e dopo la guarigione le calze elastiche terapeutiche spesso per tutta la vita le ulcere venose recidivano molto se si sospende la compressione",
-    "al_loro_posto": "xml version lezione10 encoding utf 8 error code expiredtoken code message invalid argument message details the provided token has expired request signature expired at 2026 10 02t04 07 27piu 00 00 details error"
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "migliora",
+    "detto": "migliore"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "multicomponente",
+    "detto": "multi componente"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
    }
-  ],
-  "sostituzioni_brevi": []
+  ]
  },
  "B": {
   "parole_copione": 615,
-  "parole_dette": 33,
-  "coincidenti": 1,
-  "buchi": [
+  "parole_dette": 615,
+  "coincidenti": 600,
+  "buchi": [],
+  "sostituzioni_brevi": [
    {
-    "blocco": "s25",
-    "parole_copione": "nell ulcera arteriosa la priorita e la valutazione vascolare specialistica perche senza rivascolarizzazione spesso non guarisce niente compressione non sollevare l arto proteggere dal freddo ma niente fonti di calore dirette come borse dell acqua calda su 1 arto ischemico e spesso poco sensibile provocano ustioni le escare secche stabili non si rimuovono controllo del dolore ee l abbandono del fumo tutto quello che nella venosa aiuta qui e al contrario il piede diabetico 3 meccanismi spesso insieme la neuropatia la persona non sente piu il dolore quindi non si accorge di una scarpa che stringe di 1 sassolino di una bruciatura l arteriopatia la perfusione e ridotta l infezione che nel diabetico progredisce rapidamente il risultato puo essere 1 ulcera che nessuno ha notato finche non e grave spesso coesistono una scarpa che stringe su 1 piede che non sente con poco sangue e 1 infezione che corre il piede diabetico e 3 problemi in 1 2 classificazioni quella di wagner dal grado 0 piede a rischio senza lesioni al grado 5 gangrena estesa 6 gradi e il grado 0 e gia 1 piede da sorvegliare e quella dell universita del texas che combina la profondita della lesione con la presenza di infezione e ischemia la valutazione della neuropatia si fa con il monofilamento da",
-    "al_loro_posto": "xml version lezione10 encoding utf 8 error code expiredtoken code message invalid argument message details the provided token has expired request signature expired at 2026"
+    "blocco": "s27",
+    "copione": "ee",
+    "detto": "e"
    },
    {
-    "blocco": "s33",
-    "parole_copione": "grammi se la persona non lo percepisce in alcuni punti del piede ha perso la sensibilita protettiva poi la palpazione dei polsi e l ispezione il trattamento dell ulcera plantare diabetica si regge su 1 principio lo scarico se la persona continua a camminare sulla lesione l ulcera non guarisce qualunque medicazione si usi si usano gessi a contatto totale tutori calzature e plantari specifici e l equivalente per il piede del riposizionamento nelle lesioni da pressione e la prevenzione che e soprattutto educazione ispezionare i piedi ogni giorno anche con 1 specchio lavarli con acqua tiepida verificandone la temperatura con il gomito o 1 termometro non con il piede che non sente asciugare bene fra le dita unghie tagliate dritte mai camminare scalzi calzature comode controllate all interno prima di indossarle 1 sassolino non si sente si trova niente fonti di calore niente callifughi ee rivolgersi subito per qualunque lesione anche piccola nel piede che non sente piccola non vuol dire innocua il caso anziana con ulcera al malleolo mediale edema essudato abbondante il quadro e venoso viene chiesto 1 bendaggio compressivo ma l abi non e stato misurato che cosa fai non applichi la compressione finche l abi non e stato valutato perche 1 arteriopatia associata e frequente nell anziano e la compressione potrebbe essere dannosa lo segnali e ne chiedi la misurazione nel frattempo detergi gestisci l essudato proteggi la cute perilesionale e consigli di sollevare la gamba a riposo tutto cio che aiuta la venosa senza rischiare l arteriosa 1 quadro venoso evidente non esclude 1 arteriopatia nascosta e l abi che lo esclude non l occhio in veneto esistono percorsi e centri di riferimento per il piede diabetico con equipe multidisciplinari e ambulatori vulnologici aziendali e territoriali la maggior parte delle ulcere degli arti inferiori si cura a domicilio con l adi e li che l infermiere decide spesso da solo se quella gamba si puo comprimere all orale la parola chiave per il piede diabetico e multidisciplinarieta e per l ulcera venosa abi prima della compressione ricapitoliamo venosa malleolo mediale essudato abbondante migliora sollevando polsi presenti arteriosa dita cute pallida peggiora sollevando polsi assenti abi normale 0virgola9 1virgola3 sotto 0virgola5 niente compressione e senza abi nessuna compressione piede diabetico neuropatia arteriopatia infezione scarico educazione ee il monofilamento da 10 grammi per la sensibilita nella prossima lezione le ferite chirurgiche a tra poco",
-    "al_loro_posto": "02t04 07 27piu 00 00 details error"
+    "blocco": "s30",
+    "copione": "1 2",
+    "detto": "lezione12"
+   },
+   {
+    "blocco": "s32",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "essudato",
+    "detto": "e sudato"
+   },
+   {
+    "blocco": "s39",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s40",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s42",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s47",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s47",
+    "copione": "abi",
+    "detto": "ab"
    }
-  ],
-  "sostituzioni_brevi": []
+  ]
  }
 }

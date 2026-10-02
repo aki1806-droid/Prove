@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:10,000
+I drenaggi servono a far uscire dal corpo cio' che non deve accumularsi: sangue, siero, pus, bile, aria.
+
+2
+00:00:10,000 --> 00:00:18,710
+Sono dispositivi semplici, ma cio' che esce dal drenaggio e' un'informazione clinica: quantita' e aspetto raccontano come sta andando il decorso.
+
+3
+00:00:18,710 --> 00:00:29,020
+La seconda parte della lezione e' dedicata al drenaggio toracico, che ha regole sue e domande d'esame precise: l'oscillazione, le bollicine, il non clampare.
+
+4
+00:00:29,020 --> 00:00:40,250
+I drenaggi si dividono in due famiglie. Passivi, che funzionano per capillarita' o per gravita': il Penrose, una lamina morbida che fa scorrere i liquidi nella medicazione o in una sacca.
+
+5
+00:00:40,250 --> 00:00:48,630
+E i drenaggi a caduta, con una sacca posta piu' in basso del punto di uscita. Attivi, o aspirativi, che funzionano con una pressione negativa.
+
+6
+00:00:48,630 --> 00:01:00,630
+Il Redon, con un flacone sottovuoto, e il Jackson-Pratt, con una pompetta a bulbo che si comprime per creare l'aspirazione. Due famiglie, quattro nomi: i quiz li chiedono per nome.
+
+7
+00:01:00,630 --> 00:01:08,210
+La gestione comune. Fissaggio sicuro, senza trazione. Tubo senza pieghe ne' compressioni, anche sotto il paziente.
+
+8
+00:01:08,210 --> 00:01:13,860
+Nei drenaggi a caduta il raccoglitore va sempre piu' in basso del punto di uscita, ma mai a terra.
+
+9
+00:01:13,860 --> 00:01:27,590
+Negli aspirativi si verifica che il vuoto sia mantenuto: il Redon ha un indicatore che si modifica quando il vuoto si esaurisce, il Jackson-Pratt deve restare compresso. E il punto di uscita si medica con tecnica asettica.
+
+10
+00:01:27,590 --> 00:01:40,140
+Misurare e osservare. A ogni turno, o con la frequenza prescritta, si registrano quantita' e caratteristiche: ematico, siero-ematico, sieroso, purulento, biliare, enterico.
+
+11
+00:01:40,140 --> 00:01:50,570
+L'andamento atteso e' una progressiva riduzione e uno schiarimento: dall'ematico al siero-ematico al sieroso. Meno, e piu' chiaro: e' il decorso che va bene.
+
+12
+00:01:50,570 --> 00:02:00,420
+I segnali d'allarme: un aumento improvviso, sangue rosso vivo, possibile emorragia, un cambio di aspetto, bile, contenuto intestinale, pus.
+
+13
+00:02:00,420 --> 00:02:11,160
+E un arresto brusco, che puo' significare un'ostruzione o uno spostamento, non necessariamente un miglioramento. Un drenaggio che smette di colpo e' da controllare, non da festeggiare.
+
+14
+00:02:11,160 --> 00:02:20,850
+Lo svuotamento. Con tecnica asettica. Per il Redon, quando il flacone e' pieno o ha perso il vuoto, si chiude il morsetto e si sostituisce il flacone.
+
+15
+00:02:20,850 --> 00:02:30,480
+Per il Jackson-Pratt, si svuota il bulbo, lo si comprime e si chiude il tappo, cosi' che riprenda l'aspirazione. E si annota la quantita' prima di svuotare.
+
+16
+00:02:30,480 --> 00:02:42,370
+La rimozione avviene su prescrizione. Per i drenaggi aspirativi si interrompe il vuoto prima di sfilarli, altrimenti l'aspirazione trattiene i tessuti e la rimozione diventa dolorosa e traumatica.
+
+17
+00:02:42,370 --> 00:02:50,340
+Si sfila con un movimento continuo e deciso, si verifica l'integrita' della punta, si medica e si sorveglia il punto di uscita.
+
+18
+00:02:50,340 --> 00:02:57,390
+Il drenaggio toracico. Fra i due foglietti della pleura c'e' normalmente una pressione negativa, che tiene il polmone espanso.
+
+19
+00:02:57,390 --> 00:03:10,700
+Se entra aria, lo pneumotorace, o si raccoglie liquido o sangue, versamento, emotorace, il polmone collassa. Il drenaggio serve a far uscire aria e liquidi e a ripristinare la pressione negativa.
+
+20
+00:03:10,700 --> 00:03:19,300
+L'aria sale, quindi per lo pneumotorace il drenaggio si posiziona piu' in alto; il liquido scende, quindi per il versamento piu' in basso.
+
+21
+00:03:19,300 --> 00:03:25,440
+Il sistema piu' usato ha tre camere. La camera di raccolta, graduata, dove si accumulano i liquidi.
+
+22
+00:03:25,440 --> 00:03:33,540
+La camera del sigillo idraulico: una piccola colonna d'acqua che funziona da valvola: l'aria puo' uscire dal torace, ma non rientrare.
+
+23
+00:03:33,540 --> 00:03:41,420
+E la camera del controllo dell'aspirazione, che regola la pressione negativa applicata, con una colonna d'acqua o con un regolatore a secco.
+
+24
+00:03:41,420 --> 00:03:51,030
+Due fenomeni da saper interpretare, e sono le domande d'esame. Il primo: l'oscillazione del livello dell'acqua nel sigillo idraulico, sincrona con il respiro.
+
+25
+00:03:51,030 --> 00:03:59,960
+Nel paziente che respira spontaneamente il livello sale in inspirazione e scende in espirazione. Se l'oscillazione c'e', il sistema e' pervio.
+
+26
+00:03:59,960 --> 00:04:10,470
+Se manca, ci sono due possibilita': il tubo e' occluso o piegato, oppure il polmone si e' completamente riespanso. Quale delle due lo dicono la clinica e la radiografia.
+
+27
+00:04:10,470 --> 00:04:17,810
+Il secondo: le bollicine, il gorgogliamento. Nella camera del sigillo idraulico, le bollicine indicano una perdita d'aria.
+
+28
+00:04:17,810 --> 00:04:28,190
+Se sono intermittenti, in espirazione o con la tosse, e' l'aria che esce dal torace: nello pneumotorace e' atteso, e la loro scomparsa indica che la perdita si sta chiudendo.
+
+29
+00:04:28,190 --> 00:04:34,310
+Se sono continue, potrebbe esserci una perdita nel sistema: si controllano le connessioni e il tubo.
+
+30
+00:04:34,310 --> 00:04:45,500
+Attenzione a non confondere le camere: nella camera di aspirazione a umido, un gorgogliamento lieve e continuo e' il funzionamento normale. Stesse bollicine, camera diversa, significato opposto.
+
+31
+00:04:45,500 --> 00:04:58,530
+Le regole di sicurezza. Il sistema sta sempre piu' in basso del torace, e in verticale, perche' se si rovescia il sigillo idraulico si perde. Nessuna ansa declive del tubo, dove il liquido ristagna e ostacola il drenaggio.
+
+32
+00:04:58,530 --> 00:05:11,410
+E la regola piu' importante: il drenaggio non si clampa di routine, nemmeno durante il trasporto. Clampare un drenaggio in un paziente con perdita d'aria puo' provocare uno pneumotorace iperteso, che e' un'emergenza.
+
+33
+00:05:11,410 --> 00:05:24,110
+Il clampaggio si fa solo nelle situazioni previste dalla procedura, per brevissimo tempo. E si registrano quantita' e caratteristiche, avvisando subito se il drenaggio di sangue supera la soglia indicata dal chirurgo.
+
+34
+00:05:24,110 --> 00:05:36,370
+Che cosa fare se il tubo si scollega dal sistema. L'aria potrebbe rientrare nel torace. Si immerge subito l'estremita' del tubo toracico in un contenitore con acqua sterile o fisiologica, per due-tre centimetri.
+
+35
+00:05:36,370 --> 00:05:46,230
+Si ricrea cosi' un sigillo idraulico improvvisato. Oppure si collega rapidamente un sistema nuovo. Poi si avvisa il medico e si sorvegliano respiro e saturazione.
+
+36
+00:05:46,230 --> 00:05:58,640
+E se il tubo esce dal torace: si copre subito il foro con una medicazione occlusiva, secondo la procedura, spesso fissata su tre lati, cosi' che funzioni da valvola, lasciando uscire l'aria senza farla rientrare.
+
+37
+00:05:58,640 --> 00:06:12,050
+Si chiama il medico e si sorvegliano i segni dello pneumotorace iperteso, da riconoscere subito: dispnea che peggiora, tachicardia, ipotensione, desaturazione, deviazione della trachea verso il lato opposto.
+
+38
+00:06:12,050 --> 00:06:24,790
+Assenza del murmure vescicolare da un lato, turgore giugulare, enfisema sottocutaneo, una crepitazione sotto la cute, come neve schiacciata. E' un'emergenza che il medico tratta con una decompressione immediata.
+
+39
+00:06:24,790 --> 00:06:36,520
+La rimozione del drenaggio toracico avviene su prescrizione, secondo procedura: alla persona si chiede una manovra respiratoria precisa, come la Valsalva, per evitare che l'aria entri durante l'estrazione.
+
+40
+00:06:36,520 --> 00:06:43,510
+Si applica una medicazione occlusiva, si esegue una radiografia di controllo e si sorveglia il respiro nelle ore successive.
+
+41
+00:06:43,510 --> 00:06:53,510
+Il caso. Paziente con drenaggio toracico per pneumotorace; durante il trasporto in radiologia il collega propone di clampare il tubo per sicurezza. Che cosa fai?
+
+42
+00:06:53,510 --> 00:07:04,610
+Non si clampa: il sistema si trasporta piu' in basso del torace, in verticale, senza clampaggio, perche' con una perdita d'aria il clampaggio puo' causare uno pneumotorace iperteso.
+
+43
+00:07:04,610 --> 00:07:10,090
+E' un esempio di comportamento intuitivo ma pericoloso, e l'esame lo sa.
+
+44
+00:07:10,090 --> 00:07:23,320
+Nelle aziende venete la gestione dei drenaggi e' regolata da procedure aziendali, con formazione specifica nei reparti di chirurgia toracica, cardiochirurgia e area critica, dove i sistemi a tre camere sono piu' diffusi.
+
+45
+00:07:23,320 --> 00:07:31,800
+All'orale: oscillazione, bollicine e regola del non clampare. Tre parole, e la commissione sa che il drenaggio toracico l'hai capito.
+
+46
+00:07:31,800 --> 00:07:43,100
+Ricapitoliamo. Drenaggi passivi e attivi. Misurare quantita' e aspetto; aumento improvviso o sangue rosso vivo sono allarmi. Interrompere il vuoto prima della rimozione.
+
+47
+00:07:43,100 --> 00:07:56,390
+Drenaggio toracico: l'oscillazione indica pervieta', le bollicine nel sigillo una perdita d'aria. Sistema sotto il torace, in verticale, e mai clampare di routine. Se si scollega: estremita' in acqua sterile.
+
+48
+00:07:56,390 --> 00:08:00,310
+Nella prossima lezione ricomponiamo il modulo sette. A tra poco.

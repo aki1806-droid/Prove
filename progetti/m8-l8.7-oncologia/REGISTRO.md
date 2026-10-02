@@ -25,6 +25,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,64 · B $0,68) |
+| costo trascrizioni | $0,48 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s44) |
@@ -33,6 +35,8 @@ Nessuna illustrazione nuova.
 CARATTERI  7.865          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:57
 stacco tracce             dopo s25   (chunk A 3.830 car · chunk B 4.035 car)
+tracce grezze             A 250.1 s  ·  B 275.6 s
+silenzi                   fattore 1,070   ->   atempo 1,062
 ```
 
 Lo script è di 17 slide e circa 1.650 parole: 48 blocchi al primo giro,
@@ -47,6 +51,20 @@ agitazione»). `MIRA` a 17,0.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**536/546 parole**, la B **595/606**, nessun buco. Le rese diverse
+(non buchi): s03 «ee» sentito «e»; s09 «e» sentito «ee»; s14 «e» sentito «ee»; s17 «e» sentito «ee»; s18 «e» sentito «ee»; s21 «e» sentito «ee»; s22 «50000» sentito «50 000»; s22 «10000 20000» sentito «10 000 20 000»; s25 «e» sentito «ee»; s28 «e» sentito «ee»; s33 «di cachessia» sentito «dica che sia»; s39 «e» sentito «ee»; s40 «e» sentito «ee»; s40 «brachiterapia» sentito «brachi terapia»; s48 «50000» sentito «50mila»; s48 «20000» sentito «20mila».
 
 ## Le scene
 

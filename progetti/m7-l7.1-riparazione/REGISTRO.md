@@ -102,10 +102,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `c6629b845a60382038b7cf0a1ca80ed2` — 494.925 s (8:14.9), 1080p 16:9, resa in 58 s, con SRT (`subtitle_url`) |
+| lotto asset | `bd2188e995bc4f3f9e58bb6f4eb7b02b` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s07, trascritto «ee»); «lezione12» (s08, trascritto «1 o 2»); «lezione46» (s12, trascritto «da 4 a 6»); «e» (s15, trascritto «ee»); «e» (s16, trascritto «ee»); «e» (s20, trascritto «ee»); «siero ematico» (s24, trascritto «sieroematico»); «e» (s32, trascritto «ee»); «levine» (s37, trascritto «levin»); «centimetro» (s38, trascritto «cm»); «ee» (s40, trascritto «e»); «e» (s41, trascritto «ee»).

@@ -92,10 +92,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `e82517348e27587fb43e4ca5761e38bd` — 505.354 s (8:25.4), 1080p 16:9, resa in 62 s, con SRT (`subtitle_url`) |
+| lotto asset | `42b22be0bdd94287a4f8b2a8486999dd` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «npiap» (s05, trascritto «npap»); «e» (s08, trascritto «ee»); «npiap epuap» (s10, trascritto «npap e puap»); «e» (s12, trascritto «ee»); «slough» (s14, trascritto «slau»); «e» (s15, trascritto «ee»); «slough» (s16, trascritto «slau»); «1 2» (s19, trascritto «lezione12»); «slough» (s20, trascritto «slau»); «e» (s23, trascritto «ee»); «ee» (s35, trascritto «e»); «ee» (s37, trascritto «e»); «e» (s41, trascritto «ee»); «con o» (s47, trascritto «cono»); «ee» (s48, trascritto «e»).

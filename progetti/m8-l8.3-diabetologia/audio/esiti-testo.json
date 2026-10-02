@@ -1,0 +1,83 @@
+{
+ "A": {
+  "parole_copione": 650,
+  "parole_dette": 649,
+  "coincidenti": 643,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s16",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "sulfaniluree",
+    "detto": "sulfanilurea"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 568,
+  "parole_dette": 568,
+  "coincidenti": 560,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s46",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s47",
+    "copione": "centottanta",
+    "detto": "180"
+   }
+  ]
+ }
+}

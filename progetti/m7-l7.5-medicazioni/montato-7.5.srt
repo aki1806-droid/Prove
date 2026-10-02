@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:09,680
+Le medicazioni avanzate sono decine, con nomi commerciali diversi in ogni azienda. Studiarle per marca e' inutile.
+
+2
+00:00:09,680 --> 00:00:18,060
+Si studiano per classe, e ogni classe risponde a un problema preciso della lesione: troppo secca, troppo bagnata, necrotica, infetta.
+
+3
+00:00:18,060 --> 00:00:26,750
+La scelta della medicazione discende dalla valutazione con il TIME della lezione sette punto uno: prima la domanda, poi la risposta che sta nell'armadio.
+
+4
+00:00:26,750 --> 00:00:34,410
+Il principio che sta alla base di tutte le medicazioni avanzate: una lesione guarisce piu' rapidamente in un ambiente umido controllato.
+
+5
+00:00:34,410 --> 00:00:41,930
+Una lesione secca forma una crosta e rallenta la migrazione delle cellule; una lesione troppo bagnata macera la cute intorno.
+
+6
+00:00:41,930 --> 00:00:52,280
+La medicazione serve a mantenere l'equilibrio: aggiungere umidita' dove manca, assorbirla dove eccede. Tutte le classi che seguono fanno una di queste due cose, o proteggono.
+
+7
+00:00:52,280 --> 00:01:00,390
+Le classi. I film in poliuretano: trasparenti, semipermeabili, lasciano passare gas e vapore, non liquidi ne' batteri.
+
+8
+00:01:00,390 --> 00:01:09,470
+Si usano per proteggere la cute, sugli stadi uno, su lesioni superficiali senza essudato, come medicazione secondaria e per fissare gli accessi vascolari.
+
+9
+00:01:09,470 --> 00:01:19,430
+Non assorbono: su una lesione essudante provocano macerazione. Il film si vede attraverso, e questo e' il suo pregio: la lesione si controlla senza scoprirla.
+
+10
+00:01:19,430 --> 00:01:28,040
+Gli idrocolloidi: medicazioni occlusive che a contatto con l'essudato formano un gel. Indicati per lesioni con essudato scarso o moderato.
+
+11
+00:01:28,040 --> 00:01:35,280
+Favoriscono il debridement autolitico, cioe' lo scioglimento del tessuto devitalizzato da parte degli enzimi della lesione stessa.
+
+12
+00:01:35,280 --> 00:01:46,800
+Alla rimozione il gel ha un odore caratteristico e un aspetto giallastro che non va scambiato per pus: lo abbiamo detto nella lezione sette punto uno, l'odore si valuta dopo la detersione.
+
+13
+00:01:46,800 --> 00:01:52,820
+Non si usano su lesioni infette, l'occlusione favorisce i batteri anaerobi, ne' molto essudanti.
+
+14
+00:01:52,820 --> 00:02:03,930
+Gli idrogel: contengono molta acqua e cedono umidita'. Sono indicati sulle lesioni secche, sulla necrosi e sullo slough da ammorbidire, perche' favoriscono il debridement autolitico.
+
+15
+00:02:03,930 --> 00:02:13,630
+Richiedono una medicazione secondaria, e vanno applicati solo sul fondo, proteggendo i margini dalla macerazione: l'acqua che serve al fondo fa male alla cute intorno.
+
+16
+00:02:13,630 --> 00:02:23,290
+Gli alginati, di calcio, derivati dalle alghe: altissimo assorbimento, formano un gel, e hanno proprieta' emostatiche, utili sulle lesioni che sanguinano.
+
+17
+00:02:23,290 --> 00:02:31,350
+Le idrofibre, in carbossimetilcellulosa: anch'esse ad alto assorbimento, trattengono l'essudato in verticale, proteggendo i margini.
+
+18
+00:02:31,350 --> 00:02:40,580
+Si usano su lesioni molto essudanti e per riempire cavita'. Mai su lesioni secche, che seccherebbero ancora di piu'. Richiedono una medicazione secondaria.
+
+19
+00:02:40,580 --> 00:02:51,630
+Le schiume in poliuretano: assorbono essudato moderato o abbondante, offrono protezione meccanica e ammortizzazione, e molte hanno un bordo in silicone che si rimuove senza traumi.
+
+20
+00:02:51,630 --> 00:02:59,040
+Si usano anche in prevenzione, su sacro e talloni, e sotto i dispositivi, come abbiamo visto nella lezione sette punto due.
+
+21
+00:02:59,040 --> 00:03:10,190
+Le medicazioni antimicrobiche: all'argento, allo iodio, al PHMB, al miele. Si usano quando c'e' un'infezione locale o il sospetto di biofilm, e per periodi limitati.
+
+22
+00:03:10,190 --> 00:03:20,810
+Si rivaluta indicativamente dopo due settimane, e se l'infezione e' risolta si torna a una medicazione non antimicrobica. Non si usano a scopo preventivo, ne' all'infinito.
+
+23
+00:03:20,810 --> 00:03:33,260
+Le altre classi. Il carbone attivo, per il controllo dell'odore, importante nelle lesioni neoplastiche e per la dignita' della persona. Le interfacce non aderenti, che proteggono la granulazione alla rimozione.
+
+24
+00:03:33,260 --> 00:03:41,780
+Le medicazioni bioattive, collagene, acido ialuronico, modulatori delle proteasi, per le lesioni ferme nonostante una gestione corretta.
+
+25
+00:03:41,780 --> 00:03:53,000
+E le garze tradizionali, che non vanno messe a contatto con il fondo: aderiscono e, alla rimozione, strappano il tessuto nuovo. E' il trauma da medicazione della lezione sette punto uno.
+
+26
+00:03:53,000 --> 00:04:02,360
+L'albero decisionale, che e' il cuore della lezione. Lesione secca o necrotica: idrogel. Slough con poco essudato: idrocolloide o idrogel.
+
+27
+00:04:02,360 --> 00:04:13,250
+Molto essudante: alginato, idrofibra, schiuma. Infetta: antimicrobica, e mai occlusiva. Granulazione con poco essudato: schiuma sottile o idrocolloide.
+
+28
+00:04:13,250 --> 00:04:23,030
+Epitelizzazione: film o idrocolloide sottile. Cavita': si riempie con alginato o idrofibra, senza stipare, perche' comprimere il fondo lo danneggia.
+
+29
+00:04:23,030 --> 00:04:31,270
+Sette righe, e ogni riga e' una risposta d'esame. Il quiz descrive la lesione, tu rispondi con la classe: non con la marca, con la classe.
+
+30
+00:04:31,270 --> 00:04:42,030
+La terapia a pressione negativa, o NPWT. Nella lesione si posiziona una schiuma o una garza, si sigilla con un film, e una pompa applica una pressione subatmosferica.
+
+31
+00:04:42,030 --> 00:04:53,800
+Spesso intorno a meno centoventicinque millimetri di mercurio, in modo continuo o intermittente. Gli effetti: rimuove l'essudato, riduce l'edema, stimola la granulazione e avvicina i margini.
+
+32
+00:04:53,800 --> 00:05:07,700
+La medicazione si cambia ogni quarantotto-settantadue ore. Le controindicazioni: necrosi non rimossa, osteomielite non trattata, neoplasia nella lesione, vasi, organi o anastomosi esposti, fistole non esplorate.
+
+33
+00:05:07,700 --> 00:05:18,630
+Cautela nel paziente anticoagulato, per il rischio di sanguinamento, che durante la terapia va cercato nel contenitore. La gestione: gli allarmi di perdita del sigillo e di contenitore pieno.
+
+34
+00:05:18,630 --> 00:05:29,660
+E una regola: se la pompa resta spenta oltre il tempo previsto dalla procedura, spesso due ore, la medicazione va rimossa: una schiuma chiusa senza aspirazione e' un ambiente favorevole ai batteri.
+
+35
+00:05:29,660 --> 00:05:42,970
+Il debridement, la rimozione del tessuto non vitale. Autolitico, con idrogel e idrocolloidi: lento, selettivo, indolore, di competenza infermieristica. Enzimatico, con prodotti specifici su prescrizione.
+
+36
+00:05:42,970 --> 00:05:52,080
+Meccanico, per esempio con garze che si seccano e strappano il tessuto: non selettivo e doloroso, oggi sconsigliato. Biologico, con larve sterili.
+
+37
+00:05:52,080 --> 00:06:00,690
+Con taglienti: il debridement conservativo puo' essere eseguito da un infermiere formato, secondo le procedure aziendali; quello chirurgico e' medico.
+
+38
+00:06:00,690 --> 00:06:12,980
+E quando non si fa debridement. Sull'escara secca e stabile al tallone, senza infezione, come abbiamo visto. Sull'arto ischemico non rivascolarizzato, perche' il tessuto rimosso non puo' ricrescere e la lesione si allarga.
+
+39
+00:06:12,980 --> 00:06:22,290
+E nella persona in fine vita, quando l'obiettivo non e' la guarigione ma il comfort: gestione dell'odore, dell'essudato e del dolore. Lo vedremo nel modulo undici.
+
+40
+00:06:22,290 --> 00:06:32,270
+Il caso. Lesione sacrale stadio tre, fondo con slough per il sessanta per cento, essudato abbondante, cute perilesionale macerata, nessun segno di infezione.
+
+41
+00:06:32,270 --> 00:06:42,320
+Con il TIME: tessuto non vitale da rimuovere; infezione assente; umidita' in eccesso; margini a rischio per la macerazione. Quattro lettere, quattro risposte.
+
+42
+00:06:42,320 --> 00:06:55,330
+La scelta: detersione, protezione della cute perilesionale con un prodotto barriera, e una medicazione ad alto assorbimento, alginato o idrofibra con una schiuma come secondaria, valutando un debridement per lo slough.
+
+43
+00:06:55,330 --> 00:07:02,170
+E naturalmente scarico e nutrizione: la medicazione da sola non guarisce una lesione da pressione.
+
+44
+00:07:02,170 --> 00:07:14,790
+In Veneto ogni azienda ha un prontuario delle medicazioni avanzate, con indicazioni d'uso, e infermieri esperti in wound care che fanno da consulenti. In alcuni percorsi la NPWT prosegue anche a domicilio.
+
+45
+00:07:14,790 --> 00:07:22,540
+All'orale, citare la scelta per classe in base al TIME mostra metodo: la commissione non vuole il nome del prodotto, vuole il ragionamento.
+
+46
+00:07:22,540 --> 00:07:34,850
+Ricapitoliamo. Ambiente umido controllato. Secca: idrogel. Essudante: alginato, idrofibra, schiuma. Infetta: antimicrobica, mai occlusiva, e per periodi limitati.
+
+47
+00:07:34,850 --> 00:07:49,370
+NPWT: circa meno centoventicinque, cambio ogni quarantotto-settantadue ore, e se la pompa resta spenta troppo a lungo si rimuove. Debridement: autolitico, enzimatico, con taglienti, mai sull'escara stabile del tallone.
+
+48
+00:07:49,370 --> 00:07:53,970
+Nella prossima lezione: le stomie. A tra poco.
