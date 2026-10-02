@@ -93,10 +93,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `23789c8afd1e75a4af429a6035a1cbbe` — 504.627 s (8:24.6), 1080p 16:9, resa in 79 s, con SRT (`subtitle_url`) |
+| lotto asset | `3496b057cdb04ddc9923dc4d8883d49b` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s03, trascritto «ee»); «alti flussi» (s03, trascritto «altiflussi»); «e» (s22, trascritto «ee»); «ee» (s29, trascritto «e»); «e» (s31, trascritto «ee»); «emogas» (s33, trascritto «emo gas»); «emogas» (s34, trascritto «emo gas»); «ee» (s36, trascritto «e»); «al» (s39, trascritto «a»); «a bassa» (s44, trascritto «abbassa»); «emogas» (s45, trascritto «emo gas»).

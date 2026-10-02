@@ -94,10 +94,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `e4be113283c84a9f760e58afd948f0e1` — 502.733 s (8:22.7), 1080p 16:9, resa in 75 s, con SRT (`subtitle_url`) |
+| lotto asset | `c1c0ef2d7e7443d9895b1bba57fed328` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «artero venosa» (s03, trascritto «arterovenosa»); «prerenali» (s05, trascritto «pre renali»); «postrenali» (s06, trascritto «post renali»); «millilitro» (s07, trascritto «millimetro»); «g 1» (s10, trascritto «g1»); «g 5» (s10, trascritto «g5»); «g 5» (s11, trascritto «g5»); «e» (s15, trascritto «ee»); «artero venosa» (s17, trascritto «arterovenosa»); «tunnellizzato» (s17, trascritto «tunnelizzato»); «artero venosa» (s18, trascritto «arterovenosa»); «e» (s27, trascritto «ee»); «1» (s31, trascritto «una»); «e» (s36, trascritto «ee»); «al» (s41, trascritto «a»); «e» (s43, trascritto «ee»).

@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,200
+L'apparato digerente produce due tipi di domande d'esame: le emergenze, l'emorragia digestiva, la pancreatite, e le procedure, l'endoscopia, la preparazione intestinale, la paracentesi.
+
+2
+00:00:14,200 --> 00:00:22,420
+In mezzo c'e' la cirrosi, una malattia cronica con complicanze che l'infermiere deve saper riconoscere presto, a partire dall'encefalopatia.
+
+3
+00:00:22,420 --> 00:00:31,470
+Tre blocchi, quindi: cio' che sanguina, cio' che si scompensa, cio' che si prepara. E un filo: quasi tutto, qui, l'infermiere lo vede prima del laboratorio.
+
+4
+00:00:31,470 --> 00:00:44,580
+L'emorragia digestiva. Si dice alta se l'origine e' a monte del legamento di Treitz, esofago, stomaco, duodeno, e si manifesta con ematemesi, vomito di sangue rosso o a fondo di caffe', cioe' sangue digerito.
+
+5
+00:00:44,580 --> 00:00:51,590
+E con melena, feci nere, picee, maleodoranti. Le cause principali: ulcera peptica e varici esofagee.
+
+6
+00:00:51,590 --> 00:01:06,020
+Si dice bassa se l'origine e' nel colon o nel retto, con sangue rosso dall'ano: diverticoli, neoplasie, emorroidi. Un'avvertenza: un'emorragia alta molto abbondante puo' passare cosi' in fretta da arrivare rossa dal retto.
+
+7
+00:01:06,020 --> 00:01:16,500
+L'assistenza. Parametri e segni di shock: tachicardia, ipotensione, pallore, sudorazione, oliguria, agitazione. Due accessi venosi di grosso calibro.
+
+8
+00:01:16,500 --> 00:01:26,750
+Prelievi: emocromo, coagulazione, gruppo e prove crociate. Digiuno, perche' seguira' un'endoscopia urgente. Liquidi ed emocomponenti secondo prescrizione.
+
+9
+00:01:26,750 --> 00:01:39,230
+E un'avvertenza importante: nelle prime ore l'emoglobina puo' essere ancora normale, perche' si perde sangue intero; scende in ritardo. Un'emoglobina normale non esclude un'emorragia grave: contano i parametri.
+
+10
+00:01:39,230 --> 00:01:48,760
+Le varici esofagee sono vene dilatate dell'esofago, conseguenza dell'ipertensione portale nella cirrosi. Quando sanguinano, il sanguinamento e' spesso massivo.
+
+11
+00:01:48,760 --> 00:01:55,520
+Il trattamento, su prescrizione, comprende farmaci vasoattivi, profilassi antibiotica e legatura endoscopica.
+
+12
+00:01:55,520 --> 00:02:06,610
+Per l'infermiere, oltre allo shock, conta la sorveglianza delle vie aeree, per il rischio di inalazione del sangue vomitato: un paziente che vomita sangue e perde coscienza va messo sul fianco.
+
+13
+00:02:06,610 --> 00:02:19,500
+La cirrosi: un danno epatico cronico in cui il fegato si riempie di tessuto fibroso. Le cause principali: alcol, virus dell'epatite B e C, e sempre piu' la steatosi legata a obesita' e diabete.
+
+14
+00:02:19,500 --> 00:02:32,140
+Le complicanze: ascite, varici, encefalopatia, ittero, coagulopatia, il fegato produce meno fattori della coagulazione, infezioni come la peritonite batterica spontanea, e insufficienza renale.
+
+15
+00:02:32,140 --> 00:02:41,940
+L'ascite: liquido nella cavita' addominale. L'assistenza: dieta iposodica, diuretici secondo prescrizione, peso quotidiano e circonferenza addominale.
+
+16
+00:02:41,940 --> 00:02:49,290
+Misurata sempre nello stesso punto, di solito all'ombelico, segnato con un pennarello, e alla stessa ora. Bilancio idrico.
+
+17
+00:02:49,290 --> 00:02:55,330
+Attenzione al respiro, perche' un'ascite voluminosa comprime il diaframma, e alla cute tesa dell'addome.
+
+18
+00:02:55,330 --> 00:03:08,010
+La paracentesi, eseguita dal medico con l'assistenza infermieristica. Prima: consenso e, dettaglio da ricordare, far svuotare la vescica, per non pungerla. Posizione supina o semiseduta, asepsi.
+
+19
+00:03:08,010 --> 00:03:16,480
+Durante e dopo: sorveglianza della pressione, perche' la rimozione di molti litri puo' causare ipotensione. Si registra la quantita' drenata.
+
+20
+00:03:16,480 --> 00:03:28,140
+E nelle paracentesi di grande volume si somministra albumina secondo prescrizione, la ritrovi nella lezione sei punto tre. Poi si sorveglia il punto di puntura, da cui il liquido puo' continuare a uscire.
+
+21
+00:03:28,140 --> 00:03:36,250
+L'encefalopatia epatica: il fegato malato non elimina l'ammoniaca e altre sostanze prodotte nell'intestino, che arrivano al cervello.
+
+22
+00:03:36,250 --> 00:03:45,730
+I primi segni sono subdoli: inversione del ritmo sonno-veglia, confusione, cambiamenti della personalita'. Chi conosce il paziente li nota prima di chi lo visita.
+
+23
+00:03:45,730 --> 00:03:54,590
+Poi l'asterixis, o flapping tremor: chiedendo alla persona di tenere le braccia tese con i polsi estesi, le mani sbattono come ali. Fino al coma.
+
+24
+00:03:54,590 --> 00:04:06,890
+I fattori scatenanti sono la chiave per l'infermiere: stipsi, emorragia digestiva, il sangue nell'intestino e' una fonte di ammoniaca, infezioni, sedativi, squilibri elettrolitici, disidratazione.
+
+25
+00:04:06,890 --> 00:04:19,420
+L'assistenza. Il lattulosio, secondo prescrizione, con un obiettivo preciso: due-tre evacuazioni morbide al giorno, perche' riduce l'assorbimento dell'ammoniaca. A volte un antibiotico intestinale, la rifaximina.
+
+26
+00:04:19,420 --> 00:04:27,130
+Prevenire la stipsi, evitare i sedativi, sorvegliare lo stato di coscienza e la sicurezza, perche' la persona confusa cade.
+
+27
+00:04:27,130 --> 00:04:34,030
+E cercare sempre il fattore scatenante. Un cirrotico con stipsi da tre giorni che diventa confuso: il nesso c'e'.
+
+28
+00:04:34,030 --> 00:04:47,490
+La pancreatite acuta. Il dolore e' epigastrico, intenso, a barra, irradiato al dorso, con nausea e vomito. Le cause principali sono i calcoli biliari e l'alcol. Gli enzimi amilasi e lipasi sono elevati.
+
+29
+00:04:47,490 --> 00:04:56,050
+L'assistenza: analgesia adeguata, liquidi precoci secondo prescrizione, monitoraggio di parametri, diuresi, glicemia e calcio.
+
+30
+00:04:56,050 --> 00:05:06,460
+E un aggiornamento rispetto ai vecchi manuali: non si tiene il paziente a digiuno a lungo; la nutrizione precoce, preferibilmente enterale, appena possibile, riduce le complicanze.
+
+31
+00:05:06,460 --> 00:05:20,270
+Le procedure. La gastroscopia: digiuno dai solidi, di norma almeno sei ore, e dai liquidi chiari, di norma due, secondo procedura. Consenso, rimozione delle protesi dentarie, gestione degli anticoagulanti secondo indicazione.
+
+32
+00:05:20,270 --> 00:05:30,830
+Dopo: se e' stato usato un anestetico locale in gola, niente cibo ne' bevande finche' non ritorna il riflesso della deglutizione: e' la regola della disfagia della lezione tre punto tre.
+
+33
+00:05:30,830 --> 00:05:35,910
+E sorveglianza di dolore, febbre, enfisema: possibili segni di perforazione.
+
+34
+00:05:35,910 --> 00:05:44,650
+La colonscopia. Il risultato dipende dalla preparazione intestinale: dieta povera di scorie nei giorni precedenti, liquidi chiari il giorno prima.
+
+35
+00:05:44,650 --> 00:05:52,670
+E la soluzione lassativa, spesso in dose frazionata, una parte la sera, una la mattina: la seconda meta' vicina all'esame pulisce meglio.
+
+36
+00:05:52,670 --> 00:06:01,060
+Si sospende il ferro secondo indicazione, perche' scurisce le feci. La preparazione e' adeguata quando le scariche sono liquide, chiare, giallastre.
+
+37
+00:06:01,060 --> 00:06:12,740
+Nell'anziano si sorvegliano disidratazione, squilibri elettrolitici e il rischio di caduta nelle corse notturne al bagno. Dopo l'esame: dolore e sanguinamento, soprattutto dopo l'asportazione di polipi.
+
+38
+00:06:12,740 --> 00:06:22,260
+L'ittero: la colorazione gialla di cute e sclere, da aumento della bilirubina. Nell'ittero da ostruzione delle vie biliari le urine diventano scure e le feci chiare.
+
+39
+00:06:22,260 --> 00:06:31,120
+Il sintomo piu' fastidioso per la persona e' spesso il prurito: igiene delicata, unghie corte, cute idratata, e segnalazione per la terapia.
+
+40
+00:06:31,120 --> 00:06:40,660
+Il caso. Paziente cirrotico, da ieri piu' sonnolento e confuso, alvo chiuso da tre giorni, e stanotte ha ricevuto una benzodiazepina. Che cosa pensi?
+
+41
+00:06:40,660 --> 00:06:51,030
+Encefalopatia epatica, con due fattori scatenanti evidenti: la stipsi e il sedativo. Che cosa fai? Valuti coscienza e asterixis, rilevi parametri e glicemia.
+
+42
+00:06:51,030 --> 00:06:56,650
+Avvisi il medico segnalando i fattori scatenanti, e prepari il lattulosio secondo prescrizione.
+
+43
+00:06:56,650 --> 00:07:06,240
+E sorvegli la sicurezza e il rischio di inalazione. Il nesso c'era gia' ieri sera, nella consegna: tre giorni senza alvo e una benzodiazepina.
+
+44
+00:07:06,240 --> 00:07:15,680
+In Veneto, accanto ai servizi di endoscopia digestiva e ai percorsi per l'emorragia digestiva, e' attivo il programma regionale di screening del tumore del colon-retto.
+
+45
+00:07:15,680 --> 00:07:24,210
+Con la ricerca del sangue occulto nelle feci e la colonscopia di approfondimento: un tema di prevenzione che collega questa lezione al modulo undici.
+
+46
+00:07:24,210 --> 00:07:38,110
+La sintesi. Ematemesi e melena: emorragia alta; rettorragia: bassa. L'emoglobina scende in ritardo. Due accessi di grosso calibro. Ascite: peso e circonferenza. Paracentesi: vescica vuota, albumina.
+
+47
+00:07:38,110 --> 00:07:50,200
+Encefalopatia: asterixis, lattulosio per due-tre scariche, niente sedativi. Pancreatite: dolore a barra verso il dorso. Dopo la gastroscopia: aspettare il riflesso della deglutizione.
+
+48
+00:07:50,200 --> 00:08:00,390
+Nella prossima lezione entriamo in neurologia, con l'ictus al centro: riconoscerlo in pochi secondi e attivare il percorso giusto puo' cambiare la vita di una persona. A tra poco.

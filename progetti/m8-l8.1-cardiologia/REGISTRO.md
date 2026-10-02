@@ -95,10 +95,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `a8b1a17fdd66c1f748077eaf9d985ca5` — 487.105 s (8:07.1), 1080p 16:9, resa in 161 s, con SRT (`subtitle_url`) |
+| lotto asset | `cefd0b05d955474ea0d137c01a197f3b` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «cede il» (s06, trascritto «c e del»); «cede il» (s07, trascritto «c e del»); «semiseduta» (s10, trascritto «semi seduta»); «1 chilovirgola5» (s12, trascritto «1virgola5 kg»); «lezione23» (s12, trascritto «2 3»); «e» (s13, trascritto «ee»); «e» (s20, trascritto «a»); «e» (s38, trascritto «ee»); «e» (s45, trascritto «ee»).

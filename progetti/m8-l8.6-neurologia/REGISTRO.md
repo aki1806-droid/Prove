@@ -87,10 +87,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `e530e796af58aefe4458e46a487c06e1` — 501.843 s (8:21.8), 1080p 16:9, resa in 81 s, con SRT (`subtitle_url`) |
+| lotto asset | `56ed288c5b894d85aa54cfe3aae58439` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s06, trascritto «ee»); «trombectomia» (s14, trascritto «trombectomica»); «centottantacinque» (s15, trascritto «185»); «centottanta» (s17, trascritto «180»); «e» (s22, trascritto «ee»); «e» (s33, trascritto «ee»); «ee» (s35, trascritto «e»); «e» (s43, trascritto «ee»); «centottantacinque» (s45, trascritto «185»); «centottanta» (s45, trascritto «180»).

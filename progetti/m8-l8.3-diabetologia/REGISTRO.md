@@ -90,10 +90,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `010ca3d02fd3b24b28f5449a6655d1a3` — 495.599 s (8:15.6), 1080p 16:9, resa in 80 s, con SRT (`subtitle_url`) |
+| lotto asset | `387617b7ae0e4598a5aba5a713683a14` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «lezione23» (s08, trascritto «2 3»); «centottanta» (s16, trascritto «180»); «e» (s17, trascritto «ee»); «e» (s17, trascritto «ee»); «sulfaniluree» (s19, trascritto «sulfanilurea»); «e» (s33, trascritto «ee»); «e» (s33, trascritto «ee»); «e» (s39, trascritto «ee»); «e» (s40, trascritto «ee»); «e» (s43, trascritto «ee»); «e» (s44, trascritto «ee»); «e» (s46, trascritto «ee»); «centottanta» (s47, trascritto «180»).

@@ -21,12 +21,12 @@ in 8.2 il confine s46/s47 e' spostato di una pausa (correzioni.json), in
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 8.1 | Cardiologia | — | da fare |
-| 8.2 | Pneumologia e ossigenoterapia | — | da fare |
-| 8.3 | Diabetologia e malattie endocrine | — | da fare |
-| 8.4 | Nefrologia e urologia | — | da fare |
-| 8.5 | Gastroenterologia ed epatologia | — | da fare |
-| 8.6 | Neurologia | — | da fare |
+| 8.1 | Cardiologia | 8:07.1 | `a8b1a17fdd66c1f748077eaf9d985ca5` |
+| 8.2 | Pneumologia e ossigenoterapia | 8:24.6 | `23789c8afd1e75a4af429a6035a1cbbe` |
+| 8.3 | Diabetologia e malattie endocrine | 8:15.6 | `010ca3d02fd3b24b28f5449a6655d1a3` |
+| 8.4 | Nefrologia e urologia | 8:22.7 | `e4be113283c84a9f760e58afd948f0e1` |
+| 8.5 | Gastroenterologia ed epatologia | 8:09.4 | `652e822b8f82309e44d6d66aceb36812` |
+| 8.6 | Neurologia | 8:21.8 | `e530e796af58aefe4458e46a487c06e1` |
 | 8.7 | Oncologia ed ematologia | — | da fare |
 | 8.8 | Riepilogo del Modulo 8 e autovalutazione | — | da fare |
 

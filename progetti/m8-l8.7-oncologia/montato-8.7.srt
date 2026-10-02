@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,480
+In oncologia l'infermiere accompagna la persona per mesi o anni, attraverso trattamenti pesanti e momenti difficili. Questa lezione unisce due piani.
+
+2
+00:00:11,480 --> 00:00:22,070
+Quello tecnico: la gestione degli effetti dei trattamenti e delle emergenze, prima fra tutte la neutropenia febbrile. E quello umano: la persona con un tumore non e' solo un corpo da trattare.
+
+3
+00:00:22,070 --> 00:00:31,860
+Un richiamo alla lezione cinque punto sette, che contiene la parte tecnica: allestimento centralizzato nell'UFA, DPI nella somministrazione, la sequenza dello stravaso.
+
+4
+00:00:31,860 --> 00:00:41,490
+Gli escreti contaminati per almeno quarantotto ore, e la Raccomandazione quattordici sugli errori con gli antineoplastici. Qui ci occupiamo degli effetti dei trattamenti sulla persona.
+
+5
+00:00:41,490 --> 00:00:51,680
+Nausea e vomito da chemioterapia si distinguono in tre tipi. Anticipatori: compaiono prima del trattamento, per un meccanismo di condizionamento, basta l'odore dell'ospedale.
+
+6
+00:00:51,680 --> 00:00:57,070
+Acuti: entro ventiquattro ore. Ritardati: dopo ventiquattro ore, anche per giorni.
+
+7
+00:00:57,070 --> 00:01:07,330
+La regola: gli antiemetici si somministrano prima del trattamento e secondo lo schema prescritto, non solo al bisogno, perche' e' molto piu' facile prevenire la nausea che fermarla.
+
+8
+00:01:07,330 --> 00:01:13,700
+E consigli pratici: pasti piccoli e frequenti, cibi freddi, meno odorosi, evitare odori forti.
+
+9
+00:01:13,700 --> 00:01:22,480
+La mucosite: infiammazione e ulcerazione delle mucose, soprattutto della bocca. Provoca dolore, difficolta' a mangiare e un rischio di infezione.
+
+10
+00:01:22,480 --> 00:01:32,270
+L'assistenza: igiene orale con spazzolino morbido, sciacqui blandi con soluzione fisiologica o bicarbonato, niente collutori alcolici, che bruciano e seccano.
+
+11
+00:01:32,270 --> 00:01:43,430
+Analgesia, perche' una mucosite grave fa male come un'ustione, e nutrizione. Con alcuni farmaci si usa la crioterapia: tenere ghiaccio in bocca durante l'infusione riduce la mucosite.
+
+12
+00:01:43,430 --> 00:01:51,070
+La mielosoppressione: la chemioterapia riduce la produzione del midollo, con un calo di globuli bianchi, rossi e piastrine.
+
+13
+00:01:51,070 --> 00:02:00,590
+Il punto piu' basso si chiama nadir, e cade di solito sette-quattordici giorni dopo il trattamento: e' il periodo di maggiore rischio, spesso quando la persona e' gia' a casa.
+
+14
+00:02:00,590 --> 00:02:07,990
+La neutropenia espone alle infezioni, l'anemia da' astenia e dispnea, la piastrinopenia espone al sanguinamento.
+
+15
+00:02:07,990 --> 00:02:21,260
+La neutropenia febbrile, l'emergenza oncologica piu' frequente. Neutrofili sotto cinquecento, o sotto mille con previsione di calo, con febbre da trentotto virgola tre in una singola misurazione, o da trentotto persistente.
+
+16
+00:02:21,260 --> 00:02:32,490
+E' un'emergenza: una persona senza difese puo' morire di sepsi in poche ore. La regola: emocolture, periferiche e dal catetere, e antibiotico ad ampio spettro entro sessanta minuti.
+
+17
+00:02:32,490 --> 00:02:42,090
+E una trappola: i segni di infezione possono essere minimi, perche' senza neutrofili non si forma pus ne' infiammazione evidente. A volte la febbre e' l'unico segno.
+
+18
+00:02:42,090 --> 00:02:54,940
+Le misure nel paziente neutropenico. Igiene delle mani rigorosissima. Niente visitatori con sintomi di infezione. Igiene orale e cutanea. Sicurezza degli alimenti secondo indicazione. Niente fiori e piante.
+
+19
+00:02:54,940 --> 00:03:07,140
+Nessuna manovra rettale: niente temperatura rettale, niente supposte ne' clisteri, che possono causare microlesioni e batteriemie. Nei casi indicati, l'isolamento protettivo della lezione quattro punto tre.
+
+20
+00:03:07,140 --> 00:03:12,910
+E l'educazione: misurare la febbre a casa e sapere chi chiamare, subito, se supera la soglia.
+
+21
+00:03:12,910 --> 00:03:21,410
+La piastrinopenia. Il rischio di sanguinamento aumenta sotto circa cinquantamila piastrine, e diventa spontaneo sotto diecimila-ventimila.
+
+22
+00:03:21,410 --> 00:03:29,390
+I segni: petecchie, piccoli puntini rossi, ecchimosi, sangue dalle gengive, epistassi, sangue nelle urine o nelle feci.
+
+23
+00:03:29,390 --> 00:03:42,370
+Le precauzioni sono quelle dell'anticoagulato della lezione cinque punto cinque: spazzolino morbido, rasoio elettrico, niente intramuscolari ne' manovre rettali, prevenire le cadute, compressione prolungata dopo i prelievi.
+
+24
+00:03:42,370 --> 00:03:49,850
+E trasfusione di piastrine secondo prescrizione: a venti-ventiquattro gradi, in agitazione, come nella lezione sei punto sei.
+
+25
+00:03:49,850 --> 00:04:01,270
+Le emergenze oncologiche da riconoscere. La sindrome da lisi tumorale: la distruzione rapida di molte cellule tumorali libera nel sangue potassio, fosforo e acido urico, con danno renale.
+
+26
+00:04:01,270 --> 00:04:07,080
+Si previene con idratazione e farmaci specifici, e si monitorano elettroliti e diuresi.
+
+27
+00:04:07,080 --> 00:04:18,460
+La compressione midollare: dolore dorsale che peggiora, debolezza delle gambe, disturbi sfinterici: e' un'urgenza, perche' ogni ora di ritardo aumenta il rischio di paralisi permanente.
+
+28
+00:04:18,460 --> 00:04:27,010
+La sindrome della vena cava superiore, con edema di volto e collo e dispnea. E l'ipercalcemia, con confusione, stipsi e poliuria.
+
+29
+00:04:27,010 --> 00:04:34,670
+Gli altri effetti. L'alopecia, che ha un forte impatto sull'immagine di se': va spiegata prima, perche' coglierla di sorpresa e' peggio.
+
+30
+00:04:34,670 --> 00:04:47,910
+La fatigue, una stanchezza che non passa con il riposo: e' l'effetto piu' frequente e piu' sottovalutato. La neuropatia periferica, con formicolii a mani e piedi. Le alterazioni del gusto, che peggiorano l'alimentazione.
+
+31
+00:04:47,910 --> 00:04:55,170
+L'infertilita', di cui si informa prima del trattamento, per le possibili misure di preservazione. Diarrea o stipsi.
+
+32
+00:04:55,170 --> 00:05:05,160
+Il supporto nutrizionale. La persona con un tumore e' ad alto rischio di malnutrizione e di cachessia, che ricordi dalla lezione tre punto tre non si corregge solo con il cibo.
+
+33
+00:05:05,160 --> 00:05:18,310
+Si esegue lo screening nutrizionale, si offrono pasti piccoli e frequenti e cibi graditi, supplementi, e soprattutto si trattano i sintomi che impediscono di mangiare: nausea, mucosite, dolore, stipsi.
+
+34
+00:05:18,310 --> 00:05:26,890
+Il supporto psicologico. La diagnosi e i trattamenti portano ansia, paura, a volte depressione, e cambiano la vita della famiglia e il lavoro.
+
+35
+00:05:26,890 --> 00:05:37,600
+L'infermiere offre ascolto, informazione graduale, presenza: gli strumenti della lezione due punto sette. Coinvolge il caregiver e attiva, quando serve, la psico-oncologia.
+
+36
+00:05:37,600 --> 00:05:49,650
+E un concetto importante: le cure palliative non riguardano solo il fine vita. Le cure palliative precoci, simultanee alle terapie oncologiche, migliorano la qualita' della vita. Lo vedremo nel modulo undici.
+
+37
+00:05:49,650 --> 00:06:00,670
+La radioterapia, in cenni. La cute dell'area irradiata va trattata con delicatezza: lavaggio delicato, asciugare tamponando, niente creme subito prima della seduta, niente sole.
+
+38
+00:06:00,670 --> 00:06:10,610
+E non cancellare i segni di centratura disegnati sulla pelle. La fatigue. Gli effetti legati alla sede: mucosite nel distretto testa-collo, diarrea nella pelvi.
+
+39
+00:06:10,610 --> 00:06:21,350
+E nella brachiterapia, in cui la sorgente radioattiva e' dentro il corpo, valgono le regole della radioprotezione: limitare il tempo, aumentare la distanza, usare le schermature.
+
+40
+00:06:21,350 --> 00:06:33,740
+Il caso. Una donna in chemioterapia, ultimo ciclo dieci giorni fa, siamo nel periodo del nadir, telefona: febbre a trentotto virgola quattro, nessun altro sintomo, si sente solo un po' stanca. Che cosa fai?
+
+41
+00:06:33,740 --> 00:06:42,430
+La tratti come una possibile neutropenia febbrile finche' non si dimostra il contrario: deve presentarsi subito in ospedale secondo il percorso previsto.
+
+42
+00:06:42,430 --> 00:06:46,950
+Dove si eseguono emocromo, emocolture e antibiotico entro un'ora.
+
+43
+00:06:46,950 --> 00:06:52,640
+Prenda un antipiretico e vediamo domani e' la risposta che puo' costarle la vita.
+
+44
+00:06:52,640 --> 00:07:04,880
+In Veneto la Rete Oncologica Veneta coordina i percorsi diagnostico-terapeutici per ciascun tipo di tumore, con figure infermieristiche dedicate e case manager che accompagnano la persona lungo il percorso.
+
+45
+00:07:04,880 --> 00:07:18,870
+Ci sono i day hospital oncologici, la rete delle cure palliative e gli screening regionali per mammella, cervice e colon-retto. All'orale, citare la Rete Oncologica Veneta e il case manager mostra conoscenza del sistema.
+
+46
+00:07:18,870 --> 00:07:33,510
+La sintesi. Antiemetici prima del trattamento. Mucosite: niente collutori alcolici. Nadir a sette-quattordici giorni. Neutropenia febbrile: sotto cinquecento e febbre da trentotto virgola tre, antibiotico entro un'ora.
+
+47
+00:07:33,510 --> 00:07:47,670
+Nel neutropenico niente manovre rettali, niente fiori. Piastrine sotto cinquantamila rischio, sotto dieci-ventimila sanguinamento spontaneo. Compressione midollare: urgenza. Radioterapia: non cancellare i segni.
+
+48
+00:07:47,670 --> 00:07:59,190
+Una frase da portare via: la febbre in un paziente in chemioterapia e' un'emergenza finche' non si dimostra il contrario. Nella prossima lezione ricomponiamo il modulo otto, con i segni d'allarme. A tra poco.

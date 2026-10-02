@@ -55,14 +55,8 @@
  "B": {
   "parole_copione": 606,
   "parole_dette": 607,
-  "coincidenti": 595,
-  "buchi": [
-   {
-    "blocco": "s36",
-    "parole_copione": "psico oncologia e",
-    "al_loro_posto": "psiconcologia ee"
-   }
-  ],
+  "coincidenti": 599,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s28",
@@ -70,9 +64,9 @@
     "detto": "ee"
    },
    {
-    "blocco": "s33",
-    "copione": "di cachessia",
-    "detto": "dica che sia"
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
    },
    {
     "blocco": "s39",

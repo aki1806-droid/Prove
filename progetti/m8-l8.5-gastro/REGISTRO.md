@@ -90,10 +90,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `652e822b8f82309e44d6d66aceb36812` — 489.408 s (8:09.4), 1080p 16:9, resa in 91 s, con SRT (`subtitle_url`) |
+| lotto asset | `2e3280b5a75c4d839db1610dbd2f95a6` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «picee» (s06, trascritto «pice»); «e» (s10, trascritto «ee»); «semiseduta» (s19, trascritto «semi seduta»); «lezione23» (s26, trascritto «2 3»); «e» (s28, trascritto «ee»); «e» (s31, trascritto «ee»); «e» (s33, trascritto «ee»); «e» (s34, trascritto «ee»); «e» (s36, trascritto «ee»); «vicina» (s36, trascritto «vicino»); «e» (s44, trascritto «ee»); «alvo» (s44, trascritto «albo»); «lezione23» (s48, trascritto «2 3»).

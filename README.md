@@ -76,6 +76,12 @@ progetti/<modulo>-<lezione>/
 | `m7-l7.6-stomie` | Modulo 7 · 7.6 Stomie digestive e urinarie | 8:16.6 | `0a180b973fe009e9b36fc838472bb0d4` |
 | `m7-l7.7-drenaggi` | Modulo 7 · 7.7 Drenaggi | 8:09.4 | `a179f39182fd1518e15132ca40c6e82a` |
 | `m7-l7.8-riepilogo` | Modulo 7 · 7.8 Riepilogo del Modulo 7 e autovalutazione | 8:09.1 | `cbf37aa65a78ba33a073f730dbf78db9` |
+| `m8-l8.1-cardiologia` | Modulo 8 · 8.1 Cardiologia | 8:07.1 | `a8b1a17fdd66c1f748077eaf9d985ca5` |
+| `m8-l8.2-pneumologia` | Modulo 8 · 8.2 Pneumologia e ossigenoterapia | 8:24.6 | `23789c8afd1e75a4af429a6035a1cbbe` |
+| `m8-l8.4-nefrologia` | Modulo 8 · 8.4 Nefrologia e urologia | 8:22.7 | `e4be113283c84a9f760e58afd948f0e1` |
+| `m8-l8.3-diabetologia` | Modulo 8 · 8.3 Diabetologia e malattie endocrine | 8:15.6 | `010ca3d02fd3b24b28f5449a6655d1a3` |
+| `m8-l8.5-gastro` | Modulo 8 · 8.5 Gastroenterologia ed epatologia | 8:09.4 | `652e822b8f82309e44d6d66aceb36812` |
+| `m8-l8.6-neurologia` | Modulo 8 · 8.6 Neurologia | 8:21.8 | `e530e796af58aefe4458e46a487c06e1` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

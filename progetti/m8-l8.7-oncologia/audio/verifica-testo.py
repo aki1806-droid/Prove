@@ -80,6 +80,12 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ # Il trascrittore ha scritto «dica che sia» per «di cachessia» (8.7, s33):
+ # tre parole contro due, e il contatore lo leggeva come un buco.
+ (r"\bdica che sia\b", " di cachessia "),
+ # «psico-oncologia» nel copione sono due parole, «psiconcologia» nel
+ # trascrittore una sola (s36).
+ (r"\bpsic[o]?-?oncologia\b", " psico oncologia "),
  (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
  (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
  (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),
