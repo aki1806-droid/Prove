@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,470
+Lezione ad altissima resa d'esame. Contiene una regola che vale da sola molte domande: l'ossigeno e' un farmaco, con una prescrizione, una dose e un obiettivo.
+
+2
+00:00:12,470 --> 00:00:23,610
+E contiene i dispositivi, occhialini, maschere, Venturi, alti flussi, ventilazione non invasiva, che i quiz chiedono con numeri precisi. Chiudiamo con la tracheostomia e la broncoaspirazione.
+
+3
+00:00:23,610 --> 00:00:34,000
+Due malattie ostruttive. La BPCO: ostruzione cronica, poco reversibile, causata soprattutto dal fumo; si aggrava nelle riacutizzazioni, spesso infettive.
+
+4
+00:00:34,000 --> 00:00:43,390
+E molti pazienti hanno un rischio di ipercapnia, cioe' di accumulo di anidride carbonica. L'asma: ostruzione reversibile, legata a un'infiammazione delle vie aeree.
+
+5
+00:00:43,390 --> 00:00:55,120
+I segni di un attacco grave: non riesce a parlare in frasi complete, torace silenzioso perche' passa pochissima aria, cianosi, sonnolenza, esaurimento. Un asmatico che smette di sibilare puo' stare peggiorando.
+
+6
+00:00:55,120 --> 00:01:04,050
+Tre quadri acuti. La polmonite: febbre, tosse, espettorato, dolore pleurico, dispnea. Ma nell'anziano spesso si presenta solo con confusione.
+
+7
+00:01:04,050 --> 00:01:14,840
+L'embolia polmonare: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso conseguenza di una trombosi venosa profonda: il legame con la lezione tre punto due.
+
+8
+00:01:14,840 --> 00:01:21,720
+Il versamento pleurico: liquido fra i foglietti pleurici, con dispnea e murmure ridotto, che si drena con la toracentesi.
+
+9
+00:01:21,720 --> 00:01:31,510
+La toracentesi, eseguita dal medico con l'assistenza infermieristica. La persona sta seduta, protesa in avanti con le braccia appoggiate su un tavolino, per allargare gli spazi intercostali.
+
+10
+00:01:31,510 --> 00:01:43,570
+Si sorvegliano parametri, saturazione, tosse e dolore. La quantita' rimossa in una volta e' limitata: un drenaggio troppo rapido puo' causare un edema polmonare da riespansione. Dopo, radiografia di controllo.
+
+11
+00:01:43,570 --> 00:01:56,270
+Il principio fondamentale: l'ossigeno e' un farmaco. Si somministra su prescrizione, e la prescrizione indica un obiettivo di saturazione. Per la maggior parte delle persone il target e' novantaquattro-novantotto per cento.
+
+12
+00:01:56,270 --> 00:02:04,800
+Nei pazienti a rischio di ipercapnia, BPCO, obesita' grave, malattie neuromuscolari, il target e' ottantotto-novantadue per cento.
+
+13
+00:02:04,800 --> 00:02:14,780
+Ricordi il caso della lezione sei punto quattro: troppo ossigeno in un paziente ipercapnico puo' peggiorare l'acidosi respiratoria, fino al coma. Piu' ossigeno non e' sempre meglio.
+
+14
+00:02:14,780 --> 00:02:27,840
+I dispositivi. Gli occhialini nasali: flussi da uno a sei litri al minuto, con una FiO2 indicativa fra circa ventiquattro e quarantaquattro per cento. Una regola pratica e' circa quattro punti in piu' per ogni litro.
+
+15
+00:02:27,840 --> 00:02:37,730
+Sono comodi e permettono di parlare e mangiare, ma la FiO2 reale varia con il modo di respirare. Ai flussi piu' alti si usa l'umidificazione secondo procedura.
+
+16
+00:02:37,730 --> 00:02:44,750
+La maschera semplice: cinque-dieci litri al minuto, con una FiO2 circa del trentacinque-cinquantacinque per cento.
+
+17
+00:02:44,750 --> 00:02:52,360
+E la regola: mai sotto cinque litri, perche' con un flusso basso la persona rirespira la propria anidride carbonica rimasta nella maschera.
+
+18
+00:02:52,360 --> 00:03:05,860
+La maschera con reservoir, con un pallone di riserva: dieci-quindici litri al minuto, FiO2 fino a sessanta-novanta per cento, per la grave ipossiemia. Il pallone resta gonfio: se si affloscia, il flusso e' insufficiente.
+
+19
+00:03:05,860 --> 00:03:16,110
+La maschera di Venturi: garantisce una FiO2 precisa e costante, indicativamente dal ventiquattro al sessanta per cento, indipendentemente da come respira la persona.
+
+20
+00:03:16,110 --> 00:03:25,270
+Funziona con valvole colorate intercambiabili: ogni valvola corrisponde a una FiO2, e su ogni valvola e' scritto il flusso da impostare sul flussimetro.
+
+21
+00:03:25,270 --> 00:03:31,440
+E' il dispositivo di scelta quando serve precisione, come nel paziente con BPCO a rischio di ipercapnia.
+
+22
+00:03:31,440 --> 00:03:41,150
+Gli alti flussi nasali: flussi fino a sessanta litri al minuto di gas riscaldato e umidificato, con una FiO2 regolabile dal ventuno al cento per cento.
+
+23
+00:03:41,150 --> 00:03:50,020
+Generano una lieve pressione positiva e lavano lo spazio morto delle vie aeree. Sono ben tollerati e si usano sempre piu' nell'insufficienza respiratoria acuta.
+
+24
+00:03:50,020 --> 00:03:57,910
+La sicurezza. L'ossigeno alimenta la combustione: niente fiamme, niente fumo, niente grassi o creme oleose sui raccordi.
+
+25
+00:03:57,910 --> 00:04:09,550
+Bombole fissate e verificate prima dei trasporti: un trasporto con una bombola vuota e' un evento avverso evitabile. E sorveglianza della cute sotto occhialini e maschere: sono sedi di lesioni da dispositivo.
+
+26
+00:04:09,550 --> 00:04:17,180
+I limiti del saturimetro, domanda frequente. Lettura inaffidabile con perfusione ridotta, estremita' fredde, movimento, smalto.
+
+27
+00:04:17,180 --> 00:04:25,540
+Nell'intossicazione da monossido di carbonio la saturazione risulta falsamente normale, perche' lo strumento non distingue l'emoglobina legata al monossido.
+
+28
+00:04:25,540 --> 00:04:36,270
+Nell'anemia grave la saturazione puo' essere normale anche se il sangue trasporta poco ossigeno. E la saturazione non misura l'anidride carbonica: un paziente ipercapnico puo' saturare bene.
+
+29
+00:04:36,270 --> 00:04:45,100
+La ventilazione non invasiva. La CPAP applica una pressione positiva continua: si usa nell'edema polmonare acuto e nelle apnee ostruttive del sonno.
+
+30
+00:04:45,100 --> 00:04:59,970
+La NIV a due livelli applica una pressione piu' alta in inspirazione e una piu' bassa in espirazione: e' il trattamento della riacutizzazione di BPCO con acidosi ipercapnica. Interfacce: maschera oronasale, facciale, casco.
+
+31
+00:04:59,970 --> 00:05:12,590
+L'assistenza in NIV e' molto infermieristica. Spiegare e rassicurare: la maschera stretta sul volto da' senso di soffocamento, e una persona agitata non si adatta. Interfaccia della misura giusta, perdite contenute.
+
+32
+00:05:12,590 --> 00:05:24,750
+Protezione della cute, soprattutto sul dorso del naso, dove le lesioni da dispositivo sono frequentissime. Monitoraggio di frequenza respiratoria, saturazione, emogas e coscienza. Distensione gastrica e secchezza.
+
+33
+00:05:24,750 --> 00:05:32,590
+E i segni di fallimento, peggioramento della coscienza, dell'emogas, della fatica, vanno segnalati subito, perche' puo' servire l'intubazione.
+
+34
+00:05:32,590 --> 00:05:41,500
+L'aerosolterapia. Persona seduta, boccaglio preferibile alla maschera, che deposita farmaco su volto e occhi. Respirazione lenta e profonda.
+
+35
+00:05:41,500 --> 00:05:50,710
+Dopo i corticosteroidi, risciacquare la bocca: ricordi la candidosi della lezione cinque punto due. E pulizia e asciugatura dell'apparecchio, per non nebulizzare batteri.
+
+36
+00:05:50,710 --> 00:06:02,550
+La tracheostomia. La cannula puo' essere cuffiata o no, fenestrata o no; molte hanno una controcannula interna, che si pulisce o si sostituisce secondo procedura per evitare l'occlusione da secrezioni.
+
+37
+00:06:02,550 --> 00:06:11,350
+La cuffia si mantiene a una pressione di venti-trenta centimetri d'acqua, controllata con il manometro: troppo poco favorisce l'inalazione, troppo lede la trachea.
+
+38
+00:06:11,350 --> 00:06:23,740
+L'aria non passa piu' dal naso: serve umidificazione, con un naso artificiale. Al letto sempre una cannula di riserva, anche piu' piccola, un dilatatore e un aspiratore funzionante: se la cannula esce, non c'e' tempo.
+
+39
+00:06:23,740 --> 00:06:35,820
+La broncoaspirazione. Si esegue quando serve, secrezioni udibili o visibili, desaturazione, non a orario, perche' ogni aspirazione irrita la mucosa e puo' causare ipossia. Preossigenazione.
+
+40
+00:06:35,820 --> 00:06:47,890
+Tecnica sterile, o sistema chiuso. Catetere non piu' grande della meta' del diametro interno della cannula: la persona deve respirare intorno al catetere. Pressione indicativa ottanta-centocinquanta millimetri di mercurio.
+
+41
+00:06:47,890 --> 00:07:00,980
+Si aspira solo in risalita, ruotando il catetere, mai in discesa. Ogni passaggio non oltre dieci-quindici secondi. Niente fisiologica di routine. Si sorvegliano saturazione e frequenza: rischio di bradicardia vagale.
+
+42
+00:07:00,980 --> 00:07:09,400
+Il caso. Paziente con BPCO, saturazione ottantasei in aria, prescrizione di ossigeno con target ottantotto-novantadue. Quale dispositivo?
+
+43
+00:07:09,400 --> 00:07:20,130
+La maschera di Venturi a bassa FiO2, per esempio ventiquattro o ventotto per cento, che garantisce una concentrazione precisa; in alternativa gli occhialini a basso flusso, con stretto controllo.
+
+44
+00:07:20,130 --> 00:07:28,440
+Poi rivaluti la saturazione, la coscienza e l'emogas. La risposta sbagliata e' la maschera con reservoir, per stare tranquilli.
+
+45
+00:07:28,440 --> 00:07:36,060
+In Veneto esistono unita' di terapia semi-intensiva respiratoria in cui la NIV e' gestita con un ruolo infermieristico centrale.
+
+46
+00:07:36,060 --> 00:07:47,120
+L'ossigenoterapia domiciliare a lungo termine e' prescritta e fornita tramite il distretto, e i pazienti tracheostomizzati a domicilio sono seguiti con percorsi dedicati e addestramento del caregiver.
+
+47
+00:07:47,120 --> 00:08:02,370
+Ricapitoliamo. L'ossigeno e' un farmaco. Target novantaquattro-novantotto, ipercapnici ottantotto-novantadue. Occhialini uno-sei litri; maschera semplice mai sotto cinque; reservoir dieci-quindici; Venturi: FiO2 precisa.
+
+48
+00:08:02,370 --> 00:08:15,600
+Con il monossido di carbonio la saturazione e' falsamente normale. Cuffia a venti-trenta. Aspirare solo in risalita, al massimo dieci-quindici secondi.  Nella prossima lezione: diabete e malattie endocrine. A tra poco.

@@ -95,10 +95,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `a179f39182fd1518e15132ca40c6e82a` — 489.375 s (8:09.4), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| lotto asset | `f4f9429afee74fe98ade657f152cb1fe` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s06, trascritto «ee»); «siero ematico» (s11, trascritto «sieroematico»); «siero ematico» (s12, trascritto «sieroematico»); «e» (s14, trascritto «ee»); «e» (s24, trascritto «ee»); «e» (s33, trascritto «ee»); «clampa» (s33, trascritto «clampe»); «ee» (s34, trascritto «e»); «lezione23» (s35, trascritto «2 3»); «e» (s37, trascritto «ee»); «e» (s39, trascritto «ee»); «e» (s44, trascritto «ee»).

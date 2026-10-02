@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,040
+Il rene e' l'organo che fa i conti: elimina scorie, regola acqua ed elettroliti, controlla l'equilibrio acido-base e la pressione. Quando cede, i conti saltano tutti insieme.
+
+2
+00:00:13,040 --> 00:00:22,820
+In questa lezione vediamo l'insufficienza renale acuta e cronica, la dialisi, con la fistola artero-venosa, che i concorsi chiedono sempre, e alcuni quadri urologici.
+
+3
+00:00:22,820 --> 00:00:31,580
+Un filo per tutta la lezione: la diuresi oraria. E' il numero che dice per primo se il rene sta cedendo, prima della creatinina e prima dei sintomi.
+
+4
+00:00:31,580 --> 00:00:45,660
+L'insufficienza renale acuta: la funzione renale si riduce in ore o giorni. Le cause si dividono in tre gruppi. Prerenali: il rene e' sano ma riceve poco sangue: disidratazione, emorragia, shock, scompenso.
+
+5
+00:00:45,660 --> 00:00:58,650
+Renali: il danno e' nel tessuto renale: farmaci nefrotossici, mezzi di contrasto, sepsi. Postrenali: l'urina non riesce a uscire: ipertrofia prostatica, calcoli, e un banale catetere ostruito.
+
+6
+00:00:58,650 --> 00:01:08,470
+I criteri: un aumento rapido della creatinina o una diuresi sotto mezzo millilitro per chilo per ora per sei ore: ecco perche' la diuresi oraria e' cosi' importante.
+
+7
+00:01:08,470 --> 00:01:22,130
+Davanti a un'oliguria, prima di pensare al rene, l'infermiere controlla le cause piu' semplici. Il catetere e' pervio, senza pieghe o coaguli? C'e' un globo vescicale, verificabile con il bladder scanner?
+
+8
+00:01:22,130 --> 00:01:29,620
+La persona e' disidratata? Che cosa dicono parametri e bilancio? Ci sono farmaci nefrotossici in corso? Spesso l'anuria si risolve sbloccando un catetere.
+
+9
+00:01:29,620 --> 00:01:42,410
+L'insufficienza renale cronica: una riduzione della funzione che dura piu' di tre mesi. Si classifica in stadi in base al filtrato glomerulare, da G uno, con filtrato normale, a G cinque, sotto quindici.
+
+10
+00:01:42,410 --> 00:01:53,420
+Il G cinque e' l'insufficienza terminale, che richiede dialisi o trapianto. Le cause principali sono diabete e ipertensione: le due malattie delle lezioni precedenti arrivano qui.
+
+11
+00:01:53,420 --> 00:02:06,100
+Le complicanze: iperkaliemia, acidosi metabolica, anemia, perche' il rene produce meno eritropoietina, sovraccarico di liquidi, ipertensione, alterazioni di calcio e fosforo con danno osseo.
+
+12
+00:02:06,100 --> 00:02:19,700
+L'assistenza. Bilancio idrico e peso. Una dieta con proteine adattate allo stadio, ridotte prima della dialisi, aumentate in dialisi, come nella lezione tre punto tre, e riduzione di potassio, fosforo e sodio.
+
+13
+00:02:19,700 --> 00:02:25,450
+Restrizione idrica se prescritta. Farmaci con dosi adattate, evitando i nefrotossici.
+
+14
+00:02:25,450 --> 00:02:36,500
+E la protezione del patrimonio venoso dell'arto non dominante, che potrebbe servire per una fistola: niente prelievi ne' cannule su quel braccio, come abbiamo detto nella lezione sei punto uno.
+
+15
+00:02:36,500 --> 00:02:46,820
+L'emodialisi: il sangue esce dal corpo, passa attraverso un filtro, il rene artificiale, e rientra depurato. Di norma tre sedute a settimana di circa quattro ore.
+
+16
+00:02:46,820 --> 00:02:57,790
+Serve un accesso vascolare ad alto flusso: la fistola artero-venosa, che e' l'accesso di scelta, una protesi vascolare, oppure un catetere venoso centrale tunnellizzato per dialisi.
+
+17
+00:02:57,790 --> 00:03:11,860
+La fistola artero-venosa: il chirurgo collega un'arteria e una vena dell'avambraccio, per esempio la radiale e la cefalica. La vena riceve sangue ad alta pressione, si dilata, si rinforza, e diventa pungibile per la dialisi.
+
+18
+00:03:11,860 --> 00:03:19,330
+Il controllo quotidiano: si palpa il fremito, una vibrazione continua, il thrill, e si ausculta il soffio, il bruit.
+
+19
+00:03:19,330 --> 00:03:30,820
+Se il fremito scompare, la fistola potrebbe essere trombizzata: si avvisa subito, perche' un intervento tempestivo puo' salvarla. Un fremito che manca e' una telefonata, non un'annotazione.
+
+20
+00:03:30,820 --> 00:03:39,810
+Ed ecco l'elenco che i concorsi chiedono sempre: che cosa non si fa sul braccio con la fistola. Niente misurazione della pressione. Niente prelievi ne' cannule.
+
+21
+00:03:39,810 --> 00:03:49,650
+Niente lacci, bracciali, orologi, indumenti stretti. Non sollevare pesi. Non dormire sopra quel braccio. Tutto cio' che comprime puo' trombizzarla.
+
+22
+00:03:49,650 --> 00:03:56,750
+Molti reparti mettono un cartello al letto, perche' basta un collega distratto per perdere un accesso che e' la vita del paziente.
+
+23
+00:03:56,750 --> 00:04:07,250
+Il paziente che rientra dalla dialisi. Puo' essere ipoteso, perche' sono stati rimossi liquidi: attenzione all'alzata. Puo' sanguinare dai punti di puntura, perche' durante la seduta si usa l'eparina.
+
+24
+00:04:07,250 --> 00:04:13,760
+Il peso si confronta con il peso secco, l'obiettivo stabilito dal nefrologo. Stanchezza e crampi sono frequenti.
+
+25
+00:04:13,760 --> 00:04:23,320
+E piu' raramente la sindrome da disequilibrio, con cefalea, nausea, confusione, per i rapidi spostamenti di soluti: si segnala, non si aspetta che passi.
+
+26
+00:04:23,320 --> 00:04:35,310
+Il catetere per dialisi merita una regola a parte. E' gestito dal personale della dialisi o secondo una procedura specifica, perche' i suoi lumi contengono un lock ad alta concentrazione di eparina o citrato.
+
+27
+00:04:35,310 --> 00:04:43,280
+Se qualcuno lo usasse per un'infusione spingendo prima la soluzione, inietterebbe al paziente una dose di anticoagulante molto alta.
+
+28
+00:04:43,280 --> 00:04:51,680
+Quindi non si usa per infusioni o prelievi senza indicazione, e quando si usa, il lock va aspirato e scartato, mai spinto.
+
+29
+00:04:51,680 --> 00:05:03,670
+La dialisi peritoneale: il filtro e' il peritoneo stesso. Attraverso un catetere addominale si introduce un liquido, che resta in addome per alcune ore e poi viene drenato portando via scorie e acqua.
+
+30
+00:05:03,670 --> 00:05:12,570
+Puo' essere manuale, con scambi piu' volte al giorno, o automatizzata, con una macchina di notte. Si fa a domicilio, e richiede un'asepsi rigorosa.
+
+31
+00:05:12,570 --> 00:05:23,570
+La complicanza principale e' la peritonite: il primo segno e' spesso un liquido drenato torbido, poi dolore addominale e febbre. Si raccoglie un campione del liquido e si avvisa il centro.
+
+32
+00:05:23,570 --> 00:05:31,970
+Due quadri urologici. La ritenzione l'abbiamo vista nella lezione tre punto sei. L'ematuria: si monitorano colore e coaguli.
+
+33
+00:05:31,970 --> 00:05:40,320
+Dopo alcuni interventi, come la resezione prostatica, si usa il catetere a tre vie con irrigazione continua, per impedire la formazione di coaguli.
+
+34
+00:05:40,320 --> 00:05:50,640
+Il bilancio richiede un piccolo calcolo: le urine reali sono il drenato meno l'irrigato. Chi segna tutto il drenato come diuresi inventa litri di urina che non esistono.
+
+35
+00:05:50,640 --> 00:05:57,130
+E se l'irrigazione non defluisce, compaiono dolore e globo, c'e' un'ostruzione da coaguli da segnalare.
+
+36
+00:05:57,130 --> 00:06:06,990
+La colica renale: un dolore lombare molto intenso che si irradia verso l'inguine. Un segno che aiuta: la persona e' agitata, si muove, non trova una posizione.
+
+37
+00:06:06,990 --> 00:06:20,800
+Al contrario di chi ha una peritonite, che sta immobile perche' ogni movimento fa male. Nausea, ematuria. L'assistenza: analgesia, idratazione secondo indicazione, e filtrare le urine per recuperare il calcolo da analizzare.
+
+38
+00:06:20,800 --> 00:06:30,610
+Il caso. Paziente in emodialisi con fistola al braccio sinistro; un collega sta per misurare la pressione a sinistra, perche' il destro ha una cannula. Che cosa fai?
+
+39
+00:06:30,610 --> 00:06:41,960
+Lo fermi: sul braccio con la fistola non si misura la pressione. Si misura sul destro, al di sopra della cannula se possibile, o si valutano alternative come l'arto inferiore secondo procedura.
+
+40
+00:06:41,960 --> 00:06:51,150
+Poi verifichi il fremito della fistola e suggerisci un cartello al letto. Un accesso che e' la vita del paziente non si affida alla memoria dei colleghi.
+
+41
+00:06:51,150 --> 00:06:58,740
+In Veneto i pazienti in dialisi sono seguiti da una rete nefrologica con centri ospedalieri e centri ad assistenza limitata.
+
+42
+00:06:58,740 --> 00:07:07,230
+E la dialisi peritoneale domiciliare prevede un addestramento strutturato della persona e del caregiver, condotto dagli infermieri di nefrologia.
+
+43
+00:07:07,230 --> 00:07:18,900
+All'orale, la dialisi peritoneale e' un buon esempio di autogestione sostenuta dall'educazione infermieristica: la persona fa a casa, ogni giorno, cio' che le e' stato insegnato bene una volta.
+
+44
+00:07:18,900 --> 00:07:29,970
+La tabella della fistola, da fotografare. Ogni giorno: fremito e soffio. Mai: pressione, prelievi, cannule, lacci, orologi, pesi, dormirci sopra.
+
+45
+00:07:29,970 --> 00:07:41,830
+Fremito assente: possibile trombosi, si avvisa subito. Tre righe, e il quiz le chiede tutte e tre, quasi sempre nella forma: quale di queste azioni e' corretta sul braccio con la fistola? Nessuna.
+
+46
+00:07:41,830 --> 00:07:55,890
+Ricapitoliamo. Insufficienza acuta prerenale, renale, postrenale. Davanti all'oliguria, prima il catetere e il globo. Insufficienza cronica: iperkaliemia, anemia, sovraccarico. Emodialisi tre volte a settimana.
+
+47
+00:07:55,890 --> 00:08:09,490
+Fistola: fremito ogni giorno, niente pressione. Lock del catetere da dialisi: aspirare, mai spingere. Peritoneale: liquido torbido e' peritonite. Colica: agitato; peritonite: immobile.
+
+48
+00:08:09,490 --> 00:08:13,690
+Nella prossima lezione: apparato digerente e fegato. A tra poco.

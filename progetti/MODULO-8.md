@@ -13,10 +13,11 @@ che spinge (8.6); la curva del nadir e le soglie della neutropenia febbrile
 (8.7). La 8.8 non aggiunge corpi: li riusa come rimandi, apparato per
 apparato.
 
-Stato: tutte e otto le lezioni hanno copione, slide e registro, in attesa
-della voce. I crediti ElevenLabs si sono esauriti dopo la voce della 5.6:
-le voci di 8.1–8.8 si fanno in un giro solo al rinnovo, seguendo il
-MASTER.
+Stato: voci GianP e trascrizioni di tutte e otto le lezioni fatte il
+2 ottobre 2026 in un giro solo; le rese escono in ordine e la tabella qui
+sotto si riempie man mano. Ritocchi al montaggio annotati nei registri:
+in 8.2 il confine s46/s47 e' spostato di una pausa (correzioni.json), in
+8.3 la mira di densita' scende a 16,6 car/s.
 
 | | lezione | durata | resa |
 |---|---|---|---|

@@ -89,10 +89,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `0a180b973fe009e9b36fc838472bb0d4` — 496.633 s (8:16.6), 1080p 16:9, resa in 67 s, con SRT (`subtitle_url`) |
+| lotto asset | `0677ccb887524e9dbd7b2dcd821df470` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «semiformate» (s04, trascritto «semi formate»); «lezione23» (s08, trascritto «da 2 a 3»); «e» (s09, trascritto «ee»); «anti reflusso» (s13, trascritto «antireflusso»); «lezione23» (s14, trascritto «2 3»); «e» (s16, trascritto «ee»); «e» (s28, trascritto «ee»); «e» (s31, trascritto «ee»); «e» (s33, trascritto «ee»); «anti reflusso» (s35, trascritto «antireflusso»); «e» (s36, trascritto «ee»); «ee» (s41, trascritto «e»); «lezione23» (s48, trascritto «2 3»).

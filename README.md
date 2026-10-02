@@ -72,16 +72,20 @@ progetti/<modulo>-<lezione>/
 | `m7-l7.2-pressione` | Modulo 7 · 7.2 Lesioni da pressione | 8:25.4 | `e82517348e27587fb43e4ca5761e38bd` |
 | `m7-l7.3-ulcere` | Modulo 7 · 7.3 Ulcere vascolari e piede diabetico | 8:16.7 | `bed5eeb5c526c358561e049053deeed0` |
 | `m7-l7.4-chirurgiche` | Modulo 7 · 7.4 Ferite chirurgiche e infezione del sito chirurgico | 8:03.3 | `191943f9cbd1be058bda05dbae15d5d2` |
+| `m7-l7.5-medicazioni` | Modulo 7 · 7.5 Medicazioni avanzate | 8:03.0 | `287406f78e06e0a1a8a6121b8c31169c` |
+| `m7-l7.6-stomie` | Modulo 7 · 7.6 Stomie digestive e urinarie | 8:16.6 | `0a180b973fe009e9b36fc838472bb0d4` |
+| `m7-l7.7-drenaggi` | Modulo 7 · 7.7 Drenaggi | 8:09.4 | `a179f39182fd1518e15132ca40c6e82a` |
+| `m7-l7.8-riepilogo` | Modulo 7 · 7.8 Riepilogo del Modulo 7 e autovalutazione | 8:09.1 | `cbf37aa65a78ba33a073f730dbf78db9` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 
-Il modulo 6 è pubblicato per intero (2 ottobre 2026). I moduli 7 e 8
-(sedici lezioni, cartelle `m7-*` e `m8-*`) sono pronti fino alle slide e ai
-registri e le voci si fanno nello stesso giro: la tabella qui sopra si
-allunga man mano che le rese escono, e le schede di modulo
-(`progetti/MODULO-N.md`) dicono lo stato lezione per lezione.
+I moduli 6 e 7 sono pubblicati per intero (2 ottobre 2026). Il modulo 8
+(otto lezioni, cartelle `m8-*`) ha voci e trascrizioni fatte nello stesso
+giro e le rese escono in ordine: la tabella qui sopra si allunga man mano,
+e le schede di modulo (`progetti/MODULO-N.md`) dicono lo stato lezione per
+lezione.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo

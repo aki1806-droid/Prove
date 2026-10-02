@@ -96,10 +96,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `cbf37aa65a78ba33a073f730dbf78db9` — 489.132 s (8:09.1), 1080p 16:9, resa in 66 s, con SRT (`subtitle_url`) |
+| lotto asset | `0f46939cc8454dac818946a1c545b0e5` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s05, trascritto «ee»); «l abi» (s06, trascritto «la b»); «e» (s13, trascritto «ee»); «l abi» (s14, trascritto «la b»); «abi» (s16, trascritto «ab»); «ee» (s16, trascritto «e»); «abi» (s16, trascritto «ab»); «lezione46» (s20, trascritto «4 6»); «lezione35» (s21, trascritto «3 5»); «lezione23» (s22, trascritto «2 3»); «marsi» (s25, trascritto «marci»); «e» (s49, trascritto «ee»).

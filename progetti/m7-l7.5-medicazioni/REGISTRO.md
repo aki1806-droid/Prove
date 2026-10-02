@@ -91,10 +91,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `287406f78e06e0a1a8a6121b8c31169c` — 483.017 s (8:03.0), 1080p 16:9, resa in 79 s, con SRT (`subtitle_url`) |
+| lotto asset | `d24d8a71a5f445ee989e4c4d61249fe7` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «essudante» (s10, trascritto «sudante»); «esse» (s18, trascritto «essi»); «risolta» (s23, trascritto «irrisolta»); «e» (s26, trascritto «ee»); «e» (s26, trascritto «ee»); «e» (s35, trascritto «ee»); «e» (s39, trascritto «ee»); «e» (s40, trascritto «ee»); «e» (s44, trascritto «ee»).
