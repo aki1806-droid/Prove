@@ -95,10 +95,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `89c49dd0e7a35086bf71dc39562ef2c0` — 491.039 s (8:11.0), 1080p 16:9, resa in 66 s, con SRT (`subtitle_url`) |
+| lotto asset | `2a6a18c1431e42c68467c509a1d6122e` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s03, trascritto «ee»); «news2» (s05, trascritto «news 2»); «e» (s06, trascritto «ee»); «lezione23» (s07, trascritto «2 3»); «e» (s09, trascritto «ee»); «e» (s12, trascritto «ee»); «e» (s17, trascritto «ee»); «e» (s20, trascritto «ee»); «petecchie» (s24, trascritto «petechie»); «nyha» (s26, trascritto «nyah»); «lezione16» (s27, trascritto «1 6»); «centottanta» (s28, trascritto «180»); «centottantacinque» (s29, trascritto «185»); «centottanta» (s29, trascritto «180»); «50000» (s29, trascritto «50 000»).

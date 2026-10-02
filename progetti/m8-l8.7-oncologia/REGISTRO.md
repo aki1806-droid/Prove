@@ -90,10 +90,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `bd22c1650e001c8315796d124c568b32` — 488.233 s (8:08.2), 1080p 16:9, resa in 67 s, con SRT (`subtitle_url`) |
+| lotto asset | `541c9adee6bf40479b6f206da13c24d4` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ee» (s03, trascritto «e»); «e» (s09, trascritto «ee»); «e» (s14, trascritto «ee»); «e» (s17, trascritto «ee»); «e» (s18, trascritto «ee»); «e» (s21, trascritto «ee»); «50000» (s22, trascritto «50 000»); «10000 20000» (s22, trascritto «10 000 20 000»); «e» (s25, trascritto «ee»); «e» (s28, trascritto «ee»); «e» (s37, trascritto «ee»); «e» (s39, trascritto «ee»); «e» (s40, trascritto «ee»); «brachiterapia» (s40, trascritto «brachi terapia»); «50000» (s48, trascritto «50mila»); «20000» (s48, trascritto «20mila»).

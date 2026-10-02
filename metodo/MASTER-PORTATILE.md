@@ -940,6 +940,14 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | montaggio | il video esce di due minuti invece di nove | `audio_asset_id` + `playback {freeze, mute}` su ogni scena video |
 | montaggio | render dato per bloccato e rilanciato | tre-quattro minuti sono **normali**; attendere con `until` |
 | montaggio | il lotto dice «completed» ma gli item no | aspettare il **conteggio**, non lo stato |
+| voce | gli URL firmati di ElevenLabs muoiono dopo **due ore** (`X-Goog-Expires=7200`): un `curl` tardivo salva un XML di 220 byte e il giro gira su una trascrizione vuota | scaricare grezzi e trascrizioni **subito**; se la sessione si è fermata, richiedere lo stato e riscaricare |
+| asset | la risposta di `create_asset_upload_batch` (98 URL, 67 KB) non entra nella finestra | la risposta finisce in un file: si legge **quello**, mai si ricopia a mano; `complete` con l'id letto dal file |
+| clip | la catena dei clip in sottofondo muore quando la sessione si ferma | catena **ripartibile**: salta le lezioni con 48 mp4 e segna le fatte in un file |
+| tagli | l'ultimo blocco esce a 22 car/s: la voce ha accelerato sulla chiusura | una `posa` di 0,6 s nel copione (`blocchi.json`), non la mira di tutta la lezione |
+| tagli | un blocco a 25 car/s e il vicino a 14: il confine è caduto su una virgola, non sul punto | `correzioni.json` con `{"pause": +1}` sull'indice del confine, e si ricontrolla l'indice (la traccia B non parte sempre da s26) |
+| tagli | 8/8 ma il montato è 7:58 | `MIRA` giù di 0,4 car/s: il parlato si allunga del 2-3 % |
+| verifica | un «buco» che è una resa del trascrittore (`dica che sia` per `di cachessia`, `psiconcologia` per `psico-oncologia`) | una riga in `RESE` del verificatore della lezione, con il commento che dice dove |
+| verifica | il verificatore legge «-2 e +2» come «2virgola2» o «0,6-1,2» come un rimando alla lezione 6.1 | le regole dei segni e dei decimali stanno in `parole()`: sono già nel MASTER |
 
 ---
 

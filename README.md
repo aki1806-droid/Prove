@@ -82,16 +82,16 @@ progetti/<modulo>-<lezione>/
 | `m8-l8.3-diabetologia` | Modulo 8 · 8.3 Diabetologia e malattie endocrine | 8:15.6 | `010ca3d02fd3b24b28f5449a6655d1a3` |
 | `m8-l8.5-gastro` | Modulo 8 · 8.5 Gastroenterologia ed epatologia | 8:09.4 | `652e822b8f82309e44d6d66aceb36812` |
 | `m8-l8.6-neurologia` | Modulo 8 · 8.6 Neurologia | 8:21.8 | `e530e796af58aefe4458e46a487c06e1` |
+| `m8-l8.8-riepilogo` | Modulo 8 · 8.8 Riepilogo del Modulo 8 e autovalutazione | 8:11.0 | `89c49dd0e7a35086bf71dc39562ef2c0` |
+| `m8-l8.7-oncologia` | Modulo 8 · 8.7 Oncologia ed ematologia | 8:08.2 | `bd22c1650e001c8315796d124c568b32` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 
-I moduli 6 e 7 sono pubblicati per intero (2 ottobre 2026). Il modulo 8
-(otto lezioni, cartelle `m8-*`) ha voci e trascrizioni fatte nello stesso
-giro e le rese escono in ordine: la tabella qui sopra si allunga man mano,
-e le schede di modulo (`progetti/MODULO-N.md`) dicono lo stato lezione per
-lezione.
+I moduli 6, 7 e 8 sono pubblicati per intero (2 ottobre 2026): ventiquattro
+lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
+lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo

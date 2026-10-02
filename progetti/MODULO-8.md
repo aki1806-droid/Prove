@@ -13,11 +13,12 @@ che spinge (8.6); la curva del nadir e le soglie della neutropenia febbrile
 (8.7). La 8.8 non aggiunge corpi: li riusa come rimandi, apparato per
 apparato.
 
-Stato: voci GianP e trascrizioni di tutte e otto le lezioni fatte il
-2 ottobre 2026 in un giro solo; le rese escono in ordine e la tabella qui
-sotto si riempie man mano. Ritocchi al montaggio annotati nei registri:
-in 8.2 il confine s46/s47 e' spostato di una pausa (correzioni.json), in
-8.3 la mira di densita' scende a 16,6 car/s.
+Stato: tutte e otto le lezioni pubblicate il 2 ottobre 2026, voci GianP e
+trascrizioni fatte in un giro solo. Ritocchi al montaggio, annotati nei
+registri: in 8.2 il confine s46/s47 e' spostato di una pausa
+(correzioni.json); in 8.3 e 8.7 la mira di densita' scende a 16,6 car/s
+(8.7 anche per superare gli otto minuti); nel verificatore di 8.7 due rese
+del trascrittore («dica che sia», «psiconcologia») lette come buchi.
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -27,8 +28,8 @@ in 8.2 il confine s46/s47 e' spostato di una pausa (correzioni.json), in
 | 8.4 | Nefrologia e urologia | 8:22.7 | `e4be113283c84a9f760e58afd948f0e1` |
 | 8.5 | Gastroenterologia ed epatologia | 8:09.4 | `652e822b8f82309e44d6d66aceb36812` |
 | 8.6 | Neurologia | 8:21.8 | `e530e796af58aefe4458e46a487c06e1` |
-| 8.7 | Oncologia ed ematologia | — | da fare |
-| 8.8 | Riepilogo del Modulo 8 e autovalutazione | — | da fare |
+| 8.7 | Oncologia ed ematologia | 8:08.2 | `bd22c1650e001c8315796d124c568b32` |
+| 8.8 | Riepilogo del Modulo 8 e autovalutazione | 8:11.0 | `89c49dd0e7a35086bf71dc39562ef2c0` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_8.md`;
 ogni lezione tiene la propria parte in `origine/script-8.N.md`. Il tema
