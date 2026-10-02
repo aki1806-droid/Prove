@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,880
+Chiudiamo il modulo sei. E' un modulo di procedure, e il modo migliore per ripassarlo e' metterle a confronto: che cosa hanno in comune, dove differiscono, dove si sbaglia.
+
+2
+00:00:13,880 --> 00:00:23,970
+Poi le confusioni che costano piu' punti, i casi tipici, e una breve autovalutazione: otto domande secche, di quelle che il quiz fa davvero.
+
+3
+00:00:23,970 --> 00:00:29,330
+Tieni a portata di mano il quaderno: i numeri di questo modulo si imparano scrivendoli, non ascoltandoli.
+
+4
+00:00:29,330 --> 00:00:41,140
+Sette lezioni: accessi periferici e scala VIP; accessi centrali e bundle; fluidoterapia e sovraccarico; emogasanalisi e ROME; nutrizione parenterale e rialimentazione; trasfusione e doppio controllo; preanalitica e provette.
+
+5
+00:00:41,140 --> 00:00:49,700
+Il filo comune e' uno: il sistema vascolare come porta d'accesso. Per curare, e per sbagliare. Ogni lezione e' una cosa che entra o che esce da una vena.
+
+6
+00:00:49,700 --> 00:01:01,510
+Che cosa hanno in comune tutte queste procedure? Identificazione attiva del paziente, sempre, prima di toccare qualsiasi cosa: nome, cognome e data di nascita detti da lui, confrontati con il braccialetto.
+
+7
+00:01:01,510 --> 00:01:11,260
+Asepsi, con clorexidina alcolica lasciata asciugare e niente ripalpazione. Disinfezione dei connettori, lo scrub the hub. Valutazione regolare del dispositivo.
+
+8
+00:01:11,260 --> 00:01:21,550
+La domanda quotidiana: serve ancora? Un dispositivo che non serve si rimuove. E la documentazione: inserimento, valutazione, rimozione, con data e firma.
+
+9
+00:01:21,550 --> 00:01:31,990
+Periferico e centrale a confronto. Periferico: calibro piu' piccolo possibile, sostituzione su indicazione clinica e non a scadenza fissa, scala VIP con rimozione da due.
+
+10
+00:01:31,990 --> 00:01:42,110
+Centrale: conferma della punta prima dell'uso, massime barriere sterili all'inserimento, medicazione trasparente ogni sette giorni, attenzione all'embolia gassosa.
+
+11
+00:01:42,110 --> 00:01:53,000
+E il Midline, che e' periferico: si inserisce come un PICC, in una vena del braccio, ma e' piu' corto, e la punta resta nell'ascellare o nella basilica. Chi lo chiama centrale perde il punto.
+
+12
+00:01:53,000 --> 00:02:04,890
+I numeri del modulo. Gauge: numero basso, calibro grande. Sopra novecento milliosmoli per litro, via centrale. Siringhe da almeno dieci millilitri per i lavaggi.
+
+13
+00:02:04,890 --> 00:02:17,130
+pH sette virgola trentacinque-sette virgola quarantacinque. CO2 trentacinque-quarantacinque. Bicarbonato ventidue-ventisei. Compressione dopo il prelievo arterioso: almeno cinque minuti.
+
+14
+00:02:17,130 --> 00:02:27,390
+Emazie a due-sei gradi, trasfuse entro quattro ore; piastrine a venti-ventiquattro gradi, in agitazione. Laccio meno di un minuto. Emocolture: otto-dieci millilitri per flacone.
+
+15
+00:02:27,390 --> 00:02:37,810
+Sono dodici numeri, e stanno in tre slide: fermati, copiali nel quaderno, e riparti. Un numero scritto una volta vale piu' di tre ascolti, e il quiz li chiede tutti e dodici.
+
+16
+00:02:37,810 --> 00:02:48,880
+Le tre sequenze di emergenza. Stravaso: fermare l'infusione, scollegare e aspirare dalla cannula, rimuovere, sollevare l'arto, avvisare il medico, delimitare e documentare.
+
+17
+00:02:48,880 --> 00:02:59,600
+Embolia gassosa: chiudere la via d'ingresso dell'aria, paziente in laterale sinistro in Trendelenburg, con il capo in basso, per intrappolare l'aria nel ventricolo destro, ossigeno, medico.
+
+18
+00:02:59,600 --> 00:03:10,270
+Reazione trasfusionale: fermare, accesso con fisiologica e deflussore nuovo, parametri, medico, ricontrollo di identita' e sacca, invio di sacca e campioni, urine, segnalazione.
+
+19
+00:03:10,270 --> 00:03:20,540
+Le confusioni che costano piu' punti. Uno: il Midline non e' centrale. Due: infiltrazione se la soluzione non e' vescicante, stravaso se lo e'.
+
+20
+00:03:20,540 --> 00:03:32,440
+Tre: la glucosata al cinque per cento non espande il volume circolante: dopo il metabolismo del glucosio resta acqua libera, che si distribuisce in tutti i compartimenti, e solo una piccola parte resta nei vasi.
+
+21
+00:03:32,440 --> 00:03:42,450
+Quattro: il donatore universale di emazie e' zero negativo, quello di plasma e' AB. L'inversione e' la domanda classica, e la risposta istintiva e' quella sbagliata.
+
+22
+00:03:42,450 --> 00:03:54,760
+Cinque: ROME. Respiratorio opposto, metabolico uguale: pH e CO2 in direzione opposta nel disturbo respiratorio, pH e bicarbonato nella stessa direzione in quello metabolico.
+
+23
+00:03:54,760 --> 00:04:06,550
+Sei: le piastrine mai in frigorifero. Sette: con il sangue solo fisiologica: la glucosata provoca emolisi, il Ringer con il suo calcio favorisce la coagulazione, i farmaci in linea mai.
+
+24
+00:04:06,550 --> 00:04:15,910
+Otto: emocolture con il butterfly, prima l'aerobio; con la siringa, prima l'anaerobio. L'aria del tubicino deve finire nel flacone che l'aria la tollera.
+
+25
+00:04:15,910 --> 00:04:25,010
+I casi. Cannula con VIP due e nessuna terapia endovenosa in corso: si rimuove e non si riposiziona. Due motivi per toglierla, nessuno per tenerla.
+
+26
+00:04:25,010 --> 00:04:37,580
+Brivido al lavaggio del PICC: si sospetta una CLABSI. Emocolture appaiate, dal catetere e da vena periferica nello stesso momento, e medico: il confronto dei tempi di positivizzazione dice se la sorgente e' il catetere.
+
+27
+00:04:37,580 --> 00:04:46,500
+Sacca di parenterale finita di notte: glucosata secondo procedura per evitare l'ipoglicemia da rimbalzo, glicemia, medico. Non si lascia la via vuota.
+
+28
+00:04:46,500 --> 00:04:57,130
+Paziente con BPCO sonnolento in ossigeno ad alto flusso, con CO2 alta: acidosi respiratoria. Medico, e rivalutazione dell'ossigeno con target ottantotto-novantadue.
+
+29
+00:04:57,130 --> 00:05:05,190
+Dolore lombare e ipotensione dopo dieci minuti di trasfusione: reazione emolitica. La sequenza, tutta, a partire da fermare.
+
+30
+00:05:05,190 --> 00:05:16,800
+Potassio alto in un prelievo difficoltoso: possibile emolisi, medico e ripetizione. Anziano cardiopatico in mantenimento da giorni, dispnoico: sovraccarico, ridurre l'infusione, medico.
+
+31
+00:05:16,800 --> 00:05:28,150
+L'autovalutazione. Due domande alla volta, risposta secca. Uno: qual e' la prima provetta dell'ordine di prelievo? Due: il Midline e' un accesso centrale?
+
+32
+00:05:28,150 --> 00:05:39,210
+Uno: le emocolture, per prime, per non contaminarle. Due: no, il Midline e' periferico: la punta resta in una vena del braccio, e per questo non riceve cio' che richiede la via centrale.
+
+33
+00:05:39,210 --> 00:05:46,760
+Tre: qual e' il donatore universale di plasma? Quattro: le piastrine si conservano in frigorifero?
+
+34
+00:05:46,760 --> 00:05:55,960
+Tre: AB, perche' il plasma AB non ha anticorpi anti-A ne' anti-B. Quattro: mai: a venti-ventiquattro gradi, in agitazione continua.
+
+35
+00:05:55,960 --> 00:06:06,470
+Cinque: pH basso e CO2 alta, disturbo respiratorio o metabolico? Sei: con il sangue, quale soluzione va in linea?
+
+36
+00:06:06,470 --> 00:06:15,570
+Cinque: respiratorio, perche' pH e CO2 vanno in direzione opposta: ROME, respiratorio opposto. Sei: solo fisiologica.
+
+37
+00:06:15,570 --> 00:06:24,140
+Sette: cannula con VIP due, che cosa fai? Otto: sopra novecento milliosmoli per litro, quale via?
+
+38
+00:06:24,140 --> 00:06:37,820
+Sette: si rimuove, e non si riposiziona se non serve. Otto: via centrale, perche' solo un vaso di grosso calibro tollera quella osmolarita'. Otto su otto e' il livello atteso: ogni errore ti dice quale lezione riguardare.
+
+39
+00:06:37,820 --> 00:06:48,630
+E i fili con gli altri moduli, utili all'orale per mostrare una visione d'insieme. Il bundle CLABSI si collega al modulo quattro. Il potassio, le compatibilita' e i calcoli al modulo cinque.
+
+40
+00:06:48,630 --> 00:06:59,280
+La sindrome da rialimentazione alla lezione tre punto quattro. L'identificazione e il doppio controllo al modulo due. Un modulo che si tiene con gli altri vale di piu' di uno isolato.
+
+41
+00:06:59,280 --> 00:07:07,490
+Gli agganci veneti. Team accessi vascolari con PICC e Midline a gestione infermieristica. Servizi trasfusionali e coordinamento regionale.
+
+42
+00:07:07,490 --> 00:07:18,460
+Procedure su sicurezza trasfusionale, preanalitica e valori critici, e in alcune realta' l'identificazione elettronica al letto. Nutrizione artificiale domiciliare con presa in carico distrettuale.
+
+43
+00:07:18,460 --> 00:07:31,870
+Come proseguire. Test del modulo, trenta domande, soglia ventuno. Rifai gli esercizi di emogasanalisi della lezione sei punto quattro finche' la lettura non diventa automatica: prima il pH, poi la CO2, poi il bicarbonato.
+
+44
+00:07:31,870 --> 00:07:41,870
+Nel quaderno: numeri, sequenze, ordine delle provette. E scrivi per intero il caso della reazione trasfusionale con lo schema in cinque passi: e' una traccia molto probabile.
+
+45
+00:07:41,870 --> 00:07:49,470
+Lo schema e' quello di tutti i casi: che cosa pensi, che cosa fai subito, chi avvisi, che cosa sorvegli, che cosa documenti.
+
+46
+00:07:49,470 --> 00:07:58,900
+La frase del modulo: ogni accesso vascolare e' una porta aperta. Si apre con l'asepsi, si sorveglia ogni giorno, si chiude appena possibile.
+
+47
+00:07:58,900 --> 00:08:05,940
+Nel prossimo modulo passiamo dall'interno all'esterno del corpo: lesioni, medicazioni, stomie e drenaggi.
+
+48
+00:08:05,940 --> 00:08:14,330
+E' un'area in cui l'infermiere ha un'autonomia molto ampia, e i concorsi lo sanno. Modulo sette: wound care, stomie e drenaggi. Ci vediamo li'.

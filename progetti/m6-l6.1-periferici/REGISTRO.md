@@ -26,6 +26,8 @@ Nessuna illustrazione nuova: gambe e pellicola sono in libreria.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,39 (A $0,72 · B $0,67) |
+| costo trascrizioni | $0,52 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s45) |
@@ -34,6 +36,8 @@ Nessuna illustrazione nuova: gambe e pellicola sono in libreria.
 CARATTERI  8.319          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:23.6
 stacco tracce             dopo s26   (chunk A 4.347 car · chunk B 3.972 car)
+tracce grezze             A 284.5 s  ·  B 293.7 s
+silenzi                   fattore 1,101   ->   atempo 1,073
 ```
 
 Lo script è di 17 slide e circa 1.520 parole: i blocchi lo seguono, con
@@ -50,6 +54,20 @@ in 5.4 e 5.5.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**694/701 parole**, la B **626/629**, nessun buco. Le rese diverse
+(non buchi): s02 «ago cannula» sentito «agocannula»; s10 «e» sentito «ee»; s15 «e» sentito «ee»; s17 «e» sentito «ee»; s32 «ee» sentito «e»; s37 «e» sentito «ee»; s40 «e» sentito «ee».
 
 ## Le scene
 
@@ -80,10 +98,14 @@ in 5.4 e 5.5.
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `ae14883ced57d1917d449ec7c759536c` — 503.577 s (8:23.6), 1080p 16:9, resa in 63 s, con SRT (`subtitle_url`) |
+| lotto asset | `4338721b66ec4e1bac497823b77dcab2` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ago cannula» (s02, trascritto «agocannula»); «e» (s10, trascritto «ee»); «e» (s15, trascritto «ee»); «e» (s17, trascritto «ee»); «ee» (s32, trascritto «e»); «e» (s37, trascritto «ee»); «e» (s40, trascritto «ee»).

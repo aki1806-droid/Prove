@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 577,
+  "parole_dette": 576,
+  "coincidenti": 570,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 584,
+  "parole_dette": 585,
+  "coincidenti": 578,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "the",
+    "detto": "di"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "da",
+    "detto": "alla"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

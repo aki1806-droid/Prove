@@ -59,15 +59,20 @@ progetti/<modulo>-<lezione>/
 | `m5-l5.5-cardio` | Modulo 5 · 5.5 Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
 | `m5-l5.6-antibiotici` | Modulo 5 · 5.6 Antibiotici, analgesici e stupefacenti | 8:57.3 | `dab37aec0729846a0c7d4cab4aeeafd6` |
 | `m5-l5.7-preparazione` | Modulo 5 · 5.7 Preparazione, stabilità e gestione dei farmaci in reparto | 8:51.3 | `3b8af158d5f642d323faa6718896cc0e` |
+| `m5-l5.8-riepilogo` | Modulo 5 · 5.8 Riepilogo del Modulo 5 e venti calcoli cronometrati | 8:42.7 | `5f46bdb252f19a560f4a8912dfba9103` |
+| `m6-l6.1-periferici` | Modulo 6 · 6.1 Accessi venosi periferici | 8:23.6 | `ae14883ced57d1917d449ec7c759536c` |
+| `m6-l6.2-centrali` | Modulo 6 · 6.2 Accessi venosi centrali | 8:24.9 | `b7d89f3bcdce393631983c5c57b0a385` |
+| `m6-l6.3-fluidoterapia` | Modulo 6 · 6.3 Fluidoterapia | 8:32.7 | `b7a9e247a2c694ed0b4299a4d0402790` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 
-La 5.8 e i moduli 6, 7 e 8 (venticinque lezioni, cartelle `m6-*`, `m7-*`,
-`m8-*`) sono pronti fino alle slide e ai registri: le voci si fanno in un
-giro solo, dal 2 ottobre 2026, al ritorno dei crediti ElevenLabs. Le schede
-di modulo (`progetti/MODULO-N.md`) dicono lo stato lezione per lezione.
+I moduli 6, 7 e 8 (ventiquattro lezioni, cartelle `m6-*`, `m7-*`, `m8-*`)
+sono pronti fino alle slide e ai registri: le voci si fanno in un giro solo,
+dal 2 ottobre 2026, al ritorno dei crediti ElevenLabs; la tabella qui sopra
+si allunga man mano che le rese escono. Le schede di modulo
+(`progetti/MODULO-N.md`) dicono lo stato lezione per lezione.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo

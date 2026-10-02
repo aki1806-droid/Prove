@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,580
+Un accesso venoso e' centrale quando la sua punta si trova in una grande vena vicino al cuore, di norma la vena cava superiore o la giunzione fra cava e atrio destro.
+
+2
+00:00:12,580 --> 00:00:20,610
+Questi dispositivi permettono terapie che una vena periferica non tollera, ma portano con se' un rischio specifico: le batteriemie, le CLABSI.
+
+3
+00:00:20,610 --> 00:00:27,570
+La prevenzione delle CLABSI e' oggi uno degli indicatori di qualita' dell'assistenza infermieristica. Ed e' il filo di questa lezione.
+
+4
+00:00:27,570 --> 00:00:40,950
+Quando serve un accesso centrale? Per farmaci irritanti o vescicanti; per soluzioni con osmolarita' superiore a circa novecento milliosmoli per litro o con pH lontano dalla norma, come la nutrizione parenterale completa.
+
+5
+00:00:40,950 --> 00:00:51,210
+Per terapie prolungate; per il monitoraggio emodinamico nel paziente critico; e quando il patrimonio venoso periferico e' esaurito, come abbiamo visto nella lezione sei punto uno.
+
+6
+00:00:51,210 --> 00:01:01,150
+I dispositivi. Il CVC non tunnellizzato, inserito nella giugulare interna, nella succlavia o nella femorale, per il breve termine, tipico della terapia intensiva.
+
+7
+00:01:01,150 --> 00:01:13,480
+Il PICC, catetere centrale a inserzione periferica: si inserisce in una vena del braccio sotto ecoguida, ma la punta arriva in cava, quindi e' a tutti gli effetti un accesso centrale; dura settimane o mesi.
+
+8
+00:01:13,480 --> 00:01:26,390
+I CVC tunnellizzati, che decorrono sotto la cute prima di entrare in vena, per il lungo termine. E il port, totalmente impiantato sotto la cute, ideale per terapie intermittenti a lungo termine, come le chemioterapie.
+
+9
+00:01:26,390 --> 00:01:37,100
+Attenzione al Midline, perche' e' la trappola classica. Si inserisce come un PICC, in una vena del braccio, ma e' piu' corto: la sua punta resta in una vena periferica, l'ascellare o la basilica.
+
+10
+00:01:37,100 --> 00:01:47,340
+Quindi e' un accesso periferico, e attraverso il Midline si infondono solo soluzioni compatibili con la via periferica: niente nutrizione parenterale centrale, niente vescicanti.
+
+11
+00:01:47,340 --> 00:01:56,310
+E' utile per terapie di qualche settimana con farmaci non irritanti. Stessa vena del PICC, punta diversa: e' la punta che fa l'accesso, non il punto d'ingresso.
+
+12
+00:01:56,310 --> 00:02:07,780
+Una regola di sicurezza fondamentale: un accesso centrale non si usa finche' non e' stata confermata la posizione della punta, con la radiografia del torace o con il metodo dell'ECG intracavitario.
+
+13
+00:02:07,780 --> 00:02:20,680
+L'ECG intracavitario e' sempre piu' usato: permette la verifica gia' durante l'inserimento. Dopo un inserimento in giugulare o succlavia, la radiografia esclude anche lo pneumotorace, la complicanza meccanica piu' temuta.
+
+14
+00:02:20,680 --> 00:02:27,670
+Il bundle di prevenzione delle CLABSI si divide in due tempi. All'inserimento: igiene delle mani; massime barriere sterili.
+
+15
+00:02:27,670 --> 00:02:37,010
+Cuffia, mascherina, camice sterile, guanti sterili e un telo sterile che copra tutto il paziente: non un telino intorno alla sede, tutto il paziente.
+
+16
+00:02:37,010 --> 00:02:45,250
+Antisepsi con clorexidina al due per cento in alcol, lasciata asciugare; scelta del sito, evitando la femorale nell'adulto quando possibile.
+
+17
+00:02:45,250 --> 00:02:52,830
+E una check-list compilata da un osservatore, spesso l'infermiere, autorizzato a fermare la procedura se vede una violazione dell'asepsi.
+
+18
+00:02:52,830 --> 00:02:58,940
+E' uno dei pochi momenti in cui l'infermiere ha esplicitamente il compito di dire stop.
+
+19
+00:02:58,940 --> 00:03:08,000
+Nella gestione, che e' interamente infermieristica: igiene delle mani prima di ogni accesso. Scrub the hub: si disinfetta il connettore prima di collegare.
+
+20
+00:03:08,000 --> 00:03:18,070
+Strofinando per cinque-quindici secondi con clorexidina alcolica o alcol, e lasciando asciugare. Il connettore e' la porta d'ingresso dei batteri nella gestione quotidiana.
+
+21
+00:03:18,070 --> 00:03:30,660
+La medicazione trasparente si cambia ogni sette giorni, ma subito se e' staccata, bagnata o sporca; quella in garza ogni due giorni. Dove previste, medicazioni o spugnette alla clorexidina sulla sede di uscita.
+
+22
+00:03:30,660 --> 00:03:35,480
+E la misura piu' efficace di tutte: chiedersi ogni giorno se il catetere serve ancora.
+
+23
+00:03:35,480 --> 00:03:48,360
+Il cambio delle linee. Infusioni continue senza lipidi: secondo procedura, fra novantasei ore e sette giorni. Lipidi e nutrizione parenterale con lipidi: ogni ventiquattro ore, perche' favoriscono la crescita batterica.
+
+24
+00:03:48,360 --> 00:03:56,070
+Per il propofol, ogni sei-dodici ore. Per il sangue, secondo la procedura trasfusionale, che vedremo nella lezione sei punto sei.
+
+25
+00:03:56,070 --> 00:04:09,740
+I lavaggi, o flush. Si lava con soluzione fisiologica prima e dopo ogni farmaco, fra farmaci diversi e dopo i prelievi. La tecnica e' pulsante, piccole spinte e pause, che crea turbolenza e pulisce meglio il lume.
+
+26
+00:04:09,740 --> 00:04:21,400
+Si usano siringhe da almeno dieci millilitri: le siringhe piccole generano pressioni molto alte e possono rompere il catetere. Si chiude a pressione positiva, per evitare il reflusso di sangue in punta.
+
+27
+00:04:21,400 --> 00:04:31,090
+Il lock, cioe' la soluzione lasciata nel catetere fra un uso e l'altro, dipende dal dispositivo e dalla procedura: spesso fisiologica, in alcuni casi altre soluzioni.
+
+28
+00:04:31,090 --> 00:04:40,830
+Il port si punge attraverso la cute con un ago di Huber, un ago speciale non carotante, che non asporta frammenti della membrana di silicone e ne preserva la durata.
+
+29
+00:04:40,830 --> 00:04:52,150
+La puntura richiede tecnica asettica; l'ago in sede si cambia secondo procedura. Quando il port non viene usato, va lavato periodicamente, secondo le indicazioni del produttore e della procedura aziendale.
+
+30
+00:04:52,150 --> 00:05:01,780
+Le complicanze, in tre famiglie. Meccaniche: all'inserimento pneumotorace, puntura arteriosa, malposizione, aritmie se la punta irrita il cuore.
+
+31
+00:05:01,780 --> 00:05:13,410
+Durante la gestione occlusione, rottura, dislocazione; e l'embolia gassosa, che merita una slide a se'. Per l'occlusione vale la regola della lezione precedente: non si forza con la siringa.
+
+32
+00:05:13,410 --> 00:05:26,710
+L'embolia gassosa: aria che entra nel circolo da un catetere aperto, una connessione staccata, una rimozione scorretta. I segni sono improvvisi: dispnea, dolore toracico, ipotensione, cianosi, coscienza alterata.
+
+33
+00:05:26,710 --> 00:05:38,140
+La condotta: chiudere la via d'ingresso dell'aria; paziente in decubito laterale sinistro, capo in basso, in Trendelenburg, per intrappolare l'aria nel ventricolo destro; ossigeno; chiamare il medico.
+
+34
+00:05:38,140 --> 00:05:49,210
+E la prevenzione al momento della rimozione del CVC: paziente supino o in Trendelenburg, rimozione in espirazione o durante una manovra di Valsalva, e medicazione occlusiva sulla sede.
+
+35
+00:05:49,210 --> 00:06:02,770
+Le complicanze trombotiche: una trombosi venosa del braccio o del collo, con edema, dolore, turgore delle vene superficiali, da segnalare subito. E quelle infettive: infezione della sede di uscita, del tunnel, batteriemia.
+
+36
+00:06:02,770 --> 00:06:14,880
+Un segno da conoscere: il brivido che compare durante o subito dopo il lavaggio del catetere suggerisce che il catetere sia colonizzato e che il lavaggio stia immettendo batteri in circolo. Va segnalato immediatamente.
+
+37
+00:06:14,880 --> 00:06:24,120
+Quando si sospetta un'infezione del catetere, le emocolture si prelevano in modo appaiato: un set dal catetere e uno da una vena periferica, nello stesso momento.
+
+38
+00:06:24,120 --> 00:06:33,670
+Il confronto fra i tempi in cui i due set diventano positivi aiuta a capire se la sorgente e' proprio il catetere. Rivedremo le emocolture nella lezione sei punto sette.
+
+39
+00:06:33,670 --> 00:06:41,710
+Il caso. Paziente con PICC per terapia antibiotica; dopo il lavaggio del catetere compare febbre a trentotto e otto con brivido. Che cosa fai?
+
+40
+00:06:41,710 --> 00:06:53,580
+Sospendi l'uso del catetere, ispezioni la sede, rilevi i parametri, avvisi il medico; prepari le emocolture appaiate, dal PICC e da vena periferica, prima di qualunque modifica della terapia antibiotica.
+
+41
+00:06:53,580 --> 00:06:59,250
+Poi sara' il medico a decidere se il catetere va rimosso. Documenti l'episodio e l'orario esatto del brivido.
+
+42
+00:06:59,250 --> 00:07:11,590
+Nelle aziende venete il posizionamento di PICC e Midline e' spesso affidato a team infermieristici formati, con ecoguida e conferma ECG della punta: l'evoluzione delle competenze del modulo uno, in concreto.
+
+43
+00:07:11,590 --> 00:07:23,260
+Il bundle CLABSI e' integrato nelle procedure, e le batteriemie rientrano nella sorveglianza delle ICA. All'orale, citare il team accessi vascolari a gestione infermieristica e' un ottimo aggancio.
+
+44
+00:07:23,260 --> 00:07:33,620
+La tabella da fotografare. CVC non tunnellizzato: centrale, breve termine. PICC: centrale, medio-lungo termine. Midline: periferico, qualche settimana.
+
+45
+00:07:33,620 --> 00:07:44,980
+Tunnellizzato: centrale, lungo termine. Port: centrale, lungo termine, uso intermittente, ago di Huber. Cinque dispositivi, una sola domanda da farsi: dove sta la punta?
+
+46
+00:07:44,980 --> 00:07:56,990
+Ricapitoliamo. Conferma della punta prima di usare un centrale. Massime barriere sterili e clorexidina alcolica all'inserimento. Scrub the hub. Medicazione trasparente ogni sette giorni, garza ogni due.
+
+47
+00:07:56,990 --> 00:08:05,760
+Siringhe da almeno dieci millilitri e tecnica pulsante. Embolia gassosa: laterale sinistro e Trendelenburg. Brivido al lavaggio: allarme.
+
+48
+00:08:05,760 --> 00:08:15,810
+E, ogni giorno, serve ancora? E' la stessa domanda della lezione sei punto uno, e vale ancora di piu' per un centrale. Nella prossima lezione: la fluidoterapia. A tra poco.

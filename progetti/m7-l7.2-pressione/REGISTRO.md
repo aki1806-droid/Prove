@@ -26,6 +26,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,34 (A $0,64 · B $0,70) |
+| costo trascrizioni | $0,53 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s41) |
@@ -34,6 +36,8 @@ Nessuna illustrazione nuova.
 CARATTERI  8.000          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:05     (MIRA 16,3: circa 8:25)
 stacco tracce             dopo s23   (chunk A 3.847 car · chunk B 4.153 car)
+tracce grezze             A 271.3 s  ·  B 308.8 s
+silenzi                   fattore 1,121   ->   atempo 1,054
 ```
 
 Lo script è di 17 slide e circa 1.400 parole; i 46 blocchi iniziali erano
@@ -50,6 +54,20 @@ dello script («ne basta uno», «sollevati dal materasso», «e si dichiara»).
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**625/637 parole**, la B **608/615**, nessun buco. Le rese diverse
+(non buchi): s05 «npiap» sentito «npap»; s08 «e» sentito «ee»; s10 «npiap epuap» sentito «npap e puap»; s12 «e» sentito «ee»; s14 «slough» sentito «slau»; s15 «e» sentito «ee»; s16 «slough» sentito «slau»; s19 «1 2» sentito «lezione12»; s20 «slough» sentito «slau»; s23 «e» sentito «ee»; s35 «ee» sentito «e»; s37 «ee» sentito «e»; s41 «e» sentito «ee»; s47 «con o» sentito «cono»; s48 «ee» sentito «e».
 
 ## Le scene
 

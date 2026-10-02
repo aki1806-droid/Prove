@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,550
+Chiudiamo il modulo piu' pesante del corso con una lezione diversa dalle altre: prima un rapido riepilogo dei punti chiave, poi venti calcoli cronometrati.
+
+2
+00:00:11,550 --> 00:00:21,940
+Per ogni coppia di calcoli avrai quaranta secondi, venti a calcolo: il tempo che avrai davvero in sede d'esame. Prendi carta e penna, e metti in pausa se ti serve piu' tempo. Ma prova a stare nei tempi.
+
+3
+00:00:21,940 --> 00:00:34,260
+Il riepilogo, in due slide. ADME: assorbimento, distribuzione, metabolismo, eliminazione. Biodisponibilita' endovenosa del cento per cento. Primo passaggio epatico, che riduce la dose orale.
+
+4
+00:00:34,260 --> 00:00:46,130
+Stato stazionario ed eliminazione in quattro-cinque emivite. Finestra stretta, con il monitoraggio dei livelli: digossina, litio, warfarin, fenitoina, aminoglicosidi, vancomicina.
+
+5
+00:00:46,130 --> 00:00:56,190
+La reazione avversa si segnala sul sospetto, alla rete nazionale di farmacovigilanza; l'errore in terapia con l'incident reporting. E nell'anziano: start low, go slow.
+
+6
+00:00:56,190 --> 00:01:10,970
+Le sette G e i tre controlli, l'ultimo al letto. Identificazione attiva con due identificativi. Niente U, niente zero dopo la virgola. Le Raccomandazioni uno, sette, dodici, quattordici, diciassette, diciannove.
+
+7
+00:01:10,970 --> 00:01:20,500
+Davanti a un errore: valutare, avvisare, informare, documentare, segnalare. Gli antidoti: protamina, vitamina K, idarucizumab, naloxone, glucagone.
+
+8
+00:01:20,500 --> 00:01:29,530
+Gli stupefacenti: DPR trecentonove del millenovecentonovanta, registro di carico e scarico vidimato, conservazione due anni. Ora i calcoli.
+
+9
+00:01:29,530 --> 00:01:43,750
+Calcolo uno: prescritti quaranta milligrammi, fiala da venti milligrammi per millilitro. Calcolo due: prescritti duecentocinquanta milligrammi, compresse da cinquecento. Quaranta secondi: metti in pausa.
+
+10
+00:01:43,750 --> 00:01:53,040
+Uno: la regola del tre della lezione cinque punto tre: dose prescritta diviso dose disponibile, per il volume. Quaranta diviso venti fa due: due millilitri.
+
+11
+00:01:53,040 --> 00:02:02,610
+Due: duecentocinquanta diviso cinquecento fa zero virgola cinque: mezza compressa, se la compressa e' divisibile. Altrimenti si chiede una formulazione adatta.
+
+12
+00:02:02,610 --> 00:02:17,460
+Tre: prescritti zero virgola venticinque milligrammi, fiala da zero virgola cinque milligrammi in due millilitri. Quattro: prescritti trecento microgrammi, fiala da un milligrammo in un millilitro. Quaranta secondi.
+
+13
+00:02:17,460 --> 00:02:26,420
+Tre: zero virgola cinque in due millilitri e' zero virgola venticinque per millilitro, quindi un millilitro. Meta' della fiala, e il buon senso lo conferma.
+
+14
+00:02:26,420 --> 00:02:34,730
+Quattro: prima la conversione. Un milligrammo sono mille microgrammi; trecento su mille fa zero virgola tre: zero virgola tre millilitri.
+
+15
+00:02:34,730 --> 00:02:47,640
+Cinque: prescritti duecento milligrammi di una soluzione al dieci per cento. Sei: quanti grammi di glucosio ci sono in dieci millilitri di glucosata al trentatre' per cento? Quaranta secondi.
+
+16
+00:02:47,640 --> 00:02:57,750
+Cinque: il dieci per cento sono dieci grammi in cento millilitri, cioe' cento milligrammi per millilitro, percentuale per dieci. Duecento diviso cento: due millilitri.
+
+17
+00:02:57,750 --> 00:03:08,000
+Sei: il trentatre' per cento sono trentatre' grammi in cento millilitri, quindi in dieci millilitri tre virgola tre grammi. Percentuale per dieci: i milligrammi per millilitro.
+
+18
+00:03:08,000 --> 00:03:18,970
+Sette: cinquecento millilitri in quattro ore, quanti millilitri all'ora? Otto: millecinquecento millilitri in ventiquattro ore? Quaranta secondi.
+
+19
+00:03:18,970 --> 00:03:32,010
+Sette: volume diviso ore, cinquecento diviso quattro: centoventicinque millilitri all'ora. Otto: millecinquecento diviso ventiquattro fa sessantadue virgola cinque millilitri all'ora. La formula piu' semplice del modulo.
+
+20
+00:03:32,010 --> 00:03:45,040
+Nove: cinquecento millilitri in cinque ore, deflussore da venti gocce: quante gocce al minuto? Dieci: cento millilitri in trenta minuti, stesso deflussore. Quaranta secondi.
+
+21
+00:03:45,040 --> 00:03:52,710
+Nove: volume per fattore diviso minuti. Cinquecento per venti fa diecimila, diviso trecento minuti fa trentatre' gocce al minuto.
+
+22
+00:03:52,710 --> 00:04:01,010
+Dieci: cento per venti fa duemila, diviso trenta fa sessantasette gocce al minuto. Il tempo in minuti, sempre: e' l'errore piu' frequente.
+
+23
+00:04:01,010 --> 00:04:14,220
+Undici: microgocciolatore, quaranta millilitri all'ora: quante gocce al minuto? Dodici: deflussore da venti, novanta millilitri all'ora. Usa le scorciatoie. Quaranta secondi.
+
+24
+00:04:14,220 --> 00:04:22,300
+Undici: con il microgocciolatore, sessanta gocce per millilitro, gocce al minuto e millilitri all'ora coincidono: quaranta gocce al minuto.
+
+25
+00:04:22,300 --> 00:04:30,280
+Dodici: con il deflussore da venti si divide per tre: novanta diviso tre, trenta gocce al minuto. Le scorciatoie della lezione cinque punto tre.
+
+26
+00:04:30,280 --> 00:04:45,520
+Tredici: prescritte dodici unita' di insulina cento unita' per millilitro: quanti millilitri? Quattordici: eparina venticinquemila unita' in cinquanta millilitri, prescritte ottocento unita' all'ora. Quaranta secondi.
+
+27
+00:04:45,520 --> 00:04:55,810
+Tredici: dodici diviso cento, zero virgola dodici millilitri. Ma nella pratica non si converte: si aspirano dodici unita' con una siringa da insulina, graduata in unita'.
+
+28
+00:04:55,810 --> 00:05:06,200
+Quattordici: venticinquemila diviso cinquanta, cinquecento unita' per millilitro; ottocento diviso cinquecento, uno virgola sei millilitri all'ora, da impostare sulla pompa.
+
+29
+00:05:06,200 --> 00:05:21,700
+Quindici: amoxicillina cinquanta milligrammi per chilo al giorno in tre dosi, bambino di diciotto chili: quanti per dose? Sedici: sospensione da duecentocinquanta milligrammi in cinque millilitri, dose da trecento.
+
+30
+00:05:21,700 --> 00:05:31,170
+Quindici: cinquanta per diciotto fa novecento milligrammi al giorno, diviso tre fa trecento milligrammi per dose. Prima la dose giornaliera, poi la dose singola.
+
+31
+00:05:31,170 --> 00:05:41,270
+Sedici: trecento diviso duecentocinquanta fa uno virgola due, per cinque fa sei millilitri. I due calcoli sono collegati: la dose del quindici e' la dose del sedici.
+
+32
+00:05:41,270 --> 00:05:52,600
+Diciassette, il piu' lungo: noradrenalina zero virgola uno microgrammi per chilo al minuto, paziente di ottanta chili, soluzione di quattro milligrammi in cinquanta millilitri: millilitri all'ora?
+
+33
+00:05:52,600 --> 00:06:02,840
+Diciotto: mille millilitri a centoventicinque all'ora, iniziata alle otto: quando finisce? Per questa coppia hai sessanta secondi.
+
+34
+00:06:02,840 --> 00:06:13,160
+Diciassette: zero virgola uno per ottanta fa otto microgrammi al minuto; per sessanta fa quattrocentottanta microgrammi all'ora, cioe' zero virgola quarantotto milligrammi.
+
+35
+00:06:13,160 --> 00:06:26,680
+Poi la concentrazione: quattro diviso cinquanta, zero virgola zero otto milligrammi per millilitro. Zero virgola quarantotto diviso zero virgola zero otto fa sei millilitri all'ora. Diciotto: otto ore, quindi alle sedici.
+
+36
+00:06:26,680 --> 00:06:35,320
+Diciannove: prescritti quaranta milliequivalenti di potassio da diluire, fiala da due milliequivalenti per millilitro: quanti millilitri di concentrato?
+
+37
+00:06:35,320 --> 00:06:45,360
+Venti: prescritti zero virgola centoventicinque milligrammi di digossina, compresse da zero virgola venticinque. Quaranta secondi.
+
+38
+00:06:45,360 --> 00:06:56,570
+Diciannove: venti millilitri di concentrato, che non si somministrano mai cosi': si diluiscono secondo procedura, con doppio controllo e pompa, Raccomandazione uno. Venti: mezza compressa.
+
+39
+00:06:56,570 --> 00:07:08,640
+Conta le risposte giuste. Da diciotto a venti: sei pronto per i calcoli dell'esame. Da quindici a diciassette: individua il tipo di calcolo che hai sbagliato, conversioni, percentuali, gocce, e rifai solo quelli.
+
+40
+00:07:08,640 --> 00:07:19,820
+Meno di quindici: riguarda la lezione cinque punto tre con calma, e rifai questa batteria fra due giorni. I calcoli sono l'unica parte del concorso in cui l'allenamento garantisce il risultato.
+
+41
+00:07:19,820 --> 00:07:28,240
+I quattro errori che vedo piu' spesso. Dimenticare la conversione fra milligrammi e microgrammi. Usare le ore invece dei minuti nel calcolo delle gocce.
+
+42
+00:07:28,240 --> 00:07:38,340
+Confondere la dose, in milligrammi, con il volume, in millilitri. E saltare il controllo di buon senso. Nessuno di questi e' un errore di matematica: sono tutti errori di attenzione.
+
+43
+00:07:38,340 --> 00:07:48,300
+Gli agganci veneti del modulo. Scheda unica di terapia informatizzata. Farmacovigilanza con responsabile aziendale e centro regionale, che valuta e trasmette alla rete nazionale.
+
+44
+00:07:48,300 --> 00:07:58,240
+Procedure su farmaci ad alto rischio, LASA, potassio concentrato e stupefacenti. UFA per gli antiblastici. Ricognizione e riconciliazione nei passaggi di setting.
+
+45
+00:07:58,240 --> 00:08:07,290
+Come proseguire. Test del modulo, trenta domande, soglia ventuno. Rifai la batteria dei calcoli finche' non arrivi stabilmente a diciotto su venti, e nei tempi.
+
+46
+00:08:07,290 --> 00:08:16,350
+Nel quaderno: formule, antidoti, Raccomandazioni. E scrivi per intero un caso di errore in terapia con lo schema in cinque passi: e' una traccia molto probabile.
+
+47
+00:08:16,350 --> 00:08:25,700
+Ci fermiamo qui, con la frase che ha aperto la lezione sulla somministrazione sicura: l'infermiere e' l'ultima barriera fra l'errore e il paziente.
+
+48
+00:08:25,700 --> 00:08:33,750
+Nel prossimo modulo restiamo vicini a questi temi, ma dal lato dei dispositivi: accessi venosi, terapia infusionale e trasfusioni. Ci vediamo li'.

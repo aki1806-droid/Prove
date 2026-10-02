@@ -1,0 +1,98 @@
+{
+ "A": {
+  "parole_copione": 623,
+  "parole_dette": 623,
+  "coincidenti": 613,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "6virgola1",
+    "detto": "6 ee 1"
+   },
+   {
+    "blocco": "s02",
+    "copione": "cosa",
+    "detto": "cos"
+   },
+   {
+    "blocco": "s07",
+    "copione": "cosa",
+    "detto": "cos"
+   },
+   {
+    "blocco": "s08",
+    "copione": "lasciata",
+    "detto": "lasciato"
+   },
+   {
+    "blocco": "s08",
+    "copione": "the",
+    "detto": "di"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "picc",
+    "detto": "pic"
+   },
+   {
+    "blocco": "s18",
+    "copione": "d",
+    "detto": "di"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 586,
+  "parole_dette": 585,
+  "coincidenti": 576,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "vip 2",
+    "detto": "vip2"
+   },
+   {
+    "blocco": "s27",
+    "copione": "emocolture",
+    "detto": "emo culture"
+   },
+   {
+    "blocco": "s38",
+    "copione": "vip 2",
+    "detto": "vip2"
+   },
+   {
+    "blocco": "s38",
+    "copione": "milliosmoli",
+    "detto": "miliosmoli"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s45",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

@@ -19,6 +19,8 @@ classi. Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,37 (A $0,70 · B $0,67) |
+| costo trascrizioni | $0,54 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna musicale; dieci pose di 2,5 s sulle scene di pausa, una sulla slide sul verde |
@@ -27,6 +29,8 @@ classi. Nessuna illustrazione nuova.
 CARATTERI  8.218          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:42.6
 stacco tracce             dopo s26   (chunk A 4.244 car · chunk B 3.974 car)
+tracce grezze             A 302.6 s  ·  B 293.8 s
+silenzi                   fattore 1,107   ->   atempo 1,115
 ```
 
 Lo script è il più corto del modulo (circa 6.000 caratteri di voce per 18
@@ -45,6 +49,20 @@ più, come in 5.3.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**562/578 parole**, la B **542/553**, nessun buco. Le rese diverse
+(non buchi): s05 «lezione45» sentito «4 5»; s06 «ee» sentito «e»; s07 «7 g» sentito «7g»; s07 «al» sentito «a»; s22 «10000» sentito «10 000»; s27 «25000» sentito «25 000»; s29 «25000» sentito «25 000»; s30 «chili» sentito «kg»; s33 «chili» sentito «kg»; s35 «quattrocentottanta» sentito «480»; s36 «0virgola0 8» sentito «0virgola08»; s36 «0virgola0 8» sentito «0virgola08»; s43 «ee» sentito «e»; s47 «e» sentito «ee».
 
 ## Le scene
 
@@ -71,10 +89,14 @@ più, come in 5.3.
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `5f46bdb252f19a560f4a8912dfba9103` — 522.749 s (8:42.7), 1080p 16:9, resa in 64 s, con SRT (`subtitle_url`) |
+| lotto asset | `8277f5391adb4774add9cc27339dc1b3` — 98 file, 18 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «lezione45» (s05, trascritto «4 5»); «ee» (s06, trascritto «e»); «7 g» (s07, trascritto «7g»); «al» (s07, trascritto «a»); «10000» (s22, trascritto «10 000»); «25000» (s27, trascritto «25 000»); «25000» (s29, trascritto «25 000»); «chili» (s30, trascritto «kg»); «chili» (s33, trascritto «kg»); «quattrocentottanta» (s35, trascritto «480»); «0virgola0 8» (s36, trascritto «0virgola08»); «0virgola0 8» (s36, trascritto «0virgola08»); «ee» (s43, trascritto «e»); «e» (s47, trascritto «ee»).

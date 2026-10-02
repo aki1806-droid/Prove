@@ -154,13 +154,19 @@ def parole(s):
     # sola parola («1virgola2»), altrimenti «1 2» diventa un rimando alla
     # lezione 1.2 e il confronto segnala un buco che non c'e' (visto su 3.3).
     s = re.sub(r"(\d),(\d)", r"\1virgola\2", s)
+    # I segni: il trascrittore scrive «-2 e +2», il copione «meno due e piu' due»
+    # (6.4): senza questa riga «2 e 2» diventava il decimale «2virgola2».
+    s = re.sub(r"(?<![\w,.])-(\d)", r"meno \1", s)
+    s = re.sub(r"\+(\d)", r"piu \1", s)
     # Le coppie di cifre legate da punto o trattino («4.6», «1-2») e le coppie
     # di numeri a parole con il trattino («uno-due») convergono qui, con la
     # punteggiatura ancora presente: una regola a coppie di parole qualunque
     # dipenderebbe dalla parita' delle parole che precedono, e su 4.2 dava
     # «lezione34» da una parte e «3 4virgola5» dall'altra.
     s = re.sub(r"\b(\d)[./\-](\d)\b", r" lezione\1\2 ", s)
-    s = re.sub(r"\b(uno|due|tre|quattro|cinque|sei|sette|otto|nove)-(uno|due|tre|quattro|cinque|sei|sette|otto|nove)\b",
+    # ...ma non dentro un decimale: «zero virgola sei-uno virgola due» (6.7)
+    # e' 0,6-1,2, non un rimando alla lezione 6.1.
+    s = re.sub(r"(?<!virgola )\b(uno|due|tre|quattro|cinque|sei|sette|otto|nove)-(uno|due|tre|quattro|cinque|sei|sette|otto|nove)\b(?! virgola)",
                lambda m: f" lezione{cifra(m.group(1))}{cifra(m.group(2))} ", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     # I rimandi alle lezioni di qualunque modulo: il copione dice «quattro

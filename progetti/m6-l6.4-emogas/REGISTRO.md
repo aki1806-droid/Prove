@@ -25,6 +25,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,36 (A $0,70 · B $0,66) |
+| costo trascrizioni | $0,57 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna musicale; tre pose di 2,5 s sugli esercizi, una sulla slide sul verde (s26) |
@@ -33,6 +35,8 @@ Nessuna illustrazione nuova.
 CARATTERI  8.125          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:20     ->  mira 16,5 car/s
 stacco tracce             dopo s26
+tracce grezze             A 314.0 s  ·  B 317.5 s
+silenzi                   fattore 1,114   ->   atempo 1,130
 ```
 
 Lo script è di 18 slide e circa 1.720 parole, con tre esercizi e un
@@ -49,6 +53,20 @@ trascrizione li fonda con «7,28» del trascrittore.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**652/654 parole**, la B **570/577**, nessun buco. Le rese diverse
+(non buchi): s28 «e» sentito «ee»; s33 «e» sentito «ee»; s40 «e» sentito «ee»; s44 «e» sentito «ee»; s45 «emogasanalizzatori» sentito «emogas analizzatori».
 
 ## Le scene
 

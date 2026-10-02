@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:09,880
+L'emogasanalisi e' una delle parti del programma che i candidati temono di piu', e una delle piu' facili da trasformare in punti sicuri.
+
+2
+00:00:09,880 --> 00:00:20,110
+Non serve diventare rianimatori: serve un metodo in quattro passi e una manciata di valori normali. Alla fine di questa lezione saprai leggere i quattro disturbi fondamentali e il loro compenso.
+
+3
+00:00:20,110 --> 00:00:25,800
+Poi vediamo come si esegue correttamente il prelievo arterioso, dal test di Allen alla siringa senza bolle.
+
+4
+00:00:25,800 --> 00:00:37,560
+I valori da sapere a memoria. pH fra sette virgola trentacinque e sette virgola quarantacinque. Anidride carbonica, la PaCO2, fra trentacinque e quarantacinque millimetri di mercurio.
+
+5
+00:00:37,560 --> 00:00:52,550
+Bicarbonati fra ventidue e ventisei. Ossigeno, la PaO2, fra ottanta e cento in aria nell'adulto, meno nell'anziano. Saturazione sopra il novantacinque per cento. Eccesso di basi fra meno due e piu' due. Lattati sotto due.
+
+6
+00:00:52,550 --> 00:01:04,150
+Il principio. L'equilibrio acido-base dipende da due componenti. L'anidride carbonica, che si comporta come un acido ed e' regolata dal polmone, in pochi minuti, aumentando o riducendo la ventilazione.
+
+7
+00:01:04,150 --> 00:01:18,080
+E il bicarbonato, una base regolata dal rene, in ore o giorni. Il pH e' il rapporto fra le due: piu' CO2, piu' acido; piu' bicarbonato, piu' base. Due organi, due velocita': il polmone in minuti, il rene in giorni.
+
+8
+00:01:18,080 --> 00:01:25,590
+Il metodo. Uno: guarda il pH. Sotto sette virgola trentacinque e' acidosi, sopra sette virgola quarantacinque alcalosi.
+
+9
+00:01:25,590 --> 00:01:39,310
+Due: guarda la CO2. Se spiega il pH, alta nell'acidosi, bassa nell'alcalosi, il disturbo e' respiratorio. Tre: guarda il bicarbonato. Se spiega il pH, basso nell'acidosi, alto nell'alcalosi, il disturbo e' metabolico.
+
+10
+00:01:39,310 --> 00:01:49,060
+Quattro: il compenso. L'altro valore si muove per riportare il pH verso la norma? Se si', il corpo sta gia' lavorando, e il quadro e' compensato in parte o del tutto.
+
+11
+00:01:49,060 --> 00:01:58,800
+Un trucco mnemonico che funziona sempre: ROME, Respiratory Opposite, Metabolic Equal. Quattro lettere, e il passo due e il passo tre si fanno a colpo d'occhio.
+
+12
+00:01:58,800 --> 00:02:11,560
+Nei disturbi respiratori, pH e CO2 vanno in direzione opposta: pH giu', CO2 su. Nei disturbi metabolici, pH e bicarbonato vanno nella stessa direzione: pH giu', bicarbonato giu'.
+
+13
+00:02:11,560 --> 00:02:21,450
+I quattro disturbi. Acidosi respiratoria: pH basso, CO2 alta. La causa e' l'ipoventilazione: la CO2 non viene eliminata, e si accumula come acido.
+
+14
+00:02:21,450 --> 00:02:32,610
+Gli esempi: BPCO riacutizzata, sedazione eccessiva da oppioidi o benzodiazepine, ricordi la lezione cinque punto sei, malattie neuromuscolari, ostruzione delle vie aeree.
+
+15
+00:02:32,610 --> 00:02:43,350
+I segni: sonnolenza, confusione, cefalea, fino al coma ipercapnico. Un paziente con BPCO sempre piu' sonnolento e' un'acidosi respiratoria finche' non si dimostra il contrario.
+
+16
+00:02:43,350 --> 00:02:51,920
+Alcalosi respiratoria: pH alto, CO2 bassa. La causa e' l'iperventilazione: si elimina troppa CO2, e il sangue perde acido.
+
+17
+00:02:51,920 --> 00:03:02,910
+Gli esempi: ansia e attacco di panico, dolore, febbre, le fasi iniziali della sepsi, l'embolia polmonare. I segni: formicolii intorno alla bocca e alle dita, crampi, vertigini.
+
+18
+00:03:02,910 --> 00:03:11,000
+Attenzione: attribuire sempre l'iperventilazione all'ansia e' pericoloso, perche' la stessa alterazione si trova nella sepsi iniziale e nell'embolia.
+
+19
+00:03:11,000 --> 00:03:23,760
+Acidosi metabolica: pH basso, bicarbonato basso. Le cause: chetoacidosi diabetica; acidosi lattica da shock o sepsi; insufficienza renale; diarrea profusa, che perde bicarbonato; intossicazioni.
+
+20
+00:03:23,760 --> 00:03:36,280
+Per questo si misurano i lattati. Il compenso e' respiratorio: il polmone iperventila per eliminare CO2, con il respiro di Kussmaul, profondo e frequente. Vedere un Kussmaul significa pensare a un'acidosi metabolica.
+
+21
+00:03:36,280 --> 00:03:46,790
+Alcalosi metabolica: pH alto, bicarbonato alto. Le cause: vomito e aspirazione gastrica prolungata da sondino, che fanno perdere acido; diuretici; ipokaliemia.
+
+22
+00:03:46,790 --> 00:03:55,420
+Il compenso e' una ipoventilazione, con CO2 che sale. Un paziente con sondino in aspirazione da giorni e diuretico in terapia e' il candidato tipico.
+
+23
+00:03:55,420 --> 00:04:04,480
+Il compenso. Se l'altro valore e' normale, il disturbo e' non compensato. Se l'altro valore si sposta ma il pH e' ancora alterato, e' parzialmente compensato.
+
+24
+00:04:04,480 --> 00:04:12,190
+Se il pH e' rientrato nella norma, e' completamente compensato, e in genere il pH resta vicino al limite del lato del disturbo primario.
+
+25
+00:04:12,190 --> 00:04:20,990
+Una regola: il compenso non supera mai la correzione. Il pH non passa dall'acidosi all'alcalosi per effetto del compenso.
+
+26
+00:04:20,990 --> 00:04:31,720
+Proviamo. pH sette virgola ventotto, CO2 cinquantotto, bicarbonato venticinque. Metti in pausa e applica i quattro passi.
+
+27
+00:04:31,720 --> 00:04:44,950
+pH basso: acidosi. CO2 alta, in direzione opposta al pH: respiratoria. Bicarbonato normale: non compensata. E' un'acidosi respiratoria acuta: per esempio un paziente sedato eccessivamente.
+
+28
+00:04:44,950 --> 00:04:55,550
+Secondo. pH sette virgola ventidue, CO2 ventisei, bicarbonato undici. Metti in pausa, stessi quattro passi.
+
+29
+00:04:55,550 --> 00:05:10,430
+pH basso: acidosi. Bicarbonato basso, nella stessa direzione del pH: metabolica. CO2 bassa: il polmone iperventila, ma il pH e' ancora alterato: parzialmente compensata. La chetoacidosi diabetica, con il Kussmaul.
+
+30
+00:05:10,430 --> 00:05:21,320
+Terzo. pH sette virgola trentasette, CO2 sessanta, bicarbonato trentaquattro. Metti in pausa: questo e' il piu' difficile.
+
+31
+00:05:21,320 --> 00:05:34,210
+Il pH e' normale, ma vicino al lato acido. CO2 alta e bicarbonato alto: entrambi alterati. Il disturbo primario e' quello coerente con il lato del pH, cioe' l'acidosi respiratoria.
+
+32
+00:05:34,210 --> 00:05:42,940
+E il rene ha trattenuto bicarbonato fino a compensarla completamente. E' il quadro tipico del paziente con BPCO cronica ipercapnica stabile.
+
+33
+00:05:42,940 --> 00:05:53,440
+Il prelievo arterioso. La sede preferita e' l'arteria radiale, superficiale e con un buon circolo collaterale garantito dall'ulnare: se la radiale si chiude, la mano resta irrorata.
+
+34
+00:05:53,440 --> 00:06:04,900
+Prima di pungere si esegue il test di Allen modificato: si comprimono contemporaneamente radiale e ulnare, si fa aprire e chiudere la mano finche' il palmo impallidisce, poi si rilascia solo l'ulnare.
+
+35
+00:06:04,900 --> 00:06:13,560
+Se il colore ritorna rapidamente, entro il tempo indicato dalla procedura, il circolo collaterale e' adeguato. Se non ritorna, quella radiale non si punge.
+
+36
+00:06:13,560 --> 00:06:25,990
+La tecnica e la gestione del campione. Siringa eparinata dedicata. Angolo di trenta-quarantacinque gradi sulla radiale. Dopo il prelievo si eliminano subito le bolle d'aria e si tappa: l'aria altera i valori dei gas.
+
+37
+00:06:25,990 --> 00:06:34,990
+Si comprime la sede per almeno cinque minuti, di piu' nel paziente anticoagulato, per evitare l'ematoma. Si indicano sulla richiesta la FiO2 e la temperatura.
+
+38
+00:06:34,990 --> 00:06:44,640
+Il campione va analizzato il prima possibile, indicativamente entro un quarto d'ora: le cellule del sangue continuano a consumare ossigeno e a produrre CO2 anche nella siringa.
+
+39
+00:06:44,640 --> 00:06:54,360
+E se si e' appena modificata l'ossigenoterapia, si attende che la situazione si stabilizzi prima del prelievo, altrimenti l'esame fotografa un momento di passaggio.
+
+40
+00:06:54,360 --> 00:07:09,270
+Il caso, che collega questa lezione al modulo otto. Paziente con BPCO in ossigeno a sei litri con maschera semplice, sempre piu' sonnolento. Emogas: pH sette virgola venticinque, CO2 settantacinque, bicarbonato trentadue.
+
+41
+00:07:09,270 --> 00:07:22,730
+Lettura: acidosi respiratoria parzialmente compensata. Il rene aveva gia' compensato una ipercapnia cronica, ma ora la CO2 e' salita ancora. Una delle cause possibili e' l'eccesso di ossigeno nell'ipercapnico cronico.
+
+42
+00:07:22,730 --> 00:07:33,550
+Che cosa fai? Avvisi subito il medico, rivaluti l'ossigenoterapia secondo prescrizione con un obiettivo di saturazione adeguato, spesso ottantotto-novantadue per cento in questi pazienti.
+
+43
+00:07:33,550 --> 00:07:42,360
+Sorvegli la coscienza e prepari la possibile ventilazione non invasiva. E' il caso che chiude il cerchio: la sonnolenza e' il segno, l'emogas la conferma.
+
+44
+00:07:42,360 --> 00:07:52,990
+Nelle aziende venete gli emogasanalizzatori sono disponibili nei reparti critici e in pronto soccorso come strumenti point-of-care, e il prelievo arterioso e' regolato da procedure aziendali.
+
+45
+00:07:52,990 --> 00:08:02,410
+Spesso con percorsi di formazione e verifica della competenza infermieristica. All'orale, citare il test di Allen e la gestione del campione mostra precisione tecnica.
+
+46
+00:08:02,410 --> 00:08:16,480
+Ricapitoliamo. pH fra sette virgola trentacinque e sette virgola quarantacinque; CO2 trentacinque-quarantacinque; bicarbonato ventidue-ventisei. Quattro passi: pH, CO2, bicarbonato, compenso.
+
+47
+00:08:16,480 --> 00:08:24,770
+ROME: respiratorio opposto, metabolico uguale. Kussmaul: acidosi metabolica. Ipoventilazione: acidosi respiratoria.
+
+48
+00:08:24,770 --> 00:08:34,350
+Prima della radiale il test di Allen; dopo il prelievo niente bolle e compressione di almeno cinque minuti. Nella prossima lezione: la nutrizione parenterale. A tra poco.

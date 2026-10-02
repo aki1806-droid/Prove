@@ -18,9 +18,9 @@ MASTER.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 6.1 | Accessi venosi periferici | — | da fare |
-| 6.2 | Accessi venosi centrali | — | da fare |
-| 6.3 | Fluidoterapia | — | da fare |
+| 6.1 | Accessi venosi periferici | 8:23.6 | `ae14883ced57d1917d449ec7c759536c` |
+| 6.2 | Accessi venosi centrali | 8:24.9 | `b7d89f3bcdce393631983c5c57b0a385` |
+| 6.3 | Fluidoterapia | 8:32.7 | `b7a9e247a2c694ed0b4299a4d0402790` |
 | 6.4 | Emogasanalisi | — | da fare |
 | 6.5 | Nutrizione parenterale | — | da fare |
 | 6.6 | Emocomponenti ed emotrasfusione | — | da fare |

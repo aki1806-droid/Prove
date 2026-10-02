@@ -28,6 +28,8 @@ Nessuna illustrazione nuova: la ferita della lezione 4 nell'anello.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,68 · B $0,63) |
+| costo trascrizioni | $0,49 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s41) |
@@ -36,6 +38,8 @@ Nessuna illustrazione nuova: la ferita della lezione 4 nell'anello.
 CARATTERI  7.837          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:55     (MIRA 16,3: circa 8:15)
 stacco tracce             dopo s26   (chunk A 4.100 car · chunk B 3.737 car)
+tracce grezze             A 273.8 s  ·  B 271.2 s
+silenzi                   fattore 1,082   ->   atempo 1,048
 ```
 
 Lo script è di 16 slide e circa 1.250 parole: i 49 blocchi iniziali erano
@@ -51,6 +55,20 @@ classici che «possono mancare tutti»). `MIRA` a 16,3.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**616/625 parole**, la B **570/575**, nessun buco. Le rese diverse
+(non buchi): s07 «e» sentito «ee»; s08 «lezione12» sentito «1 o 2»; s12 «lezione46» sentito «da 4 a 6»; s15 «e» sentito «ee»; s16 «e» sentito «ee»; s20 «e» sentito «ee»; s24 «siero ematico» sentito «sieroematico»; s32 «e» sentito «ee»; s37 «levine» sentito «levin»; s38 «centimetro» sentito «cm»; s40 «ee» sentito «e»; s41 «e» sentito «ee».
 
 ## Le scene
 

@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 637,
+  "parole_dette": 637,
+  "coincidenti": 625,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "npiap",
+    "detto": "npap"
+   },
+   {
+    "blocco": "s08",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s10",
+    "copione": "npiap epuap",
+    "detto": "npap e puap"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "slough",
+    "detto": "slau"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "slough",
+    "detto": "slau"
+   },
+   {
+    "blocco": "s19",
+    "copione": "1 2",
+    "detto": "lezione12"
+   },
+   {
+    "blocco": "s20",
+    "copione": "slough",
+    "detto": "slau"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 615,
+  "parole_dette": 613,
+  "coincidenti": 608,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s47",
+    "copione": "con o",
+    "detto": "cono"
+   },
+   {
+    "blocco": "s48",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

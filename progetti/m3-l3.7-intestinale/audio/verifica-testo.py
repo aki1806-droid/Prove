@@ -154,6 +154,10 @@ def parole(s):
     # sola parola («1virgola2»), altrimenti «1 2» diventa un rimando alla
     # lezione 1.2 e il confronto segnala un buco che non c'e' (visto su 3.3).
     s = re.sub(r"(\d),(\d)", r"\1virgola\2", s)
+    # I segni: il trascrittore scrive «-2 e +2», il copione «meno due e piu' due»
+    # (6.4): senza questa riga «2 e 2» diventava il decimale «2virgola2».
+    s = re.sub(r"(?<![\w,.])-(\d)", r"meno \1", s)
+    s = re.sub(r"\+(\d)", r"piu \1", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+litro\s+e\s+mezzo\b", lambda m: f" {cifra(m.group(1))}virgola5 ", s)
     s = re.sub(r"\b([a-z0-9]+)\s+e\s+mezzo\b",          lambda m: f" {cifra(m.group(1))}virgola5 ", s)

@@ -1,0 +1,113 @@
+{
+ "A": {
+  "parole_copione": 610,
+  "parole_dette": 605,
+  "coincidenti": 587,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "ab 0virgola1",
+    "detto": "ab0 e 1"
+   },
+   {
+    "blocco": "s05",
+    "copione": "ab 0",
+    "detto": "ab0"
+   },
+   {
+    "blocco": "s06",
+    "copione": "0 rh",
+    "detto": "0rh"
+   },
+   {
+    "blocco": "s06",
+    "copione": "ab rh",
+    "detto": "abrh"
+   },
+   {
+    "blocco": "s09",
+    "copione": "crioprecipitato",
+    "detto": "criotrecipitato"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s10",
+    "copione": "plasmaderivati",
+    "detto": "plasma derivati"
+   },
+   {
+    "blocco": "s11",
+    "copione": "frigoemoteca",
+    "detto": "frigo emoteca"
+   },
+   {
+    "blocco": "s16",
+    "copione": "pre trasfusionali",
+    "detto": "pretrasfusionali"
+   },
+   {
+    "blocco": "s16",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s17",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "ab 0",
+    "detto": "ab0"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 631,
+  "parole_dette": 630,
+  "coincidenti": 624,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "ab 0",
+    "detto": "ab0"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ab 0",
+    "detto": "ab0"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "preanalitica",
+    "detto": "pre analitica"
+   }
+  ]
+ }
+}

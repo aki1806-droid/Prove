@@ -1,0 +1,42 @@
+{
+ "A": {
+  "parole_copione": 654,
+  "parole_dette": 652,
+  "coincidenti": 652,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 577,
+  "parole_dette": 576,
+  "coincidenti": 570,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "emogasanalizzatori",
+    "detto": "emogas analizzatori"
+   }
+  ]
+ }
+}

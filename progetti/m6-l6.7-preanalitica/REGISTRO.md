@@ -28,6 +28,8 @@ Nessuna illustrazione nuova: la ferita della lezione 4 per il tampone.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,37 (A $0,65 · B $0,72) |
+| costo trascrizioni | $0,52 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s44) |
@@ -36,6 +38,8 @@ Nessuna illustrazione nuova: la ferita della lezione 4 per il tampone.
 CARATTERI  8.239          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:19     (MIRA 16,3: circa 8:40)
 stacco tracce             dopo s24   (chunk A 3.934 car · chunk B 4.305 car)
+tracce grezze             A 265.0 s  ·  B 312.7 s
+silenzi                   fattore 1,114   ->   atempo 1,026
 ```
 
 Lo script è di 17 slide e circa 1.400 parole: i blocchi tengono tutti i
@@ -54,6 +58,20 @@ otto minuti e mezzo.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**619/624 parole**, la B **635/647**, nessun buco. Le rese diverse
+(non buchi): s05 «al» sentito «a»; s07 «e» sentito «ee»; s11 «e» sentito «ee»; s15 «e» sentito «ee»; s17 «e» sentito «ee»; s25 «contaminata» sentito «contaminato»; s34 «4000 10000» sentito «da 4 000 a 10 000»; s34 «150000 400000» sentito «da 150 000 a 400 000».
 
 ## Le scene
 

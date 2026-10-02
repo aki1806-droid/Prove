@@ -1,0 +1,113 @@
+{
+ "A": {
+  "parole_copione": 570,
+  "parole_dette": 562,
+  "coincidenti": 556,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "chilo",
+    "detto": "kg"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 664,
+  "parole_dette": 662,
+  "coincidenti": 648,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "occlusione",
+    "detto": "occlusioni"
+   },
+   {
+    "blocco": "s27",
+    "copione": "anti flusso",
+    "detto": "antiflusso"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s38",
+    "copione": "basi",
+    "detto": "vasi"
+   },
+   {
+    "blocco": "s38",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "con presa",
+    "detto": "compresa"
+   },
+   {
+    "blocco": "s45",
+    "copione": "isotoniche",
+    "detto": "isotonic"
+   },
+   {
+    "blocco": "s49",
+    "copione": "emogasanalisi",
+    "detto": "emogas analisi"
+   }
+  ]
+ }
+}

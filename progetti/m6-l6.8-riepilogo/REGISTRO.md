@@ -26,6 +26,8 @@ fisiologica, VIP 2, i 900 mOsm/L), e le risposte sono le sue.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,69 · B $0,62) |
+| costo trascrizioni | $0,56 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | quattro pose di 2 s sulle domande (s32, s34, s36, s38) e una breve sulla frase del modulo (s47) |
@@ -34,6 +36,8 @@ fisiologica, VIP 2, i 900 mOsm/L), e le risposte sono le sue.
 CARATTERI  7.845          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:04     (MIRA 16,3: circa 8:25)
 stacco tracce             dopo s25   (chunk A 4.132 car · chunk B 3.713 car)
+tracce grezze             A 316.7 s  ·  B 295.7 s
+silenzi                   fattore 1,149   ->   atempo 1,108
 ```
 
 Lo script è di 15 slide e circa 1.160 parole: i blocchi tengono tutti i
@@ -51,6 +55,20 @@ numeri (s13–s15) e tre percorsi (s17–s19).
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**613/623 parole**, la B **576/586**, nessun buco. Le rese diverse
+(non buchi): s02 «6virgola1» sentito «6 ee 1»; s02 «cosa» sentito «cos»; s07 «cosa» sentito «cos»; s08 «lasciata» sentito «lasciato»; s08 «the» sentito «di»; s12 «e» sentito «ee»; s12 «picc» sentito «pic»; s18 «d» sentito «di»; s26 «vip 2» sentito «vip2»; s27 «emocolture» sentito «emo culture»; s38 «vip 2» sentito «vip2»; s38 «milliosmoli» sentito «miliosmoli»; s40 «e» sentito «ee»; s43 «al» sentito «a»; s45 «e» sentito «ee»; s49 «e» sentito «ee».
 
 ## Le scene
 

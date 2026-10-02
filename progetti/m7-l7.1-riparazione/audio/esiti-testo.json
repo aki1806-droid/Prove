@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 625,
+  "parole_dette": 628,
+  "coincidenti": 616,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s08",
+    "copione": "lezione12",
+    "detto": "1 o 2"
+   },
+   {
+    "blocco": "s12",
+    "copione": "lezione46",
+    "detto": "da 4 a 6"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "siero ematico",
+    "detto": "sieroematico"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 575,
+  "parole_dette": 575,
+  "coincidenti": 570,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "levine",
+    "detto": "levin"
+   },
+   {
+    "blocco": "s38",
+    "copione": "centimetro",
+    "detto": "cm"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

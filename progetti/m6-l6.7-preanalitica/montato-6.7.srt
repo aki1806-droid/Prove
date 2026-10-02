@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:10,740
+Un dato che sorprende molti: la maggior parte degli errori di laboratorio non nasce in laboratorio, ma prima, nella fase preanalitica.
+
+2
+00:00:10,740 --> 00:00:21,000
+Identificazione, prelievo, provette, conservazione, trasporto: e' la fase gestita dall'infermiere, e per questo e' la fase in cui l'infermiere puo' fare la differenza.
+
+3
+00:00:21,000 --> 00:00:33,430
+Un esame sbagliato non e' innocuo: porta a diagnosi sbagliate, terapie inutili o mancate, prelievi ripetuti. E quasi sempre l'errore e' invisibile: il referto arriva, e nessuno sa che e' falso.
+
+4
+00:00:33,430 --> 00:00:41,850
+Il primo passo e' sempre lo stesso: identificazione attiva. Poi l'etichettatura, che si fa al letto, davanti al paziente, subito dopo il prelievo.
+
+5
+00:00:41,850 --> 00:00:52,850
+Non si pre-etichettano provette per piu' pazienti da portare in giro sul carrello: e' la ricetta perfetta per uno scambio. Prima si preleva, poi si etichetta, senza allontanarsi dal letto.
+
+6
+00:00:52,850 --> 00:01:02,410
+E la richiesta deve essere completa, con l'esame, la data, l'ora del prelievo e l'operatore: l'ora conta, perche' alcuni valori cambiano nella giornata.
+
+7
+00:01:02,410 --> 00:01:10,340
+Le condizioni del prelievo. Il laccio si tiene per meno di un minuto: oltre, si concentrano i componenti del sangue e i valori cambiano.
+
+8
+00:01:10,340 --> 00:01:18,910
+Niente pugno aperto e chiuso ripetutamente, che altera il potassio: ricordi la pseudo-iperkaliemia della lezione tre punto cinque.
+
+9
+00:01:18,910 --> 00:01:26,600
+Paziente a riposo, a digiuno quando l'esame lo richiede: la glicemia a digiuno della lezione cinque punto cinque, i trigliceridi.
+
+10
+00:01:26,600 --> 00:01:37,380
+E non si preleva dall'arto in cui scorre un'infusione, che diluisce o contamina il campione: se e' proprio inevitabile, si preleva a valle, a infusione sospesa, secondo procedura.
+
+11
+00:01:37,380 --> 00:01:49,430
+L'ordine di prelievo delle provette, che i quiz chiedono spesso. Uno: emocolture, per prime, per non contaminarle con gli additivi delle altre. Due: citrato, tappo azzurro, per la coagulazione.
+
+12
+00:01:49,430 --> 00:02:02,380
+Tre: siero, tappo rosso o giallo, con o senza gel. Quattro: eparina, tappo verde. Cinque: EDTA, tappo viola, per l'emocromo. Sei: fluoruro, tappo grigio, per la glicemia.
+
+13
+00:02:02,380 --> 00:02:13,160
+Il motivo dell'ordine e' evitare che l'additivo di una provetta contamini la successiva: per esempio l'EDTA, se passa nella provetta del siero, abbassa il calcio e alza il potassio.
+
+14
+00:02:13,160 --> 00:02:23,000
+E i colori possono variare fra produttori: conta l'additivo scritto in etichetta, non il tappo. Sei provette, un ordine: dalla piu' delicata alla meno delicata.
+
+15
+00:02:23,000 --> 00:02:37,100
+Due dettagli. La provetta del citrato va riempita esattamente fino alla tacca: il test della coagulazione richiede un rapporto preciso fra sangue e anticoagulante, nove a uno. Poco piena, da' risultati falsamente alterati.
+
+16
+00:02:37,100 --> 00:02:47,170
+E con il butterfly, se la prima provetta e' il citrato, si usa prima una provetta di scarto, per riempire d'aria il tubicino ed evitare che la provetta del citrato resti incompleta.
+
+17
+00:02:47,170 --> 00:02:55,000
+Tutte le provette con additivo si capovolgono delicatamente il numero di volte indicato: mai agitarle, perche' si provoca emolisi.
+
+18
+00:02:55,000 --> 00:03:05,140
+L'emolisi, la rottura dei globuli rossi nel campione. Le cause sono quasi tutte nostre: ago troppo sottile, aspirazione vigorosa con la siringa, laccio prolungato.
+
+19
+00:03:05,140 --> 00:03:16,820
+Provette agitate, sangue spinto con forza dalla siringa nella provetta, prelievo da una cannula appena posizionata: in tutti i casi i globuli rossi si rompono e versano il loro potassio nel siero.
+
+20
+00:03:16,820 --> 00:03:27,230
+L'effetto piu' importante: il potassio falsamente alto, insieme ad altri valori come LDH e transaminasi. Un campione emolizzato si ripete: non si interpreta.
+
+21
+00:03:27,230 --> 00:03:40,310
+Le emocolture, che riprendiamo dalle lezioni quattro punto sei e sei punto due. Si prelevano al rialzo febbrile o, meglio ancora, all'insorgenza del brivido, e prima dell'antibiotico, che altrimenti sterilizza il campione.
+
+22
+00:03:40,310 --> 00:03:53,830
+Almeno due set, ciascuno con un flacone aerobio e uno anaerobio, da due punzioni diverse. Volume: otto-dieci millilitri per flacone nell'adulto: il volume e' il principale determinante della sensibilita'.
+
+23
+00:03:53,830 --> 00:04:03,480
+Nel sospetto di infezione da catetere, set appaiati dal catetere e da vena periferica, nello stesso momento: e' il confronto fra i due che dice se il catetere e' la fonte.
+
+24
+00:04:03,480 --> 00:04:16,150
+La tecnica, perche' un'emocoltura contaminata dalla flora cutanea porta a terapie inutili. Antisepsi della cute con clorexidina alcolica, lasciata asciugare; disinfezione dei tappi; non ripalpare dopo l'antisepsi.
+
+25
+00:04:16,150 --> 00:04:27,160
+L'ordine dei flaconi: con il butterfly si riempie prima l'aerobio, perche' la piccola quantita' d'aria del tubicino finisce li' e non nell'anaerobio; con la siringa si inocula prima l'anaerobio.
+
+26
+00:04:27,160 --> 00:04:37,720
+Poi si etichetta e si invia subito, o si conserva secondo procedura, non in frigorifero: i flaconi sono terreni di coltura, e il freddo ferma la crescita che invece si vuole vedere.
+
+27
+00:04:37,720 --> 00:04:50,830
+L'urinocoltura. Dopo l'igiene dei genitali, si raccoglie il mitto intermedio, scartando il primo getto, in un contenitore sterile. Nel cateterizzato, dal punto di prelievo dedicato, mai dalla sacca: lezione tre punto sei.
+
+28
+00:04:50,830 --> 00:04:59,080
+Il campione si invia entro due ore, o si refrigera secondo procedura, perche' a temperatura ambiente i batteri si moltiplicano e falsano la carica.
+
+29
+00:04:59,080 --> 00:05:08,060
+Gli altri campioni. Il tampone richiede la sede giusta, la tecnica giusta e il terreno di trasporto adeguato: un tampone secco e' un tampone morto.
+
+30
+00:05:08,060 --> 00:05:16,360
+Sulle lesioni si deterge prima e si campiona il tessuto vitale, non il pus superficiale o la necrosi: lo vedremo nel modulo sette.
+
+31
+00:05:16,360 --> 00:05:26,620
+Le feci per il Clostridium difficile solo se non formate. L'espettorato al mattino, dopo aver sciacquato la bocca con acqua, da una tosse profonda: la saliva non serve.
+
+32
+00:05:26,620 --> 00:05:35,420
+Alcuni valori di riferimento da conoscere, con un'avvertenza: i valori esatti dipendono dal laboratorio, e nella pratica si usano quelli scritti sul referto.
+
+33
+00:05:35,420 --> 00:05:50,300
+Emoglobina: nell'uomo circa tredici-diciassette, nella donna circa dodici-quindici grammi per decilitro. Globuli bianchi: circa quattromila-diecimila per millimetro cubo. Piastrine: circa centocinquantamila-quattrocentomila.
+
+34
+00:05:50,300 --> 00:06:01,290
+La chimica. Glicemia a digiuno: normale fra settanta e novantanove; fra cento e centoventicinque alterata; da centoventisei, se confermata, compatibile con il diabete.
+
+35
+00:06:01,290 --> 00:06:11,050
+Emoglobina glicata: da sei virgola cinque per cento compatibile con diabete. Creatinina: circa zero virgola sei-uno virgola due milligrammi per decilitro.
+
+36
+00:06:11,050 --> 00:06:22,330
+Sodio e potassio li conosci dalla lezione tre punto cinque. INR circa uno in chi non assume anticoagulanti. La PCR, indice di infiammazione, secondo il laboratorio.
+
+37
+00:06:22,330 --> 00:06:33,770
+Un concetto di sicurezza: il valore critico, un risultato che indica un pericolo immediato per il paziente: un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata.
+
+38
+00:06:33,770 --> 00:06:44,470
+Il laboratorio lo comunica direttamente al reparto. Chi lo riceve applica il read-back della lezione due punto sette, avvisa subito il medico e documenta l'orario della comunicazione.
+
+39
+00:06:44,470 --> 00:06:54,030
+Il trasporto. Ogni esame ha tempi e temperature previsti: alcuni campioni vanno in ghiaccio, altri a temperatura ambiente, le emocolture mai in frigorifero.
+
+40
+00:06:54,030 --> 00:07:02,340
+I campioni viaggiano in contenitori chiusi, a prova di perdita, con il simbolo del rischio biologico, e le richieste vanno separate dai campioni.
+
+41
+00:07:02,340 --> 00:07:15,310
+Il caso. Il laboratorio comunica un potassio di sei virgola otto in un paziente asintomatico, con ECG in ordine. Il prelievo era stato difficoltoso, con ago sottile e laccio prolungato. Che cosa pensi?
+
+42
+00:07:15,310 --> 00:07:28,210
+Possibile pseudo-iperkaliemia da emolisi. Che cosa fai? Read-back, avvisi comunque il medico, un potassio cosi' alto non si ignora, chiedi al laboratorio se segnala emolisi, e su indicazione ripeti il prelievo.
+
+43
+00:07:28,210 --> 00:07:38,280
+Nel frattempo sorvegli il paziente, perche' potrebbe anche essere un'iperkaliemia vera. Il dubbio sul campione non sospende mai la sorveglianza sulla persona.
+
+44
+00:07:38,280 --> 00:07:48,610
+In Veneto molte aziende usano sistemi informatici di richiesta con etichette stampate al letto a partire dal braccialetto del paziente, che riducono gli errori di identificazione.
+
+45
+00:07:48,610 --> 00:07:58,640
+Esistono procedure aziendali sulla fase preanalitica e sulla comunicazione dei valori critici. All'orale, collega sempre la preanalitica alla sicurezza del paziente.
+
+46
+00:07:58,640 --> 00:08:10,300
+Ricapitoliamo. Etichettare al letto. Laccio meno di un minuto. Mai dal braccio con infusione. Ordine: emocolture, citrato, siero, eparina, EDTA, fluoruro.
+
+47
+00:08:10,300 --> 00:08:21,910
+Citrato fino alla tacca, provette mai agitate. Emocolture: due set, otto-dieci millilitri, prima dell'antibiotico. Urinocoltura: mitto intermedio, mai dalla sacca.
+
+48
+00:08:21,910 --> 00:08:30,690
+Nella prossima lezione ricomponiamo il modulo sei, con l'autovalutazione: dalla cannula alla provetta, tutto cio' che passa per una vena. A tra poco.

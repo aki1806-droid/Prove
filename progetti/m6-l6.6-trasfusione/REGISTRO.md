@@ -24,6 +24,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,68 · B $0,71) |
+| costo trascrizioni | $0,54 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s23) |
@@ -32,6 +34,8 @@ Nessuna illustrazione nuova.
 CARATTERI  8.278          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:21
 stacco tracce             dopo s25
+tracce grezze             A 286.2 s  ·  B 306.3 s
+silenzi                   fattore 1,116   ->   atempo 1,090
 ```
 
 Lo script è di 19 slide e circa 1.800 parole, il più lungo del modulo: i
@@ -47,6 +51,20 @@ numeri e la verifica le fonda con «219/2005».
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**587/610 parole**, la B **624/631**, nessun buco. Le rese diverse
+(non buchi): s03 «ab 0virgola1» sentito «ab0 e 1»; s05 «ab 0» sentito «ab0»; s06 «0 rh» sentito «0rh»; s06 «ab rh» sentito «abrh»; s09 «crioprecipitato» sentito «criotrecipitato»; s10 «e» sentito «ee»; s10 «plasmaderivati» sentito «plasma derivati»; s11 «frigoemoteca» sentito «frigo emoteca»; s16 «pre trasfusionali» sentito «pretrasfusionali»; s16 «al» sentito «a»; s17 «al» sentito «a»; s18 «e» sentito «ee»; s20 «e» sentito «ee»; s23 «ab 0» sentito «ab0»; s29 «ab 0» sentito «ab0»; s41 «ab 0» sentito «ab0»; s43 «e» sentito «ee»; s49 «e» sentito «ee»; s49 «preanalitica» sentito «pre analitica».
 
 ## Le scene
 

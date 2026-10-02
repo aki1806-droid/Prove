@@ -1,0 +1,88 @@
+{
+ "A": {
+  "parole_copione": 578,
+  "parole_dette": 569,
+  "coincidenti": 562,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "lezione45",
+    "detto": "4 5"
+   },
+   {
+    "blocco": "s06",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "7 g",
+    "detto": "7g"
+   },
+   {
+    "blocco": "s07",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s22",
+    "copione": "10000",
+    "detto": "10 000"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 553,
+  "parole_dette": 556,
+  "coincidenti": 542,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "25000",
+    "detto": "25 000"
+   },
+   {
+    "blocco": "s29",
+    "copione": "25000",
+    "detto": "25 000"
+   },
+   {
+    "blocco": "s30",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s33",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s35",
+    "copione": "quattrocentottanta",
+    "detto": "480"
+   },
+   {
+    "blocco": "s36",
+    "copione": "0virgola0 8",
+    "detto": "0virgola08"
+   },
+   {
+    "blocco": "s36",
+    "copione": "0virgola0 8",
+    "detto": "0virgola08"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

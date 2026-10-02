@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,910
+L'ago-cannula periferico e' il dispositivo invasivo piu' usato in ospedale: la maggior parte dei ricoverati ne ha almeno uno. Proprio per questo e' il piu' sottovalutato.
+
+2
+00:00:11,910 --> 00:00:18,900
+Una cannula e' una porta aperta nel sistema vascolare, e ogni giorno che resta in sede senza motivo e' un rischio senza beneficio.
+
+3
+00:00:18,900 --> 00:00:29,280
+Questa lezione segue il percorso del dispositivo: scelta, inserimento, gestione, complicanze, rimozione. Cinque tappe, e a ogni tappa una domanda da concorso.
+
+4
+00:00:29,280 --> 00:00:37,290
+Il calibro si misura in gauge, e la regola controintuitiva e': piu' basso il numero, piu' grande la cannula. Ogni calibro ha un colore standard.
+
+5
+00:00:37,290 --> 00:00:49,260
+Quattordici arancione, sedici grigio, diciotto verde, venti rosa, ventidue azzurro, ventiquattro giallo: il colore e' sul cono della cannula, e i quiz lo chiedono.
+
+6
+00:00:49,260 --> 00:01:02,250
+Il criterio di scelta: il calibro piu' piccolo compatibile con la terapia. Un calibro piccolo danneggia meno la vena e dura di piu'; i grandi, quattordici e sedici, per infusioni rapide e trasfusioni massive, come nel trauma.
+
+7
+00:01:02,250 --> 00:01:13,830
+La scelta della vena. Nell'adulto si usa l'arto superiore, preferibilmente il non dominante, procedendo dal distale al prossimale: se una vena distale si rompe, resta disponibile il tratto piu' alto.
+
+8
+00:01:13,830 --> 00:01:22,000
+Si evitano le zone di flessione, come la piega del gomito, dove la cannula si piega e si sposta, e con essa cresce il rischio di flebite meccanica.
+
+9
+00:01:22,000 --> 00:01:32,640
+E ci sono tre divieti da ricordare: non si usa l'arto con una fistola artero-venosa per dialisi, non quello omolaterale a uno svuotamento linfonodale ascellare, non l'arto paretico.
+
+10
+00:01:32,640 --> 00:01:40,000
+Gli arti inferiori, nell'adulto, solo in mancanza d'altro, per il rischio di trombosi: sono una scelta di necessita', non di comodita'.
+
+11
+00:01:40,000 --> 00:01:52,010
+La tecnica. Igiene delle mani e guanti. Laccio circa dieci centimetri sopra la sede. Antisepsi della cute, preferibilmente con clorexidina al due per cento in alcol, lasciandola asciugare completamente.
+
+12
+00:01:52,010 --> 00:02:01,350
+Un punto che i quiz chiedono: dopo l'antisepsi non si ripalpa la vena con il dito, altrimenti si ricontamina la sede. Se serve ripalpare, si ripete l'antisepsi.
+
+13
+00:02:01,350 --> 00:02:11,240
+Ago con il bisello verso l'alto, angolo di dieci-trenta gradi. Al reflusso di sangue si fa avanzare la cannula e si sfila il mandrino, attivando il dispositivo di sicurezza.
+
+14
+00:02:11,240 --> 00:02:20,670
+Si toglie il laccio e si lava la cannula con soluzione fisiologica, verificando che scorra senza dolore ne' gonfiore: e' il primo controllo della sede, e si documenta.
+
+15
+00:02:20,670 --> 00:02:30,120
+Il fissaggio. Si usa una medicazione sterile, semipermeabile e trasparente, che permette di vedere la sede senza rimuoverla. Si annota la data di inserimento.
+
+16
+00:02:30,120 --> 00:02:42,520
+E ogni volta che si accede alla linea, rubinetti, connettori, prolunghe, si disinfetta il punto di accesso prima di collegare una siringa: e' il cosiddetto scrub the hub, che vedremo meglio nella lezione sei punto due.
+
+17
+00:02:42,520 --> 00:02:51,450
+Per quanto tempo puo' restare? Per anni la regola e' stata la sostituzione a intervalli fissi. Oggi le evidenze sostengono la sostituzione su indicazione clinica.
+
+18
+00:02:51,450 --> 00:03:03,050
+Si toglie quando compaiono segni di complicanza o quando non serve piu', a condizione che la sede venga valutata regolarmente, almeno a ogni turno e prima di ogni infusione. Si segue la procedura aziendale.
+
+19
+00:03:03,050 --> 00:03:16,390
+Due eccezioni: la cannula inserita in emergenza, senza garanzia di asepsi, si sostituisce appena possibile; quella inutilizzata si rimuove. Le cannule dimenticate, messe per sicurezza, sono una causa evitabile di infezione.
+
+20
+00:03:16,390 --> 00:03:26,110
+Le complicanze. La prima e' la flebite, l'infiammazione della parete della vena. I segni: dolore, eritema, edema, calore, fino al cordone venoso palpabile.
+
+21
+00:03:26,110 --> 00:03:36,600
+Le cause sono di tre tipi: meccaniche, da calibro eccessivo o movimento della cannula; chimiche, da farmaci irritanti, con pH o osmolarita' lontani da quelli del sangue.
+
+22
+00:03:36,600 --> 00:03:43,360
+E batteriche, da contaminazione: la forma piu' pericolosa, e quella che una cannula dimenticata rende piu' probabile.
+
+23
+00:03:43,360 --> 00:03:57,600
+La flebite si valuta con una scala: la piu' diffusa e' la VIP, Visual Infusion Phlebitis, da zero a cinque. A zero la sede e' sana. A uno un segno lieve, un leggero dolore o eritema vicino all'inserzione: si osserva.
+
+24
+00:03:57,600 --> 00:04:06,900
+Da due, quando i segni sono due, dolore, eritema, edema, si rimuove la cannula e si riposiziona in un'altra sede, piu' in alto o nell'altro arto.
+
+25
+00:04:06,900 --> 00:04:16,940
+I gradi successivi descrivono una flebite sempre piu' estesa, con l'indurimento, il cordone palpabile, fino alla tromboflebite. Il numero da ricordare: da due si rimuove.
+
+26
+00:04:16,940 --> 00:04:27,470
+L'infiltrazione e lo stravaso: la soluzione esce dalla vena e finisce nei tessuti. Si parla di infiltrazione se la soluzione non e' vescicante; di stravaso se e' vescicante.
+
+27
+00:04:27,470 --> 00:04:36,080
+Cioe' capace di danneggiare i tessuti fino alla necrosi: chemioterapici, ma anche potassio concentrato, calcio, alcuni mezzi di contrasto, vasopressori.
+
+28
+00:04:36,080 --> 00:04:46,300
+I segni: edema, cute fredda e pallida, tensione, dolore, infusione che rallenta. La cute fredda distingue lo stravaso dalla flebite, dove la cute e' calda.
+
+29
+00:04:46,300 --> 00:04:54,660
+La condotta. Fermare subito l'infusione. Scollegare la linea e aspirare dalla cannula quanto possibile, per togliere dai tessuti quello che si puo'.
+
+30
+00:04:54,660 --> 00:05:03,650
+Rimuovere la cannula; per i farmaci vescicanti seguendo la procedura specifica, che abbiamo visto per gli antiblastici nella lezione cinque punto sette. Sollevare l'arto.
+
+31
+00:05:03,650 --> 00:05:14,510
+Avvisare il medico se la sostanza e' vescicante o l'area e' estesa. Delimitare l'area con un pennarello e documentare. E non riposizionare una nuova cannula a valle della sede stravasata.
+
+32
+00:05:14,510 --> 00:05:24,070
+Le altre complicanze. L'infezione, locale o sistemica: una febbre in un paziente con cannula da giorni impone di guardare la sede. L'ematoma all'inserimento.
+
+33
+00:05:24,070 --> 00:05:33,320
+La trombosi e l'occlusione della cannula, che non si disostruisce forzando con la siringa: spingere un coagulo in circolo e' peggio di perdere una cannula. Si rimuove.
+
+34
+00:05:33,320 --> 00:05:42,870
+Piu' rare l'embolia gassosa e la lesione nervosa, che si manifesta con dolore folgorante o formicolio durante l'inserimento: in quel caso si ritira subito l'ago.
+
+35
+00:05:42,870 --> 00:05:53,120
+Le vene difficili: obesita', edema, chemioterapie ripetute, molti incannulamenti precedenti. Oggi si usa sempre piu' l'ecoguida, che aumenta il successo e riduce i tentativi.
+
+36
+00:05:53,120 --> 00:06:03,980
+E una regola di rispetto per la persona: dopo due tentativi falliti, si chiede l'aiuto di un collega piu' esperto. Insistere danneggia il patrimonio venoso, che per un paziente cronico e' prezioso.
+
+37
+00:06:03,980 --> 00:06:15,420
+Un concetto che distingue: il patrimonio venoso. Nella persona con insufficienza renale cronica le vene dell'avambraccio non dominante vanno preservate, perche' potrebbero servire per una fistola per la dialisi.
+
+38
+00:06:15,420 --> 00:06:19,920
+Si preferiscono le vene del dorso della mano: l'avambraccio resta per la fistola.
+
+39
+00:06:19,920 --> 00:06:31,770
+E nella persona che avra' terapie lunghe o irritanti, si valuta precocemente un accesso piu' stabile, come un Midline o un PICC, invece di consumare una vena dopo l'altra. Ne parliamo nella prossima lezione.
+
+40
+00:06:31,770 --> 00:06:44,390
+La rimozione: igiene delle mani, guanti, si rimuove la medicazione, si sfila la cannula e si comprime con una garza sterile, piu' a lungo nel paziente anticoagulato, come abbiamo detto nella lezione cinque punto cinque.
+
+41
+00:06:44,390 --> 00:06:54,520
+Si controlla l'integrita' della cannula, per escludere che un frammento sia rimasto in vena. Medicazione, e documentazione: data, motivo della rimozione, condizioni della sede.
+
+42
+00:06:54,520 --> 00:07:05,200
+Il caso. Cannula in sede da tre giorni; dolore ed eritema lungo il decorso della vena; l'infusione rallenta; e il paziente non ha piu' terapie endovenose. Che cosa fai?
+
+43
+00:07:05,200 --> 00:07:17,220
+Due segni: VIP almeno due, quindi si rimuove. E siccome non serve piu', non se ne posiziona un'altra. Si documenta, si sorveglia la sede, e se compaiono febbre o pus si avvisa il medico.
+
+44
+00:07:17,220 --> 00:07:22,130
+La domanda nascosta nel caso e' proprio questa: serviva ancora?
+
+45
+00:07:22,130 --> 00:07:32,730
+Nelle aziende venete la gestione degli accessi vascolari segue procedure aziendali che recepiscono le linee guida internazionali, e in molte realta' esistono team dedicati agli accessi vascolari.
+
+46
+00:07:32,730 --> 00:07:45,920
+Posizionano i dispositivi complessi e fanno le consulenze per le vene difficili. In cartella elettronica: data, sede, calibro e valutazioni della sede. All'orale, citare il team mostra che conosci l'organizzazione reale.
+
+47
+00:07:45,920 --> 00:08:00,320
+Ricapitoliamo. Numero basso, calibro grande; si sceglie il piu' piccolo compatibile. Dal distale al prossimale, arto non dominante, mai l'arto con fistola, con svuotamento ascellare o paretico. Non ripalpare dopo l'antisepsi.
+
+48
+00:08:00,320 --> 00:08:14,530
+Sostituzione su indicazione clinica, rimozione quando non serve piu'. VIP: da due si rimuove. Infiltrazione se non vescicante, stravaso se lo e'. Nella prossima lezione: gli accessi venosi centrali. A tra poco.

@@ -1,0 +1,53 @@
+{
+ "A": {
+  "parole_copione": 701,
+  "parole_dette": 698,
+  "coincidenti": 694,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "ago cannula",
+    "detto": "agocannula"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 629,
+  "parole_dette": 629,
+  "coincidenti": 626,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

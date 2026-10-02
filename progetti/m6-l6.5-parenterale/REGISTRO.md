@@ -26,6 +26,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,28 (A $0,62 · B $0,66) |
+| costo trascrizioni | $0,50 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s22) |
@@ -34,6 +36,8 @@ Nessuna illustrazione nuova.
 CARATTERI  7.679          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:46     ->  mira 16,3 car/s, stima 8:06
 stacco tracce             dopo s24
+tracce grezze             A 272.4 s  ·  B 277.6 s
+silenzi                   fattore 1,111   ->   atempo 1,050
 ```
 
 Lo script è corto (16 slide, circa 1.420 parole) e i blocchi lo
@@ -50,6 +54,20 @@ esce veloce, si abbassa ancora.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**570/577 parole**, la B **578/584**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s14 «7 g» sentito «7g»; s15 «e» sentito «ee»; s17 «e» sentito «ee»; s20 «ee» sentito «e»; s24 «e» sentito «ee»; s27 «e» sentito «ee»; s33 «the» sentito «di»; s34 «e» sentito «ee»; s35 «da» sentito «alla»; s40 «e» sentito «ee»; s43 «ee» sentito «e».
 
 ## Le scene
 
