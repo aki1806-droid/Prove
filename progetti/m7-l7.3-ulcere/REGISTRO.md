@@ -27,6 +27,8 @@ Nessuna illustrazione nuova.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,64 · B $0,67) |
+| costo trascrizioni | $0,49 |
 | costo voce | *in attesa dei crediti* |
 | costo trascrizioni | *in attesa dei crediti* |
 | pause senza voce | nessuna; una posa breve sulla slide sul verde (s41) |
@@ -35,6 +37,8 @@ Nessuna illustrazione nuova.
 CARATTERI  7.871          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:58     (MIRA 16,3: circa 8:20)
 stacco tracce             dopo s24   (chunk A 3.883 car · chunk B 3.988 car)
+tracce grezze             A 252.7 s  ·  B 285.2 s
+silenzi                   fattore 1,070   ->   atempo 1,041
 ```
 
 Lo script è di 16 slide e circa 1.350 parole; i 46 blocchi iniziali erano
@@ -51,6 +55,20 @@ con frasi dello script. `MIRA` a 16,3.
 ### La verifica per trascrizione
 
 *in attesa della voce*
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**0/590 parole**, la B **1/615**, nessun buco. Le rese diverse
+(non buchi): nessuna.
 
 ## Le scene
 

@@ -99,10 +99,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `54c41def1cc81dbb69f61944792a5515` — 519.774 s (8:39.8), 1080p 16:9, resa in 97 s, con SRT (`subtitle_url`) |
+| lotto asset | `9ae1ac1fc6424433b895f70b33f58ef3` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «al» (s05, trascritto «a»); «e» (s07, trascritto «ee»); «e» (s11, trascritto «ee»); «e» (s15, trascritto «ee»); «e» (s17, trascritto «ee»); «contaminata» (s25, trascritto «contaminato»); «4000 10000» (s34, trascritto «da 4 000 a 10 000»); «150000 400000» (s34, trascritto «da 150 000 a 400 000»).

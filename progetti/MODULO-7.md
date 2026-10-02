@@ -13,10 +13,9 @@ placca (7.6); il torace con aria e liquido e il sistema a tre camere con
 l'oscillazione e le bollicine (7.7). La 7.8 non aggiunge corpi: li riusa
 come rimandi.
 
-Stato: tutte e otto le lezioni hanno copione, slide e registro, in attesa
-della voce. I crediti ElevenLabs si sono esauriti dopo la voce della 5.6:
-le voci di 7.1–7.8 si fanno in un giro solo al rinnovo, seguendo il
-MASTER.
+Stato: voci in corso dal 2 ottobre 2026, al ritorno dei crediti
+ElevenLabs, in un giro solo e in ordine: la tabella qui sotto si riempie
+man mano che le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|

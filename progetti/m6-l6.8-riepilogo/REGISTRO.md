@@ -98,10 +98,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `3147b0285563d62ee7de1e4bb5b83ba8` — 503.412 s (8:23.4), 1080p 16:9, resa in 118 s, con SRT (`subtitle_url`) |
+| lotto asset | `0d05fa5ced1d4b248936953486fba705` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «6virgola1» (s02, trascritto «6 ee 1»); «cosa» (s02, trascritto «cos»); «cosa» (s07, trascritto «cos»); «lasciata» (s08, trascritto «lasciato»); «the» (s08, trascritto «di»); «e» (s12, trascritto «ee»); «picc» (s12, trascritto «pic»); «d» (s18, trascritto «di»); «vip 2» (s26, trascritto «vip2»); «emocolture» (s27, trascritto «emo culture»); «vip 2» (s38, trascritto «vip2»); «milliosmoli» (s38, trascritto «miliosmoli»); «e» (s40, trascritto «ee»); «al» (s43, trascritto «a»); «e» (s45, trascritto «ee»); «e» (s49, trascritto «ee»).

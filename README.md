@@ -63,15 +63,20 @@ progetti/<modulo>-<lezione>/
 | `m6-l6.1-periferici` | Modulo 6 · 6.1 Accessi venosi periferici | 8:23.6 | `ae14883ced57d1917d449ec7c759536c` |
 | `m6-l6.2-centrali` | Modulo 6 · 6.2 Accessi venosi centrali | 8:24.9 | `b7d89f3bcdce393631983c5c57b0a385` |
 | `m6-l6.3-fluidoterapia` | Modulo 6 · 6.3 Fluidoterapia | 8:32.7 | `b7a9e247a2c694ed0b4299a4d0402790` |
+| `m6-l6.4-emogas` | Modulo 6 · 6.4 Emogasanalisi | 8:43.4 | `840e62425c2b1a9f66f9085a60c7e3b9` |
+| `m6-l6.5-parenterale` | Modulo 6 · 6.5 Nutrizione parenterale | 8:05.9 | `1583231c274bd3f524fc3cf1e01c6df6` |
+| `m6-l6.6-trasfusione` | Modulo 6 · 6.6 Emocomponenti ed emotrasfusione | 8:21.6 | `e2369fe63a53badbe49665fa41a20289` |
+| `m6-l6.7-preanalitica` | Modulo 6 · 6.7 Prelievi ed esami: la fase preanalitica | 8:39.8 | `54c41def1cc81dbb69f61944792a5515` |
+| `m6-l6.8-riepilogo` | Modulo 6 · 6.8 Riepilogo del Modulo 6 e autovalutazione | 8:23.4 | `3147b0285563d62ee7de1e4bb5b83ba8` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 2026). Gli indici e i registri stanno in `progetti/`.
 
-I moduli 6, 7 e 8 (ventiquattro lezioni, cartelle `m6-*`, `m7-*`, `m8-*`)
-sono pronti fino alle slide e ai registri: le voci si fanno in un giro solo,
-dal 2 ottobre 2026, al ritorno dei crediti ElevenLabs; la tabella qui sopra
-si allunga man mano che le rese escono. Le schede di modulo
+Il modulo 6 è pubblicato per intero (2 ottobre 2026). I moduli 7 e 8
+(sedici lezioni, cartelle `m7-*` e `m8-*`) sono pronti fino alle slide e ai
+registri e le voci si fanno nello stesso giro: la tabella qui sopra si
+allunga man mano che le rese escono, e le schede di modulo
 (`progetti/MODULO-N.md`) dicono lo stato lezione per lezione.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi

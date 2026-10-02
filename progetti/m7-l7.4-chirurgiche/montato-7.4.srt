@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:08,770
+La ferita chirurgica guarisce per prima intenzione, e nella maggior parte dei casi guarisce senza problemi.
+
+2
+00:00:08,770 --> 00:00:20,260
+Il compito dell'infermiere e' proteggerla nei primi giorni, riconoscere presto un'infezione o una deiscenza, e sapere che cosa fare nell'unica vera emergenza di questa lezione: l'eviscerazione.
+
+3
+00:00:20,260 --> 00:00:27,550
+Tre cose, quindi: proteggere, riconoscere, agire. La lezione le segue in quest'ordine, e il caso finale le mette insieme.
+
+4
+00:00:27,550 --> 00:00:38,710
+La medicazione applicata in sala operatoria, sterile, non si rimuove nelle prime quarantotto ore, se non per necessita': sanguinamento, essudato abbondante, distacco, segni di infezione.
+
+5
+00:00:38,710 --> 00:00:46,370
+In quei primi due giorni la ferita si sta sigillando, e ogni apertura e' un rischio. Quando la si rinnova, si usa una tecnica asettica.
+
+6
+00:00:46,370 --> 00:00:55,240
+Dopo quarantotto ore, di norma, la persona puo' fare la doccia, secondo l'indicazione del chirurgo: la ferita sigillata non teme l'acqua, teme le mani.
+
+7
+00:00:55,240 --> 00:01:05,890
+Che cosa osservare. Margini accostati. Un lieve arrossamento dei margini nei primi giorni e' normale: e' la fase infiammatoria della guarigione, che abbiamo visto nella lezione sette punto uno.
+
+8
+00:01:05,890 --> 00:01:15,380
+L'essudato: quantita' e tipo. Il dolore, e soprattutto il suo andamento: un dolore che aumenta dopo i primi giorni invece di diminuire e' un segnale.
+
+9
+00:01:15,380 --> 00:01:26,090
+E i segni sistemici: i parametri, con la temperatura. Una ferita si guarda ogni giorno con gli stessi occhi, e si scrive cio' che si vede: il confronto con ieri e' la valutazione.
+
+10
+00:01:26,090 --> 00:01:33,750
+L'infezione del sito chirurgico, che abbiamo gia' definito nella lezione quattro punto uno: entro trenta giorni, novanta con impianto.
+
+11
+00:01:33,750 --> 00:01:47,040
+Si classifica in superficiale, che interessa cute e sottocute; profonda, che interessa fasce e muscoli; di organo o spazio, come un ascesso addominale. Tre profondita', e la terza non si vede dalla ferita.
+
+12
+00:01:47,040 --> 00:01:57,650
+I segni: rossore che si estende, calore, edema, dolore in aumento, essudato purulento, apertura della ferita, febbre, in genere dal terzo-quinto giorno.
+
+13
+00:01:57,650 --> 00:02:06,880
+Una febbre nelle prime ventiquattro-quarantotto ore, invece, raramente dipende dalla ferita: ha quasi sempre un'altra causa, e la ferita non si apre per cercarla.
+
+14
+00:02:06,880 --> 00:02:18,580
+Il bundle di prevenzione delle infezioni del sito chirurgico, in tre tempi. Prima dell'intervento: doccia preoperatoria; niente tricotomia con il rasoio, che provoca microlesioni colonizzate.
+
+15
+00:02:18,580 --> 00:02:30,250
+Se serve, si usa il clipper, subito prima dell'intervento. Controllo della glicemia; abbandono del fumo; nutrizione: le stesse cose che ostacolano la guarigione nella lezione sette punto uno.
+
+16
+00:02:30,250 --> 00:02:42,110
+Durante: profilassi antibiotica entro sessanta minuti prima dell'incisione; antisepsi con clorexidina alcolica; mantenimento della normotermia, perche' l'ipotermia aumenta le infezioni.
+
+17
+00:02:42,110 --> 00:02:52,520
+Dopo: medicazione sterile per quarantotto ore e igiene delle mani. Lo riprenderemo nel modulo nove. Prima, durante, dopo: la ferita si protegge in tre tempi.
+
+18
+00:02:52,520 --> 00:03:07,570
+La rimozione dei punti e delle agrafes avviene su indicazione del chirurgo, con tempi che dipendono dalla sede. Indicativamente: volto tre-cinque giorni, perche' la vascolarizzazione e' ottima e si vuole una cicatrice minima.
+
+19
+00:03:07,570 --> 00:03:16,340
+Cuoio capelluto, tronco e addome sette-dieci; arti dieci-quattordici; zone articolari e sotto tensione quattordici o piu'.
+
+20
+00:03:16,340 --> 00:03:25,920
+Nei quiz conta l'ordine: il volto per primo, le articolazioni per ultime. Dove la cute e' ben irrorata si toglie presto, dove e' in tensione si aspetta.
+
+21
+00:03:25,920 --> 00:03:33,860
+La tecnica. Asepsi. Per il punto, si solleva il nodo con la pinza, si taglia il filo vicino alla cute, dal lato opposto al nodo.
+
+22
+00:03:33,860 --> 00:03:43,220
+E si sfila in modo che la parte esterna, contaminata, non attraversi il tessuto. E' il dettaglio che il quiz chiede: il filo che era fuori non deve passare dentro.
+
+23
+00:03:43,220 --> 00:03:52,410
+Spesso si rimuovono a punti alterni, verificando che la ferita tenga, prima di rimuovere gli altri. Al termine si possono applicare strisce adesive di rinforzo.
+
+24
+00:03:52,410 --> 00:03:58,270
+La deiscenza: i margini della ferita si separano, in genere fra il quinto e il decimo giorno.
+
+25
+00:03:58,270 --> 00:04:09,310
+I fattori di rischio: obesita', diabete, malnutrizione, corticosteroidi, infezione, e tutto cio' che aumenta la pressione addominale: tosse, vomito, distensione.
+
+26
+00:04:09,310 --> 00:04:19,170
+Un segno premonitore da conoscere: un'improvvisa fuoriuscita di liquido siero-ematico abbondante dalla ferita, a volte con la sensazione riferita di qualcosa che si e' rotto.
+
+27
+00:04:19,170 --> 00:04:28,890
+L'eviscerazione: i visceri fuoriescono attraverso la ferita. E' un'emergenza chirurgica, e la sequenza va saputa. Uno: si resta con il paziente e si chiama aiuto.
+
+28
+00:04:28,890 --> 00:04:36,660
+Due: posizione supina con le ginocchia flesse e la testata lievemente sollevata, per ridurre la tensione sulla parete addominale.
+
+29
+00:04:36,660 --> 00:04:45,120
+Tre: si coprono i visceri con garze sterili imbevute di fisiologica tiepida, perche' non si secchino. Quattro: non si tenta di riposizionarli.
+
+30
+00:04:45,120 --> 00:04:56,450
+Cinque: digiuno, perche' tornera' in sala. Sei: parametri e segni di shock. Sette: rassicurare, perche' e' un'esperienza terrificante. Otto: avvisare subito il chirurgo.
+
+31
+00:04:56,450 --> 00:05:05,420
+La prevenzione della deiscenza. Insegnare alla persona a sostenere la ferita con un cuscino o con le mani quando tossisce, starnutisce o si muove.
+
+32
+00:05:05,420 --> 00:05:18,510
+Insegnare ad alzarsi girandosi prima sul fianco, invece di sollevarsi di colpo usando gli addominali. Nutrizione, controllo glicemico, e fasce addominali su indicazione: le cause della deiscenza, al contrario.
+
+33
+00:05:18,510 --> 00:05:30,060
+Quando la ferita e' infetta o si e' aperta senza eviscerazione: si avvisa il chirurgo, si raccolgono i campioni su indicazione, con la tecnica della lezione sette punto uno: tessuto vitale, non pus.
+
+34
+00:05:30,060 --> 00:05:40,240
+E spesso la ferita viene aperta del tutto e lasciata guarire per seconda intenzione, con medicazioni avanzate o con la terapia a pressione negativa, che vediamo nella prossima lezione.
+
+35
+00:05:40,240 --> 00:05:52,630
+Un collegamento importante: il dolore della ferita. Una persona con dolore non controllato non si mobilizza, respira superficialmente e non tossisce, con il rischio di complicanze polmonari e trombotiche.
+
+36
+00:05:52,630 --> 00:06:02,650
+Un'analgesia adeguata e rivalutata, come nella lezione tre punto sette, e' anche prevenzione delle complicanze. Chi non ha dolore respira, tossisce, cammina.
+
+37
+00:06:02,650 --> 00:06:13,130
+Il caso. Sesto giorno dopo una laparotomia, paziente obeso e diabetico; dopo un colpo di tosse la medicazione si bagna di abbondante liquido rosato. Che cosa pensi?
+
+38
+00:06:13,130 --> 00:06:24,950
+Segno premonitore di deiscenza: il giorno giusto, i fattori di rischio giusti, il liquido giusto. Che cosa fai? Non lasci il paziente, lo metti supino con le ginocchia flesse, ispezioni la ferita.
+
+39
+00:06:24,950 --> 00:06:32,240
+Se ci sono visceri esposti applichi la sequenza dell'eviscerazione. Copri con garze sterili, digiuno, parametri.
+
+40
+00:06:32,240 --> 00:06:38,070
+E avvisi subito il chirurgo. Una ferita che cede non aspetta il giro del mattino.
+
+41
+00:06:38,070 --> 00:06:47,910
+Nelle aziende venete le infezioni del sito chirurgico sono oggetto di sorveglianza, il bundle di prevenzione e' integrato nelle procedure e nella check-list di sala operatoria.
+
+42
+00:06:47,910 --> 00:06:58,770
+E la medicazione delle ferite segue procedure aziendali. Molte infezioni compaiono dopo la dimissione: per questo l'educazione del paziente sui segni da riconoscere e' parte della prevenzione.
+
+43
+00:06:58,770 --> 00:07:08,270
+L'educazione alla dimissione: insegnare a riconoscere rossore che si estende, secrezione purulenta, dolore in aumento, febbre e apertura della ferita.
+
+44
+00:07:08,270 --> 00:07:19,820
+Spiegare igiene e doccia; dire chiaramente a chi rivolgersi. Con il teach-back della lezione due punto sette: la persona ripete, con parole sue, che cosa deve guardare e chi deve chiamare.
+
+45
+00:07:19,820 --> 00:07:31,800
+Ricapitoliamo. Medicazione sterile per quarantotto ore. Infezione del sito entro trenta o novanta giorni. Bundle: niente rasoio, profilassi entro sessanta minuti, normotermia.
+
+46
+00:07:31,800 --> 00:07:42,840
+Punti: volto tre-cinque giorni, articolazioni quattordici. Deiscenza fra il quinto e il decimo giorno, annunciata dal liquido siero-ematico abbondante.
+
+47
+00:07:42,840 --> 00:07:50,430
+Eviscerazione: ginocchia flesse, garze con fisiologica tiepida, non riposizionare, digiuno, chirurgo subito.
+
+48
+00:07:50,430 --> 00:07:54,290
+Nella prossima lezione: le medicazioni avanzate. A tra poco.

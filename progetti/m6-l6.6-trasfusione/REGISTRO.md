@@ -87,10 +87,14 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `e2369fe63a53badbe49665fa41a20289` — 501.573 s (8:21.6), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| lotto asset | `f74aedf73a264d0595c589080d7c69e5` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ab 0virgola1» (s03, trascritto «ab0 e 1»); «ab 0» (s05, trascritto «ab0»); «0 rh» (s06, trascritto «0rh»); «ab rh» (s06, trascritto «abrh»); «crioprecipitato» (s09, trascritto «criotrecipitato»); «e» (s10, trascritto «ee»); «plasmaderivati» (s10, trascritto «plasma derivati»); «frigoemoteca» (s11, trascritto «frigo emoteca»); «pre trasfusionali» (s16, trascritto «pretrasfusionali»); «al» (s16, trascritto «a»); «al» (s17, trascritto «a»); «e» (s18, trascritto «ee»); «e» (s20, trascritto «ee»); «ab 0» (s23, trascritto «ab0»); «ab 0» (s29, trascritto «ab0»); «ab 0» (s41, trascritto «ab0»); «e» (s43, trascritto «ee»); «e» (s49, trascritto «ee»); «preanalitica» (s49, trascritto «pre analitica»).
