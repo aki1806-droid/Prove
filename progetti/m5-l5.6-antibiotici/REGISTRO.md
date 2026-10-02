@@ -33,7 +33,7 @@ libreria.
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
 | costo voce | $1,48 (A $0,76 · B $0,72) |
-| costo trascrizioni | vedi «La verifica» |
+| costo trascrizioni | $0,58 (A $0,29 · B $0,29), fatte il 2 ottobre al ritorno del credito |
 | pause senza voce | nessuna; due pose brevi sulle slide sul verde (s20, s38) |
 
 ```
@@ -60,8 +60,15 @@ del DPR 309 fanno da cerniera.
 
 ### La verifica per trascrizione
 
-*in corso: i crediti ElevenLabs sono finiti dopo le trascrizioni di 5.5;
-le tracce sono allineate e tagliate, la verifica si fa al rinnovo.*
+Fatta il 2 ottobre, al ritorno del credito: le tracce grezze sono state
+riattaccate al flow dai nuovi URL firmati della generazione (gli URL del 30
+settembre erano scaduti) e trascritte dagli asset, non dal nodo della voce.
+La traccia A conferma **639/645 parole**, la B **631/637**, nessun buco. Le
+rese diverse (non buchi): s11 «anterolaterale» sentito «antero laterale»; s12
+«chili» sentito «kg»; s17 «fentanil» sentito «fentanyl»; s26 «lezione23»
+sentito «2virgola3» (il rimando «5.1» e il «2-3 a 1» fusi dal normalizzatore);
+s33 «deve» sentito «dev»; s40 «pseudodipendenza» sentito «pseudo dipendenza»;
+le solite «e» sentite «ee».
 
 ## Le scene
 
@@ -106,7 +113,3 @@ le tracce sono allineate e tagliate, la verifica si fa al rinnovo.*
 
 ## Da verificare
 
-- La verifica per trascrizione resta da fare quando ElevenLabs torna ad
-  avere crediti: le due tracce grezze sono in `audio/`, gli URL firmati
-  della generazione sono scaduti e vanno riattaccati con
-  `creative_attach_reference_file` da un nuovo URL (o ricaricando i file).

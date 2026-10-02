@@ -24,14 +24,16 @@ guanto, camice, occhiali, siringa, aerosol, mani, bocca, puntura, cuore.
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` (la prova con la via HeyGen, sotto, è stata scartata) |
-| costo voce | *in attesa dei crediti* |
-| costo trascrizioni | *in attesa dei crediti* |
+| costo voce | $1,46 (A $0,75 · B $0,71) |
+| costo trascrizioni | $0,57 |
 | pause senza voce | nessuna; tre pose brevi sulle slide sul verde (s17, s29, s40) |
 
 ```
 CARATTERI  8.742          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:50.8
 stacco tracce             dopo s26   (chunk A 4.428 car · chunk B 4.224 car)
+tracce grezze             A 316.3 s  ·  B 311.4 s
+silenzi                   fattore 1,157   ->   atempo 1,055
 ```
 
 Lo script è di 19 slide: i blocchi lo seguono, con qualche riga della
@@ -42,11 +44,17 @@ percorso a sette tappe si accende in due scene.
 
 ## I confini
 
-*in attesa della voce*
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
 
 ### La verifica per trascrizione
 
-*in attesa della voce*
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**679/686 parole**, la B **615/620**, nessun buco. Le rese diverse
+(non buchi): s06 «amfotericina» sentito «anfotericina»; s13 «e» sentito «ee»; s15 «amfotericina» sentito «anfotericina»; s17 «e» sentito «ee»; s19 «dev» sentito «deve»; s30 «dpi» sentito «dp»; s32 «ago cannula» sentito «agocannula»; s37 «e» sentito «ee»; s45 «del» sentito «dell».
 
 ## Le scene
 

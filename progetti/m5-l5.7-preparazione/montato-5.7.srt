@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,370
+Fra la farmacia e il paziente c'e' un tratto di strada che attraversa il reparto: l'armadio, il frigorifero, il piano di preparazione, la linea infusionale.
+
+2
+00:00:11,370 --> 00:00:23,700
+In ciascuno di questi punti un farmaco corretto puo' diventare inefficace o pericoloso. La lezione riguarda la qualita' del farmaco, e si chiude con due temi ad alto rischio: gli antiblastici e il carrello delle emergenze.
+
+3
+00:00:23,700 --> 00:00:35,770
+Due operazioni diverse. La ricostituzione scioglie una polvere; la diluizione porta una soluzione a una concentrazione minore. In entrambi i casi il solvente e il volume sono quelli indicati nella scheda tecnica del farmaco.
+
+4
+00:00:35,770 --> 00:00:46,190
+Cioe' il riassunto delle caratteristiche del prodotto, la fonte da consultare. E non e' indifferente quale solvente si usa: alcuni farmaci precipitano in fisiologica, altri in glucosata.
+
+5
+00:00:46,190 --> 00:00:57,800
+Tre esempi che ricorrono. L'amfotericina B si diluisce solo in glucosata al cinque per cento: in fisiologica precipita. La fenitoina, al contrario, solo in fisiologica: in glucosata precipita.
+
+6
+00:00:57,800 --> 00:01:06,550
+Il ceftriaxone non va mai miscelato con soluzioni contenenti calcio, come il Ringer lattato, per il rischio di precipitati, gravissimo nei neonati.
+
+7
+00:01:06,550 --> 00:01:12,360
+Non si imparano tutti a memoria: si impara a consultare la scheda tecnica o la farmacia, prima di diluire.
+
+8
+00:01:12,360 --> 00:01:22,930
+Le regole della preparazione. Tecnica asettica, con igiene delle mani e disinfezione dei tappi dei flaconi. Preparare immediatamente prima dell'uso, non all'inizio del turno per tutto il giro.
+
+9
+00:01:22,930 --> 00:01:33,980
+Etichettare ogni preparazione: paziente, farmaco, dose, concentrazione, data e ora, operatore. I flaconi monodose si usano una sola volta, anche se avanza farmaco.
+
+10
+00:01:33,980 --> 00:01:43,670
+I multidose si datano all'apertura, con data e ora, e si conservano e si eliminano secondo la scheda tecnica e la procedura aziendale, non oltre il termine indicato.
+
+11
+00:01:43,670 --> 00:01:54,150
+La stabilita'. Un farmaco ricostituito o diluito resta efficace e sicuro per un tempo limitato, indicato nella scheda tecnica, che dipende da temperatura, luce e contenitore.
+
+12
+00:01:54,150 --> 00:02:02,190
+Un'infusione preparata e lasciata per ore su un carrello puo' non essere piu' cio' che era stato prescritto. E' un'altra ragione per preparare subito prima.
+
+13
+00:02:02,190 --> 00:02:11,690
+Alcuni farmaci sono fotosensibili: la luce li degrada. Vanno protetti con sacche coprenti e deflussori oscurati, dalla preparazione alla fine dell'infusione.
+
+14
+00:02:11,690 --> 00:02:23,200
+Esempi: il nitroprussiato, l'amfotericina B, alcuni chemioterapici, le vitamine nelle nutrizioni parenterali. Se il farmaco arriva in un contenitore scuro, non va travasato in uno trasparente.
+
+15
+00:02:23,200 --> 00:02:32,850
+La compatibilita' in linea, quando piu' farmaci passano nella stessa via. Le incompatibilita' possono essere fisiche, precipitati, torbidita', cambi di colore, o chimiche.
+
+16
+00:02:32,850 --> 00:02:46,240
+E queste non si vedono: il farmaco viene inattivato senza segni. Le regole: nel dubbio si usa un lume dedicato o si lava la linea fra un farmaco e l'altro; si consultano tabelle di compatibilita' e la farmacia.
+
+17
+00:02:46,240 --> 00:02:56,130
+Mai aggiungere farmaci a sangue ed emocomponenti. E un esempio classico da quiz: il bicarbonato precipita con il calcio e inattiva le catecolamine, come l'adrenalina.
+
+18
+00:02:56,130 --> 00:03:07,210
+La catena del freddo. Insuline non aperte, vaccini, molti farmaci biologici si conservano fra due e otto gradi. Il frigorifero dev'essere dedicato ai farmaci, niente alimenti.
+
+19
+00:03:07,210 --> 00:03:17,580
+Con un termometro di minima e massima e una registrazione periodica della temperatura, secondo la procedura. E mai congelare: i farmaci stanno lontano dalla parete fredda del frigorifero.
+
+20
+00:03:17,580 --> 00:03:26,680
+Se si scopre un'escursione fuori range, i farmaci si isolano, non si usano e non si buttano, e si contatta la farmacia, che valuta se sono ancora utilizzabili.
+
+21
+00:03:26,680 --> 00:03:38,860
+L'armadio farmaceutico di reparto. Ordine e separazione: i farmaci ad alto rischio e i LASA in posizioni distinte e segnalate, il potassio concentrato dove previsto dalla procedura della Raccomandazione uno.
+
+22
+00:03:38,860 --> 00:03:52,420
+Controllo periodico delle scadenze, con il principio FIFO: prima si usa cio' che scade prima. I farmaci portati da casa dal paziente si gestiscono secondo la procedura: identificati, custoditi, mai usati senza prescrizione.
+
+23
+00:03:52,420 --> 00:04:04,940
+Gli antiblastici, o chemioterapici antineoplastici. Sono farmaci citotossici: agiscono sulle cellule in divisione, e per questo sono potenzialmente mutageni, cancerogeni e teratogeni anche per chi li manipola.
+
+24
+00:04:04,940 --> 00:04:13,900
+L'esposizione dell'operatore avviene per inalazione di aerosol, contatto cutaneo, ingestione accidentale e puntura accidentale con un ago contaminato.
+
+25
+00:04:13,900 --> 00:04:24,130
+Il quadro e' quello del decreto ottantuno del duemilaotto e delle linee guida nazionali sulla sicurezza degli operatori esposti a chemioterapici antiblastici, che il concorso puo' citare.
+
+26
+00:04:24,130 --> 00:04:35,480
+La regola fondamentale: gli antiblastici si preparano in modo centralizzato, in un'unita' dedicata, l'UFA, Unita' Farmaci Antiblastici, sotto la responsabilita' del farmacista ospedaliero.
+
+27
+00:04:35,480 --> 00:04:47,620
+Sotto cappa di sicurezza biologica a flusso laminare verticale, possibilmente con sistemi chiusi di trasferimento, da personale formato. Le operatrici in gravidanza e in allattamento sono escluse dall'esposizione.
+
+28
+00:04:47,620 --> 00:04:52,220
+Il reparto non prepara: riceve e somministra.
+
+29
+00:04:52,220 --> 00:05:04,550
+La somministrazione. DPI: guanti adatti, spesso doppi, camice monouso a maniche lunghe chiuso davanti, protezione oculare se c'e' rischio di schizzi. Raccordi luer-lock, che non si staccano.
+
+30
+00:05:04,550 --> 00:05:16,980
+Il deflussore si riempie con soluzione priva di farmaco, cosi' che l'aria espulsa non contenga chemioterapico. Si verifica la pervieta' dell'accesso prima di iniziare. Il kit per gli spandimenti sta a portata di mano.
+
+31
+00:05:16,980 --> 00:05:30,180
+Lo stravaso di un antiblastico vescicante puo' causare necrosi dei tessuti. La sequenza: fermare subito l'infusione; lasciare in sede l'ago-cannula e aspirare quanto possibile del farmaco; poi rimuovere; avvisare il medico.
+
+32
+00:05:30,180 --> 00:05:43,630
+Applicare le misure specifiche per quel farmaco: per molti il freddo, per alcuni, come gli alcaloidi della vinca, il caldo, dove previsto un antidoto. Sollevare l'arto; delimitare, documentare, sorvegliare nei giorni dopo.
+
+33
+00:05:43,630 --> 00:05:52,960
+Ogni reparto oncologico ha la sua procedura: all'esame si cita la sequenza, dal fermare l'infusione al documentare, e si rinvia alla procedura per il dettaglio.
+
+34
+00:05:52,960 --> 00:06:04,980
+Tre ultime regole. Gli escreti del paziente, urine, feci, vomito, contengono farmaco per almeno quarantotto ore, per alcuni farmaci di piu': si maneggiano con guanti e camice, come il farmaco stesso.
+
+35
+00:06:04,980 --> 00:06:18,650
+Uno spandimento si gestisce con il kit dedicato, i DPI e un contenimento dall'esterno verso il centro. I rifiuti vanno nei contenitori specifici per citotossici, ricordi la classificazione della lezione quattro punto sette.
+
+36
+00:06:18,650 --> 00:06:25,950
+E la Raccomandazione quattordici del Ministero riguarda proprio la prevenzione degli errori con questi farmaci, gli antineoplastici.
+
+37
+00:06:25,950 --> 00:06:38,650
+Il carrello delle emergenze. Il contenuto e' standardizzato, uguale in tutti i reparti dell'azienda, e noto a tutto il personale; la posizione e' nota e il carrello accessibile, mai ingombrato da altro materiale.
+
+38
+00:06:38,650 --> 00:06:51,560
+Si controlla con cadenza programmata dalla procedura e dopo ogni utilizzo, con una check-list firmata e un sigillo che attesta l'integrita'. Si verificano scadenze, defibrillatore, aspiratore, bombola di ossigeno.
+
+39
+00:06:51,560 --> 00:06:57,540
+Un carrello incompleto si scopre nel momento peggiore: durante un arresto cardiaco.
+
+40
+00:06:57,540 --> 00:07:10,860
+I farmaci che trovi in ogni carrello: adrenalina, amiodarone, atropina, naloxone, glucosio, e gli altri previsti dalla procedura, in formulazioni e concentrazioni standardizzate, uguali in tutta l'azienda.
+
+41
+00:07:10,860 --> 00:07:18,720
+Cosi' che in emergenza nessuno debba calcolare con una concentrazione diversa dal solito. Li useremo nel modulo dieci, quello delle emergenze.
+
+42
+00:07:18,720 --> 00:07:30,620
+Un caso breve. Al mattino il termometro del frigorifero dei farmaci segna una massima di quattordici gradi nella notte. Che cosa fai? Non usi i farmaci e non li butti: li isoli, in attesa di valutazione.
+
+43
+00:07:30,620 --> 00:07:42,720
+Contatti la farmacia, che valuta per ciascun farmaco se e' ancora utilizzabile. Verifichi il funzionamento del frigorifero e segnali il guasto. Documenti. E se nel frattempo serve un farmaco, lo chiedi alla farmacia.
+
+44
+00:07:42,720 --> 00:07:54,990
+Nelle aziende del SSSR veneto gli antiblastici sono allestiti nelle UFA aziendali, con tracciabilita' della preparazione, e il personale esposto e' sottoposto a sorveglianza sanitaria dal medico competente.
+
+45
+00:07:54,990 --> 00:08:07,650
+Esistono procedure aziendali su conservazione, catena del freddo e carrello delle emergenze, con controlli verificabili e firmati. All'orale, per gli antiblastici, la parola chiave e' centralizzazione.
+
+46
+00:08:07,650 --> 00:08:19,870
+Ricapitoliamo. Solvente e volume dalla scheda tecnica. Preparare subito prima ed etichettare. Monodose una volta sola. Fotosensibili al buio. Nel dubbio sulla compatibilita', lume dedicato.
+
+47
+00:08:19,870 --> 00:08:35,050
+Catena del freddo: fra due e otto gradi, frigorifero dedicato, mai congelare. Antiblastici: centralizzati, DPI, sequenza dello stravaso. Carrello delle emergenze: controllato, sigillato, ricontrollato dopo ogni uso.
+
+48
+00:08:35,050 --> 00:08:42,300
+Nella prossima lezione ricomponiamo il modulo, con il riepilogo del modulo cinque e i venti calcoli cronometrati. A tra poco.

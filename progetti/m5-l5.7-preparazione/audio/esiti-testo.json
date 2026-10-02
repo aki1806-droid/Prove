@@ -1,0 +1,63 @@
+{
+ "A": {
+  "parole_copione": 686,
+  "parole_dette": 684,
+  "coincidenti": 679,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "amfotericina",
+    "detto": "anfotericina"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "amfotericina",
+    "detto": "anfotericina"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "dev",
+    "detto": "deve"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 620,
+  "parole_dette": 620,
+  "coincidenti": 615,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "dpi",
+    "detto": "dp"
+   },
+   {
+    "blocco": "s32",
+    "copione": "ago cannula",
+    "detto": "agocannula"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "del",
+    "detto": "dell"
+   }
+  ]
+ }
+}
