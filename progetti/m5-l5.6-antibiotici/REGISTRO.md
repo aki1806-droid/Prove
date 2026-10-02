@@ -107,9 +107,19 @@ le solite «e» sentite «ee».
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `dab37aec0729846a0c7d4cab4aeeafd6` — 537.257 s (8:57.3), 1080p 16:9, resa in 64 s, con SRT (`subtitle_url`) |
+| lotto asset | `fbb4ff0e7a12493d997910e8185713c9` — 98 file, 19 MB, tutti completati in ~4 minuti |
 
 ---
 
 ## Da verificare
 
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare come sempre: la sindrome dell'uomo
+  rosso (s07), «zero virgola cinque milligrammi» (s11), la scansione del caso
+  con FR 9 e SpO₂ 90 (s41), il DPR 309 letto per esteso (s27).
+- La voce e' stata generata il 30 settembre e trascritta il 2 ottobre, al
+  ritorno del credito: in mezzo la lezione e' rimasta montata in locale senza
+  verifica, come previsto dal MASTER quando il credito manca.

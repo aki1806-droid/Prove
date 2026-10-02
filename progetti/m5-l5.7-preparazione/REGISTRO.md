@@ -78,24 +78,19 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa della voce*
-
-### La prova scartata: la via HeyGen (1° ottobre 2026)
-
 | | |
 |---|---|
-| resa di prova | `f48270aa38d8bc5e0fa135ee4e15ed51` — 665,2 s (11:05), 1080p 16:9, render di 365 s, con SRT |
-| voce | Giovanni Rossi `7b6722df52c44a79b6adb6c3074588d8`, motore `eleven_v3` sintetizzato dallo studio scena per scena (`monta-scene-heygen.py`) |
-| lotto asset | `431accd4116c49ecbb901fdde1cfd13b` — 50 file (48 clip + 2 copertine), 6 MB; **gli id delle clip restano validi** per il montaggio con GianP (`asset-id.json`) |
-| crediti HeyGen | 4.234 → 4.233: 1 credito per l'intero montaggio |
-| durata | 11:05 contro i 9:34 stimati: lo studio legge a ~13,3 car/s con una coda di silenzio a ogni scena |
-| esito | scartata dal committente per la voce; si torna a GianP al rinnovo ElevenLabs |
+| resa pubblicata | `3b8af158d5f642d323faa6718896cc0e` — 531.349 s (8:51.3), 1080p 16:9, resa in 80 s, con SRT (`subtitle_url`) |
+| lotti asset | clip e copertine `431accd4116c49ecbb901fdde1cfd13b` (50 file, caricati per la prova HeyGen e riusati); voce `ca415211b1664db1a535496f3c6804d9` (48 mp3, 12 MB), tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce: le due tracce aspettano il rinnovo dei crediti ElevenLabs. I chunk
-  sono in `audio/`, pronti per `creative_generate_speech`; poi tagli,
-  trascrizione, verifica, e `monta-scene.py` sulle clip gia' caricate: al
-  Passo 6 si caricano solo i 48 mp3.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare: «amfotericina» (s06, s15), che il
+  trascrittore ha reso «anfotericina»: la voce potrebbe averla detta con la
+  n; «luer-lock» (s30); la sequenza dello stravaso (s32–s33); il caso del
+  frigorifero (s44).
+- La prova con la via HeyGen (sotto «La resa») resta nel conto del
+  giorno: 1 credito HeyGen, nessun dollaro.

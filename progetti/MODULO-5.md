@@ -12,15 +12,13 @@ le curve tempo- e concentrazione-dipendenti, la sedazione che precede il
 respiro, il naloxone che dura meno dell'oppioide, la pagina del registro
 degli stupefacenti (5.6).
 
-Stato: 5.1–5.5 pubblicate. 5.6 è doppiata, tagliata e montata in locale,
-in attesa della verifica per trascrizione; 5.7 e 5.8 hanno copione, slide
-e registro, in attesa della voce: i crediti ElevenLabs si sono esauriti
-dopo la voce di 5.6 (verifica del 1° ottobre 2026: 382 crediti residui, una
-traccia ne chiede 10.045; nessun addebito). Lo stesso giorno la 5.7 è stata
-resa per prova con la via HeyGen (voce Giovanni Rossi, motore `eleven_v3`
-dello studio, 1 credito HeyGen, 11:05, resa `f48270aa38d8bc5e0fa135ee4e15ed51`)
-e scartata per la voce: si torna a GianP al rinnovo dei crediti ElevenLabs,
-sulle stesse clip gia' caricate (`asset-id.json`).
+Stato: 5.1–5.7 pubblicate. 5.8 ha copione, slide e registro, voce in corso
+il 2 ottobre al ritorno dei crediti ElevenLabs. Il 1° ottobre, con i crediti
+esauriti (382 residui, una traccia ne chiede 10.045), la 5.7 è stata resa
+per prova con la via HeyGen (voce Giovanni Rossi, motore `eleven_v3` dello
+studio, 1 credito HeyGen, 11:05, resa `f48270aa38d8bc5e0fa135ee4e15ed51`) e
+scartata per la voce: è stata rifatta con GianP sulle stesse clip il 2
+ottobre.
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -29,8 +27,8 @@ sulle stesse clip gia' caricate (`asset-id.json`).
 | 5.3 | Il calcolo delle dosi e delle velocità di infusione | 8:55.1 | `66548d96aa8517e4bec4f9e8625dda93` |
 | 5.4 | La somministrazione sicura | 9:01.6 | `54a45652bb75397a8dcde4ab22d7deb1` |
 | 5.5 | Farmaci cardiovascolari, antidiabetici e anticoagulanti | 9:09.9 | `d7a8f04a011109093aa06963b2e3c851` |
-| 5.6 | Antibiotici, analgesici e stupefacenti | — | da fare |
-| 5.7 | Preparazione, stabilità e gestione dei farmaci in reparto | — | in attesa della voce |
+| 5.6 | Antibiotici, analgesici e stupefacenti | 8:57.3 | `dab37aec0729846a0c7d4cab4aeeafd6` |
+| 5.7 | Preparazione, stabilità e gestione dei farmaci in reparto | 8:51.3 | `3b8af158d5f642d323faa6718896cc0e` |
 | 5.8 | Riepilogo del Modulo 5 e venti calcoli cronometrati | — | da fare |
 
 Lo script del committente è in `m5-l5.1-principi/origine/Script_video_MODULO_5.md`;
