@@ -1,0 +1,88 @@
+{
+ "A": {
+  "parole_copione": 594,
+  "parole_dette": 598,
+  "coincidenti": 588,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "lezione12",
+    "detto": "1 o 2"
+   },
+   {
+    "blocco": "s06",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s23",
+    "copione": "lezione68",
+    "detto": "6 8"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 610,
+  "parole_dette": 614,
+  "coincidenti": 601,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s30",
+    "copione": "essudato",
+    "detto": "e sudato"
+   },
+   {
+    "blocco": "s32",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s43",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   }
+  ]
+ }
+}

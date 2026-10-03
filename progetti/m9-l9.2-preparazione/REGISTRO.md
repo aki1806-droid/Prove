@@ -73,13 +73,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `32b599d0955cb30e9f8f7003a31c803c` — 537.156 s (8:57.2), 1080p 16:9, resa in 89 s, con SRT (`subtitle_url`) |
+| lotto asset | `a43eec4da95f482993188d1a4342715c` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s03, trascritto «ee»); «allergie» (s04, trascritto «allergia»); «e» (s06, trascritto «ee»); «e» (s12, trascritto «ee»); «ee» (s14, trascritto «e»); «e» (s30, trascritto «ee»); «premedicazione» (s34, trascritto «premeditazione»); «premedicazione» (s34, trascritto «premeditazione»); «dei» (s37, trascritto «di»); «ee» (s40, trascritto «e»); «prericovero» (s45, trascritto «pre ricovero»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

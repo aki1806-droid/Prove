@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le complicanze postoperatorie hanno una caratteristica utile per chi le deve riconoscere: compaiono in momenti tipici, e ogni giornata dopo l'intervento ha i suoi sospetti."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emorragia nelle prime ore, l'atelettasia nei primi giorni, l'infezione della ferita dopo qualche giorno, la trombosi piu' avanti. Conoscere questa cronologia permette di cercare la complicanza giusta al momento giusto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cronologia. Nelle prime ore: emorragia e shock, ostruzione delle vie aeree, nausea e vomito, ritenzione urinaria. Sono le complicanze dell'anestesia e della ferita appena chiusa."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei primi uno-due giorni: atelettasia e delirium. Fra il terzo e il quinto giorno: polmonite, infezione urinaria, ileo che si prolunga oltre il tempo atteso."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fra il quinto e il decimo: infezione della ferita, deiscenza. E la trombosi venosa con l'embolia polmonare, possibili in ogni momento, ma piu' tipiche dopo i primi giorni."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La febbre postoperatoria si interpreta con una regola mnemonica inglese, quella delle cinque W: cinque parole che iniziano con la stessa lettera, una per ogni sede e per ogni giornata."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Wind, il vento, cioe' il polmone: primo-secondo giorno. Water, l'acqua, cioe' le vie urinarie: terzo-quinto giorno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Wound, la ferita: quinto-settimo. Walking, il camminare, cioe' la trombosi venosa: dopo il quinto. Wonder drugs, i farmaci e le trasfusioni: in ogni momento."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una precisazione: una febbricola nelle prime ventiquattro-quarantotto ore e' spesso solo la risposta infiammatoria all'intervento, e non richiede di cercare un'infezione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emorragia. I segni precoci sono quelli che contano: tachicardia, agitazione, pallore, sudorazione, riempimento capillare lento, oliguria. Sono i segni del compenso: il corpo che difende gli organi vitali."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipotensione e' un segno tardivo: quando la pressione crolla, la persona ha gia' perso molto sangue, e il compenso e' finito."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] L'ipotensione e' un segno tardivo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fonti: la ferita, i drenaggi, oppure un sanguinamento interno, che si sospetta con addome teso e dolente, perche' il sangue che non esce si accumula dove non si vede."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La condotta: avvisare subito, ossigeno, accessi venosi, prelievi con gruppo, liquidi ed emocomponenti secondo prescrizione, digiuno per un possibile reintervento, parametri ravvicinati."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'atelettasia: piccole porzioni di polmone collassano perche' la persona respira in modo superficiale, per il dolore, gli oppioidi, l'immobilita', gli effetti dell'anestesia."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni: una lieve febbre, tachipnea, desaturazione, murmure ridotto alle basi, cioe' nelle parti piu' basse del polmone, dove l'aria arriva meno quando si sta sdraiati."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la complicanza in cui l'infermiere conta di piu', perche' si previene quasi del tutto: respirazione profonda, spirometro incentivante, tosse con sostegno della ferita."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mobilizzazione, analgesia adeguata, posizione semiseduta. Se non si previene, evolve in polmonite: il polmone chiuso e' il polmone che si infetta."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trombosi venosa profonda ed embolia polmonare. La TVP: dolore, edema monolaterale del polpaccio, calore. Monolaterale e' la parola chiave: una gamba sola, piu' grossa dell'altra."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'embolia: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso con un'intensa ansia della persona, che sente di non respirare."
+ },
+ {
+  "id": "s22",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione l'abbiamo vista: mobilizzazione precoce, profilassi meccanica e farmacologica, idratazione. E nel sospetto di TVP vale la regola della lezione tre punto due: non massaggiare, avvisare."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ritenzione urinaria: nessuna minzione entro sei-otto ore, oppure minzioni piccole e frequenti, per rigurgito: la vescica piena che trabocca, e che inganna chi guarda solo il pannolone."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il globo, il dolore sovrapubico, l'agitazione, che nell'anziano viene spesso scambiata per delirium: prima di sedare un anziano agitato, si guarda la vescica."
+ },
+ {
+  "id": "s25",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si valuta con il bladder scanner e si procede al cateterismo secondo indicazione. Ricordi i fattori di rischio: spinale, oppioidi, chirurgia pelvica, prostata."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ileo paralitico: dopo la chirurgia addominale l'intestino rallenta, e a volte si ferma. I segni: distensione addominale, assenza di gas e feci, nausea, vomito, peristalsi assente all'auscultazione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si previene con gli strumenti dell'ERAS: mobilizzazione e alimentazione precoci, meno oppioidi, che rallentano l'intestino, equilibrio dei liquidi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento e' su prescrizione: digiuno, a volte un sondino naso-gastrico in aspirazione, e correzione degli elettroliti, soprattutto del potassio, la cui carenza rallenta l'intestino."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infezione della ferita e la deiscenza, che abbiamo approfondito nella lezione sette punto quattro: qui le collochiamo nel tempo."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infezione: fra il quinto e il settimo giorno, con rossore che si estende, dolore che aumenta invece di diminuire, essudato purulento, febbre."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La deiscenza: fra il quinto e il decimo, preannunciata da un abbondante liquido siero-ematico. E l'eviscerazione, con la sua sequenza di emergenza."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le altre complicanze, che non vanno dimenticate. Il delirium dell'anziano, nei primi tre giorni. Le lesioni da pressione, al sacro e ai talloni, che iniziano in sala operatoria."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'iperglicemia da stress, anche in chi non e' diabetico. Gli squilibri elettrolitici, per le perdite, i liquidi infusi, il digiuno: si leggono gli esami, non solo i parametri."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le infezioni da dispositivi: il catetere vescicale e il catetere venoso centrale, che vanno rimossi appena possibile. La stipsi da oppioidi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il filo comune e' il riconoscimento precoce. Parametri a intervalli definiti, un punteggio di allerta precoce come la NEWS2, che trasforma i parametri in un numero e il numero in un'azione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi una cosa che non compare negli strumenti: ascoltare il paziente. Un «non mi sento bene», un'ansia nuova, una confusione improvvisa spesso precedono di ore l'alterazione dei parametri."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si guarda il trend, non il singolo valore: una frequenza di cento che ieri era settanta dice piu' di una frequenza di cento da sola. E si segnala con lo SBAR."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due casi. Primo: secondo giorno dopo una colectomia; febbre a trentasette e nove, frequenza respiratoria ventiquattro, saturazione novantadue, murmure ridotto alle basi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il paziente e' rimasto a letto per il dolore. Che cosa pensi? Atelettasia: e' il secondo giorno, e' il polmone. Wind, la prima W."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Avvisi il medico, ossigeno secondo prescrizione, posizione semiseduta, analgesia adeguata, perche' il problema nasce dal dolore. Spirometro incentivante, tosse con sostegno della ferita, mobilizzazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo: sesto giorno dopo una protesi d'anca; improvvisa dispnea, dolore toracico, frequenza centodiciotto, saturazione ottantotto, paziente molto ansioso."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa pensi? Embolia polmonare, fino a prova contraria: l'ortopedia dell'arto inferiore e' uno dei contesti a piu' alto rischio trombotico, e il sesto giorno e' il momento tipico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Avvisi subito il medico, ossigeno, posizione semiseduta, monitoraggio, accesso venoso, prelievi, ECG, e prepari gli esami diagnostici."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non attribuire la dispnea all'ansia: qui l'ansia e' un sintomo, non la causa. Un paziente che dice di non respirare va creduto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete il riconoscimento precoce del deterioramento e' supportato da sistemi di allerta e da equipe di risposta rapida, che vedremo nel modulo dieci."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da protocolli di profilassi antitrombotica e dalla sorveglianza delle infezioni del sito chirurgico. In molte realta' esistono percorsi ortogeriatrici per l'anziano operato, dove delirium e complicanze sono piu' frequenti."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Prime ore: emorragia, con la tachicardia che precede l'ipotensione. Primo-secondo giorno: atelettasia, con spirometro e mobilizzazione. Terzo-quinto: polmonite e urine."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinto-settimo: ferita. Quinto-decimo: deiscenza. Dopo il quinto: trombosi. Embolia: dispnea improvvisa. Ileo: distensione, e controllo del potassio."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una frase per chiudere: cercare la complicanza giusta al momento giusto. Nella prossima lezione, le chirurgie specialistiche: ortopedia, addominale, vascolare, toracica, urologica, e il day surgery. A tra poco."
+ }
+]

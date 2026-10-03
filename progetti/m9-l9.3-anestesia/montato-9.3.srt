@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,510
+In sala operatoria il paziente non puo' proteggersi da solo: non sente il dolore di una postura scorretta, non si accorge del freddo, non sa se una garza e' rimasta dentro.
+
+2
+00:00:12,510 --> 00:00:25,780
+La sicurezza intraoperatoria dipende dall'equipe, e una parte importante dall'infermiere. Vediamo i tipi di anestesia e i quattro rischi che l'infermiere presidia: posizionamento, temperatura, conta, elettrobisturi.
+
+3
+00:00:25,780 --> 00:00:36,090
+L'anestesia generale ha tre componenti: ipnosi, cioe' la perdita di coscienza; analgesia; e miorisoluzione, il rilassamento muscolare, che serve al chirurgo.
+
+4
+00:00:36,090 --> 00:00:45,150
+Siccome la persona non respira autonomamente, o lo fa in modo insufficiente, le vie aeree vanno gestite con un presidio sopraglottico o con l'intubazione.
+
+5
+00:00:45,150 --> 00:00:56,340
+Le fasi sono tre: induzione, mantenimento, risveglio. Le piu' delicate sono la prima e l'ultima: e' li' che l'infermiere di anestesia sta accanto al paziente e non lo lascia.
+
+6
+00:00:56,340 --> 00:01:05,380
+Le anestesie neuroassiali. La spinale, o subaracnoidea: l'anestetico si inietta nel liquor con una puntura singola, e l'effetto e' rapido.
+
+7
+00:01:05,380 --> 00:01:13,440
+La peridurale: l'anestetico va nello spazio epidurale, spesso attraverso un catetere che resta in sede per l'analgesia postoperatoria.
+
+8
+00:01:13,440 --> 00:01:23,210
+Gli effetti da sorvegliare: ipotensione, perche' il blocco del simpatico dilata i vasi, bradicardia, blocco motorio degli arti inferiori, ritenzione urinaria.
+
+9
+00:01:23,210 --> 00:01:33,200
+E dopo la spinale una possibile cefalea post-puntura, che caratteristicamente peggiora in piedi e migliora sdraiati: e' il segno che la distingue da un comune mal di testa.
+
+10
+00:01:33,200 --> 00:01:46,460
+L'anestesia loco-regionale blocca un nervo o un plesso, per esempio per un intervento al braccio. L'arto resta insensibile anche per ore dopo l'intervento, e va protetto: non sente traumi, pressione o calore.
+
+11
+00:01:46,460 --> 00:01:58,100
+La sedazione ha livelli diversi, e richiede monitoraggio di respiro e saturazione: una sedazione che si approfondisce senza che nessuno la guardi diventa un'anestesia generale senza vie aeree protette.
+
+12
+00:01:58,100 --> 00:02:10,750
+Un segnale d'allarme da conoscere: la tossicita' da anestetici locali si annuncia con formicolio intorno alla bocca, sapore metallico, agitazione, fino a convulsioni e aritmie. Va segnalata subito.
+
+13
+00:02:10,750 --> 00:02:25,540
+Una complicanza rara ma chiesta: l'ipertermia maligna, una reazione su base genetica a certi anestetici. Si manifesta con aumento della CO2 espirata, rigidita' muscolare, tachicardia e, tardivamente, febbre altissima.
+
+14
+00:02:25,540 --> 00:02:36,010
+L'antidoto e' il dantrolene, che deve essere disponibile nel blocco operatorio. Per questo, nell'accertamento, si chiede sempre se ci sono stati problemi con l'anestesia in famiglia.
+
+15
+00:02:36,010 --> 00:02:45,750
+Il posizionamento sul letto operatorio. Le posizioni dipendono dall'intervento: supina, prona, laterale, litotomica, Trendelenburg, seduta.
+
+16
+00:02:45,750 --> 00:02:54,990
+Gli obiettivi sono quattro: consentire l'accesso chirurgico, non ostacolare ventilazione e circolazione, e proteggere cute, nervi, articolazioni e occhi.
+
+17
+00:02:54,990 --> 00:03:07,060
+Si posiziona in equipe, con movimenti coordinati, perche' il paziente anestetizzato non ha tono muscolare e non protegge le proprie articolazioni: un braccio lasciato cadere e' una lussazione.
+
+18
+00:03:07,060 --> 00:03:19,200
+Le lesioni da posizione. Le lesioni da pressione: in un intervento lungo il danno puo' iniziare in sala e diventare visibile giorni dopo. Ricordi il danno dei tessuti profondi della lezione sette punto due.
+
+19
+00:03:19,200 --> 00:03:32,020
+Le lesioni nervose: il nervo ulnare al gomito; il peroneo comune alla testa del perone, nella posizione litotomica, con il piede cadente; il plesso brachiale, se il braccio e' abdotto oltre i novanta gradi.
+
+20
+00:03:32,020 --> 00:03:41,810
+Gli occhi: si chiudono e si proteggono, con attenzione particolare nella posizione prona. Si usano supporti e imbottiture, e il posizionamento si registra.
+
+21
+00:03:41,810 --> 00:03:52,430
+La normotermia. L'anestesia abolisce la termoregolazione, la sala e' fredda, il paziente e' scoperto e riceve liquidi a temperatura ambiente: l'ipotermia e' frequente.
+
+22
+00:03:52,430 --> 00:04:06,090
+L'obiettivo: almeno trentasei gradi, perche' l'ipotermia ha conseguenze precise: piu' infezioni del sito chirurgico, piu' sanguinamento per alterazione della coagulazione, eventi cardiaci, brividi e disagio al risveglio.
+
+23
+00:04:06,090 --> 00:04:17,320
+La prevenzione: riscaldamento attivo con coperte ad aria forzata, liquidi riscaldati, coperture, e monitoraggio della temperatura. E' parte del bundle della lezione sette punto quattro.
+
+24
+00:04:17,320 --> 00:04:28,440
+Il riscaldamento comincia prima dell'induzione: la caduta di temperatura piu' rapida e' nella prima mezz'ora di anestesia, quando il calore del centro del corpo si ridistribuisce verso la periferia.
+
+25
+00:04:28,440 --> 00:04:35,110
+La conta, strumento della Raccomandazione due. Si contano garze, compresse, aghi e strumenti.
+
+26
+00:04:35,110 --> 00:04:41,520
+Quando? Prima dell'inizio, prima della chiusura di una cavita', alla chiusura della cute, e a ogni cambio di personale.
+
+27
+00:04:41,520 --> 00:04:52,960
+Si esegue ad alta voce, da due operatori, lo strumentista e l'infermiere di sala, e si registra. Le garze chirurgiche sono radiopache, cioe' visibili ai raggi X, proprio per poterle ritrovare.
+
+28
+00:04:52,960 --> 00:05:02,160
+E se la conta non torna? Si comunica subito al chirurgo, si sospende la chiusura, si riconta, si cerca nel campo, nei contenitori dei rifiuti, nella sala.
+
+29
+00:05:02,160 --> 00:05:11,430
+Se il materiale non si trova, si esegue una radiografia intraoperatoria. Poi si documenta e si segnala. Una garza dimenticata e' un evento sentinella.
+
+30
+00:05:11,430 --> 00:05:16,180
+Il momento di fermarsi e' prima della chiusura, non dopo.
+
+31
+00:05:16,180 --> 00:05:24,590
+L'elettrobisturi taglia e coagula con la corrente, che deve rientrare attraverso una piastra neutra applicata sul paziente, per esempio sulla coscia.
+
+32
+00:05:24,590 --> 00:05:36,790
+La piastra si posiziona su un'area muscolare, ben vascolarizzata, asciutta e senza peli, lontano da protesi metalliche, elettrodi dell'ECG e prominenze ossee, e se ne controlla il contatto.
+
+33
+00:05:36,790 --> 00:05:46,370
+Un contatto insufficiente concentra la corrente e provoca ustioni. Nei portatori di pacemaker o defibrillatori impiantabili si segue un protocollo specifico.
+
+34
+00:05:46,370 --> 00:05:59,280
+Due altre attenzioni. Il fuoco: in sala ci sono tutti e tre gli elementi della triade, ossigeno, materiali combustibili come teli e antisettici alcolici, e fonti di innesco come elettrobisturi e laser.
+
+35
+00:05:59,280 --> 00:06:10,370
+Per questo l'antisettico alcolico si lascia asciugare completamente prima di applicare i teli: un telo posato su cute ancora bagnata intrappola i vapori, e la prima scintilla li accende.
+
+36
+00:06:10,370 --> 00:06:21,670
+E il campo sterile: qualunque contaminazione si segnala e il materiale si sostituisce, senza discussioni. Segnalare una violazione dell'asepsi e' un dovere, a qualunque livello gerarchico.
+
+37
+00:06:21,670 --> 00:06:34,520
+La tracciabilita'. I set sterili e i dispositivi impiantati, protesi, placche, viti, si registrano con le loro etichette in cartella e nel registro operatorio, come abbiamo visto nella lezione quattro punto cinque.
+
+38
+00:06:34,520 --> 00:06:47,570
+I campioni istologici richiedono identificazione corretta, contenitore e fissativo adeguati, richiesta compilata e consegna tracciata: un campione perso o scambiato puo' significare una diagnosi mancata.
+
+39
+00:06:47,570 --> 00:06:56,690
+Il caso. Intervento in posizione litotomica durato quattro ore; al risveglio il paziente non riesce a sollevare la punta del piede destro. Che cosa pensi?
+
+40
+00:06:56,690 --> 00:07:02,430
+Una lesione del nervo peroneo comune, compresso alla testa del perone dai supporti della litotomica.
+
+41
+00:07:02,430 --> 00:07:12,990
+Che cosa fai? Segnali al medico, documenti il deficit e il posizionamento intraoperatorio, proteggi il piede e previeni le cadute, e la situazione si segnala come evento.
+
+42
+00:07:12,990 --> 00:07:19,790
+La prevenzione era in sala: imbottitura e controllo dei supporti, e un'occhiata alle gambe a ogni ora di intervento.
+
+43
+00:07:19,790 --> 00:07:32,420
+Nelle aziende venete i blocchi operatori adottano procedure aziendali su conta, posizionamento, normotermia ed elettrochirurgia, con tracciabilita' informatizzata dei set e dei dispositivi.
+
+44
+00:07:32,420 --> 00:07:42,370
+E percorsi di formazione specifici per l'infermiere di sala e lo strumentista: all'orale, il collegamento con la check-list della lezione precedente e' quello che ci si aspetta.
+
+45
+00:07:42,370 --> 00:07:57,040
+Ricapitoliamo. Generale: ipnosi, analgesia, miorisoluzione. Spinale: ipotensione, ritenzione, cefalea che peggiora in piedi. Lesioni da posizione: peroneo nella litotomica, plesso brachiale oltre novanta gradi.
+
+46
+00:07:57,040 --> 00:08:06,930
+Normotermia da trentasei gradi. Conta all'inizio, prima della chiusura della cavita', alla chiusura della cute e a ogni cambio di personale; se non torna, non si chiude.
+
+47
+00:08:06,930 --> 00:08:12,980
+Piastra neutra su muscolo, lontano dal metallo. Antisettico alcolico asciutto prima dei teli.
+
+48
+00:08:12,980 --> 00:08:21,340
+Nella prossima lezione: il risveglio, con la sala risveglio, i criteri per tornare in reparto e le prime ore dopo l'intervento. A tra poco.

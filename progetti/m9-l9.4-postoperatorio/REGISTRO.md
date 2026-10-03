@@ -14,13 +14,31 @@ Quarta lezione del Modulo 9: la sala risveglio con la consegna SBAR, l'ABC del r
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,35 (A $0,71 · B $0,64) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s43 |
 
 ```
 CARATTERI  8.112          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:11.4     (MIRA 16,3)
 stacco tracce             dopo s26   (chunk A 4.274 car · chunk B 3.838 car)
+tracce grezze             A 325.4 s  ·  B 266.6 s
+silenzi                   fattore 1,116   ->   atempo 1,066
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**665/665 parole**, la B **559/564**, nessun buco. Le rese diverse
+(non buchi): s28 «e» sentito «ee»; s31 «ai» sentito «e i»; s44 «sbar» sentito «sebar»; s46 «e» sentito «ee»; s47 «sbar» sentito «sebar».
 
 ## Le scene
 

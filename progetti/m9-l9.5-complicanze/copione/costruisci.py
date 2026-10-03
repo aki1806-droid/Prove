@@ -4,73 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Le prime ore dopo l'intervento sono quelle in cui la persona passa dall'anestesia alla coscienza, e in cui gli effetti dei farmaci e dell'intervento si sommano: un periodo ad alto rischio."),
- (1,"chiaro",0,"Si gestisce in sala risveglio e poi in reparto. L'approccio e' sempre lo stesso, ed e' quello che vedremo anche nel modulo dieci: A, B, C, poi tutto il resto. Vie aeree, respiro, circolo, nell'ordine."),
+ (1,"chiaro",0,"[warm] Le complicanze postoperatorie hanno una caratteristica utile per chi le deve riconoscere: compaiono in momenti tipici, e ogni giornata dopo l'intervento ha i suoi sospetti."),
+ (1,"chiaro",0,"L'emorragia nelle prime ore, l'atelettasia nei primi giorni, l'infezione della ferita dopo qualche giorno, la trombosi piu' avanti. Conoscere questa cronologia permette di cercare la complicanza giusta al momento giusto."),
 
- (2,"chiaro",0,"Tutto comincia con una consegna strutturata, dall'anestesista e dall'equipe di sala all'infermiere della recovery room, con lo SBAR che abbiamo imparato nei primi moduli."),
- (2,"chiaro",0,"Identita', intervento, tipo di anestesia, eventi intraoperatori, liquidi infusi e perdite, farmaci somministrati, soprattutto oppioidi e antagonisti, analgesia prevista, drenaggi, indicazioni."),
- (2,"chiaro",0,"Un'informazione persa qui si scopre ore dopo, quando e' un problema: un oppioide dato in sala e non riferito e' una depressione respiratoria che nessuno si aspetta."),
+ (2,"chiaro",0,"La cronologia. Nelle prime ore: emorragia e shock, ostruzione delle vie aeree, nausea e vomito, ritenzione urinaria. Sono le complicanze dell'anestesia e della ferita appena chiusa."),
+ (2,"chiaro",0,"Nei primi uno-due giorni: atelettasia e delirium. Fra il terzo e il quinto giorno: polmonite, infezione urinaria, ileo che si prolunga oltre il tempo atteso."),
+ (2,"chiaro",0,"Fra il quinto e il decimo: infezione della ferita, deiscenza. E la trombosi venosa con l'embolia polmonare, possibili in ogni momento, ma piu' tipiche dopo i primi giorni."),
 
- (3,"chiaro",0,"A, le vie aeree. Il rischio principale e' l'ostruzione da caduta della lingua, perche' i muscoli sono ancora rilassati e la lingua scivola all'indietro contro la parete del faringe."),
- (3,"chiaro",0,"I segni: russamento, rientramenti, un movimento paradosso fra torace e addome, cioe' l'addome che si gonfia mentre il torace si abbassa, e desaturazione."),
- (3,"chiaro",0,"Le manovre: sublussazione della mandibola o sollevamento del mento, e una cannula orofaringea se non c'e' ancora il riflesso faringeo. Se vomita, posizione laterale e aspiratore pronto e funzionante."),
+ (3,"chiaro",0,"La febbre postoperatoria si interpreta con una regola mnemonica inglese, quella delle cinque W: cinque parole che iniziano con la stessa lettera, una per ogni sede e per ogni giornata."),
+ (3,"chiaro",0,"Wind, il vento, cioe' il polmone: primo-secondo giorno. Water, l'acqua, cioe' le vie urinarie: terzo-quinto giorno."),
+ (3,"chiaro",0,"Wound, la ferita: quinto-settimo. Walking, il camminare, cioe' la trombosi venosa: dopo il quinto. Wonder drugs, i farmaci e le trasfusioni: in ogni momento."),
+ (3,"chiaro",0,"E una precisazione: una febbricola nelle prime ventiquattro-quarantotto ore e' spesso solo la risposta infiammatoria all'intervento, e non richiede di cercare un'infezione."),
 
- (4,"chiaro",0,"B, il respiro: frequenza, saturazione, profondita', ossigeno secondo prescrizione, e attenzione all'effetto residuo di oppioidi e miorilassanti, che deprimono il respiro."),
- (4,"chiaro",0,"C, il circolo: frequenza cardiaca, pressione, colorito, riempimento capillare, e le perdite: dalla ferita, dai drenaggi, nella diuresi."),
- (4,"chiaro",0,"Una tachicardia nuova, anche con pressione normale, puo' essere il primo segno di un sanguinamento: il cuore compensa prima che la pressione scenda."),
+ (4,"chiaro",0,"L'emorragia. I segni precoci sono quelli che contano: tachicardia, agitazione, pallore, sudorazione, riempimento capillare lento, oliguria. Sono i segni del compenso: il corpo che difende gli organi vitali."),
+ (4,"chiaro",0,"L'ipotensione e' un segno tardivo: quando la pressione crolla, la persona ha gia' perso molto sangue, e il compenso e' finito."),
+ (4,"profondo",1.2,"[serious] L'ipotensione e' un segno tardivo."),
+ (4,"chiaro",0,"Le fonti: la ferita, i drenaggi, oppure un sanguinamento interno, che si sospetta con addome teso e dolente, perche' il sangue che non esce si accumula dove non si vede."),
+ (4,"chiaro",0,"La condotta: avvisare subito, ossigeno, accessi venosi, prelievi con gruppo, liquidi ed emocomponenti secondo prescrizione, digiuno per un possibile reintervento, parametri ravvicinati."),
 
- (5,"chiaro",0,"Poi gli altri controlli. Coscienza e orientamento. Temperatura, con attenzione all'ipotermia e ai brividi, che aumentano il consumo di ossigeno e il dolore."),
- (5,"chiaro",0,"Dolore, con la scala. Nausea e vomito. Ferita e drenaggi: quantita' e aspetto di quello che esce. Diuresi. Glicemia se indicata, per esempio nel diabetico."),
- (5,"chiaro",0,"E dopo un'anestesia spinale o peridurale, la sensibilita' e la ripresa della motilita' degli arti inferiori: finche' le gambe non rispondono, la persona non si alza."),
+ (5,"chiaro",0,"L'atelettasia: piccole porzioni di polmone collassano perche' la persona respira in modo superficiale, per il dolore, gli oppioidi, l'immobilita', gli effetti dell'anestesia."),
+ (5,"chiaro",0,"I segni: una lieve febbre, tachipnea, desaturazione, murmure ridotto alle basi, cioe' nelle parti piu' basse del polmone, dove l'aria arriva meno quando si sta sdraiati."),
+ (5,"chiaro",0,"E' la complicanza in cui l'infermiere conta di piu', perche' si previene quasi del tutto: respirazione profonda, spirometro incentivante, tosse con sostegno della ferita."),
+ (5,"chiaro",0,"Mobilizzazione, analgesia adeguata, posizione semiseduta. Se non si previene, evolve in polmonite: il polmone chiuso e' il polmone che si infetta."),
 
- (6,"chiaro",0,"Quando si puo' dimettere il paziente dalla sala risveglio? Lo strumento classico e' il punteggio di Aldrete, con cinque parametri da zero a due punti ciascuno."),
- (6,"chiaro",0,"Attivita' motoria, respirazione, circolazione, cioe' la pressione rispetto ai valori preoperatori, coscienza e saturazione, o il colorito dove non c'e' il saturimetro."),
- (6,"chiaro",0,"Il totale va da zero a dieci, e il paziente e' di norma trasferibile in reparto con un punteggio di almeno nove: un solo parametro puo' non essere ancora al massimo."),
- (6,"chiaro",0,"Nel day surgery, per la dimissione a casa, si usano criteri specifici piu' ampi, che comprendono dolore, nausea, sanguinamento e capacita' di camminare."),
+ (6,"chiaro",0,"Trombosi venosa profonda ed embolia polmonare. La TVP: dolore, edema monolaterale del polpaccio, calore. Monolaterale e' la parola chiave: una gamba sola, piu' grossa dell'altra."),
+ (6,"chiaro",0,"L'embolia: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso con un'intensa ansia della persona, che sente di non respirare."),
+ (6,"chiaro",0,"La prevenzione l'abbiamo vista: mobilizzazione precoce, profilassi meccanica e farmacologica, idratazione. E nel sospetto di TVP vale la regola della lezione tre punto due: non massaggiare, avvisare."),
 
- (7,"chiaro",0,"La nausea e il vomito postoperatori, la PONV. I quattro fattori di rischio del punteggio di Apfel: sesso femminile, non fumatore, storia di PONV o di mal d'auto, uso di oppioidi nel postoperatorio."),
- (7,"chiaro",0,"Piu' fattori, piu' rischio, piu' farmaci in profilassi. Se il paziente vomita: posizione laterale, aspirazione se serve, antiemetico secondo prescrizione, e sostegno della ferita con le mani o un cuscino."),
- (7,"chiaro",0,"Molti pazienti ricordano la nausea come l'esperienza peggiore dell'intervento, peggio del dolore: prevenirla non e' un dettaglio di comfort."),
+ (7,"chiaro",0,"La ritenzione urinaria: nessuna minzione entro sei-otto ore, oppure minzioni piccole e frequenti, per rigurgito: la vescica piena che trabocca, e che inganna chi guarda solo il pannolone."),
+ (7,"chiaro",0,"Il globo, il dolore sovrapubico, l'agitazione, che nell'anziano viene spesso scambiata per delirium: prima di sedare un anziano agitato, si guarda la vescica."),
+ (7,"chiaro",0,"Si valuta con il bladder scanner e si procede al cateterismo secondo indicazione. Ricordi i fattori di rischio: spinale, oppioidi, chirurgia pelvica, prostata."),
 
- (8,"chiaro",0,"Il dolore postoperatorio. Si valuta con la scala a intervalli regolari, a riposo e in movimento, perche' un dolore accettabile a letto puo' impedire di alzarsi o di tossire."),
- (8,"chiaro",0,"Si usa l'analgesia multimodale: paracetamolo, FANS se non controindicati, oppioidi al bisogno, tecniche loco-regionali come la peridurale. Farmaci diversi, su bersagli diversi, con meno dose di ciascuno."),
- (8,"chiaro",0,"Si somministra a orario fisso, con una dose di soccorso per i picchi, e si rivaluta dopo ogni somministrazione: il dolore che non risponde si segnala."),
- (8,"chiaro",0,"L'obiettivo non e' solo il comfort: e' permettere di respirare profondamente, tossire e mobilizzarsi, cioe' prevenire le complicanze della prossima lezione."),
+ (8,"chiaro",0,"L'ileo paralitico: dopo la chirurgia addominale l'intestino rallenta, e a volte si ferma. I segni: distensione addominale, assenza di gas e feci, nausea, vomito, peristalsi assente all'auscultazione."),
+ (8,"chiaro",0,"Si previene con gli strumenti dell'ERAS: mobilizzazione e alimentazione precoci, meno oppioidi, che rallentano l'intestino, equilibrio dei liquidi."),
+ (8,"chiaro",0,"Il trattamento e' su prescrizione: digiuno, a volte un sondino naso-gastrico in aspirazione, e correzione degli elettroliti, soprattutto del potassio, la cui carenza rallenta l'intestino."),
 
- (9,"chiaro",0,"La peridurale per l'analgesia postoperatoria richiede una sorveglianza specifica: livello di analgesia, blocco motorio, pressione, sedazione e frequenza respiratoria se la miscela contiene oppioidi, sede del catetere."),
- (9,"chiaro",0,"E un segnale d'allarme preciso: la comparsa o l'aumento del blocco motorio, un mal di schiena intenso o nuovi deficit vanno segnalati subito. Il blocco motorio non dovrebbe aumentare, mai."),
- (9,"chiaro",0,"Possono indicare un ematoma epidurale, che comprime il midollo e richiede un intervento urgente: qui le ore contano."),
+ (9,"chiaro",0,"L'infezione della ferita e la deiscenza, che abbiamo approfondito nella lezione sette punto quattro: qui le collochiamo nel tempo."),
+ (9,"chiaro",0,"L'infezione: fra il quinto e il settimo giorno, con rossore che si estende, dolore che aumenta invece di diminuire, essudato purulento, febbre."),
+ (9,"chiaro",0,"La deiscenza: fra il quinto e il decimo, preannunciata da un abbondante liquido siero-ematico. E l'eviscerazione, con la sua sequenza di emergenza."),
 
- (10,"chiaro",0,"La ripresa dell'alimentazione. Secondo il modello ERAS si offrono liquidi gia' poche ore dopo l'intervento, quando la persona e' sveglia e senza nausea, e poi un'alimentazione progressiva."),
- (10,"chiaro",0,"Nella maggior parte degli interventi non e' necessario aspettare la canalizzazione ai gas: e' un'altra abitudine rovesciata, perche' l'alimentazione precoce la favorisce."),
- (10,"chiaro",0,"Prima si verifica che la deglutizione e la tosse siano efficaci, soprattutto nell'anziano: il primo sorso d'acqua si osserva."),
+ (10,"chiaro",0,"E le altre complicanze, che non vanno dimenticate. Il delirium dell'anziano, nei primi tre giorni. Le lesioni da pressione, al sacro e ai talloni, che iniziano in sala operatoria."),
+ (10,"chiaro",0,"L'iperglicemia da stress, anche in chi non e' diabetico. Gli squilibri elettrolitici, per le perdite, i liquidi infusi, il digiuno: si leggono gli esami, non solo i parametri."),
+ (10,"chiaro",0,"Le infezioni da dispositivi: il catetere vescicale e il catetere venoso centrale, che vanno rimossi appena possibile. La stipsi da oppioidi."),
 
- (11,"chiaro",0,"La prima mobilizzazione: il prima possibile, spesso gia' la sera dell'intervento. Prima si valutano parametri, dolore, nausea ed eventuale blocco motorio residuo."),
- (11,"chiaro",0,"Alzata in due tempi della lezione tre punto due: seduto al bordo del letto, poi in piedi. La prima volta la persona e' sempre accompagnata, anche se si sente bene: l'ipotensione ortostatica e' frequente."),
- (11,"chiaro",0,"Si gestiscono drenaggi, cateteri e linee prima di muoversi, e ci si ferma se compaiono vertigini, pallore, sudorazione o dispnea: si torna seduti, non si insiste."),
+ (11,"chiaro",0,"Il filo comune e' il riconoscimento precoce. Parametri a intervalli definiti, un punteggio di allerta precoce come la NEWS2, che trasforma i parametri in un numero e il numero in un'azione."),
+ (11,"chiaro",0,"E poi una cosa che non compare negli strumenti: ascoltare il paziente. Un «non mi sento bene», un'ansia nuova, una confusione improvvisa spesso precedono di ore l'alterazione dei parametri."),
+ (11,"chiaro",0,"Si guarda il trend, non il singolo valore: una frequenza di cento che ieri era settanta dice piu' di una frequenza di cento da sola. E si segnala con lo SBAR."),
 
- (12,"chiaro",0,"La prima minzione e' attesa entro sei-otto ore. I fattori di rischio di ritenzione: anestesia spinale, oppioidi, chirurgia pelvica, ipertrofia prostatica."),
- (12,"chiaro",0,"Se la persona non urina, si valuta il globo con il bladder scanner prima di pensare al catetere, come nella lezione tre punto sei: si misura, non si presume."),
+ (12,"chiaro",0,"Due casi. Primo: secondo giorno dopo una colectomia; febbre a trentasette e nove, frequenza respiratoria ventiquattro, saturazione novantadue, murmure ridotto alle basi."),
+ (12,"chiaro",0,"E il paziente e' rimasto a letto per il dolore. Che cosa pensi? Atelettasia: e' il secondo giorno, e' il polmone. Wind, la prima W."),
+ (12,"chiaro",0,"Che cosa fai? Avvisi il medico, ossigeno secondo prescrizione, posizione semiseduta, analgesia adeguata, perche' il problema nasce dal dolore. Spirometro incentivante, tosse con sostegno della ferita, mobilizzazione."),
 
- (13,"chiaro",0,"Il delirium postoperatorio, frequentissimo nell'anziano. I fattori: eta', demenza preesistente, dolore, farmaci, ipossia, ritenzione urinaria, disidratazione, mancanza di occhiali e apparecchi acustici."),
- (13,"chiaro",0,"Si riconosce con la CAM della lezione due punto tre; si previene restituendo subito occhiali e apparecchi, con i familiari, il controllo del dolore, la mobilizzazione e il sonno. Lo riprenderemo nel modulo undici."),
+ (13,"chiaro",0,"Secondo: sesto giorno dopo una protesi d'anca; improvvisa dispnea, dolore toracico, frequenza centodiciotto, saturazione ottantotto, paziente molto ansioso."),
+ (13,"chiaro",0,"Che cosa pensi? Embolia polmonare, fino a prova contraria: l'ortopedia dell'arto inferiore e' uno dei contesti a piu' alto rischio trombotico, e il sesto giorno e' il momento tipico."),
+ (13,"chiaro",0,"Che cosa fai? Avvisi subito il medico, ossigeno, posizione semiseduta, monitoraggio, accesso venoso, prelievi, ECG, e prepari gli esami diagnostici."),
+ (13,"chiaro",0,"Non attribuire la dispnea all'ansia: qui l'ansia e' un sintomo, non la causa. Un paziente che dice di non respirare va creduto."),
 
- (14,"chiaro",0,"Il caso. Due ore dopo una colecistectomia: frequenza da settantotto a centododici, pressione centodieci su settanta contro centoquaranta su ottantacinque prima dell'intervento."),
- (14,"chiaro",0,"Paziente pallido e agitato, drenaggio con duecentocinquanta millilitri di sangue nell'ultima ora. Che cosa pensi?"),
- (14,"chiaro",0,"Emorragia postoperatoria con shock iniziale: la tachicardia e l'agitazione arrivano prima del crollo della pressione, e una pressione «normale» qui e' gia' trenta punti sotto quella del paziente."),
- (14,"profondo",1.2,"[serious] La tachicardia arriva prima del crollo della pressione."),
- (14,"chiaro",0,"Che cosa fai? Avvisi subito il chirurgo con SBAR, ossigeno, parametri ravvicinati, verifichi gli accessi venosi, prepari prelievi e richiesta di emocomponenti secondo indicazione, digiuno per un possibile reintervento."),
+ (14,"chiaro",0,"Nelle aziende venete il riconoscimento precoce del deterioramento e' supportato da sistemi di allerta e da equipe di risposta rapida, che vedremo nel modulo dieci."),
+ (14,"chiaro",0,"Da protocolli di profilassi antitrombotica e dalla sorveglianza delle infezioni del sito chirurgico. In molte realta' esistono percorsi ortogeriatrici per l'anziano operato, dove delirium e complicanze sono piu' frequenti."),
 
- (15,"chiaro",0,"Nelle aziende venete i blocchi operatori dispongono di recovery room con criteri condivisi di dimissibilita', e molte realta' hanno un servizio per il dolore acuto postoperatorio."),
- (15,"chiaro",0,"Con infermieri dedicati che seguono peridurali e PCA nei reparti: e' un esempio della rete della legge trentotto della lezione tre punto sette."),
+ (15,"chiaro",0,"La tabella. Prime ore: emorragia, con la tachicardia che precede l'ipotensione. Primo-secondo giorno: atelettasia, con spirometro e mobilizzazione. Terzo-quinto: polmonite e urine."),
+ (15,"chiaro",0,"Quinto-settimo: ferita. Quinto-decimo: deiscenza. Dopo il quinto: trombosi. Embolia: dispnea improvvisa. Ileo: distensione, e controllo del potassio."),
 
- (16,"chiaro",0,"Ricapitoliamo. Consegna SBAR. A: ostruzione da lingua, sublussazione della mandibola. B e C: saturazione, pressione, perdite. Aldrete da zero a dieci, trasferibile da nove."),
- (16,"chiaro",0,"Apfel: donna, non fumatore, storia di nausea, oppioidi. Analgesia multimodale, valutata a riposo e in movimento. Peridurale: blocco motorio in aumento e' un allarme. Prima minzione entro sei-otto ore."),
- (16,"chiaro",0,"[warm] Nella prossima lezione: le complicanze postoperatorie, con l'emorragia, le infezioni, la trombosi e la deiscenza della ferita. A tra poco."),
+ (16,"chiaro",0,"[warm] Una frase per chiudere: cercare la complicanza giusta al momento giusto. Nella prossima lezione, le chirurgie specialistiche: ortopedia, addominale, vascolare, toracica, urologica, e il day surgery. A tra poco."),
 ]
 
-CAPITOLI = {1:"Apertura",2:"La consegna",3:"A: le vie aeree",4:"B e C",5:"Gli altri controlli",6:"Il punteggio di Aldrete",7:"Nausea e vomito",
- 8:"Il dolore",9:"La peridurale",10:"L'alimentazione",11:"La prima mobilizzazione",12:"La prima minzione",13:"Il delirium",14:"Il caso",15:"In Veneto",16:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La cronologia",3:"La febbre: le cinque W",4:"L'emorragia",5:"L'atelettasia",6:"TVP ed embolia",7:"La ritenzione urinaria",
+ 8:"L'ileo paralitico",9:"Ferita: infezione e deiscenza",10:"Le altre complicanze",11:"Il riconoscimento precoce",12:"Caso 1",13:"Caso 2",14:"In Veneto",15:"La tabella",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

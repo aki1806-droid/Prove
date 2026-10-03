@@ -1,0 +1,42 @@
+{
+ "A": {
+  "parole_copione": 665,
+  "parole_dette": 665,
+  "coincidenti": 665,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 564,
+  "parole_dette": 565,
+  "coincidenti": 559,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ai",
+    "detto": "e i"
+   },
+   {
+    "blocco": "s44",
+    "copione": "sbar",
+    "detto": "sebar"
+   },
+   {
+    "blocco": "s46",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s47",
+    "copione": "sbar",
+    "detto": "sebar"
+   }
+  ]
+ }
+}

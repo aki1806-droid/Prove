@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Ogni chirurgia specialistica ha le sue attenzioni specifiche, che si aggiungono all'assistenza perioperatoria generale: tutto quello che abbiamo visto finora vale, e qui si aggiunge il resto."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vediamo una per una, puntando su cio' che i concorsi chiedono piu' spesso: la protesi d'anca e le sue precauzioni, i gessi e la sindrome compartimentale, e alcune complicanze caratteristiche di altre chirurgie."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La protesi d'anca. Nelle prime settimane il rischio principale e' la lussazione: la testa della protesi esce dalla sua sede."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le precauzioni dipendono dall'accesso chirurgico, e per l'accesso posteriore, il piu' classico nei manuali, sono tre."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente flessione dell'anca oltre i novanta gradi: quindi sedie alte e rialzo per il water, niente sedie basse ne' chinarsi per allacciare le scarpe."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente adduzione oltre la linea mediana: per questo, a letto, si usa un cuscino abduttore fra le gambe. Niente intrarotazione. E non si accavallano le gambe."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di lussazione: dolore improvviso, arto accorciato e ruotato, impossibilita' di muoverlo, spesso dopo un movimento scorretto o una torsione. Si avvisa subito."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per il resto: mobilizzazione precoce, insieme al fisioterapista, con il carico consentito dal chirurgo; prevenzione delle cadute."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E profilassi antitrombotica, perche' la chirurgia protesica dell'arto inferiore e' fra le piu' a rischio, come abbiamo visto nel caso della lezione precedente."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La protesi di ginocchio: mobilizzazione precoce, recupero progressivo della flessione, ghiaccio, e soprattutto un controllo del dolore che permetta la riabilitazione, perche' il ginocchio protesico e' molto doloroso."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frattura di femore nell'anziano: l'intervento entro quarantotto ore dall'arrivo in ospedale e' un indicatore di qualita' monitorato a livello nazionale, perche' il ritardo aumenta mortalita' e complicanze."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un paziente ad alto rischio di delirium, lesioni da pressione e malnutrizione, e beneficia di un approccio ortogeriatrico, condiviso fra ortopedico e geriatra."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il gesso. L'attivita' principale e' il controllo neurovascolare dell'arto, ripetuto: colorito, temperatura, polso, riempimento capillare, sensibilita', motilita' delle dita. Si solleva l'arto per ridurre l'edema."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il gesso fresco non si copre, per farlo asciugare, e si maneggia con il palmo della mano, non con le dita, che lascerebbero impronte e punti di pressione interni."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si infila nulla sotto il gesso per grattarsi. E si segnalano dolore, odore, secrezioni, sensazione di gesso troppo stretto."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sindrome compartimentale, l'emergenza che i concorsi chiedono. Dopo una frattura, un intervento o sotto un gesso, la pressione in un compartimento muscolare chiuso aumenta fino a bloccare la circolazione."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il segno precoce e piu' importante e' un dolore sproporzionato rispetto alla lesione, che aumenta con lo stiramento passivo dei muscoli, per esempio estendendo passivamente le dita. Poi parestesie, pallore, deficit motorio."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assenza del polso e' un segno tardivo: aspettarlo significa arrivare tardi."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] L'assenza del polso e' un segno tardivo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un'emergenza: si avvisa subito, e si allenta o si apre il gesso secondo indicazione. In questo caso l'arto non si solleva oltre il livello del cuore, perche' ridurrebbe ulteriormente la perfusione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le trazioni. I pesi devono pendere liberi, mai appoggiati a terra o al letto, e le corde scorrere libere nelle carrucole, altrimenti la trazione non agisce."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si mantiene l'allineamento del corpo, e i pesi non si tolgono senza indicazione, nemmeno per l'igiene: un peso sollevato per un minuto e' un minuto di trazione persa."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella trazione scheletrica si curano i punti di inserzione dei chiodi con tecnica asettica, sorvegliando i segni di infezione. E si prevengono tutte le complicanze dell'immobilita' della lezione tre punto due."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chirurgia addominale riprende quasi tutto cio' che abbiamo visto: il sondino, i drenaggi, la ripresa della canalizzazione e l'ileo, le stomie."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sostegno della ferita nella tosse e nei movimenti, e il rischio di deiscenza ed eviscerazione. E' la chirurgia in cui l'ERAS ha mostrato i benefici piu' chiari: meno giorni di degenza, meno ileo, meno complicanze."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chirurgia vascolare. Dopo una rivascolarizzazione dell'arto si controllano i polsi distali, colorito, temperatura, sensibilita' e motilita', confrontandoli con l'arto controlaterale e con i valori di prima."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La scomparsa di un polso prima presente e' un'urgenza. Si sorveglia il sanguinamento."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo l'endoarteriectomia carotidea, due controlli specifici: la valutazione neurologica, per il rischio di ictus, e il collo, perche' un ematoma puo' comprimere le vie aeree."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chirurgia toracica. Il drenaggio toracico, con le regole della lezione sette punto sette. La fisioterapia respiratoria, lo spirometro incentivante, la tosse assistita: il polmone operato deve espandersi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'analgesia efficace, spesso con peridurale toracica o blocchi nervosi, perche' il dolore toracico impedisce di respirare. E la mobilizzazione precoce del braccio e della spalla del lato operato."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chirurgia urologica. Dopo la resezione endoscopica della prostata si usa l'irrigazione vescicale continua con catetere a tre vie, con il calcolo del bilancio della lezione otto punto quattro: drenato meno irrigato."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano coaguli e ostruzione. E una complicanza specifica: la sindrome da riassorbimento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante l'intervento il liquido di irrigazione puo' essere assorbito in circolo, provocando confusione, nausea, bradicardia e iponatriemia. Una confusione nuova dopo questo intervento va segnalata e fa pensare al sodio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tiroidectomia, con tre complicanze da conoscere. L'ematoma del collo, che puo' comprimere le vie aeree: e' un'emergenza."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano collo, respiro, voce, stridore, e secondo protocollo e' disponibile al letto il materiale per riaprire la ferita."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipocalcemia, per lesione delle paratiroidi: formicolii intorno alla bocca, Chvostek e Trousseau, lezione tre punto cinque. La disfonia, per lesione del nervo laringeo ricorrente. Posizione semiseduta."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il day surgery: intervento e dimissione nella stessa giornata. Richiede una selezione dei pazienti, per condizioni cliniche e supporto a domicilio."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La persona deve avere un accompagnatore e qualcuno con se' la prima notte. La dimissione segue criteri precisi: parametri stabili, dolore controllato, nausea assente, minzione, capacita' di camminare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si consegnano istruzioni scritte, e per ventiquattro ore niente guida, niente decisioni importanti, niente alcol. Spesso il giorno dopo c'e' un contatto telefonico infermieristico."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente con gesso all'avambraccio da sei ore; dolore fortissimo, che non risponde all'analgesico e aumenta estendendo passivamente le dita. Che cosa pensi?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sindrome compartimentale. Che cosa fai? Avvisi subito il medico, controlli il circolo distale e lo documenti."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Porti l'arto all'altezza del cuore, non piu' in alto, e ti prepari ad allentare o aprire il gesso secondo indicazione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si aspetta che il polso scompaia, e non si continua ad aumentare l'analgesico: un dolore che non risponde e' un'informazione, non un fastidio da coprire."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto, come nel resto d'Italia, la percentuale di fratture di femore operate entro quarantotto ore e' uno degli indicatori del Programma Nazionale Esiti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aziende hanno attivato percorsi ortogeriatrici per migliorarla. Le unita' di day surgery sono diffuse e seguono protocolli aziendali."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Anca: no flessione oltre novanta, no adduzione, no intrarotazione; lussazione con arto accorciato e ruotato. Femore: entro quarantotto ore. Gesso: controllo neurovascolare, palmo, niente oggetti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Compartimentale: dolore sproporzionato allo stiramento passivo, polso assente e' tardivo. Trazioni: pesi liberi. Carotide: neurologico e collo. Prostata: iponatriemia. Tiroide: ematoma, calcio, voce."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione chiudiamo il percorso del paziente chirurgico con la dimissione: come si pianifica, che cosa si insegna, come si garantisce la continuita' con il territorio. A tra poco."
+ }
+]

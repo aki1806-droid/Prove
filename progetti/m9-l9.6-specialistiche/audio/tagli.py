@@ -18,7 +18,7 @@ import imageio_ffmpeg
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
-STACCO = "s25"
+STACCO = "s24"
 SOGLIA = "-45dB"
 SILENZI = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
            "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
