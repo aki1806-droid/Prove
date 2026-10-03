@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Apriamo il modulo dedicato al paziente chirurgico. L'intervento dura poche ore, ma il percorso comincia giorni prima e finisce settimane dopo, e l'infermiere lo accompagna in ogni tappa."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa prima lezione da' la cornice: le fasi, i ruoli in sala operatoria, lo strumento di sicurezza piu' importante, la check-list, e un modello che ha cambiato la chirurgia: l'ERAS."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre fasi. Preoperatoria: dalla decisione di operare fino all'ingresso in sala, con valutazione, preparazione e informazione. Intraoperatoria: dall'ingresso in sala al trasferimento in sala risveglio."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Postoperatoria: dal risveglio fino alla ripresa completa, che spesso si conclude a casa. Ogni fase ha i suoi rischi, e molte complicanze del post-operatorio si prevengono nel pre-operatorio."
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il blocco operatorio e' organizzato in zone a protezione crescente: dall'area esterna, attraverso i filtri, spogliatoi per il personale e zona di passaggio per i pazienti, alla zona pulita, fino alla sala operatoria."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I percorsi del materiale pulito e di quello sporco sono separati, l'accesso e' regolato e si entra solo con l'abbigliamento dedicato: divisa, copricapo, mascherina, calzature del blocco."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni ingresso in sala durante l'intervento e' un potenziale rischio infettivo: ridurre il traffico in sala, e il numero di volte in cui la porta si apre, fa parte della prevenzione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre ruoli infermieristici. Lo strumentista, che lavora sterile: prepara il tavolo servitore, passa gli strumenti al chirurgo, mantiene l'integrita' del campo sterile e gestisce la conta di garze e strumenti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere di sala, o circolante, che non e' sterile: collabora dall'esterno del campo, apre e fornisce i materiali, documenta e spesso coordina la check-list."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere di anestesia, che collabora con l'anestesista nell'induzione, nel monitoraggio e nel risveglio. Tre competenze diverse, che i concorsi chiedono di saper distinguere."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un distrattore frequente: lo strumentista che apre una confezione dall'esterno, o il circolante che tocca il tavolo servitore. Chi e' sterile tocca solo cio' che e' sterile; chi non lo e', mai."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La check-list per la sicurezza in sala operatoria, adottata dal Ministero della Salute a partire da quella dell'OMS. Si articola in tre momenti."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sign in: prima dell'induzione dell'anestesia. Time out: prima dell'incisione della cute. Sign out: prima che il paziente lasci la sala."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' un coordinatore della check-list, spesso l'infermiere di sala, che pone le domande ad alta voce e verifica le risposte. Nessun intervento dovrebbe iniziare con un punto in sospeso."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sign in, prima dell'induzione. Il paziente conferma, quando possibile, identita', sede, procedura e consenso. Si verifica la marcatura del sito."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si controllano l'apparecchiatura di anestesia e il pulsossimetro. Si chiede delle allergie. Si valuta il rischio di vie aeree difficili o di inalazione, e il rischio di perdita ematica, con la disponibilita' di sangue."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il time out, prima dell'incisione: i componenti dell'equipe si presentano, si conferma ad alta voce paziente, sede e procedura, e ciascuno dichiara gli eventi critici previsti."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si verifica che la profilassi antibiotica sia stata somministrata entro sessanta minuti, e che le immagini siano disponibili."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sign out, prima dell'uscita: si registra la procedura eseguita, si conferma che la conta di garze, aghi e strumenti e' corretta."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La conta la fanno insieme strumentista e infermiere di sala, ad alta voce, prima della chiusura di ogni cavita' e alla fine: se non torna, non si chiude finche' il pezzo mancante non si trova."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si verificano l'etichettatura dei campioni, eventuali problemi delle apparecchiature e le indicazioni per il post-operatorio."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La check-list mette in pratica due Raccomandazioni ministeriali. La numero due: la ritenzione di garze, strumenti o altro materiale nel sito chirurgico. La numero tre: l'identificazione corretta di paziente, sito e procedura."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'intervento sul paziente sbagliato o sul lato sbagliato e' un evento sentinella: un evento avverso grave, da segnalare e analizzare nelle cause. Marcatura del sito e time out sono le barriere che lo prevengono."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La marcatura del sito. La esegue il chirurgo, o chi eseguira' la procedura, preferibilmente con il paziente sveglio e partecipe."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il segno e' chiaro, indelebile, e deve restare visibile dopo la disinfezione e la preparazione del campo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' necessaria quando esiste una lateralita', destro o sinistro, strutture multiple come le dita, o livelli diversi, come le vertebre."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello ERAS, Enhanced Recovery After Surgery: un insieme di interventi basati sulle evidenze che riducono lo stress dell'intervento e accelerano la ripresa."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima: informazione accurata, niente digiuno prolungato, i liquidi chiari sono consentiti fino a due ore prima, e niente preparazione intestinale di routine."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso si aggiunge un carico di carboidrati: una bevanda zuccherina la sera prima e due ore prima dell'intervento, perche' il paziente entri in sala senza il digiuno e la sete di una notte intera."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante: normotermia, liquidi somministrati in modo mirato, analgesia multimodale con meno oppioidi, profilassi della nausea."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo: alimentazione e mobilizzazione precoci, gia' nella giornata dell'intervento o in prima giornata, e rimozione precoce di catetere, sondino e drenaggi."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ERAS riduce complicanze e durata della degenza, e l'infermiere e' decisivo nel metterlo in pratica: e' lui che gestisce il digiuno, fa alzare il paziente la sera stessa, avvia l'alimentazione, controlla il dolore ed educa."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiede di abbandonare abitudini radicate, come il digiuno dalla mezzanotte per tutti, o il paziente tenuto a letto per giorni, per sicurezza."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi la sindrome da immobilizzazione della lezione tre punto due: qui trova la sua applicazione chirurgica."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E molte misure dell'ERAS coincidono con il bundle contro le infezioni del sito chirurgico della lezione sette punto quattro: normotermia, profilassi entro sessanta minuti, controllo della glicemia."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso perioperatorio e' una sequenza di passaggi: reparto, blocco operatorio, sala risveglio, di nuovo reparto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A ogni passaggio servono consegne strutturate, con lo SBAR della lezione due punto sette, e check-list di trasferimento, con identificazione del paziente ripetuta. E' nei passaggi che le informazioni si perdono."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi riceve il paziente dalla sala risveglio verifica identita', intervento eseguito, parametri, dolore, drenaggi e medicazione, terapia prescritta: la consegna si prende, non si subisce."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Al time out il chirurgo vuole procedere senza attendere la conferma della profilassi antibiotica, perche' c'e' fretta. Che cosa fai?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come coordinatore della check-list segnali che il punto non e' stato verificato, e chiedi di verificarlo prima dell'incisione: la profilassi e' efficace solo se somministrata prima."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il chirurgo insiste, documenti e segui la procedura aziendale. Non e' un conflitto di persone: e' una barriera di sicurezza che si attiva."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La check-list esiste proprio per i momenti in cui c'e' fretta."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete la check-list e' adottata in tutte le sale operatorie, con verifiche sulla sua compilazione, e i percorsi ERAS sono attivi in diverse chirurgie, come la colorettale e l'ortopedica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la parola chiave e' sicurezza chirurgica, con la check-list come strumento e le Raccomandazioni due e tre come riferimento."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sintesi. Strumentista sterile, infermiere di sala non sterile. Sign in prima dell'induzione, time out prima dell'incisione, sign out prima dell'uscita."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Raccomandazione due: ritenzione. Raccomandazione tre: identificazione. ERAS: liquidi chiari fino a due ore prima, mobilizzazione e alimentazione precoci."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le due frasi da portare all'orale: chi e' sterile tocca solo cio' che e' sterile, e la check-list esiste per i momenti in cui c'e' fretta."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione entriamo nel dettaglio della preparazione all'intervento: digiuno, tricotomia, profilassi, gestione della terapia domiciliare e consenso. A tra poco."
+ }
+]

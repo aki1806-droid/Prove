@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] In sala operatoria il paziente non puo' proteggersi da solo: non sente il dolore di una postura scorretta, non si accorge del freddo, non sa se una garza e' rimasta dentro."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza intraoperatoria dipende dall'equipe, e una parte importante dall'infermiere. Vediamo i tipi di anestesia e i quattro rischi che l'infermiere presidia: posizionamento, temperatura, conta, elettrobisturi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'anestesia generale ha tre componenti: ipnosi, cioe' la perdita di coscienza; analgesia; e miorisoluzione, il rilassamento muscolare, che serve al chirurgo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Siccome la persona non respira autonomamente, o lo fa in modo insufficiente, le vie aeree vanno gestite con un presidio sopraglottico o con l'intubazione."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi sono tre: induzione, mantenimento, risveglio. Le piu' delicate sono la prima e l'ultima: e' li' che l'infermiere di anestesia sta accanto al paziente e non lo lascia."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le anestesie neuroassiali. La spinale, o subaracnoidea: l'anestetico si inietta nel liquor con una puntura singola, e l'effetto e' rapido."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La peridurale: l'anestetico va nello spazio epidurale, spesso attraverso un catetere che resta in sede per l'analgesia postoperatoria."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti da sorvegliare: ipotensione, perche' il blocco del simpatico dilata i vasi, bradicardia, blocco motorio degli arti inferiori, ritenzione urinaria."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo la spinale una possibile cefalea post-puntura, che caratteristicamente peggiora in piedi e migliora sdraiati: e' il segno che la distingue da un comune mal di testa."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'anestesia loco-regionale blocca un nervo o un plesso, per esempio per un intervento al braccio. L'arto resta insensibile anche per ore dopo l'intervento, e va protetto: non sente traumi, pressione o calore."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sedazione ha livelli diversi, e richiede monitoraggio di respiro e saturazione: una sedazione che si approfondisce senza che nessuno la guardi diventa un'anestesia generale senza vie aeree protette."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un segnale d'allarme da conoscere: la tossicita' da anestetici locali si annuncia con formicolio intorno alla bocca, sapore metallico, agitazione, fino a convulsioni e aritmie. Va segnalata subito."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una complicanza rara ma chiesta: l'ipertermia maligna, una reazione su base genetica a certi anestetici. Si manifesta con aumento della CO2 espirata, rigidita' muscolare, tachicardia e, tardivamente, febbre altissima."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'antidoto e' il dantrolene, che deve essere disponibile nel blocco operatorio. Per questo, nell'accertamento, si chiede sempre se ci sono stati problemi con l'anestesia in famiglia."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il posizionamento sul letto operatorio. Le posizioni dipendono dall'intervento: supina, prona, laterale, litotomica, Trendelenburg, seduta."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi sono quattro: consentire l'accesso chirurgico, non ostacolare ventilazione e circolazione, e proteggere cute, nervi, articolazioni e occhi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si posiziona in equipe, con movimenti coordinati, perche' il paziente anestetizzato non ha tono muscolare e non protegge le proprie articolazioni: un braccio lasciato cadere e' una lussazione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le lesioni da posizione. Le lesioni da pressione: in un intervento lungo il danno puo' iniziare in sala e diventare visibile giorni dopo. Ricordi il danno dei tessuti profondi della lezione sette punto due."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le lesioni nervose: il nervo ulnare al gomito; il peroneo comune alla testa del perone, nella posizione litotomica, con il piede cadente; il plesso brachiale, se il braccio e' abdotto oltre i novanta gradi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli occhi: si chiudono e si proteggono, con attenzione particolare nella posizione prona. Si usano supporti e imbottiture, e il posizionamento si registra."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La normotermia. L'anestesia abolisce la termoregolazione, la sala e' fredda, il paziente e' scoperto e riceve liquidi a temperatura ambiente: l'ipotermia e' frequente."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo: almeno trentasei gradi, perche' l'ipotermia ha conseguenze precise: piu' infezioni del sito chirurgico, piu' sanguinamento per alterazione della coagulazione, eventi cardiaci, brividi e disagio al risveglio."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione: riscaldamento attivo con coperte ad aria forzata, liquidi riscaldati, coperture, e monitoraggio della temperatura. E' parte del bundle della lezione sette punto quattro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riscaldamento comincia prima dell'induzione: la caduta di temperatura piu' rapida e' nella prima mezz'ora di anestesia, quando il calore del centro del corpo si ridistribuisce verso la periferia."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La conta, strumento della Raccomandazione due. Si contano garze, compresse, aghi e strumenti."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando? Prima dell'inizio, prima della chiusura di una cavita', alla chiusura della cute, e a ogni cambio di personale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue ad alta voce, da due operatori, lo strumentista e l'infermiere di sala, e si registra. Le garze chirurgiche sono radiopache, cioe' visibili ai raggi X, proprio per poterle ritrovare."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se la conta non torna? Si comunica subito al chirurgo, si sospende la chiusura, si riconta, si cerca nel campo, nei contenitori dei rifiuti, nella sala."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il materiale non si trova, si esegue una radiografia intraoperatoria. Poi si documenta e si segnala. Una garza dimenticata e' un evento sentinella."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il momento di fermarsi e' prima della chiusura, non dopo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'elettrobisturi taglia e coagula con la corrente, che deve rientrare attraverso una piastra neutra applicata sul paziente, per esempio sulla coscia."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La piastra si posiziona su un'area muscolare, ben vascolarizzata, asciutta e senza peli, lontano da protesi metalliche, elettrodi dell'ECG e prominenze ossee, e se ne controlla il contatto."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un contatto insufficiente concentra la corrente e provoca ustioni. Nei portatori di pacemaker o defibrillatori impiantabili si segue un protocollo specifico."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due altre attenzioni. Il fuoco: in sala ci sono tutti e tre gli elementi della triade, ossigeno, materiali combustibili come teli e antisettici alcolici, e fonti di innesco come elettrobisturi e laser."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'antisettico alcolico si lascia asciugare completamente prima di applicare i teli: un telo posato su cute ancora bagnata intrappola i vapori, e la prima scintilla li accende."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il campo sterile: qualunque contaminazione si segnala e il materiale si sostituisce, senza discussioni. Segnalare una violazione dell'asepsi e' un dovere, a qualunque livello gerarchico."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tracciabilita'. I set sterili e i dispositivi impiantati, protesi, placche, viti, si registrano con le loro etichette in cartella e nel registro operatorio, come abbiamo visto nella lezione quattro punto cinque."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I campioni istologici richiedono identificazione corretta, contenitore e fissativo adeguati, richiesta compilata e consegna tracciata: un campione perso o scambiato puo' significare una diagnosi mancata."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Intervento in posizione litotomica durato quattro ore; al risveglio il paziente non riesce a sollevare la punta del piede destro. Che cosa pensi?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una lesione del nervo peroneo comune, compresso alla testa del perone dai supporti della litotomica."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Segnali al medico, documenti il deficit e il posizionamento intraoperatorio, proteggi il piede e previeni le cadute, e la situazione si segnala come evento."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione era in sala: imbottitura e controllo dei supporti, e un'occhiata alle gambe a ogni ora di intervento."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete i blocchi operatori adottano procedure aziendali su conta, posizionamento, normotermia ed elettrochirurgia, con tracciabilita' informatizzata dei set e dei dispositivi."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E percorsi di formazione specifici per l'infermiere di sala e lo strumentista: all'orale, il collegamento con la check-list della lezione precedente e' quello che ci si aspetta."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitoliamo. Generale: ipnosi, analgesia, miorisoluzione. Spinale: ipotensione, ritenzione, cefalea che peggiora in piedi. Lesioni da posizione: peroneo nella litotomica, plesso brachiale oltre novanta gradi."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Normotermia da trentasei gradi. Conta all'inizio, prima della chiusura della cavita', alla chiusura della cute e a ogni cambio di personale; se non torna, non si chiude."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piastra neutra su muscolo, lontano dal metallo. Antisettico alcolico asciutto prima dei teli."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: il risveglio, con la sala risveglio, i criteri per tornare in reparto e le prime ore dopo l'intervento. A tra poco."
+ }
+]

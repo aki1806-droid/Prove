@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La preparazione all'intervento e' fatta di passaggi che sembrano di routine, e che invece determinano la sicurezza della persona in sala e l'andamento del post-operatorio."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una delle aree in cui i concorsi chiedono numeri precisi, le ore di digiuno, i tempi della profilassi, e in cui alcune vecchie abitudini sono state rovesciate dalle evidenze."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'accertamento. Anamnesi, allergie a farmaci, lattice, cerotti, disinfettanti, terapia domiciliare con la ricognizione della lezione cinque punto quattro. Parametri, peso e altezza, che servono a calcolare farmaci e liquidi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esami secondo indicazione: emocromo, coagulazione, ECG, gruppo sanguigno. Rischio di caduta, di lesioni da pressione, stato nutrizionale: un paziente malnutrito ha piu' complicanze e guarisce peggio."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la valutazione dell'anestesista, che classifica il rischio con la scala ASA: dalla classe uno, persona sana, alle classi piu' alte per malattie sistemiche via via piu' gravi."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il digiuno, con i numeri da sapere. Solidi: sei ore, di piu' dopo un pasto grasso. Liquidi chiari, acqua, te', camomilla, bevande con carboidrati, senza latte ne' polpa: fino a due ore prima."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I liquidi chiari sono quelli attraverso cui si legge: il latte no, perche' nello stomaco si comporta come un solido. Nel lattante, latte materno quattro ore, latte artificiale sei."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vecchio digiuno dalla mezzanotte per tutti non e' raccomandato: aumenta sete, ansia, disidratazione e insulino-resistenza, senza ridurre il rischio di inalazione. Si segue la prescrizione dell'anestesista e il protocollo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tricotomia. Si esegue solo se necessaria, cioe' se i peli interferiscono con l'intervento. Si usa il clipper elettrico, mai il rasoio, che provoca microlesioni invisibili, subito colonizzate dai batteri."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue il piu' vicino possibile all'intervento, il giorno stesso, e fuori dalla sala operatoria."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' uno degli esempi piu' chiari di pratica tradizionale smentita dalle evidenze: lo abbiamo visto nel bundle della lezione sette punto quattro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'igiene preoperatoria. Doccia con sapone o con antisettico, secondo il protocollo aziendale, la sera prima o la mattina dell'intervento, con attenzione all'ombelico, alle pieghe cutanee e alla sede dell'intervento."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Biancheria pulita. Igiene del cavo orale. E rimozione di smalto, gioielli, piercing, per il rischio di ustioni con l'elettrobisturi, e trucco."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo smalto e le unghie finte si tolgono almeno da un dito: il saturimetro legge attraverso l'unghia, e nella lezione otto punto due abbiamo visto quanto e' facile ingannarlo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La profilassi antibiotica. Si somministra entro sessanta minuti prima dell'incisione, perche' il farmaco deve essere nei tessuti nel momento in cui si apre la cute."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per alcuni antibiotici, come la vancomicina, che si infonde lentamente, la finestra si allarga a centoventi minuti."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Di solito basta una dose singola, da ripetere se l'intervento si prolunga o se la perdita di sangue e' importante. Non si prolunga oltre le ventiquattro ore senza indicazione: la stewardship della lezione quattro punto sei."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La profilassi antitrombotica. Si valuta il rischio trombotico, insieme a quello emorragico. La profilassi meccanica: calze a compressione graduata, compressione pneumatica intermittente e soprattutto mobilizzazione precoce."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le calze si misurano e si indossano bene: una calza arrotolata sotto il ginocchio stringe come un laccio, e fa il contrario di quello che dovrebbe. Quella farmacologica: eparina a basso peso molecolare secondo prescrizione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio di sicurezza: se e' prevista un'anestesia spinale o peridurale, i tempi dell'eparina rispetto alla puntura e alla rimozione del catetere sono definiti dal protocollo, per il rischio di ematoma spinale."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terapia domiciliare, che l'infermiere verifica con la lista dell'anestesista. Gli anticoagulanti, warfarin e DOAC, si sospendono con tempi definiti, a volte con una terapia ponte."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antiaggreganti richiedono una decisione specialistica, soprattutto nei portatori di stent, come abbiamo visto nella lezione cinque punto cinque."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Metformina e inibitori SGLT2 si sospendono secondo protocollo. L'insulina si adatta, ma la basale nel diabetico di tipo uno non si sospende mai del tutto. ACE-inibitori e sartani sono spesso omessi il giorno dell'intervento."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ricognizione e' il momento in cui emergono i farmaci che il paziente non considera tali: integratori, erbe, antinfiammatori da banco che aumentano il sanguinamento. Si chiede, non si aspetta che lo dica."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E che cosa si continua. I beta-bloccanti, di norma, per il rischio di rimbalzo con tachicardia e ischemia. Farmaci per la tiroide, antiepilettici, levodopa si assumono con un sorso d'acqua anche il giorno dell'intervento."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I corticosteroidi cronici si continuano, a volte con una dose aggiuntiva, per il rischio di crisi surrenalica della lezione otto punto tre."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sempre secondo la prescrizione dell'anestesista: l'infermiere non decide, ma verifica che ci sia un'indicazione per ogni farmaco."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il consenso informato, che abbiamo visto nella lezione uno punto sei. E' acquisito dal medico: il chirurgo per l'intervento, l'anestesista per l'anestesia. L'infermiere verifica che sia presente, completo e firmato."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se la persona esprime dubbi, o dice di non aver capito, l'infermiere non risponde al posto del medico: lo informa, prima dell'intervento. Il consenso e' revocabile fino all'ultimo momento."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il giorno dell'intervento. Identificazione e braccialetto. Verifica del digiuno. Rimozione di protesi dentarie mobili, lenti a contatto, gioielli."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il braccialetto si controlla con la domanda aperta, come si chiama, quando e' nato, non con «lei e' il signor Rossi?»: e' la Raccomandazione tre della lezione precedente."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli apparecchi acustici e gli occhiali spesso si tengono fino in sala, per permettere alla persona di comunicare, secondo indicazione. Minzione prima del trasferimento. Parametri. Marcatura del sito presente."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Premedicazione secondo prescrizione, e dopo una premedicazione sedativa la persona non si alza da sola. Check-list di reparto compilata e documentazione completa: consenso, esami, immagini."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ansia. Non e' solo un disagio: un'ansia preoperatoria elevata aumenta il dolore postoperatorio, il consumo di analgesici e la nausea."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo strumento piu' efficace per ridurla e' l'informazione strutturata: che cosa succedera', come si sentira' al risveglio, come sara' gestito il dolore, quando potra' mangiare e alzarsi."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi accoglienza, ascolto, presenza dei familiari secondo possibilita'. Una persona informata collabora meglio, anche nella mobilizzazione precoce dell'ERAS."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione preoperatoria prepara il post-operatorio. Si insegnano gli esercizi di respirazione profonda e l'uso dello spirometro incentivante, la tosse efficace sostenendo la ferita con un cuscino."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo spirometro si prova prima: dieci respiri profondi ogni ora da svegli, tenendo l'indicatore sollevato qualche secondo. Si impara quando non fa male, e dopo si fa anche se fa male."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli esercizi delle gambe, come alzarsi dal letto girandosi sul fianco, l'uso della scala del dolore e, se prevista, della PCA. E si incoraggia l'abbandono del fumo."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[thoughtful] Imparare prima e' molto piu' facile che imparare con il dolore."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente in lista per un intervento alle quattordici; alle sette chiede un caffe', e nessuno gli ha detto nulla del digiuno. Che cosa fai?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Verifichi la prescrizione dell'anestesista e il protocollo: se e' consentito, la persona puo' bere liquidi chiari fino a due ore prima. Un caffe' senza latte rientra spesso fra i liquidi chiari; un cappuccino no."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non e' consentito, spieghi il motivo. In ogni caso documenti l'orario dell'ultima assunzione, che e' un dato fondamentale per l'anestesista."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto molti interventi programmati passano da un prericovero, in cui si eseguono esami, valutazione anestesiologica ed educazione prima dell'ingresso, riducendo la degenza."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I protocolli aziendali definiscono digiuno, tricotomia, profilassi e gestione della terapia, e la check-list preoperatoria di reparto accompagna il paziente fino al blocco operatorio."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Solidi sei ore, liquidi chiari due, latte materno quattro, artificiale sei. Tricotomia solo se necessaria, con clipper, il giorno stesso. Profilassi antibiotica entro sessanta minuti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Beta-bloccanti continuati, antiaggreganti con decisione specialistica. Consenso: lo acquisisce il medico, l'infermiere lo verifica."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione entriamo in sala operatoria: i tipi di anestesia, il posizionamento sul letto operatorio, la normotermia e la conta di garze e strumenti. A tra poco."
+ }
+]

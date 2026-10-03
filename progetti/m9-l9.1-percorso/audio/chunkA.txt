@@ -1,0 +1,45 @@
+[warm] Apriamo il modulo dedicato al paziente chirurgico. L'intervento dura poche ore, ma il percorso comincia giorni prima e finisce settimane dopo, e l'infermiere lo accompagna in ogni tappa.
+
+Questa prima lezione da' la cornice: le fasi, i ruoli in sala operatoria, lo strumento di sicurezza piu' importante, la check-list, e un modello che ha cambiato la chirurgia: l'ERAS.
+
+Tre fasi. Preoperatoria: dalla decisione di operare fino all'ingresso in sala, con valutazione, preparazione e informazione. Intraoperatoria: dall'ingresso in sala al trasferimento in sala risveglio.
+
+Postoperatoria: dal risveglio fino alla ripresa completa, che spesso si conclude a casa. Ogni fase ha i suoi rischi, e molte complicanze del post-operatorio si prevengono nel pre-operatorio.
+
+Il blocco operatorio e' organizzato in zone a protezione crescente: dall'area esterna, attraverso i filtri, spogliatoi per il personale e zona di passaggio per i pazienti, alla zona pulita, fino alla sala operatoria.
+
+I percorsi del materiale pulito e di quello sporco sono separati, l'accesso e' regolato e si entra solo con l'abbigliamento dedicato: divisa, copricapo, mascherina, calzature del blocco.
+
+Ogni ingresso in sala durante l'intervento e' un potenziale rischio infettivo: ridurre il traffico in sala, e il numero di volte in cui la porta si apre, fa parte della prevenzione.
+
+Tre ruoli infermieristici. Lo strumentista, che lavora sterile: prepara il tavolo servitore, passa gli strumenti al chirurgo, mantiene l'integrita' del campo sterile e gestisce la conta di garze e strumenti.
+
+L'infermiere di sala, o circolante, che non e' sterile: collabora dall'esterno del campo, apre e fornisce i materiali, documenta e spesso coordina la check-list.
+
+L'infermiere di anestesia, che collabora con l'anestesista nell'induzione, nel monitoraggio e nel risveglio. Tre competenze diverse, che i concorsi chiedono di saper distinguere.
+
+Un distrattore frequente: lo strumentista che apre una confezione dall'esterno, o il circolante che tocca il tavolo servitore. Chi e' sterile tocca solo cio' che e' sterile; chi non lo e', mai.
+
+La check-list per la sicurezza in sala operatoria, adottata dal Ministero della Salute a partire da quella dell'OMS. Si articola in tre momenti.
+
+Sign in: prima dell'induzione dell'anestesia. Time out: prima dell'incisione della cute. Sign out: prima che il paziente lasci la sala.
+
+C'e' un coordinatore della check-list, spesso l'infermiere di sala, che pone le domande ad alta voce e verifica le risposte. Nessun intervento dovrebbe iniziare con un punto in sospeso.
+
+Il sign in, prima dell'induzione. Il paziente conferma, quando possibile, identita', sede, procedura e consenso. Si verifica la marcatura del sito.
+
+Si controllano l'apparecchiatura di anestesia e il pulsossimetro. Si chiede delle allergie. Si valuta il rischio di vie aeree difficili o di inalazione, e il rischio di perdita ematica, con la disponibilita' di sangue.
+
+Il time out, prima dell'incisione: i componenti dell'equipe si presentano, si conferma ad alta voce paziente, sede e procedura, e ciascuno dichiara gli eventi critici previsti.
+
+Si verifica che la profilassi antibiotica sia stata somministrata entro sessanta minuti, e che le immagini siano disponibili.
+
+Il sign out, prima dell'uscita: si registra la procedura eseguita, si conferma che la conta di garze, aghi e strumenti e' corretta.
+
+La conta la fanno insieme strumentista e infermiere di sala, ad alta voce, prima della chiusura di ogni cavita' e alla fine: se non torna, non si chiude finche' il pezzo mancante non si trova.
+
+Si verificano l'etichettatura dei campioni, eventuali problemi delle apparecchiature e le indicazioni per il post-operatorio.
+
+La check-list mette in pratica due Raccomandazioni ministeriali. La numero due: la ritenzione di garze, strumenti o altro materiale nel sito chirurgico. La numero tre: l'identificazione corretta di paziente, sito e procedura.
+
+L'intervento sul paziente sbagliato o sul lato sbagliato e' un evento sentinella: un evento avverso grave, da segnalare e analizzare nelle cause. Marcatura del sito e time out sono le barriere che lo prevengono.

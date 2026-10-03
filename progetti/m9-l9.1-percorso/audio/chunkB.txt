@@ -1,0 +1,49 @@
+La marcatura del sito. La esegue il chirurgo, o chi eseguira' la procedura, preferibilmente con il paziente sveglio e partecipe.
+
+Il segno e' chiaro, indelebile, e deve restare visibile dopo la disinfezione e la preparazione del campo.
+
+E' necessaria quando esiste una lateralita', destro o sinistro, strutture multiple come le dita, o livelli diversi, come le vertebre.
+
+Il modello ERAS, Enhanced Recovery After Surgery: un insieme di interventi basati sulle evidenze che riducono lo stress dell'intervento e accelerano la ripresa.
+
+Prima: informazione accurata, niente digiuno prolungato, i liquidi chiari sono consentiti fino a due ore prima, e niente preparazione intestinale di routine.
+
+Spesso si aggiunge un carico di carboidrati: una bevanda zuccherina la sera prima e due ore prima dell'intervento, perche' il paziente entri in sala senza il digiuno e la sete di una notte intera.
+
+Durante: normotermia, liquidi somministrati in modo mirato, analgesia multimodale con meno oppioidi, profilassi della nausea.
+
+Dopo: alimentazione e mobilizzazione precoci, gia' nella giornata dell'intervento o in prima giornata, e rimozione precoce di catetere, sondino e drenaggi.
+
+L'ERAS riduce complicanze e durata della degenza, e l'infermiere e' decisivo nel metterlo in pratica: e' lui che gestisce il digiuno, fa alzare il paziente la sera stessa, avvia l'alimentazione, controlla il dolore ed educa.
+
+Richiede di abbandonare abitudini radicate, come il digiuno dalla mezzanotte per tutti, o il paziente tenuto a letto per giorni, per sicurezza.
+
+Ricordi la sindrome da immobilizzazione della lezione tre punto due: qui trova la sua applicazione chirurgica.
+
+E molte misure dell'ERAS coincidono con il bundle contro le infezioni del sito chirurgico della lezione sette punto quattro: normotermia, profilassi entro sessanta minuti, controllo della glicemia.
+
+Il percorso perioperatorio e' una sequenza di passaggi: reparto, blocco operatorio, sala risveglio, di nuovo reparto.
+
+A ogni passaggio servono consegne strutturate, con lo SBAR della lezione due punto sette, e check-list di trasferimento, con identificazione del paziente ripetuta. E' nei passaggi che le informazioni si perdono.
+
+Chi riceve il paziente dalla sala risveglio verifica identita', intervento eseguito, parametri, dolore, drenaggi e medicazione, terapia prescritta: la consegna si prende, non si subisce.
+
+Il caso. Al time out il chirurgo vuole procedere senza attendere la conferma della profilassi antibiotica, perche' c'e' fretta. Che cosa fai?
+
+Come coordinatore della check-list segnali che il punto non e' stato verificato, e chiedi di verificarlo prima dell'incisione: la profilassi e' efficace solo se somministrata prima.
+
+Se il chirurgo insiste, documenti e segui la procedura aziendale. Non e' un conflitto di persone: e' una barriera di sicurezza che si attiva.
+
+[serious] La check-list esiste proprio per i momenti in cui c'e' fretta.
+
+Nelle aziende venete la check-list e' adottata in tutte le sale operatorie, con verifiche sulla sua compilazione, e i percorsi ERAS sono attivi in diverse chirurgie, come la colorettale e l'ortopedica.
+
+All'orale, la parola chiave e' sicurezza chirurgica, con la check-list come strumento e le Raccomandazioni due e tre come riferimento.
+
+La sintesi. Strumentista sterile, infermiere di sala non sterile. Sign in prima dell'induzione, time out prima dell'incisione, sign out prima dell'uscita.
+
+Raccomandazione due: ritenzione. Raccomandazione tre: identificazione. ERAS: liquidi chiari fino a due ore prima, mobilizzazione e alimentazione precoci.
+
+E le due frasi da portare all'orale: chi e' sterile tocca solo cio' che e' sterile, e la check-list esiste per i momenti in cui c'e' fretta.
+
+[warm] Nella prossima lezione entriamo nel dettaglio della preparazione all'intervento: digiuno, tricotomia, profilassi, gestione della terapia domiciliare e consenso. A tra poco.

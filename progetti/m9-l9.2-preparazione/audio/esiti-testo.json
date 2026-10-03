@@ -1,0 +1,73 @@
+{
+ "A": {
+  "parole_copione": 672,
+  "parole_dette": 672,
+  "coincidenti": 667,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "allergie",
+    "detto": "allergia"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 618,
+  "parole_dette": 621,
+  "coincidenti": 612,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "premedicazione",
+    "detto": "premeditazione"
+   },
+   {
+    "blocco": "s34",
+    "copione": "premedicazione",
+    "detto": "premeditazione"
+   },
+   {
+    "blocco": "s37",
+    "copione": "dei",
+    "detto": "di"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "prericovero",
+    "detto": "pre ricovero"
+   }
+  ]
+ }
+}

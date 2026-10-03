@@ -1,0 +1,63 @@
+{
+ "A": {
+  "parole_copione": 656,
+  "parole_dette": 655,
+  "coincidenti": 654,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "pre operatorio",
+    "detto": "preoperatorio"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 581,
+  "parole_dette": 580,
+  "coincidenti": 571,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "time out",
+    "detto": "timeout"
+   },
+   {
+    "blocco": "s44",
+    "copione": "colorettale",
+    "detto": "colo rettale"
+   },
+   {
+    "blocco": "s46",
+    "copione": "time out",
+    "detto": "timeout"
+   },
+   {
+    "blocco": "s48",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
