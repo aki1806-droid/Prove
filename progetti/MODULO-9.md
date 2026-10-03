@@ -12,7 +12,7 @@ si riempie man mano che le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 9.1 | Il percorso perioperatorio | — |  |
+| 9.1 | Il percorso perioperatorio | 8:12.1 | `d8a4dbaa397c9b75af4d96dce567a5db` |
 | 9.2 | La preparazione all'intervento | — |  |
 | 9.3 | Anestesia e sorveglianza intraoperatoria | — |  |
 | 9.4 | Il post-operatorio immediato | — |  |
