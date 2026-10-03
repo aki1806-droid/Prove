@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo nove ricomponendolo lungo una linea del tempo: dalla decisione chirurgica alla ripresa a casa, tappa per tappa."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ogni tappa, che cosa fa l'infermiere, che cosa puo' andare storto e come si previene. E' la struttura ideale anche per rispondere a una traccia sull'assistenza al paziente chirurgico."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se all'orale ti chiedono «il paziente chirurgico», non partire da una lista: parti dal tempo. Prima, durante, subito dopo, nei giorni successivi, a casa."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima. Accertamento, classe ASA, ricognizione della terapia. Digiuno: solidi sei ore, liquidi chiari due. Che cosa puo' andare storto: un'inalazione, o un digiuno inutile dalla mezzanotte."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tricotomia solo se necessaria, con clipper, il giorno stesso. Doccia preoperatoria. Profilassi antitrombotica. Che cosa si previene: l'infezione del sito, la trombosi."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terapia: beta-bloccanti continuati, anticoagulanti e antidiabetici secondo protocollo. Consenso verificato: lo acquisisce il medico, l'infermiere controlla che ci sia, completo e firmato."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Educazione a respiro, tosse, alzata e dolore: si impara quando non fa male. E gestione dell'ansia, che riduce il dolore successivo e la nausea."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante. La check-list: sign in prima dell'induzione, time out prima dell'incisione, sign out prima dell'uscita. Profilassi antibiotica entro sessanta minuti dall'incisione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posizionamento e protezione di nervi, occhi e cute: il peroneo nella litotomica, il plesso brachiale oltre i novanta gradi, le lesioni da pressione che iniziano in sala e si vedono giorni dopo."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Normotermia da trentasei gradi: l'ipotermia porta infezioni e sanguinamento. Conta all'inizio, alla chiusura della cavita', alla chiusura della cute e a ogni cambio di personale. Piastra neutra su un muscolo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Subito dopo. Consegna SBAR. A-B-C: ostruzione da lingua, saturazione, pressione, perdite. Aldrete almeno nove per il trasferimento in reparto. Che cosa puo' andare storto: la lingua che chiude le vie aeree."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nausea e vomito con i fattori di Apfel: donna, non fumatore, storia di nausea, oppioidi. Dolore multimodale, valutato anche in movimento. Peridurale: blocco motorio in aumento e' un allarme."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alimentazione precoce. Prima alzata accompagnata, in due tempi, perche' l'ipotensione ortostatica e' frequente. Minzione entro sei-otto ore, e se non arriva, il bladder scanner prima del catetere."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei giorni successivi, le complicanze con la loro cronologia. Prime ore: emorragia, con la tachicardia che precede l'ipotensione. Primo-secondo giorno: atelettasia, la complicanza che l'infermiere previene da solo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo-quinto: polmonite e vie urinarie. Quinto-settimo: ferita. Quinto-decimo: deiscenza. Trombosi ed embolia in ogni momento. E sotto tutto, il riconoscimento precoce: parametri, NEWS2, ascoltare il paziente."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la febbre con le cinque W: wind, water, wound, walking, wonder drugs. Il giorno della febbre dice dove guardare."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le specificita'. Protesi d'anca: no flessione oltre novanta, no adduzione, no intrarotazione; lussazione con arto accorciato e ruotato. Femore entro quarantotto ore. Gesso: controllo neurovascolare, ripetuto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sindrome compartimentale: dolore sproporzionato allo stiramento passivo, e il polso assente e' tardivo. Trazioni: pesi liberi. Carotide: neurologico e collo, per l'ictus e per l'ematoma."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prostata: iponatriemia da riassorbimento. Tiroide: ematoma, calcio, voce. Day surgery: accompagnatore, niente guida per ventiquattro ore, e un contatto telefonico il giorno dopo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A casa. Dimissione pianificata dall'ingresso, ordinaria o protetta tramite la COT. Lettera infermieristica con ferita, dispositivi, educazione fatta e da fare, caregiver."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Educazione a ferita, dispositivi, terapia con riconciliazione, prevenzione della trombosi, vita quotidiana. Follow-up e contatti, verificati con il teach-back."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa puo' andare storto: una riammissione per un'infezione non riconosciuta, una trombosi per un'eparina mai iniziata, una caduta in una casa non preparata. Si previene prima, in reparto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le confusioni che costano piu' punti. Il digiuno dalla mezzanotte non e' lo standard: liquidi chiari fino a due ore prima. Rasoio no, clipper si', e il giorno stesso, non la sera prima."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sign in prima dell'induzione, time out prima dell'incisione: due momenti diversi, due domande diverse. Strumentista sterile, infermiere di sala non sterile: chi passa i ferri e chi fa la conta ad alta voce con lui."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipotensione e' un segno tardivo dell'emorragia, e il polso assente un segno tardivo della sindrome compartimentale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Aspettare il segno tardivo significa arrivare tardi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I casi. Time out senza conferma della profilassi: si verifica prima dell'incisione. Caffe' la mattina dell'intervento: dipende dal protocollo, e si documenta l'orario."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tachicardia e drenaggio ematico dopo due ore: emorragia, e si avvisa prima che la pressione scenda. Desaturazione e febbricola in seconda giornata: atelettasia, e si riparte dal dolore."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dispnea improvvisa in sesta giornata dopo una protesi d'anca: embolia. Piede cadente dopo litotomica: peroneo. Dolore sproporzionato sotto il gesso: sindrome compartimentale."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette casi, sette risposte in una riga: all'orale, la prima parola giusta vale piu' di un discorso lungo. Poi si aggiunge che cosa si fa."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli. Il bundle per le infezioni del sito chirurgico con le lezioni quattro punto uno e sette punto quattro. Drenaggi e ferite con il modulo sette."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trombosi con la tre punto due. Analgesia e PCA con la tre punto sette e la cinque punto sei. La trasfusione con la sei punto sei."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La riconciliazione con la cinque punto quattro. La dimissione protetta con la due punto sette e la undici punto sette. Un modulo non vive da solo: le domande saltano da uno all'altro."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli agganci veneti. La check-list di sala adottata nelle aziende. I percorsi ERAS. Il prericovero, dove si fanno esami ed educazione prima dell'ingresso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La recovery room e il servizio per il dolore acuto. I percorsi ortogeriatrici e l'indicatore del femore entro quarantotto ore. Le dimissioni protette con le COT. Ogni aggancio vale una frase in piu' all'orale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Test del modulo, trenta domande, soglia ventuno. Disegna a memoria la linea del tempo con le complicanze: se la sai disegnare, la sai raccontare."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel quaderno: check-list, digiuno, Aldrete, Apfel, precauzioni dell'anca. Cinque schede, cinque numeri o liste che i concorsi chiedono cosi' come sono, senza ragionamento: o le sai, o no."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E scrivi il caso dell'emorragia postoperatoria con lo schema in cinque passi: che cosa vedo, che cosa penso, che cosa faccio subito, chi avviso, che cosa documento."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frase del modulo: molte complicanze del post-operatorio si prevengono nel pre-operatorio."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[thoughtful] Molte complicanze del post-operatorio si prevengono nel pre-operatorio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione al respiro previene l'atelettasia, la tricotomia corretta previene l'infezione, la pianificazione della dimissione previene la riammissione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il motivo per cui questo modulo e' iniziato dal percorso e dalla preparazione, e non dalla sala operatoria: il lavoro migliore dell'infermiere chirurgico spesso non si vede, perche' evita qualcosa."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se all'orale ti chiedono il ruolo dell'infermiere nel percorso chirurgico, una risposta che riassume tutto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere prepara la persona, la protegge quando non puo' proteggersi da sola, la rimette in piedi e la rimanda a casa capace di gestirsi."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro verbi, quattro tappe della linea del tempo: preparare, proteggere, rimettere in piedi, rimandare a casa. Se ricordi questi, ricordi il modulo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel prossimo modulo entriamo nell'emergenza: triage, valutazione ABCDE, rianimazione cardiopolmonare, shock e sepsi, emergenze pediatriche e ostetriche, trauma e maxi-emergenze."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ABC del risveglio che abbiamo visto nella nove punto quattro e' lo stesso ABCDE con cui si valuta ogni paziente critico: da li' ripartiamo."
+ },
+ {
+  "id": "s49",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E' il modulo degli algoritmi, e dei minuti che contano. Ci vediamo li'."
+ }
+]

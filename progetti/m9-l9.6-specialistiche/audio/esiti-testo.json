@@ -1,0 +1,88 @@
+{
+ "A": {
+  "parole_copione": 582,
+  "parole_dette": 582,
+  "coincidenti": 575,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "intrarotazione ee",
+    "detto": "intra rotazione e"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 614,
+  "parole_dette": 617,
+  "coincidenti": 605,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s27",
+    "copione": "controlaterale",
+    "detto": "contro laterale"
+   },
+   {
+    "blocco": "s34",
+    "copione": "iponatriemia",
+    "detto": "iponatremia"
+   },
+   {
+    "blocco": "s36",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s37",
+    "copione": "chvostek",
+    "detto": "vostek"
+   },
+   {
+    "blocco": "s37",
+    "copione": "trousseau",
+    "detto": "trusseau"
+   },
+   {
+    "blocco": "s37",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s47",
+    "copione": "intrarotazione",
+    "detto": "intra rotazione"
+   },
+   {
+    "blocco": "s48",
+    "copione": "iponatriemia",
+    "detto": "iponatremia"
+   }
+  ]
+ }
+}

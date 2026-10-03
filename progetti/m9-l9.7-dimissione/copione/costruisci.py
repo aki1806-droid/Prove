@@ -4,74 +4,72 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Ogni chirurgia specialistica ha le sue attenzioni specifiche, che si aggiungono all'assistenza perioperatoria generale: tutto quello che abbiamo visto finora vale, e qui si aggiunge il resto."),
- (1,"chiaro",0,"Le vediamo una per una, puntando su cio' che i concorsi chiedono piu' spesso: la protesi d'anca e le sue precauzioni, i gessi e la sindrome compartimentale, e alcune complicanze caratteristiche di altre chirurgie."),
+ (1,"chiaro",0,"[warm] La dimissione non e' la fine del percorso chirurgico: e' il passaggio a una fase in cui la persona e i familiari gestiscono da soli cio' che in ospedale gestivano i professionisti."),
+ (1,"chiaro",0,"La ferita, i farmaci, il movimento, i segnali d'allarme: tutto quello che in reparto faceva l'infermiere, da domani lo fa la persona, o chi le sta accanto."),
+ (1,"chiaro",0,"Molte riammissioni nascono da una dimissione affrettata o da un'educazione incompleta. Questa lezione risponde a una domanda che compare spesso all'orale: come si dimette bene un paziente?"),
 
- (2,"chiaro",0,"La protesi d'anca. Nelle prime settimane il rischio principale e' la lussazione: la testa della protesi esce dalla sua sede."),
- (2,"chiaro",0,"Le precauzioni dipendono dall'accesso chirurgico, e per l'accesso posteriore, il piu' classico nei manuali, sono tre."),
- (2,"chiaro",0,"Niente flessione dell'anca oltre i novanta gradi: quindi sedie alte e rialzo per il water, niente sedie basse ne' chinarsi per allacciare le scarpe."),
- (2,"chiaro",0,"Niente adduzione oltre la linea mediana: per questo, a letto, si usa un cuscino abduttore fra le gambe. Niente intrarotazione. E non si accavallano le gambe."),
+ (2,"chiaro",0,"Il principio: la dimissione si pianifica dall'ingresso, anzi spesso dal prericovero, quando la persona e' ancora lucida e ha tempo per capire."),
+ (2,"profondo",1.2,"[serious] La dimissione si pianifica dall'ingresso."),
+ (2,"chiaro",0,"Si valutano precocemente i bisogni che la persona avra' a casa: autonomia, supporto familiare, abitazione, dispositivi, anche con strumenti di screening del rischio di dimissione difficile, come l'indice BRASS."),
+ (2,"chiaro",0,"Se si scopre il giorno della dimissione che la persona vive sola al terzo piano senza ascensore, e' troppo tardi: i servizi hanno bisogno di giorni per attivarsi, non di ore."),
 
- (3,"chiaro",0,"I segni di lussazione: dolore improvviso, arto accorciato e ruotato, impossibilita' di muoverlo, spesso dopo un movimento scorretto o una torsione. Si avvisa subito."),
- (3,"chiaro",0,"Per il resto: mobilizzazione precoce, insieme al fisioterapista, con il carico consentito dal chirurgo; prevenzione delle cadute."),
- (3,"chiaro",0,"E profilassi antitrombotica, perche' la chirurgia protesica dell'arto inferiore e' fra le piu' a rischio, come abbiamo visto nel caso della lezione precedente."),
+ (3,"chiaro",0,"Due tipi di dimissione. Ordinaria: la persona torna a casa autonoma, o con un supporto familiare sufficiente per i bisogni che restano: una medicazione, qualche iniezione, un controllo."),
+ (3,"chiaro",0,"Protetta: la persona ha bisogni sanitari o socio-sanitari che richiedono la presa in carico dei servizi territoriali, perche' a casa, da sola o con la famiglia, non ce la farebbe."),
+ (3,"chiaro",0,"La dimissione protetta si attiva in anticipo, oggi spesso attraverso la Centrale Operativa Territoriale, la COT, che fa da regia fra ospedale e territorio."),
+ (3,"chiaro",0,"E puo' portare all'assistenza domiciliare integrata, a una struttura intermedia come l'Ospedale di Comunita', o alla residenzialita'. Lo vedremo nella lezione undici punto sette."),
 
- (4,"chiaro",0,"La protesi di ginocchio: mobilizzazione precoce, recupero progressivo della flessione, ghiaccio, e soprattutto un controllo del dolore che permetta la riabilitazione, perche' il ginocchio protesico e' molto doloroso."),
- (4,"chiaro",0,"La frattura di femore nell'anziano: l'intervento entro quarantotto ore dall'arrivo in ospedale e' un indicatore di qualita' monitorato a livello nazionale, perche' il ritardo aumenta mortalita' e complicanze."),
- (4,"chiaro",0,"E' un paziente ad alto rischio di delirium, lesioni da pressione e malnutrizione, e beneficia di un approccio ortogeriatrico, condiviso fra ortopedico e geriatra."),
+ (4,"chiaro",0,"La lettera infermieristica di dimissione, che abbiamo visto nella lezione due punto sette e che nel paziente chirurgico ha contenuti specifici."),
+ (4,"chiaro",0,"I bisogni assistenziali residui, l'autonomia e gli ausili, la ferita: aspetto, medicazione in uso, frequenza del cambio, data di rimozione dei punti. Tutto cio' che chi arriva dopo deve sapere senza chiedere."),
+ (4,"chiaro",0,"I dispositivi presenti, l'educazione erogata e quella ancora da completare, il caregiver di riferimento, i contatti."),
+ (4,"chiaro",0,"E' il documento con cui l'infermiere del territorio riprende il filo: senza, ricomincia da zero, e la persona racconta tutto per la terza volta."),
 
- (5,"chiaro",0,"Il gesso. L'attivita' principale e' il controllo neurovascolare dell'arto, ripetuto: colorito, temperatura, polso, riempimento capillare, sensibilita', motilita' delle dita. Si solleva l'arto per ridurre l'edema."),
- (5,"chiaro",0,"Il gesso fresco non si copre, per farlo asciugare, e si maneggia con il palmo della mano, non con le dita, che lascerebbero impronte e punti di pressione interni."),
- (5,"chiaro",0,"Non si infila nulla sotto il gesso per grattarsi. E si segnalano dolore, odore, secrezioni, sensazione di gesso troppo stretto."),
+ (5,"chiaro",0,"I contenuti dell'educazione. La ferita: igiene delle mani prima di toccare la medicazione, quando si puo' fare la doccia, come e quando cambiare la medicazione, e che cosa e' normale vedere nei primi giorni."),
+ (5,"chiaro",0,"E soprattutto i segni di infezione: rossore che si estende, calore, gonfiore, secrezione, dolore in aumento, febbre. E quelli di deiscenza: la ferita che si apre, il liquido abbondante."),
+ (5,"chiaro",0,"Molte infezioni del sito chirurgico compaiono a casa, come abbiamo detto nella lezione sette punto quattro: riconoscerle presto dipende da questo momento."),
 
- (6,"chiaro",0,"La sindrome compartimentale, l'emergenza che i concorsi chiedono. Dopo una frattura, un intervento o sotto un gesso, la pressione in un compartimento muscolare chiuso aumenta fino a bloccare la circolazione."),
- (6,"chiaro",0,"Il segno precoce e piu' importante e' un dolore sproporzionato rispetto alla lesione, che aumenta con lo stiramento passivo dei muscoli, per esempio estendendo passivamente le dita. Poi parestesie, pallore, deficit motorio."),
- (6,"chiaro",0,"L'assenza del polso e' un segno tardivo: aspettarlo significa arrivare tardi."),
- (6,"profondo",1.2,"[serious] L'assenza del polso e' un segno tardivo."),
- (6,"chiaro",0,"E' un'emergenza: si avvisa subito, e si allenta o si apre il gesso secondo indicazione. In questo caso l'arto non si solleva oltre il livello del cuore, perche' ridurrebbe ulteriormente la perfusione."),
+ (6,"chiaro",0,"I dispositivi. Se la persona torna a casa con un drenaggio, deve saperlo svuotare, misurare e annotare la quantita' e l'aspetto, mantenerlo fissato e riconoscere i segni d'allarme."),
+ (6,"chiaro",0,"Lo stesso vale per catetere, stomia, PICC: ogni dispositivo ha i suoi gesti quotidiani e i suoi segnali da riconoscere, e ognuno va insegnato con il dispositivo in mano, non a parole."),
+ (6,"chiaro",0,"E la verifica non si fa chiedendo «ha capito?», ma facendo eseguire la manovra: e' il teach-back della lezione due punto sette, nella sua forma pratica."),
 
- (7,"chiaro",0,"Le trazioni. I pesi devono pendere liberi, mai appoggiati a terra o al letto, e le corde scorrere libere nelle carrucole, altrimenti la trazione non agisce."),
- (7,"chiaro",0,"Si mantiene l'allineamento del corpo, e i pesi non si tolgono senza indicazione, nemmeno per l'igiene: un peso sollevato per un minuto e' un minuto di trazione persa."),
- (7,"chiaro",0,"Nella trazione scheletrica si curano i punti di inserzione dei chiodi con tecnica asettica, sorvegliando i segni di infezione. E si prevengono tutte le complicanze dell'immobilita' della lezione tre punto due."),
+ (7,"chiaro",0,"La terapia. Alla dimissione si esegue la riconciliazione della Raccomandazione diciassette: quali farmaci sono nuovi, quali sospesi, quali modificati rispetto a prima del ricovero."),
+ (7,"chiaro",0,"E quando riprendere quelli sospesi per l'intervento, come anticoagulanti e antiaggreganti: una data precisa, scritta, non un «quando se la sente». Un anticoagulante dimenticato e' una trombosi a casa."),
+ (7,"chiaro",0,"Se la persona deve fare l'eparina a casa, si insegna la tecnica di autosomministrazione, la durata della terapia e lo smaltimento degli aghi."),
+ (7,"chiaro",0,"Per gli analgesici: orari, dose massima del paracetamolo, e prevenzione della stipsi se prende oppioidi. Il dolore a casa si tratta a orario, non quando diventa insopportabile."),
 
- (8,"chiaro",0,"La chirurgia addominale riprende quasi tutto cio' che abbiamo visto: il sondino, i drenaggi, la ripresa della canalizzazione e l'ileo, le stomie."),
- (8,"chiaro",0,"Il sostegno della ferita nella tosse e nei movimenti, e il rischio di deiscenza ed eviscerazione. E' la chirurgia in cui l'ERAS ha mostrato i benefici piu' chiari: meno giorni di degenza, meno ileo, meno complicanze."),
+ (8,"chiaro",0,"La vita quotidiana. La mobilizzazione e l'attivita' fisica progressiva: che cosa si puo' fare oggi, e che cosa fra una settimana. Le precauzioni specifiche, come quelle della protesi d'anca. Alimentazione e idratazione."),
+ (8,"chiaro",0,"Quando riprendere il lavoro, la guida, i rapporti sessuali: sono le domande che la persona spesso non fa, e che aspetta."),
+ (8,"chiaro",0,"E la prevenzione della trombosi, che a casa dipende dalla persona: camminare, fare gli esercizi delle gambe, bere. E sapere che una gamba gonfia e dolente va fatta vedere, subito."),
 
- (9,"chiaro",0,"La chirurgia vascolare. Dopo una rivascolarizzazione dell'arto si controllano i polsi distali, colorito, temperatura, sensibilita' e motilita', confrontandoli con l'arto controlaterale e con i valori di prima."),
- (9,"chiaro",0,"La scomparsa di un polso prima presente e' un'urgenza. Si sorveglia il sanguinamento."),
- (9,"chiaro",0,"E dopo l'endoarteriectomia carotidea, due controlli specifici: la valutazione neurologica, per il rischio di ictus, e il collo, perche' un ematoma puo' comprimere le vie aeree."),
+ (9,"chiaro",0,"Il follow-up. Gli appuntamenti di controllo, con il chirurgo, per la rimozione dei punti, per le medicazioni. Gli esami da eseguire, con la data e il luogo, non «fra qualche settimana»."),
+ (9,"chiaro",0,"I numeri di telefono per i problemi, scritti in modo chiaro: chi chiamare di giorno, chi di notte. Il ruolo del medico di medicina generale e dell'infermiere di famiglia e comunita'."),
+ (9,"chiaro",0,"E in molte realta' un contatto telefonico infermieristico nei giorni successivi, che intercetta i problemi prima che diventino un ritorno in pronto soccorso: una telefonata costa meno di una riammissione."),
 
- (10,"chiaro",0,"La chirurgia toracica. Il drenaggio toracico, con le regole della lezione sette punto sette. La fisioterapia respiratoria, lo spirometro incentivante, la tosse assistita: il polmone operato deve espandersi."),
- (10,"chiaro",0,"Un'analgesia efficace, spesso con peridurale toracica o blocchi nervosi, perche' il dolore toracico impedisce di respirare. E la mobilizzazione precoce del braccio e della spalla del lato operato."),
+ (10,"chiaro",0,"E come si educa bene. Si comincia presto, non il giorno della dimissione, quando la persona e' stanca e pensa solo a tornare a casa."),
+ (10,"chiaro",0,"Poche informazioni alla volta, linguaggio semplice, materiale scritto da portare a casa. Si coinvolge il caregiver, perche' spesso e' lui che fara' le cose."),
+ (10,"chiaro",0,"Si verifica con il teach-back: la persona ripete con parole sue, o mostra con le mani. Se non ci riesce, non ha capito lei: abbiamo spiegato male noi, e si ricomincia."),
+ (10,"chiaro",0,"E si tiene conto dell'alfabetizzazione sanitaria e della lingua, con il mediatore culturale quando serve: un foglio di istruzioni in italiano non serve a chi non lo legge."),
 
- (11,"chiaro",0,"La chirurgia urologica. Dopo la resezione endoscopica della prostata si usa l'irrigazione vescicale continua con catetere a tre vie, con il calcolo del bilancio della lezione otto punto quattro: drenato meno irrigato."),
- (11,"chiaro",0,"Si sorvegliano coaguli e ostruzione. E una complicanza specifica: la sindrome da riassorbimento."),
- (11,"chiaro",0,"Durante l'intervento il liquido di irrigazione puo' essere assorbito in circolo, provocando confusione, nausea, bradicardia e iponatriemia. Una confusione nuova dopo questo intervento va segnalata e fa pensare al sodio."),
+ (11,"chiaro",0,"Il caso. Anziana di ottantadue anni, vive sola, operata di protesi d'anca; dimissione prevista fra due giorni. Che cosa fai?"),
+ (11,"chiaro",0,"Valuti l'autonomia e il contesto abitativo e familiare: riesce ad alzarsi, a vestirsi, a salire le scale? C'e' qualcuno che puo' stare con lei? Sa fare un'iniezione, o c'e' chi puo' impararla?"),
+ (11,"chiaro",0,"Se i bisogni non possono essere soddisfatti a casa, segnali la necessita' di una dimissione protetta e attivi la COT secondo procedura: riabilitazione in struttura, Ospedale di Comunita' o ADI con fisioterapia e ausili."),
+ (11,"chiaro",0,"Nel frattempo educhi alle precauzioni dell'anca, alla prevenzione delle cadute e all'eparina a domicilio, verificando con il teach-back. E compili la lettera infermieristica."),
 
- (12,"chiaro",0,"La tiroidectomia, con tre complicanze da conoscere. L'ematoma del collo, che puo' comprimere le vie aeree: e' un'emergenza."),
- (12,"chiaro",0,"Si sorvegliano collo, respiro, voce, stridore, e secondo protocollo e' disponibile al letto il materiale per riaprire la ferita."),
- (12,"chiaro",0,"L'ipocalcemia, per lesione delle paratiroidi: formicolii intorno alla bocca, Chvostek e Trousseau, lezione tre punto cinque. La disfonia, per lesione del nervo laringeo ricorrente. Posizione semiseduta."),
+ (12,"chiaro",0,"In Veneto le dimissioni protette passano oggi dalle Centrali Operative Territoriali, che coordinano il passaggio fra ospedale e territorio."),
+ (12,"chiaro",0,"Verso l'ADI distrettuale, gli Ospedali di Comunita', le strutture residenziali, con l'infermiere di famiglia e comunita' come riferimento a domicilio, che conosce la persona prima che abbia un problema."),
+ (12,"chiaro",0,"E' il modello del decreto ministeriale settantasette del duemilaventidue, che approfondiremo nella lezione undici punto sette: l'ospedale cura l'acuto, il territorio prende in carico il resto."),
 
- (13,"chiaro",0,"Il day surgery: intervento e dimissione nella stessa giornata. Richiede una selezione dei pazienti, per condizioni cliniche e supporto a domicilio."),
- (13,"chiaro",0,"La persona deve avere un accompagnatore e qualcuno con se' la prima notte. La dimissione segue criteri precisi: parametri stabili, dolore controllato, nausea assente, minzione, capacita' di camminare."),
- (13,"chiaro",0,"Si consegnano istruzioni scritte, e per ventiquattro ore niente guida, niente decisioni importanti, niente alcol. Spesso il giorno dopo c'e' un contatto telefonico infermieristico."),
+ (13,"chiaro",0,"La tabella. Pianificare dall'ingresso, con lo screening della dimissione difficile. Dimissione ordinaria o protetta, tramite la COT. Lettera infermieristica con la ferita, i dispositivi, il caregiver."),
+ (13,"chiaro",0,"Educare a ferita e segni di infezione, dispositivi, terapia con riconciliazione, vita quotidiana, prevenzione della trombosi. Follow-up e contatti. E teach-back."),
 
- (14,"chiaro",0,"Il caso. Paziente con gesso all'avambraccio da sei ore; dolore fortissimo, che non risponde all'analgesico e aumenta estendendo passivamente le dita. Che cosa pensi?"),
- (14,"chiaro",0,"Sindrome compartimentale. Che cosa fai? Avvisi subito il medico, controlli il circolo distale e lo documenti."),
- (14,"chiaro",0,"Porti l'arto all'altezza del cuore, non piu' in alto, e ti prepari ad allentare o aprire il gesso secondo indicazione."),
- (14,"chiaro",0,"Non si aspetta che il polso scompaia, e non si continua ad aumentare l'analgesico: un dolore che non risponde e' un'informazione, non un fastidio da coprire."),
+ (14,"chiaro",0,"La frase della lezione: la persona dimessa bene e' quella che sa che cosa fare, e chi chiamare quando qualcosa non va. Non quella che ha ricevuto piu' fogli."),
+ (14,"profondo",1.2,"[warm] La persona dimessa bene sa che cosa fare, e chi chiamare."),
 
- (15,"chiaro",0,"In Veneto, come nel resto d'Italia, la percentuale di fratture di femore operate entro quarantotto ore e' uno degli indicatori del Programma Nazionale Esiti."),
- (15,"chiaro",0,"Le aziende hanno attivato percorsi ortogeriatrici per migliorarla. Le unita' di day surgery sono diffuse e seguono protocolli aziendali."),
-
- (16,"chiaro",0,"La tabella. Anca: no flessione oltre novanta, no adduzione, no intrarotazione; lussazione con arto accorciato e ruotato. Femore: entro quarantotto ore. Gesso: controllo neurovascolare, palmo, niente oggetti."),
- (16,"chiaro",0,"Compartimentale: dolore sproporzionato allo stiramento passivo, polso assente e' tardivo. Trazioni: pesi liberi. Carotide: neurologico e collo. Prostata: iponatriemia. Tiroide: ematoma, calcio, voce."),
-
- (17,"chiaro",0,"[warm] Nella prossima lezione chiudiamo il percorso del paziente chirurgico con la dimissione: come si pianifica, che cosa si insegna, come si garantisce la continuita' con il territorio. A tra poco."),
+ (15,"chiaro",0,"Non e' una frase di circostanza: e' il criterio con cui, all'orale, si giudica una dimissione raccontata bene."),
+ (15,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo nove lungo una linea del tempo, dalla decisione chirurgica alla ripresa a casa. A tra poco."),
 ]
 
-CAPITOLI = {1:"Apertura",2:"Protesi d'anca: la lussazione",3:"Anca: segni e mobilizzazione",4:"Ginocchio e femore",5:"Il gesso",6:"La sindrome compartimentale",7:"Le trazioni",
- 8:"Chirurgia addominale",9:"Chirurgia vascolare",10:"Chirurgia toracica",11:"Chirurgia urologica",12:"La tiroidectomia",13:"Il day surgery",14:"Il caso",15:"In Veneto",16:"La tabella",17:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Si pianifica dall'ingresso",3:"Ordinaria e protetta",4:"La lettera infermieristica",5:"Educazione: la ferita",6:"Educazione: i dispositivi",7:"Educazione: la terapia",
+ 8:"Educazione: la vita quotidiana",9:"Il follow-up",10:"Come si educa bene",11:"Il caso",12:"In Veneto",13:"La tabella",14:"La frase della lezione",15:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

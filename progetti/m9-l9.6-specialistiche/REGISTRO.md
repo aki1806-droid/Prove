@@ -14,13 +14,31 @@ Sesta lezione del Modulo 9: le specificità delle chirurgie specialistiche. Prot
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,33 (A $0,63 · B $0,70) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s20 |
 
 ```
 CARATTERI  7.977          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:03.4     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.808 car · chunk B 4.169 car)
+tracce grezze             A 259.9 s  ·  B 308.4 s
+silenzi                   fattore 1,109   ->   atempo 1,066
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**575/582 parole**, la B **605/614**, nessun buco. Le rese diverse
+(non buchi): s07 «intrarotazione ee» sentito «intra rotazione e»; s13 «e» sentito «ee»; s16 «ee» sentito «e»; s21 «e» sentito «ee»; s24 «ee» sentito «e»; s26 «e» sentito «ee»; s27 «controlaterale» sentito «contro laterale»; s34 «iponatriemia» sentito «iponatremia»; s36 «al» sentito «a»; s37 «chvostek» sentito «vostek»; s37 «trousseau» sentito «trusseau»; s37 «semiseduta» sentito «semi seduta»; s47 «intrarotazione» sentito «intra rotazione»; s48 «iponatriemia» sentito «iponatremia».
 
 ## Le scene
 

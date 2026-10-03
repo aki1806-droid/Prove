@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,360
+Le complicanze postoperatorie hanno una caratteristica utile per chi le deve riconoscere: compaiono in momenti tipici, e ogni giornata dopo l'intervento ha i suoi sospetti.
+
+2
+00:00:12,360 --> 00:00:24,430
+L'emorragia nelle prime ore, l'atelettasia nei primi giorni, l'infezione della ferita dopo qualche giorno, la trombosi piu' avanti. Conoscere questa cronologia permette di cercare la complicanza giusta al momento giusto.
+
+3
+00:00:24,430 --> 00:00:35,070
+La cronologia. Nelle prime ore: emorragia e shock, ostruzione delle vie aeree, nausea e vomito, ritenzione urinaria. Sono le complicanze dell'anestesia e della ferita appena chiusa.
+
+4
+00:00:35,070 --> 00:00:44,860
+Nei primi uno-due giorni: atelettasia e delirium. Fra il terzo e il quinto giorno: polmonite, infezione urinaria, ileo che si prolunga oltre il tempo atteso.
+
+5
+00:00:44,860 --> 00:00:54,700
+Fra il quinto e il decimo: infezione della ferita, deiscenza. E la trombosi venosa con l'embolia polmonare, possibili in ogni momento, ma piu' tipiche dopo i primi giorni.
+
+6
+00:00:54,700 --> 00:01:04,950
+La febbre postoperatoria si interpreta con una regola mnemonica inglese, quella delle cinque W: cinque parole che iniziano con la stessa lettera, una per ogni sede e per ogni giornata.
+
+7
+00:01:04,950 --> 00:01:12,600
+Wind, il vento, cioe' il polmone: primo-secondo giorno. Water, l'acqua, cioe' le vie urinarie: terzo-quinto giorno.
+
+8
+00:01:12,600 --> 00:01:22,410
+Wound, la ferita: quinto-settimo. Walking, il camminare, cioe' la trombosi venosa: dopo il quinto. Wonder drugs, i farmaci e le trasfusioni: in ogni momento.
+
+9
+00:01:22,410 --> 00:01:32,670
+E una precisazione: una febbricola nelle prime ventiquattro-quarantotto ore e' spesso solo la risposta infiammatoria all'intervento, e non richiede di cercare un'infezione.
+
+10
+00:01:32,670 --> 00:01:45,950
+L'emorragia. I segni precoci sono quelli che contano: tachicardia, agitazione, pallore, sudorazione, riempimento capillare lento, oliguria. Sono i segni del compenso: il corpo che difende gli organi vitali.
+
+11
+00:01:45,950 --> 00:01:52,990
+L'ipotensione e' un segno tardivo: quando la pressione crolla, la persona ha gia' perso molto sangue, e il compenso e' finito.
+
+12
+00:01:52,990 --> 00:01:57,590
+L'ipotensione e' un segno tardivo.
+
+13
+00:01:57,590 --> 00:02:07,430
+Le fonti: la ferita, i drenaggi, oppure un sanguinamento interno, che si sospetta con addome teso e dolente, perche' il sangue che non esce si accumula dove non si vede.
+
+14
+00:02:07,430 --> 00:02:19,270
+La condotta: avvisare subito, ossigeno, accessi venosi, prelievi con gruppo, liquidi ed emocomponenti secondo prescrizione, digiuno per un possibile reintervento, parametri ravvicinati.
+
+15
+00:02:19,270 --> 00:02:29,100
+L'atelettasia: piccole porzioni di polmone collassano perche' la persona respira in modo superficiale, per il dolore, gli oppioidi, l'immobilita', gli effetti dell'anestesia.
+
+16
+00:02:29,100 --> 00:02:39,410
+I segni: una lieve febbre, tachipnea, desaturazione, murmure ridotto alle basi, cioe' nelle parti piu' basse del polmone, dove l'aria arriva meno quando si sta sdraiati.
+
+17
+00:02:39,410 --> 00:02:48,500
+E' la complicanza in cui l'infermiere conta di piu', perche' si previene quasi del tutto: respirazione profonda, spirometro incentivante, tosse con sostegno della ferita.
+
+18
+00:02:48,500 --> 00:02:57,820
+Mobilizzazione, analgesia adeguata, posizione semiseduta. Se non si previene, evolve in polmonite: il polmone chiuso e' il polmone che si infetta.
+
+19
+00:02:57,820 --> 00:03:09,340
+Trombosi venosa profonda ed embolia polmonare. La TVP: dolore, edema monolaterale del polpaccio, calore. Monolaterale e' la parola chiave: una gamba sola, piu' grossa dell'altra.
+
+20
+00:03:09,340 --> 00:03:18,750
+L'embolia: dispnea improvvisa, dolore toracico, tachicardia, desaturazione, spesso con un'intensa ansia della persona, che sente di non respirare.
+
+21
+00:03:18,750 --> 00:03:31,260
+La prevenzione l'abbiamo vista: mobilizzazione precoce, profilassi meccanica e farmacologica, idratazione. E nel sospetto di TVP vale la regola della lezione tre punto due: non massaggiare, avvisare.
+
+22
+00:03:31,260 --> 00:03:42,160
+La ritenzione urinaria: nessuna minzione entro sei-otto ore, oppure minzioni piccole e frequenti, per rigurgito: la vescica piena che trabocca, e che inganna chi guarda solo il pannolone.
+
+23
+00:03:42,160 --> 00:03:51,390
+Il globo, il dolore sovrapubico, l'agitazione, che nell'anziano viene spesso scambiata per delirium: prima di sedare un anziano agitato, si guarda la vescica.
+
+24
+00:03:51,390 --> 00:04:01,120
+Si valuta con il bladder scanner e si procede al cateterismo secondo indicazione. Ricordi i fattori di rischio: spinale, oppioidi, chirurgia pelvica, prostata.
+
+25
+00:04:01,120 --> 00:04:13,860
+L'ileo paralitico: dopo la chirurgia addominale l'intestino rallenta, e a volte si ferma. I segni: distensione addominale, assenza di gas e feci, nausea, vomito, peristalsi assente all'auscultazione.
+
+26
+00:04:13,860 --> 00:04:22,230
+Si previene con gli strumenti dell'ERAS: mobilizzazione e alimentazione precoci, meno oppioidi, che rallentano l'intestino, equilibrio dei liquidi.
+
+27
+00:04:22,230 --> 00:04:32,970
+Il trattamento e' su prescrizione: digiuno, a volte un sondino naso-gastrico in aspirazione, e correzione degli elettroliti, soprattutto del potassio, la cui carenza rallenta l'intestino.
+
+28
+00:04:32,970 --> 00:04:40,470
+L'infezione della ferita e la deiscenza, che abbiamo approfondito nella lezione sette punto quattro: qui le collochiamo nel tempo.
+
+29
+00:04:40,470 --> 00:04:49,720
+L'infezione: fra il quinto e il settimo giorno, con rossore che si estende, dolore che aumenta invece di diminuire, essudato purulento, febbre.
+
+30
+00:04:49,720 --> 00:04:58,540
+La deiscenza: fra il quinto e il decimo, preannunciata da un abbondante liquido siero-ematico. E l'eviscerazione, con la sua sequenza di emergenza.
+
+31
+00:04:58,540 --> 00:05:08,840
+E le altre complicanze, che non vanno dimenticate. Il delirium dell'anziano, nei primi tre giorni. Le lesioni da pressione, al sacro e ai talloni, che iniziano in sala operatoria.
+
+32
+00:05:08,840 --> 00:05:18,910
+L'iperglicemia da stress, anche in chi non e' diabetico. Gli squilibri elettrolitici, per le perdite, i liquidi infusi, il digiuno: si leggono gli esami, non solo i parametri.
+
+33
+00:05:18,910 --> 00:05:27,070
+Le infezioni da dispositivi: il catetere vescicale e il catetere venoso centrale, che vanno rimossi appena possibile. La stipsi da oppioidi.
+
+34
+00:05:27,070 --> 00:05:38,110
+Il filo comune e' il riconoscimento precoce. Parametri a intervalli definiti, un punteggio di allerta precoce come la NEWS2, che trasforma i parametri in un numero e il numero in un'azione.
+
+35
+00:05:38,110 --> 00:05:49,360
+E poi una cosa che non compare negli strumenti: ascoltare il paziente. Un «non mi sento bene», un'ansia nuova, una confusione improvvisa spesso precedono di ore l'alterazione dei parametri.
+
+36
+00:05:49,360 --> 00:05:58,640
+Si guarda il trend, non il singolo valore: una frequenza di cento che ieri era settanta dice piu' di una frequenza di cento da sola. E si segnala con lo SBAR.
+
+37
+00:05:58,640 --> 00:06:09,410
+Due casi. Primo: secondo giorno dopo una colectomia; febbre a trentasette e nove, frequenza respiratoria ventiquattro, saturazione novantadue, murmure ridotto alle basi.
+
+38
+00:06:09,410 --> 00:06:17,560
+E il paziente e' rimasto a letto per il dolore. Che cosa pensi? Atelettasia: e' il secondo giorno, e' il polmone. Wind, la prima W.
+
+39
+00:06:17,560 --> 00:06:30,940
+Che cosa fai? Avvisi il medico, ossigeno secondo prescrizione, posizione semiseduta, analgesia adeguata, perche' il problema nasce dal dolore. Spirometro incentivante, tosse con sostegno della ferita, mobilizzazione.
+
+40
+00:06:30,940 --> 00:06:41,180
+Secondo: sesto giorno dopo una protesi d'anca; improvvisa dispnea, dolore toracico, frequenza centodiciotto, saturazione ottantotto, paziente molto ansioso.
+
+41
+00:06:41,180 --> 00:06:51,780
+Che cosa pensi? Embolia polmonare, fino a prova contraria: l'ortopedia dell'arto inferiore e' uno dei contesti a piu' alto rischio trombotico, e il sesto giorno e' il momento tipico.
+
+42
+00:06:51,780 --> 00:07:02,240
+Che cosa fai? Avvisi subito il medico, ossigeno, posizione semiseduta, monitoraggio, accesso venoso, prelievi, ECG, e prepari gli esami diagnostici.
+
+43
+00:07:02,240 --> 00:07:10,130
+Non attribuire la dispnea all'ansia: qui l'ansia e' un sintomo, non la causa. Un paziente che dice di non respirare va creduto.
+
+44
+00:07:10,130 --> 00:07:19,350
+Nelle aziende venete il riconoscimento precoce del deterioramento e' supportato da sistemi di allerta e da equipe di risposta rapida, che vedremo nel modulo dieci.
+
+45
+00:07:19,350 --> 00:07:32,150
+Da protocolli di profilassi antitrombotica e dalla sorveglianza delle infezioni del sito chirurgico. In molte realta' esistono percorsi ortogeriatrici per l'anziano operato, dove delirium e complicanze sono piu' frequenti.
+
+46
+00:07:32,150 --> 00:07:43,870
+La tabella. Prime ore: emorragia, con la tachicardia che precede l'ipotensione. Primo-secondo giorno: atelettasia, con spirometro e mobilizzazione. Terzo-quinto: polmonite e urine.
+
+47
+00:07:43,870 --> 00:07:54,650
+Quinto-settimo: ferita. Quinto-decimo: deiscenza. Dopo il quinto: trombosi. Embolia: dispnea improvvisa. Ileo: distensione, e controllo del potassio.
+
+48
+00:07:54,650 --> 00:08:08,000
+Una frase per chiudere: cercare la complicanza giusta al momento giusto. Nella prossima lezione, le chirurgie specialistiche: ortopedia, addominale, vascolare, toracica, urologica, e il day surgery. A tra poco.
