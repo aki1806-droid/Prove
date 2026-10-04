@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:10,150
+Chiudiamo il modulo nove ricomponendolo lungo una linea del tempo: dalla decisione chirurgica alla ripresa a casa, tappa per tappa.
+
+2
+00:00:10,150 --> 00:00:19,560
+Per ogni tappa, che cosa fa l'infermiere, che cosa puo' andare storto e come si previene. E' la struttura ideale anche per rispondere a una traccia sull'assistenza al paziente chirurgico.
+
+3
+00:00:19,560 --> 00:00:28,730
+Se all'orale ti chiedono «il paziente chirurgico», non partire da una lista: parti dal tempo. Prima, durante, subito dopo, nei giorni successivi, a casa.
+
+4
+00:00:28,730 --> 00:00:40,930
+Prima. Accertamento, classe ASA, ricognizione della terapia. Digiuno: solidi sei ore, liquidi chiari due. Che cosa puo' andare storto: un'inalazione, o un digiuno inutile dalla mezzanotte.
+
+5
+00:00:40,930 --> 00:00:51,280
+Tricotomia solo se necessaria, con clipper, il giorno stesso. Doccia preoperatoria. Profilassi antitrombotica. Che cosa si previene: l'infezione del sito, la trombosi.
+
+6
+00:00:51,280 --> 00:01:03,010
+Terapia: beta-bloccanti continuati, anticoagulanti e antidiabetici secondo protocollo. Consenso verificato: lo acquisisce il medico, l'infermiere controlla che ci sia, completo e firmato.
+
+7
+00:01:03,010 --> 00:01:12,000
+Educazione a respiro, tosse, alzata e dolore: si impara quando non fa male. E gestione dell'ansia, che riduce il dolore successivo e la nausea.
+
+8
+00:01:12,000 --> 00:01:22,920
+Durante. La check-list: sign in prima dell'induzione, time out prima dell'incisione, sign out prima dell'uscita. Profilassi antibiotica entro sessanta minuti dall'incisione.
+
+9
+00:01:22,920 --> 00:01:34,440
+Posizionamento e protezione di nervi, occhi e cute: il peroneo nella litotomica, il plesso brachiale oltre i novanta gradi, le lesioni da pressione che iniziano in sala e si vedono giorni dopo.
+
+10
+00:01:34,440 --> 00:01:46,630
+Normotermia da trentasei gradi: l'ipotermia porta infezioni e sanguinamento. Conta all'inizio, alla chiusura della cavita', alla chiusura della cute e a ogni cambio di personale. Piastra neutra su un muscolo.
+
+11
+00:01:46,630 --> 00:01:59,890
+Subito dopo. Consegna SBAR. A-B-C: ostruzione da lingua, saturazione, pressione, perdite. Aldrete almeno nove per il trasferimento in reparto. Che cosa puo' andare storto: la lingua che chiude le vie aeree.
+
+12
+00:01:59,890 --> 00:02:12,010
+Nausea e vomito con i fattori di Apfel: donna, non fumatore, storia di nausea, oppioidi. Dolore multimodale, valutato anche in movimento. Peridurale: blocco motorio in aumento e' un allarme.
+
+13
+00:02:12,010 --> 00:02:24,130
+Alimentazione precoce. Prima alzata accompagnata, in due tempi, perche' l'ipotensione ortostatica e' frequente. Minzione entro sei-otto ore, e se non arriva, il bladder scanner prima del catetere.
+
+14
+00:02:24,130 --> 00:02:36,490
+Nei giorni successivi, le complicanze con la loro cronologia. Prime ore: emorragia, con la tachicardia che precede l'ipotensione. Primo-secondo giorno: atelettasia, la complicanza che l'infermiere previene da solo.
+
+15
+00:02:36,490 --> 00:02:50,800
+Terzo-quinto: polmonite e vie urinarie. Quinto-settimo: ferita. Quinto-decimo: deiscenza. Trombosi ed embolia in ogni momento. E sotto tutto, il riconoscimento precoce: parametri, NEWS2, ascoltare il paziente.
+
+16
+00:02:50,800 --> 00:02:58,810
+E la febbre con le cinque W: wind, water, wound, walking, wonder drugs. Il giorno della febbre dice dove guardare.
+
+17
+00:02:58,810 --> 00:03:12,920
+Le specificita'. Protesi d'anca: no flessione oltre novanta, no adduzione, no intrarotazione; lussazione con arto accorciato e ruotato. Femore entro quarantotto ore. Gesso: controllo neurovascolare, ripetuto.
+
+18
+00:03:12,920 --> 00:03:24,720
+Sindrome compartimentale: dolore sproporzionato allo stiramento passivo, e il polso assente e' tardivo. Trazioni: pesi liberi. Carotide: neurologico e collo, per l'ictus e per l'ematoma.
+
+19
+00:03:24,720 --> 00:03:36,200
+Prostata: iponatriemia da riassorbimento. Tiroide: ematoma, calcio, voce. Day surgery: accompagnatore, niente guida per ventiquattro ore, e un contatto telefonico il giorno dopo.
+
+20
+00:03:36,200 --> 00:03:47,140
+A casa. Dimissione pianificata dall'ingresso, ordinaria o protetta tramite la COT. Lettera infermieristica con ferita, dispositivi, educazione fatta e da fare, caregiver.
+
+21
+00:03:47,140 --> 00:03:57,070
+Educazione a ferita, dispositivi, terapia con riconciliazione, prevenzione della trombosi, vita quotidiana. Follow-up e contatti, verificati con il teach-back.
+
+22
+00:03:57,070 --> 00:04:08,460
+Che cosa puo' andare storto: una riammissione per un'infezione non riconosciuta, una trombosi per un'eparina mai iniziata, una caduta in una casa non preparata. Si previene prima, in reparto.
+
+23
+00:04:08,460 --> 00:04:19,310
+Le confusioni che costano piu' punti. Il digiuno dalla mezzanotte non e' lo standard: liquidi chiari fino a due ore prima. Rasoio no, clipper si', e il giorno stesso, non la sera prima.
+
+24
+00:04:19,310 --> 00:04:32,210
+Sign in prima dell'induzione, time out prima dell'incisione: due momenti diversi, due domande diverse. Strumentista sterile, infermiere di sala non sterile: chi passa i ferri e chi fa la conta ad alta voce con lui.
+
+25
+00:04:32,210 --> 00:04:39,270
+L'ipotensione e' un segno tardivo dell'emorragia, e il polso assente un segno tardivo della sindrome compartimentale.
+
+26
+00:04:39,270 --> 00:04:43,870
+Aspettare il segno tardivo significa arrivare tardi.
+
+27
+00:04:43,870 --> 00:04:53,370
+I casi. Time out senza conferma della profilassi: si verifica prima dell'incisione. Caffe' la mattina dell'intervento: dipende dal protocollo, e si documenta l'orario.
+
+28
+00:04:53,370 --> 00:05:04,190
+Tachicardia e drenaggio ematico dopo due ore: emorragia, e si avvisa prima che la pressione scenda. Desaturazione e febbricola in seconda giornata: atelettasia, e si riparte dal dolore.
+
+29
+00:05:04,190 --> 00:05:14,770
+Dispnea improvvisa in sesta giornata dopo una protesi d'anca: embolia. Piede cadente dopo litotomica: peroneo. Dolore sproporzionato sotto il gesso: sindrome compartimentale.
+
+30
+00:05:14,770 --> 00:05:22,690
+Sette casi, sette risposte in una riga: all'orale, la prima parola giusta vale piu' di un discorso lungo. Poi si aggiunge che cosa si fa.
+
+31
+00:05:22,690 --> 00:05:32,290
+I fili con gli altri moduli. Il bundle per le infezioni del sito chirurgico con le lezioni quattro punto uno e sette punto quattro. Drenaggi e ferite con il modulo sette.
+
+32
+00:05:32,290 --> 00:05:40,600
+La trombosi con la tre punto due. Analgesia e PCA con la tre punto sette e la cinque punto sei. La trasfusione con la sei punto sei.
+
+33
+00:05:40,600 --> 00:05:51,390
+La riconciliazione con la cinque punto quattro. La dimissione protetta con la due punto sette e la undici punto sette. Un modulo non vive da solo: le domande saltano da uno all'altro.
+
+34
+00:05:51,390 --> 00:06:00,760
+Gli agganci veneti. La check-list di sala adottata nelle aziende. I percorsi ERAS. Il prericovero, dove si fanno esami ed educazione prima dell'ingresso.
+
+35
+00:06:00,760 --> 00:06:13,030
+La recovery room e il servizio per il dolore acuto. I percorsi ortogeriatrici e l'indicatore del femore entro quarantotto ore. Le dimissioni protette con le COT. Ogni aggancio vale una frase in piu' all'orale.
+
+36
+00:06:13,030 --> 00:06:22,130
+Come proseguire. Test del modulo, trenta domande, soglia ventuno. Disegna a memoria la linea del tempo con le complicanze: se la sai disegnare, la sai raccontare.
+
+37
+00:06:22,130 --> 00:06:34,190
+Nel quaderno: check-list, digiuno, Aldrete, Apfel, precauzioni dell'anca. Cinque schede, cinque numeri o liste che i concorsi chiedono cosi' come sono, senza ragionamento: o le sai, o no.
+
+38
+00:06:34,190 --> 00:06:43,360
+E scrivi il caso dell'emorragia postoperatoria con lo schema in cinque passi: che cosa vedo, che cosa penso, che cosa faccio subito, chi avviso, che cosa documento.
+
+39
+00:06:43,360 --> 00:06:48,700
+La frase del modulo: molte complicanze del post-operatorio si prevengono nel pre-operatorio.
+
+40
+00:06:48,700 --> 00:06:54,230
+Molte complicanze del post-operatorio si prevengono nel pre-operatorio.
+
+41
+00:06:54,230 --> 00:07:03,160
+L'educazione al respiro previene l'atelettasia, la tricotomia corretta previene l'infezione, la pianificazione della dimissione previene la riammissione.
+
+42
+00:07:03,160 --> 00:07:13,980
+E' il motivo per cui questo modulo e' iniziato dal percorso e dalla preparazione, e non dalla sala operatoria: il lavoro migliore dell'infermiere chirurgico spesso non si vede, perche' evita qualcosa.
+
+43
+00:07:13,980 --> 00:07:19,860
+E se all'orale ti chiedono il ruolo dell'infermiere nel percorso chirurgico, una risposta che riassume tutto.
+
+44
+00:07:19,860 --> 00:07:27,910
+L'infermiere prepara la persona, la protegge quando non puo' proteggersi da sola, la rimette in piedi e la rimanda a casa capace di gestirsi.
+
+45
+00:07:27,910 --> 00:07:36,800
+Quattro verbi, quattro tappe della linea del tempo: preparare, proteggere, rimettere in piedi, rimandare a casa. Se ricordi questi, ricordi il modulo.
+
+46
+00:07:36,800 --> 00:07:49,340
+Nel prossimo modulo entriamo nell'emergenza: triage, valutazione ABCDE, rianimazione cardiopolmonare, shock e sepsi, emergenze pediatriche e ostetriche, trauma e maxi-emergenze.
+
+47
+00:07:49,340 --> 00:07:56,780
+L'ABC del risveglio che abbiamo visto nella nove punto quattro e' lo stesso ABCDE con cui si valuta ogni paziente critico: da li' ripartiamo.
+
+48
+00:07:56,780 --> 00:08:01,730
+E' il modulo degli algoritmi, e dei minuti che contano. Ci vediamo li'.

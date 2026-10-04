@@ -14,13 +14,31 @@ Settima lezione del Modulo 9: la dimissione si pianifica dall'ingresso (indice B
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,33 (A $0,70 · B $0,63) |
+| costo trascrizioni | $0,47 |
 | pause senza voce | s06 s47 |
 
 ```
 CARATTERI  7.966          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:04.0     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.198 car · chunk B 3.768 car)
+tracce grezze             A 257.2 s  ·  B 257.1 s
+silenzi                   fattore 1,065   ->   atempo 1,006
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**647/659 parole**, la B **608/615**, nessun buco. Le rese diverse
+(non buchi): s05 «prericovero» sentito «pre ricovero»; s14 «medicazione» sentito «medicazioni»; s16 «e» sentito «ee»; s18 «e» sentito «ee»; s22 «e» sentito «ee»; s22 «e» sentito «ee»; s24 «e» sentito «ee»; s29 «e» sentito «ee»; s33 «e» sentito «ee»; s36 «e» sentito «ee»; s40 «ee» sentito «e»; s43 «e» sentito «ee»; s45 «ee» sentito «e».
 
 ## Le scene
 

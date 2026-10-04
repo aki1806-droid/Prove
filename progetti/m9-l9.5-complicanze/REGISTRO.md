@@ -63,13 +63,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `464025a6d06b93f959d7c830e89e1148` — 497.037 s (8:17.0), 1080p 16:9, resa in 110 s, con SRT (`subtitle_url`) |
+| lotto asset | `15cd629b1cfe4918b03503bc50f80ba6` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «lezione12» (s05, trascritto «1 o 2»); «ee» (s06, trascritto «e»); «e» (s10, trascritto «ee»); «e» (s18, trascritto «ee»); «semiseduta» (s19, trascritto «semi seduta»); «lezione68» (s23, trascritto «6 8»); «naso gastrico» (s28, trascritto «nasogastrico»); «essudato» (s30, trascritto «e sudato»); «e» (s32, trascritto «ee»); «news2» (s35, trascritto «news 2»); «e» (s36, trascritto «ee»); «e» (s39, trascritto «ee»); «semiseduta» (s40, trascritto «semi seduta»); «semiseduta» (s43, trascritto «semi seduta»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

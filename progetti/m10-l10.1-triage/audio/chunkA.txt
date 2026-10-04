@@ -1,0 +1,49 @@
+[warm] Apriamo il modulo dell'emergenza, quello degli algoritmi e dei minuti che contano. Si comincia dall'organizzazione: come funziona il sistema che risponde a una chiamata di soccorso.
+
+E come il pronto soccorso decide chi viene visitato prima. Il triage e' un'attivita' infermieristica per eccellenza, e il modello nazionale a cinque codici e' una domanda d'esame quasi certa.
+
+Il sistema dell'emergenza territoriale fa capo al centodiciotto. Dove e' attivo il Numero Unico Europeo centododici, una centrale unica risponde a tutte le chiamate e le smista al servizio competente.
+
+Sanitario, vigili del fuoco, forze dell'ordine. La centrale operativa sanitaria riceve la chiamata e ne stabilisce la gravita' con un'intervista strutturata: il dispatch.
+
+Invia il mezzo adeguato e, se serve, guida chi chiama nelle prime manovre, per esempio la rianimazione cardiopolmonare al telefono: i minuti prima dell'arrivo del mezzo non sono minuti vuoti.
+
+I mezzi. Il mezzo di soccorso di base, con soccorritori formati. Il mezzo con infermiere, che in molte realta' applica protocolli avanzati.
+
+Il mezzo avanzato con medico, o l'automedica, per i casi in cui servono farmaci e manovre che solo il medico puo' fare. E l'elisoccorso, quando la distanza o il terreno lo richiedono.
+
+La centrale decide quale inviare in base al codice di gravita' e alla disponibilita', e spesso li combina: un mezzo di base arriva per primo, un mezzo avanzato lo raggiunge.
+
+Il triage intraospedaliero: la funzione con cui, all'arrivo in pronto soccorso, si stabilisce la priorita' di accesso alle cure in base alla gravita', non all'ordine di arrivo.
+
+E' svolto da un infermiere con formazione specifica, ed e' regolato dalle Linee di indirizzo nazionali sul triage intraospedaliero.
+
+Approvate in Conferenza Stato-Regioni nel duemiladiciannove, hanno introdotto un modello a cinque codici, uguale in tutta Italia: e' il modello che il concorso chiede.
+
+I cinque codici, da sapere con numero, colore e tempo. Codice uno, rosso: emergenza, accesso immediato, compromissione delle funzioni vitali.
+
+Codice due, arancione: urgenza, entro quindici minuti, rischio di compromissione delle funzioni vitali. E' il codice che non puo' aspettare in sala, anche se il paziente cammina e parla.
+
+Codice tre, azzurro: urgenza differibile, entro sessanta minuti. Codice quattro, verde: urgenza minore, entro centoventi minuti.
+
+Codice cinque, bianco: non urgenza, entro duecentoquaranta minuti. Il codice azzurro e' la novita' rispetto al vecchio sistema a quattro colori.
+
+Le fasi del triage. Uno: la valutazione immediata, il «colpo d'occhio» sulla porta: se ci sono segni di pericolo per la vita, il paziente entra subito con codice uno, senza completare le altre fasi.
+
+Due: la valutazione soggettiva, con il sintomo principale e l'intervista: che cosa e' successo, da quando, che cosa e' cambiato. Tre: la valutazione oggettiva, con i parametri vitali, i segni e le scale.
+
+Quattro: la decisione di triage, cioe' il codice e il percorso. Cinque: la rivalutazione. Cinque fasi, e la quinta e' quella che si dimentica piu' spesso.
+
+La rivalutazione e' una parte essenziale del triage, e i concorsi la chiedono: il codice non e' definitivo.
+
+[serious] Il codice non e' definitivo.
+
+I pazienti in attesa vengono rivalutati periodicamente, secondo i tempi previsti, e ogni volta che la loro situazione cambia o che riferiscono un peggioramento.
+
+Il codice puo' essere modificato, in aumento o in diminuzione, e ogni modifica si documenta. Un paziente peggiorato in sala d'attesa senza essere rivalutato e' un evento evitabile.
+
+Il triage non assegna solo un codice: indirizza a un percorso. Il fast track, che invia direttamente allo specialista i problemi minori e ben definiti, per esempio oculistici.
+
+Il see and treat, in cui problemi minori vengono trattati da infermieri formati secondo protocolli: una piccola ferita, una distorsione, senza passare dal medico.
+
+E i percorsi tempo-dipendenti: ictus, infarto, trauma, sepsi, in cui il triage attiva subito la catena delle lezioni otto punto uno e otto punto sei.

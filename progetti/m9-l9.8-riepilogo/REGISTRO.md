@@ -14,13 +14,31 @@ Ottava lezione del Modulo 9, il riepilogo lungo la linea del tempo perioperatori
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,32 (A $0,66 · B $0,66) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s27 s41 |
 
 ```
 CARATTERI  7.884          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:59.2     (MIRA 16,6)
 stacco tracce             dopo s23   (chunk A 3.980 car · chunk B 3.904 car)
+tracce grezze             A 305.6 s  ·  B 293.7 s
+silenzi                   fattore 1,173   ->   atempo 1,076
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**581/588 parole**, la B **604/615**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s07 «beta bloccanti» sentito «betabloccanti»; s09 «time out» sentito «timeout»; s16 «news2» sentito «news 2»; s17 «e» sentito «ee»; s30 «piede» sentito «chiede»; s35 «prericovero» sentito «pre ricovero»; s39 «e» sentito «ee»; s40 «pre operatorio» sentito «preoperatorio»; s41 «pre operatorio» sentito «preoperatorio»; s43 «e» sentito «ee»; s44 «e» sentito «ee»; s49 «e» sentito «ee».
 
 ## Le scene
 

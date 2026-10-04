@@ -1,0 +1,83 @@
+{
+ "A": {
+  "parole_copione": 588,
+  "parole_dette": 588,
+  "coincidenti": 581,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s07",
+    "copione": "beta bloccanti",
+    "detto": "betabloccanti"
+   },
+   {
+    "blocco": "s09",
+    "copione": "time out",
+    "detto": "timeout"
+   },
+   {
+    "blocco": "s16",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 615,
+  "parole_dette": 613,
+  "coincidenti": 604,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "piede",
+    "detto": "chiede"
+   },
+   {
+    "blocco": "s35",
+    "copione": "prericovero",
+    "detto": "pre ricovero"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "pre operatorio",
+    "detto": "preoperatorio"
+   },
+   {
+    "blocco": "s41",
+    "copione": "pre operatorio",
+    "detto": "preoperatorio"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

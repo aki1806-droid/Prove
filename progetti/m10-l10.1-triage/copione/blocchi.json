@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Apriamo il modulo dell'emergenza, quello degli algoritmi e dei minuti che contano. Si comincia dall'organizzazione: come funziona il sistema che risponde a una chiamata di soccorso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E come il pronto soccorso decide chi viene visitato prima. Il triage e' un'attivita' infermieristica per eccellenza, e il modello nazionale a cinque codici e' una domanda d'esame quasi certa."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema dell'emergenza territoriale fa capo al centodiciotto. Dove e' attivo il Numero Unico Europeo centododici, una centrale unica risponde a tutte le chiamate e le smista al servizio competente."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sanitario, vigili del fuoco, forze dell'ordine. La centrale operativa sanitaria riceve la chiamata e ne stabilisce la gravita' con un'intervista strutturata: il dispatch."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Invia il mezzo adeguato e, se serve, guida chi chiama nelle prime manovre, per esempio la rianimazione cardiopolmonare al telefono: i minuti prima dell'arrivo del mezzo non sono minuti vuoti."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I mezzi. Il mezzo di soccorso di base, con soccorritori formati. Il mezzo con infermiere, che in molte realta' applica protocolli avanzati."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il mezzo avanzato con medico, o l'automedica, per i casi in cui servono farmaci e manovre che solo il medico puo' fare. E l'elisoccorso, quando la distanza o il terreno lo richiedono."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La centrale decide quale inviare in base al codice di gravita' e alla disponibilita', e spesso li combina: un mezzo di base arriva per primo, un mezzo avanzato lo raggiunge."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage intraospedaliero: la funzione con cui, all'arrivo in pronto soccorso, si stabilisce la priorita' di accesso alle cure in base alla gravita', non all'ordine di arrivo."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' svolto da un infermiere con formazione specifica, ed e' regolato dalle Linee di indirizzo nazionali sul triage intraospedaliero."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Approvate in Conferenza Stato-Regioni nel duemiladiciannove, hanno introdotto un modello a cinque codici, uguale in tutta Italia: e' il modello che il concorso chiede."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I cinque codici, da sapere con numero, colore e tempo. Codice uno, rosso: emergenza, accesso immediato, compromissione delle funzioni vitali."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Codice due, arancione: urgenza, entro quindici minuti, rischio di compromissione delle funzioni vitali. E' il codice che non puo' aspettare in sala, anche se il paziente cammina e parla."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Codice tre, azzurro: urgenza differibile, entro sessanta minuti. Codice quattro, verde: urgenza minore, entro centoventi minuti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Codice cinque, bianco: non urgenza, entro duecentoquaranta minuti. Il codice azzurro e' la novita' rispetto al vecchio sistema a quattro colori."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi del triage. Uno: la valutazione immediata, il «colpo d'occhio» sulla porta: se ci sono segni di pericolo per la vita, il paziente entra subito con codice uno, senza completare le altre fasi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: la valutazione soggettiva, con il sintomo principale e l'intervista: che cosa e' successo, da quando, che cosa e' cambiato. Tre: la valutazione oggettiva, con i parametri vitali, i segni e le scale."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: la decisione di triage, cioe' il codice e il percorso. Cinque: la rivalutazione. Cinque fasi, e la quinta e' quella che si dimentica piu' spesso."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rivalutazione e' una parte essenziale del triage, e i concorsi la chiedono: il codice non e' definitivo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il codice non e' definitivo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I pazienti in attesa vengono rivalutati periodicamente, secondo i tempi previsti, e ogni volta che la loro situazione cambia o che riferiscono un peggioramento."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice puo' essere modificato, in aumento o in diminuzione, e ogni modifica si documenta. Un paziente peggiorato in sala d'attesa senza essere rivalutato e' un evento evitabile."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage non assegna solo un codice: indirizza a un percorso. Il fast track, che invia direttamente allo specialista i problemi minori e ben definiti, per esempio oculistici."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il see and treat, in cui problemi minori vengono trattati da infermieri formati secondo protocolli: una piccola ferita, una distorsione, senza passare dal medico."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i percorsi tempo-dipendenti: ictus, infarto, trauma, sepsi, in cui il triage attiva subito la catena delle lezioni otto punto uno e otto punto sei."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sovraffollamento del pronto soccorso, un problema strutturale. Una delle cause principali e' il boarding: pazienti per cui e' gia' stato deciso il ricovero, che restano in pronto soccorso perche' non c'e' un posto letto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le conseguenze sono documentate: ritardi, piu' eventi avversi, stress del personale, maggiore rischio di aggressioni. Ricordi la Raccomandazione otto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le strategie: gestione dei posti letto, percorsi alternativi, e il rafforzamento del territorio previsto dal decreto ministeriale settantasette del duemilaventidue."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'OBI, Osservazione Breve Intensiva: un'area del pronto soccorso per i pazienti che richiedono un periodo di osservazione o accertamenti di breve durata prima di decidere se dimetterli o ricoverarli."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per esempio un dolore toracico a basso rischio da sorvegliare con troponine ripetute, o una sincope da osservare qualche ora prima di decidere."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha una durata limitata, definita dalle indicazioni regionali, e serve a ridurre sia i ricoveri inappropriati sia le dimissioni premature: il tempo, qui, e' uno strumento diagnostico."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste anche un triage extraospedaliero: il personale del centodiciotto valuta il paziente sul posto e decide non solo la gravita', ma la destinazione."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio e' la centralizzazione: portare il paziente all'ospedale adeguato, che non e' necessariamente il piu' vicino. Qualche minuto di strada in piu' vale un centro che sa cosa fare."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un grave politrauma va al centro traumatologico, un ictus candidato alla trombectomia al centro hub. E l'ospedale di destinazione viene avvisato in anticipo, per prepararsi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage e' un atto infermieristico autonomo, con una responsabilita' professionale diretta, come abbiamo visto nel modulo uno."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo la documentazione e' essenziale: orario, parametri, motivazione del codice, rivalutazioni. Il codice si deve poter spiegare, a distanza di mesi, leggendo la scheda."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la comunicazione con chi aspetta: informare sui tempi e sul motivo dell'attesa riduce la tensione. Un'ultima precisazione: il codice di triage non e' una diagnosi, ma una valutazione di priorita'."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Uomo di cinquantacinque anni, dolore toracico oppressivo da trenta minuti, sudato, pressione centocinquanta su novanta, frequenza novantotto, saturazione novantasei. Quale codice?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' un codice uno, perche' le funzioni vitali sono conservate. Ma e' un codice due, arancione: c'e' un rischio di compromissione delle funzioni vitali."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si attiva il percorso del dolore toracico, con l'ECG entro dieci minuti della lezione otto punto uno: il sudore freddo, in questo caso, pesa quanto i numeri."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Assegnare un codice basso perche' «i parametri sono buoni» e' l'errore che la domanda vuole intercettare."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto l'emergenza territoriale e' organizzata nel sistema SUEM centodiciotto, con le sue centrali operative, e i pronto soccorso hanno adottato il triage a cinque codici."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I percorsi tempo-dipendenti sono organizzati in rete: infarto, ictus, trauma. E Azienda Zero, l'ente che bandisce il concorso, ha un ruolo di coordinamento regionale anche in questo ambito."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, citare la rete e la centralizzazione e' un ottimo aggancio: dice che conosci il sistema in cui andrai a lavorare, non solo il manuale."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella da fotografare. Uno rosso, immediato. Due arancione, quindici minuti. Tre azzurro, sessanta. Quattro verde, centoventi. Cinque bianco, duecentoquaranta."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi: valutazione immediata, soggettiva, oggettiva, decisione e rivalutazione. Il codice non e' definitivo, e non e' una diagnosi. E la centralizzazione verso l'ospedale adeguato, non il piu' vicino."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione vediamo lo strumento piu' importante di tutto il modulo: l'approccio ABCDE, che serve in pronto soccorso, in reparto, in ambulanza."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E che ti permette di valutare un paziente critico anche quando non sai ancora che cos'ha. A tra poco."
+ }
+]

@@ -1,0 +1,45 @@
+Il sovraffollamento del pronto soccorso, un problema strutturale. Una delle cause principali e' il boarding: pazienti per cui e' gia' stato deciso il ricovero, che restano in pronto soccorso perche' non c'e' un posto letto.
+
+Le conseguenze sono documentate: ritardi, piu' eventi avversi, stress del personale, maggiore rischio di aggressioni. Ricordi la Raccomandazione otto.
+
+Le strategie: gestione dei posti letto, percorsi alternativi, e il rafforzamento del territorio previsto dal decreto ministeriale settantasette del duemilaventidue.
+
+L'OBI, Osservazione Breve Intensiva: un'area del pronto soccorso per i pazienti che richiedono un periodo di osservazione o accertamenti di breve durata prima di decidere se dimetterli o ricoverarli.
+
+Per esempio un dolore toracico a basso rischio da sorvegliare con troponine ripetute, o una sincope da osservare qualche ora prima di decidere.
+
+Ha una durata limitata, definita dalle indicazioni regionali, e serve a ridurre sia i ricoveri inappropriati sia le dimissioni premature: il tempo, qui, e' uno strumento diagnostico.
+
+Esiste anche un triage extraospedaliero: il personale del centodiciotto valuta il paziente sul posto e decide non solo la gravita', ma la destinazione.
+
+Il principio e' la centralizzazione: portare il paziente all'ospedale adeguato, che non e' necessariamente il piu' vicino. Qualche minuto di strada in piu' vale un centro che sa cosa fare.
+
+Un grave politrauma va al centro traumatologico, un ictus candidato alla trombectomia al centro hub. E l'ospedale di destinazione viene avvisato in anticipo, per prepararsi.
+
+Il triage e' un atto infermieristico autonomo, con una responsabilita' professionale diretta, come abbiamo visto nel modulo uno.
+
+Per questo la documentazione e' essenziale: orario, parametri, motivazione del codice, rivalutazioni. Il codice si deve poter spiegare, a distanza di mesi, leggendo la scheda.
+
+E la comunicazione con chi aspetta: informare sui tempi e sul motivo dell'attesa riduce la tensione. Un'ultima precisazione: il codice di triage non e' una diagnosi, ma una valutazione di priorita'.
+
+Il caso. Uomo di cinquantacinque anni, dolore toracico oppressivo da trenta minuti, sudato, pressione centocinquanta su novanta, frequenza novantotto, saturazione novantasei. Quale codice?
+
+Non e' un codice uno, perche' le funzioni vitali sono conservate. Ma e' un codice due, arancione: c'e' un rischio di compromissione delle funzioni vitali.
+
+E si attiva il percorso del dolore toracico, con l'ECG entro dieci minuti della lezione otto punto uno: il sudore freddo, in questo caso, pesa quanto i numeri.
+
+Assegnare un codice basso perche' «i parametri sono buoni» e' l'errore che la domanda vuole intercettare.
+
+In Veneto l'emergenza territoriale e' organizzata nel sistema SUEM centodiciotto, con le sue centrali operative, e i pronto soccorso hanno adottato il triage a cinque codici.
+
+I percorsi tempo-dipendenti sono organizzati in rete: infarto, ictus, trauma. E Azienda Zero, l'ente che bandisce il concorso, ha un ruolo di coordinamento regionale anche in questo ambito.
+
+All'orale, citare la rete e la centralizzazione e' un ottimo aggancio: dice che conosci il sistema in cui andrai a lavorare, non solo il manuale.
+
+La tabella da fotografare. Uno rosso, immediato. Due arancione, quindici minuti. Tre azzurro, sessanta. Quattro verde, centoventi. Cinque bianco, duecentoquaranta.
+
+Le fasi: valutazione immediata, soggettiva, oggettiva, decisione e rivalutazione. Il codice non e' definitivo, e non e' una diagnosi. E la centralizzazione verso l'ospedale adeguato, non il piu' vicino.
+
+Nella prossima lezione vediamo lo strumento piu' importante di tutto il modulo: l'approccio ABCDE, che serve in pronto soccorso, in reparto, in ambulanza.
+
+[warm] E che ti permette di valutare un paziente critico anche quando non sai ancora che cos'ha. A tra poco.

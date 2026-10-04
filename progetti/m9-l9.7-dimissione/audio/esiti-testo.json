@@ -1,0 +1,89 @@
+{
+ "A": {
+  "parole_copione": 659,
+  "parole_dette": 655,
+  "coincidenti": 647,
+  "buchi": [
+   {
+    "blocco": "s02",
+    "parole_copione": "la persona e",
+    "al_loro_posto": "(nulla)"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "prericovero",
+    "detto": "pre ricovero"
+   },
+   {
+    "blocco": "s14",
+    "copione": "medicazione",
+    "detto": "medicazioni"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 615,
+  "parole_dette": 614,
+  "coincidenti": 608,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

@@ -63,13 +63,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `fa786952ca10e92ec1c135da1f1e9620` — 496.009 s (8:16.0), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| lotto asset | `7289de78e9934073bbc3162c8406ea5c` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «intrarotazione ee» (s07, trascritto «intra rotazione e»); «e» (s13, trascritto «ee»); «ee» (s16, trascritto «e»); «e» (s21, trascritto «ee»); «ee» (s24, trascritto «e»); «e» (s26, trascritto «ee»); «controlaterale» (s27, trascritto «contro laterale»); «iponatriemia» (s34, trascritto «iponatremia»); «al» (s36, trascritto «a»); «chvostek» (s37, trascritto «vostek»); «trousseau» (s37, trascritto «trusseau»); «semiseduta» (s37, trascritto «semi seduta»); «intrarotazione» (s47, trascritto «intra rotazione»); «iponatriemia» (s48, trascritto «iponatremia»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
