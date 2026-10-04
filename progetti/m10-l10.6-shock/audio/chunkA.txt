@@ -1,0 +1,45 @@
+[warm] Lo shock e' uno stato in cui i tessuti non ricevono abbastanza ossigeno. Ha cause diverse, ma una conseguenza comune: se non viene corretto, gli organi cedono uno dopo l'altro.
+
+La sepsi e' la causa piu' frequente di shock in ospedale, e ha una caratteristica che la rende insidiosa: all'inizio puo' sembrare poca cosa.
+
+Ed e' una corsa contro il tempo: ogni ora di ritardo nel trattamento aumenta la mortalita'. In questa lezione: i quattro tipi di shock, i segni, e la sepsi, dal riconoscimento alla prima ora.
+
+Quattro tipi di shock. Ipovolemico: manca il volume. Emorragia, disidratazione grave, ustioni estese: il contenitore e' integro, ma il contenuto non basta.
+
+Cardiogeno: il cuore non pompa. Un infarto esteso, le aritmie: il volume c'e', ma la pompa non lo spinge.
+
+Distributivo: i vasi si dilatano, e il sangue non basta piu' a riempirli. Lo shock settico, quello anafilattico, quello neurogeno da lesione del midollo.
+
+Ostruttivo: qualcosa ostacola il flusso. Embolia polmonare, tamponamento cardiaco, pneumotorace iperteso: le quattro T della lezione dieci punto tre, in gran parte.
+
+I segni. La tachicardia, che e' precoce. La tachipnea. Il riempimento capillare lento. La cute fredda, pallida e sudata.
+
+Con un'eccezione: nella fase iniziale dello shock distributivo la cute puo' essere calda e arrossata, perche' i vasi sono dilatati. Poi l'oliguria, e la coscienza alterata, dall'agitazione alla confusione.
+
+L'ipotensione, sistolica sotto novanta o media sotto sessantacinque, e' tardiva. I lattati sopra due indicano sofferenza dei tessuti.
+
+E un indice semplice: l'indice di shock, la frequenza cardiaca divisa per la sistolica. Sopra uno, e' un campanello d'allarme, anche quando la pressione sembra ancora normale.
+
+Il trattamento dipende dal tipo, ed e' per questo che distinguerli conta. Ipovolemico: fermare la perdita, e ripristinare il volume con liquidi ed emocomponenti.
+
+Cardiogeno: liquidi con cautela, perche' un cuore che non pompa va in edema polmonare, e farmaci inotropi. Distributivo: liquidi e vasopressori, come la noradrenalina.
+
+Nell'anafilassi, l'adrenalina intramuscolo della lezione cinque punto sei. Ostruttivo: rimuovere l'ostacolo. Decompressione del pneumotorace, drenaggio del pericardio, trombolisi nell'embolia.
+
+L'assistenza comune a tutti gli shock. ABCDE, ossigeno, due accessi venosi di grosso calibro. Prelievi: emocromo, gruppo, coagulazione, lattati, emocolture se si sospetta un'infezione.
+
+Monitoraggio continuo: parametri, ECG, saturazione. E la diuresi oraria, con il catetere: e' un indicatore diretto della perfusione degli organi.
+
+Posizione supina, con sollevamento passivo delle gambe se indicato: il Trendelenburg non e' piu' raccomandato di routine. Prevenire l'ipotermia. E documentare i tempi.
+
+La sepsi, secondo la definizione internazionale attuale: una disfunzione d'organo potenzialmente letale, causata da una risposta disregolata dell'organismo a un'infezione.
+
+Il punto e' in quella parola, disregolata: non e' l'infezione in se' a uccidere, ma la reazione eccessiva del corpo, che danneggia i propri organi: i reni, i polmoni, il cervello.
+
+Lo shock settico e' la sepsi in cui servono vasopressori per tenere la pressione media almeno a sessantacinque, con lattati sopra due nonostante i liquidi.
+
+Il riconoscimento, dove l'infermiere conta di piu'. Si sospetta la sepsi quando a un'infezione, nota o sospetta, si associano segni di disfunzione d'organo.
+
+Un vecchio strumento, il qSOFA, ha tre criteri: frequenza respiratoria da ventidue in su, stato mentale alterato, sistolica pari o sotto cento. Oggi lo si affianca a strumenti piu' sensibili, come la NEWS2.
+
+I segni da cercare: confusione nuova, oliguria, desaturazione, tachicardia, febbre. Oppure ipotermia, che nella sepsi e' un segno di gravita'. E la cute marezzata.

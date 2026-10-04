@@ -34,6 +34,10 @@ silenzi                   fattore 1,089   ->   atempo 1,120
 | blocchi fuori fascia | 0 | 0 |
 | tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
 
+`s10` e `s48` risultano sotto la fascia (10,2 e 6,7 car/s): sono le due frasi
+sul verde, 3,1 e 2,3 s sul grezzo, allungate apposta a 4,6 s da `applica`. I
+tagli sono giusti.
+
 ### La verifica per trascrizione
 
 Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma

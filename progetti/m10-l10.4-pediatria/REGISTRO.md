@@ -14,13 +14,31 @@ Quarta lezione del Modulo 10: il bambino non è un adulto piccolo. Le età (latt
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,30 (A $0,61 · B $0,69) |
+| costo trascrizioni | $0,53 |
 | pause senza voce | s03 s23 |
 
 ```
 CARATTERI  7.782          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:53.2     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.653 car · chunk B 4.129 car)
+tracce grezze             A 246.2 s  ·  B 332.6 s
+silenzi                   fattore 1,135   ->   atempo 1,088
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**584/587 parole**, la B **633/639**, nessun buco. Le rese diverse
+(non buchi): s02 «ee» sentito «e»; s06 «e» sentito «ee»; s22 «ee» sentito «e»; s30 «e» sentito «ee»; s30 «pre terminale» sentito «preterminale»; s30 «ee» sentito «e»; s35 «ee» sentito «e»; s48 «e» sentito «ee».
 
 ## Le scene
 

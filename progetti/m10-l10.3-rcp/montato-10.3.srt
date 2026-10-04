@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,080
+Questa e' la lezione che piu' di ogni altra puo' servirti fuori dall'esame. Nell'arresto cardiaco ogni minuto senza rianimazione riduce la sopravvivenza in modo drastico.
+
+2
+00:00:12,080 --> 00:00:26,460
+Ed e' l'emergenza in cui un infermiere preparato fa la differenza. Seguiamo le linee guida europee ERC, recepite in Italia da IRC: prima il supporto di base con defibrillatore, il BLSD, poi quello avanzato, l'ALS.
+
+3
+00:00:26,460 --> 00:00:38,360
+La catena della sopravvivenza ha cinque anelli. Uno: riconoscimento precoce dell'arresto e chiamata di aiuto. Due: rianimazione cardiopolmonare precoce. Tre: defibrillazione precoce.
+
+4
+00:00:38,360 --> 00:00:49,140
+Quattro: supporto avanzato precoce, con monitor, farmaci e vie aeree. Cinque: cure post-arresto, perche' il ritorno del polso non e' la fine del lavoro, ma l'inizio di un'altra fase.
+
+5
+00:00:49,140 --> 00:00:58,370
+La catena e' forte quanto il suo anello piu' debole. E i primi tre anelli dipendono da chi e' presente nei primi minuti, cioe', in reparto, quasi sempre da un infermiere.
+
+6
+00:00:58,370 --> 00:01:08,770
+La sequenza iniziale del BLSD. Uno: sicurezza della scena, per te, per gli altri, per la vittima. Due: valutare la coscienza, scuotendo le spalle e chiamando ad alta voce.
+
+7
+00:01:08,770 --> 00:01:15,740
+Tre: se non risponde, chiamare aiuto. Quattro: aprire le vie aeree, con iperestensione del capo e sollevamento del mento.
+
+8
+00:01:15,740 --> 00:01:25,650
+Cinque: valutare il respiro guardando, ascoltando e sentendo, per non piu' di dieci secondi. Se il respiro e' assente o anormale, la persona e' in arresto cardiaco.
+
+9
+00:01:25,650 --> 00:01:30,250
+Il gasping non e' un respiro normale.
+
+10
+00:01:30,250 --> 00:01:39,200
+E' il punto piu' importante: il gasping, il respiro agonico, lento e rumoroso, e' un segno di arresto. Scambiarlo per respiro fa perdere minuti preziosi.
+
+11
+00:01:39,200 --> 00:01:48,040
+Poi si chiama il centododici o il centodiciotto, in ospedale il numero interno dell'emergenza, e si chiede che venga portato il defibrillatore, il DAE.
+
+12
+00:01:48,040 --> 00:01:58,290
+Se si e' soli con il telefono, si mette in vivavoce e si inizia subito mentre si parla con la centrale. In ospedale si chiama il team e il carrello delle emergenze della lezione cinque punto sette.
+
+13
+00:01:58,290 --> 00:02:06,180
+Le compressioni toraciche, il cuore della rianimazione. Mani al centro del torace, sulla meta' inferiore dello sterno, su una superficie rigida.
+
+14
+00:02:06,180 --> 00:02:15,820
+Profondita' di cinque, sei centimetri. Frequenza di cento, centoventi al minuto. Rilascio completo dopo ogni compressione, perche' il cuore si riempie proprio durante il rilascio.
+
+15
+00:02:15,820 --> 00:02:22,600
+Minime interruzioni: ogni pausa fa crollare la pressione di perfusione, che poi impiega diverse compressioni a risalire.
+
+16
+00:02:22,600 --> 00:02:28,580
+E cambio dell'operatore ogni due minuti: la qualita' cala con la stanchezza molto prima che chi comprime se ne accorga.
+
+17
+00:02:28,580 --> 00:02:39,780
+Il rapporto e' trenta compressioni e due ventilazioni. Ogni ventilazione dura circa un secondo e deve far sollevare il torace in modo visibile: insufflare troppo forte porta aria nello stomaco.
+
+18
+00:02:39,780 --> 00:02:49,230
+In ospedale si ventila con il pallone-maschera collegato all'ossigeno. Se non si e' in grado di ventilare, le compressioni continue sono comunque molto meglio di niente.
+
+19
+00:02:49,230 --> 00:02:59,160
+Il DAE. Appena arriva si accende e si seguono le istruzioni vocali. Le piastre sul torace asciutto: una sotto la clavicola destra, l'altra sul lato sinistro, sotto l'ascella.
+
+20
+00:02:59,160 --> 00:03:09,940
+Mentre un soccorritore le applica, l'altro continua a comprimere. Durante l'analisi nessuno tocca il paziente. Se lo shock e' indicato, si verifica ancora che nessuno sia a contatto, e si eroga.
+
+21
+00:03:09,940 --> 00:03:19,030
+Poi si riprendono subito le compressioni per due minuti, senza fermarsi a cercare il polso: anche dopo uno shock efficace il cuore impiega tempo a pompare in modo valido.
+
+22
+00:03:19,030 --> 00:03:29,170
+I ritmi dell'arresto, che abbiamo visto nella lezione otto punto uno, si dividono in due gruppi. Defibrillabili: la fibrillazione ventricolare e la tachicardia ventricolare senza polso.
+
+23
+00:03:29,170 --> 00:03:39,290
+Non defibrillabili: l'asistolia e l'attivita' elettrica senza polso, la PEA. Qui lo shock non serve: serve una rianimazione di qualita' e la ricerca della causa.
+
+24
+00:03:39,290 --> 00:03:47,130
+L'ALS, il supporto avanzato, aggiunge alla rianimazione di base il monitor, i farmaci e la gestione avanzata delle vie aeree.
+
+25
+00:03:47,130 --> 00:03:58,140
+L'algoritmo e' un ciclo: rianimazione e analisi del ritmo ogni due minuti. Se il ritmo e' defibrillabile, shock e due minuti di rianimazione; se non lo e', due minuti di rianimazione.
+
+26
+00:03:58,140 --> 00:04:09,070
+E durante la rianimazione: accesso venoso o intraosseo, come nella lezione cinque punto due, farmaci, vie aeree avanzate, capnografia, e la ricerca delle cause reversibili.
+
+27
+00:04:09,070 --> 00:04:18,020
+I farmaci, con i numeri da sapere. Adrenalina, un milligrammo, endovena o intraossea: nei ritmi non defibrillabili, il prima possibile.
+
+28
+00:04:18,020 --> 00:04:24,930
+Nei ritmi defibrillabili, dopo il terzo shock. Poi ogni tre, cinque minuti, cioe' circa ogni due cicli.
+
+29
+00:04:24,930 --> 00:04:35,110
+Amiodarone: trecento milligrammi dopo il terzo shock, e una seconda dose di centocinquanta dopo il quinto. E dopo ogni farmaco si lava la via con soluzione fisiologica.
+
+30
+00:04:35,110 --> 00:04:41,990
+Le cause reversibili, da cercare durante ogni arresto e non solo alla fine, con la regola delle quattro I e delle quattro T.
+
+31
+00:04:41,990 --> 00:04:56,180
+Le quattro I: ipossia, ipovolemia, ipo o iperkaliemia e altre alterazioni metaboliche, ipotermia. Le quattro T: trombosi, coronarica o polmonare; tamponamento cardiaco; tossici; pneumotorace iperteso.
+
+32
+00:04:56,180 --> 00:05:06,330
+Riconoscere e trattare la causa e' spesso l'unico modo per far ripartire un cuore in asistolia o in PEA: li' lo shock non serve, e le compressioni da sole guadagnano soltanto tempo.
+
+33
+00:05:06,330 --> 00:05:14,650
+La capnografia misura l'anidride carbonica a fine espirazione, e durante l'arresto ha tre usi. Conferma il corretto posizionamento del tubo.
+
+34
+00:05:14,650 --> 00:05:26,230
+Misura la qualita' delle compressioni: valori bassi indicano compressioni poco efficaci. E un aumento brusco puo' essere il primo segno del ritorno della circolazione spontanea, il ROSC.
+
+35
+00:05:26,230 --> 00:05:37,800
+Il ruolo dell'infermiere nel team: compressioni e cambi, defibrillazione, che in molti contesti l'infermiere formato esegue in autonomia, accesso venoso e farmaci, supporto alle vie aeree.
+
+36
+00:05:37,800 --> 00:05:47,730
+E due ruoli spesso sottovalutati: il timekeeper, che scandisce i due minuti dei cicli e i tempi dell'adrenalina, e chi documenta orari, ritmi, shock e farmaci.
+
+37
+00:05:47,730 --> 00:05:55,730
+Il team funziona con un leader chiaro e una comunicazione a ciclo chiuso: chi riceve un ordine lo ripete, e conferma quando l'ha eseguito.
+
+38
+00:05:55,730 --> 00:06:07,560
+Le cure post-arresto, l'ultimo anello. Dopo il ritorno della circolazione si riparte dall'ABCDE. Saturazione fra novantaquattro e novantotto: ne' ipossia ne' eccesso di ossigeno.
+
+39
+00:06:07,560 --> 00:06:19,540
+Anidride carbonica normale. Pressione adeguata, evitando l'ipotensione. ECG a dodici derivazioni, e coronarografia se indicata, perche' molti arresti sono causati da un infarto.
+
+40
+00:06:19,540 --> 00:06:29,770
+Glicemia. Controllo della temperatura, evitando la febbre. E la ricerca e il trattamento della causa, con le stesse quattro I e quattro T che si cercavano durante l'arresto.
+
+41
+00:06:29,770 --> 00:06:37,880
+Il caso. Entri in stanza e trovi un paziente che non risponde, con un respiro lento e rumoroso a intervalli irregolari. Che cosa fai?
+
+42
+00:06:37,880 --> 00:06:49,860
+E' gasping: respiro anormale, quindi arresto cardiaco. Chiami aiuto e il team, chiedi il defibrillatore, superficie rigida o tavola sul letto, e inizi le compressioni, trenta a due.
+
+43
+00:06:49,860 --> 00:06:58,260
+Appena arriva il defibrillatore, piastre e analisi. Chi aspetta di essere sicuro, perche' respira ancora, perde i minuti che decidono l'esito.
+
+44
+00:06:58,260 --> 00:07:13,460
+In Veneto la formazione segue le linee guida IRC ed ERC, con corsi BLSD e ALS certificati, carrelli e defibrillatori standardizzati, team per l'emergenza in ospedale e DAE diffusi nei luoghi pubblici.
+
+45
+00:07:13,460 --> 00:07:26,720
+La tabella. Respiro valutato al massimo dieci secondi; il gasping e' arresto. Compressioni cinque, sei centimetri, cento, centoventi al minuto, rilascio completo; trenta a due; cambio ogni due minuti.
+
+46
+00:07:26,720 --> 00:07:41,420
+Dopo lo shock, subito compressioni. Adrenalina un milligrammo, subito nei non defibrillabili e dopo il terzo shock, poi ogni tre, cinque minuti. Amiodarone trecento, poi centocinquanta. Quattro I e quattro T.
+
+47
+00:07:41,420 --> 00:07:46,020
+Nel dubbio, comprimi.
+
+48
+00:07:46,020 --> 00:07:57,650
+Le compressioni su chi non e' in arresto raramente fanno danni gravi; il ritardo su chi e' in arresto e' quasi sempre fatale. Nella prossima lezione: il bambino, il lattante, il parto imminente. A tra poco.

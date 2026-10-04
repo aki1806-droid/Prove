@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lo shock e' uno stato in cui i tessuti non ricevono abbastanza ossigeno. Ha cause diverse, ma una conseguenza comune: se non viene corretto, gli organi cedono uno dopo l'altro."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sepsi e' la causa piu' frequente di shock in ospedale, e ha una caratteristica che la rende insidiosa: all'inizio puo' sembrare poca cosa."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' una corsa contro il tempo: ogni ora di ritardo nel trattamento aumenta la mortalita'. In questa lezione: i quattro tipi di shock, i segni, e la sepsi, dal riconoscimento alla prima ora."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro tipi di shock. Ipovolemico: manca il volume. Emorragia, disidratazione grave, ustioni estese: il contenitore e' integro, ma il contenuto non basta."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cardiogeno: il cuore non pompa. Un infarto esteso, le aritmie: il volume c'e', ma la pompa non lo spinge."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Distributivo: i vasi si dilatano, e il sangue non basta piu' a riempirli. Lo shock settico, quello anafilattico, quello neurogeno da lesione del midollo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ostruttivo: qualcosa ostacola il flusso. Embolia polmonare, tamponamento cardiaco, pneumotorace iperteso: le quattro T della lezione dieci punto tre, in gran parte."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni. La tachicardia, che e' precoce. La tachipnea. Il riempimento capillare lento. La cute fredda, pallida e sudata."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un'eccezione: nella fase iniziale dello shock distributivo la cute puo' essere calda e arrossata, perche' i vasi sono dilatati. Poi l'oliguria, e la coscienza alterata, dall'agitazione alla confusione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipotensione, sistolica sotto novanta o media sotto sessantacinque, e' tardiva. I lattati sopra due indicano sofferenza dei tessuti."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un indice semplice: l'indice di shock, la frequenza cardiaca divisa per la sistolica. Sopra uno, e' un campanello d'allarme, anche quando la pressione sembra ancora normale."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento dipende dal tipo, ed e' per questo che distinguerli conta. Ipovolemico: fermare la perdita, e ripristinare il volume con liquidi ed emocomponenti."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cardiogeno: liquidi con cautela, perche' un cuore che non pompa va in edema polmonare, e farmaci inotropi. Distributivo: liquidi e vasopressori, come la noradrenalina."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'anafilassi, l'adrenalina intramuscolo della lezione cinque punto sei. Ostruttivo: rimuovere l'ostacolo. Decompressione del pneumotorace, drenaggio del pericardio, trombolisi nell'embolia."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza comune a tutti gli shock. ABCDE, ossigeno, due accessi venosi di grosso calibro. Prelievi: emocromo, gruppo, coagulazione, lattati, emocolture se si sospetta un'infezione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Monitoraggio continuo: parametri, ECG, saturazione. E la diuresi oraria, con il catetere: e' un indicatore diretto della perfusione degli organi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posizione supina, con sollevamento passivo delle gambe se indicato: il Trendelenburg non e' piu' raccomandato di routine. Prevenire l'ipotermia. E documentare i tempi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sepsi, secondo la definizione internazionale attuale: una disfunzione d'organo potenzialmente letale, causata da una risposta disregolata dell'organismo a un'infezione."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto e' in quella parola, disregolata: non e' l'infezione in se' a uccidere, ma la reazione eccessiva del corpo, che danneggia i propri organi: i reni, i polmoni, il cervello."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo shock settico e' la sepsi in cui servono vasopressori per tenere la pressione media almeno a sessantacinque, con lattati sopra due nonostante i liquidi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riconoscimento, dove l'infermiere conta di piu'. Si sospetta la sepsi quando a un'infezione, nota o sospetta, si associano segni di disfunzione d'organo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un vecchio strumento, il qSOFA, ha tre criteri: frequenza respiratoria da ventidue in su, stato mentale alterato, sistolica pari o sotto cento. Oggi lo si affianca a strumenti piu' sensibili, come la NEWS2."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni da cercare: confusione nuova, oliguria, desaturazione, tachicardia, febbre. Oppure ipotermia, che nella sepsi e' un segno di gravita'. E la cute marezzata."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bundle della prima ora: cio' che va avviato entro un'ora dal riconoscimento. Uno: i lattati, ripetuti se elevati. Due: le emocolture prima dell'antibiotico, con le regole della lezione sei punto sette, ma senza ritardarlo."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: l'antibiotico ad ampio spettro. Quattro: i liquidi cristalloidi, indicativamente trenta millilitri per chilo se c'e' ipotensione, o lattati da quattro in su."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: i vasopressori, se l'ipotensione persiste nonostante i liquidi, per una pressione media di almeno sessantacinque. Entro un'ora si avvia: non si deve aver finito."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un promemoria molto usato e' il modello britannico Sepsis Six, che divide le azioni in due gruppi. Tre da dare: ossigeno, liquidi, antibiotici."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre da prelevare o misurare: emocolture, lattati, diuresi. Sei azioni, entro un'ora, e molte sono di competenza infermieristica."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ruolo dell'infermiere. Riconoscere, con la NEWS2 e l'attenzione alla confusione e all'oliguria. Attivare, con SBAR e il team. Preparare ed eseguire accessi, emocolture, lattati."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la prima dose di antibiotico, senza ritardi: un antibiotico prescritto alle tre e somministrato alle sei sono tre ore perse, e nella sepsi ogni ora pesa."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Monitorare parametri, diuresi oraria, coscienza, risposta ai liquidi. Segnalare il peggioramento. E documentare gli orari, perche' il tempo e' l'indicatore di qualita'."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La noradrenalina, il vasopressore di prima scelta nello shock settico. Infusione continua con pompa, in una via dedicata, preferibilmente centrale: uno stravaso puo' dare necrosi dei tessuti."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In periferica, solo per breve tempo secondo protocollo, sorvegliando la sede. Non si interrompe: il cambio siringa organizzato della lezione sei punto tre. E la pressione si segue da vicino, spesso con una linea arteriosa."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Un'anziana cateterizzata da quattro giorni, confusa da stamattina. Frequenza respiratoria ventiquattro, cardiaca centododici, pressione novantadue su cinquantacinque."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Temperatura trentacinque e otto, diuresi quindici millilitri all'ora. Che cosa pensi? Sepsi, probabilmente di origine urinaria. E nota la temperatura bassa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] L'ipotermia non deve rassicurare."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? ABCDE, ossigeno, attivi il medico o il team con SBAR. Due accessi, lattati, emocolture, urinocoltura dal punto di prelievo. Antibiotico appena prescritto, liquidi, diuresi oraria."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la domanda del modulo tre, che va fatta sempre: quel catetere serviva ancora? Ogni giorno di catetere in piu' e' un rischio di infezione in piu'."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un richiamo allo shock anafilattico, il piu' rapido. Un allergene, farmaci, alimenti, punture di imenotteri, lattice; poi orticaria, angioedema, broncospasmo, ipotensione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il salvavita: adrenalina intramuscolo, zero virgola cinque milligrammi nell'adulto, nella coscia, ripetibile dopo cinque minuti. Poi ossigeno, liquidi, e stop subito all'agente scatenante, come un antibiotico in infusione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto molte aziende hanno percorsi per la sepsi: strumenti di riconoscimento come la NEWS2, team di risposta rapida, e indicatori sui tempi dell'antibiotico, legati alla stewardship della lezione quattro punto sei."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E all'orale, la frase chiave e' questa: la sepsi e' una patologia tempo-dipendente. E chi la dice deve saper spiegare che cosa si fa nella prima ora."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Shock ipovolemico, cardiogeno, distributivo, ostruttivo. Tachicardia precoce, ipotensione tardiva, lattati sopra due, indice di shock sopra uno."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sepsi: disfunzione d'organo da risposta disregolata a un'infezione. Prima ora: lattati, emocolture, antibiotico, liquidi, vasopressori. Sepsis Six: tre da dare, tre da prelevare o misurare."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La sepsi e' un'emergenza tempo-dipendente."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esattamente come l'infarto e l'ictus. Solo che si presenta meno chiaramente: non ha il dolore al petto, ne' la paralisi. E per questo va cercata."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: il paziente traumatizzato, le ustioni con la regola del nove e la formula di Parkland, che calcola i liquidi."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le intossicazioni con i loro antidoti, e il triage nelle maxi-emergenze. A tra poco."
+ }
+]

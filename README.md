@@ -93,6 +93,7 @@ progetti/<modulo>-<lezione>/
 | `m9-l9.7-dimissione` | Modulo 9 · 9.7 Dimissione ed educazione terapeutica | 8:17.1 | `8a0146048e92acd4ead0c6ef7f40e58b` |
 | `m9-l9.8-riepilogo` | Modulo 9 · 9.8 Riepilogo del Modulo 9 e autovalutazione | 8:10.8 | `6631bfa992afb4cda2c61e76c802bf28` |
 | `m10-l10.1-triage` | Modulo 10 · 10.1 Il sistema dell'emergenza e il triage | 8:08.3 | `98e334b6caa8f7a6aa72984fb729072a` |
+| `m10-l10.2-abcde` | Modulo 10 · 10.2 La valutazione del paziente critico: ABCDE | 8:06.0 | `bc00f06bf5e7840004237d625ad69544` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

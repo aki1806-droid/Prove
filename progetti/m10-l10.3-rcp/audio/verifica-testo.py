@@ -80,6 +80,8 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ # 10.3, s33: «li' lo shock» trascritto «L'iloshock».
+ (r"\bl\s+iloshock\b", " li lo shock "),
  (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
  (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
  (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),

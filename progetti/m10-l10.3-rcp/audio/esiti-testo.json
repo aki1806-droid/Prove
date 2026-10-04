@@ -24,15 +24,9 @@
  },
  "B": {
   "parole_copione": 636,
-  "parole_dette": 637,
-  "coincidenti": 615,
-  "buchi": [
-   {
-    "blocco": "s33",
-    "parole_copione": "li lo shock",
-    "al_loro_posto": "l iloshock"
-   }
-  ],
+  "parole_dette": 638,
+  "coincidenti": 618,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s27",

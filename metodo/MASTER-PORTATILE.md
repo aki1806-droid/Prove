@@ -950,7 +950,7 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | verifica | il verificatore legge «-2 e +2» come «2virgola2» o «0,6-1,2» come un rimando alla lezione 6.1 | le regole dei segni e dei decimali stanno in `parole()`: sono già nel MASTER |
 | voce | la stessa frase perde parole in due prese di fila (9.7, `s02`: «la persona e i suoi familiari» dopo i due punti) | non rigenerare uguale: **spezzare la frase con un punto** e rigenerare solo la traccia che la contiene |
 | clip | la coda si ferma a metà lezione (43/48) | `node slide/clips.mjs s45 s46 …` rende solo le scene mancanti; si controlla prima che gli mp4 presenti siano interi |
-| tagli | «fascia» segnala una scena sul verde a 8,3 car/s | se il blocco grezzo è corto e `applica` l'ha allungato a 4,6 s, non è un taglio sbagliato: lo si annota nel registro (10.1, `s21`) |
+| tagli | «fascia» segnala le scene sul verde a 6-8 car/s (10.1 `s21`, 10.3 `s48`) | era il conto: tag nel numeratore, posa voluta nel denominatore. `controlli.py` ora misura **sul parlato** (dal 4 ottobre 2026) |
 | slide | `cifre` con quattro voci e unità lunghe («115 bpm», «95 mmHg») sfora di 68 px | unità nella didascalia (`d`) e non nel suffisso, oppure tre voci |
 
 ---
@@ -4174,6 +4174,13 @@ else:
         esiti.append((False, f"verifica per trascrizione: {len(fuori)} confini fuori posto, non corretti"))
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+# La velocita' si misura sul parlato: senza i tag di regia e senza la posa che
+# `applica` aggiunge apposta ai blocchi corti (le frasi sul verde a 4,6 s).
+_testi = {b["id"]: re.sub(r"\[[^\]]*\]\s*", "", b["text"])
+          for b in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+for r in reg:
+    parlato = r["durata"] - r.get("posa", 0)
+    r["cps"] = round(len(_testi.get(r["id"], "x"*r["car"])) / parlato, 1) if parlato > 0 else r["cps"]
 male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
 esiti.append((not male, "fascia 8,5-21 car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))

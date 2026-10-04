@@ -42,6 +42,13 @@ else:
         esiti.append((False, f"verifica per trascrizione: {len(fuori)} confini fuori posto, non corretti"))
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+# La velocita' si misura sul parlato: senza i tag di regia e senza la posa che
+# `applica` aggiunge apposta ai blocchi corti (le frasi sul verde a 4,6 s).
+_testi = {b["id"]: re.sub(r"\[[^\]]*\]\s*", "", b["text"])
+          for b in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+for r in reg:
+    parlato = r["durata"] - r.get("posa", 0)
+    r["cps"] = round(len(_testi.get(r["id"], "x"*r["car"])) / parlato, 1) if parlato > 0 else r["cps"]
 male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
 esiti.append((not male, "fascia 8,5-21 car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))

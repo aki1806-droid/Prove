@@ -1,0 +1,83 @@
+{
+ "A": {
+  "parole_copione": 619,
+  "parole_dette": 617,
+  "coincidenti": 612,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s10",
+    "copione": "con",
+    "detto": "col"
+   },
+   {
+    "blocco": "s15",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "6 8",
+    "detto": "lezione68"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 603,
+  "parole_dette": 601,
+  "coincidenti": 592,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "al",
+    "detto": "a"
+   },
+   {
+    "blocco": "s34",
+    "copione": "sub glottica",
+    "detto": "subglottica"
+   },
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "cam icu",
+    "detto": "camicu"
+   },
+   {
+    "blocco": "s42",
+    "copione": "semintensive",
+    "detto": "semi intensive"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
