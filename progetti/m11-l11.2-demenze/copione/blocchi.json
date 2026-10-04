@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La demenza e' una delle sfide piu' grandi dell'assistenza di oggi. Non esiste ancora una cura che la arresti."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma esiste molto da fare: per la qualita' della vita della persona, per la sua sicurezza, per la famiglia che la assiste. Perche' la demenza dura anni, e cambia la vita di tutta la famiglia."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' un ambito in cui gli strumenti piu' efficaci non sono farmaci, ma comunicazione, ambiente e relazione. Cioe' competenze infermieristiche."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le forme principali. La malattia di Alzheimer, la piu' frequente: esordio graduale, e a essere compromessa per prima e' la memoria recente."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La persona ricorda la guerra, ma non che cosa ha mangiato a pranzo. La demenza vascolare, legata a piccoli eventi cerebrovascolari, peggiora spesso a gradini."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La demenza a corpi di Lewy: fluttuazioni marcate, allucinazioni visive, parkinsonismo. E un'ipersensibilita' grave agli antipsicotici, che possono dare reazioni pericolose."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frontotemporale: alterazioni del comportamento e del linguaggio, con un esordio spesso piu' precoce. E' facile scambiarla per un problema psichiatrico, perche' all'inizio la memoria regge."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli stadi. Lieve: deficit di memoria, difficolta' nelle attivita' strumentali, gestire i soldi, i farmaci. Ma le attivita' di base sono conservate."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Moderato: disorientamento, difficolta' anche nelle attivita' di base, e i disturbi del comportamento. Grave: dipendenza totale, perdita del linguaggio, disfagia, immobilita'."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la valutazione cognitiva si usa spesso il Mini Mental State Examination: un punteggio da zero a trenta, da interpretare in base a eta' e scolarita'. Non e' una diagnosi: e' una misura, utile per seguire l'andamento."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I disturbi del comportamento, con la sigla inglese BPSD. Agitazione, aggressivita', wandering, cioe' il bisogno di camminare e vagare. Apatia, deliri, allucinazioni, disturbi del sonno."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il sundowning: il peggioramento caratteristico nel tardo pomeriggio e alla sera, quando cala la luce. Va previsto: la sera servono piu' presenza, piu' luce, meno stimoli."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono la principale causa di stress per chi assiste, e la principale causa di ricovero in struttura. E con loro arrivano spesso sedativi e contenzione, che in molti casi si possono evitare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il principio piu' importante della lezione. Il comportamento della persona con demenza e' spesso una comunicazione: quando le parole se ne vanno, resta il comportamento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il comportamento ha un significato."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di qualunque farmaco si cerca la causa. Il dolore, con la PAINAD della lezione due punto tre. Fame, sete, bisogno di urinare, stipsi, caldo o freddo, rumore, paura, noia."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un farmaco, un'infezione con un delirium sovrapposto. E un metodo utile e' l'ABC: che cosa e' successo prima, qual e' il comportamento, che cosa ne e' seguito."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli approcci non farmacologici sono la prima scelta. Routine stabili, perche' il cambiamento disorienta: chi non sa piu' dove si trova si orienta con le abitudini."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attivita' significative e gradite, legate alla storia della persona. Musica e attivita' sensoriali. La validazione: accogliere l'emozione invece di correggere i fatti. La distrazione, che sposta l'attenzione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La luce naturale di giorno e luci calde la sera, contro il sundowning. E i familiari, che conoscono la persona meglio di chiunque."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La comunicazione. Ci si avvicina di fronte, lentamente, mai alle spalle. Contatto visivo, tono calmo, frasi brevi, una richiesta alla volta, domande chiuse."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E tre cose da non fare: contraddire, discutere, mettere alla prova la memoria con domande come: si ricorda chi sono? Generano solo frustrazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si risponde all'emozione, non al contenuto. Se la persona e' spaventata, conta che si senta al sicuro, non che abbia ragione sui fatti."
+ },
+ {
+  "id": "s25",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la persona chiede della madre, morta da trent'anni, dirle che e' morta le fa rivivere il lutto ogni volta. Meglio chiederle di parlarne, e accogliere il bisogno di sicurezza che c'e' dietro."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ambiente protesico: un ambiente che compensa i deficit, come una protesi compensa un arto. Segnaletica con immagini, orologi e calendari ben visibili."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Colori contrastanti: una tavoletta colorata su una ceramica bianca aiuta a riconoscere il water. Illuminazione uniforme, senza zone d'ombra che spaventano."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Percorsi sicuri, dove si puo' camminare liberamente. Pochi rumori, oggetti personali. Nelle strutture, i nuclei Alzheimer sono progettati con questi criteri."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci. Esistono farmaci per i sintomi cognitivi, in alcune forme e stadi, su indicazione specialistica. Ma il punto da sapere riguarda gli antipsicotici."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Usati per agitazione e aggressivita', nell'anziano con demenza aumentano il rischio di mortalita' e di ictus, come segnalato dalle autorita' regolatorie."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano solo se necessario, alla dose minima, per il tempo piu' breve, con rivalutazione periodica. Nei corpi di Lewy, con estrema cautela. E le benzodiazepine aumentano cadute e confusione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caregiver: un coniuge anziano, o un figlio. Spesso e' l'unica risorsa della persona, e fragile a sua volta. Il carico e' fisico, emotivo, economico, sociale, e si puo' valutare con scale come quella di Zarit."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio e' il burnout, la depressione, l'isolamento. I supporti: informazione e formazione, gruppi di sostegno, centri diurni, associazioni."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i ricoveri di sollievo, brevi periodi in struttura che permettono al familiare di riposare. Il principio: anche il caregiver e' una persona da assistere."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza. Il wandering puo' portare la persona ad allontanarsi: braccialetti identificativi, controllo degli accessi, una foto aggiornata. Il camminare in se' non va impedito: va reso sicuro."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cadute, i farmaci a portata di mano, i fornelli, la guida dell'auto. E la disfagia e la malnutrizione nelle fasi avanzate, con le regole della lezione tre punto tre."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la contenzione, che non risolve: aumenta l'agitazione, le cadute e le lesioni, come nella lezione tre punto uno. La sicurezza si costruisce con l'ambiente e con la presenza."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Una signora con demenza moderata, da stasera molto agitata: grida, cerca di alzarsi. Non evacua da quattro giorni. Un collega propone un sedativo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Cerchi la causa prima del farmaco. Il dolore, con la PAINAD. La stipsi, che qui e' un indizio forte. La ritenzione urinaria. Un'infezione con delirium sovrapposto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riduci gli stimoli, usi un tono calmo, chiedi se possibile la presenza di un familiare. E segnali al medico i possibili fattori."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sedativo, se arriva, arriva dopo: non al posto della ricerca della causa. Sedare senza cercare lascia il problema dov'e', e aggiunge il rischio di cadute."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto la diagnosi e la presa in carico passano dai Centri per i Disturbi Cognitivi e Demenze, i CDCD: i centri specialistici di riferimento, dove si fa la diagnosi e si imposta la terapia."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul territorio, centri diurni, nuclei Alzheimer nei Centri di Servizi e ricoveri di sollievo, attivabili con l'UVMD. E le associazioni dei familiari. All'orale, citare CDCD e sollievo mostra di conoscere la rete."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Alzheimer: memoria recente. Vascolare: a gradini. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. BPSD: agitazione, wandering, sundowning."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il comportamento comunica un bisogno: dolore, stipsi, ritenzione, infezione. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. Antipsicotici: rischio di mortalita' e ictus."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Si perde la memoria, non la dignita' ne' le emozioni."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La persona puo' non ricordare chi le ha fatto la medicazione. Ma ricordera' come si e' sentita. Le emozioni sono la parte che resta, ed e' li' che lavora l'assistenza."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: la salute mentale, con il trattamento sanitario obbligatorio e le sue regole: che cosa si puo' fare senza consenso, e con quali garanzie."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione dell'agitazione, il rischio suicidario e le dipendenze, con le domande che all'orale tornano piu' spesso. A tra poco."
+ }
+]

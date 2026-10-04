@@ -63,13 +63,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `1f0416bfb36b539701e3a277f2d20fc5` — 483.976 s (8:04.0), 1080p 16:9, resa in 62 s, con SRT (`subtitle_url`) |
+| lotto asset | `7fbd6ded545f43b3915060ae0d13c0bc` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s12, trascritto «ee»); «abcde» (s16, trascritto «a b c d e»); «ee» (s18, trascritto «e»); «news2» (s23, trascritto «news 2»); «ee» (s24, trascritto «e»); «bundle» (s25, trascritto «bando»); «millilitri» (s26, trascritto «ml»); «news2» (s30, trascritto «news 2»); «e» (s31, trascritto «ee»); «ee» (s32, trascritto «e»); «cateterizzata» (s35, trascritto «cateterizzato»); «millilitri» (s36, trascritto «ml»); «sepsi» (s36, trascritto «sepsis»); «abcde» (s38, trascritto «a b c d e»); «e» (s39, trascritto «ee»); «il» (s41, trascritto «i»); «milligrammi» (s41, trascritto «mg»); «news2» (s42, trascritto «news 2»); «e» (s43, trascritto «ee»); «ee» (s43, trascritto «e»); «sepsi» (s45, trascritto «sepsis»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
