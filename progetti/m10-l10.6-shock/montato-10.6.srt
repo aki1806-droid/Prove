@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,910
+Lo shock e' uno stato in cui i tessuti non ricevono abbastanza ossigeno. Ha cause diverse, ma una conseguenza comune: se non viene corretto, gli organi cedono uno dopo l'altro.
+
+2
+00:00:12,910 --> 00:00:20,490
+La sepsi e' la causa piu' frequente di shock in ospedale, e ha una caratteristica che la rende insidiosa: all'inizio puo' sembrare poca cosa.
+
+3
+00:00:20,490 --> 00:00:31,250
+Ed e' una corsa contro il tempo: ogni ora di ritardo nel trattamento aumenta la mortalita'. In questa lezione: i quattro tipi di shock, i segni, e la sepsi, dal riconoscimento alla prima ora.
+
+4
+00:00:31,250 --> 00:00:40,610
+Quattro tipi di shock. Ipovolemico: manca il volume. Emorragia, disidratazione grave, ustioni estese: il contenitore e' integro, ma il contenuto non basta.
+
+5
+00:00:40,610 --> 00:00:47,260
+Cardiogeno: il cuore non pompa. Un infarto esteso, le aritmie: il volume c'e', ma la pompa non lo spinge.
+
+6
+00:00:47,260 --> 00:00:56,400
+Distributivo: i vasi si dilatano, e il sangue non basta piu' a riempirli. Lo shock settico, quello anafilattico, quello neurogeno da lesione del midollo.
+
+7
+00:00:56,400 --> 00:01:06,580
+Ostruttivo: qualcosa ostacola il flusso. Embolia polmonare, tamponamento cardiaco, pneumotorace iperteso: le quattro T della lezione dieci punto tre, in gran parte.
+
+8
+00:01:06,580 --> 00:01:14,560
+I segni. La tachicardia, che e' precoce. La tachipnea. Il riempimento capillare lento. La cute fredda, pallida e sudata.
+
+9
+00:01:14,560 --> 00:01:26,690
+Con un'eccezione: nella fase iniziale dello shock distributivo la cute puo' essere calda e arrossata, perche' i vasi sono dilatati. Poi l'oliguria, e la coscienza alterata, dall'agitazione alla confusione.
+
+10
+00:01:26,690 --> 00:01:34,900
+L'ipotensione, sistolica sotto novanta o media sotto sessantacinque, e' tardiva. I lattati sopra due indicano sofferenza dei tessuti.
+
+11
+00:01:34,900 --> 00:01:44,640
+E un indice semplice: l'indice di shock, la frequenza cardiaca divisa per la sistolica. Sopra uno, e' un campanello d'allarme, anche quando la pressione sembra ancora normale.
+
+12
+00:01:44,640 --> 00:01:53,910
+Il trattamento dipende dal tipo, ed e' per questo che distinguerli conta. Ipovolemico: fermare la perdita, e ripristinare il volume con liquidi ed emocomponenti.
+
+13
+00:01:53,910 --> 00:02:04,080
+Cardiogeno: liquidi con cautela, perche' un cuore che non pompa va in edema polmonare, e farmaci inotropi. Distributivo: liquidi e vasopressori, come la noradrenalina.
+
+14
+00:02:04,080 --> 00:02:15,320
+Nell'anafilassi, l'adrenalina intramuscolo della lezione cinque punto sei. Ostruttivo: rimuovere l'ostacolo. Decompressione del pneumotorace, drenaggio del pericardio, trombolisi nell'embolia.
+
+15
+00:02:15,320 --> 00:02:29,150
+L'assistenza comune a tutti gli shock. ABCDE, ossigeno, due accessi venosi di grosso calibro. Prelievi: emocromo, gruppo, coagulazione, lattati, emocolture se si sospetta un'infezione.
+
+16
+00:02:29,150 --> 00:02:38,310
+Monitoraggio continuo: parametri, ECG, saturazione. E la diuresi oraria, con il catetere: e' un indicatore diretto della perfusione degli organi.
+
+17
+00:02:38,310 --> 00:02:47,650
+Posizione supina, con sollevamento passivo delle gambe se indicato: il Trendelenburg non e' piu' raccomandato di routine. Prevenire l'ipotermia. E documentare i tempi.
+
+18
+00:02:47,650 --> 00:02:57,480
+La sepsi, secondo la definizione internazionale attuale: una disfunzione d'organo potenzialmente letale, causata da una risposta disregolata dell'organismo a un'infezione.
+
+19
+00:02:57,480 --> 00:03:07,530
+Il punto e' in quella parola, disregolata: non e' l'infezione in se' a uccidere, ma la reazione eccessiva del corpo, che danneggia i propri organi: i reni, i polmoni, il cervello.
+
+20
+00:03:07,530 --> 00:03:16,100
+Lo shock settico e' la sepsi in cui servono vasopressori per tenere la pressione media almeno a sessantacinque, con lattati sopra due nonostante i liquidi.
+
+21
+00:03:16,100 --> 00:03:25,210
+Il riconoscimento, dove l'infermiere conta di piu'. Si sospetta la sepsi quando a un'infezione, nota o sospetta, si associano segni di disfunzione d'organo.
+
+22
+00:03:25,210 --> 00:03:37,960
+Un vecchio strumento, il qSOFA, ha tre criteri: frequenza respiratoria da ventidue in su, stato mentale alterato, sistolica pari o sotto cento. Oggi lo si affianca a strumenti piu' sensibili, come la NEWS2.
+
+23
+00:03:37,960 --> 00:03:48,590
+I segni da cercare: confusione nuova, oliguria, desaturazione, tachicardia, febbre. Oppure ipotermia, che nella sepsi e' un segno di gravita'. E la cute marezzata.
+
+24
+00:03:48,590 --> 00:04:01,950
+Il bundle della prima ora: cio' che va avviato entro un'ora dal riconoscimento. Uno: i lattati, ripetuti se elevati. Due: le emocolture prima dell'antibiotico, con le regole della lezione sei punto sette, ma senza ritardarlo.
+
+25
+00:04:01,950 --> 00:04:12,190
+Tre: l'antibiotico ad ampio spettro. Quattro: i liquidi cristalloidi, indicativamente trenta millilitri per chilo se c'e' ipotensione, o lattati da quattro in su.
+
+26
+00:04:12,190 --> 00:04:21,960
+Cinque: i vasopressori, se l'ipotensione persiste nonostante i liquidi, per una pressione media di almeno sessantacinque. Entro un'ora si avvia: non si deve aver finito.
+
+27
+00:04:21,960 --> 00:04:31,170
+Un promemoria molto usato e' il modello britannico Sepsis Six, che divide le azioni in due gruppi. Tre da dare: ossigeno, liquidi, antibiotici.
+
+28
+00:04:31,170 --> 00:04:39,810
+Tre da prelevare o misurare: emocolture, lattati, diuresi. Sei azioni, entro un'ora, e molte sono di competenza infermieristica.
+
+29
+00:04:39,810 --> 00:04:51,420
+Il ruolo dell'infermiere. Riconoscere, con la NEWS2 e l'attenzione alla confusione e all'oliguria. Attivare, con SBAR e il team. Preparare ed eseguire accessi, emocolture, lattati.
+
+30
+00:04:51,420 --> 00:05:00,790
+E la prima dose di antibiotico, senza ritardi: un antibiotico prescritto alle tre e somministrato alle sei sono tre ore perse, e nella sepsi ogni ora pesa.
+
+31
+00:05:00,790 --> 00:05:10,200
+Monitorare parametri, diuresi oraria, coscienza, risposta ai liquidi. Segnalare il peggioramento. E documentare gli orari, perche' il tempo e' l'indicatore di qualita'.
+
+32
+00:05:10,200 --> 00:05:21,420
+La noradrenalina, il vasopressore di prima scelta nello shock settico. Infusione continua con pompa, in una via dedicata, preferibilmente centrale: uno stravaso puo' dare necrosi dei tessuti.
+
+33
+00:05:21,420 --> 00:05:34,080
+In periferica, solo per breve tempo secondo protocollo, sorvegliando la sede. Non si interrompe: il cambio siringa organizzato della lezione sei punto tre. E la pressione si segue da vicino, spesso con una linea arteriosa.
+
+34
+00:05:34,080 --> 00:05:44,680
+Il caso. Un'anziana cateterizzata da quattro giorni, confusa da stamattina. Frequenza respiratoria ventiquattro, cardiaca centododici, pressione novantadue su cinquantacinque.
+
+35
+00:05:44,680 --> 00:05:54,180
+Temperatura trentacinque e otto, diuresi quindici millilitri all'ora. Che cosa pensi? Sepsi, probabilmente di origine urinaria. E nota la temperatura bassa.
+
+36
+00:05:54,180 --> 00:05:58,780
+L'ipotermia non deve rassicurare.
+
+37
+00:05:58,780 --> 00:06:12,220
+Che cosa fai? ABCDE, ossigeno, attivi il medico o il team con SBAR. Due accessi, lattati, emocolture, urinocoltura dal punto di prelievo. Antibiotico appena prescritto, liquidi, diuresi oraria.
+
+38
+00:06:12,220 --> 00:06:19,660
+E la domanda del modulo tre, che va fatta sempre: quel catetere serviva ancora? Ogni giorno di catetere in piu' e' un rischio di infezione in piu'.
+
+39
+00:06:19,660 --> 00:06:31,100
+Un richiamo allo shock anafilattico, il piu' rapido. Un allergene, farmaci, alimenti, punture di imenotteri, lattice; poi orticaria, angioedema, broncospasmo, ipotensione.
+
+40
+00:06:31,100 --> 00:06:44,760
+Il salvavita: adrenalina intramuscolo, zero virgola cinque milligrammi nell'adulto, nella coscia, ripetibile dopo cinque minuti. Poi ossigeno, liquidi, e stop subito all'agente scatenante, come un antibiotico in infusione.
+
+41
+00:06:44,760 --> 00:06:57,030
+In Veneto molte aziende hanno percorsi per la sepsi: strumenti di riconoscimento come la NEWS2, team di risposta rapida, e indicatori sui tempi dell'antibiotico, legati alla stewardship della lezione quattro punto sei.
+
+42
+00:06:57,030 --> 00:07:05,800
+E all'orale, la frase chiave e' questa: la sepsi e' una patologia tempo-dipendente. E chi la dice deve saper spiegare che cosa si fa nella prima ora.
+
+43
+00:07:05,800 --> 00:07:16,150
+La tabella. Shock ipovolemico, cardiogeno, distributivo, ostruttivo. Tachicardia precoce, ipotensione tardiva, lattati sopra due, indice di shock sopra uno.
+
+44
+00:07:16,150 --> 00:07:29,590
+Sepsi: disfunzione d'organo da risposta disregolata a un'infezione. Prima ora: lattati, emocolture, antibiotico, liquidi, vasopressori. Sepsis Six: tre da dare, tre da prelevare o misurare.
+
+45
+00:07:29,590 --> 00:07:34,190
+La sepsi e' un'emergenza tempo-dipendente.
+
+46
+00:07:34,190 --> 00:07:42,380
+Esattamente come l'infarto e l'ictus. Solo che si presenta meno chiaramente: non ha il dolore al petto, ne' la paralisi. E per questo va cercata.
+
+47
+00:07:42,380 --> 00:07:49,980
+Nella prossima lezione: il paziente traumatizzato, le ustioni con la regola del nove e la formula di Parkland, che calcola i liquidi.
+
+48
+00:07:49,980 --> 00:07:54,930
+Le intossicazioni con i loro antidoti, e il triage nelle maxi-emergenze. A tra poco.

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Quattro scenari dell'emergenza, ciascuno con un elemento che i concorsi chiedono sempre. Nel trauma, l'emorragia e il rachide. Nelle ustioni, la regola del nove e la formula di Parkland."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle intossicazioni, gli antidoti. Nelle maxi-emergenze, il triage START. Una lezione densa, che pero' si regge sempre sull'ABCDE."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trauma si affronta con l'ABCDE, con due modifiche. Davanti alla A si aggiunge una X: l'emorragia esterna massiva, che uccide piu' in fretta di un problema delle vie aeree. Si controlla per prima."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la A si accompagna alla protezione del rachide cervicale, dal primo contatto finche' una lesione non e' esclusa. Poi B, C, D, E, e la valutazione secondaria."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tempo conta: si parla di golden hour, la prima ora dopo il trauma, e il paziente grave va centralizzato verso il centro traumatologico, come nella lezione dieci punto uno."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il controllo dell'emorragia. Prima la compressione diretta della ferita, forte e continua. Poi, se previsto dal protocollo, le medicazioni emostatiche."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le emorragie degli arti non controllabili, il tourniquet: si posiziona a monte della ferita, e si stringe fino all'arresto del sanguinamento."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si annota l'orario di applicazione, un'informazione vitale per chi riceve il paziente. E non si allenta per controllare: ogni allentamento fa perdere sangue, e libera in circolo sostanze tossiche accumulate a valle."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'immobilizzazione. Si sospetta una lesione del rachide in ogni trauma importante, nel paziente incosciente, con dolore al collo o deficit neurologici."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Capo stabilizzato a mano, in asse; collare cervicale; tavola spinale o materasso a depressione. E si muove il paziente in blocco, con il log roll, coordinato da chi tiene la testa."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' una lesione instabile del rachide, mobilizzata male, puo' diventare una lesione midollare: un danno che il trauma non aveva fatto, e che fa il soccorso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ustioni, partendo dalla profondita'. Superficiale, di primo grado: eritema e dolore, come una scottatura solare. A spessore parziale, di secondo grado: flittene e dolore intenso."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A spessore totale, di terzo grado: cute bianca, cerea o carbonizzata, rigida. E, dettaglio che i quiz amano, indolore: le terminazioni nervose sono distrutte."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Un'ustione che non fa male puo' essere la piu' grave."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'estensione si stima con la regola del nove, di Wallace: il corpo diviso in aree che valgono nove, o multipli di nove. Testa e collo: nove per cento. Ciascun arto superiore: nove."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tronco anteriore: diciotto. Tronco posteriore: diciotto. Ciascun arto inferiore: diciotto. Perineo: uno. In totale, cento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ustioni piccole o irregolari, il palmo della mano della persona, dita comprese: circa l'uno per cento. Nel bambino, tabelle specifiche. E si contano solo secondo e terzo grado."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La formula di Parkland, per i liquidi delle prime ventiquattro ore nelle ustioni estese: quattro millilitri, per il peso in chili, per la percentuale ustionata. Cristalloidi, tipicamente Ringer lattato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meta' nelle prime otto ore, contate dal momento dell'ustione, non dall'arrivo in ospedale. L'altra meta' nelle sedici ore successive."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo e' una diuresi adeguata: indicativamente mezzo millilitro per chilo all'ora, nell'adulto. La formula e' il punto di partenza; la diuresi dice se basta."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio. Settanta chili, trenta per cento ustionato: quattro per settanta per trenta fa ottomilaquattrocento millilitri. Quattromiladuecento nelle prime otto ore."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo soccorso: acqua corrente tiepida per circa venti minuti, mai ghiaccio. Via anelli e indumenti non adesi prima dell'edema, copertura pulita, e prevenzione dell'ipotermia."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'ustione delle vie aeree: volto ustionato, peli del naso bruciati, fuliggine in bocca, voce rauca, stridore. Le vie aeree si gonfiano in poco tempo: si valuta un'intubazione precoce."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In un incendio in ambiente chiuso si pensa anche al monossido, che come sappiamo dalla lezione otto punto due da' una saturazione falsamente normale."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le intossicazioni. Prima, come sempre, l'ABCDE. Poi le informazioni: quale sostanza, quanta, a che ora, per quale via. Si conservano contenitori e campioni."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si contatta il Centro Antiveleni, che da' le indicazioni specifiche. Decontaminazione secondo indicazione. E l'antidoto, quando esiste: non sempre c'e', e allora contano il supporto delle funzioni vitali e il tempo."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antidoti. Oppioidi: naloxone. Benzodiazepine: flumazenil, con cautela, perche' nei consumatori cronici puo' scatenare convulsioni. Paracetamolo: N-acetilcisteina, prima e' meglio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Monossido di carbonio: ossigeno al cento per cento, ed eventualmente la camera iperbarica. Anticoagulanti dicumarolici: vitamina K. Organofosfati, come alcuni pesticidi: atropina."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Digossina: anticorpi specifici. Beta-bloccanti: glucagone. Metanolo e glicole etilenico: fomepizolo. Una tabella da ripassare: all'orale si chiede spesso la coppia veleno e antidoto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipotermia, sotto i trentacinque gradi centrali: riscaldare gradualmente, muovere con delicatezza, perche' il cuore freddo fibrilla facilmente. E nell'arresto si insiste: nessuno e' morto finche' non e' caldo e morto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il colpo di calore non e' un semplice malore da caldo: e' ipertermia con alterazione neurologica, e richiede un raffreddamento rapido. A rischio gli anziani e i lavoratori esposti."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le maxi-emergenze: piu' vittime di quante la risposta ordinaria possa gestire. Ogni ospedale ha un PEIMAF, il piano per il massiccio afflusso di feriti: catena di comando, ruoli, aree dedicate."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cambia il principio. Non si fa tutto il possibile per ciascuno: si cerca il risultato migliore per il numero piu' grande di persone."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il maggior beneficio, per il maggior numero."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage START, Simple Triage And Rapid Treatment: classifica una vittima in meno di un minuto, con quattro domande. Cammina? Allora e' verde."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non cammina: respira? Se non respira nemmeno dopo l'apertura delle vie aeree, e' nero. Se riprende a respirare dopo l'apertura, e' rosso."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se respira con una frequenza oltre trenta, rosso. Riempimento capillare oltre due secondi, o polso radiale assente: rosso. Se non esegue ordini semplici: rosso. Altrimenti, giallo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un modo per ricordarlo, in inglese: trenta, due, can do. Respiro, riempimento, ordini eseguiti."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I colori. Rosso: priorita' immediata. Giallo: differibile. Verde: lesioni minori, chi cammina. Nero: deceduto, o non salvabile con le risorse di quel momento."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Durante lo START si fanno solo manovre salvavita rapide, come aprire le vie aeree o fermare un'emorragia, e si passa alla vittima successiva. E il triage si ripete, perche' le condizioni cambiano."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Maxi-emergenza: un uomo non cammina, respira a trentaquattro, riempimento capillare tre secondi, risponde alle domande. Che colore?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non cammina, quindi non e' verde. Respira, ma oltre trenta: rosso. E ci si ferma qui: il ragionamento e' sequenziale, e basta il primo criterio soddisfatto. Il riempimento lento, qui, non cambia nulla."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto il trauma grave e' gestito da una rete di centri hub e spoke. Ogni ospedale ha il suo PEIMAF, con esercitazioni periodiche."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono centri antiveleni e centri ustioni specializzati, coordinati con il SUEM centodiciotto. All'orale, per trauma e maxi-emergenze, la parola chiave e' ancora una volta: rete."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. XABCDE: prima l'emorragia massiva. Tourniquet: annotare l'ora, non allentare. Rachide: collare e movimento in blocco. Il terzo grado e' indolore."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Regola del nove, palmo uguale uno per cento. Parkland: quattro per chili per percentuale, meta' in otto ore dall'ustione. Acqua tiepida, niente ghiaccio. START: trenta, due, can do."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo il modulo dieci con gli algoritmi da memorizzare: ABCDE, rianimazione, sepsi, START."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modulo in cui sapere la sequenza a memoria fa davvero la differenza, all'esame e in reparto. A tra poco."
+ }
+]

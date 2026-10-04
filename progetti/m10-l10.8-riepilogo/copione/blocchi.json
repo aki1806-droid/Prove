@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo dell'emergenza con il suo contenuto piu' prezioso: gli algoritmi. In emergenza non c'e' tempo per ragionare da zero, e l'ansia toglie lucidita' proprio quando serve."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi conosce la sequenza a memoria agisce mentre gli altri pensano. Rivediamoli uno dopo l'altro, in forma compatta, con i numeri che i concorsi chiedono. E' la lezione da riascoltare la sera prima dell'esame."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage a cinque codici, delle linee di indirizzo nazionali del duemiladiciannove. Uno, rosso: accesso immediato. Due, arancione: entro quindici minuti. Tre, azzurro: entro sessanta."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro, verde: entro centoventi. Cinque, bianco: entro duecentoquaranta. Sono tempi massimi di attesa, non tempi di visita. E il codice si assegna su gravita' e rischio, non sull'ordine di arrivo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le cinque fasi: valutazione immediata, soggettiva, oggettiva, decisione, e rivalutazione. Perche' il codice non e' definitivo, e la quinta fase e' quella che si dimentica piu' spesso."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ABCDE. Vie aeree: il paziente parla? Respiro: la frequenza respiratoria, contata per un minuto. Circolo: il riempimento capillare, sotto i due secondi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Stato neurologico: AVPU o GCS, pupille, e la glicemia, sempre. Esposizione: e poi si ricopre. E la regola: tratta cio' che trovi, prima di passare oltre."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La NEWS2. Un tre in un singolo parametro, o un punteggio di cinque o sei, richiedono una risposta urgente. Da sette in su, l'emergenza. Con il team di risposta rapida, dove c'e'."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la catena da citare all'orale: parametri, punteggio, risposta graduata. E una confusione nuova nell'anziano non e' normale per l'eta': e' un allarme, e si riparte dalla A."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il BLSD. Sicurezza, coscienza, aiuto, vie aeree, e il respiro valutato per non piu' di dieci secondi. Poi chiamata, DAE, trenta a due. La catena della sopravvivenza ha cinque anelli, e i primi tre sono nelle mani di chi c'e'."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il gasping e' arresto."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le compressioni: mani al centro del torace, su un piano rigido; cinque, sei centimetri, cento, centoventi al minuto, rilascio completo, cambio ogni due minuti, interruzioni minime."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il DAE: piastre, analisi senza toccare il paziente, shock, e subito le compressioni, per due minuti, senza cercare il polso: anche dopo uno shock efficace, il cuore impiega tempo a pompare."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ALS. Analisi del ritmo ogni due minuti. Fibrillazione ventricolare e tachicardia ventricolare senza polso: defibrillabili. Asistolia e PEA: no, e li' conta la causa."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Adrenalina, un milligrammo: subito nei non defibrillabili, dopo il terzo shock nei defibrillabili, poi ogni tre, cinque minuti, circa ogni due cicli. Il timekeeper tiene i tempi."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Amiodarone: trecento milligrammi dopo il terzo shock, centocinquanta dopo il quinto. Dopo ogni farmaco, un lavaggio con fisiologica, per via venosa o intraossea."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le quattro I: ipossia, ipovolemia, ipo o iperkaliemia, ipotermia. Le quattro T: trombosi, tamponamento, tossici, pneumotorace iperteso. Da cercare durante ogni arresto, non solo alla fine."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il PBLS. Lattante sotto un anno. Cinque ventilazioni iniziali, poi quindici a due. Profondita' a un terzo del torace. Nel lattante, capo neutro."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ostruzione: tosse efficace, si incoraggia. Inefficace: cinque colpi e cinque compressioni, addominali nell'adulto e nel bambino, toraciche nel lattante."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se perde coscienza: rianimazione, perche' le compressioni possono espellere il corpo estraneo. Negli obesi e in gravidanza avanzata, compressioni toraciche al posto delle addominali."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vie aeree. Guedel solo senza riflesso faringeo; nasofaringea, no nella frattura della base cranica. Pallone a due mani. Il sopraglottico entra senza laringoscopio, ma non protegge del tutto dall'inalazione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tubo si verifica con la capnografia, la cuffia a venti, trenta centimetri d'acqua, e si annotano i centimetri all'arcata dentaria: il riferimento per accorgersi di uno spostamento."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alta pressione: un ostacolo. Bassa pressione: una perdita. Il ventilato che peggiora: DOPE. E nel dubbio, si stacca e si ventila con il pallone."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo shock: ipovolemico, cardiogeno, distributivo, ostruttivo. Tachicardia precoce, ipotensione tardiva, lattati sopra due, indice di shock sopra uno."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sepsi, nella prima ora: lattati, emocolture prima dell'antibiotico, antibiotico, liquidi, e vasopressori per una pressione media di almeno sessantacinque."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sepsis Six: tre da dare, ossigeno, liquidi, antibiotici; tre da prelevare o misurare, emocolture, lattati, diuresi. E la prima dose di antibiotico non aspetta."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'anafilassi: adrenalina intramuscolo, zero virgola cinque milligrammi nell'adulto, nella coscia, ripetibile dopo cinque minuti. Poi ossigeno, liquidi, e stop all'agente scatenante."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trauma: XABCDE, prima l'emorragia massiva. Tourniquet con l'orario annotato, senza allentarlo. Rachide in asse, collare, movimento in blocco."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ustioni: regola del nove, palmo uguale uno per cento. Acqua tiepida per venti minuti, niente ghiaccio. E il terzo grado e' indolore. Fuliggine, voce rauca, stridore: vie aeree a rischio."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Parkland: quattro millilitri, per il peso, per la percentuale. Meta' nelle prime otto ore, contate dal momento dell'ustione. Obiettivo: una diuresi di circa mezzo millilitro per chilo all'ora."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo START: cammina, verde. Non respira, nero. Frequenza oltre trenta, refill oltre due secondi, non esegue ordini: rosso. Altrimenti, giallo. E il triage si ripete."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antidoti. Oppioidi: naloxone. Benzodiazepine: flumazenil. Paracetamolo: N-acetilcisteina. Monossido: ossigeno al cento per cento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dicumarolici: vitamina K. Organofosfati: atropina. E dalla lezione cinque punto cinque: eparina, protamina; ipoglicemia, glucagone o glucosio."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le confusioni che costano piu' punti. Il gasping non e' un respiro. L'ipotensione e' un segno tardivo, non un segno d'esordio: chi aspetta la pressione bassa arriva tardi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice di triage non e' una diagnosi: dice quanto si puo' aspettare, non che cosa si ha. E niente Heimlich nel lattante: colpi dorsali e compressioni toraciche, mai addominali."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'ustione indolore e' profonda, non lieve. Parkland si conta dal momento dell'ustione, non dall'arrivo. E niente ghiaccio sulle ustioni: aggrava il danno e raffredda il paziente."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'ipotermia, nella sepsi, e' un segno di gravita', non una buona notizia. Chi si tranquillizza per una temperatura bassa sta guardando il numero sbagliato."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli agganci veneti per l'orale. Il SUEM centodiciotto e le centrali operative. Il triage a cinque codici. Le reti tempo-dipendenti: infarto, ictus, trauma, con centri hub e spoke."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I team di risposta rapida e la NEWS2. I percorsi per la sepsi. Il PEIMAF. E la formazione BLSD e ALS secondo IRC. Per tutte, la parola chiave e' la stessa: rete."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E ripeti ad alta voce ogni algoritmo, finche' non lo reciti senza esitazioni."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel quaderno: codici, tempi, dosi, antidoti, START. Le cose che non si ragionano, si sanno: una pagina sola, da rileggere la sera prima dell'esame."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E scrivi due casi: il paziente che si deteriora in reparto, con ABCDE e NEWS2; e la sepsi, dal sospetto alla prima ora. Scriverli a parole tue e' il modo migliore per prepararti all'orale."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frase del modulo viene dal mondo dell'emergenza, e vale per chi studia come per chi soccorre. E spiega perche' questo modulo si studia diversamente dagli altri."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Non si sale al livello delle aspettative. Si scende al livello dell'addestramento."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo gli algoritmi si imparano a memoria, e si ripetono: perche' nel momento vero non c'e' tempo per ricordarli. Le mani fanno quello che hanno ripetuto."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nel prossimo modulo cambiamo ritmo: l'anziano fragile e la demenza, la salute mentale, l'area materno-infantile. Si passa dall'urgenza dei minuti alla cura che dura anni."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cure palliative e il fine vita, la cronicita' con l'educazione terapeutica, e il territorio con le cure primarie, le case e gli ospedali di comunita'."
+ },
+ {
+  "id": "s49",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modulo in cui si vede quanto l'assistenza infermieristica vada oltre l'ospedale. Ci vediamo li'."
+ }
+]

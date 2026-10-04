@@ -1,4 +1,4 @@
-# Modulo 11 — Fragilità, cronicità e territorio
+# Modulo 11 — Setting assistenziali e ciclo di vita
 
 Otto micro-lezioni sulle persone e sui luoghi di cura oltre l'acuto:
 l'anziano fragile (11.1), le demenze, la salute mentale, l'area

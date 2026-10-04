@@ -1,0 +1,123 @@
+{
+ "A": {
+  "parole_copione": 577,
+  "parole_dette": 581,
+  "coincidenti": 571,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s23",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 593,
+  "parole_dette": 599,
+  "coincidenti": 577,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "bundle",
+    "detto": "bando"
+   },
+   {
+    "blocco": "s26",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s30",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s32",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "cateterizzata",
+    "detto": "cateterizzato"
+   },
+   {
+    "blocco": "s36",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s36",
+    "copione": "sepsi",
+    "detto": "sepsis"
+   },
+   {
+    "blocco": "s38",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s41",
+    "copione": "il",
+    "detto": "i"
+   },
+   {
+    "blocco": "s41",
+    "copione": "milligrammi",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s42",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "sepsi",
+    "detto": "sepsis"
+   }
+  ]
+ }
+}
