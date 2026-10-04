@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La salute mentale riguarda ogni infermiere, non solo chi lavora in psichiatria. Persone con disturbi psichici si ricoverano in medicina, in chirurgia, e si presentano in pronto soccorso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questa lezione ha un contenuto normativo che i concorsi chiedono con grande precisione: il trattamento sanitario obbligatorio, con i suoi requisiti, i suoi passaggi e i suoi tempi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E tre temi clinici che si incontrano in qualunque reparto: l'agitazione, il rischio suicidario e le dipendenze, con l'astinenza da alcol."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I principali disturbi, in sintesi. I disturbi psicotici, come la schizofrenia, con sintomi positivi, cioe' deliri e allucinazioni, e negativi: apatia, ritiro sociale, poverta' del pensiero."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I disturbi dell'umore: la depressione e il disturbo bipolare, con fasi depressive e fasi maniacali. I disturbi d'ansia, quelli di personalita', quelli della nutrizione e dell'alimentazione, e quelli da uso di sostanze."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cornice. La legge centottanta del millenovecentosettantotto, nota come legge Basaglia, ha chiuso i manicomi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I suoi principi sono stati recepiti nella legge ottocentotrentatre' dello stesso anno, agli articoli trentatre', trentaquattro e trentacinque. Il principio di fondo: i trattamenti sanitari sono di norma volontari."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistenza e' organizzata nel Dipartimento di Salute Mentale: il Centro di Salute Mentale sul territorio, l'SPDC, Servizio Psichiatrico di Diagnosi e Cura, nell'ospedale generale, i centri diurni e le residenze."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento sanitario obbligatorio in degenza ospedaliera per malattia mentale e' un'eccezione. E' ammesso solo quando ricorrono insieme tre requisiti."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno: alterazioni psichiche tali da richiedere urgenti interventi terapeutici. Due: il rifiuto degli interventi da parte della persona. Tre: l'impossibilita' di adottare tempestive e idonee misure sanitarie extraospedaliere."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutti e tre: se ne manca uno, il TSO non e' legittimo. E nota che la pericolosita' non e' fra i requisiti. E' una delle domande trabocchetto piu' frequenti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il TSO e' un atto sanitario, non di ordine pubblico."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La procedura, con i passaggi e i tempi. Si parte da una proposta motivata di un medico. Poi serve la convalida di un secondo medico della struttura sanitaria pubblica."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'ordinanza del sindaco, come autorita' sanitaria locale. Il provvedimento viene notificato al giudice tutelare entro quarantotto ore dal ricovero."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il giudice, entro le successive quarantotto ore, convalida o non convalida. Il trattamento si esegue nell'SPDC. Due medici, il sindaco, il giudice: ogni passaggio e' una garanzia per la persona."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La durata: sette giorni, prorogabili con una nuova proposta motivata. Durante il TSO la persona conserva i suoi diritti: puo' comunicare con chi ritiene opportuno, e puo' presentare ricorso."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E anche durante il trattamento si continua a ricercare il suo consenso e la sua partecipazione. L'obbligo non cancella la relazione: la rende piu' importante."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste poi l'accertamento sanitario obbligatorio, l'ASO. Serve a valutare una persona che rifiuta di farsi visitare, con una procedura analoga, ma senza ricovero."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'agitazione psicomotoria. Si riconoscono i segnali precoci: la voce che si alza, l'irrequietezza, lo sguardo fisso, i pugni serrati. Prima si coglie, piu' e' facile disinnescarla."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usa la de-escalation verbale della lezione due punto sette: calma, distanza, ascolto, offrire scelte. E la sicurezza: una via d'uscita libera, non restare soli, chiamare aiuto, come chiede la Raccomandazione otto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si cercano le cause organiche: un'agitazione puo' essere un'ipoglicemia, un'ipossia, un'astinenza, un delirium. Non va attribuita automaticamente al disturbo psichiatrico. E i farmaci, secondo prescrizione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio suicidario. I fattori di rischio: i tentativi precedenti, che sono il piu' importante. I disturbi psichiatrici, le dipendenze, le malattie gravi o il dolore cronico, l'isolamento, le perdite recenti."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segnali: espressioni di disperazione, di sentirsi un peso, frasi di congedo, cambiamenti improvvisi. Anche un'improvvisa calma dopo un periodo di grande sofferenza."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un punto che i concorsi chiedono: si chiede in modo diretto se la persona pensa di togliersi la vita. Una domanda chiara, fatta con rispetto, non fa nascere un'idea che non c'era."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Chiedere non aumenta il rischio: apre la possibilita' di aiutare."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il rischio e' elevato, la persona non si lascia sola, si segnala e si attiva la valutazione specialistica. In ospedale il riferimento e' la Raccomandazione quattro, sulla prevenzione del suicidio di paziente in ospedale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prevede la valutazione del rischio, la sicurezza dell'ambiente, cioe' finestre, oggetti potenzialmente pericolosi, farmaci, e una sorveglianza adeguata al rischio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E attenzione ai momenti di transizione, come i trasferimenti e la dimissione, che sono fra i piu' delicati. Il suicidio in ospedale e' un evento sentinella, e gli operatori coinvolti vanno sostenuti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La contenzione in psichiatria segue gli stessi principi della lezione tre punto uno: e' una misura estrema, eccezionale e temporanea, con prescrizione, monitoraggio stretto, documentazione e rivalutazione continua."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molti SPDC in Italia lavorano secondo un modello no restraint. Dimostrano che con relazione, presenza, de-escalation e organizzazione dell'ambiente la contenzione puo' diventare rarissima, o assente."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le dipendenze sono seguite dai SerD, i Servizi per le Dipendenze, previsti dal DPR trecentonove del millenovecentonovanta, della lezione cinque punto sette: sostanze, alcol, gioco d'azzardo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'approccio e' non giudicante, con interventi di riduzione del danno. Un punto pratico: chi e' in terapia sostitutiva per gli oppioidi, con metadone o buprenorfina, quando viene ricoverato deve continuarla."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dose si verifica con il SerD. Interromperla provoca astinenza, e allontana la persona dalle cure. E nell'overdose da oppioidi, il farmaco da ricordare e' il naloxone."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'astinenza da alcol, frequente nei pazienti ricoverati per altri motivi. Compare di norma tra sei e ventiquattro ore dall'ultima assunzione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tremori, sudorazione, tachicardia, ansia, insonnia, nausea, fino alle convulsioni. La forma piu' grave e' il delirium tremens, tipicamente fra quarantotto e settantadue ore: confusione, allucinazioni, agitazione, ipertermia."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un'emergenza. Si valuta con scale come la CIWA-Ar. E una regola importante: nella persona con abuso di alcol si somministra la tiamina, la vitamina B uno, prima del glucosio, per prevenire l'encefalopatia di Wernicke."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'anamnesi sull'alcol, fatta senza giudizio all'ingresso, e' un atto di sicurezza. Chi la salta scopre il problema al secondo giorno, nel momento peggiore."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un tema trasversale: lo stigma. Ritarda la richiesta di aiuto e peggiora gli esiti. Comincia dal linguaggio: si dice persona con schizofrenia, non schizofrenico."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un dato che fa riflettere: le persone con disturbi mentali gravi hanno un'aspettativa di vita ridotta, in buona parte per malattie fisiche trascurate. Il loro dolore toracico va valutato come quello di chiunque."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Un uomo in chirurgia da due giorni: tremori, sudorazione, frequenza centodiciotto, agitato. Dice di vedere insetti sul muro. All'ingresso nessuno gli ha chiesto dell'alcol."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa pensi? Astinenza alcolica, con evoluzione verso il delirium tremens, che compare proprio fra quarantotto e settantadue ore. I tempi tornano."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Sicurezza, parametri, glicemia, avvisi il medico, prepari la terapia prescritta, con la tiamina prima del glucosio, e monitori con una scala. E l'anamnesi sulle sostanze non e' un'intrusione: e' prevenzione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto ogni ULSS ha un Dipartimento di Salute Mentale, con CSM, SPDC e strutture residenziali e diurne, e una rete per le dipendenze con i SerD, in forte integrazione con il privato sociale e il volontariato."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'orale, la frase chiave e': la salute mentale si cura nel territorio, e l'ospedale e' un momento del percorso, non il centro."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Legge centottanta e legge ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: alterazioni urgenti, rifiuto, nessuna cura possibile fuori dall'ospedale. La pericolosita' non c'entra."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proposta, convalida, ordinanza del sindaco, giudice tutelare entro quarantotto ore e convalida entro altre quarantotto. Sette giorni. Chiedere direttamente. Tiamina prima del glucosio. Terapie sostitutive: continuare."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: l'area materno-infantile. Dalla gravidanza al parto, dal puerperio al neonato."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fino all'assistenza pediatrica di base, dove i valori normali cambiano con l'eta' e il dolore si misura in un altro modo. A tra poco."
+ }
+]
