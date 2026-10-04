@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Ogni bisogno ha il suo luogo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."
+ },
+ {
+  "id": "s35",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."
+ },
+ {
+  "id": "s36",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo state facendo morire?: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."
+ },
+ {
+  "id": "s42",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La persona giusta, nel posto giusto, al momento giusto."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."
+ },
+ {
+  "id": "s47",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."
+ },
+ {
+  "id": "s49",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."
+ }
+]
