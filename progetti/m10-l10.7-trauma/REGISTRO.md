@@ -14,13 +14,31 @@ Settima lezione del Modulo 10: quattro scenari dell'emergenza. Il trauma con l'X
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,29 (A $0,65 · B $0,64) |
+| costo trascrizioni | $0,56 |
 | pause senza voce | s15 s35 |
 
 ```
 CARATTERI  7.752          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:51.4     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 3.940 car · chunk B 3.812 car)
+tracce grezze             A 279.2 s  ·  B 339.1 s
+silenzi                   fattore 1,218   ->   atempo 1,087
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**607/620 parole**, la B **580/589**, nessun buco. Le rese diverse
+(non buchi): s03 «maxi» sentito «max»; s03 «abcde» sentito «a b c d e»; s04 «abcde» sentito «a b c d e»; s05 «e» sentito «ee»; s09 «ee» sentito «e»; s16 «per 100» sentito «percento»; s18 «per 100» sentito «percento»; s22 «per 100» sentito «percento»; s24 «e» sentito «ee»; s26 «abcde» sentito «a b c d e»; s34 «e» sentito «ee»; s46 «xabcde» sentito «abcde»; s48 «sepsi» sentito «sepsis»; s49 «e» sentito «ee».
 
 ## Le scene
 

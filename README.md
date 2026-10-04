@@ -95,6 +95,8 @@ progetti/<modulo>-<lezione>/
 | `m10-l10.1-triage` | Modulo 10 · 10.1 Il sistema dell'emergenza e il triage | 8:08.3 | `98e334b6caa8f7a6aa72984fb729072a` |
 | `m10-l10.2-abcde` | Modulo 10 · 10.2 La valutazione del paziente critico: ABCDE | 8:06.0 | `bc00f06bf5e7840004237d625ad69544` |
 | `m10-l10.3-rcp` | Modulo 10 · 10.3 BLSD e ALS nell'adulto | 8:06.7 | `3529f8bcb233781a2ed942c64f7741bf` |
+| `m10-l10.4-pediatria` | Modulo 10 · 10.4 Emergenze pediatriche e ostetriche | 8:06.6 | `abbe0ef8e3b87eac156e882db0cdfa03` |
+| `m10-l10.5-vie-aeree` | Modulo 10 · 10.5 Gestione delle vie aeree e ventilazione | 8:04.6 | `a1999a03f4ed6e051b23ee1951bb08f0` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

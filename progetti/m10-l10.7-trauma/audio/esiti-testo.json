@@ -1,0 +1,88 @@
+{
+ "A": {
+  "parole_copione": 620,
+  "parole_dette": 624,
+  "coincidenti": 607,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "maxi",
+    "detto": "max"
+   },
+   {
+    "blocco": "s03",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s04",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s09",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s16",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s18",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s22",
+    "copione": "per 100",
+    "detto": "percento"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 589,
+  "parole_dette": 589,
+  "coincidenti": 580,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s46",
+    "copione": "xabcde",
+    "detto": "abcde"
+   },
+   {
+    "blocco": "s48",
+    "copione": "sepsi",
+    "detto": "sepsis"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
