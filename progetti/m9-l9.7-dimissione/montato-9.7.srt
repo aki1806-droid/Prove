@@ -1,191 +1,191 @@
 1
-00:00:03,000 --> 00:00:12,170
-La dimissione non e' la fine del percorso chirurgico: e' il passaggio a una fase in cui la persona e i familiari gestiscono da soli cio' che in ospedale gestivano i professionisti.
+00:00:03,000 --> 00:00:14,480
+La dimissione non e' la fine del percorso chirurgico: e' il passaggio a una fase nuova. Da qui, la persona e i suoi familiari gestiscono da soli cio' che in ospedale gestivano i professionisti.
 
 2
-00:00:12,170 --> 00:00:21,590
+00:00:14,480 --> 00:00:24,490
 La ferita, i farmaci, il movimento, i segnali d'allarme: tutto quello che in reparto faceva l'infermiere, da domani lo fa la persona, o chi le sta accanto.
 
 3
-00:00:21,590 --> 00:00:32,550
+00:00:24,490 --> 00:00:35,650
 Molte riammissioni nascono da una dimissione affrettata o da un'educazione incompleta. Questa lezione risponde a una domanda che compare spesso all'orale: come si dimette bene un paziente?
 
 4
-00:00:32,550 --> 00:00:40,710
+00:00:35,650 --> 00:00:44,170
 Il principio: la dimissione si pianifica dall'ingresso, anzi spesso dal prericovero, quando la persona e' ancora lucida e ha tempo per capire.
 
 5
-00:00:40,710 --> 00:00:45,310
+00:00:44,170 --> 00:00:48,770
 La dimissione si pianifica dall'ingresso.
 
 6
-00:00:45,310 --> 00:00:57,690
+00:00:48,770 --> 00:01:02,150
 Si valutano precocemente i bisogni che la persona avra' a casa: autonomia, supporto familiare, abitazione, dispositivi, anche con strumenti di screening del rischio di dimissione difficile, come l'indice BRASS.
 
 7
-00:00:57,690 --> 00:01:08,380
+00:01:02,150 --> 00:01:12,290
 Se si scopre il giorno della dimissione che la persona vive sola al terzo piano senza ascensore, e' troppo tardi: i servizi hanno bisogno di giorni per attivarsi, non di ore.
 
 8
-00:01:08,380 --> 00:01:19,670
+00:01:12,290 --> 00:01:23,440
 Due tipi di dimissione. Ordinaria: la persona torna a casa autonoma, o con un supporto familiare sufficiente per i bisogni che restano: una medicazione, qualche iniezione, un controllo.
 
 9
-00:01:19,670 --> 00:01:30,390
+00:01:23,440 --> 00:01:34,080
 Protetta: la persona ha bisogni sanitari o socio-sanitari che richiedono la presa in carico dei servizi territoriali, perche' a casa, da sola o con la famiglia, non ce la farebbe.
 
 10
-00:01:30,390 --> 00:01:39,580
+00:01:34,080 --> 00:01:43,710
 La dimissione protetta si attiva in anticipo, oggi spesso attraverso la Centrale Operativa Territoriale, la COT, che fa da regia fra ospedale e territorio.
 
 11
-00:01:39,580 --> 00:01:49,400
+00:01:43,710 --> 00:01:54,300
 E puo' portare all'assistenza domiciliare integrata, a una struttura intermedia come l'Ospedale di Comunita', o alla residenzialita'. Lo vedremo nella lezione undici punto sette.
 
 12
-00:01:49,400 --> 00:01:57,540
+00:01:54,300 --> 00:02:02,520
 La lettera infermieristica di dimissione, che abbiamo visto nella lezione due punto sette e che nel paziente chirurgico ha contenuti specifici.
 
 13
-00:01:57,540 --> 00:02:10,370
+00:02:02,520 --> 00:02:15,690
 I bisogni assistenziali residui, l'autonomia e gli ausili, la ferita: aspetto, medicazione in uso, frequenza del cambio, data di rimozione dei punti. Tutto cio' che chi arriva dopo deve sapere senza chiedere.
 
 14
-00:02:10,370 --> 00:02:17,190
+00:02:15,690 --> 00:02:22,910
 I dispositivi presenti, l'educazione erogata e quella ancora da completare, il caregiver di riferimento, i contatti.
 
 15
-00:02:17,190 --> 00:02:26,140
+00:02:22,910 --> 00:02:31,440
 E' il documento con cui l'infermiere del territorio riprende il filo: senza, ricomincia da zero, e la persona racconta tutto per la terza volta.
 
 16
-00:02:26,140 --> 00:02:38,000
+00:02:31,440 --> 00:02:43,350
 I contenuti dell'educazione. La ferita: igiene delle mani prima di toccare la medicazione, quando si puo' fare la doccia, come e quando cambiare la medicazione, e che cosa e' normale vedere nei primi giorni.
 
 17
-00:02:38,000 --> 00:02:50,650
+00:02:43,350 --> 00:02:56,660
 E soprattutto i segni di infezione: rossore che si estende, calore, gonfiore, secrezione, dolore in aumento, febbre. E quelli di deiscenza: la ferita che si apre, il liquido abbondante.
 
 18
-00:02:50,650 --> 00:03:00,080
+00:02:56,660 --> 00:03:05,940
 Molte infezioni del sito chirurgico compaiono a casa, come abbiamo detto nella lezione sette punto quattro: riconoscerle presto dipende da questo momento.
 
 19
-00:03:00,080 --> 00:03:11,270
+00:03:05,940 --> 00:03:17,410
 I dispositivi. Se la persona torna a casa con un drenaggio, deve saperlo svuotare, misurare e annotare la quantita' e l'aspetto, mantenerlo fissato e riconoscere i segni d'allarme.
 
 20
-00:03:11,270 --> 00:03:22,550
+00:03:17,410 --> 00:03:29,260
 Lo stesso vale per catetere, stomia, PICC: ogni dispositivo ha i suoi gesti quotidiani e i suoi segnali da riconoscere, e ognuno va insegnato con il dispositivo in mano, non a parole.
 
 21
-00:03:22,550 --> 00:03:31,410
+00:03:29,260 --> 00:03:38,060
 E la verifica non si fa chiedendo «ha capito?», ma facendo eseguire la manovra: e' il teach-back della lezione due punto sette, nella sua forma pratica.
 
 22
-00:03:31,410 --> 00:03:42,420
+00:03:38,060 --> 00:03:48,970
 La terapia. Alla dimissione si esegue la riconciliazione della Raccomandazione diciassette: quali farmaci sono nuovi, quali sospesi, quali modificati rispetto a prima del ricovero.
 
 23
-00:03:42,420 --> 00:03:55,100
+00:03:48,970 --> 00:04:01,840
 E quando riprendere quelli sospesi per l'intervento, come anticoagulanti e antiaggreganti: una data precisa, scritta, non un «quando se la sente». Un anticoagulante dimenticato e' una trombosi a casa.
 
 24
-00:03:55,100 --> 00:04:03,150
+00:04:01,840 --> 00:04:10,250
 Se la persona deve fare l'eparina a casa, si insegna la tecnica di autosomministrazione, la durata della terapia e lo smaltimento degli aghi.
 
 25
-00:04:03,150 --> 00:04:13,780
+00:04:10,250 --> 00:04:21,080
 Per gli analgesici: orari, dose massima del paracetamolo, e prevenzione della stipsi se prende oppioidi. Il dolore a casa si tratta a orario, non quando diventa insopportabile.
 
 26
-00:04:13,780 --> 00:04:27,840
+00:04:21,080 --> 00:04:34,770
 La vita quotidiana. La mobilizzazione e l'attivita' fisica progressiva: che cosa si puo' fare oggi, e che cosa fra una settimana. Le precauzioni specifiche, come quelle della protesi d'anca. Alimentazione e idratazione.
 
 27
-00:04:27,840 --> 00:04:34,780
+00:04:34,770 --> 00:04:41,530
 Quando riprendere il lavoro, la guida, i rapporti sessuali: sono le domande che la persona spesso non fa, e che aspetta.
 
 28
-00:04:34,780 --> 00:04:45,590
+00:04:41,530 --> 00:04:52,040
 E la prevenzione della trombosi, che a casa dipende dalla persona: camminare, fare gli esercizi delle gambe, bere. E sapere che una gamba gonfia e dolente va fatta vedere, subito.
 
 29
-00:04:45,590 --> 00:04:56,850
+00:04:52,040 --> 00:05:03,020
 Il follow-up. Gli appuntamenti di controllo, con il chirurgo, per la rimozione dei punti, per le medicazioni. Gli esami da eseguire, con la data e il luogo, non «fra qualche settimana».
 
 30
-00:04:56,850 --> 00:05:07,670
+00:05:03,020 --> 00:05:13,550
 I numeri di telefono per i problemi, scritti in modo chiaro: chi chiamare di giorno, chi di notte. Il ruolo del medico di medicina generale e dell'infermiere di famiglia e comunita'.
 
 31
-00:05:07,670 --> 00:05:19,620
+00:05:13,550 --> 00:05:25,180
 E in molte realta' un contatto telefonico infermieristico nei giorni successivi, che intercetta i problemi prima che diventino un ritorno in pronto soccorso: una telefonata costa meno di una riammissione.
 
 32
-00:05:19,620 --> 00:05:27,600
+00:05:25,180 --> 00:05:32,950
 E come si educa bene. Si comincia presto, non il giorno della dimissione, quando la persona e' stanca e pensa solo a tornare a casa.
 
 33
-00:05:27,600 --> 00:05:36,740
+00:05:32,950 --> 00:05:41,840
 Poche informazioni alla volta, linguaggio semplice, materiale scritto da portare a casa. Si coinvolge il caregiver, perche' spesso e' lui che fara' le cose.
 
 34
-00:05:36,740 --> 00:05:46,890
+00:05:41,840 --> 00:05:51,710
 Si verifica con il teach-back: la persona ripete con parole sue, o mostra con le mani. Se non ci riesce, non ha capito lei: abbiamo spiegato male noi, e si ricomincia.
 
 35
-00:05:46,890 --> 00:05:57,180
+00:05:51,710 --> 00:06:01,730
 E si tiene conto dell'alfabetizzazione sanitaria e della lingua, con il mediatore culturale quando serve: un foglio di istruzioni in italiano non serve a chi non lo legge.
 
 36
-00:05:57,180 --> 00:06:05,440
+00:06:01,730 --> 00:06:09,770
 Il caso. Anziana di ottantadue anni, vive sola, operata di protesi d'anca; dimissione prevista fra due giorni. Che cosa fai?
 
 37
-00:06:05,440 --> 00:06:17,100
+00:06:09,770 --> 00:06:21,120
 Valuti l'autonomia e il contesto abitativo e familiare: riesce ad alzarsi, a vestirsi, a salire le scale? C'e' qualcuno che puo' stare con lei? Sa fare un'iniezione, o c'e' chi puo' impararla?
 
 38
-00:06:17,100 --> 00:06:31,320
+00:06:21,120 --> 00:06:34,950
 Se i bisogni non possono essere soddisfatti a casa, segnali la necessita' di una dimissione protetta e attivi la COT secondo procedura: riabilitazione in struttura, Ospedale di Comunita' o ADI con fisioterapia e ausili.
 
 39
-00:06:31,320 --> 00:06:41,820
+00:06:34,950 --> 00:06:45,170
 Nel frattempo educhi alle precauzioni dell'anca, alla prevenzione delle cadute e all'eparina a domicilio, verificando con il teach-back. E compili la lettera infermieristica.
 
 40
-00:06:41,820 --> 00:06:50,330
+00:06:45,170 --> 00:06:53,450
 In Veneto le dimissioni protette passano oggi dalle Centrali Operative Territoriali, che coordinano il passaggio fra ospedale e territorio.
 
 41
-00:06:50,330 --> 00:07:02,200
+00:06:53,450 --> 00:07:04,990
 Verso l'ADI distrettuale, gli Ospedali di Comunita', le strutture residenziali, con l'infermiere di famiglia e comunita' come riferimento a domicilio, che conosce la persona prima che abbia un problema.
 
 42
-00:07:02,200 --> 00:07:14,040
+00:07:04,990 --> 00:07:16,520
 E' il modello del decreto ministeriale settantasette del duemilaventidue, che approfondiremo nella lezione undici punto sette: l'ospedale cura l'acuto, il territorio prende in carico il resto.
 
 43
-00:07:14,040 --> 00:07:26,690
+00:07:16,520 --> 00:07:28,830
 La tabella. Pianificare dall'ingresso, con lo screening della dimissione difficile. Dimissione ordinaria o protetta, tramite la COT. Lettera infermieristica con la ferita, i dispositivi, il caregiver.
 
 44
-00:07:26,690 --> 00:07:37,750
+00:07:28,830 --> 00:07:39,590
 Educare a ferita e segni di infezione, dispositivi, terapia con riconciliazione, vita quotidiana, prevenzione della trombosi. Follow-up e contatti. E teach-back.
 
 45
-00:07:37,750 --> 00:07:46,890
+00:07:39,590 --> 00:07:48,490
 La frase della lezione: la persona dimessa bene e' quella che sa che cosa fare, e chi chiamare quando qualcosa non va. Non quella che ha ricevuto piu' fogli.
 
 46
-00:07:46,890 --> 00:07:51,750
+00:07:48,490 --> 00:07:53,250
 La persona dimessa bene sa che cosa fare, e chi chiamare.
 
 47
-00:07:51,750 --> 00:07:58,610
+00:07:53,250 --> 00:07:59,920
 Non e' una frase di circostanza: e' il criterio con cui, all'orale, si giudica una dimissione raccontata bene.
 
 48
-00:07:58,610 --> 00:08:06,910
+00:07:59,920 --> 00:08:08,000
 Nella prossima lezione ricomponiamo il modulo nove lungo una linea del tempo, dalla decisione chirurgica alla ripresa a casa. A tra poco.

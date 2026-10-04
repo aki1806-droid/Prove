@@ -1,15 +1,9 @@
 {
  "A": {
-  "parole_copione": 659,
-  "parole_dette": 655,
-  "coincidenti": 647,
-  "buchi": [
-   {
-    "blocco": "s02",
-    "parole_copione": "la persona e",
-    "al_loro_posto": "(nulla)"
-   }
-  ],
+  "parole_copione": 661,
+  "parole_dette": 659,
+  "coincidenti": 650,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s05",
@@ -40,6 +34,11 @@
     "blocco": "s22",
     "copione": "e",
     "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "teach back",
+    "detto": "teachback"
    },
    {
     "blocco": "s24",

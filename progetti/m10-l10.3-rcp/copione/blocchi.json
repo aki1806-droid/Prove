@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questa e' la lezione che piu' di ogni altra puo' servirti fuori dall'esame. Nell'arresto cardiaco ogni minuto senza rianimazione riduce la sopravvivenza in modo drastico."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' l'emergenza in cui un infermiere preparato fa la differenza. Seguiamo le linee guida europee ERC, recepite in Italia da IRC: prima il supporto di base con defibrillatore, il BLSD, poi quello avanzato, l'ALS."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La catena della sopravvivenza ha cinque anelli. Uno: riconoscimento precoce dell'arresto e chiamata di aiuto. Due: rianimazione cardiopolmonare precoce. Tre: defibrillazione precoce."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: supporto avanzato precoce, con monitor, farmaci e vie aeree. Cinque: cure post-arresto, perche' il ritorno del polso non e' la fine del lavoro, ma l'inizio di un'altra fase."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La catena e' forte quanto il suo anello piu' debole. E i primi tre anelli dipendono da chi e' presente nei primi minuti, cioe', in reparto, quasi sempre da un infermiere."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sequenza iniziale del BLSD. Uno: sicurezza della scena, per te, per gli altri, per la vittima. Due: valutare la coscienza, scuotendo le spalle e chiamando ad alta voce."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: se non risponde, chiamare aiuto. Quattro: aprire le vie aeree, con iperestensione del capo e sollevamento del mento."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: valutare il respiro guardando, ascoltando e sentendo, per non piu' di dieci secondi. Se il respiro e' assente o anormale, la persona e' in arresto cardiaco."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Il gasping non e' un respiro normale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il punto piu' importante: il gasping, il respiro agonico, lento e rumoroso, e' un segno di arresto. Scambiarlo per respiro fa perdere minuti preziosi."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si chiama il centododici o il centodiciotto, in ospedale il numero interno dell'emergenza, e si chiede che venga portato il defibrillatore, il DAE."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se si e' soli con il telefono, si mette in vivavoce e si inizia subito mentre si parla con la centrale. In ospedale si chiama il team e il carrello delle emergenze della lezione cinque punto sette."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le compressioni toraciche, il cuore della rianimazione. Mani al centro del torace, sulla meta' inferiore dello sterno, su una superficie rigida."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Profondita' di cinque, sei centimetri. Frequenza di cento, centoventi al minuto. Rilascio completo dopo ogni compressione, perche' il cuore si riempie proprio durante il rilascio."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Minime interruzioni: ogni pausa fa crollare la pressione di perfusione, che poi impiega diverse compressioni a risalire."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cambio dell'operatore ogni due minuti: la qualita' cala con la stanchezza molto prima che chi comprime se ne accorga."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rapporto e' trenta compressioni e due ventilazioni. Ogni ventilazione dura circa un secondo e deve far sollevare il torace in modo visibile: insufflare troppo forte porta aria nello stomaco."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In ospedale si ventila con il pallone-maschera collegato all'ossigeno. Se non si e' in grado di ventilare, le compressioni continue sono comunque molto meglio di niente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il DAE. Appena arriva si accende e si seguono le istruzioni vocali. Le piastre sul torace asciutto: una sotto la clavicola destra, l'altra sul lato sinistro, sotto l'ascella."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mentre un soccorritore le applica, l'altro continua a comprimere. Durante l'analisi nessuno tocca il paziente. Se lo shock e' indicato, si verifica ancora che nessuno sia a contatto, e si eroga."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si riprendono subito le compressioni per due minuti, senza fermarsi a cercare il polso: anche dopo uno shock efficace il cuore impiega tempo a pompare in modo valido."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I ritmi dell'arresto, che abbiamo visto nella lezione otto punto uno, si dividono in due gruppi. Defibrillabili: la fibrillazione ventricolare e la tachicardia ventricolare senza polso."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non defibrillabili: l'asistolia e l'attivita' elettrica senza polso, la PEA. Qui lo shock non serve: serve una rianimazione di qualita' e la ricerca della causa."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ALS, il supporto avanzato, aggiunge alla rianimazione di base il monitor, i farmaci e la gestione avanzata delle vie aeree."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'algoritmo e' un ciclo: rianimazione e analisi del ritmo ogni due minuti. Se il ritmo e' defibrillabile, shock e due minuti di rianimazione; se non lo e', due minuti di rianimazione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E durante la rianimazione: accesso venoso o intraosseo, come nella lezione cinque punto due, farmaci, vie aeree avanzate, capnografia, e la ricerca delle cause reversibili."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci, con i numeri da sapere. Adrenalina, un milligrammo, endovena o intraossea: nei ritmi non defibrillabili, il prima possibile."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei ritmi defibrillabili, dopo il terzo shock. Poi ogni tre, cinque minuti, cioe' circa ogni due cicli."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Amiodarone: trecento milligrammi dopo il terzo shock, e una seconda dose di centocinquanta dopo il quinto. E dopo ogni farmaco si lava la via con soluzione fisiologica."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cause reversibili, da cercare durante ogni arresto e non solo alla fine, con la regola delle quattro I e delle quattro T."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le quattro I: ipossia, ipovolemia, ipo o iperkaliemia e altre alterazioni metaboliche, ipotermia. Le quattro T: trombosi, coronarica o polmonare; tamponamento cardiaco; tossici; pneumotorace iperteso."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riconoscere e trattare la causa e' spesso l'unico modo per far ripartire un cuore in asistolia o in PEA: li' lo shock non serve, e le compressioni da sole guadagnano soltanto tempo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La capnografia misura l'anidride carbonica a fine espirazione, e durante l'arresto ha tre usi. Conferma il corretto posizionamento del tubo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Misura la qualita' delle compressioni: valori bassi indicano compressioni poco efficaci. E un aumento brusco puo' essere il primo segno del ritorno della circolazione spontanea, il ROSC."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ruolo dell'infermiere nel team: compressioni e cambi, defibrillazione, che in molti contesti l'infermiere formato esegue in autonomia, accesso venoso e farmaci, supporto alle vie aeree."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E due ruoli spesso sottovalutati: il timekeeper, che scandisce i due minuti dei cicli e i tempi dell'adrenalina, e chi documenta orari, ritmi, shock e farmaci."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il team funziona con un leader chiaro e una comunicazione a ciclo chiuso: chi riceve un ordine lo ripete, e conferma quando l'ha eseguito."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cure post-arresto, l'ultimo anello. Dopo il ritorno della circolazione si riparte dall'ABCDE. Saturazione fra novantaquattro e novantotto: ne' ipossia ne' eccesso di ossigeno."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anidride carbonica normale. Pressione adeguata, evitando l'ipotensione. ECG a dodici derivazioni, e coronarografia se indicata, perche' molti arresti sono causati da un infarto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemia. Controllo della temperatura, evitando la febbre. E la ricerca e il trattamento della causa, con le stesse quattro I e quattro T che si cercavano durante l'arresto."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Entri in stanza e trovi un paziente che non risponde, con un respiro lento e rumoroso a intervalli irregolari. Che cosa fai?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' gasping: respiro anormale, quindi arresto cardiaco. Chiami aiuto e il team, chiedi il defibrillatore, superficie rigida o tavola sul letto, e inizi le compressioni, trenta a due."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Appena arriva il defibrillatore, piastre e analisi. Chi aspetta di essere sicuro, perche' respira ancora, perde i minuti che decidono l'esito."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto la formazione segue le linee guida IRC ed ERC, con corsi BLSD e ALS certificati, carrelli e defibrillatori standardizzati, team per l'emergenza in ospedale e DAE diffusi nei luoghi pubblici."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Respiro valutato al massimo dieci secondi; il gasping e' arresto. Compressioni cinque, sei centimetri, cento, centoventi al minuto, rilascio completo; trenta a due; cambio ogni due minuti."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo lo shock, subito compressioni. Adrenalina un milligrammo, subito nei non defibrillabili e dopo il terzo shock, poi ogni tre, cinque minuti. Amiodarone trecento, poi centocinquanta. Quattro I e quattro T."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Nel dubbio, comprimi."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le compressioni su chi non e' in arresto raramente fanno danni gravi; il ritardo su chi e' in arresto e' quasi sempre fatale. Nella prossima lezione: il bambino, il lattante, il parto imminente. A tra poco."
+ }
+]

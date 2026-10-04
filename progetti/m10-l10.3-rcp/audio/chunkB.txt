@@ -1,0 +1,49 @@
+L'ALS, il supporto avanzato, aggiunge alla rianimazione di base il monitor, i farmaci e la gestione avanzata delle vie aeree.
+
+L'algoritmo e' un ciclo: rianimazione e analisi del ritmo ogni due minuti. Se il ritmo e' defibrillabile, shock e due minuti di rianimazione; se non lo e', due minuti di rianimazione.
+
+E durante la rianimazione: accesso venoso o intraosseo, come nella lezione cinque punto due, farmaci, vie aeree avanzate, capnografia, e la ricerca delle cause reversibili.
+
+I farmaci, con i numeri da sapere. Adrenalina, un milligrammo, endovena o intraossea: nei ritmi non defibrillabili, il prima possibile.
+
+Nei ritmi defibrillabili, dopo il terzo shock. Poi ogni tre, cinque minuti, cioe' circa ogni due cicli.
+
+Amiodarone: trecento milligrammi dopo il terzo shock, e una seconda dose di centocinquanta dopo il quinto. E dopo ogni farmaco si lava la via con soluzione fisiologica.
+
+Le cause reversibili, da cercare durante ogni arresto e non solo alla fine, con la regola delle quattro I e delle quattro T.
+
+Le quattro I: ipossia, ipovolemia, ipo o iperkaliemia e altre alterazioni metaboliche, ipotermia. Le quattro T: trombosi, coronarica o polmonare; tamponamento cardiaco; tossici; pneumotorace iperteso.
+
+Riconoscere e trattare la causa e' spesso l'unico modo per far ripartire un cuore in asistolia o in PEA: li' lo shock non serve, e le compressioni da sole guadagnano soltanto tempo.
+
+La capnografia misura l'anidride carbonica a fine espirazione, e durante l'arresto ha tre usi. Conferma il corretto posizionamento del tubo.
+
+Misura la qualita' delle compressioni: valori bassi indicano compressioni poco efficaci. E un aumento brusco puo' essere il primo segno del ritorno della circolazione spontanea, il ROSC.
+
+Il ruolo dell'infermiere nel team: compressioni e cambi, defibrillazione, che in molti contesti l'infermiere formato esegue in autonomia, accesso venoso e farmaci, supporto alle vie aeree.
+
+E due ruoli spesso sottovalutati: il timekeeper, che scandisce i due minuti dei cicli e i tempi dell'adrenalina, e chi documenta orari, ritmi, shock e farmaci.
+
+Il team funziona con un leader chiaro e una comunicazione a ciclo chiuso: chi riceve un ordine lo ripete, e conferma quando l'ha eseguito.
+
+Le cure post-arresto, l'ultimo anello. Dopo il ritorno della circolazione si riparte dall'ABCDE. Saturazione fra novantaquattro e novantotto: ne' ipossia ne' eccesso di ossigeno.
+
+Anidride carbonica normale. Pressione adeguata, evitando l'ipotensione. ECG a dodici derivazioni, e coronarografia se indicata, perche' molti arresti sono causati da un infarto.
+
+Glicemia. Controllo della temperatura, evitando la febbre. E la ricerca e il trattamento della causa, con le stesse quattro I e quattro T che si cercavano durante l'arresto.
+
+Il caso. Entri in stanza e trovi un paziente che non risponde, con un respiro lento e rumoroso a intervalli irregolari. Che cosa fai?
+
+E' gasping: respiro anormale, quindi arresto cardiaco. Chiami aiuto e il team, chiedi il defibrillatore, superficie rigida o tavola sul letto, e inizi le compressioni, trenta a due.
+
+Appena arriva il defibrillatore, piastre e analisi. Chi aspetta di essere sicuro, perche' respira ancora, perde i minuti che decidono l'esito.
+
+In Veneto la formazione segue le linee guida IRC ed ERC, con corsi BLSD e ALS certificati, carrelli e defibrillatori standardizzati, team per l'emergenza in ospedale e DAE diffusi nei luoghi pubblici.
+
+La tabella. Respiro valutato al massimo dieci secondi; il gasping e' arresto. Compressioni cinque, sei centimetri, cento, centoventi al minuto, rilascio completo; trenta a due; cambio ogni due minuti.
+
+Dopo lo shock, subito compressioni. Adrenalina un milligrammo, subito nei non defibrillabili e dopo il terzo shock, poi ogni tre, cinque minuti. Amiodarone trecento, poi centocinquanta. Quattro I e quattro T.
+
+[serious] Nel dubbio, comprimi.
+
+[warm] Le compressioni su chi non e' in arresto raramente fanno danni gravi; il ritardo su chi e' in arresto e' quasi sempre fatale. Nella prossima lezione: il bambino, il lattante, il parto imminente. A tra poco.

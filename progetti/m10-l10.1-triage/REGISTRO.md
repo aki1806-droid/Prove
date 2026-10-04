@@ -14,13 +14,36 @@ Prima lezione del Modulo 10: il sistema dell'emergenza territoriale (118, 112, c
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,67 · B $0,64) |
+| costo trascrizioni | $0,50 |
 | pause senza voce | s21 |
 
 ```
 CARATTERI  7.849          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:55.9     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.059 car · chunk B 3.790 car)
+tracce grezze             A 286.8 s  ·  B 260.9 s
+silenzi                   fattore 1,112   ->   atempo 1,042
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 1 (s21, solo in apparenza) | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+`s21` risulta a 8,3 car/s, sotto la fascia: è la frase sul verde «Il codice
+non è definitivo», 2,67 s sul grezzo (circa 10,5 car/s senza il tag), che
+`applica` allunga apposta a 4,6 s. Il taglio è giusto; il conto mette al
+denominatore la posa voluta e al numeratore anche il tag `[serious]`.
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**631/637 parole**, la B **579/582**, nessun buco. Le rese diverse
+(non buchi): s03 «chi» sentito «ti»; s11 «e» sentito «ee»; s12 «e» sentito «ee»; s14 «e» sentito «ee»; s26 «e» sentito «ee»; s35 «alla» sentito «la»; s38 «e» sentito «ee»; s41 «e» sentito «ee».
 
 ## Le scene
 

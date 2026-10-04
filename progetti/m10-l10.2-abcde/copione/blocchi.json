@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Davanti a un paziente che sta male, la tentazione e' cercare subito la diagnosi. L'approccio ABCDE fa il contrario: prima si cercano e si trattano i problemi che uccidono piu' in fretta, nell'ordine in cui uccidono."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Funziona per qualunque paziente critico, in qualunque contesto, e ti da' una struttura quando l'ansia rischia di toglierla. E' probabilmente lo strumento piu' utile di tutto il corso, e il piu' chiesto all'orale."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque lettere. A, airway, le vie aeree. B, breathing, il respiro. C, circulation, il circolo. D, disability, lo stato neurologico. E, exposure, l'esposizione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una regola che fa la differenza: tratta cio' che trovi prima di passare al punto successivo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Tratta cio' che trovi, prima di passare oltre."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se le vie aeree sono ostruite, non si misura la pressione: si liberano le vie aeree. Dopo ogni intervento si rivaluta. E si chiama aiuto presto, non quando si e' finito."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A, le vie aeree. La prima domanda e' semplice: il paziente parla? Se risponde normalmente, le vie aeree sono pervie, e in quel momento anche il cervello riceve ossigeno."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di ostruzione: rumori come russamento, gorgoglio, che indica liquidi, stridore, che indica un'ostruzione alta, rientramenti, movimento paradosso di torace e addome."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi: aprire le vie aeree con iperestensione del capo e sollevamento del mento; nel trauma, sublussazione della mandibola, per non muovere il rachide."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aspirare, inserire una cannula, posizione laterale, ossigeno, e chiamare un aiuto esperto. Un'ostruzione delle vie aeree uccide in pochi minuti: per questo viene prima di tutto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "B, il respiro. La frequenza respiratoria e' il parametro piu' sensibile di deterioramento, e il piu' dimenticato: va contata per un minuto, non stimata."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la saturazione. Il lavoro respiratorio: muscoli accessori, rientramenti, capacita' di parlare in frasi complete. La simmetria del torace e l'auscultazione. Il colorito."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi: posizione seduta, ossigeno secondo il target della lezione otto punto due, broncodilatatori, e se serve ventilazione assistita."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un paziente che non riesce a finire una frase senza fermarsi a respirare ti sta dicendo quanto e' grave, prima ancora del saturimetro."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C, il circolo. Frequenza cardiaca e ritmo. Pressione. Riempimento capillare: si preme sul polpastrello o sullo sterno per cinque secondi e si conta quanto tempo serve perche' il colore ritorni."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Normale sotto i due secondi. Colorito e temperatura della cute: una cute fredda e marezzata e' un circolo che si sta chiudendo. Emorragie visibili. Diuresi. Giugulari."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi: due accessi venosi di buon calibro, prelievi, liquidi secondo prescrizione, controllo delle emorragie con la compressione, ECG e monitoraggio continuo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "D, lo stato neurologico. Una valutazione rapida con AVPU: il paziente e' Alert, sveglio; risponde alla Voice, alla voce; risponde solo al Pain, al dolore; oppure e' Unresponsive, non risponde."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oppure la GCS della lezione due punto tre. Le pupille. E la glicemia, sempre: un'ipoglicemia puo' simulare qualsiasi quadro neurologico e si corregge in un minuto."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi segni di lato, dolore, e i farmaci che possono alterare la coscienza, come oppioidi e sedativi: un paziente sonnolento con le pupille a punta di spillo fa pensare subito all'oppioide."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, l'esposizione. Si scopre il paziente per esaminarlo completamente, nel rispetto della dignita': si cercano emorragie nascoste, lesioni, eruzioni cutanee."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una porpora che non sbianca alla pressione puo' indicare una meningite. Edemi, segni di trauma, accessi, drenaggi. Si misura la temperatura."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi si ricopre, perche' il paziente critico perde calore rapidamente e l'ipotermia peggiora tutto: la coagulazione, il ritmo cardiaco, la risposta ai farmaci."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Solo dopo aver stabilizzato le funzioni vitali con l'ABCDE si passa alla valutazione secondaria: un esame testa-piedi e un'anamnesi rapida."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con lo schema AMPIA: Allergie, Medicamenti, Patologie, ultimo Introito di cibo, Ambiente ed evento. In inglese, SAMPLE. Poi documentazione e consegna SBAR, con i valori e l'ora di ogni rilievo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In reparto, il deterioramento si intercetta prima con i punteggi di allerta precoce, come la NEWS2 della lezione due punto tre."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Somma punteggi per sette elementi: frequenza respiratoria, saturazione, con una scala dedicata per i pazienti ipercapnici, ossigenoterapia, pressione sistolica, frequenza cardiaca."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Coscienza, compresa la confusione di nuova insorgenza, e temperatura. Sette numeri che si misurano in due minuti al letto, senza nessuno strumento speciale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da zero a quattro il rischio e' basso, ma un tre in un singolo parametro richiede una valutazione urgente; cinque-sei rischio medio, risposta urgente; da sette in su rischio alto, risposta d'emergenza."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al punteggio corrisponde una risposta. In molti ospedali esistono team di risposta rapida, chiamati MET o RRT, che si attivano con criteri definiti."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punteggio di allerta elevato, un singolo parametro critico, e in molti sistemi anche la semplice preoccupazione dell'infermiere, anche se i numeri sembrano accettabili."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il loro scopo e' intervenire prima dell'arresto: la maggior parte degli arresti cardiaci in reparto e' preceduta da ore di segni di deterioramento, scritti in cartella e non letti insieme."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il monitoraggio multiparametrico: ECG, saturazione, pressione, frequenza respiratoria, temperatura, capnografia. Gli allarmi vanno impostati su soglie adatte al paziente e mai disattivati."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un fenomeno da conoscere: l'alarm fatigue. Quando i monitor suonano continuamente per motivi irrilevanti, gli operatori si abituano e finiscono per ignorare anche gli allarmi veri."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La soluzione non e' silenziare, ma personalizzare le soglie e verificare sempre il paziente, non solo lo schermo: un saturimetro staccato e un arresto respiratorio suonano allo stesso modo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso, da affrontare con l'ABCDE. Paziente con polmonite, alle tre di notte: frequenza respiratoria ventotto, saturazione novanta, frequenza cardiaca centoquindici, pressione sistolica novantacinque."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Confuso, mentre prima era orientato, febbre a trentotto e sei. A: parla, ma confuso, vie aeree pervie. B: tachipnea e desaturazione: ossigeno secondo target, posizione seduta."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C: tachicardia e pressione bassa: accessi venosi, prelievi, lattati, emocolture. D: confusione nuova, glicemia. E: febbre."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La NEWS2 e' alta: attivazione del team o del medico in emergenza. E' un quadro di possibile sepsi, che vedremo nella lezione dieci punto sei."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'errore da evitare, in quattro frasi che si sentono nei reparti. «Il paziente e' sempre stato cosi'». «Aspettiamo il giro del mattino». Abituarsi a un parametro alterato, perche' e' alterato da ieri."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E soprattutto: una confusione di nuova insorgenza nell'anziano non e' «normale per l'eta'»."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Una confusione nuova non e' normale per l'eta'."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' uno dei segni piu' precoci di sepsi, ipossia, ipoglicemia, globo vescicale. Va trattata come un allarme, e si riparte dalla A."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle aziende venete i punteggi di allerta precoce sono sempre piu' spesso integrati nella cartella elettronica, che calcola il punteggio dai parametri inseriti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E molti ospedali hanno team di risposta rapida con criteri di attivazione definiti. All'orale, la catena da citare e': parametri, punteggio, risposta graduata. Nessuno dei tre funziona senza gli altri due."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. A: parla? B: frequenza respiratoria, saturazione, lavoro respiratorio. C: frequenza, pressione, riempimento capillare sotto i due secondi, emorragie."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "D: AVPU o GCS, pupille, glicemia. E: esporre, temperatura, ricoprire. Tratta cio' che trovi, e rivaluta. NEWS2: da cinque urgente, da sette emergenza, e attenzione al tre in un singolo parametro."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione, cio' che si fa quando l'ABCDE trova un paziente che non risponde e non respira: la rianimazione cardiopolmonare, dal BLSD all'ALS. A tra poco."
+ }
+]

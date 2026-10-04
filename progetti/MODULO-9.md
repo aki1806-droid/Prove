@@ -19,7 +19,7 @@ si riempie man mano che le rese escono.
 | 9.5 | Le complicanze postoperatorie | 8:17.0 | `464025a6d06b93f959d7c830e89e1148` |
 | 9.6 | Chirurgie specialistiche: specificità assistenziali | 8:16.0 | `fa786952ca10e92ec1c135da1f1e9620` |
 | 9.7 | Dimissione ed educazione terapeutica | — |  |
-| 9.8 | Riepilogo del Modulo 9 e autovalutazione | — |  |
+| 9.8 | Riepilogo del Modulo 9 e autovalutazione | 8:10.8 | `6631bfa992afb4cda2c61e76c802bf28` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_9.md`;
 ogni lezione tiene la propria parte in `origine/script-9.N.md`. Il tema

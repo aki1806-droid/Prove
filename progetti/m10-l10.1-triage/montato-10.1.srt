@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,270
+Apriamo il modulo dell'emergenza, quello degli algoritmi e dei minuti che contano. Si comincia dall'organizzazione: come funziona il sistema che risponde a una chiamata di soccorso.
+
+2
+00:00:12,270 --> 00:00:23,450
+E come il pronto soccorso decide chi viene visitato prima. Il triage e' un'attivita' infermieristica per eccellenza, e il modello nazionale a cinque codici e' una domanda d'esame quasi certa.
+
+3
+00:00:23,450 --> 00:00:35,610
+Il sistema dell'emergenza territoriale fa capo al centodiciotto. Dove e' attivo il Numero Unico Europeo centododici, una centrale unica risponde a tutte le chiamate e le smista al servizio competente.
+
+4
+00:00:35,610 --> 00:00:45,470
+Sanitario, vigili del fuoco, forze dell'ordine. La centrale operativa sanitaria riceve la chiamata e ne stabilisce la gravita' con un'intervista strutturata: il dispatch.
+
+5
+00:00:45,470 --> 00:00:57,630
+Invia il mezzo adeguato e, se serve, guida chi chiama nelle prime manovre, per esempio la rianimazione cardiopolmonare al telefono: i minuti prima dell'arrivo del mezzo non sono minuti vuoti.
+
+6
+00:00:57,630 --> 00:01:06,080
+I mezzi. Il mezzo di soccorso di base, con soccorritori formati. Il mezzo con infermiere, che in molte realta' applica protocolli avanzati.
+
+7
+00:01:06,080 --> 00:01:16,680
+Il mezzo avanzato con medico, o l'automedica, per i casi in cui servono farmaci e manovre che solo il medico puo' fare. E l'elisoccorso, quando la distanza o il terreno lo richiedono.
+
+8
+00:01:16,680 --> 00:01:26,770
+La centrale decide quale inviare in base al codice di gravita' e alla disponibilita', e spesso li combina: un mezzo di base arriva per primo, un mezzo avanzato lo raggiunge.
+
+9
+00:01:26,770 --> 00:01:36,880
+Il triage intraospedaliero: la funzione con cui, all'arrivo in pronto soccorso, si stabilisce la priorita' di accesso alle cure in base alla gravita', non all'ordine di arrivo.
+
+10
+00:01:36,880 --> 00:01:44,640
+E' svolto da un infermiere con formazione specifica, ed e' regolato dalle Linee di indirizzo nazionali sul triage intraospedaliero.
+
+11
+00:01:44,640 --> 00:01:54,050
+Approvate in Conferenza Stato-Regioni nel duemiladiciannove, hanno introdotto un modello a cinque codici, uguale in tutta Italia: e' il modello che il concorso chiede.
+
+12
+00:01:54,050 --> 00:02:03,750
+I cinque codici, da sapere con numero, colore e tempo. Codice uno, rosso: emergenza, accesso immediato, compromissione delle funzioni vitali.
+
+13
+00:02:03,750 --> 00:02:15,210
+Codice due, arancione: urgenza, entro quindici minuti, rischio di compromissione delle funzioni vitali. E' il codice che non puo' aspettare in sala, anche se il paziente cammina e parla.
+
+14
+00:02:15,210 --> 00:02:24,090
+Codice tre, azzurro: urgenza differibile, entro sessanta minuti. Codice quattro, verde: urgenza minore, entro centoventi minuti.
+
+15
+00:02:24,090 --> 00:02:32,960
+Codice cinque, bianco: non urgenza, entro duecentoquaranta minuti. Il codice azzurro e' la novita' rispetto al vecchio sistema a quattro colori.
+
+16
+00:02:32,960 --> 00:02:44,760
+Le fasi del triage. Uno: la valutazione immediata, il «colpo d'occhio» sulla porta: se ci sono segni di pericolo per la vita, il paziente entra subito con codice uno, senza completare le altre fasi.
+
+17
+00:02:44,760 --> 00:02:57,990
+Due: la valutazione soggettiva, con il sintomo principale e l'intervista: che cosa e' successo, da quando, che cosa e' cambiato. Tre: la valutazione oggettiva, con i parametri vitali, i segni e le scale.
+
+18
+00:02:57,990 --> 00:03:07,880
+Quattro: la decisione di triage, cioe' il codice e il percorso. Cinque: la rivalutazione. Cinque fasi, e la quinta e' quella che si dimentica piu' spesso.
+
+19
+00:03:07,880 --> 00:03:14,880
+La rivalutazione e' una parte essenziale del triage, e i concorsi la chiedono: il codice non e' definitivo.
+
+20
+00:03:14,880 --> 00:03:19,480
+Il codice non e' definitivo.
+
+21
+00:03:19,480 --> 00:03:28,820
+I pazienti in attesa vengono rivalutati periodicamente, secondo i tempi previsti, e ogni volta che la loro situazione cambia o che riferiscono un peggioramento.
+
+22
+00:03:28,820 --> 00:03:40,430
+Il codice puo' essere modificato, in aumento o in diminuzione, e ogni modifica si documenta. Un paziente peggiorato in sala d'attesa senza essere rivalutato e' un evento evitabile.
+
+23
+00:03:40,430 --> 00:03:50,650
+Il triage non assegna solo un codice: indirizza a un percorso. Il fast track, che invia direttamente allo specialista i problemi minori e ben definiti, per esempio oculistici.
+
+24
+00:03:50,650 --> 00:04:00,150
+Il see and treat, in cui problemi minori vengono trattati da infermieri formati secondo protocolli: una piccola ferita, una distorsione, senza passare dal medico.
+
+25
+00:04:00,150 --> 00:04:10,760
+E i percorsi tempo-dipendenti: ictus, infarto, trauma, sepsi, in cui il triage attiva subito la catena delle lezioni otto punto uno e otto punto sei.
+
+26
+00:04:10,760 --> 00:04:22,280
+Il sovraffollamento del pronto soccorso, un problema strutturale. Una delle cause principali e' il boarding: pazienti per cui e' gia' stato deciso il ricovero, che restano in pronto soccorso perche' non c'e' un posto letto.
+
+27
+00:04:22,280 --> 00:04:31,310
+Le conseguenze sono documentate: ritardi, piu' eventi avversi, stress del personale, maggiore rischio di aggressioni. Ricordi la Raccomandazione otto.
+
+28
+00:04:31,310 --> 00:04:40,820
+Le strategie: gestione dei posti letto, percorsi alternativi, e il rafforzamento del territorio previsto dal decreto ministeriale settantasette del duemilaventidue.
+
+29
+00:04:40,820 --> 00:04:52,380
+L'OBI, Osservazione Breve Intensiva: un'area del pronto soccorso per i pazienti che richiedono un periodo di osservazione o accertamenti di breve durata prima di decidere se dimetterli o ricoverarli.
+
+30
+00:04:52,380 --> 00:05:00,460
+Per esempio un dolore toracico a basso rischio da sorvegliare con troponine ripetute, o una sincope da osservare qualche ora prima di decidere.
+
+31
+00:05:00,460 --> 00:05:12,000
+Ha una durata limitata, definita dalle indicazioni regionali, e serve a ridurre sia i ricoveri inappropriati sia le dimissioni premature: il tempo, qui, e' uno strumento diagnostico.
+
+32
+00:05:12,000 --> 00:05:20,910
+Esiste anche un triage extraospedaliero: il personale del centodiciotto valuta il paziente sul posto e decide non solo la gravita', ma la destinazione.
+
+33
+00:05:20,910 --> 00:05:31,430
+Il principio e' la centralizzazione: portare il paziente all'ospedale adeguato, che non e' necessariamente il piu' vicino. Qualche minuto di strada in piu' vale un centro che sa cosa fare.
+
+34
+00:05:31,430 --> 00:05:41,450
+Un grave politrauma va al centro traumatologico, un ictus candidato alla trombectomia al centro hub. E l'ospedale di destinazione viene avvisato in anticipo, per prepararsi.
+
+35
+00:05:41,450 --> 00:05:49,010
+Il triage e' un atto infermieristico autonomo, con una responsabilita' professionale diretta, come abbiamo visto nel modulo uno.
+
+36
+00:05:49,010 --> 00:05:59,780
+Per questo la documentazione e' essenziale: orario, parametri, motivazione del codice, rivalutazioni. Il codice si deve poter spiegare, a distanza di mesi, leggendo la scheda.
+
+37
+00:05:59,780 --> 00:06:11,350
+E la comunicazione con chi aspetta: informare sui tempi e sul motivo dell'attesa riduce la tensione. Un'ultima precisazione: il codice di triage non e' una diagnosi, ma una valutazione di priorita'.
+
+38
+00:06:11,350 --> 00:06:23,560
+Il caso. Uomo di cinquantacinque anni, dolore toracico oppressivo da trenta minuti, sudato, pressione centocinquanta su novanta, frequenza novantotto, saturazione novantasei. Quale codice?
+
+39
+00:06:23,560 --> 00:06:32,420
+Non e' un codice uno, perche' le funzioni vitali sono conservate. Ma e' un codice due, arancione: c'e' un rischio di compromissione delle funzioni vitali.
+
+40
+00:06:32,420 --> 00:06:42,200
+E si attiva il percorso del dolore toracico, con l'ECG entro dieci minuti della lezione otto punto uno: il sudore freddo, in questo caso, pesa quanto i numeri.
+
+41
+00:06:42,200 --> 00:06:47,990
+Assegnare un codice basso perche' «i parametri sono buoni» e' l'errore che la domanda vuole intercettare.
+
+42
+00:06:47,990 --> 00:06:58,490
+In Veneto l'emergenza territoriale e' organizzata nel sistema SUEM centodiciotto, con le sue centrali operative, e i pronto soccorso hanno adottato il triage a cinque codici.
+
+43
+00:06:58,490 --> 00:07:10,070
+I percorsi tempo-dipendenti sono organizzati in rete: infarto, ictus, trauma. E Azienda Zero, l'ente che bandisce il concorso, ha un ruolo di coordinamento regionale anche in questo ambito.
+
+44
+00:07:10,070 --> 00:07:18,860
+All'orale, citare la rete e la centralizzazione e' un ottimo aggancio: dice che conosci il sistema in cui andrai a lavorare, non solo il manuale.
+
+45
+00:07:18,860 --> 00:07:30,790
+La tabella da fotografare. Uno rosso, immediato. Due arancione, quindici minuti. Tre azzurro, sessanta. Quattro verde, centoventi. Cinque bianco, duecentoquaranta.
+
+46
+00:07:30,790 --> 00:07:44,180
+Le fasi: valutazione immediata, soggettiva, oggettiva, decisione e rivalutazione. Il codice non e' definitivo, e non e' una diagnosi. E la centralizzazione verso l'ospedale adeguato, non il piu' vicino.
+
+47
+00:07:44,180 --> 00:07:54,120
+Nella prossima lezione vediamo lo strumento piu' importante di tutto il modulo: l'approccio ABCDE, che serve in pronto soccorso, in reparto, in ambulanza.
+
+48
+00:07:54,120 --> 00:07:59,260
+E che ti permette di valutare un paziente critico anche quando non sai ancora che cos'ha. A tra poco.

@@ -1,0 +1,49 @@
+Solo dopo aver stabilizzato le funzioni vitali con l'ABCDE si passa alla valutazione secondaria: un esame testa-piedi e un'anamnesi rapida.
+
+Con lo schema AMPIA: Allergie, Medicamenti, Patologie, ultimo Introito di cibo, Ambiente ed evento. In inglese, SAMPLE. Poi documentazione e consegna SBAR, con i valori e l'ora di ogni rilievo.
+
+In reparto, il deterioramento si intercetta prima con i punteggi di allerta precoce, come la NEWS2 della lezione due punto tre.
+
+Somma punteggi per sette elementi: frequenza respiratoria, saturazione, con una scala dedicata per i pazienti ipercapnici, ossigenoterapia, pressione sistolica, frequenza cardiaca.
+
+Coscienza, compresa la confusione di nuova insorgenza, e temperatura. Sette numeri che si misurano in due minuti al letto, senza nessuno strumento speciale.
+
+Da zero a quattro il rischio e' basso, ma un tre in un singolo parametro richiede una valutazione urgente; cinque-sei rischio medio, risposta urgente; da sette in su rischio alto, risposta d'emergenza.
+
+Al punteggio corrisponde una risposta. In molti ospedali esistono team di risposta rapida, chiamati MET o RRT, che si attivano con criteri definiti.
+
+Un punteggio di allerta elevato, un singolo parametro critico, e in molti sistemi anche la semplice preoccupazione dell'infermiere, anche se i numeri sembrano accettabili.
+
+Il loro scopo e' intervenire prima dell'arresto: la maggior parte degli arresti cardiaci in reparto e' preceduta da ore di segni di deterioramento, scritti in cartella e non letti insieme.
+
+Il monitoraggio multiparametrico: ECG, saturazione, pressione, frequenza respiratoria, temperatura, capnografia. Gli allarmi vanno impostati su soglie adatte al paziente e mai disattivati.
+
+E un fenomeno da conoscere: l'alarm fatigue. Quando i monitor suonano continuamente per motivi irrilevanti, gli operatori si abituano e finiscono per ignorare anche gli allarmi veri.
+
+La soluzione non e' silenziare, ma personalizzare le soglie e verificare sempre il paziente, non solo lo schermo: un saturimetro staccato e un arresto respiratorio suonano allo stesso modo.
+
+Il caso, da affrontare con l'ABCDE. Paziente con polmonite, alle tre di notte: frequenza respiratoria ventotto, saturazione novanta, frequenza cardiaca centoquindici, pressione sistolica novantacinque.
+
+Confuso, mentre prima era orientato, febbre a trentotto e sei. A: parla, ma confuso, vie aeree pervie. B: tachipnea e desaturazione: ossigeno secondo target, posizione seduta.
+
+C: tachicardia e pressione bassa: accessi venosi, prelievi, lattati, emocolture. D: confusione nuova, glicemia. E: febbre.
+
+La NEWS2 e' alta: attivazione del team o del medico in emergenza. E' un quadro di possibile sepsi, che vedremo nella lezione dieci punto sei.
+
+L'errore da evitare, in quattro frasi che si sentono nei reparti. «Il paziente e' sempre stato cosi'». «Aspettiamo il giro del mattino». Abituarsi a un parametro alterato, perche' e' alterato da ieri.
+
+E soprattutto: una confusione di nuova insorgenza nell'anziano non e' «normale per l'eta'».
+
+[serious] Una confusione nuova non e' normale per l'eta'.
+
+E' uno dei segni piu' precoci di sepsi, ipossia, ipoglicemia, globo vescicale. Va trattata come un allarme, e si riparte dalla A.
+
+Nelle aziende venete i punteggi di allerta precoce sono sempre piu' spesso integrati nella cartella elettronica, che calcola il punteggio dai parametri inseriti.
+
+E molti ospedali hanno team di risposta rapida con criteri di attivazione definiti. All'orale, la catena da citare e': parametri, punteggio, risposta graduata. Nessuno dei tre funziona senza gli altri due.
+
+La tabella. A: parla? B: frequenza respiratoria, saturazione, lavoro respiratorio. C: frequenza, pressione, riempimento capillare sotto i due secondi, emorragie.
+
+D: AVPU o GCS, pupille, glicemia. E: esporre, temperatura, ricoprire. Tratta cio' che trovi, e rivaluta. NEWS2: da cinque urgente, da sette emergenza, e attenzione al tre in un singolo parametro.
+
+[warm] Nella prossima lezione, cio' che si fa quando l'ABCDE trova un paziente che non risponde e non respira: la rianimazione cardiopolmonare, dal BLSD all'ALS. A tra poco.

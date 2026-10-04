@@ -4,7 +4,7 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La dimissione non e' la fine del percorso chirurgico: e' il passaggio a una fase in cui la persona e i familiari gestiscono da soli cio' che in ospedale gestivano i professionisti."),
+ (1,"chiaro",0,"[warm] La dimissione non e' la fine del percorso chirurgico: e' il passaggio a una fase nuova. Da qui, la persona e i suoi familiari gestiscono da soli cio' che in ospedale gestivano i professionisti."),
  (1,"chiaro",0,"La ferita, i farmaci, il movimento, i segnali d'allarme: tutto quello che in reparto faceva l'infermiere, da domani lo fa la persona, o chi le sta accanto."),
  (1,"chiaro",0,"Molte riammissioni nascono da una dimissione affrettata o da un'educazione incompleta. Questa lezione risponde a una domanda che compare spesso all'orale: come si dimette bene un paziente?"),
 

@@ -84,6 +84,13 @@ progetti/<modulo>-<lezione>/
 | `m8-l8.6-neurologia` | Modulo 8 · 8.6 Neurologia | 8:21.8 | `e530e796af58aefe4458e46a487c06e1` |
 | `m8-l8.7-oncologia` | Modulo 8 · 8.7 Oncologia ed ematologia | 8:08.2 | `bd22c1650e001c8315796d124c568b32` |
 | `m8-l8.8-riepilogo` | Modulo 8 · 8.8 Riepilogo del Modulo 8 e autovalutazione | 8:11.0 | `89c49dd0e7a35086bf71dc39562ef2c0` |
+| `m9-l9.1-percorso` | Modulo 9 · 9.1 Il percorso perioperatorio | 8:12.1 | `d8a4dbaa397c9b75af4d96dce567a5db` |
+| `m9-l9.2-preparazione` | Modulo 9 · 9.2 La preparazione all'intervento | 8:57.2 | `32b599d0955cb30e9f8f7003a31c803c` |
+| `m9-l9.3-anestesia` | Modulo 9 · 9.3 Anestesia e sorveglianza intraoperatoria | 8:30.4 | `1a807e740fcaa70f44137ff2d8d43b88` |
+| `m9-l9.4-postoperatorio` | Modulo 9 · 9.4 Il post-operatorio immediato | 8:32.1 | `6fcc5d93d5ca2ba0c3af3c19e632453c` |
+| `m9-l9.5-complicanze` | Modulo 9 · 9.5 Le complicanze postoperatorie | 8:17.0 | `464025a6d06b93f959d7c830e89e1148` |
+| `m9-l9.6-specialistiche` | Modulo 9 · 9.6 Chirurgie specialistiche: specificità assistenziali | 8:16.0 | `fa786952ca10e92ec1c135da1f1e9620` |
+| `m9-l9.8-riepilogo` | Modulo 9 · 9.8 Riepilogo del Modulo 9 e autovalutazione | 8:10.8 | `6631bfa992afb4cda2c61e76c802bf28` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
