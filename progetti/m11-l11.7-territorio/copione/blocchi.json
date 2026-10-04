@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il futuro dell'assistenza sanitaria si gioca sempre di piu' fuori dall'ospedale. Il decreto ministeriale settantasette del duemilaventidue ha ridisegnato l'assistenza territoriale."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con strutture nuove, e con una figura che riguarda direttamente chi si prepara a questo concorso: l'infermiere di famiglia e comunita'."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I concorsi chiedono gli standard, con i numeri. E in Veneto anche i servizi propri della regione, che all'orale fanno la differenza."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il DM settantasette definisce i modelli e gli standard dell'assistenza territoriale, ed e' collegato alla Missione sei del PNRR, quella dedicata alla salute."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi: la prossimita', cioe' cure vicine a dove la persona vive. La presa in carico. L'integrazione socio-sanitaria. La continuita' fra ospedale e territorio."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'articolazione organizzativa di riferimento e' il distretto, indicativamente uno ogni centomila abitanti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Casa della Comunita': un luogo fisico di prossimita', punto di riferimento per la popolazione. Lo standard prevede una Casa hub ogni quaranta, cinquantamila abitanti, con case spoke collegate."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vi lavorano equipe multiprofessionali: medici di medicina generale, pediatri, specialisti, infermieri di famiglia e comunita', assistenti sociali."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ospita il punto unico di accesso ai servizi socio-sanitari, il PUA, servizi diagnostici di base, attivita' di prevenzione e la presa in carico della cronicita'."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere di famiglia e comunita', con lo standard da ricordare: uno ogni tremila abitanti. E' il professionista di riferimento per la salute della persona, della famiglia e della comunita'."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lavora in ambulatorio, a domicilio e nella comunita': scuole, associazioni, luoghi di lavoro. Non aspetta che la persona arrivi: la va a cercare."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si occupa di prevenzione e promozione della salute, di cronicita' e fragilita', di educazione e self-care, di medicina di iniziativa. Con il medico di medicina generale e i servizi sociali, anche in telemedicina."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'applicazione concreta di molto di cio' che abbiamo visto nella lezione precedente: l'allenatore della cronicita' ha un nome e uno standard."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Ospedale di Comunita': una struttura di ricovero breve della rete territoriale. Lo standard: uno da venti posti letto ogni centomila abitanti."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' a gestione prevalentemente infermieristica, con la responsabilita' clinica affidata a un medico. Accoglie chi non ha bisogno dell'ospedale, ma non puo' essere assistito a casa."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per esempio un anziano dimesso che deve recuperare autonomia, o una riacutizzazione lieve. La degenza e' breve, indicativamente fino a circa trenta giorni, e l'obiettivo e' il rientro a domicilio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Centrale Operativa Territoriale, la COT: una ogni centomila abitanti. Gestisce le transizioni della persona fra un setting e l'altro: dall'ospedale al domicilio, all'Ospedale di Comunita', a una struttura."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La COT non cura: coordina."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Raccorda servizi e professionisti, e' operativa sette giorni su sette, e vi lavorano soprattutto infermieri. Ricordi la dimissione protetta della lezione nove punto sette: e' la COT che la organizza."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le altre componenti. L'Unita' di Continuita' Assistenziale, l'UCA: un medico e un infermiere ogni centomila abitanti, per le situazioni di particolare complessita'."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il centosedici centodiciassette, il numero europeo armonizzato per le cure mediche non urgenti. Da non confondere con il centododici e il centodiciotto dell'emergenza."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la rete delle cure palliative, i consultori familiari e l'assistenza domiciliare. Un obiettivo del DM da citare: portare una quota importante degli ultrasessantacinquenni in assistenza domiciliare."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due sigle da non confondere. L'ADI, Assistenza Domiciliare Integrata: prestazioni sanitarie e socio-sanitarie a casa, con infermieri, medici, fisioterapisti, OSS."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un piano assistenziale individuale e livelli di intensita' diversi. E' di competenza dell'azienda sanitaria."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il SAD, Servizio di Assistenza Domiciliare: prestazioni socio-assistenziali, cioe' igiene, aiuto in casa, pasti, compagnia. E' dei Comuni. La persona fragile spesso ha bisogno di entrambi, integrati."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema veneto ha strumenti propri. L'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale: un'equipe con medico di medicina generale, medico del distretto, assistente sociale, infermiere."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Valuta i bisogni della persona non autosufficiente con la scheda SVaMA, che esplora gli aspetti sanitari, cognitivi, funzionali e sociali."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'UVMD definisce il progetto personalizzato, ed e' la porta d'accesso ai servizi: ADI, centri diurni, ricoveri di sollievo, residenzialita'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I Centri di Servizi: in Veneto si chiamano cosi' le strutture residenziali per anziani non autosufficienti, quelle che altrove si chiamano RSA."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vi si accede dopo la valutazione UVMD, con un'impegnativa di residenzialita', che riconosce una quota sanitaria a carico del Servizio Sanitario Regionale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La quota alberghiera resta a carico della persona o, se necessario, del Comune. Poi ci sono i centri diurni. Sono strutture accreditate, e vi lavorano molti infermieri."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutto converge nella continuita' assistenziale. La dimissione protetta della lezione nove punto sette segue un percorso: valutazione precoce in reparto, segnalazione alla COT, valutazione UVMD se serve."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la scelta del setting: casa con ADI, Ospedale di Comunita', riabilitazione, Centro di Servizi. La lettera infermieristica, e la presa in carico dell'infermiere di famiglia e comunita'."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo e' che non ci sia nessun vuoto fra l'ospedale e la casa. E' nei vuoti che la persona fragile si perde, e torna in pronto soccorso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Un uomo di settantanove anni, vive con la moglie anziana, dimissione dopo uno scompenso. Non fa piu' le scale, non si lava da solo, e la moglie non riesce ad aiutarlo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa fai? Segnali per tempo la necessita' di una dimissione protetta, e attivi la COT secondo procedura. Non il giorno della dimissione: appena il bisogno e' chiaro."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con l'UVMD si valuta il percorso piu' adatto: un periodo in Ospedale di Comunita' per recuperare autonomia, oppure il rientro a casa con ADI, ausili e SAD per l'igiene."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Compili la lettera infermieristica, educhi al controllo del peso e attivi l'infermiere di famiglia e comunita'. E consideri la moglie: anche lei e' una persona fragile."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le competenze dell'infermiere sul territorio. Autonomia decisionale, perche' a domicilio non c'e' un medico nella stanza accanto. Valutazione multidimensionale, lavoro in rete, educazione e coaching."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dispositivi e lesioni a domicilio, i bisogni della comunita', la telemedicina, e il fascicolo sanitario elettronico. Sono le competenze di tutto questo corso, fuori dall'ospedale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto l'assistenza territoriale e' organizzata nelle nove ULSS, con i loro distretti. La regione sta realizzando Case della Comunita', Ospedali di Comunita' e COT, in attuazione del DM settantasette e del PNRR."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con l'infermiere di famiglia e comunita', gli strumenti veneti, UVMD, SVaMA, Centri di Servizi, e il coordinamento di Azienda Zero. Lo approfondiremo nel modulo tredici."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella degli standard, da fotografare. DM settantasette del duemilaventidue, Missione sei del PNRR. Distretto, circa uno ogni centomila. Casa della Comunita' hub, una ogni quaranta, cinquantamila."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infermiere di famiglia e comunita', uno ogni tremila. Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT, una ogni centomila."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "UCA, un medico e un infermiere ogni centomila. Centosedici centodiciassette per le cure non urgenti. ADI dell'azienda sanitaria, SAD dei Comuni. In Veneto: UVMD, SVaMA, Centri di Servizi."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La casa come primo luogo di cura."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' lo spirito del DM settantasette. L'ospedale resta essenziale per l'acuzie, ma la salute delle persone si costruisce e si mantiene soprattutto dove vivono."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo il modulo undici con una mappa dei servizi: per ogni persona e ogni bisogno, dove viene assistita e da chi. A tra poco."
+ }
+]
