@@ -95,7 +95,7 @@ export const SCENE = [
   {sb:"Silenziare", ok:"**Personalizzare** le soglie e guardare **il paziente**, non solo lo schermo"}]},
 
 {id:"s37", tipo:"cifre", tema:"chiaro", sopratitolo:"Il caso · polmonite, alle 3 di notte · confuso, prima orientato · 38,6 °C", voci:[
-  {n:"28", suf:"/min", d:"frequenza respiratoria", key:true}, {n:"90", suf:"%", d:"saturazione"}, {n:"115", suf:"bpm", d:"frequenza"}, {n:"95", suf:"mmHg", d:"sistolica"}]},
+  {n:"28", suf:"/min", d:"frequenza respiratoria", key:true}, {n:"90", suf:"%", d:"saturazione"}, {n:"115", suf:"", d:"frequenza cardiaca"}, {n:"95", suf:"", d:"sistolica, mmHg"}]},
 {id:"s38", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false, sopratitolo:"Con l'ABCDE", celle:[
   {n:"A", t:"Parla, ma confuso: vie aeree **pervie**"}, {n:"B", t:"Tachipnea, desaturazione: **ossigeno** secondo target, seduto", key:true}]},
 {id:"s39", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, sopratitolo:"Con l'ABCDE", celle:[

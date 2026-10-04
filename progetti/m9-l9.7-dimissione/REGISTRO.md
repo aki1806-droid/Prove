@@ -67,13 +67,17 @@ familiari…»), e la terza presa l'ha detta intera. Le prime due restano come
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `8a0146048e92acd4ead0c6ef7f40e58b` — 497.057 s (8:17.1), 1080p 16:9, resa in 106 s, con SRT (`subtitle_url`) |
+| lotto asset | `34c798d8b13f4b5593953a8dbc60f33e` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «prericovero» (s05, trascritto «pre ricovero»); «medicazione» (s14, trascritto «medicazioni»); «e» (s16, trascritto «ee»); «e» (s18, trascritto «ee»); «e» (s22, trascritto «ee»); «e» (s22, trascritto «ee»); «teach back» (s22, trascritto «teachback»); «e» (s24, trascritto «ee»); «e» (s29, trascritto «ee»); «e» (s33, trascritto «ee»); «e» (s36, trascritto «ee»); «ee» (s40, trascritto «e»); «e» (s43, trascritto «ee»); «ee» (s45, trascritto «e»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

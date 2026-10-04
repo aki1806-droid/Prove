@@ -14,7 +14,7 @@ si riempie man mano che le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 10.1 | Il sistema dell'emergenza e il triage | — |  |
+| 10.1 | Il sistema dell'emergenza e il triage | 8:08.3 | `98e334b6caa8f7a6aa72984fb729072a` |
 | 10.2 | La valutazione del paziente critico: ABCDE | — |  |
 | 10.3 | BLSD e ALS nell'adulto | — |  |
 | 10.4 | Emergenze pediatriche e ostetriche | — |  |

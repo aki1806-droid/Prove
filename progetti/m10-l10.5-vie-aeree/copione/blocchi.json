@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La A dell'ABCDE viene prima di tutto, perche' senza vie aeree pervie la persona muore in pochi minuti. Ogni altra lettera dipende da questa."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione: i presidi, dal piu' semplice al piu' avanzato; il ruolo dell'infermiere nell'intubazione; e la ventilazione meccanica, con un acronimo per il paziente ventilato che peggiora all'improvviso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le manovre le conosci dalla lezione dieci punto due: iperestensione del capo e sollevamento del mento, e nel trauma la sublussazione della mandibola. Poi i presidi semplici."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cannula orofaringea, o di Guedel. La misura si sceglie dall'angolo della bocca all'angolo della mandibola. Troppo lunga spinge l'epiglottide sulla glottide; troppo corta spinge indietro la lingua."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si usa solo nel paziente senza riflesso faringeo: nel paziente semicosciente provoca vomito e laringospasmo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cannula nasofaringea e' meglio tollerata nel semicosciente, ma e' controindicata nel sospetto di frattura della base cranica: la stessa regola del sondino della lezione tre punto quattro."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il pallone autoespandibile con maschera, collegato all'ossigeno ad alto flusso e al reservoir. La difficolta' principale e' la tenuta della maschera."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tecnica a due mani, con pollice e indice a formare una C sulla maschera e le altre dita a E sotto la mandibola, e' molto piu' efficace di quella a una mano. Un secondo operatore comprime il pallone."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventilazioni lente, che sollevano visibilmente il torace: insufflare troppo forte manda aria nello stomaco, con rischio di vomito e di inalazione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I presidi sopraglottici, come la maschera laringea. Si inseriscono senza laringoscopio, si posizionano sopra la glottide e permettono di ventilare meglio della maschera facciale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono molto utili in emergenza, anche per l'infermiere formato. Il limite: non proteggono del tutto dall'inalazione. Quando serve una protezione definitiva delle vie aeree, si passa all'intubazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'intubazione orotracheale la esegue il medico, ma l'infermiere ha un ruolo decisivo: prepara e assiste. E un'intubazione riesce o fallisce anche per come e' stato preparato il materiale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il materiale. Il laringoscopio, verificando che la luce funzioni, con lame di misure diverse. Tubi di piu' calibri, il mandrino, la siringa per gonfiare la cuffia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aspiratore, acceso e funzionante. Pallone e ossigeno. I farmaci secondo prescrizione. Il capnografo. Il materiale di fissaggio. E i presidi per le vie aeree difficili, pronti prima di cominciare."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una preparazione incompleta si scopre nel momento peggiore: con il paziente gia' sedato, e senza ossigeno di riserva."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo l'intubazione, la verifica. Il riferimento e' la capnografia: se il tubo e' in trachea, a ogni espirazione compare anidride carbonica. Se e' in esofago, no."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il sollevamento simmetrico del torace e l'auscultazione, per escludere un tubo troppo profondo, in un solo bronco: di solito il destro, che e' piu' verticale."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cuffia si porta a venti, trenta centimetri d'acqua, come per la tracheostomia della lezione otto punto due. Troppo gonfia lede la mucosa; troppo sgonfia lascia passare le secrezioni."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si fissa il tubo e si annotano i centimetri all'arcata dentaria: e' il riferimento per accorgersi di uno spostamento. Poi la radiografia."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La ventilazione meccanica invasiva, nelle linee essenziali. Le modalita' controllate: a volume, in cui si imposta il volume di ogni respiro e la pressione varia di conseguenza."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oppure a pressione, in cui si imposta la pressione e varia il volume. Poi le modalita' assistite o di supporto: e' il paziente ad avviare il respiro, e il ventilatore lo sostiene. Si usano nello svezzamento."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I parametri principali. Il volume corrente: con una strategia protettiva, intorno a sei, otto millilitri per chilo di peso ideale. La frequenza respiratoria. La FiO2, la frazione di ossigeno inspirata."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la PEEP, la pressione positiva di fine espirazione, che tiene aperti gli alveoli alla fine di ogni espirazione, e migliora l'ossigenazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli allarmi. Alta pressione: c'e' un ostacolo al passaggio dell'aria. Secrezioni, tubo piegato o morso, tosse, broncospasmo, pneumotorace, un paziente che si oppone al ventilatore."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Bassa pressione, o basso volume: l'aria si perde. Disconnessione, perdita dalla cuffia o dal circuito, fino all'estubazione accidentale, la piu' grave."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Mai silenziare un allarme senza averne capito la causa."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vale per il ventilatore come per le pompe della lezione sei punto tre: l'allarme e' un'informazione, e chi lo spegne senza capirlo la butta via."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'acronimo per il paziente ventilato che peggiora improvvisamente: DOPE. Quattro lettere da scorrere in ordine, mentre si chiama aiuto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "D, dislocazione del tubo: estubazione, o tubo scivolato in un solo bronco. O, ostruzione: secrezioni, tubo piegato."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "P, pneumotorace, soprattutto con pressioni di ventilazione alte. E, equipment: un guasto del ventilatore o della fornitura di ossigeno."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola pratica: nel dubbio, si stacca il paziente dal ventilatore e lo si ventila con il pallone. Se migliora, il problema e' nella macchina; se no, e' nel paziente o nel tubo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza del paziente ventilato. Al letto ci sono sempre il pallone con maschera e un aspiratore funzionante: se il ventilatore si ferma, sono le due cose che servono subito."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si applica il bundle VAP della lezione tre punto uno: testata a trenta, quarantacinque gradi, igiene del cavo orale, aspirazione sub-glottica, controllo della cuffia, interruzione quotidiana della sedazione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aspirazione si fa solo quando serve, con le regole della lezione otto punto due. E si previene l'estubazione accidentale: fissaggio, attenzione nei movimenti, controllo dell'agitazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La persona dietro il ventilatore. La sedazione si valuta con una scala, come la RASS, rispetto a un obiettivo prescritto: oggi si tende a una sedazione leggera. Il delirium, con la CAM-ICU."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cura degli occhi: il paziente sedato non chiude bene le palpebre e rischia lesioni della cornea. La cute, e le lesioni da dispositivo: tubo, fissaggi, sondini. Il posizionamento."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la comunicazione: si parla al paziente, anche se sedato, spiegando cio' che si fa, con calma e chiamandolo per nome. E si sostengono i familiari, che vedono la persona circondata da macchine."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso. Paziente intubato: improvvisamente saturazione ottantadue, allarme di alta pressione, il paziente e' agitato e morde il tubo. Che cosa fai?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiami aiuto, e applichi DOPE, lettera per lettera. Il tubo e' al suo posto, i centimetri sono quelli annotati? E' ostruito, dal morso o dalle secrezioni?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il dubbio persiste, stacchi dal ventilatore e ventili con il pallone e l'ossigeno. Blocca-morso se previsto, aspirazione se ci sono secrezioni; il medico valuta la sedazione. Poi rivaluti."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto le terapie intensive e semintensive adottano protocolli su intubazione, bundle VAP, sedazione e svezzamento."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'infermiere di area critica ha percorsi di formazione avanzata: e' uno degli ambiti in cui l'evoluzione delle competenze del modulo uno si vede di piu'."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Guedel dall'angolo della bocca all'angolo della mandibola, solo senza riflesso. Nasofaringea, no nella frattura della base cranica. Pallone a due mani."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Intubazione: preparare, provare la luce, aspiratore, capnografo. Verifica con la capnografia. Cuffia venti, trenta. Annotare i centimetri. Alta pressione, ostacolo; bassa pressione, perdita. DOPE."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Nel dubbio, staccare e ventilare a mano."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il pallone non si guasta, e non ha allarmi da interpretare: in pochi secondi dice se il problema e' nella macchina o nel paziente."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione passiamo alla C: lo shock nei suoi quattro tipi, e la sepsi, che abbiamo gia' incontrato nel caso della lezione dieci punto due."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una delle emergenze piu' frequenti in ospedale, e una di quelle in cui il riconoscimento infermieristico fa piu' differenza. A tra poco."
+ }
+]

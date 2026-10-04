@@ -1,0 +1,109 @@
+{
+ "A": {
+  "parole_copione": 603,
+  "parole_dette": 604,
+  "coincidenti": 600,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "vivavoce",
+    "detto": "viva voce"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 636,
+  "parole_dette": 637,
+  "coincidenti": 615,
+  "buchi": [
+   {
+    "blocco": "s33",
+    "parole_copione": "li lo shock",
+    "al_loro_posto": "l iloshock"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s28",
+    "copione": "milligrammo",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s29",
+    "copione": "3 5",
+    "detto": "lezione35"
+   },
+   {
+    "blocco": "s30",
+    "copione": "milligrammi",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s30",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "timekeeper",
+    "detto": "time keeper"
+   },
+   {
+    "blocco": "s39",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "l emergenza",
+    "detto": "le emergenze"
+   },
+   {
+    "blocco": "s46",
+    "copione": "5 6",
+    "detto": "lezione56"
+   },
+   {
+    "blocco": "s47",
+    "copione": "milligrammo",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s47",
+    "copione": "3 5",
+    "detto": "lezione35"
+   }
+  ]
+ }
+}

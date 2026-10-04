@@ -14,13 +14,31 @@ Terza lezione del Modulo 10: la rianimazione dell'adulto secondo le linee guida 
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,30 (A $0,62 · B $0,67) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s10 s48 |
 
 ```
 CARATTERI  7.774          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:52.7     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.759 car · chunk B 4.015 car)
+tracce grezze             A 258.2 s  ·  B 312.8 s
+silenzi                   fattore 1,089   ->   atempo 1,120
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**600/603 parole**, la B **615/636**, nessun buco. Le rese diverse
+(non buchi): s06 «ee» sentito «e»; s11 «e» sentito «ee»; s13 «vivavoce» sentito «viva voce»; s27 «e» sentito «ee»; s28 «milligrammo» sentito «mg»; s29 «3 5» sentito «lezione35»; s30 «milligrammi» sentito «mg»; s30 «ee» sentito «e»; s35 «ee» sentito «e»; s37 «e» sentito «ee»; s37 «timekeeper» sentito «time keeper»; s39 «abcde» sentito «a b c d e»; s41 «ee» sentito «e»; s45 «l emergenza» sentito «le emergenze»; s46 «5 6» sentito «lezione56»; s47 «milligrammo» sentito «mg»; s47 «3 5» sentito «lezione35».
 
 ## Le scene
 

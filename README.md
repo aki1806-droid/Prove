@@ -90,7 +90,9 @@ progetti/<modulo>-<lezione>/
 | `m9-l9.4-postoperatorio` | Modulo 9 · 9.4 Il post-operatorio immediato | 8:32.1 | `6fcc5d93d5ca2ba0c3af3c19e632453c` |
 | `m9-l9.5-complicanze` | Modulo 9 · 9.5 Le complicanze postoperatorie | 8:17.0 | `464025a6d06b93f959d7c830e89e1148` |
 | `m9-l9.6-specialistiche` | Modulo 9 · 9.6 Chirurgie specialistiche: specificità assistenziali | 8:16.0 | `fa786952ca10e92ec1c135da1f1e9620` |
+| `m9-l9.7-dimissione` | Modulo 9 · 9.7 Dimissione ed educazione terapeutica | 8:17.1 | `8a0146048e92acd4ead0c6ef7f40e58b` |
 | `m9-l9.8-riepilogo` | Modulo 9 · 9.8 Riepilogo del Modulo 9 e autovalutazione | 8:10.8 | `6631bfa992afb4cda2c61e76c802bf28` |
+| `m10-l10.1-triage` | Modulo 10 · 10.1 Il sistema dell'emergenza e il triage | 8:08.3 | `98e334b6caa8f7a6aa72984fb729072a` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
@@ -99,6 +101,9 @@ generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
 I moduli 6, 7 e 8 sono pubblicati per intero (2 ottobre 2026): ventiquattro
 lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
+
+Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 è in corso,
+con le lezioni che entrano nella tabella man mano che escono le rese.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo

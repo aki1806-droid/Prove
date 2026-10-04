@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,220
+Davanti a un paziente che sta male, la tentazione e' cercare subito la diagnosi. L'approccio ABCDE fa il contrario: prima si cercano e si trattano i problemi che uccidono piu' in fretta, nell'ordine in cui uccidono.
+
+2
+00:00:14,220 --> 00:00:24,830
+Funziona per qualunque paziente critico, in qualunque contesto, e ti da' una struttura quando l'ansia rischia di toglierla. E' probabilmente lo strumento piu' utile di tutto il corso, e il piu' chiesto all'orale.
+
+3
+00:00:24,830 --> 00:00:36,690
+Cinque lettere. A, airway, le vie aeree. B, breathing, il respiro. C, circulation, il circolo. D, disability, lo stato neurologico. E, exposure, l'esposizione.
+
+4
+00:00:36,690 --> 00:00:41,600
+E una regola che fa la differenza: tratta cio' che trovi prima di passare al punto successivo.
+
+5
+00:00:41,600 --> 00:00:46,200
+Tratta cio' che trovi, prima di passare oltre.
+
+6
+00:00:46,200 --> 00:00:55,730
+Se le vie aeree sono ostruite, non si misura la pressione: si liberano le vie aeree. Dopo ogni intervento si rivaluta. E si chiama aiuto presto, non quando si e' finito.
+
+7
+00:00:55,730 --> 00:01:05,060
+A, le vie aeree. La prima domanda e' semplice: il paziente parla? Se risponde normalmente, le vie aeree sono pervie, e in quel momento anche il cervello riceve ossigeno.
+
+8
+00:01:05,060 --> 00:01:15,940
+I segni di ostruzione: rumori come russamento, gorgoglio, che indica liquidi, stridore, che indica un'ostruzione alta, rientramenti, movimento paradosso di torace e addome.
+
+9
+00:01:15,940 --> 00:01:24,960
+Gli interventi: aprire le vie aeree con iperestensione del capo e sollevamento del mento; nel trauma, sublussazione della mandibola, per non muovere il rachide.
+
+10
+00:01:24,960 --> 00:01:35,160
+Aspirare, inserire una cannula, posizione laterale, ossigeno, e chiamare un aiuto esperto. Un'ostruzione delle vie aeree uccide in pochi minuti: per questo viene prima di tutto.
+
+11
+00:01:35,160 --> 00:01:44,110
+B, il respiro. La frequenza respiratoria e' il parametro piu' sensibile di deterioramento, e il piu' dimenticato: va contata per un minuto, non stimata.
+
+12
+00:01:44,110 --> 00:01:54,300
+Poi la saturazione. Il lavoro respiratorio: muscoli accessori, rientramenti, capacita' di parlare in frasi complete. La simmetria del torace e l'auscultazione. Il colorito.
+
+13
+00:01:54,300 --> 00:02:02,700
+Gli interventi: posizione seduta, ossigeno secondo il target della lezione otto punto due, broncodilatatori, e se serve ventilazione assistita.
+
+14
+00:02:02,700 --> 00:02:09,780
+Un paziente che non riesce a finire una frase senza fermarsi a respirare ti sta dicendo quanto e' grave, prima ancora del saturimetro.
+
+15
+00:02:09,780 --> 00:02:21,700
+C, il circolo. Frequenza cardiaca e ritmo. Pressione. Riempimento capillare: si preme sul polpastrello o sullo sterno per cinque secondi e si conta quanto tempo serve perche' il colore ritorni.
+
+16
+00:02:21,700 --> 00:02:32,090
+Normale sotto i due secondi. Colorito e temperatura della cute: una cute fredda e marezzata e' un circolo che si sta chiudendo. Emorragie visibili. Diuresi. Giugulari.
+
+17
+00:02:32,090 --> 00:02:42,090
+Gli interventi: due accessi venosi di buon calibro, prelievi, liquidi secondo prescrizione, controllo delle emorragie con la compressione, ECG e monitoraggio continuo.
+
+18
+00:02:42,090 --> 00:02:55,070
+D, lo stato neurologico. Una valutazione rapida con AVPU: il paziente e' Alert, sveglio; risponde alla Voice, alla voce; risponde solo al Pain, al dolore; oppure e' Unresponsive, non risponde.
+
+19
+00:02:55,070 --> 00:03:05,180
+Oppure la GCS della lezione due punto tre. Le pupille. E la glicemia, sempre: un'ipoglicemia puo' simulare qualsiasi quadro neurologico e si corregge in un minuto.
+
+20
+00:03:05,180 --> 00:03:16,040
+Poi segni di lato, dolore, e i farmaci che possono alterare la coscienza, come oppioidi e sedativi: un paziente sonnolento con le pupille a punta di spillo fa pensare subito all'oppioide.
+
+21
+00:03:16,040 --> 00:03:25,530
+E, l'esposizione. Si scopre il paziente per esaminarlo completamente, nel rispetto della dignita': si cercano emorragie nascoste, lesioni, eruzioni cutanee.
+
+22
+00:03:25,530 --> 00:03:33,770
+Una porpora che non sbianca alla pressione puo' indicare una meningite. Edemi, segni di trauma, accessi, drenaggi. Si misura la temperatura.
+
+23
+00:03:33,770 --> 00:03:43,260
+E poi si ricopre, perche' il paziente critico perde calore rapidamente e l'ipotermia peggiora tutto: la coagulazione, il ritmo cardiaco, la risposta ai farmaci.
+
+24
+00:03:43,260 --> 00:03:51,410
+Solo dopo aver stabilizzato le funzioni vitali con l'ABCDE si passa alla valutazione secondaria: un esame testa-piedi e un'anamnesi rapida.
+
+25
+00:03:51,410 --> 00:04:04,450
+Con lo schema AMPIA: Allergie, Medicamenti, Patologie, ultimo Introito di cibo, Ambiente ed evento. In inglese, SAMPLE. Poi documentazione e consegna SBAR, con i valori e l'ora di ogni rilievo.
+
+26
+00:04:04,450 --> 00:04:11,540
+In reparto, il deterioramento si intercetta prima con i punteggi di allerta precoce, come la NEWS2 della lezione due punto tre.
+
+27
+00:04:11,540 --> 00:04:22,570
+Somma punteggi per sette elementi: frequenza respiratoria, saturazione, con una scala dedicata per i pazienti ipercapnici, ossigenoterapia, pressione sistolica, frequenza cardiaca.
+
+28
+00:04:22,570 --> 00:04:31,460
+Coscienza, compresa la confusione di nuova insorgenza, e temperatura. Sette numeri che si misurano in due minuti al letto, senza nessuno strumento speciale.
+
+29
+00:04:31,460 --> 00:04:43,880
+Da zero a quattro il rischio e' basso, ma un tre in un singolo parametro richiede una valutazione urgente; cinque-sei rischio medio, risposta urgente; da sette in su rischio alto, risposta d'emergenza.
+
+30
+00:04:43,880 --> 00:04:53,510
+Al punteggio corrisponde una risposta. In molti ospedali esistono team di risposta rapida, chiamati MET o RRT, che si attivano con criteri definiti.
+
+31
+00:04:53,510 --> 00:05:03,000
+Un punteggio di allerta elevato, un singolo parametro critico, e in molti sistemi anche la semplice preoccupazione dell'infermiere, anche se i numeri sembrano accettabili.
+
+32
+00:05:03,000 --> 00:05:13,330
+Il loro scopo e' intervenire prima dell'arresto: la maggior parte degli arresti cardiaci in reparto e' preceduta da ore di segni di deterioramento, scritti in cartella e non letti insieme.
+
+33
+00:05:13,330 --> 00:05:25,300
+Il monitoraggio multiparametrico: ECG, saturazione, pressione, frequenza respiratoria, temperatura, capnografia. Gli allarmi vanno impostati su soglie adatte al paziente e mai disattivati.
+
+34
+00:05:25,300 --> 00:05:35,130
+E un fenomeno da conoscere: l'alarm fatigue. Quando i monitor suonano continuamente per motivi irrilevanti, gli operatori si abituano e finiscono per ignorare anche gli allarmi veri.
+
+35
+00:05:35,130 --> 00:05:46,650
+La soluzione non e' silenziare, ma personalizzare le soglie e verificare sempre il paziente, non solo lo schermo: un saturimetro staccato e un arresto respiratorio suonano allo stesso modo.
+
+36
+00:05:46,650 --> 00:06:00,390
+Il caso, da affrontare con l'ABCDE. Paziente con polmonite, alle tre di notte: frequenza respiratoria ventotto, saturazione novanta, frequenza cardiaca centoquindici, pressione sistolica novantacinque.
+
+37
+00:06:00,390 --> 00:06:12,640
+Confuso, mentre prima era orientato, febbre a trentotto e sei. A: parla, ma confuso, vie aeree pervie. B: tachipnea e desaturazione: ossigeno secondo target, posizione seduta.
+
+38
+00:06:12,640 --> 00:06:21,950
+C: tachicardia e pressione bassa: accessi venosi, prelievi, lattati, emocolture. D: confusione nuova, glicemia. E: febbre.
+
+39
+00:06:21,950 --> 00:06:30,180
+La NEWS2 e' alta: attivazione del team o del medico in emergenza. E' un quadro di possibile sepsi, che vedremo nella lezione dieci punto sei.
+
+40
+00:06:30,180 --> 00:06:40,410
+L'errore da evitare, in quattro frasi che si sentono nei reparti. «Il paziente e' sempre stato cosi'». «Aspettiamo il giro del mattino». Abituarsi a un parametro alterato, perche' e' alterato da ieri.
+
+41
+00:06:40,410 --> 00:06:45,610
+E soprattutto: una confusione di nuova insorgenza nell'anziano non e' «normale per l'eta'».
+
+42
+00:06:45,610 --> 00:06:50,210
+Una confusione nuova non e' normale per l'eta'.
+
+43
+00:06:50,210 --> 00:06:58,000
+E' uno dei segni piu' precoci di sepsi, ipossia, ipoglicemia, globo vescicale. Va trattata come un allarme, e si riparte dalla A.
+
+44
+00:06:58,000 --> 00:07:06,370
+Nelle aziende venete i punteggi di allerta precoce sono sempre piu' spesso integrati nella cartella elettronica, che calcola il punteggio dai parametri inseriti.
+
+45
+00:07:06,370 --> 00:07:18,580
+E molti ospedali hanno team di risposta rapida con criteri di attivazione definiti. All'orale, la catena da citare e': parametri, punteggio, risposta graduata. Nessuno dei tre funziona senza gli altri due.
+
+46
+00:07:18,580 --> 00:07:29,690
+La tabella. A: parla? B: frequenza respiratoria, saturazione, lavoro respiratorio. C: frequenza, pressione, riempimento capillare sotto i due secondi, emorragie.
+
+47
+00:07:29,690 --> 00:07:45,280
+D: AVPU o GCS, pupille, glicemia. E: esporre, temperatura, ricoprire. Tratta cio' che trovi, e rivaluta. NEWS2: da cinque urgente, da sette emergenza, e attenzione al tre in un singolo parametro.
+
+48
+00:07:45,280 --> 00:07:56,910
+Nella prossima lezione, cio' che si fa quando l'ABCDE trova un paziente che non risponde e non respira: la rianimazione cardiopolmonare, dal BLSD all'ALS. A tra poco.

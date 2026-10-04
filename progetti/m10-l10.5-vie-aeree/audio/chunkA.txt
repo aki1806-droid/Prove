@@ -1,0 +1,45 @@
+[warm] La A dell'ABCDE viene prima di tutto, perche' senza vie aeree pervie la persona muore in pochi minuti. Ogni altra lettera dipende da questa.
+
+In questa lezione: i presidi, dal piu' semplice al piu' avanzato; il ruolo dell'infermiere nell'intubazione; e la ventilazione meccanica, con un acronimo per il paziente ventilato che peggiora all'improvviso.
+
+Le manovre le conosci dalla lezione dieci punto due: iperestensione del capo e sollevamento del mento, e nel trauma la sublussazione della mandibola. Poi i presidi semplici.
+
+La cannula orofaringea, o di Guedel. La misura si sceglie dall'angolo della bocca all'angolo della mandibola. Troppo lunga spinge l'epiglottide sulla glottide; troppo corta spinge indietro la lingua.
+
+E si usa solo nel paziente senza riflesso faringeo: nel paziente semicosciente provoca vomito e laringospasmo.
+
+La cannula nasofaringea e' meglio tollerata nel semicosciente, ma e' controindicata nel sospetto di frattura della base cranica: la stessa regola del sondino della lezione tre punto quattro.
+
+Il pallone autoespandibile con maschera, collegato all'ossigeno ad alto flusso e al reservoir. La difficolta' principale e' la tenuta della maschera.
+
+La tecnica a due mani, con pollice e indice a formare una C sulla maschera e le altre dita a E sotto la mandibola, e' molto piu' efficace di quella a una mano. Un secondo operatore comprime il pallone.
+
+Ventilazioni lente, che sollevano visibilmente il torace: insufflare troppo forte manda aria nello stomaco, con rischio di vomito e di inalazione.
+
+I presidi sopraglottici, come la maschera laringea. Si inseriscono senza laringoscopio, si posizionano sopra la glottide e permettono di ventilare meglio della maschera facciale.
+
+Sono molto utili in emergenza, anche per l'infermiere formato. Il limite: non proteggono del tutto dall'inalazione. Quando serve una protezione definitiva delle vie aeree, si passa all'intubazione.
+
+L'intubazione orotracheale la esegue il medico, ma l'infermiere ha un ruolo decisivo: prepara e assiste. E un'intubazione riesce o fallisce anche per come e' stato preparato il materiale.
+
+Il materiale. Il laringoscopio, verificando che la luce funzioni, con lame di misure diverse. Tubi di piu' calibri, il mandrino, la siringa per gonfiare la cuffia.
+
+L'aspiratore, acceso e funzionante. Pallone e ossigeno. I farmaci secondo prescrizione. Il capnografo. Il materiale di fissaggio. E i presidi per le vie aeree difficili, pronti prima di cominciare.
+
+Una preparazione incompleta si scopre nel momento peggiore: con il paziente gia' sedato, e senza ossigeno di riserva.
+
+Dopo l'intubazione, la verifica. Il riferimento e' la capnografia: se il tubo e' in trachea, a ogni espirazione compare anidride carbonica. Se e' in esofago, no.
+
+Poi il sollevamento simmetrico del torace e l'auscultazione, per escludere un tubo troppo profondo, in un solo bronco: di solito il destro, che e' piu' verticale.
+
+La cuffia si porta a venti, trenta centimetri d'acqua, come per la tracheostomia della lezione otto punto due. Troppo gonfia lede la mucosa; troppo sgonfia lascia passare le secrezioni.
+
+Si fissa il tubo e si annotano i centimetri all'arcata dentaria: e' il riferimento per accorgersi di uno spostamento. Poi la radiografia.
+
+La ventilazione meccanica invasiva, nelle linee essenziali. Le modalita' controllate: a volume, in cui si imposta il volume di ogni respiro e la pressione varia di conseguenza.
+
+Oppure a pressione, in cui si imposta la pressione e varia il volume. Poi le modalita' assistite o di supporto: e' il paziente ad avviare il respiro, e il ventilatore lo sostiene. Si usano nello svezzamento.
+
+I parametri principali. Il volume corrente: con una strategia protettiva, intorno a sei, otto millilitri per chilo di peso ideale. La frequenza respiratoria. La FiO2, la frazione di ossigeno inspirata.
+
+E la PEEP, la pressione positiva di fine espirazione, che tiene aperti gli alveoli alla fine di ogni espirazione, e migliora l'ossigenazione.
