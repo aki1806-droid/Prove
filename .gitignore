@@ -16,3 +16,17 @@ build/
 # Ambiente
 .env
 .env.local
+
+# Motion B-roll (skill motion-broll): render, file di lavoro e video non vanno nel repository.
+# motion/brands/ (libreria dei brand), motion/clips/ e motion/plan.json invece si possono committare.
+motion/node_modules/
+motion/package*.json
+motion/env.sh
+motion/work/
+motion/dist/
+motion/out/
+motion/inputs/
+*.mov
+*.mp4
+*.webm
+__pycache__/

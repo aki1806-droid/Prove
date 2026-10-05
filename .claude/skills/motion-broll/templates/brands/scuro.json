@@ -1,0 +1,15 @@
+{
+  "name": "Scuro",
+  "canvas": "#111113",
+  "surface": "#1D1D21",
+  "ink": "#F2F1EE",
+  "strong": "#F2F1EE",
+  "on_strong": "#111113",
+  "accent": "#7C5CFF",
+  "on_accent": "#FFFFFF",
+  "muted": "#8E8C96",
+  "panel": "#F4F2EE",
+  "font": null,
+  "font_mono": null,
+  "logo": null
+}
