@@ -8,9 +8,10 @@ vocabolario già costruito nei moduli precedenti: percorsi che si
 accendono, scale, confronti, trappole, cifre grandi; i corpi nuovi, se
 servono, sono annotati lezione per lezione nei registri.
 
-Stato: copioni e scene si scrivono in ordine dal 3 ottobre 2026, e la voce
-GianP si genera a copione fermo, lezione per lezione; la tabella qui sotto
-si riempie man mano che le rese escono.
+Stato: **completo** il 6 ottobre 2026. Otto rese fra 8:03 e 8:15, tutte
+con voce GianP e giro 8/8 prima del caricamento. La 10.8 è rimasta ferma
+due giorni a voce pronta e trascrizione mancante, per i crediti ElevenLabs
+esauriti; le tracce erano già scaricate e sono state trascritte al rinnovo.
 
 | | lezione | durata | resa |
 |---|---|---|---|

@@ -114,8 +114,9 @@ I moduli 6, 7 e 8 sono pubblicati per intero (2 ottobre 2026): ventiquattro
 lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
-Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 è in corso,
-con le lezioni che entrano nella tabella man mano che escono le rese.
+Il modulo 9 è pubblicato per intero il 4 ottobre 2026, il 10 il 6 ottobre;
+l'11 è in corso, con le lezioni che entrano nella tabella man mano che
+escono le rese.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo
