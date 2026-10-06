@@ -21,7 +21,7 @@ si riempie man mano che le rese escono.
 | 11.4 | Area materno-infantile | 8:21.7 | `3063029a6cbcb294aa5768bf6602f9fc` |
 | 11.5 | Cure palliative e fine vita | 8:11.2 | `0c5d4216a04c013153077b9963d5aa34` |
 | 11.6 | Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
-| 11.7 | Territorio e cure primarie | — |  |
+| 11.7 | Territorio e cure primarie | 8:12.0 | `a59714e446dde257b6180deb8ac36576` |
 | 11.8 | Riepilogo del Modulo 11 e autovalutazione | — |  |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_11.md`;

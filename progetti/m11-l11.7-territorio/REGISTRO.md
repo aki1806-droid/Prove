@@ -62,13 +62,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `a59714e446dde257b6180deb8ac36576` — 491.990 s (8:12.0), 1080p 16:9, resa in 72 s, con SRT (`subtitle_url`) |
+| lotto asset | `6a9e39ccef3f44ec80f161f9b73e9a8a` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ee» (s04, trascritto «e»); «100000» (s07, trascritto «100 000»); «50000» (s08, trascritto «50 000»); «famiglia» (s09, trascritto «famiglie»); «famiglia» (s11, trascritto «famiglie»); «3000» (s11, trascritto «3 000»); «e» (s11, trascritto «ee»); «e» (s14, trascritto «ee»); «100000» (s15, trascritto «100 000»); «e» (s16, trascritto «ee»); «100000» (s18, trascritto «100 000»); «l uca» (s21, trascritto «luca»); «100000» (s21, trascritto «100 000»); «ultrasessantacinquenni» (s23, trascritto «ultra 65enni»); «e» (s25, trascritto «ee»); «e» (s26, trascritto «ee»); «dell» (s34, trascritto «delle»); «e» (s35, trascritto «ee»); «100000» (s44, trascritto «100 000»); «50000 infermiere» (s44, trascritto «50 000 infermieri»); «3000» (s45, trascritto «3 000»); «100000» (s45, trascritto «100 000»); «100000» (s45, trascritto «100 000»); «100000» (s46, trascritto «100 000»); «svama» (s46, trascritto «svam»); «l» (s48, trascritto «le»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
