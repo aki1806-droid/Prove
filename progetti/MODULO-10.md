@@ -21,7 +21,7 @@ si riempie man mano che le rese escono.
 | 10.5 | Gestione delle vie aeree e ventilazione | 8:04.6 | `a1999a03f4ed6e051b23ee1951bb08f0` |
 | 10.6 | Shock e sepsi | 8:04.0 | `1f0416bfb36b539701e3a277f2d20fc5` |
 | 10.7 | Trauma, ustioni, intossicazioni e maxi-emergenze | 8:03.9 | `6b5f066c095f41310d74e209c845f89c` |
-| 10.8 | Riepilogo del Modulo 10 e autovalutazione | — |  |
+| 10.8 | Riepilogo del Modulo 10 e autovalutazione | 8:14.5 | `f65f97b5ea615a59adcd8812c511fbaf` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_10.md`;
 ogni lezione tiene la propria parte in `origine/script-10.N.md`. Il tema

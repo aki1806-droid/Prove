@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,190
+Chiudiamo il modulo dell'emergenza con il suo contenuto piu' prezioso: gli algoritmi. In emergenza non c'e' tempo per ragionare da zero, e l'ansia toglie lucidita' proprio quando serve.
+
+2
+00:00:12,190 --> 00:00:22,820
+Chi conosce la sequenza a memoria agisce mentre gli altri pensano. Rivediamoli uno dopo l'altro, in forma compatta, con i numeri che i concorsi chiedono. E' la lezione da riascoltare la sera prima dell'esame.
+
+3
+00:00:22,820 --> 00:00:34,520
+Il triage a cinque codici, delle linee di indirizzo nazionali del duemiladiciannove. Uno, rosso: accesso immediato. Due, arancione: entro quindici minuti. Tre, azzurro: entro sessanta.
+
+4
+00:00:34,520 --> 00:00:46,240
+Quattro, verde: entro centoventi. Cinque, bianco: entro duecentoquaranta. Sono tempi massimi di attesa, non tempi di visita. E il codice si assegna su gravita' e rischio, non sull'ordine di arrivo.
+
+5
+00:00:46,240 --> 00:00:58,300
+E le cinque fasi: valutazione immediata, soggettiva, oggettiva, decisione, e rivalutazione. Perche' il codice non e' definitivo, e la quinta fase e' quella che si dimentica piu' spesso.
+
+6
+00:00:58,300 --> 00:01:08,570
+L'ABCDE. Vie aeree: il paziente parla? Respiro: la frequenza respiratoria, contata per un minuto. Circolo: il riempimento capillare, sotto i due secondi.
+
+7
+00:01:08,570 --> 00:01:18,420
+Stato neurologico: AVPU o GCS, pupille, e la glicemia, sempre. Esposizione: e poi si ricopre. E la regola: tratta cio' che trovi, prima di passare oltre.
+
+8
+00:01:18,420 --> 00:01:28,870
+La NEWS2. Un tre in un singolo parametro, o un punteggio di cinque o sei, richiedono una risposta urgente. Da sette in su, l'emergenza. Con il team di risposta rapida, dove c'e'.
+
+9
+00:01:28,870 --> 00:01:38,370
+E la catena da citare all'orale: parametri, punteggio, risposta graduata. E una confusione nuova nell'anziano non e' normale per l'eta': e' un allarme, e si riparte dalla A.
+
+10
+00:01:38,370 --> 00:01:53,060
+Il BLSD. Sicurezza, coscienza, aiuto, vie aeree, e il respiro valutato per non piu' di dieci secondi. Poi chiamata, DAE, trenta a due. La catena della sopravvivenza ha cinque anelli, e i primi tre sono nelle mani di chi c'e'.
+
+11
+00:01:53,060 --> 00:01:57,660
+Il gasping e' arresto.
+
+12
+00:01:57,660 --> 00:02:08,130
+Le compressioni: mani al centro del torace, su un piano rigido; cinque, sei centimetri, cento, centoventi al minuto, rilascio completo, cambio ogni due minuti, interruzioni minime.
+
+13
+00:02:08,130 --> 00:02:19,410
+Il DAE: piastre, analisi senza toccare il paziente, shock, e subito le compressioni, per due minuti, senza cercare il polso: anche dopo uno shock efficace, il cuore impiega tempo a pompare.
+
+14
+00:02:19,410 --> 00:02:30,780
+L'ALS. Analisi del ritmo ogni due minuti. Fibrillazione ventricolare e tachicardia ventricolare senza polso: defibrillabili. Asistolia e PEA: no, e li' conta la causa.
+
+15
+00:02:30,780 --> 00:02:41,280
+Adrenalina, un milligrammo: subito nei non defibrillabili, dopo il terzo shock nei defibrillabili, poi ogni tre, cinque minuti, circa ogni due cicli. Il timekeeper tiene i tempi.
+
+16
+00:02:41,280 --> 00:02:50,320
+Amiodarone: trecento milligrammi dopo il terzo shock, centocinquanta dopo il quinto. Dopo ogni farmaco, un lavaggio con fisiologica, per via venosa o intraossea.
+
+17
+00:02:50,320 --> 00:03:03,220
+Le quattro I: ipossia, ipovolemia, ipo o iperkaliemia, ipotermia. Le quattro T: trombosi, tamponamento, tossici, pneumotorace iperteso. Da cercare durante ogni arresto, non solo alla fine.
+
+18
+00:03:03,220 --> 00:03:12,870
+Il PBLS. Lattante sotto un anno. Cinque ventilazioni iniziali, poi quindici a due. Profondita' a un terzo del torace. Nel lattante, capo neutro.
+
+19
+00:03:12,870 --> 00:03:22,410
+L'ostruzione: tosse efficace, si incoraggia. Inefficace: cinque colpi e cinque compressioni, addominali nell'adulto e nel bambino, toraciche nel lattante.
+
+20
+00:03:22,410 --> 00:03:32,190
+Se perde coscienza: rianimazione, perche' le compressioni possono espellere il corpo estraneo. Negli obesi e in gravidanza avanzata, compressioni toraciche al posto delle addominali.
+
+21
+00:03:32,190 --> 00:03:44,410
+Le vie aeree. Guedel solo senza riflesso faringeo; nasofaringea, no nella frattura della base cranica. Pallone a due mani. Il sopraglottico entra senza laringoscopio, ma non protegge del tutto dall'inalazione.
+
+22
+00:03:44,410 --> 00:03:54,290
+Il tubo si verifica con la capnografia, la cuffia a venti, trenta centimetri d'acqua, e si annotano i centimetri all'arcata dentaria: il riferimento per accorgersi di uno spostamento.
+
+23
+00:03:54,290 --> 00:04:02,900
+Alta pressione: un ostacolo. Bassa pressione: una perdita. Il ventilato che peggiora: DOPE. E nel dubbio, si stacca e si ventila con il pallone.
+
+24
+00:04:02,900 --> 00:04:12,840
+Lo shock: ipovolemico, cardiogeno, distributivo, ostruttivo. Tachicardia precoce, ipotensione tardiva, lattati sopra due, indice di shock sopra uno.
+
+25
+00:04:12,840 --> 00:04:22,120
+La sepsi, nella prima ora: lattati, emocolture prima dell'antibiotico, antibiotico, liquidi, e vasopressori per una pressione media di almeno sessantacinque.
+
+26
+00:04:22,120 --> 00:04:32,470
+Sepsis Six: tre da dare, ossigeno, liquidi, antibiotici; tre da prelevare o misurare, emocolture, lattati, diuresi. E la prima dose di antibiotico non aspetta.
+
+27
+00:04:32,470 --> 00:04:44,720
+E l'anafilassi: adrenalina intramuscolo, zero virgola cinque milligrammi nell'adulto, nella coscia, ripetibile dopo cinque minuti. Poi ossigeno, liquidi, e stop all'agente scatenante.
+
+28
+00:04:44,720 --> 00:04:54,250
+Il trauma: XABCDE, prima l'emorragia massiva. Tourniquet con l'orario annotato, senza allentarlo. Rachide in asse, collare, movimento in blocco.
+
+29
+00:04:54,250 --> 00:05:06,410
+Le ustioni: regola del nove, palmo uguale uno per cento. Acqua tiepida per venti minuti, niente ghiaccio. E il terzo grado e' indolore. Fuliggine, voce rauca, stridore: vie aeree a rischio.
+
+30
+00:05:06,410 --> 00:05:17,460
+Parkland: quattro millilitri, per il peso, per la percentuale. Meta' nelle prime otto ore, contate dal momento dell'ustione. Obiettivo: una diuresi di circa mezzo millilitro per chilo all'ora.
+
+31
+00:05:17,460 --> 00:05:29,230
+Lo START: cammina, verde. Non respira, nero. Frequenza oltre trenta, refill oltre due secondi, non esegue ordini: rosso. Altrimenti, giallo. E il triage si ripete.
+
+32
+00:05:29,230 --> 00:05:38,440
+Gli antidoti. Oppioidi: naloxone. Benzodiazepine: flumazenil. Paracetamolo: N-acetilcisteina. Monossido: ossigeno al cento per cento.
+
+33
+00:05:38,440 --> 00:05:48,300
+Dicumarolici: vitamina K. Organofosfati: atropina. E dalla lezione cinque punto cinque: eparina, protamina; ipoglicemia, glucagone o glucosio.
+
+34
+00:05:48,300 --> 00:05:57,620
+Le confusioni che costano piu' punti. Il gasping non e' un respiro. L'ipotensione e' un segno tardivo, non un segno d'esordio: chi aspetta la pressione bassa arriva tardi.
+
+35
+00:05:57,620 --> 00:06:08,140
+Il codice di triage non e' una diagnosi: dice quanto si puo' aspettare, non che cosa si ha. E niente Heimlich nel lattante: colpi dorsali e compressioni toraciche, mai addominali.
+
+36
+00:06:08,140 --> 00:06:18,400
+Un'ustione indolore e' profonda, non lieve. Parkland si conta dal momento dell'ustione, non dall'arrivo. E niente ghiaccio sulle ustioni: aggrava il danno e raffredda il paziente.
+
+37
+00:06:18,400 --> 00:06:26,640
+E l'ipotermia, nella sepsi, e' un segno di gravita', non una buona notizia. Chi si tranquillizza per una temperatura bassa sta guardando il numero sbagliato.
+
+38
+00:06:26,640 --> 00:06:38,280
+Gli agganci veneti per l'orale. Il SUEM centodiciotto e le centrali operative. Il triage a cinque codici. Le reti tempo-dipendenti: infarto, ictus, trauma, con centri hub e spoke.
+
+39
+00:06:38,280 --> 00:06:48,620
+I team di risposta rapida e la NEWS2. I percorsi per la sepsi. Il PEIMAF. E la formazione BLSD e ALS secondo IRC. Per tutte, la parola chiave e' la stessa: rete.
+
+40
+00:06:48,620 --> 00:06:59,160
+Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E ripeti ad alta voce ogni algoritmo, finche' non lo reciti senza esitazioni.
+
+41
+00:06:59,160 --> 00:07:09,070
+Nel quaderno: codici, tempi, dosi, antidoti, START. Le cose che non si ragionano, si sanno: una pagina sola, da rileggere la sera prima dell'esame.
+
+42
+00:07:09,070 --> 00:07:20,880
+E scrivi due casi: il paziente che si deteriora in reparto, con ABCDE e NEWS2; e la sepsi, dal sospetto alla prima ora. Scriverli a parole tue e' il modo migliore per prepararti all'orale.
+
+43
+00:07:20,880 --> 00:07:29,190
+La frase del modulo viene dal mondo dell'emergenza, e vale per chi studia come per chi soccorre. E spiega perche' questo modulo si studia diversamente dagli altri.
+
+44
+00:07:29,190 --> 00:07:34,670
+Non si sale al livello delle aspettative. Si scende al livello dell'addestramento.
+
+45
+00:07:34,670 --> 00:07:42,350
+Per questo gli algoritmi si imparano a memoria, e si ripetono: perche' nel momento vero non c'e' tempo per ricordarli. Le mani fanno quello che hanno ripetuto.
+
+46
+00:07:42,350 --> 00:07:51,950
+Nel prossimo modulo cambiamo ritmo: l'anziano fragile e la demenza, la salute mentale, l'area materno-infantile. Si passa dall'urgenza dei minuti alla cura che dura anni.
+
+47
+00:07:51,950 --> 00:08:00,520
+Le cure palliative e il fine vita, la cronicita' con l'educazione terapeutica, e il territorio con le cure primarie, le case e gli ospedali di comunita'.
+
+48
+00:08:00,520 --> 00:08:05,510
+E' il modulo in cui si vede quanto l'assistenza infermieristica vada oltre l'ospedale. Ci vediamo li'.

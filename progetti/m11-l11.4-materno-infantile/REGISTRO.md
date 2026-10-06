@@ -14,13 +14,31 @@ Quarta lezione del Modulo 11: l'area materno-infantile. La gravidanza fisiologic
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,35 (A $0,64 · B $0,71) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s32 s38 |
 
 ```
 CARATTERI  8.064          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:09.8     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.849 car · chunk B 4.215 car)
+tracce grezze             A 273.4 s  ·  B 302.4 s
+silenzi                   fattore 1,118   ->   atempo 1,061
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**580/588 parole**, la B **639/651**, nessun buco. Le rese diverse
+(non buchi): s05 «duecentottanta» sentito «280»; s11 «e» sentito «ee»; s11 «e» sentito «ee»; s13 «e» sentito «ee»; s14 «e» sentito «ee»; s17 «e» sentito «ee»; s17 «ee» sentito «e»; s21 «e» sentito «ee»; s26 «ee» sentito «e»; s27 «e» sentito «ee»; s27 «ee» sentito «e»; s29 «e» sentito «ee»; s35 «ee» sentito «e»; s39 «ee» sentito «e»; s41 «3 4» sentito «lezione34»; s42 «e» sentito «ee».
 
 ## Le scene
 

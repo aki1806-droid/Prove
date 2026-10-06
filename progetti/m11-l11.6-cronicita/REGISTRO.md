@@ -8,7 +8,7 @@ Sesta lezione del Modulo 11: la cronicità, l'educazione terapeutica e il self-c
 
 | | |
 |---|---|
-| durata chiesta dallo script | 8:01,0 stimati |
+| durata chiesta dallo script | 8:02,8 stimati |
 | durata ottenuta | vedi «La resa» |
 | slide dello script | 50 |
 | scene | 50 (il tetto) |
@@ -17,9 +17,9 @@ Sesta lezione del Modulo 11: la cronicità, l'educazione terapeutica e il self-c
 | pause senza voce | s23 s46 |
 
 ```
-CARATTERI  7.915          BLOCCHI  48         SCENE  50/50
-stima a 17,0 car/s        8:01.0     (MIRA 16,6)
-stacco tracce             dopo s25   (chunk A 3.956 car · chunk B 3.959 car)
+CARATTERI  7.949          BLOCCHI  48         SCENE  50/50
+stima a 17,0 car/s        8:03.0     (MIRA 16,6)
+stacco tracce             dopo s25   (chunk A 3.990 car · chunk B 3.959 car)
 ```
 
 ## Le scene

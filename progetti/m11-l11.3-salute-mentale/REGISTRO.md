@@ -14,13 +14,31 @@ Terza lezione del Modulo 11: la salute mentale e le dipendenze. I principali dis
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,43 (A $0,72 · B $0,71) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s13 s26 |
 
 ```
 CARATTERI  8.552          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:38.5     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.332 car · chunk B 4.220 car)
+tracce grezze             A 278.2 s  ·  B 318.6 s
+silenzi                   fattore 1,093   ->   atempo 1,060
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**650/658 parole**, la B **630/640**, nessun buco. Le rese diverse
+(non buchi): s04 «e» sentito «ee»; s07 «centottanta» sentito «180»; s10 «in degenza» sentito «indegenza»; s10 «e» sentito «ee»; s12 «e» sentito «ee»; s18 «e» sentito «ee»; s25 «e» sentito «ee»; s27 «paziente» sentito «pazienti»; s29 «e» sentito «ee»; s30 «e» sentito «ee»; s37 «e» sentito «ee»; s37 «ciwa ar» sentito «civaar»; s37 «b 1» sentito «b1»; s40 «e» sentito «ee»; s46 «centottanta» sentito «180».
 
 ## Le scene
 

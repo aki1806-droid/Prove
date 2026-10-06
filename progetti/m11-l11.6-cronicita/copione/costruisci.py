@@ -24,7 +24,7 @@ BLOCCHI = [
  (5,"chiaro",0,"L'aderenza terapeutica: il grado in cui il comportamento della persona corrisponde alle raccomandazioni concordate. E la parola concordate conta."),
  (5,"chiaro",0,"Secondo l'OMS, nelle malattie croniche circa la meta' dei pazienti non e' pienamente aderente. Le cause: terapie complesse, effetti collaterali, scarsa comprensione, convinzioni personali, costi, deficit cognitivi."),
  (5,"chiaro",0,"Le strategie: semplificare lo schema, perche' meno compresse e meno orari significano meno dimenticanze. Educare, usare ausili come il portapillole settimanale o i promemoria, e coinvolgere il caregiver."),
- (5,"chiaro",0,"E chiedere senza giudicare. Molte persone dimenticano qualche dose, a lei capita? ottiene risposte vere. Prende sempre tutto? no."),
+ (5,"chiaro",0,"E chiedere senza giudicare. Se chiedi: molte persone dimenticano qualche dose, a lei capita? Ottieni risposte vere. Se chiedi: prende sempre tutto? Non le ottieni."),
 
  (6,"chiaro",0,"Cambiare un comportamento, smettere di fumare, muoversi di piu', mangiare diversamente, e' un processo. Il modello di Prochaska e DiClemente lo descrive in fasi."),
  (6,"chiaro",0,"Precontemplazione: la persona non pensa di dover cambiare. Contemplazione: ci pensa, ma e' ambivalente. Determinazione: decide e si prepara. Azione: cambia. E mantenimento."),

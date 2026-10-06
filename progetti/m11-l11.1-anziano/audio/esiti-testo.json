@@ -1,0 +1,113 @@
+{
+ "A": {
+  "parole_copione": 594,
+  "parole_dette": 593,
+  "coincidenti": 582,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "d",
+    "detto": "di"
+   },
+   {
+    "blocco": "s09",
+    "copione": "fried",
+    "detto": "frail"
+   },
+   {
+    "blocco": "s10",
+    "copione": "pre fragile",
+    "detto": "prefragile"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "svama",
+    "detto": "svam"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 588,
+  "parole_dette": 588,
+  "coincidenti": 580,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s44",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

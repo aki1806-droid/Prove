@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 658,
+  "parole_dette": 657,
+  "coincidenti": 650,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s07",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s10",
+    "copione": "in degenza",
+    "detto": "indegenza"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 640,
+  "parole_dette": 638,
+  "coincidenti": 630,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "paziente",
+    "detto": "pazienti"
+   },
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ciwa ar",
+    "detto": "civaar"
+   },
+   {
+    "blocco": "s37",
+    "copione": "b 1",
+    "detto": "b1"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s46",
+    "copione": "centottanta",
+    "detto": "180"
+   }
+  ]
+ }
+}

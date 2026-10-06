@@ -14,13 +14,31 @@ Quinta lezione del Modulo 11: le cure palliative e il fine vita. Che cosa sono (
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,31 (A $0,62 · B $0,69) |
+| costo trascrizioni | $0,50 |
 | pause senza voce | s22 s48 |
 
 ```
 CARATTERI  7.864          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:58.0     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.755 car · chunk B 4.109 car)
+tracce grezze             A 269.5 s  ·  B 281.9 s
+silenzi                   fattore 1,133   ->   atempo 1,027
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**564/567 parole**, la B **626/633**, nessun buco. Le rese diverse
+(non buchi): s04 «e» sentito «ee»; s15 «e» sentito «ee»; s19 «e» sentito «ee»; s27 «e» sentito «ee»; s32 «ee» sentito «e»; s33 «ee» sentito «e»; s37 «e» sentito «ee»; s38 «ee» sentito «e»; s39 «e» sentito «ee»; s41 «e» sentito «ee».
 
 ## Le scene
 

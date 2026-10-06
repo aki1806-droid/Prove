@@ -1,0 +1,123 @@
+{
+ "A": {
+  "parole_copione": 621,
+  "parole_dette": 630,
+  "coincidenti": 612,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s05",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s07",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s08",
+    "copione": "avpu",
+    "detto": "a v p u"
+   },
+   {
+    "blocco": "s09",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "timekeeper",
+    "detto": "time keeper"
+   },
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 626,
+  "parole_dette": 632,
+  "coincidenti": 609,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "sepsis six",
+    "detto": "sepsis6"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s29",
+    "copione": "xabcde",
+    "detto": "x a b c d e"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s39",
+    "copione": "suem",
+    "detto": "sum"
+   },
+   {
+    "blocco": "s40",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ripeti",
+    "detto": "ripete"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "abcde",
+    "detto": "a b c d"
+   },
+   {
+    "blocco": "s43",
+    "copione": "news2",
+    "detto": "e news 2"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

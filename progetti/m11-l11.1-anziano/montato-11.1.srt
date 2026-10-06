@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:09,090
+Apriamo il modulo dedicato ai diversi momenti della vita e ai diversi luoghi di cura. Si comincia dall'anziano fragile.
+
+2
+00:00:09,090 --> 00:00:16,540
+E' la persona assistita piu' frequente, in ospedale e sul territorio. E in Veneto, una delle regioni piu' longeve d'Italia, lo e' ancora di piu'.
+
+3
+00:00:16,540 --> 00:00:27,220
+Molto di cio' che abbiamo studiato trova qui il suo punto d'incontro: cadute, delirium, malnutrizione, politerapia. Qui li rimettiamo insieme, intorno alla stessa persona.
+
+4
+00:00:27,220 --> 00:00:36,420
+Due concetti da distinguere. L'invecchiamento riduce progressivamente la riserva funzionale degli organi: a riposo tutto funziona, ma sotto stress il margine e' minore.
+
+5
+00:00:36,420 --> 00:00:47,760
+La fragilita' e' qualcosa di piu': uno stato di aumentata vulnerabilita', in cui un evento minore, un'infezione urinaria, un farmaco nuovo, un ricovero, provoca un peggioramento sproporzionato.
+
+6
+00:00:47,760 --> 00:00:52,360
+Eta' non significa fragilita'.
+
+7
+00:00:52,360 --> 00:00:59,420
+Ci sono novantenni robusti e settantenni fragili. Quello che conta e' come la persona risponde a uno stress, non la data di nascita.
+
+8
+00:00:59,420 --> 00:01:10,380
+Uno strumento molto usato per riconoscerla sono i criteri di Fried: calo di peso involontario, astenia, ridotta forza di presa, ridotta velocita' del cammino, ridotta attivita' fisica.
+
+9
+00:01:10,380 --> 00:01:19,290
+Con tre o piu' criteri la persona e' fragile; con uno o due, pre-fragile. Forza e velocita' sono gli stessi indicatori della sarcopenia, nella lezione tre punto tre.
+
+10
+00:01:19,290 --> 00:01:30,870
+E la notizia buona: la fragilita' e' in parte reversibile, con attivita' fisica, nutrizione, e revisione dei farmaci. Per questo riconoscerla presto conta: e' una condizione su cui si puo' ancora agire.
+
+11
+00:01:30,870 --> 00:01:40,110
+Lo strumento principale della geriatria e' la valutazione multidimensionale, la VMD: si valuta la persona in tutte le sue dimensioni, non solo nella malattia.
+
+12
+00:01:40,110 --> 00:01:52,640
+Clinica: patologie e farmaci. Funzionale: le attivita' di base e quelle strumentali, ADL e IADL, e la Barthel, della lezione due punto tre. Cognitiva: per esempio il Mini Mental State.
+
+13
+00:01:52,640 --> 00:02:02,090
+Affettiva: la scala della depressione geriatrica. Nutrizionale: l'MNA. Sociale e ambientale: chi c'e' accanto, com'e' la casa, quali risorse ci sono.
+
+14
+00:02:02,090 --> 00:02:12,750
+In Veneto, per l'accesso ai servizi, la valutazione multidimensionale e' dell'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con la scheda SVaMA.
+
+15
+00:02:12,750 --> 00:02:22,720
+Le sindromi geriatriche: condizioni frequenti, causate da piu' fattori, che non corrispondono a una singola malattia. Non si curano con un farmaco: si gestiscono con l'assistenza.
+
+16
+00:02:22,720 --> 00:02:34,330
+Cadute, delirium, incontinenza, lesioni da pressione, malnutrizione e disfagia, immobilita', polifarmacoterapia, deficit sensoriali. Le hai incontrate tutte nei moduli due e tre.
+
+17
+00:02:34,330 --> 00:02:46,820
+Il punto e' che si influenzano a vicenda: l'immobilita' favorisce la lesione, il farmaco la caduta, la caduta l'immobilita'. Per questo si agisce su piu' fattori insieme. E' il terreno in cui l'infermiere fa piu' differenza.
+
+18
+00:02:46,820 --> 00:02:54,430
+Le tre D: delirium, demenza, depressione. Da distinguere, perche' e' una domanda frequente, e perche' cambiano il modo di assistere.
+
+19
+00:02:54,430 --> 00:03:04,170
+Il delirium: esordio acuto, in ore o giorni; decorso fluttuante; attenzione compromessa e coscienza alterata. Ed e' spesso reversibile, se si tratta la causa.
+
+20
+00:03:04,170 --> 00:03:13,950
+La demenza: esordio insidioso, in mesi o anni; decorso progressivo; e l'attenzione, nelle fasi iniziali, e' conservata. La vedremo nella prossima lezione.
+
+21
+00:03:13,950 --> 00:03:24,010
+La depressione: esordio subacuto, puo' simulare un deficit cognitivo, ed e' trattabile. E le tre possono coesistere: il delirium e' molto piu' frequente in chi ha gia' una demenza.
+
+22
+00:03:24,010 --> 00:03:33,930
+Il delirium ha tre forme. Iperattivo: agitazione, irrequietezza, a volte aggressivita'. E' quello che si nota, e che troppo spesso porta a sedare o a contenere.
+
+23
+00:03:33,930 --> 00:03:43,820
+Ipoattivo: sonnolenza, apatia, rallentamento. E' il piu' spesso non riconosciuto, perche' un anziano tranquillo e sonnolento sembra buono. E poi la forma mista.
+
+24
+00:03:43,820 --> 00:03:54,970
+Si riconosce con la CAM della lezione due punto tre. E va trattato come un'emergenza medica: e' il segno di qualcosa che non va. Infezione, farmaci, ritenzione, disidratazione, dolore.
+
+25
+00:03:54,970 --> 00:04:04,620
+La prevenzione del delirium e' in gran parte infermieristica, e non farmacologica. Orientamento: un orologio visibile, un calendario, presentarsi per nome a ogni contatto.
+
+26
+00:04:04,620 --> 00:04:13,250
+Occhiali e apparecchi acustici indossati: sembra banale, ma un anziano che non vede e non sente, in un ambiente sconosciuto, e' un candidato al delirium.
+
+27
+00:04:13,250 --> 00:04:26,100
+Sonno protetto, mobilizzazione precoce, idratazione, dolore controllato, niente stipsi ne' ritenzione, cateteri inutili rimossi, i familiari presenti. Ed evitare la contenzione, che lo peggiora.
+
+28
+00:04:26,100 --> 00:04:36,800
+La polifarmacoterapia, cinque o piu' farmaci, nell'anziano e' la regola, spesso con prescrittori diversi che non si parlano. E aumenta il rischio di interazioni e di reazioni avverse.
+
+29
+00:04:36,800 --> 00:04:47,500
+Alcuni farmaci sono potenzialmente inappropriati nell'anziano, secondo i criteri di Beers della lezione cinque punto uno: benzodiazepine, anticolinergici, alcuni antipsicotici.
+
+30
+00:04:47,500 --> 00:05:00,540
+E molte sindromi geriatriche, cadute, delirium, stipsi, ipotensione, sono effetti dei farmaci. Da qui la deprescrizione, e il ruolo dell'infermiere: segnalare il legame fra un farmaco e un sintomo nuovo.
+
+31
+00:05:00,540 --> 00:05:09,770
+Un concetto che all'orale distingue: il paradosso del ricovero. L'ospedale cura la malattia acuta, ma nell'anziano fragile puo' causare un declino funzionale.
+
+32
+00:05:09,770 --> 00:05:20,030
+L'immobilita' a letto, il delirium, la malnutrizione, la perdita delle abitudini. Molti anziani escono meno autonomi di come sono entrati, anche se la malattia e' guarita.
+
+33
+00:05:20,030 --> 00:05:29,670
+Per questo l'obiettivo e' mantenere l'autonomia residua durante la degenza: farlo camminare, mangiare seduto, andare in bagno. E pianificare una dimissione precoce.
+
+34
+00:05:29,670 --> 00:05:38,950
+Il caso. Un'anziana di ottantaquattro anni, ricoverata per un'infezione urinaria. Il secondo giorno e' molto sonnolenta, mangia poco, risponde a fatica.
+
+35
+00:05:38,950 --> 00:05:47,710
+E i familiari dicono: a casa non era cosi'. Che cosa pensi? Delirium ipoattivo, finche' non si dimostra il contrario. Non stanchezza, non eta'.
+
+36
+00:05:47,710 --> 00:05:59,030
+Che cosa fai? Valuti con la CAM. Parametri, glicemia, saturazione. Cerchi ritenzione urinaria e stipsi, verifichi idratazione e farmaci recenti. E segnali al medico.
+
+37
+00:05:59,030 --> 00:06:10,430
+Poi la prevenzione: occhiali, apparecchi, orientamento, familiari presenti, mobilizzazione. E la frase dei familiari, a casa non era cosi', e' il dato piu' importante del caso.
+
+38
+00:06:10,430 --> 00:06:21,030
+In Veneto la valutazione multidimensionale e' il cancello di accesso ai servizi per la non autosufficienza: l'UVMD distrettuale, con la SVaMA, definisce il percorso.
+
+39
+00:06:21,030 --> 00:06:31,460
+Domicilio con assistenza, centro diurno, Centro di Servizi: lo vedremo nella lezione undici punto sette. Con una popolazione fra le piu' anziane d'Italia, sono temi quotidiani.
+
+40
+00:06:31,460 --> 00:06:44,100
+La tabella. Fragilita' non e' eta'. Fried: peso, astenia, forza, velocita', attivita'; da tre in su, fragile. La VMD in sei dimensioni, e in Veneto l'UVMD con la SVaMA.
+
+41
+00:06:44,100 --> 00:06:54,410
+Le sindromi geriatriche, che si influenzano a vicenda. Il delirium: acuto, fluttuante, attenzione compromessa. E l'ipoattivo, il meno riconosciuto.
+
+42
+00:06:54,410 --> 00:07:01,970
+Un'attenzione alla comunicazione. Presentarsi. Parlare di fronte, con la luce sul proprio volto: molti anziani leggono le labbra.
+
+43
+00:07:01,970 --> 00:07:11,890
+Voce chiara, non per forza piu' forte. Frasi brevi. Verificare che apparecchi e occhiali ci siano. E dare il tempo di rispondere: la lentezza non e' confusione.
+
+44
+00:07:11,890 --> 00:07:20,790
+E non infantilizzare: chiamare nonno una persona che non e' nostro nonno lede la sua dignita'. Si usa il nome, e il lei, se e' cosi' che la persona vuole.
+
+45
+00:07:20,790 --> 00:07:25,390
+Nell'anziano fragile, un cambiamento improvviso e' un sintomo.
+
+46
+00:07:25,390 --> 00:07:38,270
+Una nuova confusione, una caduta, un rifiuto del cibo, un'incontinenza nuova: dietro c'e' quasi sempre una causa da cercare. E chi conosce la persona da sempre, il familiare, e' spesso il primo ad accorgersene.
+
+47
+00:07:38,270 --> 00:07:46,270
+Nella prossima lezione: le demenze, con i disturbi del comportamento e gli approcci non farmacologici, che vengono prima dei farmaci.
+
+48
+00:07:46,270 --> 00:07:52,870
+E il sostegno a chi assiste: il caregiver, spesso un familiare, a volte anziano a sua volta. A tra poco.

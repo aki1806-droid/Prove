@@ -15,7 +15,7 @@ si riempie man mano che le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 11.1 | L'anziano fragile | — |  |
+| 11.1 | L'anziano fragile | 8:01.9 | `f7eb02ef8927ad2b0ebf871e27c49e46` |
 | 11.2 | Demenze e disturbi cognitivi | — |  |
 | 11.3 | Salute mentale e dipendenze | — |  |
 | 11.4 | Area materno-infantile | — |  |
