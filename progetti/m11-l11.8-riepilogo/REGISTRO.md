@@ -16,12 +16,16 @@ Ottava e ultima lezione del Modulo 11: il riepilogo. Le parole chiave di ogni le
 | voce | GianP — News Info and Documentary, `eleven_v3` |
 | costo voce | $1,32 (A $0,66 · B $0,66) |
 | costo trascrizioni | $0,57 |
+| costo voce | $1,32 (A $0,66 · B $0,66) |
+| costo trascrizioni | $0,57 |
 | pause senza voce | s32 s45 |
 
 ```
 CARATTERI  7.856          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        7:57.5     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.955 car · chunk B 3.901 car)
+tracce grezze             A 301.0 s  ·  B 325.8 s
+silenzi                   fattore 1,154   ->   atempo 1,144
 tracce grezze             A 301.0 s  ·  B 325.8 s
 silenzi                   fattore 1,154   ->   atempo 1,144
 ```
@@ -39,6 +43,20 @@ silenzi                   fattore 1,154   ->   atempo 1,144
 Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 **574/581 parole**, la B **599/612**, nessun buco. Le rese diverse
 (non buchi): s04 «tieni» sentito «pieni»; s07 «ee» sentito «e»; s09 «lewy» sentito «levy»; s13 «48» sentito «quarantott»; s18 «24» sentito «ventiquattrore»; s23 «teach back» sentito «teachback»; s25 «50000» sentito «50 000»; s25 «3000» sentito «3 000»; s26 «100000» sentito «100 000»; s27 «e» sentito «ee»; s34 «ee» sentito «e»; s36 «ee» sentito «e»; s42 «ee» sentito «e»; s47 «e» sentito «ee»; s49 «e» sentito «ee».
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | nessuno | nessuno |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**574/581 parole**, la B **605/612**, nessun buco. Le rese diverse
+(non buchi): s04 «tieni» sentito «pieni»; s07 «ee» sentito «e»; s09 «lewy» sentito «levy»; s13 «48» sentito «quarantott»; s18 «24» sentito «ventiquattrore»; s23 «teach back» sentito «teachback»; s27 «e» sentito «ee»; s34 «ee» sentito «e»; s36 «ee» sentito «e»; s42 «ee» sentito «e»; s47 «e» sentito «ee»; s49 «e» sentito «ee».
 
 ## Le scene
 

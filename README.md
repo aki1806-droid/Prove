@@ -105,6 +105,7 @@ progetti/<modulo>-<lezione>/
 | `m11-l11.3-salute-mentale` | Modulo 11 · 11.3 Salute mentale e dipendenze | 8:50.8 | `59e3e02b62f28567d93c9039bd07e0bf` |
 | `m11-l11.4-materno-infantile` | Modulo 11 · 11.4 Area materno-infantile | 8:21.7 | `3063029a6cbcb294aa5768bf6602f9fc` |
 | `m11-l11.5-palliative` | Modulo 11 · 11.5 Cure palliative e fine vita | 8:11.2 | `0c5d4216a04c013153077b9963d5aa34` |
+| `m11-l11.6-cronicita` | Modulo 11 · 11.6 Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

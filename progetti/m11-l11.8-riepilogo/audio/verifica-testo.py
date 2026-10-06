@@ -80,6 +80,8 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ (r"\b(\d+)\s+000\b", r"\g<1>000"),   # 11.8 s25-s26: il trascrittore scrive «100 000» per centomila
+ (r"\bluca\b", " l uca "),               # 11.8 s26: «l'UCA» trascritto «luca»
  (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
  (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
  (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),

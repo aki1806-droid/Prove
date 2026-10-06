@@ -39,31 +39,10 @@
  },
  "B": {
   "parole_copione": 612,
-  "parole_dette": 614,
-  "coincidenti": 599,
-  "buchi": [
-   {
-    "blocco": "s26",
-    "parole_copione": "100000 l uca",
-    "al_loro_posto": "100 000 luca"
-   }
-  ],
+  "parole_dette": 611,
+  "coincidenti": 605,
+  "buchi": [],
   "sostituzioni_brevi": [
-   {
-    "blocco": "s25",
-    "copione": "50000",
-    "detto": "50 000"
-   },
-   {
-    "blocco": "s25",
-    "copione": "3000",
-    "detto": "3 000"
-   },
-   {
-    "blocco": "s26",
-    "copione": "100000",
-    "detto": "100 000"
-   },
    {
     "blocco": "s27",
     "copione": "e",
