@@ -932,6 +932,7 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | tagli | soglia scelta «al primo tentativo che funziona» | provarle tutte, votare sull'esito |
 | tagli | `correzioni.json` applicato due volte | rifare `allinea`, poi tutte le correzioni insieme |
 | verifica | la trascrizione ripete il copione (ricaduti nel modulo 11: costo zero e tag `[warm]` nel testo) | trascrivere da un **asset audio**, non dal nodo che ha generato; `salva-trascrizioni.py` ora rifiuta un testo con i tag di intenzione |
+| verifica | il giro dà 7/8 per un «buco» che non c'è: il trascrittore scrive «100 000» per centomila, «luca» per «l'UCA» (11.8) | una riga in `RESE` di `verifica-testo.py`, poi rifare il giro; non toccare la voce |
 | verifica | il caricamento rifiuta la traccia grezza | togliere il tag ID3 (`-map_metadata -1 -c:a copy`) |
 | verifica | il controllo statistico non segnala niente su un testo di date | è cieco in proporzione: leggere la tabella a mano |
 | slide | il controllo di traboccamento non trova mai niente | confronto **geometrico**, non `scrollHeight` |
