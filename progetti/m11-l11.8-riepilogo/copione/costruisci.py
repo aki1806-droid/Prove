@@ -51,7 +51,7 @@ BLOCCHI = [
 
  (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
  (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"Lo state facendo morire?: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
 
  (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
  (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),

@@ -14,13 +14,31 @@ Sesta lezione del Modulo 11: la cronicità, l'educazione terapeutica e il self-c
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,33 (A $0,66 · B $0,66) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s23 s46 |
 
 ```
 CARATTERI  7.949          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:03.0     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 3.990 car · chunk B 3.959 car)
+tracce grezze             A 257.2 s  ·  B 299.8 s
+silenzi                   fattore 1,100   ->   atempo 1,057
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**584/587 parole**, la B **607/614**, nessun buco. Le rese diverse
+(non buchi): s02 «ee» sentito «e»; s18 «e» sentito «ee»; s21 «e» sentito «ee»; s29 «e» sentito «ee»; s32 «riegel» sentito «riegle»; s33 «ee» sentito «e»; s36 «e» sentito «ee»; s41 «insegni» sentito «insegna»; s43 «ha» sentito «app»; s44 «di» sentito «d».
 
 ## Le scene
 

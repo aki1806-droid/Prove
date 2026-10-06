@@ -16,8 +16,8 @@ si riempie man mano che le rese escono.
 | | lezione | durata | resa |
 |---|---|---|---|
 | 11.1 | L'anziano fragile | 8:01.9 | `f7eb02ef8927ad2b0ebf871e27c49e46` |
-| 11.2 | Demenze e disturbi cognitivi | — |  |
-| 11.3 | Salute mentale e dipendenze | — |  |
+| 11.2 | Demenze e disturbi cognitivi | 8:07.4 | `9a0b5839602a5e94425efc55c15b7f9e` |
+| 11.3 | Salute mentale e dipendenze | 8:50.8 | `59e3e02b62f28567d93c9039bd07e0bf` |
 | 11.4 | Area materno-infantile | — |  |
 | 11.5 | Cure palliative e fine vita | — |  |
 | 11.6 | Cronicità, educazione terapeutica e self-care | — |  |

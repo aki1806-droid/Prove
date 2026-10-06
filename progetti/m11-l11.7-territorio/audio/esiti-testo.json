@@ -1,0 +1,148 @@
+{
+ "A": {
+  "parole_copione": 602,
+  "parole_dette": 608,
+  "coincidenti": 585,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s08",
+    "copione": "50000",
+    "detto": "50 000"
+   },
+   {
+    "blocco": "s09",
+    "copione": "famiglia",
+    "detto": "famiglie"
+   },
+   {
+    "blocco": "s11",
+    "copione": "famiglia",
+    "detto": "famiglie"
+   },
+   {
+    "blocco": "s11",
+    "copione": "3000",
+    "detto": "3 000"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s21",
+    "copione": "l uca",
+    "detto": "luca"
+   },
+   {
+    "blocco": "s21",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s23",
+    "copione": "ultrasessantacinquenni",
+    "detto": "ultra 65enni"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 594,
+  "parole_dette": 600,
+  "coincidenti": 583,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s34",
+    "copione": "dell",
+    "detto": "delle"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s44",
+    "copione": "50000 infermiere",
+    "detto": "50 000 infermieri"
+   },
+   {
+    "blocco": "s45",
+    "copione": "3000",
+    "detto": "3 000"
+   },
+   {
+    "blocco": "s45",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s45",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s46",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s46",
+    "copione": "svama",
+    "detto": "svam"
+   },
+   {
+    "blocco": "s48",
+    "copione": "l",
+    "detto": "le"
+   }
+  ]
+ }
+}

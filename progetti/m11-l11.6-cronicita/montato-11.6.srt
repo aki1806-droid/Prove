@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,320
+Le malattie croniche, il diabete, lo scompenso, la BPCO, l'ipertensione, la malattia renale, accompagnano la persona per anni. E la maggior parte della loro gestione avviene a casa, non in ospedale.
+
+2
+00:00:15,320 --> 00:00:25,240
+Il protagonista della cura diventa la persona stessa, che ogni giorno decide che cosa mangiare, quando prendere i farmaci, se muoversi. E il professionista diventa un allenatore.
+
+3
+00:00:25,240 --> 00:00:34,860
+Questa lezione riguarda gli strumenti per farlo: i modelli organizzativi, l'aderenza, il colloquio motivazionale, l'educazione terapeutica e la telemedicina.
+
+4
+00:00:34,860 --> 00:00:46,490
+La cronicita' cresce con l'invecchiamento della popolazione, e molte persone hanno piu' malattie croniche insieme: e' la multimorbidita'. E le malattie croniche assorbono la maggior parte delle risorse sanitarie.
+
+5
+00:00:46,490 --> 00:00:52,960
+Il riferimento nazionale e' il Piano Nazionale della Cronicita' del duemilasedici, che indica un cambio di paradigma.
+
+6
+00:00:52,960 --> 00:01:02,760
+Dalla medicina di attesa, in cui il sistema aspetta che il paziente arrivi quando sta male, alla medicina di iniziativa, in cui il sistema va incontro alla persona prima che si aggravi.
+
+7
+00:01:02,760 --> 00:01:12,070
+Lo strumento operativo e' il PDTA, il Percorso Diagnostico-Terapeutico-Assistenziale. Traduce le linee guida nella realta' organizzativa di un territorio.
+
+8
+00:01:12,070 --> 00:01:21,050
+E definisce chi fa che cosa, quando e dove: quali esami, con quale frequenza, chi li prescrive, chi fa l'educazione, quando si invia allo specialista.
+
+9
+00:01:21,050 --> 00:01:33,370
+Integra ospedale e territorio, medico di medicina generale, specialista e infermiere, e prevede indicatori per misurare i risultati. Ne hai gia' incontrati diversi: diabete, scompenso, BPCO.
+
+10
+00:01:33,370 --> 00:01:46,370
+Il modello teorico di riferimento e' il Chronic Care Model di Wagner, con sei componenti. Uno: le risorse della comunita', cioe' associazioni, palestre, gruppi. Due: l'organizzazione del sistema sanitario.
+
+11
+00:01:46,370 --> 00:01:56,330
+Tre: il supporto all'autogestione, cioe' aiutare la persona a gestire da se' la propria malattia. Quattro: l'organizzazione del team e dell'erogazione dei servizi.
+
+12
+00:01:56,330 --> 00:02:04,140
+Cinque: il supporto alle decisioni cliniche, con le linee guida. Sei: i sistemi informativi clinici, come i registri di patologia.
+
+13
+00:02:04,140 --> 00:02:11,270
+Il risultato atteso e' l'incontro fra un paziente informato e attivo, e un team preparato e proattivo. Due meta' dello stesso lavoro.
+
+14
+00:02:11,270 --> 00:02:20,600
+L'aderenza terapeutica: il grado in cui il comportamento della persona corrisponde alle raccomandazioni concordate. E la parola concordate conta.
+
+15
+00:02:20,600 --> 00:02:35,360
+Secondo l'OMS, nelle malattie croniche circa la meta' dei pazienti non e' pienamente aderente. Le cause: terapie complesse, effetti collaterali, scarsa comprensione, convinzioni personali, costi, deficit cognitivi.
+
+16
+00:02:35,360 --> 00:02:47,860
+Le strategie: semplificare lo schema, perche' meno compresse e meno orari significano meno dimenticanze. Educare, usare ausili come il portapillole settimanale o i promemoria, e coinvolgere il caregiver.
+
+17
+00:02:47,860 --> 00:02:58,060
+E chiedere senza giudicare. Se chiedi: molte persone dimenticano qualche dose, a lei capita? Ottieni risposte vere. Se chiedi: prende sempre tutto? Non le ottieni.
+
+18
+00:02:58,060 --> 00:03:07,650
+Cambiare un comportamento, smettere di fumare, muoversi di piu', mangiare diversamente, e' un processo. Il modello di Prochaska e DiClemente lo descrive in fasi.
+
+19
+00:03:07,650 --> 00:03:19,840
+Precontemplazione: la persona non pensa di dover cambiare. Contemplazione: ci pensa, ma e' ambivalente. Determinazione: decide e si prepara. Azione: cambia. E mantenimento.
+
+20
+00:03:19,840 --> 00:03:31,320
+E la ricaduta, che e' una parte normale del processo, non un fallimento. Il punto pratico: l'intervento va adattato alla fase. Dare istruzioni dettagliate a chi e' in precontemplazione non serve.
+
+21
+00:03:31,320 --> 00:03:40,060
+Il colloquio motivazionale: uno stile di colloquio collaborativo, che rafforza la motivazione della persona al cambiamento facendo emergere le sue ragioni.
+
+22
+00:03:40,060 --> 00:03:44,660
+Le sue ragioni, non le nostre.
+
+23
+00:03:44,660 --> 00:03:53,100
+Il nemico principale e' il riflesso di correzione: l'impulso del professionista a spiegare, convincere, correggere, che provoca resistenza.
+
+24
+00:03:53,100 --> 00:04:06,680
+Le tecniche si ricordano con l'acronimo OARS: domande aperte, valorizzazioni, ascolto riflessivo, riassunti. E si rinforza il discorso di cambiamento, quando e' la persona a dare ragioni per cambiare.
+
+25
+00:04:06,680 --> 00:04:17,230
+Un esempio. Il riflesso di correzione: deve smettere di fumare, altrimenti la BPCO peggiora. La persona lo sa gia', e probabilmente se l'e' sentito dire cento volte.
+
+26
+00:04:17,230 --> 00:04:25,020
+Lo stile motivazionale: che cosa pensa del fumo, adesso che respira con piu' fatica? E poi un ascolto riflessivo che da' voce all'ambivalenza.
+
+27
+00:04:25,020 --> 00:04:31,890
+Da un lato le piace, dall'altro si preoccupa per il respiro. A quel punto e' la persona a cercare le ragioni per cambiare.
+
+28
+00:04:31,890 --> 00:04:43,710
+L'educazione terapeutica, secondo l'OMS, aiuta la persona ad acquisire le competenze per gestire la propria malattia. E' strutturata, continua e verificata: non un consiglio dato alla dimissione.
+
+29
+00:04:43,710 --> 00:04:51,760
+Si confronta con l'health literacy, l'alfabetizzazione sanitaria: la capacita' di ottenere, comprendere e usare le informazioni sanitarie.
+
+30
+00:04:51,760 --> 00:05:04,510
+Una health literacy bassa e' frequente e spesso nascosta, perche' ci si vergogna di dire che non si e' capito. Le strategie: linguaggio semplice, poche informazioni alla volta, teach-back, materiali con immagini.
+
+31
+00:05:04,510 --> 00:05:16,510
+Il self-care. Una teoria infermieristica molto usata, quella di Riegel, lo descrive in tre dimensioni. Il mantenimento: i comportamenti per restare stabili, cioe' terapia, dieta, attivita' fisica.
+
+32
+00:05:16,510 --> 00:05:24,410
+Il monitoraggio: osservare i propri segni, come peso, glicemia, sintomi. E la gestione: rispondere ai segni quando peggiorano.
+
+33
+00:05:24,410 --> 00:05:36,300
+Lo scompenso della lezione otto punto uno le contiene tutte: farmaci e poco sale, pesarsi ogni giorno, e sapere che cosa fare se il peso aumenta. Molti pazienti fanno le prime due, e non la terza.
+
+34
+00:05:36,300 --> 00:05:49,220
+La telemedicina, nelle sue forme principali. La televisita. Il teleconsulto, fra professionisti. Il telemonitoraggio: peso, pressione, saturazione, glicemia trasmessi a distanza e controllati.
+
+35
+00:05:49,220 --> 00:05:58,020
+E la teleassistenza, in cui l'infermiere segue la persona a distanza. E' regolata da indicazioni nazionali, e sostenuta dagli investimenti del PNRR.
+
+36
+00:05:58,020 --> 00:06:10,100
+I vantaggi: continuita', peggioramenti intercettati prima del ricovero, meno spostamenti. I limiti: competenze digitali, connettivita', privacy, con il GDPR della lezione uno punto sette.
+
+37
+00:06:10,100 --> 00:06:19,350
+Il caso. Un uomo di sessantotto anni con scompenso, al terzo ricovero in un anno. Prende i farmaci quando si ricorda, e non si pesa, perche' tanto non cambia niente.
+
+38
+00:06:19,350 --> 00:06:29,270
+Che cosa fai? Prima di tutto ascolti senza giudicare, e valuti la sua fase del cambiamento e quanto ha capito della malattia. Il terzo ricovero non e' sfortuna: e' un segnale.
+
+39
+00:06:29,270 --> 00:06:39,820
+Poi lavori con il colloquio motivazionale sulle sue ragioni: che cosa vorrebbe poter fare, se stesse meglio? Semplifichi lo schema con il medico, introduci ausili, coinvolgi un familiare.
+
+40
+00:06:39,820 --> 00:06:50,100
+Insegni a pesarsi, e soprattutto che cosa fare se il peso aumenta, verificando con il teach-back. E proponi il telemonitoraggio, o la presa in carico dell'infermiere di famiglia e comunita'.
+
+41
+00:06:50,100 --> 00:07:00,610
+Il Veneto e' stato fra le prime regioni a stratificare la popolazione per rischio e bisogno di cura, con il sistema ACG, per portare la medicina di iniziativa a chi ne ha piu' bisogno.
+
+42
+00:07:00,610 --> 00:07:12,240
+Ha PDTA regionali per le principali malattie croniche, progetti di telemonitoraggio e l'infermiere di famiglia e comunita'. All'orale, stratificazione e medicina di iniziativa sono due parole chiave.
+
+43
+00:07:12,240 --> 00:07:25,550
+La tabella. Piano Nazionale della Cronicita' duemilasedici. Medicina di iniziativa. PDTA: chi, che cosa, quando, dove. Chronic Care Model: sei componenti. Aderenza: circa meta' non aderente.
+
+44
+00:07:25,550 --> 00:07:37,710
+Prochaska: le sei fasi, ricaduta compresa. OARS. Health literacy e teach-back. Self-care: mantenimento, monitoraggio, gestione. Telemedicina nelle sue quattro forme.
+
+45
+00:07:37,710 --> 00:07:43,180
+Nella cronicita' il professionista non e' l'eroe della storia. E' l'allenatore.
+
+46
+00:07:43,180 --> 00:07:49,850
+Il protagonista e' la persona, che vive con la sua malattia trecentosessantacinque giorni all'anno. Noi la vediamo per qualche ora.
+
+47
+00:07:49,850 --> 00:07:57,540
+Nella prossima lezione vediamo dove si svolge tutto questo: il territorio, con il decreto ministeriale settantasette del duemilaventidue.
+
+48
+00:07:57,540 --> 00:08:05,400
+Le Case della Comunita', l'infermiere di famiglia e comunita', e la rete dei servizi veneti, che all'orale conviene saper descrivere. A tra poco.
