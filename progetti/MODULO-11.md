@@ -9,9 +9,12 @@ precedenti: percorsi che si accendono, scale, confronti, trappole, cifre
 grandi; i corpi nuovi, se servono, sono annotati lezione per lezione nei
 registri.
 
-Stato: copioni e scene si scrivono in ordine dopo il Modulo 10, e la voce
-GianP si genera a copione fermo, lezione per lezione; la tabella qui sotto
-si riempie man mano che le rese escono.
+Stato: **completo** il 6 ottobre 2026. Otto rese fra 8:01 e 8:51, tutte
+con voce GianP e giro 8/8 prima del caricamento. Nella 11.2 una prima
+trascrizione era finta (il testo del copione, preso dal nodo voce anziché
+dall'audio): scartata e rifatta dagli asset allegati. Nella 11.8 il giro
+dava 7/8 per due rese del trascrittore («100 000», «luca»), sistemate in
+`RESE` senza toccare la voce.
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -22,7 +25,7 @@ si riempie man mano che le rese escono.
 | 11.5 | Cure palliative e fine vita | 8:11.2 | `0c5d4216a04c013153077b9963d5aa34` |
 | 11.6 | Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
 | 11.7 | Territorio e cure primarie | 8:12.0 | `a59714e446dde257b6180deb8ac36576` |
-| 11.8 | Riepilogo del Modulo 11 e autovalutazione | — |  |
+| 11.8 | Riepilogo del Modulo 11 e autovalutazione | 8:11.9 | `69dea68bea6eb467103d6aa9d6871219` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_11.md`;
 ogni lezione tiene la propria parte in `origine/script-11.N.md`. Il tema

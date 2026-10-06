@@ -107,6 +107,7 @@ progetti/<modulo>-<lezione>/
 | `m11-l11.5-palliative` | Modulo 11 · 11.5 Cure palliative e fine vita | 8:11.2 | `0c5d4216a04c013153077b9963d5aa34` |
 | `m11-l11.6-cronicita` | Modulo 11 · 11.6 Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
 | `m11-l11.7-territorio` | Modulo 11 · 11.7 Territorio e cure primarie | 8:12.0 | `a59714e446dde257b6180deb8ac36576` |
+| `m11-l11.8-riepilogo` | Modulo 11 · 11.8 Riepilogo del Modulo 11 e autovalutazione | 8:11.9 | `69dea68bea6eb467103d6aa9d6871219` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
@@ -116,9 +117,8 @@ I moduli 6, 7 e 8 sono pubblicati per intero (2 ottobre 2026): ventiquattro
 lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
-Il modulo 9 è pubblicato per intero il 4 ottobre 2026, il 10 il 6 ottobre;
-l'11 è in corso, con le lezioni che entrano nella tabella man mano che
-escono le rese.
+Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 e l'11 il
+6 ottobre.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo
