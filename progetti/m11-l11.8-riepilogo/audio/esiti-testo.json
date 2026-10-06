@@ -1,0 +1,99 @@
+{
+ "A": {
+  "parole_copione": 581,
+  "parole_dette": 580,
+  "coincidenti": 574,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "tieni",
+    "detto": "pieni"
+   },
+   {
+    "blocco": "s07",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s09",
+    "copione": "lewy",
+    "detto": "levy"
+   },
+   {
+    "blocco": "s13",
+    "copione": "48",
+    "detto": "quarantott"
+   },
+   {
+    "blocco": "s18",
+    "copione": "24",
+    "detto": "ventiquattrore"
+   },
+   {
+    "blocco": "s23",
+    "copione": "teach back",
+    "detto": "teachback"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 612,
+  "parole_dette": 614,
+  "coincidenti": 599,
+  "buchi": [
+   {
+    "blocco": "s26",
+    "parole_copione": "100000 l uca",
+    "al_loro_posto": "100 000 luca"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "50000",
+    "detto": "50 000"
+   },
+   {
+    "blocco": "s25",
+    "copione": "3000",
+    "detto": "3 000"
+   },
+   {
+    "blocco": "s26",
+    "copione": "100000",
+    "detto": "100 000"
+   },
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

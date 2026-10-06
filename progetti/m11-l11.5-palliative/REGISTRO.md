@@ -61,13 +61,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `0c5d4216a04c013153077b9963d5aa34` — 491.213 s (8:11.2), 1080p 16:9, resa in 67 s, con SRT (`subtitle_url`) |
+| lotto asset | `8a3a6dd4b93a4e5aa6132ed8af0168c5` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s04, trascritto «ee»); «e» (s15, trascritto «ee»); «e» (s19, trascritto «ee»); «e» (s27, trascritto «ee»); «ee» (s32, trascritto «e»); «ee» (s33, trascritto «e»); «e» (s37, trascritto «ee»); «ee» (s38, trascritto «e»); «e» (s39, trascritto «ee»); «e» (s41, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
