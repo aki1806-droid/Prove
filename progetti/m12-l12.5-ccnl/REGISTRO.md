@@ -14,13 +14,31 @@ Quinta lezione del Modulo 12: il rapporto di lavoro e il CCNL Comparto Sanità. 
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,68 · B $0,73) |
+| costo trascrizioni | $0,53 |
 | pause senza voce | s21 s30 |
 
 ```
 CARATTERI  8.446          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:32.2     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.105 car · chunk B 4.341 car)
+tracce grezze             A 283.1 s  ·  B 301.7 s
+silenzi                   fattore 1,106   ->   atempo 1,039
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**574/579 parole**, la B **596/601**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s07 «ee» sentito «e»; s10 «e» sentito «ee»; s19 «ee» sentito «e»; s20 «ee» sentito «e»; s29 «ee» sentito «e»; s32 «piao» sentito «pao»; s37 «ee» sentito «e»; s41 «alla» sentito «la»; s43 «ee» sentito «e».
 
 ## Le scene
 

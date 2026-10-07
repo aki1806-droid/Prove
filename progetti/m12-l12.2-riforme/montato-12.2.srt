@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,030
+Il Servizio Sanitario Nazionale e' nato nel millenovecentosettantotto. Negli anni Novanta e' stato profondamente riformato, e quelle riforme hanno disegnato l'organizzazione in cui lavorerai.
+
+2
+00:00:14,030 --> 00:00:26,650
+Hanno introdotto le aziende sanitarie, il direttore generale, l'accreditamento, il distretto. E poi i LEA, i livelli essenziali di assistenza: il cuore di cio' che il sistema deve garantire a ogni cittadino.
+
+3
+00:00:26,650 --> 00:00:38,530
+La prima grande riforma e' il decreto legislativo cinquecentodue del millenovecentonovantadue, modificato l'anno dopo dal decreto legislativo cinquecentodiciassette del millenovecentonovantatre'.
+
+4
+00:00:38,530 --> 00:00:43,130
+La parola chiave e' aziendalizzazione.
+
+5
+00:00:43,130 --> 00:00:54,910
+Le Unita' Sanitarie Locali diventano aziende, con personalita' giuridica pubblica e con autonomia organizzativa, amministrativa e gestionale. E' questo il senso della parola aziendalizzazione.
+
+6
+00:00:54,910 --> 00:01:04,150
+Anche i grandi ospedali possono diventare aziende a se': le aziende ospedaliere, autonome. Accanto all'azienda del territorio nasce cosi' l'azienda dell'ospedale.
+
+7
+00:01:04,150 --> 00:01:13,390
+Al vertice di ogni azienda c'e' il direttore generale, nominato dalla Regione. Lo affiancano due figure: il direttore sanitario e il direttore amministrativo.
+
+8
+00:01:13,390 --> 00:01:23,300
+Cresce il ruolo delle Regioni. E si avvia il pagamento delle prestazioni a tariffa, con i DRG, che vedremo nella lezione dodici punto quattro, dedicata al finanziamento.
+
+9
+00:01:23,300 --> 00:01:34,860
+La seconda tappa e' il decreto legislativo duecentoventinove del millenovecentonovantanove, la cosiddetta riforma Bindi. Introduce o rafforza sei elementi, che vediamo uno per volta.
+
+10
+00:01:34,860 --> 00:01:43,480
+Il primo e' il distretto, come articolazione territoriale dell'azienda. E' il luogo della continuita' assistenziale che hai visto nel modulo undici.
+
+11
+00:01:43,480 --> 00:01:55,440
+Il secondo, l'accreditamento istituzionale: le strutture pubbliche e private possono erogare prestazioni per il Servizio Sanitario Nazionale solo se possiedono i requisiti, e con accordi contrattuali.
+
+12
+00:01:55,440 --> 00:02:05,180
+Poi il rapporto di esclusivita' dei dirigenti sanitari. E l'integrazione socio-sanitaria: il sanitario e il sociale che lavorano insieme, sulla stessa persona.
+
+13
+00:02:05,180 --> 00:02:13,870
+I livelli essenziali di assistenza, i LEA, diventano il cardine del sistema. Li riprendiamo fra poco, perche' sono la seconda meta' di questa lezione.
+
+14
+00:02:13,870 --> 00:02:23,460
+E infine l'atto aziendale, un atto di diritto privato: il documento con cui ogni azienda definisce la propria organizzazione. Ci torneremo nella prossima lezione.
+
+15
+00:02:23,460 --> 00:02:32,140
+Le tappe in una riga, da ricordare con gli anni. Millenovecentosettantotto: con la legge ottocentotrentatre' nasce il Servizio Sanitario Nazionale.
+
+16
+00:02:32,140 --> 00:02:44,610
+Millenovecentonovantadue e novantatre': l'aziendalizzazione, con i decreti cinquecentodue e cinquecentodiciassette. Millenovecentonovantanove: distretto, accreditamento, esclusivita', LEA.
+
+17
+00:02:44,610 --> 00:02:54,010
+Duemilauno: la riforma del Titolo quinto, che fa della salute una materia concorrente fra Stato e Regioni. E' la sequenza che un commissario si aspetta di sentire.
+
+18
+00:02:54,010 --> 00:03:03,210
+I LEA, i livelli essenziali di assistenza: sono le prestazioni e i servizi che il Servizio Sanitario Nazionale e' tenuto a garantire a tutti i cittadini.
+
+19
+00:03:03,210 --> 00:03:11,380
+Gratuitamente, oppure con una quota di partecipazione, il ticket. E con le risorse pubbliche raccolte attraverso la fiscalita' generale.
+
+20
+00:03:11,380 --> 00:03:21,780
+Sono definiti a livello nazionale. Le Regioni possono garantire livelli ulteriori, ma con risorse proprie: il livello essenziale e' lo stesso per tutti, il resto si aggiunge sopra.
+
+21
+00:03:21,780 --> 00:03:29,200
+Sono la traduzione concreta dell'articolo trentadue della Costituzione, e del principio di uguaglianza della legge ottocentotrentatre'.
+
+22
+00:03:29,200 --> 00:03:39,900
+I LEA vigenti sono definiti dal DPCM del dodici gennaio duemiladiciassette, che ha sostituito quello del ventinove novembre duemilauno. Li organizza in tre grandi livelli.
+
+23
+00:03:39,900 --> 00:03:49,120
+Primo livello: prevenzione collettiva e sanita' pubblica. Vaccinazioni, screening, sicurezza alimentare, tutela della salute nei luoghi di lavoro.
+
+24
+00:03:49,120 --> 00:04:00,010
+Secondo livello: assistenza distrettuale. Medicina di base, farmaceutica, specialistica ambulatoriale, assistenza domiciliare, residenziale e semiresidenziale.
+
+25
+00:04:00,010 --> 00:04:11,120
+Terzo livello: assistenza ospedaliera. Pronto soccorso, ricovero ordinario e diurno, riabilitazione. Prevenzione, distretto, ospedale: tre parole per ricordarli.
+
+26
+00:04:11,120 --> 00:04:22,570
+Il DPCM comprende anche i nomenclatori, gli elenchi delle malattie rare e delle malattie croniche che danno diritto all'esenzione, e lo screening neonatale esteso della lezione undici punto quattro.
+
+27
+00:04:22,570 --> 00:04:34,030
+I LEA non sono fissi. Una Commissione nazionale ne propone l'aggiornamento, in base alle evidenze. Un passaggio importante e' arrivato alla fine del duemilaventiquattro.
+
+28
+00:04:34,030 --> 00:04:44,100
+Sono entrati in vigore i nuovi nomenclatori della specialistica ambulatoriale e dell'assistenza protesica, previsti dal DPCM del duemiladiciassette, con le relative tariffe.
+
+29
+00:04:44,100 --> 00:04:52,740
+La regola di studio: i LEA sono un elenco che cambia. Per il concorso conta il quadro generale, cioe' i tre livelli e il loro contenuto.
+
+30
+00:04:52,740 --> 00:05:03,180
+Come si verifica che i LEA siano davvero garantiti? Con il Nuovo Sistema di Garanzia, previsto dal decreto ministeriale del dodici marzo duemiladiciannove e applicato dal duemilaventi.
+
+31
+00:05:03,180 --> 00:05:15,450
+Ha sostituito la griglia LEA. Usa indicatori per prevenzione, distrettuale e ospedaliera: una Regione e' adempiente se raggiunge la soglia in tutte e tre. Il Veneto e' stabilmente fra le migliori.
+
+32
+00:05:15,450 --> 00:05:24,580
+Il ticket e' una quota di partecipazione alla spesa. Si applica soprattutto alla specialistica e alla diagnostica, in alcune Regioni anche alla farmaceutica.
+
+33
+00:05:24,580 --> 00:05:35,630
+E al pronto soccorso, per gli accessi a bassa priorita' non seguiti da ricovero. Le esenzioni sono previste per eta' e reddito, per malattie croniche e invalidanti, per malattie rare.
+
+34
+00:05:35,630 --> 00:05:47,670
+Per invalidita', per la gravidanza, e per le prestazioni di prevenzione come gli screening. Importi e regole sono definiti anche dalle Regioni, e cambiano: per l'esame contano i principi, non le cifre.
+
+35
+00:05:47,670 --> 00:05:57,040
+Un concetto che attraversa i LEA: l'appropriatezza. Una prestazione e' appropriata quando e' efficace e indicata per quel paziente: e' l'appropriatezza clinica.
+
+36
+00:05:57,040 --> 00:06:07,520
+E quando e' erogata nel setting giusto, senza consumare risorse inutili: e' l'appropriatezza organizzativa. Un ricovero per una prestazione che si puo' fare in ambulatorio e' inappropriato.
+
+37
+00:06:07,520 --> 00:06:14,060
+I LEA garantiscono le prestazioni appropriate, non tutto cio' che e' tecnicamente possibile.
+
+38
+00:06:14,060 --> 00:06:21,570
+La domanda tipo: che cosa sono i LEA, da quale atto sono definiti, come si articolano? E come si verifica che siano garantiti?
+
+39
+00:06:21,570 --> 00:06:34,790
+Sono le prestazioni che il sistema garantisce a tutti, gratis o con ticket. Li definisce il DPCM del dodici gennaio duemiladiciassette. Tre livelli. Li verifica il Nuovo Sistema di Garanzia. Quattro punti.
+
+40
+00:06:34,790 --> 00:06:44,190
+Le figure di vertice introdotte dalle riforme. Il direttore generale ha la rappresentanza legale e la responsabilita' della gestione, e nomina gli altri direttori.
+
+41
+00:06:44,190 --> 00:06:56,390
+Il direttore sanitario, responsabile del governo clinico e dell'organizzazione sanitaria. Il direttore amministrativo. E in Veneto, per l'integrazione socio-sanitaria, il direttore dei servizi socio-sanitari.
+
+42
+00:06:56,390 --> 00:07:06,760
+Gli organi dell'azienda sono tre: il direttore generale, il collegio sindacale, che controlla la regolarita' contabile, e il collegio di direzione. Li vedremo nella prossima lezione.
+
+43
+00:07:06,760 --> 00:07:18,380
+Perche' all'infermiere servono queste norme? Perche' l'accreditamento fissa i requisiti, anche di personale, che la tua struttura deve rispettare. E i LEA dicono che cosa il paziente ha diritto di ricevere.
+
+44
+00:07:18,380 --> 00:07:27,470
+Il distretto e' il luogo della continuita' assistenziale del modulo undici. E l'atto aziendale stabilisce dove si colloca il servizio delle professioni sanitarie.
+
+45
+00:07:27,470 --> 00:07:41,910
+In Veneto le riforme sono diventate Aziende ULSS, Aziende Ospedaliere Universitarie, un IRCCS e Azienda Zero. L'accreditamento e' regolato dalla legge regionale ventidue del duemiladue, che vedremo nel modulo tredici.
+
+46
+00:07:41,910 --> 00:07:56,910
+La tabella. Cinquecentodue e cinquecentodiciassette: aziendalizzazione, direttore generale, aziende ospedaliere. Duecentoventinove del novantanove: distretto, accreditamento, esclusivita', integrazione, atto aziendale.
+
+47
+00:07:56,910 --> 00:08:09,540
+LEA: DPCM del dodici gennaio duemiladiciassette, tre livelli. Nuovo Sistema di Garanzia: dodici marzo duemiladiciannove. Ticket ed esenzioni. Appropriatezza clinica e organizzativa.
+
+48
+00:08:09,540 --> 00:08:22,110
+Nella prossima lezione entriamo dentro l'azienda: l'atto aziendale, i dipartimenti, gli standard ospedalieri del DM settanta del duemilaquindici, i modelli organizzativi dell'assistenza infermieristica. A tra poco.
