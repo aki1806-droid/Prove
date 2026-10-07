@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,990
+Quando entri in un'azienda sanitaria, entri in un'organizzazione con una struttura precisa: un vertice, dei dipartimenti, delle unita' operative, una direzione delle professioni sanitarie.
+
+2
+00:00:13,990 --> 00:00:23,700
+E dentro ciascun reparto, un modello organizzativo dell'assistenza. Conoscerli ti serve all'esame, e ti serve per capire chi decide che cosa, fin dal primo giorno di lavoro.
+
+3
+00:00:23,700 --> 00:00:31,690
+L'atto aziendale e' il documento, di diritto privato, con cui l'azienda definisce la propria organizzazione e il proprio funzionamento.
+
+4
+00:00:31,690 --> 00:00:40,320
+Lo prevede il decreto legislativo cinquecentodue del novantadue, nel testo modificato dal decreto legislativo duecentoventinove del novantanove.
+
+5
+00:00:40,320 --> 00:00:48,930
+E' adottato dal direttore generale secondo gli indirizzi della Regione, e individua i dipartimenti, le strutture, i distretti, gli uffici di staff.
+
+6
+00:00:48,930 --> 00:00:56,360
+Ed e' pubblico: se vuoi capire come e' organizzata l'azienda in cui farai domanda, l'atto aziendale e' il primo documento da leggere.
+
+7
+00:00:56,360 --> 00:01:06,950
+Al vertice c'e' la direzione strategica: il direttore generale, il direttore sanitario, il direttore amministrativo e, in Veneto, anche il direttore dei servizi socio-sanitari.
+
+8
+00:01:06,950 --> 00:01:16,760
+Gli organi dell'azienda, invece, sono tre. Il primo e' il direttore generale. Il secondo e' il collegio sindacale, che vigila sulla regolarita' amministrativa e contabile.
+
+9
+00:01:16,760 --> 00:01:24,690
+Il terzo e' il collegio di direzione, che supporta la direzione dell'azienda nel governo clinico, nella programmazione e nella formazione.
+
+10
+00:01:24,690 --> 00:01:36,910
+Il dipartimento e' il modello ordinario di organizzazione delle attivita' sanitarie. Aggrega unita' operative omogenee, affini o complementari: per esempio cardiologia, emodinamica, cardiochirurgia.
+
+11
+00:01:36,910 --> 00:01:47,370
+Le unita' operative del dipartimento hanno obiettivi comuni e condividono le risorse: il personale, i posti letto, le tecnologie. A guidarlo c'e' un direttore di dipartimento.
+
+12
+00:01:47,370 --> 00:01:54,190
+Il dipartimento puo' essere strutturale, oppure funzionale, oppure interaziendale, quando coinvolge piu' aziende.
+
+13
+00:01:54,190 --> 00:02:02,390
+Poi le strutture. La struttura complessa, o UOC, ha autonomia gestionale, ed e' guidata da un direttore di struttura complessa.
+
+14
+00:02:02,390 --> 00:02:13,680
+La struttura semplice, o UOS, e' un'articolazione di una struttura complessa. Oppure e' a valenza dipartimentale, la UOSD, quando fa capo direttamente al dipartimento.
+
+15
+00:02:13,680 --> 00:02:21,720
+E sul piano dell'assistenza ci sono il coordinatore infermieristico e gli incarichi di funzione, che vedremo nella lezione dodici punto cinque.
+
+16
+00:02:21,720 --> 00:02:30,100
+Il servizio delle professioni sanitarie. La legge duecentocinquantuno del duemila riconosce l'autonomia e la responsabilita' delle professioni sanitarie.
+
+17
+00:02:30,100 --> 00:02:38,430
+E prevede che le aziende possano istituire il servizio dell'assistenza infermieristica e ostetrica, diretto da un dirigente delle professioni sanitarie.
+
+18
+00:02:38,430 --> 00:02:45,520
+Il dirigente dirige, organizza e valuta l'assistenza, e gestisce le risorse infermieristiche e quelle di supporto.
+
+19
+00:02:45,520 --> 00:02:56,680
+La legge quarantatre' del duemilasei articola poi le funzioni: professionisti, coordinatori, specialisti e dirigenti. Le hai viste nel modulo uno; qui ne vedi il posto nell'organizzazione.
+
+20
+00:02:56,680 --> 00:03:06,680
+Il decreto ministeriale settanta del duemilaquindici e' il regolamento sugli standard qualitativi, strutturali, tecnologici e quantitativi dell'assistenza ospedaliera.
+
+21
+00:03:06,680 --> 00:03:18,470
+Fissa i posti letto a tre virgola sette per mille abitanti, di cui zero virgola sette per la riabilitazione e la lungodegenza post-acuzie. E un tasso di ospedalizzazione di centosessanta per mille.
+
+22
+00:03:18,470 --> 00:03:29,330
+E soglie minime di volume e di esito per alcune attivita', perche' la qualita' di certi interventi dipende da quanti se ne fanno: per esempio la chirurgia del tumore della mammella, o il bypass.
+
+23
+00:03:29,330 --> 00:03:39,740
+La classificazione degli ospedali secondo il DM settanta. Il presidio ospedaliero di base ha un bacino da ottantamila a centocinquantamila abitanti, e un pronto soccorso.
+
+24
+00:03:39,740 --> 00:03:49,530
+Poi l'ospedale sede di DEA di primo livello, cioe' di dipartimento di emergenza e accettazione, con un bacino da centocinquantamila a trecentomila abitanti.
+
+25
+00:03:49,530 --> 00:04:01,830
+L'ospedale sede di DEA di secondo livello ha un bacino da seicentomila a un milione e duecentomila abitanti, con le specialita' di alta complessita'. Piu' i presidi nelle zone disagiate, come la montagna.
+
+26
+00:04:01,830 --> 00:04:09,200
+E' il modello hub and spoke: i centri piu' attrezzati, gli hub, sostengono una rete di centri periferici, gli spoke.
+
+27
+00:04:09,200 --> 00:04:20,910
+Il DM settanta prevede anche le reti per le patologie tempo-dipendenti: la rete cardiologica per l'infarto, la rete traumatologica, la rete ictus. Quelle che hai visto nel modulo dieci.
+
+28
+00:04:20,910 --> 00:04:31,840
+E altre reti: punti nascita, oncologia, trapianti, emergenza pediatrica. L'obiettivo e' portare il paziente all'ospedale giusto nel tempo giusto, anche se non e' il piu' vicino.
+
+29
+00:04:31,840 --> 00:04:44,990
+I modelli organizzativi dell'assistenza infermieristica. Il modello per compiti, o funzionale: ogni infermiere esegue un'attivita' per tutti i pazienti. Uno la terapia, uno le medicazioni, uno i parametri.
+
+30
+00:04:44,990 --> 00:04:50,970
+E' efficiente sulla carta, ma frammenta l'assistenza: nessuno conosce il paziente nella sua globalita'.
+
+31
+00:04:50,970 --> 00:05:04,730
+Poi il modello per piccole equipe. Il primary nursing, con un infermiere di riferimento per ogni paziente. E il case management: il coordinamento del percorso di pazienti complessi, spesso fra ospedale e territorio.
+
+32
+00:05:04,730 --> 00:05:14,610
+Il primary nursing merita un approfondimento, perche' e' il modello piu' chiesto. Si basa sulla responsabilita' individuale e continua di un infermiere per i suoi pazienti.
+
+33
+00:05:14,610 --> 00:05:26,980
+L'infermiere di riferimento e' responsabile della pianificazione dell'assistenza, dall'ingresso alla dimissione. Garantisce personalizzazione e continuita', e una relazione con il paziente e la famiglia.
+
+34
+00:05:26,980 --> 00:05:36,940
+Quando il primary non e' in turno, l'assistenza e' garantita da un infermiere associato, che segue il piano. E' il modello piu' coerente con il processo di assistenza del modulo due.
+
+35
+00:05:36,940 --> 00:05:47,780
+L'organizzazione per intensita' di cura rovescia il modello tradizionale: i pazienti non sono collocati per specialita' del medico, ma per complessita' assistenziale e instabilita' clinica.
+
+36
+00:05:47,780 --> 00:05:58,830
+Ci sono aree ad alta intensita', cioe' intensiva e semi-intensiva. Aree a media intensita', la degenza ordinaria per aree omogenee. E aree a bassa intensita', per la post-acuzie.
+
+37
+00:05:58,830 --> 00:06:07,950
+Il medico specialista segue il paziente dove si trova. E l'infermiere ha un ruolo centrale, nella valutazione della complessita' e nella gestione del percorso.
+
+38
+00:06:07,950 --> 00:06:18,230
+Il caso d'esame. La domanda tipo: descriva le differenze fra il modello per compiti e il primary nursing. Nel modello per compiti l'organizzazione e' centrata sulle attivita'.
+
+39
+00:06:18,230 --> 00:06:29,030
+Ogni infermiere ne esegue una per tutti, l'assistenza e' frammentata e la responsabilita' e' diffusa. Nel primary nursing, invece, l'organizzazione e' centrata sulla persona.
+
+40
+00:06:29,030 --> 00:06:40,710
+Un infermiere di riferimento ha la responsabilita' della pianificazione per un gruppo di pazienti: continuita', personalizzazione, relazione. E un infermiere associato nei suoi turni di assenza.
+
+41
+00:06:40,710 --> 00:06:49,890
+E poi un collegamento: il primary nursing realizza il processo di assistenza, e la responsabilita' professionale della legge quarantadue del novantanove.
+
+42
+00:06:49,890 --> 00:07:01,040
+In Veneto gli standard del DM settanta si traducono nelle schede di dotazione ospedaliera approvate dalla Regione, che stabiliscono per ogni ospedale le funzioni e i posti letto.
+
+43
+00:07:01,040 --> 00:07:14,680
+Con un modello hub and spoke in cui le Aziende Ospedaliere Universitarie di Padova e di Verona, e lo IOV, l'Istituto Oncologico Veneto, sono centri di riferimento. Lo approfondiamo nella lezione tredici punto tre.
+
+44
+00:07:14,680 --> 00:07:29,090
+La tabella. L'atto aziendale. Gli organi: direttore generale, collegio sindacale, collegio di direzione. Il dipartimento come modello ordinario. UOC, UOS, UOSD. La legge duecentocinquantuno.
+
+45
+00:07:29,090 --> 00:07:43,340
+Il DM settanta: tre virgola sette posti letto per mille, ospedalizzazione centosessanta per mille. Presidio di base, da ottanta a centocinquantamila abitanti. DEA di primo livello, da centocinquanta a trecentomila.
+
+46
+00:07:43,340 --> 00:07:54,300
+DEA di secondo livello, da seicentomila a un milione e duecentomila. Le reti tempo-dipendenti. Il modello per compiti contro il primary nursing. E l'intensita' di cura.
+
+47
+00:07:54,300 --> 00:08:07,430
+Il modello organizzativo decide se il paziente incontra un'organizzazione o un infermiere. Nel modello per compiti incontra tanti gesti; nel primary nursing, una persona che conosce la sua storia.
+
+48
+00:08:07,430 --> 00:08:20,600
+Nella prossima lezione: come si finanzia il Servizio Sanitario Nazionale, che cosa sono i DRG, il budget e il controllo di gestione. Temi che sembrano lontani dall'infermiere, ma spiegano molte scelte. A tra poco.

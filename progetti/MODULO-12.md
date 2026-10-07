@@ -16,7 +16,7 @@ man mano che le rese escono.
 | | lezione | durata | resa |
 |---|---|---|---|
 | 12.1 | Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
-| 12.2 | Le riforme del SSN e i LEA | — |  |
+| 12.2 | Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
 | 12.3 | L'organizzazione aziendale e ospedaliera | — |  |
 | 12.4 | Finanziamento ed economia del SSN | — |  |
 | 12.5 | Il rapporto di lavoro e il CCNL Comparto Sanità | — |  |

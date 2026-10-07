@@ -1,0 +1,62 @@
+# Registro — Modulo 13 · micro-lezione 13.1 «L'assetto del Servizio Socio Sanitario Regionale veneto»
+
+Prima lezione del Modulo 13: l'assetto del Servizio Socio Sanitario Regionale veneto. L'integrazione fra sanitario e sociale, le ULSS come Unità Locali Socio Sanitarie, le deleghe dei Comuni, il direttore dei servizi socio-sanitari e i Piani di Zona; la L.R. 19/2016, che istituisce Azienda Zero e porta le ULSS da 21 a 9 dal 1° gennaio 2017; le nove Aziende ULSS con nome e sede; gli altri enti del SSR (Azienda Ospedale-Università di Padova, AOUI di Verona, IOV); la governance regionale; il PSSR 2019-2023 (L.R. 48/2018) e gli altri strumenti di programmazione; i numeri del contesto; il distretto; il caso d'esame; l'esempio di Padova e Rovigo; perché conoscere il sistema; le fonti da consultare; la tabella; la frase della lezione.
+
+---
+
+## Scheda parametri
+
+| | |
+|---|---|
+| durata chiesta dallo script | 9 minuti (committente: almeno 8 minuti) |
+| durata ottenuta | vedi «La resa» |
+| slide dello script | 16 |
+| scene | 50 (il tetto) |
+| blocchi di parlato | 48 |
+| voce | GianP — News Info and Documentary, `eleven_v3` |
+| pause senza voce | s48 |
+
+```
+CARATTERI  8.091          BLOCCHI  48         SCENE  50/50
+stima a 17,0 car/s        8:10.1     (MIRA 16,6)
+stacco tracce             dopo s25   (chunk A 4.072 car · chunk B 4.019 car)
+```
+
+## Le scene
+
+| scene | corpo | contenuto |
+|---|---|---|
+| s03, s07, s21, s28, s41 | icone | 5 scene |
+| s06, s15, s34, s44 | confronto | 4 scene |
+| s05, s18, s40 | catena | 3 scene |
+| s08, s16, s22 | norma | 3 scene |
+| s45–s47 | tabella | 3 scene |
+| s01, s50 | copertina | 2 scene |
+| s10, s29 | cifre | 2 scene |
+| s04 | venn | 1 scene |
+| s17 | raggiera | 1 scene |
+| s20 | percorso | 1 scene |
+| s23 | timeline | 1 scene |
+| s24 | trappola | 1 scene |
+| s31 | tre | 1 scene |
+| s48 | titolo | 1 scene |
+| il resto | griglia, frase | — |
+
+## Correzioni fatte guardando le card
+
+- Nessuna: i provini da venticinque non hanno mostrato slide da rifare.
+
+---
+
+## La resa
+
+*in attesa*
+
+---
+
+## Da verificare
+
+- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Le rese diverse dal copione segnalate dalla verifica per trascrizione
+  vanno ascoltate: il contatore non distingue una parola detta male da una
+  trascritta male.

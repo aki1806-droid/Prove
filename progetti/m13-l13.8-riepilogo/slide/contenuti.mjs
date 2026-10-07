@@ -90,10 +90,10 @@ export const SCENE = [
   {h:"SVaMA", t:"l'**anziano**"},
   {h:"SVaMDi", t:"la **disabilità**"}],
   sotto:"Un profilo di autonomia e di bisogno, uguale in tutta la regione."},
-{id:"s25", tipo:"scala", tema:"chiaro", sopratitolo:"La domiciliarità viene prima", gradini:[
-  {n:"1", t:"Domiciliarità", d:"ADI · SAD · impegnativa di cura domiciliare", key:true},
-  {n:"2", t:"Centri diurni"},
-  {n:"3", t:"Sollievo", d:"ricoveri temporanei"}]},
+{id:"s25", tipo:"catena", tema:"chiaro", sopratitolo:"La domiciliarità viene prima", passi:[
+  {t:"Domiciliarità", d:"ADI · SAD · impegnativa di cura domiciliare", key:true},
+  {t:"Centri diurni"},
+  {t:"Sollievo", d:"ricoveri temporanei"}]},
 {id:"s26", tipo:"confronto", tema:"chiaro", sopratitolo:"I Centri di Servizi · residenze per anziani non autosufficienti", col:[
   {h:"Impegnativa di residenzialità", t:"copre la **quota sanitaria**"},
   {h:"Quota alberghiera", t:"a carico della **persona** o della famiglia"}]},

@@ -268,7 +268,9 @@ ${CSS_CLINICA}
 
 // --- i pezzi di ogni tipo di slide ---
 const CORPI = {
-  copertina: d => `<div class="mod">${d.modulo}</div><h1>${acc(d.titolo)}</h1>
+  // Un titolo su tre righe spingeva la riga rossa sopra la scritta dell'ente (fissa in basso):
+  // da tre righe in su il carattere scende, e la riga resta sopra.
+  copertina: d => `<div class="mod">${d.modulo}</div><h1${(d.titolo.match(/<br>/g) || []).length >= 2 ? ' style="font-size:104px"' : ''}>${acc(d.titolo)}</h1>
       <div class="st">${acc(d.sottotitolo)}</div><div class="riga"></div>
       <div class="ente">${d.ente}</div>`,
 
