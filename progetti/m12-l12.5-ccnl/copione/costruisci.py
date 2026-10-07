@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Se vinci il concorso, diventi un dipendente pubblico del Servizio Sanitario Regionale, con diritti e doveri definiti da leggi e da un contratto collettivo nazionale."),
+ (1,"chiaro",0,"E' una parte del programma che i candidati spesso trascurano, e che all'orale distingue chi ha capito che cosa significa lavorare in una pubblica amministrazione. Vediamo le fonti, il contratto, gli obblighi."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"Le fonti. Il decreto legislativo centosessantacinque del duemilauno e' il testo unico sul pubblico impiego."),
+ (2,"chiaro",0,"Il rapporto di lavoro dei dipendenti pubblici e' privatizzato: cioe' e' regolato dal codice civile, dalle leggi sul lavoro e, soprattutto, dai contratti collettivi."),
+ (2,"chiaro",0,"I contratti nazionali sono negoziati dall'ARAN, l'agenzia che rappresenta le pubbliche amministrazioni, con i sindacati rappresentativi. Poi c'e' la contrattazione integrativa aziendale."),
+ (2,"chiaro",0,"L'accesso avviene mediante concorso, come prevede l'articolo novantasette della Costituzione. E il rapporto di lavoro inizia con un periodo di prova."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"Il contratto collettivo nazionale del Comparto Sanita' si applica a infermieri, ostetriche, tecnici, OSS e personale amministrativo del Servizio Sanitario Nazionale."),
+ (3,"chiaro",0,"Due tappe recenti. Il contratto duemiladiciannove duemilaventuno, firmato il due novembre duemilaventidue, che ha introdotto il nuovo sistema di classificazione per aree."),
+ (3,"chiaro",0,"E il contratto duemilaventidue duemilaventiquattro, firmato in via definitiva il ventisette ottobre duemilaventicinque. E' in avvio il rinnovo duemilaventicinque duemilaventisette: prima della prova, verifica le novita'."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Le aree di classificazione sono cinque: personale di supporto; operatori, dove si colloca l'OSS; assistenti; professionisti della salute e funzionari, dove si colloca l'infermiere; personale di elevata qualificazione."),
+ (4,"chiaro",0,"Il contratto duemilaventidue duemilaventiquattro ha introdotto il profilo di assistente infermiere, gia' definito da un accordo Stato-Regioni, in posizione intermedia fra l'area dei professionisti e quella degli operatori."),
+ (4,"chiaro",0,"L'infermiere resta il responsabile dell'assistenza generale infermieristica, come stabilisce il suo profilo professionale."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Gli incarichi di funzione sono di organizzazione, come il coordinamento di un'unita' operativa, o professionali: il professionista specialista, per esempio con un master in wound care, e il professionista esperto."),
+ (5,"chiaro",0,"Gli incarichi si conferiscono con un avviso e una valutazione. Sono a tempo determinato, e sono rinnovabili. Ci sono poi le progressioni economiche all'interno dell'area."),
+ (5,"chiaro",0,"Il nuovo contratto ha ampliato l'accesso all'elevata qualificazione: oltre alla laurea magistrale con almeno tre anni di incarico di funzione, anche la triennale o un titolo equipollente con almeno sette anni."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"L'orario. L'orario ordinario e' di trentasei ore settimanali, che il contratto duemilaventidue duemilaventiquattro consente di articolare anche su quattro giorni, dove l'organizzazione lo permette."),
+ (6,"chiaro",0,"Poi il decreto legislativo sessantasei del duemilatre, che vale per tutti i lavoratori e tutela la salute. Il riposo giornaliero: undici ore consecutive ogni ventiquattro."),
+ (6,"chiaro",0,"Il riposo settimanale: ventiquattro ore consecutive, di norma cumulate con le undici ore. E una durata media massima di quarantotto ore settimanali, straordinario compreso."),
+ (6,"chiaro",0,"Il lavoro notturno comporta una sorveglianza sanitaria. E la pronta disponibilita', cioe' la reperibilita', e' disciplinata dal contratto."),
+ (6,"profondo",1.2,"[serious] Il riposo non e' un privilegio: e' sicurezza del paziente."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"Ferie e permessi. Le ferie sono di ventotto giorni lavorativi con l'orario su cinque giorni, trentadue su sei giorni, piu' quattro giornate di festivita' soppresse."),
+ (7,"chiaro",0,"Sono un diritto irrinunciabile, e di norma non si possono monetizzare. Il contratto duemilaventidue duemilaventiquattro ne ha introdotto la fruizione anche a ore."),
+ (7,"chiaro",0,"I permessi: per motivi personali o familiari, per matrimonio, per lutto. I permessi della legge centoquattro, per l'assistenza a familiari con disabilita' grave."),
+ (7,"chiaro",0,"I congedi parentali del decreto legislativo centocinquantuno del duemilauno. E il nuovo contratto ha esteso diverse tutele su permessi, assenze e congedi."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"Il codice di comportamento dei dipendenti pubblici e' il DPR sessantadue del duemilatredici, aggiornato dal DPR ottantuno del duemilaventitre."),
+ (8,"chiaro",0,"L'aggiornamento ha aggiunto regole sull'uso delle tecnologie e dei social media: non si diffondono informazioni riservate, e non si danneggia l'immagine dell'amministrazione. Ogni azienda ha poi un codice integrativo."),
+ (8,"chiaro",0,"Gli obblighi: diligenza, lealta', imparzialita', riservatezza. Non accettare regali oltre il modico valore. Astenersi in caso di conflitto di interessi."),
+ (8,"chiaro",0,"La violazione e' fonte di responsabilita' disciplinare. E il codice si affianca al Codice deontologico della lezione uno punto quattro."),
+ (8,"profondo",1.2,"[thoughtful] Uno vale come dipendente, l'altro come professionista."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"Anticorruzione e trasparenza. La legge centonovanta del duemiladodici, sulla prevenzione della corruzione nella pubblica amministrazione, con il Responsabile della prevenzione della corruzione e della trasparenza."),
+ (9,"chiaro",0,"Le misure di prevenzione sono oggi inserite nel PIAO, il Piano integrato di attivita' e organizzazione, introdotto nel duemilaventuno."),
+ (9,"chiaro",0,"Il decreto legislativo trentatre del duemilatredici riguarda la trasparenza: la sezione Amministrazione trasparente dei siti, e l'accesso civico."),
+ (9,"chiaro",0,"Il whistleblowing, la tutela di chi segnala illeciti, e' oggi regolato dal decreto legislativo ventiquattro del duemilaventitre. In sanita', aree a rischio sono per esempio le liste d'attesa e gli acquisti."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"Il procedimento disciplinare: decreto centosessantacinque, articoli cinquantacinque e seguenti, e codice disciplinare del contratto. Le sanzioni sono graduate: rimprovero verbale e scritto, multa, sospensione, licenziamento."),
+ (10,"chiaro",0,"Le garanzie: la contestazione scritta dell'addebito, il diritto di difesa, anche con l'assistenza di un rappresentante sindacale o di un legale, e termini precisi."),
+ (10,"chiaro",0,"Le infrazioni piu' gravi sono di competenza dell'Ufficio per i procedimenti disciplinari. E il procedimento disciplinare e' autonomo rispetto a quello penale."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"Incompatibilita'. Il dipendente pubblico lavora in regime di esclusivita': secondo l'articolo cinquantatre del decreto centosessantacinque, puo' svolgere incarichi esterni solo se autorizzato, e se non incompatibili."),
+ (11,"chiaro",0,"Per le professioni sanitarie del comparto sono state previste deroghe temporanee, legate alla carenza di personale. La materia cambia: verificala. Ma un doppio lavoro non autorizzato resta un illecito disciplinare."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"Un tema sentito: le aggressioni. Il contratto duemilaventidue duemilaventiquattro prevede il patrocinio legale da parte dell'azienda, e la possibilita' di supporto psicologico per il dipendente aggredito."),
+ (12,"chiaro",0,"La legge centotredici del duemilaventi ha introdotto aggravanti per le lesioni al personale sanitario, e l'osservatorio nazionale. Si collega alla Raccomandazione numero otto. Ogni aggressione va segnalata."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"[curious] Il caso. Un collega pubblica sui social la foto di un paziente in reparto, senza il volto ma con dettagli riconoscibili. Quali norme viola?"),
+ (13,"chiaro",0,"La riservatezza e la protezione dei dati personali, con il GDPR della lezione uno punto sette. Il codice di comportamento, che dal duemilaventitre disciplina espressamente i social. E il Codice deontologico."),
+ (13,"chiaro",0,"Puo' avere rilievo disciplinare e, nei casi piu' gravi, anche penale. Che cosa fai? Inviti il collega a rimuovere subito il contenuto e, se necessario, segnali secondo le procedure aziendali."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto ogni azienda ha la propria contrattazione integrativa e il proprio codice di comportamento. Il reclutamento del comparto passa in gran parte da Azienda Zero, come in questo concorso."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. Decreto centosessantacinque: privatizzazione, articolo cinquantatre, articoli cinquantacinque e seguenti. Decreto sessantasei: undici, ventiquattro, quarantotto ore. Ferie: ventotto o trentadue, piu' quattro."),
+ (15,"chiaro",0,"Contratto duemiladiciannove duemilaventuno: le aree. Poi il duemilaventidue duemilaventiquattro: assistente infermiere, elevata qualificazione ampliata, ferie a ore, settimana su quattro giorni, patrocinio per le aggressioni."),
+
+ (16,"chiaro",0,"Una nota di metodo. La materia contrattuale cambia con ogni rinnovo: per l'esame contano i principi e la struttura. I dettagli si verificano sul testo vigente, sul sito dell'ARAN, prima della prova."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto, le figure della prevenzione e i rischi specifici dell'infermiere. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le fonti del rapporto di lavoro pubblico",3:"Il CCNL del Comparto Sanita'",4:"Le aree",5:"Gli incarichi e la carriera",6:"Orario, turni e riposi",
+ 7:"Ferie e permessi",8:"Il codice di comportamento",9:"Anticorruzione e trasparenza",10:"Il procedimento disciplinare",11:"Incompatibilita' e libera professione",
+ 12:"Le tutele contro le aggressioni",13:"Il caso d'esame",14:"In Veneto",15:"La tabella",16:"Una nota di metodo",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

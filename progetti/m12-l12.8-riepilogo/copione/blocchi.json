@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."
+ },
+ {
+  "id": "s22",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."
+ },
+ {
+  "id": "s23",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."
+ },
+ {
+  "id": "s27",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."
+ },
+ {
+  "id": "s28",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."
+ },
+ {
+  "id": "s29",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."
+ },
+ {
+  "id": "s31",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."
+ },
+ {
+  "id": "s32",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."
+ },
+ {
+  "id": "s33",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."
+ },
+ {
+  "id": "s34",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."
+ },
+ {
+  "id": "s35",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."
+ },
+ {
+  "id": "s37",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."
+ },
+ {
+  "id": "s40",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."
+ },
+ {
+  "id": "s41",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."
+ },
+ {
+  "id": "s42",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."
+ },
+ {
+  "id": "s43",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."
+ },
+ {
+  "id": "s45",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Conoscere il sistema e' parte della competenza professionale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."
+ }
+]

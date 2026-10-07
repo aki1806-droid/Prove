@@ -1,0 +1,51 @@
+[warm] Le risorse della sanita' sono pubbliche, e sono limitate. Capire da dove arrivano e come vengono distribuite aiuta a capire molte cose che vedi ogni giorno in reparto.
+
+Perche' un'azienda definisce un budget, perche' si misura la durata della degenza, perche' si parla di appropriatezza. E l'infermiere gestisce ogni giorno tempo, materiali, farmaci, posti letto.
+
+Sono tutte risorse, e le scelte dell'infermiere su ciascuna di queste hanno anche un peso economico. Vediamo allora da dove arrivano i soldi, e dove vanno.
+
+Le risorse del Servizio Sanitario Nazionale vengono soprattutto dalla fiscalita' generale: imposte nazionali e regionali, come l'IRAP e l'addizionale regionale all'IRPEF, e una compartecipazione all'IVA.
+
+A queste si aggiungono le entrate proprie delle aziende sanitarie: i ticket pagati dai cittadini, e l'attivita' libero-professionale.
+
+Ogni anno lo Stato fissa, con la legge di bilancio, il fabbisogno sanitario nazionale standard: la somma complessiva destinata al finanziamento del Servizio Sanitario Nazionale.
+
+Il fondo viene poi ripartito fra le Regioni, con un'intesa in Conferenza Stato-Regioni. Il criterio principale e' la popolazione pesata per eta', perche' una popolazione piu' anziana consuma piu' risorse.
+
+A questo si aggiungono altri indicatori. E con il decreto legislativo sessantotto del duemilaundici sono arrivati i costi standard, che prendono come riferimento le Regioni piu' efficienti.
+
+Sono le cosiddette regioni benchmark, e il Veneto e' stato piu' volte fra queste. Le Regioni, a loro volta, ripartiscono poi le risorse fra le proprie aziende sanitarie.
+
+Ora il cuore della lezione: i DRG, Diagnosis Related Groups. Un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse.
+
+Ogni ricovero viene attribuito a un DRG in base alla diagnosi principale, agli interventi, all'eta', alle complicanze e alla modalita' di dimissione.
+
+Sono informazioni prese dalla scheda di dimissione ospedaliera, la SDO. E a ogni DRG corrisponde una tariffa. La catena da ricordare e': SDO, DRG, tariffa.
+
+Introdotti in Italia dalla meta' degli anni Novanta, i DRG hanno sostituito il finanziamento a pie' di lista, basato sulla spesa storica, con un pagamento per prestazione.
+
+Gli effetti. I DRG incentivano l'efficienza e la riduzione della degenza media, perche' la tariffa e' fissa, indipendentemente dai giorni di ricovero.
+
+Ma comportano dei rischi: dimissioni precoci, selezione dei casi piu' convenienti, codifiche opportunistiche, frammentazione dei ricoveri. Per questo esistono i controlli di appropriatezza sulle SDO.
+
+[serious] La SDO deve essere completa e accurata.
+
+E qui entra l'infermiere: una documentazione infermieristica precisa, per esempio di una lesione da pressione o di un'infezione, contribuisce a descrivere correttamente la complessita' del ricovero.
+
+Fuori dal ricovero, l'attivita' di specialistica ambulatoriale e' remunerata secondo i nomenclatori tariffari, che elencano le prestazioni con la loro tariffa.
+
+I nuovi nomenclatori previsti dai LEA del duemiladiciassette sono entrati in vigore alla fine del duemilaventiquattro. E le Regioni possono definire tariffe proprie, entro i limiti nazionali.
+
+Dentro l'azienda, lo strumento di gestione e' il budget: la direzione negozia con ogni struttura gli obiettivi, di attivita', qualita', appropriatezza e costi, e le risorse per l'anno.
+
+Il controllo di gestione ne monitora l'andamento durante l'anno, attraverso i centri di costo, gli indicatori e i report periodici.
+
+Gli obiettivi di budget si collegano alla valutazione della performance, e quindi a una parte della retribuzione. Anche l'infermiere partecipa: per esempio con obiettivi sulla prevenzione delle cadute o delle lesioni.
+
+La spesa farmaceutica e' soggetta a tetti fissati per legge, espressi in percentuale del fabbisogno sanitario. Le percentuali cambiano spesso con le leggi di bilancio: conta il meccanismo.
+
+I tetti sono distinti: la spesa convenzionata, cioe' quella delle farmacie, e la spesa per acquisti diretti, cioe' l'ospedale e la distribuzione diretta e per conto.
+
+Se i tetti vengono superati, scattano i meccanismi di payback, a carico delle aziende farmaceutiche. E l'AIFA classifica i farmaci e ne negozia il prezzo.
+
+Gli strumenti di contenimento: i farmaci equivalenti, i biosimilari, e la centralizzazione degli acquisti, che in Veneto e' affidata ad Azienda Zero.

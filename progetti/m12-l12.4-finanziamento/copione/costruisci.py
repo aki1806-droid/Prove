@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Le risorse della sanita' sono pubbliche, e sono limitate. Capire da dove arrivano e come vengono distribuite aiuta a capire molte cose che vedi ogni giorno in reparto."),
+ (1,"chiaro",0,"Perche' un'azienda definisce un budget, perche' si misura la durata della degenza, perche' si parla di appropriatezza. E l'infermiere gestisce ogni giorno tempo, materiali, farmaci, posti letto."),
+ (1,"chiaro",0,"Sono tutte risorse, e le scelte dell'infermiere su ciascuna di queste hanno anche un peso economico. Vediamo allora da dove arrivano i soldi, e dove vanno."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"Le risorse del Servizio Sanitario Nazionale vengono soprattutto dalla fiscalita' generale: imposte nazionali e regionali, come l'IRAP e l'addizionale regionale all'IRPEF, e una compartecipazione all'IVA."),
+ (2,"chiaro",0,"A queste si aggiungono le entrate proprie delle aziende sanitarie: i ticket pagati dai cittadini, e l'attivita' libero-professionale."),
+ (2,"chiaro",0,"Ogni anno lo Stato fissa, con la legge di bilancio, il fabbisogno sanitario nazionale standard: la somma complessiva destinata al finanziamento del Servizio Sanitario Nazionale."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"Il fondo viene poi ripartito fra le Regioni, con un'intesa in Conferenza Stato-Regioni. Il criterio principale e' la popolazione pesata per eta', perche' una popolazione piu' anziana consuma piu' risorse."),
+ (3,"chiaro",0,"A questo si aggiungono altri indicatori. E con il decreto legislativo sessantotto del duemilaundici sono arrivati i costi standard, che prendono come riferimento le Regioni piu' efficienti."),
+ (3,"chiaro",0,"Sono le cosiddette regioni benchmark, e il Veneto e' stato piu' volte fra queste. Le Regioni, a loro volta, ripartiscono poi le risorse fra le proprie aziende sanitarie."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Ora il cuore della lezione: i DRG, Diagnosis Related Groups. Un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse."),
+ (4,"chiaro",0,"Ogni ricovero viene attribuito a un DRG in base alla diagnosi principale, agli interventi, all'eta', alle complicanze e alla modalita' di dimissione."),
+ (4,"chiaro",0,"Sono informazioni prese dalla scheda di dimissione ospedaliera, la SDO. E a ogni DRG corrisponde una tariffa. La catena da ricordare e': SDO, DRG, tariffa."),
+ (4,"chiaro",0,"Introdotti in Italia dalla meta' degli anni Novanta, i DRG hanno sostituito il finanziamento a pie' di lista, basato sulla spesa storica, con un pagamento per prestazione."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Gli effetti. I DRG incentivano l'efficienza e la riduzione della degenza media, perche' la tariffa e' fissa, indipendentemente dai giorni di ricovero."),
+ (5,"chiaro",0,"Ma comportano dei rischi: dimissioni precoci, selezione dei casi piu' convenienti, codifiche opportunistiche, frammentazione dei ricoveri. Per questo esistono i controlli di appropriatezza sulle SDO."),
+ (5,"profondo",1.2,"[serious] La SDO deve essere completa e accurata."),
+ (5,"chiaro",0,"E qui entra l'infermiere: una documentazione infermieristica precisa, per esempio di una lesione da pressione o di un'infezione, contribuisce a descrivere correttamente la complessita' del ricovero."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Fuori dal ricovero, l'attivita' di specialistica ambulatoriale e' remunerata secondo i nomenclatori tariffari, che elencano le prestazioni con la loro tariffa."),
+ (6,"chiaro",0,"I nuovi nomenclatori previsti dai LEA del duemiladiciassette sono entrati in vigore alla fine del duemilaventiquattro. E le Regioni possono definire tariffe proprie, entro i limiti nazionali."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"Dentro l'azienda, lo strumento di gestione e' il budget: la direzione negozia con ogni struttura gli obiettivi, di attivita', qualita', appropriatezza e costi, e le risorse per l'anno."),
+ (7,"chiaro",0,"Il controllo di gestione ne monitora l'andamento durante l'anno, attraverso i centri di costo, gli indicatori e i report periodici."),
+ (7,"chiaro",0,"Gli obiettivi di budget si collegano alla valutazione della performance, e quindi a una parte della retribuzione. Anche l'infermiere partecipa: per esempio con obiettivi sulla prevenzione delle cadute o delle lesioni."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"La spesa farmaceutica e' soggetta a tetti fissati per legge, espressi in percentuale del fabbisogno sanitario. Le percentuali cambiano spesso con le leggi di bilancio: conta il meccanismo."),
+ (8,"chiaro",0,"I tetti sono distinti: la spesa convenzionata, cioe' quella delle farmacie, e la spesa per acquisti diretti, cioe' l'ospedale e la distribuzione diretta e per conto."),
+ (8,"chiaro",0,"Se i tetti vengono superati, scattano i meccanismi di payback, a carico delle aziende farmaceutiche. E l'AIFA classifica i farmaci e ne negozia il prezzo."),
+ (8,"chiaro",0,"Gli strumenti di contenimento: i farmaci equivalenti, i biosimilari, e la centralizzazione degli acquisti, che in Veneto e' affidata ad Azienda Zero."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"I piani di rientro riguardano le Regioni con disavanzi sanitari strutturali. La Regione sottoscrive un accordo con i Ministeri della Salute e dell'Economia, e adotta misure di riequilibrio."),
+ (9,"chiaro",0,"Riorganizzazione, riduzione dei costi, aumento delle imposte regionali. Nei casi piu' gravi, il commissariamento della sanita' regionale. Da ricordare: il Veneto non e' sottoposto a piano di rientro."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"Poi il PNRR, il Piano Nazionale di Ripresa e Resilienza, con la Missione sei, dedicata alla salute. Vale circa quindici virgola sei miliardi, ed e' divisa in due componenti."),
+ (10,"chiaro",0,"La prima: reti di prossimita', strutture e telemedicina per l'assistenza territoriale. Case della Comunita', COT, Ospedali di Comunita', assistenza domiciliare, telemedicina."),
+ (10,"chiaro",0,"Sono gli strumenti del DM settantasette, visti nella lezione undici punto sette. La seconda: innovazione, ricerca e digitalizzazione. Ammodernamento degli ospedali, Fascicolo Sanitario Elettronico, formazione."),
+ (10,"chiaro",0,"[thoughtful] Un punto che si sente spesso nei dibattiti: il PNRR finanzia soprattutto investimenti, cioe' strutture e tecnologie. Il personale che le fa funzionare va pagato con le risorse ordinarie."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"Tre parole da distinguere. Efficacia: raggiungere il risultato di salute. Efficienza: il rapporto fra le risorse impiegate e i risultati ottenuti. Economicita': l'equilibrio fra costi e ricavi nel tempo."),
+ (11,"chiaro",0,"Non sono in contrapposizione con la qualita'. In un sistema con risorse limitate, ogni spreco ha un prezzo, e quel prezzo non lo paga un'astrazione."),
+ (11,"profondo",1.2,"[serious] Lo spreco toglie risorse ad altri pazienti."),
+ (11,"chiaro",0,"Un dispositivo aperto e non usato, un esame ripetuto senza motivo, una degenza prolungata per un'organizzazione inefficiente: sono tutti costi per la collettivita'."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"[curious] La domanda tipo: che cosa sono i DRG, e quali effetti hanno sull'organizzazione dell'assistenza? Proviamo a rispondere come all'orale."),
+ (12,"chiaro",0,"Sono un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse, basato sui dati della SDO, a cui corrisponde una tariffa. Hanno sostituito il finanziamento a pie' di lista."),
+ (12,"chiaro",0,"Incentivano l'efficienza e la riduzione della degenza media, ma possono favorire dimissioni precoci, e per questo richiedono controlli di appropriatezza."),
+ (12,"chiaro",0,"Poi il collegamento infermieristico: dimissioni piu' rapide richiedono una pianificazione precoce della dimissione, e una continuita' con il territorio, come nella lezione nove punto sette."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"L'infermiere e le risorse. Prima di tutto, l'uso appropriato di dispositivi e materiali. Poi la prevenzione degli eventi avversi."),
+ (13,"chiaro",0,"Una lesione da pressione, una caduta con frattura, un'infezione da catetere: sono sofferenza per il paziente, e sono anche costi evitabili, spesso molto alti."),
+ (13,"chiaro",0,"Poi la documentazione accurata, la gestione delle scorte, la partecipazione agli obiettivi di budget. E il Codice deontologico, che richiama l'infermiere a un uso responsabile delle risorse."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto la gestione sanitaria accentrata, cioe' la parte del finanziamento gestita direttamente a livello regionale, e' affidata ad Azienda Zero, che gestisce anche gli acquisti centralizzati."),
+ (14,"chiaro",0,"Lo fa attraverso la CRAV, la Centrale Regionale Acquisti. E il Veneto e' stato piu' volte fra le regioni di riferimento per i costi standard. Lo vedremo nella lezione tredici punto due."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella, da fotografare. Fiscalita' generale. Fabbisogno sanitario nazionale standard. Riparto per popolazione pesata. Costi standard e regioni benchmark. DRG: ricoveri, SDO, tariffa."),
+ (15,"chiaro",0,"Budget e controllo di gestione. Tetti di spesa farmaceutica e payback. Piani di rientro. PNRR Missione sei, con due componenti. Efficacia, efficienza, economicita'."),
+
+ (16,"chiaro",0,"[warm] Prossima lezione: il rapporto di lavoro dell'infermiere dipendente pubblico. Il contratto collettivo del Comparto Sanita', gli obblighi di comportamento, l'anticorruzione, il procedimento disciplinare. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Da dove arrivano le risorse",3:"Il riparto fra le Regioni",4:"I DRG",5:"Effetti e limiti dei DRG",6:"Le tariffe ambulatoriali",
+ 7:"Budget e controllo di gestione",8:"La spesa farmaceutica",9:"I piani di rientro",10:"Il PNRR, Missione 6",11:"Efficacia, efficienza, economicita'",
+ 12:"Il caso d'esame",13:"L'infermiere e le risorse",14:"In Veneto",15:"La tabella",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

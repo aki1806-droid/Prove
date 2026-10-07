@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Gli operatori sanitari si prendono cura della sicurezza dei pazienti, ma sono a loro volta esposti a rischi importanti. Questa lezione riguarda prima di tutto te."),
+ (1,"chiaro",0,"Punture accidentali, mal di schiena da movimentazione, sostanze chimiche, radiazioni, stress, aggressioni: sono i rischi del lavoro in sanita', e ciascuno ha le sue regole."),
+ (1,"chiaro",0,"Il riferimento e' il decreto legislativo ottantuno del duemilaotto, il Testo unico sulla salute e sicurezza sul lavoro. E' una domanda d'esame quasi certa, e una tutela concreta per te."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"Il decreto legislativo nove aprile duemilaotto, numero ottantuno, si applica a tutti i settori, pubblici e privati. Il primo principio: la valutazione di tutti i rischi, e la loro eliminazione o riduzione alla fonte."),
+ (2,"chiaro",0,"Poi la priorita' delle misure collettive rispetto a quelle individuali. E ancora l'informazione, la formazione e l'addestramento, e la partecipazione dei lavoratori."),
+ (2,"profondo",1.2,"[serious] Prima si cambia l'organizzazione o l'attrezzatura. Poi si danno i DPI."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"Le figure della prevenzione, da conoscere una per una. La prima e' il datore di lavoro, che nelle aziende sanitarie e' il direttore generale."),
+ (3,"chiaro",0,"Ha due obblighi non delegabili. La valutazione di tutti i rischi, con l'elaborazione del documento di valutazione dei rischi, il DVR. E la nomina del responsabile del servizio di prevenzione e protezione."),
+ (3,"chiaro",0,"Il dirigente attua le direttive del datore di lavoro, organizza l'attivita' e vigila. Per esempio, il direttore di un'unita' operativa."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Il preposto sovrintende all'attivita' lavorativa, e vigila sul rispetto delle norme e sull'uso dei dispositivi di protezione individuale."),
+ (4,"chiaro",0,"I suoi obblighi sono stati rafforzati dalla legge duecentoquindici del duemilaventuno: davanti a comportamenti scorretti deve intervenire per modificarli e, se c'e' pericolo, interrompere l'attivita'."),
+ (4,"chiaro",0,"Ha una formazione specifica, con aggiornamento periodico. In sanita' il preposto e' spesso il coordinatore infermieristico, e in alcune situazioni anche l'infermiere che dirige l'attivita' di altri operatori."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Le altre figure. L'RSPP, responsabile del servizio di prevenzione e protezione, nominato dal datore di lavoro. E il medico competente, che svolge la sorveglianza sanitaria e collabora alla valutazione dei rischi."),
+ (5,"chiaro",0,"L'RLS, il rappresentante dei lavoratori per la sicurezza. E' eletto o designato dai lavoratori, accede ai luoghi di lavoro, ed e' consultato sulla valutazione dei rischi."),
+ (5,"chiaro",0,"Poi gli addetti alle emergenze, per l'antincendio e il primo soccorso. E i lavoratori, che non sono soltanto tutelati: hanno anch'essi degli obblighi precisi."),
+ (5,"chiaro",0,"Osservare le istruzioni ricevute, usare correttamente i DPI, segnalare i pericoli, partecipare alla formazione, sottoporsi ai controlli sanitari."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Il DVR individua i rischi, le misure di prevenzione e protezione, il programma di miglioramento, le procedure e i ruoli."),
+ (6,"chiaro",0,"Non e' un documento fermo. Va aggiornato quando cambia l'organizzazione, dopo infortuni significativi, oppure in base ai risultati della sorveglianza sanitaria."),
+ (6,"chiaro",0,"E almeno una volta all'anno, nelle aziende con piu' di quindici lavoratori, si tiene la riunione periodica: datore di lavoro, RSPP, medico competente e RLS, intorno allo stesso tavolo."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"La sorveglianza sanitaria, svolta dal medico competente. Le visite sono preventive, periodiche, su richiesta del lavoratore, e al cambio di mansione."),
+ (7,"chiaro",0,"E c'e' la visita alla ripresa del lavoro, dopo un'assenza per malattia di oltre sessanta giorni continuativi. Sessanta giorni, e continuativi: un numero da ricordare."),
+ (7,"chiaro",0,"Il giudizio di idoneita' alla mansione specifica puo' essere: idoneo. Oppure idoneo parziale, temporaneo o permanente, con prescrizioni o limitazioni, per esempio niente movimentazione di carichi."),
+ (7,"chiaro",0,"Oppure inidoneo temporaneo, o inidoneo permanente. E contro il giudizio si puo' fare ricorso all'organo di vigilanza dell'ASL, entro trenta giorni."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"I rischi specifici, cominciando dal biologico, che hai gia' incontrato nel modulo quattro. E' regolato dal Titolo dieci del decreto ottantuno."),
+ (8,"chiaro",0,"Per le ferite da taglienti c'e' il Titolo dieci bis, introdotto dal decreto legislativo diciannove del duemilaquattordici: dispositivi con meccanismo di sicurezza, e divieto di reincappucciare gli aghi."),
+ (8,"chiaro",0,"Poi contenitori a portata di mano, formazione, e una procedura per gestire l'esposizione accidentale. Piu' le vaccinazioni, come quella contro l'epatite B e l'antinfluenzale."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"La movimentazione manuale dei pazienti, regolata dal Titolo sei. Le patologie del rachide sono fra le malattie professionali piu' frequenti in sanita'."),
+ (9,"chiaro",0,"Per valutare il rischio in un reparto si usa l'indice MAPO, Movimentazione e Assistenza Pazienti Ospedalizzati. Considera il rapporto fra pazienti non autosufficienti e operatori."),
+ (9,"chiaro",0,"E poi gli ausili disponibili, gli ambienti e la formazione. Le fasce: da zero a uno virgola cinque, rischio trascurabile. Da uno virgola cinquantuno a cinque, medio. Oltre cinque, elevato."),
+ (9,"chiaro",0,"Le misure: ausili come sollevatori e teli ad alto scorrimento, formazione e organizzazione. Ricordi la lezione tre punto due: la tecnica corretta protegge sia il paziente sia te."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"Il rischio chimico, regolato dal Titolo nove, comprende anche gli agenti cancerogeni e mutageni. Le fonti: disinfettanti e sterilizzanti, gas anestetici, farmaci antiblastici, formaldeide nei laboratori."),
+ (10,"chiaro",0,"Gli strumenti: le schede di sicurezza dei prodotti, i DPI, le cappe, e per gli antiblastici l'allestimento centralizzato. E l'allergia al lattice, che ha portato a preferire guanti senza lattice."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"Altri rischi. Le radiazioni ionizzanti, regolate oggi dal decreto legislativo centouno del duemilaventi: tre principi, tempo, distanza e schermature, e i dosimetri per il personale esposto."),
+ (11,"chiaro",0,"Lo stress lavoro-correlato. La sua valutazione e' obbligatoria e rientra nel DVR, come prevede l'articolo ventotto: turni, carichi di lavoro, burnout."),
+ (11,"chiaro",0,"E le aggressioni. Il datore di lavoro deve valutare il rischio, e adottare misure organizzative e strutturali, formazione e procedure di segnalazione."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"L'emergenza e l'antincendio. Ogni struttura ha un piano di emergenza ed evacuazione, addetti antincendio con una formazione specifica, ed esercitazioni periodiche."),
+ (12,"chiaro",0,"In ospedale vale un principio particolare: l'evacuazione orizzontale progressiva. I pazienti, spesso non autosufficienti, si spostano prima verso un compartimento sicuro sullo stesso piano."),
+ (12,"chiaro",0,"Il compartimento e' protetto da porte tagliafuoco, e solo se necessario si passa all'evacuazione verticale. Ogni operatore conosce vie di fuga, estintori, allarmi, e tiene chiuse le porte tagliafuoco."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"Infortunio e malattia professionale. L'infortunio e' un evento traumatico per causa violenta in occasione di lavoro, compreso il tragitto casa-lavoro: l'infortunio in itinere."),
+ (13,"chiaro",0,"La malattia professionale, invece, e' causata dall'esposizione lavorativa nel tempo. L'infortunio va segnalato subito, con il certificato medico, e il datore di lavoro lo denuncia all'INAIL."),
+ (13,"chiaro",0,"[thoughtful] E come per gli eventi avversi della lezione due punto sei, si segnalano anche i near miss, gli eventi senza danno: sono le informazioni piu' utili per prevenire."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"[curious] Il caso, in due parti. Chi e' il preposto? E' chi sovrintende all'attivita' e vigila. E dopo la legge del duemilaventuno deve intervenire sui comportamenti scorretti, e se c'e' pericolo interrompere."),
+ (14,"chiaro",0,"La parte pratica: un collega movimenta da solo un paziente pesante, senza usare il sollevatore che in reparto c'e'. Che cosa fai? Lo fermi, e lo aiuti a usare l'ausilio: sono a rischio sia lui sia il paziente."),
+ (14,"chiaro",0,"Se il comportamento si ripete, o mancano ausili e personale, lo segnali al coordinatore. E ricordi che anche i lavoratori hanno l'obbligo di usare correttamente le attrezzature."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"In Veneto vigila lo SPISAL delle ULSS, il Servizio di Prevenzione, Igiene e Sicurezza negli Ambienti di Lavoro: e' li' che va il ricorso sull'idoneita'. E ogni azienda ha il suo servizio di prevenzione e protezione."),
+
+ (16,"chiaro",0,"La tabella. Decreto ottantuno del duemilaotto. Datore di lavoro: DVR e nomina dell'RSPP non delegabili. Dirigente. Preposto, rafforzato nel duemilaventuno. RSPP, medico competente, RLS eletto. Lavoratori con obblighi."),
+ (16,"chiaro",0,"Visite, idoneita', ricorso entro trenta giorni. Titoli dieci e dieci bis. Titolo sei e MAPO, con le soglie uno virgola cinque e cinque. Titolo nove. Decreto centouno del duemilaventi. Stress, articolo ventotto."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: la qualita' in sanita', l'accreditamento e il governo clinico, gli strumenti con cui un'organizzazione migliora in modo sistematico. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Il Testo unico",3:"Datore di lavoro e dirigente",4:"Il preposto",5:"Le altre figure",6:"Il DVR e la riunione periodica",
+ 7:"Sorveglianza sanitaria e idoneita'",8:"Il rischio biologico",9:"La movimentazione dei pazienti",10:"Il rischio chimico",11:"Radiazioni, stress, aggressioni",
+ 12:"Emergenza e antincendio",13:"Infortunio e malattia professionale",14:"Il caso",15:"In Veneto",16:"La tabella",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

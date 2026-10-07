@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Apriamo il modulo che chiede di cambiare prospettiva: non piu' il letto del paziente, ma il sistema in cui lavoriamo. Nei concorsi pubblici questa parte non manca mai."),
+ (1,"chiaro",0,"E premia chi sa collegare una norma al suo anno e al suo contenuto. Cominciamo dalle fondamenta: le fonti del diritto, l'articolo trentadue della Costituzione, e la legge che ha istituito il Servizio Sanitario Nazionale."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"La gerarchia delle fonti. Al vertice la Costituzione, con le leggi costituzionali. Poi le fonti dell'Unione europea, regolamenti e direttive, che prevalgono sulle leggi nazionali nelle materie di competenza europea."),
+ (2,"chiaro",0,"Poi le leggi ordinarie dello Stato e gli atti con forza di legge. Il decreto legislativo e' emanato dal Governo su delega del Parlamento."),
+ (2,"chiaro",0,"Il decreto-legge, invece, e' emanato dal Governo in casi di necessita' e urgenza, e va convertito in legge entro sessanta giorni."),
+ (2,"chiaro",0,"Sotto, le leggi regionali, nelle materie di competenza delle Regioni. Poi i regolamenti: per esempio i decreti del Presidente della Repubblica e i decreti ministeriali."),
+ (2,"chiaro",0,"E infine gli atti amministrativi, come le delibere della Giunta regionale e le delibere aziendali. Sono l'ultimo gradino, quello piu' vicino al lavoro di tutti i giorni."),
+ (2,"profondo",1.2,"[serious] Una fonte inferiore non puo' contraddire una superiore."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"L'articolo trentadue della Costituzione, da conoscere quasi a memoria. Primo comma: la Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettivita'."),
+ (3,"chiaro",0,"E garantisce cure gratuite agli indigenti. Attenzione a un dettaglio: e' l'unico diritto che la Costituzione definisce espressamente fondamentale."),
+ (3,"chiaro",0,"Secondo comma: nessuno puo' essere obbligato a un determinato trattamento sanitario se non per disposizione di legge. E la legge non puo' in nessun caso violare i limiti imposti dal rispetto della persona umana."),
+ (3,"chiaro",0,"Da qui derivano due cose: il principio del consenso informato, e la possibilita', eccezionale, dei trattamenti sanitari obbligatori."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"[thoughtful] L'articolo trentadue contiene due anime, che a volte si tengono in equilibrio: la salute come diritto individuale, e la salute come interesse della collettivita'."),
+ (4,"chiaro",0,"Come diritto individuale, la persona e' libera di scegliere e anche di rifiutare le cure. Lo abbiamo visto con la legge duecentodiciannove del duemiladiciassette, nella lezione uno punto sei."),
+ (4,"chiaro",0,"Come interesse della collettivita', in casi eccezionali una legge puo' imporre un trattamento: il TSO della lezione undici punto tre, o le vaccinazioni obbligatorie."),
+ (4,"profondo",1.2,"[serious] Si chiama riserva di legge: nessun atto diverso da una legge puo' imporre un trattamento sanitario."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Altri articoli si collegano alla sanita'. L'articolo due, sui diritti inviolabili e i doveri di solidarieta'. L'articolo tre, sull'uguaglianza, formale e sostanziale."),
+ (5,"chiaro",0,"L'articolo tredici, sulla liberta' personale inviolabile, che ritroviamo nella contenzione. E l'articolo centodiciassette, sul riparto delle competenze fra Stato e Regioni."),
+ (5,"chiaro",0,"L'articolo novantasette, sul buon andamento e l'imparzialita' della pubblica amministrazione. Stabilisce anche che agli impieghi pubblici si accede mediante concorso: proprio la prova che stai preparando."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Il riparto delle competenze fra Stato e Regioni e' stato ridisegnato dalla riforma del Titolo quinto della Costituzione, con la legge costituzionale numero tre del duemilauno."),
+ (6,"chiaro",0,"La tutela della salute e' materia di legislazione concorrente: lo Stato fissa i principi fondamentali, le Regioni legiferano nel dettaglio e organizzano i servizi."),
+ (6,"chiaro",0,"Ma allo Stato spetta in via esclusiva la determinazione dei livelli essenziali delle prestazioni, quelli che in sanita' si chiamano LEA, da garantire in modo uniforme su tutto il territorio."),
+ (6,"chiaro",0,"La sede in cui Stato e Regioni si accordano e' la Conferenza Stato-Regioni. Per questo la sanita' veneta, che studieremo nel modulo tredici, ha regole proprie dentro una cornice nazionale."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"Per capire la riforma, si guarda a com'era prima. Fino al millenovecentosettantotto in Italia c'era un sistema mutualistico: l'assistenza dipendeva dalla categoria lavorativa e dai contributi versati."),
+ (7,"chiaro",0,"Numerosi enti mutualistici, con prestazioni diverse. Ne derivavano disuguaglianze e persone escluse, oltre a una crisi finanziaria degli enti. Il millenovecentosettantotto e' l'anno della svolta."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"La legge ottocentotrentatre' del ventitre' dicembre millenovecentosettantotto istituisce il Servizio Sanitario Nazionale. Con tre principi, da dire sempre insieme."),
+ (8,"chiaro",0,"Universalita': il servizio e' rivolto a tutta la popolazione, non a categorie. Uguaglianza: a parita' di bisogno, parita' di accesso, senza distinzioni di condizioni individuali o sociali."),
+ (8,"chiaro",0,"Globalita': il servizio si occupa di prevenzione, di cura e di riabilitazione, non solo della malattia. Universalita', uguaglianza, globalita': sempre tutti e tre."),
+ (8,"chiaro",0,"Il finanziamento non passa piu' dai contributi delle categorie, ma dalla fiscalita' generale. E l'organizzazione si basa sulle Unita' Sanitarie Locali."),
+ (8,"chiaro",0,"E agli articoli dal trentatre' al trentacinque ci sono gli accertamenti e i trattamenti sanitari volontari e obbligatori, che hai visto nella lezione undici punto tre."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"La legge elenca obiettivi ancora attuali: la formazione di una coscienza sanitaria nella popolazione, la prevenzione delle malattie e degli infortuni, la diagnosi e cura, la riabilitazione."),
+ (9,"chiaro",0,"La salute nei luoghi di lavoro, l'igiene degli alimenti, la salute mentale, la tutela materno-infantile e degli anziani, la partecipazione dei cittadini. Molti temi di questo corso hanno qui la loro radice."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"Oggi il Servizio Sanitario Nazionale si articola nei servizi sanitari regionali. In Veneto la scelta caratteristica e' l'integrazione fra sanitario e sociale: il Servizio Socio Sanitario Regionale."),
+ (10,"chiaro",0,"Per questo le aziende si chiamano ULSS, Unita' Locali Socio Sanitarie, con la esse di socio. All'orale ricordarlo dimostra conoscenza del contesto in cui lavorerai. Lo approfondiamo nel modulo tredici."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"[curious] Una domanda d'orale tipica: quale articolo della Costituzione tutela la salute, e che cosa stabilisce in materia di trattamenti sanitari obbligatori?"),
+ (11,"chiaro",0,"La risposta completa. E' l'articolo trentadue, che tutela la salute come diritto fondamentale dell'individuo e interesse della collettivita', e garantisce cure gratuite agli indigenti."),
+ (11,"chiaro",0,"Al secondo comma prevede che nessuno possa essere obbligato a un trattamento se non per legge, e sempre nel rispetto della persona umana."),
+ (11,"chiaro",0,"Poi un collegamento: il TSO della legge ottocentotrentatre', e il consenso della legge duecentodiciannove. Una risposta cosi' dimostra che sai collegare la norma alla pratica."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"Una parte pratica: come si leggono le sigle. Elle e' legge. Di elle gi esse, decreto legislativo. Di elle, decreto-legge. Di pi erre, decreto del Presidente della Repubblica."),
+ (12,"chiaro",0,"Di emme, decreto ministeriale. Di pi ci emme, decreto del Presidente del Consiglio dei Ministri. Elle erre, legge regionale. Di gi erre, deliberazione della Giunta regionale. Numero e anno identificano l'atto."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"Il metodo per tutto il modulo, da usare anche nel quaderno: una tabella a tre colonne, fonte, contenuto, anno. Costituzione, articolo trentadue: diritto alla salute, in vigore dal millenovecentoquarantotto."),
+ (13,"chiaro",0,"Legge costituzionale tre: Titolo quinto, salute materia concorrente, duemilauno. Legge ottocentotrentatre': istituzione del Servizio Sanitario Nazionale, millenovecentosettantotto."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto l'autonomia del Titolo quinto si e' tradotta in un modello proprio, con una forte integrazione socio-sanitaria e la legge regionale diciannove del duemilasedici, che ha istituito Azienda Zero."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. La gerarchia delle fonti: Costituzione, Unione europea, leggi e atti con forza di legge, leggi regionali, regolamenti, atti amministrativi."),
+ (15,"chiaro",0,"Articolo trentadue: diritto fondamentale e interesse collettivo, cure gratuite agli indigenti, trattamenti obbligatori solo per legge, nel rispetto della persona."),
+ (15,"chiaro",0,"Titolo quinto del duemilauno: salute materia concorrente, LEA di competenza esclusiva dello Stato. Legge ottocentotrentatre' del millenovecentosettantotto: un servizio universale, uguale, globale."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione vediamo come il Servizio Sanitario Nazionale e' cambiato con le riforme degli anni Novanta: l'aziendalizzazione."),
+ (16,"chiaro",0,"E che cosa sono i LEA, i livelli essenziali di assistenza, che oggi abbiamo incontrato come competenza esclusiva dello Stato. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La gerarchia delle fonti",3:"L'articolo 32",4:"Le due anime dell'articolo 32",5:"Gli altri articoli",6:"Il riparto Stato-Regioni",
+ 7:"Prima del SSN",8:"La legge 833/1978",9:"Gli obiettivi della 833",10:"Il SSN e il Servizio Socio Sanitario veneto",11:"Il caso d'esame",
+ 12:"Le sigle normative",13:"Il metodo per ricordare",14:"In Veneto",15:"La tabella",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

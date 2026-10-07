@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Quando entri in un'azienda sanitaria, entri in un'organizzazione con una struttura precisa: un vertice, dei dipartimenti, delle unita' operative, una direzione delle professioni sanitarie."),
+ (1,"chiaro",0,"E dentro ciascun reparto, un modello organizzativo dell'assistenza. Conoscerli ti serve all'esame, e ti serve per capire chi decide che cosa, fin dal primo giorno di lavoro."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"L'atto aziendale e' il documento, di diritto privato, con cui l'azienda definisce la propria organizzazione e il proprio funzionamento."),
+ (2,"chiaro",0,"Lo prevede il decreto legislativo cinquecentodue del novantadue, nel testo modificato dal decreto legislativo duecentoventinove del novantanove."),
+ (2,"chiaro",0,"E' adottato dal direttore generale secondo gli indirizzi della Regione, e individua i dipartimenti, le strutture, i distretti, gli uffici di staff."),
+ (2,"chiaro",0,"Ed e' pubblico: se vuoi capire come e' organizzata l'azienda in cui farai domanda, l'atto aziendale e' il primo documento da leggere."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"Al vertice c'e' la direzione strategica: il direttore generale, il direttore sanitario, il direttore amministrativo e, in Veneto, anche il direttore dei servizi socio-sanitari."),
+ (3,"chiaro",0,"Gli organi dell'azienda, invece, sono tre. Il primo e' il direttore generale. Il secondo e' il collegio sindacale, che vigila sulla regolarita' amministrativa e contabile."),
+ (3,"chiaro",0,"Il terzo e' il collegio di direzione, che supporta la direzione dell'azienda nel governo clinico, nella programmazione e nella formazione."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Il dipartimento e' il modello ordinario di organizzazione delle attivita' sanitarie. Aggrega unita' operative omogenee, affini o complementari: per esempio cardiologia, emodinamica, cardiochirurgia."),
+ (4,"chiaro",0,"Le unita' operative del dipartimento hanno obiettivi comuni e condividono le risorse: il personale, i posti letto, le tecnologie. A guidarlo c'e' un direttore di dipartimento."),
+ (4,"chiaro",0,"Il dipartimento puo' essere strutturale, oppure funzionale, oppure interaziendale, quando coinvolge piu' aziende."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Poi le strutture. La struttura complessa, o UOC, ha autonomia gestionale, ed e' guidata da un direttore di struttura complessa."),
+ (5,"chiaro",0,"La struttura semplice, o UOS, e' un'articolazione di una struttura complessa. Oppure e' a valenza dipartimentale, la UOSD, quando fa capo direttamente al dipartimento."),
+ (5,"chiaro",0,"E sul piano dell'assistenza ci sono il coordinatore infermieristico e gli incarichi di funzione, che vedremo nella lezione dodici punto cinque."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Il servizio delle professioni sanitarie. La legge duecentocinquantuno del duemila riconosce l'autonomia e la responsabilita' delle professioni sanitarie."),
+ (6,"chiaro",0,"E prevede che le aziende possano istituire il servizio dell'assistenza infermieristica e ostetrica, diretto da un dirigente delle professioni sanitarie."),
+ (6,"chiaro",0,"Il dirigente dirige, organizza e valuta l'assistenza, e gestisce le risorse infermieristiche e quelle di supporto."),
+ (6,"chiaro",0,"La legge quarantatre del duemilasei articola poi le funzioni: professionisti, coordinatori, specialisti e dirigenti. Le hai viste nel modulo uno; qui ne vedi il posto nell'organizzazione."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"Il decreto ministeriale settanta del duemilaquindici e' il regolamento sugli standard qualitativi, strutturali, tecnologici e quantitativi dell'assistenza ospedaliera."),
+ (7,"chiaro",0,"Fissa i posti letto a tre virgola sette per mille abitanti, di cui zero virgola sette per la riabilitazione e la lungodegenza post-acuzie. E un tasso di ospedalizzazione di centosessanta per mille."),
+ (7,"chiaro",0,"E soglie minime di volume e di esito per alcune attivita', perche' la qualita' di certi interventi dipende da quanti se ne fanno: per esempio la chirurgia del tumore della mammella, o il bypass."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"La classificazione degli ospedali secondo il DM settanta. Il presidio ospedaliero di base ha un bacino da ottantamila a centocinquantamila abitanti, e un pronto soccorso."),
+ (8,"chiaro",0,"Poi l'ospedale sede di DEA di primo livello, cioe' di dipartimento di emergenza e accettazione, con un bacino da centocinquantamila a trecentomila abitanti."),
+ (8,"chiaro",0,"L'ospedale sede di DEA di secondo livello ha un bacino da seicentomila a un milione e duecentomila abitanti, con le specialita' di alta complessita'. Piu' i presidi nelle zone disagiate, come la montagna."),
+ (8,"chiaro",0,"E' il modello hub and spoke: i centri piu' attrezzati, gli hub, sostengono una rete di centri periferici, gli spoke."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"Il DM settanta prevede anche le reti per le patologie tempo-dipendenti: la rete cardiologica per l'infarto, la rete traumatologica, la rete ictus. Quelle che hai visto nel modulo dieci."),
+ (9,"chiaro",0,"[thoughtful] E altre reti: punti nascita, oncologia, trapianti, emergenza pediatrica. L'obiettivo e' portare il paziente all'ospedale giusto nel tempo giusto, anche se non e' il piu' vicino."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"I modelli organizzativi dell'assistenza infermieristica. Il modello per compiti, o funzionale: ogni infermiere esegue un'attivita' per tutti i pazienti. Uno la terapia, uno le medicazioni, uno i parametri."),
+ (10,"chiaro",0,"E' efficiente sulla carta, ma frammenta l'assistenza: nessuno conosce il paziente nella sua globalita'."),
+ (10,"chiaro",0,"Poi il modello per piccole equipe. Il primary nursing, con un infermiere di riferimento per ogni paziente. E il case management: il coordinamento del percorso di pazienti complessi, spesso fra ospedale e territorio."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"[curious] Il primary nursing merita un approfondimento, perche' e' il modello piu' chiesto. Si basa sulla responsabilita' individuale e continua di un infermiere per i suoi pazienti."),
+ (11,"chiaro",0,"L'infermiere di riferimento e' responsabile della pianificazione dell'assistenza, dall'ingresso alla dimissione. Garantisce personalizzazione e continuita', e una relazione con il paziente e la famiglia."),
+ (11,"chiaro",0,"Quando il primary non e' in turno, l'assistenza e' garantita da un infermiere associato, che segue il piano. E' il modello piu' coerente con il processo di assistenza del modulo due."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"L'organizzazione per intensita' di cura rovescia il modello tradizionale: i pazienti non sono collocati per specialita' del medico, ma per complessita' assistenziale e instabilita' clinica."),
+ (12,"chiaro",0,"Ci sono aree ad alta intensita', cioe' intensiva e semi-intensiva. Aree a media intensita', la degenza ordinaria per aree omogenee. E aree a bassa intensita', per la post-acuzie."),
+ (12,"chiaro",0,"Il medico specialista segue il paziente dove si trova. E l'infermiere ha un ruolo centrale, nella valutazione della complessita' e nella gestione del percorso."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"Il caso d'esame. La domanda tipo: descriva le differenze fra il modello per compiti e il primary nursing. Nel modello per compiti l'organizzazione e' centrata sulle attivita'."),
+ (13,"chiaro",0,"Ogni infermiere ne esegue una per tutti, l'assistenza e' frammentata e la responsabilita' e' diffusa. Nel primary nursing, invece, l'organizzazione e' centrata sulla persona."),
+ (13,"chiaro",0,"Un infermiere di riferimento ha la responsabilita' della pianificazione per un gruppo di pazienti: continuita', personalizzazione, relazione. E un infermiere associato nei suoi turni di assenza."),
+ (13,"chiaro",0,"E poi un collegamento: il primary nursing realizza il processo di assistenza, e la responsabilita' professionale della legge quarantadue del novantanove."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto gli standard del DM settanta si traducono nelle schede di dotazione ospedaliera approvate dalla Regione, che stabiliscono per ogni ospedale le funzioni e i posti letto."),
+ (14,"chiaro",0,"Con un modello hub and spoke in cui le Aziende Ospedaliere Universitarie di Padova e di Verona, e lo IOV, l'Istituto Oncologico Veneto, sono centri di riferimento. Lo approfondiamo nella lezione tredici punto tre."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. L'atto aziendale. Gli organi: direttore generale, collegio sindacale, collegio di direzione. Il dipartimento come modello ordinario. UOC, UOS, UOSD. La legge duecentocinquantuno."),
+ (15,"chiaro",0,"Il DM settanta: tre virgola sette posti letto per mille, ospedalizzazione centosessanta per mille. Presidio di base, da ottanta a centocinquantamila abitanti. DEA di primo livello, da centocinquanta a trecentomila."),
+ (15,"chiaro",0,"DEA di secondo livello, da seicentomila a un milione e duecentomila. Le reti tempo-dipendenti. Il modello per compiti contro il primary nursing. E l'intensita' di cura."),
+
+ (16,"profondo",1.2,"[serious] Il modello organizzativo decide se il paziente incontra un'organizzazione o un infermiere. Nel modello per compiti incontra tanti gesti; nel primary nursing, una persona che conosce la sua storia."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: come si finanzia il Servizio Sanitario Nazionale, che cosa sono i DRG, il budget e il controllo di gestione. Temi che sembrano lontani dall'infermiere, ma spiegano molte scelte. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"L'atto aziendale",3:"La direzione strategica e gli organi",4:"Il dipartimento",5:"Le strutture",6:"Il servizio delle professioni sanitarie",
+ 7:"Il DM 70/2015",8:"La classificazione degli ospedali",9:"Le reti tempo-dipendenti",10:"I modelli organizzativi",11:"Il primary nursing",12:"L'intensita' di cura",
+ 13:"Il caso d'esame",14:"In Veneto",15:"La tabella",16:"La frase della lezione",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

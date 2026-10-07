@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Che cosa significa che un ospedale lavora bene? Come si misura, e come si migliora? Questa lezione ti da' gli strumenti per rispondere."),
+ (1,"chiaro",0,"I modelli della qualita', il ciclo del miglioramento continuo, gli indicatori, l'accreditamento, il governo clinico. Concetti che ritrovi nei quiz, e che collegano la pratica di tutti i giorni all'organizzazione."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"La qualita' in sanita' ha piu' dimensioni. Efficacia, sicurezza, appropriatezza, equita' e accessibilita', tempestivita', efficienza, e centralita' della persona."),
+ (2,"chiaro",0,"E si guarda da tre punti di vista. Il primo e' la qualita' tecnico-professionale, cioe' fare le cose giuste nel modo giusto. Il secondo e' la qualita' organizzativa."),
+ (2,"chiaro",0,"Il terzo e' la qualita' percepita dal paziente, che si misura per esempio con i questionari di gradimento o di esperienza. Ci torniamo verso la fine della lezione."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"Il modello piu' classico e' quello di Donabedian, con tre dimensioni. La struttura: le risorse, cioe' il personale, gli ambienti, le tecnologie, l'organizzazione."),
+ (3,"chiaro",0,"Il processo: le attivita' svolte, cioe' come si lavora. E l'esito: il risultato di salute, quello che in inglese si chiama outcome. Risorse, attivita', risultati."),
+ (3,"chiaro",0,"Un esempio sulle lesioni da pressione. Indicatore di struttura: la disponibilita' di superfici antidecubito. Indicatore di processo: la percentuale di pazienti valutati con la Braden all'ingresso."),
+ (3,"chiaro",0,"Indicatore di esito: l'incidenza di nuove lesioni. Struttura, processo, esito: e' uno schema utilissimo all'orale, e lo ritroviamo nel caso d'esame."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Il ciclo PDCA, o ciclo di Deming, e' lo strumento del miglioramento continuo. Plan: pianificare, cioe' analizzare il problema, fissare un obiettivo, definire le azioni."),
+ (4,"chiaro",0,"Do: realizzare le azioni. Check: verificare i risultati con gli indicatori. Act: se funziona, si standardizza; se non funziona, si corregge."),
+ (4,"chiaro",0,"E poi si ricomincia. Il ciclo non si chiude mai su se stesso: ogni giro parte dal risultato del precedente. E' proprio questo il miglioramento continuo."),
+ (4,"chiaro",0,"Un esempio. Le cadute notturne sono aumentate. Si introduce un giro di controllo con il bagno assistito, si misura l'incidenza per tre mesi, e se cala si inserisce nella procedura."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"Gli indicatori: variabili misurabili che descrivono un fenomeno, e che permettono confronti e decisioni. I tipi sono quelli di Donabedian: struttura, processo, esito."),
+ (5,"chiaro",0,"Un buon indicatore e' valido, cioe' misura cio' che deve misurare. E' affidabile, cioe' da' lo stesso risultato a parita' di condizioni. E' sensibile e specifico, rilevante e fattibile."),
+ (5,"chiaro",0,"Da solo, un indicatore dice poco: si confronta con uno standard, cioe' un valore di riferimento. Ed e' il confronto con lo standard che permette di decidere se, e dove, intervenire."),
+ (5,"chiaro",0,"Indicatori tipicamente infermieristici: le cadute per mille giornate di degenza, le lesioni da pressione, le infezioni da catetere, e l'aderenza all'igiene delle mani della lezione quattro punto due."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Il Programma Nazionale Esiti, il PNE, e' gestito dall'AGENAS, l'Agenzia nazionale per i servizi sanitari regionali. Valuta gli esiti delle cure negli ospedali italiani."),
+ (6,"chiaro",0,"Con indicatori come la mortalita' a trenta giorni dopo un infarto, i tagli cesarei, e la percentuale di fratture di femore operate entro quarantotto ore, che hai visto nella lezione nove punto sei."),
+ (6,"chiaro",0,"Usa i dati delle SDO, le schede di dimissione ospedaliera, e permette di confrontare le strutture. E' uno strumento di miglioramento, non una classifica punitiva."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"[serious] Ora due livelli da non confondere. Il primo e' l'autorizzazione all'esercizio: per poter operare, una struttura sanitaria, pubblica o privata, deve avere requisiti minimi strutturali, tecnologici e organizzativi."),
+ (7,"chiaro",0,"Il secondo e' l'accreditamento istituzionale. Per erogare prestazioni per conto del Servizio Sanitario Nazionale servono requisiti ulteriori di qualita', e poi gli accordi contrattuali con la Regione o l'azienda."),
+ (7,"chiaro",0,"Lo prevede il decreto legislativo cinquecentodue del millenovecentonovantadue, come modificato dal duecentoventinove del millenovecentonovantanove. In Veneto lo approfondiremo nella lezione tredici punto sei."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"Esistono poi forme volontarie. L'accreditamento all'eccellenza, rilasciato da enti nazionali o internazionali, come la Joint Commission International, e basato su standard di qualita' e sicurezza."),
+ (8,"chiaro",0,"E la certificazione ISO novemilauno, che attesta la conformita' di un sistema di gestione della qualita' a una norma internazionale."),
+ (8,"chiaro",0,"Sono strumenti volontari, diversi dall'accreditamento istituzionale. Quello, invece, e' obbligatorio per lavorare per il Servizio Sanitario Nazionale."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"Il governo clinico, o clinical governance: il sistema con cui le organizzazioni sanitarie si rendono responsabili del miglioramento continuo della qualita', e della tutela di standard elevati."),
+ (9,"chiaro",0,"Mette insieme strumenti che hai gia' incontrato. Le linee guida e le evidenze. L'audit clinico. La gestione del rischio clinico, della lezione due punto sei. La formazione continua, cioe' l'ECM."),
+ (9,"chiaro",0,"Poi gli indicatori, il coinvolgimento dei pazienti, e l'HTA. E tutto si basa su una responsabilita' condivisa fra la direzione e i professionisti."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"L'audit clinico e' il confronto sistematico della pratica con standard espliciti. Le fasi: si sceglie un tema e uno standard, si raccolgono i dati, si confrontano con lo standard."),
+ (10,"chiaro",0,"Poi si definiscono le azioni di miglioramento. E si ripete la misurazione, il re-audit, per verificare che il cambiamento ci sia stato davvero."),
+ (10,"chiaro",0,"Un esempio. Lo standard dice che il dolore va valutato e registrato per tutti i pazienti. Quanti lo hanno davvero in cartella? Diverso e' l'audit su un evento, che analizza un singolo caso, come nella lezione due punto sei."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"L'HTA, Health Technology Assessment: la valutazione multidisciplinare delle tecnologie sanitarie. Farmaci, dispositivi, procedure, modelli organizzativi."),
+ (11,"chiaro",0,"Considera l'efficacia, la sicurezza, i costi, e l'impatto organizzativo, etico e sociale. Serve a decidere se adottare una tecnologia, e come."),
+ (11,"chiaro",0,"Coinvolge anche gli infermieri: per esempio nella scelta delle medicazioni avanzate, o dei dispositivi di sicurezza per i taglienti."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"[curious] Ora la domanda tipo d'esame: proponga un indicatore di struttura, uno di processo e uno di esito per la prevenzione delle cadute in reparto."),
+ (12,"chiaro",0,"Struttura: la disponibilita' di letti ad altezza variabile, e di campanelli a portata di mano. Sono le risorse che rendono possibile la prevenzione."),
+ (12,"chiaro",0,"Processo: la percentuale di pazienti valutati con una scala del rischio di caduta entro ventiquattro ore dall'ingresso. Misura come lavora il reparto, non che cosa possiede."),
+ (12,"chiaro",0,"Esito: il numero di cadute per mille giornate di degenza, e il numero di cadute con danno. E' il risultato che conta davvero per il paziente."),
+ (12,"chiaro",0,"Poi aggiungi come li useresti, con un ciclo PDCA: pianifichi, realizzi, verifichi con gli indicatori, e standardizzi o correggi. E' una risposta che dimostra metodo."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"La qualita' percepita e la partecipazione. I questionari di soddisfazione e, sempre piu', di esperienza del paziente. I reclami e le segnalazioni raccolti dall'URP, l'Ufficio relazioni con il pubblico."),
+ (13,"chiaro",0,"La Carta dei servizi, che dichiara gli impegni dell'azienda verso i cittadini. Il coinvolgimento delle associazioni dei pazienti. Perche' la voce del paziente e' un dato di qualita', non solo un'opinione."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto autorizzazione e accreditamento sono disciplinati dalla legge regionale ventidue del duemiladue, con verifiche e rinnovi periodici delle strutture."),
+ (14,"chiaro",0,"E la Regione utilizza sistemi di valutazione delle performance delle aziende, insieme ai dati del Programma Nazionale Esiti. Sono gli stessi strumenti di questa lezione, applicati alla regione in cui lavorerai."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. Le dimensioni della qualita'. Donabedian: struttura, processo, esito. Il PDCA di Deming: plan, do, check, act. Gli indicatori, validi, affidabili, sensibili e specifici, e lo standard."),
+ (15,"chiaro",0,"Il PNE dell'AGENAS. Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. Il governo clinico, l'audit con il re-audit, l'HTA."),
+
+ (16,"profondo",1.2,"[serious] Cio' che non si misura non si puo' migliorare."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo tutto il modulo dodici con la tabella fonte, contenuto, anno: il modo piu' efficace per memorizzare le norme. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le dimensioni della qualita'",3:"Il modello di Donabedian",4:"Il ciclo PDCA",5:"Gli indicatori",6:"Il Programma Nazionale Esiti",
+ 7:"Autorizzazione e accreditamento",8:"L'accreditamento all'eccellenza",9:"Il governo clinico",10:"L'audit clinico",11:"L'HTA",12:"Il caso d'esame",
+ 13:"La qualita' percepita",14:"In Veneto",15:"La tabella",16:"La frase della lezione",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Il Servizio Sanitario Nazionale e' nato nel millenovecentosettantotto. Negli anni Novanta e' stato profondamente riformato, e quelle riforme hanno disegnato l'organizzazione in cui lavorerai."),
+ (1,"chiaro",0,"Hanno introdotto le aziende sanitarie, il direttore generale, l'accreditamento, il distretto. E poi i LEA, i livelli essenziali di assistenza: il cuore di cio' che il sistema deve garantire a ogni cittadino."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"La prima grande riforma e' il decreto legislativo cinquecentodue del millenovecentonovantadue, modificato l'anno dopo dal decreto legislativo cinquecentodiciassette del millenovecentonovantatre'."),
+ (2,"profondo",1.2,"[serious] La parola chiave e' aziendalizzazione."),
+ (2,"chiaro",0,"Le Unita' Sanitarie Locali diventano aziende, con personalita' giuridica pubblica e con autonomia organizzativa, amministrativa e gestionale. E' questo il senso della parola aziendalizzazione."),
+ (2,"chiaro",0,"Anche i grandi ospedali possono diventare aziende a se': le aziende ospedaliere, autonome. Accanto all'azienda del territorio nasce cosi' l'azienda dell'ospedale."),
+ (2,"chiaro",0,"Al vertice di ogni azienda c'e' il direttore generale, nominato dalla Regione. Lo affiancano due figure: il direttore sanitario e il direttore amministrativo."),
+ (2,"chiaro",0,"Cresce il ruolo delle Regioni. E si avvia il pagamento delle prestazioni a tariffa, con i DRG, che vedremo nella lezione dodici punto quattro, dedicata al finanziamento."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"La seconda tappa e' il decreto legislativo duecentoventinove del millenovecentonovantanove, la cosiddetta riforma Bindi. Introduce o rafforza sei elementi, che vediamo uno per volta."),
+ (3,"chiaro",0,"Il primo e' il distretto, come articolazione territoriale dell'azienda. E' il luogo della continuita' assistenziale che hai visto nel modulo undici."),
+ (3,"chiaro",0,"Il secondo, l'accreditamento istituzionale: le strutture pubbliche e private possono erogare prestazioni per il Servizio Sanitario Nazionale solo se possiedono i requisiti, e con accordi contrattuali."),
+ (3,"chiaro",0,"Poi il rapporto di esclusivita' dei dirigenti sanitari. E l'integrazione socio-sanitaria: il sanitario e il sociale che lavorano insieme, sulla stessa persona."),
+ (3,"chiaro",0,"I livelli essenziali di assistenza, i LEA, diventano il cardine del sistema. Li riprendiamo fra poco, perche' sono la seconda meta' di questa lezione."),
+ (3,"chiaro",0,"E infine l'atto aziendale, un atto di diritto privato: il documento con cui ogni azienda definisce la propria organizzazione. Ci torneremo nella prossima lezione."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Le tappe in una riga, da ricordare con gli anni. Millenovecentosettantotto: con la legge ottocentotrentatre' nasce il Servizio Sanitario Nazionale."),
+ (4,"chiaro",0,"Millenovecentonovantadue e novantatre': l'aziendalizzazione, con i decreti cinquecentodue e cinquecentodiciassette. Millenovecentonovantanove: distretto, accreditamento, esclusivita', LEA."),
+ (4,"chiaro",0,"Duemilauno: la riforma del Titolo V, che fa della salute una materia concorrente fra Stato e Regioni. E' la sequenza che un commissario si aspetta di sentire."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"I LEA, i livelli essenziali di assistenza: sono le prestazioni e i servizi che il Servizio Sanitario Nazionale e' tenuto a garantire a tutti i cittadini."),
+ (5,"chiaro",0,"Gratuitamente, oppure con una quota di partecipazione, il ticket. E con le risorse pubbliche raccolte attraverso la fiscalita' generale."),
+ (5,"chiaro",0,"Sono definiti a livello nazionale. Le Regioni possono garantire livelli ulteriori, ma con risorse proprie: il livello essenziale e' lo stesso per tutti, il resto si aggiunge sopra."),
+ (5,"chiaro",0,"Sono la traduzione concreta dell'articolo trentadue della Costituzione, e del principio di uguaglianza della legge ottocentotrentatre'."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"I LEA vigenti sono definiti dal DPCM del dodici gennaio duemiladiciassette, che ha sostituito quello del ventinove novembre duemilauno. Li organizza in tre grandi livelli."),
+ (6,"chiaro",0,"Primo livello: prevenzione collettiva e sanita' pubblica. Vaccinazioni, screening, sicurezza alimentare, tutela della salute nei luoghi di lavoro."),
+ (6,"chiaro",0,"Secondo livello: assistenza distrettuale. Medicina di base, farmaceutica, specialistica ambulatoriale, assistenza domiciliare, residenziale e semiresidenziale."),
+ (6,"chiaro",0,"Terzo livello: assistenza ospedaliera. Pronto soccorso, ricovero ordinario e diurno, riabilitazione. Prevenzione, distretto, ospedale: tre parole per ricordarli."),
+ (6,"chiaro",0,"Il DPCM comprende anche i nomenclatori, gli elenchi delle malattie rare e delle malattie croniche che danno diritto all'esenzione, e lo screening neonatale esteso della lezione undici punto quattro."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"I LEA non sono fissi. Una Commissione nazionale ne propone l'aggiornamento, in base alle evidenze. Un passaggio importante e' arrivato alla fine del duemilaventiquattro."),
+ (7,"chiaro",0,"Sono entrati in vigore i nuovi nomenclatori della specialistica ambulatoriale e dell'assistenza protesica, previsti dal DPCM del duemiladiciassette, con le relative tariffe."),
+ (7,"chiaro",0,"La regola di studio: i LEA sono un elenco che cambia. Per il concorso conta il quadro generale, cioe' i tre livelli e il loro contenuto."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"Come si verifica che i LEA siano davvero garantiti? Con il Nuovo Sistema di Garanzia, previsto dal decreto ministeriale del dodici marzo duemiladiciannove e applicato dal duemilaventi."),
+ (8,"chiaro",0,"Ha sostituito la griglia LEA. Usa indicatori per prevenzione, distrettuale e ospedaliera: una Regione e' adempiente se raggiunge la soglia in tutte e tre. Il Veneto e' stabilmente fra le migliori."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"Il ticket e' una quota di partecipazione alla spesa. Si applica soprattutto alla specialistica e alla diagnostica, in alcune Regioni anche alla farmaceutica."),
+ (9,"chiaro",0,"E al pronto soccorso, per gli accessi a bassa priorita' non seguiti da ricovero. Le esenzioni sono previste per eta' e reddito, per malattie croniche e invalidanti, per malattie rare."),
+ (9,"chiaro",0,"Per invalidita', per la gravidanza, e per le prestazioni di prevenzione come gli screening. Importi e regole sono definiti anche dalle Regioni, e cambiano: per l'esame contano i principi, non le cifre."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"Un concetto che attraversa i LEA: l'appropriatezza. Una prestazione e' appropriata quando e' efficace e indicata per quel paziente: e' l'appropriatezza clinica."),
+ (10,"chiaro",0,"E quando e' erogata nel setting giusto, senza consumare risorse inutili: e' l'appropriatezza organizzativa. Un ricovero per una prestazione che si puo' fare in ambulatorio e' inappropriato."),
+ (10,"profondo",1.2,"[serious] I LEA garantiscono le prestazioni appropriate, non tutto cio' che e' tecnicamente possibile."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"[curious] La domanda tipo: che cosa sono i LEA, da quale atto sono definiti, come si articolano? E come si verifica che siano garantiti?"),
+ (11,"chiaro",0,"Sono le prestazioni che il sistema garantisce a tutti, gratis o con ticket. Li definisce il DPCM del dodici gennaio duemiladiciassette. Tre livelli. Li verifica il Nuovo Sistema di Garanzia. Quattro punti."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"Le figure di vertice introdotte dalle riforme. Il direttore generale ha la rappresentanza legale e la responsabilita' della gestione, e nomina gli altri direttori."),
+ (12,"chiaro",0,"Il direttore sanitario, responsabile del governo clinico e dell'organizzazione sanitaria. Il direttore amministrativo. E in Veneto, per l'integrazione socio-sanitaria, il direttore dei servizi socio-sanitari."),
+ (12,"chiaro",0,"Gli organi dell'azienda sono tre: il direttore generale, il collegio sindacale, che controlla la regolarita' contabile, e il collegio di direzione. Li vedremo nella prossima lezione."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"Perche' all'infermiere servono queste norme? Perche' l'accreditamento fissa i requisiti, anche di personale, che la tua struttura deve rispettare. E i LEA dicono che cosa il paziente ha diritto di ricevere."),
+ (13,"chiaro",0,"Il distretto e' il luogo della continuita' assistenziale del modulo undici. E l'atto aziendale stabilisce dove si colloca il servizio delle professioni sanitarie."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"chiaro",0,"In Veneto le riforme sono diventate Aziende ULSS, Aziende Ospedaliere Universitarie, un IRCCS e Azienda Zero. L'accreditamento e' regolato dalla legge regionale ventidue del duemiladue, che vedremo nel modulo tredici."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. Cinquecentodue e cinquecentodiciassette: aziendalizzazione, direttore generale, aziende ospedaliere. Duecentoventinove del novantanove: distretto, accreditamento, esclusivita', integrazione, atto aziendale."),
+ (15,"chiaro",0,"LEA: DPCM del dodici gennaio duemiladiciassette, tre livelli. Nuovo Sistema di Garanzia: dodici marzo duemiladiciannove. Ticket ed esenzioni. Appropriatezza clinica e organizzativa."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione entriamo dentro l'azienda: l'atto aziendale, i dipartimenti, gli standard ospedalieri del DM settanta del duemilaquindici, i modelli organizzativi dell'assistenza infermieristica. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La riforma del 1992-1993",3:"La riforma del 1999",4:"Le tappe in una riga",5:"I LEA: che cosa sono",6:"Il DPCM 12 gennaio 2017",
+ 7:"L'aggiornamento dei LEA",8:"Il Nuovo Sistema di Garanzia",9:"Ticket ed esenzioni",10:"L'appropriatezza",11:"Il caso d'esame",
+ 12:"La direzione aziendale",13:"Il filo con l'assistenza",14:"In Veneto",15:"La tabella",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

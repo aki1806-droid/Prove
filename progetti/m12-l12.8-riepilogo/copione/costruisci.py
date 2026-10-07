@@ -4,72 +4,72 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo undici, il piu' vario del corso: dall'anziano fragile al neonato, dalla salute mentale al fine vita, dalla cronicita' al territorio."),
- (1,"chiaro",0,"Lo ricomponiamo con una mappa: per ogni persona, i bisogni chiave, gli strumenti, e il luogo in cui viene assistita. Sette lezioni, sette persone diverse, e una sola domanda: dove sta meglio, e chi se ne occupa?"),
- (1,"chiaro",0,"E' un ripasso: ritmo un po' piu' sostenuto, e le parole chiave che all'esame valgono punti. Tieni a portata di mano il quaderno."),
+ (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
+ (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
 
- (2,"chiaro",0,"L'anziano fragile. Fragilita' non e' eta'. Criteri di Fried: calo di peso, astenia, forza di presa, velocita' del cammino, attivita' fisica. Con tre o piu', fragile."),
- (2,"chiaro",0,"La valutazione multidimensionale, in sei dimensioni: clinica, funzionale, cognitiva, affettiva, nutrizionale, sociale. In Veneto, l'UVMD con la SVaMA. Le sindromi geriatriche, che si influenzano a vicenda."),
- (2,"chiaro",0,"Il delirium: esordio acuto, decorso fluttuante, attenzione compromessa. L'ipoattivo e' il meno riconosciuto. E la prevenzione e' non farmacologica: orientamento, occhiali, apparecchi, sonno, mobilizzazione."),
- (2,"chiaro",0,"La polifarmacoterapia, i criteri di Beers e la deprescrizione. E il paradosso del ricovero, che puo' far uscire l'anziano meno autonomo di come e' entrato."),
+ (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
+ (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
+ (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
+ (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
+ (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
 
- (3,"chiaro",0,"La demenza. Alzheimer: la memoria recente. Corpi di Lewy: allucinazioni visive e ipersensibilita' agli antipsicotici. I disturbi del comportamento comunicano un bisogno."),
- (3,"chiaro",0,"Dolore, stipsi, ritenzione, infezione: la causa prima del farmaco. Non farmacologico come prima scelta. Non contraddire, rispondere all'emozione. L'ambiente protesico."),
- (3,"chiaro",0,"Antipsicotici con cautela, per il rischio di mortalita' e di ictus. Il caregiver, che e' anche lui una persona da assistere, e i ricoveri di sollievo. E in Veneto i CDCD, per la diagnosi e la presa in carico."),
+ (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
+ (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
+ (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
+ (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
+ (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
 
- (4,"chiaro",0,"La salute mentale. Leggi centottanta e ottocentotrentatre', articoli dal trentatre' al trentacinque. TSO: tre requisiti insieme, e la pericolosita' non e' fra questi."),
- (4,"chiaro",0,"Proposta, convalida, ordinanza del sindaco, giudice tutelare, con le due finestre di quarantotto ore. Sette giorni, nell'SPDC. E l'ASO, l'accertamento senza ricovero."),
- (4,"chiaro",0,"La de-escalation, e le cause organiche dell'agitazione. Rischio suicidario: chiedere direttamente, perche' chiedere non aumenta il rischio. La Raccomandazione quattro."),
- (4,"chiaro",0,"Astinenza alcolica: delirium tremens a quarantotto, settantadue ore, e tiamina prima del glucosio. Le terapie sostitutive da continuare. E la rete: DSM, CSM, SerD."),
+ (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
+ (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
+ (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
 
- (5,"chiaro",0,"L'area materno-infantile. Termine fra trentasette e quarantadue settimane, regola di Naegele. Preeclampsia dopo la ventesima settimana, con cefalea, disturbi visivi, dolore epigastrico."),
- (5,"chiaro",0,"Il magnesio, con riflessi, respiro e diuresi, e il calcio gluconato come antidoto. Placenta previa indolore, distacco doloroso. Il decubito laterale sinistro."),
- (5,"chiaro",0,"Allattamento esclusivo per sei mesi. Vitamina K e screening. Ittero sotto le ventiquattro ore: patologico. Niente aspirina nel bambino. E le scale del dolore per eta'."),
+ (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
+ (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
+ (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
+ (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
 
- (6,"chiaro",0,"Le cure palliative. Legge trentotto, con due reti, e cure palliative precoci. Dispnea: aria fresca e oppioidi. Rantolo: posizione, antisecretivi, niente aspirazione di routine."),
- (6,"chiaro",0,"La sedazione palliativa: sintomi refrattari, farmaci titolati, consenso, legge duecentodiciannove articolo due. Diversa dall'eutanasia per intenzione, mezzi ed esito."),
- (6,"chiaro",0,"Nutrizione e idratazione artificiali: trattamenti sanitari. I segni della morte imminente. L'ECG di venti minuti. La cura della salma, e il lutto, anche degli operatori."),
+ (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
+ (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
+ (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
+ (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
+ (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
+ (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
 
- (7,"chiaro",0,"La cronicita'. Il Piano nazionale del duemilasedici, e la medicina di iniziativa. I PDTA. Il Chronic Care Model, con sei componenti. L'aderenza: semplificare, e chiedere senza giudicare."),
- (7,"chiaro",0,"Le fasi di Prochaska, ricaduta compresa. Il colloquio motivazionale, con OARS e senza il riflesso di correzione. Health literacy e teach-back."),
- (7,"chiaro",0,"Il self-care in tre dimensioni: mantenimento, monitoraggio e gestione, quella che molti pazienti saltano. E la telemedicina nelle sue quattro forme."),
+ (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
+ (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
+ (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
+ (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
 
- (8,"chiaro",0,"Il territorio. DM settantasette del duemilaventidue. Casa della Comunita' hub ogni quaranta, cinquantamila abitanti. Infermiere di famiglia e comunita' ogni tremila."),
- (8,"chiaro",0,"Ospedale di Comunita', venti posti letto ogni centomila, a gestione infermieristica. COT ogni centomila. L'UCA. Il centosedici centodiciassette. ADI e SAD."),
- (8,"chiaro",0,"E in Veneto: l'UVMD con la SVaMA, porta d'accesso ai servizi. I Centri di Servizi, che altrove si chiamano RSA, e l'impegnativa di residenzialita', con la quota sanitaria regionale."),
+ (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
+ (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
+ (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
 
- (9,"chiaro",0,"Ora la mappa dei servizi, da fotografare. L'acuzie: l'ospedale. Un bisogno non urgente: il centosedici centodiciassette, il medico di medicina generale, la Casa della Comunita'."),
- (9,"chiaro",0,"La cronicita': Casa della Comunita', infermiere di famiglia e comunita', PDTA, telemonitoraggio. Il recupero dopo un ricovero: l'Ospedale di Comunita'."),
- (9,"chiaro",0,"La non autosufficienza a casa: UVMD, ADI, SAD. La non autosufficienza non gestibile a casa: il Centro di Servizi, con l'impegnativa di residenzialita'."),
- (9,"chiaro",0,"La salute mentale: CSM e SPDC. Le dipendenze: il SerD. La gravidanza: consultorio e punto nascita. Il fine vita: cure palliative domiciliari e hospice."),
- (9,"profondo",1.2,"[serious] Ogni bisogno ha il suo luogo."),
+ (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
+ (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
+ (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
 
- (10,"chiaro",0,"Le confusioni che costano piu' punti. Delirium e demenza non sono la stessa cosa: acuto e fluttuante il primo, insidioso e progressivo la seconda."),
- (10,"chiaro",0,"Nel TSO la pericolosita' non e' un requisito. E il provvedimento si notifica al giudice tutelare. Sedazione palliativa ed eutanasia sono diverse."),
- (10,"chiaro",0,"Ittero dopo le ventiquattro ore, fisiologico; prima, patologico. ADI dell'azienda sanitaria, con prestazioni sanitarie; SAD dei Comuni, con l'aiuto socio-assistenziale."),
- (10,"chiaro",0,"Il centosedici centodiciassette non e' il centododici. E l'Ospedale di Comunita' non e' un ospedale per acuti: e' un ricovero breve, a gestione infermieristica, per chi non puo' ancora tornare a casa."),
+ (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
+ (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
 
- (11,"chiaro",0,"I casi tipici. Un'anziana sonnolenta che a casa non era cosi': delirium ipoattivo. Una persona con demenza, agitata e con stipsi: la causa prima del sedativo."),
- (11,"chiaro",0,"Tremori e allucinazioni in seconda, terza giornata: astinenza alcolica. Un ittero a diciotto ore di vita: patologico, e si segnala subito. Un uomo con scompenso al terzo ricovero: aderenza, colloquio motivazionale, self-care."),
- (11,"chiaro",0,"La figlia che chiede se lo state facendo morire: spiegare la sedazione palliativa, con calma e chiarezza. E l'anziano non autosufficiente alla dimissione: COT, UVMD, scelta del setting."),
+ (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
+ (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
+ (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
 
- (12,"chiaro",0,"I fili con gli altri moduli. La CAM e la PAINAD con la lezione due punto tre. La contenzione con la tre punto uno. La disfagia con la tre punto tre. Il dolore con la tre punto sette e la cinque punto sei."),
- (12,"chiaro",0,"La legge duecentodiciannove con la uno punto sei. Gli stupefacenti con la cinque punto sette. Il PBLS e il parto con la dieci punto quattro."),
- (12,"chiaro",0,"La dimissione protetta con la nove punto sette. E il Servizio Socio Sanitario Veneto con il modulo tredici, dove ritroveremo UVMD, Centri di Servizi e Azienda Zero."),
+ (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
+ (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
 
- (13,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. E disegna a memoria la mappa dei servizi, senza guardare: se riesci a collocare ogni bisogno nel suo luogo, il modulo e' tuo."),
- (13,"chiaro",0,"Nel quaderno: la procedura del TSO con i tempi, gli standard del DM settantasette, le tabelle delirium, demenza, depressione e sedazione, eutanasia. E scrivi due casi: il delirium ipoattivo e la dimissione protetta."),
+ (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
+ (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
 
- (14,"profondo",1.2,"[serious] La persona giusta, nel posto giusto, al momento giusto."),
- (14,"chiaro",0,"Conoscere la rete dei servizi e' una competenza clinica. Perche' il setting sbagliato, un ricovero inutile, una dimissione senza supporto, e' esso stesso un rischio."),
- (14,"chiaro",0,"E l'infermiere e' spesso il primo a vedere che il posto non e' quello giusto: in reparto, a domicilio, al telefono della COT."),
+ (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
+ (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo cambiamo prospettiva: l'organizzazione dei servizi sanitari, e la normativa nazionale sul Servizio Sanitario e sul pubblico impiego."),
- (15,"chiaro",0,"E la sicurezza sul lavoro, con il decreto legislativo ottantuno del duemilaotto: la salute di chi cura. Ci vediamo li'."),
+ (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
+ (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
 ]
-CAPITOLI = {1:"Apertura",2:"L'anziano fragile",3:"La persona con demenza",4:"La salute mentale",5:"L'area materno-infantile",6:"Le cure palliative",
- 7:"La cronicita'",8:"Il territorio",9:"La mappa dei servizi",10:"Le confusioni che costano piu' punti",11:"I casi tipici",12:"Il filo con gli altri moduli",
- 13:"Come proseguire",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
+ 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
+ 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

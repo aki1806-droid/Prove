@@ -1,0 +1,49 @@
+Esistono poi forme volontarie. L'accreditamento all'eccellenza, rilasciato da enti nazionali o internazionali, come la Joint Commission International, e basato su standard di qualita' e sicurezza.
+
+E la certificazione ISO novemilauno, che attesta la conformita' di un sistema di gestione della qualita' a una norma internazionale.
+
+Sono strumenti volontari, diversi dall'accreditamento istituzionale. Quello, invece, e' obbligatorio per lavorare per il Servizio Sanitario Nazionale.
+
+Il governo clinico, o clinical governance: il sistema con cui le organizzazioni sanitarie si rendono responsabili del miglioramento continuo della qualita', e della tutela di standard elevati.
+
+Mette insieme strumenti che hai gia' incontrato. Le linee guida e le evidenze. L'audit clinico. La gestione del rischio clinico, della lezione due punto sei. La formazione continua, cioe' l'ECM.
+
+Poi gli indicatori, il coinvolgimento dei pazienti, e l'HTA. E tutto si basa su una responsabilita' condivisa fra la direzione e i professionisti.
+
+L'audit clinico e' il confronto sistematico della pratica con standard espliciti. Le fasi: si sceglie un tema e uno standard, si raccolgono i dati, si confrontano con lo standard.
+
+Poi si definiscono le azioni di miglioramento. E si ripete la misurazione, il re-audit, per verificare che il cambiamento ci sia stato davvero.
+
+Un esempio. Lo standard dice che il dolore va valutato e registrato per tutti i pazienti. Quanti lo hanno davvero in cartella? Diverso e' l'audit su un evento, che analizza un singolo caso, come nella lezione due punto sei.
+
+L'HTA, Health Technology Assessment: la valutazione multidisciplinare delle tecnologie sanitarie. Farmaci, dispositivi, procedure, modelli organizzativi.
+
+Considera l'efficacia, la sicurezza, i costi, e l'impatto organizzativo, etico e sociale. Serve a decidere se adottare una tecnologia, e come.
+
+Coinvolge anche gli infermieri: per esempio nella scelta delle medicazioni avanzate, o dei dispositivi di sicurezza per i taglienti.
+
+[curious] Ora la domanda tipo d'esame: proponga un indicatore di struttura, uno di processo e uno di esito per la prevenzione delle cadute in reparto.
+
+Struttura: la disponibilita' di letti ad altezza variabile, e di campanelli a portata di mano. Sono le risorse che rendono possibile la prevenzione.
+
+Processo: la percentuale di pazienti valutati con una scala del rischio di caduta entro ventiquattro ore dall'ingresso. Misura come lavora il reparto, non che cosa possiede.
+
+Esito: il numero di cadute per mille giornate di degenza, e il numero di cadute con danno. E' il risultato che conta davvero per il paziente.
+
+Poi aggiungi come li useresti, con un ciclo PDCA: pianifichi, realizzi, verifichi con gli indicatori, e standardizzi o correggi. E' una risposta che dimostra metodo.
+
+La qualita' percepita e la partecipazione. I questionari di soddisfazione e, sempre piu', di esperienza del paziente. I reclami e le segnalazioni raccolti dall'URP, l'Ufficio relazioni con il pubblico.
+
+La Carta dei servizi, che dichiara gli impegni dell'azienda verso i cittadini. Il coinvolgimento delle associazioni dei pazienti. Perche' la voce del paziente e' un dato di qualita', non solo un'opinione.
+
+In Veneto autorizzazione e accreditamento sono disciplinati dalla legge regionale ventidue del duemiladue, con verifiche e rinnovi periodici delle strutture.
+
+E la Regione utilizza sistemi di valutazione delle performance delle aziende, insieme ai dati del Programma Nazionale Esiti. Sono gli stessi strumenti di questa lezione, applicati alla regione in cui lavorerai.
+
+La tabella. Le dimensioni della qualita'. Donabedian: struttura, processo, esito. Il PDCA di Deming: plan, do, check, act. Gli indicatori, validi, affidabili, sensibili e specifici, e lo standard.
+
+Il PNE dell'AGENAS. Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. Il governo clinico, l'audit con il re-audit, l'HTA.
+
+[serious] Cio' che non si misura non si puo' migliorare.
+
+[warm] Nella prossima lezione ricomponiamo tutto il modulo dodici con la tabella fonte, contenuto, anno: il modo piu' efficace per memorizzare le norme. A tra poco.

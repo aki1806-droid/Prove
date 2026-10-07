@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il Servizio Sanitario Nazionale e' nato nel millenovecentosettantotto. Negli anni Novanta e' stato profondamente riformato, e quelle riforme hanno disegnato l'organizzazione in cui lavorerai."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Hanno introdotto le aziende sanitarie, il direttore generale, l'accreditamento, il distretto. E poi i LEA, i livelli essenziali di assistenza: il cuore di cio' che il sistema deve garantire a ogni cittadino."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima grande riforma e' il decreto legislativo cinquecentodue del millenovecentonovantadue, modificato l'anno dopo dal decreto legislativo cinquecentodiciassette del millenovecentonovantatre'."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La parola chiave e' aziendalizzazione."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le Unita' Sanitarie Locali diventano aziende, con personalita' giuridica pubblica e con autonomia organizzativa, amministrativa e gestionale. E' questo il senso della parola aziendalizzazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche i grandi ospedali possono diventare aziende a se': le aziende ospedaliere, autonome. Accanto all'azienda del territorio nasce cosi' l'azienda dell'ospedale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al vertice di ogni azienda c'e' il direttore generale, nominato dalla Regione. Lo affiancano due figure: il direttore sanitario e il direttore amministrativo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cresce il ruolo delle Regioni. E si avvia il pagamento delle prestazioni a tariffa, con i DRG, che vedremo nella lezione dodici punto quattro, dedicata al finanziamento."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda tappa e' il decreto legislativo duecentoventinove del millenovecentonovantanove, la cosiddetta riforma Bindi. Introduce o rafforza sei elementi, che vediamo uno per volta."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il distretto, come articolazione territoriale dell'azienda. E' il luogo della continuita' assistenziale che hai visto nel modulo undici."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo, l'accreditamento istituzionale: le strutture pubbliche e private possono erogare prestazioni per il Servizio Sanitario Nazionale solo se possiedono i requisiti, e con accordi contrattuali."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il rapporto di esclusivita' dei dirigenti sanitari. E l'integrazione socio-sanitaria: il sanitario e il sociale che lavorano insieme, sulla stessa persona."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I livelli essenziali di assistenza, i LEA, diventano il cardine del sistema. Li riprendiamo fra poco, perche' sono la seconda meta' di questa lezione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E infine l'atto aziendale, un atto di diritto privato: il documento con cui ogni azienda definisce la propria organizzazione. Ci torneremo nella prossima lezione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tappe in una riga, da ricordare con gli anni. Millenovecentosettantotto: con la legge ottocentotrentatre' nasce il Servizio Sanitario Nazionale."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Millenovecentonovantadue e novantatre': l'aziendalizzazione, con i decreti cinquecentodue e cinquecentodiciassette. Millenovecentonovantanove: distretto, accreditamento, esclusivita', LEA."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Duemilauno: la riforma del Titolo V, che fa della salute una materia concorrente fra Stato e Regioni. E' la sequenza che un commissario si aspetta di sentire."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I LEA, i livelli essenziali di assistenza: sono le prestazioni e i servizi che il Servizio Sanitario Nazionale e' tenuto a garantire a tutti i cittadini."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gratuitamente, oppure con una quota di partecipazione, il ticket. E con le risorse pubbliche raccolte attraverso la fiscalita' generale."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono definiti a livello nazionale. Le Regioni possono garantire livelli ulteriori, ma con risorse proprie: il livello essenziale e' lo stesso per tutti, il resto si aggiunge sopra."
+ },
+ {
+  "id": "s22",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono la traduzione concreta dell'articolo trentadue della Costituzione, e del principio di uguaglianza della legge ottocentotrentatre'."
+ },
+ {
+  "id": "s23",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I LEA vigenti sono definiti dal DPCM del dodici gennaio duemiladiciassette, che ha sostituito quello del ventinove novembre duemilauno. Li organizza in tre grandi livelli."
+ },
+ {
+  "id": "s24",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo livello: prevenzione collettiva e sanita' pubblica. Vaccinazioni, screening, sicurezza alimentare, tutela della salute nei luoghi di lavoro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo livello: assistenza distrettuale. Medicina di base, farmaceutica, specialistica ambulatoriale, assistenza domiciliare, residenziale e semiresidenziale."
+ },
+ {
+  "id": "s26",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo livello: assistenza ospedaliera. Pronto soccorso, ricovero ordinario e diurno, riabilitazione. Prevenzione, distretto, ospedale: tre parole per ricordarli."
+ },
+ {
+  "id": "s27",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il DPCM comprende anche i nomenclatori, gli elenchi delle malattie rare e delle malattie croniche che danno diritto all'esenzione, e lo screening neonatale esteso della lezione undici punto quattro."
+ },
+ {
+  "id": "s28",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I LEA non sono fissi. Una Commissione nazionale ne propone l'aggiornamento, in base alle evidenze. Un passaggio importante e' arrivato alla fine del duemilaventiquattro."
+ },
+ {
+  "id": "s29",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono entrati in vigore i nuovi nomenclatori della specialistica ambulatoriale e dell'assistenza protesica, previsti dal DPCM del duemiladiciassette, con le relative tariffe."
+ },
+ {
+  "id": "s30",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola di studio: i LEA sono un elenco che cambia. Per il concorso conta il quadro generale, cioe' i tre livelli e il loro contenuto."
+ },
+ {
+  "id": "s31",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come si verifica che i LEA siano davvero garantiti? Con il Nuovo Sistema di Garanzia, previsto dal decreto ministeriale del dodici marzo duemiladiciannove e applicato dal duemilaventi."
+ },
+ {
+  "id": "s32",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha sostituito la griglia LEA. Usa indicatori per prevenzione, distrettuale e ospedaliera: una Regione e' adempiente se raggiunge la soglia in tutte e tre. Il Veneto e' stabilmente fra le migliori."
+ },
+ {
+  "id": "s33",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ticket e' una quota di partecipazione alla spesa. Si applica soprattutto alla specialistica e alla diagnostica, in alcune Regioni anche alla farmaceutica."
+ },
+ {
+  "id": "s34",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E al pronto soccorso, per gli accessi a bassa priorita' non seguiti da ricovero. Le esenzioni sono previste per eta' e reddito, per malattie croniche e invalidanti, per malattie rare."
+ },
+ {
+  "id": "s35",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per invalidita', per la gravidanza, e per le prestazioni di prevenzione come gli screening. Importi e regole sono definiti anche dalle Regioni, e cambiano: per l'esame contano i principi, non le cifre."
+ },
+ {
+  "id": "s36",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un concetto che attraversa i LEA: l'appropriatezza. Una prestazione e' appropriata quando e' efficace e indicata per quel paziente: e' l'appropriatezza clinica."
+ },
+ {
+  "id": "s37",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E quando e' erogata nel setting giusto, senza consumare risorse inutili: e' l'appropriatezza organizzativa. Un ricovero per una prestazione che si puo' fare in ambulatorio e' inappropriato."
+ },
+ {
+  "id": "s38",
+  "capitolo": 10,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] I LEA garantiscono le prestazioni appropriate, non tutto cio' che e' tecnicamente possibile."
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] La domanda tipo: che cosa sono i LEA, da quale atto sono definiti, come si articolano? E come si verifica che siano garantiti?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono le prestazioni che il sistema garantisce a tutti, gratis o con ticket. Li definisce il DPCM del dodici gennaio duemiladiciassette. Tre livelli. Li verifica il Nuovo Sistema di Garanzia. Quattro punti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le figure di vertice introdotte dalle riforme. Il direttore generale ha la rappresentanza legale e la responsabilita' della gestione, e nomina gli altri direttori."
+ },
+ {
+  "id": "s42",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il direttore sanitario, responsabile del governo clinico e dell'organizzazione sanitaria. Il direttore amministrativo. E in Veneto, per l'integrazione socio-sanitaria, il direttore dei servizi socio-sanitari."
+ },
+ {
+  "id": "s43",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli organi dell'azienda sono tre: il direttore generale, il collegio sindacale, che controlla la regolarita' contabile, e il collegio di direzione. Li vedremo nella prossima lezione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' all'infermiere servono queste norme? Perche' l'accreditamento fissa i requisiti, anche di personale, che la tua struttura deve rispettare. E i LEA dicono che cosa il paziente ha diritto di ricevere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il distretto e' il luogo della continuita' assistenziale del modulo undici. E l'atto aziendale stabilisce dove si colloca il servizio delle professioni sanitarie."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto le riforme sono diventate Aziende ULSS, Aziende Ospedaliere Universitarie, un IRCCS e Azienda Zero. L'accreditamento e' regolato dalla legge regionale ventidue del duemiladue, che vedremo nel modulo tredici."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Cinquecentodue e cinquecentodiciassette: aziendalizzazione, direttore generale, aziende ospedaliere. Duecentoventinove del novantanove: distretto, accreditamento, esclusivita', integrazione, atto aziendale."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "LEA: DPCM del dodici gennaio duemiladiciassette, tre livelli. Nuovo Sistema di Garanzia: dodici marzo duemiladiciannove. Ticket ed esenzioni. Appropriatezza clinica e organizzativa."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione entriamo dentro l'azienda: l'atto aziendale, i dipartimenti, gli standard ospedalieri del DM settanta del duemilaquindici, i modelli organizzativi dell'assistenza infermieristica. A tra poco."
+ }
+]

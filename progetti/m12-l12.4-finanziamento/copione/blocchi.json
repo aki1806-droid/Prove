@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le risorse della sanita' sono pubbliche, e sono limitate. Capire da dove arrivano e come vengono distribuite aiuta a capire molte cose che vedi ogni giorno in reparto."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' un'azienda definisce un budget, perche' si misura la durata della degenza, perche' si parla di appropriatezza. E l'infermiere gestisce ogni giorno tempo, materiali, farmaci, posti letto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono tutte risorse, e le scelte dell'infermiere su ciascuna di queste hanno anche un peso economico. Vediamo allora da dove arrivano i soldi, e dove vanno."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le risorse del Servizio Sanitario Nazionale vengono soprattutto dalla fiscalita' generale: imposte nazionali e regionali, come l'IRAP e l'addizionale regionale all'IRPEF, e una compartecipazione all'IVA."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A queste si aggiungono le entrate proprie delle aziende sanitarie: i ticket pagati dai cittadini, e l'attivita' libero-professionale."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni anno lo Stato fissa, con la legge di bilancio, il fabbisogno sanitario nazionale standard: la somma complessiva destinata al finanziamento del Servizio Sanitario Nazionale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fondo viene poi ripartito fra le Regioni, con un'intesa in Conferenza Stato-Regioni. Il criterio principale e' la popolazione pesata per eta', perche' una popolazione piu' anziana consuma piu' risorse."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A questo si aggiungono altri indicatori. E con il decreto legislativo sessantotto del duemilaundici sono arrivati i costi standard, che prendono come riferimento le Regioni piu' efficienti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono le cosiddette regioni benchmark, e il Veneto e' stato piu' volte fra queste. Le Regioni, a loro volta, ripartiscono poi le risorse fra le proprie aziende sanitarie."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora il cuore della lezione: i DRG, Diagnosis Related Groups. Un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni ricovero viene attribuito a un DRG in base alla diagnosi principale, agli interventi, all'eta', alle complicanze e alla modalita' di dimissione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono informazioni prese dalla scheda di dimissione ospedaliera, la SDO. E a ogni DRG corrisponde una tariffa. La catena da ricordare e': SDO, DRG, tariffa."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Introdotti in Italia dalla meta' degli anni Novanta, i DRG hanno sostituito il finanziamento a pie' di lista, basato sulla spesa storica, con un pagamento per prestazione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti. I DRG incentivano l'efficienza e la riduzione della degenza media, perche' la tariffa e' fissa, indipendentemente dai giorni di ricovero."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma comportano dei rischi: dimissioni precoci, selezione dei casi piu' convenienti, codifiche opportunistiche, frammentazione dei ricoveri. Per questo esistono i controlli di appropriatezza sulle SDO."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La SDO deve essere completa e accurata."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E qui entra l'infermiere: una documentazione infermieristica precisa, per esempio di una lesione da pressione o di un'infezione, contribuisce a descrivere correttamente la complessita' del ricovero."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fuori dal ricovero, l'attivita' di specialistica ambulatoriale e' remunerata secondo i nomenclatori tariffari, che elencano le prestazioni con la loro tariffa."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I nuovi nomenclatori previsti dai LEA del duemiladiciassette sono entrati in vigore alla fine del duemilaventiquattro. E le Regioni possono definire tariffe proprie, entro i limiti nazionali."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dentro l'azienda, lo strumento di gestione e' il budget: la direzione negozia con ogni struttura gli obiettivi, di attivita', qualita', appropriatezza e costi, e le risorse per l'anno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il controllo di gestione ne monitora l'andamento durante l'anno, attraverso i centri di costo, gli indicatori e i report periodici."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli obiettivi di budget si collegano alla valutazione della performance, e quindi a una parte della retribuzione. Anche l'infermiere partecipa: per esempio con obiettivi sulla prevenzione delle cadute o delle lesioni."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La spesa farmaceutica e' soggetta a tetti fissati per legge, espressi in percentuale del fabbisogno sanitario. Le percentuali cambiano spesso con le leggi di bilancio: conta il meccanismo."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tetti sono distinti: la spesa convenzionata, cioe' quella delle farmacie, e la spesa per acquisti diretti, cioe' l'ospedale e la distribuzione diretta e per conto."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se i tetti vengono superati, scattano i meccanismi di payback, a carico delle aziende farmaceutiche. E l'AIFA classifica i farmaci e ne negozia il prezzo."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli strumenti di contenimento: i farmaci equivalenti, i biosimilari, e la centralizzazione degli acquisti, che in Veneto e' affidata ad Azienda Zero."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I piani di rientro riguardano le Regioni con disavanzi sanitari strutturali. La Regione sottoscrive un accordo con i Ministeri della Salute e dell'Economia, e adotta misure di riequilibrio."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riorganizzazione, riduzione dei costi, aumento delle imposte regionali. Nei casi piu' gravi, il commissariamento della sanita' regionale. Da ricordare: il Veneto non e' sottoposto a piano di rientro."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il PNRR, il Piano Nazionale di Ripresa e Resilienza, con la Missione sei, dedicata alla salute. Vale circa quindici virgola sei miliardi, ed e' divisa in due componenti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima: reti di prossimita', strutture e telemedicina per l'assistenza territoriale. Case della Comunita', COT, Ospedali di Comunita', assistenza domiciliare, telemedicina."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono gli strumenti del DM settantasette, visti nella lezione undici punto sette. La seconda: innovazione, ricerca e digitalizzazione. Ammodernamento degli ospedali, Fascicolo Sanitario Elettronico, formazione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Un punto che si sente spesso nei dibattiti: il PNRR finanzia soprattutto investimenti, cioe' strutture e tecnologie. Il personale che le fa funzionare va pagato con le risorse ordinarie."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre parole da distinguere. Efficacia: raggiungere il risultato di salute. Efficienza: il rapporto fra le risorse impiegate e i risultati ottenuti. Economicita': l'equilibrio fra costi e ricavi nel tempo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non sono in contrapposizione con la qualita'. In un sistema con risorse limitate, ogni spreco ha un prezzo, e quel prezzo non lo paga un'astrazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Lo spreco toglie risorse ad altri pazienti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dispositivo aperto e non usato, un esame ripetuto senza motivo, una degenza prolungata per un'organizzazione inefficiente: sono tutti costi per la collettivita'."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] La domanda tipo: che cosa sono i DRG, e quali effetti hanno sull'organizzazione dell'assistenza? Proviamo a rispondere come all'orale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse, basato sui dati della SDO, a cui corrisponde una tariffa. Hanno sostituito il finanziamento a pie' di lista."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Incentivano l'efficienza e la riduzione della degenza media, ma possono favorire dimissioni precoci, e per questo richiedono controlli di appropriatezza."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il collegamento infermieristico: dimissioni piu' rapide richiedono una pianificazione precoce della dimissione, e una continuita' con il territorio, come nella lezione nove punto sette."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere e le risorse. Prima di tutto, l'uso appropriato di dispositivi e materiali. Poi la prevenzione degli eventi avversi."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una lesione da pressione, una caduta con frattura, un'infezione da catetere: sono sofferenza per il paziente, e sono anche costi evitabili, spesso molto alti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la documentazione accurata, la gestione delle scorte, la partecipazione agli obiettivi di budget. E il Codice deontologico, che richiama l'infermiere a un uso responsabile delle risorse."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto la gestione sanitaria accentrata, cioe' la parte del finanziamento gestita direttamente a livello regionale, e' affidata ad Azienda Zero, che gestisce anche gli acquisti centralizzati."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo fa attraverso la CRAV, la Centrale Regionale Acquisti. E il Veneto e' stato piu' volte fra le regioni di riferimento per i costi standard. Lo vedremo nella lezione tredici punto due."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella, da fotografare. Fiscalita' generale. Fabbisogno sanitario nazionale standard. Riparto per popolazione pesata. Costi standard e regioni benchmark. DRG: ricoveri, SDO, tariffa."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Budget e controllo di gestione. Tetti di spesa farmaceutica e payback. Piani di rientro. PNRR Missione sei, con due componenti. Efficacia, efficienza, economicita'."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Prossima lezione: il rapporto di lavoro dell'infermiere dipendente pubblico. Il contratto collettivo del Comparto Sanita', gli obblighi di comportamento, l'anticorruzione, il procedimento disciplinare. A tra poco."
+ }
+]

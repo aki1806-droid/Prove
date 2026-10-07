@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Che cosa significa che un ospedale lavora bene? Come si misura, e come si migliora? Questa lezione ti da' gli strumenti per rispondere."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I modelli della qualita', il ciclo del miglioramento continuo, gli indicatori, l'accreditamento, il governo clinico. Concetti che ritrovi nei quiz, e che collegano la pratica di tutti i giorni all'organizzazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La qualita' in sanita' ha piu' dimensioni. Efficacia, sicurezza, appropriatezza, equita' e accessibilita', tempestivita', efficienza, e centralita' della persona."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si guarda da tre punti di vista. Il primo e' la qualita' tecnico-professionale, cioe' fare le cose giuste nel modo giusto. Il secondo e' la qualita' organizzativa."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' la qualita' percepita dal paziente, che si misura per esempio con i questionari di gradimento o di esperienza. Ci torniamo verso la fine della lezione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il modello piu' classico e' quello di Donabedian, con tre dimensioni. La struttura: le risorse, cioe' il personale, gli ambienti, le tecnologie, l'organizzazione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il processo: le attivita' svolte, cioe' come si lavora. E l'esito: il risultato di salute, quello che in inglese si chiama outcome. Risorse, attivita', risultati."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio sulle lesioni da pressione. Indicatore di struttura: la disponibilita' di superfici antidecubito. Indicatore di processo: la percentuale di pazienti valutati con la Braden all'ingresso."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Indicatore di esito: l'incidenza di nuove lesioni. Struttura, processo, esito: e' uno schema utilissimo all'orale, e lo ritroviamo nel caso d'esame."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ciclo PDCA, o ciclo di Deming, e' lo strumento del miglioramento continuo. Plan: pianificare, cioe' analizzare il problema, fissare un obiettivo, definire le azioni."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Do: realizzare le azioni. Check: verificare i risultati con gli indicatori. Act: se funziona, si standardizza; se non funziona, si corregge."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi si ricomincia. Il ciclo non si chiude mai su se stesso: ogni giro parte dal risultato del precedente. E' proprio questo il miglioramento continuo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio. Le cadute notturne sono aumentate. Si introduce un giro di controllo con il bagno assistito, si misura l'incidenza per tre mesi, e se cala si inserisce nella procedura."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli indicatori: variabili misurabili che descrivono un fenomeno, e che permettono confronti e decisioni. I tipi sono quelli di Donabedian: struttura, processo, esito."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un buon indicatore e' valido, cioe' misura cio' che deve misurare. E' affidabile, cioe' da' lo stesso risultato a parita' di condizioni. E' sensibile e specifico, rilevante e fattibile."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da solo, un indicatore dice poco: si confronta con uno standard, cioe' un valore di riferimento. Ed e' il confronto con lo standard che permette di decidere se, e dove, intervenire."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Indicatori tipicamente infermieristici: le cadute per mille giornate di degenza, le lesioni da pressione, le infezioni da catetere, e l'aderenza all'igiene delle mani della lezione quattro punto due."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Programma Nazionale Esiti, il PNE, e' gestito dall'AGENAS, l'Agenzia nazionale per i servizi sanitari regionali. Valuta gli esiti delle cure negli ospedali italiani."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con indicatori come la mortalita' a trenta giorni dopo un infarto, i tagli cesarei, e la percentuale di fratture di femore operate entro quarantotto ore, che hai visto nella lezione nove punto sei."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Usa i dati delle SDO, le schede di dimissione ospedaliera, e permette di confrontare le strutture. E' uno strumento di miglioramento, non una classifica punitiva."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ora due livelli da non confondere. Il primo e' l'autorizzazione all'esercizio: per poter operare, una struttura sanitaria, pubblica o privata, deve avere requisiti minimi strutturali, tecnologici e organizzativi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' l'accreditamento istituzionale. Per erogare prestazioni per conto del Servizio Sanitario Nazionale servono requisiti ulteriori di qualita', e poi gli accordi contrattuali con la Regione o l'azienda."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo prevede il decreto legislativo cinquecentodue del millenovecentonovantadue, come modificato dal duecentoventinove del millenovecentonovantanove. In Veneto lo approfondiremo nella lezione tredici punto sei."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esistono poi forme volontarie. L'accreditamento all'eccellenza, rilasciato da enti nazionali o internazionali, come la Joint Commission International, e basato su standard di qualita' e sicurezza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la certificazione ISO novemilauno, che attesta la conformita' di un sistema di gestione della qualita' a una norma internazionale."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono strumenti volontari, diversi dall'accreditamento istituzionale. Quello, invece, e' obbligatorio per lavorare per il Servizio Sanitario Nazionale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il governo clinico, o clinical governance: il sistema con cui le organizzazioni sanitarie si rendono responsabili del miglioramento continuo della qualita', e della tutela di standard elevati."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mette insieme strumenti che hai gia' incontrato. Le linee guida e le evidenze. L'audit clinico. La gestione del rischio clinico, della lezione due punto sei. La formazione continua, cioe' l'ECM."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi gli indicatori, il coinvolgimento dei pazienti, e l'HTA. E tutto si basa su una responsabilita' condivisa fra la direzione e i professionisti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'audit clinico e' il confronto sistematico della pratica con standard espliciti. Le fasi: si sceglie un tema e uno standard, si raccolgono i dati, si confrontano con lo standard."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si definiscono le azioni di miglioramento. E si ripete la misurazione, il re-audit, per verificare che il cambiamento ci sia stato davvero."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio. Lo standard dice che il dolore va valutato e registrato per tutti i pazienti. Quanti lo hanno davvero in cartella? Diverso e' l'audit su un evento, che analizza un singolo caso, come nella lezione due punto sei."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'HTA, Health Technology Assessment: la valutazione multidisciplinare delle tecnologie sanitarie. Farmaci, dispositivi, procedure, modelli organizzativi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Considera l'efficacia, la sicurezza, i costi, e l'impatto organizzativo, etico e sociale. Serve a decidere se adottare una tecnologia, e come."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Coinvolge anche gli infermieri: per esempio nella scelta delle medicazioni avanzate, o dei dispositivi di sicurezza per i taglienti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Ora la domanda tipo d'esame: proponga un indicatore di struttura, uno di processo e uno di esito per la prevenzione delle cadute in reparto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Struttura: la disponibilita' di letti ad altezza variabile, e di campanelli a portata di mano. Sono le risorse che rendono possibile la prevenzione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Processo: la percentuale di pazienti valutati con una scala del rischio di caduta entro ventiquattro ore dall'ingresso. Misura come lavora il reparto, non che cosa possiede."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esito: il numero di cadute per mille giornate di degenza, e il numero di cadute con danno. E' il risultato che conta davvero per il paziente."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi aggiungi come li useresti, con un ciclo PDCA: pianifichi, realizzi, verifichi con gli indicatori, e standardizzi o correggi. E' una risposta che dimostra metodo."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La qualita' percepita e la partecipazione. I questionari di soddisfazione e, sempre piu', di esperienza del paziente. I reclami e le segnalazioni raccolti dall'URP, l'Ufficio relazioni con il pubblico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Carta dei servizi, che dichiara gli impegni dell'azienda verso i cittadini. Il coinvolgimento delle associazioni dei pazienti. Perche' la voce del paziente e' un dato di qualita', non solo un'opinione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto autorizzazione e accreditamento sono disciplinati dalla legge regionale ventidue del duemiladue, con verifiche e rinnovi periodici delle strutture."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la Regione utilizza sistemi di valutazione delle performance delle aziende, insieme ai dati del Programma Nazionale Esiti. Sono gli stessi strumenti di questa lezione, applicati alla regione in cui lavorerai."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Le dimensioni della qualita'. Donabedian: struttura, processo, esito. Il PDCA di Deming: plan, do, check, act. Gli indicatori, validi, affidabili, sensibili e specifici, e lo standard."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il PNE dell'AGENAS. Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. Il governo clinico, l'audit con il re-audit, l'HTA."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] Cio' che non si misura non si puo' migliorare."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione ricomponiamo tutto il modulo dodici con la tabella fonte, contenuto, anno: il modo piu' efficace per memorizzare le norme. A tra poco."
+ }
+]

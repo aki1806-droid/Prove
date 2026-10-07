@@ -1,0 +1,45 @@
+[warm] Che cosa significa che un ospedale lavora bene? Come si misura, e come si migliora? Questa lezione ti da' gli strumenti per rispondere.
+
+I modelli della qualita', il ciclo del miglioramento continuo, gli indicatori, l'accreditamento, il governo clinico. Concetti che ritrovi nei quiz, e che collegano la pratica di tutti i giorni all'organizzazione.
+
+La qualita' in sanita' ha piu' dimensioni. Efficacia, sicurezza, appropriatezza, equita' e accessibilita', tempestivita', efficienza, e centralita' della persona.
+
+E si guarda da tre punti di vista. Il primo e' la qualita' tecnico-professionale, cioe' fare le cose giuste nel modo giusto. Il secondo e' la qualita' organizzativa.
+
+Il terzo e' la qualita' percepita dal paziente, che si misura per esempio con i questionari di gradimento o di esperienza. Ci torniamo verso la fine della lezione.
+
+Il modello piu' classico e' quello di Donabedian, con tre dimensioni. La struttura: le risorse, cioe' il personale, gli ambienti, le tecnologie, l'organizzazione.
+
+Il processo: le attivita' svolte, cioe' come si lavora. E l'esito: il risultato di salute, quello che in inglese si chiama outcome. Risorse, attivita', risultati.
+
+Un esempio sulle lesioni da pressione. Indicatore di struttura: la disponibilita' di superfici antidecubito. Indicatore di processo: la percentuale di pazienti valutati con la Braden all'ingresso.
+
+Indicatore di esito: l'incidenza di nuove lesioni. Struttura, processo, esito: e' uno schema utilissimo all'orale, e lo ritroviamo nel caso d'esame.
+
+Il ciclo PDCA, o ciclo di Deming, e' lo strumento del miglioramento continuo. Plan: pianificare, cioe' analizzare il problema, fissare un obiettivo, definire le azioni.
+
+Do: realizzare le azioni. Check: verificare i risultati con gli indicatori. Act: se funziona, si standardizza; se non funziona, si corregge.
+
+E poi si ricomincia. Il ciclo non si chiude mai su se stesso: ogni giro parte dal risultato del precedente. E' proprio questo il miglioramento continuo.
+
+Un esempio. Le cadute notturne sono aumentate. Si introduce un giro di controllo con il bagno assistito, si misura l'incidenza per tre mesi, e se cala si inserisce nella procedura.
+
+Gli indicatori: variabili misurabili che descrivono un fenomeno, e che permettono confronti e decisioni. I tipi sono quelli di Donabedian: struttura, processo, esito.
+
+Un buon indicatore e' valido, cioe' misura cio' che deve misurare. E' affidabile, cioe' da' lo stesso risultato a parita' di condizioni. E' sensibile e specifico, rilevante e fattibile.
+
+Da solo, un indicatore dice poco: si confronta con uno standard, cioe' un valore di riferimento. Ed e' il confronto con lo standard che permette di decidere se, e dove, intervenire.
+
+Indicatori tipicamente infermieristici: le cadute per mille giornate di degenza, le lesioni da pressione, le infezioni da catetere, e l'aderenza all'igiene delle mani della lezione quattro punto due.
+
+Il Programma Nazionale Esiti, il PNE, e' gestito dall'AGENAS, l'Agenzia nazionale per i servizi sanitari regionali. Valuta gli esiti delle cure negli ospedali italiani.
+
+Con indicatori come la mortalita' a trenta giorni dopo un infarto, i tagli cesarei, e la percentuale di fratture di femore operate entro quarantotto ore, che hai visto nella lezione nove punto sei.
+
+Usa i dati delle SDO, le schede di dimissione ospedaliera, e permette di confrontare le strutture. E' uno strumento di miglioramento, non una classifica punitiva.
+
+[serious] Ora due livelli da non confondere. Il primo e' l'autorizzazione all'esercizio: per poter operare, una struttura sanitaria, pubblica o privata, deve avere requisiti minimi strutturali, tecnologici e organizzativi.
+
+Il secondo e' l'accreditamento istituzionale. Per erogare prestazioni per conto del Servizio Sanitario Nazionale servono requisiti ulteriori di qualita', e poi gli accordi contrattuali con la Regione o l'azienda.
+
+Lo prevede il decreto legislativo cinquecentodue del millenovecentonovantadue, come modificato dal duecentoventinove del millenovecentonovantanove. In Veneto lo approfondiremo nella lezione tredici punto sei.
