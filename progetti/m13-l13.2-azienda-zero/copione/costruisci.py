@@ -4,72 +4,72 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Il bando che stai preparando porta un'intestazione: Azienda Zero. Ma che cos'e', esattamente? Non e' un ospedale, e non ha pazienti."),
+ (1,"chiaro",0,"E' l'ente che governa e centralizza alcune funzioni dell'intero sistema sanitario veneto. Conoscerlo e' una domanda d'orale probabile, e ti aiuta a capire come funziona il concorso stesso."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Il nome completo e' lungo: Azienda per il governo della sanita' della Regione del Veneto. Azienda Zero e' il nome breve, quello che trovi in testa al bando e che sentirai usare dalla commissione."),
+ (2,"chiaro",0,"E' stata istituita dalla legge regionale diciannove del venticinque ottobre duemilasedici. La stessa legge che, come hai visto nella lezione tredici punto uno, ha ridotto le ULSS da ventuno a nove."),
+ (2,"chiaro",0,"E' un ente del Servizio Sanitario Regionale, con personalita' giuridica di diritto pubblico. E con autonomia amministrativa, patrimoniale, organizzativa, tecnica e contabile."),
+ (2,"chiaro",0,"Nell'esercizio delle sue funzioni e' soggetta al coordinamento dell'Area Sanita' e Sociale della Regione. Ed e' operativa dal duemiladiciassette, lo stesso anno in cui nascono le nove nuove ULSS."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"[curious] Perche' proprio Zero? Perche' non eroga prestazioni ai pazienti. Si affianca alle aziende numerate del sistema come un livello di base, un livello che lavora per tutte."),
+ (3,"chiaro",0,"Accentra funzioni tecniche e amministrative che, se ogni azienda le svolgesse per conto suo, sarebbero ripetute tante volte quante sono le aziende, e sarebbero meno efficienti."),
+ (3,"chiaro",0,"Gli obiettivi sono quattro. L'uniformita' nel territorio regionale. Le economie di scala. Le competenze specializzate, concentrate in un solo ente. E la semplificazione."),
+ (3,"chiaro",0,"Il risultato: le aziende sanitarie possono concentrarsi sull'assistenza. E attenzione alla confusione piu' comune all'esame: Azienda Zero non eroga prestazioni ai pazienti, non cura nessuno."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"La prima funzione e' la Gestione Sanitaria Accentrata, la GSA. E' la gestione della parte del Fondo Sanitario Regionale che non viene assegnata direttamente alle aziende."),
+ (4,"chiaro",0,"La prevede la normativa nazionale sui bilanci sanitari, il decreto legislativo centodiciotto del duemilaundici. In Veneto, le funzioni e le responsabilita' della GSA sono state attribuite ad Azienda Zero."),
+ (4,"chiaro",0,"E accanto alla GSA, Azienda Zero supporta la Regione nella programmazione economico-finanziaria e nel controllo. Una parte importante dei conti della sanita' veneta, quindi, passa da qui."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"La seconda funzione: gli acquisti centralizzati. Ad Azienda Zero e' stata trasferita la CRAV, la Centrale Regionale Acquisti per la Regione del Veneto."),
+ (5,"chiaro",0,"La CRAV opera come soggetto aggregatore, secondo la normativa nazionale sulla centralizzazione degli acquisti pubblici. E bandisce gare regionali: farmaci, dispositivi medici, tecnologie, servizi."),
+ (5,"chiaro",0,"Perfino le ambulanze del centodiciotto. Gli effetti sono due: prezzi piu' bassi, perche' si compra per tutta la regione insieme, e la standardizzazione dei prodotti."),
+ (5,"chiaro",0,"Per l'infermiere significa che il catetere, la medicazione o la pompa che usi in reparto spesso e' stata scelta con una gara regionale. E che segnalare i problemi di un dispositivo serve a tutta la regione."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"La terza funzione e' quella che ti riguarda direttamente: il reclutamento del personale. Azienda Zero gestisce le procedure concorsuali e di selezione per conto delle aziende del servizio sanitario regionale."),
+ (6,"chiaro",0,"Lo fa con i concorsi unificati, cioe' aggregati, per i profili molto richiesti: gli infermieri, gli operatori socio-sanitari, e anche altri profili."),
+ (6,"chiaro",0,"Un unico bando e un'unica procedura, invece di tanti concorsi aziendali, con graduatorie che le aziende utilizzano secondo le regole del bando. Uniformita' e tempi piu' rapidi. E' il caso di questo concorso."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"[thoughtful] Che cosa significa per te, in pratica? Primo: leggi con attenzione il bando. I requisiti, le prove, i punteggi, le soglie. E' li' che trovi le regole della tua procedura."),
+ (7,"chiaro",0,"Secondo: verifica le modalita' di scelta dell'azienda o dell'ambito di assegnazione, e come viene usata la graduatoria. Su questi punti, il riferimento e' sempre il bando vigente."),
+ (7,"chiaro",0,"Terzo: segui le comunicazioni ufficiali sul sito di Azienda Zero. Sono l'unico canale valido per date e convocazioni, e una convocazione persa non si recupera chiedendo a un collega."),
+ (7,"chiaro",0,"E ricorda un dettaglio che all'orale fa la differenza: Azienda Zero gestisce la selezione, ma il tuo datore di lavoro sara' l'azienda in cui verrai assunto."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"Poi ci sono le altre funzioni, attribuite nel tempo. I sistemi informativi e la sanita' digitale, compreso il Fascicolo Sanitario Elettronico regionale."),
+ (8,"chiaro",0,"Il portale e le app con cui il cittadino veneto accede ai servizi digitali, Sanita' km zero, sono della Regione e gestiti con Azienda Zero. Li vedrai nella lezione tredici punto sette."),
+ (8,"chiaro",0,"La formazione. Gli affari legali e il contenzioso, con il patrocinio e la difesa delle aziende. E il supporto alla gestione del rischio e dei sinistri."),
+ (8,"chiaro",0,"Le funzioni epidemiologiche e i registri: il sistema epidemiologico regionale, il Registro Tumori del Veneto, i registri di patologia. Ne riparliamo nella lezione tredici punto sei."),
+ (8,"chiaro",0,"Il supporto al coordinamento di attivita' regionali, come l'emergenza-urgenza. La logistica e gli investimenti. E un punto di metodo: le funzioni sono definite e aggiornate dalla Giunta regionale."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"L'organizzazione. Azienda Zero ha un direttore generale nominato dalla Giunta regionale, come i direttori generali delle altre aziende. Lo affiancano un direttore amministrativo e un direttore sanitario."),
+ (9,"chiaro",0,"La sua organizzazione interna, con le unita' operative complesse e gli uffici, e' definita dall'atto aziendale, come per tutte le altre aziende. L'atto aziendale l'hai visto nella lezione dodici punto tre."),
+ (9,"chiaro",0,"E ogni anno la Giunta regionale approva gli indirizzi per la sua attivita', collegati alla programmazione socio-sanitaria. La Regione indirizza; Azienda Zero da' supporto tecnico e gestisce."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"Un modello osservato. Il Veneto ha scelto un ente di governance centralizzato, e altre Regioni ne hanno istituiti con funzioni simili. Il Piemonte, per esempio, ha creato una propria Azienda Zero."),
+ (10,"chiaro",0,"All'orale puoi mostrare spirito critico. La centralizzazione porta dei vantaggi: l'uniformita' e le economie. Ma pone anche delle sfide: la distanza dai territori, e i tempi decisionali."),
+ (10,"chiaro",0,"Saper dire tutte e due le cose ti distingue da chi ha solo imparato un elenco. Davanti a una commissione, un giudizio equilibrato vale piu' di un elogio."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"Il caso d'esame. La domanda tipo: che cos'e' Azienda Zero, e quali funzioni svolge? Una risposta ordinata parte dalla natura dell'ente, e poi passa alle sue funzioni."),
+ (11,"chiaro",0,"E' l'ente di governance della sanita' veneta, istituito dalla legge regionale diciannove del duemilasedici, con personalita' giuridica di diritto pubblico. Non eroga prestazioni ai pazienti."),
+ (11,"chiaro",0,"Svolge funzioni centralizzate per tutte le aziende: la gestione sanitaria accentrata, gli acquisti con la CRAV, il reclutamento del personale con i concorsi unificati."),
+ (11,"chiaro",0,"E poi i sistemi informativi e il Fascicolo Sanitario Elettronico, gli affari legali, la formazione, le funzioni epidemiologiche. In chiusura, un aggancio personale: e' l'ente che gestisce questo concorso."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"Il legame con il lavoro quotidiano. I dispositivi e i farmaci arrivano da gare regionali: segnalarne i difetti con la dispositivo-vigilanza migliora le gare successive."),
+ (12,"chiaro",0,"Il Fascicolo Sanitario Elettronico garantisce la continuita' delle informazioni sulla persona che assisti. E c'e' la formazione regionale, che passa anch'essa da Azienda Zero."),
+ (12,"chiaro",0,"E i dati epidemiologici, raccolti nei registri, orientano la programmazione. Senza dati, la programmazione va alla cieca."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"La tabella. Azienda per il governo della sanita' della Regione del Veneto. Legge regionale diciannove del duemilasedici, operativa dal duemiladiciassette."),
+ (13,"chiaro",0,"Ente del Servizio Sanitario Regionale, con personalita' giuridica di diritto pubblico, coordinato dall'Area Sanita' e Sociale. Direttore generale nominato dalla Giunta, con indirizzi annuali."),
+ (13,"chiaro",0,"Le funzioni: GSA, CRAV come soggetto aggregatore, concorsi unificati, sistemi informativi e FSE, formazione, affari legali, rischio e sinistri, epidemiologia e registri."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"profondo",1.2,"[serious] La frase della lezione. Azienda Zero non cura i pazienti, ma rende possibile che le altre aziende li curino meglio."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"chiaro",0,"[warm] Nella prossima lezione: la rete ospedaliera veneta, e il modello hub and spoke, che hai gia' incontrato nella lezione dodici punto tre."),
+ (15,"chiaro",0,"Poi il SUEM centodiciotto, e le reti per l'ictus, l'infarto, il trauma e le altre patologie tempo-dipendenti. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Che cos'e'",3:"Perche' Zero",4:"La Gestione Sanitaria Accentrata",5:"Gli acquisti centralizzati",6:"Il reclutamento del personale",
+ 7:"Che cosa significa per il candidato",8:"Le altre funzioni",9:"La direzione e l'atto aziendale",10:"Un modello osservato",
+ 11:"Il caso d'esame",12:"Il legame con il lavoro infermieristico",13:"La tabella",14:"La frase della lezione",15:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

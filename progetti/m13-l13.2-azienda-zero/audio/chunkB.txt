@@ -1,0 +1,47 @@
+Poi ci sono le altre funzioni, attribuite nel tempo. I sistemi informativi e la sanita' digitale, compreso il Fascicolo Sanitario Elettronico regionale.
+
+Il portale e le app con cui il cittadino veneto accede ai servizi digitali, Sanita' km zero, sono della Regione e gestiti con Azienda Zero. Li vedrai nella lezione tredici punto sette.
+
+La formazione. Gli affari legali e il contenzioso, con il patrocinio e la difesa delle aziende. E il supporto alla gestione del rischio e dei sinistri.
+
+Le funzioni epidemiologiche e i registri: il sistema epidemiologico regionale, il Registro Tumori del Veneto, i registri di patologia. Ne riparliamo nella lezione tredici punto sei.
+
+Il supporto al coordinamento di attivita' regionali, come l'emergenza-urgenza. La logistica e gli investimenti. E un punto di metodo: le funzioni sono definite e aggiornate dalla Giunta regionale.
+
+L'organizzazione. Azienda Zero ha un direttore generale nominato dalla Giunta regionale, come i direttori generali delle altre aziende. Lo affiancano un direttore amministrativo e un direttore sanitario.
+
+La sua organizzazione interna, con le unita' operative complesse e gli uffici, e' definita dall'atto aziendale, come per tutte le altre aziende. L'atto aziendale l'hai visto nella lezione dodici punto tre.
+
+E ogni anno la Giunta regionale approva gli indirizzi per la sua attivita', collegati alla programmazione socio-sanitaria. La Regione indirizza; Azienda Zero da' supporto tecnico e gestisce.
+
+Un modello osservato. Il Veneto ha scelto un ente di governance centralizzato, e altre Regioni ne hanno istituiti con funzioni simili. Il Piemonte, per esempio, ha creato una propria Azienda Zero.
+
+All'orale puoi mostrare spirito critico. La centralizzazione porta dei vantaggi: l'uniformita' e le economie. Ma pone anche delle sfide: la distanza dai territori, e i tempi decisionali.
+
+Saper dire tutte e due le cose ti distingue da chi ha solo imparato un elenco. Davanti a una commissione, un giudizio equilibrato vale piu' di un elogio.
+
+Il caso d'esame. La domanda tipo: che cos'e' Azienda Zero, e quali funzioni svolge? Una risposta ordinata parte dalla natura dell'ente, e poi passa alle sue funzioni.
+
+E' l'ente di governance della sanita' veneta, istituito dalla legge regionale diciannove del duemilasedici, con personalita' giuridica di diritto pubblico. Non eroga prestazioni ai pazienti.
+
+Svolge funzioni centralizzate per tutte le aziende: la gestione sanitaria accentrata, gli acquisti con la CRAV, il reclutamento del personale con i concorsi unificati.
+
+E poi i sistemi informativi e il Fascicolo Sanitario Elettronico, gli affari legali, la formazione, le funzioni epidemiologiche. In chiusura, un aggancio personale: e' l'ente che gestisce questo concorso.
+
+Il legame con il lavoro quotidiano. I dispositivi e i farmaci arrivano da gare regionali: segnalarne i difetti con la dispositivo-vigilanza migliora le gare successive.
+
+Il Fascicolo Sanitario Elettronico garantisce la continuita' delle informazioni sulla persona che assisti. E c'e' la formazione regionale, che passa anch'essa da Azienda Zero.
+
+E i dati epidemiologici, raccolti nei registri, orientano la programmazione. Senza dati, la programmazione va alla cieca.
+
+La tabella. Azienda per il governo della sanita' della Regione del Veneto. Legge regionale diciannove del duemilasedici, operativa dal duemiladiciassette.
+
+Ente del Servizio Sanitario Regionale, con personalita' giuridica di diritto pubblico, coordinato dall'Area Sanita' e Sociale. Direttore generale nominato dalla Giunta, con indirizzi annuali.
+
+Le funzioni: GSA, CRAV come soggetto aggregatore, concorsi unificati, sistemi informativi e FSE, formazione, affari legali, rischio e sinistri, epidemiologia e registri.
+
+[serious] La frase della lezione. Azienda Zero non cura i pazienti, ma rende possibile che le altre aziende li curino meglio.
+
+[warm] Nella prossima lezione: la rete ospedaliera veneta, e il modello hub and spoke, che hai gia' incontrato nella lezione dodici punto tre.
+
+Poi il SUEM centodiciotto, e le reti per l'ictus, l'infarto, il trauma e le altre patologie tempo-dipendenti. A tra poco.

@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Nel modulo dieci hai imparato che per l'infarto, l'ictus e il trauma e' il tempo a decidere l'esito. In questa lezione vediamo come il Veneto ha organizzato la risposta a queste emergenze."),
+ (1,"chiaro",0,"Tre parti: la rete ospedaliera hub and spoke, il SUEM centodiciotto e le reti cliniche regionali. E' la traduzione veneta del DM settanta del duemilaquindici, che hai visto nella lezione dodici punto tre."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Lo strumento con cui la Regione disegna la rete ospedaliera sono le schede di dotazione ospedaliera, approvate con deliberazione della Giunta regionale. Sono il punto di partenza di tutto il resto."),
+ (2,"chiaro",0,"Per ogni ospedale le schede stabiliscono quattro cose: la classificazione, le unita' operative, i posti letto, e le funzioni che quell'ospedale svolge all'interno della rete."),
+ (2,"chiaro",0,"Attuano gli standard del DM settanta e vengono aggiornate periodicamente. Accanto ci sono le schede di dotazione territoriale, per il territorio. E la rete hub and spoke e' uno dei temi del Piano Socio Sanitario Regionale."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"Il modello e' hub and spoke. Gli hub sono gli ospedali con funzioni di alta specialita' e di riferimento: le Aziende Ospedaliere Universitarie di Padova e di Verona, e i grandi ospedali provinciali."),
+ (3,"chiaro",0,"Gli spoke sono gli ospedali di rete, collegati funzionalmente agli hub per i casi complessi. Un esempio vicino a noi: a Padova l'Azienda Ospedale-Universita' fa da hub, gli ospedali delle ULSS fanno da spoke."),
+ (3,"chiaro",0,"Ci sono poi i presidi nelle zone particolarmente disagiate, come la montagna, la laguna e il delta, dove la distanza dall'hub impone soluzioni specifiche. Pensa alla montagna bellunese, o al delta polesano."),
+ (3,"chiaro",0,"E le strutture private accreditate sono integrate nella rete. Ospedali delle ULSS, aziende universitarie e privati accreditati lavorano cosi' dentro un unico disegno, quello delle schede regionali."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica. E' organizzato in centrali operative su base provinciale: in Veneto le centrali sono sette."),
+ (4,"chiaro",0,"I mezzi: mezzi di soccorso di base e avanzati, automediche, l'elisoccorso, e perfino le idroambulanze per la laguna di Venezia, dove il soccorso arriva via acqua."),
+ (4,"chiaro",0,"Il SUEM dispone anche di nuclei specializzati per gli eventi NBCR, cioe' nucleari, biologici, chimici e radiologici: eventi rari, che richiedono competenze e dotazioni dedicate."),
+ (4,"chiaro",0,"In centrale e' l'infermiere ad attribuire il codice di priorita' alla chiamata, con un sistema regionale di dispatch. Da quel codice dipende il mezzo che viene inviato."),
+ (4,"chiaro",0,"E c'e' un coordinamento regionale dell'emergenza urgenza, il CREU, che uniforma le procedure e i sistemi delle centrali in tutta la regione."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"Il NUE centododici, il Numero Unico di Emergenza europeo. La Regione ha firmato con il Ministero dell'Interno un protocollo d'intesa per attuarlo in Veneto."),
+ (5,"chiaro",0,"Il modello prevede centrali uniche di risposta, che ricevono le chiamate e le smistano al centodiciotto, ai vigili del fuoco o alle forze dell'ordine."),
+ (5,"chiaro",0,"Le centrali SUEM sono state dotate di un software unificato, predisposto per questa integrazione. Il passaggio e' progressivo: prima della prova verifica lo stato di attivazione del NUE centododici."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"La rete per l'infarto. Il centodiciotto esegue l'ECG a dodici derivazioni direttamente sul territorio, prima del trasporto, e lo teletrasmette al cardiologo."),
+ (6,"chiaro",0,"Se si tratta di uno STEMI, il paziente viene portato direttamente al centro con emodinamica, saltando il pronto soccorso dell'ospedale piu' vicino, se questo non ha l'emodinamica."),
+ (6,"chiaro",0,"L'obiettivo e' ridurre il tempo alla riperfusione, come hai visto nella lezione otto punto uno. Ogni passaggio che si salta e' tempo guadagnato."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"La seconda rete tempo-dipendente e' la rete ictus. Le stroke unit, presenti nelle aziende. E i centri hub, quelli in grado di eseguire la trombectomia meccanica."),
+ (7,"chiaro",0,"I centri spoke eseguono la trombolisi, e si collegano agli hub con il teleconsulto. Cosi' anche l'ospedale piu' piccolo, e piu' lontano, resta collegato alla rete."),
+ (7,"chiaro",0,"E un percorso preospedaliero, in cui il centodiciotto pre-allerta l'ospedale e centralizza il paziente. Il principio e': il tempo e' cervello. E' la rete della lezione otto punto sei."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"La terza e' la rete trauma. Prevede due livelli: i centri traumatologici di riferimento, ad alta specializzazione, e gli ospedali di rete."),
+ (8,"chiaro",0,"Il politrauma grave viene centralizzato il prima possibile, spesso con l'elisoccorso, verso il centro di riferimento, quello che dispone del trauma team."),
+ (8,"chiaro",0,"E le specialita' necessarie: la neurochirurgia, la chirurgia toracica, il centro ustioni. E' la rete della lezione dieci punto sette."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"Le altre reti cliniche regionali. La Rete Oncologica Veneta, la ROV, con i percorsi diagnostico-terapeutici per tipo di tumore e i gruppi multidisciplinari."),
+ (9,"chiaro",0,"La rete dei punti nascita e del trasporto neonatale. E la rete trapianti, coordinata dal Centro Regionale Trapianti, con il procurement degli organi."),
+ (9,"chiaro",0,"La rete per le malattie rare, con un coordinamento regionale. La rete di terapia del dolore e cure palliative, prevista dalla legge trentotto del duemiladieci. E la rete pediatrica."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"L'infermiere e' presente in ogni nodo di queste reti. In centrale centodiciotto e sui mezzi di soccorso. E al triage, dove attiva i percorsi tempo-dipendenti."),
+ (10,"chiaro",0,"Come case manager nella rete oncologica. Come coordinatore infermieristico del procurement degli organi. E in stroke unit e in emodinamica."),
+ (10,"chiaro",0,"Una rete funziona se ogni nodo conosce il proprio ruolo e i propri tempi. E all'orale vale lo stesso: non solo che cos'e' la rete, ma come la usi da infermiere."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"[curious] Il caso d'esame. Uomo di cinquantotto anni, dolore toracico da quaranta minuti, in un paese di montagna. Come si attiva la rete?"),
+ (11,"chiaro",0,"Prima la chiamata al centodiciotto. La centrale assegna il codice di priorita' e invia il mezzo adeguato: in un paese di montagna, eventualmente l'elisoccorso."),
+ (11,"chiaro",0,"Sul posto si esegue l'ECG a dodici derivazioni e lo si teletrasmette. Se e' uno STEMI, il paziente viene centralizzato direttamente al centro con emodinamica, che viene pre-allertato."),
+ (11,"chiaro",0,"Il percorso salta i passaggi che non servono, per guadagnare tempo. Ed e' una delle domande d'orale piu' probabili del modulo: come funziona la rete per l'infarto o per l'ictus."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"[thoughtful] Anche le criticita' vanno conosciute, per una risposta matura all'orale. La prima e' la carenza di personale, soprattutto in pronto soccorso e nelle aree periferiche."),
+ (12,"chiaro",0,"Poi il sovraffollamento e il boarding. E la difficolta' di garantire servizi negli ospedali di montagna e nelle aree turistiche, con i loro picchi stagionali."),
+ (12,"chiaro",0,"Il tema di fondo e' l'equilibrio fra centralizzazione, che concentra le competenze, e prossimita', che avvicina i servizi alle persone. Nessuna delle due, da sola, basta."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"Le aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona. Integrano assistenza, didattica e ricerca."),
+ (13,"chiaro",0,"Sono sedi dei corsi di laurea, anche in Infermieristica, insieme alle Universita' di Padova e di Verona. E svolgono funzioni regionali di alta specialita'."),
+ (13,"chiaro",0,"E poi lo IOV, l'Istituto Oncologico Veneto. E' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico: unisce la ricerca e la cura in oncologia."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"chiaro",0,"La tabella. Le schede di dotazione ospedaliera, approvate con delibera di Giunta. Il modello hub and spoke. L'AOU di Padova, l'AOUI di Verona, lo IOV."),
+ (14,"chiaro",0,"Il SUEM centodiciotto: sette centrali provinciali, il dispatch infermieristico, l'elisoccorso, le idroambulanze, il CREU. E il NUE centododici, con il protocollo d'intesa firmato con il Ministero dell'Interno."),
+ (14,"chiaro",0,"Le reti: infarto, con l'ECG teletrasmesso e l'accesso diretto all'emodinamica; ictus, con gli hub per la trombectomia; trauma; ROV; punti nascita; trapianti; malattie rare; dolore e cure palliative."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"profondo",1.2,"[serious] La frase della lezione: non l'ospedale piu' vicino, ma l'ospedale giusto. E' il principio di tutte le reti tempo-dipendenti: infarto, ictus, trauma."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione usciamo dall'ospedale: il distretto, le medicine di gruppo integrate, gli ospedali di comunita' e l'attuazione del DM settantasette in Veneto."),
+ (16,"chiaro",0,"Dopo la rete dell'emergenza, la rete della prossimita', in cui la casa e' il primo luogo di cura. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le schede di dotazione ospedaliera",3:"Il modello hub and spoke veneto",4:"Il SUEM 118",5:"Il NUE 112 in Veneto",
+ 6:"La rete per l'infarto",7:"La rete ictus",8:"La rete trauma",9:"Le altre reti cliniche",10:"L'infermiere nelle reti",
+ 11:"Il caso d'esame",12:"Le criticita'",13:"Le aziende ospedaliere universitarie",14:"La tabella",15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

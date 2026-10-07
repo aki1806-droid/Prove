@@ -1,0 +1,43 @@
+[warm] Oggi un infermiere passa una parte importante del turno davanti a uno schermo: la cartella elettronica, le prescrizioni, gli esami, la documentazione.
+
+E i cittadini gestiscono ricette, prenotazioni e referti dallo smartphone. Vediamo gli strumenti digitali veneti, e soprattutto le responsabilita' di chi li usa: un accesso sbagliato a un dato sanitario puo' costare caro.
+
+Il Fascicolo Sanitario Elettronico, l'FSE, e' l'insieme dei dati e dei documenti digitali, sanitari e socio-sanitari, generati dagli eventi clinici che riguardano la persona.
+
+E' stato istituito a livello nazionale con il decreto-legge centosettantanove del duemiladodici, e rafforzato negli ultimi anni con il cosiddetto FSE due punto zero, finanziato anche dal PNRR.
+
+Che cosa contiene? I referti, le lettere di dimissione, i verbali di pronto soccorso, le prescrizioni, le vaccinazioni, e il profilo sanitario sintetico, redatto dal medico di famiglia.
+
+A che cosa serve? Alla cura, prima di tutto, ma anche alla prevenzione, alla ricerca e al governo del sistema. In Veneto il Fascicolo regionale rientra nei sistemi informativi affidati ad Azienda Zero.
+
+In Veneto il cittadino accede ai servizi digitali attraverso Sanita' km zero: il portale e le app della Regione del Veneto, gestiti insieme ad Azienda Zero.
+
+Sanita' km zero Fascicolo: l'accesso al proprio FSE con lo SPID o con la CIE, la carta d'identita' elettronica, per consultare i referti, le ricette e gli altri documenti.
+
+Sanita' km zero Ricette: la gestione digitale delle prescrizioni, con la possibilita' di prenotare in uno qualsiasi dei CUP della Regione, indipendentemente dall'azienda di appartenenza.
+
+Sanita' km zero Prenota Veloce: la prenotazione rapida di visite ed esami con priorita' D, la classe differibile, che vediamo fra poco insieme alle altre classi di priorita'.
+
+E c'e' una funzione di delega a un'altra persona. E' utile, per esempio, per il figlio che gestisce i referti, le ricette e le prenotazioni di un genitore anziano.
+
+I diritti del cittadino sul Fascicolo. Dal duemilaventi l'alimentazione, cioe' il caricamento dei documenti, avviene in modo automatico: non serve piu' il consenso dell'assistito.
+
+Serve invece il consenso dell'assistito perche' i professionisti possano consultare il Fascicolo. Alimentazione automatica, consultazione con consenso: e' una confusione frequente, e la ritroverai nel riepilogo del modulo.
+
+La persona puo' oscurare singoli documenti. E alcuni dati hanno tutele rafforzate: quelli sull'HIV, sull'interruzione di gravidanza, sulla violenza subita, sull'uso di sostanze.
+
+C'e' la delega, che abbiamo appena visto. E la persona puo' conoscere gli accessi, cioe' sapere chi ha consultato i suoi dati: un punto che ritroviamo fra poco, quando parliamo di responsabilita'.
+
+La ricetta dematerializzata, o elettronica. La prescrizione e' registrata nel sistema, con un codice NRE, il numero di ricetta elettronica, e un promemoria per il cittadino.
+
+Vale per i farmaci e per le prestazioni specialistiche. Per prenotare c'e' il CUP, il centro unico di prenotazione. E sulla ricetta c'e' la classe di priorita', che i quiz chiedono spesso.
+
+Le classi sono quattro. U, urgente, entro settantadue ore. B, breve, entro dieci giorni. D, differibile, entro trenta giorni per le visite e sessanta per gli accertamenti. P, programmata.
+
+Le classi di priorita' sono definite dal Piano nazionale di governo delle liste d'attesa. Ricordale cosi': U settantadue ore, B dieci giorni, D trenta o sessanta, e infine P.
+
+La cartella clinica elettronica: la documentazione clinica e infermieristica informatizzata, con la prescrizione e la somministrazione informatizzata della terapia.
+
+Riduce gli errori, come hai visto nella lezione cinque punto quattro. Ogni registrazione e' tracciata: chi, che cosa, quando. E la cartella e' integrata con il laboratorio, la radiologia, la farmacia.
+
+La documentazione elettronica ha lo stesso valore legale di quella cartacea, con tutto cio' che ne consegue per la responsabilita' professionale di chi la compila.

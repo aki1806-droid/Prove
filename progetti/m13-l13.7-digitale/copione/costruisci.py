@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Oggi un infermiere passa una parte importante del turno davanti a uno schermo: la cartella elettronica, le prescrizioni, gli esami, la documentazione."),
+ (1,"chiaro",0,"E i cittadini gestiscono ricette, prenotazioni e referti dallo smartphone. Vediamo gli strumenti digitali veneti, e soprattutto le responsabilita' di chi li usa: un accesso sbagliato a un dato sanitario puo' costare caro."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Il Fascicolo Sanitario Elettronico, l'FSE, e' l'insieme dei dati e dei documenti digitali, sanitari e socio-sanitari, generati dagli eventi clinici che riguardano la persona."),
+ (2,"chiaro",0,"E' stato istituito a livello nazionale con il decreto-legge centosettantanove del duemiladodici, e rafforzato negli ultimi anni con il cosiddetto FSE due punto zero, finanziato anche dal PNRR."),
+ (2,"chiaro",0,"Che cosa contiene? I referti, le lettere di dimissione, i verbali di pronto soccorso, le prescrizioni, le vaccinazioni, e il profilo sanitario sintetico, redatto dal medico di famiglia."),
+ (2,"chiaro",0,"A che cosa serve? Alla cura, prima di tutto, ma anche alla prevenzione, alla ricerca e al governo del sistema. In Veneto il Fascicolo regionale rientra nei sistemi informativi affidati ad Azienda Zero."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"In Veneto il cittadino accede ai servizi digitali attraverso Sanita' km zero: il portale e le app della Regione del Veneto, gestiti insieme ad Azienda Zero."),
+ (3,"chiaro",0,"Sanita' km zero Fascicolo: l'accesso al proprio FSE con lo SPID o con la CIE, la carta d'identita' elettronica, per consultare i referti, le ricette e gli altri documenti."),
+ (3,"chiaro",0,"Sanita' km zero Ricette: la gestione digitale delle prescrizioni, con la possibilita' di prenotare in uno qualsiasi dei CUP della Regione, indipendentemente dall'azienda di appartenenza."),
+ (3,"chiaro",0,"Sanita' km zero Prenota Veloce: la prenotazione rapida di visite ed esami con priorita' D, la classe differibile, che vediamo fra poco insieme alle altre classi di priorita'."),
+ (3,"chiaro",0,"E c'e' una funzione di delega a un'altra persona. E' utile, per esempio, per il figlio che gestisce i referti, le ricette e le prenotazioni di un genitore anziano."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"I diritti del cittadino sul Fascicolo. Dal duemilaventi l'alimentazione, cioe' il caricamento dei documenti, avviene in modo automatico: non serve piu' il consenso dell'assistito."),
+ (4,"chiaro",0,"Serve invece il consenso dell'assistito perche' i professionisti possano consultare il Fascicolo. Alimentazione automatica, consultazione con consenso: e' una confusione frequente, e la ritroverai nel riepilogo del modulo."),
+ (4,"chiaro",0,"La persona puo' oscurare singoli documenti. E alcuni dati hanno tutele rafforzate: quelli sull'HIV, sull'interruzione di gravidanza, sulla violenza subita, sull'uso di sostanze."),
+ (4,"chiaro",0,"C'e' la delega, che abbiamo appena visto. E la persona puo' conoscere gli accessi, cioe' sapere chi ha consultato i suoi dati: un punto che ritroviamo fra poco, quando parliamo di responsabilita'."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"La ricetta dematerializzata, o elettronica. La prescrizione e' registrata nel sistema, con un codice NRE, il numero di ricetta elettronica, e un promemoria per il cittadino."),
+ (5,"chiaro",0,"Vale per i farmaci e per le prestazioni specialistiche. Per prenotare c'e' il CUP, il centro unico di prenotazione. E sulla ricetta c'e' la classe di priorita', che i quiz chiedono spesso."),
+ (5,"chiaro",0,"Le classi sono quattro. U, urgente, entro settantadue ore. B, breve, entro dieci giorni. D, differibile, entro trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
+ (5,"chiaro",0,"Le classi di priorita' sono definite dal Piano nazionale di governo delle liste d'attesa. Ricordale cosi': U settantadue ore, B dieci giorni, D trenta o sessanta, e infine P."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"La cartella clinica elettronica: la documentazione clinica e infermieristica informatizzata, con la prescrizione e la somministrazione informatizzata della terapia."),
+ (6,"chiaro",0,"Riduce gli errori, come hai visto nella lezione cinque punto quattro. Ogni registrazione e' tracciata: chi, che cosa, quando. E la cartella e' integrata con il laboratorio, la radiologia, la farmacia."),
+ (6,"chiaro",0,"La documentazione elettronica ha lo stesso valore legale di quella cartacea, con tutto cio' che ne consegue per la responsabilita' professionale di chi la compila."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"Le credenziali di accesso sono personali e non cedibili. Non si lavora mai con l'utenza di un collega: nemmeno solo per un attimo, nemmeno perche' il sistema e' lento."),
+ (7,"chiaro",0,"Si fa il logout alla fine della sessione, e non si lascia il terminale aperto. E le password devono essere robuste, e restare riservate."),
+ (7,"chiaro",0,"Ogni azione registrata con le tue credenziali e' attribuita a te. Una somministrazione registrata da un collega con il tuo nome e' un problema di responsabilita', e di sicurezza del paziente."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"[serious] Il punto piu' importante della lezione: l'accesso giustificato. Si accede ai dati di un paziente solo se lo si ha in cura, oppure per finalita' di servizio."),
+ (8,"chiaro",0,"Ogni accesso e' registrato, e puo' essere verificato anche a distanza di tempo. Non si consultano i dati di familiari, di colleghi, di conoscenti, di persone note."),
+ (8,"chiaro",0,"E nemmeno i propri, attraverso gli applicativi aziendali. Le conseguenze sono serie: un illecito disciplinare, e le sanzioni del Garante per la protezione dei dati."),
+ (8,"chiaro",0,"E un possibile rilievo penale. Per la giurisprudenza anche un dipendente autorizzato commette accesso abusivo a un sistema informatico, se entra per finalita' estranee al servizio."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"Da distinguere dal Fascicolo e' il dossier sanitario aziendale: l'insieme dei dati sanitari della persona prodotti dalle strutture della stessa azienda, consultabile da chi la ha in cura."),
+ (9,"chiaro",0,"Il dossier segue le regole del Garante: consenso, oscuramento, tracciamento degli accessi. Il Fascicolo, invece, raccoglie i dati provenienti da tutto il sistema sanitario."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"La telemedicina, nelle forme che hai visto nella lezione undici punto sei: la televisita, il teleconsulto, il telemonitoraggio, la teleassistenza."),
+ (10,"chiaro",0,"Si sviluppa su piattaforme regionali e nazionali, con gli investimenti del PNRR, soprattutto per il telemonitoraggio dei pazienti cronici: lo scompenso, la BPCO, il diabete."),
+ (10,"chiaro",0,"E l'infermiere ha un ruolo centrale. Arruola i pazienti, li educa all'uso dei dispositivi, legge i dati, gestisce gli allarmi, e mantiene il contatto con il paziente."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"La sicurezza informatica. Le aziende sanitarie sono bersaglio di attacchi informatici: il phishing, e i ransomware, che bloccano i sistemi."),
+ (11,"chiaro",0,"Le regole: non aprire allegati o link sospetti, non usare chiavette o dispositivi personali sui terminali aziendali, segnalare le anomalie, conoscere le procedure di continuita', con i moduli cartacei di emergenza."),
+ (11,"chiaro",0,"E non inviare dati sanitari con le app di messaggistica personali: una foto di una lesione mandata al medico con il telefono privato e' un trattamento di dati non sicuro."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"[curious] Il caso d'esame. Un'infermiera scopre che una vicina di casa e' ricoverata in un altro reparto dello stesso ospedale, e apre la sua cartella elettronica per sapere come sta."),
+ (12,"chiaro",0,"Che cosa ha fatto? Un accesso non giustificato, perche' non ha in cura quella paziente. E l'accesso resta registrato: la paziente puo' venirne a conoscenza."),
+ (12,"chiaro",0,"Le conseguenze possono essere disciplinari, amministrative, con le sanzioni del Garante, e anche penali, per l'accesso abusivo a un sistema informatico."),
+ (12,"chiaro",0,"[thoughtful] La curiosita', anche affettuosa, non e' una finalita' di cura. Se vuole notizie della vicina, le chiede alla persona stessa, o ai suoi familiari."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"Tutto questo poggia sul GDPR, che hai visto nella lezione uno punto sette. I dati sanitari sono categorie particolari di dati, all'articolo nove, con tutele rafforzate."),
+ (13,"chiaro",0,"Si trattano secondo i principi di liceita', minimizzazione, limitazione della finalita', integrita' e riservatezza. E a questi si aggiungono il segreto professionale e il segreto d'ufficio."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"chiaro",0,"La tabella. Il Fascicolo, del duemiladodici, rafforzato con l'FSE due punto zero: referti, dimissioni, pronto soccorso, vaccinazioni, profilo sintetico. Alimentazione automatica, consenso alla consultazione."),
+ (14,"chiaro",0,"Oscuramento, delega, conoscenza degli accessi. Sanita' km zero: Fascicolo, Ricette, Prenota Veloce. La ricetta dematerializzata, con l'NRE. Le priorita': U settantadue ore, B dieci giorni, D trenta o sessanta, e P."),
+ (14,"chiaro",0,"La cartella elettronica. Le credenziali personali. L'accesso solo se in cura, e l'articolo seicentoquindici ter del codice penale. Il dossier sanitario, diverso dall'FSE. La telemedicina. La sicurezza informatica."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"profondo",1.2,"[serious] La frase della lezione: ogni clic lascia una traccia. Si apre solo la cartella del paziente che si ha in cura."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione, l'ultima del modulo, ricomponiamo tutto il sistema veneto in una sola pagina, con il riepilogo e l'autovalutazione. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Il Fascicolo Sanitario Elettronico",3:"Sanita' km zero",4:"I diritti del cittadino sul Fascicolo",5:"La ricetta dematerializzata e il CUP",
+ 6:"La cartella clinica elettronica",7:"Le credenziali",8:"L'accesso giustificato",9:"Il dossier sanitario aziendale",10:"La telemedicina",
+ 11:"La sicurezza informatica",12:"Il caso d'esame",13:"Il collegamento con il GDPR",14:"La tabella",15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

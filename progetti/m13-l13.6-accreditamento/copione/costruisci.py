@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Due temi che sembrano lontani, ma che hanno un filo comune: la garanzia per il cittadino. Da una parte l'autorizzazione e l'accreditamento delle strutture, dall'altra la prevenzione."),
+ (1,"chiaro",0,"Autorizzazione e accreditamento garantiscono che le strutture abbiano i requisiti per curare in sicurezza. La prevenzione garantisce che la salute venga protetta prima che serva curarla. Vediamo come li organizza il Veneto."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Il riferimento e' la legge regionale del sedici agosto duemiladue, numero ventidue, sull'autorizzazione e l'accreditamento delle strutture sanitarie, socio-sanitarie e sociali."),
+ (2,"chiaro",0,"Coerentemente con il modello veneto, che tiene insieme il sanitario e il sociale, la legge abbraccia tutti e tre gli ambiti. E si applica sia alle strutture pubbliche, sia a quelle private."),
+ (2,"chiaro",0,"I requisiti sono definiti dalla Giunta regionale. E non si ottengono una volta per sempre: la legge prevede verifiche e rinnovi periodici, per controllare che i requisiti restino nel tempo."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"Il percorso ha piu' fasi. La prima e' l'autorizzazione alla realizzazione: serve per costruire una struttura nuova, per ampliarne una esistente o per trasformarla."),
+ (3,"chiaro",0,"La seconda e' l'autorizzazione all'esercizio. Verifica i requisiti minimi, strutturali, tecnologici e organizzativi, che una struttura deve avere per poter operare."),
+ (3,"chiaro",0,"La terza e' l'accreditamento istituzionale. Verifica requisiti ulteriori, di qualita', ed e' la condizione per lavorare per conto del Servizio Sanitario Regionale."),
+ (3,"chiaro",0,"Poi, per erogare effettivamente prestazioni a carico del servizio pubblico, servono gli accordi contrattuali. Essere accreditati, da solo, non basta."),
+ (3,"chiaro",0,"E' la traduzione regionale di quanto hai visto nella lezione dodici punto sette: requisiti minimi per l'autorizzazione, requisiti ulteriori per l'accreditamento. Due livelli da non confondere."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"Perche' riguarda l'infermiere? Perche' i requisiti di accreditamento comprendono il personale, con le dotazioni minime e le qualifiche, e le procedure e i protocolli documentati."),
+ (4,"chiaro",0,"E poi la formazione, la gestione del rischio, i sistemi di qualita'. Durante le verifiche, i valutatori controllano che le procedure esistano, che siano applicate e che gli operatori le conoscano."),
+ (4,"chiaro",0,"[serious] Una procedura che nessuno conosce non e' un requisito soddisfatto. Per questo l'accreditamento non riguarda solo la direzione: riguarda anche chi lavora ogni giorno in reparto."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"[thoughtful] Passiamo alla prevenzione. E' organizzata nei Dipartimenti di Prevenzione delle Aziende ULSS, con servizi che conviene conoscere per sigla."),
+ (5,"chiaro",0,"Il SISP, Servizio Igiene e Sanita' Pubblica, che si occupa di vaccinazioni e di malattie infettive. E il SIAN, il Servizio Igiene degli Alimenti e della Nutrizione."),
+ (5,"chiaro",0,"Lo SPISAL, il servizio di prevenzione, igiene e sicurezza negli ambienti di lavoro, che hai visto nella lezione dodici punto sei. E poi i servizi veterinari."),
+ (5,"chiaro",0,"Al Dipartimento fanno capo anche gli screening, in raccordo con i centri screening, e la promozione della salute. Sei funzioni diverse, in un'unica struttura di ogni ULSS."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"La programmazione si basa sul Piano Regionale della Prevenzione, che attua in Veneto il Piano Nazionale della Prevenzione. E' uno degli strumenti di programmazione della Regione."),
+ (6,"chiaro",0,"Contiene programmi sugli stili di vita, cioe' fumo, alcol, alimentazione e attivita' fisica. E poi su ambiente e salute, sicurezza sul lavoro, malattie infettive e vaccinazioni."),
+ (6,"chiaro",0,"E ancora sugli screening oncologici e sugli incidenti domestici e stradali. E adotta l'approccio One Health, che considera insieme la salute delle persone, degli animali e dell'ambiente."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"Gli screening oncologici, con i riferimenti nazionali. Mammella: una mammografia ogni due anni, alle donne fra i cinquanta e i sessantanove anni. Rientra nei livelli essenziali di assistenza."),
+ (7,"chiaro",0,"Cervice uterina: donne fra i venticinque e i sessantaquattro anni. Il Pap test ogni tre anni fra i venticinque e i ventinove, e il test HPV ogni cinque anni dai trenta ai sessantaquattro."),
+ (7,"chiaro",0,"Colon-retto: la ricerca del sangue occulto nelle feci ogni due anni, fra i cinquanta e i sessantanove anni. Sono tutti programmi organizzati, con invito attivo, e gratuiti."),
+ (7,"chiaro",0,"Il Piano nazionale della prevenzione prevede poi alcune estensioni delle fasce d'eta', che le Regioni applicano in modo diverso. Ed e' proprio qui che il Veneto ha fatto una scelta sua."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"In Veneto i tre programmi sono gratuiti, con una lettera d'invito dall'ULSS di residenza. E la Regione ha esteso lo screening del colon-retto anche alla fascia fra i settanta e i settantaquattro anni."),
+ (8,"chiaro",0,"Per la cervice si usa il test HPV come test primario, dai trent'anni. In caso di positivita', la persona entra in percorsi di approfondimento e nei PDTA."),
+ (8,"chiaro",0,"Le fasce possono cambiare, e conviene verificarle nella propria ULSS. Per l'esame ricorda i riferimenti nazionali, e l'estensione veneta del colon-retto fino ai settantaquattro anni."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"L'infermiere negli screening. Informa e promuove l'adesione, contrastando la paura e la disinformazione. E partecipa alla gestione degli inviti e dei richiami."),
+ (9,"chiaro",0,"Esegue attivita' come i prelievi, o la preparazione alla colonscopia della lezione otto punto cinque. Comunica gli esiti, e accompagna la persona negli approfondimenti."),
+ (9,"chiaro",0,"E presta attenzione alle persone che aderiscono meno: fragili, stranieri, con bassa alfabetizzazione sanitaria. Un test positivo genera ansia, e la comunicazione fa la differenza."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"Le vaccinazioni. Il riferimento nazionale e' il Piano Nazionale di Prevenzione Vaccinale, che in Veneto si traduce nel calendario vaccinale regionale."),
+ (10,"chiaro",0,"Per i minori da zero a sedici anni, dieci vaccinazioni sono obbligatorie. Lo stabilisce la legge centodiciannove del duemiladiciassette: un numero e un anno da ricordare insieme."),
+ (10,"chiaro",0,"Molte altre sono raccomandate, per adulti, anziani, gruppi a rischio e operatori sanitari: influenza, epatite B, morbillo, pertosse in gravidanza, pneumococco, herpes zoster."),
+ (10,"chiaro",0,"Le vaccinazioni si eseguono nei centri vaccinali delle ULSS. Li' l'infermiere fa counseling, somministra il vaccino e sorveglia le eventuali reazioni."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"L'epidemiologia regionale. Le funzioni epidemiologiche, cioe' il sistema epidemiologico regionale, il Registro Tumori del Veneto e i registri di patologia, sono oggi in Azienda Zero."),
+ (11,"chiaro",0,"A queste si aggiungono le sorveglianze: quelle sulle malattie infettive, e le indagini PASSI e PASSI d'Argento, che raccolgono informazioni sugli stili di vita."),
+ (11,"chiaro",0,"I dati orientano la programmazione, e confluiscono nella Relazione Socio Sanitaria, che la Regione pubblica ogni anno. Senza dati, la prevenzione va alla cieca."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"[curious] Il caso d'esame. Una donna di cinquantadue anni ti dice che non fa la mammografia di screening, perche' se c'e' qualcosa preferisce non saperlo. Che cosa fai?"),
+ (12,"chiaro",0,"Non la giudichi, e non insisti facendo leva sulla paura. Ascolti e accogli la sua preoccupazione. Poi le spieghi, con parole semplici, a che cosa serve lo screening."),
+ (12,"chiaro",0,"Serve a trovare eventuali lesioni in fase precoce, quando le cure sono piu' efficaci e meno pesanti. Le dici che l'esame e' gratuito e con invito attivo, e verifichi che abbia ricevuto la lettera."),
+ (12,"chiaro",0,"E' il colloquio motivazionale della lezione undici punto sei, applicato alla prevenzione. E alla fine, qualunque cosa scelga, rispetti comunque la sua decisione."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"Un cenno alla sicurezza alimentare e ambientale. Il SIAN e i servizi veterinari controllano alimenti e allevamenti, e prevengono le tossinfezioni alimentari."),
+ (13,"chiaro",0,"Vigilano sulle acque potabili e sull'igiene della nutrizione nelle mense di scuole, ospedali e strutture. Fanno parte della prevenzione collettiva, il primo livello dei LEA."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"chiaro",0,"La tabella. Legge regionale ventidue del duemiladue, nei tre ambiti. Le fasi: realizzazione, esercizio con i requisiti minimi, accreditamento con i requisiti ulteriori, e poi gli accordi."),
+ (14,"chiaro",0,"Il Dipartimento di Prevenzione: SISP, SIAN, SPISAL, veterinari. Il Piano Regionale della Prevenzione. Gli screening di mammella, cervice e colon-retto, con l'estensione veneta fino ai settantaquattro anni."),
+ (14,"chiaro",0,"La legge centodiciannove del duemiladiciassette, con le dieci vaccinazioni obbligatorie da zero a sedici anni. E il Registro Tumori, oggi in Azienda Zero."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"profondo",1.2,"[serious] La frase della lezione: la prevenzione e' la cura che non si vede. I suoi successi sono le malattie che non si verificano, e proprio per questo vanno raccontati."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione: la sanita' digitale veneta, con il Fascicolo Sanitario Elettronico, Sanita' chilometro zero, le ricette, le prenotazioni, e le responsabilita' di chi usa gli applicativi. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La legge regionale 22 del 2002",3:"Le fasi",4:"Perche' riguarda l'infermiere",5:"Il Dipartimento di Prevenzione",
+ 6:"Il Piano Regionale della Prevenzione",7:"Gli screening: i riferimenti nazionali",8:"Gli screening in Veneto",9:"L'infermiere negli screening",
+ 10:"Le vaccinazioni",11:"L'epidemiologia regionale",12:"Il caso d'esame",13:"La sicurezza alimentare e ambientale",14:"La tabella",
+ 15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -1,0 +1,45 @@
+[warm] Nel modulo dieci hai imparato che per l'infarto, l'ictus e il trauma e' il tempo a decidere l'esito. In questa lezione vediamo come il Veneto ha organizzato la risposta a queste emergenze.
+
+Tre parti: la rete ospedaliera hub and spoke, il SUEM centodiciotto e le reti cliniche regionali. E' la traduzione veneta del DM settanta del duemilaquindici, che hai visto nella lezione dodici punto tre.
+
+Lo strumento con cui la Regione disegna la rete ospedaliera sono le schede di dotazione ospedaliera, approvate con deliberazione della Giunta regionale. Sono il punto di partenza di tutto il resto.
+
+Per ogni ospedale le schede stabiliscono quattro cose: la classificazione, le unita' operative, i posti letto, e le funzioni che quell'ospedale svolge all'interno della rete.
+
+Attuano gli standard del DM settanta e vengono aggiornate periodicamente. Accanto ci sono le schede di dotazione territoriale, per il territorio. E la rete hub and spoke e' uno dei temi del Piano Socio Sanitario Regionale.
+
+Il modello e' hub and spoke. Gli hub sono gli ospedali con funzioni di alta specialita' e di riferimento: le Aziende Ospedaliere Universitarie di Padova e di Verona, e i grandi ospedali provinciali.
+
+Gli spoke sono gli ospedali di rete, collegati funzionalmente agli hub per i casi complessi. Un esempio vicino a noi: a Padova l'Azienda Ospedale-Universita' fa da hub, gli ospedali delle ULSS fanno da spoke.
+
+Ci sono poi i presidi nelle zone particolarmente disagiate, come la montagna, la laguna e il delta, dove la distanza dall'hub impone soluzioni specifiche. Pensa alla montagna bellunese, o al delta polesano.
+
+E le strutture private accreditate sono integrate nella rete. Ospedali delle ULSS, aziende universitarie e privati accreditati lavorano cosi' dentro un unico disegno, quello delle schede regionali.
+
+Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica. E' organizzato in centrali operative su base provinciale: in Veneto le centrali sono sette.
+
+I mezzi: mezzi di soccorso di base e avanzati, automediche, l'elisoccorso, e perfino le idroambulanze per la laguna di Venezia, dove il soccorso arriva via acqua.
+
+Il SUEM dispone anche di nuclei specializzati per gli eventi NBCR, cioe' nucleari, biologici, chimici e radiologici: eventi rari, che richiedono competenze e dotazioni dedicate.
+
+In centrale e' l'infermiere ad attribuire il codice di priorita' alla chiamata, con un sistema regionale di dispatch. Da quel codice dipende il mezzo che viene inviato.
+
+E c'e' un coordinamento regionale dell'emergenza urgenza, il CREU, che uniforma le procedure e i sistemi delle centrali in tutta la regione.
+
+Il NUE centododici, il Numero Unico di Emergenza europeo. La Regione ha firmato con il Ministero dell'Interno un protocollo d'intesa per attuarlo in Veneto.
+
+Il modello prevede centrali uniche di risposta, che ricevono le chiamate e le smistano al centodiciotto, ai vigili del fuoco o alle forze dell'ordine.
+
+Le centrali SUEM sono state dotate di un software unificato, predisposto per questa integrazione. Il passaggio e' progressivo: prima della prova verifica lo stato di attivazione del NUE centododici.
+
+La rete per l'infarto. Il centodiciotto esegue l'ECG a dodici derivazioni direttamente sul territorio, prima del trasporto, e lo teletrasmette al cardiologo.
+
+Se si tratta di uno STEMI, il paziente viene portato direttamente al centro con emodinamica, saltando il pronto soccorso dell'ospedale piu' vicino, se questo non ha l'emodinamica.
+
+L'obiettivo e' ridurre il tempo alla riperfusione, come hai visto nella lezione otto punto uno. Ogni passaggio che si salta e' tempo guadagnato.
+
+La seconda rete tempo-dipendente e' la rete ictus. Le stroke unit, presenti nelle aziende. E i centri hub, quelli in grado di eseguire la trombectomia meccanica.
+
+I centri spoke eseguono la trombolisi, e si collegano agli hub con il teleconsulto. Cosi' anche l'ospedale piu' piccolo, e piu' lontano, resta collegato alla rete.
+
+E un percorso preospedaliero, in cui il centodiciotto pre-allerta l'ospedale e centralizza il paziente. Il principio e': il tempo e' cervello. E' la rete della lezione otto punto sei.

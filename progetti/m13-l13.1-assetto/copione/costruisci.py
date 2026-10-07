@@ -4,72 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Questo e' il modulo che piu' distingue chi si prepara per questo concorso. Il bando e' di Azienda Zero, e la commissione si aspetta che tu sappia come e' organizzata la sanita' veneta."),
+ (1,"chiaro",0,"Quali aziende esistono, che cosa fa Azienda Zero, come funzionano la rete ospedaliera, il territorio, la non autosufficienza. Cominciamo dall'assetto generale del sistema regionale."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Il primo tratto distintivo: in Veneto si parla di Servizio Socio Sanitario Regionale, perche' da decenni la Regione ha scelto di integrare il sanitario e il sociale."),
+ (2,"chiaro",0,"Per questo le aziende si chiamano ULSS: Unita' Locali Socio Sanitarie. E i Comuni possono delegare alle ULSS la gestione dei servizi socio-sanitari."),
+ (2,"chiaro",0,"La direzione aziendale comprende un direttore dei servizi socio-sanitari. E la programmazione territoriale passa anche dai Piani di Zona, condivisi fra ULSS e Comuni."),
+ (2,"chiaro",0,"Per l'infermiere significa lavorare spesso accanto agli assistenti sociali e ai servizi comunali, dentro un sistema costruito sull'integrazione fra sanitario e sociale."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"La riforma da conoscere e' la legge regionale del venticinque ottobre duemilasedici, numero diciannove: la legge regionale diciannove del duemilasedici. Fa due cose."),
+ (3,"chiaro",0,"La prima: istituisce Azienda Zero, l'ente di governance della sanita' regionale. E' l'azienda che bandisce questo concorso, e la vedremo da vicino nella prossima lezione."),
+ (3,"chiaro",0,"La seconda: ridisegna le aziende territoriali. Dal primo gennaio duemiladiciassette le ULSS passano da ventuno a nove, e i territori delle precedenti diventano i distretti delle nuove."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"Le nove Aziende ULSS, con il loro nome e la sede. Uno, Dolomiti, a Belluno. Due, Marca Trevigiana, a Treviso. Tre, Serenissima, a Venezia."),
+ (4,"chiaro",0,"Quattro, Veneto Orientale, a San Dona' di Piave. Cinque, Polesana, a Rovigo. Sei, Euganea, a Padova. Polesana ed Euganea sono le due aziende del territorio di Padova e Rovigo."),
+ (4,"chiaro",0,"Sette, Pedemontana, a Bassano del Grappa. Otto, Berica, a Vicenza. Nove, Scaligera, a Verona. Nove aziende, nove nomi: imparali con il loro numero."),
+ (4,"chiaro",0,"Se il concorso prevede una scelta dell'ambito di assegnazione, conoscere i territori e le loro aziende ti serve anche in pratica, non solo per rispondere a una domanda."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"Accanto alle ULSS, gli altri enti del Servizio Sanitario Regionale. Due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
+ (5,"chiaro",0,"Integrano assistenza, didattica e ricerca con le rispettive universita'. Poi l'Istituto Oncologico Veneto, lo IOV, che e' un IRCCS: un Istituto di Ricovero e Cura a Carattere Scientifico."),
+ (5,"chiaro",0,"E Azienda Zero, che fa parte anch'essa del Servizio Sanitario Regionale. A questi enti si aggiungono le strutture private accreditate."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"La governance regionale. La Giunta e il Consiglio regionale definiscono gli indirizzi e la programmazione. L'Area Sanita' e Sociale della Regione, guidata da un direttore generale, traduce gli indirizzi in atti."),
+ (6,"chiaro",0,"Azienda Zero fornisce supporto tecnico e gestisce le funzioni centralizzate del sistema. Che cosa significhi in concreto lo vediamo nella prossima lezione, dedicata proprio a lei."),
+ (6,"chiaro",0,"I direttori generali delle aziende sono nominati dalla Giunta regionale, con obiettivi che vengono assegnati e poi valutati ogni anno."),
+ (6,"chiaro",0,"E nelle ULSS c'e' la Conferenza dei sindaci, che da' voce ai territori. E' un altro segno dello stesso legame fra l'azienda sanitaria e i Comuni."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"Lo strumento principale della programmazione regionale e' il Piano Socio Sanitario Regionale, il PSSR. Anche nel nome del piano, sanitario e sociale stanno insieme."),
+ (7,"chiaro",0,"Quello vigente e' il piano duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del ventotto dicembre duemiladiciotto."),
+ (7,"chiaro",0,"Gli atti regionali continuano a richiamarlo come riferimento della programmazione, in attesa di un nuovo piano. Prima della prova, verifica se e' stato approvato un nuovo piano."),
+ (7,"chiaro",0,"I suoi temi: la cronicita' e la stratificazione della popolazione, la rete ospedaliera hub and spoke, il territorio e le cure intermedie, l'integrazione socio-sanitaria, il personale, l'innovazione."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"Gli altri strumenti. Le schede di dotazione ospedaliera e territoriale, approvate con delibera di Giunta regionale, che stabiliscono per ogni ospedale e ogni territorio funzioni e posti letto."),
+ (8,"chiaro",0,"Gli obiettivi annuali assegnati ai direttori generali. I Piani di Zona. Il Piano Regionale della Prevenzione. E i piani di settore, come quello per le dipendenze o per le cure palliative."),
+ (8,"chiaro",0,"E la Relazione Socio Sanitaria, pubblicata ogni anno, che descrive lo stato di salute della popolazione e l'attivita' del sistema: una fonte utile per prepararsi all'orale."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"[thoughtful] Il contesto. Il Veneto ha circa quattro virgola otto milioni di abitanti, ed e' fra le regioni con la popolazione piu' anziana."),
+ (9,"chiaro",0,"Ha una fortissima presenza turistica, con decine di milioni di presenze l'anno. E un territorio vario: la montagna, la pianura, la laguna, il delta del Po."),
+ (9,"chiaro",0,"Le implicazioni: molta cronicita' e non autosufficienza, picchi stagionali di domanda nelle zone turistiche, e servizi da garantire anche nelle zone disagiate, come la montagna bellunese o il delta polesano."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"Il distretto, in Veneto, e' il perno dell'integrazione. E' l'articolazione territoriale dell'ULSS che governa la domanda e la presa in carico."),
+ (10,"chiaro",0,"Comprende l'assistenza primaria, la specialistica territoriale, l'ADI, la residenzialita', i consultori. E si integra con i Comuni."),
+ (10,"chiaro",0,"Nel distretto ha sede l'UVMD, e il distretto coordina le transizioni con la COT. Li approfondiamo nelle lezioni tredici punto quattro e tredici punto cinque."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"[curious] Il caso d'esame. La domanda tipo: descriva l'assetto del Servizio Socio Sanitario del Veneto. Ecco una risposta strutturata, in cinque elementi."),
+ (11,"chiaro",0,"Primo: e' un servizio socio-sanitario, con una forte integrazione fra sanitario e sociale. Secondo: la legge regionale diciannove del duemilasedici ha istituito Azienda Zero."),
+ (11,"chiaro",0,"E ha ridotto le ULSS da ventuno a nove, dal duemiladiciassette. Terzo: ci sono due aziende ospedaliere universitarie, a Padova e a Verona, e lo IOV."),
+ (11,"chiaro",0,"Quarto: la programmazione si basa sul Piano Socio Sanitario Regionale e sulle schede di dotazione. Quinto: il distretto e' il perno del territorio. Cinque elementi, un minuto e mezzo."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"Un esempio concreto, dal territorio di Padova e Rovigo. L'ULSS sei Euganea copre la provincia di Padova, l'ULSS cinque Polesana quella di Rovigo. A Padova ci sono l'Azienda Ospedale-Universita' e lo IOV."),
+ (12,"chiaro",0,"Insieme formano una rete: l'ospedale universitario fa da hub per le alte specialita', gli ospedali delle ULSS fanno da spoke, e il territorio garantisce la continuita'."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"Perche' tutto questo serve a un infermiere? Per capire da chi dipendi e chi decide. E per sapere a chi rivolgersi quando un paziente deve essere dimesso o preso in carico: il distretto, la COT, l'UVMD."),
+ (13,"chiaro",0,"Per collegare la tua pratica alla programmazione regionale. E all'orale, per dimostrare che conosci il sistema in cui chiedi di entrare."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"chiaro",0,"Le fonti da consultare per aggiornarti. Il portale della Regione del Veneto, area Sanita' e Sociale. Il sito di Azienda Zero. E i siti delle ULSS, con i loro atti aziendali."),
+ (14,"chiaro",0,"Il Bollettino Ufficiale della Regione del Veneto, il BUR, dove sono pubblicate leggi e delibere. E la Relazione Socio Sanitaria, che esce ogni anno."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"chiaro",0,"La tabella. Servizio Socio Sanitario. Legge regionale diciannove del duemilasedici: Azienda Zero, e ULSS da ventuno a nove dal primo gennaio duemiladiciassette."),
+ (15,"chiaro",0,"Le nove ULSS: Dolomiti, Marca Trevigiana, Serenissima, Veneto Orientale, Polesana, Euganea, Pedemontana, Berica, Scaligera. Poi le aziende universitarie di Padova e di Verona, e lo IOV."),
+ (15,"chiaro",0,"L'Area Sanita' e Sociale. Il PSSR duemiladiciannove, duemilaventitre', legge regionale quarantotto del duemiladiciotto. Le schede di dotazione. I Piani di Zona. Il distretto."),
+
+ (16,"profondo",1.2,"[serious] In Veneto la sanita' e' socio sanitaria: sanitario e sociale insieme, nove ULSS, Azienda Zero. E' il sistema in cui chiedi di entrare, e la commissione si aspetta che tu lo conosca."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: Azienda Zero, l'ente che bandisce questo concorso. Che cos'e', che cosa fa, e che cosa significa per te come candidato. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Un sistema socio-sanitario",3:"La legge regionale 19 del 2016",4:"Le nove Aziende ULSS",5:"Gli altri enti",6:"La governance regionale",
+ 7:"Il Piano Socio Sanitario Regionale",8:"Gli altri strumenti di programmazione",9:"I numeri del contesto",10:"Il distretto",
+ 11:"Il caso d'esame",12:"Padova e Rovigo",13:"Perche' conoscere il sistema",14:"Le fonti da consultare",15:"La tabella",16:"La frase della lezione",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

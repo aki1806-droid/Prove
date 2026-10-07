@@ -4,72 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo normativo con lo strumento che ti avevo promesso nella prima lezione: la tabella a tre colonne, fonte, contenuto, anno."),
- (1,"chiaro",0,"E' il modo piu' efficace per memorizzare le norme, ed e' spesso il modo in cui sono costruite le domande a risposta multipla: un numero, un anno, un contenuto da abbinare."),
+ (1,"chiaro",0,"[warm] Il Veneto ha costruito nel tempo una rete articolata per le persone non autosufficienti, con strumenti e nomi propri che altrove non esistono: i Centri di Servizi, la SVaMA, le impegnative."),
+ (1,"chiaro",0,"Molti infermieri lavorano in questa rete, e all'orale questi termini dimostrano una preparazione specifica sul Veneto. Vediamo come si entra nella rete, quali servizi offre e che cosa fa l'infermiere."),
 
- (2,"chiaro",0,"La Costituzione, del millenovecentoquarantotto. Articolo due, la solidarieta'. Articolo tre, l'uguaglianza. Articolo tredici, la liberta' personale, che ritroviamo nella contenzione."),
- (2,"chiaro",0,"Articolo trentadue: la salute come fondamentale diritto dell'individuo e interesse della collettivita', cure gratuite agli indigenti, e trattamenti obbligatori solo per legge, nel rispetto della persona umana."),
- (2,"chiaro",0,"Sono le due anime dell'articolo: la liberta' di scegliere e di rifiutare le cure, e i trattamenti imposti per legge, come il TSO o le vaccinazioni obbligatorie. E' la riserva di legge."),
- (2,"chiaro",0,"Articolo novantasette: buon andamento, imparzialita', e accesso agli impieghi pubblici mediante concorso. Articolo centodiciassette: il riparto delle competenze fra Stato e Regioni."),
- (2,"chiaro",0,"La legge costituzionale tre del duemilauno ha riformato il Titolo quinto: la salute e' materia concorrente, e la determinazione dei LEA spetta allo Stato, in via esclusiva."),
+ (2,"chiaro",0,"Il principio e' la porta unica. Non si accede ai servizi per la non autosufficienza perche' c'e' un posto libero, o perche' la famiglia insiste."),
+ (2,"chiaro",0,"Si accede attraverso una valutazione multidimensionale, svolta dall'UVMD: e' la porta unica di accesso alla rete integrata dei servizi, per i casi complessi."),
+ (2,"chiaro",0,"E gli strumenti sono uguali in tutta la regione. Questo garantisce uniformita' ed equita': due persone con lo stesso bisogno, in due ULSS diverse, vengono valutate allo stesso modo."),
 
- (3,"chiaro",0,"L'ordinamento del SSN. Legge ottocentotrentatre' del settantotto: l'istituzione, con i tre principi da dire insieme, universalita', uguaglianza, globalita'. E agli articoli dal trentatre' al trentacinque, il TSO."),
- (3,"chiaro",0,"Decreti legislativi cinquecentodue del novantadue e cinquecentodiciassette del novantatre': l'aziendalizzazione. Le USL diventano aziende, con il direttore generale al vertice."),
- (3,"chiaro",0,"Decreto legislativo duecentoventinove del novantanove, la riforma Bindi: il distretto, l'accreditamento istituzionale, l'esclusivita' dei dirigenti sanitari, l'atto aziendale."),
- (3,"chiaro",0,"DPCM del dodici gennaio duemiladiciassette: i LEA in tre livelli. Prevenzione collettiva e sanita' pubblica, assistenza distrettuale, assistenza ospedaliera."),
- (3,"chiaro",0,"DM del dodici marzo duemiladiciannove: il Nuovo Sistema di Garanzia, che verifica i LEA nelle tre aree. E gli standard: DM settanta del duemilaquindici per l'ospedale, DM settantasette del duemilaventidue per il territorio."),
+ (3,"chiaro",0,"L'UVMD e' l'Unita' di Valutazione Multidimensionale Distrettuale. Il nome dice gia' molto: valuta la persona in piu' dimensioni, e lavora nel distretto."),
+ (3,"chiaro",0,"La sua composizione di base comprende il direttore del distretto, o un suo delegato, il medico di medicina generale della persona e l'assistente sociale del Comune."),
+ (3,"chiaro",0,"A questi si aggiungono altri professionisti secondo il caso: l'infermiere, gli specialisti, il fisioterapista. E' l'integrazione veneta fra sanitario e sociale, la stessa delle ULSS, le Unita' Locali Socio Sanitarie."),
+ (3,"chiaro",0,"Le sue funzioni sono quattro. Valuta il bisogno. Definisce e approva il progetto individuale. Individua il servizio piu' adatto. E verifica nel tempo i risultati."),
 
- (4,"chiaro",0,"Le professioni, un richiamo dal modulo uno. DM settecentotrentanove del novantaquattro: il profilo dell'infermiere. Legge quarantadue del novantanove: l'abolizione del mansionario."),
- (4,"chiaro",0,"Duecentocinquantuno del duemila: autonomia e dirigenza. Quarantatre' del duemilasei: articolazione delle funzioni. Legge tre del duemiladiciotto: gli Ordini delle professioni sanitarie."),
- (4,"chiaro",0,"Ventiquattro del duemiladiciassette: sicurezza delle cure e responsabilita'. Duecentodiciannove del duemiladiciassette: consenso e DAT. Trentotto del duemiladieci: cure palliative e terapia del dolore."),
+ (4,"chiaro",0,"Gli strumenti. La SVaMA e' la Scheda per la Valutazione Multidimensionale dell'Anziano: lo strumento con cui l'UVMD esplora la persona, area per area."),
+ (4,"chiaro",0,"Le aree sono cinque: quella sanitaria, quella cognitiva, quella funzionale, cioe' l'autonomia e la mobilita', i bisogni assistenziali e l'area sociale. Ne esce un profilo di autonomia e di bisogno."),
+ (4,"chiaro",0,"Per le persone con disabilita' esiste una scheda dedicata, la SVaMDi, la scheda per la valutazione delle persone con disabilita'. Quindi: SVaMA per l'anziano, SVaMDi per la disabilita'."),
+ (4,"chiaro",0,"L'infermiere contribuisce soprattutto alla valutazione sanitaria e a quella dei bisogni assistenziali: le lesioni, i dispositivi, le terapie, il rischio di caduta."),
 
- (5,"chiaro",0,"L'economia. Fiscalita' generale, e fabbisogno sanitario nazionale standard, ripartito per popolazione pesata. Decreto sessantotto del duemilaundici: i costi standard, con le regioni benchmark."),
- (5,"chiaro",0,"I DRG classificano i ricoveri per consumo di risorse, dai dati della SDO, ciascuno con la sua tariffa. Spingono a ridurre la degenza media, ma con il rischio di dimissioni precoci."),
- (5,"chiaro",0,"Il budget, negoziato con ogni struttura, e il controllo di gestione. I tetti di spesa farmaceutica, con il payback. I piani di rientro per le Regioni in disavanzo."),
- (5,"chiaro",0,"Il PNRR, Missione sei, con due componenti: le reti di prossimita' per il territorio, e innovazione, ricerca e digitalizzazione. Finanzia soprattutto investimenti, non personale."),
+ (5,"chiaro",0,"I servizi della rete, dal meno al piu' intensivo. Prima la domiciliarita': l'ADI, l'assistenza domiciliare integrata, e il SAD dei Comuni, che con l'ADI si integra."),
+ (5,"chiaro",0,"E l'impegnativa di cura domiciliare: un contributo economico per chi assiste a casa una persona non autosufficiente. Anche questo e' un nome tutto veneto, da usare cosi' all'orale."),
+ (5,"chiaro",0,"Poi la semiresidenzialita': i centri diurni, dove la persona trascorre la giornata e la sera rientra a casa. E la residenzialita': i Centri di Servizi."),
+ (5,"chiaro",0,"E poi i ricoveri temporanei di sollievo, e i nuclei specifici: per esempio per le demenze con gravi disturbi del comportamento, o per gli stati vegetativi."),
 
- (6,"chiaro",0,"Il lavoro. Decreto centosessantacinque del duemilauno, il pubblico impiego: l'articolo cinquantatre' sulle incompatibilita' e, dal cinquantacinque in poi, la disciplina."),
- (6,"chiaro",0,"I due CCNL del Comparto Sanita'. Il duemiladiciannove, duemilaventuno, con le aree. Il duemilaventidue, duemilaventiquattro, con l'assistente infermiere e le altre novita'."),
- (6,"chiaro",0,"Le altre novita' dell'ultimo contratto: l'elevata qualificazione ampliata, le ferie a ore, la settimana su quattro giorni, il patrocinio legale per chi subisce un'aggressione."),
- (6,"chiaro",0,"Decreto sessantasei del duemilatre': undici ore di riposo consecutive ogni ventiquattro, ventiquattro ore di riposo settimanale, quarantotto ore di durata media massima."),
- (6,"chiaro",0,"Il codice di comportamento: DPR sessantadue del duemilatredici, e ottantuno del duemilaventitre'. Legge centonovanta del duemiladodici: anticorruzione. Decreto trentatre' del duemilatredici: trasparenza."),
- (6,"chiaro",0,"Decreto ventiquattro del duemilaventitre': il whistleblowing, la tutela di chi segnala illeciti. Legge centotredici del duemilaventi: le aggressioni al personale sanitario."),
+ (6,"chiaro",0,"Il principio guida e' la domiciliarita': la priorita' va al mantenimento della persona a casa, quando e' possibile e sicuro, sostenendo la famiglia e il caregiver."),
+ (6,"chiaro",0,"La residenzialita' e' la risposta quando il bisogno non e' piu' gestibile al domicilio. Non e' il primo passo: arriva quando la casa, anche con tutti i sostegni, non basta piu'."),
+ (6,"chiaro",0,"E' un principio coerente con il DM settantasette e con la riforma nazionale per le persone anziane non autosufficienti. E con un obiettivo nazionale: aumentare la quota di anziani assistiti a casa."),
 
- (7,"chiaro",0,"La sicurezza. Decreto ottantuno del duemilaotto. Il datore di lavoro ha due obblighi non delegabili: il DVR e la nomina dell'RSPP. Il preposto, rafforzato nel duemilaventuno: interviene e, se c'e' pericolo, interrompe."),
- (7,"chiaro",0,"Il medico competente, con la sorveglianza sanitaria. L'RLS, eletto dai lavoratori. Il giudizio di idoneita', e il ricorso all'organo di vigilanza entro trenta giorni."),
- (7,"chiaro",0,"I rischi, titolo per titolo. Titolo sesto, la movimentazione dei pazienti, con l'indice MAPO. Titolo nono, il chimico. Titolo decimo, il biologico. Decimo bis, i taglienti."),
- (7,"chiaro",0,"Decreto centouno del duemilaventi: le radiazioni ionizzanti, con tempo, distanza e schermature. Articolo ventotto: lo stress lavoro-correlato, da valutare nel DVR."),
+ (7,"chiaro",0,"I Centri di Servizi. E' la denominazione veneta delle strutture residenziali per anziani non autosufficienti: quelle che in altre regioni si chiamano RSA, o case di riposo."),
+ (7,"chiaro",0,"Possono essere pubblici, privati o del terzo settore. E devono essere autorizzati e accreditati secondo la legge regionale ventidue del duemiladue, che vedremo nella prossima lezione."),
+ (7,"chiaro",0,"L'equipe comprende infermieri e OSS, il medico, il fisioterapista, l'educatore, lo psicologo e l'assistente sociale. Un'equipe multiprofessionale, come la valutazione che ha portato la persona fin li'."),
+ (7,"chiaro",0,"Per ogni ospite si redige un Piano Assistenziale Individualizzato, il PAI. Non confonderlo con il progetto individuale: il progetto lo approva l'UVMD, il PAI si scrive nella struttura, per ogni ospite."),
 
- (8,"chiaro",0,"La qualita'. Donabedian: struttura, processo, esito. Il ciclo PDCA, per il miglioramento continuo. Indicatori e standard. E il Programma Nazionale Esiti, dell'AGENAS."),
- (8,"chiaro",0,"Donabedian sulle lesioni da pressione. Struttura: le superfici antidecubito. Processo: quanti pazienti valutati con la Braden all'ingresso. Esito: l'incidenza di nuove lesioni."),
- (8,"chiaro",0,"Autorizzazione, accreditamento istituzionale, accreditamento all'eccellenza e ISO: tre cose diverse. E il governo clinico, con l'audit e l'HTA."),
+ (8,"chiaro",0,"L'impegnativa di residenzialita' e' il titolo che riconosce la quota sanitaria della retta: la parte dei costi legata all'assistenza sanitaria, che e' a carico del Servizio Sanitario Regionale."),
+ (8,"chiaro",0,"Si attribuisce dopo la valutazione dell'UVMD, in base al bisogno, e secondo una graduatoria gestita dall'ULSS. Con livelli di intensita' assistenziale diversi."),
+ (8,"chiaro",0,"La quota alberghiera, cioe' il vitto, l'alloggio e i servizi generali, resta a carico della persona o della famiglia. Con un'eventuale integrazione del Comune, in base all'ISEE."),
+ (8,"chiaro",0,"E' una distinzione che spiega perche' le famiglie pagano una parte della retta. Ed e' una confusione che costa punti: l'impegnativa copre la quota sanitaria, non la retta alberghiera."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Il decreto legislativo, su delega del Parlamento, e il decreto-legge, per necessita' e urgenza, da convertire entro sessanta giorni."),
- (9,"chiaro",0,"Il cinquecentodue, l'aziendalizzazione, e il duecentoventinove, distretto e accreditamento. Il DM settanta per l'ospedale, il settantasette per il territorio. L'autorizzazione e l'accreditamento."),
- (9,"chiaro",0,"Il dirigente, che organizza, e il preposto, che vigila. L'RSPP, nominato, e l'RLS, eletto. L'indicatore di processo, come si lavora, e quello di esito, il risultato di salute."),
+ (9,"chiaro",0,"L'infermiere nel Centro di Servizi ha un ruolo molto autonomo. Partecipa alla valutazione e al PAI, e gestisce la terapia, spesso complessa, e la politerapia."),
+ (9,"chiaro",0,"Previene le cadute, le lesioni da pressione, la malnutrizione, la disidratazione e le infezioni. E gestisce le demenze e i disturbi del comportamento, i BPSD."),
+ (9,"chiaro",0,"Accompagna la persona nelle cure di fine vita. Coordina il lavoro degli OSS. E mantiene la relazione con le famiglie."),
+ (9,"chiaro",0,"E si raccorda con il medico e con l'ospedale, per evitare trasferimenti inappropriati in pronto soccorso. E' l'applicazione pratica di tutto il modulo undici."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. L'articolo trentadue e i trattamenti obbligatori. I principi della ottocentotrentatre'. Che cosa sono i LEA. Le figure del decreto ottantuno, e il preposto."),
- (10,"chiaro",0,"Primary nursing e modello per compiti. Struttura, processo, esito. I DRG. Il codice di comportamento e i social. Preparane una risposta di un minuto ciascuna."),
+ (10,"chiaro",0,"Il percorso di una persona, dall'inizio. La segnalazione puo' venire dal medico di famiglia, dall'ospedale, dai servizi sociali, o dalla famiglia stessa."),
+ (10,"chiaro",0,"Si presenta la domanda al distretto. L'UVMD valuta la persona con la SVaMA, e definisce il progetto individuale: e' la porta unica che abbiamo visto all'inizio."),
+ (10,"chiaro",0,"Si attiva il servizio: il domicilio con l'ADI e l'impegnativa di cura domiciliare, il centro diurno, il sollievo. Oppure il Centro di Servizi, con l'impegnativa di residenzialita'."),
+ (10,"chiaro",0,"E la situazione si rivaluta periodicamente, perche' il bisogno cambia. Il percorso non finisce con l'ingresso in un servizio: torna sempre alla valutazione."),
 
- (11,"chiaro",0,"Il ponte verso il prossimo modulo. Il Titolo quinto affida a ogni Regione l'organizzazione del proprio servizio, e il Veneto ha costruito un sistema con caratteristiche proprie."),
- (11,"chiaro",0,"La legge regionale diciannove del duemilasedici, Azienda Zero, le nove ULSS, le schede di dotazione, l'UVMD con la SVaMA, la legge regionale ventidue del duemiladue."),
- (11,"chiaro",0,"Il modulo tredici traduce tutto questo modulo nel contesto in cui lavorerai."),
+ (11,"chiaro",0,"[curious] Il caso d'esame. La figlia di un anziano con demenza moderata, che vive solo, chiede all'infermiere del reparto come ottenere un posto in casa di riposo dopo la dimissione. Che cosa rispondi?"),
+ (11,"chiaro",0,"Spieghi che in Veneto l'accesso ai Centri di Servizi passa dalla valutazione multidimensionale dell'UVMD, con la SVaMA, attivabile dal distretto."),
+ (11,"chiaro",0,"Che nel frattempo, se la dimissione e' vicina, si puo' attivare una dimissione protetta tramite la COT, con soluzioni temporanee: un Ospedale di Comunita', o un ricovero di sollievo."),
+ (11,"chiaro",0,"E che esistono anche i servizi domiciliari e i centri diurni. Poi segnali il caso secondo la procedura del reparto. [serious] Non prometti un posto: orienti nel percorso."),
 
- (12,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Completa nel quaderno la tabella fonte, contenuto, anno. E prepara delle flashcard: numero e anno da una parte, contenuto dall'altra."),
- (12,"chiaro",0,"Nelle settimane prima della prova verifica le novita', come il rinnovo contrattuale duemilaventicinque, duemilaventisette, o gli aggiornamenti dei LEA."),
+ (12,"chiaro",0,"[thoughtful] Le prospettive. A livello nazionale, la legge trentatre' del duemilaventitre' e il decreto legislativo ventinove del duemilaventiquattro hanno avviato la riforma per le persone anziane."),
+ (12,"chiaro",0,"Con una valutazione multidimensionale unificata, il sostegno alla domiciliarita', e una prestazione universale, in via sperimentale."),
+ (12,"chiaro",0,"Intanto la domanda continuera' a crescere, mentre le strutture affrontano la carenza di infermieri e di OSS, e il tema della qualita' e della sicurezza nelle residenze. Su questo, un candidato puo' mostrare consapevolezza."),
 
- (13,"chiaro",0,"Un metodo per i quiz normativi. Leggi tutte le opzioni. Attenzione alle parole assolute, sempre, mai, esclusivamente: spesso indicano l'opzione sbagliata."),
- (13,"chiaro",0,"Quando non ricordi il numero, ragiona per principi: una legge sul consenso non puo' prevedere che l'infermiere decida al posto del paziente. E se ci sono penalita', non tirare a indovinare."),
+ (13,"chiaro",0,"Le parole venete da usare all'orale: Centri di Servizi, UVMD, SVaMA e SVaMDi, impegnativa di residenzialita' e impegnativa di cura domiciliare, quota sanitaria e quota alberghiera, progetto individuale e PAI, domiciliarita'."),
 
- (14,"profondo",1.2,"[serious] Conoscere il sistema e' parte della competenza professionale."),
- (14,"chiaro",0,"Un infermiere che sa come funziona la sua organizzazione sa anche a chi rivolgersi, che cosa puo' chiedere, e che cosa deve garantire."),
+ (14,"chiaro",0,"La tabella. Porta unica. UVMD: direttore di distretto, medico di medicina generale, assistente sociale, e altri. SVaMA e SVaMDi. Domiciliarita': ADI, SAD, impegnativa di cura domiciliare. Centri diurni e sollievo."),
+ (14,"chiaro",0,"Centri di Servizi, autorizzati e accreditati. Impegnativa di residenzialita', cioe' la quota sanitaria; quota alberghiera a carico della persona, con l'integrazione del Comune. Il PAI. E la riforma nazionale."),
 
- (15,"chiaro",0,"[warm] Nel prossimo modulo entriamo nel Servizio Socio Sanitario del Veneto: l'assetto regionale, Azienda Zero, la rete ospedaliera e territoriale, la non autosufficienza, la prevenzione e la sanita' digitale."),
- (15,"chiaro",0,"E' il modulo che piu' distingue chi si prepara per questo concorso. Ci vediamo li'."),
+ (15,"profondo",1.2,"[serious] La frase della lezione: prima si valuta il bisogno, poi si sceglie il servizio. E' il contrario di cercare un posto libero."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione: l'autorizzazione e l'accreditamento con la legge regionale ventidue del duemiladue, gli screening oncologici e la prevenzione in Veneto. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"La Costituzione",3:"L'ordinamento del SSN",4:"Le professioni",5:"L'economia",6:"Il lavoro",
- 7:"La sicurezza",8:"La qualita'",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",11:"Il ponte verso il Modulo 13",
- 12:"Come proseguire",13:"Il metodo per i quiz normativi",14:"La frase del modulo",15:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La porta unica",3:"L'UVMD",4:"La SVaMA e la SVaMDi",5:"I servizi della rete",6:"La domiciliarita'",
+ 7:"I Centri di Servizi",8:"L'impegnativa di residenzialita'",9:"L'infermiere nel Centro di Servizi",10:"Il percorso di una persona",
+ 11:"Il caso d'esame",12:"Le prospettive",13:"Le parole venete",14:"La tabella",15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
