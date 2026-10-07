@@ -155,8 +155,8 @@ export const SCENE = [
 {id:"s39", tipo:"griglia", tema:"chiaro", colonne:3, spunta:true, sopratitolo:"Le condizioni da verificare", celle:[
   {t:"**Pacemaker** e defibrillatori non compatibili"}, {t:"Clip vascolari **cerebrali**"}, {t:"Impianti **cocleari**"},
   {t:"**Neurostimolatori**"}, {t:"**Schegge** metalliche, soprattutto oculari"}, {t:"**Pompe**"}]},
-{id:"s40", tipo:"raggiera", tema:"chiaro", sopratitolo:"Niente ferromagnetico in sala · effetto proiettile", centro:"Magnete",
-  raggi:[{t:"Bombola", d:"di ossigeno", key:true},{t:"Barella"},{t:"Sedia", d:"a rotelle"},{t:"Pompa", d:"non compatibile"}]},
+{id:"s40", tipo:"raggiera", tema:"chiaro", sopratitolo:"Nulla di ferromagnetico in sala: diventa un proiettile", centro:"Magnete",
+  raggi:[{t:"Bombola", key:true},{t:"Barella"},{t:"Sedia"},{t:"Pompa"}]},
 {id:"s41", tipo:"icone", tema:"chiaro", sopratitolo:"Solo dispositivi certificati come compatibili con la RM", voci:[
   {icona:"spunta", t:"Dispositivi compatibili", key:true}, {icona:"persona", t:"Claustrofobia"},
   {icona:"campana", t:"Rumore"}, {icona:"avviso", t:"Cerotti transdermici", d:"con metallo"},

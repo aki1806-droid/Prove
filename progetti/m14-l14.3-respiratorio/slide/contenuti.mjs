@@ -108,9 +108,9 @@ export const SCENE = [
 {id:"s37", tipo:"trappola", tema:"chiaro", sopratitolo:"La cianosi", righe:[
   {sb:"«Niente cianosi, niente ipossiemia»", ok:"È un segno **tardivo**, e può mancare nel paziente **anemico**"}]},
 
-{id:"s38", tipo:"icone", tema:"chiaro", sopratitolo:"Il collegamento con l'assistenza", voci:[
+{id:"s38", tipo:"icone", tema:"chiaro", sopratitolo:"Il collegamento con l'assistenza · lo spirometro incentivante: lezione 9.5", voci:[
   {icona:"persona", t:"Seduta o semiseduta", d:"facilita il lavoro del diaframma"},
-  {icona:"spunta", t:"Respirazione profonda", d:"spirometro incentivante · contro l'atelettasia · lezione 9.5", key:true}]},
+  {icona:"spunta", t:"Respirazione profonda", d:"e spirometro incentivante, contro l'**atelettasia**", key:true}]},
 {id:"s39", tipo:"griglia", tema:"chiaro", colonne:2, spunta:true, sopratitolo:"E ancora", celle:[
   {t:"**Frequenza respiratoria**: parametro sentinella", key:true}, {t:"**Target** di saturazione · lezione 8.2"},
   {t:"**Umidificazione** nelle vie aeree artificiali"}, {t:"**Bronco destro** e posizione del tubo"}]},

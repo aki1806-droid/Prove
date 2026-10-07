@@ -75,10 +75,10 @@ export const SCENE = [
 {id:"s19", tipo:"raggiera", tema:"chiaro", sopratitolo:"Le funzioni del fegato", centro:"Fegato",
   raggi:[{t:"Albumina"}, {t:"Fattori", d:"II · VII · IX · X"}, {t:"Bilirubina", d:"coniugazione"},
          {t:"Urea", d:"dall'ammoniaca"}, {t:"Farmaci", d:"primo passaggio", key:true}]},
-{id:"s20", tipo:"cifre", tema:"chiaro", sopratitolo:"Il rene · la creatinina dipende dalla massa muscolare", voci:[
-  {n:"180", suf:"L/die", t:"filtrato"},
-  {n:"1,5", suf:"L", t:"urine al giorno"},
-  {n:"90-120", suf:"ml/min", t:"GFR", key:true}]},
+{id:"s20", tipo:"tre", tema:"chiaro", sopratitolo:"Il rene · la creatinina dipende dalla massa muscolare", box:[
+  {n:"Filtrato", t:"~180 L/die"},
+  {n:"Urine", t:"~1,5 L/die"},
+  {n:"GFR", t:"~90-120 ml/min", key:true}]},
 {id:"s21", tipo:"confronto", tema:"chiaro", sopratitolo:"Il rene non solo filtra", col:[
   {h:"Il rene produce", t:"**eritropoietina** e **renina** · attiva la **vitamina D**"},
   {h:"Le soglie della diuresi", t:"oliguria **< 400 ml/24 h** · anuria **< 100 ml/24 h**"}]},
@@ -139,11 +139,9 @@ export const SCENE = [
   ["Bilirubina totale", "< ~1,2 mg/dl"],
   ["Lattati", "< 2 mmol/L"],
   ["SpO₂ target", "94-98% · ipercapnici **88-92%**"]], chiave:[3]},
-{id:"s36", tipo:"cifre", tema:"chiaro", sopratitolo:"La tabella · l'emogas", voci:[
-  {n:"7,35-7,45", t:"pH", key:true},
-  {n:"35-45", t:"PaCO₂", d:"mmHg"},
-  {n:"80-100", t:"PaO₂", d:"mmHg, circa"},
-  {n:"22-26", t:"HCO₃⁻", d:"mEq/L"}]},
+{id:"s36", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false, sopratitolo:"La tabella · l'emogas", celle:[
+  {n:"pH", t:"**7,35-7,45**"}, {n:"CO₂", t:"PaCO₂ **35-45** mmHg"},
+  {n:"O₂", t:"PaO₂ **~80-100** mmHg"}, {n:"HCO₃⁻", t:"bicarbonato **22-26** mEq/L"}]},
 
 {id:"s37", tipo:"confronto", tema:"chiaro", sopratitolo:"I collegamenti più utili · ognuno una domanda d'esame", col:[
   {h:"Campione emolizzato", t:"K⁺ **falsamente alto**: il potassio sta nelle cellule"},
