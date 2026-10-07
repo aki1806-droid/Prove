@@ -60,7 +60,7 @@ export const SCENE = [
   ["Esito", "incidenza di **nuove lesioni**"]], chiave:[2]},
 
 {id:"s11", tipo:"ciclo", tema:"chiaro", sopratitolo:"Il ciclo PDCA · il ciclo di Deming", centro:"PDCA", attive:[0], passi:PDCA},
-{id:"s12", tipo:"ciclo", tema:"chiaro", sopratitolo:"Il ciclo PDCA · se funziona si standardizza, se no si corregge", centro:"PDCA", passi:PDCA},
+{id:"s12", tipo:"ciclo", tema:"chiaro", sopratitolo:"Il ciclo PDCA · Act", centro:"PDCA", passi:PDCA},
 {id:"s13", tipo:"frase", tema:"chiaro", sopratitolo:"Ogni giro parte dal risultato del precedente",
   testo:"E poi si **ricomincia**: è il **miglioramento continuo**."},
 {id:"s14", tipo:"percorso", tema:"chiaro", sopratitolo:"Un esempio · le cadute notturne sono aumentate", tappe:[
@@ -79,7 +79,7 @@ export const SCENE = [
   {n:"·", t:"Cadute per **1.000 giornate** di degenza"}, {n:"·", t:"Lesioni da **pressione**"},
   {n:"·", t:"Infezioni da **catetere**"}, {n:"·", t:"Aderenza all'**igiene delle mani** · lezione 4.2"}]},
 
-{id:"s19", tipo:"norma", tema:"chiaro", etichetta:"Gestito da AGENAS · Agenzia nazionale per i servizi sanitari regionali", sigla:"PNE",
+{id:"s19", tipo:"norma", tema:"chiaro", etichetta:"Gestito da AGENAS, l'agenzia nazionale", sigla:"PNE",
   testo:"Programma Nazionale Esiti: gli **esiti** delle cure negli ospedali italiani."},
 {id:"s20", tipo:"cifre", tema:"chiaro", sopratitolo:"Alcuni indicatori del PNE · e i tagli cesarei", voci:[
   {n:"30", suf:"giorni", d:"mortalità dopo un infarto"},
@@ -107,8 +107,8 @@ export const SCENE = [
 
 {id:"s28", tipo:"frase", tema:"chiaro", sopratitolo:"Il governo clinico · clinical governance",
   testo:"Le organizzazioni sanitarie, **responsabili del miglioramento continuo** e di standard elevati."},
-{id:"s29", tipo:"raggiera", tema:"chiaro", sopratitolo:"Strumenti già incontrati · il rischio clinico è la lezione 2.6", centro:"Governo clinico", attive:[0,1,2,3], raggi:GOVERNO},
-{id:"s30", tipo:"raggiera", tema:"chiaro", sopratitolo:"Responsabilità condivisa fra direzione e professionisti", centro:"Governo clinico", raggi:GOVERNO},
+{id:"s29", tipo:"raggiera", tema:"chiaro", sopratitolo:"Il governo clinico · il rischio clinico è la lezione 2.6", centro:"Governo", attive:[0,1,2,3], raggi:GOVERNO},
+{id:"s30", tipo:"raggiera", tema:"chiaro", sopratitolo:"Il governo clinico · responsabilità condivisa", centro:"Governo", raggi:GOVERNO},
 
 {id:"s31", tipo:"percorso", tema:"chiaro", sopratitolo:"L'audit clinico · confronto sistematico con standard espliciti", attive:[0,1,2], tappe:AUDIT},
 {id:"s32", tipo:"percorso", tema:"chiaro", sopratitolo:"L'audit clinico · si ripete la misurazione", tappe:AUDIT},

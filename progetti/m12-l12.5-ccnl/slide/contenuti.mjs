@@ -110,7 +110,7 @@ export const SCENE = [
 
 {id:"s40", tipo:"griglia", tema:"chiaro", colonne:2, spunta:true, sopratitolo:"Le aggressioni · CCNL 2022-2024", celle:[
   {t:"**Patrocinio legale** da parte dell'azienda", key:true}, {t:"**Supporto psicologico** al dipendente aggredito"}]},
-{id:"s41", tipo:"norma", tema:"chiaro", etichetta:"Aggravanti per lesioni al personale sanitario · osservatorio nazionale", sigla:"L. 113/2020",
+{id:"s41", tipo:"norma", tema:"chiaro", etichetta:"Lesioni al personale sanitario · aggravanti", sigla:"L. 113/2020",
   testo:"Raccomandazione n. 8 · ogni aggressione va **segnalata**."},
 
 {id:"s42", tipo:"frase", tema:"chiaro", sopratitolo:"Il caso d'esame · senza volto, ma con dettagli riconoscibili",

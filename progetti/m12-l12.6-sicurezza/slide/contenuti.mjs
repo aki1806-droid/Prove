@@ -134,7 +134,7 @@ export const SCENE = [
   {h:"Anche i lavoratori", t:"hanno l'obbligo di **usare correttamente** le attrezzature"}]},
 
 {id:"s46", tipo:"norma", tema:"chiaro", sopratitolo:"In Veneto · e in ogni azienda, il servizio di prevenzione e protezione",
-  etichetta:"Servizio di Prevenzione, Igiene e Sicurezza negli Ambienti di Lavoro · ULSS", sigla:"SPISAL",
+  etichetta:"Prevenzione, igiene e sicurezza ambienti di lavoro", sigla:"SPISAL",
   testo:"L'organo di vigilanza: è qui che va il **ricorso** sull'idoneità."},
 
 {id:"s47", tipo:"tabella", tema:"chiaro", sopratitolo:"La tabella · D.Lgs. 81/2008", colonne:["42%","58%"],

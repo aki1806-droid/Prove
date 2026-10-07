@@ -48,9 +48,8 @@ export const SCENE = [
   sotto:"Personalità giuridica **pubblica** · autonomia organizzativa, amministrativa e gestionale."},
 {id:"s07", tipo:"confronto", tema:"chiaro", sopratitolo:"I grandi ospedali possono diventare aziende a sé", col:[
   {h:"Il territorio", t:"l'**azienda** sanitaria"}, {h:"Il grande ospedale", t:"l'**azienda ospedaliera**, autonoma", key:true}]},
-{id:"s08", tipo:"albero", tema:"chiaro", sopratitolo:"Il vertice dell'azienda",
-  radice:"**Direttore generale** · nominato dalla Regione", rami:[
-  {cond:"lo affianca", esito:"il direttore **sanitario**"}, {cond:"lo affianca", esito:"il direttore **amministrativo**"}]},
+{id:"s08", tipo:"tre", tema:"chiaro", sopratitolo:"Il vertice dell'azienda", box:[
+  {n:"1", t:"Direttore generale", d:"nominato dalla **Regione**", key:true}, {n:"2", t:"Direttore sanitario", d:"lo affianca"}, {n:"3", t:"Direttore amministrativo", d:"lo affianca"}]},
 {id:"s09", tipo:"griglia", tema:"chiaro", colonne:2, spunta:true, sopratitolo:"Le altre novità · i DRG nella lezione 12.4, il finanziamento", celle:[
   {t:"Cresce il ruolo delle **Regioni**"}, {t:"Pagamento delle prestazioni **a tariffa**: i **DRG**"}]},
 
@@ -119,14 +118,10 @@ export const SCENE = [
   "Prestazioni garantite **a tutti**, gratis o con ticket", "Il **DPCM 12 gennaio 2017**",
   "**Tre livelli**: prevenzione, distrettuale, ospedaliera", "La verifica: **Nuovo Sistema di Garanzia**"]},
 
-{id:"s41", tipo:"albero", tema:"chiaro", sopratitolo:"Le figure di vertice",
-  radice:"**Direttore generale**", rami:[
-  {cond:"ha", esito:"la rappresentanza **legale**"}, {cond:"risponde", esito:"della **gestione**"},
-  {cond:"nomina", esito:"gli **altri direttori**", key:true}]},
-{id:"s42", tipo:"albero", tema:"chiaro", sopratitolo:"Le altre direzioni",
-  radice:"**Direttore generale**", rami:[
-  {cond:"sanitario", esito:"**governo clinico** e organizzazione sanitaria"}, {cond:"amministrativo", esito:"gestione **amministrativa**"},
-  {cond:"in Veneto", esito:"direttore dei **servizi socio-sanitari**", key:true}]},
+{id:"s41", tipo:"griglia", tema:"chiaro", colonne:3, spunta:true, sopratitolo:"Le figure di vertice · il direttore generale", celle:[
+  {t:"La rappresentanza **legale**"}, {t:"La responsabilità della **gestione**"}, {t:"Nomina gli **altri direttori**", key:true}]},
+{id:"s42", tipo:"tre", tema:"chiaro", sopratitolo:"Le altre direzioni", box:[
+  {n:"1", t:"Direttore sanitario", d:"**governo clinico** e organizzazione sanitaria"}, {n:"2", t:"Direttore amministrativo", d:"gestione **amministrativa**"}, {n:"3", t:"Direttore dei servizi socio-sanitari", d:"in **Veneto**, per l'integrazione", key:true}]},
 {id:"s43", tipo:"tre", tema:"chiaro", sopratitolo:"Gli organi dell'azienda · nella prossima lezione", box:[
   {n:"1", t:"Direttore generale"}, {n:"2", t:"Collegio sindacale", d:"la regolarità contabile"}, {n:"3", t:"Collegio di direzione"}]},
 
