@@ -1,0 +1,43 @@
+[warm] Sistema nervoso ed endocrino sono i due sistemi di controllo del corpo. Il primo comunica con impulsi elettrici, rapidissimi; il secondo con gli ormoni, piu' lenti ma duraturi.
+
+Conoscerli spiega i segni neurologici della lezione otto punto sei, le emergenze endocrine della otto punto tre e, soprattutto, l'azione di molti farmaci. Partiamo dal sistema nervoso.
+
+Il sistema nervoso centrale comprende l'encefalo e il midollo spinale. Il sistema nervoso periferico comprende dodici paia di nervi cranici e trentuno paia di nervi spinali.
+
+Funzionalmente si distingue una componente somatica, volontaria, e una componente autonoma, involontaria, che a sua volta ha due branche: il simpatico e il parasimpatico.
+
+L'unita' e' il neurone, che comunica con gli altri attraverso le sinapsi, rilasciando i neurotrasmettitori: acetilcolina, noradrenalina, dopamina, serotonina, GABA, glutammato.
+
+Molti farmaci agiscono proprio su questi messaggeri: le benzodiazepine sul GABA, la levodopa sulla dopamina, gli antidepressivi sulla serotonina.
+
+Le vie motorie e sensitive. Le vie sensitive conducono il tatto, il dolore, la temperatura e la posizione. La via motoria principale e' la via corticospinale, detta anche piramidale.
+
+Parte dalla corteccia e scende nel midollo incrociandosi: e' la decussazione. Per questo una lesione dell'emisfero sinistro provoca un deficit motorio a destra.
+
+E siccome nella maggior parte delle persone il linguaggio ha sede nell'emisfero sinistro, un ictus con debolezza a destra si accompagna spesso ad afasia. Ricordi il caso della lezione otto punto sei?
+
+I riflessi. L'arco riflesso va dal recettore, per la via sensitiva, fino al midollo, e torna per la via motoria al muscolo, senza passare dalla volonta': la risposta e' rapida e involontaria.
+
+Gli esempi: il riflesso rotuleo, il riflesso pupillare alla luce, i riflessi della deglutizione e della tosse, che proteggono le vie aeree. E i riflessi tendinei ridotti segnalano la tossicita' da magnesio.
+
+Il segno di Babinski, cioe' l'estensione dell'alluce stimolando la pianta del piede, e' patologico nell'adulto: indica una lesione della via piramidale.
+
+Il sistema nervoso autonomo ha due branche. Il simpatico prepara alla lotta o fuga, e i suoi mediatori sono la noradrenalina e l'adrenalina.
+
+Agiscono su due famiglie di recettori. Gli alfa restringono i vasi. Poi i beta: i beta uno, nel cuore, aumentano frequenza e contrattilita'; i beta due, nei bronchi, li dilatano.
+
+Gli effetti del simpatico: aumento di frequenza e pressione, broncodilatazione, pupille dilatate, cioe' midriasi, intestino rallentato, ritenzione urinaria, glicemia piu' alta, sudorazione.
+
+Il parasimpatico governa invece il riposo e la digestione. Il suo mediatore e' l'acetilcolina, che agisce sui recettori muscarinici, e il suo nervo principale e' il vago.
+
+Gli effetti sono opposti a quelli del simpatico: frequenza ridotta, broncocostrizione, pupille strette, cioe' miosi, intestino piu' attivo, piu' secrezioni, e lo svuotamento della vescica.
+
+Una stimolazione vagale, durante un'aspirazione tracheale, uno sforzo o un dolore viscerale, puo' dare una bradicardia improvvisa, come abbiamo visto nella lezione otto punto due.
+
+[thoughtful] Ed ecco il collegamento con la farmacologia. I beta-bloccanti riducono frequenza e pressione. Quelli non selettivi bloccano anche i beta due bronchiali: possono scatenare un broncospasmo, cautela nell'asma.
+
+Il salbutamolo, un agonista beta due, dilata i bronchi, ma puo' dare tachicardia, tremori e ipokaliemia. L'adrenalina, che agisce su alfa e beta, si usa nell'anafilassi e nell'arresto.
+
+L'atropina e' un antimuscarinico: blocca l'acetilcolina e aumenta la frequenza. Ma secca le mucose, e puo' causare ritenzione urinaria, midriasi e confusione.
+
+E i farmaci anticolinergici, nell'anziano, provocano delirium, stipsi e ritenzione: ecco perche' compaiono fra i farmaci potenzialmente inappropriati della lezione undici punto uno.

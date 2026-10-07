@@ -1,0 +1,47 @@
+La pressione arteriosa dipende da due fattori: la gittata cardiaca e le resistenze periferiche. Le resistenze sono determinate soprattutto dalle arteriole, i vasi di resistenza.
+
+Si misurano la sistolica e la diastolica, e se ne ricava la pressione arteriosa media: circa la diastolica, piu' un terzo della differenza fra sistolica e diastolica.
+
+Un esempio: con centoventi su sessanta, la differenza e' sessanta, un terzo e' venti, e la media e' circa ottanta. E ricordi l'obiettivo nello shock e nella sepsi: una pressione media di almeno sessantacinque.
+
+La regolazione della pressione. A breve termine agiscono i barocettori, nel seno carotideo e nell'arco aortico, che percepiscono i cambiamenti di pressione.
+
+I barocettori attivano il sistema nervoso autonomo. Il simpatico aumenta la frequenza e la contrattilita' e restringe i vasi. Il parasimpatico rallenta il cuore.
+
+E' cio' che succede quando ti alzi in piedi: senza questa risposta sveniresti. Lo ritroviamo fra poco nell'anziano, con l'ipotensione ortostatica.
+
+A medio-lungo termine agisce il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua, insieme all'ADH e al rene. Gli ACE-inibitori e i sartani bloccano proprio questo sistema.
+
+I vasi. Le arterie hanno una parete elastica e muscolare, e lavorano ad alta pressione. Le arteriole sono i vasi di resistenza. Nei capillari avvengono gli scambi.
+
+Le vene lavorano a bassa pressione e contengono la maggior parte del sangue: per questo si chiamano vasi di capacitanza. E hanno valvole che impediscono il reflusso.
+
+Il ritorno venoso dagli arti inferiori dipende dalla pompa muscolare del polpaccio, e anche dalla respirazione. Ecco perche' la mobilizzazione previene la trombosi.
+
+Ed ecco perche', nell'insufficienza venosa della lezione sette punto tre, si cammina con la compressione. Fra le alterazioni dei vasi, ricorda anche l'aterosclerosi.
+
+[thoughtful] La fisiopatologia essenziale. L'ischemia e' uno squilibrio fra domanda e offerta di ossigeno al miocardio. Nell'angina e' transitorio e reversibile, nell'infarto porta alla necrosi.
+
+Nello scompenso la gittata non soddisfa i bisogni dell'organismo, che reagisce attivando il simpatico e il sistema renina-angiotensina. Sono compensi utili all'inizio.
+
+Ma a lungo andare quei compensi sovraccaricano il cuore e peggiorano il quadro. E' per questo che i farmaci dello scompenso li bloccano.
+
+Le aritmie sono disturbi della formazione o della conduzione dell'impulso. E lo shock e' una perfusione inadeguata dei tessuti, come hai visto nella lezione dieci punto sei.
+
+Il caso d'esame. Un paziente in fibrillazione atriale rapida, con una frequenza cardiaca di centocinquanta, riferisce dolore toracico. Perche'?
+
+La tachicardia accorcia la diastole, cioe' il tempo in cui le coronarie perfondono il miocardio. E allo stesso tempo aumenta il consumo di ossigeno del cuore. Domanda alta, offerta bassa: ischemia.
+
+In piu', una frequenza cosi' alta riduce il riempimento dei ventricoli, e quindi la gittata. Ecco perche' il controllo della frequenza e' una priorita', e il dolore toracico va segnalato subito.
+
+Il collegamento con l'assistenza. La misurazione di pressione e frequenza, della lezione due punto tre. E l'ipotensione ortostatica nell'anziano, in cui il baroriflesso e' piu' lento: da qui l'alzata in due tempi.
+
+E poi i polsi periferici e il riempimento capillare. L'azione dei farmaci cardiovascolari. E la prevenzione della trombosi venosa profonda.
+
+La tabella. Tricuspide a destra, mitrale a sinistra. L'arteria polmonare porta sangue povero di ossigeno. Le coronarie, perfuse in diastole. La conduzione, dal nodo senoatriale alle fibre di Purkinje.
+
+P, QRS, T. Primo e secondo tono. Gittata uguale gittata sistolica per frequenza. Precarico, postcarico, contrattilita'. Pressione uguale gittata per resistenze, e la media. Barocettori e renina-angiotensina.
+
+[serious] La frase della lezione: la pressione e' il risultato di una pompa e di un tubo. Quando cade, chiediti se ha ceduto la pompa, se manca il volume, o se il tubo si e' dilatato.
+
+[warm] Nella prossima lezione: l'apparato respiratorio, gli scambi gassosi e la curva di dissociazione dell'emoglobina, che spiega molte cose sull'ossigenoterapia. A tra poco.

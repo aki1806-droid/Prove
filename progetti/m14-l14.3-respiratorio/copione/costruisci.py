@@ -4,71 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo dedicato al Veneto con una mappa del sistema in una pagina. E' lo schema da avere in testa all'orale, e lo costruiamo un pezzo alla volta."),
- (1,"chiaro",0,"Se ti chiedono di un servizio, devi sapere tre cose: in quale parte del sistema si colloca, chi lo governa, e come ci si accede."),
+ (1,"chiaro",0,"[warm] Respirare significa due cose: portare ossigeno ai tessuti ed eliminare l'anidride carbonica. Tutto parte da qui."),
+ (1,"chiaro",0,"Ripercorriamo l'anatomia delle vie aeree, la meccanica del respiro, gli scambi gassosi, e una curva che spiega molte scelte di assistenza: quella di dissociazione dell'emoglobina."),
 
- (2,"chiaro",0,"Partiamo dal vertice. La Regione, con la Giunta e il Consiglio regionale, che definiscono indirizzi e programmazione. E l'Area Sanita' e Sociale, che traduce gli indirizzi in atti."),
- (2,"chiaro",0,"La programmazione. Il Piano Socio Sanitario Regionale duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del duemiladiciotto, ancora riferimento in attesa del nuovo piano."),
- (2,"chiaro",0,"E le schede di dotazione, ospedaliera e territoriale, approvate con delibera di Giunta regionale: per ogni ospedale e per ogni territorio stabiliscono le funzioni e i posti letto."),
- (2,"chiaro",0,"Poi Azienda Zero, istituita dalla legge regionale diciannove del duemilasedici: l'ente di governance della sanita' regionale, operativo dal duemiladiciassette."),
- (2,"chiaro",0,"Le sue funzioni centralizzate: la GSA, la gestione sanitaria accentrata. La CRAV, per gli acquisti. I concorsi. I sistemi informativi e il Fascicolo. La formazione, gli affari legali, l'epidemiologia e i registri."),
+ (2,"chiaro",0,"Le vie aeree superiori. Il naso, che riscalda, umidifica e filtra l'aria: funzioni che si perdono nella tracheostomia, come hai visto nella lezione otto punto due. Poi la faringe."),
+ (2,"chiaro",0,"E la laringe, con le corde vocali e l'epiglottide, che protegge dall'inalazione. Poi le vie aeree inferiori: la trachea, i bronchi principali, i bronchi lobari e segmentari, i bronchioli, fino agli alveoli."),
+ (2,"chiaro",0,"Un dettaglio chiesto spesso: il bronco principale destro e' piu' corto, piu' largo e piu' verticale. Per questo i corpi estranei inalati finiscono piu' spesso a destra."),
+ (2,"chiaro",0,"Per lo stesso motivo un tubo endotracheale troppo profondo finisce piu' spesso nel bronco destro. Il polmone destro ha tre lobi, il sinistro due. E tutto e' avvolto dalla pleura, viscerale e parietale."),
 
- (3,"chiaro",0,"Le aziende. Le nove ULSS, nate il primo gennaio duemiladiciassette. Uno, Dolomiti. Due, Marca Trevigiana. Tre, Serenissima. Quattro, Veneto Orientale. Cinque, Polesana."),
- (3,"chiaro",0,"Sei, Euganea. Sette, Pedemontana. Otto, Berica. Nove, Scaligera. E i territori delle vecchie aziende sono diventati i distretti delle nuove."),
- (3,"chiaro",0,"Accanto alle ULSS, le due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
- (3,"chiaro",0,"Lo IOV, l'Istituto Oncologico Veneto, che e' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico. E le strutture private accreditate, integrate nella rete."),
+ (3,"chiaro",0,"La meccanica del respiro. L'inspirazione e' attiva. Il muscolo principale e' il diaframma, che si contrae e si abbassa; gli intercostali esterni sollevano le coste."),
+ (3,"chiaro",0,"Il torace si espande, la pressione negli alveoli scende, e l'aria entra. L'espirazione, invece, a riposo e' passiva: e' il semplice ritorno elastico del polmone."),
+ (3,"chiaro",0,"Quando il respiro e' difficile entrano in gioco i muscoli accessori: sternocleidomastoideo, scaleni, addominali. Si vedono contrarsi sul collo: un segno di fatica respiratoria, lezione dieci punto due."),
+ (3,"chiaro",0,"E il surfattante, che riveste gli alveoli: riduce la tensione superficiale e ne impedisce il collasso. La sua carenza nel neonato prematuro causa la sindrome da distress respiratorio."),
 
- (4,"chiaro",0,"L'ospedale e l'emergenza. Il modello e' hub and spoke: gli hub, con le alte specialita'; e gli spoke, gli ospedali di rete, collegati agli hub per i casi complessi."),
- (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica: sette centrali operative provinciali, il dispatch infermieristico che attribuisce il codice di priorita', e l'elisoccorso."),
- (4,"chiaro",0,"Sopra le centrali, il coordinamento regionale dell'emergenza urgenza, il CREU. E il NUE centododici, il Numero Unico di Emergenza europeo, in attuazione."),
- (4,"chiaro",0,"Le reti tempo-dipendenti. Per l'infarto, l'ECG teletrasmesso e, se e' uno STEMI, l'accesso diretto all'emodinamica. Per l'ictus, gli hub per la trombectomia. E la rete trauma."),
- (4,"chiaro",0,"Poi le reti cliniche: la Rete Oncologica Veneta, la ROV. I punti nascita, i trapianti, le malattie rare, la terapia del dolore e le cure palliative. Non l'ospedale piu' vicino, ma quello giusto."),
+ (4,"chiaro",0,"I volumi polmonari. Il volume corrente e' l'aria mobilizzata a ogni respiro tranquillo: a riposo, circa cinquecento millilitri."),
+ (4,"chiaro",0,"Di questi, circa centocinquanta restano nello spazio morto anatomico, dove non avvengono scambi. Per questo un respiro rapido e superficiale e' poco efficace: gran parte dell'aria non arriva agli alveoli."),
+ (4,"chiaro",0,"La capacita' vitale e' la massima quantita' di aria espirabile dopo un'inspirazione massima. Il volume residuo e' quello che resta comunque nei polmoni, dopo l'espirazione massima."),
+ (4,"chiaro",0,"E la spirometria. Se il rapporto fra FEV uno e capacita' vitale forzata scende sotto zero virgola sette, indica un'ostruzione, come nella BPCO."),
 
- (5,"chiaro",0,"Il territorio. Il distretto socio-sanitario, articolazione dell'ULSS: assistenza primaria, specialistica, ADI, consultori, residenzialita', e l'integrazione con i Comuni."),
- (5,"chiaro",0,"Le medicine di gruppo integrate, il modello veneto: medici di famiglia in una sede comune, con infermieri e apertura estesa. Accanto, le forme nazionali: le AFT e le UCCP."),
- (5,"chiaro",0,"Le cure intermedie, fra ospedale e domicilio: gli Ospedali di Comunita', le Unita' Riabilitative Territoriali, gli hospice. Per chi non ha piu' bisogno dell'ospedale, ma non puo' ancora tornare a casa."),
- (5,"chiaro",0,"Il DM settantasette in Veneto. Le Case della Comunita', con le linee di indirizzo regionali del duemilaventisei. Le COT, una ogni centomila abitanti. L'infermiere di famiglia e comunita', uno ogni tremila."),
- (5,"chiaro",0,"La continuita' assistenziale, l'ex guardia medica, e il centosedici centodiciassette per le cure non urgenti. L'ADI, con le cure palliative domiciliari. La stratificazione con l'ACG, e la medicina di iniziativa."),
+ (5,"chiaro",0,"Gli scambi gassosi avvengono negli alveoli, per diffusione attraverso la membrana alveolo-capillare, sottilissima: l'ossigeno passa dall'alveolo al sangue, l'anidride carbonica dal sangue all'alveolo."),
+ (5,"chiaro",0,"Perche' funzionino serve un buon rapporto ventilazione-perfusione. Un alveolo ventilato ma non perfuso, come nell'embolia, o perfuso ma non ventilato, come nell'atelettasia o nella polmonite: il sangue esce poco ossigenato."),
+ (5,"chiaro",0,"Un dettaglio: l'anidride carbonica diffonde circa venti volte piu' facilmente dell'ossigeno. Ed e' per questo che nelle malattie polmonari l'ipossiemia compare di solito prima dell'ipercapnia."),
 
- (6,"chiaro",0,"La non autosufficienza. Il principio e' la porta unica: l'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con il direttore di distretto, il medico di famiglia e l'assistente sociale del Comune."),
- (6,"chiaro",0,"Gli strumenti: la SVaMA, la scheda di valutazione multidimensionale dell'anziano, e la SVaMDi per la disabilita'. Restituiscono un profilo di autonomia e di bisogno, uguale in tutta la regione."),
- (6,"chiaro",0,"La domiciliarita' viene prima: l'ADI, il SAD dei Comuni, e l'impegnativa di cura domiciliare, un contributo per chi assiste a casa una persona non autosufficiente. Poi i centri diurni e i ricoveri di sollievo."),
- (6,"chiaro",0,"I Centri di Servizi, le strutture residenziali per anziani non autosufficienti. L'impegnativa di residenzialita' copre la quota sanitaria; la quota alberghiera resta a carico della persona o della famiglia."),
- (6,"chiaro",0,"Per ogni ospite, il PAI, il Piano Assistenziale Individualizzato. E la regola da ricordare per tutta la rete: prima si valuta il bisogno, poi si sceglie il servizio."),
+ (6,"chiaro",0,"Il trasporto dell'ossigeno. Quasi tutto l'ossigeno, circa il novantotto per cento, viaggia legato all'emoglobina. Solo una piccola parte e' disciolta nel plasma."),
+ (6,"chiaro",0,"La saturazione indica la percentuale di emoglobina legata all'ossigeno. Ma la quantita' di ossigeno trasportata dipende da due cose: dalla saturazione e dalla quantita' di emoglobina."),
+ (6,"chiaro",0,"Ecco perche', come nella lezione otto punto due, un paziente gravemente anemico puo' avere una saturazione normale, e comunque un apporto di ossigeno insufficiente ai tessuti."),
 
- (7,"chiaro",0,"Garanzie e prevenzione. La legge regionale ventidue del duemiladue: autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali, pubbliche e private."),
- (7,"chiaro",0,"Le fasi: l'autorizzazione alla realizzazione, poi all'esercizio, con i requisiti minimi. L'accreditamento istituzionale, con i requisiti ulteriori, per lavorare per conto del servizio regionale. Poi gli accordi contrattuali."),
- (7,"chiaro",0,"Il Dipartimento di Prevenzione delle ULSS: il SISP, igiene e sanita' pubblica; il SIAN, igiene degli alimenti e della nutrizione; lo SPISAL, la sicurezza nei luoghi di lavoro; e i servizi veterinari."),
- (7,"chiaro",0,"Il Piano Regionale della Prevenzione. I tre screening, gratuiti e con invito attivo: mammella, cervice, colon-retto. E in Veneto il colon-retto e' esteso anche alla fascia dai settanta ai settantaquattro anni."),
- (7,"chiaro",0,"Le vaccinazioni, nei centri vaccinali delle ULSS: per i minori, dieci obbligatorie secondo la legge centodiciannove del duemiladiciassette. E il Registro Tumori, oggi in Azienda Zero."),
+ (7,"chiaro",0,"[curious] La curva di dissociazione dell'emoglobina descrive il rapporto fra la pressione parziale di ossigeno nel sangue, la PaO2, e la saturazione. Ha una forma a S: e' una sigmoide."),
+ (7,"chiaro",0,"Nella parte alta la curva e' piatta: la PaO2 puo' scendere molto, mentre la saturazione cambia poco. Grandi variazioni di PaO2, piccole variazioni di saturazione."),
+ (7,"chiaro",0,"Ma sotto circa il novanta per cento di saturazione, che corrisponde a una PaO2 di circa sessanta millimetri di mercurio, la curva diventa ripida: piccole riduzioni di PaO2 fanno crollare la saturazione."),
+ (7,"chiaro",0,"Da qui un riferimento da ricordare: saturazione novanta, PaO2 sessanta, la soglia dell'insufficienza respiratoria. Un paziente che scende da novantaquattro a novanta e' sul bordo del precipizio."),
 
- (8,"chiaro",0,"La sanita' digitale. Il Fascicolo Sanitario Elettronico, e Sanita' chilometro zero, il portale e le app della Regione: Fascicolo, Ricette, Prenota Veloce. Si accede con SPID o con la CIE."),
- (8,"chiaro",0,"I diritti del cittadino: il consenso alla consultazione da parte dei professionisti, l'oscuramento di singoli documenti, e la delega a un'altra persona."),
- (8,"chiaro",0,"La ricetta dematerializzata, e le classi di priorita'. U, urgente, settantadue ore. B, breve, dieci giorni. D, differibile, trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
- (8,"chiaro",0,"La cartella elettronica, con credenziali personali e non cedibili. E soprattutto: si accede ai dati solo se si ha in cura il paziente, perche' ogni accesso e' registrato. Infine, la telemedicina."),
+ (8,"chiaro",0,"La curva si sposta. A destra, quando l'emoglobina cede piu' facilmente l'ossigeno ai tessuti: con l'aumento di temperatura e anidride carbonica, con l'acidosi, con l'aumento del due-tre-DPG."),
+ (8,"chiaro",0,"E' cio' che succede nei tessuti che lavorano, come un muscolo sotto sforzo, che ha piu' bisogno di ossigeno."),
+ (8,"chiaro",0,"A sinistra, invece, l'emoglobina trattiene l'ossigeno: con l'ipotermia, con l'alcalosi, con la riduzione dell'anidride carbonica, con il monossido di carbonio, e con l'emoglobina fetale."),
+ (8,"chiaro",0,"Un esempio pratico: in un paziente ipotermico o in alcalosi, l'ossigeno arriva ai tessuti con piu' difficolta', anche a parita' di saturazione."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Centri di Servizi e' il nome veneto delle RSA. E l'impegnativa di residenzialita' copre la quota sanitaria, non la retta alberghiera."),
- (9,"chiaro",0,"Azienda Zero non eroga prestazioni ai pazienti: rende possibile che le altre aziende li curino meglio. E ULSS ha la S di socio: Unita' Locale Socio Sanitaria, non ASL."),
- (9,"chiaro",0,"Da ventuno a nove ULSS, nel duemiladiciassette. E l'alimentazione del Fascicolo e' automatica, mentre la consultazione richiede il consenso della persona."),
+ (9,"chiaro",0,"L'anidride carbonica viaggia soprattutto come bicarbonato, poi legata all'emoglobina e disciolta. Questo collega il respiro all'equilibrio acido-base, della lezione quattordici punto uno."),
+ (9,"chiaro",0,"Il controllo del respiro parte dai centri respiratori del tronco encefalico, nel bulbo e nel ponte. I chemocettori centrali sono sensibili all'anidride carbonica e al pH: sono lo stimolo principale."),
+ (9,"chiaro",0,"I chemocettori periferici, carotidei e aortici, cioe' nelle carotidi e nell'aorta, sono sensibili soprattutto all'ipossia."),
+ (9,"chiaro",0,"La regola della lezione otto punto due: nel BPCO ipercapnico, troppo ossigeno puo' peggiorare l'ipercapnia, per piu' meccanismi: il rapporto ventilazione-perfusione, l'effetto Haldane e, in parte, la riduzione dello stimolo."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. Che cos'e' Azienda Zero, e quali funzioni svolge. Come e' organizzato il sistema veneto. Che cosa sono i Centri di Servizi, e come si accede."),
- (10,"chiaro",0,"UVMD e SVaMA. Come funziona la rete per l'infarto o per l'ictus. Le medicine di gruppo integrate. L'infermiere di famiglia e comunita'. L'accesso al Fascicolo, e le responsabilita'."),
- (10,"chiaro",0,"Sono otto domande. Prepara per ciascuna una risposta di un minuto, con la mappa in testa: dove si colloca il servizio, chi lo governa, come ci si accede."),
+ (10,"chiaro",0,"L'insufficienza respiratoria ha due tipi. Il tipo uno, ipossiemica: PaO2 sotto sessanta, con anidride carbonica normale o bassa. Le cause tipiche: la polmonite, l'edema polmonare, l'embolia."),
+ (10,"chiaro",0,"Il tipo due, ipercapnica: PaO2 sotto sessanta e PaCO2 sopra quarantacinque. Le cause: la BPCO, le malattie neuromuscolari, la depressione del respiro da oppioidi."),
+ (10,"chiaro",0,"Due termini da non confondere. Ipossiemia significa poco ossigeno nel sangue. Ipossia significa poco ossigeno ai tessuti."),
+ (10,"chiaro",0,"E la cianosi e' un segno tardivo, che puo' mancare del tutto in un paziente anemico."),
 
- (11,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi disegna a memoria la mappa del sistema veneto, e leggi l'atto aziendale dell'azienda in cui vorresti lavorare."),
- (11,"chiaro",0,"Sfoglia la Relazione Socio Sanitaria piu' recente. E nelle settimane prima della prova verifica le novita': un nuovo piano socio-sanitario, l'attivazione delle Case della Comunita' e del NUE centododici."),
+ (11,"chiaro",0,"[thoughtful] Il collegamento con l'assistenza. La posizione seduta o semiseduta, che facilita il lavoro del diaframma. La respirazione profonda e lo spirometro incentivante contro l'atelettasia, lezione nove punto cinque."),
+ (11,"chiaro",0,"La frequenza respiratoria come parametro sentinella. I target di saturazione, lezione otto punto due. L'umidificazione nelle vie aeree artificiali. E il bronco destro, quando si verifica la posizione del tubo."),
 
- (12,"chiaro",0,"Un consiglio per l'orale. La risposta che fa la differenza non si ferma a che cos'e', ma arriva a come lo uso da infermiere."),
- (12,"chiaro",0,"Per esempio: le COT coordinano le transizioni fra setting. Quando dimetto un paziente fragile, segnalo il caso alla COT per organizzare una dimissione protetta. E' la stessa informazione, detta da un professionista."),
+ (12,"chiaro",0,"Il caso d'esame. Paziente post-operatorio, frequenza respiratoria trentadue, respiri superficiali, saturazione novantadue. Perche' la ventilazione e' inefficace, anche se respira velocemente?"),
+ (12,"chiaro",0,"Perche' con respiri piccoli gran parte di ogni respiro resta nello spazio morto, e non raggiunge gli alveoli. La ventilazione alveolare effettiva e' bassa: respira tanto, ma respira male."),
+ (12,"chiaro",0,"Spesso la causa e' il dolore, che impedisce i respiri profondi. Gli interventi: un'analgesia adeguata, la posizione semiseduta, la respirazione profonda, e la valutazione con il medico."),
+ (12,"chiaro",0,"E la saturazione a novantadue ti dice che sei vicino alla parte ripida della curva, dove piccole riduzioni di PaO2 la fanno crollare."),
 
- (13,"profondo",1.2,"[serious] Conoscere il sistema veneto significa sapere dove mandare una persona, e come accompagnarla."),
+ (13,"chiaro",0,"I numeri. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta. FEV uno su FVC sotto zero virgola sette: ostruzione. Circa il novantotto per cento dell'ossigeno legato all'emoglobina."),
+ (13,"chiaro",0,"Saturazione novanta, PaO2 sessanta. PaCO2 normale fra trentacinque e quarantacinque millimetri di mercurio. Insufficienza respiratoria: PaO2 sotto sessanta, e nel tipo due PaCO2 sopra quarantacinque."),
 
- (14,"chiaro",0,"[warm] Nel prossimo modulo torniamo alle basi: anatomia, fisiologia e fisiopatologia degli apparati, la semeiotica e i valori di laboratorio."),
- (14,"chiaro",0,"E' il fondamento scientifico di tutto cio' che abbiamo studiato. Ci vediamo li'."),
+ (14,"chiaro",0,"La tabella. Il bronco destro piu' verticale. Tre lobi a destra, due a sinistra. Inspirazione attiva, con il diaframma, ed espirazione passiva. Il surfattante. Il rapporto ventilazione-perfusione."),
+ (14,"chiaro",0,"La curva sigmoide: a destra cede l'ossigeno, a sinistra lo trattiene. Chemocettori centrali per l'anidride carbonica, periferici per l'ipossia. Tipo uno e tipo due. Ipossiemia e ipossia. Cianosi tardiva."),
+
+ (15,"profondo",1.2,"[serious] La frase della lezione: sotto il novanta per cento la curva precipita. La saturazione si sorveglia prima che cada, non dopo."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione: l'apparato digerente, il fegato e il rene, con la filtrazione glomerulare e la clearance, che spiegano perche' tanti farmaci vanno adattati. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Il vertice",3:"Le aziende",4:"L'ospedale e l'emergenza",5:"Il territorio",6:"La non autosufficienza",
- 7:"Garanzie e prevenzione",8:"La sanita' digitale",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",
- 11:"Come proseguire",12:"La risposta che fa la differenza",13:"La frase del modulo",14:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le vie aeree",3:"La meccanica del respiro",4:"I volumi polmonari",5:"Gli scambi gassosi",
+ 6:"Il trasporto dell'ossigeno",7:"La curva di dissociazione dell'emoglobina",8:"Gli spostamenti della curva",9:"Il trasporto della CO2 e il controllo del respiro",
+ 10:"L'insufficienza respiratoria",11:"Il collegamento con l'assistenza",12:"Il caso d'esame",13:"I numeri della lezione",14:"La tabella",15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -4,71 +4,75 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo dedicato al Veneto con una mappa del sistema in una pagina. E' lo schema da avere in testa all'orale, e lo costruiamo un pezzo alla volta."),
- (1,"chiaro",0,"Se ti chiedono di un servizio, devi sapere tre cose: in quale parte del sistema si colloca, chi lo governa, e come ci si accede."),
+ (1,"chiaro",0,"[warm] Tre organi che lavorano insieme: l'apparato digerente introduce, il fegato trasforma, il rene elimina. Da loro dipendono la nutrizione, il metabolismo dei farmaci e l'equilibrio dei liquidi."),
+ (1,"chiaro",0,"L'obiettivo e' pratico: capire perche' nell'insufficienza epatica e in quella renale cambiano le dosi dei farmaci, i parametri da sorvegliare e i rischi per il paziente."),
 
- (2,"chiaro",0,"Partiamo dal vertice. La Regione, con la Giunta e il Consiglio regionale, che definiscono indirizzi e programmazione. E l'Area Sanita' e Sociale, che traduce gli indirizzi in atti."),
- (2,"chiaro",0,"La programmazione. Il Piano Socio Sanitario Regionale duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del duemiladiciotto, ancora riferimento in attesa del nuovo piano."),
- (2,"chiaro",0,"E le schede di dotazione, ospedaliera e territoriale, approvate con delibera di Giunta regionale: per ogni ospedale e per ogni territorio stabiliscono le funzioni e i posti letto."),
- (2,"chiaro",0,"Poi Azienda Zero, istituita dalla legge regionale diciannove del duemilasedici: l'ente di governance della sanita' regionale, operativo dal duemiladiciassette."),
- (2,"chiaro",0,"Le sue funzioni centralizzate: la GSA, la gestione sanitaria accentrata. La CRAV, per gli acquisti. I concorsi. I sistemi informativi e il Fascicolo. La formazione, gli affari legali, l'epidemiologia e i registri."),
+ (2,"chiaro",0,"La digestione, tappa per tappa. In bocca, la masticazione e la saliva, con l'amilasi salivare. Nello stomaco, l'acido cloridrico e la pepsina, che inizia a digerire le proteine."),
+ (2,"chiaro",0,"Sempre nello stomaco si produce il fattore intrinseco, indispensabile per assorbire la vitamina B dodici. Per questo, dopo una gastrectomia, la B dodici va somministrata per via parenterale."),
+ (2,"chiaro",0,"Nel duodeno arrivano la bile, che emulsiona i grassi, e gli enzimi pancreatici: amilasi, lipasi, tripsina. Nella pancreatite della lezione otto punto cinque, attivati troppo presto, digeriscono il pancreas stesso."),
+ (2,"chiaro",0,"Nell'intestino tenue, grazie ai villi, avviene l'assorbimento dei nutrienti. Nel colon si assorbono l'acqua e gli elettroliti, e il microbiota produce anche la vitamina K."),
 
- (3,"chiaro",0,"Le aziende. Le nove ULSS, nate il primo gennaio duemiladiciassette. Uno, Dolomiti. Due, Marca Trevigiana. Tre, Serenissima. Quattro, Veneto Orientale. Cinque, Polesana."),
- (3,"chiaro",0,"Sei, Euganea. Sette, Pedemontana. Otto, Berica. Nove, Scaligera. E i territori delle vecchie aziende sono diventati i distretti delle nuove."),
- (3,"chiaro",0,"Accanto alle ULSS, le due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
- (3,"chiaro",0,"Lo IOV, l'Istituto Oncologico Veneto, che e' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico. E le strutture private accreditate, integrate nella rete."),
+ (3,"chiaro",0,"Il fegato ha funzioni numerose. Il metabolismo di zuccheri, grassi e proteine: immagazzina il glicogeno e produce glucosio quando serve. E fa da deposito di glicogeno, di vitamine e di ferro."),
+ (3,"chiaro",0,"La sintesi: l'albumina e i fattori della coagulazione, compresi quelli che dipendono dalla vitamina K, il secondo, il settimo, il nono e il decimo. E' su questi fattori che agisce il warfarin."),
+ (3,"chiaro",0,"Il fegato produce la bile e coniuga la bilirubina. E svolge la detossificazione: trasforma l'ammoniaca in urea. Funzioni che fra poco ritroviamo nei segni dell'insufficienza epatica."),
+ (3,"chiaro",0,"Il metabolismo dei farmaci, con il citocromo P quattrocentocinquanta. E l'effetto di primo passaggio della lezione cinque punto uno: parte del farmaco preso per bocca e' inattivata prima di arrivare in circolo."),
 
- (4,"chiaro",0,"L'ospedale e l'emergenza. Il modello e' hub and spoke: gli hub, con le alte specialita'; e gli spoke, gli ospedali di rete, collegati agli hub per i casi complessi."),
- (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica: sette centrali operative provinciali, il dispatch infermieristico che attribuisce il codice di priorita', e l'elisoccorso."),
- (4,"chiaro",0,"Sopra le centrali, il coordinamento regionale dell'emergenza urgenza, il CREU. E il NUE centododici, il Numero Unico di Emergenza europeo, in attuazione."),
- (4,"chiaro",0,"Le reti tempo-dipendenti. Per l'infarto, l'ECG teletrasmesso e, se e' uno STEMI, l'accesso diretto all'emodinamica. Per l'ictus, gli hub per la trombectomia. E la rete trauma."),
- (4,"chiaro",0,"Poi le reti cliniche: la Rete Oncologica Veneta, la ROV. I punti nascita, i trapianti, le malattie rare, la terapia del dolore e le cure palliative. Non l'ospedale piu' vicino, ma quello giusto."),
+ (4,"chiaro",0,"Dalle funzioni si ricavano i segni dell'insufficienza epatica, senza bisogno di memorizzarli. Meno albumina: edemi e ascite. Meno fattori della coagulazione: un INR alto, e i sanguinamenti."),
+ (4,"chiaro",0,"Meno coniugazione della bilirubina: l'ittero. Meno eliminazione dell'ammoniaca: l'encefalopatia. Meno produzione di glucosio: l'ipoglicemia."),
+ (4,"chiaro",0,"Meno metabolismo dei farmaci: l'accumulo, soprattutto di sedativi e oppioidi. E proprio questi farmaci possono scatenare l'encefalopatia."),
+ (4,"chiaro",0,"E poi l'ipertensione portale, con le varici e l'ascite. E' il quadro clinico della lezione otto punto cinque, spiegato questa volta dalla fisiologia."),
 
- (5,"chiaro",0,"Il territorio. Il distretto socio-sanitario, articolazione dell'ULSS: assistenza primaria, specialistica, ADI, consultori, residenzialita', e l'integrazione con i Comuni."),
- (5,"chiaro",0,"Le medicine di gruppo integrate, il modello veneto: medici di famiglia in una sede comune, con infermieri e apertura estesa. Accanto, le forme nazionali: le AFT e le UCCP."),
- (5,"chiaro",0,"Le cure intermedie, fra ospedale e domicilio: gli Ospedali di Comunita', le Unita' Riabilitative Territoriali, gli hospice. Per chi non ha piu' bisogno dell'ospedale, ma non puo' ancora tornare a casa."),
- (5,"chiaro",0,"Il DM settantasette in Veneto. Le Case della Comunita', con le linee di indirizzo regionali del duemilaventisei. Le COT, una ogni centomila abitanti. L'infermiere di famiglia e comunita', uno ogni tremila."),
- (5,"chiaro",0,"La continuita' assistenziale, l'ex guardia medica, e il centosedici centodiciassette per le cure non urgenti. L'ADI, con le cure palliative domiciliari. La stratificazione con l'ACG, e la medicina di iniziativa."),
+ (5,"chiaro",0,"Il rene lavora attraverso il nefrone, la sua unita' funzionale: circa un milione per ogni rene. Nel glomerulo il sangue viene filtrato, e il filtrato passa nella capsula di Bowman."),
+ (5,"chiaro",0,"Nel tubulo prossimale si riassorbe la maggior parte di acqua, sodio, glucosio e aminoacidi. L'ansa di Henle concentra le urine, ed e' la sede d'azione dei diuretici dell'ansa, come la furosemide."),
+ (5,"chiaro",0,"Il tubulo distale e il dotto collettore fanno la regolazione fine, sotto l'azione di due ormoni: l'aldosterone, che fa riassorbire sodio, e l'ADH, l'ormone antidiuretico, che fa riassorbire acqua."),
 
- (6,"chiaro",0,"La non autosufficienza. Il principio e' la porta unica: l'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con il direttore di distretto, il medico di famiglia e l'assistente sociale del Comune."),
- (6,"chiaro",0,"Gli strumenti: la SVaMA, la scheda di valutazione multidimensionale dell'anziano, e la SVaMDi per la disabilita'. Restituiscono un profilo di autonomia e di bisogno, uguale in tutta la regione."),
- (6,"chiaro",0,"La domiciliarita' viene prima: l'ADI, il SAD dei Comuni, e l'impegnativa di cura domiciliare, un contributo per chi assiste a casa una persona non autosufficiente. Poi i centri diurni e i ricoveri di sollievo."),
- (6,"chiaro",0,"I Centri di Servizi, le strutture residenziali per anziani non autosufficienti. L'impegnativa di residenzialita' copre la quota sanitaria; la quota alberghiera resta a carico della persona o della famiglia."),
- (6,"chiaro",0,"Per ogni ospite, il PAI, il Piano Assistenziale Individualizzato. E la regola da ricordare per tutta la rete: prima si valuta il bisogno, poi si sceglie il servizio."),
+ (6,"chiaro",0,"Filtrazione e clearance. I reni filtrano circa centottanta litri di plasma al giorno, e producono circa un litro e mezzo di urine: oltre il novantanove per cento del filtrato viene riassorbito."),
+ (6,"chiaro",0,"La velocita' di filtrazione glomerulare, il GFR, e' normalmente intorno a novanta, centoventi millilitri al minuto. La clearance e' il volume di plasma depurato da una sostanza nell'unita' di tempo."),
+ (6,"chiaro",0,"Nella pratica si usa la creatinina, e con formule come la CKD-EPI si calcola un GFR stimato. Ma attenzione: la creatinina dipende dalla massa muscolare."),
+ (6,"chiaro",0,"[thoughtful] In un anziano magro e sarcopenico la creatinina puo' essere normale anche con una funzione renale ridotta. Ecco perche' le dosi si adattano al GFR stimato, e non al solo valore della creatinina."),
 
- (7,"chiaro",0,"Garanzie e prevenzione. La legge regionale ventidue del duemiladue: autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali, pubbliche e private."),
- (7,"chiaro",0,"Le fasi: l'autorizzazione alla realizzazione, poi all'esercizio, con i requisiti minimi. L'accreditamento istituzionale, con i requisiti ulteriori, per lavorare per conto del servizio regionale. Poi gli accordi contrattuali."),
- (7,"chiaro",0,"Il Dipartimento di Prevenzione delle ULSS: il SISP, igiene e sanita' pubblica; il SIAN, igiene degli alimenti e della nutrizione; lo SPISAL, la sicurezza nei luoghi di lavoro; e i servizi veterinari."),
- (7,"chiaro",0,"Il Piano Regionale della Prevenzione. I tre screening, gratuiti e con invito attivo: mammella, cervice, colon-retto. E in Veneto il colon-retto e' esteso anche alla fascia dai settanta ai settantaquattro anni."),
- (7,"chiaro",0,"Le vaccinazioni, nei centri vaccinali delle ULSS: per i minori, dieci obbligatorie secondo la legge centodiciannove del duemiladiciassette. E il Registro Tumori, oggi in Azienda Zero."),
+ (7,"chiaro",0,"Le funzioni del rene, che spiegano le complicanze della lezione otto punto quattro. L'equilibrio di acqua ed elettroliti. L'equilibrio acido-base. L'eliminazione di scorie e farmaci."),
+ (7,"chiaro",0,"Il rene produce l'eritropoietina, per i globuli rossi: per questo l'insufficienza renale cronica causa anemia. E attiva la vitamina D: per questo altera il metabolismo del calcio e dell'osso."),
+ (7,"chiaro",0,"E produce la renina: per questo il rene e' cosi' legato alla pressione arteriosa. E' il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua."),
 
- (8,"chiaro",0,"La sanita' digitale. Il Fascicolo Sanitario Elettronico, e Sanita' chilometro zero, il portale e le app della Regione: Fascicolo, Ricette, Prenota Veloce. Si accede con SPID o con la CIE."),
- (8,"chiaro",0,"I diritti del cittadino: il consenso alla consultazione da parte dei professionisti, l'oscuramento di singoli documenti, e la delega a un'altra persona."),
- (8,"chiaro",0,"La ricetta dematerializzata, e le classi di priorita'. U, urgente, settantadue ore. B, breve, dieci giorni. D, differibile, trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
- (8,"chiaro",0,"La cartella elettronica, con credenziali personali e non cedibili. E soprattutto: si accede ai dati solo se si ha in cura il paziente, perche' ogni accesso e' registrato. Infine, la telemedicina."),
+ (8,"chiaro",0,"L'insufficienza renale e i farmaci. I farmaci eliminati dal rene si accumulano: alcuni antibiotici, come gli aminoglicosidi e la vancomicina, e le eparine a basso peso molecolare."),
+ (8,"chiaro",0,"E ancora la metformina, la digossina, alcuni oppioidi. Le dosi si adattano al GFR, e quando e' previsto si monitorano i livelli del farmaco nel sangue."),
+ (8,"chiaro",0,"Si evitano i nefrotossici, come i FANS e il mezzo di contrasto senza prevenzione, che vedremo nella lezione quattordici punto sette. E si fa attenzione all'iperkaliemia."),
+ (8,"chiaro",0,"Il rischio di iperkaliemia viene dal potassio, dagli ACE-inibitori e dai diuretici risparmiatori di potassio. E l'infermiere segnala la terapia potenzialmente inappropriata."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Centri di Servizi e' il nome veneto delle RSA. E l'impegnativa di residenzialita' copre la quota sanitaria, non la retta alberghiera."),
- (9,"chiaro",0,"Azienda Zero non eroga prestazioni ai pazienti: rende possibile che le altre aziende li curino meglio. E ULSS ha la S di socio: Unita' Locale Socio Sanitaria, non ASL."),
- (9,"chiaro",0,"Da ventuno a nove ULSS, nel duemiladiciassette. E l'alimentazione del Fascicolo e' automatica, mentre la consultazione richiede il consenso della persona."),
+ (9,"chiaro",0,"La diuresi, con le sue definizioni. Nell'adulto la diuresi normale e' di almeno mezzo millilitro per chilo all'ora."),
+ (9,"chiaro",0,"Oliguria: meno di quattrocento millilitri nelle ventiquattro ore. Anuria: meno di cento millilitri. Poliuria: oltre due litri e mezzo, tre litri nelle ventiquattro ore."),
+ (9,"chiaro",0,"La diuresi e' anche un indicatore della perfusione degli organi. Per questo, nello shock e nella sepsi, si misura ogni ora."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. Che cos'e' Azienda Zero, e quali funzioni svolge. Come e' organizzato il sistema veneto. Che cosa sono i Centri di Servizi, e come si accede."),
- (10,"chiaro",0,"UVMD e SVaMA. Come funziona la rete per l'infarto o per l'ictus. Le medicine di gruppo integrate. L'infermiere di famiglia e comunita'. L'accesso al Fascicolo, e le responsabilita'."),
- (10,"chiaro",0,"Sono otto domande. Prepara per ciascuna una risposta di un minuto, con la mappa in testa: dove si colloca il servizio, chi lo governa, come ci si accede."),
+ (10,"chiaro",0,"La minzione. La vescica e' un serbatoio con un muscolo, il detrusore, e ha una capacita' indicativa di quattrocento, cinquecento millilitri. Lo stimolo compare in genere fra centocinquanta e trecento."),
+ (10,"chiaro",0,"Lo svuotamento e' controllato dal parasimpatico, che contrae il detrusore, e dagli sfinteri, uno interno e uno esterno. Lo sfintere esterno e' quello volontario."),
+ (10,"chiaro",0,"Ne deriva un collegamento con la farmacologia: i farmaci anticolinergici e gli oppioidi favoriscono la ritenzione urinaria, come hai visto nelle lezioni tre punto sei e nove punto quattro."),
 
- (11,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi disegna a memoria la mappa del sistema veneto, e leggi l'atto aziendale dell'azienda in cui vorresti lavorare."),
- (11,"chiaro",0,"Sfoglia la Relazione Socio Sanitaria piu' recente. E nelle settimane prima della prova verifica le novita': un nuovo piano socio-sanitario, l'attivazione delle Case della Comunita' e del NUE centododici."),
+ (11,"chiaro",0,"[curious] Il caso d'esame. Anziana di ottantasei anni, quarantacinque chili, creatinina uno. La funzione renale e' normale, quindi la dose standard del farmaco va bene?"),
+ (11,"chiaro",0,"No. In una persona anziana con poca massa muscolare, una creatinina normale puo' corrispondere a un GFR stimato nettamente ridotto. Il valore della creatinina, da solo, inganna."),
+ (11,"chiaro",0,"Prima di un farmaco a eliminazione renale si verifica il GFR stimato o la clearance, e si segnala al medico o al farmacista se la dose sembra eccessiva. La fisiologia previene un errore di terapia."),
 
- (12,"chiaro",0,"Un consiglio per l'orale. La risposta che fa la differenza non si ferma a che cos'e', ma arriva a come lo uso da infermiere."),
- (12,"chiaro",0,"Per esempio: le COT coordinano le transizioni fra setting. Quando dimetto un paziente fragile, segnalo il caso alla COT per organizzare una dimissione protetta. E' la stessa informazione, detta da un professionista."),
+ (12,"chiaro",0,"Il collegamento con l'assistenza. La valutazione dello stato nutrizionale, della lezione tre punto tre. Nel paziente epatopatico, l'INR e il rischio di sanguinamento, l'encefalopatia e la stipsi."),
+ (12,"chiaro",0,"Il bilancio idrico e la diuresi oraria. Le dosi adattate alla funzione renale. La prevenzione della nefrotossicita'. E il cateterismo, quando c'e' una ritenzione."),
 
- (13,"profondo",1.2,"[serious] Conoscere il sistema veneto significa sapere dove mandare una persona, e come accompagnarla."),
+ (13,"chiaro",0,"I numeri della lezione. Filtrato circa centottanta litri al giorno, urine circa un litro e mezzo. GFR normale circa novanta, centoventi. Diuresi di almeno mezzo millilitro per chilo all'ora."),
+ (13,"chiaro",0,"Oliguria sotto i quattrocento millilitri, anuria sotto i cento, poliuria oltre i due litri e mezzo, tre. Vescica, quattrocento, cinquecento. Fattori vitamina K-dipendenti: due, sette, nove, dieci."),
 
- (14,"chiaro",0,"[warm] Nel prossimo modulo torniamo alle basi: anatomia, fisiologia e fisiopatologia degli apparati, la semeiotica e i valori di laboratorio."),
- (14,"chiaro",0,"E' il fondamento scientifico di tutto cio' che abbiamo studiato. Ci vediamo li'."),
+ (14,"chiaro",0,"La tabella. Stomaco, fattore intrinseco e B dodici. Duodeno, bile ed enzimi pancreatici. Tenue, assorbimento. Colon, acqua e vitamina K. Fegato: albumina, coagulazione, bilirubina, ammoniaca, farmaci."),
+ (14,"chiaro",0,"I segni dell'insufficienza epatica. Il nefrone, dal glomerulo all'ansa di Henle, sede della furosemide. La creatinina e la massa muscolare. Eritropoietina, vitamina D, renina."),
+
+ (15,"chiaro",0,"I fili con gli altri moduli. Il primo passaggio e le vie di somministrazione, con le lezioni cinque punto uno e cinque punto due. L'encefalopatia e la paracentesi, con la otto punto cinque."),
+ (15,"chiaro",0,"La fistola e la dialisi, con la otto punto quattro. La nutrizione, con la tre punto tre. E la ritenzione urinaria, con la tre punto sei."),
+
+ (16,"profondo",1.2,"[serious] La frase della lezione: una creatinina normale non garantisce un rene normale. Soprattutto nell'anziano fragile."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: il sistema nervoso, con il sistema nervoso autonomo, e il sistema endocrino, con i loro collegamenti con la farmacologia."),
+ (17,"chiaro",0,"Il parasimpatico che contrae il detrusore, per esempio, lo ritroverai proprio li', nel sistema nervoso autonomo. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Il vertice",3:"Le aziende",4:"L'ospedale e l'emergenza",5:"Il territorio",6:"La non autosufficienza",
- 7:"Garanzie e prevenzione",8:"La sanita' digitale",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",
- 11:"Come proseguire",12:"La risposta che fa la differenza",13:"La frase del modulo",14:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La digestione",3:"Le funzioni del fegato",4:"L'insufficienza epatica",5:"Il nefrone",
+ 6:"Filtrazione e clearance",7:"Le funzioni del rene",8:"L'insufficienza renale e i farmaci",9:"La diuresi",10:"La minzione",
+ 11:"Il caso d'esame",12:"Il collegamento con l'assistenza",13:"I numeri della lezione",14:"La tabella",15:"Il filo con gli altri moduli",
+ 16:"La frase della lezione",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -4,71 +4,74 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo dedicato al Veneto con una mappa del sistema in una pagina. E' lo schema da avere in testa all'orale, e lo costruiamo un pezzo alla volta."),
- (1,"chiaro",0,"Se ti chiedono di un servizio, devi sapere tre cose: in quale parte del sistema si colloca, chi lo governa, e come ci si accede."),
+ (1,"chiaro",0,"[warm] Questo modulo ripercorre le basi scientifiche dell'assistenza: anatomia, fisiologia, fisiopatologia. Non come in un corso universitario, ma collegandole a cio' che hai gia' studiato."),
+ (1,"chiaro",0,"Perche' ogni gesto infermieristico ha una ragione biologica. Cominciamo dalle fondamenta: l'organizzazione del corpo, la cellula, i liquidi e l'equilibrio che li governa."),
 
- (2,"chiaro",0,"Partiamo dal vertice. La Regione, con la Giunta e il Consiglio regionale, che definiscono indirizzi e programmazione. E l'Area Sanita' e Sociale, che traduce gli indirizzi in atti."),
- (2,"chiaro",0,"La programmazione. Il Piano Socio Sanitario Regionale duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del duemiladiciotto, ancora riferimento in attesa del nuovo piano."),
- (2,"chiaro",0,"E le schede di dotazione, ospedaliera e territoriale, approvate con delibera di Giunta regionale: per ogni ospedale e per ogni territorio stabiliscono le funzioni e i posti letto."),
- (2,"chiaro",0,"Poi Azienda Zero, istituita dalla legge regionale diciannove del duemilasedici: l'ente di governance della sanita' regionale, operativo dal duemiladiciassette."),
- (2,"chiaro",0,"Le sue funzioni centralizzate: la GSA, la gestione sanitaria accentrata. La CRAV, per gli acquisti. I concorsi. I sistemi informativi e il Fascicolo. La formazione, gli affari legali, l'epidemiologia e i registri."),
+ (2,"chiaro",0,"Il corpo e' organizzato in livelli. Si parte dalle molecole, poi le cellule, i tessuti, gli organi, gli apparati e i sistemi, fino all'organismo intero."),
+ (2,"chiaro",0,"I tessuti fondamentali sono quattro. L'epiteliale, che riveste e secerne: la cute, le mucose, le ghiandole. E il connettivo, che sostiene e collega: l'osso, la cartilagine, il sangue, il tessuto adiposo."),
+ (2,"chiaro",0,"Il terzo e' il tessuto muscolare, che puo' essere scheletrico, cardiaco o liscio. Il quarto e' il tessuto nervoso."),
 
- (3,"chiaro",0,"Le aziende. Le nove ULSS, nate il primo gennaio duemiladiciassette. Uno, Dolomiti. Due, Marca Trevigiana. Tre, Serenissima. Quattro, Veneto Orientale. Cinque, Polesana."),
- (3,"chiaro",0,"Sei, Euganea. Sette, Pedemontana. Otto, Berica. Nove, Scaligera. E i territori delle vecchie aziende sono diventati i distretti delle nuove."),
- (3,"chiaro",0,"Accanto alle ULSS, le due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
- (3,"chiaro",0,"Lo IOV, l'Istituto Oncologico Veneto, che e' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico. E le strutture private accreditate, integrate nella rete."),
+ (3,"chiaro",0,"La terminologia anatomica serve per documentare con precisione. Tutto si riferisce alla posizione anatomica: in piedi, sguardo in avanti, braccia lungo i fianchi, palmi rivolti in avanti."),
+ (3,"chiaro",0,"I piani. Il sagittale divide destra e sinistra, ed e' mediano se passa a meta'. Il frontale, o coronale, divide anteriore e posteriore. Il trasversale, o assiale, superiore e inferiore: quello delle immagini della TC."),
+ (3,"chiaro",0,"I termini vanno a coppie. Prossimale e distale: piu' vicino o piu' lontano dalla radice dell'arto. Mediale e laterale. Craniale e caudale. Anteriore, o ventrale, e posteriore, o dorsale. Superficiale e profondo."),
+ (3,"chiaro",0,"Perche' conta? Lesione sul malleolo laterale destro e' una descrizione precisa. Lesione sulla caviglia, invece, no. La precisione dei termini e' precisione della documentazione."),
 
- (4,"chiaro",0,"L'ospedale e l'emergenza. Il modello e' hub and spoke: gli hub, con le alte specialita'; e gli spoke, gli ospedali di rete, collegati agli hub per i casi complessi."),
- (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica: sette centrali operative provinciali, il dispatch infermieristico che attribuisce il codice di priorita', e l'elisoccorso."),
- (4,"chiaro",0,"Sopra le centrali, il coordinamento regionale dell'emergenza urgenza, il CREU. E il NUE centododici, il Numero Unico di Emergenza europeo, in attuazione."),
- (4,"chiaro",0,"Le reti tempo-dipendenti. Per l'infarto, l'ECG teletrasmesso e, se e' uno STEMI, l'accesso diretto all'emodinamica. Per l'ictus, gli hub per la trombectomia. E la rete trauma."),
- (4,"chiaro",0,"Poi le reti cliniche: la Rete Oncologica Veneta, la ROV. I punti nascita, i trapianti, le malattie rare, la terapia del dolore e le cure palliative. Non l'ospedale piu' vicino, ma quello giusto."),
+ (4,"chiaro",0,"La cellula e' l'unita' fondamentale della vita. E' delimitata dalla membrana plasmatica, un doppio strato di fosfolipidi con proteine inserite, che ha una permeabilita' selettiva: decide che cosa entra e che cosa esce."),
+ (4,"chiaro",0,"All'interno, il nucleo con il DNA. I mitocondri, che producono energia sotto forma di ATP. I ribosomi, che sintetizzano le proteine. E poi il reticolo endoplasmatico, l'apparato del Golgi e i lisosomi."),
 
- (5,"chiaro",0,"Il territorio. Il distretto socio-sanitario, articolazione dell'ULSS: assistenza primaria, specialistica, ADI, consultori, residenzialita', e l'integrazione con i Comuni."),
- (5,"chiaro",0,"Le medicine di gruppo integrate, il modello veneto: medici di famiglia in una sede comune, con infermieri e apertura estesa. Accanto, le forme nazionali: le AFT e le UCCP."),
- (5,"chiaro",0,"Le cure intermedie, fra ospedale e domicilio: gli Ospedali di Comunita', le Unita' Riabilitative Territoriali, gli hospice. Per chi non ha piu' bisogno dell'ospedale, ma non puo' ancora tornare a casa."),
- (5,"chiaro",0,"Il DM settantasette in Veneto. Le Case della Comunita', con le linee di indirizzo regionali del duemilaventisei. Le COT, una ogni centomila abitanti. L'infermiere di famiglia e comunita', uno ogni tremila."),
- (5,"chiaro",0,"La continuita' assistenziale, l'ex guardia medica, e il centosedici centodiciassette per le cure non urgenti. L'ADI, con le cure palliative domiciliari. La stratificazione con l'ACG, e la medicina di iniziativa."),
+ (5,"chiaro",0,"I trasporti di membrana sono di due tipi. Quelli passivi non consumano energia e seguono il gradiente di concentrazione."),
+ (5,"chiaro",0,"Sono passivi la diffusione semplice, come quella dell'ossigeno e dell'anidride carbonica negli alveoli; la diffusione facilitata, con proteine trasportatrici, come per il glucosio; e l'osmosi, per l'acqua."),
+ (5,"chiaro",0,"Quelli attivi consumano ATP e lavorano contro gradiente. Il piu' importante e' la pompa sodio-potassio, che porta tre ioni sodio fuori e due ioni potassio dentro. Sono attive anche l'endocitosi e l'esocitosi."),
+ (5,"chiaro",0,"Ed e' la pompa sodio-potassio il motivo per cui il sodio e' il principale ione extracellulare, e il potassio il principale ione intracellulare."),
 
- (6,"chiaro",0,"La non autosufficienza. Il principio e' la porta unica: l'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con il direttore di distretto, il medico di famiglia e l'assistente sociale del Comune."),
- (6,"chiaro",0,"Gli strumenti: la SVaMA, la scheda di valutazione multidimensionale dell'anziano, e la SVaMDi per la disabilita'. Restituiscono un profilo di autonomia e di bisogno, uguale in tutta la regione."),
- (6,"chiaro",0,"La domiciliarita' viene prima: l'ADI, il SAD dei Comuni, e l'impegnativa di cura domiciliare, un contributo per chi assiste a casa una persona non autosufficiente. Poi i centri diurni e i ricoveri di sollievo."),
- (6,"chiaro",0,"I Centri di Servizi, le strutture residenziali per anziani non autosufficienti. L'impegnativa di residenzialita' copre la quota sanitaria; la quota alberghiera resta a carico della persona o della famiglia."),
- (6,"chiaro",0,"Per ogni ospite, il PAI, il Piano Assistenziale Individualizzato. E la regola da ricordare per tutta la rete: prima si valuta il bisogno, poi si sceglie il servizio."),
+ (6,"chiaro",0,"L'osmosi e' il passaggio di acqua attraverso una membrana semipermeabile, dalla soluzione meno concentrata a quella piu' concentrata. Come se l'acqua volesse diluirla."),
+ (6,"chiaro",0,"Da qui la tonicita'. Una soluzione isotonica, come la fisiologica allo zero virgola nove per cento, non provoca spostamenti di acqua."),
+ (6,"chiaro",0,"Una soluzione ipotonica fa entrare acqua nelle cellule, che si gonfiano. Una soluzione ipertonica, al contrario, la fa uscire, e le cellule si raggrinziscono."),
+ (6,"chiaro",0,"E' la base della lezione sei punto tre: perche' le soluzioni ipotoniche sono pericolose nel paziente con edema cerebrale, e perche' il mannitolo o la soluzione salina ipertonica lo riducono."),
 
- (7,"chiaro",0,"Garanzie e prevenzione. La legge regionale ventidue del duemiladue: autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali, pubbliche e private."),
- (7,"chiaro",0,"Le fasi: l'autorizzazione alla realizzazione, poi all'esercizio, con i requisiti minimi. L'accreditamento istituzionale, con i requisiti ulteriori, per lavorare per conto del servizio regionale. Poi gli accordi contrattuali."),
- (7,"chiaro",0,"Il Dipartimento di Prevenzione delle ULSS: il SISP, igiene e sanita' pubblica; il SIAN, igiene degli alimenti e della nutrizione; lo SPISAL, la sicurezza nei luoghi di lavoro; e i servizi veterinari."),
- (7,"chiaro",0,"Il Piano Regionale della Prevenzione. I tre screening, gratuiti e con invito attivo: mammella, cervice, colon-retto. E in Veneto il colon-retto e' esteso anche alla fascia dai settanta ai settantaquattro anni."),
- (7,"chiaro",0,"Le vaccinazioni, nei centri vaccinali delle ULSS: per i minori, dieci obbligatorie secondo la legge centodiciannove del duemiladiciassette. E il Registro Tumori, oggi in Azienda Zero."),
+ (7,"chiaro",0,"I compartimenti idrici. L'acqua rappresenta circa il sessanta per cento del peso corporeo nell'adulto. E' di piu' nel neonato, e di meno nell'anziano e nella donna, che hanno piu' tessuto adiposo."),
+ (7,"chiaro",0,"Per questo neonati e anziani si disidratano facilmente, ma in modi diversi: la loro riserva idrica non e' la stessa."),
+ (7,"chiaro",0,"Due terzi dell'acqua sono intracellulari, circa il quaranta per cento del peso. Un terzo e' extracellulare, circa il venti per cento, e si divide in interstiziale, circa tre quarti, e plasma, circa un quarto."),
 
- (8,"chiaro",0,"La sanita' digitale. Il Fascicolo Sanitario Elettronico, e Sanita' chilometro zero, il portale e le app della Regione: Fascicolo, Ricette, Prenota Veloce. Si accede con SPID o con la CIE."),
- (8,"chiaro",0,"I diritti del cittadino: il consenso alla consultazione da parte dei professionisti, l'oscuramento di singoli documenti, e la delega a un'altra persona."),
- (8,"chiaro",0,"La ricetta dematerializzata, e le classi di priorita'. U, urgente, settantadue ore. B, breve, dieci giorni. D, differibile, trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
- (8,"chiaro",0,"La cartella elettronica, con credenziali personali e non cedibili. E soprattutto: si accede ai dati solo se si ha in cura il paziente, perche' ogni accesso e' registrato. Infine, la telemedicina."),
+ (8,"chiaro",0,"Gli scambi di liquidi nei capillari seguono le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso. La pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro."),
+ (8,"chiaro",0,"L'edema nasce quando questo equilibrio si rompe, e le cause sono quattro. La prima e' l'aumento della pressione idrostatica, come nello scompenso cardiaco e nella trombosi venosa."),
+ (8,"chiaro",0,"La seconda e' la riduzione della pressione oncotica, cioe' l'ipoalbuminemia: nella malnutrizione, nella cirrosi, nella sindrome nefrosica."),
+ (8,"chiaro",0,"La terza e' l'aumento della permeabilita' dei capillari: l'infiammazione, la sepsi, le ustioni. La quarta e' l'ostacolo al drenaggio linfatico, che da' il linfedema."),
+ (8,"chiaro",0,"Davanti a un edema, chiedersi quale delle quattro cause agisca orienta l'assistenza. Pressione idrostatica, pressione oncotica, permeabilita', drenaggio linfatico."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Centri di Servizi e' il nome veneto delle RSA. E l'impegnativa di residenzialita' copre la quota sanitaria, non la retta alberghiera."),
- (9,"chiaro",0,"Azienda Zero non eroga prestazioni ai pazienti: rende possibile che le altre aziende li curino meglio. E ULSS ha la S di socio: Unita' Locale Socio Sanitaria, non ASL."),
- (9,"chiaro",0,"Da ventuno a nove ULSS, nel duemiladiciassette. E l'alimentazione del Fascicolo e' automatica, mentre la consultazione richiede il consenso della persona."),
+ (9,"chiaro",0,"La regolazione dell'acqua e del sodio. Il primo meccanismo e' la sete. Poi l'ormone antidiuretico, l'ADH, prodotto dall'ipotalamo e liberato dall'ipofisi posteriore: fa riassorbire acqua nel rene."),
+ (9,"chiaro",0,"L'aldosterone, prodotto dal surrene, fa riassorbire sodio ed eliminare potassio. Agisce all'interno del sistema renina-angiotensina-aldosterone."),
+ (9,"chiaro",0,"E il peptide natriuretico, prodotto dal cuore quando e' disteso, che favorisce l'eliminazione di sodio e acqua. E' il BNP, quello che si dosa nello scompenso."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. Che cos'e' Azienda Zero, e quali funzioni svolge. Come e' organizzato il sistema veneto. Che cosa sono i Centri di Servizi, e come si accede."),
- (10,"chiaro",0,"UVMD e SVaMA. Come funziona la rete per l'infarto o per l'ictus. Le medicine di gruppo integrate. L'infermiere di famiglia e comunita'. L'accesso al Fascicolo, e le responsabilita'."),
- (10,"chiaro",0,"Sono otto domande. Prepara per ciascuna una risposta di un minuto, con la mappa in testa: dove si colloca il servizio, chi lo governa, come ci si accede."),
+ (10,"chiaro",0,"L'equilibrio acido-base. Il pH del sangue sta fra sette virgola trentacinque e sette virgola quarantacinque: un intervallo stretto. Tre sistemi lo difendono, ciascuno con tempi diversi."),
+ (10,"chiaro",0,"I tamponi, come il bicarbonato, le proteine e l'emoglobina, in pochi secondi. Il polmone, che elimina anidride carbonica, in minuti. Il rene, che elimina ioni idrogeno e riassorbe bicarbonato, in ore o giorni."),
+ (10,"chiaro",0,"La CO2 rappresenta la componente respiratoria, il bicarbonato quella metabolica. E' la base della lettura dell'emogas della lezione sei punto quattro, dove il compenso di un sistema corregge lo squilibrio dell'altro."),
 
- (11,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi disegna a memoria la mappa del sistema veneto, e leggi l'atto aziendale dell'azienda in cui vorresti lavorare."),
- (11,"chiaro",0,"Sfoglia la Relazione Socio Sanitaria piu' recente. E nelle settimane prima della prova verifica le novita': un nuovo piano socio-sanitario, l'attivazione delle Case della Comunita' e del NUE centododici."),
+ (11,"chiaro",0,"L'omeostasi e' il mantenimento di condizioni interne stabili. Il meccanismo piu' frequente e' il feedback negativo: la risposta contrasta la variazione."),
+ (11,"chiaro",0,"Se la glicemia sale, si libera insulina, che la fa scendere. Se la temperatura sale, si suda. Termoregolazione, glicemia e pressione arteriosa sono esempi di feedback negativo."),
+ (11,"chiaro",0,"Esiste anche il feedback positivo, in cui la risposta amplifica la variazione fino a un evento finale. Le contrazioni del parto, sostenute dall'ossitocina, o la cascata della coagulazione."),
+ (11,"chiaro",0,"[thoughtful] E la malattia, in molti casi, e' proprio questo: un'omeostasi che non riesce piu' a compensare."),
 
- (12,"chiaro",0,"Un consiglio per l'orale. La risposta che fa la differenza non si ferma a che cos'e', ma arriva a come lo uso da infermiere."),
- (12,"chiaro",0,"Per esempio: le COT coordinano le transizioni fra setting. Quando dimetto un paziente fragile, segnalo il caso alla COT per organizzare una dimissione protetta. E' la stessa informazione, detta da un professionista."),
+ (12,"chiaro",0,"Il collegamento con l'assistenza. Il bilancio idrico e il peso della lezione tre punto cinque. La scelta delle soluzioni infusionali della lezione sei punto tre. L'edema e il posizionamento. L'emogas della sei punto quattro."),
+ (12,"chiaro",0,"E un esempio che ora si spiega da solo: un campione emolizzato da' un potassio falsamente alto. Perche' il potassio e' intracellulare, e i globuli rossi rotti liberano il potassio che contengono."),
 
- (13,"profondo",1.2,"[serious] Conoscere il sistema veneto significa sapere dove mandare una persona, e come accompagnarla."),
+ (13,"chiaro",0,"[curious] Il caso d'esame. Paziente cirrotico, albumina a due virgola uno grammi per decilitro, edemi declivi importanti. Qual e' il meccanismo dell'edema?"),
+ (13,"chiaro",0,"La riduzione della pressione oncotica. Il fegato malato produce poca albumina, e il liquido non viene piu' trattenuto nei vasi. E' la seconda delle quattro cause di edema."),
+ (13,"chiaro",0,"Si aggiunge l'ipertensione portale, che aumenta la pressione idrostatica nel distretto addominale, con l'ascite. Per questo, dopo una paracentesi di grande volume, si da' albumina, come nella lezione otto punto cinque."),
 
- (14,"chiaro",0,"[warm] Nel prossimo modulo torniamo alle basi: anatomia, fisiologia e fisiopatologia degli apparati, la semeiotica e i valori di laboratorio."),
- (14,"chiaro",0,"E' il fondamento scientifico di tutto cio' che abbiamo studiato. Ci vediamo li'."),
+ (14,"chiaro",0,"La tabella. Quattro tessuti: epiteliale, connettivo, muscolare, nervoso. Tre piani: sagittale, frontale, trasversale. Trasporti passivi e attivi, e la pompa sodio-potassio: tre fuori e due dentro."),
+ (14,"chiaro",0,"L'osmosi, con l'acqua che va verso il piu' concentrato, e la tonicita': iso, ipo e ipertonica. L'acqua al sessanta per cento del peso: due terzi dentro le cellule, un terzo fuori."),
+ (14,"chiaro",0,"Starling: idrostatica fuori, oncotica dentro, e le quattro cause di edema. ADH per l'acqua, aldosterone per il sodio. Il pH e i suoi tre sistemi di difesa. Il feedback negativo e quello positivo."),
+
+ (15,"profondo",1.2,"[serious] La frase della lezione: ogni gesto infermieristico ha una ragione biologica. Conoscerla permette di adattare il gesto quando la situazione cambia."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione, l'apparato cardiocircolatorio: dall'anatomia del cuore al sistema di conduzione, fino alla pressione arteriosa."),
+ (16,"chiaro",0,"Dalle fondamenta della cellula al primo grande apparato: il cuore e la circolazione. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Il vertice",3:"Le aziende",4:"L'ospedale e l'emergenza",5:"Il territorio",6:"La non autosufficienza",
- 7:"Garanzie e prevenzione",8:"La sanita' digitale",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",
- 11:"Come proseguire",12:"La risposta che fa la differenza",13:"La frase del modulo",14:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"L'organizzazione del corpo",3:"La terminologia anatomica",4:"La cellula e la membrana",5:"I trasporti di membrana",
+ 6:"L'osmosi e la tonicita'",7:"I compartimenti idrici",8:"Le forze di Starling e l'edema",9:"La regolazione dell'acqua e del sodio",
+ 10:"L'equilibrio acido-base",11:"L'omeostasi e i feedback",12:"Il collegamento con l'assistenza",13:"Il caso d'esame",14:"La tabella",
+ 15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

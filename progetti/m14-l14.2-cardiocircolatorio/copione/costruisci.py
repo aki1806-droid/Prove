@@ -4,71 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo dedicato al Veneto con una mappa del sistema in una pagina. E' lo schema da avere in testa all'orale, e lo costruiamo un pezzo alla volta."),
- (1,"chiaro",0,"Se ti chiedono di un servizio, devi sapere tre cose: in quale parte del sistema si colloca, chi lo governa, e come ci si accede."),
+ (1,"chiaro",0,"[warm] Il cuore e' una pompa, i vasi sono tubi, il sangue e' il mezzo di trasporto. Detta cosi' sembra semplice. Ripercorriamo insieme l'apparato cardiocircolatorio."),
+ (1,"chiaro",0,"Da questo sistema dipendono la pressione, la perfusione degli organi, la risposta allo shock e l'azione di molti farmaci. Lo rivediamo con un occhio ai collegamenti con i moduli otto e dieci."),
 
- (2,"chiaro",0,"Partiamo dal vertice. La Regione, con la Giunta e il Consiglio regionale, che definiscono indirizzi e programmazione. E l'Area Sanita' e Sociale, che traduce gli indirizzi in atti."),
- (2,"chiaro",0,"La programmazione. Il Piano Socio Sanitario Regionale duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del duemiladiciotto, ancora riferimento in attesa del nuovo piano."),
- (2,"chiaro",0,"E le schede di dotazione, ospedaliera e territoriale, approvate con delibera di Giunta regionale: per ogni ospedale e per ogni territorio stabiliscono le funzioni e i posti letto."),
- (2,"chiaro",0,"Poi Azienda Zero, istituita dalla legge regionale diciannove del duemilasedici: l'ente di governance della sanita' regionale, operativo dal duemiladiciassette."),
- (2,"chiaro",0,"Le sue funzioni centralizzate: la GSA, la gestione sanitaria accentrata. La CRAV, per gli acquisti. I concorsi. I sistemi informativi e il Fascicolo. La formazione, gli affari legali, l'epidemiologia e i registri."),
+ (2,"chiaro",0,"Il cuore ha quattro cavita': atrio e ventricolo destro, atrio e ventricolo sinistro. Le valvole atrioventricolari separano atri e ventricoli: la tricuspide a destra, la mitrale, o bicuspide, a sinistra."),
+ (2,"chiaro",0,"Le valvole semilunari, invece, separano i ventricoli dalle grandi arterie. Sono due: la valvola polmonare, all'uscita del ventricolo destro, e la valvola aortica, all'uscita del sinistro."),
+ (2,"chiaro",0,"La parete del cuore e' fatta di endocardio, miocardio ed epicardio, ed e' avvolta dal pericardio. Il ventricolo sinistro ha la parete piu' spessa: pompa il sangue in tutto il corpo, contro una pressione piu' alta."),
 
- (3,"chiaro",0,"Le aziende. Le nove ULSS, nate il primo gennaio duemiladiciassette. Uno, Dolomiti. Due, Marca Trevigiana. Tre, Serenissima. Quattro, Veneto Orientale. Cinque, Polesana."),
- (3,"chiaro",0,"Sei, Euganea. Sette, Pedemontana. Otto, Berica. Nove, Scaligera. E i territori delle vecchie aziende sono diventati i distretti delle nuove."),
- (3,"chiaro",0,"Accanto alle ULSS, le due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
- (3,"chiaro",0,"Lo IOV, l'Istituto Oncologico Veneto, che e' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico. E le strutture private accreditate, integrate nella rete."),
+ (3,"chiaro",0,"Il percorso del sangue. Il sangue povero di ossigeno arriva dalle vene cave all'atrio destro, passa la tricuspide ed entra nel ventricolo destro."),
+ (3,"chiaro",0,"Il ventricolo destro lo spinge, attraverso la valvola polmonare, nell'arteria polmonare e da li' verso i polmoni. Dal cuore destro ai polmoni: e' il piccolo circolo."),
+ (3,"chiaro",0,"Ossigenato, il sangue torna con le vene polmonari all'atrio sinistro, passa la mitrale ed entra nel ventricolo sinistro, che lo spinge attraverso la valvola aortica nell'aorta e in tutti gli organi: e' il grande circolo."),
+ (3,"chiaro",0,"[curious] Una domanda trabocchetto frequente: l'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Le arterie si definiscono perche' escono dal cuore, non per il tipo di sangue."),
 
- (4,"chiaro",0,"L'ospedale e l'emergenza. Il modello e' hub and spoke: gli hub, con le alte specialita'; e gli spoke, gli ospedali di rete, collegati agli hub per i casi complessi."),
- (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica: sette centrali operative provinciali, il dispatch infermieristico che attribuisce il codice di priorita', e l'elisoccorso."),
- (4,"chiaro",0,"Sopra le centrali, il coordinamento regionale dell'emergenza urgenza, il CREU. E il NUE centododici, il Numero Unico di Emergenza europeo, in attuazione."),
- (4,"chiaro",0,"Le reti tempo-dipendenti. Per l'infarto, l'ECG teletrasmesso e, se e' uno STEMI, l'accesso diretto all'emodinamica. Per l'ictus, gli hub per la trombectomia. E la rete trauma."),
- (4,"chiaro",0,"Poi le reti cliniche: la Rete Oncologica Veneta, la ROV. I punti nascita, i trapianti, le malattie rare, la terapia del dolore e le cure palliative. Non l'ospedale piu' vicino, ma quello giusto."),
+ (4,"chiaro",0,"Le coronarie sono le arterie che nutrono il cuore, e nascono dall'aorta subito sopra la valvola aortica. Sono due: la coronaria destra e la coronaria sinistra."),
+ (4,"chiaro",0,"La coronaria sinistra si divide a sua volta in due rami: la discendente anteriore e la circonflessa. Tre nomi da ricordare, quindi: coronaria destra, discendente anteriore, circonflessa."),
+ (4,"chiaro",0,"Il miocardio si perfonde soprattutto in diastole, quando il muscolo e' rilassato. Percio' una tachicardia, che accorcia la diastole, riduce la perfusione coronarica: con coronarie malate, puo' scatenare un'ischemia."),
 
- (5,"chiaro",0,"Il territorio. Il distretto socio-sanitario, articolazione dell'ULSS: assistenza primaria, specialistica, ADI, consultori, residenzialita', e l'integrazione con i Comuni."),
- (5,"chiaro",0,"Le medicine di gruppo integrate, il modello veneto: medici di famiglia in una sede comune, con infermieri e apertura estesa. Accanto, le forme nazionali: le AFT e le UCCP."),
- (5,"chiaro",0,"Le cure intermedie, fra ospedale e domicilio: gli Ospedali di Comunita', le Unita' Riabilitative Territoriali, gli hospice. Per chi non ha piu' bisogno dell'ospedale, ma non puo' ancora tornare a casa."),
- (5,"chiaro",0,"Il DM settantasette in Veneto. Le Case della Comunita', con le linee di indirizzo regionali del duemilaventisei. Le COT, una ogni centomila abitanti. L'infermiere di famiglia e comunita', uno ogni tremila."),
- (5,"chiaro",0,"La continuita' assistenziale, l'ex guardia medica, e il centosedici centodiciassette per le cure non urgenti. L'ADI, con le cure palliative domiciliari. La stratificazione con l'ACG, e la medicina di iniziativa."),
+ (5,"chiaro",0,"Il sistema di conduzione. L'impulso nasce nel nodo senoatriale, il pacemaker naturale del cuore, con una frequenza da sessanta a cento battiti al minuto, e da li' si diffonde negli atri."),
+ (5,"chiaro",0,"Poi arriva al nodo atrioventricolare, che rallenta l'impulso. Questo rallentamento ha uno scopo preciso: permette ai ventricoli di riempirsi."),
+ (5,"chiaro",0,"Dal nodo atrioventricolare l'impulso percorre il fascio di His, le branche destra e sinistra e le fibre di Purkinje, che attivano i ventricoli. I blocchi della lezione otto punto uno sono interruzioni di questa via."),
+ (5,"chiaro",0,"All'ECG questa sequenza si legge cosi': l'onda P e' la depolarizzazione degli atri, il QRS la depolarizzazione dei ventricoli, l'onda T la ripolarizzazione dei ventricoli."),
 
- (6,"chiaro",0,"La non autosufficienza. Il principio e' la porta unica: l'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con il direttore di distretto, il medico di famiglia e l'assistente sociale del Comune."),
- (6,"chiaro",0,"Gli strumenti: la SVaMA, la scheda di valutazione multidimensionale dell'anziano, e la SVaMDi per la disabilita'. Restituiscono un profilo di autonomia e di bisogno, uguale in tutta la regione."),
- (6,"chiaro",0,"La domiciliarita' viene prima: l'ADI, il SAD dei Comuni, e l'impegnativa di cura domiciliare, un contributo per chi assiste a casa una persona non autosufficiente. Poi i centri diurni e i ricoveri di sollievo."),
- (6,"chiaro",0,"I Centri di Servizi, le strutture residenziali per anziani non autosufficienti. L'impegnativa di residenzialita' copre la quota sanitaria; la quota alberghiera resta a carico della persona o della famiglia."),
- (6,"chiaro",0,"Per ogni ospite, il PAI, il Piano Assistenziale Individualizzato. E la regola da ricordare per tutta la rete: prima si valuta il bisogno, poi si sceglie il servizio."),
+ (6,"chiaro",0,"Il ciclo cardiaco alterna due fasi. La sistole, cioe' la contrazione e l'eiezione del sangue. E la diastole, cioe' il rilasciamento e il riempimento."),
+ (6,"chiaro",0,"I toni cardiaci sono i rumori della chiusura delle valvole. Il primo tono corrisponde alla chiusura delle valvole atrioventricolari, all'inizio della sistole."),
+ (6,"chiaro",0,"Il secondo tono corrisponde alla chiusura delle valvole semilunari, all'inizio della diastole. I soffi, invece, sono rumori di flusso turbolento, per esempio nelle malattie delle valvole."),
 
- (7,"chiaro",0,"Garanzie e prevenzione. La legge regionale ventidue del duemiladue: autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali, pubbliche e private."),
- (7,"chiaro",0,"Le fasi: l'autorizzazione alla realizzazione, poi all'esercizio, con i requisiti minimi. L'accreditamento istituzionale, con i requisiti ulteriori, per lavorare per conto del servizio regionale. Poi gli accordi contrattuali."),
- (7,"chiaro",0,"Il Dipartimento di Prevenzione delle ULSS: il SISP, igiene e sanita' pubblica; il SIAN, igiene degli alimenti e della nutrizione; lo SPISAL, la sicurezza nei luoghi di lavoro; e i servizi veterinari."),
- (7,"chiaro",0,"Il Piano Regionale della Prevenzione. I tre screening, gratuiti e con invito attivo: mammella, cervice, colon-retto. E in Veneto il colon-retto e' esteso anche alla fascia dai settanta ai settantaquattro anni."),
- (7,"chiaro",0,"Le vaccinazioni, nei centri vaccinali delle ULSS: per i minori, dieci obbligatorie secondo la legge centodiciannove del duemiladiciassette. E il Registro Tumori, oggi in Azienda Zero."),
+ (7,"chiaro",0,"La gittata cardiaca e' la quantita' di sangue pompata in un minuto. E' uguale alla gittata sistolica, cioe' il sangue espulso a ogni battito, moltiplicata per la frequenza cardiaca."),
+ (7,"chiaro",0,"A riposo, la gittata cardiaca e' di circa cinque litri al minuto. La gittata sistolica dipende da tre fattori: il precarico, il postcarico e la contrattilita'."),
+ (7,"chiaro",0,"Il precarico e' il riempimento del ventricolo. Secondo la legge di Frank-Starling, entro certi limiti, piu' il cuore si riempie, piu' forte si contrae."),
+ (7,"chiaro",0,"Il postcarico e' la resistenza che il ventricolo deve vincere. La contrattilita' e' la forza intrinseca del muscolo cardiaco."),
+ (7,"chiaro",0,"I farmaci della lezione cinque punto cinque agiscono proprio su questi tre fattori: i diuretici sul precarico, i vasodilatatori sul postcarico, gli inotropi sulla contrattilita'."),
 
- (8,"chiaro",0,"La sanita' digitale. Il Fascicolo Sanitario Elettronico, e Sanita' chilometro zero, il portale e le app della Regione: Fascicolo, Ricette, Prenota Veloce. Si accede con SPID o con la CIE."),
- (8,"chiaro",0,"I diritti del cittadino: il consenso alla consultazione da parte dei professionisti, l'oscuramento di singoli documenti, e la delega a un'altra persona."),
- (8,"chiaro",0,"La ricetta dematerializzata, e le classi di priorita'. U, urgente, settantadue ore. B, breve, dieci giorni. D, differibile, trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
- (8,"chiaro",0,"La cartella elettronica, con credenziali personali e non cedibili. E soprattutto: si accede ai dati solo se si ha in cura il paziente, perche' ogni accesso e' registrato. Infine, la telemedicina."),
+ (8,"chiaro",0,"La pressione arteriosa dipende da due fattori: la gittata cardiaca e le resistenze periferiche. Le resistenze sono determinate soprattutto dalle arteriole, i vasi di resistenza."),
+ (8,"chiaro",0,"Si misurano la sistolica e la diastolica, e se ne ricava la pressione arteriosa media: circa la diastolica, piu' un terzo della differenza fra sistolica e diastolica."),
+ (8,"chiaro",0,"Un esempio: con centoventi su sessanta, la differenza e' sessanta, un terzo e' venti, e la media e' circa ottanta. E ricordi l'obiettivo nello shock e nella sepsi: una pressione media di almeno sessantacinque."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Centri di Servizi e' il nome veneto delle RSA. E l'impegnativa di residenzialita' copre la quota sanitaria, non la retta alberghiera."),
- (9,"chiaro",0,"Azienda Zero non eroga prestazioni ai pazienti: rende possibile che le altre aziende li curino meglio. E ULSS ha la S di socio: Unita' Locale Socio Sanitaria, non ASL."),
- (9,"chiaro",0,"Da ventuno a nove ULSS, nel duemiladiciassette. E l'alimentazione del Fascicolo e' automatica, mentre la consultazione richiede il consenso della persona."),
+ (9,"chiaro",0,"La regolazione della pressione. A breve termine agiscono i barocettori, nel seno carotideo e nell'arco aortico, che percepiscono i cambiamenti di pressione."),
+ (9,"chiaro",0,"I barocettori attivano il sistema nervoso autonomo. Il simpatico aumenta la frequenza e la contrattilita' e restringe i vasi. Il parasimpatico rallenta il cuore."),
+ (9,"chiaro",0,"E' cio' che succede quando ti alzi in piedi: senza questa risposta sveniresti. Lo ritroviamo fra poco nell'anziano, con l'ipotensione ortostatica."),
+ (9,"chiaro",0,"A medio-lungo termine agisce il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua, insieme all'ADH e al rene. Gli ACE-inibitori e i sartani bloccano proprio questo sistema."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. Che cos'e' Azienda Zero, e quali funzioni svolge. Come e' organizzato il sistema veneto. Che cosa sono i Centri di Servizi, e come si accede."),
- (10,"chiaro",0,"UVMD e SVaMA. Come funziona la rete per l'infarto o per l'ictus. Le medicine di gruppo integrate. L'infermiere di famiglia e comunita'. L'accesso al Fascicolo, e le responsabilita'."),
- (10,"chiaro",0,"Sono otto domande. Prepara per ciascuna una risposta di un minuto, con la mappa in testa: dove si colloca il servizio, chi lo governa, come ci si accede."),
+ (10,"chiaro",0,"I vasi. Le arterie hanno una parete elastica e muscolare, e lavorano ad alta pressione. Le arteriole sono i vasi di resistenza. Nei capillari avvengono gli scambi."),
+ (10,"chiaro",0,"Le vene lavorano a bassa pressione e contengono la maggior parte del sangue: per questo si chiamano vasi di capacitanza. E hanno valvole che impediscono il reflusso."),
+ (10,"chiaro",0,"Il ritorno venoso dagli arti inferiori dipende dalla pompa muscolare del polpaccio, e anche dalla respirazione. Ecco perche' la mobilizzazione previene la trombosi."),
+ (10,"chiaro",0,"Ed ecco perche', nell'insufficienza venosa della lezione sette punto tre, si cammina con la compressione. Fra le alterazioni dei vasi, ricorda anche l'aterosclerosi."),
 
- (11,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi disegna a memoria la mappa del sistema veneto, e leggi l'atto aziendale dell'azienda in cui vorresti lavorare."),
- (11,"chiaro",0,"Sfoglia la Relazione Socio Sanitaria piu' recente. E nelle settimane prima della prova verifica le novita': un nuovo piano socio-sanitario, l'attivazione delle Case della Comunita' e del NUE centododici."),
+ (11,"chiaro",0,"[thoughtful] La fisiopatologia essenziale. L'ischemia e' uno squilibrio fra domanda e offerta di ossigeno al miocardio. Nell'angina e' transitorio e reversibile, nell'infarto porta alla necrosi."),
+ (11,"chiaro",0,"Nello scompenso la gittata non soddisfa i bisogni dell'organismo, che reagisce attivando il simpatico e il sistema renina-angiotensina. Sono compensi utili all'inizio."),
+ (11,"chiaro",0,"Ma a lungo andare quei compensi sovraccaricano il cuore e peggiorano il quadro. E' per questo che i farmaci dello scompenso li bloccano."),
+ (11,"chiaro",0,"Le aritmie sono disturbi della formazione o della conduzione dell'impulso. E lo shock e' una perfusione inadeguata dei tessuti, come hai visto nella lezione dieci punto sei."),
 
- (12,"chiaro",0,"Un consiglio per l'orale. La risposta che fa la differenza non si ferma a che cos'e', ma arriva a come lo uso da infermiere."),
- (12,"chiaro",0,"Per esempio: le COT coordinano le transizioni fra setting. Quando dimetto un paziente fragile, segnalo il caso alla COT per organizzare una dimissione protetta. E' la stessa informazione, detta da un professionista."),
+ (12,"chiaro",0,"Il caso d'esame. Un paziente in fibrillazione atriale rapida, con una frequenza cardiaca di centocinquanta, riferisce dolore toracico. Perche'?"),
+ (12,"chiaro",0,"La tachicardia accorcia la diastole, cioe' il tempo in cui le coronarie perfondono il miocardio. E allo stesso tempo aumenta il consumo di ossigeno del cuore. Domanda alta, offerta bassa: ischemia."),
+ (12,"chiaro",0,"In piu', una frequenza cosi' alta riduce il riempimento dei ventricoli, e quindi la gittata. Ecco perche' il controllo della frequenza e' una priorita', e il dolore toracico va segnalato subito."),
 
- (13,"profondo",1.2,"[serious] Conoscere il sistema veneto significa sapere dove mandare una persona, e come accompagnarla."),
+ (13,"chiaro",0,"Il collegamento con l'assistenza. La misurazione di pressione e frequenza, della lezione due punto tre. E l'ipotensione ortostatica nell'anziano, in cui il baroriflesso e' piu' lento: da qui l'alzata in due tempi."),
+ (13,"chiaro",0,"E poi i polsi periferici e il riempimento capillare. L'azione dei farmaci cardiovascolari. E la prevenzione della trombosi venosa profonda."),
 
- (14,"chiaro",0,"[warm] Nel prossimo modulo torniamo alle basi: anatomia, fisiologia e fisiopatologia degli apparati, la semeiotica e i valori di laboratorio."),
- (14,"chiaro",0,"E' il fondamento scientifico di tutto cio' che abbiamo studiato. Ci vediamo li'."),
+ (14,"chiaro",0,"La tabella. Tricuspide a destra, mitrale a sinistra. L'arteria polmonare porta sangue povero di ossigeno. Le coronarie, perfuse in diastole. La conduzione, dal nodo senoatriale alle fibre di Purkinje."),
+ (14,"chiaro",0,"P, QRS, T. Primo e secondo tono. Gittata uguale gittata sistolica per frequenza. Precarico, postcarico, contrattilita'. Pressione uguale gittata per resistenze, e la media. Barocettori e renina-angiotensina."),
+
+ (15,"profondo",1.2,"[serious] La frase della lezione: la pressione e' il risultato di una pompa e di un tubo. Quando cade, chiediti se ha ceduto la pompa, se manca il volume, o se il tubo si e' dilatato."),
+
+ (16,"chiaro",0,"[warm] Nella prossima lezione: l'apparato respiratorio, gli scambi gassosi e la curva di dissociazione dell'emoglobina, che spiega molte cose sull'ossigenoterapia. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Il vertice",3:"Le aziende",4:"L'ospedale e l'emergenza",5:"Il territorio",6:"La non autosufficienza",
- 7:"Garanzie e prevenzione",8:"La sanita' digitale",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",
- 11:"Come proseguire",12:"La risposta che fa la differenza",13:"La frase del modulo",14:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Il cuore: cavita' e valvole",3:"Il percorso del sangue",4:"Le coronarie",5:"Il sistema di conduzione",
+ 6:"Il ciclo cardiaco e i toni",7:"La gittata cardiaca",8:"La pressione arteriosa",9:"La regolazione della pressione",10:"I vasi",
+ 11:"La fisiopatologia essenziale",12:"Il caso d'esame",13:"Il collegamento con l'assistenza",14:"La tabella",15:"La frase della lezione",16:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

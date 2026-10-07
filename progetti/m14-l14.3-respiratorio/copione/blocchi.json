@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Respirare significa due cose: portare ossigeno ai tessuti ed eliminare l'anidride carbonica. Tutto parte da qui."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ripercorriamo l'anatomia delle vie aeree, la meccanica del respiro, gli scambi gassosi, e una curva che spiega molte scelte di assistenza: quella di dissociazione dell'emoglobina."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vie aeree superiori. Il naso, che riscalda, umidifica e filtra l'aria: funzioni che si perdono nella tracheostomia, come hai visto nella lezione otto punto due. Poi la faringe."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la laringe, con le corde vocali e l'epiglottide, che protegge dall'inalazione. Poi le vie aeree inferiori: la trachea, i bronchi principali, i bronchi lobari e segmentari, i bronchioli, fino agli alveoli."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio chiesto spesso: il bronco principale destro e' piu' corto, piu' largo e piu' verticale. Per questo i corpi estranei inalati finiscono piu' spesso a destra."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per lo stesso motivo un tubo endotracheale troppo profondo finisce piu' spesso nel bronco destro. Il polmone destro ha tre lobi, il sinistro due. E tutto e' avvolto dalla pleura, viscerale e parietale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La meccanica del respiro. L'inspirazione e' attiva. Il muscolo principale e' il diaframma, che si contrae e si abbassa; gli intercostali esterni sollevano le coste."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il torace si espande, la pressione negli alveoli scende, e l'aria entra. L'espirazione, invece, a riposo e' passiva: e' il semplice ritorno elastico del polmone."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando il respiro e' difficile entrano in gioco i muscoli accessori: sternocleidomastoideo, scaleni, addominali. Si vedono contrarsi sul collo: un segno di fatica respiratoria, lezione dieci punto due."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il surfattante, che riveste gli alveoli: riduce la tensione superficiale e ne impedisce il collasso. La sua carenza nel neonato prematuro causa la sindrome da distress respiratorio."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I volumi polmonari. Il volume corrente e' l'aria mobilizzata a ogni respiro tranquillo: a riposo, circa cinquecento millilitri."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Di questi, circa centocinquanta restano nello spazio morto anatomico, dove non avvengono scambi. Per questo un respiro rapido e superficiale e' poco efficace: gran parte dell'aria non arriva agli alveoli."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La capacita' vitale e' la massima quantita' di aria espirabile dopo un'inspirazione massima. Il volume residuo e' quello che resta comunque nei polmoni, dopo l'espirazione massima."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la spirometria. Se il rapporto fra FEV uno e capacita' vitale forzata scende sotto zero virgola sette, indica un'ostruzione, come nella BPCO."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli scambi gassosi avvengono negli alveoli, per diffusione attraverso la membrana alveolo-capillare, sottilissima: l'ossigeno passa dall'alveolo al sangue, l'anidride carbonica dal sangue all'alveolo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' funzionino serve un buon rapporto ventilazione-perfusione. Un alveolo ventilato ma non perfuso, come nell'embolia, o perfuso ma non ventilato, come nell'atelettasia o nella polmonite: il sangue esce poco ossigenato."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio: l'anidride carbonica diffonde circa venti volte piu' facilmente dell'ossigeno. Ed e' per questo che nelle malattie polmonari l'ipossiemia compare di solito prima dell'ipercapnia."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasporto dell'ossigeno. Quasi tutto l'ossigeno, circa il novantotto per cento, viaggia legato all'emoglobina. Solo una piccola parte e' disciolta nel plasma."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La saturazione indica la percentuale di emoglobina legata all'ossigeno. Ma la quantita' di ossigeno trasportata dipende da due cose: dalla saturazione e dalla quantita' di emoglobina."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco perche', come nella lezione otto punto due, un paziente gravemente anemico puo' avere una saturazione normale, e comunque un apporto di ossigeno insufficiente ai tessuti."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] La curva di dissociazione dell'emoglobina descrive il rapporto fra la pressione parziale di ossigeno nel sangue, la PaO2, e la saturazione. Ha una forma a S: e' una sigmoide."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella parte alta la curva e' piatta: la PaO2 puo' scendere molto, mentre la saturazione cambia poco. Grandi variazioni di PaO2, piccole variazioni di saturazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma sotto circa il novanta per cento di saturazione, che corrisponde a una PaO2 di circa sessanta millimetri di mercurio, la curva diventa ripida: piccole riduzioni di PaO2 fanno crollare la saturazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da qui un riferimento da ricordare: saturazione novanta, PaO2 sessanta, la soglia dell'insufficienza respiratoria. Un paziente che scende da novantaquattro a novanta e' sul bordo del precipizio."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La curva si sposta. A destra, quando l'emoglobina cede piu' facilmente l'ossigeno ai tessuti: con l'aumento di temperatura e anidride carbonica, con l'acidosi, con l'aumento del due-tre-DPG."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' cio' che succede nei tessuti che lavorano, come un muscolo sotto sforzo, che ha piu' bisogno di ossigeno."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A sinistra, invece, l'emoglobina trattiene l'ossigeno: con l'ipotermia, con l'alcalosi, con la riduzione dell'anidride carbonica, con il monossido di carbonio, e con l'emoglobina fetale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio pratico: in un paziente ipotermico o in alcalosi, l'ossigeno arriva ai tessuti con piu' difficolta', anche a parita' di saturazione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'anidride carbonica viaggia soprattutto come bicarbonato, poi legata all'emoglobina e disciolta. Questo collega il respiro all'equilibrio acido-base, della lezione quattordici punto uno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il controllo del respiro parte dai centri respiratori del tronco encefalico, nel bulbo e nel ponte. I chemocettori centrali sono sensibili all'anidride carbonica e al pH: sono lo stimolo principale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I chemocettori periferici, carotidei e aortici, cioe' nelle carotidi e nell'aorta, sono sensibili soprattutto all'ipossia."
+ },
+ {
+  "id": "s33",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola della lezione otto punto due: nel BPCO ipercapnico, troppo ossigeno puo' peggiorare l'ipercapnia, per piu' meccanismi: il rapporto ventilazione-perfusione, l'effetto Haldane e, in parte, la riduzione dello stimolo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insufficienza respiratoria ha due tipi. Il tipo uno, ipossiemica: PaO2 sotto sessanta, con anidride carbonica normale o bassa. Le cause tipiche: la polmonite, l'edema polmonare, l'embolia."
+ },
+ {
+  "id": "s35",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tipo due, ipercapnica: PaO2 sotto sessanta e PaCO2 sopra quarantacinque. Le cause: la BPCO, le malattie neuromuscolari, la depressione del respiro da oppioidi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due termini da non confondere. Ipossiemia significa poco ossigeno nel sangue. Ipossia significa poco ossigeno ai tessuti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la cianosi e' un segno tardivo, che puo' mancare del tutto in un paziente anemico."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Il collegamento con l'assistenza. La posizione seduta o semiseduta, che facilita il lavoro del diaframma. La respirazione profonda e lo spirometro incentivante contro l'atelettasia, lezione nove punto cinque."
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frequenza respiratoria come parametro sentinella. I target di saturazione, lezione otto punto due. L'umidificazione nelle vie aeree artificiali. E il bronco destro, quando si verifica la posizione del tubo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso d'esame. Paziente post-operatorio, frequenza respiratoria trentadue, respiri superficiali, saturazione novantadue. Perche' la ventilazione e' inefficace, anche se respira velocemente?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' con respiri piccoli gran parte di ogni respiro resta nello spazio morto, e non raggiunge gli alveoli. La ventilazione alveolare effettiva e' bassa: respira tanto, ma respira male."
+ },
+ {
+  "id": "s42",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spesso la causa e' il dolore, che impedisce i respiri profondi. Gli interventi: un'analgesia adeguata, la posizione semiseduta, la respirazione profonda, e la valutazione con il medico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la saturazione a novantadue ti dice che sei vicino alla parte ripida della curva, dove piccole riduzioni di PaO2 la fanno crollare."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta. FEV uno su FVC sotto zero virgola sette: ostruzione. Circa il novantotto per cento dell'ossigeno legato all'emoglobina."
+ },
+ {
+  "id": "s45",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Saturazione novanta, PaO2 sessanta. PaCO2 normale fra trentacinque e quarantacinque millimetri di mercurio. Insufficienza respiratoria: PaO2 sotto sessanta, e nel tipo due PaCO2 sopra quarantacinque."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Il bronco destro piu' verticale. Tre lobi a destra, due a sinistra. Inspirazione attiva, con il diaframma, ed espirazione passiva. Il surfattante. Il rapporto ventilazione-perfusione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La curva sigmoide: a destra cede l'ossigeno, a sinistra lo trattiene. Chemocettori centrali per l'anidride carbonica, periferici per l'ipossia. Tipo uno e tipo due. Ipossiemia e ipossia. Cianosi tardiva."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase della lezione: sotto il novanta per cento la curva precipita. La saturazione si sorveglia prima che cada, non dopo."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: l'apparato digerente, il fegato e il rene, con la filtrazione glomerulare e la clearance, che spiegano perche' tanti farmaci vanno adattati. A tra poco."
+ }
+]

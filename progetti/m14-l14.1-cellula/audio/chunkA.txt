@@ -1,0 +1,43 @@
+[warm] Questo modulo ripercorre le basi scientifiche dell'assistenza: anatomia, fisiologia, fisiopatologia. Non come in un corso universitario, ma collegandole a cio' che hai gia' studiato.
+
+Perche' ogni gesto infermieristico ha una ragione biologica. Cominciamo dalle fondamenta: l'organizzazione del corpo, la cellula, i liquidi e l'equilibrio che li governa.
+
+Il corpo e' organizzato in livelli. Si parte dalle molecole, poi le cellule, i tessuti, gli organi, gli apparati e i sistemi, fino all'organismo intero.
+
+I tessuti fondamentali sono quattro. L'epiteliale, che riveste e secerne: la cute, le mucose, le ghiandole. E il connettivo, che sostiene e collega: l'osso, la cartilagine, il sangue, il tessuto adiposo.
+
+Il terzo e' il tessuto muscolare, che puo' essere scheletrico, cardiaco o liscio. Il quarto e' il tessuto nervoso.
+
+La terminologia anatomica serve per documentare con precisione. Tutto si riferisce alla posizione anatomica: in piedi, sguardo in avanti, braccia lungo i fianchi, palmi rivolti in avanti.
+
+I piani. Il sagittale divide destra e sinistra, ed e' mediano se passa a meta'. Il frontale, o coronale, divide anteriore e posteriore. Il trasversale, o assiale, superiore e inferiore: quello delle immagini della TC.
+
+I termini vanno a coppie. Prossimale e distale: piu' vicino o piu' lontano dalla radice dell'arto. Mediale e laterale. Craniale e caudale. Anteriore, o ventrale, e posteriore, o dorsale. Superficiale e profondo.
+
+Perche' conta? Lesione sul malleolo laterale destro e' una descrizione precisa. Lesione sulla caviglia, invece, no. La precisione dei termini e' precisione della documentazione.
+
+La cellula e' l'unita' fondamentale della vita. E' delimitata dalla membrana plasmatica, un doppio strato di fosfolipidi con proteine inserite, che ha una permeabilita' selettiva: decide che cosa entra e che cosa esce.
+
+All'interno, il nucleo con il DNA. I mitocondri, che producono energia sotto forma di ATP. I ribosomi, che sintetizzano le proteine. E poi il reticolo endoplasmatico, l'apparato del Golgi e i lisosomi.
+
+I trasporti di membrana sono di due tipi. Quelli passivi non consumano energia e seguono il gradiente di concentrazione.
+
+Sono passivi la diffusione semplice, come quella dell'ossigeno e dell'anidride carbonica negli alveoli; la diffusione facilitata, con proteine trasportatrici, come per il glucosio; e l'osmosi, per l'acqua.
+
+Quelli attivi consumano ATP e lavorano contro gradiente. Il piu' importante e' la pompa sodio-potassio, che porta tre ioni sodio fuori e due ioni potassio dentro. Sono attive anche l'endocitosi e l'esocitosi.
+
+Ed e' la pompa sodio-potassio il motivo per cui il sodio e' il principale ione extracellulare, e il potassio il principale ione intracellulare.
+
+L'osmosi e' il passaggio di acqua attraverso una membrana semipermeabile, dalla soluzione meno concentrata a quella piu' concentrata. Come se l'acqua volesse diluirla.
+
+Da qui la tonicita'. Una soluzione isotonica, come la fisiologica allo zero virgola nove per cento, non provoca spostamenti di acqua.
+
+Una soluzione ipotonica fa entrare acqua nelle cellule, che si gonfiano. Una soluzione ipertonica, al contrario, la fa uscire, e le cellule si raggrinziscono.
+
+E' la base della lezione sei punto tre: perche' le soluzioni ipotoniche sono pericolose nel paziente con edema cerebrale, e perche' il mannitolo o la soluzione salina ipertonica lo riducono.
+
+I compartimenti idrici. L'acqua rappresenta circa il sessanta per cento del peso corporeo nell'adulto. E' di piu' nel neonato, e di meno nell'anziano e nella donna, che hanno piu' tessuto adiposo.
+
+Per questo neonati e anziani si disidratano facilmente, ma in modi diversi: la loro riserva idrica non e' la stessa.
+
+Due terzi dell'acqua sono intracellulari, circa il quaranta per cento del peso. Un terzo e' extracellulare, circa il venti per cento, e si divide in interstiziale, circa tre quarti, e plasma, circa un quarto.

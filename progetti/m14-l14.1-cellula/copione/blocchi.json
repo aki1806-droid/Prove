@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questo modulo ripercorre le basi scientifiche dell'assistenza: anatomia, fisiologia, fisiopatologia. Non come in un corso universitario, ma collegandole a cio' che hai gia' studiato."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' ogni gesto infermieristico ha una ragione biologica. Cominciamo dalle fondamenta: l'organizzazione del corpo, la cellula, i liquidi e l'equilibrio che li governa."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il corpo e' organizzato in livelli. Si parte dalle molecole, poi le cellule, i tessuti, gli organi, gli apparati e i sistemi, fino all'organismo intero."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tessuti fondamentali sono quattro. L'epiteliale, che riveste e secerne: la cute, le mucose, le ghiandole. E il connettivo, che sostiene e collega: l'osso, la cartilagine, il sangue, il tessuto adiposo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' il tessuto muscolare, che puo' essere scheletrico, cardiaco o liscio. Il quarto e' il tessuto nervoso."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terminologia anatomica serve per documentare con precisione. Tutto si riferisce alla posizione anatomica: in piedi, sguardo in avanti, braccia lungo i fianchi, palmi rivolti in avanti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I piani. Il sagittale divide destra e sinistra, ed e' mediano se passa a meta'. Il frontale, o coronale, divide anteriore e posteriore. Il trasversale, o assiale, superiore e inferiore: quello delle immagini della TC."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I termini vanno a coppie. Prossimale e distale: piu' vicino o piu' lontano dalla radice dell'arto. Mediale e laterale. Craniale e caudale. Anteriore, o ventrale, e posteriore, o dorsale. Superficiale e profondo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' conta? Lesione sul malleolo laterale destro e' una descrizione precisa. Lesione sulla caviglia, invece, no. La precisione dei termini e' precisione della documentazione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cellula e' l'unita' fondamentale della vita. E' delimitata dalla membrana plasmatica, un doppio strato di fosfolipidi con proteine inserite, che ha una permeabilita' selettiva: decide che cosa entra e che cosa esce."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'interno, il nucleo con il DNA. I mitocondri, che producono energia sotto forma di ATP. I ribosomi, che sintetizzano le proteine. E poi il reticolo endoplasmatico, l'apparato del Golgi e i lisosomi."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I trasporti di membrana sono di due tipi. Quelli passivi non consumano energia e seguono il gradiente di concentrazione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono passivi la diffusione semplice, come quella dell'ossigeno e dell'anidride carbonica negli alveoli; la diffusione facilitata, con proteine trasportatrici, come per il glucosio; e l'osmosi, per l'acqua."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quelli attivi consumano ATP e lavorano contro gradiente. Il piu' importante e' la pompa sodio-potassio, che porta tre ioni sodio fuori e due ioni potassio dentro. Sono attive anche l'endocitosi e l'esocitosi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' la pompa sodio-potassio il motivo per cui il sodio e' il principale ione extracellulare, e il potassio il principale ione intracellulare."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'osmosi e' il passaggio di acqua attraverso una membrana semipermeabile, dalla soluzione meno concentrata a quella piu' concentrata. Come se l'acqua volesse diluirla."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da qui la tonicita'. Una soluzione isotonica, come la fisiologica allo zero virgola nove per cento, non provoca spostamenti di acqua."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una soluzione ipotonica fa entrare acqua nelle cellule, che si gonfiano. Una soluzione ipertonica, al contrario, la fa uscire, e le cellule si raggrinziscono."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la base della lezione sei punto tre: perche' le soluzioni ipotoniche sono pericolose nel paziente con edema cerebrale, e perche' il mannitolo o la soluzione salina ipertonica lo riducono."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I compartimenti idrici. L'acqua rappresenta circa il sessanta per cento del peso corporeo nell'adulto. E' di piu' nel neonato, e di meno nell'anziano e nella donna, che hanno piu' tessuto adiposo."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo neonati e anziani si disidratano facilmente, ma in modi diversi: la loro riserva idrica non e' la stessa."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due terzi dell'acqua sono intracellulari, circa il quaranta per cento del peso. Un terzo e' extracellulare, circa il venti per cento, e si divide in interstiziale, circa tre quarti, e plasma, circa un quarto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli scambi di liquidi nei capillari seguono le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso. La pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'edema nasce quando questo equilibrio si rompe, e le cause sono quattro. La prima e' l'aumento della pressione idrostatica, come nello scompenso cardiaco e nella trombosi venosa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda e' la riduzione della pressione oncotica, cioe' l'ipoalbuminemia: nella malnutrizione, nella cirrosi, nella sindrome nefrosica."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terza e' l'aumento della permeabilita' dei capillari: l'infiammazione, la sepsi, le ustioni. La quarta e' l'ostacolo al drenaggio linfatico, che da' il linfedema."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Davanti a un edema, chiedersi quale delle quattro cause agisca orienta l'assistenza. Pressione idrostatica, pressione oncotica, permeabilita', drenaggio linfatico."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regolazione dell'acqua e del sodio. Il primo meccanismo e' la sete. Poi l'ormone antidiuretico, l'ADH, prodotto dall'ipotalamo e liberato dall'ipofisi posteriore: fa riassorbire acqua nel rene."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aldosterone, prodotto dal surrene, fa riassorbire sodio ed eliminare potassio. Agisce all'interno del sistema renina-angiotensina-aldosterone."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il peptide natriuretico, prodotto dal cuore quando e' disteso, che favorisce l'eliminazione di sodio e acqua. E' il BNP, quello che si dosa nello scompenso."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'equilibrio acido-base. Il pH del sangue sta fra sette virgola trentacinque e sette virgola quarantacinque: un intervallo stretto. Tre sistemi lo difendono, ciascuno con tempi diversi."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I tamponi, come il bicarbonato, le proteine e l'emoglobina, in pochi secondi. Il polmone, che elimina anidride carbonica, in minuti. Il rene, che elimina ioni idrogeno e riassorbe bicarbonato, in ore o giorni."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La CO2 rappresenta la componente respiratoria, il bicarbonato quella metabolica. E' la base della lettura dell'emogas della lezione sei punto quattro, dove il compenso di un sistema corregge lo squilibrio dell'altro."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'omeostasi e' il mantenimento di condizioni interne stabili. Il meccanismo piu' frequente e' il feedback negativo: la risposta contrasta la variazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la glicemia sale, si libera insulina, che la fa scendere. Se la temperatura sale, si suda. Termoregolazione, glicemia e pressione arteriosa sono esempi di feedback negativo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste anche il feedback positivo, in cui la risposta amplifica la variazione fino a un evento finale. Le contrazioni del parto, sostenute dall'ossitocina, o la cascata della coagulazione."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] E la malattia, in molti casi, e' proprio questo: un'omeostasi che non riesce piu' a compensare."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegamento con l'assistenza. Il bilancio idrico e il peso della lezione tre punto cinque. La scelta delle soluzioni infusionali della lezione sei punto tre. L'edema e il posizionamento. L'emogas della sei punto quattro."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un esempio che ora si spiega da solo: un campione emolizzato da' un potassio falsamente alto. Perche' il potassio e' intracellulare, e i globuli rossi rotti liberano il potassio che contengono."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Il caso d'esame. Paziente cirrotico, albumina a due virgola uno grammi per decilitro, edemi declivi importanti. Qual e' il meccanismo dell'edema?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La riduzione della pressione oncotica. Il fegato malato produce poca albumina, e il liquido non viene piu' trattenuto nei vasi. E' la seconda delle quattro cause di edema."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si aggiunge l'ipertensione portale, che aumenta la pressione idrostatica nel distretto addominale, con l'ascite. Per questo, dopo una paracentesi di grande volume, si da' albumina, come nella lezione otto punto cinque."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Quattro tessuti: epiteliale, connettivo, muscolare, nervoso. Tre piani: sagittale, frontale, trasversale. Trasporti passivi e attivi, e la pompa sodio-potassio: tre fuori e due dentro."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'osmosi, con l'acqua che va verso il piu' concentrato, e la tonicita': iso, ipo e ipertonica. L'acqua al sessanta per cento del peso: due terzi dentro le cellule, un terzo fuori."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Starling: idrostatica fuori, oncotica dentro, e le quattro cause di edema. ADH per l'acqua, aldosterone per il sodio. Il pH e i suoi tre sistemi di difesa. Il feedback negativo e quello positivo."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase della lezione: ogni gesto infermieristico ha una ragione biologica. Conoscerla permette di adattare il gesto quando la situazione cambia."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione, l'apparato cardiocircolatorio: dall'anatomia del cuore al sistema di conduzione, fino alla pressione arteriosa."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dalle fondamenta della cellula al primo grande apparato: il cuore e la circolazione. A tra poco."
+ }
+]

@@ -1,0 +1,51 @@
+Il circolo cerebrale. Il cervello riceve sangue dalle carotidi interne e dalle arterie vertebrali, che si uniscono nel poligono di Willis. E il suo flusso ha una propria autoregolazione.
+
+Il cervello consuma circa il venti per cento dell'ossigeno del corpo e dipende quasi solo dal glucosio: ecco perche' ipossia e ipoglicemia alterano subito la coscienza.
+
+Ha una barriera ematoencefalica, che seleziona le sostanze che possono raggiungerlo. E il liquor, che viene prodotto nei ventricoli cerebrali.
+
+Un principio spiega l'ipertensione endocranica della lezione otto punto sei: il cranio e' rigido e contiene encefalo, sangue e liquor. Se uno dei tre aumenta, la pressione sale.
+
+Passiamo al sistema endocrino. Ha il suo centro nell'asse ipotalamo-ipofisi: l'ipotalamo controlla l'ipofisi, e l'ipofisi regola a sua volta le altre ghiandole.
+
+L'ipofisi anteriore produce il GH, l'ormone della crescita; il TSH, che stimola la tiroide; l'ACTH, che stimola il surrene; l'FSH e l'LH per le gonadi; e la prolattina.
+
+L'ipofisi posteriore libera l'ADH, che fa riassorbire acqua nel rene, e l'ossitocina, per le contrazioni uterine e l'eiezione del latte. E tutto e' regolato a feedback negativo.
+
+La tiroide produce due ormoni, il T tre e il T quattro, che regolano il metabolismo. E per produrli ha bisogno dello iodio.
+
+Il feedback spiega i valori di laboratorio. Nell'ipotiroidismo primario la tiroide produce poco, e l'ipofisi aumenta il TSH, che risulta alto. Nell'ipertiroidismo primario, invece, il TSH e' basso.
+
+Le paratiroidi producono il PTH, che aumenta il calcio nel sangue. Per questo la loro lesione durante una tiroidectomia causa l'ipocalcemia della lezione nove punto sei.
+
+Il surrene. La parte corticale produce il cortisolo, l'ormone dello stress, che alza la glicemia e riduce l'infiammazione; l'aldosterone, che regola sodio e potassio; e gli androgeni.
+
+La parte midollare del surrene produce invece l'adrenalina e la noradrenalina: gli stessi mediatori del simpatico che abbiamo appena visto.
+
+Il pancreas endocrino, nelle isole di Langerhans. Le cellule beta producono l'insulina, che abbassa la glicemia; le cellule alfa producono il glucagone, che la alza.
+
+Gli ormoni dello stress, glucagone, cortisolo, adrenalina e GH, sono tutti iperglicemizzanti. Ecco perche' un paziente con un'infezione, o dopo un intervento, ha la glicemia alta anche se non e' diabetico.
+
+Il feedback spiega anche i corticosteroidi usati come farmaci. Somministrati a lungo, spengono l'ACTH e il surrene, che smette di produrre cortisolo.
+
+Per questo una sospensione brusca puo' causare la crisi surrenalica della lezione otto punto tre. E gli effetti da sorvegliare: iperglicemia, ritenzione idrica, osteoporosi, infezioni, ritardo di guarigione.
+
+Si somministrano di solito al mattino, perche' imitano il ritmo naturale del cortisolo, che e' piu' alto al risveglio.
+
+[curious] Il caso d'esame. Paziente asmatico con ipertensione: il medico prescrive il propranololo. Che cosa segnala l'infermiere?
+
+Il propranololo e' un beta-bloccante non selettivo: blocca anche i recettori beta due dei bronchi, e in un paziente asmatico puo' scatenare un broncospasmo.
+
+Lo segnali al medico prima della somministrazione, chiedendo conferma. E' la fisiologia del sistema autonomo che previene un evento avverso.
+
+Il collegamento con l'assistenza. La valutazione neurologica e delle pupille. Il lato del deficit, e il linguaggio. La glicemia in ogni alterazione della coscienza. La bradicardia vagale durante le manovre.
+
+Gli effetti autonomici dei farmaci. Il TSH e la terapia tiroidea. La glicemia da stress. E i corticosteroidi, che non si sospendono mai bruscamente.
+
+La tabella. Dodici nervi cranici, trentuno spinali. Via motoria incrociata, linguaggio a sinistra, Babinski patologico. Simpatico: alfa e beta, beta uno cuore, beta due bronchi. Parasimpatico: acetilcolina e vago.
+
+Ipofisi anteriore e posteriore. Ipotiroidismo primario: TSH alto. Il PTH alza il calcio. Cortisolo e aldosterone. L'insulina abbassa la glicemia, il glucagone la alza. Gli ormoni dello stress sono iperglicemizzanti.
+
+[serious] La frase della lezione: capire il recettore e' capire il farmaco. Se sai dove agisce un farmaco, sai prevederne gli effetti e i rischi.
+
+[warm] Nella prossima lezione: il sangue, i gruppi sanguigni, la coagulazione, l'immunita' e l'infiammazione. Le basi della trasfusione, degli anticoagulanti e delle infezioni. A tra poco.

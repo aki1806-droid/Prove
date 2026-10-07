@@ -1,0 +1,51 @@
+Gli scambi di liquidi nei capillari seguono le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso. La pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro.
+
+L'edema nasce quando questo equilibrio si rompe, e le cause sono quattro. La prima e' l'aumento della pressione idrostatica, come nello scompenso cardiaco e nella trombosi venosa.
+
+La seconda e' la riduzione della pressione oncotica, cioe' l'ipoalbuminemia: nella malnutrizione, nella cirrosi, nella sindrome nefrosica.
+
+La terza e' l'aumento della permeabilita' dei capillari: l'infiammazione, la sepsi, le ustioni. La quarta e' l'ostacolo al drenaggio linfatico, che da' il linfedema.
+
+Davanti a un edema, chiedersi quale delle quattro cause agisca orienta l'assistenza. Pressione idrostatica, pressione oncotica, permeabilita', drenaggio linfatico.
+
+La regolazione dell'acqua e del sodio. Il primo meccanismo e' la sete. Poi l'ormone antidiuretico, l'ADH, prodotto dall'ipotalamo e liberato dall'ipofisi posteriore: fa riassorbire acqua nel rene.
+
+L'aldosterone, prodotto dal surrene, fa riassorbire sodio ed eliminare potassio. Agisce all'interno del sistema renina-angiotensina-aldosterone.
+
+E il peptide natriuretico, prodotto dal cuore quando e' disteso, che favorisce l'eliminazione di sodio e acqua. E' il BNP, quello che si dosa nello scompenso.
+
+L'equilibrio acido-base. Il pH del sangue sta fra sette virgola trentacinque e sette virgola quarantacinque: un intervallo stretto. Tre sistemi lo difendono, ciascuno con tempi diversi.
+
+I tamponi, come il bicarbonato, le proteine e l'emoglobina, in pochi secondi. Il polmone, che elimina anidride carbonica, in minuti. Il rene, che elimina ioni idrogeno e riassorbe bicarbonato, in ore o giorni.
+
+La CO2 rappresenta la componente respiratoria, il bicarbonato quella metabolica. E' la base della lettura dell'emogas della lezione sei punto quattro, dove il compenso di un sistema corregge lo squilibrio dell'altro.
+
+L'omeostasi e' il mantenimento di condizioni interne stabili. Il meccanismo piu' frequente e' il feedback negativo: la risposta contrasta la variazione.
+
+Se la glicemia sale, si libera insulina, che la fa scendere. Se la temperatura sale, si suda. Termoregolazione, glicemia e pressione arteriosa sono esempi di feedback negativo.
+
+Esiste anche il feedback positivo, in cui la risposta amplifica la variazione fino a un evento finale. Le contrazioni del parto, sostenute dall'ossitocina, o la cascata della coagulazione.
+
+[thoughtful] E la malattia, in molti casi, e' proprio questo: un'omeostasi che non riesce piu' a compensare.
+
+Il collegamento con l'assistenza. Il bilancio idrico e il peso della lezione tre punto cinque. La scelta delle soluzioni infusionali della lezione sei punto tre. L'edema e il posizionamento. L'emogas della sei punto quattro.
+
+E un esempio che ora si spiega da solo: un campione emolizzato da' un potassio falsamente alto. Perche' il potassio e' intracellulare, e i globuli rossi rotti liberano il potassio che contengono.
+
+[curious] Il caso d'esame. Paziente cirrotico, albumina a due virgola uno grammi per decilitro, edemi declivi importanti. Qual e' il meccanismo dell'edema?
+
+La riduzione della pressione oncotica. Il fegato malato produce poca albumina, e il liquido non viene piu' trattenuto nei vasi. E' la seconda delle quattro cause di edema.
+
+Si aggiunge l'ipertensione portale, che aumenta la pressione idrostatica nel distretto addominale, con l'ascite. Per questo, dopo una paracentesi di grande volume, si da' albumina, come nella lezione otto punto cinque.
+
+La tabella. Quattro tessuti: epiteliale, connettivo, muscolare, nervoso. Tre piani: sagittale, frontale, trasversale. Trasporti passivi e attivi, e la pompa sodio-potassio: tre fuori e due dentro.
+
+L'osmosi, con l'acqua che va verso il piu' concentrato, e la tonicita': iso, ipo e ipertonica. L'acqua al sessanta per cento del peso: due terzi dentro le cellule, un terzo fuori.
+
+Starling: idrostatica fuori, oncotica dentro, e le quattro cause di edema. ADH per l'acqua, aldosterone per il sodio. Il pH e i suoi tre sistemi di difesa. Il feedback negativo e quello positivo.
+
+[serious] La frase della lezione: ogni gesto infermieristico ha una ragione biologica. Conoscerla permette di adattare il gesto quando la situazione cambia.
+
+[warm] Nella prossima lezione, l'apparato cardiocircolatorio: dall'anatomia del cuore al sistema di conduzione, fino alla pressione arteriosa.
+
+Dalle fondamenta della cellula al primo grande apparato: il cuore e la circolazione. A tra poco.

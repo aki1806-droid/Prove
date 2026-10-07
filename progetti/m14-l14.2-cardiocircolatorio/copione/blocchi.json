@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il cuore e' una pompa, i vasi sono tubi, il sangue e' il mezzo di trasporto. Detta cosi' sembra semplice. Ripercorriamo insieme l'apparato cardiocircolatorio."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da questo sistema dipendono la pressione, la perfusione degli organi, la risposta allo shock e l'azione di molti farmaci. Lo rivediamo con un occhio ai collegamenti con i moduli otto e dieci."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il cuore ha quattro cavita': atrio e ventricolo destro, atrio e ventricolo sinistro. Le valvole atrioventricolari separano atri e ventricoli: la tricuspide a destra, la mitrale, o bicuspide, a sinistra."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le valvole semilunari, invece, separano i ventricoli dalle grandi arterie. Sono due: la valvola polmonare, all'uscita del ventricolo destro, e la valvola aortica, all'uscita del sinistro."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La parete del cuore e' fatta di endocardio, miocardio ed epicardio, ed e' avvolta dal pericardio. Il ventricolo sinistro ha la parete piu' spessa: pompa il sangue in tutto il corpo, contro una pressione piu' alta."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso del sangue. Il sangue povero di ossigeno arriva dalle vene cave all'atrio destro, passa la tricuspide ed entra nel ventricolo destro."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ventricolo destro lo spinge, attraverso la valvola polmonare, nell'arteria polmonare e da li' verso i polmoni. Dal cuore destro ai polmoni: e' il piccolo circolo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ossigenato, il sangue torna con le vene polmonari all'atrio sinistro, passa la mitrale ed entra nel ventricolo sinistro, che lo spinge attraverso la valvola aortica nell'aorta e in tutti gli organi: e' il grande circolo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Una domanda trabocchetto frequente: l'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Le arterie si definiscono perche' escono dal cuore, non per il tipo di sangue."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le coronarie sono le arterie che nutrono il cuore, e nascono dall'aorta subito sopra la valvola aortica. Sono due: la coronaria destra e la coronaria sinistra."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La coronaria sinistra si divide a sua volta in due rami: la discendente anteriore e la circonflessa. Tre nomi da ricordare, quindi: coronaria destra, discendente anteriore, circonflessa."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il miocardio si perfonde soprattutto in diastole, quando il muscolo e' rilassato. Percio' una tachicardia, che accorcia la diastole, riduce la perfusione coronarica: con coronarie malate, puo' scatenare un'ischemia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema di conduzione. L'impulso nasce nel nodo senoatriale, il pacemaker naturale del cuore, con una frequenza da sessanta a cento battiti al minuto, e da li' si diffonde negli atri."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi arriva al nodo atrioventricolare, che rallenta l'impulso. Questo rallentamento ha uno scopo preciso: permette ai ventricoli di riempirsi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dal nodo atrioventricolare l'impulso percorre il fascio di His, le branche destra e sinistra e le fibre di Purkinje, che attivano i ventricoli. I blocchi della lezione otto punto uno sono interruzioni di questa via."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'ECG questa sequenza si legge cosi': l'onda P e' la depolarizzazione degli atri, il QRS la depolarizzazione dei ventricoli, l'onda T la ripolarizzazione dei ventricoli."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ciclo cardiaco alterna due fasi. La sistole, cioe' la contrazione e l'eiezione del sangue. E la diastole, cioe' il rilasciamento e il riempimento."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I toni cardiaci sono i rumori della chiusura delle valvole. Il primo tono corrisponde alla chiusura delle valvole atrioventricolari, all'inizio della sistole."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo tono corrisponde alla chiusura delle valvole semilunari, all'inizio della diastole. I soffi, invece, sono rumori di flusso turbolento, per esempio nelle malattie delle valvole."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gittata cardiaca e' la quantita' di sangue pompata in un minuto. E' uguale alla gittata sistolica, cioe' il sangue espulso a ogni battito, moltiplicata per la frequenza cardiaca."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A riposo, la gittata cardiaca e' di circa cinque litri al minuto. La gittata sistolica dipende da tre fattori: il precarico, il postcarico e la contrattilita'."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il precarico e' il riempimento del ventricolo. Secondo la legge di Frank-Starling, entro certi limiti, piu' il cuore si riempie, piu' forte si contrae."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il postcarico e' la resistenza che il ventricolo deve vincere. La contrattilita' e' la forza intrinseca del muscolo cardiaco."
+ },
+ {
+  "id": "s25",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci della lezione cinque punto cinque agiscono proprio su questi tre fattori: i diuretici sul precarico, i vasodilatatori sul postcarico, gli inotropi sulla contrattilita'."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La pressione arteriosa dipende da due fattori: la gittata cardiaca e le resistenze periferiche. Le resistenze sono determinate soprattutto dalle arteriole, i vasi di resistenza."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si misurano la sistolica e la diastolica, e se ne ricava la pressione arteriosa media: circa la diastolica, piu' un terzo della differenza fra sistolica e diastolica."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un esempio: con centoventi su sessanta, la differenza e' sessanta, un terzo e' venti, e la media e' circa ottanta. E ricordi l'obiettivo nello shock e nella sepsi: una pressione media di almeno sessantacinque."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regolazione della pressione. A breve termine agiscono i barocettori, nel seno carotideo e nell'arco aortico, che percepiscono i cambiamenti di pressione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I barocettori attivano il sistema nervoso autonomo. Il simpatico aumenta la frequenza e la contrattilita' e restringe i vasi. Il parasimpatico rallenta il cuore."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' cio' che succede quando ti alzi in piedi: senza questa risposta sveniresti. Lo ritroviamo fra poco nell'anziano, con l'ipotensione ortostatica."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A medio-lungo termine agisce il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua, insieme all'ADH e al rene. Gli ACE-inibitori e i sartani bloccano proprio questo sistema."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I vasi. Le arterie hanno una parete elastica e muscolare, e lavorano ad alta pressione. Le arteriole sono i vasi di resistenza. Nei capillari avvengono gli scambi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vene lavorano a bassa pressione e contengono la maggior parte del sangue: per questo si chiamano vasi di capacitanza. E hanno valvole che impediscono il reflusso."
+ },
+ {
+  "id": "s35",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ritorno venoso dagli arti inferiori dipende dalla pompa muscolare del polpaccio, e anche dalla respirazione. Ecco perche' la mobilizzazione previene la trombosi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed ecco perche', nell'insufficienza venosa della lezione sette punto tre, si cammina con la compressione. Fra le alterazioni dei vasi, ricorda anche l'aterosclerosi."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] La fisiopatologia essenziale. L'ischemia e' uno squilibrio fra domanda e offerta di ossigeno al miocardio. Nell'angina e' transitorio e reversibile, nell'infarto porta alla necrosi."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nello scompenso la gittata non soddisfa i bisogni dell'organismo, che reagisce attivando il simpatico e il sistema renina-angiotensina. Sono compensi utili all'inizio."
+ },
+ {
+  "id": "s39",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma a lungo andare quei compensi sovraccaricano il cuore e peggiorano il quadro. E' per questo che i farmaci dello scompenso li bloccano."
+ },
+ {
+  "id": "s40",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le aritmie sono disturbi della formazione o della conduzione dell'impulso. E lo shock e' una perfusione inadeguata dei tessuti, come hai visto nella lezione dieci punto sei."
+ },
+ {
+  "id": "s41",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso d'esame. Un paziente in fibrillazione atriale rapida, con una frequenza cardiaca di centocinquanta, riferisce dolore toracico. Perche'?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tachicardia accorcia la diastole, cioe' il tempo in cui le coronarie perfondono il miocardio. E allo stesso tempo aumenta il consumo di ossigeno del cuore. Domanda alta, offerta bassa: ischemia."
+ },
+ {
+  "id": "s43",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In piu', una frequenza cosi' alta riduce il riempimento dei ventricoli, e quindi la gittata. Ecco perche' il controllo della frequenza e' una priorita', e il dolore toracico va segnalato subito."
+ },
+ {
+  "id": "s44",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegamento con l'assistenza. La misurazione di pressione e frequenza, della lezione due punto tre. E l'ipotensione ortostatica nell'anziano, in cui il baroriflesso e' piu' lento: da qui l'alzata in due tempi."
+ },
+ {
+  "id": "s45",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi i polsi periferici e il riempimento capillare. L'azione dei farmaci cardiovascolari. E la prevenzione della trombosi venosa profonda."
+ },
+ {
+  "id": "s46",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Tricuspide a destra, mitrale a sinistra. L'arteria polmonare porta sangue povero di ossigeno. Le coronarie, perfuse in diastole. La conduzione, dal nodo senoatriale alle fibre di Purkinje."
+ },
+ {
+  "id": "s47",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "P, QRS, T. Primo e secondo tono. Gittata uguale gittata sistolica per frequenza. Precarico, postcarico, contrattilita'. Pressione uguale gittata per resistenze, e la media. Barocettori e renina-angiotensina."
+ },
+ {
+  "id": "s48",
+  "capitolo": 15,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase della lezione: la pressione e' il risultato di una pompa e di un tubo. Quando cade, chiediti se ha ceduto la pompa, se manca il volume, o se il tubo si e' dilatato."
+ },
+ {
+  "id": "s49",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: l'apparato respiratorio, gli scambi gassosi e la curva di dissociazione dell'emoglobina, che spiega molte cose sull'ossigenoterapia. A tra poco."
+ }
+]

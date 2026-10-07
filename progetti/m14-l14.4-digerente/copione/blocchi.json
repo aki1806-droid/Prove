@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Tre organi che lavorano insieme: l'apparato digerente introduce, il fegato trasforma, il rene elimina. Da loro dipendono la nutrizione, il metabolismo dei farmaci e l'equilibrio dei liquidi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo e' pratico: capire perche' nell'insufficienza epatica e in quella renale cambiano le dosi dei farmaci, i parametri da sorvegliare e i rischi per il paziente."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La digestione, tappa per tappa. In bocca, la masticazione e la saliva, con l'amilasi salivare. Nello stomaco, l'acido cloridrico e la pepsina, che inizia a digerire le proteine."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sempre nello stomaco si produce il fattore intrinseco, indispensabile per assorbire la vitamina B dodici. Per questo, dopo una gastrectomia, la B dodici va somministrata per via parenterale."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel duodeno arrivano la bile, che emulsiona i grassi, e gli enzimi pancreatici: amilasi, lipasi, tripsina. Nella pancreatite della lezione otto punto cinque, attivati troppo presto, digeriscono il pancreas stesso."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'intestino tenue, grazie ai villi, avviene l'assorbimento dei nutrienti. Nel colon si assorbono l'acqua e gli elettroliti, e il microbiota produce anche la vitamina K."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fegato ha funzioni numerose. Il metabolismo di zuccheri, grassi e proteine: immagazzina il glicogeno e produce glucosio quando serve. E fa da deposito di glicogeno, di vitamine e di ferro."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sintesi: l'albumina e i fattori della coagulazione, compresi quelli che dipendono dalla vitamina K, il secondo, il settimo, il nono e il decimo. E' su questi fattori che agisce il warfarin."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fegato produce la bile e coniuga la bilirubina. E svolge la detossificazione: trasforma l'ammoniaca in urea. Funzioni che fra poco ritroviamo nei segni dell'insufficienza epatica."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il metabolismo dei farmaci, con il citocromo P quattrocentocinquanta. E l'effetto di primo passaggio della lezione cinque punto uno: parte del farmaco preso per bocca e' inattivata prima di arrivare in circolo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dalle funzioni si ricavano i segni dell'insufficienza epatica, senza bisogno di memorizzarli. Meno albumina: edemi e ascite. Meno fattori della coagulazione: un INR alto, e i sanguinamenti."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meno coniugazione della bilirubina: l'ittero. Meno eliminazione dell'ammoniaca: l'encefalopatia. Meno produzione di glucosio: l'ipoglicemia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meno metabolismo dei farmaci: l'accumulo, soprattutto di sedativi e oppioidi. E proprio questi farmaci possono scatenare l'encefalopatia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi l'ipertensione portale, con le varici e l'ascite. E' il quadro clinico della lezione otto punto cinque, spiegato questa volta dalla fisiologia."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rene lavora attraverso il nefrone, la sua unita' funzionale: circa un milione per ogni rene. Nel glomerulo il sangue viene filtrato, e il filtrato passa nella capsula di Bowman."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel tubulo prossimale si riassorbe la maggior parte di acqua, sodio, glucosio e aminoacidi. L'ansa di Henle concentra le urine, ed e' la sede d'azione dei diuretici dell'ansa, come la furosemide."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tubulo distale e il dotto collettore fanno la regolazione fine, sotto l'azione di due ormoni: l'aldosterone, che fa riassorbire sodio, e l'ADH, l'ormone antidiuretico, che fa riassorbire acqua."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Filtrazione e clearance. I reni filtrano circa centottanta litri di plasma al giorno, e producono circa un litro e mezzo di urine: oltre il novantanove per cento del filtrato viene riassorbito."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La velocita' di filtrazione glomerulare, il GFR, e' normalmente intorno a novanta, centoventi millilitri al minuto. La clearance e' il volume di plasma depurato da una sostanza nell'unita' di tempo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella pratica si usa la creatinina, e con formule come la CKD-EPI si calcola un GFR stimato. Ma attenzione: la creatinina dipende dalla massa muscolare."
+ },
+ {
+  "id": "s22",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] In un anziano magro e sarcopenico la creatinina puo' essere normale anche con una funzione renale ridotta. Ecco perche' le dosi si adattano al GFR stimato, e non al solo valore della creatinina."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le funzioni del rene, che spiegano le complicanze della lezione otto punto quattro. L'equilibrio di acqua ed elettroliti. L'equilibrio acido-base. L'eliminazione di scorie e farmaci."
+ },
+ {
+  "id": "s24",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rene produce l'eritropoietina, per i globuli rossi: per questo l'insufficienza renale cronica causa anemia. E attiva la vitamina D: per questo altera il metabolismo del calcio e dell'osso."
+ },
+ {
+  "id": "s25",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E produce la renina: per questo il rene e' cosi' legato alla pressione arteriosa. E' il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insufficienza renale e i farmaci. I farmaci eliminati dal rene si accumulano: alcuni antibiotici, come gli aminoglicosidi e la vancomicina, e le eparine a basso peso molecolare."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora la metformina, la digossina, alcuni oppioidi. Le dosi si adattano al GFR, e quando e' previsto si monitorano i livelli del farmaco nel sangue."
+ },
+ {
+  "id": "s28",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si evitano i nefrotossici, come i FANS e il mezzo di contrasto senza prevenzione, che vedremo nella lezione quattordici punto sette. E si fa attenzione all'iperkaliemia."
+ },
+ {
+  "id": "s29",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio di iperkaliemia viene dal potassio, dagli ACE-inibitori e dai diuretici risparmiatori di potassio. E l'infermiere segnala la terapia potenzialmente inappropriata."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diuresi, con le sue definizioni. Nell'adulto la diuresi normale e' di almeno mezzo millilitro per chilo all'ora."
+ },
+ {
+  "id": "s31",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oliguria: meno di quattrocento millilitri nelle ventiquattro ore. Anuria: meno di cento millilitri. Poliuria: oltre due litri e mezzo, tre litri nelle ventiquattro ore."
+ },
+ {
+  "id": "s32",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diuresi e' anche un indicatore della perfusione degli organi. Per questo, nello shock e nella sepsi, si misura ogni ora."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La minzione. La vescica e' un serbatoio con un muscolo, il detrusore, e ha una capacita' indicativa di quattrocento, cinquecento millilitri. Lo stimolo compare in genere fra centocinquanta e trecento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo svuotamento e' controllato dal parasimpatico, che contrae il detrusore, e dagli sfinteri, uno interno e uno esterno. Lo sfintere esterno e' quello volontario."
+ },
+ {
+  "id": "s35",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ne deriva un collegamento con la farmacologia: i farmaci anticolinergici e gli oppioidi favoriscono la ritenzione urinaria, come hai visto nelle lezioni tre punto sei e nove punto quattro."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Il caso d'esame. Anziana di ottantasei anni, quarantacinque chili, creatinina uno. La funzione renale e' normale, quindi la dose standard del farmaco va bene?"
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "No. In una persona anziana con poca massa muscolare, una creatinina normale puo' corrispondere a un GFR stimato nettamente ridotto. Il valore della creatinina, da solo, inganna."
+ },
+ {
+  "id": "s38",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di un farmaco a eliminazione renale si verifica il GFR stimato o la clearance, e si segnala al medico o al farmacista se la dose sembra eccessiva. La fisiologia previene un errore di terapia."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegamento con l'assistenza. La valutazione dello stato nutrizionale, della lezione tre punto tre. Nel paziente epatopatico, l'INR e il rischio di sanguinamento, l'encefalopatia e la stipsi."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bilancio idrico e la diuresi oraria. Le dosi adattate alla funzione renale. La prevenzione della nefrotossicita'. E il cateterismo, quando c'e' una ritenzione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I numeri della lezione. Filtrato circa centottanta litri al giorno, urine circa un litro e mezzo. GFR normale circa novanta, centoventi. Diuresi di almeno mezzo millilitro per chilo all'ora."
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oliguria sotto i quattrocento millilitri, anuria sotto i cento, poliuria oltre i due litri e mezzo, tre. Vescica, quattrocento, cinquecento. Fattori vitamina K-dipendenti: due, sette, nove, dieci."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Stomaco, fattore intrinseco e B dodici. Duodeno, bile ed enzimi pancreatici. Tenue, assorbimento. Colon, acqua e vitamina K. Fegato: albumina, coagulazione, bilirubina, ammoniaca, farmaci."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni dell'insufficienza epatica. Il nefrone, dal glomerulo all'ansa di Henle, sede della furosemide. La creatinina e la massa muscolare. Eritropoietina, vitamina D, renina."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fili con gli altri moduli. Il primo passaggio e le vie di somministrazione, con le lezioni cinque punto uno e cinque punto due. L'encefalopatia e la paracentesi, con la otto punto cinque."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fistola e la dialisi, con la otto punto quattro. La nutrizione, con la tre punto tre. E la ritenzione urinaria, con la tre punto sei."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase della lezione: una creatinina normale non garantisce un rene normale. Soprattutto nell'anziano fragile."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: il sistema nervoso, con il sistema nervoso autonomo, e il sistema endocrino, con i loro collegamenti con la farmacologia."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il parasimpatico che contrae il detrusore, per esempio, lo ritroverai proprio li', nel sistema nervoso autonomo. A tra poco."
+ }
+]

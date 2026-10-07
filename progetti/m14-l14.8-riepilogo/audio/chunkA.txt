@@ -1,0 +1,47 @@
+[warm] Chiudiamo il modulo delle basi biomediche con due strumenti: le tabelle dei valori da fotografare, e i collegamenti fra fisiologia e assistenza, la vera utilita' del modulo.
+
+All'esame, molte domande cliniche si risolvono ragionando sul meccanismo. Ripassiamo gli apparati, poi la tabella e i collegamenti.
+
+Liquidi e acido-base. L'acqua e' circa il sessanta per cento del peso nell'adulto: due terzi dentro le cellule, un terzo fuori. Il sodio domina fuori, il potassio dentro.
+
+A tenerli separati e' la pompa sodio-potassio, che porta fuori tre ioni sodio e dentro due ioni potassio. E l'osmosi: l'acqua si sposta verso la soluzione piu' concentrata.
+
+Le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso; la pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro. Se l'equilibrio si rompe, nasce l'edema.
+
+L'ADH, l'ormone antidiuretico, fa riassorbire acqua nel rene. L'aldosterone, prodotto dal surrene, fa riassorbire sodio, e in cambio fa perdere potassio.
+
+Il pH, fra sette virgola trentacinque e sette virgola quarantacinque, e' difeso da tre sistemi con tempi diversi: i tamponi in pochi secondi, il polmone in minuti, il rene in giorni.
+
+Cuore e circolo. A destra la valvola tricuspide, a sinistra la mitrale. L'arteria polmonare porta al polmone sangue povero di ossigeno. Le coronarie si riempiono in diastole, a muscolo rilassato.
+
+L'impulso nasce nel nodo senoatriale, il pacemaker naturale, da sessanta a cento battiti al minuto. Poi nodo atrioventricolare, fascio di His, branche e fibre di Purkinje.
+
+La gittata cardiaca e' la gittata sistolica per la frequenza: circa cinque litri al minuto, a riposo. E la pressione arteriosa e' la gittata per le resistenze periferiche.
+
+La pressione media e' circa la diastolica piu' un terzo della differenza fra sistolica e diastolica: con centoventi su sessanta, circa ottanta. Nello shock, l'obiettivo e' almeno sessantacinque.
+
+A breve termine la pressione la regolano i barocettori, attraverso il sistema autonomo. A lungo termine, il sistema renina-angiotensina-aldosterone, che restringe i vasi e trattiene sodio e acqua.
+
+Respiro. Il bronco destro e' piu' verticale. L'inspirazione e' attiva, con il diaframma. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta.
+
+Circa il novantotto per cento dell'ossigeno viaggia legato all'emoglobina. La curva di dissociazione e' a S, con un punto da ricordare: saturazione novanta, pressione parziale di ossigeno sessanta.
+
+Sotto quel punto la curva diventa ripida. Si sposta a destra con temperatura e anidride carbonica alte, e con l'acidosi: l'emoglobina cede piu' facilmente l'ossigeno ai tessuti.
+
+L'insufficienza respiratoria. Tipo uno, ipossiemica: ossigeno arterioso sotto sessanta. Tipo due, ipercapnica: in piu', anidride carbonica sopra quarantacinque.
+
+Digerente, fegato, rene. Nello stomaco, il fattore intrinseco, che serve ad assorbire la vitamina B dodici: dopo una gastrectomia, la B dodici si da' per via parenterale.
+
+Il fegato produce albumina e fattori della coagulazione: due, sette, nove e dieci. Coniuga la bilirubina, trasforma l'ammoniaca in urea, e metabolizza i farmaci: il primo passaggio.
+
+Il rene filtra circa centottanta litri al giorno, e produce circa un litro e mezzo di urine. Il GFR, da novanta a centoventi millilitri al minuto. La creatinina dipende dalla massa muscolare.
+
+Il rene produce eritropoietina e renina, e attiva la vitamina D. Oliguria sotto i quattrocento millilitri nelle ventiquattro ore, anuria sotto i cento.
+
+Nervoso ed endocrino. Via motoria incrociata: una lesione dell'emisfero sinistro da' un deficit a destra. E nella maggior parte delle persone il linguaggio sta a sinistra.
+
+Simpatico: beta uno sul cuore, beta due sui bronchi, midriasi, ritenzione. Parasimpatico: acetilcolina, vago, bradicardia, miosi. Un beta-bloccante non selettivo puo' dare broncospasmo.
+
+Nell'ipotiroidismo primario la tiroide produce poco, e il TSH risulta alto. Il PTH aumenta il calcio. L'insulina abbassa la glicemia, il glucagone la alza.
+
+Gli ormoni dello stress, come cortisolo e adrenalina, alzano la glicemia. E i corticosteroidi presi a lungo non si sospendono mai bruscamente: rischio di crisi surrenalica.

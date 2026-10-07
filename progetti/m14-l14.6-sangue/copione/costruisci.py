@@ -4,71 +4,75 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Chiudiamo il modulo dedicato al Veneto con una mappa del sistema in una pagina. E' lo schema da avere in testa all'orale, e lo costruiamo un pezzo alla volta."),
- (1,"chiaro",0,"Se ti chiedono di un servizio, devi sapere tre cose: in quale parte del sistema si colloca, chi lo governa, e come ci si accede."),
+ (1,"chiaro",0,"[warm] Questa lezione da' le basi di temi che hai gia' incontrato piu' volte: la trasfusione, gli anticoagulanti, le infezioni e la sepsi."),
+ (1,"chiaro",0,"Vediamo com'e' fatto il sangue, come funzionano i gruppi sanguigni e la coagulazione, e come il corpo si difende con l'immunita' e l'infiammazione. Chiudiamo con una sintesi su apparato muscolo-scheletrico e cute."),
 
- (2,"chiaro",0,"Partiamo dal vertice. La Regione, con la Giunta e il Consiglio regionale, che definiscono indirizzi e programmazione. E l'Area Sanita' e Sociale, che traduce gli indirizzi in atti."),
- (2,"chiaro",0,"La programmazione. Il Piano Socio Sanitario Regionale duemiladiciannove, duemilaventitre', approvato con la legge regionale quarantotto del duemiladiciotto, ancora riferimento in attesa del nuovo piano."),
- (2,"chiaro",0,"E le schede di dotazione, ospedaliera e territoriale, approvate con delibera di Giunta regionale: per ogni ospedale e per ogni territorio stabiliscono le funzioni e i posti letto."),
- (2,"chiaro",0,"Poi Azienda Zero, istituita dalla legge regionale diciannove del duemilasedici: l'ente di governance della sanita' regionale, operativo dal duemiladiciassette."),
- (2,"chiaro",0,"Le sue funzioni centralizzate: la GSA, la gestione sanitaria accentrata. La CRAV, per gli acquisti. I concorsi. I sistemi informativi e il Fascicolo. La formazione, gli affari legali, l'epidemiologia e i registri."),
+ (2,"chiaro",0,"Il sangue e' composto per circa il cinquantacinque per cento da plasma: acqua, proteine come albumina, globuline e fibrinogeno, poi elettroliti e nutrienti."),
+ (2,"chiaro",0,"Il restante quarantacinque per cento circa sono gli elementi figurati: e' l'ematocrito. I globuli rossi trasportano ossigeno con l'emoglobina, e vivono circa centoventi giorni."),
+ (2,"chiaro",0,"I globuli bianchi difendono l'organismo: neutrofili, linfociti, monociti, eosinofili, basofili. Li ritroveremo fra poco, parlando di immunita'."),
+ (2,"chiaro",0,"Le piastrine partecipano all'emostasi e vivono circa da sette a dieci giorni: per questo l'effetto dell'aspirina, che le blocca in modo irreversibile, dura giorni. E tutti si formano nel midollo osseo, con l'emopoiesi."),
 
- (3,"chiaro",0,"Le aziende. Le nove ULSS, nate il primo gennaio duemiladiciassette. Uno, Dolomiti. Due, Marca Trevigiana. Tre, Serenissima. Quattro, Veneto Orientale. Cinque, Polesana."),
- (3,"chiaro",0,"Sei, Euganea. Sette, Pedemontana. Otto, Berica. Nove, Scaligera. E i territori delle vecchie aziende sono diventati i distretti delle nuove."),
- (3,"chiaro",0,"Accanto alle ULSS, le due aziende ospedaliere universitarie: l'Azienda Ospedale-Universita' di Padova e l'Azienda Ospedaliera Universitaria Integrata di Verona."),
- (3,"chiaro",0,"Lo IOV, l'Istituto Oncologico Veneto, che e' un IRCCS, un Istituto di Ricovero e Cura a Carattere Scientifico. E le strutture private accreditate, integrate nella rete."),
+ (3,"chiaro",0,"I gruppi sanguigni AB zero. Il gruppo A ha l'antigene A sui globuli rossi, e anticorpi anti-B nel plasma. Il gruppo B, al contrario, ha l'antigene B e anticorpi anti-A."),
+ (3,"chiaro",0,"Il gruppo AB ha entrambi gli antigeni, A e B, e nel plasma nessun anticorpo: per i globuli rossi e' il ricevente universale. E' il gruppo che puo' ricevere globuli rossi da tutti."),
+ (3,"chiaro",0,"Il gruppo zero non ha antigeni e ha entrambi gli anticorpi: per i globuli rossi e' il donatore universale. Ed e' il sangue che si usa in emergenza, prima di conoscere il gruppo del paziente."),
+ (3,"chiaro",0,"Per il plasma vale il contrario: il plasma AB, senza anticorpi, e' quello universale. Ecco perche' una trasfusione incompatibile e' cosi' pericolosa, come hai visto nella lezione sei punto sei."),
 
- (4,"chiaro",0,"L'ospedale e l'emergenza. Il modello e' hub and spoke: gli hub, con le alte specialita'; e gli spoke, gli ospedali di rete, collegati agli hub per i casi complessi."),
- (4,"chiaro",0,"Il SUEM centodiciotto, il Servizio Urgenza Emergenza Medica: sette centrali operative provinciali, il dispatch infermieristico che attribuisce il codice di priorita', e l'elisoccorso."),
- (4,"chiaro",0,"Sopra le centrali, il coordinamento regionale dell'emergenza urgenza, il CREU. E il NUE centododici, il Numero Unico di Emergenza europeo, in attuazione."),
- (4,"chiaro",0,"Le reti tempo-dipendenti. Per l'infarto, l'ECG teletrasmesso e, se e' uno STEMI, l'accesso diretto all'emodinamica. Per l'ictus, gli hub per la trombectomia. E la rete trauma."),
- (4,"chiaro",0,"Poi le reti cliniche: la Rete Oncologica Veneta, la ROV. I punti nascita, i trapianti, le malattie rare, la terapia del dolore e le cure palliative. Non l'ospedale piu' vicino, ma quello giusto."),
+ (4,"chiaro",0,"Il fattore Rh. Si e' Rh positivi se sui globuli rossi e' presente l'antigene D, Rh negativi se manca. Una persona Rh negativa puo' sviluppare anticorpi anti-D dopo un'esposizione, per esempio una trasfusione o una gravidanza."),
+ (4,"chiaro",0,"Per questo, quando una madre Rh negativa aspetta un figlio Rh positivo, si esegue una profilassi con immunoglobuline anti-D. Lo scopo e' proteggere le gravidanze successive."),
 
- (5,"chiaro",0,"Il territorio. Il distretto socio-sanitario, articolazione dell'ULSS: assistenza primaria, specialistica, ADI, consultori, residenzialita', e l'integrazione con i Comuni."),
- (5,"chiaro",0,"Le medicine di gruppo integrate, il modello veneto: medici di famiglia in una sede comune, con infermieri e apertura estesa. Accanto, le forme nazionali: le AFT e le UCCP."),
- (5,"chiaro",0,"Le cure intermedie, fra ospedale e domicilio: gli Ospedali di Comunita', le Unita' Riabilitative Territoriali, gli hospice. Per chi non ha piu' bisogno dell'ospedale, ma non puo' ancora tornare a casa."),
- (5,"chiaro",0,"Il DM settantasette in Veneto. Le Case della Comunita', con le linee di indirizzo regionali del duemilaventisei. Le COT, una ogni centomila abitanti. L'infermiere di famiglia e comunita', uno ogni tremila."),
- (5,"chiaro",0,"La continuita' assistenziale, l'ex guardia medica, e il centosedici centodiciassette per le cure non urgenti. L'ADI, con le cure palliative domiciliari. La stratificazione con l'ACG, e la medicina di iniziativa."),
+ (5,"chiaro",0,"L'emostasi procede in quattro fasi. Vascolare: il vaso lesionato si contrae. Piastrinica: le piastrine aderiscono e si aggregano, formando un tappo. E' la fase bloccata dall'acido acetilsalicilico e dagli antiaggreganti."),
+ (5,"chiaro",0,"La fase coagulativa: una cascata di fattori porta alla formazione di trombina, che trasforma il fibrinogeno in fibrina. La fibrina e' la rete che rende stabile il coagulo."),
+ (5,"chiaro",0,"Infine la fibrinolisi: la plasmina scioglie il coagulo quando non serve piu'. I frammenti che ne derivano sono il D-dimero, che si dosa nel sospetto di trombosi."),
 
- (6,"chiaro",0,"La non autosufficienza. Il principio e' la porta unica: l'UVMD, l'Unita' di Valutazione Multidimensionale Distrettuale, con il direttore di distretto, il medico di famiglia e l'assistente sociale del Comune."),
- (6,"chiaro",0,"Gli strumenti: la SVaMA, la scheda di valutazione multidimensionale dell'anziano, e la SVaMDi per la disabilita'. Restituiscono un profilo di autonomia e di bisogno, uguale in tutta la regione."),
- (6,"chiaro",0,"La domiciliarita' viene prima: l'ADI, il SAD dei Comuni, e l'impegnativa di cura domiciliare, un contributo per chi assiste a casa una persona non autosufficiente. Poi i centri diurni e i ricoveri di sollievo."),
- (6,"chiaro",0,"I Centri di Servizi, le strutture residenziali per anziani non autosufficienti. L'impegnativa di residenzialita' copre la quota sanitaria; la quota alberghiera resta a carico della persona o della famiglia."),
- (6,"chiaro",0,"Per ogni ospite, il PAI, il Piano Assistenziale Individualizzato. E la regola da ricordare per tutta la rete: prima si valuta il bisogno, poi si sceglie il servizio."),
+ (6,"chiaro",0,"Gli esami e i farmaci. Il PT, espresso come INR, esplora la via estrinseca della coagulazione, e serve a monitorare il warfarin, che e' un antagonista della vitamina K."),
+ (6,"chiaro",0,"L'aPTT esplora invece la via intrinseca, e serve a monitorare l'eparina non frazionata, che agisce potenziando l'antitrombina."),
+ (6,"chiaro",0,"Le eparine a basso peso molecolare agiscono soprattutto sul fattore dieci attivato. I DOAC, gli anticoagulanti orali diretti, inibiscono direttamente il fattore dieci attivato oppure la trombina."),
+ (6,"chiaro",0,"E gli antidoti: la vitamina K per il warfarin, la protamina per l'eparina, e antidoti specifici per alcuni DOAC. E' la base della lezione cinque punto cinque."),
 
- (7,"chiaro",0,"Garanzie e prevenzione. La legge regionale ventidue del duemiladue: autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali, pubbliche e private."),
- (7,"chiaro",0,"Le fasi: l'autorizzazione alla realizzazione, poi all'esercizio, con i requisiti minimi. L'accreditamento istituzionale, con i requisiti ulteriori, per lavorare per conto del servizio regionale. Poi gli accordi contrattuali."),
- (7,"chiaro",0,"Il Dipartimento di Prevenzione delle ULSS: il SISP, igiene e sanita' pubblica; il SIAN, igiene degli alimenti e della nutrizione; lo SPISAL, la sicurezza nei luoghi di lavoro; e i servizi veterinari."),
- (7,"chiaro",0,"Il Piano Regionale della Prevenzione. I tre screening, gratuiti e con invito attivo: mammella, cervice, colon-retto. E in Veneto il colon-retto e' esteso anche alla fascia dai settanta ai settantaquattro anni."),
- (7,"chiaro",0,"Le vaccinazioni, nei centri vaccinali delle ULSS: per i minori, dieci obbligatorie secondo la legge centodiciannove del duemiladiciassette. E il Registro Tumori, oggi in Azienda Zero."),
+ (7,"chiaro",0,"[thoughtful] Ora le difese. L'organismo si difende in due modi. L'immunita' innata e' la prima linea: rapida, non specifica, senza memoria. Agisce subito, contro qualunque aggressore."),
+ (7,"chiaro",0,"Comprende le barriere: cute integra, mucose, secrezioni, acidita' dello stomaco, microbiota. Le cellule che fagocitano, neutrofili e macrofagi, e le cellule NK. E poi il complemento, l'infiammazione e la febbre."),
+ (7,"chiaro",0,"Ogni ago, ogni catetere, ogni ferita interrompe una barriera. E' il fondamento di tutto il modulo quattro, sulla prevenzione delle infezioni."),
 
- (8,"chiaro",0,"La sanita' digitale. Il Fascicolo Sanitario Elettronico, e Sanita' chilometro zero, il portale e le app della Regione: Fascicolo, Ricette, Prenota Veloce. Si accede con SPID o con la CIE."),
- (8,"chiaro",0,"I diritti del cittadino: il consenso alla consultazione da parte dei professionisti, l'oscuramento di singoli documenti, e la delega a un'altra persona."),
- (8,"chiaro",0,"La ricetta dematerializzata, e le classi di priorita'. U, urgente, settantadue ore. B, breve, dieci giorni. D, differibile, trenta giorni per le visite e sessanta per gli accertamenti. P, programmata."),
- (8,"chiaro",0,"La cartella elettronica, con credenziali personali e non cedibili. E soprattutto: si accede ai dati solo se si ha in cura il paziente, perche' ogni accesso e' registrato. Infine, la telemedicina."),
+ (8,"chiaro",0,"L'immunita' adattativa, invece, e' specifica e ha memoria. I linfociti B si trasformano in plasmacellule, e producono anticorpi: e' l'immunita' umorale."),
+ (8,"chiaro",0,"I linfociti T costituiscono l'immunita' cellulare. Sono di due tipi principali: gli helper, chiamati CD quattro, e i citotossici, chiamati CD otto."),
+ (8,"chiaro",0,"Le immunoglobuline. Le G sono le piu' abbondanti, attraversano la placenta e proteggono il neonato. Le M sono quelle che compaiono per prime in un'infezione."),
+ (8,"chiaro",0,"Le A si trovano nelle mucose e nel latte materno: ricordi il colostro della lezione undici punto quattro. E le E sono coinvolte nelle allergie e nella difesa dai parassiti."),
 
- (9,"chiaro",0,"[thoughtful] Le confusioni che costano piu' punti. Centri di Servizi e' il nome veneto delle RSA. E l'impegnativa di residenzialita' copre la quota sanitaria, non la retta alberghiera."),
- (9,"chiaro",0,"Azienda Zero non eroga prestazioni ai pazienti: rende possibile che le altre aziende li curino meglio. E ULSS ha la S di socio: Unita' Locale Socio Sanitaria, non ASL."),
- (9,"chiaro",0,"Da ventuno a nove ULSS, nel duemiladiciassette. E l'alimentazione del Fascicolo e' automatica, mentre la consultazione richiede il consenso della persona."),
+ (9,"chiaro",0,"Immunita' attiva e passiva. Nell'immunita' attiva e' l'organismo a produrre gli anticorpi, con una memoria duratura: in modo naturale dopo un'infezione, in modo artificiale con un vaccino."),
+ (9,"chiaro",0,"Nell'immunita' passiva si ricevono anticorpi gia' pronti, con una protezione immediata ma temporanea: in modo naturale dalla madre, in modo artificiale con le immunoglobuline o i sieri."),
+ (9,"chiaro",0,"Le due si possono combinare. E' cio' che si fa dopo un'esposizione a rischio di epatite B in una persona non vaccinata: vaccino piu' immunoglobuline, come nella lezione quattro punto otto."),
 
- (10,"chiaro",0,"[curious] Le domande d'orale piu' probabili. Che cos'e' Azienda Zero, e quali funzioni svolge. Come e' organizzato il sistema veneto. Che cosa sono i Centri di Servizi, e come si accede."),
- (10,"chiaro",0,"UVMD e SVaMA. Come funziona la rete per l'infarto o per l'ictus. Le medicine di gruppo integrate. L'infermiere di famiglia e comunita'. L'accesso al Fascicolo, e le responsabilita'."),
- (10,"chiaro",0,"Sono otto domande. Prepara per ciascuna una risposta di un minuto, con la mappa in testa: dove si colloca il servizio, chi lo governa, come ci si accede."),
+ (10,"chiaro",0,"I vaccini. Quelli vivi attenuati, come il vaccino contro morbillo, parotite e rosolia, o quello contro la varicella, sono controindicati in gravidanza e nelle immunodepressioni gravi."),
+ (10,"chiaro",0,"Poi ci sono i vaccini inattivati, quelli a subunita' e le anatossine, come il tetano, e i vaccini a RNA messaggero. Tutti, senza eccezioni, richiedono il rispetto della catena del freddo."),
+ (10,"chiaro",0,"Le reazioni piu' comuni sono locali, o la febbre. Raramente l'anafilassi: per questo dopo la vaccinazione si resta in osservazione per un breve periodo, con il materiale per l'emergenza disponibile."),
 
- (11,"chiaro",0,"Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi disegna a memoria la mappa del sistema veneto, e leggi l'atto aziendale dell'azienda in cui vorresti lavorare."),
- (11,"chiaro",0,"Sfoglia la Relazione Socio Sanitaria piu' recente. E nelle settimane prima della prova verifica le novita': un nuovo piano socio-sanitario, l'attivazione delle Case della Comunita' e del NUE centododici."),
+ (11,"chiaro",0,"L'infiammazione ha cinque segni cardinali, con i nomi latini. Rubor, l'arrossamento. Calor, il calore. Tumor, il gonfiore. Dolor, il dolore. E functio laesa, la perdita di funzione."),
+ (11,"chiaro",0,"La febbre nasce quando sostanze chiamate pirogeni alzano il set-point del termostato ipotalamico. Ha tre fasi, e ciascuna chiede interventi diversi."),
+ (11,"chiaro",0,"Nella salita la persona ha brividi e cute fredda, perche' il corpo insegue la nuova temperatura: si copre. All'acme la temperatura e' stabile, alta ma ferma."),
+ (11,"chiaro",0,"Nella defervescenza la persona suda: si scopre, si cambia la biancheria e si idrata. E nella sepsi, come hai visto nella lezione dieci punto sei, questa risposta diventa disregolata."),
 
- (12,"chiaro",0,"Un consiglio per l'orale. La risposta che fa la differenza non si ferma a che cos'e', ma arriva a come lo uso da infermiere."),
- (12,"chiaro",0,"Per esempio: le COT coordinano le transizioni fra setting. Quando dimetto un paziente fragile, segnalo il caso alla COT per organizzare una dimissione protetta. E' la stessa informazione, detta da un professionista."),
+ (12,"chiaro",0,"Una sintesi sull'apparato muscolo-scheletrico. Le ossa sostengono, proteggono, fanno da deposito di calcio e ospitano l'emopoiesi. Con le ossa lavorano le articolazioni e i muscoli scheletrici."),
+ (12,"chiaro",0,"L'osteoporosi rende le ossa fragili. E spiega perche' una caduta nell'anziano porta cosi' spesso a una frattura: del femore, del polso, o delle vertebre."),
+ (12,"chiaro",0,"La cute ha tre strati: epidermide, derma, ipoderma. Funzioni: barriera, termoregolazione, sensibilita', vitamina D. Nell'anziano e' piu' sottile, meno elastica, guarisce piu' lentamente: le basi del modulo sette."),
 
- (13,"profondo",1.2,"[serious] Conoscere il sistema veneto significa sapere dove mandare una persona, e come accompagnarla."),
+ (13,"chiaro",0,"[curious] Il caso d'esame. Paziente con febbre a trentanove gradi: prima tremava e chiedeva coperte, ora e' sudato. Che cosa fai, in ciascuna fase?"),
+ (13,"chiaro",0,"Nella fase di salita, con i brividi, lo copri. E se prescritto prepari le emocolture, che si prelevano preferibilmente durante il brivido o il picco della febbre."),
+ (13,"chiaro",0,"Nella defervescenza lo scopri gradualmente, cambi la biancheria, lo idrati, e sorvegli la pressione, perche' la vasodilatazione puo' causare ipotensione. Antipiretico secondo prescrizione, e valutazione della causa."),
 
- (14,"chiaro",0,"[warm] Nel prossimo modulo torniamo alle basi: anatomia, fisiologia e fisiopatologia degli apparati, la semeiotica e i valori di laboratorio."),
- (14,"chiaro",0,"E' il fondamento scientifico di tutto cio' che abbiamo studiato. Ci vediamo li'."),
+ (14,"chiaro",0,"Il collegamento con l'assistenza. La trasfusione e la compatibilita'. INR, aPTT e anticoagulanti. La profilassi anti-D. Le barriere e le infezioni. Le vaccinazioni degli operatori. La febbre. Le cadute e l'osteoporosi."),
+
+ (15,"chiaro",0,"La tabella. Plasma ed elementi figurati. Globuli rossi centoventi giorni, piastrine da sette a dieci. Zero donatore universale di globuli rossi, AB ricevente universale; per il plasma il contrario. Rh e anti-D."),
+ (15,"chiaro",0,"Le fasi dell'emostasi. INR per il warfarin, aPTT per l'eparina. Immunita' innata e adattativa, immunoglobuline, attiva e passiva. Vaccini vivi, non in gravidanza. Febbre: copri in salita, scopri in defervescenza."),
+
+ (16,"profondo",1.2,"[serious] La frase della lezione: ogni barriera che interrompi e' una porta che devi sorvegliare. Un ago, un catetere, una ferita: l'immunita' innata comincia li'."),
+
+ (17,"chiaro",0,"[warm] Nella prossima lezione: la semeiotica, cioe' come si esamina un paziente, e i principali esami di laboratorio, con i loro valori di riferimento."),
+ (17,"chiaro",0,"E poi la diagnostica per immagini, con la sicurezza in risonanza e i mezzi di contrasto. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Il vertice",3:"Le aziende",4:"L'ospedale e l'emergenza",5:"Il territorio",6:"La non autosufficienza",
- 7:"Garanzie e prevenzione",8:"La sanita' digitale",9:"Le confusioni che costano piu' punti",10:"Le domande d'orale",
- 11:"Come proseguire",12:"La risposta che fa la differenza",13:"La frase del modulo",14:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"La composizione del sangue",3:"I gruppi sanguigni AB0",4:"Il fattore Rh",5:"L'emostasi",
+ 6:"Coagulazione, esami e farmaci",7:"L'immunita' innata",8:"L'immunita' adattativa",9:"Immunita' attiva e passiva",10:"I vaccini",
+ 11:"L'infiammazione e la febbre",12:"Muscolo-scheletrico e cute",13:"Il caso d'esame",14:"Il collegamento con l'assistenza",
+ 15:"La tabella",16:"La frase della lezione",17:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

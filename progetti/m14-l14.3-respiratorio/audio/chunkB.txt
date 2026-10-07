@@ -1,0 +1,47 @@
+La curva si sposta. A destra, quando l'emoglobina cede piu' facilmente l'ossigeno ai tessuti: con l'aumento di temperatura e anidride carbonica, con l'acidosi, con l'aumento del due-tre-DPG.
+
+E' cio' che succede nei tessuti che lavorano, come un muscolo sotto sforzo, che ha piu' bisogno di ossigeno.
+
+A sinistra, invece, l'emoglobina trattiene l'ossigeno: con l'ipotermia, con l'alcalosi, con la riduzione dell'anidride carbonica, con il monossido di carbonio, e con l'emoglobina fetale.
+
+Un esempio pratico: in un paziente ipotermico o in alcalosi, l'ossigeno arriva ai tessuti con piu' difficolta', anche a parita' di saturazione.
+
+L'anidride carbonica viaggia soprattutto come bicarbonato, poi legata all'emoglobina e disciolta. Questo collega il respiro all'equilibrio acido-base, della lezione quattordici punto uno.
+
+Il controllo del respiro parte dai centri respiratori del tronco encefalico, nel bulbo e nel ponte. I chemocettori centrali sono sensibili all'anidride carbonica e al pH: sono lo stimolo principale.
+
+I chemocettori periferici, carotidei e aortici, cioe' nelle carotidi e nell'aorta, sono sensibili soprattutto all'ipossia.
+
+La regola della lezione otto punto due: nel BPCO ipercapnico, troppo ossigeno puo' peggiorare l'ipercapnia, per piu' meccanismi: il rapporto ventilazione-perfusione, l'effetto Haldane e, in parte, la riduzione dello stimolo.
+
+L'insufficienza respiratoria ha due tipi. Il tipo uno, ipossiemica: PaO2 sotto sessanta, con anidride carbonica normale o bassa. Le cause tipiche: la polmonite, l'edema polmonare, l'embolia.
+
+Il tipo due, ipercapnica: PaO2 sotto sessanta e PaCO2 sopra quarantacinque. Le cause: la BPCO, le malattie neuromuscolari, la depressione del respiro da oppioidi.
+
+Due termini da non confondere. Ipossiemia significa poco ossigeno nel sangue. Ipossia significa poco ossigeno ai tessuti.
+
+E la cianosi e' un segno tardivo, che puo' mancare del tutto in un paziente anemico.
+
+[thoughtful] Il collegamento con l'assistenza. La posizione seduta o semiseduta, che facilita il lavoro del diaframma. La respirazione profonda e lo spirometro incentivante contro l'atelettasia, lezione nove punto cinque.
+
+La frequenza respiratoria come parametro sentinella. I target di saturazione, lezione otto punto due. L'umidificazione nelle vie aeree artificiali. E il bronco destro, quando si verifica la posizione del tubo.
+
+Il caso d'esame. Paziente post-operatorio, frequenza respiratoria trentadue, respiri superficiali, saturazione novantadue. Perche' la ventilazione e' inefficace, anche se respira velocemente?
+
+Perche' con respiri piccoli gran parte di ogni respiro resta nello spazio morto, e non raggiunge gli alveoli. La ventilazione alveolare effettiva e' bassa: respira tanto, ma respira male.
+
+Spesso la causa e' il dolore, che impedisce i respiri profondi. Gli interventi: un'analgesia adeguata, la posizione semiseduta, la respirazione profonda, e la valutazione con il medico.
+
+E la saturazione a novantadue ti dice che sei vicino alla parte ripida della curva, dove piccole riduzioni di PaO2 la fanno crollare.
+
+I numeri. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta. FEV uno su FVC sotto zero virgola sette: ostruzione. Circa il novantotto per cento dell'ossigeno legato all'emoglobina.
+
+Saturazione novanta, PaO2 sessanta. PaCO2 normale fra trentacinque e quarantacinque millimetri di mercurio. Insufficienza respiratoria: PaO2 sotto sessanta, e nel tipo due PaCO2 sopra quarantacinque.
+
+La tabella. Il bronco destro piu' verticale. Tre lobi a destra, due a sinistra. Inspirazione attiva, con il diaframma, ed espirazione passiva. Il surfattante. Il rapporto ventilazione-perfusione.
+
+La curva sigmoide: a destra cede l'ossigeno, a sinistra lo trattiene. Chemocettori centrali per l'anidride carbonica, periferici per l'ipossia. Tipo uno e tipo due. Ipossiemia e ipossia. Cianosi tardiva.
+
+[serious] La frase della lezione: sotto il novanta per cento la curva precipita. La saturazione si sorveglia prima che cada, non dopo.
+
+[warm] Nella prossima lezione: l'apparato digerente, il fegato e il rene, con la filtrazione glomerulare e la clearance, che spiegano perche' tanti farmaci vanno adattati. A tra poco.

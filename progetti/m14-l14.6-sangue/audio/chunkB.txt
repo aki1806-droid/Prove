@@ -1,0 +1,51 @@
+L'immunita' adattativa, invece, e' specifica e ha memoria. I linfociti B si trasformano in plasmacellule, e producono anticorpi: e' l'immunita' umorale.
+
+I linfociti T costituiscono l'immunita' cellulare. Sono di due tipi principali: gli helper, chiamati CD quattro, e i citotossici, chiamati CD otto.
+
+Le immunoglobuline. Le G sono le piu' abbondanti, attraversano la placenta e proteggono il neonato. Le M sono quelle che compaiono per prime in un'infezione.
+
+Le A si trovano nelle mucose e nel latte materno: ricordi il colostro della lezione undici punto quattro. E le E sono coinvolte nelle allergie e nella difesa dai parassiti.
+
+Immunita' attiva e passiva. Nell'immunita' attiva e' l'organismo a produrre gli anticorpi, con una memoria duratura: in modo naturale dopo un'infezione, in modo artificiale con un vaccino.
+
+Nell'immunita' passiva si ricevono anticorpi gia' pronti, con una protezione immediata ma temporanea: in modo naturale dalla madre, in modo artificiale con le immunoglobuline o i sieri.
+
+Le due si possono combinare. E' cio' che si fa dopo un'esposizione a rischio di epatite B in una persona non vaccinata: vaccino piu' immunoglobuline, come nella lezione quattro punto otto.
+
+I vaccini. Quelli vivi attenuati, come il vaccino contro morbillo, parotite e rosolia, o quello contro la varicella, sono controindicati in gravidanza e nelle immunodepressioni gravi.
+
+Poi ci sono i vaccini inattivati, quelli a subunita' e le anatossine, come il tetano, e i vaccini a RNA messaggero. Tutti, senza eccezioni, richiedono il rispetto della catena del freddo.
+
+Le reazioni piu' comuni sono locali, o la febbre. Raramente l'anafilassi: per questo dopo la vaccinazione si resta in osservazione per un breve periodo, con il materiale per l'emergenza disponibile.
+
+L'infiammazione ha cinque segni cardinali, con i nomi latini. Rubor, l'arrossamento. Calor, il calore. Tumor, il gonfiore. Dolor, il dolore. E functio laesa, la perdita di funzione.
+
+La febbre nasce quando sostanze chiamate pirogeni alzano il set-point del termostato ipotalamico. Ha tre fasi, e ciascuna chiede interventi diversi.
+
+Nella salita la persona ha brividi e cute fredda, perche' il corpo insegue la nuova temperatura: si copre. All'acme la temperatura e' stabile, alta ma ferma.
+
+Nella defervescenza la persona suda: si scopre, si cambia la biancheria e si idrata. E nella sepsi, come hai visto nella lezione dieci punto sei, questa risposta diventa disregolata.
+
+Una sintesi sull'apparato muscolo-scheletrico. Le ossa sostengono, proteggono, fanno da deposito di calcio e ospitano l'emopoiesi. Con le ossa lavorano le articolazioni e i muscoli scheletrici.
+
+L'osteoporosi rende le ossa fragili. E spiega perche' una caduta nell'anziano porta cosi' spesso a una frattura: del femore, del polso, o delle vertebre.
+
+La cute ha tre strati: epidermide, derma, ipoderma. Funzioni: barriera, termoregolazione, sensibilita', vitamina D. Nell'anziano e' piu' sottile, meno elastica, guarisce piu' lentamente: le basi del modulo sette.
+
+[curious] Il caso d'esame. Paziente con febbre a trentanove gradi: prima tremava e chiedeva coperte, ora e' sudato. Che cosa fai, in ciascuna fase?
+
+Nella fase di salita, con i brividi, lo copri. E se prescritto prepari le emocolture, che si prelevano preferibilmente durante il brivido o il picco della febbre.
+
+Nella defervescenza lo scopri gradualmente, cambi la biancheria, lo idrati, e sorvegli la pressione, perche' la vasodilatazione puo' causare ipotensione. Antipiretico secondo prescrizione, e valutazione della causa.
+
+Il collegamento con l'assistenza. La trasfusione e la compatibilita'. INR, aPTT e anticoagulanti. La profilassi anti-D. Le barriere e le infezioni. Le vaccinazioni degli operatori. La febbre. Le cadute e l'osteoporosi.
+
+La tabella. Plasma ed elementi figurati. Globuli rossi centoventi giorni, piastrine da sette a dieci. Zero donatore universale di globuli rossi, AB ricevente universale; per il plasma il contrario. Rh e anti-D.
+
+Le fasi dell'emostasi. INR per il warfarin, aPTT per l'eparina. Immunita' innata e adattativa, immunoglobuline, attiva e passiva. Vaccini vivi, non in gravidanza. Febbre: copri in salita, scopri in defervescenza.
+
+[serious] La frase della lezione: ogni barriera che interrompi e' una porta che devi sorvegliare. Un ago, un catetere, una ferita: l'immunita' innata comincia li'.
+
+[warm] Nella prossima lezione: la semeiotica, cioe' come si esamina un paziente, e i principali esami di laboratorio, con i loro valori di riferimento.
+
+E poi la diagnostica per immagini, con la sicurezza in risonanza e i mezzi di contrasto. A tra poco.

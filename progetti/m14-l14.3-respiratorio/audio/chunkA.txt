@@ -1,0 +1,47 @@
+[warm] Respirare significa due cose: portare ossigeno ai tessuti ed eliminare l'anidride carbonica. Tutto parte da qui.
+
+Ripercorriamo l'anatomia delle vie aeree, la meccanica del respiro, gli scambi gassosi, e una curva che spiega molte scelte di assistenza: quella di dissociazione dell'emoglobina.
+
+Le vie aeree superiori. Il naso, che riscalda, umidifica e filtra l'aria: funzioni che si perdono nella tracheostomia, come hai visto nella lezione otto punto due. Poi la faringe.
+
+E la laringe, con le corde vocali e l'epiglottide, che protegge dall'inalazione. Poi le vie aeree inferiori: la trachea, i bronchi principali, i bronchi lobari e segmentari, i bronchioli, fino agli alveoli.
+
+Un dettaglio chiesto spesso: il bronco principale destro e' piu' corto, piu' largo e piu' verticale. Per questo i corpi estranei inalati finiscono piu' spesso a destra.
+
+Per lo stesso motivo un tubo endotracheale troppo profondo finisce piu' spesso nel bronco destro. Il polmone destro ha tre lobi, il sinistro due. E tutto e' avvolto dalla pleura, viscerale e parietale.
+
+La meccanica del respiro. L'inspirazione e' attiva. Il muscolo principale e' il diaframma, che si contrae e si abbassa; gli intercostali esterni sollevano le coste.
+
+Il torace si espande, la pressione negli alveoli scende, e l'aria entra. L'espirazione, invece, a riposo e' passiva: e' il semplice ritorno elastico del polmone.
+
+Quando il respiro e' difficile entrano in gioco i muscoli accessori: sternocleidomastoideo, scaleni, addominali. Si vedono contrarsi sul collo: un segno di fatica respiratoria, lezione dieci punto due.
+
+E il surfattante, che riveste gli alveoli: riduce la tensione superficiale e ne impedisce il collasso. La sua carenza nel neonato prematuro causa la sindrome da distress respiratorio.
+
+I volumi polmonari. Il volume corrente e' l'aria mobilizzata a ogni respiro tranquillo: a riposo, circa cinquecento millilitri.
+
+Di questi, circa centocinquanta restano nello spazio morto anatomico, dove non avvengono scambi. Per questo un respiro rapido e superficiale e' poco efficace: gran parte dell'aria non arriva agli alveoli.
+
+La capacita' vitale e' la massima quantita' di aria espirabile dopo un'inspirazione massima. Il volume residuo e' quello che resta comunque nei polmoni, dopo l'espirazione massima.
+
+E la spirometria. Se il rapporto fra FEV uno e capacita' vitale forzata scende sotto zero virgola sette, indica un'ostruzione, come nella BPCO.
+
+Gli scambi gassosi avvengono negli alveoli, per diffusione attraverso la membrana alveolo-capillare, sottilissima: l'ossigeno passa dall'alveolo al sangue, l'anidride carbonica dal sangue all'alveolo.
+
+Perche' funzionino serve un buon rapporto ventilazione-perfusione. Un alveolo ventilato ma non perfuso, come nell'embolia, o perfuso ma non ventilato, come nell'atelettasia o nella polmonite: il sangue esce poco ossigenato.
+
+Un dettaglio: l'anidride carbonica diffonde circa venti volte piu' facilmente dell'ossigeno. Ed e' per questo che nelle malattie polmonari l'ipossiemia compare di solito prima dell'ipercapnia.
+
+Il trasporto dell'ossigeno. Quasi tutto l'ossigeno, circa il novantotto per cento, viaggia legato all'emoglobina. Solo una piccola parte e' disciolta nel plasma.
+
+La saturazione indica la percentuale di emoglobina legata all'ossigeno. Ma la quantita' di ossigeno trasportata dipende da due cose: dalla saturazione e dalla quantita' di emoglobina.
+
+Ecco perche', come nella lezione otto punto due, un paziente gravemente anemico puo' avere una saturazione normale, e comunque un apporto di ossigeno insufficiente ai tessuti.
+
+[curious] La curva di dissociazione dell'emoglobina descrive il rapporto fra la pressione parziale di ossigeno nel sangue, la PaO2, e la saturazione. Ha una forma a S: e' una sigmoide.
+
+Nella parte alta la curva e' piatta: la PaO2 puo' scendere molto, mentre la saturazione cambia poco. Grandi variazioni di PaO2, piccole variazioni di saturazione.
+
+Ma sotto circa il novanta per cento di saturazione, che corrisponde a una PaO2 di circa sessanta millimetri di mercurio, la curva diventa ripida: piccole riduzioni di PaO2 fanno crollare la saturazione.
+
+Da qui un riferimento da ricordare: saturazione novanta, PaO2 sessanta, la soglia dell'insufficienza respiratoria. Un paziente che scende da novantaquattro a novanta e' sul bordo del precipizio.

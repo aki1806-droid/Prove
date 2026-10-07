@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Sistema nervoso ed endocrino sono i due sistemi di controllo del corpo. Il primo comunica con impulsi elettrici, rapidissimi; il secondo con gli ormoni, piu' lenti ma duraturi."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Conoscerli spiega i segni neurologici della lezione otto punto sei, le emergenze endocrine della otto punto tre e, soprattutto, l'azione di molti farmaci. Partiamo dal sistema nervoso."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema nervoso centrale comprende l'encefalo e il midollo spinale. Il sistema nervoso periferico comprende dodici paia di nervi cranici e trentuno paia di nervi spinali."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Funzionalmente si distingue una componente somatica, volontaria, e una componente autonoma, involontaria, che a sua volta ha due branche: il simpatico e il parasimpatico."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'unita' e' il neurone, che comunica con gli altri attraverso le sinapsi, rilasciando i neurotrasmettitori: acetilcolina, noradrenalina, dopamina, serotonina, GABA, glutammato."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molti farmaci agiscono proprio su questi messaggeri: le benzodiazepine sul GABA, la levodopa sulla dopamina, gli antidepressivi sulla serotonina."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le vie motorie e sensitive. Le vie sensitive conducono il tatto, il dolore, la temperatura e la posizione. La via motoria principale e' la via corticospinale, detta anche piramidale."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Parte dalla corteccia e scende nel midollo incrociandosi: e' la decussazione. Per questo una lesione dell'emisfero sinistro provoca un deficit motorio a destra."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E siccome nella maggior parte delle persone il linguaggio ha sede nell'emisfero sinistro, un ictus con debolezza a destra si accompagna spesso ad afasia. Ricordi il caso della lezione otto punto sei?"
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I riflessi. L'arco riflesso va dal recettore, per la via sensitiva, fino al midollo, e torna per la via motoria al muscolo, senza passare dalla volonta': la risposta e' rapida e involontaria."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli esempi: il riflesso rotuleo, il riflesso pupillare alla luce, i riflessi della deglutizione e della tosse, che proteggono le vie aeree. E i riflessi tendinei ridotti segnalano la tossicita' da magnesio."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il segno di Babinski, cioe' l'estensione dell'alluce stimolando la pianta del piede, e' patologico nell'adulto: indica una lesione della via piramidale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sistema nervoso autonomo ha due branche. Il simpatico prepara alla lotta o fuga, e i suoi mediatori sono la noradrenalina e l'adrenalina."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Agiscono su due famiglie di recettori. Gli alfa restringono i vasi. Poi i beta: i beta uno, nel cuore, aumentano frequenza e contrattilita'; i beta due, nei bronchi, li dilatano."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti del simpatico: aumento di frequenza e pressione, broncodilatazione, pupille dilatate, cioe' midriasi, intestino rallentato, ritenzione urinaria, glicemia piu' alta, sudorazione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il parasimpatico governa invece il riposo e la digestione. Il suo mediatore e' l'acetilcolina, che agisce sui recettori muscarinici, e il suo nervo principale e' il vago."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti sono opposti a quelli del simpatico: frequenza ridotta, broncocostrizione, pupille strette, cioe' miosi, intestino piu' attivo, piu' secrezioni, e lo svuotamento della vescica."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una stimolazione vagale, durante un'aspirazione tracheale, uno sforzo o un dolore viscerale, puo' dare una bradicardia improvvisa, come abbiamo visto nella lezione otto punto due."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Ed ecco il collegamento con la farmacologia. I beta-bloccanti riducono frequenza e pressione. Quelli non selettivi bloccano anche i beta due bronchiali: possono scatenare un broncospasmo, cautela nell'asma."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il salbutamolo, un agonista beta due, dilata i bronchi, ma puo' dare tachicardia, tremori e ipokaliemia. L'adrenalina, che agisce su alfa e beta, si usa nell'anafilassi e nell'arresto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'atropina e' un antimuscarinico: blocca l'acetilcolina e aumenta la frequenza. Ma secca le mucose, e puo' causare ritenzione urinaria, midriasi e confusione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i farmaci anticolinergici, nell'anziano, provocano delirium, stipsi e ritenzione: ecco perche' compaiono fra i farmaci potenzialmente inappropriati della lezione undici punto uno."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il circolo cerebrale. Il cervello riceve sangue dalle carotidi interne e dalle arterie vertebrali, che si uniscono nel poligono di Willis. E il suo flusso ha una propria autoregolazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il cervello consuma circa il venti per cento dell'ossigeno del corpo e dipende quasi solo dal glucosio: ecco perche' ipossia e ipoglicemia alterano subito la coscienza."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha una barriera ematoencefalica, che seleziona le sostanze che possono raggiungerlo. E il liquor, che viene prodotto nei ventricoli cerebrali."
+ },
+ {
+  "id": "s27",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un principio spiega l'ipertensione endocranica della lezione otto punto sei: il cranio e' rigido e contiene encefalo, sangue e liquor. Se uno dei tre aumenta, la pressione sale."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passiamo al sistema endocrino. Ha il suo centro nell'asse ipotalamo-ipofisi: l'ipotalamo controlla l'ipofisi, e l'ipofisi regola a sua volta le altre ghiandole."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipofisi anteriore produce il GH, l'ormone della crescita; il TSH, che stimola la tiroide; l'ACTH, che stimola il surrene; l'FSH e l'LH per le gonadi; e la prolattina."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipofisi posteriore libera l'ADH, che fa riassorbire acqua nel rene, e l'ossitocina, per le contrazioni uterine e l'eiezione del latte. E tutto e' regolato a feedback negativo."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tiroide produce due ormoni, il T tre e il T quattro, che regolano il metabolismo. E per produrli ha bisogno dello iodio."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il feedback spiega i valori di laboratorio. Nell'ipotiroidismo primario la tiroide produce poco, e l'ipofisi aumenta il TSH, che risulta alto. Nell'ipertiroidismo primario, invece, il TSH e' basso."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le paratiroidi producono il PTH, che aumenta il calcio nel sangue. Per questo la loro lesione durante una tiroidectomia causa l'ipocalcemia della lezione nove punto sei."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il surrene. La parte corticale produce il cortisolo, l'ormone dello stress, che alza la glicemia e riduce l'infiammazione; l'aldosterone, che regola sodio e potassio; e gli androgeni."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La parte midollare del surrene produce invece l'adrenalina e la noradrenalina: gli stessi mediatori del simpatico che abbiamo appena visto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il pancreas endocrino, nelle isole di Langerhans. Le cellule beta producono l'insulina, che abbassa la glicemia; le cellule alfa producono il glucagone, che la alza."
+ },
+ {
+  "id": "s37",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli ormoni dello stress, glucagone, cortisolo, adrenalina e GH, sono tutti iperglicemizzanti. Ecco perche' un paziente con un'infezione, o dopo un intervento, ha la glicemia alta anche se non e' diabetico."
+ },
+ {
+  "id": "s38",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il feedback spiega anche i corticosteroidi usati come farmaci. Somministrati a lungo, spengono l'ACTH e il surrene, che smette di produrre cortisolo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo una sospensione brusca puo' causare la crisi surrenalica della lezione otto punto tre. E gli effetti da sorvegliare: iperglicemia, ritenzione idrica, osteoporosi, infezioni, ritardo di guarigione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si somministrano di solito al mattino, perche' imitano il ritmo naturale del cortisolo, che e' piu' alto al risveglio."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Il caso d'esame. Paziente asmatico con ipertensione: il medico prescrive il propranololo. Che cosa segnala l'infermiere?"
+ },
+ {
+  "id": "s42",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il propranololo e' un beta-bloccante non selettivo: blocca anche i recettori beta due dei bronchi, e in un paziente asmatico puo' scatenare un broncospasmo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo segnali al medico prima della somministrazione, chiedendo conferma. E' la fisiologia del sistema autonomo che previene un evento avverso."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il collegamento con l'assistenza. La valutazione neurologica e delle pupille. Il lato del deficit, e il linguaggio. La glicemia in ogni alterazione della coscienza. La bradicardia vagale durante le manovre."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli effetti autonomici dei farmaci. Il TSH e la terapia tiroidea. La glicemia da stress. E i corticosteroidi, che non si sospendono mai bruscamente."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella. Dodici nervi cranici, trentuno spinali. Via motoria incrociata, linguaggio a sinistra, Babinski patologico. Simpatico: alfa e beta, beta uno cuore, beta due bronchi. Parasimpatico: acetilcolina e vago."
+ },
+ {
+  "id": "s47",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ipofisi anteriore e posteriore. Ipotiroidismo primario: TSH alto. Il PTH alza il calcio. Cortisolo e aldosterone. L'insulina abbassa la glicemia, il glucagone la alza. Gli ormoni dello stress sono iperglicemizzanti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 16,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase della lezione: capire il recettore e' capire il farmaco. Se sai dove agisce un farmaco, sai prevederne gli effetti e i rischi."
+ },
+ {
+  "id": "s49",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: il sangue, i gruppi sanguigni, la coagulazione, l'immunita' e l'infiammazione. Le basi della trasfusione, degli anticoagulanti e delle infezioni. A tra poco."
+ }
+]

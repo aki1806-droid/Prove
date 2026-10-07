@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chiudiamo il modulo delle basi biomediche con due strumenti: le tabelle dei valori da fotografare, e i collegamenti fra fisiologia e assistenza, la vera utilita' del modulo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'esame, molte domande cliniche si risolvono ragionando sul meccanismo. Ripassiamo gli apparati, poi la tabella e i collegamenti."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Liquidi e acido-base. L'acqua e' circa il sessanta per cento del peso nell'adulto: due terzi dentro le cellule, un terzo fuori. Il sodio domina fuori, il potassio dentro."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A tenerli separati e' la pompa sodio-potassio, che porta fuori tre ioni sodio e dentro due ioni potassio. E l'osmosi: l'acqua si sposta verso la soluzione piu' concentrata."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso; la pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro. Se l'equilibrio si rompe, nasce l'edema."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ADH, l'ormone antidiuretico, fa riassorbire acqua nel rene. L'aldosterone, prodotto dal surrene, fa riassorbire sodio, e in cambio fa perdere potassio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il pH, fra sette virgola trentacinque e sette virgola quarantacinque, e' difeso da tre sistemi con tempi diversi: i tamponi in pochi secondi, il polmone in minuti, il rene in giorni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cuore e circolo. A destra la valvola tricuspide, a sinistra la mitrale. L'arteria polmonare porta al polmone sangue povero di ossigeno. Le coronarie si riempiono in diastole, a muscolo rilassato."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'impulso nasce nel nodo senoatriale, il pacemaker naturale, da sessanta a cento battiti al minuto. Poi nodo atrioventricolare, fascio di His, branche e fibre di Purkinje."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gittata cardiaca e' la gittata sistolica per la frequenza: circa cinque litri al minuto, a riposo. E la pressione arteriosa e' la gittata per le resistenze periferiche."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La pressione media e' circa la diastolica piu' un terzo della differenza fra sistolica e diastolica: con centoventi su sessanta, circa ottanta. Nello shock, l'obiettivo e' almeno sessantacinque."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A breve termine la pressione la regolano i barocettori, attraverso il sistema autonomo. A lungo termine, il sistema renina-angiotensina-aldosterone, che restringe i vasi e trattiene sodio e acqua."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Respiro. Il bronco destro e' piu' verticale. L'inspirazione e' attiva, con il diaframma. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta."
+ },
+ {
+  "id": "s15",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Circa il novantotto per cento dell'ossigeno viaggia legato all'emoglobina. La curva di dissociazione e' a S, con un punto da ricordare: saturazione novanta, pressione parziale di ossigeno sessanta."
+ },
+ {
+  "id": "s16",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sotto quel punto la curva diventa ripida. Si sposta a destra con temperatura e anidride carbonica alte, e con l'acidosi: l'emoglobina cede piu' facilmente l'ossigeno ai tessuti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insufficienza respiratoria. Tipo uno, ipossiemica: ossigeno arterioso sotto sessanta. Tipo due, ipercapnica: in piu', anidride carbonica sopra quarantacinque."
+ },
+ {
+  "id": "s18",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Digerente, fegato, rene. Nello stomaco, il fattore intrinseco, che serve ad assorbire la vitamina B dodici: dopo una gastrectomia, la B dodici si da' per via parenterale."
+ },
+ {
+  "id": "s19",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fegato produce albumina e fattori della coagulazione: due, sette, nove e dieci. Coniuga la bilirubina, trasforma l'ammoniaca in urea, e metabolizza i farmaci: il primo passaggio."
+ },
+ {
+  "id": "s20",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rene filtra circa centottanta litri al giorno, e produce circa un litro e mezzo di urine. Il GFR, da novanta a centoventi millilitri al minuto. La creatinina dipende dalla massa muscolare."
+ },
+ {
+  "id": "s21",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rene produce eritropoietina e renina, e attiva la vitamina D. Oliguria sotto i quattrocento millilitri nelle ventiquattro ore, anuria sotto i cento."
+ },
+ {
+  "id": "s22",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nervoso ed endocrino. Via motoria incrociata: una lesione dell'emisfero sinistro da' un deficit a destra. E nella maggior parte delle persone il linguaggio sta a sinistra."
+ },
+ {
+  "id": "s23",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Simpatico: beta uno sul cuore, beta due sui bronchi, midriasi, ritenzione. Parasimpatico: acetilcolina, vago, bradicardia, miosi. Un beta-bloccante non selettivo puo' dare broncospasmo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'ipotiroidismo primario la tiroide produce poco, e il TSH risulta alto. Il PTH aumenta il calcio. L'insulina abbassa la glicemia, il glucagone la alza."
+ },
+ {
+  "id": "s25",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli ormoni dello stress, come cortisolo e adrenalina, alzano la glicemia. E i corticosteroidi presi a lungo non si sospendono mai bruscamente: rischio di crisi surrenalica."
+ },
+ {
+  "id": "s26",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sangue e difese. Il globulo rosso vive circa centoventi giorni, la piastrina da sette a dieci. Lo zero e' donatore universale di globuli rossi, l'AB ricevente universale; per il plasma vale il contrario."
+ },
+ {
+  "id": "s27",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fattore Rh, e la profilassi anti-D nella madre Rh negativa. L'emostasi: vascolare, piastrinica, coagulativa, e la fibrinolisi, che scioglie il coagulo e libera il D-dimero."
+ },
+ {
+  "id": "s28",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La coagulazione: l'INR controlla il warfarin, l'aPTT l'eparina non frazionata. E gli antidoti: la vitamina K per il warfarin, la protamina per l'eparina."
+ },
+ {
+  "id": "s29",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le immunoglobuline. Le G attraversano la placenta, le M sono la prima risposta, le A difendono le mucose, le E sono quelle delle allergie. Immunita' attiva con il vaccino, passiva con le immunoglobuline."
+ },
+ {
+  "id": "s30",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I vaccini vivi attenuati non si fanno in gravidanza. E la febbre: si copre il paziente nella salita, con i brividi, e lo si scopre nella defervescenza, quando suda."
+ },
+ {
+  "id": "s31",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tabella dei valori, da fotografare. Con la solita premessa: sono indicativi, cambiano fra laboratori, e fa fede l'intervallo del referto."
+ },
+ {
+  "id": "s32",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emocromo. Emoglobina da tredici a diciassette nell'uomo, da dodici a sedici nella donna. Globuli bianchi da quattromila a diecimila. Neutrofili sotto cinquecento: neutropenia grave."
+ },
+ {
+  "id": "s33",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piastrine da centocinquantamila a quattrocentocinquantamila. Sodio da centotrentacinque a centoquarantacinque. Potassio da tre virgola cinque a cinque. Calcio totale da otto virgola cinque a dieci virgola cinque."
+ },
+ {
+  "id": "s34",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemia a digiuno da settanta a novantanove. Creatinina da zero virgola sei a uno virgola due. INR da zero virgola otto a uno virgola due, e da due a tre in terapia. aPTT da venticinque a trentacinque secondi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Albumina da tre virgola cinque a cinque. Bilirubina totale sotto uno virgola due. Lattati sotto due. E la saturazione: da novantaquattro a novantotto, e da ottantotto a novantadue negli ipercapnici."
+ },
+ {
+  "id": "s36",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emogas. pH da sette virgola trentacinque a sette virgola quarantacinque. Anidride carbonica da trentacinque a quarantacinque, ossigeno da ottanta a cento. Bicarbonato da ventidue a ventisei."
+ },
+ {
+  "id": "s37",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti piu' utili, ciascuno una domanda d'esame. Un campione emolizzato da' un potassio falsamente alto, perche' il potassio sta nelle cellule. La tachicardia accorcia la diastole: meno perfusione coronarica."
+ },
+ {
+  "id": "s38",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipoalbuminemia abbassa la pressione oncotica, e porta all'edema. Una creatinina normale, nell'anziano magro, puo' nascondere un GFR ridotto. E sotto il novanta di saturazione, la curva precipita."
+ },
+ {
+  "id": "s39",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stress alza la glicemia. Il bronco destro spiega l'intubazione selettiva e i corpi estranei. Il beta-bloccante non selettivo da' broncospasmo. In risonanza, l'effetto proiettile."
+ },
+ {
+  "id": "s40",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Le confusioni che costano piu' punti. L'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Il primo tono chiude le atrioventricolari, il secondo le semilunari."
+ },
+ {
+  "id": "s41",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ipossiemia e' poco ossigeno nel sangue, ipossia poco ossigeno ai tessuti. Il sintomo lo riferisce la persona, il segno lo rileva l'operatore. E l'INR segue il warfarin, l'aPTT l'eparina."
+ },
+ {
+  "id": "s42",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo zero dona globuli rossi a tutti, ma per il plasma e' l'AB. Nell'addome, l'auscultazione viene prima della palpazione. La risonanza non usa radiazioni, ma il magnete e' sempre attivo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale piu' probabili. La curva di dissociazione. Le cause dell'edema, con Starling. Simpatico e parasimpatico, e i farmaci. I gruppi sanguigni e la trasfusione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le fasi della febbre e l'assistenza. La preparazione alla TC con contrasto. La sicurezza in risonanza. I valori critici. Per ognuna, una risposta dal meccanismo all'azione infermieristica."
+ },
+ {
+  "id": "s45",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi trascrivi nel quaderno la tabella dei valori che abbiamo appena visto."
+ },
+ {
+  "id": "s46",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ogni apparato, costruisci una catena: un meccanismo, una conseguenza clinica, un intervento infermieristico. Ripassa con gli schemi: nefrone, sistema di conduzione, curva di dissociazione, emostasi."
+ },
+ {
+  "id": "s47",
+  "capitolo": 13,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del modulo: dal meccanismo all'azione. La fisiologia e' il motivo, l'assistenza e' la risposta."
+ },
+ {
+  "id": "s48",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Siamo all'ultimo modulo: il percorso trasversale, dedicato alle prove del concorso. Il metodo per i quiz, la prova scritta e pratica, l'orale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi l'inglese e l'informatica, con le simulazioni finali. Ci vediamo li'."
+ }
+]
