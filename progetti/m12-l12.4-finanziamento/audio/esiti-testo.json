@@ -29,15 +29,9 @@
  },
  "B": {
   "parole_copione": 552,
-  "parole_dette": 548,
-  "coincidenti": 547,
-  "buchi": [
-   {
-    "blocco": "s39",
-    "parole_copione": "pie di lista",
-    "al_loro_posto": "piedilista"
-   }
-  ],
+  "parole_dette": 550,
+  "coincidenti": 550,
+  "buchi": [],
   "sostituzioni_brevi": []
  }
 }

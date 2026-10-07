@@ -110,6 +110,7 @@ progetti/<modulo>-<lezione>/
 | `m11-l11.8-riepilogo` | Modulo 11 · 11.8 Riepilogo del Modulo 11 e autovalutazione | 8:11.9 | `69dea68bea6eb467103d6aa9d6871219` |
 | `m12-l12.1-fonti` | Modulo 12 · 12.1 Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
 | `m12-l12.2-riforme` | Modulo 12 · 12.2 Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
+| `m12-l12.3-organizzazione` | Modulo 12 · 12.3 L'organizzazione aziendale e ospedaliera | 8:29.6 | `88a53bcb1c3bfe06e317db336658ee7c` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

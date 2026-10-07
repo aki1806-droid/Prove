@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,970
+Le risorse della sanita' sono pubbliche, e sono limitate. Capire da dove arrivano e come vengono distribuite aiuta a capire molte cose che vedi ogni giorno in reparto.
+
+2
+00:00:12,970 --> 00:00:25,380
+Perche' un'azienda definisce un budget, perche' si misura la durata della degenza, perche' si parla di appropriatezza. E l'infermiere gestisce ogni giorno tempo, materiali, farmaci, posti letto.
+
+3
+00:00:25,380 --> 00:00:34,270
+Sono tutte risorse, e le scelte dell'infermiere su ciascuna di queste hanno anche un peso economico. Vediamo allora da dove arrivano i soldi, e dove vanno.
+
+4
+00:00:34,270 --> 00:00:46,790
+Le risorse del Servizio Sanitario Nazionale vengono soprattutto dalla fiscalita' generale: imposte nazionali e regionali, come l'IRAP e l'addizionale regionale all'IRPEF, e una compartecipazione all'IVA.
+
+5
+00:00:46,790 --> 00:00:53,870
+A queste si aggiungono le entrate proprie delle aziende sanitarie: i ticket pagati dai cittadini, e l'attivita' libero-professionale.
+
+6
+00:00:53,870 --> 00:01:04,680
+Ogni anno lo Stato fissa, con la legge di bilancio, il fabbisogno sanitario nazionale standard: la somma complessiva destinata al finanziamento del Servizio Sanitario Nazionale.
+
+7
+00:01:04,680 --> 00:01:16,450
+Il fondo viene poi ripartito fra le Regioni, con un'intesa in Conferenza Stato-Regioni. Il criterio principale e' la popolazione pesata per eta', perche' una popolazione piu' anziana consuma piu' risorse.
+
+8
+00:01:16,450 --> 00:01:27,340
+A questo si aggiungono altri indicatori. E con il decreto legislativo sessantotto del duemilaundici sono arrivati i costi standard, che prendono come riferimento le Regioni piu' efficienti.
+
+9
+00:01:27,340 --> 00:01:36,910
+Sono le cosiddette regioni benchmark, e il Veneto e' stato piu' volte fra queste. Le Regioni, a loro volta, ripartiscono poi le risorse fra le proprie aziende sanitarie.
+
+10
+00:01:36,910 --> 00:01:47,150
+Ora il cuore della lezione: i DRG, Diagnosis Related Groups. Un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse.
+
+11
+00:01:47,150 --> 00:01:57,040
+Ogni ricovero viene attribuito a un DRG in base alla diagnosi principale, agli interventi, all'eta', alle complicanze e alla modalita' di dimissione.
+
+12
+00:01:57,040 --> 00:02:09,270
+Sono informazioni prese dalla scheda di dimissione ospedaliera, la SDO. E a ogni DRG corrisponde una tariffa. La catena da ricordare e': SDO, DRG, tariffa.
+
+13
+00:02:09,270 --> 00:02:19,620
+Introdotti in Italia dalla meta' degli anni Novanta, i DRG hanno sostituito il finanziamento a pie' di lista, basato sulla spesa storica, con un pagamento per prestazione.
+
+14
+00:02:19,620 --> 00:02:28,850
+Gli effetti. I DRG incentivano l'efficienza e la riduzione della degenza media, perche' la tariffa e' fissa, indipendentemente dai giorni di ricovero.
+
+15
+00:02:28,850 --> 00:02:40,840
+Ma comportano dei rischi: dimissioni precoci, selezione dei casi piu' convenienti, codifiche opportunistiche, frammentazione dei ricoveri. Per questo esistono i controlli di appropriatezza sulle SDO.
+
+16
+00:02:40,840 --> 00:02:45,440
+La SDO deve essere completa e accurata.
+
+17
+00:02:45,440 --> 00:02:56,830
+E qui entra l'infermiere: una documentazione infermieristica precisa, per esempio di una lesione da pressione o di un'infezione, contribuisce a descrivere correttamente la complessita' del ricovero.
+
+18
+00:02:56,830 --> 00:03:05,600
+Fuori dal ricovero, l'attivita' di specialistica ambulatoriale e' remunerata secondo i nomenclatori tariffari, che elencano le prestazioni con la loro tariffa.
+
+19
+00:03:05,600 --> 00:03:16,780
+I nuovi nomenclatori previsti dai LEA del duemiladiciassette sono entrati in vigore alla fine del duemilaventiquattro. E le Regioni possono definire tariffe proprie, entro i limiti nazionali.
+
+20
+00:03:16,780 --> 00:03:28,250
+Dentro l'azienda, lo strumento di gestione e' il budget: la direzione negozia con ogni struttura gli obiettivi, di attivita', qualita', appropriatezza e costi, e le risorse per l'anno.
+
+21
+00:03:28,250 --> 00:03:35,910
+Il controllo di gestione ne monitora l'andamento durante l'anno, attraverso i centri di costo, gli indicatori e i report periodici.
+
+22
+00:03:35,910 --> 00:03:47,420
+Gli obiettivi di budget si collegano alla valutazione della performance, e quindi a una parte della retribuzione. Anche l'infermiere partecipa: per esempio con obiettivi sulla prevenzione delle cadute o delle lesioni.
+
+23
+00:03:47,420 --> 00:03:58,490
+La spesa farmaceutica e' soggetta a tetti fissati per legge, espressi in percentuale del fabbisogno sanitario. Le percentuali cambiano spesso con le leggi di bilancio: conta il meccanismo.
+
+24
+00:03:58,490 --> 00:04:08,390
+I tetti sono distinti: la spesa convenzionata, cioe' quella delle farmacie, e la spesa per acquisti diretti, cioe' l'ospedale e la distribuzione diretta e per conto.
+
+25
+00:04:08,390 --> 00:04:17,390
+Se i tetti vengono superati, scattano i meccanismi di payback, a carico delle aziende farmaceutiche. E l'AIFA classifica i farmaci e ne negozia il prezzo.
+
+26
+00:04:17,390 --> 00:04:26,040
+Gli strumenti di contenimento: i farmaci equivalenti, i biosimilari, e la centralizzazione degli acquisti, che in Veneto e' affidata ad Azienda Zero.
+
+27
+00:04:26,040 --> 00:04:36,350
+I piani di rientro riguardano le Regioni con disavanzi sanitari strutturali. La Regione sottoscrive un accordo con i Ministeri della Salute e dell'Economia, e adotta misure di riequilibrio.
+
+28
+00:04:36,350 --> 00:04:47,790
+Riorganizzazione, riduzione dei costi, aumento delle imposte regionali. Nei casi piu' gravi, il commissariamento della sanita' regionale. Da ricordare: il Veneto non e' sottoposto a piano di rientro.
+
+29
+00:04:47,790 --> 00:04:59,240
+Poi il PNRR, il Piano Nazionale di Ripresa e Resilienza, con la Missione sei, dedicata alla salute. Vale circa quindici virgola sei miliardi, ed e' divisa in due componenti.
+
+30
+00:04:59,240 --> 00:05:10,420
+La prima: reti di prossimita', strutture e telemedicina per l'assistenza territoriale. Case della Comunita', COT, Ospedali di Comunita', assistenza domiciliare, telemedicina.
+
+31
+00:05:10,420 --> 00:05:24,430
+Sono gli strumenti del DM settantasette, visti nella lezione undici punto sette. La seconda: innovazione, ricerca e digitalizzazione. Ammodernamento degli ospedali, Fascicolo Sanitario Elettronico, formazione.
+
+32
+00:05:24,430 --> 00:05:35,940
+Un punto che si sente spesso nei dibattiti: il PNRR finanzia soprattutto investimenti, cioe' strutture e tecnologie. Il personale che le fa funzionare va pagato con le risorse ordinarie.
+
+33
+00:05:35,940 --> 00:05:48,460
+Tre parole da distinguere. Efficacia: raggiungere il risultato di salute. Efficienza: il rapporto fra le risorse impiegate e i risultati ottenuti. Economicita': l'equilibrio fra costi e ricavi nel tempo.
+
+34
+00:05:48,460 --> 00:05:56,850
+Non sono in contrapposizione con la qualita'. In un sistema con risorse limitate, ogni spreco ha un prezzo, e quel prezzo non lo paga un'astrazione.
+
+35
+00:05:56,850 --> 00:06:01,450
+Lo spreco toglie risorse ad altri pazienti.
+
+36
+00:06:01,450 --> 00:06:11,630
+Un dispositivo aperto e non usato, un esame ripetuto senza motivo, una degenza prolungata per un'organizzazione inefficiente: sono tutti costi per la collettivita'.
+
+37
+00:06:11,630 --> 00:06:19,530
+La domanda tipo: che cosa sono i DRG, e quali effetti hanno sull'organizzazione dell'assistenza? Proviamo a rispondere come all'orale.
+
+38
+00:06:19,530 --> 00:06:31,320
+Sono un sistema di classificazione dei ricoveri in gruppi omogenei per consumo di risorse, basato sui dati della SDO, a cui corrisponde una tariffa. Hanno sostituito il finanziamento a pie' di lista.
+
+39
+00:06:31,320 --> 00:06:39,810
+Incentivano l'efficienza e la riduzione della degenza media, ma possono favorire dimissioni precoci, e per questo richiedono controlli di appropriatezza.
+
+40
+00:06:39,810 --> 00:06:50,820
+Poi il collegamento infermieristico: dimissioni piu' rapide richiedono una pianificazione precoce della dimissione, e una continuita' con il territorio, come nella lezione nove punto sette.
+
+41
+00:06:50,820 --> 00:06:58,710
+L'infermiere e le risorse. Prima di tutto, l'uso appropriato di dispositivi e materiali. Poi la prevenzione degli eventi avversi.
+
+42
+00:06:58,710 --> 00:07:08,370
+Una lesione da pressione, una caduta con frattura, un'infezione da catetere: sono sofferenza per il paziente, e sono anche costi evitabili, spesso molto alti.
+
+43
+00:07:08,370 --> 00:07:20,060
+Poi la documentazione accurata, la gestione delle scorte, la partecipazione agli obiettivi di budget. E il Codice deontologico, che richiama l'infermiere a un uso responsabile delle risorse.
+
+44
+00:07:20,060 --> 00:07:30,740
+In Veneto la gestione sanitaria accentrata, cioe' la parte del finanziamento gestita direttamente a livello regionale, e' affidata ad Azienda Zero, che gestisce anche gli acquisti centralizzati.
+
+45
+00:07:30,740 --> 00:07:41,890
+Lo fa attraverso la CRAV, la Centrale Regionale Acquisti. E il Veneto e' stato piu' volte fra le regioni di riferimento per i costi standard. Lo vedremo nella lezione tredici punto due.
+
+46
+00:07:41,890 --> 00:07:55,410
+La tabella, da fotografare. Fiscalita' generale. Fabbisogno sanitario nazionale standard. Riparto per popolazione pesata. Costi standard e regioni benchmark. DRG: ricoveri, SDO, tariffa.
+
+47
+00:07:55,410 --> 00:08:07,610
+Budget e controllo di gestione. Tetti di spesa farmaceutica e payback. Piani di rientro. PNRR Missione sei, con due componenti. Efficacia, efficienza, economicita'.
+
+48
+00:08:07,610 --> 00:08:19,860
+Prossima lezione: il rapporto di lavoro dell'infermiere dipendente pubblico. Il contratto collettivo del Comparto Sanita', gli obblighi di comportamento, l'anticorruzione, il procedimento disciplinare. A tra poco.

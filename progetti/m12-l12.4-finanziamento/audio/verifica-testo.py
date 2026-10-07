@@ -80,6 +80,7 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ (r"\bpiedilista\b", " pie di lista "),   # 12.4 s39: «pie' di lista» trascritto attaccato
  (r"\bdi elle gi esse\b", " dlgs "),   # 12.1 s40-s41: le sigle dette lettera per lettera, trascritte compatte
  (r"\bdi pi ci emme\b", " dpcm "),
  (r"\bdi pi erre\b", " dpr "),
