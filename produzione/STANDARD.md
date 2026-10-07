@@ -552,6 +552,36 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   generatore: con un solo `generationId` per chiamata l'immagine torna dentro la
   risposta, con due o più la risposta viene troncata e si perde.
 
+- **Il contenitore riparte nudo.** Ogni sessione nuova non ha ffmpeg, non ha
+  Playwright e ha i caratteri da riscaricare. Nell'ordine:
+  `npm i ffmpeg-static` e copiare il binario in `~/bin/ffmpeg` (quello di
+  Playwright, `/opt/pw-browsers/ffmpeg-*/ffmpeg-linux`, è una build minima: non
+  ha `libmp3lame`, non ha `libx264` e non ha nessun filtro audio, quindi non
+  serve a niente qui); `npm i playwright` dentro `produzione/script`;
+  `python3 fonts_embed.py`. Poi `export PATH=$HOME/bin:$PATH` in **ogni**
+  chiamata di shell.
+- **La versione di Playwright e quella di Chromium non vanno d'accordo.**
+  `npm i playwright` installa l'ultima, che cerca una build di Chromium più
+  recente di quella nel contenitore e si rifiuta di partire. I renderer leggono
+  `CHROME`: `export CHROME=/opt/pw-browsers/chromium-*/chrome-linux/chrome`
+  (insieme a `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`).
+- **Gli host dei modelli sono chiusi dalla policy di rete**: `huggingface.co`,
+  `cdn-lfs.huggingface.co`, `openaipublic.azureedge.net` rispondono 403 al
+  CONNECT. Non si può quindi tenere un riconoscitore vocale locale di riserva
+  per quando i crediti di Scribe finiscono. Passano invece `pypi.org` e
+  `registry.npmjs.org`, che sono fuori proxy: i pacchetti si installano.
+- **La trascrizione di verifica costa crediti e la voce no.** Un `prova.mp3` da
+  dieci minuti vale circa mille crediti di `eleven_scribe_v1`. Finiti quelli, la
+  verifica parola per parola non si fa in nessun altro modo, e l'unico controllo
+  che resta è quello di durata attesa (sotto). Conviene guardare il residuo
+  *prima* di cominciare un modulo intero.
+- **Senza trascrizione, i confini si controllano con la durata attesa.** Per
+  ogni blocco si confronta la durata del taglio con `caratteri ÷ velocità della
+  traccia`: se un confine cade dentro una frase, il blocco prima risulta corto e
+  quello dopo lungo, in misura uguale e opposta. Non sostituisce la verifica
+  vera — dice che un confine è spostato, non dove va rimesso — ma gli errori
+  grossi li trova tutti.
+
 ## 7. Ordine di lavoro
 
 1. Spezzare lo script in blocchi (un blocco = una scena) segnando per ciascuno

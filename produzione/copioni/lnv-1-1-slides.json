@@ -1,0 +1,460 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.1",
+  "title": "Cosa puoi vedere e cosa no",
+  "sub": "Capire i segni del linguaggio non verbale"
+ },
+ {
+  "file": "c02",
+  "layout": "quote",
+  "kicker": "la premessa",
+  "title": "«Questo corso non ti insegnerà<br>a leggere le persone.»"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "È la promessa che fanno tutti gli altri.<br><span class=\"gold\">Ed è quella che non si può mantenere.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Chi te la fa sta vendendo qualcosa.<br><span class=\"gold\">E quasi sempre in buona fede.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "table",
+  "kicker": "perché nessuno se ne accorge",
+  "cols": [
+   "cosa si sente",
+   "cosa si misura"
+  ],
+  "rows": [
+   [
+    "Percepisci di aver capito",
+    "Nessuno controlla"
+   ],
+   [
+    "L'effetto è immediato",
+    "La verifica non arriva"
+   ]
+  ]
+ },
+ {
+  "file": "c06",
+  "layout": "memo",
+  "title": "Più sicuro.<br>Non più accurato."
+ },
+ {
+  "file": "c07",
+  "layout": "bilancia",
+  "kicker": "cosa lascia l'addestramento",
+  "ciclo": 7,
+  "sx": {
+   "et": "accuratezza",
+   "peso": 3
+  },
+  "dx": {
+   "et": "fiducia",
+   "peso": 9
+  },
+  "title": "Alla fine pesa la fiducia. L'accuratezza è rimasta dov'era."
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "quello che si può imparare",
+  "rows": [
+   "Osservare meglio",
+   "Accorgersi prima",
+   "Sapere dove fare la prossima domanda"
+  ]
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Sembra poco. È molto di più,<br><span class=\"gold\">perché lo puoi controllare oggi.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "confronto",
+  "titoli": [
+   "una lettura",
+   "una domanda"
+  ],
+  "righe": [
+   {
+    "et": "si verifica",
+    "a": "mai",
+    "b": "in dieci secondi",
+    "segna": true
+   },
+   {
+    "et": "resta",
+    "a": "un'opinione",
+    "b": "un fatto"
+   },
+   {
+    "et": "se sbagli",
+    "a": "non lo scopri",
+    "b": "lo scopri subito",
+    "segna": true
+   }
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Tre gradini.<br><span class=\"gold\">E il terzo non è un gradino: è un salto.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "list",
+  "kicker": "primo gradino: il fatto",
+  "rows": [
+   "Quello che vedi",
+   "Quello che puoi ipotizzare",
+   "Quello che ti stai inventando"
+  ],
+  "active": 0,
+  "note": "«Si è toccato il collo.» Lo avrebbe registrato una telecamera."
+ },
+ {
+  "file": "c14",
+  "layout": "list",
+  "kicker": "secondo gradino: l'ipotesi",
+  "rows": [
+   "Quello che vedi",
+   "Quello che puoi ipotizzare",
+   "Quello che ti stai inventando"
+  ],
+  "active": 1,
+  "note": "«Forse è a disagio.» Legittimo, finché resta un forse."
+ },
+ {
+  "file": "c15",
+  "layout": "list",
+  "kicker": "terzo gradino: l'invenzione",
+  "rows": [
+   "Quello che vedi",
+   "Quello che puoi ipotizzare",
+   "Quello che ti stai inventando"
+  ],
+  "active": 2,
+  "note": "«È a disagio perché mi sta mentendo.» Questo non l'hai visto."
+ },
+ {
+  "file": "c16",
+  "layout": "linea",
+  "kicker": "quanto dura il salto",
+  "momenti": [
+   {
+    "a": 6,
+    "et": "vedi",
+    "sub": "il fatto"
+   },
+   {
+    "a": 26,
+    "et": "ipotizzi",
+    "sub": "il forse"
+   },
+   {
+    "a": 46,
+    "et": "concludi",
+    "sub": "la causa"
+   }
+  ],
+  "sx": "un decimo di secondo",
+  "dx": "il resto della conversazione"
+ },
+ {
+  "file": "c17",
+  "layout": "ponte",
+  "kicker": "cosa c'è fra il secondo e il terzo",
+  "sx": "forse è a disagio",
+  "dx": "è a disagio perché",
+  "vuoto": "un'informazione che non hai",
+  "ponte": "la riempi tu",
+  "title": "Non manca un ragionamento. Manca un dato."
+ },
+ {
+  "file": "c18",
+  "layout": "memo",
+  "title": "La causa<br>non si vede mai."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Non sta nel campo visivo. Sta dentro una persona.<br><span class=\"gold\">Il tuo strumento non è l'occhio: è la domanda.</span>"
+ },
+ {
+  "file": "c21",
+  "layout": "list",
+  "kicker": "perché si è irrigidita",
+  "rows": [
+   "La domanda tocca qualcosa",
+   "Ha pensato ad altro",
+   "Ha male alla schiena",
+   "Ha sentito un rumore"
+  ],
+  "active": 0
+ },
+ {
+  "file": "c22",
+  "layout": "list",
+  "kicker": "perché si è irrigidita",
+  "rows": [
+   "La domanda tocca qualcosa",
+   "Ha pensato ad altro",
+   "Ha male alla schiena",
+   "Ha sentito un rumore"
+  ],
+  "active": 1
+ },
+ {
+  "file": "c23",
+  "layout": "list",
+  "kicker": "perché si è irrigidita",
+  "rows": [
+   "La domanda tocca qualcosa",
+   "Ha pensato ad altro",
+   "Ha male alla schiena",
+   "Ha sentito un rumore"
+  ],
+  "active": 2
+ },
+ {
+  "file": "c24",
+  "layout": "raggi",
+  "kicker": "un dato, quattro cause",
+  "centro": "si irrigidisce",
+  "attorno": [
+   {
+    "et": "la domanda tocca qualcosa",
+    "d": 40
+   },
+   {
+    "et": "ha pensato ad altro",
+    "d": 70
+   },
+   {
+    "et": "ha sentito un rumore",
+    "d": 85
+   },
+   {
+    "et": "ha male alla schiena",
+    "d": 60
+   }
+  ],
+  "title": "Da fuori producono tutte la stessa immagine."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Tu vedi un solo dato.<br><span class=\"gold\">E la tua mente ne sceglie una causa.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "Non te la propone.<br><span class=\"gold\">Te la consegna già scelta.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "anello",
+  "kicker": "il giro che non si chiude mai",
+  "ciclo": 8,
+  "passi": [
+   "pensi qualcosa",
+   "guardi",
+   "trovi conferma",
+   "lo pensi più forte"
+  ],
+  "title": "Non produce ignoranza. Produce conferme."
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Un'ignoranza si nota.<br><span class=\"gold\">Una conferma no.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "swap",
+  "kicker": "lo stesso dato, due esiti opposti",
+  "rows": [
+   [
+    "Pensavi: non si fida",
+    "Conferma: non si fida"
+   ],
+   [
+    "Pensavi: è stanca",
+    "Conferma: è stanca"
+   ]
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "title": "E in nessuno dei due casi ti verrà il dubbio.<br><span class=\"gold\">Perché il dato c'era davvero.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "pila",
+  "kicker": "cosa si deposita",
+  "blocchi": [
+   "il dato visto",
+   "la causa aggiunta",
+   "la certezza",
+   "la volta dopo parte da qui"
+  ],
+  "title": "Arriva con la faccia di una prova. E resta."
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Tre danni, in ordine crescente.<br><span class=\"gold\">Il terzo non si vede da dentro.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "primo danno",
+  "rows": [
+   "Smette di chiedere",
+   "Tratta l'altro come un sospettato",
+   "Si convince di avere ragione"
+  ],
+  "active": 0,
+  "note": "Ha già la risposta: perché dovrebbe fare una domanda?"
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "E perde l'unica fonte affidabile che aveva.<br><span class=\"gold\">Proprio mentre gli serviva.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "list",
+  "kicker": "secondo danno",
+  "rows": [
+   "Smette di chiedere",
+   "Tratta l'altro come un sospettato",
+   "Si convince di avere ragione"
+  ],
+  "active": 1,
+  "note": "Non lo dice. Ma cambia il modo in cui ascolta."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "E le persone se ne accorgono.<br><span class=\"gold\">Si sentono osservate, non ascoltate. E si chiudono.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "imbuto",
+  "kicker": "terzo danno: cosa resta",
+  "ciclo": 7,
+  "dentro": [
+   "verifica saltata",
+   "domande finite",
+   "l'altro si è chiuso"
+  ],
+  "fuori": "ha sempre ragione",
+  "title": "E non c'è più niente che lo corregga."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "kicker": "in corsia",
+  "title": "Stava in fondo al corridoio.<br><span class=\"gold\">Non entrava in stanza.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "kicker": "in corsia",
+  "title": "Avevo letto rabbia verso di noi.<br><span class=\"gold\">E mi ero preparato di conseguenza.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "kicker": "in corsia",
+  "title": "Non era rabbia.<br><span class=\"gold\">Non voleva farsi vedere così dalla madre.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "memo",
+  "title": "Avevo visto bene.<br>Avevo capito male."
+ },
+ {
+  "file": "c43",
+  "layout": "flusso",
+  "kicker": "a cosa serve davvero",
+  "passi": [
+   {
+    "et": "accorgerti",
+    "sub": "che è cambiato"
+   },
+   {
+    "et": "chiedere",
+    "sub": "dove conta"
+   },
+   {
+    "et": "accorgerti di te",
+    "sub": "lì la causa la sai"
+   }
+  ],
+  "title": "Tre cose concrete. Nessuna delle tre riguarda l'altro."
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Non <i>cosa</i> è cambiato.<br><span class=\"gold\">Che è cambiato, e in quale momento.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "kicker": "la seconda",
+  "title": "Non sai perché ha cambiato postura.<br><span class=\"gold\">Ma sai qual è il prossimo argomento utile.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "kicker": "la terza",
+  "title": "Metà del corso riguarda i segnali che mandi tu.<br><span class=\"gold\">E lì la causa la conosci: sei tu.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "swap",
+  "kicker": "tutto il corso in una sostituzione",
+  "rows": [
+   [
+    "«Ho capito che tipo è»",
+    "«Ti vedo perplesso — cosa non torna?»"
+   ]
+  ]
+ },
+ {
+  "file": "c48",
+  "layout": "memo",
+  "title": "Osservare serve<br>a sapere dove guardare.<br>Non a sapere cosa pensa."
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Nota un cambiamento",
+   "Fermati lì",
+   "Annota solo il fatto"
+  ],
+  "note": "Scoprirai che fermarsi è difficilissimo."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "laparolagiusta.it",
+  "site": "Capire i segni del linguaggio non verbale"
+ }
+]

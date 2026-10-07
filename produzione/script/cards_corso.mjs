@@ -13,7 +13,11 @@ import { page } from './slide_corso.mjs';
 
 const [, , cardsPath, outDir = '.'] = process.argv;
 const cards = JSON.parse(fs.readFileSync(cardsPath, 'utf8'));
-const browser = await chromium.launch();
+/* La build di Chromium nel contenitore non sempre corrisponde a quella
+   che si aspetta la versione di Playwright installata. CHROME, quando
+   c'e', punta all'eseguibile gia' presente. */
+const browser = await chromium.launch(
+  process.env.CHROME ? { executablePath: process.env.CHROME } : {});
 const ctx = await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 const p = await ctx.newPage();
 fs.mkdirSync(outDir, { recursive: true });

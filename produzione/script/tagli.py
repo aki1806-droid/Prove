@@ -11,7 +11,9 @@ parola: da qui questo giro.
     python3 tagli.py correggi <dir>          -> legge code.json, riscrive tagli.json
     python3 tagli.py applica  <dir>          -> mp3u/*.mp3 + durate.json
 
-`dir` deve contenere blocchi.json, chunks.json e unico_A_raw.mp3 / unico_B_raw.mp3.
+`dir` deve contenere blocchi.json, chunks.json e una traccia `unico_<K>_raw.mp3`
+per ogni chiave di chunks.json: due per una lezione da sei minuti, tre per una
+da dieci, che non sta in 5.000 caratteri per generazione.
 
 Il passaggio che conta e' la verifica: `allinea` produce anche prova.mp3, che
 contiene 1,6 s prima di ogni taglio. Trascrivendolo si legge, parola per
@@ -24,6 +26,14 @@ FILTRO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45d
           "stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,"
           "atempo=1.12")
 CPS = 16.5          # caratteri di parlato al secondo, sul grezzo
+POOL = float(os.environ.get('POOL', '4.0'))   # quante pause per confine
+                    # entrano fra i candidati. Era 1,6: troppo stretto, la
+                    # pausa giusta restava fuori dall'elenco e il confine si
+                    # appoggiava alla prima disponibile. Sulla 1.1, passando a
+                    # 4 lo scarto totale e' sceso da 75,8 s a 35,5 s e i
+                    # confini fuori banda da quindici a cinque. Oltre 4 non
+                    # cambia piu' niente: il premio alle pause lunghe tiene il
+                    # DP lontano dai respiri anche col pool saturo.
 FINESTRA = 1.6      # quanto audio prima di ogni taglio finisce nella prova
 
 
@@ -51,6 +61,19 @@ def silenzi(p, d=0.20):
     return list(zip(a, b))
 
 
+def detag(s):
+    """Il testo come viene pronunciato.
+
+    I tag di intenzione — `[serious]`, `[thoughtful]`, `[warm]` — li legge il
+    modello ma non li dice: `[serious] ` sono dieci caratteri che nell'audio
+    non esistono. Pesare i blocchi col testo grezzo sfasa la stima cumulativa
+    di tutti i confini che vengono dopo un tag, e il confine finisce sulla
+    pausa sbagliata. Si vedeva nella 1.1: la traccia senza tag veniva
+    perfetta, le due con i tag avevano una decina di confini spostati.
+    """
+    return re.sub(r'\[[a-z]+\]\s*', '', s)
+
+
 def norm(s):
     s = unicodedata.normalize('NFD', s.lower())
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
@@ -66,7 +89,7 @@ def allinea(d):
     B = {x['id']: x['text'] for x in json.load(open(f'{d}/blocchi.json'))}
     ch = json.load(open(f'{d}/chunks.json'))
     tagli, meta = {}, []
-    for k in 'AB':
+    for k in ch:
         ids, tot = ch[k], durata(f'{d}/unico_{k}_raw.mp3')
         sil = sorted(silenzi(f'{d}/unico_{k}_raw.mp3'))
 
@@ -77,7 +100,7 @@ def allinea(d):
         S = parlato(tot)
         # I pesi sono i caratteri: il parlato scorre a velocita' quasi costante,
         # ed e' l'unico dato disponibile prima di aver tagliato.
-        w = [len(B[i]) for i in ids]
+        w = [len(detag(B[i])) for i in ids]
         W = sum(w)
         atteso, c = [], 0
         for x in w[:-1]:
@@ -94,7 +117,7 @@ def allinea(d):
         # caratteri (che sbaglia di qualche secondo dove la lettura rallenta)
         # non ha piu' un respiro a meta' frase su cui appoggiarsi.
         tutte = [((a + b) / 2, b - a) for a, b in sil if 0.5 < (a + b) / 2 < tot - 0.5]
-        quante = min(len(tutte), round(1.6 * (len(ids) - 1)) + 6)
+        quante = min(len(tutte), round(POOL * (len(ids) - 1)) + 6)
         cand = sorted(x for x, _ in sorted(tutte, key=lambda p: -p[1])[:quante])
         # Unica eccezione: dove il fondo di sala sta sopra i -45 dB non si
         # trova nessuna pausa per decine di secondi. Quei buchi si riempiono
@@ -165,7 +188,7 @@ def prova(d, blocchi):
     os.makedirs(f'{d}/prova', exist_ok=True)
     righe = []
     for n, b in enumerate(blocchi):
-        k = 'A' if b in ch['A'] else 'B'
+        k = next(x for x in ch if b in ch[x])
         cut = t[k][ch[k].index(b) + 1]
         o = f'{d}/prova/p{n:03d}.wav'
         _ff('-y', '-ss', str(max(0, cut - FINESTRA)), '-t', str(FINESTRA),
@@ -196,18 +219,18 @@ def correggi(d):
     t = json.load(open(f'{d}/tagli.json'))
     meta = json.load(open(f'{d}/prova_meta.json'))
     code = json.load(open(f'{d}/code.json'))
-    cand = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3')) for k in 'AB'}
+    cand = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3')) for k in ch}
     # Ripiego: a volte il confine giusto e' una pausa cortissima che la soglia
     # normale non vede — dopo «Perche'.» nella 2.4 erano 0,15 s. Si guarda piu'
     # fine solo quando fra i candidati normali non ce n'e' nessuno utile.
-    fini = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3', 0.08)) for k in 'AB'}
+    fini = {k: sorted((a + b) / 2 for a, b in silenzi(f'{d}/unico_{k}_raw.mp3', 0.08)) for k in ch}
     n = 0
     for m, coda in zip(meta, code):
         if not coda:          # confine senza coda riconosciuta: si lascia stare
             continue
         k, ids = m['chunk'], ch[m['chunk']]
         j = ids.index(m['fine_di'])
-        pezzi = [norm(B[i]) for i in ids]
+        pezzi = [norm(detag(B[i])) for i in ids]
         full = ' '.join(pezzi)
         fine = sum(len(p) + 1 for p in pezzi[:j + 1]) - 1
         coda = norm(coda)
@@ -259,7 +282,7 @@ def correggi(d):
         print(f'  {m["fine_di"]}: {cur:.2f} -> {nuovo:.2f} ({delta:+.2f}s)  «{coda}»')
         t[k][j + 1] = nuovo
         n += 1
-    for k in 'AB':
+    for k in ch:
         assert all(t[k][i] < t[k][i + 1] for i in range(len(t[k]) - 1)), f'confini non monotoni in {k}'
     json.dump(t, open(f'{d}/tagli.json', 'w'), indent=0)
     prova(d, [m['fine_di'] for m in meta])
@@ -273,7 +296,7 @@ def applica(d, tieni=None):
     tieni = tieni or {}
     os.makedirs(f'{d}/mp3u', exist_ok=True)
     out = {}
-    for k in 'AB':
+    for k in ch:
         for i, b in enumerate(ch[k]):
             af = FILTRO + (f',apad=whole_dur={tieni[b]}' if b in tieni else '')
             p = f'{d}/mp3u/{b}.mp3'

@@ -96,7 +96,11 @@ const page = (c) => `<!doctype html><html><head><meta charset="utf-8">
   <div class="footrule"></div>
 </body></html>`;
 
-const browser = await chromium.launch();
+/* La build di Chromium nel contenitore non sempre corrisponde a quella
+   che si aspetta la versione di Playwright installata. CHROME, quando
+   c'e', punta all'eseguibile gia' presente. */
+const browser = await chromium.launch(
+  process.env.CHROME ? { executablePath: process.env.CHROME } : {});
 const ctx = await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 const p = await ctx.newPage();
 fs.mkdirSync(outDir, { recursive: true });
