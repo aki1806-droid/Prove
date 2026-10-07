@@ -111,6 +111,7 @@ progetti/<modulo>-<lezione>/
 | `m12-l12.1-fonti` | Modulo 12 · 12.1 Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
 | `m12-l12.2-riforme` | Modulo 12 · 12.2 Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
 | `m12-l12.3-organizzazione` | Modulo 12 · 12.3 L'organizzazione aziendale e ospedaliera | 8:29.6 | `88a53bcb1c3bfe06e317db336658ee7c` |
+| `m12-l12.4-finanziamento` | Modulo 12 · 12.4 Finanziamento ed economia del SSN | 8:28.9 | `8f1203f161219ff519a21d4729d7239d` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

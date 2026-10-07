@@ -61,15 +61,25 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ---
 
+## Correzione dei tagli
+
+Il primo giro dava 6/8: s38 a 21,9 car/s e un «buco» in s39. Il confine s38/s39 sulla traccia B cadeva su una pausa di 0,27 s dentro la domanda, 1,9 s prima della pausa vera dopo «come all'orale»: `correzioni.json` `{"B": {"10": {"secondi": 1.90}}}`, poi `correggi` e `applica` (s38 a 18,2, s39 a 16,9). Il buco era una resa del trascrittore, «piedilista» per «pie' di lista», ora in `RESE`. Rifatto il giro: 8/8.
+
+---
+
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `8f1203f161219ff519a21d4729d7239d` — 508.930 s (8:28.9), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| lotto asset | `dfab1cfcb76a49c1b080193e56aa87e9` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ee» (s13, trascritto «e»); «e» (s18, trascritto «ee»); «dai lea» (s20, trascritto «da ilea»); «ee» (s20, trascritto «e»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
