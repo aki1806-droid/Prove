@@ -4,11 +4,12 @@
 # Restano da scrivere due soli file, che il messaggio finale elenca.
 set -euo pipefail
 
-[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m2-l2.1-processo"; exit 1; }
+[ $# -ge 1 ] || { echo "uso: ./nuova-lezione.sh m2-l2.1-processo [progetti/lezione-da-cui-copiare]"; exit 1; }
 NUOVA="progetti/$1"
 # Si copia dalla lezione piu' recente, non sempre dalla prima: gli strumenti
 # migliorano lezione dopo lezione e la 1.1 resterebbe indietro.
-DA=$(ls -d progetti/m*-l*/ | sort | tail -1); DA=${DA%/}
+# sort -V, non sort: in ordine alfabetico m9 viene dopo m12, e si copierebbe da un modulo vecchio.
+DA=${2:-$(ls -d progetti/m*-l*/ | sort -V | tail -1)}; DA=${DA%/}
 [ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
 
 mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
