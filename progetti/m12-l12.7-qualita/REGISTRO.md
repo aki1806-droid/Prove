@@ -61,7 +61,7 @@ stacco tracce             dopo s24   (chunk A 4.075 car · chunk B 4.096 car)
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Traccia A pronta (`grezzo-A.mp3`), traccia B da generare: i crediti ElevenLabs sono finiti durante la generazione. Al rinnovo: generare B dal `chunkB.txt`, poi trascrivere A e B.
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

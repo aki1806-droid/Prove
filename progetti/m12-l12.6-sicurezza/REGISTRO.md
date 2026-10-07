@@ -58,7 +58,7 @@ stacco tracce             dopo s27   (chunk A 4.363 car · chunk B 4.060 car)
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Voce pronta (`grezzo-A/B.mp3` in `audio/`), trascrizione mancante: i crediti ElevenLabs sono finiti durante la trascrizione. Al rinnovo: allegare le due tracce, trascrivere, `salva-trascrizioni`, giro.
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

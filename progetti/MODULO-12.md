@@ -19,7 +19,7 @@ man mano che le rese escono.
 | 12.2 | Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
 | 12.3 | L'organizzazione aziendale e ospedaliera | 8:29.6 | `88a53bcb1c3bfe06e317db336658ee7c` |
 | 12.4 | Finanziamento ed economia del SSN | 8:28.9 | `8f1203f161219ff519a21d4729d7239d` |
-| 12.5 | Il rapporto di lavoro e il CCNL Comparto Sanità | — |  |
+| 12.5 | Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |
 | 12.6 | La sicurezza sul lavoro in sanità | — |  |
 | 12.7 | Qualità, accreditamento e governo clinico | — |  |
 | 12.8 | Riepilogo del Modulo 12 e autovalutazione | — |  |
