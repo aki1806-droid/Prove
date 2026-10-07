@@ -1,0 +1,43 @@
+{
+ "A": {
+  "parole_copione": 662,
+  "parole_dette": 662,
+  "coincidenti": 657,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s13",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "dai lea",
+    "detto": "da ilea"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 552,
+  "parole_dette": 548,
+  "coincidenti": 547,
+  "buchi": [
+   {
+    "blocco": "s39",
+    "parole_copione": "pie di lista",
+    "al_loro_posto": "piedilista"
+   }
+  ],
+  "sostituzioni_brevi": []
+ }
+}

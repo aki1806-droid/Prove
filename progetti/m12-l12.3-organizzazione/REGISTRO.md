@@ -14,13 +14,31 @@ Terza lezione del Modulo 12: l'organizzazione aziendale e ospedaliera. L'atto az
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,37 (A $0,69 · B $0,68) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.221          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:17.8     (MIRA 16,6)
 stacco tracce             dopo s27   (chunk A 4.171 car · chunk B 4.050 car)
+tracce grezze             A 269.3 s  ·  B 288.0 s
+silenzi                   fattore 1,100   ->   atempo 1,023
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 26 | 22 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**603/611 parole**, la B **601/614**, nessun buco. Le rese diverse
+(non buchi): s06 «e» sentito «ee»; s16 «e» sentito «ee»; s22 «ee» sentito «e»; s23 «e» sentito «ee»; s27 «e» sentito «ee»; s29 «e» sentito «ee»; s31 «e» sentito «ee»; s32 «ee» sentito «e»; s35 «e» sentito «ee»; s37 «ee» sentito «e»; s38 «ee» sentito «e»; s41 «ee» sentito «e»; s42 «e» sentito «ee»; s45 «uosd» sentito «usd»; s47 «ee» sentito «e».
 
 ## Le scene
 

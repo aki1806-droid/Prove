@@ -1,0 +1,73 @@
+{
+ "A": {
+  "parole_copione": 588,
+  "parole_dette": 586,
+  "coincidenti": 578,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s09",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 575,
+  "parole_dette": 573,
+  "coincidenti": 570,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s42",
+    "copione": "socio sanitaria",
+    "detto": "sociosanitaria"
+   },
+   {
+    "blocco": "s42",
+    "copione": "socio sanitari",
+    "detto": "sociosanitari"
+   },
+   {
+    "blocco": "s48",
+    "copione": "appropriatezza",
+    "detto": "approprietezza"
+   }
+  ]
+ }
+}

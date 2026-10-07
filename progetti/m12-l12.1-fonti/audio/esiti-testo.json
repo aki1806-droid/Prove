@@ -1,0 +1,43 @@
+{
+ "A": {
+  "parole_copione": 635,
+  "parole_dette": 634,
+  "coincidenti": 630,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s21",
+    "copione": "quinto",
+    "detto": "v"
+   },
+   {
+    "blocco": "s25",
+    "copione": "com",
+    "detto": "come"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 564,
+  "parole_dette": 563,
+  "coincidenti": 562,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

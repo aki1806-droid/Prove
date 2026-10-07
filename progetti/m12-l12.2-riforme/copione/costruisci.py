@@ -23,7 +23,7 @@ BLOCCHI = [
 
  (4,"chiaro",0,"Le tappe in una riga, da ricordare con gli anni. Millenovecentosettantotto: con la legge ottocentotrentatre' nasce il Servizio Sanitario Nazionale."),
  (4,"chiaro",0,"Millenovecentonovantadue e novantatre': l'aziendalizzazione, con i decreti cinquecentodue e cinquecentodiciassette. Millenovecentonovantanove: distretto, accreditamento, esclusivita', LEA."),
- (4,"chiaro",0,"Duemilauno: la riforma del Titolo V, che fa della salute una materia concorrente fra Stato e Regioni. E' la sequenza che un commissario si aspetta di sentire."),
+ (4,"chiaro",0,"Duemilauno: la riforma del Titolo quinto, che fa della salute una materia concorrente fra Stato e Regioni. E' la sequenza che un commissario si aspetta di sentire."),
 
  (5,"chiaro",0,"I LEA, i livelli essenziali di assistenza: sono le prestazioni e i servizi che il Servizio Sanitario Nazionale e' tenuto a garantire a tutti i cittadini."),
  (5,"chiaro",0,"Gratuitamente, oppure con una quota di partecipazione, il ticket. E con le risorse pubbliche raccolte attraverso la fiscalita' generale."),

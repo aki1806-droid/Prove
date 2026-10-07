@@ -14,13 +14,31 @@ Prima lezione del Modulo 12: le fonti e il diritto alla salute. La gerarchia del
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,71 · B $0,67) |
+| costo trascrizioni | $0,53 |
 | pause senza voce | s09 s17 |
 
 ```
 CARATTERI  8.286          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:22.8     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.272 car · chunk B 4.014 car)
+tracce grezze             A 275.8 s  ·  B 312.4 s
+silenzi                   fattore 1,116   ->   atempo 1,056
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**630/635 parole**, la B **553/577**, nessun buco. Le rese diverse
+(non buchi): s08 «e» sentito «ee»; s19 «ee» sentito «e»; s21 «quinto» sentito «v»; s25 «com» sentito «come»; s31 «e» sentito «ee»; s35 «esse» sentito «s»; s40 «elle» sentito «l»; s40 «di elle» sentito «dl»; s41 «di emme» sentito «dm»; s41 «elle erre» sentito «lr».
 
 ## Le scene
 

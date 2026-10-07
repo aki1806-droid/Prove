@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 611,
+  "parole_dette": 608,
+  "coincidenti": 603,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 614,
+  "parole_dette": 611,
+  "coincidenti": 601,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s32",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s38",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "uosd",
+    "detto": "usd"
+   },
+   {
+    "blocco": "s47",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,720
+Apriamo il modulo che chiede di cambiare prospettiva: non piu' il letto del paziente, ma il sistema in cui lavoriamo. Nei concorsi pubblici questa parte non manca mai.
+
+2
+00:00:11,720 --> 00:00:24,460
+E premia chi sa collegare una norma al suo anno e al suo contenuto. Cominciamo dalle fondamenta: le fonti del diritto, l'articolo trentadue della Costituzione, e la legge che ha istituito il Servizio Sanitario Nazionale.
+
+3
+00:00:24,460 --> 00:00:37,230
+La gerarchia delle fonti. Al vertice la Costituzione, con le leggi costituzionali. Poi le fonti dell'Unione europea, regolamenti e direttive, che prevalgono sulle leggi nazionali nelle materie di competenza europea.
+
+4
+00:00:37,230 --> 00:00:45,010
+Poi le leggi ordinarie dello Stato e gli atti con forza di legge. Il decreto legislativo e' emanato dal Governo su delega del Parlamento.
+
+5
+00:00:45,010 --> 00:00:53,140
+Il decreto-legge, invece, e' emanato dal Governo in casi di necessita' e urgenza, e va convertito in legge entro sessanta giorni.
+
+6
+00:00:53,140 --> 00:01:02,770
+Sotto, le leggi regionali, nelle materie di competenza delle Regioni. Poi i regolamenti: per esempio i decreti del Presidente della Repubblica e i decreti ministeriali.
+
+7
+00:01:02,770 --> 00:01:12,530
+E infine gli atti amministrativi, come le delibere della Giunta regionale e le delibere aziendali. Sono l'ultimo gradino, quello piu' vicino al lavoro di tutti i giorni.
+
+8
+00:01:12,530 --> 00:01:17,130
+Una fonte inferiore non puo' contraddire una superiore.
+
+9
+00:01:17,130 --> 00:01:27,930
+L'articolo trentadue della Costituzione, da conoscere quasi a memoria. Primo comma: la Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettivita'.
+
+10
+00:01:27,930 --> 00:01:37,590
+E garantisce cure gratuite agli indigenti. Attenzione a un dettaglio: e' l'unico diritto che la Costituzione definisce espressamente fondamentale.
+
+11
+00:01:37,590 --> 00:01:49,980
+Secondo comma: nessuno puo' essere obbligato a un determinato trattamento sanitario se non per disposizione di legge. E la legge non puo' in nessun caso violare i limiti imposti dal rispetto della persona umana.
+
+12
+00:01:49,980 --> 00:01:58,240
+Da qui derivano due cose: il principio del consenso informato, e la possibilita', eccezionale, dei trattamenti sanitari obbligatori.
+
+13
+00:01:58,240 --> 00:02:07,540
+L'articolo trentadue contiene due anime, che a volte si tengono in equilibrio: la salute come diritto individuale, e la salute come interesse della collettivita'.
+
+14
+00:02:07,540 --> 00:02:18,350
+Come diritto individuale, la persona e' libera di scegliere e anche di rifiutare le cure. Lo abbiamo visto con la legge duecentodiciannove del duemiladiciassette, nella lezione uno punto sei.
+
+15
+00:02:18,350 --> 00:02:28,370
+Come interesse della collettivita', in casi eccezionali una legge puo' imporre un trattamento: il TSO della lezione undici punto tre, o le vaccinazioni obbligatorie.
+
+16
+00:02:28,370 --> 00:02:35,310
+Si chiama riserva di legge: nessun atto diverso da una legge puo' imporre un trattamento sanitario.
+
+17
+00:02:35,310 --> 00:02:45,550
+Altri articoli si collegano alla sanita'. L'articolo due, sui diritti inviolabili e i doveri di solidarieta'. L'articolo tre, sull'uguaglianza, formale e sostanziale.
+
+18
+00:02:45,550 --> 00:02:56,270
+L'articolo tredici, sulla liberta' personale inviolabile, che ritroviamo nella contenzione. E l'articolo centodiciassette, sul riparto delle competenze fra Stato e Regioni.
+
+19
+00:02:56,270 --> 00:03:07,860
+L'articolo novantasette, sul buon andamento e l'imparzialita' della pubblica amministrazione. Stabilisce anche che agli impieghi pubblici si accede mediante concorso: proprio la prova che stai preparando.
+
+20
+00:03:07,860 --> 00:03:17,820
+Il riparto delle competenze fra Stato e Regioni e' stato ridisegnato dalla riforma del Titolo quinto della Costituzione, con la legge costituzionale numero tre del duemilauno.
+
+21
+00:03:17,820 --> 00:03:27,920
+La tutela della salute e' materia di legislazione concorrente: lo Stato fissa i principi fondamentali, le Regioni legiferano nel dettaglio e organizzano i servizi.
+
+22
+00:03:27,920 --> 00:03:39,450
+Ma allo Stato spetta in via esclusiva la determinazione dei livelli essenziali delle prestazioni, quelli che in sanita' si chiamano LEA, da garantire in modo uniforme su tutto il territorio.
+
+23
+00:03:39,450 --> 00:03:50,660
+La sede in cui Stato e Regioni si accordano e' la Conferenza Stato-Regioni. Per questo la sanita' veneta, che studieremo nel modulo tredici, ha regole proprie dentro una cornice nazionale.
+
+24
+00:03:50,660 --> 00:04:02,280
+Per capire la riforma, si guarda a com'era prima. Fino al millenovecentosettantotto in Italia c'era un sistema mutualistico: l'assistenza dipendeva dalla categoria lavorativa e dai contributi versati.
+
+25
+00:04:02,280 --> 00:04:14,440
+Numerosi enti mutualistici, con prestazioni diverse. Ne derivavano disuguaglianze e persone escluse, oltre a una crisi finanziaria degli enti. Il millenovecentosettantotto e' l'anno della svolta.
+
+26
+00:04:14,440 --> 00:04:24,320
+La legge ottocentotrentatre' del ventitre' dicembre millenovecentosettantotto istituisce il Servizio Sanitario Nazionale. Con tre principi, da dire sempre insieme.
+
+27
+00:04:24,320 --> 00:04:35,700
+Universalita': il servizio e' rivolto a tutta la popolazione, non a categorie. Uguaglianza: a parita' di bisogno, parita' di accesso, senza distinzioni di condizioni individuali o sociali.
+
+28
+00:04:35,700 --> 00:04:46,350
+Globalita': il servizio si occupa di prevenzione, di cura e di riabilitazione, non solo della malattia. Universalita', uguaglianza, globalita': sempre tutti e tre.
+
+29
+00:04:46,350 --> 00:04:55,560
+Il finanziamento non passa piu' dai contributi delle categorie, ma dalla fiscalita' generale. E l'organizzazione si basa sulle Unita' Sanitarie Locali.
+
+30
+00:04:55,560 --> 00:05:05,330
+E agli articoli dal trentatre' al trentacinque ci sono gli accertamenti e i trattamenti sanitari volontari e obbligatori, che hai visto nella lezione undici punto tre.
+
+31
+00:05:05,330 --> 00:05:16,670
+La legge elenca obiettivi ancora attuali: la formazione di una coscienza sanitaria nella popolazione, la prevenzione delle malattie e degli infortuni, la diagnosi e cura, la riabilitazione.
+
+32
+00:05:16,670 --> 00:05:28,690
+La salute nei luoghi di lavoro, l'igiene degli alimenti, la salute mentale, la tutela materno-infantile e degli anziani, la partecipazione dei cittadini. Molti temi di questo corso hanno qui la loro radice.
+
+33
+00:05:28,690 --> 00:05:41,240
+Oggi il Servizio Sanitario Nazionale si articola nei servizi sanitari regionali. In Veneto la scelta caratteristica e' l'integrazione fra sanitario e sociale: il Servizio Socio Sanitario Regionale.
+
+34
+00:05:41,240 --> 00:05:55,570
+Per questo le aziende si chiamano ULSS, Unita' Locali Socio Sanitarie, con la esse di socio. All'orale ricordarlo dimostra conoscenza del contesto in cui lavorerai. Lo approfondiamo nel modulo tredici.
+
+35
+00:05:55,570 --> 00:06:03,480
+Una domanda d'orale tipica: quale articolo della Costituzione tutela la salute, e che cosa stabilisce in materia di trattamenti sanitari obbligatori?
+
+36
+00:06:03,480 --> 00:06:14,080
+La risposta completa. E' l'articolo trentadue, che tutela la salute come diritto fondamentale dell'individuo e interesse della collettivita', e garantisce cure gratuite agli indigenti.
+
+37
+00:06:14,080 --> 00:06:22,360
+Al secondo comma prevede che nessuno possa essere obbligato a un trattamento se non per legge, e sempre nel rispetto della persona umana.
+
+38
+00:06:22,360 --> 00:06:33,150
+Poi un collegamento: il TSO della legge ottocentotrentatre', e il consenso della legge duecentodiciannove. Una risposta cosi' dimostra che sai collegare la norma alla pratica.
+
+39
+00:06:33,150 --> 00:06:45,530
+Una parte pratica: come si leggono le sigle. Elle e' legge. Di elle gi esse, decreto legislativo. Di elle, decreto-legge. Di pi erre, decreto del Presidente della Repubblica.
+
+40
+00:06:45,530 --> 00:07:00,290
+Di emme, decreto ministeriale. Di pi ci emme, decreto del Presidente del Consiglio dei Ministri. Elle erre, legge regionale. Di gi erre, deliberazione della Giunta regionale. Numero e anno identificano l'atto.
+
+41
+00:07:00,290 --> 00:07:13,380
+Il metodo per tutto il modulo, da usare anche nel quaderno: una tabella a tre colonne, fonte, contenuto, anno. Costituzione, articolo trentadue: diritto alla salute, in vigore dal millenovecentoquarantotto.
+
+42
+00:07:13,380 --> 00:07:24,940
+Legge costituzionale tre: Titolo quinto, salute materia concorrente, duemilauno. Legge ottocentotrentatre': istituzione del Servizio Sanitario Nazionale, millenovecentosettantotto.
+
+43
+00:07:24,940 --> 00:07:36,860
+In Veneto l'autonomia del Titolo quinto si e' tradotta in un modello proprio, con una forte integrazione socio-sanitaria e la legge regionale diciannove del duemilasedici, che ha istituito Azienda Zero.
+
+44
+00:07:36,860 --> 00:07:47,090
+La tabella. La gerarchia delle fonti: Costituzione, Unione europea, leggi e atti con forza di legge, leggi regionali, regolamenti, atti amministrativi.
+
+45
+00:07:47,090 --> 00:07:57,480
+Articolo trentadue: diritto fondamentale e interesse collettivo, cure gratuite agli indigenti, trattamenti obbligatori solo per legge, nel rispetto della persona.
+
+46
+00:07:57,480 --> 00:08:10,380
+Titolo quinto del duemilauno: salute materia concorrente, LEA di competenza esclusiva dello Stato. Legge ottocentotrentatre' del millenovecentosettantotto: un servizio universale, uguale, globale.
+
+47
+00:08:10,380 --> 00:08:17,990
+Nella prossima lezione vediamo come il Servizio Sanitario Nazionale e' cambiato con le riforme degli anni Novanta: l'aziendalizzazione.
+
+48
+00:08:17,990 --> 00:08:25,740
+E che cosa sono i LEA, i livelli essenziali di assistenza, che oggi abbiamo incontrato come competenza esclusiva dello Stato. A tra poco.

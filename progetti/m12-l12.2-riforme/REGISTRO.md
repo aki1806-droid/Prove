@@ -14,13 +14,31 @@ Seconda lezione del Modulo 12: le riforme del SSN e i LEA. L'aziendalizzazione d
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,37 (A $0,71 · B $0,66) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s05 s38 |
 
 ```
 CARATTERI  8.211          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:18.4     (MIRA 16,6)
 stacco tracce             dopo s27   (chunk A 4.288 car · chunk B 3.923 car)
+tracce grezze             A 288.2 s  ·  B 276.1 s
+silenzi                   fattore 1,130   ->   atempo 1,009
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 26 | 22 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**578/588 parole**, la B **570/575**, nessun buco. Le rese diverse
+(non buchi): s03 «ee» sentito «e»; s06 «e» sentito «ee»; s09 «ee» sentito «e»; s11 «e» sentito «ee»; s13 «ee» sentito «e»; s15 «e» sentito «ee»; s18 «e» sentito «ee»; s20 «ee» sentito «e»; s42 «socio sanitaria» sentito «sociosanitaria»; s42 «socio sanitari» sentito «sociosanitari»; s48 «appropriatezza» sentito «approprietezza».
 
 ## Le scene
 

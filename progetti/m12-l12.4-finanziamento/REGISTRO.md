@@ -14,13 +14,31 @@ Quarta lezione del Modulo 12: finanziamento ed economia del SSN. Da dove arrivan
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,36 (A $0,73 · B $0,64) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s17 s36 |
 
 ```
 CARATTERI  8.175          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:16.3     (MIRA 16,6)
 stacco tracce             dopo s27   (chunk A 4.379 car · chunk B 3.796 car)
+tracce grezze             A 298.0 s  ·  B 262.9 s
+silenzi                   fattore 1,071   ->   atempo 1,063
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 26 | 22 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**657/662 parole**, la B **547/552**, nessun buco. Le rese diverse
+(non buchi): s13 «ee» sentito «e»; s18 «e» sentito «ee»; s20 «dai lea» sentito «da ilea»; s20 «ee» sentito «e».
 
 ## Le scene
 

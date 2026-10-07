@@ -27,7 +27,7 @@ BLOCCHI = [
  (6,"chiaro",0,"Il servizio delle professioni sanitarie. La legge duecentocinquantuno del duemila riconosce l'autonomia e la responsabilita' delle professioni sanitarie."),
  (6,"chiaro",0,"E prevede che le aziende possano istituire il servizio dell'assistenza infermieristica e ostetrica, diretto da un dirigente delle professioni sanitarie."),
  (6,"chiaro",0,"Il dirigente dirige, organizza e valuta l'assistenza, e gestisce le risorse infermieristiche e quelle di supporto."),
- (6,"chiaro",0,"La legge quarantatre del duemilasei articola poi le funzioni: professionisti, coordinatori, specialisti e dirigenti. Le hai viste nel modulo uno; qui ne vedi il posto nell'organizzazione."),
+ (6,"chiaro",0,"La legge quarantatre' del duemilasei articola poi le funzioni: professionisti, coordinatori, specialisti e dirigenti. Le hai viste nel modulo uno; qui ne vedi il posto nell'organizzazione."),
 
  (7,"chiaro",0,"Il decreto ministeriale settanta del duemilaquindici e' il regolamento sugli standard qualitativi, strutturali, tecnologici e quantitativi dell'assistenza ospedaliera."),
  (7,"chiaro",0,"Fissa i posti letto a tre virgola sette per mille abitanti, di cui zero virgola sette per la riabilitazione e la lungodegenza post-acuzie. E un tasso di ospedalizzazione di centosessanta per mille."),
