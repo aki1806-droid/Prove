@@ -41,7 +41,7 @@ export const SCENE = [
   {n:"Arteria polmonare", t:"Sangue povero di O₂"},
   {n:"Coronarie", t:"Perfuse in diastole", d:"a muscolo rilassato", key:true}]},
 {id:"s10", tipo:"catena", tema:"chiaro", sopratitolo:"Il sistema di conduzione", passi:[
-  {t:"Nodo **senoatriale**", d:"pacemaker · 60-100/min", key:true},
+  {t:"Nodo **senoatriale**", d:"60-100 battiti/min", key:true},
   {t:"Nodo **AV**"}, {t:"Fascio di **His**"}, {t:"**Branche**"}, {t:"Fibre di **Purkinje**"}]},
 {id:"s11", tipo:"confronto", tema:"chiaro", sopratitolo:"Gittata e pressione", col:[
   {h:"Gittata cardiaca", t:"gittata sistolica × **frequenza** · circa **5 L/min** a riposo"},
@@ -72,9 +72,8 @@ export const SCENE = [
   {t:"Stomaco", d:"fattore intrinseco"},
   {t:"Assorbimento della **vitamina B12**"},
   {t:"Dopo gastrectomia", d:"B12 per via **parenterale**", key:true}]},
-{id:"s19", tipo:"raggiera", tema:"chiaro", sopratitolo:"Le funzioni del fegato", centro:"Fegato",
-  raggi:[{t:"Albumina"}, {t:"Fattori", d:"II · VII · IX · X"}, {t:"Bilirubina", d:"coniugazione"},
-         {t:"Urea", d:"dall'ammoniaca"}, {t:"Farmaci", d:"primo passaggio", key:true}]},
+{id:"s19", tipo:"raggiera", tema:"chiaro", sopratitolo:"Il fegato · fattori II, VII, IX, X · ammoniaca → urea", centro:"Fegato",
+  raggi:[{t:"Albumina"}, {t:"Fattori"}, {t:"Bilirubina"}, {t:"Urea"}, {t:"Farmaci", key:true}]},
 {id:"s20", tipo:"tre", tema:"chiaro", sopratitolo:"Il rene · la creatinina dipende dalla massa muscolare", box:[
   {n:"Filtrato", t:"~180 L/die"},
   {n:"Urine", t:"~1,5 L/die"},
