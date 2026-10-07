@@ -108,6 +108,7 @@ progetti/<modulo>-<lezione>/
 | `m11-l11.6-cronicita` | Modulo 11 · 11.6 Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
 | `m11-l11.7-territorio` | Modulo 11 · 11.7 Territorio e cure primarie | 8:12.0 | `a59714e446dde257b6180deb8ac36576` |
 | `m11-l11.8-riepilogo` | Modulo 11 · 11.8 Riepilogo del Modulo 11 e autovalutazione | 8:11.9 | `69dea68bea6eb467103d6aa9d6871219` |
+| `m12-l12.1-fonti` | Modulo 12 · 12.1 Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
