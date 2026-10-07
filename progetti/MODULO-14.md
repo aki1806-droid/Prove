@@ -7,7 +7,7 @@ endocrino, sangue, immunità e infiammazione, la semeiotica infermieristica
 con gli esami (14.7), e il riepilogo (14.8). Ogni valore clinico viene dallo
 script del committente.
 
-Stato: copioni e scene in scrittura; la voce GianP si genera a copione
+Stato: copioni e scene pronti; la voce GianP si genera a copione
 fermo, lezione per lezione, e la tabella qui sotto si riempie man mano che
 le rese escono.
 
