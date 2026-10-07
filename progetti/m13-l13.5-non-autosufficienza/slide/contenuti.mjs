@@ -75,8 +75,8 @@ export const SCENE = [
   {n:"1", t:"Il DM 77"}, {n:"2", t:"La riforma nazionale", d:"per le persone anziane non autosufficienti"},
   {n:"3", t:"Più anziani assistiti a casa", d:"un obiettivo nazionale", key:true}]},
 
-{id:"s22", tipo:"sostituzione", tema:"chiaro", sopratitolo:"Le strutture residenziali per anziani non autosufficienti",
-  da:{h:"In altre regioni", t:"RSA, case di riposo"}, a:{h:"In Veneto", t:"Centri di Servizi"}},
+{id:"s22", tipo:"confronto", tema:"chiaro", sopratitolo:"Le strutture residenziali per anziani non autosufficienti", col:[
+  {h:"In altre regioni", t:"RSA, case di riposo", grande:true}, {h:"In Veneto", t:"**Centri di Servizi**", grande:true}]},
 {id:"s23", tipo:"norma", tema:"chiaro", etichetta:"Autorizzati e accreditati · lezione 13.6", sigla:"L.R. 22/2002",
   testo:"Centri **pubblici**, **privati** o del **terzo settore**."},
 {id:"s24", tipo:"griglia", tema:"chiaro", colonne:4, spunta:true, sopratitolo:"L'équipe multiprofessionale del Centro di Servizi", celle:[

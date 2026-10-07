@@ -187,7 +187,7 @@ export const SCENE = [
   testo:"Il **fondamento scientifico** di tutto ciò che abbiamo studiato."},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
-  modulo:"Prossimo modulo",
-  titolo:"Modulo 14<br>Basi biomediche<br>e semeiotica", sottotitolo:"Anatomia, fisiologia, fisiopatologia, semeiotica, laboratorio",
+  modulo:"Prossimo modulo · Modulo 14",
+  titolo:"Basi biomediche<br>e semeiotica", sottotitolo:"Anatomia, fisiologia, fisiopatologia, semeiotica, laboratorio",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 ];
