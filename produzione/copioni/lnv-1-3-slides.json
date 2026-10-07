@@ -1,0 +1,475 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.3",
+  "title": "Il segnale non è un significato",
+  "sub": "Capire i segni del linguaggio non verbale"
+ },
+ {
+  "file": "c02",
+  "layout": "table",
+  "kicker": "il formato in cui viene insegnato",
+  "cols": [
+   "il segnale",
+   "il significato"
+  ],
+  "rows": [
+   [
+    "Braccia conserte",
+    "chiusura"
+   ],
+   [
+    "Mani in tasca",
+    "insicurezza"
+   ],
+   [
+    "Toccarsi il naso",
+    "menzogna"
+   ],
+   [
+    "Piedi verso la porta",
+    "voglia di andarsene"
+   ]
+  ]
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Un dizionario.<br><span class=\"gold\">Il segnale a sinistra, il significato a destra.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "swap",
+  "kicker": "perché piace a chi lo insegna",
+  "rows": [
+   [
+    "Si memorizza",
+    "si insegna in un'ora"
+   ],
+   [
+    "Si elenca",
+    "sembra una competenza"
+   ]
+  ]
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Un dizionario presuppone una corrispondenza stabile.<br><span class=\"gold\">Altrimenti è un elenco di coincidenze.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "memo",
+  "title": "E quella corrispondenza<br>non c'è."
+ },
+ {
+  "file": "c07",
+  "layout": "quote",
+  "kicker": "l'esempio più citato in assoluto",
+  "title": "«Braccia conserte<br>uguale chiusura.»"
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "da dove può venire",
+  "rows": [
+   "Ha freddo",
+   "Non sa dove mettere le mani",
+   "Sta ascoltando con attenzione",
+   "È in disaccordo",
+   "Ha quella postura da trent'anni"
+  ],
+  "active": 0,
+  "note": "In una sala a venti gradi è la più frequente di tutte."
+ },
+ {
+  "file": "c10",
+  "layout": "list",
+  "kicker": "da dove può venire",
+  "rows": [
+   "Ha freddo",
+   "Non sa dove mettere le mani",
+   "Sta ascoltando con attenzione",
+   "È in disaccordo",
+   "Ha quella postura da trent'anni"
+  ],
+  "active": 1,
+  "note": "Le braccia sono pesanti, e quella sedia non ha braccioli."
+ },
+ {
+  "file": "c11",
+  "layout": "list",
+  "kicker": "da dove può venire",
+  "rows": [
+   "Ha freddo",
+   "Non sa dove mettere le mani",
+   "Sta ascoltando con attenzione",
+   "È in disaccordo",
+   "Ha quella postura da trent'anni"
+  ],
+  "active": 2,
+  "note": "Cioè il contrario di quello che il dizionario legge."
+ },
+ {
+  "file": "c12",
+  "layout": "list",
+  "kicker": "da dove può venire",
+  "rows": [
+   "Ha freddo",
+   "Non sa dove mettere le mani",
+   "Sta ascoltando con attenzione",
+   "È in disaccordo",
+   "Ha quella postura da trent'anni"
+  ],
+  "active": 3,
+  "note": "L'unica che il dizionario prevede. E quindi l'unica che ti verrà in mente."
+ },
+ {
+  "file": "c13",
+  "layout": "list",
+  "kicker": "da dove può venire",
+  "rows": [
+   "Ha freddo",
+   "Non sa dove mettere le mani",
+   "Sta ascoltando con attenzione",
+   "È in disaccordo",
+   "Ha quella postura da trent'anni"
+  ],
+  "active": 4,
+  "note": "Se non varia mai, non significa niente."
+ },
+ {
+  "file": "c14",
+  "layout": "raggi",
+  "kicker": "cinque cause, una sola immagine",
+  "centro": "braccia conserte",
+  "attorno": [
+   {
+    "et": "ha freddo",
+    "d": 40
+   },
+   {
+    "et": "non sa dove mettere le mani",
+    "d": 75
+   },
+   {
+    "et": "è la sua postura da sempre",
+    "d": 55
+   },
+   {
+    "et": "sta ascoltando",
+    "d": 65
+   }
+  ],
+  "title": "Da fuori sono indistinguibili. Nessun addestramento le separa."
+ },
+ {
+  "file": "c15",
+  "layout": "memo",
+  "title": "Un segnale non ha un significato.<br>Ha una lista di possibilità."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Sceglierne una e chiamarla «il significato»<br><span class=\"gold\">è il salto al terzo gradino della prima lezione.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "kicker": "perché il dizionario è così attraente",
+  "title": "Sapere com'è fatta una trappola<br><span class=\"gold\">è il modo migliore per non caderci di nuovo.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "kicker": "primo motivo",
+  "title": "Toglie fatica. Entri, guardi, e sai.<br><span class=\"gold\">È una sensazione gradevolissima.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "bilancia",
+  "kicker": "e non ha rapporto con l'accuratezza",
+  "ciclo": 7,
+  "sx": {
+   "et": "quanto sei preciso",
+   "peso": 3
+  },
+  "dx": {
+   "et": "quanto ti senti sicuro",
+   "peso": 9
+  },
+  "title": "Si prova identica quando hai ragione e quando hai torto."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "kicker": "secondo motivo",
+  "title": "Dopo che è andata male, ricordi le braccia conserte.<br><span class=\"gold\">E concludi che il segnale c'era.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Non ricordi le dieci volte in cui<br><span class=\"gold\">le stesse braccia conserte precedevano un sì.</span>"
+ },
+ {
+  "file": "c23",
+  "layout": "anello",
+  "kicker": "come un dizionario diventa inattaccabile",
+  "ciclo": 8,
+  "passi": [
+   "succede qualcosa",
+   "ricordi il segnale",
+   "il dizionario aveva ragione",
+   "ci credi di più"
+  ],
+  "title": "Raccoglie solo i casi che lo confermano, e li raccoglie dopo."
+ },
+ {
+  "file": "c24",
+  "layout": "flusso",
+  "kicker": "cosa rende leggibile un segnale",
+  "passi": [
+   {
+    "et": "il gruppo",
+    "sub": "altri segnali coerenti?"
+   },
+   {
+    "et": "il contesto",
+    "sub": "la situazione lo spiega già?"
+   },
+   {
+    "et": "il cambiamento",
+    "sub": "è diverso da due minuti fa?"
+   }
+  ],
+  "title": "Tre condizioni. È la regola centrale di tutto il corso."
+ },
+ {
+  "file": "c25",
+  "layout": "list",
+  "kicker": "la prima: il gruppo",
+  "rows": [
+   "La postura che si chiude",
+   "Le risposte più corte",
+   "Lo sguardo che si sposta"
+  ],
+  "note": "Un segnale isolato non dice quasi niente. Tre coerenti cominciano a dire qualcosa."
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "Non perché tre valgano più di uno.<br><span class=\"gold\">Perché un gruppo rende meno probabili le spiegazioni banali.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Si può avere freddo.<br><span class=\"gold\">Il freddo non sa di cosa stai parlando.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "swap",
+  "kicker": "la seconda: il contesto",
+  "rows": [
+   [
+    "In una stanza fredda",
+    "le braccia conserte sono una stanza fredda"
+   ],
+   [
+    "Su una sedia senza braccioli",
+    "le mani in grembo sono quella sedia"
+   ]
+  ]
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "È una regola di economia, non di prudenza.<br><span class=\"gold\">Se la situazione spiega già, una seconda spiegazione non aggiunge niente.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "kicker": "la terza, e la più importante",
+  "title": "Il cambiamento.<br><span class=\"gold\">Ci dedichiamo la prossima lezione intera.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Quello che ti interessa non è<br><span class=\"gold\">quale segnale compare.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "È quando compare."
+ },
+ {
+  "file": "c33",
+  "layout": "linea",
+  "kicker": "lo stesso segnale, due letture",
+  "momenti": [
+   {
+    "a": 8,
+    "et": "rigido",
+    "sub": "dall'inizio"
+   },
+   {
+    "a": 50,
+    "et": "rigido",
+    "sub": "e lo era già"
+   },
+   {
+    "a": 92,
+    "et": "rigido",
+    "sub": "e lo è ancora"
+   }
+  ],
+  "sx": "non dice niente",
+  "dx": "non è cambiato nulla"
+ },
+ {
+  "file": "c34",
+  "layout": "linea",
+  "kicker": "e invece questo",
+  "momenti": [
+   {
+    "a": 20,
+    "et": "disteso",
+    "sub": "prima"
+   },
+   {
+    "a": 52,
+    "et": "«la scadenza»",
+    "sub": "lo nomini"
+   },
+   {
+    "a": 62,
+    "et": "rigido",
+    "sub": "subito dopo"
+   }
+  ],
+  "sx": "qui non c'era niente",
+  "dx": "qui c'è una domanda da fare"
+ },
+ {
+  "file": "c35",
+  "layout": "memo",
+  "title": "Il momento<br>conta più del segnale."
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "Il vero esercizio non è imparare un repertorio.<br><span class=\"gold\">È allenare la sincronizzazione.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Due ragioni in più per diffidare del dizionario.<br><span class=\"gold\">Non dicono che sbaglia: dicono che non può funzionare.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "kicker": "la prima: le differenze fra persone",
+  "title": "Alcune gesticolano moltissimo, altre per niente.<br><span class=\"gold\">Alcune tengono lo sguardo, altre lo trovano aggressivo.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "barre",
+  "kicker": "quanto è grande ciascuna differenza",
+  "barre": [
+   {
+    "et": "fra una persona e l'altra",
+    "v": 88,
+    "val": "ampia"
+   },
+   {
+    "et": "fra uno stato e l'altro",
+    "v": 26,
+    "val": "stretta"
+   }
+  ],
+  "acceso": 0,
+  "title": "Il rumore è più grande del segnale, se non parti dalla persona."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Senza una linea di partenza non misuri uno stato.<br><span class=\"gold\">Misuri un carattere, e lo scambi per uno stato.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "list",
+  "kicker": "la seconda: le differenze fra culture",
+  "rows": [
+   "Le distanze normali fra due corpi",
+   "Quanto contatto visivo è educato",
+   "I gesti con un significato convenzionale"
+  ],
+  "note": "Ci torniamo nel modulo cinque. Non è una digressione di cortesia."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Un gesto che qui è neutro<br><span class=\"gold\">altrove è scortese.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "list",
+  "theme": "sand",
+  "kicker": "quattro errori",
+  "rows": [
+   "Il dizionario",
+   "Il segnale isolato",
+   "Dimenticare il contesto",
+   "Confermare a posteriori"
+  ]
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "La stanza fredda e la sedia scomoda<br><span class=\"gold\">spiegano più segnali di qualunque teoria.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "imbuto",
+  "kicker": "perché l'esperienza non ti corregge",
+  "ciclo": 7,
+  "dentro": [
+   "i casi andati male",
+   "il segnale ricordato",
+   "le volte neutre dimenticate"
+  ],
+  "fuori": "ogni anno più sicuro",
+  "title": "Più sicuro. E non più preciso."
+ },
+ {
+  "file": "c47",
+  "layout": "quote",
+  "kicker": "cosa mettere al posto del dizionario",
+  "title": "«Questo cambiamento, ora,<br>con questi altri segnali,<br>mi fa venire una domanda.»"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "È lunga, è scomoda, non sta su una slide.<br><span class=\"gold\">Ed è l'unica onesta, perché è verificabile.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Noti un segnale",
+   "Cerca il secondo",
+   "Non concludere se non c'è"
+  ],
+  "note": "Scoprirai che molto spesso il secondo non c'è. Quella è l'informazione."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "laparolagiusta.it",
+  "site": "Capire i segni del linguaggio non verbale"
+ }
+]

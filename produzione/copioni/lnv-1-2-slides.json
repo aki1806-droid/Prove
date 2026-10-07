@@ -1,0 +1,421 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.2",
+  "title": "Il mito del 7-38-55",
+  "sub": "Capire i segni del linguaggio non verbale"
+ },
+ {
+  "file": "c02",
+  "layout": "chart",
+  "kicker": "come viene citato",
+  "bars": [
+   {
+    "et": "parole",
+    "val": 7,
+    "cifra": "7%"
+   },
+   {
+    "et": "tono",
+    "val": 38,
+    "cifra": "38%"
+   },
+   {
+    "et": "corpo",
+    "val": 55,
+    "cifra": "55%",
+    "oro": true
+   }
+  ],
+  "title": "L'affermazione più ripetuta di tutta la formazione sulla comunicazione."
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "In certi ambienti non viene più attribuita a nessuno.<br><span class=\"gold\">Viene detta come si dice che l'acqua bolle a cento gradi.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "memo",
+  "title": "È sbagliata."
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Non in modo sottile, come le semplificazioni.<br><span class=\"gold\">Non è mai stata quello che viene detto.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "list",
+  "kicker": "cosa esiste e cosa no",
+  "plain": true,
+  "rows": [
+   "Il numero esiste",
+   "Gli studi esistono",
+   "Il legame fra i due no"
+  ]
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Perché una lezione intera su un numero sbagliato,<br><span class=\"gold\">in un corso che di numeri ne userà pochissimi?</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "kicker": "primo motivo",
+  "title": "Una premessa falsa non si vede.<br><span class=\"gold\">Si vedono solo le conclusioni storte che produce.</span>"
+ },
+ {
+  "file": "c10",
+  "layout": "ponte",
+  "kicker": "dove porta quel numero",
+  "sx": "le parole non contano",
+  "dx": "conta solo come lo dici",
+  "vuoto": "il contenuto sparisce",
+  "ponte": "la premessa",
+  "title": "Che è esattamente il contrario di quello che insegno."
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "kicker": "secondo motivo",
+  "title": "Questo corso ti vende la lettura dei segnali.<br><span class=\"gold\">Dichiararne i limiti è il minimo che possa fare chi lo vende.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Se li scoprissi alla lezione trenta,<br><span class=\"gold\">avresti ragione a non fidarti più nemmeno del resto.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "Non è una leggenda nata dal niente.<br><span class=\"gold\">L'origine c'è, è precisa, ed è pubblicata.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "confronto",
+  "titoli": [
+   "cosa misurava",
+   "come viene citato"
+  ],
+  "righe": [
+   {
+    "et": "l'oggetto",
+    "a": "giudizi su simpatia",
+    "b": "tutta la comunicazione",
+    "segna": true
+   },
+   {
+    "et": "la condizione",
+    "a": "canali in contraddizione",
+    "b": "sempre",
+    "segna": true
+   },
+   {
+    "et": "il materiale",
+    "a": "parole singole",
+    "b": "discorsi"
+   },
+   {
+    "et": "l'anno",
+    "a": "1967",
+    "b": "—"
+   }
+  ]
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "I canali erano incoerenti <i>apposta</i>.<br><span class=\"gold\">Era esattamente quello il punto dello studio.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "quote",
+  "kicker": "il materiale degli esperimenti",
+  "title": "«Grazie», detto con la voce<br>di chi non ringrazia affatto."
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "kicker": "la domanda vera dello studio",
+  "title": "Quando i canali si contraddicono,<br><span class=\"gold\">a quale credono le persone?</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "La risposta regge ancora oggi:<br><span class=\"gold\">in caso di contraddizione, il non verbale pesa di più.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "imbuto",
+  "kicker": "cosa si perde per strada",
+  "ciclo": 7,
+  "dentro": [
+   "giudizi su emozioni",
+   "canali in contraddizione",
+   "parole singole"
+  ],
+  "fuori": "il 93% della comunicazione",
+  "title": "Per passare dalla prima alla seconda si buttano via tutte le condizioni."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "kicker": "la verifica che puoi fare stasera",
+  "title": "Se fosse vera, capiremmo il 93%<br><span class=\"gold\">di un discorso in una lingua che non conosciamo.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "list",
+  "kicker": "un telegiornale in ungherese",
+  "rows": [
+   "Vedi il tono",
+   "Vedi il volto",
+   "Vedi i gesti, le pause, le mani"
+  ],
+  "note": "Hai tutto il non verbale a disposizione. Al cento per cento."
+ },
+ {
+  "file": "c23",
+  "layout": "memo",
+  "title": "E non capisci niente."
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Qualcosa capisci, a essere precisi:<br><span class=\"gold\">se è grave o leggera, se è teso o tranquillo.</span>"
+ },
+ {
+  "file": "c25",
+  "layout": "termometro",
+  "kicker": "cosa ti arriva davvero",
+  "ciclo": 7,
+  "livello": 22,
+  "tacche": [
+   {
+    "a": 22,
+    "et": "il tono emotivo"
+   },
+   {
+    "a": 100,
+    "et": "il contenuto"
+   }
+  ],
+  "title": "Il tono emotivo arriva. Il contenuto no."
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "title": "Non è una dimostrazione: è una verifica casalinga.<br><span class=\"gold\">Ma è più di quanto si possa dire del numero che smonta.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "cards",
+  "kicker": "i dettagli che nessuno cita",
+  "rows": [
+   {
+    "icona": "conto",
+    "testo": "Poche decine di partecipanti"
+   },
+   {
+    "icona": "testa",
+    "testo": "Tutte donne"
+   },
+   {
+    "icona": "unaparola",
+    "testo": "Parole singole, non discorsi"
+   }
+  ]
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Non rendono lo studio sbagliato: erano gli anni sessanta.<br><span class=\"gold\">Rendono sbagliato l'uso che se ne fa oggi.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "kicker": "la smentita dell'autore",
+  "title": "Ha passato decenni a ripeterlo.<br><span class=\"gold\">L'ha scritto, detto in interviste, messo sul suo sito.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "memo",
+  "title": "Non è stato ascoltato."
+ },
+ {
+  "file": "c31",
+  "layout": "list",
+  "kicker": "perché il numero sopravvive",
+  "rows": [
+   "È semplice",
+   "È memorabile",
+   "Sta tutto in una slide"
+  ],
+  "note": "E dà una struttura a un corso che altrimenti dovrebbe ammettere di essere più incerto."
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "title": "Le affermazioni comode sopravvivono alle smentite.<br><span class=\"gold\">Anche quando a smentirle è chi le ha prodotte.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "memo",
+  "title": "Se fosse vera, capiremmo il 93%<br>in una lingua che non conosciamo."
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "E adesso la parte costruttiva,<br><span class=\"gold\">perché buttare via tutto sarebbe l'errore peggiore.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "quote",
+  "kicker": "quello che resta, ed è solido",
+  "title": "«Quando i canali si contraddicono,<br>chi ascolta crede al non verbale.»"
+ },
+ {
+  "file": "c36",
+  "layout": "bilancia",
+  "kicker": "quando i due non vanno insieme",
+  "ciclo": 7,
+  "sx": {
+   "et": "le parole",
+   "peso": 3
+  },
+  "dx": {
+   "et": "il tono",
+   "peso": 8
+  },
+  "title": "In caso di contraddizione vince il tono. Sempre."
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "title": "Una percentuale non si usa.<br><span class=\"gold\">Una condizione sì: ti dice quando guardare.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "kicker": "la prima cosa pratica",
+  "title": "Ti dirà che non lo convincevi.<br><span class=\"gold\">E avrà ragione senza sapere di cosa.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "swap",
+  "kicker": "su cosa hai davvero potere",
+  "rows": [
+   [
+    "Il tuo tono",
+    "ci puoi lavorare"
+   ],
+   [
+    "Il loro tono",
+    "puoi solo accorgertene"
+   ]
+  ]
+ },
+ {
+  "file": "c41",
+  "layout": "raggi",
+  "kicker": "la seconda, ed è il cuore del corso",
+  "centro": "incongruenza",
+  "attorno": [
+   {
+    "et": "qui c'è qualcosa da chiedere",
+    "d": 55
+   },
+   {
+    "et": "una domanda rende più di dieci minuti",
+    "d": 80
+   },
+   {
+    "et": "non è una bugia",
+    "d": 65
+   },
+   {
+    "et": "le parole e il corpo divergono",
+    "d": 45
+   }
+  ],
+  "title": "L'incongruenza è il luogo in cui c'è informazione."
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "title": "Non perché riveli una bugia — la ricerca dice il contrario.<br><span class=\"gold\">Ma perché segnala che qualcosa non sta andando insieme.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "kicker": "il danno pratico",
+  "title": "Il mito ha fatto più danni a chi lo insegnava<br><span class=\"gold\">in perfetta buona fede, convinto di dare uno strumento.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "list",
+  "kicker": "su cosa si è lavorato per una generazione",
+  "rows": [
+   "La postura",
+   "La voce e la presenza",
+   "Lo sguardo, le mani"
+  ],
+  "note": "Tutta roba vera. Ma è metà del lavoro, non tutto."
+ },
+ {
+  "file": "c45",
+  "layout": "imbuto",
+  "kicker": "e il contenuto?",
+  "dentro": [
+   "postura",
+   "voce",
+   "presenza"
+  ],
+  "fuori": "il contenuto resta intatto",
+  "title": "Se il 93% sta fuori dalle parole, perché perdere tempo sulle parole?"
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "Un argomento sbagliato detto benissimo<br><span class=\"gold\">resta un argomento sbagliato.</span>",
+  "note": "La forma non sostituisce la sostanza: la rende ricevibile. È una cosa diversa."
+ },
+ {
+  "file": "c47",
+  "layout": "list",
+  "kicker": "per il prossimo numero sospetto",
+  "rows": [
+   "Da quale studio viene?",
+   "Cosa misurava esattamente?",
+   "Cosa dovrei osservare, se fosse falso?"
+  ]
+ },
+ {
+  "file": "c48",
+  "layout": "memo",
+  "title": "La diffusione di un'affermazione<br>non dice niente<br>sulla sua fondatezza."
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Due minuti in una lingua che non conosci",
+   "Senza sottotitoli",
+   "Poi chiediti quanto hai capito"
+  ],
+  "note": "Capirai il tono emotivo. E quasi nient'altro."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "laparolagiusta.it",
+  "site": "Capire i segni del linguaggio non verbale"
+ }
+]

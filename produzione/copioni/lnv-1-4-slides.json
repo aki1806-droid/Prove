@@ -1,0 +1,448 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.4",
+  "title": "La linea di base",
+  "sub": "Capire i segni del linguaggio non verbale"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Gesticola pochissimo.<br><span class=\"gold\">È chiusa? Non è interessata? È tesa?</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "memo",
+  "title": "Non significa niente."
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Ti manca l'unica informazione che lo renderebbe leggibile:<br><span class=\"gold\">com'è di solito quella persona.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "bivio",
+  "kicker": "lo stesso identico comportamento",
+  "da": "tiene le mani ferme",
+  "rami": [
+   {
+    "et": "gesticola poco da sempre",
+    "sub": "non hai osservato niente"
+   },
+   {
+    "et": "di solito gesticola molto",
+    "sub": "hai osservato parecchio"
+   }
+  ],
+  "title": "Lo stesso dato. Un non-dato, e un dato enorme."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Hai visto una differenza.<br><span class=\"gold\">E una differenza è l'unica cosa che porta informazione.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "Da fuori i due casi sono indistinguibili.<br><span class=\"gold\">La differenza non sta in quello che vedi.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "cos'è la linea di base",
+  "rows": [
+   "Il ritmo normale",
+   "La quantità di gesti",
+   "La postura abituale"
+  ],
+  "note": "Come si comporta quando non sta succedendo niente di particolare."
+ },
+ {
+  "file": "c10",
+  "layout": "cruscotto",
+  "kicker": "le quattro voci che compongono il metro",
+  "celle": [
+   {
+    "cap": "ritmo",
+    "et": "veloce o lento, molte pause o poche"
+   },
+   {
+    "cap": "gesti",
+    "et": "quanto usa le mani"
+   },
+   {
+    "cap": "postura",
+    "et": "come sta quando è tranquillo"
+   },
+   {
+    "cap": "sguardo",
+    "et": "quanto tiene il contatto"
+   }
+  ],
+  "resta": "Prese da sole non dicono niente. Insieme fanno un metro."
+ },
+ {
+  "file": "c11",
+  "layout": "swap",
+  "kicker": "cosa non è",
+  "rows": [
+   [
+    "Un tratto della personalità",
+    "no"
+   ],
+   [
+    "Una diagnosi, un giudizio",
+    "no"
+   ]
+  ]
+ },
+ {
+  "file": "c12",
+  "layout": "memo",
+  "title": "È un metro."
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "Un metro non dice niente su quello che misura.<br><span class=\"gold\">Dice solo di quanto si è spostato.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "memo",
+  "title": "Non conta come sta.<br>Conta come sta<br>rispetto a come stava."
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Il volto, lo sguardo, le distanze, i gesti, la voce.<br><span class=\"gold\">Tutto il resto del corso si appoggia su questa frase.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Non serve conoscere qualcuno da anni.<br><span class=\"gold\">Bastano pochi minuti, se li usi bene.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "list",
+  "kicker": "i primi minuti sono su argomenti neutri",
+  "rows": [
+   "Il viaggio",
+   "Il parcheggio",
+   "Il caffè e il tempo che fa"
+  ]
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Sembrano minuti sprecati, e in molti li saltano.<br><span class=\"gold\">Sono il momento più informativo dell'incontro.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "linea",
+  "kicker": "quando guardare",
+  "ciclo": 7,
+  "momenti": [
+   {
+    "a": 12,
+    "et": "il suo normale",
+    "sub": "argomenti neutri"
+   },
+   {
+    "a": 55,
+    "et": "nel merito",
+    "sub": "la situazione entra"
+   },
+   {
+    "a": 90,
+    "et": "la chiusura",
+    "sub": "troppo tardi"
+   }
+  ],
+  "sx": "guarda qui",
+  "dx": "non più qui"
+ },
+ {
+  "file": "c21",
+  "layout": "cards",
+  "kicker": "quattro cose, non venti",
+  "rows": [
+   {
+    "icona": "accelera",
+    "testo": "Ritmo: veloce o lento, molte pause o poche"
+   },
+   {
+    "icona": "stringi",
+    "testo": "Gesti: quanto usa le mani"
+   },
+   {
+    "icona": "testa",
+    "testo": "Postura: come sta quando è tranquillo"
+   }
+  ]
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "kicker": "i gesti",
+  "title": "C'è chi gesticola solo da parlante<br><span class=\"gold\">e chi non smette mai. Sono due normali diversi.</span>"
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "kicker": "la postura",
+  "title": "Non è importante quale sia.<br><span class=\"gold\">È importante quale sia la sua.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "kicker": "lo sguardo",
+  "title": "Quanto a lungo tiene il contatto,<br><span class=\"gold\">e come lo interrompe.</span>"
+ },
+ {
+  "file": "c25",
+  "layout": "memo",
+  "title": "Descrizioni,<br>non giudizi."
+ },
+ {
+  "file": "c26",
+  "layout": "confronto",
+  "titoli": [
+   "una descrizione",
+   "un giudizio"
+  ],
+  "righe": [
+   {
+    "et": "come suona",
+    "a": "«parla veloce e gesticola molto»",
+    "b": "«è agitata»"
+   },
+   {
+    "et": "chi altro la scriverebbe",
+    "a": "chiunque, uguale",
+    "b": "nessuno",
+    "segna": true
+   },
+   {
+    "et": "cosa diventa",
+    "a": "un metro",
+    "b": "una conclusione",
+    "segna": true
+   }
+  ]
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "«È agitata» è già una conclusione.<br><span class=\"gold\">E diventerà il metro sbagliato per tutto l'incontro.</span>"
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "title": "Una domanda veloce, una mano che si muove, una risata corta.<br><span class=\"gold\">Il metro storto le storce tutte nella stessa direzione.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "Quello che cerchi non è un segnale.<br><span class=\"gold\">È uno scarto.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "list",
+  "kicker": "che aspetto ha uno scarto",
+  "rows": [
+   "Gesticolava molto, e smette",
+   "Parlava veloce, e rallenta",
+   "Teneva lo sguardo, e lo sposta"
+  ],
+  "note": "Nessuna di queste è un segnale. Sono tutte differenze."
+ },
+ {
+  "file": "c31",
+  "layout": "curva",
+  "kicker": "dove guarda quasi sempre chi osserva",
+  "ciclo": 6,
+  "punti": [
+   [
+    0,
+    18
+   ],
+   [
+    18,
+    22
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    42,
+    62
+   ],
+   [
+    55,
+    88
+   ],
+   [
+    68,
+    94
+   ],
+   [
+    82,
+    80
+   ],
+   [
+    100,
+    60
+   ]
+  ],
+  "vertice": {
+   "x": 68,
+   "et": "il picco: lo noti qui"
+  },
+  "sx": "la transizione: succede qui",
+  "dx": "e sei già in ritardo",
+  "title": "Non il picco. L'istante in cui cambia."
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "Non il picco.<br>La transizione."
+ },
+ {
+  "file": "c33",
+  "layout": "statement",
+  "title": "Se noti che una persona è rigida, sei già in ritardo.<br><span class=\"gold\">Il cambiamento è avvenuto qualche secondo prima.</span>"
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "title": "E la cosa che l'ha prodotto è già passata.<br><span class=\"gold\">Vedi l'effetto quando la causa non è più recuperabile.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "bilancia",
+  "kicker": "cosa si allena davvero",
+  "ciclo": 7,
+  "sx": {
+   "et": "riconoscere gli stati",
+   "peso": 2
+  },
+  "dx": {
+   "et": "accorgersi delle transizioni",
+   "peso": 9
+  },
+  "title": "Il primo è facile e arriva tardi. Il secondo è difficile e arriva in tempo."
+ },
+ {
+  "file": "c36",
+  "layout": "quote",
+  "kicker": "la domanda da farsi",
+  "title": "«Cosa stavamo dicendo<br>quando è cambiato?»"
+ },
+ {
+  "file": "c38",
+  "layout": "list",
+  "kicker": "primo caso in cui non si può usare",
+  "rows": [
+   "Un colloquio breve",
+   "Una vendita al banco",
+   "Cinque minuti davanti a un ascensore"
+  ],
+  "note": "Sono anche le situazioni in cui si ha più voglia di leggere qualcosa."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Lì non hai un metro e non farai in tempo a costruirlo.<br><span class=\"gold\">Qualunque lettura è una proiezione: stai leggendo te stesso.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "kicker": "secondo caso",
+  "title": "La persona che arriva già attivata.<br><span class=\"gold\">Il suo normale non lo vedrai mai, in quell'incontro.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Prenderai quello stato per il suo normale.<br><span class=\"gold\">Il metro parte già storto, e niente te lo segnala.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "kicker": "terzo caso",
+  "title": "Un fermo immagine non ha linea di base.<br><span class=\"gold\">Per definizione: è fatta di prima e di dopo.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "title": "Ed è il motivo per cui le analisi fatte su cinque secondi di filmato<br><span class=\"gold\">non valgono niente. Per quanto siano convincenti.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "e un'ultima distorsione",
+  "title": "In assenza della linea di base altrui<br><span class=\"gold\">usiamo la nostra come metro.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "table",
+  "theme": "sand",
+  "kicker": "il tuo metro sei tu",
+  "cols": [
+   "come sei tu",
+   "cosa ti sembra l'altro"
+  ],
+  "rows": [
+   [
+    "Gesticoli poco",
+    "esagerato chi gesticola molto"
+   ],
+   [
+    "Parli veloce",
+    "lento chi fa pause"
+   ],
+   [
+    "Tieni poco lo sguardo",
+    "invadente chi lo tiene a lungo"
+   ]
+  ]
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "Non stiamo osservando l'altro.<br><span class=\"gold\">Misuriamo la distanza dall'abitudine nostra, e la chiamiamo caratteristica sua.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "statement",
+  "title": "Partire dalla linea di base<br><span class=\"gold\">significa rinunciare alla lettura immediata.</span>"
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "In cambio si ottiene una cosa che la lettura immediata non dà mai:<br><span class=\"gold\">la possibilità di accorgersi di aver sbagliato.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Una persona che vedi spesso",
+   "La sua linea di base in quattro righe",
+   "Solo descrizioni, nessun giudizio"
+  ],
+  "note": "Farai una fatica enorme. E quello che ti verrà in mente per primo saranno giudizi."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "La Parola Giusta",
+  "sub": "laparolagiusta.it",
+  "site": "Capire i segni del linguaggio non verbale"
+ }
+]

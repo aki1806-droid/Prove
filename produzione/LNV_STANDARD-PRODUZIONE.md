@@ -165,3 +165,20 @@ schermata, e spalma il resto:
 
 Il minimo non è un dettaglio: nella 1.1 il memo «La causa non si vede mai.»
 durava 1,65 s, cioè non si leggeva.
+
+## 10. Lo stato della produzione
+
+| lezione | titolo | durata | video_id |
+|---|---|---|---|
+| 1.1 | Cosa puoi vedere e cosa no | 9:59 | `398ea314cef3f2ad10c84c58d66304b6` |
+| 1.2 | Il mito del 7-38-55 | 9:59 | `bfcfb4e1e8833c21023690bffe193dbc` |
+| 1.3 | Il segnale non è un significato | 9:59 | `44efbf5f74a587a117f278b65d5719ad` |
+| 1.4 | La linea di base | 10:06 | `a30c34a8a353be9153dce1b6663dbc9b` |
+
+Restano da produrre la 1.5 e tutto il modulo 2. I copioni dei moduli 1 e 2
+arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e `LNV_M2_SCRIPT-HEYGEN.md`.
+
+**Il controllo dei tagli di queste quattro lezioni è parziale** (vedi i
+registri): i crediti ElevenLabs sono a zero e la trascrizione di verifica non
+si può fare. Quando tornano, i confini segnalati nei registri vanno risentiti
+uno per uno con `tagli.py correggi`.
