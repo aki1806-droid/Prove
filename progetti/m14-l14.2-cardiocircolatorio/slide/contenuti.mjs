@@ -50,8 +50,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"tre", tema:"chiaro", sopratitolo:"Micro-lezione 2 di 8 · l'apparato cardiocircolatorio", box:[
   {n:"1", t:"Il cuore", d:"una **pompa**"}, {n:"2", t:"I vasi", d:"i **tubi**"}, {n:"3", t:"Il sangue", d:"il **mezzo di trasporto**"}]},
-{id:"s03", tipo:"raggiera", tema:"chiaro", sopratitolo:"Che cosa dipende da questo sistema · moduli 8 e 10", centro:"Circolo",
-  raggi:[{t:"Pressione"}, {t:"Perfusione", d:"degli organi"}, {t:"Shock", d:"la risposta", key:true}, {t:"Farmaci", d:"l'azione di molti"}]},
+{id:"s03", tipo:"raggiera", tema:"chiaro", sopratitolo:"Ne dipendono · collegamenti con i moduli 8 e 10", centro:"Circolo",
+  raggi:[{t:"Pressione"}, {t:"Perfusione"}, {t:"Shock", key:true}, {t:"Farmaci"}]},
 
 {id:"s04", tipo:"confronto", tema:"chiaro", sopratitolo:"4 cavità · le valvole atrioventricolari separano atri e ventricoli", col:[
   {h:"Cuore destro", t:"atrio e ventricolo destro · valvola **tricuspide**"},

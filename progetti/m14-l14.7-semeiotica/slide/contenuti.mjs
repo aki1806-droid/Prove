@@ -88,37 +88,38 @@ export const SCENE = [
 
 {id:"s17", tipo:"frase", tema:"chiaro", sopratitolo:"Gli esami di laboratorio · i valori cambiano fra laboratori",
   testo:"Valori **indicativi**: fa sempre fede l'intervallo **riportato sul referto**."},
-{id:"s18", tipo:"cifre", tema:"chiaro", sopratitolo:"L'emocromo · valori indicativi nell'adulto", voci:[
-  {n:"13–17", suf:"g/dl", t:"Emoglobina", d:"uomo"}, {n:"12–16", suf:"g/dl", t:"Emoglobina", d:"donna"},
-  {n:"4–10", suf:"mila/mm³", t:"Globuli bianchi", d:"4.000–10.000", key:true}]},
-{id:"s19", tipo:"tabella", tema:"chiaro", sopratitolo:"L'emocromo · neutrofili e piastrine", colonne:["34%","34%","32%"],
-  intestazioni:["Esame", "Valore indicativo", "Significato"], righe:[
-  ["Neutrofili", "< 1.500", "neutropenia"], ["Neutrofili", "< 500", "neutropenia **grave** · lezione 8.7"],
-  ["Piastrine", "~150.000–450.000/mm³", "intervallo indicativo"]], chiave:[1]},
+{id:"s18", tipo:"tabella", tema:"chiaro", sopratitolo:"L'emocromo · valori indicativi nell'adulto", colonne:["50%","50%"],
+  intestazioni:["Esame", "Valore indicativo"], righe:[
+  ["Emoglobina · uomo", "~13–17 g/dl"], ["Emoglobina · donna", "~12–16 g/dl"],
+  ["Globuli bianchi", "~4.000–10.000/mm³"]], chiave:[2]},
+{id:"s19", tipo:"cifre", tema:"chiaro", sopratitolo:"Neutrofili · e le piastrine: ~150.000–450.000/mm³", voci:[
+  {n:"< 1.500", t:"Neutrofili", d:"neutropenia"},
+  {n:"< 500", t:"Neutrofili", d:"neutropenia **grave** · lezione 8.7", key:true}]},
 
-{id:"s20", tipo:"cifre", tema:"chiaro", sopratitolo:"Gli elettroliti", voci:[
-  {n:"135–145", suf:"mEq/L", t:"Sodio"},
-  {n:"3,5–5,0", suf:"mEq/L", t:"Potassio", d:"soglie di pericolo · lezione 3.5", key:true}]},
-{id:"s21", tipo:"cifre", tema:"chiaro", sopratitolo:"Calcio e glicemia", voci:[
-  {n:"8,5–10,5", suf:"mg/dl", t:"Calcio totale", d:"da correggere per l'albumina"},
-  {n:"70–99", suf:"mg/dl", t:"Glicemia a digiuno", key:true}]},
+{id:"s20", tipo:"cifre", tema:"chiaro", sopratitolo:"Gli elettroliti · valori indicativi", voci:[
+  {n:"135–145", t:"Sodio", d:"mEq/L"},
+  {n:"3,5–5,0", t:"Potassio", d:"mEq/L · soglie di pericolo: lezione 3.5", key:true}]},
+{id:"s21", tipo:"cifre", tema:"chiaro", sopratitolo:"Calcio e glicemia · valori indicativi", voci:[
+  {n:"8,5–10,5", t:"Calcio totale", d:"mg/dl · da correggere per l'albumina"},
+  {n:"70–99", t:"Glicemia a digiuno", d:"mg/dl", key:true}]},
 {id:"s22", tipo:"tre", tema:"chiaro", sopratitolo:"La funzione renale", box:[
   {n:"1", t:"Creatinina", d:"~0,6–1,2 mg/dl · dipende dalla **massa muscolare**"},
   {n:"2", t:"GFR stimato", d:"da affiancare alla creatinina", key:true},
   {n:"3", t:"Azotemia", d:"urea"}]},
 
-{id:"s23", tipo:"cifre", tema:"chiaro", sopratitolo:"La coagulazione", voci:[
-  {n:"0,8–1,2", t:"INR"}, {n:"2–3", t:"INR", d:"in terapia con **warfarin**", key:true},
-  {n:"25–35", suf:"s", t:"aPTT"}]},
-{id:"s24", tipo:"tabella", tema:"chiaro", sopratitolo:"Fegato e infiammazione", colonne:["40%","60%"],
+{id:"s23", tipo:"tabella", tema:"chiaro", sopratitolo:"La coagulazione · valori indicativi", colonne:["50%","50%"],
   intestazioni:["Esame", "Valore indicativo"], righe:[
-  ["Albumina", "~3,5–5 g/dl"], ["Bilirubina totale", "< ~1,2 mg/dl"],
-  ["PCR · proteina C reattiva", "**aumenta** nell'infiammazione"]], chiave:[2]},
+  ["INR", "~0,8–1,2"], ["INR in terapia con **warfarin**", "di norma **2–3**"],
+  ["aPTT", "~25–35 secondi"]], chiave:[1]},
+{id:"s24", tipo:"tre", tema:"chiaro", sopratitolo:"Fegato e infiammazione", box:[
+  {n:"1", t:"Albumina", d:"~3,5–5 g/dl"}, {n:"2", t:"Bilirubina totale", d:"< ~1,2 mg/dl"},
+  {n:"3", t:"PCR", d:"proteina C reattiva: **aumenta** nell'infiammazione", key:true}]},
 {id:"s25", tipo:"confronto", tema:"chiaro", sopratitolo:"Lattati e troponina", col:[
   {h:"Lattati", t:"< **2** mmol/L", grande:true},
   {h:"Troponina", t:"soglie secondo il **metodo del laboratorio**"}]},
-{id:"s26", tipo:"cifre", tema:"chiaro", sopratitolo:"L'emogas · valori indicativi", voci:[
-  {n:"7,35–7,45", t:"pH", key:true}, {n:"35–45", t:"PaCO₂"}, {n:"80–100", t:"PaO₂", d:"circa"}, {n:"22–26", t:"HCO₃⁻", d:"bicarbonato"}]},
+{id:"s26", tipo:"tabella", tema:"chiaro", sopratitolo:"L'emogas · valori indicativi", colonne:["50%","50%"],
+  intestazioni:["Parametro", "Valore indicativo"], righe:[
+  ["pH", "**7,35–7,45**"], ["PaCO₂", "35–45"], ["PaO₂", "~80–100"], ["HCO₃⁻ · bicarbonato", "22–26"]], chiave:[0]},
 
 {id:"s27", tipo:"frase", tema:"chiaro", sopratitolo:"Il valore critico · o «di panico»",
   testo:"Un risultato che indica un **pericolo immediato** per il paziente.",
