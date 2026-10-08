@@ -6,7 +6,7 @@ e la fonte si dice a voce, con l'anno.
 
 | campo | valore |
 |---|---|
-| video_id | `bfcfb4e1e8833c21023690bffe193dbc` |
+| video_id | `b4ed824ae7dbb0fe62d48ec46ee07946` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 598,7 s (9:59) |

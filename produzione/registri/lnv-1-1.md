@@ -7,7 +7,7 @@ inquadratura per ogni blocco.
 
 | campo | valore |
 |---|---|
-| video_id | `398ea314cef3f2ad10c84c58d66304b6` |
+| video_id | `7d8cc3f42b1723f8202dc47b4e6dc66a` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 598,6 s (9:59) |

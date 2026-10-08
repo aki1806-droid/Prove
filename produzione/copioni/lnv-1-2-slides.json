@@ -132,9 +132,9 @@
  },
  {
   "file": "c16",
-  "layout": "quote",
+  "layout": "statement",
   "kicker": "il materiale degli esperimenti",
-  "title": "«Grazie», detto con la voce<br>di chi non ringrazia affatto."
+  "title": "«Grazie», detto con la voce<br><span class=\"gold\">di chi non ringrazia affatto.</span>"
  },
  {
   "file": "c17",
@@ -275,7 +275,7 @@
   "file": "c35",
   "layout": "quote",
   "kicker": "quello che resta, ed è solido",
-  "title": "«Quando i canali si contraddicono,<br>chi ascolta crede al non verbale.»"
+  "title": "Quando i canali si contraddicono,<br>chi ascolta crede al non verbale."
  },
  {
   "file": "c36",

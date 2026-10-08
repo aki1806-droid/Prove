@@ -170,19 +170,20 @@ durava 1,65 s, cioè non si leggeva.
 
 | lezione | titolo | durata | video_id |
 |---|---|---|---|
-| 1.1 | Cosa puoi vedere e cosa no | 9:59 | `398ea314cef3f2ad10c84c58d66304b6` |
-| 1.2 | Il mito del 7-38-55 | 9:59 | `bfcfb4e1e8833c21023690bffe193dbc` |
-| 1.3 | Il segnale non è un significato | 9:59 | `44efbf5f74a587a117f278b65d5719ad` |
-| 1.4 | La linea di base | 10:04 | `a30c34a8a353be9153dce1b6663dbc9b` |
-| 1.5 | Guardare senza concludere | 9:59 | `70fdff78b0b7e47eb85811d4aa7c0790` |
+| 1.1 | Cosa puoi vedere e cosa no | 9:59 | `7d8cc3f42b1723f8202dc47b4e6dc66a` |
+| 1.2 | Il mito del 7-38-55 | 9:59 | `b4ed824ae7dbb0fe62d48ec46ee07946` |
+| 1.3 | Il segnale non è un significato | 9:59 | `1def2634f6325ac79f3ab7c13956a9cd` |
+| 1.4 | La linea di base | 10:04 | `2fa9b6c92246ddf477394788c35827a1` |
+| 1.5 | Guardare senza concludere | 9:59 | `c2f6aadf351260b0cd86cd47a2e73abb` |
+| 2.1 | Le sette emozioni | 9:59 | `1f356ac50ea758d66042448ef92a8d49` |
 
 **Modulo 1 completo**: cinquanta minuti meno un secondo, duecentotrentacinque slide, trentasei
 fra diagrammi e infografiche, quindici riprese. Il registro di modulo sta in
-`registri/lnv-modulo-1.md`. Resta da produrre tutto il modulo 2; i copioni dei
-moduli 1 e 2 arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
+`registri/lnv-modulo-1.md`. Restano da produrre le lezioni 2.2-2.5; i copioni
+dei moduli 1 e 2 arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
 `LNV_M2_SCRIPT-HEYGEN.md`.
 
-**Il controllo dei tagli di queste cinque lezioni è parziale** (vedi i
+**Il controllo dei tagli di queste sei lezioni è parziale** (vedi i
 registri): i crediti ElevenLabs sono a zero e la trascrizione di verifica non
 si può fare. Quando tornano, i confini segnalati nei registri vanno risentiti
 uno per uno con `tagli.py correggi`.

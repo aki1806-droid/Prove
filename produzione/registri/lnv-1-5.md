@@ -7,7 +7,7 @@ della conclusione.
 
 | campo | valore |
 |---|---|
-| video_id | `70fdff78b0b7e47eb85811d4aa7c0790` |
+| video_id | `c2f6aadf351260b0cd86cd47a2e73abb` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 598,9 s (9:59) |

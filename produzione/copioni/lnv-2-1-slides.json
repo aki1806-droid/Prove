@@ -1,0 +1,458 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 2 · Lezione 2.1",
+  "title": "Le sette emozioni",
+  "sub": "Cosa regge e cosa è discusso"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Sette emozioni universali, una faccia per ciascuna,<br><span class=\"gold\">uguale in tutto il mondo.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Viene raccontata come un fatto acquisito.<br><span class=\"gold\">Non lo è.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "swap",
+  "kicker": "due parti della ricerca, in buona parte gli stessi dati",
+  "rows": [
+   [
+    "Una posizione forte",
+    "sostenuta da molti"
+   ],
+   [
+    "Una contestazione seria",
+    "sostenuta da altrettanti"
+   ]
+  ]
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Dirlo non è pedanteria.<br><span class=\"gold\">Cambia il modo in cui userai tutto questo modulo.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "bivio",
+  "kicker": "le due versioni portano a due moduli diversi",
+  "da": "un modulo sul volto",
+  "rami": [
+   {
+    "et": "versione chiusa",
+    "sub": "un dizionario di facce"
+   },
+   {
+    "et": "versione aperta",
+    "sub": "vedere i cambiamenti"
+   }
+  ],
+  "acceso": 1,
+  "title": "La seconda è più modesta, e non scade quando la ricerca cambia idea."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "kicker": "comincio da quello che regge",
+  "title": "Un repertorio limitato di configurazioni del volto<br><span class=\"gold\">riconosciuto, in culture diverse, molto sopra il caso.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "list",
+  "kicker": "ed è parecchio",
+  "rows": [
+   "Replicato molte volte",
+   "Anni Sessanta e Settanta",
+   "Popolazioni lontanissime fra loro"
+  ],
+  "note": "Comprese alcune che non avevano mai visto un volto occidentale."
+ },
+ {
+  "file": "c10",
+  "layout": "statement",
+  "title": "Il volto umano non è un sistema arbitrario.<br><span class=\"gold\">Qualcosa di comune c'è, e si può misurare.</span>"
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Un film senza sottotitoli non è illeggibile.<br><span class=\"gold\">Il punto non è se qualcosa passi: è che cosa passa.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Il problema nasce al passaggio successivo.<br><span class=\"gold\">E quasi nessuno lo segnala.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "confronto",
+  "occhio": "due affermazioni diverse",
+  "titoli": [
+   "riconoscimento",
+   "produzione"
+  ],
+  "righe": [
+   {
+    "et": "cosa dice",
+    "a": "questa faccia viene chiamata rabbia",
+    "b": "chi è arrabbiato fa questa faccia",
+    "segna": "b"
+   },
+   {
+    "et": "come si verifica",
+    "a": "mostrando fotografie",
+    "b": "guardando persone vere",
+    "segna": "b"
+   },
+   {
+    "et": "quanto regge",
+    "a": "ragionevolmente solido",
+    "b": "molto più debole",
+    "segna": "b"
+   }
+  ]
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "Si assomigliano.<br><span class=\"gold\">E non sono affatto la stessa cosa.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "list",
+  "kicker": "due obiezioni al quadro classico",
+  "rows": [
+   "Il metodo delle scelte forzate",
+   "La variabilità reale"
+  ],
+  "note": "Tornano entrambe in tutto il modulo."
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Una foto, e una lista di parole fra cui scegliere.<br><span class=\"gold\">Con quel formato l'accordo è alto.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "barre",
+  "kicker": "cosa succede togliendo la lista",
+  "barre": [
+   {
+    "et": "scelta fra sei parole",
+    "v": 84,
+    "val": "accordo alto"
+   },
+   {
+    "et": "risposta libera",
+    "v": 38,
+    "val": "accordo molto più basso"
+   }
+  ],
+  "acceso": 1
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "title": "Un test a crocette misura anche quanto sono fatte male<br><span class=\"gold\">le alternative sbagliate. Un volto non ha una lista accanto.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "memo",
+  "title": "La lista suggerisce la risposta<br>tanto quanto la misura."
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "kicker": "la seconda obiezione",
+  "title": "Persone in situazioni vere, non attori che posano.<br><span class=\"gold\">La corrispondenza diventa molto meno regolare.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "swap",
+  "kicker": "e funziona anche al contrario",
+  "rows": [
+   [
+    "Le persone arrabbiate",
+    "spesso non hanno la faccia della rabbia"
+   ],
+   [
+    "Chi ha la faccia della rabbia",
+    "spesso non è arrabbiato"
+   ]
+  ]
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "kicker": "la rassegna del 2019, coordinata da Lisa Feldman Barrett",
+  "title": "Centinaia di studi, una domanda sola:<br><span class=\"gold\">quanto è affidabile il passo dalla faccia al nome?</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "quote",
+  "kicker": "la conclusione",
+  "title": "Le configurazioni facciali non mappano<br>in modo affidabile su categorie<br>emotive specifiche."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Non dice che il volto non comunichi niente.<br><span class=\"gold\">Dice che quel passo è più incerto di come viene venduto.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "bilancia",
+  "kicker": "e la replica esiste, ed è seria",
+  "ciclo": 7,
+  "sx": {
+   "et": "le configurazioni non mappano",
+   "peso": 5
+  },
+  "dx": {
+   "et": "il laboratorio comprime",
+   "peso": 5
+  },
+  "title": "Nessuno dei due piatti scende. È questo che vuol dire «contestato»."
+ },
+ {
+  "file": "c27",
+  "layout": "table",
+  "kicker": "tre affermazioni, tre solidità diverse",
+  "cols": [
+   "affermazione",
+   "stato"
+  ],
+  "rows": [
+   [
+    "Certe configurazioni riconosciute sopra il caso",
+    "ragionevolmente solido"
+   ],
+   [
+    "Ogni emozione ha la sua espressione",
+    "contestato"
+   ],
+   [
+    "Si può stabilire cosa prova una persona",
+    "non sostenuto"
+   ]
+  ]
+ },
+ {
+  "file": "c28",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Replicato, misurato, difficile da smontare.<br><span class=\"gold\">In questo modulo costruiremo proprio su questo.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "kicker": "la seconda",
+  "title": "Non smentito: contestato.<br><span class=\"gold\">C'è ricerca seria da entrambi i lati.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "kicker": "la terza",
+  "title": "Non c'è un lato della letteratura che la difenda<br><span class=\"gold\">nella forma in cui viene insegnata nei corsi.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "swap",
+  "kicker": "e la terza è quella che viene venduta",
+  "rows": [
+   [
+    "Le prime due",
+    "stanno negli articoli"
+   ],
+   [
+    "La terza",
+    "sta nelle slide"
+   ]
+  ]
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "Le espressioni dicono quando.<br>Non dicono cosa."
+ },
+ {
+  "file": "c33",
+  "layout": "anello",
+  "kicker": "l'uso pratico non dipende dall'esito del dibattito",
+  "ciclo": 6,
+  "passi": [
+   "il volto cambia",
+   "lo noti",
+   "fai una domanda",
+   "ascolti la risposta"
+  ],
+  "title": "Questo giro regge in entrambi i casi, e non chiede nessuna etichetta."
+ },
+ {
+  "file": "c34",
+  "layout": "swap",
+  "kicker": "la mossa che regge in entrambi i casi",
+  "rows": [
+   [
+    "«È la faccia della rabbia, quindi è arrabbiato»",
+    "etichetta di stato"
+   ],
+   [
+    "«Il suo volto è cambiato adesso»",
+    "segnale di cambiamento"
+   ]
+  ]
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "E c'è un motivo per cui il dibattito esiste.<br><span class=\"gold\">Riguarda le parole, prima che i volti.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Le parole delle emozioni sono categorie molto larghe.<br><span class=\"gold\">Più larghe di quanto sembri quando le pronunciamo.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "raggi",
+  "kicker": "cosa sta sotto una parola sola",
+  "centro": "rabbia",
+  "attorno": [
+   {
+    "et": "indignazione",
+    "d": 28
+   },
+   {
+    "et": "irritazione",
+    "d": 52
+   },
+   {
+    "et": "rancore freddo",
+    "d": 88
+   },
+   {
+    "et": "frustrazione",
+    "d": 70
+   }
+  ],
+  "title": "Quattro stati diversi sotto una parola sola. E quattro facce diverse."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Stati che si somigliano poco.<br><span class=\"gold\">E che in una lista di sei parole finiscono sotto la stessa.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "Cercare l'espressione della rabbia<br><span class=\"gold\">è un po' come cercare il sapore della frutta.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "Gli studi non stanno misurando male.<br><span class=\"gold\">Stanno misurando una cosa più larga dello strumento.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "list",
+  "theme": "sand",
+  "kicker": "tre errori da evitare da qui in avanti",
+  "rows": [
+   "Presentare le sette emozioni come fatto chiuso",
+   "Usare l'etichetta al posto dell'osservazione",
+   "Cercare categorie fini"
+  ],
+  "note": "Se li vedi anche in questo corso, sono errori miei."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "il primo",
+  "title": "È la posizione di una parte della ricerca.<br><span class=\"gold\">Spacciarla per consenso fa un favore a chi vende corsi.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "swap",
+  "theme": "sand",
+  "kicker": "il secondo",
+  "rows": [
+   [
+    "«Disprezzo»",
+    "una conclusione: si può solo difendere"
+   ],
+   [
+    "«Il labbro si è alzato da un lato»",
+    "un dato: si verifica in dieci secondi"
+   ]
+  ]
+ },
+ {
+  "file": "c45",
+  "layout": "termometro",
+  "theme": "sand",
+  "kicker": "il terzo errore: scendere troppo",
+  "ciclo": 7,
+  "livello": 16,
+  "tacche": [
+   {
+    "a": 88,
+    "et": "spiacevole — quasi sempre giusto"
+   },
+   {
+    "a": 52,
+    "et": "infastidito — spesso giusto"
+   },
+   {
+    "a": 16,
+    "et": "indignato — spesso sbagliato"
+   }
+  ],
+  "title": "Più scendi verso la parola precisa, più è probabile che sia sbagliata."
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "title": "E non è una rinuncia.<br><span class=\"gold\">Spiacevole ti dice già dove fare la prossima domanda.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "Più l'etichetta è precisa,<br>più è probabile che sia sbagliata."
+ },
+ {
+  "file": "c48",
+  "layout": "list",
+  "kicker": "le prossime quattro lezioni",
+  "rows": [
+   "Il sistema di codifica",
+   "Le espressioni a occhio nudo",
+   "Le microespressioni",
+   "I due sorrisi"
+  ],
+  "note": "Quattro lezioni, e una cornice sola."
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Il volto cambia",
+   "Non dargli un nome",
+   "Annota solo: piacevole oppure spiacevole"
+  ],
+  "note": "Due categorie, non sette. Funzionano quasi sempre."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine della lezione 2.1",
+  "sub": "2.2 — Il FACS: cos'è e a cosa serve davvero",
+  "site": "laparolagiusta.it"
+ }
+]

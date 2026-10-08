@@ -8,11 +8,11 @@ Ogni lezione ha il suo registro con i dettagli.
 
 | lezione | video_id | durata | scene |
 |---|---|---|---|
-| 1.1 Cosa puoi vedere e cosa no | `398ea314cef3f2ad10c84c58d66304b6` | 9:59 | 50 |
-| 1.2 Il mito del 7-38-55 | `bfcfb4e1e8833c21023690bffe193dbc` | 9:59 | 50 |
-| 1.3 Il segnale non è un significato | `44efbf5f74a587a117f278b65d5719ad` | 9:59 | 50 |
-| 1.4 La linea di base | `a30c34a8a353be9153dce1b6663dbc9b` | 10:04 | 50 |
-| 1.5 Guardare senza concludere | `70fdff78b0b7e47eb85811d4aa7c0790` | 9:59 | 50 |
+| 1.1 Cosa puoi vedere e cosa no | `7d8cc3f42b1723f8202dc47b4e6dc66a` | 9:59 | 50 |
+| 1.2 Il mito del 7-38-55 | `b4ed824ae7dbb0fe62d48ec46ee07946` | 9:59 | 50 |
+| 1.3 Il segnale non è un significato | `1def2634f6325ac79f3ab7c13956a9cd` | 9:59 | 50 |
+| 1.4 La linea di base | `2fa9b6c92246ddf477394788c35827a1` | 10:04 | 50 |
+| 1.5 Guardare senza concludere | `c2f6aadf351260b0cd86cd47a2e73abb` | 9:59 | 50 |
 
 Durata del modulo: **quarantanove minuti e cinquantanove secondi**.
 Duecentotrentacinque slide, di cui **trentasei** sono diagrammi o
@@ -85,6 +85,24 @@ l'immagine dentro la risposta, una per chiamata: dove non è tornata ho
 rigenerato finché non è tornata. Sei immagini sono state rifatte perché la
 prima versione aveva testo leggibile, un volto distinguibile o una palette
 fuori standard.
+
+## Le cinque lezioni sono state rimontate una volta
+
+Il layout `quote` aggiunge da solo le virgolette a caporale in oro: otto slide
+del modulo le portavano anche nel titolo, e a schermo uscivano **doppie** —
+« «Questo corso non ti insegnerà a leggere le persone.» ». Le slide erano
+`c02` nella 1.1, `c16` e `c35` nella 1.2, `c07` e `c47` nella 1.3, `c36` nella
+1.4, `c21` e `c27` nella 1.5.
+
+Sono state corrette, rirenderizzate e ricaricate, e i cinque video sono stati
+rimontati: **i video_id in questa tabella sono quelli nuovi**, i precedenti
+non vanno più usati. La `c16` della 1.2 non era una citazione intera — le
+virgolette stavano solo intorno alla parola pronunciata — e quindi è passata
+da `quote` a `statement`, che non le aggiunge.
+
+Il difetto è finito fra le trappole di `STANDARD.md` §6 insieme ai due vicini
+che ha fatto emergere: le infografiche chiamano l'occhiello `occhio` e non
+`kicker`, e il campo `d` di `raggi` è una distanza, non una descrizione.
 
 ## Cosa resta da verificare
 

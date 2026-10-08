@@ -582,6 +582,21 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   vera — dice che un confine è spostato, non dove va rimesso — ma gli errori
   grossi li trova tutti.
 
+- **Il layout `quote` mette le virgolette da solo, `occhio` non si chiama
+  `kicker`.** Due difetti dello stesso tipo: si passa un dato che il layout
+  genera già, oppure lo si passa con il nome sbagliato e sparisce senza
+  errore. `quote` aggiunge « » in oro con `::before`/`::after`, quindi un
+  titolo che le contiene le mostra doppie — otto slide del modulo 1 del corso
+  LNV erano montate così, e sono state rifatte. Le infografiche di
+  `info_corso.mjs` (anatomia, cruscotto, cartellino, confronto) chiamano
+  l'occhiello `occhio`, mentre i diagrammi di `figure_corso.mjs` e i layout
+  base lo chiamano `kicker`: passare `kicker` a un'infografica non dà errore,
+  l'occhiello semplicemente non compare. E in `raggi` il campo `d` di ogni
+  satellite è una **distanza 0..100**, non una descrizione: con una stringa
+  tutte e quattro le etichette finiscono nello stesso punto.
+  **La regola che le copre tutte e tre: le slide con un disegno o
+  un'infografica si guardano da ferme prima di animarle, una per una.**
+
 ## 7. Ordine di lavoro
 
 1. Spezzare lo script in blocchi (un blocco = una scena) segnando per ciascuno

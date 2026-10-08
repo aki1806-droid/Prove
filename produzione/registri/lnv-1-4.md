@@ -6,7 +6,7 @@ sta rispetto a come stava.
 
 | campo | valore |
 |---|---|
-| video_id | `a30c34a8a353be9153dce1b6663dbc9b` |
+| video_id | `2fa9b6c92246ddf477394788c35827a1` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 604,5 s (10:04) |
