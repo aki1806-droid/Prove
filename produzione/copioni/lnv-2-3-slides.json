@@ -1,0 +1,477 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 2 · Lezione 2.3",
+  "title": "Le espressioni che si vedono a occhio nudo",
+  "sub": "Il volto"
+ },
+ {
+  "file": "c02",
+  "layout": "swap",
+  "kicker": "cosa hanno tolto le due lezioni precedenti",
+  "rows": [
+   [
+    "La 2.1",
+    "l'etichetta emotiva"
+   ],
+   [
+    "La 2.2",
+    "la codifica precisa in tempo reale"
+   ]
+  ]
+ },
+ {
+  "file": "c03",
+  "layout": "statement",
+  "title": "Questa rimette qualcosa al suo posto.<br><span class=\"gold\">Ed è la lezione più operativa del modulo.</span>"
+ },
+ {
+  "file": "c04",
+  "layout": "swap",
+  "kicker": "e lo fa cambiando la domanda",
+  "rows": [
+   [
+    "«Quale emozione è?»",
+    "nessuna risposta affidabile"
+   ],
+   [
+    "«Cosa è cambiato?»",
+    "si risponde a occhio nudo"
+   ]
+  ]
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "Quattro proprietà che chiunque vede<br><span class=\"gold\">senza imparare niente e senza nessuno strumento.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "cards",
+  "kicker": "le quattro proprietà",
+  "rows": [
+   {
+    "icona": "1",
+    "testo": "intensità — quanto è marcato"
+   },
+   {
+    "icona": "2",
+    "testo": "asimmetria — se un lato si muove di più"
+   },
+   {
+    "icona": "3",
+    "testo": "durata — quanto resta sul volto"
+   },
+   {
+    "icona": "4",
+    "testo": "zona degli occhi — la meno controllabile"
+   }
+  ]
+ },
+ {
+  "file": "c07",
+  "layout": "memo",
+  "title": "Nessuna dice quale emozione.<br>Tutte dicono che qualcosa è cambiato."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "kicker": "la prima: l'intensità",
+  "title": "È la più sottovalutata.<br><span class=\"gold\">E chi sbaglia il livello non vede proprio niente.</span>"
+ },
+ {
+  "file": "c10",
+  "layout": "swap",
+  "kicker": "perché non ritrovi le facce dei libri",
+  "rows": [
+   [
+    "I manuali",
+    "espressioni al massimo grado, spesso di attori"
+   ],
+   [
+    "La realtà",
+    "un accenno che dura mezzo secondo"
+   ]
+  ]
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Non è che non ci siano.<br><span class=\"gold\">Le stai cercando al livello sbagliato di intensità.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "termometro",
+  "kicker": "dove guarda chi non trova niente",
+  "ciclo": 7,
+  "livello": 88,
+  "tacche": [
+   {
+    "a": 88,
+    "et": "la faccia del manuale — non arriverà"
+   },
+   {
+    "a": 50,
+    "et": "un'espressione netta — rara"
+   },
+   {
+    "a": 14,
+    "et": "l'increspatura — è qui che succede"
+   }
+  ],
+  "title": "Chi cerca in alto si salta tutto quello che sta in basso."
+ },
+ {
+  "file": "c13",
+  "layout": "memo",
+  "title": "È una questione di taratura dell'occhio.<br>Non devi sapere di più: devi abbassare la soglia."
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "kicker": "la seconda: l'asimmetria",
+  "title": "La maggior parte delle espressioni spontanee<br><span class=\"gold\">è abbastanza simmetrica. È questo il dato di partenza.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Quelle volontarie lo sono un po' meno.<br><span class=\"gold\">È un segnale vero, ed è anche un segnale debole.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "memo",
+  "theme": "sand",
+  "title": "L'asimmetria<br>non significa falsità."
+ },
+ {
+  "file": "c17",
+  "layout": "list",
+  "theme": "sand",
+  "kicker": "perché un movimento può non essere spontaneo",
+  "rows": [
+   "La cortesia",
+   "L'abitudine",
+   "L'autocontrollo professionale",
+   "L'anatomia di quel volto"
+  ],
+  "note": "Nessuna di queste richiede che qualcuno stia mentendo."
+ },
+ {
+  "file": "c18",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "Alcune condizioni mediche producono<br><span class=\"gold\">un'asimmetria stabile, che c'è sempre.</span>"
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Senza linea di base un volto asimmetrico<br><span class=\"gold\">non ti dice assolutamente niente.</span>"
+ },
+ {
+  "file": "c20",
+  "layout": "statement",
+  "title": "Se la noti la prima volta che vedi una persona,<br><span class=\"gold\">non hai notato niente: hai notato com'è fatta.</span>"
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "kicker": "la terza: la durata",
+  "title": "È la più utile delle quattro.<br><span class=\"gold\">Ed è quella che quasi nessuno guarda.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "curva",
+  "kicker": "il profilo di un'espressione spontanea",
+  "ciclo": 6,
+  "punti": [
+   [
+    0,
+    12
+   ],
+   [
+    18,
+    20
+   ],
+   [
+    34,
+    76
+   ],
+   [
+    50,
+    84
+   ],
+   [
+    66,
+    78
+   ],
+   [
+    82,
+    24
+   ],
+   [
+    100,
+    12
+   ]
+  ],
+  "vertice": {
+   "x": 50,
+   "et": "resta brevemente"
+  },
+  "sx": "sale",
+  "dx": "scende",
+  "title": "Sale, resta, scende. È questione di secondi, non di minuti."
+ },
+ {
+  "file": "c23",
+  "layout": "swap",
+  "kicker": "e i due profili che non tornano",
+  "rows": [
+   [
+    "Resta identica troppo a lungo",
+    "quasi sempre tenuta"
+   ],
+   [
+    "Sparisce di colpo, senza scendere",
+    "era sostenuta da uno sforzo"
+   ]
+  ]
+ },
+ {
+  "file": "c24",
+  "layout": "list",
+  "kicker": "le due che vedrai più spesso",
+  "rows": [
+   "Il sorriso che dura tutta la presentazione",
+   "La faccia attenta che non cambia per quaranta minuti"
+  ],
+  "note": "Nemmeno quando cambia l'argomento."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "title": "Il volto torna a riposo in un fotogramma solo,<br><span class=\"gold\">come se qualcuno avesse staccato una corrente.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "memo",
+  "title": "Tenuta non significa falsa."
+ },
+ {
+  "file": "c27",
+  "layout": "statement",
+  "title": "Significa che quella persona<br><span class=\"gold\">sta gestendo la propria espressione.</span>"
+ },
+ {
+  "file": "c29",
+  "layout": "swap",
+  "kicker": "e qui si decide il tono di tutto il modulo",
+  "rows": [
+   [
+    "Gestire",
+    "una cosa che facciamo tutti"
+   ],
+   [
+    "Fingere",
+    "un'altra cosa"
+   ]
+  ]
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "kicker": "la quarta: la zona degli occhi",
+  "title": "Qui c'è una cosa che cambia <i>dove</i> guardi.<br><span class=\"gold\">Non come: proprio dove.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "quadranti",
+  "kicker": "quanto costa controllare le due metà",
+  "xet": "quanto è facile controllarla",
+  "yet": "altezza sul volto",
+  "celle": [
+   "sopracciglia e zona degli occhi",
+   "",
+   "",
+   "la bocca"
+  ],
+  "acceso": 0,
+  "title": "La bocca la governiamo da quando siamo bambini. Il resto molto meno."
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "Se stai guardando la bocca,<br>stai guardando la parte<br>che l'altro controlla meglio."
+ },
+ {
+  "file": "c33",
+  "layout": "statement",
+  "title": "Spostare lo sguardo di qualche centimetro più su<br><span class=\"gold\">non costa niente e non si vede da fuori.</span>"
+ },
+ {
+  "file": "c34",
+  "layout": "cards",
+  "kicker": "due cose da notare lassù, e non serve altro",
+  "rows": [
+   {
+    "icona": "1",
+    "testo": "cosa fanno le sopracciglia: si alzano, si avvicinano, si abbassano"
+   },
+   {
+    "icona": "2",
+    "testo": "se la zona attorno agli occhi si restringe"
+   }
+  ]
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "title": "È un movimento piccolo.<br><span class=\"gold\">E cambia il significato di qualunque cosa faccia la bocca sotto.</span>"
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "kicker": "e una conclusione che va contro l'istinto",
+  "title": "Non si guarda un volto<br><span class=\"gold\">fissandolo.</span>"
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Fissare produce molta osservazione e pochissima informazione.<br><span class=\"gold\">Manca il termine di paragone.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "linea",
+  "kicker": "i momenti in cui vale la pena guardare",
+  "ciclo": 7,
+  "momenti": [
+   {
+    "a": 14,
+    "et": "argomento nuovo",
+    "sub": "l'hai introdotto tu"
+   },
+   {
+    "a": 38,
+    "et": "una domanda",
+    "sub": "l'hai fatta tu"
+   },
+   {
+    "a": 62,
+    "et": "un numero",
+    "sub": "l'hai detto tu"
+   },
+   {
+    "a": 86,
+    "et": "un nome",
+    "sub": "l'hai nominato tu"
+   }
+  ],
+  "sx": "la conversazione",
+  "dx": "continua",
+  "title": "Quattro momenti, e li decidi tutti tu."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Lì un cambiamento è interpretabile,<br><span class=\"gold\">perché sai cosa lo ha preceduto: ce l'hai messo tu.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "title": "Fuori da quei momenti può voler dire qualunque cosa.<br><span class=\"gold\">Tanti dati, nessun contesto.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "list",
+  "theme": "sand",
+  "kicker": "quattro errori da evitare",
+  "rows": [
+   "Cercare le facce dei manuali",
+   "Leggere l'asimmetria come falsità",
+   "Guardare la bocca",
+   "Fissare in continuazione"
+  ],
+  "note": "Si fanno quasi sempre insieme, e nei primi giorni."
+ },
+ {
+  "file": "c42",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "il primo",
+  "title": "Chi cerca la faccia completa non vede niente per settimane,<br><span class=\"gold\">si convince di non essere portato, e smette.</span>"
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "il secondo",
+  "title": "È il mito più comodo del campo.<br><span class=\"gold\">E non regge.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "il terzo",
+  "title": "È anche il più facile da correggere di tutti e quattro.<br><span class=\"gold\">Costa zero e si corregge in una conversazione sola.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "il quarto",
+  "title": "Mette a disagio chi hai davanti,<br><span class=\"gold\">che se ne accorge prima di saper dire come. E si controlla.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "cruscotto",
+  "occhio": "quello che resta di questa lezione",
+  "celle": [
+   {
+    "cap": "intensità",
+    "et": "cerca increspature"
+   },
+   {
+    "cap": "asimmetria",
+    "et": "non è falsità"
+   },
+   {
+    "cap": "durata",
+    "et": "sale, resta, scende"
+   },
+   {
+    "cap": "occhi",
+    "et": "non la bocca"
+   }
+  ],
+  "resta": "Quattro proprietà. Nessuna dice quale emozione."
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "Guarda poco.<br>E nei momenti in cui<br>hai appena fatto qualcosa."
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Nella prossima lezione: le microespressioni.<br><span class=\"gold\">Cosa sono, cosa dicono i numeri, cosa non fanno.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Guarda solo la durata",
+   "Quanto è rimasta?",
+   "È salita e scesa, o è restata ferma?"
+  ],
+  "note": "Una volta che lo vedi, non riesci più a non vederlo."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine della lezione 2.3",
+  "sub": "2.4 — Le microespressioni: cosa sono e cosa non fanno",
+  "site": "laparolagiusta.it"
+ }
+]
