@@ -1,0 +1,407 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 2 · Lezione 2.2",
+  "title": "Il FACS",
+  "sub": "Cos'è e a cosa serve davvero"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Il nome che compare ogni volta che un corso<br><span class=\"gold\">vuole darsi autorevolezza scientifica.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "swap",
+  "kicker": "ne parliamo per due ragioni opposte",
+  "rows": [
+   [
+    "È uno strumento serio",
+    "sapere cosa fa chiarisce molte cose"
+   ],
+   [
+    "Viene citato a sproposito",
+    "riconoscerlo ti protegge"
+   ]
+  ]
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "Capito lui, si capisce dove passa il confine<br><span class=\"gold\">fra descrivere e interpretare.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "statement",
+  "title": "In un contesto commerciale non sta descrivendo un metodo.<br><span class=\"gold\">Sta dando una patente a chi parla.</span>"
+ },
+ {
+  "file": "c06",
+  "layout": "memo",
+  "title": "E una patente non si discute.<br>Si esibisce."
+ },
+ {
+  "file": "c08",
+  "layout": "statement",
+  "kicker": "che cos'è",
+  "title": "Un sistema per descrivere i movimenti del volto.<br><span class=\"gold\">Anni Settanta, Paul Ekman e Wallace Friesen.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "strati",
+  "sopra": "l'attività del volto",
+  "sotto": [
+   "unità elementari",
+   "una per muscolo o gruppo di muscoli",
+   "intensità e durata di ciascuna"
+  ],
+  "title": "Non una lista di espressioni. Una lista di movimenti possibili."
+ },
+ {
+  "file": "c10",
+  "layout": "cards",
+  "kicker": "cosa annota un codificatore",
+  "rows": [
+   {
+    "icona": "1",
+    "testo": "quali unità si attivano"
+   },
+   {
+    "icona": "2",
+    "testo": "con quale intensità"
+   },
+   {
+    "icona": "3",
+    "testo": "per quanto tempo"
+   }
+  ]
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "title": "Tre informazioni per ogni movimento. E nient'altro.<br><span class=\"gold\">Nessun giudizio, nessuna etichetta.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "swap",
+  "kicker": "il punto decisivo",
+  "rows": [
+   [
+    "Il FACS è descrittivo",
+    "dice cosa si è mosso"
+   ],
+   [
+    "Non è interpretativo",
+    "non dice perché"
+   ]
+  ]
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "title": "È la prima lezione del corso applicata al volto:<br><span class=\"gold\">il movimento è un fatto, il significato è un'ipotesi.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "statement",
+  "title": "È in sostanza un alfabeto.<br><span class=\"gold\">Dice come si scrive quello che si è visto.</span>"
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Senza, ogni laboratorio descriverebbe la stessa faccia<br><span class=\"gold\">con parole sue. E nessuno potrebbe replicare niente.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "table",
+  "kicker": "a cosa serve davvero",
+  "cols": [
+   "campo",
+   "a cosa"
+  ],
+  "rows": [
+   [
+    "Ricerca",
+    "confrontare dati raccolti in posti diversi"
+   ],
+   [
+    "Animazione e cinema",
+    "riprodurre movimenti su un volto digitale"
+   ],
+   [
+    "Clinica e riabilitazione",
+    "documentare il recupero della mobilità"
+   ],
+   [
+    "Sistemi automatici",
+    "etichettare migliaia di volti in modo coerente"
+   ]
+  ]
+ },
+ {
+  "file": "c17",
+  "layout": "statement",
+  "title": "Adesso nota cosa <i>non</i> c'è in quella lista.<br><span class=\"gold\">Leggere le persone.</span>"
+ },
+ {
+  "file": "c18",
+  "layout": "ponte",
+  "kicker": "dove si ferma lo strumento",
+  "sx": "una configurazione di movimenti",
+  "dx": "un'emozione",
+  "vuoto": "il passaggio interpretativo",
+  "ponte": "lo fa chi lo usa",
+  "title": "Il FACS ti porta fino al bordo di quel passaggio e si ferma lì."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "Chi lo cita per giustificare il passaggio<br><span class=\"gold\">usa il nome dello strumento per coprire la parte che non fa.</span>"
+ },
+ {
+  "file": "c21",
+  "layout": "statement",
+  "kicker": "e non si impara da un video",
+  "title": "Settimane di studio e un esame.<br><span class=\"gold\">Con un punteggio minimo.</span>"
+ },
+ {
+  "file": "c22",
+  "layout": "barre",
+  "kicker": "quanto costa codificare",
+  "barre": [
+   {
+    "et": "minuti di filmato",
+    "v": 12,
+    "val": "pochi"
+   },
+   {
+    "et": "ore di lavoro",
+    "v": 92,
+    "val": "molte",
+    "oro": true
+   }
+  ],
+  "acceso": 1
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Chi dice di usarlo in tempo reale, in una conversazione,<br><span class=\"gold\">sta dicendo una cosa che il sistema non consente.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "statement",
+  "title": "Non è che la faccia male.<br><span class=\"gold\">È come dire di aver fatto un'analisi del sangue guardando il paziente.</span>"
+ },
+ {
+  "file": "c25",
+  "layout": "flusso",
+  "kicker": "come funziona una credenziale",
+  "acceso": 2,
+  "passi": [
+   {
+    "et": "una tecnica qualunque",
+    "sub": "non ha dimostrato niente"
+   },
+   {
+    "et": "«si basa sul FACS»",
+    "sub": "una frase, nessuna prova"
+   },
+   {
+    "et": "autorevolezza",
+    "sub": "arrivata gratis"
+   }
+  ],
+  "title": "Il nome fa tutto il lavoro, e la tecnica non deve dimostrare niente."
+ },
+ {
+  "file": "c26",
+  "layout": "bilancia",
+  "kicker": "cosa finisce sul piatto",
+  "ciclo": 7,
+  "sx": {
+   "et": "l'autorevolezza del nome",
+   "peso": 9
+  },
+  "dx": {
+   "et": "quello che è stato verificato",
+   "peso": 2
+  },
+  "title": "Alla fine pesa il nome. La verifica non entra mai nel conto."
+ },
+ {
+  "file": "c27",
+  "layout": "quote",
+  "kicker": "la domanda da tenere pronta",
+  "title": "Si basa sul FACS<br>per fare cosa, esattamente?"
+ },
+ {
+  "file": "c28",
+  "layout": "table",
+  "kicker": "le tre risposte possibili",
+  "cols": [
+   "risposta",
+   "dove siamo"
+  ],
+  "rows": [
+   [
+    "«Per descrivere i movimenti facciali»",
+    "corretto"
+   ],
+   [
+    "«Per capire le emozioni»",
+    "oltre quello che consente"
+   ],
+   [
+    "«Per le menzogne»",
+    "molto oltre"
+   ]
+  ]
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "Non è necessariamente malafede.<br><span class=\"gold\">Spesso è una catena di citazioni in cui nessuno ha controllato la prima.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "statement",
+  "kicker": "e il pregio della domanda",
+  "title": "Non è aggressiva. Chiede solo un chiarimento.<br><span class=\"gold\">Chi ha una risposta la dà volentieri.</span>"
+ },
+ {
+  "file": "c31",
+  "layout": "statement",
+  "title": "Chi non ce l'ha cambia argomento.<br><span class=\"gold\">E in tutti e due i casi hai la tua informazione.</span>"
+ },
+ {
+  "file": "c32",
+  "layout": "memo",
+  "title": "Il FACS dice cosa si è mosso.<br>Non dice perché."
+ },
+ {
+  "file": "c33",
+  "layout": "list",
+  "kicker": "cosa te ne porti a casa, senza imparare il sistema",
+  "rows": [
+   "Il volto si può descrivere prima di interpretarlo",
+   "La descrizione precisa è lenta",
+   "Un nome prestigioso non trasferisce validità"
+  ],
+  "note": "Tutte e tre si applicano a qualunque strumento, non solo a questo."
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Fra il fatto e l'ipotesi c'è un passo<br><span class=\"gold\">che devi decidere di fare, invece di trovartelo già fatto.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "finestra",
+  "kicker": "la seconda, in scala",
+  "quota": 5,
+  "et": "la conversazione",
+  "coda": "quello che la codifica richiede",
+  "title": "Leggere un volto in tempo reale con precisione è fuori scala."
+ },
+ {
+  "file": "c37",
+  "layout": "statement",
+  "title": "Vale per il FACS, e varrà per il prossimo acronimo.<br><span class=\"gold\">Per fare cosa, esattamente — e chi lo ha verificato.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "una cosa che riguarda anche questo corso",
+  "title": "Il manuale e le sue tabelle<br><span class=\"gold\">sono materiale protetto da copyright.</span>"
+ },
+ {
+  "file": "c39",
+  "layout": "memo",
+  "theme": "sand",
+  "title": "Qui non vengono riprodotti.<br>In nessuna lezione di questo modulo."
+ },
+ {
+  "file": "c40",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "Non è una scelta grafica né una semplificazione.<br><span class=\"gold\">È che non si può fare, e basta.</span>"
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "Noterai che alcuni corsi quelle tabelle le mostrano.<br><span class=\"gold\">È un'indicazione in più su come viene trattata la materia.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "list",
+  "kicker": "quattro confusioni da evitare",
+  "rows": [
+   "Descrizione e interpretazione",
+   "Codifica e tempo reale",
+   "Credenziale e prova",
+   "Codifica e menzogna"
+  ],
+  "note": "Tornano insieme, quasi sempre nello stesso ordine."
+ },
+ {
+  "file": "c43",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Il FACS fa la descrizione.<br><span class=\"gold\">L'interpretazione la fa chi lo usa, assumendosene la responsabilità.</span>"
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "kicker": "la seconda",
+  "title": "Un lavoro lento, su registrazioni, con la possibilità di tornare indietro.<br><span class=\"gold\">Nessuna conversazione dal vivo somiglia a quelle condizioni.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "kicker": "la terza",
+  "title": "«Si basa sul FACS» non dice che cosa ne venga fatto.<br><span class=\"gold\">È un'etichetta, e le etichette non si verificano.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "statement",
+  "kicker": "la quarta",
+  "title": "Non è mai stato progettato per quello.<br><span class=\"gold\">E nessuno degli autori lo ha mai sostenuto.</span>"
+ },
+ {
+  "file": "c47",
+  "layout": "memo",
+  "title": "Un nome prestigioso<br>non trasferisce validità."
+ },
+ {
+  "file": "c48",
+  "layout": "statement",
+  "title": "Nella prossima lezione lasciamo gli strumenti.<br><span class=\"gold\">E andiamo su quello che si vede a occhio nudo.</span>"
+ },
+ {
+  "file": "c49",
+  "layout": "swap",
+  "kicker": "la prova di oggi",
+  "rows": [
+   [
+    "«Ha alzato le sopracciglia e ha stretto le labbra»",
+    "descrizione"
+   ],
+   [
+    "«Era contrariato»",
+    "interpretazione"
+   ]
+  ]
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine della lezione 2.2",
+  "sub": "2.3 — Le espressioni che si vedono a occhio nudo",
+  "site": "laparolagiusta.it"
+ }
+]

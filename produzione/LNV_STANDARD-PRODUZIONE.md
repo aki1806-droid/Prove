@@ -176,14 +176,15 @@ durava 1,65 s, cioè non si leggeva.
 | 1.4 | La linea di base | 10:04 | `2fa9b6c92246ddf477394788c35827a1` |
 | 1.5 | Guardare senza concludere | 9:59 | `c2f6aadf351260b0cd86cd47a2e73abb` |
 | 2.1 | Le sette emozioni | 9:59 | `1f356ac50ea758d66042448ef92a8d49` |
+| 2.2 | Il FACS | 9:59 | `2adbe9f7e36bcf736c723adc48b2900c` |
 
 **Modulo 1 completo**: cinquanta minuti meno un secondo, duecentotrentacinque slide, trentasei
 fra diagrammi e infografiche, quindici riprese. Il registro di modulo sta in
-`registri/lnv-modulo-1.md`. Restano da produrre le lezioni 2.2-2.5; i copioni
+`registri/lnv-modulo-1.md`. Restano da produrre le lezioni 2.3-2.5; i copioni
 dei moduli 1 e 2 arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
 `LNV_M2_SCRIPT-HEYGEN.md`.
 
-**Il controllo dei tagli di queste sei lezioni è parziale** (vedi i
+**Il controllo dei tagli di queste sette lezioni è parziale** (vedi i
 registri): i crediti ElevenLabs sono a zero e la trascrizione di verifica non
 si può fare. Quando tornano, i confini segnalati nei registri vanno risentiti
 uno per uno con `tagli.py correggi`.
