@@ -6,10 +6,10 @@ sta rispetto a come stava.
 
 | campo | valore |
 |---|---|
-| video_id | DA_COMPILARE |
+| video_id | `a30c34a8a353be9153dce1b6663dbc9b` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
-| durata | DA_COMPILARE |
+| durata | 604,5 s (10:04) |
 | parlato | 592,6 s |
 | voce | Luca Ward `tVdVcJPudubxmTmAw4tE`, `eleven_v4`, 1,12× in post |
 | flow ElevenLabs | `3LAckHiR1guVFe9AezYt` |
@@ -95,7 +95,7 @@ tornano.**
 `script/pose.py`: un minimo in scena e un supplemento per i disegni, gli
 elenchi e i memo, e il resto spalmato in parti uguali. Il conto chiude a
 **592,6 s** di parlato, che con i 3 s di copertina e i 10 s di chiusura
-fanno **DA_COMPILARE**.
+fanno **10:04**.
 
 ## Da verificare
 

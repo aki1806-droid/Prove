@@ -1,0 +1,415 @@
+[
+ {
+  "file": "c01",
+  "layout": "cover",
+  "label": "Modulo 1 · Lezione 1.5",
+  "title": "Guardare senza concludere",
+  "sub": "Capire i segni del linguaggio non verbale"
+ },
+ {
+  "file": "c02",
+  "layout": "statement",
+  "title": "Da domani noterai cose che prima non vedevi.<br><span class=\"gold\">È l'effetto normale di questo corso, e arriva in fretta.</span>"
+ },
+ {
+  "file": "c03",
+  "layout": "list",
+  "kicker": "e con loro arriverà la tentazione",
+  "rows": [
+   "Concludere",
+   "Dire a te stesso che hai capito",
+   "Dirlo anche agli altri"
+  ]
+ },
+ {
+  "file": "c04",
+  "layout": "statement",
+  "title": "È lì che si decide se il corso ti renderà più accurato<br><span class=\"gold\">oppure soltanto più sicuro.</span>"
+ },
+ {
+  "file": "c05",
+  "layout": "bilancia",
+  "kicker": "e le due cose non vanno insieme",
+  "ciclo": 7,
+  "sx": {
+   "et": "accuratezza",
+   "peso": 3
+  },
+  "dx": {
+   "et": "fiducia",
+   "peso": 9
+  },
+  "title": "In questo campo tendono ad andare in direzioni opposte."
+ },
+ {
+  "file": "c06",
+  "layout": "statement",
+  "title": "Non è un difetto del tuo carattere.<br><span class=\"gold\">È il funzionamento normale di qualunque mente.</span>"
+ },
+ {
+  "file": "c07",
+  "layout": "statement",
+  "title": "E siccome è normale, non si corregge con la buona volontà.<br><span class=\"gold\">Si corregge mettendo una procedura al posto dell'impulso.</span>"
+ },
+ {
+  "file": "c09",
+  "layout": "statement",
+  "kicker": "primo meccanismo",
+  "title": "Formulata l'ipotesi che sia scettica,<br><span class=\"gold\">noteremo i segnali di scetticismo. Non quelli di interesse.</span>"
+ },
+ {
+  "file": "c10",
+  "layout": "imbuto",
+  "kicker": "dove lavora il filtro",
+  "ciclo": 7,
+  "dentro": [
+   "segnali di scetticismo",
+   "segnali di interesse",
+   "segnali neutri"
+  ],
+  "fuori": "solo quelli che confermano",
+  "title": "L'ipotesi non filtra le conclusioni. Filtra prima: decide cosa entra."
+ },
+ {
+  "file": "c11",
+  "layout": "statement",
+  "kicker": "secondo meccanismo",
+  "title": "Ricordiamo le volte in cui ci abbiamo preso.<br><span class=\"gold\">Le altre non le abbiamo mai verificate.</span>"
+ },
+ {
+  "file": "c12",
+  "layout": "statement",
+  "title": "Una contabilità che non può andare in perdita,<br><span class=\"gold\">perché le perdite non vengono registrate.</span>"
+ },
+ {
+  "file": "c13",
+  "layout": "statement",
+  "kicker": "terzo meccanismo, il più sottile",
+  "title": "Più un'interpretazione arriva veloce,<br><span class=\"gold\">più ci sembra giusta.</span>"
+ },
+ {
+  "file": "c14",
+  "layout": "memo",
+  "title": "La velocità non è un indice di accuratezza.<br>È un indice di familiarità."
+ },
+ {
+  "file": "c15",
+  "layout": "statement",
+  "title": "Non si tratta di smettere di interpretare.<br><span class=\"gold\">Non si può: la mente ha già interpretato.</span>"
+ },
+ {
+  "file": "c16",
+  "layout": "statement",
+  "title": "Si tratta di tenerla nella forma giusta.<br><span class=\"gold\">Anche dentro la propria testa, dove nessuno ti sente.</span>"
+ },
+ {
+  "file": "c17",
+  "layout": "swap",
+  "kicker": "la stessa osservazione, due forme",
+  "rows": [
+   [
+    "«È a disagio»",
+    "si chiude"
+   ],
+   [
+    "«Mi sembra a disagio, forse perché...»",
+    "resta aperta"
+   ]
+  ]
+ },
+ {
+  "file": "c18",
+  "layout": "ponte",
+  "kicker": "cosa cambia davvero",
+  "sx": "un'ipotesi",
+  "dx": "un fatto",
+  "vuoto": "la porta della smentita",
+  "ponte": "due parole in più",
+  "title": "A un fatto non c'è più niente da aggiungere. Puoi solo confermarlo."
+ },
+ {
+  "file": "c19",
+  "layout": "statement",
+  "title": "E la lezione uno ci ha detto cosa succede<br><span class=\"gold\">quando si raccolgono solo conferme.</span>"
+ },
+ {
+  "file": "c21",
+  "layout": "quote",
+  "kicker": "la formulazione che userai di più",
+  "title": "«Me lo spiegherei con questo.<br>Cos'altro lo spiegherebbe?»"
+ },
+ {
+  "file": "c22",
+  "layout": "statement",
+  "title": "Costringe a produrre una seconda ipotesi.<br><span class=\"gold\">Non serve crederci: serve solo che esista.</span>"
+ },
+ {
+  "file": "c23",
+  "layout": "statement",
+  "title": "Costa tre secondi, e si può fare mentre l'altro parla.<br><span class=\"gold\">Senza che si veda da fuori.</span>"
+ },
+ {
+  "file": "c24",
+  "layout": "flusso",
+  "kicker": "cosa fai quando hai notato qualcosa",
+  "passi": [
+   {
+    "et": "non fare niente",
+    "sub": "registra e prosegui"
+   },
+   {
+    "et": "cambia direzione",
+    "sub": "torna sull'argomento"
+   },
+   {
+    "et": "nomina il fatto",
+    "sub": "non il significato"
+   }
+  ],
+  "title": "Tre mosse, in ordine di invadenza crescente."
+ },
+ {
+  "file": "c25",
+  "layout": "statement",
+  "kicker": "la prima",
+  "title": "Molte delle cose che noterai non riguardano te.<br><span class=\"gold\">Averla notata è già tutto il valore.</span>"
+ },
+ {
+  "file": "c26",
+  "layout": "statement",
+  "kicker": "la seconda",
+  "title": "Non commentare il segnale.<br><span class=\"gold\">Dare a quell'argomento più spazio di quanto gliene avresti dato.</span>"
+ },
+ {
+  "file": "c27",
+  "layout": "quote",
+  "kicker": "tre parole, e nessuno se ne accorge",
+  "title": "«Sui tempi, dicevi?»"
+ },
+ {
+  "file": "c28",
+  "layout": "swap",
+  "kicker": "la terza, la più invadente",
+  "rows": [
+   [
+    "«Ti vedo perplesso»",
+    "si può smentire in due secondi"
+   ],
+   [
+    "«Non ti fidi»",
+    "mette l'altro sulla difensiva"
+   ]
+  ]
+ },
+ {
+  "file": "c29",
+  "layout": "statement",
+  "title": "La seconda non assomiglia a una lettura del linguaggio del corpo.<br><span class=\"gold\">Assomiglia a una conversazione fatta bene.</span>"
+ },
+ {
+  "file": "c30",
+  "layout": "memo",
+  "title": "Usa l'osservazione<br>senza mai nominarla."
+ },
+ {
+  "file": "c31",
+  "layout": "list",
+  "theme": "sand",
+  "kicker": "tre cose da non fare mai",
+  "rows": [
+   "Dichiarare la lettura",
+   "Usarla come arma",
+   "Fare diagnosi"
+  ],
+  "note": "Nessuno dei tre è cattiveria. Sono tutti entusiasmo."
+ },
+ {
+  "file": "c32",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "la prima",
+  "title": "«So leggere il linguaggio del corpo, e tu sei a disagio.»<br><span class=\"gold\">Due effetti, tutti e due contro di te.</span>"
+ },
+ {
+  "file": "c33",
+  "layout": "statement",
+  "theme": "sand",
+  "title": "L'altro si controlla, e tu non vedi più niente di spontaneo.<br><span class=\"gold\">Hai distrutto il tuo strumento per esibirlo.</span>"
+ },
+ {
+  "file": "c34",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "la seconda",
+  "title": "«Hai incrociato le braccia appena ho detto il prezzo.»<br><span class=\"gold\">Non è acume: è una mossa, e viene letta come tale.</span>"
+ },
+ {
+  "file": "c35",
+  "layout": "statement",
+  "theme": "sand",
+  "kicker": "la terza",
+  "title": "Notare che qualcuno sta male è utile.<br><span class=\"gold\">Stabilire cosa ha non è nelle tue competenze.</span>"
+ },
+ {
+  "file": "c36",
+  "layout": "statement",
+  "title": "E non lo diventa dopo trentacinque lezioni.<br><span class=\"gold\">Quello è un altro mestiere, e si fa in altri anni.</span>"
+ },
+ {
+  "file": "c38",
+  "layout": "list",
+  "kicker": "il periodo in cui si guarda tutti",
+  "rows": [
+   "Il partner a cena",
+   "Il collega in riunione",
+   "Il figlio che risponde a monosillabi"
+  ],
+  "note": "Nessuna di queste persone ha chiesto di essere osservata."
+ },
+ {
+  "file": "c39",
+  "layout": "statement",
+  "title": "Le persone si accorgono di essere osservate<br><span class=\"gold\">molto prima di saper dire come.</span>"
+ },
+ {
+  "file": "c40",
+  "layout": "curva",
+  "kicker": "cosa succede a chi si sente osservato",
+  "ciclo": 6,
+  "punti": [
+   [
+    0,
+    82
+   ],
+   [
+    15,
+    78
+   ],
+   [
+    32,
+    60
+   ],
+   [
+    50,
+    40
+   ],
+   [
+    68,
+    26
+   ],
+   [
+    84,
+    18
+   ],
+   [
+    100,
+    14
+   ]
+  ],
+  "vertice": {
+   "x": 15,
+   "et": "qui era spontaneo"
+  },
+  "sx": "guardi di più",
+  "dx": "vedi di meno",
+  "title": "Si controlla. E proprio mentre guardi di più, cominci a vedere meno."
+ },
+ {
+  "file": "c41",
+  "layout": "statement",
+  "title": "L'antidoto non è smettere di osservare.<br><span class=\"gold\">È ricordare a cosa serve.</span>"
+ },
+ {
+  "file": "c42",
+  "layout": "swap",
+  "kicker": "le due direzioni",
+  "rows": [
+   [
+    "Studiare una persona",
+    "sei fuori a guardarla"
+   ],
+   [
+    "Stare attento a una persona",
+    "sei dentro la conversazione"
+   ]
+  ]
+ },
+ {
+  "file": "c43",
+  "layout": "memo",
+  "title": "Se l'osservazione ti allontana<br>da chi stai ascoltando,<br>la stai usando al contrario."
+ },
+ {
+  "file": "c44",
+  "layout": "statement",
+  "title": "E te ne accorgi da un segnale solo:<br><span class=\"gold\">che sei più interessato a come lo dice che a quello che dice.</span>"
+ },
+ {
+  "file": "c45",
+  "layout": "statement",
+  "title": "Da qui in poi: volti, sguardi, distanze, gesti, voce.<br><span class=\"gold\">Utili a una condizione: che restino dentro questa cornice.</span>"
+ },
+ {
+  "file": "c46",
+  "layout": "cruscotto",
+  "kicker": "le quattro cose da tenere",
+  "celle": [
+   {
+    "cap": "tre gradini",
+    "et": "vedi, ipotizzi, inventi"
+   },
+   {
+    "cap": "nessun dizionario",
+    "et": "un segnale, molte cause"
+   },
+   {
+    "cap": "linea di base",
+    "et": "come sta rispetto a come stava"
+   },
+   {
+    "cap": "domande",
+    "et": "non diagnosi"
+   }
+  ],
+  "resta": "Non sono difficili. Sono soltanto facili da perdere per strada."
+ },
+ {
+  "file": "c47",
+  "layout": "swap",
+  "kicker": "e qui si decide tutto",
+  "rows": [
+   [
+    "Se le tieni",
+    "più accurato"
+   ],
+   [
+    "Se le perdi",
+    "solo più sicuro"
+   ]
+  ]
+ },
+ {
+  "file": "c48",
+  "layout": "memo",
+  "title": "Osservare serve<br>a sapere dove guardare.<br>Non a sapere cosa pensa."
+ },
+ {
+  "file": "c49",
+  "layout": "list",
+  "kicker": "la prova di oggi",
+  "plain": true,
+  "rows": [
+   "Noti qualcosa",
+   "Non commenti il segnale",
+   "Torni sull'argomento"
+  ],
+  "note": "L'altro non si accorgerà di niente. Che è esattamente il punto."
+ },
+ {
+  "file": "c99",
+  "layout": "closing",
+  "title": "Fine del Modulo 1",
+  "sub": "Modulo 2 — Il volto",
+  "site": "laparolagiusta.it"
+ }
+]
