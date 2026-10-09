@@ -118,6 +118,7 @@ progetti/<modulo>-<lezione>/
 | `m12-l12.8-riepilogo` | Modulo 12 · 12.8 Riepilogo del Modulo 12 e autovalutazione | 8:31.7 | `6c27008e1e243ece059d91a49577577f` |
 | `m13-l13.1-assetto` | Modulo 13 · 13.1 L'assetto del Servizio Socio Sanitario Regionale veneto | 8:21.6 | `9767e35f8d190b0100d06b8ce0dc4804` |
 | `m13-l13.2-azienda-zero` | Modulo 13 · 13.2 Azienda Zero | 8:42.2 | `9b8b72f5b175a015afabe1dabbff9da5` |
+| `m13-l13.3-ospedale` | Modulo 13 · 13.3 L'ospedale in Veneto e le reti tempo-dipendenti | 8:23.0 | `f60df15c2eab960294e98de60214fdd6` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

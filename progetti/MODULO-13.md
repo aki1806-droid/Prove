@@ -15,7 +15,7 @@ escono.
 |---|---|---|---|
 | 13.1 | L'assetto del Servizio Socio Sanitario Regionale veneto | 8:21.6 | `9767e35f8d190b0100d06b8ce0dc4804` |
 | 13.2 | Azienda Zero | 8:42.2 | `9b8b72f5b175a015afabe1dabbff9da5` |
-| 13.3 | L'ospedale in Veneto e le reti tempo-dipendenti | — |  |
+| 13.3 | L'ospedale in Veneto e le reti tempo-dipendenti | 8:23.0 | `f60df15c2eab960294e98de60214fdd6` |
 | 13.4 | Il distretto e le cure primarie venete | — |  |
 | 13.5 | La rete per la non autosufficienza | — |  |
 | 13.6 | Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | — |  |

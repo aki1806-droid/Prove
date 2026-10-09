@@ -14,13 +14,31 @@ Quarta lezione del Modulo 14: apparato digerente, fegato e rene, i tre organi ch
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,40 (A $0,73 · B $0,67) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.391          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:27.8     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.405 car · chunk B 3.986 car)
+tracce grezze             A 296.4 s  ·  B 297.0 s
+silenzi                   fattore 1,095   ->   atempo 1,072
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**668/686 parole**, la B **588/597**, nessun buco. Le rese diverse
+(non buchi): s02 «organi che» sentito «organiche»; s05 «b 12» sentito «b12»; s05 «b 12» sentito «b12»; s08 «ee» sentito «e»; s09 «e» sentito «ee»; s10 «ee» sentito «e»; s15 «e» sentito «ee»; s19 «centottanta» sentito «180»; s24 «ee» sentito «e»; s25 «e» sentito «ee»; s28 «ee» sentito «e»; s29 «ee» sentito «e»; s36 «chili» sentito «kg»; s40 «ee» sentito «e»; s41 «centottanta» sentito «180»; s43 «b 12» sentito «b12»; s46 «ee» sentito «e».
 
 ## Le scene
 

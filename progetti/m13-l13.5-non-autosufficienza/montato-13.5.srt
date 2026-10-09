@@ -159,33 +159,33 @@ Che nel frattempo, se la dimissione e' vicina, si puo' attivare una dimissione p
 E che esistono anche i servizi domiciliari e i centri diurni. Poi segnali il caso secondo la procedura del reparto.  Non prometti un posto: orienti nel percorso.
 
 41
-00:06:53,860 --> 00:07:01,280
+00:06:53,860 --> 00:07:04,460
 Le prospettive. A livello nazionale, la legge trentatre' del duemilaventitre' e il decreto legislativo ventinove del duemilaventiquattro hanno avviato la riforma per le persone anziane.
 
 42
-00:07:01,280 --> 00:07:10,690
+00:07:04,460 --> 00:07:12,160
 Con una valutazione multidimensionale unificata, il sostegno alla domiciliarita', e una prestazione universale, in via sperimentale.
 
 43
-00:07:10,690 --> 00:07:25,210
+00:07:12,160 --> 00:07:25,310
 Intanto la domanda continuera' a crescere, mentre le strutture affrontano la carenza di infermieri e di OSS, e il tema della qualita' e della sicurezza nelle residenze. Su questo, un candidato puo' mostrare consapevolezza.
 
 44
-00:07:25,210 --> 00:07:41,500
+00:07:25,310 --> 00:07:41,600
 Le parole venete da usare all'orale: Centri di Servizi, UVMD, SVaMA e SVaMDi, impegnativa di residenzialita' e impegnativa di cura domiciliare, quota sanitaria e quota alberghiera, progetto individuale e PAI, domiciliarita'.
 
 45
-00:07:41,500 --> 00:07:58,050
+00:07:41,600 --> 00:07:58,150
 La tabella. Porta unica. UVMD: direttore di distretto, medico di medicina generale, assistente sociale, e altri. SVaMA e SVaMDi. Domiciliarita': ADI, SAD, impegnativa di cura domiciliare. Centri diurni e sollievo.
 
 46
-00:07:58,050 --> 00:08:11,010
+00:07:58,150 --> 00:08:11,110
 Centri di Servizi, autorizzati e accreditati. Impegnativa di residenzialita', cioe' la quota sanitaria; quota alberghiera a carico della persona, con l'integrazione del Comune. Il PAI. E la riforma nazionale.
 
 47
-00:08:11,010 --> 00:08:19,060
+00:08:11,110 --> 00:08:19,160
 La frase della lezione: prima si valuta il bisogno, poi si sceglie il servizio. E' il contrario di cercare un posto libero.
 
 48
-00:08:19,060 --> 00:08:29,060
+00:08:19,160 --> 00:08:29,160
 Nella prossima lezione: l'autorizzazione e l'accreditamento con la legge regionale ventidue del duemiladue, gli screening oncologici e la prevenzione in Veneto. A tra poco.

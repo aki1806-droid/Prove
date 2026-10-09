@@ -66,13 +66,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `f60df15c2eab960294e98de60214fdd6` — 503.022 s (8:23.0), 1080p 16:9, resa in 67 s, con SRT (`subtitle_url`) |
+| lotto asset | `d8a59aa3bcf3429aa1259fa23b4862a3` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s03, trascritto «ee»); «ee» (s06, trascritto «e»); «e» (s10, trascritto «ee»); «e» (s15, trascritto «ee»); «del» (s18, trascritto «dell»); «ee» (s22, trascritto «e»); «e» (s24, trascritto «ee»); «pre allerta» (s24, trascritto «preallerta»); «e» (s24, trascritto «ee»); «e» (s27, trascritto «ee»); «ee» (s29, trascritto «e»); «ee» (s31, trascritto «e»); «ee» (s32, trascritto «e»); «ee» (s39, trascritto «e»); «ee» (s42, trascritto «e»); «e» (s43, trascritto «ee»); «e» (s43, trascritto «ee»); «aou» (s44, trascritto «ao»); «aoui» (s44, trascritto «auo»); «suem» (s45, trascritto «sum»); «ee» (s45, trascritto «e»); «d» (s45, trascritto «di»); «e» (s47, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

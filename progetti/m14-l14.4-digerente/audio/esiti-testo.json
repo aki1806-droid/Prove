@@ -1,0 +1,109 @@
+{
+ "A": {
+  "parole_copione": 686,
+  "parole_dette": 680,
+  "coincidenti": 668,
+  "buchi": [
+   {
+    "blocco": "s11",
+    "parole_copione": "p 450 ee",
+    "al_loro_posto": "p450 e"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "organi che",
+    "detto": "organiche"
+   },
+   {
+    "blocco": "s05",
+    "copione": "b 12",
+    "detto": "b12"
+   },
+   {
+    "blocco": "s05",
+    "copione": "b 12",
+    "detto": "b12"
+   },
+   {
+    "blocco": "s08",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s10",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 597,
+  "parole_dette": 595,
+  "coincidenti": 588,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s43",
+    "copione": "b 12",
+    "detto": "b12"
+   },
+   {
+    "blocco": "s46",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}
