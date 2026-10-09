@@ -14,13 +14,31 @@ Prima lezione del Modulo 14: cellula, tessuti e omeostasi, le basi biologiche di
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,40 (A $0,65 · B $0,75) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.387          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:27.6     (MIRA 16,6)
 stacco tracce             dopo s23   (chunk A 3.905 car · chunk B 4.482 car)
+tracce grezze             A 253.5 s  ·  B 317.6 s
+silenzi                   fattore 1,095   ->   atempo 1,032
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**595/609 parole**, la B **670/679**, nessun buco. Le rese diverse
+(non buchi): s05 «ee» sentito «e»; s11 «e» sentito «ee»; s12 «ee» sentito «e»; s20 «e» sentito «ee»; s20 «mannitolo» sentito «mannitololo»; s21 «e» sentito «ee»; s31 «e» sentito «ee»; s31 «e» sentito «ee»; s34 «e» sentito «ee»; s38 «e» sentito «ee»; s40 «e» sentito «ee»; s42 «e» sentito «ee».
 
 ## Le scene
 

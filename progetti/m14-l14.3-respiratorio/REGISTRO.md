@@ -14,13 +14,31 @@ Terza lezione del Modulo 14: l'apparato respiratorio. Le vie aeree superiori e i
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,72 · B $0,69) |
+| costo trascrizioni | $0,58 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.456          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:31.6     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.315 car · chunk B 4.141 car)
+tracce grezze             A 300.4 s  ·  B 339.8 s
+silenzi                   fattore 1,134   ->   atempo 1,109
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**643/656 parole**, la B **592/617**, nessun buco. Le rese diverse
+(non buchi): s07 «ee» sentito «e»; s10 «sternocleidomastoideo» sentito «sternocleido mastoideo»; s11 «e» sentito «ee»; s15 «e» sentito «ee»; s15 «fev 1» sentito «fev1»; s17 «nell atelettasia» sentito «nella teletasia»; s26 «lezione23» sentito «2virgola3»; s27 «e» sentito «ee»; s31 «chemocettori» sentito «chemorecettori»; s32 «chemocettori» sentito «chemorecettori»; s34 «pao2» sentito «pao»; s35 «pao2» sentito «pao»; s35 «paco2» sentito «paco»; s37 «e» sentito «ee»; s38 «semiseduta» sentito «semi seduta»; s39 «ee» sentito «e»; s42 «semiseduta» sentito «semi seduta»; s43 «e» sentito «ee»; s43 «pao2» sentito «pao»; s44 «fvc» sentito «fevc»; s45 «pao2» sentito «pao»; s45 «paco2» sentito «paco»; s45 «pao2» sentito «pao»; s45 «paco2» sentito «paco»; s47 «chemocettori» sentito «chemorecettori».
 
 ## Le scene
 

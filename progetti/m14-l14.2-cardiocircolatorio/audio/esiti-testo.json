@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 666,
+  "parole_dette": 666,
+  "coincidenti": 664,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s18",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 651,
+  "parole_dette": 652,
+  "coincidenti": 642,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s44",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "qrs",
+    "detto": "q r s"
+   }
+  ]
+ }
+}

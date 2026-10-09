@@ -14,13 +14,31 @@ Seconda lezione del Modulo 14: l'apparato cardiocircolatorio. Il cuore, con le q
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,71 · B $0,70) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.465          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:32.1     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.282 car · chunk B 4.183 car)
+tracce grezze             A 301.5 s  ·  B 291.7 s
+silenzi                   fattore 1,096   ->   atempo 1,062
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**664/666 parole**, la B **642/651**, nessun buco. Le rese diverse
+(non buchi): s18 «ee» sentito «e»; s21 «e» sentito «ee»; s31 «e» sentito «ee»; s34 «ee» sentito «e»; s39 «e» sentito «ee»; s40 «ee» sentito «e»; s42 «ee» sentito «e»; s44 «ee» sentito «e»; s45 «ee» sentito «e»; s47 «qrs» sentito «q r s».
 
 ## Le scene
 

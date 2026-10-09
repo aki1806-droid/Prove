@@ -1,0 +1,143 @@
+{
+ "A": {
+  "parole_copione": 656,
+  "parole_dette": 651,
+  "coincidenti": 643,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s10",
+    "copione": "sternocleidomastoideo",
+    "detto": "sternocleido mastoideo"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "fev 1",
+    "detto": "fev1"
+   },
+   {
+    "blocco": "s17",
+    "copione": "nell atelettasia",
+    "detto": "nella teletasia"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 617,
+  "parole_dette": 613,
+  "coincidenti": 592,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "lezione23",
+    "detto": "2virgola3"
+   },
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "chemocettori",
+    "detto": "chemorecettori"
+   },
+   {
+    "blocco": "s32",
+    "copione": "chemocettori",
+    "detto": "chemorecettori"
+   },
+   {
+    "blocco": "s34",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s35",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s35",
+    "copione": "paco2",
+    "detto": "paco"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s39",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s44",
+    "copione": "fvc",
+    "detto": "fevc"
+   },
+   {
+    "blocco": "s45",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s45",
+    "copione": "paco2",
+    "detto": "paco"
+   },
+   {
+    "blocco": "s45",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s45",
+    "copione": "paco2",
+    "detto": "paco"
+   },
+   {
+    "blocco": "s47",
+    "copione": "chemocettori",
+    "detto": "chemorecettori"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 609,
+  "parole_dette": 601,
+  "coincidenti": 595,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "mannitolo",
+    "detto": "mannitololo"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 679,
+  "parole_dette": 676,
+  "coincidenti": 670,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
