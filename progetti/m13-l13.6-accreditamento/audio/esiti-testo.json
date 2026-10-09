@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 653,
+  "parole_dette": 651,
+  "coincidenti": 643,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s06",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 632,
+  "parole_dette": 631,
+  "coincidenti": 624,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s27",
+    "copione": "trent",
+    "detto": "30"
+   },
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "vigilano",
+    "detto": "vigiliano"
+   },
+   {
+    "blocco": "s47",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s49",
+    "copione": "chilometro",
+    "detto": "kilometro"
+   }
+  ]
+ }
+}

@@ -14,13 +14,31 @@ Sesta lezione del Modulo 13: autorizzazione, accreditamento, prevenzione e sanit
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,40 (A $0,71 · B $0,69) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.422          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:29.6     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.301 car · chunk B 4.121 car)
+tracce grezze             A 283.8 s  ·  B 283.2 s
+silenzi                   fattore 1,079   ->   atempo 1,036
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**643/653 parole**, la B **624/632**, nessun buco. Le rese diverse
+(non buchi): s05 «ee» sentito «e»; s06 «ee» sentito «e»; s11 «e» sentito «ee»; s13 «e» sentito «ee»; s15 «e» sentito «ee»; s16 «ee» sentito «e»; s19 «e» sentito «ee»; s21 «e» sentito «ee»; s26 «ee» sentito «e»; s27 «trent» sentito «30»; s29 «ee» sentito «e»; s42 «e» sentito «ee»; s44 «vigilano» sentito «vigiliano»; s47 «ee» sentito «e»; s49 «chilometro» sentito «kilometro».
 
 ## Le scene
 

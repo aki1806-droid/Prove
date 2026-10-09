@@ -1,0 +1,104 @@
+{
+ "A": {
+  "parole_copione": 622,
+  "parole_dette": 621,
+  "coincidenti": 608,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "semiresidenzialita ee",
+    "detto": "semi residenzialita e"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s10",
+    "copione": "centottantanove",
+    "detto": "189"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "unita riabilitative",
+    "detto": "unitarie abilitative"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s24",
+    "copione": "l adi",
+    "detto": "la di"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 676,
+  "parole_dette": 668,
+  "coincidenti": 660,
+  "buchi": [
+   {
+    "blocco": "s26",
+    "parole_copione": "lezione11 6 lezione11 7",
+    "al_loro_posto": "116117"
+   },
+   {
+    "blocco": "s47",
+    "parole_copione": "lezione11 6 lezione11 7",
+    "al_loro_posto": "116117"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s44",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s46",
+    "copione": "centottantanove",
+    "detto": "189"
+   }
+  ]
+ }
+}

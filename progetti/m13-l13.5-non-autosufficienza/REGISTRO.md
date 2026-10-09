@@ -14,13 +14,31 @@ Quinta lezione del Modulo 13: la rete veneta per la non autosufficienza. Il prin
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,40 (A $0,70 · B $0,69) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.370          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:26.6     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.235 car · chunk B 4.135 car)
+tracce grezze             A 293.1 s  ·  B 276.2 s
+silenzi                   fattore 1,116   ->   atempo 1,012
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**665/674 parole**, la B **634/644**, nessun buco. Le rese diverse
+(non buchi): s05 «e» sentito «ee»; s06 «e» sentito «ee»; s09 «e» sentito «ee»; s10 «ee» sentito «e»; s16 «e» sentito «ee»; s18 «e» sentito «ee»; s21 «e» sentito «ee»; s22 «e» sentito «ee»; s23 «ee» sentito «e»; s29 «e» sentito «ee»; s31 «ee» sentito «e»; s32 «ee» sentito «e»; s33 «e» sentito «ee»; s35 «e» sentito «ee»; s37 «e» sentito «ee»; s45 «svamdi» sentito «svamd»; s46 «svamdi» sentito «svamd»; s47 «ee» sentito «e»; s48 «e» sentito «ee».
 
 ## Le scene
 

@@ -114,6 +114,7 @@ progetti/<modulo>-<lezione>/
 | `m12-l12.4-finanziamento` | Modulo 12 · 12.4 Finanziamento ed economia del SSN | 8:28.9 | `8f1203f161219ff519a21d4729d7239d` |
 | `m12-l12.5-ccnl` | Modulo 12 · 12.5 Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |
 | `m12-l12.6-sicurezza` | Modulo 12 · 12.6 La sicurezza sul lavoro in sanità | 8:41.9 | `936f6613014762ebf26b39b69c727821` |
+| `m12-l12.7-qualita` | Modulo 12 · 12.7 Qualità, accreditamento e governo clinico | 8:27.7 | `12b5529de6d554d77935ef75e22f34e5` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

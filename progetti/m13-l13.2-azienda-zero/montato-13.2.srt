@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:10,990
+Il bando che stai preparando porta un'intestazione: Azienda Zero. Ma che cos'e', esattamente? Non e' un ospedale, e non ha pazienti.
+
+2
+00:00:10,990 --> 00:00:21,660
+E' l'ente che governa e centralizza alcune funzioni dell'intero sistema sanitario veneto. Conoscerlo e' una domanda d'orale probabile, e ti aiuta a capire come funziona il concorso stesso.
+
+3
+00:00:21,660 --> 00:00:32,540
+Il nome completo e' lungo: Azienda per il governo della sanita' della Regione del Veneto. Azienda Zero e' il nome breve, quello che trovi in testa al bando e che sentirai usare dalla commissione.
+
+4
+00:00:32,540 --> 00:00:44,180
+E' stata istituita dalla legge regionale diciannove del venticinque ottobre duemilasedici. La stessa legge che, come hai visto nella lezione tredici punto uno, ha ridotto le ULSS da ventuno a nove.
+
+5
+00:00:44,180 --> 00:00:55,330
+E' un ente del Servizio Sanitario Regionale, con personalita' giuridica di diritto pubblico. E con autonomia amministrativa, patrimoniale, organizzativa, tecnica e contabile.
+
+6
+00:00:55,330 --> 00:01:07,080
+Nell'esercizio delle sue funzioni e' soggetta al coordinamento dell'Area Sanita' e Sociale della Regione. Ed e' operativa dal duemiladiciassette, lo stesso anno in cui nascono le nove nuove ULSS.
+
+7
+00:01:07,080 --> 00:01:16,650
+Perche' proprio Zero? Perche' non eroga prestazioni ai pazienti. Si affianca alle aziende numerate del sistema come un livello di base, un livello che lavora per tutte.
+
+8
+00:01:16,650 --> 00:01:27,880
+Accentra funzioni tecniche e amministrative che, se ogni azienda le svolgesse per conto suo, sarebbero ripetute tante volte quante sono le aziende, e sarebbero meno efficienti.
+
+9
+00:01:27,880 --> 00:01:38,260
+Gli obiettivi sono quattro. L'uniformita' nel territorio regionale. Le economie di scala. Le competenze specializzate, concentrate in un solo ente. E la semplificazione.
+
+10
+00:01:38,260 --> 00:01:50,240
+Il risultato: le aziende sanitarie possono concentrarsi sull'assistenza. E attenzione alla confusione piu' comune all'esame: Azienda Zero non eroga prestazioni ai pazienti, non cura nessuno.
+
+11
+00:01:50,240 --> 00:02:00,570
+La prima funzione e' la Gestione Sanitaria Accentrata, la GSA. E' la gestione della parte del Fondo Sanitario Regionale che non viene assegnata direttamente alle aziende.
+
+12
+00:02:00,570 --> 00:02:13,700
+La prevede la normativa nazionale sui bilanci sanitari, il decreto legislativo centodiciotto del duemilaundici. In Veneto, le funzioni e le responsabilita' della GSA sono state attribuite ad Azienda Zero.
+
+13
+00:02:13,700 --> 00:02:24,640
+E accanto alla GSA, Azienda Zero supporta la Regione nella programmazione economico-finanziaria e nel controllo. Una parte importante dei conti della sanita' veneta, quindi, passa da qui.
+
+14
+00:02:24,640 --> 00:02:33,960
+La seconda funzione: gli acquisti centralizzati. Ad Azienda Zero e' stata trasferita la CRAV, la Centrale Regionale Acquisti per la Regione del Veneto.
+
+15
+00:02:33,960 --> 00:02:47,000
+La CRAV opera come soggetto aggregatore, secondo la normativa nazionale sulla centralizzazione degli acquisti pubblici. E bandisce gare regionali: farmaci, dispositivi medici, tecnologie, servizi.
+
+16
+00:02:47,000 --> 00:02:56,740
+Perfino le ambulanze del centodiciotto. Gli effetti sono due: prezzi piu' bassi, perche' si compra per tutta la regione insieme, e la standardizzazione dei prodotti.
+
+17
+00:02:56,740 --> 00:03:08,820
+Per l'infermiere significa che il catetere, la medicazione o la pompa che usi in reparto spesso e' stata scelta con una gara regionale. E che segnalare i problemi di un dispositivo serve a tutta la regione.
+
+18
+00:03:08,820 --> 00:03:21,030
+La terza funzione e' quella che ti riguarda direttamente: il reclutamento del personale. Azienda Zero gestisce le procedure concorsuali e di selezione per conto delle aziende del servizio sanitario regionale.
+
+19
+00:03:21,030 --> 00:03:30,330
+Lo fa con i concorsi unificati, cioe' aggregati, per i profili molto richiesti: gli infermieri, gli operatori socio-sanitari, e anche altri profili.
+
+20
+00:03:30,330 --> 00:03:42,910
+Un unico bando e un'unica procedura, invece di tanti concorsi aziendali, con graduatorie che le aziende utilizzano secondo le regole del bando. Uniformita' e tempi piu' rapidi. E' il caso di questo concorso.
+
+21
+00:03:42,910 --> 00:03:53,870
+Che cosa significa per te, in pratica? Primo: leggi con attenzione il bando. I requisiti, le prove, i punteggi, le soglie. E' li' che trovi le regole della tua procedura.
+
+22
+00:03:53,870 --> 00:04:04,900
+Secondo: verifica le modalita' di scelta dell'azienda o dell'ambito di assegnazione, e come viene usata la graduatoria. Su questi punti, il riferimento e' sempre il bando vigente.
+
+23
+00:04:04,900 --> 00:04:16,530
+Terzo: segui le comunicazioni ufficiali sul sito di Azienda Zero. Sono l'unico canale valido per date e convocazioni, e una convocazione persa non si recupera chiedendo a un collega.
+
+24
+00:04:16,530 --> 00:04:25,670
+E ricorda un dettaglio che all'orale fa la differenza: Azienda Zero gestisce la selezione, ma il tuo datore di lavoro sara' l'azienda in cui verrai assunto.
+
+25
+00:04:25,670 --> 00:04:34,410
+Poi ci sono le altre funzioni, attribuite nel tempo. I sistemi informativi e la sanita' digitale, compreso il Fascicolo Sanitario Elettronico regionale.
+
+26
+00:04:34,410 --> 00:04:46,490
+Il portale e le app con cui il cittadino veneto accede ai servizi digitali, Sanita' km zero, sono della Regione e gestiti con Azienda Zero. Li vedrai nella lezione tredici punto sette.
+
+27
+00:04:46,490 --> 00:04:55,520
+La formazione. Gli affari legali e il contenzioso, con il patrocinio e la difesa delle aziende. E il supporto alla gestione del rischio e dei sinistri.
+
+28
+00:04:55,520 --> 00:05:06,580
+Le funzioni epidemiologiche e i registri: il sistema epidemiologico regionale, il Registro Tumori del Veneto, i registri di patologia. Ne riparliamo nella lezione tredici punto sei.
+
+29
+00:05:06,580 --> 00:05:18,340
+Il supporto al coordinamento di attivita' regionali, come l'emergenza-urgenza. La logistica e gli investimenti. E un punto di metodo: le funzioni sono definite e aggiornate dalla Giunta regionale.
+
+30
+00:05:18,340 --> 00:05:29,980
+L'organizzazione. Azienda Zero ha un direttore generale nominato dalla Giunta regionale, come i direttori generali delle altre aziende. Lo affiancano un direttore amministrativo e un direttore sanitario.
+
+31
+00:05:29,980 --> 00:05:41,730
+La sua organizzazione interna, con le unita' operative complesse e gli uffici, e' definita dall'atto aziendale, come per tutte le altre aziende. L'atto aziendale l'hai visto nella lezione dodici punto tre.
+
+32
+00:05:41,730 --> 00:05:53,290
+E ogni anno la Giunta regionale approva gli indirizzi per la sua attivita', collegati alla programmazione socio-sanitaria. La Regione indirizza; Azienda Zero da' supporto tecnico e gestisce.
+
+33
+00:05:53,290 --> 00:06:04,720
+Un modello osservato. Il Veneto ha scelto un ente di governance centralizzato, e altre Regioni ne hanno istituiti con funzioni simili. Il Piemonte, per esempio, ha creato una propria Azienda Zero.
+
+34
+00:06:04,720 --> 00:06:16,290
+All'orale puoi mostrare spirito critico. La centralizzazione porta dei vantaggi: l'uniformita' e le economie. Ma pone anche delle sfide: la distanza dai territori, e i tempi decisionali.
+
+35
+00:06:16,290 --> 00:06:24,640
+Saper dire tutte e due le cose ti distingue da chi ha solo imparato un elenco. Davanti a una commissione, un giudizio equilibrato vale piu' di un elogio.
+
+36
+00:06:24,640 --> 00:06:34,760
+Il caso d'esame. La domanda tipo: che cos'e' Azienda Zero, e quali funzioni svolge? Una risposta ordinata parte dalla natura dell'ente, e poi passa alle sue funzioni.
+
+37
+00:06:34,760 --> 00:06:45,650
+E' l'ente di governance della sanita' veneta, istituito dalla legge regionale diciannove del duemilasedici, con personalita' giuridica di diritto pubblico. Non eroga prestazioni ai pazienti.
+
+38
+00:06:45,650 --> 00:06:55,540
+Svolge funzioni centralizzate per tutte le aziende: la gestione sanitaria accentrata, gli acquisti con la CRAV, il reclutamento del personale con i concorsi unificati.
+
+39
+00:06:55,540 --> 00:07:08,070
+E poi i sistemi informativi e il Fascicolo Sanitario Elettronico, gli affari legali, la formazione, le funzioni epidemiologiche. In chiusura, un aggancio personale: e' l'ente che gestisce questo concorso.
+
+40
+00:07:08,070 --> 00:07:18,190
+Il legame con il lavoro quotidiano. I dispositivi e i farmaci arrivano da gare regionali: segnalarne i difetti con la dispositivo-vigilanza migliora le gare successive.
+
+41
+00:07:18,190 --> 00:07:27,890
+Il Fascicolo Sanitario Elettronico garantisce la continuita' delle informazioni sulla persona che assisti. E c'e' la formazione regionale, che passa anch'essa da Azienda Zero.
+
+42
+00:07:27,890 --> 00:07:35,300
+E i dati epidemiologici, raccolti nei registri, orientano la programmazione. Senza dati, la programmazione va alla cieca.
+
+43
+00:07:35,300 --> 00:07:44,340
+La tabella. Azienda per il governo della sanita' della Regione del Veneto. Legge regionale diciannove del duemilasedici, operativa dal duemiladiciassette.
+
+44
+00:07:44,340 --> 00:07:55,620
+Ente del Servizio Sanitario Regionale, con personalita' giuridica di diritto pubblico, coordinato dall'Area Sanita' e Sociale. Direttore generale nominato dalla Giunta, con indirizzi annuali.
+
+45
+00:07:55,620 --> 00:08:08,840
+Le funzioni: GSA, CRAV come soggetto aggregatore, concorsi unificati, sistemi informativi e FSE, formazione, affari legali, rischio e sinistri, epidemiologia e registri.
+
+46
+00:08:08,840 --> 00:08:17,490
+La frase della lezione. Azienda Zero non cura i pazienti, ma rende possibile che le altre aziende li curino meglio.
+
+47
+00:08:17,490 --> 00:08:25,140
+Nella prossima lezione: la rete ospedaliera veneta, e il modello hub and spoke, che hai gia' incontrato nella lezione dodici punto tre.
+
+48
+00:08:25,140 --> 00:08:33,120
+Poi il SUEM centodiciotto, e le reti per l'ictus, l'infarto, il trauma e le altre patologie tempo-dipendenti. A tra poco.

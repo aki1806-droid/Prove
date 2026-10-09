@@ -14,13 +14,31 @@ Quarta lezione del Modulo 13: il distretto e le cure primarie venete. Il distret
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,66 · B $0,72) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.242          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:19.0     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 3.956 car · chunk B 4.286 car)
+tracce grezze             A 283.3 s  ·  B 316.9 s
+silenzi                   fattore 1,131   ->   atempo 1,069
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**608/622 parole**, la B **660/676**, nessun buco. Le rese diverse
+(non buchi): s08 «semiresidenzialita ee» sentito «semi residenzialita e»; s09 «e» sentito «ee»; s10 «centottantanove» sentito «189»; s13 «e» sentito «ee»; s15 «unita riabilitative» sentito «unitarie abilitative»; s21 «e» sentito «ee»; s23 «ee» sentito «e»; s24 «l adi» sentito «la di»; s24 «e» sentito «ee»; s26 «e» sentito «ee»; s30 «ee» sentito «e»; s31 «e» sentito «ee»; s42 «e» sentito «ee»; s44 «ee» sentito «e»; s46 «centottantanove» sentito «189».
 
 ## Le scene
 
