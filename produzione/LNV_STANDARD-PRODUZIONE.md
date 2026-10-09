@@ -166,7 +166,54 @@ schermata, e spalma il resto:
 Il minimo non è un dettaglio: nella 1.1 il memo «La causa non si vede mai.»
 durava 1,65 s, cioè non si leggeva.
 
-## 10. Lo stato della produzione
+## 10. Il controllo dei tagli senza trascrizione
+
+Il metodo prevede di risentire ogni confine parola per parola con
+`tagli.py correggi`. Con i crediti ElevenLabs a zero non si può, e al suo
+posto si usa una banda di durata: si confronta quanto dura ogni blocco con
+quanto dovrebbe durare per il suo testo, e si guardano gli scarti oltre
+1,5 s. Un confine caduto dentro una frase lascia una firma riconoscibile —
+il blocco prima troppo corto e quello dopo troppo lungo, in misura uguale e
+opposta — e un blocco che risulta letto molto sopra la velocità della
+traccia è da solo la prova che il suo confine è sbagliato. Così sono stati
+trovati e corretti a mano i confini `s07`/`s08` della 2.2, `s44`/`s45` della
+2.3 e `s32`/`s33` della 2.4.
+
+**La banda si misura sul parlato netto, non sulla durata lorda.** Un blocco
+di frasi brevissime («Imbarazzo. Cortesia. Dolore privato.») respira di più
+e sulla durata lorda sembra letto piano; un periodo lungo sembra corso. Sulla
+2.4 la banda lorda segnalava tredici confini su quarantotto, e togliendo i
+silenzi dalla durata di ogni blocco sono scesi a otto, con la traccia C
+pulita del tutto. I silenzi si prendono dallo stesso `silencedetect` che usa
+l'allineamento, e il conto diventa: caratteri del blocco diviso secondi di
+voce, contro la media della traccia.
+
+**Due ipotesi provate e cadute**, scritte qui perché nessuno le riprovi.
+
+- *I confini sono le pause più lunghe della traccia.* Sarebbe comodo: il
+  testo arriva con una riga vuota fra un blocco e l'altro, e verrebbe da
+  pensare che lì il modello stacchi di più. Non è vero. Sulla 2.4 la
+  quindicesima pausa più lunga misura 0,64 s e la sedicesima 0,62: fra la
+  pausa di paragrafo e quella di frase non c'è nessuno stacco su cui
+  appoggiarsi. È anche il motivo per cui il premio `SCONTO` di `tagli.py`
+  può aiutare solo un po'.
+- *Il metro giusto sono le sillabe, non i caratteri.* In italiano le parole
+  lunghe hanno meno sillabe per carattere delle corte, e un blocco scritto
+  con parole lunghe sembra letto troppo in fretta. L'idea regge in teoria e
+  non serve a niente in pratica: contando i gruppi di vocali invece dei
+  caratteri, sulla 2.4 i confini fuori banda passano da otto a nove e lo
+  scarto medio non si muove. I due metri sono quasi lo stesso. Restano i
+  caratteri.
+
+**Quello che la banda non dice, e che va detto lo stesso.** Uno scarto fuori
+banda non significa che una parola sia stata spezzata: significa solo che il
+blocco non dura quanto il suo testo prevede. La garanzia che conta è un'altra
+e si può dare sempre — che ogni taglio cada dentro un silenzio. Si verifica
+direttamente, ed è quello che va scritto nel registro insieme ai confini
+sospetti: sulla 2.4 i quarantacinque confini stanno tutti dentro un silenzio,
+il più stretto di 0,36 s con 0,18 s di margine per lato.
+
+## 11. Lo stato della produzione
 
 | lezione | titolo | durata | video_id |
 |---|---|---|---|
@@ -178,14 +225,15 @@ durava 1,65 s, cioè non si leggeva.
 | 2.1 | Le sette emozioni | 9:59 | `1f356ac50ea758d66042448ef92a8d49` |
 | 2.2 | Il FACS | 9:59 | `2adbe9f7e36bcf736c723adc48b2900c` |
 | 2.3 | Le espressioni a occhio nudo | 9:59 | `c27dd213d4388051ce4a449ec4635482` |
+| 2.4 | Le microespressioni | 9:59 | `9f3220d21c45256509b20a6d43fc05af` |
 
 **Modulo 1 completo**: cinquanta minuti meno un secondo, duecentotrentacinque slide, trentasei
 fra diagrammi e infografiche, quindici riprese. Il registro di modulo sta in
-`registri/lnv-modulo-1.md`. Restano da produrre le lezioni 2.4 e 2.5; i copioni
+`registri/lnv-modulo-1.md`. Resta da produrre la lezione 2.5; i copioni
 dei moduli 1 e 2 arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
 `LNV_M2_SCRIPT-HEYGEN.md`.
 
-**Il controllo dei tagli di queste otto lezioni è parziale** (vedi i
+**Il controllo dei tagli di queste nove lezioni è parziale** (vedi i
 registri): i crediti ElevenLabs sono a zero e la trascrizione di verifica non
 si può fare. Quando tornano, i confini segnalati nei registri vanno risentiti
 uno per uno con `tagli.py correggi`.

@@ -248,6 +248,14 @@ tagli.py correggi  li sposta
 tagli.py applica   scrive i blocchi + le pose
 ```
 
+Se i crediti di trascrizione sono finiti, la verifica parola per parola non si
+fa e al suo posto va `banda.py`: `banda` per gli scarti di durata sul parlato
+netto, `sposta` per provare le pause attorno a un confine sospetto, `silenzi`
+per accertare che nessun taglio spezzi una parola. Non è un sostituto pieno —
+dice che un confine è spostato, non dove va rimesso — e quello che trova si
+corregge a mano dentro `tagli.json`. **Dopo una correzione a mano non si
+rilancia `allinea`**, che riscrive il file da capo.
+
 Come sceglie i confini:
 
 - i candidati sono **solo le pause più lunghe**, poco più numerose dei confini

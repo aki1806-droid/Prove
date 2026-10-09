@@ -575,12 +575,32 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   verifica parola per parola non si fa in nessun altro modo, e l'unico controllo
   che resta è quello di durata attesa (sotto). Conviene guardare il residuo
   *prima* di cominciare un modulo intero.
-- **Senza trascrizione, i confini si controllano con la durata attesa.** Per
-  ogni blocco si confronta la durata del taglio con `caratteri ÷ velocità della
-  traccia`: se un confine cade dentro una frase, il blocco prima risulta corto e
-  quello dopo lungo, in misura uguale e opposta. Non sostituisce la verifica
-  vera — dice che un confine è spostato, non dove va rimesso — ma gli errori
-  grossi li trova tutti.
+- **Senza trascrizione, i confini si controllano con la durata attesa**
+  (`banda.py`). Per ogni blocco si confronta la durata del taglio con
+  `caratteri ÷ velocità della traccia`: se un confine cade dentro una frase, il
+  blocco prima risulta corto e quello dopo lungo, in misura uguale e opposta.
+  Un blocco che risulta letto molto sopra la velocità della traccia è da solo
+  la prova che il suo confine è sbagliato. Non sostituisce la verifica vera —
+  dice che un confine è spostato, non dove va rimesso — ma gli errori grossi li
+  trova tutti: così sono venuti fuori `s07`/`s08` della 2.2, `s44`/`s45` della
+  2.3 e `s32`/`s33` della 2.4.
+  **Il conto va fatto sul parlato netto, togliendo i silenzi dalla durata di
+  ogni blocco.** Un blocco di frasi brevissime respira di più e sulla durata
+  lorda sembra letto piano; sulla 2.4 la banda lorda segnalava tredici confini
+  su quarantotto, quella netta otto.
+  Due scorciatoie provate e cadute, da non riprovare: i confini **non** sono le
+  pause più lunghe della traccia (sulla 2.4 la quindicesima pausa misura 0,64 s
+  e la sedicesima 0,62: nessuno stacco fra pausa di paragrafo e pausa di frase),
+  e contare le **sillabe** invece dei caratteri non migliora niente (otto
+  confini fuori banda diventano nove).
+- **La banda dice un'altra cosa da quella che sembra, e la garanzia vera è
+  un'altra.** Uno scarto fuori banda non significa che una parola sia stata
+  spezzata: significa che il blocco non dura quanto il suo testo prevede, e la
+  causa può essere la lettura. Quello che si può garantire sempre è che ogni
+  taglio cada dentro un silenzio, e si verifica direttamente
+  (`banda.py silenzi`). È questo che va scritto nel registro accanto ai confini
+  sospetti, altrimenti il registro promette meno di quanto la produzione abbia
+  davvero in mano.
 
 - **Il layout `quote` mette le virgolette da solo, `occhio` non si chiama
   `kicker`.** Due difetti dello stesso tipo: si passa un dato che il layout

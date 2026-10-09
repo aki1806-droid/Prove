@@ -1,0 +1,476 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.4",
+"title": "Le microespressioni: cosa sono e cosa non fanno",
+"sub": "Il volto"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "Questa è la promessa più potente di tutto il campo.<br><span class=\"gold\">Vale la pena sentirla per intero.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "cosa dice la promessa",
+"rows": [
+"Esistono espressioni di una frazione di secondo",
+"Sfuggono al controllo volontario",
+"Rivelano l'emozione che stai nascondendo",
+"Imparando a vederle, sai chi mente"
+],
+"note": "È il motivo per cui moltissimi comprano il primo corso."
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "e cosa ha prodotto",
+"plain": true,
+"rows": [
+"Serie televisive",
+"Programmi di addestramento",
+"Protocolli aziendali",
+"Corsi da un fine settimana, con attestato"
+]
+},
+{
+"file": "c05",
+"layout": "memo",
+"title": "Non regge.<br>E si mostra con dei numeri,<br>non con un'opinione."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "cominciamo da quello che è vero",
+"title": "I movimenti brevissimi esistono.<br><span class=\"gold\">Su questo non c'è niente da discutere.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "E c'è anche una logica plausibile dietro:<br><span class=\"gold\">l'emozione parte, il controllo arriva un attimo dopo.</span>"
+},
+{
+"file": "c08",
+"layout": "flusso",
+"kicker": "dove comincia il problema: tre salti, non uno",
+"passi": [
+{
+"et": "Il movimento",
+"sub": "esiste, si vede"
+},
+{
+"et": "l'emozione",
+"sub": "quale?"
+},
+{
+"et": "la menzogna",
+"sub": "perché quella?"
+},
+{
+"et": "dal vivo",
+"sub": "mentre parli"
+}
+],
+"acceso": 0,
+"title": "Messi in fila, le incertezze non si sommano: si moltiplicano."
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "il primo salto",
+"title": "Dal movimento all'emozione.<br><span class=\"gold\">È il dibattito della 2.1, e qui pesa molto di più.</span>"
+},
+{
+"file": "c10",
+"layout": "swap",
+"kicker": "perché qui il materiale è meno",
+"rows": [
+[
+"Un'espressione piena",
+"un secondo, si vede bene"
+],
+[
+"Una microespressione",
+"un quarto di secondo"
+]
+]
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "il secondo salto",
+"title": "Dall'emozione nascosta alla menzogna.<br><span class=\"gold\">Qui si passa dalla psicologia all'accusa.</span>"
+},
+{
+"file": "c13",
+"layout": "raggi",
+"kicker": "perché una persona trattiene un'emozione",
+"centro": "trattenere",
+"attorno": [
+{
+"et": "l'imbarazzo",
+"d": 26
+},
+{
+"et": "la cortesia",
+"d": 54
+},
+{
+"et": "un brutto ricordo",
+"d": 86
+},
+{
+"et": "la stanchezza",
+"d": 40
+}
+],
+"title": "Nessuna di queste è una bugia, e tutte fanno la stessa cosa."
+},
+{
+"file": "c14",
+"layout": "swap",
+"kicker": "il terzo salto",
+"rows": [
+[
+"Su un video rallentato",
+"puoi tornare indietro"
+],
+[
+"Dal vivo",
+"ascolti, pensi e rispondi"
+]
+]
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "e qui non c'è ambiguità",
+"title": "Esistono i numeri.<br><span class=\"gold\">Con il nome di chi li ha raccolti e l'anno.</span>"
+},
+{
+"file": "c16",
+"layout": "cartellino",
+"occhio": "la prima fonte, e si può andare a controllare",
+"cifra": "0",
+"unita": " indicatori",
+"che": "Indicatori non verbali affidabili della menzogna.",
+"voci": [
+{
+"et": "studi esaminati",
+"v": 100,
+"val": "centinaia"
+},
+{
+"et": "indicatori che reggono",
+"v": 0,
+"val": "nessuno"
+}
+],
+"limite": "Rassegna di De Pàulo e colleghi, 2003: decenni di lavoro e tutti i comportamenti che vengono comunemente citati."
+},
+{
+"file": "c17",
+"layout": "memo",
+"title": "Nessuno.<br>Non uno debole da usare con prudenza.<br>Nessuno."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "la seconda fonte",
+"title": "La meta-analisi di <span class=\"gold\">Bond e De Pàulo, 2006</span>,<br>ha misurato quanto siamo accurati a giudicare."
+},
+{
+"file": "c19",
+"layout": "number",
+"kicker": "e questo è il risultato",
+"num": "54",
+"unit": "%",
+"fill": 54,
+"title": "Poco sopra il cinquanta: appena meglio del lancio di una moneta. Su una conversazione sola, quella differenza non esiste."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "e c'è un dato più scomodo di tutti",
+"title": "I professionisti addestrati<br><span class=\"gold\">non vanno meglio di chi non ha mai fatto niente.</span>"
+},
+{
+"file": "c21",
+"layout": "confronto",
+"occhio": "cosa cambia davvero con l'addestramento",
+"titoli": [
+"chi non è addestrato",
+"chi lo è"
+],
+"righe": [
+{
+"et": "accuratezza",
+"a": "come il caso",
+"b": "come il caso"
+},
+{
+"et": "anni di mestiere",
+"a": "nessuno",
+"b": "molti"
+},
+{
+"et": "corsi seguiti",
+"a": "nessuno",
+"b": "molti"
+},
+{
+"et": "fiducia nel proprio giudizio",
+"a": "normale",
+"b": "molto alta",
+"segna": true
+}
+]
+},
+{
+"file": "c22",
+"layout": "statement",
+"title": "Si esce da quei corsi convinti di vedere<br><span class=\"gold\">cose che prima non si vedevano. E si continua a non vederle.</span>"
+},
+{
+"file": "c23",
+"layout": "bilancia",
+"kicker": "cosa pesa di più dopo un addestramento",
+"sx": {
+"et": "la sicurezza",
+"peso": 8
+},
+"dx": {
+"et": "l'accuratezza",
+"peso": 1
+},
+"title": "Il piatto che scende è quello che pesa. Cresce la sicurezza."
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "L'addestramento aumenta la sicurezza.<br>Non l'accuratezza."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "e c'è un ostacolo in più",
+"title": "Si chiama frequenza di base.<br><span class=\"gold\">Non è psicologia: è aritmetica, e si fa con carta e penna.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Immagina cento conversazioni normali.<br><span class=\"gold\">In quante c'è una menzogna che cambia qualcosa?</span>"
+},
+{
+"file": "c27",
+"layout": "finestra",
+"kicker": "quante sono, con una stima generosa",
+"quota": 5,
+"et": "le menzogne",
+"coda": "le altre novantacinque conversazioni",
+"title": "Cinque su cento. Ed è una stima larga per quasi tutti i contesti."
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Adesso applica un metodo accurato all'ottanta per cento.<br><span class=\"gold\">Un metodo che non esiste: nessuno ha mai misurato tanto.</span>"
+},
+{
+"file": "c29",
+"layout": "imbuto",
+"kicker": "cosa esce dalle cento conversazioni",
+"ciclo": 6,
+"dentro": [
+"5 menzogne",
+"95 conversazioni sincere"
+],
+"fuori": "23 segnalazioni",
+"title": "Quattro bugie prese su cinque. E diciannove sinceri segnalati."
+},
+{
+"file": "c30",
+"layout": "barre",
+"kicker": "cosa sono le ventitré segnalazioni",
+"barre": [
+{
+"et": "bugie vere",
+"v": 17,
+"val": "4"
+},
+{
+"et": "persone sincere accusate",
+"v": 83,
+"val": "19"
+}
+],
+"acceso": 1,
+"title": "Oltre quattro allarmi su cinque sono falsi. Nel caso migliore."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "E questo con l'ottanta per cento.<br><span class=\"gold\">Con i numeri veri la segnalazione non porta più nessuna informazione.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Non è una questione di quanto sei bravo.<br><span class=\"gold\">È la struttura del problema.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"theme": "sand",
+"kicker": "e il danno non è teorico",
+"title": "È concreto, e colpisce sempre<br><span class=\"gold\">le stesse persone.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"theme": "sand",
+"title": "Chi si convince di saper riconoscere le bugie<br><span class=\"gold\">accusa persone sincere. È aritmetica, non cattiveria.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"theme": "sand",
+"title": "E lo fa con una sicurezza che rende l'accusa difficile da contestare.<br><span class=\"gold\">Non si può dimostrare di non aver mentito.</span>"
+},
+{
+"file": "c37",
+"layout": "anello",
+"theme": "sand",
+"kicker": "e poi smette di verificare",
+"ciclo": 6,
+"passi": [
+"hai una lettura",
+"non cerchi prove",
+"la lettura resta"
+],
+"title": "È il punto in cui si rinuncia all'unico metodo che funziona."
+},
+{
+"file": "c38",
+"layout": "statement",
+"theme": "sand",
+"title": "E peggiora sistematicamente<br><span class=\"gold\">con le persone ansiose.</span>"
+},
+{
+"file": "c39",
+"layout": "swap",
+"theme": "sand",
+"kicker": "perché la difficoltà somiglia a quello che si cerca",
+"rows": [
+[
+"Chi è teso",
+"produce molti più segnali"
+],
+[
+"Chi mente",
+"non necessariamente"
+]
+]
+},
+{
+"file": "c40",
+"layout": "list",
+"theme": "sand",
+"kicker": "e questi sono i posti dove accade",
+"rows": [
+"Un colloquio di lavoro",
+"Un pronto soccorso",
+"Un'aula di tribunale"
+],
+"note": "Qualcuno paga per essere stato nervoso nel momento sbagliato."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "cosa resta, allora",
+"title": "Qualcosa resta, e non è poco.<br><span class=\"gold\">Due cose, usabili dalla prossima conversazione.</span>"
+},
+{
+"file": "c42",
+"layout": "swap",
+"kicker": "la prima",
+"rows": [
+[
+"Un movimento breve",
+"dice quando"
+],
+[
+"Non dice",
+"che cosa, né perché"
+]
+]
+},
+{
+"file": "c43",
+"layout": "statement",
+"kicker": "la seconda, ed è quella che userai",
+"title": "L'incongruenza è il segnale da cercare.<br><span class=\"gold\">Non qualcosa di losco: molto più spesso qualcosa di complicato.</span>"
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Non per smascherare nessuno:<br><span class=\"gold\">per sapere dove fare la prossima domanda.</span>"
+},
+{
+"file": "c45",
+"layout": "memo",
+"title": "Un'incongruenza dice<br>dove fare la prossima domanda.<br>Non dice chi hai davanti."
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "Vendere il riconoscimento della menzogna<br><span class=\"gold\">avrebbe venduto molto di più.</span>"
+},
+{
+"file": "c47",
+"layout": "statement",
+"title": "Avrebbe reso chi lo compra più sicuro e non più accurato.<br><span class=\"gold\">E quella sicurezza, prima o poi, la paga qualcun altro.</span>"
+},
+{
+"file": "c48",
+"layout": "cruscotto",
+"occhio": "quello che resta di questa lezione",
+"celle": [
+{
+"cap": "i movimenti",
+"et": "esistono"
+},
+{
+"cap": "l'emozione",
+"et": "non si deduce"
+},
+{
+"cap": "la menzogna",
+"et": "meno che mai"
+},
+{
+"cap": "l'incongruenza",
+"et": "dice dove chiedere",
+"acceso": true
+}
+],
+"resta": "Nella prossima lezione chiudiamo il modulo con il sorriso."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Non cercare segnali",
+"Fai una domanda in più",
+"Su un dettaglio verificabile: un orario, un nome, una sequenza"
+],
+"note": "Produce più informazioni di qualunque osservazione. Ed è l'unica cosa che potrai controllare dopo."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Capire i segni del linguaggio non verbale"
+}
+]
