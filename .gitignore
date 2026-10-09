@@ -31,3 +31,6 @@ progetti/*/scene/
 progetti/*/_montaggio/
 progetti/*/montato-*.mp4
 __pycache__/
+
+# Temporanei di tagli.py (ritmo)
+_trim-*.mp3
