@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,520
+Questo modulo ripercorre le basi scientifiche dell'assistenza: anatomia, fisiologia, fisiopatologia. Non come in un corso universitario, ma collegandole a cio' che hai gia' studiato.
+
+2
+00:00:13,520 --> 00:00:22,930
+Perche' ogni gesto infermieristico ha una ragione biologica. Cominciamo dalle fondamenta: l'organizzazione del corpo, la cellula, i liquidi e l'equilibrio che li governa.
+
+3
+00:00:22,930 --> 00:00:32,070
+Il corpo e' organizzato in livelli. Si parte dalle molecole, poi le cellule, i tessuti, gli organi, gli apparati e i sistemi, fino all'organismo intero.
+
+4
+00:00:32,070 --> 00:00:45,490
+I tessuti fondamentali sono quattro. L'epiteliale, che riveste e secerne: la cute, le mucose, le ghiandole. E il connettivo, che sostiene e collega: l'osso, la cartilagine, il sangue, il tessuto adiposo.
+
+5
+00:00:45,490 --> 00:00:52,440
+Il terzo e' il tessuto muscolare, che puo' essere scheletrico, cardiaco o liscio. Il quarto e' il tessuto nervoso.
+
+6
+00:00:52,440 --> 00:01:03,140
+La terminologia anatomica serve per documentare con precisione. Tutto si riferisce alla posizione anatomica: in piedi, sguardo in avanti, braccia lungo i fianchi, palmi rivolti in avanti.
+
+7
+00:01:03,140 --> 00:01:17,500
+I piani. Il sagittale divide destra e sinistra, ed e' mediano se passa a meta'. Il frontale, o coronale, divide anteriore e posteriore. Il trasversale, o assiale, superiore e inferiore: quello delle immagini della TC.
+
+8
+00:01:17,500 --> 00:01:32,020
+I termini vanno a coppie. Prossimale e distale: piu' vicino o piu' lontano dalla radice dell'arto. Mediale e laterale. Craniale e caudale. Anteriore, o ventrale, e posteriore, o dorsale. Superficiale e profondo.
+
+9
+00:01:32,020 --> 00:01:42,410
+Perche' conta? Lesione sul malleolo laterale destro e' una descrizione precisa. Lesione sulla caviglia, invece, no. La precisione dei termini e' precisione della documentazione.
+
+10
+00:01:42,410 --> 00:01:54,870
+La cellula e' l'unita' fondamentale della vita. E' delimitata dalla membrana plasmatica, un doppio strato di fosfolipidi con proteine inserite, che ha una permeabilita' selettiva: decide che cosa entra e che cosa esce.
+
+11
+00:01:54,870 --> 00:02:08,210
+All'interno, il nucleo con il DNA. I mitocondri, che producono energia sotto forma di ATP. I ribosomi, che sintetizzano le proteine. E poi il reticolo endoplasmatico, l'apparato del Golgi e i lisosomi.
+
+12
+00:02:08,210 --> 00:02:15,300
+I trasporti di membrana sono di due tipi. Quelli passivi non consumano energia e seguono il gradiente di concentrazione.
+
+13
+00:02:15,300 --> 00:02:27,040
+Sono passivi la diffusione semplice, come quella dell'ossigeno e dell'anidride carbonica negli alveoli; la diffusione facilitata, con proteine trasportatrici, come per il glucosio; e l'osmosi, per l'acqua.
+
+14
+00:02:27,040 --> 00:02:40,200
+Quelli attivi consumano ATP e lavorano contro gradiente. Il piu' importante e' la pompa sodio-potassio, che porta tre ioni sodio fuori e due ioni potassio dentro. Sono attive anche l'endocitosi e l'esocitosi.
+
+15
+00:02:40,200 --> 00:02:48,830
+Ed e' la pompa sodio-potassio il motivo per cui il sodio e' il principale ione extracellulare, e il potassio il principale ione intracellulare.
+
+16
+00:02:48,830 --> 00:02:58,120
+L'osmosi e' il passaggio di acqua attraverso una membrana semipermeabile, dalla soluzione meno concentrata a quella piu' concentrata. Come se l'acqua volesse diluirla.
+
+17
+00:02:58,120 --> 00:03:05,770
+Da qui la tonicita'. Una soluzione isotonica, come la fisiologica allo zero virgola nove per cento, non provoca spostamenti di acqua.
+
+18
+00:03:05,770 --> 00:03:15,420
+Una soluzione ipotonica fa entrare acqua nelle cellule, che si gonfiano. Una soluzione ipertonica, al contrario, la fa uscire, e le cellule si raggrinziscono.
+
+19
+00:03:15,420 --> 00:03:26,340
+E' la base della lezione sei punto tre: perche' le soluzioni ipotoniche sono pericolose nel paziente con edema cerebrale, e perche' il mannitolo o la soluzione salina ipertonica lo riducono.
+
+20
+00:03:26,340 --> 00:03:37,190
+I compartimenti idrici. L'acqua rappresenta circa il sessanta per cento del peso corporeo nell'adulto. E' di piu' nel neonato, e di meno nell'anziano e nella donna, che hanno piu' tessuto adiposo.
+
+21
+00:03:37,190 --> 00:03:44,320
+Per questo neonati e anziani si disidratano facilmente, ma in modi diversi: la loro riserva idrica non e' la stessa.
+
+22
+00:03:44,320 --> 00:03:56,990
+Due terzi dell'acqua sono intracellulari, circa il quaranta per cento del peso. Un terzo e' extracellulare, circa il venti per cento, e si divide in interstiziale, circa tre quarti, e plasma, circa un quarto.
+
+23
+00:03:56,990 --> 00:04:07,800
+Gli scambi di liquidi nei capillari seguono le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso. La pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro.
+
+24
+00:04:07,800 --> 00:04:17,960
+L'edema nasce quando questo equilibrio si rompe, e le cause sono quattro. La prima e' l'aumento della pressione idrostatica, come nello scompenso cardiaco e nella trombosi venosa.
+
+25
+00:04:17,960 --> 00:04:26,400
+La seconda e' la riduzione della pressione oncotica, cioe' l'ipoalbuminemia: nella malnutrizione, nella cirrosi, nella sindrome nefrosica.
+
+26
+00:04:26,400 --> 00:04:36,410
+La terza e' l'aumento della permeabilita' dei capillari: l'infiammazione, la sepsi, le ustioni. La quarta e' l'ostacolo al drenaggio linfatico, che da' il linfedema.
+
+27
+00:04:36,410 --> 00:04:46,090
+Davanti a un edema, chiedersi quale delle quattro cause agisca orienta l'assistenza. Pressione idrostatica, pressione oncotica, permeabilita', drenaggio linfatico.
+
+28
+00:04:46,090 --> 00:04:59,360
+La regolazione dell'acqua e del sodio. Il primo meccanismo e' la sete. Poi l'ormone antidiuretico, l'ADH, prodotto dall'ipotalamo e liberato dall'ipofisi posteriore: fa riassorbire acqua nel rene.
+
+29
+00:04:59,360 --> 00:05:08,830
+L'aldosterone, prodotto dal surrene, fa riassorbire sodio ed eliminare potassio. Agisce all'interno del sistema renina-angiotensina-aldosterone.
+
+30
+00:05:08,830 --> 00:05:18,840
+E il peptide natriuretico, prodotto dal cuore quando e' disteso, che favorisce l'eliminazione di sodio e acqua. E' il BNP, quello che si dosa nello scompenso.
+
+31
+00:05:18,840 --> 00:05:30,310
+L'equilibrio acido-base. Il pH del sangue sta fra sette virgola trentacinque e sette virgola quarantacinque: un intervallo stretto. Tre sistemi lo difendono, ciascuno con tempi diversi.
+
+32
+00:05:30,310 --> 00:05:43,680
+I tamponi, come il bicarbonato, le proteine e l'emoglobina, in pochi secondi. Il polmone, che elimina anidride carbonica, in minuti. Il rene, che elimina ioni idrogeno e riassorbe bicarbonato, in ore o giorni.
+
+33
+00:05:43,680 --> 00:05:56,380
+La CO2 rappresenta la componente respiratoria, il bicarbonato quella metabolica. E' la base della lettura dell'emogas della lezione sei punto quattro, dove il compenso di un sistema corregge lo squilibrio dell'altro.
+
+34
+00:05:56,380 --> 00:06:05,460
+L'omeostasi e' il mantenimento di condizioni interne stabili. Il meccanismo piu' frequente e' il feedback negativo: la risposta contrasta la variazione.
+
+35
+00:06:05,460 --> 00:06:16,600
+Se la glicemia sale, si libera insulina, che la fa scendere. Se la temperatura sale, si suda. Termoregolazione, glicemia e pressione arteriosa sono esempi di feedback negativo.
+
+36
+00:06:16,600 --> 00:06:27,560
+Esiste anche il feedback positivo, in cui la risposta amplifica la variazione fino a un evento finale. Le contrazioni del parto, sostenute dall'ossitocina, o la cascata della coagulazione.
+
+37
+00:06:27,560 --> 00:06:33,710
+E la malattia, in molti casi, e' proprio questo: un'omeostasi che non riesce piu' a compensare.
+
+38
+00:06:33,710 --> 00:06:46,750
+Il collegamento con l'assistenza. Il bilancio idrico e il peso della lezione tre punto cinque. La scelta delle soluzioni infusionali della lezione sei punto tre. L'edema e il posizionamento. L'emogas della sei punto quattro.
+
+39
+00:06:46,750 --> 00:06:58,360
+E un esempio che ora si spiega da solo: un campione emolizzato da' un potassio falsamente alto. Perche' il potassio e' intracellulare, e i globuli rossi rotti liberano il potassio che contengono.
+
+40
+00:06:58,360 --> 00:07:07,340
+Il caso d'esame. Paziente cirrotico, albumina a due virgola uno grammi per decilitro, edemi declivi importanti. Qual e' il meccanismo dell'edema?
+
+41
+00:07:07,340 --> 00:07:16,710
+La riduzione della pressione oncotica. Il fegato malato produce poca albumina, e il liquido non viene piu' trattenuto nei vasi. E' la seconda delle quattro cause di edema.
+
+42
+00:07:16,710 --> 00:07:28,870
+Si aggiunge l'ipertensione portale, che aumenta la pressione idrostatica nel distretto addominale, con l'ascite. Per questo, dopo una paracentesi di grande volume, si da' albumina, come nella lezione otto punto cinque.
+
+43
+00:07:28,870 --> 00:07:43,070
+La tabella. Quattro tessuti: epiteliale, connettivo, muscolare, nervoso. Tre piani: sagittale, frontale, trasversale. Trasporti passivi e attivi, e la pompa sodio-potassio: tre fuori e due dentro.
+
+44
+00:07:43,070 --> 00:07:54,260
+L'osmosi, con l'acqua che va verso il piu' concentrato, e la tonicita': iso, ipo e ipertonica. L'acqua al sessanta per cento del peso: due terzi dentro le cellule, un terzo fuori.
+
+45
+00:07:54,260 --> 00:08:07,470
+Starling: idrostatica fuori, oncotica dentro, e le quattro cause di edema. ADH per l'acqua, aldosterone per il sodio. Il pH e i suoi tre sistemi di difesa. Il feedback negativo e quello positivo.
+
+46
+00:08:07,470 --> 00:08:17,050
+La frase della lezione: ogni gesto infermieristico ha una ragione biologica. Conoscerla permette di adattare il gesto quando la situazione cambia.
+
+47
+00:08:17,050 --> 00:08:24,860
+Nella prossima lezione, l'apparato cardiocircolatorio: dall'anatomia del cuore al sistema di conduzione, fino alla pressione arteriosa.
+
+48
+00:08:24,860 --> 00:08:30,650
+Dalle fondamenta della cellula al primo grande apparato: il cuore e la circolazione. A tra poco.

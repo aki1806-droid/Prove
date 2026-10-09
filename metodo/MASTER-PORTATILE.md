@@ -958,6 +958,8 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | verifica | 7/8 per le sigle sillabate («di elle gi esse» → «dlgs», 12.1) o per un numero detto a cifre («uno uno sei, uno uno sette» → «116117», 13.4) | una riga in `RESE` del verificatore della lezione; la voce va bene così |
 | tagli | `correzioni.json` sparisce se si rifà il giro intero: `allinea` riparte da zero | dopo una correzione: `tagli.py correggi`, `applica` e i controlli, **non** `giro-voce` |
 | voce | i crediti ElevenLabs finiscono a metà di un modulo | i nodi asset allegati restano sul flow: al rinnovo si trascrive da quelli; le voci già scaricate non si rigenerano |
+| asset | un item del lotto resta «queued» per minuti (13.8, `v13.8-s29.mp4`) e `get_asset` dice 404 | ricaricarlo da solo (`create_asset_upload`, PUT, `complete_asset_upload`) e sostituire l'id in `scene-N.json` e `asset-id.json` |
+| tagli | l'indice di `correzioni.json` sbagliato di uno (13.5: spostati i confini di s44 e s45 invece di s43 e s44) | in `confini-B.json` `confini[j]` è la **fine** di `ids[j]`: per spostare l'inizio di sNN si usa l'indice del blocco **prima** (13.5: B[16] = fine di s42); `correggi` stampa il valore vecchio, da confrontare prima di `applica` |
 
 ---
 

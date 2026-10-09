@@ -123,6 +123,7 @@ progetti/<modulo>-<lezione>/
 | `m13-l13.5-non-autosufficienza` | Modulo 13 · 13.5 La rete per la non autosufficienza | 8:38.2 | `c9eb6614633f9fea941939c017d03ba8` |
 | `m13-l13.6-accreditamento` | Modulo 13 · 13.6 Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | 8:41.6 | `1a61939f3c3b0dab8682464571454e4e` |
 | `m13-l13.7-digitale` | Modulo 13 · 13.7 La sanità digitale veneta | 8:43.8 | `1b05ef6b2239d577691d94aaee17af28` |
+| `m13-l13.8-riepilogo` | Modulo 13 · 13.8 Riepilogo del Modulo 13 e autovalutazione | 8:44.5 | `92ea8632765218a07d7c78a9f69b89d9` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
@@ -133,7 +134,7 @@ lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
 Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 e l'11 il
-6 ottobre; il 12 il 9 ottobre. I moduli 13 e 14 sono in lavorazione.
+6 ottobre; il 12 e il 13 il 9 ottobre. Il modulo 14 è in lavorazione.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo
