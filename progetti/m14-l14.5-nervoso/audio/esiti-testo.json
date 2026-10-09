@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 579,
+  "parole_dette": 579,
+  "coincidenti": 573,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "corticospinale",
+    "detto": "cortico spinale"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s14",
+    "copione": "alla",
+    "detto": "la"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 679,
+  "parole_dette": 672,
+  "coincidenti": 662,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s26",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "t 3",
+    "detto": "t3"
+   },
+   {
+    "blocco": "s31",
+    "copione": "t 4",
+    "detto": "t4"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s42",
+    "copione": "beta 2",
+    "detto": "beta2"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s46",
+    "copione": "beta 1",
+    "detto": "beta1"
+   },
+   {
+    "blocco": "s46",
+    "copione": "beta 2",
+    "detto": "beta2"
+   }
+  ]
+ }
+}

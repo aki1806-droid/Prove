@@ -73,13 +73,17 @@ Il primo giro dava 7/8: s42 a 24,9 car/s. Sulla traccia B i confini s42/s43 e s4
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `c9eb6614633f9fea941939c017d03ba8` — 518.222 s (8:38.2), 1080p 16:9, resa in 55 s, con SRT (`subtitle_url`) |
+| lotto asset | `ba57c21978d2400da4fa879850c21e60` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s05, trascritto «ee»); «e» (s06, trascritto «ee»); «e» (s09, trascritto «ee»); «ee» (s10, trascritto «e»); «e» (s16, trascritto «ee»); «e» (s18, trascritto «ee»); «e» (s21, trascritto «ee»); «e» (s22, trascritto «ee»); «ee» (s23, trascritto «e»); «e» (s29, trascritto «ee»); «ee» (s31, trascritto «e»); «ee» (s32, trascritto «e»); «e» (s33, trascritto «ee»); «e» (s35, trascritto «ee»); «e» (s37, trascritto «ee»); «svamdi» (s45, trascritto «svamd»); «svamdi» (s46, trascritto «svamd»); «ee» (s47, trascritto «e»); «e» (s48, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

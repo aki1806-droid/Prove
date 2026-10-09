@@ -14,13 +14,31 @@ Settima lezione del Modulo 14: semeiotica infermieristica ed esami. Sintomo sogg
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,42 (A $0,73 · B $0,68) |
+| costo trascrizioni | $0,57 |
 | pause senza voce | s42 |
 
 ```
 CARATTERI  8.487          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:33.4     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.423 car · chunk B 4.064 car)
+tracce grezze             A 352.0 s  ·  B 271.2 s
+silenzi                   fattore 1,129   ->   atempo 1,080
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**647/654 parole**, la B **628/633**, nessun buco. Le rese diverse
+(non buchi): s07 «ee» sentito «e»; s13 «e» sentito «ee»; s16 «ee» sentito «e»; s23 «emogas» sentito «emo gas»; s26 «e» sentito «ee»; s26 «emogas» sentito «emo gas»; s26 «paco2» sentito «pco2»; s28 «read back» sentito «readback»; s34 «ee» sentito «e»; s36 «ee» sentito «e»; s41 «ee» sentito «e».
 
 ## Le scene
 

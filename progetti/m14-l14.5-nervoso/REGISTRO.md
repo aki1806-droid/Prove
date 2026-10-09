@@ -14,13 +14,31 @@ Quinta lezione del Modulo 14: il sistema nervoso e il sistema endocrino, i due s
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,65 · B $0,73) |
+| costo trascrizioni | $0,56 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.281          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:21.3     (MIRA 16,6)
 stacco tracce             dopo s23   (chunk A 3.929 car · chunk B 4.352 car)
+tracce grezze             A 290.1 s  ·  B 331.9 s
+silenzi                   fattore 1,123   ->   atempo 1,111
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**573/579 parole**, la B **662/679**, nessun buco. Le rese diverse
+(non buchi): s08 «corticospinale» sentito «cortico spinale»; s10 «e» sentito «ee»; s12 «ee» sentito «e»; s14 «alla» sentito «la»; s23 «e» sentito «ee»; s24 «ee» sentito «e»; s26 «ee» sentito «e»; s31 «t 3» sentito «t3»; s31 «t 4» sentito «t4»; s31 «ee» sentito «e»; s42 «beta 2» sentito «beta2»; s43 «e» sentito «ee»; s45 «ee» sentito «e»; s46 «beta 1» sentito «beta1»; s46 «beta 2» sentito «beta2».
 
 ## Le scene
 

@@ -14,13 +14,31 @@ Sesta lezione del Modulo 14: sangue, immunità e infiammazione. La composizione 
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,65 · B $0,76) |
+| costo trascrizioni | $0,56 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.467          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:32.3     (MIRA 16,6)
 stacco tracce             dopo s23   (chunk A 3.928 car · chunk B 4.539 car)
+tracce grezze             A 272.7 s  ·  B 345.1 s
+silenzi                   fattore 1,109   ->   atempo 1,093
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**615/627 parole**, la B **701/714**, nessun buco. Le rese diverse
+(non buchi): s03 «com» sentito «come»; s07 «ee» sentito «e»; s08 «ab» sentito «a b»; s14 «e» sentito «ee»; s19 «10» sentito «x»; s19 «10» sentito «x»; s20 «e» sentito «ee»; s23 «e» sentito «ee»; s25 «cd 4» sentito «cd4»; s25 «cd 8» sentito «cd8»; s27 «ee» sentito «e»; s30 «e» sentito «ee»; s34 «ee» sentito «e»; s34 «laesa» sentito «lesa»; s39 «ee» sentito «e»; s42 «ee» sentito «e»; s49 «e» sentito «ee».
 
 ## Le scene
 
