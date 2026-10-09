@@ -122,6 +122,7 @@ progetti/<modulo>-<lezione>/
 | `m13-l13.4-distretto` | Modulo 13 · 13.4 Il distretto e le cure primarie venete | 8:31.1 | `b1b40eab61c4a9d0bdeb8345d6c3dbfb` |
 | `m13-l13.5-non-autosufficienza` | Modulo 13 · 13.5 La rete per la non autosufficienza | 8:38.2 | `c9eb6614633f9fea941939c017d03ba8` |
 | `m13-l13.6-accreditamento` | Modulo 13 · 13.6 Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | 8:41.6 | `1a61939f3c3b0dab8682464571454e4e` |
+| `m13-l13.7-digitale` | Modulo 13 · 13.7 La sanità digitale veneta | 8:43.8 | `1b05ef6b2239d577691d94aaee17af28` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
