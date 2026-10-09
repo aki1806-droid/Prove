@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,400
+Tre organi che lavorano insieme: l'apparato digerente introduce, il fegato trasforma, il rene elimina. Da loro dipendono la nutrizione, il metabolismo dei farmaci e l'equilibrio dei liquidi.
+
+2
+00:00:14,400 --> 00:00:23,750
+L'obiettivo e' pratico: capire perche' nell'insufficienza epatica e in quella renale cambiano le dosi dei farmaci, i parametri da sorvegliare e i rischi per il paziente.
+
+3
+00:00:23,750 --> 00:00:34,430
+La digestione, tappa per tappa. In bocca, la masticazione e la saliva, con l'amilasi salivare. Nello stomaco, l'acido cloridrico e la pepsina, che inizia a digerire le proteine.
+
+4
+00:00:34,430 --> 00:00:45,700
+Sempre nello stomaco si produce il fattore intrinseco, indispensabile per assorbire la vitamina B dodici. Per questo, dopo una gastrectomia, la B dodici va somministrata per via parenterale.
+
+5
+00:00:45,700 --> 00:00:58,440
+Nel duodeno arrivano la bile, che emulsiona i grassi, e gli enzimi pancreatici: amilasi, lipasi, tripsina. Nella pancreatite della lezione otto punto cinque, attivati troppo presto, digeriscono il pancreas stesso.
+
+6
+00:00:58,440 --> 00:01:08,340
+Nell'intestino tenue, grazie ai villi, avviene l'assorbimento dei nutrienti. Nel colon si assorbono l'acqua e gli elettroliti, e il microbiota produce anche la vitamina K.
+
+7
+00:01:08,340 --> 00:01:19,360
+Il fegato ha funzioni numerose. Il metabolismo di zuccheri, grassi e proteine: immagazzina il glicogeno e produce glucosio quando serve. E fa da deposito di glicogeno, di vitamine e di ferro.
+
+8
+00:01:19,360 --> 00:01:30,900
+La sintesi: l'albumina e i fattori della coagulazione, compresi quelli che dipendono dalla vitamina K, il secondo, il settimo, il nono e il decimo. E' su questi fattori che agisce il warfarin.
+
+9
+00:01:30,900 --> 00:01:41,790
+Il fegato produce la bile e coniuga la bilirubina. E svolge la detossificazione: trasforma l'ammoniaca in urea. Funzioni che fra poco ritroviamo nei segni dell'insufficienza epatica.
+
+10
+00:01:41,790 --> 00:01:53,590
+Il metabolismo dei farmaci, con il citocromo P quattrocentocinquanta. E l'effetto di primo passaggio della lezione cinque punto uno: parte del farmaco preso per bocca e' inattivata prima di arrivare in circolo.
+
+11
+00:01:53,590 --> 00:02:05,980
+Dalle funzioni si ricavano i segni dell'insufficienza epatica, senza bisogno di memorizzarli. Meno albumina: edemi e ascite. Meno fattori della coagulazione: un INR alto, e i sanguinamenti.
+
+12
+00:02:05,980 --> 00:02:15,130
+Meno coniugazione della bilirubina: l'ittero. Meno eliminazione dell'ammoniaca: l'encefalopatia. Meno produzione di glucosio: l'ipoglicemia.
+
+13
+00:02:15,130 --> 00:02:23,370
+Meno metabolismo dei farmaci: l'accumulo, soprattutto di sedativi e oppioidi. E proprio questi farmaci possono scatenare l'encefalopatia.
+
+14
+00:02:23,370 --> 00:02:32,360
+E poi l'ipertensione portale, con le varici e l'ascite. E' il quadro clinico della lezione otto punto cinque, spiegato questa volta dalla fisiologia.
+
+15
+00:02:32,360 --> 00:02:42,970
+Il rene lavora attraverso il nefrone, la sua unita' funzionale: circa un milione per ogni rene. Nel glomerulo il sangue viene filtrato, e il filtrato passa nella capsula di Bowman.
+
+16
+00:02:42,970 --> 00:02:54,670
+Nel tubulo prossimale si riassorbe la maggior parte di acqua, sodio, glucosio e aminoacidi. L'ansa di Henle concentra le urine, ed e' la sede d'azione dei diuretici dell'ansa, come la furosemide.
+
+17
+00:02:54,670 --> 00:03:07,030
+Il tubulo distale e il dotto collettore fanno la regolazione fine, sotto l'azione di due ormoni: l'aldosterone, che fa riassorbire sodio, e l'ADH, l'ormone antidiuretico, che fa riassorbire acqua.
+
+18
+00:03:07,030 --> 00:03:17,980
+Filtrazione e clearance. I reni filtrano circa centottanta litri di plasma al giorno, e producono circa un litro e mezzo di urine: oltre il novantanove per cento del filtrato viene riassorbito.
+
+19
+00:03:17,980 --> 00:03:30,160
+La velocita' di filtrazione glomerulare, il GFR, e' normalmente intorno a novanta, centoventi millilitri al minuto. La clearance e' il volume di plasma depurato da una sostanza nell'unita' di tempo.
+
+20
+00:03:30,160 --> 00:03:40,860
+Nella pratica si usa la creatinina, e con formule come la CKD-EPI si calcola un GFR stimato. Ma attenzione: la creatinina dipende dalla massa muscolare.
+
+21
+00:03:40,860 --> 00:03:52,330
+In un anziano magro e sarcopenico la creatinina puo' essere normale anche con una funzione renale ridotta. Ecco perche' le dosi si adattano al GFR stimato, e non al solo valore della creatinina.
+
+22
+00:03:52,330 --> 00:04:03,240
+Le funzioni del rene, che spiegano le complicanze della lezione otto punto quattro. L'equilibrio di acqua ed elettroliti. L'equilibrio acido-base. L'eliminazione di scorie e farmaci.
+
+23
+00:04:03,240 --> 00:04:14,630
+Il rene produce l'eritropoietina, per i globuli rossi: per questo l'insufficienza renale cronica causa anemia. E attiva la vitamina D: per questo altera il metabolismo del calcio e dell'osso.
+
+24
+00:04:14,630 --> 00:04:25,400
+E produce la renina: per questo il rene e' cosi' legato alla pressione arteriosa. E' il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua.
+
+25
+00:04:25,400 --> 00:04:35,890
+L'insufficienza renale e i farmaci. I farmaci eliminati dal rene si accumulano: alcuni antibiotici, come gli aminoglicosidi e la vancomicina, e le eparine a basso peso molecolare.
+
+26
+00:04:35,890 --> 00:04:45,130
+E ancora la metformina, la digossina, alcuni oppioidi. Le dosi si adattano al GFR, e quando e' previsto si monitorano i livelli del farmaco nel sangue.
+
+27
+00:04:45,130 --> 00:04:54,850
+Si evitano i nefrotossici, come i FANS e il mezzo di contrasto senza prevenzione, che vedremo nella lezione quattordici punto sette. E si fa attenzione all'iperkaliemia.
+
+28
+00:04:54,850 --> 00:05:04,910
+Il rischio di iperkaliemia viene dal potassio, dagli ACE-inibitori e dai diuretici risparmiatori di potassio. E l'infermiere segnala la terapia potenzialmente inappropriata.
+
+29
+00:05:04,910 --> 00:05:11,670
+La diuresi, con le sue definizioni. Nell'adulto la diuresi normale e' di almeno mezzo millilitro per chilo all'ora.
+
+30
+00:05:11,670 --> 00:05:22,290
+Oliguria: meno di quattrocento millilitri nelle ventiquattro ore. Anuria: meno di cento millilitri. Poliuria: oltre due litri e mezzo, tre litri nelle ventiquattro ore.
+
+31
+00:05:22,290 --> 00:05:29,640
+La diuresi e' anche un indicatore della perfusione degli organi. Per questo, nello shock e nella sepsi, si misura ogni ora.
+
+32
+00:05:29,640 --> 00:05:41,480
+La minzione. La vescica e' un serbatoio con un muscolo, il detrusore, e ha una capacita' indicativa di quattrocento, cinquecento millilitri. Lo stimolo compare in genere fra centocinquanta e trecento.
+
+33
+00:05:41,480 --> 00:05:51,140
+Lo svuotamento e' controllato dal parasimpatico, che contrae il detrusore, e dagli sfinteri, uno interno e uno esterno. Lo sfintere esterno e' quello volontario.
+
+34
+00:05:51,140 --> 00:06:01,780
+Ne deriva un collegamento con la farmacologia: i farmaci anticolinergici e gli oppioidi favoriscono la ritenzione urinaria, come hai visto nelle lezioni tre punto sei e nove punto quattro.
+
+35
+00:06:01,780 --> 00:06:11,040
+Il caso d'esame. Anziana di ottantasei anni, quarantacinque chili, creatinina uno. La funzione renale e' normale, quindi la dose standard del farmaco va bene?
+
+36
+00:06:11,040 --> 00:06:22,280
+No. In una persona anziana con poca massa muscolare, una creatinina normale puo' corrispondere a un GFR stimato nettamente ridotto. Il valore della creatinina, da solo, inganna.
+
+37
+00:06:22,280 --> 00:06:34,280
+Prima di un farmaco a eliminazione renale si verifica il GFR stimato o la clearance, e si segnala al medico o al farmacista se la dose sembra eccessiva. La fisiologia previene un errore di terapia.
+
+38
+00:06:34,280 --> 00:06:45,950
+Il collegamento con l'assistenza. La valutazione dello stato nutrizionale, della lezione tre punto tre. Nel paziente epatopatico, l'INR e il rischio di sanguinamento, l'encefalopatia e la stipsi.
+
+39
+00:06:45,950 --> 00:06:55,130
+Il bilancio idrico e la diuresi oraria. Le dosi adattate alla funzione renale. La prevenzione della nefrotossicita'. E il cateterismo, quando c'e' una ritenzione.
+
+40
+00:06:55,130 --> 00:07:07,480
+I numeri della lezione. Filtrato circa centottanta litri al giorno, urine circa un litro e mezzo. GFR normale circa novanta, centoventi. Diuresi di almeno mezzo millilitro per chilo all'ora.
+
+41
+00:07:07,480 --> 00:07:21,590
+Oliguria sotto i quattrocento millilitri, anuria sotto i cento, poliuria oltre i due litri e mezzo, tre. Vescica, quattrocento, cinquecento. Fattori vitamina K-dipendenti: due, sette, nove, dieci.
+
+42
+00:07:21,590 --> 00:07:37,370
+La tabella. Stomaco, fattore intrinseco e B dodici. Duodeno, bile ed enzimi pancreatici. Tenue, assorbimento. Colon, acqua e vitamina K. Fegato: albumina, coagulazione, bilirubina, ammoniaca, farmaci.
+
+43
+00:07:37,370 --> 00:07:48,870
+I segni dell'insufficienza epatica. Il nefrone, dal glomerulo all'ansa di Henle, sede della furosemide. La creatinina e la massa muscolare. Eritropoietina, vitamina D, renina.
+
+44
+00:07:48,870 --> 00:07:59,700
+I fili con gli altri moduli. Il primo passaggio e le vie di somministrazione, con le lezioni cinque punto uno e cinque punto due. L'encefalopatia e la paracentesi, con la otto punto cinque.
+
+45
+00:07:59,700 --> 00:08:07,750
+La fistola e la dialisi, con la otto punto quattro. La nutrizione, con la tre punto tre. E la ritenzione urinaria, con la tre punto sei.
+
+46
+00:08:07,750 --> 00:08:15,660
+La frase della lezione: una creatinina normale non garantisce un rene normale. Soprattutto nell'anziano fragile.
+
+47
+00:08:15,660 --> 00:08:23,880
+Nella prossima lezione: il sistema nervoso, con il sistema nervoso autonomo, e il sistema endocrino, con i loro collegamenti con la farmacologia.
+
+48
+00:08:23,880 --> 00:08:30,810
+Il parasimpatico che contrae il detrusore, per esempio, lo ritroverai proprio li', nel sistema nervoso autonomo. A tra poco.
