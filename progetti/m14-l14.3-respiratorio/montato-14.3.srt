@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:09,640
+Respirare significa due cose: portare ossigeno ai tessuti ed eliminare l'anidride carbonica. Tutto parte da qui.
+
+2
+00:00:09,640 --> 00:00:19,900
+Ripercorriamo l'anatomia delle vie aeree, la meccanica del respiro, gli scambi gassosi, e una curva che spiega molte scelte di assistenza: quella di dissociazione dell'emoglobina.
+
+3
+00:00:19,900 --> 00:00:30,490
+Le vie aeree superiori. Il naso, che riscalda, umidifica e filtra l'aria: funzioni che si perdono nella tracheostomia, come hai visto nella lezione otto punto due. Poi la faringe.
+
+4
+00:00:30,490 --> 00:00:42,390
+E la laringe, con le corde vocali e l'epiglottide, che protegge dall'inalazione. Poi le vie aeree inferiori: la trachea, i bronchi principali, i bronchi lobari e segmentari, i bronchioli, fino agli alveoli.
+
+5
+00:00:42,390 --> 00:00:52,070
+Un dettaglio chiesto spesso: il bronco principale destro e' piu' corto, piu' largo e piu' verticale. Per questo i corpi estranei inalati finiscono piu' spesso a destra.
+
+6
+00:00:52,070 --> 00:01:04,490
+Per lo stesso motivo un tubo endotracheale troppo profondo finisce piu' spesso nel bronco destro. Il polmone destro ha tre lobi, il sinistro due. E tutto e' avvolto dalla pleura, viscerale e parietale.
+
+7
+00:01:04,490 --> 00:01:14,120
+La meccanica del respiro. L'inspirazione e' attiva. Il muscolo principale e' il diaframma, che si contrae e si abbassa; gli intercostali esterni sollevano le coste.
+
+8
+00:01:14,120 --> 00:01:23,910
+Il torace si espande, la pressione negli alveoli scende, e l'aria entra. L'espirazione, invece, a riposo e' passiva: e' il semplice ritorno elastico del polmone.
+
+9
+00:01:23,910 --> 00:01:36,070
+Quando il respiro e' difficile entrano in gioco i muscoli accessori: sternocleidomastoideo, scaleni, addominali. Si vedono contrarsi sul collo: un segno di fatica respiratoria, lezione dieci punto due.
+
+10
+00:01:36,070 --> 00:01:46,810
+E il surfattante, che riveste gli alveoli: riduce la tensione superficiale e ne impedisce il collasso. La sua carenza nel neonato prematuro causa la sindrome da distress respiratorio.
+
+11
+00:01:46,810 --> 00:01:54,590
+I volumi polmonari. Il volume corrente e' l'aria mobilizzata a ogni respiro tranquillo: a riposo, circa cinquecento millilitri.
+
+12
+00:01:54,590 --> 00:02:06,180
+Di questi, circa centocinquanta restano nello spazio morto anatomico, dove non avvengono scambi. Per questo un respiro rapido e superficiale e' poco efficace: gran parte dell'aria non arriva agli alveoli.
+
+13
+00:02:06,180 --> 00:02:16,060
+La capacita' vitale e' la massima quantita' di aria espirabile dopo un'inspirazione massima. Il volume residuo e' quello che resta comunque nei polmoni, dopo l'espirazione massima.
+
+14
+00:02:16,060 --> 00:02:25,870
+E la spirometria. Se il rapporto fra FEV uno e capacita' vitale forzata scende sotto zero virgola sette, indica un'ostruzione, come nella BPCO.
+
+15
+00:02:25,870 --> 00:02:38,020
+Gli scambi gassosi avvengono negli alveoli, per diffusione attraverso la membrana alveolo-capillare, sottilissima: l'ossigeno passa dall'alveolo al sangue, l'anidride carbonica dal sangue all'alveolo.
+
+16
+00:02:38,020 --> 00:02:51,870
+Perche' funzionino serve un buon rapporto ventilazione-perfusione. Un alveolo ventilato ma non perfuso, come nell'embolia, o perfuso ma non ventilato, come nell'atelettasia o nella polmonite: il sangue esce poco ossigenato.
+
+17
+00:02:51,870 --> 00:03:02,530
+Un dettaglio: l'anidride carbonica diffonde circa venti volte piu' facilmente dell'ossigeno. Ed e' per questo che nelle malattie polmonari l'ipossiemia compare di solito prima dell'ipercapnia.
+
+18
+00:03:02,530 --> 00:03:11,420
+Il trasporto dell'ossigeno. Quasi tutto l'ossigeno, circa il novantotto per cento, viaggia legato all'emoglobina. Solo una piccola parte e' disciolta nel plasma.
+
+19
+00:03:11,420 --> 00:03:21,790
+La saturazione indica la percentuale di emoglobina legata all'ossigeno. Ma la quantita' di ossigeno trasportata dipende da due cose: dalla saturazione e dalla quantita' di emoglobina.
+
+20
+00:03:21,790 --> 00:03:31,260
+Ecco perche', come nella lezione otto punto due, un paziente gravemente anemico puo' avere una saturazione normale, e comunque un apporto di ossigeno insufficiente ai tessuti.
+
+21
+00:03:31,260 --> 00:03:42,680
+La curva di dissociazione dell'emoglobina descrive il rapporto fra la pressione parziale di ossigeno nel sangue, la PaO2, e la saturazione. Ha una forma a S: e' una sigmoide.
+
+22
+00:03:42,680 --> 00:03:53,820
+Nella parte alta la curva e' piatta: la PaO2 puo' scendere molto, mentre la saturazione cambia poco. Grandi variazioni di PaO2, piccole variazioni di saturazione.
+
+23
+00:03:53,820 --> 00:04:06,630
+Ma sotto circa il novanta per cento di saturazione, che corrisponde a una PaO2 di circa sessanta millimetri di mercurio, la curva diventa ripida: piccole riduzioni di PaO2 fanno crollare la saturazione.
+
+24
+00:04:06,630 --> 00:04:18,430
+Da qui un riferimento da ricordare: saturazione novanta, PaO2 sessanta, la soglia dell'insufficienza respiratoria. Un paziente che scende da novantaquattro a novanta e' sul bordo del precipizio.
+
+25
+00:04:18,430 --> 00:04:29,240
+La curva si sposta. A destra, quando l'emoglobina cede piu' facilmente l'ossigeno ai tessuti: con l'aumento di temperatura e anidride carbonica, con l'acidosi, con l'aumento del due-tre-DPG.
+
+26
+00:04:29,240 --> 00:04:34,550
+E' cio' che succede nei tessuti che lavorano, come un muscolo sotto sforzo, che ha piu' bisogno di ossigeno.
+
+27
+00:04:34,550 --> 00:04:45,270
+A sinistra, invece, l'emoglobina trattiene l'ossigeno: con l'ipotermia, con l'alcalosi, con la riduzione dell'anidride carbonica, con il monossido di carbonio, e con l'emoglobina fetale.
+
+28
+00:04:45,270 --> 00:04:53,310
+Un esempio pratico: in un paziente ipotermico o in alcalosi, l'ossigeno arriva ai tessuti con piu' difficolta', anche a parita' di saturazione.
+
+29
+00:04:53,310 --> 00:05:03,900
+L'anidride carbonica viaggia soprattutto come bicarbonato, poi legata all'emoglobina e disciolta. Questo collega il respiro all'equilibrio acido-base, della lezione quattordici punto uno.
+
+30
+00:05:03,900 --> 00:05:15,440
+Il controllo del respiro parte dai centri respiratori del tronco encefalico, nel bulbo e nel ponte. I chemocettori centrali sono sensibili all'anidride carbonica e al pH: sono lo stimolo principale.
+
+31
+00:05:15,440 --> 00:05:23,050
+I chemocettori periferici, carotidei e aortici, cioe' nelle carotidi e nell'aorta, sono sensibili soprattutto all'ipossia.
+
+32
+00:05:23,050 --> 00:05:36,730
+La regola della lezione otto punto due: nel BPCO ipercapnico, troppo ossigeno puo' peggiorare l'ipercapnia, per piu' meccanismi: il rapporto ventilazione-perfusione, l'effetto Haldane e, in parte, la riduzione dello stimolo.
+
+33
+00:05:36,730 --> 00:05:49,490
+L'insufficienza respiratoria ha due tipi. Il tipo uno, ipossiemica: PaO2 sotto sessanta, con anidride carbonica normale o bassa. Le cause tipiche: la polmonite, l'edema polmonare, l'embolia.
+
+34
+00:05:49,490 --> 00:06:01,680
+Il tipo due, ipercapnica: PaO2 sotto sessanta e PaCO2 sopra quarantacinque. Le cause: la BPCO, le malattie neuromuscolari, la depressione del respiro da oppioidi.
+
+35
+00:06:01,680 --> 00:06:09,380
+Due termini da non confondere. Ipossiemia significa poco ossigeno nel sangue. Ipossia significa poco ossigeno ai tessuti.
+
+36
+00:06:09,380 --> 00:06:14,250
+E la cianosi e' un segno tardivo, che puo' mancare del tutto in un paziente anemico.
+
+37
+00:06:14,250 --> 00:06:26,610
+Il collegamento con l'assistenza. La posizione seduta o semiseduta, che facilita il lavoro del diaframma. La respirazione profonda e lo spirometro incentivante contro l'atelettasia, lezione nove punto cinque.
+
+38
+00:06:26,610 --> 00:06:38,860
+La frequenza respiratoria come parametro sentinella. I target di saturazione, lezione otto punto due. L'umidificazione nelle vie aeree artificiali. E il bronco destro, quando si verifica la posizione del tubo.
+
+39
+00:06:38,860 --> 00:06:50,530
+Il caso d'esame. Paziente post-operatorio, frequenza respiratoria trentadue, respiri superficiali, saturazione novantadue. Perche' la ventilazione e' inefficace, anche se respira velocemente?
+
+40
+00:06:50,530 --> 00:07:01,420
+Perche' con respiri piccoli gran parte di ogni respiro resta nello spazio morto, e non raggiunge gli alveoli. La ventilazione alveolare effettiva e' bassa: respira tanto, ma respira male.
+
+41
+00:07:01,420 --> 00:07:12,350
+Spesso la causa e' il dolore, che impedisce i respiri profondi. Gli interventi: un'analgesia adeguata, la posizione semiseduta, la respirazione profonda, e la valutazione con il medico.
+
+42
+00:07:12,350 --> 00:07:20,460
+E la saturazione a novantadue ti dice che sei vicino alla parte ripida della curva, dove piccole riduzioni di PaO2 la fanno crollare.
+
+43
+00:07:20,460 --> 00:07:35,960
+I numeri. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta. FEV uno su FVC sotto zero virgola sette: ostruzione. Circa il novantotto per cento dell'ossigeno legato all'emoglobina.
+
+44
+00:07:35,960 --> 00:07:49,740
+Saturazione novanta, PaO2 sessanta. PaCO2 normale fra trentacinque e quarantacinque millimetri di mercurio. Insufficienza respiratoria: PaO2 sotto sessanta, e nel tipo due PaCO2 sopra quarantacinque.
+
+45
+00:07:49,740 --> 00:08:02,130
+La tabella. Il bronco destro piu' verticale. Tre lobi a destra, due a sinistra. Inspirazione attiva, con il diaframma, ed espirazione passiva. Il surfattante. Il rapporto ventilazione-perfusione.
+
+46
+00:08:02,130 --> 00:08:15,650
+La curva sigmoide: a destra cede l'ossigeno, a sinistra lo trattiene. Chemocettori centrali per l'anidride carbonica, periferici per l'ipossia. Tipo uno e tipo due. Ipossiemia e ipossia. Cianosi tardiva.
+
+47
+00:08:15,650 --> 00:08:24,160
+La frase della lezione: sotto il novanta per cento la curva precipita. La saturazione si sorveglia prima che cada, non dopo.
+
+48
+00:08:24,160 --> 00:08:34,470
+Nella prossima lezione: l'apparato digerente, il fegato e il rene, con la filtrazione glomerulare e la clearance, che spiegano perche' tanti farmaci vanno adattati. A tra poco.
