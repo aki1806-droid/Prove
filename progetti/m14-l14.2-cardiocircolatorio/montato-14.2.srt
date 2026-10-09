@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,820
+Il cuore e' una pompa, i vasi sono tubi, il sangue e' il mezzo di trasporto. Detta cosi' sembra semplice. Ripercorriamo insieme l'apparato cardiocircolatorio.
+
+2
+00:00:12,820 --> 00:00:23,850
+Da questo sistema dipendono la pressione, la perfusione degli organi, la risposta allo shock e l'azione di molti farmaci. Lo rivediamo con un occhio ai collegamenti con i moduli otto e dieci.
+
+3
+00:00:23,850 --> 00:00:37,550
+Il cuore ha quattro cavita': atrio e ventricolo destro, atrio e ventricolo sinistro. Le valvole atrioventricolari separano atri e ventricoli: la tricuspide a destra, la mitrale, o bicuspide, a sinistra.
+
+4
+00:00:37,550 --> 00:00:48,830
+Le valvole semilunari, invece, separano i ventricoli dalle grandi arterie. Sono due: la valvola polmonare, all'uscita del ventricolo destro, e la valvola aortica, all'uscita del sinistro.
+
+5
+00:00:48,830 --> 00:01:02,080
+La parete del cuore e' fatta di endocardio, miocardio ed epicardio, ed e' avvolta dal pericardio. Il ventricolo sinistro ha la parete piu' spessa: pompa il sangue in tutto il corpo, contro una pressione piu' alta.
+
+6
+00:01:02,080 --> 00:01:10,990
+Il percorso del sangue. Il sangue povero di ossigeno arriva dalle vene cave all'atrio destro, passa la tricuspide ed entra nel ventricolo destro.
+
+7
+00:01:10,990 --> 00:01:21,010
+Il ventricolo destro lo spinge, attraverso la valvola polmonare, nell'arteria polmonare e da li' verso i polmoni. Dal cuore destro ai polmoni: e' il piccolo circolo.
+
+8
+00:01:21,010 --> 00:01:34,370
+Ossigenato, il sangue torna con le vene polmonari all'atrio sinistro, passa la mitrale ed entra nel ventricolo sinistro, che lo spinge attraverso la valvola aortica nell'aorta e in tutti gli organi: e' il grande circolo.
+
+9
+00:01:34,370 --> 00:01:45,900
+Una domanda trabocchetto frequente: l'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Le arterie si definiscono perche' escono dal cuore, non per il tipo di sangue.
+
+10
+00:01:45,900 --> 00:01:56,220
+Le coronarie sono le arterie che nutrono il cuore, e nascono dall'aorta subito sopra la valvola aortica. Sono due: la coronaria destra e la coronaria sinistra.
+
+11
+00:01:56,220 --> 00:02:07,860
+La coronaria sinistra si divide a sua volta in due rami: la discendente anteriore e la circonflessa. Tre nomi da ricordare, quindi: coronaria destra, discendente anteriore, circonflessa.
+
+12
+00:02:07,860 --> 00:02:20,950
+Il miocardio si perfonde soprattutto in diastole, quando il muscolo e' rilassato. Percio' una tachicardia, che accorcia la diastole, riduce la perfusione coronarica: con coronarie malate, puo' scatenare un'ischemia.
+
+13
+00:02:20,950 --> 00:02:32,620
+Il sistema di conduzione. L'impulso nasce nel nodo senoatriale, il pacemaker naturale del cuore, con una frequenza da sessanta a cento battiti al minuto, e da li' si diffonde negli atri.
+
+14
+00:02:32,620 --> 00:02:41,240
+Poi arriva al nodo atrioventricolare, che rallenta l'impulso. Questo rallentamento ha uno scopo preciso: permette ai ventricoli di riempirsi.
+
+15
+00:02:41,240 --> 00:02:54,430
+Dal nodo atrioventricolare l'impulso percorre il fascio di His, le branche destra e sinistra e le fibre di Purkinje, che attivano i ventricoli. I blocchi della lezione otto punto uno sono interruzioni di questa via.
+
+16
+00:02:54,430 --> 00:03:06,130
+All'ECG questa sequenza si legge cosi': l'onda P e' la depolarizzazione degli atri, il QRS la depolarizzazione dei ventricoli, l'onda T la ripolarizzazione dei ventricoli.
+
+17
+00:03:06,130 --> 00:03:16,260
+Il ciclo cardiaco alterna due fasi. La sistole, cioe' la contrazione e l'eiezione del sangue. E la diastole, cioe' il rilasciamento e il riempimento.
+
+18
+00:03:16,260 --> 00:03:25,470
+I toni cardiaci sono i rumori della chiusura delle valvole. Il primo tono corrisponde alla chiusura delle valvole atrioventricolari, all'inizio della sistole.
+
+19
+00:03:25,470 --> 00:03:36,430
+Il secondo tono corrisponde alla chiusura delle valvole semilunari, all'inizio della diastole. I soffi, invece, sono rumori di flusso turbolento, per esempio nelle malattie delle valvole.
+
+20
+00:03:36,430 --> 00:03:47,260
+La gittata cardiaca e' la quantita' di sangue pompata in un minuto. E' uguale alla gittata sistolica, cioe' il sangue espulso a ogni battito, moltiplicata per la frequenza cardiaca.
+
+21
+00:03:47,260 --> 00:03:57,670
+A riposo, la gittata cardiaca e' di circa cinque litri al minuto. La gittata sistolica dipende da tre fattori: il precarico, il postcarico e la contrattilita'.
+
+22
+00:03:57,670 --> 00:04:06,710
+Il precarico e' il riempimento del ventricolo. Secondo la legge di Frank-Starling, entro certi limiti, piu' il cuore si riempie, piu' forte si contrae.
+
+23
+00:04:06,710 --> 00:04:14,060
+Il postcarico e' la resistenza che il ventricolo deve vincere. La contrattilita' e' la forza intrinseca del muscolo cardiaco.
+
+24
+00:04:14,060 --> 00:04:25,410
+I farmaci della lezione cinque punto cinque agiscono proprio su questi tre fattori: i diuretici sul precarico, i vasodilatatori sul postcarico, gli inotropi sulla contrattilita'.
+
+25
+00:04:25,410 --> 00:04:35,770
+La pressione arteriosa dipende da due fattori: la gittata cardiaca e le resistenze periferiche. Le resistenze sono determinate soprattutto dalle arteriole, i vasi di resistenza.
+
+26
+00:04:35,770 --> 00:04:45,640
+Si misurano la sistolica e la diastolica, e se ne ricava la pressione arteriosa media: circa la diastolica, piu' un terzo della differenza fra sistolica e diastolica.
+
+27
+00:04:45,640 --> 00:04:57,690
+Un esempio: con centoventi su sessanta, la differenza e' sessanta, un terzo e' venti, e la media e' circa ottanta. E ricordi l'obiettivo nello shock e nella sepsi: una pressione media di almeno sessantacinque.
+
+28
+00:04:57,690 --> 00:05:07,150
+La regolazione della pressione. A breve termine agiscono i barocettori, nel seno carotideo e nell'arco aortico, che percepiscono i cambiamenti di pressione.
+
+29
+00:05:07,150 --> 00:05:17,230
+I barocettori attivano il sistema nervoso autonomo. Il simpatico aumenta la frequenza e la contrattilita' e restringe i vasi. Il parasimpatico rallenta il cuore.
+
+30
+00:05:17,230 --> 00:05:25,490
+E' cio' che succede quando ti alzi in piedi: senza questa risposta sveniresti. Lo ritroviamo fra poco nell'anziano, con l'ipotensione ortostatica.
+
+31
+00:05:25,490 --> 00:05:39,320
+A medio-lungo termine agisce il sistema renina-angiotensina-aldosterone, che restringe i vasi e fa trattenere sodio e acqua, insieme all'ADH e al rene. Gli ACE-inibitori e i sartani bloccano proprio questo sistema.
+
+32
+00:05:39,320 --> 00:05:49,160
+I vasi. Le arterie hanno una parete elastica e muscolare, e lavorano ad alta pressione. Le arteriole sono i vasi di resistenza. Nei capillari avvengono gli scambi.
+
+33
+00:05:49,160 --> 00:05:58,750
+Le vene lavorano a bassa pressione e contengono la maggior parte del sangue: per questo si chiamano vasi di capacitanza. E hanno valvole che impediscono il reflusso.
+
+34
+00:05:58,750 --> 00:06:08,090
+Il ritorno venoso dagli arti inferiori dipende dalla pompa muscolare del polpaccio, e anche dalla respirazione. Ecco perche' la mobilizzazione previene la trombosi.
+
+35
+00:06:08,090 --> 00:06:17,080
+Ed ecco perche', nell'insufficienza venosa della lezione sette punto tre, si cammina con la compressione. Fra le alterazioni dei vasi, ricorda anche l'aterosclerosi.
+
+36
+00:06:17,080 --> 00:06:28,260
+La fisiopatologia essenziale. L'ischemia e' uno squilibrio fra domanda e offerta di ossigeno al miocardio. Nell'angina e' transitorio e reversibile, nell'infarto porta alla necrosi.
+
+37
+00:06:28,260 --> 00:06:37,870
+Nello scompenso la gittata non soddisfa i bisogni dell'organismo, che reagisce attivando il simpatico e il sistema renina-angiotensina. Sono compensi utili all'inizio.
+
+38
+00:06:37,870 --> 00:06:45,290
+Ma a lungo andare quei compensi sovraccaricano il cuore e peggiorano il quadro. E' per questo che i farmaci dello scompenso li bloccano.
+
+39
+00:06:45,290 --> 00:06:55,280
+Le aritmie sono disturbi della formazione o della conduzione dell'impulso. E lo shock e' una perfusione inadeguata dei tessuti, come hai visto nella lezione dieci punto sei.
+
+40
+00:06:55,280 --> 00:07:03,700
+Il caso d'esame. Un paziente in fibrillazione atriale rapida, con una frequenza cardiaca di centocinquanta, riferisce dolore toracico. Perche'?
+
+41
+00:07:03,700 --> 00:07:14,770
+La tachicardia accorcia la diastole, cioe' il tempo in cui le coronarie perfondono il miocardio. E allo stesso tempo aumenta il consumo di ossigeno del cuore. Domanda alta, offerta bassa: ischemia.
+
+42
+00:07:14,770 --> 00:07:26,350
+In piu', una frequenza cosi' alta riduce il riempimento dei ventricoli, e quindi la gittata. Ecco perche' il controllo della frequenza e' una priorita', e il dolore toracico va segnalato subito.
+
+43
+00:07:26,350 --> 00:07:38,330
+Il collegamento con l'assistenza. La misurazione di pressione e frequenza, della lezione due punto tre. E l'ipotensione ortostatica nell'anziano, in cui il baroriflesso e' piu' lento: da qui l'alzata in due tempi.
+
+44
+00:07:38,330 --> 00:07:46,470
+E poi i polsi periferici e il riempimento capillare. L'azione dei farmaci cardiovascolari. E la prevenzione della trombosi venosa profonda.
+
+45
+00:07:46,470 --> 00:07:59,680
+La tabella. Tricuspide a destra, mitrale a sinistra. L'arteria polmonare porta sangue povero di ossigeno. Le coronarie, perfuse in diastole. La conduzione, dal nodo senoatriale alle fibre di Purkinje.
+
+46
+00:07:59,680 --> 00:08:14,110
+P, QRS, T. Primo e secondo tono. Gittata uguale gittata sistolica per frequenza. Precarico, postcarico, contrattilita'. Pressione uguale gittata per resistenze, e la media. Barocettori e renina-angiotensina.
+
+47
+00:08:14,110 --> 00:08:25,410
+La frase della lezione: la pressione e' il risultato di una pompa e di un tubo. Quando cade, chiediti se ha ceduto la pompa, se manca il volume, o se il tubo si e' dilatato.
+
+48
+00:08:25,410 --> 00:08:35,170
+Nella prossima lezione: l'apparato respiratorio, gli scambi gassosi e la curva di dissociazione dell'emoglobina, che spiega molte cose sull'ossigenoterapia. A tra poco.
