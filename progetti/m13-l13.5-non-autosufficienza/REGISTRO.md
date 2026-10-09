@@ -65,6 +65,12 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ---
 
+## Correzione dei tagli
+
+Il primo giro dava 7/8: s42 a 24,9 car/s. Sulla traccia B i confini s42/s43 e s43/s44 cadevano 3,5 s e 1,6 s prima delle pause vere (dopo «persone anziane» e dopo «in via sperimentale»): `correzioni.json` `{"B": {"16": {"secondi": 3.47}, "17": {"secondi": 1.58}}}`, dopo un `allinea` pulito, poi `correggi` e `applica` (s42 a 18,8, s43 a 17,9, s44 a 17,9). Rifatti montaggio e controlli: 8/8, 8:39.2.
+
+---
+
 ## La resa
 
 *in attesa*
