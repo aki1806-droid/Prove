@@ -1,0 +1,449 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.1",
+"title": "La durata del contatto",
+"sub": "Lo sguardo"
+},
+{
+"file": "c02",
+"layout": "list",
+"kicker": "i numeri che troverai cercando in rete",
+"plain": true,
+"rows": [
+"Tre secondi",
+"Sette secondi",
+"Il sessanta per cento del tempo"
+],
+"note": "Precisi al punto da sembrare affidabili."
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Sono inventati, oppure estratti da un singolo studio<br><span class=\"gold\">e poi spacciati per regola generale.</span>"
+},
+{
+"file": "c04",
+"layout": "memo",
+"title": "Non esiste<br>una durata giusta."
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "È lo stesso motivo per cui non esiste un dizionario dei gesti.<br><span class=\"gold\">La variabile che conta non è il numero: è la persona.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Ma prima delle persone<br><span class=\"gold\">c'è una cosa da mettere a posto, e viene prima di tutte le altre.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "quando qualcuno ti sembra sfuggente",
+"title": "Non stai misurando quanto guarda.<br><span class=\"gold\">Non hai nessuno strumento per misurarlo.</span>"
+},
+{
+"file": "c09",
+"layout": "memo",
+"title": "Stai misurando la distanza<br>fra quanto guarda lei<br>e quanto guarderesti tu."
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "È la distorsione della lezione 1.4,<br><span class=\"gold\">e sullo sguardo è più forte che altrove.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Il contatto visivo è una delle abitudini<br><span class=\"gold\">più radicate e meno negoziate che abbiamo.</span>"
+},
+{
+"file": "c12",
+"layout": "quadranti",
+"kicker": "perché lo stesso sguardo riceve due giudizi opposti",
+"xet": "quanto guarda lui",
+"yet": "quanto guardi tu",
+"celle": [
+"ti sembra sfuggente",
+"ti sembra normale",
+"ti sembra normale",
+"ti sembra invadente"
+],
+"acceso": 0,
+"title": "Due persone, la stessa conversazione, due giudizi opposti."
+},
+{
+"file": "c13",
+"layout": "memo",
+"title": "Entrambi credono di descrivere l'altro.<br>E stanno descrivendo sé stessi."
+},
+{
+"file": "c14",
+"layout": "finestra",
+"kicker": "e la fascia di quello che sembra normale non sta ferma",
+"quota": 22,
+"et": "la tua fascia",
+"coda": "tutto quello che sta oltre ti sembra troppo",
+"title": "Si sposta con sei cose, tutte attive insieme."
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 0
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 1
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 2
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 3
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 4
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "le sei variabili",
+"rows": [
+"La persona",
+"La cultura",
+"Il ruolo",
+"La distanza",
+"Chi sta parlando",
+"La difficoltà dell'argomento"
+],
+"active": 5
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Sei variabili, tutte attive insieme,<br><span class=\"gold\">prima ancora di arrivare allo stato emotivo di qualcuno.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "la quinta merita un passaggio a parte",
+"title": "È contro-intuitiva,<br><span class=\"gold\">ed è l'unica che puoi verificare da solo stasera.</span>"
+},
+{
+"file": "c23",
+"layout": "barre",
+"kicker": "quanto si guarda, a seconda del turno",
+"barre": [
+{
+"et": "mentre ascolti",
+"v": 82,
+"val": "molto"
+},
+{
+"et": "mentre parli",
+"v": 31,
+"val": "meno"
+}
+],
+"acceso": 0,
+"title": "Parlare richiede risorse, e lo sguardo si stacca per liberarle."
+},
+{
+"file": "c24",
+"layout": "swap",
+"kicker": "quindi, quando lo noti",
+"rows": [
+[
+"«Non mi guarda mentre parla»",
+"sta parlando"
+],
+[
+"Hai osservato lui",
+"hai osservato il turno di parola"
+]
+]
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Non hai osservato niente su di lui.<br><span class=\"gold\">Hai osservato che era il suo turno.</span>"
+},
+{
+"file": "c26",
+"layout": "memo",
+"title": "Si guarda di più ascoltando.<br>Meno parlando."
+},
+{
+"file": "c28",
+"layout": "statement",
+"theme": "sand",
+"title": "È un'area in cui le sciocchezze<br><span class=\"gold\">hanno conseguenze su persone vere.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"theme": "sand",
+"title": "Che le norme varino fra contesti culturali<br><span class=\"gold\">è documentato, e non è in discussione.</span>"
+},
+{
+"file": "c30",
+"layout": "swap",
+"theme": "sand",
+"kicker": "e le due norme sono opposte",
+"rows": [
+[
+"In alcuni contesti",
+"fissare un superiore è mancanza di rispetto"
+],
+[
+"In altri",
+"distogliere lo sguardo lo è"
+]
+]
+},
+{
+"file": "c31",
+"layout": "memo",
+"theme": "sand",
+"title": "Quello che non si può fare<br>è una tabella per nazionalità."
+},
+{
+"file": "c32",
+"layout": "list",
+"theme": "sand",
+"kicker": "per due ragioni, tutte e due verificabili",
+"rows": [
+"Le differenze interne a un paese sono spesso più grandi di quelle fra paesi",
+"Chi vive altrove da vent'anni ha quasi sempre adattato le proprie abitudini"
+],
+"note": "E nessuna delle due persone lo ha deciso."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "allora cosa è leggibile",
+"title": "Non la quantità.<br><span class=\"gold\">Il cambiamento di quantità.</span>"
+},
+{
+"file": "c34",
+"layout": "linea",
+"kicker": "venti minuti di conversazione",
+"ciclo": 7,
+"momenti": [
+{
+"a": 20,
+"et": "ti guarda",
+"sub": "normalmente"
+},
+{
+"a": 52,
+"et": "ti guarda",
+"sub": "ancora"
+},
+{
+"a": 84,
+"et": "stacca",
+"sub": "qualcosa è cambiato"
+}
+],
+"sx": "la conversazione",
+"dx": "continua",
+"title": "Non sai quale cambiamento. Sai quando, quindi sai su cosa."
+},
+{
+"file": "c35",
+"layout": "bivio",
+"kicker": "e il cambiamento ha due direzioni, non una",
+"da": "un cambiamento",
+"rami": [
+{
+"et": "comincia a staccare",
+"sub": "lo notano tutti"
+},
+{
+"et": "comincia a tenerlo fisso",
+"sub": "lo nota quasi nessuno"
+}
+],
+"acceso": 1,
+"title": "Valgono esattamente uguale. Chi ne guarda una sola ne perde metà."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Chi cerca solo lo sguardo che scappa sta cercando le bugie.<br><span class=\"gold\">Ha deciso cosa voleva trovare prima di guardare.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "e c'è un'ultima cosa, che spiega molti comportamenti",
+"title": "Guardarsi negli occhi<br><span class=\"gold\">è cognitivamente impegnativo.</span>"
+},
+{
+"file": "c39",
+"layout": "memo",
+"title": "Le persone staccano lo sguardo<br>per pensare."
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "È un comportamento funzionale, non un segnale di evasione.<br><span class=\"gold\">E lo fanno tutti.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "la prima conseguenza, sulle domande che fai tu",
+"title": "Quando fai una domanda difficile, aspettati che stacchi.<br><span class=\"gold\">Non sta evitando la risposta: la sta cercando.</span>"
+},
+{
+"file": "c42",
+"layout": "bilancia",
+"kicker": "la seconda: dove finisce il carico",
+"sx": {
+"et": "se lo guardi",
+"peso": 8
+},
+"dx": {
+"et": "se guardi altrove",
+"peso": 2
+},
+"title": "Il piatto che scende è il carico che gli stai mettendo addosso."
+},
+{
+"file": "c43",
+"layout": "statement",
+"title": "È il motivo per cui certe conversazioni<br><span class=\"gold\">vanno meglio in macchina che faccia a faccia.</span>"
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "quattro errori",
+"rows": [
+"Cercare la durata giusta",
+"Usare la propria abitudine come metro",
+"Leggere come evasione chi stacca mentre parla",
+"Costruire tabelle per nazionalità"
+],
+"active": 0,
+"note": "Il secondo è quello che questa lezione esiste per correggere."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "quattro errori",
+"rows": [
+"Cercare la durata giusta",
+"Usare la propria abitudine come metro",
+"Leggere come evasione chi stacca mentre parla",
+"Costruire tabelle per nazionalità"
+],
+"active": 1,
+"note": "Si corregge sapendo qual è la propria. Quasi nessuno lo sa."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "quattro errori",
+"rows": [
+"Cercare la durata giusta",
+"Usare la propria abitudine come metro",
+"Leggere come evasione chi stacca mentre parla",
+"Costruire tabelle per nazionalità"
+],
+"active": 2,
+"note": "È il comportamento normale di chiunque parli."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "quattro errori",
+"rows": [
+"Cercare la durata giusta",
+"Usare la propria abitudine come metro",
+"Leggere come evasione chi stacca mentre parla",
+"Costruire tabelle per nazionalità"
+],
+"active": 3,
+"note": "Trasformano una persona in un esemplare del suo paese."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Quando ti sembra sfuggente,<br>stai misurando la distanza<br>dalla tua abitudine."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Osserva la tua abitudine, non quella degli altri",
+"Nota quanto tieni tu il contatto visivo",
+"Tanto, poco, di più mentre ascolti?"
+],
+"note": "Scoprirai che non lo sapevi. E che sapendolo cambia il modo in cui giudichi gli altri."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Capire i segni del linguaggio non verbale"
+}
+]
