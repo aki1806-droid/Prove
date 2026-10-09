@@ -10,7 +10,7 @@ dichiara nella sua pagina sul metodo.
 | video_id | `9f3220d21c45256509b20a6d43fc05af` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
-| durata | 598,9 s (9:59) |
+| durata | 597,8 s (9:58) — misurata sul montato, non calcolata |
 | parlato | 585,9 s (561,1 s di voce tagliata + 24,8 s di pose) |
 | voce | Luca Ward `tVdVcJPudubxmTmAw4tE`, `eleven_v4`, 1,12× in post |
 | flow ElevenLabs | `HgV7iC0t0AHFKPwgkTIo` |

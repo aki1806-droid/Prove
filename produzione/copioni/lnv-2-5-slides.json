@@ -1,0 +1,496 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.5",
+"title": "I due sorrisi",
+"sub": "Il volto"
+},
+{
+"file": "c02",
+"layout": "statement",
+"title": "La differenza fra due sorrisi non è una questione di intuito.<br><span class=\"gold\">È anatomica, e si descrive muscolo per muscolo.</span>"
+},
+{
+"file": "c03",
+"layout": "swap",
+"kicker": "due muscoli, due storie",
+"rows": [
+[
+"La bocca verso l'alto",
+"quasi tutti la controllano a comando"
+],
+[
+"Gli occhi che si restringono",
+"molto meno governabile"
+]
+]
+},
+{
+"file": "c04",
+"layout": "anatomia",
+"occhio": "dove sta la differenza, in una frase",
+"frase": [
+{
+"t": "Un sorriso può muovere "
+},
+{
+"t": "solo la bocca",
+"et": "il muscolo volontario",
+"sub": "arriva a richiesta, in chiunque"
+},
+{
+"t": " oppure anche "
+},
+{
+"t": "la zona attorno agli occhi",
+"et": "il muscolo meno governabile",
+"sub": "meno automatico da produrre a freddo",
+"forte": true
+},
+{
+"t": "."
+}
+],
+"chiusa": "Questa parte è solida. È quello che ci viene costruito sopra a non esserlo."
+},
+{
+"file": "c05",
+"layout": "bivio",
+"kicker": "la distinzione classica, dagli studi ottocenteschi",
+"da": "un sorriso",
+"rami": [
+{
+"et": "si ferma alla bocca",
+"sub": "un muscolo solo"
+},
+{
+"et": "coinvolge gli occhi",
+"sub": "due muscoli"
+}
+],
+"acceso": 1,
+"title": "Due movimenti diversi, prodotti da due muscoli diversi."
+},
+{
+"file": "c06",
+"layout": "memo",
+"title": "La distinzione anatomica tiene.<br>Il salto al giudizio<br>sulla persona no."
+},
+{
+"file": "c07",
+"layout": "cards",
+"kicker": "tre cose che si vedono, e nessuna va imparata",
+"rows": [
+{
+"icona": "1",
+"testo": "la zona degli occhi — si restringe o resta ferma"
+},
+{
+"icona": "2",
+"testo": "la dinamica — come sale e come scende"
+},
+{
+"icona": "3",
+"testo": "la durata — quanto resta identico"
+}
+]
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la prima",
+"title": "Si restringe o resta ferma.<br><span class=\"gold\">Non c'è una terza possibilità da imparare a riconoscere.</span>"
+},
+{
+"file": "c09",
+"layout": "curva",
+"kicker": "la seconda: come sale e come scende",
+"ciclo": 6,
+"punti": [
+[
+0,
+10
+],
+[
+16,
+18
+],
+[
+34,
+70
+],
+[
+52,
+80
+],
+[
+70,
+68
+],
+[
+86,
+22
+],
+[
+100,
+10
+]
+],
+"vertice": {
+"x": 52,
+"et": "il sorriso spontaneo"
+},
+"sx": "sale",
+"dx": "scende",
+"title": "Sale e scende in modo graduale. Quello prodotto apposta no: arriva in fretta e sparisce di colpo."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "la terza",
+"title": "Un sorriso che resta identico a lungo è tenuto.<br><span class=\"gold\">Tenuto, non falso: è una parola che descrive un lavoro muscolare.</span>"
+},
+{
+"file": "c12",
+"layout": "memo",
+"title": "Un sorriso che non coinvolge gli occhi<br>non è un sorriso falso."
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "È un sorriso che non nasce da piacere spontaneo.<br><span class=\"gold\">Scambiare le due cose trasforma una descrizione in un'accusa.</span>"
+},
+{
+"file": "c14",
+"layout": "list",
+"theme": "sand",
+"kicker": "le volte in cui tu sorridi senza nessuna allegria",
+"rows": [
+"Per salutare qualcuno sulle scale",
+"Per ammorbidire una richiesta scomoda",
+"Per mettere a proprio agio chi è in imbarazzo"
+],
+"note": "E non sei in malafede in nessuna di queste volte."
+},
+{
+"file": "c15",
+"layout": "list",
+"theme": "sand",
+"plain": true,
+"rows": [
+"Per educazione con un cliente",
+"Per non essere scortese con un collega che non sopporti",
+"Per chiudere una conversazione senza farla finire male"
+],
+"note": "Sono decine di volte al giorno."
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Non stai mentendo a nessuno.<br><span class=\"gold\">Stai facendo funzionare una conversazione, che è un'altra cosa.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Sono gesti sociali, e sono<br><span class=\"gold\">esattamente quello che devono essere.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"theme": "sand",
+"title": "Un infermiere che sorride a un paziente alle sei del mattino<br><span class=\"gold\">non sta fingendo. Sta facendo il suo mestiere.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"theme": "sand",
+"title": "Non conta da dove nasce quel sorriso.<br><span class=\"gold\">Conta che arrivi anche nei giorni in cui chi lo fa non ne avrebbe voglia.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"theme": "sand",
+"title": "Chiamarlo falso significa non aver capito a cosa serve.<br><span class=\"gold\">È il danno che fa una regola insegnata a metà.</span>"
+},
+{
+"file": "c21",
+"layout": "swap",
+"kicker": "e qui questa lezione prende posizione",
+"rows": [
+[
+"La cortesia",
+"non è una forma debole della sincerità"
+],
+[
+"La cortesia",
+"non è una bugia piccola"
+]
+]
+},
+{
+"file": "c22",
+"layout": "memo",
+"title": "Il sorriso di cortesia<br>non è una menzogna."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "e c'è un problema in più, che raramente viene detto",
+"title": "Non è nascosto.<br><span class=\"gold\">È solo poco comodo da raccontare in un corso che promette di smascherare.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "Molte persone riescono a restringere gli occhi apposta.<br><span class=\"gold\">E la capacità aumenta con l'allenamento.</span>"
+},
+{
+"file": "c25",
+"layout": "barre",
+"kicker": "quanto si riesce a restringere gli occhi apposta",
+"barre": [
+{
+"et": "chi non lo fa mai",
+"v": 14,
+"val": "poco"
+},
+{
+"et": "chi lo fa di mestiere",
+"v": 88,
+"val": "molto"
+}
+],
+"acceso": 1,
+"title": "Attori, venditori, politici, insegnanti, chi sta a un banco tutto il giorno."
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "La distinzione funziona male<br><span class=\"gold\">proprio nelle situazioni in cui vorresti usarla.</span>"
+},
+{
+"file": "c27",
+"layout": "memo",
+"title": "Un metodo che si indebolisce<br>dove lo punteresti<br>non è un metodo."
+},
+{
+"file": "c29",
+"layout": "swap",
+"kicker": "allora cosa farne: la stessa mossa di tutto il corso",
+"rows": [
+[
+"«Questo sorriso è vero?»",
+"nessuna risposta affidabile"
+],
+[
+"«È cambiato rispetto a prima?»",
+"si risponde davvero"
+]
+]
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "E alla seconda si risponde senza sapere niente di anatomia,<br><span class=\"gold\">e senza decidere niente sul conto di nessuno.</span>"
+},
+{
+"file": "c31",
+"layout": "linea",
+"kicker": "cosa guardi davvero, in mezz'ora di conversazione",
+"ciclo": 7,
+"momenti": [
+{
+"a": 18,
+"et": "sorride con gli occhi",
+"sub": "per mezz'ora"
+},
+{
+"a": 50,
+"et": "sorride con gli occhi",
+"sub": "ancora"
+},
+{
+"a": 82,
+"et": "solo con la bocca",
+"sub": "qualcosa è cambiato"
+}
+],
+"sx": "la conversazione",
+"dx": "continua",
+"title": "Non sai quale cambiamento. Sai quando."
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "E il quando lo conosci,<br><span class=\"gold\">perché quello che è successo in quel momento ce l'hai in mano.</span>"
+},
+{
+"file": "c33",
+"layout": "memo",
+"title": "È la linea di base del primo modulo,<br>applicata a un movimento solo."
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "E funziona anche con chi controlla benissimo la propria faccia,<br><span class=\"gold\">perché non chiede di classificare niente.</span>"
+},
+{
+"file": "c35",
+"layout": "swap",
+"kicker": "cosa si controlla e cosa no",
+"rows": [
+[
+"Un sorriso convincente",
+"si produce quando si decide"
+],
+[
+"La coerenza nel tempo",
+"nessuno se la ricorda"
+]
+]
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "un'ultima complicazione, e serve proprio adesso",
+"title": "Il sorriso non accompagna solo il piacere.<br><span class=\"gold\">E nemmeno solo la cortesia.</span>"
+},
+{
+"file": "c37",
+"layout": "cards",
+"kicker": "dove compare un sorriso, oltre al piacere",
+"rows": [
+{
+"icona": "1",
+"testo": "nell'imbarazzo — è il caso più frequente di tutti"
+},
+{
+"icona": "2",
+"testo": "nella tensione — e lì lo si nota di meno"
+},
+{
+"icona": "3",
+"testo": "quando si dà una cattiva notizia"
+}
+]
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "e in tutte queste",
+"plain": true,
+"rows": [
+"Quando si cerca di disinnescare uno scontro",
+"Quando non si sa cosa dire e il silenzio pesa",
+"Quando si ha paura e si vuole sembrare tranquilli"
+],
+"note": "L'ultima è quella in cui una lettura sbagliata fa più danni."
+},
+{
+"file": "c39",
+"layout": "ponte",
+"kicker": "a cosa serve davvero",
+"sx": "una persona",
+"dx": "un'altra",
+"vuoto": "la distanza fra le due",
+"ponte": "il sorriso",
+"title": "È un comportamento sociale prima che un'espressione emotiva."
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "E in alcune culture è ancora più marcato:<br><span class=\"gold\">leggerlo come allegria porta fuori strada ogni volta.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "da cui una regola che vale la pena tenere",
+"title": "Si ricorda in una frase,<br><span class=\"gold\">e vale più di qualunque cosa sulla forma di un sorriso.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"title": "Un sorriso in un momento<br>in cui non te lo aspetteresti."
+},
+{
+"file": "c43",
+"layout": "swap",
+"kicker": "cosa ti dice e cosa no",
+"rows": [
+[
+"Non ti dice",
+"cosa prova quella persona"
+],
+[
+"Ti dice",
+"che quel momento, per lei, non è neutro"
+]
+]
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "È la stessa mossa delle altre quattro lezioni:<br><span class=\"gold\">non leggere il segnale, notare dove cade.</span>"
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "Il modulo sul volto finisce qui,<br><span class=\"gold\">e ha tolto più di quanto abbia dato. Era previsto.</span>"
+},
+{
+"file": "c46",
+"layout": "pila",
+"kicker": "quattro promesse tolte, e tutte e quattro si vendevano bene",
+"blocchi": [
+"la lista di emozioni a colpo d'occhio",
+"il FACS in conversazione",
+"le microespressioni da smascherare",
+"i sorrisi veri e falsi"
+],
+"acceso": 3,
+"title": "Quello che resta è più piccolo e si usa davvero."
+},
+{
+"file": "c47",
+"layout": "cruscotto",
+"occhio": "cosa resta del modulo sul volto",
+"celle": [
+{
+"cap": "a occhio nudo",
+"et": "quattro proprietà"
+},
+{
+"cap": "le categorie",
+"et": "due larghe, non sette"
+},
+{
+"cap": "la regola",
+"et": "il volto dice quando",
+"acceso": true
+}
+],
+"resta": "Nel prossimo modulo passiamo allo sguardo."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Descrive due tipi di movimento.<br>Non due tipi di persona."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Nota un sorriso che arriva quando non te lo aspettavi",
+"Non chiederti se è vero",
+"Chiediti cosa stava succedendo un attimo prima"
+],
+"note": "Scoprirai che ci sono, che prima non li vedevi, e che quasi sempre arrivano su qualcosa di scomodo."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 2",
+"sub": "Modulo 3 — Lo sguardo"
+}
+]
