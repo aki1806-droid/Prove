@@ -80,6 +80,7 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ (r"\b116\s*117\b", " uno uno sei uno uno sette "),   # 13.4 s26, s47: il numero europeo detto cifra per cifra, trascritto «116117»
  (r"\bdi elle gi esse\b", " dlgs "),   # 12.1 s40-s41: le sigle dette lettera per lettera, trascritte compatte
  (r"\bdi pi ci emme\b", " dpcm "),
  (r"\bdi pi erre\b", " dpr "),

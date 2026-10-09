@@ -9,9 +9,13 @@ sicurezza sul lavoro con il D.Lgs. 81/2008, la qualità e il governo clinico
 costruito nei moduli precedenti: norme con sigla e anno, percorsi, tabelle,
 confronti, trappole, cifre grandi.
 
-Stato: copioni e scene si scrivono dopo il Modulo 11, e la voce GianP si
-genera a copione fermo, lezione per lezione; la tabella qui sotto si riempie
-man mano che le rese escono.
+Stato: **completo** il 9 ottobre 2026. Otto rese fra 8:27 e 8:45, tutte
+con voce GianP e giro 8/8 prima del caricamento. Nella 12.1 il giro dava 7/8
+perché la voce sillaba le sigle («di elle gi esse») e il trascrittore le
+scrive compatte: righe in `RESE`. Nella 12.4 un taglio cadeva 1,9 s prima del
+confine fra s38 e s39 (`correzioni.json` dopo `allinea`). I crediti
+ElevenLabs sono finiti a metà della 12.6-12.8: voce e trascrizioni riprese al
+rinnovo dagli asset già allegati, senza rigenerare la voce A di 12.7 e 12.8.
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -22,7 +26,7 @@ man mano che le rese escono.
 | 12.5 | Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |
 | 12.6 | La sicurezza sul lavoro in sanità | 8:41.9 | `936f6613014762ebf26b39b69c727821` |
 | 12.7 | Qualità, accreditamento e governo clinico | 8:27.7 | `12b5529de6d554d77935ef75e22f34e5` |
-| 12.8 | Riepilogo del Modulo 12 e autovalutazione | — |  |
+| 12.8 | Riepilogo del Modulo 12 e autovalutazione | 8:31.7 | `6c27008e1e243ece059d91a49577577f` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_12.md`;
 ogni lezione tiene la propria parte in `origine/script-12.N.md`. Il tema

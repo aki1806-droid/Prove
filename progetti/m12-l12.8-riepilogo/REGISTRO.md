@@ -64,13 +64,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `6c27008e1e243ece059d91a49577577f` — 511.742 s (8:31.7), 1080p 16:9, resa in 118 s, con SRT (`subtitle_url`) |
+| lotto asset | `a35d19136f9344c99af036625c2a17f5` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- Traccia A pronta (`grezzo-A.mp3`), traccia B da generare: i crediti ElevenLabs sono finiti durante la generazione. Al rinnovo: generare B dal `chunkB.txt`, poi trascrivere A e B.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «a» (s02, trascritto «ha»); «e» (s03, trascritto «ee»); «e» (s06, trascritto «ee»); «ee» (s13, trascritto «e»); «ee» (s42, trascritto «e»); «e» (s49, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

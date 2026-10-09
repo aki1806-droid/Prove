@@ -1,0 +1,98 @@
+{
+ "A": {
+  "parole_copione": 618,
+  "parole_dette": 617,
+  "coincidenti": 605,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s08",
+    "copione": "km",
+    "detto": "chilometro"
+   },
+   {
+    "blocco": "s09",
+    "copione": "km",
+    "detto": "chilometro"
+   },
+   {
+    "blocco": "s10",
+    "copione": "km",
+    "detto": "chilometro"
+   },
+   {
+    "blocco": "s11",
+    "copione": "km",
+    "detto": "chilometro"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 686,
+  "parole_dette": 685,
+  "coincidenti": 681,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s46",
+    "copione": "km",
+    "detto": "chilometro"
+   },
+   {
+    "blocco": "s48",
+    "copione": "clic",
+    "detto": "click"
+   }
+  ]
+ }
+}

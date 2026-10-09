@@ -54,20 +54,9 @@
  },
  "B": {
   "parole_copione": 676,
-  "parole_dette": 668,
-  "coincidenti": 660,
-  "buchi": [
-   {
-    "blocco": "s26",
-    "parole_copione": "lezione11 6 lezione11 7",
-    "al_loro_posto": "116117"
-   },
-   {
-    "blocco": "s47",
-    "parole_copione": "lezione11 6 lezione11 7",
-    "al_loro_posto": "116117"
-   }
-  ],
+  "parole_dette": 674,
+  "coincidenti": 668,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s26",

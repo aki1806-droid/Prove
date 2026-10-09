@@ -14,13 +14,31 @@ Settima lezione del Modulo 13: la sanità digitale veneta. Il Fascicolo Sanitari
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,67 · B $0,74) |
+| costo trascrizioni | $0,52 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.455          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:31.6     (MIRA 16,6)
 stacco tracce             dopo s23   (chunk A 4.025 car · chunk B 4.430 car)
+tracce grezze             A 260.0 s  ·  B 317.7 s
+silenzi                   fattore 1,099   ->   atempo 1,032
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 22 | 26 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**605/618 parole**, la B **681/686**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s05 «e» sentito «ee»; s08 «km» sentito «chilometro»; s09 «km» sentito «chilometro»; s10 «km» sentito «chilometro»; s11 «km» sentito «chilometro»; s12 «e» sentito «ee»; s12 «e» sentito «ee»; s14 «e» sentito «ee»; s15 «ee» sentito «e»; s16 «ee» sentito «e»; s18 «ee» sentito «e»; s35 «e» sentito «ee»; s40 «ee» sentito «e»; s46 «km» sentito «chilometro»; s48 «clic» sentito «click».
 
 ## Le scene
 

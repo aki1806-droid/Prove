@@ -115,6 +115,7 @@ progetti/<modulo>-<lezione>/
 | `m12-l12.5-ccnl` | Modulo 12 · 12.5 Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |
 | `m12-l12.6-sicurezza` | Modulo 12 · 12.6 La sicurezza sul lavoro in sanità | 8:41.9 | `936f6613014762ebf26b39b69c727821` |
 | `m12-l12.7-qualita` | Modulo 12 · 12.7 Qualità, accreditamento e governo clinico | 8:27.7 | `12b5529de6d554d77935ef75e22f34e5` |
+| `m12-l12.8-riepilogo` | Modulo 12 · 12.8 Riepilogo del Modulo 12 e autovalutazione | 8:31.7 | `6c27008e1e243ece059d91a49577577f` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
@@ -125,7 +126,7 @@ lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
 Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 e l'11 il
-6 ottobre.
+6 ottobre; il 12 il 9 ottobre. I moduli 13 e 14 sono in lavorazione.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo

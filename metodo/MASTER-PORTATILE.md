@@ -953,6 +953,11 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | clip | la coda si ferma a metà lezione (43/48) | `node slide/clips.mjs s45 s46 …` rende solo le scene mancanti; si controlla prima che gli mp4 presenti siano interi |
 | tagli | «fascia» segnala le scene sul verde a 6-8 car/s (10.1 `s21`, 10.3 `s48`) | era il conto: tag nel numeratore, posa voluta nel denominatore. `controlli.py` ora misura **sul parlato** (dal 4 ottobre 2026) |
 | slide | `cifre` con quattro voci e unità lunghe («115 bpm», «95 mmHg») sfora di 68 px | unità nella didascalia (`d`) e non nel suffisso, oppure tre voci |
+| slide | il tipo `albero` in `contenuti.mjs` esce come il grafico delle medicazioni (12.2 `s08`, `s41`, `s42`) | `clinica.mjs` ridefinisce `albero`: nei moduli non clinici usare `tre` o `griglia` |
+| slide | un titolo di chiusura su tre righe fa passare la riga rossa sopra «CISL FP…» (12.1, 12.2, 11.7) | in `layout.mjs` la copertina riduce `h1` a 104 px quando il titolo ha due `<br>` (dal 12.3) |
+| verifica | 7/8 per le sigle sillabate («di elle gi esse» → «dlgs», 12.1) o per un numero detto a cifre («uno uno sei, uno uno sette» → «116117», 13.4) | una riga in `RESE` del verificatore della lezione; la voce va bene così |
+| tagli | `correzioni.json` sparisce se si rifà il giro intero: `allinea` riparte da zero | dopo una correzione: `tagli.py correggi`, `applica` e i controlli, **non** `giro-voce` |
+| voce | i crediti ElevenLabs finiscono a metà di un modulo | i nodi asset allegati restano sul flow: al rinnovo si trascrive da quelli; le voci già scaricate non si rigenerano |
 
 ---
 
