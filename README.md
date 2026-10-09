@@ -124,6 +124,7 @@ progetti/<modulo>-<lezione>/
 | `m13-l13.6-accreditamento` | Modulo 13 · 13.6 Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | 8:41.6 | `1a61939f3c3b0dab8682464571454e4e` |
 | `m13-l13.7-digitale` | Modulo 13 · 13.7 La sanità digitale veneta | 8:43.8 | `1b05ef6b2239d577691d94aaee17af28` |
 | `m13-l13.8-riepilogo` | Modulo 13 · 13.8 Riepilogo del Modulo 13 e autovalutazione | 8:44.5 | `92ea8632765218a07d7c78a9f69b89d9` |
+| `m14-l14.1-cellula` | Modulo 14 · 14.1 Cellula, tessuti e omeostasi | 8:39.7 | `891c72915d992f5f66eb1b2232d94ed8` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

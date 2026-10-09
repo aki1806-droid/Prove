@@ -13,7 +13,7 @@ le rese escono.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 14.1 | Cellula, tessuti e omeostasi | — |  |
+| 14.1 | Cellula, tessuti e omeostasi | 8:39.7 | `891c72915d992f5f66eb1b2232d94ed8` |
 | 14.2 | Apparato cardiocircolatorio | — |  |
 | 14.3 | Apparato respiratorio | — |  |
 | 14.4 | Apparato digerente, fegato e rene | — |  |
