@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,880
+La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione.
+
+2
+00:00:14,880 --> 00:00:24,110
+Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica.
+
+3
+00:00:24,110 --> 00:00:34,990
+La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva.
+
+4
+00:00:34,990 --> 00:00:47,030
+Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona.
+
+5
+00:00:47,030 --> 00:00:57,040
+Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi.
+
+6
+00:00:57,040 --> 00:01:07,360
+La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio.
+
+7
+00:01:07,360 --> 00:01:16,740
+Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi.
+
+8
+00:01:16,740 --> 00:01:26,790
+L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite.
+
+9
+00:01:26,790 --> 00:01:39,680
+I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia.
+
+10
+00:01:39,680 --> 00:01:50,320
+L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione.
+
+11
+00:01:50,320 --> 00:01:58,480
+Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa.
+
+12
+00:01:58,480 --> 00:02:06,070
+E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale.
+
+13
+00:02:06,070 --> 00:02:18,120
+Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite.
+
+14
+00:02:18,120 --> 00:02:30,920
+Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose.
+
+15
+00:02:30,920 --> 00:02:42,190
+Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza.
+
+16
+00:02:42,190 --> 00:02:50,020
+Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto.
+
+17
+00:02:50,020 --> 00:03:00,940
+L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila.
+
+18
+00:03:00,940 --> 00:03:14,000
+I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila.
+
+19
+00:03:14,000 --> 00:03:26,530
+Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque.
+
+20
+00:03:26,530 --> 00:03:37,210
+Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro.
+
+21
+00:03:37,210 --> 00:03:47,790
+La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia.
+
+22
+00:03:47,790 --> 00:04:02,760
+Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi.
+
+23
+00:04:02,760 --> 00:04:13,910
+L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione.
+
+24
+00:04:13,910 --> 00:04:20,380
+I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio.
+
+25
+00:04:20,380 --> 00:04:34,990
+E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei.
+
+26
+00:04:34,990 --> 00:04:46,230
+Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata.
+
+27
+00:04:46,230 --> 00:04:57,050
+Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette.
+
+28
+00:04:57,050 --> 00:05:05,740
+Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi.
+
+29
+00:05:05,740 --> 00:05:17,790
+L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue.
+
+30
+00:05:17,790 --> 00:05:28,270
+Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta.
+
+31
+00:05:28,270 --> 00:05:39,950
+La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione.
+
+32
+00:05:39,950 --> 00:05:50,980
+La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio.
+
+33
+00:05:50,980 --> 00:05:58,760
+L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET.
+
+34
+00:05:58,760 --> 00:06:10,430
+Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo.
+
+35
+00:06:10,430 --> 00:06:21,380
+La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore.
+
+36
+00:06:21,380 --> 00:06:33,510
+Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame.
+
+37
+00:06:33,510 --> 00:06:41,680
+La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza.
+
+38
+00:06:41,680 --> 00:06:52,790
+Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi.
+
+39
+00:06:52,790 --> 00:07:03,540
+In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile.
+
+40
+00:07:03,540 --> 00:07:13,960
+Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione.
+
+41
+00:07:13,960 --> 00:07:21,010
+La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo.
+
+42
+00:07:21,010 --> 00:07:32,590
+La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica.
+
+43
+00:07:32,590 --> 00:07:44,730
+Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque.
+
+44
+00:07:44,730 --> 00:07:55,680
+Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?
+
+45
+00:07:55,680 --> 00:08:07,530
+Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione.
+
+46
+00:08:07,530 --> 00:08:13,720
+E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza.
+
+47
+00:08:13,720 --> 00:08:27,940
+La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza.
+
+48
+00:08:27,940 --> 00:08:36,250
+Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco.
