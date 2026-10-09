@@ -14,13 +14,31 @@ Ottava e ultima lezione del Modulo 12: il riepilogo. Il metodo fonte-contenuto-a
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,38 (A $0,75 · B $0,62) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s46 |
 
 ```
 CARATTERI  8.253          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:19.7     (MIRA 16,6)
 stacco tracce             dopo s26   (chunk A 4.551 car · chunk B 3.702 car)
+tracce grezze             A 320.0 s  ·  B 273.3 s
+silenzi                   fattore 1,097   ->   atempo 1,088
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 25 | 23 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**614/618 parole**, la B **558/560**, nessun buco. Le rese diverse
+(non buchi): s02 «a» sentito «ha»; s03 «e» sentito «ee»; s06 «e» sentito «ee»; s13 «ee» sentito «e»; s42 «ee» sentito «e»; s49 «e» sentito «ee».
 
 ## Le scene
 

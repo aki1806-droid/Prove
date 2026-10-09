@@ -14,13 +14,31 @@ Settima lezione del Modulo 12: qualità, accreditamento e governo clinico. Le di
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,36 (A $0,68 · B $0,69) |
+| costo trascrizioni | $0,51 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.171          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:14.8     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 4.075 car · chunk B 4.096 car)
+tracce grezze             A 281.0 s  ·  B 277.1 s
+silenzi                   fattore 1,097   ->   atempo 1,033
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**606/612 parole**, la B **621/625**, nessun buco. Le rese diverse
+(non buchi): s08 «ee» sentito «e»; s13 «e» sentito «ee»; s16 «e» sentito «ee»; s16 «e» sentito «ee»; s21 «e» sentito «ee»; s26 «e» sentito «ee»; s32 «ee» sentito «e»; s40 «e» sentito «ee»; s41 «e» sentito «ee».
 
 ## Le scene
 

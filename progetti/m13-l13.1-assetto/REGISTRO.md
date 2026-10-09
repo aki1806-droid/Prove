@@ -14,13 +14,31 @@ Prima lezione del Modulo 13: l'assetto del Servizio Socio Sanitario Regionale ve
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,35 (A $0,68 · B $0,67) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s48 |
 
 ```
 CARATTERI  8.091          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:10.1     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.072 car · chunk B 4.019 car)
+tracce grezze             A 291.4 s  ·  B 306.6 s
+silenzi                   fattore 1,137   ->   atempo 1,079
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**614/622 parole**, la B **631/643**, nessun buco. Le rese diverse
+(non buchi): s05 «ee» sentito «e»; s06 «ee» sentito «e»; s09 «e» sentito «ee»; s10 «primo» sentito «1»; s11 «9» sentito «nuove»; s17 «e» sentito «ee»; s21 «e» sentito «ee»; s21 «e» sentito «ee»; s27 «ee» sentito «e»; s28 «e» sentito «ee»; s30 «ee» sentito «e»; s32 «e» sentito «ee»; s33 «ee» sentito «e»; s41 «ee» sentito «e»; s42 «ee» sentito «e»; s43 «ee» sentito «e»; s44 «ee» sentito «e»; s48 «e» sentito «ee».
 
 ## Le scene
 

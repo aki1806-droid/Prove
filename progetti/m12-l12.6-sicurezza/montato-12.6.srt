@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,200
+Gli operatori sanitari si prendono cura della sicurezza dei pazienti, ma sono a loro volta esposti a rischi importanti. Questa lezione riguarda prima di tutto te.
+
+2
+00:00:12,200 --> 00:00:23,080
+Punture accidentali, mal di schiena da movimentazione, sostanze chimiche, radiazioni, stress, aggressioni: sono i rischi del lavoro in sanita', e ciascuno ha le sue regole.
+
+3
+00:00:23,080 --> 00:00:33,970
+Il riferimento e' il decreto legislativo ottantuno del duemilaotto, il Testo unico sulla salute e sicurezza sul lavoro. E' una domanda d'esame quasi certa, e una tutela concreta per te.
+
+4
+00:00:33,970 --> 00:00:47,070
+Il decreto legislativo nove aprile duemilaotto, numero ottantuno, si applica a tutti i settori, pubblici e privati. Il primo principio: la valutazione di tutti i rischi, e la loro eliminazione o riduzione alla fonte.
+
+5
+00:00:47,070 --> 00:00:56,770
+Poi la priorita' delle misure collettive rispetto a quelle individuali. E ancora l'informazione, la formazione e l'addestramento, e la partecipazione dei lavoratori.
+
+6
+00:00:56,770 --> 00:01:02,110
+Prima si cambia l'organizzazione o l'attrezzatura. Poi si danno i DPI.
+
+7
+00:01:02,110 --> 00:01:10,010
+Le figure della prevenzione, da conoscere una per una. La prima e' il datore di lavoro, che nelle aziende sanitarie e' il direttore generale.
+
+8
+00:01:10,010 --> 00:01:22,090
+Ha due obblighi non delegabili. La valutazione di tutti i rischi, con l'elaborazione del documento di valutazione dei rischi, il DVR. E la nomina del responsabile del servizio di prevenzione e protezione.
+
+9
+00:01:22,090 --> 00:01:29,670
+Il dirigente attua le direttive del datore di lavoro, organizza l'attivita' e vigila. Per esempio, il direttore di un'unita' operativa.
+
+10
+00:01:29,670 --> 00:01:37,240
+Il preposto sovrintende all'attivita' lavorativa, e vigila sul rispetto delle norme e sull'uso dei dispositivi di protezione individuale.
+
+11
+00:01:37,240 --> 00:01:48,330
+I suoi obblighi sono stati rafforzati dalla legge duecentoquindici del duemilaventuno: davanti a comportamenti scorretti deve intervenire per modificarli e, se c'e' pericolo, interrompere l'attivita'.
+
+12
+00:01:48,330 --> 00:01:59,810
+Ha una formazione specifica, con aggiornamento periodico. In sanita' il preposto e' spesso il coordinatore infermieristico, e in alcune situazioni anche l'infermiere che dirige l'attivita' di altri operatori.
+
+13
+00:01:59,810 --> 00:02:12,650
+Le altre figure. L'RSPP, responsabile del servizio di prevenzione e protezione, nominato dal datore di lavoro. E il medico competente, che svolge la sorveglianza sanitaria e collabora alla valutazione dei rischi.
+
+14
+00:02:12,650 --> 00:02:22,820
+L'RLS, il rappresentante dei lavoratori per la sicurezza. E' eletto o designato dai lavoratori, accede ai luoghi di lavoro, ed e' consultato sulla valutazione dei rischi.
+
+15
+00:02:22,820 --> 00:02:31,790
+Poi gli addetti alle emergenze, per l'antincendio e il primo soccorso. E i lavoratori, che non sono soltanto tutelati: hanno anch'essi degli obblighi precisi.
+
+16
+00:02:31,790 --> 00:02:40,750
+Osservare le istruzioni ricevute, usare correttamente i DPI, segnalare i pericoli, partecipare alla formazione, sottoporsi ai controlli sanitari.
+
+17
+00:02:40,750 --> 00:02:48,570
+Il DVR individua i rischi, le misure di prevenzione e protezione, il programma di miglioramento, le procedure e i ruoli.
+
+18
+00:02:48,570 --> 00:02:57,380
+Non e' un documento fermo. Va aggiornato quando cambia l'organizzazione, dopo infortuni significativi, oppure in base ai risultati della sorveglianza sanitaria.
+
+19
+00:02:57,380 --> 00:03:09,400
+E almeno una volta all'anno, nelle aziende con piu' di quindici lavoratori, si tiene la riunione periodica: datore di lavoro, RSPP, medico competente e RLS, intorno allo stesso tavolo.
+
+20
+00:03:09,400 --> 00:03:18,090
+La sorveglianza sanitaria, svolta dal medico competente. Le visite sono preventive, periodiche, su richiesta del lavoratore, e al cambio di mansione.
+
+21
+00:03:18,090 --> 00:03:27,370
+E c'e' la visita alla ripresa del lavoro, dopo un'assenza per malattia di oltre sessanta giorni continuativi. Sessanta giorni, e continuativi: un numero da ricordare.
+
+22
+00:03:27,370 --> 00:03:40,090
+Il giudizio di idoneita' alla mansione specifica puo' essere: idoneo. Oppure idoneo parziale, temporaneo o permanente, con prescrizioni o limitazioni, per esempio niente movimentazione di carichi.
+
+23
+00:03:40,090 --> 00:03:49,020
+Oppure inidoneo temporaneo, o inidoneo permanente. E contro il giudizio si puo' fare ricorso all'organo di vigilanza dell'ASL, entro trenta giorni.
+
+24
+00:03:49,020 --> 00:03:56,900
+I rischi specifici, cominciando dal biologico, che hai gia' incontrato nel modulo quattro. E' regolato dal Titolo dieci del decreto ottantuno.
+
+25
+00:03:56,900 --> 00:04:08,500
+Per le ferite da taglienti c'e' il Titolo dieci bis, introdotto dal decreto legislativo diciannove del duemilaquattordici: dispositivi con meccanismo di sicurezza, e divieto di reincappucciare gli aghi.
+
+26
+00:04:08,500 --> 00:04:18,600
+Poi contenitori a portata di mano, formazione, e una procedura per gestire l'esposizione accidentale. Piu' le vaccinazioni, come quella contro l'epatite B e l'antinfluenzale.
+
+27
+00:04:18,600 --> 00:04:27,100
+La movimentazione manuale dei pazienti, regolata dal Titolo sei. Le patologie del rachide sono fra le malattie professionali piu' frequenti in sanita'.
+
+28
+00:04:27,100 --> 00:04:38,450
+Per valutare il rischio in un reparto si usa l'indice MAPO, Movimentazione e Assistenza Pazienti Ospedalizzati. Considera il rapporto fra pazienti non autosufficienti e operatori.
+
+29
+00:04:38,450 --> 00:04:51,280
+E poi gli ausili disponibili, gli ambienti e la formazione. Le fasce: da zero a uno virgola cinque, rischio trascurabile. Da uno virgola cinquantuno a cinque, medio. Oltre cinque, elevato.
+
+30
+00:04:51,280 --> 00:05:03,480
+Le misure: ausili come sollevatori e teli ad alto scorrimento, formazione e organizzazione. Ricordi la lezione tre punto due: la tecnica corretta protegge sia il paziente sia te.
+
+31
+00:05:03,480 --> 00:05:16,820
+Il rischio chimico, regolato dal Titolo nove, comprende anche gli agenti cancerogeni e mutageni. Le fonti: disinfettanti e sterilizzanti, gas anestetici, farmaci antiblastici, formaldeide nei laboratori.
+
+32
+00:05:16,820 --> 00:05:28,530
+Gli strumenti: le schede di sicurezza dei prodotti, i DPI, le cappe, e per gli antiblastici l'allestimento centralizzato. E l'allergia al lattice, che ha portato a preferire guanti senza lattice.
+
+33
+00:05:28,530 --> 00:05:40,950
+Altri rischi. Le radiazioni ionizzanti, regolate oggi dal decreto legislativo centouno del duemilaventi: tre principi, tempo, distanza e schermature, e i dosimetri per il personale esposto.
+
+34
+00:05:40,950 --> 00:05:50,750
+Lo stress lavoro-correlato. La sua valutazione e' obbligatoria e rientra nel DVR, come prevede l'articolo ventotto: turni, carichi di lavoro, burnout.
+
+35
+00:05:50,750 --> 00:05:59,670
+E le aggressioni. Il datore di lavoro deve valutare il rischio, e adottare misure organizzative e strutturali, formazione e procedure di segnalazione.
+
+36
+00:05:59,670 --> 00:06:09,570
+L'emergenza e l'antincendio. Ogni struttura ha un piano di emergenza ed evacuazione, addetti antincendio con una formazione specifica, ed esercitazioni periodiche.
+
+37
+00:06:09,570 --> 00:06:21,080
+In ospedale vale un principio particolare: l'evacuazione orizzontale progressiva. I pazienti, spesso non autosufficienti, si spostano prima verso un compartimento sicuro sullo stesso piano.
+
+38
+00:06:21,080 --> 00:06:33,370
+Il compartimento e' protetto da porte tagliafuoco, e solo se necessario si passa all'evacuazione verticale. Ogni operatore conosce vie di fuga, estintori, allarmi, e tiene chiuse le porte tagliafuoco.
+
+39
+00:06:33,370 --> 00:06:43,880
+Infortunio e malattia professionale. L'infortunio e' un evento traumatico per causa violenta in occasione di lavoro, compreso il tragitto casa-lavoro: l'infortunio in itinere.
+
+40
+00:06:43,880 --> 00:06:54,290
+La malattia professionale, invece, e' causata dall'esposizione lavorativa nel tempo. L'infortunio va segnalato subito, con il certificato medico, e il datore di lavoro lo denuncia all'INAIL.
+
+41
+00:06:54,290 --> 00:07:03,540
+E come per gli eventi avversi della lezione due punto sei, si segnalano anche i near miss, gli eventi senza danno: sono le informazioni piu' utili per prevenire.
+
+42
+00:07:03,540 --> 00:07:15,190
+Il caso, in due parti. Chi e' il preposto? E' chi sovrintende all'attivita' e vigila. E dopo la legge del duemilaventuno deve intervenire sui comportamenti scorretti, e se c'e' pericolo interrompere.
+
+43
+00:07:15,190 --> 00:07:27,790
+La parte pratica: un collega movimenta da solo un paziente pesante, senza usare il sollevatore che in reparto c'e'. Che cosa fai? Lo fermi, e lo aiuti a usare l'ausilio: sono a rischio sia lui sia il paziente.
+
+44
+00:07:27,790 --> 00:07:37,860
+Se il comportamento si ripete, o mancano ausili e personale, lo segnali al coordinatore. E ricordi che anche i lavoratori hanno l'obbligo di usare correttamente le attrezzature.
+
+45
+00:07:37,860 --> 00:07:50,510
+In Veneto vigila lo SPISAL delle ULSS, il Servizio di Prevenzione, Igiene e Sicurezza negli Ambienti di Lavoro: e' li' che va il ricorso sull'idoneita'. E ogni azienda ha il suo servizio di prevenzione e protezione.
+
+46
+00:07:50,510 --> 00:08:07,920
+La tabella. Decreto ottantuno del duemilaotto. Datore di lavoro: DVR e nomina dell'RSPP non delegabili. Dirigente. Preposto, rafforzato nel duemilaventuno. RSPP, medico competente, RLS eletto. Lavoratori con obblighi.
+
+47
+00:08:07,920 --> 00:08:23,070
+Visite, idoneita', ricorso entro trenta giorni. Titoli dieci e dieci bis. Titolo sei e MAPO, con le soglie uno virgola cinque e cinque. Titolo nove. Decreto centouno del duemilaventi. Stress, articolo ventotto.
+
+48
+00:08:23,070 --> 00:08:32,810
+Nella prossima lezione: la qualita' in sanita', l'accreditamento e il governo clinico, gli strumenti con cui un'organizzazione migliora in modo sistematico. A tra poco.

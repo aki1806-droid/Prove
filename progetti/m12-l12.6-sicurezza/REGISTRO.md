@@ -14,13 +14,31 @@ Sesta lezione del Modulo 12: la sicurezza sul lavoro in sanità. Il D.Lgs. 81/20
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,72 · B $0,68) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s07 |
 
 ```
 CARATTERI  8.423          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:29.7     (MIRA 16,6)
 stacco tracce             dopo s27   (chunk A 4.363 car · chunk B 4.060 car)
+tracce grezze             A 296.6 s  ·  B 299.6 s
+silenzi                   fattore 1,128   ->   atempo 1,042
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 26 | 22 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**651/658 parole**, la B **607/611**, nessun buco. Le rese diverse
+(non buchi): s04 «e» sentito «ee»; s09 «ee» sentito «e»; s14 «ee» sentito «e»; s15 «e» sentito «ee»; s20 «e» sentito «ee»; s22 «e» sentito «ee»; s25 «e» sentito «ee»; s34 «e» sentito «ee»; s36 «e» sentito «ee»; s42 «e» sentito «ee»; s46 «e» sentito «ee».
 
 ## Le scene
 
