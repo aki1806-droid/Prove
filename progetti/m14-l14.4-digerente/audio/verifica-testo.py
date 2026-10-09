@@ -80,6 +80,7 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ (r"\bp(\d+)\b", r" p \1 "),   # 14.4 s11: «P quattrocentocinquanta» trascritto «P450»
  (r"\bdi elle gi esse\b", " dlgs "),   # 12.1 s40-s41: le sigle dette lettera per lettera, trascritte compatte
  (r"\bdi pi ci emme\b", " dpcm "),
  (r"\bdi pi erre\b", " dpr "),

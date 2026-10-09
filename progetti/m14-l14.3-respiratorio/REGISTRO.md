@@ -67,13 +67,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `d32e020c5a2ede9973446551afc6fa6c` — 523.499 s (8:43.5), 1080p 16:9, resa in 73 s, con SRT (`subtitle_url`) |
+| lotto asset | `ccc70a28018c4978a691f8f6a9a18474` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «ee» (s07, trascritto «e»); «sternocleidomastoideo» (s10, trascritto «sternocleido mastoideo»); «e» (s11, trascritto «ee»); «e» (s15, trascritto «ee»); «fev 1» (s15, trascritto «fev1»); «nell atelettasia» (s17, trascritto «nella teletasia»); «lezione23» (s26, trascritto «2virgola3»); «e» (s27, trascritto «ee»); «chemocettori» (s31, trascritto «chemorecettori»); «chemocettori» (s32, trascritto «chemorecettori»); «pao2» (s34, trascritto «pao»); «pao2» (s35, trascritto «pao»); «paco2» (s35, trascritto «paco»); «e» (s37, trascritto «ee»); «semiseduta» (s38, trascritto «semi seduta»); «ee» (s39, trascritto «e»); «semiseduta» (s42, trascritto «semi seduta»); «e» (s43, trascritto «ee»); «pao2» (s43, trascritto «pao»); «fvc» (s44, trascritto «fevc»); «pao2» (s45, trascritto «pao»); «paco2» (s45, trascritto «paco»); «pao2» (s45, trascritto «pao»); «paco2» (s45, trascritto «paco»); «chemocettori» (s47, trascritto «chemorecettori»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

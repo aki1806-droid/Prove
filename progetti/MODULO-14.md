@@ -15,7 +15,7 @@ le rese escono.
 |---|---|---|---|
 | 14.1 | Cellula, tessuti e omeostasi | 8:39.7 | `891c72915d992f5f66eb1b2232d94ed8` |
 | 14.2 | Apparato cardiocircolatorio | 8:44.2 | `76bacd5d4acd5445707de9686cb5aeaa` |
-| 14.3 | Apparato respiratorio | — |  |
+| 14.3 | Apparato respiratorio | 8:43.5 | `d32e020c5a2ede9973446551afc6fa6c` |
 | 14.4 | Apparato digerente, fegato e rene | — |  |
 | 14.5 | Sistema nervoso ed endocrino | — |  |
 | 14.6 | Sangue, immunità e infiammazione | — |  |

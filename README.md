@@ -126,6 +126,7 @@ progetti/<modulo>-<lezione>/
 | `m13-l13.8-riepilogo` | Modulo 13 · 13.8 Riepilogo del Modulo 13 e autovalutazione | 8:44.5 | `92ea8632765218a07d7c78a9f69b89d9` |
 | `m14-l14.1-cellula` | Modulo 14 · 14.1 Cellula, tessuti e omeostasi | 8:39.7 | `891c72915d992f5f66eb1b2232d94ed8` |
 | `m14-l14.2-cardiocircolatorio` | Modulo 14 · 14.2 Apparato cardiocircolatorio | 8:44.2 | `76bacd5d4acd5445707de9686cb5aeaa` |
+| `m14-l14.3-respiratorio` | Modulo 14 · 14.3 Apparato respiratorio | 8:43.5 | `d32e020c5a2ede9973446551afc6fa6c` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

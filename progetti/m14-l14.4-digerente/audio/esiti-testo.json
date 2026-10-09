@@ -1,15 +1,9 @@
 {
  "A": {
   "parole_copione": 686,
-  "parole_dette": 680,
-  "coincidenti": 668,
-  "buchi": [
-   {
-    "blocco": "s11",
-    "parole_copione": "p 450 ee",
-    "al_loro_posto": "p450 e"
-   }
-  ],
+  "parole_dette": 681,
+  "coincidenti": 670,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s02",
@@ -38,6 +32,11 @@
    },
    {
     "blocco": "s10",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
     "copione": "ee",
     "detto": "e"
    },
