@@ -18,7 +18,7 @@ escono.
 | 13.3 | L'ospedale in Veneto e le reti tempo-dipendenti | 8:23.0 | `f60df15c2eab960294e98de60214fdd6` |
 | 13.4 | Il distretto e le cure primarie venete | 8:31.1 | `b1b40eab61c4a9d0bdeb8345d6c3dbfb` |
 | 13.5 | La rete per la non autosufficienza | 8:38.2 | `c9eb6614633f9fea941939c017d03ba8` |
-| 13.6 | Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | — |  |
+| 13.6 | Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | 8:41.6 | `1a61939f3c3b0dab8682464571454e4e` |
 | 13.7 | La sanità digitale veneta | — |  |
 | 13.8 | Riepilogo del Modulo 13 e autovalutazione | — |  |
 

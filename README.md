@@ -121,6 +121,7 @@ progetti/<modulo>-<lezione>/
 | `m13-l13.3-ospedale` | Modulo 13 · 13.3 L'ospedale in Veneto e le reti tempo-dipendenti | 8:23.0 | `f60df15c2eab960294e98de60214fdd6` |
 | `m13-l13.4-distretto` | Modulo 13 · 13.4 Il distretto e le cure primarie venete | 8:31.1 | `b1b40eab61c4a9d0bdeb8345d6c3dbfb` |
 | `m13-l13.5-non-autosufficienza` | Modulo 13 · 13.5 La rete per la non autosufficienza | 8:38.2 | `c9eb6614633f9fea941939c017d03ba8` |
+| `m13-l13.6-accreditamento` | Modulo 13 · 13.6 Autorizzazione, accreditamento, prevenzione e sanità pubblica in Veneto | 8:41.6 | `1a61939f3c3b0dab8682464571454e4e` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
