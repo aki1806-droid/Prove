@@ -14,13 +14,31 @@ Terza lezione del Modulo 13: l'ospedale in Veneto e le reti tempo-dipendenti. Le
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,35 (A $0,68 · B $0,67) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.107          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:11.1     (MIRA 16,6)
 stacco tracce             dopo s24   (chunk A 4.114 car · chunk B 3.993 car)
+tracce grezze             A 294.4 s  ·  B 296.2 s
+silenzi                   fattore 1,132   ->   atempo 1,068
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 23 | 25 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**641/655 parole**, la B **630/645**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s06 «ee» sentito «e»; s10 «e» sentito «ee»; s15 «e» sentito «ee»; s18 «del» sentito «dell»; s22 «ee» sentito «e»; s24 «e» sentito «ee»; s24 «pre allerta» sentito «preallerta»; s24 «e» sentito «ee»; s27 «e» sentito «ee»; s29 «ee» sentito «e»; s31 «ee» sentito «e»; s32 «ee» sentito «e»; s39 «ee» sentito «e»; s42 «ee» sentito «e»; s43 «e» sentito «ee»; s43 «e» sentito «ee»; s44 «aou» sentito «ao»; s44 «aoui» sentito «auo»; s45 «suem» sentito «sum»; s45 «ee» sentito «e»; s45 «d» sentito «di»; s47 «e» sentito «ee».
 
 ## Le scene
 

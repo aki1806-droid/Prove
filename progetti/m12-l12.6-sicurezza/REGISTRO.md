@@ -70,13 +70,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `936f6613014762ebf26b39b69c727821` — 521.853 s (8:41.9), 1080p 16:9, resa in 244 s, con SRT (`subtitle_url`) |
+| lotto asset | `0471d686176a494eaea49694286dad56` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- Voce pronta (`grezzo-A/B.mp3` in `audio/`), trascrizione mancante: i crediti ElevenLabs sono finiti durante la trascrizione. Al rinnovo: allegare le due tracce, trascrivere, `salva-trascrizioni`, giro.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «e» (s04, trascritto «ee»); «ee» (s09, trascritto «e»); «ee» (s14, trascritto «e»); «e» (s15, trascritto «ee»); «e» (s20, trascritto «ee»); «e» (s22, trascritto «ee»); «e» (s25, trascritto «ee»); «e» (s34, trascritto «ee»); «e» (s36, trascritto «ee»); «e» (s42, trascritto «ee»); «e» (s46, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

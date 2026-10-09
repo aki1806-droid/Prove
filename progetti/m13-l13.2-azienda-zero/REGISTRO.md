@@ -14,13 +14,31 @@ Seconda lezione del Modulo 13: Azienda Zero, l'ente che bandisce questo concorso
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,72 · B $0,68) |
+| costo trascrizioni | $0,54 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.433          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:30.3     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.367 car · chunk B 4.066 car)
+tracce grezze             A 307.4 s  ·  B 283.0 s
+silenzi                   fattore 1,139   ->   atempo 1,021
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**657/672 parole**, la B **615/625**, nessun buco. Le rese diverse
+(non buchi): s03 «e» sentito «ee»; s05 «e» sentito «ee»; s06 «e» sentito «ee»; s06 «ee» sentito «e»; s08 «prestazioni» sentito «prestazione»; s10 «ee» sentito «e»; s11 «prestazioni» sentito «prestazione»; s12 «e» sentito «ee»; s14 «e» sentito «ee»; s16 «ee» sentito «e»; s18 «ee» sentito «e»; s21 «e» sentito «ee»; s22 «e» sentito «ee»; s25 «e» sentito «ee»; s27 «km» sentito «kilometro»; s28 «ee» sentito «e»; s33 «e» sentito «ee»; s38 «e» sentito «ee»; s40 «e» sentito «ee»; s43 «e» sentito «ee».
 
 ## Le scene
 

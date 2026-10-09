@@ -1,0 +1,118 @@
+{
+ "A": {
+  "parole_copione": 672,
+  "parole_dette": 671,
+  "coincidenti": 657,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s06",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s08",
+    "copione": "prestazioni",
+    "detto": "prestazione"
+   },
+   {
+    "blocco": "s10",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "prestazioni",
+    "detto": "prestazione"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 625,
+  "parole_dette": 621,
+  "coincidenti": 615,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "km",
+    "detto": "kilometro"
+   },
+   {
+    "blocco": "s28",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s33",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
