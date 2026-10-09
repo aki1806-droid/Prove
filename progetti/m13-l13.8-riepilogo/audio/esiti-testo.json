@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 727,
+  "parole_dette": 728,
+  "coincidenti": 720,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s15",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s24",
+    "copione": "svamdi",
+    "detto": "svam d"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 594,
+  "parole_dette": 594,
+  "coincidenti": 589,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "sisp",
+    "detto": "sissp"
+   },
+   {
+    "blocco": "s41",
+    "copione": "svama",
+    "detto": "sbama"
+   },
+   {
+    "blocco": "s44",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s46",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

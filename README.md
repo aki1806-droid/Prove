@@ -116,6 +116,7 @@ progetti/<modulo>-<lezione>/
 | `m12-l12.6-sicurezza` | Modulo 12 · 12.6 La sicurezza sul lavoro in sanità | 8:41.9 | `936f6613014762ebf26b39b69c727821` |
 | `m12-l12.7-qualita` | Modulo 12 · 12.7 Qualità, accreditamento e governo clinico | 8:27.7 | `12b5529de6d554d77935ef75e22f34e5` |
 | `m12-l12.8-riepilogo` | Modulo 12 · 12.8 Riepilogo del Modulo 12 e autovalutazione | 8:31.7 | `6c27008e1e243ece059d91a49577577f` |
+| `m13-l13.1-assetto` | Modulo 13 · 13.1 L'assetto del Servizio Socio Sanitario Regionale veneto | 8:21.6 | `9767e35f8d190b0100d06b8ce0dc4804` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
