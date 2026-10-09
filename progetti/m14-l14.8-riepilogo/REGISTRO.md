@@ -14,13 +14,31 @@ Ottava e ultima lezione del Modulo 14: il riepilogo. Le tabelle dei valori da fo
 | scene | 50 (il tetto) |
 | blocchi di parlato | 48 |
 | voce | GianP — News Info and Documentary, `eleven_v3` |
+| costo voce | $1,41 (A $0,70 · B $0,71) |
+| costo trascrizioni | $0,59 |
 | pause senza voce | s47 |
 
 ```
 CARATTERI  8.447          BLOCCHI  48         SCENE  50/50
 stima a 17,0 car/s        8:31.1     (MIRA 16,6)
 stacco tracce             dopo s25   (chunk A 4.215 car · chunk B 4.232 car)
+tracce grezze             A 307.9 s  ·  B 340.8 s
+silenzi                   fattore 1,139   ->   atempo 1,119
 ```
+
+## I confini
+
+| | traccia A | traccia B |
+|---|---|---|
+| blocchi | 24 | 24 |
+| blocchi fuori fascia | 0 | 0 |
+| tagli nel parlato | VEDI controllo-statistico | VEDI controllo-statistico |
+
+### La verifica per trascrizione
+
+Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
+**633/647 parole**, la B **643/645**, nessun buco. Le rese diverse
+(non buchi): s10 «senoatriale» sentito «seno atriale»; s10 «atrioventricolare» sentito «atrio ventricolare»; s11 «ee» sentito «e»; s18 «b 12» sentito «b12»; s18 «b 12» sentito «b12»; s20 «centottanta» sentito «180»; s22 «ee» sentito «e»; s25 «ee» sentito «e»; s42 «l» sentito «la»; s49 «e» sentito «ee».
 
 ## Le scene
 

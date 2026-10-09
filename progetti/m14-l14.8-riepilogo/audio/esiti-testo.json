@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 647,
+  "parole_dette": 644,
+  "coincidenti": 633,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s10",
+    "copione": "senoatriale",
+    "detto": "seno atriale"
+   },
+   {
+    "blocco": "s10",
+    "copione": "atrioventricolare",
+    "detto": "atrio ventricolare"
+   },
+   {
+    "blocco": "s11",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "b 12",
+    "detto": "b12"
+   },
+   {
+    "blocco": "s18",
+    "copione": "b 12",
+    "detto": "b12"
+   },
+   {
+    "blocco": "s20",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s22",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s25",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 645,
+  "parole_dette": 646,
+  "coincidenti": 643,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s42",
+    "copione": "l",
+    "detto": "la"
+   },
+   {
+    "blocco": "s49",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
