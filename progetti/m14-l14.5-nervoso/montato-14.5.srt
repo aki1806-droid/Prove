@@ -1,191 +1,191 @@
 1
-00:00:03,000 --> 00:00:13,840
+00:00:03,000 --> 00:00:13,980
 Sistema nervoso ed endocrino sono i due sistemi di controllo del corpo. Il primo comunica con impulsi elettrici, rapidissimi; il secondo con gli ormoni, piu' lenti ma duraturi.
 
 2
-00:00:13,840 --> 00:00:25,490
+00:00:13,980 --> 00:00:25,780
 Conoscerli spiega i segni neurologici della lezione otto punto sei, le emergenze endocrine della otto punto tre e, soprattutto, l'azione di molti farmaci. Partiamo dal sistema nervoso.
 
 3
-00:00:25,490 --> 00:00:36,660
+00:00:25,780 --> 00:00:37,100
 Il sistema nervoso centrale comprende l'encefalo e il midollo spinale. Il sistema nervoso periferico comprende dodici paia di nervi cranici e trentuno paia di nervi spinali.
 
 4
-00:00:36,660 --> 00:00:46,920
+00:00:37,100 --> 00:00:47,490
 Funzionalmente si distingue una componente somatica, volontaria, e una componente autonoma, involontaria, che a sua volta ha due branche: il simpatico e il parasimpatico.
 
 5
-00:00:46,920 --> 00:00:58,770
+00:00:47,490 --> 00:00:59,490
 L'unita' e' il neurone, che comunica con gli altri attraverso le sinapsi, rilasciando i neurotrasmettitori: acetilcolina, noradrenalina, dopamina, serotonina, GABA, glutammato.
 
 6
-00:00:58,770 --> 00:01:08,490
+00:00:59,490 --> 00:01:09,330
 Molti farmaci agiscono proprio su questi messaggeri: le benzodiazepine sul GABA, la levodopa sulla dopamina, gli antidepressivi sulla serotonina.
 
 7
-00:01:08,490 --> 00:01:20,230
+00:01:09,330 --> 00:01:21,230
 Le vie motorie e sensitive. Le vie sensitive conducono il tatto, il dolore, la temperatura e la posizione. La via motoria principale e' la via corticospinale, detta anche piramidale.
 
 8
-00:01:20,230 --> 00:01:29,570
+00:01:21,230 --> 00:01:30,690
 Parte dalla corteccia e scende nel midollo incrociandosi: e' la decussazione. Per questo una lesione dell'emisfero sinistro provoca un deficit motorio a destra.
 
 9
-00:01:29,570 --> 00:01:40,890
+00:01:30,690 --> 00:01:42,150
 E siccome nella maggior parte delle persone il linguaggio ha sede nell'emisfero sinistro, un ictus con debolezza a destra si accompagna spesso ad afasia. Ricordi il caso della lezione otto punto sei?
 
 10
-00:01:40,890 --> 00:01:52,630
+00:01:42,150 --> 00:01:54,040
 I riflessi. L'arco riflesso va dal recettore, per la via sensitiva, fino al midollo, e torna per la via motoria al muscolo, senza passare dalla volonta': la risposta e' rapida e involontaria.
 
 11
-00:01:52,630 --> 00:02:05,250
+00:01:54,040 --> 00:02:06,820
 Gli esempi: il riflesso rotuleo, il riflesso pupillare alla luce, i riflessi della deglutizione e della tosse, che proteggono le vie aeree. E i riflessi tendinei ridotti segnalano la tossicita' da magnesio.
 
 12
-00:02:05,250 --> 00:02:14,160
+00:02:06,820 --> 00:02:15,850
 Il segno di Babinski, cioe' l'estensione dell'alluce stimolando la pianta del piede, e' patologico nell'adulto: indica una lesione della via piramidale.
 
 13
-00:02:14,160 --> 00:02:22,850
+00:02:15,850 --> 00:02:24,660
 Il sistema nervoso autonomo ha due branche. Il simpatico prepara alla lotta o fuga, e i suoi mediatori sono la noradrenalina e l'adrenalina.
 
 14
-00:02:22,850 --> 00:02:33,940
+00:02:24,660 --> 00:02:35,890
 Agiscono su due famiglie di recettori. Gli alfa restringono i vasi. Poi i beta: i beta uno, nel cuore, aumentano frequenza e contrattilita'; i beta due, nei bronchi, li dilatano.
 
 15
-00:02:33,940 --> 00:02:46,350
+00:02:35,890 --> 00:02:48,460
 Gli effetti del simpatico: aumento di frequenza e pressione, broncodilatazione, pupille dilatate, cioe' midriasi, intestino rallentato, ritenzione urinaria, glicemia piu' alta, sudorazione.
 
 16
-00:02:46,350 --> 00:02:56,070
+00:02:48,460 --> 00:02:58,310
 Il parasimpatico governa invece il riposo e la digestione. Il suo mediatore e' l'acetilcolina, che agisce sui recettori muscarinici, e il suo nervo principale e' il vago.
 
 17
-00:02:56,070 --> 00:03:07,720
+00:02:58,310 --> 00:03:10,100
 Gli effetti sono opposti a quelli del simpatico: frequenza ridotta, broncocostrizione, pupille strette, cioe' miosi, intestino piu' attivo, piu' secrezioni, e lo svuotamento della vescica.
 
 18
-00:03:07,720 --> 00:03:18,020
+00:03:10,100 --> 00:03:20,520
 Una stimolazione vagale, durante un'aspirazione tracheale, uno sforzo o un dolore viscerale, puo' dare una bradicardia improvvisa, come abbiamo visto nella lezione otto punto due.
 
 19
-00:03:18,020 --> 00:03:29,780
+00:03:20,520 --> 00:03:32,430
 Ed ecco il collegamento con la farmacologia. I beta-bloccanti riducono frequenza e pressione. Quelli non selettivi bloccano anche i beta due bronchiali: possono scatenare un broncospasmo, cautela nell'asma.
 
 20
-00:03:29,780 --> 00:03:41,610
+00:03:32,430 --> 00:03:44,410
 Il salbutamolo, un agonista beta due, dilata i bronchi, ma puo' dare tachicardia, tremori e ipokaliemia. L'adrenalina, che agisce su alfa e beta, si usa nell'anafilassi e nell'arresto.
 
 21
-00:03:41,610 --> 00:03:51,180
+00:03:44,410 --> 00:03:54,100
 L'atropina e' un antimuscarinico: blocca l'acetilcolina e aumenta la frequenza. Ma secca le mucose, e puo' causare ritenzione urinaria, midriasi e confusione.
 
 22
-00:03:51,180 --> 00:04:02,320
+00:03:54,100 --> 00:04:05,380
 E i farmaci anticolinergici, nell'anziano, provocano delirium, stipsi e ritenzione: ecco perche' compaiono fra i farmaci potenzialmente inappropriati della lezione undici punto uno.
 
 23
-00:04:02,320 --> 00:04:12,850
+00:04:05,380 --> 00:04:16,050
 Il circolo cerebrale. Il cervello riceve sangue dalle carotidi interne e dalle arterie vertebrali, che si uniscono nel poligono di Willis. E il suo flusso ha una propria autoregolazione.
 
 24
-00:04:12,850 --> 00:04:22,700
+00:04:16,050 --> 00:04:26,030
 Il cervello consuma circa il venti per cento dell'ossigeno del corpo e dipende quasi solo dal glucosio: ecco perche' ipossia e ipoglicemia alterano subito la coscienza.
 
 25
-00:04:22,700 --> 00:04:30,060
+00:04:26,030 --> 00:04:33,480
 Ha una barriera ematoencefalica, che seleziona le sostanze che possono raggiungerlo. E il liquor, che viene prodotto nei ventricoli cerebrali.
 
 26
-00:04:30,060 --> 00:04:40,650
+00:04:33,480 --> 00:04:44,200
 Un principio spiega l'ipertensione endocranica della lezione otto punto sei: il cranio e' rigido e contiene encefalo, sangue e liquor. Se uno dei tre aumenta, la pressione sale.
 
 27
-00:04:40,650 --> 00:04:49,560
+00:04:44,200 --> 00:04:53,230
 Passiamo al sistema endocrino. Ha il suo centro nell'asse ipotalamo-ipofisi: l'ipotalamo controlla l'ipofisi, e l'ipofisi regola a sua volta le altre ghiandole.
 
 28
-00:04:49,560 --> 00:05:03,060
+00:04:53,230 --> 00:05:06,900
 L'ipofisi anteriore produce il GH, l'ormone della crescita; il TSH, che stimola la tiroide; l'ACTH, che stimola il surrene; l'FSH e l'LH per le gonadi; e la prolattina.
 
 29
-00:05:03,060 --> 00:05:13,930
+00:05:06,900 --> 00:05:17,910
 L'ipofisi posteriore libera l'ADH, che fa riassorbire acqua nel rene, e l'ossitocina, per le contrazioni uterine e l'eiezione del latte. E tutto e' regolato a feedback negativo.
 
 30
-00:05:13,930 --> 00:05:21,030
+00:05:17,910 --> 00:05:25,100
 La tiroide produce due ormoni, il T tre e il T quattro, che regolano il metabolismo. E per produrli ha bisogno dello iodio.
 
 31
-00:05:21,030 --> 00:05:33,940
+00:05:25,100 --> 00:05:38,170
 Il feedback spiega i valori di laboratorio. Nell'ipotiroidismo primario la tiroide produce poco, e l'ipofisi aumenta il TSH, che risulta alto. Nell'ipertiroidismo primario, invece, il TSH e' basso.
 
 32
-00:05:33,940 --> 00:05:44,350
+00:05:38,170 --> 00:05:48,710
 Le paratiroidi producono il PTH, che aumenta il calcio nel sangue. Per questo la loro lesione durante una tiroidectomia causa l'ipocalcemia della lezione nove punto sei.
 
 33
-00:05:44,350 --> 00:05:54,970
+00:05:48,710 --> 00:05:59,470
 Il surrene. La parte corticale produce il cortisolo, l'ormone dello stress, che alza la glicemia e riduce l'infiammazione; l'aldosterone, che regola sodio e potassio; e gli androgeni.
 
 34
-00:05:54,970 --> 00:06:02,550
+00:05:59,470 --> 00:06:07,150
 La parte midollare del surrene produce invece l'adrenalina e la noradrenalina: gli stessi mediatori del simpatico che abbiamo appena visto.
 
 35
-00:06:02,550 --> 00:06:11,660
+00:06:07,150 --> 00:06:16,370
 Il pancreas endocrino, nelle isole di Langerhans. Le cellule beta producono l'insulina, che abbassa la glicemia; le cellule alfa producono il glucagone, che la alza.
 
 36
-00:06:11,660 --> 00:06:24,180
+00:06:16,370 --> 00:06:29,050
 Gli ormoni dello stress, glucagone, cortisolo, adrenalina e GH, sono tutti iperglicemizzanti. Ecco perche' un paziente con un'infezione, o dopo un intervento, ha la glicemia alta anche se non e' diabetico.
 
 37
-00:06:24,180 --> 00:06:33,530
+00:06:29,050 --> 00:06:38,530
 Il feedback spiega anche i corticosteroidi usati come farmaci. Somministrati a lungo, spengono l'ACTH e il surrene, che smette di produrre cortisolo.
 
 38
-00:06:33,530 --> 00:06:45,830
+00:06:38,530 --> 00:06:50,990
 Per questo una sospensione brusca puo' causare la crisi surrenalica della lezione otto punto tre. E gli effetti da sorvegliare: iperglicemia, ritenzione idrica, osteoporosi, infezioni, ritardo di guarigione.
 
 39
-00:06:45,830 --> 00:06:51,430
+00:06:50,990 --> 00:06:56,660
 Si somministrano di solito al mattino, perche' imitano il ritmo naturale del cortisolo, che e' piu' alto al risveglio.
 
 40
-00:06:51,430 --> 00:06:58,230
+00:06:56,660 --> 00:07:03,550
 Il caso d'esame. Paziente asmatico con ipertensione: il medico prescrive il propranololo. Che cosa segnala l'infermiere?
 
 41
-00:06:58,230 --> 00:07:06,760
+00:07:03,550 --> 00:07:12,190
 Il propranololo e' un beta-bloccante non selettivo: blocca anche i recettori beta due dei bronchi, e in un paziente asmatico puo' scatenare un broncospasmo.
 
 42
-00:07:06,760 --> 00:07:13,960
+00:07:12,190 --> 00:07:19,480
 Lo segnali al medico prima della somministrazione, chiedendo conferma. E' la fisiologia del sistema autonomo che previene un evento avverso.
 
 43
-00:07:13,960 --> 00:07:25,380
+00:07:19,480 --> 00:07:31,050
 Il collegamento con l'assistenza. La valutazione neurologica e delle pupille. Il lato del deficit, e il linguaggio. La glicemia in ogni alterazione della coscienza. La bradicardia vagale durante le manovre.
 
 44
-00:07:25,380 --> 00:07:34,620
+00:07:31,050 --> 00:07:40,400
 Gli effetti autonomici dei farmaci. Il TSH e la terapia tiroidea. La glicemia da stress. E i corticosteroidi, che non si sospendono mai bruscamente.
 
 45
-00:07:34,620 --> 00:07:49,090
+00:07:40,400 --> 00:07:55,060
 La tabella. Dodici nervi cranici, trentuno spinali. Via motoria incrociata, linguaggio a sinistra, Babinski patologico. Simpatico: alfa e beta, beta uno cuore, beta due bronchi. Parasimpatico: acetilcolina e vago.
 
 46
-00:07:49,090 --> 00:08:04,010
+00:07:55,060 --> 00:08:10,170
 Ipofisi anteriore e posteriore. Ipotiroidismo primario: TSH alto. Il PTH alza il calcio. Cortisolo e aldosterone. L'insulina abbassa la glicemia, il glucagone la alza. Gli ormoni dello stress sono iperglicemizzanti.
 
 47
-00:08:04,010 --> 00:08:12,910
+00:08:10,170 --> 00:08:19,160
 La frase della lezione: capire il recettore e' capire il farmaco. Se sai dove agisce un farmaco, sai prevederne gli effetti e i rischi.
 
 48
-00:08:12,910 --> 00:08:23,970
+00:08:19,160 --> 00:08:30,350
 Nella prossima lezione: il sangue, i gruppi sanguigni, la coagulazione, l'immunita' e l'infiammazione. Le basi della trasfusione, degli anticoagulanti e delle infezioni. A tra poco.
