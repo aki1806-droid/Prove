@@ -40,6 +40,11 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 **668/686 parole**, la B **588/597**, nessun buco. Le rese diverse
 (non buchi): s02 «organi che» sentito «organiche»; s05 «b 12» sentito «b12»; s05 «b 12» sentito «b12»; s08 «ee» sentito «e»; s09 «e» sentito «ee»; s10 «ee» sentito «e»; s15 «e» sentito «ee»; s19 «centottanta» sentito «180»; s24 «ee» sentito «e»; s25 «e» sentito «ee»; s28 «ee» sentito «e»; s29 «ee» sentito «e»; s36 «chili» sentito «kg»; s40 «ee» sentito «e»; s41 «centottanta» sentito «180»; s43 «b 12» sentito «b12»; s46 «ee» sentito «e».
 
+Al primo giro la B dava un buco in s11: il copione «P450» diventa «p 450», il
+trascrittore scrive «p450» attaccato. È la stessa parola detta bene: in
+`verifica-testo.py` la resa `\bp(\d+)\b` → « p \1 » sta in cima a RESE, e il
+buco sparisce (A 670/686, B 588/597, 8/8).
+
 ## Le scene
 
 | scene | corpo | contenuto |
@@ -67,13 +72,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `4dc18cac87cf519da26ebb6c8ce24655` — 519.846 s (8:39.8), 1080p 16:9, resa in 73 s, con SRT (`subtitle_url`) |
+| lotto asset | `867603af030b4733b17b818658a2514b` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «organi che» (s02, trascritto «organiche»); «b 12» (s05, trascritto «b12»); «b 12» (s05, trascritto «b12»); «ee» (s08, trascritto «e»); «e» (s09, trascritto «ee»); «ee» (s10, trascritto «e»); «ee» (s11, trascritto «e»); «e» (s15, trascritto «ee»); «centottanta» (s19, trascritto «180»); «ee» (s24, trascritto «e»); «e» (s25, trascritto «ee»); «ee» (s28, trascritto «e»); «ee» (s29, trascritto «e»); «chili» (s36, trascritto «kg»); «ee» (s40, trascritto «e»); «centottanta» (s41, trascritto «180»); «b 12» (s43, trascritto «b12»); «ee» (s46, trascritto «e»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

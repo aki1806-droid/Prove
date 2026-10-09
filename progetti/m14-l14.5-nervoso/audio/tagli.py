@@ -23,7 +23,7 @@ SOGLIA = "-45dB"
 SILENZI = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
            "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
            "aresample=44100")
-MIRA = 16.6
+MIRA = 16.4
 
 _ritmo = None
 _trim = None
