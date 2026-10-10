@@ -1,0 +1,438 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.4",
+"title": "Le pose di potere",
+"sub": "Cosa non regge"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "due minuti, prima di una cosa che conta",
+"title": "Braccia larghe, petto aperto, spazio occupato.<br><span class=\"gold\">E cambierebbe qualcosa dentro di te.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "che cosa prometteva",
+"plain": true,
+"rows": [
+"Più testosterone",
+"Meno cortisolo",
+"Maggiore propensione al rischio",
+"Prestazione migliore"
+],
+"note": "Detta così è un'offerta difficile da rifiutare."
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Rilanciata da una conferenza fra le più viste di sempre.<br><span class=\"gold\">E replicata in migliaia di corsi aziendali.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "perché vale la pena seguirla fino in fondo",
+"title": "Si impara come funziona la ricerca.<br><span class=\"gold\">E anche la divulgazione, che è un'altra cosa.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "carney, cuddy e yap · 2010",
+"title": "Quarantadue partecipanti.<br><span class=\"gold\">Ventuno per gruppo.</span>"
+},
+{
+"file": "c08",
+"layout": "barre",
+"kicker": "quanto erano grandi i due campioni",
+"barre": [
+{
+"et": "Lo studio del 2010",
+"v": 21,
+"val": "42"
+},
+{
+"et": "La replica del 2015",
+"v": 100,
+"val": "≈200"
+}
+],
+"acceso": 1,
+"title": "Il numero è il punto attorno a cui gira tutto."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "i tre risultati dello studio originale",
+"rows": [
+"Si sentono più potenti — lo dichiarano",
+"Variazioni ormonali — si misurano",
+"Più rischi alla scommessa — si misurano"
+],
+"note": "Il primo lo dicono i partecipanti. Gli altri due no."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "tre aggettivi che insieme spiegano quasi tutto",
+"title": "Sorprendente, concreto, applicabile subito.<br><span class=\"gold\">E si diffonde intero.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "ranehill e colleghi · 2015",
+"title": "Campione più ampio, gruppo indipendente.<br><span class=\"gold\">Cioè: non avevano niente da difendere.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "L'effetto auto-riferito regge.<br><span class=\"gold\">Questo pezzo non è mai caduto.</span>"
+},
+{
+"file": "c13",
+"layout": "confronto",
+"occhio": "gli stessi tre risultati, rifatti su duecento persone",
+"titoli": [
+"Lo studio del 2010",
+"La replica del 2015"
+],
+"righe": [
+{
+"et": "Si sentono più potenti",
+"a": "Sì",
+"b": "Sì",
+"segna": true
+},
+{
+"et": "Variazioni ormonali",
+"a": "Sì",
+"b": "No",
+"segna": true
+},
+{
+"et": "Più rischi",
+"a": "Sì",
+"b": "No",
+"segna": true
+}
+]
+},
+{
+"file": "c14",
+"layout": "memo",
+"title": "Non effetti più piccoli.<br>Nessuna differenza<br>che si distingua dal rumore."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "la fotografia, a conti fatti",
+"title": "Di tre risultati ne resta uno.<br><span class=\"gold\">Ed è quello che le persone dichiarano.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Fino a qui è una storia ordinaria.<br><span class=\"gold\">Esce un risultato, qualcuno lo rifà, non viene.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "dana carney · 2016",
+"title": "Una delle autrici dichiara di non ritenere più<br><span class=\"gold\">che l'effetto sia reale.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "perché è un gesto raro",
+"title": "Il sistema premia chi pubblica cose nuove.<br><span class=\"gold\">Smentirsi non fa curriculum.</span>"
+},
+{
+"file": "c19",
+"layout": "quote",
+"title": "Non è un caso di cattiva scienza.<br>È un caso di scienza che funziona."
+},
+{
+"file": "c21",
+"layout": "linea",
+"kicker": "dieci anni, in quattro date",
+"ciclo": 7,
+"momenti": [
+{
+"a": 5,
+"et": "2010",
+"sub": "lo studio esce"
+},
+{
+"a": 36,
+"et": "2015",
+"sub": "la replica non conferma"
+},
+{
+"a": 66,
+"et": "2016",
+"sub": "l'autrice si smentisce"
+},
+{
+"a": 96,
+"et": "oggi",
+"sub": "si insegna ancora"
+}
+],
+"sx": "pubblicazione",
+"dx": "oggi",
+"title": "La smentita non ha raggiunto il mercato."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "e non per un complotto",
+"title": "Il mercato legge il risultato la prima volta.<br><span class=\"gold\">Quando è una notizia. Poi smette di guardare.</span>"
+},
+{
+"file": "c23",
+"layout": "flusso",
+"kicker": "perché una replica non circola",
+"passi": [
+{
+"et": "Niente di nuovo",
+"sub": "non c'è una notizia"
+},
+{
+"et": "Titolo noioso",
+"sub": "una cosa non era vera"
+},
+{
+"et": "Nessuno rilancia",
+"sub": "e quasi nessuno legge"
+}
+],
+"title": "E chi ci ha costruito un corso non la cerca."
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "Non è un'anomalia del settore.<br><span class=\"gold\">È il suo funzionamento normale.</span>"
+},
+{
+"file": "c25",
+"layout": "quote",
+"title": "Una cosa può essere smentita dal suo autore<br>e continuare a essere venduta<br>per dieci anni."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "e qui si tiene, non si butta",
+"title": "Smontare tutto quello che funziona a metà<br><span class=\"gold\">è l'errore speculare a venderla intera.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "quello che resta",
+"rows": [
+"La sensazione soggettiva",
+"Il respiro, e quindi la voce",
+"Avere una routine da fare"
+],
+"active": 0,
+"note": "Confermato proprio dalla replica che ha smontato il resto. È poco, non è niente."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "quello che resta",
+"rows": [
+"La sensazione soggettiva",
+"Il respiro, e quindi la voce",
+"Avere una routine da fare"
+],
+"active": 1,
+"note": "È la lezione precedente. Non passa per nessun ormone e non richiede di crederci."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "quello che resta",
+"rows": [
+"La sensazione soggettiva",
+"Il respiro, e quindi la voce",
+"Avere una routine da fare"
+],
+"active": 2,
+"note": "Riduce l'attesa passiva, che è la parte peggiore. Non conta quale sia: conta che ci sia."
+},
+{
+"file": "c30",
+"layout": "memo",
+"title": "La parte utile<br>non dipendeva dalla parte<br>che è caduta."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "da tenere in tasca",
+"title": "Non servono competenze tecniche.<br><span class=\"gold\">Servono quattro domande.</span>"
+},
+{
+"file": "c33",
+"layout": "raggi",
+"kicker": "le quattro domande",
+"centro": "La prossima tecnica",
+"attorno": [
+{
+"et": "È stata replicata?",
+"d": 40
+},
+{
+"et": "Quanto era grande il campione?",
+"d": 70
+},
+{
+"et": "Chi ha interesse?",
+"d": 35
+},
+{
+"et": "Cosa si è saputo dopo?",
+"d": 65
+}
+],
+"title": "Nessuna richiede di capire uno studio."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "le quattro domande",
+"rows": [
+"È stata replicata?",
+"Quanto era grande il campione originale?",
+"Chi ha interesse a che sia vera?",
+"Cosa si è saputo dopo?"
+],
+"active": 0,
+"note": "Non se ci sono studi: se qualcuno di indipendente l'ha rifatta e ha trovato la stessa cosa."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "le quattro domande",
+"rows": [
+"È stata replicata?",
+"Quanto era grande il campione originale?",
+"Chi ha interesse a che sia vera?",
+"Cosa si è saputo dopo?"
+],
+"active": 1,
+"note": "Gli effetti sorprendenti trovati su pochi sono quelli che spariscono più spesso."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "le quattro domande",
+"rows": [
+"È stata replicata?",
+"Quanto era grande il campione originale?",
+"Chi ha interesse a che sia vera?",
+"Cosa si è saputo dopo?"
+],
+"active": 3,
+"note": "È quella che quasi nessuno fa. In questo caso la risposta era pubblica dal 2015."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "E perché una lezione così sta in un corso sul non verbale.<br><span class=\"gold\">Per due ragioni, e la seconda è quella che conta.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "la prima",
+"title": "Sono fra i contenuti più venduti del settore.<br><span class=\"gold\">Lasciarle fuori si noterebbe.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "Chi segue questo corso le ha già sentite.<br><span class=\"gold\">Forse in un corso aziendale. Magari al lavoro.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "a che cosa serve saperlo",
+"title": "Non a sentirsi superiori a chi le insegna.<br><span class=\"gold\">A respirare, e preparare le prime due frasi.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "quattro errori da evitare",
+"title": "Due per eccesso di fiducia.<br><span class=\"gold\">E due per eccesso di sfiducia.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Insegnarle come fatto",
+"Fermarsi allo studio originale",
+"Confondere effetto soggettivo e fisiologico",
+"Dedurre che la postura non conti"
+],
+"active": 0,
+"note": "È smentito, e lo è anche dall'autrice originale."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Insegnarle come fatto",
+"Fermarsi allo studio originale",
+"Confondere effetto soggettivo e fisiologico",
+"Dedurre che la postura non conti"
+],
+"active": 2,
+"note": "Il primo regge, il secondo no. Dire che ti senti meglio non è dire che ti è cambiato il testosterone."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Insegnarle come fatto",
+"Fermarsi allo studio originale",
+"Confondere effetto soggettivo e fisiologico",
+"Dedurre che la postura non conti"
+],
+"active": 3,
+"note": "La postura conta, per il respiro e per la voce. Smontare una cosa non è smontare tutto."
+},
+{
+"file": "c45",
+"layout": "memo",
+"title": "La domanda che nessuno fa:<br>cosa si è saputo dopo?"
+},
+{
+"file": "c46",
+"layout": "statement",
+"title": "La prova di oggi si può fare su questo corso.<br><span class=\"gold\">E ti conviene farla proprio qui.</span>"
+},
+{
+"file": "c47",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Prendi una tecnica che dai per buona.<br><span class=\"gold\">Anche una che hai sentito in queste lezioni.</span>"
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Non che la risposta sia no.<br>Che non esiste<br>nessuna risposta."
+},
+{
+"file": "c49",
+"layout": "statement",
+"title": "E questo è già un dato.<br><span class=\"gold\">Tenerle separate nella testa basta.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

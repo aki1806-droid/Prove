@@ -140,6 +140,18 @@ Si aggiunge in testa a ogni traccia generata, nella forma che la voce legge.
 | FACS | facs |
 | DePaulo | De Pàulo |
 | Duchenne | Duscèn |
+| Hall | Hool |
+| Carney | Carni |
+| Cuddy | Cadi |
+| Yap | Iap |
+| Ranehill | Rànehill |
+
+**Nel parlato si scrive la forma che la voce legge; sulle slide si scrive la
+grafia vera.** L'accento serve solo dove la sillaba tonica italiana sarebbe
+sbagliata: «Carni», «Cadi» e «Iap» non ne hanno bisogno, «Rànehill» sì. Ed è
+l'unica eccezione alla regola che nei blocchi non entrano caratteri
+accentati: `blocchi.py` della 4.4 la dichiara in una lista invece di
+allentare il controllo.
 
 ## 7. Gli aneddoti
 
@@ -350,6 +362,7 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 4.1 | Le distanze | 9:58 | `7c7f0dab16af639ca6b74f809b31d4c7` |
 | 4.2 | L'orientamento: dove puntano i piedi | 9:58 | `8a1910badeaab1b88881337b633208c4` |
 | 4.3 | Postura, senza luoghi comuni | 9:58 | `2539717ed77fcdfaf35001c760098184` |
+| 4.4 | Le pose di potere: cosa non regge | 9:58 | `c1eb0c5772b1cbc752f319564403a18e` |
 
 **Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
 settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
@@ -358,8 +371,8 @@ riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
 dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
 `LNV_M3_SCRIPT-HEYGEN.md`.
 
-**Il modulo 4 è in lavorazione**: la 4.1, la 4.2 e la 4.3 sono montate,
-restano la 4.4 e la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
+**Il modulo 4 è in lavorazione**: la 4.1, la 4.2, la 4.3 e la 4.4 sono
+montate, resta la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
 quello del modulo 7. Il registro di modulo si scrive quando le cinque lezioni
 sono chiuse.
 
@@ -368,8 +381,8 @@ registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
 duecentoventicinque i suoi tagli cadono dentro un silenzio. Nel modulo 4 la
-4.1 chiude con un confine fuori banda, la 4.2 con zero e la 4.3 con due, e in
-tutte e tre i tagli cadono dentro un silenzio. I due della 4.3 sono gli unici
+4.1 chiude con un confine fuori banda, la 4.2 e la 4.4 con zero e la 4.3 con
+due, e in tutte e quattro i tagli cadono dentro un silenzio. I due della 4.3 sono gli unici
 del corso di cui si può dimostrare che NON sono confini sbagliati:
 `griglia.py` ha provato tutte le pause della finestra e nessuna migliora la
 coppia, e la somma dei blocchi coinvolti è in pari. Quando la

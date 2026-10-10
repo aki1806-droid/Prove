@@ -1,0 +1,20 @@
+{
+ "s06": {
+  "tipo": "immagine",
+  "nome": "auditorium-vuoto-palco-illuminato",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__1/image-6acf8a17-bcfc-43c7-baa2-50984f894555.png?Expires=2107033053&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=y503Te~Lrtr9YhR9ITzOMrdVQHWCLlUPRDkaolAra1dbzwmygNdkZ7Ae26d96IM1Scm43urbMnJyHj7Irk-j4cmB3jCzj72flzR10Sh2nA90Y4GEhqMHxxu~Px7ENbdHx4eVwR9Q4aig2ucBdfyAQ4SR8hNIZZR-fGhkvheyvF4ObTtrtAac0SACoXp5tji90usUtOOfPXwDxFtXvmmZxkNSEOQ~TVmGQeIytzdMSGyuYZlNU8cwB-b53GNhp6PQeWvDYKktYDciBjVKoziEAYT91RJe3mAdQYmq~-iGoMuy-Bye9xiAExz15UDzN~KAbUQUCfjI~0GGLpW75M1YZg__",
+  "nota": "un auditorium vuoto con il palco illuminato, una sedia e un microfono, poltrone in penombra - VISTA: evoca la conferenza senza nominarla, come fa lo script"
+ },
+ "s20": {
+  "tipo": "immagine",
+  "nome": "sala-conferenze-aziendale-proiettore-acceso",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__2/image-66d123ab-42f0-4dbc-9789-88ec782906be.png?Expires=2107033120&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=fzdaUhbNUP0I4OU1HOLn3fE74CDx-ak7CDwXPpOC-Fa3S1YnbHq0NSd8qnPBTBnvr2u7r9INcNfY5zuN7ggUUFPp70GRirsjppUW~Z~XnT7j~K2MkcaxwQl7~fsrNY74z4DOGOcZ44BrogS7Fk3jdZM~5PLav8xrCCzv086y~jhoFohDLBDe~~qb1aW3TLveILvlo5anO~DW4o5cdihVpwYZ4SEDz7r9QAAY38HSGIvqa53u~u1kgkcLbkeOsul8MTCUiSwTVavJEa-64blhAdtO8bDiDJ06xIPKBgyyGQB9tQy-Ty6VuNmBa~R0jh~eql078~pZEkMpNAPYMxGabQ__",
+  "nota": "una sala conferenze aziendale con le sedie allineate e il proiettore acceso su uno schermo bianco, nessuno in campo - VISTA"
+ },
+ "s31": {
+  "tipo": "immagine",
+  "nome": "riviste-rilegate-su-uno-scaffale",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__6/image-030d4a6c-ddc6-4a72-ad69-e93cf41e648a.png?Expires=2107033222&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=dQSnkRueW9hBfsCLY5NvCF62QjjOKKOkak1sCzr4OXSIj96hzCk-JxysHJz5Mvn4A0nOySxjIfPeO1aJBTSF1ja2rQnazJvZ9f2AG8gxxa~iGHNklHJgOz0qtz4TEVJ1t-QX7R4XUTy8MsCcGPbTuWRcYaRotbKNQQmeJ5sujnWWJxpYP5oU3XZ-uaYOAf2FIfVGpyZmlN93PJJompdfbZYVf3yN2~D4GOoGTFUIUr25vWMvCinfQusutixI6~aMDNUiKxXUEDhhy8rKVmi7M~BtjQ4jRSa2iWNH8zEyDiBOPt5FBbzYJY2vwLiS4Zi4l3yS7howUUVW5YSGF7HG9g__",
+  "nota": "una pila di riviste rilegate su uno scaffale, dorsi illeggibili, nessun titolo riconoscibile - VISTA. La prima generazione aveva un titolo di rivista reale ben leggibile e lo script chiede dorsi non leggibili: rifatta"
+ }
+}
