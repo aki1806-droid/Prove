@@ -17,7 +17,7 @@ le rese escono.
 | 14.2 | Apparato cardiocircolatorio | 8:44.2 | `76bacd5d4acd5445707de9686cb5aeaa` |
 | 14.3 | Apparato respiratorio | 8:43.5 | `d32e020c5a2ede9973446551afc6fa6c` |
 | 14.4 | Apparato digerente, fegato e rene | 8:39.8 | `4dc18cac87cf519da26ebb6c8ce24655` |
-| 14.5 | Sistema nervoso ed endocrino | — |  |
+| 14.5 | Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | 14.6 | Sangue, immunità e infiammazione | — |  |
 | 14.7 | Semeiotica infermieristica ed esami | — |  |
 | 14.8 | Riepilogo del Modulo 14 e autovalutazione | — |  |
