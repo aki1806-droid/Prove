@@ -68,7 +68,7 @@ export const SCENE = [
 {id:"s10", tipo:"tabella", tema:"chiaro", sopratitolo:"L'auscultazione del torace", colonne:["38%","62%"],
   intestazioni:["Reperto", "Fa pensare a"], righe:[
   ["**Sibili**", "vie aeree ristrette · broncospasmo"], ["**Ronchi**", "secrezioni nei bronchi"],
-  ["**Sfregamento** pleurico", "—"], ["Murmure **ridotto o assente**", "versamento · pneumotorace · atelettasia"]], chiave:[3]},
+  ["**Sfregamento** pleurico", "pleura infiammata (pleurite)"], ["Murmure **ridotto o assente**", "versamento · pneumotorace · atelettasia"]], chiave:[3]},
 
 {id:"s11", sopratitolo:"L'esame dell'addome", ...ADDOME([0,1])},
 {id:"s12", sopratitolo:"L'esame dell'addome", ...ADDOME([0,1,2,3])},

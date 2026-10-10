@@ -19,8 +19,8 @@ rinnovo dagli asset già allegati, senza rigenerare la voce A di 12.7 e 12.8.
 
 | | lezione | durata | resa |
 |---|---|---|---|
-| 12.1 | Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
-| 12.2 | Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
+| 12.1 | Le fonti e il diritto alla salute | 8:34.8 | `09688f4a41b3b252b10543d676574bc9` |
+| 12.2 | Le riforme del SSN e i LEA | 8:31.2 | `88be207b58b6790add11c1d76faba7c9` |
 | 12.3 | L'organizzazione aziendale e ospedaliera | 8:29.6 | `88a53bcb1c3bfe06e317db336658ee7c` |
 | 12.4 | Finanziamento ed economia del SSN | 8:28.9 | `8f1203f161219ff519a21d4729d7239d` |
 | 12.5 | Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |

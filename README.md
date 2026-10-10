@@ -106,10 +106,10 @@ progetti/<modulo>-<lezione>/
 | `m11-l11.4-materno-infantile` | Modulo 11 · 11.4 Area materno-infantile | 8:21.7 | `3063029a6cbcb294aa5768bf6602f9fc` |
 | `m11-l11.5-palliative` | Modulo 11 · 11.5 Cure palliative e fine vita | 8:11.2 | `0c5d4216a04c013153077b9963d5aa34` |
 | `m11-l11.6-cronicita` | Modulo 11 · 11.6 Cronicità, educazione terapeutica e self-care | 8:14.4 | `f8f9ff6d5e4f7626d43bd43a26630e8d` |
-| `m11-l11.7-territorio` | Modulo 11 · 11.7 Territorio e cure primarie | 8:12.0 | `a59714e446dde257b6180deb8ac36576` |
+| `m11-l11.7-territorio` | Modulo 11 · 11.7 Territorio e cure primarie | 8:12.0 | `3fcc4d93c8b12a24368d88b4f1b5b659` |
 | `m11-l11.8-riepilogo` | Modulo 11 · 11.8 Riepilogo del Modulo 11 e autovalutazione | 8:11.9 | `69dea68bea6eb467103d6aa9d6871219` |
-| `m12-l12.1-fonti` | Modulo 12 · 12.1 Le fonti e il diritto alla salute | 8:34.8 | `0116e17159b837b67ae644dc6de4a3e0` |
-| `m12-l12.2-riforme` | Modulo 12 · 12.2 Le riforme del SSN e i LEA | 8:31.2 | `9d893062f6e8d92787dc46dbf97e0c15` |
+| `m12-l12.1-fonti` | Modulo 12 · 12.1 Le fonti e il diritto alla salute | 8:34.8 | `09688f4a41b3b252b10543d676574bc9` |
+| `m12-l12.2-riforme` | Modulo 12 · 12.2 Le riforme del SSN e i LEA | 8:31.2 | `88be207b58b6790add11c1d76faba7c9` |
 | `m12-l12.3-organizzazione` | Modulo 12 · 12.3 L'organizzazione aziendale e ospedaliera | 8:29.6 | `88a53bcb1c3bfe06e317db336658ee7c` |
 | `m12-l12.4-finanziamento` | Modulo 12 · 12.4 Finanziamento ed economia del SSN | 8:28.9 | `8f1203f161219ff519a21d4729d7239d` |
 | `m12-l12.5-ccnl` | Modulo 12 · 12.5 Il rapporto di lavoro e il CCNL Comparto Sanità | 8:44.4 | `b8dd47c30f00336fe5921bcb14bd2eec` |

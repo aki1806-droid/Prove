@@ -46,7 +46,7 @@ BLOCCHI = [
  (10,"chiaro",0,"Le feci per il Clostridium difficile solo se non formate. L'espettorato al mattino, dopo aver sciacquato la bocca con acqua, da una tosse profonda: la saliva non serve."),
 
  (11,"chiaro",0,"Alcuni valori di riferimento da conoscere, con un'avvertenza: i valori esatti dipendono dal laboratorio, e nella pratica si usano quelli scritti sul referto."),
- (11,"chiaro",0,"Emoglobina: nell'uomo circa tredici-diciassette, nella donna circa dodici-quindici grammi per decilitro. Globuli bianchi: circa quattromila-diecimila per millimetro cubo. Piastrine: circa centocinquantamila-quattrocentomila."),
+ (11,"chiaro",0,"Emoglobina: nell'uomo circa tredici-diciassette, nella donna dodici-sedici grammi per decilitro. Globuli bianchi: circa quattromila-diecimila per millimetro cubo. Piastrine: circa centocinquantamila-quattrocentocinquantamila."),
 
  (12,"chiaro",0,"La chimica. Glicemia a digiuno: normale fra settanta e novantanove; fra cento e centoventicinque alterata; da centoventisei, se confermata, compatibile con il diabete."),
  (12,"chiaro",0,"Emoglobina glicata: da sei virgola cinque per cento compatibile con diabete. Creatinina: circa zero virgola sei-uno virgola due milligrammi per decilitro."),

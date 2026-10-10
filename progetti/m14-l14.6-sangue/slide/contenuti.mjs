@@ -41,7 +41,7 @@ export const SCENE = [
 {id:"s04", tipo:"cifre", tema:"chiaro", sopratitolo:"La composizione del sangue", voci:[
   {n:"55", suf:"%", t:"plasma", d:"acqua · **proteine** (albumina, globuline, fibrinogeno) · elettroliti · nutrienti", key:true}]},
 {id:"s05", tipo:"cifre", tema:"chiaro", sopratitolo:"Gli elementi figurati", voci:[
-  {n:"45", suf:"%", t:"elementi figurati", d:"l'**ematocrito**"},
+  {n:"45", suf:"%", t:"elementi figurati", d:"quasi tutti globuli rossi: l'**ematocrito**"},
   {n:"120", suf:"giorni", t:"globuli rossi", d:"trasportano ossigeno con l'**emoglobina**", key:true}]},
 {id:"s06", tipo:"raggiera", tema:"chiaro", sopratitolo:"I globuli bianchi difendono l'organismo", centro:"Leucociti",
   raggi:[{t:"Neutrofili", key:true}, {t:"Linfociti", key:true}, {t:"Monociti"}, {t:"Eosinofili"}, {t:"Basofili"}]},
@@ -143,7 +143,7 @@ export const SCENE = [
   testo:"«Febbre a **39 °C**: prima tremava e chiedeva coperte, ora è **sudato**. Che cosa fai in ciascuna fase?»"},
 {id:"s42", tipo:"catena", tema:"chiaro", sopratitolo:"Il caso · la fase di salita", passi:[
   {t:"**Brividi**"}, {t:"Lo **copri**"},
-  {t:"**Emocolture**, se prescritte", d:"preferibilmente durante il brivido o il picco", key:true}]},
+  {t:"**Emocolture**, se prescritte", d:"all'insorgenza del brivido, prima dell'antibiotico", key:true}]},
 {id:"s43", tipo:"griglia", tema:"chiaro", colonne:3, spunta:true, sopratitolo:"Il caso · la defervescenza", celle:[
   {t:"Lo **scopri** gradualmente"}, {t:"Cambi la **biancheria**"}, {t:"Lo **idrati**"},
   {t:"Sorvegli la **pressione** · rischio di ipotensione"}, {t:"**Antipiretico** secondo prescrizione"}, {t:"Valuti la **causa**"}]},

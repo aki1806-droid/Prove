@@ -67,8 +67,12 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 | | |
 |---|---|
-| resa pubblicata | `0116e17159b837b67ae644dc6de4a3e0` — 514.783 s (8:34.8), 1080p 16:9, resa in 229 s, con SRT (`subtitle_url`) |
+| resa pubblicata | `09688f4a41b3b252b10543d676574bc9` — 514.783 s (8:34.8), 1080p 16:9, resa in 229 s, con SRT (`subtitle_url`) |
 | lotto asset | `8c4d8410f22440c285b804cf2d1993f5` — 98 file, 20 MB, tutti completati |
+
+### Rese precedenti
+
+- `0116e17159b837b67ae644dc6de4a3e0` (8:34.8): sostituita il 10/10/2026. Chiusura rifatta: il titolo su tre righe spingeva la riga rossa sopra la scritta CISL FP. Stessi asset, cambia solo l'immagine s50.
 
 ---
 

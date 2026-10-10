@@ -8,7 +8,7 @@ BLOCCHI = [
  (1,"chiaro",0,"Vediamo com'e' fatto il sangue, come funzionano i gruppi sanguigni e la coagulazione, e come il corpo si difende con l'immunita' e l'infiammazione. Chiudiamo con una sintesi su apparato muscolo-scheletrico e cute."),
 
  (2,"chiaro",0,"Il sangue e' composto per circa il cinquantacinque per cento da plasma: acqua, proteine come albumina, globuline e fibrinogeno, poi elettroliti e nutrienti."),
- (2,"chiaro",0,"Il restante quarantacinque per cento circa sono gli elementi figurati: e' l'ematocrito. I globuli rossi trasportano ossigeno con l'emoglobina, e vivono circa centoventi giorni."),
+ (2,"chiaro",0,"Il restante quarantacinque per cento circa sono gli elementi figurati, quasi tutti globuli rossi: la loro quota sul volume del sangue e' l'ematocrito. Trasportano ossigeno con l'emoglobina, e vivono circa centoventi giorni."),
  (2,"chiaro",0,"I globuli bianchi difendono l'organismo: neutrofili, linfociti, monociti, eosinofili, basofili. Li ritroveremo fra poco, parlando di immunita'."),
  (2,"chiaro",0,"Le piastrine partecipano all'emostasi e vivono circa da sette a dieci giorni: per questo l'effetto dell'aspirina, che le blocca in modo irreversibile, dura giorni. E tutti si formano nel midollo osseo, con l'emopoiesi."),
 
@@ -56,7 +56,7 @@ BLOCCHI = [
  (12,"chiaro",0,"La cute ha tre strati: epidermide, derma, ipoderma. Funzioni: barriera, termoregolazione, sensibilita', vitamina D. Nell'anziano e' piu' sottile, meno elastica, guarisce piu' lentamente: le basi del modulo sette."),
 
  (13,"chiaro",0,"[curious] Il caso d'esame. Paziente con febbre a trentanove gradi: prima tremava e chiedeva coperte, ora e' sudato. Che cosa fai, in ciascuna fase?"),
- (13,"chiaro",0,"Nella fase di salita, con i brividi, lo copri. E se prescritto prepari le emocolture, che si prelevano preferibilmente durante il brivido o il picco della febbre."),
+ (13,"chiaro",0,"Nella fase di salita, con i brividi, lo copri. E se prescritto prepari le emocolture, che si prelevano all'insorgenza del brivido o al rialzo febbrile, e prima dell'antibiotico."),
  (13,"chiaro",0,"Nella defervescenza lo scopri gradualmente, cambi la biancheria, lo idrati, e sorvegli la pressione, perche' la vasodilatazione puo' causare ipotensione. Antipiretico secondo prescrizione, e valutazione della causa."),
 
  (14,"chiaro",0,"Il collegamento con l'assistenza. La trasfusione e la compatibilita'. INR, aPTT e anticoagulanti. La profilassi anti-D. Le barriere e le infezioni. Le vaccinazioni degli operatori. La febbre. Le cadute e l'osteoporosi."),

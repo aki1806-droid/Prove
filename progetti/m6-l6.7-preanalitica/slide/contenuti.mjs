@@ -89,9 +89,9 @@ export const SCENE = [
 {id:"s33", tipo:"frase", tema:"chiaro", sopratitolo:"Alcuni valori di riferimento · con un'avvertenza",
   testo:"I valori esatti **dipendono dal laboratorio**: nella pratica si usano quelli scritti **sul referto**."},
 {id:"s34", tipo:"colonne", tema:"chiaro", sopratitolo:"L'emocromo", colonne:[
-  {h:"Emoglobina", key:true, voci:[{t:"Uomo **13–17** g/dl", key:true}, {t:"Donna **12–15** g/dl"}]},
+  {h:"Emoglobina", key:true, voci:[{t:"Uomo **13–17** g/dl", key:true}, {t:"Donna **12–16** g/dl"}]},
   {h:"Globuli bianchi", voci:[{t:"**4.000–10.000** per mm³"}]},
-  {h:"Piastrine", voci:[{t:"**150.000–400.000**"}]}]},
+  {h:"Piastrine", voci:[{t:"**150.000–450.000**"}]}]},
 
 {id:"s35", tipo:"fascia", tema:"chiaro", sopratitolo:"La chimica · la glicemia a digiuno, in mg/dl", min:50, max:160, classi:[
   {da:50, a:70, t:"bassa"}, {da:70, a:100, t:"Normale", d:"70–99", key:true}, {da:100, a:126, t:"Alterata", d:"100–125"}, {da:126, a:160, t:"Diabete", d:"da 126, se confermata"}]},
