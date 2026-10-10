@@ -1,0 +1,71 @@
+/* Palette del copione: verde #00863E, verde scuro #00532A, arancio #F39200
+   (cifre chiave, CTA), rosso #C8102E (solo allarmi), bianco, antracite. */
+@font-face { font-family: M; font-weight: 600; src: url(FONT/montserrat-latin-600-normal.woff2); }
+@font-face { font-family: M; font-weight: 700; src: url(FONT/montserrat-latin-700-normal.woff2); }
+@font-face { font-family: M; font-weight: 800; src: url(FONT/montserrat-latin-800-normal.woff2); }
+@font-face { font-family: M; font-weight: 900; src: url(FONT/montserrat-latin-900-normal.woff2); }
+
+:root { --verde: #00863E; --scuro: #00532A; --arancio: #F39200; --rosso: #C8102E; --antracite: #2B2B2B; }
+* { margin: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+body { font-family: M, sans-serif; color: #fff; position: relative; }
+
+.grafica .fondo {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 85% 12%, rgba(255,255,255,.10) 0 220px, transparent 221px),
+    radial-gradient(circle at 10% 95%, rgba(255,255,255,.06) 0 300px, transparent 301px),
+    linear-gradient(160deg, var(--verde) 0%, var(--scuro) 70%);
+}
+.clip .fondo { display: none; }
+
+.logo { position: absolute; left: 44px; top: 52px; background: #fff; border-radius: 22px;
+        padding: 14px 22px; box-shadow: 0 6px 24px rgba(0,0,0,.25); }
+.logo img { display: block; height: 96px; }
+
+.col { position: absolute; left: 64px; right: 64px; top: 250px; display: flex;
+       flex-direction: column; align-items: flex-start; gap: 34px; }
+.el { position: relative; transform-origin: left center; opacity: 0; }
+
+.kicker { font-weight: 900; font-size: 118px; line-height: 1.0; letter-spacing: -2px; }
+.kicker.medio { font-size: 92px; }
+.titolo { font-weight: 800; font-size: 80px; line-height: 1.08; }
+.chip { display: inline-block; font-weight: 600; font-size: 38px; padding: 16px 26px;
+        border: 3px solid rgba(255,255,255,.7); border-radius: 60px; }
+.badge { display: inline-block; font-weight: 800; font-size: 50px; padding: 22px 34px;
+         border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+.badge.rosso { background: var(--rosso); }
+.arancio { color: var(--arancio); }
+.rosso-t { white-space: nowrap; color: #fff; background: var(--rosso); padding: 2px 12px; border-radius: 8px; font-weight: 900; }
+.grande { font-weight: 900; font-size: 1.35em; }
+.riga { font-weight: 800; font-size: 64px; }
+.nota { font-weight: 600; font-size: 50px; }
+.nota b { font-weight: 800; color: var(--arancio); }
+
+.scheda { background: rgba(255,255,255,.96); color: var(--antracite); font-weight: 600;
+          font-size: 44px; line-height: 1.25; padding: 30px 36px; border-radius: 26px;
+          border-left: 14px solid var(--arancio); box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+.scheda b { font-weight: 800; color: var(--scuro); }
+.etichetta { font-weight: 900; font-size: 34px; color: var(--verde); text-transform: uppercase;
+             letter-spacing: 2px; margin-bottom: 8px; }
+.box-arancio { display: inline-block; background: var(--arancio); color: #fff; font-weight: 900;
+               font-size: 54px; line-height: 1.15; padding: 28px 36px; border-radius: 22px;
+               box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+
+.torta-box { display: flex; align-items: center; gap: 40px; }
+.torta { width: 400px; height: 400px; flex: none; }
+.torta-testo { display: flex; flex-direction: column; }
+.cifra { font-weight: 900; font-size: 150px; line-height: 1; }
+.sotto { font-weight: 700; font-size: 40px; line-height: 1.2; }
+
+/* banda verde scuro semitrasparente, per le scene CLIP */
+.banda { display: inline-block; background: rgba(0,83,42,.88); font-weight: 700; font-size: 52px;
+         line-height: 1.2; padding: 20px 30px; border-radius: 18px;
+         box-shadow: 0 8px 26px rgba(0,0,0,.35); }
+.banda .bt { font-weight: 900; font-size: 72px; line-height: 1.05; }
+.banda.spunta { font-weight: 800; font-size: 60px; }
+.banda.testo { font-size: 50px; max-width: 900px; }
+.banda.voce { max-width: 900px; font-size: 50px; font-weight: 800; border-left: 12px solid var(--arancio); }
+.cta { display: inline-block; background: var(--arancio); font-weight: 900; font-size: 58px;
+       line-height: 1.15; padding: 26px 34px; border-radius: 22px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+.cta span { font-weight: 700; font-size: 38px; }

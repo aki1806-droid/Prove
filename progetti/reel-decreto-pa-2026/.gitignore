@@ -1,0 +1,7 @@
+# file pesanti e rigenerabili: restano in locale
+node_modules/
+slide/out/
+montaggio/
+clip/*.mp4
+avatar/*.mp4
+*.mp4
