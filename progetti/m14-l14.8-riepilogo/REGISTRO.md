@@ -66,13 +66,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `4d49e3b504ed0c68bc3fb91b6dd730f6` — 523.301 s (8:43.3), 1080p 16:9, resa in 58 s, con SRT (`subtitle_url`) |
+| lotto asset | `d128824ec3fe4fb2a6078f5b0860c403` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «senoatriale» (s10, trascritto «seno atriale»); «atrioventricolare» (s10, trascritto «atrio ventricolare»); «ee» (s11, trascritto «e»); «b 12» (s18, trascritto «b12»); «b 12» (s18, trascritto «b12»); «centottanta» (s20, trascritto «180»); «ee» (s22, trascritto «e»); «ee» (s25, trascritto «e»); «l» (s42, trascritto «la»); «e» (s49, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

@@ -7,9 +7,13 @@ endocrino, sangue, immunità e infiammazione, la semeiotica infermieristica
 con gli esami (14.7), e il riepilogo (14.8). Ogni valore clinico viene dallo
 script del committente.
 
-Stato: copioni e scene pronti; la voce GianP si genera a copione
-fermo, lezione per lezione, e la tabella qui sotto si riempie man mano che
-le rese escono.
+Stato: **completo** il 10 ottobre 2026. Otto rese fra 8:39 e 8:46, tutte
+con voce GianP e giro 8/8 prima del caricamento. Nella 14.4 il giro dava 7/8
+per una resa del trascrittore («p450» per «P450», detto «p 450»), sistemata
+in `RESE`. Nella 14.5 `s40` usciva a 21,1 car/s con il confine giusto, a metà
+della pausa: si è abbassata la mira della lezione a 16,4 (montato 8:40.4).
+Fra la 14.5 e la 14.8 il container si è riavviato. Le code si sono rilanciate
+sui file già scritti e non si è perso niente.
 
 | | lezione | durata | resa |
 |---|---|---|---|
@@ -20,7 +24,7 @@ le rese escono.
 | 14.5 | Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | 14.6 | Sangue, immunità e infiammazione | 8:44.2 | `e0e1e7d71eb9d1e2365f4a8866c486e7` |
 | 14.7 | Semeiotica infermieristica ed esami | 8:45.3 | `f72674ee1166c9f56945075ab62cd11e` |
-| 14.8 | Riepilogo del Modulo 14 e autovalutazione | — |  |
+| 14.8 | Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_14.md`;
 ogni lezione tiene la propria parte in `origine/script-14.N.md`. Il tema

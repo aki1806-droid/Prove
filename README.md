@@ -131,6 +131,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.5-nervoso` | Modulo 14 · 14.5 Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:44.2 | `e0e1e7d71eb9d1e2365f4a8866c486e7` |
 | `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:45.3 | `f72674ee1166c9f56945075ab62cd11e` |
+| `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
@@ -141,7 +142,7 @@ lezioni in un giro solo di voce GianP, con le rese nella tabella qui sopra e
 lo stato lezione per lezione nelle schede di modulo (`progetti/MODULO-N.md`).
 
 Il modulo 9 è pubblicato per intero il 4 ottobre 2026; il 10 e l'11 il
-6 ottobre; il 12 e il 13 il 9 ottobre. Il modulo 14 è in lavorazione.
+6 ottobre; il 12 e il 13 il 9 ottobre; il 14 il 10 ottobre.
 
 La voce del corso è GianP da ElevenLabs, tagliata in blocchi
 (`monta-scene.py`). Esiste una seconda via, il parlato sintetizzato dallo
