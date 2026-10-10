@@ -33,25 +33,20 @@
   ]
  },
  "B": {
-  "parole_copione": 644,
-  "parole_dette": 650,
+  "parole_copione": 643,
+  "parole_dette": 645,
   "coincidenti": 637,
   "buchi": [],
   "sostituzioni_brevi": [
    {
-    "blocco": "s25",
-    "copione": "contaminata",
-    "detto": "contaminato"
-   },
-   {
     "blocco": "s34",
     "copione": "4000 10000",
-    "detto": "da 4 000 a 10 000"
+    "detto": "4 000 10 000"
    },
    {
     "blocco": "s34",
-    "copione": "150000 400000",
-    "detto": "da 150 000 a 400 000"
+    "copione": "150000 450000",
+    "detto": "150 000 450 000"
    }
   ]
  }

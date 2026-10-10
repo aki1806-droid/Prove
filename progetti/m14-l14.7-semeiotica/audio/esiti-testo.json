@@ -1,8 +1,8 @@
 {
  "A": {
-  "parole_copione": 654,
-  "parole_dette": 656,
-  "coincidenti": 647,
+  "parole_copione": 657,
+  "parole_dette": 657,
+  "coincidenti": 651,
   "buchi": [],
   "sostituzioni_brevi": [
    {
@@ -21,24 +21,19 @@
     "detto": "e"
    },
    {
-    "blocco": "s23",
-    "copione": "emogas",
-    "detto": "emo gas"
-   },
-   {
     "blocco": "s26",
     "copione": "e",
     "detto": "ee"
    },
    {
     "blocco": "s26",
-    "copione": "emogas",
-    "detto": "emo gas"
+    "copione": "paco2",
+    "detto": "pco2"
    },
    {
     "blocco": "s26",
-    "copione": "paco2",
-    "detto": "pco2"
+    "copione": "pao2",
+    "detto": "po2"
    }
   ]
  },

@@ -64,6 +64,21 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ---
 
+## Correzione del 10 ottobre 2026
+
+Lo script del committente nomina lo **sfregamento pleurico** senza dire che
+cosa indica: unico reperto della tabella senza significato. Aggiunto, come
+per gli altri: «Lo sfregamento pleurico: la pleura infiammata» (s10), e
+sulla slide «pleura infiammata (pleurite)».
+
+Rigenerata **solo la traccia A** (s02-s26), con l'atempo della resa
+pubblicata (1,080), così i blocchi nuovi hanno lo stesso passo di quelli
+della traccia B, rimasti com'erano (`metodo/strumenti/ritaglia-traccia.py`).
+Verifica per trascrizione: A 651/657, B 628/633, nessun buco; la frase
+nuova è detta per intero. Caricati solo i 25 blocchi di A e la clip s10:
+il resto della resa riusa gli asset già sul servizio. Giro 8/8, montato
+locale 8:51.8.
+
 ## La resa
 
 | | |

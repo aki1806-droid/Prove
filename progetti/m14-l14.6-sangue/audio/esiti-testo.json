@@ -1,8 +1,8 @@
 {
  "A": {
-  "parole_copione": 627,
-  "parole_dette": 624,
-  "coincidenti": 615,
+  "parole_copione": 635,
+  "parole_dette": 631,
+  "coincidenti": 621,
   "buchi": [],
   "sostituzioni_brevi": [
    {
@@ -11,14 +11,14 @@
     "detto": "come"
    },
    {
-    "blocco": "s07",
-    "copione": "ee",
-    "detto": "e"
-   },
-   {
     "blocco": "s08",
     "copione": "ab",
     "detto": "a b"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
    },
    {
     "blocco": "s14",
@@ -41,6 +41,11 @@
     "detto": "ee"
    },
    {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
     "blocco": "s23",
     "copione": "e",
     "detto": "ee"
@@ -48,9 +53,9 @@
   ]
  },
  "B": {
-  "parole_copione": 714,
-  "parole_dette": 711,
-  "coincidenti": 701,
+  "parole_copione": 717,
+  "parole_dette": 713,
+  "coincidenti": 702,
   "buchi": [],
   "sostituzioni_brevi": [
    {
@@ -67,6 +72,11 @@
     "blocco": "s27",
     "copione": "ee",
     "detto": "e"
+   },
+   {
+    "blocco": "s27",
+    "copione": "dai",
+    "detto": "dei"
    },
    {
     "blocco": "s30",
