@@ -178,7 +178,15 @@ soltanto a occhio:
   dire «pesa», non «vince»;
 - **i parametri delle figure non passano da un renderer HTML**: `centro` del
   `raggi` e `da` del `bivio` stampano `<br>` alla lettera (4.1, `c13` e
-  `c33`). Prendono testo semplice, e vanno a capo da soli.
+  `c33`). Prendono testo semplice, e vanno a capo da soli;
+- **le etichette dentro una figura hanno una larghezza fissa.** Nell'`imbuto`
+  sforano la casella, nel `flusso` escono dal riquadro e le frecce ci passano
+  sopra. Stanno in due parole, e quello che non ci sta va nel `sub` (4.3,
+  `c09` e `c34`);
+- **nel corsivo di `memo` e `quote` la sequenza `'è` si accavalla.**
+  L'apostrofo e l'accento grave finiscono uno sull'altro e «cos'è» si legge
+  «cos'e» con uno sgorbio sopra (4.3, `c24`). Nel tondo è solo stretta, e si
+  legge. Nel corsivo si scrive per esteso: «come è», «che cosa è».
 
 ## 7-ter. Il montato si rilegge prima di dirlo finito
 
@@ -341,6 +349,7 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 3.5 | Lo sguardo che mandi tu | 10:04 | `586431bd2f9519ae6515c01548cc3c66` |
 | 4.1 | Le distanze | 9:58 | `7c7f0dab16af639ca6b74f809b31d4c7` |
 | 4.2 | L'orientamento: dove puntano i piedi | 9:58 | `8a1910badeaab1b88881337b633208c4` |
+| 4.3 | Postura, senza luoghi comuni | 9:58 | `2539717ed77fcdfaf35001c760098184` |
 
 **Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
 settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
@@ -349,8 +358,8 @@ riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
 dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
 `LNV_M3_SCRIPT-HEYGEN.md`.
 
-**Il modulo 4 è in lavorazione**: la 4.1 e la 4.2 sono montate, restano la
-4.3, la 4.4 e la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
+**Il modulo 4 è in lavorazione**: la 4.1, la 4.2 e la 4.3 sono montate,
+restano la 4.4 e la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
 quello del modulo 7. Il registro di modulo si scrive quando le cinque lezioni
 sono chiuse.
 
@@ -359,8 +368,11 @@ registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
 duecentoventicinque i suoi tagli cadono dentro un silenzio. Nel modulo 4 la
-4.1 chiude con un confine fuori banda e la 4.2 con zero, e in entrambe tutti
-i tagli cadono dentro un silenzio. Quando la
+4.1 chiude con un confine fuori banda, la 4.2 con zero e la 4.3 con due, e in
+tutte e tre i tagli cadono dentro un silenzio. I due della 4.3 sono gli unici
+del corso di cui si può dimostrare che NON sono confini sbagliati:
+`griglia.py` ha provato tutte le pause della finestra e nessuna migliora la
+coppia, e la somma dei blocchi coinvolti è in pari. Quando la
 trascrizione torna, i confini segnalati nei registri vanno risentiti uno per
 uno con `tagli.py correggi`.
 

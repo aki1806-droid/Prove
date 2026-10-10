@@ -1,0 +1,424 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.3",
+"title": "Postura",
+"sub": "Senza luoghi comuni"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "la coppia che conoscono tutti",
+"title": "Braccia incrociate: chiuso, quindi difensivo.<br><span class=\"gold\">Busto in avanti: aperto, quindi disponibile.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "già vista nel modulo 1, come esempio di dizionario",
+"title": "Un gesto a sinistra, un significato a destra.<br><span class=\"gold\">Come se fosse una traduzione.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Il problema non è che sia falsa.<br><span class=\"gold\">Se fosse falsa sarebbe facile.</span>"
+},
+{
+"file": "c05",
+"layout": "memo",
+"title": "È troppo grossolana<br>per decidere qualcosa."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "cosa dice una postura, in ordine di probabilità",
+"title": "Dice delle cose,<br><span class=\"gold\">e la sorpresa sta in fondo alla lista.</span>"
+},
+{
+"file": "c07",
+"layout": "barre",
+"kicker": "le cause di una postura, per quanto pesano",
+"barre": [
+{
+"et": "La sedia",
+"v": 100,
+"val": ""
+},
+{
+"et": "La stanza",
+"v": 82,
+"val": ""
+},
+{
+"et": "La stanchezza",
+"v": 64,
+"val": ""
+},
+{
+"et": "La schiena",
+"v": 46,
+"val": ""
+},
+{
+"et": "Il suo stato rispetto a te",
+"v": 9,
+"val": ""
+}
+],
+"acceso": 4,
+"title": "L'ultima è quella che tutti leggono per prima."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "cosa dice una postura, in ordine",
+"rows": [
+"Quanto è comoda la sedia",
+"Che temperatura c'è nella stanza",
+"Quanto è stanca quella persona",
+"Come sta di schiena, che abitudini ha",
+"…e molto dopo, qualcosa su di te"
+],
+"plain": true,
+"note": "Le prime tre sono sempre quelle, in qualunque stanza."
+},
+{
+"file": "c09",
+"layout": "imbuto",
+"kicker": "perché dalla postura non si torna indietro",
+"dentro": [
+"La sedia",
+"La stanza",
+"La stanchezza",
+"Lo stato d'animo"
+],
+"fuori": "Una postura",
+"title": "Per arrivare in fondo vanno escluse tutte le altre."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "un punto banale che smonta metà delle letture",
+"title": "Banale non vuol dire ovvio.<br><span class=\"gold\">Vuol dire che prima non lo nota nessuno.</span>"
+},
+{
+"file": "c11",
+"layout": "swap",
+"kicker": "l'arredo detta la postura più dell'emozione",
+"rows": [
+[
+"Sedia senza braccioli",
+"Braccia incrociate"
+],
+[
+"Poltrona bassa",
+"Busto reclinato"
+],
+[
+"Tavolo troppo alto",
+"Spalle sollevate"
+]
+],
+"note": "In chiunque, senza nessuna eccezione e senza nessuna emozione."
+},
+{
+"file": "c12",
+"layout": "quote",
+"title": "Avresti letto il termostato<br>e lo avresti chiamato<br>atteggiamento."
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la sottrazione da fare prima di ogni lettura",
+"title": "Togli quello che è informazione sulla stanza.<br><span class=\"gold\">E quasi sempre non resta niente.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "la terza volta che succede in questo corso",
+"title": "Non la postura.<br><span class=\"gold\">Il cambio di postura.</span>"
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "che cosa conta come cambio di postura",
+"plain": true,
+"rows": [
+"Si risistema sulla sedia",
+"Accavalla o scavalca le gambe",
+"Si sposta in avanti o indietro",
+"Cambia appoggio, o si raddrizza"
+],
+"note": "Movimenti ampi e visibili, e nessuno li decide."
+},
+{
+"file": "c17",
+"layout": "memo",
+"title": "Nessuno decide<br>di risistemarsi sulla sedia.<br>Ci si risistema."
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Non sono parole: sono punti e virgole.<br><span class=\"gold\">Segnano i confini, non il contenuto.</span>"
+},
+{
+"file": "c19",
+"layout": "linea",
+"kicker": "dove compaiono i cambi di postura",
+"ciclo": 7,
+"momenti": [
+{
+"a": 12,
+"et": "Cambio argomento",
+"sub": "fra un punto e l'altro"
+},
+{
+"a": 42,
+"et": "Prima di un intervento",
+"sub": "chi sta per parlare"
+},
+{
+"a": 68,
+"et": "Dopo una decisione",
+"sub": "il punto è chiuso"
+},
+{
+"a": 92,
+"et": "Sta per finire",
+"sub": "prima che lo dica qualcuno"
+}
+],
+"sx": "inizio riunione",
+"dx": "fine",
+"title": "Compaiono ai confini, non in mezzo."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "due dei più concreti di tutto il corso",
+"title": "Non chiedono di guardare meglio.<br><span class=\"gold\">Chiedono di guardare un'altra cosa.</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "i due usi",
+"rows": [
+"Collettivo — l'argomento è chiuso",
+"Individuale — la tua frase ha fatto qualcosa"
+],
+"active": 0,
+"note": "Tre o quattro persone che si risistemano quasi insieme."
+},
+{
+"file": "c22",
+"layout": "bivio",
+"kicker": "se te ne accorgi, decidi tu",
+"da": "L'argomento è chiuso",
+"rami": [
+{
+"et": "Chiudere anche tu",
+"sub": "e passare oltre"
+},
+{
+"et": "Dirlo ad alta voce",
+"sub": "manca ancora qualcosa"
+}
+],
+"title": "In tutti e due i casi decidi tu, non dopo."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "i due usi",
+"rows": [
+"Collettivo — l'argomento è chiuso",
+"Individuale — la tua frase ha fatto qualcosa"
+],
+"active": 1,
+"note": "Non dice che cosa: dice che ha avuto un effetto. L'informazione sta nella frase."
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "La postura dice come è la sedia.<br>Il cambio di postura dice<br>che cosa è appena successo."
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "E c'è un secondo fenomeno che regge.<br><span class=\"gold\">Con qualche cautela.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "osservabile e documentato",
+"title": "Chi conversa assume posture simili<br><span class=\"gold\">e si muove in modo coordinato.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Ed è più marcato quando il rapporto è buono.<br><span class=\"gold\">È il pezzo su cui si è costruito il marketing.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "la prima cautela",
+"title": "La sincronia accompagna l'intesa.<br><span class=\"gold\">Che la produca è un'altra affermazione.</span>"
+},
+{
+"file": "c30",
+"layout": "ponte",
+"kicker": "in che direzione va la freccia",
+"sx": "La sincronia",
+"dx": "L'intesa",
+"vuoto": "quale tira quale?",
+"ponte": "Non lo sappiamo",
+"title": "Due cose che vanno insieme non dicono l'ordine."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "la seconda cautela",
+"title": "Imitata a comando non funziona<br><span class=\"gold\">come quella spontanea.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "insegnato in moltissimi corsi di vendita",
+"title": "Lui accavalla le gambe, tu accavalli le gambe.<br><span class=\"gold\">Con qualche secondo di ritardo.</span>"
+},
+{
+"file": "c33",
+"layout": "memo",
+"title": "Viene notata<br>molto più spesso<br>di quanto creda chi la usa."
+},
+{
+"file": "c34",
+"layout": "flusso",
+"kicker": "cosa succede quando viene notata",
+"passi": [
+{
+"et": "La imiti",
+"sub": "con un po' di ritardo"
+},
+{
+"et": "Se ne accorge",
+"sub": "basta una volta"
+},
+{
+"et": "La riconosce",
+"sub": "come tecnica, non maleducazione"
+},
+{
+"et": "Rilegge tutto",
+"sub": "anche quello che era sincero"
+}
+],
+"title": "L'ultimo passo è quello che costa davvero."
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "quello che si può fare è l'inverso",
+"title": "Usare la sincronia come indicatore.<br><span class=\"gold\">Non come strumento.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Si muovono in modo coordinato.<br><span class=\"gold\">Hanno probabilmente una posizione comune.</span>"
+},
+{
+"file": "c37",
+"layout": "quote",
+"title": "È la differenza fra leggere una stanza<br>e lavorarci dentro."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "l'unica parte in cui conviene fare, non guardare",
+"title": "E la tua, di postura.<br><span class=\"gold\">Che non riguarda l'effetto che fai sugli altri.</span>"
+},
+{
+"file": "c39",
+"layout": "memo",
+"title": "La postura cambia<br>come stai,<br>non come appari."
+},
+{
+"file": "c40",
+"layout": "pila",
+"kicker": "perché conviene starci attenti",
+"blocchi": [
+"La voce",
+"Il respiro",
+"La postura"
+],
+"acceso": 2,
+"title": "Sotto c'è il torace, e ha bisogno di spazio."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Vale la pena curare la postura per una ragione pratica:<br><span class=\"gold\">ti fa parlare meglio. Non perché comunichi sicurezza.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "un limite da rispettare",
+"title": "È il passaggio più importante della lezione.<br><span class=\"gold\">E viene per ultimo, non per ultimo posto.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "cause fisiche di una postura",
+"rows": [
+"Dolore cronico",
+"Esiti di interventi",
+"Problemi articolari",
+"Stanchezza di fine turno",
+"Gravidanza"
+],
+"plain": true,
+"note": "Non si vedono. La postura si vede benissimo."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "È l'unica postura che quella persona sopporta.<br><span class=\"gold\">Leggerla come chiusura fa danni reali.</span>"
+},
+{
+"file": "c45",
+"layout": "memo",
+"title": "Una postura scomoda<br>è un motivo per chiedere come va.<br>Non per decidere."
+},
+{
+"file": "c46",
+"layout": "quote",
+"title": "La postura è informazione<br>sulla stanza e sul corpo<br>prima che sullo stato d'animo."
+},
+{
+"file": "c47",
+"layout": "statement",
+"title": "La prova di oggi si fa in riunione.<br><span class=\"gold\">E non richiede di guardare nessuno in faccia.</span>"
+},
+{
+"file": "c48",
+"layout": "statement",
+"kicker": "la prova di oggi",
+"title": "Tre o quattro che si risistemano insieme.<br><span class=\"gold\">Non guardare le persone: guarda il momento.</span>"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "scoprirai due cose",
+"rows": [
+"Arriva sempre a un confine",
+"Quasi nessuno lo nota — nemmeno chi lo sta facendo"
+],
+"note": "È la cosa più visibile di tutto il corso, ed è invisibile a tutti."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]
