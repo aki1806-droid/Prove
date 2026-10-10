@@ -1,0 +1,441 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.2",
+"title": "L'orientamento",
+"sub": "Dove puntano i piedi"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "l'affermazione più diffusa di tutte",
+"title": "I piedi puntano dove la persona vorrebbe andare.<br><span class=\"gold\">Girati verso la porta, vuole andarsene.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "I piedi sarebbero la parte a cui pensiamo di meno.<br><span class=\"gold\">E quindi la più sincera.</span>"
+},
+{
+"file": "c04",
+"layout": "memo",
+"title": "Meno controllo<br>non vuol dire<br>più informazione."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il punto che chiude la questione",
+"title": "Non ha dato risultati deboli.<br><span class=\"gold\">Non è mai stata verificata.</span>"
+},
+{
+"file": "c06",
+"layout": "swap",
+"kicker": "due credenze, e non si somigliano",
+"rows": [
+[
+"Il 7-38-55",
+"Due esperimenti veri, citati male"
+],
+[
+"I piedi",
+"Nessuno studio a cui rimandare"
+]
+],
+"note": "Ogni ripetizione la fa sembrare più vera. È l'unica cosa che la sostiene."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "tre ragioni per cui non regge",
+"rows": [
+"La causa non si vede",
+"L'involontarietà non implica leggibilità",
+"Funziona a posteriori"
+],
+"note": "Tutte e tre già incontrate: non serve niente di nuovo per smontarla."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "tre ragioni per cui non regge",
+"rows": [
+"La causa non si vede",
+"L'involontarietà non implica leggibilità",
+"Funziona a posteriori"
+],
+"active": 0,
+"note": "Cinque cause vengono in mente in dieci secondi."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "perché si girano i piedi",
+"plain": true,
+"rows": [
+"La posizione della borsa",
+"Una gamba che si addormenta",
+"Il peso spostato da un lato",
+"Lo spazio disponibile",
+"Qualcuno che sta passando"
+],
+"note": "Nessuna delle cinque ha a che fare con il voler andare via."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "tre ragioni per cui non regge",
+"rows": [
+"La causa non si vede",
+"L'involontarietà non implica leggibilità",
+"Funziona a posteriori"
+],
+"active": 1,
+"note": "È la regola della 3.4: leggibile è ciò che ha poche cause, e distinguibili."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "tre ragioni per cui non regge",
+"rows": [
+"La causa non si vede",
+"L'involontarietà non implica leggibilità",
+"Funziona a posteriori"
+],
+"active": 2,
+"note": "Ti ricordi i piedi girati quando la conversazione è finita in fretta. Le altre volte no."
+},
+{
+"file": "c13",
+"layout": "raggi",
+"kicker": "quando più persone conversano in piedi",
+"centro": "Lo spazio comune",
+"attorno": [
+{
+"et": "Il busto",
+"d": 45
+},
+{
+"et": "I piedi",
+"d": 70
+},
+{
+"et": "Lo sguardo",
+"d": 35
+},
+{
+"et": "Le spalle",
+"d": 60
+}
+],
+"title": "Nessuno lo decide e nessuno lo propone."
+},
+{
+"file": "c14",
+"layout": "anello",
+"kicker": "perché è una formazione e non una disposizione",
+"ciclo": 7,
+"passi": [
+"Qualcuno si sposta",
+"Gli altri lo notano",
+"Si riorientano",
+"La formazione tiene"
+],
+"title": "Si mantiene da sola, e nessuno l'ha firmata."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "adam kendon, anni settanta",
+"title": "Qui la fonte c'è.<br><span class=\"gold\">E si dice con il nome e con l'anno.</span>"
+},
+{
+"file": "c16",
+"layout": "confronto",
+"occhio": "le due metà di questa lezione",
+"titoli": [
+"L'affermazione sui piedi",
+"La formazione"
+],
+"righe": [
+{
+"et": "Da dove viene",
+"a": "Ripetuta nei manuali",
+"b": "Osservata e descritta",
+"segna": true
+},
+{
+"et": "Verifiche",
+"a": "Nessuna",
+"b": "Sessant'anni di osservazioni",
+"segna": true
+},
+{
+"et": "Come si usa",
+"a": "Si deduce",
+"b": "Si guarda",
+"segna": true
+}
+]
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "il momento in cui succede qualcosa",
+"title": "Arriva una persona in più.<br><span class=\"gold\">E il gruppo deve decidere, senza parlare.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "I corpi ruotano e lo spazio comune si allarga:<br><span class=\"gold\">è dentro. E nessuno gliel'ha detto.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "I busti restano dov'erano:<br><span class=\"gold\">resta fuori. E neanche questo è stato detto.</span>"
+},
+{
+"file": "c20",
+"layout": "bivio",
+"kicker": "quando arriva qualcuno",
+"da": "Arriva una persona",
+"rami": [
+{
+"et": "Il gruppo si riorienta",
+"sub": "è inclusa"
+},
+{
+"et": "Il gruppo resta com'era",
+"sub": "resta al margine"
+}
+],
+"title": "Due secondi, e lo vede chiunque stia guardando."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "perché è diverso da tutto il resto del corso",
+"title": "Non stai deducendo cosa pensa qualcuno.<br><span class=\"gold\">Stai guardando cosa ha fatto un gruppo.</span>"
+},
+{
+"file": "c22",
+"layout": "quote",
+"title": "Un comportamento che si vede<br>vale più di uno stato interno<br>che si immagina."
+},
+{
+"file": "c23",
+"layout": "memo",
+"title": "Non conta dove sono i piedi.<br>Conta se il gruppo<br>si è riorientato."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "dove succede, tutti i giorni",
+"title": "Pause caffè, corridoi, i minuti prima di una riunione.<br><span class=\"gold\">Nessuno li organizza e nessuno li ricorda.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "E ogni volta qualcuno resta appena fuori dal cerchio.<br><span class=\"gold\">Non escluso: non incluso.</span>"
+},
+{
+"file": "c27",
+"layout": "swap",
+"kicker": "la stessa cosa, dalle due parti",
+"rows": [
+[
+"Per chi la riceve",
+"Enorme"
+],
+[
+"Per chi la produce",
+"Invisibile"
+]
+],
+"note": "Nessuno ha deciso di lasciare fuori nessuno: è solo che nessuno ha ruotato il busto."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "lo strumento che costa meno di tutto il corso",
+"title": "Non costa tempo e non costa preparazione.<br><span class=\"gold\">E non si vede che lo stai facendo.</span>"
+},
+{
+"file": "c29",
+"layout": "flusso",
+"kicker": "la mossa, per intero",
+"passi": [
+{
+"et": "Non dire niente",
+"sub": "non serve presentare nessuno"
+},
+{
+"et": "Ruotare il busto",
+"sub": "leggermente, verso chi è fuori"
+},
+{
+"et": "Entro il primo minuto",
+"sub": "non serve farlo subito"
+}
+],
+"title": "Tre secondi, e nessuno se ne accorge."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "E il gruppo segue quasi sempre, in pochi secondi.<br><span class=\"gold\">Stai usando il fenomeno, non stai convincendo nessuno.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "è la mossa della 3.3, spostata dagli occhi al corpo",
+"title": "Guardare chi non viene mai guardato.<br><span class=\"gold\">Qui: girarsi verso chi è rimasto fuori.</span>"
+},
+{
+"file": "c32",
+"layout": "memo",
+"title": "Il gruppo se ne accorge<br>prima di chi l'ha fatto<br>e di chi ne beneficia."
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "e arriva prima della sedia",
+"title": "Il busto frontale ingaggia più del busto di lato.<br><span class=\"gold\">E si gira in mezzo secondo.</span>"
+},
+{
+"file": "c35",
+"layout": "swap",
+"kicker": "quello che mandi e quello che arriva con esso",
+"rows": [
+[
+"Ingaggio",
+"Pressione"
+],
+[
+"Ti sto ascoltando",
+"Non ti lascio spazio"
+]
+],
+"note": "Chi riceve il frontale non distingue le due cose: ne riceve una sola."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "la regola di ritmo, come quella dello sguardo",
+"title": "Non una posizione da tenere per tutta la conversazione.<br><span class=\"gold\">Un'alternanza da lasciar succedere.</span>"
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "l'alternanza, in due righe",
+"plain": true,
+"rows": [
+"Frontale quando ascolti qualcosa che conta",
+"Di lato quando l'argomento è faticoso per l'altro"
+],
+"note": "La pressione non aiuta: toglie spazio proprio dove ne serve."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "lo stesso principio della 3.5",
+"title": "Si guarda di più ascoltando e meno parlando.<br><span class=\"gold\">Qui ci si gira di più ascoltando.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Stabilmente di lato non viene letto come rifiuto.<br><span class=\"gold\">Viene letto come metà presenza.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "e si fa senza accorgersene",
+"title": "Mezzi orientati verso l'uscita.<br><span class=\"gold\">O verso lo schermo, che è la stessa cosa da scrivania.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"title": "Non è un segnale<br>da leggere negli altri.<br>È una cosa da non fare tu."
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "quello che di questa lezione si usa",
+"title": "Tre voci,<br><span class=\"gold\">e la terza è vuota.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "quello che si usa",
+"rows": [
+"Nel gruppo — chi è dentro il cerchio e chi è fuori",
+"A due — il cambiamento di orientamento",
+"Dei piedi — niente"
+],
+"active": 0,
+"note": "È la parte più solida della lezione, ed è anche la più utile."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "quello che si usa",
+"rows": [
+"Nel gruppo — chi è dentro il cerchio e chi è fuori",
+"A due — il cambiamento di orientamento",
+"Dei piedi — niente"
+],
+"active": 1,
+"note": "Un busto che ruota via dice che è appena successo qualcosa: la frase di un attimo prima."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "quello che si usa",
+"rows": [
+"Nel gruppo — chi è dentro il cerchio e chi è fuori",
+"A due — il cambiamento di orientamento",
+"Dei piedi — niente"
+],
+"active": 2,
+"note": "L'unica voce di tutto il corso in cui la risposta è niente. Resta nell'elenco apposta."
+},
+{
+"file": "c46",
+"layout": "quote",
+"title": "Un comportamento collettivo osservabile<br>vale più di un'inferenza<br>su uno stato interno."
+},
+{
+"file": "c47",
+"layout": "statement",
+"title": "La prova di oggi ha due parti.<br><span class=\"gold\">E la seconda è quella che ti farà cambiare idea.</span>"
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi, prima parte",
+"plain": true,
+"rows": [
+"Alla prossima pausa o riunione informale",
+"Guarda chi sta appena oltre il bordo",
+"Dentro la conversazione, fuori dalla formazione"
+],
+"note": "Lo vedi in cinque secondi, appena sai che cosa stai cercando."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la seconda parte, facoltativa",
+"rows": [
+"Ruota leggermente il busto verso quella persona",
+"Guarda cosa fa il gruppo",
+"Conta i secondi"
+],
+"note": "E scoprirai un'altra cosa: che da quel momento quella persona comincia a parlare."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

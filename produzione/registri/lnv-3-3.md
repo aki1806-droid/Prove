@@ -84,12 +84,22 @@ difetti da correggere. È la prima volta nel corso.
 | `s29` | una sala riunioni vista dall'angolo, sedie attorno a un tavolo lungo, nessuno | apre la parte sul turno di parola: la stanza senza le persone, cioè la struttura |
 | `s36` | una sedia leggermente arretrata rispetto alle altre, nessuno in campo | apre la scena su chi non riceve sguardi, e la dice senza mostrarne nessuno |
 
-**Due delle tre le ho viste. La prima no**, e va detto: il connettore di
-generazione ha smesso di restituire l'anteprima dopo la prima coppia di
-immagini, e la policy di rete chiude il CDN da cui si scaricherebbe. **La
-ripresa di `s07` è stata montata senza che io l'abbia guardata.** Il prompt
-chiede volti non identificabili e nessun testo leggibile, ma il prompt non è
-una verifica. **Va guardata prima di pubblicare.**
+**Al momento del montaggio ne avevo viste due su tre.** Il connettore di
+generazione aveva smesso di restituire l'anteprima dopo la prima coppia di
+immagini, e la policy di rete chiudeva il CDN da cui si scaricherebbe: la
+`s07` è stata montata senza che l'avessi guardata.
+
+**Il 10 ottobre il CDN ha ripreso a rispondere e la `s07` è stata guardata.**
+Va bene: tavolo da riunione dall'alto, dieci persone sedute, nessun volto
+riconoscibile, nessun testo leggibile sui fogli, nessuna deformazione. È
+quello che il blocco chiede.
+
+**Una nota di composizione, non un difetto tecnico: le dieci persone attorno
+al tavolo sembrano tutte uomini.** Il prompt non diceva niente sulla
+composizione del gruppo e il generatore ha scelto da sé. In una lezione che
+parla di chi viene guardato e chi no, è una scelta che vale la pena fare
+apposta invece di subirla. Rigenerarla e rimontare costa poco — la decisione
+è editoriale, non tecnica.
 
 ## I tagli
 
@@ -116,7 +126,8 @@ esauriti, trascrizione di controllo impossibile.
 ## Da verificare
 
 Non sento l'audio e non vedo il montato. Ho guardato tutte e cinque le slide
-con un disegno e **due riprese su tre**: quella di `s07` non l'ho vista.
+con un disegno e **tutte e tre le riprese** (la `s07` dopo il montaggio,
+quando il CDN è tornato raggiungibile).
 **I quarantacinque tagli non sono verificati con la trascrizione**, e uno cade
 in un silenzio di 0,22 s.
 

@@ -120,16 +120,17 @@ Due, `s15` e `s34`.
 - **`s34`** — due persone in piedi in un corridoio lungo, riprese da
   lontano, volti non visibili. **Vista.**
 - **`s15`** — una carrozza della metropolitana affollata ripresa dall'alto.
-  **NON vista.** Tre generazioni successive non hanno restituito l'anteprima
-  in linea, e al momento del montaggio i tre host del CDN di Artlist erano
-  chiusi dalla policy di rete: il file non si poteva né vedere nell'anteprima
-  né scaricare. È stata montata segnalata, come la `s07` della 3.3, perché la
-  struttura VIDEOCLIP dello script non si cambia per un problema di rete.
-  **Va guardata prima di pubblicare.**
+  **Montata senza essere vista, e guardata subito dopo.** Tre generazioni
+  successive non avevano restituito l'anteprima in linea, e al momento del
+  montaggio i tre host del CDN di Artlist erano chiusi dalla policy di rete:
+  il file non si poteva né vedere nell'anteprima né scaricare. È stata
+  montata segnalata, come la `s07` della 3.3, perché la struttura VIDEOCLIP
+  dello script non si cambia per un problema di rete.
 
-  Il blocco successivo di lavoro ha scoperto che
-  `ai-toolkit-generations.imgix.net` risponde di nuovo: la `s15` si può
-  scaricare da lì e guardare senza rigenerarla.
+  Poche ore dopo il CDN ha ripreso a rispondere, l'immagine è stata scaricata
+  e guardata senza rigenerarla. **Va bene**: carrozza piena, volti girati o
+  coperti, nessuno riconoscibile, nessun marchio, nessuna deformazione. È
+  esattamente la distanza intima subita di cui parla il blocco.
 
 ## Il montato è stato verificato scena per scena
 

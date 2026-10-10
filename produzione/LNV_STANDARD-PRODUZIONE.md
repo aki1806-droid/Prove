@@ -175,7 +175,10 @@ soltanto a occhio:
   sopra il filetto (3.3 `c22`, 3.5 `c20` e `c33`);
 - **`confronto` accende la colonna di destra**, riga per riga con `segna`;
   **`bilancia` fa scendere il piatto più pesante**, quindi la didascalia deve
-  dire «pesa», non «vince».
+  dire «pesa», non «vince»;
+- **i parametri delle figure non passano da un renderer HTML**: `centro` del
+  `raggi` e `da` del `bivio` stampano `<br>` alla lettera (4.1, `c13` e
+  `c33`). Prendono testo semplice, e vanno a capo da soli.
 
 ## 7-ter. Il montato si rilegge prima di dirlo finito
 
@@ -188,6 +191,26 @@ Dopo il montaggio si rilegge con `get_video_scenes` e si confronta con
 `scene.json`: la modalità di ogni scena, la posizione delle riprese, l'ordine
 degli audio. La durata che torna a un decimo di secondo conferma solo
 l'ordine degli audio, non le modalità.
+
+## 7-quater. La slide si rilegge muta
+
+Un difetto di layout si vede; un difetto di senso no. Una slide scritta
+mentre si ha in testa la frase parlata regge perché la voce la sostiene, e
+poi da sola dice un'altra cosa — o il contrario di quella giusta.
+
+**Ogni slide va riletta senza la voce sotto**, come la legge chi guarda. Nella
+4.2 ne sono uscite tre:
+
+- `c05` diceva «Non è stata verificata e ha dato risultati deboli. / Non è mai
+  stata verificata.» Nel parlato la prima parte sta dentro una negazione
+  («e non è che sia stata verificata e…»); sulla slide, senza quella
+  negazione, le due righe si contraddicono;
+- `c16` rispondeva «Sessant'anni» alla riga «Studi a cui rimandare»: una
+  durata non risponde a una domanda su quanti studi ci sono;
+- `c19` andava a capo tre volte.
+
+La regola pratica: **se la slide da sola dice una cosa diversa da quella che
+si sente, è la slide a essere sbagliata**, perché è lei a restare in scena.
 
 ## 8. Come si chiamano le cose
 
@@ -264,6 +287,31 @@ voce, contro la media della traccia.
   scarto medio non si muove. I due metri sono quasi lo stesso. Restano i
   caratteri.
 
+**Quando i confini sospetti sono più di due e consecutivi, `banda.py sposta`
+non basta.** Guarda una coppia di blocchi alla volta, e su una catena ogni
+singola mossa aggiusta una coppia e ne rompe un'altra. Serve
+**`script/griglia.py`**, che tiene fissi i due estremi di una finestra di
+blocchi e prova tutte le combinazioni di pause per i confini interni,
+tenendo quella che minimizza lo scarto peggiore:
+
+```
+python3 griglia.py <dir> <chunk> <primo_blocco> <ultimo_blocco>
+```
+
+Sulla 4.2 sei confini consecutivi fra `s08` e `s14` sono tornati tutti in
+banda con cinque spostamenti trovati così. Il caso che lo ha reso necessario:
+`s12`, 118 caratteri schiacciati in 2,47 s di voce contro 6,36 attesi, con
+**entrambi** i confini sbagliati. La finestra si tiene a cinque o sei
+blocchi, perché le combinazioni crescono in fretta: se serve più larga, si
+applica prima lo spostamento già sicuro con **`script/muovi.py`** — che
+sposta un confine nominando il blocco invece dell'indice — e si rilancia la
+griglia sul resto.
+
+`muovi.py` serve anche per un'altra ragione: **`tagli.py allinea` azzera
+`tagli.json`**, quindi ogni volta che una traccia viene rigenerata gli
+spostamenti a mano vanno rifatti da capo, e rifarne cinque contando gli
+indici a memoria è il modo più veloce per sbagliarne uno.
+
 **Quello che la banda non dice, e che va detto lo stesso.** Uno scarto fuori
 banda non significa che una parola sia stata spezzata: significa solo che il
 blocco non dura quanto il suo testo prevede. La garanzia che conta è un'altra
@@ -292,6 +340,7 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 3.4 | Pupille e ammiccamento | 9:59 | `6c318a0f029ed071fbdc5a59604330ec` |
 | 3.5 | Lo sguardo che mandi tu | 10:04 | `586431bd2f9519ae6515c01548cc3c66` |
 | 4.1 | Le distanze | 9:58 | `7c7f0dab16af639ca6b74f809b31d4c7` |
+| 4.2 | L'orientamento: dove puntano i piedi | 9:58 | `8a1910badeaab1b88881337b633208c4` |
 
 **Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
 settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
@@ -300,21 +349,28 @@ riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
 dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
 `LNV_M3_SCRIPT-HEYGEN.md`.
 
-**Il modulo 4 è in lavorazione**: la 4.1 è montata, la 4.2 è in produzione.
-Gli script dei moduli 4, 5 e 6 sono arrivati; manca quello del modulo 7. Il
-registro di modulo si scrive quando le cinque lezioni sono chiuse.
+**Il modulo 4 è in lavorazione**: la 4.1 e la 4.2 sono montate, restano la
+4.3, la 4.4 e la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
+quello del modulo 7. Il registro di modulo si scrive quando le cinque lezioni
+sono chiuse.
 
 **Il controllo dei tagli è parziale su tutte e quindici le lezioni** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
-duecentoventicinque i suoi tagli cadono dentro un silenzio. Quando la
+duecentoventicinque i suoi tagli cadono dentro un silenzio. Nel modulo 4 la
+4.1 chiude con un confine fuori banda e la 4.2 con zero, e in entrambe tutti
+i tagli cadono dentro un silenzio. Quando la
 trascrizione torna, i confini segnalati nei registri vanno risentiti uno per
 uno con `tagli.py correggi`.
 
-**Due riprese sono state montate senza essere guardate**: `s07` della 3.3 e
-`s15` della 4.1. Vanno guardate prima di pubblicare. In entrambi i casi la
-causa è stata la stessa: nessuna anteprima in linea dal connettore e i tre
-host del CDN chiusi dalla policy di rete. Dal 10 ottobre
-`ai-toolkit-generations.imgix.net` risponde di nuovo, quindi si scaricano da
-lì e si guardano senza rigenerarle.
+**Due riprese sono state montate senza essere guardate** — `s07` della 3.3 e
+`s15` della 4.1 — e **tutte e due sono poi state guardate**: vanno bene. In
+entrambi i casi la causa era la stessa, nessuna anteprima in linea dal
+connettore e i tre host del CDN chiusi dalla policy di rete. Dal 10 ottobre
+il CDN risponde di nuovo. **La regola che ne esce: se l'anteprima non arriva,
+prima di rigenerare si prova a scaricare il file dal CDN** — la policy di
+rete cambia, e il file è già lì.
+
+**A oggi tutte le riprese del corso sono state guardate.** Sulla `s07` della
+3.3 resta una nota editoriale, non tecnica: al tavolo sembrano tutti uomini.

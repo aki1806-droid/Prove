@@ -75,16 +75,23 @@ Tre gotcha di layout scoperti in questo modulo e scritti nello standard:
 ## Le riprese
 
 Quattordici, tutte generate e tutte nello stesso mondo visivo del modulo 2.
-**Tredici su quattordici sono state guardate prima del montaggio.** L'unica
-che non lo è stata è `s07` della 3.3 — un tavolo da riunione dall'alto — e
-**va guardata prima di pubblicare.**
+**Tredici su quattordici sono state guardate prima del montaggio**; la
+quattordicesima, `s07` della 3.3 — un tavolo da riunione dall'alto — è stata
+guardata dopo, il 10 ottobre, quando il CDN è tornato raggiungibile.
+**Adesso sono state viste tutte.**
 
-La causa non è una dimenticanza: il connettore di generazione restituisce
-l'anteprima in linea solo su alcune chiamate, e i tre CDN da cui si
-scaricherebbe l'immagine sono chiusi dalla policy di rete del contenitore. Il
-metodo che funziona, trovato sulla 3.5 e da usare d'ora in poi: **generare le
-immagini in un batch unico, poi chiederle una per una** — la richiesta in
-blocco restituisce l'anteprima di una sola.
+La causa del ritardo non è stata una dimenticanza: il connettore di
+generazione restituisce l'anteprima in linea solo su alcune chiamate, e i tre
+CDN da cui si scaricherebbe l'immagine erano chiusi dalla policy di rete del
+contenitore. Due cose da fare, in quest'ordine: **generare le immagini in un
+batch unico e poi chiederle una per una** (la richiesta in blocco restituisce
+l'anteprima di una sola), e, se l'anteprima comunque non arriva, **provare a
+scaricare il file dal CDN** — la policy di rete cambia, e il 10 ottobre
+`ai-toolkit-generations.imgix.net` rispondeva di nuovo.
+
+Sulla `s07` resta una nota di composizione, scritta per esteso nel registro
+della 3.3: le dieci persone sedute al tavolo sembrano tutte uomini. Non è un
+difetto tecnico ed è una decisione editoriale, non mia.
 
 ## Il montaggio, e due errori di indice
 
@@ -141,8 +148,8 @@ precedente nella 2.5, 10:02.
 
 ## Cosa resta da fare
 
-- **guardare la ripresa `s07` della 3.3** prima di pubblicare: è l'unica delle
-  quattordici montata senza che l'abbia vista;
+- **decidere sulla composizione della ripresa `s07` della 3.3** (al tavolo
+  sembrano tutti uomini): rigenerarla e rimontare, oppure tenerla così;
 - **risentire i tre confini segnalati** — `s26` e `s27` della 3.2, `s31` della
   3.5 — e i due silenzi più stretti, `s31` della 3.2 (0,23 s) e `s29` della
   3.3 (0,22 s);
