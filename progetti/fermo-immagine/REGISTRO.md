@@ -29,3 +29,4 @@ Scene del montaggio: heygen-scene.json (21 scene, ordine di scene.json)
 - Slide S07 rifatta: 02_slide/S07_adesione_v2.png (grafica/slide_adesione.py), «Aderisci al flash mob»,
   QR nuovo verificato con OpenCV → sy4MSi. Clip B02 riadattata alla nuova durata.
 - Lotto asset HeyGen v2: d89d49c7ec234b2089bde5b350f3f1ca; heygen-scene.json aggiornato (6 id sostituiti).
+- Montaggio v2 lanciato: video_id `d86c6c55451d086caa26548998e7c6e4`.
