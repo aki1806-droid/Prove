@@ -30,3 +30,7 @@ Scene del montaggio: heygen-scene.json (21 scene, ordine di scene.json)
   QR nuovo verificato con OpenCV → sy4MSi. Clip B02 riadattata alla nuova durata.
 - Lotto asset HeyGen v2: d89d49c7ec234b2089bde5b350f3f1ca; heygen-scene.json aggiornato (6 id sostituiti).
 - Montaggio v2 lanciato: video_id `d86c6c55451d086caa26548998e7c6e4`.
+- Render v2 completato (150,1 s). Controllo: 21 scene in ordine; QR decodificato dal video (anche dalla copia
+  compressa) → https://form.getformly.com/f/sy4MSi; SRT con «operatori sociosanitari», «Partecipa anche tu»,
+  «Per partecipare aderisci…», «Abbiamo bisogno di riprenderci la nostra dignità. Partecipate.»
+- Inviati all'utente FermoImmagine_16x9_v2_compresso.mp4 (27,8 MB) + FermoImmagine_16x9_v2.srt.
