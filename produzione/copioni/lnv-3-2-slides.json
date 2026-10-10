@@ -1,0 +1,433 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.2",
+"title": "Il mito della direzione",
+"sub": "Lo sguardo"
+},
+{
+"file": "c02",
+"layout": "list",
+"kicker": "la mappa, come te la raccontano",
+"plain": true,
+"rows": [
+"In alto a destra: sta costruendo",
+"In alto a sinistra: sta ricordando",
+"In basso: sta provando un'emozione"
+],
+"note": "Tre direzioni, tre diagnosi, e una regola che si impara in cinque minuti."
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "da dove arriva",
+"title": "Dai corsi di programmazione neurolinguistica,<br><span class=\"gold\">e da lì a una quantità enorme di manuali.</span>"
+},
+{
+"file": "c04",
+"layout": "flusso",
+"kicker": "come un'affermazione diventa un dato",
+"passi": [
+{
+"et": "Si insegna",
+"sub": "in aula"
+},
+{
+"et": "Si stampa",
+"sub": "nei manuali"
+},
+{
+"et": "Si ripete",
+"sub": "nei corridoi"
+},
+{
+"et": "Si sa",
+"sub": "e basta"
+}
+],
+"title": "A ogni passaggio perde una frase: quella che diceva da dove viene."
+},
+{
+"file": "c05",
+"layout": "memo",
+"title": "E quando una cosa sembra un dato,<br>nessuno le chiede più le prove."
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Qualcuno però è andato a contare.<br><span class=\"gold\">Non regge.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "cosa hanno trovato gli studi",
+"title": "Nessuna corrispondenza fra direzione e modalità di pensiero.<br><span class=\"gold\">E nessuna fra direzione e menzogna.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "la fonte",
+"rows": [
+"Richard Wiseman e colleghi, 2012",
+"Condizioni controllate, materiale reale",
+"Nessun pattern rilevato"
+],
+"note": "Dove si smonta un mito, la fonte si dice per intero."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "come l'hanno messa alla prova",
+"plain": true,
+"rows": [
+"Hanno contato le direzioni, una per una",
+"Poi hanno addestrato delle persone alla mappa",
+"E le hanno messe alla prova sullo stesso materiale"
+]
+},
+{
+"file": "c10",
+"layout": "barre",
+"kicker": "quanto ha spostato l'addestramento alla mappa",
+"barre": [
+{
+"et": "Chi non la conosce",
+"v": 50,
+"val": ""
+},
+{
+"et": "Chi è addestrato",
+"v": 50,
+"val": ""
+}
+],
+"title": "Non meglio, non peggio. Una tecnica che non sposta niente non è una tecnica imprecisa: non c'è."
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Ho seguito percorsi di formazione<br><span class=\"gold\">in cui questa mappa viene insegnata.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Potrei non dirtelo.<br><span class=\"gold\">Preferisco dirlo per intero.</span>"
+},
+{
+"file": "c14",
+"layout": "memo",
+"title": "Il fatto di averla studiata<br>non la rende vera."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "chi me l'ha insegnata",
+"title": "Non mentiva: ci credeva.<br><span class=\"gold\">L'aveva imparata da qualcuno che ci credeva.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "È così che un'affermazione attraversa quarant'anni senza essere verificata:<br><span class=\"gold\">passando di mano fra persone in buona fede.</span>"
+},
+{
+"file": "c17",
+"layout": "memo",
+"title": "La diffusione di un'affermazione<br>non dice niente<br>sulla sua fondatezza."
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "perché una cosa falsa può sembrare funzionare",
+"rows": [
+"La conferma selettiva",
+"La vaghezza delle categorie",
+"L'effetto osservatore"
+],
+"note": "Tre meccanismi, già visti tutti e tre nel primo modulo."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "perché una cosa falsa può sembrare funzionare",
+"rows": [
+"La conferma selettiva",
+"La vaghezza delle categorie",
+"L'effetto osservatore"
+],
+"active": 0,
+"note": "Noti quello che conferma. Le smentite non le registri, perché non verifichi."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "me ne sono accorto su di me",
+"title": "Ho cominciato a segnare le direzioni su un foglio.<br><span class=\"gold\">Guardava lì anche quando mi dava l'ora.</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "perché una cosa falsa può sembrare funzionare",
+"rows": [
+"La conferma selettiva",
+"La vaghezza delle categorie",
+"L'effetto osservatore"
+],
+"active": 1,
+"note": "Costruire e ricordare non si accendono a turno: si mescolano."
+},
+{
+"file": "c22",
+"layout": "strati",
+"kicker": "cosa c'è dentro un ricordo raccontato",
+"sopra": "Ricostruire un episodio",
+"sotto": [
+"Ricordare",
+"Costruire"
+],
+"title": "Se sono plausibili entrambe, stai scegliendo, non leggendo."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "perché una cosa falsa può sembrare funzionare",
+"rows": [
+"La conferma selettiva",
+"La vaghezza delle categorie",
+"L'effetto osservatore"
+],
+"active": 2,
+"note": "Chi applica la mappa ascolta di più, nota le pause, chiede meglio."
+},
+{
+"file": "c24",
+"layout": "confronto",
+"occhio": "a chi va il merito",
+"titoli": [
+"Quello che credi di usare",
+"Quello che ha funzionato"
+],
+"righe": [
+{
+"et": "Hai capito di più",
+"a": "La mappa",
+"b": "L'attenzione",
+"segna": true
+},
+{
+"et": "Hai notato le pause",
+"a": "La mappa",
+"b": "L'ascolto",
+"segna": true
+},
+{
+"et": "Hai chiesto meglio",
+"a": "La mappa",
+"b": "La pazienza",
+"segna": true
+}
+]
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "quello che qui è vero",
+"title": "Guardare un volto è un compito impegnativo.<br><span class=\"gold\">Costa, e costa parecchio.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Quando serve cercare, costruire o ricordare qualcosa di preciso,<br><span class=\"gold\">il sistema stacca.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "lo fanno tutti, senza averlo imparato",
+"title": "Chiedi a un bambino quanto fa sette per otto.<br><span class=\"gold\">Stacca gli occhi prima di rispondere.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "quello che non si può prevedere",
+"plain": true,
+"rows": [
+"In alto",
+"In basso",
+"Di lato"
+],
+"note": "Molti guardano sempre dalla stessa parte, qualunque cosa chiedi."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Ho un amico che guarda sempre a sinistra.<br><span class=\"gold\">La mappa, su di lui, direbbe che ricorda tutto.</span>"
+},
+{
+"file": "c31",
+"layout": "memo",
+"title": "Se stacca lo sguardo<br>dopo la tua domanda,<br>sta lavorando."
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Non sai su cosa.<br><span class=\"gold\">Sai quando, e tanto basta per sapere cosa fare.</span>"
+},
+{
+"file": "c33",
+"layout": "anello",
+"kicker": "il giro che si interrompe se parli",
+"ciclo": 7,
+"passi": [
+"Fai la domanda",
+"Stacca lo sguardo",
+"Costruisce la risposta",
+"Torna a guardarti"
+],
+"title": "Ogni volta che riempi il silenzio, il giro riparte da capo."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "cosa non fare, mentre guarda via",
+"plain": true,
+"rows": [
+"Non interrompere",
+"Non riformulare",
+"Non aggiungere un esempio",
+"Non riempire con un rumore di cortesia"
+],
+"note": "Due secondi di pausa, e quasi tutti ricominciano a spiegare."
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Riempire quel silenzio non è gentilezza:<br><span class=\"gold\">è cancellare il lavoro che hai appena chiesto.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "e adesso il corollario che riguarda te",
+"title": "Se distogli lo sguardo mentre pensi, non ti stai tradendo.<br><span class=\"gold\">Stai facendo quello che fa il cervello umano.</span>"
+},
+{
+"file": "c37",
+"layout": "bilancia",
+"kicker": "dove va l'attenzione, mentre rispondi",
+"sx": {
+"et": "Tenere il contatto visivo",
+"peso": 4
+},
+"dx": {
+"et": "Costruire la frase",
+"peso": 1
+},
+"title": "Il piatto che scende è quello che pesa. Quello che metti sul contatto visivo lo stai togliendo alla risposta."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "l'ho provato da candidato",
+"title": "Mi sono tenuto gli occhi inchiodati sui suoi<br><span class=\"gold\">e ho dato la risposta peggiore della mia vita.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Non ero nervoso.<br><span class=\"gold\">Stavo spendendo per gli occhi l'attenzione che serviva alla frase.</span>"
+},
+{
+"file": "c41",
+"layout": "list",
+"kicker": "dove viene usata questa mappa",
+"rows": [
+"Colloqui di lavoro",
+"Trattative",
+"Valutazioni interne",
+"Alcuni contesti di indagine"
+],
+"note": "Non come curiosità da raccontare a cena: come criterio di decisione."
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Decisioni su un posto, su un contratto,<br><span class=\"gold\">su quanto credere a qualcuno.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "e l'errore non è distribuito a caso",
+"rows": [
+"Chi è in difficoltà",
+"Chi è in soggezione",
+"Chi ha un'abitudine oculare fuori dalla media di chi giudica"
+],
+"note": "Come nel modulo precedente: colpisce più spesso chi è già più fragile."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Chi usa questa mappa non sta leggendo nessuno.<br><span class=\"gold\">Sta scegliendo chi penalizzare, senza saperlo.</span>"
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usarla in colloquio o in trattativa",
+"Confondere l'attenzione con la tecnica",
+"Leggere una direzione costante",
+"Riempire il silenzio"
+],
+"active": 0,
+"note": "Non è un'imprecisione tecnica: è un danno fatto a una persona."
+},
+{
+"file": "c46",
+"layout": "swap",
+"kicker": "due scambi da fare",
+"rows": [
+[
+"Ha funzionato la tecnica",
+"Ha funzionato l'ascolto"
+],
+[
+"Una direzione costante significa qualcosa",
+"Molti guardano sempre dalla stessa parte"
+]
+]
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usarla in colloquio o in trattativa",
+"Confondere l'attenzione con la tecnica",
+"Leggere una direzione costante",
+"Riempire il silenzio"
+],
+"active": 3,
+"note": "È il più frequente dei quattro, ed è anche il più facile da smettere."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Chi stacca lo sguardo<br>dopo la tua domanda<br>sta lavorando."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Fai la domanda",
+"Quando guarda via, non dire niente",
+"Aspetta che torni a guardarti"
+],
+"note": "Il silenzio dura meno di quanto temi, e la risposta che arriva è più lunga e più precisa."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Capire i segni del linguaggio non verbale"
+}
+]

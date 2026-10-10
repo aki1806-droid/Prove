@@ -227,7 +227,8 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 2.3 | Le espressioni a occhio nudo | 9:59 | `c27dd213d4388051ce4a449ec4635482` |
 | 2.4 | Le microespressioni | 9:58 | `9f3220d21c45256509b20a6d43fc05af` |
 | 2.5 | I due sorrisi | 10:02 | `c2ae2215869e7dcf7172bb3709ed82ce` |
-| 3.1 | La durata del contatto | 9:59 | `97eb37c1fbaca1b4546cc1ff7321b283` |
+| 3.1 | La durata del contatto | 9:59 | `d2e4788a89a7475e2c6a665695da1038` |
+| 3.2 | Il mito della direzione | 9:59 | `449584f1d55949dcb6a664cb8c5ffd14` |
 
 **Moduli 1 e 2 completi**: dieci lezioni, cento minuti, quattrocentosettantatré
 slide, settantadue fra diagrammi e infografiche, ventisette riprese. I registri
@@ -235,11 +236,12 @@ di modulo stanno in `registri/lnv-modulo-1.md` e `registri/lnv-modulo-2.md`. I
 copioni arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
 `LNV_M2_SCRIPT-HEYGEN.md`.
 
-**Il modulo 3 è cominciato**: la 3.1 è montata, e restano la 3.2, la 3.3, la
-3.4 e la 3.5. Gli script dei moduli 3, 4, 5 e 6 sono arrivati; manca quello del
-modulo 7.
+**Il modulo 3 è cominciato**: la 3.1 e la 3.2 sono montate, e restano la 3.3,
+la 3.4 e la 3.5. Gli script dei moduli 3, 4, 5 e 6 sono arrivati; manca quello
+del modulo 7.
 
-**Il controllo dei tagli è parziale su dieci lezioni delle undici** (vedi i
-registri; la 3.1 è la prima con la banda completamente pulita): i crediti
-ElevenLabs sono a zero e la trascrizione di verifica non si può fare. Quando tornano, i confini segnalati nei registri vanno risentiti
-uno per uno con `tagli.py correggi`.
+**Il controllo dei tagli è parziale su tutte e dodici le lezioni** (vedi i
+registri; la 3.1 e la 3.2 chiudono con zero confini fuori banda): i crediti
+ElevenLabs sono a zero e la trascrizione di verifica non si può fare. Quando
+tornano, i confini segnalati nei registri vanno risentiti uno per uno con
+`tagli.py correggi`.

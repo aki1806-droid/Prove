@@ -6,7 +6,7 @@ misurando la distanza dalla propria abitudine**, non una proprietà dell'altro.
 
 | campo | valore |
 |---|---|
-| video_id | `97eb37c1fbaca1b4546cc1ff7321b283` |
+| video_id | `d2e4788a89a7475e2c6a665695da1038` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
 | durata | 598,6 s (9:59) — misurata sul montato |
@@ -79,6 +79,15 @@ Le sei slide `c15`–`c20` usano lo stesso layout `list` con `active` che
 scorre: la variabile accesa cambia, le altre cinque restano visibili spente.
 È la prima volta che il corso enumera così, e funziona meglio di sei slide
 diverse perché l'elenco non si ricompone ogni volta.
+
+## Rimontata una volta
+
+Il primo montaggio (`97eb37c1fbaca1b4546cc1ff7321b283`, cancellato) aveva la
+slide ciclica `c34` in `freeze` invece che in `loop`: l'animazione partiva,
+finiva dopo sette secondi e restava ferma per i sei successivi. `scene.py`
+scrive il `loop` giusto in `scene.json`; l'errore è stato trascriverlo a mano
+sbagliando di una posizione. **Da qui in avanti le scene si passano come le
+scrive `scene.json`, senza ricopiarle.**
 
 ## Le tre riprese
 
