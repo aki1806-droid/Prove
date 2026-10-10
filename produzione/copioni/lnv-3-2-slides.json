@@ -161,8 +161,8 @@
 {
 "file": "c20",
 "layout": "statement",
-"kicker": "me ne sono accorto su di me",
-"title": "Ho cominciato a segnare le direzioni su un foglio.<br><span class=\"gold\">Guardava lì anche quando mi dava l'ora.</span>"
+"kicker": "una settimana di foglio e matita",
+"title": "Segna le direzioni mentre parla.<br><span class=\"gold\">Scoprirai che guarda lì anche quando ti dà l'ora.</span>"
 },
 {
 "file": "c21",
@@ -260,7 +260,7 @@
 {
 "file": "c30",
 "layout": "statement",
-"title": "Ho un amico che guarda sempre a sinistra.<br><span class=\"gold\">La mappa, su di lui, direbbe che ricorda tutto.</span>"
+"title": "C'è chi guarda sempre a sinistra.<br><span class=\"gold\">La mappa, su una persona così, direbbe che ricorda tutto.</span>"
 },
 {
 "file": "c31",
@@ -326,13 +326,13 @@
 {
 "file": "c38",
 "layout": "statement",
-"kicker": "l'ho provato da candidato",
-"title": "Mi sono tenuto gli occhi inchiodati sui suoi<br><span class=\"gold\">e ho dato la risposta peggiore della mia vita.</span>"
+"kicker": "il consiglio letto la sera prima",
+"title": "Occhi inchiodati su quelli dell'altro<br><span class=\"gold\">e la risposta peggiore che potevi dare.</span>"
 },
 {
 "file": "c39",
 "layout": "statement",
-"title": "Non ero nervoso.<br><span class=\"gold\">Stavo spendendo per gli occhi l'attenzione che serviva alla frase.</span>"
+"title": "Non è il nervosismo.<br><span class=\"gold\">È l'attenzione spesa per gli occhi, quella che serviva alla frase.</span>"
 },
 {
 "file": "c41",

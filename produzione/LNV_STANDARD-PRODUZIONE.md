@@ -125,10 +125,16 @@ Si aggiunge in testa a ogni traccia generata, nella forma che la voce legge.
 ## 7. Gli aneddoti
 
 Come nel primo corso: **si inventano, in prima persona, senza segnaposti e
-senza chiedere** (`MASTER.md` §0.2). Gli script di questo corso ne chiedono in
+senza chiedere** (`MASTER.md` §0.2). Gli script del modulo 1 ne chiedono in
 ambiente ospedaliero — corsia, pronto soccorso, turni — perché è il mondo da
 cui arrivano gli esempi. Si scrivono coerenti con quel mondo, senza dettagli
 verificabili, e il registro dice quali scene li contengono.
+
+**Ma ogni modulo decide per sé, e lo dice nelle note dell'ultima lezione.** Il
+modulo 2 e il modulo 3 scrivono «Nessun aneddoto», e vale per tutte e cinque le
+lezioni del modulo. La nota sta in fondo allo script, cioè nel punto in cui la
+si legge per ultima: **va cercata prima di scrivere la prima lezione**, non
+dopo aver montato la terza. È costato il rifacimento della 3.2 e della 3.3.
 
 ## 8. Come si chiamano le cose
 
@@ -228,7 +234,8 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 2.4 | Le microespressioni | 9:58 | `9f3220d21c45256509b20a6d43fc05af` |
 | 2.5 | I due sorrisi | 10:02 | `c2ae2215869e7dcf7172bb3709ed82ce` |
 | 3.1 | La durata del contatto | 9:59 | `d2e4788a89a7475e2c6a665695da1038` |
-| 3.2 | Il mito della direzione | 9:59 | `449584f1d55949dcb6a664cb8c5ffd14` |
+| 3.2 | Il mito della direzione | 9:59 | `73628bfda25eb16bdeb7f95b65c38a26` |
+| 3.3 | Lo sguardo nel gruppo | 9:59 | `b79f2fa1d5c14eca6b69fc96494d74c4` |
 
 **Moduli 1 e 2 completi**: dieci lezioni, cento minuti, quattrocentosettantatré
 slide, settantadue fra diagrammi e infografiche, ventisette riprese. I registri
@@ -236,12 +243,13 @@ di modulo stanno in `registri/lnv-modulo-1.md` e `registri/lnv-modulo-2.md`. I
 copioni arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
 `LNV_M2_SCRIPT-HEYGEN.md`.
 
-**Il modulo 3 è cominciato**: la 3.1 e la 3.2 sono montate, e restano la 3.3,
-la 3.4 e la 3.5. Gli script dei moduli 3, 4, 5 e 6 sono arrivati; manca quello
+**Il modulo 3 è a metà**: la 3.1, la 3.2 e la 3.3 sono montate, e restano la
+3.4 e la 3.5. Gli script dei moduli 3, 4, 5 e 6 sono arrivati; manca quello
 del modulo 7.
 
-**Il controllo dei tagli è parziale su tutte e dodici le lezioni** (vedi i
-registri; la 3.1 e la 3.2 chiudono con zero confini fuori banda): i crediti
+**Il controllo dei tagli è parziale su tutte e tredici le lezioni** (vedi i
+registri; la 3.1 e la 3.3 chiudono con zero confini fuori banda, la 3.2 con
+due): i crediti
 ElevenLabs sono a zero e la trascrizione di verifica non si può fare. Quando
 tornano, i confini segnalati nei registri vanno risentiti uno per uno con
 `tagli.py correggi`.

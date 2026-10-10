@@ -7,14 +7,17 @@ non su cosa.
 
 | campo | valore |
 |---|---|
-| video_id | `449584f1d55949dcb6a664cb8c5ffd14` |
+| video_id | `73628bfda25eb16bdeb7f95b65c38a26` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
-| durata | 598,8 s (9:59) — misurata sul montato |
-| parlato | 587,0 s (550,6 s di voce tagliata + 36,4 s di pose) |
+| durata | 598,7 s (9:59) — misurata sul montato |
+| parlato | 586,9 s (553,2 s di voce tagliata + 33,7 s di pose) |
 | voce | Luca Ward `tVdVcJPudubxmTmAw4tE`, `eleven_v4`, 1,12× in post |
 | flow ElevenLabs | `ndQwRqXZNcAzm8j99o51` |
-| tracce | A `SOKEdk55K2x1J7CHpkKi` · B `TlIgm4LF44wLDKqSVs6a` · C `SDla801TWSaV6DxQVLYL` |
+| tracce | A `SOKEdk55K2x1J7CHpkKi` · B `TboqxfTET8E9Ck3Obv9v` · C `NlmiiEbBpmtDYqN6Owlj` |
+
+Le tracce B e C sono della seconda generazione: la prima conteneva gli
+aneddoti che il modulo 3 non vuole.
 
 ## La dichiarazione in prima persona
 
@@ -41,7 +44,7 @@ La fonte della scena 3 è detta a voce con l'anno, come chiede il modulo:
 
 ## Il copione è stato riscritto
 
-Da **4.315** caratteri di parlato nello script a **10.202**, media 213 per
+Da **4.315** caratteri di parlato nello script a **10.255**, media 214 per
 blocco. (Il conto dello script prende le righe citate che finiscono con un
 punto e lascia fuori i testi di slide, che non ne hanno.)
 
@@ -52,16 +55,35 @@ Quello che lo script non aveva e che serviva per reggere la demolizione:
   delle persone alla mappa e le si mette alla prova sullo stesso materiale.
   Senza questo, «non regge» è un'altra affermazione da credere sulla fiducia;
 - **perché una cosa falsa può sembrare funzionare**, con i tre meccanismi
-  nominati e con un aneddoto che li rende verificabili: il collega che
-  guardava in alto a destra anche quando dava l'ora;
+  nominati e con la prova che li rende verificabili da chi ascolta: una
+  settimana di foglio e matita, e si scopre che quella persona guarda lì anche
+  quando dà l'ora;
 - **a chi va il merito** (`c24`): se è andata bene, è andata bene perché hai
   ascoltato. La tecnica si prende il merito dell'attenzione;
 - **il costo cognitivo detto per intero**, che è la parte vera: guardare un
   volto costa, e il sistema stacca per liberare risorse. È quello che prepara
   la bilancia di `c37`;
-- **il corollario su chi ascolta**, con l'aneddoto del colloquio in cui
-  tenere gli occhi fissi ha prodotto la risposta peggiore possibile. Serve a
-  chiudere il cerchio: il consiglio corrente è un consiglio a pensare peggio.
+- **il corollario su chi ascolta**, con il caso del colloquio in cui tenere
+  gli occhi fissi produce la risposta peggiore possibile. Serve a chiudere il
+  cerchio: il consiglio corrente è un consiglio a pensare peggio.
+
+## Rifatta: il modulo 3 non vuole aneddoti
+
+Il primo montaggio (`449584f1d55949dcb6a664cb8c5ffd14`, cancellato) conteneva
+quattro blocchi in prima persona con episodi inventati: il collega osservato
+per mesi, l'amico che guarda sempre a sinistra, il colloquio da candidato.
+**Le note in fondo allo script del modulo 3 dicono «Nessun aneddoto nel modulo
+3»**, come quelle del modulo 2, e io le ho lette dopo aver montato.
+
+I quattro blocchi (`s20`, `s30`, `s38`, `s39`) sono stati riscritti in terza
+persona, mantenendo gli esempi concreti e togliendo l'io che li racconta:
+«C'è chi guarda sempre a sinistra», «Il consiglio arriva di solito la sera
+prima di un colloquio». Le quattro slide corrispondenti sono state rifatte,
+le tracce B e C rigenerate, i tagli rifatti da capo.
+
+La regola adesso sta in `LNV_STANDARD-PRODUZIONE.md` §7, con il punto che
+conta: **la nota sta in fondo allo script e va cercata prima di scrivere la
+prima lezione del modulo.**
 
 ## Le grafiche
 
@@ -113,25 +135,31 @@ davvero.
 
 ## I tagli
 
-`banda.py banda` su parlato netto ha segnalato **tre confini sospetti**, di cui
-due con la firma uguale e opposta che indica un confine spostato:
+Rifatti da capo dopo la rigenerazione delle tracce B e C. `banda.py banda` su
+parlato netto ha segnalato **cinque confini sospetti**, e tre si sono potuti
+sistemare:
 
-- `s25` +2,55 e `s26` −2,27 → confine spostato da 108,51 a 104,77 s nella
-  traccia B. Residui −0,63 e +0,91;
 - `s05` +0,46 e `s06` −1,58 → confine spostato da 66,48 a 64,48 s nella
-  traccia A. Residui −1,11 e −0,01.
+  traccia A. Residui −1,11 e −0,01;
+- `s31` −3,31 e `s32` +2,31 → confine spostato da 192,52 a 195,74 s nella
+  traccia B. Residui −0,37 e −0,62;
+- `s27` +3,74 → confine con la `s28` spostato da 140,17 a 138,86 s. Residuo
+  +2,85, e la `s28` resta in banda a +0,40.
 
-Il primo è il caso di scuola: la `s25` è una ripresa di due frasi brevi, e
-leggeva **11,8 caratteri al secondo**, un terzo sotto la media della traccia.
+**Restano due blocchi fuori banda**: `s26` a −2,38 e `s27` a +2,85. Per la
+coppia `s26`/`s27` ho provato tutte le pause dell'intorno e nessuna le porta
+dentro tutte e due: fra 120,81 e 126,92 secondi non c'è nessun silenzio
+utilizzabile, e il confine o taglia troppo presto o troppo tardi di sei
+secondi. **Vanno risentiti quando i crediti tornano.**
 
-Dopo le due correzioni: **zero confini sospetti su quarantacinque**. **Dopo una
-correzione a mano non si rilancia `allinea`**, che riscriverebbe il file da
-capo.
+**Dopo una correzione a mano non si rilancia `allinea`**, che riscriverebbe il
+file da capo. (È successo per forza questa volta, perché la traccia era
+nuova: le correzioni sono state rifatte dopo.)
 
 **La garanzia che si può dare**: tutti e quarantacinque i tagli cadono dentro
-un silenzio. Il più stretto è a 34,20 s nella traccia A, un silenzio di
-**0,31 s** con 0,16 s di margine per lato. È il secondo più stretto del corso
-dopo i due della 2.5.
+un silenzio. Due sono stretti: `s31` cade in un silenzio di **0,23 s** e `s27`
+in uno di **0,28 s**, con circa 0,12 e 0,14 s di margine per lato. Non
+spezzano una parola, ma sono i due da risentire per primi.
 
 **Resta il limite di tutto il corso**: i confini **non sono verificati parola
 per parola**, perché i crediti ElevenLabs sono esauriti e la trascrizione di
@@ -139,8 +167,8 @@ controllo non si può fare.
 
 ## Le pose
 
-36,4 secondi su quarantacinque slide. Il risolutore ha centrato il bersaglio:
-587,0 s di parlato contro i 587 richiesti.
+33,7 secondi su quarantacinque slide. Il risolutore ha centrato il bersaglio:
+586,9 s di parlato contro i 587 richiesti.
 
 ## Da verificare
 
@@ -150,56 +178,55 @@ verificati con la trascrizione**, per i crediti esauriti.
 
 ## Blocchi
 
-
 `·` disegno o infografica · `▪` ripresa
 
 | blocco | slide | tipo | durata (s) | posa (s) |
 |---|---|---|---|---|
-| s02 | `c02` | elenco | 17.51 | +1.14 |
-| s03 | `c03` | frase | 13.49 | +0.24 |
-| s04 | · `c04` | flusso | 14.06 | +1.54 |
-| s05 | `c05` | memo | 14.75 | +0.84 |
-| s06 | `c06` | frase | 12.61 | +0.24 |
-| s07 | `c07` | frase | 14.98 | +0.24 |
-| s08 | `c08` | elenco | 14.34 | +1.14 |
-| s09 | `c09` | elenco | 14.40 | +1.14 |
-| s10 | · `c10` | barre | 13.44 | +1.54 |
+| s02 | `c02` | elenco | 17.45 | +1.08 |
+| s03 | `c03` | frase | 13.43 | +0.18 |
+| s04 | · `c04` | flusso | 14.00 | +1.48 |
+| s05 | `c05` | memo | 14.69 | +0.78 |
+| s06 | `c06` | frase | 12.55 | +0.18 |
+| s07 | `c07` | frase | 14.92 | +0.18 |
+| s08 | `c08` | elenco | 14.28 | +1.08 |
+| s09 | `c09` | elenco | 14.34 | +1.08 |
+| s10 | · `c10` | barre | 13.38 | +1.48 |
 | s11 | ▪ attestato-incorniciato-controluce | ripresa | 2.78 | — |
-| s12 | `c12` | frase | 12.90 | +0.24 |
-| s13 | `c13` | frase | 9.62 | +0.24 |
-| s14 | `c14` | memo | 15.03 | +0.84 |
-| s15 | `c15` | frase | 10.14 | +0.24 |
-| s16 | `c16` | frase | 11.13 | +0.24 |
-| s17 | `c17` | memo | 4.84 | +1.18 |
-| s18 | `c18` | elenco | 11.29 | +1.14 |
-| s19 | `c19` | elenco | 14.44 | +1.14 |
-| s20 | `c20` | frase | 10.95 | +0.24 |
-| s21 | `c21` | elenco | 14.26 | +1.14 |
-| s22 | · `c22` | strati | 10.91 | +1.54 |
-| s23 | `c23` | elenco | 15.49 | +1.14 |
-| s24 | · `c24` | confronto | 14.33 | +1.54 |
-| s25 | ▪ scrivania-di-spalle-sguardo-in-alto | ripresa | 3.91 | — |
-| s26 | `c26` | frase | 12.47 | +0.24 |
-| s27 | `c27` | frase | 13.76 | +0.24 |
-| s28 | `c28` | frase | 12.25 | +0.24 |
-| s29 | `c29` | elenco | 11.82 | +1.14 |
-| s30 | `c30` | frase | 12.43 | +0.24 |
-| s31 | `c31` | memo | 11.09 | +0.84 |
-| s32 | `c32` | frase | 13.35 | +0.24 |
-| s33 | · `c33` | anello | 13.80 | +1.54 |
-| s34 | `c34` | elenco | 14.18 | +1.14 |
-| s35 | `c35` | frase | 11.24 | +0.24 |
-| s36 | `c36` | frase | 13.52 | +0.24 |
-| s37 | · `c37` | bilancia | 13.65 | +1.54 |
-| s38 | `c38` | frase | 13.61 | +0.24 |
-| s39 | `c39` | frase | 10.73 | +0.24 |
-| s40 | ▪ sala-colloqui-vuota | ripresa | 2.76 | — |
-| s41 | `c41` | elenco | 11.47 | +1.14 |
-| s42 | `c42` | frase | 12.92 | +0.24 |
-| s43 | `c43` | elenco | 11.86 | +1.14 |
-| s44 | `c44` | frase | 11.60 | +0.24 |
-| s45 | `c45` | elenco | 12.96 | +1.14 |
-| s46 | `c46` | sostituzione | 13.18 | +1.14 |
-| s47 | `c47` | elenco | 12.60 | +1.14 |
-| s48 | `c48` | memo | 4.84 | +1.83 |
-| s49 | `c49` | elenco | 23.31 | +1.14 |
+| s12 | `c12` | frase | 12.84 | +0.18 |
+| s13 | `c13` | frase | 9.56 | +0.18 |
+| s14 | `c14` | memo | 14.97 | +0.78 |
+| s15 | `c15` | frase | 10.08 | +0.18 |
+| s16 | `c16` | frase | 11.07 | +0.18 |
+| s17 | `c17` | memo | 4.78 | +1.12 |
+| s18 | `c18` | elenco | 11.28 | +1.08 |
+| s19 | `c19` | elenco | 14.44 | +1.08 |
+| s20 | `c20` | frase | 13.82 | +0.18 |
+| s21 | `c21` | elenco | 14.31 | +1.08 |
+| s22 | · `c22` | strati | 10.66 | +1.48 |
+| s23 | `c23` | elenco | 15.62 | +1.08 |
+| s24 | · `c24` | confronto | 15.34 | +1.48 |
+| s25 | ▪ scrivania-di-spalle-sguardo-in-alto | ripresa | 5.36 | — |
+| s26 | `c26` | frase | 9.12 | +0.18 |
+| s27 | `c27` | frase | 15.72 | +0.18 |
+| s28 | `c28` | frase | 12.85 | +0.18 |
+| s29 | `c29` | elenco | 11.47 | +1.08 |
+| s30 | `c30` | frase | 15.32 | +0.18 |
+| s31 | `c31` | memo | 11.31 | +0.78 |
+| s32 | `c32` | frase | 11.76 | +0.18 |
+| s33 | · `c33` | anello | 11.73 | +1.48 |
+| s34 | `c34` | elenco | 13.95 | +1.08 |
+| s35 | `c35` | frase | 11.16 | +0.18 |
+| s36 | `c36` | frase | 13.07 | +0.18 |
+| s37 | · `c37` | bilancia | 13.67 | +1.48 |
+| s38 | `c38` | frase | 12.45 | +0.18 |
+| s39 | `c39` | frase | 10.17 | +0.18 |
+| s40 | ▪ sala-colloqui-vuota | ripresa | 2.88 | — |
+| s41 | `c41` | elenco | 11.56 | +1.08 |
+| s42 | `c42` | frase | 12.48 | +0.18 |
+| s43 | `c43` | elenco | 11.84 | +1.08 |
+| s44 | `c44` | frase | 11.32 | +0.18 |
+| s45 | `c45` | elenco | 12.94 | +1.08 |
+| s46 | `c46` | sostituzione | 13.24 | +1.08 |
+| s47 | `c47` | elenco | 12.55 | +1.08 |
+| s48 | `c48` | memo | 4.78 | +1.71 |
+| s49 | `c49` | elenco | 23.60 | +1.08 |

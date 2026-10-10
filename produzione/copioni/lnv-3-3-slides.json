@@ -1,0 +1,428 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.3",
+"title": "Lo sguardo nel gruppo",
+"sub": "Lo sguardo"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "per una volta, una cosa solida",
+"title": "In un gruppo, gli sguardi si orientano verso chi ha il potere di decidere.<br><span class=\"gold\">Non verso chi sta parlando.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Non richiede interpretazione, e non dipende dalla linea di base di nessuno.<br><span class=\"gold\">Si legge guardando la stanza, non le persone.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "perché qui le condizioni non servono",
+"title": "Non stai leggendo un individuo.<br><span class=\"gold\">Stai leggendo una distribuzione.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Una persona può guardare altrove per mille motivi suoi.<br><span class=\"gold\">Sei persone insieme, no.</span>"
+},
+{
+"file": "c06",
+"layout": "memo",
+"title": "La linea di base,<br>qui, è la stanza."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "le quattro configurazioni",
+"rows": [
+"Guardano chi parla",
+"Guardano tutti la stessa persona terza",
+"Guardano in basso, o sui fogli",
+"Si guardano a coppie"
+],
+"note": "Si riconoscono in tre secondi, e non richiedono di sapere niente di chi è seduto al tavolo."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "le quattro configurazioni",
+"rows": [
+"Guardano chi parla",
+"Guardano tutti la stessa persona terza",
+"Guardano in basso, o sui fogli",
+"Si guardano a coppie"
+],
+"active": 0,
+"note": "L'argomento è neutro e non c'è posta in gioco. Il caso più frequente, e il meno informativo."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "le quattro configurazioni",
+"rows": [
+"Guardano chi parla",
+"Guardano tutti la stessa persona terza",
+"Guardano in basso, o sui fogli",
+"Si guardano a coppie"
+],
+"active": 1,
+"note": "Quella persona decide. È l'informazione più utile che si possa ricavare da una stanza."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "le quattro configurazioni",
+"rows": [
+"Guardano chi parla",
+"Guardano tutti la stessa persona terza",
+"Guardano in basso, o sui fogli",
+"Si guardano a coppie"
+],
+"active": 2,
+"note": "Due letture possibili, e chiedono due comportamenti opposti."
+},
+{
+"file": "c12",
+"layout": "confronto",
+"occhio": "come si distinguono le due letture",
+"titoli": [
+"Disagio diffuso",
+"Già deciso altrove"
+],
+"righe": [
+{
+"et": "Gli sguardi",
+"a": "Scappano giù",
+"b": "Restano giù",
+"segna": true
+},
+{
+"et": "Poi",
+"a": "Risalgono a controllare",
+"b": "Non controllano niente",
+"segna": true
+},
+{
+"et": "Insistere",
+"a": "Ha senso",
+"b": "Non serve",
+"segna": true
+}
+]
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "le quattro configurazioni",
+"rows": [
+"Guardano chi parla",
+"Guardano tutti la stessa persona terza",
+"Guardano in basso, o sui fogli",
+"Si guardano a coppie"
+],
+"active": 3,
+"note": "Esiste una posizione condivisa che nessuno ha dichiarato."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "L'unica cosa difficile di questa lezione<br><span class=\"gold\">è smettere di guardare chi parla.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "la seconda configurazione, da vicino",
+"title": "Dopo una frase importante, quasi tutti controllano la reazione di chi conta.<br><span class=\"gold\">È il momento in cui la stanza dichiara la sua gerarchia.</span>"
+},
+{
+"file": "c16",
+"layout": "number",
+"num": "0,25",
+"unit": "s",
+"fill": 12,
+"title": "Quanto dura il controllo. Non è una decisione: è un riflesso, ed è per questo che è difficile da falsificare."
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "e chi conta non è sempre chi ha il titolo",
+"rows": [
+"Il tecnico che conosce i numeri",
+"Chi ha l'orecchio del capo",
+"Chi ha più anzianità di tutti"
+],
+"note": "L'organigramma dice chi firma. Gli sguardi dicono chi decide."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "una configurazione che si vede spesso",
+"title": "Chi conduce occupa tre quarti del tempo.<br><span class=\"gold\">A ogni numero, sei teste si girano verso chi non ha ancora aperto bocca.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Una frase sola, e la riunione finisce lì.<br><span class=\"gold\">L'organigramma la mette due livelli sotto. Gli sguardi la mettono al centro.</span>"
+},
+{
+"file": "c20",
+"layout": "memo",
+"title": "Gli sguardi sanno chi decide<br>prima dell'organigramma."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "il micro-comportamento più informativo",
+"title": "Dura un attimo,<br><span class=\"gold\">e si può imparare a vederlo in una settimana.</span>"
+},
+{
+"file": "c22",
+"layout": "flusso",
+"kicker": "cosa succede dopo una frase che pesa",
+"passi": [
+{
+"et": "Dice la cosa",
+"sub": "proposta, obiezione, numero"
+},
+{
+"et": "Chiude la frase",
+"sub": "e qui comincia"
+},
+{
+"et": "Guarda qualcuno",
+"sub": "un attimo solo"
+}
+],
+"title": "Non durante: subito dopo, nel momento preciso in cui chiude la frase."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "chi è la persona che guarda",
+"rows": [
+"Il decisore",
+"Un alleato di cui cerca conferma",
+"Chi teme di contrariare"
+],
+"note": "Non lo sai, e per adesso non ti serve: ti basta sapere che quella relazione esiste."
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "Hai appena scoperto una relazione che nessuno ti avrebbe dichiarato,<br><span class=\"gold\">e che non è scritta in nessun documento.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "il pregio che quasi nessun altro segnale ha",
+"title": "È agganciata a un momento preciso.<br><span class=\"gold\">Il resto del tempo puoi ascoltare come chiunque altro.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "e adesso la parte scomoda",
+"title": "Se dopo ogni tua frase controlli una faccia sola,<br><span class=\"gold\">quella faccia ti sta condizionando più di quanto avessi deciso.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Sapere su chi si posa il tuo sguardo cambia qualcosa:<br><span class=\"gold\">da quel momento diventa una scelta.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "e non è sempre chi stimi di più",
+"title": "Stima e timore<br><span class=\"gold\">producono lo stesso identico movimento degli occhi.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "la seconda cosa solida",
+"title": "Il passaggio del turno è regolato in buona parte dallo sguardo.<br><span class=\"gold\">Non dalle pause, non dal tono: dagli occhi.</span>"
+},
+{
+"file": "c31",
+"layout": "bivio",
+"kicker": "le due direzioni del turno",
+"da": "Lo sguardo",
+"rami": [
+{
+"et": "Chi finisce di parlare",
+"sub": "guarda chi prende la parola"
+},
+{
+"et": "Chi vuole intervenire",
+"sub": "cerca lo sguardo di chi parla"
+}
+],
+"title": "Un sistema di prenotazione silenzioso, che nessuno ha insegnato a nessuno."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "due usi pratici",
+"rows": [
+"Dare la parola: finisci la frase guardandolo",
+"Prendere la parola: cerca il suo sguardo e tienilo"
+],
+"note": "Due dei pochissimi consigli operativi di tutto il corso."
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "due usi pratici",
+"rows": [
+"Dare la parola: finisci la frase guardandolo",
+"Prendere la parola: cerca il suo sguardo e tienilo"
+],
+"active": 0,
+"note": "Funziona molto meglio di «e tu cosa ne pensi», che mette in difficoltà in pubblico."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "due usi pratici",
+"rows": [
+"Dare la parola: finisci la frase guardandolo",
+"Prendere la parola: cerca il suo sguardo e tienilo"
+],
+"active": 1,
+"note": "Non alzare la mano, non fare rumore con la sedia, non dire «scusa»."
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Ti cederà il turno alla fine della frase,<br><span class=\"gold\">e lo farà senza accorgersi di averlo deciso.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "in quasi ogni gruppo c'è",
+"title": "Qualcuno che non riceve sguardi.<br><span class=\"gold\">Non è il più timido, e spesso non è nemmeno il più silenzioso.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Non perché sia antipatico, e quasi mai perché sia incompetente.<br><span class=\"gold\">Perché si è stabilito, senza dirlo, che la sua opinione non sposta niente.</span>"
+},
+{
+"file": "c39",
+"layout": "linea",
+"kicker": "un anno di riunioni, la stessa persona",
+"ciclo": 7,
+"momenti": [
+{
+"a": 0,
+"et": "Interviene",
+"sub": "come gli altri"
+},
+{
+"a": 35,
+"et": "Interviene meno",
+"sub": "nessuno lo nota"
+},
+{
+"a": 70,
+"et": "Interviene poco",
+"sub": "«è fatto così»"
+},
+{
+"a": 100,
+"et": "Non interviene",
+"sub": "sembra una descrizione"
+}
+],
+"sx": "prima",
+"dx": "dopo",
+"title": "Non protesta e non si lamenta: si ritira, e lo fa così lentamente che nessuno vede la cosa succedere."
+},
+{
+"file": "c40",
+"layout": "memo",
+"title": "Il gruppo perde un contributo<br>senza mai aver deciso<br>di perderlo."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "se conduci tu la riunione",
+"title": "Guardala mentre parli.<br><span class=\"gold\">Non interpellarla: guardarla.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Entro pochi minuti, nella maggior parte dei casi, interviene da sola.<br><span class=\"gold\">E quando non succede, non hai messo nessuno in imbarazzo.</span>"
+},
+{
+"file": "c43",
+"layout": "statement",
+"kicker": "due cautele",
+"title": "Anche su una cosa solida si può esagerare,<br><span class=\"gold\">e questo corso esiste soprattutto per evitarlo.</span>"
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "gli sguardi dicono chi ha influenza, non perché",
+"rows": [
+"Competente",
+"Temuta",
+"La più anziana del tavolo"
+],
+"note": "Tre ipotesi diverse, e su ognuna ci si comporta in un modo diverso."
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "Dieci volte in un'ora è una struttura.<br><span class=\"gold\">Una volta è stato un attimo.</span>"
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Guardare chi parla invece di chi viene guardato",
+"Interpellare chi non riceve sguardi",
+"Concludere il perché dell'influenza",
+"Leggere una singola occorrenza"
+],
+"active": 0,
+"note": "L'informazione sta in chi viene guardato, e l'abitudine ti porta su chi parla."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Guardare chi parla invece di chi viene guardato",
+"Interpellare chi non riceve sguardi",
+"Concludere il perché dell'influenza",
+"Leggere una singola occorrenza"
+],
+"active": 3,
+"note": "È la stessa prudenza della linea di base, applicata a un tavolo invece che a una persona."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "L'informazione non è chi parla.<br>È chi viene guardato."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Cinque minuti, alla prossima riunione",
+"Guarda dove guardano gli altri",
+"Non chi parla"
+],
+"note": "Una persona riceve molti più sguardi delle altre. Probabilmente non è quella che sta parlando di più."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Capire i segni del linguaggio non verbale"
+}
+]

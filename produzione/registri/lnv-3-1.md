@@ -48,10 +48,10 @@ rende la tesi verificabile da chi ascolta invece che soltanto affermata:
 **Nessun segnale è nominato senza la sua condizione**, come chiede il modulo.
 Ogni volta che il copione dice una durata, dice anche rispetto a chi.
 
-Tre aneddoti in prima persona, inventati come prevede `MASTER.md` §0.2 e senza
-dettagli verificabili: la persona che in riunione guardava sempre altrove e
-che si è scoperto ascoltasse meglio di tutti, la conversazione in auto, e il
-collega che sosteneva di avere davanti «uno che non lo guardava in faccia».
+**Nessun aneddoto**, come prevede il modulo 3 (la nota sta in fondo allo
+script, nelle note della 3.5). Gli esempi concreti ci sono — la conversazione
+in auto, la sala d'attesa — ma sono situazioni descritte, non episodi
+raccontati in prima persona.
 
 ## Le grafiche
 
