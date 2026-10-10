@@ -16,6 +16,10 @@ dall'audio): scartata e rifatta dagli asset allegati. Nella 11.8 il giro
 dava 7/8 per due rese del trascrittore («100 000», «luca»), sistemate in
 `RESE` senza toccare la voce.
 
+Il 10 ottobre 2026 la 11.7 è stata rimontata con la chiusura corretta
+(riga rossa sopra la scritta CISL FP); cambia solo l'immagine finale.
+
+
 | | lezione | durata | resa |
 |---|---|---|---|
 | 11.1 | L'anziano fragile | 8:01.9 | `f7eb02ef8927ad2b0ebf871e27c49e46` |

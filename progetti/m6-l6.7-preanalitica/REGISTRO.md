@@ -118,8 +118,12 @@ ricaricati. Giro 8/8, montato locale 8:56.8.
 
 | | |
 |---|---|
-| resa pubblicata | `54c41def1cc81dbb69f61944792a5515` — 519.774 s (8:39.8), 1080p 16:9, resa in 97 s, con SRT (`subtitle_url`) |
+| resa pubblicata | `dd035d1a93a2d9da0fac916068c8cfd7` — 535.453 s (8:55.5), 1080p 16:9, resa in 97 s, con SRT (`subtitle_url`) |
 | lotto asset | `9ae1ac1fc6424433b895f70b33f58ef3` — 98 file, 20 MB, tutti completati |
+
+### Rese precedenti
+
+- `54c41def1cc81dbb69f61944792a5515` (8:39.8): sostituita il 10/10/2026. Valori di emoglobina (donna 12-16) e piastrine (150.000-450.000) allineati al modulo 14: traccia B rigenerata, 98 file ricaricati (lotto c95b20636ab047eb82e70f4ede00c6e1).
 
 ---
 

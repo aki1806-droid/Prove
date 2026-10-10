@@ -17,6 +17,11 @@ confine fra s38 e s39 (`correzioni.json` dopo `allinea`). I crediti
 ElevenLabs sono finiti a metà della 12.6-12.8: voce e trascrizioni riprese al
 rinnovo dagli asset già allegati, senza rigenerare la voce A di 12.7 e 12.8.
 
+Il 10 ottobre 2026 12.1 e 12.2 sono state rimontate con la chiusura
+corretta (il titolo su tre righe non spinge più la riga rossa sopra la
+scritta CISL FP); cambia solo l'immagine finale.
+
+
 | | lezione | durata | resa |
 |---|---|---|---|
 | 12.1 | Le fonti e il diritto alla salute | 8:34.8 | `09688f4a41b3b252b10543d676574bc9` |

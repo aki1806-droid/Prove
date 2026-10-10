@@ -15,6 +15,13 @@ della pausa: si è abbassata la mira della lezione a 16,4 (montato 8:40.4).
 Fra la 14.5 e la 14.8 il container si è riavviato. Le code si sono rilanciate
 sui file già scritti e non si è perso niente.
 
+Correzioni del 10 ottobre 2026: in 14.6 l'ematocrito (la quota dei globuli
+rossi, non di tutti gli elementi figurati) e il momento delle emocolture
+(come in 6.7: all'insorgenza del brivido o al rialzo febbrile, prima
+dell'antibiotico); in 14.7 il significato dello sfregamento pleurico. Voce
+rigenerata solo nelle tracce che contenevano le frasi, rese ripubblicate.
+
+
 | | lezione | durata | resa |
 |---|---|---|---|
 | 14.1 | Cellula, tessuti e omeostasi | 8:39.7 | `891c72915d992f5f66eb1b2232d94ed8` |

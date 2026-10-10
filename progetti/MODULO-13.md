@@ -16,6 +16,13 @@ sistemata in `RESE`. Nella 13.5 due confini della traccia B cadevano 3,5 e
 HeyGen: ricaricato da solo con `create_asset_upload` e sostituito nelle
 scene.
 
+Verifica del 10 ottobre 2026 sui dubbi aperti: la 13.5 contiene tutto lo
+script del committente (nessuna frase caduta); 13.7 e 13.8 dicono
+«differibile» per la classe D, come la slide 5 dello script e il Piano
+nazionale di governo delle liste d'attesa (solo la slide 3 dello script
+diceva «differita»). Nessuna resa da rifare.
+
+
 | | lezione | durata | resa |
 |---|---|---|---|
 | 13.1 | L'assetto del Servizio Socio Sanitario Regionale veneto | 8:21.6 | `9767e35f8d190b0100d06b8ce0dc4804` |

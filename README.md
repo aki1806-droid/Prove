@@ -66,7 +66,7 @@ progetti/<modulo>-<lezione>/
 | `m6-l6.4-emogas` | Modulo 6 · 6.4 Emogasanalisi | 8:43.4 | `840e62425c2b1a9f66f9085a60c7e3b9` |
 | `m6-l6.5-parenterale` | Modulo 6 · 6.5 Nutrizione parenterale | 8:05.9 | `1583231c274bd3f524fc3cf1e01c6df6` |
 | `m6-l6.6-trasfusione` | Modulo 6 · 6.6 Emocomponenti ed emotrasfusione | 8:21.6 | `e2369fe63a53badbe49665fa41a20289` |
-| `m6-l6.7-preanalitica` | Modulo 6 · 6.7 Prelievi ed esami: la fase preanalitica | 8:39.8 | `54c41def1cc81dbb69f61944792a5515` |
+| `m6-l6.7-preanalitica` | Modulo 6 · 6.7 Prelievi ed esami: la fase preanalitica | 8:55.5 | `dd035d1a93a2d9da0fac916068c8cfd7` |
 | `m6-l6.8-riepilogo` | Modulo 6 · 6.8 Riepilogo del Modulo 6 e autovalutazione | 8:23.4 | `3147b0285563d62ee7de1e4bb5b83ba8` |
 | `m7-l7.1-riparazione` | Modulo 7 · 7.1 Riparazione tessutale e valutazione della lesione | 8:14.9 | `c6629b845a60382038b7cf0a1ca80ed2` |
 | `m7-l7.2-pressione` | Modulo 7 · 7.2 Lesioni da pressione | 8:25.4 | `e82517348e27587fb43e4ca5761e38bd` |
