@@ -2,36 +2,36 @@
  {
   "id": "S01",
   "inizio": 0,
-  "durata": 19.8759
+  "durata": 19.8774
  },
  {
   "id": "S02",
-  "inizio": 19.8759,
-  "durata": 30.8051
+  "inizio": 19.8774,
+  "durata": 19.1602
  },
  {
   "id": "S03",
-  "inizio": 50.681,
+  "inizio": 39.0376,
   "durata": 21.5284
  },
  {
   "id": "S04",
-  "inizio": 72.2094,
+  "inizio": 60.566,
   "durata": 12.5194
  },
  {
   "id": "S05",
-  "inizio": 84.7288,
+  "inizio": 73.0854,
   "durata": 24.0945
  },
  {
   "id": "S06",
-  "inizio": 108.8233,
+  "inizio": 97.1799,
   "durata": 21.8824
  },
  {
   "id": "S07",
-  "inizio": 130.7057,
+  "inizio": 119.0623,
   "durata": 21.3827
  }
 ]

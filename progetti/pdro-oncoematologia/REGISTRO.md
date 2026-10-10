@@ -40,3 +40,16 @@ PDRO_Oncoematologia_Pediatrica_9x16.mp4: 1080x1920, 25 fps, 140,48 s, -21,2 LUFS
 Copia d'invio _invio.mp4: 1500 kb/s in due passate, 28,8 MB. SRT: sottotitoli.srt (52 blocchi).
 Controllo: fotogramma a metà di ognuna delle 7 scene.
 Da fare prima di pubblicare: verificare aggiornamenti dell'Azienda (esiti verifiche, date di rientro).
+
+## Versione 2 — correzioni di Achille dopo la visione
+- S01: il trasferimento deve ancora avvenire → «Nei prossimi giorni … saranno trasferiti …»,
+  «quello che sta accadendo» al posto di «quello che è successo».
+- S02: aggiunta (testo approvato da Achille): sciacallaggio «non solo antietico, ma anche immorale
+  per un sindacato»; «a differenza di qualcuno che sembra sguazzare nelle criticità, noi restiamo
+  concentrati sulla nostra priorità: tutelare i lavoratori». Tolto «e non alimentiamo polemiche».
+  Nota: il pacchetto chiedeva «nessuna polemica con altre sigle»; la scelta è di Achille.
+- Nuove generazioni: S01 Y5vtdDBWgONXRyemM0ng · S02 MFrv7eks7GtJRMUGkxkZ. Le tracce v1 in audio/v1/.
+- Voce completa 152,088 s; S02 30,8 s (clip del corridoio rallentata di circa 2 volte).
+- Avatar: rigenerato solo per S01-S02 (asset 2a107a65d94d4a35bfdbeb1fd30029ee,
+  video 896d7d9286888937eaedf57fee21019e); dalle scene 3-7 resta il vecchio avatar.webm,
+  agganciato dal vecchio inizio di S03 (39,0376 s).

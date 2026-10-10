@@ -1,99 +1,99 @@
 {
-  "progetto": "PDRO_Oncoematologia_Pediatrica",
-  "identita": "CISL FP Padova Rovigo",
-  "formato": "9:16 1080x1920",
-  "voce_elevenlabs": "Achille nuovo 1 v4",
-  "modello": "eleven_multilingual_v2",
-  "atempo": 1.12,
-  "avatar_heygen": "Aki with a lapel microphone",
-  "posizione_avatar": "basso a destra",
-  "logo": "alto a sinistra",
-  "scene": [
-    {
-      "n": 1,
-      "tipo": "slide",
-      "titolo": "Vicini ai bambini, alle famiglie e a chi li cura",
-      "kicker": "ONCOEMATOLOGIA PEDIATRICA · SALUS PUERI",
-      "sotto": "Trasferimento temporaneo e precauzionale dei piccoli pazienti",
-      "voce": "Nei giorni scorsi i piccoli pazienti dell'Oncoematologia pediatrica del Salus Pueri sono stati trasferiti, in via precauzionale, per permettere le verifiche su una criticità agli impianti. Il nostro primo pensiero va ai bambini, alle loro famiglie e a tutte le persone che lavorano in quel reparto. Siamo dispiaciuti per quello che è successo, e vi siamo vicini.",
-      "parole": 57,
-      "caratteri": 362,
-      "durata_stimata_s": 22.3,
-      "file_visivo": "slide/S01_slide.png"
-    },
-    {
-      "n": 2,
-      "tipo": "clip",
-      "banda": "Prima la sicurezza dei pazienti. Sulle cause, la parola ai tecnici.",
-      "clip": "Corridoio ospedaliero pediatrico luminoso, inquadratura ampia e calma, nessun paziente riconoscibile, nessun bambino in primo piano. Camera lenta in avanti.",
-      "voce": "Sulle cause faranno chiarezza i tecnici, che hanno le competenze per farlo. Noi non ci sostituiamo a loro e non alimentiamo polemiche su una vicenda così delicata. Condividiamo la scelta di mettere al primo posto la sicurezza dei pazienti e la continuità delle cure. E aspettiamo di conoscere gli esiti delle verifiche e i tempi previsti per il rientro.",
-      "parole": 59,
-      "caratteri": 353,
-      "durata_stimata_s": 21.7,
-      "file_visivo": "clip/S02_clip.mp4 (da generare) + overlay_clip/S02_overlay.png"
-    },
-    {
-      "n": 3,
-      "tipo": "slide",
-      "titolo": "Di nuovo un trasferimento. Senza alcuna responsabilità.",
-      "kicker": "IL PERSONALE",
-      "sotto": "Infermieri, OSS e tutti i professionisti del reparto",
-      "voce": "C'è però un aspetto che non possiamo ignorare: le conseguenze su chi lavora. Infermieri, operatori socio sanitari e tutti i professionisti del reparto affrontano di nuovo un trasferimento, dopo il percorso già complesso del trasloco nella nuova struttura. Sono persone che non hanno alcuna responsabilità per quanto emerso, e alle quali si chiede ancora una volta uno sforzo in più.",
-      "parole": 60,
-      "caratteri": 382,
-      "durata_stimata_s": 23.5,
-      "file_visivo": "slide/S03_slide.png"
-    },
-    {
-      "n": 4,
-      "tipo": "clip",
-      "banda": "Abbiamo scritto subito alla Direzione dell'Azienda",
-      "clip": "Mani che firmano una lettera su carta intestata generica (senza loghi leggibili) su una scrivania d'ufficio, luce naturale. Dettaglio penna e foglio.",
-      "voce": "Per questo abbiamo scritto subito alla Direzione dell'Azienda Ospedale Università di Padova. Non per fare rumore, ma per chiedere risposte concrete per chi, in questi giorni, continua a garantire le cure a pazienti tanto fragili.",
-      "parole": 35,
-      "caratteri": 229,
-      "durata_stimata_s": 14.1,
-      "file_visivo": "clip/S04_clip.mp4 (da generare) + overlay_clip/S04_overlay.png"
-    },
-    {
-      "n": 5,
-      "tipo": "slide",
-      "titolo": "Cosa chiediamo",
-      "kicker": "LA NOSTRA NOTA",
-      "elenco": [
-        "Supporto logistico, tecnico e operativo",
-        "Programmazione chiara: carichi, orari e riposi rispettati",
-        "Informazione e coinvolgimento preventivo",
-        "Riconoscimento economico dell'impegno straordinario"
-      ],
-      "voce": "Chiediamo quattro cose. Un supporto logistico, tecnico e operativo, perché il trasloco non pesi sul personale assistenziale. Una programmazione chiara, con risorse sufficienti e il pieno rispetto di carichi di lavoro, orari e riposi. Informazione e coinvolgimento preventivo dei lavoratori, sia per il trasferimento sia per il rientro. E una valutazione concreta di un riconoscimento economico per l'impegno straordinario.",
-      "parole": 59,
-      "caratteri": 422,
-      "durata_stimata_s": 26.0,
-      "file_visivo": "slide/S05_slide.png"
-    },
-    {
-      "n": 6,
-      "tipo": "clip",
-      "banda": "La disponibilità di chi lavora non è gratuita né illimitata",
-      "clip": "Infermiera e operatore sociosanitario di spalle che spingono un carrello attrezzato lungo un corridoio, ritmo calmo. Nessun paziente in scena.",
-      "voce": "La disponibilità, la professionalità e il senso di responsabilità di chi lavora non sono risorse gratuite e illimitate. Chi cambia di nuovo sede continuando ad assistere bambini così fragili merita che questo sacrificio sia riconosciuto, anche sul piano economico. Superata la fase più delicata, chiediamo all'Azienda di affrontare questo punto insieme alle organizzazioni sindacali.",
-      "parole": 54,
-      "caratteri": 383,
-      "durata_stimata_s": 23.6,
-      "file_visivo": "clip/S06_clip.mp4 (da generare) + overlay_clip/S06_overlay.png"
-    },
-    {
-      "n": 7,
-      "tipo": "slide",
-      "titolo": "La sicurezza dei pazienti è una priorità. Anche chi la garantisce.",
-      "kicker": "CISL FP PADOVA ROVIGO",
-      "sotto": "Lavori nel reparto? Dubbi su turni, orari o riposi? Scrivici o vieni in sede.",
-      "voce": "La sicurezza dei pazienti è una priorità assoluta. Ma la tutela di chi, ogni giorno, quella sicurezza la garantisce deve esserlo altrettanto. Se lavori nel reparto e hai dubbi su turni, orari o riposi, scrivici o vieni nella nostra sede: ti ascoltiamo e seguiamo la situazione con te, passo dopo passo. CISL FP Padova Rovigo, accanto a chi cura.",
-      "parole": 59,
-      "caratteri": 345,
-      "durata_stimata_s": 21.2,
-      "file_visivo": "slide/S07_slide.png"
-    }
-  ]
+ "progetto": "PDRO_Oncoematologia_Pediatrica",
+ "identita": "CISL FP Padova Rovigo",
+ "formato": "9:16 1080x1920",
+ "voce_elevenlabs": "Achille nuovo 1 v4",
+ "modello": "eleven_multilingual_v2",
+ "atempo": 1.12,
+ "avatar_heygen": "Aki with a lapel microphone",
+ "posizione_avatar": "basso a destra",
+ "logo": "alto a sinistra",
+ "scene": [
+  {
+   "n": 1,
+   "tipo": "slide",
+   "titolo": "Vicini ai bambini, alle famiglie e a chi li cura",
+   "kicker": "ONCOEMATOLOGIA PEDIATRICA · SALUS PUERI",
+   "sotto": "Trasferimento temporaneo e precauzionale dei piccoli pazienti",
+   "voce": "Nei prossimi giorni i piccoli pazienti dell'Oncoematologia pediatrica del Salus Pueri saranno trasferiti, in via precauzionale, per permettere le verifiche su una criticità agli impianti. Il nostro primo pensiero va ai bambini, alle loro famiglie e a tutte le persone che lavorano in quel reparto. Siamo dispiaciuti per quello che sta accadendo, e vi siamo vicini.",
+   "parole": 56,
+   "caratteri": 364,
+   "durata_stimata_s": 22.3,
+   "file_visivo": "slide/S01_slide.png"
+  },
+  {
+   "n": 2,
+   "tipo": "clip",
+   "banda": "Prima la sicurezza dei pazienti. Sulle cause, la parola ai tecnici.",
+   "clip": "Corridoio ospedaliero pediatrico luminoso, inquadratura ampia e calma, nessun paziente riconoscibile, nessun bambino in primo piano. Camera lenta in avanti.",
+   "voce": "Sulle cause faranno chiarezza i tecnici, che hanno le competenze per farlo. Noi non ci sostituiamo a loro. E riteniamo che fare sciacallaggio su una vicenda così delicata sia non solo antietico, ma anche immorale per un sindacato. A differenza di qualcuno che sembra sguazzare nelle criticità, noi restiamo concentrati sulla nostra priorità: tutelare i lavoratori. Condividiamo la scelta di mettere al primo posto la sicurezza dei pazienti e la continuità delle cure. E aspettiamo di conoscere gli esiti delle verifiche e i tempi previsti per il rientro.",
+   "parole": 88,
+   "caratteri": 554,
+   "durata_stimata_s": 21.7,
+   "file_visivo": "clip/S02_clip.mp4 (da generare) + overlay_clip/S02_overlay.png"
+  },
+  {
+   "n": 3,
+   "tipo": "slide",
+   "titolo": "Di nuovo un trasferimento. Senza alcuna responsabilità.",
+   "kicker": "IL PERSONALE",
+   "sotto": "Infermieri, OSS e tutti i professionisti del reparto",
+   "voce": "C'è però un aspetto che non possiamo ignorare: le conseguenze su chi lavora. Infermieri, operatori socio sanitari e tutti i professionisti del reparto affrontano di nuovo un trasferimento, dopo il percorso già complesso del trasloco nella nuova struttura. Sono persone che non hanno alcuna responsabilità per quanto emerso, e alle quali si chiede ancora una volta uno sforzo in più.",
+   "parole": 60,
+   "caratteri": 382,
+   "durata_stimata_s": 23.5,
+   "file_visivo": "slide/S03_slide.png"
+  },
+  {
+   "n": 4,
+   "tipo": "clip",
+   "banda": "Abbiamo scritto subito alla Direzione dell'Azienda",
+   "clip": "Mani che firmano una lettera su carta intestata generica (senza loghi leggibili) su una scrivania d'ufficio, luce naturale. Dettaglio penna e foglio.",
+   "voce": "Per questo abbiamo scritto subito alla Direzione dell'Azienda Ospedale Università di Padova. Non per fare rumore, ma per chiedere risposte concrete per chi, in questi giorni, continua a garantire le cure a pazienti tanto fragili.",
+   "parole": 35,
+   "caratteri": 229,
+   "durata_stimata_s": 14.1,
+   "file_visivo": "clip/S04_clip.mp4 (da generare) + overlay_clip/S04_overlay.png"
+  },
+  {
+   "n": 5,
+   "tipo": "slide",
+   "titolo": "Cosa chiediamo",
+   "kicker": "LA NOSTRA NOTA",
+   "elenco": [
+    "Supporto logistico, tecnico e operativo",
+    "Programmazione chiara: carichi, orari e riposi rispettati",
+    "Informazione e coinvolgimento preventivo",
+    "Riconoscimento economico dell'impegno straordinario"
+   ],
+   "voce": "Chiediamo quattro cose. Un supporto logistico, tecnico e operativo, perché il trasloco non pesi sul personale assistenziale. Una programmazione chiara, con risorse sufficienti e il pieno rispetto di carichi di lavoro, orari e riposi. Informazione e coinvolgimento preventivo dei lavoratori, sia per il trasferimento sia per il rientro. E una valutazione concreta di un riconoscimento economico per l'impegno straordinario.",
+   "parole": 59,
+   "caratteri": 422,
+   "durata_stimata_s": 26.0,
+   "file_visivo": "slide/S05_slide.png"
+  },
+  {
+   "n": 6,
+   "tipo": "clip",
+   "banda": "La disponibilità di chi lavora non è gratuita né illimitata",
+   "clip": "Infermiera e operatore sociosanitario di spalle che spingono un carrello attrezzato lungo un corridoio, ritmo calmo. Nessun paziente in scena.",
+   "voce": "La disponibilità, la professionalità e il senso di responsabilità di chi lavora non sono risorse gratuite e illimitate. Chi cambia di nuovo sede continuando ad assistere bambini così fragili merita che questo sacrificio sia riconosciuto, anche sul piano economico. Superata la fase più delicata, chiediamo all'Azienda di affrontare questo punto insieme alle organizzazioni sindacali.",
+   "parole": 54,
+   "caratteri": 383,
+   "durata_stimata_s": 23.6,
+   "file_visivo": "clip/S06_clip.mp4 (da generare) + overlay_clip/S06_overlay.png"
+  },
+  {
+   "n": 7,
+   "tipo": "slide",
+   "titolo": "La sicurezza dei pazienti è una priorità. Anche chi la garantisce.",
+   "kicker": "CISL FP PADOVA ROVIGO",
+   "sotto": "Lavori nel reparto? Dubbi su turni, orari o riposi? Scrivici o vieni in sede.",
+   "voce": "La sicurezza dei pazienti è una priorità assoluta. Ma la tutela di chi, ogni giorno, quella sicurezza la garantisce deve esserlo altrettanto. Se lavori nel reparto e hai dubbi su turni, orari o riposi, scrivici o vieni nella nostra sede: ti ascoltiamo e seguiamo la situazione con te, passo dopo passo. CISL FP Padova Rovigo, accanto a chi cura.",
+   "parole": 59,
+   "caratteri": 345,
+   "durata_stimata_s": 21.2,
+   "file_visivo": "slide/S07_slide.png"
+  }
+ ]
 }

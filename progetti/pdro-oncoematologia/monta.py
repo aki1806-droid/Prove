@@ -63,17 +63,37 @@ def fondo():
     ff('-f', 'concat', '-safe', '0', '-i', lista, '-c', 'copy', os.path.join(LAV, 'fondo.mp4'))
 
 
+def sorgente_avatar():
+    """Ingressi e filtro della traccia avatar. Versione 2: le scene 1-2 sono state
+    riscritte, quindi l'avatar è il nuovo spezzone avatar-S01-S02.webm seguito
+    dal vecchio avatar.webm a partire dalla scena 3 (il suo audio non è cambiato)."""
+    nuovo = os.path.join(QUI, 'avatar/avatar-S01-S02.webm')
+    if not os.path.exists(nuovo):
+        return ['-c:v', 'libvpx-vp9', '-i', os.path.join(QUI, 'avatar/avatar.webm')], '[3:v]'
+    v1 = json.load(open(os.path.join(QUI, 'audio/v1/tempi-scene.json')))
+    s3_vecchio = next(t['inizio'] for t in v1 if t['id'] == 'S03')
+    s3_nuovo = next(t['inizio'] for t in TEMPI if t['id'] == 'S03')
+    ingressi = ['-c:v', 'libvpx-vp9', '-i', nuovo, '-c:v', 'libvpx-vp9', '-i', os.path.join(QUI, 'avatar/avatar.webm')]
+    filtro = (f"[3:v]fps={FPS},format=rgba,trim=duration={s3_nuovo:.4f},setpts=PTS-STARTPTS,"
+              f"tpad=stop_mode=clone:stop_duration=1,trim=duration={s3_nuovo:.4f}[avA];"
+              f"[4:v]fps={FPS},format=rgba,trim=start={s3_vecchio:.4f},setpts=PTS-STARTPTS[avB];"
+              f"[avA][avB]concat=n=2:v=1:a=0[avsrc];")
+    return ingressi, filtro
+
+
 def strati():
     g = os.path.join(QUI, 'grafica/out')
     cx, cy, cw, ch = AV_CROP
     dur = sum(t['durata'] for t in TEMPI)
+    av_in, av = sorgente_avatar()
+    av_pre, av_lab = ('', av) if av == '[3:v]' else (av, '[avsrc]')
     ff('-i', os.path.join(LAV, 'fondo.mp4'),
        '-loop', '1', '-i', os.path.join(g, 'logo.png'),
        '-f', 'concat', '-safe', '0', '-i', os.path.join(g, 'sottotitoli.txt'),
-       '-c:v', 'libvpx-vp9', '-i', os.path.join(QUI, 'avatar/avatar.webm'),
+       *av_in,
        '-i', os.path.join(QUI, 'audio/voce-completa.wav'),
        '-filter_complex',
-       f"[3:v]fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,"
+       av_pre + f"{av_lab}fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,"
        f"tpad=stop_mode=clone:stop_duration=1,split[av][ombra];"
        # alone chiaro dietro la figura: la polo verde sul fondo verde altrimenti sparisce
        f"[ombra]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=14:alpha_radius=14,"
@@ -83,7 +103,7 @@ def strati():
        f"[a][alone]overlay={AV_X}:{1920 - AV_H}:eof_action=repeat[a2];"
        f"[a2][av]overlay={AV_X}:{1920 - AV_H}:eof_action=repeat[b];"
        f"[b][sub]overlay=0:0:eof_action=repeat,format=yuv420p[v]",
-       '-map', '[v]', '-map', '4:a', '-t', f'{dur:.3f}', '-r', str(FPS),
+       '-map', '[v]', '-map', f'{3 + av_in.count("-i")}:a', '-t', f'{dur:.3f}', '-r', str(FPS),
        '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-c:a', 'aac', '-b:a', '192k',
        '-movflags', '+faststart', os.path.join(QUI, 'PDRO_Oncoematologia_Pediatrica_9x16.mp4'))
 
