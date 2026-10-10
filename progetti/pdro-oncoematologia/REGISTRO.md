@@ -53,3 +53,7 @@ Da fare prima di pubblicare: verificare aggiornamenti dell'Azienda (esiti verifi
 - Avatar: rigenerato solo per S01-S02 (asset 2a107a65d94d4a35bfdbeb1fd30029ee,
   video 896d7d9286888937eaedf57fee21019e); dalle scene 3-7 resta il vecchio avatar.webm,
   agganciato dal vecchio inizio di S03 (39,0376 s).
+- Avatar S01-S02 scaricato (VP9 alfa, 50,72 s), audio allineato a voce-S01-S02.wav (pause entro 10 ms),
+  stessa inquadratura del vecchio. controlla-avatar.py con i nuovi sottotitoli: 0 pixel coperti.
+- Montato v2: 152,12 s; giunzione tra i due spezzoni dell'avatar sul taglio S02→S03 (non visibile).
+  Copia d'invio _v2_invio.mp4: 1380 kb/s due passate, 28,9 MB. sottotitoli.srt aggiornato (56 blocchi).
