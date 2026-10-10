@@ -30,6 +30,14 @@ grafiche         slide/scene.mjs + stile.css + rendi.mjs (Playwright, Montserrat
 montaggio        monta.py (locale, ffmpeg): fondo + scritte + avatar 440x616 bordato in
                  basso a destra; --segnaposto usa la foto ferma.
 
+avatar finale    video HeyGen 4029bde32d85a38eacdc96dad0978d73: stesso avatar e stessa voce,
+                 outputFormat webm (VP9 con alfa, 1080x1920, 25 fps, 175,228 s). Scaricato dopo
+                 che l'utente ha aperto resource2.heygen.ai nella rete dell'ambiente.
+                 Audio dell'avatar allineato a grezzo-1 (pause identiche al ms).
+                 Appoggiato in basso a destra: TAGLIO_ALTO 260, altezza 790, x 560.
+                 slide/controlla-avatar-video.py: sagoma in movimento a 2 fps contro le
+                 scritte, 0 pixel coperti in tutte le scene.
+
 ## Da verificare
 - Testo coordinato in G.U.: le misure di stabilizzazione SSN stanno nella L. 174/2026?
 - Contatti delle sedi di Padova e Rovigo per la scena 8: non forniti, nel video
