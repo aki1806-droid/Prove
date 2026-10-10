@@ -960,6 +960,10 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | voce | i crediti ElevenLabs finiscono a metà di un modulo | i nodi asset allegati restano sul flow: al rinnovo si trascrive da quelli; le voci già scaricate non si rigenerano |
 | asset | un item del lotto resta «queued» per minuti (13.8, `v13.8-s29.mp4`) e `get_asset` dice 404 | ricaricarlo da solo (`create_asset_upload`, PUT, `complete_asset_upload`) e sostituire l'id in `scene-N.json` e `asset-id.json` |
 | tagli | l'indice di `correzioni.json` sbagliato di uno (13.5: spostati i confini di s44 e s45 invece di s43 e s44) | in `confini-B.json` `confini[j]` è la **fine** di `ids[j]`: per spostare l'inizio di sNN si usa l'indice del blocco **prima** (13.5: B[16] = fine di s42); `correggi` stampa il valore vecchio, da confrontare prima di `applica` |
+| verifica | 7/8 per una sigla con numero («P450» detto «p 450», il trascrittore scrive «p450», 14.4) | in `RESE` la riga `\bp(\d+)\b` → « p \1 », in cima alla lista |
+| tagli | un blocco a 21,1 car/s con il confine giusto, a metà di una pausa di 1 s (14.5 `s40`) | spostare il confine nella pausa non serve, perché `applica` toglie il silenzio. Si abbassa `MIRA` della lezione (16,6 → 16,4) e la lezione si allunga di 6 s |
+| macchina | il container si riavvia e le code di clip e giri muoiono a metà (14.5-14.8) | i file già scritti restano: si rilanciano `dopo-correzioni.sh`, `giro-coda.sh` e `clips-coda.sh` con `setsid nohup`; la coda dei clip salta da sola le lezioni già a 48 |
+| git | `_trim-B.mp3` committato per sbaglio: è un temporaneo di `ritmo()` che si cancella da solo | `_trim-*.mp3` sta in `.gitignore` |
 
 ---
 
