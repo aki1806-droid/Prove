@@ -19,3 +19,13 @@ Scene del montaggio: heygen-scene.json (21 scene, ordine di scene.json)
 - Render completato (138,5 s, 1920x1080, 25 fps). Scaricati: FermoImmagine_16x9_sottotitoli.mp4 (60 MB, non versionato), FermoImmagine_16x9.srt.
 - Controllo: un fotogramma per scena (21/21) in ordine, avatar polo verde nelle scene avatar, testo SRT conforme ai testi voce.
 - Inviata all'utente la copia compressa FermoImmagine_16x9_compresso.mp4 (27,8 MB, due passate) + SRT.
+
+## Versione 2 (correzioni di Achille, 10 ottobre sera)
+- Richieste: «OSS» → «operatori socio sanitari»; invito più diretto a partecipare; adesione tramite il
+  modulo https://form.getformly.com/f/sy4MSi (scelta A: un solo modulo, adesione + racconti anonimi;
+  il QR v1 portava a https://form.getformly.com/f/5YNRS4).
+- Testi riscritti e approvati: B02, B14, B17, B19 (le versioni v1 sono in audio/v1/). Nuove voci eleven_v4,
+  stesso post; durate: B02 10,79 · B14 8,72 · B17 12,30 · B19 8,02 s.
+- Slide S07 rifatta: 02_slide/S07_adesione_v2.png (grafica/slide_adesione.py), «Aderisci al flash mob»,
+  QR nuovo verificato con OpenCV → sy4MSi. Clip B02 riadattata alla nuova durata.
+- Lotto asset HeyGen v2: d89d49c7ec234b2089bde5b350f3f1ca; heygen-scene.json aggiornato (6 id sostituiti).
