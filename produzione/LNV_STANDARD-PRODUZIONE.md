@@ -79,6 +79,25 @@ slide che ci sta sopra deve reggere due frasi invece di una. In pratica:
 Gli script che arrivano stanno sui **4.000–4.800 caratteri**: vanno riscritti a
 poco più del doppio. È il caso normale, non un'eccezione.
 
+### La taratura va rifatta ogni volta che la voce cambia velocità
+
+I 18 car/s della formula sono una stima, e la stima invecchia. Il conto che
+conta è quello misurato: `banda.py banda` stampa in testa a ogni traccia i
+**caratteri al secondo di parlato netto**, e la somma dei supplementi di
+posa si legge in coda a `pose.py`.
+
+Alla taratura di ottobre 2025 — voce Luca Ward, `eleven_v4`, 1,12× in post,
+silenzi rimossi — la lettura sta intorno ai **18,2 car/s** e il supplemento
+di slide di una lezione normale sta intorno ai **27 s**. A quei due numeri il
+bersaglio di 587 s si raggiunge con **10.150–10.250 caratteri**, non con i
+10.500 della formula.
+
+La 4.1 è stata scritta sulla forbice vecchia ed è uscita dieci secondi lunga:
+la correzione è costata 213 caratteri tolti, un chunk rigenerato e cinque
+spostamenti di confine rifatti da capo. **Si misura prima di generare la
+voce**, non dopo: basta dividere i caratteri del copione per i car/s
+dell'ultima lezione e aggiungere il supplemento di posa.
+
 ## 4. La voce, in tre tracce
 
 `eleven_v4` al posto di `eleven_v3` dei moduli 6–8 del primo corso. Il limite
@@ -272,6 +291,7 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 3.3 | Lo sguardo nel gruppo | 9:59 | `b79f2fa1d5c14eca6b69fc96494d74c4` |
 | 3.4 | Pupille e ammiccamento | 9:59 | `6c318a0f029ed071fbdc5a59604330ec` |
 | 3.5 | Lo sguardo che mandi tu | 10:04 | `586431bd2f9519ae6515c01548cc3c66` |
+| 4.1 | Le distanze | 9:58 | `7c7f0dab16af639ca6b74f809b31d4c7` |
 
 **Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
 settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
@@ -280,8 +300,9 @@ riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
 dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
 `LNV_M3_SCRIPT-HEYGEN.md`.
 
-**Il modulo 4 è in lavorazione.** Gli script dei moduli 4, 5 e 6 sono
-arrivati; manca quello del modulo 7.
+**Il modulo 4 è in lavorazione**: la 4.1 è montata, la 4.2 è in produzione.
+Gli script dei moduli 4, 5 e 6 sono arrivati; manca quello del modulo 7. Il
+registro di modulo si scrive quando le cinque lezioni sono chiuse.
 
 **Il controllo dei tagli è parziale su tutte e quindici le lezioni** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
@@ -291,5 +312,9 @@ duecentoventicinque i suoi tagli cadono dentro un silenzio. Quando la
 trascrizione torna, i confini segnalati nei registri vanno risentiti uno per
 uno con `tagli.py correggi`.
 
-**Una ripresa è stata montata senza essere guardata**: `s07` della 3.3. Va
-guardata prima di pubblicare.
+**Due riprese sono state montate senza essere guardate**: `s07` della 3.3 e
+`s15` della 4.1. Vanno guardate prima di pubblicare. In entrambi i casi la
+causa è stata la stessa: nessuna anteprima in linea dal connettore e i tre
+host del CDN chiusi dalla policy di rete. Dal 10 ottobre
+`ai-toolkit-generations.imgix.net` risponde di nuovo, quindi si scaricano da
+lì e si guardano senza rigenerarle.

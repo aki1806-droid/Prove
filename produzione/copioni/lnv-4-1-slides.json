@@ -1,0 +1,479 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.1",
+"title": "Le distanze",
+"sub": "Il corpo nello spazio"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "edward hall, anni sessanta",
+"title": "Quattro fasce di distanza,<br><span class=\"gold\">una per tipo di rapporto.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "C'è una distanza oltre la quale ti senti scomodo.<br><span class=\"gold\">E un'altra oltre la quale non si conversa più.</span>"
+},
+{
+"file": "c04",
+"layout": "memo",
+"title": "Lo sai già.<br>Non l'hai mai<br>messo in parole."
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Hall ha dato un nome a una cosa che tutti sentono.<br><span class=\"gold\">Il guaio è arrivato dopo.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "le quattro zone",
+"rows": [
+"Intima — gli affetti, e chi ti cura",
+"Personale — amici e colleghi con confidenza",
+"Sociale — lavoro e conoscenze",
+"Pubblica — quando si parla a un gruppo"
+],
+"active": 0,
+"note": "Non è una zona che si concede: è una zona in cui si viene ammessi."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "le quattro zone",
+"rows": [
+"Intima — gli affetti, e chi ti cura",
+"Personale — amici e colleghi con confidenza",
+"Sociale — lavoro e conoscenze",
+"Pubblica — quando si parla a un gruppo"
+],
+"active": 1,
+"note": "È la fascia in cui si svolge quasi tutta la vita sociale."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "le quattro zone",
+"rows": [
+"Intima — gli affetti, e chi ti cura",
+"Personale — amici e colleghi con confidenza",
+"Sociale — lavoro e conoscenze",
+"Pubblica — quando si parla a un gruppo"
+],
+"active": 2,
+"note": "Riunioni, sportelli, corridoi. E poi il gruppo, dove la distanza è un formato."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Il problema non sono le quattro zone.<br><span class=\"gold\">Il problema sono i numeri.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "i centimetri che si ripetono ovunque",
+"title": "Hall associò a ogni fascia<br><span class=\"gold\">delle misure precise.</span>"
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "che cosa descrivono quelle misure",
+"plain": true,
+"rows": [
+"Adulti statunitensi",
+"Di classe media",
+"Negli anni Sessanta"
+],
+"note": "Edward Hall, anni Sessanta. Il nome e l'anno si dicono, così chi vuole controlla."
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Non sono costanti universali,<br><span class=\"gold\">e Hall non le ha mai presentate come tali.</span>"
+},
+{
+"file": "c13",
+"layout": "raggi",
+"kicker": "da che cosa dipende la distanza che preferisci",
+"centro": "La distanza",
+"attorno": [
+{
+"et": "La cultura",
+"d": 30
+},
+{
+"et": "La persona",
+"d": 55
+},
+{
+"et": "Il luogo",
+"d": 80
+},
+{
+"et": "La relazione",
+"d": 45
+}
+],
+"title": "Varia perfino con la temperatura della stanza."
+},
+{
+"file": "c14",
+"layout": "memo",
+"title": "Non è una costante.<br>È una media."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "lo spostamento che fa tutto il corso",
+"title": "Leggibile non è la distanza.<br><span class=\"gold\">È il cambiamento di distanza.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Due persone trovano in pochi secondi una distanza accettabile.<br><span class=\"gold\">Non la decidono. Ci arrivano.</span>"
+},
+{
+"file": "c18",
+"layout": "quote",
+"title": "È il primo accordo che due persone prendono.<br>Ed è sempre muto."
+},
+{
+"file": "c19",
+"layout": "memo",
+"title": "Chi la cambia.<br>E quando."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "tre rotture",
+"rows": [
+"Qualcuno si avvicina",
+"Qualcuno si allontana",
+"Qualcuno non segue il riavvicinamento"
+],
+"note": "Hanno la stessa forma e dicono cose diverse."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "tre rotture",
+"rows": [
+"Qualcuno si avvicina",
+"Qualcuno si allontana",
+"Qualcuno non segue il riavvicinamento"
+],
+"active": 0,
+"note": "Spesso per intensità: sta per dire una cosa importante o urgente."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "tre rotture",
+"rows": [
+"Qualcuno si avvicina",
+"Qualcuno si allontana",
+"Qualcuno non segue il riavvicinamento"
+],
+"active": 1,
+"note": "Un passo indietro, una sedia spostata, un busto che si ritrae."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Avvicinarsi capita.<br><span class=\"gold\">Allontanarsi va fatto apposta.</span>"
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "tre rotture",
+"rows": [
+"Qualcuno si avvicina",
+"Qualcuno si allontana",
+"Qualcuno non segue il riavvicinamento"
+],
+"active": 2,
+"note": "Non ha fatto niente, e proprio per questo si vede poco."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "il più affidabile dei tre",
+"title": "Lo scostamento all'indietro<br><span class=\"gold\">mentre tu parli.</span>"
+},
+{
+"file": "c26",
+"layout": "flusso",
+"kicker": "perché questo informa e altri no",
+"passi": [
+{
+"et": "Costa energia",
+"sub": "non capita per caso"
+},
+{
+"et": "È una reazione",
+"sub": "non uno stato"
+},
+{
+"et": "Ha un innesco",
+"sub": "appena successo"
+},
+{
+"et": "L'innesco si ritrova",
+"sub": "era la tua frase"
+}
+],
+"title": "L'informazione non è il movimento: è la frase."
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Se arriva subito dopo una tua frase,<br><span class=\"gold\">quella frase è l'informazione.</span>"
+},
+{
+"file": "c28",
+"layout": "confronto",
+"occhio": "le due letture dello stesso movimento",
+"titoli": [
+"Il giudizio",
+"L'osservazione"
+],
+"righe": [
+{
+"et": "Cosa dice",
+"a": "Non mi sopporta",
+"b": "Ha avuto bisogno di spazio",
+"segna": true
+},
+{
+"et": "Su cosa",
+"a": "Sulla persona",
+"b": "Su un momento",
+"segna": true
+},
+{
+"et": "Quanto dura",
+"a": "Per sempre",
+"b": "Finché dura il momento",
+"segna": true
+}
+]
+},
+{
+"file": "c29",
+"layout": "memo",
+"title": "Il giudizio non scade.<br>L'osservazione sì."
+},
+{
+"file": "c30",
+"layout": "memo",
+"title": "Allontanarsi costa energia.<br>Per questo informa."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "la mossa della lezione 1.5, senza modifiche",
+"title": "Non commentarlo.<br><span class=\"gold\">Dare più spazio all'argomento in cui è comparso.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "Oppure fare un passo indietro anche tu.<br><span class=\"gold\">Non richiede di dire niente.</span>"
+},
+{
+"file": "c33",
+"layout": "bivio",
+"kicker": "quando qualcuno si allontana",
+"da": "Qualcuno si allontana",
+"rami": [
+{
+"et": "Non commentarlo",
+"sub": "e dare spazio all'argomento"
+},
+{
+"et": "Fare un passo indietro anche tu",
+"sub": "e non dire niente"
+}
+],
+"title": "Restituiscono la distanza senza nominarla."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "tre errori nello spazio che occupi tu",
+"rows": [
+"Avvicinarsi per enfatizzare",
+"Non accorgersi del riavvicinamento",
+"Ignorare l'asimmetria di ruolo"
+],
+"active": 0,
+"note": "Sembra il modo di farla arrivare meglio. È il contrario."
+},
+{
+"file": "c36",
+"layout": "swap",
+"kicker": "quello che credi di mandare e quello che arriva",
+"rows": [
+[
+"Importanza",
+"Pressione"
+],
+[
+"Sto sottolineando",
+"Si è avvicinato mentre insisteva"
+]
+],
+"note": "Le due cose insieme ne fanno una sola, e non è quella che volevi."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "tre errori nello spazio che occupi tu",
+"rows": [
+"Avvicinarsi per enfatizzare",
+"Non accorgersi del riavvicinamento",
+"Ignorare l'asimmetria di ruolo"
+],
+"active": 1,
+"note": "Un passo alla volta, senza mai decidere di farlo."
+},
+{
+"file": "c38",
+"layout": "linea",
+"kicker": "una conversazione lunga, in piedi",
+"momenti": [
+{
+"a": 5,
+"et": "Si comincia",
+"sub": "distanza trovata"
+},
+{
+"a": 40,
+"et": "Un passo",
+"sub": "nessuno lo nota"
+},
+{
+"a": 70,
+"et": "Un altro",
+"sub": "l'altro arretra"
+},
+{
+"a": 88,
+"et": "Due metri dopo",
+"sub": "nessuno lo ha deciso"
+}
+],
+"sx": "inizio",
+"dx": "fine",
+"title": "Si vede solo da fuori."
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "tre errori nello spazio che occupi tu",
+"rows": [
+"Avvicinarsi per enfatizzare",
+"Non accorgersi del riavvicinamento",
+"Ignorare l'asimmetria di ruolo"
+],
+"active": 2,
+"note": "Gli sembra soltanto di essere cordiale."
+},
+{
+"file": "c40",
+"layout": "swap",
+"kicker": "lo stesso movimento, nella stessa stanza",
+"rows": [
+[
+"Un dirigente si avvicina",
+"Accettato senza commenti"
+],
+[
+"Un subordinato si avvicina",
+"Notato"
+]
+],
+"note": "Due letture che non hanno niente in comune."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Se sei tu quello con il ruolo,<br><span class=\"gold\">lo spazio lo governi tu.</span>"
+},
+{
+"file": "c42",
+"layout": "quote",
+"title": "Non te lo dirà.<br>Non c'è niente da dire:<br>si è spostato di mezzo passo."
+},
+{
+"file": "c43",
+"layout": "statement",
+"kicker": "una cosa concreta che quasi nessuno sceglie",
+"title": "Dove ti siedi.<br><span class=\"gold\">Le tre disposizioni non sono equivalenti.</span>"
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "la disposizione dei posti",
+"rows": [
+"Di fronte — il confronto",
+"Ad angolo — la più versatile",
+"Fianco a fianco — niente pressione dello sguardo"
+],
+"active": 0,
+"note": "Comoda per negoziare. Scomoda per parlare di cose difficili, per la stessa ragione."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "la disposizione dei posti",
+"rows": [
+"Di fronte — il confronto",
+"Ad angolo — la più versatile",
+"Fianco a fianco — niente pressione dello sguardo"
+],
+"active": 1,
+"note": "Consente lo sguardo e permette di staccarlo senza che sembri una fuga."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "la disposizione dei posti",
+"rows": [
+"Di fronte — il confronto",
+"Ad angolo — la più versatile",
+"Fianco a fianco — niente pressione dello sguardo"
+],
+"active": 2,
+"note": "Se puoi scegliere prima di una conversazione difficile, scegli l'angolo."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Leggibile non è la distanza.<br>È chi la cambia, e quando."
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "La prova di oggi si fa mentre fai altro.<br><span class=\"gold\">E non si vede che la stai facendo.</span>"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Chi si sposta",
+"In quale direzione",
+"Cosa era stato detto un attimo prima"
+],
+"note": "Scoprirai che gli spostamenti ci sono quasi sempre, e che quasi mai sono casuali."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]
