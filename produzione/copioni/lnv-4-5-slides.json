@@ -1,0 +1,392 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.5",
+"title": "Il contatto fisico",
+"sub": "E i suoi limiti"
+},
+{
+"file": "c02",
+"layout": "list",
+"kicker": "lo stesso movimento, tre cose diverse",
+"plain": true,
+"rows": [
+"Un gesto di cura",
+"Una violazione dei confini di una persona",
+"Un illecito"
+],
+"note": "È l'unico comportamento non verbale che può essere tutte e tre."
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Finora: cose che puoi leggere senza toccare niente.<br><span class=\"gold\">Qui: una cosa che si fa, e che arriva addosso a qualcuno.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "costruita al contrario di tutte le precedenti",
+"title": "Invece di spiegare cosa fare,<br><span class=\"gold\">stabilisce quando non farlo.</span>"
+},
+{
+"file": "c05",
+"layout": "memo",
+"title": "Nessuna tecnica.<br>Un criterio,<br>e un valore predefinito."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "la letteratura sul contatto breve",
+"plain": true,
+"rows": [
+"Percezioni di maggiore vicinanza",
+"Più disponibilità a collaborare",
+"Effetti su mance e piccole richieste"
+],
+"note": "Esiste, e sarebbe scorretto fare finta di no."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "in quali condizioni è stata studiata",
+"plain": true,
+"rows": [
+"Effetti piccoli",
+"Molto dipendenti dal contesto",
+"Situazioni commerciali brevi fra sconosciuti"
+],
+"note": "Il rapporto non prosegue dopo. Fuori da lì, non siamo nello stesso caso."
+},
+{
+"file": "c08",
+"layout": "statement",
+"title": "Chi riceve non ha niente da perdere<br><span class=\"gold\">e non rivedrà mai più chi lo ha toccato.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "come viene usata nei corsi di vendita",
+"title": "Con le percentuali.<br><span class=\"gold\">E senza nessuna delle condizioni.</span>"
+},
+{
+"file": "c11",
+"layout": "memo",
+"title": "Un effetto misurabile<br>non è un'autorizzazione."
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Che aumenti la probabilità di un sì<br><span class=\"gold\">non dice niente su se sia accettabile farla.</span>"
+},
+{
+"file": "c13",
+"layout": "confronto",
+"occhio": "due domande che sembrano una sola",
+"titoli": [
+"Funziona?",
+"È accettabile?"
+],
+"righe": [
+{
+"et": "Che domanda è",
+"a": "Sui risultati",
+"b": "Su cosa è lecito",
+"segna": true
+},
+{
+"et": "Come si risponde",
+"a": "Si misura",
+"b": "Si decide",
+"segna": true
+},
+{
+"et": "Se la salti",
+"a": "Non te ne accorgi",
+"b": "Se ne accorge l'altro",
+"segna": true
+}
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "la distinzione del modulo sulla persuasione etica",
+"title": "Là riguardava le parole.<br><span class=\"gold\">Qui riguarda il contatto, e pesa di più.</span>"
+},
+{
+"file": "c15",
+"layout": "bivio",
+"kicker": "il criterio, in forma secca",
+"da": "Le tre condizioni",
+"rami": [
+{
+"et": "Ci sono tutte e tre",
+"sub": "si può"
+},
+{
+"et": "Ne manca una",
+"sub": "non si tocca"
+}
+],
+"title": "Non è una lista da cui scegliere."
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "tre condizioni, tutte necessarie",
+"rows": [
+"Il consenso — esplicito, o evidente dalla relazione",
+"Il ruolo — lo prevede?",
+"La simmetria — potrebbe farlo anche lui?"
+],
+"active": 0,
+"note": "Fra due amici di vent'anni è evidente. Fra due colleghi da un mese no."
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "tre condizioni, tutte necessarie",
+"rows": [
+"Il consenso — esplicito, o evidente dalla relazione",
+"Il ruolo — lo prevede?",
+"La simmetria — potrebbe farlo anche lui?"
+],
+"active": 1,
+"note": "Ci sono mestieri in cui il contatto è parte della prestazione. In tutti gli altri la risposta è no."
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "tre condizioni, tutte necessarie",
+"rows": [
+"Il consenso — esplicito, o evidente dalla relazione",
+"Il ruolo — lo prevede?",
+"La simmetria — potrebbe farlo anche lui?"
+],
+"active": 2,
+"note": "È quella che quasi nessuno si pone, ed è la più rivelatrice."
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Non devi capire se le fa piacere.<br><span class=\"gold\">Devi guardare se potrebbe fare lo stesso a te.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "una mano sulla spalla di un collaboratore",
+"title": "Un gesto che il collaboratore non potrebbe ricambiare.<br><span class=\"gold\">Non perché sia vietato: perché succederebbe qualcosa.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Non è affettuoso.<br>È una dichiarazione<br>di asimmetria."
+},
+{
+"file": "c22",
+"layout": "swap",
+"kicker": "quello che intendi e quello che arriva",
+"rows": [
+[
+"La buona fede",
+"È la regola"
+],
+[
+"Quello che arriva",
+"Non cambia"
+]
+],
+"note": "Il significato di un contatto non lo decide chi lo fa: lo decide la posizione da cui parte."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Smaschera i contatti che sembrano cordiali<br><span class=\"gold\">e sono esercizi di posizione.</span>"
+},
+{
+"file": "c24",
+"layout": "quote",
+"title": "Potrebbe farlo anche lui,<br>verso di me?"
+},
+{
+"file": "c25",
+"layout": "memo",
+"title": "Nel dubbio,<br>zero contatto."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "il fatto su cui si regge tutto il resto",
+"title": "Chi riceve un contatto non gradito<br><span class=\"gold\">quasi mai lo segnala.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Non perché non le dispiaccia.<br><span class=\"gold\">Perché segnalarlo costa, e costa a lei.</span>"
+},
+{
+"file": "c28",
+"layout": "flusso",
+"kicker": "perché il silenzio è la scelta ragionevole",
+"passi": [
+{
+"et": "Sembrare esagerato",
+"sub": "per così poco"
+},
+{
+"et": "L'imbarazzo",
+"sub": "ricade su chi lo solleva"
+},
+{
+"et": "Le conseguenze",
+"sub": "basta il rischio"
+}
+],
+"title": "Quasi tutti scelgono il silenzio."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Non servono ritorsioni perché conti.<br><span class=\"gold\">Basta diventare quella un po' difficile.</span>"
+},
+{
+"file": "c30",
+"layout": "memo",
+"title": "L'assenza di reazione<br>non è consenso."
+},
+{
+"file": "c31",
+"layout": "strati",
+"kicker": "quello che vedi, e quello che può esserci sotto",
+"sopra": "Sta fermo",
+"sotto": [
+"Gli è andata bene",
+"Non gli è andata bene",
+"Non lo saprai"
+],
+"title": "Il riscontro, qui, non arriva."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "l'unico segnale del corso senza riscontro",
+"title": "Altrove qualcosa torna indietro.<br><span class=\"gold\">Qui no.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Una conclusione sbagliata da un'osservazione corretta.<br><span class=\"gold\">Ed è così che si ripete la stessa cosa per anni.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "perché la stretta di mano è l'eccezione",
+"plain": true,
+"rows": [
+"Simmetrica",
+"Dichiarata",
+"Rifiutabile senza costo"
+],
+"note": "Nessun altro contatto ha tutte e tre queste proprietà."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "e questo riguarda molti di voi",
+"title": "In sanità il contatto è prestazione.<br><span class=\"gold\">Ha una funzione tecnica.</span>"
+},
+{
+"file": "c37",
+"layout": "memo",
+"title": "Quelle regole<br>non vengono da questo corso.<br>E non vengono sostituite."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "dove sta la fonte",
+"title": "La tua formazione professionale.<br><span class=\"gold\">Non un modulo di linguaggio non verbale.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Quello che posso aggiungere<br><span class=\"gold\">è una sola osservazione.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Anche il contatto tecnico comunica.<br><span class=\"gold\">E chi lo riceve lo registra come tale, sempre.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "una frase sola, prima di farlo",
+"title": "Sposta il contatto da cosa che subisci<br><span class=\"gold\">a cosa che sai. E costa due secondi.</span>"
+},
+{
+"file": "c42",
+"layout": "quote",
+"title": "È comunicazione, non tecnica.<br>Ed è la parte<br>che spesso non insegna nessuno."
+},
+{
+"file": "c43",
+"layout": "statement",
+"kicker": "perché non sia solo una lista di divieti",
+"title": "Due cose da guardare.<br><span class=\"gold\">E nessuna chiede di avvicinarsi a nessuno.</span>"
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "cosa osservare, invece di toccare",
+"rows": [
+"Chi tocca chi — indica la gerarchia",
+"Come reagisce chi viene toccato"
+],
+"active": 0,
+"note": "Il contatto scende quasi sempre dall'alto verso il basso. È la ragione della simmetria."
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "Non richiede di conoscere l'organigramma.<br><span class=\"gold\">Dieci minuti di riunione informale e si vede.</span>"
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "cosa osservare, invece di toccare",
+"rows": [
+"Chi tocca chi — indica la gerarchia",
+"Come reagisce chi viene toccato"
+],
+"active": 1,
+"note": "Un irrigidimento, un arretramento minimo, un sorriso che compare un attimo dopo."
+},
+{
+"file": "c47",
+"layout": "quote",
+"title": "Nel dubbio,<br>il valore predefinito<br>è zero contatto."
+},
+{
+"file": "c48",
+"layout": "statement",
+"kicker": "e se sei tu quello che ha toccato",
+"title": "La risposta giusta non è spiegare.<br><span class=\"gold\">È non ripeterlo.</span>"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Nota chi tocca chi",
+"Non giudicare: nota la direzione",
+"Scoprirai che coincide con il potere"
+],
+"note": "Nel prossimo modulo: gesti e voce."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 4",
+"sub": "Modulo 5 — Gesti e voce"
+}
+]

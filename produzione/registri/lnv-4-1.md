@@ -42,7 +42,7 @@ memoria, è il modo più veloce per sbagliarne uno.
 
 ## Il copione
 
-Da **4.326** caratteri di parlato nello script a **10.172**. Il modulo 4 non
+Da **4.266** caratteri di parlato nello script a **10.172**. Il modulo 4 non
 vieta gli aneddoti come il 3, ma la nota di questa lezione dice
 «Nessun aneddoto»: non ce ne sono.
 

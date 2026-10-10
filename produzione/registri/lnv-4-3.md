@@ -21,7 +21,7 @@ fare con l'effetto sugli altri: ti fa parlare meglio.
 
 ## Il copione
 
-Da **4.067** caratteri di parlato nello script a **10.182**, media 212 per
+Da **4.202** caratteri di parlato nello script a **10.182**, media 212 per
 blocco. Scritta sulla forbice rimisurata e tagliata prima di generare la voce:
 10.475 alla prima stesura, 300 caratteri tolti, nessuna rigenerazione.
 **Nessun aneddoto**, come chiede la nota della lezione.

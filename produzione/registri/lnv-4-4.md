@@ -43,7 +43,7 @@ una lista di eccezioni esplicite invece di allentare il controllo.
 
 ## Il copione
 
-Da **4.067** caratteri di parlato nello script a **10.167**, media 212 per
+Da **4.411** caratteri di parlato nello script a **10.167**, media 212 per
 blocco. La prima stesura si era fermata a 9.014 — **è la prima volta che una
 lezione esce corta invece che lunga** — e sono stati aggiunti 1.150 caratteri
 in due giri, su blocchi scelti per quello che avevano da dire, non per

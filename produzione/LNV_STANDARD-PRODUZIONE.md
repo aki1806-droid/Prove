@@ -363,31 +363,37 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 4.2 | L'orientamento: dove puntano i piedi | 9:58 | `8a1910badeaab1b88881337b633208c4` |
 | 4.3 | Postura, senza luoghi comuni | 9:58 | `2539717ed77fcdfaf35001c760098184` |
 | 4.4 | Le pose di potere: cosa non regge | 9:58 | `c1eb0c5772b1cbc752f319564403a18e` |
+| 4.5 | Il contatto fisico e i suoi limiti | 9:58 | `7a974e069bc0f469505dad7f456dd5f2` |
 
-**Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
-settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
-riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
-`registri/lnv-modulo-2.md` e `registri/lnv-modulo-3.md`. I copioni arrivano
-dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
-`LNV_M3_SCRIPT-HEYGEN.md`.
+**Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
+novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
+cinquantatré riprese. I registri di modulo stanno in
+`registri/lnv-modulo-1.md`, `registri/lnv-modulo-2.md`,
+`registri/lnv-modulo-3.md` e `registri/lnv-modulo-4.md`. I copioni arrivano
+dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
+`LNV_M3_SCRIPT-HEYGEN.md` e `LNV_M4_SCRIPT-HEYGEN.md`.
 
-**Il modulo 4 è in lavorazione**: la 4.1, la 4.2, la 4.3 e la 4.4 sono
-montate, resta la 4.5. Gli script dei moduli 4, 5 e 6 sono arrivati; manca
-quello del modulo 7. Il registro di modulo si scrive quando le cinque lezioni
-sono chiuse.
+**Il modulo 4 è chiuso**: cinque lezioni tutte a 9:58, il primo modulo del
+corso in cui le cinque durate coincidono al secondo. **Restano da produrre i
+moduli 5 e 6**, i cui script sono in casa; manca quello del modulo 7.
 
-**Il controllo dei tagli è parziale su tutte e quindici le lezioni** (vedi i
+Due vincoli degli script che restano, da portarsi dietro dalla prima lezione:
+nel **modulo 5 nessun gesto offensivo** va nominato, descritto o mostrato; nel
+**modulo 6 nessuna formulazione** che suggerisca il riconoscimento della
+menzogna, nemmeno attenuata o per negazione retorica.
+
+**Il controllo dei tagli è parziale su tutte e venti le lezioni** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
 duecentoventicinque i suoi tagli cadono dentro un silenzio. Nel modulo 4 la
-4.1 chiude con un confine fuori banda, la 4.2 e la 4.4 con zero e la 4.3 con
-due, e in tutte e quattro i tagli cadono dentro un silenzio. I due della 4.3 sono gli unici
-del corso di cui si può dimostrare che NON sono confini sbagliati:
-`griglia.py` ha provato tutte le pause della finestra e nessuna migliora la
-coppia, e la somma dei blocchi coinvolti è in pari. Quando la
-trascrizione torna, i confini segnalati nei registri vanno risentiti uno per
-uno con `tagli.py correggi`.
+4.1 chiude con un confine fuori banda, la 4.2, la 4.4 e la 4.5 con zero e la
+4.3 con due, e in tutte e cinque i tagli cadono dentro un silenzio — altri
+duecentoventicinque. I due della 4.3 sono gli unici del corso di cui si può
+dimostrare che NON sono confini sbagliati: `griglia.py` ha provato tutte le
+pause della finestra e nessuna migliora la coppia, e la somma dei blocchi
+coinvolti è in pari. Quando la trascrizione torna, i confini segnalati nei
+registri vanno risentiti uno per uno con `tagli.py correggi`.
 
 **Due riprese sono state montate senza essere guardate** — `s07` della 3.3 e
 `s15` della 4.1 — e **tutte e due sono poi state guardate**: vanno bene. In
