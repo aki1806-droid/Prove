@@ -1,0 +1,7 @@
+file 'finali/S01.mp3'
+file 'finali/S02.mp3'
+file 'finali/S03.mp3'
+file 'finali/S04.mp3'
+file 'finali/S05.mp3'
+file 'finali/S06.mp3'
+file 'finali/S07.mp3'
