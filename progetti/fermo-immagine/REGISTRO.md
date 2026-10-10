@@ -13,3 +13,6 @@ Clip: rallentate in locale alla durata della voce (minterpolate) o tagliate se p
   audio → clip_pronte/. In HeyGen playback freeze + mute.
 Lotto asset HeyGen: d7e4dd2f966f4b378df9deba95455783 (19 audio + 9 slide + 8 clip) — heygen-asset.json
 Scene del montaggio: heygen-scene.json (21 scene, ordine di scene.json)
+
+## Montaggio HeyGen
+- Video studio lanciato il 2026-10-10: video_id `240246d037576d93efbc67d94aa8e070` (16:9, 1080p, sottotitoli srt).
