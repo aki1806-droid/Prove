@@ -136,6 +136,40 @@ lezioni del modulo. La nota sta in fondo allo script, cioè nel punto in cui la
 si legge per ultima: **va cercata prima di scrivere la prima lezione**, non
 dopo aver montato la terza. È costato il rifacimento della 3.2 e della 3.3.
 
+**Nel modulo 4 la nota è per lezione, non per modulo**: la 4.1 e la 4.3
+scrivono «Nessun aneddoto», la 4.2, la 4.4 e la 4.5 non dicono niente. Quindi
+vanno lette tutte e cinque le note prima di cominciare, non solo l'ultima.
+
+## 7-bis. I difetti di layout che si vedono solo guardando
+
+Le slide si guardano da ferme **prima** di animarle, tutte, non solo quelle
+con un disegno. Questi quattro difetti non danno nessun errore e si vedono
+soltanto a occhio:
+
+- **`raggi` disegna solo i primi quattro satelliti** (`c.attorno.slice(0, 4)`)
+  e scarta il resto in silenzio. Se le voci sono più di quattro, vanno
+  raggruppate (3.4, `c22`);
+- **`quadranti` non disegna le etichette dei poli degli assi.** Vanno scritte
+  dentro le celle, o i quattro riquadri sono indistinguibili (3.4, `c34`);
+- **la didascalia di una figura sta in una riga.** A due righe la figura si
+  alza e il kicker finisce sopra il logo; a tre righe l'ultima riga finisce
+  sopra il filetto (3.3 `c22`, 3.5 `c20` e `c33`);
+- **`confronto` accende la colonna di destra**, riga per riga con `segna`;
+  **`bilancia` fa scendere il piatto più pesante**, quindi la didascalia deve
+  dire «pesa», non «vince».
+
+## 7-ter. Il montato si rilegge prima di dirlo finito
+
+Le scene si passano a `create_video_from_studio` **esattamente come
+`scene.py` le scrive in `scene.json`**, mai ricostruite a mano: la 3.1 e la
+3.2 sono state rimontate per questo, una con `freeze` dove voleva `loop` e
+l'altra con il `loop` sulla scena successiva a quella giusta.
+
+Dopo il montaggio si rilegge con `get_video_scenes` e si confronta con
+`scene.json`: la modalità di ogni scena, la posizione delle riprese, l'ordine
+degli audio. La durata che torna a un decimo di secondo conferma solo
+l'ordine degli audio, non le modalità.
+
 ## 8. Come si chiamano le cose
 
 I copioni del primo corso stanno in `produzione/copioni/` con nomi tipo
@@ -236,20 +270,26 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 3.1 | La durata del contatto | 9:59 | `d2e4788a89a7475e2c6a665695da1038` |
 | 3.2 | Il mito della direzione | 9:59 | `73628bfda25eb16bdeb7f95b65c38a26` |
 | 3.3 | Lo sguardo nel gruppo | 9:59 | `b79f2fa1d5c14eca6b69fc96494d74c4` |
+| 3.4 | Pupille e ammiccamento | 9:59 | `6c318a0f029ed071fbdc5a59604330ec` |
+| 3.5 | Lo sguardo che mandi tu | 10:04 | `586431bd2f9519ae6515c01548cc3c66` |
 
-**Moduli 1 e 2 completi**: dieci lezioni, cento minuti, quattrocentosettantatré
-slide, settantadue fra diagrammi e infografiche, ventisette riprese. I registri
-di modulo stanno in `registri/lnv-modulo-1.md` e `registri/lnv-modulo-2.md`. I
-copioni arrivano dagli script `LNV_M1_SCRIPT-HEYGEN.md` e
-`LNV_M2_SCRIPT-HEYGEN.md`.
+**Moduli 1, 2 e 3 completi**: quindici lezioni, centocinquanta minuti,
+settecentonove slide, novantanove fra diagrammi e infografiche, quarantuno
+riprese. I registri di modulo stanno in `registri/lnv-modulo-1.md`,
+`registri/lnv-modulo-2.md` e `registri/lnv-modulo-3.md`. I copioni arrivano
+dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md` e
+`LNV_M3_SCRIPT-HEYGEN.md`.
 
-**Il modulo 3 è a metà**: la 3.1, la 3.2 e la 3.3 sono montate, e restano la
-3.4 e la 3.5. Gli script dei moduli 3, 4, 5 e 6 sono arrivati; manca quello
-del modulo 7.
+**Il modulo 4 è in lavorazione.** Gli script dei moduli 4, 5 e 6 sono
+arrivati; manca quello del modulo 7.
 
-**Il controllo dei tagli è parziale su tutte e tredici le lezioni** (vedi i
-registri; la 3.1 e la 3.3 chiudono con zero confini fuori banda, la 3.2 con
-due): i crediti
-ElevenLabs sono a zero e la trascrizione di verifica non si può fare. Quando
-tornano, i confini segnalati nei registri vanno risentiti uno per uno con
-`tagli.py correggi`.
+**Il controllo dei tagli è parziale su tutte e quindici le lezioni** (vedi i
+registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
+migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
+zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
+duecentoventicinque i suoi tagli cadono dentro un silenzio. Quando la
+trascrizione torna, i confini segnalati nei registri vanno risentiti uno per
+uno con `tagli.py correggi`.
+
+**Una ripresa è stata montata senza essere guardata**: `s07` della 3.3. Va
+guardata prima di pubblicare.

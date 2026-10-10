@@ -1,0 +1,419 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.5",
+"title": "Lo sguardo che mandi tu",
+"sub": "Lo sguardo"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "l'unica eccezione di tutto il corso",
+"title": "In tutto il corso la causa non si vede.<br><span class=\"gold\">Con te stesso la causa la conosci.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "su di te sai già tutto quello che serve",
+"plain": true,
+"rows": [
+"Perché hai staccato lo sguardo",
+"Perché ti sei irrigidito",
+"Perché hai guardato l'orologio"
+],
+"note": "Sono informazioni che su chiunque altro non avresti mai."
+},
+{
+"file": "c04",
+"layout": "memo",
+"title": "Niente da dedurre.<br>Solo da decidere."
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "È anche la parte più trascurata, e il motivo non è misterioso:<br><span class=\"gold\">è meno divertente.</span>"
+},
+{
+"file": "c06",
+"layout": "barre",
+"kicker": "la proporzione reale di questo modulo",
+"barre": [
+{
+"et": "Lezioni che tolgono",
+"v": 80,
+"val": "quattro"
+},
+{
+"et": "Lezioni che danno",
+"v": 20,
+"val": "una"
+}
+],
+"title": "È la proporzione reale, e non c'è niente di cui scusarsi."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "tre errori costosi",
+"rows": [
+"Lo sguardo che scappa: disinteresse",
+"Lo sguardo fisso: pressione",
+"Lo sguardo allo schermo: assenza"
+],
+"note": "Tre modi di far arrivare un messaggio che non volevi mandare."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "tre errori costosi",
+"rows": [
+"Lo sguardo che scappa: disinteresse",
+"Lo sguardo fisso: pressione",
+"Lo sguardo allo schermo: assenza"
+],
+"active": 0,
+"note": "Chi lo riceve non pensa «sta pensando»: pensa «non gli interessa»."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "tre errori costosi",
+"rows": [
+"Lo sguardo che scappa: disinteresse",
+"Lo sguardo fisso: pressione",
+"Lo sguardo allo schermo: assenza"
+],
+"active": 1,
+"note": "È un consiglio applicato troppo bene, e l'altro si sente sotto esame."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "tre errori costosi",
+"rows": [
+"Lo sguardo che scappa: disinteresse",
+"Lo sguardo fisso: pressione",
+"Lo sguardo allo schermo: assenza"
+],
+"active": 2,
+"note": "Il più frequente dei tre, e quello che fai più spesso di quanto creda."
+},
+{
+"file": "c12",
+"layout": "swap",
+"kicker": "come viene letto lo sguardo allo schermo",
+"rows": [
+[
+"Sta facendo due cose insieme",
+"Questa conversazione vale meno"
+],
+[
+"Ha una cosa urgente",
+"Più urgente di me"
+]
+]
+},
+{
+"file": "c13",
+"layout": "memo",
+"title": "È una frase<br>che nessuno dice ad alta voce.<br>E arriva lo stesso."
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "il dettaglio che quasi nessuno considera",
+"title": "Non serve guardare a lungo.<br><span class=\"gold\">Due secondi bastano.</span>"
+},
+{
+"file": "c15",
+"layout": "number",
+"num": "6",
+"unit": "s",
+"fill": 10,
+"title": "Tre occhiate da due secondi in dieci minuti di conversazione producono l'effetto completo. Non un terzo: tutto."
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Non le conta mentre succedono,<br><span class=\"gold\">e non se le ricorda come eventi separati.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Ricorderà un'impressione, non un fatto.<br><span class=\"gold\">E un'impressione non si corregge spiegando.</span>"
+},
+{
+"file": "c18",
+"layout": "memo",
+"title": "Non ricorderà tre occhiate.<br>Ricorderà che non eri lì."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "la cosa più utile del modulo",
+"title": "Tre movimenti,<br><span class=\"gold\">e si imparano in una conversazione sola.</span>"
+},
+{
+"file": "c20",
+"layout": "anello",
+"kicker": "la regola di ritmo",
+"ciclo": 7,
+"passi": [
+"L'altro parla: guarda",
+"Parli tu: stacca",
+"Riprende: torna"
+],
+"title": "Una sequenza, non una tecnica: si chiude da sola."
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Tre movimenti,<br><span class=\"gold\">e risolvono quasi tutti i problemi di cui abbiamo parlato.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "e funzionano per una ragione precisa",
+"title": "Non è galateo.<br><span class=\"gold\">È il ritmo naturale della conversazione.</span>"
+},
+{
+"file": "c23",
+"layout": "confronto",
+"occhio": "quanto si guarda, di norma",
+"titoli": [
+"Mentre parli",
+"Mentre ascolti"
+],
+"righe": [
+{
+"et": "Contatto visivo",
+"a": "Meno",
+"b": "Di più",
+"segna": true
+},
+{
+"et": "Lo fai",
+"a": "Già adesso",
+"b": "Già adesso",
+"segna": false
+},
+{
+"et": "La regola",
+"a": "Non aggiunge",
+"b": "Riporta lì",
+"segna": true
+}
+]
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "Non stai aggiungendo niente.<br>Stai togliendo<br>un'interferenza."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "chi fa il contrario",
+"title": "Stacca mentre l'altro parla, e fissa mentre parla lui.<br><span class=\"gold\">Le due impressioni peggiori insieme.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "in una conversazione sola",
+"plain": true,
+"rows": [
+"Disinteresse quando ascolta",
+"Pressione quando parla"
+],
+"note": "E nessuna delle due arriva come un errore: arrivano come carattere."
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "È comunissimo.<br><span class=\"gold\">Lo vedi nelle riunioni, nei colloqui, nelle presentazioni.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "E nasce da un buon proposito.<br><span class=\"gold\">È il difetto più diffuso fra chi si è preparato.</span>"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "chi guarda di più mentre ascolta viene percepito come",
+"rows": [
+"Più presente",
+"Più interessato",
+"Più affidabile"
+],
+"note": "Tutte e tre insieme, e senza dire una parola in più."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "E non come invadente,<br><span class=\"gold\">che è la paura di chi non lo fa.</span>"
+},
+{
+"file": "c32",
+"layout": "bivio",
+"kicker": "lo stesso gesto, due lavori opposti",
+"da": "Guardare negli occhi",
+"rami": [
+{
+"et": "Mentre parli",
+"sub": "stai chiedendo qualcosa"
+},
+{
+"et": "Mentre ascolti",
+"sub": "stai dando qualcosa"
+}
+],
+"title": "Confonderli produce il fastidio. Distinguerli lo toglie."
+},
+{
+"file": "c33",
+"layout": "bilancia",
+"kicker": "effetto e sforzo",
+"sx": {
+"et": "L'effetto",
+"peso": 5
+},
+"dx": {
+"et": "Lo sforzo",
+"peso": 1
+},
+"title": "Il piatto che scende è quello che pesa."
+},
+{
+"file": "c34",
+"layout": "memo",
+"title": "Non c'è niente da imparare.<br>C'è da spostare<br>dove già guardi."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "tre casi in cui la regola va adattata",
+"rows": [
+"La cattiva notizia",
+"La difficoltà emotiva",
+"La conversazione tesa"
+],
+"note": "In tutti e tre la regola generale produce l'effetto sbagliato."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "tre casi in cui la regola va adattata",
+"rows": [
+"La cattiva notizia",
+"La difficoltà emotiva",
+"La conversazione tesa"
+],
+"active": 0,
+"note": "Guarda mentre la dici. Poi lascia lo spazio di non essere guardato."
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Deve gestire la notizia e il tuo sguardo<br><span class=\"gold\">nello stesso momento.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "tre casi in cui la regola va adattata",
+"rows": [
+"La cattiva notizia",
+"La difficoltà emotiva",
+"La conversazione tesa"
+],
+"active": 1,
+"note": "Vale lo stesso, amplificato. Spesso la cosa più rispettosa è guardare altrove."
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Non andarsene: restare.<br><span class=\"gold\">Ma togliere il peso dell'osservazione.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "tre casi in cui la regola va adattata",
+"rows": [
+"La cattiva notizia",
+"La difficoltà emotiva",
+"La conversazione tesa"
+],
+"active": 2,
+"note": "Ridurre il contatto abbassa la temperatura. Aumentarlo la alza."
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "un'avvertenza, con un taglio diverso",
+"title": "Questo è l'unico punto<br><span class=\"gold\">in cui si può peggiorare provando a migliorare.</span>"
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "Non costruire<br>uno sguardo."
+},
+{
+"file": "c44",
+"layout": "statement",
+"title": "Non si riconosce il contenuto di quello che pensi.<br><span class=\"gold\">Si riconosce lo sforzo.</span>"
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "La regola funziona perché è vicina a quello che il corpo farebbe da solo.<br><span class=\"gold\">Si toglie un'interferenza, non si aggiunge una tecnica.</span>"
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fissare mentre si parla",
+"Lo schermo durante una conversazione",
+"Fissare chi riceve una brutta notizia",
+"Costruire lo sguardo"
+],
+"active": 0,
+"note": "Nasce da un consiglio diffuso, e sbagliato."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fissare mentre si parla",
+"Lo schermo durante una conversazione",
+"Fissare chi riceve una brutta notizia",
+"Costruire lo sguardo"
+],
+"active": 3,
+"note": "È l'unico dei quattro che si vede da fuori: si riconosce."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Guarda mentre l'altro parla.<br>Stacca mentre parli tu."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Una conversazione sola",
+"Guarda mentre l'altro parla",
+"Stacca mentre parli tu"
+],
+"note": "Staccare è facile e liberatorio. Guardare per tutta la durata è più difficile di quanto pensi."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 3",
+"sub": "Modulo 4 — Il corpo nello spazio"
+}
+]

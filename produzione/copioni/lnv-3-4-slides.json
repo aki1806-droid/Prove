@@ -1,0 +1,498 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.4",
+"title": "Pupille e ammiccamento",
+"sub": "Cosa si può dire"
+},
+{
+"file": "c02",
+"layout": "list",
+"kicker": "due classici della divulgazione",
+"plain": true,
+"rows": [
+"Le pupille si dilatano: interesse, attrazione",
+"L'ammiccamento aumenta: stress, menzogna"
+],
+"note": "Li hai già sentiti tutti e due."
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "cos'hanno in comune",
+"title": "Sono involontari.<br><span class=\"gold\">Nessuno decide di dilatare una pupilla.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Se un segnale non si può controllare, sembra che non si possa falsificare.<br><span class=\"gold\">E quindi sembra più vero.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "ti avviso subito",
+"title": "È la lezione con meno strumenti operativi del corso.<br><span class=\"gold\">Quello che dà è una difesa.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"note": "Cinque cause, e la prima vale più delle altre quattro messe insieme."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"active": 0,
+"note": "Non è una causa fra le altre: è la causa."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"active": 1,
+"note": "Si regolano sulla profondità, come l'obiettivo di una macchina fotografica."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"active": 2,
+"note": "Piccolo ma misurabile. È l'unica parte di questa storia che sta in piedi."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"active": 3,
+"note": "Da trascurabile a enorme, a seconda di cosa si è preso."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "cosa muove le pupille",
+"rows": [
+"La luce",
+"La distanza dell'oggetto",
+"Lo sforzo mentale",
+"Farmaci e sostanze",
+"Stati emotivi, compreso l'interesse"
+],
+"active": 4,
+"note": "Ultima per grandezza, prima per quanto se ne parla."
+},
+{
+"file": "c12",
+"layout": "barre",
+"kicker": "le cinque cause, in ordine di grandezza",
+"barre": [
+{
+"et": "La luce",
+"v": 100,
+"val": "enorme"
+},
+{
+"et": "La distanza",
+"v": 55,
+"val": "rilevante"
+},
+{
+"et": "Farmaci e sostanze",
+"v": 38,
+"val": "variabile"
+},
+{
+"et": "Lo sforzo mentale",
+"v": 13,
+"val": "piccolo"
+},
+{
+"et": "Stati emotivi",
+"v": 9,
+"val": "piccolo"
+}
+],
+"title": "Le altezze danno l'ordine di grandezza, non una misura. Il punto è il rapporto fra la prima e l'ultima."
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Il legame fra dilatazione e carico cognitivo è reale e documentato.<br><span class=\"gold\">Si usa in ricerca come misura dello sforzo mentale.</span>"
+},
+{
+"file": "c14",
+"layout": "confronto",
+"occhio": "due legami, non uno",
+"titoli": [
+"Carico cognitivo",
+"Interesse e attrazione"
+],
+"righe": [
+{
+"et": "Forza del legame",
+"a": "Reale",
+"b": "Molto più debole",
+"segna": true
+},
+{
+"et": "Specificità",
+"a": "Buona",
+"b": "Scarsa",
+"segna": true
+},
+{
+"et": "Serve",
+"a": "Luce controllata",
+"b": "Luce controllata",
+"segna": false
+}
+]
+},
+{
+"file": "c15",
+"layout": "statement",
+"title": "Ma anche ammettendo che ci sia,<br><span class=\"gold\">c'è un problema che chiude la questione prima di discuterla.</span>"
+},
+{
+"file": "c16",
+"layout": "memo",
+"title": "In una stanza reale<br>non si può isolare."
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Producono variazioni pupillari enormemente più grandi<br><span class=\"gold\">di qualunque effetto emotivo.</span>"
+},
+{
+"file": "c19",
+"layout": "swap",
+"kicker": "due stanze diverse",
+"rows": [
+[
+"L'illuminazione si misura e si tiene costante",
+"C'è una finestra, e qualcuno si sposta"
+],
+[
+"Ogni cambiamento viene registrato",
+"Nessuno registra niente"
+]
+]
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "cosa succede in un ufficio in dieci minuti",
+"plain": true,
+"rows": [
+"Una finestra",
+"Uno schermo che cambia colore",
+"Qualcuno che si sposta",
+"Una testa che gira di dieci gradi"
+],
+"note": "Ognuna muove le pupille più di quanto le muova un'emozione."
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "E con l'ammiccamento la struttura è la stessa.<br><span class=\"gold\">Cambiano le cause, non cambia la forma.</span>"
+},
+{
+"file": "c22",
+"layout": "raggi",
+"kicker": "cosa cambia l'ammiccamento",
+"centro": "Ammiccamento",
+"attorno": [
+{
+"et": "Aria e lenti a contatto",
+"d": 15
+},
+{
+"et": "Stanchezza e schermo",
+"d": 40
+},
+{
+"et": "Condizioni mediche",
+"d": 62
+},
+{
+"et": "Carico cognitivo",
+"d": 100
+}
+],
+"title": "Quella che ti interesserebbe è la più lontana dal centro: la più debole di tutte."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "cosa cambia l'ammiccamento",
+"rows": [
+"L'aria della stanza e le lenti a contatto",
+"La stanchezza e le ore di schermo",
+"Alcune condizioni mediche",
+"Carico cognitivo e attivazione emotiva"
+],
+"active": 0,
+"note": "Tre cause che hanno a che fare con l'aria della stanza."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "cosa cambia l'ammiccamento",
+"rows": [
+"L'aria della stanza e le lenti a contatto",
+"La stanchezza e le ore di schermo",
+"Alcune condizioni mediche",
+"Carico cognitivo e attivazione emotiva"
+],
+"active": 1,
+"note": "Due cause che hanno a che fare con la giornata che ha avuto."
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "cosa cambia l'ammiccamento",
+"rows": [
+"L'aria della stanza e le lenti a contatto",
+"La stanchezza e le ore di schermo",
+"Alcune condizioni mediche",
+"Carico cognitivo e attivazione emotiva"
+],
+"active": 3,
+"note": "Le uniche due che ti interesserebbero, e le più deboli della lista."
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Decidere quale delle sei sta producendo quello che vedi<br><span class=\"gold\">non è difficile: è impossibile.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "ammiccamento e menzogna",
+"title": "La ricerca è andata in direzioni opposte<br><span class=\"gold\">a seconda degli studi.</span>"
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "cosa trovano gli studi",
+"plain": true,
+"rows": [
+"Alcuni: un aumento",
+"Altri: una diminuzione",
+"Altri ancora: niente"
+],
+"note": "Quando succede questo, di solito non c'è un effetto: c'è rumore."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "la fonte",
+"rows": [
+"DePaulo e colleghi, 2003",
+"Rassegna sui presunti indicatori",
+"Risultati incoerenti per quasi tutti"
+],
+"note": "È la rassegna già citata nel modulo 2, su un segnale diverso."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Non c'è niente da insegnare su quel punto.<br><span class=\"gold\">E dirlo è più onesto che riempire il vuoto.</span>"
+},
+{
+"file": "c31",
+"layout": "memo",
+"title": "Un segnale involontario<br>non è più leggibile.<br>È solo più difficile da falsificare."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "vale per ogni segnale fisiologico",
+"plain": true,
+"rows": [
+"La sudorazione",
+"Il rossore",
+"Il respiro",
+"La deglutizione"
+],
+"note": "La regola che segue vale per tutti, non solo per le pupille."
+},
+{
+"file": "c33",
+"layout": "bivio",
+"kicker": "due proprietà che si confondono",
+"da": "Un segnale",
+"rami": [
+{
+"et": "Quanto si può controllare",
+"sub": "facile da misurare"
+},
+{
+"et": "Quanto dice",
+"sub": "richiede di contare le cause"
+}
+],
+"title": "Non sono collegate, e si confondono di continuo."
+},
+{
+"file": "c34",
+"layout": "quadranti",
+"kicker": "quando un segnale è leggibile",
+"xet": "il numero delle cause",
+"yet": "si possono distinguere?",
+"celle": [
+"poche e distinguibili: leggibile",
+"molte ma distinguibili: illeggibile",
+"poche e indistinguibili: illeggibile",
+"molte e indistinguibili: illeggibile"
+],
+"acceso": 0,
+"title": "Servono tutte e due le condizioni. Una sola non basta."
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "L'involontarietà non garantisce né l'una né l'altra.<br><span class=\"gold\">Non c'entra con il numero delle cause, e non c'entra con la possibilità di separarle.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "il controesempio perfetto",
+"title": "Le pupille sono assolutamente involontarie<br><span class=\"gold\">e hanno cinque cause, di cui una dominante.</span>"
+},
+{
+"file": "c37",
+"layout": "memo",
+"title": "La domanda non è<br>se sia controllabile.<br>È quante cose lo producono."
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Sono fisiologici, quindi sembrano oggettivi.<br><span class=\"gold\">È una fiducia che a un braccio incrociato nessuno darebbe.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Le pupille non mentono, si dice.<br><span class=\"gold\">Non mentono perché non dicono niente.</span>"
+},
+{
+"file": "c41",
+"layout": "bilancia",
+"kicker": "il rapporto che non torna",
+"sx": {
+"et": "La sicurezza della conclusione",
+"peso": 5
+},
+"dx": {
+"et": "La forza dell'evidenza",
+"peso": 1
+},
+"title": "Il piatto che scende è quello che pesa. Le conclusioni più sicure sull'evidenza più debole: la combinazione peggiore possibile."
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "e c'è un effetto collaterale",
+"title": "La conclusione viene tratta quasi sempre su persone<br><span class=\"gold\">che non hanno dato nessun segnale di volerla ricevere.</span>"
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "Non è solo scorretto<br>sul piano dei dati."
+},
+{
+"file": "c44",
+"layout": "statement",
+"kicker": "cosa resta",
+"title": "Molto poco, ed è onesto dirlo.<br><span class=\"gold\">Se una domanda produce visibilmente più fatica, hai un'informazione.</span>"
+},
+{
+"file": "c45",
+"layout": "statement",
+"title": "Non pupille: fatica, nel complesso.<br><span class=\"gold\">Lì c'è qualcosa, chiedi ancora.</span>"
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Confondere involontario e leggibile",
+"Dimenticare la luce",
+"Attribuire oggettività al fisiologico",
+"Leggere l'attrazione nelle pupille di qualcuno"
+],
+"active": 0,
+"note": "È l'errore madre di tutta la lezione."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Confondere involontario e leggibile",
+"Dimenticare la luce",
+"Attribuire oggettività al fisiologico",
+"Leggere l'attrazione nelle pupille di qualcuno"
+],
+"active": 3,
+"note": "Il dato non lo consente, e la situazione quasi mai lo autorizza."
+},
+{
+"file": "c48",
+"layout": "memo",
+"title": "Non è un codice.<br>È un indicatore<br>con troppi ingressi."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"rows": [
+"Senti un'affermazione su un segnale involontario",
+"Chiediti quante cause diverse lo producono",
+"Contane almeno quattro"
+],
+"note": "Una sarà quasi sempre banale e dominante."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "Capire i segni del linguaggio non verbale"
+}
+]
