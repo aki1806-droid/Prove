@@ -1,0 +1,284 @@
+{
+  "titolo": "Concorso OSS Azienda Zero - 27 ottobre 2026: tutto quello che devi sapere per il giorno della prova",
+  "brand": "CISL FP Padova Rovigo",
+  "formato": "16:9, 1920x1080, 1080p, sottotitoli attivi",
+  "palette": {
+    "verde": "#00633B",
+    "rosso": "#D6042B",
+    "bianco": "#FFFFFF",
+    "carta": "#F4F6F3",
+    "inchiostro": "#1E2A24",
+    "verde_chiaro": "#E3EFE8"
+  },
+  "scene": [
+    {
+      "id": "S01",
+      "tipo": "slide",
+      "nome_file": "S01_copertina.png",
+      "durata": "3 s muta",
+      "layout": "copertina",
+      "testo_schermo": {
+        "sopra": "CONCORSO OSS · AZIENDA ZERO",
+        "titolo": "Il giorno della prova",
+        "sotto": "27 ottobre 2026 · Padova"
+      },
+      "voce": ""
+    },
+    {
+      "id": "S02",
+      "tipo": "avatar",
+      "durata": "~35 s",
+      "voce": "Ciao, sono Achille Pagliaro, segretario della CISL FP Padova Rovigo. <break time=\"0.4s\"/> Martedì ventisette ottobre, a Padova, si svolge la prova pratica del concorso di Azienda Zero per ottantaquattro posti da operatore socio sanitario. <break time=\"0.4s\"/> Azienda Zero ha pubblicato le indicazioni per quella giornata. Le ho lette con attenzione, e in questo video te le racconto una per una, con qualche consiglio in più. <break time=\"0.5s\"/> Perché il giorno della prova devi pensare solo alla prova. Tutto il resto deve essere già deciso."
+    },
+    {
+      "id": "S03",
+      "tipo": "immagine",
+      "nome_file": "S03_sede.png",
+      "durata": "~15 s",
+      "layout": "foto_didascalia",
+      "foto": "assets/foto/kioene_esterno.png",
+      "testo_schermo": {
+        "titolo": "Kioene Arena",
+        "righe": [
+          "Via San Marco 53",
+          "Padova · zona San Lazzaro"
+        ]
+      },
+      "voce": "Dove. Il palasport Kioene Arena, in via San Marco cinquantatré, a Padova, nella zona di San Lazzaro, a due passi dall'uscita autostradale Padova Est."
+    },
+    {
+      "id": "S04",
+      "tipo": "slide",
+      "nome_file": "S04_turni.png",
+      "durata": "~25 s",
+      "layout": "turni",
+      "testo_schermo": {
+        "titolo": "Il turno dipende dal cognome",
+        "turni": [
+          [
+            "TURNO 1",
+            "ore 8.00",
+            "A – E"
+          ],
+          [
+            "TURNO 2",
+            "ore 11.30",
+            "F – O"
+          ],
+          [
+            "TURNO 3",
+            "ore 15.00",
+            "P – Z"
+          ]
+        ]
+      },
+      "voce": "Quando. Si entra in tre turni, in base all'iniziale del cognome. <break time=\"0.3s\"/> Primo turno alle otto: cognomi dalla A alla E. <break time=\"0.3s\"/> Secondo turno alle undici e trenta: dalla F alla O. <break time=\"0.3s\"/> Terzo turno alle quindici: dalla P alla Z. <break time=\"0.5s\"/> L'orario di convocazione va rispettato. Non è un'indicazione di massima: è l'orario."
+    },
+    {
+      "id": "S05",
+      "tipo": "immagine",
+      "nome_file": "S05_auto.png",
+      "durata": "~35 s",
+      "layout": "foto_didascalia",
+      "foto": "assets/foto/mappa_auto_A4.png",
+      "testo_schermo": {
+        "titolo": "In auto",
+        "righe": [
+          "A4 · uscita Padova Est",
+          "Tangenziale dir. Castelfranco",
+          "Uscita 18 (o 18 bis)"
+        ]
+      },
+      "voce": "In auto, dall'autostrada A4: esci a Padova Est e prendi la tangenziale in direzione Castelfranco. Dopo circa cinquecento metri, uscita diciotto. <break time=\"0.3s\"/> Al bivio puoi andare a sinistra, risalire in tangenziale e uscire alla diciotto bis. Oppure tenere la destra e proseguire dritto, superando due rotonde. <break time=\"0.4s\"/> Si parcheggia al palasport o nelle zone vicine. <break time=\"0.4s\"/> Un consiglio: se sei nel primo turno, alle otto di un martedì sei in pieno traffico del mattino. Parti con largo anticipo."
+    },
+    {
+      "id": "S06",
+      "tipo": "immagine",
+      "nome_file": "S06_bus.png",
+      "durata": "~15 s",
+      "layout": "foto_didascalia",
+      "foto": "assets/foto/mappa_bus_linea10.png",
+      "testo_schermo": {
+        "titolo": "In treno e bus",
+        "righe": [
+          "Stazione FS di Padova",
+          "Linea 10",
+          "dir. Ponte di Brenta"
+        ]
+      },
+      "voce": "Se arrivi in treno: dalla fermata davanti alla stazione di Padova prendi l'autobus della linea dieci, direzione Ponte di Brenta. Il tragitto dura circa un quarto d'ora. Controlla gli orari il giorno prima."
+    },
+    {
+      "id": "S07",
+      "tipo": "immagine",
+      "nome_file": "S07_varchi.png",
+      "durata": "~18 s",
+      "layout": "foto_didascalia",
+      "foto": "assets/foto/varchi_ingresso_lato_est.png",
+      "testo_schermo": {
+        "titolo": "10 varchi",
+        "righe": [
+          "Lato est del palasport",
+          "Solo il varco assegnato"
+        ]
+      },
+      "voce": "All'arrivo troverai dieci varchi d'ingresso, sul lato est del palasport. Ogni candidato ha un varco assegnato in base all'iniziale del cognome. <break time=\"0.3s\"/> Usa solo il tuo: è la regola, e ti fa risparmiare tempo."
+    },
+    {
+      "id": "S08",
+      "tipo": "avatar",
+      "durata": "~30 s",
+      "voce": "Adesso la regola più importante, quella che può costarti il concorso. <break time=\"0.4s\"/> Prima del riconoscimento devi spegnere qualsiasi dispositivo elettronico capace di trasmettere, ricevere o memorizzare informazioni. Il telefono, gli auricolari, l'orologio smart, anche gli occhiali smart. <break time=\"0.4s\"/> Chi viene trovato con un dispositivo in funzione viene escluso dalle prove. Si riaccende tutto solo dopo essere usciti dalla sede."
+    },
+    {
+      "id": "S09",
+      "tipo": "slide",
+      "nome_file": "S09_dispositivi.png",
+      "durata": "~10 s",
+      "layout": "allarme",
+      "testo_schermo": {
+        "titolo": "Dispositivo acceso = esclusione",
+        "righe": [
+          "Telefono · auricolari · smartwatch · occhiali smart"
+        ]
+      },
+      "voce": "Pensa soprattutto all'orologio: è facilissimo dimenticarlo al polso. Se puoi, lascialo a casa."
+    },
+    {
+      "id": "S10",
+      "tipo": "slide",
+      "nome_file": "S10_postazione.png",
+      "durata": "~30 s",
+      "layout": "elenco",
+      "testo_schermo": {
+        "titolo": "Dentro la sala",
+        "righe": [
+          "Posto assegnato dallo staff",
+          "Penna nera e cartellina",
+          "Leggi le istruzioni",
+          "Niente bagagli",
+          "Porta l'acqua"
+        ]
+      },
+      "voce": "Dopo il riconoscimento entri nell'area del concorso. Il posto te lo assegna il personale di Azienda Zero, e sulla postazione trovi una penna nera e una cartellina rigida. <break time=\"0.3s\"/> Al riconoscimento ti consegnano le istruzioni concorsuali: usa l'attesa per leggerle bene. <break time=\"0.3s\"/> Non si possono portare bagagli o valigie, salvo situazioni eccezionali. <break time=\"0.3s\"/> E porta dell'acqua: i distributori automatici di bevande non saranno utilizzabili."
+    },
+    {
+      "id": "S11",
+      "tipo": "immagine",
+      "nome_file": "S11_bagni.png",
+      "durata": "~25 s",
+      "layout": "foto_didascalia",
+      "foto": "assets/foto/piantina_interna_bagni.png",
+      "testo_schermo": {
+        "titolo": "I bagni",
+        "righe": [
+          "Esterni: prima e dopo",
+          "Interni: solo prima della prova"
+        ]
+      },
+      "voce": "I bagni. Quelli esterni alla struttura sono disponibili prima del riconoscimento e dopo l'uscita. <break time=\"0.3s\"/> Quelli interni si possono usare soltanto prima dell'inizio delle prove, e chi si alza per andarci deve tornare esattamente alla postazione assegnata. <break time=\"0.3s\"/> Dopo le prove, i bagni interni non sono più accessibili."
+    },
+    {
+      "id": "S12",
+      "tipo": "slide",
+      "nome_file": "S12_gravidanza.png",
+      "durata": "~25 s",
+      "layout": "elenco",
+      "testo_schermo": {
+        "titolo": "Gravidanza o allattamento",
+        "righe": [
+          "Chiedi prima, via mail",
+          "Ingresso per ultime",
+          "Posto vicino all'uscita",
+          "concorsi@azero.veneto.it"
+        ]
+      },
+      "voce": "Se sei in gravidanza o hai necessità di allattare, puoi chiedere in anticipo, via mail, di entrare per ultima, così da restare meno tempo nella struttura, e di avere un posto vicino all'uscita. <break time=\"0.3s\"/> L'indirizzo è: concorsi, chiocciola, a zero, punto veneto, punto it. Lo trovi scritto qui sotto. <break time=\"0.3s\"/> Scrivi nei prossimi giorni, non la mattina stessa."
+    },
+    {
+      "id": "S13",
+      "tipo": "slide",
+      "nome_file": "S13_uscita.png",
+      "durata": "~18 s",
+      "layout": "elenco",
+      "testo_schermo": {
+        "titolo": "Finita la prova",
+        "righe": [
+          "Lascia penna e cartellina",
+          "Esci subito, segui lo staff",
+          "Non lasciare nulla"
+        ]
+      },
+      "voce": "Finita la prova, lasci penna e cartellina sulla postazione ed esci subito, seguendo le indicazioni dello staff. Non si può restare all'interno del palasport. <break time=\"0.3s\"/> Non lasciare nulla, e usa gli appositi contenitori per i rifiuti."
+    },
+    {
+      "id": "S14",
+      "tipo": "slide",
+      "nome_file": "S14_attestazione.png",
+      "durata": "~25 s",
+      "layout": "due_colonne",
+      "testo_schermo": {
+        "titolo": "Attestazione di partecipazione",
+        "colonne": [
+          [
+            "Dipendente privato",
+            "Attestazione su richiesta",
+            "mail dopo la prova"
+          ],
+          [
+            "Dipendente pubblico",
+            "Autocertificazione",
+            "DPR 445/2000"
+          ]
+        ]
+      },
+      "voce": "Un punto che riguarda chi già lavora: l'attestazione di partecipazione. <break time=\"0.3s\"/> Viene rilasciata solo ai dipendenti di enti privati, che la chiedono via mail dopo la prova. <break time=\"0.3s\"/> Se lavori in un ente pubblico, per espressa previsione di legge non ti verrà rilasciata: dovrai usare una dichiarazione sostitutiva di atto di notorietà, secondo il D P R quattrocentoquarantacinque del duemila."
+    },
+    {
+      "id": "S15",
+      "tipo": "avatar",
+      "durata": "~15 s",
+      "voce": "E se sei dipendente pubblico, ricorda che il contratto prevede permessi retribuiti per partecipare a concorsi ed esami, nei giorni delle prove. <break time=\"0.3s\"/> Se hai dubbi su come chiederli, chiamaci."
+    },
+    {
+      "id": "S16",
+      "tipo": "slide",
+      "nome_file": "S16_sera_prima.png",
+      "durata": "~25 s",
+      "layout": "checklist",
+      "testo_schermo": {
+        "titolo": "La sera prima",
+        "righe": [
+          "Turno e varco",
+          "Percorso e anticipo",
+          "Acqua",
+          "Smartwatch a casa",
+          "Documenti richiesti in convocazione"
+        ]
+      },
+      "voce": "Riassumo in una lista per la sera prima. <break time=\"0.3s\"/> Controlla il tuo turno e il tuo varco. Prepara il percorso e parti presto. Metti in borsa l'acqua. Lascia a casa tutto quello che non serve, a cominciare dall'orologio smart. <break time=\"0.3s\"/> E ricontrolla nella convocazione quali documenti devi avere con te."
+    },
+    {
+      "id": "S17",
+      "tipo": "avatar",
+      "durata": "~35 s",
+      "voce": "Un'ultima cosa. <break time=\"0.4s\"/> Le indicazioni logistiche servono ad arrivare tranquilli. Ma la prova si prepara prima. <break time=\"0.3s\"/> Con la CISL FP Padova Rovigo abbiamo costruito un corso di preparazione al concorso OSS. Trovi il link in descrizione. <break time=\"0.4s\"/> E se hai domande su questo concorso, sul contratto o sui tuoi diritti, scrivici: siamo qui per questo. <break time=\"0.5s\"/> In bocca al lupo."
+    },
+    {
+      "id": "S18",
+      "tipo": "slide",
+      "nome_file": "S18_chiusura.png",
+      "durata": "10 s muta",
+      "layout": "chiusura",
+      "testo_schermo": {
+        "titolo": "In bocca al lupo",
+        "righe": [
+          "Corso di preparazione OSS",
+          "Link in descrizione",
+          "CISL FP Padova Rovigo"
+        ]
+      },
+      "voce": ""
+    }
+  ]
+}
