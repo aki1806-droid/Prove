@@ -1,0 +1,183 @@
+{
+  "titolo": "Fermo Immagine – flash mob 19 ottobre",
+  "formato": "16:9",
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "avatar_look": "Aki in his studio (gruppo Aki)",
+  "voce": {
+    "provider": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_multilingual_v2",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "scene": [
+    {
+      "id": "B00",
+      "tipo": "slide",
+      "visual": "02_slide/S00_copertina_3s.png",
+      "audio": null,
+      "durata_fissa_s": 3,
+      "testo": null
+    },
+    {
+      "id": "B01",
+      "tipo": "avatar",
+      "visual": "Aki in his studio",
+      "audio": "audio/B01.mp3",
+      "durata_fissa_s": null,
+      "testo": "Sono Achille Pagliaro, segretario della CISL FP di Padova e Rovigo. Oggi non ti chiedo di firmare niente. Ti chiedo di fermarti con noi. Tre minuti, tutti insieme."
+    },
+    {
+      "id": "B02",
+      "tipo": "clip",
+      "visual": "03_clip/C01_triage_notte.mp4",
+      "audio": "audio/B02.mp3",
+      "durata_fissa_s": null,
+      "testo": "Ogni giorno, nei nostri Pronto Soccorso, infermieri, medici, OSS e personale amministrativo accolgono chi sta male, chi ha paura, chi aspetta da ore."
+    },
+    {
+      "id": "B03",
+      "tipo": "slide",
+      "visual": "02_slide/S01_accogliere_ascoltare_curare.png",
+      "audio": "audio/B03.mp3",
+      "durata_fissa_s": null,
+      "testo": "Lo fanno con competenza e con umanità, anche nei momenti più difficili."
+    },
+    {
+      "id": "B04",
+      "tipo": "clip",
+      "visual": "03_clip/C02_sala_attesa_vuota.mp4",
+      "audio": "audio/B04.mp3",
+      "durata_fissa_s": null,
+      "testo": "Ma dopo l'ultima aggressione al nostro Pronto Soccorso, una cosa va detta con chiarezza. Nessuna attesa e nessuna rabbia giustificano un insulto, una minaccia, uno schiaffo."
+    },
+    {
+      "id": "B05",
+      "tipo": "slide",
+      "visual": "02_slide/S02_la_violenza_non_cura.png",
+      "audio": "audio/B05.mp3",
+      "durata_fissa_s": null,
+      "testo": "La violenza non cura. Le persone che ci curano, sì."
+    },
+    {
+      "id": "B06",
+      "tipo": "avatar",
+      "visual": "Aki in his studio",
+      "audio": "audio/B06.mp3",
+      "durata_fissa_s": null,
+      "testo": "Per questo abbiamo scelto di rispondere in un modo diverso. Non con le urla. Con il silenzio, e con la dignità."
+    },
+    {
+      "id": "B07",
+      "tipo": "slide",
+      "visual": "02_slide/S03_fermo_immagine.png",
+      "audio": "audio/B07.mp3",
+      "durata_fissa_s": null,
+      "testo": "Si chiama Fermo Immagine. È un flash mob silenzioso, davanti alle rampe del Pronto Soccorso."
+    },
+    {
+      "id": "B08",
+      "tipo": "clip",
+      "visual": "03_clip/C03_mani_stop.mp4",
+      "audio": "audio/B08.mp3",
+      "durata_fissa_s": null,
+      "testo": "A un segnale ci fermiamo tutti insieme, con la mano alzata e la scritta STOP sul palmo. Tre minuti, immobili."
+    },
+    {
+      "id": "B09",
+      "tipo": "clip",
+      "visual": "03_clip/C04_il_collega.mp4",
+      "audio": "audio/B09.mp3",
+      "durata_fissa_s": null,
+      "testo": "Al centro ci sarà Il Collega: un manichino in divisa, con un occhio nero. Rappresenta chi, dopo un'aggressione, il giorno dopo torna in turno."
+    },
+    {
+      "id": "B10",
+      "tipo": "slide",
+      "visual": "02_slide/S04_domani_torno_qui.png",
+      "audio": "audio/B10.mp3",
+      "durata_fissa_s": null,
+      "testo": "Domani torno qui. È quello che fanno, ogni volta."
+    },
+    {
+      "id": "B11",
+      "tipo": "clip",
+      "visual": "03_clip/C05_cartelli.mp4",
+      "audio": "audio/B11.mp3",
+      "durata_fissa_s": null,
+      "testo": "Alzeremo i cartelli con le frasi vere, anonime, raccolte con il nostro sondaggio."
+    },
+    {
+      "id": "B12",
+      "tipo": "clip",
+      "visual": "03_clip/C06_kenburns_rimesso_in_piedi.mp4",
+      "audio": "audio/B12.mp3",
+      "durata_fissa_s": null,
+      "testo": "E alla fine lo rimetteremo in piedi. Insieme. Perché chi cura si rialza sempre. Ma non deve diventare normale."
+    },
+    {
+      "id": "B13",
+      "tipo": "avatar",
+      "visual": "Aki in his studio",
+      "audio": "audio/B13.mp3",
+      "durata_fissa_s": null,
+      "testo": "Ridare dignità a chi cura non è uno slogan. È una responsabilità di tutti: delle istituzioni, dei cittadini, e anche nostra."
+    },
+    {
+      "id": "B14",
+      "tipo": "slide",
+      "visual": "02_slide/S05_data_luogo.png",
+      "audio": "audio/B14.mp3",
+      "durata_fissa_s": null,
+      "testo": "Ci vediamo lunedì diciannove ottobre, alle undici e trenta, davanti alle rampe del Pronto Soccorso dell'Azienda Ospedale-Università di Padova."
+    },
+    {
+      "id": "B15",
+      "tipo": "slide",
+      "visual": "02_slide/S06_cosa_ti_chiediamo.png",
+      "audio": "audio/B15.mp3",
+      "durata_fissa_s": null,
+      "testo": "Se sei di turno, non lasciare il reparto: condividi questo video. Se sei libero, vieni e arriva quindici minuti prima. Maglietta e guanti li portiamo noi."
+    },
+    {
+      "id": "B16",
+      "tipo": "clip",
+      "visual": "03_clip/C07_kenburns_fermo_immagine_folla.mp4",
+      "audio": "audio/B16.mp3",
+      "durata_fissa_s": null,
+      "testo": "E porta con te una collega o un collega. Più saremo, più forte sarà quel silenzio."
+    },
+    {
+      "id": "B17",
+      "tipo": "slide",
+      "visual": "02_slide/S07_qr_sondaggio.png",
+      "audio": "audio/B17.mp3",
+      "durata_fissa_s": null,
+      "testo": "Se hai subito insulti o aggressioni, compila il sondaggio anonimo. La tua voce può diventare uno dei cartelli."
+    },
+    {
+      "id": "B18",
+      "tipo": "clip",
+      "visual": "03_clip/C08_kenburns_mano_stop.mp4",
+      "audio": "audio/B18.mp3",
+      "durata_fissa_s": null,
+      "testo": "Chi cura non è un bersaglio."
+    },
+    {
+      "id": "B19",
+      "tipo": "avatar",
+      "visual": "Aki in his studio",
+      "audio": "audio/B19.mp3",
+      "durata_fissa_s": null,
+      "testo": "Lunedì diciannove ottobre, alle undici e trenta. Fermati con noi."
+    },
+    {
+      "id": "B20",
+      "tipo": "slide",
+      "visual": "02_slide/S99_chiusura_10s.png",
+      "audio": null,
+      "durata_fissa_s": 10,
+      "testo": null
+    }
+  ]
+}

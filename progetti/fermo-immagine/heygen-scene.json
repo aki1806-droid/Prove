@@ -1,0 +1,202 @@
+[
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "2eae5dbee6f54691aaf4a886670e04ab"
+  },
+  "duration": 3
+ },
+ {
+  "type": "avatar_video",
+  "input": {
+   "type": "avatar",
+   "avatar_id": "e6d73d660d354b94b0a50c9692b7c34e",
+   "audio_asset_id": "0d12164ac096495787603ca323fa9cd3"
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "2b1c8fedd0be4471ad1eed6d30f9d73c"
+  },
+  "audio_asset_id": "548ff575a1e74f37a5c749c9453f7eb6",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "4080c1e852dd4ca28a8b1433ad09ef8b"
+  },
+  "audio_asset_id": "7ea923c1decd495d9fa7f0877c58988f"
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "9f7e9ad40e8844f8abe94b6f370a05e3"
+  },
+  "audio_asset_id": "4861408b9c1f4e339560efd325509de9",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "552598f5bcdc44d3a52956e624dcc8d6"
+  },
+  "audio_asset_id": "bd96a0be7311438ebe8bf05e5db11e2e"
+ },
+ {
+  "type": "avatar_video",
+  "input": {
+   "type": "avatar",
+   "avatar_id": "e6d73d660d354b94b0a50c9692b7c34e",
+   "audio_asset_id": "23aa7cfc15874543be506ef9179cb0ef"
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "0c01b400543c46e79d995302823e87e6"
+  },
+  "audio_asset_id": "c6449a5f654c42bb8f527766174a64be"
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "78685e7786004a02a2fdcf78e7028492"
+  },
+  "audio_asset_id": "77907d2c40c64dfd9e62fab52ab4d6fd",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "97a25e69f2244aab89f23a18624fcf60"
+  },
+  "audio_asset_id": "95d14ab4dabd4f159a9477e49eb7565a",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "453684171e97499e94b1c7715b37ab47"
+  },
+  "audio_asset_id": "7cd2aa79ec844271a074def57bc80441"
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "661d3001fb5940dc958af8bb829b801d"
+  },
+  "audio_asset_id": "0021885bb2eb4220b6b01334a53ad771",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "68d0ed64ae1a4e048e21d93ee879ec9d"
+  },
+  "audio_asset_id": "34ae2900162d400a9280261e2b90b251",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "avatar_video",
+  "input": {
+   "type": "avatar",
+   "avatar_id": "e6d73d660d354b94b0a50c9692b7c34e",
+   "audio_asset_id": "d3b0da0741c34a248651675390d12d0a"
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "a56af684c088441f9cb0ebb93886af30"
+  },
+  "audio_asset_id": "5c783b2ba1bb4bf7a64cfd976af12b6a"
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "01bbbbdc9a104e2fbd72331e3f0a49a3"
+  },
+  "audio_asset_id": "137299b266f444ad9903792a2c81c63b"
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "e46160a4950d4f03a36a8ced92c4b9d7"
+  },
+  "audio_asset_id": "f37aa9b6de3f44c2b0e45f4da3885dc0",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "a6e5a7728f754424afa180d57417299d"
+  },
+  "audio_asset_id": "bb86e2b76ae54c8da1bc781a8f5691ec"
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "6ee554791c8b415bbd8e994fcbfe0153"
+  },
+  "audio_asset_id": "6db7be0a8fb64d19be1d52d45750bbc9",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "avatar_video",
+  "input": {
+   "type": "avatar",
+   "avatar_id": "e6d73d660d354b94b0a50c9692b7c34e",
+   "audio_asset_id": "4705811c454f4fbb93c7a8b890b9faa0"
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "6eaa19cd3b25447dbeab8e8d57f12227"
+  },
+  "duration": 10
+ }
+]
