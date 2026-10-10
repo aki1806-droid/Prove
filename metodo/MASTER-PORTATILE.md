@@ -1,0 +1,4489 @@
+# MASTER — metodo di produzione video
+
+**Documento portatile.** Contiene il metodo *e* il codice: incollato in una chat
+nuova, basta a rifare tutto da zero. È scritto per chi non era presente alla
+prima lavorazione, quindi ogni regola porta con sé il motivo — quasi tutte sono
+costate un render buttato, e poche righe di spiegazione valgono meno di un giro
+a vuoto.
+
+Prodotto finale: **micro-lezioni video da slide + voce**, senza avatar. Nove
+minuti circa, cinquanta scene, sottotitoli, marchio su ogni slide.
+
+Misurato su **sedici lezioni** portate a termine: due moduli interi.
+
+---
+
+# 0. Che cosa serve avere
+
+| | |
+|---|---|
+| **voce** | un servizio di sintesi con trascrizione (qui: ElevenLabs via MCP) |
+| **montaggio** | un servizio che concatena scene da asset (qui: HeyGen via MCP) |
+| **locale** | `python3` con `imageio_ffmpeg`, `node` 22 con `playwright` e Chromium |
+
+Il locale fa tutto il lavoro pesante: slide, clip, tagli, montato di controllo.
+I due servizi esterni servono solo per la voce e per il render finale.
+
+---
+
+# 1. Le domande da fare prima di cominciare
+
+Tre, e vanno fatte **prima** di scrivere una riga. Non si indovinano.
+
+1. **Da dove viene il copione?** Lo scrive l'utente, lo scrivo io, o c'è uno
+   script di partenza da riscrivere?
+2. **Quanto deve durare?** È il vincolo da cui discende tutto il resto.
+3. **Ci va una pausa musicale senza voce?** Sì/no cambia l'aritmetica.
+
+Poi i parametri di stile, che si chiedono una volta per tutto il corso e non si
+ridiscutono a ogni lezione: **palette**, **marchio** (e dove sta), **voce**,
+**lingua**.
+
+> **Quello che non si chiede.** Quanti blocchi, quante scene, che carattere,
+> quanto dura l'ingresso di ogni slide: sono decisioni tecniche, e chiederle
+> sposta sull'utente un lavoro che è mio. Si decidono con l'aritmetica del §2 e
+> si dichiarano nel registro.
+
+---
+
+# 2. L'aritmetica
+
+Tutto discende dalla durata chiesta. Un solo numero da ricordare:
+
+```
+VELOCITÀ DI LETTURA = 17,0 caratteri al secondo
+```
+
+È misurata, non stimata: è la velocità della traccia **dopo** il filtro di
+ritmo. Sulle sedici lezioni il reale è andato da **15,8 a 17,6 car/s**, e lo
+scarto non è rumore — dipende dalla **densità di cifre**. Un anno pronunciato
+per esteso dura molto più dei quattro caratteri che occupa:
+«millenovecentosettantaquattro» sono ventinove caratteri di parlato per quattro
+di testo. Le lezioni più lente sono le due di ripasso, fatte di date, numeri di
+legge ed elenchi.
+
+> **Il fattore che porta la traccia a 17,0 non è una costante.** Si compone di
+> due numeri e **tutti e due si misurano per lezione**, non si copiano da
+> quella prima: quanto tolgono i silenzi (misurato con una passata di ffmpeg:
+> sulle otto lezioni del modulo 2 è andato da **1,078 a 1,196**, il dieci per
+> cento) e l'`atempo` che ne discende. Copiare il numero della lezione
+> precedente fa uscire la successiva a 16,1 o a 17,8 a seconda di quale si
+> copia.
+
+Quindi:
+
+```
+caratteri da scrivere = (durata_parlato_in_secondi) × 17,0
+durata montata        = parlato + 3 s di copertina + 10 s di chiusura
+```
+
+Per una lezione da nove minuti montati: parlato 527 s → **circa 8.950
+caratteri**. Le sedici lezioni stanno fra 8.267 e 9.430.
+
+> **Il vincolo del committente vince sul copione.** Se lo script chiede otto
+> minuti e la committenza «otto minuti almeno», scrivere per otto minuti esatti
+> porta sotto la soglia: una lezione è uscita a 7:55,6. Si allargano i blocchi
+> più magri **con contenuto vero**, non con parole in più — e il tetto di 225
+> caratteri per blocco lascia molto margine, perché la media sta sotto 200.
+
+## Blocchi e scene
+
+```
+TETTO DURO: 50 scene per video
+```
+
+Sopra quello il servizio di montaggio rifiuta. Cinquanta scene sono:
+
+```
+ 1 copertina  +  48 blocchi di parlato  +  1 chiusura  =  50
+```
+
+Da cui, per una lezione da 8.950 caratteri: **48 blocchi da ~186 caratteri di
+media**. Il tetto per blocco è **225 caratteri**: sopra, la slide non regge il
+testo e la scena dura troppo.
+
+Un blocco è **quello che sta sopra una singola inquadratura**: un concetto, mai
+due.
+
+---
+
+# 3. La pipeline
+
+```
+1. riscrivere il copione        →  blocchi.json
+2. generare la voce             →  grezzo-A.mp3, grezzo-B.mp3   ⟵ costa
+3. ritagliare i blocchi         →  48 mp3
+4. renderizzare le slide        →  50 PNG + 48 clip mp4
+5. riprese e immagini generate  →  (di solito: nessuna)
+6. caricare gli asset           →  98 file in un lotto
+7. montare                      →  una sola chiamata, 50 scene
+8. registro                     →  REGISTRO.md
+```
+
+I passi 3 e 4 sono indipendenti: le slide si possono renderizzare mentre la voce
+si genera. Il passo 2 è l'unico che costa soldi veri, ed è l'unico che non si
+può rifare a pezzi.
+
+---
+
+# 4. Passo per passo
+
+## Passo 1 — Riscrivere il copione
+
+Lo script di partenza si legge, si tiene la struttura, e si riscrive fino alla
+lunghezza calcolata al §2. Quello che si aggiunge è il **come**, mai il
+riempitivo.
+
+Convenzioni del testo parlato, tutte e tre obbligatorie:
+
+- **niente vocali accentate**: si scrivono con l'apostrofo (`perche'`, `e'`,
+  `piu'`). Le accentate restano nelle slide, dove si vedono;
+- **cinque o sei tag di intenzione in tutto** (`[serious]`, `[warm]`,
+  `[curious]`, `[thoughtful]`), messi alle svolte vere del discorso. Non uno per
+  blocco;
+- **niente `<break>`**: le pause si fanno tagliando, non chiedendole al modello.
+
+`copione/costruisci.py` (§10) tiene l'elenco dei blocchi, verifica i vincoli e
+stampa l'aritmetica. Finché non dice `OK, nessun errore`, non si va avanti.
+
+> **Se serve allungare senza gonfiare.** Si aggiunge contenuto che c'è già
+> altrove nel corso — un esempio, una fonte, una conseguenza — non si allungano
+> le frasi. Un copione gonfiato si sente: la voce rallenta e il video si siede.
+
+## Passo 2 — Generare la voce, in due tracce
+
+Una traccia continua per metà video, **non una per blocco**: le tracce separate
+non hanno lo stesso timbro fra loro e si sente. Lo stacco fra le due va su un
+cambio di capitolo, dove il cambio di tono è voluto.
+
+```
+chunkA.txt   blocchi fino allo stacco     < 5.000 caratteri
+chunkB.txt   blocchi dopo lo stacco       < 5.000 caratteri
+```
+
+Lo stacco si dichiara **una volta sola**, nella costante `STACCO` di `tagli.py`.
+Tenerne una seconda copia altrove vuol dire che prima o poi le due divergono in
+silenzio e il confronto si fa sui blocchi sbagliati.
+
+> **La voce si genera quando il copione è fermo, mai prima.** Una volta ho
+> generato la traccia A e poi rivisto i blocchi: la revisione ha invalidato la
+> traccia, e rigenerarla è costato $0,75 buttati. Non c'è modo di correggere
+> mezza traccia — o è quella giusta, o si rifà tutta.
+
+> **Dopo ogni ri-spezzettatura automatica, i chunk si rileggono contro lo
+> script.** Un giro di ri-spezzettatura ha fatto sparire in silenzio due
+> passaggi interi. Nessun controllo li avrebbe presi: il conto dei caratteri
+> tornava, i vincoli pure. Il controllo automatico verifica la forma; **non sa
+> che cosa doveva esserci**.
+
+## Passo 3 — Ritagliare i blocchi dalla traccia
+
+È il passaggio che decide tutto. Un confine sbagliato si vede e si sente.
+
+```
+tagli.py allinea    sceglie i confini, prepara prova.mp3
+tagli.py correggi   sposta i confini indicati in correzioni.json
+tagli.py applica    scrive i 48 mp3 + le pose
+```
+
+### Le pause si cercano sul grezzo, non sulla traccia lavorata
+
+È l'errore che costa di più, ed è nascosto. Il filtro di ritmo
+(`silenceremove` con `stop_silence=0.14`) pareggia **tutte** le pause a 0,14 s:
+dopo il filtro la lunghezza della pausa — che è il segnale su cui si basa tutta
+la scelta — **non esiste più**. Confini sul grezzo, ritmo applicato dopo, blocco
+per blocco.
+
+### Come si scelgono i confini
+
+Allineamento **DTW fra punteggiatura e spezzoni di parlato**. La voce mette le
+pause dove il testo ha la punteggiatura: si spezza il copione a `. : ; ,`,
+si spezza l'audio negli spezzoni fra un silenzio e l'altro, e si allineano le
+due sequenze con una programmazione dinamica monotona.
+
+Misurato sulla stessa traccia: la strada ingenua (assegnare ogni confine alla
+pausa più lunga lì intorno) sbagliava **17 blocchi su 48**; il DTW **2 su 48**.
+
+### La soglia di pausa non si sceglie al primo tentativo che funziona
+
+Provare le soglie in ordine e fermarsi alla prima che «ha abbastanza spezzoni»
+guarda la quantità e non l'esito. Su una lezione la soglia di 0,18 s ha mancato
+per un centesimo una pausa vera, e i due blocchi attorno sono usciti uno di 19
+secondi e uno di 8. **Si provano tutte le soglie e si tiene quella che lascia
+meno blocchi fuori fascia** (8,5–21 car/s).
+
+E nel codice che fa quel voto: una soglia bassa può mettere due confini sulla
+stessa pausa e lasciare un blocco di durata zero. Non è un caso da far
+esplodere, è il caso peggiore possibile, e come tale va pesato.
+
+### `correzioni.json` non è un registro
+
+`tagli.py correggi` **modifica lo stato sul posto**. Rilanciarlo con una
+correzione già applicata la applica **una seconda volta**. Quando serve una
+seconda correzione sulla stessa traccia:
+
+```
+tagli.py allinea    rifà i confini da zero (nessun costo: solo ffmpeg)
+                    ↓ correzioni.json con TUTTE le correzioni insieme
+tagli.py correggi
+tagli.py applica
+```
+
+Fatto così, `correzioni.json` descrive davvero come si passa dal grezzo ai
+blocchi, e la lavorazione si può rifare da capo.
+
+### La verifica non è opzionale
+
+Da sola, la scelta automatica sbaglia. Due controlli, e fanno cose diverse:
+
+| | `prova.mp3` (1,6 s prima di ogni taglio) | traccia intera |
+|---|---|---|
+| buchi nel parlato | solo intorno ai tagli | **su tutto il testo** |
+| posizione dei tagli | **sì**, è il suo scopo | no: la trascrizione non porta i tempi |
+| costo su ~9 minuti | ~$0,17 | ~$0,60 |
+
+Quando si può, si fanno tutte e due. Quando se ne può fare una sola, quella
+sulla traccia intera prende l'errore più caro — la voce che salta parole — e i
+confini restano affidati all'allineamento e ai due controlli offline di
+`controllo-statistico.py`, che non costano niente.
+
+> **Una trascrizione che ripete il copione non è una trascrizione.** Se la si
+> chiede collegandola al *nodo che ha generato la voce* invece che a un asset
+> audio, torna il testo di partenza, identico: apostrofi di comodo (`piu'`) e
+> tag di intenzione (`[warm]`) compresi. La verifica dice allora 100% per
+> costruzione, e non ha guardato l'audio. Il segnale d'allarme è proprio quello:
+> **nessuna voce pronuncia un apostrofo o una parentesi quadra.**
+
+> **Il tag ID3 fa rifiutare il caricamento.** La traccia grezza viene respinta
+> con `Stored file type not supported: application/octet-stream`, mentre lo
+> stesso giro con un mp3 di blocco passa. Non è il trasporto: è il tag ID3 da
+> ~17 KB che il generatore di voce scrive in testa. Si toglie senza ricodificare:
+> `ffmpeg -i grezzo.mp3 -map_metadata -1 -c:a copy pulito.mp3`.
+
+### Le rese si dichiarano una per volta
+
+Il confronto parola per parola va normalizzato, ma **mai con una tolleranza
+generica**: la sigla sillabata torna incollata, «uno punto cinque» torna «1.5»,
+«lettera acca» torna «lettera h». Ogni resa è una riga dichiarata in
+`verifica-testo.py`.
+
+**I numeri pronunciati per esteso** sono la resa che ricorre di più, e non si
+trattano a mano: il copione scrive «739», la voce dice «settecentotrentanove» e
+il trascrittore lo riscrive a parole — o in cifre, senza costanza (sulla stessa
+lezione, la traccia A a parole e la B in cifre). La regola dichiarata è un
+convertitore dei cardinali italiani in cifre applicato ai **due** testi. Su una
+lezione ha portato gli scarti segnalati da 16 a 2.
+
+### Come non liquidare un segnale dubbio
+
+Quando la trascrizione rende male una parola, la tentazione è archiviare. Una
+volta l'ho fatto e la voce aveva davvero mangiato sei parole. Il modo di
+decidere senza riascoltare, in ordine di forza:
+
+1. **la stessa parola altrove nella stessa sessione.** Se in un'altra traccia il
+   trascrittore la rende giusta, la voce sa dirla;
+2. **il contesto fonetico.** Una vocale finale che sparisce davanti a una
+   congiunzione che comincia per vocale è elisione, non omissione;
+3. **la durata del blocco.** Se mancassero delle sillabe il blocco sarebbe più
+   **veloce** della media. Se è più lento, non manca niente.
+
+### E lo stesso vale per un confine sospetto
+
+`controllo-statistico.py` segnala le coppie adiacenti di segno opposto: un
+blocco più corto del previsto accanto a uno più lungo, che è la firma di un
+confine spostato. Ma il modello pesa le **parole**, non le **pause**, e un
+blocco che è un elenco può dare la stessa firma **senza** che ci sia niente di
+storto.
+
+> **Il controllo che vale di più costa una passata di ffmpeg.** Un taglio
+> giusto cade **dentro una pausa vera della voce**; un taglio spostato cade in
+> mezzo a una frase. Si misura in locale con `silencedetect` sulle tracce
+> grezze, senza trascrivere niente e senza sapere che cosa la voce dica. È la
+> seconda sezione di `controllo-statistico.py`, e va letta **per prima**: la
+> statistica dice *dove guardare*, questa dice *se c'è qualcosa da vedere*.
+>
+> Su 2.6 la statistica ha accusato una coppia e il controllo delle pause l'ha
+> assolta in dieci secondi. Rilanciato sulle sette lezioni del modulo: **322
+> tagli su 322 dentro una pausa**, nessuna lezione da rifare.
+>
+> La soglia va tenuta **sotto** la pausa minima che `tagli.py` accetta, che non
+> è una costante — la calcola per lezione. Con 0,15 s fissi il controllo ha
+> accusato un taglio che cadeva nel centro esatto di una pausa di 0,143 s: un
+> falso allarme prodotto dal controllo, non dal taglio. Sta a 0,05 s.
+
+Quando anche quello non basta, il modo di decidere non è ragionare sul
+modello: è **fare il conto sull'audio grezzo**. Si prende lo spezzone di
+parlato fra le due pause candidate e si divide per i caratteri della frase che
+dovrebbe contenere.
+
+Esempio vero: fra 124,57 e 130,02 ci sono 5,4 s di parlato per una frase da 60
+caratteri. Col confine dove l'aveva messo l'allineamento (127,59) quella frase
+sarebbe stata detta a **20,5 car/s di grezzo**, contro i 14-16 di quella voce.
+Confine sbagliato, senza ambiguità e senza riascoltare.
+
+> **Quando il controllo statistico diventa cieco.** La soglia di allarme è
+> **1,5 volte la dispersione della traccia**. Su un testo pieno di date o di
+> elenchi il modello sbanda su ogni blocco, la dispersione raddoppia (1,03 s su
+> una lezione di ripasso contro i 0,53 di una discorsiva) e con essa la soglia.
+> Il controllo non è rotto: è **cieco in proporzione**. Su una traccia così si
+> guarda il controllo delle pause e si legge la tabella dei blocchi a mano.
+>
+> Ritarare il peso delle cifre sulla lezione che mette in crisi il modello è la
+> tentazione da evitare: si aggiusta quella e si sbaglia sulle altre sette.
+
+### Il peso di un pezzo di copione: quanto DURA, non quanto è lungo
+
+La DTW allinea pezzi di copione a spezzoni di audio, e il costo è il **peso**
+del pezzo. Pesarlo in caratteri sbaglia sui numeri: «1.4 e 1.5.» sono dieci
+caratteri, ma la voce dice «uno punto quattro e uno punto cinque» e ci mette
+quattro secondi. Su una lezione questo ha spostato un confine di 2,1 s.
+
+Il primo rimedio — *una cifra vale cinque caratteri*, piatto — funziona in
+media e si rompe agli estremi, **in tutti e due i versi**: `12` pesava dieci e
+la voce dice *dodici*, che ne vale sei; `1994` pesava venti e la voce dice
+*millenovecentonovantaquattro*, che ne vale ventotto.
+
+La regola giusta è **scrivere il numero per esteso e contare quello**. La
+differenza fra «sette» e «millenovecentonovantaquattro» la sa l'italiano, non
+un fattore moltiplicativo. Il convertitore sta in `tagli.py` (`in_lettere`), e
+tratta il punto fra due cifre come «punto», che è come si legge.
+
+> **Il peso vive in un file solo.** Due volte in due lezioni la DTW e il
+> controllo statistico hanno avuto pesi diversi, e ogni volta il sintomo non è
+> stato un errore: è stato **un controllo che tace**. Con i pesi in disaccordo
+> la coppia sospetta di 2.6 non veniva segnalata affatto.
+> `controllo-statistico.py` **importa** `peso` da `tagli.py`.
+>
+> Vale per ogni numero del sistema, non solo per questo. La soglia delle pause
+> è inciampata nello stesso modo, una lezione dopo.
+
+## Passo 4 — Renderizzare le slide
+
+Un solo layout condiviso (`slide/layout.mjs` + `slide/grafica.mjs` +
+`slide/figure.mjs` + `slide/clinica.mjs`), usato sia per i PNG fermi sia per i
+fotogrammi delle clip. Le due cose **devono** uscire
+identiche, quindi l'orologio delle animazioni non scorre da solo: lo sposta a
+mano il generatore.
+
+```
+node slide/cards.mjs    50 PNG  — GUARDARLI, in provini da nove
+node slide/clips.mjs    48 clip da 3,2 s   (o solo alcune: node slide/clips.mjs s10 s24)
+```
+
+### Il controllo di traboccamento, e come si sbaglia a scriverlo
+
+Non basta guardare `scrollHeight` del corpo. È un flex item con `flex:1`:
+quando il contenuto è troppo alto **non scrolla, cresce**, e a tagliare è la
+slide. Il confronto giusto è **geometrico**, fra il rettangolo del corpo e la
+cornice interna della slide.
+
+> Quando un controllo automatico non ha mai trovato niente, non è una buona
+> notizia finché non gli si è dato qualcosa da trovare. Riscritto bene, questo
+> ha trovato subito sei slide tagliate che il vecchio dava per buone.
+
+### Le soglie di densità stanno nella libreria, non nelle scene
+
+Gli elenchi lunghi si stringono da soli; `griglia` si stringe oltre le sei
+caselle su una colonna; `icone` oltre le quattro. Se la soglia sta nelle scene,
+ogni lezione se ne dimentica per conto suo.
+
+E qualche tipo ha un **tetto**, non solo una soglia: `icone` è un flex
+orizzontale e sopra le **cinque** voci esce dalla cornice qualunque sia il
+corpo del testo. Sette barriere sforavano di 377 px. Non è un problema di
+misura, è di densità: sopra le cinque voci si usa `griglia`. I tetti stanno
+scritti nel CSS, accanto alla regola.
+
+### Una slide si rompe in tre modi, e solo due si vedono da soli
+
+1. **Esce dalla cornice.** Lo prende il controllo geometrico.
+2. **Stampa un dato che non c'è.** Un `assetempo` senza anni veri scrive
+   `undefined` sull'asse, **dentro la cornice**: muto per il controllo di
+   sopra, e sarebbe andato in resa. Adesso `cards.mjs` legge il testo reso di
+   ogni slide e segnala `undefined`, `NaN` e `[object Object]`.
+3. **Dice una cosa falsa, perfettamente impaginata.** Questo non si
+   automatizza, e il paragrafo sotto è la sola difesa.
+
+> Quando un controllo automatico non ha mai trovato niente, non è una buona
+> notizia finché non gli si è dato qualcosa da trovare. Il controllo dei dati
+> mancanti è stato provato rimettendo il difetto che l'aveva motivato, e poi
+> ripristinando: **un controllo non provato non è un controllo.**
+
+### Le illustrazioni si disegnano, i numeri contano
+
+La seconda generazione della grafica (`figure.mjs`) è nata da una richiesta
+precisa del committente dopo sedici lezioni: «più grafiche accattivanti, più
+immagini SVG, qualche elemento animato». Tre cose ne discendono.
+
+1. **Le illustrazioni sono tratti che si disegnano da soli.** Ogni `<path>`
+   porta `pathLength="1"` e parte con `stroke-dashoffset:1.1`: la CSS lo porta
+   a zero e il tratto compare come sotto una penna. I riempimenti in tinta
+   d'accento arrivano **dopo** i tratti (`appariPieno`, ritardo 1,55 s), o si
+   vedono macchie prima delle linee. Il dasharray è `1 2` e non `1 1`: con `1 1`
+   a ogni inizio di tratto resta un puntino.
+2. **I numeri contano da zero.** `@property --n` + `counter-reset` + `::after`
+   `content:counter(n)`: il numero è testo vero, non un'animazione di frame, e
+   il generatore lo ferma al fotogramma come tutto il resto.
+3. **La clip dura 3,2 s, non più 1,8.** Un disegno che si completa in 1,3 s è
+   un lampo; tutto finisce entro 2,8 s, poi la scena resta ferma sull'ultimo
+   fotogramma quanto dura la voce. Le clip si rifanno **una per una** con gli
+   id sulla riga di comando: una slide corretta non costa la ri-resa delle
+   altre quarantasette.
+
+Un cerchio in un path si scrive con l'aiutante `C(cx, cy, r)`: l'idiomatico
+`M x y a r r 0 1 1 0 .1` mette il centro **accanto** al punto di partenza, e
+tre illustrazioni sono uscite con l'orologio e la bussola spostati di un
+raggio prima che me ne accorgessi sul provino.
+
+### La terza generazione: il corpo, la stanza, il meccanismo
+
+Con il modulo clinico il committente ha chiesto ancora di più: «immagini SVG
+originali, grafici animati, elementi di qualità». Le frasi sole erano già
+diventate illustrazioni; qui la figura deve mostrare **un meccanismo**, non
+decorare un elenco. `clinica.mjs` aggiunge sei corpi che ne valgono uno ciascuno:
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `corpo` | la sagoma, fronte e dorso, con le zone che si **accendono nell'ordine** della voce | la sequenza dell'igiene a letto (3.1) |
+| `frequenze` | strisce delle 24 ore con le ripetizioni che compaiono | il cavo orale: 2 volte, 2–3, ogni 4–6 h, ogni 2–4 h |
+| `percorso` | una linea a tappe numerate che si disegna, a serpentina sopra le cinque | la persona trovata a terra, sette passi |
+| `vap` | vie aeree, tubo, cuffia, la pozza di secrezioni e le gocce che la superano | la microaspirazione (3.1) |
+| `mappa` | un'illustrazione grande con i richiami numerati che compaiono | l'unità del paziente, sette elementi |
+| `bivio` | una radice e due rami, uno in accento | le sponde: presidio o contenzione |
+
+La 3.2 ne aggiunge cinque, e con loro il modo di farne altri: un corpo nuovo è
+una funzione che riceve i dati e restituisce SVG, più il suo CSS con un
+prefisso proprio.
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `posizioni` | il letto visto di lato, una card per posizione: la persona si disegna, il letto s'inclina, l'angolo si scrive | supina, prona, laterale, Sims, Fowler, semi-Fowler, ortopnoica, Trendelenburg; l'alzata in due tempi (3.2) |
+| `apparati` | la sagoma con gli organi che si disegnano in accento e gli spilli **fuori dal corpo**, con la linea guida | gli otto apparati della sindrome da immobilizzazione |
+| `curva` | un asse, una linea che scende in fretta e risale piano, l'area sotto | «la forza si perde in giorni e si recupera in settimane» |
+| `forze` | tre sezioni (osso, tessuti, cute, lenzuolo) in cui **qualcosa si muove**: l'osso scende, la cute scivola, i piani profondi scivolano sotto la cute ferma | pressione, frizione, taglio |
+| `triade` | tre nodi ai vertici di un triangolo che si disegna, il nome al centro | la triade di Virchow |
+
+E le icone in fila (`icone`) accettano ora anche le illustrazioni a 240: un
+nome che non è fra le icone a 24 cade su `illustrazione()`, che `layout.mjs`
+collega all'avvio (`collegaIllustrazioni`). Gli ausili — telo, sollevatore,
+disco, deambulatore, archetto, bastone — sono nati così.
+
+Dalla 3.3 alla 3.6 se ne aggiungono altri sei, sempre con lo stesso schema:
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `fascia` | una scala a segmenti con le soglie scritte; `marca` per una soglia in più; `uguali:true` per segmenti di pari larghezza quando i valori schiaccerebbero le classi | il BMI (3.3); diuresi, sodio, potassio, calcio (3.5) |
+| `consistenze` | tre bicchieri che versano in una gola: le gocce corrono lungo un `offset-path`, il fluido in fretta, l'addensato piano, la doppia consistenza si separa | i liquidi nella disfagia (3.3) |
+| `vie` | il profilo con naso, esofago, stomaco e digiuno; le sonde si disegnano una per volta in accento | SNG, naso-digiunale, PEG, PEJ (3.4) |
+| `bilancio` | il serbatoio delle 24 ore, con le entrate che entrano da sinistra e le uscite che escono a destra | il bilancio idrico (3.5) |
+| `distribuzione` | la sacca sopra i due compartimenti: isotonica, ipotonica, ipertonica riempiono in modo diverso | le soluzioni infusionali (3.5) |
+| `curva` con `sale:true` | la stessa curva, ma che sale soltanto | il rischio di CAUTI per giorno di permanenza (3.6) |
+
+E il riepilogo (3.8) ne chiede due che i moduli successivi ritroveranno:
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `anello` | le lezioni di un modulo su un'ellisse che si disegna, ognuna in un tondo con la sua illustrazione a 240 e l'etichetta fuori; `attive` per accenderle a gruppi; il centro compare per ultimo | la mappa delle sette lezioni (3.8) |
+| `gesti` | da due a quattro riquadri in fila, un'illustrazione grande, un titolo, una riga; fra un riquadro e l'altro una freccia che si disegna | il filo del modulo; l'igiene; il sondino; il metodo di ripasso (3.8) |
+
+Una cosa imparata sulla verifica, chiudendo 3.6–3.8 in un giro solo:
+
+- **lo speech-to-text collegato al nodo della voce non ascolta.** Per fare
+  in fretta, le prime trascrizioni sono state collegate direttamente al nodo
+  TTS invece che a un asset audio: il risultato era il copione stesso, tag
+  di intenzione compresi, con lo 0 % di differenze che nessuna trascrizione
+  vera ha mai dato. La verifica vale solo se la trascrizione parte dall'mp3
+  caricato come asset (`creative_attach_reference_file` con l'URL firmato,
+  poi `creative_transcribe_audio` da quel nodo): un risultato identico al
+  copione è il segnale che non si è trascritto niente.
+
+Due cose imparate con l'anello:
+
+- **un `<svg>` annidato eredita il CSS della sua classe.** L'illustrazione
+  dentro il tondo aveva `x`, `y`, `width` e `height` come attributi, ma
+  `.illu{width:100%}` vinceva: sette figure a tutta slide, sovrapposte. La
+  figura sta in un `<g transform="translate()">` e la larghezza è nel CSS del
+  corpo (`.anello .nodo .illu{width:88px}`);
+- **un corpo per il riepilogo non è un corpo in meno.** L'anello e i gesti
+  riusano le quarantacinque illustrazioni già disegnate: il riepilogo è il
+  posto in cui la libreria si vede tutta insieme, e un'illustrazione che non
+  regge a 88 px (troppi tratti) si scopre lì.
+
+E due cose imparate sul copione, non sulla grafica:
+
+- **i decimali detti a parole.** Il copione dice «uno virgola due» e «diciotto
+  e mezzo», il trascrittore scrive «1,2» e «18,5». Tolta la punteggiatura,
+  «1,2» diventava «1 2» e una regola già esistente lo leggeva come il rimando
+  alla lezione 1.2: la verifica segnalava buchi che non c'erano.
+  `verifica-testo.py` ora salva la virgola decimale prima di togliere la
+  punteggiatura e fa convergere «uno virgola due», «diciotto e mezzo»,
+  «ventiquattro e nove» e «24,9» su una sola parola;
+- **una deroga si dichiara, non si nasconde.** In 3.4 la voce non ha fatto
+  pausa dove il copione staccava (s02/s03), e il primo blocco è passato a 231
+  caratteri seguendo la voce. `costruisci.py` ha ora un dizionario `DEROGHE`:
+  un blocco oltre i 225 passa il controllo solo se è lì, con il motivo
+  scritto. Se le deroghe diventassero frequenti, il segnale sarebbe un altro:
+  il copione chiude i blocchi con un'anafora che invita a proseguire.
+
+Il modulo 4 ne aggiunge sei, e con loro trentacinque illustrazioni
+(ferita, catetere centrale, contatto, goccia, nuclei sospesi, microbo,
+fotografia, pellicola, zanzara, zona, dispenser, rubinetto, guanto, gomito,
+mascherina, respiratore, camice, cartello, fiore, fonendo, occhiali, rifiuti,
+il guanto che si sfila, le due dita, il pacchetto, vasca, autoclave, pacco,
+provetta, puntura, taglienti…):
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `anelli` | sei ovali concatenati che compaiono uno per volta, con l'etichetta sotto; `rotto` è l'anello che si separa in due metà in accento; `attive` li accende a gruppi | la catena delle infezioni (4.1), il filo del riepilogo (4.8) |
+| `percento` | cento tondini in dieci file, i primi `n` in accento, da `da` a `n` a mezza tinta, il testo grande a destra | «otto ricoverati su cento», «fra un terzo e la metà» (4.1) |
+| `colonne` | una tabella a due o tre colonne con l'intestazione a pillola e le voci che scendono una per volta; `attive` accende le colonne a gruppi | la tabella delle precauzioni (4.3), Spaulding (4.5), i bundle (4.8) |
+| `pressione` | una o due stanze viste dall'alto: porta, letto, bocchetta, e le frecce dell'aria che entrano (negativa) o escono (positiva), in loop | la stanza a pressione negativa e quella positiva (4.3) |
+| `selezione` | un campo di quaranta germi, sei già resistenti; `fase:'dopo'` fa svanire i sensibili, `'poi'` mostra il campo tutto resistente | il meccanismo della selezione (4.6) |
+| `percorso` a due righe | oltre le cinque tappe la linea va a serpentina, e l'ultima tappa della prima riga porta l'etichetta **sopra**, fuori dal raccordo verticale | il caso TBC a sei passi (4.4), la puntura a sei passi (4.7) |
+
+Sei cose imparate nel modulo 4:
+
+- **un foglio di stile che forza `text-anchor` annulla l'ancora calcolata.**
+  Il ciclo scriveva `text-anchor="start"` a destra ed `"end"` a sinistra, ma
+  `.fig .nodo .lbl{text-anchor:middle}` vinceva: con cinque passi e nomi
+  corti non si vedeva, con otto passi «Sterilizzazione» stava sopra il nodo.
+  L'ancora va in linea (`style="text-anchor:…"`), e oltre i sei passi il
+  cerchio si stringe (raggio 196, riquadro 680) perché l'etichetta in alto
+  non salga sul sopratitolo;
+- **`foreignObject div{display:flex}` prende anche i div interni.** Nella
+  selezione ogni parola in accento andava a capo da sola: il `div` del
+  titolo era diventato una colonna flex e i suoi figli in linea righe. La
+  regola vale per `foreignObject > div`;
+- **una stanza sola non sta nel `viewBox` di due.** Il corpo `pressione` con
+  una stanza sola usava la larghezza di una stanza e la card lo scalava a
+  tutta slide: il `viewBox` resta 1656 e la stanza si centra;
+- **un `tre` senza riga di spiegazione è più stretto degli altri.** «0,3 %»
+  andava a capo nella terza casella perché le caselle si dividono il posto
+  per contenuto: si aggiunge la riga, non si tocca il corpo;
+- **la copertina regge due righe di titolo, non tre.** «Decontaminazione,
+  disinfezione e sterilizzazione» sforava di 15 px: la riga del modulo si
+  accorcia («Prevenzione e controllo delle ICA») e il controllo passa;
+- **una regola a coppie di parole dipende dalla parità.** Per far
+  convergere «quattro punto sei» e «4.6», la prima versione di
+  `verifica-testo.py` fondeva ogni coppia di cifre singole adiacenti: ma
+  `re.sub` prende le coppie non sovrapposte da sinistra, e una parola in più
+  o in meno prima del punto cambiava quali parole finivano in coppia
+  («lezione34» da una parte, «3 4virgola5» dall'altra). I rimandi si
+  uniformano PRIMA di togliere la punteggiatura, sulla cifra con il punto o
+  il trattino («4.6», «1-2», «1/2») e sulle parole con il trattino
+  («uno-due»), e a parole con «punto» in mezzo: forme che non dipendono da
+  ciò che le precede;
+- **i lotti di asset si caricano uno alla volta, ma si possono aprire in
+  parallelo.** Sette lezioni in un giro: le voci di ElevenLabs si chiedono a
+  due a due mentre le precedenti si tagliano, i montaggi locali girano tutti
+  insieme in background (carico 20 su 4 core, ma finiscono), e i lotti di
+  HeyGen si aprono man mano. L'elaborazione dei lotti però è condivisa: con
+  quattro lotti aperti insieme un file può restare «processing» per
+  minuti, e la resa aspetta il 98/98. Se un solo item resta indietro per
+  più di cinque minuti (è successo in 4.3, 4.6 e 4.8, sempre a un clip),
+  si apre un lotto di sicurezza da un file con lo stesso clip: nei tre casi
+  l'originale è arrivato prima del lotto di sicurezza, ma il ricambio era
+  pronto da montare al posto dell'id fermo;
+- **i file di HeyGen non si scaricano da qui.** Il proxy di rete blocca
+  `files2.heygen.ai` (403 sul CONNECT): l'SRT prodotto con `caption` non è un
+  ripiego per la trascrizione. E la quota mensile di ElevenLabs si esaurisce
+  a metà modulo: una traccia costa 4.400–4.700 crediti, una trascrizione
+  1.600–2.000. Quando il credito manca si preparano copione, slide e registro
+  di tutte le lezioni che restano, e la voce si fa in un giro solo dopo.
+
+Il modulo 5 ne aggiunge sedici, e con loro ventiquattro illustrazioni
+(pillola, fegato, rene, pompelmo, triangolo nero, anziano, recettore,
+bilancia, cerotto, spray, collirio, supposta, osso, calcolatrice,
+gocciolatore, pettorina, armadio, etichetta, flaconi simili, cuore con la
+traccia, penna da insulina, frigorifero, bicchiere di succo, goccia di
+sangue):
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `adme` | il vaso con le quattro stazioni (A, D, M, E) che si accendono nell'ordine della voce, il fegato sopra la M e il rene sotto la E, tre puntini che corrono nel lume | la farmacocinetica (5.1) |
+| `emivita` | la curva che si dimezza a ogni t½ con i livelli 100, 50, 25, 12,5; in modo `accumulo` le dosi ripetute a dente di sega fino al plateau | l'emivita e lo steady state (5.1) |
+| `finestra` | la banda fra concentrazione minima efficace e tossica, la stessa dose che la rispetta se ampia e la supera se `stretta`; la lista dei farmaci da TDM a destra, `fitta` oltre le cinque voci | la finestra terapeutica (5.1) |
+| `recettore` | la membrana con la tasca: l'agonista che cala e il segnale che parte, l'antagonista che la occupa | agonisti e antagonisti, il naloxone (5.1) |
+| `legame` | le albumine che tengono i puntini del farmaco legato e i pochi liberi in accento; con meno albumine i liberi crescono | il legame proteico e l'ipoalbuminemia (5.1) |
+| `iniezione` | la sezione della cute a tre strati e l'ago che si disegna all'angolo giusto (`angolo`, `strato` id/sc/im), con l'etichetta della lunghezza | le vie parenterali (5.2) |
+| `zeta` | la tecnica a Z in tre quadri: la cute spostata, il deposito, il tramite che si spezza | la Z per i farmaci irritanti (5.2) |
+| `sedi` | la sagoma di fronte e di spalle con le zone (`voci` con x, y, rx, ry, lato) che si accendono nell'ordine della voce | le sedi intramuscolari e sottocutanee (5.2) |
+| `calcolo` | la formula scritta un segno per volta: i dati, gli operatori in grigio, il risultato dopo l'uguale in accento, la nota sotto | i calcoli delle dosi (5.3), i venti calcoli (5.8) |
+| `pausa` | il glifo della pausa che si disegna, l'esercizio in corsivo, i dati a pillole, l'etichetta del tempo | gli esercizi (5.3, 5.8) |
+| `gocce` | due camere di gocciolamento, 20 e 60 gocce per millilitro, con le gocce che cadono a ritmo diverso | il fattore del deflussore (5.3) |
+| `profili` | le quattro curve delle insuline sulle 24 ore (rapida, regolare, NPH, basale piatta), con il triangolo del pasto; le etichette sulla discesa (`lp`) | le insuline (5.5) |
+| `mic` | due pannelli con la soglia efficace: tre dosi a intervalli e la fascia di tempo sopra la soglia sotto l'asse; una dose alta con il picco | tempo- e concentrazione-dipendenti (5.6) |
+| `respiro` | la sedazione che sale a gradini e la frequenza respiratoria che cala solo dopo, con la finestra «qui si interviene»; `caso` segna FR 9 e SpO₂ 90 | la depressione respiratoria da oppioidi (5.6) |
+| `antidoto` | due curve che calano dalla stessa altezza, l'antidoto in fretta e l'oppioide piano, e la fascia in cui la persona torna a sedarsi | il naloxone (5.6) |
+| `registro` | la pagina del registro di carico e scarico, numerata e vidimata, che si compila riga per riga; `evidenzia` accende una riga, `correzione` la barra con riga e firma | gli stupefacenti (5.6) |
+
+Il `percorso` a due righe è sceso a 660 di altezza (seconda riga a 180 +
+300 r): a 700 sforava di 16 px con sei tappe (5.4).
+
+Nove cose imparate nel modulo 5:
+
+- **due chiamate Bash in parallelo si contendono la cartella di lavoro.**
+  Anche `cd X && comando` all'inizio del comando è finito eseguito in
+  un'altra cartella: il `contenuti.mjs` di 5.1 è nato nella radice della
+  lezione, una patch per 5.4 è caduta su 5.5. Sempre percorsi assoluti, e
+  i comandi che hanno bisogno della cartella vanno in una sottoshell
+  `( cd /abs && … )`. E `pkill -f` con un motivo che compare anche nel
+  comando che lo lancia uccide il comando stesso (uscita 144);
+- **i decimali si fondono parola per parola, non con un'espressione
+  regolare.** «la virgola cinque virgola zero» (5.4): la regola a coppie
+  prendeva «la virgola cinque», falliva perché «la» non è un numero, ma
+  consumava il «cinque» che serviva alla coppia vera. `verifica-testo.py`
+  scorre le parole e fonde `numero virgola numero` e `numero e cifra` dove
+  i vicini sono davvero numeri; «zero» vale 0; e «19. E un» diventa
+  «19 ee un» prima di togliere la punteggiatura, altrimenti si legge 19,1;
+- **`${num(y) + 50}` concatena.** `num()` restituisce una stringa, e «451»
+  + 50 fa «45150»: il testo finisce a quarantacinque metri dal foglio e
+  nessun controllo lo vede, perché non sfora, sparisce. La somma va dentro
+  `num()`. Il `-` non ha questo problema, e per questo il difetto si
+  nasconde: nel 5.6 erano sette casi, tutti con il più;
+- **quando la voce apre in fretta e il resto è lento, si abbassa la mira,
+  non si sposta il confine.** In 5.4 e 5.5 il primo blocco usciva a 21,1 e
+  21,7 car/s dopo il montaggio, con i confini giusti (le pause lo
+  confermano). `MIRA` in `tagli.py` è per lezione: 16,8 e 16,3 car/s invece
+  di 17, e la lezione dura 9:03 e 9:11 invece di 8:57 e 8:49;
+- **le etichette di quattro curve non stanno tutte al picco.** Nei profili
+  delle insuline si coprivano l'una con l'altra: ciascuna sta sulla
+  discesa della sua curva, alla sua altezza (`lp: [ora, ancora]`);
+- **una cifra con la barra è una cifra con il suffisso.** «309/1990» in
+  un `cifre` sfora di 23 px: `n:"309", suf:"/1990"`;
+- **la libreria si estende anche a ritroso.** `nuova-lezione.sh` copia
+  dall'ultima lezione: se la libreria della lezione N cresce dopo che la
+  N+1 è stata creata, `libreria-aggiungi.py` si rilancia sulla N+1 (la
+  chiave la rende idempotente). Le correzioni ai corpi si fanno sui tre
+  file sorgente (`mNN-illu/css/corpi.txt`) E in ogni `clinica.mjs` che li
+  ha già;
+- **il registro si scrive prima della resa.** `controlli.py` chiede la
+  sezione «Da verificare»: senza registro la lezione resta a 7/8 e non si
+  monta. Il registro nasce con «La resa: *in corso*» e `registro-resa.py`
+  lo completa, con la tabella del modulo e il README;
+- **i crediti di ElevenLabs si guardano prima di chiedere la voce.** Le
+  due tracce di 5.7 sono state rifiutate con 3.747 crediti residui (una
+  traccia ne chiede 10.000 di riserva, pur costandone 4.500): con quello
+  che restava si sono fatte le trascrizioni di 5.5. Le lezioni 5.6, 5.7 e
+  5.8 sono state portate fino alle slide, ai registri e, dove la voce c'era,
+  al montaggio, in attesa del rinnovo.
+
+I moduli 6, 7 e 8 (ventiquattro lezioni fatte senza voce, in attesa dei
+crediti) aggiungono trentatré corpi, due o tre per lezione, e nessuna
+illustrazione: dal modulo 6 in poi la scena di una lezione si regge sul
+corpo, e le illustrazioni della libreria bastano per l'anello e le figure.
+
+| corpo | che cosa mostra | dove è nato |
+|---|---|---|
+| `calibri`, `vene` | i sei gauge con i colori standard; il braccio con le zone delle vene | gli accessi periferici (6.1) |
+| `accessi` | il torace con la cava e i cinque dispositivi centrali, il Midline che si ferma prima | gli accessi centrali (6.2) |
+| `tonicita` | la cellula nei tre ambienti, che si gonfia, resta, si raggrinza | i cristalloidi (6.3) |
+| `ega` | le tre colonne di pH, CO₂ e bicarbonato con i valori che salgono e scendono | l'emogasanalisi (6.4) |
+| `sacca` | la multicamera che si attiva e l'emulsione rotta | la nutrizione parenterale (6.5) |
+| `gruppi` | le sacche «0 −» e «AB» che vanno a tutti i gruppi | i donatori universali (6.6) |
+| `provette` | le sei provette nell'ordine di prelievo con i tappi, l'EDTA nel siero, il citrato alla tacca | la preanalitica (6.7) |
+| `fasi`, `intenzioni`, `time`, `fondo`, `orologio` | le quattro fasi sul tempo; le tre intenzioni in sezione; le tessere del TIME; i colori del fondo; le ore 12 verso la testa | la valutazione della lesione (7.1) |
+| `stadi`, `sedi` | la cute a cinque strati scavata fino allo stadio; le tre posizioni con i punti d'appoggio | le lesioni da pressione (7.2) |
+| `gambe2`, `abi` | le due gambe a confronto; la scala dell'ABI con le soglie | le ulcere vascolari (7.3) |
+| `ssi`, `giorni`, `punti` | le tre profondità dell'infezione; i giorni dei punti per sede; la rimozione giusta e sbagliata | le ferite chirurgiche (7.4) |
+| `umido`, `albero`, `npwt` | le tre lesioni secca, umida, bagnata; lesione → classe; la pressione negativa | le medicazioni avanzate (7.5) |
+| `addome`, `placca` | le tre stomie al posto giusto; il foro troppo largo, giusto, stretto | le stomie (7.6) |
+| `pleura`, `camere` | aria in alto e liquido in basso; le tre camere con oscillazione e bollicine | i drenaggi (7.7) |
+| `scompenso`, `ecg` | i due lati dello scompenso; la striscia millimetrata con i ritmi che si disegnano | la cardiologia (8.1) |
+| `o2`, `cannula` | i dispositivi sull'asse dei litri con la FiO₂; la cuffia e il catetere di aspirazione | l'ossigenoterapia (8.2) |
+| `potassio`, `sensore` | i K⁺ che entrano con l'insulina; il ritardo interstiziale | la diabetologia (8.3) |
+| `rene3`, `fistola` | le tre cause dell'insufficienza acuta; l'avambraccio con la fistola e i «mai» | la nefrologia (8.4) |
+| `tubo`, `asterixis` | il Treitz con l'emorragia alta e bassa; le mani che sbattono e i fattori | la gastroenterologia (8.5) |
+| `fast`, `cranio` | le quattro tessere; la massa che spinge, le pupille, il letto a 30° | la neurologia (8.6) |
+| `nadir`, `soglie` | la curva che scende a 7–14 giorni; neutrofili più febbre, e la regola dei 60 minuti | l'oncologia (8.7) |
+
+Sette cose imparate nei moduli 6, 7 e 8:
+
+- **le scene seguono i blocchi, uno a uno.** In 8.2 le cinquanta scene
+  erano state scritte a soggetto, con i dispositivi in un ordine e il
+  copione in un altro: s02–s49 sono i blocchi 1–48, sempre, e la lista
+  «capitolo, blocchi» va scritta prima delle scene;
+- **un corpo con un solo stato è un'illustrazione.** I corpi che hanno
+  retto una lezione hanno tutti un interruttore (`attive`, `modo`,
+  `livello`, `stadio`, `ritmo`): la stessa figura si accende in due o tre
+  tempi sul copione, e la slide successiva non ricomincia da capo;
+- **le classi di un corpo portano il suo prefisso, sempre.** `.freccia`,
+  `.tempo`, `.caso` (6.1, 5.6) erano già classi del tema: il testo usciva
+  rosso o sparso. Ogni corpo nuovo ha le sue (`.verso`, `.assetempo`,
+  `.segno`), e un corpo che ne riusa uno altrui si guarda nel provino;
+- **le didascalie lunghe sotto tre pannelli si sovrappongono.** I tre reni
+  (8.4), le tre camere (7.7), le quattro fasi (7.1): sotto i 550 px per
+  pannello la didascalia si spezza su due righe nel corpo, non si
+  accorcia nel contenuto, altrimenti si perde la frase dello script;
+- **un copione corto si allunga con lo script, non con la fantasia.** Le
+  lezioni da 42–46 blocchi (6.3–6.5, 7.2, 7.3, 8.4, 8.5, 8.8) sono salite a
+  48 dividendo i blocchi lunghi e aggiungendo frasi delle liste «a
+  schermo» o delle lezioni vicine del modulo; `MIRA` a 16,3 quando i
+  caratteri restano sotto gli 8.000;
+- **il copertina di chiusura con tre righe sfora.** «7.4 / Ferite
+  chirurgiche e infezione / del sito chirurgico» esce di 123 px: la
+  copertina tiene due righe di titolo e il resto va nel sottotitolo;
+- **senza crediti si va avanti lo stesso, e il lavoro vale.** Ventiquattro
+  lezioni portate a copione, slide e registro in attesa della voce: al
+  rinnovo restano, per ciascuna, le due tracce, i tagli, le trascrizioni,
+  il caricamento e la resa. I registri nascono con «in attesa della
+  voce» nelle sezioni della voce e il MASTER dice che cosa manca.
+
+Tre cose imparate facendoli:
+
+- **una classe non può chiamarsi come il contenitore della slide.** La mappa
+  corporea si chiamava `.corpo`, come il corpo della slide: la sagoma è uscita
+  alta 900 px sopra il titolo. Ogni libreria ha un prefisso suo (`.anat`,
+  `.freq`, `.percorso`…);
+- **un'animazione a `forwards` vince sull'opacità della classe.** Le zone
+  dovevano fermarsi al 22 % e arrivavano al 100 %: il `to{}` dei keyframes
+  legge una variabile (`--op`), non un numero;
+- **le didascalie radiali non vanno a capo.** In una raggiera a sei, la
+  didascalia di destra esce dalla cornice sopra i 30 caratteri, e il controllo
+  geometrico non la vede perché è testo SVG. Si accorcia il dato, non la
+  libreria;
+- **gli spilli dentro una sagoma piccola si coprono a vicenda.** Nella prima
+  versione degli apparati i numeri stavano sugli organi: otto cerchi rossi in
+  300 px di larghezza, illeggibili. Gli spilli vanno ai lati, fuori dalla
+  sagoma, con una linea guida tratteggiata: il `viewBox` si allarga a 500 e
+  ogni organo dichiara da che lato sta il suo numero e a che altezza;
+- **una card stretta vuole un disegno che la riempia.** Il letto era disegnato
+  in 400×260 con il letto in basso e mezza card vuota sopra: lo si scala di
+  1,2 dentro un `<g transform>` e si ritaglia il `viewBox` a 236 di altezza.
+  Le etichette («testa in basso») stanno sopra il disegno, non sotto, dove
+  incontrano il titolo della card.
+
+### Guardare i provini non è una formalità
+
+È il solo modo di prendere il terzo difetto, e ne ha presi otto in quattro
+lezioni. Le due famiglie:
+
+**Il contenuto è inventato o sbagliato.** Numeri di un grafico a barre che
+nessuno aveva misurato; una matrice 2×2 con tre sigle e la quarta mancante;
+un albero che disegnava livelli annidati come rami paralleli; un formaggio
+svizzero con le fette vuote («Barriera 1 · un buco»); una spunta usata per
+«l'assenza di un doppio controllo».
+
+**La forma dice una cosa diversa dal contenuto.** Un Venn per due cose che
+vengono trasferite entrambe, non che si sovrappongono. Una matrice le cui
+colonne — «la barriera» / «un esempio» — facevano passare una barriera per un
+esempio di un'altra. Tre numeri grandi che erano la cosa da ricordare, scritti
+piccoli accanto a parole grandi.
+
+Nessuna di queste sforava la cornice. Tutte erano sbagliate.
+
+## Passo 5 — Riprese e immagini generate
+
+Di solito: nessuna. Se servono, vanno qui, prima del caricamento.
+
+## Passo 6 — Caricare tutto come asset
+
+```
+48 clip mp4  +  48 mp3 di blocco  +  2 PNG (copertina e chiusura)  =  98 file
+```
+
+Il lotto di caricamento tiene **fino a 100 file**: ci stanno tutti in uno.
+
+> **Non provare a dimezzare montando l'audio dentro le clip.** L'ho fatto:
+> costa un giro di caricamenti e un render buttato, perché il servizio di
+> montaggio vuole l'audio come asset separato per far durare la scena quanto la
+> voce.
+
+> **Se cambiano solo le immagini**, si ricaricano solo quelle: 50 file invece di
+> 98, riusando gli id audio già sul servizio. L'ho fatto per rifare l'apparato
+> grafico di otto lezioni senza toccare una nota di voce.
+
+**Il contatore del lotto è in ritardo.** Il lotto dice `completed` mentre gli
+item sono ancora `processing`. Si aspetta che il conteggio arrivi a 98, non che
+lo stato dica «fatto».
+
+## Passo 7 — Montare, in una sola chiamata
+
+Cinquanta scene, un `create_video_from_studio`.
+
+> **La regola che costa un render se la si sbaglia.** Le scene video **devono**
+> portare `audio_asset_id` e `playback: {mode:"freeze", mute:true}`. Senza,
+> la scena dura quanto la clip — 3,2 secondi — e il video esce di due minuti
+> e mezzo invece di nove. Le scene immagine prendono invece un `duration` esplicito.
+
+### Caricare e aspettare
+
+**Un render da nove minuti e cinquanta scene prende dai tre ai quattro minuti**
+(misurati: 179 s e 211 s). È il metro per non scambiare l'attesa normale per un
+blocco.
+
+> Una volta l'ho scambiata. Avevo lanciato `sleep` in background e interrogato
+> lo stato nella stessa risposta: sette minuti veri sembravano centocinque, ho
+> concluso che il render fosse fermo e ne ho lanciato un duplicato. Per
+> aspettare davvero: `start=$(date +%s); until [ $(( $(date +%s) - start )) -ge N ]; do sleep 5; done`.
+
+## Passo 8 — Registro
+
+Un `REGISTRO.md` per lezione, con: scheda parametri, esito delle verifiche, che
+cosa è andato storto e come si è deciso, e una sezione finale **«Da verificare —
+quello che non ho potuto giudicare io»**. In quella sezione va anche quello che
+è costato soldi per niente.
+
+---
+
+# 5. Il vocabolario grafico
+
+Un corso fatto di sole parole in pagina non è un video: è una dispensa letta ad
+alta voce. Le figure stanno in `grafica.mjs` e `figure.mjs` e sono un
+**vocabolario chiuso** — trentasei tipi, le icone e sessanta illustrazioni
+— non un disegno diverso per ogni slide.
+
+| Famiglia | Tipi | Quando |
+|---|---|---|
+| dati | `barre` `impila` `assetempo` `scadenza` | c'è una **quantità** vera |
+| struttura | `tabella` `matrice` `albero` `venn` | ci sono **due o più dimensioni** da incrociare |
+| sequenza | `catena` `scala` `piramide` | c'è un **ordine** o una gerarchia |
+| insiemi | `griglia` `icone` | c'è un **elenco** che merita forma |
+| fregi | `sigillo` `anello` `virgolette` `barra` | la slide è di sola parola |
+| illustrate | `figura` `cifre` | una frase sola che merita **un'immagine** o **un numero che conta** |
+| radiali | `raggiera` `ciclo` | un centro con tre-cinque cose intorno, o un giro che si ripete |
+| misure | `misura` `formaggio` | una scala con una soglia; barriere in fila e il danno che passa |
+| clinica | `corpo` `mappa` `vap` | il corpo, la stanza, un meccanismo che va **visto** |
+| sequenze animate | `percorso` `frequenze` `bivio` | tappe che si disegnano, ripetizioni nelle 24 ore, una scelta a due |
+| postura e meccanismi | `posizioni` `apparati` `curva` `forze` `triade` | il letto di lato, gli organi, una curva, tre forze che muovono, un triangolo |
+| scale e flussi | `fascia` `consistenze` `vie` `bilancio` `distribuzione` | una scala a segmenti, tre bicchieri, quattro sonde, il serbatoio delle 24 ore, i compartimenti |
+
+Circa **trenta scene su cinquanta** portano una figura: venti della prima
+generazione e una decina di `figura`, `cifre` e `raggiera`, che prendono il
+posto delle frasi sole. Le altre sono i respiri: una citazione, un numero grande,
+un titolo sul verde. Un video in cui ogni scena è un
+diagramma stanca quanto uno in cui non ce n'è nessuno.
+
+## Il colore dei dati si calcola, non si sceglie a occhio
+
+Il verde e il rosso di questo marchio, accostati in un grafico, hanno
+**ΔE 3,4 in protanopia**: per un daltonico sono la stessa tinta. La serie
+categoriale qui sotto passa i sei controlli (banda di chiarezza, croma,
+separazione CVD, soglia a vista normale, contrasto sul fondo):
+
+```
+#00623A   #B07A12   #3E6FA8   #D70328
+```
+
+Due regole che ne discendono:
+
+- **il colore non porta mai da solo un significato** — ogni serie ha
+  l'etichetta attaccata, e giusto/sbagliato portano anche il segno (✓ ×);
+- **i dati non vanno sul fondo scuro.** Sul verde pieno le tinte che rispettano
+  la banda di chiarezza per fondo scuro non arrivano a 3:1 di contrasto. Invece
+  di forzarle, il render **rifiuta**: sul verde restano le slide di
+  affermazione, i dati stanno sul bianco.
+
+## Una figura che esce sempre uguale non è un grafico
+
+Una ciambella che disegna 150 su 150 e un quadrante che segna 48 ore su 48 sono
+sempre pieni: non dicono niente. Al loro posto:
+
+- **`impila`** — la composizione: 150 crediti sono tre anni da 50;
+- **`scadenza`** — la finestra di tempo con **due** soglie: subito se c'è
+  pericolo, 48 ore altrimenti.
+
+## La linea del tempo va in scala
+
+Fra il 1974 e il 1992 ci sono diciotto anni, fra il 1999 e il 2000 uno. Una
+timeline a passo fisso dice il contrario di quello che è successo.
+
+## Tre trappole dell'SVG, tutte e tre costate un giro di render
+
+1. **Nel testo di un SVG il markup non esiste.** `<b>` non è un elemento SVG:
+   finisce renderizzato come un pezzo di testo a sé, fuori posto. Nei `<text>`
+   gli asterischi si tolgono (`piano()`); dove serve il grassetto si usa
+   `foreignObject`.
+2. **Un `<text>` SVG non va a capo.** Due tappe vicine si sovrappongono e non se
+   ne accorge nessun controllo. Le didascalie stanno in `foreignObject`, e la
+   loro larghezza non è fissa: è quella che ci sta fino alla tappa vicina **della
+   stessa riga** — l'alternanza sopra/sotto separa le vicine, non quelle due
+   posizioni più in là.
+3. **Un riquadro SVG ad altezza fissa taglia il testo più lungo.** L'albero di
+   decisione è in HTML, dove i riquadri crescono col contenuto.
+
+---
+
+# 6. I controlli prima di consegnare
+
+`controlli.py` li fa tutti in una volta. Otto:
+
+- [ ] verifica per trascrizione: **nessun buco nel parlato**
+- [ ] tutti i blocchi nella fascia **8,5–21 car/s**
+- [ ] **50 PNG** renderizzati **e guardati** nei provini
+- [ ] **nessuna slide sfora** la cornice
+- [ ] scene totali **≤ 50**
+- [ ] **durata** ≥ quella chiesta
+- [ ] **sottotitoli** SRT, 48 righe
+- [ ] **registro** con la sezione «da verificare»
+
+Un 7/8 si consegna solo dicendo quale controllo non è passato e perché.
+
+---
+
+# 7. Le trappole, tutte in una pagina
+
+Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
+
+| Dove | Che cosa succede | Come si evita |
+|---|---|---|
+| voce | rigenerata perché il copione è cambiato dopo | la voce si genera **a copione fermo** |
+| copione | una ri-spezzettatura automatica mangia due passaggi | rileggere i chunk contro lo script |
+| tagli | le pause sparite dopo il filtro di ritmo | confini sul **grezzo** |
+| tagli | soglia scelta «al primo tentativo che funziona» | provarle tutte, votare sull'esito |
+| tagli | `correzioni.json` applicato due volte | rifare `allinea`, poi tutte le correzioni insieme |
+| verifica | la trascrizione ripete il copione (ricaduti nel modulo 11: costo zero e tag `[warm]` nel testo) | trascrivere da un **asset audio**, non dal nodo che ha generato; `salva-trascrizioni.py` ora rifiuta un testo con i tag di intenzione |
+| verifica | il giro dà 7/8 per un «buco» che non c'è: il trascrittore scrive «100 000» per centomila, «luca» per «l'UCA» (11.8) | una riga in `RESE` di `verifica-testo.py`, poi rifare il giro; non toccare la voce |
+| verifica | il caricamento rifiuta la traccia grezza | togliere il tag ID3 (`-map_metadata -1 -c:a copy`) |
+| verifica | il controllo statistico non segnala niente su un testo di date | è cieco in proporzione: leggere la tabella a mano |
+| slide | il controllo di traboccamento non trova mai niente | confronto **geometrico**, non `scrollHeight` |
+| slide | `<b>` dentro un `<text>` SVG | `piano()` nei testi SVG, `foreignObject` dove serve grassetto |
+| slide | etichette SVG che si sovrappongono | `foreignObject` con larghezza calcolata sul vicino |
+| montaggio | il video esce di due minuti invece di nove | `audio_asset_id` + `playback {freeze, mute}` su ogni scena video |
+| montaggio | render dato per bloccato e rilanciato | tre-quattro minuti sono **normali**; attendere con `until` |
+| montaggio | il lotto dice «completed» ma gli item no | aspettare il **conteggio**, non lo stato |
+| voce | gli URL firmati di ElevenLabs muoiono dopo **due ore** (`X-Goog-Expires=7200`): un `curl` tardivo salva un XML di 220 byte e il giro gira su una trascrizione vuota | scaricare grezzi e trascrizioni **subito**; se la sessione si è fermata, richiedere lo stato e riscaricare |
+| asset | la risposta di `create_asset_upload_batch` (98 URL, 67 KB) non entra nella finestra | la risposta finisce in un file: si legge **quello**, mai si ricopia a mano; `complete` con l'id letto dal file |
+| clip | la catena dei clip in sottofondo muore quando la sessione si ferma | catena **ripartibile**: salta le lezioni con 48 mp4 e segna le fatte in un file |
+| tagli | l'ultimo blocco esce a 22 car/s: la voce ha accelerato sulla chiusura | una `posa` di 0,6 s nel copione (`blocchi.json`), non la mira di tutta la lezione |
+| tagli | un blocco a 25 car/s e il vicino a 14: il confine è caduto su una virgola, non sul punto | `correzioni.json` con `{"pause": +1}` sull'indice del confine, e si ricontrolla l'indice (la traccia B non parte sempre da s26) |
+| tagli | 8/8 ma il montato è 7:58 | `MIRA` giù di 0,4 car/s: il parlato si allunga del 2-3 % |
+| verifica | un «buco» che è una resa del trascrittore (`dica che sia` per `di cachessia`, `psiconcologia` per `psico-oncologia`) | una riga in `RESE` del verificatore della lezione, con il commento che dice dove |
+| verifica | il verificatore legge «-2 e +2» come «2virgola2» o «0,6-1,2» come un rimando alla lezione 6.1 | le regole dei segni e dei decimali stanno in `parole()`: sono già nel MASTER |
+| voce | la stessa frase perde parole in due prese di fila (9.7, `s02`: «la persona e i suoi familiari» dopo i due punti) | non rigenerare uguale: **spezzare la frase con un punto** e rigenerare solo la traccia che la contiene |
+| clip | la coda si ferma a metà lezione (43/48) | `node slide/clips.mjs s45 s46 …` rende solo le scene mancanti; si controlla prima che gli mp4 presenti siano interi |
+| tagli | «fascia» segnala le scene sul verde a 6-8 car/s (10.1 `s21`, 10.3 `s48`) | era il conto: tag nel numeratore, posa voluta nel denominatore. `controlli.py` ora misura **sul parlato** (dal 4 ottobre 2026) |
+| slide | `cifre` con quattro voci e unità lunghe («115 bpm», «95 mmHg») sfora di 68 px | unità nella didascalia (`d`) e non nel suffisso, oppure tre voci |
+| slide | il tipo `albero` in `contenuti.mjs` esce come il grafico delle medicazioni (12.2 `s08`, `s41`, `s42`) | `clinica.mjs` ridefinisce `albero`: nei moduli non clinici usare `tre` o `griglia` |
+| slide | un titolo di chiusura su tre righe fa passare la riga rossa sopra «CISL FP…» (12.1, 12.2, 11.7) | in `layout.mjs` la copertina riduce `h1` a 104 px quando il titolo ha due `<br>` (dal 12.3) |
+| verifica | 7/8 per le sigle sillabate («di elle gi esse» → «dlgs», 12.1) o per un numero detto a cifre («uno uno sei, uno uno sette» → «116117», 13.4) | una riga in `RESE` del verificatore della lezione; la voce va bene così |
+| tagli | `correzioni.json` sparisce se si rifà il giro intero: `allinea` riparte da zero | dopo una correzione: `tagli.py correggi`, `applica` e i controlli, **non** `giro-voce` |
+| voce | i crediti ElevenLabs finiscono a metà di un modulo | i nodi asset allegati restano sul flow: al rinnovo si trascrive da quelli; le voci già scaricate non si rigenerano |
+| asset | un item del lotto resta «queued» per minuti (13.8, `v13.8-s29.mp4`) e `get_asset` dice 404 | ricaricarlo da solo (`create_asset_upload`, PUT, `complete_asset_upload`) e sostituire l'id in `scene-N.json` e `asset-id.json` |
+| tagli | l'indice di `correzioni.json` sbagliato di uno (13.5: spostati i confini di s44 e s45 invece di s43 e s44) | in `confini-B.json` `confini[j]` è la **fine** di `ids[j]`: per spostare l'inizio di sNN si usa l'indice del blocco **prima** (13.5: B[16] = fine di s42); `correggi` stampa il valore vecchio, da confrontare prima di `applica` |
+| verifica | 7/8 per una sigla con numero («P450» detto «p 450», il trascrittore scrive «p450», 14.4) | in `RESE` la riga `\bp(\d+)\b` → « p \1 », in cima alla lista |
+| tagli | un blocco a 21,1 car/s con il confine giusto, a metà di una pausa di 1 s (14.5 `s40`) | spostare il confine nella pausa non serve, perché `applica` toglie il silenzio. Si abbassa `MIRA` della lezione (16,6 → 16,4) e la lezione si allunga di 6 s |
+| macchina | il container si riavvia e le code di clip e giri muoiono a metà (14.5-14.8) | i file già scritti restano: si rilanciano `dopo-correzioni.sh`, `giro-coda.sh` e `clips-coda.sh` con `setsid nohup`; la coda dei clip salta da sola le lezioni già a 48 |
+| git | `_trim-B.mp3` committato per sbaglio: è un temporaneo di `ritmo()` che si cancella da solo | `_trim-*.mp3` sta in `.gitignore` |
+
+---
+
+# 8. Il profilo compilato
+
+Corso di preparazione al concorso per Infermiere · Azienda Zero Veneto ·
+CISL FP Padova Rovigo.
+
+| | |
+|---|---|
+| durata | «8 minuti almeno» → si punta a **9:00** montati |
+| pausa musicale | **no** |
+| copione | lo fornisce l'utente, uno script per lezione |
+| palette | bianco `#FFFFFF`, verde `#00623A`, rosso `#D70328`, testo `#1C1C1C` |
+| | verde pieno `#004E2E` (slide di affermazione), velo rosa `#FCF4F3` (errori) |
+| marchio | logo CISL FP Padova Rovigo, **in alto a sinistra su ogni slide** |
+| caratteri | Inter (testo), Source Serif 4 (frasi e citazioni) |
+| voce | GianP — News Info and Documentary, `nNt0YcINdGadGcTx5fBM`, `eleven_v3` |
+| trascrizione | `eleven_scribe_v1` |
+| formato | 1920×1080, 25 fps, 16:9, 1080p |
+
+I due colori del marchio sono **campionati dal file del logo, non stimati**:
+verde `#00623A` (40,7% dei pixel opachi), rosso `#D70328` (14,2%).
+
+## Costo misurato, per lezione
+
+```
+voce (due tracce, ~8.700 caratteri, eleven_v3)   ~$1,45
+trascrizione delle due tracce intere             ~$0,60
+                                                 -------
+                                                 ~$2,05
+```
+
+Il render del montaggio e i caricamenti non si pagano a consumo.
+
+## Due vie per la voce, e come si torna indietro
+
+Quando la quota ElevenLabs finisce a metà modulo, c'è una seconda via che
+non la tocca: lo studio di HeyGen sintetizza il parlato scena per scena dal
+testo dei blocchi, con lo **stesso motore** (`eleven_v3`, addebitato sui
+crediti HeyGen) ma una voce del suo catalogo — GianP non c'è, si usa
+Giovanni Rossi `7b6722df52c44a79b6adb6c3074588d8`. Misurato il 1° ottobre
+2026 su piano Pro:
+
+```
+                         via ElevenLabs                via HeyGen
+voce                     2 tracce, ~9.000 crediti EL   dentro il render
+trascrizione             ~3.500 crediti EL             non serve (lo studio taglia da se')
+render                   gratis                        1 credito HeyGen per l'intera lezione (misurato sulla 5.7:
+                                                       4.234 → 4.233 con 48 blocchi di voce; create_speech da solo
+                                                       costa invece 1 credito a chiamata)
+file da caricare         98                            50 (clip + 2 copertine)
+controlli sui confini    tagli.py, verifica-testo      non servono: una scena, un blocco
+in dollari               ~$2,05                        0 (crediti del piano, si azzerano al rinnovo)
+```
+
+I crediti HeyGen del piano **scadono al rinnovo mensile**: quelli non usati
+si perdono. È l'argomento per spenderli, e insieme la ragione per non
+contarci oltre il mese.
+
+**La via HeyGen, passo per passo.** Passi 1 e 4 come sempre; si saltano 2 e 3;
+al Passo 6 si caricano solo clip e copertine (`manifest-clip.py`, 50 file);
+al Passo 7 `python3 monta-scene-heygen.py` scrive `scene-heygen.json` — ogni
+scena video porta `script`, `voice_id` e `voice_settings.engine_settings`
+`{engine_type: elevenlabs, model: eleven_v3}`, più il solito `playback`
+freeze+mute — e lo si passa a `create_video_from_studio` con `caption`.
+I tag di `eleven_v3` (`[warm]`…) si tolgono dallo script: finirebbero nei
+sottotitoli. Nel REGISTRO la riga «voce» dice quale via: è l'unico punto in
+cui le due si distinguono.
+
+**Tornare a ElevenLabs, in qualsiasi momento.** Niente della via HeyGen
+sovrascrive la via vecchia: `copione/`, `audio/chunkA.txt` e `chunkB.txt`,
+`tagli.py`, `monta-scene.py` restano come erano, e le clip caricate sono le
+stesse. Per rifare una lezione con GianP si eseguono i Passi 2, 3 e 6 (solo i
+48 mp3, riusando gli id delle clip già in `asset-id.json`) e il Passo 7 con
+`monta-scene.py`: la resa nuova sostituisce l'id nel REGISTRO, nella scheda
+di modulo e nel README. Costo: quello di sempre, ~$2,05.
+
+Il contrario vale uguale: una lezione fatta con GianP si rifà con HeyGen
+caricando niente (le clip ci sono già) e lanciando `monta-scene-heygen.py`.
+
+**Il pilota: la 5.7.** 50 file caricati in 3 minuti, render di 6 minuti (la
+sintesi avviene durante il render, non prima), 1 credito. Durata 11:05 contro
+i 9:34 stimati a 15,5 car/s: lo studio legge a ~13,3 car/s effettivi, con una
+coda di silenzio a ogni scena. La costante `VELOCITA` di
+`monta-scene-heygen.py` va in `voice_settings.speed`: con 1,15 la stima torna
+sui 9:40. Si decide dopo aver ascoltato, perché una voce accelerata si sente.
+
+Ascoltata, la resa è stata **scartata dal committente per la voce**: il corso
+resta con GianP, e la via HeyGen resta scritta qui come ripiego misurato, non
+come alternativa in uso. La lezione del pilota: la scelta della voce è del
+committente e si fa prima di montare, su un provino, non dopo.
+
+**Quello che la via HeyGen non dà.** La voce è un'altra, e un corso con due
+voci si sente: la scelta va presa per modulo, non per lezione. I file audio
+non si scaricano da qui (il proxy blocca `resource2.heygen.ai`), quindi
+niente copia locale di controllo né `controlli.py`: la durata si legge dal
+render, i confini li fa lo studio e non sbagliano per costruzione.
+
+---
+
+# 9. Come ripartire in una chat nuova
+
+1. Crea la cartella del progetto e scrivi i file del §10 così come sono.
+2. `pip install imageio-ffmpeg` · `npm i playwright` · Chromium già presente.
+3. Metti il logo in `slide/marchio/logo-rifilato.png` e i caratteri in
+   `slide/font/` (con un `font-incorporati.css` che li incorpora in base64).
+4. Fai le tre domande del §1.
+5. Per ogni lezione: `./nuova-lezione.sh m1-lX.Y-nome`, poi scrivi i due soli
+   file che cambiano — `copione/costruisci.py` e `slide/contenuti.mjs` — e segui
+   la pipeline del §3.
+
+La prima lezione costa più delle altre: è quella in cui si fissano palette,
+marchio e voce. Dalla seconda in poi `nuova-lezione.sh` copia tutto quello che
+non cambia **dall'ultima lezione fatta**, non dalla prima — così gli strumenti
+migliorano lezione dopo lezione e nessuna resta indietro.
+
+---
+
+# 10. Il codice
+
+Tutti i file, nell'ordine in cui servono. Sono quelli veri, non una versione
+semplificata: i commenti dentro spiegano le decisioni che il testo qui sopra
+riassume.
+
+| file | righe | a che cosa serve |
+|---|---|---|
+| `nuova-lezione.sh` | 54 | impianta una lezione nuova dall'ultima fatta |
+| `copione/costruisci.py` | 150 | il copione, i blocchi, i chunk per la voce |
+| `audio/tagli.py` | 348 | pause, allineamento DTW, ritaglio dei blocchi |
+| `audio/verifica-testo.py` | 198 | trascrizione contro copione |
+| `audio/controllo-per-trascrizione.py` | 81 | quale confine e' finito fuori posto, e dove |
+| `controllo-statistico.py` | 101 | i confini: la firma statistica e le pause |
+| `slide/layout.mjs` | 355 | temi, marchio, corpi di testo |
+| `slide/grafica.mjs` | 566 | i 13 tipi grafici, le icone, i fregi, i colori |
+| `slide/figure.mjs` | 440 | 24 illustrazioni che si disegnano, i 6 tipi della seconda generazione |
+| `slide/clinica.mjs` | 1.559 | 77 illustrazioni cliniche, la sagoma, gli organi, il letto di lato, i 23 corpi della terza generazione |
+| `slide/cards.mjs` | 52 | le 50 slide in PNG |
+| `slide/clips.mjs` | 49 | le scene animate in MP4 |
+| `monta-scene.py` | 37 | il payload delle scene per il montaggio |
+| `monta-locale.py` | 49 | il montaggio di prova con ffmpeg |
+| `controlli.py` | 73 | gli otto controlli finali |
+| `slide/contenuti.mjs` | 255 | le 50 scene — esempio, cambia a ogni lezione |
+
+Si copiano tutti come sono, una volta sola. `copione/costruisci.py` e
+`slide/contenuti.mjs` sono gli unici due che si riscrivono a ogni lezione: qui
+sono quelli della 1.8, riportati come esempio compilato.
+
+## `nuova-lezione.sh`
+
+Crea una lezione nuova copiando **dall'ultima fatta** tutto quello che non
+cambia. I due soli file da riscrivere sono `copione/costruisci.py` e
+`slide/contenuti.mjs`.
+
+```bash
+#!/usr/bin/env bash
+# Prepara la cartella di una nuova lezione copiando dall'ultima fatta tutto
+# quello che non cambia: il tema, il marchio, i caratteri e gli strumenti.
+# Restano da scrivere due soli file, che il messaggio finale elenca.
+set -euo pipefail
+
+[ $# -eq 1 ] || { echo "uso: ./nuova-lezione.sh m2-l2.1-processo"; exit 1; }
+NUOVA="progetti/$1"
+# Si copia dalla lezione piu' recente, non sempre dalla prima: gli strumenti
+# migliorano lezione dopo lezione e la 1.1 resterebbe indietro.
+DA=$(ls -d progetti/m*-l*/ | sort | tail -1); DA=${DA%/}
+[ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
+
+mkdir -p "$NUOVA"/{origine,copione,audio/trascrizioni,slide,scene}
+# il tema e gli strumenti: identici per tutte le lezioni del corso
+cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
+cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" "$DA/slide/figure.mjs" "$DA/slide/clinica.mjs" "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
+cp "$DA/audio/tagli.py" "$DA/audio/controllo-per-trascrizione.py" \
+   "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
+cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" \
+   "$DA/controllo-statistico.py" "$NUOVA/"
+# costruisci.py si riscrive, ma solo nelle due liste in testa: il resto
+# (vincoli, stacco, chunk) e' identico e va copiato, non ribattuto.
+cp "$DA/copione/costruisci.py" "$NUOVA/copione/"
+ln -sfn /opt/node22/lib/node_modules "$NUOVA/node_modules"
+
+cat <<TESTO
+
+$NUOVA pronta (copiata da $DA). Da scrivere, due file:
+
+  copione/costruisci.py    i blocchi del parlato (parte da quello di $DA)
+  slide/contenuti.mjs      il contenuto delle scene
+
+Poi, nell'ordine:
+
+  python3 copione/costruisci.py          scrive blocchi.json e verifica i vincoli
+  → generare le due tracce di voce, salvarle in audio/grezzo-A.mp3 e -B.mp3
+  python3 audio/tagli.py allinea         sceglie i confini, prepara prova.mp3
+  python3 audio/tagli.py applica         scrive i 48 mp3
+  python3 controllo-statistico.py        nessuna coppia adiacente di segno opposto
+                                         (legge blocchi-audio.json: va DOPO applica)
+  → trascrivere: attaccare l'URL firmato di ciascuna traccia con
+    creative_attach_reference_file, poi creative_transcribe_audio;
+    salvare i testi in audio/trascrizioni/A.txt e B.txt
+  python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
+  node slide/cards.mjs                   i PNG — GUARDARLI
+  node slide/clips.mjs                   le clip animate
+  python3 monta-scene.py                 clip + audio, una per blocco
+  python3 monta-locale.py                la copia di controllo e l'SRT
+  python3 controlli.py                   i controlli del MASTER §5
+
+Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
+
+TESTO
+```
+
+## `copione/costruisci.py`
+
+Il copione. Qui si scrive il testo parlato e si tagliano i blocchi: uno per
+scena, 225 caratteri al massimo, senza vocali accentate. Produce i due chunk
+per la voce e il `blocchi.json` che tutto il resto usa come riferimento.
+
+```python
+# -*- coding: utf-8 -*-
+"""Costruisce blocchi.json dal copione riscritto e verifica i vincoli del MASTER."""
+import json, re, sys
+
+# (capitolo, tema slide, posa in secondi, testo parlato)
+BLOCCHI = [
+ (1,"chiaro",0,"[warm] Chiudiamo il secondo modulo. Nessun contenuto nuovo: ricomponiamo. La mappa delle sette lezioni, il filo che le tiene insieme, i numeri, le confusioni che costano di piu', i casi tipici."),
+ (1,"chiaro",0,"Guarda questo video due volte: adesso, per chiudere il modulo, e la settimana prima della prova, quando serve rimettere in ordine quello che nel frattempo si e' sparpagliato."),
+ (1,"tenue",0,"E' un ripasso, quindi andiamo piu' svelti del solito. Se un punto ti sfugge, e' il segno che quella lezione va ripresa: non tutto il modulo da capo, solo quella. Un ripasso serve a trovare i buchi, non a riempirli tutti."),
+
+ (2,"chiaro",0,"La mappa, in sette righe. 2.1: il processo di assistenza, i cinque passi. 2.2: modelli e tassonomie, cioe' le categorie con cui si guarda. 2.3: accertamento e scale. 2.4: la documentazione."),
+ (2,"chiaro",0,"2.5: EBP, linee guida, PDTA e procedure, cioe' da dove viene quello che facciamo. 2.6: rischio clinico e sicurezza del paziente. 2.7: comunicazione clinica e continuita' assistenziale."),
+ (2,"chiaro",0,"Sette lezioni, e non sono sette argomenti separati. Sono sette punti di una sola linea, ed e' la linea che conviene saper raccontare all'orale, non i punti presi uno per volta."),
+
+ (3,"chiaro",0,"Una sola catena tiene insieme tutto. Raccolgo i dati con le categorie che la disciplina mi fornisce, e non a caso. Decido sulla base delle migliori evidenze disponibili, integrate con l'esperienza e con la persona."),
+ (3,"chiaro",0,"Documento cio' che faccio. Comunico nei passaggi. E sorveglio il sistema, perche' l'errore e' prevedibile, e chi lo prevede costruisce le barriere prima che servano."),
+ (3,"chiaro",0,"Metodo, prova, sicurezza: tre facce dello stesso lavoro. Se all'orale ti chiedono che cosa hai imparato in questo modulo, la risposta e' questa catena, in cinque verbi."),
+
+ (4,"chiaro",0,"Dal 2.1: cinque fasi, e il processo e' ciclico, non lineare. La valutazione non chiude niente: riapre l'accertamento. Ed e' il passo che si dimentica piu' spesso, sia nei quiz sia in reparto."),
+ (4,"chiaro",0,"Diagnosi reale PES: problema, etiologia, segni e sintomi. Diagnosi di rischio PE, senza segni, perche' se i segni ci fossero non sarebbe piu' un rischio ma un problema in atto."),
+ (4,"chiaro",0,"L'obiettivo ha per soggetto la persona, con indicatore e tempo. Le priorita': ABC, poi rischio di danno a breve, poi impatto sull'autonomia e percezione della persona."),
+
+ (5,"chiaro",0,"Dal 2.2: il metaparadigma ha quattro concetti. Henderson quattordici bisogni, Gordon undici modelli funzionali. E non il contrario: e' lo scambio piu' frequente di tutto il modulo."),
+ (5,"chiaro",0,"Orem tre sistemi: totalmente compensatorio, parzialmente compensatorio, e di supporto ed educazione. E la catena delle tassonomie: NANDA, NOC, NIC, cioe' diagnosi, risultati, interventi."),
+ (5,"chiaro",0,"Un modo per non sbagliare NOC e NIC: NOC finisce come outcome, NIC come intervento. La lettera che cambia nella sigla e' la stessa che cambia nel significato, e non e' un caso."),
+
+ (6,"chiaro",0,"Dal 2.3, e questa e' la slide da fotografare adesso. Braden da 6 a 23, soglia 16. Norton da 5 a 20, soglia 14. Conley da 0 a 10, rischio a partire da 2."),
+ (6,"chiaro",0,"Tinetti sotto 19. Barthel da 0 a 100. Glasgow da 3 a 15, con coma sotto o uguale a 8. CAM: uno piu' due, piu' tre oppure quattro. E MUST: rischio alto a partire da 2."),
+ (6,"chiaro",0,"Otto scale e otto intervalli, ed e' la parte che si dimentica per prima, perche' sono numeri senza appiglio. Se devi trascrivere una cosa sola nel quaderno di ripasso, trascrivi questa."),
+
+ (7,"chiaro",0,"E poi c'e' la regola che risolve meta' delle domande sulle scale anche quando non le ricordi a memoria. Se la scala misura una capacita', piu' alto e' meglio."),
+ (7,"chiaro",0,"Se misura un rischio, piu' alto e' peggio. Barthel misura autonomia: 100 e' ottimo. Conley misura il rischio di caduta: 10 e' pessimo. Fin qui e' intuitivo, e infatti non e' qui che si sbaglia."),
+ (7,"profondo",1.2,"Le due eccezioni sono Braden e Norton, che misurano un rischio con punteggio inverso: piu' basso, piu' a rischio. Due eccezioni sole, e sono proprio le due che si chiedono di piu'."),
+
+ (8,"chiaro",0,"Le otto confusioni che costano di piu'. Uno: obiettivo o intervento. Guarda il soggetto della frase: se il soggetto e' la persona e' un obiettivo, se sei tu e' un intervento."),
+ (8,"chiaro",0,"Due: diagnosi reale con i segni, di rischio senza. Tre: la diagnosi infermieristica si tratta in autonomia, il problema collaborativo si sorveglia e si gestisce insieme al medico."),
+ (8,"chiaro",0,"Quattro: quattordici Henderson, undici Gordon. Se non ricordi quale sia quale, ricorda che quelli di Gordon sono modelli funzionali di salute, e sono i meno numerosi dei due."),
+
+ (9,"chiaro",0,"Cinque: NOC sono gli outcome, i risultati; NIC gli interventi. Sei: Braden e' lesioni da pressione, con punteggio inverso; Conley e' cadute, con punteggio diretto. Due rischi diversi e due direzioni diverse."),
+ (9,"chiaro",0,"Sette: la linea guida raccomanda, la procedura dice come si fa qui, il PDTA dice chi fa che cosa lungo il percorso. Scientifica la prima, organizzative le altre due."),
+ (9,"chiaro",0,"Otto: il near miss non arriva al paziente, l'evento avverso si'. E la complicanza non e' nessuno dei due, perche' e' attesa e non presuppone un errore di nessuno."),
+
+ (10,"chiaro",0,"I casi tipici. Traccia con dati incompleti: la risposta non e' scegliere l'intervento piu' sensato. Si comincia raccogliendo il dato mancante, ed e' quasi sempre quella l'opzione giusta."),
+ (10,"chiaro",0,"Quale intervento ha la priorita': ABC prima di tutto, poi il rischio di danno a breve, poi l'impatto sull'autonomia e la percezione della persona. In quest'ordine, sempre."),
+ (10,"chiaro",0,"Braden 12 in paziente allettato: cambi posturali programmati, superficie antidecubito, gestione dell'umidita', valutazione nutrizionale, ispezione cutanea a ogni turno."),
+
+ (11,"profondo",1.2,"Perche' al punteggio deve corrispondere una modifica del piano. Una scala compilata e non seguita da niente e' peggio di una non compilata: dimostra che il rischio era noto."),
+ (11,"chiaro",0,"Prescrizione illeggibile o dubbia: chiedo chiarimento al prescrittore, se il dubbio permane non do corso, e documento il dubbio e la richiesta. Tre passi, in quest'ordine."),
+ (11,"chiaro",0,"Near miss intercettato in tempo: segnalo comunque, perche' e' apprendimento gratuito. Chiamata al medico per peggioramento: strutturo con SBAR, esplicitando valutazione e richiesta."),
+
+ (12,"chiaro",0,"Cinque formule da saper citare a memoria, per intero. PES: problema, etiologia, segni e sintomi. E la diagnosi di rischio e' PE, perche' i segni non ci sono ancora."),
+ (12,"chiaro",0,"PICO: popolazione, intervento, confronto, esito. SBAR: situazione, background, assessment e recommendation, e sono le ultime due quelle che contano. CAM: uno piu' due, piu' tre oppure quattro."),
+ (12,"chiaro",0,"E l'EBP: evidenze piu' competenza clinica piu' valori della persona. Tre addendi, e il distrattore classico ne toglie due, proprio i due che riguardano le persone."),
+
+ (13,"chiaro",0,"E la frase che attraversa il modulo dall'inizio alla fine: cio' che non e' documentato si presume non fatto. L'abbiamo incontrata nella 1.5 e non ci ha piu' lasciati."),
+ (13,"chiaro",0,"Vale per la scala compilata, per la segnalazione fatta al medico, per il rifiuto della persona, per la rivalutazione del dolore dopo un antidolorifico. Nel dubbio, scrivi."),
+ (13,"profondo",1.2,"Non e' un avvertimento burocratico: e' l'unico modo in cui il lavoro che hai fatto continua a esistere a distanza di anni. La memoria non fa prova, il documento si'."),
+
+ (14,"chiaro",0,"Quattro agganci veneti da portare all'orale. Uno: il processo e' strutturato dentro la cartella clinica elettronica, con scale integrate e rivalutazioni a intervalli definiti."),
+ (14,"chiaro",0,"Due: la catena delle evidenze e' SNLG, indirizzi regionali e PDTA, procedure aziendali, pratica al letto. Spesso dentro le reti cliniche: oncologica, stroke, trauma."),
+ (14,"chiaro",0,"Tre: la filiera del rischio e' l'operatore che segnala, il risk management aziendale, il Centro regionale, l'Osservatorio nazionale, con il Difensore civico nel ruolo di Garante."),
+
+ (15,"chiaro",0,"Quattro: la continuita' verso il territorio passa da dimissioni protette, dalle COT e dall'infermiere di famiglia e comunita'. E adesso come proseguire, in quattro passi."),
+ (15,"chiaro",0,"Uno: affronta il test del modulo, trenta domande con soglia ventuno. Due: riprendi solo le lezioni che gli errori ti hanno segnalato, non tutto il modulo da capo."),
+ (15,"chiaro",0,"Tre: trasferisci nel quaderno di ripasso i numeri delle scale e le formule. E' la parte che si dimentica per prima, ed e' anche l'unica che si recupera in cinque minuti."),
+
+ (16,"profondo",1.2,"Quattro, ed e' il consiglio con il rendimento piu' alto di tutto il corso: esercita lo schema in cinque passi della lezione 2.1 su due casi clinici. Non su venti: su due, fatti bene."),
+ (16,"chiaro",0,"Ci fermiamo qui. Con il modulo 1 hai la grammatica della professione; con il modulo 2 la sintassi, cioe' il metodo, la prova e la sicurezza. Tre parole per sette lezioni."),
+ (16,"chiaro",0,"[warm] Dal modulo 3 il metodo diventa clinica: bisogni fondamentali, comfort, assistenza di base avanzata. E comincia la parte che pesa di piu' nella prova pratica. Ci vediamo li'."),
+]
+
+ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
+CAPITOLI = {1:"Apertura",2:"La mappa",3:"Il filo del modulo",
+ 4:"I numeri del processo",5:"I numeri dei modelli",6:"I numeri delle scale",
+ 7:"La regola della direzione",8:"Confusioni 1-4",9:"Confusioni 5-8",
+ 10:"I casi tipici, prima parte",11:"I casi tipici, seconda parte",
+ 12:"Le formule",13:"La frase del modulo",14:"Gli agganci veneti",
+ 15:"Come proseguire",16:"Chiusura"}
+CPS = 17.0   # misurata su 1.2, confermata da 1.3 a 1.8
+
+blocchi=[]
+for i,(cap,tema,posa,txt) in enumerate(BLOCCHI, start=2):
+    blocchi.append({"id":f"s{i:02d}","capitolo":cap,"tema":tema,"posa":posa,"text":txt})
+
+errori=[]
+tot=sum(len(b["text"]) for b in blocchi)
+nscene=len(blocchi)+2
+if nscene>50: errori.append(f"scene {nscene} > 50")
+for b in blocchi:
+    if any(c in ACCENTATE for c in b["text"]):
+        errori.append(f'{b["id"]}: vocale accentata -> ' + "".join(sorted({c for c in b["text"] if c in ACCENTATE})))
+    if len(b["text"])>225: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
+tags=sum(len(re.findall(r"\[[a-z]+\]", b["text"])) for b in blocchi)
+if tags>6: errori.append(f"tag di intenzione: {tags} > 6")
+
+pose=sum(b["posa"] for b in blocchi)
+parlato=tot/CPS+pose; durata=parlato+3+10
+print(f"blocchi   {len(blocchi)}        scene {nscene}/50")
+print(f"caratteri {tot}      media {tot/len(blocchi):.0f} car/blocco")
+print(f"parlato   {parlato:.0f} s     montato {durata//60:.0f}:{durata%60:04.1f}   (stima a {CPS} car/s)")
+print(f"tag       {tags}        pose {sum(1 for b in blocchi if b['posa'])}")
+print()
+cur=None
+for b in blocchi:
+    if b["capitolo"]!=cur:
+        cur=b["capitolo"]; print(f'  cap {cur:2d}  {CAPITOLI[cur]}')
+    p=f'  +{b["posa"]}s' if b["posa"] else ""
+    print(f'    {b["id"]}  {len(b["text"]):3d} car  [{b["tema"]:8s}]{p} {b["text"][:52]}...')
+
+# Lo stacco fra le due tracce: il confine di capitolo che divide i caratteri
+# nel modo piu' pari, fra quelli che tengono ENTRAMBI i chunk sotto i 5.000.
+# Prendere il primo confine dopo la meta' non basta: su 2.2 dava un chunk A da
+# 5.072 caratteri, e la voce avrebbe rifiutato il testo.
+LIMITE = 5000
+cand = []
+acc = 0
+for i, b in enumerate(blocchi[:-1]):
+    acc += len(b["text"]) + 1
+    if b["capitolo"] != blocchi[i+1]["capitolo"]:
+        cand.append((b["id"], acc, tot - acc))
+buoni = [c for c in cand if c[1] <= LIMITE and c[2] <= LIMITE]
+if buoni:
+    stacco, a, bb = min(buoni, key=lambda c: abs(c[1] - c[2]))
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+else:
+    stacco, a, bb = min(cand, key=lambda c: max(c[1], c[2]))
+    errori.append(f"nessuno stacco tiene i due chunk sotto {LIMITE}: il migliore e' "
+                  f"{stacco} con {max(a, bb)} car. Serve un capitolo in piu'.")
+    print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {bb} car   (limite {LIMITE})")
+# tagli.py deve tagliare dove la voce ha davvero staccato: se le due costanti
+# divergono, i blocchi finiscono sulla traccia sbagliata e non se ne accorge
+# nessuno finche' non si guarda il video.
+import pathlib as _pl
+_tagli = _pl.Path("audio/tagli.py")
+if _tagli.exists():
+    _m = re.search(r'STACCO\s*=\s*"(s\d+)"', _tagli.read_text(encoding="utf-8"))
+    if _m and _m.group(1) != stacco:
+        errori.append(f'audio/tagli.py ha STACCO = "{_m.group(1)}", qui lo stacco e\' {stacco}')
+
+print("\n" + ("OK, nessun errore" if not errori else "ERRORI:\n  " + "\n  ".join(errori)))
+json.dump(blocchi, open("copione/blocchi.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
+
+# I due chunk per la voce li scrive lo stesso file che ha scritto i blocchi:
+# copiarli a mano significherebbe far divergere il copione dal testo letto,
+# e la verifica della trascrizione confronterebbe due cose gia' diverse.
+i = [b["id"] for b in blocchi].index(stacco)
+for nome, gruppo in (("A", blocchi[:i+1]), ("B", blocchi[i+1:])):
+    open(f"audio/chunk{nome}.txt","w",encoding="utf-8").write(
+        "\n\n".join(b["text"] for b in gruppo) + "\n")
+print(f"scritti audio/chunkA.txt e audio/chunkB.txt")
+```
+
+## `audio/tagli.py`
+
+Il cuore della lavorazione audio: misura le pause sulla traccia **grezza**,
+allinea la punteggiatura del copione ai segmenti di parlato con la DTW, vota
+la soglia sull'esito e non sulla quantita' di confini, poi ritaglia i blocchi
+applicando il filtro del ritmo. `correzioni.json` va riapplicato sempre da
+capo: `correggi` modifica `confini-X.json` sul posto.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Passo 3 del MASTER: ritaglia i blocchi dalle due tracce continue.
+
+I confini si scelgono sul GREZZO, dove le pause hanno ancora lunghezze diverse:
+sulla traccia gia' lavorata silenceremove le ha pareggiate tutte a 0,14 s e
+la lunghezza della pausa - il segnale su cui si basa la scelta - sparisce.
+Il ritmo (silenzi + atempo calcolato) si applica dopo, blocco per blocco.
+
+  tagli.py allinea   sceglie i confini e prepara prova.mp3
+  tagli.py correggi  sposta i confini indicati in correzioni.json
+  tagli.py applica   scrive i blocchi + le pose
+"""
+import json, re, subprocess, sys
+from pathlib import Path
+import imageio_ffmpeg
+
+QUI    = Path(__file__).resolve().parent
+RADICE = QUI.parent
+FF     = imageio_ffmpeg.get_ffmpeg_exe()
+STACCO = "s25"
+SOGLIA = "-45dB"
+SILENZI = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
+           "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
+           "aresample=44100")
+MIRA = 17.0          # car/s voluti sul parlato finito
+
+_ritmo = None
+_trim = None
+def _trimfatt():
+    """Di quanto la sola rimozione dei silenzi accorcia questa traccia."""
+    ritmo()
+    return _trim
+
+def ritmo():
+    """Il fattore di velocita' NON e' una costante.
+
+    Era 1,12 per tutto il modulo 1, perche' quella voce leggeva a un ritmo
+    suo. Sulla 2.2 la stessa voce, con lo stesso modello, ha letto il 7% piu'
+    veloce: con 1,12 sei blocchi sarebbero usciti oltre i 21 car/s e il video
+    sarebbe finito sotto gli otto minuti chiesti. L'atempo e' la manopola con
+    cui si porta il parlato finito a MIRA car/s, e va calcolata sulla traccia
+    che si ha davvero, non su quella dell'altra volta."""
+    global _ritmo, _trim
+    if _ritmo is None:
+        car = sum(len(b["text"]) for b in
+                  json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8")))
+        grezzo = sum(durata(QUI/f"grezzo-{L}.mp3") for L in ("A","B"))
+        # Quanto tolgono i silenzi si MISURA, non si stima: fra 2.1 e 2.2 il
+        # fattore e' passato da 1,152 a 1,090, e stimarlo sbagliava di mezzo
+        # minuto sul montato. Costa una passata di ffmpeg su dieci minuti.
+        netto = 0.0
+        for L in ("A", "B"):
+            f = QUI/f"_trim-{L}.mp3"
+            sh(FF,"-y","-v","error","-i",QUI/f"grezzo-{L}.mp3","-af",SILENZI,
+               "-c:a","libmp3lame","-b:a","192k",f)
+            netto += durata(f); f.unlink()
+        _trim = grezzo/netto
+        a = max(1.0, min(1.25, netto / (car/MIRA)))
+        _ritmo = (round(a, 3), SILENZI + f",atempo={a:.3f}")
+        print(f"  ritmo: {grezzo:.0f} s grezzi -> {netto:.0f} s senza pause di troppo "
+              f"(x{grezzo/netto:.3f}); {car} caratteri -> atempo {a:.3f} "
+              f"(parlato atteso {netto/a:.0f} s, {car/(netto/a):.1f} car/s)")
+    return _ritmo
+PROVA_PRIMA, PROVA_GAP = 1.6, 2.5
+
+def sh(*a):
+    r = subprocess.run([str(x) for x in a], capture_output=True, text=True)
+    return r.stdout + r.stderr
+
+def durata(f):
+    t = re.findall(r"time=(\d+):(\d+):([\d.]+)", sh(FF,"-i",f,"-f","null","-"))[-1]
+    return int(t[0])*3600+int(t[1])*60+float(t[2])
+
+def pause(f, dmin):
+    o = sh(FF,"-i",f,"-af",f"silencedetect=noise={SOGLIA}:d={dmin}","-f","null","-")
+    ini = [float(x) for x in re.findall(r"silence_start:\s*(-?[\d.]+)", o)]
+    fin = [float(x) for x in re.findall(r"silence_end:\s*([\d.]+)", o)]
+    return [(a,b) for a,b in zip(ini,fin) if b>a]
+
+def blocchi():
+    b = json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+    i = [x["id"] for x in b].index(STACCO)
+    return b[:i+1], b[i+1:]
+
+# ------------------------------------------------------------------ allineamento
+def segmenti(traccia, dmin):
+    """Gli spezzoni di parlato fra una pausa e l'altra."""
+    D = durata(traccia); P = pause(traccia, dmin)
+    segs, t = [], 0.0
+    for a,b in P:
+        if a > t + 0.05: segs.append((t, a))
+        t = b
+    if D > t + 0.05: segs.append((t, D))
+    return D, segs, P
+
+UNITA  = ("zero","uno","due","tre","quattro","cinque","sei","sette","otto","nove")
+DIECI  = ("dieci","undici","dodici","tredici","quattordici","quindici","sedici",
+          "diciassette","diciotto","diciannove")
+DECINE = ("","","venti","trenta","quaranta","cinquanta","sessanta","settanta",
+          "ottanta","novanta")
+
+def in_lettere(n):
+    """Il numero come la voce lo pronuncia. Serve solo la LUNGHEZZA, ma scriverlo
+    per esteso e' piu' onesto che indovinare un fattore."""
+    if n < 10:  return UNITA[n]
+    if n < 20:  return DIECI[n-10]
+    if n < 100:
+        d, u = divmod(n, 10)
+        s = DECINE[d]
+        if u in (1, 8): s = s[:-1]            # ventuno, ventotto
+        return s + (UNITA[u] if u else "")
+    if n < 1000:
+        c, r = divmod(n, 100)
+        return (("" if c == 1 else UNITA[c]) + "cento" + (in_lettere(r) if r else ""))
+    m, r = divmod(n, 1000)
+    return (("mille" if m == 1 else UNITA[m] + "mila") + (in_lettere(r) if r else ""))
+
+def peso(q):
+    """Quanto DURA un pezzo di copione, non quanto e' lungo.
+
+    La DTW pesava i pezzi in caratteri, e su 2.4 questo ha spostato di 2,1 s il
+    confine fra s38 e s39: il pezzo «1.4 e 1.5.» sono dieci caratteri, ma la
+    voce dice «uno punto quattro e uno punto cinque» e ci mette quattro
+    secondi.
+
+    Il rimedio di 2.4 era una cifra = cinque caratteri, piatto. Funziona in
+    media e sbaglia agli estremi, in tutti e due i versi: «12» pesava dieci e
+    la voce dice «dodici», che ne vale sei; «1994» pesava venti e la voce dice
+    «millenovecentonovantaquattro», che ne vale ventotto. Su 2.6, dove i numeri
+    di Raccomandazione sono fitti, l'eccesso ha spostato di 1,2 s il confine fra
+    s33 e s34. Adesso il numero si scrive per esteso e si conta quello: la
+    differenza fra «sette» e «millenovecentonovantaquattro» la sa l'italiano,
+    non un fattore moltiplicativo."""
+    def sost(m):
+        n = int(m.group(0))
+        return in_lettere(n) if n < 10000 else m.group(0)
+    # Il punto fra due cifre e' un separatore di lezione o di articolo, e si
+    # legge «punto»: «1.5» e' «uno punto cinque», non «uno virgola cinque».
+    q = re.sub(r"(?<=\d)\.(?=\d)", " punto ", q)
+    return float(len(re.sub(r"\d+", sost, q)))
+
+def pezzi_testo(gruppo):
+    """Il copione spezzato alla punteggiatura: e' li' che la voce mette le pause.
+    Restituisce (peso in tempo, id del blocco, e' l'ultimo pezzo del blocco)."""
+    out = []
+    for x in gruppo:
+        t = re.sub(r"\[[a-z]+\]", "", x["text"]).strip()
+        parti = [q for q in re.split(r"(?<=[.:;,])\s+", t) if q.strip()]
+        for i,q in enumerate(parti):
+            out.append((peso(q), x["id"], i == len(parti)-1))
+    return out
+
+def allinea_dtw(pezzi, segs, MAXT=5, MAXA=2):
+    """Allineamento monotono fra pezzi di testo e spezzoni di audio.
+    Un solo spezzone puo' contenere fino a MAXT pezzi (la voce non fa pausa a
+    ogni virgola); un pezzo puo' stendersi su MAXA spezzoni."""
+    n, m = len(pezzi), len(segs)
+    car = [p[0] for p in pezzi]
+    dur = [b-a for a,b in segs]
+    rate = sum(car)/sum(dur)
+    INF = float("inf")
+    costo = lambda c,d: ((d - c/rate)**2)/(0.35 + d)
+    D  = [[INF]*(m+1) for _ in range(n+1)]
+    da = [[None]*(m+1) for _ in range(n+1)]
+    D[0][0] = 0.0
+    for i in range(n+1):
+        for j in range(m+1):
+            base = D[i][j]
+            if base == INF: continue
+            for kt in range(1, MAXT+1):
+                if i+kt > n: break
+                c_t = sum(car[i:i+kt])
+                for ka in range(1, MAXA+1):
+                    if j+ka > m: break
+                    d_a = sum(dur[j:j+ka])
+                    c = base + costo(c_t, d_a) + 0.25*(kt-1) + 0.45*(ka-1)
+                    if c < D[i+kt][j+ka]: D[i+kt][j+ka], da[i+kt][j+ka] = c, (i,j)
+    fine = [None]*n
+    i, j = n, m
+    while (i,j) != (0,0):
+        pi, pj = da[i][j]
+        for k in range(pi, i): fine[k] = j-1
+        i, j = pi, pj
+    return fine, rate
+
+def confini_con(traccia, gruppo, dmin):
+    """Prova una soglia di pausa e restituisce i confini che ne escono."""
+    D, segs, P = segmenti(traccia, dmin)
+    pezzi = pezzi_testo(gruppo)
+    if len(segs) < len(pezzi)*0.35: return None
+    fine, rate = allinea_dtw(pezzi, segs)
+    inizi = [a for a,_ in segs] + [D]
+    conf = []
+    for k,(_,idb,ultimo) in enumerate(pezzi):
+        if not ultimo or k == len(pezzi)-1: continue
+        j = fine[k]
+        conf.append((segs[j][1] + inizi[j+1]) / 2)      # a meta' della pausa
+    return D, sorted(conf), len(pezzi), len(segs), rate
+
+def quanto_male(gruppo, D, conf):
+    """Quanti blocchi cadono fuori fascia, e quanto e' sparpagliata la velocita'.
+    E' il metro con cui si sceglie fra le soglie: un solo confine sbagliato fa
+    uscire un blocco lunghissimo accanto a uno cortissimo, e si vede da qui."""
+    bordi = [0.0]+list(conf)+[D]
+    durate = [bordi[i+1]-bordi[i] for i in range(len(gruppo))]
+    # Una soglia sbagliata puo' mettere due confini sulla stessa pausa e lasciare
+    # un blocco di durata zero. Non e' un caso da far esplodere: e' il caso
+    # peggiore possibile, e come tale va pesato.
+    if min(durate) < 0.30: return (10**6, 10**6)
+    acc = _trimfatt()*ritmo()[0]
+    cps = [len(x["text"])/(d/acc) for x,d in zip(gruppo, durate)]
+    fuori = sum(not (8.5 <= c <= 21) for c in cps)
+    medio = sum(cps)/len(cps)
+    sparso = (sum((c-medio)**2 for c in cps)/len(cps))**0.5
+    return fuori, sparso
+
+def scegli(traccia, gruppo):
+    """Confini = fine dello spezzone su cui cade l'ultimo pezzo di ogni blocco.
+
+    La soglia di pausa non si sceglie al primo tentativo che «ha abbastanza
+    spezzoni»: quel criterio guarda la quantita' e non l'esito. Su 1.5 la
+    soglia di 0,18 s ha mancato per un centesimo una pausa vera, e i due
+    blocchi attorno sono usciti uno di 19 secondi e uno di 8. Si provano
+    tutte le soglie e si tiene quella che lascia meno blocchi fuori fascia."""
+    migliore = None
+    for dmin in (0.18, 0.15, 0.12, 0.22, 0.10):
+        r = confini_con(traccia, gruppo, dmin)
+        if r is None: continue
+        D, conf, npezzi, nsegs, rate = r
+        voto = quanto_male(gruppo, D, conf)
+        if migliore is None or voto < migliore[0]:
+            migliore = (voto, dmin, D, conf, npezzi, nsegs, rate)
+    voto, dmin, D, conf, npezzi, nsegs, rate = migliore
+    print(f"  [{npezzi} pezzi di testo · {nsegs} spezzoni di audio · "
+          f"{rate:.1f} car/s grezzi · pausa minima {dmin} s · "
+          f"{voto[0]} fuori fascia]")
+    return D, conf
+
+def stato(L): return QUI/f"confini-{L}.json"
+
+def mostra(L, gruppo, D, conf):
+    bordi = [0.0]+conf+[D]
+    print(f"\ntraccia {L}  {D:.2f} s grezzi  ·  {len(gruppo)} blocchi")
+    fuori = 0
+    for i,x in enumerate(gruppo):
+        d = bordi[i+1]-bordi[i]
+        cps = len(x["text"])/(d/(_trimfatt()*ritmo()[0]))   # stima con l'atempo di questa lezione
+        bad = not (8.5 <= cps <= 21); fuori += bad
+        print(f"  {x['id']}  {bordi[i]:7.2f} -> {bordi[i+1]:7.2f}  {d:5.2f}s grezzi  "
+              f"~{cps:5.1f} car/s{'   <-- FUORI FASCIA' if bad else ''}")
+    return fuori
+
+def cmd_allinea():
+    A,B = blocchi(); tutti = []; fuori = 0
+    for L,gruppo in (("A",A),("B",B)):
+        tr = QUI/f"grezzo-{L}.mp3"
+        D, conf = scegli(tr, gruppo)
+        stato(L).write_text(json.dumps({"durata":D,"confini":conf,
+            "ids":[x["id"] for x in gruppo]}, indent=1), encoding="utf-8")
+        fuori += mostra(L, gruppo, D, conf)
+        bordi=[0.0]+conf+[D]
+        tutti += [(L,x["id"],bordi[i]) for i,x in enumerate(gruppo)]
+    print(f"\nfuori fascia: {fuori}")
+    fai_prova(tutti)
+
+def fai_prova(tutti):
+    tmp = QUI/"_prova"; tmp.mkdir(exist_ok=True)
+    for p in tmp.glob("*.wav"): p.unlink()
+    pezzi, elenco = [], []
+    for k,(L,idb,ini) in enumerate(tutti):
+        if ini <= 0.01: continue                  # inizio traccia: non e' un confine
+        p = tmp/f"p{k:03d}.wav"
+        sh(FF,"-y","-v","error","-ss",f"{max(0,ini-PROVA_PRIMA):.3f}","-t",f"{PROVA_PRIMA:.3f}",
+           "-i",QUI/f"grezzo-{L}.mp3","-ar","44100","-ac","1",p)
+        pezzi.append(p); elenco.append({"n":len(pezzi),"traccia":L,"id":idb,"taglio":round(ini,3)})
+    sil = tmp/"sil.wav"
+    sh(FF,"-y","-v","error","-f","lavfi","-i","anullsrc=r=44100:cl=mono","-t",PROVA_GAP,sil)
+    lst = tmp/"lista.txt"
+    lst.write_text("".join(f"file '{p}'\nfile '{sil}'\n" for p in pezzi), encoding="utf-8")
+    sh(FF,"-y","-v","error","-f","concat","-safe","0","-i",lst,
+       "-c:a","libmp3lame","-b:a","128k",QUI/"prova.mp3")
+    (QUI/"prova.json").write_text(json.dumps(elenco,indent=1,ensure_ascii=False),encoding="utf-8")
+    print(f"prova.mp3: {len(pezzi)} spezzoni, {durata(QUI/'prova.mp3'):.1f} s "
+          f"— 1,6 s prima di ogni taglio, separati da {PROVA_GAP} s di silenzio")
+
+def cmd_correggi():
+    """correzioni.json: {"B": {"18": {"pause": -1}, "19": {"secondi": -0.4}}}
+    "pause" sposta il confine di N pause (indietro se negativo); "secondi" a mano."""
+    corr = json.loads((QUI/"correzioni.json").read_text(encoding="utf-8"))
+    A,B = blocchi(); gruppi = {"A":A,"B":B}
+    for L, mappa in corr.items():
+        st = json.loads(stato(L).read_text(encoding="utf-8"))
+        _, segs, _ = segmenti(QUI/f"grezzo-{L}.mp3", 0.18)
+        varchi = [(segs[k][1]+segs[k+1][0])/2 for k in range(len(segs)-1)]   # meta' di ogni pausa
+        for k, come in mappa.items():
+            j = int(k); vecchio = st["confini"][j]
+            if "pause" in come:
+                n = come["pause"]
+                vicino = min(range(len(varchi)), key=lambda i: abs(varchi[i]-vecchio))
+                nuovo = varchi[max(0, min(len(varchi)-1, vicino+n))]
+            else:
+                nuovo = vecchio + float(come["secondi"])
+            st["confini"][j] = nuovo
+            print(f"  {L}[{j}]  {vecchio:.2f} -> {nuovo:.2f}  ({nuovo-vecchio:+.2f} s)")
+        st["confini"].sort()
+        stato(L).write_text(json.dumps(st,indent=1),encoding="utf-8")
+    tutti = []
+    for L,gruppo in (("A",A),("B",B)):
+        st = json.loads(stato(L).read_text(encoding="utf-8"))
+        bordi = [0.0]+st["confini"]+[st["durata"]]
+        mostra(L, gruppo, st["durata"], st["confini"])
+        tutti += [(L,x["id"],bordi[i]) for i,x in enumerate(gruppo)]
+    fai_prova(tutti)
+
+def cmd_applica():
+    A,B = blocchi()
+    out = QUI/"blocchi"; out.mkdir(exist_ok=True)
+    reg = []
+    for L,gruppo in (("A",A),("B",B)):
+        st = json.loads(stato(L).read_text(encoding="utf-8"))
+        bordi = [0.0]+st["confini"]+[st["durata"]]
+        for i,x in enumerate(gruppo):
+            ini,fin = bordi[i],bordi[i+1]
+            f = out/f"{x['id']}.mp3"
+            sh(FF,"-y","-v","error","-ss",f"{ini:.3f}","-to",f"{fin:.3f}",
+               "-i",QUI/f"grezzo-{L}.mp3","-af",ritmo()[1],"-c:a","libmp3lame","-b:a","192k",f)
+            d = durata(f)
+            # §1.4: i blocchi corti si allungano perche' respirino. In piu', il
+            # copione puo' chiedere una posa esplicita dove il discorso la vuole.
+            posa = round(max(0.0, 4.6-d),2) if d < 3.5 else 0.0
+            posa = max(posa, float(x.get("posa", 0)))
+            if posa:
+                sh(FF,"-y","-v","error","-i",f,"-af",f"apad=pad_dur={posa}",
+                   "-c:a","libmp3lame","-b:a","192k",out/f"_{x['id']}.mp3")
+                (out/f"_{x['id']}.mp3").replace(f); d = durata(f)
+            reg.append({"id":x["id"],"traccia":L,"da":round(ini,3),"a":round(fin,3),
+                        "durata":round(d,3),"posa":posa,"car":len(x["text"]),
+                        "cps":round(len(x["text"])/d,1)})
+    (QUI/"blocchi-audio.json").write_text(json.dumps(reg,indent=1,ensure_ascii=False),encoding="utf-8")
+    tot = sum(r["durata"] for r in reg); m = tot+13
+    fuori = [r for r in reg if not 8.5<=r["cps"]<=21]
+    print(f"{len(reg)} blocchi  ·  parlato {tot:.1f} s  ·  montato {int(m//60)}:{m%60:04.1f}")
+    print(f"pose: {sum(1 for r in reg if r['posa'])}   fuori fascia: {len(fuori)}")
+    for r in fuori: print(f"   {r['id']}  {r['cps']} car/s  {r['durata']} s")
+
+if __name__ == "__main__":
+    {"allinea":cmd_allinea,"correggi":cmd_correggi,"applica":cmd_applica}[sys.argv[1]]()
+```
+
+## `audio/verifica-testo.py`
+
+Confronta la trascrizione con il copione. Contiene il convertitore dei
+cardinali italiani in cifre (`quarantotto` -> `48`) e le rese dichiarate:
+senza quelli segnalerebbe come errori una dozzina di letture corrette.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Confronta la trascrizione di ogni traccia col copione, parola per parola.
+
+Serve a trovare i buchi della voce: in 1.1 la sintesi aveva mangiato sei parole
+di fila e il salto si vedeva solo cosi'. Non verifica dove cadono i tagli -
+quello lo fanno l'allineamento DTW e verifica-locale.py - ma verifica che nel
+grezzo ci sia tutto quello che c'era nel copione.
+
+Le differenze di sola resa (accenti sciolti, acronimi, cifre scritte in lettere)
+non sono errori: si normalizza prima di confrontare, e si segnalano solo le
+sequenze di parole del copione che nella trascrizione mancano del tutto.
+"""
+import json, re, sys, unicodedata, difflib
+from pathlib import Path
+
+QUI    = Path(__file__).resolve().parent
+RADICE = QUI.parent
+# Lo stacco fra le due tracce e' dichiarato una volta sola, in tagli.py:
+# tenerne una seconda copia qui vuol dire che prima o poi le due divergono
+# in silenzio, e il confronto si fa sui blocchi sbagliati.
+STACCO = re.search(r'^STACCO\s*=\s*"([^"]+)"',
+                   (QUI/"tagli.py").read_text(encoding="utf-8"),
+                   re.M).group(1)
+BUCO   = 3   # da quante parole di fila in poi il salto e' sospetto
+
+# I numeri di legge, di articolo e di anno sono la resa che ricorre di piu':
+# il copione li scrive in cifre e il trascrittore, quando la voce li pronuncia
+# per esteso, li riscrive a parole - e non in modo costante: sulla stessa
+# lezione 1.8 la traccia A ha reso «739» come «settecentotrentanove» e la B
+# come «739». Non e' una tolleranza generica: e' una regola dichiarata, che
+# converte il numero cardinale italiano nella sua cifra, sui due testi.
+UNI   = {"zero":0,"uno":1,"un":1,"due":2,"tre":3,"quattro":4,"cinque":5,
+         "sei":6,"sette":7,"otto":8,"nove":9}
+DIECI = {"dieci":10,"undici":11,"dodici":12,"tredici":13,"quattordici":14,
+         "quindici":15,"sedici":16,"diciassette":17,"diciotto":18,"diciannove":19}
+DEC   = {"venti":20,"trenta":30,"quaranta":40,"cinquanta":50,
+         "sessanta":60,"settanta":70,"ottanta":80,"novanta":90}
+
+def _sotto100(s):
+    if s == "": return 0
+    if s in DIECI: return DIECI[s]
+    if s in DEC:   return DEC[s]
+    if s in UNI:   return UNI[s]
+    for d,v in DEC.items():
+        # le forme elise: venti+uno = ventuno, quaranta+otto = quarantotto
+        for u in ("uno","otto"):
+            if s == d[:-1]+u: return v+UNI[u]
+        if s.startswith(d):
+            r = s[len(d):]
+            if r in UNI: return v+UNI[r]
+    return None
+
+def _sotto1000(s):
+    if s == "": return 0
+    i = s.find("cento")
+    if i >= 0:
+        pre, post = s[:i], s[i+5:]
+        c = 1 if pre == "" else UNI.get(pre)
+        if c is not None:
+            p = _sotto1000(post) if post else 0
+            if p is not None: return c*100+p
+    return _sotto100(s)
+
+def cifra(s):
+    """La parola-numero come cifra, oppure la parola stessa se non lo e'."""
+    if s.startswith("mille"):
+        p = _sotto1000(s[5:])
+        if p is not None: return str(1000+p)
+    i = s.find("mila")
+    if i > 0:
+        m, p = _sotto1000(s[:i]), _sotto1000(s[i+4:])
+        if m is not None and p is not None: return str(m*1000+p)
+    n = _sotto1000(s)
+    return s if n is None else str(n)
+
+# Termini che copione e trascrizione scrivono in modo diverso pur dicendo la
+# stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
+# in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
+RESE = [
+ (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
+ (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
+ (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),
+ (r"\bl\s*/?\s*s\s*n\s*t\s*-?\s*1\b",            " siglatriennale "),
+ (r"\belle\s+esse\s+enne\s+ti\s+uno\b",            " siglatriennale "),
+ (r"\bls\s*nt\s*1\b",                                " siglatriennale "),
+ # I rimandi alle altre lezioni: il copione li scrive a parole, il
+ # trascrittore in cifre.
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?uno\b",   " lezione11 "),
+ (r"\b1[\s.]+1\b",                        " lezione11 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?due\b",   " lezione12 "),
+ (r"\b1[\s.]+2\b",                        " lezione12 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?tre\b",   " lezione13 "),
+ (r"\b1[\s.]+3\b",                        " lezione13 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?cinque\b"," lezione15 "),
+ (r"\b1[\s.]+5\b",                        " lezione15 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?sei\b",   " lezione16 "),
+ (r"\b1[\s.]+6\b",                        " lezione16 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?quattro\b"," lezione14 "),
+ (r"\b1[\s.]+4\b",                        " lezione14 "),
+ (r"\b(uno|1)[\s.]+(punto[\s.]+)?sette\b", " lezione17 "),
+ (r"\b1[\s.]+7\b",                        " lezione17 "),
+ # Fonetica: «illecito» e «il lecito» suonano identici in italiano.
+ (r"\bil\s+leciti?o\b", " illecito "),
+ # Le sigle: il trascrittore a volte le compita lettera per lettera.
+ (r"\bf\s+n\s+o\s+p\s+i\b",             " fnopi "),
+ (r"\bo\s+p\s+i\b",                       " opi "),
+ (r"\bd\s+a\s+t\b",                       " dat "),
+ (r"\be\s+c\s+m\b",                       " ecm "),
+ # La lettera dell'articolo 9.2 GDPR: il copione la scrive come si pronuncia
+ # («lettera acca»), il trascrittore la riporta come si scrive («lettera h»).
+ (r"\blettera\s+(acca|h)\b",          " lettera acca "),
+ # Il prefisso «post»: il copione lo stacca per farlo leggere bene, il
+ # trascrittore lo riattacca. Sono la stessa parola, non una resa diversa.
+ (r"\bpost\s+(operatori[ao]|operatorie|operatori)\b", r" post\1 "),
+ # Parole che il trascrittore rende in modo suo, senza che la voce abbia
+ # sbagliato: le spezza, le anglicizza, o le riscrive con la grafia piu'
+ # comune di un cognome straniero.
+ (r"\bmeta\s+paradigma\b",               " metaparadigma "),
+ (r"\bnewman\b",                          " neuman "),
+ (r"\bdiagnosis\b",                       " diagnosi "),
+ (r"\banti\s+decubito\b",                 " antidecubito "),
+ # Le unita' di misura: il copione le scrive per esteso perche' la voce le
+ # legga bene, il trascrittore le abbrevia.
+ (r"\bcentimetri\b",                       " cm "),
+ # Le sigle lette come parola: il trascrittore le scrive come le sente, e
+ # sente una vocale in meno.
+ (r"\bsopie\b|\bsopi\b",                    " soapie "),
+ (r"\bsop\b",                               " soap "),
+ # Sigla piu' numero: il copione li stacca, il trascrittore li unisce.
+ (r"\bnrs\s*(\d)\b",                      r" nrs \1 "),
+ # Parole composte che il trascrittore stacca o attacca a suo gusto: sono la
+ # stessa parola detta nello stesso modo, e la differenza e' solo ortografica.
+ (r"\bmeta\s+analisi\b",                  " metanalisi "),
+ (r"\bchecklist\b",                        " check list "),
+ # Due grafie entrambe corrette: il copione scrive «etiologia», il
+ # trascrittore sente «eziologia». La voce dice la stessa cosa.
+ (r"\beziologia\b",                        " etiologia "),
+ # Il cognome di una scala non e' una parola italiana, e il trascrittore lo
+ # scrive come gli suona: su 2.8 tre volte in tre modi diversi.
+ (r"\bconleys\b|\bconleigh\b",            " conley "),
+]
+
+def parole(s):
+    s = re.sub(r"\[[a-z]+\]", " ", s.lower())
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    # La punteggiatura va tolta PRIMA delle sostituzioni: il trascrittore
+    # scrive «F, N, O, P, I.» e con le virgole in mezzo nessuna regola
+    # riconoscerebbe la sigla.
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    for pat, con in RESE: s = re.sub(pat, con, s)
+    return [cifra(p) for p in re.findall(r"[a-z0-9]+", s)]
+
+def gruppi():
+    b = json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+    i = [x["id"] for x in b].index(STACCO)
+    return {"A": b[:i+1], "B": b[i+1:]}
+
+esiti, guai = {}, 0
+for nome, gruppo in gruppi().items():
+    atteso = []
+    for x in gruppo:
+        for p in parole(x["text"]): atteso.append((p, x["id"]))
+    detto = parole((QUI/"trascrizioni"/f"{nome}.txt").read_text(encoding="utf-8"))
+    sm = difflib.SequenceMatcher(None, [p for p,_ in atteso], detto, autojunk=False)
+    mancanti, sostituzioni = [], []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == "replace" and (i2-i1) < BUCO:
+            sostituzioni.append({
+                "blocco": atteso[i1][1],
+                "copione": " ".join(p for p,_ in atteso[i1:i2]),
+                "detto": " ".join(detto[j1:j2]) or "(nulla)"})
+        if tag in ("delete","replace") and (i2-i1) >= BUCO:
+            mancanti.append({
+                "blocco": atteso[i1][1],
+                "parole_copione": " ".join(p for p,_ in atteso[i1:i2]),
+                "al_loro_posto": " ".join(detto[j1:j2]) or "(nulla)",
+            })
+    uguali = sum(k for _,_,k in sm.get_matching_blocks())
+    esiti[nome] = {"parole_copione": len(atteso), "parole_dette": len(detto),
+                   "coincidenti": uguali, "buchi": mancanti,
+                   "sostituzioni_brevi": sostituzioni}
+    guai += len(mancanti)
+    print(f"traccia {nome}  {uguali}/{len(atteso)} parole coincidenti "
+          f"({100*uguali/len(atteso):.1f}%)   buchi da {BUCO}+ parole: {len(mancanti)}")
+    for m in mancanti:
+        print(f"    {m['blocco']}  copione: «{m['parole_copione']}»")
+        print(f"          detto: «{m['al_loro_posto']}»")
+    if sostituzioni:
+        print(f"    scarti brevi (rese diverse, non buchi): {len(sostituzioni)}")
+        for s2 in sostituzioni:
+            print(f"      {s2['blocco']}  «{s2['copione']}» -> «{s2['detto']}»")
+
+(QUI/"esiti-testo.json").write_text(json.dumps(esiti, ensure_ascii=False, indent=1), encoding="utf-8")
+print("\n" + ("nessun buco: la voce ha detto tutto" if not guai
+              else f"ATTENZIONE: {guai} buchi da controllare a orecchio"))
+sys.exit(1 if guai else 0)
+```
+
+## `audio/controllo-per-trascrizione.py`
+
+La verifica dei blocchi ritagliati: durata, velocita' di lettura, silenzi ai
+bordi.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Dice quali confini cadono fuori posto, e di quanto.
+
+prova.mp3 sono 1,6 s presi prima di ogni taglio, separati da 2,5 s di silenzio:
+la trascrizione li rende come frasi separate, una per confine. Per ogni frase
+si cerca, fra TUTTI i fini-frase del blocco che precede e di quello che segue,
+quello la cui coda le somiglia di piu'. Se il vincitore non e' il confine
+voluto, il taglio e' fuori posto e si sa esattamente dove e' finito.
+"""
+import json, re, sys, difflib, unicodedata
+from pathlib import Path
+
+QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
+
+NUMERI = {"uno":"1","due":"2","tre":"3","quattro":"4","cinque":"5","sei":"6",
+          "sette":"7","otto":"8","nove":"9","dieci":"10","punto":""}
+
+def norm(s):
+    s = unicodedata.normalize('NFD', s.lower())
+    s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+    s = s.replace("'"," ").replace("’"," ")
+    p = re.sub(r"[^a-z0-9 ]", " ", s).split()
+    return [NUMERI.get(w, w) for w in p if NUMERI.get(w, w)]
+
+def somiglia(a, b):   # sui caratteri: regge i frammenti corti e i numeri
+    return difflib.SequenceMatcher(None, " ".join(a), " ".join(b)).ratio()
+
+def fini_frase(testo):
+    """Posizioni (in parole) dove finisce una frase, dentro un blocco."""
+    t = re.sub(r"\[[a-z]+\]", "", testo)
+    fin, n = [], 0
+    for pezzo in re.split(r"(?<=[.!?])\s+", t):
+        if not norm(pezzo): continue
+        n += len(norm(pezzo)); fin.append(n)
+    return norm(t), fin
+
+def main():
+    bl = json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+    testi  = {x["id"]: x["text"] for x in bl}
+    ordine = [x["id"] for x in bl]
+    fr = json.loads((QUI/"prova.json").read_text(encoding="utf-8"))
+    grezza = (QUI/"trascrizioni"/"prova.txt").read_text(encoding="utf-8").strip()
+    frasi = [f for f in re.split(r"(?<=[.!?])\s+", grezza) if norm(f)]
+    if len(frasi) != len(fr):
+        print(f"ATTENZIONE: {len(frasi)} frasi per {len(fr)} confini — il raffronto puo' slittare.\n")
+
+    esiti, fuori = [], []
+    for f, frase in zip(fr, frasi):
+        i = ordine.index(f["id"])
+        prec, segu = ordine[i-1], f["id"]
+        sentito = norm(frase)
+        L = max(2, len(sentito))
+
+        # candidati: ogni fine-frase del blocco precedente e di quello seguente
+        wp, fp = fini_frase(testi[prec])
+        ws, fs = fini_frase(testi[segu])
+        cand = []
+        for k,pos in enumerate(fp):
+            cand.append((f"{prec}.{k+1}", pos == fp[-1], somiglia(wp[max(0,pos-L):pos], sentito)))
+        for k,pos in enumerate(fs):
+            cand.append((f"{segu}.{k+1}", False, somiglia(ws[max(0,pos-L):pos], sentito)))
+        cand.sort(key=lambda c: -c[2])
+        dove, giusto, punteggio = cand[0]
+        ok = giusto
+        e = {"id":segu,"traccia":f["traccia"],"taglio":f["taglio"],"sentito":" ".join(sentito),
+             "cade_a":dove,"somiglianza":round(punteggio,2),"ok":ok,
+             "frasi_di_troppo": int(dove.split(".")[1]) if not ok and dove.startswith(segu) else 0}
+        esiti.append(e)
+        if not ok: fuori.append(e)
+        print(f"{'  ok  ' if ok else 'FUORI '} {segu}  {punteggio:.2f}  cade a {dove:9s}"
+              f"  «{e['sentito']}»")
+    print(f"\nfuori posto: {len(fuori)}")
+    for e in fuori:
+        print(f"   {e['id']}: il taglio e' in ritardo di {e['frasi_di_troppo']} frase/i "
+              f"(sta dentro {e['cade_a']})")
+    (QUI/"esiti-verifica.json").write_text(json.dumps(esiti,indent=1,ensure_ascii=False),encoding="utf-8")
+    return len(fuori)
+
+if __name__ == "__main__":
+    sys.exit(0 if main()==0 else 1)
+```
+
+## `controllo-statistico.py`
+
+Il controllo statistico sui confini: la dispersione della velocita' di lettura
+blocco per blocco. Un confine sbagliato si vede come un punto lontano dalla
+nuvola — ma va poi confermato con l'aritmetica sulla traccia grezza, perche'
+i blocchi densi di cifre sono lenti per conto loro.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Controllo dei confini SENZA rete, quando la trascrizione non e' disponibile.
+
+Due controlli, e il secondo vale piu' del primo.
+
+1. La firma statistica. Se un taglio scivola in avanti di una frase, il blocco
+   prima diventa piu' lungo di quanto il suo testo prometta e quello dopo piu'
+   corto: due scarti grandi, adiacenti e di segno opposto. E' un indizio, non
+   una prova: su 2.6 ha segnalato s33/s34, e il taglio era giusto — il blocco
+   e' un elenco di numeri, e la voce ci mette le pause che il peso non sa
+   prevedere.
+
+2. Dove cade il taglio. Un taglio giusto sta DENTRO una pausa vera della voce.
+   Un taglio spostato sta in mezzo a una frase, e si vede senza sapere che cosa
+   la voce dice. Questo non e' un indizio: un taglio nel parlato e' un errore,
+   punto. E' il controllo da guardare per primo, ed e' quello che ha assolto
+   s33/s34 in dieci secondi.
+
+Non sostituisce prova.mp3 + controllo-per-trascrizione.py, che sa anche QUALE
+frase e' finita dove; ma per «il taglio e' nel posto giusto?» basta.
+"""
+import json, re, statistics, importlib.util, subprocess
+from pathlib import Path
+import imageio_ffmpeg
+
+FF = imageio_ffmpeg.get_ffmpeg_exe()
+
+QUI = Path(__file__).resolve().parent
+reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+testi = {x["id"]: x["text"] for x in
+         json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+
+# Il peso NON si riscrive qui. Su 2.4 la DTW e questo controllo pesavano i
+# pezzi in due modi diversi, e per una lezione intera nessuno se n'e' accorto:
+# il peso e' uno solo, sta in tagli.py, e qui si importa.
+_spec = importlib.util.spec_from_file_location("_tagli", QUI/"audio"/"tagli.py")
+_tagli = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(_tagli)
+
+def peso(t):
+    return _tagli.peso(re.sub(r"\[[a-z]+\]", "", t))
+
+for L in ("A","B"):
+    g = [r for r in reg if r["traccia"] == L]
+    P = [peso(testi[r["id"]]) for r in g]
+    D = [r["durata"] - r["posa"] for r in g]
+    tasso = sum(P)/sum(D)
+    res = [(d - p/tasso) for p,d in zip(P,D)]
+    sd = statistics.pstdev(res)
+    print(f"\ntraccia {L}   {tasso:.1f} peso/s   scarto tipico {sd:.2f} s")
+    sosp = []
+    for i,(r,e) in enumerate(zip(g,res)):
+        seg = "  " if abs(e) < 1.5*sd else ("++" if e>0 else "--")
+        if seg != "  ": sosp.append((i,r["id"],e))
+        print(f"  {seg} {r['id']}  {r['durata']:5.2f}s   atteso {P[i]/tasso:5.2f}s   scarto {e:+5.2f}s")
+    # la firma di un confine spostato: due scarti grandi, adiacenti, opposti
+    print("  confini da guardare per primi:")
+    trovati = False
+    for a,b in zip(sosp, sosp[1:]):
+        if b[0]-a[0] == 1 and a[2]*b[2] < 0:
+            print(f"    fra {a[1]} e {b[1]}: {a[2]:+.2f}s / {b[2]:+.2f}s "
+                  f"— il taglio sembra spostato di ~{abs(a[2]):.1f}s")
+            trovati = True
+    if not trovati: print("    nessuna coppia adiacente di segno opposto")
+
+
+# La soglia va tenuta SOTTO la pausa minima che tagli.py accetta, che non e'
+# una costante: la calcola per lezione. Con 0,15 s fissi questo controllo ha
+# accusato il taglio s45 di 2.5, che cadeva nel centro esatto di una pausa di
+# 0,143 s — un falso allarme prodotto dal controllo, non dal taglio. A 0,05 s
+# nessuna pausa vera sfugge, e la durata stampata accanto a ogni taglio lascia
+# comunque vedere quelle sospettosamente corte.
+MINPAUSA = 0.05
+
+def pause(mp3):
+    """Le pause vere della voce, dal file grezzo."""
+    err = subprocess.run([FF,"-v","info","-i",str(mp3),"-af",
+          f"silencedetect=n=-45dB:d={MINPAUSA}","-f","null","-"],
+          capture_output=True, text=True).stderr
+    fuori, ini = [], None
+    for m in re.finditer(r"silence_(start|end): ([\d.]+)", err):
+        if m.group(1) == "start": ini = float(m.group(2))
+        elif ini is not None: fuori.append((ini, float(m.group(2)))); ini = None
+    return fuori
+
+print("\n\nOGNI TAGLIO CADE DENTRO UNA PAUSA?")
+guai = 0
+for L in ("A","B"):
+    d = json.loads((QUI/"audio"/f"confini-{L}.json").read_text(encoding="utf-8"))
+    ps = pause(QUI/"audio"/f"grezzo-{L}.mp3")
+    for bid, t in zip(d["ids"], d["confini"]):      # l'ultimo id finisce col file
+        dentro = [q for q in ps if q[0] - 0.02 <= t <= q[1] + 0.02]
+        if dentro:
+            a, b = dentro[0]
+            print(f"  {bid} -> pausa di {b-a:.2f}s")
+        else:
+            vic = min(ps, key=lambda q: min(abs(q[0]-t), abs(q[1]-t)))
+            print(f"  {bid} -> NEL PARLATO: taglio a {t:.2f}s, "
+                  f"la pausa piu' vicina e' {vic[0]:.2f}-{vic[1]:.2f}s")
+            guai += 1
+print(f"\n{guai} tagli nel parlato" if guai else "\nnessun taglio nel parlato: i confini sono dove la voce si ferma")
+```
+
+## `slide/layout.mjs`
+
+L'impaginazione: temi, marchio in alto a sinistra, barra di avanzamento, i
+corpi di testo. Importa le tre librerie grafiche e rifiuta i tipi con dati sul
+tema profondo, dove il contrasto delle serie non regge.
+
+```javascript
+// Layout unico delle slide: lo usano sia cards.mjs (PNG fermi) sia clips.mjs (fotogrammi).
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+import { CSS_GRAFICA, CORPI_GRAFICA, collega, FREGI } from './grafica.mjs';
+import { CSS_FIGURE, CORPI_FIGURE, collega as collegaFigure } from './figure.mjs';
+import { CSS_CLINICA, CORPI_CLINICA, ILLU_CLINICA, collega as collegaClinica } from './clinica.mjs';
+import { registra } from './figure.mjs';
+const QUI = dirname(fileURLToPath(import.meta.url));
+
+// --- palette ricavata dal marchio CISL FP Padova Rovigo ---
+// I due colori sono campionati dal file del logo, non stimati:
+// verde #00623A (40,7% dei pixel opachi) e rosso #D70328 (14,2%).
+export const BIANCO='#FFFFFF', VERDE='#00623A', ROSSO='#D70328',
+             TESTO='#1C1C1C',
+             PROFONDO='#004E2E',   // il verde del marchio, scurito per reggere una campitura intera
+             TENUE='#FCF4F3';      // velo di rosso: le slide degli errori
+
+export const TEMI = {
+  chiaro:   { bg:BIANCO,   fg:TESTO,     tit:VERDE,   acc:ROSSO,     sop:VERDE,     linea:'#E2E9E5', scuro:false },
+  tenue:    { bg:TENUE,    fg:'#2A1D1D', tit:VERDE,   acc:'#C10225', sop:'#9A3040', linea:'#EFDCDA', scuro:false },
+  // Sul verde pieno il rosso del marchio non regge: vibra e perde contrasto.
+  // Li' l'accento e' il bianco, e la gerarchia la fa il peso, non un secondo colore.
+  profondo: { bg:PROFONDO, fg:'#C3DACE', tit:BIANCO,  acc:BIANCO,    sop:'#8FC3A8', linea:'#0F6740', scuro:true  },
+};
+
+const FONT = readFileSync(join(QUI,'font','font-incorporati.css'),'utf8');
+const MARCHIO = 'data:image/png;base64,' +
+  readFileSync(join(QUI,'marchio','logo-rifilato.png')).toString('base64');
+
+// *testo* -> in accento;  **testo** -> in accento e semibold
+const acc = s => String(s??'')
+  .replace(/\*\*(.+?)\*\*/g, '<b class="a">$1</b>')
+  .replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
+// grafica.mjs usa la stessa funzione, invece di tenerne una copia che diverge.
+collega(acc);
+collegaFigure(acc);
+collegaClinica(acc);
+registra(ILLU_CLINICA);
+// Il sopratitolo e' gia' tutto di un colore suo: un accento li' non si vedrebbe.
+// Ma i marcatori vanno tolti lo stesso, o finiscono a schermo come asterischi —
+// e' successo davvero, su «l'accertamento e' *continuo*».
+const sop = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+
+const CSS = `
+${FONT}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;
+     font-feature-settings:'kern' 1,'liga' 1,'tnum' 1}
+.slide{position:relative;width:1920px;height:1080px;display:flex;flex-direction:column;
+       padding:178px 132px 118px}   /* 170 in alto: sotto il marchio */
+.serif{font-family:'Source Serif 4',serif}
+.a{color:var(--acc)}
+b.a{font-weight:600}
+
+/* cornice fissa */
+.logo{position:absolute;top:42px;left:116px;padding:10px 16px;border-radius:13px;
+      background:transparent;line-height:0}
+.slide.scuro .logo{background:${BIANCO}}   /* sul verde pieno il marchio va su piastra bianca */
+/* Sul verde pieno il titolo e' gia' bianco: se lo fosse anche l'accento, sparirebbe.
+   Il titolo si smorza di poco e l'accento resta bianco pieno, piu' pesante. */
+.slide.scuro h1,.slide.scuro h2{color:#D3E5DB}
+.slide.scuro h1 .a,.slide.scuro h2 .a{color:${BIANCO};font-weight:700}
+.logo img{display:block;height:70px;width:auto}
+.pagina{position:absolute;top:70px;right:132px;font-size:21px;font-weight:500;letter-spacing:.08em;
+        color:var(--sop);opacity:.75;font-variant-numeric:tabular-nums}
+.avanz{position:absolute;left:0;bottom:0;height:9px;width:100%;background:var(--linea)}
+.avanz i{display:block;height:100%;background:${ROSSO}}
+
+.sop{font-size:26px;margin-top:-6px;font-weight:600;letter-spacing:.19em;text-transform:uppercase;
+     color:var(--sop);margin-bottom:44px}
+.corpo{flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px}
+
+h1{font-size:104px;line-height:1.08;font-weight:600;color:var(--tit);letter-spacing:-.015em}
+h2{font-size:76px;line-height:1.16;font-weight:600;color:var(--tit);letter-spacing:-.01em}
+.frase{font-size:66px;line-height:1.30;font-weight:400;color:var(--fg)}
+.frase b{font-weight:600;color:var(--tit)}
+.sotto{font-size:34px;line-height:1.5;color:var(--fg);opacity:.78;font-weight:400}
+
+/* norma: sigla grande in lineare + una riga */
+.norma{font-size:126px;font-weight:700;letter-spacing:-.02em;color:var(--tit);
+       font-variant-numeric:lining-nums tabular-nums}
+.norma small{display:block;font-size:30px;font-weight:600;letter-spacing:.17em;
+             text-transform:uppercase;color:var(--sop);margin-bottom:26px}
+
+/* numero gigante */
+.cifra{font-size:300px;font-weight:700;line-height:.92;letter-spacing:-.035em;color:var(--acc);
+       font-variant-numeric:lining-nums tabular-nums}
+
+/* citazione */
+.cita{font-size:64px;line-height:1.34;font-weight:400;text-indent:-.52em}
+.cita .q{color:var(--acc)}
+.fonte{font-size:28px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sop)}
+
+/* elenco */
+ol.el,ul.el{list-style:none;display:flex;flex-direction:column;gap:30px}
+.el li{display:flex;gap:34px;align-items:baseline;font-size:47px;line-height:1.28;color:var(--fg);
+       opacity:.26;transition:none}
+.el li.on{opacity:1}
+.el li .n{flex:0 0 78px;font-size:34px;font-weight:700;color:var(--acc);letter-spacing:.02em;
+          font-variant-numeric:lining-nums tabular-nums;padding-top:.28em}
+.el li .n.gr{font-size:46px;padding-top:.12em}
+.el li .n.no{color:#B6B6B6}
+.el li .n.pt{color:var(--sop)}
+.el li b{font-weight:600;color:var(--tit)}
+.el li em{display:block;font-style:normal;font-size:33px;line-height:1.45;opacity:.72;margin-top:12px}
+/* Gli elenchi lunghi non ci stanno alla misura piena: si stringono da soli
+   invece di farsi tagliare dalla cornice. Le soglie stanno qui, non nelle
+   scene, cosi' nessuna lezione se ne puo' dimenticare. Sono due perche' una
+   voce con la sua spiegazione occupa il doppio: sette voci nude, oppure
+   cinque se almeno una porta la riga di spiegazione. */
+ol.el.fitto,ul.el.fitto{gap:20px}
+.el.fitto li{font-size:40px;line-height:1.24;gap:28px}
+.el.fitto li .n{flex:0 0 62px;font-size:29px}
+.el.fitto li .n.gr{font-size:38px}
+.el.fitto li em{font-size:28px;line-height:1.38;margin-top:8px}
+
+/* tre riquadri */
+.tre{display:grid;grid-template-columns:repeat(3,1fr);gap:38px}
+/* Con due riquadri la griglia da tre lascerebbe un terzo di slide vuoto a destra. */
+.tre.n2{grid-template-columns:repeat(2,1fr);gap:44px}
+.tre.n4{grid-template-columns:repeat(4,1fr);gap:28px}
+.tre.n5{grid-template-columns:repeat(5,1fr);gap:22px}
+.tre.n4 .box,.tre.n5 .box{padding:44px 28px;min-height:250px}
+.tre.n4 .box .t{font-size:40px}
+.tre.n5 .box .t{font-size:34px}
+.tre.n5 .box{padding:40px 22px}
+.tre .box.key{border-color:var(--acc);border-width:4px}
+.tre .box.key .t{color:var(--acc)}
+.tre.cifre .box .t{font-size:104px;font-weight:700;letter-spacing:-.03em;color:var(--acc);
+                   font-variant-numeric:lining-nums tabular-nums;line-height:1}
+.tre.cifre .box{min-height:250px;gap:14px}
+.tre .box{border:3px solid var(--linea);border-radius:22px;padding:52px 40px;min-height:290px;
+          display:flex;flex-direction:column;justify-content:center;gap:20px;opacity:.26}
+.tre .box.on{opacity:1;border-color:var(--tit)}
+.tre .box .n{font-size:28px;font-weight:700;color:var(--acc);letter-spacing:.1em}
+.tre .box .t{font-size:46px;font-weight:600;line-height:1.15;color:var(--tit)}
+.tre .box .d{font-size:29px;line-height:1.42;opacity:.75;color:var(--fg)}
+
+/* confronto a due colonne */
+.due{display:grid;grid-template-columns:1fr 1fr;gap:0;border:3px solid var(--linea);border-radius:22px;
+     overflow:hidden}
+.due>div{padding:56px 52px;display:flex;flex-direction:column;gap:22px}
+.due>div+div{border-left:3px solid var(--linea)}
+.due h3{font-size:27px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sop)}
+.due p{font-size:44px;line-height:1.28;color:var(--fg)}
+.due .grande{font-size:58px;font-weight:600;color:var(--tit);line-height:1.14}
+
+/* sostituzione A -> B */
+.sost{display:flex;align-items:center;gap:56px}
+.sost .lato{flex:1;display:flex;flex-direction:column;gap:18px}
+.sost h3{font-size:27px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sop)}
+.sost .v{font-size:62px;font-weight:600;line-height:1.16;color:var(--tit)}
+.sost .v.no{color:#8A8F8B;opacity:1;text-decoration:line-through;
+            text-decoration-thickness:4px;text-decoration-color:#C6CBC7}
+.sost .fre{font-size:82px;color:var(--acc);font-weight:300;line-height:1}
+
+/* trappola: riga barrata + correzione */
+.trap{display:flex;flex-direction:column;gap:44px}
+.trap .r{display:flex;flex-direction:column;gap:14px;opacity:.26}
+.trap .r.on{opacity:1}
+.trap .sb{font-size:44px;line-height:1.26;color:var(--fg);opacity:.62;
+          text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#B6B6B6}
+/* Il gap deve separare la freccia dal testo, non le parole accentate fra loro:
+   percio' il testo sta in un solo figlio del flex. */
+.trap .ok{font-size:40px;line-height:1.3;font-weight:600;color:var(--tit);display:flex;gap:20px}
+.trap .ok:before{content:'→';color:var(--acc);font-weight:400}
+
+/* timeline */
+.tl{display:flex;align-items:flex-start;gap:0;position:relative;padding-top:64px}
+.tl:before{content:'';position:absolute;left:0;right:0;top:76px;height:4px;background:var(--linea)}
+.tl .t{flex:1;display:flex;flex-direction:column;align-items:center;gap:20px;position:relative;opacity:.24}
+.tl .t.on{opacity:1}
+.tl .t .p{width:26px;height:26px;border-radius:50%;background:var(--linea);position:relative;z-index:1}
+.tl .t.on .p{background:var(--acc);box-shadow:0 0 0 9px var(--bg)}
+.tl .t{opacity:.22}
+.tl .t.on{opacity:1}
+.tl .t .an{font-size:52px;font-weight:700;color:var(--tit);font-variant-numeric:lining-nums tabular-nums}
+.tl .t .et{font-size:27px;line-height:1.34;text-align:center;color:var(--fg);opacity:.82;
+           max-width:210px;padding:0 6px}
+.tl .t.key .an{color:var(--acc)}
+
+/* memo */
+.memo{display:flex;flex-direction:column;gap:26px}
+.memo .v{display:flex;gap:30px;align-items:baseline;font-size:41px;line-height:1.3;opacity:.26}
+.memo .v.on{opacity:1}
+.memo .v .n{flex:0 0 62px;font-size:28px;font-weight:700;color:var(--acc);
+            font-variant-numeric:lining-nums tabular-nums;padding-top:.2em}
+.memo .v b{font-weight:600;color:var(--tit)}
+
+/* fonti: tre riquadri + barra del limite */
+.fonti{display:flex;flex-direction:column;gap:34px}
+.limite{border:3px dashed var(--acc);border-radius:18px;padding:34px 44px;display:flex;gap:26px;
+        align-items:baseline;opacity:.26}
+.limite.on{opacity:1}
+.limite .lb{font-size:26px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);
+            flex:0 0 auto}
+.limite .lt{font-size:32px;line-height:1.38;color:var(--fg)}
+
+/* perimetro: elenco chiuso vs perimetro aperto */
+.perim{display:grid;grid-template-columns:1fr 120px 1fr;align-items:center;gap:0}
+.perim .fre{font-size:76px;color:var(--acc);text-align:center;font-weight:300}
+.perim .cl{border:3px solid var(--linea);border-radius:18px;padding:44px 46px;display:flex;
+           flex-direction:column;gap:18px;background:#F6F7F6}
+.perim .cl .rg{font-size:33px;line-height:1.2;color:#8A8F8B;display:flex;gap:20px;align-items:baseline}
+.perim .cl .rg:before{content:'—';color:#C6CBC7}
+.perim .cl .rg.fin{color:#B4B9B5}
+.perim .ap{border:4px dashed var(--acc);border-radius:26px;padding:56px 44px;min-height:250px;
+           display:flex;flex-direction:column;justify-content:center;gap:14px}
+.perim .ap .v{font-size:36px;font-weight:600;color:var(--tit);line-height:1.3}
+.perim .et{font-size:26px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+           color:var(--sop);margin-bottom:20px}
+
+/* copertina e chiusura */
+.cover{justify-content:center;gap:0;padding-top:150px}
+.cover .mod{font-size:28px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+            color:var(--sop);margin-bottom:52px}
+.cover h1{font-size:132px;margin-bottom:34px}
+.cover .st{font-size:44px;color:var(--fg);opacity:.8}
+.cover .riga{width:196px;height:7px;background:${ROSSO};margin:64px 0 0;border-radius:4px}
+.cover .ente{position:absolute;bottom:118px;left:132px;font-size:26px;letter-spacing:.1em;
+             color:var(--sop);opacity:.85}
+
+/* --- movimento: entra, e poi finisce (MASTER §Passo 4) ---
+   Le animazioni sono ferme: l'orologio lo sposta a mano il generatore,
+   cosi' cards.mjs e clips.mjs rendono esattamente la stessa cosa. */
+@keyframes entra   {from{opacity:0;transform:translateY(22px)} to{opacity:1;transform:none}}
+@keyframes entraOff{from{opacity:0;transform:translateY(22px)} to{opacity:.26;transform:none}}
+@keyframes entraTl {from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:none}}
+@keyframes entraTlOff{from{opacity:0;transform:translateY(14px)} to{opacity:.22;transform:none}}
+
+.sop,.corpo>*{animation:entra .52s cubic-bezier(.22,.7,.3,1) both}
+.sop{animation-delay:0s}
+.corpo>*:nth-child(1){animation-delay:.16s}
+.corpo>*:nth-child(2){animation-delay:.36s}
+.corpo>*:nth-child(3){animation-delay:.54s}
+/* i contenitori a piu' voci non entrano interi: entrano le voci, a scalare */
+.corpo>ol.el,.corpo>ul.el,.corpo>.tre,.corpo>.trap,.corpo>.tl,.corpo>.memo,
+.corpo>.fonti,.corpo>.due,.corpo>.sost,.corpo>.perim{animation:none}
+.el li,.tre .box,.trap .r,.memo .v,.fonti .tre .box,.fonti .limite,
+.due>div,.sost>*,.perim>*{animation:entra .5s cubic-bezier(.22,.7,.3,1) both}
+.tl .t{animation:entraTl .45s cubic-bezier(.22,.7,.3,1) both}
+.el li:not(.on),.tre .box:not(.on),.trap .r:not(.on),.memo .v:not(.on),
+.fonti .limite:not(.on){animation-name:entraOff}
+.tl .t:not(.on){animation-name:entraTlOff}
+.el li:nth-child(1),.tre .box:nth-child(1),.trap .r:nth-child(1),.memo .v:nth-child(1),
+.due>div:nth-child(1),.perim>*:nth-child(1),.tl .t:nth-child(1),.sost>*:nth-child(1){animation-delay:.20s}
+.el li:nth-child(2),.tre .box:nth-child(2),.trap .r:nth-child(2),.memo .v:nth-child(2),
+.due>div:nth-child(2),.perim>*:nth-child(2),.tl .t:nth-child(2),.sost>*:nth-child(2){animation-delay:.32s}
+.el li:nth-child(3),.tre .box:nth-child(3),.trap .r:nth-child(3),.memo .v:nth-child(3),
+.perim>*:nth-child(3),.tl .t:nth-child(3),.sost>*:nth-child(3){animation-delay:.44s}
+.el li:nth-child(4),.memo .v:nth-child(4),.tl .t:nth-child(4){animation-delay:.56s}
+.el li:nth-child(5),.memo .v:nth-child(5),.tl .t:nth-child(5){animation-delay:.68s}
+.tl .t:nth-child(6){animation-delay:.80s}
+.tl .t:nth-child(7){animation-delay:.92s}
+.fonti .limite{animation-delay:.72s}
+
+${CSS_GRAFICA}
+${CSS_FIGURE}
+${CSS_CLINICA}
+
+/* ferme: l'orologio lo muove il generatore. Deve stare in coda a tutto. */
+.slide *{animation-play-state:paused}
+`;
+
+// --- i pezzi di ogni tipo di slide ---
+const CORPI = {
+  copertina: d => `<div class="mod">${d.modulo}</div><h1>${acc(d.titolo)}</h1>
+      <div class="st">${acc(d.sottotitolo)}</div><div class="riga"></div>
+      <div class="ente">${d.ente}</div>`,
+
+  titolo: d => `${FREGI.barra}<h1>${acc(d.titolo)}</h1>${
+      d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+
+  frase: d => `<div class="frase serif">${acc(d.testo)}</div>
+      ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+
+  norma: d => `${FREGI.sigillo}<div class="norma"><small>${d.etichetta}</small>${d.sigla}</div>
+      <div class="frase serif">${acc(d.testo)}</div>`,
+
+  numero: d => `${FREGI.anello}<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
+
+  citazione: d => `${FREGI.virgolette}<div class="cita serif">${acc(d.testo)}</div>
+      <div class="fonte">${d.fonte}</div>`,
+
+  elenco: d => `<${d.numerato?'ol':'ul'} class="el ${
+      d.voci.length>=7 || (d.voci.length>=5 && d.voci.some(v=>v.d)) ? 'fitto':''}">${d.voci.map((v,i)=>
+      `<li class="${(d.attive??d.voci.map((_,k)=>k)).includes(i)?'on':''}">
+         <span class="n ${d.numerato?'':'pt'} ${d.grandi?'gr':''} ${d.vietato?'no':''}">${
+            d.marcatori ? d.marcatori[i] : (d.vietato?'×':(d.numerato?(d.da??1)+i:'—'))}</span>
+         <span>${acc(v.t)}${v.d?`<em>${acc(v.d)}</em>`:''}</span></li>`).join('')}</${d.numerato?'ol':'ul'}>`,
+
+  tre: d => `<div class="tre ${d.box.length!==3?'n'+d.box.length:''} ${d.cifre?'cifre':''}">${d.box.map((b,i)=>
+      `<div class="box ${(d.attive??d.box.map((_,k)=>k)).includes(i)?'on':''} ${b.key?'key':''}">
+         <span class="n">${b.n??''}</span><span class="t">${acc(b.t)}</span>
+         ${b.d?`<span class="d">${acc(b.d)}</span>`:''}</div>`).join('')}</div>`,
+
+  confronto: d => `<div class="due">${d.col.map(c=>
+      `<div><h3>${c.h}</h3><p class="${c.grande?'grande':''}">${acc(c.t)}</p></div>`).join('')}</div>
+      ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+
+  sostituzione: d => `<div class="sost">
+      <div class="lato"><h3>${d.da.h}</h3><div class="v no">${acc(d.da.t)}</div></div>
+      <div class="fre">→</div>
+      <div class="lato"><h3>${d.a.h}</h3><div class="v">${acc(d.a.t)}</div></div></div>
+      ${d.sotto?`<div class="sotto">${acc(d.sotto)}</div>`:''}`,
+
+  trappola: d => `<div class="trap">${d.righe.map((r,i)=>
+      `<div class="r ${(d.attive??d.righe.map((_,k)=>k)).includes(i)?'on':''}">
+         <div class="sb">${acc(r.sb)}</div>
+         <div class="ok"><span>${acc(r.ok)}</span></div></div>`).join('')}</div>`,
+
+  timeline: d => `<div class="tl">${d.tappe.map((t,i)=>
+      `<div class="t ${(d.attive??d.tappe.map((_,k)=>k)).includes(i)?'on':''} ${t.key?'key':''}">
+         <div class="p"></div><div class="an">${t.anno}</div><div class="et">${acc(t.et)}</div></div>`).join('')}</div>`,
+
+  memo: d => `<div class="memo">${d.voci.map((v,i)=>
+      `<div class="v ${(d.attive??d.voci.map((_,k)=>k)).includes(i)?'on':''}">
+         <span class="n">${i+1}</span><span>${acc(v)}</span></div>`).join('')}</div>`,
+
+  fonti: d => `<div class="fonti">
+      <div class="tre">${d.box.map((b,i)=>
+        `<div class="box ${(d.attive??[0,1,2]).includes(i)?'on':''}">
+           <span class="n">${b.n}</span><span class="t">${acc(b.t)}</span>
+           ${b.d?`<span class="d">${acc(b.d)}</span>`:''}</div>`).join('')}</div>
+      <div class="limite ${d.limite?'on':''}"><span class="lb">Limite</span>
+        <span class="lt">${acc(d.testoLimite)}</span></div></div>`,
+
+  perimetro: d => `<div class="perim">
+      <div><div class="et">${d.sx}</div><div class="cl">
+        ${d.atti.map((a,i)=>`<div class="rg ${i===d.atti.length-1?'fin':''}">${a}</div>`).join('')}</div></div>
+      <div class="fre">→</div>
+      <div><div class="et">${d.dx}</div><div class="ap">
+        ${d.voci.map(v=>`<div class="v">${acc(v)}</div>`).join('')}</div></div></div>`,
+};
+
+const TUTTI = { ...CORPI, ...CORPI_GRAFICA, ...CORPI_FIGURE, ...CORPI_CLINICA };
+// I grafici non vanno sul verde pieno: le tinte dei dati non ci arrivano a 3:1
+// di contrasto senza uscire dalla banda di chiarezza. Meglio accorgersene qui
+// che scoprirlo guardando il video.
+const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
+
+export function html(d, {avanzamento=0, pagina=''}={}) {
+  if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
+    throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
+  const t = TEMI[d.tema ?? 'chiaro'];
+  const corpo = TUTTI[d.tipo](d);
+  const cover = d.tipo === 'copertina';
+  return `<!doctype html><meta charset="utf-8"><style>${CSS}</style>
+<body><div class="slide ${cover?'cover':''} ${t.scuro?'scuro':''}"
+  style="--bg:${t.bg};--fg:${t.fg};--tit:${t.tit};--acc:${t.acc};--sop:${t.sop};--linea:${t.linea};
+         background:${t.bg};color:${t.fg}">
+  <div class="logo"><img src="${MARCHIO}" alt="CISL FP Padova Rovigo"></div>
+  ${pagina?`<div class="pagina">${pagina}</div>`:''}
+  ${cover?'':`<div class="sop">${sop(d.sopratitolo)}</div>`}
+  <div class="corpo">${corpo}</div>
+  <div class="avanz"><i style="width:${(avanzamento*100).toFixed(2)}%"></i></div>
+</div></body>`;
+}
+```
+
+## `slide/grafica.mjs`
+
+La libreria grafica: 13 tipi in 5 famiglie, 22 icone a tratto su griglia 24,
+4 fregi, la palette dei dati validata per il daltonismo e la rampa
+sequenziale. Il colore qui e' calcolato, mai scelto a mano.
+
+```javascript
+// Libreria grafica delle slide: tabelle vere, grafici, diagrammi, icone vettoriali.
+// La usa layout.mjs, che ne unisce CSS e corpi ai propri.
+//
+// PALETTE DEI DATI — non scelta a occhio.
+// Il verde e il rosso del marchio, messi l'uno accanto all'altro in un grafico,
+// hanno ΔE 3,4 in protanopia: per un daltonico sono la stessa tinta. Percio':
+//   1. la serie categoriale qui sotto e' stata validata sui sei controlli
+//      (banda di chiarezza, croma, separazione CVD, soglia a vista normale,
+//      contrasto sul fondo) e li passa tutti;
+//   2. il colore non porta MAI da solo un significato: ogni serie ha
+//      l'etichetta attaccata, e giusto/sbagliato portano anche il segno (✓ ×).
+export const DATI = ['#00623A', '#B07A12', '#3E6FA8', '#D70328'];
+// Rampa sequenziale (una sola tinta, chiaro -> scuro) per le grandezze.
+export const RAMPA = ['#D5E6DE', '#A8CDBB', '#78B296', '#3E8E6B', '#00623A'];
+// I grafici stanno solo sui temi chiari. Sul verde pieno le tinte che superano
+// la banda di chiarezza per fondo scuro non arrivano a 3:1 di contrasto: invece
+// di forzarle, i dati non ci vanno. Sul verde restano le slide di affermazione.
+
+// --- icone: un solo sistema, tratto 1.7 su griglia 24, estremi tondi ---
+const I = {
+  bilancia:'M12 3v18M7 21h10M12 6 4 9m8-3 8 3M4 9 1.5 15a3.2 3.2 0 0 0 5 0zM20 9l2.5 6a3.2 3.2 0 0 1-5 0z',
+  libro:'M4 4.5A1.5 1.5 0 0 1 5.5 3H19v15H5.5A1.5 1.5 0 0 0 4 19.5zM4 19.5A1.5 1.5 0 0 0 5.5 21H19v-3M8 7.5h7M8 11h5',
+  documento:'M6 2.5h7l5 5v14H6zM13 2.5v5h5M9 12.5h6M9 16h6',
+  lucchetto:'M6 10.5h12v10H6zM8.5 10.5V7a3.5 3.5 0 0 1 7 0v3.5M12 14.5v2.5',
+  occhio:'M1.8 12S5.5 5.5 12 5.5 22.2 12 22.2 12 18.5 18.5 12 18.5 1.8 12 1.8 12Z M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z',
+  orologio:'M12 2.8a9.2 9.2 0 1 0 0 18.4 9.2 9.2 0 0 0 0-18.4ZM12 7v5.4l3.6 2.2',
+  scudo:'M12 2.6 4.5 5.6v6.1c0 4.6 3.1 8.4 7.5 9.7 4.4-1.3 7.5-5.1 7.5-9.7V5.6Z M8.8 12l2.3 2.4 4.1-4.6',
+  cuoremano:'M4 13.5V21M4 15.5l3.2-3.1a2 2 0 0 1 2.8 0l.6.6h3.9a2 2 0 0 1 0 4h-2.6M10.5 17.5H20M17 8.6c0-1.5-1.2-2.6-2.6-2.6-.8 0-1.6.4-2.1 1-.5-.6-1.3-1-2.1-1C8.8 6 7.6 7.1 7.6 8.6c0 2.2 4.7 4.4 4.7 4.4S17 10.8 17 8.6Z',
+  persona:'M12 3.2a3.9 3.9 0 1 0 0 7.8 3.9 3.9 0 0 0 0-7.8ZM4.5 21v-1.6A5.4 5.4 0 0 1 9.9 14h4.2a5.4 5.4 0 0 1 5.4 5.4V21',
+  persone:'M9 3.5a3.4 3.4 0 1 0 0 6.8 3.4 3.4 0 0 0 0-6.8ZM2.5 20.5v-1.2A4.8 4.8 0 0 1 7.3 14.5h3.4a4.8 4.8 0 0 1 4.8 4.8v1.2M16.5 4.2a3.2 3.2 0 0 1 0 6.2M18 14.6h.8a4.2 4.2 0 0 1 4.2 4.2v1.7',
+  ospedale:'M3.5 21V8.5L12 3l8.5 5.5V21ZM9.5 21v-5.5h5V21M12 8.5v4M10 10.5h4',
+  cappello:'M12 4 1.8 8.6 12 13.2l10.2-4.6ZM5.4 10.6v5.1c0 1.9 3 3.4 6.6 3.4s6.6-1.5 6.6-3.4v-5.1M21 9.4v5.2',
+  certificato:'M6 2.8h9l4 4V15H6ZM15 2.8v4h4M9 18.5l-1.4 3.2 2.6-.9 1.6 1.4 1.6-1.4 2.6.9-1.4-3.2M12.4 13.6a2.8 2.8 0 1 0 0-5.6 2.8 2.8 0 0 0 0 5.6Z',
+  avviso:'M12 3.4 1.9 20.6h20.2ZM12 9.6v5M12 17.4v.3',
+  divieto:'M12 2.9a9.1 9.1 0 1 0 0 18.2 9.1 9.1 0 0 0 0-18.2ZM5.6 5.6l12.8 12.8',
+  spunta:'M12 2.9a9.1 9.1 0 1 0 0 18.2 9.1 9.1 0 0 0 0-18.2ZM7.6 12.2l3.1 3.2 5.7-6.4',
+  giudice:'M12 21h8M14 4.6 9.4 9.2M4.5 9.4 9.1 4.8m0 0 5.4 5.4-4.8 4.8-5.4-5.4zM12.6 12.2 18 17.6M15.8 9 21 14.2',
+  euro:'M18 6.6a7.4 7.4 0 1 0 0 10.8M4.5 10.4h8M4.5 13.8h8',
+  chat:'M3.5 5.5h17v11h-10L6 20.5v-4H3.5Z M8 9.5h8M8 12.8h5',
+  foto:'M3 7.4h4l1.6-2.6h6.8L17 7.4h4v12H3ZM12 16.6a3.8 3.8 0 1 0 0-7.6 3.8 3.8 0 0 0 0 7.6Z',
+  cartella:'M2.8 6.2h6.4l1.8 2.4h10.2v11.2H2.8ZM2.8 6.2V4.2h5.6',
+  goccia:'M12 3.2S5.4 10 5.4 14.2a6.6 6.6 0 0 0 13.2 0C18.6 10 12 3.2 12 3.2Z',
+  ingranaggio:'M12 8.6a3.4 3.4 0 1 0 0 6.8 3.4 3.4 0 0 0 0-6.8ZM19.6 12a7.7 7.7 0 0 0-.1-1.2l2-1.5-1.9-3.3-2.4 1a7.6 7.6 0 0 0-2-1.2L14.9 3h-3.8l-.3 2.8c-.7.3-1.4.7-2 1.2l-2.4-1-1.9 3.3 2 1.5a7.7 7.7 0 0 0 0 2.4l-2 1.5 1.9 3.3 2.4-1c.6.5 1.3.9 2 1.2l.3 2.8h3.8l.3-2.8c.7-.3 1.4-.7 2-1.2l2.4 1 1.9-3.3-2-1.5c.1-.4.1-.8.1-1.2Z',
+};
+// Fregi: forme vettoriali che danno peso grafico alle slide di sola parola.
+// Non sono decorazione a caso — ognuno dice qualcosa del tipo di slide:
+// il sigillo per una norma, l'anello per un numero, le virgolette per una
+// citazione, la barra per un titolo.
+export const FREGI = {
+  sigillo: `<svg class="freg fsigillo" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+     <circle cx="100" cy="100" r="86" stroke="currentColor" stroke-width="3"/>
+     <circle cx="100" cy="100" r="68" stroke="currentColor" stroke-width="1.5"
+       stroke-dasharray="4 9" stroke-linecap="round"/>
+     <path d="M64 100l24 24 48-52" stroke="currentColor" stroke-width="6"
+       stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  anello: `<svg class="freg fanello" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+     <circle cx="200" cy="200" r="178" stroke="currentColor" stroke-width="3"/>
+     <path d="M200 22a178 178 0 0 1 178 178" stroke="currentColor" stroke-width="14"
+       stroke-linecap="round"/></svg>`,
+  virgolette: `<svg class="freg fvirg" viewBox="0 0 200 150" fill="currentColor" aria-hidden="true">
+     <path d="M0 150V78C0 34 28 4 74 0v26C46 31 33 48 33 72h37v78zm112 0V78c0-44 28-74 74-78v26
+              c-28 5-41 22-41 46h37v78z"/></svg>`,
+  barra: `<svg class="freg fbarra" viewBox="0 0 220 18" aria-hidden="true">
+     <rect x="0" y="5" width="92" height="8" rx="4" fill="currentColor"/>
+     <rect x="104" y="5" width="40" height="8" rx="4" fill="currentColor" opacity=".45"/>
+     <rect x="156" y="5" width="16" height="8" rx="4" fill="currentColor" opacity=".25"/></svg>`,
+};
+
+export const icona = (n, cls='') =>
+  `<svg class="ico ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+     stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"
+     aria-hidden="true"><path d="${I[n] ?? I.documento}"/></svg>`;
+
+// *testo* -> accento, **testo** -> accento semibold. Duplicato minimo: le due
+// funzioni devono restare identiche, e layout.mjs passa la sua quando chiama.
+let acc = s => String(s ?? '');
+export const collega = fn => { acc = fn; };
+
+const LARG = 1656;                       // 1920 meno i due margini da 132
+const num = n => String(Math.round(n * 100) / 100);
+// Dentro <text> di un SVG il markup non vale: <b> non e' un elemento SVG e
+// finisce renderizzato come un pezzo di testo a se', fuori posto. Nei testi
+// SVG gli asterischi si tolgono; dove serve il grassetto si usa foreignObject.
+const piano = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+// «1 anni» in un grafico si legge come un errore di chi l'ha fatto, non come
+// un dato. Il singolare non si lascia alla buona volonta' di chi scrive la scena.
+const SING = {anni:'anno', mesi:'mese', ore:'ora', giorni:'giorno', crediti:'credito',
+              articoli:'articolo', capi:'capo', punti:'punto', livelli:'livello'};
+const unita = (v, u, u1) => !u ? '' : ' ' + (v === 1 ? (u1 ?? SING[u] ?? u) : u);
+
+export const CSS_GRAFICA = `
+/* ---------- fregi ---------- */
+.freg{position:absolute;pointer-events:none}
+.fsigillo{width:300px;height:300px;right:104px;top:280px;color:var(--tit);opacity:.07}
+.fanello{width:520px;height:520px;right:-150px;top:-92px;color:var(--acc);opacity:.11}
+.fvirg{width:210px;height:158px;left:126px;top:236px;color:var(--acc);opacity:.13}
+.fbarra{position:static;width:220px;height:18px;color:var(--acc);margin-bottom:4px}
+
+/* ---------- fondamenta comuni alle figure ---------- */
+.gfx{width:100%}
+svg.fig{display:block;width:100%;height:auto;overflow:visible}
+.fig text{font-family:'Inter',sans-serif;fill:var(--fg)}
+.fig .et{font-size:30px;font-weight:500}
+.fig .val{font-size:38px;font-weight:700;font-variant-numeric:lining-nums tabular-nums}
+.fig .cap{font-size:25px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+          fill:var(--sop)}
+.fig .ass{stroke:var(--linea);stroke-width:3}
+.fig .grid{stroke:var(--linea);stroke-width:2;stroke-dasharray:2 12;stroke-linecap:round}
+.ico{width:1em;height:1em;flex:0 0 auto}
+
+/* ---------- tabella vera ---------- */
+.tab{width:100%;border-collapse:separate;border-spacing:0;border:3px solid var(--linea);
+     border-radius:22px;overflow:hidden;table-layout:fixed}
+.tab th{font-size:25px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+        color:var(--sop);text-align:left;padding:26px 30px;background:var(--linea);
+        border-bottom:3px solid var(--linea)}
+.tab td{font-size:34px;line-height:1.3;color:var(--fg);padding:26px 30px;vertical-align:top;
+        border-bottom:2px solid var(--linea)}
+.tab tr:last-child td{border-bottom:0}
+.tab tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--linea) 34%,transparent)}
+.tab td:first-child{font-weight:600;color:var(--tit)}
+/* La prima colonna e' gia' la colonna in evidenza: se dentro ci si mette
+   anche l'accento, la tabella diventa una colonna rossa e non evidenzia piu'
+   niente. Li' il grassetto resta del colore del titolo. */
+.tab td:first-child b.a,.tab td:first-child .a{color:var(--tit)}
+.tab td+td{border-left:2px solid var(--linea)}
+.tab tr.key td{background:color-mix(in srgb,var(--acc) 10%,transparent)}
+.tab tr.key td:first-child{color:var(--acc)}
+.tab.fitta td{font-size:29px;padding:19px 26px}
+.tab.fitta th{font-size:23px;padding:20px 26px}
+.tab .si{color:${DATI[0]};font-weight:700}
+.tab .no{color:${DATI[3]};font-weight:700}
+
+/* ---------- catena di passi ---------- */
+.catena{display:flex;align-items:stretch;gap:14px;min-height:300px}
+.catena .p{flex:1;background:color-mix(in srgb,var(--tit) 7%,transparent);
+           border:3px solid var(--linea);padding:44px 34px 44px 54px;
+           display:flex;flex-direction:column;justify-content:center;gap:14px;
+           clip-path:polygon(0 0,calc(100% - 30px) 0,100% 50%,calc(100% - 30px) 100%,0 100%,30px 50%)}
+.catena .p:first-child{clip-path:polygon(0 0,calc(100% - 30px) 0,100% 50%,calc(100% - 30px) 100%,0 100%);
+                       border-radius:18px 0 0 18px;padding-left:40px}
+.catena .p:last-child{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,30px 50%)}
+.catena .p.key{background:color-mix(in srgb,var(--acc) 13%,transparent);border-color:var(--acc)}
+.catena .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.14}
+.catena .p.key .t{color:var(--acc)}
+.catena .d{font-size:25px;line-height:1.36;opacity:.76}
+/* Cinque anelli: «Pianificazione» a 40px e' piu' larga dello spazio che resta
+   fra le due punte della freccia. La soglia sta qui, non nelle scene. */
+.catena.fitta .p{padding:34px 24px 34px 44px}
+.catena.fitta .t{font-size:31px}
+.catena.fitta .d{font-size:22px;line-height:1.3}
+
+/* ---------- scala di gradini ---------- */
+.scala{display:flex;align-items:flex-end;gap:18px;min-height:430px}
+.scala .g{flex:1;border:3px solid var(--linea);border-bottom:0;border-radius:18px 18px 0 0;
+          padding:32px 26px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;
+          background:color-mix(in srgb,var(--tit) 6%,transparent)}
+.scala .g .n{font-size:26px;font-weight:700;color:var(--acc);letter-spacing:.1em}
+.scala .g .t{font-size:36px;font-weight:600;color:var(--tit);line-height:1.14}
+.scala .g .d{font-size:24px;line-height:1.34;opacity:.74}
+.scala .g.key{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 11%,transparent)}
+.scalabase{height:5px;background:var(--linea);border-radius:3px;margin-top:-3px}
+
+/* ---------- griglia di caselle ---------- */
+.griglia{display:grid;gap:20px;min-height:420px;align-content:center}
+.griglia .c{border:3px solid var(--linea);border-radius:18px;padding:30px 28px;
+            display:flex;gap:20px;align-items:flex-start;
+            background:color-mix(in srgb,var(--tit) 5%,transparent)}
+.griglia .c .sg{color:${DATI[0]};font-size:34px;line-height:1;flex:0 0 auto;margin-top:2px}
+.griglia .c.no .sg{color:${DATI[3]}}
+.griglia .c .t{font-size:31px;line-height:1.3;color:var(--fg)}
+.griglia .c .t b{font-weight:600;color:var(--tit)}
+.griglia.fitta{gap:14px}
+.griglia.fitta .c{padding:19px 24px;gap:16px}
+.griglia.fitta .c .t{font-size:27px}
+.griglia.fitta .c .sg{font-size:28px}
+.griglia.fitta .c .n{font-size:40px}
+/* Otto celle su una colonna non ci stanno nemmeno alla misura fitta: servono
+   altri 16 px. La soglia e' nel corpo, come per le altre densita'. */
+.griglia.fittissima{gap:11px}
+.griglia.fittissima .c{padding:15px 22px;gap:14px}
+.griglia.fittissima .c .t{font-size:25px;line-height:1.26}
+.griglia.fittissima .c .sg{font-size:25px}
+.griglia.fittissima .c .n{font-size:34px}
+.griglia .c .n{font-size:52px;font-weight:700;color:var(--acc);line-height:1;
+               font-variant-numeric:lining-nums tabular-nums;flex:0 0 auto}
+
+/* ---------- icone in fila ---------- */
+/* Massimo CINQUE voci: e' un flex orizzontale, e a sei o sette le colonne
+   escono dalla cornice qualunque sia il corpo del testo (2.6: +377 px con
+   sette barriere). Sopra le cinque voci si usa «griglia». */
+.icone{display:flex;gap:30px;min-height:452px}
+.icone .v{flex:1;display:flex;flex-direction:column;gap:26px;border:3px solid var(--linea);
+          border-radius:22px;padding:54px 38px}
+.icone .v .ico{font-size:96px;color:var(--acc);stroke-width:1.4}
+.icone .v.key{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 9%,transparent)}
+.icone .t{font-size:42px;font-weight:600;color:var(--tit);line-height:1.16}
+.icone .d{font-size:28px;line-height:1.38;opacity:.76}
+.icone.fitte .v{padding:40px 26px;gap:20px}
+.icone.fitte .v .ico{font-size:68px}
+.icone.fitte .t{font-size:33px}
+.icone.fitte .d{font-size:24px}
+
+/* ---------- matrice 2x2 ---------- */
+.matrice{display:grid;grid-template-columns:112px 1fr 1fr;grid-template-rows:80px 1fr 1fr;overflow:hidden;
+         gap:0;min-height:560px}
+.matrice .ax{display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;
+             letter-spacing:.13em;text-transform:uppercase;color:var(--sop);text-align:center}
+.matrice .ay{writing-mode:vertical-rl;transform:rotate(180deg)}
+.matrice .q{border:3px solid var(--linea);margin:-1.5px;padding:36px 34px;display:flex;
+            flex-direction:column;gap:12px;justify-content:center}
+.matrice .q .t{font-size:34px;font-weight:600;color:var(--tit);line-height:1.16}
+.matrice .q .d{font-size:26px;line-height:1.36;opacity:.76}
+.matrice .q.key{background:color-mix(in srgb,var(--acc) 11%,transparent);border-color:var(--acc)}
+.matrice .q.key .t{color:var(--acc)}
+/* Quattro celle con frase + didascalia sforano l'altezza utile: il min-height
+   di 560px vale per le matrici a etichetta breve, non per queste. */
+.matrice.fitta{min-height:0;grid-template-rows:72px 1fr 1fr}
+.matrice.fitta .q{padding:26px 28px;gap:9px}
+.matrice.fitta .q .t{font-size:29px;line-height:1.18}
+.matrice.fitta .q .d{font-size:23px;line-height:1.3}
+
+/* ---------- albero di decisione ---------- */
+.albero{display:flex;flex-direction:column;align-items:center;width:100%}
+.albero .radice{border:3px solid var(--tit);border-radius:18px;padding:26px 44px;
+  background:color-mix(in srgb,var(--tit) 8%,transparent);font-size:36px;font-weight:600;
+  color:var(--tit);text-align:center;line-height:1.16}
+.albero .rami{display:flex;gap:24px;width:100%;margin-top:96px;position:relative;align-items:stretch}
+/* il gambo, la traversa e le discese: tre righe, nessuna immagine */
+.albero .rami:before{content:'';position:absolute;top:-96px;left:calc(50% - 2px);width:4px;height:48px;
+  background:var(--linea)}
+.albero .rami:after{content:'';position:absolute;top:-48px;left:var(--m);right:var(--m);height:4px;
+  background:var(--linea)}
+.albero .r{flex:1;display:flex;flex-direction:column;gap:14px;position:relative}
+.albero .r:before{content:'';position:absolute;top:-48px;left:calc(50% - 2px);width:4px;height:48px;
+  background:var(--linea)}
+.albero .cond{font-size:24px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sop);text-align:center}
+.albero .box{flex:1;border:3px solid var(--tit);border-radius:18px;padding:28px 26px;
+  font-size:31px;line-height:1.26;font-weight:600;color:var(--tit)}
+.albero .box.key{border-color:var(--acc);color:var(--acc);
+  background:color-mix(in srgb,var(--acc) 10%,transparent)}
+
+/* ---------- venn ---------- */
+.tsub{font-family:Inter,sans-serif;font-size:25px;line-height:1.22;text-align:center;
+  color:var(--fg);opacity:.74}
+.vt{font-family:Inter,sans-serif;font-size:28px;line-height:1.3;text-align:center;color:var(--fg)}
+.vcomune{margin-top:18px;border:3px dashed var(--tit);border-radius:18px;padding:26px 40px;
+  font-size:32px;line-height:1.3;font-weight:600;color:var(--tit);text-align:center}
+.vcomune .et{display:block;font-size:23px;font-weight:700;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--sop);margin-bottom:10px}
+
+/* ---------- piramide: dentro l'SVG ---------- */
+.fig .lbl{font-size:34px;font-weight:600;fill:var(--tit)}
+.fig .sub{font-size:25px;fill:var(--fg);opacity:.74}
+.fig .big{font-size:64px;font-weight:700;fill:var(--acc);
+          font-variant-numeric:lining-nums tabular-nums}
+
+/* Spente: la figura resta intera, ma la parte di cui la voce non sta parlando
+   e' in secondo piano. Stessa opacita' degli elenchi, cosi' il modulo ha
+   un solo modo di dire «questo viene dopo». */
+.catena .p.off,.scala .g.off,.griglia .c.off,.icone .v.off{opacity:.26}
+
+/* ---------- animazione: le figure entrano a pezzi ---------- */
+.corpo>.gfx,.corpo>table.tab{animation:none}
+.gx{animation:entra .5s cubic-bezier(.22,.7,.3,1) both}
+.gx.off{animation-name:entraOff}
+svg .gx{transform-box:fill-box;transform-origin:center}
+.gx:nth-child(1){animation-delay:.18s}
+.gx:nth-child(2){animation-delay:.30s}
+.gx:nth-child(3){animation-delay:.42s}
+.gx:nth-child(4){animation-delay:.54s}
+.gx:nth-child(5){animation-delay:.66s}
+.gx:nth-child(6){animation-delay:.78s}
+.gx:nth-child(7){animation-delay:.90s}
+.gx:nth-child(8){animation-delay:1.02s}
+.tab tbody tr{animation:entra .5s cubic-bezier(.22,.7,.3,1) both}
+.tab thead tr{animation:entra .5s cubic-bezier(.22,.7,.3,1) both;animation-delay:.14s}
+.tab tbody tr:nth-child(1){animation-delay:.26s}
+.tab tbody tr:nth-child(2){animation-delay:.36s}
+.tab tbody tr:nth-child(3){animation-delay:.46s}
+.tab tbody tr:nth-child(4){animation-delay:.56s}
+.tab tbody tr:nth-child(5){animation-delay:.66s}
+.tab tbody tr:nth-child(6){animation-delay:.76s}
+.tab tbody tr:nth-child(7){animation-delay:.86s}
+`;
+
+// ======================= i corpi =======================
+export const CORPI_GRAFICA = {
+
+  // Tabella vera: intestazioni + righe. «si» e «no» nelle celle diventano
+  // segno piu' parola, mai solo colore (vedi la nota sulla protanopia).
+  tabella: d => {
+    const cel = c => String(c)
+      .replace(/^si:/, '<span class="si">✓</span> ')
+      .replace(/^no:/, '<span class="no">×</span> ');
+    const larg = d.colonne ? `<colgroup>${d.colonne.map(w=>`<col style="width:${w}">`).join('')}</colgroup>` : '';
+    return `<table class="tab ${d.righe.length >= 5 ? 'fitta' : ''}">${larg}
+      <thead><tr>${d.intestazioni.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+      <tbody>${d.righe.map((r, i) =>
+        `<tr class="${(d.chiave ?? []).includes(i) ? 'key' : ''}">${
+          r.map(c => `<td>${acc(cel(c))}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+  },
+
+  // Barre orizzontali. Etichetta a sinistra, valore in fondo alla barra:
+  // l'identita' non e' mai affidata al colore.
+  barre: d => {
+    const H = 96, GAP = 26, LB = d.etichetta ?? 430, PAD = 150;
+    const max = d.max ?? Math.max(...d.barre.map(b => b.v)) * 1.08;
+    const y0 = 34, alt = d.barre.length * H + (d.barre.length - 1) * GAP;
+    const scala = v => (LARG - LB - PAD) * (v / max);
+    const rif = d.riferimento;
+    return `<svg class="fig gfx" viewBox="0 0 ${LARG} ${y0 + alt + 58}">
+      <line class="ass" x1="${LB}" y1="${y0 - 14}" x2="${LB}" y2="${y0 + alt + 14}"/>
+      ${rif ? `<line class="grid" x1="${LB + scala(rif.v)}" y1="${y0 - 14}"
+                 x2="${LB + scala(rif.v)}" y2="${y0 + alt + 30}"/>
+               <text class="cap" x="${LB + scala(rif.v)}" y="${y0 + alt + 52}"
+                 text-anchor="middle">${rif.et}</text>` : ''}
+      ${d.barre.map((b, i) => {
+        const y = y0 + i * (H + GAP), w = Math.max(scala(b.v), 6);
+        const col = b.colore ?? DATI[0];
+        return `<g class="gx">
+          <text class="et" x="${LB - 34}" y="${y + H / 2 + 2}" text-anchor="end"
+            dominant-baseline="middle">${piano(b.et)}</text>
+          <rect x="${LB + 3}" y="${y}" width="${num(w)}" height="${H}" rx="10" fill="${col}"/>
+          <text class="val" x="${LB + w + 28}" y="${y + H / 2 + 2}" dominant-baseline="middle"
+            fill="${col}">${b.v}${unita(b.v, d.unita, d.unita1)}</text>
+          ${b.nota ? `<text class="sub" x="${LB + w + 28}" y="${y + H / 2 + 42}"
+             dominant-baseline="middle">${piano(b.nota)}</text>` : ''}
+        </g>`;
+      }).join('')}
+    </svg>`;
+  },
+
+  // Linea del tempo in scala: le tappe stanno dove cadono davvero.
+  // Una timeline a passo fisso mente sulle distanze, e in questo modulo
+  // fra il 1974 e il 1992 ci sono diciotto anni, fra il 1999 e il 2000 uno.
+  assetempo: d => {
+    // Fasce fisse per anno e didascalia, e la didascalia va a capo: in un
+    // <text> SVG non andrebbe a capo e due tappe vicine si sovrappongono.
+    // L'alternanza sopra/sotto non basta da sola — con dieci tappe su
+    // cinquant'anni si scontrano quelle DUE posizioni piu' in la', che
+    // stanno sulla stessa riga. Percio' la larghezza dell'etichetta non e'
+    // fissa: e' quella che ci sta fino alla tappa vicina della stessa riga.
+    const X0 = 40, X1 = LARG - 40, Y = 236, H = 512;
+    const p = a => X0 + (X1 - X0) * ((a - d.da) / (d.a - d.da));
+    const xs = d.tappe.map(t => p(t.anno));
+    const largh = i => {
+      let dist = Infinity;
+      for (let k = 0; k < xs.length; k++)
+        if (k !== i && (k % 2) === (i % 2)) dist = Math.min(dist, Math.abs(xs[k] - xs[i]));
+      return Math.max(122, Math.min(236, dist - 14));
+    };
+    return `<svg class="fig gfx" viewBox="0 0 ${LARG} ${H}">
+      ${(d.decenni ?? []).map(a => `<line class="grid" x1="${num(p(a))}" y1="30"
+          x2="${num(p(a))}" y2="${Y + 214}"/>`).join('')}
+      ${(d.decenni ?? []).map(a => `<text class="cap" x="${num(p(a))}" y="${Y + 250}"
+          text-anchor="middle" opacity=".7">${a}</text>`).join('')}
+      <line class="ass" x1="${X0}" y1="${Y}" x2="${X1}" y2="${Y}"/>
+      ${d.tappe.map((t, i) => {
+        const x = xs[i], su = i % 2 === 0, w = largh(i);
+        const col = t.key ? 'var(--acc)' : 'var(--tit)';
+        return `<g class="gx">
+          <line x1="${num(x)}" y1="${su ? Y - 38 : Y + 38}" x2="${num(x)}" y2="${Y}"
+            stroke="${col}" stroke-width="3"/>
+          <circle cx="${num(x)}" cy="${Y}" r="${t.key ? 15 : 11}" fill="${col}"
+            stroke="var(--bg)" stroke-width="5"/>
+          <text class="lbl" x="${num(x)}" y="${su ? Y - 152 : Y + 88}" text-anchor="middle"
+            fill="${col}">${t.anno}</text>
+          <foreignObject x="${num(x - w / 2)}" y="${su ? Y - 136 : Y + 104}"
+            width="${num(w)}" height="98">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="tsub">${piano(t.et)}</div>
+          </foreignObject>
+        </g>`;
+      }).join('')}
+    </svg>`;
+  },
+
+  // Composizione: una barra sola divisa in segmenti etichettati.
+  // Sostituisce la ciambella, che su un 150 su 150 disegnava un anello pieno
+  // e non diceva niente: una figura che esce sempre uguale non e' un grafico.
+  impila: d => {
+    const H = 132, Y = 52, tot = d.segmenti.reduce((s, x) => s + x.v, 0);
+    let x = 0;
+    return `<svg class="fig gfx" viewBox="0 0 ${LARG} ${Y + H + 168}">
+      ${d.segmenti.map((s, i) => {
+        const w = (LARG - (d.segmenti.length - 1) * 4) * (s.v / tot);
+        const xi = x; x += w + 4;
+        const col = s.colore ?? RAMPA[RAMPA.length - 1 - (i % 3)];
+        const r = i === 0 ? '12 0 0 12' : i === d.segmenti.length - 1 ? '0 12 12 0' : '0';
+        return `<g class="gx">
+          <path d="M${num(xi + (i === 0 ? 12 : 0))} ${Y}
+                   H${num(xi + w - (i === d.segmenti.length - 1 ? 12 : 0))}
+                   ${i === d.segmenti.length - 1 ? `a12 12 0 0 1 12 12` : ''}
+                   V${Y + H - (i === d.segmenti.length - 1 ? 12 : 0)}
+                   ${i === d.segmenti.length - 1 ? `a12 12 0 0 1 -12 12` : ''}
+                   H${num(xi + (i === 0 ? 12 : 0))}
+                   ${i === 0 ? `a12 12 0 0 1 -12 -12` : ''}
+                   V${Y + (i === 0 ? 12 : 0)}
+                   ${i === 0 ? `a12 12 0 0 1 12 -12` : ''} Z" fill="${col}"/>
+          <text x="${num(xi + w / 2)}" y="${Y + H / 2 + 4}" text-anchor="middle"
+            dominant-baseline="middle" class="val"
+            fill="${s.chiaro ? 'var(--tit)' : '#FFFFFF'}">${s.v}${unita(s.v, d.unita, d.unita1)}</text>
+          <text x="${num(xi + w / 2)}" y="${Y + H + 50}" text-anchor="middle"
+            class="et">${piano(s.t)}</text>
+          ${s.d ? `<text x="${num(xi + w / 2)}" y="${Y + H + 86}" text-anchor="middle"
+             class="sub">${piano(s.d)}</text>` : ''}
+        </g>`;
+      }).join('')}
+      <text x="0" y="32" class="cap">${piano(d.testa ?? '')}</text>
+      <text x="${LARG}" y="32" class="cap" text-anchor="end"
+        >${tot}${unita(tot, d.unita, d.unita1)} in tutto</text>
+    </svg>`;
+  },
+
+  // Finestra di tempo: da quando scatta l'obbligo a quando scade, sulla stessa
+  // riga, con le soglie che contano. Anche questa sostituisce un quadrante che
+  // su 48 ore su 48 disegnava sempre l'arco intero.
+  scadenza: d => {
+    const X0 = 60, X1 = LARG - 60, Y = 150, H = 54;
+    const p = v => X0 + (X1 - X0) * (v / d.max);
+    const b = d.banda ?? [0, d.max];
+    return `<svg class="fig gfx" viewBox="0 0 ${LARG} 360">
+      <g class="gx">
+        <rect x="${X0}" y="${Y}" width="${X1 - X0}" height="${H}" rx="12" fill="var(--linea)"/>
+        <rect x="${num(p(b[0]))}" y="${Y}" width="${num(p(b[1]) - p(b[0]))}" height="${H}" rx="12"
+          fill="${d.colore ?? DATI[0]}"/>
+        <text x="${X0}" y="${Y - 26}" class="cap">${piano(d.inizio ?? '')}</text>
+        <text x="${X1}" y="${Y - 26}" class="cap" text-anchor="end">${piano(d.fine ?? '')}</text>
+      </g>
+      ${(() => {
+        // Stessa trappola della linea del tempo: le didascalie sono riquadri
+        // centrati sulla tacca, e due soglie vicine si sovrappongono. La
+        // larghezza e' quella che ci sta fino alla tacca piu' vicina.
+        const xs = (d.tappe ?? []).map(t => p(t.a));
+        const largh = i => {
+          let dist = Infinity;
+          for (let k = 0; k < xs.length; k++)
+            if (k !== i) dist = Math.min(dist, Math.abs(xs[k] - xs[i]));
+          return Math.max(150, Math.min(400, dist - 16));
+        };
+        return (d.tappe ?? []).map((t, i) => {
+        const x = xs[i], W = largh(i), col = t.key ? 'var(--acc)' : 'var(--tit)';
+        return `<g class="gx">
+          <line x1="${num(x)}" y1="${Y - 12}" x2="${num(x)}" y2="${Y + H + 34}"
+            stroke="${col}" stroke-width="4"/>
+          <circle cx="${num(x)}" cy="${Y + H + 34}" r="10" fill="${col}"/>
+          <text x="${num(x)}" y="${Y + H + 96}" text-anchor="middle" class="big"
+            style="font-size:52px" fill="${col}">${t.v ?? ''}</text>
+          <foreignObject x="${num(Math.max(0, Math.min(x - W / 2, LARG - W)))}" y="${Y + H + 116}"
+            width="${num(W)}" height="130">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,sans-serif;
+              font-size:${W < 260 ? 25 : 29}px;line-height:1.3;text-align:center;color:var(--fg)">${acc(t.t)}</div>
+          </foreignObject>
+        </g>`;
+      }).join('');
+      })()}
+    </svg>`;
+  },
+
+  // Piramide: gli strati stanno uno sull'altro e il piu' largo e' la base.
+  piramide: d => {
+    const n = d.strati.length, H = 108, G = 12, W = LARG * 0.52, X = 40;
+    const alt = n * H + (n - 1) * G;
+    return `<svg class="fig gfx" viewBox="0 0 ${LARG} ${alt + 20}">
+      ${d.strati.map((s, i) => {
+        const y = i * (H + G), wTop = W * (0.30 + 0.70 * i / n), wBot = W * (0.30 + 0.70 * (i + 1) / n);
+        const col = RAMPA[Math.min(RAMPA.length - 1, RAMPA.length - n + i)];
+        const cx = X + W / 2;
+        return `<g class="gx">
+          <path d="M${num(cx - wTop / 2)} ${y} H${num(cx + wTop / 2)}
+                   L${num(cx + wBot / 2)} ${y + H} H${num(cx - wBot / 2)} Z" fill="${col}"/>
+          <text class="lbl" x="${X + W + 60}" y="${y + H / 2 - 6}"
+            dominant-baseline="middle">${acc(s.t)}</text>
+          ${s.d ? `<text class="sub" x="${X + W + 60}" y="${y + H / 2 + 30}"
+             dominant-baseline="middle">${acc(s.d)}</text>` : ''}
+        </g>`;
+      }).join('')}
+    </svg>`;
+  },
+
+  // Albero di decisione. In HTML e non in SVG: dentro un SVG i riquadri hanno
+  // altezza fissa e il testo piu' lungo viene tagliato — succedeva davvero,
+  // «la volonta' del minore e' ascoltata» finiva sotto il bordo.
+  albero: d => {
+    const n = d.rami.length, m = 50 / n;
+    return `<div class="albero gfx">
+      <div class="radice gx">${acc(d.radice)}</div>
+      <div class="rami" style="--m:${num(m)}%">${d.rami.map(r =>
+        `<div class="r gx"><div class="cond">${r.cond}</div>
+          <div class="box ${r.key ? 'key' : ''}">${acc(r.esito)}</div></div>`).join('')}
+      </div></div>`;
+  },
+
+  // Due cerchi che si sovrappongono. I testi stanno nelle mezzelune, mai nella
+  // lente: la lente e' larga un centinaio di pixel e qualunque frase ci finisca
+  // dentro si sovrappone a quelle dei due cerchi.
+  venn: d => {
+    const R = 230, DX = 175, cy = 262, cx = LARG / 2, TW = 300;
+    return `<div class="gfx">
+      <svg class="fig" viewBox="0 0 ${LARG} 540">
+        <g class="gx">
+          <circle cx="${cx - DX}" cy="${cy}" r="${R}" fill="${DATI[0]}" fill-opacity=".14"
+            stroke="${DATI[0]}" stroke-width="4"/>
+          <text class="lbl" x="${cx - DX - 120}" y="${cy - R - 30}" text-anchor="middle"
+            fill="${DATI[0]}">${piano(d.sx.t)}</text>
+          <foreignObject x="${cx - DX - 97 - TW / 2}" y="${cy - 66}" width="${TW}" height="150">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="vt">${acc(d.sx.d)}</div>
+          </foreignObject>
+        </g>
+        <g class="gx">
+          <circle cx="${cx + DX}" cy="${cy}" r="${R}" fill="${DATI[2]}" fill-opacity=".14"
+            stroke="${DATI[2]}" stroke-width="4"/>
+          <text class="lbl" x="${cx + DX + 120}" y="${cy - R - 30}" text-anchor="middle"
+            fill="${DATI[2]}">${piano(d.dx.t)}</text>
+          <foreignObject x="${cx + DX + 97 - TW / 2}" y="${cy - 66}" width="${TW}" height="150">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="vt">${acc(d.dx.d)}</div>
+          </foreignObject>
+        </g>
+        <g class="gx">
+          <circle cx="${cx}" cy="${cy}" r="13" fill="var(--tit)"/>
+          <line x1="${cx}" y1="${cy + 13}" x2="${cx}" y2="${cy + R + 46}"
+            stroke="var(--linea)" stroke-width="3"/>
+        </g>
+      </svg>
+      <div class="vcomune gx"><span class="et">in comune</span>${acc(d.centro)}</div>
+    </div>`;
+  },
+
+  catena: d => `<div class="catena gfx ${d.passi.length >= 5 ? 'fitta' : ''}">${d.passi.map((p, i) =>
+    `<div class="p gx ${p.key ? 'key' : ''} ${(d.attive ?? d.passi.map((_, k) => k)).includes(i) ? 'on' : 'off'}"><div class="t">${acc(p.t)}</div>
+      ${p.d ? `<div class="d">${acc(p.d)}</div>` : ''}</div>`).join('')}</div>`,
+
+  scala: d => `<div class="gfx"><div class="scala">${d.gradini.map((g, i) =>
+    `<div class="g gx ${g.key ? 'key' : ''} ${(d.attive ?? d.gradini.map((_, k) => k)).includes(i) ? 'on' : 'off'}" style="height:${num(46 + (i + 1) * (340 / d.gradini.length))}px">
+      ${g.n ? `<div class="n">${g.n}</div>` : ''}<div class="t">${acc(g.t)}</div>
+      ${g.d ? `<div class="d">${acc(g.d)}</div>` : ''}</div>`).join('')}</div>
+    <div class="scalabase"></div></div>`,
+
+  // La soglia sta qui e non nelle scene: sette caselle su una colonna non ci
+  // stanno alla misura piena, e ogni lezione se ne dimenticherebbe per conto suo.
+  griglia: d => `<div class="griglia gfx ${
+      d.celle.length >= (d.colonne === 1 ? 8 : 12) ? 'fittissima'
+      : d.celle.length >= (d.colonne === 1 ? 6 : 9) ? 'fitta' : ''}"
+      style="grid-template-columns:repeat(${d.colonne ?? 2},1fr)">${d.celle.map((c, i) =>
+    `<div class="c gx ${c.no ? 'no' : ''} ${(d.attive ?? d.celle.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${
+      c.n != null ? `<span class="n">${c.n}</span>`
+      : d.spunta === false ? '' : `<span class="sg">${c.no ? '×' : '✓'}</span>`}
+      <span class="t">${acc(c.t)}</span></div>`).join('')}</div>`,
+
+  icone: d => `<div class="icone gfx ${d.voci.length > 4 ? 'fitte' : ''}">${d.voci.map((v, i) =>
+    `<div class="v gx ${v.key ? 'key' : ''} ${(d.attive ?? d.voci.map((_, k) => k)).includes(i) ? 'on' : 'off'}">${icona(v.icona)}
+      <div class="t">${acc(v.t)}</div>
+      ${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`).join('')}</div>`,
+
+  matrice: d => `<div class="matrice gfx ${
+    d.celle.some(c => c.d) && d.celle.reduce((s, c) => s + c.t.length, 0) > 90 ? 'fitta' : ''}">
+    <div></div><div class="ax gx">${d.assex[0]}</div><div class="ax gx">${d.assex[1]}</div>
+    <div class="ax ay gx">${d.assey[0]}</div>
+    ${d.celle.slice(0, 2).map(c => `<div class="q gx ${c.key ? 'key' : ''}">
+      <div class="t">${acc(c.t)}</div>${c.d ? `<div class="d">${acc(c.d)}</div>` : ''}</div>`).join('')}
+    <div class="ax ay gx">${d.assey[1]}</div>
+    ${d.celle.slice(2).map(c => `<div class="q gx ${c.key ? 'key' : ''}">
+      <div class="t">${acc(c.t)}</div>${c.d ? `<div class="d">${acc(c.d)}</div>` : ''}</div>`).join('')}
+  </div>`,
+};
+```
+
+## `slide/figure.mjs`
+
+La seconda generazione: 24 illustrazioni a tratto (viewBox 240, tratti con
+`pathLength="1"` che si disegnano, riempimenti che arrivano dopo) e 6 tipi:
+`figura`, `cifre`, `raggiera`, `ciclo`, `formaggio`, `misura`. Le soglie di
+misura stanno qui, come per la prima generazione.
+
+```javascript
+// Seconda generazione grafica: illustrazioni vettoriali che si disegnano da
+// sole, figure che crescono, numeri che contano, un formaggio svizzero vero.
+//
+// Stesso sistema delle icone di grafica.mjs (tratto tondo, un solo colore,
+// niente ombre), ma su una griglia da 240 e con qualche campitura leggera in
+// accento. Ogni tratto ha pathLength="1": cosi' il disegno progressivo e' lo
+// stesso per tutti, senza misurare niente.
+//
+// L'orologio delle animazioni lo muove il generatore (clips.mjs): niente qui
+// dipende dal tempo reale, e tutto deve essere finito entro 2,8 s.
+import { DATI, RAMPA } from './grafica.mjs';
+
+let acc = s => String(s ?? '');
+export const collega = fn => { acc = fn; };
+const piano = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+const num = n => String(Math.round(n * 100) / 100);
+
+// ---------- illustrazioni: griglia 240x240, tratto 6 ----------
+// Ogni voce e' un elenco di tratti; «pieno:» marca una campitura in accento.
+const C = (cx, cy, r) => `M${cx} ${cy - r}a${r} ${r} 0 1 1 0 ${2 * r}a${r} ${r} 0 1 1 0 ${-2 * r}`;
+const ILLU = {
+  letto: [
+    'M22 150h196', 'M30 150v46M210 150v46', 'M30 96v54M210 118v32',        // pavimento, gambe, testiera/pediera
+    'M30 96h28v34H30z',                                                    // testiera
+    'M42 130h170a6 6 0 0 1 6 6v14H36v-14a6 6 0 0 1 6-6z',                  // materasso
+    'M46 118h36a8 8 0 0 1 8 8v4H46z',                                       // cuscino
+    `${C(78, 112, 12)}`,                                             // testa
+    'pieno:M96 118h110a10 10 0 0 1 10 10v2H96z',                             // coperta
+    'M96 118h110a10 10 0 0 1 10 10v2H96z',
+    `${C(40, 204, 8)}${C(200, 204, 8)}`,                        // ruote
+  ],
+  braccialetto: [
+    'M14 108c30-10 60-12 90-8', 'M14 164c30 10 60 12 90 8',                  // avambraccio
+    'M104 100c22-4 40-2 56 8 12 8 22 22 30 36-16 12-36 16-58 12-12-2-22-8-28-16', // mano
+    'M160 108l26-8M170 122l28-4', 'M132 156c8 4 18 6 26 4',                   // dita
+    'pieno:M56 96l10 78h18l-10-78z',                                          // fascia
+    'M56 96l10 78h18l-10-78z',
+    'M66 112h12M68 126h10M70 140h12M72 154h10',                               // codice a barre
+  ],
+
+  fiale: [
+    'M52 60h44v10H52zM58 70v20l-10 10v96a8 8 0 0 0 8 8h36a8 8 0 0 0 8-8V100l-10-10V70',
+    'pieno:M50 140h48v56a6 6 0 0 1-6 6H56a6 6 0 0 1-6-6z',
+    'M60 118h28M60 130h18',
+    'M144 60h44v10h-44zM150 70v20l-10 10v96a8 8 0 0 0 8 8h36a8 8 0 0 0 8-8V100l-10-10V70',
+    'pieno:M142 140h48v56a6 6 0 0 1-6 6h-36a6 6 0 0 1-6-6z',
+    'M152 118h28M152 130h18',
+    'M112 176l8 14h-16z',                                                   // segno di attenzione fra le due
+  ],
+  cartella: [
+    'M52 44h136a8 8 0 0 1 8 8v148a8 8 0 0 1-8 8H52a8 8 0 0 1-8-8V52a8 8 0 0 1 8-8z',
+    'M96 32h48a6 6 0 0 1 6 6v18H90V38a6 6 0 0 1 6-6z',
+    'M70 92h100M70 116h100M70 140h72',
+    'pieno:M148 150l30-30 14 14-30 30-20 6z',                               // penna
+    'M148 150l30-30 14 14-30 30-20 6zM174 124l14 14',
+  ],
+  telefono: [
+    'M62 46c-14 2-26 12-28 26 4 46 38 96 92 122 14 4 28-4 34-16l-14-30-26 8c-20-10-40-32-50-52l14-22z',
+    'M132 62c20 4 34 18 40 38', 'M138 34c34 8 56 30 64 66',                  // onde
+    'M126 92c8 2 14 8 16 16',
+  ],
+  stetoscopio: [
+    'M64 34v70a44 44 0 0 0 88 0V34',                                        // arco auricolari
+    'M58 24h12M146 24h12',                                                   // olive
+    'M108 148v14a34 34 0 0 0 68 0v-22',                                     // tubo
+    `${C(176, 128, 20)}`,                                            // testina
+    `pieno:${C(176, 128, 10)}`,
+  ],
+  mani: [
+    'M18 124c16-4 34-4 48 2l30 12v20l-32-6',                                 // mano sinistra
+    'M22 146c14 2 26 8 36 18M26 168c10 2 20 6 28 12',
+    'M222 124c-16-4-34-4-48 2l-30 12v20l32-6',                              // mano destra
+    'M218 146c-14 2-26 8-36 18M214 168c-10 2-20 6-28 12',
+    'pieno:M88 72h64a6 6 0 0 1 6 6v54H82V78a6 6 0 0 1 6-6z',                // cartellina che passa
+    'M88 72h64a6 6 0 0 1 6 6v54H82V78a6 6 0 0 1 6-6zM100 96h40M100 112h28',
+  ],
+  orologio: [
+    `${C(120, 120, 92)}`,
+    'M120 48v10M192 120h-10M120 192v-10M48 120h10',
+    'M120 120V70', 'M120 120l38 22',
+    `pieno:${C(120, 120, 8)}`,
+  ],
+  termometro: [
+    'M104 30h32v122a30 30 0 1 1-32 0z',                                     // tubo
+    'M136 62h14M136 86h14M136 110h14M136 134h14',                           // tacche
+    'pieno:M112 112h16v42a20 20 0 1 1-16 0z',                               // livello
+    `${C(120, 177, 9)}`,
+  ],
+  scudo: [
+    'M120 24 40 54v58c0 46 34 84 80 98 46-14 80-52 80-98V54z',
+    'M120 60 68 80v34c0 30 22 56 52 68 30-12 52-38 52-68V80z',
+    'pieno:M120 96 94 106v18c0 14 10 26 26 34 16-8 26-20 26-34v-18z',
+    'M120 96 94 106v18c0 14 10 26 26 34 16-8 26-20 26-34v-18z',
+  ],
+  lente: [
+    'M40 52h96a6 6 0 0 1 6 6v20M40 52v140a6 6 0 0 0 6 6h60',                // foglio
+    'M60 84h50M60 108h36M60 132h30',
+    `${C(150, 96, 42)}`,                                             // lente
+    'M180 126l40 40',
+    `pieno:${C(150, 96, 42)}`,
+  ],
+  piramide: [
+    'M120 26 22 200h196z',
+    'M64 128h112M86 90h68',
+    'pieno:M120 26 86 90h68z',
+  ],
+  libro: [
+    'M120 62c-22-14-52-18-88-14v138c36-4 66 0 88 14',
+    'M120 62c22-14 52-18 88-14v138c-36-4-66 0-88 14',
+    'M120 62v138',
+    'M52 84c20-2 38 0 54 6M52 110c20-2 38 0 54 6M52 136c20-2 38 0 54 6',
+    'M188 84c-20-2-38 0-54 6M188 110c-20-2-38 0-54 6',
+  ],
+  semaforo: [
+    'M86 22h68a10 10 0 0 1 10 10v150a10 10 0 0 1-10 10H86a10 10 0 0 1-10-10V32a10 10 0 0 1 10-10z',
+    'M120 192v26M100 218h40',
+    `pieno:${C(120, 48, 22)}`,
+    `${C(120, 48, 22)}${C(120, 106, 22)}${C(120, 164, 22)}`,
+  ],
+  bussola: [
+    `${C(120, 120, 94)}`,
+    'M120 40v12M200 120h-12M120 200v-12M40 120h12',
+    'pieno:M120 52l24 60-24 68-24-68z',
+    'M120 52l24 60-24 68-24-68zM96 112h48',
+  ],
+  campana: [
+    'M120 30v14', 'M74 152V102a46 46 0 0 1 92 0v50l16 22H58z',
+    'M102 182a18 18 0 0 0 36 0',
+    'M40 96c-2-22 8-42 24-56M200 96c2-22-8-42-24-56',                        // onde
+  ],
+  catena: [
+    'M60 100a20 20 0 0 1 0 40h-8a20 20 0 0 1 0-40z',
+    'M92 100a20 20 0 0 1 0 40h-8a20 20 0 0 1 0-40z',
+    'M156 100a20 20 0 0 1 0 40h-8a20 20 0 0 1 0-40z',
+    'M188 100a20 20 0 0 1 0 40h-8a20 20 0 0 1 0-40z',
+    'M112 112l8-14M120 142l-8 14M132 108l-6 22',                              // l'anello rotto
+  ],
+  flebo: [
+    'M60 26v190M40 216h40',                                                  // asta
+    'M42 40h40v54a20 20 0 0 1-40 0z',                                        // sacca
+    'pieno:M46 62h32v32a16 16 0 0 1-32 0z',
+    'M62 114v40c0 12 8 20 20 20h50c12 0 20 8 20 20v6',                     // deflussore
+    `${C(152, 186, 12)}`,                                            // camera di gocciolamento
+    'M166 204l30-10c10-4 22 0 26 10M150 226h60',                             // mano
+  ],
+  cuore: [
+    'M120 204c-10-10-84-56-84-108a44 44 0 0 1 84-16 44 44 0 0 1 84 16c0 52-74 98-84 108z',
+    'M36 128h40l14-30 20 60 16-46 10 16h68',                                  // ECG
+  ],
+  casa: [
+    'M28 120 120 42l92 78', 'M52 104v96h136v-96',
+    'M104 200v-50h32v50',
+    'M164 120v34h-24v-34zM152 120v34',                                       // finestra a croce
+    'pieno:M104 200v-50h32v50z',
+  ],
+  ascolto: [
+    'M92 60a46 46 0 0 1 92 0c0 30-26 38-30 60-3 18-14 30-34 30',
+    'M116 100a20 20 0 0 1 40 0c0 10-8 14-12 22',
+    'M40 120c-2-20 6-38 18-52M28 138c-6-30 2-60 22-84',                       // onde in arrivo
+  ],
+  dialogo: [
+    'M28 52h116a8 8 0 0 1 8 8v58a8 8 0 0 1-8 8H72l-28 26v-26H28a8 8 0 0 1-8-8V60a8 8 0 0 1 8-8z',
+    'M48 80h72M48 100h50',
+    'pieno:M104 112h108a8 8 0 0 1 8 8v54a8 8 0 0 1-8 8h-12v24l-26-24h-70a8 8 0 0 1-8-8v-54a8 8 0 0 1 8-8z',
+    'M104 112h108a8 8 0 0 1 8 8v54a8 8 0 0 1-8 8h-12v24l-26-24h-70a8 8 0 0 1-8-8v-54a8 8 0 0 1 8-8z',
+    'M124 140h68M124 160h44',
+  ],
+  bilancia: [
+    'M120 40v160M80 200h80', 'M120 64 48 92M120 64l72 28',
+    'M48 92l-26 60a26 26 0 0 0 52 0zM192 92l-26 60a26 26 0 0 0 52 0z',
+    'pieno:M22 152a26 26 0 0 0 52 0zM166 152a26 26 0 0 0 52 0z',
+  ],
+  persona: [
+    `${C(120, 70, 30)}`,
+    'M60 210v-40a48 48 0 0 1 48-48h24a48 48 0 0 1 48 48v40',
+    'pieno:M60 210v-40a48 48 0 0 1 48-48h24a48 48 0 0 1 48 48v40z',
+  ],
+};
+export const ILLUSTRAZIONI = Object.keys(ILLU);
+// Altre librerie (clinica.mjs) aggiungono qui le loro illustrazioni.
+export const registra = extra => Object.assign(ILLU, extra);
+
+export const illustrazione = (n, cls = '') => {
+  const tratti = ILLU[n] ?? ILLU.cartella;
+  let k = 0;
+  return `<svg class="illu ${cls}" viewBox="0 0 240 240" fill="none" stroke="currentColor"
+    stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${
+    tratti.map(t => t.startsWith('pieno:')
+      ? `<path class="pieno" d="${t.slice(6)}" stroke="none"/>`
+      : t.startsWith('freccia:') ? `<path class="freccia" pathLength="1" d="${t.slice(8)}"/>`
+      : `<path class="tr" style="--i:${k++}" pathLength="1" d="${t}"/>`).join('')}</svg>`;
+};
+
+// ---------- CSS ----------
+export const CSS_FIGURE = `
+@property --n { syntax:'<integer>'; initial-value:0; inherits:false; }
+
+@keyframes disegna{from{stroke-dashoffset:1.1}to{stroke-dashoffset:0}}
+@keyframes appari{from{opacity:0}to{opacity:1}}
+@keyframes cresciX{from{transform:scaleX(0)}to{transform:none}}
+@keyframes cresciY{from{transform:scaleY(0)}to{transform:none}}
+@keyframes scivola{from{opacity:0;transform:translateX(-46px)}to{opacity:1;transform:none}}
+@keyframes sali{from{opacity:0;transform:translateY(34px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.4)}70%{opacity:1;transform:scale(1.08)}100%{opacity:1;transform:none}}
+@keyframes respiro{0%,100%{transform:none}50%{transform:scale(1.025)}}
+@keyframes conta{to{--n:var(--fine)}}
+
+/* --- il disegno progressivo --- */
+.illu{display:block;width:100%;height:auto;overflow:visible;color:var(--tit)}
+.illu .tr{stroke-dasharray:1 2;stroke-dashoffset:1.1;
+          animation:disegna 1.05s cubic-bezier(.4,0,.2,1) both;
+          animation-delay:calc(.22s + var(--i) * .11s)}
+.illu .pieno{fill:var(--acc);animation:appariPieno .6s ease-out both 1.55s}
+@keyframes appariPieno{from{opacity:0}to{opacity:.16}}
+.scuro .illu{color:var(--tit)}
+.scuro .illu .pieno{fill:var(--acc)}
+
+/* --- figura: illustrazione grande accanto al titolo --- */
+.figura{display:flex;align-items:center;gap:64px;min-height:600px}
+.figura.dx{flex-direction:row-reverse}
+.figura .ill{flex:0 0 600px;width:600px}
+.figura .ill .illu{width:600px;height:600px}
+.figura .tx{flex:1;display:flex;flex-direction:column;gap:30px}
+.figura .tx h2{font-size:74px;line-height:1.12}
+.figura .tx .sotto{font-size:36px}
+.figura .tx{animation:sali .6s cubic-bezier(.22,.7,.3,1) both .5s}
+.corpo>.figura{animation:none}
+
+/* --- cifre: numeri grandi che contano --- */
+.cifre{display:flex;gap:40px;align-items:stretch}
+.cifre .c{flex:1;border:3px solid var(--linea);border-radius:26px;padding:48px 40px 44px;
+          display:flex;flex-direction:column;gap:10px;animation:sali .55s cubic-bezier(.22,.7,.3,1) both}
+.cifre .c:nth-child(1){animation-delay:.18s}.cifre .c:nth-child(2){animation-delay:.34s}
+.cifre .c:nth-child(3){animation-delay:.50s}.cifre .c:nth-child(4){animation-delay:.66s}
+.cifre .c.key{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 8%,transparent)}
+.cifre .n{font-size:168px;font-weight:700;line-height:.95;letter-spacing:-.03em;color:var(--acc);
+          font-variant-numeric:lining-nums tabular-nums;display:flex;align-items:baseline;gap:8px}
+.cifre .n .cnt{counter-reset:n var(--n);animation:conta 1.3s cubic-bezier(.2,.6,.2,1) both .45s}
+.cifre .n .cnt::after{content:counter(n)}
+.cifre .n .suf{font-size:64px;font-weight:600;color:var(--tit)}
+.cifre .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.16}
+.cifre .d{font-size:27px;line-height:1.36;opacity:.74}
+.cifre.n4 .n{font-size:132px}.cifre.n4 .t{font-size:33px}
+.corpo>.cifre{animation:none}
+
+/* --- formaggio svizzero --- */
+.fig .fetta{animation:sali .6s cubic-bezier(.22,.7,.3,1) both}
+.fig .buco{fill:var(--bg)}
+.fig .freccia{stroke:var(--acc);stroke-width:12;stroke-linecap:round;fill:none;
+              stroke-dasharray:1 2;stroke-dashoffset:1.1;
+              animation:disegna .9s cubic-bezier(.4,0,.2,1) both 1.25s}
+.fig .punta{fill:var(--acc);opacity:0;animation:appari .2s both 2.05s}
+.fig .esito{opacity:0;animation:sali .5s cubic-bezier(.22,.7,.3,1) both 2.1s}
+
+/* --- ciclo --- */
+.fig .anello{stroke:var(--linea);stroke-width:14;fill:none}
+.fig .arco{stroke:var(--tit);stroke-width:14;fill:none;stroke-dasharray:1 2;stroke-dashoffset:1.1;
+           animation:disegna 1.4s cubic-bezier(.4,0,.2,1) both .3s}
+.fig .nodo{animation:pop .5s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
+.fig .nodo circle{fill:var(--bg);stroke:var(--tit);stroke-width:6}
+.fig .nodo.key circle{fill:var(--acc);stroke:var(--acc)}
+.fig .nodo .num{font-size:40px;font-weight:700;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
+.fig .nodo.key .num{fill:var(--bg)}
+.fig .nodo .lbl{text-anchor:middle}
+.fig .centro{font-size:44px;font-weight:600;fill:var(--tit);text-anchor:middle;dominant-baseline:central;
+             animation:appari .6s both 1.6s}
+
+.fig .nodo.off > *,.fig .sat.off > *{opacity:.26}
+
+/* --- raggiera --- */
+.fig .raggio{stroke:var(--linea);stroke-width:6;stroke-dasharray:1 2;stroke-dashoffset:1.1;
+             animation:disegna .6s ease-out both}
+.fig .hub{animation:pop .55s cubic-bezier(.22,.7,.3,1) both .15s;transform-box:fill-box;transform-origin:center}
+.fig .hub circle{fill:var(--tit)}
+.fig .hub text{fill:var(--bg);font-size:38px;font-weight:700;text-anchor:middle;dominant-baseline:central}
+.fig .sat{animation:pop .5s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
+.fig .sat circle{fill:var(--bg);stroke:var(--tit);stroke-width:5}
+.fig .sat.key circle{fill:color-mix(in srgb,var(--acc) 12%,var(--bg));stroke:var(--acc)}
+.fig .sat .lbl{font-size:28px;font-weight:600;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
+.fig .sat.key .lbl{fill:var(--acc)}
+
+/* --- misura: l'indicatore verticale --- */
+.misura{display:flex;gap:80px;align-items:center;min-height:560px}
+.misura .gauge{flex:0 0 520px;width:520px}
+.misura .gauge svg{width:520px;height:auto}
+.misura .tx{flex:1;display:flex;flex-direction:column;gap:22px;animation:sali .6s both .5s}
+.misura .tx h2{font-size:80px}
+.misura .tx .sotto{font-size:34px}
+.fig .zona{opacity:.16}
+.fig .marcatore{animation:cresciY 1.2s cubic-bezier(.3,.8,.3,1) both .5s;transform-box:fill-box;transform-origin:bottom}
+.fig .lettura{opacity:0;animation:appari .4s both 1.5s}
+.fig .soglia{stroke:var(--acc);stroke-width:5;stroke-dasharray:14 12;stroke-linecap:round}
+.corpo>.misura{animation:none}
+
+/* --- le figure di prima generazione imparano a muoversi --- */
+.fig .gx rect{transform-box:fill-box;transform-origin:left center;
+              animation:cresciX .8s cubic-bezier(.3,.8,.3,1) both;animation-delay:inherit}
+.fig .gx path[fill]:not(.buco){transform-box:fill-box;transform-origin:center bottom;
+              animation:cresciY .55s cubic-bezier(.3,.8,.3,1) both;animation-delay:inherit}
+.catena .p{animation-name:scivola}
+.scala .g{transform-origin:center bottom}
+.tre .box.key,.griglia .c.key,.icone .v.key,.catena .p.key,.cifre .c.key{
+  animation:sali .55s cubic-bezier(.22,.7,.3,1) both,respiro 1.4s ease-in-out 1.7s 1}
+`;
+
+// ---------- i corpi ----------
+export const CORPI_FIGURE = {
+
+  // Un'illustrazione grande accanto a un titolo. «illu» viene da ILLU.
+  figura: d => `<div class="figura ${d.lato === 'dx' ? 'dx' : ''}">
+      <div class="ill">${illustrazione(d.illu)}</div>
+      <div class="tx"><h2>${acc(d.titolo)}</h2>${
+        d.sotto ? `<div class="sotto">${acc(d.sotto)}</div>` : ''}</div></div>`,
+
+  // Da uno a quattro numeri grandi. Un intero conta da zero; un intervallo
+  // («6–23») o una sigla si limita a comparire.
+  cifre: d => `<div class="cifre ${d.voci.length === 4 ? 'n4' : ''}">${d.voci.map(v => {
+      const n = String(v.n);
+      const intero = /^\d+$/.test(n);
+      return `<div class="c ${v.key ? 'key' : ''}">
+        <div class="n">${intero
+          ? `<span class="cnt" style="--fine:${n}"></span>`
+          : `<span>${n}</span>`}${v.suf ? `<span class="suf">${v.suf}</span>` : ''}</div>
+        <div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div>`;
+    }).join('')}</div>`,
+
+  // Il formaggio svizzero di Reason: fette con i buchi, e una traiettoria che
+  // passa solo quando i buchi si allineano.
+  formaggio: d => {
+    const n = d.fette.length, W = 1656, H = 620;
+    const fw = 190, gap = (W - 440 - n * fw) / (n - 1), x0 = 40, top = 40, fh = 440;
+    const ym = top + fh / 2;
+    const fette = d.fette.map((f, i) => {
+      const x = x0 + i * (fw + gap);
+      const col = RAMPA[1 + (i % 3)];
+      const buchi = [[x + 46, top + 80, 22], [x + 104, top + 300, 26], [x + 56, top + 210, 18],
+                     [x + fw / 2, ym, 30]];
+      return `<g class="fetta" style="animation-delay:${num(.15 + i * .18)}s">
+        <path d="M${x} ${top + 26} l${fw} -26 v${fh} l-${fw} 26z" fill="${col}"/>
+        ${buchi.map(([cx, cy, r]) => `<circle class="buco" cx="${cx}" cy="${cy}" r="${r}"/>`).join('')}
+        <text class="lbl" x="${x + fw / 2}" y="${top + fh + 70}" text-anchor="middle">${piano(f.t)}</text>
+        ${f.d ? `<text class="sub" x="${x + fw / 2}" y="${top + fh + 108}" text-anchor="middle">${piano(f.d)}</text>` : ''}
+      </g>`;
+    }).join('');
+    const xe = x0 + (n - 1) * (fw + gap) + fw + 40;
+    return `<svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      ${fette}
+      <path class="freccia" pathLength="1" d="M20 ${ym} H${xe}"/>
+      <path class="punta" d="M${xe - 6} ${ym - 22} l40 22 -40 22z"/>
+      ${d.esito ? `<text class="esito big" x="${xe + 50}" y="${ym + 2}" dominant-baseline="middle"
+                     font-size="44">${piano(d.esito)}</text>` : ''}
+    </svg>`;
+  },
+
+  // Un processo ciclico: i passi su un anello, e l'anello che si chiude.
+  ciclo: d => {
+    const n = d.passi.length, W = 1656, H = 620, cx = W / 2, cy = H / 2 + 6, R = 236;
+    const ang = i => -Math.PI / 2 + i * 2 * Math.PI / n;
+    const P = i => [cx + R * Math.cos(ang(i)), cy + R * Math.sin(ang(i))];
+    const nodi = d.passi.map((p, i) => {
+      const [x, y] = P(i);
+      const fuori = 1.62, lx = cx + R * fuori * Math.cos(ang(i)), ly = cy + R * fuori * Math.sin(ang(i));
+      const anchor = Math.abs(Math.cos(ang(i))) < .2 ? 'middle' : (Math.cos(ang(i)) > 0 ? 'start' : 'end');
+      const on = (d.attive ?? d.passi.map((_, k) => k)).includes(i);
+      return `<g class="nodo ${p.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(.5 + i * .22)}s">
+        <circle cx="${num(x)}" cy="${num(y)}" r="44"/>
+        <text class="num" x="${num(x)}" y="${num(y)}">${i + 1}</text>
+        <text class="lbl" x="${num(lx)}" y="${num(ly - (p.d ? 12 : 0))}" text-anchor="${anchor}"
+          dominant-baseline="middle" font-size="36" font-weight="600" fill="var(--tit)">${piano(p.t)}</text>
+        ${p.d ? `<text class="sub" x="${num(lx)}" y="${num(ly + 30)}" text-anchor="${anchor}"
+          dominant-baseline="middle">${piano(p.d)}</text>` : ''}
+      </g>`;
+    }).join('');
+    // l'arco parte dal primo nodo e gira in senso orario fino a richiudersi
+    const [sx, sy] = P(0);
+    const arco = `M${num(sx)} ${num(sy)} A${R} ${R} 0 1 1 ${num(sx - .01)} ${num(sy)}`;
+    return `<svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      <circle class="anello" cx="${cx}" cy="${cy}" r="${R}"/>
+      <path class="arco" pathLength="1" d="${arco}"/>
+      ${nodi}
+      ${d.centro ? `<text class="centro" x="${cx}" y="${cy}">${piano(d.centro)}</text>` : ''}
+    </svg>`;
+  },
+
+  // Un concetto al centro e i suoi elementi intorno.
+  raggiera: d => {
+    // I satelliti tengono dentro solo il nome; la riga di spiegazione sta fuori,
+    // in direzione radiale, come le etichette del ciclo: dentro a un cerchio
+    // di novanta pixel non ci sta una frase, e in 2.7 usciva dal bordo.
+    const n = d.raggi.length, W = 1656, H = 660, cx = W / 2, cy = 318, r = 100,
+          R = d.raggi.some(q => q.d) ? 200 : 236;
+    const ang = i => -Math.PI / 2 + i * 2 * Math.PI / n;
+    const parti = d.raggi.map((q, i) => {
+      const a = ang(i), x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
+      const lx = cx + (R + r + 28) * Math.cos(a), ly = cy + (R + r + 28) * Math.sin(a);
+      const c = Math.cos(a), anchor = Math.abs(c) < .2 ? 'middle' : (c > 0 ? 'start' : 'end');
+      const on = (d.attive ?? d.raggi.map((_, k) => k)).includes(i);
+      return `<line class="raggio" pathLength="1" style="animation-delay:${num(.45 + i * .16)}s"
+                x1="${cx}" y1="${cy}" x2="${num(x)}" y2="${num(y)}"/>
+        <g class="sat ${q.key ? 'key' : ''} ${on ? '' : 'off'}" style="animation-delay:${num(.75 + i * .16)}s">
+          <circle cx="${num(x)}" cy="${num(y)}" r="${r}"/>
+          <text class="lbl" x="${num(x)}" y="${num(y)}">${piano(q.t)}</text>
+          ${q.d ? `<text class="sub" x="${num(lx)}" y="${num(ly)}" text-anchor="${anchor}"
+             dominant-baseline="central">${piano(q.d)}</text>` : ''}
+        </g>`;
+    }).join('');
+    const lungo = piano(d.centro).length > 9;
+    return `<svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      ${parti}
+      <g class="hub"><circle cx="${cx}" cy="${cy}" r="104"/>
+        <text x="${cx}" y="${cy}" style="font-size:${lungo ? 30 : 38}px">${piano(d.centro)}</text></g>
+    </svg>`;
+  },
+
+
+  // Un indicatore verticale con una soglia: il valore sale fino a dove sta.
+  misura: d => {
+    const W = 520, H = 620, x = 200, y0 = 60, y1 = 560, lo = d.min, hi = d.max;
+    const Y = v => y1 - (y1 - y0) * (v - lo) / (hi - lo);
+    const peggio = d.direzione === 'alto-peggio';           // dove sta la zona a rischio
+    const zonaTop = peggio ? y0 : Y(d.soglia), zonaBot = peggio ? Y(d.soglia) : y1;
+    const tacche = [];
+    for (let v = lo; v <= hi; v += (d.passo ?? Math.max(1, Math.round((hi - lo) / 6))))
+      tacche.push(`<line x1="${x - 16}" y1="${num(Y(v))}" x2="${x}" y2="${num(Y(v))}" class="ass"/>
+        <text class="sub" x="${x - 30}" y="${num(Y(v))}" text-anchor="end" dominant-baseline="middle">${v}</text>`);
+    return `<div class="misura"><div class="gauge"><svg class="fig" viewBox="0 0 ${W} ${H}">
+      <rect class="zona" x="${x}" y="${num(zonaTop)}" width="130" height="${num(zonaBot - zonaTop)}" fill="${DATI[3]}"/>
+      <rect x="${x}" y="${y0}" width="130" height="${y1 - y0}" rx="8" fill="none" stroke="var(--linea)" stroke-width="5"/>
+      ${tacche.join('')}
+      <rect class="marcatore" x="${x + 14}" y="${num(Y(d.valore))}" width="102" height="${num(y1 - Y(d.valore))}"
+        rx="6" fill="${d.valore <= d.soglia === peggio ? DATI[0] : DATI[3]}"/>
+      <line class="soglia" x1="${x - 8}" y1="${num(Y(d.soglia))}" x2="${x + 150}" y2="${num(Y(d.soglia))}"/>
+      <text class="cap" x="${x + 160}" y="${num(Y(d.soglia))}" dominant-baseline="middle" fill="var(--acc)">soglia ${d.soglia}</text>
+      <text class="big lettura" x="${x + 160}" y="${num(Y(d.valore) + (Y(d.valore) < Y(d.soglia) - 60 ? 0 : 70))}"
+        dominant-baseline="middle">${d.valore}</text>
+    </svg></div>
+    <div class="tx"><h2>${acc(d.titolo)}</h2>${d.sotto ? `<div class="sotto">${acc(d.sotto)}</div>` : ''}</div></div>`;
+  },
+};
+```
+
+## `slide/clinica.mjs`
+
+La terza generazione, per il modulo clinico: dodici illustrazioni del corpo e
+del reparto, la sagoma con le zone, e sei corpi che mostrano un meccanismo
+(`corpo`, `frequenze`, `percorso`, `vap`, `mappa`, `bivio`). Le sue
+illustrazioni entrano nella stessa fabbrica di `figure.mjs` con `registra()`.
+
+```javascript
+// Terza generazione grafica, per il modulo clinico: illustrazioni del corpo e
+// del reparto, e diagrammi animati che mostrano un meccanismo, non solo un
+// elenco. Stesso sistema di figure.mjs: tratto tondo, un colore, campiture in
+// accento, ogni tratto con pathLength="1", tutto finito entro 2,8 s.
+//
+// I corpi:
+//   corpo      la sagoma (fronte e retro) con le zone che si accendono in ordine
+//   frequenze  strisce di 24 ore con le ripetizioni che compaiono
+//   percorso   una linea a tappe numerate che si disegna
+//   vap        il profilo con tubo, cuffia e microaspirazione
+//   mappa      un'illustrazione grande con i richiami numerati
+//   bivio      una radice e due rami, uno in accento
+let acc = s => String(s ?? '');
+export const collega = fn => { acc = fn; };
+const piano = s => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+const num = n => String(Math.round(n * 100) / 100);
+const C = (cx, cy, r) => `M${cx} ${cy - r}a${r} ${r} 0 1 1 0 ${2 * r}a${r} ${r} 0 1 1 0 ${-2 * r}`;
+
+// ---------- illustrazioni cliniche, griglia 240 ----------
+// «pieno:» campitura in accento; «freccia:» tratto in accento disegnato per ultimo.
+export const ILLU_CLINICA = {
+  occhio: [
+    'M20 120c30-46 66-68 100-68s70 22 100 68c-30 46-66 68-100 68S50 166 20 120z',   // palpebre
+    C(120, 120, 40), C(120, 120, 16),                                              // iride, pupilla
+    'pieno:' + C(120, 120, 40),
+    'M40 176c20 12 42 18 62 20M138 196c20-2 42-8 62-20',                           // ciglia inferiori
+    'M60 62c6-8 12-14 18-18M180 62c-6-8-12-14-18-18',
+    'freccia:M200 148c-22 26-52 40-80 40S62 174 40 148M52 142l-12 6 10 10',         // interno -> esterno
+  ],
+  bocca: [
+    'M26 120c30-30 60-44 94-44s64 14 94 44c-30 30-60 44-94 44S56 150 26 120z',    // labbra
+    'M26 120h188',                                                                 // rima
+    'M60 106v-10M84 100v-16M108 98v-20M132 98v-20M156 100v-16M180 106v-10',        // denti sopra
+    'M60 134v10M84 140v16M108 142v20M132 142v20M156 140v16M180 134v10',            // denti sotto
+    'pieno:M60 96h120v24H60z',
+    'M172 44l40-24M160 62l52-30', 'pieno:M150 40l70-40 12 20-70 40z',              // spazzolino
+  ],
+  polmoni: [
+    'M120 24v60', 'M96 84h48',                                                     // trachea, carena
+    'M108 92c-30 6-60 40-66 96 0 20 10 30 26 30 20 0 34-14 40-34V92z',            // sinistro
+    'M132 92c30 6 60 40 66 96 0 20-10 30-26 30-20 0-34-14-40-34V92z',             // destro
+    'pieno:M108 92c-30 6-60 40-66 96 0 20 10 30 26 30 20 0 34-14 40-34V92z',
+    'pieno:M132 92c30 6 60 40 66 96 0 20-10 30-26 30-20 0-34-14-40-34V92z',
+    'M108 110c-16 14-28 34-30 60M132 110c16 14 28 34 30 60',                       // bronchi
+  ],
+  stanza: [
+    'M14 204h212',                                                                 // pavimento
+    'M30 204v-76h30v40h140v36M200 168v36',                                         // letto: testiera, piano, gamba
+    'M60 156h140v12H60z', 'pieno:M66 148h34v8H66z',                                // materasso, cuscino
+    'M170 132h46v72h-46z', 'M178 148h30M178 162h30',                               // comodino
+    'M120 60v-30M104 60h32', 'pieno:M96 60h48l-8 22H104z', 'M96 60h48l-8 22H104z', // lampada
+    'M40 96c0-10 8-16 16-16s16 6 16 16v6H40z', 'M56 102v14', 'pieno:' + C(56, 122, 8), // campanello
+  ],
+  piede: [
+    'M40 200c-10-30-6-70 10-100 10-18 26-28 46-28 30 0 50 20 60 50 6 18 12 40 30 52 20 12 40 12 42 26H40z',
+    'M60 60c-10 0-16 10-12 20M84 46c-8 2-12 12-8 22M112 44c-8 2-12 12-8 22M140 52c-8 2-10 12-6 20',
+    'pieno:M70 78h16v6H70zM96 70h16v6H96zM124 70h16v6h-16z',                        // spazi interdigitali
+    'M40 200h188',
+  ],
+  sponde: [
+    'M20 190h200', 'M30 190v-70h26v40h130v30M186 160v30',                          // letto
+    'M56 150h130v12H56z',
+    'M70 116v34M96 116v34M122 116v34M148 116v34', 'M64 116h90', 'M64 134h90',        // sponda alzata
+    'pieno:M64 110h90v10H64z',
+    C(72, 100, 12), 'M60 118h10',                                                  // testa sul cuscino
+  ],
+  acqua: [
+    'M36 110h168l-14 90a10 10 0 0 1-10 8H60a10 10 0 0 1-10-8z',                   // bacinella
+    'pieno:M48 140h144l-10 60H58z',
+    'M64 140c20-10 40-10 60 0s40 10 52 0',                                         // pelo dell'acqua
+    'M96 48c-10 14-14 22-14 30a14 14 0 0 0 28 0c0-8-4-16-14-30z',                  // gocce
+    'M150 30c-8 12-12 20-12 26a12 12 0 0 0 24 0c0-6-4-14-12-26z',
+    'pieno:M96 48c-10 14-14 22-14 30a14 14 0 0 0 28 0c0-8-4-16-14-30z',
+  ],
+  farmaci: [
+    'M52 60h66v20H52zM58 80v110a10 10 0 0 0 10 10h50a10 10 0 0 0 10-10V80',       // flacone
+    'M68 120h50', 'pieno:M64 130h58v60a6 6 0 0 1-6 6H70a6 6 0 0 1-6-6z',
+    'M150 150l40-40a17 17 0 0 1 24 24l-40 40a17 17 0 0 1-24-24z', 'M170 130l24 24',  // capsula
+    'pieno:M150 150l20-20 24 24-20 20a17 17 0 0 1-24-24z',
+  ],
+  paravento: [
+    'M20 200V70l50 14v116M70 84l50-14v116M120 70l50 14v116M170 84l50-14v130',
+    'pieno:M20 70l50 14v116H20zM120 70l50 14v116h-50z',
+    'M20 200h200',
+  ],
+  lampada: [
+    C(120, 110, 50), 'M96 160h48v20H96z', 'M104 180h32v10h-32z',
+    'pieno:' + C(120, 110, 50),
+    'M120 30v14M60 50l10 10M180 50l-10 10M40 110h14M186 110h14',                   // raggi
+    'M14 214h212',
+  ],
+  calzatura: [
+    'M30 170c0-30 20-50 50-50h30c20 0 34 10 44 26l12 20c10 16 40 18 50 22v12H30z',
+    'M30 200h186', 'pieno:M36 192h176v8H36z',
+    'M92 120c-4-14 0-28 8-36M120 120c-2-10 2-20 8-28',
+    'M150 146c-14 2-24 10-30 22',
+  ],
+  costituzione: [
+    'M52 36h136a8 8 0 0 1 8 8v160a8 8 0 0 1-8 8H52a8 8 0 0 1-8-8V44a8 8 0 0 1 8-8z',
+    'M76 76h88M76 100h88M76 124h64M76 148h88M76 172h48',
+    'pieno:M148 156l26-26 14 14-26 26-18 4z', 'M148 156l26-26 14 14-26 26-18 4z',
+  ],
+};
+
+// La sagoma per la mappa corporea: 300x620, fronte. Le zone sono campiture
+// separate, cosi' ognuna puo' accendersi da sola.
+const SAGOMA = {
+  linea: [
+    C(150, 56, 40),                                                                 // testa
+    'M134 94v22M166 94v22',                                                          // collo
+    'M96 120h108a22 22 0 0 1 22 22v150H74V142a22 22 0 0 1 22-22z',                   // tronco
+    'M74 150c-24 10-42 60-48 140-2 20 4 34 14 40',                                   // braccio sx
+    'M226 150c24 10 42 60 48 140 2 20-4 34-14 40',
+    'M84 292v210a14 14 0 0 0 28 0V292M188 292v210a14 14 0 0 0 28 0V292',             // gambe
+    'M112 502l6 20h-40l10-20M188 502l-6 20h40l-10-20',                                // piedi
+    'M150 292v210', 'M74 216h152',                                                   // linea mediana, vita
+  ],
+  zone: {
+    viso:   C(150, 56, 40),
+    collo:  'M134 94h32v26h-32z',
+    braccia:'M74 150c-24 10-42 60-48 140-2 20 4 34 14 40l22-6c6-70 14-120 12-174zM226 150c24 10 42 60 48 140 2 20-4 34-14 40l-22-6c-6-70-14-120-12-174z',
+    torace: 'M96 120h108a22 22 0 0 1 22 22v74H74v-74a22 22 0 0 1 22-22z',
+    addome: 'M74 216h152v76H74z',
+    gambe:  'M84 292h28v210a14 14 0 0 1-28 0zM188 292h28v210a14 14 0 0 1-28 0z',
+    piedi:  'M78 522h40l-6-20h-28zM182 522h40l-4-20h-28z',
+    dorso:  'M96 120h108a22 22 0 0 1 22 22v150H74V142a22 22 0 0 1 22-22z',
+    sacro:  C(150, 272, 26),
+    perineo:'M124 292h52v22h-52z',
+  },
+};
+
+// ---------- CSS ----------
+export const CSS_CLINICA = `
+@keyframes accendi{from{opacity:0;transform:scale(.92)}to{opacity:var(--op,.22);transform:none}}
+@keyframes scorri{from{stroke-dashoffset:1.1}to{stroke-dashoffset:0}}
+@keyframes goccia{0%{opacity:0;transform:translateY(-14px)}30%{opacity:1}100%{opacity:1;transform:translateY(0)}}
+
+.illu .freccia{stroke:var(--acc);stroke-width:8;stroke-dasharray:1 2;stroke-dashoffset:1.1;
+               animation:disegna .8s cubic-bezier(.4,0,.2,1) both 1.7s}
+
+/* --- corpo: la sagoma con le zone --- */
+.anat{display:flex;gap:70px;align-items:center;min-height:640px;width:100%}
+.anat .sag{flex:0 0 auto;display:flex;gap:40px}
+.anat .sag svg{height:600px;width:auto;overflow:visible}
+.anat .sag .tr{fill:none;stroke:var(--tit);stroke-width:5;stroke-linecap:round;stroke-linejoin:round;
+                stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna 1s cubic-bezier(.4,0,.2,1) both;
+                animation-delay:calc(.15s + var(--i) * .06s)}
+.anat .sag .zona{fill:var(--acc);opacity:0;transform-box:fill-box;transform-origin:center;
+                  animation:accendi .5s cubic-bezier(.22,.7,.3,1) forwards}
+.anat .sag .zona.spenta{animation:none;opacity:.07;fill:var(--tit)}
+.anat .sag .etich{font-size:22px;font-weight:600;fill:var(--sop);text-anchor:middle;letter-spacing:.14em;
+                   text-transform:uppercase;opacity:0;animation:appari .5s both 1.4s}
+.anat .voci{flex:1;display:flex;flex-direction:column;gap:14px}
+.anat .voce{display:flex;gap:26px;align-items:baseline;opacity:0;animation:scivola .5s cubic-bezier(.22,.7,.3,1) forwards}
+.anat .voce .n{flex:0 0 64px;height:64px;border-radius:50%;background:var(--tit);color:var(--bg);
+                font-size:32px;font-weight:700;display:flex;align-items:center;justify-content:center;align-self:center}
+.anat .voce.key .n{background:var(--acc)}
+.anat .voce .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.15}
+.anat .voce .d{font-size:27px;line-height:1.3;opacity:.74;margin-top:2px}
+.anat .voce.off{opacity:.3;animation:none}
+.anat.fitto .voce .t{font-size:34px}.anat.fitto .voce .d{font-size:24px}.anat.fitto .voci{gap:8px}
+.anat>.sag svg .zona{opacity:0}
+.anat .sag .zona.on{--op:.22}
+.anat .sag .zona.key{--op:.34}
+
+/* --- frequenze --- */
+.freq{display:flex;flex-direction:column;gap:26px}
+.freq .riga{display:grid;grid-template-columns:440px 1fr 250px;gap:34px;align-items:center;
+            opacity:0;animation:scivola .5s cubic-bezier(.22,.7,.3,1) forwards}
+.freq .riga .t{font-size:40px;font-weight:600;color:var(--tit);line-height:1.15}
+.freq .riga .d{font-size:26px;opacity:.74;line-height:1.3;margin-top:4px}
+.freq .riga .q{font-size:44px;font-weight:700;color:var(--acc);text-align:right;font-variant-numeric:tabular-nums}
+.freq .riga .q small{display:block;font-size:24px;font-weight:500;color:var(--fg);opacity:.8}
+.freq .striscia{height:92px;width:100%}
+.freq .striscia .asse{stroke:var(--linea);stroke-width:6;stroke-linecap:round}
+.freq .striscia .ora{stroke:var(--linea);stroke-width:3}
+.freq .striscia .oratxt{font-size:20px;fill:var(--fg);opacity:.6;text-anchor:middle}
+.freq .striscia .punto{fill:var(--acc);opacity:0;animation:pop .4s cubic-bezier(.22,.7,.3,1) forwards;
+                       transform-box:fill-box;transform-origin:center}
+.freq .riga.key .t{color:var(--acc)}
+
+/* --- percorso --- */
+.percorso{position:relative;width:100%}
+.percorso svg{width:100%;height:auto;overflow:visible}
+.percorso .via{fill:none;stroke:var(--linea);stroke-width:10;stroke-linecap:round}
+.percorso .via.on{stroke:var(--tit);stroke-dasharray:1 2;stroke-dashoffset:1.1;
+                  animation:scorri 1.6s cubic-bezier(.4,0,.2,1) both .2s}
+.percorso .tappa{animation:pop .5s cubic-bezier(.22,.7,.3,1) both;transform-box:fill-box;transform-origin:center}
+.percorso .tappa circle{fill:var(--bg);stroke:var(--tit);stroke-width:7}
+.percorso .tappa.key circle{fill:var(--acc);stroke:var(--acc)}
+.percorso .tappa .num{font-size:38px;font-weight:700;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
+.percorso .tappa.key .num{fill:var(--bg)}
+.percorso .tappa.off{opacity:.28}
+.percorso .tappa foreignObject div{font-family:'Inter',sans-serif;color:var(--fg);text-align:center;line-height:1.16}
+.percorso .tappa foreignObject .t{font-size:30px;font-weight:600;color:var(--tit)}
+.percorso .tappa.key foreignObject .t{color:var(--acc)}
+.percorso .tappa foreignObject .d{font-size:22px;opacity:.74;margin-top:6px;line-height:1.25}
+
+/* --- vap --- */
+.vap{display:flex;gap:60px;align-items:center;min-height:620px}
+.vap .schema{flex:0 0 900px}
+.vap .schema svg{width:900px;height:auto;overflow:visible}
+.vap .schema .tr{fill:none;stroke:var(--tit);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;
+                 stroke-dasharray:1 2;stroke-dashoffset:1.1;animation:disegna 1s cubic-bezier(.4,0,.2,1) both;
+                 animation-delay:calc(.1s + var(--i) * .1s)}
+.vap .schema .tubo{stroke:var(--sop);stroke-width:22;stroke-linecap:round;fill:none;stroke-dasharray:1 2;
+                   stroke-dashoffset:1.1;animation:disegna 1s cubic-bezier(.4,0,.2,1) both .5s}
+.vap .schema .cuffia{fill:var(--bg);stroke:var(--tit);stroke-width:6;opacity:0;animation:appari .4s both 1.2s}
+.vap .schema .pozza{fill:var(--acc);opacity:0;animation:appariPozza .6s both 1.45s}
+@keyframes appariPozza{from{opacity:0}to{opacity:.55}}
+.vap .schema .goccia{fill:var(--acc);opacity:0;animation:goccia .5s ease-in forwards}
+.vap .schema .polm{fill:var(--acc);opacity:0;animation:appariPieno .6s both 2.4s}
+.vap .schema .lbl{font-size:28px;font-weight:600;fill:var(--tit);opacity:0;animation:appari .4s both}
+.vap .schema .lbl.acc{fill:var(--acc)}
+.vap .schema .guida{stroke:var(--linea);stroke-width:3;stroke-dasharray:6 8;opacity:0;animation:appari .4s both}
+.vap .tx{flex:1;display:flex;flex-direction:column;gap:26px;animation:sali .6s both .5s}
+.vap .tx h2{font-size:62px;line-height:1.12}
+.vap .tx .sotto{font-size:34px}
+
+/* --- mappa: illustrazione con richiami --- */
+.mappa{display:flex;gap:60px;align-items:center;min-height:640px}
+.mappa .ill{flex:0 0 700px;position:relative}
+.mappa .ill .illu{width:700px;height:700px}
+.mappa .ill .pin{position:absolute;width:64px;height:64px;border-radius:50%;background:var(--acc);color:var(--bg);
+                 font-size:30px;font-weight:700;display:flex;align-items:center;justify-content:center;
+                 transform:translate(-50%,-50%) scale(0);animation:pin .45s cubic-bezier(.22,.7,.3,1) forwards;
+                 box-shadow:0 0 0 6px var(--bg)}
+@keyframes pin{from{transform:translate(-50%,-50%) scale(0)}to{transform:translate(-50%,-50%) scale(1)}}
+.mappa .voci{flex:1;display:flex;flex-direction:column;gap:12px}
+.mappa .voce{display:flex;gap:22px;align-items:baseline;opacity:0;animation:scivola .5s cubic-bezier(.22,.7,.3,1) forwards}
+.mappa .voce .n{flex:0 0 52px;height:52px;border-radius:50%;background:var(--acc);color:var(--bg);
+                font-size:26px;font-weight:700;display:flex;align-items:center;justify-content:center;align-self:center}
+.mappa .voce .t{font-size:34px;font-weight:600;color:var(--tit);line-height:1.15}
+.mappa .voce .d{font-size:24px;line-height:1.3;opacity:.74}
+.mappa.fitta .voce .t{font-size:30px}.mappa.fitta .voce .d{font-size:22px}.mappa.fitta .voci{gap:6px}
+
+/* --- bivio --- */
+.bivio{width:100%}
+.bivio svg{width:100%;height:auto;overflow:visible}
+.bivio .ramo{fill:none;stroke:var(--tit);stroke-width:8;stroke-linecap:round;stroke-dasharray:1 2;stroke-dashoffset:1.1;
+             animation:scorri .8s cubic-bezier(.4,0,.2,1) both}
+.bivio .ramo.acc{stroke:var(--acc)}
+.bivio .nodo{animation:sali .55s cubic-bezier(.22,.7,.3,1) both}
+.bivio .nodo rect{fill:var(--bg);stroke:var(--linea);stroke-width:4;rx:26}
+.bivio .nodo.radice rect{fill:var(--tit);stroke:var(--tit)}
+.bivio .nodo.key rect{stroke:var(--acc);stroke-width:5;fill:color-mix(in srgb,var(--acc) 8%,var(--bg))}
+.bivio .nodo foreignObject div{font-family:'Inter',sans-serif;display:flex;flex-direction:column;justify-content:center;
+                               height:100%;padding:0 40px;line-height:1.18}
+.bivio .nodo foreignObject .t{font-size:40px;font-weight:600;color:var(--tit)}
+.bivio .nodo.radice foreignObject .t{color:var(--bg);text-align:center;font-size:44px}
+.bivio .nodo.key foreignObject .t{color:var(--acc)}
+.bivio .nodo foreignObject .d{font-size:26px;opacity:.78;margin-top:10px;color:var(--fg)}
+.bivio .quando{font-size:26px;font-weight:600;fill:var(--sop);letter-spacing:.06em;text-transform:uppercase;
+               opacity:0;animation:appari .4s both}
+.corpo,.freq,.percorso,.vap,.mappa,.bivio{animation:none}
+`;
+
+// ---------- pezzi ----------
+const sagoma = (lato, zone, attive, keys, ordine, t0, etich) => {
+  let k = 0;
+  const linea = SAGOMA.linea.map(p => `<path class="tr" style="--i:${k++}" pathLength="1" d="${p}"/>`).join('');
+  const z = Object.entries(SAGOMA.zone).filter(([n]) => zone.includes(n)).map(([n, d]) => {
+    const i = ordine.indexOf(n), on = attive.includes(n);
+    return `<path class="zona ${on ? 'on' : 'spenta'} ${keys.includes(n) ? 'key' : ''}" d="${d}"
+      style="animation-delay:${num(t0 + Math.max(i, 0) * .18)}s"/>`;
+  }).join('');
+  return `<svg viewBox="-10 -6 320 640">${linea}${z}
+    <text class="etich" x="150" y="600">${etich}</text></svg>`;
+};
+
+export const CORPI_CLINICA = {
+
+  // La mappa corporea. voci: [{z:'viso', t, d, key}] — z e' la zona; le zone
+  // non presenti in «attive» restano spente (grigie). lato: 'fronte' | 'retro' | 'entrambi'.
+  corpo: d => {
+    const voci = d.voci;
+    const zs = v => [].concat(v.z);
+    const ordine = voci.flatMap(zs);
+    const attive = (d.attive ?? voci.map((_, i) => i)).flatMap(i => zs(voci[i]));
+    const keys = voci.filter(v => v.key).flatMap(zs);
+    const fronte = ['viso', 'collo', 'braccia', 'torace', 'addome', 'gambe', 'piedi', 'perineo'];
+    const retro = ['dorso', 'sacro'];
+    const lati = d.lato === 'entrambi' ? ['fronte', 'retro'] : [d.lato ?? 'fronte'];
+    const sag = lati.map(l => sagoma(l, l === 'fronte' ? fronte.filter(z => ordine.includes(z)) : retro.filter(z => ordine.includes(z)),
+      attive, keys, voci.map(zs), 1.1, l === 'fronte' ? 'fronte' : 'dorso')).join('');
+    return `<div class="anat ${voci.length > 6 ? 'fitto' : ''}"><div class="sag">${sag}</div>
+      <div class="voci">${voci.map((v, i) => `<div class="voce ${v.key ? 'key' : ''} ${zs(v).some(z => attive.includes(z)) ? '' : 'off'}"
+          style="animation-delay:${num(.5 + i * .16)}s"><div class="n">${v.n ?? i + 1}</div>
+          <div><div class="t">${acc(v.t)}</div>${v.d ? `<div class="d">${acc(v.d)}</div>` : ''}</div></div>`).join('')}</div></div>`;
+  },
+
+  // Le strisce delle 24 ore. righe: [{t, d, ogni:4, q:'ogni 4-6 h', key}] oppure {volte:2}.
+  frequenze: d => {
+    const W = 800, x0 = 10, x1 = W - 10, y = 46;
+    const X = h => x0 + (x1 - x0) * h / 24;
+    return `<div class="freq">${d.righe.map((r, i) => {
+      const t0 = .3 + i * .22;
+      const ore = r.ogni ? Array.from({ length: Math.floor(24 / r.ogni) + 1 }, (_, k) => k * r.ogni).filter(h => h <= 24)
+                         : Array.from({ length: r.volte }, (_, k) => 24 / r.volte * (k + .5));
+      return `<div class="riga ${r.key ? 'key' : ''}" style="animation-delay:${num(t0)}s">
+        <div><div class="t">${acc(r.t)}</div>${r.d ? `<div class="d">${acc(r.d)}</div>` : ''}</div>
+        <svg class="striscia" viewBox="0 0 ${W} 92">
+          <line class="asse" x1="${x0}" y1="${y}" x2="${x1}" y2="${y}"/>
+          ${[0, 6, 12, 18, 24].map(h => `<line class="ora" x1="${num(X(h))}" y1="${y - 12}" x2="${num(X(h))}" y2="${y + 12}"/>
+            <text class="oratxt" x="${num(X(h))}" y="${y + 40}">${h}</text>`).join('')}
+          ${ore.map((h, k) => `<circle class="punto" cx="${num(X(h))}" cy="${y}" r="14"
+              style="animation-delay:${num(t0 + .35 + k * (1.1 / Math.max(ore.length, 1)))}s"/>`).join('')}
+        </svg>
+        <div class="q">${r.q}${r.qd ? `<small>${r.qd}</small>` : ''}</div></div>`;
+    }).join('')}</div>`;
+  },
+
+  // Tappe lungo una linea. tappe: [{t, d, key}], attive: indici accesi (default tutti).
+  percorso: d => {
+    const n = d.tappe.length, W = 1656, H = n > 5 ? 660 : 400;
+    const righe = n > 5 ? 2 : 1, perRiga = Math.ceil(n / righe);
+    const pts = d.tappe.map((_, i) => {
+      const r = Math.floor(i / perRiga), c = i % perRiga;
+      const cc = r % 2 ? perRiga - 1 - c : c;                      // a serpentina
+      const x = 130 + cc * ((W - 260) / (perRiga - 1)), y = righe === 1 ? 110 : 90 + r * 330;
+      return [x, y];
+    });
+    const via = pts.map(([x, y], i) => {
+      if (i === 0) return `M${num(x)} ${num(y)}`;
+      const [px, py] = pts[i - 1];
+      return py === y ? `L${num(x)} ${num(y)}` : `C${num(px)} ${num(py + 165)} ${num(x)} ${num(y - 165)} ${num(x)} ${num(y)}`;
+    }).join(' ');
+    const attive = d.attive ?? d.tappe.map((_, i) => i);
+    return `<div class="percorso"><svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      <path class="via" d="${via}"/><path class="via on" pathLength="1" d="${via}"/>
+      ${d.tappe.map((t, i) => { const [x, y] = pts[i], sotto = true;
+        return `<g class="tappa ${t.key ? 'key' : ''} ${attive.includes(i) ? '' : 'off'}" style="animation-delay:${num(.35 + i * (1.5 / n))}s">
+          <circle cx="${num(x)}" cy="${num(y)}" r="44"/><text class="num" x="${num(x)}" y="${num(y)}">${i + 1}</text>
+          <foreignObject x="${num(x - 130)}" y="${num(sotto ? y + 62 : y - 62 - 150)}" width="260" height="150">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="${sotto ? '' : 'display:flex;flex-direction:column;justify-content:flex-end;height:150px'}">
+              <div class="t">${piano(t.t)}</div>${t.d ? `<div class="d">${piano(t.d)}</div>` : ''}</div></foreignObject></g>`; }).join('')}
+    </svg></div>`;
+  },
+
+  // Il meccanismo della VAP: profilo, tubo, cuffia, secrezioni sopra la cuffia, microaspirazione.
+  vap: d => {
+    // Le vie aeree viste di fronte, schematiche: bocca in alto, faringe e
+    // trachea, i due polmoni. Dentro, il tubo con la cuffia; sopra la cuffia
+    // la pozza di secrezioni, e le gocce che la superano.
+    const tratti = [
+      'M150 60c40-24 90-30 120-30s80 6 120 30',                                    // labbra
+      'M190 60c-10 90-6 190 10 300', 'M350 60c10 90 6 190-10 300',                  // faringe e trachea
+      'M200 360c-70 20-120 90-130 200-4 44 12 66 46 66 40 0 68-30 80-90V360z',     // polmone sx
+      'M340 360c70 20 120 90 130 200 4 44-12 66-46 66-40 0-68-30-80-90V360z',      // polmone dx
+      'M210 380c-30 30-50 70-56 120M330 380c30 30 50 70 56 120',                   // bronchi
+    ];
+    let k = 0;
+    const lbl = (x, y, t, cls, del) => `<text class="lbl ${cls}" x="${x}" y="${y}" style="animation-delay:${del}s">${piano(t)}</text>`;
+    return `<div class="vap"><div class="schema"><svg viewBox="0 0 900 660">
+      ${tratti.map(p => `<path class="tr" style="--i:${k++}" pathLength="1" d="${p}"/>`).join('')}
+      <path class="tubo" pathLength="1" d="M270 20v410"/>
+      <path class="pozza" d="M200 236c10-14 130-14 140 0v40c-10 10-130 10-140 0z"/>
+      <ellipse class="cuffia" cx="270" cy="300" rx="70" ry="28"/>
+      ${[0, 1, 2, 3].map(i => `<circle class="goccia" cx="${[212, 330, 226, 316][i]}" cy="${[330, 344, 372, 386][i]}" r="8" style="animation-delay:${num(1.9 + i * .15)}s"/>`).join('')}
+      <path class="polm" d="M340 360c70 20 120 90 130 200 4 44-12 66-46 66-40 0-68-30-80-90V360z"/>
+      <path class="polm" d="M200 360c-70 20-120 90-130 200-4 44 12 66 46 66 40 0 68-30 80-90V360z"/>
+      <line class="guida" x1="342" y1="250" x2="470" y2="200" style="animation-delay:1.6s"/>
+      ${lbl(478, 196, d.e1 ?? 'secrezioni colonizzate', 'acc', 1.6)}
+      ${lbl(478, 230, d.e1b ?? 'ristagnano sopra la cuffia', '', 1.6)}
+      <line class="guida" x1="342" y1="300" x2="470" y2="300" style="animation-delay:1.3s"/>
+      ${lbl(478, 308, d.e2 ?? 'la cuffia del tubo', '', 1.3)}
+      <line class="guida" x1="330" y1="380" x2="470" y2="400" style="animation-delay:2.1s"/>
+      ${lbl(478, 408, d.e3 ?? 'microaspirazione', 'acc', 2.1)}
+      <line class="guida" x1="440" y1="540" x2="500" y2="540" style="animation-delay:2.5s"/>
+      ${lbl(508, 548, d.e4 ?? 'polmonite', 'acc', 2.5)}
+    </svg></div>
+    <div class="tx"><h2>${acc(d.titolo)}</h2>${d.sotto ? `<div class="sotto">${acc(d.sotto)}</div>` : ''}</div></div>`;
+  },
+
+  // Un'illustrazione con i richiami numerati. punti: [{x, y, t, d}] in coordinate 0-240.
+  mappa: d => {
+    const ill = illustrazioneClinica(d.illu);
+    return `<div class="mappa ${d.punti.length > 6 ? 'fitta' : ''}"><div class="ill">${ill}
+      ${d.punti.map((p, i) => `<div class="pin" style="left:${num(p.x / 240 * 100)}%;top:${num(p.y / 240 * 100)}%;animation-delay:${num(1.3 + i * .14)}s">${i + 1}</div>`).join('')}</div>
+      <div class="voci">${d.punti.map((p, i) => `<div class="voce" style="animation-delay:${num(.5 + i * .14)}s"><div class="n">${i + 1}</div>
+        <div><div class="t">${acc(p.t)}</div>${p.d ? `<div class="d">${acc(p.d)}</div>` : ''}</div></div>`).join('')}</div></div>`;
+  },
+
+  // Una radice e due rami. radice: testo; rami: [{q:'quando', t, d, key}].
+  bivio: d => {
+    const W = 1656, H = 560;
+    const nodo = (x, y, w, h, cls, t, dd, del) => `<g class="nodo ${cls}" style="animation-delay:${del}s">
+      <rect x="${x}" y="${y}" width="${w}" height="${h}"/>
+      <foreignObject x="${x}" y="${y}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml">
+        <div class="t">${piano(t)}</div>${dd ? `<div class="d">${piano(dd)}</div>` : ''}</div></foreignObject></g>`;
+    const [a, b] = d.rami;
+    return `<div class="bivio"><svg class="fig gfx" viewBox="0 0 ${W} ${H}">
+      ${nodo(528, 20, 600, 150, 'radice', d.radice, '', .1)}
+      <path class="ramo" pathLength="1" d="M760 170c0 60-360 40-360 90" style="animation-delay:.7s"/>
+      <path class="ramo acc" pathLength="1" d="M896 170c0 60 360 40 360 90" style="animation-delay:.9s"/>
+      <text class="quando" x="400" y="300" text-anchor="middle" style="animation-delay:1.2s">${piano(a.q ?? '')}</text>
+      <text class="quando" x="1256" y="300" text-anchor="middle" style="animation-delay:1.4s">${piano(b.q ?? '')}</text>
+      ${nodo(40, 330, 720, 210, a.key ? 'key' : '', a.t, a.d, 1.35)}
+      ${nodo(896, 330, 720, 210, b.key ? 'key' : '', b.t, b.d, 1.55)}
+    </svg></div>`;
+  },
+};
+
+// L'illustrazione clinica: stessa fabbrica di figure.mjs, con il tratto «freccia».
+export const illustrazioneClinica = (n, cls = '') => {
+  const tratti = ILLU_CLINICA[n];
+  if (!tratti) return null;
+  let k = 0;
+  return `<svg class="illu ${cls}" viewBox="0 0 240 240" fill="none" stroke="currentColor"
+    stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${
+    tratti.map(t => t.startsWith('pieno:') ? `<path class="pieno" d="${t.slice(6)}" stroke="none"/>`
+      : t.startsWith('freccia:') ? `<path class="freccia" pathLength="1" d="${t.slice(8)}"/>`
+      : `<path class="tr" style="--i:${k++}" pathLength="1" d="${t}"/>`).join('')}</svg>`;
+};
+```
+
+## `slide/cards.mjs`
+
+Renderizza le 50 slide in PNG con Playwright, animazioni bloccate al
+fotogramma voluto. Scrive anche `troppo-alte.json`: e' il controllo
+geometrico di traboccamento.
+
+```javascript
+// Renderizza i PNG fermi di tutte le scene: servono per guardarle e correggerle.
+import { chromium } from 'playwright';
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { SCENE } from './contenuti.mjs';
+import { html } from './layout.mjs';
+
+// il numero di lezione viene dal nome della cartella: progetti/m1-l1.2-profilo -> 1.2
+const LEZIONE = (new URL('..', import.meta.url).pathname.match(/-l([\d.]+)-/) || [,'?'])[1];
+
+const OUT = new URL('./png/', import.meta.url).pathname;
+mkdirSync(OUT, { recursive: true });
+
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
+
+const troppoAlte = [];
+for (const [i, s] of SCENE.entries()) {
+  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
+                     { waitUntil: 'load' });
+  await p.evaluate(() => document.fonts.ready);
+  await p.evaluate(() => document.getAnimations().forEach(a => { a.currentTime = 4000; }));
+  // Controllo di traboccamento. Attenzione: NON basta guardare scrollHeight di
+  // .corpo. E' un flex item con flex:1, quindi quando il contenuto e' troppo
+  // alto non scrolla: cresce, e a tagliare e' la slide. Il confronto giusto e'
+  // geometrico, fra il rettangolo del corpo e la cornice interna della slide.
+  const over = await p.evaluate(() => {
+    const c = document.querySelector('.corpo');
+    const s = document.querySelector('.slide');
+    const st = getComputedStyle(s);
+    const rc = c.getBoundingClientRect(), rs = s.getBoundingClientRect();
+    const alto  = rs.top    + parseFloat(st.paddingTop);
+    const basso = rs.bottom - parseFloat(st.paddingBottom);
+    const sx    = rs.left   + parseFloat(st.paddingLeft);
+    const dx    = rs.right  - parseFloat(st.paddingRight);
+    return {
+      sfora: Math.round(Math.max(0, rc.bottom - basso) + Math.max(0, alto - rc.top)
+                        + Math.max(0, c.scrollHeight - c.clientHeight)),
+      largo: Math.round(Math.max(0, rc.right - dx) + Math.max(0, sx - rc.left)
+                        + Math.max(0, c.scrollWidth - c.clientWidth)),
+    };
+  });
+  if (over.sfora > 1 || over.largo > 1) troppoAlte.push([s.id, over]);
+  await p.screenshot({ path: `${OUT}${s.id}.png` });
+  process.stdout.write(`${s.id} `);
+}
+await b.close();
+console.log('\n');
+if (troppoAlte.length) {
+  console.log('SFORANO LA CORNICE:');
+  for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
+} else console.log('nessuna slide sfora la cornice');
+writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));
+```
+
+## `slide/clips.mjs`
+
+Trasforma in MP4 le sole scene animate, catturando i fotogrammi a passo fisso:
+3,2 s a 25 fps. Con uno o piu' id sulla riga di comando rifa' solo quelli.
+
+```javascript
+// Dallo stesso layout dei PNG: i fotogrammi dell'ingresso, poi mp4 a 25 fps.
+// Il tempo non scorre da solo: ogni fotogramma sposta a mano l'orologio delle
+// animazioni, cosi' il render e' identico a ogni esecuzione.
+import { chromium } from 'playwright';
+import { mkdirSync, rmSync, existsSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { SCENE } from './contenuti.mjs';
+import { html } from './layout.mjs';
+
+// il numero di lezione viene dal nome della cartella: progetti/m1-l1.2-profilo -> 1.2
+const LEZIONE = (new URL('..', import.meta.url).pathname.match(/-l([\d.]+)-/) || [,'?'])[1];
+
+const FPS = 25, DURATA = 3.2;              // l'ingresso e i disegni finiscono entro 2,8 s
+const FOTOGRAMMI = Math.round(FPS * DURATA);
+const QUI = new URL('.', import.meta.url).pathname;
+const FF = execFileSync('python3', ['-c',
+  'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())']).toString().trim();
+
+// solo i blocchi: copertina e chiusura vanno in scena come immagini ferme
+// Con uno o piu' id sulla riga di comando si rifanno solo quelli: una slide
+// corretta non deve costare la ri-resa delle altre quarantasette.
+const SOLO = new Set(process.argv.slice(2));
+const DA_ANIMARE = SCENE.filter(s => s.tipo !== 'copertina')
+                        .filter(s => SOLO.size === 0 || SOLO.has(s.id));
+
+mkdirSync(`${QUI}mp4`, { recursive: true });
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
+
+for (const s of DA_ANIMARE) {
+  const i = SCENE.indexOf(s);
+  const dir = `${QUI}fotogrammi/${s.id}`;
+  rmSync(dir, { recursive: true, force: true }); mkdirSync(dir, { recursive: true });
+  await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
+                     { waitUntil: 'load' });
+  await p.evaluate(() => document.fonts.ready);
+  for (let f = 0; f < FOTOGRAMMI; f++) {
+    await p.evaluate(ms => document.getAnimations().forEach(a => { a.currentTime = ms; }),
+                     (f / FPS) * 1000);
+    await p.screenshot({ path: `${dir}/${String(f).padStart(3, '0')}.png` });
+  }
+  execFileSync(FF, ['-y', '-v', 'error', '-framerate', String(FPS), '-i', `${dir}/%03d.png`,
+    '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
+    '-an', `${QUI}mp4/${s.id}.mp4`]);
+  rmSync(dir, { recursive: true, force: true });
+  process.stdout.write(`${s.id} `);
+}
+await b.close();
+console.log(`\n${DA_ANIMARE.length} clip da ${DURATA}s scritte in mp4/`);
+```
+
+## `monta-scene.py`
+
+Costruisce il payload delle scene per il montaggio: ogni scena video porta
+`audio_asset_id` e `playback: freeze + mute`, altrimenti si tronca a ~3,2 s.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Per ogni blocco: la clip dell'ingresso (3,2 s) + l'ultimo fotogramma tenuto
+fino alla durata del parlato, con l'mp3 del blocco dentro. Una scena, un file."""
+import json, subprocess, re
+from pathlib import Path
+import imageio_ffmpeg
+
+QUI = Path(__file__).resolve().parent
+FF  = imageio_ffmpeg.get_ffmpeg_exe()
+OUT = QUI/"scene"; OUT.mkdir(exist_ok=True)
+
+def durata(f):
+    o = subprocess.run([FF,"-i",str(f),"-f","null","-"],capture_output=True,text=True).stderr
+    t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
+    return int(t[0])*3600+int(t[1])*60+float(t[2])
+
+reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+tot = 0.0; righe = []
+for r in reg:
+    idb, d = r["id"], r["durata"]
+    clip, mp3, out = QUI/"slide"/"mp4"/f"{idb}.mp4", QUI/"audio"/"blocchi"/f"{idb}.mp3", OUT/f"{idb}.mp4"
+    p = subprocess.run([FF,"-y","-v","error","-i",str(clip),"-i",str(mp3),
+        "-filter_complex", f"[0:v]tpad=stop_mode=clone:stop_duration={d+1:.3f},fps=25[v]",
+        "-map","[v]","-map","1:a","-t",f"{d:.3f}",
+        "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
+        "-c:a","aac","-b:a","160k","-movflags","+faststart",str(out)],
+        capture_output=True,text=True)
+    if p.returncode: print(idb, p.stderr[-400:]); raise SystemExit(1)
+    dr = durata(out); tot += dr
+    righe.append((idb, d, dr, abs(dr-d)))
+    print(f"  {idb}  audio {d:6.2f}s  scena {dr:6.2f}s  scarto {abs(dr-d)*1000:4.0f} ms")
+
+peggio = max(righe, key=lambda x: x[3])
+m = tot + 3 + 10
+print(f"\n48 scene · parlato {tot:.1f} s · con copertina 3 s e chiusura 10 s → {int(m//60)}:{m%60:04.1f}")
+print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")
+```
+
+## `monta-locale.py`
+
+Il montaggio di prova in locale con ffmpeg: serve a guardare il video prima
+di spendere una resa vera.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Copia locale del montato: copertina 3 s + le 48 scene + chiusura 10 s.
+Serve a verificare la durata e a guardare il risultato senza aspettare HeyGen."""
+import json, subprocess, re
+from pathlib import Path
+import imageio_ffmpeg
+QUI = Path(__file__).resolve().parent
+import re as _re
+LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
+FF  = imageio_ffmpeg.get_ffmpeg_exe()
+TMP = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
+sh  = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
+
+def durata(f):
+    t = re.findall(r"time=(\d+):(\d+):([\d.]+)", sh(FF,"-i",f,"-f","null","-").stderr)[-1]
+    return int(t[0])*3600+int(t[1])*60+float(t[2])
+
+# copertina e chiusura: immagine ferma + silenzio, cosi' hanno una traccia audio
+for idb, sec in (("s01", 3), ("s50", 10)):
+    sh(FF,"-y","-v","error","-loop","1","-t",str(sec),"-i",QUI/"slide"/"png"/f"{idb}.png",
+       "-f","lavfi","-t",str(sec),"-i","anullsrc=r=44100:cl=stereo",
+       "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p","-r","25",
+       "-c:a","aac","-b:a","160k","-shortest",TMP/f"{idb}.mp4")
+
+reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+ordine = [TMP/"s01.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg] + [TMP/"s50.mp4"]
+(TMP/"lista.txt").write_text("".join(f"file '{p.resolve()}'\n" for p in ordine), encoding="utf-8")
+sh(FF,"-y","-v","error","-f","concat","-safe","0","-i",TMP/"lista.txt",
+   "-c","copy","-movflags","+faststart",QUI/f"montato-{LEZIONE}.mp4")
+
+# sottotitoli: dal copione e dalle durate reali dei blocchi
+def hms(t):
+    h=int(t//3600); m=int(t%3600//60); s=t%60
+    return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".",",")
+bl = {x["id"]: re.sub(r"\[[a-z]+\]","",x["text"]).strip()
+      for x in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+righe, t, n = [], 3.0, 0
+for r in reg:
+    n += 1
+    righe.append(f"{n}\n{hms(t)} --> {hms(t+r['durata'])}\n{bl[r['id']]}\n")
+    t += r["durata"]
+(QUI/f"montato-{LEZIONE}.srt").write_text("\n".join(righe), encoding="utf-8")
+
+d = durata(QUI/f"montato-{LEZIONE}.mp4")
+print(f"montato-{LEZIONE}.mp4  {int(d//60)}:{d%60:05.2f}  "
+      f"{(QUI/f'montato-{LEZIONE}.mp4').stat().st_size//1024//1024} MB")
+print(f"montato-{LEZIONE}.srt  {n} sottotitoli")
+print(sh(FF,"-i",QUI/f"montato-{LEZIONE}.mp4","-f","null","-").stderr.split("Stream #0")[1][:150])
+```
+
+## `controlli.py`
+
+Gli otto controlli del §6, in un colpo solo.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""I controlli del MASTER §5, tutti in una volta."""
+import json, re, subprocess
+from pathlib import Path
+import imageio_ffmpeg
+QUI = Path(__file__).resolve().parent
+import re as _re
+LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
+FF  = imageio_ffmpeg.get_ffmpeg_exe()
+ok = lambda b: "OK  " if b else "NO  "
+esiti = []
+
+# La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
+# che ha trovato e' stato corretto e poi ricontrollato con una controprova.
+f = QUI/"audio"/"esiti-verifica.json"
+corr = QUI/"audio"/"correzioni.json"
+ctrl = sorted((QUI/"audio"/"trascrizioni").glob("controprova*.txt")) if (QUI/"audio"/"trascrizioni").exists() else []
+txt = QUI/"audio"/"esiti-testo.json"
+if not f.exists() and txt.exists():
+    # Strada alternativa: la trascrizione dell'intera traccia grezza. Prova che
+    # la voce ha detto tutto - l'errore che in 1.1 e' costato una rigenerazione -
+    # ma non dove cadono i tagli, perche' la trascrizione non porta i tempi.
+    # Per quelli restano l'allineamento DTW e controllo-statistico.py.
+    e = json.loads(txt.read_text(encoding="utf-8"))
+    buchi = sum(len(v["buchi"]) for v in e.values())
+    perc = min(100*v["coincidenti"]/v["parole_copione"] for v in e.values())
+    esiti.append((not buchi, f"verifica per trascrizione (traccia intera): {perc:.1f}% "
+                             f"delle parole coincide, buchi nel parlato: {buchi}"))
+elif not f.exists():
+    esiti.append((False, "verifica per trascrizione: NON ESEGUITA — manca prova.txt"))
+else:
+    fuori = [e for e in json.loads(f.read_text(encoding="utf-8")) if not e["ok"]]
+    if not fuori:
+        esiti.append((True, "verifica per trascrizione: nessun confine fuori posto"))
+    elif corr.exists() and ctrl:
+        n = sum(len(v) for v in json.loads(corr.read_text(encoding="utf-8")).values())
+        bastano = n >= len(fuori)
+        esiti.append((bastano, f"verifica: {len(fuori)} fuori posto alla prova, {n} corretti "
+                          f"e ricontrollati con controprova -> {max(0,len(fuori)-n)}"))
+    else:
+        esiti.append((False, f"verifica per trascrizione: {len(fuori)} confini fuori posto, non corretti"))
+
+reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+# La velocita' si misura sul parlato: senza i tag di regia e senza la posa che
+# `applica` aggiunge apposta ai blocchi corti (le frasi sul verde a 4,6 s).
+_testi = {b["id"]: re.sub(r"\[[^\]]*\]\s*", "", b["text"])
+          for b in json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+for r in reg:
+    parlato = r["durata"] - r.get("posa", 0)
+    r["cps"] = round(len(_testi.get(r["id"], "x"*r["car"])) / parlato, 1) if parlato > 0 else r["cps"]
+male = [r for r in reg if not 8.5 <= r["cps"] <= 21]
+esiti.append((not male, "fascia 8,5-21 car/s: " +
+  (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
+
+png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
+esiti.append((len(png)==50, f"50 PNG renderizzati e guardati: {len(png)}"))
+sfora = json.loads((QUI/"slide"/"troppo-alte.json").read_text(encoding="utf-8"))
+esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"))
+
+scene = sorted(Path(QUI/"scene").glob("*.mp4"))
+esiti.append((len(scene)+2 <= 50, f"scene totali: {len(scene)+2} (tetto 50)"))
+
+o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
+                   capture_output=True,text=True).stderr
+t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
+d = int(t[0])*3600+int(t[1])*60+float(t[2])
+esiti.append((d >= 480, f"durata {int(d//60)}:{d%60:05.2f} — richiesto «8 minuti almeno»"))
+
+srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
+n = len(re.findall(r"-->", srt))
+esiti.append((n==48, f"sottotitoli SRT: {n} righe"))
+
+rf = QUI/"REGISTRO.md"
+esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),
+              "registro con la sezione «da verificare»"))
+
+print("CONTROLLI PRIMA DI CONSEGNARE (MASTER §5)\n")
+for b,t in esiti: print(f"  [{ok(b)}] {t}")
+print(f"\n{sum(1 for b,_ in esiti if b)}/{len(esiti)} superati")
+```
+
+## `slide/contenuti.mjs — esempio`
+
+Il secondo dei due file per lezione: le 50 scene, una per blocco. Questo e'
+quello della 1.8, riportato per intero come esempio di come si usano i 13
+tipi grafici.
+
+```javascript
+// Contenuto delle 50 scene della lezione 2.8 — il riepilogo del modulo.
+
+const MAPPA = [
+ {n:"2.1", t:"**Il processo di assistenza** — i cinque passi"},
+ {n:"2.2", t:"**Modelli e tassonomie** — le categorie con cui si guarda"},
+ {n:"2.3", t:"**Accertamento e scale**"},
+ {n:"2.4", t:"**La documentazione infermieristica**"},
+ {n:"2.5", t:"**EBP, linee guida, PDTA e procedure**"},
+ {n:"2.6", t:"**Rischio clinico** e sicurezza del paziente"},
+ {n:"2.7", t:"**Comunicazione clinica** e continuità", key:true},
+];
+
+const CATENA = [
+ {t:"Raccolgo", d:"con le categorie della disciplina"},
+ {t:"Decido", d:"sulle migliori evidenze disponibili"},
+ {t:"Documento", d:"ciò che faccio"},
+ {t:"Comunico", d:"nei passaggi"},
+ {t:"Sorveglio", d:"il sistema: l'errore è prevedibile", key:true},
+];
+
+const CONF = [
+ {n:"1", t:"**Obiettivo o intervento** — guarda il *soggetto* della frase"},
+ {n:"2", t:"**Reale o di rischio** — con i segni, oppure senza"},
+ {n:"3", t:"**Diagnosi o problema collaborativo** — si tratta, oppure si sorveglia"},
+ {n:"4", t:"**Henderson 14, Gordon 11** — non il contrario"},
+ {n:"5", t:"**NOC o NIC** — outcome, oppure interventi"},
+ {n:"6", t:"**Braden o Conley** — lesioni inverso, cadute diretto"},
+ {n:"7", t:"**Linea guida, procedura, PDTA** — cosa, come qui, chi lungo il percorso"},
+ {n:"8", t:"**Near miss o evento avverso** — non arriva, oppure arriva", key:true},
+];
+
+const FORMULE = [
+ {n:"1", t:"**PES** — problema, etiologia, segni e sintomi *(di rischio: PE)*"},
+ {n:"2", t:"**PICO** — popolazione, intervento, confronto, esito"},
+ {n:"3", t:"**SBAR** — situation, background, assessment, recommendation"},
+ {n:"4", t:"**CAM** — 1 + 2 + (3 oppure 4)"},
+ {n:"5", t:"**EBP** — evidenze + competenza clinica + valori della persona", key:true},
+];
+
+const VENETO = [
+ {n:"1", t:"Il processo sta dentro la **cartella clinica elettronica** — scale integrate, rivalutazioni a intervalli definiti"},
+ {n:"2", t:"La catena delle evidenze: **SNLG → indirizzo regionale e PDTA → procedura aziendale → pratica**, spesso dentro le **reti cliniche**"},
+ {n:"3", t:"La filiera del rischio: **operatore → risk management → Centro regionale → Osservatorio nazionale**, con il **Difensore civico** Garante"},
+ {n:"4", t:"La continuità verso il territorio: **dimissioni protette, COT, infermiere di famiglia e comunità**", key:true},
+];
+
+export const SCENE = [
+{id:"s01", tipo:"copertina", tema:"chiaro",
+  modulo:"Modulo 2 · Riepilogo",
+  titolo:"Ricomponiamo<br>il modulo", sottotitolo:"Nessun contenuto nuovo: la mappa, i numeri, le confusioni, i casi",
+  ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
+
+{id:"s02", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
+  sopratitolo:"Che cosa c'è in questo video",
+  celle:[
+   {n:"1", t:"La **mappa** delle sette lezioni"},
+   {n:"2", t:"Il **filo** che le tiene insieme"},
+   {n:"3", t:"I **numeri** e le **formule**"},
+   {n:"4", t:"Le **confusioni** e i **casi tipici**", key:true}]},
+
+{id:"s03", tipo:"figura", tema:"chiaro", sopratitolo:"Come usarlo", illu:"orologio", lato:"dx",
+  titolo:"Guardalo **due volte**:<br>adesso, e la settimana<br>prima della prova.",
+  sotto:"Quando serve rimettere in ordine quello che nel frattempo si è sparpagliato."},
+
+{id:"s04", tipo:"titolo", tema:"tenue", sopratitolo:"Un avvertimento",
+  titolo:"Un ripasso serve<br>a **trovare i buchi**,<br>non a riempirli tutti.",
+  sotto:"Se un punto ti sfugge, riprendi quella lezione — non tutto il modulo da capo."},
+
+{id:"s05", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"La mappa del modulo", celle:MAPPA},
+{id:"s06", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"La mappa del modulo", celle:MAPPA},
+{id:"s07", tipo:"figura", tema:"chiaro", sopratitolo:"Come tenerle insieme", illu:"bussola",
+  titolo:"Non sette argomenti:<br>**sette punti di una<br>sola linea**.",
+  sotto:"Ed è la linea che conviene saper raccontare all'orale."},
+
+{id:"s08", tipo:"catena", tema:"chiaro", sopratitolo:"Il filo del modulo, in cinque verbi", attive:[0,1],
+  passi:CATENA},
+{id:"s09", tipo:"catena", tema:"chiaro", sopratitolo:"Il filo del modulo, in cinque verbi",
+  passi:CATENA},
+{id:"s10", tipo:"raggiera", tema:"chiaro", sopratitolo:"Tre facce dello stesso lavoro", centro:"Il lavoro",
+  raggi:[{t:"Metodo", d:"raccolgo e decido"},{t:"Sicurezza", d:"comunico e sorveglio", key:true},{t:"Prova", d:"documento"}]},
+
+{id:"s11", tipo:"ciclo", tema:"chiaro", sopratitolo:"Dalla 2.1 · il processo è ciclico", centro:"Il processo",
+  passi:[{t:"Accertamento"},{t:"Diagnosi"},{t:"Pianificazione"},{t:"Attuazione"},{t:"Valutazione", d:"riapre l'accertamento", key:true}]},
+
+{id:"s12", tipo:"confronto", tema:"chiaro", sopratitolo:"Le due diagnosi",
+  col:[
+   {h:"Reale — PES", t:"**P**roblema · **E**tiologia · **S**egni e sintomi"},
+   {h:"Di rischio — PE", t:"**Senza segni**: se i segni ci fossero, non sarebbe più un rischio"}]},
+
+{id:"s13", tipo:"scala", tema:"chiaro", sopratitolo:"Le priorità, in quest'ordine",
+  gradini:[
+   {n:"1", t:"ABC", d:"prima di tutto"},
+   {n:"2", t:"Rischio di danno a breve", d:"poi"},
+   {n:"3", t:"Impatto e percezione", d:"sull'autonomia, e come la vive la persona", key:true}]},
+
+{id:"s14", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.2 · i numeri dei modelli",
+  intestazioni:["Modello","Quanti"], colonne:["58%","42%"],
+  righe:[
+   ["**Metaparadigma**","**4** concetti"],
+   ["**Henderson** — bisogni","**14**"],
+   ["**Gordon** — modelli funzionali","**11**"],
+   ["**Orem** — sistemi","**3**"]]},
+
+{id:"s15", tipo:"catena", tema:"chiaro", sopratitolo:"La catena delle tassonomie",
+  passi:[
+   {t:"NANDA-I", d:"le diagnosi"},
+   {t:"NOC", d:"i risultati — *outcome*"},
+   {t:"NIC", d:"gli interventi", key:true}]},
+
+{id:"s16", tipo:"titolo", tema:"chiaro", sopratitolo:"Come non sbagliare NOC e NIC",
+  titolo:"NO**C** come out**c**ome.<br>NI**C** come **i**ntervento.",
+  sotto:"La lettera che cambia nella sigla è la stessa che cambia nel significato."},
+
+{id:"s17", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.3 · la slide da fotografare",
+  intestazioni:["Scala","Che cosa misura","Intervallo","Soglia"], colonne:["22%","38%","20%","20%"],
+  righe:[
+   ["**Braden**","lesioni da pressione","6 – 23","**≤ 16**"],
+   ["**Norton**","lesioni da pressione","5 – 20","**≤ 14**"],
+   ["**Conley**","rischio di caduta","0 – 10","**≥ 2**"],
+   ["**Tinetti**","equilibrio e andatura","0 – 28","**< 19**"]]},
+{id:"s18", tipo:"tabella", tema:"chiaro", sopratitolo:"Dalla 2.3 · la slide da fotografare",
+  intestazioni:["Scala","Che cosa misura","Intervallo","Soglia"], colonne:["22%","38%","20%","20%"],
+  righe:[
+   ["**Barthel**","autonomia nelle ADL","0 – 100","—"],
+   ["**Glasgow**","stato di coscienza","3 – 15","**coma ≤ 8**"],
+   ["**CAM**","delirium","—","**1 + 2 + (3 o 4)**"],
+   ["**MUST**","rischio nutrizionale","0 – 6","**≥ 2** alto"]]},
+{id:"s19", tipo:"figura", tema:"chiaro", sopratitolo:"Se devi trascrivere una cosa sola", illu:"termometro", lato:"dx",
+  titolo:"Otto scale,<br>**otto intervalli**.",
+  sotto:"È la parte che si dimentica per prima, perché sono numeri senza appiglio."},
+
+{id:"s20", tipo:"confronto", tema:"chiaro", sopratitolo:"La regola che risolve metà delle domande",
+  col:[
+   {h:"Misura una capacità", t:"**Più alto è meglio** — Barthel 100 è ottimo"},
+   {h:"Misura un rischio", t:"**Più alto è peggio** — Conley 10 è pessimo"}]},
+
+{id:"s21", tipo:"titolo", tema:"chiaro", sopratitolo:"Fin qui è intuitivo",
+  titolo:"E infatti non è qui<br>che si sbaglia.",
+  sotto:"Si sbaglia sulle due eccezioni."},
+
+{id:"s22", tipo:"trappola", tema:"profondo", sopratitolo:"Le due eccezioni",
+  righe:[
+   {sb:"«Misura un rischio, quindi più alto è peggio»",
+    ok:"**Braden e Norton** misurano un rischio con punteggio **inverso**: più basso, più a rischio"}]},
+
+{id:"s23", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s24", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s25", tipo:"cifre", tema:"chiaro", sopratitolo:"Henderson o Gordon",
+  voci:[{n:14, t:"Henderson", d:"i bisogni fondamentali", key:true},{n:11, t:"Gordon", d:"i modelli funzionali di salute — i meno numerosi dei due"}]},
+
+{id:"s26", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3,4,5],
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s27", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Le otto confusioni che costano di più", celle:CONF},
+{id:"s28", tipo:"tre", tema:"chiaro", sopratitolo:"Le tre parole dell'evento",
+  box:[
+   {n:"1", t:"Near miss", d:"l'errore **non arriva** al paziente"},
+   {n:"2", t:"Evento avverso", d:"il danno **c'è**"},
+   {n:"3", t:"Complicanza", d:"**attesa** — non presuppone un errore", key:true}]},
+
+{id:"s29", tipo:"trappola", tema:"chiaro", sopratitolo:"Caso · la traccia con dati incompleti",
+  righe:[
+   {sb:"Scegliere l'intervento più sensato fra quelli proposti",
+    ok:"Si comincia **raccogliendo il dato mancante** — è quasi sempre quella l'opzione giusta"}]},
+
+{id:"s30", tipo:"titolo", tema:"chiaro", sopratitolo:"Caso · «quale intervento ha la priorità?»",
+  titolo:"**ABC**, poi rischio di<br>danno a breve, poi impatto<br>e percezione.",
+  sotto:"In quest'ordine, sempre."},
+
+{id:"s31", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Caso · Braden 12 in paziente allettato",
+  celle:[
+   {n:"1", t:"Cambi posturali **programmati**"},
+   {n:"2", t:"Superficie **antidecubito**"},
+   {n:"3", t:"Gestione dell'**umidità**"},
+   {n:"4", t:"Valutazione **nutrizionale**"},
+   {n:"5", t:"**Ispezione cutanea** a ogni turno", key:true}]},
+
+{id:"s32", tipo:"titolo", tema:"profondo", sopratitolo:"Perché il punteggio non basta",
+  titolo:"Una scala compilata e<br>non seguita da niente è<br>**peggio** di una non compilata.",
+  sotto:"Dimostra che il rischio era noto. Al punteggio deve corrispondere una modifica del piano."},
+
+{id:"s33", tipo:"catena", tema:"chiaro", sopratitolo:"Caso · prescrizione illeggibile o dubbia",
+  passi:[
+   {t:"Chiedo chiarimento", d:"al prescrittore"},
+   {t:"Non do corso", d:"se il dubbio permane"},
+   {t:"Documento", d:"il dubbio e la richiesta", key:true}]},
+
+{id:"s34", tipo:"confronto", tema:"chiaro", sopratitolo:"Altri due casi, due risposte",
+  col:[
+   {h:"Near miss intercettato", t:"**Segnalo comunque** — è apprendimento gratuito"},
+   {h:"Chiamata al medico", t:"Strutturo con **SBAR**, esplicitando **valutazione e richiesta**"}]},
+
+{id:"s35", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
+{id:"s36", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2,3],
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
+{id:"s37", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Cinque formule da citare per intero", celle:FORMULE},
+
+{id:"s38", tipo:"figura", tema:"chiaro", sopratitolo:"La frase del modulo", illu:"cartella",
+  titolo:"Ciò che non è documentato<br>si presume **non fatto**.",
+  sotto:"L'abbiamo incontrata nella 1.5, e non ci ha più lasciati."},
+
+{id:"s39", tipo:"griglia", tema:"chiaro", colonne:2, spunta:false,
+  sopratitolo:"Per che cosa vale — cioè per tutto",
+  celle:[
+   {n:"1", t:"La **scala** compilata"},
+   {n:"2", t:"La **segnalazione** fatta al medico"},
+   {n:"3", t:"Il **rifiuto** della persona"},
+   {n:"4", t:"La **rivalutazione** del dolore", key:true}]},
+
+{id:"s40", tipo:"titolo", tema:"profondo", sopratitolo:"Perché non è burocrazia",
+  titolo:"La memoria non fa prova.<br>Il **documento** sì.",
+  sotto:"È l'unico modo in cui il lavoro che hai fatto continua a esistere a distanza di anni."},
+
+{id:"s41", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s42", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s43", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false, attive:[0,1,2],
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+
+{id:"s44", tipo:"griglia", tema:"chiaro", colonne:1, spunta:false,
+  sopratitolo:"Quattro agganci veneti da portare all'orale", celle:VENETO},
+{id:"s45", tipo:"confronto", tema:"chiaro", sopratitolo:"Come proseguire · i primi due passi",
+  col:[
+   {h:"Primo", t:"Il **test del modulo** — 30 domande, soglia 21"},
+   {h:"Secondo", t:"Riprendi **solo le lezioni** che gli errori ti hanno segnalato, non tutto il modulo da capo"}]},
+{id:"s46", tipo:"figura", tema:"chiaro", sopratitolo:"Terzo passo", illu:"libro", lato:"dx",
+  titolo:"Nel quaderno di ripasso:<br>**i numeri delle scale**<br>e le **formule**.",
+  sotto:"È la parte che si dimentica per prima, ed è anche l'unica che si recupera in cinque minuti."},
+
+{id:"s47", tipo:"titolo", tema:"profondo", sopratitolo:"Il consiglio con il rendimento più alto del corso",
+  titolo:"Lo schema in cinque passi<br>della 2.1, su **due casi**.",
+  sotto:"Non su venti: su due, fatti bene."},
+
+{id:"s48", tipo:"confronto", tema:"chiaro", sopratitolo:"Dove sei arrivato",
+  col:[
+   {h:"Modulo 1", t:"La **grammatica** della professione"},
+   {h:"Modulo 2", t:"La **sintassi**: il metodo, la prova, la sicurezza"}]},
+
+{id:"s49", tipo:"figura", tema:"chiaro", sopratitolo:"E dal modulo 3", illu:"stetoscopio",
+  titolo:"Il metodo<br>diventa **clinica**.",
+  sotto:"Bisogni fondamentali, comfort, assistenza di base avanzata: la parte che pesa di più nella prova pratica."},
+
+{id:"s50", tipo:"copertina", tema:"profondo",
+  modulo:"Prossimo modulo",
+  titolo:"Modulo 3", sottotitolo:"Bisogni fondamentali, comfort<br>e assistenza di base avanzata",
+  ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
+];
+```
