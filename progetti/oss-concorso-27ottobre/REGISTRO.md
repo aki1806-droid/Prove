@@ -28,3 +28,5 @@ Logo: logo_cisl_fp.png (CISL FP Padova Rovigo, 225x109 trasparente) dai progetti
       dove spariva; in chiusura il logo è ingrandito.
 Lotto asset HeyGen: 01241d83148949dc9fe31f0118e1742e (16 audio + 14 PNG) — id in heygen-lotto.json
 Avatar: Aki in his studio — 89cf01e0c22547169c460186be0c67a8 (photo avatar, orizzontale)
+Montaggio: create_video_from_studio, 18 scene, 16:9, 1080p, sottotitoli impressi + SRT
+Video ID: 7ff9f14d3a502dc08de9d1fca4156fca
