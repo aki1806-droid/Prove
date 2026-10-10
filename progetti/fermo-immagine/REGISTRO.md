@@ -16,3 +16,6 @@ Scene del montaggio: heygen-scene.json (21 scene, ordine di scene.json)
 
 ## Montaggio HeyGen
 - Video studio lanciato il 2026-10-10: video_id `240246d037576d93efbc67d94aa8e070` (16:9, 1080p, sottotitoli srt).
+- Render completato (138,5 s, 1920x1080, 25 fps). Scaricati: FermoImmagine_16x9_sottotitoli.mp4 (60 MB, non versionato), FermoImmagine_16x9.srt.
+- Controllo: un fotogramma per scena (21/21) in ordine, avatar polo verde nelle scene avatar, testo SRT conforme ai testi voce.
+- Inviata all'utente la copia compressa FermoImmagine_16x9_compresso.mp4 (27,8 MB, due passate) + SRT.
