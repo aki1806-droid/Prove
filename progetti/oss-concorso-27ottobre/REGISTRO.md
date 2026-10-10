@@ -30,3 +30,10 @@ Lotto asset HeyGen: 01241d83148949dc9fe31f0118e1742e (16 audio + 14 PNG) — id 
 Avatar: Aki in his studio — 89cf01e0c22547169c460186be0c67a8 (photo avatar, orizzontale)
 Montaggio: create_video_from_studio, 18 scene, 16:9, 1080p, sottotitoli impressi + SRT
 Video ID: 7ff9f14d3a502dc08de9d1fca4156fca
+Render completato: 292,56 s (4:52,6), 1920x1080, 25 fps. Scaricati la versione con sottotitoli
+impressi (caption.mp4, 82,5 MB) e l'SRT (145 righe, in repo: OSS_Concorso_27ottobre_v3.srt).
+Copia d'invio _invio.mp4: 680 kb/s in due passate, 28,4 MB. I video restano fuori da git.
+Controlli: fotogramma a metà di ogni scena, 18 scene nell'ordine giusto; nell'SRT (trascrizione
+HeyGen dell'audio) A4, concorsi@azero.veneto.it, DPR 445 del 2000, Kioene Arena, 18 bis risultano
+resi correttamente. Sottotitoli impressi in stile «default» di HeyGen: piccoli.
+Da confermare prima di pubblicare: S15, permessi retribuiti per concorsi (articolo CCNL vigente).
