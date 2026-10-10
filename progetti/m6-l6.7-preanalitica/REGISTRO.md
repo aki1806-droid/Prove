@@ -97,6 +97,23 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ---
 
+## Correzione del 10 ottobre 2026
+
+I valori dell'emocromo della 6.7 (donna 12-15 g/dl, piastrine
+150.000-400.000) non coincidevano con quelli del modulo 14, che li dà due
+volte (14.7 e 14.8: donna 12-16, piastrine 150.000-450.000). Tutte e due
+le coppie sono intervalli usati dai laboratori, e tutte e due le lezioni
+dicono che fa fede il referto, ma uno studente che le vede in fila si
+chiede quale sia giusta. Allineata la 6.7 al modulo 14, nel parlato (s34)
+e sulla slide.
+
+Rigenerata **solo la traccia B** (s25-s49), con l'atempo della resa
+pubblicata (1,026): `metodo/strumenti/ritaglia-traccia.py`. Verifica per
+trascrizione: A 619/624, B 637/643, nessun buco; i valori nuovi sono detti
+per intero. Clip e PNG ri-renderizzati sulla macchina nuova (caratteri
+ricostruiti da npm, `metodo/strumenti/font-incorporati.py`), 98 file
+ricaricati. Giro 8/8, montato locale 8:56.8.
+
 ## La resa
 
 | | |

@@ -88,8 +88,12 @@ tutti i 98 file.
 
 | | |
 |---|---|
-| resa pubblicata | `e0e1e7d71eb9d1e2365f4a8866c486e7` — 524.215 s (8:44.2), 1080p 16:9, resa in 93 s, con SRT (`subtitle_url`) |
+| resa pubblicata | `e514af37fc53d7af7e6e371ad4d01711` — 528.435 s (8:48.4), 1080p 16:9, resa in 93 s, con SRT (`subtitle_url`) |
 | lotto asset | `c04722168c9143b7b29e4660bd077b35` — 98 file, 20 MB, tutti completati |
+
+### Rese precedenti
+
+- `e0e1e7d71eb9d1e2365f4a8866c486e7` (8:44.2): sostituita il 10/10/2026. Ematocrito (s05) ed emocolture (s42) corretti: tutte e due le tracce rigenerate, 98 file ricaricati (lotto 87c37b0404ca4977a3fa6df7102aa203).
 
 ---
 
