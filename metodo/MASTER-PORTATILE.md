@@ -964,6 +964,9 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | tagli | un blocco a 21,1 car/s con il confine giusto, a metà di una pausa di 1 s (14.5 `s40`) | spostare il confine nella pausa non serve, perché `applica` toglie il silenzio. Si abbassa `MIRA` della lezione (16,6 → 16,4) e la lezione si allunga di 6 s |
 | macchina | il container si riavvia e le code di clip e giri muoiono a metà (14.5-14.8) | i file già scritti restano: si rilanciano `dopo-correzioni.sh`, `giro-coda.sh` e `clips-coda.sh` con `setsid nohup`; la coda dei clip salta da sola le lezioni già a 48 |
 | git | `_trim-B.mp3` committato per sbaglio: è un temporaneo di `ritmo()` che si cancella da solo | `_trim-*.mp3` sta in `.gitignore` |
+| macchina | la sessione riparte su un container NUOVO: la repository è clonata da capo, lo scratchpad è vuoto, mancano `slide/font/font-incorporati.css`, le tracce grezze, i PNG e le clip (tutti in `.gitignore`) | `metodo/strumenti/`: `font-incorporati.py` (caratteri da npm), `scene-da-asset.py` (scene dagli id in `asset-id*.json`), `carica-lotto.py`, `aggiorna-resa.py`, `ritaglia-traccia.py`. Gli id degli asset già caricati sono in git: per cambiare una slide si ricarica solo quella |
+| correzioni | una frase da cambiare in una lezione pubblicata | si rigenera **solo la traccia che la contiene** e la si ritaglia con `ritaglia-traccia.py` all'atempo della resa pubblicata (riga «silenzi … atempo» del REGISTRO): i blocchi dell'altra traccia restano identici. Il registro tiene la resa vecchia in «Rese precedenti» |
+| asset | un lotto con meno di ~60 file torna **dentro** la risposta e non in un file: ricopiare a mano gli URL firmati ha sbagliato una firma su 26 (403) | lotti interi da 98 (la risposta finisce in un file e `carica-lotto.py carica` la legge), oppure il file sbagliato si ricarica da solo con `create_asset_upload` |
 
 ---
 
