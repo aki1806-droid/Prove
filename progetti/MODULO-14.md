@@ -23,7 +23,7 @@ sui file già scritti e non si è perso niente.
 | 14.4 | Apparato digerente, fegato e rene | 8:39.8 | `4dc18cac87cf519da26ebb6c8ce24655` |
 | 14.5 | Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | 14.6 | Sangue, immunità e infiammazione | 8:44.2 | `e0e1e7d71eb9d1e2365f4a8866c486e7` |
-| 14.7 | Semeiotica infermieristica ed esami | 8:45.3 | `f72674ee1166c9f56945075ab62cd11e` |
+| 14.7 | Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
 | 14.8 | Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_14.md`;

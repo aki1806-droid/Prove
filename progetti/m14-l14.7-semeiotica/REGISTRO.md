@@ -83,8 +83,12 @@ locale 8:51.8.
 
 | | |
 |---|---|
-| resa pubblicata | `f72674ee1166c9f56945075ab62cd11e` — 525.309 s (8:45.3), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
+| resa pubblicata | `32ca3e8787e97f73f03edc93b3323341` — 530.452 s (8:50.5), 1080p 16:9, resa in 65 s, con SRT (`subtitle_url`) |
 | lotto asset | `ef159e017e6142c2a2d12aeddef23503` — 98 file, 20 MB, tutti completati |
+
+### Rese precedenti
+
+- `f72674ee1166c9f56945075ab62cd11e` (8:45.3): sostituita il 10/10/2026. Sfregamento pleurico spiegato (s10): traccia A rigenerata, 25 blocchi e la clip s10 ricaricati.
 
 ---
 

@@ -130,7 +130,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.4-digerente` | Modulo 14 · 14.4 Apparato digerente, fegato e rene | 8:39.8 | `4dc18cac87cf519da26ebb6c8ce24655` |
 | `m14-l14.5-nervoso` | Modulo 14 · 14.5 Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:44.2 | `e0e1e7d71eb9d1e2365f4a8866c486e7` |
-| `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:45.3 | `f72674ee1166c9f56945075ab62cd11e` |
+| `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
 | `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
