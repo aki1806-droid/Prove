@@ -66,13 +66,17 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ## La resa
 
-*in attesa*
+| | |
+|---|---|
+| resa pubblicata | `e0e1e7d71eb9d1e2365f4a8866c486e7` — 524.215 s (8:44.2), 1080p 16:9, resa in 93 s, con SRT (`subtitle_url`) |
+| lotto asset | `c04722168c9143b7b29e4660bd077b35` — 98 file, 20 MB, tutti completati |
 
 ---
 
 ## Da verificare
 
-- La voce, al rinnovo dei crediti ElevenLabs: chunk pronti in `audio/`.
+- Nulla di aperto: la verifica per trascrizione non segnala buchi e gli
+  otto controlli passano. Da ascoltare, le rese diverse dal copione: «com» (s03, trascritto «come»); «ee» (s07, trascritto «e»); «ab» (s08, trascritto «a b»); «e» (s14, trascritto «ee»); «10» (s19, trascritto «x»); «10» (s19, trascritto «x»); «e» (s20, trascritto «ee»); «e» (s23, trascritto «ee»); «cd 4» (s25, trascritto «cd4»); «cd 8» (s25, trascritto «cd8»); «ee» (s27, trascritto «e»); «e» (s30, trascritto «ee»); «ee» (s34, trascritto «e»); «laesa» (s34, trascritto «lesa»); «ee» (s39, trascritto «e»); «ee» (s42, trascritto «e»); «e» (s49, trascritto «ee»).
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.

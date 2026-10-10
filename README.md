@@ -129,6 +129,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.3-respiratorio` | Modulo 14 · 14.3 Apparato respiratorio | 8:43.5 | `d32e020c5a2ede9973446551afc6fa6c` |
 | `m14-l14.4-digerente` | Modulo 14 · 14.4 Apparato digerente, fegato e rene | 8:39.8 | `4dc18cac87cf519da26ebb6c8ce24655` |
 | `m14-l14.5-nervoso` | Modulo 14 · 14.5 Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
+| `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:44.2 | `e0e1e7d71eb9d1e2365f4a8866c486e7` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
