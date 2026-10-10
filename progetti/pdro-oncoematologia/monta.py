@@ -23,8 +23,8 @@ os.makedirs(LAV, exist_ok=True)
 # Avatar: dal fotogramma 1920x1080 dell'avatar si ritaglia il mezzo busto
 # (AV_CROP: x, y, w, h), lo si porta ad altezza AV_H e lo si appoggia al bordo
 # inferiore con il bordo sinistro a AV_X.
-AV_CROP = (560, 60, 800, 1020)
-AV_H, AV_X = 760, 520
+AV_CROP = (520, 0, 1100, 1080)
+AV_H, AV_X = 640, 508
 
 
 def ff(*a):
@@ -74,10 +74,14 @@ def strati():
        '-i', os.path.join(QUI, 'audio/voce-completa.wav'),
        '-filter_complex',
        f"[3:v]fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,"
-       f"tpad=stop_mode=clone:stop_duration=1[av];"
+       f"tpad=stop_mode=clone:stop_duration=1,split[av][ombra];"
+       # alone chiaro dietro la figura: la polo verde sul fondo verde altrimenti sparisce
+       f"[ombra]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=14:alpha_radius=14,"
+       f"colorchannelmixer=aa=0.55[alone];"
        f"[2:v]fps={FPS},format=rgba[sub];"
        f"[0:v][1:v]overlay=0:0:shortest=1[a];"
-       f"[a][av]overlay={AV_X}:{1920 - AV_H}:eof_action=repeat[b];"
+       f"[a][alone]overlay={AV_X}:{1920 - AV_H}:eof_action=repeat[a2];"
+       f"[a2][av]overlay={AV_X}:{1920 - AV_H}:eof_action=repeat[b];"
        f"[b][sub]overlay=0:0:eof_action=repeat,format=yuv420p[v]",
        '-map', '[v]', '-map', '4:a', '-t', f'{dur:.3f}', '-r', str(FPS),
        '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-c:a', 'aac', '-b:a', '192k',

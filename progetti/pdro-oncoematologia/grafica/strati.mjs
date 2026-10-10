@@ -16,8 +16,8 @@ const CSS = `${font(600)}${font(700)}${font(800)}
 *{margin:0;box-sizing:border-box} html,body{width:1080px;height:1920px;background:transparent;font-family:M,sans-serif}
 .logo{position:absolute;left:44px;top:52px;background:#fff;border-radius:22px;padding:14px 22px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
 .logo img{display:block;height:96px}
-.sub{position:absolute;left:44px;bottom:240px;width:500px;background:rgba(0,83,42,.92);color:#fff;
-     font-weight:700;font-size:40px;line-height:1.24;padding:22px 26px;border-radius:20px;
+.sub{position:absolute;left:40px;bottom:250px;width:440px;background:rgba(0,83,42,.92);color:#fff;
+     font-weight:700;font-size:37px;line-height:1.24;padding:20px 22px;border-radius:20px;
      border-left:10px solid #F39200;box-shadow:0 8px 26px rgba(0,0,0,.35)}`;
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 

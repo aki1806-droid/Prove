@@ -30,3 +30,13 @@ Asset voce completa: 286d86b21f9845f68d79afca41820657 · video avatar: e3434e78f
 Slide del pacchetto + logo CISL FP Padova Rovigo su pastiglia bianca in alto a sinistra.
 Sottotitoli: sottotitoli.py (blocchi ≤ ~60 caratteri, tempi sul parlato reale) → sottotitoli.srt;
 impressi nel riquadro verde scuro in basso a sinistra, accanto all'avatar (grafica/strati.mjs).
+
+## Montato
+Avatar webm scaricato (VP9 con alfa, 1920x1080, 140,49 s); audio allineato a voce-completa.wav
+(pause entro 20 ms). Ritaglio mezzo busto (520,0,1100,1080) → altezza 640, x 508, in basso a destra;
+alone chiaro sfumato dietro la figura (polo verde su fondo verde). controlla-avatar.py: sagoma in
+movimento (140 campioni) contro sottotitoli, slide e bande — 0 pixel coperti.
+PDRO_Oncoematologia_Pediatrica_9x16.mp4: 1080x1920, 25 fps, 140,48 s, -21,2 LUFS, 100 MB (fuori da git).
+Copia d'invio _invio.mp4: 1500 kb/s in due passate, 28,8 MB. SRT: sottotitoli.srt (52 blocchi).
+Controllo: fotogramma a metà di ognuna delle 7 scene.
+Da fare prima di pubblicare: verificare aggiornamenti dell'Azienda (esiti verifiche, date di rientro).
