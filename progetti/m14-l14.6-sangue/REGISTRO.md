@@ -64,6 +64,26 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 ---
 
+## Correzione del 10 ottobre 2026
+
+Due frasi dello script del committente corrette nel parlato e sulle slide.
+
+- **s05, ematocrito.** Lo script diceva «45 per cento di elementi figurati:
+  è l'ematocrito». L'ematocrito è la quota dei soli globuli rossi sul volume
+  del sangue, non di tutti gli elementi figurati. Ora: «quasi tutti globuli
+  rossi: la loro quota sul volume del sangue è l'ematocrito».
+- **s42, emocolture.** Lo script diceva «si prelevano preferibilmente durante
+  il brivido o il picco». Il corso stesso, in 6.7, dice «al rialzo febbrile
+  o, meglio ancora, all'insorgenza del brivido, e prima dell'antibiotico»: la
+  14.6 ora dice lo stesso («all'insorgenza del brivido o al rialzo febbrile,
+  e prima dell'antibiotico»).
+
+Le due frasi stanno una per traccia: rigenerate **tutte e due** le tracce,
+rifatti i tagli (`tagli.py allinea` + `applica`, atempo ricalcolato 1,095),
+verifica per trascrizione A 621/635 e B 702/717 senza buchi, le due frasi
+nuove dette per intero. Giro 8/8, montato locale 8:49.8. Caricati di nuovo
+tutti i 98 file.
+
 ## La resa
 
 | | |
