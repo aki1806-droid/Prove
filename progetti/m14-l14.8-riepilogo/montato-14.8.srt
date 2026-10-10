@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,800
+Chiudiamo il modulo delle basi biomediche con due strumenti: le tabelle dei valori da fotografare, e i collegamenti fra fisiologia e assistenza, la vera utilita' del modulo.
+
+2
+00:00:11,800 --> 00:00:18,870
+All'esame, molte domande cliniche si risolvono ragionando sul meccanismo. Ripassiamo gli apparati, poi la tabella e i collegamenti.
+
+3
+00:00:18,870 --> 00:00:28,680
+Liquidi e acido-base. L'acqua e' circa il sessanta per cento del peso nell'adulto: due terzi dentro le cellule, un terzo fuori. Il sodio domina fuori, il potassio dentro.
+
+4
+00:00:28,680 --> 00:00:39,270
+A tenerli separati e' la pompa sodio-potassio, che porta fuori tre ioni sodio e dentro due ioni potassio. E l'osmosi: l'acqua si sposta verso la soluzione piu' concentrata.
+
+5
+00:00:39,270 --> 00:00:50,160
+Le forze di Starling. La pressione idrostatica spinge il liquido fuori dal vaso; la pressione oncotica, dovuta soprattutto all'albumina, lo richiama dentro. Se l'equilibrio si rompe, nasce l'edema.
+
+6
+00:00:50,160 --> 00:00:59,580
+L'ADH, l'ormone antidiuretico, fa riassorbire acqua nel rene. L'aldosterone, prodotto dal surrene, fa riassorbire sodio, e in cambio fa perdere potassio.
+
+7
+00:00:59,580 --> 00:01:11,080
+Il pH, fra sette virgola trentacinque e sette virgola quarantacinque, e' difeso da tre sistemi con tempi diversi: i tamponi in pochi secondi, il polmone in minuti, il rene in giorni.
+
+8
+00:01:11,080 --> 00:01:22,570
+Cuore e circolo. A destra la valvola tricuspide, a sinistra la mitrale. L'arteria polmonare porta al polmone sangue povero di ossigeno. Le coronarie si riempiono in diastole, a muscolo rilassato.
+
+9
+00:01:22,570 --> 00:01:33,670
+L'impulso nasce nel nodo senoatriale, il pacemaker naturale, da sessanta a cento battiti al minuto. Poi nodo atrioventricolare, fascio di His, branche e fibre di Purkinje.
+
+10
+00:01:33,670 --> 00:01:43,430
+La gittata cardiaca e' la gittata sistolica per la frequenza: circa cinque litri al minuto, a riposo. E la pressione arteriosa e' la gittata per le resistenze periferiche.
+
+11
+00:01:43,430 --> 00:01:54,660
+La pressione media e' circa la diastolica piu' un terzo della differenza fra sistolica e diastolica: con centoventi su sessanta, circa ottanta. Nello shock, l'obiettivo e' almeno sessantacinque.
+
+12
+00:01:54,660 --> 00:02:06,470
+A breve termine la pressione la regolano i barocettori, attraverso il sistema autonomo. A lungo termine, il sistema renina-angiotensina-aldosterone, che restringe i vasi e trattiene sodio e acqua.
+
+13
+00:02:06,470 --> 00:02:16,800
+Respiro. Il bronco destro e' piu' verticale. L'inspirazione e' attiva, con il diaframma. Volume corrente circa cinquecento millilitri, spazio morto circa centocinquanta.
+
+14
+00:02:16,800 --> 00:02:28,410
+Circa il novantotto per cento dell'ossigeno viaggia legato all'emoglobina. La curva di dissociazione e' a S, con un punto da ricordare: saturazione novanta, pressione parziale di ossigeno sessanta.
+
+15
+00:02:28,410 --> 00:02:38,550
+Sotto quel punto la curva diventa ripida. Si sposta a destra con temperatura e anidride carbonica alte, e con l'acidosi: l'emoglobina cede piu' facilmente l'ossigeno ai tessuti.
+
+16
+00:02:38,550 --> 00:02:48,780
+L'insufficienza respiratoria. Tipo uno, ipossiemica: ossigeno arterioso sotto sessanta. Tipo due, ipercapnica: in piu', anidride carbonica sopra quarantacinque.
+
+17
+00:02:48,780 --> 00:02:59,140
+Digerente, fegato, rene. Nello stomaco, il fattore intrinseco, che serve ad assorbire la vitamina B dodici: dopo una gastrectomia, la B dodici si da' per via parenterale.
+
+18
+00:02:59,140 --> 00:03:10,720
+Il fegato produce albumina e fattori della coagulazione: due, sette, nove e dieci. Coniuga la bilirubina, trasforma l'ammoniaca in urea, e metabolizza i farmaci: il primo passaggio.
+
+19
+00:03:10,720 --> 00:03:22,400
+Il rene filtra circa centottanta litri al giorno, e produce circa un litro e mezzo di urine. Il GFR, da novanta a centoventi millilitri al minuto. La creatinina dipende dalla massa muscolare.
+
+20
+00:03:22,400 --> 00:03:31,830
+Il rene produce eritropoietina e renina, e attiva la vitamina D. Oliguria sotto i quattrocento millilitri nelle ventiquattro ore, anuria sotto i cento.
+
+21
+00:03:31,830 --> 00:03:41,450
+Nervoso ed endocrino. Via motoria incrociata: una lesione dell'emisfero sinistro da' un deficit a destra. E nella maggior parte delle persone il linguaggio sta a sinistra.
+
+22
+00:03:41,450 --> 00:03:54,430
+Simpatico: beta uno sul cuore, beta due sui bronchi, midriasi, ritenzione. Parasimpatico: acetilcolina, vago, bradicardia, miosi. Un beta-bloccante non selettivo puo' dare broncospasmo.
+
+23
+00:03:54,430 --> 00:04:05,380
+Nell'ipotiroidismo primario la tiroide produce poco, e il TSH risulta alto. Il PTH aumenta il calcio. L'insulina abbassa la glicemia, il glucagone la alza.
+
+24
+00:04:05,380 --> 00:04:15,390
+Gli ormoni dello stress, come cortisolo e adrenalina, alzano la glicemia. E i corticosteroidi presi a lungo non si sospendono mai bruscamente: rischio di crisi surrenalica.
+
+25
+00:04:15,390 --> 00:04:27,610
+Sangue e difese. Il globulo rosso vive circa centoventi giorni, la piastrina da sette a dieci. Lo zero e' donatore universale di globuli rossi, l'AB ricevente universale; per il plasma vale il contrario.
+
+26
+00:04:27,610 --> 00:04:39,180
+Il fattore Rh, e la profilassi anti-D nella madre Rh negativa. L'emostasi: vascolare, piastrinica, coagulativa, e la fibrinolisi, che scioglie il coagulo e libera il D-dimero.
+
+27
+00:04:39,180 --> 00:04:49,110
+La coagulazione: l'INR controlla il warfarin, l'aPTT l'eparina non frazionata. E gli antidoti: la vitamina K per il warfarin, la protamina per l'eparina.
+
+28
+00:04:49,110 --> 00:05:01,680
+Le immunoglobuline. Le G attraversano la placenta, le M sono la prima risposta, le A difendono le mucose, le E sono quelle delle allergie. Immunita' attiva con il vaccino, passiva con le immunoglobuline.
+
+29
+00:05:01,680 --> 00:05:10,910
+I vaccini vivi attenuati non si fanno in gravidanza. E la febbre: si copre il paziente nella salita, con i brividi, e lo si scopre nella defervescenza, quando suda.
+
+30
+00:05:10,910 --> 00:05:18,640
+La tabella dei valori, da fotografare. Con la solita premessa: sono indicativi, cambiano fra laboratori, e fa fede l'intervallo del referto.
+
+31
+00:05:18,640 --> 00:05:29,800
+L'emocromo. Emoglobina da tredici a diciassette nell'uomo, da dodici a sedici nella donna. Globuli bianchi da quattromila a diecimila. Neutrofili sotto cinquecento: neutropenia grave.
+
+32
+00:05:29,800 --> 00:05:43,070
+Piastrine da centocinquantamila a quattrocentocinquantamila. Sodio da centotrentacinque a centoquarantacinque. Potassio da tre virgola cinque a cinque. Calcio totale da otto virgola cinque a dieci virgola cinque.
+
+33
+00:05:43,070 --> 00:05:57,350
+Glicemia a digiuno da settanta a novantanove. Creatinina da zero virgola sei a uno virgola due. INR da zero virgola otto a uno virgola due, e da due a tre in terapia. aPTT da venticinque a trentacinque secondi.
+
+34
+00:05:57,350 --> 00:06:10,310
+Albumina da tre virgola cinque a cinque. Bilirubina totale sotto uno virgola due. Lattati sotto due. E la saturazione: da novantaquattro a novantotto, e da ottantotto a novantadue negli ipercapnici.
+
+35
+00:06:10,310 --> 00:06:23,330
+L'emogas. pH da sette virgola trentacinque a sette virgola quarantacinque. Anidride carbonica da trentacinque a quarantacinque, ossigeno da ottanta a cento. Bicarbonato da ventidue a ventisei.
+
+36
+00:06:23,330 --> 00:06:35,530
+I collegamenti piu' utili, ciascuno una domanda d'esame. Un campione emolizzato da' un potassio falsamente alto, perche' il potassio sta nelle cellule. La tachicardia accorcia la diastole: meno perfusione coronarica.
+
+37
+00:06:35,530 --> 00:06:47,880
+L'ipoalbuminemia abbassa la pressione oncotica, e porta all'edema. Una creatinina normale, nell'anziano magro, puo' nascondere un GFR ridotto. E sotto il novanta di saturazione, la curva precipita.
+
+38
+00:06:47,880 --> 00:06:58,840
+Lo stress alza la glicemia. Il bronco destro spiega l'intubazione selettiva e i corpi estranei. Il beta-bloccante non selettivo da' broncospasmo. In risonanza, l'effetto proiettile.
+
+39
+00:06:58,840 --> 00:07:10,080
+Le confusioni che costano piu' punti. L'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Il primo tono chiude le atrioventricolari, il secondo le semilunari.
+
+40
+00:07:10,080 --> 00:07:22,760
+Ipossiemia e' poco ossigeno nel sangue, ipossia poco ossigeno ai tessuti. Il sintomo lo riferisce la persona, il segno lo rileva l'operatore. E l'INR segue il warfarin, l'aPTT l'eparina.
+
+41
+00:07:22,760 --> 00:07:33,970
+Lo zero dona globuli rossi a tutti, ma per il plasma e' l'AB. Nell'addome, l'auscultazione viene prima della palpazione. La risonanza non usa radiazioni, ma il magnete e' sempre attivo.
+
+42
+00:07:33,970 --> 00:07:44,680
+Le domande d'orale piu' probabili. La curva di dissociazione. Le cause dell'edema, con Starling. Simpatico e parasimpatico, e i farmaci. I gruppi sanguigni e la trasfusione.
+
+43
+00:07:44,680 --> 00:07:55,560
+Le fasi della febbre e l'assistenza. La preparazione alla TC con contrasto. La sicurezza in risonanza. I valori critici. Per ognuna, una risposta dal meccanismo all'azione infermieristica.
+
+44
+00:07:55,560 --> 00:08:03,370
+Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi trascrivi nel quaderno la tabella dei valori che abbiamo appena visto.
+
+45
+00:08:03,370 --> 00:08:14,660
+Per ogni apparato, costruisci una catena: un meccanismo, una conseguenza clinica, un intervento infermieristico. Ripassa con gli schemi: nefrone, sistema di conduzione, curva di dissociazione, emostasi.
+
+46
+00:08:14,660 --> 00:08:22,280
+La frase del modulo: dal meccanismo all'azione. La fisiologia e' il motivo, l'assistenza e' la risposta.
+
+47
+00:08:22,280 --> 00:08:30,220
+Siamo all'ultimo modulo: il percorso trasversale, dedicato alle prove del concorso. Il metodo per i quiz, la prova scritta e pratica, l'orale.
+
+48
+00:08:30,220 --> 00:08:34,250
+E poi l'inglese e l'informatica, con le simulazioni finali. Ci vediamo li'.
