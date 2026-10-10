@@ -38,6 +38,10 @@ avatar finale    video HeyGen 4029bde32d85a38eacdc96dad0978d73: stesso avatar e 
                  slide/controlla-avatar-video.py: sagoma in movimento a 2 fps contro le
                  scritte, 0 pixel coperti in tutte le scene.
 
+montato          Reel_Decreto_PA_2026_Sanita_9x16.mp4: 1080x1920, 25 fps, 175,2 s, -20,5 LUFS,
+                 85 MB (crf 18). Copia d'invio _invio.mp4 a 1180 kb/s in due passate, 29 MB.
+                 Entrambi fuori da git (troppo pesanti): si rifanno con python3 monta.py.
+
 ## Da verificare
 - Testo coordinato in G.U.: le misure di stabilizzazione SSN stanno nella L. 174/2026?
 - Contatti delle sedi di Padova e Rovigo per la scena 8: non forniti, nel video
