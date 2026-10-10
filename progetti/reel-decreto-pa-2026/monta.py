@@ -6,6 +6,11 @@ Poi le otto scene in fila e la voce grezzo-1 sotto.
 
     python3 monta.py                    # avatar da avatar/avatar.mp4
     python3 monta.py --segnaposto       # avatar = foto ferma (prova di catena)
+    python3 monta.py --riquadro         # avatar con sfondo, in un riquadro bordato
+
+Di base l'avatar è senza sfondo (avatar/avatar.webm, VP9 con canale alfa,
+o la foto scontornata come segnaposto) e sta appoggiato al bordo inferiore,
+a destra, a mezzo busto.
 """
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw
@@ -16,12 +21,18 @@ TEMPI = json.load(open(os.path.join(QUI, 'audio/tempi-scene.json')))
 TIPO = {'s1': 'GRAFICA', 's2': 'CLIP', 's3': 'GRAFICA', 's4': 'CLIP',
         's5': 'GRAFICA', 's6': 'CLIP', 's7': 'GRAFICA', 's8': 'CLIP'}
 SEGNAPOSTO = '--segnaposto' in sys.argv
+RIQUADRO = '--riquadro' in sys.argv
 
 # Riquadro dell'avatar sul quadro finale e ritaglio a mezzo busto sul video
 # dell'avatar (1080x1920): il volto sta in alto nel riquadro, la mano col
 # microfono in basso.
 AV_X, AV_Y, AV_W, AV_H, RAGGIO, BORDO = 600, 1240, 440, 616, 36, 6
 CROP = (130, 230, 820, 1148)   # x, y, w, h  (stesso rapporto 440:616)
+
+# Avatar senza sfondo: del fotogramma 1080x1920 si tiene da TAGLIO_ALTO in giù
+# (sopra c'è solo aria), lo si porta ad altezza SC_H e lo si appoggia al
+# bordo inferiore con il bordo sinistro a SC_X.
+TAGLIO_ALTO, SC_H, SC_X = 260, 790, 560
 
 LAV = os.path.join(QUI, 'montaggio')
 os.makedirs(LAV, exist_ok=True)
@@ -44,9 +55,13 @@ def maschere():
 
 def sorgente_avatar():
     if not SEGNAPOSTO:
-        return ['-i', os.path.join(QUI, 'avatar/avatar.mp4')]
+        if RIQUADRO:
+            return ['-i', os.path.join(QUI, 'avatar/avatar.mp4')]
+        # il decodificatore nativo di ffmpeg perde il canale alfa del VP9
+        return ['-c:v', 'libvpx-vp9', '-i', os.path.join(QUI, 'avatar/avatar.webm')]
     foto = os.path.join(LAV, 'segnaposto.png')
-    Image.open(os.path.join(QUI, 'avatar/aki.jpg')).resize((1080, 1935)).crop((0, 0, 1080, 1920)).save(foto)
+    sorg = 'avatar/aki.jpg' if RIQUADRO else 'avatar/aki-scontornato.png'
+    Image.open(os.path.join(QUI, sorg)).convert('RGBA').resize((1080, 1935)).crop((0, 0, 1080, 1920)).save(foto)
     return ['-loop', '1', '-framerate', str(FPS), '-i', foto]
 
 
@@ -77,6 +92,14 @@ def scena(t):
                  f'[1:v]fps={FPS},format=rgba,trim=duration={d:.3f},setpts=PTS-STARTPTS[testo];'
                  f'[clip][testo]overlay=0:0[base];')
         i_av = 2
+    if not RIQUADRO:
+        filtro = (fondo +
+                  f'[{i_av}:v]fps={FPS},trim=duration={d:.3f},setpts=PTS-STARTPTS,format=rgba,'
+                  f'crop=1080:{1920 - TAGLIO_ALTO}:0:{TAGLIO_ALTO},scale=-2:{SC_H}:flags=lanczos[avr];'
+                  f'[base][avr]overlay={SC_X}:{1920 - SC_H},format=yuv420p[v]')
+        ff(*ingressi, '-filter_complex', filtro, '-map', '[v]', '-r', str(FPS),
+           '-frames:v', str(round(d * FPS)), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', out)
+        return out
     cx, cy, cw, ch = CROP
     filtro = (fondo +
               f'[{i_av}:v]fps={FPS},trim=duration={d:.3f},setpts=PTS-STARTPTS,'
