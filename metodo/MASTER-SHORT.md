@@ -64,8 +64,10 @@ di rete (`CONNECT 403`, `ENOTFOUND`). Tre strade, in ordine:
    misura tutto in locale, ed è l'unica che funziona per Facebook;
 2. **YouTube via Higgsfield**: `video_analysis_create` con `youtube_url`
    accetta solo link youtube.com / youtu.be. Restituisce l'analisi scena per
-   scena, ma **è una coda**: di norma 3-5 minuti, una volta è rimasta in coda
-   oltre mezz'ora. Si lancia subito e intanto si lavora ad altro;
+   scena, ma **è una coda**: di norma 3-5 minuti. Il 10 ottobre 2026 un
+   Short è rimasto `queued` per oltre 45 minuti senza mai partire. Si lancia
+   subito, si lavora ad altro e, se dopo 15 minuti è ancora in coda, si chiede
+   il file all'utente invece di aspettare;
 3. **la descrizione dell'utente**, se le prime due non ci sono: durata,
    formato, che cosa si vede, che voce, che scritte. È la più debole e la
    scheda lo dichiara.
