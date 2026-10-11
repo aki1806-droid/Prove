@@ -428,6 +428,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 4.5 | Il contatto fisico e i suoi limiti | 9:58 | `7a974e069bc0f469505dad7f456dd5f2` |
 | 5.1 | I gesti che accompagnano la parola | 9:59 | `8c512723bc149a5551fde3b06e4faf00` |
 | 5.2 | I gesti che la sostituiscono | 9:59 | `38db61ca01bfd8ef074914672defec16` |
+| 5.3 | L'autocontatto | 9:59 | `3dfb22213b650cfaff07db0c1dac93c4` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -439,12 +440,16 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 
 **Il modulo 4 è chiuso**: cinque lezioni tutte a 9:58, il primo modulo del
 corso in cui le cinque durate coincidono al secondo. **Il modulo 5 è in
-lavorazione**: la 5.1 e la 5.2 sono montate, restano la 5.3, la 5.4 e la 5.5.
+lavorazione**: la 5.1, la 5.2 e la 5.3 sono montate, restano la 5.4 e la 5.5.
 Lo script del modulo 6 è in casa; manca quello del modulo 7.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
-le riprese si generano su Higgsfield con `gpt_image_2_5`.** La scelta è stata
+le riprese si generano su Higgsfield con `gpt_image_2_5`**, quando si può:
+l'11 ottobre Higgsfield ha rifiutato tutte e tre le richieste della 5.3 per
+un **tetto giornaliero di generazioni del piano**, che non dipende dai
+crediti (ce n'erano 571 sul conto). In quel caso si torna sul nodo immagine
+di ElevenLabs, come per la 5.3. La scelta è stata
 fatta su una prova a tre: lo stesso soggetto generato con due modelli e messo
 accanto a una ripresa del corso. GPT Image 2.5 tiene il registro
 documentario, la luce naturale e la palette smorzata delle altre; Soul
@@ -454,7 +459,7 @@ Location rende molto più stilizzato ed è stato scartato.
 |---|---|
 | Higgsfield, `gpt_image_2_5` | **0,25 crediti** |
 | Artlist, Nano Banana 2 | 130 crediti |
-| ElevenLabs, Nano Banana 2 | 612 crediti |
+| ElevenLabs, Nano Banana 2 | 406 crediti (612 alla prova di settembre) |
 
 Il nodo immagine di ElevenLabs resta buono per una rigenerazione isolata (la
 `s27` della 5.1 è stata fatta così) ma non per un modulo intero.
@@ -477,9 +482,22 @@ pause della finestra e nessuna migliora la coppia, e la somma dei blocchi
 coinvolti è in pari. Quando la trascrizione torna, i confini segnalati nei
 registri vanno risentiti uno per uno con `tagli.py correggi`.
 
-**La 5.1 e la 5.2 sono le eccezioni**: novanta confini riletti sulla
-trascrizione. Uno sbagliato nella 5.1, sette nella 5.2, tutti corretti e
-riletti.
+**La 5.1, la 5.2 e la 5.3 sono le eccezioni**: centotrentacinque confini
+riletti sulla trascrizione. Uno sbagliato nella 5.1, sette nella 5.2, otto
+nella 5.3, tutti corretti e riletti su un secondo file di controllo.
+
+Il conto di tre lezioni dice quanto vale la banda da sola:
+
+| | segnalati da `banda.py` | sbagliati davvero |
+|---|---|---|
+| 5.1 | 1 | 1 |
+| 5.2 | 3 | 7 |
+| 5.3 | 4 | 8 |
+
+E nella 5.3 **due dei quattro segnalati erano il blocco vicino, non il
+colpevole**: un confine spostato allunga il blocco dopo e accorcia quello
+prima, quindi la banda indica spesso la vittima. Si legge come un indizio su
+*dove guardare*, mai come una diagnosi.
 Da qui in avanti la verifica si fa su ogni lezione (§10-bis), e le venti già
 montate vanno ripassate quando c'è tempo, partendo dalle cinque che hanno un
 confine segnalato: `s28` della 4.1, `s10` e `s12` della 4.3, `s26` e `s27`

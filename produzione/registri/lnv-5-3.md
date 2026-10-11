@@ -20,15 +20,15 @@ su di te la causa la conosci.
 
 | campo | valore |
 |---|---|
-| video_id | `DA_COMPILARE` |
+| video_id | `3dfb22213b650cfaff07db0c1dac93c4` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
-| durata | `DA_COMPILARE` |
+| durata | 598,6 s (9:59) — misurata sul montato |
 | parlato | 586,9 s (546,2 s di voce tagliata + 40,7 s di pose) |
 | voce | Luca Ward `tVdVcJPudubxmTmAw4tE`, `eleven_v4`, 1,12× in post |
 | flow ElevenLabs | `vapCZcmhwuMpIit8I6On` |
 | tracce | A `zMEtO0U8DTv1N7bnITJA` · B `LO7trIlCe7yX09l41JCM` · C `ARqZMahT6RqKO8RyzXPb` |
-| batch HeyGen | `DA_COMPILARE` |
+| batch HeyGen | `1b96628bf0894a0f9d943a0fa8b594cf`, 95 file |
 
 ## Le due note dello script, tutte e due vincolanti
 
@@ -189,6 +189,13 @@ nello standard, che va aggiornato.
 Le tre immagini sono state caricate su HeyGen e usate dal suo URL stabile: i
 link firmati di ElevenLabs scadono in due ore.
 
-## Il montato
+## Il montato è stato verificato scena per scena
 
-`DA_COMPILARE`
+`get_video_scenes` sul video montato: **cinquanta scene**, le tre immagini
+esattamente alle scene 10, 26 e 37 (cioè `s10`, `s26` e `s37`), **nessuna
+scena in `playback: loop`** e tutte le altre in `freeze` con `volume: 0`.
+Copertina con la traccia muta da 3 s, chiusura con quella da 10 s. 16:9,
+1080p.
+
+Durata finale **598,6 s**: un secondo e mezzo sotto i 600 teorici, come
+tutte le altre ventidue.
