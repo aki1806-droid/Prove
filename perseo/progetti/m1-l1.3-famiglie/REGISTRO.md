@@ -40,7 +40,10 @@ intermedia**, su indicazione dell'utente («vai avanti per tutto il modulo senza
 
 ## La resa
 
-- video HeyGen: in corso (vedi sotto, aggiornato a render chiuso)
+- video HeyGen: `b021b5dd01b312225a2c0742ec85bfa5` — **completato**, 6:07,8 (367,8 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/b021b5dd01b312225a2c0742ec85bfa5
+- lotto asset `8198a18bc58f41f087ece0b879758b6e` (82 file, caricati con `perseo/heygen-lotto.py`);
+  render in circa 1 minuto e mezzo
 - copia di controllo locale: `montato-1.3.mp4` 6:08,9 (non versionata) e `montato-1.3.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
