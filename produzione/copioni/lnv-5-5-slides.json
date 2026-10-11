@@ -1,0 +1,403 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.5",
+"title": "Il ritmo e le pause",
+"sub": "Quello che sta fra le parole"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "la cosa che sta fra le parole",
+"title": "Tutto quello che resta<br><span class=\"gold\">quando togli le parole.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Lo trattiamo come spazio vuoto<br><span class=\"gold\">fra le cose importanti.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "quello che sembra spazio morto",
+"title": "Non è vuoto.<br><span class=\"gold\">È la struttura.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "la buona notizia",
+"title": "Si sente senza nessun allenamento.<br><span class=\"gold\">Quello che manca è il nome.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "due tipi di pausa",
+"title": "Sembrano la stessa cosa.<br><span class=\"gold\">Dicono due cose opposte.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "La pausa vuota<br><span class=\"gold\">è silenzio, e basta.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "la pausa piena",
+"plain": true,
+"rows": [
+"«Ehm»",
+"«Cioè»",
+"«Diciamo»",
+"«Insomma»"
+],
+"note": "Occupano lo spazio in cui il silenzio sarebbe stato."
+},
+{
+"file": "c09",
+"layout": "confronto",
+"occhio": "due pause, due funzioni",
+"titoli": [
+"Vuota",
+"Piena"
+],
+"righe": [
+{
+"et": "Che cos'è",
+"a": "Silenzio",
+"b": "Un suono che riempie"
+},
+{
+"et": "A che serve",
+"a": "Lascia lo spazio",
+"b": "Tiene il turno",
+"segna": true
+}
+]
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "«Non ho finito,<br><span class=\"gold\">non prendere la parola tu.»</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "la conseguenza immediata",
+"title": "Chi fa una pausa piena<br><span class=\"gold\">non ha finito.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"title": "Lo spazio sembra libero.<br><span class=\"gold\">È occupato.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Tu pensi di stare partecipando.<br><span class=\"gold\">Stai chiudendo una porta.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Si interrompe<br><span class=\"gold\">senza accorgersi di averlo fatto.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "la pausa dopo una domanda",
+"title": "Letta come reticenza.<br><span class=\"gold\">O come una risposta su misura.</span>"
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "che cosa sta facendo, invece",
+"plain": true,
+"rows": [
+"Tiene insieme la domanda",
+"Quello che sa",
+"Il modo di dirlo"
+],
+"note": "Tre cose, e richiedono qualche secondo a chiunque."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "la lezione tre punto due",
+"title": "Distogliere lo sguardo e tardare<br><span class=\"gold\">servono a liberare risorse.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Se non la merita, o la domanda era facile<br><span class=\"gold\">o la risposta era già pronta.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "il dato strano, semmai",
+"title": "Una risposta immediata<br><span class=\"gold\">a una domanda difficile.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Una domanda difficile<br>merita una pausa."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "il consiglio di sempre, applicato qui",
+"title": "Non riempire."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "come si riempie, per gentilezza",
+"plain": true,
+"rows": [
+"Riformulando la domanda",
+"Aggiungendo un esempio",
+"Suggerendo una risposta"
+],
+"note": "Tre cose insieme, e tutte e tre dannose."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "che cosa fa, chi riempie",
+"rows": [
+"Interrompe l'elaborazione",
+"Cambia la domanda",
+"Suggerisce la risposta"
+],
+"active": 0,
+"note": "Quello che aveva quasi pronto si perde."
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "che cosa fa, chi riempie",
+"rows": [
+"Interrompe l'elaborazione",
+"Cambia la domanda",
+"Suggerisce la risposta"
+],
+"active": 1,
+"note": "Non saprai mai cosa avrebbe risposto alla prima."
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "che cosa fa, chi riempie",
+"rows": [
+"Interrompe l'elaborazione",
+"Cambia la domanda",
+"Suggerisce la risposta"
+],
+"active": 2,
+"note": "Da quel momento tutto quello che arriva è inquinato."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "quanto aspettare",
+"title": "Tre secondi.<br><span class=\"gold\">Non trenta, non dieci.</span>"
+},
+{
+"file": "c29",
+"layout": "confronto",
+"occhio": "gli stessi tre secondi",
+"titoli": [
+"Dall'interno",
+"Dall'esterno"
+],
+"righe": [
+{
+"et": "Quanto durano",
+"a": "Sembrano dieci",
+"b": "Non si notano"
+},
+{
+"et": "Di chi è il disagio",
+"a": "Tuo",
+"b": "Di nessuno",
+"segna": true
+}
+]
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "È la lunghezza normale<br><span class=\"gold\">di qualcuno che sta pensando.</span>"
+},
+{
+"file": "c31",
+"layout": "flusso",
+"kicker": "quello che succede in quei tre secondi",
+"passi": [
+{
+"et": "Comincia",
+"sub": "a rispondere"
+},
+{
+"et": "Si ferma",
+"sub": "a metà"
+},
+{
+"et": "Ricomincia",
+"sub": "in modo diverso"
+}
+],
+"title": "Capita a chiunque, sulle domande che contano."
+},
+{
+"file": "c32",
+"layout": "statement",
+"title": "La prima era quella che aveva pronta.<br><span class=\"gold\">La seconda è la risposta vera.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "il segnale più affidabile della lezione",
+"title": "Chi interrompe chi."
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Non si distribuiscono a caso.<br><span class=\"gold\">Trovi un ordine.</span>"
+},
+{
+"file": "c35",
+"layout": "pila",
+"kicker": "la stessa forma, tre volte",
+"blocchi": [
+"Le interruzioni, oggi",
+"Il contatto, modulo 4",
+"Gli sguardi, modulo 3"
+],
+"acceso": 0,
+"title": "Nessuno dei tre deciso da qualcuno."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Si interrompe verso il basso.<br><span class=\"gold\">Si subisce verso l'alto.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "dove guardare",
+"title": "Non il capo.<br><span class=\"gold\">Chi non riesce mai a finire una frase.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Nessuno lo decide,<br><span class=\"gold\">e nessuno se ne accorge.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Comincia a parlare più in fretta,<br><span class=\"gold\">perché sa di avere poco tempo.</span>"
+},
+{
+"file": "c40",
+"layout": "flusso",
+"kicker": "il cerchio che si chiude da solo",
+"passi": [
+{
+"et": "Interrotta",
+"sub": "sistematicamente"
+},
+{
+"et": "Parla in fretta",
+"sub": "ha poco tempo"
+},
+{
+"et": "Più facile",
+"sub": "da interrompere"
+}
+],
+"title": "E ogni giro lo stringe un po' di più."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "se conduci tu la riunione",
+"title": "«Aspetta,<br><span class=\"gold\">stava dicendo una cosa.»</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Interrompere su una pausa piena",
+"Leggere la pausa come reticenza",
+"Riempire il silenzio dopo una domanda",
+"Non accorgersi di chi non finisce mai"
+],
+"active": 0
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Interrompere su una pausa piena",
+"Leggere la pausa come reticenza",
+"Riempire il silenzio dopo una domanda",
+"Non accorgersi di chi non finisce mai"
+],
+"active": 1
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Interrompere su una pausa piena",
+"Leggere la pausa come reticenza",
+"Riempire il silenzio dopo una domanda",
+"Non accorgersi di chi non finisce mai"
+],
+"active": 2
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Interrompere su una pausa piena",
+"Leggere la pausa come reticenza",
+"Riempire il silenzio dopo una domanda",
+"Non accorgersi di chi non finisce mai"
+],
+"active": 3
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "La seconda partenza<br>è quasi sempre la risposta vera."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Dopo una domanda che conta",
+"Conta tre secondi",
+"Poi ascolta la seconda partenza"
+],
+"note": "Contati davvero, non a occhio."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nel prossimo modulo",
+"title": "L'incongruenza.<br><span class=\"gold\">Il cuore del corso.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 5",
+"sub": "Modulo 6 — L'incongruenza"
+}
+]

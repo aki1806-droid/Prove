@@ -1,0 +1,20 @@
+{
+ "s15": {
+  "tipo": "immagine",
+  "nome": "due-sedie-vuote",
+  "url": "https://resource2.heygen.ai/image/e219b427fe6e4fe1b422480ebab04b01/original.png",
+  "nota": "due sedie vuote una di fronte all'altra in una stanza silenziosa, luce di tardo pomeriggio - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield rifiuta ancora per limite giornaliero del piano"
+ },
+ "s27": {
+  "tipo": "immagine",
+  "nome": "orologio-da-tavolo",
+  "url": "https://resource2.heygen.ai/image/a6bfe0827ba1466797bf8efcf790180b/original.png",
+  "nota": "un orologio da tavolo con la lancetta dei secondi, primo piano su una scrivania - VISTA. Il quadrante non porta nessuna scritta leggibile ne' marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s42": {
+  "tipo": "immagine",
+  "nome": "tavolo-riunioni-due-bicchieri",
+  "url": "https://resource2.heygen.ai/image/b4ef0104cd194e86af6bedb0cfd88e9b/original.png",
+  "nota": "un tavolo riunioni con un bicchiere pieno e uno vuoto, nessuno in campo - VISTA. Nessuna persona, nessuna scritta, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

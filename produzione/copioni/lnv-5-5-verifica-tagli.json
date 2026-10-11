@@ -1,0 +1,284 @@
+[
+{
+"chunk": "A",
+"fine_di": "s02",
+"esito": "giusto",
+"coda": "Quando togli le parole."
+},
+{
+"chunk": "A",
+"fine_di": "s03",
+"esito": "giusto",
+"coda": "Di quello che sta succedendo."
+},
+{
+"chunk": "A",
+"fine_di": "s04",
+"esito": "giusto",
+"coda": "Sono lo stesso discorso."
+},
+{
+"chunk": "A",
+"fine_di": "s05",
+"esito": "giusto",
+"coda": "E che cosa voleva dire?"
+},
+{
+"chunk": "A",
+"fine_di": "s06",
+"esito": "giusto",
+"coda": "Sono due cose opposte."
+},
+{
+"chunk": "A",
+"fine_di": "s07",
+"esito": "giusto",
+"coda": "Qualunque cosa stiano facendo."
+},
+{
+"chunk": "A",
+"fine_di": "s08",
+"esito": "corretto",
+"coda_prima": "Il silenzio sarebbe stato.",
+"coda_dopo": "E nessuno le conta.",
+"taglio_prima": 99.29,
+"taglio_dopo": 103.27,
+"nota": "taglio anticipato di una frase"
+},
+{
+"chunk": "A",
+"fine_di": "s09",
+"esito": "corretto",
+"coda_prima": "Il turno e lo fa bene.",
+"coda_dopo": "E' la ragione per cui esiste.",
+"taglio_prima": 114.35,
+"taglio_dopo": 116.05,
+"nota": "taglio anticipato"
+},
+{
+"chunk": "A",
+"fine_di": "s10",
+"esito": "giusto",
+"coda": "Costa piu' di quanto rende."
+},
+{
+"chunk": "A",
+"fine_di": "s11",
+"esito": "giusto",
+"coda": "Quello che quel suono sta dicendo."
+},
+{
+"chunk": "A",
+"fine_di": "s12",
+"esito": "giusto",
+"coda": "Finche' la parola non arriva."
+},
+{
+"chunk": "A",
+"fine_di": "s13",
+"esito": "giusto",
+"coda": "E stai chiudendo una porta."
+},
+{
+"chunk": "A",
+"fine_di": "s14",
+"esito": "giusto",
+"coda": "Cosa che non sa di fare."
+},
+{
+"chunk": "A",
+"fine_di": "s15",
+"esito": "giusto",
+"coda": "Quella dopo una tua domanda."
+},
+{
+"chunk": "A",
+"fine_di": "s16",
+"esito": "giusto",
+"coda": "Tutte e due sfavorevoli."
+},
+{
+"chunk": "B",
+"fine_di": "s18",
+"esito": "giusto",
+"coda": "Su due canali diversi."
+},
+{
+"chunk": "B",
+"fine_di": "s19",
+"esito": "giusto",
+"coda": "La risposta alla tua domanda."
+},
+{
+"chunk": "B",
+"fine_di": "s20",
+"esito": "giusto",
+"coda": "Sembra sempre sicurezza."
+},
+{
+"chunk": "B",
+"fine_di": "s21",
+"esito": "giusto",
+"coda": "Merita una pausa."
+},
+{
+"chunk": "B",
+"fine_di": "s22",
+"esito": "corretto",
+"coda_prima": "Tagliandola qualche volta.",
+"coda_dopo": "Non riempire.",
+"taglio_prima": 62.3,
+"taglio_dopo": 64.05,
+"nota": "taglio anticipato: mancava «Non riempire»"
+},
+{
+"chunk": "B",
+"fine_di": "s23",
+"esito": "giusto",
+"coda": "Tutte e tre dannose."
+},
+{
+"chunk": "B",
+"fine_di": "s24",
+"esito": "giusto",
+"coda": "Esce peggio della prima."
+},
+{
+"chunk": "B",
+"fine_di": "s25",
+"esito": "giusto",
+"coda": "Come un interrogatorio."
+},
+{
+"chunk": "B",
+"fine_di": "s26",
+"esito": "giusto",
+"coda": "Dubbio vale la seconda."
+},
+{
+"chunk": "B",
+"fine_di": "s27",
+"esito": "giusto",
+"coda": "Quanto sembri dall'interno."
+},
+{
+"chunk": "B",
+"fine_di": "s28",
+"esito": "giusto",
+"coda": "Proprio orologio interno."
+},
+{
+"chunk": "B",
+"fine_di": "s29",
+"esito": "giusto",
+"coda": "Non si sta accorgendo di niente."
+},
+{
+"chunk": "B",
+"fine_di": "s30",
+"esito": "giusto",
+"coda": "Nessun altro nella stanza."
+},
+{
+"chunk": "B",
+"fine_di": "s31",
+"esito": "giusto",
+"coda": "Sulle domande che contano."
+},
+{
+"chunk": "B",
+"fine_di": "s32",
+"esito": "giusto",
+"coda": "Casa che ha appena costruito."
+},
+{
+"chunk": "C",
+"fine_di": "s34",
+"esito": "giusto",
+"coda": "Non dipende dall'argomento."
+},
+{
+"chunk": "C",
+"fine_di": "s35",
+"esito": "giusto",
+"coda": "Qualcuno in modo esplicito."
+},
+{
+"chunk": "C",
+"fine_di": "s36",
+"esito": "giusto",
+"coda": "Non e' piu' una coincidenza."
+},
+{
+"chunk": "C",
+"fine_di": "s37",
+"esito": "giusto",
+"coda": "Mai a finire una frase."
+},
+{
+"chunk": "C",
+"fine_di": "s38",
+"esito": "giusto",
+"coda": "E' un'abitudine del gruppo."
+},
+{
+"chunk": "C",
+"fine_di": "s39",
+"esito": "giusto",
+"coda": "Quella che puo' correggerlo."
+},
+{
+"chunk": "C",
+"fine_di": "s40",
+"esito": "giusto",
+"coda": "Lo stringe un po' di piu'."
+},
+{
+"chunk": "C",
+"fine_di": "s41",
+"esito": "giusto",
+"coda": "E nessuno si offende."
+},
+{
+"chunk": "C",
+"fine_di": "s42",
+"esito": "giusto",
+"coda": "Sul ritmo complessivo."
+},
+{
+"chunk": "C",
+"fine_di": "s43",
+"esito": "giusto",
+"coda": "Basta riconoscere il suono."
+},
+{
+"chunk": "C",
+"fine_di": "s44",
+"esito": "giusto",
+"coda": "E che non lo sapra' mai."
+},
+{
+"chunk": "C",
+"fine_di": "s45",
+"esito": "giusto",
+"coda": "Contrario di aiutare."
+},
+{
+"chunk": "C",
+"fine_di": "s46",
+"esito": "giusto",
+"coda": "Nessuno lo corregge mai."
+},
+{
+"chunk": "C",
+"fine_di": "s47",
+"esito": "giusto",
+"coda": "Sempre la risposta vera."
+},
+{
+"chunk": "C",
+"fine_di": "s48",
+"esito": "giusto",
+"coda": "Come si contava da bambini"
+}
+]

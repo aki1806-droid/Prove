@@ -434,6 +434,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 5.2 | I gesti che la sostituiscono | 9:59 | `38db61ca01bfd8ef074914672defec16` |
 | 5.3 | L'autocontatto | 9:59 | `3dfb22213b650cfaff07db0c1dac93c4` |
 | 5.4 | La voce come segnale non verbale | 9:59 | `d6a44d680232ca9abedf21dbee8a05ca` |
+| 5.5 | Il ritmo e le pause dell'altro | 9:59 | `7050d497cd244561ea5f82401662d2dc` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -444,9 +445,11 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 `LNV_M3_SCRIPT-HEYGEN.md` e `LNV_M4_SCRIPT-HEYGEN.md`.
 
 **Il modulo 4 è chiuso**: cinque lezioni tutte a 9:58, il primo modulo del
-corso in cui le cinque durate coincidono al secondo. **Il modulo 5 è in
-lavorazione**: la 5.1, la 5.2, la 5.3 e la 5.4 sono montate, resta la 5.5.
-Lo script del modulo 6 è in casa; manca quello del modulo 7.
+corso in cui le cinque durate coincidono al secondo. **Anche il modulo 5 è
+chiuso**: cinque lezioni tutte a 9:59, duecentotrentasei slide, ventisette
+figure, quattordici riprese, 50.931 caratteri di copione. Il registro di
+modulo sta in `registri/lnv-modulo-5.md`. Lo script del modulo 6 è in casa;
+manca quello del modulo 7.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
@@ -487,10 +490,10 @@ pause della finestra e nessuna migliora la coppia, e la somma dei blocchi
 coinvolti è in pari. Quando la trascrizione torna, i confini segnalati nei
 registri vanno risentiti uno per uno con `tagli.py correggi`.
 
-**Le lezioni del modulo 5 sono le eccezioni**: centottanta confini riletti
-sulla trascrizione. Uno sbagliato nella 5.1, sette nella 5.2, otto nella 5.3
-— tutti corretti e riletti su un secondo file di controllo — e **zero nella
-5.4**, la prima lezione del corso che esce giusta al primo giro.
+**Il modulo 5 è l'eccezione, ed è intero**: duecentoventicinque confini
+riletti sulla trascrizione, diciannove sbagliati, tutti corretti e riletti su
+un secondo file di controllo. La 5.4 è l'unica lezione del corso uscita
+giusta al primo giro.
 
 Il conto di tre lezioni dice quanto vale la banda da sola:
 
@@ -500,6 +503,8 @@ Il conto di tre lezioni dice quanto vale la banda da sola:
 | 5.2 | 3 | 7 |
 | 5.3 | 4 | 8 |
 | 5.4 | 0 | **0** |
+| 5.5 | 2 | 3 |
+| **modulo 5** | **10** | **19** |
 
 E nella 5.3 **due dei quattro segnalati erano il blocco vicino, non il
 colpevole**: un confine spostato allunga il blocco dopo e accorcia quello
