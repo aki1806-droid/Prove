@@ -770,10 +770,17 @@ Cinque misure:
 | c | 470,47 | 469,06 | 1,41 | 49 | 29 |
 | c (rifatta) | 471,88 | 470,53 | 1,35 | 49 | 28 |
 | d | 471,76 | 470,55 | 1,21 | 50 | 24 |
+| e | 471,88 | 470,54 | 1,34 | 49 | 27 |
 
 Non è un difetto, ma **il controllo di durata del §6 guarda il file locale
 mentre il committente riceve l'altro**: due consegne sono andate sotto la
 durata chiesta proprio così, pur avendo il controllo verde.
+
+> **Lo stato del render può arrivare in ritardo di molto.** Su una lezione il
+> video era pronto dopo 118 secondi — `completed_at` meno `created_at` lo dice
+> — e l'interrogazione dello stato ha continuato a rispondere `processing` per
+> oltre venti minuti. Non si rilancia il montaggio: si continua a chiedere, e
+> si guarda `completed_at` quando arriva.
 
 Da cui `ARROTONDA_SCENA` in `profilo.py`: il bersaglio del respiro non è
 `DURATA_CHIESTA` ma `DURATA_CHIESTA + ARROTONDA_SCENA × scene`. Trenta

@@ -247,7 +247,20 @@ sono dichiarate una per una in `verifica-testo.py`, come vuole il metodo —
 | | |
 |---|---|
 | montato locale | `montato-16.5.mp4` — **7:51.88**, 1920×1080, 25 fps |
+| montato HeyGen | `eb2dbefda53c2450a8f5e8d805a3e21d` — **7:50.54** |
+| render | 118 s |
+| asset caricati | 96 in un lotto solo |
 | sottotitoli | `montato-16.5.srt`, 47 righe, coi tempi esatti dei blocchi |
+
+Perdita in consegna 1,34 s su 49 scene, **27 ms a scena**: dentro la banda
+24-29 delle cinque misure precedenti, e sopra i 7:50 chiesti. Il bersaglio del
+respiro ha funzionato al primo giro per la seconda lezione di fila.
+
+> **Lo stato del render e' arrivato in ritardo di venti minuti.** Il video era
+> pronto dopo 118 secondi — `completed_at` meno `created_at` lo dice — ma
+> `get_video` ha continuato a rispondere `processing` per oltre venti minuti.
+> Chi aspetta quel campo crede che il lavoro sia bloccato. Non si rilancia il
+> montaggio: si continua a chiedere.
 
 ## Costo misurato
 
