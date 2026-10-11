@@ -1,0 +1,420 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.4",
+"title": "La voce",
+"sub": "Un segnale non verbale a tutti gli effetti"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il canale che i corsi dimenticano",
+"title": "Non le parole.<br><span class=\"gold\">Il modo in cui vengono dette.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Arrivano insieme alle parole,<br><span class=\"gold\">su un binario parallelo.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Non verbale a tutti gli effetti.<br><span class=\"gold\">Il canale più informativo dopo il volto.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "perché viene dimenticato",
+"title": "Un corso sul corpo cerca cose da guardare.<br><span class=\"gold\">La voce non si guarda.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "la proprietà che la rende diversa",
+"title": "Più difficile da controllare<br><span class=\"gold\">della faccia.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "Il sorriso si fa a comando.<br><span class=\"gold\">L'espressione neutra si tiene.</span>"
+},
+{
+"file": "c08",
+"layout": "raggi",
+"kicker": "da cosa dipende la voce",
+"centro": "La voce",
+"attorno": [
+{
+"et": "Il respiro",
+"d": 45
+},
+{
+"et": "La tensione",
+"d": 70
+},
+{
+"et": "L'aria",
+"d": 40
+}
+],
+"title": "Tre cose che non si gestiscono a comando."
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Cura l'espressione, perché sa che si vede.<br><span class=\"gold\">E lascia che il resto esca da solo.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "i parametri da ascoltare",
+"title": "Quattro,<br><span class=\"gold\">da nominare uno per uno.</span>"
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "i quattro parametri",
+"rows": [
+"Altezza",
+"Volume",
+"Velocità",
+"Qualità"
+],
+"active": 0,
+"note": "Le corde vocali si tendono, e una corda più tesa suona più acuta."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "i quattro parametri",
+"rows": [
+"Altezza",
+"Volume",
+"Velocità",
+"Qualità"
+],
+"active": 1,
+"note": "Varia anche con la stanza, con il rumore e con l'abitudine."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "i quattro parametri",
+"rows": [
+"Altezza",
+"Volume",
+"Velocità",
+"Qualità"
+],
+"active": 2,
+"note": "Accelera con l'attivazione, rallenta quando si cercano le parole."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "i quattro parametri",
+"rows": [
+"Altezza",
+"Volume",
+"Velocità",
+"Qualità"
+],
+"active": 3,
+"note": "Il meno misurabile dei quattro e il più riconoscibile a orecchio."
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "al telefono spariscono",
+"plain": true,
+"rows": [
+"Il volto",
+"I gesti",
+"Le distanze",
+"La postura"
+],
+"note": "Quattro moduli di questo corso restano fuori dalla porta."
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "la prima conseguenza",
+"title": "I malintesi di tono<br><span class=\"gold\">sono più frequenti e più violenti.</span>"
+},
+{
+"file": "c18",
+"layout": "confronto",
+"occhio": "la stessa frase secca",
+"titoli": [
+"Dal vivo",
+"Al telefono"
+],
+"righe": [
+{
+"et": "Che cosa arriva",
+"a": "La frase e la faccia",
+"b": "Solo la frase"
+},
+{
+"et": "Che cosa vince",
+"a": "La faccia",
+"b": "La frase",
+"segna": true
+}
+]
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "la seconda conseguenza",
+"title": "Al telefono si sente di più.<br><span class=\"gold\">Non meno.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Non ha altro da guardare.<br><span class=\"gold\">E un canale solo si segue meglio.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"title": "Si cura l'espressione.<br>Ci si dimentica della voce."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "l'avvertenza, anche qui",
+"title": "Non esiste<br><span class=\"gold\">la voce della menzogna.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Salire, incrinarsi, accelerare:<br><span class=\"gold\">segnali di attivazione.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"title": "E l'attivazione<br><span class=\"gold\">ha le stesse cause di sempre.</span>"
+},
+{
+"file": "c25",
+"layout": "imbuto",
+"kicker": "che cosa accende la voce",
+"dentro": [
+"L'emozione",
+"L'imbarazzo",
+"La fatica",
+"Chi intimidisce"
+],
+"fuori": "Attivazione"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Una delle tante,<br><span class=\"gold\">e quella rara.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "un problema in più, qui",
+"title": "La voce cambia<br><span class=\"gold\">con cose che non c'entrano niente.</span>"
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "cause che non dicono niente",
+"plain": true,
+"rows": [
+"Un raffreddore",
+"L'ora del giorno",
+"Una laringite",
+"Una notte in bianco"
+],
+"note": "Ciascuna sposta tutti e quattro i parametri insieme."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Quattro ore di fila a parlare.<br><span class=\"gold\">Alla quarta ora la voce è un'altra.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "chi lavora in turni lo sa",
+"title": "E lo sa<br><span class=\"gold\">senza bisogno di nessun corso.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Le sei del mattino e le sette di sera<br><span class=\"gold\">non sono la stessa voce.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "quello che resta",
+"title": "Il punto in cui<br><span class=\"gold\">la voce cambia.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Non com'è la voce di una persona:<br><span class=\"gold\">quando ha smesso di essere come era.</span>"
+},
+{
+"file": "c35",
+"layout": "flusso",
+"kicker": "come si legge",
+"passi": [
+{
+"et": "Stabile",
+"sub": "per dieci minuti"
+},
+{
+"et": "Su una frase",
+"sub": "sale o accelera"
+},
+{
+"et": "E tu sai",
+"sub": "su cosa"
+}
+],
+"title": "Qui il momento si colloca da solo."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "perché è più affidabile di quasi tutti",
+"plain": true,
+"rows": [
+"Difficile da produrre apposta",
+"Difficile da sopprimere"
+],
+"note": "Nessuna delle due si può dire di un sorriso."
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "attenzione a una cosa",
+"title": "Per sentire un cambiamento di voce<br><span class=\"gold\">bisogna ascoltare la voce.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "dov'è l'attenzione, invece",
+"plain": true,
+"rows": [
+"Sul contenuto",
+"Sulla risposta da preparare"
+],
+"note": "E il come viene detto passa senza lasciare traccia."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "l'uso che vale più di tutti",
+"title": "La tua voce dice come stai<br><span class=\"gold\">prima che tu te ne accorga.</span>"
+},
+{
+"file": "c40",
+"layout": "flusso",
+"kicker": "la prova su di te",
+"passi": [
+{
+"et": "Registrati",
+"sub": "un minuto"
+},
+{
+"et": "Riascoltati",
+"sub": "il giorno dopo"
+}
+],
+"title": "Sentirai cose che non sapevi di comunicare."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Dopo ventiquattr'ore<br><span class=\"gold\">è la voce di un altro.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "la correzione, quando serve",
+"title": "Non passa dalla voce.<br><span class=\"gold\">Passa dal respiro e dalla postura.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Cercare la voce della menzogna",
+"Dimenticare raffreddori, turni, stanchezza",
+"Leggere il livello invece del cambiamento",
+"Non ascoltare affatto la voce"
+],
+"active": 0
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Cercare la voce della menzogna",
+"Dimenticare raffreddori, turni, stanchezza",
+"Leggere il livello invece del cambiamento",
+"Non ascoltare affatto la voce"
+],
+"active": 1
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Cercare la voce della menzogna",
+"Dimenticare raffreddori, turni, stanchezza",
+"Leggere il livello invece del cambiamento",
+"Non ascoltare affatto la voce"
+],
+"active": 2
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Cercare la voce della menzogna",
+"Dimenticare raffreddori, turni, stanchezza",
+"Leggere il livello invece del cambiamento",
+"Non ascoltare affatto la voce"
+],
+"active": 3
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "La voce è il canale più ricco<br>e il meno ascoltato."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"In una telefonata",
+"Ascolta solo la voce",
+"Nota il punto in cui cambia"
+],
+"note": "Senza decidere perché."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "Il ritmo e le pause.<br><span class=\"gold\">Quello che succede fra una frase e l'altra.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

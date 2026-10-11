@@ -1,0 +1,14 @@
+{
+ "s15": {
+  "tipo": "immagine",
+  "nome": "telefono-da-scrivania",
+  "url": "https://resource2.heygen.ai/image/98b1923ca1674229b80c4d751a6de8e2/original.png",
+  "nota": "un telefono fisso con la cornetta appoggiata, su una scrivania, luce bassa - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield rifiuta ancora per limite giornaliero del piano"
+ },
+ "s32": {
+  "tipo": "immagine",
+  "nome": "bicchiere-d-acqua-e-microfono",
+  "url": "https://resource2.heygen.ai/image/d608b458159141df822da6d6426a1406/original.png",
+  "nota": "un bicchiere d'acqua accanto a un microfono su un tavolo di legno, luce calda - VISTA. Nessuna persona, nessuna scritta, nessun marchio sul microfono. Generata su ElevenLabs con Nano Banana 2"
+ }
+}
