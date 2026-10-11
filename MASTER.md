@@ -155,9 +155,21 @@ il tempo che il committente chiede e i caratteri che si devono scrivere, quindi
 sbagliarlo sposta tutto.
 
 Si misura in un modo solo: si prende una traccia già fatta con quella voce, si
-contano i caratteri del copione che l'ha prodotta, si divide per il parlato che
-ne è uscito. Su nove lezioni di due corsi il valore è stato **17,0 car/s**, con
-il reale fra 15,8 e 17,6.
+contano i caratteri del copione che l'ha prodotta, e si divide per **il parlato
+netto** — quello senza le pose e senza il respiro. Su nove lezioni di due corsi
+il valore è stato **17,0 car/s**, con il reale fra 15,8 e 17,6.
+
+> **Il denominatore è il netto, non il parlato totale.** Le pose sono silenzio,
+> non voce: contarle dentro fa uscire un `CPS` più basso del vero, e un `CPS`
+> più basso fa scrivere un copione più lungo. La prima misura fatta così dava
+> 17,15 invece di 17,52, e l'errore va nel verso peggiore — un copione troppo
+> lungo non si accorcia (vedi *Il respiro*).
+
+**Non è una costante della voce.** Sulla stessa voce, stesso modello, stesse
+impostazioni, tre lezioni di fila hanno dato **17,52 · 18,31 · 17,63**: il 4,5%
+di escursione. Su otto minuti sono venti secondi. Serve a decidere quanti
+caratteri scrivere, non a predire la durata del montato — e conviene **mirare
+corto**, perché il meccanismo che corregge sa solo allungare.
 
 Lo scarto non è rumore: dipende da **quanto testo costa più sillabe dei
 caratteri che occupa**. Un anno pronunciato per esteso —
@@ -168,14 +180,16 @@ date e numeri di legge.
 
 Cambiando voce o lingua, `CPS` va rimisurato prima di scrivere il copione.
 
-### Il grezzo e il lavorato stanno in rapporto 1,30
+### Il grezzo e il lavorato stanno in rapporto costante
 
-Il filtro di ritmo accorcia la traccia di circa il 30%. Il rapporto è stabile
-abbastanza da servire come **previsione**: appena la voce è generata, prima
-ancora di tagliare, si sa già quanto durerà il montato.
+Il filtro di ritmo accorcia la traccia di una frazione fissa. **Questo rapporto
+sì che è stabile**, a differenza del `CPS`: su un corpus 1,30, su tre lezioni
+consecutive di un altro 1,252 · 1,240 · 1,246 — la terza cifra. La variabilità
+sta nella lettura, non nel filtro, quindi il rapporto si misura una volta per
+voce e poi tiene.
 
 ```
-parlato finale ≈ durata_grezza / 1,30
+parlato finale ≈ durata_grezza / rapporto
 ```
 
 Controprova su una lavorazione reale: 3.956 caratteri in 300,16 s di grezzo
@@ -183,8 +197,46 @@ fanno 13,2 car/s; diviso 1,30 danno 17,1 car/s, cioè il `CPS` di tabella. E le
 due tracce insieme, 583,68 s di grezzo, hanno dato 457,5 s di parlato — contro i
 457 calcolati.
 
-È il momento in cui conviene accorgersi che il montato uscirà **sotto** la
-durata chiesta: dopo, correggere vuol dire rigenerare la voce, e si paga.
+È il momento in cui si sa se il montato uscirà **sotto** la durata chiesta. Se è
+sotto non si paga niente: lo colma il respiro, qui sotto. Se è **sopra** non c'è
+rimedio che non costi una voce rigenerata, ed è il motivo per cui si scrive
+corto.
+
+## Il respiro — la durata è un vincolo, non una previsione
+
+È il pezzo di metodo che rende innocuo tutto quello che sta sopra. Per tre
+lezioni la durata è stata una **previsione**: si stimavano i caratteri da
+scrivere dal `CPS`, si generava la voce, e il montato usciva vicino al
+bersaglio o no. Quando usciva corto — una volta di sedici secondi — l'unico
+rimedio era riscrivere e rigenerare, cioè pagare.
+
+Non serve. **Le pose si applicano al taglio, non alla generazione.** Dopo aver
+misurato la voce si sa esattamente quanto manca, e lo si distribuisce:
+`tagli.py applica` calcola la differenza fra la durata bersaglio e quella
+ottenuta e la spalma come **respiro** su ogni blocco tranne l'ultimo.
+
+```
+bersaglio = DURATA_CHIESTA + ARROTONDA_SCENA × scene
+manca     = bersaglio − (parlato + COPERTINA + CHIUSURA)
+respiro   = manca / (blocchi − 1)
+```
+
+Il montato esce esatto e non costa niente: nessuna voce rigenerata, nessuna
+riga riscritta. Tre cose da sapere:
+
+- **Funziona in un verso solo.** Un copione troppo lungo non si accorcia, e
+  nessuna posa lo rimedia. Per questo si scrive **corto** e si lascia che il
+  respiro colmi: sbagliare il `CPS` in difetto è l'errore caro, in eccesso è
+  gratis.
+- **Ha un tetto**, `RESPIRO_MAX` in `profilo.py`. Oltre quello `applica` si
+  ferma e lo dice, invece di consegnare un video pieno di buchi. Misurati
+  finora: 0,375 s e 0,168 s a blocco — un respiro, non una pausa.
+- **Si somma alle pose, non le sostituisce.** Le pose dicono *dove* il discorso
+  vuole un battito, cioè ai cambi di capitolo; il respiro dice *quanto* manca
+  in tutto, e non sa dove.
+
+Con questo in piedi, il `CPS` smette di essere un numero critico: serve a
+dimensionare il copione, e un errore del 4% lo assorbe il montaggio.
 
 ## `MAX_CAR_BLOCCO` — dalla leggibilità della slide
 
@@ -572,11 +624,29 @@ ogni lezione se ne dimentica per conto suo.
 
 ### Guardare i provini non è una formalità
 
-Tre difetti trovati solo guardando, che nessun controllo automatico poteva
-prendere: una linea del tempo che mescolava numeri di legge e anni sulla stessa
-riga, quattro voci numerate 1, 2-3, 3-4 invece di 1, 2, 3-4, e una slide che
-diceva «il TSO … è disciplin**a**ta per legge» dove il parlato diceva
-correttamente «disciplinato».
+È il controllo che trova le cose che gli altri non possono trovare, perché i
+controlli automatici verificano la **forma** e questi difetti stanno nel
+**significato** o nel **confronto fra una scena e l'altra**. Sette, finora:
+
+- una linea del tempo che mescolava numeri di legge e anni sulla stessa riga;
+- quattro voci numerate 1, 2-3, 3-4 invece di 1, 2, 3-4;
+- «il TSO … è disciplin**a**ta per legge» dove il parlato diceva «disciplinato»;
+- una tabella ✓/× dove i due lati non erano giusto e sbagliato ma due cose da
+  distinguere — stesso errore ripetuto due lezioni dopo con `sostituzione`;
+- una `griglia` che rendeva il titolo di ogni cella e buttava via la
+  definizione, mentre la voce le stava pronunciando;
+- un controesempio del plurale paternalistico che era a sua volta un plurale;
+- una serie a tappe — la stessa slide scoperta in tre tempi — col tema diverso
+  sulla prima: nel montato il fondo passa da bianco a rosa dentro la stessa
+  frase. Le tre slide sono valide **una per una**: il difetto esiste solo nel
+  confronto.
+
+Il verso è sempre lo stesso: **prima lo trova l'occhio, poi si scrive il
+controllo**. Degli ultimi quattro, tre hanno prodotto un controllo nuovo (la
+dichiarazione delle chiavi lette da ogni tipo in `layout.mjs`, l'intersezione
+riga/ente e le serie a tema discorde in `cards.mjs`); del primo no, perché
+«questi due lati sono giusto e sbagliato oppure no» non è una domanda che una
+macchina possa decidere. Quella resta a chi guarda.
 
 ## Passo 5 — Riprese e immagini generate
 
@@ -585,13 +655,21 @@ Di solito: nessuna. Se servono, vanno qui, prima del caricamento.
 ## Passo 6 — Caricare tutto come asset
 
 ```
-N clip mp4  +  N mp3 di blocco  +  2 PNG (copertina e chiusura)  =  2N + 2 file
+N scene mp4  +  N mp3 di blocco  +  2 PNG (copertina e chiusura)  =  2N + 2 file
 ```
 
 Il lotto di caricamento tiene **fino a 100 file**: per una lezione fino a 49
 blocchi ci stanno tutti in uno.
 
-Il giro, per intero:
+> **Si carica la scena intera, non la clip d'ingresso.** `monta-scene.py`
+> produce per ogni blocco un mp4 che dura quanto il parlato: l'ingresso animato
+> più l'ultimo fotogramma tenuto. Si potrebbe caricare la sola clip da 1,8 s e
+> lasciare che il servizio la congeli fino alla durata dell'audio — ma allora
+> la durata consegnata la decide il servizio, e `ARROTONDA_SCENA` è misurato
+> sull'altra strada. Chi cambia questa scelta rimisuri l'arrotondamento.
+
+Il giro è in `heygen.py`, in tre mosse separate perché quella in mezzo costa
+tempo e non si ripete a vuoto:
 
 ```
 create_asset_upload_batch(files=[{filename, content_type, size_bytes}, ...])
@@ -599,6 +677,15 @@ create_asset_upload_batch(files=[{filename, content_type, size_bytes}, ...])
 PUT dei byte su ciascun upload_url, con gli upload_headers che l'item porta
 complete_asset_batch(batch_id)
 get_asset_batch(batch_id)  finché il CONTEGGIO arriva a 2N+2
+```
+
+```
+heygen.py prepara   files.json (nomi, tipi, pesi) e percorsi.json, nell'ordine
+                    -- poi la chiamata a create_asset_upload_batch, a mano,
+                       con la risposta salvata in _montaggio/lotto.json
+heygen.py invia     i PUT, con la verifica di posizione; scrive asset-heygen.json
+                    -- poi complete_asset_batch e l'attesa sul conteggio
+heygen.py scene     la lista di scene per il montaggio
 ```
 
 > **Gli item della risposta non portano il nome del file.** Tornano in un elenco
@@ -668,12 +755,26 @@ scambiare l'attesa normale per un blocco.
 
 ### Il montato del servizio è più corto di quello locale
 
-Misurato: **470,80 s in locale contro 469,62 s su HeyGen**, su 48 scene. Circa
-25 ms per scena, cioè l'arrotondamento di ogni scena al fotogramma a 25 fps.
+Il servizio arrotonda ogni scena al fotogramma, e sempre nello stesso verso.
+Cinque misure:
 
-Non è un difetto, ma cambia il numero da dichiarare: **il controllo di durata
-del §6 passa sul montato locale e può non passare su quello consegnato**. Se la
-durata chiesta è un impegno preciso, si punta a un secondo sopra, non esatti.
+| | locale | consegnato | perdita | scene | ms/scena |
+|---|---|---|---|---|---|
+| a | 470,80 | 469,62 | 1,18 | 48 | 25 |
+| b | 473,60 | 472,27 | 1,33 | 48 | 28 |
+| c | 470,47 | 469,06 | 1,41 | 49 | 29 |
+| c (rifatta) | 471,88 | 470,53 | 1,35 | 49 | 28 |
+| d | 471,76 | 470,55 | 1,21 | 50 | 24 |
+
+Non è un difetto, ma **il controllo di durata del §6 guarda il file locale
+mentre il committente riceve l'altro**: due consegne sono andate sotto la
+durata chiesta proprio così, pur avendo il controllo verde.
+
+Da cui `ARROTONDA_SCENA` in `profilo.py`: il bersaglio del respiro non è
+`DURATA_CHIESTA` ma `DURATA_CHIESTA + ARROTONDA_SCENA × scene`. Trenta
+millisecondi è un po' largo rispetto ai 24-29 misurati, ed è il verso giusto:
+un video mezzo secondo lungo non lo nota nessuno, uno mezzo secondo corto manca
+un impegno preso.
 
 ## Passo 8 — Registro
 
@@ -876,8 +977,8 @@ riaprirli — ma la durata no: quella si richiede.
 | durata chiesta | «8 minuti almeno» → 9:00 | standard 7–8 min → 7:50 |
 | pausa musicale | no | no |
 | copione | lo fornisce l'utente, uno script per lezione | idem |
-| scene usate | 50 | 48 |
-| lezioni fatte | 8 | 1 |
+| scene usate | 50 | 48 · 48 · 49 · 50 |
+| lezioni fatte | 8 | 4 |
 
 I parametri comuni a tutti e due:
 
@@ -890,7 +991,8 @@ I parametri comuni a tutti e due:
 | voce | GianP — News Info and Documentary, `nNt0YcINdGadGcTx5fBM`, `eleven_v3` |
 | trascrizione | `eleven_scribe_v1` |
 | formato | 1920×1080, 25 fps, 16:9, 1080p |
-| `CPS` | 17,0 · fascia 8,5–21 · copertina 3 s · chiusura 10 s |
+| `CPS` | 17,0 di partenza · misurato 17,52 · 18,31 · 17,63 · fascia 8,5–21 |
+| | copertina 3 s · chiusura 10 s · respiro max 0,6 s · arrotondamento 30 ms/scena |
 | tetti | 50 scene per chiamata · 100 file per lotto · 225 caratteri per blocco |
 
 I due colori del marchio sono **campionati dal file del logo, non stimati**.
@@ -934,13 +1036,22 @@ diversa potrebbero cambiare forma.
 ## Costo misurato, per lezione
 
 ```
-voce, due tracce, ~7.800 caratteri, eleven_v3    $1,28
-trascrizione delle due tracce intere             $0,53
+voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28
+trascrizione delle due tracce intere             $0,49
                                                  ------
-                                                 $1,81
+                                                 $1,77
 ```
 
-Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro).
+Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro),
+e nemmeno le rilavorazioni: rifare un taglio, le clip e i caricamenti costa
+solo macchina. **Fra «rigenerare la voce» e «rifare il montaggio» c'è tutta la
+differenza**, ed è il motivo per cui il respiro vale quello che vale.
+
+> **Il preventivo del servizio di sintesi è pessimistico di 2,2 volte**, su tre
+> lezioni misurate. Il rapporto reale è **un credito per carattere**: 3.931
+> caratteri hanno fatto 3.931 crediti. Il costo della voce si calcola a mano
+> meglio di come lo stima `estimate_only`, e chi decide se spendere guardando
+> il preventivo decide su un numero più che doppio.
 
 ---
 
@@ -1119,13 +1230,70 @@ CHIUSURA  = 10.0
 # Su nove lezioni il reale e' andato da 15,8 a 17,6 — lo scarto dipende dalla
 # densita' di cifre e di sigle, che costano molte piu' sillabe dei caratteri
 # che occupano. Cambiando voce o lingua va rimisurata.
-CPS = 17.0
+#
+# MISURATO su questa lezione (GianP, eleven_v3, italiano): 17,52 car/s sui
+# 7.708 caratteri e 439,9 s di voce netta. Il 17,0 e' quindi pessimistico del
+# 3%, ed e' il motivo per cui il primo montato e' uscito 7 s sotto i 7:50.
+#
+# Attenzione a quale numero si misura. Il rapporto caratteri / parlato TOTALE
+# dava 16,75, perche' il parlato totale comprende le pose, che non sono voce.
+# Sul netto sono 17,52. Chi usa il numero sbagliato predice una durata
+# sbagliata in un verso o nell'altro, e non capisce perche'.
+#
+# Quindi l'aritmetica del §2 vuole le pose a parte:
+#     voce_netta = durata_chiesta - copertina - chiusura - pose
+#     caratteri  = voce_netta * CPS
+# Su questa lezione le pose sono 20,3 s su 17 blocchi: 1,2 s a ogni cambio di
+# capitolo (12), tre battiti a meta' capitolo, e 2,3 s di allungamento
+# automatico dei due blocchi sotto i 3,5 s.
+CPS = 17.52
 
 # La fascia entro cui un blocco e' sano. Sotto, la voce striscia e la scena si
 # siede; sopra, corre e il testo della slide non fa in tempo a leggersi. Fuori
 # fascia non e' un errore da bloccare: e' il segnale che quel confine va
 # guardato.
 FASCIA_CPS = (8.5, 21.0)
+
+# Il respiro: quanto si puo' allungare OGNI blocco, al taglio, per arrivare
+# alla durata chiesta.
+#
+# Serve perche' il CPS non e' una costante della voce. Misurato 17,52 sulla
+# 16.2 e 18,31 sulla 16.3 — stessa voce, stesso modello, stesse impostazioni,
+# il 4,5% di differenza fra una lezione e l'altra. Il rapporto fra traccia
+# grezza e traccia lavorata invece e' stabile (1,252 e 1,240), quindi la
+# variabilita' sta nella lettura, non nel filtro di ritmo. Su otto minuti il
+# 4,5% sono venti secondi: la durata non si puo' predire, si puo' solo
+# misurare dopo.
+#
+# Ma le pose si applicano al TAGLIO, non alla generazione. Quindi la durata
+# chiesta smette di essere una previsione e diventa un vincolo: si scrive un
+# copione un po' corto, si misura la voce, e `tagli.py applica` distribuisce
+# la differenza come respiro su ogni blocco. Costa zero e non rigenera niente.
+#
+# Il tetto esiste perche' il respiro non deve poter coprire un copione
+# gravemente corto: oltre questo valore `applica` si ferma e lo dice, invece
+# di consegnare un video pieno di buchi.
+#
+# Funziona in un verso solo. Se il copione e' troppo LUNGO il montato sfora e
+# nessuna posa lo accorcia: per questo si mira sotto, non sopra.
+RESPIRO_MAX = 0.6
+
+# Quanto perde il servizio di montaggio su OGNI scena, arrotondando al
+# fotogramma. Il montato locale e quello renderizzato non durano uguale:
+#
+#     16.1   470,80 locale ->  469,62 renderizzato   1,18 s su 48 scene
+#     16.2   473,60 locale ->  472,27 renderizzato   1,33 s su 48 scene
+#     16.3   470,47 locale ->  469,06 renderizzato   1,41 s su 49 scene
+#
+# Sono 25-29 ms a scena, sempre nello stesso verso. Finche' il respiro mirava
+# ai 470 s del montato LOCALE, il video consegnato usciva sotto: la 16.1 di
+# 0,38 s, la 16.3 di 0,94. Il controllo del §6 guarda il file locale e passa,
+# ma il file che riceve il committente e' l'altro.
+#
+# Quindi il respiro mira piu' in alto di questo margine per scena. Non e' una
+# stima: sono tre misure sullo stesso servizio e nello stesso formato. Con un
+# servizio o un frame rate diversi va rimisurato.
+ARROTONDA_SCENA = 0.030
 
 # --- dal servizio di montaggio -----------------------------------------------
 
@@ -1152,7 +1320,7 @@ MAX_CAR_BLOCCO = 225
 # calcola e lo stampa; qui si ricopia. Va riletto A OGNI LEZIONE: quello della
 # lezione precedente taglia la traccia nel punto sbagliato e nessun controllo
 # se ne accorge, perche' i conti tornano tutti — solo sui blocchi sbagliati.
-STACCO = "s24"                  # chunkA 3957 car · chunkB 3763 car
+STACCO = "s25"                  # chunkA 3931 car · chunkB 3758 car
 ```
 
 ## `copione/costruisci.py`
@@ -1269,6 +1437,11 @@ for b in blocchi:
     if len(b["text"])>MAX_CAR_BLOCCO: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
 tags=sum(len(re.findall(r"\[[a-z]+\]", b["text"])) for b in blocchi)
 if tags>6: errori.append(f"tag di intenzione: {tags} > 6")
+# Un capitolo che finisce senza posa incolla due argomenti in un respiro solo.
+# Costato un montato sette secondi corto: nove cambi su dodici ne erano privi.
+for a,b in zip(blocchi, blocchi[1:]):
+    if a["capitolo"]!=b["capitolo"] and not a["posa"]:
+        errori.append(f'{a["id"]}: chiude il capitolo {a["capitolo"]} senza posa')
 
 pose=sum(b["posa"] for b in blocchi)
 parlato=tot/CPS+pose; durata=parlato+COPERTINA+CHIUSURA
@@ -1322,7 +1495,8 @@ QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
 import sys as _sys; _sys.path.insert(0, str(RADICE))
-from profilo import STACCO, FASCIA_CPS
+from profilo import (STACCO, FASCIA_CPS, COPERTINA, CHIUSURA, DURATA_CHIESTA,
+                     RESPIRO_MAX, ARROTONDA_SCENA)
 CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
@@ -1556,8 +1730,48 @@ def cmd_applica():
             reg.append({"id":x["id"],"traccia":L,"da":round(ini,3),"a":round(fin,3),
                         "durata":round(d,3),"posa":posa,"car":len(x["text"]),
                         "cps":round(len(x["text"])/d,1)})
+    # Il respiro (§2). La voce non legge due volte alla stessa velocita', e
+    # qui ha letto il 4,5% piu' in fretta che sulla lezione prima: quindici
+    # secondi sotto la durata chiesta. Non si rigenera la voce per quindici
+    # secondi, e non si lascia un video piu' corto di quello che e' stato
+    # chiesto. Si allunga ogni blocco della stessa frazione.
+    #
+    # Si somma alla posa, non la sostituisce: le pose dicono DOVE il discorso
+    # vuole un battito, il respiro dice QUANTO manca in tutto. L'ultimo blocco
+    # resta fuori: un respiro dopo l'ultima parola e' solo coda prima della
+    # chiusura, che gia' dura dieci secondi.
+    tot = sum(r["durata"] for r in reg)
+    # Si mira al RENDERIZZATO, non al locale: il montaggio perde ~30 ms per
+    # scena arrotondando al fotogramma, e su cinquanta scene e' un secondo e
+    # mezzo. Le scene sono i blocchi piu' copertina e chiusura.
+    bersaglio = DURATA_CHIESTA + ARROTONDA_SCENA*(len(reg)+2)
+    manca = bersaglio - (tot + COPERTINA + CHIUSURA)
+    respiro = 0.0
+    if manca > 0.05:
+        respiro = round(manca/(len(reg)-1), 3)
+        if respiro > RESPIRO_MAX:
+            print(f"copione troppo corto: servirebbero {respiro:.2f} s di respiro per blocco, "
+                  f"il tetto e' {RESPIRO_MAX}. Mancano {manca:.0f} s: si scrive piu' testo, "
+                  f"non si allunga il silenzio.")
+            sys.exit(1)
+        for r in reg[:-1]:
+            f = out/f"{r['id']}.mp3"
+            sh(FF,"-y","-v","error","-i",f,"-af",f"apad=pad_dur={respiro}",
+               "-c:a","libmp3lame","-b:a","192k",out/f"_{r['id']}.mp3")
+            (out/f"_{r['id']}.mp3").replace(f)
+            d = durata(f)
+            r["respiro"] = respiro
+            r["durata"]  = round(d,3)
+            r["cps"]     = round(r["car"]/d,1)
+        print(f"respiro: +{respiro:.3f} s su {len(reg)-1} blocchi  ({manca:.1f} s da recuperare, "
+              f"bersaglio {bersaglio:.1f} s = {DURATA_CHIESTA:.0f} chiesti + {ARROTONDA_SCENA*(len(reg)+2):.1f} "
+              f"di arrotondamento su {len(reg)+2} scene)")
+
     (QUI/"blocchi-audio.json").write_text(json.dumps(reg,indent=1,ensure_ascii=False),encoding="utf-8")
-    tot = sum(r["durata"] for r in reg); m = tot+13
+    tot = sum(r["durata"] for r in reg)
+    # §6: il montato e' il parlato piu' le due immagini ferme. Dichiarate in
+    # profilo.py, non scritte qui: 13 era un numero murato in questa riga.
+    m = tot + COPERTINA + CHIUSURA
     fuori = [r for r in reg if not CPSMIN<=r["cps"]<=CPSMAX]
     print(f"{len(reg)} blocchi  ·  parlato {tot:.1f} s  ·  montato {int(m//60)}:{m%60:04.1f}")
     print(f"pose: {sum(1 for r in reg if r['posa'])}   fuori fascia: {len(fuori)}")
@@ -1689,6 +1903,10 @@ RESE = [
  # letteratura; il trascrittore lo stacca in «auto-stigma». Non e' un buco:
  # la voce dice la parola intera, e si sente. Resa dichiarata, non tolleranza.
  (r"\bauto\s+stigma\b",               " autostigma "),
+ # La sigla del corso: la voce la compita «o-esse-esse» e il trascrittore
+ # scrive «OS», due lettere invece di tre. Succede a ogni ricorrenza, e non in
+ # modo costante fra una traccia e l'altra. La parola e' detta per intero.
+ (r"\bos\b",                           " oss "),
 ]
 
 def parole(s):
@@ -2225,9 +2443,37 @@ const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
 // che scoprirlo guardando il video.
 const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
 
+// Le chiavi che ogni tipo legge dalle sue voci. Serve perche' una chiave che il
+// modello non legge viene buttata via IN SILENZIO: il dato c'e', il controllo
+// passa, e il contenuto non arriva sulla slide. E' successo con `griglia`, che
+// rende solo `t`: i quattro elementi della recovery hanno perso le definizioni
+// che la voce stava pronunciando, e me ne sono accorto guardando il provino.
+// Un errore cosi' non deve dipendere dal fatto che guardi la slide giusta.
+const CHIAVI_VOCE = {
+  elenco:  ['voci',  ['t','d']],
+  memo:    ['voci',  []],
+  icone:   ['voci',  ['icona','t','d','key']],
+  tre:     ['box',   ['n','t','d','key']],
+  catena:  ['passi', ['t','d','key']],
+  scala:   ['gradini',['n','t','d','key']],
+  griglia: ['celle', ['t','n','no']],
+  trappola:['righe', ['sb','ok']],
+  timeline:['tappe', ['t','d','key','anno']],
+  confronto:['col',  ['h','t','grande']],
+};
+
 export function html(d, {avanzamento=0, pagina=''}={}) {
   if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
     throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
+  const cv = CHIAVI_VOCE[d.tipo];
+  if (cv) {
+    const [campo, lette] = cv;
+    for (const [i, v] of (d[campo] ?? []).entries())
+      for (const k of Object.keys(v))
+        if (!lette.includes(k))
+          throw new Error(`${d.id}: «${d.tipo}» non rende la chiave «${k}» (voce ${i+1} di ${campo}). `
+            + `Rende solo: ${lette.join(', ')}. Il contenuto sparirebbe senza dirlo.`);
+  }
   const t = TEMI[d.tema ?? 'chiaro'];
   const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';
@@ -2799,6 +3045,7 @@ const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-119
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
 const troppoAlte = [];
+const sovrapposte = [];
 for (const [i, s] of SCENE.entries()) {
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
                      { waitUntil: 'load' });
@@ -2824,6 +3071,18 @@ for (const [i, s] of SCENE.entries()) {
                         + Math.max(0, c.scrollWidth - c.clientWidth)),
     };
   });
+  // La copertina ha l'ente in posizione assoluta in fondo e la riga rossa nel
+  // flusso: con un titolo su tre righe il flusso cresce e la riga finisce
+  // SOPRA l'ente. Il controllo qui sopra non lo vede, perche' .corpo resta
+  // dentro la cornice — si sovrappongono e basta, e il difetto arriva fino al
+  // montato. Si vede solo guardando: quindi lo si misura.
+  const scontro = await p.evaluate(() => {
+    const r = document.querySelector('.cover .riga'), e = document.querySelector('.cover .ente');
+    if (!r || !e) return 0;
+    const a = r.getBoundingClientRect(), b = e.getBoundingClientRect();
+    return Math.round(Math.max(0, Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top)));
+  });
+  if (scontro > 0) sovrapposte.push([s.id, scontro]);
   if (over.sfora > 1 || over.largo > 1) troppoAlte.push([s.id, over]);
   await p.screenshot({ path: `${OUT}${s.id}.png` });
   process.stdout.write(`${s.id} `);
@@ -2834,6 +3093,29 @@ if (troppoAlte.length) {
   console.log('SFORANO LA CORNICE:');
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
 } else console.log('nessuna slide sfora la cornice');
+if (sovrapposte.length) {
+  console.log('\nSI SOVRAPPONGONO (riga rossa sopra l\'ente della copertina):');
+  for (const [id, px] of sovrapposte) console.log(`  ${id}  ${px}px di sovrapposizione — accorciare il titolo a due righe`);
+} else console.log('copertine: riga e ente non si toccano');
+// Un elenco che si scopre a tappe e' la stessa slide piu' volte: se il tema
+// cambia a meta' della serie, il fondo passa da bianco a rosa fra una scena e
+// l'altra e lo stacco si vede nel montato. Nessun controllo di forma lo prende
+// — le slide sono tutte valide una per una. Si confrontano fra loro.
+const serie = new Map();
+for (const s of SCENE) {
+  if (!s.sopratitolo) continue;
+  const chiave = s.sopratitolo.split(' — ')[0].trim().toLowerCase();
+  if (!serie.has(chiave)) serie.set(chiave, []);
+  serie.get(chiave).push(s);
+}
+const discordi = [...serie.values()]
+  .filter(g => g.length > 1 && new Set(g.map(s => s.tema || 'chiaro')).size > 1)
+  .map(g => g.map(s => `${s.id}:${s.tema || 'chiaro'}`).join(' '));
+if (discordi.length) {
+  console.log('\nSERIE CON TEMI DISCORDI (stesso sopratitolo, fondo diverso):');
+  for (const d of discordi) console.log(`  ${d}`);
+} else console.log('serie a tappe: tema concorde dentro ogni serie');
+
 writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));
 ```
 
@@ -2885,6 +3167,139 @@ for (const s of DA_ANIMARE) {
 }
 await b.close();
 console.log(`\n${DA_ANIMARE.length} clip da ${DURATA}s scritte in mp4/`);
+```
+
+## `heygen.py`
+
+Il passaggio sul servizio di montaggio. Le due chiamate al servizio restano a
+mano, in mezzo alle tre mosse: sono quelle che costano tempo e che non vanno
+ripetute per sbaglio.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Il passaggio su HeyGen, in tre mosse separate perche' quella in mezzo costa
+tempo e non si ripete a vuoto:
+
+    heygen.py prepara   elenca i file e il loro peso, nell'ordine di invio
+    heygen.py invia     manda i byte agli indirizzi del lotto
+    heygen.py scene     scrive la lista di scene da passare allo studio
+
+Fra «prepara» e «invia» ci va una chiamata a mano: create_asset_upload_batch con
+il contenuto di files.json, e la risposta salvata in _montaggio/lotto.json.
+Gli item del lotto NON portano il nome del file: l'accoppiamento con i percorsi
+e' soltanto posizionale, e il content-type e' l'unica verifica possibile. Per
+questo l'ordine di «prepara» e' la chiave di tutto e non va toccato.
+
+Si caricano le scene intere (scene/*.mp4: ingresso piu' fermo immagine, durata
+piena), non le clip da 1,8 s: la durata della scena consegnata e' quella del
+filmato, e ARROTONDA_SCENA e' misurato su questo.
+Tutto cio' che scrive sta in _montaggio/, che il repo ignora."""
+import json, subprocess, sys
+from pathlib import Path
+
+QUI = Path(__file__).resolve().parent
+OUT = QUI/"_montaggio"; OUT.mkdir(exist_ok=True)
+sys.path.insert(0, str(QUI))
+from profilo import COPERTINA, CHIUSURA
+
+
+def _blocchi():
+    return json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+
+def _estremi():
+    png = sorted(p.stem for p in (QUI/"slide"/"png").glob("s*.png"))
+    if not png: raise SystemExit("nessun PNG: prima cards.mjs")
+    return png[0], png[-1]
+
+
+def cmd_prepara():
+    ids = [r["id"] for r in _blocchi()]
+    copertina, chiusura = _estremi()
+    voci  = [(f"{copertina}.png", QUI/"slide"/"png"/f"{copertina}.png", "image/png"),
+             (f"{chiusura}.png",  QUI/"slide"/"png"/f"{chiusura}.png",  "image/png")]
+    voci += [(f"{i}.mp4", QUI/"scene"/f"{i}.mp4", "video/mp4") for i in ids]
+    voci += [(f"{i}.mp3", QUI/"audio"/"blocchi"/f"{i}.mp3", "audio/mpeg") for i in ids]
+    for nome, p, _ in voci:
+        if not p.exists(): raise SystemExit(f"manca {p}")
+
+    (OUT/"files.json").write_text(json.dumps(
+        [{"filename": n, "content_type": c, "size_bytes": p.stat().st_size} for n, p, c in voci]),
+        encoding="utf-8")
+    (OUT/"percorsi.json").write_text(json.dumps([[n, str(p), c] for n, p, c in voci]),
+                                     encoding="utf-8")
+    print(f"{len(voci)} file: copertina {copertina}, chiusura {chiusura}, "
+          f"{len(ids)} scene, {len(ids)} mp3")
+    print(f"peso totale {sum(p.stat().st_size for _,p,_ in voci)/1e6:.1f} MB")
+    if len(voci) > 100:
+        print(f"ATTENZIONE: il lotto accetta 100 file, qui sono {len(voci)}")
+    print("ora: create_asset_upload_batch con files.json, risposta in _montaggio/lotto.json")
+
+
+def cmd_invia():
+    lotto = json.loads((OUT/"lotto.json").read_text())
+    perc  = json.loads((OUT/"percorsi.json").read_text())
+    items = lotto["items"]
+    if len(items) != len(perc):
+        raise SystemExit(f"lotto {len(items)} item, percorsi {len(perc)}: non combaciano")
+
+    mappa, errori = {}, []
+    for i, (nome, strada, tipo) in enumerate(perc):
+        it = items[i]
+        atteso = it["upload_headers"]["content-type"]
+        if atteso != tipo:
+            raise SystemExit(f"{nome}: alla posizione {i} il lotto aspetta {atteso}, non {tipo}")
+        testa = [x for k, v in it["upload_headers"].items() for x in ("-H", f"{k}: {v}")]
+        p = subprocess.run(["curl", "-sS", "--max-time", "300", "-o", "/dev/null",
+                            "-w", "%{http_code}", "-X", "PUT", "--upload-file", strada,
+                            *testa, it["upload_url"]], capture_output=True, text=True)
+        if p.stdout.strip() != "200":
+            errori.append((nome, p.stdout.strip(), p.stderr[-200:])); print(f"\n  {nome} KO")
+        else:
+            mappa[nome] = it["asset_id"]; print(nome, end=" ", flush=True)
+
+    print()
+    if errori:
+        for e in errori: print(" KO", e)
+        raise SystemExit(1)
+    (OUT/"asset-heygen.json").write_text(json.dumps(
+        {"batch_id": lotto["batch_id"], "asset": mappa}, indent=1), encoding="utf-8")
+    print(f"{len(mappa)} file inviati, nessun errore")
+    print("ora: complete_asset_batch, poi get_asset_batch finche' il conteggio e' tutto pronto")
+
+
+def cmd_scene():
+    asset = json.loads((OUT/"asset-heygen.json").read_text(encoding="utf-8"))["asset"]
+    reg = _blocchi()
+    copertina, chiusura = _estremi()
+
+    def immagine(nome, durata):
+        return {"type": "image",
+                "source": {"type": "asset_id", "asset_id": asset[f"{nome}.png"]},
+                "duration": durata}
+
+    # il video va ammutolito e tenuto fermo: la durata la detta l'mp3, non il filmato
+    scene = [immagine(copertina, COPERTINA)]
+    scene += [{"type": "video",
+               "source": {"type": "asset_id", "asset_id": asset[f'{r["id"]}.mp4']},
+               "audio_asset_id": asset[f'{r["id"]}.mp3'],
+               "playback": {"mode": "freeze", "mute": True}} for r in reg]
+    scene.append(immagine(chiusura, CHIUSURA))
+
+    rif = [x["source"]["asset_id"] for x in scene] + \
+          [x["audio_asset_id"] for x in scene if "audio_asset_id" in x]
+    if len(set(rif)) != len(rif): raise SystemExit("un asset_id compare due volte")
+
+    (OUT/"scene-heygen.json").write_text(json.dumps(scene), encoding="utf-8")
+    print(f"{len(scene)} scene · copertina {COPERTINA:g} s · {len(reg)} blocchi · "
+          f"chiusura {CHIUSURA:g} s · {len(rif)} asset distinti")
+
+
+if __name__ == "__main__":
+    mosse = {"prepara": cmd_prepara, "invia": cmd_invia, "scene": cmd_scene}
+    if len(sys.argv) != 2 or sys.argv[1] not in mosse:
+        raise SystemExit("uso: heygen.py prepara|invia|scene")
+    mosse[sys.argv[1]]()
 ```
 
 ## `monta-scene.py`
