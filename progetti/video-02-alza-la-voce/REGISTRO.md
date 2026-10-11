@@ -21,3 +21,7 @@ Lotto asset HeyGen: a83476dfed4c4f3aa1a016c031052469 (20 png + 32 mp3 + 5 b-roll
 - Lotto asset avatar: 1ba733e6bf32422780926ef98174727b. heygen-scene.json: 34 scene (copertina 3 s,
   S01–S32, chiusura 12 s); grafiche come image con traccia, b-roll e avatar come video freeze+mute.
 - Montaggio studio lanciato: video_id `cff985f394a021a853ff24cde576f269` (16:9, 1080p, sottotitoli srt).
+- Render completato: 481,2 s (8:01), 1920x1080. Scaricati Video02_AlzaLaVoce_16x9_sottotitoli.mp4 (126 MB,
+  non versionato) e Video02_AlzaLaVoce.srt. Controllo: 34 scene in ordine (copertina, b-roll, avatar con
+  monogramma LPG, grafiche, chiusura); sottotitoli conformi ai testi voce.
+- Copia per l'invio: Video02_AlzaLaVoce_compresso.mp4 (1280x720, due passate, sotto 30 MB).
