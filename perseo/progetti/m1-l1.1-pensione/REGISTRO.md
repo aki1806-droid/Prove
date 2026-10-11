@@ -52,7 +52,11 @@ Metodo: `metodo/MASTER-PORTATILE.md` (portato dalla sessione «Metodo creazione 
 
 ## La resa
 
-- video HeyGen: `6e442487875659470e64337b346a1dac` — *in corso*
+- video HeyGen: `6e442487875659470e64337b346a1dac` — **completato**, 6:09,0 (369,0 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/6e442487875659470e64337b346a1dac
+- render lanciato alle 12:57 UTC e chiuso alle 13:13 UTC: **circa 16 minuti**, contro i 3-4 del
+  MASTER. Non è stato rilanciato. Il tempo va tenuto come nuovo metro per lavori di questa misura.
+- copia di controllo locale: `montato-1.1.mp4` 6:10,1 (non versionata) e `montato-1.1.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
