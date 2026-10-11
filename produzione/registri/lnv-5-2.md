@@ -14,13 +14,15 @@ usa le parole** — perché le parole si possono chiedere e i gesti no.
 
 | campo | valore |
 |---|---|
-| video_id | |
+| video_id | `38db61ca01bfd8ef074914672defec16` |
 | scene | 50 — copertina, 48 blocchi, chiusura |
 | formato | 16:9, 1080p |
+| durata | 598,8 s (9:59) — misurata sul montato |
 | parlato | 587,1 s (551,5 s di voce tagliata + 35,6 s di pose) |
 | voce | Luca Ward `tVdVcJPudubxmTmAw4tE`, `eleven_v4`, 1,12× in post |
 | flow ElevenLabs | `yMTz68D0KbvSjp0drXnW` |
 | tracce | A `yEZg5PfBQtxrqsXfTUjo` · B `qrvuZuI65EMS00SNvh7A` · C `5nBa9kWVBLXjiBzxIuiy` |
+| batch HeyGen | `8ceb805e4dcc425f9540e6486827fa21`, 95 file |
 
 ## Nessun gesto offensivo, e la regola che ne esce
 
@@ -165,3 +167,10 @@ immagine** contro i 130 di Artlist e i 612 del nodo ElevenLabs.
   in campo. **È l'unica ripresa del corso in cui il testo nell'immagine è
   voluto**: lo script lo chiede ed è il contenuto della scena. Le quattro
   righe si leggono in quattro lingue e nessuna porta un marchio.
+
+## Il montato è stato verificato scena per scena
+
+`get_video_scenes` sul video montato: cinquanta scene, le tre immagini
+esattamente alle scene 15, 26 e 36 (cioè `s16`, `s27` e `s37`), **nessuna
+scena in `playback: loop`** e tutte le altre in `freeze` con `volume: 0`.
+Copertina con la traccia muta da 3 s, chiusura con quella da 10 s.

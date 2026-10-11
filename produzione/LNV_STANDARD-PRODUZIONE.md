@@ -373,12 +373,29 @@ trascrizione. Ma `prova.mp3` è generato da `allinea`, cioè **prima** degli
 spostamenti: le code dei confini mossi a mano si rileggono con un ritaglio
 di controllo preso al nuovo taglio, non rigenerando tutta la prova.
 
-**Cosa ha detto la prima verifica.** Sulla 5.1, quarantaquattro code su
-quarantacinque erano esattamente la fine del loro blocco, e l'unica che non
-lo era è **esattamente il confine che `banda.py` aveva segnalato**. Il
-controllo di banda non ha prodotto nessun falso positivo e non si è lasciato
-sfuggire niente: le venti lezioni già montate restano da riverificare, ma la
-banda si è dimostrata affidabile su un campione intero.
+**Cosa hanno detto le prime due verifiche**, e dicono due cose opposte.
+
+Sulla **5.1**: quarantaquattro code su quarantacinque esatte, e l'unica
+sbagliata era esattamente il confine che `banda.py` aveva segnalato. Nessun
+falso positivo, niente sfuggito.
+
+Sulla **5.2**: sette confini sbagliati su quarantacinque, e la banda ne aveva
+visti tre. **Ne ha mancati cinque.** La ragione è precisa e va tenuta a
+mente ogni volta che si legge una banda pulita:
+
+> **Una catena di confini spostati tutti nello stesso verso e della stessa
+> misura è invisibile a un controllo di durata.** Ogni blocco perde
+> all'inizio quello che guadagna alla fine, quindi la sua durata resta
+> giusta. Solo il primo confine della catena sporge, e solo se lo
+> spostamento è abbastanza grande.
+
+Sulla 5.2 erano quattro di fila, in fondo alla traccia C, spostati tutti in
+avanti di circa una frase. La banda vedeva scarti fra −0,7 e +2,1 s: tre
+blocchi su quattro erano dentro i limiti.
+
+**Conseguenza pratica.** Una banda pulita non è una prova, è un'assenza di
+segnale. La verifica sulla trascrizione va fatta su ogni lezione, anche —
+anzi soprattutto — quando `banda.py` non segnala niente.
 
 ## 11. Lo stato della produzione
 
@@ -405,6 +422,7 @@ banda si è dimostrata affidabile su un campione intero.
 | 4.4 | Le pose di potere: cosa non regge | 9:58 | `c1eb0c5772b1cbc752f319564403a18e` |
 | 4.5 | Il contatto fisico e i suoi limiti | 9:58 | `7a974e069bc0f469505dad7f456dd5f2` |
 | 5.1 | I gesti che accompagnano la parola | 9:59 | `8c512723bc149a5551fde3b06e4faf00` |
+| 5.2 | I gesti che la sostituiscono | 9:59 | `38db61ca01bfd8ef074914672defec16` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -416,24 +434,32 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 
 **Il modulo 4 è chiuso**: cinque lezioni tutte a 9:58, il primo modulo del
 corso in cui le cinque durate coincidono al secondo. **Il modulo 5 è in
-lavorazione**: la 5.1 è montata, restano la 5.2, la 5.3, la 5.4 e la 5.5.
+lavorazione**: la 5.1 e la 5.2 sono montate, restano la 5.3, la 5.4 e la 5.5.
 Lo script del modulo 6 è in casa; manca quello del modulo 7.
 
-**I crediti Artlist sono esauriti**: settanta su sedicimilacinquecento, e
-un'immagine ne costa centotrenta. **Si rinnovano il 18 ottobre.** Fino ad
-allora le riprese di b-roll non si possono generare lì. Il nodo immagine di
-ElevenLabs monta lo stesso modello (Nano Banana 2) e la resa è identica — la
-`s27` della 5.1 è stata fatta così — ma costa 612 crediti per immagine contro
-130, quindi va usato solo per una rigenerazione isolata, non per un modulo
-intero. **Le lezioni si possono scrivere, incidere, tagliare, impaginare e
-montare lo stesso**: la ripresa è l'unica cosa che resta indietro.
+**I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
+un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
+le riprese si generano su Higgsfield con `gpt_image_2_5`.** La scelta è stata
+fatta su una prova a tre: lo stesso soggetto generato con due modelli e messo
+accanto a una ripresa del corso. GPT Image 2.5 tiene il registro
+documentario, la luce naturale e la palette smorzata delle altre; Soul
+Location rende molto più stilizzato ed è stato scartato.
+
+| | costo per immagine |
+|---|---|
+| Higgsfield, `gpt_image_2_5` | **0,25 crediti** |
+| Artlist, Nano Banana 2 | 130 crediti |
+| ElevenLabs, Nano Banana 2 | 612 crediti |
+
+Il nodo immagine di ElevenLabs resta buono per una rigenerazione isolata (la
+`s27` della 5.1 è stata fatta così) ma non per un modulo intero.
 
 Due vincoli degli script che restano, da portarsi dietro dalla prima lezione:
 nel **modulo 5 nessun gesto offensivo** va nominato, descritto o mostrato; nel
 **modulo 6 nessuna formulazione** che suggerisca il riconoscimento della
 menzogna, nemmeno attenuata o per negazione retorica.
 
-**Il controllo dei tagli è parziale su venti lezioni su ventuno** (vedi i
+**Il controllo dei tagli è parziale su venti lezioni su ventidue** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
@@ -446,8 +472,9 @@ pause della finestra e nessuna migliora la coppia, e la somma dei blocchi
 coinvolti è in pari. Quando la trascrizione torna, i confini segnalati nei
 registri vanno risentiti uno per uno con `tagli.py correggi`.
 
-**La 5.1 è l'eccezione, e la prima del corso**: quarantacinque confini su
-quarantacinque riletti sulla trascrizione, zero fuori banda, zero sbagliati.
+**La 5.1 e la 5.2 sono le eccezioni**: novanta confini riletti sulla
+trascrizione. Uno sbagliato nella 5.1, sette nella 5.2, tutti corretti e
+riletti.
 Da qui in avanti la verifica si fa su ogni lezione (§10-bis), e le venti già
 montate vanno ripassate quando c'è tempo, partendo dalle cinque che hanno un
 confine segnalato: `s28` della 4.1, `s10` e `s12` della 4.3, `s26` e `s27`
