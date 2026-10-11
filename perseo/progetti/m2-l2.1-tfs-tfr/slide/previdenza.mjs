@@ -120,6 +120,7 @@ export const CSS_PREV = `
 @keyframes pvCade{0%{opacity:0;transform:translate(0,0)}12%{opacity:1;transform:translate(0,0)}
   100%{opacity:1;transform:translate(var(--dx),var(--dy))}}
 @keyframes pvPulsa{0%,100%{transform:none}50%{transform:scale(1.12)}}
+@keyframes pvGira{from{transform:rotate(-70deg)}to{transform:rotate(55deg)}}
 @keyframes pvBrilla{0%,100%{opacity:0}40%{opacity:.9}}
 
 .pv{display:block;width:100%;height:auto;overflow:visible}
@@ -327,7 +328,7 @@ export const CORPI_PREV = {
     const vx = fase === 'coefficiente' ? 150 : 640, vy = 200, vw = 380, vh = 400, N = 8;
     const mon = k => ({ x: vx + 40, y: vy + vh - 26 - (k + 1) * 34, w: vw - 80, h: 28 });
     const vaso = `<path class="vaso" d="M${vx} ${vy}v${vh - 30}a30 30 0 0 0 30 30h${vw - 60}a30 30 0 0 0 30-30V${vy}"/>
-      <text class="et c" x="${vx + vw / 2}" y="${vy + vh + 50}">montante</text>`;
+      <text class="et c" x="${vx + vw / 2}" y="${vy + vh + 50}">${d.etichetta ?? 'montante'}</text>`;
     let dentro = '';
     if (fase === 'accumulo') {
       // otto anni: un calendario per anno, ognuno lascia cadere la sua moneta
@@ -357,9 +358,9 @@ export const CORPI_PREV = {
       const top = mon(N - 1).y;
       fuori = `<path class="tr" pathLength="1" d="M${vx + vw + 90} ${vy + vh - 20}V${top + 10}" style="stroke:var(--acc);stroke-width:8;animation-delay:.6s"/>
         <path class="comp" ${ritardo(1.5)} d="M${vx + vw + 66} ${top + 36}l24-28 24 28" style="fill:none;stroke:var(--acc);stroke-width:8;stroke-linecap:round;stroke-linejoin:round"/>
-        <text class="et comp" ${ritardo(1.6)} x="${vx + vw + 140}" y="${top + 40}" style="fill:var(--acc)">+ rivalutazione</text>
-        <text class="pic comp" ${ritardo(1.9)} x="${vx + vw + 140}" y="${top + 82}">legata al PIL,</text>
-        <text class="pic comp" ${ritardo(1.9)} x="${vx + vw + 140}" y="${top + 116}">media di cinque anni</text>`;
+        <text class="et comp" ${ritardo(1.6)} x="${vx + vw + 140}" y="${top + 40}" style="fill:var(--acc)">${d.rivtit ?? '+ rivalutazione'}</text>
+        <text class="pic comp" ${ritardo(1.9)} x="${vx + vw + 140}" y="${top + 82}">${(d.riv ?? ['legata al PIL,'])[0]}</text>
+        <text class="pic comp" ${ritardo(1.9)} x="${vx + vw + 140}" y="${top + 116}">${(d.riv ?? [0,'media di cinque anni'])[1]}</text>`;
     }
     if (fase === 'coefficiente') {
       const fx = 760, fy = 250;
@@ -753,6 +754,173 @@ export const CORPI_PREV = {
 
   // I controlli: il cerchio interno (sindaci, rischi, revisione) e quello
   // esterno, la COVIP. fase: 'interno' | 'esterno'
+  // ---------- Modulo 2: TFS e TFR. Grafiche ricorrenti del corso ----------
+
+  // La linea del 2000: a sinistra TFS (ocra), a destra TFR (verde), la tacca
+  // sul 31 dicembre 2000. fase: 'linea' | 'persone' | 'termine' (anche il
+  // tempo determinato, sempre TFR). sopra: [{t,s},{t,s}] cambia le etichette
+  // delle due figure; icona: 'persona' | 'salvadanaio'.
+  linea2000: d => {
+    const fase = d.fase ?? 'persone', y = 440, X0 = 110, X1 = 1546, xm = 828;
+    const sopra = d.sopra ?? [{ t: 'assunto entro il 2000', s: 'TFS' }, { t: 'assunto dal 2001', s: 'TFR' }];
+    const ico = d.icona === 'salvadanaio' ? ICO.salvadanaio : PERSONA;
+    const fig = (cx, i, col, r) => !sopra[i].s ? '' : `<g class="sali" ${ritardo(r)}>
+        <g transform="translate(${cx - 84} ${y - 410}) scale(7)"><path d="${ico}" style="fill:none;stroke:${col};stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round"/></g>
+        <text class="et c" x="${cx}" y="${y - 150}" style="font-size:38px">${acc(sopra[i].t)}</text>
+        <text class="big c" x="${cx}" y="${y - 62}" style="fill:${col};font-size:76px">${acc(sopra[i].s)}</text></g>`;
+    return svg(1656, fase === 'termine' ? 700 : 600, `
+      <path class="tr" pathLength="1" d="M${X0} ${y}H${xm - 8}" style="stroke:${RETR};stroke-width:22;animation-delay:.15s"/>
+      <path class="tr" pathLength="1" d="M${xm + 8} ${y}H${X1}" style="stroke:${CONTR};stroke-width:22;animation-delay:1.3s"/>
+      <g class="pop" ${ritardo(1.0)}><rect x="${xm - 9}" y="${y - 70}" width="18" height="140" rx="9" style="fill:var(--acc)"/></g>
+      <text class="et c comp" ${ritardo(1.0)} x="${xm}" y="${y + 126}" style="fill:var(--acc);font-size:38px">31 dicembre 2000</text>
+      <text class="pic comp" ${ritardo(.5)} x="${X0}" y="${y + 70}" style="font-size:32px">prima</text>
+      <text class="pic e comp" ${ritardo(1.6)} x="${X1}" y="${y + 70}" style="font-size:32px">dopo</text>
+      ${fase !== 'linea' ? fig(470, 0, RETR, .6) + fig(1186, 1, CONTR, 1.7) : ''}
+      ${fase === 'termine' ? `<g class="sali" ${ritardo(2.1)}>
+        <rect x="${X0}" y="${y + 170}" width="${X1 - X0}" height="80" rx="40" style="fill:${CONTR};fill-opacity:.12;stroke:${CONTR};stroke-width:4;stroke-dasharray:14 10"/>
+        <text class="et c" x="${xm}" y="${y + 223}" style="fill:${CONTR};font-size:36px">tempo determinato: sempre TFR, prima e dopo</text></g>` : ''}`);
+  },
+
+  // Due carriere a scalini: quella che sale alla fine e quella piatta. Sull'ultimo
+  // gradino la base del TFS; la riga tratteggiata e' la media di carriera.
+  scalini: d => {
+    const P = [{ t: 'Carriera che sale alla fine', h: [1, 1.04, 1.08, 1.12, 1.16, 1.2, 1.55, 1.9], x: 80 },
+               { t: 'Carriera piatta', h: [1, 1.03, 1.06, 1.09, 1.12, 1.15, 1.18, 1.21], x: 900 }];
+    const base = 600, k = 420, w = 84, z = .75, Y = h => n1(base - (h - z) * k);
+    let s = '';
+    P.forEach((p, j) => {
+      let path = `M${p.x} ${base}V${Y(p.h[0])}`;
+      p.h.forEach((h, i) => { if (i) path += `V${Y(h)}`; path += `h${w}`; });
+      path += `V${base}`;
+      const media = p.h.reduce((a, b) => a + b) / p.h.length, xl = p.x + (p.h.length - 1) * w;
+      s += `<path class="asse" d="M${p.x - 10} ${base}H${p.x + p.h.length * w + 20}"/>
+        <text class="et" x="${p.x}" y="${base + 62}" style="font-size:36px">${p.t}</text>
+        <path class="comp" ${ritardo(.2 + j * .3)} d="${path}Z" style="fill:${CONTR};fill-opacity:.12"/>
+        <path class="tr" pathLength="1" d="${path}" style="stroke:var(--tit);stroke-width:9;stroke-linejoin:round;animation-delay:${.2 + j * .3}s"/>
+        <path class="rif comp" ${ritardo(1.6)} d="M${p.x} ${Y(media)}H${xl + w}"/>
+        <text class="pic comp" ${ritardo(1.7)} x="${p.x + 10}" y="${n1(+Y(media) - 16)}" style="font-size:30px">media</text>
+        <g class="pop" ${ritardo(1.2 + j * .2)}><rect x="${xl}" y="${n1(+Y(p.h.at(-1)) - 12)}" width="${w}" height="24" rx="12" style="fill:var(--acc)"/></g>`;
+      if (j === 0) s += `<text class="et e comp" ${ritardo(1.4)} x="${xl + w}" y="${n1(+Y(p.h.at(-1)) - 40)}" style="fill:var(--acc);font-size:36px">base del TFS</text>`;
+    });
+    return svg(1656, 690, s);
+  },
+
+  // Il barattolo del TFR anno per anno: quote gia' accumulate, rivalutazione
+  // dell'anno, nuova quota. Esempio semplificato: 2.073 euro l'anno al 3%.
+  strati: d => {
+    const N = 10, q = 2073, r = .03, X0 = 170, base = 560, H = 440, bw = 92, gap = 40;
+    let accu = 0; const B = [];
+    for (let t = 0; t < N; t++) { const riv = accu * r; B.push({ acc: accu, riv, q }); accu = accu + riv + q; }
+    const max = accu * 1.04, Y = v => v / max * H;
+    let s = `<path class="asse" d="M${X0 - 20} ${base}H${X0 + N * (bw + gap)}"/>`;
+    B.forEach((b, i) => {
+      const x = X0 + i * (bw + gap), t = .15 + i * .14;
+      const ha = Y(b.acc), hr = Math.max(Y(b.riv), b.riv ? 4 : 0), hq = Y(b.q);
+      s += `<g class="col" ${ritardo(t)}>
+        ${ha ? `<rect x="${x}" y="${n1(base - ha)}" width="${bw}" height="${n1(ha)}" style="fill:${CONTR};fill-opacity:.85"/>` : ''}
+        ${hr ? `<rect x="${x}" y="${n1(base - ha - hr)}" width="${bw}" height="${n1(hr)}" style="fill:var(--acc)"/>` : ''}
+        <rect x="${x}" y="${n1(base - ha - hr - hq)}" width="${bw}" height="${n1(hq)}" style="fill:${CONTR};fill-opacity:.35"/></g>
+        <text class="pic c" x="${x + bw / 2}" y="${base + 40}">${i + 1}</text>`;
+    });
+    const L = [[CONTR, .85, 'già accumulato'], ['var(--acc)', 1, 'rivalutazione'], [CONTR, .35, 'nuova quota']];
+    s += L.map(([c, o, t], i) => `<g class="comp" ${ritardo(1.6 + i * .15)}><rect x="${X0 + i * 380}" y="22" width="40" height="30" rx="6" style="fill:${c};fill-opacity:${o}"/>
+      <text class="et" x="${X0 + i * 380 + 56}" y="48">${t}</text></g>`).join('');
+    s += `<text class="pic comp" ${ritardo(.3)} x="${X0 + N * (bw + gap) - 10}" y="${base + 40}" style="text-anchor:end">anni</text>
+      <text class="nota comp" ${ritardo(.5)} x="${X0 + N * (bw + gap) - 10}" y="104" style="text-anchor:end">Esempio semplificato</text>`;
+    return svg(1656, 620, s);
+  },
+
+  // Lo scambio: il binario del TFS arriva fino all'adesione, poi prosegue verde
+  // (TFR); il vecchio binario resta, attenuato. fase 'vagone' aggancia il
+  // maturato fino a oggi.
+  scambio: d => {
+    const y = 430, xs = 760, X1 = 1560;
+    const rotaia = (p, col, r, op = 1) => `
+      <path class="tr" pathLength="1" d="${p}" style="stroke:${col};stroke-opacity:${op};stroke-width:30;animation-delay:${r}s"/>
+      <path class="tr" pathLength="1" d="${p}" style="stroke:var(--bg);stroke-width:12;animation-delay:${r}s"/>`;
+    let trav = '';
+    for (let x = 120; x < X1; x += 60) trav += `<rect x="${x}" y="${y - 30}" width="14" height="60" rx="4" style="fill:var(--fg);fill-opacity:.18"/>`;
+    return svg(1656, 640, `<g class="comp" ${ritardo(.1)}>${trav}</g>
+      ${rotaia(`M100 ${y}H${xs}`, RETR, .15)}
+      ${rotaia(`M${xs} ${y}C${xs + 200} ${y} ${xs + 260} ${y - 210} ${xs + 520} ${y - 210}H${X1}`, RETR, .9, .3)}
+      ${rotaia(`M${xs} ${y}H${X1}`, CONTR, 1.3)}
+      <text class="big comp" ${ritardo(.6)} x="300" y="${y - 70}" style="fill:${RETR}">TFS</text>
+      <text class="big comp" ${ritardo(1.0)} x="${X1 - 10}" y="${y - 260}" style="fill:${RETR};fill-opacity:.4;text-anchor:end">TFS</text>
+      <text class="big comp" ${ritardo(1.8)} x="${X1 - 10}" y="${y + 110}" style="fill:${CONTR};text-anchor:end">TFR</text>
+      <g class="pop" ${ritardo(1.1)}>
+        <path d="M${xs} ${y + 40}V${y + 130}" style="stroke:var(--tit);stroke-width:7"/>
+        <rect x="${xs - 250}" y="${y + 130}" width="500" height="90" rx="16" style="fill:var(--acc)"/>
+        <text class="et c" x="${xs}" y="${y + 188}" style="fill:#fff;font-size:38px">adesione a Perseo Sirio</text></g>
+      ${d.fase === 'vagone' ? `<g class="sali" ${ritardo(2.0)}>
+        <rect x="${xs + 200}" y="${y - 150}" width="400" height="160" rx="16" style="fill:${RETR}"/>
+        <circle cx="${xs + 280}" cy="${y + 14}" r="22" style="fill:var(--tit)"/><circle cx="${xs + 520}" cy="${y + 14}" r="22" style="fill:var(--tit)"/>
+        <text class="et c" x="${xs + 400}" y="${y - 88}" style="fill:#fff;font-size:36px">TFS maturato</text>
+        <text class="et c" x="${xs + 400}" y="${y - 40}" style="fill:#fff;font-size:36px">fino a oggi</text></g>` : ''}`);
+  },
+
+  // Le due tasche: un cappotto, la tasca reale (Perseo Sirio, monete piene) e
+  // quella figurativa (INPS, monete a matita). Grafica ricorrente del corso.
+  // fase: 'reale' | 'due' | 'manopola' | 'unione' | 'garantito' | 'profili'
+  // optanti: true aggiunge la moneta +1,5%. profili: {reale, fig}.
+  tasche: d => {
+    const fase = d.fase ?? 'due';
+    const dx = fase === 'manopola' ? -190 : 0;
+    const cappotto = 'M466 120L677 70L828 190L979 70L1190 120L1379 210V690H277V210Z';
+    const T = [{ x: 318, t: 'conto reale', s: 'Perseo Sirio', piene: true,
+                 m: d.monete?.reale ?? ['tuo 1%', 'ente 1%'] },
+               { x: 918, t: 'conto figurativo', s: 'INPS', piene: false,
+                 m: d.monete?.fig ?? (d.optanti ? ['TFR', '+1,5%'] : ['TFR']) }];
+    const pw = 420, py = 360, ph = 270, mw = pw - 70, mh = 66;
+    let s = `<path class="tr" pathLength="1" d="${cappotto}" style="stroke:var(--tit);stroke-width:7;fill:color-mix(in srgb,var(--tit) 5%,var(--bg));animation-delay:.1s"/>
+      <path class="comp" ${ritardo(.6)} d="M828 190V690" style="stroke:var(--tit);stroke-width:4;stroke-opacity:.5"/>`;
+    T.forEach((p, i) => {
+      if (fase === 'reale' && i === 1) return;
+      const r0 = .5 + i * .5;
+      s += `<g class="comp" ${ritardo(r0)}>
+        <path d="M${p.x} ${py}h${pw}v${ph - 24}a24 24 0 0 1-24 24h${-(pw - 48)}a24 24 0 0 1-24-24z"
+          style="fill:var(--bg);stroke:${p.piene ? CONTR : 'var(--fg)'};stroke-width:6;${p.piene ? '' : 'stroke-dasharray:16 11;stroke-opacity:.7'}"/>
+        <text class="et c" x="${p.x + pw / 2}" y="${py - 24}" style="fill:${p.piene ? CONTR : 'var(--fg)'};font-size:38px">${p.t}</text>
+        ${fase === 'profili' ? '' : `<text class="pic c" x="${p.x + pw / 2}" y="${py + ph + 46}" style="font-size:32px">${p.s}</text>`}</g>`;
+      p.m.forEach((m, k) => {
+        const mx = p.x + 35, my = py + ph - mh - 22 - k * (mh + 16), t = r0 + .3 + k * .35;
+        const pieno = p.piene || (fase === 'unione' && i === 1);
+        s += `<g class="cade" style="--dx:0px;--dy:${my - 20}px;animation-delay:${n1(t)}s">
+          <rect x="${mx}" y="20" width="${mw}" height="${mh}" rx="${mh / 2}"
+            style="fill:${pieno ? `color-mix(in srgb,${CONTR} 18%,var(--bg))` : 'var(--bg)'};stroke:${p.piene ? CONTR : m.includes('1,5') ? 'var(--acc)' : RETR};stroke-width:4;${p.piene ? '' : 'stroke-dasharray:10 8'}"/>
+          <text class="et c" x="${mx + mw / 2}" y="${20 + mh / 2 + 12}" style="font-size:34px">${m}</text></g>`;
+      });
+    });
+    let fuori = '';
+    if (fase === 'manopola') {
+      const cx = 1450, cy = 420;
+      fuori = `<g class="comp" ${ritardo(1.4)}>
+        <circle cx="${cx}" cy="${cy}" r="96" style="fill:var(--bg);stroke:var(--tit);stroke-width:7"/>
+        <text class="pic c" x="${cx}" y="${cy - 150}" style="font-size:30px">fino al 2025</text>
+        <text class="pic c" x="${cx}" y="${cy - 116}" style="font-size:30px">paniere, uguale per tutti</text>
+        <text class="et c" x="${cx}" y="${cy + 160}" style="fill:var(--acc);font-size:36px">dal 2026</text>
+        <text class="et c" x="${cx}" y="${cy + 202}" style="fill:var(--acc);font-size:36px">il profilo che scegli</text></g>
+        <g style="transform-box:view-box;transform-origin:${cx}px ${cy}px;animation:pvGira 1s cubic-bezier(.5,0,.3,1) 2s both">
+          <path d="M${cx} ${cy}L${cx} ${cy - 82}" style="stroke:var(--acc);stroke-width:12;stroke-linecap:round"/></g>`;
+    }
+    if (fase === 'unione') {
+      s += `<path class="tr" pathLength="1" d="M1128 ${py + 110}C1060 ${py - 90} 600 ${py - 90} 540 ${py + 80}" style="stroke:var(--acc);stroke-width:9;animation-delay:1.8s"/>
+        <path class="comp" ${ritardo(2.6)} d="M510 ${py + 52}l30 32 32-28" style="fill:none;stroke:var(--acc);stroke-width:9;stroke-linecap:round;stroke-linejoin:round"/>
+        <text class="et c comp" ${ritardo(2.2)} x="828" y="${py - 96}" style="fill:var(--acc);font-size:36px">alla fine del rapporto di lavoro</text>`;
+    }
+    if (fase === 'garantito') {
+      s += `<g class="pop" ${ritardo(2.0)}><path d="M0 -44L38 -29V5C38 29 19 45 0 54C-19 45-38 29-38 5V-29Z" transform="translate(${T[0].x + pw - 52} ${py + 56})"
+          style="fill:color-mix(in srgb,var(--acc) 14%,var(--bg));stroke:var(--acc);stroke-width:6"/></g>
+        <text class="et c comp" ${ritardo(2.2)} x="${T[0].x + pw / 2}" y="${py + ph + 100}" style="fill:var(--acc);font-size:36px">profilo Garantito</text>`;
+    }
+    if (fase === 'profili') {
+      const pr = d.profili ?? {};
+      s += [[T[0], pr.reale], [T[1], pr.fig]].map(([p, n], i) => n ? `<g class="sali" ${ritardo(1.9 + i * .3)}>
+        <rect x="${p.x + 30}" y="${py + ph + 14}" width="${pw - 60}" height="58" rx="29" style="fill:var(--acc)"/>
+        <text class="et c" x="${p.x + pw / 2}" y="${py + ph + 54}" style="fill:#fff;font-size:30px">${n}</text></g>` : '').join('');
+    }
+    return svg(1656, fase === 'garantito' ? 750 : 720, `<g transform="translate(${dx} 0)">${s}</g>${fuori}`);
+  },
+
   controlli: d => {
     const fase = d.fase ?? 'esterno', cx = 828, cy = 320;
     const seg = ['Collegio dei sindaci', 'Gestione dei rischi', 'Revisione interna'];

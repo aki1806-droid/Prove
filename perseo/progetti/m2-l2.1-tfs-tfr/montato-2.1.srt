@@ -1,0 +1,159 @@
+1
+00:00:03,000 --> 00:00:12,090
+Con la liquidazione ci sistemo la casa. Quante volte l'hai sentito dire, magari a una festa di pensionamento in reparto, tra la torta, i regali e gli applausi dei colleghi?
+
+2
+00:00:12,090 --> 00:00:22,710
+La liquidazione e' la somma che ricevi quando il rapporto di lavoro finisce. Sembra una cosa semplice, e quasi tutti pensano di sapere bene di che cosa si sta parlando.
+
+3
+00:00:22,710 --> 00:00:32,650
+Ma nel pubblico impiego la liquidazione non e' una sola. Ne esistono due tipi, con regole diverse, calcoli diversi e nomi diversi: il TFS e il TFR.
+
+4
+00:00:32,650 --> 00:00:43,180
+Capire quale hai tu e' il primo passo per capire Perseo Sirio, perche' aderire al Fondo cambia proprio la tua liquidazione. Per questo il secondo modulo del corso parte da qui.
+
+5
+00:00:43,180 --> 00:00:51,980
+Due sigle che si somigliano molto, e che si confondono spesso anche tra colleghi esperti, perfino negli uffici. Vediamole una alla volta, con calma.
+
+6
+00:00:51,980 --> 00:01:02,430
+TFS significa trattamento di fine servizio. E' il sistema storico del pubblico impiego, quello che c'era gia' quando sono entrati in servizio molti dei colleghi piu' anziani.
+
+7
+00:01:02,430 --> 00:01:14,150
+A seconda del comparto prende nomi diversi: indennita' premio di servizio, indennita' di buonuscita, indennita' di anzianita'. Il nome cambia da un ente all'altro, la logica resta la stessa.
+
+8
+00:01:14,150 --> 00:01:25,530
+TFR significa invece trattamento di fine rapporto. E' il sistema nato nel settore privato, quello che conoscono tutti i lavoratori delle aziende, e poi esteso anche ai dipendenti pubblici.
+
+9
+00:01:25,530 --> 00:01:36,060
+Non sono due modi di dire la stessa cosa. Sono due sistemi diversi, con due formule diverse, e a parita' di stipendio e di anni possono dare risultati anche molto diversi.
+
+10
+00:01:36,060 --> 00:01:45,720
+Entrambi ti vengono pagati alla fine del lavoro, quando lasci il servizio. Quello che cambia e' il modo in cui vengono calcolati, e lo vedremo nelle prossime due lezioni.
+
+11
+00:01:45,720 --> 00:01:55,990
+Ma allora come si fa a sapere quale dei due hai? Non lo scegli tu, e non dipende dal tuo profilo professionale. La regola e' legata a una data precisa: il 31 dicembre 2000.
+
+12
+00:01:55,990 --> 00:02:00,860
+Se sei stato assunto a tempo indeterminato entro quella data, sei in TFS.
+
+13
+00:02:00,860 --> 00:02:07,860
+Se invece sei stato assunto a tempo indeterminato dal primo gennaio 2001 in poi, sei in TFR.
+
+14
+00:02:07,860 --> 00:02:16,590
+E se hai un contratto a tempo determinato, sei sempre in TFR, qualunque sia la data in cui hai cominciato a lavorare per la pubblica amministrazione.
+
+15
+00:02:16,590 --> 00:02:27,220
+E' per questo che, nello stesso reparto, la collega che lavora li' da trent'anni e il collega arrivato da cinque hanno due liquidazioni diverse, anche se fanno esattamente lo stesso lavoro.
+
+16
+00:02:27,220 --> 00:02:38,150
+Questa linea del tempo, con la tacca sul 2000, la ritroveremo spesso nel corso: nei contributi, nelle tasse, nelle scelte finali. Conviene fissarla bene adesso, una volta per tutte.
+
+17
+00:02:38,150 --> 00:02:47,000
+Attenzione pero' a un dettaglio che crea molti dubbi, soprattutto a chi e' stato assunto proprio a cavallo tra i due anni, alla fine del 2000 o all'inizio del 2001.
+
+18
+00:02:47,000 --> 00:02:57,530
+A volte la data in cui il contratto produce effetti giuridici non coincide con la data da cui vieni pagato. Sono due date diverse, e possono cadere da una parte e dall'altra della linea.
+
+19
+00:02:57,530 --> 00:03:06,490
+Pensa a chi e' stato assunto con una graduatoria, con la nomina datata dicembre 2000 ma con la presa di servizio, e il primo stipendio, arrivati nel 2001.
+
+20
+00:03:06,490 --> 00:03:16,570
+In questi casi, come chiarisce anche il Fondo, conta la decorrenza giuridica del contratto, non quella economica. Quindi quel collega, in questo esempio, e' in TFS.
+
+21
+00:03:16,570 --> 00:03:25,630
+Se hai un caso al limite, non indovinare e non fidarti del passaparola. Chiedi all'ufficio del personale quale data risulta nel tuo fascicolo, e fattela confermare.
+
+22
+00:03:25,630 --> 00:03:33,950
+Facciamo tre esempi concreti, con tre colleghi dello stesso ospedale, che magari si incrociano ogni giorno al cambio turno e si scambiano le consegne.
+
+23
+00:03:33,950 --> 00:03:42,310
+Marta e' infermiera, assunta a tempo indeterminato nel 1996. E' entrata prima della linea, quindi e' in TFS.
+
+24
+00:03:42,310 --> 00:03:50,540
+Luca e' operatore socio-sanitario, assunto a tempo indeterminato nel 2009. E' entrato dopo la linea, quindi e' in TFR.
+
+25
+00:03:50,540 --> 00:04:00,560
+Sara e' tecnica di radiologia, con un contratto a tempo determinato iniziato da poco. E' in TFR, come tutti i tempi determinati, indipendentemente dagli anni.
+
+26
+00:04:00,560 --> 00:04:09,430
+E se Sara venisse poi stabilizzata? Resterebbe in TFR, perche' la sua assunzione a tempo indeterminato arriverebbe comunque dopo il 2000.
+
+27
+00:04:09,430 --> 00:04:16,830
+Tre colleghi, due regimi. E nessuno dei tre ha scelto il proprio: lo ha deciso, semplicemente, la data in cui e' stato assunto.
+
+28
+00:04:16,830 --> 00:04:24,640
+Ma perche' e' cosi' importante saperlo, in un corso che parla di Perseo Sirio? Per due ragioni, che ritroveremo in tutto il resto del percorso.
+
+29
+00:04:24,640 --> 00:04:35,280
+La prima: chi e' in TFS e decide di aderire al Fondo passa automaticamente al TFR. E' una scelta con conseguenze importanti, e le dedicheremo una lezione intera.
+
+30
+00:04:35,280 --> 00:04:44,560
+La seconda: la quota di liquidazione che va nel Fondo cambia a seconda che tu sia stato assunto prima o dopo il 2001. Lo vedremo con i numeri nel modulo quattro.
+
+31
+00:04:44,560 --> 00:04:53,890
+Quindi, prima di qualunque calcolo e di qualunque simulazione, devi sapere da che parte della linea ti trovi. Senza questo dato, ogni conto parte sbagliato.
+
+32
+00:04:53,890 --> 00:05:00,920
+Sembra un'informazione scontata. Eppure molti colleghi, se glielo chiedi in pausa caffe', non sanno rispondere con certezza.
+
+33
+00:05:00,920 --> 00:05:10,840
+Ed e' un'informazione che ti servira' anche per leggere bene i documenti del Fondo e il cedolino, che usano spesso le parole TFS e TFR senza spiegarle.
+
+34
+00:05:10,840 --> 00:05:16,810
+Ogni ragionamento sulla liquidazione parte da una data: quella della tua assunzione.
+
+35
+00:05:16,810 --> 00:05:24,250
+Le tre cose da ricordare. Uno: chi e' stato assunto a tempo indeterminato entro il 31 dicembre 2000 e' in TFS.
+
+36
+00:05:24,250 --> 00:05:30,310
+Due: chi e' stato assunto dal 2001 in poi, oppure lavora a tempo determinato, e' in TFR.
+
+37
+00:05:30,310 --> 00:05:36,110
+Tre: nei casi dubbi conta la decorrenza giuridica del contratto, non la data del primo stipendio.
+
+38
+00:05:36,110 --> 00:05:43,060
+La mossa di oggi: recupera il tuo contratto individuale di lavoro e annota su un foglio la data di decorrenza giuridica.
+
+39
+00:05:43,060 --> 00:05:49,570
+Se non lo trovi, chiedilo all'ufficio del personale, oppure fatti aiutare dal delegato sindacale del tuo posto di lavoro.
+
+40
+00:05:49,570 --> 00:05:57,540
+Nella prossima lezione vediamo come si calcola il TFS: una formula semplice, tre ingredienti, e un esempio con numeri tondi.

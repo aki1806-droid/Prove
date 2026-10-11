@@ -298,6 +298,8 @@ export const CSS_FIGURE = `
 .fig .gx path[fill]:not(.buco){transform-box:fill-box;transform-origin:center bottom;
               animation:cresciY .55s cubic-bezier(.3,.8,.3,1) both;animation-delay:inherit}
 .catena .p{animation-name:scivola}
+.catena .p.gx.off{animation-name:scivolaOff}
+@keyframes scivolaOff{from{opacity:0;transform:translateX(-46px)}to{opacity:.26;transform:none}}
 .scala .g{transform-origin:center bottom}
 .tre .box.key,.griglia .c.key,.icone .v.key,.catena .p.key,.cifre .c.key{
   animation:sali .55s cubic-bezier(.22,.7,.3,1) both,respiro 1.4s ease-in-out 1.7s 1}

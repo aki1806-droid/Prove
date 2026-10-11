@@ -1,0 +1,171 @@
+1
+00:00:03,000 --> 00:00:11,760
+Se il TFS e' una scala, il TFR e' un barattolo. Ogni anno ci metti dentro qualcosa, e quello che c'e' dentro cresce un po' con il passare del tempo.
+
+2
+00:00:11,760 --> 00:00:20,680
+Alla fine non conta solo l'ultimo stipendio, come nel TFS. Conta tutto quello che hai messo nel barattolo, anno dopo anno, per tutta la carriera.
+
+3
+00:00:20,680 --> 00:00:34,150
+In questa lezione vediamo quanto ci entra ogni anno, e come cresce quello che c'e' gia' dentro. Nessuna formula complicata: una percentuale e una regola di crescita. Sono due meccanismi diversi, e conviene tenerli separati.
+
+4
+00:00:34,150 --> 00:00:44,550
+Riguarda direttamente chi e' stato assunto dal 2001 o lavora a tempo determinato. Ma riguarda anche chi e' in TFS, perche' e' il sistema in cui passerebbe aderendo al Fondo.
+
+5
+00:00:44,550 --> 00:00:50,740
+Partiamo dalla quota che entra ogni anno. E' il sei virgola novantuno per cento della retribuzione utile.
+
+6
+00:00:50,740 --> 00:00:56,200
+Ripeto, perche' e' il numero piu' importante della lezione: sei virgola novantuno per cento.
+
+7
+00:00:56,200 --> 00:01:03,750
+E' come se, ogni anno, una piccola striscia del tuo stipendio venisse tagliata con le forbici e messa da parte nel barattolo.
+
+8
+00:01:03,750 --> 00:01:11,930
+Con una retribuzione utile di trentamila euro, la striscia vale circa duemilasettanta euro all'anno. Un po' piu' di una mensilita'.
+
+9
+00:01:11,930 --> 00:01:22,850
+Attenzione alla parola utile. Come per il TFS, la retribuzione utile al TFR comprende le voci previste dalle regole, non per forza tutto il lordo che vedi nel cedolino.
+
+10
+00:01:22,850 --> 00:01:33,490
+Anno dopo anno, queste strisce si sommano. Dieci anni di lavoro sono dieci strisce, trent'anni sono trenta strisce, ciascuna calcolata sullo stipendio di quell'anno.
+
+11
+00:01:33,490 --> 00:01:44,020
+Nel pubblico impiego queste quote non escono dalla busta paga e non finiscono su un conto: le calcola e le tiene l'INPS, che poi paga il TFR alla fine del rapporto di lavoro.
+
+12
+00:01:44,020 --> 00:01:53,390
+Ma il barattolo non resta fermo. Ogni anno quello che hai gia' accumulato viene rivalutato, cioe' aumentato, con una regola fissata dalla legge.
+
+13
+00:01:53,390 --> 00:02:04,230
+La regola ha due pezzi. Il primo e' fisso: uno virgola cinque per cento. Il secondo dipende dai prezzi: il settantacinque per cento dell'inflazione registrata dall'ISTAT.
+
+14
+00:02:04,230 --> 00:02:11,940
+Facciamo un esempio. Se in un anno l'inflazione e' del due per cento, il settantacinque per cento di due fa uno virgola cinque.
+
+15
+00:02:11,940 --> 00:02:19,300
+Piu' l'uno virgola cinque fisso, fa tre. Quell'anno, quindi, il TFR gia' accumulato cresce del tre per cento.
+
+16
+00:02:19,300 --> 00:02:26,710
+E se l'inflazione e' zero? Il barattolo cresce comunque dell'uno virgola cinque per cento: quella parte fissa c'e' sempre.
+
+17
+00:02:26,710 --> 00:02:36,340
+Nota pero' una cosa. Con l'inflazione alta la rivalutazione insegue i prezzi, ma resta indietro: ne recupera solo tre quarti, piu' la parte fissa.
+
+18
+00:02:36,340 --> 00:02:47,240
+Prova con l'inflazione all'otto per cento. Il settantacinque per cento fa sei; piu' l'uno e mezzo fisso, il TFR cresce del sette e mezzo. Mezzo punto meno dei prezzi.
+
+19
+00:02:47,240 --> 00:02:52,630
+Ora guardiamo come funziona nel tempo, su dieci anni. Ogni barra del grafico e' un anno di lavoro.
+
+20
+00:02:52,630 --> 00:03:02,540
+In basso ci sono le quote accumulate negli anni precedenti. Sopra c'e' la rivalutazione di quell'anno. In cima, la nuova quota annuale, la striscia del sei virgola novantuno.
+
+21
+00:03:02,540 --> 00:03:11,060
+All'inizio la rivalutazione e' un filo sottile, quasi invisibile. Con il crescere del barattolo diventa piu' spessa, perche' si applica a una somma sempre piu' grande.
+
+22
+00:03:11,060 --> 00:03:20,170
+Per questo, a parita' di quote, chi ha lavorato piu' a lungo vede una rivalutazione molto piu' grande di chi ha cominciato da poco: il barattolo pieno cresce di piu'.
+
+23
+00:03:20,170 --> 00:03:30,100
+Il TFR, quindi, riflette tutta la tua storia lavorativa: gli stipendi di ogni anno, non solo l'ultimo. Gli anni di part-time, per esempio, pesano per quello che hanno pagato.
+
+24
+00:03:30,100 --> 00:03:35,750
+E cresce con una regola prudente, che protegge abbastanza dall'inflazione bassa, ma meno da quella alta.
+
+25
+00:03:35,750 --> 00:03:40,190
+Mettiamo ora TFS e TFR uno accanto all'altro, riga per riga.
+
+26
+00:03:40,190 --> 00:03:48,190
+Il TFS si basa sull'ultima retribuzione. Il TFR, invece, sulle retribuzioni di ogni anno, dalla prima all'ultima.
+
+27
+00:03:48,190 --> 00:03:57,630
+Il TFS prende l'ottanta per cento, diviso quindici o dodici, per gli anni di servizio. Il TFR accantona il sei virgola novantuno per cento ogni anno.
+
+28
+00:03:57,630 --> 00:04:04,640
+Il TFS cresce soprattutto con gli aumenti di carriera. Il TFR cresce con le quote annuali e con la rivalutazione.
+
+29
+00:04:04,640 --> 00:04:14,080
+Il TFS, in genere, premia di piu' le carriere che salgono molto alla fine. Il TFR premia la regolarita', e non penalizza chi ha una carriera senza grandi salti.
+
+30
+00:04:14,080 --> 00:04:23,190
+Nessuno dei due e' migliore in assoluto. Dipende dalla tua storia lavorativa, ed e' proprio per questo che ogni scelta va fatta con i propri numeri, non con quelli di un collega.
+
+31
+00:04:23,190 --> 00:04:33,100
+E ora il collegamento con Perseo Sirio. Per chi e' in TFR, aderire al Fondo significa destinare alla pensione complementare una parte o tutto questo barattolo.
+
+32
+00:04:33,100 --> 00:04:39,430
+Per chi e' stato assunto dal 2001, tutto: l'intero sei virgola novantuno per cento della retribuzione utile.
+
+33
+00:04:39,430 --> 00:04:48,900
+E' una somma importante ogni anno, che arriva alla pensione complementare senza togliere un euro in piu' dallo stipendio netto: il TFR, infatti, lo maturi comunque.
+
+34
+00:04:48,900 --> 00:04:56,770
+Per chi e' passato dal TFS al TFR, solo una parte. Le percentuali precise le vedremo nel modulo quattro, con un esempio completo.
+
+35
+00:04:56,770 --> 00:05:03,510
+E il barattolo, una volta nel Fondo, cambia anche il modo di crescere. Ma di questo parleremo nell'ultima lezione del modulo.
+
+36
+00:05:03,510 --> 00:05:11,010
+Prima, pero', dobbiamo parlare proprio di quel passaggio dal TFS al TFR: che cosa comporta, e che cosa conviene valutare.
+
+37
+00:05:11,010 --> 00:05:16,070
+Il TFR non guarda solo come finisci, ma tutto il percorso.
+
+38
+00:05:16,070 --> 00:05:23,220
+Le tre cose da ricordare. Uno: ogni anno il TFR accantona il sei virgola novantuno per cento della retribuzione utile.
+
+39
+00:05:23,220 --> 00:05:30,920
+Due: quanto accumulato si rivaluta ogni anno dell'uno virgola cinque per cento, piu' il settantacinque per cento dell'inflazione.
+
+40
+00:05:30,920 --> 00:05:37,760
+Tre: il TFR riflette tutti gli anni di lavoro, non solo l'ultimo, e cresce anche quando non aggiungi nulla.
+
+41
+00:05:37,760 --> 00:05:47,490
+La mossa di oggi: moltiplica la tua retribuzione annua lorda per zero virgola zero sei nove uno. E', in modo approssimativo, quanto TFR maturi in un anno.
+
+42
+00:05:47,490 --> 00:05:54,980
+Se sei in TFS, fai lo stesso conto: e' quanto matureresti ogni anno nel nuovo sistema, se un giorno decidessi di aderire.
+
+43
+00:05:54,980 --> 00:06:00,190
+Nella prossima lezione: cosa succede a chi e' in TFS e decide di aderire a Perseo Sirio.
