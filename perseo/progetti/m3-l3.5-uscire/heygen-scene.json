@@ -1,0 +1,582 @@
+[
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "c26e8167c7f647889c60fd67995c52b5"
+  },
+  "duration": 3
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "87d227f06a27405eaa082ee0807ba0df"
+  },
+  "audio_asset_id": "50bfad6c7ec540e88902ab1da87ffad2",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "b17c825849104dbdbd5e36024ab0ca3e"
+  },
+  "audio_asset_id": "8b19dd8167144cfcbd4ee0d11ebb9d71",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "f9b6cda8ce7a486da5cbc800ad0b1de3"
+  },
+  "audio_asset_id": "6b3449b35e7742399667b43b718d6b30",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "b58507bd9c884bb9a0b9fd754e0c8fbb"
+  },
+  "audio_asset_id": "4c040eaeec414ecb920b92d63601a888",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "764a6355743347a981bd022d09b2376c"
+  },
+  "audio_asset_id": "aa68d226ad7a475f9cde845d1f0c1e88",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "805a5de92c094c8f862285a559dc9cc8"
+  },
+  "audio_asset_id": "39dd00142d4b4a1096dd4aa480d6ee3f",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "c3405f47c82b48b9a2418e50d729176d"
+  },
+  "audio_asset_id": "836b1cd68a004d4ab5c9bd6c11ad89b3",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "10231e4afb384256bc254d5d5217392f"
+  },
+  "audio_asset_id": "6b2227cadedf42eeadb21ac87d2756da",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "95b8e090c0604f7990e02ee6b0d675af"
+  },
+  "audio_asset_id": "b38433e40d4c410890d96318b4ee434e",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "631a65b8254e4cc3a692aecf004ebd24"
+  },
+  "audio_asset_id": "2ab1cf00b7534da3b3723b1e406e8105",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "b7d29cb46e754a5fb912b6dacd21b69e"
+  },
+  "audio_asset_id": "55539f1ba965473c9061c76174efa762",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "0f1267ab03d24bfeafb62e565ce89fe1"
+  },
+  "audio_asset_id": "37ce2189e4ee4f3b8dde97a17479270e",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "bf977f3581004c9397b7ee581ff6bc55"
+  },
+  "audio_asset_id": "db36df6f89de4d039ab938e77750276a",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "5bb56215b8d641569547922983720372"
+  },
+  "audio_asset_id": "0eac54eb86e141ad9dca1cf568b543a2",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "64b738fca82f4516994af6d457ec4375"
+  },
+  "audio_asset_id": "87fca7c5717e4d22bb5482ec2a3b4e20",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "5dfdf98739a446f4a722c0ecd54da894"
+  },
+  "audio_asset_id": "4d092a0d9bb24d2dbdb76edaa201124f",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "e3106f714a724902b0dec5a4a816b2dc"
+  },
+  "audio_asset_id": "04890049ad644c188904cc5bbb244097",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "6e0ab482434a4187b00779dad8dfb559"
+  },
+  "audio_asset_id": "1726bb327f574ec8bf6ef683f2f00f1e",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "3d9e2fd2de204a67b6eb53a92c646991"
+  },
+  "audio_asset_id": "2bcb922d3e11471f93a32bfeed3b7df8",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "c84f3dcb16c4458b8bd2cfd58d98ef13"
+  },
+  "audio_asset_id": "59c9c51b20a14a92a381e0eec332fb9f",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "53a448c043cb4b209956e6406e9dad68"
+  },
+  "audio_asset_id": "39c9e96ac6824312b435cddad1a8c734",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "94e83dcecf7a4d07a9b8bb4c7598a78b"
+  },
+  "audio_asset_id": "2ee5b85d7f6d40bda1f254fe94f76892",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "249f52d0d21347c9b606fa0f8b0d6e20"
+  },
+  "audio_asset_id": "c595a2781c3f4546a09a28c6733aed00",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "87984e41380f43389128ff50bce76830"
+  },
+  "audio_asset_id": "32129004fc2f4c32a922d1b73b0fcc85",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "dc519c8c3ee84208af62dcfec0ac34af"
+  },
+  "audio_asset_id": "d2b2c0042dec47b1999e9656cd0f0339",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "5d5aa7116de94ed3b056cbf0147a9e6c"
+  },
+  "audio_asset_id": "ece24b34a8fc4234bedacca3428af556",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "ae70dcede0ea48508c72cacac294f413"
+  },
+  "audio_asset_id": "2a5e05f31cea4fb9be5a268f8e08dac1",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "02113ba31e3949fd925fd3105dc733fc"
+  },
+  "audio_asset_id": "d66191df37ba4a40a0b75912653db5e4",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "c645c3cc28584ce3a86c1219c89ae9bc"
+  },
+  "audio_asset_id": "d726f72efeef4331b093204160d28dfe",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "17e24f7aad12426da382b3a601f9edb8"
+  },
+  "audio_asset_id": "12aa117706e74fb0b37b58590498a09a",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "8ceec615e8054f18addcd489114721c8"
+  },
+  "audio_asset_id": "073d755138974916ab07ce0917fdf2c8",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "82d8d21cbb0649f2a58caebb7214e791"
+  },
+  "audio_asset_id": "389e10ce9d3b4cd8ad73a12afe4b481a",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "42f284118b604ae981b030a5ae595a4f"
+  },
+  "audio_asset_id": "460e573c268c4129907716376b54ace1",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "5a761a6824e04dda9feb81fbee3cfa34"
+  },
+  "audio_asset_id": "1baf5015c51c4eae9bcbc6f8a158cb71",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "c87fffc6a6a5460ea14efecd0ca0809b"
+  },
+  "audio_asset_id": "8bffc2bb188e49109e2998c2018a0d80",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "e1238d4e71ad47fda493a46a9469c176"
+  },
+  "audio_asset_id": "c8d1ccd026f0491da07af815f0749cd3",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "66b85e698b734e709bef1bf8142a20e7"
+  },
+  "audio_asset_id": "fed368c2490149f3a4c354b7c64f894e",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "de27f493a78040faae544e7b072a5ec4"
+  },
+  "audio_asset_id": "8d6442789a064a15aed4cc3fe8f009ff",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "fb50626e70ba4122bb8f07195e839e65"
+  },
+  "audio_asset_id": "a05875a97bd44032bff8e2dde085828d",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "32e024e677024d65a7d963ed81c4a783"
+  },
+  "audio_asset_id": "1e8b2033ec5e4300ade74820dfbfe1e7",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "6b4f1d0659eb496ea28d68a8599acce6"
+  },
+  "audio_asset_id": "1d1d6a976b3146328ae2eb57e6b5f551",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "21304c05739f4b0d9710a1acb80f0e6d"
+  },
+  "audio_asset_id": "df4b2f67c3fa4470b6c64b8c0666825b",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "04fc59737c0c468ca61bf86f277c3625"
+  },
+  "audio_asset_id": "677f1245655844ca9b56bab5955122af",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "f72aaa23496b4fa696267a1ea014f553"
+  },
+  "audio_asset_id": "c5cbc1a9c54d4fd398b31e6c3aa2439a",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "17987b9ee61048cfb3b12658666d8bcf"
+  },
+  "audio_asset_id": "07301ac1ec0e42d1a428a5919b29b834",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "7cc7c7bf61144741ba98160307147a19"
+  },
+  "audio_asset_id": "579a001546a7426d8022bd03574cc45d",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "video",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "15e663c063604aa683f84457b5e782e5"
+  },
+  "audio_asset_id": "0e85562f698b4d2490d235992fa96f6d",
+  "playback": {
+   "mode": "freeze",
+   "mute": true
+  }
+ },
+ {
+  "type": "image",
+  "source": {
+   "type": "asset_id",
+   "asset_id": "f2dc24c0ce894927b1f6a141bf2caf89"
+  },
+  "duration": 10
+ }
+]

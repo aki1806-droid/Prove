@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 384,
+  "parole_dette": 384,
+  "coincidenti": 384,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 590,
+  "parole_dette": 590,
+  "coincidenti": 588,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "perseo sirio",
+    "detto": "per osirio"
+   }
+  ]
+ }
+}
