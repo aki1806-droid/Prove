@@ -27,7 +27,8 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
-cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" \
+   "$DA/heygen.py" "$NUOVA/"
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
 # intero, e a cambiare e' STACCO. Senza, ogni strumento muore sull'import.
 cp "$DA/profilo.py" "$NUOVA/"
@@ -61,7 +62,15 @@ Poi, nell'ordine:
   python3 monta-scene.py                 clip + audio, una per blocco
   python3 monta-locale.py                la copia di controllo e l'SRT
   python3 controlli.py                   i controlli del MASTER §6
+  python3 heygen.py prepara              l'elenco per il lotto di caricamento
+    create_asset_upload_batch con _montaggio/files.json,
+    risposta in _montaggio/lotto.json
+  python3 heygen.py invia                i byte, con la verifica di posizione
+    complete_asset_batch, poi get_asset_batch finche' il CONTEGGIO e' al totale
+  python3 heygen.py scene                la lista per create_video_from_studio
 
-Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
+Lo stacco fra le due tracce sta in profilo.py, costante STACCO: va riletto a
+ogni lezione, perche' quello della precedente taglia nel punto sbagliato e
+nessun controllo se ne accorge.
 
 TESTO

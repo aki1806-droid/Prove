@@ -180,27 +180,32 @@ date e numeri di legge.
 
 Cambiando voce o lingua, `CPS` va rimisurato prima di scrivere il copione.
 
-### Il grezzo e il lavorato stanno in rapporto costante
+### Il grezzo e il lavorato stanno in rapporto, ma nemmeno quello è stabile
 
-Il filtro di ritmo accorcia la traccia di una frazione fissa. **Questo rapporto
-sì che è stabile**, a differenza del `CPS`: su un corpus 1,30, su tre lezioni
-consecutive di un altro 1,252 · 1,240 · 1,246 — la terza cifra. La variabilità
-sta nella lettura, non nel filtro, quindi il rapporto si misura una volta per
-voce e poi tiene.
+Il filtro di ritmo accorcia la traccia di circa un quarto. Su quattro lezioni
+della stessa voce: **1,252 · 1,240 · 1,246 · 1,290**, cioè il 4% di escursione,
+esattamente come il `CPS`. Per tre misure è sembrato stabile alla terza cifra e
+l'avevo scritto qui; la quarta l'ha smentito. E i due numeri non vanno nemmeno
+insieme: le due lezioni col `CPS` praticamente identico (18,31 e 18,32) hanno
+dato rapporti 1,240 e 1,290.
 
 ```
-parlato finale ≈ durata_grezza / rapporto
+parlato ≈ durata_grezza / rapporto        ± 4%, cioè ± 18 s su otto minuti
 ```
 
-Controprova su una lavorazione reale: 3.956 caratteri in 300,16 s di grezzo
-fanno 13,2 car/s; diviso 1,30 danno 17,1 car/s, cioè il `CPS` di tabella. E le
-due tracce insieme, 583,68 s di grezzo, hanno dato 457,5 s di parlato — contro i
-457 calcolati.
+Serve a una cosa sola: `tagli.py allinea` deve stimare il ritmo **lavorato**
+guardando solo la traccia grezza, per segnalare quali confini vale la pena
+guardare. È una stima, sbaglia in entrambi i versi, e il controllo vero è
+quello che `applica` fa sul lavorato — su una lezione ha segnalato tre blocchi
+fuori fascia che poi erano tutti dentro.
 
-È il momento in cui si sa se il montato uscirà **sotto** la durata chiesta. Se è
-sotto non si paga niente: lo colma il respiro, qui sotto. Se è **sopra** non c'è
-rimedio che non costi una voce rigenerata, ed è il motivo per cui si scrive
-corto.
+Il numero va in `profilo.py`, non dentro gli strumenti: ci è stato scritto
+dentro come `1.30` per tre lezioni, ed è la stessa trappola del §4.
+
+**Nessuno dei due numeri serve a predire la durata del montato.** A quella
+pensa il respiro, che misura invece di stimare. Restano utili solo a
+dimensionare il copione prima di spendere la voce — e lì si mira corto, perché
+il respiro allunga e non accorcia.
 
 ## Il respiro — la durata è un vincolo, non una previsione
 
