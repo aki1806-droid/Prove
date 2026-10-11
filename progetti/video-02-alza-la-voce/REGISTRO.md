@@ -17,3 +17,6 @@ Avatar: un solo render con le 9 tracce avatar in fila (0,6 s di pausa tra l'una 
   audio/avatar-unico.mp3, tempi in audio/avatar-tempi.json) → video c13fafc3735d548ea5205b173d63b6d3;
   taglia-avatar.py lo divide in 9 clip con il monogramma LPG in alto a sinistra.
 Lotto asset HeyGen: a83476dfed4c4f3aa1a016c031052469 (20 png + 32 mp3 + 5 b-roll) — heygen-asset.json
+- Render avatar completato (122,8 s). taglia-avatar.py → 9 clip in avatar/ con monogramma LPG a (56,48).
+- Lotto asset avatar: 1ba733e6bf32422780926ef98174727b. heygen-scene.json: 34 scene (copertina 3 s,
+  S01–S32, chiusura 12 s); grafiche come image con traccia, b-roll e avatar come video freeze+mute.
