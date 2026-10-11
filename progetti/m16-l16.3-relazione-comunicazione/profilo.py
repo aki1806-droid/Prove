@@ -56,6 +56,47 @@ CPS = 17.52
 # guardato.
 FASCIA_CPS = (8.5, 21.0)
 
+# Il respiro: quanto si puo' allungare OGNI blocco, al taglio, per arrivare
+# alla durata chiesta.
+#
+# Serve perche' il CPS non e' una costante della voce. Misurato 17,52 sulla
+# 16.2 e 18,31 sulla 16.3 — stessa voce, stesso modello, stesse impostazioni,
+# il 4,5% di differenza fra una lezione e l'altra. Il rapporto fra traccia
+# grezza e traccia lavorata invece e' stabile (1,252 e 1,240), quindi la
+# variabilita' sta nella lettura, non nel filtro di ritmo. Su otto minuti il
+# 4,5% sono venti secondi: la durata non si puo' predire, si puo' solo
+# misurare dopo.
+#
+# Ma le pose si applicano al TAGLIO, non alla generazione. Quindi la durata
+# chiesta smette di essere una previsione e diventa un vincolo: si scrive un
+# copione un po' corto, si misura la voce, e `tagli.py applica` distribuisce
+# la differenza come respiro su ogni blocco. Costa zero e non rigenera niente.
+#
+# Il tetto esiste perche' il respiro non deve poter coprire un copione
+# gravemente corto: oltre questo valore `applica` si ferma e lo dice, invece
+# di consegnare un video pieno di buchi.
+#
+# Funziona in un verso solo. Se il copione e' troppo LUNGO il montato sfora e
+# nessuna posa lo accorcia: per questo si mira sotto, non sopra.
+RESPIRO_MAX = 0.6
+
+# Quanto perde il servizio di montaggio su OGNI scena, arrotondando al
+# fotogramma. Il montato locale e quello renderizzato non durano uguale:
+#
+#     16.1   470,80 locale ->  469,62 renderizzato   1,18 s su 48 scene
+#     16.2   473,60 locale ->  472,27 renderizzato   1,33 s su 48 scene
+#     16.3   470,47 locale ->  469,06 renderizzato   1,41 s su 49 scene
+#
+# Sono 25-29 ms a scena, sempre nello stesso verso. Finche' il respiro mirava
+# ai 470 s del montato LOCALE, il video consegnato usciva sotto: la 16.1 di
+# 0,38 s, la 16.3 di 0,94. Il controllo del §6 guarda il file locale e passa,
+# ma il file che riceve il committente e' l'altro.
+#
+# Quindi il respiro mira piu' in alto di questo margine per scena. Non e' una
+# stima: sono tre misure sullo stesso servizio e nello stesso formato. Con un
+# servizio o un frame rate diversi va rimisurato.
+ARROTONDA_SCENA = 0.030
+
 # --- dal servizio di montaggio -----------------------------------------------
 
 # Quante scene accetta una singola chiamata di montaggio. Non e' una scelta

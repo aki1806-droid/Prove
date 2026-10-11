@@ -19,7 +19,8 @@ QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
 import sys as _sys; _sys.path.insert(0, str(RADICE))
-from profilo import STACCO, FASCIA_CPS, COPERTINA, CHIUSURA
+from profilo import (STACCO, FASCIA_CPS, COPERTINA, CHIUSURA, DURATA_CHIESTA,
+                     RESPIRO_MAX, ARROTONDA_SCENA)
 CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
@@ -253,6 +254,43 @@ def cmd_applica():
             reg.append({"id":x["id"],"traccia":L,"da":round(ini,3),"a":round(fin,3),
                         "durata":round(d,3),"posa":posa,"car":len(x["text"]),
                         "cps":round(len(x["text"])/d,1)})
+    # Il respiro (§2). La voce non legge due volte alla stessa velocita', e
+    # qui ha letto il 4,5% piu' in fretta che sulla lezione prima: quindici
+    # secondi sotto la durata chiesta. Non si rigenera la voce per quindici
+    # secondi, e non si lascia un video piu' corto di quello che e' stato
+    # chiesto. Si allunga ogni blocco della stessa frazione.
+    #
+    # Si somma alla posa, non la sostituisce: le pose dicono DOVE il discorso
+    # vuole un battito, il respiro dice QUANTO manca in tutto. L'ultimo blocco
+    # resta fuori: un respiro dopo l'ultima parola e' solo coda prima della
+    # chiusura, che gia' dura dieci secondi.
+    tot = sum(r["durata"] for r in reg)
+    # Si mira al RENDERIZZATO, non al locale: il montaggio perde ~30 ms per
+    # scena arrotondando al fotogramma, e su cinquanta scene e' un secondo e
+    # mezzo. Le scene sono i blocchi piu' copertina e chiusura.
+    bersaglio = DURATA_CHIESTA + ARROTONDA_SCENA*(len(reg)+2)
+    manca = bersaglio - (tot + COPERTINA + CHIUSURA)
+    respiro = 0.0
+    if manca > 0.05:
+        respiro = round(manca/(len(reg)-1), 3)
+        if respiro > RESPIRO_MAX:
+            print(f"copione troppo corto: servirebbero {respiro:.2f} s di respiro per blocco, "
+                  f"il tetto e' {RESPIRO_MAX}. Mancano {manca:.0f} s: si scrive piu' testo, "
+                  f"non si allunga il silenzio.")
+            sys.exit(1)
+        for r in reg[:-1]:
+            f = out/f"{r['id']}.mp3"
+            sh(FF,"-y","-v","error","-i",f,"-af",f"apad=pad_dur={respiro}",
+               "-c:a","libmp3lame","-b:a","192k",out/f"_{r['id']}.mp3")
+            (out/f"_{r['id']}.mp3").replace(f)
+            d = durata(f)
+            r["respiro"] = respiro
+            r["durata"]  = round(d,3)
+            r["cps"]     = round(r["car"]/d,1)
+        print(f"respiro: +{respiro:.3f} s su {len(reg)-1} blocchi  ({manca:.1f} s da recuperare, "
+              f"bersaglio {bersaglio:.1f} s = {DURATA_CHIESTA:.0f} chiesti + {ARROTONDA_SCENA*(len(reg)+2):.1f} "
+              f"di arrotondamento su {len(reg)+2} scene)")
+
     (QUI/"blocchi-audio.json").write_text(json.dumps(reg,indent=1,ensure_ascii=False),encoding="utf-8")
     tot = sum(r["durata"] for r in reg)
     # §6: il montato e' il parlato piu' le due immagini ferme. Dichiarate in
