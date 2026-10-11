@@ -1,0 +1,20 @@
+{
+ "s11": {
+  "tipo": "immagine",
+  "nome": "due-orologi-ore-diverse",
+  "url": "https://resource2.heygen.ai/image/11220c1041a942b19f56e10068c9e5fb/original.png",
+  "nota": "due orologi da muro appesi uno accanto all'altro che segnano ore diverse, parete nuda, luce naturale - VISTA. Nessuna persona, nessuna cifra sui quadranti, nessuna scritta ne' marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield rifiuta ancora per limite giornaliero del piano"
+ },
+ "s28": {
+  "tipo": "immagine",
+  "nome": "due-a-tavolo-uno-ascolta",
+  "url": "https://resource2.heygen.ai/image/10c699f2a9654502a5acf4964e58db3f/original.png",
+  "nota": "due persone sedute a un tavolo viste da lontano, una donna e un uomo, una ascolta mentre l'altro parla - VISTA. Nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s38": {
+  "tipo": "immagine",
+  "nome": "foglio-una-riga-evidenziata",
+  "url": "https://resource2.heygen.ai/image/f07b2d3233f64fd4a9fb79ba2920ab15/original.png",
+  "nota": "un foglio stampato su una scrivania di legno con una sola riga evidenziata, tutto il resto fuori fuoco e illeggibile - VISTA. Nessuna persona, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

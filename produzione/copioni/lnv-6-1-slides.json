@@ -1,0 +1,393 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 6 · Lezione 6.1",
+"title": "Che cos'è un'incongruenza",
+"sub": "L'incongruenza"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "per cinque moduli, la stessa cosa",
+"title": "Un segnale isolato<br><span class=\"gold\">non significa niente.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "tre frasi, ripetute su cinque canali",
+"plain": true,
+"rows": [
+"La causa non si vede",
+"Serve la linea di base",
+"Si legge il cambiamento, non il livello"
+]
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Adesso diventa uno strumento.<br><span class=\"gold\">Uno solo.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il cuore del corso",
+"title": "L'incongruenza."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "che cos'è",
+"title": "Due cose che vanno<br><span class=\"gold\">in direzioni diverse.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "le tre forme",
+"rows": [
+"Le parole e la voce",
+"Il volto e il corpo",
+"La stessa persona, dieci minuti fa"
+],
+"active": 0,
+"note": "Arrivano insieme, e le parole le stavi già ascoltando."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "le tre forme",
+"rows": [
+"Le parole e la voce",
+"Il volto e il corpo",
+"La stessa persona, dieci minuti fa"
+],
+"active": 1,
+"note": "Due canali che di solito si accordano senza che nessuno ci pensi."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "le tre forme",
+"rows": [
+"Le parole e la voce",
+"Il volto e il corpo",
+"La stessa persona, dieci minuti fa"
+],
+"active": 2,
+"note": "Qui i due termini non sono due canali: sono due momenti."
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "Un rapporto si descrive<br><span class=\"gold\">solo guardando tutti e due i termini.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "il problema di tutto il corso",
+"title": "Vedi il gesto.<br><span class=\"gold\">Non vedi il perché.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Non elimina il problema.<br><span class=\"gold\">Lo riduce.</span>"
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "quello che spiega bene un segnale solo",
+"plain": true,
+"rows": [
+"Il freddo",
+"L'abitudine",
+"La stanchezza",
+"La sedia scomoda"
+],
+"note": "Per un segnale isolato hanno sempre una risposta pronta."
+},
+{
+"file": "c15",
+"layout": "confronto",
+"occhio": "le cause banali, davanti a due casi",
+"titoli": [
+"Un segnale",
+"Due che si contraddicono"
+],
+"righe": [
+{
+"et": "Lo spiegano?",
+"a": "Benissimo",
+"b": "Molto peggio"
+},
+{
+"et": "Perché",
+"a": "Vale sempre",
+"b": "Non spiega il tempismo",
+"segna": true
+}
+]
+},
+{
+"file": "c16",
+"layout": "statement",
+"title": "Non è una prova.<br><span class=\"gold\">È una riduzione del rumore.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "primo caso",
+"title": "Braccia incrociate.<br><span class=\"gold\">Che cosa sai?</span>"
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "mille spiegazioni, tutte ordinarie",
+"plain": true,
+"rows": [
+"Ha freddo",
+"Sta comoda così",
+"È la sua postura",
+"Ha una camicia che tira"
+]
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "secondo caso",
+"title": "«Certo, nessun problema.»<br><span class=\"gold\">E intanto la voce si abbassa.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"title": "Il freddo<br><span class=\"gold\">non spiega questo.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Le cause banali spiegano un comportamento.<br><span class=\"gold\">Non il suo tempismo.</span>"
+},
+{
+"file": "c22",
+"layout": "memo",
+"title": "Non è un segnale.<br>È un rapporto fra segnali."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "la seconda ragione",
+"title": "Il cerchio si chiude<br><span class=\"gold\">sul mito del modulo uno.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "che cosa misuravano quegli studi",
+"title": "Che cosa succede<br><span class=\"gold\">quando i canali si contraddicono.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Il numero era falso.<br><span class=\"gold\">La domanda era giusta.</span>"
+},
+{
+"file": "c26",
+"layout": "confronto",
+"occhio": "il mito e gli esperimenti di Mehrabian",
+"titoli": [
+"Il 7-38-55",
+"Gli esperimenti"
+],
+"righe": [
+{
+"et": "La domanda",
+"a": "Quanto pesa il corpo",
+"b": "Che cosa succede se i canali si contraddicono"
+},
+{
+"et": "Regge?",
+"a": "No",
+"b": "Sì",
+"segna": true
+}
+]
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Chi ascolta se ne accorge.<br><span class=\"gold\">Anche senza saper dire che cosa.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "l'esperienza che hai già fatto",
+"title": "«Qualcosa non tornava.»"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "quello che quella sensazione non è",
+"plain": true,
+"rows": [
+"Intuito",
+"Sesto senso",
+"Empatia"
+],
+"note": "E non è un talento che hanno alcuni e altri no."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Hai percepito due canali.<br><span class=\"gold\">Non ne avevi una descrizione.</span>"
+},
+{
+"file": "c32",
+"layout": "flusso",
+"kicker": "che cosa fa questo corso",
+"passi": [
+{
+"et": "Sensazione",
+"sub": "non si verifica"
+},
+{
+"et": "Descrizione",
+"sub": "si verifica"
+}
+],
+"title": "Il motivo è pratico, non estetico."
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Tutto il modulo<br><span class=\"gold\">sta dentro questa riga.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "la stessa cosa, detta in due modi",
+"title": "Da «qualcosa non tornava»<br><span class=\"gold\">a «si è irrigidito quando ho detto i tempi».</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "La prima<br><span class=\"gold\">non ti permette di fare niente.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "La seconda ti dice cosa chiedere.<br><span class=\"gold\">E in dieci secondi sai se avevi visto bene.</span>"
+},
+{
+"file": "c37",
+"layout": "bivio",
+"kicker": "la differenza che conta",
+"da": "Hai visto un'incongruenza",
+"rami": [
+{
+"et": "Chi legge",
+"sub": "conclude, e se ne va"
+},
+{
+"et": "Chi osserva",
+"sub": "descrive, e poi chiede"
+}
+]
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "il malinteso da togliere di mezzo",
+"title": "Le incongruenze<br><span class=\"gold\">sono normali.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "non sono",
+"plain": true,
+"rows": [
+"Un difetto",
+"Un sintomo",
+"Una cosa rara"
+],
+"note": "Le produciamo tutti, continuamente."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Vuole aiutarti<br><span class=\"gold\">e non sa se ce la fa.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Due segnali diversi<br><span class=\"gold\">perché dentro ci sono due cose diverse.</span>"
+},
+{
+"file": "c43",
+"layout": "statement",
+"kicker": "ci dedichiamo la sei punto tre",
+"title": "È il punto in cui<br><span class=\"gold\">chi fa questo mestiere sbaglia di più.</span>"
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "tre cose che l'incongruenza non è",
+"rows": [
+"Un segnale isolato",
+"Un difetto della persona",
+"Una prova di qualcosa"
+],
+"active": 0,
+"note": "È un rapporto fra due, e senza tutti e due non esiste."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "tre cose che l'incongruenza non è",
+"rows": [
+"Un segnale isolato",
+"Un difetto della persona",
+"Una prova di qualcosa"
+],
+"active": 1,
+"note": "Le produciamo tutti, continuamente."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "tre cose che l'incongruenza non è",
+"rows": [
+"Un segnale isolato",
+"Un difetto della persona",
+"Una prova di qualcosa"
+],
+"active": 2,
+"note": "È un punto in cui vale la pena guardare meglio."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Una sensazione non si può verificare.<br>Una descrizione sì."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Fermati trenta secondi",
+"Scrivi che cosa",
+"E in che momento"
+],
+"note": "Le volte in cui ci riesci, hai qualcosa che puoi verificare."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "I tre tipi."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]
