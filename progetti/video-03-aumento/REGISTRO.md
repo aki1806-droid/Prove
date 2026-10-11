@@ -10,3 +10,4 @@ B-roll: clip Seedance 2.0 Mini 720p senza audio (adattate alla voce) e immagini 
 Avatar: un solo render con le tracce *_avatar in fila (audio/avatar-unico.mp3, asset 19216b2a29a04e44b5115f129637dfe6) → video 8f81e0635051d1708f4f25da22e1ee79.
 Lotto asset HeyGen: 146664c4523c4067a0b3317090cbfc9f (grafiche + voci + b-roll) — heygen-asset.json
 Da verificare (dal pacchetto): S18 (esempi da adattare), S19 (istituti del pubblico impiego), S25–S26 (schema visto «in trattativa»).
+- Montaggio studio lanciato: video_id `d5846ed0c5caf3a513acd03ed065d5d1` (35 scene, chiusura 10 s). Lotto avatar 9abe1fcfc5e044bcb0c0e4978345e747.
