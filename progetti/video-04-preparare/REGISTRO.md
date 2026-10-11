@@ -11,3 +11,4 @@ Avatar: un solo render con le tracce *_avatar in fila (audio/avatar-unico.mp3, a
 Lotto asset HeyGen: b17ab1f6a71040ed8016b743285efe69 (grafiche + voci + b-roll) — heygen-asset.json
 Da verificare (dal pacchetto): S26 («un errore che ho fatto per anni», in prima persona), S25 (caso costruito).
 - Montaggio studio lanciato: video_id `dab58e78a622c29190eb3b8053a77252` (33 scene, chiusura 10 s: l'utente non ha scelto tra A/B/C sulla durata). Lotto avatar 560ca28c251848249b583ac05bd12ea0.
+- Render completato: 467,0 s (7:47, sotto gli 8 minuti: chiusura standard 10 s, in attesa di scelta dell'utente). Controllo: 33 scene in ordine. Inviati Video04_Preparare_compresso.mp4 (28,5 MB, 720p) + Video04_Preparare.srt.

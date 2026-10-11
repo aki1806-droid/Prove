@@ -11,3 +11,4 @@ Avatar: un solo render con le tracce *_avatar in fila (audio/avatar-unico.mp3, a
 Lotto asset HeyGen: 146664c4523c4067a0b3317090cbfc9f (grafiche + voci + b-roll) — heygen-asset.json
 Da verificare (dal pacchetto): S18 (esempi da adattare), S19 (istituti del pubblico impiego), S25–S26 (schema visto «in trattativa»).
 - Montaggio studio lanciato: video_id `d5846ed0c5caf3a513acd03ed065d5d1` (35 scene, chiusura 10 s). Lotto avatar 9abe1fcfc5e044bcb0c0e4978345e747.
+- Render completato: 484,4 s (8:04). Controllo: 35 scene in ordine (foglio fotogrammi), avatar con monogramma. Inviati Video03_Aumento_compresso.mp4 (28,6 MB, 720p) + Video03_Aumento.srt.
