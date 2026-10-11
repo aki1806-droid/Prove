@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Ogni buona ricetta ha pochi ingredienti, nelle giuste dosi. Anche la tua posizione in Perseo Sirio funziona cosi'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei moduli precedenti abbiamo visto perche' esiste il Fondo, chi puo' aderire e che cosa succede alla liquidazione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora passiamo ai numeri. Che cosa entra, ogni mese, nel tuo conto previdenziale? Chi lo mette? E su quale base si calcola?"
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo la ricetta completa. E in tutto il modulo useremo lo stesso esempio: una retribuzione utile di trentamila euro l'anno."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco il salvadanaio. Ha tre ingressi, e in ognuno entra una moneta diversa, che arriva da una persona diversa e con una regola diversa."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il tuo contributo: almeno l'uno per cento. E' la parte che scegli tu, e che esce dalla tua busta paga."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' il contributo della tua amministrazione: l'uno per cento. Arriva solo perche' hai aderito, e solo se versi anche tu."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo e' il TFR, il trattamento di fine rapporto. E' la quota che ogni anno matura sul tuo stipendio, e che senza adesione riceveresti come liquidazione a fine carriera."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' un quarto ingresso, piu' piccolo. Si apre solo per chi era in servizio a tempo indeterminato al 31 dicembre 2000 e ha optato per il TFR."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'accantonamento aggiuntivo dell'uno virgola cinque per cento. Ne abbiamo parlato nel modulo due, ed e' il premio per chi lascia il TFS."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutte le percentuali si calcolano sulla stessa base: la retribuzione lorda utile ai fini del TFR."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' tutto lo stipendio lordo. Sono le voci fisse e continuative previste dalle regole del tuo contratto. Straordinari e premi occasionali, di solito, restano fuori."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rimettiamo gli ingredienti nelle due tasche che conosci dal modulo due: la tasca reale, a Perseo Sirio, e la tasca figurativa, all'INPS."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tuo contributo e quello dell'ente sono soldi veri. Vengono trattenuti o pagati ogni mese, e finiscono nella tasca reale."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ente li versa al Fondo entro il quindici del mese successivo. E da quel momento vengono investiti, nel profilo che hai scelto."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFR e l'eventuale uno virgola cinque, invece, non si spostano. L'INPS li registra nella tasca figurativa."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E li trasferisce al Fondo solo quando il rapporto di lavoro finisce. Nel frattempo non restano fermi: si rivalutano ogni anno, con le regole che abbiamo visto nel modulo due."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro ingredienti, due tasche, una sola posizione intestata a te. Ed e' la somma delle due tasche che, un giorno, diventera' la tua pensione complementare."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proviamo con un esempio. Un operatore assunto dopo il 2000, con una retribuzione utile di trentamila euro l'anno."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il suo uno per cento vale trecento euro l'anno. Diviso per dodici mesi, sono venticinque euro al mese: meno di un euro al giorno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ente aggiunge altri trecento euro l'anno. Senza che lui debba fare altro: basta che il suo uno per cento continui ad arrivare."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il TFR, il sei virgola novantuno per cento della retribuzione, vale circa duemilasettanta euro l'anno."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In tutto, quasi duemilasettecento euro l'anno lavorano per la sua pensione complementare. Su dieci anni, sono oltre ventiseimila euro, prima dei rendimenti."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Di questi, quelli che escono davvero dalla sua busta paga sono venticinque euro al mese."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E anche su quelli, come vedremo nel modulo cinque, risparmia una parte di tasse. Il costo reale, quindi, e' ancora piu' basso."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio sui numeri: sono importi lordi e arrotondati. E' un esempio semplificato, che serve a capire le proporzioni, non a fare i conti al centesimo."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione, pero', a non leggere male questo esempio. Mettiamo i pezzi su una bilancia."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Da una parte, la moneta piccola: venticinque euro al mese dalla tua busta paga. Dall'altra cadono l'ente e il TFR."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ma il TFR non e' un regalo: e' gia' tuo. Se non aderisci, lo ricevi comunque, come liquidazione, alla fine del lavoro."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aderendo, cambi la sua destinazione e il modo in cui cresce: da liquidazione a pensione complementare."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vero ingresso in piu' e' l'uno per cento dell'ente, che senza adesione non avresti. Trecento euro l'anno, nel nostro esempio."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, per chi era in servizio al 2000, l'uno virgola cinque aggiuntivo. Anche quello, senza adesione, non esisterebbe."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tenere distinti questi pezzi e' il modo piu' onesto di valutare la scelta. Senza esagerare i vantaggi, e senza ignorarli."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ultima cosa: il tuo uno per cento e' un minimo, non un tetto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puoi scegliere di versare di piu', in percentuale o con una cifra fissa. E puoi cambiare idea una volta l'anno, dall'area riservata, come abbiamo visto nel modulo tre."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ente, invece, resta fermo all'uno per cento, qualunque cifra tu decida di versare. Il resto dipende solo da te."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi versa di piu', quindi, aumenta la propria parte e i vantaggi fiscali, ma non il contributo dell'ente."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ne parleremo nella lezione quattro. Prima, pero', vediamo come cambia la ricetta a seconda di quando sei stato assunto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il TFR e' gia' tuo. L'uno per cento dell'ente arriva solo se aderisci."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: la posizione si alimenta con il tuo contributo, almeno l'uno per cento, quello dell'ente, l'uno per cento, e il TFR."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piu' l'uno virgola cinque per chi era in servizio al 2000 e ha optato."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: tutto si calcola sulla stessa base, la retribuzione lorda utile ai fini del TFR, non sullo stipendio netto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: i contributi sono soldi versati e investiti. TFR e uno virgola cinque restano figurativi all'INPS fino alla cessazione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: prendi la tua retribuzione lorda annua, anche approssimativa, e calcola l'uno per cento."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi dividilo per dodici, o per tredici se vuoi tenere conto della tredicesima. E' quanto ti costa, al mese, aderire con il minimo, prima del risparmio fiscale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se hai gia' aderito, confronta la cifra con la trattenuta sul tuo cedolino: dovrebbero somigliarsi. Nella quinta lezione vedremo dove trovarla."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: assunti prima e dopo il 2001. Stessa scelta, due ricette diverse."
+ }
+]
