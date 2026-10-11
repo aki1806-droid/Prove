@@ -1,0 +1,47 @@
+[
+ {
+  "id": "S02_avatar",
+  "inizio": 0.0,
+  "durata": 17.109
+ },
+ {
+  "id": "S05_avatar",
+  "inizio": 17.709,
+  "durata": 18.827
+ },
+ {
+  "id": "S08_avatar",
+  "inizio": 37.136,
+  "durata": 19.5462
+ },
+ {
+  "id": "S14_avatar",
+  "inizio": 57.2822,
+  "durata": 23.25
+ },
+ {
+  "id": "S18_avatar",
+  "inizio": 81.1322,
+  "durata": 18.9689
+ },
+ {
+  "id": "S22_avatar",
+  "inizio": 100.7011,
+  "durata": 23.6161
+ },
+ {
+  "id": "S26_avatar",
+  "inizio": 124.9172,
+  "durata": 19.6895
+ },
+ {
+  "id": "S30_avatar",
+  "inizio": 145.2067,
+  "durata": 11.6933
+ },
+ {
+  "id": "S31_avatar",
+  "inizio": 157.5,
+  "durata": 14.6082
+ }
+]
