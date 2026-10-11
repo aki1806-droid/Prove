@@ -1,0 +1,16 @@
+{
+ "A": {
+  "parole_copione": 440,
+  "parole_dette": 440,
+  "coincidenti": 440,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 560,
+  "parole_dette": 560,
+  "coincidenti": 560,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

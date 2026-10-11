@@ -1,0 +1,310 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Immagina una scala. Per tutta la carriera sali un gradino alla volta, a volte piano e a volte di slancio: gli scatti, le progressioni, un incarico, un passaggio di area."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFS funziona proprio cosi'. Guarda soprattutto l'ultimo gradino che hai raggiunto, e lo moltiplica per gli anni che hai passato a salire."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo la formula, senza paura dei numeri. E capiamo chi ci guadagna di piu', e chi un po' meno."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se sei in TFR puoi seguirla comunque: ti servira' per capire i colleghi piu' anziani, e la scelta che molti di loro si trovano davanti."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di tutto, i nomi. Il TFS ne ha tre, a seconda del comparto in cui lavori. E questo, da solo, crea gia' parecchia confusione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In sanita', nelle regioni e negli enti locali si chiama indennita' premio di servizio, in sigla IPS. E' quella che riguarda la maggior parte di chi segue questo corso."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei ministeri, nelle agenzie fiscali e nelle universita' si chiama indennita' di buonuscita. Un nome che molti associano al passato, ma che e' ancora in uso."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Negli enti pubblici non economici e nelle camere di commercio si chiama indennita' di anzianita'. Anche qui, il nome racconta da solo la logica: conta quanto tempo sei rimasto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non sai quale nome usa il tuo ente, lo trovi spesso nei documenti sul trattamento di fine servizio, oppure basta chiederlo all'ufficio del personale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La logica e' la stessa per tutti: una parte dell'ultima retribuzione, moltiplicata per gli anni di servizio. Cambiano soltanto i coefficienti."
+ },
+ {
+  "id": "s12",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prendiamo l'IPS, e trattiamola come una ricetta di cucina. Gli ingredienti sono tre, e vanno messi nella ciotola in un ordine preciso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo ingrediente: si parte dall'ultima retribuzione annua utile. Cioe' quanto guadagni, su base annua, alla fine della carriera."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo ingrediente: di quella retribuzione se ne prende l'ottanta per cento. Non tutta, quindi: solo i quattro quinti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo ingrediente: il risultato si divide per quindici. Quello che esce e' una specie di mensilita' di riferimento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi questa mensilita' si moltiplica per gli anni di servizio. Ogni anno di lavoro, in pratica, vale una mensilita'."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la buonuscita dei ministeri il conto e' simile, ma si divide per dodici invece che per quindici. Per l'indennita' di anzianita' si parte dalla retribuzione intera, divisa per dodici."
+ },
+ {
+  "id": "s18",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora un esempio con numeri tondi. Una lavoratrice della sanita' ha un'ultima retribuzione annua utile di trentamila euro, e trent'anni di servizio."
+ },
+ {
+  "id": "s19",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ottanta per cento di trentamila fa ventiquattromila euro. Diviso quindici, fa milleseicento euro: e' la sua mensilita' di riferimento."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Milleseicento per trent'anni fa quarantottomila euro lordi di IPS."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Facciamo anche la controprova. Con vent'anni di servizio invece di trenta, il risultato sarebbe milleseicento per venti: trentaduemila euro."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono importi lordi. Sul TFS, come sul TFR, si applica una tassazione separata, con regole sue, che in questa lezione lasciamo da parte."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una precisazione importante. La retribuzione utile non e' tutto quello che vedi nel cedolino. Comprende solo alcune voci fisse dello stipendio, stabilite dalla legge."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molte indennita' accessorie, anche quelle che vedi ogni mese, possono restare fuori dal calcolo. Per questo il conto fatto a occhio, sul netto in busta paga, di solito sbaglia."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui sta il punto di forza del TFS. Siccome si calcola sull'ultima retribuzione, premia chi ha un aumento importante verso la fine della carriera."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa a una progressione, a un incarico di coordinamento, a un passaggio di area negli ultimi anni di lavoro."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quell'aumento finale viene, per cosi' dire, applicato a tutti gli anni di servizio, anche a quelli in cui guadagnavi molto meno."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se invece la carriera e' stata piuttosto piatta, con uno stipendio quasi uguale dall'inizio alla fine, questo vantaggio si riduce di molto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensa a due colleghe con gli stessi anni di servizio. Una negli ultimi anni fa un salto di stipendio, l'altra no. La prima avra' un TFS piu' alto, perche' parte da una base di calcolo piu' alta."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tienilo a mente. Quando valuteremo se passare dal TFS al TFR aderendo a Perseo Sirio, questa sara' una delle domande da farsi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come immagino che crescera' il mio stipendio negli ultimi anni? Non serve una risposta precisa: basta un'idea onesta."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'ultima cosa, che vale per il TFS e anche per il TFR nel pubblico impiego. La liquidazione non arriva il giorno dopo la fine del lavoro."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi va in pensione di vecchiaia aspetta dodici mesi, piu' tre mesi tecnici per il pagamento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dal 2027, grazie alla legge di bilancio 2026, l'attesa scende a nove mesi per chi matura i requisiti da quell'anno in poi."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi si dimette senza andare in pensione aspetta invece ventiquattro mesi, sempre piu' i tempi tecnici."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sopra i cinquantamila euro la somma non arriva tutta insieme: si paga a rate, a un anno di distanza l'una dall'altra."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questi tempi sono quelli delle regole in vigore oggi, e negli anni sono cambiati piu' volte. Prima di uscire dal lavoro conviene sempre verificarli."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una ragione in piu' per pensare per tempo a come sara' composto il proprio reddito, nei primi anni dopo il lavoro."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il TFS guarda soprattutto a come finisci la carriera."
+ },
+ {
+  "id": "s40",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: il TFS si chiama IPS, buonuscita o indennita' di anzianita', a seconda del comparto."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: per l'IPS si prende l'ottanta per cento dell'ultima retribuzione utile, si divide per quindici e si moltiplica per gli anni di servizio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: poiche' guarda all'ultima retribuzione, il TFS premia chi ha aumenti importanti verso fine carriera."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi, solo se sei in TFS: prendi la tua retribuzione tabellare annua lorda di oggi e gli anni di servizio, e fai il conto con la formula che hai visto."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sara' un conto approssimativo, ma ti dara' un ordine di grandezza. E ti servira' tra due lezioni."
+ },
+ {
+  "id": "s45",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: il TFR, il barattolo che si riempie un po' ogni anno, e che cresce anche quando non ci metti niente."
+ }
+]

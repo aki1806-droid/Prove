@@ -1,0 +1,32 @@
+{
+ "A": {
+  "parole_copione": 451,
+  "parole_dette": 448,
+  "coincidenti": 445,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "perseo",
+    "detto": "perseus"
+   },
+   {
+    "blocco": "s06",
+    "copione": "perseo",
+    "detto": "perseus"
+   },
+   {
+    "blocco": "s15",
+    "copione": "0 6",
+    "detto": "06"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 543,
+  "parole_dette": 543,
+  "coincidenti": 543,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

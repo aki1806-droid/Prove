@@ -1,0 +1,303 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Se il TFS e' una scala, il TFR e' un barattolo. Ogni anno ci metti dentro qualcosa, e quello che c'e' dentro cresce un po' con il passare del tempo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla fine non conta solo l'ultimo stipendio, come nel TFS. Conta tutto quello che hai messo nel barattolo, anno dopo anno, per tutta la carriera."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo quanto ci entra ogni anno, e come cresce quello che c'e' gia' dentro. Nessuna formula complicata: una percentuale e una regola di crescita. Sono due meccanismi diversi, e conviene tenerli separati."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riguarda direttamente chi e' stato assunto dal 2001 o lavora a tempo determinato. Ma riguarda anche chi e' in TFS, perche' e' il sistema in cui passerebbe aderendo al Fondo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalla quota che entra ogni anno. E' il sei virgola novantuno per cento della retribuzione utile."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ripeto, perche' e' il numero piu' importante della lezione: sei virgola novantuno per cento."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' come se, ogni anno, una piccola striscia del tuo stipendio venisse tagliata con le forbici e messa da parte nel barattolo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con una retribuzione utile di trentamila euro, la striscia vale circa duemilasettanta euro all'anno. Un po' piu' di una mensilita'."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione alla parola utile. Come per il TFS, la retribuzione utile al TFR comprende le voci previste dalle regole, non per forza tutto il lordo che vedi nel cedolino."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anno dopo anno, queste strisce si sommano. Dieci anni di lavoro sono dieci strisce, trent'anni sono trenta strisce, ciascuna calcolata sullo stipendio di quell'anno."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel pubblico impiego queste quote non escono dalla busta paga e non finiscono su un conto: le calcola e le tiene l'INPS, che poi paga il TFR alla fine del rapporto di lavoro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il barattolo non resta fermo. Ogni anno quello che hai gia' accumulato viene rivalutato, cioe' aumentato, con una regola fissata dalla legge."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola ha due pezzi. Il primo e' fisso: uno virgola cinque per cento. Il secondo dipende dai prezzi: il settantacinque per cento dell'inflazione registrata dall'ISTAT."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Facciamo un esempio. Se in un anno l'inflazione e' del due per cento, il settantacinque per cento di due fa uno virgola cinque."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piu' l'uno virgola cinque fisso, fa tre. Quell'anno, quindi, il TFR gia' accumulato cresce del tre per cento."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se l'inflazione e' zero? Il barattolo cresce comunque dell'uno virgola cinque per cento: quella parte fissa c'e' sempre."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nota pero' una cosa. Con l'inflazione alta la rivalutazione insegue i prezzi, ma resta indietro: ne recupera solo tre quarti, piu' la parte fissa."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prova con l'inflazione all'otto per cento. Il settantacinque per cento fa sei; piu' l'uno e mezzo fisso, il TFR cresce del sette e mezzo. Mezzo punto meno dei prezzi."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora guardiamo come funziona nel tempo, su dieci anni. Ogni barra del grafico e' un anno di lavoro."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In basso ci sono le quote accumulate negli anni precedenti. Sopra c'e' la rivalutazione di quell'anno. In cima, la nuova quota annuale, la striscia del sei virgola novantuno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'inizio la rivalutazione e' un filo sottile, quasi invisibile. Con il crescere del barattolo diventa piu' spessa, perche' si applica a una somma sempre piu' grande."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo, a parita' di quote, chi ha lavorato piu' a lungo vede una rivalutazione molto piu' grande di chi ha cominciato da poco: il barattolo pieno cresce di piu'."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFR, quindi, riflette tutta la tua storia lavorativa: gli stipendi di ogni anno, non solo l'ultimo. Gli anni di part-time, per esempio, pesano per quello che hanno pagato."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E cresce con una regola prudente, che protegge abbastanza dall'inflazione bassa, ma meno da quella alta."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mettiamo ora TFS e TFR uno accanto all'altro, riga per riga."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFS si basa sull'ultima retribuzione. Il TFR, invece, sulle retribuzioni di ogni anno, dalla prima all'ultima."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFS prende l'ottanta per cento, diviso quindici o dodici, per gli anni di servizio. Il TFR accantona il sei virgola novantuno per cento ogni anno."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFS cresce soprattutto con gli aumenti di carriera. Il TFR cresce con le quote annuali e con la rivalutazione."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFS, in genere, premia di piu' le carriere che salgono molto alla fine. Il TFR premia la regolarita', e non penalizza chi ha una carriera senza grandi salti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nessuno dei due e' migliore in assoluto. Dipende dalla tua storia lavorativa, ed e' proprio per questo che ogni scelta va fatta con i propri numeri, non con quelli di un collega."
+ },
+ {
+  "id": "s32",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ora il collegamento con Perseo Sirio. Per chi e' in TFR, aderire al Fondo significa destinare alla pensione complementare una parte o tutto questo barattolo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per chi e' stato assunto dal 2001, tutto: l'intero sei virgola novantuno per cento della retribuzione utile."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una somma importante ogni anno, che arriva alla pensione complementare senza togliere un euro in piu' dallo stipendio netto: il TFR, infatti, lo maturi comunque."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per chi e' passato dal TFS al TFR, solo una parte. Le percentuali precise le vedremo nel modulo quattro, con un esempio completo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il barattolo, una volta nel Fondo, cambia anche il modo di crescere. Ma di questo parleremo nell'ultima lezione del modulo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima, pero', dobbiamo parlare proprio di quel passaggio dal TFS al TFR: che cosa comporta, e che cosa conviene valutare."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il TFR non guarda solo come finisci, ma tutto il percorso."
+ },
+ {
+  "id": "s39",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: ogni anno il TFR accantona il sei virgola novantuno per cento della retribuzione utile."
+ },
+ {
+  "id": "s40",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: quanto accumulato si rivaluta ogni anno dell'uno virgola cinque per cento, piu' il settantacinque per cento dell'inflazione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: il TFR riflette tutti gli anni di lavoro, non solo l'ultimo, e cresce anche quando non aggiungi nulla."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: moltiplica la tua retribuzione annua lorda per zero virgola zero sei nove uno. E', in modo approssimativo, quanto TFR maturi in un anno."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se sei in TFS, fai lo stesso conto: e' quanto matureresti ogni anno nel nuovo sistema, se un giorno decidessi di aderire."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: cosa succede a chi e' in TFS e decide di aderire a Perseo Sirio."
+ }
+]
