@@ -20,3 +20,4 @@ Lotto asset HeyGen: a83476dfed4c4f3aa1a016c031052469 (20 png + 32 mp3 + 5 b-roll
 - Render avatar completato (122,8 s). taglia-avatar.py → 9 clip in avatar/ con monogramma LPG a (56,48).
 - Lotto asset avatar: 1ba733e6bf32422780926ef98174727b. heygen-scene.json: 34 scene (copertina 3 s,
   S01–S32, chiusura 12 s); grafiche come image con traccia, b-roll e avatar come video freeze+mute.
+- Montaggio studio lanciato: video_id `cff985f394a021a853ff24cde576f269` (16:9, 1080p, sottotitoli srt).
