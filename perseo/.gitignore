@@ -1,0 +1,7 @@
+node_modules
+**/slide/fotogrammi/
+**/_montaggio/
+**/scene/
+**/montato-*.mp4
+_trim-*.mp3
+**/clips.log
