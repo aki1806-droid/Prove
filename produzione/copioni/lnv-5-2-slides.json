@@ -1,0 +1,385 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.2",
+"title": "Gli emblemi",
+"sub": "I gesti che sostituiscono la parola"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "una categoria completamente diversa",
+"title": "Non accompagnano le parole.<br><span class=\"gold\">Le sostituiscono.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"title": "Tutto il resto va interpretato.<br><span class=\"gold\">Questi vanno capiti.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "la prima proprietà",
+"title": "Non un significato probabile.<br><span class=\"gold\">Un significato stabilito.</span>"
+},
+{
+"file": "c05",
+"layout": "pila",
+"kicker": "le tre proprietà di un emblema",
+"blocchi": [
+"Significato convenzionale",
+"Si traduce in parole",
+"Funziona da solo"
+],
+"acceso": 2,
+"title": "Sono le tre proprietà di una parola."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "esempi, volutamente i più banali",
+"title": "Funzionano<br><span class=\"gold\">senza che nessuno li spieghi.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"title": "A venti metri. In una stanza rumorosa.<br><span class=\"gold\">Attraverso un vetro.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "quattro emblemi",
+"rows": [
+"Il pollice alzato",
+"Il cenno del capo per il sì",
+"La mano aperta per fermare",
+"Il dito sulle labbra"
+],
+"plain": true,
+"note": "Tre movimenti, tre frasi, e la stessa traduzione per tutti."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "che cosa vuol dire che sono parole",
+"plain": true,
+"rows": [
+"Si possono usare male",
+"Si possono fraintendere",
+"Si possono imparare"
+],
+"note": "Tre cose che del resto di questo corso non si possono dire."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "e qui sta la differenza con tutte le altre lezioni",
+"title": "Per gli emblemi<br><span class=\"gold\">un dizionario esiste davvero.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Un dizionario di lingua.<br><span class=\"gold\">Non di psicologia.</span>"
+},
+{
+"file": "c12",
+"layout": "confronto",
+"occhio": "quello che un emblema dice e quello che no",
+"titoli": [
+"Che cosa dice",
+"Che cosa non dice"
+],
+"righe": [
+{
+"et": "Il contenuto",
+"a": "Cosa intendeva",
+"b": "Cosa prova",
+"segna": true
+},
+{
+"et": "La certezza",
+"a": "Esatta",
+"b": "Nessuna",
+"segna": true
+},
+{
+"et": "Se controvoglia",
+"a": "Lo dice lo stesso",
+"b": "Non si vede",
+"segna": true
+}
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"title": "Può alzare il pollice controvoglia,<br><span class=\"gold\">come può dire di sì controvoglia.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "l'unica parte che si impara a tavolino",
+"title": "Si studia come il lessico<br><span class=\"gold\">di una lingua straniera.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "perché interessa meno di tutto il resto",
+"title": "Dice solo cosa l'altro voleva dire.<br><span class=\"gold\">Non promette nessun vantaggio su di lui.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Sono convenzioni.<br><span class=\"gold\">E una convenzione vale dove è nata.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "perché qui non si fanno esempi",
+"title": "Un elenco di gesti da evitare<br><span class=\"gold\">è quello che poi viene ripetuto male.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Non conta sapere quali.<br><span class=\"gold\">Conta sapere che esistono.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "non è un aneddoto da manuale di viaggio",
+"title": "Non riguarda le vacanze.<br><span class=\"gold\">Riguarda il lavoro di tutti i giorni.</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "dove succede",
+"plain": true,
+"rows": [
+"Un reparto",
+"Uno sportello",
+"Un'aula, un cantiere"
+],
+"note": "E chi lo riceve, quasi sempre, non te lo dirà."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "la prima risposta è cosa non si fa",
+"title": "Niente tabelle di gesti<br><span class=\"gold\">per nazionalità.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Tratta una nazionalità<br><span class=\"gold\">come se fosse una persona.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "la regola, e sta in una riga",
+"title": "Riduci gli emblemi.<br><span class=\"gold\">E usa le parole.</span>"
+},
+{
+"file": "c25",
+"layout": "bivio",
+"kicker": "perché funziona",
+"da": "Non si è capito",
+"rami": [
+{
+"et": "Una parola",
+"sub": "si può ripetere"
+},
+{
+"et": "Un gesto",
+"sub": "è già arrivato"
+}
+],
+"title": "Quello che arriva resta."
+},
+{
+"file": "c26",
+"layout": "memo",
+"title": "Gli emblemi sono parole.<br>E come le parole, cambiano lingua."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "il fondo vero",
+"title": "Più gesti hanno una traduzione<br><span class=\"gold\">che tutti conoscono.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "Un fatto sulla lingua che parliamo.<br><span class=\"gold\">Non un fatto su di noi.</span>"
+},
+{
+"file": "c30",
+"layout": "imbuto",
+"kicker": "il pezzo falso, e sono tre",
+"dentro": [
+"Più emotivi",
+"Meno controllati",
+"Meno affidabili"
+],
+"fuori": "Nessuna segue",
+"title": "Da una lingua non si deduce un carattere."
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Una lingua con più parole per la neve<br><span class=\"gold\">non dice niente su chi la parla.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "e va detto senza rivendicare niente",
+"title": "Non più espressivi.<br><span class=\"gold\">Non meno affidabili.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Non è una correzione da fare.<br><span class=\"gold\">È un'informazione da avere.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"title": "Non stai esagerando.<br><span class=\"gold\">La sua soglia sta da un'altra parte.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "e vale nella direzione opposta",
+"title": "Chi gesticola meno di te non è freddo.<br><span class=\"gold\">Ha un'altra abitudine.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "A non prendere per freddezza<br><span class=\"gold\">quella che è solo un'altra norma.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "l'unico punto in cui si dice di usarli di più",
+"title": "Due o tre gesti chiari<br><span class=\"gold\">valgono più di una frase più forte.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"title": "Ti sentiva benissimo anche prima.<br><span class=\"gold\">Il problema non era il volume.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "quali scegliere: i meno specifici",
+"plain": true,
+"rows": [
+"Indicare un oggetto",
+"Indicare una direzione",
+"Mostrare un numero con le dita"
+],
+"note": "Più un emblema è preciso, più è locale."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "e vanno accompagnati dallo sguardo",
+"title": "È la differenza<br><span class=\"gold\">fra comunicare e trasmettere.</span>"
+},
+{
+"file": "c42",
+"layout": "flusso",
+"kicker": "perché un cenno non basta",
+"passi": [
+{
+"et": "Fai il gesto",
+"sub": "e aspetti"
+},
+{
+"et": "Arriva un cenno",
+"sub": "di assenso"
+},
+{
+"et": "Non garantisce",
+"sub": "che sia stato capito"
+}
+],
+"title": "Garantisce che aspettavi una risposta."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale psicologico",
+"Dare per scontato il significato",
+"Costruire tabelle per nazionalità",
+"Usare il gesto al posto della verifica"
+],
+"active": 0
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale psicologico",
+"Dare per scontato il significato",
+"Costruire tabelle per nazionalità",
+"Usare il gesto al posto della verifica"
+],
+"active": 1
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale psicologico",
+"Dare per scontato il significato",
+"Costruire tabelle per nazionalità",
+"Usare il gesto al posto della verifica"
+],
+"active": 2
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale psicologico",
+"Dare per scontato il significato",
+"Costruire tabelle per nazionalità",
+"Usare il gesto al posto della verifica"
+],
+"active": 3
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Le parole si possono chiedere.<br>I gesti no."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Cenni e pollici",
+"Mani che dicono aspetta",
+"Mani che dicono non lo so"
+],
+"note": "Contali e basta, senza cambiarli."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "L'autocontatto.<br><span class=\"gold\">I gesti che non sono rivolti a nessuno.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

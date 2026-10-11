@@ -1,0 +1,20 @@
+{
+ "s16": {
+  "tipo": "immagine",
+  "nome": "cartello-stradale-con-simbolo",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BK3b7ywrSzzUcjd5Qlokkg0IK5/hf_20261011_122957_17f8ca03-9d3a-4f21-aa4c-84df2ed2ea81.png",
+  "nota": "un cartello stradale con un simbolo, luce diurna, nessuna persona - VISTA. Nessun volto, nessuna scritta leggibile, nessun marchio. Generata su Higgsfield con GPT Image 2.5: i crediti Artlist erano esauriti e questo e' il modello scelto dopo una prova di resa a tre"
+ },
+ "s27": {
+  "tipo": "immagine",
+  "nome": "piazza-italiana-ripresa-larga",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BK3b7ywrSzzUcjd5Qlokkg0IK5/hf_20261011_122957_78ae1a46-51fe-4c3e-9b1b-b24f6222cadf.png",
+  "nota": "una piazza italiana con poche persone sedute a distanza, ripresa larga, volti non riconoscibili - VISTA. Nessuna insegna leggibile, nessun marchio. Generata su Higgsfield con GPT Image 2.5"
+ },
+ "s37": {
+  "tipo": "immagine",
+  "nome": "corridoio-con-segnaletica-multilingue",
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BK3b7ywrSzzUcjd5Qlokkg0IK5/hf_20261011_122957_9b3f6e9f-7816-4d98-96ac-0cbf148eb8dc.png",
+  "nota": "un corridoio di ospedale con segnaletica multilingue, nessuno in campo - VISTA. E' l'UNICA ripresa del corso in cui il testo nell'immagine e' voluto: lo script lo chiede, ed e' il contenuto della scena. Le quattro righe si leggono correttamente in quattro lingue (reparto, consulta, trattamento, bagni) e non c'e' nessun marchio. Generata su Higgsfield con GPT Image 2.5"
+ }
+}

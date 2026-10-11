@@ -1,0 +1,234 @@
+[
+ {
+  "blocco": "s02",
+  "coda_letta": "Le sostituiscono.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s03",
+  "coda_letta": "Semplicemente capiti.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s04",
+  "coda_letta": "Tutti e due in anticipo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s05",
+  "coda_letta": "Sono parole.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s06",
+  "coda_letta": "Non abbia bisogno di spiegarli.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s07",
+  "coda_letta": "Una attraverso un vetro.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s08",
+  "coda_letta": "Quelli che hanno quel riferimento.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s09",
+  "coda_letta": "Forse non si possono dire.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s10",
+  "coda_letta": "Come quello di una lingua.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s11",
+  "coda_letta": "In modo piu' chiaro possibile.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s12",
+  "coda_prima_dello_spostamento": "Se te l'avesse detto a voce.",
+  "coda_dopo": "E si ferma li",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s13",
+  "coda_letta": "Credi si', controvoglia.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s14",
+  "coda_letta": "Quando li sai, li sai.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s15",
+  "coda_letta": "Nessun vantaggio su di lui.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s16",
+  "coda_letta": "Cambia da un posto all'altro.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s18",
+  "coda_letta": "Poi viene ripetuta male.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s19",
+  "coda_letta": "Scontato il significato.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s20",
+  "coda_letta": "Si e' preparato all'incontro.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s21",
+  "coda_letta": "Sempre non te lo dira'.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s22",
+  "coda_letta": "Ebbe per la stessa ragione.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s23",
+  "coda_letta": "Non informazione.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s24",
+  "coda_letta": "La cosa che e' nella stanza.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s25",
+  "coda_letta": "Quello che arriva resta.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s26",
+  "coda_letta": "Le cambiano lingua.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s27",
+  "coda_letta": "E un pezzo falso.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s28",
+  "coda_letta": "Decisa che tutti conoscono.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s29",
+  "coda_letta": "Regge tutto il resto.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s30",
+  "coda_letta": "Nessuna delle tre segue.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s31",
+  "coda_letta": "Attamente allo stesso modo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s32",
+  "coda_letta": "Fara' qualunque altra cosa.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s34",
+  "coda_letta": "Ma sta da un'altra parte.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s35",
+  "coda_letta": "Ha un'altra abitudine.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s36",
+  "coda_letta": "Come sempre in questo corso.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s37",
+  "coda_letta": "Da chi lavora come il pubblico.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s38",
+  "coda_letta": "Frase ripetuta piu' forte.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s39",
+  "coda_letta": "E lo apre subito.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s40",
+  "coda_letta": "Tanto piu' e' locale.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s41",
+  "coda_prima_dello_spostamento": "Tutto vanno verificati.",
+  "coda_dopo": "Ricevere e trasmettere",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s42",
+  "coda_prima_dello_spostamento": "Altro errori da evitare.",
+  "coda_dopo": "Su un canale diverso",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s43",
+  "coda_prima_dello_spostamento": "Frase. Il secondo.",
+  "coda_dopo": "La posta non sta nella frase",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s44",
+  "coda_prima_dello_spostamento": "Attiva. Il terzo.",
+  "coda_dopo": "Puo non essere quella che arriva",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s45",
+  "coda_letta": "Non vive da trent'anni.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s46",
+  "coda_prima_dello_spostamento": "I gesti no.",
+  "coda_dopo": "Aprirla per controllare",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s47",
+  "coda_prima_dello_spostamento": "La prova di oggi.",
+  "coda_dopo": "I gesti no",
+  "esito": "confine sbagliato, spostato a mano e riletto: giusto"
+ },
+ {
+  "blocco": "s48",
+  "coda_letta": "Conti falsa il conto",
+  "esito": "confine giusto"
+ }
+]
