@@ -329,9 +329,37 @@ const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
 // che scoprirlo guardando il video.
 const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
 
+// Le chiavi che ogni tipo legge dalle sue voci. Serve perche' una chiave che il
+// modello non legge viene buttata via IN SILENZIO: il dato c'e', il controllo
+// passa, e il contenuto non arriva sulla slide. E' successo con `griglia`, che
+// rende solo `t`: i quattro elementi della recovery hanno perso le definizioni
+// che la voce stava pronunciando, e me ne sono accorto guardando il provino.
+// Un errore cosi' non deve dipendere dal fatto che guardi la slide giusta.
+const CHIAVI_VOCE = {
+  elenco:  ['voci',  ['t','d']],
+  memo:    ['voci',  []],
+  icone:   ['voci',  ['icona','t','d','key']],
+  tre:     ['box',   ['n','t','d','key']],
+  catena:  ['passi', ['t','d','key']],
+  scala:   ['gradini',['n','t','d','key']],
+  griglia: ['celle', ['t','n','no']],
+  trappola:['righe', ['sb','ok']],
+  timeline:['tappe', ['t','d','key','anno']],
+  confronto:['col',  ['h','t','grande']],
+};
+
 export function html(d, {avanzamento=0, pagina=''}={}) {
   if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
     throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
+  const cv = CHIAVI_VOCE[d.tipo];
+  if (cv) {
+    const [campo, lette] = cv;
+    for (const [i, v] of (d[campo] ?? []).entries())
+      for (const k of Object.keys(v))
+        if (!lette.includes(k))
+          throw new Error(`${d.id}: «${d.tipo}» non rende la chiave «${k}» (voce ${i+1} di ${campo}). `
+            + `Rende solo: ${lette.join(', ')}. Il contenuto sparirebbe senza dirlo.`);
+  }
   const t = TEMI[d.tema ?? 'chiaro'];
   const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';

@@ -14,6 +14,7 @@ const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-119
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
 const troppoAlte = [];
+const sovrapposte = [];
 for (const [i, s] of SCENE.entries()) {
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: LEZIONE }),
                      { waitUntil: 'load' });
@@ -39,6 +40,18 @@ for (const [i, s] of SCENE.entries()) {
                         + Math.max(0, c.scrollWidth - c.clientWidth)),
     };
   });
+  // La copertina ha l'ente in posizione assoluta in fondo e la riga rossa nel
+  // flusso: con un titolo su tre righe il flusso cresce e la riga finisce
+  // SOPRA l'ente. Il controllo qui sopra non lo vede, perche' .corpo resta
+  // dentro la cornice — si sovrappongono e basta, e il difetto arriva fino al
+  // montato. Si vede solo guardando: quindi lo si misura.
+  const scontro = await p.evaluate(() => {
+    const r = document.querySelector('.cover .riga'), e = document.querySelector('.cover .ente');
+    if (!r || !e) return 0;
+    const a = r.getBoundingClientRect(), b = e.getBoundingClientRect();
+    return Math.round(Math.max(0, Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top)));
+  });
+  if (scontro > 0) sovrapposte.push([s.id, scontro]);
   if (over.sfora > 1 || over.largo > 1) troppoAlte.push([s.id, over]);
   await p.screenshot({ path: `${OUT}${s.id}.png` });
   process.stdout.write(`${s.id} `);
@@ -49,4 +62,8 @@ if (troppoAlte.length) {
   console.log('SFORANO LA CORNICE:');
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
 } else console.log('nessuna slide sfora la cornice');
+if (sovrapposte.length) {
+  console.log('\nSI SOVRAPPONGONO (riga rossa sopra l\'ente della copertina):');
+  for (const [id, px] of sovrapposte) console.log(`  ${id}  ${px}px di sovrapposizione — accorciare il titolo a due righe`);
+} else console.log('copertine: riga e ente non si toccano');
 writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));

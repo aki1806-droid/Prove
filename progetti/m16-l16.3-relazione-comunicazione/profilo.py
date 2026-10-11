@@ -81,4 +81,4 @@ MAX_CAR_BLOCCO = 225
 # calcola e lo stampa; qui si ricopia. Va riletto A OGNI LEZIONE: quello della
 # lezione precedente taglia la traccia nel punto sbagliato e nessun controllo
 # se ne accorge, perche' i conti tornano tutti — solo sui blocchi sbagliati.
-STACCO = "s24"                  # chunkA 4012 car · chunkB 3696 car
+STACCO = "s24"                  # chunkA 3913 car · chunkB 3904 car
