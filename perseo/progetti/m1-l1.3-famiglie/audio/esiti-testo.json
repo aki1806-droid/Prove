@@ -1,0 +1,37 @@
+{
+ "A": {
+  "parole_copione": 465,
+  "parole_dette": 465,
+  "coincidenti": 465,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 512,
+  "parole_dette": 512,
+  "coincidenti": 507,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s20",
+    "copione": "ecco il",
+    "detto": "e quel"
+   },
+   {
+    "blocco": "s25",
+    "copione": "mettiamole",
+    "detto": "mettiamoli"
+   },
+   {
+    "blocco": "s30",
+    "copione": "dei",
+    "detto": "di"
+   },
+   {
+    "blocco": "s31",
+    "copione": "pip",
+    "detto": "pp"
+   }
+  ]
+ }
+}

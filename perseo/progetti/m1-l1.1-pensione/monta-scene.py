@@ -33,5 +33,5 @@ for r in reg:
 
 peggio = max(righe, key=lambda x: x[3])
 m = tot + 3 + 10
-print(f"\n48 scene · parlato {tot:.1f} s · con copertina 3 s e chiusura 10 s → {int(m//60)}:{m%60:04.1f}")
+print(f"\n{len(reg)+2} scene · parlato {tot:.1f} s · con copertina 3 s e chiusura 10 s → {int(m//60)}:{m%60:04.1f}")
 print(f"scarto massimo audio/video: {peggio[3]*1000:.0f} ms su {peggio[0]}")

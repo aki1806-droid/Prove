@@ -1,0 +1,159 @@
+1
+00:00:03,000 --> 00:00:10,450
+Prima o poi qualcuno te lo propone. In banca, in assicurazione, a volte persino al telefono: ha pensato alla sua pensione integrativa?
+
+2
+00:00:10,450 --> 00:00:17,970
+E ti trovi davanti sigle e nomi che sembrano tutti uguali: fondo, piano, polizza, linea, comparto. Non lo sono.
+
+3
+00:00:17,970 --> 00:00:28,860
+In questa lezione mettiamo ordine. Esistono tre famiglie di forme pensionistiche complementari, e per un lavoratore pubblico la differenza tra l'una e l'altra puo' valere migliaia di euro.
+
+4
+00:00:28,860 --> 00:00:38,250
+Le tre famiglie sono queste. I fondi negoziali, chiamati anche chiusi o contrattuali. I fondi aperti. E i PIP, i piani individuali pensionistici.
+
+5
+00:00:38,250 --> 00:00:48,970
+Tutti e tre sono controllati dalla stessa autorita', la COVIP, la Commissione di vigilanza sui fondi pensione. E tutti e tre godono degli stessi vantaggi fiscali previsti dalla legge.
+
+6
+00:00:48,970 --> 00:00:57,190
+Ma sono costruiti in modo molto diverso: chi li crea, chi puo' entrare, chi li governa, quanto costano. Vediamoli uno alla volta.
+
+7
+00:00:57,190 --> 00:01:07,800
+In Italia le forme pensionistiche complementari sono alcune centinaia. Ma ognuna rientra in una di queste tre famiglie, e sapere la famiglia dice gia' molto di come funziona.
+
+8
+00:01:07,800 --> 00:01:16,030
+Il fondo negoziale nasce da un accordo tra le parti sociali: da una parte i rappresentanti dei datori di lavoro, dall'altra i sindacati.
+
+9
+00:01:16,030 --> 00:01:25,810
+E' riservato ai lavoratori di una categoria precisa, quella coperta dal contratto. Non e' in vendita: non lo trovi allo sportello, e nessuno guadagna una provvigione se aderisci.
+
+10
+00:01:25,810 --> 00:01:35,100
+Non ha scopo di lucro: non deve fare utili per qualcuno. I suoi costi sono solo quelli che servono a farlo funzionare, e si dividono su moltissimi iscritti.
+
+11
+00:01:35,100 --> 00:01:43,340
+E' governato in modo paritetico: meta' dai rappresentanti dei lavoratori, meta' da quelli dei datori. E i lavoratori eleggono i propri delegati.
+
+12
+00:01:43,340 --> 00:01:50,220
+Perseo Sirio e' esattamente questo: il fondo negoziale dei lavoratori della pubblica amministrazione e della sanita'.
+
+13
+00:01:50,220 --> 00:02:00,420
+Il fondo aperto e' istituito da banche, societa' di gestione del risparmio, compagnie di assicurazione. Puo' aderire chiunque, anche individualmente, a prescindere dal lavoro che fa.
+
+14
+00:02:00,420 --> 00:02:11,430
+Nel fondo aperto le adesioni possono essere anche collettive: un'azienda privata puo' sceglierlo per i suoi dipendenti. Ma per la pubblica amministrazione la strada prevista dal contratto e' un'altra.
+
+15
+00:02:11,430 --> 00:02:22,830
+Il PIP, il piano individuale pensionistico, e' costruito come un contratto di assicurazione sulla vita. Lo sottoscrivi tu, con un intermediario, di solito un agente o uno sportello bancario.
+
+16
+00:02:22,830 --> 00:02:32,300
+Dentro un PIP i soldi possono andare in una gestione separata, piu' prudente, oppure in fondi interni, piu' esposti ai mercati. Spesso c'e' un mix delle due.
+
+17
+00:02:32,300 --> 00:02:41,400
+Con un PIP non c'e' un'assemblea, ne' delegati da eleggere: il rapporto e' un contratto tra te e la compagnia, e le regole sono quelle scritte nel contratto.
+
+18
+00:02:41,400 --> 00:02:52,800
+Fondi aperti e PIP sono prodotti commerciali, legittimi e vigilati. Ma sono proposti da soggetti che hanno anche l'obiettivo di guadagnare. E questo, di solito, si vede nei costi.
+
+19
+00:02:52,800 --> 00:03:04,520
+Ed ecco il punto che riguarda davvero chi lavora nel pubblico. Il contributo del datore di lavoro, quello che il contratto prevede in aggiunta al tuo, spetta solo a chi si iscrive al fondo negoziale della categoria.
+
+20
+00:03:04,520 --> 00:03:11,920
+Lo dice chiaramente anche il Fondo: chi non si iscrive non ha diritto a quel contributo. Non c'e' un modo di portarlo altrove.
+
+21
+00:03:11,920 --> 00:03:24,310
+Lo stesso vale per il trattamento di fine rapporto. Per i dipendenti pubblici, la parte di TFR destinata alla previdenza complementare segue un meccanismo pensato per il fondo negoziale di categoria.
+
+22
+00:03:24,310 --> 00:03:30,450
+Lo vedremo nel modulo due: e' quello che si chiama accantonamento figurativo, gestito dall'INPS.
+
+23
+00:03:30,450 --> 00:03:40,290
+Quindi un dipendente pubblico puo' anche aprire un fondo aperto o un PIP, nessuno glielo vieta. Ma li' versa da solo, senza il contributo del suo ente.
+
+24
+00:03:40,290 --> 00:03:49,710
+Mettiamole a confronto. Il negoziale e' promosso dalle parti sociali, non ha scopo di lucro, prevede il contributo dell'ente e in genere ha i costi piu' bassi.
+
+25
+00:03:49,710 --> 00:04:01,190
+Il fondo aperto e il PIP sono offerti da intermediari finanziari, non prevedono il contributo del tuo ente, e in genere costano di piu'. I PIP sono spesso in cima alla classifica dei costi.
+
+26
+00:04:01,190 --> 00:04:12,030
+I costi sembrano piccoli: frazioni di punto percentuale all'anno. Ma su trent'anni pesano moltissimo, perche' si mangiano anche i rendimenti che quei soldi avrebbero prodotto.
+
+27
+00:04:12,030 --> 00:04:21,400
+Per dare un'idea: su un versamento costante di trent'anni, mezzo punto di costi in piu' ogni anno puo' portarsi via una fetta importante del capitale finale.
+
+28
+00:04:21,400 --> 00:04:31,450
+Per confrontarli c'e' uno strumento semplice. Ogni forma pensionistica deve indicare l'indicatore sintetico dei costi, che riassume tutte le spese in un solo numero.
+
+29
+00:04:31,450 --> 00:04:41,240
+E la COVIP pubblica sul suo sito un comparatore dei costi, che mette tutte le forme una accanto all'altra. Lo useremo con calma nel modulo sette.
+
+30
+00:04:41,240 --> 00:04:52,090
+Questo non significa che fondi aperti e PIP siano da evitare in assoluto. Possono servire a chi non ha un fondo di categoria, o a chi vuole versare qualcosa in piu', dopo aver usato il proprio.
+
+31
+00:04:52,090 --> 00:04:59,800
+Significa che, per un dipendente pubblico, ha senso valutarli dopo aver usato il fondo del proprio contratto, non al posto suo.
+
+32
+00:04:59,800 --> 00:05:07,660
+E che, prima di firmare qualunque cosa, conviene sempre fare due domande. Quanto costa? E chi ci aggiunge qualcosa oltre a me?
+
+33
+00:05:07,660 --> 00:05:14,390
+Se chi ti propone il prodotto non sa rispondere con un numero, o cambia discorso, hai gia' una prima risposta.
+
+34
+00:05:14,390 --> 00:05:19,990
+Il contributo dell'ente ha un solo indirizzo: il fondo del tuo contratto.
+
+35
+00:05:19,990 --> 00:05:27,510
+Le tre cose da ricordare. Uno: esistono fondi negoziali, fondi aperti e PIP, tutti vigilati dalla COVIP.
+
+36
+00:05:27,510 --> 00:05:35,060
+Due: il fondo negoziale nasce dal contratto, non ha scopo di lucro ed e' governato da lavoratori e datori insieme.
+
+37
+00:05:35,060 --> 00:05:41,420
+Tre: il contributo dell'amministrazione arriva solo se aderisci al fondo negoziale della tua categoria.
+
+38
+00:05:41,420 --> 00:05:48,920
+La mossa di oggi: apri il tuo ultimo cedolino e cerca una voce con la parola Perseo, oppure previdenza complementare.
+
+39
+00:05:48,920 --> 00:05:54,500
+Se c'e', sei gia' iscritto. Se non c'e', il resto del corso ti servira' per decidere.
+
+40
+00:05:54,500 --> 00:05:58,630
+Nella prossima lezione: chi e', esattamente, Perseo Sirio.
