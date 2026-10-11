@@ -210,7 +210,11 @@ soltanto a occhio:
 - **nel corsivo di `memo` e `quote` la sequenza `'è` si accavalla.**
   L'apostrofo e l'accento grave finiscono uno sull'altro e «cos'è» si legge
   «cos'e» con uno sgorbio sopra (4.3, `c24`). Nel tondo è solo stretta, e si
-  legge. Nel corsivo si scrive per esteso: «come è», «che cosa è».
+  legge. Nel corsivo si scrive per esteso: «come è», «che cosa è»;
+- **`list` regge sette righe.** Fino alla 6.2 il massimo usato era sei; le
+  sette cause ordinarie della 6.3 (`c05`–`c12`) stanno nel riquadro senza
+  stringersi, con la riga accesa e la nota sotto. Oltre le sette non è stato
+  provato.
 
 ## 7-ter. Il montato si rilegge prima di dirlo finito
 
@@ -402,6 +406,13 @@ Sulla 5.2 erano quattro di fila, in fondo alla traccia C, spostati tutti in
 avanti di circa una frase. La banda vedeva scarti fra −0,7 e +2,1 s: tre
 blocchi su quattro erano dentro i limiti.
 
+**Un filtro su una parola si scrive con i confini di parola.** Il modulo 6
+ha un controllo automatico sulla radice `ment`, e senza `\b` prendeva dentro
+*strumento*, *momento* e *leggermente*; con `\bmente\b` prendeva ancora *in
+mente*, che è un'espressione idiomatica e non il verbo. Vale per qualunque
+filtro di questo tipo: confini di parola, più le eccezioni idiomatiche
+escluse a mano (6.3).
+
 **Il confronto si fa sulle ultime tre parole, non sulla coda intera.** La
 finestra di `prova.mp3` è di 1,6 s e taglia quasi sempre a metà la prima
 parola, che `scribe` allora inventa: nella 6.1 `risolverlo` è diventato «per
@@ -459,6 +470,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 5.5 | Il ritmo e le pause dell'altro | 9:59 | `7050d497cd244561ea5f82401662d2dc` |
 | 6.1 | Che cos'è un'incongruenza | 9:59 | `ceb55ec8560b90dbeaa7c8ff92efff39` |
 | 6.2 | I tre tipi | 9:59 | `84c55de233d7efc5a750cf3a856b9962` |
+| 6.3 | Perché non significa bugia | 9:59 | `aac1db4f5e62111765e4996b61f76a86` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -473,13 +485,14 @@ corso in cui le cinque durate coincidono al secondo. **Anche il modulo 5 è
 chiuso**: cinque lezioni tutte a 9:59, duecentotrentasei slide, ventisette
 figure, quattordici riprese, 50.931 caratteri di copione. Il registro di
 modulo sta in `registri/lnv-modulo-5.md`. **Il modulo 6 è cominciato**: la
-6.1 e la 6.2 sono montate, tutte e due a 9:59. Manca lo script del modulo 7.
+6.1, la 6.2 e la 6.3 sono montate, tutte e tre a 9:59. Manca lo script del
+modulo 7.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
 le riprese si generano su Higgsfield con `gpt_image_2_5`**, quando si può:
 l'11 ottobre Higgsfield ha rifiutato le richieste della 5.3, della 5.4,
-della 5.5, della 6.1 e della 6.2 — cinque lezioni di fila — per
+della 5.5, della 6.1, della 6.2 e della 6.3 — sei lezioni di fila — per
 un **tetto giornaliero di generazioni del piano**, che non dipende dai
 crediti (ce n'erano 571 sul conto). In quel caso si torna sul nodo immagine
 di ElevenLabs, come per la 5.3. La scelta è stata
@@ -502,7 +515,7 @@ nel **modulo 5 nessun gesto offensivo** va nominato, descritto o mostrato; nel
 **modulo 6 nessuna formulazione** che suggerisca il riconoscimento della
 menzogna, nemmeno attenuata o per negazione retorica.
 
-**Il controllo dei tagli è parziale su venti lezioni su ventisette** (vedi i
+**Il controllo dei tagli è parziale su venti lezioni su ventotto** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
@@ -521,7 +534,7 @@ un secondo file di controllo. La 5.4 è l'unica lezione del corso uscita
 giusta al primo giro. **La 6.1 continua la serie**: quarantacinque confini
 riletti, uno sbagliato.
 
-Il conto delle sette lezioni verificate dice quanto vale la banda da sola:
+Il conto delle otto lezioni verificate dice quanto vale la banda da sola:
 
 | | segnalati da `banda.py` | sbagliati davvero |
 |---|---|---|
@@ -533,6 +546,10 @@ Il conto delle sette lezioni verificate dice quanto vale la banda da sola:
 | **modulo 5** | **10** | **19** |
 | 6.1 | 1 | 1 |
 | 6.2 | 4 | 8 |
+| 6.3 | **0** | 1 |
+
+E la **6.3** è il caso minimo della 5.2: banda pulita, zero segnalati, e un
+confine sbagliato lo stesso.
 
 E nella 5.3 **due dei quattro segnalati erano il blocco vicino, non il
 colpevole**: un confine spostato allunga il blocco dopo e accorcia quello

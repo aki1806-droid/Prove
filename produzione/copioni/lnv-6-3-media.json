@@ -1,0 +1,20 @@
+{
+ "s17": {
+  "tipo": "immagine",
+  "nome": "armadietti-chiusi",
+  "url": "https://resource2.heygen.ai/image/fcfbc2f24685471da33faf391787571c/original.png",
+  "nota": "una fila di armadietti metallici chiusi in uno spogliatoio vuoto, luce al neon - VISTA. Nessuna persona, nessuna scritta ne' numero sulle ante, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield rifiuta ancora per limite giornaliero del piano"
+ },
+ "s28": {
+  "tipo": "immagine",
+  "nome": "sedia-davanti-a-scrivania",
+  "url": "https://resource2.heygen.ai/image/571dbc75fa714795baeabfd388cb2417/original.png",
+  "nota": "una sedia sola davanti a una scrivania spoglia in una stanza vuota, luce fredda - VISTA. Nessuna persona, nessuna scritta, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s38": {
+  "tipo": "immagine",
+  "nome": "porta-aperta-sul-corridoio",
+  "url": "https://resource2.heygen.ai/image/f59e0e6d01d14378a17a191296656d5d/original.png",
+  "nota": "una porta aperta su un corridoio illuminato, vista da una stanza in penombra - VISTA. Nessuno in campo, nessuna insegna, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

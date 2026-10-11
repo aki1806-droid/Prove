@@ -1,0 +1,457 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 6 · Lezione 6.3",
+"title": "Perché non significa bugia",
+"sub": "L'incongruenza"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "la domanda che molti si portano dietro",
+"title": "Dice una cosa e il corpo<br><span class=\"gold\">ne dice un'altra.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "la risposta, in un senso preciso",
+"title": "Quello che hai visto<br><span class=\"gold\">non ti autorizza a concludere.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "perché questa lezione esiste",
+"title": "È la differenza fra usare lo strumento<br><span class=\"gold\">e fare danni.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"plain": true,
+"note": "Sette cause ordinarie. Nessuna ha bisogno di un inganno per funzionare."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 0,
+"note": "È d'accordo e preoccupata. Contenta e stanca."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 1,
+"note": "Dice di sì a una cosa che le costa. È educazione, non doppiezza."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 2,
+"note": "Chi lavora con il pubblico tiene un volto che non è quello che sente."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 3,
+"note": "L'incongruenza è fra quello che dice e quanta energia le resta."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 4,
+"note": "Nella vita di tutti i giorni è la più frequente di tutte."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 5,
+"note": "Non è una bugia: è un rinvio."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "perché una persona è incongruente",
+"rows": [
+"Prova due cose insieme",
+"È cortese",
+"Controlla l'espressione per mestiere",
+"È stanca",
+"Sta pensando ad altro",
+"Non è d'accordo e non lo dice",
+"Ha appena ricevuto una notizia"
+],
+"active": 6,
+"note": "Dieci minuti prima di entrare. E non ti riguarda."
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "e la menzogna?",
+"title": "È l'ottava.<br><span class=\"gold\">E la meno frequente.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Nella maggioranza delle conversazioni<br><span class=\"gold\">le persone non mentono.</span>"
+},
+{
+"file": "c15",
+"layout": "imbuto",
+"kicker": "quello che succede con uno strumento nuovo",
+"dentro": [
+"stanchezza",
+"cortesia",
+"distrazione",
+"ambivalenza"
+],
+"fuori": "una causa sola",
+"title": "Non è lo strumento a essere migliorato."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "il punto in cui un corso fa danno",
+"title": "Convinto.<br><span class=\"gold\">Non incerto.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "il rumore di fondo di ogni conversazione",
+"title": "Le incongruenze<br><span class=\"gold\">sono frequentissime.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "Le menzogne rilevanti<br><span class=\"gold\">sono rare.</span>"
+},
+{
+"file": "c20",
+"layout": "confronto",
+"occhio": "su cento conversazioni",
+"titoli": [
+"Incongruenze",
+"Menzogne rilevanti"
+],
+"righe": [
+{
+"et": "Quante",
+"a": "Moltissime",
+"b": "Pochissime"
+},
+{
+"et": "I tuoi allarmi",
+"a": "Quasi tutti qui",
+"b": "Quasi nessuno qui",
+"segna": true
+}
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"title": "Non è un difetto del tuo occhio.<br><span class=\"gold\">È aritmetica.</span>"
+},
+{
+"file": "c22",
+"layout": "memo",
+"title": "L'incongruenza è frequente.<br>La menzogna è rara."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "quello che la ricerca ha trovato",
+"title": "Con i nomi<br><span class=\"gold\">e con gli anni.</span>"
+},
+{
+"file": "c24",
+"layout": "confronto",
+"occhio": "le due fonti, per intero",
+"titoli": [
+"DePaulo e colleghi, 2003",
+"Bond e DePaulo, 2006"
+],
+"righe": [
+{
+"et": "Che cos'è",
+"a": "Rassegna, 158 segnali",
+"b": "Meta-analisi, 300 studi"
+},
+{
+"et": "Che cosa trova",
+"a": "Nessun indicatore affidabile",
+"b": "Poco sopra il caso",
+"segna": true
+}
+]
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "la parte che conta",
+"title": "Nessun vantaggio<br><span class=\"gold\">per i professionisti addestrati.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"title": "Non serve più allenamento.<br><span class=\"gold\">L'allenamento non produce il risultato.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"title": "Non una decisione importante.<br><span class=\"gold\">E nemmeno una piccola.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "il danno non è distribuito a caso",
+"title": "Colpisce sempre<br><span class=\"gold\">le stesse persone.</span>"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "chi risulta sospetto senza aver fatto niente",
+"rows": [
+"Chi è in soggezione",
+"Chi è stanco, o sta male",
+"Chi parla una lingua non sua",
+"Chi ha una condizione che altera i segnali"
+],
+"active": 0,
+"note": "Davanti a chi decide di te, corpo e parole smettono di accordarsi."
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "chi risulta sospetto senza aver fatto niente",
+"rows": [
+"Chi è in soggezione",
+"Chi è stanco, o sta male",
+"Chi parla una lingua non sua",
+"Chi ha una condizione che altera i segnali"
+],
+"active": 1,
+"note": "Alla fine di un turno. O quando non è il momento di dirlo."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "chi risulta sospetto senza aver fatto niente",
+"rows": [
+"Chi è in soggezione",
+"Chi è stanco, o sta male",
+"Chi parla una lingua non sua",
+"Chi ha una condizione che altera i segnali"
+],
+"active": 2,
+"note": "La pausa in più è il costo della traduzione, non di una reticenza."
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "chi risulta sospetto senza aver fatto niente",
+"rows": [
+"Chi è in soggezione",
+"Chi è stanco, o sta male",
+"Chi parla una lingua non sua",
+"Chi ha una condizione che altera i segnali"
+],
+"active": 3,
+"note": "Nessuna di queste persone sta mentendo."
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "la pagina del sito",
+"title": "Qui non troverai<br><span class=\"gold\">come scoprire se qualcuno mente.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "Non è cautela legale.<br><span class=\"gold\">Non è modestia.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "il punto è un altro",
+"title": "Quella competenza<br><span class=\"gold\">non esiste.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "e non la paga chi ha fatto il corso",
+"title": "Più sicure.<br><span class=\"gold\">E meno accurate.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "allora cosa ne fai",
+"title": "Dice dove fare la prossima domanda.<br><span class=\"gold\">Non chi hai davanti.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "che cos'è, allora",
+"title": "Un segnalibro."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Non ti dice cosa c'è in quel punto.<br><span class=\"gold\">Ti dice che c'è un punto.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "e a che cosa serve un segnalibro",
+"title": "A tornarci."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Trattarla come un sospetto",
+"Dimenticare le sette cause ordinarie",
+"Ignorare la frequenza di base",
+"Usarla su chi è in soggezione"
+],
+"active": 0,
+"note": "Diventa un sospetto quando scegli una delle otto cause senza dati."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Trattarla come un sospetto",
+"Dimenticare le sette cause ordinarie",
+"Ignorare la frequenza di base",
+"Usarla su chi è in soggezione"
+],
+"active": 1,
+"note": "Non serve ricordarle: serve ricordare che sono tante."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Trattarla come un sospetto",
+"Dimenticare le sette cause ordinarie",
+"Ignorare la frequenza di base",
+"Usarla su chi è in soggezione"
+],
+"active": 2,
+"note": "Incongruenze molte, menzogne poche. È aritmetica."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Trattarla come un sospetto",
+"Dimenticare le sette cause ordinarie",
+"Ignorare la frequenza di base",
+"Usarla su chi è in soggezione"
+],
+"active": 3,
+"note": "Se stai valutando qualcuno, sei automaticamente in quel caso."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Un'incongruenza è un segnalibro.<br>Non una conclusione."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Elenca tre cause possibili",
+"Tre, non una",
+"Contale sulle dita"
+],
+"note": "È il rallentamento a fare il lavoro."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "Cosa farne: la prossima domanda."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]
