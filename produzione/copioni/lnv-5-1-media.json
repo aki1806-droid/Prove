@@ -1,0 +1,20 @@
+{
+ "s06": {
+  "tipo": "immagine",
+  "nome": "mani-al-telefono",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__7/image-b0282ca2-fb40-4346-862f-08206d47682f.png?Expires=2107036561&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=IHOGcKIndlxCrI4opOdGvwOeN75PEb3pJ~Oy2E5qB84bzKk~lyXwRowOezDH9CaUm8mOSUwanudzm9dlSmhKr68lrBhy3OxAx132nxZ-K~fiGqwlWjQeOAvDH4wcdCPZJWi4wrcvRIVOFH-lSfqi3lNYlieb1fSqJCx0snoYF4UO452IgrnLqEoYAoevr8QGPyad5anhruXkzoqasTs1PA7TugXsKZXScj176eQolgCYAL8O~MNrru~T7vZVO96O-eDgkKmUTKNEGnX2kPzOgNaLEFL87nPud8zsbq1NO1Yek3rX7aaHz9Lhw3ppnvp9o44n3mhtOz07CGHU-X3yHg__",
+  "nota": "due mani che si muovono mentre qualcuno parla al telefono, ripresa stretta sulle sole mani, volto fuori campo - VISTA. Nessun volto, nessuna scritta, nessun marchio. Generata su Artlist, Nano Banana 2"
+ },
+ "s27": {
+  "tipo": "immagine",
+  "nome": "tavolo-di-bar-dalle-spalle",
+  "url": "https://resource2.heygen.ai/image/365f654f467f490eb0223e91572d8c51/original.png",
+  "nota": "due persone a un tavolo di bar riprese da dietro, mani visibili in movimento, nessun volto - VISTA. Rigenerata una volta: la prima versione era ripresa di tre quarti e mostrava un profilo riconoscibile, e lo script chiede la ripresa dalle spalle. Generata sul nodo immagine di ElevenLabs con lo stesso modello (Nano Banana 2), perche' i crediti Artlist erano esauriti, e poi caricata su HeyGen per avere un URL stabile"
+ },
+ "s37": {
+  "tipo": "immagine",
+  "nome": "due-bicchieri-e-una-mano-ferma",
+  "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-i-m-a-g-e-v1/media__6/image-2ba805ca-7cf8-4b92-8bf4-d2f82ebfc34f.png?Expires=2107036561&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=I0ZQbMZ2JLAGR9hlLZnMLHrI9IXjfxSfbSXIjtEcuifdJrnJ4CyZAbrfC9k0XCW9gG5onf0FXm3hbQzMJ4q62~f6xsEdoN-w~hIw9sSnmT-pyaFUumv-FWgGX7isLL6D-K2HxLctue5rH0oAdx3NLbfncguX~~gs6u6Nsd3qKzplfJ6acdgxUb80-fFbG8gGWK3JTopEKAVDacf3rdSqeGVqDkC2SLOoJom6gGPS1708QgsgN5oyd-fsvFDKWrDBh7of6Grby5DkzxQnVCGypDG9Mgt16O42MVveWLGZaXD~I-4lDpXHRDg0fw3h8srlaLoHTLMlecv0mr1ldMb6-A__",
+  "nota": "un tavolo con due bicchieri e una mano appoggiata ferma, l'altra persona fuori campo - VISTA. Nessun volto, nessuna scritta. Generata su Artlist, Nano Banana 2"
+ }
+}

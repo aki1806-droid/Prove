@@ -180,6 +180,9 @@ soltanto a occhio:
 - **`raggi` disegna solo i primi quattro satelliti** (`c.attorno.slice(0, 4)`)
   e scarta il resto in silenzio. Se le voci sono più di quattro, vanno
   raggruppate (3.4, `c22`);
+- **il `centro` di un `raggi` sta in due parole corte.** Il cerchio ha un
+  raggio fisso e il testo non lo allarga: «Quanto si gesticola» sborda,
+  «La quantità» no (5.1, `c16`);
 - **`quadranti` non disegna le etichette dei poli degli assi.** Vanno scritte
   dentro le celle, o i quattro riquadri sono indistinguibili (3.4, `c34`);
 - **la didascalia di una figura sta in una riga.** A due righe la figura si
@@ -340,6 +343,43 @@ direttamente, ed è quello che va scritto nel registro insieme ai confini
 sospetti: sulla 2.4 i quarantacinque confini stanno tutti dentro un silenzio,
 il più stretto di 0,36 s con 0,18 s di margine per lato.
 
+## 10-bis. La trascrizione si può fare, e dal 5.1 si fa
+
+**Dall'11 ottobre il controllo parola per parola previsto dal metodo è
+possibile.** Il nodo `speech-to-text` del connettore ElevenLabs
+(`eleven_scribe_v1`) funziona e restituisce anche i tempi per parola.
+
+La via diretta — `creative_create_asset_upload` — da qui restituisce una
+risposta malformata e non va usata. **La via che funziona:**
+
+1. `create_asset_upload` su **HeyGen**, PUT dei byte, `complete_asset_upload`.
+   Si ottiene un URL pubblico e stabile,
+   `https://resource2.heygen.ai/audio/<id>/original.mp3`;
+2. `creative_attach_reference_file` su quell'URL → restituisce un `node_id`;
+3. `creative_transcribe_audio` con quel `node_id` come `connect_from`.
+
+Si trascrive `prova.mp3`, che `tagli.py allinea` produce già: 1,6 s di audio
+prima di ogni taglio, separati da 2,5 s di silenzio. La trascrizione torna
+come una sequenza di frasi, una per confine, nello stesso ordine di
+`prova_meta.json`: si confronta ciascuna con la fine del suo blocco e si
+scrive l'esito in `verifica_tagli.json`.
+
+**Costo: circa 1.000 crediti ElevenLabs per una lezione intera** (182 s di
+`prova.mp3`, poco meno di venti centesimi). Un ritaglio singolo di 1,6 s per
+ricontrollare un confine spostato ne costa 9.
+
+**Ordine di lavoro.** Prima `banda.py`, poi gli spostamenti a mano, poi la
+trascrizione. Ma `prova.mp3` è generato da `allinea`, cioè **prima** degli
+spostamenti: le code dei confini mossi a mano si rileggono con un ritaglio
+di controllo preso al nuovo taglio, non rigenerando tutta la prova.
+
+**Cosa ha detto la prima verifica.** Sulla 5.1, quarantaquattro code su
+quarantacinque erano esattamente la fine del loro blocco, e l'unica che non
+lo era è **esattamente il confine che `banda.py` aveva segnalato**. Il
+controllo di banda non ha prodotto nessun falso positivo e non si è lasciato
+sfuggire niente: le venti lezioni già montate restano da riverificare, ma la
+banda si è dimostrata affidabile su un campione intero.
+
 ## 11. Lo stato della produzione
 
 | lezione | titolo | durata | video_id |
@@ -364,6 +404,7 @@ il più stretto di 0,36 s con 0,18 s di margine per lato.
 | 4.3 | Postura, senza luoghi comuni | 9:58 | `2539717ed77fcdfaf35001c760098184` |
 | 4.4 | Le pose di potere: cosa non regge | 9:58 | `c1eb0c5772b1cbc752f319564403a18e` |
 | 4.5 | Il contatto fisico e i suoi limiti | 9:58 | `7a974e069bc0f469505dad7f456dd5f2` |
+| 5.1 | I gesti che accompagnano la parola | 9:59 | `8c512723bc149a5551fde3b06e4faf00` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -374,15 +415,25 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 `LNV_M3_SCRIPT-HEYGEN.md` e `LNV_M4_SCRIPT-HEYGEN.md`.
 
 **Il modulo 4 è chiuso**: cinque lezioni tutte a 9:58, il primo modulo del
-corso in cui le cinque durate coincidono al secondo. **Restano da produrre i
-moduli 5 e 6**, i cui script sono in casa; manca quello del modulo 7.
+corso in cui le cinque durate coincidono al secondo. **Il modulo 5 è in
+lavorazione**: la 5.1 è montata, restano la 5.2, la 5.3, la 5.4 e la 5.5.
+Lo script del modulo 6 è in casa; manca quello del modulo 7.
+
+**I crediti Artlist sono esauriti**: settanta su sedicimilacinquecento, e
+un'immagine ne costa centotrenta. **Si rinnovano il 18 ottobre.** Fino ad
+allora le riprese di b-roll non si possono generare lì. Il nodo immagine di
+ElevenLabs monta lo stesso modello (Nano Banana 2) e la resa è identica — la
+`s27` della 5.1 è stata fatta così — ma costa 612 crediti per immagine contro
+130, quindi va usato solo per una rigenerazione isolata, non per un modulo
+intero. **Le lezioni si possono scrivere, incidere, tagliare, impaginare e
+montare lo stesso**: la ripresa è l'unica cosa che resta indietro.
 
 Due vincoli degli script che restano, da portarsi dietro dalla prima lezione:
 nel **modulo 5 nessun gesto offensivo** va nominato, descritto o mostrato; nel
 **modulo 6 nessuna formulazione** che suggerisca il riconoscimento della
 menzogna, nemmeno attenuata o per negazione retorica.
 
-**Il controllo dei tagli è parziale su tutte e venti le lezioni** (vedi i
+**Il controllo dei tagli è parziale su venti lezioni su ventuno** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
@@ -394,6 +445,13 @@ dimostrare che NON sono confini sbagliati: `griglia.py` ha provato tutte le
 pause della finestra e nessuna migliora la coppia, e la somma dei blocchi
 coinvolti è in pari. Quando la trascrizione torna, i confini segnalati nei
 registri vanno risentiti uno per uno con `tagli.py correggi`.
+
+**La 5.1 è l'eccezione, e la prima del corso**: quarantacinque confini su
+quarantacinque riletti sulla trascrizione, zero fuori banda, zero sbagliati.
+Da qui in avanti la verifica si fa su ogni lezione (§10-bis), e le venti già
+montate vanno ripassate quando c'è tempo, partendo dalle cinque che hanno un
+confine segnalato: `s28` della 4.1, `s10` e `s12` della 4.3, `s26` e `s27`
+della 3.2, `s31` della 3.5.
 
 **Due riprese sono state montate senza essere guardate** — `s07` della 3.3 e
 `s15` della 4.1 — e **tutte e due sono poi state guardate**: vanno bene. In

@@ -1,0 +1,232 @@
+[
+ {
+  "blocco": "s02",
+  "coda_letta": "Tutta messa sopra le parole.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s03",
+  "coda_letta": "Questa arriva prima.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s04",
+  "coda_letta": "Stesso lavoro mentale.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s05",
+  "coda_letta": "Casa in cui nessuno la vede.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s06",
+  "coda_letta": "Sta facendo per comunicare.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s07",
+  "coda_letta": "Chi non vede dalla nascita.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s08",
+  "coda_letta": "Peggiora l'eloquio.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s09",
+  "coda_letta": "Tentativi di stare fermi.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s10",
+  "coda_letta": "La fatica all'argomento.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s11",
+  "coda_letta": "Portarle a fare bella figura.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s12",
+  "coda_letta": "Fluidita' con cui parli.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s13",
+  "coda_letta": "Bicchiere tenuto a due mani.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s14",
+  "coda_letta": "Invece di migliorare.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s15",
+  "coda_letta": "Lo aiutano a formarsi.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s16",
+  "coda_letta": "Dipende da quattro cose.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s18",
+  "coda_letta": "Per la stessa persona.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s19",
+  "coda_letta": "Sono naturali a chi le ha.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s20",
+  "coda_letta": "Se cambia argomento.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s21",
+  "coda_letta": "Piu' il gesto serve.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s22",
+  "coda_letta": "Significa nemmeno il contrario.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s23",
+  "coda_letta": "E' una convenzione locale.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s24",
+  "coda_letta": "Qualcuno come e' fatto.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s25",
+  "coda_letta": "Lo nota il primo giorno.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s26",
+  "coda_letta": "Prove si gesticoli meno.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s27",
+  "coda_letta": "E' particolarmente visibile.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s28",
+  "coda_letta": "A un certo punto smette.",
+  "esito": "confine sbagliato, spostato a 157.94 con muovi.py"
+ },
+ {
+  "blocco": "s29",
+  "coda_letta": "La quarta e' cambiata.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s30",
+  "coda_letta": "Con cura cosa dire.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s31",
+  "coda_letta": "Parla non serve saperlo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s32",
+  "coda_letta": "La stai mettendo in difficolta'.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s34",
+  "coda_letta": "Che non e' nella stanza.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s35",
+  "coda_letta": "Possibili in quel momento.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s36",
+  "coda_letta": "Questo non e' un fatto.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s37",
+  "coda_letta": "E' altrettanto informativo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s38",
+  "coda_letta": "Riguarda la sua sincerita'.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s39",
+  "coda_letta": "Avanti invece di seguirlo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s40",
+  "coda_letta": "Corso, una dimensione.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s41",
+  "coda_letta": "Non che vada avanti.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s42",
+  "coda_letta": "Che non gli sta venendo.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s43",
+  "coda_letta": "Sta davanti in quel momento.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s44",
+  "coda_letta": "Sul resto sono prudenti.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s45",
+  "coda_letta": "Mai che e' per quello.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s46",
+  "coda_letta": "Attenta che ha davanti.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s47",
+  "coda_letta": "Appena diventato difficile.",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s48",
+  "coda_letta": "Oggetto da tenere per sicurezza",
+  "esito": "confine giusto"
+ },
+ {
+  "blocco": "s28",
+  "coda_letta": "Base applicata alle mani",
+  "esito": "confine giusto dopo lo spostamento - ritaglio di controllo trascritto a parte"
+ }
+]
