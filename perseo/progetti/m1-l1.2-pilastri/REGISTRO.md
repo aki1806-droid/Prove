@@ -40,7 +40,10 @@ Parametri del corso: come nella 1.1 (`../m1-l1.1-pensione/REGISTRO.md`, scheda p
 
 ## La resa
 
-- video HeyGen: *in corso*
+- video HeyGen: `0e80c88d942e75b3ee447fc0bec5b46e` — **completato**, 6:07,4 (367,4 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/0e80c88d942e75b3ee447fc0bec5b46e
+- render: circa 1 minuto (la 1.1 ne aveva presi 16: il tempo di HeyGen varia molto, non è un metro)
+- copia di controllo locale: `montato-1.2.mp4` 6:08,5 (non versionata) e `montato-1.2.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
