@@ -78,6 +78,15 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ # Perseo 1.1: il trascrittore scrive le cifre con lo spazio delle migliaia
+ # («100 000»), i simboli al posto delle parole («5,5%», «€») e l'elisione
+ # come cifra («trent'anni» -> «30 anni»). Stessa cosa detta, resa diversa.
+ (r"(\d)[ .](\d{3})\b",                  r"\1\2"),
+ (r"\bcinque e mezzo per cento\b",       " cinquevirgolacinquepercento "),
+ (r"\b5,5\s*%",                           " cinquevirgolacinquepercento "),
+ (r"\s*€",                                 " euro"),
+ (r"\btrent'?\s*anni\b|\b30 anni\b",      " trentanni "),
+ (r"\bcinquant'?\s*anni\b|\b50 anni\b",   " cinquantanni "),
  (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
  (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
  (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),

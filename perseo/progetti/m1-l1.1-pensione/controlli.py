@@ -9,6 +9,7 @@ import re as _re
 LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
+DURATA_MIN = 360   # Perseo Sirio: lezioni da 6 minuti (scelta del committente, 11 ottobre 2026)
 esiti = []
 
 # La verifica passa se la prova non ha trovato nulla, oppure se tutto quello
@@ -54,7 +55,8 @@ esiti.append((not male, "fascia 8,5-21 car/s: " +
   (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
 
 png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
-esiti.append((len(png)==50, f"50 PNG renderizzati e guardati: {len(png)}"))
+NB = len(json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8")))
+esiti.append((len(png)==NB+2, f"{NB+2} PNG renderizzati e guardati: {len(png)}"))
 sfora = json.loads((QUI/"slide"/"troppo-alte.json").read_text(encoding="utf-8"))
 esiti.append((not sfora, f"nessuna slide sfora la cornice: {len(sfora)} sforano"))
 
@@ -65,11 +67,11 @@ o = subprocess.run([FF,"-i",str(QUI/f"montato-{LEZIONE}.mp4"),"-f","null","-"],
                    capture_output=True,text=True).stderr
 t = re.findall(r"time=(\d+):(\d+):([\d.]+)", o)[-1]
 d = int(t[0])*3600+int(t[1])*60+float(t[2])
-esiti.append((d >= 480, f"durata {int(d//60)}:{d%60:05.2f} — richiesto «8 minuti almeno»"))
+esiti.append((d >= DURATA_MIN, f"durata {int(d//60)}:{d%60:05.2f} — richiesto almeno {DURATA_MIN//60}:{DURATA_MIN%60:02d} (corso Perseo Sirio)"))
 
 srt = (QUI/f"montato-{LEZIONE}.srt").read_text(encoding="utf-8")
 n = len(re.findall(r"-->", srt))
-esiti.append((n==48, f"sottotitoli SRT: {n} righe"))
+esiti.append((n==len(scene), f"sottotitoli SRT: {n} righe su {len(scene)} blocchi"))
 
 rf = QUI/"REGISTRO.md"
 esiti.append((rf.exists() and "## Da verificare" in rf.read_text(encoding="utf-8"),

@@ -1,0 +1,869 @@
+{
+ "batch_id": "74e30fd05347489181537a823f337445",
+ "items": [
+  {
+   "asset_id": "5aea9be06dad4967ae1c3cc8a67c5183",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/5aea9be06dad4967ae1c3cc8a67c5183/original.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=201282431e3ac5cda9552be6c8e6e30dfa8176114b04e9bcb613fcc8a088bb54",
+   "upload_headers": {
+    "content-type": "image/png",
+    "x-amz-checksum-sha256": "eUlQIaSxf/VrBHlIM0jSYOAKYQbWjQT8ytZfljJULLE=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "229a4d5663e24d5fbc414d4ecc00540f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/229a4d5663e24d5fbc414d4ecc00540f/original.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=8a272798701b289abb9f27b6398a0ca89ca339f2f5e1eba8db25bb4480a306a7",
+   "upload_headers": {
+    "content-type": "image/png",
+    "x-amz-checksum-sha256": "LptaU74sb5Ao1doXGHdGlAQlmDqIG1vkWkE3bTCL2zM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "37f6229e1bd64a528204203d1000c39f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/37f6229e1bd64a528204203d1000c39f/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=37015571cdaccef4f86444e53f7530ebd8758e887bc143f9d6b63e7b5b8f6adb",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "zVSfajTMAqcwyMFKcQTqN1EU8CiqrfRbJzoFdaHtF1M=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "8deed2631741402a908239e5c2d3aa2f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/8deed2631741402a908239e5c2d3aa2f/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=d6eb0e2d0df422b6bd0bf6f7d900f5e5051bbca562bb8d490ba07563fd869406",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "yaBpLM2XUl3xJLoMfRvrvcnEnbK+4u1CaGcQihOWbnI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "58a3d9cbae3a46e3b227d549c03a6afb",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/58a3d9cbae3a46e3b227d549c03a6afb/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=a62fd541322eb9e1899c92dd7bb502baf050a5f157ef12ce82b61f7d682f93e3",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "f+EioxMVCJzaynWt6OpNtVc2IQon6Wkt/QlhD3mpaOI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "75e053c8d5bc45419c4366ef74575ec7",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/75e053c8d5bc45419c4366ef74575ec7/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=9c4c7495071dd9f59b85b69f22d3d4eba2a8e6cbd34402bf5a3e977126b982f6",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "aPV/Uy6xF+F99TXGBWhwY4mkr5ihWglJMfmO7CSwHto=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "c40fc39baf6b4344b542bb277de2967f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/c40fc39baf6b4344b542bb277de2967f/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=2a5919a4603a86544a4746d1b8ef0221004bef09d40174fcef7aece78f31cf20",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "8Muj3ddOfrQ5luk4Nqv4cLrQfBV1qIds/VTsc/4BWog=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "4d90815402d2465dae0e1e892e9727dc",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/4d90815402d2465dae0e1e892e9727dc/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=a7e7b60d191e8b35726bf825f606e26fa362d351b7fa39ee6b5de06dc90e4b8b",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "Z88A50Jf16JIa9c4Tf2cxiqOYJ0Uxns9f8OENW9lAtg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "e63de7d1e53e4c598f73c95e91aed2f2",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/e63de7d1e53e4c598f73c95e91aed2f2/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=e3736d895c7db5e53d990d67074f388875aba40a50cbb6391272afd4a8dc462e",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "ElVf4d4KDTSH2F+jlZGK89k0YjDdanGoyw19fjuPzJw=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "70dc3796cec54d6db2d48e257e28d060",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/70dc3796cec54d6db2d48e257e28d060/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=30e60167a5c78dcabe5fd0fae485de3e58208b4c54270c52d0391bef9105a9f0",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "5HzkF+zZUyWinnwuHkW3W9E8SPInCPV4ijdv00qJpJs=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "54107f8458a64140a43e5da5ef69f197",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/54107f8458a64140a43e5da5ef69f197/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=678847bb32daa6f99ce6fcee14c430d9a2f5af60271e8402475bddbe6afd150c",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "Obss6ZBzjW5SZFxJQRu/mB8B60K29ONfgqZOHvYOkRc=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "fb2f7217d4e54a819dfd66a2958bdb77",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/fb2f7217d4e54a819dfd66a2958bdb77/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=c37c5002fb7cae514406de04ca83aea1cbc893ce01ce43fd1a18aadb886fbd09",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "fHHWIhY2AqmBmSWyScb5TY3zRne0cXsFDa87EuA90gE=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "80381e01fbb34e658dfb7d7c9b2b6811",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/80381e01fbb34e658dfb7d7c9b2b6811/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=9e2518a11eacd79d698568c204e41a05f171e7b0a4bcd7bb0f76fe802b0edcd4",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "Qy1BHoXk/k/U5tISV8xQjrmgijppd420vgLf1ZKLtnU=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3d044e7996f14c11a1484e03ba2aa1fd",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3d044e7996f14c11a1484e03ba2aa1fd/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=2e10bbfa3e97ae302626d44610baf9c91c78625293bb9d9923ea34380df635e5",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "2Y1XhkvycFNTK/oNTYp1ZI/TzYcxevTDkY9NVhn/ty4=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "a4b5f82edfa44c74976343be68bb4fae",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/a4b5f82edfa44c74976343be68bb4fae/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=1cb2880e48b84fbd8e3ad09dfd740d8fb32d0615df546e3eefb2f38a2e2f0dfb",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "wIQY+fVhvTk0xuh9L7iUOhpk9FlmlXmXzJlaepPtaQE=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "1dad5193e56d4bcb85c7af96925a8eab",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/1dad5193e56d4bcb85c7af96925a8eab/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=db641af5a194522f2234b65f67f819e24d4721a5571df9d0941d402c6f260d06",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "e69P4xp5+RAj9LZaV6ifl991B9hoc3DXXQUn230Kl+I=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "d666b9f2724b4f10b763cf6606b0bb1d",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/d666b9f2724b4f10b763cf6606b0bb1d/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=6c40fc7bd8146733acf35780496adfdddb2d424f362b27bcfe976d8d57ae89cd",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "FRPEpnf26sLPa/60BLk7CvYyOHOV5xA5O8InkkPYOBQ=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "de36430e16194125a5f8298f9b6a647a",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/de36430e16194125a5f8298f9b6a647a/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=b4492523fb112ebe9199eeac63add7c017ef2cadab2994b0884827efa144df3b",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "dXSmB/gUvyDE/C9grDNp3YLRJUHJz6G6gd7zsX/T0PQ=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "4f9db373572a48ca8cd9ef9d10bd1811",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/4f9db373572a48ca8cd9ef9d10bd1811/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=542f4c201dd5c02482fd3068a9df1f8a788a850b0bfaaf0b820100a83cab2332",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "KlL+bbp6lKkXusxxw6KNxJPxFAk05PlnBFCknUQYXJg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "80abbb85825a49b09573005161776054",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/80abbb85825a49b09573005161776054/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=c00a6228c6370de0406c0fbbde3a62a896347fe0c1c69afcc52cf10db27bd8f9",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "o1epxYxQdNmEI8To+ekU9FmJngZCHGl3jTCtpux0n8U=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "24e852bc28584e1e9853bd46a44b38de",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/24e852bc28584e1e9853bd46a44b38de/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=9745be3b0ac987701ec6cbab51c71c91d11ad09a2760be2976bb975263175d1b",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "9se811oNUcTZ4lReQYz98TCqRzDvLE65S5XxslkuzwA=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "f5ce585f09ae46c691674851346f5684",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/f5ce585f09ae46c691674851346f5684/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=92c71229cbd122872715ef1d2b64a9b6baa7ed2a5018e9519c7dd5755d987d9a",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "ATkMv0ILPWOqCjrmbwT0D+q5LlcJbbqOe08JHqFfCpo=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "8d005d547cb84081828d9f781d0ba842",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/8d005d547cb84081828d9f781d0ba842/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=0b439c40861104ab0bbf455943dbad384fc8ac08894f4c644535462215617b97",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "mdcFaRSMNzY4MLnQMjjpOxdrXv72DVbzWSwJIfRVos4=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "7660c435fda44f809cb1bf84c25fcaf9",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/7660c435fda44f809cb1bf84c25fcaf9/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=3d7cf9f9f0c80e7280c98016de67e0fe43fffd3aa2c6d790deabdb2a5c819fc9",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "jS/W47W8UE9bowd8UVEXXLVnz8l+PfwyqKQOtkYJVcE=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "2bb47e9de9af4139851337db91c9c66a",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/2bb47e9de9af4139851337db91c9c66a/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=5ba8f00f8944514f885840dac92e8c37e9ea020582b5e9e07d0844a5549b0c8f",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "mx2EkBQsw8Wgg8BMHlunTVEA30hJIT++7U6knbvLRLQ=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "f501fc52289c46e4b4be747a3d580d27",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/f501fc52289c46e4b4be747a3d580d27/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=978af5e94af33dce712c334007b2d28171f309ded0072328e5c6893e8017237a",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "AkNulLP6nWH8sx6nj4D8XWHNeZFjHEgNjXfMvLwdZ3E=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "02b01ddb61384ee4ab479bd6a0a4c4bc",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/02b01ddb61384ee4ab479bd6a0a4c4bc/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=2653fd881069bd0df6bf01c166b5a3d15e5c097a251099050f6e519638d36dd6",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "Rm9HUVVuyYlZnGhVJXWoWIyTw3qsJpUSm0CJjjVq+pg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "f5d73f61132c46c1afcc276bb3ae21b8",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/f5d73f61132c46c1afcc276bb3ae21b8/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=c5529f2d013d35234d54a0fdf7596c83445cfc363c65a56f49233889ac503d5d",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "O3IE1VJjtZTUQW9bNvVSyo3AVY42Gr02DJBw46PbE4Q=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "854916e260ab4bc4afcdefd5c291a4aa",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/854916e260ab4bc4afcdefd5c291a4aa/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=f330cbc74ecd21d3203b74e6600c52ddd78f02c7a0cf480aca3f12de961c04b1",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "hreO8YPDMpCekjvDLY0Hr2hKxZchLeYuLPURijNKUtQ=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "6c67ec9bfcf94371b4717e2275f2b563",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/6c67ec9bfcf94371b4717e2275f2b563/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=ec46a49a7b83cd044038f71a9663faf64b92fabbd4feef175065634a369eeeab",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "F8nXC9iZfwAmr2d3xt9zD96tBrtez+WDY8+A12A2uVc=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "099a1d7d2fc841a0a9852c20b4369b53",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/099a1d7d2fc841a0a9852c20b4369b53/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=db4fefe53af5f8309b2f9ce4db5eae0cd979187e616bc837a78e1ad9a86cda7c",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "h0E6anwHkkmlObEbq6ZHqFnsI5AoQk38K4Zo+pEbJ2A=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "dcc590d64d8f4f6bb18cfdfe4288c6d6",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/dcc590d64d8f4f6bb18cfdfe4288c6d6/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=6e5bf6e120eacada6b3bc53fecb7009a860ec31fd218591f0a57dc51587336cd",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "Ue65PHJzF6b86TRph3qKazJ9b1Wl+evCLxz42zrXrVI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "04b6c5b11f3342e59ed58a5ded5427fc",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/04b6c5b11f3342e59ed58a5ded5427fc/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=94b264e8d9df8b33bbda4b4cd2dc40cd967e8aff076fc263dc16f0141fb176c3",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "E0cMpC1ObfkffOEJkvoj1Q2sHYVvp1ope0KG9nJMoFU=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "6b1ebabe37a64e1db88bc619941626fd",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/6b1ebabe37a64e1db88bc619941626fd/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=7381ab5508a97e8cfa27d272139e0c8f85ea1effe4e8e998695a40b9255ccc11",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "+b2/pAPrp/gkzQj9vhvthciKryCWSPbpxD/2cMRY6QM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3ecb0c7e711a4575a22eee411bb3000b",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3ecb0c7e711a4575a22eee411bb3000b/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=591b0d1801f4098232643df8117a440faa41bf93be704fe689d1f1b1ba66e13f",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "25iuLSgkUaM9IEZLIu2NXYapF+yWYoaVYpaExijOV00=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "46af139150474f7eaff81011f39936d6",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/46af139150474f7eaff81011f39936d6/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=d06f0aa57eca4f565d835310559a7b25bf011b29558b2bfac8c44527ae5654a2",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "FD3r9rkuAO22Un9kHseCbpof0HY35mCHI9XFFJfclBU=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "52f23b20cf7a4c21832024a726244c0c",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/52f23b20cf7a4c21832024a726244c0c/original.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=e76f7170029bc6831b8818e977ba22817b0ae04cd604081b6295f52f274cf9fc",
+   "upload_headers": {
+    "content-type": "video/mp4",
+    "x-amz-checksum-sha256": "YMGlEZxWcAWjExrhjPlvkS38b3s2YclmgUqII/1vm5o=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 209715200,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "7f2b32469a0f4b8492df6ef4bfc239c7",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/7f2b32469a0f4b8492df6ef4bfc239c7/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=b5686b32fc2c147385a0c01dff8387ccfe1ee6e46b1295ccd50714c8b4f34630",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "hpmZENTLVF9OTJOfK98xIplv/QVUJOE4BhDkwQhzJYg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "9d5b5f0d26994539921c72c9f0f9b123",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/9d5b5f0d26994539921c72c9f0f9b123/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=db86d4d7c74e3d57aff51205c154acd2117d0d0f8a23342c112e7b57a86df1c6",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "VydyPapMNmWZ4+BnjFr2CgnrlgSoV3L4/7TFyf57AUY=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "99a02472691745919dc39e5ac52e8d1f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/99a02472691745919dc39e5ac52e8d1f/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=af17e87e3d805720142d501019c3c7d77e5807f6c27b820b2cf437af1a712bc9",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "SN/nvXALJmg+fskWTLxlt62P6GP+cABC57ugoDstp+g=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "f7fa1cb7f5694e6b9ed777dd36a8aaa2",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/f7fa1cb7f5694e6b9ed777dd36a8aaa2/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=261d00aa95188c438af7d505ea35d3126398aaca8c77e74e5e6d51d8243283c8",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "Z3GBlMCHUkkbic13NmKJpmef8u3un+VrgIG+Mtl6bsw=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "6e1914c104aa4113a8d9d40630f9dd0d",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/6e1914c104aa4113a8d9d40630f9dd0d/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=e8206bd1974ccefe3661ee42f5fa9d588ee6ca007160aedf891c53d70bfd814f",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "QFFj+3/Pei+ZCXEtSn2gPLTCxa2FLtG4IFdprubrLVM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "272276b995874568b5b9fd1865adef78",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/272276b995874568b5b9fd1865adef78/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=3eed8106428b9462b9bea7d9eaefc3a8f8a2fefbdd731ed8ad92ac2c60f7f33b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "9l38w5cUbN0a8mSi3pmt9RHoPmnzifrbVKepx4672AQ=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3faa60cb0b31420d84994cfa393dfbfd",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3faa60cb0b31420d84994cfa393dfbfd/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=e247df9cd098c0013fb633d1645a646d87ef3d666efaf95e0a1d88290bbd2519",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "jLej9jXnEcxqeqiGeaHeU0n38VH7ua9muxeKquB7lxY=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "01ac4bdaa45c4769b6ed8e8d1aa787c3",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/01ac4bdaa45c4769b6ed8e8d1aa787c3/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=4e1617fb10f505a7213cc5ef1b8469b1b43897311d84272eb3c4eda3906ad935",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "+BPf4jTYwz0s1YbndAzuZggnGNF7o9cYWl4Xh64gcrM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "222c6c047f7c4441b782f31e16104a24",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/222c6c047f7c4441b782f31e16104a24/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=2d26f0d3eaa0420f58760e3a02d03b273efee5ef858381cd4ae708d8fe44376b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "BiKcImtbn1MF7HRJW+2i8Vy1SwmWg/ghRZ4ax33KcqI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "8757e6e7944643c5837106cb7640518f",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/8757e6e7944643c5837106cb7640518f/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=9b5b2942f946937983df7eba1f7077c8fe0bb1be90ec7f800d2f2870f16ac527",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "el+/DBtK17v9OzpQ2bFZB5KiBN6t7T2pk3XJEHv4Bqg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3d55deaa726046659318c1d5d5aa579c",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3d55deaa726046659318c1d5d5aa579c/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=fa64edaec2171a4ed674b573c45d13f23e5b68f553cfc7947bbba71bf519721e",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "xdw2vMyQuTFCn6fPotQpz0Mww6J/vZazE1NE/NboZms=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "227151cac5914f9fa8a25e8944938012",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/227151cac5914f9fa8a25e8944938012/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=2d7c4c2944ed8eeb9b1e25e72d3460ef75cb17854ba94e820b12c3fa9f8adc75",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "mR1q9Ps7q1eyd9FAewAQf+5dHmrcnvheGs3nmV5MVlk=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "393f7c5d566c47a4966c291cbd864341",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/393f7c5d566c47a4966c291cbd864341/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=237e637a140839e0ad553e599d1b48fc43545fd273332b3aaf81bab40cdfe192",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "559UtL5FoyCY+zNyHovh9vlDThpW8bPzI7hDUDE28po=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "367c3946eba94c5b97424d49cf25149d",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/367c3946eba94c5b97424d49cf25149d/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=6d3daa28e75ef361950c2b57ca5faf95be0cd5e8b4240a90d3ad08b5a32fb6df",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "T2VDx/XfCRiBxwYE6NEDx9CeADwI1AeUB1pFZFKVhUs=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "6c33ee3ac6354e639b0ba518cdb55e09",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/6c33ee3ac6354e639b0ba518cdb55e09/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=c74a8cd6a7532b9c72bf7eef38f57ac454bc1e4d08211a8350eb4d3991907f85",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "hF5o2J3OXrjT1deQML7FkRXp6lJLB3VDJbwGL+4YiOM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "d11f2527f1cb454eab24b1eaf4d293fb",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/d11f2527f1cb454eab24b1eaf4d293fb/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=65e1c86d8906b35d40dd3e2582821110c49b92b6f6da7405dfe3dd09ff3a0ac5",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "d6ps2IhfjdjWSM/T5Q1GUmPAKX0DoNGz/RDXBjNEQOI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "0d1dc2a9985f4b60b8e22894d02055e0",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/0d1dc2a9985f4b60b8e22894d02055e0/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=eb997784d8e50aad5503766f6cd4dae5e753908ba55e0918aaf95115f8dd585f",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "fOPvgcgVv9q53cjTXVha4MEf1PrxFMqgDV1wbQp6PIg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "67d413b03f394a8a9b5fcc2ea239d671",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/67d413b03f394a8a9b5fcc2ea239d671/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=fd5acf181b3f379c621b3caa6b38b2038d9d3ee02fecb88bf7cd471a75b40652",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "AanbcNBF6jz/VfxF2Cmb/NJLwls4ElkGjfwpow3WRhg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "b7cbe32a3b0149a0ae0ae7bcabdf9d9e",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/b7cbe32a3b0149a0ae0ae7bcabdf9d9e/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=466b597fc920baff27525bb0d96d65ecc228b5f6732817531970893bdcf01bd8",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "3hxkBJJAxklf4Nnu7tBwg7Wcuzi10X2iQ47z6LhPmeA=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "516ebee809a74901b9511c917ab6c491",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/516ebee809a74901b9511c917ab6c491/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=6925df3920b755f288c6714fd8a6a577df0188164f117eb5b955454d0d0b43a9",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "I9KFvf2nT6y2lWrpK0FlMwz8L5yz0XebRkHp4yuaNc8=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3894f839ba7f468d866ec5bdaa6dccc9",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3894f839ba7f468d866ec5bdaa6dccc9/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=dca82d244196014a85462140be627b2afa3121200a795ec56cd042ae8a01a314",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "HKscYtv5pSb6e1Z3QxrnDhv2oB+5wZQHU1NB6cgJpuc=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "692802018f6e450c9804f18baf1e836d",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/692802018f6e450c9804f18baf1e836d/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=bcbf225825a87b42cd7ec319e84fae2338a91a52304ce54c0ce20186fce7287b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "4Cyn/futrEZvRyb3nAQNCB6wOR/gZDXqUW9hDGO1wLs=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "1212f58fb84a4e45af03418ea344c312",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/1212f58fb84a4e45af03418ea344c312/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=3521a046fdb669c9e2ddff7c146342834a926c23b22c05635b68dd610bc48c17",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "dRnUgfthmpmd0Lzwf81fwSuGc22a+4NM/06zU0W5GkI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "51f8e6d2122145daaf54e1fdc3d34ce9",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/51f8e6d2122145daaf54e1fdc3d34ce9/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=266969cc85d5f362285cb9832fe75479fb9460af2a54fb8a3f2844743efede7b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "/qkQJSUo/wMmstFmB3mBIby9zYw7ygP8IezU5Q/zNuw=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "05fdc859ca6e4eea81cba61b02a116b4",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/05fdc859ca6e4eea81cba61b02a116b4/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=ee28ef37747622665d77acf85d256431b6d5ec2d2b7dd70520660744d2aaaac5",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "n4nMkm/fRbG1Np/bGx9B+vOFlJLXF8xCwdVVlxZKa7g=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "22d9bb44124b4579a8df8c78efcc238d",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/22d9bb44124b4579a8df8c78efcc238d/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=b18b54508c59a5cc61d1c905426b4574f16327730f63e0a01b985f653570369b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "t0yy+jiGvXYF9ATV4Usb1e0Ip4CORaYKgRoWPCL/fXE=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "d9a195022cfd43768da091a10202ba31",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/d9a195022cfd43768da091a10202ba31/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=ea46a7fa19d40a851ce2280e805de54161baf12a7168f3002bf6525b6d2b7a8b",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "MOdVfcqFqZRRaYjRJcD7ycljvKcxUbMQVXh45mZTzIM=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "3852b0fdd8de47eba0e247ac738fe581",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/3852b0fdd8de47eba0e247ac738fe581/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=09c3a91217494f9b43cf2f1c03939a58d5053078fdb79ed1d08da57e49aa6a71",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "1rKQk1QLGYxxZ0G9/tfse5HMQBKI5DAUm/uOCSHottU=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "905af1997754432a85425491b48754f0",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/905af1997754432a85425491b48754f0/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=acf0df58c6c78d53a153950f708feb1afab3b9626ddd51187fe86d6c1263b7e1",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "qtgVEbRUuqSmyKmQgt+p9HWTDiGga/BqkluNBZ8f4yc=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "60099da7a20441d7814bd37739e66734",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/60099da7a20441d7814bd37739e66734/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=e90a6165f460b2df7dbeb3b32de59c40aa01a1533608fce1bc88599f74c9e135",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "jiaObDE5lxv2W1vgeglCGbGVhPxgwxlY/SwbIH2pPWI=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "709cccb72c314a0e96968d65938240aa",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/709cccb72c314a0e96968d65938240aa/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=638857b35d0ffacbbf4d27c425d44f74fb6f1242a1925412464208b00a59b6e9",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "0daULG57yd3m86PppeYWUX8y8E94XZvfoBVRvpmB/fg=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "a3d148da87234783bdefbae52b30e420",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/a3d148da87234783bdefbae52b30e420/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=31b32b41f9e9937b6294348e453ba2d682091779f3f087aec5cac191e85743e7",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "YZuzbBRuGhR9mmrUaI1IxOQdhX7PtbjLz3NCHa+EymU=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "f1e4dc47d8a548a49ba8387b850f4e0a",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/f1e4dc47d8a548a49ba8387b850f4e0a/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=1de0712f17108c5f72ad4fc54d45238dea4df1cce0e198408af82ae76c100cf9",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "U/7vRmTTfWKU1MnDel/zor1BFrVAtCQDDRpdEYSNX3k=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "e05b3acb917c4aa98a5f8f45b06a91a5",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/e05b3acb917c4aa98a5f8f45b06a91a5/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=8907771c5b230ea410be153b07a1a0488543937bc6b2a840629c48a830803b89",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "jvtziRsqHVZ0oAOJUff4IOO00lg0gA3pIYsiTxpCT28=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  },
+  {
+   "asset_id": "2f6fee9bbc49421f88daa2ec04f1c9a6",
+   "upload_url": "https://heygen-resources-prod.s3-accelerate.amazonaws.com/external_upload_staging/2f6fee9bbc49421f88daa2ec04f1c9a6/original.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3FLD4S3AS7WYJKBK%2F20261011%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20261011T125423Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-length%3Bcontent-type%3Bhost%3Bx-amz-checksum-sha256%3Bx-amz-server-side-encryption&X-Amz-Signature=d4ef1486b0cfd8910390ea3c05f7dfdf65d75044654c6ebf1b441eeae67e74c8",
+   "upload_headers": {
+    "content-type": "audio/mpeg",
+    "x-amz-checksum-sha256": "JEvo69wqogLHFITgOHG49AcgXokyZXRLWDDiJOcf0J8=",
+    "x-amz-server-side-encryption": "AES256"
+   },
+   "expires_in_seconds": 86400,
+   "max_bytes": 1500000000,
+   "status": "pending_upload"
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+[
+ {
+  "n": 1,
+  "traccia": "A",
+  "id": "s03",
+  "taglio": 13.272
+ },
+ {
+  "n": 2,
+  "traccia": "A",
+  "id": "s04",
+  "taglio": 24.365
+ },
+ {
+  "n": 3,
+  "traccia": "A",
+  "id": "s05",
+  "taglio": 35.546
+ },
+ {
+  "n": 4,
+  "traccia": "A",
+  "id": "s06",
+  "taglio": 51.213
+ },
+ {
+  "n": 5,
+  "traccia": "A",
+  "id": "s07",
+  "taglio": 61.34
+ },
+ {
+  "n": 6,
+  "traccia": "A",
+  "id": "s08",
+  "taglio": 73.24
+ },
+ {
+  "n": 7,
+  "traccia": "A",
+  "id": "s09",
+  "taglio": 84.311
+ },
+ {
+  "n": 8,
+  "traccia": "A",
+  "id": "s10",
+  "taglio": 96.622
+ },
+ {
+  "n": 9,
+  "traccia": "A",
+  "id": "s11",
+  "taglio": 108.949
+ },
+ {
+  "n": 10,
+  "traccia": "A",
+  "id": "s12",
+  "taglio": 122.384
+ },
+ {
+  "n": 11,
+  "traccia": "A",
+  "id": "s13",
+  "taglio": 133.533
+ },
+ {
+  "n": 12,
+  "traccia": "A",
+  "id": "s14",
+  "taglio": 145.598
+ },
+ {
+  "n": 13,
+  "traccia": "A",
+  "id": "s15",
+  "taglio": 158.026
+ },
+ {
+  "n": 14,
+  "traccia": "A",
+  "id": "s16",
+  "taglio": 168.565
+ },
+ {
+  "n": 15,
+  "traccia": "A",
+  "id": "s17",
+  "taglio": 179.727
+ },
+ {
+  "n": 16,
+  "traccia": "A",
+  "id": "s18",
+  "taglio": 193.679
+ },
+ {
+  "n": 17,
+  "traccia": "A",
+  "id": "s19",
+  "taglio": 209.048
+ },
+ {
+  "n": 18,
+  "traccia": "B",
+  "id": "s21",
+  "taglio": 9.851
+ },
+ {
+  "n": 19,
+  "traccia": "B",
+  "id": "s22",
+  "taglio": 21.384
+ },
+ {
+  "n": 20,
+  "traccia": "B",
+  "id": "s23",
+  "taglio": 34.196
+ },
+ {
+  "n": 21,
+  "traccia": "B",
+  "id": "s24",
+  "taglio": 46.665
+ },
+ {
+  "n": 22,
+  "traccia": "B",
+  "id": "s25",
+  "taglio": 61.608
+ },
+ {
+  "n": 23,
+  "traccia": "B",
+  "id": "s26",
+  "taglio": 75.941
+ },
+ {
+  "n": 24,
+  "traccia": "B",
+  "id": "s27",
+  "taglio": 89.951
+ },
+ {
+  "n": 25,
+  "traccia": "B",
+  "id": "s28",
+  "taglio": 101.358
+ },
+ {
+  "n": 26,
+  "traccia": "B",
+  "id": "s29",
+  "taglio": 115.29
+ },
+ {
+  "n": 27,
+  "traccia": "B",
+  "id": "s30",
+  "taglio": 129.132
+ },
+ {
+  "n": 28,
+  "traccia": "B",
+  "id": "s31",
+  "taglio": 142.787
+ },
+ {
+  "n": 29,
+  "traccia": "B",
+  "id": "s32",
+  "taglio": 150.095
+ },
+ {
+  "n": 30,
+  "traccia": "B",
+  "id": "s33",
+  "taglio": 161.687
+ },
+ {
+  "n": 31,
+  "traccia": "B",
+  "id": "s34",
+  "taglio": 177.455
+ },
+ {
+  "n": 32,
+  "traccia": "B",
+  "id": "s35",
+  "taglio": 190.625
+ },
+ {
+  "n": 33,
+  "traccia": "B",
+  "id": "s36",
+  "taglio": 204.359
+ }
+]

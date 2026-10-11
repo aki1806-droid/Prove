@@ -17,14 +17,15 @@ def durata(f):
     return int(t[0])*3600+int(t[1])*60+float(t[2])
 
 # copertina e chiusura: immagine ferma + silenzio, cosi' hanno una traccia audio
-for idb, sec in (("s01", 3), ("s50", 10)):
+ULTIMA = "s%02d" % (len(json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))) + 2)
+for idb, sec in (("s01", 3), (ULTIMA, 10)):
     sh(FF,"-y","-v","error","-loop","1","-t",str(sec),"-i",QUI/"slide"/"png"/f"{idb}.png",
        "-f","lavfi","-t",str(sec),"-i","anullsrc=r=44100:cl=stereo",
        "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p","-r","25",
        "-c:a","aac","-b:a","160k","-shortest",TMP/f"{idb}.mp4")
 
 reg = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
-ordine = [TMP/"s01.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg] + [TMP/"s50.mp4"]
+ordine = [TMP/"s01.mp4"] + [QUI/"scene"/f"{r['id']}.mp4" for r in reg] + [TMP/f"{ULTIMA}.mp4"]
 (TMP/"lista.txt").write_text("".join(f"file '{p.resolve()}'\n" for p in ordine), encoding="utf-8")
 sh(FF,"-y","-v","error","-f","concat","-safe","0","-i",TMP/"lista.txt",
    "-c","copy","-movflags","+faststart",QUI/f"montato-{LEZIONE}.mp4")
