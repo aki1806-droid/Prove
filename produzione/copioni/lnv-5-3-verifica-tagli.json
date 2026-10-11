@@ -1,0 +1,304 @@
+[
+{
+"chunk": "A",
+"fine_di": "s02",
+"esito": "giusto",
+"coda": "O anche adattatori."
+},
+{
+"chunk": "A",
+"fine_di": "s03",
+"esito": "giusto",
+"coda": "Viene insegnata per prima."
+},
+{
+"chunk": "A",
+"fine_di": "s04",
+"esito": "giusto",
+"coda": "Le dico in ordine."
+},
+{
+"chunk": "A",
+"fine_di": "s05",
+"esito": "giusto",
+"coda": "Dipende dalle altre due."
+},
+{
+"chunk": "A",
+"fine_di": "s06",
+"esito": "giusto",
+"coda": "Colleghi del 2003."
+},
+{
+"chunk": "A",
+"fine_di": "s07",
+"esito": "giusto",
+"coda": "Non e' un campione piccolo."
+},
+{
+"chunk": "A",
+"fine_di": "s08",
+"esito": "corretto",
+"coda_prima": "Su cui si possa contare.",
+"coda_dopo": "Non ne ha trovato nessuno.",
+"taglio_prima": 101.4,
+"taglio_dopo": 105.08,
+"nota": "taglio anticipato di due frasi"
+},
+{
+"chunk": "A",
+"fine_di": "s09",
+"esito": "corretto",
+"coda_prima": "O che servano altri studi.",
+"coda_dopo": "Non reggono.",
+"taglio_prima": 117.21,
+"taglio_dopo": 118.45,
+"nota": "taglio anticipato"
+},
+{
+"chunk": "A",
+"fine_di": "s10",
+"esito": "giusto",
+"coda": "Che significhino qualcosa."
+},
+{
+"chunk": "A",
+"fine_di": "s11",
+"esito": "corretto",
+"coda_prima": "Esistano, lo sanno tutti.",
+"coda_dopo": "E' quante sono.",
+"taglio_prima": 134.27,
+"taglio_dopo": 136.56,
+"nota": "taglio anticipato"
+},
+{
+"chunk": "A",
+"fine_di": "s12",
+"esito": "giusto",
+"coda": "Cio' che la persona sta dicendo."
+},
+{
+"chunk": "A",
+"fine_di": "s13",
+"esito": "giusto",
+"coda": "Quello che ha addosso chiunque."
+},
+{
+"chunk": "A",
+"fine_di": "s14",
+"esito": "giusto",
+"coda": "Gliela chiedessi un minuto dopo."
+},
+{
+"chunk": "A",
+"fine_di": "s15",
+"esito": "giusto",
+"coda": "Non si puo' dare per scontata."
+},
+{
+"chunk": "A",
+"fine_di": "s16",
+"esito": "giusto",
+"coda": "Qui sembra un modo di dire."
+},
+{
+"chunk": "B",
+"fine_di": "s18",
+"esito": "giusto",
+"coda": "E qui vale piu' che altrove."
+},
+{
+"chunk": "B",
+"fine_di": "s19",
+"esito": "giusto",
+"coda": "Si', a seconda di chi lo fa."
+},
+{
+"chunk": "B",
+"fine_di": "s20",
+"esito": "corretto",
+"coda_prima": "Per alcuni e' il segnale.",
+"coda_dopo": "Tre e' il rumore di fondo.",
+"taglio_prima": 29.8,
+"taglio_dopo": 31.97,
+"nota": "memo tagliato a meta'"
+},
+{
+"chunk": "B",
+"fine_di": "s21",
+"esito": "corretto",
+"coda_prima": "E non e' una coincidenza.",
+"coda_dopo": "Funziona tutto il corso.",
+"taglio_prima": 41.27,
+"taglio_dopo": 43.84,
+"nota": "taglio anticipato"
+},
+{
+"chunk": "B",
+"fine_di": "s22",
+"esito": "giusto",
+"coda": "Che rende il segnale usabile."
+},
+{
+"chunk": "B",
+"fine_di": "s23",
+"esito": "giusto",
+"coda": "La rassegna di prima ha trovato."
+},
+{
+"chunk": "B",
+"fine_di": "s24",
+"esito": "giusto",
+"coda": "Che non c'entra niente con te."
+},
+{
+"chunk": "B",
+"fine_di": "s25",
+"esito": "giusto",
+"coda": "Ove e niente di piu'."
+},
+{
+"chunk": "B",
+"fine_di": "s26",
+"esito": "giusto",
+"coda": "Una che vale la pena nominare."
+},
+{
+"chunk": "B",
+"fine_di": "s27",
+"esito": "giusto",
+"coda": "Quattro nello stesso quarto d'ora."
+},
+{
+"chunk": "B",
+"fine_di": "s28",
+"esito": "giusto",
+"coda": "Leggono con lo stesso metodo."
+},
+{
+"chunk": "B",
+"fine_di": "s29",
+"esito": "corretto",
+"coda_prima": "La catena delle cause si accorcia.",
+"coda_dopo": "Penna perche' gli prude la penna.",
+"taglio_prima": 150.48,
+"taglio_dopo": 147.94,
+"nota": "taglio in ritardo, dentro s30"
+},
+{
+"chunk": "B",
+"fine_di": "s30",
+"esito": "giusto",
+"coda": "Resta comunque una lista."
+},
+{
+"chunk": "B",
+"fine_di": "s31",
+"esito": "giusto",
+"coda": "Esattamente quello che valeva prima."
+},
+{
+"chunk": "B",
+"fine_di": "s32",
+"esito": "giusto",
+"coda": "E' un segnale per te."
+},
+{
+"chunk": "C",
+"fine_di": "s34",
+"esito": "giusto",
+"coda": "A disagio e lo sai."
+},
+{
+"chunk": "C",
+"fine_di": "s35",
+"esito": "giusto",
+"coda": "Quando ormai e' tardi."
+},
+{
+"chunk": "C",
+"fine_di": "s36",
+"esito": "giusto",
+"coda": "Non dipende da nessun altro."
+},
+{
+"chunk": "C",
+"fine_di": "s37",
+"esito": "giusto",
+"coda": "Questa lezione esiste."
+},
+{
+"chunk": "C",
+"fine_di": "s38",
+"esito": "giusto",
+"coda": "Due verdetti."
+},
+{
+"chunk": "C",
+"fine_di": "s39",
+"esito": "corretto",
+"coda_prima": "Completamente infondato.",
+"coda_dopo": "Perche' sta in una frase.",
+"taglio_prima": 75.72,
+"taglio_dopo": 73.36,
+"nota": "taglio in ritardo, dentro s40"
+},
+{
+"chunk": "C",
+"fine_di": "s40",
+"esito": "giusto",
+"coda": "Lungo non lo ha trovato."
+},
+{
+"chunk": "C",
+"fine_di": "s41",
+"esito": "giusto",
+"coda": "Colpisce qualcuno."
+},
+{
+"chunk": "C",
+"fine_di": "s42",
+"esito": "giusto",
+"coda": "Non chi mente."
+},
+{
+"chunk": "C",
+"fine_di": "s43",
+"esito": "giusto",
+"coda": "O ha deciso di non dirlo."
+},
+{
+"chunk": "C",
+"fine_di": "s44",
+"esito": "giusto",
+"coda": "Privo di informazione."
+},
+{
+"chunk": "C",
+"fine_di": "s45",
+"esito": "corretto",
+"coda_prima": "Disponibili. Il quarto.",
+"coda_dopo": "Fra tutte quelle disponibili",
+"taglio_prima": 152.82,
+"taglio_dopo": 151.86,
+"nota": "taglio in ritardo, dentro s46"
+},
+{
+"chunk": "C",
+"fine_di": "s46",
+"esito": "giusto",
+"coda": "Qualcuno per la prima volta."
+},
+{
+"chunk": "C",
+"fine_di": "s47",
+"esito": "giusto",
+"coda": "Che gli prude la penna."
+},
+{
+"chunk": "C",
+"fine_di": "s48",
+"esito": "giusto",
+"coda": "Finche' te lo ricordi"
+}
+]

@@ -1,0 +1,20 @@
+{
+ "s10": {
+  "tipo": "immagine",
+  "nome": "mano-che-sistema-gli-occhiali",
+  "url": "https://resource2.heygen.ai/image/ae30c58726af455bbac8a036e2a1e0f5/original.png",
+  "nota": "una mano che sposta un paio di occhiali su un tavolo di legno, luce di finestra - VISTA. Nessun volto in campo, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield oggi rifiuta per limite giornaliero del piano e i crediti Artlist sono esauriti"
+ },
+ "s26": {
+  "tipo": "immagine",
+  "nome": "penna-fra-le-dita",
+  "url": "https://resource2.heygen.ai/image/207a46b0e463431cbbe0bbeeafe8e008/original.png",
+  "nota": "una penna girata fra le dita su un tavolo da riunione, ripresa stretta - VISTA. Le persone sul fondo sono sfocate e non riconoscibili, come nella piazza della 5.2; gli appunti sul foglio non sono leggibili. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s37": {
+  "tipo": "immagine",
+  "nome": "colletto-e-cravatta-allentata",
+  "url": "https://resource2.heygen.ai/image/7b1102c4beb84495902ad9333b351507/original.png",
+  "nota": "un colletto con la cravatta allentata, inquadratura a petto e collo - VISTA. Il volto e' tagliato sopra la bocca e non e' riconoscibile, nessuna scritta, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

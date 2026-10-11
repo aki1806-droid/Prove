@@ -1,0 +1,419 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.3",
+"title": "L'autocontatto",
+"sub": "I gesti che non sono rivolti a nessuno"
+},
+{
+"file": "c02",
+"layout": "list",
+"kicker": "i gesti di autocontatto",
+"plain": true,
+"rows": [
+"Il viso, il collo, il naso",
+"Gli occhiali, un anello",
+"Una mano fra i capelli"
+],
+"note": "In letteratura si chiamano anche adattatori."
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "la fama che hanno",
+"title": "«I segnali della menzogna.»<br><span class=\"gold\">La cosa più ripetuta di tutte.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "tre ragioni, e nessuna dipende dalle altre",
+"title": "Ciascuna basterebbe<br><span class=\"gold\">da sola.</span>"
+},
+{
+"file": "c05",
+"layout": "pila",
+"kicker": "perché non sono segnali di menzogna",
+"blocchi": [
+"La linea di base decide",
+"Le cause banali sono molte",
+"La ricerca non li sostiene"
+],
+"acceso": 2,
+"title": "Si parte dalla prima."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "la fonte, detta con l'anno",
+"title": "DePaulo e colleghi,<br><span class=\"gold\">2003.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "che cos'è una rassegna",
+"plain": true,
+"rows": [
+"Non un esperimento nuovo",
+"Tutti gli studi già fatti",
+"Messi insieme e riesaminati"
+],
+"note": "Non è un campione piccolo."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la domanda della rassegna",
+"title": "Esiste un indicatore non verbale affidabile?<br><span class=\"gold\">No.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"title": "Né singolarmente, né come gruppo.<br><span class=\"gold\">Non reggono.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "la seconda ragione",
+"title": "Le cause banali sono moltissime.<br><span class=\"gold\">Il punto è quante sono.</span>"
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "le cause fisiche",
+"plain": true,
+"rows": [
+"Il prurito",
+"La pelle secca",
+"Un'allergia stagionale"
+],
+"note": "Per qualche mese all'anno riguarda una persona su cinque."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "quello che uno ha addosso",
+"plain": true,
+"rows": [
+"Gli occhiali che scivolano",
+"Le lenti a contatto",
+"La barba che prude",
+"Il trucco da non rovinare"
+]
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "e poi",
+"rows": [
+"Il freddo",
+"Il caldo",
+"La stanchezza",
+"L'abitudine"
+],
+"active": 3,
+"note": "Da sola spiega la maggior parte dei casi."
+},
+{
+"file": "c15",
+"layout": "pila",
+"kicker": "le cause, in ordine",
+"blocchi": [
+"L'attivazione",
+"Freddo, caldo, stanchezza",
+"Quello che uno ha addosso",
+"Le cause fisiche"
+],
+"acceso": 0,
+"title": "L'attivazione è l'ultima voce di un elenco lungo."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "la terza ragione",
+"title": "Qui la linea di base<br><span class=\"gold\">è di un altro ordine di grandezza.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"title": "Sempre, in ogni conversazione.<br><span class=\"gold\">Nessun valore informativo.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Il rumore di fondo,<br><span class=\"gold\">non il segnale.</span>"
+},
+{
+"file": "c19",
+"layout": "confronto",
+"occhio": "lo stesso movimento, due significati opposti",
+"titoli": [
+"Chi lo fa sempre",
+"Chi non lo fa mai"
+],
+"righe": [
+{
+"et": "Quante volte",
+"a": "In ogni minuto",
+"b": "Due volte in un'ora"
+},
+{
+"et": "Che cos'è",
+"a": "Rumore di fondo",
+"b": "Un evento",
+"segna": true
+}
+]
+},
+{
+"file": "c20",
+"layout": "memo",
+"title": "Per alcuni è il segnale.<br>Per altri è il rumore di fondo."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "l'unica cosa leggibile",
+"title": "L'aumento improvviso.<br><span class=\"gold\">Per la terza volta in questo modulo.</span>"
+},
+{
+"file": "c22",
+"layout": "flusso",
+"kicker": "che cosa serve per leggerlo",
+"passi": [
+{
+"et": "Prima",
+"sub": "non si toccava il viso"
+},
+{
+"et": "Poi",
+"sub": "comincia a farlo"
+},
+{
+"et": "E tu sai",
+"sub": "cosa stavate dicendo"
+}
+],
+"title": "Senza il momento non hai niente."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Quella conclusione<br><span class=\"gold\">non è sul tavolo.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "la lettura corretta",
+"title": "Qualcosa è cambiato<br><span class=\"gold\">nel livello di attivazione.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"title": "Ti dice dove fare<br><span class=\"gold\">la prossima domanda.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "i gesti sugli oggetti",
+"plain": true,
+"rows": [
+"La penna che gira",
+"L'anello che si sfila",
+"Il bicchiere che si sposta",
+"Il telefono che si rigira"
+]
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Una differenza di grado,<br><span class=\"gold\">non di natura.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "perché sono un po' più utili",
+"plain": true,
+"rows": [
+"Coinvolgono un oggetto che si muove",
+"Meno cause fisiche"
+],
+"note": "Nessuno rigira una penna perché gli prude la penna."
+},
+{
+"file": "c30",
+"layout": "imbuto",
+"kicker": "le cause che restano",
+"dentro": [
+"L'abitudine",
+"L'attivazione",
+"Le mani che cercano"
+],
+"fuori": "Tre invece di dieci"
+},
+{
+"file": "c31",
+"layout": "statement",
+"title": "Resta intero<br><span class=\"gold\">il problema della linea di base.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "l'uso che ti consiglio davvero",
+"title": "Il tuo autocontatto<br><span class=\"gold\">è un segnale per te.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Su di te<br><span class=\"gold\">la causa la conosci.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "perché è un'informazione affidabile",
+"title": "Ti basta chiederti<br><span class=\"gold\">se quella cosa ti mette a disagio.</span>"
+},
+{
+"file": "c35",
+"layout": "flusso",
+"kicker": "l'ordine in cui arrivano",
+"passi": [
+{
+"et": "Il corpo",
+"sub": "ci arriva per primo"
+},
+{
+"et": "Il pensiero",
+"sub": "arriva dopo"
+}
+],
+"title": "Qualche secondo dopo, o qualche minuto."
+},
+{
+"file": "c36",
+"layout": "statement",
+"title": "Non un modo di leggerti dentro.<br><span class=\"gold\">Un promemoria, mentre parli.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "quello che si sente dire",
+"plain": true,
+"rows": [
+"«Si tocca il naso, quindi mente»",
+"«Si tocca il collo, quindi nasconde»"
+],
+"note": "Due movimenti, due verdetti."
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "perché è così diffuso",
+"plain": true,
+"rows": [
+"È facile da vedere",
+"È facile da raccontare"
+],
+"note": "Non ha niente a che fare con la sua validità."
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Non poco fondato.<br><span class=\"gold\">Infondato.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Un segnale senza supporto<br><span class=\"gold\">non colpisce a caso.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "chi colpisce",
+"plain": true,
+"rows": [
+"Chi è teso",
+"Chi ha un'allergia",
+"Chi ha l'abitudine",
+"Chi porta gli occhiali"
+],
+"note": "Non chi mente."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale di menzogna",
+"Leggerlo senza linea di base",
+"Ignorare le cause fisiche",
+"Dimenticare l'abitudine"
+],
+"active": 0
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale di menzogna",
+"Leggerlo senza linea di base",
+"Ignorare le cause fisiche",
+"Dimenticare l'abitudine"
+],
+"active": 1
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale di menzogna",
+"Leggerlo senza linea di base",
+"Ignorare le cause fisiche",
+"Dimenticare l'abitudine"
+],
+"active": 2
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggerlo come segnale di menzogna",
+"Leggerlo senza linea di base",
+"Ignorare le cause fisiche",
+"Dimenticare l'abitudine"
+],
+"active": 3
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Nessuno rigira una penna<br>perché gli prude la penna."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Quando ti tocchi il viso",
+"Quando giochi con un oggetto",
+"Cosa stavi dicendo"
+],
+"note": "In quel momento, finché te lo ricordi."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "La voce.<br><span class=\"gold\">Non verbale a tutti gli effetti.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

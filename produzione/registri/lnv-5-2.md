@@ -43,8 +43,8 @@ perché è il genere di vincolo che si perde in una riscrittura.
 
 ## Il copione
 
-Da **4.046** caratteri di parlato nello script a **10.170**, media 212 per
-blocco. Quarantotto blocchi, tre riprese a `s16`, `s27` e `s37`. **Nessun
+Da **3.941** caratteri di parlato nello script a **10.170**, media 212 per
+blocco. *(Correzione: qui stava scritto 4.046, che è il conteggio della 5.1 ricopiato per sbaglio. Rifatto con lo stesso filtro di tutte le altre lezioni.)* Quarantotto blocchi, tre riprese a `s16`, `s27` e `s37`. **Nessun
 aneddoto**, come chiede la nota di modulo.
 
 Quello che il copione aggiunge:

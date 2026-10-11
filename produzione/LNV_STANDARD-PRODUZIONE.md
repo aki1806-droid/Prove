@@ -174,7 +174,7 @@ vanno lette tutte e cinque le note prima di cominciare, non solo l'ultima.
 ## 7-bis. I difetti di layout che si vedono solo guardando
 
 Le slide si guardano da ferme **prima** di animarle, tutte, non solo quelle
-con un disegno. Questi quattro difetti non danno nessun errore e si vedono
+con un disegno. Questi difetti non danno nessun errore e si vedono
 soltanto a occhio:
 
 - **`raggi` disegna solo i primi quattro satelliti** (`c.attorno.slice(0, 4)`)
@@ -198,6 +198,11 @@ soltanto a occhio:
   sforano la casella, nel `flusso` escono dal riquadro e le frecce ci passano
   sopra. Stanno in due parole, e quello che non ci sta va nel `sub` (4.3,
   `c09` e `c34`);
+- **`pila` impila dal basso**: `blocchi[0]` è il blocco più in basso e
+  `blocchi[-1]` quello in cima. Un elenco ordinato va quindi scritto **al
+  contrario** di come si dice, altrimenti si legge all'incontrario
+  dall'alto (5.3, `c05` e `c15`). La stessa cosa decide dove sta l'`acceso`:
+  «l'ultima voce di un elenco lungo» va messa in fondo, non in cima;
 - **nel corsivo di `memo` e `quote` la sequenza `'è` si accavalla.**
   L'apostrofo e l'accento grave finiscono uno sull'altro e «cos'è» si legge
   «cos'e» con uno sgorbio sopra (4.3, `c24`). Nel tondo è solo stretta, e si
