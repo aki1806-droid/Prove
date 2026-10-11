@@ -40,7 +40,9 @@ intermedia**, su indicazione dell'utente («vai avanti per tutto il modulo senza
 
 ## La resa
 
-- video HeyGen: in corso (aggiornato a render chiuso)
+- video HeyGen: `c98964435ecae6ea46efb6055c118812` — **completato**, 6:09,4 (369,4 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/c98964435ecae6ea46efb6055c118812
+- lotto asset `a5fce3217e594a359a9503fca1329221` (84 file); render in meno di 2 minuti
 - copia di controllo locale: `montato-1.4.mp4` 6:10,6 (non versionata) e `montato-1.4.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
