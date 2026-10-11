@@ -1,0 +1,404 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 6 · Lezione 6.2",
+"title": "I tre tipi di incongruenza",
+"sub": "L'incongruenza"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "non sono tutte uguali",
+"title": "Distinguerle cambia<br><span class=\"gold\">quanto puoi fidartene.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "in ordine crescente di affidabilità",
+"title": "Il più citato<br><span class=\"gold\">è il più debole.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"title": "Non debole perché non esiste.<br><span class=\"gold\">Debole perché dipende da te.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "quello che saprai alla fine",
+"title": "Quale dei tre stai guardando."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "i tre tipi",
+"rows": [
+"Parole e corpo",
+"Corpo e corpo",
+"Adesso e prima"
+],
+"active": 0,
+"note": "Quello che dice contro quello che fa mentre lo dice."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "i tre tipi",
+"rows": [
+"Parole e corpo",
+"Corpo e corpo",
+"Adesso e prima"
+],
+"active": 1,
+"note": "Due canali non verbali, senza che le parole c'entrino."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "i tre tipi",
+"rows": [
+"Parole e corpo",
+"Corpo e corpo",
+"Adesso e prima"
+],
+"active": 2,
+"note": "La stessa persona, a dieci minuti di distanza."
+},
+{
+"file": "c09",
+"layout": "pila",
+"kicker": "in ordine di affidabilità",
+"blocchi": [
+"Parole e corpo",
+"Corpo e corpo",
+"Adesso e prima"
+],
+"acceso": 2,
+"title": "Si sale: il più debole sta sotto."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "primo tipo: parole e corpo",
+"title": "«Va benissimo.»<br><span class=\"gold\">E la voce che cala.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "il più intuitivo dei tre",
+"title": "È quello che si nota<br><span class=\"gold\">per primo.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "e il suo difetto",
+"title": "Presuppone che tu abbia<br><span class=\"gold\">letto bene il non verbale.</span>"
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "la voce che cala può essere",
+"plain": true,
+"rows": [
+"Stanchezza",
+"La fine di una giornata lunga",
+"Il suo modo di chiudere le frasi"
+],
+"note": "E tu te ne accorgi oggi perché oggi stavi ascoltando."
+},
+{
+"file": "c14",
+"layout": "statement",
+"title": "Non è una base.<br><span class=\"gold\">È un punto di partenza.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "secondo tipo: corpo e corpo",
+"title": "Due canali non verbali<br><span class=\"gold\">che non vanno d'accordo.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "perché è più solido",
+"title": "Una causa sola<br><span class=\"gold\">di solito ne tocca uno.</span>"
+},
+{
+"file": "c17",
+"layout": "confronto",
+"occhio": "una causa banale, davanti a un canale e a due",
+"titoli": [
+"Un canale",
+"Due canali"
+],
+"righe": [
+{
+"et": "La sedia",
+"a": "Spiega la postura",
+"b": "Non spiega la voce"
+},
+{
+"et": "Il freddo",
+"a": "Spiega le braccia",
+"b": "Non spiega il sorriso",
+"segna": true
+}
+]
+},
+{
+"file": "c18",
+"layout": "statement",
+"title": "Meno probabili.<br><span class=\"gold\">Non impossibili.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "terzo tipo: adesso e prima",
+"title": "Confronti la persona<br><span class=\"gold\">con sé stessa.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "una frase sola",
+"title": "Qui si tiene insieme<br><span class=\"gold\">tutto il metodo.</span>"
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "erano già lì dieci minuti fa",
+"plain": true,
+"rows": [
+"La sedia",
+"La temperatura",
+"L'abitudine",
+"Il mal di schiena"
+],
+"note": "Tutte presenti. E tutte invariate."
+},
+{
+"file": "c23",
+"layout": "statement",
+"title": "Sono costanti.<br><span class=\"gold\">E una costante non spiega un cambiamento.</span>"
+},
+{
+"file": "c24",
+"layout": "flusso",
+"kicker": "lo stesso ragionamento di chi fa misure",
+"passi": [
+{
+"et": "Lo strumento",
+"sub": "è rimasto fermo"
+},
+{
+"et": "Il risultato",
+"sub": "si è spostato"
+}
+],
+"title": "Allora la causa non sta nello strumento."
+},
+{
+"file": "c25",
+"layout": "memo",
+"title": "Una costante<br>non spiega un cambiamento."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "la frase da cui dipende il terzo tipo",
+"title": "Se di tutto il corso ti resta<br><span class=\"gold\">una frase sola, è questa.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "anche prima",
+"plain": true,
+"rows": [
+"La sedia era scomoda",
+"La stanza era fredda",
+"L'abitudine c'era già"
+],
+"note": "Niente di tutto questo è comparso mentre parlavate."
+},
+{
+"file": "c28",
+"layout": "statement",
+"title": "Non le hai escluse.<br><span class=\"gold\">Non sono cambiate.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "quello che il terzo tipo non ti chiede",
+"title": "Non devi interpretare niente."
+},
+{
+"file": "c30",
+"layout": "statement",
+"title": "Interpretare è difficile.<br><span class=\"gold\">Accorgersi di un cambiamento no.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "senza linea di base",
+"title": "Il terzo tipo<br><span class=\"gold\">non esiste.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Funziona nella metà dei casi.<br><span class=\"gold\">E non sai in quale metà.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "perché tanti corsi funzionano male",
+"title": "Non cattiva volontà.<br><span class=\"gold\">Ordine sbagliato.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"title": "La parte che regge tutto<br><span class=\"gold\">è quella che si salta.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "quando puoi fidarti parecchio",
+"title": "Quando i tre arrivano insieme."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "nello stesso momento, sulla stessa frase",
+"plain": true,
+"rows": [
+"Le parole dicono una cosa",
+"Due canali ne dicono un'altra",
+"Ed è tutto diverso da prima"
+],
+"note": "Tre conferme che cadono nello stesso punto."
+},
+{
+"file": "c38",
+"layout": "statement",
+"title": "Non hai una prova.<br><span class=\"gold\">Hai un punto.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la terza condizione, quella che si dimentica",
+"title": "Devi saper nominare<br><span class=\"gold\">l'argomento.</span>"
+},
+{
+"file": "c40",
+"layout": "confronto",
+"occhio": "la stessa incongruenza, in due situazioni",
+"titoli": [
+"Incontro unico",
+"Relazione che prosegue"
+],
+"righe": [
+{
+"et": "Che cos'è",
+"a": "Un'ipotesi",
+"b": "Un appunto"
+},
+{
+"et": "Verificabile?",
+"a": "Mai",
+"b": "Domani",
+"segna": true
+}
+]
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "con chi vedi ogni giorno",
+"title": "Puoi aspettare.<br><span class=\"gold\">Puoi riprovare.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "Non è bravura.<br><span class=\"gold\">È un'altra occasione.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fidarsi del primo tipo da solo",
+"Usare il terzo senza linea di base",
+"Confonderla con una prova",
+"Leggerla in un incontro unico"
+],
+"active": 0,
+"note": "È proprio la parte fragile a reggere tutto il peso."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fidarsi del primo tipo da solo",
+"Usare il terzo senza linea di base",
+"Confonderla con una prova",
+"Leggerla in un incontro unico"
+],
+"active": 1,
+"note": "Senza il prima non c'è nessun adesso da confrontare."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fidarsi del primo tipo da solo",
+"Usare il terzo senza linea di base",
+"Confonderla con una prova",
+"Leggerla in un incontro unico"
+],
+"active": 2,
+"note": "Non lo diventa nemmeno sommandone altre."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Fidarsi del primo tipo da solo",
+"Usare il terzo senza linea di base",
+"Confonderla con una prova",
+"Leggerla in un incontro unico"
+],
+"active": 3,
+"note": "Dove non potrai mai verificarla."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Non confronti due canali.<br>Confronti la persona con sé stessa."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Cerca solo il terzo tipo",
+"Una persona che conosci",
+"Un momento diverso da mezz'ora prima"
+],
+"note": "Solo con qualcuno di cui hai già una linea di base."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "Perché non significa bugia."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

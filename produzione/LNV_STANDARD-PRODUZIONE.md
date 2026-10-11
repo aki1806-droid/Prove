@@ -410,6 +410,20 @@ confronto sull'intera coda ha dato otto confini sospetti su quarantacinque;
 sulle ultime tre parole, uno solo — e quell'uno era davvero sbagliato. Gli
 altri sette erano code giuste lette male all'inizio.
 
+**`tagli.py correggi` non basta, e la clip di controllo non è facoltativa.**
+`correggi` stima lo spostamento contando i caratteri fra la coda letta e la
+fine del blocco, e li converte in secondi con una velocità di lettura fissa.
+Nella 6.2, su otto confini ne ha sistemati quattro al primo colpo e quattro
+no — tre spostati troppo poco, uno fermato prima della fine della frase.
+
+**E il modo di correggerli non è rilanciare `correggi`**, che rifarebbe la
+stessa stima: la clip di controllo porta i propri tempi per parola. La
+finestra è `[taglio − 2,2 s, taglio]`, quindi il tempo locale `t` di una
+parola vale `taglio − 2,2 + t`; si prende il silenzio fra l'ultima parola
+del blocco e la prima del blocco dopo, se ne cerca il centro fra i candidati
+di `silenzi()`, e si sposta il confine lì con `muovi.py`. Nella 6.2 la
+seconda clip di controllo ha confermato tutti e quattro al primo colpo.
+
 **Conseguenza pratica.** Una banda pulita non è una prova, è un'assenza di
 segnale. La verifica sulla trascrizione va fatta su ogni lezione, anche —
 anzi soprattutto — quando `banda.py` non segnala niente.
@@ -444,6 +458,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 5.4 | La voce come segnale non verbale | 9:59 | `d6a44d680232ca9abedf21dbee8a05ca` |
 | 5.5 | Il ritmo e le pause dell'altro | 9:59 | `7050d497cd244561ea5f82401662d2dc` |
 | 6.1 | Che cos'è un'incongruenza | 9:59 | `ceb55ec8560b90dbeaa7c8ff92efff39` |
+| 6.2 | I tre tipi | 9:59 | `84c55de233d7efc5a750cf3a856b9962` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -458,13 +473,13 @@ corso in cui le cinque durate coincidono al secondo. **Anche il modulo 5 è
 chiuso**: cinque lezioni tutte a 9:59, duecentotrentasei slide, ventisette
 figure, quattordici riprese, 50.931 caratteri di copione. Il registro di
 modulo sta in `registri/lnv-modulo-5.md`. **Il modulo 6 è cominciato**: la
-6.1 è montata, anche lei a 9:59. Manca lo script del modulo 7.
+6.1 e la 6.2 sono montate, tutte e due a 9:59. Manca lo script del modulo 7.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
 le riprese si generano su Higgsfield con `gpt_image_2_5`**, quando si può:
 l'11 ottobre Higgsfield ha rifiutato le richieste della 5.3, della 5.4,
-della 5.5 e della 6.1 — quattro lezioni di fila — per
+della 5.5, della 6.1 e della 6.2 — cinque lezioni di fila — per
 un **tetto giornaliero di generazioni del piano**, che non dipende dai
 crediti (ce n'erano 571 sul conto). In quel caso si torna sul nodo immagine
 di ElevenLabs, come per la 5.3. La scelta è stata
@@ -487,7 +502,7 @@ nel **modulo 5 nessun gesto offensivo** va nominato, descritto o mostrato; nel
 **modulo 6 nessuna formulazione** che suggerisca il riconoscimento della
 menzogna, nemmeno attenuata o per negazione retorica.
 
-**Il controllo dei tagli è parziale su venti lezioni su ventisei** (vedi i
+**Il controllo dei tagli è parziale su venti lezioni su ventisette** (vedi i
 registri): la trascrizione di verifica non si può fare. Il modulo 3 è il
 migliore del corso su questo fronte — la 3.1, la 3.3 e la 3.4 chiudono con
 zero confini fuori banda, la 3.5 con uno, la 3.2 con due — e tutti e
@@ -506,7 +521,7 @@ un secondo file di controllo. La 5.4 è l'unica lezione del corso uscita
 giusta al primo giro. **La 6.1 continua la serie**: quarantacinque confini
 riletti, uno sbagliato.
 
-Il conto delle sei lezioni verificate dice quanto vale la banda da sola:
+Il conto delle sette lezioni verificate dice quanto vale la banda da sola:
 
 | | segnalati da `banda.py` | sbagliati davvero |
 |---|---|---|
@@ -517,12 +532,16 @@ Il conto delle sei lezioni verificate dice quanto vale la banda da sola:
 | 5.5 | 2 | 3 |
 | **modulo 5** | **10** | **19** |
 | 6.1 | 1 | 1 |
+| 6.2 | 4 | 8 |
 
 E nella 5.3 **due dei quattro segnalati erano il blocco vicino, non il
 colpevole**: un confine spostato allunga il blocco dopo e accorcia quello
 prima, quindi la banda indica spesso la vittima. Si legge come un indizio su
 *dove guardare*, mai come una diagnosi. Nella **6.1** i due controlli hanno
-coinciso per la prima volta: un segnalato, uno sbagliato, lo stesso.
+coinciso per la prima volta: un segnalato, uno sbagliato, lo stesso. Nella
+**6.2** è successo l'opposto e in forma pura: quattro segnalati, otto
+sbagliati, e **nessuno dei quattro segnalati era il colpevole** — erano tutti
+e quattro il blocco accanto.
 Da qui in avanti la verifica si fa su ogni lezione (§10-bis), e le venti già
 montate vanno ripassate quando c'è tempo, partendo dalle cinque che hanno un
 confine segnalato: `s28` della 4.1, `s10` e `s12` della 4.3, `s26` e `s27`

@@ -1,0 +1,310 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "esito": "giusto",
+  "coda": "Quindi cambia cosa ne fai."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "esito": "giusto",
+  "coda": "Anche il piu debole dei tre."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s04",
+  "esito": "giusto",
+  "coda": "Cosa che non dipende da te."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s05",
+  "esito": "corretto",
+  "coda_prima": "parole e corpo",
+  "coda_dopo": "ogni volta che te ne capita uno davanti",
+  "taglio_prima": 53.95,
+  "taglio_dopo": 50.98,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s06",
+  "esito": "corretto",
+  "coda_prima": "corpo e corpo",
+  "coda_dopo": "il (di)vulgativo riassume in tre righe",
+  "taglio_prima": 70.44,
+  "taglio_dopo": 67.49,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s07",
+  "esito": "giusto",
+  "coda": "Nello stesso momento."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s08",
+  "esito": "giusto",
+  "coda": "In due momenti diversi."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s09",
+  "esito": "giusto",
+  "coda": "Quello che funziona meglio."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s10",
+  "esito": "giusto",
+  "coda": "Fondo di ritardo di troppo.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s11",
+  "esito": "corretto",
+  "coda_prima": "petto ed e grosso",
+  "coda_dopo": "di corpo non ne vedi neanche un pezzo",
+  "taglio_prima": 135.82,
+  "taglio_dopo": 133.3,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s12",
+  "esito": "corretto",
+  "coda_prima": "sai quanto e difficile",
+  "coda_dopo": "debole, non resta proprio niente",
+  "taglio_prima": 153.49,
+  "taglio_dopo": 150.55,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s13",
+  "esito": "giusto",
+  "coda": "Oggi stavi ascoltando."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s14",
+  "esito": "corretto",
+  "coda_prima": "corpo e corpo",
+  "coda_dopo": "che va confermato da qualcos altro",
+  "taglio_prima": 183.77,
+  "taglio_dopo": 180.56,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s15",
+  "esito": "giusto",
+  "coda": "Una postura che si chiude."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s16",
+  "esito": "corretto",
+  "coda_prima": "via spiega la postura",
+  "coda_dopo": "cosa sola di solito ne tocca uno",
+  "taglio_prima": 210.32,
+  "taglio_dopo": 208.17,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s18",
+  "esito": "giusto",
+  "coda": "Difficile da spiegare via."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s19",
+  "esito": "giusto",
+  "coda": "Accorgerti di starlo usando."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s20",
+  "esito": "giusto",
+  "coda": "La stessa conversazione."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s21",
+  "esito": "giusto",
+  "coda": "Insieme in una frase sola."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s22",
+  "esito": "corretto",
+  "coda_prima": "la cura, il mal di schiena",
+  "coda_dopo": "presenti e tutte invariate",
+  "taglio_prima": 60.85,
+  "taglio_dopo": 63.78,
+  "nota": "taglio anticipato"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s23",
+  "esito": "giusto",
+  "coda": "Per una volta ci viene incontro."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s24",
+  "esito": "giusto",
+  "coda": "Tutto quello che era gia li."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s25",
+  "esito": "giusto",
+  "coda": "Spiega un cambiamento."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s26",
+  "esito": "giusto",
+  "coda": "Conviene che sia questa."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s27",
+  "esito": "giusto",
+  "coda": "Mani, quel tono di voce."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s28",
+  "esito": "giusto",
+  "coda": "E una constatazione."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s29",
+  "esito": "giusto",
+  "coda": "Tanto puoi lasciarlo aperto.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s30",
+  "esito": "giusto",
+  "coda": "Stando attenzione sul serio."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s31",
+  "esito": "giusto",
+  "coda": "Importante del primo modulo."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s32",
+  "esito": "giusto",
+  "coda": "Con l'aria di esserlo."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s34",
+  "esito": "giusto",
+  "coda": "Quello piu difficile da vedere.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s35",
+  "esito": "giusto",
+  "coda": "Tutto viene saltata."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s36",
+  "esito": "giusto",
+  "coda": "Tutto sulla stessa frase.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s37",
+  "esito": "giusto",
+  "coda": "Che tenga insieme tutte e tre.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s38",
+  "esito": "giusto",
+  "coda": "Punto e tutta qui."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s39",
+  "esito": "giusto",
+  "coda": "Non sapresti su che cosa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s40",
+  "esito": "giusto",
+  "coda": "E li rimane per sempre."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s41",
+  "esito": "giusto",
+  "coda": "Te invece che contro."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s42",
+  "esito": "giusto",
+  "coda": "Nessuna, e lo sa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s43",
+  "esito": "giusto",
+  "coda": "Proprio la parte fragile."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s44",
+  "esito": "corretto",
+  "coda_prima": "potenza. il terzo",
+  "coda_dopo": "scambiata per il suo punto di partenza",
+  "taglio_prima": 151.56,
+  "taglio_dopo": 150.54,
+  "nota": "taglio oltre il confine"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s45",
+  "esito": "giusto",
+  "coda": "A chi se lo trova addosso."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s46",
+  "esito": "giusto",
+  "coda": "Parla, e le peggiori.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s47",
+  "esito": "giusto",
+  "coda": "Persona con se stessa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s48",
+  "esito": "giusto",
+  "coda": "E il primo travestito"
+ }
+]

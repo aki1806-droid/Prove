@@ -1,0 +1,14 @@
+{
+ "s19": {
+  "tipo": "immagine",
+  "nome": "bilancia-sbilanciata",
+  "url": "https://resource2.heygen.ai/image/5ceb9d74a5b34f44b1ef8b98228afdf4/original.png",
+  "nota": "una bilancia a due piatti vuoti chiaramente sbilanciata, primo piano, luce laterale - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield rifiuta ancora per limite giornaliero del piano"
+ },
+ "s31": {
+  "tipo": "immagine",
+  "nome": "linea-di-livello-sul-muro",
+  "url": "https://resource2.heygen.ai/image/5a9bb3ddf32344d68aedd1fbbac71bd7/original.png",
+  "nota": "un muro intonacato con una linea di livello dell'acqua netta, l'intonaco sotto macchiato e quello sopra pulito, luce radente - VISTA. Nessuna persona, nessuna scritta, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}
