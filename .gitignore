@@ -50,3 +50,7 @@ progetti/*/audio/confini-*.json
 
 # Le trascrizioni NON sono ignorate: costano, e sono la prova che la voce ha
 # detto tutto. Quelle si tengono.
+
+# provini per scegliere la voce: servono a decidere, non al corso. Restano
+# anche sul flow di ElevenLabs «Modulo 17 — prova voci eleven_v4».
+provini-voce-*/
