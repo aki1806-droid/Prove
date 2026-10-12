@@ -96,8 +96,14 @@ retorica; «vorrei morire, mi aiuti a finirla?» e' la richiesta riportata.
 | | |
 |---|---|
 | montato locale | `montato-17.5.mp4` — **7:51.83** |
-| montato HeyGen | in corso |
+| montato HeyGen | `fd03790c18a2fdc777dfaec52ae0b09b` — **7:50.49** |
+| render | 65 s |
 | asset caricati | 96 in un lotto solo |
+
+Perdita in consegna 1,34 s su 49 scene, 27 ms a scena: la stessa banda delle
+altre quattro. Scaricato e controllato: 7:50.48, 1920×1080, audio presente
+(media −25 dB); al minuto 4:00 c'e' s26, le fasi del lutto, come nel montato
+locale.
 
 ## Costo misurato
 
