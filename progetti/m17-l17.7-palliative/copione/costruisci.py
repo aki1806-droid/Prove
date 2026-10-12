@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Lasciamo l'ospedale ed entriamo in una casa. Un uomo con una malattia avanzata ha scelto di essere curato fino alla fine a casa sua, e un'equipe di cure palliative domiciliari lo accompagna con la moglie."),
+ (1,"chiaro",0,"Qui la tecnica, dolore, sintomi, vie di somministrazione, si intreccia piu' che mai con la relazione e con la famiglia. Le lezioni: uno punto sei, tre punto sette, cinque punto sei, undici punto cinque, tredici punto quattro."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Giovanni, settantadue anni, ha un tumore del polmone con metastasi ossee, e nessuna ulteriore terapia oncologica indicata. Ha espresso chiaramente il desiderio di restare a casa."),
+ (2,"chiaro",0,"Vive con la moglie Anna, settant'anni; la figlia abita in un'altra regione. Alla prima visita delle cure palliative: dolore a sette, nonostante un oppioide a lento rilascio, con picchi improvvisi quando si alza."),
+ (2,"chiaro",0,"L'alvo e' chiuso da quattro giorni, e dorme poco. Anna e' stanca, e ha paura di sbagliare le medicine. Fermati un momento: quali sono i problemi, e da quale cominci?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Un dolore di fondo non controllato. E un dolore episodico intenso: i picchi legati al movimento, tipici delle metastasi ossee. Due dolori diversi, da trattare in due modi diversi."),
+ (3,"chiaro",0,"C'e' una stipsi da oppioidi, che si poteva prevenire. C'e' l'insonnia. E c'e' una caregiver anziana, stanca e insicura, da cui pero' passa tutta l'assistenza di ogni giorno."),
+ (3,"chiaro",0,"[thoughtful] L'obiettivo non e' guarire, ma la qualita' della vita e il rispetto della volonta' di Giovanni di restare a casa. Con l'approccio globale delle cure palliative: fisico, psicologico, sociale e spirituale."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Il dolore, con i principi della lezione tre punto sette. Il dolore di fondo si tratta con una terapia a orario fisso, come l'oppioide a lento rilascio, che il medico adegua in base alla valutazione."),
+ (4,"chiaro",0,"Il dolore episodico intenso, con una dose di soccorso prescritta, di un oppioide a rapida insorgenza. Se il dolore e' prevedibile, alzarsi, l'igiene, le medicazioni, la dose di soccorso si da' prima dell'attivita'."),
+ (4,"chiaro",0,"Si valuta regolarmente con la scala, e si tiene un diario del dolore e delle dosi di soccorso. Se servono spesso, e' il segnale che il medico deve rivedere la terapia di fondo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Gli effetti degli oppioidi. La stipsi e' costante e non si attenua con il tempo: il lassativo si prescrive a orario fin dall'inizio. Giovanni, con l'alvo chiuso da quattro giorni, ne ha bisogno subito."),
+ (5,"chiaro",0,"La nausea e' spesso transitoria, e la sonnolenza iniziale si riduce. Confusione e mioclonie, cioe' piccole scosse muscolari, invece vanno segnalate al medico."),
+ (5,"chiaro",0,"Alla famiglia si insegnano i segni di sovradosaggio: una sonnolenza profonda, un respiro molto lento, le pupille puntiformi."),
+ (5,"chiaro",0,"E si affrontano i timori piu' comuni, la dipendenza e la paura di accelerare la fine, con un'informazione corretta: un oppioide usato bene, nel controllo del dolore, non accorcia la vita."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Educare la moglie, la vera protagonista dell'assistenza quotidiana. Uno schema scritto e semplice: quali farmaci, a che ora, a che cosa servono. Come e quando usare la dose di soccorso. Il diario."),
+ (6,"chiaro",0,"La conservazione sicura degli oppioidi, lontano dai bambini, e lo smaltimento dei residui secondo le indicazioni. E soprattutto chi chiamare: la reperibilita' delle cure palliative, attiva giorno e notte."),
+ (6,"chiaro",0,"Si verifica con il teach-back, facendo ripetere ad Anna con parole sue. E si coinvolge la figlia anche a distanza, per esempio con le videochiamate."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Terza settimana. Giovanni ha una dispnea anche a riposo, con molta ansia. Gli strumenti della lezione undici punto cinque: seduto, aria fresca sul volto con un piccolo ventilatore, un ambiente tranquillo."),
+ (7,"chiaro",0,"Oppioidi a basse dosi, secondo prescrizione, per ridurre la fame d'aria. Ossigeno solo se utile e prescritto. Ansiolitici, respirazione, presenza. E alla moglie si insegna che cosa fare in una crisi, per evitare il panico."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Quando non puo' piu' deglutire. La via orale non e' piu' possibile, e si passa ad altre vie, scegliendo quelle meno dolorose. E si semplifica la terapia, sospendendo i farmaci che non servono piu'."),
+ (8,"chiaro",0,"La via sottocutanea, con un ago o una piccola cannula: boli, o un'infusione continua con una pompa elastomerica o elettronica, secondo prescrizione. E' la via piu' usata nelle cure palliative a domicilio."),
+ (8,"chiaro",0,"La via transdermica, con i cerotti di oppioide. Non si tagliano, non si espongono a fonti di calore, perche' il calore aumenta l'assorbimento. Si ruotano le sedi, si rimuove il precedente e lo si smaltisce piegato."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[serious] Le ultime ore. Compaiono i segni di morte imminente: coscienza ridotta, respiro irregolare con pause, il rantolo, estremita' fredde, marezzatura, urine scarse."),
+ (9,"chiaro",0,"Posizione laterale, igiene del cavo orale, farmaci antisecretivi secondo prescrizione, senza aspirazioni profonde. Poi, di notte, Anna ti chiama spaventata: chiamiamo il centodiciotto?"),
+ (9,"chiaro",0,"Qui si vede il valore di un piano concordato prima. Le si ricorda di chiamare la reperibilita' delle cure palliative, che conosce Giovanni e la sua volonta'."),
+ (9,"chiaro",0,"Il centodiciotto resta disponibile, ma potrebbe portarlo in ospedale contro il suo desiderio. E se un sintomo diventa refrattario, la sedazione palliativa e' possibile anche a casa, con il consenso, secondo prescrizione."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Un approfondimento: la pianificazione condivisa delle cure, articolo cinque della legge duecentodiciannove. Un percorso fra paziente e medico, con l'equipe, per l'evoluzione prevedibile di una malattia cronica e invalidante."),
+ (10,"chiaro",0,"Comprende il luogo di cura preferito, i trattamenti accettati o rifiutati, per esempio la rianimazione o il ricovero, ed eventualmente un fiduciario. E si puo' aggiornare."),
+ (10,"chiaro",0,"Permette a familiari e professionisti di rispettare la volonta' della persona proprio nei momenti di crisi, come quella notte. L'infermiere vi partecipa, e la rende conoscibile nella documentazione domiciliare."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Dopo la morte. Il medico constata il decesso. L'equipe garantisce presenza e tempo per il saluto, nel rispetto dei riti e delle volonta' della famiglia, e da' le informazioni pratiche."),
+ (11,"chiaro",0,"Si provvede al ritiro o allo smaltimento sicuro dei farmaci, in particolare degli oppioidi. E poi il supporto al lutto: molte reti di cure palliative prevedono una telefonata o una visita di cordoglio."),
+ (11,"chiaro",0,"Con attenzione ai segni di un lutto complicato, e all'attivazione di una rete di sostegno. Anna, da questo momento, e' una persona sola da accompagnare."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Trattare solo il dolore di fondo, e non quello episodico. Non prevenire la stipsi. Lasciare la famiglia senza un numero da chiamare. Non concordare un piano per le crisi."),
+ (12,"chiaro",0,"Tagliare i cerotti, o esporli al calore. Aspirare in profondita' il rantolo. Ricoverare per abitudine, contro la volonta' espressa. Dimenticare il caregiver, e il lutto."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: il dolore episodico intenso? Con una dose di soccorso prescritta, di un oppioide a rapida insorgenza, anche prima delle attivita' che lo scatenano, e con un diario."),
+ (13,"chiaro",0,"Se le dosi di soccorso sono frequenti, si rivede la terapia di fondo. Seconda: le vie alternative alla via orale? Soprattutto la sottocutanea, con boli o infusione continua, e la transdermica, con i cerotti."),
+ (13,"chiaro",0,"Terza: la pianificazione condivisa? Un percorso dell'articolo cinque della legge duecentodiciannove: paziente ed equipe decidono in anticipo le scelte di cura, compresi il luogo di cura e un eventuale fiduciario."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente con neoplasia polmonare avanzata in cure palliative domiciliari: dolore di fondo non controllato, dolore episodico intenso, stipsi da oppioidi, caregiver anziana e insicura."),
+ (14,"chiaro",0,"Valuto il dolore con scala e diario, e segnalo al medico per adeguare terapia di fondo e dose di soccorso, da usare anche prima delle attivita' dolorose. Avvio il lassativo prescritto."),
+ (14,"chiaro",0,"Educo la moglie con uno schema scritto: dose di soccorso, conservazione sicura, numero della reperibilita', con teach-back. Gestisco la dispnea con posizione, aria fresca e farmaci prescritti."),
+ (14,"chiaro",0,"Senza la via orale, uso la sottocutanea o la transdermica. Rispetto la volonta' di restare a casa. Nelle ultime ore curo comfort e rantolo, collaboro all'eventuale sedazione palliativa, sostengo la moglie e il lutto."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Consenso e legge duecentodiciannove con la uno punto sei. Il dolore con la tre punto sette. Gli oppioidi con la cinque punto sei. Le cure palliative con la undici punto cinque."),
+ (15,"chiaro",0,"Il territorio e la rete veneta con la tredici punto quattro. E il caregiver con la undici punto due, e con il prossimo caso."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"In Veneto, la rete delle cure palliative della legge trentotto comprende i Nuclei di Cure Palliative domiciliari nelle ULSS, gli hospice, e una reperibilita' che garantisce la continuita' di notte e nei festivi."),
+ (16,"chiaro",0,"E l'integrazione con il medico di medicina generale e con l'ADI. Per i bambini esiste una rete di cure palliative pediatriche, con un centro regionale di riferimento."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[thoughtful] La frase del caso: a casa, la cura passa attraverso le mani di chi resta. Educare il caregiver e' curare il paziente."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione restiamo a domicilio, con l'infermiere di famiglia e comunita': un'anziana allettata con una lesione da pressione, e un figlio che non ce la fa piu'. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Il dolore: di fondo ed episodico",5:"Gli effetti degli oppioidi",
+ 6:"Educare la moglie",7:"Terza settimana: la dispnea",8:"Quando non puo' piu' deglutire",9:"Le ultime ore",
+ 10:"La pianificazione condivisa delle cure",11:"Dopo la morte",12:"Gli errori da evitare",13:"Le domande d'orale",
+ 14:"La risposta modello",15:"I collegamenti",16:"In Veneto",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

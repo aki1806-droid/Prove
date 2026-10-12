@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Una parte crescente delle persone assistite viene da altri paesi e da altre culture. Il caso tocca temi d'orale di deontologia e comunicazione: la mediazione linguistica e culturale, il consenso di chi parla poco l'italiano."),
+ (1,"chiaro",0,"Il rispetto delle convinzioni religiose, e un'educazione terapeutica che funzioni davvero. Ci servono le lezioni uno punto sei, uno punto sette, due punto sette, otto punto tre e nove punto sette."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Nadia ha trentanove anni, e' in Italia da un anno, parla soprattutto arabo e capisce poche parole di italiano. Ha un diabete di tipo due, con antidiabetici orali e insulina basale."),
+ (2,"chiaro",0,"E' ricoverata per una colecistectomia programmata. All'ingresso e' accompagnata dal marito e dal figlio di dodici anni, che traduce tutto. E il marito risponde alle domande al posto suo."),
+ (2,"chiaro",0,"Il mese del digiuno religioso comincera' fra due settimane, e lei dice di volerlo osservare. Fermati un momento: quali problemi vedi, al di la' della colecistectomia?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. C'e' una barriera linguistica, che mette a rischio l'accertamento, il consenso, la sicurezza e l'educazione."),
+ (3,"chiaro",0,"Un minore come interprete non e' adeguato: per l'accuratezza, la riservatezza, il carico emotivo che gli si impone. E il marito risponde al posto di Nadia, ma la titolare dell'informazione e del consenso e' lei."),
+ (3,"chiaro",0,"Il digiuno religioso, con un diabete in terapia ipoglicemizzante, espone al rischio di ipoglicemia dopo la dimissione. E la cultura puo' incidere sull'espressione del dolore, sul pudore, sull'alimentazione."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La mediazione. Si attiva il mediatore linguistico-culturale, in presenza, al telefono o in videochiamata, secondo le procedure aziendali: per l'anamnesi, il consenso, le informazioni importanti, l'educazione, la dimissione."),
+ (4,"chiaro",0,"Non si usano minori come interpreti. E per i contenuti clinici si evitano anche familiari e conoscenti, che possono filtrare o modificare le informazioni."),
+ (4,"chiaro",0,"Si parla alla paziente, guardandola, non al mediatore. Frasi brevi, verifica della comprensione, materiali tradotti e illustrati."),
+ (4,"chiaro",0,"Per le comunicazioni quotidiane semplici si possono usare immagini o applicazioni di traduzione, ma con prudenza: mai per le informazioni cliniche importanti."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Il consenso. La titolare e' la paziente, maggiorenne e capace, come prevede la legge duecentodiciannove. L'informazione va data nella sua lingua, tramite il mediatore."),
+ (5,"chiaro",0,"Nadia ha il diritto di scegliere se e quanto coinvolgere i familiari, e molte persone desiderano farlo: e' un loro diritto. Ma per saperlo bisogna chiederglielo, anche in un colloquio in privato."),
+ (5,"chiaro",0,"Un colloquio che le permetta di esprimersi liberamente. Si rispetta la cultura senza rinunciare ai diritti individuali. E si documenta la presenza del mediatore."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Le attenzioni culturali e religiose. La regola e' chiedere, non presumere: c'e' qualcosa che per lei e' importante durante il ricovero?"),
+ (6,"chiaro",0,"Spesso emerge il pudore, con la preferenza per un operatore dello stesso sesso nelle cure intime, che si rispetta quando e' possibile. E l'alimentazione, con prescrizioni religiose da conoscere e una dieta adeguata."),
+ (6,"chiaro",0,"Poi la preghiera, gli oggetti religiosi, le visite. E il dolore, che si esprime in modi diversi nelle diverse culture: si valuta con scale adatte, come quella delle facce, senza interpretarlo con stereotipi."),
+ (6,"chiaro",0,"Il rispetto delle convinzioni e' un dovere deontologico, come prevede il Codice della lezione uno punto quattro."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il percorso chirurgico. La preparazione si spiega con il mediatore: gli orari del digiuno, l'igiene, la custodia di gioielli e oggetti religiosi, le protesi. E con il mediatore si raccoglie il consenso all'anestesia."),
+ (7,"chiaro",0,"Il diabete nel perioperatorio richiede la gestione degli antidiabetici orali e dell'insulina basale secondo prescrizione, come nella lezione nove punto due, con il controllo delle glicemie."),
+ (7,"chiaro",0,"Nel post-operatorio il dolore si valuta con una scala visiva. E per i bisogni quotidiani si usano cartelli illustrati, acqua, bagno, dolore, nausea, che permettono a Nadia di comunicare anche di notte."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"[serious] Il digiuno religioso e il diabete. Secondo molte interpretazioni religiose le persone malate sono esentate dal digiuno. Ma la scelta resta personale, e molte persone con diabete desiderano comunque osservarlo."),
+ (8,"chiaro",0,"L'infermiere non giudica e non impone. Informa sui rischi: ipoglicemia, disidratazione, iperglicemia nei pasti serali. E coinvolge il medico e il diabetologo, per adattare dosi e orari della terapia."),
+ (8,"chiaro",0,"Raccomanda un automonitoraggio piu' frequente, ricordando che, secondo le interpretazioni prevalenti, misurare la glicemia non interrompe il digiuno. E insegna a interromperlo in caso di ipoglicemia o malessere."),
+ (8,"chiaro",0,"Subito dopo un intervento, si valuta con il medico l'opportunita' di rinviarlo. E' il colloquio motivazionale della lezione undici punto sei, applicato a una scelta di fede."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Un approfondimento sul diritto alle cure. L'assistenza sanitaria e' garantita indipendentemente dalla nazionalita' e dalla condizione della persona."),
+ (9,"chiaro",0,"I cittadini stranieri regolarmente presenti si iscrivono al Servizio Sanitario Nazionale. Per gli stranieri temporaneamente presenti non iscritti, la legge garantisce le cure urgenti ed essenziali, con il codice STP."),
+ (9,"chiaro",0,"Il personale sanitario non ha compiti di controllo sulla condizione amministrativa della persona: il suo compito e' curare. E il Codice deontologico vieta ogni discriminazione."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La dimissione, costruita con il mediatore. L'educazione sulla ferita e sui segni di infezione, sull'alimentazione dopo la colecistectomia, sulla terapia per il diabete. Con materiale tradotto e illustrato."),
+ (10,"chiaro",0,"Il teach back tramite il mediatore: e' l'unico modo per verificare che le informazioni siano arrivate. E l'ipoglicemia, con la regola del quindici della lezione otto punto tre."),
+ (10,"chiaro",0,"Gli appuntamenti, con date chiare, il luogo e come arrivarci. Il riferimento al medico di medicina generale e ai servizi. E un numero da chiamare."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Le competenze interculturali. Cominciano dalla consapevolezza dei propri pregiudizi, perche' tutti ne abbiamo. Poi curiosita' rispettosa, ascolto, domande aperte, conoscenza dei servizi di mediazione."),
+ (11,"chiaro",0,"Evitano gli stereotipi, del tipo tutti quelli di quel paese fanno cosi': ogni persona e' un individuo. E la competenza culturale non e' una gentilezza in piu': e' parte della qualita' e della sicurezza delle cure."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Usare il figlio di dodici anni come interprete. Rivolgersi al marito invece che alla paziente. Raccogliere il consenso senza mediatore. Presumere i bisogni culturali senza chiedere."),
+ (12,"chiaro",0,"Interpretare il dolore con stereotipi. Giudicare la scelta del digiuno, o ignorarla. Dimettere con istruzioni solo in italiano."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: il consenso di una paziente che non parla italiano? Con il mediatore, parlando direttamente a lei, che ne e' titolare, verificando la comprensione, documentando la presenza del mediatore."),
+ (13,"chiaro",0,"Seconda: perche' non familiari o minori come interpreti? Per l'accuratezza e la riservatezza, perche' possono filtrare o modificare i contenuti, e, per i minori, per un carico emotivo inappropriato."),
+ (13,"chiaro",0,"Terza: il digiuno religioso? Si rispetta la scelta, si informa sui rischi, si coinvolgono medico e diabetologo per adattare la terapia. Automonitoraggio piu' frequente, e digiuno interrotto in caso di ipoglicemia."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente straniera con limitata conoscenza dell'italiano, diabetica, per colecistectomia; un figlio minore che traduce, un marito che risponde per lei, l'intenzione di un digiuno religioso."),
+ (14,"chiaro",0,"Attivo il mediatore, non uso il minore come interprete, mi rivolgo alla paziente, titolare del consenso, e le offro un colloquio in privato. Con il mediatore raccolgo anamnesi, consenso, bisogni culturali e religiosi."),
+ (14,"chiaro",0,"Valuto il dolore con scale visive e uso cartelli illustrati. Gestisco il diabete secondo prescrizione. Affronto senza giudizio il digiuno, informando sui rischi, con medico e diabetologo. Educo con il mediatore, con teach back, e documento."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Consenso e legge duecentodiciannove con la uno punto sei. Riservatezza con la uno punto sette. Codice deontologico con la uno punto quattro. Comunicazione e teach back con la due punto sette."),
+ (15,"chiaro",0,"Diabete e ipoglicemia con la otto punto tre. Preparazione all'intervento con la nove punto due. Dimissione con la nove punto sette. Colloquio motivazionale con la undici punto sei."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"In Veneto le aziende sanitarie hanno servizi di mediazione linguistico-culturale, materiali informativi multilingue, ambulatori e percorsi per la popolazione straniera, compresi gli STP, e i consultori familiari."),
+ (16,"chiaro",0,"All'orale, conoscere l'esistenza di questi servizi, e sapere come attivarli, dimostra una preparazione concreta."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: un consenso che la paziente non ha capito non e' un consenso. La lingua e' la prima condizione della cura."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una lesione da pressione che diventa una richiesta di risarcimento. La documentazione, il dialogo con la famiglia, la responsabilita' secondo la legge ventiquattro del duemiladiciassette. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La mediazione linguistica e culturale",5:"Il consenso e l'autonomia della paziente",
+ 6:"Le attenzioni culturali e religiose",7:"Il percorso chirurgico",8:"Il digiuno religioso e il diabete",9:"Approfondimento: il diritto alle cure",
+ 10:"La dimissione",11:"Le competenze interculturali",12:"Gli errori da evitare",13:"Le domande d'orale",
+ 14:"La risposta modello",15:"I collegamenti",16:"In Veneto",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -11,3 +11,15 @@ m16-l16.11-ventilato A d0u3Qnl2Rdep3MrOn7z9 4GroRb38tQb3lJM832Nt
 m16-l16.11-ventilato B AtifbYx3XgZe1ieLAyu1 XUt61w1AyCy7R7hPLp1q
 m16-l16.12-riepilogo A qFE8Eq935y1mqu9t8xZP I9v4ePO7iumoeobSRpLX
 m16-l16.12-riepilogo B 9fKZUWATVpOZgn1gSQvl vFqGcM0ULRe5MuJU77tI
+m16-l16.1-ictus A 7L1Ofl39aymbYTsls6ti 3PIPSyBDDxZqiRo1LHdn
+m16-l16.1-ictus B e5lJmyuCMX9hpLGrOFJi JU4e4vb81KfCyYnOuFg3
+m16-l16.2-emorragia A OOp5kmO6PlagnOdQLJFn WhSY9yOeuFAuAbc4MXn1
+m16-l16.2-emorragia B A3pBf8GDGN5uZ4UPhZWV IZWhQ2TbsGjTSjLV1qFd
+m16-l16.3-iperkaliemia A BTFia7voMSb4q52tej1W YE9odHSYasJTwYTvCuWd
+m16-l16.3-iperkaliemia B On7n3DkC0VzBUiEjHfdX OIZ5gXOjz6Z7pfXfrunP
+m16-l16.4-embolia A um7hEfL53usyu6Mx3wKx 9q64eIVyQf95p9HLz5tq
+m16-l16.4-embolia B taaeqsaYpb9RYuC87Plp BP3qERorf2aSnyulzBoQ
+m16-l16.5-clostridioides A OEJJLXKwN0r92XWcl5ZM MaMApp5POVpQJdetXZaz
+m16-l16.5-clostridioides B u5idMErDEM5cooOZQpsM W6xb1Nz2oLXNh1IISf8j
+m16-l16.6-politrauma A BdzZdp5PaX6jOhZ2KE6v VqWnoBNx2STFPDZz5msE
+m16-l16.6-politrauma B IXtS0bAl2e9qxcqcdZ2J sGYXEvpHX2JMlVltvKMM

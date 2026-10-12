@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Apriamo il secondo modulo di casi avanzati con l'area materno-infantile. L'assistenza ostetrica spetta all'ostetrica, ma una donna in gravidanza puo' arrivare in un pronto soccorso generale, in medicina, in chirurgia."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'infermiere deve saper riconoscere un'emergenza che mette in pericolo due vite: una preeclampsia grave. Le lezioni: cinque punto tre, otto punto sei, dieci punto uno, undici punto quattro e quattordici punto cinque."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Elisa, trentuno anni, alla prima gravidanza, trentacinque settimane. Arriva in pronto soccorso alle ventidue con una cefalea intensa da ore. E dice: vedo delle lucine."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha un dolore allo stomaco, che lei attribuisce a una gastrite. Mani e volto sono gonfi da due giorni. La pressione e' centosessantotto su centododici; ripetuta, centosettanta su centodieci."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proteinuria marcata allo stick, riflessi rotulei vivaci. Percepisce i movimenti del bambino. Fermati un momento: perche' quel dolore allo stomaco non e' una gastrite?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Il ragionamento. Un'ipertensione grave, da centosessanta su centodieci in su, dopo la ventesima settimana, con la proteinuria: e' una preeclampsia."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono tutti i segni di gravita' della lezione undici punto quattro: cefalea intensa, disturbi visivi, dolore epigastrico, edemi improvvisi, riflessi vivaci."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dolore epigastrico non e' una gastrite: puo' indicare un coinvolgimento del fegato, come nella sindrome HELLP. E il rischio e' imminente: eclampsia, cioe' convulsioni, ictus, distacco di placenta, sofferenza del feto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. Un codice di alta priorita', e l'attivazione immediata di ginecologo e ostetrica, secondo il percorso ostetrico dell'ospedale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Decubito laterale sinistro, che evita la compressione della vena cava. Un ambiente tranquillo, con luci soffuse e pochi stimoli, perche' luce e rumore possono favorire le convulsioni. E non la si lascia sola."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accesso venoso e prelievi: l'emocromo con le piastrine, la funzione epatica, l'LDH, la funzione renale, la coagulazione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La pressione ogni quindici minuti. Il catetere vescicale e la diuresi oraria, secondo indicazione. E il monitoraggio del benessere fetale, che e' di competenza dell'ostetrica."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'abbassamento della pressione. Gli antipertensivi secondo prescrizione, come il labetalolo o la nifedipina, riducono il rischio di ictus materno, una delle principali cause di morte nella preeclampsia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma la pressione non va fatta crollare: un calo brusco riduce la perfusione della placenta e danneggia il feto. Si misura bene, con il bracciale giusto e il braccio all'altezza del cuore, e si rivaluta dopo ogni dose."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il magnesio solfato. Non e' un antipertensivo: serve a prevenire e trattare le convulsioni. Si somministra endovena secondo prescrizione: una dose di carico, poi un'infusione continua con pompa e doppio controllo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sorveglianza della tossicita' e' infermieristica, e i quiz la chiedono sempre. I riflessi rotulei: la loro scomparsa e' il primo segno di sovradosaggio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La frequenza respiratoria, perche' il magnesio in eccesso deprime il respiro. La diuresi, perche' il magnesio si elimina con il rene: un'oliguria significa accumulo. Poi coscienza e saturazione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'antidoto, il calcio gluconato, deve essere pronto al letto. Riflessi, respiro, diuresi, calcio gluconato: e' la sequenza da ricordare."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Alle ventitre e dieci Elisa ha una crisi convulsiva generalizzata: e' un'eclampsia. Le regole sono quelle della lezione otto punto sei: chiami aiuto, la proteggi dai traumi, non metti nulla in bocca."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non la trattieni, e cronometri. Al termine, decubito laterale sinistro, aspirazione e ossigeno. Il magnesio secondo prescrizione, con un'eventuale dose aggiuntiva, e il monitoraggio della madre e del feto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un concetto fondamentale: la cura definitiva della preeclampsia e' il parto. Lo decide il ginecologo, di solito dopo aver stabilizzato la madre."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: la sindrome HELLP, una forma grave della preeclampsia. Il nome e' un acronimo inglese. H: emolisi. EL: enzimi epatici elevati. LP: piastrine basse."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I sintomi sono spesso proprio quelli di Elisa: dolore epigastrico o all'ipocondrio destro, nausea, vomito, un malessere generale. E vengono facilmente scambiati per un problema digestivo."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puo' comparire anche con una pressione non altissima, e anche dopo il parto. Espone a emorragie, rottura del fegato, coagulopatia. Ecco perche', negli esami, piastrine e funzione epatica sono cosi' importanti."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo il parto. La preeclampsia non finisce sempre con la nascita: puo' persistere, o comparire nei giorni successivi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo il magnesio e la sorveglianza proseguono secondo prescrizione, spesso per ventiquattro ore: pressione, diuresi, segni neurologici, dolore epigastrico."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' un rischio maggiore di emorragia post-partum, per le piastrine basse e perche' il magnesio rilassa l'utero: lo vedremo nel prossimo caso. L'allattamento e' compatibile con la maggior parte degli antipertensivi."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione e la prevenzione. In gravidanza la donna deve conoscere i segni d'allarme: cefalea intensa, disturbi visivi, dolore epigastrico, gonfiore improvviso, riduzione dei movimenti del bambino."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E rivolgersi subito all'ospedale, senza aspettare il controllo programmato. Nelle donne ad alto rischio il medico puo' prescrivere una profilassi con acido acetilsalicilico a basse dosi, gia' nelle prime fasi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E dopo: chi ha avuto una preeclampsia ha un rischio cardiovascolare aumentato nel lungo periodo. Servono controlli della pressione, e una sorveglianza nelle gravidanze successive."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una precisazione sui ruoli. L'assistenza alla gravidanza, al parto e al puerperio e' di competenza dell'ostetrica, con un profilo professionale specifico. L'infermiere riconosce l'emergenza e attiva il percorso."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Collabora nell'emergenza e nella terapia secondo i propri ambiti. E fuori dal blocco parto, in pronto soccorso, in medicina, in chirurgia, e' spesso il primo a vedere la paziente: questi segni sono sua competenza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Attribuire il dolore epigastrico a una gastrite. Far attendere la paziente in sala d'attesa. La posizione supina. Abbassare la pressione bruscamente."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il magnesio senza pompa, e senza sorveglianza di riflessi, respiro e diuresi. Il calcio gluconato non disponibile. E pensare che con il parto il rischio sia finito."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: i segni di gravita'? Pressione da centosessanta su centodieci in su, cefalea intensa, disturbi visivi, dolore epigastrico o all'ipocondrio destro."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi oliguria, edema polmonare, piastrine basse o alterazioni epatiche e renali. E le convulsioni, che definiscono l'eclampsia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: come si sorveglia il magnesio? Riflessi rotulei, frequenza respiratoria, diuresi, coscienza e saturazione, con il calcio gluconato pronto come antidoto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: la HELLP? Una forma grave di preeclampsia con emolisi, enzimi epatici elevati e piastrine basse, spesso con dolore epigastrico, che puo' comparire anche dopo il parto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Gestante di trentacinque settimane, pressione centosettanta su centodieci, proteinuria, cefalea intensa, disturbi visivi, dolore epigastrico ed edemi: preeclampsia grave, a rischio di eclampsia e HELLP."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Assegno alta priorita' e attivo subito ginecologo e ostetrica; la posiziono in decubito laterale sinistro in un ambiente tranquillo, e non la lascio sola. Reperisco un accesso ed eseguo i prelievi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Misuro la pressione ogni quindici minuti e la diuresi oraria. Somministro gli antipertensivi prescritti evitando cali bruschi, e il magnesio con pompa e doppio controllo, sorvegliando riflessi, respiro, diuresi e coscienza."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il calcio gluconato e' pronto. In caso di convulsione la proteggo, non metto nulla in bocca, e al termine decubito laterale e ossigeno. La sorveglianza prosegue dopo il parto. Documento ed educo ai segni d'allarme."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Calcoli e pompe con la cinque punto tre. La crisi convulsiva con la otto punto sei. Il triage con la dieci punto uno. L'area materno-infantile con la undici punto quattro."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I riflessi con la quattordici punto cinque. E l'emorragia post-partum con la dieci punto quattro, e con il prossimo caso."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In Veneto l'assistenza alla gravidanza e' organizzata nel percorso nascita regionale, con una rete di punti nascita: le gravidanze ad alto rischio vanno verso centri con terapia intensiva neonatale."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando possibile si preferisce il trasporto in utero, cioe' trasferire la madre prima del parto, perche' e' piu' sicuro per il neonato. E i consultori familiari seguono la gravidanza sul territorio."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: in gravidanza, mal di testa e mal di stomaco con la pressione alta non sono disturbi minori."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un'emorragia nelle due ore dopo il parto, la regola delle quattro T, e il neonato che nel frattempo ha bisogno di qualcuno. A tra poco."
+ }
+]

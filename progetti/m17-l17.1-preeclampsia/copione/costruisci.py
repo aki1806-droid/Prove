@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Apriamo il secondo modulo di casi avanzati con l'area materno-infantile. L'assistenza ostetrica spetta all'ostetrica, ma una donna in gravidanza puo' arrivare in un pronto soccorso generale, in medicina, in chirurgia."),
+ (1,"chiaro",0,"E l'infermiere deve saper riconoscere un'emergenza che mette in pericolo due vite: una preeclampsia grave. Le lezioni: cinque punto tre, otto punto sei, dieci punto uno, undici punto quattro e quattordici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Elisa, trentuno anni, alla prima gravidanza, trentacinque settimane. Arriva in pronto soccorso alle ventidue con una cefalea intensa da ore. E dice: vedo delle lucine."),
+ (2,"chiaro",0,"Ha un dolore allo stomaco, che lei attribuisce a una gastrite. Mani e volto sono gonfi da due giorni. La pressione e' centosessantotto su centododici; ripetuta, centosettanta su centodieci."),
+ (2,"chiaro",0,"Proteinuria marcata allo stick, riflessi rotulei vivaci. Percepisce i movimenti del bambino. Fermati un momento: perche' quel dolore allo stomaco non e' una gastrite?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Un'ipertensione grave, da centosessanta su centodieci in su, dopo la ventesima settimana, con la proteinuria: e' una preeclampsia."),
+ (3,"chiaro",0,"E ci sono tutti i segni di gravita' della lezione undici punto quattro: cefalea intensa, disturbi visivi, dolore epigastrico, edemi improvvisi, riflessi vivaci."),
+ (3,"chiaro",0,"Il dolore epigastrico non e' una gastrite: puo' indicare un coinvolgimento del fegato, come nella sindrome HELLP. E il rischio e' imminente: eclampsia, cioe' convulsioni, ictus, distacco di placenta, sofferenza del feto."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Un codice di alta priorita', e l'attivazione immediata di ginecologo e ostetrica, secondo il percorso ostetrico dell'ospedale."),
+ (4,"chiaro",0,"Decubito laterale sinistro, che evita la compressione della vena cava. Un ambiente tranquillo, con luci soffuse e pochi stimoli, perche' luce e rumore possono favorire le convulsioni. E non la si lascia sola."),
+ (4,"chiaro",0,"Accesso venoso e prelievi: l'emocromo con le piastrine, la funzione epatica, l'LDH, la funzione renale, la coagulazione."),
+ (4,"chiaro",0,"La pressione ogni quindici minuti. Il catetere vescicale e la diuresi oraria, secondo indicazione. E il monitoraggio del benessere fetale, che e' di competenza dell'ostetrica."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"L'abbassamento della pressione. Gli antipertensivi secondo prescrizione, come il labetalolo o la nifedipina, riducono il rischio di ictus materno, una delle principali cause di morte nella preeclampsia."),
+ (5,"chiaro",0,"Ma la pressione non va fatta crollare: un calo brusco riduce la perfusione della placenta e danneggia il feto. Si misura bene, con il bracciale giusto e il braccio all'altezza del cuore, e si rivaluta dopo ogni dose."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Il magnesio solfato. Non e' un antipertensivo: serve a prevenire e trattare le convulsioni. Si somministra endovena secondo prescrizione: una dose di carico, poi un'infusione continua con pompa e doppio controllo."),
+ (6,"chiaro",0,"La sorveglianza della tossicita' e' infermieristica, e i quiz la chiedono sempre. I riflessi rotulei: la loro scomparsa e' il primo segno di sovradosaggio."),
+ (6,"chiaro",0,"La frequenza respiratoria, perche' il magnesio in eccesso deprime il respiro. La diuresi, perche' il magnesio si elimina con il rene: un'oliguria significa accumulo. Poi coscienza e saturazione."),
+ (6,"chiaro",0,"E l'antidoto, il calcio gluconato, deve essere pronto al letto. Riflessi, respiro, diuresi, calcio gluconato: e' la sequenza da ricordare."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"[serious] Alle ventitre e dieci Elisa ha una crisi convulsiva generalizzata: e' un'eclampsia. Le regole sono quelle della lezione otto punto sei: chiami aiuto, la proteggi dai traumi, non metti nulla in bocca."),
+ (7,"chiaro",0,"Non la trattieni, e cronometri. Al termine, decubito laterale sinistro, aspirazione e ossigeno. Il magnesio secondo prescrizione, con un'eventuale dose aggiuntiva, e il monitoraggio della madre e del feto."),
+ (7,"chiaro",0,"E un concetto fondamentale: la cura definitiva della preeclampsia e' il parto. Lo decide il ginecologo, di solito dopo aver stabilizzato la madre."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Un approfondimento: la sindrome HELLP, una forma grave della preeclampsia. Il nome e' un acronimo inglese. H: emolisi. EL: enzimi epatici elevati. LP: piastrine basse."),
+ (8,"chiaro",0,"I sintomi sono spesso proprio quelli di Elisa: dolore epigastrico o all'ipocondrio destro, nausea, vomito, un malessere generale. E vengono facilmente scambiati per un problema digestivo."),
+ (8,"chiaro",0,"Puo' comparire anche con una pressione non altissima, e anche dopo il parto. Espone a emorragie, rottura del fegato, coagulopatia. Ecco perche', negli esami, piastrine e funzione epatica sono cosi' importanti."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Dopo il parto. La preeclampsia non finisce sempre con la nascita: puo' persistere, o comparire nei giorni successivi."),
+ (9,"chiaro",0,"Per questo il magnesio e la sorveglianza proseguono secondo prescrizione, spesso per ventiquattro ore: pressione, diuresi, segni neurologici, dolore epigastrico."),
+ (9,"chiaro",0,"C'e' un rischio maggiore di emorragia post-partum, per le piastrine basse e perche' il magnesio rilassa l'utero: lo vedremo nel prossimo caso. L'allattamento e' compatibile con la maggior parte degli antipertensivi."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"L'educazione e la prevenzione. In gravidanza la donna deve conoscere i segni d'allarme: cefalea intensa, disturbi visivi, dolore epigastrico, gonfiore improvviso, riduzione dei movimenti del bambino."),
+ (10,"chiaro",0,"E rivolgersi subito all'ospedale, senza aspettare il controllo programmato. Nelle donne ad alto rischio il medico puo' prescrivere una profilassi con acido acetilsalicilico a basse dosi, gia' nelle prime fasi."),
+ (10,"chiaro",0,"E dopo: chi ha avuto una preeclampsia ha un rischio cardiovascolare aumentato nel lungo periodo. Servono controlli della pressione, e una sorveglianza nelle gravidanze successive."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Una precisazione sui ruoli. L'assistenza alla gravidanza, al parto e al puerperio e' di competenza dell'ostetrica, con un profilo professionale specifico. L'infermiere riconosce l'emergenza e attiva il percorso."),
+ (11,"chiaro",0,"Collabora nell'emergenza e nella terapia secondo i propri ambiti. E fuori dal blocco parto, in pronto soccorso, in medicina, in chirurgia, e' spesso il primo a vedere la paziente: questi segni sono sua competenza."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Attribuire il dolore epigastrico a una gastrite. Far attendere la paziente in sala d'attesa. La posizione supina. Abbassare la pressione bruscamente."),
+ (12,"chiaro",0,"Il magnesio senza pompa, e senza sorveglianza di riflessi, respiro e diuresi. Il calcio gluconato non disponibile. E pensare che con il parto il rischio sia finito."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: i segni di gravita'? Pressione da centosessanta su centodieci in su, cefalea intensa, disturbi visivi, dolore epigastrico o all'ipocondrio destro."),
+ (13,"chiaro",0,"Poi oliguria, edema polmonare, piastrine basse o alterazioni epatiche e renali. E le convulsioni, che definiscono l'eclampsia."),
+ (13,"chiaro",0,"Seconda: come si sorveglia il magnesio? Riflessi rotulei, frequenza respiratoria, diuresi, coscienza e saturazione, con il calcio gluconato pronto come antidoto."),
+ (13,"chiaro",0,"Terza: la HELLP? Una forma grave di preeclampsia con emolisi, enzimi epatici elevati e piastrine basse, spesso con dolore epigastrico, che puo' comparire anche dopo il parto."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Gestante di trentacinque settimane, pressione centosettanta su centodieci, proteinuria, cefalea intensa, disturbi visivi, dolore epigastrico ed edemi: preeclampsia grave, a rischio di eclampsia e HELLP."),
+ (14,"chiaro",0,"Assegno alta priorita' e attivo subito ginecologo e ostetrica; la posiziono in decubito laterale sinistro in un ambiente tranquillo, e non la lascio sola. Reperisco un accesso ed eseguo i prelievi."),
+ (14,"chiaro",0,"Misuro la pressione ogni quindici minuti e la diuresi oraria. Somministro gli antipertensivi prescritti evitando cali bruschi, e il magnesio con pompa e doppio controllo, sorvegliando riflessi, respiro, diuresi e coscienza."),
+ (14,"chiaro",0,"Il calcio gluconato e' pronto. In caso di convulsione la proteggo, non metto nulla in bocca, e al termine decubito laterale e ossigeno. La sorveglianza prosegue dopo il parto. Documento ed educo ai segni d'allarme."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Calcoli e pompe con la cinque punto tre. La crisi convulsiva con la otto punto sei. Il triage con la dieci punto uno. L'area materno-infantile con la undici punto quattro."),
+ (15,"chiaro",0,"I riflessi con la quattordici punto cinque. E l'emorragia post-partum con la dieci punto quattro, e con il prossimo caso."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"In Veneto l'assistenza alla gravidanza e' organizzata nel percorso nascita regionale, con una rete di punti nascita: le gravidanze ad alto rischio vanno verso centri con terapia intensiva neonatale."),
+ (16,"chiaro",0,"Quando possibile si preferisce il trasporto in utero, cioe' trasferire la madre prima del parto, perche' e' piu' sicuro per il neonato. E i consultori familiari seguono la gravidanza sul territorio."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: in gravidanza, mal di testa e mal di stomaco con la pressione alta non sono disturbi minori."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un'emorragia nelle due ore dopo il parto, la regola delle quattro T, e il neonato che nel frattempo ha bisogno di qualcuno. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"L'abbassamento della pressione",
+ 6:"Il magnesio solfato",7:"Ore 23:10: la convulsione",8:"La sindrome HELLP",9:"Dopo il parto",
+ 10:"L'educazione e la prevenzione",11:"Il ruolo dell'infermiere e dell'ostetrica",12:"Gli errori da evitare",
+ 13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",16:"In Veneto",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
