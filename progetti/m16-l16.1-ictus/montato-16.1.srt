@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,550
+Apriamo il secondo blocco di casi clinici con l'ictus, seguito per intero: dal primo segno in reparto alla trombolisi, fino alla disfagia, alla comunicazione con una persona afasica e alla riabilitazione.
+
+2
+00:00:14,550 --> 00:00:28,770
+Lo schema resta quello del modulo quindici: accertamento, priorita', obiettivi, interventi, valutazione. Ci servono le lezioni tre punto tre, otto punto sei, dieci punto due, tredici punto tre e quattordici punto cinque.
+
+3
+00:00:28,770 --> 00:00:38,200
+Lo scenario. La signora Teresa, settantaquattro anni, e' in cardiologia per una fibrillazione atriale di nuova insorgenza. L'anticoagulante non e' ancora stato iniziato.
+
+4
+00:00:38,200 --> 00:00:46,330
+Alle quattordici e trenta, al giro della terapia, era vigile e conversava. Alle quindici e venti l'OSS ti chiama: la signora non mi risponde bene.
+
+5
+00:00:46,330 --> 00:00:55,610
+La trovi con la bocca deviata, il braccio destro che cade, e parla in modo confuso. Fermati un momento: che cosa fai, e qual e' il dato piu' prezioso che devi annotare?
+
+6
+00:00:55,610 --> 00:01:08,800
+Il riconoscimento. La FAST e' positiva su tutti e tre i segni: sospetto ictus. E il contesto lo rende probabile: una fibrillazione atriale non anticoagulata e' una fonte di emboli, come nella lezione otto punto uno.
+
+7
+00:01:08,800 --> 00:01:17,390
+La fisiologia della lezione quattordici punto cinque ti dice anche dove: un deficit a destra, con il linguaggio alterato, indica l'emisfero sinistro.
+
+8
+00:01:17,390 --> 00:01:28,020
+Il dato piu' prezioso e' l'ultima volta in cui la signora e' stata vista in benessere: le quattordici e trenta. Sono passati cinquanta minuti: siamo ampiamente nella finestra dei trattamenti.
+
+9
+00:01:28,020 --> 00:01:42,530
+Le prime azioni. Attivi subito il medico e il percorso stroke intraospedaliero, comunicando l'orario delle quattordici e trenta. Poi l'ABCDE, e la glicemia capillare: centododici. Non e' un'ipoglicemia che simula un ictus.
+
+10
+00:01:42,530 --> 00:01:53,590
+I parametri: pressione centosettantotto su novantasei, frequenza centoquattro irregolare, saturazione novantacinque. Poi GCS e pupille. E nulla per bocca.
+
+11
+00:01:53,590 --> 00:02:08,100
+Due accessi venosi e i prelievi: emocromo, coagulazione, glicemia, creatinina. ECG e peso, per la dose del trombolitico. E niente procedure invasive non indispensabili, come il catetere: dopo la trombolisi sanguinerebbero.
+
+12
+00:02:08,100 --> 00:02:19,650
+Un errore frequente: vedere centosettantotto e cercare subito di abbassarla. Nell'ictus ischemico acuto la pressione alta e' spesso un compenso, che mantiene il flusso nelle zone del cervello in sofferenza.
+
+13
+00:02:19,650 --> 00:02:33,010
+Niente antipertensivi senza prescrizione. Per la trombolisi serve una pressione sotto centottantacinque su centodieci prima, e sotto centottanta su centocinque nelle ventiquattro ore dopo. Quella della signora e' compatibile.
+
+14
+00:02:33,010 --> 00:02:42,360
+Alle quindici e quarantacinque la TC dell'encefalo senza contrasto esclude un'emorragia. Il medico valuta il deficit con la scala NIHSS.
+
+15
+00:02:42,360 --> 00:02:53,320
+Alle sedici e cinque si avvia la trombolisi endovena, ben entro le quattro ore e mezza dalle quattordici e trenta. E se l'angio-TC mostra l'occlusione di un grosso vaso, si valuta anche la trombectomia.
+
+16
+00:02:53,320 --> 00:03:02,470
+Si fa nel centro hub della rete ictus, lezione tredici punto tre. E nota quanto pesa l'orario: senza, nessuna di queste decisioni sarebbe possibile.
+
+17
+00:03:02,470 --> 00:03:14,960
+Dopo la trombolisi, stato neurologico e pressione ravvicinati secondo protocollo: per esempio ogni quindici minuti per due ore, ogni trenta per le sei ore successive, poi ogni ora fino alle ventiquattro.
+
+18
+00:03:14,960 --> 00:03:25,530
+I segni di emorragia cerebrale: cefalea improvvisa, vomito, peggioramento neurologico, pressione che sale. Si sospende l'infusione, se e' ancora in corso, e si avvisa subito.
+
+19
+00:03:25,530 --> 00:03:36,640
+Si sorvegliano i sanguinamenti da altre sedi e l'angioedema di labbra e lingua, piu' frequente con gli ACE-inibitori. E di norma niente anticoagulanti ne' antiaggreganti nelle prime ventiquattro ore.
+
+20
+00:03:36,640 --> 00:03:48,640
+Il giorno dopo la signora e' piu' vigile e chiede da bere. Qui si gioca un'altra partita: prima di qualsiasi cosa per bocca, acqua e farmaci compresi, lo screening della deglutizione, lezione tre punto tre.
+
+21
+00:03:48,640 --> 00:03:59,880
+Se compaiono tosse o voce gorgogliante dopo il sorso, scolo dalla bocca, ritardo dell'atto deglutitorio, si sospende l'alimentazione per bocca e si richiede la valutazione logopedica.
+
+22
+00:03:59,880 --> 00:04:08,510
+Si garantiscono idratazione e nutrizione per altra via, e i farmaci in una forma adatta. E l'igiene del cavo orale, che riduce la polmonite da inalazione.
+
+23
+00:04:08,510 --> 00:04:18,170
+Nei giorni successivi, il posizionamento dell'arto plegico, sostenendo la spalla. Non si tira mai la persona dal braccio plegico, per non causare una sublussazione.
+
+24
+00:04:18,170 --> 00:04:28,650
+Si prevengono polmonite, trombosi, con la compressione pneumatica secondo prescrizione, lesioni da pressione e cadute. E la mobilizzazione e' progressiva, con la fisioterapia.
+
+25
+00:04:28,650 --> 00:04:40,400
+La continenza, evitando il catetere quando e' possibile. L'umore, perche' la depressione dopo l'ictus e' frequente. E la prevenzione secondaria: l'anticoagulazione per la fibrillazione atriale, nei tempi del medico.
+
+26
+00:04:40,400 --> 00:04:52,110
+Un approfondimento: comunicare con una persona afasica. L'afasia e' un disturbo del linguaggio, non dell'intelligenza: la signora capisce piu' di quanto riesca a dire, e soffre se e' trattata come una bambina.
+
+27
+00:04:52,110 --> 00:05:02,470
+Si parla lentamente, a frasi brevi, una domanda alla volta, meglio se chiusa, a cui si risponde si' o no. Si da' tempo per rispondere, senza completare le frasi al posto suo.
+
+28
+00:05:02,470 --> 00:05:14,530
+Si usano gesti, immagini, tabelle di comunicazione. Si verifica la comprensione, si riducono i rumori, si coinvolgono i familiari. Ed e' il presupposto per un consenso informato rispettoso.
+
+29
+00:05:14,530 --> 00:05:26,180
+La dimissione e la continuita'. Si valutano bisogni e disabilita' residua, e si sceglie il percorso riabilitativo: riabilitazione intensiva, Unita' Riabilitativa Territoriale, o casa con la fisioterapia.
+
+30
+00:05:26,180 --> 00:05:37,920
+L'educazione: riconoscere un nuovo ictus con la FAST e chiamare subito il centododici o il centodiciotto. Poi la terapia anticoagulante, la pressione, il fumo, l'alimentazione.
+
+31
+00:05:37,920 --> 00:05:48,520
+Il caregiver va formato sulla mobilizzazione sicura, sulla disfagia e sulla comunicazione. E poi la lettera infermieristica, e se necessario la valutazione dell'UVMD.
+
+32
+00:05:48,520 --> 00:06:00,810
+Gli errori. Attribuire la confusione alla stanchezza, e rivalutare dopo. Non annotare l'ultima volta in benessere. Dimenticare la glicemia. Dare acqua o la terapia orale prima dello screening della deglutizione.
+
+33
+00:06:00,810 --> 00:06:09,450
+Abbassare la pressione senza prescrizione. Posizionare un catetere non indispensabile prima della trombolisi. Tirare il paziente dal braccio plegico.
+
+34
+00:06:09,450 --> 00:06:19,500
+Il caso mette in luce chi ha visto per primo. E' stata l'OSS a notare il cambiamento e a chiamare subito: un'osservazione preziosa, che ha permesso di arrivare in tempo.
+
+35
+00:06:19,500 --> 00:06:30,550
+Il personale di supporto va formato a riconoscere e riferire i segni d'allarme: la FAST, una confusione nuova, una caduta, un cambiamento del respiro. Senza il timore di disturbare.
+
+36
+00:06:30,550 --> 00:06:44,080
+Nell'ictus una segnalazione tempestiva vale minuti di cervello, e ringraziare chi segnala rafforza la cultura della sicurezza. Lo stesso per i familiari: vanno ascoltati sempre, mai liquidati con un e' solo stanco.
+
+37
+00:06:44,080 --> 00:06:53,990
+Le domande d'orale. Prima: che cos'e' la FAST, e quale dato temporale e' decisivo? E' una scala di riconoscimento rapido: volto, braccia, linguaggio, tempo.
+
+38
+00:06:53,990 --> 00:07:01,440
+Il dato decisivo e' l'ultima volta in cui la persona e' stata vista in benessere: da quell'orario dipendono la trombolisi e la trombectomia.
+
+39
+00:07:01,440 --> 00:07:12,150
+Seconda: che cosa sorveglia dopo una trombolisi? Stato neurologico e pressione a intervalli ravvicinati, segni di emorragia cerebrale, sanguinamenti da altre sedi e angioedema.
+
+40
+00:07:12,150 --> 00:07:24,310
+Terza: perche' lo screening della deglutizione? Perche' dopo un ictus la disfagia e' frequente e spesso silente, e l'inalazione di acqua, cibo o compresse provoca polmoniti che peggiorano la prognosi.
+
+41
+00:07:24,310 --> 00:07:37,270
+La risposta modello. Paziente con fibrillazione atriale non anticoagulata, con improvvisa asimmetria del volto, deficit del braccio destro e linguaggio alterato: sospetto ictus, emergenza tempo-dipendente.
+
+42
+00:07:37,270 --> 00:07:55,170
+Annoto l'ultima volta in benessere e attivo subito medico e percorso stroke. Valuto ABCDE, glicemia, parametri, GCS e pupille. Digiuno, due accessi, prelievi, ECG e peso. Non tratto la pressione senza prescrizione.
+
+43
+00:07:55,170 --> 00:08:07,520
+Evito le procedure invasive non indispensabili. Collaboro alla TC e alla trombolisi, con sorveglianza neurologica e pressoria ravvicinata. Prima di qualsiasi cosa per bocca, lo screening della deglutizione.
+
+44
+00:08:07,520 --> 00:08:18,280
+Posiziono l'arto plegico, prevengo le complicanze dell'immobilita', uso strategie di comunicazione per l'afasia. Documento gli orari, informo i familiari e avvio il percorso riabilitativo.
+
+45
+00:08:18,280 --> 00:08:29,540
+I collegamenti. La disfagia con la tre punto tre. L'ictus e la trombolisi con la otto punto sei. L'ABCDE con la dieci punto due. La rete ictus con la tredici punto tre.
+
+46
+00:08:29,540 --> 00:08:43,580
+Vie motorie e linguaggio con la quattordici punto cinque. La fibrillazione atriale e gli anticoagulanti con la otto punto uno e la cinque punto cinque. L'URT e l'UVMD con la tredici punto quattro e la tredici punto cinque.
+
+47
+00:08:43,580 --> 00:08:53,440
+La frase del caso: l'orologio dell'ictus parte dall'ultima volta in cui la persona stava bene. Il primo dovere dell'infermiere e' conoscere quell'orario.
+
+48
+00:08:53,440 --> 00:09:04,960
+Nella prossima lezione: un paziente cirrotico che all'alba vomita sangue. Shock, trasfusione, vie aeree, encefalopatia e astinenza alcolica, tutto nello stesso letto. A tra poco.
