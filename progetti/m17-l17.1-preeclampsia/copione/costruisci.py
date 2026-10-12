@@ -11,7 +11,7 @@ BLOCCHI = [
  (2,"chiaro",0,"Ha un dolore allo stomaco, che lei attribuisce a una gastrite. Mani e volto sono gonfi da due giorni. La pressione e' centosessantotto su centododici; ripetuta, centosettanta su centodieci."),
  (2,"chiaro",0,"Proteinuria marcata allo stick, riflessi rotulei vivaci. Percepisce i movimenti del bambino. Fermati un momento: perche' quel dolore allo stomaco non e' una gastrite?"),
 
- (3,"chiaro",0,"[thoughtful] Il ragionamento. Un'ipertensione grave, da centosessanta su centodieci in su, dopo la ventesima settimana, con la proteinuria: e' una preeclampsia."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Un'ipertensione grave, da centosessanta su centodieci in su, dopo la ventesima settimana, con la proteinuria: e' una preeclampsia con segni di gravita'."),
  (3,"chiaro",0,"E ci sono tutti i segni di gravita' della lezione undici punto quattro: cefalea intensa, disturbi visivi, dolore epigastrico, edemi improvvisi, riflessi vivaci."),
  (3,"chiaro",0,"Il dolore epigastrico non e' una gastrite: puo' indicare un coinvolgimento del fegato, come nella sindrome HELLP. E il rischio e' imminente: eclampsia, cioe' convulsioni, ictus, distacco di placenta, sofferenza del feto."),
 

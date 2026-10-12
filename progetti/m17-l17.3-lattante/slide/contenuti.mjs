@@ -13,7 +13,7 @@ const LEZIONI = [
   {n:"14.1", t:"Compartimenti idrici", illu:"goccia"}];
 
 const PANNOLINO = (nota) => ({tipo:"calcolo", tema:"chiaro", righe:[
-  {tok:["pannolino bagnato", "−", "pannolino asciutto", "=", "urina"], nota}]});
+  {tok:["bagnato", "−", "asciutto", "=", "urina"], nota}]});
 
 const SEGNI = (att, k) => ({tipo:"griglia", tema:"chiaro", colonne:2, spunta:false, attive:att, celle:[
   {n:"1", t:"**Calo** di peso"}, {n:"2", t:"Fontanella **depressa**"},
@@ -99,7 +99,7 @@ export const SCENE = [
   {no:true, t:"La **virgola**", key:true}, {no:true, t:"**mg** e **ml** confusi"},
   {no:true, t:"Dosi **da adulto**"}, {no:true, t:"Confezioni con **concentrazioni diverse**"}]},
 
-{id:"s19", sopratitolo:"La diuresi nel lattante · si pesano i pannolini", ...PANNOLINO("**1 grammo ≈ 1 ml** · obiettivo indicativo: circa **1–2 ml/kg/ora**")},
+{id:"s19", sopratitolo:"La diuresi nel lattante · si pesa il pannolino, bagnato e asciutto", ...PANNOLINO("**1 grammo ≈ 1 ml** · obiettivo indicativo: circa **1–2 ml/kg/ora**")},
 {id:"s20", tipo:"griglia", tema:"chiaro", colonne:1, sopratitolo:"Più che nell'adulto", celle:[
   {t:"Si distinguono **urine** e **feci**"},
   {t:"Il **bilancio** di entrate e uscite, compresi vomito e diarrea", key:true},
@@ -117,10 +117,10 @@ export const SCENE = [
 
 {id:"s24", tipo:"tre", tema:"chiaro", sopratitolo:"Le precauzioni per le infezioni · le gastroenteriti virali dei bambini", box:[
   {n:"1", t:"Rotavirus, norovirus"}, {n:"2", t:"Via oro-fecale"}, {n:"3", t:"Molto contagiose", key:true}]},
-{id:"s25", tipo:"gesti", tema:"chiaro", sopratitolo:"Secondo protocollo", voci:[
-  {illu:"camice", t:"Precauzioni da contatto", d:"stanza dedicata, guanti, camice"},
-  {illu:"rubinetto", t:"Acqua e sapone", d:"quando il protocollo lo indica", key:true},
-  {illu:"dispenser", t:"Gel alcolico", d:"alcuni virus gli resistono"}]},
+{id:"s25", tipo:"icone", tema:"chiaro", sopratitolo:"Secondo protocollo", voci:[
+  {icona:"camice", t:"Precauzioni da contatto", d:"stanza dedicata, guanti, camice"},
+  {icona:"rubinetto", t:"Acqua e sapone", d:"quando il protocollo lo indica", key:true},
+  {icona:"dispenser", t:"Gel alcolico", d:"alcuni virus gli resistono"}]},
 {id:"s26", tipo:"griglia", tema:"chiaro", colonne:1, sopratitolo:"Pannolini, superfici, famiglia", celle:[
   {t:"Gestione attenta di **pannolini** e **superfici**"},
   {t:"I genitori: **mani**, **fasciatoio**, **giocattoli**"},
@@ -166,7 +166,7 @@ export const SCENE = [
 {id:"s38", tipo:"catena", tema:"chiaro", sopratitolo:"D2 · «… e quali precauzioni si adottano?»", passi:[
   {t:"Dose per chilo **× peso**"}, {t:"In **volume**", d:"dalla concentrazione"},
   {t:"**Dose massima**"}, {t:"**Doppio controllo**", key:true}, {t:"Siringa **orale**"}]},
-{id:"s39", sopratitolo:"D3 · «Come si misura la diuresi in un lattante?»", ...PANNOLINO("**1 grammo ≈ 1 ml** di urina")},
+{id:"s39", sopratitolo:"D3 · «Come si misura la diuresi in un lattante?» · il peso del pannolino", ...PANNOLINO("**1 grammo ≈ 1 ml** di urina")},
 
 {id:"s40", sopratitolo:"La risposta modello, in 15 righe", ...RISPOSTA([0])},
 {id:"s41", sopratitolo:"La risposta modello · le prime azioni", ...RISPOSTA([0,1,2])},

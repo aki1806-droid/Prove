@@ -67,3 +67,7 @@ stacco tracce             dopo s25   (chunk A 4.428 car · chunk B 4.297 car)
 - Scelta: la frase del caso a schermo comincia con «Mal di testa…» e mette «In gravidanza» nella riga sotto, per stare in tre righe; la voce la dice per intero come nello script.
 - Scelta: copertina con il sottotitolo «Un'emergenza che mette in pericolo due vite» (dalla voce della slide 1); la chiusura s50 ha il sottotitolo «Le quattro T, le azioni in sequenza, il neonato», preso dalla copertina della 17.2.
 - Scelta: il tema grafico è quello CISL del corso; i colori delle note di produzione dello script non sono usati.
+
+### Correzione dopo la revisione (12 ottobre 2026)
+
+- s05 (ragionamento): «e' una preeclampsia» diventa «e' una preeclampsia con segni di gravita'», perché la soglia 160/110 non venga presa per quella diagnostica (140/90 nella 11.4).
