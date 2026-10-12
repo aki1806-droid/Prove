@@ -6,11 +6,15 @@ Il patrimonio venoso e' spesso compromesso: gli accessi possono richiedere l'eco
 
 [thoughtful] Il pregiudizio. Lo stigma verso chi ha una dipendenza e' frequente anche fra i professionisti, e ha conseguenze concrete: dolore non trattato, astinenze non riconosciute, abbandono delle cure.
 
-Comincia dal linguaggio: persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione. E al collega si risponde con i fatti clinici, non con un giudizio.
+Comincia dal linguaggio: si dice persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione.
+
+E al collega che dice sta solo cercando farmaci si risponde con i fatti clinici: midriasi, sudorazione, dose non somministrata. Non con un altro giudizio.
 
 La dimissione e la continuita' con il SerD. Si comunicano il ricovero, la dose somministrata in ospedale e l'orario dell'ultima dose, per evitare sospensioni o doppie dosi nel passaggio.
 
-Si segnalano le terapie nuove, come antibiotici e analgesici. Si informa sul rischio di overdose quando la tolleranza si riduce, e sull'uso del naloxone secondo le indicazioni locali. E si fissa il follow-up.
+Si segnalano le terapie nuove, come antibiotici e analgesici, per le possibili interazioni. Si informa sul rischio di overdose quando la tolleranza si riduce, per esempio dopo un periodo senza assunzione.
+
+E sull'uso del naloxone, secondo le indicazioni locali. Infine si fissano gli appuntamenti di follow-up.
 
 Gli errori. Non chiedere all'ingresso della terapia sostitutiva. Interrompere il metadone. Leggere l'astinenza come ricerca di farmaci. Pensare che il metadone copra il dolore acuto.
 
@@ -30,7 +34,9 @@ Somministro la terapia sostitutiva prescritta, registrandola ed evitando doppie 
 
 Segnalo interazioni e rischio di allungamento del QT. Mi relaziono senza giudizio. Offro, con il consenso, screening e vaccinazioni. E alla dimissione garantisco la continuita' con il SerD.
 
-Collegamenti. Dolore e PCA, tre punto sette. Riconciliazione, cinque punto quattro. Naloxone, cinque punto sei. Stupefacenti, cinque punto sette. SerD, undici punto tre. Vene difficili, sei punto uno. Codice, uno punto quattro.
+I collegamenti. Dolore e PCA con la tre punto sette. La riconciliazione con la cinque punto quattro. Oppioidi e naloxone con la cinque punto sei. Gli stupefacenti e il DPR trecentonove con la cinque punto sette.
+
+Dipendenze e SerD con la undici punto tre. Gli accessi venosi difficili con la sei punto uno. E il Codice deontologico con la uno punto quattro.
 
 E un ritorno all'origine del problema: la riconciliazione all'ingresso. La terapia con metadone non e' stata rilevata, perche' spesso non compare fra le terapie di casa: la dispensa il SerD.
 

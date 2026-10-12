@@ -193,122 +193,143 @@
   "capitolo": 10,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Comincia dal linguaggio: persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione. E al collega si risponde con i fatti clinici, non con un giudizio."
+  "text": "Comincia dal linguaggio: si dice persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione."
  },
  {
   "id": "s30",
-  "capitolo": 11,
+  "capitolo": 10,
   "tema": "chiaro",
   "posa": 0,
-  "text": "La dimissione e la continuita' con il SerD. Si comunicano il ricovero, la dose somministrata in ospedale e l'orario dell'ultima dose, per evitare sospensioni o doppie dosi nel passaggio."
+  "text": "E al collega che dice sta solo cercando farmaci si risponde con i fatti clinici: midriasi, sudorazione, dose non somministrata. Non con un altro giudizio."
  },
  {
   "id": "s31",
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Si segnalano le terapie nuove, come antibiotici e analgesici. Si informa sul rischio di overdose quando la tolleranza si riduce, e sull'uso del naloxone secondo le indicazioni locali. E si fissa il follow-up."
+  "text": "La dimissione e la continuita' con il SerD. Si comunicano il ricovero, la dose somministrata in ospedale e l'orario dell'ultima dose, per evitare sospensioni o doppie dosi nel passaggio."
  },
  {
   "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si segnalano le terapie nuove, come antibiotici e analgesici, per le possibili interazioni. Si informa sul rischio di overdose quando la tolleranza si riduce, per esempio dopo un periodo senza assunzione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sull'uso del naloxone, secondo le indicazioni locali. Infine si fissano gli appuntamenti di follow-up."
+ },
+ {
+  "id": "s34",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
   "text": "Gli errori. Non chiedere all'ingresso della terapia sostitutiva. Interrompere il metadone. Leggere l'astinenza come ricerca di farmaci. Pensare che il metadone copra il dolore acuto."
  },
  {
-  "id": "s33",
+  "id": "s35",
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
   "text": "Sottotrattare il dolore per paura. Una doppia dose per mancata verifica. Trascurare le interazioni e il QT. Usare un linguaggio stigmatizzante."
  },
  {
-  "id": "s34",
+  "id": "s36",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "[curious] Le domande d'orale. Prima: come si riconosce l'astinenza? Midriasi, sudorazione, lacrimazione, rinorrea, sbadigli, pelle d'oca, crampi, diarrea, tachicardia, ansia e agitazione, con scale dedicate."
  },
  {
-  "id": "s35",
+  "id": "s37",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "Seconda: il dolore acuto nel paziente in metadone? Si continua la dose abituale, che previene l'astinenza, e si aggiunge un'analgesia multimodale, con oppioidi a dosi spesso piu' alte, sorvegliando sedazione e respiro."
  },
  {
-  "id": "s36",
+  "id": "s38",
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
   "text": "Terza: astinenza e overdose? L'astinenza da' midriasi, agitazione, iperattivita' autonomica. L'overdose miosi, sedazione profonda e depressione respiratoria: un'emergenza, da trattare con il naloxone."
  },
  {
-  "id": "s37",
+  "id": "s39",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "La risposta modello. Paziente in terapia con metadone, ricoverato per un ascesso, che dopo la mancata somministrazione della dose presenta midriasi, sudorazione, lacrimazione, rinorrea, sbadigli, crampi, diarrea e agitazione."
  },
  {
-  "id": "s38",
+  "id": "s40",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "E' un'astinenza da oppioidi. Rilevo i parametri, valuto l'astinenza con una scala, avviso il medico, e verifico con il SerD dose e orario dell'ultima assunzione."
  },
  {
-  "id": "s39",
+  "id": "s41",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "Somministro la terapia sostitutiva prescritta, registrandola ed evitando doppie dosi. Gestisco il dolore con analgesia multimodale, considerando la tolleranza e sorvegliando sedazione e respiro, con naloxone disponibile."
  },
  {
-  "id": "s40",
+  "id": "s42",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
   "text": "Segnalo interazioni e rischio di allungamento del QT. Mi relaziono senza giudizio. Offro, con il consenso, screening e vaccinazioni. E alla dimissione garantisco la continuita' con il SerD."
  },
  {
-  "id": "s41",
+  "id": "s43",
   "capitolo": 15,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Collegamenti. Dolore e PCA, tre punto sette. Riconciliazione, cinque punto quattro. Naloxone, cinque punto sei. Stupefacenti, cinque punto sette. SerD, undici punto tre. Vene difficili, sei punto uno. Codice, uno punto quattro."
+  "text": "I collegamenti. Dolore e PCA con la tre punto sette. La riconciliazione con la cinque punto quattro. Oppioidi e naloxone con la cinque punto sei. Gli stupefacenti e il DPR trecentonove con la cinque punto sette."
  },
  {
-  "id": "s42",
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dipendenze e SerD con la undici punto tre. Gli accessi venosi difficili con la sei punto uno. E il Codice deontologico con la uno punto quattro."
+ },
+ {
+  "id": "s45",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "E un ritorno all'origine del problema: la riconciliazione all'ingresso. La terapia con metadone non e' stata rilevata, perche' spesso non compare fra le terapie di casa: la dispensa il SerD."
  },
  {
-  "id": "s43",
+  "id": "s46",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "All'ingresso si chiedono sempre i farmaci in corso, compresi quelli dispensati da servizi come il SerD, il Centro di Salute Mentale o gli ambulatori specialistici, e le terapie a lento rilascio."
  },
  {
-  "id": "s44",
+  "id": "s47",
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
   "text": "La dose si verifica con una fonte documentata, e la prima somministrazione si pianifica anche nei giorni festivi. E' la Raccomandazione diciassette."
  },
  {
-  "id": "s45",
+  "id": "s48",
   "capitolo": 17,
   "tema": "profondo",
   "posa": 1.2,
   "text": "[serious] La frase del caso: il metadone e' una terapia. Si verifica, si continua e si registra come ogni altro farmaco."
  },
  {
-  "id": "s46",
+  "id": "s49",
   "capitolo": 18,
   "tema": "chiaro",
   "posa": 0,

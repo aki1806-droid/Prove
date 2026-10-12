@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Molti infermieri lavorano nei Centri di Servizi, le strutture residenziali venete per anziani non autosufficienti. Di notte, spesso, c'e' un solo infermiere per un intero nucleo, e il medico non e' in struttura."),
+ (1,"chiaro",0,"In questo caso un ospite con demenza avanzata ha la febbre. L'infermiere deve valutare, attivare il medico e partecipare a una decisione difficile: curarlo in struttura, o mandarlo in pronto soccorso?"),
+ (1,"chiaro",0,"Ci servono le lezioni due punto tre, tre punto tre, undici punto due, undici punto cinque e tredici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Centro di Servizi, l'una di notte. Il signor Ernesto, ottantotto anni, ha una demenza di Alzheimer avanzata: non cammina, comunica poco, ha una disfagia nota."),
+ (2,"chiaro",0,"Nella pianificazione condivisa con la figlia, che e' la sua amministratrice di sostegno, e con il medico, l'obiettivo prioritario e' il comfort, senza rianimazione cardiopolmonare."),
+ (2,"chiaro",0,"Il ricovero e' previsto solo se utile per sintomi non gestibili in struttura. A cena ha tossito piu' volte. Ora ha la febbre a trentotto virgola otto, una frequenza respiratoria di ventisei, una saturazione di ottantanove."),
+ (2,"chiaro",0,"Frequenza centododici, pressione centocinque su sessanta, rantoli a destra, ed e' piu' sonnolento. Fermati un momento: che cosa fai, e chi deve partecipare alla decisione?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Disfagia, tosse durante il pasto, febbre, tachipnea, desaturazione e rantoli: una probabile polmonite da inalazione, come nel caso sedici punto nove. Il punteggio di allerta e' elevato: e' seria."),
+ (3,"chiaro",0,"[thoughtful] Ma con una demenza avanzata e una pianificazione orientata al comfort, la scelta fra struttura e ospedale non e' automatica. E' una decisione medica, condivisa con l'amministratrice di sostegno."),
+ (3,"chiaro",0,"E coerente con la volonta' espressa. L'infermiere ha un ruolo centrale: valuta, comunica, propone, e mette in pratica il piano."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Valutazione ABCDE e glicemia. Posizione semiseduta, con aspirazione del cavo orale se necessaria. Ossigeno, se in struttura c'e' un concentratore o una bombola, secondo protocollo."),
+ (4,"chiaro",0,"Si sospende l'alimentazione per bocca. Si avvisa il medico secondo l'organizzazione della struttura, reperibile o continuita' assistenziale, con lo SBAR. Si consulta la documentazione: pianificazione, terapie, allergie."),
+ (4,"chiaro",0,"E si attribuisce all'OSS la sorveglianza degli altri ospiti, perche' di notte l'infermiere non puo' lasciare scoperto il resto del nucleo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"La chiamata al medico, con lo SBAR. Situazione: Ernesto, ottantotto anni, febbre a trentotto virgola otto, saturazione ottantanove, frequenza respiratoria ventisei, piu' sonnolento."),
+ (5,"chiaro",0,"Background: demenza avanzata, disfagia, tosse a cena; la pianificazione prevede il comfort, niente rianimazione, ricovero solo se utile per sintomi non gestibili. Accertamento: probabile polmonite da inalazione."),
+ (5,"chiaro",0,"In struttura abbiamo l'ossigeno e possiamo usare la via sottocutanea. Raccomandazione: chiedo una valutazione e indicazioni per la terapia; la figlia e' reperibile. Citare la pianificazione orienta subito la decisione."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La decisione. Il medico valuta Ernesto e, sentita la figlia, decide di trattarlo in struttura, coerentemente con la pianificazione. Secondo prescrizione: un antibiotico, l'ossigeno con un target, l'antipiretico."),
+ (6,"chiaro",0,"E l'idratazione per via sottocutanea, se non puo' bere. L'infermiere cura la posizione e il cavo orale, gestisce dispnea, secrezioni e agitazione, controlla parametri e comfort a intervalli concordati."),
+ (6,"chiaro",0,"E conosce i criteri per rivalutare un trasferimento, per esempio sintomi che non si riescono a controllare. E documenta tutto."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"[serious] Perche' non sempre il pronto soccorso? Per una persona con demenza avanzata il trasferimento puo' causare delirium, cadute, lesioni da pressione, contenzioni, lunghe attese, procedure invasive di scarso beneficio."),
+ (7,"chiaro",0,"Per molti problemi, come una polmonite in chi ha scelto il comfort, le cure in struttura possono essere adeguate. Ma il trasferimento resta giusto se serve un trattamento non disponibile e coerente con gli obiettivi."),
+ (7,"chiaro",0,"Una frattura da trattare, un'emorragia, sintomi non controllati. Si decide sulla volonta', sul beneficio atteso e sulle possibilita' della struttura. Non e' non fare niente: e' la cosa giusta nel posto giusto."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La figlia viene chiamata nella notte, e chiede spaventata: non lo portate in ospedale? Non volete curarlo? Si ascoltano la sua paura e il suo senso di colpa."),
+ (8,"chiaro",0,"Si spiega che le cure continuano in struttura: antibiotico, ossigeno, idratazione, comfort. Si ricordano con calma le scelte condivise mesi prima. E il medico e' disponibile a parlarle."),
+ (8,"chiaro",0,"Con onesta': la decisione si puo' rivedere se cambiano le condizioni o la sua valutazione, e lei puo' venire, se lo desidera. Molte famiglie hanno bisogno di sentire che il loro caro non e' abbandonato."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Un approfondimento tecnico, molto usato nelle strutture e a domicilio: l'ipodermoclisi, cioe' l'idratazione per via sottocutanea."),
+ (9,"chiaro",0,"E' indicata nella disidratazione lieve-moderata, quando la via orale non e' possibile e quella venosa e' difficile o non proporzionata."),
+ (9,"chiaro",0,"Le sedi: addome, cosce, regione sotto la clavicola, e il dorso nel paziente agitato, che cosi' non puo' strappare l'ago. Soluzioni isotoniche secondo prescrizione, a velocita' lenta."),
+ (9,"chiaro",0,"Si sorvegliano edema locale, arrossamento, dolore e segni di infezione, e si cambia la sede secondo protocollo. Non e' adatta alle emergenze o allo shock, dove serve la via venosa."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"E se il trasferimento fosse stato necessario? Si prepara una scheda di trasferimento completa: il motivo, i parametri, le terapie, le allergie, l'autonomia e lo stato cognitivo abituale."),
+ (10,"chiaro",0,"Un'informazione preziosa per il pronto soccorso, che altrimenti non sa se la confusione e' nuova. Poi la pianificazione condivisa e le eventuali DAT, i contatti del familiare e del medico."),
+ (10,"chiaro",0,"Con Ernesto viaggiano gli occhiali, le protesi, gli apparecchi acustici. Si comunica con il pronto soccorso con lo SBAR. E una persona di riferimento lo accompagna o lo raggiunge."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La prevenzione nel nucleo. Per la disfagia: consistenze adatte, posizione seduta durante e dopo il pasto, assistenza al pasto da parte di personale formato, igiene del cavo orale."),
+ (11,"chiaro",0,"Piu' ospiti con febbre o sintomi respiratori: possibile focolaio, per esempio di influenza, con precauzioni e segnalazione. Vaccinazioni di ospiti e operatori, igiene delle mani, e la revisione periodica del PAI."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Inviare in pronto soccorso per abitudine, senza valutazione e senza considerare la volonta'. Al contrario, non attivare il medico per non disturbare di notte. Non consultare la pianificazione condivisa."),
+ (12,"chiaro",0,"Continuare a far mangiare un ospite che tossisce. Lasciare il resto del nucleo senza sorveglianza. Una scheda di trasferimento senza lo stato cognitivo abituale. Non coinvolgere la famiglia."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: come si decide il trasferimento? E' una decisione medica, condivisa con la persona o con il suo rappresentante."),
+ (13,"chiaro",0,"Si basa sulla gravita', sulla volonta' espressa e sulla pianificazione condivisa, sul beneficio atteso e sulle possibilita' della struttura. L'infermiere valuta, comunica con lo SBAR e partecipa."),
+ (13,"chiaro",0,"Seconda: l'ipodermoclisi? L'idratazione per via sottocutanea con soluzioni isotoniche, nella disidratazione lieve-moderata quando la via orale non e' possibile. Non nelle emergenze."),
+ (13,"chiaro",0,"Terza: la scheda di trasferimento? Motivo, parametri, terapie, allergie, autonomia e stato cognitivo abituale, pianificazione e DAT, contatti, ausili personali."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Ospite di un Centro di Servizi con demenza avanzata e disfagia che, dopo tosse al pasto, ha febbre, tachipnea, desaturazione, rantoli e sonnolenza: probabile polmonite da inalazione."),
+ (14,"chiaro",0,"Valuto con ABCDE e glicemia, posiziono semiseduto, aspiro, somministro ossigeno, sospendo l'alimentazione per bocca e attribuisco all'OSS la sorveglianza degli altri ospiti."),
+ (14,"chiaro",0,"Consulto la pianificazione condivisa e avviso il medico con SBAR, citandola. Collaboro alla decisione, condivisa con l'amministratrice di sostegno, di trattarlo in struttura."),
+ (14,"chiaro",0,"Antibiotico, ossigeno, antipiretico e idratazione sottocutanea secondo prescrizione, cura dei sintomi, criteri per un eventuale trasferimento. Sostengo la figlia. Documento, e rivedo con l'equipe la prevenzione."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti: NEWS2, due punto tre. Disfagia, tre punto tre. Demenza, undici punto due. Cure palliative, undici punto cinque e diciassette punto sette. Centri di Servizi, tredici punto cinque. Inalazione, sedici punto nove."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"L'infermiere nei Centri di Servizi: grande autonomia, soprattutto di notte. Coordinamento degli OSS, terapia di molti ospiti, prevenzione, famiglie, fine vita. Un ambito ricco, spesso sottovalutato, e molto richiesto."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[thoughtful] La frase del caso: curare in struttura non e' curare di meno. E' curare secondo la volonta' della persona."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una paziente straniera che parla poco l'italiano, un figlio che vorrebbe tradurre per lei, un consenso da raccogliere e una dimissione da costruire insieme. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"La chiamata al medico",
+ 6:"La decisione: curare in struttura",7:"Perche' non sempre il pronto soccorso",8:"La figlia al telefono",
+ 9:"L'ipodermoclisi",10:"Se il trasferimento fosse stato necessario",11:"La prevenzione nel nucleo",
+ 12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"L'infermiere nei Centri di Servizi",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

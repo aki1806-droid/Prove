@@ -40,10 +40,12 @@ BLOCCHI = [
  (9,"chiaro",0,"Il patrimonio venoso e' spesso compromesso: gli accessi possono richiedere l'ecografo, come nella lezione sei punto uno. E si considerano la salute mentale e la situazione sociale."),
 
  (10,"chiaro",0,"[thoughtful] Il pregiudizio. Lo stigma verso chi ha una dipendenza e' frequente anche fra i professionisti, e ha conseguenze concrete: dolore non trattato, astinenze non riconosciute, abbandono delle cure."),
- (10,"chiaro",0,"Comincia dal linguaggio: persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione. E al collega si risponde con i fatti clinici, non con un giudizio."),
+ (10,"chiaro",0,"Comincia dal linguaggio: si dice persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione."),
+ (10,"chiaro",0,"E al collega che dice sta solo cercando farmaci si risponde con i fatti clinici: midriasi, sudorazione, dose non somministrata. Non con un altro giudizio."),
 
  (11,"chiaro",0,"La dimissione e la continuita' con il SerD. Si comunicano il ricovero, la dose somministrata in ospedale e l'orario dell'ultima dose, per evitare sospensioni o doppie dosi nel passaggio."),
- (11,"chiaro",0,"Si segnalano le terapie nuove, come antibiotici e analgesici. Si informa sul rischio di overdose quando la tolleranza si riduce, e sull'uso del naloxone secondo le indicazioni locali. E si fissa il follow-up."),
+ (11,"chiaro",0,"Si segnalano le terapie nuove, come antibiotici e analgesici, per le possibili interazioni. Si informa sul rischio di overdose quando la tolleranza si riduce, per esempio dopo un periodo senza assunzione."),
+ (11,"chiaro",0,"E sull'uso del naloxone, secondo le indicazioni locali. Infine si fissano gli appuntamenti di follow-up."),
 
  (12,"chiaro",0,"Gli errori. Non chiedere all'ingresso della terapia sostitutiva. Interrompere il metadone. Leggere l'astinenza come ricerca di farmaci. Pensare che il metadone copra il dolore acuto."),
  (12,"chiaro",0,"Sottotrattare il dolore per paura. Una doppia dose per mancata verifica. Trascurare le interazioni e il QT. Usare un linguaggio stigmatizzante."),
@@ -57,7 +59,8 @@ BLOCCHI = [
  (14,"chiaro",0,"Somministro la terapia sostitutiva prescritta, registrandola ed evitando doppie dosi. Gestisco il dolore con analgesia multimodale, considerando la tolleranza e sorvegliando sedazione e respiro, con naloxone disponibile."),
  (14,"chiaro",0,"Segnalo interazioni e rischio di allungamento del QT. Mi relaziono senza giudizio. Offro, con il consenso, screening e vaccinazioni. E alla dimissione garantisco la continuita' con il SerD."),
 
- (15,"chiaro",0,"Collegamenti. Dolore e PCA, tre punto sette. Riconciliazione, cinque punto quattro. Naloxone, cinque punto sei. Stupefacenti, cinque punto sette. SerD, undici punto tre. Vene difficili, sei punto uno. Codice, uno punto quattro."),
+ (15,"chiaro",0,"I collegamenti. Dolore e PCA con la tre punto sette. La riconciliazione con la cinque punto quattro. Oppioidi e naloxone con la cinque punto sei. Gli stupefacenti e il DPR trecentonove con la cinque punto sette."),
+ (15,"chiaro",0,"Dipendenze e SerD con la undici punto tre. Gli accessi venosi difficili con la sei punto uno. E il Codice deontologico con la uno punto quattro."),
 
  (16,"chiaro",0,"E un ritorno all'origine del problema: la riconciliazione all'ingresso. La terapia con metadone non e' stata rilevata, perche' spesso non compare fra le terapie di casa: la dispensa il SerD."),
  (16,"chiaro",0,"All'ingresso si chiedono sempre i farmaci in corso, compresi quelli dispensati da servizi come il SerD, il Centro di Salute Mentale o gli ambulatori specialistici, e le terapie a lento rilascio."),

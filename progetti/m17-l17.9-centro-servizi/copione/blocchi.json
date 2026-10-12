@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Molti infermieri lavorano nei Centri di Servizi, le strutture residenziali venete per anziani non autosufficienti. Di notte, spesso, c'e' un solo infermiere per un intero nucleo, e il medico non e' in struttura."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questo caso un ospite con demenza avanzata ha la febbre. L'infermiere deve valutare, attivare il medico e partecipare a una decisione difficile: curarlo in struttura, o mandarlo in pronto soccorso?"
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci servono le lezioni due punto tre, tre punto tre, undici punto due, undici punto cinque e tredici punto cinque."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Centro di Servizi, l'una di notte. Il signor Ernesto, ottantotto anni, ha una demenza di Alzheimer avanzata: non cammina, comunica poco, ha una disfagia nota."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella pianificazione condivisa con la figlia, che e' la sua amministratrice di sostegno, e con il medico, l'obiettivo prioritario e' il comfort, senza rianimazione cardiopolmonare."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ricovero e' previsto solo se utile per sintomi non gestibili in struttura. A cena ha tossito piu' volte. Ora ha la febbre a trentotto virgola otto, una frequenza respiratoria di ventisei, una saturazione di ottantanove."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Frequenza centododici, pressione centocinque su sessanta, rantoli a destra, ed e' piu' sonnolento. Fermati un momento: che cosa fai, e chi deve partecipare alla decisione?"
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento. Disfagia, tosse durante il pasto, febbre, tachipnea, desaturazione e rantoli: una probabile polmonite da inalazione, come nel caso sedici punto nove. Il punteggio di allerta e' elevato: e' seria."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Ma con una demenza avanzata e una pianificazione orientata al comfort, la scelta fra struttura e ospedale non e' automatica. E' una decisione medica, condivisa con l'amministratrice di sostegno."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E coerente con la volonta' espressa. L'infermiere ha un ruolo centrale: valuta, comunica, propone, e mette in pratica il piano."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. Valutazione ABCDE e glicemia. Posizione semiseduta, con aspirazione del cavo orale se necessaria. Ossigeno, se in struttura c'e' un concentratore o una bombola, secondo protocollo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sospende l'alimentazione per bocca. Si avvisa il medico secondo l'organizzazione della struttura, reperibile o continuita' assistenziale, con lo SBAR. Si consulta la documentazione: pianificazione, terapie, allergie."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si attribuisce all'OSS la sorveglianza degli altri ospiti, perche' di notte l'infermiere non puo' lasciare scoperto il resto del nucleo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La chiamata al medico, con lo SBAR. Situazione: Ernesto, ottantotto anni, febbre a trentotto virgola otto, saturazione ottantanove, frequenza respiratoria ventisei, piu' sonnolento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Background: demenza avanzata, disfagia, tosse a cena; la pianificazione prevede il comfort, niente rianimazione, ricovero solo se utile per sintomi non gestibili. Accertamento: probabile polmonite da inalazione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In struttura abbiamo l'ossigeno e possiamo usare la via sottocutanea. Raccomandazione: chiedo una valutazione e indicazioni per la terapia; la figlia e' reperibile. Citare la pianificazione orienta subito la decisione."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La decisione. Il medico valuta Ernesto e, sentita la figlia, decide di trattarlo in struttura, coerentemente con la pianificazione. Secondo prescrizione: un antibiotico, l'ossigeno con un target, l'antipiretico."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'idratazione per via sottocutanea, se non puo' bere. L'infermiere cura la posizione e il cavo orale, gestisce dispnea, secrezioni e agitazione, controlla parametri e comfort a intervalli concordati."
+ },
+ {
+  "id": "s20",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E conosce i criteri per rivalutare un trasferimento, per esempio sintomi che non si riescono a controllare. E documenta tutto."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Perche' non sempre il pronto soccorso? Per una persona con demenza avanzata il trasferimento puo' causare delirium, cadute, lesioni da pressione, contenzioni, lunghe attese, procedure invasive di scarso beneficio."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per molti problemi, come una polmonite in chi ha scelto il comfort, le cure in struttura possono essere adeguate. Ma il trasferimento resta giusto se serve un trattamento non disponibile e coerente con gli obiettivi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una frattura da trattare, un'emorragia, sintomi non controllati. Si decide sulla volonta', sul beneficio atteso e sulle possibilita' della struttura. Non e' non fare niente: e' la cosa giusta nel posto giusto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La figlia viene chiamata nella notte, e chiede spaventata: non lo portate in ospedale? Non volete curarlo? Si ascoltano la sua paura e il suo senso di colpa."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si spiega che le cure continuano in struttura: antibiotico, ossigeno, idratazione, comfort. Si ricordano con calma le scelte condivise mesi prima. E il medico e' disponibile a parlarle."
+ },
+ {
+  "id": "s26",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con onesta': la decisione si puo' rivedere se cambiano le condizioni o la sua valutazione, e lei puo' venire, se lo desidera. Molte famiglie hanno bisogno di sentire che il loro caro non e' abbandonato."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento tecnico, molto usato nelle strutture e a domicilio: l'ipodermoclisi, cioe' l'idratazione per via sottocutanea."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' indicata nella disidratazione lieve-moderata, quando la via orale non e' possibile e quella venosa e' difficile o non proporzionata."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le sedi: addome, cosce, regione sotto la clavicola, e il dorso nel paziente agitato, che cosi' non puo' strappare l'ago. Soluzioni isotoniche secondo prescrizione, a velocita' lenta."
+ },
+ {
+  "id": "s30",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano edema locale, arrossamento, dolore e segni di infezione, e si cambia la sede secondo protocollo. Non e' adatta alle emergenze o allo shock, dove serve la via venosa."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se il trasferimento fosse stato necessario? Si prepara una scheda di trasferimento completa: il motivo, i parametri, le terapie, le allergie, l'autonomia e lo stato cognitivo abituale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'informazione preziosa per il pronto soccorso, che altrimenti non sa se la confusione e' nuova. Poi la pianificazione condivisa e le eventuali DAT, i contatti del familiare e del medico."
+ },
+ {
+  "id": "s33",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con Ernesto viaggiano gli occhiali, le protesi, gli apparecchi acustici. Si comunica con il pronto soccorso con lo SBAR. E una persona di riferimento lo accompagna o lo raggiunge."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione nel nucleo. Per la disfagia: consistenze adatte, posizione seduta durante e dopo il pasto, assistenza al pasto da parte di personale formato, igiene del cavo orale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piu' ospiti con febbre o sintomi respiratori: possibile focolaio, per esempio di influenza, con precauzioni e segnalazione. Vaccinazioni di ospiti e operatori, igiene delle mani, e la revisione periodica del PAI."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Inviare in pronto soccorso per abitudine, senza valutazione e senza considerare la volonta'. Al contrario, non attivare il medico per non disturbare di notte. Non consultare la pianificazione condivisa."
+ },
+ {
+  "id": "s37",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Continuare a far mangiare un ospite che tossisce. Lasciare il resto del nucleo senza sorveglianza. Una scheda di trasferimento senza lo stato cognitivo abituale. Non coinvolgere la famiglia."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: come si decide il trasferimento? E' una decisione medica, condivisa con la persona o con il suo rappresentante."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si basa sulla gravita', sulla volonta' espressa e sulla pianificazione condivisa, sul beneficio atteso e sulle possibilita' della struttura. L'infermiere valuta, comunica con lo SBAR e partecipa."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: l'ipodermoclisi? L'idratazione per via sottocutanea con soluzioni isotoniche, nella disidratazione lieve-moderata quando la via orale non e' possibile. Non nelle emergenze."
+ },
+ {
+  "id": "s41",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: la scheda di trasferimento? Motivo, parametri, terapie, allergie, autonomia e stato cognitivo abituale, pianificazione e DAT, contatti, ausili personali."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Ospite di un Centro di Servizi con demenza avanzata e disfagia che, dopo tosse al pasto, ha febbre, tachipnea, desaturazione, rantoli e sonnolenza: probabile polmonite da inalazione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Valuto con ABCDE e glicemia, posiziono semiseduto, aspiro, somministro ossigeno, sospendo l'alimentazione per bocca e attribuisco all'OSS la sorveglianza degli altri ospiti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Consulto la pianificazione condivisa e avviso il medico con SBAR, citandola. Collaboro alla decisione, condivisa con l'amministratrice di sostegno, di trattarlo in struttura."
+ },
+ {
+  "id": "s45",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Antibiotico, ossigeno, antipiretico e idratazione sottocutanea secondo prescrizione, cura dei sintomi, criteri per un eventuale trasferimento. Sostengo la figlia. Documento, e rivedo con l'equipe la prevenzione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti: NEWS2, due punto tre. Disfagia, tre punto tre. Demenza, undici punto due. Cure palliative, undici punto cinque e diciassette punto sette. Centri di Servizi, tredici punto cinque. Inalazione, sedici punto nove."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere nei Centri di Servizi: grande autonomia, soprattutto di notte. Coordinamento degli OSS, terapia di molti ospiti, prevenzione, famiglie, fine vita. Un ambito ricco, spesso sottovalutato, e molto richiesto."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[thoughtful] La frase del caso: curare in struttura non e' curare di meno. E' curare secondo la volonta' della persona."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: una paziente straniera che parla poco l'italiano, un figlio che vorrebbe tradurre per lei, un consenso da raccogliere e una dimissione da costruire insieme. A tra poco."
+ }
+]
