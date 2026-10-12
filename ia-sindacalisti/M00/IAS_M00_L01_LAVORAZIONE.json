@@ -43,7 +43,9 @@
   "font": "Montserrat, Inter e Barlow Condensed scaricati in kit/font (OFL) e caricati in locale: il browser di render non raggiunge Google Fonts.",
   "transizioni": "Taglio; dissolvenza di 8 fotogrammi al cambio di tipo di fondo (chiaro/scuro/immagine); tendina del colore del livello su S028, S033, S054.",
   "fondi_in_fila": "La regola dei tre fondi uguali è applicata ai fondi grafici; le sequenze di immagini e clip non sono contate, perché la correzione prevista (inserire un'immagine o una clip) non ha senso lì.",
-  "testi_a_schermo": "Controllati con strumenti/controlla_testi.py: nessuno oltre 6 parole, nessuno identico al parlato."
+  "testi_a_schermo": "Controllati con strumenti/controlla_testi.py: nessuno oltre 6 parole, nessuno identico al parlato.",
+  "correzioni_al_kit": "Nella copia di scena.html usata per il render (build/…/pagine) i numeri delle griglie su fondo scuro sono bianchi: nel colore del livello (verde o blu su verde notte) non si leggevano (S035, S054). Il kit originale non è modificato.",
+  "camera_e_logo": "Gli zoom sugli SVG tengono il titolo fuori campo o lontano dal logo fisso: S014 scorre i giorni della settimana con il titolo fuori campo, S046 zooma sulle schede del kit, S032m ripete l'animazione della mappa intera e chiude con uno zoom leggero (1,06)."
  },
  "problemi": [
   "Higgsfield non ha generato nulla: account in «grace period», limite giornaliero di generazioni raggiunto (563 crediti disponibili ma non spendibili). Immagini e clip fatte con ElevenLabs, come scelto da Achille.",
@@ -53,7 +55,7 @@
   "C04b-e: il relatore in fondo alla sala è rivolto verso la camera, sfocato e lontano; nessun volto riconoscibile ma da controllare.",
   "Le clip Kling 2.5 Turbo durano 5 s: per coprire alcune inquadrature sono rallentate tra 0,8x e 0,96x.",
   "I sottotitoli hanno i tempi reali dei blocchi; dentro il blocco le frasi sono distribuite in proporzione ai caratteri, non allineate parola per parola.",
-  "Nessuno ha ancora ascoltato o guardato il video per intero: i controlli sono su durate, provini e fotogrammi."
+  "Nessuno ha ancora ascoltato o guardato il video per intero: i controlli sono su durate, provini e fotogrammi. Il controllo della voce con trascrizione automatica non è stato possibile (in questa sessione mancano gli strumenti di caricamento file di ElevenLabs): da ascoltare, in particolare i nomi ChatGPT, Claude, Gemini, RSU, CISL FP."
  ],
  "costi": {
   "voce_elevenlabs_usd": 2.27,

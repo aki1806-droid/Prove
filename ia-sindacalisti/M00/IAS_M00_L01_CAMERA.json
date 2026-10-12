@@ -1,11 +1,139 @@
 {
- "_nota": "Movimenti di camera sulle animazioni SVG, aggiunti in montaggio. Chiavi: (secondi dall'inizio dell'inquadratura, zoom, centro x, centro y). Senza piano: animazione, poi zoom lento 1,0 -> 1,25 sul 'dettaglio'.",
- "IAS_M00_L01_A1_mappa-corso.svg": {"fondo": "chiaro", "dettaglio": [560, 300],
-   "S029": {"da_fine": true, "chiavi": [[0, 1.0, 960, 540], [2, 1.6, 1310, 440], [11, 1.68, 1330, 440], [13.5, 1.6, 1600, 650], [99, 1.68, 1600, 660]]},
-   "S030": {"da_fine": true, "chiavi": [[0, 1.0, 960, 540], [2, 1.7, 800, 820], [99, 1.8, 780, 820]]},
-   "S032m": {"da_fine": true, "chiavi": [[0, 1.0, 960, 540], [99, 1.08, 960, 560]]}},
- "IAS_M00_L01_A2_settimana-in-sede.svg": {"fondo": "chiaro", "dettaglio": [960, 520],
-   "S014": {"chiavi": [[0, 1.0, 960, 540], [6.6, 1.0, 960, 540], [8.6, 1.25, 768, 520], [99, 1.25, 1152, 520]]}},
- "IAS_M00_L01_A3_valcorta.svg": {"fondo": "scuro", "dettaglio": [1400, 470]},
- "IAS_M00_L01_A4_kit.svg": {"fondo": "scuro", "dettaglio": [1320, 600]}
+ "_nota": "Movimenti di camera sulle animazioni SVG, aggiunti in montaggio. Chiavi: (secondi dall'inizio dell'inquadratura, zoom, centro x, centro y). Senza piano: animazione, poi zoom lento 1,0 -> 1,25 sul 'dettaglio'. Le inquadrature con zoom tengono il titolo dell'animazione fuori campo o lontano dal logo, che resta fisso in alto a sinistra.",
+ "IAS_M00_L01_A1_mappa-corso.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   560,
+   300
+  ],
+  "S029": {
+   "da_fine": true,
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     2,
+     1.6,
+     1310,
+     440
+    ],
+    [
+     11,
+     1.68,
+     1330,
+     440
+    ],
+    [
+     13.5,
+     1.6,
+     1600,
+     650
+    ],
+    [
+     99,
+     1.68,
+     1600,
+     660
+    ]
+   ]
+  },
+  "S030": {
+   "da_fine": true,
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     2,
+     1.7,
+     800,
+     820
+    ],
+    [
+     99,
+     1.8,
+     780,
+     820
+    ]
+   ]
+  },
+  "S032m": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     7.8,
+     1.0,
+     960,
+     540
+    ],
+    [
+     99,
+     1.06,
+     940,
+     520
+    ]
+   ]
+  }
+ },
+ "IAS_M00_L01_A2_settimana-in-sede.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   960,
+   520
+  ],
+  "S014": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     6.6,
+     1.0,
+     960,
+     540
+    ],
+    [
+     8.6,
+     1.25,
+     768,
+     640
+    ],
+    [
+     99,
+     1.25,
+     1152,
+     640
+    ]
+   ]
+  }
+ },
+ "IAS_M00_L01_A3_valcorta.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   1400,
+   470
+  ]
+ },
+ "IAS_M00_L01_A4_kit.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   1320,
+   640
+  ]
+ }
 }

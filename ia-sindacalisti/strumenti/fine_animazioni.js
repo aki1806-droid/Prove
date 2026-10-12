@@ -8,7 +8,7 @@ const { chromium } = require('playwright');
   for (const f of process.argv.slice(2)) {
     await p.goto('file://' + require('path').resolve(f));
     await p.evaluate(() => document.fonts.ready);
-    out[f] = await p.evaluate(() => Math.max(0, ...document.getAnimations().map(a => a.effect.getComputedTiming().endTime)));
+    out[require('path').basename(f)] = await p.evaluate(() => Math.max(0, ...document.getAnimations().map(a => a.effect.getComputedTiming().endTime)));
   }
   console.log(JSON.stringify(out));
   await b.close();
