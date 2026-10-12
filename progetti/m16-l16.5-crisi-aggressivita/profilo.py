@@ -32,21 +32,30 @@ CHIUSURA  = 10.0
 # l'unico posto che la lezione successiva eredita, e una scelta che vive solo
 # nella testa di chi lavora non sopravvive al cambio di chat.
 #
-# GianP News Info and Documentary e' la voce di tutto il modulo 16: tenerla
-# vuol dire che chi segue il corso non sente cambiare narratore fra un modulo
-# e l'altro.
+# Moduli 1-16: GianP News Info and Documentary (`nNt0YcINdGadGcTx5fBM`).
+# Dal modulo 17 il committente ha scelto una voce diversa: il clone del suo
+# spazio di lavoro che si chiama «Luca Ward». Per sua dichiarazione NON e' la
+# voce di Luca Ward ma una voce simile; il nome resta quello dato nel suo
+# account. Quindi: mai accreditarla come Luca Ward, ne' nei titoli ne' nei
+# materiali del corso.
 #
-# Dal modulo 17 il modello e' eleven_v4, su richiesta del committente. Provato
-# con una frase su questa voce prima di adottarlo: i tag di intenzione non
-# vengono letti, gli accenti con l'apostrofo (e', piu') escono come vocali
-# accentate, le sigle vengono sillabate, i numeri a parole restano a parole.
-# Stessi parametri di eleven_v3, piu' `language_code`, che va messo a "it".
+# Dal modulo 17 il modello e' eleven_v4, su richiesta del committente.
+# Provato prima di adottarlo, su sette voci compresa quella scelta: i tag di
+# intenzione non vengono letti, gli accenti con l'apostrofo (e', piu') escono
+# come vocali accentate, i numeri a parole restano a parole. Stessi parametri
+# di eleven_v3, piu' `language_code`, che va messo a "it".
+#
+# Una differenza da tenere d'occhio: su v3 «l'OSS» veniva sillabato («o esse
+# esse»); su v4 il riconoscitore sente «loss» con tutte e sette le voci, cioe'
+# la sigla letta come parola. E' una pronuncia corrente nel settore, ma cambia
+# rispetto ai moduli 1-16. Se si vuole sillabata, su v4 la pronuncia si fissa
+# scrivendo l'IPA fra barre al posto della parola.
 #
 # Tutti i numeri qui sotto — CPS, RAPPORTO_RITMO, il costo di un credito per
 # carattere — sono misurati su eleven_v3. Sulla prima lezione in v4 vanno
 # rimisurati, e fino ad allora il copione si scrive CORTO: il respiro allunga,
 # non accorcia.
-VOCE         = "nNt0YcINdGadGcTx5fBM"   # GianP - News Info and Documentary
+VOCE         = "tVdVcJPudubxmTmAw4tE"   # clone «Luca Ward» del workspace (non e' Luca Ward)
 MODELLO_VOCE = "eleven_v4"              # per i moduli successivi; questa lezione e tutto il modulo 16 sono in eleven_v3
 LINGUA_VOCE  = "it"
 
