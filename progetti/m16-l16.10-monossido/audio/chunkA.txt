@@ -1,0 +1,47 @@
+[warm] Questo caso ha una particolarita': i pazienti sono quattro, tutti della stessa famiglia, e il nemico e' invisibile. L'intossicazione da monossido di carbonio e' frequente nei mesi freddi.
+
+Insidiosa nei sintomi e ingannevole nei parametri, mette alla prova il triage di piu' pazienti, la fisiologia del trasporto dell'ossigeno e l'educazione alla prevenzione.
+
+Ci servono le lezioni otto punto due, dieci punto uno, dieci punto sette, undici punto quattro e quattordici punto tre.
+
+Lo scenario. Gennaio, ore otto. Il centodiciotto porta in pronto soccorso un'intera famiglia: il padre di quarantacinque anni, la madre di trentotto, e due figli di dodici e otto anni.
+
+Da ieri sera hanno cefalea, nausea, vertigini. Stamattina la madre ha perso coscienza per pochi secondi in bagno, e il bambino di otto anni e' sonnolento e confuso.
+
+In casa c'e' una caldaia vecchia, e il gatto e' stato trovato morto. Al saturimetro, tutti fra novantasette e novantanove. Fermati: che cosa sospetti, e perche' quelle saturazioni non ti tranquillizzano?
+
+[thoughtful] Il ragionamento. Sintomi simili in piu' persone che condividono lo stesso ambiente, nella stagione fredda, con una fonte di combustione e un animale domestico morto.
+
+E' un'intossicazione da monossido di carbonio, fino a prova contraria. I sintomi sono aspecifici: la cefalea e' il piu' frequente, poi nausea, vertigini, astenia, confusione, sincope, dolore toracico.
+
+Per questo l'intossicazione viene spesso scambiata per un'influenza, o per un'intossicazione alimentare. E le saturazioni normali non tranquillizzano, per un motivo preciso.
+
+Perche' il saturimetro inganna. Il monossido si lega all'emoglobina con un'affinita' circa duecento-duecentocinquanta volte maggiore di quella dell'ossigeno, e forma la carbossiemoglobina.
+
+Il saturimetro comune non la distingue dall'ossiemoglobina, e mostra un valore falsamente normale: e' uno dei limiti del saturimetro della lezione otto punto due.
+
+In piu' sposta la curva di dissociazione a sinistra, come nella quattordici punto tre: l'ossigeno rimasto viene ceduto a fatica ai tessuti. Per misurare il problema serve la co-ossimetria, con l'emogas o dispositivi dedicati.
+
+Il triage e le prime azioni. Tutti gli esposti vanno valutati, anche chi ha pochi sintomi. Le priorita' sono la madre, che ha perso coscienza, e il bambino di otto anni, che e' confuso.
+
+L'ossigeno al cento per cento, con maschera con reservoir a dieci-quindici litri al minuto, si somministra subito a tutti i sintomatici, senza aspettare gli esami: e' il trattamento.
+
+Poi parametri, GCS e glicemia. Un ECG, perche' il monossido puo' danneggiare il cuore. L'emogas con la carbossiemoglobina. E l'avviso al medico.
+
+I risultati. Carbossiemoglobina: la madre ventotto per cento, il bambino di otto anni ventidue, il padre quindici, il figlio di dodici anni nove.
+
+Nella popolazione i valori sono normalmente bassi, un po' piu' alti nei fumatori. Ma il livello non corrisponde perfettamente alla gravita', anche perche' scende con il tempo trascorso.
+
+E con l'ossigeno ricevuto nel trasporto. Contano soprattutto i sintomi: la perdita di coscienza, i segni neurologici, il danno cardiaco. E nella donna in eta' fertile, un test di gravidanza: vediamo subito perche'.
+
+Il trattamento. L'ossigeno al cento per cento normobarico riduce molto il tempo di eliminazione del monossido, rispetto all'aria.
+
+L'ossigeno iperbarico, nella camera iperbarica, lo elimina ancora piu' rapidamente, e potrebbe ridurre i danni neurologici tardivi.
+
+Le indicazioni le valuta il medico. Per esempio la perdita di coscienza, i segni neurologici, il danno cardiaco, i livelli molto elevati. E la gravidanza: l'emoglobina fetale lega il monossido ancora piu' avidamente.
+
+La madre, che ha perso coscienza, e forse il bambino confuso, sono candidati alla valutazione per il trasferimento al centro di medicina iperbarica.
+
+I bambini meritano un'attenzione particolare. Respirano piu' rapidamente, e possono intossicarsi prima e di piu' degli adulti, con sintomi vaghi: irritabilita', sonnolenza, vomito. E le maschere sono di misura pediatrica.
+
+Si comunica in modo adatto all'eta', con un genitore o un familiare quando possibile. Se entrambi i genitori sono in trattamento, si individua un adulto di riferimento, e se serve si coinvolgono i servizi.

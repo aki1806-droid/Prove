@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Apriamo il secondo blocco di casi clinici con l'ictus, seguito per intero: dal primo segno in reparto alla trombolisi, fino alla disfagia, alla comunicazione con una persona afasica e alla riabilitazione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo schema resta quello del modulo quindici: accertamento, priorita', obiettivi, interventi, valutazione. Ci servono le lezioni tre punto tre, otto punto sei, dieci punto due, tredici punto tre e quattordici punto cinque."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. La signora Teresa, settantaquattro anni, e' in cardiologia per una fibrillazione atriale di nuova insorgenza. L'anticoagulante non e' ancora stato iniziato."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle quattordici e trenta, al giro della terapia, era vigile e conversava. Alle quindici e venti l'OSS ti chiama: la signora non mi risponde bene."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La trovi con la bocca deviata, il braccio destro che cade, e parla in modo confuso. Fermati un momento: che cosa fai, e qual e' il dato piu' prezioso che devi annotare?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riconoscimento. La FAST e' positiva su tutti e tre i segni: sospetto ictus. E il contesto lo rende probabile: una fibrillazione atriale non anticoagulata e' una fonte di emboli, come nella lezione otto punto uno."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fisiologia della lezione quattordici punto cinque ti dice anche dove: un deficit a destra, con il linguaggio alterato, indica l'emisfero sinistro."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dato piu' prezioso e' l'ultima volta in cui la signora e' stata vista in benessere: le quattordici e trenta. Sono passati cinquanta minuti: siamo ampiamente nella finestra dei trattamenti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. Attivi subito il medico e il percorso stroke intraospedaliero, comunicando l'orario delle quattordici e trenta. Poi l'ABCDE, e la glicemia capillare: centododici. Non e' un'ipoglicemia che simula un ictus."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I parametri: pressione centosettantotto su novantasei, frequenza centoquattro irregolare, saturazione novantacinque. Poi GCS e pupille. E nulla per bocca."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due accessi venosi e i prelievi: emocromo, coagulazione, glicemia, creatinina. ECG e peso, per la dose del trombolitico. E niente procedure invasive non indispensabili, come il catetere: dopo la trombolisi sanguinerebbero."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un errore frequente: vedere centosettantotto e cercare subito di abbassarla. Nell'ictus ischemico acuto la pressione alta e' spesso un compenso, che mantiene il flusso nelle zone del cervello in sofferenza."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Niente antipertensivi senza prescrizione. Per la trombolisi serve una pressione sotto centottantacinque su centodieci prima, e sotto centottanta su centocinque nelle ventiquattro ore dopo. Quella della signora e' compatibile."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle quindici e quarantacinque la TC dell'encefalo senza contrasto esclude un'emorragia. Il medico valuta il deficit con la scala NIHSS."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle sedici e cinque si avvia la trombolisi endovena, ben entro le quattro ore e mezza dalle quattordici e trenta. E se l'angio-TC mostra l'occlusione di un grosso vaso, si valuta anche la trombectomia."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si fa nel centro hub della rete ictus, lezione tredici punto tre. E nota quanto pesa l'orario: senza, nessuna di queste decisioni sarebbe possibile."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la trombolisi, stato neurologico e pressione ravvicinati secondo protocollo: per esempio ogni quindici minuti per due ore, ogni trenta per le sei ore successive, poi ogni ora fino alle ventiquattro."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] I segni di emorragia cerebrale: cefalea improvvisa, vomito, peggioramento neurologico, pressione che sale. Si sospende l'infusione, se e' ancora in corso, e si avvisa subito."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano i sanguinamenti da altre sedi e l'angioedema di labbra e lingua, piu' frequente con gli ACE-inibitori. E di norma niente anticoagulanti ne' antiaggreganti nelle prime ventiquattro ore."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il giorno dopo la signora e' piu' vigile e chiede da bere. Qui si gioca un'altra partita: prima di qualsiasi cosa per bocca, acqua e farmaci compresi, lo screening della deglutizione, lezione tre punto tre."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se compaiono tosse o voce gorgogliante dopo il sorso, scolo dalla bocca, ritardo dell'atto deglutitorio, si sospende l'alimentazione per bocca e si richiede la valutazione logopedica."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si garantiscono idratazione e nutrizione per altra via, e i farmaci in una forma adatta. E l'igiene del cavo orale, che riduce la polmonite da inalazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nei giorni successivi, il posizionamento dell'arto plegico, sostenendo la spalla. Non si tira mai la persona dal braccio plegico, per non causare una sublussazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si prevengono polmonite, trombosi, con la compressione pneumatica secondo prescrizione, lesioni da pressione e cadute. E la mobilizzazione e' progressiva, con la fisioterapia."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La continenza, evitando il catetere quando e' possibile. L'umore, perche' la depressione dopo l'ictus e' frequente. E la prevenzione secondaria: l'anticoagulazione per la fibrillazione atriale, nei tempi del medico."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: comunicare con una persona afasica. L'afasia e' un disturbo del linguaggio, non dell'intelligenza: la signora capisce piu' di quanto riesca a dire, e soffre se e' trattata come una bambina."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si parla lentamente, a frasi brevi, una domanda alla volta, meglio se chiusa, a cui si risponde si' o no. Si da' tempo per rispondere, senza completare le frasi al posto suo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano gesti, immagini, tabelle di comunicazione. Si verifica la comprensione, si riducono i rumori, si coinvolgono i familiari. Ed e' il presupposto per un consenso informato rispettoso."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La dimissione e la continuita'. Si valutano bisogni e disabilita' residua, e si sceglie il percorso riabilitativo: riabilitazione intensiva, Unita' Riabilitativa Territoriale, o casa con la fisioterapia."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione: riconoscere un nuovo ictus con la FAST e chiamare subito il centododici o il centodiciotto. Poi la terapia anticoagulante, la pressione, il fumo, l'alimentazione."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caregiver va formato sulla mobilizzazione sicura, sulla disfagia e sulla comunicazione. E poi la lettera infermieristica, e se necessario la valutazione dell'UVMD."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Attribuire la confusione alla stanchezza, e rivalutare dopo. Non annotare l'ultima volta in benessere. Dimenticare la glicemia. Dare acqua o la terapia orale prima dello screening della deglutizione."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Abbassare la pressione senza prescrizione. Posizionare un catetere non indispensabile prima della trombolisi. Tirare il paziente dal braccio plegico."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Il caso mette in luce chi ha visto per primo. E' stata l'OSS a notare il cambiamento e a chiamare subito: un'osservazione preziosa, che ha permesso di arrivare in tempo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il personale di supporto va formato a riconoscere e riferire i segni d'allarme: la FAST, una confusione nuova, una caduta, un cambiamento del respiro. Senza il timore di disturbare."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nell'ictus una segnalazione tempestiva vale minuti di cervello, e ringraziare chi segnala rafforza la cultura della sicurezza. Lo stesso per i familiari: vanno ascoltati sempre, mai liquidati con un e' solo stanco."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: che cos'e' la FAST, e quale dato temporale e' decisivo? E' una scala di riconoscimento rapido: volto, braccia, linguaggio, tempo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dato decisivo e' l'ultima volta in cui la persona e' stata vista in benessere: da quell'orario dipendono la trombolisi e la trombectomia."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: che cosa sorveglia dopo una trombolisi? Stato neurologico e pressione a intervalli ravvicinati, segni di emorragia cerebrale, sanguinamenti da altre sedi e angioedema."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: perche' lo screening della deglutizione? Perche' dopo un ictus la disfagia e' frequente e spesso silente, e l'inalazione di acqua, cibo o compresse provoca polmoniti che peggiorano la prognosi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente con fibrillazione atriale non anticoagulata, con improvvisa asimmetria del volto, deficit del braccio destro e linguaggio alterato: sospetto ictus, emergenza tempo-dipendente."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Annoto l'ultima volta in benessere e attivo subito medico e percorso stroke. Valuto ABCDE, glicemia, parametri, GCS e pupille. Digiuno, due accessi, prelievi, ECG e peso. Non tratto la pressione senza prescrizione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Evito le procedure invasive non indispensabili. Collaboro alla TC e alla trombolisi, con sorveglianza neurologica e pressoria ravvicinata. Prima di qualsiasi cosa per bocca, lo screening della deglutizione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posiziono l'arto plegico, prevengo le complicanze dell'immobilita', uso strategie di comunicazione per l'afasia. Documento gli orari, informo i familiari e avvio il percorso riabilitativo."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. La disfagia con la tre punto tre. L'ictus e la trombolisi con la otto punto sei. L'ABCDE con la dieci punto due. La rete ictus con la tredici punto tre."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vie motorie e linguaggio con la quattordici punto cinque. La fibrillazione atriale e gli anticoagulanti con la otto punto uno e la cinque punto cinque. L'URT e l'UVMD con la tredici punto quattro e la tredici punto cinque."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: l'orologio dell'ictus parte dall'ultima volta in cui la persona stava bene. Il primo dovere dell'infermiere e' conoscere quell'orario."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un paziente cirrotico che all'alba vomita sangue. Shock, trasfusione, vie aeree, encefalopatia e astinenza alcolica, tutto nello stesso letto. A tra poco."
+ }
+]

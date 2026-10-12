@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] L'embolia polmonare e' una delle cause di morte evitabile piu' frequenti in ospedale. Qui la vediamo comparire in medicina, in una paziente che non era stata operata."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il problema era cominciato giorni prima: un rischio che nessuno aveva valutato, un segnale notato ma non interpretato. Le lezioni: tre punto due, cinque punto cinque, otto punto due, due punto sei e quattordici punto sette."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. La signora Paola, cinquantotto anni, obesa, e' ricoverata da quattro giorni in medicina per una pielonefrite, quasi sempre a letto per la stanchezza. In terapia antibiotica, ma senza profilassi antitrombotica."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ieri ha riferito dolore e gonfiore al polpaccio sinistro, annotati come da posizione. Oggi, al primo tentativo di andare in bagno: dispnea improvvisa, dolore toracico che aumenta con il respiro, e una forte ansia."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Frequenza centoventidue, respiratoria trenta, saturazione ottantasei in aria, pressione centoquattro su sessantotto. Fermati un momento: che cosa pensi, e che cosa fai?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Il ragionamento. Immobilita', obesita' e infezione acuta: il rischio tromboembolico e' elevato. E il polpaccio dolente e gonfio di ieri, da un solo lato, era con ogni probabilita' una trombosi venosa profonda."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alzandosi, dispnea improvvisa, dolore pleuritico, tachicardia, desaturazione, ansia: embolia polmonare fino a prova contraria. La pressione e' conservata, ma va sorvegliata: l'embolia ad alto rischio si presenta con lo shock."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. La riporti a letto in posizione semiseduta, e non la fai camminare. Chiami subito il medico, con lo SBAR. Ossigeno, con un target di novantaquattro-novantotto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Monitoraggio continuo e accesso venoso. L'ECG, che spesso mostra solo una tachicardia sinusale: i quadri da manuale non sono sempre presenti. E i prelievi: emocromo, coagulazione, funzione renale, troponina, emogas."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non massaggi l'arto. E non la lasci sola: l'ansia intensa fa parte del quadro, e la tua presenza la riduce."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diagnosi. Con una probabilita' clinica alta, come in questo caso, si procede direttamente all'angio-TC polmonare. Il D-dimero serve soprattutto a escludere la trombosi nei pazienti a bassa probabilita'."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' e' aumentato in molte condizioni, comprese le infezioni. Per il mezzo di contrasto si verificano funzione renale, allergie e un accesso adeguato, come nella lezione quattordici punto sette."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue un'ecografia degli arti inferiori. La terapia e' l'anticoagulazione secondo prescrizione: eparina, e poi un anticoagulante orale. E se comparisse uno shock, si valuterebbe una trombolisi sistemica."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sorveglianza durante l'anticoagulazione. Parametri e saturazione, e i segni di peggioramento: ipotensione, sincope, aumento della dispnea."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di sanguinamento: gengive, urine, feci, ematomi, punti di puntura, cefalea. Niente intramuscolari. E i controlli di laboratorio in base al farmaco: l'aPTT con l'eparina non frazionata."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le piastrine con le eparine, per il rischio di piastrinopenia indotta. E la mobilizzazione: avviata l'anticoagulazione, si riprende secondo indicazione medica, senza tenere la paziente a letto piu' del necessario."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ora la parte piu' utile: che cosa non ha funzionato. Uno: nessuno ha valutato il rischio tromboembolico all'ingresso. Due: la profilassi non e' stata prescritta, persa nel passaggio dal pronto soccorso al reparto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: il segnale di trombosi di ieri, un polpaccio dolente e gonfio da un solo lato, e' stato annotato, ma non interpretato, ne' segnalato. Quattro: la mobilizzazione e' stata insufficiente."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un evento da segnalare e analizzare, come nella lezione due punto sei, per correggere il percorso: non per trovare un colpevole. E certamente non da nascondere."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento, con un aggancio veneto. Per i pazienti ricoverati in area medica si usa spesso il Padua Prediction Score, sviluppato proprio a Padova. Assegna punti a undici fattori."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre punti per il cancro attivo, il pregresso tromboembolismo, la ridotta mobilita' e la trombofilia. Due punti per un trauma o una chirurgia recente."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punto per l'eta' da settant'anni, lo scompenso cardiaco o respiratorio, l'infarto o l'ictus acuto, l'infezione acuta, l'obesita' e la terapia ormonale. Un punteggio da quattro in su indica un rischio alto."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la profilassi va considerata, se non ci sono controindicazioni. La signora Paola totalizzava cinque punti: ridotta mobilita', infezione e obesita'. La profilassi era indicata fin dal primo giorno."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione e' in gran parte infermieristica. Valutare il rischio tromboembolico, insieme a quello emorragico, all'ingresso e a ogni cambiamento. Verificare che la profilassi sia prescritta e somministrata."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Soprattutto nei passaggi fra setting, dove le terapie si perdono: e' la riconciliazione della lezione cinque punto quattro. Mobilizzazione precoce ed esercizi degli arti inferiori. Idratazione."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Profilassi meccanica secondo indicazione. Ispezione degli arti, segnalando dolore, edema monolaterale e calore. E l'educazione del paziente, che puo' riferire per primo un sintomo."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione alla dimissione. L'anticoagulante orale: assunzione regolare, mai sospenderlo da soli, per la durata indicata dal medico. E i segni di sanguinamento da segnalare."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le interazioni con i farmaci da banco, come i FANS, e con gli integratori. E informare il dentista, e ogni medico."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni di recidiva, dolore o gonfiore di una gamba e dispnea improvvisa: si chiama subito il centododici o il centodiciotto. Il movimento, l'idratazione, le precauzioni nei viaggi lunghi. E il controllo del peso."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una domanda difficile. La paziente ti chiede: perche' mi e' successo, qui in ospedale? La risposta richiede onesta' e chiarezza, nei limiti delle tue competenze."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il coinvolgimento del medico, per una comunicazione completa dell'evento, secondo le procedure aziendali. Non si scaricano responsabilita' sui colleghi, e non si minimizza."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si rassicura sul trattamento in corso, e si documenta il colloquio. La fiducia si perde molto piu' per un silenzio che per un errore spiegato con sincerita'."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Annotare un polpaccio dolente come da posizione, senza segnalarlo. Non valutare il rischio. Non verificare la profilassi nel passaggio di setting."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Far camminare una paziente con dispnea improvvisa. Rassicurarsi per una pressione ancora normale. Massaggiare l'arto. Non segnalare l'evento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: quali sono i segni? La trombosi venosa profonda da' dolore, edema monolaterale e calore dell'arto."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'embolia polmonare da' dispnea improvvisa, dolore toracico pleuritico, tachicardia, desaturazione, ansia, e nei casi gravi ipotensione e sincope. Seconda: come si valuta il rischio nel paziente medico?"
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con scale come il Padua Prediction Score, in cui un punteggio da quattro indica un rischio alto, insieme alla valutazione del rischio emorragico. Terza: a che cosa serve il D-dimero?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha un alto valore predittivo negativo: un valore normale, in un paziente a bassa probabilita', permette di escludere la trombosi. Un valore alto non la conferma, perche' aumenta in molte condizioni."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente immobilizzata da quattro giorni, obesa, con infezione acuta e senza profilassi, che dopo un dolore al polpaccio presenta, alzandosi, dispnea improvvisa e dolore pleuritico."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tachicardia e desaturazione: sospetta embolia polmonare. La riporto a letto semiseduta, chiamo subito il medico, somministro ossigeno con target novantaquattro-novantotto, avvio il monitoraggio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Posiziono un accesso, eseguo ECG e prelievi, e non massaggio l'arto. La preparo all'angio-TC. Somministro l'anticoagulante prescritto, sorveglio peggioramento e sanguinamento, e rassicuro la paziente."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segnalo l'evento, evidenziando la mancata valutazione del rischio e la profilassi persa dal pronto soccorso. Riprendo la mobilizzazione secondo indicazione e, alla dimissione, educo sull'anticoagulante e sulla recidiva."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Trombosi e immobilita' con la tre punto due. Anticoagulanti con la cinque punto cinque. Ossigeno con la otto punto due. Rischio clinico e segnalazione con la due punto sei."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riconciliazione con la cinque punto quattro. D-dimero e mezzo di contrasto con la quattordici punto sette. E le complicanze postoperatorie con la nove punto cinque."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una riflessione. L'embolia polmonare in ospedale e' spesso un evento evitabile. Gli strumenti esistono: le scale, la profilassi, la mobilizzazione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La differenza la fanno l'attenzione ai passaggi fra setting, e la capacita' di dare un significato a un segno, come un polpaccio gonfio, invece di archiviarlo."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: un polpaccio gonfio da un solo lato non e' da posizione, finche' non si dimostra il contrario."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un'epidemia di diarrea in reparto, causata dal Clostridioides difficile. Isolamento, igiene delle mani, sanificazione e uso responsabile degli antibiotici. A tra poco."
+ }
+]

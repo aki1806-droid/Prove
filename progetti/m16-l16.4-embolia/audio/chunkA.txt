@@ -1,0 +1,45 @@
+[warm] L'embolia polmonare e' una delle cause di morte evitabile piu' frequenti in ospedale. Qui la vediamo comparire in medicina, in una paziente che non era stata operata.
+
+E il problema era cominciato giorni prima: un rischio che nessuno aveva valutato, un segnale notato ma non interpretato. Le lezioni: tre punto due, cinque punto cinque, otto punto due, due punto sei e quattordici punto sette.
+
+Lo scenario. La signora Paola, cinquantotto anni, obesa, e' ricoverata da quattro giorni in medicina per una pielonefrite, quasi sempre a letto per la stanchezza. In terapia antibiotica, ma senza profilassi antitrombotica.
+
+Ieri ha riferito dolore e gonfiore al polpaccio sinistro, annotati come da posizione. Oggi, al primo tentativo di andare in bagno: dispnea improvvisa, dolore toracico che aumenta con il respiro, e una forte ansia.
+
+Frequenza centoventidue, respiratoria trenta, saturazione ottantasei in aria, pressione centoquattro su sessantotto. Fermati un momento: che cosa pensi, e che cosa fai?
+
+[thoughtful] Il ragionamento. Immobilita', obesita' e infezione acuta: il rischio tromboembolico e' elevato. E il polpaccio dolente e gonfio di ieri, da un solo lato, era con ogni probabilita' una trombosi venosa profonda.
+
+Alzandosi, dispnea improvvisa, dolore pleuritico, tachicardia, desaturazione, ansia: embolia polmonare fino a prova contraria. La pressione e' conservata, ma va sorvegliata: l'embolia ad alto rischio si presenta con lo shock.
+
+Le prime azioni. La riporti a letto in posizione semiseduta, e non la fai camminare. Chiami subito il medico, con lo SBAR. Ossigeno, con un target di novantaquattro-novantotto.
+
+Monitoraggio continuo e accesso venoso. L'ECG, che spesso mostra solo una tachicardia sinusale: i quadri da manuale non sono sempre presenti. E i prelievi: emocromo, coagulazione, funzione renale, troponina, emogas.
+
+Non massaggi l'arto. E non la lasci sola: l'ansia intensa fa parte del quadro, e la tua presenza la riduce.
+
+La diagnosi. Con una probabilita' clinica alta, come in questo caso, si procede direttamente all'angio-TC polmonare. Il D-dimero serve soprattutto a escludere la trombosi nei pazienti a bassa probabilita'.
+
+Perche' e' aumentato in molte condizioni, comprese le infezioni. Per il mezzo di contrasto si verificano funzione renale, allergie e un accesso adeguato, come nella lezione quattordici punto sette.
+
+Si esegue un'ecografia degli arti inferiori. La terapia e' l'anticoagulazione secondo prescrizione: eparina, e poi un anticoagulante orale. E se comparisse uno shock, si valuterebbe una trombolisi sistemica.
+
+La sorveglianza durante l'anticoagulazione. Parametri e saturazione, e i segni di peggioramento: ipotensione, sincope, aumento della dispnea.
+
+I segni di sanguinamento: gengive, urine, feci, ematomi, punti di puntura, cefalea. Niente intramuscolari. E i controlli di laboratorio in base al farmaco: l'aPTT con l'eparina non frazionata.
+
+Le piastrine con le eparine, per il rischio di piastrinopenia indotta. E la mobilizzazione: avviata l'anticoagulazione, si riprende secondo indicazione medica, senza tenere la paziente a letto piu' del necessario.
+
+[serious] Ora la parte piu' utile: che cosa non ha funzionato. Uno: nessuno ha valutato il rischio tromboembolico all'ingresso. Due: la profilassi non e' stata prescritta, persa nel passaggio dal pronto soccorso al reparto.
+
+Tre: il segnale di trombosi di ieri, un polpaccio dolente e gonfio da un solo lato, e' stato annotato, ma non interpretato, ne' segnalato. Quattro: la mobilizzazione e' stata insufficiente.
+
+E' un evento da segnalare e analizzare, come nella lezione due punto sei, per correggere il percorso: non per trovare un colpevole. E certamente non da nascondere.
+
+Un approfondimento, con un aggancio veneto. Per i pazienti ricoverati in area medica si usa spesso il Padua Prediction Score, sviluppato proprio a Padova. Assegna punti a undici fattori.
+
+Tre punti per il cancro attivo, il pregresso tromboembolismo, la ridotta mobilita' e la trombofilia. Due punti per un trauma o una chirurgia recente.
+
+Un punto per l'eta' da settant'anni, lo scompenso cardiaco o respiratorio, l'infarto o l'ictus acuto, l'infezione acuta, l'obesita' e la terapia ormonale. Un punteggio da quattro in su indica un rischio alto.
+
+E la profilassi va considerata, se non ci sono controindicazioni. La signora Paola totalizzava cinque punti: ridotta mobilita', infezione e obesita'. La profilassi era indicata fin dal primo giorno.

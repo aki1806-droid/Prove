@@ -1,0 +1,47 @@
+[warm] Il grande ustionato e' un paziente in cui ogni ora conta, e gli errori sono spesso di calcolo e di tempo. Usiamo la regola del nove e la formula di Parkland, con una trappola sugli orari che cade quasi sempre nei quiz.
+
+E vedremo perche' le vie aeree di un ustionato possono chiudersi in poche ore. Ci servono le lezioni tre punto sette, cinque punto tre, otto punto due, dieci punto cinque e dieci punto sette.
+
+Lo scenario. Ore diciannove: un incendio in una cucina chiusa, dall'olio in padella. Il signor Matteo ha quarantacinque anni e pesa ottanta chili. Il centodiciotto lo porta in pronto soccorso alle ventuno.
+
+Ha gia' ricevuto cinquecento millilitri di cristalloidi. Ha ustioni profonde e a tutto spessore sul torace anteriore, sull'intero arto superiore destro, sul collo e su parte del volto.
+
+Peli del naso bruciacchiati, voce rauca, un escreato nerastro. Saturazione novantotto in aria, frequenza centodiciotto, pressione centoventotto su ottanta, dolore nove.
+
+Fermati un momento: quale problema puo' ucciderlo nelle prossime ore, nonostante una saturazione perfetta?
+
+La priorita' e' la A. Ambiente chiuso, ustioni del volto e del collo, peli nasali bruciati, voce rauca, escreato con fuliggine: sono i segni di un'ustione da inalazione.
+
+L'edema delle vie aeree non e' ancora massimo: aumenta nelle ore successive, anche per effetto dei liquidi infusi, e puo' chiudere le vie aeree.
+
+[serious] Per questo si chiede una valutazione urgente dell'anestesista, che spesso decide un'intubazione precoce, quando e' ancora tecnicamente possibile.
+
+Aspettare che il paziente non respiri piu' significa trovarsi davanti a vie aeree impossibili da intubare. Il materiale per le vie aeree difficili deve essere pronto.
+
+B: il monossido di carbonio. In un incendio in ambiente chiuso l'intossicazione e' probabile, e la saturazione del novantotto non rassicura.
+
+Come hai visto nella lezione otto punto due, il saturimetro non distingue l'emoglobina legata al monossido, e il valore puo' essere falsamente normale.
+
+Si esegue un emogas con la carbossiemoglobina, e si da' ossigeno al cento per cento con maschera con reservoir, fino all'esclusione. Con i fumi di materiali sintetici il medico valuta anche il cianuro.
+
+L'estensione, con la regola del nove della lezione dieci punto sette. Si contano solo le ustioni di secondo e terzo grado, non gli eritemi superficiali.
+
+Torace anteriore: diciotto per cento. Arto superiore destro intero: nove. Collo e parte del volto: circa tre. Totale: circa il trenta per cento. Per le aree irregolari, il palmo della persona, dita comprese: circa uno.
+
+I liquidi, con la formula di Parkland. Quattro millilitri, per ottanta chili, per trenta per cento: fa novemilaseicento millilitri nelle prime ventiquattro ore.
+
+Meta', cioe' quattromilaottocento, nelle prime otto ore. E qui c'e' la trappola: le otto ore si contano dal momento dell'ustione, cioe' dalle diciannove, non dall'arrivo in pronto soccorso.
+
+Quindi i primi quattromilaottocento millilitri vanno infusi entro le tre di notte. L'altra meta' nelle sedici ore successive: circa trecento millilitri all'ora.
+
+Il calcolo che cade nei quiz. Alle ventuno sono gia' passate due delle prime otto ore, e il centodiciotto ha gia' infuso cinquecento millilitri.
+
+Restano quattromilatrecento millilitri da infondere nelle sei ore che mancano alle tre: circa settecentoquindici millilitri all'ora, secondo prescrizione.
+
+L'errore tipico e' far partire le otto ore dall'arrivo: seicento all'ora, e il paziente sarebbe sotto-infuso proprio quando perde piu' liquidi. E la formula e' un punto di partenza, che il medico adegua alla diuresi.
+
+Il monitoraggio. Un catetere vescicale con diuresi oraria: l'obiettivo indicativo nell'adulto e' mezzo millilitro per chilo all'ora, cioe' circa quaranta millilitri all'ora per il signor Matteo.
+
+Una diuresi troppo bassa indica liquidi insufficienti. Una molto alta, un rischio di sovra-infusione, che peggiora gli edemi e puo' causare una sindrome compartimentale addominale.
+
+Si sorvegliano parametri, coscienza e lattati. E urine scure o rosse possono indicare mioglobina, nelle ustioni profonde o elettriche: si segnalano subito.

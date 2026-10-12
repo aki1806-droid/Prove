@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso ha una particolarita': i pazienti sono quattro, tutti della stessa famiglia, e il nemico e' invisibile. L'intossicazione da monossido di carbonio e' frequente nei mesi freddi."),
+ (1,"chiaro",0,"Insidiosa nei sintomi e ingannevole nei parametri, mette alla prova il triage di piu' pazienti, la fisiologia del trasporto dell'ossigeno e l'educazione alla prevenzione."),
+ (1,"chiaro",0,"Ci servono le lezioni otto punto due, dieci punto uno, dieci punto sette, undici punto quattro e quattordici punto tre."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Gennaio, ore otto. Il centodiciotto porta in pronto soccorso un'intera famiglia: il padre di quarantacinque anni, la madre di trentotto, e due figli di dodici e otto anni."),
+ (2,"chiaro",0,"Da ieri sera hanno cefalea, nausea, vertigini. Stamattina la madre ha perso coscienza per pochi secondi in bagno, e il bambino di otto anni e' sonnolento e confuso."),
+ (2,"chiaro",0,"In casa c'e' una caldaia vecchia, e il gatto e' stato trovato morto. Al saturimetro, tutti fra novantasette e novantanove. Fermati: che cosa sospetti, e perche' quelle saturazioni non ti tranquillizzano?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Sintomi simili in piu' persone che condividono lo stesso ambiente, nella stagione fredda, con una fonte di combustione e un animale domestico morto."),
+ (3,"chiaro",0,"E' un'intossicazione da monossido di carbonio, fino a prova contraria. I sintomi sono aspecifici: la cefalea e' il piu' frequente, poi nausea, vertigini, astenia, confusione, sincope, dolore toracico."),
+ (3,"chiaro",0,"Per questo l'intossicazione viene spesso scambiata per un'influenza, o per un'intossicazione alimentare. E le saturazioni normali non tranquillizzano, per un motivo preciso."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Perche' il saturimetro inganna. Il monossido si lega all'emoglobina con un'affinita' circa duecento-duecentocinquanta volte maggiore di quella dell'ossigeno, e forma la carbossiemoglobina."),
+ (4,"chiaro",0,"Il saturimetro comune non la distingue dall'ossiemoglobina, e mostra un valore falsamente normale: e' uno dei limiti del saturimetro della lezione otto punto due."),
+ (4,"chiaro",0,"In piu' sposta la curva di dissociazione a sinistra, come nella quattordici punto tre: l'ossigeno rimasto viene ceduto a fatica ai tessuti. Per misurare il problema serve la co-ossimetria, con l'emogas o dispositivi dedicati."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Il triage e le prime azioni. Tutti gli esposti vanno valutati, anche chi ha pochi sintomi. Le priorita' sono la madre, che ha perso coscienza, e il bambino di otto anni, che e' confuso."),
+ (5,"chiaro",0,"L'ossigeno al cento per cento, con maschera con reservoir a dieci-quindici litri al minuto, si somministra subito a tutti i sintomatici, senza aspettare gli esami: e' il trattamento."),
+ (5,"chiaro",0,"Poi parametri, GCS e glicemia. Un ECG, perche' il monossido puo' danneggiare il cuore. L'emogas con la carbossiemoglobina. E l'avviso al medico."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"I risultati. Carbossiemoglobina: la madre ventotto per cento, il bambino di otto anni ventidue, il padre quindici, il figlio di dodici anni nove."),
+ (6,"chiaro",0,"Nella popolazione i valori sono normalmente bassi, un po' piu' alti nei fumatori. Ma il livello non corrisponde perfettamente alla gravita', anche perche' scende con il tempo trascorso."),
+ (6,"chiaro",0,"E con l'ossigeno ricevuto nel trasporto. Contano soprattutto i sintomi: la perdita di coscienza, i segni neurologici, il danno cardiaco. E nella donna in eta' fertile, un test di gravidanza: vediamo subito perche'."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il trattamento. L'ossigeno al cento per cento normobarico riduce molto il tempo di eliminazione del monossido, rispetto all'aria."),
+ (7,"chiaro",0,"L'ossigeno iperbarico, nella camera iperbarica, lo elimina ancora piu' rapidamente, e potrebbe ridurre i danni neurologici tardivi."),
+ (7,"chiaro",0,"Le indicazioni le valuta il medico. Per esempio la perdita di coscienza, i segni neurologici, il danno cardiaco, i livelli molto elevati. E la gravidanza: l'emoglobina fetale lega il monossido ancora piu' avidamente."),
+ (7,"chiaro",0,"La madre, che ha perso coscienza, e forse il bambino confuso, sono candidati alla valutazione per il trasferimento al centro di medicina iperbarica."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"I bambini meritano un'attenzione particolare. Respirano piu' rapidamente, e possono intossicarsi prima e di piu' degli adulti, con sintomi vaghi: irritabilita', sonnolenza, vomito. E le maschere sono di misura pediatrica."),
+ (8,"chiaro",0,"Si comunica in modo adatto all'eta', con un genitore o un familiare quando possibile. Se entrambi i genitori sono in trattamento, si individua un adulto di riferimento, e se serve si coinvolgono i servizi."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[serious] Le complicanze tardive. Giorni o settimane dopo un'apparente guarigione puo' comparire una sindrome neurologica tardiva: deficit di memoria e concentrazione, alterazioni della personalita', disturbi del movimento."),
+ (9,"chiaro",0,"E possono esserci danni cardiaci, con aritmie o ischemia. Per questo e' previsto un follow-up neurologico, e alla dimissione si spiega chiaramente quali sintomi segnalare."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La casa e la prevenzione. La famiglia non deve rientrare finche' la fonte non e' stata verificata e messa in sicurezza, dai vigili del fuoco o dai tecnici."),
+ (10,"chiaro",0,"L'educazione. La manutenzione periodica di caldaie, stufe e canne fumarie. I rilevatori di monossido, che sono economici e salvano vite. L'aerazione dei locali."),
+ (10,"chiaro",0,"Mai bracieri, generatori o barbecue al chiuso. Mai motori accesi in garage chiusi. E attenzione agli altri appartamenti dello stesso edificio, che potrebbero essere coinvolti."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Un approfondimento organizzativo: piu' pazienti insieme. Quando arrivano dallo stesso evento, ognuno va valutato con il triage, dando priorita' ai piu' gravi."),
+ (11,"chiaro",0,"L'identificazione corretta di ciascuno diventa critica: con quattro familiari con lo stesso cognome, il rischio di scambiare campioni e referti e' altissimo."),
+ (11,"chiaro",0,"Un operatore di riferimento, una comunicazione coordinata con la famiglia, una documentazione separata e completa. Se i pazienti superano le risorse, le procedure per l'afflusso straordinario della lezione dieci punto sette."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori da evitare. Fidarsi della saturimetria. Attribuire i sintomi all'influenza. Aspettare gli esami per dare l'ossigeno. Valutare solo chi ha sintomi gravi."),
+ (12,"chiaro",0,"Scambiare i campioni di familiari con lo stesso cognome. Dimenticare il test di gravidanza. Dimettere senza parlare di prevenzione, di rilevatori e di verifica della casa."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: perche' la saturimetria non e' affidabile? Perche' il saturimetro comune non distingue la carbossiemoglobina dall'ossiemoglobina, e mostra valori falsamente normali."),
+ (13,"chiaro",0,"Serve la co-ossimetria. Seconda: il trattamento? Ossigeno al cento per cento con maschera con reservoir, il prima possibile, e la valutazione per l'ossigeno iperbarico."),
+ (13,"chiaro",0,"In caso di perdita di coscienza, segni neurologici, danno cardiaco, gravidanza o livelli molto elevati. Con un follow-up per i danni tardivi."),
+ (13,"chiaro",0,"Terza: la prevenzione? Manutenzione di caldaie e stufe, rilevatori di monossido, aerazione. Niente bracieri, generatori o motori in ambienti chiusi."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Quattro familiari esposti nella stessa abitazione, in inverno: cefalea, nausea, vertigini, una sincope, confusione in un bambino, saturimetria normale. Sospetta intossicazione da monossido."),
+ (14,"chiaro",0,"Valuto tutti gli esposti, con priorita' alla madre e al bambino. Somministro subito ossigeno al cento per cento con maschera con reservoir a tutti i sintomatici."),
+ (14,"chiaro",0,"Rilevo parametri, GCS, glicemia; eseguo ECG ed emogas con carbossiemoglobina, e il test di gravidanza; avviso il medico. Garantisco la corretta identificazione di ciascuno."),
+ (14,"chiaro",0,"Collaboro alla valutazione per l'ossigeno iperbarico e al trasferimento. Assicuro un adulto di riferimento per i bambini. Alla dimissione informo sui sintomi tardivi, verifico la casa ed educo alla prevenzione."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. L'ossigeno e i limiti del saturimetro con la otto punto due, il triage con la dieci punto uno, le intossicazioni con la dieci punto sette."),
+ (15,"chiaro",0,"La pediatria con la undici punto quattro, la curva di dissociazione con la quattordici punto tre, e l'identificazione del paziente con la due punto sei."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Un'ultima riflessione, sul ruolo di comunita' dell'infermiere. Molte intossicazioni da monossido avvengono in situazioni di fragilita' sociale: abitazioni precarie, stufe di fortuna, la manutenzione che non si puo' pagare."),
+ (16,"chiaro",0,"L'infermiere e' un educatore alla salute anche fuori dall'ospedale. Con i servizi territoriali e con l'infermiere di famiglia e comunita', puo' intercettare queste situazioni prima che diventino emergenze."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: il monossido non si vede, non ha odore, e il saturimetro non lo legge. L'unico strumento che lo rivela per primo e' il ragionamento."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione entriamo in terapia intensiva: un paziente intubato e ventilato, il rischio di polmonite associata alla ventilazione, la sedazione, il delirium, e una famiglia fuori dalla porta. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Perche' il saturimetro inganna",
+ 5:"Il triage e le prime azioni",6:"I risultati e la loro lettura",7:"Ossigeno normobarico e camera iperbarica",
+ 8:"I bambini",9:"Le complicanze tardive",10:"La casa e la prevenzione",11:"Piu' pazienti insieme",
+ 12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"Il ruolo di comunita'",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

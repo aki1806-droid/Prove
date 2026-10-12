@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Apriamo il secondo blocco di casi clinici con l'ictus, seguito per intero: dal primo segno in reparto alla trombolisi, fino alla disfagia, alla comunicazione con una persona afasica e alla riabilitazione."),
+ (1,"chiaro",0,"Lo schema resta quello del modulo quindici: accertamento, priorita', obiettivi, interventi, valutazione. Ci servono le lezioni tre punto tre, otto punto sei, dieci punto due, tredici punto tre e quattordici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Teresa, settantaquattro anni, e' in cardiologia per una fibrillazione atriale di nuova insorgenza. L'anticoagulante non e' ancora stato iniziato."),
+ (2,"chiaro",0,"Alle quattordici e trenta, al giro della terapia, era vigile e conversava. Alle quindici e venti l'OSS ti chiama: la signora non mi risponde bene."),
+ (2,"chiaro",0,"La trovi con la bocca deviata, il braccio destro che cade, e parla in modo confuso. Fermati un momento: che cosa fai, e qual e' il dato piu' prezioso che devi annotare?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il riconoscimento. La FAST e' positiva su tutti e tre i segni: sospetto ictus. E il contesto lo rende probabile: una fibrillazione atriale non anticoagulata e' una fonte di emboli, come nella lezione otto punto uno."),
+ (3,"chiaro",0,"La fisiologia della lezione quattordici punto cinque ti dice anche dove: un deficit a destra, con il linguaggio alterato, indica l'emisfero sinistro."),
+ (3,"chiaro",0,"Il dato piu' prezioso e' l'ultima volta in cui la signora e' stata vista in benessere: le quattordici e trenta. Sono passati cinquanta minuti: siamo ampiamente nella finestra dei trattamenti."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Attivi subito il medico e il percorso stroke intraospedaliero, comunicando l'orario delle quattordici e trenta. Poi l'ABCDE, e la glicemia capillare: centododici. Non e' un'ipoglicemia che simula un ictus."),
+ (4,"chiaro",0,"I parametri: pressione centosettantotto su novantasei, frequenza centoquattro irregolare, saturazione novantacinque. Poi GCS e pupille. E nulla per bocca."),
+ (4,"chiaro",0,"Due accessi venosi e i prelievi: emocromo, coagulazione, glicemia, creatinina. ECG e peso, per la dose del trombolitico. E niente procedure invasive non indispensabili, come il catetere: dopo la trombolisi sanguinerebbero."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Un errore frequente: vedere centosettantotto e cercare subito di abbassarla. Nell'ictus ischemico acuto la pressione alta e' spesso un compenso, che mantiene il flusso nelle zone del cervello in sofferenza."),
+ (5,"chiaro",0,"Niente antipertensivi senza prescrizione. Per la trombolisi serve una pressione sotto centottantacinque su centodieci prima, e sotto centottanta su centocinque nelle ventiquattro ore dopo. Quella della signora e' compatibile."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Alle quindici e quarantacinque la TC dell'encefalo senza contrasto esclude un'emorragia. Il medico valuta il deficit con la scala NIHSS."),
+ (6,"chiaro",0,"Alle sedici e cinque si avvia la trombolisi endovena, ben entro le quattro ore e mezza dalle quattordici e trenta. E se l'angio-TC mostra l'occlusione di un grosso vaso, si valuta anche la trombectomia."),
+ (6,"chiaro",0,"Si fa nel centro hub della rete ictus, lezione tredici punto tre. E nota quanto pesa l'orario: senza, nessuna di queste decisioni sarebbe possibile."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Dopo la trombolisi, stato neurologico e pressione ravvicinati secondo protocollo: per esempio ogni quindici minuti per due ore, ogni trenta per le sei ore successive, poi ogni ora fino alle ventiquattro."),
+ (7,"chiaro",0,"[serious] I segni di emorragia cerebrale: cefalea improvvisa, vomito, peggioramento neurologico, pressione che sale. Si sospende l'infusione, se e' ancora in corso, e si avvisa subito."),
+ (7,"chiaro",0,"Si sorvegliano i sanguinamenti da altre sedi e l'angioedema di labbra e lingua, piu' frequente con gli ACE-inibitori. E di norma niente anticoagulanti ne' antiaggreganti nelle prime ventiquattro ore."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il giorno dopo la signora e' piu' vigile e chiede da bere. Qui si gioca un'altra partita: prima di qualsiasi cosa per bocca, acqua e farmaci compresi, lo screening della deglutizione, lezione tre punto tre."),
+ (8,"chiaro",0,"Se compaiono tosse o voce gorgogliante dopo il sorso, scolo dalla bocca, ritardo dell'atto deglutitorio, si sospende l'alimentazione per bocca e si richiede la valutazione logopedica."),
+ (8,"chiaro",0,"Si garantiscono idratazione e nutrizione per altra via, e i farmaci in una forma adatta. E l'igiene del cavo orale, che riduce la polmonite da inalazione."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Nei giorni successivi, il posizionamento dell'arto plegico, sostenendo la spalla. Non si tira mai la persona dal braccio plegico, per non causare una sublussazione."),
+ (9,"chiaro",0,"Si prevengono polmonite, trombosi, con la compressione pneumatica secondo prescrizione, lesioni da pressione e cadute. E la mobilizzazione e' progressiva, con la fisioterapia."),
+ (9,"chiaro",0,"La continenza, evitando il catetere quando e' possibile. L'umore, perche' la depressione dopo l'ictus e' frequente. E la prevenzione secondaria: l'anticoagulazione per la fibrillazione atriale, nei tempi del medico."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Un approfondimento: comunicare con una persona afasica. L'afasia e' un disturbo del linguaggio, non dell'intelligenza: la signora capisce piu' di quanto riesca a dire, e soffre se e' trattata come una bambina."),
+ (10,"chiaro",0,"Si parla lentamente, a frasi brevi, una domanda alla volta, meglio se chiusa, a cui si risponde si' o no. Si da' tempo per rispondere, senza completare le frasi al posto suo."),
+ (10,"chiaro",0,"Si usano gesti, immagini, tabelle di comunicazione. Si verifica la comprensione, si riducono i rumori, si coinvolgono i familiari. Ed e' il presupposto per un consenso informato rispettoso."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La dimissione e la continuita'. Si valutano bisogni e disabilita' residua, e si sceglie il percorso riabilitativo: riabilitazione intensiva, Unita' Riabilitativa Territoriale, o casa con la fisioterapia."),
+ (11,"chiaro",0,"L'educazione: riconoscere un nuovo ictus con la FAST e chiamare subito il centododici o il centodiciotto. Poi la terapia anticoagulante, la pressione, il fumo, l'alimentazione."),
+ (11,"chiaro",0,"Il caregiver va formato sulla mobilizzazione sicura, sulla disfagia e sulla comunicazione. E poi la lettera infermieristica, e se necessario la valutazione dell'UVMD."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Attribuire la confusione alla stanchezza, e rivalutare dopo. Non annotare l'ultima volta in benessere. Dimenticare la glicemia. Dare acqua o la terapia orale prima dello screening della deglutizione."),
+ (12,"chiaro",0,"Abbassare la pressione senza prescrizione. Posizionare un catetere non indispensabile prima della trombolisi. Tirare il paziente dal braccio plegico."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[thoughtful] Il caso mette in luce chi ha visto per primo. E' stata l'OSS a notare il cambiamento e a chiamare subito: un'osservazione preziosa, che ha permesso di arrivare in tempo."),
+ (13,"chiaro",0,"Il personale di supporto va formato a riconoscere e riferire i segni d'allarme: la FAST, una confusione nuova, una caduta, un cambiamento del respiro. Senza il timore di disturbare."),
+ (13,"chiaro",0,"Nell'ictus una segnalazione tempestiva vale minuti di cervello, e ringraziare chi segnala rafforza la cultura della sicurezza. Lo stesso per i familiari: vanno ascoltati sempre, mai liquidati con un e' solo stanco."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"[curious] Le domande d'orale. Prima: che cos'e' la FAST, e quale dato temporale e' decisivo? E' una scala di riconoscimento rapido: volto, braccia, linguaggio, tempo."),
+ (14,"chiaro",0,"Il dato decisivo e' l'ultima volta in cui la persona e' stata vista in benessere: da quell'orario dipendono la trombolisi e la trombectomia."),
+ (14,"chiaro",0,"Seconda: che cosa sorveglia dopo una trombolisi? Stato neurologico e pressione a intervalli ravvicinati, segni di emorragia cerebrale, sanguinamenti da altre sedi e angioedema."),
+ (14,"chiaro",0,"Terza: perche' lo screening della deglutizione? Perche' dopo un ictus la disfagia e' frequente e spesso silente, e l'inalazione di acqua, cibo o compresse provoca polmoniti che peggiorano la prognosi."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Paziente con fibrillazione atriale non anticoagulata, con improvvisa asimmetria del volto, deficit del braccio destro e linguaggio alterato: sospetto ictus, emergenza tempo-dipendente."),
+ (15,"chiaro",0,"Annoto l'ultima volta in benessere e attivo subito medico e percorso stroke. Valuto ABCDE, glicemia, parametri, GCS e pupille. Digiuno, due accessi, prelievi, ECG e peso. Non tratto la pressione senza prescrizione."),
+ (15,"chiaro",0,"Evito le procedure invasive non indispensabili. Collaboro alla TC e alla trombolisi, con sorveglianza neurologica e pressoria ravvicinata. Prima di qualsiasi cosa per bocca, lo screening della deglutizione."),
+ (15,"chiaro",0,"Posiziono l'arto plegico, prevengo le complicanze dell'immobilita', uso strategie di comunicazione per l'afasia. Documento gli orari, informo i familiari e avvio il percorso riabilitativo."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"I collegamenti. La disfagia con la tre punto tre. L'ictus e la trombolisi con la otto punto sei. L'ABCDE con la dieci punto due. La rete ictus con la tredici punto tre."),
+ (16,"chiaro",0,"Vie motorie e linguaggio con la quattordici punto cinque. La fibrillazione atriale e gli anticoagulanti con la otto punto uno e la cinque punto cinque. L'URT e l'UVMD con la tredici punto quattro e la tredici punto cinque."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: l'orologio dell'ictus parte dall'ultima volta in cui la persona stava bene. Il primo dovere dell'infermiere e' conoscere quell'orario."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un paziente cirrotico che all'alba vomita sangue. Shock, trasfusione, vie aeree, encefalopatia e astinenza alcolica, tutto nello stesso letto. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il riconoscimento",4:"Le prime azioni",5:"La pressione: non abbassarla per riflesso",
+ 6:"La TC e la decisione",7:"La sorveglianza dopo la trombolisi",8:"Il giorno dopo: la deglutizione",9:"L'assistenza nei giorni successivi",
+ 10:"Comunicare con una persona afasica",11:"La dimissione e la continuita'",12:"Gli errori da evitare",13:"Il ruolo di chi ha visto per primo",
+ 14:"Le domande d'orale",15:"La risposta modello",16:"I collegamenti",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

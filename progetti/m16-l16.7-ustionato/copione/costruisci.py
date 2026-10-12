@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il grande ustionato e' un paziente in cui ogni ora conta, e gli errori sono spesso di calcolo e di tempo. Usiamo la regola del nove e la formula di Parkland, con una trappola sugli orari che cade quasi sempre nei quiz."),
+ (1,"chiaro",0,"E vedremo perche' le vie aeree di un ustionato possono chiudersi in poche ore. Ci servono le lezioni tre punto sette, cinque punto tre, otto punto due, dieci punto cinque e dieci punto sette."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Ore diciannove: un incendio in una cucina chiusa, dall'olio in padella. Il signor Matteo ha quarantacinque anni e pesa ottanta chili. Il centodiciotto lo porta in pronto soccorso alle ventuno."),
+ (2,"chiaro",0,"Ha gia' ricevuto cinquecento millilitri di cristalloidi. Ha ustioni profonde e a tutto spessore sul torace anteriore, sull'intero arto superiore destro, sul collo e su parte del volto."),
+ (2,"chiaro",0,"Peli del naso bruciacchiati, voce rauca, un escreato nerastro. Saturazione novantotto in aria, frequenza centodiciotto, pressione centoventotto su ottanta, dolore nove."),
+ (2,"chiaro",0,"Fermati un momento: quale problema puo' ucciderlo nelle prossime ore, nonostante una saturazione perfetta?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"La priorita' e' la A. Ambiente chiuso, ustioni del volto e del collo, peli nasali bruciati, voce rauca, escreato con fuliggine: sono i segni di un'ustione da inalazione."),
+ (3,"chiaro",0,"L'edema delle vie aeree non e' ancora massimo: aumenta nelle ore successive, anche per effetto dei liquidi infusi, e puo' chiudere le vie aeree."),
+ (3,"chiaro",0,"[serious] Per questo si chiede una valutazione urgente dell'anestesista, che spesso decide un'intubazione precoce, quando e' ancora tecnicamente possibile."),
+ (3,"chiaro",0,"Aspettare che il paziente non respiri piu' significa trovarsi davanti a vie aeree impossibili da intubare. Il materiale per le vie aeree difficili deve essere pronto."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"B: il monossido di carbonio. In un incendio in ambiente chiuso l'intossicazione e' probabile, e la saturazione del novantotto non rassicura."),
+ (4,"chiaro",0,"Come hai visto nella lezione otto punto due, il saturimetro non distingue l'emoglobina legata al monossido, e il valore puo' essere falsamente normale."),
+ (4,"chiaro",0,"Si esegue un emogas con la carbossiemoglobina, e si da' ossigeno al cento per cento con maschera con reservoir, fino all'esclusione. Con i fumi di materiali sintetici il medico valuta anche il cianuro."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"L'estensione, con la regola del nove della lezione dieci punto sette. Si contano solo le ustioni di secondo e terzo grado, non gli eritemi superficiali."),
+ (5,"chiaro",0,"Torace anteriore: diciotto per cento. Arto superiore destro intero: nove. Collo e parte del volto: circa tre. Totale: circa il trenta per cento. Per le aree irregolari, il palmo della persona, dita comprese: circa uno."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"I liquidi, con la formula di Parkland. Quattro millilitri, per ottanta chili, per trenta per cento: fa novemilaseicento millilitri nelle prime ventiquattro ore."),
+ (6,"chiaro",0,"Meta', cioe' quattromilaottocento, nelle prime otto ore. E qui c'e' la trappola: le otto ore si contano dal momento dell'ustione, cioe' dalle diciannove, non dall'arrivo in pronto soccorso."),
+ (6,"chiaro",0,"Quindi i primi quattromilaottocento millilitri vanno infusi entro le tre di notte. L'altra meta' nelle sedici ore successive: circa trecento millilitri all'ora."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il calcolo che cade nei quiz. Alle ventuno sono gia' passate due delle prime otto ore, e il centodiciotto ha gia' infuso cinquecento millilitri."),
+ (7,"chiaro",0,"Restano quattromilatrecento millilitri da infondere nelle sei ore che mancano alle tre: circa settecentoquindici millilitri all'ora, secondo prescrizione."),
+ (7,"chiaro",0,"L'errore tipico e' far partire le otto ore dall'arrivo: seicento all'ora, e il paziente sarebbe sotto-infuso proprio quando perde piu' liquidi. E la formula e' un punto di partenza, che il medico adegua alla diuresi."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il monitoraggio. Un catetere vescicale con diuresi oraria: l'obiettivo indicativo nell'adulto e' mezzo millilitro per chilo all'ora, cioe' circa quaranta millilitri all'ora per il signor Matteo."),
+ (8,"chiaro",0,"Una diuresi troppo bassa indica liquidi insufficienti. Una molto alta, un rischio di sovra-infusione, che peggiora gli edemi e puo' causare una sindrome compartimentale addominale."),
+ (8,"chiaro",0,"Si sorvegliano parametri, coscienza e lattati. E urine scure o rosse possono indicare mioglobina, nelle ustioni profonde o elettriche: si segnalano subito."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Le ustioni circonferenziali. Un'ustione a tutto spessore che avvolge una parte del corpo forma un'escara rigida, che non si espande quando sotto aumenta l'edema."),
+ (9,"chiaro",0,"Al torace limita l'espansione respiratoria; a un arto comprime i vasi, come una sindrome compartimentale. Si sorvegliano polsi, colorito, riempimento capillare, sensibilita' e meccanica respiratoria."),
+ (9,"chiaro",0,"Se serve, il medico esegue un'escarotomia, un'incisione che libera la pressione. L'arto si tiene sollevato, e anelli e bracciali si tolgono subito, prima che l'edema li renda impossibili da rimuovere."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Dolore, temperatura e ferite. Il dolore si tratta con oppioidi endovena secondo prescrizione, titolati e rivalutati. Non per via intramuscolare: nell'ustionato l'assorbimento e' imprevedibile."),
+ (10,"chiaro",0,"La temperatura. L'acqua serve nei primi venti minuti dopo l'ustione; due ore dopo la priorita' e' l'opposto: prevenire l'ipotermia, con coperte, ambiente caldo e liquidi riscaldati."),
+ (10,"chiaro",0,"Le ferite si coprono con materiale pulito o sterile secondo protocollo, senza creme o rimedi casalinghi. Si verifica la profilassi antitetanica. E si centralizza a un centro grandi ustionati."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"[thoughtful] Quando si invia un paziente al centro ustioni? Per ustioni di secondo e terzo grado estese, nell'adulto indicativamente oltre il venti per cento. Per quelle a tutto spessore significative."),
+ (11,"chiaro",0,"Per le ustioni di volto, mani, piedi, genitali, perineo e grandi articolazioni, per le conseguenze funzionali ed estetiche. Per quelle da inalazione e per quelle circonferenziali."),
+ (11,"chiaro",0,"Per le elettriche, che nascondono danni interni e danno aritmie, e le chimiche, che chiedono un'irrigazione prolungata con acqua. Per bambini, anziani, comorbidita', traumi. Il signor Matteo soddisfa piu' criteri."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Fidarsi della saturazione in un incendio in ambiente chiuso. Rinviare la valutazione delle vie aeree. Calcolare le otto ore dall'arrivo, e non dall'ustione."),
+ (12,"chiaro",0,"Contare anche le ustioni superficiali. Non sottrarre i liquidi gia' infusi. Raffreddare a lungo un grande ustionato. L'analgesia intramuscolare. Lasciare anelli e bracciali."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: come si calcolano i liquidi? Con Parkland: quattro millilitri per chilo per percentuale di superficie ustionata di secondo e terzo grado, nelle ventiquattro ore."),
+ (13,"chiaro",0,"Meta' nelle prime otto ore dal momento dell'ustione, meta' nelle sedici successive; poi si adegua alla diuresi. Seconda: quali segni fanno sospettare un'ustione da inalazione?"),
+ (13,"chiaro",0,"Ambiente chiuso, ustioni di volto e collo, peli nasali bruciati, voce rauca, stridore, escreato con fuliggine, dispnea. Terza: perche' la saturimetria non e' affidabile?"),
+ (13,"chiaro",0,"Perche' il saturimetro non distingue l'emoglobina legata all'ossigeno da quella legata al monossido, e mostra valori falsamente normali: serve l'emogas con la carbossiemoglobina."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente di ottanta chili, ustioni profonde su circa il trenta per cento della superficie, alle diciannove in ambiente chiuso, con segni di inalazione. Priorita': vie aeree, monossido, liquidi."),
+ (14,"chiaro",0,"Richiedo subito l'anestesista per un'intubazione precoce; somministro ossigeno al cento per cento e collaboro all'emogas con carbossiemoglobina. Posiziono due accessi e infondo i cristalloidi secondo Parkland."),
+ (14,"chiaro",0,"Novemilaseicento millilitri in ventiquattro ore, quattromilaottocento entro le tre dall'ustione, al netto dei cinquecento gia' infusi, poi circa trecento all'ora, adeguandoli alla diuresi oraria."),
+ (14,"chiaro",0,"Rimuovo gli anelli e sorveglio le ustioni circonferenziali. Analgesia endovena, prevengo l'ipotermia, copro le ferite, verifico l'antitetanica. Preparo la centralizzazione al centro grandi ustionati."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Dolore, tre punto sette. Calcoli, cinque punto tre. Monossido e saturimetro, otto punto due. Vie aeree, dieci punto cinque. Ustioni, dieci punto sette. Sindrome compartimentale, nove punto sei."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Uno sguardo ai giorni successivi, nel centro ustioni. La barriera cutanea e' perduta: il rischio infettivo e' altissimo, e le medicazioni chiedono asepsi rigorosa. Il fabbisogno nutrizionale cresce enormemente."),
+ (16,"chiaro",0,"Per l'ipermetabolismo la nutrizione e' precoce, spesso enterale. L'analgesia prima delle medicazioni. Mobilizzazione e posizionamento contro le retrazioni. E il supporto psicologico, per l'immagine corporea e il trauma."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: nell'ustionato l'orologio parte dalle fiamme, non dalla porta del pronto soccorso."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una ragazza di diciannove anni arriva in pronto soccorso con una chetoacidosi, e scopre cosi' di avere il diabete. L'emergenza metabolica, e una notizia che cambia la vita. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"A: l'ustione delle vie aeree",4:"B: il monossido di carbonio",5:"L'estensione: la regola del nove",
+ 6:"I liquidi: la formula di Parkland",7:"Il calcolo che cade nei quiz",8:"Il monitoraggio della rianimazione",9:"Le ustioni circonferenziali",
+ 10:"Dolore, temperatura, ferite",11:"Quando inviare al centro ustioni",12:"Gli errori da evitare",13:"Le domande d'orale",
+ 14:"La risposta modello",15:"I collegamenti",16:"I giorni successivi",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il grande ustionato e' un paziente in cui ogni ora conta, e gli errori sono spesso di calcolo e di tempo. Usiamo la regola del nove e la formula di Parkland, con una trappola sugli orari che cade quasi sempre nei quiz."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vedremo perche' le vie aeree di un ustionato possono chiudersi in poche ore. Ci servono le lezioni tre punto sette, cinque punto tre, otto punto due, dieci punto cinque e dieci punto sette."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Ore diciannove: un incendio in una cucina chiusa, dall'olio in padella. Il signor Matteo ha quarantacinque anni e pesa ottanta chili. Il centodiciotto lo porta in pronto soccorso alle ventuno."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha gia' ricevuto cinquecento millilitri di cristalloidi. Ha ustioni profonde e a tutto spessore sul torace anteriore, sull'intero arto superiore destro, sul collo e su parte del volto."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Peli del naso bruciacchiati, voce rauca, un escreato nerastro. Saturazione novantotto in aria, frequenza centodiciotto, pressione centoventotto su ottanta, dolore nove."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fermati un momento: quale problema puo' ucciderlo nelle prossime ore, nonostante una saturazione perfetta?"
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La priorita' e' la A. Ambiente chiuso, ustioni del volto e del collo, peli nasali bruciati, voce rauca, escreato con fuliggine: sono i segni di un'ustione da inalazione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'edema delle vie aeree non e' ancora massimo: aumenta nelle ore successive, anche per effetto dei liquidi infusi, e puo' chiudere le vie aeree."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Per questo si chiede una valutazione urgente dell'anestesista, che spesso decide un'intubazione precoce, quando e' ancora tecnicamente possibile."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aspettare che il paziente non respiri piu' significa trovarsi davanti a vie aeree impossibili da intubare. Il materiale per le vie aeree difficili deve essere pronto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "B: il monossido di carbonio. In un incendio in ambiente chiuso l'intossicazione e' probabile, e la saturazione del novantotto non rassicura."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come hai visto nella lezione otto punto due, il saturimetro non distingue l'emoglobina legata al monossido, e il valore puo' essere falsamente normale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si esegue un emogas con la carbossiemoglobina, e si da' ossigeno al cento per cento con maschera con reservoir, fino all'esclusione. Con i fumi di materiali sintetici il medico valuta anche il cianuro."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'estensione, con la regola del nove della lezione dieci punto sette. Si contano solo le ustioni di secondo e terzo grado, non gli eritemi superficiali."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Torace anteriore: diciotto per cento. Arto superiore destro intero: nove. Collo e parte del volto: circa tre. Totale: circa il trenta per cento. Per le aree irregolari, il palmo della persona, dita comprese: circa uno."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I liquidi, con la formula di Parkland. Quattro millilitri, per ottanta chili, per trenta per cento: fa novemilaseicento millilitri nelle prime ventiquattro ore."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meta', cioe' quattromilaottocento, nelle prime otto ore. E qui c'e' la trappola: le otto ore si contano dal momento dell'ustione, cioe' dalle diciannove, non dall'arrivo in pronto soccorso."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi i primi quattromilaottocento millilitri vanno infusi entro le tre di notte. L'altra meta' nelle sedici ore successive: circa trecento millilitri all'ora."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il calcolo che cade nei quiz. Alle ventuno sono gia' passate due delle prime otto ore, e il centodiciotto ha gia' infuso cinquecento millilitri."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Restano quattromilatrecento millilitri da infondere nelle sei ore che mancano alle tre: circa settecentoquindici millilitri all'ora, secondo prescrizione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'errore tipico e' far partire le otto ore dall'arrivo: seicento all'ora, e il paziente sarebbe sotto-infuso proprio quando perde piu' liquidi. E la formula e' un punto di partenza, che il medico adegua alla diuresi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il monitoraggio. Un catetere vescicale con diuresi oraria: l'obiettivo indicativo nell'adulto e' mezzo millilitro per chilo all'ora, cioe' circa quaranta millilitri all'ora per il signor Matteo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una diuresi troppo bassa indica liquidi insufficienti. Una molto alta, un rischio di sovra-infusione, che peggiora gli edemi e puo' causare una sindrome compartimentale addominale."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si sorvegliano parametri, coscienza e lattati. E urine scure o rosse possono indicare mioglobina, nelle ustioni profonde o elettriche: si segnalano subito."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ustioni circonferenziali. Un'ustione a tutto spessore che avvolge una parte del corpo forma un'escara rigida, che non si espande quando sotto aumenta l'edema."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al torace limita l'espansione respiratoria; a un arto comprime i vasi, come una sindrome compartimentale. Si sorvegliano polsi, colorito, riempimento capillare, sensibilita' e meccanica respiratoria."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se serve, il medico esegue un'escarotomia, un'incisione che libera la pressione. L'arto si tiene sollevato, e anelli e bracciali si tolgono subito, prima che l'edema li renda impossibili da rimuovere."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dolore, temperatura e ferite. Il dolore si tratta con oppioidi endovena secondo prescrizione, titolati e rivalutati. Non per via intramuscolare: nell'ustionato l'assorbimento e' imprevedibile."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La temperatura. L'acqua serve nei primi venti minuti dopo l'ustione; due ore dopo la priorita' e' l'opposto: prevenire l'ipotermia, con coperte, ambiente caldo e liquidi riscaldati."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ferite si coprono con materiale pulito o sterile secondo protocollo, senza creme o rimedi casalinghi. Si verifica la profilassi antitetanica. E si centralizza a un centro grandi ustionati."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Quando si invia un paziente al centro ustioni? Per ustioni di secondo e terzo grado estese, nell'adulto indicativamente oltre il venti per cento. Per quelle a tutto spessore significative."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le ustioni di volto, mani, piedi, genitali, perineo e grandi articolazioni, per le conseguenze funzionali ed estetiche. Per quelle da inalazione e per quelle circonferenziali."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le elettriche, che nascondono danni interni e danno aritmie, e le chimiche, che chiedono un'irrigazione prolungata con acqua. Per bambini, anziani, comorbidita', traumi. Il signor Matteo soddisfa piu' criteri."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Fidarsi della saturazione in un incendio in ambiente chiuso. Rinviare la valutazione delle vie aeree. Calcolare le otto ore dall'arrivo, e non dall'ustione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Contare anche le ustioni superficiali. Non sottrarre i liquidi gia' infusi. Raffreddare a lungo un grande ustionato. L'analgesia intramuscolare. Lasciare anelli e bracciali."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: come si calcolano i liquidi? Con Parkland: quattro millilitri per chilo per percentuale di superficie ustionata di secondo e terzo grado, nelle ventiquattro ore."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Meta' nelle prime otto ore dal momento dell'ustione, meta' nelle sedici successive; poi si adegua alla diuresi. Seconda: quali segni fanno sospettare un'ustione da inalazione?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ambiente chiuso, ustioni di volto e collo, peli nasali bruciati, voce rauca, stridore, escreato con fuliggine, dispnea. Terza: perche' la saturimetria non e' affidabile?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' il saturimetro non distingue l'emoglobina legata all'ossigeno da quella legata al monossido, e mostra valori falsamente normali: serve l'emogas con la carbossiemoglobina."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente di ottanta chili, ustioni profonde su circa il trenta per cento della superficie, alle diciannove in ambiente chiuso, con segni di inalazione. Priorita': vie aeree, monossido, liquidi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiedo subito l'anestesista per un'intubazione precoce; somministro ossigeno al cento per cento e collaboro all'emogas con carbossiemoglobina. Posiziono due accessi e infondo i cristalloidi secondo Parkland."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Novemilaseicento millilitri in ventiquattro ore, quattromilaottocento entro le tre dall'ustione, al netto dei cinquecento gia' infusi, poi circa trecento all'ora, adeguandoli alla diuresi oraria."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rimuovo gli anelli e sorveglio le ustioni circonferenziali. Analgesia endovena, prevengo l'ipotermia, copro le ferite, verifico l'antitetanica. Preparo la centralizzazione al centro grandi ustionati."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Dolore, tre punto sette. Calcoli, cinque punto tre. Monossido e saturimetro, otto punto due. Vie aeree, dieci punto cinque. Ustioni, dieci punto sette. Sindrome compartimentale, nove punto sei."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno sguardo ai giorni successivi, nel centro ustioni. La barriera cutanea e' perduta: il rischio infettivo e' altissimo, e le medicazioni chiedono asepsi rigorosa. Il fabbisogno nutrizionale cresce enormemente."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'ipermetabolismo la nutrizione e' precoce, spesso enterale. L'analgesia prima delle medicazioni. Mobilizzazione e posizionamento contro le retrazioni. E il supporto psicologico, per l'immagine corporea e il trauma."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: nell'ustionato l'orologio parte dalle fiamme, non dalla porta del pronto soccorso."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: una ragazza di diciannove anni arriva in pronto soccorso con una chetoacidosi, e scopre cosi' di avere il diabete. L'emergenza metabolica, e una notizia che cambia la vita. A tra poco."
+ }
+]

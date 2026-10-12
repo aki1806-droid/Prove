@@ -3,3 +3,4 @@
 | | lezione | durata | resa |
 |---|---|---|---|
 | 15.7 | L'anziana fragile: delirium, caduta e dimissione protetta | 9:14.3 | `77f1edca6b9516c3e050b33781e4cdb8` |
+| 15.8 | Il paziente diabetico: ipoglicemia, insulina e piede | 9:01.6 | `e1225614cae7082a5fcc0f2a5401323c` |

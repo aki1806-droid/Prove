@@ -1,0 +1,49 @@
+[warm] Apriamo il secondo blocco di casi clinici con l'ictus, seguito per intero: dal primo segno in reparto alla trombolisi, fino alla disfagia, alla comunicazione con una persona afasica e alla riabilitazione.
+
+Lo schema resta quello del modulo quindici: accertamento, priorita', obiettivi, interventi, valutazione. Ci servono le lezioni tre punto tre, otto punto sei, dieci punto due, tredici punto tre e quattordici punto cinque.
+
+Lo scenario. La signora Teresa, settantaquattro anni, e' in cardiologia per una fibrillazione atriale di nuova insorgenza. L'anticoagulante non e' ancora stato iniziato.
+
+Alle quattordici e trenta, al giro della terapia, era vigile e conversava. Alle quindici e venti l'OSS ti chiama: la signora non mi risponde bene.
+
+La trovi con la bocca deviata, il braccio destro che cade, e parla in modo confuso. Fermati un momento: che cosa fai, e qual e' il dato piu' prezioso che devi annotare?
+
+Il riconoscimento. La FAST e' positiva su tutti e tre i segni: sospetto ictus. E il contesto lo rende probabile: una fibrillazione atriale non anticoagulata e' una fonte di emboli, come nella lezione otto punto uno.
+
+La fisiologia della lezione quattordici punto cinque ti dice anche dove: un deficit a destra, con il linguaggio alterato, indica l'emisfero sinistro.
+
+Il dato piu' prezioso e' l'ultima volta in cui la signora e' stata vista in benessere: le quattordici e trenta. Sono passati cinquanta minuti: siamo ampiamente nella finestra dei trattamenti.
+
+Le prime azioni. Attivi subito il medico e il percorso stroke intraospedaliero, comunicando l'orario delle quattordici e trenta. Poi l'ABCDE, e la glicemia capillare: centododici. Non e' un'ipoglicemia che simula un ictus.
+
+I parametri: pressione centosettantotto su novantasei, frequenza centoquattro irregolare, saturazione novantacinque. Poi GCS e pupille. E nulla per bocca.
+
+Due accessi venosi e i prelievi: emocromo, coagulazione, glicemia, creatinina. ECG e peso, per la dose del trombolitico. E niente procedure invasive non indispensabili, come il catetere: dopo la trombolisi sanguinerebbero.
+
+Un errore frequente: vedere centosettantotto e cercare subito di abbassarla. Nell'ictus ischemico acuto la pressione alta e' spesso un compenso, che mantiene il flusso nelle zone del cervello in sofferenza.
+
+Niente antipertensivi senza prescrizione. Per la trombolisi serve una pressione sotto centottantacinque su centodieci prima, e sotto centottanta su centocinque nelle ventiquattro ore dopo. Quella della signora e' compatibile.
+
+Alle quindici e quarantacinque la TC dell'encefalo senza contrasto esclude un'emorragia. Il medico valuta il deficit con la scala NIHSS.
+
+Alle sedici e cinque si avvia la trombolisi endovena, ben entro le quattro ore e mezza dalle quattordici e trenta. E se l'angio-TC mostra l'occlusione di un grosso vaso, si valuta anche la trombectomia.
+
+Si fa nel centro hub della rete ictus, lezione tredici punto tre. E nota quanto pesa l'orario: senza, nessuna di queste decisioni sarebbe possibile.
+
+Dopo la trombolisi, stato neurologico e pressione ravvicinati secondo protocollo: per esempio ogni quindici minuti per due ore, ogni trenta per le sei ore successive, poi ogni ora fino alle ventiquattro.
+
+[serious] I segni di emorragia cerebrale: cefalea improvvisa, vomito, peggioramento neurologico, pressione che sale. Si sospende l'infusione, se e' ancora in corso, e si avvisa subito.
+
+Si sorvegliano i sanguinamenti da altre sedi e l'angioedema di labbra e lingua, piu' frequente con gli ACE-inibitori. E di norma niente anticoagulanti ne' antiaggreganti nelle prime ventiquattro ore.
+
+Il giorno dopo la signora e' piu' vigile e chiede da bere. Qui si gioca un'altra partita: prima di qualsiasi cosa per bocca, acqua e farmaci compresi, lo screening della deglutizione, lezione tre punto tre.
+
+Se compaiono tosse o voce gorgogliante dopo il sorso, scolo dalla bocca, ritardo dell'atto deglutitorio, si sospende l'alimentazione per bocca e si richiede la valutazione logopedica.
+
+Si garantiscono idratazione e nutrizione per altra via, e i farmaci in una forma adatta. E l'igiene del cavo orale, che riduce la polmonite da inalazione.
+
+Nei giorni successivi, il posizionamento dell'arto plegico, sostenendo la spalla. Non si tira mai la persona dal braccio plegico, per non causare una sublussazione.
+
+Si prevengono polmonite, trombosi, con la compressione pneumatica secondo prescrizione, lesioni da pressione e cadute. E la mobilizzazione e' progressiva, con la fisioterapia.
+
+La continenza, evitando il catetere quando e' possibile. L'umore, perche' la depressione dopo l'ictus e' frequente. E la prevenzione secondaria: l'anticoagulazione per la fibrillazione atriale, nei tempi del medico.
