@@ -28,6 +28,11 @@ cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" \
    "$DA/audio/confini-parole.py" "$NUOVA/audio/"
+# Dal modulo 19: la trascrizione in locale (quando Scribe non c'e') e
+# l'aggancio dei tagli al silenzio vero. Le lezioni piu' vecchie non li hanno.
+for f in trascrivi-locale.py aggancia.py; do
+  if [ -f "$DA/audio/$f" ]; then cp "$DA/audio/$f" "$NUOVA/audio/"; fi
+done
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" \
    "$DA/heygen.py" "$NUOVA/"
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso

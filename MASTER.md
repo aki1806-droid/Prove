@@ -330,6 +330,7 @@ serve a far sì che i quattro restino allineati.
 1. riscrivere il copione        →  blocchi.json
 2. generare la voce             →  grezzo-A.mp3, grezzo-B.mp3   ⟵ costa
 3. ritagliare i blocchi         →  N mp3
+   (verifica: trascrizione del servizio, o in locale; tagli agganciati al silenzio)
 4. renderizzare le slide        →  N+2 PNG + N clip mp4
 5. riprese e immagini generate  →  (di solito: nessuna)
 6. caricare gli asset           →  2N + 2 file in un lotto
@@ -440,6 +441,54 @@ quotidianità», ridotta a un giro di frase.
 
 La regola che ne discende: **una parola non si taglia per far stare un blocco**.
 Si prende una scena in più.
+
+### Una lezione in due lingue
+
+Il modulo 19 (l'inglese per il concorso) ha la narrazione italiana con i
+termini inglesi dentro. Tre cose che una lezione monolingue non insegna:
+
+- **Una «e» seguita da un termine inglese fa passare la voce all'inglese.**
+  «E never e always» è uscito «And never and always»; «pericolo, e dangerous»
+  è uscito «and dangerous». Vale a inizio frase e dopo una virgola. Il copione
+  non la scrive: «Poi there is», «May, oppure might», «Disease, infine, è la
+  malattia», «present simple, present continuous». Fra due parole italiane la
+  «e» resta.
+- **I numeri inglesi restano in lettere inglesi** («thirty eight», «from zero
+  to ten»): sono le parole che il quesito userebbe.
+- **La lingua della sintesi resta l'italiano.** Provata contro la lingua
+  automatica su ventotto termini inglesi: il riconoscitore li ha presi tutti,
+  in tutte e due le prove, e l'italiano tiene la voce stabile sul resto.
+
+### La durata dipende da che cosa si legge
+
+Sullo stesso modulo, con la stessa voce e lo stesso filtro, il ritmo netto è
+andato da 12,3 a 15,4 car/s:
+
+```
+glossario a coppie («Hip, anca. Skin, pelle.»)    12,3 car/s netti
+grammatica: forme brevi, lettere sillabate        13,6
+frasi intere e quesiti                            15,3-15,4
+```
+
+Ogni coppia del glossario chiusa da un punto è una pausa piena, e la
+punteggiatura non la toglie: col punto e virgola al posto del punto la stessa
+lezione è durata di più. Quindi **si misura la voce grezza prima di
+trascrivere**: rigenerarla non tocca nient'altro, trascriverla costa. Se la
+voce è corta si aggiunge solo quello che lo schermo del documento già contiene
+(traduzioni, esempi); se è lunga si torna al testo del documento. Quando il
+contenuto non si accorcia senza perdere quello che la lezione chiede, si
+consegna più lungo e lo si dice nel registro, con la proposta per accorciarlo.
+
+### Le pause per provare
+
+Quando il documento chiede una pausa dopo ogni quesito, prima della risposta,
+la pausa è la **posa del blocco**: il quesito chiude un blocco con la posa
+chiesta, e la risposta apre il blocco dopo, insieme al quesito successivo.
+Così una serie di *n* quesiti sta in *n*+1 blocchi invece di 2*n*, e la slide
+di ogni blocco mostra il quesito appena risolto e quello aperto (`quesiti`,
+Passo 4). Un quesito a cui il documento dà la risposta di seguito diventa
+domanda e posa («... Che cosa significa?»). Queste pose allungano la lezione:
+nell'aritmetica del §2 si contano con le altre.
 
 ## Passo 2 — Generare la voce, in due tracce
 
@@ -601,6 +650,26 @@ Tutti e tre si correggono con `correzioni.json` (§ sopra) spostando il confine
 sulla pausa vera. Una soglia di pausa molto bassa, quando è quella che vince,
 è già un indizio: si guarda `confini-parole.py` prima di montare.
 
+**Il modulo 18 ne ha aggiunte due specie, opposte:**
+
+- **il taglio saltato alla pausa dopo**: il confine è finito sulla pausa che
+  segue la prima frase del blocco successivo, e «Vediamo alimentazione…»
+  sarebbe rimasta per due secondi sotto la slide di prima;
+- **il taglio in anticipo**: il confine è caduto su una pausa dentro l'ultima
+  frase, e la fine del blocco («…l'OSS che non ripara») sarebbe passata nella
+  scena dopo. Sulla 19.5 lo stesso errore è caduto dentro l'ultima parola,
+  «dormire?».
+
+Il controllo ha preso un errore vero in quattro lezioni su dieci. Con una
+trascrizione meno fine (sotto, «Quando Scribe non c'è») i segnalati diventano
+decine e quasi tutti falsi: **`audio/aggancia.py` li separa guardando l'audio,
+non la trascrizione.** Per ogni taglio segnalato cerca i silenzi veri della
+traccia grezza fra le due parole: se il taglio sta già in uno di essi resta,
+altrimenti va al centro del più lungo. Sulla 19.4: 24 segnalati, 18 giusti, 6
+spostati. Si lancia una volta sola sullo stato di `allinea` (scrive
+`correzioni.json` da zero: lanciato due volte, gli spostamenti si sommano),
+poi `tagli.py correggi` e `applica`.
+
 Il vecchio `prova.mp3` (1,6 s prima di ogni taglio, trascritti a parte)
 indovinava il confine dalla somiglianza di un frammento e costava una
 trascrizione in più: con i tempi delle parole non serve. Resta
@@ -628,6 +697,30 @@ E la controprova si fa sul testo tornato, sempre, prima di crederci: se contiene
 `e'` o `[`, non è una trascrizione. Su una lavorazione corretta il testo torna
 con le accentate vere (`perché`, `è`), i tag spariti, i numeri riscritti come si
 pronunciano (`Modulo 16` → «modulo sedici», `dieci minuti` → «10 minuti»).
+
+### Quando Scribe non c'è: la trascrizione in locale
+
+A metà del modulo 19 i crediti del servizio sono finiti: la voce si generava
+ancora, la trascrizione no. La verifica non si salta: `audio/trascrivi-locale.py`
+trascrive le due tracce con faster-whisper (modello small, su CPU, a costo
+zero) e scrive i due file nello stesso formato di Scribe, testo e tempi delle
+parole. `verifica-testo.py` e `confini-parole.py` non cambiano.
+
+È meno fine, e i suoi errori hanno una forma riconoscibile:
+
+- **con la lingua forzata all'italiano salta o traduce le frasi tutte
+  inglesi.** «Good morning. My name is Anna» è tornato vuoto: un buco falso.
+  Si controlla ritrascrivendo quel blocco in inglese, e con la sua velocità
+  (sotto, «Come non liquidare un segnale dubbio»: se mancassero parole il
+  blocco sarebbe veloce);
+- **storpia le parole lunghe e le sigle** («la postro fosse» per «l'apostrofo
+  S»): scarti di grafia che il conteggio prende per buchi;
+- **attacca la fine di una parola all'inizio della successiva**, con zero
+  secondi fra le due: `confini-parole.py` segnala FUORI tagli che sono giusti.
+  Li separa `aggancia.py`.
+
+Un controllo che dice NO per questi motivi si consegna dicendo quali buchi
+sono falsi e come lo si è visto.
 
 ### Le rese si dichiarano una per volta
 
@@ -775,6 +868,46 @@ riga/ente e le serie a tema discorde in `cards.mjs`); del primo no, perché
 «questi due lati sono giusto e sbagliato oppure no» non è una domanda che una
 macchina possa decidere. Quella resta a chi guarda.
 
+### Le slide di una lezione in due lingue
+
+«La slide è il glossario, la voce è la guida.» Le regole, pagate una per una:
+
+- **Il glossario è una `tabella`** Inglese | Italiano: la prima colonna esce
+  in verde semibold da sola. Le liste brevi in `griglia` 3×3, «**term** ·
+  traduzione». Le frasi a due colonne (In inglese | Che cosa significa), le
+  regole a tre (Forma | Esempio | Che cosa significa).
+- **Fuori dalle tabelle il semibold è solo per l'inglese**: un'espressione
+  italiana in semibold si confonde col termine da imparare.
+- **L'accento col markup esce rosso.** `*x*` è l'accento del tema, cioè il
+  rosso: un «*è*» scritto così diventa un errore sulla slide. Le vocali
+  accentate si scrivono come caratteri. In una colonna che non è la prima
+  anche `**inglese**` esce rosso semibold: lì si accetta, è l'esempio.
+- **`titolo` su tema chiaro esce rosso**: una frase da ricordare va sul
+  profondo.
+- **Le righe `chiave` sono rosa**, cioè trappole. Accese per segnare «la riga
+  che la voce sta dicendo» facevano sembrare il glossario un elenco di errori:
+  ogni slide mostra solo le righe del suo blocco (`parte(tabella, da, a)` in
+  `contenuti.mjs`).
+- **Gli errori tipici e i falsi amici sono `trappola`** sul velo rosa: lo
+  sbagliato barrato, il giusto sotto.
+- **Un'espressione che non deve andare a capo** si lega con lo spazio
+  indivisibile: `to&nbsp;take`.
+
+Due layout nati qui, in `layout.mjs`:
+
+- **`quesiti`**: la domanda e le quattro opzioni in griglia 2×2. Un quesito con
+  `g` (l'indice della giusta) è risolto: la giusta in verde pieno, le altre
+  smorzate; senza `g` è aperto, tutte uguali. Una `nota` facoltativa sotto, per
+  il distrattore. **La risposta è verde, non rossa**: nel corso il rosso è
+  l'errore. **Sta sul chiaro**: le opzioni chiare sul verde pieno non si
+  leggono, anche a fine capitolo.
+- **`testo`**: un brano acceso frase per frase mentre la voce lo legge
+  (`attive`), con le parole da riconoscere in semibold nell'ultimo passaggio.
+
+E dal modulo 18: quando il documento chiede icone che la libreria non ha, si
+aggiungono a `grafica.mjs` **nello stesso tratto** (1,7 su griglia 24). Così
+sono nate carrozzina, bastone, deambulatore, letto, orecchio, casa, segnale.
+
 ## Passo 5 — Riprese e immagini generate
 
 Di solito: nessuna. Se servono, vanno qui, prima del caricamento.
@@ -843,6 +976,10 @@ heygen.py scene     la lista di scene per il montaggio
 > audio già sul servizio. L'ho fatto per rifare l'apparato grafico di otto
 > lezioni senza toccare una nota di voce.
 
+> **Un 503 dello storage è transitorio.** Su 96 file ne sono caduti due
+> (18.2). `heygen.py invia` riprova ogni file fino a tre volte, dopo 2, 4 e 8
+> secondi; un errore che resta dopo il terzo tentativo è vero.
+
 ## Passo 7 — Montare, in una sola chiamata
 
 Un `create_video_from_studio`, N+2 scene.
@@ -909,6 +1046,16 @@ Da cui `ARROTONDA_SCENA` in `profilo.py`: il bersaglio del respiro non è
 millisecondi è un po' largo rispetto ai 24-29 misurati, ed è il verso giusto:
 un video mezzo secondo lungo non lo nota nessuno, uno mezzo secondo corto manca
 un impegno preso.
+
+### Il fotogramma si confronta al centro di una scena
+
+Dopo il render si scarica il montato del servizio e se ne confronta un
+fotogramma con quello del montato locale allo stesso secondo. Il secondo si
+sceglie **al centro di una scena** (copertina più le durate delle scene
+locali), non a un tempo tondo: il consegnato perde ~25 ms a scena, e vicino a
+un cambio di scena i due file mostrano slide diverse senza che niente sia
+storto (18.5). Al centro, due montati giusti differiscono in media di meno di
+un livello su 255.
 
 ## Passo 8 — Registro
 
@@ -1026,6 +1173,10 @@ timeline a passo fisso dice il contrario di quello che è successo.
 
 Un 7/8 si consegna solo dicendo quale controllo non è passato e perché.
 
+> **La fascia di velocità conta anche la posa.** Un blocco breve che chiude un
+> quesito con tre secondi di pausa esce sotto la fascia senza essere lento: si
+> guarda il parlato da solo, durata meno posa.
+
 > **Nessuno di questi controlli confronta con una costante.** I PNG si contano
 > sui blocchi, le righe di SRT sui blocchi, il tetto delle scene e la durata
 > chiesta si leggono da `profilo.py`. Scritti come numeri fissi passano sulla
@@ -1071,6 +1222,17 @@ Il listino degli errori già pagati. Chi riparte da qui non deve ripagarli.
 | montaggio | il lotto dice «completed» ma gli item no | aspettare il **conteggio**, non lo stato |
 | montaggio | render dato per bloccato e rilanciato | due-quattro minuti sono **normali**; attendere con `until` |
 | montaggio | il consegnato dura meno del locale e sfora l'impegno | ~25 ms per scena di arrotondamento: puntare un secondo sopra |
+| copione | «e» davanti a un termine inglese: la voce dice «and» | «Poi», «oppure», «, infine,»: mai «e» davanti all'inglese |
+| copione | la durata stimata col ritmo di un'altra lezione | glossario, grammatica e frasi vanno a ritmi diversi: misurare la voce grezza prima di trascrivere |
+| verifica | buchi su frasi inglesi con la trascrizione locale | ritrascrivere quel blocco in inglese, guardarne la velocità |
+| tagli | decine di FUORI con la trascrizione locale | `aggancia.py`: decide l'audio, non la trascrizione |
+| tagli | gli spostamenti sommati a quelli di prima | `aggancia.py --scrivi` una volta sola, sullo stato di `allinea` |
+| slide | un accento scritto col markup `*è*` esce rosso | le accentate come caratteri |
+| slide | righe `chiave` usate per segnare la riga detta | una tabella per blocco, `parte()` |
+| slide | `titolo` su chiaro esce rosso | sul profondo |
+| slide | opzioni chiare sul verde pieno | i quesiti risolti sul chiaro |
+| caricamento | un 503 dello storage fa fallire un file del lotto | riprovare quel file (`heygen.py` lo fa) |
+| montaggio | fotogrammi diversi vicino a un cambio di scena | confrontare al centro di una scena |
 
 ---
 
@@ -1188,6 +1350,11 @@ trascrizione delle due tracce intere             $0,43-0,49   (~$0,055 al minuto
 > sei prese del modulo 17, compresa quella buttata. Va ricontrollato a ogni lezione (`credit_costs` nella risposta
 > di `creative_run_flow_nodes`): se cambia, il costo del modulo torna quello
 > della v3, un credito per carattere.
+>
+> **Ed è cambiato.** Sulla 19.5 la stessa voce ha addebitato un credito per
+> carattere (3.381 + 3.032 crediti, $1,06), dopo che sul resto del modulo 19
+> era costata zero. A metà modulo, poi, i crediti sono finiti per la
+> trascrizione: da lì la verifica si è fatta in locale, a costo zero (Passo 3).
 
 Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro),
 e nemmeno le rilavorazioni: rifare un taglio, le clip e i caricamenti costa
@@ -1207,6 +1374,8 @@ differenza**, ed è il motivo per cui il respiro vale quello che vale.
 1. Crea la cartella del progetto e scrivi i file del §10 così come sono.
 2. `pip install imageio-ffmpeg Pillow` · `npm i playwright` · Chromium già
    presente.
+   Per la trascrizione in locale, quando quella del servizio non c'è:
+   `pip install faster-whisper`.
 3. Metti il logo in `slide/marchio/logo-rifilato.png`, **rifilato** come dice il
    §8, e genera `slide/font/font-incorporati.css` dai due caratteri.
 4. Fai le tre domande del §1.
@@ -1244,21 +1413,23 @@ configurazione**: la leggono da `profilo.py`.
 
 | file | righe | a che cosa serve |
 |---|---|---|
-| `nuova-lezione.sh` | 79 | impianta una lezione nuova dall'ultima fatta |
+| `nuova-lezione.sh` | 84 | impianta una lezione nuova dall'ultima fatta |
 | `profilo.py` | 197 | i parametri della lezione, in un posto solo |
 | `copione/costruisci.py` | 162 | il copione, i blocchi, i chunk per la voce |
 | `audio/tagli.py` | 309 | pause, allineamento DTW, ritaglio dei blocchi |
 | `audio/verifica-testo.py` | 196 | trascrizione contro copione |
 | `audio/confini-parole.py` | 60 | i tagli contro i tempi delle parole |
+| `audio/trascrivi-locale.py` | 50 | la trascrizione in locale, quando quella del servizio non c'è |
+| `audio/aggancia.py` | 63 | i tagli segnalati, portati nel silenzio vero |
 | `audio/verifica.py` | 81 | durata e velocita' dei blocchi ritagliati |
 | `verifica-locale.py` | 49 | il controllo statistico sui confini |
-| `slide/layout.mjs` | 386 | temi, marchio, corpi di testo |
-| `slide/grafica.mjs` | 531 | i 13 tipi grafici, le icone, i fregi, i colori |
+| `slide/layout.mjs` | 419 | temi, marchio, corpi di testo, quesiti |
+| `slide/grafica.mjs` | 539 | i 13 tipi grafici, le icone, i fregi, i colori |
 | `slide/cards.mjs` | 88 | le slide in PNG |
 | `slide/clips.mjs` | 45 | le scene animate in MP4 |
 | `monta-scene.py` | 40 | il payload delle scene per il montaggio |
 | `monta-locale.py` | 59 | il montaggio di prova con ffmpeg e l'SRT |
-| `heygen.py` | 124 | il lotto di caricamento e la lista delle scene per HeyGen |
+| `heygen.py` | 129 | il lotto di caricamento e la lista delle scene per HeyGen |
 | `controlli.py` | 85 | gli otto controlli finali |
 | `slide/contenuti.mjs` | 247 | le scene — esempio, cambia a ogni lezione |
 
@@ -1299,6 +1470,11 @@ cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
 cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" \
    "$DA/audio/confini-parole.py" "$NUOVA/audio/"
+# Dal modulo 19: la trascrizione in locale (quando Scribe non c'e') e
+# l'aggancio dei tagli al silenzio vero. Le lezioni piu' vecchie non li hanno.
+for f in trascrivi-locale.py aggancia.py; do
+  if [ -f "$DA/audio/$f" ]; then cp "$DA/audio/$f" "$NUOVA/audio/"; fi
+done
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" \
    "$DA/heygen.py" "$NUOVA/"
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
@@ -2319,6 +2495,135 @@ print("\n" + ("tutti i tagli cadono fra due parole" if not guai
 sys.exit(1 if guai else 0)
 ```
 
+## `audio/trascrivi-locale.py`
+
+La trascrizione delle due tracce in locale, nello stesso formato di Scribe,
+per quando quella del servizio non c'è (Passo 3).
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Trascrive le due tracce in locale, quando Scribe non c'e'.
+
+  python3 audio/trascrivi-locale.py          (tutte e due le tracce)
+  python3 audio/trascrivi-locale.py B        (una sola)
+
+faster-whisper, modello small, su CPU. Scrive trascrizioni/{A,B}.txt e
+trascrizioni/{A,B}-parole.json nello stesso formato di Scribe, cosi'
+verifica-testo.py e confini-parole.py girano senza cambiare niente.
+
+E' nato quando i crediti ElevenLabs sono finiti a meta' modulo (19.3): la
+voce si generava ancora, la trascrizione no. Costa zero e circa un minuto e
+mezzo per traccia.
+
+E' meno fine di Scribe, in modi che vanno saputi prima di leggere l'esito:
+  - con la lingua forzata all'italiano, le frasi TUTTE inglesi le salta o le
+    traduce: «Good morning, my name is Anna» torna vuoto. Un «buco» su una
+    frase inglese si controlla ritrascrivendo quel blocco in inglese, e con
+    la velocita' del blocco (se fosse saltato, sarebbe veloce);
+  - attacca la fine di una parola all'inizio della successiva: confini-parole
+    segnala FUORI tagli che stanno in un silenzio vero. Li separa aggancia.py;
+  - storpia le parole lunghe e le sigle («la postro fosse» per «l'apostrofo
+    S»): sono scarti di grafia, non buchi.
+Il modello si scarica alla prima chiamata nella cartella WHISPER_DIR
+(predefinita ~/.cache/whisper).
+"""
+import json, os, sys, time
+from pathlib import Path
+from faster_whisper import WhisperModel
+
+QUI = Path(__file__).resolve().parent
+tracce = sys.argv[1:] or ["A", "B"]
+m = WhisperModel("small", device="cpu", compute_type="int8",
+                 download_root=os.environ.get("WHISPER_DIR",
+                                              os.path.expanduser("~/.cache/whisper")))
+(QUI/"trascrizioni").mkdir(exist_ok=True)
+for L in tracce:
+    t = time.time()
+    segs, _ = m.transcribe(str(QUI/f"grezzo-{L}.mp3"), language="it",
+                           word_timestamps=True, vad_filter=False, beam_size=5)
+    parole = [{"text": w.word.strip(), "type": "word",
+               "start": round(w.start, 3), "end": round(w.end, 3)}
+              for s in segs for w in s.words]
+    (QUI/"trascrizioni"/f"{L}.txt").write_text(
+        " ".join(p["text"] for p in parole) + "\n", encoding="utf-8")
+    (QUI/"trascrizioni"/f"{L}-parole.json").write_text(json.dumps(
+        {"words": parole, "motore": "faster-whisper small (locale)"},
+        ensure_ascii=False), encoding="utf-8")
+    print(f"{L}: {len(parole)} parole in {time.time()-t:.0f} s")
+```
+
+## `audio/aggancia.py`
+
+Porta i tagli segnalati da `confini-parole.py` nel silenzio vero della
+traccia grezza, o li lascia dove sono se ci stanno già (Passo 3).
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Porta i tagli FUORI di confini-parole.py nel silenzio vero della traccia.
+
+  python3 audio/aggancia.py            dice che cosa farebbe
+  python3 audio/aggancia.py --scrivi   lo scrive in correzioni.json
+
+Per ogni taglio segnalato cerca i silenzi della traccia grezza (silencedetect,
+la stessa soglia di tagli.py) nella finestra fra la fine dell'ultima parola
+del blocco e l'inizio della prima del successivo, allargata di 0,25 s:
+  - se il taglio sta gia' dentro uno di quei silenzi, resta dov'e'. Succede
+    quando la trascrizione attacca le parole l'una all'altra (whisper lo fa
+    spesso): il conteggio lo segnala, ma il taglio e' giusto;
+  - altrimenti va al centro del silenzio piu' lungo della finestra;
+  - senza silenzio nella finestra va al punto medio fra le parole, e lo dice.
+
+Si lancia UNA volta, sullo stato di `tagli.py allinea`: scrive correzioni.json
+da zero, perche' gli spostamenti sono misurati sui confini di allinea. Poi
+`tagli.py correggi` e `tagli.py applica`.
+
+Prende tre specie di errore, viste tutte: il taglio saltato alla pausa dopo
+(la prima parola del blocco resta sotto la slide di prima), il taglio caduto
+su una pausa dentro la frase o dentro l'ultima parola (la fine del blocco
+passa nella scena dopo), e il taglio sulla virgola.
+"""
+import json, re, subprocess, sys
+from pathlib import Path
+
+QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(QUI)); sys.path.insert(0, str(RADICE))
+import tagli
+from profilo import STACCO
+
+scrivi = "--scrivi" in sys.argv
+out = subprocess.run([sys.executable, str(QUI/"confini-parole.py")],
+                     capture_output=True, text=True).stdout
+ids = [b["id"] for b in json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))]
+k = ids.index(STACCO) + 1
+traccia = {i: ("A", n) for n, i in enumerate(ids[:k])}
+traccia.update({i: ("B", n) for n, i in enumerate(ids[k:])})
+pause = {L: tagli.pause(QUI/f"grezzo-{L}.mp3", 0.12) for L in "AB"}
+
+corr = {}
+for m in re.finditer(r"FUORI\s+(s\d+)\s+fine\s+([\d.]+)\s*\|\s*taglio\s+([\d.]+)\s*\|\s*inizio\s+([\d.]+)", out):
+    sid, F, T, I = m.group(1), *map(float, m.groups()[1:])
+    L, n = traccia[sid]; j = n - 1          # confini[j] e' l'inizio del blocco j+1 della traccia
+    lo, hi = min(F, I) - 0.25, max(F, I) + 0.25
+    cand = [(a, b) for a, b in pause[L] if b > lo and a < hi]
+    if any(a <= T <= b for a, b in cand):
+        print(f"  {sid}  {L}[{j}]  resta   {T:7.2f}  (dentro un silenzio vero)")
+        continue
+    if cand:
+        a, b = max(cand, key=lambda p: p[1] - p[0])
+        nuovo, nota = (a + b) / 2, f"silenzio {b-a:.2f} s"
+    else:
+        nuovo, nota = (F + I) / 2, "NESSUN silenzio: punto medio, da ascoltare"
+    corr.setdefault(L, {})[str(j)] = {"secondi": round(nuovo - T, 2)}
+    print(f"  {sid}  {L}[{j}]  sposta  {T:7.2f} -> {nuovo:7.2f}  ({nuovo-T:+.2f} s, {nota})")
+
+print(f"{sum(len(v) for v in corr.values())} spostamenti")
+if scrivi:
+    (QUI/"correzioni.json").write_text(json.dumps(corr, indent=1), encoding="utf-8")
+    print("scritti in audio/correzioni.json")
+```
+
 ## `audio/verifica.py`
 
 ```python
@@ -2625,6 +2930,29 @@ ol.el.fitto,ul.el.fitto{gap:20px}
 .trap .ok{font-size:40px;line-height:1.3;font-weight:600;color:var(--tit);display:flex;gap:20px}
 .trap .ok:before{content:'→';color:var(--acc);font-weight:400}
 
+/* quesiti: domanda + quattro opzioni; la risposta, quando e' data, in verde pieno.
+   Il quesito appena risolto sta sopra, smorzato nelle opzioni sbagliate; quello
+   aperto sotto, con le opzioni tutte uguali: e' il momento di provare. */
+.qz{display:flex;flex-direction:column;gap:58px}
+.qz .q{display:flex;flex-direction:column;gap:22px}
+.qz .dom{font-size:40px;line-height:1.28;font-weight:500;color:var(--fg);display:flex;gap:24px}
+.qz .dom .n{flex:0 0 auto;font-weight:700;color:var(--acc);font-variant-numeric:lining-nums tabular-nums}
+.qz b.a{color:var(--tit)}
+.qz .opz{display:grid;grid-template-columns:1fr 1fr;gap:14px 22px;padding-left:2px}
+.qz .op{font-size:31px;line-height:1.25;padding:15px 24px;border-radius:12px;background:#F3F5F4;
+        border:2px solid var(--linea);display:flex;gap:16px}
+.qz .op .l{font-weight:700;color:var(--sop)}
+.qz .q.fatta .op{opacity:.42}
+.qz .q.fatta .op.si{opacity:1;background:${VERDE};border-color:${VERDE};color:${BIANCO};font-weight:600}
+.qz .q.fatta .op.si .l{color:#BFE0CD}
+.qz .nota{font-size:33px;line-height:1.35;color:var(--fg);border-left:6px solid var(--acc);padding:4px 0 4px 26px}
+
+/* testo: un brano inglese letto frase per frase */
+.brano{font-size:46px;line-height:1.5;color:var(--fg)}
+.brano span{opacity:.22}
+.brano span.on{opacity:1}
+.brano b.a{color:var(--tit)}
+
 /* timeline */
 .tl{display:flex;align-items:flex-start;gap:0;position:relative;padding-top:64px}
 .tl:before{content:'';position:absolute;left:0;right:0;top:76px;height:4px;background:var(--linea)}
@@ -2767,6 +3095,16 @@ const CORPI = {
          <div class="sb">${acc(r.sb)}</div>
          <div class="ok"><span>${acc(r.ok)}</span></div></div>`).join('')}</div>`,
 
+  quesiti: d => `<div class="qz">${d.voci.map(q=>
+      `<div class="q ${q.g!=null?'fatta':''}">
+         <div class="dom"><span class="n">${q.n}</span><span>${acc(q.d)}</span></div>
+         <div class="opz">${q.o.map((o,k)=>
+           `<div class="op ${q.g===k?'si':''}"><span class="l">${'abcd'[k]}</span><span>${acc(o)}</span></div>`).join('')}</div>
+       </div>`).join('')}${d.nota?`<div class="nota">${acc(d.nota)}</div>`:''}</div>`,
+
+  testo: d => `<div class="brano serif">${d.frasi.map((f,i)=>
+      `<span class="${(d.attive??d.frasi.map((_,k)=>k)).includes(i)?'on':''}">${acc(f)}</span>`).join(' ')}</div>`,
+
   timeline: d => `<div class="tl">${d.tappe.map((t,i)=>
       `<div class="t ${(d.attive??d.tappe.map((_,k)=>k)).includes(i)?'on':''} ${t.key?'key':''}">
          <div class="p"></div><div class="an">${t.anno}</div><div class="et">${acc(t.et)}</div></div>`).join('')}</div>`,
@@ -2898,6 +3236,14 @@ const I = {
   foto:'M3 7.4h4l1.6-2.6h6.8L17 7.4h4v12H3ZM12 16.6a3.8 3.8 0 1 0 0-7.6 3.8 3.8 0 0 0 0 7.6Z',
   cartella:'M2.8 6.2h6.4l1.8 2.4h10.2v11.2H2.8ZM2.8 6.2V4.2h5.6',
   goccia:'M12 3.2S5.4 10 5.4 14.2a6.6 6.6 0 0 0 13.2 0C18.6 10 12 3.2 12 3.2Z',
+  // modulo 18, gli ausili: stesso tratto, stessa griglia
+  carrozzina:'M9.2 2.6a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM9.2 7.6v6.2h6l2.6 5.6 1.8-.8M9.2 10.4h5M6.4 11.4a5.6 5.6 0 1 0 8.6 6.8',
+  bastone:'M14.8 21.2V7.6a3.6 3.6 0 0 0-7.2 0v.8M13.6 21.2h2.4',
+  deambulatore:'M6.5 21V8.2a1.8 1.8 0 0 1 1.8-1.8h7.4a1.8 1.8 0 0 1 1.8 1.8V21M6.5 12.5h11M5 21h3M16 21h3',
+  letto:'M2.6 19V5.6M2.6 15.4h18.8V19M21.4 15.4v-3.2a2.6 2.6 0 0 0-2.6-2.6h-8v5.8M6.6 13.2a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6Z',
+  orecchio:'M6.6 9.6a5.4 5.4 0 0 1 10.8 0c0 3.4-3.2 4.2-3.2 7a3 3 0 0 1-5.6 1.4M9.6 9.8a2.4 2.4 0 0 1 4.8 0c0 1.2-1 1.6-1.6 2.2',
+  casa:'M3 11.2 12 3.6l9 7.6M5.4 9.4v11.2h13.2V9.4M10 20.6v-5.4h4v5.4',
+  segnale:'M12 18.6v.2M8.6 15.2a4.8 4.8 0 0 1 6.8 0M5.6 12.2a9 9 0 0 1 12.8 0M2.6 9.2a13.2 13.2 0 0 1 18.8 0',
   ingranaggio:'M12 8.6a3.4 3.4 0 1 0 0 6.8 3.4 3.4 0 0 0 0-6.8ZM19.6 12a7.7 7.7 0 0 0-.1-1.2l2-1.5-1.9-3.3-2.4 1a7.6 7.6 0 0 0-2-1.2L14.9 3h-3.8l-.3 2.8c-.7.3-1.4.7-2 1.2l-2.4-1-1.9 3.3 2 1.5a7.7 7.7 0 0 0 0 2.4l-2 1.5 1.9 3.3 2.4-1c.6.5 1.3.9 2 1.2l.3 2.8h3.8l.3-2.8c.7-.3 1.4-.7 2-1.2l2.4 1 1.9-3.3-2-1.5c.1-.4.1-.8.1-1.2Z',
 };
 // Fregi: forme vettoriali che danno peso grafico alle slide di sola parola.
@@ -3558,7 +3904,7 @@ Si caricano le scene intere (scene/*.mp4: ingresso piu' fermo immagine, durata
 piena), non le clip da 1,8 s: la durata della scena consegnata e' quella del
 filmato, e ARROTONDA_SCENA e' misurato su questo.
 Tutto cio' che scrive sta in _montaggio/, che il repo ignora."""
-import json, subprocess, sys
+import json, time, subprocess, sys
 from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
@@ -3613,9 +3959,14 @@ def cmd_invia():
         if atteso != tipo:
             raise SystemExit(f"{nome}: alla posizione {i} il lotto aspetta {atteso}, non {tipo}")
         testa = [x for k, v in it["upload_headers"].items() for x in ("-H", f"{k}: {v}")]
-        p = subprocess.run(["curl", "-sS", "--max-time", "300", "-o", "/dev/null",
-                            "-w", "%{http_code}", "-X", "PUT", "--upload-file", strada,
-                            *testa, it["upload_url"]], capture_output=True, text=True)
+        # Un 503 dello storage e' transitorio: su 96 file ne sono caduti due
+        # (18.2). Si riprova fino a tre volte, aspettando 2, 4, 8 secondi.
+        for attesa in (0, 2, 4, 8):
+            time.sleep(attesa)
+            p = subprocess.run(["curl", "-sS", "--max-time", "300", "-o", "/dev/null",
+                                "-w", "%{http_code}", "-X", "PUT", "--upload-file", strada,
+                                *testa, it["upload_url"]], capture_output=True, text=True)
+            if p.stdout.strip() == "200": break
         if p.stdout.strip() != "200":
             errori.append((nome, p.stdout.strip(), p.stderr[-200:])); print(f"\n  {nome} KO")
         else:
