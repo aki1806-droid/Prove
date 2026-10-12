@@ -149,6 +149,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.3-iperkaliemia` | Modulo 16 · 16.3 Il paziente dializzato con iperkaliemia | 9:01.2 | `a7ae046c353b550061da14ff0682085a` |
 | `m16-l16.4-embolia` | Modulo 16 · 16.4 L'embolia polmonare in Medicina | 9:06.1 | `52ef12e20d88aecefdd3b66c8481b8d4` |
 | `m16-l16.7-ustionato` | Modulo 16 · 16.7 Il grande ustionato | 8:57.7 | `0ca0a0f6996b0f140b9e50b81fb7aebd` |
+| `m16-l16.8-chetoacidosi` | Modulo 16 · 16.8 La chetoacidosi all'esordio | 9:06.8 | `79de8b7bf3e9f72ef4cb7b910e48e245` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
