@@ -8,3 +8,4 @@
 | 15.4 | Dolore toracico: dal triage all'arresto cardiaco | 9:16.6 | `27db9f3f0f8c35726da7fe93d1193164` |
 | 15.5 | La paziente con BPCO che dorme troppo | 9:14.7 | `5c0154a55641b90fa59a9dc8896e4168` |
 | 15.6 | Lo scompenso: dalla notte in edema polmonare al ritorno a casa | 9:07.0 | `84aa16d65159226600496201508f2914` |
+| 15.9 | La paziente oncologica con febbre | 8:56.4 | `cc511f4bb19876057455ba18aff92cdc` |
