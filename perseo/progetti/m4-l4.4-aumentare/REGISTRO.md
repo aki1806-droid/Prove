@@ -38,7 +38,10 @@ Modulo 4 · Quanto si versa. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `da4588b3388f813567a5f5a7db610dc0` — **completato**, 6:01,7 (361,7 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/da4588b3388f813567a5f5a7db610dc0
+- lotto asset `cf08b7ce2f7c4facad5ac09b96c72458` (96 file)
+- copia di controllo locale: `montato-4.4.mp4` 6:03,0 (non versionata) e `montato-4.4.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
