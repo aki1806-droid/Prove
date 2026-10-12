@@ -183,8 +183,8 @@ Con la voce del modulo 17 (`eleven_v4`, filtro più lento, vedi sotto) il provin
 di una frase dava 16,59 e la prima lezione intera **16,86**: +1,6%. Un provino
 basta a dimensionare il copione, se si mira corto.
 
-Le cinque lezioni del modulo hanno dato **16,86 · 16,12 · 16,27 · 16,39 ·
-16,18**: la voce nuova oscilla quanto la vecchia, il 4%. E la prima presa della
+Le sei prese delle cinque lezioni del modulo hanno dato **16,86 · 16,12 ·
+16,27 · 16,39 · 16,42 · 16,18**: la voce nuova oscilla quanto la vecchia, il 4%. E la prima presa della
 seconda lezione, scritta sulla misura della prima, è uscita **undici secondi
 oltre**: il respiro non accorcia, e si è dovuto asciugare il copione e
 rigenerare. Da lì il copione non si dimensiona su **una** misura ma su
@@ -196,8 +196,8 @@ C / CPS_max + pose + respiro_max × (blocchi−1) ≥ stessa cosa   (letto veloc
 ```
 
 La forchetta che ne esce è stretta — per il modulo 17, **7.050-7.150
-caratteri** — e le tre lezioni scritte dentro di essa sono uscite tutte al
-primo colpo, tutte e tre a 7:51.8. Le pose contano: una lezione con un capitolo
+caratteri** — e le tre lezioni scritte dentro di essa sono uscite al primo
+colpo, tutte e tre a 7:51.8. Le pose contano: una lezione con un capitolo
 in più ha una posa in più, e la forchetta si sposta di quella posa.
 
 ### Il ritmo è una scelta, e sta in due numeri
