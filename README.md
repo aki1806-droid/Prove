@@ -134,6 +134,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:42.6 | `f53308e25d9de12662c7bf6baae8b314` |
 | `m15-l15.7-fragile` | Modulo 15 · 15.7 L'anziana fragile: delirium, caduta e dimissione protetta | 9:14.3 | `77f1edca6b9516c3e050b33781e4cdb8` |
 | `m15-l15.8-diabetico` | Modulo 15 · 15.8 Il paziente diabetico: ipoglicemia, insulina e piede | 9:01.6 | `e1225614cae7082a5fcc0f2a5401323c` |
+| `m15-l15.1-metodo` | Modulo 15 · 15.1 Il metodo per risolvere un caso clinico | 9:02.9 | `99763ae01dd3e388d296d7d2857a73b3` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
