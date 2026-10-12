@@ -4,107 +4,107 @@
   "traccia": "A",
   "da": 0.0,
   "a": 9.426,
-  "durata": 8.79,
+  "durata": 8.84,
   "posa": 0.0,
   "car": 153,
-  "cps": 17.4
+  "cps": 17.3
  },
  {
   "id": "s03",
   "traccia": "A",
   "da": 9.426,
   "a": 22.544,
-  "durata": 11.99,
+  "durata": 12.06,
   "posa": 0.0,
   "car": 216,
-  "cps": 18.0
+  "cps": 17.9
  },
  {
   "id": "s04",
   "traccia": "A",
   "da": 22.544,
   "a": 31.577,
-  "durata": 8.23,
+  "durata": 8.28,
   "posa": 0.0,
   "car": 127,
-  "cps": 15.4
+  "cps": 15.3
  },
  {
   "id": "s05",
   "traccia": "A",
   "da": 31.577,
   "a": 45.42,
-  "durata": 12.14,
+  "durata": 12.21,
   "posa": 0.0,
   "car": 208,
-  "cps": 17.1
+  "cps": 17.0
  },
  {
   "id": "s06",
   "traccia": "A",
   "da": 45.42,
   "a": 57.31,
-  "durata": 10.84,
+  "durata": 10.91,
   "posa": 0.0,
   "car": 168,
-  "cps": 15.5
+  "cps": 15.4
  },
  {
   "id": "s07",
   "traccia": "A",
   "da": 57.31,
   "a": 71.386,
-  "durata": 12.48,
+  "durata": 12.55,
   "posa": 0.0,
   "car": 210,
-  "cps": 16.8
+  "cps": 16.7
  },
  {
   "id": "s08",
   "traccia": "A",
   "da": 71.386,
   "a": 81.527,
-  "durata": 9.04,
+  "durata": 9.08,
   "posa": 0.0,
   "car": 142,
-  "cps": 15.7
+  "cps": 15.6
  },
  {
   "id": "s09",
   "traccia": "A",
   "da": 81.527,
   "a": 93.771,
-  "durata": 11.41,
+  "durata": 11.48,
   "posa": 0.0,
   "car": 185,
-  "cps": 16.2
+  "cps": 16.1
  },
  {
   "id": "s10",
   "traccia": "A",
   "da": 93.771,
   "a": 101.802,
-  "durata": 7.21,
+  "durata": 7.25,
   "posa": 0.0,
   "car": 136,
-  "cps": 18.9
+  "cps": 18.8
  },
  {
   "id": "s11",
   "traccia": "A",
   "da": 101.802,
   "a": 117.359,
-  "durata": 14.02,
+  "durata": 14.1,
   "posa": 0.0,
   "car": 222,
-  "cps": 15.8
+  "cps": 15.7
  },
  {
   "id": "s12",
   "traccia": "A",
   "da": 117.359,
   "a": 131.1,
-  "durata": 12.48,
+  "durata": 12.55,
   "posa": 0.0,
   "car": 214,
   "cps": 17.1
@@ -114,57 +114,57 @@
   "traccia": "A",
   "da": 131.1,
   "a": 139.864,
-  "durata": 8.03,
+  "durata": 8.08,
   "posa": 0.0,
   "car": 140,
-  "cps": 17.4
+  "cps": 17.3
  },
  {
   "id": "s14",
   "traccia": "A",
   "da": 139.864,
   "a": 156.202,
-  "durata": 15.23,
+  "durata": 15.32,
   "posa": 0.0,
   "car": 219,
-  "cps": 14.4
+  "cps": 14.3
  },
  {
   "id": "s15",
   "traccia": "A",
   "da": 156.202,
   "a": 168.616,
-  "durata": 11.11,
+  "durata": 11.18,
   "posa": 0.0,
   "car": 167,
-  "cps": 15.0
+  "cps": 14.9
  },
  {
   "id": "s16",
   "traccia": "A",
   "da": 168.616,
   "a": 181.085,
-  "durata": 11.23,
+  "durata": 11.3,
   "posa": 0.0,
   "car": 195,
-  "cps": 17.4
+  "cps": 17.3
  },
  {
   "id": "s17",
   "traccia": "A",
   "da": 181.085,
   "a": 187.518,
-  "durata": 5.8,
+  "durata": 5.84,
   "posa": 0.0,
   "car": 103,
-  "cps": 17.8
+  "cps": 17.6
  },
  {
   "id": "s18",
   "traccia": "A",
   "da": 187.518,
   "a": 200.922,
-  "durata": 12.04,
+  "durata": 12.11,
   "posa": 0.0,
   "car": 198,
   "cps": 16.4
@@ -174,47 +174,47 @@
   "traccia": "A",
   "da": 200.922,
   "a": 211.685,
-  "durata": 9.62,
+  "durata": 9.67,
   "posa": 0.0,
   "car": 167,
-  "cps": 17.4
+  "cps": 17.3
  },
  {
   "id": "s20",
   "traccia": "A",
   "da": 211.685,
   "a": 223.928,
-  "durata": 11.17,
+  "durata": 11.22,
   "posa": 0.0,
   "car": 182,
-  "cps": 16.3
+  "cps": 16.2
  },
  {
   "id": "s21",
   "traccia": "A",
   "da": 223.928,
   "a": 238.092,
-  "durata": 12.89,
+  "durata": 12.96,
   "posa": 0.0,
   "car": 222,
-  "cps": 17.2
+  "cps": 17.1
  },
  {
   "id": "s22",
   "traccia": "A",
   "da": 238.092,
   "a": 251.773,
-  "durata": 12.59,
+  "durata": 12.67,
   "posa": 0.0,
   "car": 213,
-  "cps": 16.9
+  "cps": 16.8
  },
  {
   "id": "s23",
   "traccia": "A",
   "da": 251.773,
   "a": 265.358,
-  "durata": 12.62,
+  "durata": 12.69,
   "posa": 0.0,
   "car": 205,
   "cps": 16.2
@@ -224,7 +224,7 @@
   "traccia": "A",
   "da": 265.358,
   "a": 276.158,
-  "durata": 9.79,
+  "durata": 9.84,
   "posa": 0.0,
   "car": 159,
   "cps": 16.2
@@ -234,97 +234,97 @@
   "traccia": "A",
   "da": 276.158,
   "a": 290.24,
-  "durata": 13.0,
+  "durata": 13.07,
   "posa": 0.0,
   "car": 215,
-  "cps": 16.5
+  "cps": 16.4
  },
  {
   "id": "s26",
   "traccia": "B",
   "da": 0.0,
   "a": 8.609,
-  "durata": 7.12,
+  "durata": 7.16,
   "posa": 0.0,
   "car": 150,
-  "cps": 21.1
+  "cps": 20.9
  },
  {
   "id": "s27",
   "traccia": "B",
   "da": 8.609,
   "a": 20.974,
-  "durata": 10.86,
+  "durata": 10.92,
   "posa": 0.0,
   "car": 181,
-  "cps": 16.7
+  "cps": 16.6
  },
  {
   "id": "s28",
   "traccia": "B",
   "da": 20.974,
   "a": 31.495,
-  "durata": 8.86,
+  "durata": 8.91,
   "posa": 0.0,
   "car": 148,
-  "cps": 16.7
+  "cps": 16.6
  },
  {
   "id": "s29",
   "traccia": "B",
   "da": 31.495,
   "a": 43.838,
-  "durata": 10.54,
+  "durata": 10.61,
   "posa": 0.0,
   "car": 187,
-  "cps": 17.7
+  "cps": 17.6
  },
  {
   "id": "s30",
   "traccia": "B",
   "da": 43.838,
   "a": 60.199,
-  "durata": 13.92,
+  "durata": 14.01,
   "posa": 0.0,
   "car": 210,
-  "cps": 15.1
+  "cps": 15.0
  },
  {
   "id": "s31",
   "traccia": "B",
   "da": 60.199,
   "a": 74.991,
-  "durata": 12.77,
+  "durata": 12.85,
   "posa": 0.0,
   "car": 215,
-  "cps": 16.8
+  "cps": 16.7
  },
  {
   "id": "s32",
   "traccia": "B",
   "da": 74.991,
   "a": 90.347,
-  "durata": 12.69,
+  "durata": 12.77,
   "posa": 0.0,
   "car": 208,
-  "cps": 16.4
+  "cps": 16.3
  },
  {
   "id": "s33",
   "traccia": "B",
   "da": 90.347,
   "a": 102.151,
-  "durata": 10.56,
+  "durata": 10.62,
   "posa": 0.0,
   "car": 171,
-  "cps": 16.2
+  "cps": 16.1
  },
  {
   "id": "s34",
   "traccia": "B",
   "da": 102.151,
   "a": 116.683,
-  "durata": 12.77,
+  "durata": 12.84,
   "posa": 0.0,
   "car": 196,
   "cps": 15.3
@@ -334,57 +334,57 @@
   "traccia": "B",
   "da": 116.683,
   "a": 123.723,
-  "durata": 5.64,
+  "durata": 5.67,
   "posa": 0.0,
   "car": 88,
-  "cps": 15.6
+  "cps": 15.5
  },
  {
   "id": "s36",
   "traccia": "B",
   "da": 123.723,
   "a": 134.099,
-  "durata": 8.8,
+  "durata": 8.85,
   "posa": 0.0,
   "car": 156,
-  "cps": 17.7
+  "cps": 17.6
  },
  {
   "id": "s37",
   "traccia": "B",
   "da": 134.099,
   "a": 144.335,
-  "durata": 8.66,
+  "durata": 8.71,
   "posa": 0.0,
   "car": 140,
-  "cps": 16.2
+  "cps": 16.1
  },
  {
   "id": "s38",
   "traccia": "B",
   "da": 144.335,
   "a": 161.912,
-  "durata": 14.48,
+  "durata": 14.56,
   "posa": 0.0,
   "car": 198,
-  "cps": 13.7
+  "cps": 13.6
  },
  {
   "id": "s39",
   "traccia": "B",
   "da": 161.912,
   "a": 177.283,
-  "durata": 12.58,
+  "durata": 12.66,
   "posa": 0.0,
   "car": 204,
-  "cps": 16.2
+  "cps": 16.1
  },
  {
   "id": "s40",
   "traccia": "B",
   "da": 177.283,
   "a": 186.883,
-  "durata": 8.19,
+  "durata": 8.23,
   "posa": 0.0,
   "car": 133,
   "cps": 16.2
@@ -394,77 +394,77 @@
   "traccia": "B",
   "da": 186.883,
   "a": 196.797,
-  "durata": 8.77,
+  "durata": 8.82,
   "posa": 0.0,
   "car": 140,
-  "cps": 16.0
+  "cps": 15.9
  },
  {
   "id": "s42",
   "traccia": "B",
   "da": 196.797,
   "a": 213.409,
-  "durata": 14.07,
+  "durata": 14.15,
   "posa": 0.0,
   "car": 219,
-  "cps": 15.6
+  "cps": 15.5
  },
  {
   "id": "s43",
   "traccia": "B",
   "da": 213.409,
   "a": 225.51,
-  "durata": 10.51,
+  "durata": 10.57,
   "posa": 0.0,
   "car": 182,
-  "cps": 17.3
+  "cps": 17.2
  },
  {
   "id": "s44",
   "traccia": "B",
   "da": 225.51,
   "a": 238.906,
-  "durata": 11.76,
+  "durata": 11.82,
   "posa": 0.0,
   "car": 173,
-  "cps": 14.7
+  "cps": 14.6
  },
  {
   "id": "s45",
   "traccia": "B",
   "da": 238.906,
   "a": 255.663,
-  "durata": 14.16,
+  "durata": 14.24,
   "posa": 0.0,
   "car": 212,
-  "cps": 15.0
+  "cps": 14.9
  },
  {
   "id": "s46",
   "traccia": "B",
   "da": 255.663,
   "a": 269.502,
-  "durata": 11.62,
+  "durata": 11.69,
   "posa": 0.0,
   "car": 190,
-  "cps": 16.4
+  "cps": 16.3
  },
  {
   "id": "s47",
   "traccia": "B",
   "da": 269.502,
   "a": 284.33,
-  "durata": 12.38,
+  "durata": 12.45,
   "posa": 0.0,
   "car": 196,
-  "cps": 15.8
+  "cps": 15.7
  },
  {
   "id": "s48",
   "traccia": "B",
   "da": 284.33,
   "a": 292.203,
-  "durata": 7.46,
+  "durata": 7.49,
   "posa": 1.2,
   "car": 109,
   "cps": 14.6
@@ -474,9 +474,9 @@
   "traccia": "B",
   "da": 292.203,
   "a": 307.52,
-  "durata": 13.25,
+  "durata": 13.32,
   "posa": 0.0,
   "car": 225,
-  "cps": 17.0
+  "cps": 16.9
  }
 ]
