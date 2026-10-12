@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,840
+Il potassio e' l'elettrolita che uccide piu' in silenzio: un'iperkaliemia grave puo' dare pochi sintomi e poi, all'improvviso, un'aritmia mortale.
+
+2
+00:00:11,840 --> 00:00:23,900
+Qui un paziente in emodialisi salta una seduta e arriva in pronto soccorso con un potassio pericoloso. Vedremo come si legge l'ECG, perche' i farmaci d'urgenza agiscono in modi diversi, e come si protegge la fistola.
+
+3
+00:00:23,900 --> 00:00:32,180
+Ci servono le lezioni tre punto cinque, sei punto uno, otto punto quattro, quattordici punto quattro e quattordici punto sette.
+
+4
+00:00:32,180 --> 00:00:44,390
+Lo scenario. Il signor Sergio ha sessantotto anni ed e' in emodialisi il lunedi', il mercoledi' e il venerdi', con una fistola al braccio sinistro. E' quasi anurico. Venerdi' non si e' presentato alla seduta.
+
+5
+00:00:44,390 --> 00:00:55,300
+Lunedi' alle otto arriva in pronto soccorso: una forte astenia, le gambe molli, formicolii, nausea, dispnea. Frequenza quarantasei, pressione centocinquanta su novanta.
+
+6
+00:00:55,300 --> 00:01:07,850
+Frequenza respiratoria ventisei, saturazione novantadue, edemi declivi, crepitii alle basi. E pesa tre chili e mezzo piu' del suo peso secco. Fermati: quali due problemi vedi, e quale e' piu' pericoloso adesso?
+
+7
+00:01:07,850 --> 00:01:16,930
+Il ragionamento. Un paziente quasi anurico che salta una seduta accumula tutto cio' che il rene non elimina: potassio, liquidi, scorie, acidi.
+
+8
+00:01:16,930 --> 00:01:28,410
+La debolezza muscolare, le parestesie e la bradicardia fanno sospettare un'iperkaliemia grave. Gli edemi, i crepitii, la dispnea e il peso aumentato indicano un sovraccarico di liquidi.
+
+9
+00:01:28,410 --> 00:01:35,660
+Il problema piu' pericoloso nell'immediato e' l'iperkaliemia, perche' puo' causare aritmie e arresto cardiaco senza preavviso.
+
+10
+00:01:35,660 --> 00:01:49,760
+Le prime azioni. Monitor continuo, con il defibrillatore pronto. Avvisi subito il medico. ECG a dodici derivazioni. Accesso venoso e prelievi sul braccio destro: mai su quello con la fistola, l'accesso vitale del paziente.
+
+11
+00:01:49,760 --> 00:02:02,310
+Il potassio si puo' avere in pochi minuti con l'emogas, senza aspettare il laboratorio. Semiseduto, ossigeno secondo protocollo, i farmaci d'urgenza pronti. E avvisi la dialisi, che sara' il trattamento definitivo.
+
+12
+00:02:02,310 --> 00:02:10,390
+L'emogas conferma un potassio di sette virgola quattro, su un campione non emolizzato. E l'ECG dell'iperkaliemia cambia in modo progressivo.
+
+13
+00:02:10,390 --> 00:02:25,710
+Prima onde T alte e appuntite. Poi un PR allungato, con l'onda P che si appiattisce. Poi un QRS che si allarga, fino alla bradicardia estrema, ai ritmi a QRS largo, all'arresto in fibrillazione ventricolare o asistolia.
+
+14
+00:02:25,710 --> 00:02:36,890
+Il signor Sergio ha onde T appuntite, PR lungo e un QRS che inizia ad allargarsi: e' un'emergenza. E un avvertimento: un ECG normale non esclude un'iperkaliemia grave.
+
+15
+00:02:36,890 --> 00:02:48,190
+I farmaci d'urgenza, sempre secondo prescrizione, con tre meccanismi diversi da saper spiegare. Uno: stabilizzare il cuore. Il calcio endovena protegge il miocardio dalle aritmie in pochi minuti.
+
+16
+00:02:48,190 --> 00:02:54,030
+Ma non abbassa il potassio. E' una protezione temporanea, e richiede cautela nei pazienti in digossina.
+
+17
+00:02:54,030 --> 00:03:06,140
+Due: spostare il potassio dentro le cellule. L'insulina rapida con il glucosio, il salbutamolo per aerosol, e il bicarbonato se c'e' acidosi. Anche questo e' temporaneo: il potassio resta nel corpo.
+
+18
+00:03:06,140 --> 00:03:15,810
+Tre: eliminarlo. Con l'emodialisi urgente, che e' il trattamento definitivo, e con le resine o i leganti del potassio. E' l'unico dei tre che lo porta fuori dal corpo.
+
+19
+00:03:15,810 --> 00:03:27,030
+La sorveglianza durante la terapia. ECG continuo, e il potassio ripetuto secondo prescrizione. La glicemia dopo l'insulina e il glucosio: l'ipoglicemia puo' comparire anche ore dopo.
+
+20
+00:03:27,030 --> 00:03:39,990
+Il rischio e' maggiore nel nefropatico, che elimina l'insulina piu' lentamente: il caso quindici punto otto. Poi velocita' e sede del calcio, perche' lo stravaso danneggia i tessuti. E il salbutamolo: tachicardia, tremori.
+
+21
+00:03:39,990 --> 00:03:52,660
+Il sovraccarico di liquidi. Posizione semiseduta e ossigeno con un target. Nel paziente anurico i diuretici sono poco o per nulla efficaci: i liquidi in eccesso si rimuovono con la dialisi, con l'ultrafiltrazione.
+
+22
+00:03:52,660 --> 00:04:05,350
+Nel frattempo restrizione dei liquidi, bilancio e peso, e i segni di edema polmonare. Ricordi il caso quindici punto sei? Li' la furosemide funzionava; qui il rene non risponde, e la soluzione e' un'altra.
+
+23
+00:04:05,350 --> 00:04:15,190
+La fistola, ancora una volta. Si controllano fremito e soffio. Sul braccio della fistola niente pressione, prelievi, cannule o lacci, e lo si segnala al letto.
+
+24
+00:04:15,190 --> 00:04:28,260
+Dopo la dialisi, il sanguinamento dai punti di puntura, l'ipotensione, il peso rispetto al peso secco. E con un catetere per dialisi, la regola della lezione otto punto quattro: il lock si aspira, non si spinge mai.
+
+25
+00:04:28,260 --> 00:04:35,420
+E poi la domanda che cambia il caso: perche' ha saltato la seduta? Si chiede senza giudicare: che cosa le ha impedito di venire venerdi'?
+
+26
+00:04:35,420 --> 00:04:46,340
+Le cause possono essere molto diverse: un problema di trasporto, la stanchezza, una depressione, difficolta' familiari o economiche, oppure la volonta' di sospendere il trattamento.
+
+27
+00:04:46,340 --> 00:04:55,250
+La risposta orienta l'intervento: un servizio di trasporto, un supporto psicologico, l'assistente sociale, oppure un colloquio sulle scelte di cura.
+
+28
+00:04:55,250 --> 00:05:05,860
+Il diritto di rifiutare la dialisi esiste, come prevede la legge duecentodiciannove. Ma deve essere una scelta informata e accompagnata, non il risultato di un problema pratico irrisolto.
+
+29
+00:05:05,860 --> 00:05:19,870
+Un approfondimento pratico: il potassio nel piatto. Ne sono ricchi molti frutti, come banane, kiwi, agrumi, frutta secca; molte verdure, come patate, pomodori, legumi, verdure a foglia; il cioccolato, i succhi.
+
+30
+00:05:19,870 --> 00:05:32,720
+Per ridurlo si tagliano le verdure, si lasciano in ammollo, poi si bollono in abbondante acqua da eliminare. E un'attenzione che pochi conoscono: i sostituti del sale iposodici contengono spesso cloruro di potassio.
+
+31
+00:05:32,720 --> 00:05:45,490
+Per un dializzato possono essere pericolosi. Anche alcuni farmaci aumentano il potassio: ACE-inibitori, sartani, diuretici risparmiatori di potassio, FANS. E il piano alimentare si costruisce con il dietista.
+
+32
+00:05:45,490 --> 00:05:56,110
+L'educazione. Non saltare le sedute, e in caso di impedimento contattare subito il centro dialisi, che puo' spostarle. La dieta, con attenzione a potassio, fosforo e sale.
+
+33
+00:05:56,110 --> 00:06:08,950
+I liquidi, con il limite indicato e il controllo del peso fra una seduta e l'altra. I segni d'allarme per cui chiamare subito: debolezza, formicolii, palpitazioni, dispnea, aumento rapido di peso.
+
+34
+00:06:08,950 --> 00:06:14,620
+La cura della fistola. E nessun farmaco da banco senza consiglio, in particolare i FANS.
+
+35
+00:06:14,620 --> 00:06:23,470
+Gli errori. Pungere o misurare la pressione sul braccio della fistola. Aspettare il laboratorio senza il monitor. Pensare che il calcio abbassi il potassio.
+
+36
+00:06:23,470 --> 00:06:32,180
+Dimenticare la glicemia dopo insulina e glucosio. Contare sui diuretici in un paziente anurico. E non chiedere perche' ha saltato la seduta.
+
+37
+00:06:32,180 --> 00:06:46,740
+Le domande d'orale. Prima: le alterazioni ECG dell'iperkaliemia? Onde T alte e appuntite, poi PR allungato e onda P appiattita, poi QRS che si allarga, fino alla bradicardia e all'arresto.
+
+38
+00:06:46,740 --> 00:06:59,400
+Seconda: come agiscono i farmaci? Il calcio stabilizza la membrana del miocardio senza abbassare il potassio. Insulina con glucosio e salbutamolo spostano il potassio nelle cellule. La dialisi lo elimina.
+
+39
+00:06:59,400 --> 00:07:07,630
+Terza: che cosa non si fa sul braccio con la fistola? Non si misura la pressione, niente prelievi, cannule, lacci, indumenti stretti.
+
+40
+00:07:07,630 --> 00:07:16,450
+Non si sollevano pesi, e non ci si dorme sopra: e' l'elenco della lezione otto punto quattro. E ogni giorno si controllano fremito e soffio.
+
+41
+00:07:16,450 --> 00:07:30,600
+La risposta modello. Paziente in emodialisi che ha saltato una seduta, con astenia, parestesie, bradicardia, dispnea, edemi e aumento di peso: sospetta iperkaliemia grave e sovraccarico. Priorita': prevenire le aritmie.
+
+42
+00:07:30,600 --> 00:07:41,170
+Avvio il monitoraggio con il defibrillatore pronto, avviso subito il medico ed eseguo l'ECG. Posiziono l'accesso sul braccio senza fistola, e ottengo il potassio rapido con l'emogas.
+
+43
+00:07:41,170 --> 00:07:52,990
+Somministro secondo prescrizione calcio endovena, insulina con glucosio e salbutamolo, sorvegliando ECG, potassio e glicemia. E avviso la dialisi per il trattamento urgente.
+
+44
+00:07:52,990 --> 00:08:07,230
+Gestisco il sovraccarico: semiseduto, ossigeno, restrizione idrica. Proteggo la fistola. Indago senza giudizio il motivo della seduta saltata. Educo su sedute, dieta povera di potassio, liquidi e segni d'allarme.
+
+45
+00:08:07,230 --> 00:08:18,920
+I collegamenti. Potassio ed emolisi con la tre punto cinque. Il patrimonio venoso con la sei punto uno. Dialisi e fistola con la otto punto quattro. Il rene con la quattordici punto quattro.
+
+46
+00:08:18,920 --> 00:08:31,370
+I valori di laboratorio con la quattordici punto sette. Le alterazioni dell'ECG con la tre punto cinque. E la legge duecentodiciannove, sul consenso e sul rifiuto delle cure, con la uno punto sei.
+
+47
+00:08:31,370 --> 00:08:38,860
+La frase del caso: il calcio protegge il cuore, ma il potassio resta. Solo la dialisi lo porta via.
+
+48
+00:08:38,860 --> 00:08:52,180
+Nella prossima lezione: una paziente in medicina che, al primo tentativo di alzarsi, diventa improvvisamente dispnoica. Una trombosi che nessuno aveva cercato, e una profilassi che nessuno aveva prescritto. A tra poco.
