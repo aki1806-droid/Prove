@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,580
+In questo caso non c'e' un solo paziente: c'e' un turno di mattina in medicina, con quattro trappole nella terapia, chieste spesso all'esame. In ognuna, l'infermiere e' l'ultima barriera fra un errore e un danno.
+
+2
+00:00:15,580 --> 00:00:28,910
+Useremo le lezioni cinque punto tre, quattro, sei e sette: i calcoli, la sicurezza, gli oppioidi, i farmaci ad alto rischio. E poi la trasfusione della sei punto sei, e la responsabilita' della uno punto cinque.
+
+3
+00:00:28,910 --> 00:00:40,450
+Trappola uno, ore otto. Un paziente ha il potassio a tre virgola zero. In cartella trovi scritto: cloruro di potassio, venti milliequivalenti, endovena, in bolo. Pausa: che cosa fai?
+
+4
+00:00:40,450 --> 00:00:50,210
+Il potassio concentrato in bolo puo' causare un arresto cardiaco. E' una prescrizione palesemente errata, e non si esegue. Si contatta subito il medico, per la correzione.
+
+5
+00:00:50,210 --> 00:01:03,700
+Il potassio endovena si somministra sempre diluito, con pompa, a velocita' controllata secondo protocollo. Piu' lento in vena periferica, e con il monitoraggio ECG se concentrazione o velocita' sono elevate.
+
+6
+00:01:03,700 --> 00:01:13,620
+Ricordi la Raccomandazione uno: le fiale di cloruro di potassio concentrato vanno conservate separate e segnalate. E la richiesta di chiarimento al medico si documenta.
+
+7
+00:01:13,620 --> 00:01:24,820
+Una domanda d'orale collegata: l'infermiere che esegue una prescrizione palesemente errata ne risponde? Si': la responsabilita' e' anche sua, come hai visto nella lezione uno punto cinque.
+
+8
+00:01:24,820 --> 00:01:34,800
+Trappola due, ore dieci. La prescrizione: eparina sodica, venticinquemila unita' in cinquanta millilitri di fisiologica, da infondere a mille unita' all'ora.
+
+9
+00:01:34,800 --> 00:01:43,380
+La pompa, impostata da un collega nella notte, scorre a venti millilitri all'ora. Pausa: e' corretto? Prima di rispondere, fai il calcolo.
+
+10
+00:01:43,380 --> 00:01:54,800
+Il calcolo. La concentrazione e' venticinquemila diviso cinquanta: cinquecento unita' per millilitro. La velocita' corretta e' mille diviso cinquecento: due millilitri all'ora.
+
+11
+00:01:54,800 --> 00:02:05,530
+La pompa a venti millilitri all'ora eroga invece diecimila unita' all'ora: dieci volte la dose. E' l'errore tipico della virgola: un fattore dieci, che solo il calcolo fa vedere.
+
+12
+00:02:05,530 --> 00:02:17,320
+Le azioni. Fermare l'infusione. Avvisare subito il medico. Valutare i segni di sanguinamento e i parametri. L'aPTT urgente e la protamina, l'antidoto, secondo prescrizione.
+
+13
+00:02:17,320 --> 00:02:28,860
+Poi si segnala l'evento, cercando le cause e non i colpevoli. E la prevenzione: il doppio controllo indipendente per i farmaci ad alto livello di attenzione, e le pompe con la libreria dei farmaci.
+
+14
+00:02:28,860 --> 00:02:41,620
+Trappola tre, ore tredici. Il signor Rino, ottantadue anni, in seconda giornata postoperatoria, riceve morfina endovena, quattro milligrammi ogni quattro ore, piu' una dose al bisogno data alle dodici.
+
+15
+00:02:41,620 --> 00:02:52,800
+Alle tredici e' molto sonnolento, e risponde a fatica allo stimolo verbale. Frequenza respiratoria otto, pupille miotiche, saturazione ottantotto in aria. Che cosa succede?
+
+16
+00:02:52,800 --> 00:03:05,700
+E' una depressione respiratoria da oppioidi: sedazione, bradipnea, miosi. Le azioni: stimolare il paziente e invitarlo a respirare. Ossigeno. Chiamare subito il medico. Sospendere l'oppioide.
+
+17
+00:03:05,700 --> 00:03:17,530
+Poi il naloxone, secondo prescrizione o protocollo, a piccole dosi titolate. Inverte la depressione respiratoria senza annullare del tutto l'analgesia, e senza scatenare un dolore violento.
+
+18
+00:03:17,530 --> 00:03:26,590
+Poi il monitoraggio continuo, perche' il naloxone dura meno della morfina: quando il suo effetto finisce, l'oppioide e' ancora li', e il paziente puo' riaddormentarsi.
+
+19
+00:03:26,590 --> 00:03:37,450
+E la prevenzione: valutare la sedazione prima di ogni dose, perche' la sedazione precede la depressione respiratoria. Con un'attenzione particolare all'anziano e all'insufficienza renale.
+
+20
+00:03:37,450 --> 00:03:49,430
+Un richiamo alle regole sugli stupefacenti della lezione cinque punto sei. Il registro di carico e scarico, previsto dal DPR trecentonove del millenovecentonovanta, e l'armadio chiuso a chiave.
+
+21
+00:03:49,430 --> 00:04:00,450
+Ogni somministrazione si registra. Le fiale usate in parte e i residui si smaltiscono secondo procedura, con un testimone. E qualsiasi discrepanza nel registro si segnala subito.
+
+22
+00:04:00,450 --> 00:04:14,750
+Trappola quattro, ore quindici. Emazie in corso da dieci minuti. Brividi, febbre a trentotto e nove, dolore lombare, angoscia. Pressione ottantacinque su cinquanta, frequenza centoventicinque, urine scure. Che cosa succede?
+
+23
+00:04:14,750 --> 00:04:24,240
+E' una sospetta reazione emolitica acuta, da incompatibilita' AB0. Le azioni, nell'ordine. La prima: interrompere subito la trasfusione.
+
+24
+00:04:24,240 --> 00:04:33,340
+Mantenere l'accesso venoso con soluzione fisiologica e un nuovo set, perche' nel deflussore c'e' ancora sangue incompatibile. E chiamare subito il medico.
+
+25
+00:04:33,340 --> 00:04:42,880
+Parametri ravvicinati e diuresi, per il rischio di danno renale. Verificare al letto l'identita' del paziente e l'etichetta dell'unita'. E i prelievi, secondo procedura.
+
+26
+00:04:42,880 --> 00:04:54,640
+Sacca e set si inviano al servizio trasfusionale, e si fa la notifica di emovigilanza. La Raccomandazione cinque la definisce un evento sentinella: quasi sempre nasce da un errore di identificazione.
+
+27
+00:04:54,640 --> 00:05:03,570
+Il filo comune delle quattro trappole. Sono tutti farmaci o prodotti ad alto livello di attenzione: il potassio, l'eparina, gli oppioidi, gli emocomponenti.
+
+28
+00:05:03,570 --> 00:05:15,590
+E l'infermiere e' l'ultima barriera. Controlla prima di eseguire: prescrizione, calcolo, paziente, via, velocita'. Osserva dopo aver eseguito. Comunica subito. Segnala, in un'ottica no blame.
+
+29
+00:05:15,590 --> 00:05:25,360
+E la responsabilita' e' condivisa, come prevedono la legge ventiquattro del duemiladiciassette e il Codice deontologico. Nessuno e' solo, ma nessuno puo' dire che non toccava a lui.
+
+30
+00:05:25,360 --> 00:05:38,060
+Le giuste regole della lezione cinque punto quattro: paziente, farmaco, dose, via, tempo e registrazione. E, nelle versioni estese, velocita', forma farmaceutica, monitoraggio, diritto di rifiuto.
+
+31
+00:05:38,060 --> 00:05:49,090
+L'identificazione, con almeno due identificativi. E un segnale d'allarme da non ignorare mai: la domanda del paziente. Questa pastiglia non l'ho mai presa: si verifica sempre, prima di somministrare.
+
+32
+00:05:49,090 --> 00:06:01,100
+Gli errori. Eseguire una prescrizione palesemente errata perche' l'ha scritta il medico. Fidarsi della pompa impostata dal turno precedente, senza ricalcolare. Dare la dose al bisogno senza valutare la sedazione.
+
+33
+00:06:01,100 --> 00:06:10,050
+Rallentare la trasfusione invece di fermarla. Gettare la sacca, che e' una prova indispensabile per capire che cosa e' successo. E non segnalare, per paura.
+
+34
+00:06:10,050 --> 00:06:19,400
+E dopo l'errore, che cosa si fa? Prima di tutto la sicurezza del paziente: gli interventi per limitare il danno. Poi la comunicazione dell'evento al paziente e ai familiari.
+
+35
+00:06:19,400 --> 00:06:28,410
+Una comunicazione onesta, tempestiva, secondo le procedure aziendali, e insieme al medico. Nascondere un errore distrugge la fiducia piu' dell'errore stesso.
+
+36
+00:06:28,410 --> 00:06:39,290
+Poi la segnalazione e l'analisi delle cause, con l'audit o l'analisi delle cause profonde, senza cercare il colpevole. E il supporto all'operatore coinvolto, che spesso vive l'errore come un trauma.
+
+37
+00:06:39,290 --> 00:06:49,110
+Si parla, per lui, di seconda vittima. E le azioni di miglioramento, come il doppio controllo o le librerie dei farmaci nelle pompe, nascono proprio dalle segnalazioni.
+
+38
+00:06:49,110 --> 00:07:03,830
+Le domande d'orale. Prima: che cosa prevedono le Raccomandazioni uno e cinque? La uno, il cloruro di potassio concentrato: separato, segnalato, mai in bolo. La cinque, la reazione da AB0: si previene identificando bene.
+
+39
+00:07:03,830 --> 00:07:17,280
+Seconda: come calcola la velocita' di un'infusione? Prima la concentrazione: farmaco diviso volume. Poi la dose oraria diviso la concentrazione. Mille unita' all'ora, a cinquecento per millilitro: due millilitri all'ora.
+
+40
+00:07:17,280 --> 00:07:27,760
+Terza: che cosa fa davanti a una prescrizione che ritiene errata? Non la eseguo, contatto il medico per un chiarimento, documento la richiesta e, se necessario, coinvolgo il coordinatore.
+
+41
+00:07:27,760 --> 00:07:43,090
+La risposta modello, per la trasfusione. Dopo dieci minuti di emazie: brividi, febbre, dolore lombare, ipotensione, tachicardia, urine scure. Sospetta reazione emolitica acuta da AB0: emergenza ed evento sentinella.
+
+42
+00:07:43,090 --> 00:07:54,520
+Interrompo immediatamente la trasfusione, mantengo l'accesso venoso con fisiologica tramite un nuovo set e chiamo subito il medico. Rilevo parametri e diuresi, e collaboro al trattamento dello shock.
+
+43
+00:07:54,520 --> 00:08:05,480
+Verifico al letto la corrispondenza fra paziente, richiesta ed etichetta dell'unita'. Eseguo i prelievi previsti, e invio sacca e set al servizio trasfusionale. E rassicuro il paziente.
+
+44
+00:08:05,480 --> 00:08:16,540
+Documento, attivo l'emovigilanza e segnalo l'evento. La prevenzione si basa sulla corretta identificazione, al prelievo e al letto, e sulla sorveglianza nei primi quindici minuti.
+
+45
+00:08:16,540 --> 00:08:28,730
+I collegamenti. La responsabilita', con la uno punto cinque. I calcoli, con la cinque punto tre. Le giuste regole e il doppio controllo, con la cinque punto quattro. Oppioidi e naloxone, con la cinque punto sei.
+
+46
+00:08:28,730 --> 00:08:39,770
+Il potassio con la cinque punto sette, l'eparina con la cinque punto cinque. La trasfusione, con la sei punto sei. E il rischio clinico con le Raccomandazioni, con la due punto sei.
+
+47
+00:08:39,770 --> 00:08:49,910
+La frase del caso: fermarsi un minuto a controllare non e' lentezza, e' sicurezza. Ognuna delle quattro trappole si risolveva con una verifica di pochi secondi.
+
+48
+00:08:49,910 --> 00:09:03,220
+Nella prossima lezione: un turno pomeridiano con sei pazienti, un OSS e un assistente infermiere, e un familiare che perde il controllo. Priorita', attribuzione, supervisione e gestione dell'aggressione. A tra poco.
