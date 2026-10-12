@@ -39,8 +39,8 @@ export const SCENE = [
 
 {id:"s02", tipo:"figura", tema:"chiaro", illu:"luna", sopratitolo:"Micro-lezione 9 di 12 · le strutture residenziali venete per anziani non autosufficienti",
   titolo:"Di notte, spesso, **un solo infermiere** per un intero nucleo.", sotto:"E il medico non è in struttura."},
-{id:"s03", tipo:"bivio", tema:"chiaro", sopratitolo:"Valutare, attivare il medico, partecipare a una decisione difficile",
-  radice:"Un ospite con demenza avanzata ha la febbre", rami:[
+{id:"s03", tipo:"bivio", tema:"chiaro", sopratitolo:"Un ospite con demenza avanzata ha la febbre · valutare, attivare il medico, decidere",
+  radice:"Una decisione difficile", rami:[
   {q:"curarlo", t:"In struttura"},
   {q:"mandarlo", t:"In pronto soccorso"}]},
 {id:"s04", tipo:"anello", tema:"chiaro", sopratitolo:"I collegamenti",

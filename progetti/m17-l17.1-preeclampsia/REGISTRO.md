@@ -70,4 +70,4 @@ stacco tracce             dopo s25   (chunk A 4.428 car · chunk B 4.297 car)
 
 ### Correzione dopo la revisione (12 ottobre 2026)
 
-- s05 (ragionamento): «e' una preeclampsia» diventa «e' una preeclampsia con segni di gravita'», perché la soglia 160/110 non venga presa per quella diagnostica (140/90 nella 11.4).
+- s07 (ragionamento): «e' una preeclampsia» diventa «e' una preeclampsia con segni di gravita'», perché la soglia 160/110 non venga presa per quella diagnostica (140/90 nella 11.4).
