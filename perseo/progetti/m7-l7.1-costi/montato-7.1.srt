@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:10,490
+Nessuno compra una casa senza chiedere quanto costa. E nessuno firma un mutuo senza guardare il tasso, le spese, le condizioni.
+
+2
+00:00:10,490 --> 00:00:17,490
+Eppure molti sottoscrivono una forma di previdenza senza leggere le spese. Si fidano, oppure pensano che siano dettagli.
+
+3
+00:00:17,490 --> 00:00:25,590
+Il problema e' che i costi di un fondo pensione non arrivano in un'unica fattura. Si prelevano un po' alla volta, ogni anno, per decenni.
+
+4
+00:00:25,590 --> 00:00:33,510
+In questa lezione leggiamo lo scontrino completo di Perseo Sirio, riga per riga. Nella fase di accumulo, e in quella della rendita.
+
+5
+00:00:33,510 --> 00:00:42,260
+Le cifre vengono dalla scheda «I costi» della Nota informativa, in vigore dal ventisette marzo 2026. Possono cambiare nel tempo.
+
+6
+00:00:42,260 --> 00:00:48,260
+Primo gruppo: i costi che ti vengono addebitati direttamente, e che quindi puoi vedere nella tua posizione.
+
+7
+00:00:48,260 --> 00:00:56,970
+Partiamo dalla buona notizia: l'adesione non costa nulla. Non c'e' nessuna spesa di ingresso, qualunque sia il modo in cui sei entrato nel Fondo.
+
+8
+00:00:56,970 --> 00:01:04,290
+Ogni anno, pero', il Fondo preleva una quota associativa di tredici euro. La preleva dal primo versamento utile dell'anno.
+
+9
+00:01:04,290 --> 00:01:12,740
+Per gli aderenti contrattuali della polizia locale la quota e' di undici euro. Per chi ha trasformato la posizione in RITA, di dieci euro.
+
+10
+00:01:12,740 --> 00:01:18,960
+E ci sono casi in cui la quota non si paga. Non la pagano i familiari fiscalmente a carico, iscritti al Fondo.
+
+11
+00:01:18,960 --> 00:01:24,190
+E non la paga chi in un anno non ha fatto versamenti, oppure ha fatto solo versamenti volontari.
+
+12
+00:01:24,190 --> 00:01:32,950
+Tredici euro su trecento di contributo annuo sono una cifra sensibile, all'inizio. Ma diventano trascurabili, man mano che la posizione cresce.
+
+13
+00:01:32,950 --> 00:01:41,330
+Secondo gruppo: i costi indiretti. Si chiamano cosi' perche' non li vedi addebitati direttamente sulla tua posizione, come la quota associativa.
+
+14
+00:01:41,330 --> 00:01:48,770
+Vengono prelevati dal patrimonio di ogni comparto, ogni trimestre. E sono gia' compresi nei rendimenti netti che il Fondo pubblica.
+
+15
+00:01:48,770 --> 00:01:55,600
+Pagano soprattutto i gestori, che investono i soldi, e il depositario, che li custodisce e controlla le operazioni.
+
+16
+00:01:55,600 --> 00:02:05,010
+Ogni comparto ha il suo costo, espresso come percentuale del patrimonio, all'anno. Ricordi i tre comparti della lezione sei punto tre? Vediamoli uno per uno.
+
+17
+00:02:05,010 --> 00:02:12,130
+Il Garantito costa lo zero virgola quarantasei per cento l'anno. E' il piu' caro dei tre, perche' la garanzia ha un prezzo.
+
+18
+00:02:12,130 --> 00:02:19,260
+L'Obbligazionario costa lo zero virgola quattordici per cento. L'Azionario lo zero virgola diciannove per cento.
+
+19
+00:02:19,260 --> 00:02:27,340
+Su questi due comparti si aggiunge una commissione legata ai risultati: il dieci per cento dell'eventuale rendimento oltre l'obiettivo.
+
+20
+00:02:27,340 --> 00:02:33,750
+In pratica il gestore guadagna di piu' solo se fa meglio dell'obiettivo. Se non lo supera, la commissione non si paga.
+
+21
+00:02:33,750 --> 00:02:40,700
+E a tutti i comparti si aggiunge uno zero virgola zero tre per cento di spese amministrative, per il funzionamento del Fondo.
+
+22
+00:02:40,700 --> 00:02:51,120
+Sono numeri piccoli, con lo zero davanti. Ma si applicano ogni anno a tutto il patrimonio accumulato, non solo ai versamenti dell'anno. E il patrimonio, col tempo, cresce.
+
+23
+00:02:51,120 --> 00:02:58,640
+Terzo gruppo: i costi per le operazioni che puoi chiedere durante gli anni di iscrizione. E qui la risposta e' semplice: zero.
+
+24
+00:02:58,640 --> 00:03:07,530
+Anticipazioni e riscatti: nessuna spesa. Trasferimento per perdita dei requisiti, o trasferimento volontario a un'altra forma: nessuna spesa.
+
+25
+00:03:07,530 --> 00:03:14,680
+Cambio di profilo della posizione, o dei soli versamenti futuri: nessuna spesa. E nessuna spesa nemmeno per la RITA.
+
+26
+00:03:14,680 --> 00:03:22,510
+La Nota informativa non prevede spese per nessuna di queste sette operazioni. Ne abbiamo parlato anche nella lezione sei punto sei.
+
+27
+00:03:22,510 --> 00:03:29,680
+Non e' scontato. In molte altre forme pensionistiche, alcune di queste operazioni hanno un costo fisso, a ogni richiesta.
+
+28
+00:03:29,680 --> 00:03:38,220
+Qui, invece, puoi adattare la posizione alla tua vita senza pagare pedaggi. Ogni volta che serve, e senza dover fare conti prima di chiedere.
+
+29
+00:03:38,220 --> 00:03:45,100
+Infine, i costi della fase di erogazione: cioe' quando ricevi la pensione complementare come rendita, ogni mese.
+
+30
+00:03:45,100 --> 00:03:54,750
+La rendita non la paga direttamente il Fondo. La paga una compagnia di assicurazione convenzionata con il Fondo, che trasforma il capitale in un assegno per tutta la vita.
+
+31
+00:03:54,750 --> 00:04:03,400
+Al momento della conversione si applica un caricamento: l'uno virgola dieci per cento sul capitale trasformato in rendita. Si paga una volta sola.
+
+32
+00:04:03,400 --> 00:04:10,550
+Il caricamento sale al cinque per cento per la rendita LTC: quella che raddoppia in caso di non autosufficienza.
+
+33
+00:04:10,550 --> 00:04:18,520
+Poi, ogni anno, la rendita viene rivalutata. E su quella rivalutazione la compagnia trattiene lo zero virgola novanta per cento.
+
+34
+00:04:18,520 --> 00:04:26,170
+Ne riparleremo con calma nel modulo nove, quando sceglieremo il tipo di rendita. Per ora basta sapere che anche qui ci sono costi.
+
+35
+00:04:26,170 --> 00:04:34,730
+E che, come gli altri, sono scritti nero su bianco nella Nota informativa. Non sono nascosti: basta sapere dove guardare, e andare a leggerli.
+
+36
+00:04:34,730 --> 00:04:40,810
+Un costo piccolo, pagato per trent'anni, non e' piu' piccolo. Leggilo tutto.
+
+37
+00:04:40,810 --> 00:04:48,020
+Le tre cose da ricordare. Uno: aderire e' gratis. Ogni anno si pagano tredici euro di quota associativa.
+
+38
+00:04:48,020 --> 00:04:56,240
+Due: i costi indiretti vanno dallo zero virgola quattordici allo zero virgola quarantasei per cento l'anno, a seconda del comparto.
+
+39
+00:04:56,240 --> 00:05:01,600
+Piu' lo zero virgola zero tre per cento di spese amministrative, uguale per tutti i comparti.
+
+40
+00:05:01,600 --> 00:05:08,280
+Tre: anticipazioni, riscatti, trasferimenti, cambi di profilo e RITA non costano nulla.
+
+41
+00:05:08,280 --> 00:05:13,940
+La mossa di oggi: sul sito del Fondo, apri la scheda «I costi» della Nota informativa.
+
+42
+00:05:13,940 --> 00:05:22,000
+Sono tre pagine, e ora sai leggerle. Cerca le righe che abbiamo visto: la quota associativa, i costi dei comparti, le operazioni.
+
+43
+00:05:22,000 --> 00:05:27,040
+E guarda il comparto del tuo profilo: quanto costa, ogni anno, sul tuo patrimonio?
+
+44
+00:05:27,040 --> 00:05:34,850
+Non serve fare calcoli complicati. Serve sapere che quei numeri esistono, dove trovarli, e che cosa significano per la tua posizione.
+
+45
+00:05:34,850 --> 00:05:42,100
+Ma come si confrontano i costi di forme diverse, con strutture diverse? Serve un numero unico, che li riassuma tutti.
+
+46
+00:05:42,100 --> 00:05:48,070
+Nella prossima lezione vediamo proprio quel numero: l'ISC, l'indicatore sintetico dei costi.
+
+47
+00:05:48,070 --> 00:05:52,310
+Il numero da guardare. Ci vediamo nella lezione sette punto due.
