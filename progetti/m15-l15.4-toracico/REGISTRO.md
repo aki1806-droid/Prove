@@ -64,7 +64,8 @@ stacco tracce             dopo s26   (chunk A 4.694 car · chunk B 4.286 car)
 - s23–s24: lo script fa dire alla comunicazione a ciclo chiuso «adrenalina
   somministrata alle 10:09», ma il ROSC arriva alle 10:07 dopo il secondo
   shock, e l'adrenalina nella FV va dopo il terzo shock: l'orario
-  dell'esempio non torna con la cronologia del caso. Lasciato com'è.
+  dell'esempio non torna con la cronologia del caso. **Tolto l'orario**: voce
+  «adrenalina somministrata. E il timekeeper ne annota l'orario», slide senza 10:09.
 - s23: «adrenalina e amiodarone dopo il terzo shock» nel contesto dei tre
   shock in rapida successione: le linee guida ERC trattano la sequenza dei tre
   shock ravvicinati in modo particolare ai fini dei tempi dei farmaci; da far

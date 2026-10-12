@@ -61,7 +61,7 @@ BLOCCHI = [
  (15,"chiaro",0,"Terza: gli aspetti assistenziali della NIV? Spiegazione e rassicurazione, la scelta dell'interfaccia, la protezione della cute del naso, il controllo delle perdite e della distensione gastrica."),
  (15,"chiaro",0,"E il monitoraggio di frequenza respiratoria, saturazione, coscienza ed emogas, con il riconoscimento dei segni di fallimento."),
 
- (16,"chiaro",0,"La risposta modello. BPCO grave a rischio di ipercapnia, ossigeno ad alta concentrazione, saturazione novantanove, sonnolenza ingravescente, cefalea, cute calda e bradipnea: ipercapnia da eccesso di ossigeno."),
+ (16,"chiaro",0,"La risposta modello. BPCO grave a rischio di ipercapnia, ossigeno ad alta concentrazione, saturazione novantanove, sonnolenza ingravescente, cefalea, cute calda, respiro che rallenta: ipercapnia da eccesso di ossigeno."),
  (16,"chiaro",0,"Priorita': ossigenazione al target ottantotto-novantadue e acidosi respiratoria. Avviso il medico con urgenza, stimolo la paziente, valuto la coscienza. Non sospendo l'ossigeno: lo titolo con la Venturi, secondo prescrizione."),
  (16,"chiaro",0,"Semiseduta, monitoraggio continuo. Collaboro a emogas e NIV, curando interfaccia, cute, perdite e distensione gastrica; aerosol con aria compressa. Rivaluto dopo una-due ore. Documento, ed educo prima della dimissione."),
 

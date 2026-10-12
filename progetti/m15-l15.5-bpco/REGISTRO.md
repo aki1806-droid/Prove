@@ -60,10 +60,7 @@ stacco tracce             dopo s26   (chunk A 4.728 car · chunk B 4.232 car)
 
 ## Da verificare
 
-- s44 (risposta modello): lo script chiama «bradipnea» una frequenza
-  respiratoria di 12, che nei valori del corso (12–20) è al limite basso della
-  norma; il dato clinico che conta, e che lo script dice altrove, è la
-  frequenza che **si riduce**. Lasciato come nello script.
+- s44 (risposta modello): lo script chiama «bradipnea» una frequenza respiratoria di 12, che nei valori del corso (12–20) è al limite basso della norma. **Corretto** in «respiro che rallenta» (voce) e «FR in calo» (s44), che è il dato clinico del caso.
 - s12: la figura dei dispositivi (`o2`) porta i flussi e le FiO₂ della lezione
   8.2 (Venturi 24–60%, reservoir 10–15 L/min), non scritti in questo script:
   accesa solo la Venturi.

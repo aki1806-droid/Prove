@@ -155,7 +155,7 @@ export const SCENE = [
 
 {id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"La risposta in 15 righe · 1", colonne:["28%","72%"],
   intestazioni:["Che cosa", "Che cosa scrivo"], righe:[
-  ["Il quadro", "BPCO grave · O₂ ad alta concentrazione · SpO₂ 99% · sonnolenza, cefalea, cute calda, bradipnea"],
+  ["Il quadro", "BPCO grave · O₂ ad alta concentrazione · SpO₂ 99% · sonnolenza, cefalea, cute calda, FR in calo"],
   ["L'ipotesi", "**ipercapnia da eccesso di ossigeno**"]], chiave:[1]},
 {id:"s45", tipo:"tabella", tema:"chiaro", sopratitolo:"La risposta in 15 righe · 2", colonne:["28%","72%"],
   intestazioni:["Che cosa", "Che cosa scrivo"], righe:[

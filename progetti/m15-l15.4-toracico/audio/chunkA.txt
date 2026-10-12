@@ -42,8 +42,4 @@ Il team, con ruoli chiari. Il leader, che dirige e decide. Chi fa le compression
 
 Chi gestisce l'accesso e i farmaci, secondo l'algoritmo: adrenalina e amiodarone dopo il terzo shock, se la fibrillazione persiste. E il timekeeper, che registra l'ora dell'arresto, i ritmi, gli shock e i farmaci.
 
-Tutto con una comunicazione a ciclo chiuso: carico un milligrammo di adrenalina; adrenalina somministrata alle dieci e nove.
-
-Alle dieci e sette, dopo il secondo shock, compare un ritmo organizzato. C'e' il polso e il paziente respira: e' il ritorno della circolazione spontanea. Iniziano le cure post-arresto della dieci punto tre.
-
-ABCDE, saturazione fra novantaquattro e novantotto, evitare l'ipotensione. ECG a dodici derivazioni e glicemia. Controllo della temperatura, per evitare la febbre. Monitoraggio continuo, e tutti gli orari registrati.
+Tutto con una comunicazione a ciclo chiuso: carico un milligrammo di adrenalina; adrenalina somministrata. E il timekeeper ne annota l'orario.

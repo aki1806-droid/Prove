@@ -94,7 +94,7 @@ export const SCENE = [
 {id:"s22", sopratitolo:"Il team · ruoli chiari", ...TEAM([0,1,2,3], 0)},
 {id:"s23", sopratitolo:"Adrenalina e amiodarone dopo il 3° shock, se la FV persiste", ...TEAM([0,1,2,3,4,5], 5)},
 {id:"s24", tipo:"citazione", tema:"chiaro", sopratitolo:"La comunicazione a ciclo chiuso",
-  testo:"«Carico **1 mg di adrenalina**.» — «Adrenalina somministrata alle **10:09**.»", fonte:"Chi esegue conferma ad alta voce"},
+  testo:"«Carico **1 mg di adrenalina**.» — «Adrenalina **somministrata**.»", fonte:"Chi esegue conferma ad alta voce; il timekeeper annota l'orario"},
 
 {id:"s25", sopratitolo:"Il ritorno della circolazione spontanea · polso presente, respira", ...ORARI([0,1,2,3], 3)},
 {id:"s26", tipo:"griglia", tema:"chiaro", colonne:2, spunta:true, sopratitolo:"Le cure post-arresto · lezione 10.3", celle:[
