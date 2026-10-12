@@ -60,3 +60,7 @@ stacco tracce             dopo s25   (chunk A 4.425 car · chunk B 4.542 car)
 - L'ordine della slide 7 dello script è cambiato di poco: «un pensaci tu alla 4 non è un'attribuzione» è detto subito dopo i cinque elementi dell'istruzione (s20), prima dell'esempio di Rosa, per non chiudere il capitolo su una frase isolata.
 - Le domande d'orale e la risposta modello sono parlate in forma più asciutta dello script (i criteri della domanda 1 detti per parola chiave: stabilità, prevedibilità, complessità, profilo, supervisione), per stare nei 48 blocchi e sotto i 9.000 caratteri; il contenuto è tutto.
 - «e' responsabilita', non debolezza» (s38) riassume lo script («non è un segno di debolezza, ma una responsabilità verso i pazienti»): da riallungare se si preferisce la frase intera.
+
+### Verifica del parlato (12 ottobre 2026)
+
+- s17: il trascrittore ElevenLabs aveva saltato «igiene, mobilizzazione, alimentazione e comfort». Fra 206,7 e 211,5 s della traccia A c'è parlato continuo (−22,5 dB, una sola pausa di 0,3 s), della durata giusta per quelle parole: frase aggiunta a `trascrizioni/A.txt`.

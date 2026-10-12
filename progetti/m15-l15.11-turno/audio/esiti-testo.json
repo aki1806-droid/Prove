@@ -1,15 +1,9 @@
 {
  "A": {
   "parole_copione": 649,
-  "parole_dette": 645,
-  "coincidenti": 638,
-  "buchi": [
-   {
-    "blocco": "s17",
-    "parole_copione": "igiene mobilizzazione alimentazione e comfort",
-    "al_loro_posto": "(nulla)"
-   }
-  ],
+  "parole_dette": 650,
+  "coincidenti": 643,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s06",
