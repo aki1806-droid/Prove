@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:09,240
+Due colleghe dello stesso reparto. Stesso stipendio, stessa scelta: aderire a Perseo Sirio.
+
+2
+00:00:09,240 --> 00:00:16,060
+Eppure, nei loro salvadanai, ogni anno entrano cifre diverse. E non per un errore, ne' per un favoritismo.
+
+3
+00:00:16,060 --> 00:00:24,470
+Una e' arrivata in reparto nel 2010. L'altra c'era gia' alla fine degli anni novanta. Ed e' proprio questo, e solo questo, a cambiare i conti.
+
+4
+00:00:24,470 --> 00:00:33,080
+Il motivo e' la linea del 2000, che abbiamo incontrato nel modulo due: la data che divide chi e' nato in TFS da chi e' nato in TFR.
+
+5
+00:00:33,080 --> 00:00:40,760
+In questa lezione mettiamo le due ricette una accanto all'altra, con gli stessi numeri, per vedere esattamente che cosa cambia.
+
+6
+00:00:40,760 --> 00:00:47,550
+Ecco la differenza, in una riga del tempo. A destra della tacca del 31 dicembre 2000, chi e' stato assunto dal 2001.
+
+7
+00:00:47,550 --> 00:00:56,330
+Chi e' stato assunto dal 2001, o lavora a tempo determinato, destina al Fondo tutto il TFR: il cento per cento della quota annua.
+
+8
+00:00:56,330 --> 00:01:06,110
+A sinistra della tacca, chi era gia' in servizio a tempo indeterminato al 31 dicembre 2000, e quindi era in TFS.
+
+9
+00:01:06,110 --> 00:01:15,400
+Aderendo, passa dal TFS al TFR, come abbiamo visto nella lezione sull'opzione. Ma al Fondo destina solo una parte del TFR: il ventotto virgola novantaquattro per cento.
+
+10
+00:01:15,400 --> 00:01:22,060
+Quella percentuale non e' casuale: equivale al due per cento della retribuzione. Cosi' la prevedono gli accordi.
+
+11
+00:01:22,060 --> 00:01:29,680
+In pratica, poco meno di un terzo del TFR che matura ogni anno va al Fondo. Gli altri due terzi restano dove sono.
+
+12
+00:01:29,680 --> 00:01:37,380
+In compenso riceve l'accantonamento aggiuntivo dell'uno virgola cinque per cento, calcolato sull'ottanta per cento della retribuzione.
+
+13
+00:01:37,380 --> 00:01:46,020
+Il resto del suo TFR non va perso: continua a formarsi ogni anno, presso l'INPS, e le viene pagato come liquidazione alla fine del lavoro.
+
+14
+00:01:46,020 --> 00:01:53,310
+Ora gli stessi numeri, per tutte e due: trentamila euro di retribuzione utile all'anno. Esempio semplificato, importi lordi.
+
+15
+00:01:53,310 --> 00:02:01,210
+Per entrambe, trecento euro di contributo proprio e trecento euro dell'ente, l'uno per cento ciascuno. Fin qui, nessuna differenza.
+
+16
+00:02:01,210 --> 00:02:09,060
+Mettiamo tutto in una tabella, riga per riga, una colonna per ciascuna collega. Le differenze stanno tutte nelle righe del TFR.
+
+17
+00:02:09,060 --> 00:02:18,060
+La collega assunta dal 2001 aggiunge tutto il TFR: il sei virgola novantuno per cento della retribuzione, circa duemilasettanta euro.
+
+18
+00:02:18,060 --> 00:02:25,980
+In tutto, circa duemilaseicentosettanta euro l'anno verso la pensione complementare. E' la ricetta completa della lezione precedente.
+
+19
+00:02:25,980 --> 00:02:32,620
+La collega in servizio al 2000 aggiunge seicento euro di TFR, cioe' il due per cento della retribuzione.
+
+20
+00:02:32,620 --> 00:02:38,950
+E trecentosessanta euro di accantonamento aggiuntivo: l'uno virgola cinque per cento di ventiquattromila euro.
+
+21
+00:02:38,950 --> 00:02:43,790
+In tutto, circa millecinquecentosessanta euro l'anno verso la pensione complementare.
+
+22
+00:02:43,790 --> 00:02:50,670
+In piu', le restano circa millequattrocentosettanta euro di TFR all'anno, che si accumulano come liquidazione.
+
+23
+00:02:50,670 --> 00:02:57,280
+Guarda il TFR delle due colleghe: e' lo stesso, circa duemilasettanta euro l'anno. Cambia solo come viene diviso.
+
+24
+00:02:57,280 --> 00:03:04,940
+Pensala come una torta: la stessa torta, tagliata in modo diverso. Due barre della stessa lunghezza, colorate in modo diverso.
+
+25
+00:03:04,940 --> 00:03:12,700
+Per la prima, tutta la barra si colora di verde: tutto il TFR diventa pensione complementare, e niente resta come liquidazione.
+
+26
+00:03:12,700 --> 00:03:20,680
+Per la seconda, una parte diventa pensione complementare e una parte resta liquidazione. E sopra arriva il premio dell'uno virgola cinque.
+
+27
+00:03:20,680 --> 00:03:28,320
+Non e' quindi corretto dire che una delle due guadagna di piu'. Sono due modi diversi di dividere lo stesso trattamento di fine lavoro.
+
+28
+00:03:28,320 --> 00:03:35,210
+Da una parte un capitale da ricevere alla cessazione. Dall'altra una pensione complementare da costruire nel tempo.
+
+29
+00:03:35,210 --> 00:03:43,310
+E il premio dell'uno virgola cinque compensa in parte chi rinuncia al TFS, che per molti aveva regole di calcolo piu' favorevoli.
+
+30
+00:03:43,310 --> 00:03:49,500
+C'e' una conseguenza pratica, e riguarda la manopola su cui puoi agire, se un giorno vorrai costruire di piu'.
+
+31
+00:03:49,500 --> 00:03:58,510
+Chi e' stato assunto dal 2001 ha gia' portato al Fondo tutto il suo TFR. Se vuole aumentare la pensione complementare, puo' solo alzare il proprio contributo.
+
+32
+00:03:58,510 --> 00:04:05,650
+Chi ha optato dal TFS, invece, destina al Fondo una parte piu' piccola del TFR, perche' cosi' prevedono le regole.
+
+33
+00:04:05,650 --> 00:04:14,870
+Non puo' decidere di portarne di piu', ne' di portarlo tutto. Se vuole una pensione complementare piu' robusta, anche per lui l'unica leva e' il proprio contributo.
+
+34
+00:04:14,870 --> 00:04:23,020
+In entrambi i casi, dunque, la manopola su cui puoi agire e' una sola: la percentuale a tuo carico. Il resto lo fissano i contratti.
+
+35
+00:04:23,020 --> 00:04:30,920
+E' una manopola che si gira facilmente: come vedremo nella lezione quattro, puoi alzare il contributo dall'area riservata, una volta l'anno.
+
+36
+00:04:30,920 --> 00:04:38,230
+Due ricette diverse, quindi, e due modi diversi di arrivare alla pensione. Ma un principio comune, che vale per entrambe.
+
+37
+00:04:38,230 --> 00:04:44,770
+Tutte e due ricevono l'uno per cento dell'ente solo perche' hanno aderito. E solo finche' continuano a versare il proprio.
+
+38
+00:04:44,770 --> 00:04:51,610
+E per tutte e due vale la regola che vedremo nella prossima lezione: quel contributo si perde in alcune situazioni precise.
+
+39
+00:04:51,610 --> 00:04:59,150
+Conviene conoscerle prima di trovarcisi, non dopo. Perche' quando ci si accorge della perdita, di solito, e' gia' passato del tempo.
+
+40
+00:04:59,150 --> 00:05:05,380
+Il TFR e' lo stesso. Cambia come lo dividi tra liquidazione e pensione.
+
+41
+00:05:05,380 --> 00:05:13,290
+Le tre cose da ricordare. Uno: chi e' assunto dal 2001, o a tempo determinato, destina al Fondo il cento per cento del TFR.
+
+42
+00:05:13,290 --> 00:05:21,230
+Due: chi era in servizio al 2000 e opta destina il ventotto virgola novantaquattro per cento, pari al due per cento della retribuzione.
+
+43
+00:05:21,230 --> 00:05:28,660
+Piu' l'uno virgola cinque aggiuntivo, sull'ottanta per cento della retribuzione. Il resto del TFR resta liquidazione.
+
+44
+00:05:28,660 --> 00:05:35,460
+Tre: per tutti, l'unica leva personale e' la percentuale del proprio contributo. Il resto lo decidono le regole.
+
+45
+00:05:35,460 --> 00:05:43,370
+La mossa di oggi: rifai la tabella di questa lezione con la tua retribuzione. Bastano una calcolatrice, il tuo cedolino e cinque minuti.
+
+46
+00:05:43,370 --> 00:05:49,760
+Se non sai da che parte della linea stai, guarda la data di assunzione sul cedolino, o chiedi all'ufficio del personale.
+
+47
+00:05:49,760 --> 00:05:54,490
+Nella prossima lezione: il contributo che perdi, se non aderisci o se smetti di versare.

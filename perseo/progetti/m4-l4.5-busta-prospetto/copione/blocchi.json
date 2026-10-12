@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Fidarsi e' bene. Controllare e' meglio. Soprattutto quando si parla dei soldi della tua pensione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una volta iscritto, i tuoi contributi passano per tre documenti: il cedolino ogni mese, la Certificazione Unica ogni anno, e il prospetto annuale del Fondo."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi li sa leggere si accorge subito se qualcosa non torna. E non serve essere esperti: basta sapere dove guardare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione impariamo a trovare, in ciascuno dei tre, le poche righe che contano davvero."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dal cedolino, quello che ricevi ogni mese. E' pieno di numeri, ma per noi oggi ne servono solo due."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Fondo ricorda che in busta paga devono comparire due informazioni: la trattenuta fatta a te, e il versamento della tua amministrazione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I nomi delle voci cambiano da ente a ente. Di solito contengono parole come previdenza complementare, fondo pensione, oppure il nome del Fondo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cerca prima la trattenuta a tuo carico, tra le ritenute. Deve corrispondere alla percentuale che hai scelto al momento dell'adesione, o dopo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con l'uno per cento e trentamila euro di retribuzione utile, l'esempio di tutto il modulo, sono circa venticinque euro al mese."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi cerca il contributo dell'ente. Spesso sta in una parte diversa del cedolino, quella dei contributi a carico dell'amministrazione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con l'uno per cento dell'ente, l'importo e' dello stesso ordine di grandezza della tua trattenuta: anche qui, circa venticinque euro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFR figurativo, invece, nel cedolino non lo vedi. Non e' un movimento di denaro: e' un accantonamento che l'INPS registra a parte."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi niente panico se non trovi una riga del TFR: e' normale. Lo ritroverai nel terzo documento, il prospetto del Fondo."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio che spesso preoccupa. In un mese dell'anno, di solito all'inizio, la tua posizione registra un importo un po' piu' basso del solito."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' un errore, e non sono soldi spariti. E' la quota associativa annuale, il costo fisso dell'iscrizione al Fondo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vale tredici euro l'anno. Undici per gli aderenti contrattuali della polizia locale. E si paga una sola volta, non ogni mese."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Fondo la trattiene dal primo versamento utile di ogni anno, e serve a coprire le spese di funzionamento del Fondo stesso."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi in un anno non fa versamenti, oppure fa solo versamenti volontari con bonifico, quell'anno la quota non la paga."
+ },
+ {
+  "id": "s20",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo documento: la Certificazione Unica, quella che ricevi ogni anno dalla tua amministrazione, di solito in primavera."
+ },
+ {
+  "id": "s21",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui trovi i contributi versati al Fondo e gia' dedotti dall'ente in busta paga: sia i tuoi, sia quelli dell'amministrazione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non devi fare nulla per ottenere lo sconto fiscale su quella parte. L'agevolazione l'hai gia' avuta mese per mese, nel cedolino."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se fai il 730, il dato viene riportato in automatico nella dichiarazione precompilata. Basta controllare che ci sia."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Devi intervenire tu solo per i versamenti fatti con bonifico, come abbiamo visto nella lezione precedente. Con la ricevuta in mano."
+ },
+ {
+  "id": "s25",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo documento, il piu' completo: il prospetto delle prestazioni pensionistiche, nella fase di accumulo. Il nome e' lungo, ma il contenuto e' chiaro."
+ },
+ {
+  "id": "s26",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Fondo lo mette a disposizione ogni anno nell'area riservata, nella sezione dedicata alla documentazione. Si scarica in pochi secondi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui ritrovi le due tasche, le stesse che abbiamo visto nel modulo tre: quella con soldi veri, e quella figurativa."
+ },
+ {
+  "id": "s28",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella tasca reale ci sono i versamenti a carico tuo e quelli a carico dell'ente. Sono i soldi che il Fondo investe davvero."
+ },
+ {
+  "id": "s29",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella tasca figurativa c'e' quanto risulta contabilizzato dall'INPS: il TFR, che il Fondo chiama TFR virtuale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E, per chi ha optato dal TFS, l'accantonamento aggiuntivo dell'uno virgola cinque per cento, chiamato anche TFS virtuale."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' il risultato della gestione: cioe' quanto hanno reso gli investimenti nell'anno. Puo' essere positivo, o in qualche anno negativo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La somma di tutto, al netto dei costi, e' la tua posizione individuale. E' il numero che, un giorno, diventera' la tua prestazione."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un consiglio: conserva i prospetti di ogni anno, uno accanto all'altro. Cosi' vedi come cresce la tua posizione nel tempo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se qualcosa non torna? Per esempio, una trattenuta che c'e' in busta paga, ma che non compare nel prospetto del Fondo."
+ },
+ {
+  "id": "s35",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo passo: confronta i documenti. Somma le trattenute dei cedolini di un anno, e mettile accanto ai tuoi contributi nel prospetto."
+ },
+ {
+  "id": "s36",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricorda che possono esserci piccoli sfasamenti di un mese, perche' l'ente versa entro il mese successivo a quello della trattenuta."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la differenza resta, il primo interlocutore e' l'ufficio del personale: e' l'amministrazione che versa e trasmette i dati al Fondo."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi, se serve, il Fondo stesso: al numero verde, oppure scrivendo dall'area riservata, con i cedolini e il prospetto a portata di mano."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ricorda che il delegato sindacale sul tuo posto di lavoro puo' aiutarti a ricostruire i passaggi, senza che tu debba farlo da solo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Una volta l'anno, dieci minuti di controllo. E' la tua pensione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: nel cedolino trovi la trattenuta a tuo carico e il contributo dell'ente. Il TFR figurativo li' non compare."
+ },
+ {
+  "id": "s42",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: una volta l'anno il Fondo trattiene la quota associativa di tredici euro, dal primo versamento utile. Non e' un errore."
+ },
+ {
+  "id": "s43",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: il prospetto annuale mostra le due tasche, i rendimenti e la posizione complessiva. E' il documento da conservare."
+ },
+ {
+  "id": "s44",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: scarica l'ultimo prospetto annuale dall'area riservata del Fondo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi confronta la somma dei tuoi contributi con quella delle trattenute nei cedolini dello stesso anno. Bastano dieci minuti."
+ },
+ {
+  "id": "s46",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiude cosi' il quarto modulo. Ora sai quanto entra nella tua pensione complementare, da dove arriva, e dove trovarlo scritto."
+ },
+ {
+  "id": "s47",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel prossimo modulo vediamo il punto in cui la previdenza complementare fa davvero la differenza."
+ },
+ {
+  "id": "s48",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il fisco: dove si guadagna davvero. Ci vediamo nel modulo cinque."
+ }
+]

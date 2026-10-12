@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 489,
+  "parole_dette": 485,
+  "coincidenti": 485,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 487,
+  "parole_dette": 486,
+  "coincidenti": 485,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s35",
+    "copione": "mettile",
+    "detto": "mettili"
+   }
+  ]
+ }
+}
