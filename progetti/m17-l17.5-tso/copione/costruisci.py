@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Un giovane uomo molto agitato arriva in pronto soccorso con i genitori. Un caso che mette insieme la sicurezza degli operatori, la de-escalation, la ricerca delle cause organiche."),
+ (1,"chiaro",0,"Poi i farmaci e la loro sorveglianza, e le regole del trattamento sanitario obbligatorio, chieste dai concorsi con precisione. Lezioni uno punto sei, due punto sette, tre punto uno, undici punto tre, dodici punto sei."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Davide, ventisei anni, viene accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."),
+ (2,"chiaro",0,"Ha distrutto alcuni oggetti in casa. Ora cammina avanti e indietro, alza la voce, e rifiuta di farsi visitare: voi siete d'accordo con loro."),
+ (2,"chiaro",0,"I genitori riferiscono un uso di cannabis. Nessun precedente psichiatrico noto. Fermati un momento: qual e' la prima cosa a cui pensi, prima ancora del paziente?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[serious] La prima cosa e' la sicurezza di tutti: del paziente, degli operatori, degli altri pazienti. Si accompagna Davide in un ambiente tranquillo, lontano dalla sala d'attesa affollata."),
+ (3,"chiaro",0,"Si rimuovono gli oggetti potenzialmente pericolosi. Si mantiene una via d'uscita libera per l'operatore, senza mettersi fra il paziente e la porta, e una distanza adeguata."),
+ (3,"chiaro",0,"Non si resta soli: i colleghi sono avvisati, e la vigilanza e' disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La de-escalation, della lezione due punto sette. Un solo interlocutore, perche' piu' voci aumentano la confusione. Tono calmo e basso, frasi brevi, postura aperta, mani visibili."),
+ (4,"chiaro",0,"Ci si presenta, e lo si chiama per nome. Si ascolta, e si riconosce l'emozione: vedo che e' molto spaventato. I deliri non si contraddicono e non si assecondano: si risponde al bisogno. Qui e' al sicuro."),
+ (4,"chiaro",0,"Si offrono scelte semplici: dove sedersi, un bicchiere d'acqua. Niente promesse impossibili, rispetto dello spazio personale. Dopo una decina di minuti Davide accetta di sedersi e di farsi misurare la pressione."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Poi un passaggio che i concorsi vogliono vedere: escludere le cause organiche. Un'agitazione con sintomi psicotici non e' automaticamente un disturbo psichiatrico."),
+ (5,"chiaro",0,"Possono causarla ipoglicemia, ipossia, febbre e infezioni come un'encefalite, un trauma cranico, le intossicazioni da cocaina, amfetamine o cannabinoidi sintetici, le astinenze da alcol o benzodiazepine."),
+ (5,"chiaro",0,"E ancora la tiroide, l'epilessia. Si rilevano parametri, glicemia, temperatura e saturazione; il medico valuta gli esami. Davide: parametri nella norma, glicemia novantotto, tossicologico secondo indicazione."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"I farmaci, sempre secondo prescrizione. Si offre prima la terapia per bocca: accettarla e' una scelta del paziente, e rafforza l'alleanza. Se necessario, la somministrazione intramuscolare."),
+ (6,"chiaro",0,"Dopo, la sorveglianza: sedazione, frequenza respiratoria, saturazione, pressione, ECG secondo indicazione, perche' alcuni antipsicotici allungano il QT, e idratazione."),
+ (6,"chiaro",0,"E un effetto collaterale da riconoscere: la distonia acuta, con torcicollo, occhi rivolti verso l'alto, contrazioni della lingua. Spaventa molto, va segnalata subito, si tratta con anticolinergici secondo prescrizione."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La contenzione, con i principi della lezione tre punto uno. E' una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."),
+ (7,"chiaro",0,"Richiede una prescrizione medica, una tecnica sicura con personale formato e sufficiente, e un monitoraggio ravvicinato: parametri, respiro, circolazione degli arti, cute, idratazione, bisogni fisiologici, dignita'."),
+ (7,"chiaro",0,"Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi psichiatrici lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso, con spiegazioni, tempo e il coinvolgimento dei genitori."),
+ (8,"chiaro",0,"Il ricovero volontario resta sempre la prima scelta. Se il rifiuto persiste, e ricorrono i requisiti previsti dalla legge, si procede con un trattamento sanitario obbligatorio."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Il TSO e' regolato dalla legge ottocentotrentatre' del millenovecentosettantotto, agli articoli trentatre', trentaquattro e trentacinque, come nella lezione undici punto tre."),
+ (9,"chiaro",0,"Servono tre requisiti insieme: alterazioni psichiche tali da richiedere urgenti interventi terapeutici, il rifiuto degli interventi, e l'impossibilita' di adottare tempestive e idonee misure extraospedaliere."),
+ (9,"chiaro",0,"La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica al giudice tutelare entro quarantotto ore, e lui entro le quarantotto successive convalida."),
+ (9,"chiaro",0,"Dura sette giorni, prorogabili, e si esegue nell'SPDC. E ricorda: la pericolosita' non e' fra i requisiti. Il TSO e' un atto di cura, non di ordine pubblico."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il ruolo dell'infermiere nel TSO. Non lo decide: collabora nella gestione clinica e nella sicurezza. Informa il paziente, in modo chiaro e rispettoso, di cio' che accade, anche se sembra non ascoltare."),
+ (10,"chiaro",0,"Tutela la dignita' e la riservatezza, evitando esposizioni davanti ad altri. Garantisce i diritti: comunicare con chi ritiene opportuno, presentare ricorso, ricevere informazioni."),
+ (10,"chiaro",0,"Documenta comportamenti, interventi e terapia. Continua a cercare la partecipazione del paziente, anche durante il trattamento obbligatorio. E infine, consegne complete all'SPDC."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Un approfondimento, per distinguere situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."),
+ (11,"chiaro",0,"Esiste anche un TSO extraospedaliero, quando non serve la degenza. E il paziente non psichiatrico che rifiuta le cure, per un'appendicite? Il TSO non si applica: si valuta la sua capacita' di decidere."),
+ (11,"chiaro",0,"Se e' capace, il rifiuto va rispettato, dopo un'informazione completa, come prevede la legge duecentodiciannove. Se non e' capace e c'e' un'emergenza, si garantiscono le cure indispensabili."),
+ (11,"chiaro",0,"E se la persona ha un amministratore di sostegno, lo si coinvolge secondo i poteri che gli sono attribuiti."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, che e' maggiorenne."),
+ (12,"chiaro",0,"Si spiega che il TSO e' un atto di cura. Si indicano il Centro di Salute Mentale e le associazioni dei familiari. Cannabis e psicosi: si informa senza colpevolizzare, e se indicato si coinvolge il SerD."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Affrontare il paziente da soli, o in tanti che parlano insieme. Contraddire i deliri, o discutere. Dare per scontato che sia psichiatrico, senza escludere le cause organiche."),
+ (13,"chiaro",0,"Dare farmaci senza poi sorvegliare respiro e pressione. Non riconoscere una distonia acuta. La contenzione come prima risposta. Il TSO preso per un provvedimento di sicurezza, la pericolosita' per un requisito."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"[curious] Le domande d'orale. Prima: requisiti e procedura del TSO? Tre requisiti insieme: alterazioni psichiche che richiedono urgenti interventi, rifiuto, impossibilita' di misure extraospedaliere."),
+ (14,"chiaro",0,"Poi la proposta di un medico, la convalida di un medico pubblico, l'ordinanza del sindaco, il giudice tutelare con le due finestre di quarantotto ore. Sette giorni, in SPDC."),
+ (14,"chiaro",0,"Seconda: come gestisce un paziente con agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."),
+ (14,"chiaro",0,"Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? La sedazione, la frequenza respiratoria, la saturazione, la pressione, l'ECG se indicato, e i segni di distonia acuta."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Giovane con agitazione psicomotoria, insonnia, idee di persecuzione e rifiuto delle cure: priorita' alla sicurezza di tutti. Ambiente tranquillo, via d'uscita libera."),
+ (15,"chiaro",0,"Colleghi avvisati e vigilanza disponibile. De-escalation con un solo interlocutore, tono calmo, ascolto e offerta di scelte, senza contraddire i deliri. Collaboro all'esclusione delle cause organiche."),
+ (15,"chiaro",0,"Offro la terapia prescritta per bocca e, se somministrata per via intramuscolare, sorveglio sedazione, respiro, pressione ed eventuali distonie. Considero la contenzione solo come misura estrema."),
+ (15,"chiaro",0,"Se il medico propone un TSO, collaboro nel rispetto di requisiti e procedura. Informo il paziente, ne tutelo dignita' e diritti, sostengo i genitori, documento e trasmetto le consegne all'SPDC."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Collegamenti. Consenso e legge duecentodiciannove, uno punto sei. De-escalation, due punto sette. Contenzione, tre punto uno. Salute mentale, TSO e ASO, undici punto tre. Sicurezza degli operatori, dodici punto sei."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: la de-escalation e' una tecnica, il TSO e' una procedura, il rispetto e' la condizione di entrambi."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione, le dipendenze: un paziente in terapia con metadone, ricoverato in chirurgia, che di notte va in astinenza. Pregiudizi, continuita' della terapia, dolore e sicurezza. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"La sicurezza prima di tutto",4:"La de-escalation",5:"Escludere le cause organiche",
+ 6:"I farmaci e la loro sorveglianza",7:"La contenzione",8:"Il rifiuto delle cure",9:"Il TSO: requisiti e procedura",
+ 10:"Il ruolo dell'infermiere nel TSO",11:"TSO, ASO e altre situazioni",12:"I genitori",13:"Gli errori da evitare",
+ 14:"Le domande d'orale",15:"La risposta modello",16:"I collegamenti",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

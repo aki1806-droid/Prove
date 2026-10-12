@@ -4,7 +4,7 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Una parte crescente delle persone assistite viene da altri paesi e da altre culture. Il caso tocca temi d'orale di deontologia e comunicazione: la mediazione linguistica e culturale, il consenso di chi parla poco l'italiano."),
+ (1,"chiaro",0,"[warm] Una parte crescente delle persone assistite viene da altri paesi e culture. Tocca temi d'orale di deontologia e comunicazione: la mediazione linguistica e culturale, il consenso di chi parla poco l'italiano."),
  (1,"chiaro",0,"Il rispetto delle convinzioni religiose, e un'educazione terapeutica che funzioni davvero. Ci servono le lezioni uno punto sei, uno punto sette, due punto sette, otto punto tre e nove punto sette."),
 
  (2,"chiaro",0,"Lo scenario. La signora Nadia ha trentanove anni, e' in Italia da un anno, parla soprattutto arabo e capisce poche parole di italiano. Ha un diabete di tipo due, con antidiabetici orali e insulina basale."),
@@ -47,7 +47,7 @@ BLOCCHI = [
  (10,"chiaro",0,"Gli appuntamenti, con date chiare, il luogo e come arrivarci. Il riferimento al medico di medicina generale e ai servizi. E un numero da chiamare."),
 
  (11,"chiaro",0,"Le competenze interculturali. Cominciano dalla consapevolezza dei propri pregiudizi, perche' tutti ne abbiamo. Poi curiosita' rispettosa, ascolto, domande aperte, conoscenza dei servizi di mediazione."),
- (11,"chiaro",0,"Evitano gli stereotipi, del tipo tutti quelli di quel paese fanno cosi': ogni persona e' un individuo. E la competenza culturale non e' una gentilezza in piu': e' parte della qualita' e della sicurezza delle cure."),
+ (11,"chiaro",0,"Evitano gli stereotipi, come tutti quelli di quel paese fanno cosi': ogni persona e' un individuo. La competenza culturale non e' una gentilezza in piu', e' parte della qualita' e della sicurezza delle cure."),
 
  (12,"chiaro",0,"Gli errori. Usare il figlio di dodici anni come interprete. Rivolgersi al marito invece che alla paziente. Raccogliere il consenso senza mediatore. Presumere i bisogni culturali senza chiedere."),
  (12,"chiaro",0,"Interpretare il dolore con stereotipi. Giudicare la scelta del digiuno, o ignorarla. Dimettere con istruzioni solo in italiano."),
@@ -58,7 +58,7 @@ BLOCCHI = [
 
  (14,"chiaro",0,"La risposta modello. Paziente straniera con limitata conoscenza dell'italiano, diabetica, per colecistectomia; un figlio minore che traduce, un marito che risponde per lei, l'intenzione di un digiuno religioso."),
  (14,"chiaro",0,"Attivo il mediatore, non uso il minore come interprete, mi rivolgo alla paziente, titolare del consenso, e le offro un colloquio in privato. Con il mediatore raccolgo anamnesi, consenso, bisogni culturali e religiosi."),
- (14,"chiaro",0,"Valuto il dolore con scale visive e uso cartelli illustrati. Gestisco il diabete secondo prescrizione. Affronto senza giudizio il digiuno, informando sui rischi, con medico e diabetologo. Educo con il mediatore, con teach back, e documento."),
+ (14,"chiaro",0,"Valuto il dolore con scale visive, uso cartelli illustrati e gestisco il diabete come prescritto. Affronto il digiuno senza giudizio, con medico e diabetologo. Alla dimissione educo con mediatore e teach back, e documento."),
 
  (15,"chiaro",0,"I collegamenti. Consenso e legge duecentodiciannove con la uno punto sei. Riservatezza con la uno punto sette. Codice deontologico con la uno punto quattro. Comunicazione e teach back con la due punto sette."),
  (15,"chiaro",0,"Diabete e ipoglicemia con la otto punto tre. Preparazione all'intervento con la nove punto due. Dimissione con la nove punto sette. Colloquio motivazionale con la undici punto sei."),
@@ -68,7 +68,7 @@ BLOCCHI = [
 
  (17,"profondo",1.2,"[serious] La frase del caso: un consenso che la paziente non ha capito non e' un consenso. La lingua e' la prima condizione della cura."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione: una lesione da pressione che diventa una richiesta di risarcimento. La documentazione, il dialogo con la famiglia, la responsabilita' secondo la legge ventiquattro del duemiladiciassette. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una lesione da pressione che diventa una richiesta di risarcimento. La documentazione, la famiglia, la responsabilita' secondo la legge ventiquattro del duemiladiciassette. A tra poco."),
 ]
 CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La mediazione linguistica e culturale",5:"Il consenso e l'autonomia della paziente",
  6:"Le attenzioni culturali e religiose",7:"Il percorso chirurgico",8:"Il digiuno religioso e il diabete",9:"Approfondimento: il diritto alle cure",

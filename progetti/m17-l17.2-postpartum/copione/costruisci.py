@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] L'emorragia post-partum e' una delle principali cause di morte materna nel mondo, e resta temuta anche nei paesi ad alto reddito. Spesso si sviluppa in pochi minuti, in una donna giovane che compensa e poi crolla."),
+ (1,"chiaro",0,"Vediamo la regola delle quattro T, le azioni in sequenza, e il neonato, che nel frattempo ha bisogno di qualcuno. Le lezioni: sei punto sei, dieci punto quattro, dieci punto sei, undici punto quattro e quattordici punto sei."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Sara, trentaquattro anni, secondo parto, vaginale, dopo un travaglio lungo, con un neonato grande: quattro chili e cento. Trenta minuti dopo l'espulsione della placenta, comincia a sanguinare."),
+ (2,"chiaro",0,"La perdita e' abbondante e continua, i telini sono intrisi. L'utero e' molle e alto, non si sente bene. Frequenza centodiciotto, pressione cento su sessantadue: in travaglio era centoventicinque su ottanta."),
+ (2,"chiaro",0,"E' pallida, sudata, ansiosa. La vescica e' distesa. Il neonato e' in braccio al padre. Fermati un momento: qual e' la causa piu' probabile, e qual e' il primo gesto?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Una perdita di sangue abbondante dopo il parto, con segni di ipovolemia: e' un'emorragia post-partum. E i fattori di rischio ci sono: un travaglio lungo e un neonato grande."),
+ (3,"chiaro",0,"Hanno sovradisteso e affaticato l'utero. E l'utero molle indica un'atonia uterina, la causa piu' frequente: l'utero non si contrae, e i vasi della sede placentare continuano a sanguinare."),
+ (3,"chiaro",0,"Una donna giovane compensa a lungo: la tachicardia arriva prima dell'ipotensione, e quando la pressione crolla la perdita e' gia' grave. E un dettaglio pratico: la vescica distesa ostacola la contrazione dell'utero."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La regola delle quattro T orienta la ricerca della causa. Tono: l'atonia uterina, la piu' frequente. Trauma: lacerazioni del canale del parto, ematomi, raramente una rottura dell'utero."),
+ (4,"chiaro",0,"Tessuto: residui di placenta o di membrane. Trombina: alterazioni della coagulazione, come nella HELLP del caso precedente o nel distacco di placenta. Si cercano tutte, perche' possono coesistere."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Le prime azioni, molte in parallelo. Chiamare aiuto: ostetrica, ginecologo, anestesista, secondo il protocollo per l'emorragia post-partum. E il massaggio del fondo uterino, che stimola la contrazione."),
+ (5,"chiaro",0,"Svuotare la vescica con un catetere. Due accessi venosi di grosso calibro. I prelievi: emocromo, coagulazione, fibrinogeno, gruppo e prove crociate. Ossigeno. Parametri ravvicinati e monitoraggio."),
+ (5,"chiaro",0,"E quantificare le perdite, pesando telini e garze, o con raccoglitori graduati: la stima a occhio sottovaluta quasi sempre la perdita. Infine, mantenere la temperatura."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La terapia, secondo prescrizione. Gli uterotonici, come l'ossitocina in infusione, e altri farmaci se non e' sufficiente. L'acido tranexamico, il prima possibile ed entro tre ore dal parto, come nel trauma."),
+ (6,"chiaro",0,"Liquidi riscaldati. Gli emocomponenti secondo protocollo, con attenzione anche al fibrinogeno, che nell'emorragia ostetrica cala rapidamente."),
+ (6,"chiaro",0,"Se la causa non si risolve, si passa agli interventi ostetrici e chirurgici, o alla radiologia interventistica. E sempre la sicurezza trasfusionale della lezione sei punto sei."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La valutazione. Dopo il massaggio, lo svuotamento della vescica e l'uterotonico, l'utero e' contratto, duro, a palla, e le perdite si riducono. Frequenza centoquattro, pressione centootto su sessantasei."),
+ (7,"chiaro",0,"La perdita totale, quantificata, e' di milletrecento millilitri: molto piu' di quanto si sarebbe stimato a occhio. Si ripetono emocromo e coagulazione."),
+ (7,"chiaro",0,"Nelle ore successive si sorvegliano il tono uterino, le perdite, i parametri e la diuresi. E l'indice di shock, frequenza diviso sistolica, e' un utile campanello d'allarme."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il neonato. E' stato valutato con l'Apgar a uno e cinque minuti, con punteggi di nove e dieci."),
+ (8,"chiaro",0,"Mentre la madre e' instabile, il contatto pelle a pelle si puo' fare con il padre: riscalda il neonato e lo calma."),
+ (8,"chiaro",0,"Si previene l'ipotermia, si somministra la vitamina K con la profilassi secondo protocollo, e si verifica l'identificazione madre-neonato."),
+ (8,"chiaro",0,"E un dettaglio: un neonato grande, di quattro chili e cento, e' a rischio di ipoglicemia. Si seguono i controlli glicemici del protocollo e un'alimentazione precoce."),
+ (8,"chiaro",0,"Appena la madre e' stabile, si favorisce il contatto, e il primo attacco al seno."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Un approfondimento: l'allattamento dopo un'emorragia. L'anemia, la stanchezza e lo stress possono ritardare la montata lattea, e la madre puo' scoraggiarsi."),
+ (9,"chiaro",0,"Si sostiene un attacco al seno precoce e frequente, con posizioni comode per una donna affaticata, e il supporto dell'ostetrica. La terapia con il ferro, secondo prescrizione."),
+ (9,"chiaro",0,"E un effetto positivo da spiegarle: la suzione stimola l'ossitocina, che favorisce la contrazione dell'utero. Attenzione alla prima alzata: ipotensione e anemia espongono alle cadute, e la si accompagna sempre."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il benessere emotivo. Un'emorragia puo' essere vissuta come un parto traumatico, dalla madre e dal partner. Quando la donna e' pronta, le si spiega che cosa e' successo, con ascolto e la presenza del partner."),
+ (10,"chiaro",0,"Nelle settimane successive si distingue il baby blues, transitorio, dalla depressione post-partum e dai sintomi da stress post-traumatico, che richiedono un aiuto. E si dice chi contattare: consultorio, ostetrica, medico."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La dimissione. I segni d'allarme del puerperio, per cui rivolgersi subito: un sanguinamento abbondante, coaguli grandi, febbre, dolore addominale, perdite maleodoranti."),
+ (11,"chiaro",0,"Poi cefalea intensa, dolore o gonfiore di un polpaccio, difficolta' respiratoria. Ricordi il caso sedici punto quattro: il puerperio e' un periodo di rischio tromboembolico aumentato."),
+ (11,"chiaro",0,"Poi l'anemia, con il ferro, l'alimentazione e il riposo. E i riferimenti sul territorio: il consultorio familiare e il pediatra di libera scelta."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Stimare le perdite a occhio. Rassicurarsi per una pressione ancora normale. Dimenticare la vescica piena. Aspettare di conoscere la causa per iniziare il massaggio e l'uterotonico."),
+ (12,"chiaro",0,"Non chiamare subito aiuto. Dimenticare il fibrinogeno. Lasciare il neonato senza un adulto e senza calore. E alzare la madre da sola dopo l'emorragia."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: le quattro T? Tono, cioe' l'atonia uterina, la causa piu' frequente. Trauma, cioe' lacerazioni ed ematomi."),
+ (13,"chiaro",0,"Tessuto, cioe' residui placentari. Trombina, cioe' alterazioni della coagulazione. Seconda: le prime azioni? Chiamare aiuto, massaggio del fondo uterino, svuotamento della vescica."),
+ (13,"chiaro",0,"Due accessi di grosso calibro, prelievi con gruppo e fibrinogeno, ossigeno, uterotonici e acido tranexamico secondo prescrizione, la quantificazione delle perdite e il monitoraggio."),
+ (13,"chiaro",0,"Terza: l'Apgar? Un punteggio da zero a dieci, a uno e cinque minuti, con cinque parametri: colorito, frequenza cardiaca, reattivita', tono, respiro. E' normale da sette a dieci."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Puerpera dopo un travaglio lungo e un neonato grande, con perdita ematica abbondante, utero molle, tachicardia, pressione in calo, pallore e sudorazione: emorragia post-partum da probabile atonia uterina."),
+ (14,"chiaro",0,"Chiamo subito aiuto secondo il protocollo; eseguo il massaggio del fondo uterino e svuoto la vescica; posiziono due accessi di grosso calibro ed eseguo i prelievi con fibrinogeno e gruppo."),
+ (14,"chiaro",0,"Somministro ossigeno, liquidi riscaldati, uterotonici, acido tranexamico ed emocomponenti secondo prescrizione. Quantifico le perdite pesando telini e garze, monitoro parametri, tono uterino e diuresi, e cerco le altre cause."),
+ (14,"chiaro",0,"Garantisco al neonato calore e contatto pelle a pelle con il padre. Dopo la stabilizzazione sostengo l'allattamento, accompagno la prima alzata, ascolto il vissuto della coppia ed educo ai segni d'allarme."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. La trasfusione con la sei punto sei. Il parto, l'Apgar e l'emorragia post-partum con la dieci punto quattro. Lo shock con la dieci punto sei."),
+ (15,"chiaro",0,"Il puerperio e il neonato con la undici punto quattro. La coagulazione con la quattordici punto sei. E il tromboembolismo con il caso sedici punto quattro."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Il lavoro di squadra. Nei punti nascita esistono protocolli e check-list per l'emorragia post-partum, e l'equipe si allena con simulazioni periodiche."),
+ (16,"chiaro",0,"Durante l'evento un operatore registra tempi, farmaci e perdite, si comunica a ciclo chiuso, e un kit con il materiale e' sempre pronto. Dopo, un debriefing. E' un esempio di come l'organizzazione salvi vite."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: dopo il parto, un utero molle e' un'emergenza. Massaggio, vescica vuota, aiuto."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un lattante di nove mesi con vomito e diarrea, dei genitori preoccupati, e i calcoli per chilo che in pediatria fanno la differenza fra la dose giusta e un errore. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La regola delle quattro T",5:"Le prime azioni",
+ 6:"La terapia",7:"La valutazione",8:"Il neonato",9:"L'allattamento dopo un'emorragia",10:"Il benessere emotivo",
+ 11:"La dimissione",12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"Il lavoro di squadra in sala parto",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

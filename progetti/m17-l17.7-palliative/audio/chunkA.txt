@@ -1,8 +1,8 @@
 [warm] Lasciamo l'ospedale ed entriamo in una casa. Un uomo con una malattia avanzata ha scelto di essere curato fino alla fine a casa sua, e un'equipe di cure palliative domiciliari lo accompagna con la moglie.
 
-Qui la tecnica, dolore, sintomi, vie di somministrazione, si intreccia piu' che mai con la relazione e con la famiglia. Le lezioni: uno punto sei, tre punto sette, cinque punto sei, undici punto cinque, tredici punto quattro.
+Qui la tecnica, dolore, sintomi, vie di somministrazione, si intreccia piu' che mai con la relazione e la famiglia. Le lezioni: uno punto sei, tre punto sette, cinque punto sei, undici punto cinque, tredici punto quattro.
 
-Lo scenario. Il signor Giovanni, settantadue anni, ha un tumore del polmone con metastasi ossee, e nessuna ulteriore terapia oncologica indicata. Ha espresso chiaramente il desiderio di restare a casa.
+Lo scenario. Il signor Giovanni, settantadue anni: tumore del polmone con metastasi ossee, nessuna ulteriore terapia oncologica indicata. Ha espresso chiaramente il desiderio di restare a casa.
 
 Vive con la moglie Anna, settant'anni; la figlia abita in un'altra regione. Alla prima visita delle cure palliative: dolore a sette, nonostante un oppioide a lento rilascio, con picchi improvvisi quando si alza.
 
@@ -10,7 +10,7 @@ L'alvo e' chiuso da quattro giorni, e dorme poco. Anna e' stanca, e ha paura di 
 
 Il ragionamento. Un dolore di fondo non controllato. E un dolore episodico intenso: i picchi legati al movimento, tipici delle metastasi ossee. Due dolori diversi, da trattare in due modi diversi.
 
-C'e' una stipsi da oppioidi, che si poteva prevenire. C'e' l'insonnia. E c'e' una caregiver anziana, stanca e insicura, da cui pero' passa tutta l'assistenza di ogni giorno.
+C'e' una stipsi da oppioidi, che si poteva prevenire. C'e' l'insonnia. E una caregiver anziana, stanca e insicura, da cui pero' passa tutta l'assistenza di ogni giorno.
 
 [thoughtful] L'obiettivo non e' guarire, ma la qualita' della vita e il rispetto della volonta' di Giovanni di restare a casa. Con l'approccio globale delle cure palliative: fisico, psicologico, sociale e spirituale.
 
@@ -18,7 +18,7 @@ Il dolore, con i principi della lezione tre punto sette. Il dolore di fondo si t
 
 Il dolore episodico intenso, con una dose di soccorso prescritta, di un oppioide a rapida insorgenza. Se il dolore e' prevedibile, alzarsi, l'igiene, le medicazioni, la dose di soccorso si da' prima dell'attivita'.
 
-Si valuta regolarmente con la scala, e si tiene un diario del dolore e delle dosi di soccorso. Se servono spesso, e' il segnale che il medico deve rivedere la terapia di fondo.
+Si valuta regolarmente con la scala, e si tiene un diario del dolore e delle dosi di soccorso. Se servono spesso, il medico deve rivedere la terapia di fondo.
 
 Gli effetti degli oppioidi. La stipsi e' costante e non si attenua con il tempo: il lassativo si prescrive a orario fin dall'inizio. Giovanni, con l'alvo chiuso da quattro giorni, ne ha bisogno subito.
 
@@ -38,8 +38,8 @@ Terza settimana. Giovanni ha una dispnea anche a riposo, con molta ansia. Gli st
 
 Oppioidi a basse dosi, secondo prescrizione, per ridurre la fame d'aria. Ossigeno solo se utile e prescritto. Ansiolitici, respirazione, presenza. E alla moglie si insegna che cosa fare in una crisi, per evitare il panico.
 
-Quando non puo' piu' deglutire. La via orale non e' piu' possibile, e si passa ad altre vie, scegliendo quelle meno dolorose. E si semplifica la terapia, sospendendo i farmaci che non servono piu'.
+Quando non puo' piu' deglutire. La via orale non e' piu' possibile: si passa ad altre vie, le meno dolorose. E si semplifica la terapia, sospendendo i farmaci che non servono piu'.
 
 La via sottocutanea, con un ago o una piccola cannula: boli, o un'infusione continua con una pompa elastomerica o elettronica, secondo prescrizione. E' la via piu' usata nelle cure palliative a domicilio.
 
-La via transdermica, con i cerotti di oppioide. Non si tagliano, non si espongono a fonti di calore, perche' il calore aumenta l'assorbimento. Si ruotano le sedi, si rimuove il precedente e lo si smaltisce piegato.
+La via transdermica, con i cerotti di oppioide. Non si tagliano, non si espongono al calore, che aumenta l'assorbimento. Si ruotano le sedi, si rimuove il precedente e lo si smaltisce piegato.

@@ -11,14 +11,14 @@
   "capitolo": 1,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Qui la tecnica, dolore, sintomi, vie di somministrazione, si intreccia piu' che mai con la relazione e con la famiglia. Le lezioni: uno punto sei, tre punto sette, cinque punto sei, undici punto cinque, tredici punto quattro."
+  "text": "Qui la tecnica, dolore, sintomi, vie di somministrazione, si intreccia piu' che mai con la relazione e la famiglia. Le lezioni: uno punto sei, tre punto sette, cinque punto sei, undici punto cinque, tredici punto quattro."
  },
  {
   "id": "s04",
   "capitolo": 2,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Lo scenario. Il signor Giovanni, settantadue anni, ha un tumore del polmone con metastasi ossee, e nessuna ulteriore terapia oncologica indicata. Ha espresso chiaramente il desiderio di restare a casa."
+  "text": "Lo scenario. Il signor Giovanni, settantadue anni: tumore del polmone con metastasi ossee, nessuna ulteriore terapia oncologica indicata. Ha espresso chiaramente il desiderio di restare a casa."
  },
  {
   "id": "s05",
@@ -46,7 +46,7 @@
   "capitolo": 3,
   "tema": "chiaro",
   "posa": 0,
-  "text": "C'e' una stipsi da oppioidi, che si poteva prevenire. C'e' l'insonnia. E c'e' una caregiver anziana, stanca e insicura, da cui pero' passa tutta l'assistenza di ogni giorno."
+  "text": "C'e' una stipsi da oppioidi, che si poteva prevenire. C'e' l'insonnia. E una caregiver anziana, stanca e insicura, da cui pero' passa tutta l'assistenza di ogni giorno."
  },
  {
   "id": "s09",
@@ -74,7 +74,7 @@
   "capitolo": 4,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Si valuta regolarmente con la scala, e si tiene un diario del dolore e delle dosi di soccorso. Se servono spesso, e' il segnale che il medico deve rivedere la terapia di fondo."
+  "text": "Si valuta regolarmente con la scala, e si tiene un diario del dolore e delle dosi di soccorso. Se servono spesso, il medico deve rivedere la terapia di fondo."
  },
  {
   "id": "s13",
@@ -144,7 +144,7 @@
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Quando non puo' piu' deglutire. La via orale non e' piu' possibile, e si passa ad altre vie, scegliendo quelle meno dolorose. E si semplifica la terapia, sospendendo i farmaci che non servono piu'."
+  "text": "Quando non puo' piu' deglutire. La via orale non e' piu' possibile: si passa ad altre vie, le meno dolorose. E si semplifica la terapia, sospendendo i farmaci che non servono piu'."
  },
  {
   "id": "s23",
@@ -158,7 +158,7 @@
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
-  "text": "La via transdermica, con i cerotti di oppioide. Non si tagliano, non si espongono a fonti di calore, perche' il calore aumenta l'assorbimento. Si ruotano le sedi, si rimuove il precedente e lo si smaltisce piegato."
+  "text": "La via transdermica, con i cerotti di oppioide. Non si tagliano, non si espongono al calore, che aumenta l'assorbimento. Si ruotano le sedi, si rimuove il precedente e lo si smaltisce piegato."
  },
  {
   "id": "s25",
@@ -172,7 +172,7 @@
   "capitolo": 9,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Posizione laterale, igiene del cavo orale, farmaci antisecretivi secondo prescrizione, senza aspirazioni profonde. Poi, di notte, Anna ti chiama spaventata: chiamiamo il centodiciotto?"
+  "text": "Posizione laterale, igiene del cavo orale, antisecretivi secondo prescrizione, senza aspirazioni profonde. Poi, di notte, Anna ti chiama spaventata: chiamiamo il centodiciotto?"
  },
  {
   "id": "s27",
@@ -207,21 +207,21 @@
   "capitolo": 10,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Permette a familiari e professionisti di rispettare la volonta' della persona proprio nei momenti di crisi, come quella notte. L'infermiere vi partecipa, e la rende conoscibile nella documentazione domiciliare."
+  "text": "Permette a familiari e professionisti di rispettare la volonta' della persona nei momenti di crisi, come quella notte. L'infermiere vi partecipa, e la rende conoscibile nella documentazione a domicilio."
  },
  {
   "id": "s32",
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Dopo la morte. Il medico constata il decesso. L'equipe garantisce presenza e tempo per il saluto, nel rispetto dei riti e delle volonta' della famiglia, e da' le informazioni pratiche."
+  "text": "Dopo la morte. Il medico constata il decesso. L'equipe garantisce presenza e tempo per il saluto, nel rispetto dei riti e delle volonta' della famiglia, e le informazioni pratiche."
  },
  {
   "id": "s33",
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Si provvede al ritiro o allo smaltimento sicuro dei farmaci, in particolare degli oppioidi. E poi il supporto al lutto: molte reti di cure palliative prevedono una telefonata o una visita di cordoglio."
+  "text": "Si ritirano o si smaltiscono in sicurezza i farmaci, in particolare gli oppioidi. E poi il supporto al lutto: molte reti di cure palliative prevedono una telefonata o una visita di cordoglio."
  },
  {
   "id": "s34",
@@ -249,7 +249,7 @@
   "capitolo": 13,
   "tema": "chiaro",
   "posa": 0,
-  "text": "[curious] Le domande d'orale. Prima: il dolore episodico intenso? Con una dose di soccorso prescritta, di un oppioide a rapida insorgenza, anche prima delle attivita' che lo scatenano, e con un diario."
+  "text": "[curious] Le domande d'orale. Prima: il dolore episodico intenso? Una dose di soccorso prescritta, di un oppioide a rapida insorgenza, anche prima delle attivita' che lo scatenano, e un diario."
  },
  {
   "id": "s38",
@@ -312,7 +312,7 @@
   "capitolo": 16,
   "tema": "chiaro",
   "posa": 0,
-  "text": "In Veneto, la rete delle cure palliative della legge trentotto comprende i Nuclei di Cure Palliative domiciliari nelle ULSS, gli hospice, e una reperibilita' che garantisce la continuita' di notte e nei festivi."
+  "text": "In Veneto, la rete delle cure palliative della legge trentotto comprende i Nuclei di Cure Palliative domiciliari nelle ULSS, gli hospice, e una reperibilita' per la continuita' di notte e nei festivi."
  },
  {
   "id": "s47",

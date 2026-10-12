@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo e' il caso piu' delicato del modulo. Riguarda una persona ricoverata per una malattia fisica che, durante la notte, lascia intendere di non voler piu' vivere."),
+ (1,"chiaro",0,"Il rischio suicidario non riguarda solo la psichiatria: puo' presentarsi in qualsiasi reparto, e spesso e' l'infermiere il primo a cogliere i segnali."),
+ (1,"chiaro",0,"La lezione resta su un piano professionale: riconoscere, parlare, proteggere, attivare. Collegamenti con le lezioni due punto sei, due punto sette, tre punto sette, undici punto tre e undici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Michele, cinquantotto anni, e' ricoverato in medicina. Da pochi giorni ha ricevuto la diagnosi di una malattia oncologica avanzata."),
+ (2,"chiaro",0,"E' separato, vive solo, ha perso il lavoro l'anno scorso, e ha un dolore addominale mal controllato. Alle due di notte, mentre sistemi la flebo, ti dice: tanto e' tutto inutile, sarebbe meglio farla finita."),
+ (2,"chiaro",0,"Il compagno di stanza racconta che ieri Michele gli ha regalato il suo orologio. Fermati un momento: che cosa gli rispondi, e che cosa fai dopo?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. C'e' una frase che esprime un desiderio di morte. E ci sono molti fattori di rischio, quelli della lezione undici punto tre: una diagnosi grave recente, un dolore non controllato, l'isolamento sociale."),
+ (3,"chiaro",0,"E ancora la perdita del lavoro, la separazione, un uomo di mezza eta'. Poi c'e' un segnale d'allarme specifico: donare oggetti personali, che puo' essere un gesto di congedo."),
+ (3,"chiaro",0,"E' un rischio suicidario, e va preso sempre sul serio. Non e' un compito che si delega allo psichiatra: la prima risposta spetta a chi ascolta per primo."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La prima risposta e' parlarne. Ti fermi, ti siedi, dai tempo. Ascolti senza giudicare, senza prediche, e senza minimizzare con frasi come: ma no, vedra' che va tutto bene."),
+ (4,"chiaro",0,"Poi chiedi in modo diretto: quando dice che sarebbe meglio farla finita, sta pensando di togliersi la vita? Molti operatori temono questa domanda. Ma, come nella lezione undici punto tre, chiedere non aumenta il rischio."),
+ (4,"chiaro",0,"Apre la possibilita' di aiutare, e spesso la persona prova sollievo nel poterne parlare. Riconosci la sua sofferenza. E non prometti il segreto: per proteggerlo, dovrai condividere con l'equipe cio' che ti ha detto."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"La valutazione del rischio. Michele risponde: ci penso da quando mi hanno dato la diagnosi; non ho ancora deciso niente, ma non ho nessuno."),
+ (5,"chiaro",0,"Indicano un rischio piu' elevato i pensieri persistenti, la presenza di un piano e di un'intenzione, l'accesso a mezzi, i tentativi precedenti, e l'assenza di fattori protettivi, come le relazioni."),
+ (5,"chiaro",0,"La valutazione strutturata spetta al medico e allo specialista, con strumenti dedicati. L'infermiere raccoglie e riferisce con precisione le parole della persona, che sono un dato clinico."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[serious] Le azioni immediate. Se il rischio appare elevato, il paziente non si lascia solo: si organizza una sorveglianza adeguata al rischio, secondo la procedura aziendale."),
+ (6,"chiaro",0,"Si avvisa subito il medico di guardia, e si richiede la consulenza psichiatrica secondo indicazione. Poi la sicurezza dell'ambiente, come prevede la Raccomandazione quattro sulla prevenzione del suicidio in ospedale."),
+ (6,"chiaro",0,"Si rimuovono gli oggetti potenzialmente pericolosi, si verificano i farmaci personali e le terapie lasciate a portata di mano, si presta attenzione a finestre e accessi."),
+ (6,"chiaro",0,"E si documenta, trasmettendo l'informazione nelle consegne. Un rischio noto solo a chi era di turno quella notte non protegge nessuno."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il dolore e la speranza. Il dolore non controllato e' di per se' un fattore di rischio: trattarlo bene, con la valutazione e l'analgesia efficace della lezione tre punto sette, e' un intervento di prevenzione."),
+ (7,"chiaro",0,"Cosi' come trattare l'insonnia, la nausea, la dispnea. E Michele ha bisogno di un'informazione onesta sulla sua malattia, e sulle possibilita' di cura e di sollievo."),
+ (7,"chiaro",0,"Le cure palliative della lezione undici punto cinque non sono un abbandono, ma una presa in carico. La sofferenza esistenziale merita ascolto, e si offre un supporto psicologico e spirituale, secondo i suoi desideri."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Ricostruire una rete. Non ho nessuno e' spesso meno vero di quanto la persona creda in quel momento. Si chiede chi sono le persone importanti per lui: i figli, l'ex moglie, gli amici, i fratelli."),
+ (8,"chiaro",0,"Con il suo consenso, si coinvolgono. L'assistente sociale puo' affrontare i problemi economici, lavorativi e abitativi. E ci sono i servizi del territorio e le associazioni."),
+ (8,"chiaro",0,"Si pianifica con cura la dimissione, perche' la fase subito dopo il ricovero e' un momento di rischio: non si dimette senza un collegamento con i servizi."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Un approfondimento sui falsi miti, che spesso guidano i comportamenti piu' dei protocolli. Chi ne parla non lo fa: falso, molte persone che si tolgono la vita ne avevano parlato. Chiedere mette l'idea in testa: falso."),
+ (9,"chiaro",0,"Un miglioramento improvviso significa che il pericolo e' passato: attenzione. Una calma improvvisa, dopo una grande sofferenza, puo' indicare una decisione presa."),
+ (9,"chiaro",0,"Chi vuole davvero farlo non si puo' fermare: falso, la crisi e' spesso temporanea e l'aiuto funziona. E' un problema solo psichiatrico: falso, malattie gravi, dolore, perdite e isolamento contano."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La comunicazione nell'equipe. Le consegne SBAR riportano le parole del paziente, non un generico e' giu' di morale. Il livello di sorveglianza e' concordato e chiaro a tutti, compresi gli OSS e il personale di supporto."),
+ (10,"chiaro",0,"C'e' coerenza fra i turni, e le informazioni passano ai professionisti che prenderanno in carico Michele. In cartella niente etichette giudicanti: si descrivono fatti e parole."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"[thoughtful] Un pensiero per gli operatori. Questi colloqui sono emotivamente pesanti, soprattutto di notte. Il confronto con i colleghi e con il coordinatore, e un debriefing, aiutano."),
+ (11,"chiaro",0,"E se un evento dovesse accadere nonostante tutto, chi e' coinvolto ha bisogno di supporto, perche' puo' vivere colpa e trauma. La segnalazione serve a imparare, non a cercare colpevoli, come nella lezione due punto sei."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Cambiare discorso o minimizzare. Non chiedere direttamente, per paura. Promettere il segreto. Lasciare il paziente solo con un rischio elevato."),
+ (12,"chiaro",0,"Aspettare il mattino per avvisare il medico. Non verificare l'ambiente e i farmaci personali. Non trasmettere l'informazione nelle consegne. Trascurare il dolore."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: che cosa fa se un paziente dice di voler morire? Lo ascolto senza giudicare, gli chiedo in modo diretto se pensa di togliersi la vita, e non prometto il segreto."),
+ (13,"chiaro",0,"Non lo lascio solo se il rischio appare elevato, avviso subito il medico, curo la sicurezza dell'ambiente, documento e trasmetto nelle consegne."),
+ (13,"chiaro",0,"Seconda: quali sono i fattori di rischio e i segnali d'allarme? I fattori: tentativi precedenti, disturbi psichiatrici, dipendenze, malattie gravi e dolore cronico, isolamento, perdite."),
+ (13,"chiaro",0,"I segnali: esprimere disperazione, o di sentirsi un peso, congedarsi, regalare oggetti. E un'improvvisa calma, dopo una grande sofferenza."),
+ (13,"chiaro",0,"Terza: che cosa prevede la Raccomandazione quattro? Riguarda la prevenzione del suicidio di paziente in ospedale: valutazione del rischio, sicurezza degli ambienti, sorveglianza, formazione, transizioni, gestione dell'evento."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente con recente diagnosi oncologica grave, dolore non controllato, isolamento e perdita del lavoro, che esprime il desiderio di farla finita e ha regalato un oggetto personale."),
+ (14,"chiaro",0,"Rischio suicidario da prendere sul serio. Mi fermo, ascolto senza giudizio, gli chiedo in modo diretto se pensa di togliersi la vita e raccolgo con precisione le sue parole. Non prometto il segreto."),
+ (14,"chiaro",0,"Avviso subito il medico e collaboro alla consulenza psichiatrica. Garantisco una sorveglianza adeguata, senza lasciarlo solo se il rischio e' elevato. Verifico ambiente e farmaci personali: Raccomandazione quattro."),
+ (14,"chiaro",0,"Tratto il dolore e offro supporto psicologico e spirituale. Con il suo consenso coinvolgo le persone significative e l'assistente sociale. Documento, trasmetto nelle consegne e partecipo a una dimissione collegata ai servizi."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Collegamenti. Raccomandazioni ed eventi sentinella, due punto sei. Comunicazione, due punto sette. Dolore, tre punto sette. Salute mentale, undici punto tre. Palliative, undici punto cinque. Territorio, tredici punto quattro."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Le risorse. In ospedale: la consulenza psichiatrica, la psicologia clinica e la psico-oncologia, l'assistente sociale, l'assistenza spirituale."),
+ (16,"chiaro",0,"Sul territorio: il Centro di Salute Mentale, il medico di medicina generale, i servizi sociali, le associazioni. In emergenza, il centododici o il centodiciotto. E si dice alla persona e ai familiari come chiedere aiuto."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: chiedere non mette l'idea in testa, apre una porta. E dall'altra parte di quella porta c'e' spesso una persona che aspettava qualcuno disposto ad ascoltarla."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione restiamo nella salute mentale: un giovane uomo molto agitato in pronto soccorso, la de-escalation, la ricerca delle cause organiche e le regole del trattamento sanitario obbligatorio. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La prima risposta: parlarne",5:"La valutazione del rischio",
+ 6:"Le azioni immediate",7:"Il dolore e la speranza",8:"Ricostruire una rete",9:"I falsi miti",10:"La comunicazione nell'equipe",
+ 11:"Gli operatori",12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"Le risorse",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

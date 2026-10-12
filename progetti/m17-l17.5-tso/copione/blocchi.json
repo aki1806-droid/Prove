@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Un giovane uomo molto agitato arriva in pronto soccorso con i genitori. Un caso che mette insieme la sicurezza degli operatori, la de-escalation, la ricerca delle cause organiche."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi i farmaci e la loro sorveglianza, e le regole del trattamento sanitario obbligatorio, chieste dai concorsi con precisione. Lezioni uno punto sei, due punto sette, tre punto uno, undici punto tre, dodici punto sei."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Davide, ventisei anni, viene accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha distrutto alcuni oggetti in casa. Ora cammina avanti e indietro, alza la voce, e rifiuta di farsi visitare: voi siete d'accordo con loro."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I genitori riferiscono un uso di cannabis. Nessun precedente psichiatrico noto. Fermati un momento: qual e' la prima cosa a cui pensi, prima ancora del paziente?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] La prima cosa e' la sicurezza di tutti: del paziente, degli operatori, degli altri pazienti. Si accompagna Davide in un ambiente tranquillo, lontano dalla sala d'attesa affollata."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si rimuovono gli oggetti potenzialmente pericolosi. Si mantiene una via d'uscita libera per l'operatore, senza mettersi fra il paziente e la porta, e una distanza adeguata."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si resta soli: i colleghi sono avvisati, e la vigilanza e' disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La de-escalation, della lezione due punto sette. Un solo interlocutore, perche' piu' voci aumentano la confusione. Tono calmo e basso, frasi brevi, postura aperta, mani visibili."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci si presenta, e lo si chiama per nome. Si ascolta, e si riconosce l'emozione: vedo che e' molto spaventato. I deliri non si contraddicono e non si assecondano: si risponde al bisogno. Qui e' al sicuro."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si offrono scelte semplici: dove sedersi, un bicchiere d'acqua. Niente promesse impossibili, rispetto dello spazio personale. Dopo una decina di minuti Davide accetta di sedersi e di farsi misurare la pressione."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi un passaggio che i concorsi vogliono vedere: escludere le cause organiche. Un'agitazione con sintomi psicotici non e' automaticamente un disturbo psichiatrico."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Possono causarla ipoglicemia, ipossia, febbre e infezioni come un'encefalite, un trauma cranico, le intossicazioni da cocaina, amfetamine o cannabinoidi sintetici, le astinenze da alcol o benzodiazepine."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ancora la tiroide, l'epilessia. Si rilevano parametri, glicemia, temperatura e saturazione; il medico valuta gli esami. Davide: parametri nella norma, glicemia novantotto, tossicologico secondo indicazione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci, sempre secondo prescrizione. Si offre prima la terapia per bocca: accettarla e' una scelta del paziente, e rafforza l'alleanza. Se necessario, la somministrazione intramuscolare."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo, la sorveglianza: sedazione, frequenza respiratoria, saturazione, pressione, ECG secondo indicazione, perche' alcuni antipsicotici allungano il QT, e idratazione."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un effetto collaterale da riconoscere: la distonia acuta, con torcicollo, occhi rivolti verso l'alto, contrazioni della lingua. Spaventa molto, va segnalata subito, si tratta con anticolinergici secondo prescrizione."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La contenzione, con i principi della lezione tre punto uno. E' una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiede una prescrizione medica, una tecnica sicura con personale formato e sufficiente, e un monitoraggio ravvicinato: parametri, respiro, circolazione degli arti, cute, idratazione, bisogni fisiologici, dignita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi psichiatrici lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso, con spiegazioni, tempo e il coinvolgimento dei genitori."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ricovero volontario resta sempre la prima scelta. Se il rifiuto persiste, e ricorrono i requisiti previsti dalla legge, si procede con un trattamento sanitario obbligatorio."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TSO e' regolato dalla legge ottocentotrentatre' del millenovecentosettantotto, agli articoli trentatre', trentaquattro e trentacinque, come nella lezione undici punto tre."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Servono tre requisiti insieme: alterazioni psichiche tali da richiedere urgenti interventi terapeutici, il rifiuto degli interventi, e l'impossibilita' di adottare tempestive e idonee misure extraospedaliere."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica al giudice tutelare entro quarantotto ore, e lui entro le quarantotto successive convalida."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dura sette giorni, prorogabili, e si esegue nell'SPDC. E ricorda: la pericolosita' non e' fra i requisiti. Il TSO e' un atto di cura, non di ordine pubblico."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ruolo dell'infermiere nel TSO. Non lo decide: collabora nella gestione clinica e nella sicurezza. Informa il paziente, in modo chiaro e rispettoso, di cio' che accade, anche se sembra non ascoltare."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutela la dignita' e la riservatezza, evitando esposizioni davanti ad altri. Garantisce i diritti: comunicare con chi ritiene opportuno, presentare ricorso, ricevere informazioni."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Documenta comportamenti, interventi e terapia. Continua a cercare la partecipazione del paziente, anche durante il trattamento obbligatorio. E infine, consegne complete all'SPDC."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento, per distinguere situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Esiste anche un TSO extraospedaliero, quando non serve la degenza. E il paziente non psichiatrico che rifiuta le cure, per un'appendicite? Il TSO non si applica: si valuta la sua capacita' di decidere."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se e' capace, il rifiuto va rispettato, dopo un'informazione completa, come prevede la legge duecentodiciannove. Se non e' capace e c'e' un'emergenza, si garantiscono le cure indispensabili."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se la persona ha un amministratore di sostegno, lo si coinvolge secondo i poteri che gli sono attribuiti."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, che e' maggiorenne."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si spiega che il TSO e' un atto di cura. Si indicano il Centro di Salute Mentale e le associazioni dei familiari. Cannabis e psicosi: si informa senza colpevolizzare, e se indicato si coinvolge il SerD."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Affrontare il paziente da soli, o in tanti che parlano insieme. Contraddire i deliri, o discutere. Dare per scontato che sia psichiatrico, senza escludere le cause organiche."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dare farmaci senza poi sorvegliare respiro e pressione. Non riconoscere una distonia acuta. La contenzione come prima risposta. Il TSO preso per un provvedimento di sicurezza, la pericolosita' per un requisito."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: requisiti e procedura del TSO? Tre requisiti insieme: alterazioni psichiche che richiedono urgenti interventi, rifiuto, impossibilita' di misure extraospedaliere."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la proposta di un medico, la convalida di un medico pubblico, l'ordinanza del sindaco, il giudice tutelare con le due finestre di quarantotto ore. Sette giorni, in SPDC."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: come gestisce un paziente con agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? La sedazione, la frequenza respiratoria, la saturazione, la pressione, l'ECG se indicato, e i segni di distonia acuta."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Giovane con agitazione psicomotoria, insonnia, idee di persecuzione e rifiuto delle cure: priorita' alla sicurezza di tutti. Ambiente tranquillo, via d'uscita libera."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Colleghi avvisati e vigilanza disponibile. De-escalation con un solo interlocutore, tono calmo, ascolto e offerta di scelte, senza contraddire i deliri. Collaboro all'esclusione delle cause organiche."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Offro la terapia prescritta per bocca e, se somministrata per via intramuscolare, sorveglio sedazione, respiro, pressione ed eventuali distonie. Considero la contenzione solo come misura estrema."
+ },
+ {
+  "id": "s46",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se il medico propone un TSO, collaboro nel rispetto di requisiti e procedura. Informo il paziente, ne tutelo dignita' e diritti, sostengo i genitori, documento e trasmetto le consegne all'SPDC."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Collegamenti. Consenso e legge duecentodiciannove, uno punto sei. De-escalation, due punto sette. Contenzione, tre punto uno. Salute mentale, TSO e ASO, undici punto tre. Sicurezza degli operatori, dodici punto sei."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: la de-escalation e' una tecnica, il TSO e' una procedura, il rispetto e' la condizione di entrambi."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione, le dipendenze: un paziente in terapia con metadone, ricoverato in chirurgia, che di notte va in astinenza. Pregiudizi, continuita' della terapia, dolore e sicurezza. A tra poco."
+ }
+]

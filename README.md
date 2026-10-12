@@ -136,6 +136,7 @@ progetti/<modulo>-<lezione>/
 | `m15-l15.8-diabetico` | Modulo 15 · 15.8 Il paziente diabetico: ipoglicemia, insulina e piede | 9:01.6 | `e1225614cae7082a5fcc0f2a5401323c` |
 | `m15-l15.1-metodo` | Modulo 15 · 15.1 Il metodo per risolvere un caso clinico | 9:02.9 | `99763ae01dd3e388d296d7d2857a73b3` |
 | `m15-l15.4-toracico` | Modulo 15 · 15.4 Dolore toracico: dal triage all'arresto cardiaco | 9:16.6 | `27db9f3f0f8c35726da7fe93d1193164` |
+| `m15-l15.5-bpco` | Modulo 15 · 15.5 La paziente con BPCO che dorme troppo | 9:14.7 | `5c0154a55641b90fa59a9dc8896e4168` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
