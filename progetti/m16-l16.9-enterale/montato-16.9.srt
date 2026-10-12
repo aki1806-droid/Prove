@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,760
+La nutrizione enterale sembra un'attivita' di routine: un sondino, una pompa, una sacca. In realta' nasconde due complicanze gravi: la polmonite da inalazione e la sindrome da rialimentazione.
+
+2
+00:00:14,760 --> 00:00:23,780
+La seconda la conoscono in pochi, ma i concorsi la chiedono sempre piu' spesso. E il caso pone una domanda etica, quando il paziente ha una demenza avanzata.
+
+3
+00:00:23,780 --> 00:00:30,410
+Ci servono le lezioni tre punto tre, tre punto quattro, tre punto cinque, undici punto due e uno punto sei.
+
+4
+00:00:30,410 --> 00:00:42,700
+Lo scenario. Il signor Ottavio, settantanove anni, demenza moderata, e' ricoverato per una disfagia grave e un calo di peso: indice di massa corporea sedici, e da piu' di due settimane mangia pochissimo.
+
+5
+00:00:42,700 --> 00:00:54,070
+Ieri gli e' stato posizionato un sondino naso-gastrico, e la nutrizione enterale e' stata avviata in serata direttamente alla velocita' piena. Di notte, agitato, e' rimasto a lungo quasi sdraiato.
+
+6
+00:00:54,070 --> 00:01:06,040
+Alle sei: tosse insistente, saturazione ottantanove, febbre a trentotto virgola quattro, frequenza respiratoria ventotto, rantoli alla base destra, e residui di nutrizione nel cavo orale.
+
+7
+00:01:06,040 --> 00:01:11,350
+Fermati un momento: che cosa e' successo? E quale secondo rischio ti preoccupa nei prossimi giorni?
+
+8
+00:01:11,350 --> 00:01:26,110
+Il ragionamento. Disfagia e demenza, nutrizione enterale, posizione supina, agitazione, con il rischio che il sondino si sia spostato. Residui in bocca, tosse, febbre, desaturazione, rantoli: e' una polmonite da inalazione.
+
+9
+00:01:26,110 --> 00:01:37,630
+Il secondo rischio, meno evidente ma altrettanto grave: un paziente gravemente malnutrito a cui la nutrizione e' stata avviata a pieno regime. E' il terreno della sindrome da rialimentazione.
+
+10
+00:01:37,630 --> 00:01:50,710
+Le prime azioni. Sospendi la nutrizione. Posizione semiseduta, o laterale se vomita. Aspiri il cavo orale e la faringe. Ossigeno secondo protocollo, e avviso al medico con lo SBAR. Parametri e monitoraggio.
+
+11
+00:01:50,710 --> 00:02:02,440
+Poi verifichi la posizione del sondino, con le regole della lezione tre punto quattro: i centimetri segnati alla narice, e il pH dell'aspirato, che deve essere pari o inferiore a cinque virgola cinque.
+
+12
+00:02:02,440 --> 00:02:14,190
+In caso di dubbio, la conferma radiologica. Mai il whoosh, cioe' l'auscultazione dell'aria insufflata. Poi prelievi, eventuale radiografia del torace e antibiotico secondo prescrizione.
+
+13
+00:02:14,190 --> 00:02:25,700
+La prevenzione, che in gran parte e' infermieristica. La testata a trenta-quarantacinque gradi durante l'infusione e per trenta-sessanta minuti dopo, anche di notte: e' proprio cio' che e' mancato.
+
+14
+00:02:25,700 --> 00:02:38,300
+La verifica del sondino prima di ogni avvio, dopo tosse, vomito o agitazione, e a ogni turno. L'infusione con pompa alla velocita' prescritta. Il controllo del ristagno gastrico secondo protocollo.
+
+15
+00:02:38,300 --> 00:02:51,610
+L'igiene del cavo orale, perche' la bocca colonizzata e' la fonte dei batteri inalati. Distensione e vomito sorvegliati. Niente sedazione eccessiva. E nell'agitato, sorveglianza e fissaggio sicuro, non contenzione.
+
+16
+00:02:51,610 --> 00:02:59,990
+La sindrome da rialimentazione: che cos'e'? In un paziente gravemente malnutrito, la ripresa improvvisa dell'apporto di carboidrati stimola l'insulina.
+
+17
+00:02:59,990 --> 00:03:08,840
+L'insulina fa entrare rapidamente nelle cellule fosfato, potassio e magnesio, e i loro livelli nel sangue crollano, tipicamente nei primi giorni.
+
+18
+00:03:08,840 --> 00:03:22,390
+Le conseguenze sono serie: aritmie, insufficienza cardiaca, edemi, debolezza dei muscoli respiratori, confusione, convulsioni, fino alla morte. E' una complicanza della nutrizione, non della malattia: e' prevenibile.
+
+19
+00:03:22,390 --> 00:03:35,490
+Chi e' a rischio? Chi ha un indice di massa corporea sotto sedici, un calo di peso involontario oltre il quindici per cento in tre-sei mesi, un apporto minimo o nullo da piu' di dieci giorni, o elettroliti gia' bassi.
+
+20
+00:03:35,490 --> 00:03:46,340
+Il signor Ottavio era a rischio elevato. La prevenzione, secondo prescrizione e protocollo: un avvio lento e progressivo dell'apporto calorico, e la tiamina prima e durante.
+
+21
+00:03:46,340 --> 00:03:59,170
+Fosfato, potassio e magnesio dosati e corretti, con controlli giornalieri nei primi giorni, bilancio e peso, monitoraggio cardiaco nei casi gravi. Avviarla a pieno regime, come e' stato fatto, era un errore.
+
+22
+00:03:59,170 --> 00:04:10,140
+Il terzo giorno. La nutrizione e' stata ripresa piu' lentamente dopo la polmonite, ma gli esami mostrano un fosfato molto basso, un potassio di due virgola nove e un magnesio basso.
+
+23
+00:04:10,140 --> 00:04:20,110
+Il paziente e' tachicardico, edematoso, piu' debole e confuso. E' una sindrome da rialimentazione. Si segnala subito, e si riduce l'apporto secondo prescrizione.
+
+24
+00:04:20,110 --> 00:04:29,810
+Si correggono gli elettroliti per via endovenosa, con la pompa, e il potassio mai in bolo. Si avvia il monitoraggio ECG, e si coinvolge il servizio di nutrizione clinica.
+
+25
+00:04:29,810 --> 00:04:41,170
+Un approfondimento etico che questo caso impone: la decisione sulla nutrizione artificiale. Per la legge duecentodiciannove e' un trattamento sanitario: richiede il consenso, e puo' essere rifiutata.
+
+26
+00:04:41,170 --> 00:04:50,350
+Nella persona con demenza si considerano le disposizioni anticipate, la pianificazione condivisa, il fiduciario o l'amministratore di sostegno, i familiari.
+
+27
+00:04:50,350 --> 00:05:00,090
+Le evidenze disponibili non mostrano benefici chiari della nutrizione per sonda nella demenza avanzata, ne' sulla sopravvivenza ne' sulla prevenzione dell'inalazione.
+
+28
+00:05:00,090 --> 00:05:13,820
+L'alternativa: alimentazione di confort, piccole quantita' di cibi graditi, consistenze adatte, aiuto al pasto. La decisione si condivide, si documenta, si rivaluta; l'infermiere porta la conoscenza quotidiana della persona.
+
+29
+00:05:13,820 --> 00:05:26,400
+E se la nutrizione proseguira' a lungo? Il sondino naso-gastrico e' per periodi brevi; oltre alcune settimane si valuta una gastrostomia, la PEG, con la cura della stomia, la mobilizzazione del dispositivo, i lavaggi.
+
+30
+00:05:26,400 --> 00:05:38,530
+Per entrambi i dispositivi valgono le regole sui farmaci: forme adatte, non frantumare le forme a rilascio modificato, lavaggio prima e dopo ogni farmaco. E se torna a casa, si educa il caregiver.
+
+31
+00:05:38,530 --> 00:05:51,590
+Un passo indietro: la valutazione nutrizionale. Lo screening del rischio si fa all'ingresso, con il MUST o gli strumenti in uso in azienda, insieme a peso, altezza, indice di massa corporea, calo di peso e apporto.
+
+32
+00:05:51,590 --> 00:06:03,560
+Si valuta la deglutizione. Si attivano il dietista e la nutrizione clinica, si registrano gli apporti. Il signor Ottavio era malnutrito da settimane: la malnutrizione si cerca, non si aspetta che si manifesti.
+
+33
+00:06:03,560 --> 00:06:14,710
+Gli errori. La nutrizione in posizione supina. Non verificare il sondino dopo agitazione o tosse. Verificarlo con il whoosh. Avviare a pieno regime un paziente gravemente malnutrito.
+
+34
+00:06:14,710 --> 00:06:24,420
+Dimenticare la tiamina e gli elettroliti. Correggere il potassio senza pompa. Considerare la nutrizione artificiale un atto dovuto, senza una decisione condivisa.
+
+35
+00:06:24,420 --> 00:06:37,060
+Le domande d'orale. Prima: come si verifica il sondino? Con la conferma radiologica dopo il posizionamento, quando prevista; poi con i centimetri alla narice e il pH dell'aspirato, fino a cinque virgola cinque.
+
+36
+00:06:37,060 --> 00:06:48,990
+L'auscultazione dell'aria non e' affidabile. Seconda: come si previene l'inalazione? Testata a trenta-quarantacinque gradi durante e dopo l'infusione, verifica del sondino, infusione con pompa.
+
+37
+00:06:48,990 --> 00:07:01,230
+Controllo del ristagno, igiene orale, sorveglianza di distensione e vomito. Terza: la sindrome da rialimentazione? Un crollo di fosfato, potassio e magnesio quando si rialimenta un paziente malnutrito.
+
+38
+00:07:01,230 --> 00:07:08,680
+A rischio chi ha un indice di massa corporea sotto sedici, un forte calo di peso, o un apporto minimo da oltre dieci giorni.
+
+39
+00:07:08,680 --> 00:07:21,760
+La risposta modello. Paziente con demenza, disfagia e grave malnutrizione, in nutrizione enterale avviata a pieno regime e mantenuto supino, con tosse, febbre, desaturazione, rantoli e residui in bocca.
+
+40
+00:07:21,760 --> 00:07:34,560
+Sospetta polmonite da inalazione. Sospendo la nutrizione, lo posiziono semiseduto, aspiro, somministro ossigeno e avviso il medico; verifico la posizione del sondino, e collaboro alla terapia prescritta.
+
+41
+00:07:34,560 --> 00:07:46,020
+Per la prevenzione: testata a trenta-quarantacinque gradi, sondino verificato a ogni avvio e dopo agitazione, pompa, igiene orale. E riconosco l'alto rischio di sindrome da rialimentazione.
+
+42
+00:07:46,020 --> 00:07:56,890
+Segnalo la necessita' di un avvio lento, della tiamina e del controllo di fosfato, potassio e magnesio. E partecipo alla decisione condivisa sulla nutrizione artificiale, documentando.
+
+43
+00:07:56,890 --> 00:08:05,910
+I collegamenti. Nutrizione e disfagia con la tre punto tre. Sondino e nutrizione enterale con la tre punto quattro. Elettroliti con la tre punto cinque.
+
+44
+00:08:05,910 --> 00:08:14,970
+Demenza con la undici punto due. Legge duecentodiciannove e consenso con la uno punto sei. E la prevenzione della polmonite con la tre punto uno.
+
+45
+00:08:14,970 --> 00:08:26,760
+Un dettaglio organizzativo: la notte e' il punto critico. Il personale e' ridotto, i pazienti scivolano nel letto, l'agitazione aumenta. E la nutrizione notturna richiede le stesse regole del giorno.
+
+46
+00:08:26,760 --> 00:08:39,760
+Le consegne contengono velocita', verifica del sondino, posizione e ristagno. Il riposizionamento si puo' attribuire all'OSS, con istruzioni chiare: testata sollevata, e segnalare subito tosse o vomito.
+
+47
+00:08:39,760 --> 00:08:46,390
+La frase del caso: nutrire bene significa anche nutrire piano, e nella posizione giusta.
+
+48
+00:08:46,390 --> 00:08:57,070
+Nella prossima lezione: un'intera famiglia arriva in pronto soccorso una mattina d'inverno, con mal di testa e nausea. Saturazioni perfette, e un nemico invisibile. A tra poco.
