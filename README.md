@@ -150,6 +150,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.4-embolia` | Modulo 16 · 16.4 L'embolia polmonare in Medicina | 9:06.1 | `52ef12e20d88aecefdd3b66c8481b8d4` |
 | `m16-l16.7-ustionato` | Modulo 16 · 16.7 Il grande ustionato | 8:57.7 | `0ca0a0f6996b0f140b9e50b81fb7aebd` |
 | `m16-l16.8-chetoacidosi` | Modulo 16 · 16.8 La chetoacidosi all'esordio | 9:06.8 | `79de8b7bf3e9f72ef4cb7b910e48e245` |
+| `m16-l16.9-enterale` | Modulo 16 · 16.9 Nutrizione enterale, polmonite da inalazione e rialimentazione | 9:06.1 | `dfe463127e4a0de2c6bbc87cbbcf0d44` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
