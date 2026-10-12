@@ -1,0 +1,53 @@
+{
+ "A": {
+  "parole_copione": 674,
+  "parole_dette": 671,
+  "coincidenti": 669,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s14",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 676,
+  "parole_dette": 676,
+  "coincidenti": 670,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s28",
+    "copione": "accurata",
+    "detto": "curata"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "abi",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s47",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "A": {
+  "parole_copione": 753,
+  "parole_dette": 752,
+  "coincidenti": 736,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s08",
+    "copione": "extraruotato",
+    "detto": "extra ruotato"
+   },
+   {
+    "blocco": "s08",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s09",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 656,
+  "parole_dette": 655,
+  "coincidenti": 646,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "svama",
+    "detto": "sbama"
+   },
+   {
+    "blocco": "s43",
+    "copione": "extraruotato",
+    "detto": "extra ruotato"
+   },
+   {
+    "blocco": "s43",
+    "copione": "abc",
+    "detto": "a b c"
+   },
+   {
+    "blocco": "s44",
+    "copione": "alla tc",
+    "detto": "all atc"
+   }
+  ]
+ }
+}

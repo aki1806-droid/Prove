@@ -62,7 +62,7 @@ stacco tracce             dopo s24   (chunk A 4.137 car · chunk B 4.569 car)
 
 ## Da verificare
 
-- Durata del caso: lo script apre con «segue un paziente chirurgico per **dieci giorni**» (slide 1, s02), ma la dimissione è in **giornata 12** (slide 13 e 14, s30 e s33). Tenuto come nello script; da uniformare («per dodici giorni», oppure dimissione in decima giornata).
+- Durata del caso: lo script apre con «segue un paziente chirurgico per **dieci giorni**» (slide 1, s02), ma la dimissione è in **giornata 12** (slide 13 e 14, s30 e s33). **Uniformato** a «per dodici giorni» (voce e s02), coerente con la giornata 12 dello script stesso.
 - Collegamenti (slide 19, s46): «il potassio con la 3.5 e la 5.7». La regola «mai in bolo, diluito, con pompa» è nella 3.5 (e nel riepilogo 3.8); la 5.7 cita il potassio concentrato solo per la conservazione secondo la Raccomandazione 1. Il collegamento regge, ma la 5.4 (sicurezza) potrebbe essere più pertinente della 5.7: da decidere.
 - Tempi delle complicanze (slide 17, s39–s40): coincidono con la 9.5 (atelettasia primo-secondo giorno, polmonite e vie urinarie terzo-quinto, ferita e deiscenza quinto-decimo, trombosi dopo i primi giorni). Le «prime ore» con ostruzione delle vie aeree e ritenzione sono nello script, non nella tabella della 9.5.
 - s11: la barra dice «− 36» (138 − 102), la voce «oltre trentacinque» come lo script.

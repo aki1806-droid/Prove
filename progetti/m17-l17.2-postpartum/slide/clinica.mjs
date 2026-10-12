@@ -661,7 +661,7 @@ export const CSS_CLINICA = `
 .percorso .tappa.key circle{fill:var(--acc);stroke:var(--acc)}
 .percorso .tappa .num{font-size:38px;font-weight:700;fill:var(--tit);text-anchor:middle;dominant-baseline:central}
 .percorso .tappa.key .num{fill:var(--bg)}
-.percorso .tappa.off{opacity:.28}
+.percorso .tappa.off circle{stroke:var(--linea)}.percorso .tappa.off .num{fill:var(--linea)}.percorso .tappa.off foreignObject{opacity:.32}
 .percorso .tappa foreignObject div{font-family:'Inter',sans-serif;color:var(--fg);text-align:center;line-height:1.16}
 .percorso .tappa foreignObject .t{font-size:30px;font-weight:600;color:var(--tit)}
 .percorso .tappa.key foreignObject .t{color:var(--acc)}
@@ -1242,7 +1242,7 @@ export const CSS_CLINICA = `
 .antid .lbl.opp{fill:var(--tit)}
 .antid .lbl.nal{fill:var(--acc)}
 .reg{width:100%}
-.reg .pagina{position:relative;background:var(--bg);border:3px solid var(--linea);border-radius:18px;padding:30px 44px 36px;box-shadow:0 18px 40px rgba(0,0,0,.06);opacity:0;animation:appari .5s both .2s}
+.reg .foglio{position:relative;background:var(--bg);border:3px solid var(--linea);border-radius:18px;padding:30px 44px 36px;box-shadow:0 18px 40px rgba(0,0,0,.06);opacity:0;animation:appari .5s both .2s}
 .reg .testa{display:flex;align-items:baseline;gap:28px;margin-bottom:18px;padding-bottom:14px;border-bottom:3px solid var(--tit)}
 .reg .tit{font-family:'Inter',sans-serif;font-size:24px;font-weight:600;color:var(--sop);letter-spacing:.12em;text-transform:uppercase}
 .reg .farmaco{font-family:'Inter',sans-serif;font-size:32px;font-weight:700;color:var(--tit);flex:1}
@@ -2687,7 +2687,7 @@ export const CORPI_CLINICA = {
     const teste = ['Data', 'Carico', 'Scarico', 'Paziente', 'Giacenza', 'Firma'];
     const evid = d.evidenzia ?? -1, corr = d.correzione ?? -1;
     const r = righe.map((c, i) => `<div class="riga ${i === evid - 1 ? 'key' : ''} ${i === corr - 1 ? 'corr' : ''}" style="animation-delay:${num(.6 + i * .35)}s">${c.map((x, j) => `<span class="c${j}">${piano(x)}</span>`).join('')}${i === corr - 1 ? `<span class="firma-corr">${piano(d.firmaCorr ?? 'una riga e la firma · G.P.')}</span>` : ''}</div>`).join('');
-    return `<div class="reg"><div class="pagina"><div class="testa"><span class="tit">${piano(d.titolo ?? 'Registro di carico e scarico')}</span><span class="farmaco">${piano(d.farmaco ?? 'Morfina cloridrato 10 mg/ml')}</span><span class="pag">pag. ${d.pagina ?? 12}</span></div>
+    return `<div class="reg"><div class="foglio"><div class="testa"><span class="tit">${piano(d.titolo ?? 'Registro di carico e scarico')}</span><span class="farmaco">${piano(d.farmaco ?? 'Morfina cloridrato 10 mg/ml')}</span><span class="pag">pag. ${d.pagina ?? 12}</span></div>
       <div class="riga intest">${teste.map((x, j) => `<span class="c${j}">${x}</span>`).join('')}</div>${r}
       ${d.timbro !== false ? `<div class="timbro-box"><div class="timbro" style="animation-delay:1.9s">vidimato<br>Direttore Sanitario</div></div>` : ''}</div></div>`;
   },

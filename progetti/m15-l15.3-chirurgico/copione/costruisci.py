@@ -4,7 +4,7 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] Questo caso segue un paziente chirurgico per dieci giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla."),
+ (1,"chiaro",0,"[warm] Questo caso segue un paziente chirurgico per dodici giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla."),
  (1,"chiaro",0,"E' un ottimo allenamento, perche' all'esame la traccia dice spesso in seconda giornata, o in settima giornata: quel numero e' gia' meta' della risposta."),
 
  (2,"chiaro",0,"Lo scenario. Signor Gallo, sessantasette anni, operato di emicolectomia destra per una neoplasia, in un percorso ERAS. Rientra in reparto alle sedici."),

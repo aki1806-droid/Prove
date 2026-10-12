@@ -77,7 +77,7 @@ export const SCENE = [
   titolo:"Il paziente chirurgico,<br>giorno per giorno", sottotitolo:"15.3 · Dall'intervento alla dimissione, una complicanza per giornata",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 
-{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 3 di 12 · un paziente chirurgico per dieci giorni",
+{id:"s02", tipo:"frase", tema:"chiaro", sopratitolo:"Micro-lezione 3 di 12 · un paziente chirurgico per dodici giorni",
   testo:"Ogni giorno una **complicanza diversa**, proprio quando la lezione 9.5 diceva di aspettarla."},
 {id:"s03", tipo:"numero", tema:"chiaro", sopratitolo:"«In seconda giornata», «in settima giornata»", cifra:"G2",
   testo:"Quel numero è già **metà della risposta**."},

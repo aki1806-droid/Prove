@@ -1,4 +1,4 @@
-[warm] Questo caso segue un paziente chirurgico per dieci giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla.
+[warm] Questo caso segue un paziente chirurgico per dodici giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla.
 
 E' un ottimo allenamento, perche' all'esame la traccia dice spesso in seconda giornata, o in settima giornata: quel numero e' gia' meta' della risposta.
 

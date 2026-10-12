@@ -131,7 +131,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.5-nervoso` | Modulo 14 · 14.5 Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:48.4 | `e514af37fc53d7af7e6e371ad4d01711` |
 | `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
-| `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
+| `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:42.6 | `f53308e25d9de12662c7bf6baae8b314` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

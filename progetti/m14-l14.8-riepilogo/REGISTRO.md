@@ -1,6 +1,6 @@
 # Registro — Modulo 14 · micro-lezione 14.8 «Riepilogo del Modulo 14 e autovalutazione»
 
-Ottava e ultima lezione del Modulo 14: il riepilogo. Le tabelle dei valori da fotografare e i collegamenti fra fisiologia e assistenza, perché all'esame molte domande cliniche si risolvono ragionando sul meccanismo: liquidi e acido-base, con l'acqua al 60% del peso, la pompa sodio-potassio, l'osmosi, le forze di Starling, ADH e aldosterone e il pH 7,35-7,45 difeso da tamponi, polmone e rene; cuore e circolo, con valvole, coronarie perfuse in diastole, sistema di conduzione, gittata, pressione arteriosa media (obiettivo ≥ 65 nello shock) e regolazione della pressione; il respiro, con il bronco destro, i volumi, la curva di dissociazione (SpO₂ 90% ≈ PaO₂ 60) e l'insufficienza respiratoria di tipo 1 e 2; digerente, fegato e rene, con fattore intrinseco e B12, le funzioni del fegato, filtrato, GFR e creatinina, eritropoietina, vitamina D e renina, oliguria e anuria; nervoso ed endocrino, con la via motoria incrociata, simpatico e parasimpatico, TSH, PTH, insulina e glucagone, ormoni dello stress e corticosteroidi; sangue e difese, con gruppi AB0 e Rh, emostasi e D-dimero, INR e aPTT, immunoglobuline, vaccini e fasi della febbre; la tabella dei valori di laboratorio e dell'emogas; i collegamenti più utili; le confusioni che costano più punti; le domande d'orale più probabili; come proseguire (test di 30 domande, soglia 21); la frase del modulo; l'annuncio del Modulo 15, il percorso trasversale.
+Ottava e ultima lezione del Modulo 14: il riepilogo. Le tabelle dei valori da fotografare e i collegamenti fra fisiologia e assistenza, perché all'esame molte domande cliniche si risolvono ragionando sul meccanismo: liquidi e acido-base, con l'acqua al 60% del peso, la pompa sodio-potassio, l'osmosi, le forze di Starling, ADH e aldosterone e il pH 7,35-7,45 difeso da tamponi, polmone e rene; cuore e circolo, con valvole, coronarie perfuse in diastole, sistema di conduzione, gittata, pressione arteriosa media (obiettivo ≥ 65 nello shock) e regolazione della pressione; il respiro, con il bronco destro, i volumi, la curva di dissociazione (SpO₂ 90% ≈ PaO₂ 60) e l'insufficienza respiratoria di tipo 1 e 2; digerente, fegato e rene, con fattore intrinseco e B12, le funzioni del fegato, filtrato, GFR e creatinina, eritropoietina, vitamina D e renina, oliguria e anuria; nervoso ed endocrino, con la via motoria incrociata, simpatico e parasimpatico, TSH, PTH, insulina e glucagone, ormoni dello stress e corticosteroidi; sangue e difese, con gruppi AB0 e Rh, emostasi e D-dimero, INR e aPTT, immunoglobuline, vaccini e fasi della febbre; la tabella dei valori di laboratorio e dell'emogas; i collegamenti più utili; le confusioni che costano più punti; le domande d'orale più probabili; come proseguire (test di 30 domande, soglia 21); la frase del modulo; l'annuncio del Modulo 15, i casi clinici integrati.
 
 ---
 
@@ -68,8 +68,12 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 
 | | |
 |---|---|
-| resa pubblicata | `4d49e3b504ed0c68bc3fb91b6dd730f6` — 523.301 s (8:43.3), 1080p 16:9, resa in 58 s, con SRT (`subtitle_url`) |
+| resa pubblicata | `f53308e25d9de12662c7bf6baae8b314` — 522.635 s (8:42.6), 1080p 16:9, resa in 58 s, con SRT (`subtitle_url`) |
 | lotto asset | `d128824ec3fe4fb2a6078f5b0860c403` — 98 file, 20 MB, tutti completati |
+
+### Rese precedenti
+
+- `4d49e3b504ed0c68bc3fb91b6dd730f6` (8:43.3): sostituita il 12/10/2026. Chiusura: annuncia il Modulo 15 dei casi clinici (traccia B rigenerata)
 
 ---
 
@@ -80,3 +84,7 @@ Le trascrizioni partono dagli mp3 caricati come asset. La traccia A conferma
 - Le rese diverse dal copione segnalate dalla verifica per trascrizione
   vanno ascoltate: il contatore non distingue una parola detta male da una
   trascritta male.
+
+## Correzione del 12 ottobre 2026
+
+Lo script dei Moduli 15-17 sposta il percorso trasversale al Modulo 18: il Modulo 15 diventa «Casi clinici integrati». La chiusura (capitolo 14, s48-s50) ora annuncia i dodici casi e il metodo in cinque passi; la traccia B è stata rigenerata e ritagliata con l'atempo pubblicato (1,119), la traccia A è invariata. Trascrizione verificata senza buchi, controlli 8/8, nuova resa `f53308e25d9de12662c7bf6baae8b314` (8:42.6).

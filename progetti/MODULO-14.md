@@ -31,8 +31,10 @@ rigenerata solo nelle tracce che contenevano le frasi, rese ripubblicate.
 | 14.5 | Sistema nervoso ed endocrino | 8:39.4 | `fe1f13f1afecc42124c15a943d67871c` |
 | 14.6 | Sangue, immunità e infiammazione | 8:48.4 | `e514af37fc53d7af7e6e371ad4d01711` |
 | 14.7 | Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
-| 14.8 | Riepilogo del Modulo 14 e autovalutazione | 8:43.3 | `4d49e3b504ed0c68bc3fb91b6dd730f6` |
+| 14.8 | Riepilogo del Modulo 14 e autovalutazione | 8:42.6 | `f53308e25d9de12662c7bf6baae8b314` |
 
 Lo script del committente è in `script-moduli/Script_video_MODULO_14.md`;
 ogni lezione tiene la propria parte in `origine/script-14.N.md`. Il tema
 resta quello CISL FP Padova Rovigo, verde `#00623A` e rosso `#D70328`.
+
+**12 ottobre 2026** — 14.8 ripubblicata: la chiusura annunciava il Modulo 15 come «percorso trasversale», ma lo script dei Moduli 15-17 lo dedica ai casi clinici integrati. Rigenerata la sola traccia B, slide s48-s50 rifatte.
