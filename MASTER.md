@@ -183,6 +183,23 @@ Con la voce del modulo 17 (`eleven_v4`, filtro più lento, vedi sotto) il provin
 di una frase dava 16,59 e la prima lezione intera **16,86**: +1,6%. Un provino
 basta a dimensionare il copione, se si mira corto.
 
+Le cinque lezioni del modulo hanno dato **16,86 · 16,12 · 16,27 · 16,39 ·
+16,18**: la voce nuova oscilla quanto la vecchia, il 4%. E la prima presa della
+seconda lezione, scritta sulla misura della prima, è uscita **undici secondi
+oltre**: il respiro non accorcia, e si è dovuto asciugare il copione e
+rigenerare. Da lì il copione non si dimensiona su **una** misura ma su
+**tutte e due le estreme**:
+
+```
+C / CPS_min + pose ≤ durata_chiesta − copertina − chiusura      (letto lento, non sfora)
+C / CPS_max + pose + respiro_max × (blocchi−1) ≥ stessa cosa   (letto veloce, il respiro basta)
+```
+
+La forchetta che ne esce è stretta — per il modulo 17, **7.050-7.150
+caratteri** — e le tre lezioni scritte dentro di essa sono uscite tutte al
+primo colpo, tutte e tre a 7:51.8. Le pose contano: una lezione con un capitolo
+in più ha una posa in più, e la forchetta si sposta di quella posa.
+
 ### Il ritmo è una scelta, e sta in due numeri
 
 Il filtro di ritmo fa due cose: riduce ogni pausa dentro un blocco a
@@ -215,7 +232,8 @@ esattamente come il `CPS`. Per tre misure è sembrato stabile alla terza cifra e
 l'avevo scritto qui; la quarta l'ha smentito. E i due numeri non vanno nemmeno
 insieme: le due lezioni col `CPS` praticamente identico (18,31 e 18,32) hanno
 dato rapporti 1,240 e 1,290. **Cambiando il filtro cambia tutto**: col filtro
-lento del modulo 17 il rapporto è 1,10 sul provino e 1,104 sulla lezione.
+lento del modulo 17 il rapporto è 1,10 sul provino, e sulle lezioni **1,104 ·
+1,114 · 1,127 · 1,125 · 1,101**.
 
 ```
 parlato ≈ durata_grezza / rapporto        ± 4%, cioè ± 18 s su otto minuti
@@ -266,7 +284,7 @@ riga riscritta. Tre cose da sapere:
   gratis.
 - **Ha un tetto**, `RESPIRO_MAX` in `profilo.py`. Oltre quello `applica` si
   ferma e lo dice, invece di consegnare un video pieno di buchi. Misurati
-  finora: 0,375 s e 0,168 s a blocco — un respiro, non una pausa.
+  finora: fra 0,062 s e 0,375 s a blocco — un respiro, non una pausa.
 - **Si somma alle pose, non le sostituisce.** Le pose dicono *dove* il discorso
   vuole un battito, cioè ai cambi di capitolo; il respiro dice *quanto* manca
   in tutto, e non sa dove.
@@ -389,6 +407,22 @@ stampa l'aritmetica. Finché non dice `OK, nessun errore`, non si va avanti.
 > **Se serve allungare senza gonfiare.** Si aggiunge contenuto che c'è già
 > altrove nel corso — un esempio, una fonte, una conseguenza — non si allungano
 > le frasi. Un copione gonfiato si sente: la voce rallenta e il video si siede.
+> La prima fonte è **lo schermo dello stesso documento**: quello che il
+> documento mostra e non dice è già approvato da chi l'ha scritto.
+
+> **Se serve accorciare.** Succede quando il parlato di partenza supera la
+> forchetta del §2. Si taglia **dove il documento si ripete** — riepilogo,
+> distrattori e autovalutazione dicono spesso tre volte le stesse cose — e
+> dentro gli elenchi si tolgono articoli e congiunzioni, non voci. Sul merito
+> non si tocca niente, e men che meno sul merito giuridico. Quello che si
+> toglie o si riformula si scrive in testa a `costruisci.py` e nel registro,
+> con il perché.
+
+> **Una frase che la voce rende come domanda si riscrive, non si spera.**
+> «C'è molto da fare, cambia che cosa» è uscita interrogativa (Scribe l'ha
+> trascritta col punto di domanda); «c'è molto da fare, e cambia che cosa si
+> fa» è uscita affermativa. La punteggiatura della trascrizione è il modo di
+> accorgersene senza riascoltare.
 
 ### `OK, nessun errore` non vuol dire che il copione è giusto
 
@@ -550,6 +584,23 @@ ha un'ultima parola detta e una prima parola detta: il taglio deve stare in
 mezzo, con un margine. Sulla 17.1: 44 tagli su 44, tutti vicini al centro di
 silenzi fra 0,32 e 0,98 s.
 
+**Sulle due lezioni dopo ha preso tre errori veri**, di due specie:
+
+- **il taglio sulla virgola**: l'allineamento ha scelto la pausa dopo
+  «emozioni normali,» invece del punto dopo, e le ultime quattro parole del
+  blocco sarebbero finite sotto la slide seguente. Il controllo statistico di
+  `verifica-locale.py` non l'ha visto: lo scarto sul blocco corto era troppo
+  piccolo per fare coppia;
+- **il taglio dentro una parola**: con la soglia di pausa più bassa (0,10 s)
+  l'allineamento ha scambiato per pause **le chiusure delle consonanti** — la
+  doppia *t* di «tu|tto», la *p* di «col|pa» — e un decimo di secondo di
+  parola sarebbe passato nella scena dopo. È il difetto più difficile da
+  sentire, e il più facile da prendere coi tempi delle parole.
+
+Tutti e tre si correggono con `correzioni.json` (§ sopra) spostando il confine
+sulla pausa vera. Una soglia di pausa molto bassa, quando è quella che vince,
+è già un indizio: si guarda `confini-parole.py` prima di montare.
+
 Il vecchio `prova.mp3` (1,6 s prima di ogni taglio, trascritti a parte)
 indovinava il confine dalla somiglianza di un frammento e costava una
 trascrizione in più: con i tempi delle parole non serve. Resta
@@ -683,6 +734,11 @@ cornice interna della slide.
 Gli elenchi lunghi si stringono da soli; `griglia` si stringe oltre le sei
 caselle su una colonna; `icone` oltre le quattro. Se la soglia sta nelle scene,
 ogni lezione se ne dimentica per conto suo.
+
+`trappola` invece non si stringe: ogni riga è un errore barrato più la sua
+correzione, e con cinque righe sfora la cornice di 68 px. Oltre le quattro si
+divide in due scene con lo stesso sopratitolo e lo stesso tema — una serie, che
+`cards.mjs` controlla come le altre.
 
 ### Guardare i provini non è una formalità
 
@@ -1055,8 +1111,8 @@ riaprirli — ma la durata no: quella si richiede.
 | durata chiesta | «8 minuti almeno» → 9:00 | standard 7–8 min → 7:50 |
 | pausa musicale | no | no |
 | copione | lo fornisce l'utente, uno script per lezione | idem |
-| scene usate | 50 | 48 · 48 · 49 · 50 |
-| lezioni fatte | 8 | 4 |
+| scene usate | 50 | modulo 16: 48 · 48 · 49 · 50 · 49 · modulo 17: 48 · 48 · 48 · 48 · 49 |
+| lezioni fatte | 8 | 10 (moduli 16 e 17) |
 
 I parametri comuni a tutti e due:
 
@@ -1071,8 +1127,12 @@ I parametri comuni a tutti e due:
 | modello | `eleven_v3` fino al modulo 16 · **`eleven_v4` dal modulo 17**, `language_code` `it` |
 | trascrizione | `eleven_scribe_v1` |
 | formato | 1920×1080, 25 fps, 16:9, 1080p |
-| `CPS` | 17,0 di partenza · misurato 17,52 · 18,31 · 17,63 · fascia 8,5–21 |
+| `CPS` | fino al modulo 16: 17,0 di partenza · misurato 17,52 · 18,31 · 17,63 |
+| | dal modulo 17: 16,9 di partenza · misurato 16,86 · 16,12 · 16,27 · 16,39 · 16,42 · 16,18 |
+| | fascia 8,5–21 |
 | | copertina 3 s · chiusura 10 s · respiro max 0,6 s · arrotondamento 30 ms/scena |
+| filtro di ritmo | pausa interna 0,14 s · atempo 1,12 fino al modulo 16 · **0,22 s · 1,04 dal modulo 17** |
+| registro | dal modulo 17: «sobrio, concreto, mai pietistico», lettura leggermente più lenta |
 | tetti | 50 scene per chiamata · 100 file per lotto · 225 caratteri per blocco |
 
 I due colori del marchio sono **campionati dal file del logo, non stimati**.
@@ -1117,15 +1177,15 @@ diversa potrebbero cambiare forma.
 
 ```
 voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28
-voce, due tracce, ~7.200 caratteri, eleven_v4    $0,00   (17.1: 0 crediti addebitati)
+voce, due tracce, ~7.100 caratteri, eleven_v4    $0,00   (0 crediti su sei prese, modulo 17)
 trascrizione delle due tracce intere             $0,43-0,49   (~$0,055 al minuto)
                                                  ------
                                                  $0,43 in v4 · $1,77 in v3
 ```
 
 > **Il costo zero della v4 è una misura, non una tariffa.** Su questo workspace
-> la generazione `eleven_v4` ha addebitato 0 crediti nei provini e sulla prima
-> lezione intera. Va ricontrollato a ogni lezione (`credit_costs` nella risposta
+> la generazione `eleven_v4` ha addebitato 0 crediti nei provini e su tutte le
+> sei prese del modulo 17, compresa quella buttata. Va ricontrollato a ogni lezione (`credit_costs` nella risposta
 > di `creative_run_flow_nodes`): se cambia, il costo del modulo torna quello
 > della v3, un credito per carattere.
 
