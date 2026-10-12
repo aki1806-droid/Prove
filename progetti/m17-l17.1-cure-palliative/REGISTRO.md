@@ -195,9 +195,24 @@ fatto danno; con un rapporto ancora piu' lontano avrebbe potuto.
 | | |
 |---|---|
 | montato locale | `montato-17.1.mp4` — **7:51.84**, 1920×1080, 25 fps |
-| montato HeyGen | _(in render)_ |
+| montato HeyGen | `a01946a2c1bbe818d4e9b7eea53611cc` — **7:50.52** |
+| render | 112 s |
 | asset caricati | 94 in un lotto solo |
 | sottotitoli | `montato-17.1.srt`, 46 righe, coi tempi esatti dei blocchi |
+
+Perdita in consegna 1,32 s su 48 scene, **27,5 ms a scena**: dentro la banda
+24-29 delle misure precedenti, e sopra i 7:50 chiesti. Il bersaglio del respiro
+ha funzionato al primo giro per la terza lezione di fila, con una voce e un
+filtro nuovi.
+
+Scaricato e controllato: 7:50.52, 1920×1080, 25 fps, audio AAC presente
+(media −26 dB, picco −6 dB); al minuto 5:00 c'e' s31, il caregiver, dove il
+montato locale lo mette.
+
+Lo stato del render e' arrivato di nuovo **in ritardo**: il video era pronto
+dopo 112 s (`completed_at` meno `created_at`), `get_video` ha risposto
+`processing` per circa venti minuti. Come sulla 16.5: si continua a chiedere,
+non si rilancia.
 
 ## Costo misurato
 
