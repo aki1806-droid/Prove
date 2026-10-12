@@ -1,0 +1,144 @@
+{
+ "_nota": "Inquadrature aggiunte in montaggio, non previste dalla scaletta: servono a coprire il tempo che la regola del ritmo toglie alle inquadrature troppo lunghe nei blocchi senza immagini o clip di riserva. Le immagini I14-I17 e le varianti di clip oltre la b sono state generate per questo. In B02 il cartello col nome va in testa (coincide con «Mi chiamo») e la clip C02 si alterna con l'immagine dei tre strumenti, per non avere 22 s della stessa clip. C01a e C01b sono ritagliate a sinistra (72%) per escludere la tazza, che porta un emblema e lettere finte.",
+ "B08": [
+  {
+   "id": "S022x",
+   "dopo": "S022",
+   "tipo": "clip",
+   "asset": "C04",
+   "varianti": [
+    "C04e"
+   ]
+  }
+ ],
+ "B14": [
+  {
+   "id": "S032m",
+   "prima": "S032",
+   "tipo": "animazione_svg",
+   "file": "svg/IAS_M00_L01_A1_mappa-corso.svg",
+   "statica": true
+  }
+ ],
+ "B17": [
+  {
+   "id": "S037x",
+   "dopo": "S037",
+   "tipo": "clip",
+   "asset": "C08",
+   "varianti": [
+    "C08c"
+   ]
+  }
+ ],
+ "B19": [
+  {
+   "id": "S041x",
+   "dopo": "S041",
+   "tipo": "clip",
+   "asset": "C02",
+   "varianti": [
+    "C02d"
+   ]
+  },
+  {
+   "id": "S041y",
+   "dopo": "S041x",
+   "tipo": "immagine",
+   "asset": "I18"
+  }
+ ],
+ "B20": [
+  {
+   "id": "S043x",
+   "dopo": "S043",
+   "tipo": "immagine",
+   "asset": "I15"
+  }
+ ],
+ "B22": [
+  {
+   "id": "S048x",
+   "dopo": "S048",
+   "tipo": "immagine",
+   "asset": "I16"
+  }
+ ],
+ "B24": [
+  {
+   "id": "S052x",
+   "dopo": "S052",
+   "tipo": "immagine",
+   "asset": "I17"
+  }
+ ],
+ "B28": [
+  {
+   "id": "S060x",
+   "prima": "S060",
+   "tipo": "clip",
+   "asset": "C07",
+   "varianti": [
+    "C07d"
+   ]
+  }
+ ],
+ "_ordine": {
+  "B02": [
+   "S006",
+   "S005",
+   "S005x",
+   "S005y"
+  ]
+ },
+ "_varianti": {
+  "S005": [
+   "C02a",
+   "C02b"
+  ],
+  "S049": [
+   "C07a",
+   "C07b"
+  ]
+ },
+ "B02": [
+  {
+   "id": "S005x",
+   "dopo": "S005",
+   "tipo": "immagine",
+   "asset": "I14"
+  },
+  {
+   "id": "S005y",
+   "dopo": "S005x",
+   "tipo": "clip",
+   "asset": "C02",
+   "varianti": [
+    "C02c"
+   ]
+  }
+ ],
+ "B27": [
+  {
+   "id": "S058x",
+   "dopo": "S058",
+   "tipo": "clip",
+   "asset": "C07",
+   "varianti": [
+    "C07c"
+   ]
+  }
+ ],
+ "_ritaglio": {
+  "C01a": [
+   0.0,
+   0.12,
+   0.72
+  ],
+  "C01b": [
+   0.0,
+   0.12,
+   0.72
+  ]
+ }
+}

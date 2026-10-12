@@ -1,0 +1,1117 @@
+1
+00:00:03,000 --> 00:00:04,176
+Sono le dieci di sera.
+
+2
+00:00:04,216 --> 00:00:07,382
+Sul tavolo della sede c'è una delibera di
+quaranta pagine,
+
+3
+00:00:07,422 --> 00:00:09,371
+arrivata alle cinque del pomeriggio.
+
+4
+00:00:09,411 --> 00:00:11,803
+Domani mattina c'è l'incontro con
+l'azienda.
+
+5
+00:00:11,843 --> 00:00:14,954
+E tu devi ancora scrivere il comunicato
+per i lavoratori,
+
+6
+00:00:14,994 --> 00:00:16,391
+rispondere a tre messaggi,
+
+7
+00:00:16,431 --> 00:00:19,707
+e capire che cosa c'è davvero dentro
+quelle quaranta pagine.
+
+8
+00:00:19,747 --> 00:00:23,465
+Se questa scena ti è familiare, questo
+corso è stato pensato per te.
+
+9
+00:00:23,855 --> 00:00:25,407
+Mi chiamo Achille Pagliaro,
+
+10
+00:00:25,447 --> 00:00:29,182
+sono il segretario provinciale della CISL
+FP di Padova e Rovigo.
+
+11
+00:00:29,222 --> 00:00:32,130
+Da circa dieci anni siedo ai tavoli di
+trattativa,
+
+12
+00:00:32,170 --> 00:00:34,135
+soprattutto nella sanità pubblica.
+
+13
+00:00:34,175 --> 00:00:38,264
+E da qualche tempo, accanto ai contratti,
+ai regolamenti e ai verbali,
+
+14
+00:00:38,304 --> 00:00:42,569
+sul mio computer ci sono anche tre
+strumenti di intelligenza artificiale:
+
+15
+00:00:42,609 --> 00:00:44,043
+ChatGPT, Claude e Gemini.
+
+16
+00:00:44,083 --> 00:00:46,166
+Non li uso per pensare al posto mio.
+
+17
+00:00:46,206 --> 00:00:48,761
+Li uso per arrivare al tavolo più
+preparato,
+
+18
+00:00:48,801 --> 00:00:52,476
+e per restituire tempo alle cose che solo
+una persona può fare:
+
+19
+00:00:52,516 --> 00:00:54,835
+ascoltare, decidere, metterci la faccia.
+
+20
+00:00:55,226 --> 00:00:57,983
+La prima volta che ho provato a usarla sul
+serio,
+
+21
+00:00:58,023 --> 00:01:02,436
+ho chiesto all'intelligenza artificiale di
+riassumermi un accordo integrativo.
+
+22
+00:01:02,476 --> 00:01:07,289
+Il riassunto era ordinato, chiaro, scritto
+perfino meglio di come l'avrei scritto io.
+
+23
+00:01:07,329 --> 00:01:11,171
+E conteneva un errore: un'indennità
+attribuita al profilo sbagliato.
+
+24
+00:01:11,211 --> 00:01:13,283
+Se l'avessi copiato in un comunicato,
+
+25
+00:01:13,323 --> 00:01:16,251
+quel comunicato l'avrei firmato io, non la
+macchina.
+
+26
+00:01:16,291 --> 00:01:20,305
+Quel giorno ho capito due cose, che sono
+la base di tutto questo corso.
+
+27
+00:01:20,345 --> 00:01:23,844
+La prima: questi strumenti fanno
+risparmiare moltissimo tempo.
+
+28
+00:01:23,884 --> 00:01:26,699
+La seconda: la responsabilità resta sempre
+nostra.
+
+29
+00:01:27,088 --> 00:01:30,355
+Allora, che cosa saprai fare alla fine di
+questo percorso?
+
+30
+00:01:30,395 --> 00:01:32,009
+Saprai scegliere tra ChatGPT,
+
+31
+00:01:32,049 --> 00:01:35,031
+Claude e Gemini lo strumento giusto per
+ogni compito.
+
+32
+00:01:35,071 --> 00:01:38,680
+Saprai scrivere una richiesta che produce
+un testo utilizzabile,
+
+33
+00:01:38,720 --> 00:01:40,162
+e non una pagina generica.
+
+34
+00:01:40,202 --> 00:01:44,439
+Saprai leggere con il suo aiuto una
+delibera, un regolamento, un contratto,
+
+35
+00:01:44,479 --> 00:01:47,803
+e trovare in pochi minuti i punti che
+toccano i lavoratori.
+
+36
+00:01:47,843 --> 00:01:51,053
+Saprai preparare una trattativa,
+ricostruire una pratica,
+
+37
+00:01:51,093 --> 00:01:53,447
+scrivere un verbale, creare una locandina.
+
+38
+00:01:53,487 --> 00:01:57,439
+E soprattutto saprai quando fermarti:
+quando un dato non va incollato,
+
+39
+00:01:57,479 --> 00:02:01,259
+quando una risposta va controllata, quando
+una decisione resta tua.
+
+40
+00:02:01,649 --> 00:02:03,258
+Facciamo un esempio concreto.
+
+41
+00:02:03,298 --> 00:02:05,418
+Pensa a una settimana normale in sede.
+
+42
+00:02:05,458 --> 00:02:09,397
+Lunedì arriva una delibera: con l'aiuto
+dell'intelligenza artificiale,
+
+43
+00:02:09,437 --> 00:02:13,206
+in pochi minuti hai l'elenco dei punti che
+riguardano i lavoratori,
+
+44
+00:02:13,246 --> 00:02:15,593
+e sai quali pagine leggere con attenzione.
+
+45
+00:02:15,633 --> 00:02:20,141
+Martedì devi scrivere il comunicato: parti
+da una bozza ordinata e la rendi tua.
+
+46
+00:02:20,181 --> 00:02:21,562
+Mercoledì c'è l'incontro:
+
+47
+00:02:21,602 --> 00:02:24,916
+hai già provato a prevedere le obiezioni
+della controparte.
+
+48
+00:02:24,956 --> 00:02:27,986
+Giovedì un lavoratore ti porta un problema
+complicato:
+
+49
+00:02:28,026 --> 00:02:31,112
+metti in fila le date, e capisci subito
+che cosa manca.
+
+50
+00:02:31,152 --> 00:02:34,921
+Venerdì c'è l'assemblea: la registri, con
+il consenso dei presenti,
+
+51
+00:02:34,961 --> 00:02:36,967
+e il verbale è pronto prima di sera.
+
+52
+00:02:37,357 --> 00:02:40,398
+Nessuno di questi passaggi lo fa la
+macchina da sola.
+
+53
+00:02:40,438 --> 00:02:44,410
+Ma in ognuno ti toglie la parte più
+faticosa e meno utile del lavoro:
+
+54
+00:02:44,450 --> 00:02:45,398
+la pagina bianca.
+
+55
+00:02:45,438 --> 00:02:50,223
+Quel momento in cui sai benissimo che cosa
+vuoi dire, ma non hai ancora cominciato.
+
+56
+00:02:50,263 --> 00:02:53,828
+Ecco, quel momento può durare trenta
+secondi invece di un'ora.
+
+57
+00:02:54,218 --> 00:02:57,558
+C'è anche una ragione più profonda per cui
+questo corso esiste.
+
+58
+00:02:57,598 --> 00:03:01,045
+Le aziende stanno già usando questi
+strumenti: per scrivere atti,
+
+59
+00:03:01,085 --> 00:03:03,567
+per analizzare dati, per organizzare il
+lavoro.
+
+60
+00:03:03,607 --> 00:03:06,303
+Se dall'altra parte del tavolo qualcuno
+prepara una
+
+61
+00:03:06,343 --> 00:03:09,576
+proposta in un'ora con l'aiuto
+dell'intelligenza artificiale,
+
+62
+00:03:09,616 --> 00:03:13,600
+e noi impieghiamo tre giorni per leggerla,
+la trattativa parte squilibrata.
+
+63
+00:03:13,640 --> 00:03:15,532
+Non si tratta di inseguire una moda.
+
+64
+00:03:15,572 --> 00:03:17,785
+Si tratta di non lasciare a una sola parte
+
+65
+00:03:17,825 --> 00:03:20,146
+uno strumento che cambia i tempi del
+lavoro.
+
+66
+00:03:20,186 --> 00:03:21,702
+E di essere in grado, domani,
+
+67
+00:03:21,742 --> 00:03:23,955
+di chiedere conto di come questi strumenti
+
+68
+00:03:23,995 --> 00:03:26,477
+vengono usati sulle persone che
+rappresentiamo.
+
+69
+00:03:26,867 --> 00:03:29,950
+Per chiarezza, ti dico anche che cosa
+questo corso non è.
+
+70
+00:03:29,990 --> 00:03:31,594
+Non è un corso di informatica:
+
+71
+00:03:31,634 --> 00:03:34,388
+non parleremo di reti neurali né di
+programmazione.
+
+72
+00:03:34,428 --> 00:03:36,361
+Non è un catalogo di trucchi per far
+
+73
+00:03:36,401 --> 00:03:39,046
+sembrare intelligente un testo scritto in
+fretta.
+
+74
+00:03:39,086 --> 00:03:41,183
+E non è una promessa che l'intelligenza
+
+75
+00:03:41,223 --> 00:03:43,703
+artificiale farà il sindacato al posto
+nostro.
+
+76
+00:03:43,743 --> 00:03:46,607
+Il sindacato resta fatto di persone che si
+conoscono,
+
+77
+00:03:46,647 --> 00:03:49,292
+si fidano, si guardano in faccia in
+un'assemblea.
+
+78
+00:03:49,332 --> 00:03:53,018
+Questi strumenti possono liberare tempo
+per quella parte del lavoro.
+
+79
+00:03:53,058 --> 00:03:54,333
+Non possono sostituirla.
+
+80
+00:03:54,723 --> 00:03:58,953
+Una cosa voglio dirla subito, perché so
+che per molti è il vero ostacolo.
+
+81
+00:03:58,993 --> 00:04:01,351
+Non serve essere bravi con la tecnologia.
+
+82
+00:04:01,391 --> 00:04:05,445
+Se sai scrivere un messaggio sul telefono,
+sai usare questi strumenti.
+
+83
+00:04:05,485 --> 00:04:08,955
+Non ci sono codici da imparare, non ci
+sono comandi segreti.
+
+84
+00:04:08,995 --> 00:04:13,283
+Si scrive in italiano, come si parlerebbe
+a un collaboratore molto veloce,
+
+85
+00:04:13,323 --> 00:04:15,389
+molto preparato, e un po' distratto.
+
+86
+00:04:15,429 --> 00:04:17,495
+E se un giorno sbagli una richiesta,
+
+87
+00:04:17,535 --> 00:04:20,478
+non succede niente: la riscrivi, e impari
+qualcosa.
+
+88
+00:04:20,867 --> 00:04:24,100
+Tieni a mente questa immagine, perché la
+useremo spesso.
+
+89
+00:04:24,140 --> 00:04:28,950
+Veloce, perché in trenta secondi ti scrive
+una bozza che a te richiederebbe un'ora.
+
+90
+00:04:28,990 --> 00:04:32,632
+Preparato, perché ha letto moltissimo, su
+quasi ogni argomento.
+
+91
+00:04:32,672 --> 00:04:35,671
+Distratto, perché a volte inventa, a volte
+confonde,
+
+92
+00:04:35,711 --> 00:04:38,067
+e lo fa sempre con lo stesso tono sicuro.
+
+93
+00:04:38,107 --> 00:04:42,859
+Un collaboratore così non si offende se
+gli dici che ha sbagliato: anzi, migliora.
+
+94
+00:04:42,899 --> 00:04:44,671
+Lo usi, lo guidi, lo controlli.
+
+95
+00:04:44,711 --> 00:04:46,190
+Ma non gli lasci la firma.
+
+96
+00:04:46,580 --> 00:04:48,866
+Vediamo adesso come è fatto il percorso.
+
+97
+00:04:48,906 --> 00:04:51,540
+Immaginalo come la mappa di una
+metropolitana,
+
+98
+00:04:51,580 --> 00:04:53,924
+con quattro linee, ognuna del suo colore.
+
+99
+00:04:53,964 --> 00:04:56,017
+La prima linea, verde, sono le basi:
+
+100
+00:04:56,057 --> 00:04:59,622
+cinque moduli per capire che cos'è
+l'intelligenza artificiale,
+
+101
+00:04:59,662 --> 00:05:02,239
+conoscere i tre strumenti, proteggere i
+dati,
+
+102
+00:05:02,279 --> 00:05:05,320
+scrivere richieste efficaci e verificare
+le risposte.
+
+103
+00:05:05,360 --> 00:05:07,006
+È la linea che serve a tutti.
+
+104
+00:05:07,046 --> 00:05:10,553
+E se ti fermi qui, hai già in mano un modo
+nuovo di lavorare.
+
+105
+00:05:10,943 --> 00:05:14,419
+La seconda linea, blu petrolio, è il
+lavoro di ogni giorno:
+
+106
+00:05:14,459 --> 00:05:16,207
+scrivere comunicati e lettere,
+
+107
+00:05:16,247 --> 00:05:18,709
+leggere gli atti, preparare la trattativa,
+
+108
+00:05:18,749 --> 00:05:22,285
+seguire la tutela individuale, gestire
+assemblee e riunioni.
+
+109
+00:05:22,325 --> 00:05:26,039
+Sono le cinque attività che riempiono la
+settimana di una sede.
+
+110
+00:05:26,079 --> 00:05:30,211
+La terza linea, color ambra, è dedicata
+alle immagini: come si creano,
+
+111
+00:05:30,251 --> 00:05:33,131
+come si usano per locandine, social e
+formazione,
+
+112
+00:05:33,171 --> 00:05:35,693
+e soprattutto come si usano in modo
+onesto.
+
+113
+00:05:36,084 --> 00:05:39,010
+La quarta linea, blu notte, è il livello
+avanzato:
+
+114
+00:05:39,050 --> 00:05:41,857
+le campagne di comunicazione, i numeri e i
+dati,
+
+115
+00:05:41,897 --> 00:05:46,603
+la costruzione di un assistente sindacale
+tutto tuo, la formazione dei delegati.
+
+116
+00:05:46,643 --> 00:05:50,399
+E l'ultima fermata, il modulo diciotto,
+rovescia la prospettiva.
+
+117
+00:05:50,439 --> 00:05:53,959
+Lì l'intelligenza artificiale non è più il
+nostro strumento:
+
+118
+00:05:53,999 --> 00:05:55,620
+è materia di contrattazione.
+
+119
+00:05:55,660 --> 00:05:58,823
+Perché sta già entrando negli ospedali e
+negli uffici,
+
+120
+00:05:58,863 --> 00:06:01,908
+e qualcuno, al tavolo, dovrà chiedere come
+funziona.
+
+121
+00:06:02,297 --> 00:06:06,910
+Puoi percorrere tutte e quattro le linee,
+oppure scendere alla fermata che ti serve.
+
+122
+00:06:06,950 --> 00:06:09,347
+Chi fa il delegato in un reparto può
+trovare
+
+123
+00:06:09,387 --> 00:06:12,172
+quasi tutto quello che cerca nei primi due
+livelli.
+
+124
+00:06:12,212 --> 00:06:15,440
+Chi cura la comunicazione della sede andrà
+dritto al terzo.
+
+125
+00:06:15,480 --> 00:06:18,597
+Chi coordina una struttura avrà bisogno
+anche del quarto.
+
+126
+00:06:18,637 --> 00:06:20,203
+Ogni linea ha le sue fermate,
+
+127
+00:06:20,243 --> 00:06:24,358
+e ogni fermata è un modulo che puoi
+seguire anche da solo, quando ti serve.
+
+128
+00:06:24,398 --> 00:06:26,407
+Nessuna di queste scelte è sbagliata.
+
+129
+00:06:26,797 --> 00:06:29,456
+Lungo il percorso non sarai solo con la
+teoria.
+
+130
+00:06:29,496 --> 00:06:32,213
+Ti accompagnerà un caso: l'Ospedale di
+Valcorta.
+
+131
+00:06:32,253 --> 00:06:36,290
+È un ospedale che non esiste, ma che
+assomiglia a molti che conosciamo.
+
+132
+00:06:36,330 --> 00:06:39,850
+Un giorno la direzione decide di
+introdurre un nuovo software,
+
+133
+00:06:39,890 --> 00:06:42,377
+che pianifica da solo i turni del
+personale.
+
+134
+00:06:42,417 --> 00:06:46,053
+Lo annuncia con una delibera, senza
+un'informativa al sindacato.
+
+135
+00:06:46,093 --> 00:06:48,465
+Nei reparti i turni cominciano a cambiare.
+
+136
+00:06:48,505 --> 00:06:50,819
+Qualcuno si ritrova con i riposi saltati.
+
+137
+00:06:50,859 --> 00:06:53,691
+Qualcun altro non capisce più chi decide
+che cosa.
+
+138
+00:06:54,081 --> 00:06:56,703
+In questa storia conoscerai alcune
+persone.
+
+139
+00:06:56,743 --> 00:07:01,038
+Marta, infermiera in medicina, che è la
+prima a segnalare il problema.
+
+140
+00:07:01,078 --> 00:07:02,771
+Luca, il delegato della RSU,
+
+141
+00:07:02,811 --> 00:07:05,867
+che l'intelligenza artificiale non l'ha
+mai usata.
+
+142
+00:07:05,907 --> 00:07:07,663
+E la direzione del personale,
+
+143
+00:07:07,703 --> 00:07:11,439
+che risponde sempre con molta cortesia e
+pochissimi dettagli.
+
+144
+00:07:11,479 --> 00:07:15,959
+Luca, in un certo senso, sei tu: impara
+insieme a te, modulo dopo modulo.
+
+145
+00:07:16,349 --> 00:07:20,485
+Dal modulo sei in poi, ogni modulo fa
+avanzare questa vertenza di un passo.
+
+146
+00:07:20,525 --> 00:07:22,156
+Scriverai il primo comunicato.
+
+147
+00:07:22,196 --> 00:07:23,325
+Leggerai la delibera.
+
+148
+00:07:23,365 --> 00:07:25,887
+Preparerai il primo incontro con la
+direzione.
+
+149
+00:07:25,927 --> 00:07:29,729
+Seguirai il caso di Marta, a cui il
+software assegna turni sbagliati.
+
+150
+00:07:29,769 --> 00:07:34,239
+Organizzerai l'assemblea di reparto, la
+locandina, il sondaggio tra i lavoratori.
+
+151
+00:07:34,279 --> 00:07:38,416
+E nell'ultimo modulo porterai al tavolo la
+richiesta che chiude il cerchio:
+
+152
+00:07:38,456 --> 00:07:41,534
+sapere come funziona quell'algoritmo, e
+chi ne risponde.
+
+153
+00:07:41,924 --> 00:07:44,565
+Tutti i documenti di Valcorta sono
+inventati:
+
+154
+00:07:44,605 --> 00:07:47,424
+la delibera, i verbali, le segnalazioni, i
+nomi.
+
+155
+00:07:47,464 --> 00:07:48,676
+È una scelta precisa.
+
+156
+00:07:48,716 --> 00:07:51,476
+Ti permette di vedere ogni passaggio a
+schermo,
+
+157
+00:07:51,516 --> 00:07:54,693
+senza mai mostrare un dato vero di un
+lavoratore vero.
+
+158
+00:07:54,733 --> 00:07:58,744
+È la prima regola del corso, e la vedrai
+rispettata in ogni lezione.
+
+159
+00:07:59,134 --> 00:08:00,626
+Parliamo dei tre strumenti.
+
+160
+00:08:00,666 --> 00:08:02,159
+Perché tre, e non uno solo?
+
+161
+00:08:02,199 --> 00:08:05,110
+Perché non esiste lo strumento migliore in
+assoluto:
+
+162
+00:08:05,150 --> 00:08:07,607
+esiste lo strumento migliore per un
+compito.
+
+163
+00:08:07,647 --> 00:08:09,650
+Claude è particolarmente forte con i
+
+164
+00:08:09,690 --> 00:08:12,090
+documenti lunghi e con la scrittura
+curata.
+
+165
+00:08:12,130 --> 00:08:14,757
+Gemini lavora bene dentro Gmail e Google
+Drive,
+
+166
+00:08:14,797 --> 00:08:16,800
+se la tua sede usa quegli strumenti.
+
+167
+00:08:16,840 --> 00:08:18,333
+ChatGPT è il più versatile,
+
+168
+00:08:18,373 --> 00:08:22,930
+e ha funzioni utili come la conversazione
+a voce e gli assistenti personalizzati.
+
+169
+00:08:22,970 --> 00:08:26,675
+Tutti e tre hanno una versione gratuita,
+che basta per cominciare.
+
+170
+00:08:27,065 --> 00:08:31,815
+Questi strumenti cambiano spesso: nuove
+versioni, nuovi pulsanti, nuovi prezzi.
+
+171
+00:08:31,855 --> 00:08:34,422
+Per questo il corso è costruito in modo
+che
+
+172
+00:08:34,462 --> 00:08:37,332
+le cose che cambiano stiano in lezioni
+dedicate,
+
+173
+00:08:37,372 --> 00:08:39,878
+che chiamo le lezioni con i tre strumenti.
+
+174
+00:08:39,918 --> 00:08:42,606
+Lì vedrai lo stesso compito fatto in
+ChatGPT,
+
+175
+00:08:42,646 --> 00:08:45,638
+in Claude e in Gemini, a schermo, passo
+per passo.
+
+176
+00:08:45,678 --> 00:08:47,760
+Il resto del corso, cioè il metodo,
+
+177
+00:08:47,800 --> 00:08:50,730
+resta valido anche quando le interfacce
+cambiano.
+
+178
+00:08:51,120 --> 00:08:54,901
+Alla fine di ogni lezione c'è una pratica:
+una piccola azione concreta,
+
+179
+00:08:54,941 --> 00:08:57,700
+da fare entro ventiquattro ore, sul tuo
+lavoro vero.
+
+180
+00:08:57,740 --> 00:08:59,153
+Non un esercizio di scuola.
+
+181
+00:08:59,193 --> 00:09:02,651
+E alcuni moduli ti lasciano un pezzo di
+quello che chiamo il kit:
+
+182
+00:09:02,691 --> 00:09:05,343
+il protocollo per la privacy della tua
+segreteria,
+
+183
+00:09:05,383 --> 00:09:08,949
+i tuoi primi venti prompt, la checklist
+per verificare le risposte,
+
+184
+00:09:08,989 --> 00:09:11,640
+i modelli di immagine con lo stile della
+tua sede.
+
+185
+00:09:11,680 --> 00:09:15,299
+E alla fine, un assistente sindacale
+configurato sui tuoi documenti.
+
+186
+00:09:15,690 --> 00:09:19,562
+Insieme al corso trovi anche una libreria
+di cinquecento prompt,
+
+187
+00:09:19,602 --> 00:09:20,846
+divisi per tipologia:
+
+188
+00:09:20,886 --> 00:09:23,781
+comunicati, atti, trattative, tutela,
+assemblee,
+
+189
+00:09:23,821 --> 00:09:26,165
+campagne, numeri, formazione, immagini.
+
+190
+00:09:26,205 --> 00:09:30,994
+Un prompt è semplicemente la richiesta che
+scrivi all'intelligenza artificiale.
+
+191
+00:09:31,034 --> 00:09:34,173
+Ognuno ha i campi da compilare tra
+parentesi quadre.
+
+192
+00:09:34,213 --> 00:09:38,941
+Non sono formule magiche: sono punti di
+partenza, da adattare alla tua realtà.
+
+193
+00:09:39,331 --> 00:09:41,152
+Come conviene seguire il corso?
+
+194
+00:09:41,192 --> 00:09:43,433
+Ogni lezione dura circa dodici minuti.
+
+195
+00:09:43,473 --> 00:09:46,554
+Il mio consiglio è semplice: una lezione
+alla volta,
+
+196
+00:09:46,594 --> 00:09:49,256
+sempre nello stesso giorno e alla stessa
+ora,
+
+197
+00:09:49,296 --> 00:09:52,557
+con il computer davanti e uno dei tre
+strumenti aperto.
+
+198
+00:09:52,597 --> 00:09:55,259
+Guarda la lezione, poi fai subito la
+pratica.
+
+199
+00:09:55,299 --> 00:09:59,161
+Una lezione guardata e non provata si
+dimentica in una settimana.
+
+200
+00:09:59,201 --> 00:10:01,682
+Una lezione provata sul tuo lavoro, resta.
+
+201
+00:10:01,722 --> 00:10:05,103
+Anche dieci minuti bastano, se li usi su
+un compito vero.
+
+202
+00:10:05,143 --> 00:10:08,825
+E se per qualche settimana ti fermi, non
+ricominciare da capo:
+
+203
+00:10:08,865 --> 00:10:11,226
+riprendi dalla fermata in cui eri sceso.
+
+204
+00:10:11,617 --> 00:10:15,397
+E se ogni tanto ti blocchi, se un pulsante
+non è dove te lo aspetti,
+
+205
+00:10:15,437 --> 00:10:17,756
+se la risposta non ti piace, va bene così.
+
+206
+00:10:17,796 --> 00:10:18,880
+Fa parte del lavoro.
+
+207
+00:10:18,920 --> 00:10:22,138
+La cosa più utile che puoi fare in quel
+momento è scrivere
+
+208
+00:10:22,178 --> 00:10:26,463
+all'intelligenza artificiale esattamente
+quello che scriveresti a un collega:
+
+209
+00:10:26,503 --> 00:10:28,766
+non ho capito, rispiegamelo più semplice.
+
+210
+00:10:28,806 --> 00:10:31,294
+Funziona molto più spesso di quanto si
+pensi.
+
+211
+00:10:31,684 --> 00:10:34,958
+Prima di partire, tre regole che non
+cambieranno mai,
+
+212
+00:10:34,998 --> 00:10:36,896
+dalla prima all'ultima lezione.
+
+213
+00:10:36,936 --> 00:10:40,209
+Prima regola: i dati dei lavoratori non si
+incollano.
+
+214
+00:10:40,249 --> 00:10:43,773
+Nomi, diagnosi, iscrizioni, codici fiscali
+restano fuori.
+
+215
+00:10:43,813 --> 00:10:46,399
+Seconda regola: ogni risposta si verifica,
+
+216
+00:10:46,439 --> 00:10:50,213
+soprattutto quando cita una norma, un
+articolo, una sentenza.
+
+217
+00:10:50,253 --> 00:10:53,964
+Terza regola: quello che esce dalla sede
+porta la tua firma,
+
+218
+00:10:54,004 --> 00:10:55,590
+non quella della macchina.
+
+219
+00:10:55,979 --> 00:10:58,357
+Queste tre regole non servono a frenarti.
+
+220
+00:10:58,397 --> 00:11:00,834
+Servono a farti andare veloce senza paura.
+
+221
+00:11:00,874 --> 00:11:04,904
+Chi le conosce usa questi strumenti tutti
+i giorni, con tranquillità.
+
+222
+00:11:04,944 --> 00:11:07,794
+Chi non le conosce, prima o poi, firma un
+errore.
+
+223
+00:11:07,834 --> 00:11:11,274
+Le ripeteremo spesso, finché non
+diventeranno un'abitudine,
+
+224
+00:11:11,314 --> 00:11:13,869
+come allacciare la cintura prima di
+partire.
+
+225
+00:11:14,259 --> 00:11:15,981
+Ed eccoci alla pratica di oggi.
+
+226
+00:11:16,021 --> 00:11:18,597
+Prendi un foglio, oppure le note del
+telefono,
+
+227
+00:11:18,637 --> 00:11:21,553
+e scrivi i tre compiti che oggi ti rubano
+più tempo.
+
+228
+00:11:21,593 --> 00:11:24,851
+Non quelli più importanti: quelli che ti
+rubano più tempo.
+
+229
+00:11:24,891 --> 00:11:28,205
+Poi scegli un giorno e un'ora fissi per
+seguire le lezioni.
+
+230
+00:11:28,245 --> 00:11:30,877
+Nella dispensa di questa lezione trovi la
+mappa
+
+231
+00:11:30,917 --> 00:11:33,948
+del corso e lo spazio per scrivere i tuoi
+tre compiti.
+
+232
+00:11:33,988 --> 00:11:38,155
+Tieni quella lista a portata di mano: alla
+fine del corso la riprenderemo,
+
+233
+00:11:38,195 --> 00:11:41,225
+e vedremo quanti di quei compiti hanno
+cambiato forma.
+
+234
+00:11:41,615 --> 00:11:44,364
+Nella prossima lezione entriamo nel primo
+modulo,
+
+235
+00:11:44,404 --> 00:11:47,495
+e partiamo dalla domanda più semplice e
+più importante:
+
+236
+00:11:47,535 --> 00:11:50,057
+che cos'è davvero l'intelligenza
+artificiale,
+
+237
+00:11:50,097 --> 00:11:53,643
+e come fa a scrivere frasi che sembrano
+pensate da una persona.
+
+238
+00:11:53,683 --> 00:11:54,440
+Ci vediamo lì.

@@ -30,3 +30,12 @@ progetti/*/audio/url-*.txt
 progetti/*/audio/prova.mp3
 progetti/*/slide/provini/controllo.png
 **/audio/scartato-*.mp3
+
+# IA per chi fa sindacato: della build si tengono solo i file leggeri da consegnare
+!ia-sindacalisti/build/
+ia-sindacalisti/build/*/**
+!ia-sindacalisti/build/*/
+!ia-sindacalisti/build/*/registro.json
+!ia-sindacalisti/build/*/*.srt
+!ia-sindacalisti/build/*/*_DISPENSA.pdf
+!ia-sindacalisti/build/*/provini.png

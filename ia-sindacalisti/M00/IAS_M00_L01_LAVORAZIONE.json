@@ -1,0 +1,65 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "B03 contiene l'episodio in prima persona segnato [SEGNAPOSTO]: l'audio è generato, ma il video non è pubblicabile finché Achille non conferma l'episodio o lo sostituisce con uno reale.",
+  "Mancano le registrazioni schermo R01, R02, R03, R04 (registrazioni/IAS_M00_L01_Rnn.mp4): al loro posto ci sono segnaposto grafici «Registrazione Rnn»."
+ ],
+ "segnaposto_aperti": [
+  "B03: episodio in prima persona da confermare",
+  "R01",
+  "R02",
+  "R03",
+  "R04"
+ ],
+ "voce": {
+  "richiesta": "Achille nuovo 1 v4",
+  "usata": "Achille nuovo 1",
+  "voice_id": "KerPEYZvLEWNATg4AARX",
+  "modello": "eleven_v4",
+  "nota": "Nell'account non esiste una voce chiamata «Achille nuovo 1 v4»: c'erano «Achille», «Achille nuovo» e «Achille nuovo 1». Achille ha scelto «Achille nuovo 1»; il modello è eleven_v4, come suggerisce il nome. Il modello configurato sulla voce non è leggibile dagli strumenti disponibili.",
+  "flow_elevenlabs": "VUJb16mfJwV9Wd8pcD6C",
+  "generazioni_per_blocco": 1,
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.12; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.35,
+  "loudnorm": "I=-16:TP=-1.5:LRA=11 (misurato -16,4 LUFS integrati)"
+ },
+ "modifiche_allo_script": {
+  "motivo": "Con lo script originale la lezione veniva 11:44 (pause 0,35 s) e 11:51 (pause 0,6 s), sotto i 12:00. Come chiede CLAUDE.md mi sono fermato; Achille ha approvato quattro frasi in più.",
+  "aggiunte": {
+   "B09": "E se un giorno sbagli una richiesta, non succede niente: la riscrivi, e impari qualcosa.",
+   "B14": "Ogni linea ha le sue fermate, e ogni fermata è un modulo che puoi seguire anche da solo, quando ti serve.",
+   "B23": "Anche dieci minuti bastano, se li usi su un compito vero.",
+   "B26": "Le ripeteremo spesso, finché non diventeranno un'abitudine, come allacciare la cintura prima di partire."
+  },
+  "durata_dopo": "12:04,8 con pause da 0,35 s",
+  "tracce_scartate": "prima versione di B09, B14, B23, B26 (audio/scartati/)"
+ },
+ "montaggio": {
+  "dove": "locale (ffmpeg + Chromium/Playwright), nessun HeyGen",
+  "aggiunte": "Inquadrature aggiunte e riordino in M00/IAS_M00_L01_AGGIUNTE.json; movimenti di camera sugli SVG in M00/IAS_M00_L01_CAMERA.json",
+  "regola_del_ritmo": "Inquadrature oltre 9 s divise: immagini in campo largo + dettaglio (finestra al 60% con più dettagli), clip su più varianti (rallentate al massimo a 0,8x), scene oltre 9 s (12 per tabelle e griglie) con il tempo in eccesso passato ad altre inquadrature del blocco; dove il blocco non aveva immagini o clip ho aggiunto immagini (I14-I18) o varianti di clip.",
+  "svg": "Dopo l'animazione zoom lento 1,0 -> 1,25 sul dettaglio; S029 e S030 partono dall'ultimo fotogramma come da scaletta; in S029 dopo la linea blu la camera passa alla linea ambra, perché il blocco B12 parla di entrambe. In B14 la mappa intera (S032m) apre il blocco prima della tabella.",
+  "logo_sugli_svg": "Logo piccolo in alto a sinistra a 140 px di larghezza: a 190 px copriva l'inizio dei titoli della mappa e della settimana in sede.",
+  "font": "Montserrat, Inter e Barlow Condensed scaricati in kit/font (OFL) e caricati in locale: il browser di render non raggiunge Google Fonts.",
+  "transizioni": "Taglio; dissolvenza di 8 fotogrammi al cambio di tipo di fondo (chiaro/scuro/immagine); tendina del colore del livello su S028, S033, S054.",
+  "fondi_in_fila": "La regola dei tre fondi uguali è applicata ai fondi grafici; le sequenze di immagini e clip non sono contate, perché la correzione prevista (inserire un'immagine o una clip) non ha senso lì.",
+  "testi_a_schermo": "Controllati con strumenti/controlla_testi.py: nessuno oltre 6 parole, nessuno identico al parlato."
+ },
+ "problemi": [
+  "Higgsfield non ha generato nulla: account in «grace period», limite giornaliero di generazioni raggiunto (563 crediti disponibili ma non spendibili). Immagini e clip fatte con ElevenLabs, come scelto da Achille.",
+  "Le immagini hanno una dominante verde molto forte (la ricetta di stile cita i codici dei verdi): coerenti tra loro, ma quasi monocrome. Le immagini aggiunte I14-I18 usano «toni naturali con accenti di verde profondo» e sono meno sature: da valutare se rigenerare le prime con la stessa formula.",
+  "C01a e C01b: la tazza porta un emblema e lettere finte; ritagliate a sinistra (72%) per escluderla.",
+  "C02d (B19, 3,5 s): sullo schermo del portatile c'è testo piccolo, probabilmente non leggibile a velocità normale.",
+  "C04b-e: il relatore in fondo alla sala è rivolto verso la camera, sfocato e lontano; nessun volto riconoscibile ma da controllare.",
+  "Le clip Kling 2.5 Turbo durano 5 s: per coprire alcune inquadrature sono rallentate tra 0,8x e 0,96x.",
+  "I sottotitoli hanno i tempi reali dei blocchi; dentro il blocco le frasi sono distribuite in proporzione ai caratteri, non allineate parola per parola.",
+  "Nessuno ha ancora ascoltato o guardato il video per intero: i controlli sono su durate, provini e fotogrammi."
+ ],
+ "costi": {
+  "voce_elevenlabs_usd": 2.27,
+  "immagini_elevenlabs_usd": 2.29,
+  "clip_elevenlabs_usd": 7.7,
+  "totale_usd": 12.26,
+  "dettaglio": "voce 28 blocchi (12.025 caratteri, $1,98) + 4 blocchi rifatti (1.742 caratteri, $0,29); 17 immagini Seedream 5 Pro a $0,135; 22 clip Kling 2.5 Turbo a $0,35. Higgsfield: nessun addebito."
+ }
+}
