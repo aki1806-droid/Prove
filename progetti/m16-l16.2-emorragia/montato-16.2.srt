@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,330
+Questo caso concentra nello stesso paziente quattro problemi che si alimentano a vicenda: un'emorragia massiva, uno shock, un'encefalopatia epatica e un'astinenza alcolica.
+
+2
+00:00:13,330 --> 00:00:25,700
+E' un caso complesso, ed e' proprio per questo che e' utile: obbliga a stabilire le priorita'. Ci servono le lezioni sei punto sei, otto punto cinque, dieci punto sei, undici punto tre e quattordici punto quattro.
+
+3
+00:00:25,700 --> 00:00:36,300
+Lo scenario. Il signor Giorgio ha sessantatre anni e una cirrosi su base alcolica, ed e' ricoverato da due giorni per un'ascite. L'ultima assunzione di alcol riferita risale a tre giorni fa.
+
+4
+00:00:36,300 --> 00:00:48,980
+Alle sei vomita abbondante sangue rosso vivo, poi emette feci nere. Pressione ottantotto su cinquantaquattro, frequenza centoventotto, cute pallida e sudata. E' sonnolento, ma risvegliabile.
+
+5
+00:00:48,980 --> 00:00:58,230
+L'emoglobina di ieri era dieci virgola due, l'INR due virgola uno. Fermati un momento: qual e' la priorita' assoluta, prima ancora della pressione?
+
+6
+00:00:58,230 --> 00:01:09,840
+Il ragionamento. Ematemesi rosso vivo e melena in un cirrotico indicano un'emorragia digestiva alta: con ogni probabilita' la rottura di varici esofagee, dovute all'ipertensione portale.
+
+7
+00:01:09,840 --> 00:01:20,700
+Pressione ottantotto, frequenza centoventotto, pallore, sudorazione: e' uno shock emorragico. E la coagulopatia, con un INR di due virgola uno, aggrava il sanguinamento.
+
+8
+00:01:20,700 --> 00:01:29,290
+Ma la priorita' assoluta e' un'altra. Un paziente sonnolento che vomita sangue e' a rischio di inalazione: le vie aeree vengono prima di tutto.
+
+9
+00:01:29,290 --> 00:01:40,330
+Le prime azioni, sulle vie aeree e sul respiro. Chiami subito aiuto e il medico. Metti il paziente in posizione laterale, o con la testa sollevata e girata, perche' non inali il sangue.
+
+10
+00:01:40,330 --> 00:01:53,800
+L'aspiratore pronto e funzionante, e si aspira il cavo orale. Valuti la coscienza con la GCS: se peggiora, non protegge piu' le vie aeree, e puo' servire l'intubazione prima dell'endoscopia. Ossigeno secondo protocollo.
+
+11
+00:01:53,800 --> 00:02:03,460
+Poi il circolo. Due accessi venosi di grosso calibro. I prelievi: emocromo, coagulazione, gruppo e prove crociate, funzione renale ed epatica.
+
+12
+00:02:03,460 --> 00:02:10,920
+Liquidi ed emocomponenti secondo prescrizione. Monitoraggio continuo e parametri ravvicinati, diuresi oraria, digiuno.
+
+13
+00:02:10,920 --> 00:02:23,540
+E un dettaglio che il caso vuole intercettare: l'emoglobina di ieri non rassicura. Nell'emorragia acuta si perde sangue intero, e l'emoglobina scende in ritardo. A guidarti sono i parametri, non l'esame di ieri.
+
+14
+00:02:23,540 --> 00:02:33,470
+La terapia specifica, tutta su prescrizione. Farmaci vasoattivi che riducono la pressione nel sistema portale, come la terlipressina, o la somatostatina e i suoi analoghi.
+
+15
+00:02:33,470 --> 00:02:45,510
+Una profilassi antibiotica, che nel cirrotico con emorragia riduce le infezioni e la mortalita'. Gli inibitori di pompa. E l'endoscopia urgente, di norma entro dodici ore, con la legatura delle varici.
+
+16
+00:02:45,510 --> 00:02:53,210
+La correzione della coagulazione, secondo indicazione. E nessuna iniezione intramuscolare, con un INR di due virgola uno.
+
+17
+00:02:53,210 --> 00:03:04,670
+Un punto avanzato, che distingue una risposta eccellente. La trasfusione nel cirrotico segue in genere una strategia restrittiva: secondo prescrizione, l'emoglobina si tiene intorno a sette, otto.
+
+18
+00:03:04,670 --> 00:03:12,500
+Sembra un paradosso. Ma le trasfusioni eccessive aumentano il volume e la pressione portale, e quindi il sanguinamento delle varici.
+
+19
+00:03:12,500 --> 00:03:23,590
+Restano tutte le regole di sicurezza della lezione sei punto sei. E se si trasfondono piu' unita' in poco tempo, attenzione all'ipotermia e all'ipocalcemia, con i riscaldatori secondo procedura.
+
+20
+00:03:23,590 --> 00:03:34,320
+Le ore successive. Dopo l'endoscopia l'emorragia e' controllata: pressione centododici su settanta, frequenza novantotto. Ma alle quattordici il signor Giorgio e' piu' confuso.
+
+21
+00:03:34,320 --> 00:03:46,910
+Ha invertito il ritmo sonno-veglia e presenta l'asterixis. E' un'encefalopatia epatica, e la causa e' l'emorragia: il sangue nell'intestino e' una grande fonte di ammoniaca, come nella lezione otto punto cinque.
+
+22
+00:03:46,910 --> 00:03:58,900
+Gli interventi: segnalare; il lattulosio per bocca, per sondino o per clistere, secondo prescrizione; la sorveglianza della coscienza e delle vie aeree. Niente sedativi. E la prevenzione delle cadute.
+
+23
+00:03:58,900 --> 00:04:06,730
+E c'e' un secondo problema nascosto. L'ultima assunzione di alcol risale a tre giorni fa: siamo nella finestra del delirium tremens.
+
+24
+00:04:06,730 --> 00:04:17,820
+Tremori, sudorazione, tachicardia, agitazione, allucinazioni possono comparire. E distinguere un'astinenza da un'encefalopatia e' difficile, perche' entrambe confondono.
+
+25
+00:04:17,820 --> 00:04:31,900
+Si valuta con una scala come la CIWA-Ar. La tiamina, secondo prescrizione, va prima del glucosio, contro l'encefalopatia di Wernicke. E si segnala tutto: in un cirrotico, la scelta dei sedativi e' delicata.
+
+26
+00:04:31,900 --> 00:04:41,250
+Un approfondimento: le priorita' quando i problemi si sovrappongono. Primo, le vie aeree, perche' il vomito con la coscienza ridotta uccide piu' in fretta di tutto il resto.
+
+27
+00:04:41,250 --> 00:04:54,520
+Secondo, il circolo, cioe' lo shock. Terzo, il controllo della fonte, con la terapia vasoattiva e l'endoscopia. Quarto, le complicanze prevedibili: encefalopatia, infezioni, astinenza, insufficienza renale.
+
+28
+00:04:54,520 --> 00:05:07,450
+Quinto, sicurezza, nutrizione ed educazione. E' l'ABCDE applicato a un paziente complesso. E in una situazione cosi' concitata, documentare chi ha avvisato chi, e quando, e' una tutela per tutti.
+
+29
+00:05:07,450 --> 00:05:20,440
+Verso la dimissione. Il tema centrale e' l'astensione dall'alcol: un colloquio non giudicante, l'invio al SerD o ai servizi di alcologia, i gruppi di auto-aiuto. Poi la terapia per prevenire un nuovo sanguinamento.
+
+30
+00:05:20,440 --> 00:05:32,920
+I segni d'allarme: vomito di sangue, feci nere, confusione, addome che aumenta. Un alvo regolare con il lattulosio, per prevenire l'encefalopatia. Poco sale nella dieta. E i controlli endoscopici programmati.
+
+31
+00:05:32,920 --> 00:05:44,660
+Gli errori. Occuparsi della pressione e trascurare le vie aeree. Rassicurarsi per l'emoglobina di ieri. Trasfondere per alzare l'emoglobina il piu' possibile. Le intramuscolari con l'INR alterato.
+
+32
+00:05:44,660 --> 00:05:54,850
+Sedare un paziente confuso senza chiedersi se e' encefalopatia o astinenza. Dimenticare la tiamina. E giudicare il paziente per l'alcol: il giudizio allontana dalle cure.
+
+33
+00:05:54,850 --> 00:06:05,280
+Il tema piu' delicato del caso: come parlare di alcol senza giudicare. L'alcol e' una malattia da dipendenza, non una colpa morale, e un tono giudicante chiude la conversazione.
+
+34
+00:06:05,280 --> 00:06:16,580
+Si usano domande aperte e un tono neutro: quanto beve in una giornata tipo? Senza minimizzare e senza moralizzare. E si spiega con chiarezza il legame fra alcol, cirrosi e sanguinamento.
+
+35
+00:06:16,580 --> 00:06:28,720
+Molti pazienti non lo hanno davvero compreso. Si valorizza ogni passo verso il cambiamento, con il colloquio motivazionale della lezione undici punto sei. E si coinvolgono i familiari, con il consenso del paziente.
+
+36
+00:06:28,720 --> 00:06:39,940
+Si propongono concretamente il SerD, o i servizi di alcologia, e i gruppi di auto-aiuto. Molti decidono di smettere proprio dopo un episodio come questo, se trovano qualcuno disposto ad ascoltarli.
+
+37
+00:06:39,940 --> 00:06:50,850
+Le domande d'orale. Prima: emorragia alta o bassa? L'alta, a monte del legamento di Treitz, si manifesta con ematemesi e melena; la bassa con sangue rosso dal retto.
+
+38
+00:06:50,850 --> 00:06:59,130
+Ma un'emorragia alta molto abbondante puo' arrivare rossa dal retto. Seconda: perche' nel cirrotico l'emorragia scatena l'encefalopatia?
+
+39
+00:06:59,130 --> 00:07:07,380
+Perche' il sangue nell'intestino viene digerito come una grande quantita' di proteine, e produce ammoniaca, che il fegato malato non riesce a eliminare.
+
+40
+00:07:07,380 --> 00:07:17,230
+Terza: perche' la tiamina prima del glucosio? Perche' nell'alcolista la carenza di tiamina e' frequente, e il glucosio senza tiamina puo' precipitare un'encefalopatia di Wernicke.
+
+41
+00:07:17,230 --> 00:07:30,570
+La risposta modello. Paziente cirrotico con ematemesi abbondante e melena, ipotensione, tachicardia e sonnolenza: emorragia digestiva alta, verosimilmente da varici, con shock emorragico e rischio di inalazione.
+
+42
+00:07:30,570 --> 00:07:43,440
+Chiamo subito aiuto. Proteggo le vie aeree mettendo il paziente su un fianco, aspirando e valutando la coscienza; somministro ossigeno. Posiziono due accessi di grosso calibro, con prelievi, gruppo e prove crociate.
+
+43
+00:07:43,440 --> 00:07:54,760
+Somministro liquidi, emocomponenti, vasoattivi e profilassi antibiotica, secondo prescrizione. Mantengo il digiuno e preparo l'endoscopia. Monitoro parametri, diuresi e coscienza.
+
+44
+00:07:54,760 --> 00:08:08,220
+Poi riconosco l'encefalopatia e do il lattulosio prescritto, senza sedativi; valuto l'astinenza e do la tiamina prima del glucosio. Documento, informo i familiari, imposto un percorso non giudicante verso i servizi.
+
+45
+00:08:08,220 --> 00:08:18,170
+I collegamenti. La trasfusione con la sei punto sei. Emorragia digestiva, cirrosi ed encefalopatia con la otto punto cinque. Lo shock con la dieci punto sei.
+
+46
+00:08:18,170 --> 00:08:27,200
+L'astinenza alcolica e il SerD con la undici punto tre. Le funzioni del fegato con la quattordici punto quattro. E le vie aeree con la dieci punto cinque.
+
+47
+00:08:27,200 --> 00:08:36,670
+La frase del caso: chi vomita sangue e si addormenta rischia prima di soffocare che di dissanguarsi. Le vie aeree vengono sempre prima.
+
+48
+00:08:36,670 --> 00:08:47,120
+Nella prossima lezione: un paziente in emodialisi che salta una seduta e arriva con un potassio pericolosamente alto. ECG, terapia d'urgenza, e la fistola da proteggere. A tra poco.
