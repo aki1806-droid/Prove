@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,850
+Per molte persone con diabete di tipo uno la diagnosi arriva cosi': in pronto soccorso, con una chetoacidosi. Il caso ha due facce. Una e' l'emergenza metabolica: insulina in pompa, liquidi e potassio, ora per ora.
+
+2
+00:00:15,850 --> 00:00:28,180
+L'altra e' una ragazza di diciannove anni che scopre una malattia che l'accompagnera' per tutta la vita. Ci servono le lezioni tre punto cinque, cinque punto cinque, sei punto quattro, otto punto tre e undici punto sei.
+
+3
+00:00:28,180 --> 00:00:36,980
+Lo scenario. Giulia, diciannove anni, studentessa. Da una decina di giorni beve molto, urina spesso, ha perso cinque chili ed e' sempre stanca.
+
+4
+00:00:36,980 --> 00:00:47,750
+Oggi ha vomito, dolore addominale, un respiro profondo e frequente, l'alito fruttato, ed e' sonnolenta. Glicemia quattrocentottantasei, chetoni nel sangue cinque virgola due.
+
+5
+00:00:47,750 --> 00:01:01,790
+Emogas: pH sette virgola dodici, bicarbonato nove, anidride carbonica ventidue. Potassio cinque virgola quattro, sodio centotrentuno. Frequenza centoventiquattro, pressione centodue su sessanta.
+
+6
+00:01:01,790 --> 00:01:06,680
+Fermati un momento: come leggi l'emogas? E perche' quel potassio alto e' una trappola?
+
+7
+00:01:06,680 --> 00:01:18,990
+Il ragionamento. Poliuria, polidipsia e calo di peso in una ragazza sono i segni dell'esordio di un diabete di tipo uno. Glicemia alta, chetoni e acidosi metabolica definiscono la chetoacidosi.
+
+8
+00:01:18,990 --> 00:01:32,010
+L'emogas, con i quattro passi della lezione sei punto quattro. pH sette virgola dodici: acidemia. Bicarbonato nove: origine metabolica. Anidride carbonica ventidue, cioe' bassa: e' il compenso respiratorio.
+
+9
+00:01:32,010 --> 00:01:40,610
+Il respiro profondo di Kussmaul serve proprio a eliminare la CO2. E la tachicardia, con la pressione ai limiti, indica una disidratazione importante.
+
+10
+00:01:40,610 --> 00:01:52,050
+La trappola del potassio. Il valore nel sangue e' cinque virgola quattro, normale o un po' alto. Ma il potassio totale dell'organismo e' ridotto: Giulia ne ha perso molto con le urine e il vomito.
+
+11
+00:01:52,050 --> 00:02:04,550
+Il valore sembra normale solo perche' l'acidosi e la mancanza di insulina spingono il potassio fuori dalle cellule. Appena si da' l'insulina, il potassio rientra, e il valore nel sangue crolla: ipokaliemia e aritmie.
+
+12
+00:02:04,550 --> 00:02:13,890
+Per questo l'insulina si avvia solo con un potassio adeguato, indicativamente da tre virgola cinque in su, e il potassio si reintegra secondo protocollo durante la terapia.
+
+13
+00:02:13,890 --> 00:02:29,620
+Le prime azioni. ABCDE e avviso al medico. Due accessi venosi. Monitoraggio ECG continuo, per il potassio. E i liquidi, con soluzione fisiologica secondo prescrizione: la prima priorita', perche' la disidratazione e' grave.
+
+14
+00:02:29,620 --> 00:02:41,490
+Prelievi seriati ed emogas. Una misurazione accurata della diuresi. Digiuno per bocca finche' vomita, e un antiemetico secondo prescrizione. E la ricerca di un fattore scatenante, come un'infezione.
+
+15
+00:02:41,490 --> 00:02:51,660
+L'insulina si somministra rapida, endovena, in infusione continua con pompa, secondo protocollo. E' un farmaco ad alto livello di attenzione: si prepara con il doppio controllo.
+
+16
+00:02:51,660 --> 00:03:03,250
+Si infonde in una linea dedicata o chiaramente identificata. Si controllano la glicemia ogni ora, la chetonemia e l'emogas secondo protocollo, e il potassio ogni una-due ore all'inizio.
+
+17
+00:03:03,250 --> 00:03:09,440
+E un punto concettuale: l'obiettivo non e' solo abbassare la glicemia, ma risolvere la chetosi e l'acidosi.
+
+18
+00:03:09,440 --> 00:03:20,490
+Quando la glicemia scende. La glicemia si normalizza prima che i chetoni scompaiano. Per questo, quando si avvicina a circa duecentocinquanta, secondo protocollo si aggiunge una soluzione glucosata.
+
+19
+00:03:20,490 --> 00:03:29,720
+Mantenendo l'insulina: l'insulina serve ancora a eliminare i chetoni, e il glucosio evita l'ipoglicemia. Si evitano discese troppo rapide di glicemia e sodio.
+
+20
+00:03:29,720 --> 00:03:41,250
+E si sorveglia la coscienza: cefalea, vomito, bradicardia o un calo della coscienza possono indicare un edema cerebrale, una complicanza rara ma piu' frequente nei giovani. Si segnala subito.
+
+21
+00:03:41,250 --> 00:03:52,410
+Il passaggio all'insulina sottocutanea, un punto tecnico molto chiesto. Quando la chetoacidosi e' risolta e la paziente riesce a mangiare, si da' la basale sottocutanea prima di sospendere l'infusione.
+
+22
+00:03:52,410 --> 00:04:06,040
+Con una sovrapposizione di una-due ore, indicativamente, secondo protocollo. L'endovena ha un'azione brevissima: sospenderla senza basale fa tornare la chetosi in poche ore. Poi il basal-bolus, con il team diabetologico.
+
+23
+00:04:06,040 --> 00:04:16,810
+E ora l'altra faccia del caso. Giulia ti chiede: quindi dovro' farmi le punture per sempre? E' un momento delicato. Prima l'ascolto: accogliere le emozioni, paura, rabbia, negazione.
+
+24
+00:04:16,810 --> 00:04:28,640
+Poi un'informazione graduale: non si spiega tutto il primo giorno. Il messaggio di fondo e' realistico e incoraggiante: con le competenze giuste si vive una vita piena, con lo studio, lo sport, i viaggi.
+
+25
+00:04:28,640 --> 00:04:36,320
+Si coinvolgono i familiari secondo i suoi desideri, perche' e' maggiorenne. Si offre un supporto psicologico, e la si affida al team diabetologico.
+
+26
+00:04:36,320 --> 00:04:48,400
+L'educazione, che e' un percorso e non una lezione. La tecnica di iniezione e la rotazione delle sedi, o il microinfusore. L'autocontrollo con il glucometro o il sensore. I carboidrati e le dosi ai pasti.
+
+27
+00:04:48,400 --> 00:04:59,370
+L'ipoglicemia: riconoscerla e trattarla, e il glucagone, che anche familiari e amici devono saper usare. E le regole dei giorni di malattia, che per una persona con diabete di tipo uno sono vitali.
+
+28
+00:04:59,370 --> 00:05:11,110
+Non sospendere mai l'insulina basale, misurare glicemia e chetoni, bere, chiamare. Poi alcol, sport, guida. E le associazioni di pazienti, che per una giovane possono fare la differenza.
+
+29
+00:05:11,110 --> 00:05:23,600
+Un approfondimento: chetoacidosi e stato iperosmolare a confronto, come nella lezione otto punto tre. La chetoacidosi riguarda soprattutto il tipo uno e i giovani, ed esordisce in ore o giorni.
+
+30
+00:05:23,600 --> 00:05:35,940
+Glicemia sopra duecentocinquanta, chetoni abbondanti, acidosi, Kussmaul e alito fruttato. Lo stato iperosmolare riguarda soprattutto il tipo due e gli anziani, ed esordisce in giorni.
+
+31
+00:05:35,940 --> 00:05:49,360
+Glicemie molto alte, spesso oltre seicento, chetoni assenti o lievi, una disidratazione molto grave e un'alterazione della coscienza. In entrambi: liquidi, insulina, potassio e sorveglianza della coscienza.
+
+32
+00:05:49,360 --> 00:05:59,800
+Gli errori. Rassicurarsi per il potassio normale. Avviare l'insulina prima dei liquidi, e senza conoscere il potassio. L'insulina endovena senza pompa e senza doppio controllo.
+
+33
+00:05:59,800 --> 00:06:10,310
+Sospendere l'insulina appena la glicemia si normalizza. Non aggiungere il glucosio. Sospendere l'infusione senza la basale. Sommergere la paziente di informazioni il primo giorno.
+
+34
+00:06:10,310 --> 00:06:19,000
+Le domande d'orale. Prima: che cos'e' la chetoacidosi? Un'emergenza da carenza di insulina, con iperglicemia, chetoni e acidosi metabolica.
+
+35
+00:06:19,000 --> 00:06:31,550
+Si riconosce da poliuria, sete, disidratazione, vomito, dolore addominale, respiro di Kussmaul, alito fruttato e alterazione della coscienza. Seconda: perche' sorvegliare tanto il potassio?
+
+36
+00:06:31,550 --> 00:06:43,280
+Perche' il potassio totale e' ridotto anche se il valore nel sangue sembra normale, e con l'insulina rientra nelle cellule e crolla, con rischio di aritmie. Terza: perche' glucosio e insulina insieme?
+
+37
+00:06:43,280 --> 00:06:50,620
+Perche' la glicemia si normalizza prima della chetosi: l'insulina serve a eliminare i chetoni, il glucosio a evitare l'ipoglicemia.
+
+38
+00:06:50,620 --> 00:07:04,620
+La risposta modello. Giovane con poliuria, polidipsia e calo di peso, ora con vomito, dolore addominale, Kussmaul, alito fruttato e sonnolenza; glicemia quattrocentottantasei, chetoni e acidosi metabolica.
+
+39
+00:07:04,620 --> 00:07:20,080
+Chetoacidosi all'esordio di un diabete di tipo uno. Priorita': correggere disidratazione, carenza di insulina e acidosi, prevenendo le alterazioni del potassio. Valuto ABCDE, avviso il medico, due accessi, ECG.
+
+40
+00:07:20,080 --> 00:07:34,050
+Infondo fisiologica secondo prescrizione e misuro la diuresi. Avvio l'insulina endovena in pompa, con doppio controllo e potassio adeguato, reintegrandolo; glicemia ogni ora, chetoni, emogas e potassio.
+
+41
+00:07:34,050 --> 00:07:46,790
+Vicino a duecentocinquanta aggiungo glucosata, mantenendo l'insulina; sorveglio la coscienza. Al passaggio sottocutaneo, la basale prima di sospendere l'infusione. Accolgo le emozioni e avvio un'educazione graduale.
+
+42
+00:07:46,790 --> 00:07:57,640
+I collegamenti. Gli elettroliti con la tre punto cinque. Le insuline e i farmaci ad alto livello di attenzione con la cinque punto cinque e la cinque punto quattro. L'emogas con la sei punto quattro.
+
+43
+00:07:57,640 --> 00:08:06,480
+Il diabete e le sue emergenze con la otto punto tre. L'educazione terapeutica con la undici punto sei. Il pancreas endocrino con la quattordici punto cinque.
+
+44
+00:08:06,480 --> 00:08:18,910
+Il punto di vista della paziente. Una malattia cronica a diciannove anni tocca l'identita', l'autonomia, le relazioni, lo studio, il futuro. E in questa fase della vita il rischio di scarsa aderenza e' alto.
+
+45
+00:08:18,910 --> 00:08:31,490
+La risposta non e' il controllo, ma l'alleanza: obiettivi condivisi, tecnologie che semplificano la vita, come i sensori, e un linguaggio non colpevolizzante. Si dice glicemia alta, non glicemia cattiva.
+
+46
+00:08:31,490 --> 00:08:38,690
+Sono gli strumenti della lezione undici punto sei, applicati a una persona giovane, che sta imparando a convivere con la sua malattia.
+
+47
+00:08:38,690 --> 00:08:48,440
+La frase del caso: nella chetoacidosi la glicemia si corregge in fretta, i chetoni no. L'insulina si sospende per ultima, e mai senza la basale.
+
+48
+00:08:48,440 --> 00:08:57,750
+Nella prossima lezione: un paziente in nutrizione enterale che sviluppa una polmonite da inalazione, e una complicanza della rialimentazione che pochi conoscono. A tra poco.
