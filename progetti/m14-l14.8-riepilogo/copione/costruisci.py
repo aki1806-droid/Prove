@@ -63,8 +63,8 @@ BLOCCHI = [
 
  (13,"profondo",1.2,"[serious] La frase del modulo: dal meccanismo all'azione. La fisiologia e' il motivo, l'assistenza e' la risposta."),
 
- (14,"chiaro",0,"[warm] Siamo all'ultimo modulo: il percorso trasversale, dedicato alle prove del concorso. Il metodo per i quiz, la prova scritta e pratica, l'orale."),
- (14,"chiaro",0,"E poi l'inglese e l'informatica, con le simulazioni finali. Ci vediamo li'."),
+ (14,"chiaro",0,"[warm] Nel prossimo modulo mettiamo insieme tutto il corso, con i casi clinici integrati. In reparto e all'esame i problemi non arrivano divisi per capitoli: arrivano in un paziente solo."),
+ (14,"chiaro",0,"Dodici casi, dal piu' semplice al piu' complesso, con un metodo in cinque passi per ragionare e per scrivere la risposta d'esame. Ci vediamo li'."),
 ]
 CAPITOLI = {1:"Apertura",2:"Liquidi e acido-base",3:"Cuore e circolo",4:"Respiro",5:"Digerente, fegato, rene",
  6:"Nervoso ed endocrino",7:"Sangue e difese",8:"La tabella dei valori",9:"I collegamenti piu' utili",

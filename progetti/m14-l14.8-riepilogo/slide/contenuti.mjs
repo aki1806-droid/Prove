@@ -186,14 +186,15 @@ export const SCENE = [
   titolo:"Dal meccanismo all'azione:<br>la fisiologia è **il motivo**,<br>l'assistenza è **la risposta**.",
   sotto:""},
 
-{id:"s48", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, sopratitolo:"L'ultimo modulo · il percorso trasversale: le prove del concorso", celle:[
-  {n:"1", t:"Il metodo per i **quiz**"}, {n:"2", t:"La prova **scritta** e **pratica**"}, {n:"3", t:"L'**orale**"}]},
+{id:"s48", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, sopratitolo:"Il prossimo modulo · i casi clinici integrati", celle:[
+  {n:"1", t:"Tutto il corso **insieme**"}, {n:"2", t:"I problemi non arrivano **per capitoli**"},
+  {n:"3", t:"Arrivano **in un paziente solo**", key:true}]},
 {id:"s49", tipo:"icone", tema:"chiaro", sopratitolo:"Il Modulo 15", voci:[
-  {icona:"chat", t:"Inglese"}, {icona:"ingranaggio", t:"Informatica"},
-  {icona:"orologio", t:"Simulazioni", d:"finali", key:true}]},
+  {icona:"orologio", t:"Dodici casi", d:"dal più semplice al più complesso"}, {icona:"ingranaggio", t:"Il metodo", d:"in cinque passi"},
+  {icona:"chat", t:"La risposta d'esame", key:true}]},
 
 {id:"s50", tipo:"copertina", tema:"profondo",
   modulo:"Prossimo modulo · Modulo 15",
-  titolo:"Percorso trasversale", sottotitolo:"Prove, inglese, informatica, simulazioni",
+  titolo:"Casi clinici<br>integrati", sottotitolo:"Dal ragionamento alla risposta d'esame",
   ente:"CISL FP Padova Rovigo · Concorso Azienda Zero"},
 ];
