@@ -62,4 +62,4 @@ stacco tracce             dopo s25   (chunk A 4.390 car · chunk B 4.187 car)
 
 ### Correzioni dopo la revisione (12 ottobre 2026)
 
-- Rimando corretto prima della voce, secondo il dubbio segnalato qui sopra (l'argomento sta in un'altra lezione del corso).
+- Collegamenti (s47): «L'ECG con la otto punto uno» diventa «Le alterazioni dell'ECG con la tre punto cinque» (T appuntite e aritmie da potassio sono nella 3.5); slide «3.5 · ECG del potassio».

@@ -68,4 +68,4 @@ stacco tracce             dopo s24   (chunk A 4.232 car · chunk B 4.291 car)
 
 ### Correzioni dopo la revisione (12 ottobre 2026)
 
-- Rimando corretto prima della voce, secondo il dubbio segnalato qui sopra (l'argomento sta in un'altra lezione del corso).
+- Caso lampo PICC: tolto «della lezione 6.2» dalla misurazione della circonferenza del braccio, che non compare in nessuna lezione del corso (voce e slide).

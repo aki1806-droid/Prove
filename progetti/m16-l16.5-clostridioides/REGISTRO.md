@@ -71,4 +71,4 @@ stacco tracce             dopo s24   (chunk A 4.171 car · chunk B 4.460 car)
 
 ### Correzioni dopo la revisione (12 ottobre 2026)
 
-- Rimando corretto prima della voce, secondo il dubbio segnalato qui sopra (l'argomento sta in un'altra lezione del corso).
+- Collegamenti: «l'alvo con la 3.6» diventa «con la 3.7» (alvo, Bristol e Clostridioides sono nella 3.7).

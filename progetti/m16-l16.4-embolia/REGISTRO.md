@@ -69,4 +69,4 @@ stacco tracce             dopo s24   (chunk A 4.440 car · chunk B 4.365 car)
 
 ### Correzioni dopo la revisione (12 ottobre 2026)
 
-- Rimando corretto prima della voce, secondo il dubbio segnalato qui sopra (l'argomento sta in un'altra lezione del corso).
+- Collegamenti: «D-dimero e mezzo di contrasto con la 14.7» diventa «il D-dimero con la 14.6, il contrasto con la 14.7»; slide «D-dimero (14.6) e contrasto».
