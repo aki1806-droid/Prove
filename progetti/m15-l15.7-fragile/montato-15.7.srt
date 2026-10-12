@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,180
+Questo e' forse il caso piu' veneto del modulo, perche' attraversa tutta la rete della non autosufficienza. Comincia con una notte difficile: un delirium e una caduta.
+
+2
+00:00:12,180 --> 00:00:24,920
+E finisce con una domanda che ogni infermiere di reparto si sente fare: e adesso, dove va la mamma? Ci servono le lezioni tre punto uno, nove punto sei, undici punto uno, undici punto due e tredici punto cinque.
+
+3
+00:00:24,920 --> 00:00:35,670
+Lo scenario. La signora Elena ha ottantasei anni e una demenza lieve, e vive sola; la figlia abita vicino e lavora. E' ricoverata da due giorni in medicina per una pielonefrite.
+
+4
+00:00:35,670 --> 00:00:46,250
+In terapia ha un antibiotico endovena, un anticoagulante orale diretto per una fibrillazione atriale, e il lorazepam al bisogno per l'insonnia, che le viene dato alle ventidue.
+
+5
+00:00:46,250 --> 00:00:57,920
+Alle ventitre' e' agitata, vuole tornare a casa, si strappa la cannula. Alle tre viene trovata a terra accanto al letto, e le sponde erano alzate. Fermati un momento: che cosa fai, prima di tutto?
+
+6
+00:00:57,920 --> 00:01:12,000
+Dopo una caduta la prima regola e' non sollevare subito la persona. Chiami aiuto e non la lasci sola. Valuti l'ABC, la coscienza con la GCS e le pupille, e cerchi i segni di un trauma cranico: ferite, ematomi.
+
+7
+00:01:12,000 --> 00:01:23,990
+Poi il dolore e le deformita'. L'arto inferiore destro e' accorciato ed extraruotato, con dolore all'inguine: e' il quadro tipico di una frattura del femore. Parametri, glicemia, e avvisi il medico.
+
+8
+00:01:23,990 --> 00:01:30,840
+E ora il dettaglio che cambia la priorita': la signora assume un anticoagulante. E non ricorda se ha battuto la testa.
+
+9
+00:01:30,840 --> 00:01:39,470
+Dopo una caduta, anche con un trauma cranico lieve o non riferito, c'e' il rischio di un'emorragia intracranica, che puo' manifestarsi anche ore dopo.
+
+10
+00:01:39,470 --> 00:01:53,020
+Si segue il protocollo, che di solito prevede la valutazione medica e una TC, e una sorveglianza neurologica ravvicinata: GCS, pupille, segni di lato, cefalea, vomito. E' cio' che il commissario vuole vedere scritto.
+
+11
+00:01:53,020 --> 00:02:04,310
+Poi si immobilizza l'arto, e la si solleva con piu' operatori e con gli ausili, come un telo ad alto scorrimento o un sollevatore. Analgesia secondo prescrizione, e un nuovo accesso venoso.
+
+12
+00:02:04,310 --> 00:02:14,010
+Si segnala l'evento con l'incident reporting, perche' e' una caduta con danno. Si documentano ora, circostanze, valutazione e interventi, e si informa la figlia.
+
+13
+00:02:14,010 --> 00:02:20,020
+Il riferimento e' la Raccomandazione numero tredici, sulla prevenzione e la gestione della caduta in ospedale.
+
+14
+00:02:20,020 --> 00:02:30,080
+Perche' e' caduta? Il quadro della sera era un delirium iperattivo su una demenza, verificabile con la CAM: esordio acuto, andamento fluttuante, disattenzione.
+
+15
+00:02:30,080 --> 00:02:44,470
+I fattori: infezione, ambiente nuovo, notte, forse dolore o urgenza di urinare. E la benzodiazepina, che nell'anziano aumenta delirium e cadute: e' fra i farmaci potenzialmente inappropriati della lezione undici punto uno.
+
+16
+00:02:44,470 --> 00:02:53,700
+E le sponde alzate. In una persona agitata che vuole alzarsi non impediscono la caduta: la fanno avvenire scavalcandole, cioe' da piu' in alto e con piu' danno.
+
+17
+00:02:53,700 --> 00:03:06,270
+Al mattino la figlia, spaventata, chiede di legarla di notte. E' una richiesta comprensibile, ma la contenzione non previene le cadute: aumenta agitazione, lesioni e delirium, come nella lezione tre punto uno.
+
+18
+00:03:06,270 --> 00:03:17,480
+Lo spieghi con empatia, e proponi le alternative: letto basso, materassino a terra, sensori, sorveglianza, accompagnamento al bagno programmato, luce notturna, oggetti personali.
+
+19
+00:03:17,480 --> 00:03:26,090
+E la presenza di un familiare, quando e' possibile. Poi la revisione della terapia sedativa con il medico. Cosi' la figlia diventa un'alleata, non una spettatrice.
+
+20
+00:03:26,090 --> 00:03:37,340
+La radiografia conferma una frattura del collo del femore. Si attiva il percorso ortopedico, con l'obiettivo dell'intervento entro quarantotto ore, l'indicatore di qualita' della lezione nove punto sei.
+
+21
+00:03:37,340 --> 00:03:52,090
+L'anticoagulante si gestisce secondo indicazione. E intanto si previene il delirium: occhiali e apparecchi acustici, orientamento, dolore, idratazione, alvo, sonno. Talloni protetti, nutrizione: l'approccio ortogeriatrico.
+
+22
+00:03:52,090 --> 00:04:02,100
+Quinta giornata dopo l'intervento di protesi parziale d'anca. La signora cammina con il deambulatore, ma solo con assistenza. E' orientata di giorno, a tratti confusa la sera.
+
+23
+00:04:02,100 --> 00:04:11,910
+Vive sola, e la figlia lavora: oggi non puo' rientrare a casa in sicurezza. Serve una dimissione protetta, che andava pensata, e segnalata, fin dai primi giorni.
+
+24
+00:04:11,910 --> 00:04:23,950
+Il percorso e' quello della rete veneta, della lezione tredici punto cinque. Una segnalazione precoce alla COT, secondo procedura. Poi la valutazione multidimensionale dell'UVMD, con la SVaMA.
+
+25
+00:04:23,950 --> 00:04:36,770
+Alla valutazione partecipano la figlia, il medico di famiglia e l'assistente sociale. Il setting: prima la riabilitazione, in un'Unita' Riabilitativa Territoriale o in un Ospedale di Comunita', per recuperare autonomia.
+
+26
+00:04:36,770 --> 00:04:47,250
+Poi il rientro a casa, con l'ADI, il SAD, l'impegnativa di cura domiciliare, magari un centro diurno. Oppure, se il bisogno non sara' gestibile a casa, un Centro di Servizi.
+
+27
+00:04:47,250 --> 00:04:56,130
+E una lettera infermieristica che racconti la persona, non solo la frattura. L'autonomia attuale con la Barthel, la mobilita', gli ausili, le precauzioni per la protesi.
+
+28
+00:04:56,130 --> 00:05:06,440
+Lo stato cognitivo e il delirium serale, con cio' che la calma: un'informazione preziosa per chi la accoglie. Il rischio di caduta e le misure adottate. La cute e i talloni.
+
+29
+00:05:06,440 --> 00:05:16,920
+Alimentazione, idratazione, continenza. La terapia, con la riconciliazione: la benzodiazepina e' stata sospesa? La rete familiare, e l'educazione gia' fatta alla figlia.
+
+30
+00:05:16,920 --> 00:05:29,530
+La prevenzione: che cosa si poteva fare. All'ingresso, la valutazione del rischio di caduta e del delirium. Le misure non farmacologiche dal primo giorno. Niente benzodiazepine al bisogno in un'anziana con demenza.
+
+31
+00:05:29,530 --> 00:05:42,350
+Il letto basso invece delle sponde. L'accompagnamento programmato al bagno. Il coinvolgimento dei familiari. La segnalazione precoce dei bisogni di dimissione. Nessuna e' costosa, e tutte sono infermieristiche.
+
+32
+00:05:42,350 --> 00:05:50,870
+Gli errori da evitare. Sollevare subito la persona caduta. Dimenticare l'anticoagulante e la sorveglianza neurologica. Non segnalare l'evento.
+
+33
+00:05:50,870 --> 00:06:02,650
+Attribuire la confusione alla demenza, invece di riconoscere un delirium. Rispondere alla richiesta di contenzione con un si', o con un no secco senza alternative. E pensare alla dimissione il giorno prima.
+
+34
+00:06:02,650 --> 00:06:14,440
+Un approfondimento: parlare con una persona in delirium, che e' anche una forma di cura. Ci si avvicina di fronte, ci si presenta ogni volta, la si chiama per nome. Frasi brevi, una richiesta alla volta, tono calmo.
+
+35
+00:06:14,440 --> 00:06:24,350
+Non si contraddicono i contenuti e non si discute: si riconosce l'emozione. Capisco che vuole tornare a casa. Poi si riorienta con delicatezza, dicendo dove siamo e che ora e'.
+
+36
+00:06:24,350 --> 00:06:37,050
+Di notte si riducono rumori e luci forti. Aiutano gli oggetti familiari e le fotografie. E spesso l'intervento piu' efficace e' la presenza di un familiare: una voce conosciuta calma piu' di qualsiasi farmaco.
+
+37
+00:06:37,050 --> 00:06:48,120
+Le domande d'orale. Prima: delirium o demenza? Il delirium ha esordio acuto, decorso fluttuante, attenzione compromessa, ed e' spesso reversibile se si tratta la causa.
+
+38
+00:06:48,120 --> 00:06:59,370
+La demenza ha esordio insidioso e decorso progressivo, con l'attenzione conservata nelle fasi iniziali; e le due possono coesistere. Seconda: che cosa fa davanti a un paziente caduto?
+
+39
+00:06:59,370 --> 00:07:12,500
+Non lo sollevo subito. Valuto coscienza, parametri, glicemia, segni di trauma cranico e di frattura. Chiamo aiuto e il medico, considero l'anticoagulante, lo mobilizzo con ausili, documento e segnalo.
+
+40
+00:07:12,500 --> 00:07:25,900
+Terza: che cos'e' l'UVMD? L'Unita' di Valutazione Multidimensionale Distrettuale: valuta la persona con bisogni complessi, con strumenti come la SVaMA, e definisce progetto individuale e accesso ai servizi.
+
+41
+00:07:25,900 --> 00:07:37,730
+La risposta modello. Anziana con demenza lieve, in terapia anticoagulante e con benzodiazepina serale, che in corso di infezione presenta delirium iperattivo e cade dal letto scavalcando le sponde.
+
+42
+00:07:37,730 --> 00:07:51,450
+Arto accorciato ed extraruotato: sospetta frattura di femore e rischio di emorragia intracranica. Non la sollevo subito: valuto ABC, coscienza, pupille, trauma cranico, dolore, parametri e glicemia.
+
+43
+00:07:51,450 --> 00:08:02,380
+Chiamo aiuto e avviso il medico. Immobilizzo l'arto e la sollevo con piu' operatori e ausili. Analgesia secondo prescrizione; avvio la sorveglianza neurologica e collaboro alla TC.
+
+44
+00:08:02,380 --> 00:08:16,190
+Segnalo l'evento, documento e informo la figlia, proponendo alternative alla contenzione. Segnalo la benzodiazepina. Prevengo delirium e lesioni dei talloni. Avvio presto la dimissione protetta, con COT e UVMD.
+
+45
+00:08:16,190 --> 00:08:26,850
+I collegamenti. Cadute e contenzione con la tre punto uno. Raccomandazione tredici e incident reporting con la due punto sei. La frattura di femore con la nove punto sei.
+
+46
+00:08:26,850 --> 00:08:39,780
+Il delirium e i farmaci inappropriati con la undici punto uno, la demenza con la undici punto due, la rete con la tredici punto cinque, la dimissione protetta con la nove punto sette e la undici punto sette.
+
+47
+00:08:39,780 --> 00:08:53,260
+La frase del caso: le sponde non fermano chi vuole alzarsi, lo fanno cadere da piu' in alto. La sicurezza di un'anziana confusa si costruisce con la presenza e l'organizzazione, non con le barriere.
+
+48
+00:08:53,260 --> 00:09:05,210
+Nella prossima lezione: un paziente diabetico ricoverato per un'ulcera del piede, che alle sei del mattino e' sudato e tremante. Insulina, ipoglicemia, piede diabetico ed educazione. A tra poco.
