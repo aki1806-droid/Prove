@@ -1,0 +1,1561 @@
+{
+ "lezione": "IAS_M00_L01",
+ "titolo": "Benvenuto: il tuo nuovo collaboratore",
+ "data": "2026-10-12",
+ "blocchi": {
+  "B01": {
+   "generazione": "VnocG3yo2cPl1m1Ta8Ip",
+   "grezzo_s": 22.99,
+   "lavorato_s": 20.505,
+   "inizio_s": 3.0
+  },
+  "B02": {
+   "generazione": "8MV179DdKG7GurjUpMI3",
+   "grezzo_s": 34.77,
+   "lavorato_s": 31.02,
+   "inizio_s": 23.855
+  },
+  "B03": {
+   "generazione": "33M0Fm4dbnEZyGJc5L0K",
+   "grezzo_s": 35.32,
+   "lavorato_s": 31.513,
+   "inizio_s": 55.226
+  },
+  "B04": {
+   "generazione": "FQ8YrX1STfsRgYnVtjgE",
+   "grezzo_s": 38.35,
+   "lavorato_s": 34.211,
+   "inizio_s": 87.088
+  },
+  "B05": {
+   "generazione": "4DY3I1e6okLMzCo4mwwI",
+   "grezzo_s": 39.63,
+   "lavorato_s": 35.358,
+   "inizio_s": 121.649
+  },
+  "B06": {
+   "generazione": "mMiqcoRyMXPPWxi9SBHS",
+   "grezzo_s": 18.52,
+   "lavorato_s": 16.511,
+   "inizio_s": 157.357
+  },
+  "B07": {
+   "generazione": "8MTRZaBllKKYkXYKnCDh",
+   "grezzo_s": 36.21,
+   "lavorato_s": 32.299,
+   "inizio_s": 174.218
+  },
+  "B08": {
+   "generazione": "mdOsFUk0NiyQqKTui3vk",
+   "grezzo_s": 30.85,
+   "lavorato_s": 27.506,
+   "inizio_s": 206.867
+  },
+  "B09": {
+   "generazione": "BdfBjZ7F516niOWKgj1t",
+   "grezzo_s": 28.92,
+   "lavorato_s": 25.795,
+   "inizio_s": 234.723
+  },
+  "B10": {
+   "generazione": "QgS6PLfVLp5hcXCW3Moe",
+   "grezzo_s": 28.45,
+   "lavorato_s": 25.363,
+   "inizio_s": 260.867
+  },
+  "B11": {
+   "generazione": "umJSy84pYBx5pkNZa3j9",
+   "grezzo_s": 26.91,
+   "lavorato_s": 24.013,
+   "inizio_s": 286.58
+  },
+  "B12": {
+   "generazione": "rSpBI6c7167dGq9m3NrS",
+   "grezzo_s": 27.79,
+   "lavorato_s": 24.79,
+   "inizio_s": 310.943
+  },
+  "B13": {
+   "generazione": "0CDwmnuGl4CHaLbVyauJ",
+   "grezzo_s": 29.0,
+   "lavorato_s": 25.864,
+   "inizio_s": 336.084
+  },
+  "B14": {
+   "generazione": "Imip4K9fQAM4ZNuxqp9N",
+   "grezzo_s": 27.09,
+   "lavorato_s": 24.15,
+   "inizio_s": 362.297
+  },
+  "B15": {
+   "generazione": "bHHHITzgOzmMmUyuV9bU",
+   "grezzo_s": 30.2,
+   "lavorato_s": 26.934,
+   "inizio_s": 386.797
+  },
+  "B16": {
+   "generazione": "K0ybl5zcl3e1DSutOwQi",
+   "grezzo_s": 24.61,
+   "lavorato_s": 21.918,
+   "inizio_s": 414.081
+  },
+  "B17": {
+   "generazione": "TD5kkyXaliXQOUaZE6lr",
+   "grezzo_s": 28.29,
+   "lavorato_s": 25.225,
+   "inizio_s": 436.349
+  },
+  "B18": {
+   "generazione": "iB5Zo7MEObOznsNZYGre",
+   "grezzo_s": 18.91,
+   "lavorato_s": 16.86,
+   "inizio_s": 461.924
+  },
+  "B19": {
+   "generazione": "zuAeZKOhHN7oTuz98VrX",
+   "grezzo_s": 30.93,
+   "lavorato_s": 27.581,
+   "inizio_s": 479.134
+  },
+  "B20": {
+   "generazione": "8SV7e6895ArB4OxrLE5I",
+   "grezzo_s": 26.59,
+   "lavorato_s": 23.705,
+   "inizio_s": 507.065
+  },
+  "B21": {
+   "generazione": "gGEcAxjRoKzsvQOZAnqp",
+   "grezzo_s": 27.17,
+   "lavorato_s": 24.219,
+   "inizio_s": 531.12
+  },
+  "B22": {
+   "generazione": "gwLt7na44s0GTJuGKH2g",
+   "grezzo_s": 26.12,
+   "lavorato_s": 23.291,
+   "inizio_s": 555.69
+  },
+  "B23": {
+   "generazione": "PrzTQ2AmBtcaZzBrcfpe",
+   "grezzo_s": 35.79,
+   "lavorato_s": 31.935,
+   "inizio_s": 579.331
+  },
+  "B24": {
+   "generazione": "LhgiHQU7HbRhv68na3jt",
+   "grezzo_s": 22.13,
+   "lavorato_s": 19.717,
+   "inizio_s": 611.617
+  },
+  "B25": {
+   "generazione": "6HvdOX0MSntcBaNDXSpC",
+   "grezzo_s": 26.83,
+   "lavorato_s": 23.946,
+   "inizio_s": 631.684
+  },
+  "B26": {
+   "generazione": "I5kutDWvNZN4Kn3RbAJX",
+   "grezzo_s": 20.11,
+   "lavorato_s": 17.93,
+   "inizio_s": 655.979
+  },
+  "B27": {
+   "generazione": "PXHCpAXprV3KtlMmGIgZ",
+   "grezzo_s": 30.28,
+   "lavorato_s": 27.006,
+   "inizio_s": 674.259
+  },
+  "B28": {
+   "generazione": "iiBTFoLSA6eFXVmKOWFd",
+   "grezzo_s": 14.45,
+   "lavorato_s": 12.865,
+   "inizio_s": 701.615
+  }
+ },
+ "durata_voce_s": 702.03,
+ "inquadrature": [
+  {
+   "n": 0,
+   "scaletta": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "da_s": 0.0,
+   "durata_s": 3.0,
+   "fondo": "scuro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"copertina\", \"livello\": 1, \"numero\": \"0\", \"etichetta\": \"Modulo 0 · Lezione 1\", \"testo\": \"Benvenuto: il tuo nuovo collaboratore\"}"
+  },
+  {
+   "n": 1,
+   "scaletta": "S002",
+   "blocco": "B01",
+   "tipo": "clip",
+   "da_s": 3.0,
+   "durata_s": 4.167,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C01a.mp4",
+   "ritaglio": [
+    0.0,
+    0.12,
+    0.72
+   ],
+   "generazione": "XFZonGy4MTrvUlMxK3P9",
+   "prompt": "Slow dolly forward across a desk in an Italian trade union office at night: a thick stack of printed council documents, a lit desk lamp, a mug, binders softly out of focus in the background. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 2,
+   "scaletta": "S002",
+   "blocco": "B01",
+   "tipo": "clip",
+   "da_s": 7.167,
+   "durata_s": 4.167,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C01b.mp4",
+   "ritaglio": [
+    0.0,
+    0.12,
+    0.72
+   ],
+   "generazione": "ERW3wvD4vZKxKz2WWkJZ",
+   "prompt": "Slow dolly forward across a desk in an Italian trade union office at night: a thick stack of printed council documents, a lit desk lamp, a mug, binders softly out of focus in the background. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 3,
+   "scaletta": "S003",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "da_s": 11.333,
+   "durata_s": 5.233,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I01.png",
+   "inquadratura": "largo",
+   "direzione": "destra",
+   "generazione": "PitT8sV5rOiHWw59DiS3",
+   "prompt": "Orologio da parete analogico che segna le dieci di sera, in un ufficio sindacale semplice con bacheca e faldoni sfocati sullo sfondo, unica luce da una lampada da scrivania. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 4,
+   "scaletta": "S004",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "da_s": 16.567,
+   "durata_s": 7.3,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I02.png",
+   "inquadratura": "largo",
+   "direzione": "sinistra",
+   "generazione": "eW6GrVFQIlVFQUh5iX3G",
+   "prompt": "Pila di fogli stampati spessa quaranta pagine con post-it colorati, accanto uno smartphone a faccia in su con lo schermo acceso sfocato, tavolo di legno, luce di lampada. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 5,
+   "scaletta": "S006",
+   "blocco": "B02",
+   "tipo": "scena",
+   "da_s": 23.867,
+   "durata_s": 9.0,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"chiaro\", \"livello\": 1, \"etichetta\": \"Achille Pagliaro\", \"testo\": \"Prepara tu. Decidi tu.\", \"sotto\": \"CISL FP Padova Rovigo\"}"
+  },
+  {
+   "n": 6,
+   "scaletta": "S005",
+   "blocco": "B02",
+   "tipo": "clip",
+   "da_s": 32.867,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C02a.mp4",
+   "velocita": 0.8,
+   "generazione": "YvHI1LPBlVrKOJjUpicJ",
+   "prompt": "Hands typing on a laptop next to an open printed labour contract, side view, gentle slow orbital camera movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screen or paper, no logos."
+  },
+  {
+   "n": 7,
+   "scaletta": "S005",
+   "blocco": "B02",
+   "tipo": "clip",
+   "da_s": 39.167,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C02b.mp4",
+   "velocita": 0.8,
+   "generazione": "kHuWTe5GzCDx2Y2BAIwL",
+   "prompt": "Hands typing on a laptop next to an open printed labour contract, side view, gentle slow orbital camera movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screen or paper, no logos."
+  },
+  {
+   "n": 8,
+   "scaletta": "S005x",
+   "blocco": "B02",
+   "tipo": "immagine",
+   "da_s": 45.467,
+   "durata_s": 4.867,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I14.png",
+   "inquadratura": "largo",
+   "direzione": "alto",
+   "generazione": "aUluX0yDFWbJ68VP6Fpt",
+   "prompt": "Portatile aperto su una scrivania di una sede sindacale, sullo schermo tre finestre affiancate con contenuti sfocati e interfacce non riconoscibili, tazza e taccuino accanto, luce del mattino. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 9,
+   "scaletta": "S005y",
+   "blocco": "B02",
+   "tipo": "clip",
+   "da_s": 50.333,
+   "durata_s": 4.9,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C02c.mp4",
+   "generazione": "Vimy2UyupgYum9V38K6h",
+   "prompt": "Hands typing on a laptop next to an open printed labour contract, side view, gentle slow orbital camera movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screen or paper, no logos."
+  },
+  {
+   "n": 10,
+   "scaletta": "S007",
+   "blocco": "B03",
+   "tipo": "immagine",
+   "da_s": 55.233,
+   "durata_s": 5.7,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I03.png",
+   "inquadratura": "largo",
+   "direzione": "centro",
+   "generazione": "Y9590IaDdsXKo7G2JnDv",
+   "prompt": "Primo piano di un accordo stampato con alcune righe evidenziate in giallo e una penna appoggiata, testo volutamente illeggibile e sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 11,
+   "scaletta": "S007",
+   "blocco": "B03",
+   "tipo": "immagine",
+   "da_s": 60.933,
+   "durata_s": 5.733,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I03.png",
+   "inquadratura": "dettaglio",
+   "direzione": "destra",
+   "generazione": "Y9590IaDdsXKo7G2JnDv",
+   "prompt": "Primo piano di un accordo stampato con alcune righe evidenziate in giallo e una penna appoggiata, testo volutamente illeggibile e sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 12,
+   "scaletta": "S008",
+   "blocco": "B03",
+   "tipo": "scena",
+   "da_s": 66.667,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"pagina\", \"fondo\": \"neutro\", \"livello\": 1, \"testo\": \"Il profilo sbagliato\"}"
+  },
+  {
+   "n": 13,
+   "scaletta": "S009",
+   "blocco": "B03",
+   "tipo": "scena",
+   "da_s": 75.667,
+   "durata_s": 11.433,
+   "fondo": "chiaro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"chiaro\", \"livello\": 1, \"celle\": [{\"n\": \"1\", \"t\": \"Tempo guadagnato\"}, {\"n\": \"2\", \"t\": \"Responsabilità nostra\"}]}"
+  },
+  {
+   "n": 14,
+   "scaletta": "S010",
+   "blocco": "B04",
+   "tipo": "scena",
+   "da_s": 87.1,
+   "durata_s": 6.9,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"etichetta\": \"Alla fine del corso\", \"testo\": \"Cosa saprai fare\"}"
+  },
+  {
+   "n": 15,
+   "scaletta": "S011",
+   "blocco": "B04",
+   "tipo": "scena",
+   "da_s": 94.0,
+   "durata_s": 10.367,
+   "fondo": "chiaro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"chiaro\", \"livello\": 1, \"celle\": [{\"t\": \"Scegliere lo strumento\"}, {\"t\": \"Chiedere bene\"}, {\"t\": \"Leggere gli atti\"}]}"
+  },
+  {
+   "n": 16,
+   "scaletta": "S012",
+   "blocco": "B04",
+   "tipo": "scena",
+   "da_s": 104.367,
+   "durata_s": 8.633,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"neutro\", \"livello\": 2, \"celle\": [{\"t\": \"Trattare\"}, {\"t\": \"Pratiche e verbali\"}, {\"t\": \"Locandine\"}]}"
+  },
+  {
+   "n": 17,
+   "scaletta": "S013",
+   "blocco": "B04",
+   "tipo": "scena",
+   "da_s": 113.0,
+   "durata_s": 8.633,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"scuro\", \"livello\": 1, \"testo\": \"Sapere quando fermarsi\"}"
+  },
+  {
+   "n": 18,
+   "scaletta": "S014",
+   "blocco": "B05",
+   "tipo": "animazione_svg",
+   "da_s": 121.633,
+   "durata_s": 23.133,
+   "fondo": "svg-chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "IAS_M00_L01_A2_settimana-in-sede.html",
+   "camera": {
+    "chiavi": [
+     [
+      0,
+      1.0,
+      960,
+      540
+     ],
+     [
+      6.6,
+      1.0,
+      960,
+      540
+     ],
+     [
+      8.6,
+      1.25,
+      768,
+      640
+     ],
+     [
+      99,
+      1.25,
+      1152,
+      640
+     ]
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "scaletta": "S015",
+   "blocco": "B05",
+   "tipo": "clip",
+   "da_s": 144.767,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C04a.mp4",
+   "velocita": 0.8,
+   "generazione": "58oGXLBYbIIKPp7vZ2QB",
+   "prompt": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 20,
+   "scaletta": "S015",
+   "blocco": "B05",
+   "tipo": "clip",
+   "da_s": 151.067,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C04b.mp4",
+   "velocita": 0.8,
+   "generazione": "gb9okP2lvzDL22VveisW",
+   "prompt": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 21,
+   "scaletta": "S016",
+   "blocco": "B06",
+   "tipo": "immagine",
+   "da_s": 157.367,
+   "durata_s": 8.433,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I05.png",
+   "inquadratura": "largo",
+   "direzione": "sinistra",
+   "generazione": "Vdlrboze1WbmUoww2z0g",
+   "prompt": "Quaderno aperto su una pagina bianca, penna appoggiata, luce del mattino radente dalla finestra, tazza di caffè sfocata. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 22,
+   "scaletta": "S017",
+   "blocco": "B06",
+   "tipo": "scena",
+   "da_s": 165.8,
+   "durata_s": 8.433,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"pagina\", \"fondo\": \"chiaro\", \"livello\": 1, \"grande\": \"30″\", \"testo\": \"invece di un'ora\"}"
+  },
+  {
+   "n": 23,
+   "scaletta": "S018",
+   "blocco": "B07",
+   "tipo": "clip",
+   "da_s": 174.233,
+   "durata_s": 5.8,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C05a.mp4",
+   "velocita": 0.8653,
+   "generazione": "0437yWcV9QyeoGY9EeV9",
+   "prompt": "Rectangular negotiation table with closed folders neatly placed on both sides, empty chairs, camera slowly gliding along the table. Realistic cinematic shot, natural light, deep green palette with warm highlights, no people, no readable text, no logos."
+  },
+  {
+   "n": 24,
+   "scaletta": "S018",
+   "blocco": "B07",
+   "tipo": "clip",
+   "da_s": 180.033,
+   "durata_s": 5.833,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C05b.mp4",
+   "velocita": 0.8653,
+   "generazione": "kN4UcuqSwQPB8mo8cDft",
+   "prompt": "Rectangular negotiation table with closed folders neatly placed on both sides, empty chairs, camera slowly gliding along the table. Realistic cinematic shot, natural light, deep green palette with warm highlights, no people, no readable text, no logos."
+  },
+  {
+   "n": 25,
+   "scaletta": "S019",
+   "blocco": "B07",
+   "tipo": "scena",
+   "da_s": 185.867,
+   "durata_s": 12.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"neutro\", \"livello\": 4, \"celle\": [{\"n\": \"1 ora\", \"t\": \"Chi prepara con l'IA\"}, {\"n\": \"3 giorni\", \"t\": \"Chi legge senza\"}]}"
+  },
+  {
+   "n": 26,
+   "scaletta": "S020",
+   "blocco": "B07",
+   "tipo": "scena",
+   "da_s": 197.867,
+   "durata_s": 9.0,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"scuro\", \"livello\": 4, \"etichetta\": \"La vera posta\", \"testo\": \"Equilibrio al tavolo\"}"
+  },
+  {
+   "n": 27,
+   "scaletta": "S021",
+   "blocco": "B08",
+   "tipo": "scena",
+   "da_s": 206.867,
+   "durata_s": 12.0,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"chiaro\", \"livello\": 1, \"celle\": [{\"n\": \"✕\", \"t\": \"Informatica\"}, {\"n\": \"✕\", \"t\": \"Trucchi\"}, {\"n\": \"✕\", \"t\": \"Sostituire le persone\"}]}"
+  },
+  {
+   "n": 28,
+   "scaletta": "S022",
+   "blocco": "B08",
+   "tipo": "clip",
+   "da_s": 218.867,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C04c.mp4",
+   "velocita": 0.8,
+   "generazione": "5DT6M1mpntaoLULIGmVo",
+   "prompt": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 29,
+   "scaletta": "S022",
+   "blocco": "B08",
+   "tipo": "clip",
+   "da_s": 225.167,
+   "durata_s": 6.3,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C04d.mp4",
+   "velocita": 0.8,
+   "generazione": "8iCnSWmFFqa0e5fzCDCQ",
+   "prompt": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 30,
+   "scaletta": "S022x",
+   "blocco": "B08",
+   "tipo": "clip",
+   "da_s": 231.467,
+   "durata_s": 3.267,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C04e.mp4",
+   "generazione": "Iw6cXIlolzoURLzmxqB5",
+   "prompt": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 31,
+   "scaletta": "S023",
+   "blocco": "B09",
+   "tipo": "immagine",
+   "da_s": 234.733,
+   "durata_s": 8.567,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I06.png",
+   "inquadratura": "largo",
+   "direzione": "alto",
+   "generazione": "EO32cqzyKfE959CqZ8Zr",
+   "prompt": "Mani che tengono uno smartphone con una conversazione di chat generica sullo schermo (bolle di testo sfocate, nessuna interfaccia riconoscibile), sfondo ufficio. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 32,
+   "scaletta": "S023",
+   "blocco": "B09",
+   "tipo": "immagine",
+   "da_s": 243.3,
+   "durata_s": 8.567,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I06.png",
+   "inquadratura": "dettaglio",
+   "direzione": "centro",
+   "generazione": "EO32cqzyKfE959CqZ8Zr",
+   "prompt": "Mani che tengono uno smartphone con una conversazione di chat generica sullo schermo (bolle di testo sfocate, nessuna interfaccia riconoscibile), sfondo ufficio. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 33,
+   "scaletta": "S024",
+   "blocco": "B09",
+   "tipo": "scena",
+   "da_s": 251.867,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"testo\": \"Basta l'italiano\"}"
+  },
+  {
+   "n": 34,
+   "scaletta": "S025",
+   "blocco": "B10",
+   "tipo": "scena",
+   "da_s": 260.867,
+   "durata_s": 9.0,
+   "fondo": "accento",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"pagina\", \"fondo\": \"accento\", \"livello\": 1, \"testo\": \"Veloce. Preparato. Distratto.\"}"
+  },
+  {
+   "n": 35,
+   "scaletta": "S026",
+   "blocco": "B10",
+   "tipo": "immagine",
+   "da_s": 269.867,
+   "durata_s": 7.7,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I07.png",
+   "inquadratura": "largo",
+   "direzione": "destra",
+   "generazione": "TMspWDr7cvD3e4hBR8yj",
+   "prompt": "Mano che trattiene una penna stilografica sopra lo spazio della firma di un documento, il foglio è illeggibile, luce laterale calda. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 36,
+   "scaletta": "S027",
+   "blocco": "B10",
+   "tipo": "scena",
+   "da_s": 277.567,
+   "durata_s": 9.0,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"memo\", \"livello\": 1, \"testo\": \"La firma resta tua.\"}"
+  },
+  {
+   "n": 37,
+   "scaletta": "S028",
+   "blocco": "B11",
+   "tipo": "animazione_svg",
+   "da_s": 286.567,
+   "durata_s": 24.367,
+   "fondo": "svg-chiaro",
+   "ingresso": "tendina",
+   "sorgente": "IAS_M00_L01_A1_mappa-corso.html"
+  },
+  {
+   "n": 38,
+   "scaletta": "S029",
+   "blocco": "B12",
+   "tipo": "animazione_svg",
+   "da_s": 310.933,
+   "durata_s": 25.167,
+   "fondo": "svg-chiaro",
+   "ingresso": "taglio",
+   "sorgente": "IAS_M00_L01_A1_mappa-corso.html",
+   "inquadratura": {
+    "zoom": 1.6,
+    "centro": [
+     1310,
+     440
+    ],
+    "parti_da": "fine"
+   },
+   "camera": {
+    "da_fine": true,
+    "chiavi": [
+     [
+      0,
+      1.0,
+      960,
+      540
+     ],
+     [
+      2,
+      1.6,
+      1310,
+      530
+     ],
+     [
+      11,
+      1.68,
+      1330,
+      530
+     ],
+     [
+      13.5,
+      1.6,
+      1600,
+      650
+     ],
+     [
+      99,
+      1.68,
+      1600,
+      660
+     ]
+    ]
+   }
+  },
+  {
+   "n": 39,
+   "scaletta": "S030",
+   "blocco": "B13",
+   "tipo": "animazione_svg",
+   "da_s": 336.1,
+   "durata_s": 15.7,
+   "fondo": "svg-chiaro",
+   "ingresso": "taglio",
+   "sorgente": "IAS_M00_L01_A1_mappa-corso.html",
+   "inquadratura": {
+    "zoom": 1.7,
+    "centro": [
+     800,
+     820
+    ],
+    "parti_da": "fine"
+   },
+   "camera": {
+    "da_fine": true,
+    "chiavi": [
+     [
+      0,
+      1.0,
+      960,
+      540
+     ],
+     [
+      2,
+      1.7,
+      800,
+      820
+     ],
+     [
+      99,
+      1.8,
+      780,
+      820
+     ]
+    ]
+   }
+  },
+  {
+   "n": 40,
+   "scaletta": "S031",
+   "blocco": "B13",
+   "tipo": "clip",
+   "da_s": 351.8,
+   "durata_s": 5.267,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C06a.mp4",
+   "velocita": 0.9613,
+   "generazione": "BWeJBfNMN9bD5ZJJYmMz",
+   "prompt": "Italian public hospital corridor with monitors and computer workstations, blurred staff passing in the background, slow dolly forward. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screens, no logos."
+  },
+  {
+   "n": 41,
+   "scaletta": "S031",
+   "blocco": "B13",
+   "tipo": "clip",
+   "da_s": 357.067,
+   "durata_s": 5.233,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C06b.mp4",
+   "velocita": 0.9613,
+   "generazione": "ZWFqyNgsU89I4PIXOTq1",
+   "prompt": "Italian public hospital corridor with monitors and computer workstations, blurred staff passing in the background, slow dolly forward. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screens, no logos."
+  },
+  {
+   "n": 42,
+   "scaletta": "S032m",
+   "blocco": "B14",
+   "tipo": "animazione_svg",
+   "da_s": 362.3,
+   "durata_s": 12.5,
+   "fondo": "svg-chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "IAS_M00_L01_A1_mappa-corso.html",
+   "camera": {
+    "chiavi": [
+     [
+      0,
+      1.0,
+      960,
+      540
+     ],
+     [
+      7.8,
+      1.0,
+      960,
+      540
+     ],
+     [
+      99,
+      1.06,
+      940,
+      520
+     ]
+    ]
+   }
+  },
+  {
+   "n": 43,
+   "scaletta": "S032",
+   "blocco": "B14",
+   "tipo": "scena",
+   "da_s": 374.8,
+   "durata_s": 12.0,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"tabella\", \"fondo\": \"neutro\", \"livello\": 1, \"testo\": \"Scendi alla tua fermata\", \"tabella\": {\"colonne\": [\"Linea\", \"Per chi\"], \"righe\": [[\"Le basi\", \"Tutti\"], [\"Ogni giorno\", \"Delegati di reparto\"], [\"Immagini\", \"Chi comunica\"], [\"Avanzato\", \"Chi coordina\"]]}}"
+  },
+  {
+   "n": 44,
+   "scaletta": "S033",
+   "blocco": "B15",
+   "tipo": "animazione_svg",
+   "da_s": 386.8,
+   "durata_s": 17.733,
+   "fondo": "svg-scuro",
+   "ingresso": "tendina",
+   "sorgente": "IAS_M00_L01_A3_valcorta.html"
+  },
+  {
+   "n": 45,
+   "scaletta": "S034",
+   "blocco": "B15",
+   "tipo": "immagine",
+   "da_s": 404.533,
+   "durata_s": 4.767,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I08.png",
+   "inquadratura": "largo",
+   "direzione": "sinistra",
+   "generazione": "7y0OCVnu9E8NynQNgiA8",
+   "prompt": "Bacheca di sughero in un corridoio d'ospedale con fogli di turni appesi e puntine colorate, testo illeggibile, corridoio sfocato dietro. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 46,
+   "scaletta": "S034",
+   "blocco": "B15",
+   "tipo": "immagine",
+   "da_s": 409.3,
+   "durata_s": 4.767,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I08.png",
+   "inquadratura": "dettaglio",
+   "direzione": "alto",
+   "generazione": "7y0OCVnu9E8NynQNgiA8",
+   "prompt": "Bacheca di sughero in un corridoio d'ospedale con fogli di turni appesi e puntine colorate, testo illeggibile, corridoio sfocato dietro. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 47,
+   "scaletta": "S035",
+   "blocco": "B16",
+   "tipo": "scena",
+   "da_s": 414.067,
+   "durata_s": 12.0,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"scuro\", \"livello\": 2, \"celle\": [{\"n\": \"Marta\", \"t\": \"Segnala per prima\"}, {\"n\": \"Luca\", \"t\": \"Delegato RSU\"}, {\"n\": \"Direzione\", \"t\": \"Cortese e vaga\"}]}"
+  },
+  {
+   "n": 48,
+   "scaletta": "S036",
+   "blocco": "B16",
+   "tipo": "immagine",
+   "da_s": 426.067,
+   "durata_s": 5.133,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I09.png",
+   "inquadratura": "largo",
+   "direzione": "centro",
+   "generazione": "j2mOPMSzLEUUh0mCVyYD",
+   "prompt": "Infermiera vista di spalle che cammina in un corridoio d'ospedale la sera, divisa verde, luce fredda dei neon e calda dalle stanze. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 49,
+   "scaletta": "S036",
+   "blocco": "B16",
+   "tipo": "immagine",
+   "da_s": 431.2,
+   "durata_s": 5.133,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I09.png",
+   "inquadratura": "dettaglio",
+   "direzione": "destra",
+   "generazione": "j2mOPMSzLEUUh0mCVyYD",
+   "prompt": "Infermiera vista di spalle che cammina in un corridoio d'ospedale la sera, divisa verde, luce fredda dei neon e calda dalle stanze. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 50,
+   "scaletta": "S037",
+   "blocco": "B17",
+   "tipo": "scena",
+   "da_s": 436.333,
+   "durata_s": 12.0,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"tabella\", \"fondo\": \"chiaro\", \"livello\": 2, \"testo\": \"La vertenza, tappa per tappa\", \"tabella\": {\"colonne\": [\"Modulo\", \"Tappa\"], \"righe\": [[\"6\", \"Il primo comunicato\"], [\"7\", \"La delibera\"], [\"8\", \"L'incontro\"], [\"9\", \"Il caso di Marta\"], [\"10\", \"L'assemblea\"]]}}"
+  },
+  {
+   "n": 51,
+   "scaletta": "S037x",
+   "blocco": "B17",
+   "tipo": "clip",
+   "da_s": 448.333,
+   "durata_s": 4.6,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C08c.mp4",
+   "generazione": "7a9MiNZyTpb7zr8Fv3Jy",
+   "prompt": "A person in a green hospital uniform walking with a determined pace along an Italian hospital corridor, seen from behind, camera following. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 52,
+   "scaletta": "S038",
+   "blocco": "B17",
+   "tipo": "scena",
+   "da_s": 452.933,
+   "durata_s": 9.0,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"scuro\", \"livello\": 4, \"numero\": \"18\", \"etichetta\": \"Ultima fermata\", \"testo\": \"Chi risponde dell'algoritmo?\"}"
+  },
+  {
+   "n": 53,
+   "scaletta": "S039",
+   "blocco": "B18",
+   "tipo": "immagine",
+   "da_s": 461.933,
+   "durata_s": 8.6,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I10.png",
+   "inquadratura": "largo",
+   "direzione": "sinistra",
+   "generazione": "7vpQxDbArTg3zebX4Np5",
+   "prompt": "Cartellina aperta con documenti in cui alcune righe sono coperte da barre nere di oscuramento, vista dall'alto, scrivania ordinata. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 54,
+   "scaletta": "S040",
+   "blocco": "B18",
+   "tipo": "scena",
+   "da_s": 470.533,
+   "durata_s": 8.6,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"chiaro\", \"livello\": 1, \"testo\": \"Dati finti, metodo vero\"}"
+  },
+  {
+   "n": 55,
+   "scaletta": "S041",
+   "blocco": "B19",
+   "tipo": "scena",
+   "da_s": 479.133,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"etichetta\": \"Segnaposto\", \"testo\": \"Registrazione R01\", \"sotto\": \"da registrare: vedi PROMPT-VISIVI\"}"
+  },
+  {
+   "n": 56,
+   "scaletta": "S041x",
+   "blocco": "B19",
+   "tipo": "clip",
+   "da_s": 488.133,
+   "durata_s": 3.467,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C02d.mp4",
+   "generazione": "K5c2aqhka5s3doVM2XSM",
+   "prompt": "Hands typing on a laptop next to an open printed labour contract, side view, gentle slow orbital camera movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screen or paper, no logos."
+  },
+  {
+   "n": 57,
+   "scaletta": "S041y",
+   "blocco": "B19",
+   "tipo": "immagine",
+   "da_s": 491.6,
+   "durata_s": 3.467,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I18.png",
+   "inquadratura": "largo",
+   "direzione": "alto",
+   "generazione": "m1YRulqhm1PjlmfuXnzu",
+   "prompt": "Tre dispositivi affiancati su una scrivania di una sede sindacale: un portatile, un tablet e uno smartphone, con schermi accesi sfocati e interfacce non riconoscibili, luce del mattino dalla finestra. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 58,
+   "scaletta": "S042",
+   "blocco": "B19",
+   "tipo": "scena",
+   "da_s": 495.067,
+   "durata_s": 12.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"tabella\", \"fondo\": \"neutro\", \"livello\": 1, \"testo\": \"Chi fa meglio cosa\", \"tabella\": {\"colonne\": [\"Strumento\", \"Punto forte\"], \"righe\": [[\"Claude\", \"Documenti lunghi, scrittura\"], [\"Gemini\", \"Gmail e Google Drive\"], [\"ChatGPT\", \"Versatile, voce, assistenti\"]]}}"
+  },
+  {
+   "n": 59,
+   "scaletta": "S043",
+   "blocco": "B20",
+   "tipo": "scena",
+   "da_s": 507.067,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"etichetta\": \"Segnaposto\", \"testo\": \"Registrazione R02\", \"sotto\": \"da registrare: vedi PROMPT-VISIVI\"}"
+  },
+  {
+   "n": 60,
+   "scaletta": "S043x",
+   "blocco": "B20",
+   "tipo": "immagine",
+   "da_s": 516.067,
+   "durata_s": 6.067,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I15.png",
+   "inquadratura": "largo",
+   "direzione": "centro",
+   "generazione": "MgBN8J1l9zx1SgTxTr7F",
+   "prompt": "Primo piano di mani su un trackpad di un portatile, schermo sfocato con elementi di interfaccia astratti e non riconoscibili, luce laterale calda, scrivania di ufficio. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 61,
+   "scaletta": "S044",
+   "blocco": "B20",
+   "tipo": "scena",
+   "da_s": 522.133,
+   "durata_s": 9.0,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"chiaro\", \"livello\": 1, \"etichetta\": \"Le lezioni con i tre strumenti\", \"testo\": \"Il metodo non scade\"}"
+  },
+  {
+   "n": 62,
+   "scaletta": "S045",
+   "blocco": "B21",
+   "tipo": "scena",
+   "da_s": 531.133,
+   "durata_s": 8.6,
+   "fondo": "neutro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"grande\": \"24 h\", \"testo\": \"Una pratica, sul lavoro vero\"}"
+  },
+  {
+   "n": 63,
+   "scaletta": "S046",
+   "blocco": "B21",
+   "tipo": "animazione_svg",
+   "da_s": 539.733,
+   "durata_s": 15.967,
+   "fondo": "svg-scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "IAS_M00_L01_A4_kit.html"
+  },
+  {
+   "n": 64,
+   "scaletta": "S047",
+   "blocco": "B22",
+   "tipo": "scena",
+   "da_s": 555.7,
+   "durata_s": 9.0,
+   "fondo": "accento",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"accento\", \"livello\": 2, \"numero\": \"500\", \"etichetta\": \"La libreria\", \"testo\": \"Dodici tipologie, campi da compilare\"}"
+  },
+  {
+   "n": 65,
+   "scaletta": "S048",
+   "blocco": "B22",
+   "tipo": "scena",
+   "da_s": 564.7,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"etichetta\": \"Segnaposto\", \"testo\": \"Registrazione R03\", \"sotto\": \"da registrare: vedi PROMPT-VISIVI\"}"
+  },
+  {
+   "n": 66,
+   "scaletta": "S048x",
+   "blocco": "B22",
+   "tipo": "immagine",
+   "da_s": 573.7,
+   "durata_s": 5.633,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I16.png",
+   "inquadratura": "largo",
+   "direzione": "destra",
+   "generazione": "g0s2hZ7wtBqPajdcWTLy",
+   "prompt": "Raccoglitore ad anelli aperto con molte schede ordinate da linguette colorate, vista ravvicinata, testo illeggibile, scrivania in legno di una sede sindacale. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 67,
+   "scaletta": "S049",
+   "blocco": "B23",
+   "tipo": "clip",
+   "da_s": 579.333,
+   "durata_s": 5.633,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C07a.mp4",
+   "velocita": 0.892,
+   "generazione": "cNhIyXPHEFE1ytwNLHA9",
+   "prompt": "Desk in the morning: a laptop opening, a steaming cup of coffee, light coming through the window, close-up framing. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 68,
+   "scaletta": "S049",
+   "blocco": "B23",
+   "tipo": "clip",
+   "da_s": 584.967,
+   "durata_s": 5.667,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C07b.mp4",
+   "velocita": 0.892,
+   "generazione": "MwbbwzOzf4HgPseyevNg",
+   "prompt": "Desk in the morning: a laptop opening, a steaming cup of coffee, light coming through the window, close-up framing. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 69,
+   "scaletta": "S050",
+   "blocco": "B23",
+   "tipo": "scena",
+   "da_s": 590.633,
+   "durata_s": 11.3,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"chiaro\", \"livello\": 1, \"celle\": [{\"n\": \"1\", \"t\": \"Stesso giorno\"}, {\"n\": \"2\", \"t\": \"Stessa ora\"}, {\"n\": \"3\", \"t\": \"Pratica subito\"}]}"
+  },
+  {
+   "n": 70,
+   "scaletta": "S051",
+   "blocco": "B23",
+   "tipo": "immagine",
+   "da_s": 601.933,
+   "durata_s": 4.833,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I11.png",
+   "inquadratura": "largo",
+   "direzione": "sinistra",
+   "generazione": "6EAHoc49gVUfamKkUyu7",
+   "prompt": "Agenda cartacea aperta con un giorno della settimana cerchiato a matita, accanto un portatile chiuso, luce del mattino. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 71,
+   "scaletta": "S051",
+   "blocco": "B23",
+   "tipo": "immagine",
+   "da_s": 606.767,
+   "durata_s": 4.833,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I11.png",
+   "inquadratura": "dettaglio",
+   "direzione": "alto",
+   "generazione": "6EAHoc49gVUfamKkUyu7",
+   "prompt": "Agenda cartacea aperta con un giorno della settimana cerchiato a matita, accanto un portatile chiuso, luce del mattino. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 72,
+   "scaletta": "S052",
+   "blocco": "B24",
+   "tipo": "scena",
+   "da_s": 611.6,
+   "durata_s": 8.6,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"etichetta\": \"Segnaposto\", \"testo\": \"Registrazione R04\", \"sotto\": \"da registrare: vedi PROMPT-VISIVI\"}"
+  },
+  {
+   "n": 73,
+   "scaletta": "S052x",
+   "blocco": "B24",
+   "tipo": "immagine",
+   "da_s": 620.2,
+   "durata_s": 2.5,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I17.png",
+   "inquadratura": "largo",
+   "direzione": "centro",
+   "generazione": "2UHpb7OBQUdpMSqzQks5",
+   "prompt": "Persona vista di spalle davanti a un portatile in un ufficio di sede sindacale, una mano tra i capelli in un momento di dubbio, volto non visibile, schermo sfocato, luce calda di lampada. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 74,
+   "scaletta": "S053",
+   "blocco": "B24",
+   "tipo": "scena",
+   "da_s": 622.7,
+   "durata_s": 9.0,
+   "fondo": "neutro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"centrata\", \"fondo\": \"neutro\", \"livello\": 1, \"testo\": \"Chiedi come a un collega\"}"
+  },
+  {
+   "n": 75,
+   "scaletta": "S054",
+   "blocco": "B25",
+   "tipo": "scena",
+   "da_s": 631.7,
+   "durata_s": 12.0,
+   "fondo": "scuro",
+   "ingresso": "tendina",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"griglia\", \"fondo\": \"scuro\", \"livello\": 1, \"celle\": [{\"n\": \"1\", \"t\": \"Dati dei lavoratori fuori\"}, {\"n\": \"2\", \"t\": \"Ogni risposta verificata\"}, {\"n\": \"3\", \"t\": \"Firma tua\"}]}"
+  },
+  {
+   "n": 76,
+   "scaletta": "S055",
+   "blocco": "B25",
+   "tipo": "immagine",
+   "da_s": 643.7,
+   "durata_s": 6.133,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "I12.png",
+   "inquadratura": "largo",
+   "direzione": "destra",
+   "generazione": "TZJAUtaUUlet7kfHiavn",
+   "prompt": "Primo piano di una firma a penna su un documento, inchiostro ancora lucido, profondità di campo molto ridotta. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 77,
+   "scaletta": "S055",
+   "blocco": "B25",
+   "tipo": "immagine",
+   "da_s": 649.833,
+   "durata_s": 6.133,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I12.png",
+   "inquadratura": "dettaglio",
+   "direzione": "sinistra",
+   "generazione": "TZJAUtaUUlet7kfHiavn",
+   "prompt": "Primo piano di una firma a penna su un documento, inchiostro ancora lucido, profondità di campo molto ridotta. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 78,
+   "scaletta": "S056",
+   "blocco": "B26",
+   "tipo": "scena",
+   "da_s": 655.967,
+   "durata_s": 9.0,
+   "fondo": "rosso",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"errori\", \"livello\": 1, \"voci\": [\"Incollare dati veri\", \"Copiare senza rileggere\", \"Fidarsi del tono sicuro\"]}"
+  },
+  {
+   "n": 79,
+   "scaletta": "S057",
+   "blocco": "B26",
+   "tipo": "clip",
+   "da_s": 664.967,
+   "durata_s": 4.667,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C08a.mp4",
+   "generazione": "bmIfjPoqv8q7SkPTT31i",
+   "prompt": "A person in a green hospital uniform walking with a determined pace along an Italian hospital corridor, seen from behind, camera following. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 80,
+   "scaletta": "S057",
+   "blocco": "B26",
+   "tipo": "clip",
+   "da_s": 669.633,
+   "durata_s": 4.633,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C08b.mp4",
+   "generazione": "q4Wj6EXKvPVVFxJkASUL",
+   "prompt": "A person in a green hospital uniform walking with a determined pace along an Italian hospital corridor, seen from behind, camera following. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 81,
+   "scaletta": "S058",
+   "blocco": "B27",
+   "tipo": "immagine",
+   "da_s": 674.267,
+   "durata_s": 7.933,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I13.png",
+   "inquadratura": "largo",
+   "direzione": "alto",
+   "generazione": "CXFk479Nlo32NtcqLWgt",
+   "prompt": "Mano che scrive un elenco di tre righe su un foglio a righe, le parole sono illeggibili, luce calda di lampada. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 82,
+   "scaletta": "S058",
+   "blocco": "B27",
+   "tipo": "immagine",
+   "da_s": 682.2,
+   "durata_s": 7.9,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "I13.png",
+   "inquadratura": "dettaglio",
+   "direzione": "centro",
+   "generazione": "CXFk479Nlo32NtcqLWgt",
+   "prompt": "Mano che scrive un elenco di tre righe su un foglio a righe, le parole sono illeggibili, luce calda di lampada. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  {
+   "n": 83,
+   "scaletta": "S058x",
+   "blocco": "B27",
+   "tipo": "clip",
+   "da_s": 690.1,
+   "durata_s": 2.5,
+   "fondo": "immagine",
+   "ingresso": "taglio",
+   "sorgente": "C07c.mp4",
+   "generazione": "5EXW9qMtESaV5ReAzS9H",
+   "prompt": "Desk in the morning: a laptop opening, a steaming cup of coffee, light coming through the window, close-up framing. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 84,
+   "scaletta": "S059",
+   "blocco": "B27",
+   "tipo": "scena",
+   "da_s": 692.6,
+   "durata_s": 9.0,
+   "fondo": "chiaro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"chiaro\", \"livello\": 1, \"numero\": \"3\", \"etichetta\": \"La pratica di oggi\", \"testo\": \"I compiti che ti rubano tempo\"}"
+  },
+  {
+   "n": 85,
+   "scaletta": "S060x",
+   "blocco": "B28",
+   "tipo": "clip",
+   "da_s": 701.6,
+   "durata_s": 4.233,
+   "fondo": "immagine",
+   "ingresso": "dissolvenza",
+   "sorgente": "C07d.mp4",
+   "generazione": "TwCap4IqbFxn8LnCx1LS",
+   "prompt": "Desk in the morning: a laptop opening, a steaming cup of coffee, light coming through the window, close-up framing. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  {
+   "n": 86,
+   "scaletta": "S060",
+   "blocco": "B28",
+   "tipo": "scena",
+   "da_s": 705.833,
+   "durata_s": 9.0,
+   "fondo": "scuro",
+   "ingresso": "dissolvenza",
+   "sorgente": "kit/scena.html#{\"tipo\": \"testo\", \"layout\": \"laterale\", \"fondo\": \"scuro\", \"livello\": 1, \"etichetta\": \"Prossima lezione\", \"testo\": \"Che cos'è davvero l'IA\"}"
+  },
+  {
+   "n": 87,
+   "scaletta": "S061",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "da_s": 714.833,
+   "durata_s": 10.0,
+   "fondo": "scuro",
+   "ingresso": "taglio",
+   "sorgente": "kit/scena.html#{\"tipo\": \"chiusura\", \"livello\": 1, \"testo\": \"L'IA per chi fa sindacato\", \"etichetta\": \"Modulo 1 · Lezione 1\"}"
+  }
+ ],
+ "generazioni": {
+  "_nota": "Prompt e modelli effettivamente usati per immagini e clip della lezione. Le immagini I01-I13 seguono PROMPT-VISIVI.md con la ricetta di stile; I14-I18 e le varianti di clip oltre la b sono aggiunte in montaggio (vedi AGGIUNTE.json). Le clip sono state scritte in inglese per il modello video.",
+  "strumento": "ElevenLabs (Higgsfield bloccato: account in grace period, limite giornaliero di generazioni raggiunto)",
+  "modelli": {
+   "immagini": "bytedance-seedream-5-pro, 16:9, 2K (2048x1152)",
+   "clip": "kling-2.5-turbo, 16:9, 5 s, 1920x1080, guidance 0,5"
+  },
+  "immagini": {
+   "I01": "Orologio da parete analogico che segna le dieci di sera, in un ufficio sindacale semplice con bacheca e faldoni sfocati sullo sfondo, unica luce da una lampada da scrivania. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I02": "Pila di fogli stampati spessa quaranta pagine con post-it colorati, accanto uno smartphone a faccia in su con lo schermo acceso sfocato, tavolo di legno, luce di lampada. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I03": "Primo piano di un accordo stampato con alcune righe evidenziate in giallo e una penna appoggiata, testo volutamente illeggibile e sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I05": "Quaderno aperto su una pagina bianca, penna appoggiata, luce del mattino radente dalla finestra, tazza di caffè sfocata. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I06": "Mani che tengono uno smartphone con una conversazione di chat generica sullo schermo (bolle di testo sfocate, nessuna interfaccia riconoscibile), sfondo ufficio. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I07": "Mano che trattiene una penna stilografica sopra lo spazio della firma di un documento, il foglio è illeggibile, luce laterale calda. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I08": "Bacheca di sughero in un corridoio d'ospedale con fogli di turni appesi e puntine colorate, testo illeggibile, corridoio sfocato dietro. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I09": "Infermiera vista di spalle che cammina in un corridoio d'ospedale la sera, divisa verde, luce fredda dei neon e calda dalle stanze. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I10": "Cartellina aperta con documenti in cui alcune righe sono coperte da barre nere di oscuramento, vista dall'alto, scrivania ordinata. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I11": "Agenda cartacea aperta con un giorno della settimana cerchiato a matita, accanto un portatile chiuso, luce del mattino. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I12": "Primo piano di una firma a penna su un documento, inchiostro ancora lucido, profondità di campo molto ridotta. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I13": "Mano che scrive un elenco di tre righe su un foglio a righe, le parole sono illeggibili, luce calda di lampada. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, palette con verdi profondi (#00623A, #0B3D2A) e luci calde, contrasto morbido, nessun volto riconoscibile, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I14": "Portatile aperto su una scrivania di una sede sindacale, sullo schermo tre finestre affiancate con contenuti sfocati e interfacce non riconoscibili, tazza e taccuino accanto, luce del mattino. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I15": "Primo piano di mani su un trackpad di un portatile, schermo sfocato con elementi di interfaccia astratti e non riconoscibili, luce laterale calda, scrivania di ufficio. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I16": "Raccoglitore ad anelli aperto con molte schede ordinate da linguette colorate, vista ravvicinata, testo illeggibile, scrivania in legno di una sede sindacale. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I17": "Persona vista di spalle davanti a un portatile in un ufficio di sede sindacale, una mano tra i capelli in un momento di dubbio, volto non visibile, schermo sfocato, luce calda di lampada. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+   "I18": "Tre dispositivi affiancati su una scrivania di una sede sindacale: un portatile, un tablet e uno smartphone, con schermi accesi sfocati e interfacce non riconoscibili, luce del mattino dalla finestra. Fotografia documentaristica editoriale, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+  },
+  "clip_negativo": "faces, readable text, logos, watermark, subtitles (+ distorted hands per C01, C02, C04; + people per C05)",
+  "clip": {
+   "C01": "Slow dolly forward across a desk in an Italian trade union office at night: a thick stack of printed council documents, a lit desk lamp, a mug, binders softly out of focus in the background. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos.",
+   "C02": "Hands typing on a laptop next to an open printed labour contract, side view, gentle slow orbital camera movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screen or paper, no logos.",
+   "C04": "Workers' assembly in a meeting room filmed from behind: backs of heads and shoulders of seated people, one person standing out of focus at the far end, static camera with slight handheld movement. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos.",
+   "C05": "Rectangular negotiation table with closed folders neatly placed on both sides, empty chairs, camera slowly gliding along the table. Realistic cinematic shot, natural light, deep green palette with warm highlights, no people, no readable text, no logos.",
+   "C06": "Italian public hospital corridor with monitors and computer workstations, blurred staff passing in the background, slow dolly forward. Realistic cinematic shot, natural light, deep green palette with warm highlights, no recognizable faces, no readable text on screens, no logos.",
+   "C07": "Desk in the morning: a laptop opening, a steaming cup of coffee, light coming through the window, close-up framing. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos.",
+   "C08": "A person in a green hospital uniform walking with a determined pace along an Italian hospital corridor, seen from behind, camera following. Realistic cinematic shot, slow smooth camera movement, natural light, deep green palette with warm highlights, no recognizable faces, no readable text, no logos."
+  },
+  "varianti_clip": {
+   "C01": 2,
+   "C02": 4,
+   "C04": 5,
+   "C05": 2,
+   "C06": 2,
+   "C07": 4,
+   "C08": 3
+  },
+  "non_generati": {
+   "I04": "non usata in scaletta",
+   "C03": "non usata in scaletta"
+  }
+ },
+ "controlli": {
+  "durata_video_s": 724.83,
+  "durata_minima_12_00": true,
+  "inquadrature_oltre_il_limite": [],
+  "inquadrature_sotto_2_5_s": [],
+  "provini": true,
+  "avvisi_del_piano": [
+   "S041: manca la registrazione R01, uso un segnaposto",
+   "S043: manca la registrazione R02, uso un segnaposto",
+   "S048: manca la registrazione R03, uso un segnaposto",
+   "S052: manca la registrazione R04, uso un segnaposto"
+  ]
+ },
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "B03 contiene l'episodio in prima persona segnato [SEGNAPOSTO]: l'audio è generato, ma il video non è pubblicabile finché Achille non conferma l'episodio o lo sostituisce con uno reale.",
+  "Mancano le registrazioni schermo R01, R02, R03, R04 (registrazioni/IAS_M00_L01_Rnn.mp4): al loro posto ci sono segnaposto grafici «Registrazione Rnn»."
+ ],
+ "segnaposto_aperti": [
+  "B03: episodio in prima persona da confermare",
+  "R01",
+  "R02",
+  "R03",
+  "R04"
+ ],
+ "voce": {
+  "richiesta": "Achille nuovo 1 v4",
+  "usata": "Achille nuovo 1",
+  "voice_id": "KerPEYZvLEWNATg4AARX",
+  "modello": "eleven_v4",
+  "nota": "Nell'account non esiste una voce chiamata «Achille nuovo 1 v4»: c'erano «Achille», «Achille nuovo» e «Achille nuovo 1». Achille ha scelto «Achille nuovo 1»; il modello è eleven_v4, come suggerisce il nome. Il modello configurato sulla voce non è leggibile dagli strumenti disponibili.",
+  "flow_elevenlabs": "VUJb16mfJwV9Wd8pcD6C",
+  "generazioni_per_blocco": 1,
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.12; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.35,
+  "loudnorm": "I=-16:TP=-1.5:LRA=11 (misurato -16,4 LUFS integrati)"
+ },
+ "modifiche_allo_script": {
+  "motivo": "Con lo script originale la lezione veniva 11:44 (pause 0,35 s) e 11:51 (pause 0,6 s), sotto i 12:00. Come chiede CLAUDE.md mi sono fermato; Achille ha approvato quattro frasi in più.",
+  "aggiunte": {
+   "B09": "E se un giorno sbagli una richiesta, non succede niente: la riscrivi, e impari qualcosa.",
+   "B14": "Ogni linea ha le sue fermate, e ogni fermata è un modulo che puoi seguire anche da solo, quando ti serve.",
+   "B23": "Anche dieci minuti bastano, se li usi su un compito vero.",
+   "B26": "Le ripeteremo spesso, finché non diventeranno un'abitudine, come allacciare la cintura prima di partire."
+  },
+  "durata_dopo": "12:04,8 con pause da 0,35 s",
+  "tracce_scartate": "prima versione di B09, B14, B23, B26 (audio/scartati/)"
+ },
+ "montaggio": {
+  "dove": "locale (ffmpeg + Chromium/Playwright), nessun HeyGen",
+  "aggiunte": "Inquadrature aggiunte e riordino in M00/IAS_M00_L01_AGGIUNTE.json; movimenti di camera sugli SVG in M00/IAS_M00_L01_CAMERA.json",
+  "regola_del_ritmo": "Inquadrature oltre 9 s divise: immagini in campo largo + dettaglio (finestra al 60% con più dettagli), clip su più varianti (rallentate al massimo a 0,8x), scene oltre 9 s (12 per tabelle e griglie) con il tempo in eccesso passato ad altre inquadrature del blocco; dove il blocco non aveva immagini o clip ho aggiunto immagini (I14-I18) o varianti di clip.",
+  "svg": "Dopo l'animazione zoom lento 1,0 -> 1,25 sul dettaglio; S029 e S030 partono dall'ultimo fotogramma come da scaletta; in S029 dopo la linea blu la camera passa alla linea ambra, perché il blocco B12 parla di entrambe. In B14 la mappa intera (S032m) apre il blocco prima della tabella.",
+  "logo_sugli_svg": "Logo piccolo in alto a sinistra a 140 px di larghezza: a 190 px copriva l'inizio dei titoli della mappa e della settimana in sede.",
+  "font": "Montserrat, Inter e Barlow Condensed scaricati in kit/font (OFL) e caricati in locale: il browser di render non raggiunge Google Fonts.",
+  "transizioni": "Taglio; dissolvenza di 8 fotogrammi al cambio di tipo di fondo (chiaro/scuro/immagine); tendina del colore del livello su S028, S033, S054.",
+  "fondi_in_fila": "La regola dei tre fondi uguali è applicata ai fondi grafici; le sequenze di immagini e clip non sono contate, perché la correzione prevista (inserire un'immagine o una clip) non ha senso lì.",
+  "testi_a_schermo": "Controllati con strumenti/controlla_testi.py: nessuno oltre 6 parole, nessuno identico al parlato.",
+  "correzioni_al_kit": "Nella copia di scena.html usata per il render (build/…/pagine) i numeri delle griglie su fondo scuro sono bianchi: nel colore del livello (verde o blu su verde notte) non si leggevano (S035, S054). Il kit originale non è modificato. Nell'impaginazione centrata il filo verde (fisso a 720 px) tagliava il testo su due righe (S045 «Una pratica, sul lavoro vero»): ora sta 40 px sotto l'ultimo elemento.",
+  "camera_e_logo": "Gli zoom sugli SVG tengono il titolo fuori campo o lontano dal logo fisso: S014 scorre i giorni della settimana con il titolo fuori campo, S046 zooma sulle schede del kit, S032m ripete l'animazione della mappa intera e chiude con uno zoom leggero (1,06). S029: centro a y 530 invece di 440 (scaletta), perché a 440 la fine del titolo «corso» restava sotto il logo.",
+  "controllo_provini": "Dai provini: corretti S029 (titolo sotto il logo) e S045 (filo sul testo). Il resto è a posto: testi interi, contrasti leggibili dopo la correzione delle griglie scure, nessun volto o logo nelle immagini."
+ },
+ "problemi": [
+  "Higgsfield non ha generato nulla: account in «grace period», limite giornaliero di generazioni raggiunto (563 crediti disponibili ma non spendibili). Immagini e clip fatte con ElevenLabs, come scelto da Achille.",
+  "Le immagini hanno una dominante verde molto forte (la ricetta di stile cita i codici dei verdi): coerenti tra loro, ma quasi monocrome. Le immagini aggiunte I14-I18 usano «toni naturali con accenti di verde profondo» e sono meno sature: da valutare se rigenerare le prime con la stessa formula.",
+  "C01a e C01b: la tazza porta un emblema e lettere finte; ritagliate a sinistra (72%) per escluderla.",
+  "C02d (B19, 3,5 s): sullo schermo del portatile c'è testo piccolo, probabilmente non leggibile a velocità normale.",
+  "C04b-e: il relatore in fondo alla sala è rivolto verso la camera, sfocato e lontano; nessun volto riconoscibile ma da controllare.",
+  "Le clip Kling 2.5 Turbo durano 5 s: per coprire alcune inquadrature sono rallentate tra 0,8x e 0,96x.",
+  "I sottotitoli hanno i tempi reali dei blocchi; dentro il blocco le frasi sono distribuite in proporzione ai caratteri, non allineate parola per parola.",
+  "Nessuno ha ancora ascoltato o guardato il video per intero: i controlli sono su durate, provini e fotogrammi. Il controllo della voce con trascrizione automatica non è stato possibile (in questa sessione mancano gli strumenti di caricamento file di ElevenLabs): da ascoltare, in particolare i nomi ChatGPT, Claude, Gemini, RSU, CISL FP."
+ ],
+ "costi": {
+  "voce_elevenlabs_usd": 2.27,
+  "immagini_elevenlabs_usd": 2.29,
+  "clip_elevenlabs_usd": 7.7,
+  "totale_usd": 12.26,
+  "dettaglio": "voce 28 blocchi (12.025 caratteri, $1,98) + 4 blocchi rifatti (1.742 caratteri, $0,29); 17 immagini Seedream 5 Pro a $0,135; 22 clip Kling 2.5 Turbo a $0,35. Higgsfield: nessun addebito."
+ }
+}
