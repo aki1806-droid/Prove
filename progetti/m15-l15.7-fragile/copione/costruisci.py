@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo e' forse il caso piu' veneto del modulo, perche' attraversa tutta la rete della non autosufficienza. Comincia con una notte difficile: un delirium e una caduta."),
+ (1,"chiaro",0,"E finisce con una domanda che ogni infermiere di reparto si sente fare: e adesso, dove va la mamma? Ci servono le lezioni tre punto uno, nove punto sei, undici punto uno, undici punto due e tredici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Elena ha ottantasei anni e una demenza lieve, e vive sola; la figlia abita vicino e lavora. E' ricoverata da due giorni in medicina per una pielonefrite."),
+ (2,"chiaro",0,"In terapia ha un antibiotico endovena, un anticoagulante orale diretto per una fibrillazione atriale, e il lorazepam al bisogno per l'insonnia, che le viene dato alle ventidue."),
+ (2,"chiaro",0,"Alle ventitre' e' agitata, vuole tornare a casa, si strappa la cannula. Alle tre viene trovata a terra accanto al letto, e le sponde erano alzate. Fermati un momento: che cosa fai, prima di tutto?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Dopo una caduta la prima regola e' non sollevare subito la persona. Chiami aiuto e non la lasci sola. Valuti l'ABC, la coscienza con la GCS e le pupille, e cerchi i segni di un trauma cranico: ferite, ematomi."),
+ (3,"chiaro",0,"Poi il dolore e le deformita'. L'arto inferiore destro e' accorciato ed extraruotato, con dolore all'inguine: e' il quadro tipico di una frattura del femore. Parametri, glicemia, e avvisi il medico."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"[serious] E ora il dettaglio che cambia la priorita': la signora assume un anticoagulante. E non ricorda se ha battuto la testa."),
+ (4,"chiaro",0,"Dopo una caduta, anche con un trauma cranico lieve o non riferito, c'e' il rischio di un'emorragia intracranica, che puo' manifestarsi anche ore dopo."),
+ (4,"chiaro",0,"Si segue il protocollo, che di solito prevede la valutazione medica e una TC, e una sorveglianza neurologica ravvicinata: GCS, pupille, segni di lato, cefalea, vomito. E' cio' che il commissario vuole vedere scritto."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Poi si immobilizza l'arto, e la si solleva con piu' operatori e con gli ausili, come un telo ad alto scorrimento o un sollevatore. Analgesia secondo prescrizione, e un nuovo accesso venoso."),
+ (5,"chiaro",0,"Si segnala l'evento con l'incident reporting, perche' e' una caduta con danno. Si documentano ora, circostanze, valutazione e interventi, e si informa la figlia."),
+ (5,"chiaro",0,"Il riferimento e' la Raccomandazione numero tredici, sulla prevenzione e la gestione della caduta in ospedale."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[thoughtful] Perche' e' caduta? Il quadro della sera era un delirium iperattivo su una demenza, verificabile con la CAM: esordio acuto, andamento fluttuante, disattenzione."),
+ (6,"chiaro",0,"I fattori: infezione, ambiente nuovo, notte, forse dolore o urgenza di urinare. E la benzodiazepina, che nell'anziano aumenta delirium e cadute: e' fra i farmaci potenzialmente inappropriati della lezione undici punto uno."),
+ (6,"chiaro",0,"E le sponde alzate. In una persona agitata che vuole alzarsi non impediscono la caduta: la fanno avvenire scavalcandole, cioe' da piu' in alto e con piu' danno."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Al mattino la figlia, spaventata, chiede di legarla di notte. E' una richiesta comprensibile, ma la contenzione non previene le cadute: aumenta agitazione, lesioni e delirium, come nella lezione tre punto uno."),
+ (7,"chiaro",0,"Lo spieghi con empatia, e proponi le alternative: letto basso, materassino a terra, sensori, sorveglianza, accompagnamento al bagno programmato, luce notturna, oggetti personali."),
+ (7,"chiaro",0,"E la presenza di un familiare, quando e' possibile. Poi la revisione della terapia sedativa con il medico. Cosi' la figlia diventa un'alleata, non una spettatrice."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La radiografia conferma una frattura del collo del femore. Si attiva il percorso ortopedico, con l'obiettivo dell'intervento entro quarantotto ore, l'indicatore di qualita' della lezione nove punto sei."),
+ (8,"chiaro",0,"L'anticoagulante si gestisce secondo indicazione. E intanto si previene il delirium: occhiali e apparecchi acustici, orientamento, dolore, idratazione, alvo, sonno. Talloni protetti, nutrizione: l'approccio ortogeriatrico."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Quinta giornata dopo l'intervento di protesi parziale d'anca. La signora cammina con il deambulatore, ma solo con assistenza. E' orientata di giorno, a tratti confusa la sera."),
+ (9,"chiaro",0,"Vive sola, e la figlia lavora: oggi non puo' rientrare a casa in sicurezza. Serve una dimissione protetta, che andava pensata, e segnalata, fin dai primi giorni."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il percorso e' quello della rete veneta, della lezione tredici punto cinque. Una segnalazione precoce alla COT, secondo procedura. Poi la valutazione multidimensionale dell'UVMD, con la SVaMA."),
+ (10,"chiaro",0,"Alla valutazione partecipano la figlia, il medico di famiglia e l'assistente sociale. Il setting: prima la riabilitazione, in un'Unita' Riabilitativa Territoriale o in un Ospedale di Comunita', per recuperare autonomia."),
+ (10,"chiaro",0,"Poi il rientro a casa, con l'ADI, il SAD, l'impegnativa di cura domiciliare, magari un centro diurno. Oppure, se il bisogno non sara' gestibile a casa, un Centro di Servizi."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"E una lettera infermieristica che racconti la persona, non solo la frattura. L'autonomia attuale con la Barthel, la mobilita', gli ausili, le precauzioni per la protesi."),
+ (11,"chiaro",0,"Lo stato cognitivo e il delirium serale, con cio' che la calma: un'informazione preziosa per chi la accoglie. Il rischio di caduta e le misure adottate. La cute e i talloni."),
+ (11,"chiaro",0,"Alimentazione, idratazione, continenza. La terapia, con la riconciliazione: la benzodiazepina e' stata sospesa? La rete familiare, e l'educazione gia' fatta alla figlia."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"La prevenzione: che cosa si poteva fare. All'ingresso, la valutazione del rischio di caduta e del delirium. Le misure non farmacologiche dal primo giorno. Niente benzodiazepine al bisogno in un'anziana con demenza."),
+ (12,"chiaro",0,"Il letto basso invece delle sponde. L'accompagnamento programmato al bagno. Il coinvolgimento dei familiari. La segnalazione precoce dei bisogni di dimissione. Nessuna e' costosa, e tutte sono infermieristiche."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori da evitare. Sollevare subito la persona caduta. Dimenticare l'anticoagulante e la sorveglianza neurologica. Non segnalare l'evento."),
+ (13,"chiaro",0,"Attribuire la confusione alla demenza, invece di riconoscere un delirium. Rispondere alla richiesta di contenzione con un si', o con un no secco senza alternative. E pensare alla dimissione il giorno prima."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Un approfondimento: parlare con una persona in delirium, che e' anche una forma di cura. Ci si avvicina di fronte, ci si presenta ogni volta, la si chiama per nome. Frasi brevi, una richiesta alla volta, tono calmo."),
+ (14,"chiaro",0,"Non si contraddicono i contenuti e non si discute: si riconosce l'emozione. Capisco che vuole tornare a casa. Poi si riorienta con delicatezza, dicendo dove siamo e che ora e'."),
+ (14,"chiaro",0,"Di notte si riducono rumori e luci forti. Aiutano gli oggetti familiari e le fotografie. E spesso l'intervento piu' efficace e' la presenza di un familiare: una voce conosciuta calma piu' di qualsiasi farmaco."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"[curious] Le domande d'orale. Prima: delirium o demenza? Il delirium ha esordio acuto, decorso fluttuante, attenzione compromessa, ed e' spesso reversibile se si tratta la causa."),
+ (15,"chiaro",0,"La demenza ha esordio insidioso e decorso progressivo, con l'attenzione conservata nelle fasi iniziali; e le due possono coesistere. Seconda: che cosa fa davanti a un paziente caduto?"),
+ (15,"chiaro",0,"Non lo sollevo subito. Valuto coscienza, parametri, glicemia, segni di trauma cranico e di frattura. Chiamo aiuto e il medico, considero l'anticoagulante, lo mobilizzo con ausili, documento e segnalo."),
+ (15,"chiaro",0,"Terza: che cos'e' l'UVMD? L'Unita' di Valutazione Multidimensionale Distrettuale: valuta la persona con bisogni complessi, con strumenti come la SVaMA, e definisce progetto individuale e accesso ai servizi."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello. Anziana con demenza lieve, in terapia anticoagulante e con benzodiazepina serale, che in corso di infezione presenta delirium iperattivo e cade dal letto scavalcando le sponde."),
+ (16,"chiaro",0,"Arto accorciato ed extraruotato: sospetta frattura di femore e rischio di emorragia intracranica. Non la sollevo subito: valuto ABC, coscienza, pupille, trauma cranico, dolore, parametri e glicemia."),
+ (16,"chiaro",0,"Chiamo aiuto e avviso il medico. Immobilizzo l'arto e la sollevo con piu' operatori e ausili. Analgesia secondo prescrizione; avvio la sorveglianza neurologica e collaboro alla TC."),
+ (16,"chiaro",0,"Segnalo l'evento, documento e informo la figlia, proponendo alternative alla contenzione. Segnalo la benzodiazepina. Prevengo delirium e lesioni dei talloni. Avvio presto la dimissione protetta, con COT e UVMD."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"I collegamenti. Cadute e contenzione con la tre punto uno. Raccomandazione tredici e incident reporting con la due punto sei. La frattura di femore con la nove punto sei."),
+ (17,"chiaro",0,"Il delirium e i farmaci inappropriati con la undici punto uno, la demenza con la undici punto due, la rete con la tredici punto cinque, la dimissione protetta con la nove punto sette e la undici punto sette."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: le sponde non fermano chi vuole alzarsi, lo fanno cadere da piu' in alto. La sicurezza di un'anziana confusa si costruisce con la presenza e l'organizzazione, non con le barriere."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: un paziente diabetico ricoverato per un'ulcera del piede, che alle sei del mattino e' sudato e tremante. Insulina, ipoglicemia, piede diabetico ed educazione. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Dopo la caduta: non sollevarla subito",4:"Il dettaglio che cambia la priorita'",
+ 5:"La mobilizzazione e la documentazione",6:"Perche' e' caduta",7:"La figlia: legatela",8:"La frattura di femore",
+ 9:"Quinta giornata dopo l'intervento",10:"Il percorso nella rete veneta",11:"La lettera infermieristica",12:"La prevenzione",
+ 13:"Gli errori da evitare",14:"Parlare con una persona in delirium",15:"Le domande d'orale",16:"La risposta modello",
+ 17:"I collegamenti",18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

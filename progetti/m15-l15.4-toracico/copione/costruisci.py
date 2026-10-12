@@ -4,76 +4,79 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Un uomo entra in pronto soccorso con un dolore al petto. In meno di mezz'ora attraversera' il triage, la diagnosi di infarto, un arresto cardiaco e la rianimazione, fino all'emodinamica."),
+ (1,"chiaro",0,"E' il caso piu' tempo-dipendente del modulo. Mette alla prova il triage della lezione dieci punto uno, l'infarto della otto punto uno, la rianimazione della dieci punto tre e la rete veneta della tredici punto tre."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Ore nove e quaranta. Il signor Ferri, sessantuno anni, fumatore e iperteso, arriva accompagnato dalla moglie. Ha un dolore retrosternale oppressivo da cinquanta minuti, irradiato alla mandibola. E' sudato e ha nausea."),
+ (2,"chiaro",0,"[curious] Pressione centootto su settanta, frequenza cinquantotto, respiratoria venti, saturazione novantasei in aria, e' vigile. Sei l'infermiere di triage: quale codice, e che cosa fai?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il triage. Le funzioni vitali sono conservate, quindi non e' un codice uno. Ma c'e' un rischio concreto di compromissione: un dolore toracico tipico, con sudorazione."),
+ (3,"chiaro",0,"E' un codice due, arancione, o il codice che il protocollo locale prevede per il dolore toracico, con l'attivazione del percorso dedicato."),
+ (3,"chiaro",0,"L'azione piu' importante: l'ECG a dodici derivazioni entro dieci minuti dal primo contatto. E il paziente non resta in sala d'attesa: va in un'area monitorata."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Alle nove e quarantasette l'ECG mostra un sopraslivellamento del tratto ST nelle derivazioni due, tre e a vu effe. E' uno STEMI inferiore."),
+ (4,"chiaro",0,"Ora la frequenza di cinquantotto ha un senso. Nell'infarto inferiore una bradicardia e' frequente, perche' la coronaria destra irrora spesso il nodo senoatriale."),
+ (4,"chiaro",0,"L'ECG va mostrato subito al medico, che attiva la rete STEMI e l'emodinamica. Ricordi la lezione tredici punto tre: il paziente va portato il prima possibile nel centro con l'emodinamica."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Le azioni, mentre si attiva l'emodinamica. Monitor e defibrillatore pronti, con le placche gia' applicate se previsto. Riposo e rassicurazione. L'ossigeno non e' indicato, con una saturazione di novantasei."),
+ (5,"chiaro",0,"Due accessi venosi secondo protocollo, lasciando libero l'arto previsto per l'accesso arterioso della coronarografia, se indicato. I prelievi: troponina, emocromo, coagulazione, elettroliti, funzione renale."),
+ (5,"chiaro",0,"I farmaci, secondo prescrizione o protocollo: antiaggreganti, anticoagulante, analgesia. E la preparazione all'emodinamica: consenso, allergie, soprattutto al contrasto, funzione renale, rimozione di protesi e monili."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[thoughtful] E ora una trappola, tipica dei quiz. Viene chiesto di preparare un nitrato sublinguale per il dolore. Ma e' un infarto inferiore, che puo' coinvolgere il ventricolo destro."),
+ (6,"chiaro",0,"Lo si verifica con le derivazioni destre dell'ECG. E la pressione e' gia' centootto. Nell'infarto del ventricolo destro i nitrati possono causare un'ipotensione grave."),
+ (6,"chiaro",0,"L'infermiere segnala il dubbio e chiede conferma prima di somministrare. E chiede se ha preso farmaci per la disfunzione erettile nelle ultime ore, l'altra controindicazione. E' il suo ruolo di barriera."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"[serious] Ore dieci e cinque. Il signor Ferri porta la mano al petto e perde coscienza. Sul monitor compare una fibrillazione ventricolare. E' un arresto testimoniato e monitorato. Che cosa fai, e in che ordine?"),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Chiami aiuto e il team. Confermi in pochi secondi che non risponde e non respira normalmente. Il ritmo e' defibrillabile e il defibrillatore e' gia' collegato: la priorita' e' la defibrillazione immediata."),
+ (8,"chiaro",0,"Le linee guida europee prevedono che, in un arresto testimoniato e monitorato in fibrillazione ventricolare, con il defibrillatore subito disponibile, si possano erogare fino a tre shock in rapida successione."),
+ (8,"chiaro",0,"Si verifica il ritmo dopo ciascuno. Poi si riprende la rianimazione, trenta a due, per due minuti. E durante ogni shock nessuno tocca il paziente."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Il team, con ruoli chiari. Il leader, che dirige e decide. Chi fa le compressioni, con il cambio ogni due minuti. Chi gestisce defibrillatore e monitor. Chi le vie aeree, con pallone e ossigeno."),
+ (9,"chiaro",0,"Chi gestisce l'accesso e i farmaci, secondo l'algoritmo: adrenalina e amiodarone dopo il terzo shock, se la fibrillazione persiste. E il timekeeper, che registra l'ora dell'arresto, i ritmi, gli shock e i farmaci."),
+ (9,"chiaro",0,"Tutto con una comunicazione a ciclo chiuso: carico un milligrammo di adrenalina; adrenalina somministrata alle dieci e nove."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Alle dieci e sette, dopo il secondo shock, compare un ritmo organizzato. C'e' il polso e il paziente respira: e' il ritorno della circolazione spontanea. Iniziano le cure post-arresto della dieci punto tre."),
+ (10,"chiaro",0,"ABCDE, saturazione fra novantaquattro e novantotto, evitare l'ipotensione. ECG a dodici derivazioni e glicemia. Controllo della temperatura, per evitare la febbre. Monitoraggio continuo, e tutti gli orari registrati."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Il trasferimento in emodinamica avviene con monitor e defibrillatore, ossigeno, farmaci d'emergenza e personale adeguato."),
+ (11,"chiaro",0,"Nelle consegne SBAR: l'ora d'inizio del dolore, l'ECG, la terapia, l'arresto, con ritmo, numero di shock e tempo al ritorno del circolo, e lo stato attuale. L'ora del dolore conta quanto quella dell'arresto."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"La moglie era presente all'arrivo e durante l'arresto. Se possibile, un operatore si dedica a lei. Le informazioni cliniche le da' il medico, in un luogo riservato. E la si informa del trasferimento."),
+ (12,"chiaro",0,"Le linee guida considerano che la presenza dei familiari durante la rianimazione possa essere offerta, con un operatore che li supporti e spieghi cio' che accade."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Dopo l'angioplastica, in unita' coronarica, si sorveglia la sede di accesso arterioso, radiale o femorale: sanguinamento, ematoma, polso e perfusione a valle, con i dispositivi di compressione secondo protocollo."),
+ (13,"chiaro",0,"Poi il ritmo, e un'eventuale recidiva del dolore. La funzione renale dopo il mezzo di contrasto, con l'idratazione. E una mobilizzazione graduale."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"L'educazione alla dimissione. La doppia antiaggregazione non va mai sospesa di propria iniziativa, perche' lo stent potrebbe trombizzarsi. E va segnalata a ogni medico e al dentista, prima di qualsiasi procedura."),
+ (14,"chiaro",0,"Smettere di fumare. Controllare pressione, colesterolo, glicemia e peso. Attivita' fisica e riabilitazione cardiologica. Riconoscere i sintomi, e chiamare subito il centododici o il centodiciotto, senza mettersi alla guida."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Gli errori. Lasciare il paziente in sala d'attesa perche' i parametri sono buoni. Fare l'ECG oltre i dieci minuti. Dare l'ossigeno di routine."),
+ (15,"chiaro",0,"Somministrare nitrati senza valutare pressione, ventricolo destro e farmaci assunti. Nell'arresto monitorato, ritardare la defibrillazione. E non registrare gli orari."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Un tema che il caso porta con se': il consenso in urgenza. All'arrivo il signor Ferri e' cosciente e capace: anche in urgenza lo si informa, con parole essenziali e comprensibili, e si raccoglie il consenso."),
+ (16,"chiaro",0,"Senza rinunciarvi per fretta. Se invece la persona e' incosciente e in pericolo di vita, come durante l'arresto, la legge duecentodiciannove, all'articolo uno, prevede che si assicurino le cure necessarie."),
+ (16,"chiaro",0,"Nel rispetto della volonta' del paziente, ove le condizioni cliniche lo consentano. Le disposizioni anticipate o le volonta' espresse vanno considerate. E l'infermiere informa per quanto di sua competenza, e documenta."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"Le domande d'orale. Prima: quali ritmi sono defibrillabili, e quali no? Defibrillabili sono la fibrillazione ventricolare e la tachicardia ventricolare senza polso."),
+ (17,"chiaro",0,"Non defibrillabili sono l'asistolia e l'attivita' elettrica senza polso: li' contano la rianimazione di qualita', l'adrenalina e la ricerca delle cause reversibili."),
+ (17,"chiaro",0,"Seconda: perche' niente ossigeno di routine? Con una saturazione normale non porta benefici, e l'eccesso di ossigeno puo' essere dannoso. Si somministra quando la saturazione e' bassa."),
+ (17,"chiaro",0,"Terza: il ruolo dell'infermiere nel team? Compressioni e cambi, defibrillazione, accesso venoso e farmaci, supporto alle vie aeree, tempi e registrazione. Con la comunicazione a ciclo chiuso e un leader chiaro."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"La risposta modello. Paziente di sessantuno anni con dolore toracico tipico da cinquanta minuti, sudorazione e parametri conservati: al triage assegno un codice di elevata priorita' e attivo il percorso dolore toracico."),
+ (18,"chiaro",0,"Eseguo l'ECG entro dieci minuti e lo mostro subito al medico: e' uno STEMI inferiore, e si attiva la rete. Area monitorata, defibrillatore pronto, riposo; niente ossigeno con saturazione novantasei."),
+ (18,"chiaro",0,"Accessi, prelievi e terapia prescritta; segnalo la cautela sui nitrati; preparo alla procedura. In fibrillazione ventricolare defibrillo subito e registro gli orari. Trasferimento monitorato, SBAR, supporto alla moglie."),
+
+ (19,"chiaro",0,"I collegamenti. Il triage con la dieci punto uno. STEMI, nitrati ed ECG con la otto punto uno. La rianimazione con la dieci punto tre. Il contrasto con la quattordici punto sette."),
+ (19,"chiaro",0,"Gli antiaggreganti con la cinque punto cinque. La rete veneta con la tredici punto tre. E il sistema di conduzione con la quattordici punto due."),
+
+ (20,"profondo",1.2,"La frase del caso: dieci minuti per l'ECG, pochi secondi per lo shock. [warm] Nella prossima lezione, una paziente con BPCO che, messa tranquilla con molto ossigeno, diventa sempre piu' sonnolenta. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il triage",4:"L'ECG",5:"Le azioni mentre si attiva l'emodinamica",
+ 6:"La trappola dei nitrati",7:"Ore 10:05: l'arresto",8:"Le azioni nell'arresto monitorato",9:"Il team",
+ 10:"Ore 10:07: il ritorno della circolazione",11:"Il trasferimento in emodinamica",12:"La moglie",13:"Dopo l'angioplastica",
+ 14:"L'educazione alla dimissione",15:"Gli errori da evitare",16:"Il consenso in urgenza",17:"Le domande d'orale",
+ 18:"La risposta in 15 righe",19:"I collegamenti",20:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

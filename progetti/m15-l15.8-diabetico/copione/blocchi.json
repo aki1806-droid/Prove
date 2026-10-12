@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il paziente diabetico e' presente in quasi ogni reparto, e porta con se' tre rischi che l'infermiere gestisce ogni giorno: l'ipoglicemia, gli errori con l'insulina, le lesioni del piede."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questo caso li mette insieme. E mostra come un dato apparentemente secondario, la funzione renale, cambi il ragionamento."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Il signor Antonio ha settantuno anni e un diabete di tipo due in insulina: la basale la sera, la rapida ai pasti. Ha un'insufficienza renale cronica, con un GFR stimato di quarantadue."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' ricoverato per un'ulcera plantare infetta, sotto la testa del primo metatarso destro. Ieri sera ha mangiato poco per la nausea, ma ha ricevuto le dosi abituali di insulina."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle sei e trenta e' sudato, tremante, confuso, ma risponde e deglutisce. La glicemia capillare e' quarantotto. Che cosa fai?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le azioni. Il paziente e' cosciente e deglutisce: si applica la regola del quindici. Quindici grammi di zuccheri semplici, per esempio tre bustine di zucchero sciolte in acqua, o un bicchiere di succo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si ricontrolla dopo quindici minuti, e si ripete se la glicemia e' ancora sotto settanta. Alla risoluzione, uno spuntino con carboidrati complessi, oppure si anticipa la colazione, per evitare una recidiva."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non fosse cosciente o non deglutisse: niente per bocca, ma glucagone o glucosio endovena secondo protocollo. Poi si avvisa il medico e si documenta. Alle sei e quarantacinque: glicemia novantasei, e lui e' lucido."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Ora la domanda piu' importante: perche' e' successo? Le cause sono piu' d'una. Uno: una cena ridotta, con una dose piena di insulina rapida."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: l'insufficienza renale, che rallenta l'eliminazione dell'insulina e ne prolunga l'effetto, come nella lezione quattordici punto quattro. Tre: l'infezione migliora con l'antibiotico, e cala il fabbisogno di insulina."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: la dose basale serale non e' stata rivalutata. Il risultato pratico: lo schema va rivisto con il medico, e l'infermiere porta i dati per farlo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione dell'insulina ai pasti previene casi come questo. Glicemia prima di ogni somministrazione, e rapida coordinata con l'arrivo del pasto. A digiuno per un esame o un intervento, lo schema si rivede con il medico."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se l'assunzione e' incerta, per nausea o inappetenza, si segue il protocollo: puo' prevedere la rapida subito dopo il pasto, in base a quanto il paziente ha davvero mangiato. E le variazioni si comunicano nelle consegne."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] L'insulina e' un farmaco ad alto livello di attenzione, con errori tipici. La prescrizione va in unita' scritte per esteso: la U puo' essere letta come uno zero, e dieci U diventare cento."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Siringhe da insulina o penne, mai generiche. La penna e' personale, mai condivisa fra pazienti, nemmeno cambiando l'ago. Doppio controllo secondo procedura. La penna in uso a temperatura ambiente, le scorte in frigorifero."
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il piede. La sede plantare, sotto una prominenza ossea, indica una componente neuropatica: la persona non sente il dolore, ed e' per questo che l'ulcera e' arrivata a infettarsi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si valutano i segni di infezione: rossore, calore, edema, secrezione, odore. Se lo specillo, nel sondaggio, arriva all'osso, si sospetta un'osteomielite, da confermare con l'imaging."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si documenta con il metodo TIME della lezione sette punto uno: dimensioni, fondo, essudato, margini, cute perilesionale."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La perfusione. Polsi pedidio e tibiale posteriore, colorito, temperatura, riempimento capillare. E un dettaglio che i quiz amano: l'indice caviglia-braccio della lezione sette punto tre."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel diabetico puo' essere falsamente normale, o addirittura elevato, perche' le arterie calcificate non si lasciano comprimere dal bracciale."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Allora si usano altri esami, come l'indice alluce-braccio o l'ossimetria transcutanea, secondo indicazione. E se c'e' un'arteriopatia, la ferita non guarira' senza una rivascolarizzazione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trattamento del piede. Prima di tutto lo scarico, l'offloading: niente carico sull'ulcera, con calzature o tutori specifici, ausili e riposo dell'arto. Senza scarico l'ulcera non guarisce, qualunque medicazione si usi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi medicazione secondo valutazione, antibiotico secondo prescrizione, controllo glicemico, perche' l'iperglicemia ritarda la guarigione, nutrizione. E si proteggono talloni e piede controlaterale, a rischio quanto l'altro."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso mostra un equilibrio difficile. Troppo zucchero favorisce l'infezione e rallenta la guarigione. Troppo poco porta ipoglicemie, cadute, aritmie."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo in reparto e' indicativamente fra centoquaranta e centottanta, personalizzato. E nell'anziano con insufficienza renale la priorita' e' evitare l'ipoglicemia, piu' pericolosa di una glicemia moderatamente alta."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione per il piede, che e' prevenzione delle amputazioni. L'ispezione quotidiana, anche con uno specchio o con l'aiuto di un familiare, perche' la neuropatia toglie il dolore che avviserebbe."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il lavaggio con acqua tiepida, di cui si controlla la temperatura, e l'asciugatura accurata fra le dita. La crema idratante, ma non fra le dita. Le unghie tagliate dritte, le callosita' dal podologo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mai camminare scalzi. Scarpe comode, controllandone l'interno prima di indossarle. Niente borse dell'acqua calda. E ogni lesione si segnala subito."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E l'educazione sull'ipoglicemia: riconoscerne i sintomi, anche quelli notturni, come sudorazione, incubi, cefalea al risveglio. Avere sempre zuccheri con se'. Conoscere la regola del quindici."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi le regole dei giorni di malattia della lezione otto punto tre, che qui si leggono anche al contrario. Quando si mangia meno, non si sospende di propria iniziativa l'insulina basale."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si misura piu' spesso, e si contatta il medico per adattare le dosi. Il percorso continua nell'ambulatorio del piede diabetico e in diabetologia."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Dare la stessa dose di rapida senza considerare il pasto. Dimenticare la funzione renale. Trattare l'ipoglicemia senza cercarne la causa. Dare zuccheri per bocca a chi non deglutisce."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Scrivere, o accettare, la U per unita'. Fidarsi di un ABI normale nel diabetico. Medicare senza scaricare il piede."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento per il turno di notte: l'ipoglicemia notturna. Di notte i sintomi possono essere mascherati dal sonno."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segnali da cogliere: sudorazione, agitazione, respiro rumoroso, un risveglio confuso, incubi, cefalea al mattino. I beta-bloccanti possono mascherare il tremore e la tachicardia, i segnali d'allarme piu' evidenti."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anziani e insufficienza renale sono piu' a rischio: nei pazienti a rischio, controlli notturni secondo prescrizione o protocollo. E una cena ridotta con insulina invariata va detta nelle consegne."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: come si tratta l'ipoglicemia? Nel cosciente che deglutisce, con la regola del quindici: quindici grammi di zuccheri semplici, ricontrollo dopo quindici minuti, poi carboidrati complessi."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel paziente incosciente niente per bocca, ma glucagone o glucosio endovena secondo protocollo. Seconda: perche' l'indice caviglia-braccio e' inaffidabile nel diabetico?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' le arterie calcificate non si comprimono, e il valore risulta falsamente normale o elevato: si ricorre ad altri esami, come l'indice alluce-braccio. Terza: che cosa insegna per il piede?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ispezione quotidiana, igiene con acqua tiepida e asciugatura fra le dita, niente piedi nudi, scarpe adeguate, niente fonti di calore, e segnalazione immediata di ogni lesione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente diabetico in insulina, con insufficienza renale cronica, che dopo una cena ridotta e dosi abituali presenta sudorazione, tremori, confusione e glicemia quarantotto: ipoglicemia sintomatica."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cosciente e in grado di deglutire: applico la regola del quindici, ricontrollo dopo quindici minuti e poi do carboidrati complessi. Se fosse incosciente, niente per bocca, ma glucagone o glucosio endovena."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Avviso il medico e documento. Analizzo le cause per la revisione dello schema; poi verifico la glicemia prima di ogni dose, e coordino la rapida con l'effettiva assunzione del pasto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per l'ulcera valuto infezione e perfusione, garantisco scarico, medicazione e controllo glicemico. Educo a riconoscere l'ipoglicemia e alla cura del piede, con il teach-back."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Insuline e ipoglicemia con la cinque punto cinque. Il diabete in ospedale con la otto punto tre. Il TIME e le medicazioni con la sette punto uno e la sette punto cinque."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Arteriopatia e ABI con la sette punto tre. Rene e farmaci con la quattordici punto quattro. E i farmaci ad alto livello di attenzione con la cinque punto quattro."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: ogni ipoglicemia ha una causa. Trattarla senza cercarla significa aspettare la prossima."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: una paziente in chemioterapia con la febbre, nove giorni dopo l'ultimo ciclo. Neutropenia, catetere venoso, piastrine basse e la dimensione umana della malattia oncologica. A tra poco."
+ }
+]

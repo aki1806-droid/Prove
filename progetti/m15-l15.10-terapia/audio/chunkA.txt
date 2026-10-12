@@ -1,0 +1,51 @@
+[warm] In questo caso non c'e' un solo paziente: c'e' un turno di mattina in medicina, con quattro trappole nella terapia, chieste spesso all'esame. In ognuna, l'infermiere e' l'ultima barriera fra un errore e un danno.
+
+Useremo le lezioni cinque punto tre, quattro, sei e sette: i calcoli, la sicurezza, gli oppioidi, i farmaci ad alto rischio. E poi la trasfusione della sei punto sei, e la responsabilita' della uno punto cinque.
+
+[curious] Trappola uno, ore otto. Un paziente ha il potassio a tre virgola zero. In cartella trovi scritto: cloruro di potassio, venti milliequivalenti, endovena, in bolo. Pausa: che cosa fai?
+
+Il potassio concentrato in bolo puo' causare un arresto cardiaco. E' una prescrizione palesemente errata, e non si esegue. Si contatta subito il medico, per la correzione.
+
+Il potassio endovena si somministra sempre diluito, con pompa, a velocita' controllata secondo protocollo. Piu' lento in vena periferica, e con il monitoraggio ECG se concentrazione o velocita' sono elevate.
+
+Ricordi la Raccomandazione uno: le fiale di cloruro di potassio concentrato vanno conservate separate e segnalate. E la richiesta di chiarimento al medico si documenta.
+
+Una domanda d'orale collegata: l'infermiere che esegue una prescrizione palesemente errata ne risponde? Si': la responsabilita' e' anche sua, come hai visto nella lezione uno punto cinque.
+
+Trappola due, ore dieci. La prescrizione: eparina sodica, venticinquemila unita' in cinquanta millilitri di fisiologica, da infondere a mille unita' all'ora.
+
+La pompa, impostata da un collega nella notte, scorre a venti millilitri all'ora. Pausa: e' corretto? Prima di rispondere, fai il calcolo.
+
+Il calcolo. La concentrazione e' venticinquemila diviso cinquanta: cinquecento unita' per millilitro. La velocita' corretta e' mille diviso cinquecento: due millilitri all'ora.
+
+La pompa a venti millilitri all'ora eroga invece diecimila unita' all'ora: dieci volte la dose. E' l'errore tipico della virgola: un fattore dieci, che solo il calcolo fa vedere.
+
+Le azioni. Fermare l'infusione. Avvisare subito il medico. Valutare i segni di sanguinamento e i parametri. L'aPTT urgente e la protamina, l'antidoto, secondo prescrizione.
+
+Poi si segnala l'evento, cercando le cause e non i colpevoli. E la prevenzione: il doppio controllo indipendente per i farmaci ad alto livello di attenzione, e le pompe con la libreria dei farmaci.
+
+Trappola tre, ore tredici. Il signor Rino, ottantadue anni, in seconda giornata postoperatoria, riceve morfina endovena, quattro milligrammi ogni quattro ore, piu' una dose al bisogno data alle dodici.
+
+Alle tredici e' molto sonnolento, e risponde a fatica allo stimolo verbale. Frequenza respiratoria otto, pupille miotiche, saturazione ottantotto in aria. Che cosa succede?
+
+[serious] E' una depressione respiratoria da oppioidi: sedazione, bradipnea, miosi. Le azioni: stimolare il paziente e invitarlo a respirare. Ossigeno. Chiamare subito il medico. Sospendere l'oppioide.
+
+Poi il naloxone, secondo prescrizione o protocollo, a piccole dosi titolate. Inverte la depressione respiratoria senza annullare del tutto l'analgesia, e senza scatenare un dolore violento.
+
+Poi il monitoraggio continuo, perche' il naloxone dura meno della morfina: quando il suo effetto finisce, l'oppioide e' ancora li', e il paziente puo' riaddormentarsi.
+
+E la prevenzione: valutare la sedazione prima di ogni dose, perche' la sedazione precede la depressione respiratoria. Con un'attenzione particolare all'anziano e all'insufficienza renale.
+
+Un richiamo alle regole sugli stupefacenti della lezione cinque punto sette. Il registro di carico e scarico, previsto dal DPR trecentonove del millenovecentonovanta, e l'armadio chiuso a chiave.
+
+Ogni somministrazione si registra. Le fiale usate in parte e i residui si smaltiscono secondo procedura, con un testimone. E qualsiasi discrepanza nel registro si segnala subito.
+
+Trappola quattro, ore quindici. Emazie in corso da dieci minuti. Brividi, febbre a trentotto e nove, dolore lombare, angoscia. Pressione ottantacinque su cinquanta, frequenza centoventicinque, urine scure. Che cosa succede?
+
+E' una sospetta reazione emolitica acuta, da incompatibilita' AB0. Le azioni, nell'ordine. La prima: interrompere subito la trasfusione.
+
+Mantenere l'accesso venoso con soluzione fisiologica e un nuovo set, perche' nel deflussore c'e' ancora sangue incompatibile. E chiamare subito il medico.
+
+Parametri ravvicinati e diuresi, per il rischio di danno renale. Verificare al letto l'identita' del paziente e l'etichetta dell'unita'. E i prelievi, secondo procedura.
+
+Sacca e set si inviano al servizio trasfusionale, e si fa la notifica di emovigilanza. La Raccomandazione cinque la definisce un evento sentinella: quasi sempre nasce da un errore di identificazione.

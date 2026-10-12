@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Fino a qui, un paziente alla volta. Ma in reparto la realta' e' un'altra: piu' pazienti insieme, un'equipe da coordinare, gli imprevisti, e a volte un familiare che perde il controllo."),
+ (1,"chiaro",0,"Questo caso allena tre competenze che l'orale verifica spesso: stabilire le priorita', attribuire e supervisionare le attivita', e gestire un'aggressione."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Turno pomeridiano in medicina. Hai sei pazienti, con un OSS e un assistente infermiere, dove e' presente in organico. Sono le quattordici, e le consegne sono appena finite."),
+ (2,"chiaro",0,"Letto uno: Paolo, sessantaquattro anni, anemia: da dieci minuti ha un peso al petto, ed e' sudato. Letto due: Ida, settantasette anni, BPCO, satura ottantanove con gli occhialini; il suo target e' ottantotto-novantadue."),
+ (2,"chiaro",0,"Letto tre: Luca, diabetico, glicemia duecentottanta, senza sintomi. Letto quattro: Rosa, ottantacinque anni, allettata, Braden dodici, con igiene e riposizionamento previsti alle quattordici."),
+ (2,"chiaro",0,"Letto cinque: Franco, dimissione domani, educazione all'eparina da completare, il figlio arriva alle diciassette. Letto sei: Anna, antibiotico endovena alle quattordici. Pausa: in che ordine?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[serious] Le priorita'. Primo, Paolo: dolore toracico e sudorazione, in un anemico, possono essere una sindrome coronarica o un'ischemia da anemia. Valutazione immediata, ECG entro dieci minuti, parametri, medico."),
+ (3,"chiaro",0,"Seconda, Anna: l'antibiotico ha un orario, e un breve ritardo e' accettabile, se documentato. Terzo, Luca: iperglicemia senza sintomi. Si valuta, si applica lo schema prescritto, si informa il medico."),
+ (3,"chiaro",0,"Quarta, Ida: stabile, e dentro il suo target. Il trabocchetto e' considerare urgente una saturazione di ottantanove, che per lei e' corretta."),
+ (3,"chiaro",0,"Quinta, Rosa: un'attivita' di prevenzione che si puo' attribuire. Sesto, Franco: l'educazione si programma alle diciassette, con il figlio presente."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Il ragionamento dietro l'ordine. Prima l'instabilita' e il rischio di peggioramento rapido. Poi la tempo-dipendenza. Poi la competenza: infermieristica e non delegabile, oppure attribuibile ad altri."),
+ (4,"chiaro",0,"Un'attivita' puo' essere importante ma attribuibile, come l'igiene di Rosa; un'altra meno urgente ma non attribuibile, come l'educazione di Franco. E' la distinzione che il commissario vuole sentire."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"L'attribuzione. Attribuire significa affidare un'attivita', non la responsabilita' dell'assistenza: quella resta all'infermiere."),
+ (5,"chiaro",0,"I criteri: la stabilita' clinica del paziente, la prevedibilita' dell'esito, la complessita' dell'attivita', il profilo e le competenze dell'operatore, la possibilita' di supervisione."),
+ (5,"chiaro",0,"Non si attribuiscono la valutazione, la pianificazione, il giudizio clinico, l'educazione terapeutica, e le attivita' riservate alla competenza infermieristica."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Le due figure di supporto. L'OSS svolge l'assistenza diretta di base: igiene, mobilizzazione, alimentazione e comfort, e le attivita' alberghiere, secondo il profilo e le procedure aziendali."),
+ (6,"chiaro",0,"L'assistente infermiere e' il profilo istituito con un accordo Stato-Regioni e recepito nel contratto duemilaventidue-duemilaventiquattro. Svolge le attivita' del suo profilo, attribuite e supervisionate dall'infermiere."),
+ (6,"chiaro",0,"Una raccomandazione di metodo: le attivita' consentite si verificano sempre nei documenti di riferimento e nelle procedure dell'azienda, perche' e' un ambito in evoluzione."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Come si attribuisce bene. Un'istruzione chiara: che cosa, a chi, come, entro quando, e soprattutto che cosa riferire. Un pensaci tu alla quattro non e' un'attribuzione: e' un rischio."),
+ (7,"chiaro",0,"Per Rosa: alle quattordici e quindici, igiene e riposizionamento sul fianco sinistro, con lo scarico dei talloni con il cuscino."),
+ (7,"chiaro",0,"Guarda la cute di sacro e talloni, e chiamami se vedi arrossamenti che non scompaiono alla pressione, o se riferisce dolore. Poi la verifica al termine, e la documentazione."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La responsabilita'. L'infermiere risponde della scelta dell'attivita', dell'operatore e della supervisione; l'operatore, dell'esecuzione. Attribuire a chi non e' competente, o non supervisionare, espone a responsabilita'."),
+ (8,"chiaro",0,"Il fondamento e' il profilo, il DM settecentotrentanove del millenovecentonovantaquattro: l'infermiere e' responsabile dell'assistenza generale infermieristica e, dove necessario, si avvale del personale di supporto."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[curious] Ore sedici e trenta. Il figlio di Rosa arriva al bancone e alza la voce: mia madre e' sporca, la lasciate cosi', vi denuncio tutti! Si avvicina, gesticola, altri visitatori osservano. Che cosa fai?"),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La de-escalation della lezione due punto sette. Prima la sicurezza: la distanza, una via d'uscita libera, non restare soli, i colleghi avvisati. Un tono calmo e basso, una postura aperta."),
+ (10,"chiaro",0,"L'ascolto, senza interrompere. Riconoscere l'emozione: vedo che e' molto preoccupato per sua madre. E spostarsi in un luogo riservato, lontano dagli altri visitatori."),
+ (10,"chiaro",0,"Verificare insieme la situazione, senza promesse e senza accuse: magari Rosa si e' sporcata dopo l'igiene delle quattordici. Offrire una soluzione concreta. E se l'escalation continua, la vigilanza o le forze dell'ordine."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Dopo l'episodio. Si segnala secondo la procedura aziendale, come prevede la Raccomandazione otto. In caso di lesioni si fa refertare: sono procedibili d'ufficio, con la legge centotredici del duemilaventi."),
+ (11,"chiaro",0,"Il contratto duemilaventidue-duemilaventiquattro prevede il patrocinio legale e il supporto psicologico. E con l'equipe si fa un debriefing."),
+ (11,"chiaro",0,"E una cosa che spesso si dimentica: si verifica comunque l'assistenza, perche' una protesta, anche espressa male, puo' segnalare un bisogno reale. Il dialogo con il figlio si riprende a mente fredda."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Il resto del turno. Paolo: l'ECG non mostra alterazioni acute, la troponina e' in corso, e il medico prescrive una trasfusione per l'anemia, da sorvegliare. Anna: antibiotico alle quattordici e venticinque, documentato."),
+ (12,"chiaro",0,"Luca: correzione secondo schema, e rivalutazione. Ida: stabile. Rosa: cute integra, documentata. Franco: l'educazione con il figlio alle diciassette, con il teach-back sull'autosomministrazione dell'eparina."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Le consegne delle ventuno, con lo SBAR, cominciando dai pazienti instabili. Per Paolo. Situazione: letto uno, alle quattordici dolore toracico durato quindici minuti, ora asintomatico."),
+ (13,"chiaro",0,"Background: anemia, emoglobina sette virgola due, in trasfusione della seconda unita'. Accertamento: ECG senza alterazioni acute, prima troponina negativa, parametri stabili."),
+ (13,"chiaro",0,"Raccomandazione: seconda troponina alle ventidue, sorveglianza della trasfusione, chiamare se il dolore si ripresenta. Chi riceve sa esattamente che cosa fare."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Il tempo e le interruzioni. Il turno si pianifica subito dopo le consegne: le attivita' a orario, quelle programmabili, lo spazio per gli imprevisti. E le interruzioni nella preparazione della terapia causano errori."),
+ (14,"chiaro",0,"Per questo un'area dedicata, i segnali di non disturbare, un paziente alla volta. Le priorita' si rivalutano a ogni cambiamento. E se il carico e' eccessivo si chiede aiuto e si segnala: e' responsabilita', non debolezza."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Le domande d'orale. Prima: con quali criteri attribuisce un'attivita' all'OSS? Stabilita', prevedibilita', complessita', profilo dell'operatore, supervisione. Con istruzioni chiare e la verifica finale."),
+ (15,"chiaro",0,"E tenendo per se' valutazione, pianificazione ed educazione. Seconda: come gestisce un familiare aggressivo? Prima la sicurezza, poi la de-escalation: ascolto, riconoscimento dell'emozione, tono calmo, luogo riservato."),
+ (15,"chiaro",0,"La vigilanza se serve, e la segnalazione. Terza: che cos'e' lo SBAR? Comunicazione strutturata, situazione, background, accertamento, raccomandazione: nelle consegne, nelle chiamate al medico, nei trasferimenti."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello. All'inizio del turno stabilisco le priorita' in base a instabilita', tempo-dipendenza e competenza richiesta. Valuto per primo il paziente con dolore toracico: parametri, ECG entro dieci minuti, medico."),
+ (16,"chiaro",0,"Poi l'antibiotico a orario. Valuto il paziente con iperglicemia, e riconosco come stabile la paziente con BPCO in target."),
+ (16,"chiaro",0,"Attribuisco all'OSS igiene e riposizionamento della paziente allettata, con istruzioni chiare su che cosa fare, entro quando e che cosa riferire, e verifico. Tengo per me valutazione, terapia endovena ed educazione."),
+ (16,"chiaro",0,"Con il familiare aggressivo garantisco la sicurezza, applico la de-escalation in un luogo riservato, chiamo la vigilanza se serve, e segnalo. Documento, e trasmetto le consegne SBAR dai pazienti instabili."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"I collegamenti: profilo e responsabilita' con la uno punto uno e la uno punto due; de-escalation e SBAR con la due punto sette; la Raccomandazione otto con la due punto sei."),
+ (17,"chiaro",0,"Il contratto e l'assistente infermiere con la dodici punto cinque; la sicurezza sul lavoro con la dodici punto sei; le lesioni da pressione con la tre punto due."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: si attribuisce un'attivita', non si delega la responsabilita'. E la priorita' non e' chi chiama piu' forte, ma chi rischia di piu'."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione chiudiamo il modulo: il riepilogo dello schema, sei casi lampo su temi che non abbiamo sviluppato per esteso, e le tracce piu' probabili. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario: le consegne delle 14",3:"Le priorita'",4:"Il ragionamento dietro l'ordine",
+ 5:"L'attribuzione: i criteri",6:"OSS e assistente infermiere",7:"Come si attribuisce bene",8:"La responsabilita'",
+ 9:"Ore 16:30: il familiare",10:"La de-escalation",11:"Dopo l'episodio",12:"Il resto del turno",13:"Le consegne delle 21",
+ 14:"Il tempo e le interruzioni",15:"Le domande d'orale",16:"La risposta in 15 righe",17:"I collegamenti",
+ 18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

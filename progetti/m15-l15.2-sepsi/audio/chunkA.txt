@@ -1,0 +1,47 @@
+[warm] Il primo caso e' uno dei piu' probabili all'esame, e dei piu' frequenti nella realta': un paziente di medicina che, durante la notte, comincia a peggiorare.
+
+Qui l'infermiere fa la differenza piu' grande, perche' e' spesso l'unico accanto al letto quando i segni compaiono. Collegheremo le lezioni due punto tre, due punto sette, sei punto sette, dieci punto due e dieci punto sei.
+
+Lo scenario. Signor Bruno, settantotto anni, ricoverato alle diciotto in medicina per polmonite. E' diabetico in terapia orale, e iperteso.
+
+Alle ventidue: febbre a trentotto virgola due, pressione centoventotto su settantaquattro, frequenza novantasei, respiratoria venti, saturazione novantaquattro in aria. Vigile e orientato.
+
+L'antibiotico e' prescritto, con la prima dose alle ventiquattro. Alle tre la figlia, che lo assiste, ti chiama: non mi riconosce. Metti in pausa: che cosa fai nei primi cinque minuti?
+
+I primi cinque minuti sono l'ABCDE. A: parla, anche se in modo confuso: le vie aeree sono pervie. B: respiratoria ventisei, saturazione novantadue in aria, rantoli alla base destra.
+
+C: frequenza centodiciotto, pressione novantasei su cinquantotto, riempimento capillare di tre secondi, cute marezzata alle ginocchia. D: confusione nuova, GCS quattordici per la risposta verbale.
+
+Pupille normali, glicemia centosessantotto: non e' un'ipoglicemia. E: febbre a trentotto virgola nove, nessun'altra fonte evidente, e solo centocinquanta millilitri di urina dalle ventidue, in cinque ore.
+
+Calcoliamo la NEWS2. Respiratoria ventisei: tre punti. Saturazione novantadue, sulla scala uno: due. Aria ambiente: zero. Sistolica novantasei: due. Frequenza centodiciotto: due.
+
+Confusione nuova: tre. Temperatura trentotto virgola nove: uno. Totale: tredici. E' un rischio alto, ben oltre la soglia di sette: richiede una risposta d'emergenza.
+
+E nota che la sola confusione nuova vale gia' tre punti. E' il segnale che troppo spesso viene attribuito all'eta', o alla notte.
+
+[curious] Che cosa pensi? C'e' un'infezione nota, la polmonite, e ci sono segni di disfunzione d'organo: il cervello, con la confusione; il circolo, con l'ipotensione e la marezzatura.
+
+Il rene, con l'oliguria; il polmone, con tachipnea e desaturazione. Sepsi fino a prova contraria: i tre criteri del qSOFA ci sono tutti. E, come sai dalla dieci punto sei, e' tempo-dipendente: ogni ora pesa.
+
+Le prime azioni, in parallelo. Chiami subito il medico di guardia, o il team di risposta rapida se l'ospedale lo prevede, con lo SBAR.
+
+Ossigeno secondo protocollo o prescrizione, con target novantaquattro-novantotto, perche' non ha la BPCO. Posizione semiseduta. Monitoraggio continuo. Un secondo accesso venoso di buon calibro.
+
+Prepari emocolture, lattati, emogas ed esami. E resti con il paziente, rassicurando la figlia: e' spaventata, e ha dato l'allarme giusto.
+
+La telefonata SBAR. Situazione: sono l'infermiera di Medicina, chiamo per il signor Bruno, letto dodici: e' confuso da mezz'ora, ipoteso e tachicardico, con una NEWS2 di tredici.
+
+Background: settantotto anni, ricoverato alle diciotto per polmonite, diabetico; la prima dose di antibiotico era prevista a mezzanotte. Accertamento: i parametri, la diuresi, e penso a una sepsi.
+
+Richiesta: le chiedo di venire subito a vederlo; intanto ho messo l'ossigeno e preparo emocolture e lattati. Una chiamata cosi' dura quaranta secondi, e ottiene una risposta immediata.
+
+[serious] Ora un dettaglio che cambia tutto: l'antibiotico previsto alle ventiquattro e' stato somministrato? Verifichi la scheda di terapia. La prima dose puo' slittare, o saltare: magari il farmaco non era in reparto.
+
+Allora lo comunichi al medico e la somministri subito, secondo prescrizione: dopo aver prelevato le emocolture, ma senza ritardarla per aspettarle. Nella sepsi, ogni ora di ritardo dell'antibiotico conta.
+
+Il medico arriva, e si avvia il bundle della prima ora. Lattati: tre virgola otto. Emocolture: due set da sedi diverse, con la tecnica della sei punto sette, prima dell'antibiotico.
+
+L'antibiotico ad ampio spettro, secondo prescrizione. I liquidi: cristalloidi secondo prescrizione, per esempio trenta millilitri per chilo se c'e' ipotensione, o lattati da quattro in su.
+
+Sorvegliando respiro e saturazione: un anziano con polmonite puo' non tollerare molti liquidi. Vasopressori se l'ipotensione persiste, per una media di almeno sessantacinque. E tutti gli orari si documentano.

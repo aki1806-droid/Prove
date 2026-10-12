@@ -4,76 +4,79 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il paziente diabetico e' presente in quasi ogni reparto, e porta con se' tre rischi che l'infermiere gestisce ogni giorno: l'ipoglicemia, gli errori con l'insulina, le lesioni del piede."),
+ (1,"chiaro",0,"Questo caso li mette insieme. E mostra come un dato apparentemente secondario, la funzione renale, cambi il ragionamento."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Antonio ha settantuno anni e un diabete di tipo due in insulina: la basale la sera, la rapida ai pasti. Ha un'insufficienza renale cronica, con un GFR stimato di quarantadue."),
+ (2,"chiaro",0,"E' ricoverato per un'ulcera plantare infetta, sotto la testa del primo metatarso destro. Ieri sera ha mangiato poco per la nausea, ma ha ricevuto le dosi abituali di insulina."),
+ (2,"chiaro",0,"Alle sei e trenta e' sudato, tremante, confuso, ma risponde e deglutisce. La glicemia capillare e' quarantotto. Che cosa fai?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Le azioni. Il paziente e' cosciente e deglutisce: si applica la regola del quindici. Quindici grammi di zuccheri semplici, per esempio tre bustine di zucchero sciolte in acqua, o un bicchiere di succo."),
+ (3,"chiaro",0,"Poi si ricontrolla dopo quindici minuti, e si ripete se la glicemia e' ancora sotto settanta. Alla risoluzione, uno spuntino con carboidrati complessi, oppure si anticipa la colazione, per evitare una recidiva."),
+ (3,"chiaro",0,"Se non fosse cosciente o non deglutisse: niente per bocca, ma glucagone o glucosio endovena secondo protocollo. Poi si avvisa il medico e si documenta. Alle sei e quarantacinque: glicemia novantasei, e lui e' lucido."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"[thoughtful] Ora la domanda piu' importante: perche' e' successo? Le cause sono piu' d'una. Uno: una cena ridotta, con una dose piena di insulina rapida."),
+ (4,"chiaro",0,"Due: l'insufficienza renale, che rallenta l'eliminazione dell'insulina e ne prolunga l'effetto, come nella lezione quattordici punto quattro. Tre: l'infezione migliora con l'antibiotico, e cala il fabbisogno di insulina."),
+ (4,"chiaro",0,"Quattro: la dose basale serale non e' stata rivalutata. Il risultato pratico: lo schema va rivisto con il medico, e l'infermiere porta i dati per farlo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"La gestione dell'insulina ai pasti previene casi come questo. Glicemia prima di ogni somministrazione, e rapida coordinata con l'arrivo del pasto. A digiuno per un esame o un intervento, lo schema si rivede con il medico."),
+ (5,"chiaro",0,"Se l'assunzione e' incerta, per nausea o inappetenza, si segue il protocollo: puo' prevedere la rapida subito dopo il pasto, in base a quanto il paziente ha davvero mangiato. E le variazioni si comunicano nelle consegne."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[serious] L'insulina e' un farmaco ad alto livello di attenzione, con errori tipici. La prescrizione va in unita' scritte per esteso: la U puo' essere letta come uno zero, e dieci U diventare cento."),
+ (6,"chiaro",0,"Siringhe da insulina o penne, mai generiche. La penna e' personale, mai condivisa fra pazienti, nemmeno cambiando l'ago. Doppio controllo secondo procedura. La penna in uso a temperatura ambiente, le scorte in frigorifero."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il piede. La sede plantare, sotto una prominenza ossea, indica una componente neuropatica: la persona non sente il dolore, ed e' per questo che l'ulcera e' arrivata a infettarsi."),
+ (7,"chiaro",0,"Si valutano i segni di infezione: rossore, calore, edema, secrezione, odore. Se lo specillo, nel sondaggio, arriva all'osso, si sospetta un'osteomielite, da confermare con l'imaging."),
+ (7,"chiaro",0,"E si documenta con il metodo TIME della lezione sette punto uno: dimensioni, fondo, essudato, margini, cute perilesionale."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La perfusione. Polsi pedidio e tibiale posteriore, colorito, temperatura, riempimento capillare. E un dettaglio che i quiz amano: l'indice caviglia-braccio della lezione sette punto tre."),
+ (8,"chiaro",0,"Nel diabetico puo' essere falsamente normale, o addirittura elevato, perche' le arterie calcificate non si lasciano comprimere dal bracciale."),
+ (8,"chiaro",0,"Allora si usano altri esami, come l'indice alluce-braccio o l'ossimetria transcutanea, secondo indicazione. E se c'e' un'arteriopatia, la ferita non guarira' senza una rivascolarizzazione."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Il trattamento del piede. Prima di tutto lo scarico, l'offloading: niente carico sull'ulcera, con calzature o tutori specifici, ausili e riposo dell'arto. Senza scarico l'ulcera non guarisce, qualunque medicazione si usi."),
+ (9,"chiaro",0,"Poi medicazione secondo valutazione, antibiotico secondo prescrizione, controllo glicemico, perche' l'iperglicemia ritarda la guarigione, nutrizione. E si proteggono talloni e piede controlaterale, a rischio quanto l'altro."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il caso mostra un equilibrio difficile. Troppo zucchero favorisce l'infezione e rallenta la guarigione. Troppo poco porta ipoglicemie, cadute, aritmie."),
+ (10,"chiaro",0,"L'obiettivo in reparto e' indicativamente fra centoquaranta e centottanta, personalizzato. E nell'anziano con insufficienza renale la priorita' e' evitare l'ipoglicemia, piu' pericolosa di una glicemia moderatamente alta."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"L'educazione per il piede, che e' prevenzione delle amputazioni. L'ispezione quotidiana, anche con uno specchio o con l'aiuto di un familiare, perche' la neuropatia toglie il dolore che avviserebbe."),
+ (11,"chiaro",0,"Il lavaggio con acqua tiepida, di cui si controlla la temperatura, e l'asciugatura accurata fra le dita. La crema idratante, ma non fra le dita. Le unghie tagliate dritte, le callosita' dal podologo."),
+ (11,"chiaro",0,"Mai camminare scalzi. Scarpe comode, controllandone l'interno prima di indossarle. Niente borse dell'acqua calda. E ogni lesione si segnala subito."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"E l'educazione sull'ipoglicemia: riconoscerne i sintomi, anche quelli notturni, come sudorazione, incubi, cefalea al risveglio. Avere sempre zuccheri con se'. Conoscere la regola del quindici."),
+ (12,"chiaro",0,"Poi le regole dei giorni di malattia della lezione otto punto tre, che qui si leggono anche al contrario. Quando si mangia meno, non si sospende di propria iniziativa l'insulina basale."),
+ (12,"chiaro",0,"Si misura piu' spesso, e si contatta il medico per adattare le dosi. Il percorso continua nell'ambulatorio del piede diabetico e in diabetologia."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Dare la stessa dose di rapida senza considerare il pasto. Dimenticare la funzione renale. Trattare l'ipoglicemia senza cercarne la causa. Dare zuccheri per bocca a chi non deglutisce."),
+ (13,"chiaro",0,"Scrivere, o accettare, la U per unita'. Fidarsi di un ABI normale nel diabetico. Medicare senza scaricare il piede."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Un approfondimento per il turno di notte: l'ipoglicemia notturna. Di notte i sintomi possono essere mascherati dal sonno."),
+ (14,"chiaro",0,"I segnali da cogliere: sudorazione, agitazione, respiro rumoroso, un risveglio confuso, incubi, cefalea al mattino. I beta-bloccanti possono mascherare il tremore e la tachicardia, i segnali d'allarme piu' evidenti."),
+ (14,"chiaro",0,"Anziani e insufficienza renale sono piu' a rischio: nei pazienti a rischio, controlli notturni secondo prescrizione o protocollo. E una cena ridotta con insulina invariata va detta nelle consegne."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"[curious] Le domande d'orale. Prima: come si tratta l'ipoglicemia? Nel cosciente che deglutisce, con la regola del quindici: quindici grammi di zuccheri semplici, ricontrollo dopo quindici minuti, poi carboidrati complessi."),
+ (15,"chiaro",0,"Nel paziente incosciente niente per bocca, ma glucagone o glucosio endovena secondo protocollo. Seconda: perche' l'indice caviglia-braccio e' inaffidabile nel diabetico?"),
+ (15,"chiaro",0,"Perche' le arterie calcificate non si comprimono, e il valore risulta falsamente normale o elevato: si ricorre ad altri esami, come l'indice alluce-braccio. Terza: che cosa insegna per il piede?"),
+ (15,"chiaro",0,"Ispezione quotidiana, igiene con acqua tiepida e asciugatura fra le dita, niente piedi nudi, scarpe adeguate, niente fonti di calore, e segnalazione immediata di ogni lesione."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello. Paziente diabetico in insulina, con insufficienza renale cronica, che dopo una cena ridotta e dosi abituali presenta sudorazione, tremori, confusione e glicemia quarantotto: ipoglicemia sintomatica."),
+ (16,"chiaro",0,"Cosciente e in grado di deglutire: applico la regola del quindici, ricontrollo dopo quindici minuti e poi do carboidrati complessi. Se fosse incosciente, niente per bocca, ma glucagone o glucosio endovena."),
+ (16,"chiaro",0,"Avviso il medico e documento. Analizzo le cause per la revisione dello schema; poi verifico la glicemia prima di ogni dose, e coordino la rapida con l'effettiva assunzione del pasto."),
+ (16,"chiaro",0,"Per l'ulcera valuto infezione e perfusione, garantisco scarico, medicazione e controllo glicemico. Educo a riconoscere l'ipoglicemia e alla cura del piede, con il teach-back."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"I collegamenti. Insuline e ipoglicemia con la cinque punto cinque. Il diabete in ospedale con la otto punto tre. Il TIME e le medicazioni con la sette punto uno e la sette punto cinque."),
+ (17,"chiaro",0,"Arteriopatia e ABI con la sette punto tre. Rene e farmaci con la quattordici punto quattro. E i farmaci ad alto livello di attenzione con la cinque punto quattro."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: ogni ipoglicemia ha una causa. Trattarla senza cercarla significa aspettare la prossima."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: una paziente in chemioterapia con la febbre, nove giorni dopo l'ultimo ciclo. Neutropenia, catetere venoso, piastrine basse e la dimensione umana della malattia oncologica. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"L'ipoglicemia: le azioni",4:"Perche' e' successo",
+ 5:"L'insulina ai pasti",6:"L'insulina: un farmaco ad alto rischio",7:"Il piede: la valutazione dell'ulcera",
+ 8:"Il piede: la perfusione",9:"Il piede: il trattamento infermieristico",10:"L'equilibrio difficile",
+ 11:"L'educazione: il piede",12:"L'educazione: l'ipoglicemia e i giorni di malattia",13:"Gli errori da evitare",
+ 14:"L'ipoglicemia notturna",15:"Le domande d'orale",16:"La risposta modello",17:"I collegamenti",
+ 18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

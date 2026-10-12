@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questo e' forse il caso piu' veneto del modulo, perche' attraversa tutta la rete della non autosufficienza. Comincia con una notte difficile: un delirium e una caduta."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E finisce con una domanda che ogni infermiere di reparto si sente fare: e adesso, dove va la mamma? Ci servono le lezioni tre punto uno, nove punto sei, undici punto uno, undici punto due e tredici punto cinque."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. La signora Elena ha ottantasei anni e una demenza lieve, e vive sola; la figlia abita vicino e lavora. E' ricoverata da due giorni in medicina per una pielonefrite."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In terapia ha un antibiotico endovena, un anticoagulante orale diretto per una fibrillazione atriale, e il lorazepam al bisogno per l'insonnia, che le viene dato alle ventidue."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle ventitre' e' agitata, vuole tornare a casa, si strappa la cannula. Alle tre viene trovata a terra accanto al letto, e le sponde erano alzate. Fermati un momento: che cosa fai, prima di tutto?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo una caduta la prima regola e' non sollevare subito la persona. Chiami aiuto e non la lasci sola. Valuti l'ABC, la coscienza con la GCS e le pupille, e cerchi i segni di un trauma cranico: ferite, ematomi."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il dolore e le deformita'. L'arto inferiore destro e' accorciato ed extraruotato, con dolore all'inguine: e' il quadro tipico di una frattura del femore. Parametri, glicemia, e avvisi il medico."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] E ora il dettaglio che cambia la priorita': la signora assume un anticoagulante. E non ricorda se ha battuto la testa."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo una caduta, anche con un trauma cranico lieve o non riferito, c'e' il rischio di un'emorragia intracranica, che puo' manifestarsi anche ore dopo."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si segue il protocollo, che di solito prevede la valutazione medica e una TC, e una sorveglianza neurologica ravvicinata: GCS, pupille, segni di lato, cefalea, vomito. E' cio' che il commissario vuole vedere scritto."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si immobilizza l'arto, e la si solleva con piu' operatori e con gli ausili, come un telo ad alto scorrimento o un sollevatore. Analgesia secondo prescrizione, e un nuovo accesso venoso."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si segnala l'evento con l'incident reporting, perche' e' una caduta con danno. Si documentano ora, circostanze, valutazione e interventi, e si informa la figlia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il riferimento e' la Raccomandazione numero tredici, sulla prevenzione e la gestione della caduta in ospedale."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Perche' e' caduta? Il quadro della sera era un delirium iperattivo su una demenza, verificabile con la CAM: esordio acuto, andamento fluttuante, disattenzione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I fattori: infezione, ambiente nuovo, notte, forse dolore o urgenza di urinare. E la benzodiazepina, che nell'anziano aumenta delirium e cadute: e' fra i farmaci potenzialmente inappropriati della lezione undici punto uno."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le sponde alzate. In una persona agitata che vuole alzarsi non impediscono la caduta: la fanno avvenire scavalcandole, cioe' da piu' in alto e con piu' danno."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al mattino la figlia, spaventata, chiede di legarla di notte. E' una richiesta comprensibile, ma la contenzione non previene le cadute: aumenta agitazione, lesioni e delirium, come nella lezione tre punto uno."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo spieghi con empatia, e proponi le alternative: letto basso, materassino a terra, sensori, sorveglianza, accompagnamento al bagno programmato, luce notturna, oggetti personali."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E la presenza di un familiare, quando e' possibile. Poi la revisione della terapia sedativa con il medico. Cosi' la figlia diventa un'alleata, non una spettatrice."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La radiografia conferma una frattura del collo del femore. Si attiva il percorso ortopedico, con l'obiettivo dell'intervento entro quarantotto ore, l'indicatore di qualita' della lezione nove punto sei."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'anticoagulante si gestisce secondo indicazione. E intanto si previene il delirium: occhiali e apparecchi acustici, orientamento, dolore, idratazione, alvo, sonno. Talloni protetti, nutrizione: l'approccio ortogeriatrico."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinta giornata dopo l'intervento di protesi parziale d'anca. La signora cammina con il deambulatore, ma solo con assistenza. E' orientata di giorno, a tratti confusa la sera."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vive sola, e la figlia lavora: oggi non puo' rientrare a casa in sicurezza. Serve una dimissione protetta, che andava pensata, e segnalata, fin dai primi giorni."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il percorso e' quello della rete veneta, della lezione tredici punto cinque. Una segnalazione precoce alla COT, secondo procedura. Poi la valutazione multidimensionale dell'UVMD, con la SVaMA."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alla valutazione partecipano la figlia, il medico di famiglia e l'assistente sociale. Il setting: prima la riabilitazione, in un'Unita' Riabilitativa Territoriale o in un Ospedale di Comunita', per recuperare autonomia."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il rientro a casa, con l'ADI, il SAD, l'impegnativa di cura domiciliare, magari un centro diurno. Oppure, se il bisogno non sara' gestibile a casa, un Centro di Servizi."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una lettera infermieristica che racconti la persona, non solo la frattura. L'autonomia attuale con la Barthel, la mobilita', gli ausili, le precauzioni per la protesi."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stato cognitivo e il delirium serale, con cio' che la calma: un'informazione preziosa per chi la accoglie. Il rischio di caduta e le misure adottate. La cute e i talloni."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alimentazione, idratazione, continenza. La terapia, con la riconciliazione: la benzodiazepina e' stata sospesa? La rete familiare, e l'educazione gia' fatta alla figlia."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione: che cosa si poteva fare. All'ingresso, la valutazione del rischio di caduta e del delirium. Le misure non farmacologiche dal primo giorno. Niente benzodiazepine al bisogno in un'anziana con demenza."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il letto basso invece delle sponde. L'accompagnamento programmato al bagno. Il coinvolgimento dei familiari. La segnalazione precoce dei bisogni di dimissione. Nessuna e' costosa, e tutte sono infermieristiche."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori da evitare. Sollevare subito la persona caduta. Dimenticare l'anticoagulante e la sorveglianza neurologica. Non segnalare l'evento."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attribuire la confusione alla demenza, invece di riconoscere un delirium. Rispondere alla richiesta di contenzione con un si', o con un no secco senza alternative. E pensare alla dimissione il giorno prima."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: parlare con una persona in delirium, che e' anche una forma di cura. Ci si avvicina di fronte, ci si presenta ogni volta, la si chiama per nome. Frasi brevi, una richiesta alla volta, tono calmo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si contraddicono i contenuti e non si discute: si riconosce l'emozione. Capisco che vuole tornare a casa. Poi si riorienta con delicatezza, dicendo dove siamo e che ora e'."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Di notte si riducono rumori e luci forti. Aiutano gli oggetti familiari e le fotografie. E spesso l'intervento piu' efficace e' la presenza di un familiare: una voce conosciuta calma piu' di qualsiasi farmaco."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: delirium o demenza? Il delirium ha esordio acuto, decorso fluttuante, attenzione compromessa, ed e' spesso reversibile se si tratta la causa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La demenza ha esordio insidioso e decorso progressivo, con l'attenzione conservata nelle fasi iniziali; e le due possono coesistere. Seconda: che cosa fa davanti a un paziente caduto?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non lo sollevo subito. Valuto coscienza, parametri, glicemia, segni di trauma cranico e di frattura. Chiamo aiuto e il medico, considero l'anticoagulante, lo mobilizzo con ausili, documento e segnalo."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: che cos'e' l'UVMD? L'Unita' di Valutazione Multidimensionale Distrettuale: valuta la persona con bisogni complessi, con strumenti come la SVaMA, e definisce progetto individuale e accesso ai servizi."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Anziana con demenza lieve, in terapia anticoagulante e con benzodiazepina serale, che in corso di infezione presenta delirium iperattivo e cade dal letto scavalcando le sponde."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Arto accorciato ed extraruotato: sospetta frattura di femore e rischio di emorragia intracranica. Non la sollevo subito: valuto ABC, coscienza, pupille, trauma cranico, dolore, parametri e glicemia."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiamo aiuto e avviso il medico. Immobilizzo l'arto e la sollevo con piu' operatori e ausili. Analgesia secondo prescrizione; avvio la sorveglianza neurologica e collaboro alla TC."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segnalo l'evento, documento e informo la figlia, proponendo alternative alla contenzione. Segnalo la benzodiazepina. Prevengo delirium e lesioni dei talloni. Avvio presto la dimissione protetta, con COT e UVMD."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Cadute e contenzione con la tre punto uno. Raccomandazione tredici e incident reporting con la due punto sei. La frattura di femore con la nove punto sei."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il delirium e i farmaci inappropriati con la undici punto uno, la demenza con la undici punto due, la rete con la tredici punto cinque, la dimissione protetta con la nove punto sette e la undici punto sette."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: le sponde non fermano chi vuole alzarsi, lo fanno cadere da piu' in alto. La sicurezza di un'anziana confusa si costruisce con la presenza e l'organizzazione, non con le barriere."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un paziente diabetico ricoverato per un'ulcera del piede, che alle sei del mattino e' sudato e tremante. Insulina, ipoglicemia, piede diabetico ed educazione. A tra poco."
+ }
+]

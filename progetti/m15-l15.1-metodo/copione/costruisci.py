@@ -4,76 +4,79 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Benvenuta e benvenuto nel modulo che mette insieme tutto il corso. Fin qui abbiamo studiato per argomenti: la terapia, le infezioni, le ferite, l'emergenza."),
+ (1,"chiaro",0,"Ma all'esame, e soprattutto in reparto, i problemi non arrivano divisi per capitoli: arrivano in un paziente solo. Risolveremo dodici casi, dal piu' semplice al piu' complesso, con un metodo che costruiamo oggi."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Perche' i casi contano tanto? La prova pratica, spesso scritta, vale fino a venti punti, con una soglia di quattordici. Lo scritto puo' chiedere risposte sintetiche. E all'orale si chiede: che cosa fa se...?"),
+ (2,"chiaro",0,"In tutti e tre i casi si misura il ragionamento, non la memoria. Ho visto candidati che sapevano tutto perdere punti, perche' elencavano nozioni senza un ordine. Il metodo serve a dare quell'ordine."),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"La prima regola: leggere la traccia come un accertamento. Chi e' il paziente: eta', patologie, terapie. Dove siamo: reparto, pronto soccorso, domicilio, struttura residenziale."),
+ (3,"chiaro",0,"Quando: la giornata post-operatoria, l'ora del turno, i giorni dalla chemioterapia. Che cosa e' cambiato. E soprattutto che cosa chiede la traccia: descrivere, pianificare, indicare le priorita', motivare."),
+ (3,"chiaro",0,"Un consiglio pratico: sottolinea i dati anomali. Ogni dato anomalo e' un indizio che il commissario ha messo li' per farti ragionare."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Lo schema in cinque passi e' il processo di assistenza della lezione due punto uno, applicato al tempo reale. Uno: accertamento mirato. Due: problemi e priorita'. Tre: obiettivi."),
+ (4,"chiaro",0,"Quattro: interventi motivati. Cinque: valutazione, comunicazione e documentazione. Lo useremo in tutti i dodici casi, finche' non diventera' automatico."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Passo uno: l'accertamento mirato. Dati soggettivi, cio' che la persona riferisce, e oggettivi, cio' che rilevi. Se il paziente e' instabile, l'accertamento e' l'ABCDE della lezione dieci punto due."),
+ (5,"chiaro",0,"Poi i parametri completi, con un punteggio di allerta come la NEWS2. E le scale pertinenti: dolore, Braden, Conley, CAM, GCS, scegliendo quelle che servono, non tutte."),
+ (5,"chiaro",0,"E i dati della documentazione: terapie in corso, esami, allergie. La parola chiave e' mirato: si accerta cio' che serve per decidere."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Passo due: problemi e priorita'. L'ordine e' sempre lo stesso. Prima il pericolo di vita immediato: vie aeree, respiro, circolo. Poi le alterazioni acute che possono evolvere: dolore acuto, coscienza, glicemia, sanguinamento."),
+ (6,"chiaro",0,"Poi i rischi da prevenire: cadute, lesioni da pressione, infezioni, inalazione. Infine i bisogni di base, l'educazione, la dimissione."),
+ (6,"chiaro",0,"[thoughtful] Una distinzione che da' punti: i problemi infermieristici, cioe' le diagnosi infermieristiche, e i problemi collaborativi, complicanze che sorvegli e gestisci con il medico. Il modello bifocale del modulo due."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Passo tre: gli obiettivi. Centrati sul paziente, non su cio' che fa l'infermiere. Misurabili, e con un tempo: un obiettivo misurabile rende possibile la valutazione del passo cinque."),
+ (7,"chiaro",0,"Non migliorare il respiro, ma saturazione fra novantaquattro e novantotto e frequenza respiratoria sotto venti entro due ore. Non controllare il dolore, ma dolore fino a tre a riposo e a quattro in movimento entro un'ora."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Passo quattro: gli interventi, in tre gruppi. Gli autonomi: posizionamento, monitoraggio, prevenzione, educazione. I collaborativi, sempre secondo prescrizione: farmaci, ossigeno con il suo target, esami."),
+ (8,"chiaro",0,"Scrivere somministro l'antibiotico, senza prescrizione, e' un errore che il commissario nota subito. E poi gli interventi attribuiti all'OSS o all'assistente infermiere, con supervisione."),
+ (8,"chiaro",0,"Ogni intervento va motivato, e scritto in modo specifico: non monitoro il paziente, ma rilevo i parametri ogni quindici minuti per un'ora, poi ogni ora."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Passo cinque: valutazione, comunicazione, documentazione. Si valuta se l'obiettivo e' raggiunto, e se no si rivede il piano. Si comunica: SBAR al medico, consegne, paziente e familiari."),
+ (9,"chiaro",0,"Si documenta che cosa e' stato fatto, quando, da chi, e come ha risposto il paziente. Si segnalano eventi avversi e quasi eventi. E la continuita': dimissione, territorio. Chi dimentica questo passo perde punti."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Se l'ansia dell'esame ti fa dimenticare lo schema, ricordati almeno sei domande. Il paziente e' stabile? Che cosa puo' peggiorare nelle prossime ore? Che cosa faccio subito?"),
+ (10,"chiaro",0,"Chi devo avvisare, e come? Che cosa preparo e che cosa insegno? Come documento, e chi riceve le consegne? Rispondere a queste sei domande, in quest'ordine, produce gia' una risposta solida."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"[curious] Proviamo subito. Signora di ottantadue anni, frattura del femore destro, in attesa di intervento domani. Alle ventitre: dolore otto su dieci, agitata e confusa, mentre prima era orientata."),
+ (11,"chiaro",0,"Non urina da sette ore. In terapia ha solo il paracetamolo al bisogno, e l'anticoagulante orale e' sospeso da ieri. Quali dati sono anomali? La confusione nuova, il dolore alto, la mancata minzione."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Il ragionamento. E' stabile? Rilevo parametri, saturazione e glicemia, per escludere ipossia, ipoglicemia e un'infezione. Il problema principale e' un delirium, che confermo con la CAM."),
+ (12,"chiaro",0,"Con due fattori scatenanti probabili: il dolore non controllato e una possibile ritenzione urinaria, che verifico con il bladder scanner."),
+ (12,"chiaro",0,"Poi i rischi: caduta, rimozione dei dispositivi, trombosi, perche' e' immobile e senza anticoagulante, lesioni ai talloni e al sacro. Avviso il medico con SBAR: analgesia e, se c'e' il globo, cateterismo."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli interventi. Analgesia secondo prescrizione, con rivalutazione dopo trenta-sessanta minuti. Bladder scanner, e cateterismo se indicato. Orientamento, occhiali e apparecchi acustici, luce soffusa, un familiare."),
+ (13,"chiaro",0,"Nessuna contenzione: letto basso, campanello, sorveglianza ravvicinata. Scarico dei talloni e riposizionamento. Profilassi antitrombotica secondo prescrizione."),
+ (13,"chiaro",0,"Il digiuno, secondo le indicazioni dell'anestesista per l'intervento di domani. E documentazione e consegne alla collega del mattino."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Una traccia semplice: dolore postoperatorio otto su dieci, descriva l'assistenza. Scritta male: l'infermiere valuta il dolore, somministra la terapia e monitora il paziente, che e' al centro dell'assistenza."),
+ (14,"chiaro",0,"E' tutto vero, ma non dice nulla: nessuno strumento, nessun obiettivo, nessun tempo. Scritta bene: valuto il dolore con la scala numerica, a riposo e in movimento, e ne indago sede e caratteristiche."),
+ (14,"chiaro",0,"Cerco segni di complicanza: sanguinamento, distensione, globo vescicale. Somministro l'analgesia prescritta e rivaluto dopo trenta-sessanta minuti, con l'obiettivo di un dolore fino a tre a riposo."),
+ (14,"chiaro",0,"Segnalo al medico un dolore non controllato. Posiziono il paziente e gli insegno a sostenere la ferita quando tossisce. Documento valori e risposta. Stesso argomento, punteggio molto diverso."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Tre domande d'orale sul metodo. Prima: diagnosi infermieristica e problema collaborativo. La diagnosi descrive una risposta della persona che l'infermiere tratta in autonomia, come il rischio di caduta."),
+ (15,"chiaro",0,"Il problema collaborativo e' una complicanza fisiopatologica che l'infermiere sorveglia e gestisce insieme al medico, come l'emorragia postoperatoria."),
+ (15,"chiaro",0,"Seconda: come stabilisce le priorita'? Prima cio' che minaccia la vita, vie aeree, respiro, circolo. Poi le alterazioni acute che possono evolvere, poi i rischi da prevenire, infine educazione e dimissione."),
+ (15,"chiaro",0,"Terza: che cos'e' un obiettivo misurabile? Un risultato centrato sul paziente, osservabile, con un valore e un tempo, che permette di valutare se l'intervento ha funzionato."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta in quindici righe. Una o due di inquadramento: che cosa sta succedendo. Due o tre di priorita'. Sei-otto di interventi motivati, distinguendo autonomi, collaborativi e attribuiti."),
+ (16,"chiaro",0,"Due o tre di valutazione, comunicazione, documentazione, continuita'. Lessico tecnico, frasi brevi. Niente premesse del tipo: l'infermiere e' responsabile dell'assistenza generale. Occupano righe, non danno punti."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"[serious] Gli errori che costano punti. Elencare tutto senza un ordine. Scrivere diagnosi mediche come problemi infermieristici. Interventi senza secondo prescrizione."),
+ (17,"chiaro",0,"Interventi generici, monitoro o sorveglio, senza dire che cosa e ogni quanto. Dimenticare sicurezza, comunicazione, documentazione. Citare norme solo per riempire. E ignorare il dato anomalo: li' c'era la domanda vera."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"Come useremo i prossimi undici casi. Ognuno avra' uno scenario, un'evoluzione nel tempo, le decisioni da prendere, gli errori da evitare, i collegamenti ai moduli e una risposta modello in quindici righe."),
+ (18,"chiaro",0,"Un consiglio che vale doppio: metti in pausa il video dopo lo scenario, e prova a rispondere da sola o da solo, per iscritto. Poi confronta. E' l'allenamento piu' vicino alla prova vera."),
+
+ (19,"profondo",1.2,"[serious] In quattro parole: leggi il dato anomalo, metti in ordine, motiva, documenta."),
+ (19,"chiaro",0,"[warm] Nella prossima lezione, il primo caso completo: un paziente ricoverato in medicina che, nel cuore della notte, comincia a peggiorare. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Perche' i casi contano",3:"Prima regola: leggere la traccia",4:"Lo schema in cinque passi",
+ 5:"Passo 1: l'accertamento mirato",6:"Passo 2: problemi e priorita'",7:"Passo 3: gli obiettivi",8:"Passo 4: gli interventi",
+ 9:"Passo 5: valutazione, comunicazione, documentazione",10:"Le sei domande da farsi",11:"Il mini-caso dimostrativo",
+ 12:"Il mini-caso: ragionamento",13:"Il mini-caso: interventi",14:"La stessa traccia, scritta male e scritta bene",
+ 15:"Le domande d'orale sul metodo",16:"La risposta in 15 righe",17:"Gli errori che costano punti",
+ 18:"Come useremo i prossimi undici casi",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

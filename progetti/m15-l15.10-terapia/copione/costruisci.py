@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] In questo caso non c'e' un solo paziente: c'e' un turno di mattina in medicina, con quattro trappole nella terapia, chieste spesso all'esame. In ognuna, l'infermiere e' l'ultima barriera fra un errore e un danno."),
+ (1,"chiaro",0,"Useremo le lezioni cinque punto tre, quattro, sei e sette: i calcoli, la sicurezza, gli oppioidi, i farmaci ad alto rischio. E poi la trasfusione della sei punto sei, e la responsabilita' della uno punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"[curious] Trappola uno, ore otto. Un paziente ha il potassio a tre virgola zero. In cartella trovi scritto: cloruro di potassio, venti milliequivalenti, endovena, in bolo. Pausa: che cosa fai?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il potassio concentrato in bolo puo' causare un arresto cardiaco. E' una prescrizione palesemente errata, e non si esegue. Si contatta subito il medico, per la correzione."),
+ (3,"chiaro",0,"Il potassio endovena si somministra sempre diluito, con pompa, a velocita' controllata secondo protocollo. Piu' lento in vena periferica, e con il monitoraggio ECG se concentrazione o velocita' sono elevate."),
+ (3,"chiaro",0,"Ricordi la Raccomandazione uno: le fiale di cloruro di potassio concentrato vanno conservate separate e segnalate. E la richiesta di chiarimento al medico si documenta."),
+ (3,"chiaro",0,"Una domanda d'orale collegata: l'infermiere che esegue una prescrizione palesemente errata ne risponde? Si': la responsabilita' e' anche sua, come hai visto nella lezione uno punto cinque."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Trappola due, ore dieci. La prescrizione: eparina sodica, venticinquemila unita' in cinquanta millilitri di fisiologica, da infondere a mille unita' all'ora."),
+ (4,"chiaro",0,"La pompa, impostata da un collega nella notte, scorre a venti millilitri all'ora. Pausa: e' corretto? Prima di rispondere, fai il calcolo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Il calcolo. La concentrazione e' venticinquemila diviso cinquanta: cinquecento unita' per millilitro. La velocita' corretta e' mille diviso cinquecento: due millilitri all'ora."),
+ (5,"chiaro",0,"La pompa a venti millilitri all'ora eroga invece diecimila unita' all'ora: dieci volte la dose. E' l'errore tipico della virgola: un fattore dieci, che solo il calcolo fa vedere."),
+ (5,"chiaro",0,"Le azioni. Fermare l'infusione. Avvisare subito il medico. Valutare i segni di sanguinamento e i parametri. L'aPTT urgente e la protamina, l'antidoto, secondo prescrizione."),
+ (5,"chiaro",0,"Poi si segnala l'evento, cercando le cause e non i colpevoli. E la prevenzione: il doppio controllo indipendente per i farmaci ad alto livello di attenzione, e le pompe con la libreria dei farmaci."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Trappola tre, ore tredici. Il signor Rino, ottantadue anni, in seconda giornata postoperatoria, riceve morfina endovena, quattro milligrammi ogni quattro ore, piu' una dose al bisogno data alle dodici."),
+ (6,"chiaro",0,"Alle tredici e' molto sonnolento, e risponde a fatica allo stimolo verbale. Frequenza respiratoria otto, pupille miotiche, saturazione ottantotto in aria. Che cosa succede?"),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"[serious] E' una depressione respiratoria da oppioidi: sedazione, bradipnea, miosi. Le azioni: stimolare il paziente e invitarlo a respirare. Ossigeno. Chiamare subito il medico. Sospendere l'oppioide."),
+ (7,"chiaro",0,"Poi il naloxone, secondo prescrizione o protocollo, a piccole dosi titolate. Inverte la depressione respiratoria senza annullare del tutto l'analgesia, e senza scatenare un dolore violento."),
+ (7,"chiaro",0,"Poi il monitoraggio continuo, perche' il naloxone dura meno della morfina: quando il suo effetto finisce, l'oppioide e' ancora li', e il paziente puo' riaddormentarsi."),
+ (7,"chiaro",0,"E la prevenzione: valutare la sedazione prima di ogni dose, perche' la sedazione precede la depressione respiratoria. Con un'attenzione particolare all'anziano e all'insufficienza renale."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Un richiamo alle regole sugli stupefacenti della lezione cinque punto sette. Il registro di carico e scarico, previsto dal DPR trecentonove del millenovecentonovanta, e l'armadio chiuso a chiave."),
+ (8,"chiaro",0,"Ogni somministrazione si registra. Le fiale usate in parte e i residui si smaltiscono secondo procedura, con un testimone. E qualsiasi discrepanza nel registro si segnala subito."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Trappola quattro, ore quindici. Emazie in corso da dieci minuti. Brividi, febbre a trentotto e nove, dolore lombare, angoscia. Pressione ottantacinque su cinquanta, frequenza centoventicinque, urine scure. Che cosa succede?"),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"E' una sospetta reazione emolitica acuta, da incompatibilita' AB0. Le azioni, nell'ordine. La prima: interrompere subito la trasfusione."),
+ (10,"chiaro",0,"Mantenere l'accesso venoso con soluzione fisiologica e un nuovo set, perche' nel deflussore c'e' ancora sangue incompatibile. E chiamare subito il medico."),
+ (10,"chiaro",0,"Parametri ravvicinati e diuresi, per il rischio di danno renale. Verificare al letto l'identita' del paziente e l'etichetta dell'unita'. E i prelievi, secondo procedura."),
+ (10,"chiaro",0,"Sacca e set si inviano al servizio trasfusionale, e si fa la notifica di emovigilanza. La Raccomandazione cinque la definisce un evento sentinella: quasi sempre nasce da un errore di identificazione."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"[thoughtful] Il filo comune delle quattro trappole. Sono tutti farmaci o prodotti ad alto livello di attenzione: il potassio, l'eparina, gli oppioidi, gli emocomponenti."),
+ (11,"chiaro",0,"E l'infermiere e' l'ultima barriera. Controlla prima di eseguire: prescrizione, calcolo, paziente, via, velocita'. Osserva dopo aver eseguito. Comunica subito. Segnala, in un'ottica no blame."),
+ (11,"chiaro",0,"E la responsabilita' e' condivisa, come prevedono la legge ventiquattro del duemiladiciassette e il Codice deontologico. Nessuno e' solo, ma nessuno puo' dire che non toccava a lui."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Le giuste regole della lezione cinque punto quattro: paziente, farmaco, dose, via, tempo e registrazione. E, nelle versioni estese, velocita', forma farmaceutica, monitoraggio, diritto di rifiuto."),
+ (12,"chiaro",0,"L'identificazione, con almeno due identificativi. E un segnale d'allarme da non ignorare mai: la domanda del paziente. Questa pastiglia non l'ho mai presa: si verifica sempre, prima di somministrare."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Eseguire una prescrizione palesemente errata perche' l'ha scritta il medico. Fidarsi della pompa impostata dal turno precedente, senza ricalcolare. Dare la dose al bisogno senza valutare la sedazione."),
+ (13,"chiaro",0,"Rallentare la trasfusione invece di fermarla. Gettare la sacca, che e' una prova indispensabile per capire che cosa e' successo. E non segnalare, per paura."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"E dopo l'errore, che cosa si fa? Prima di tutto la sicurezza del paziente: gli interventi per limitare il danno. Poi la comunicazione dell'evento al paziente e ai familiari."),
+ (14,"chiaro",0,"Una comunicazione onesta, tempestiva, secondo le procedure aziendali, e insieme al medico. Nascondere un errore distrugge la fiducia piu' dell'errore stesso."),
+ (14,"chiaro",0,"Poi la segnalazione e l'analisi delle cause, con l'audit o l'analisi delle cause profonde, senza cercare il colpevole. E il supporto all'operatore coinvolto, che spesso vive l'errore come un trauma."),
+ (14,"chiaro",0,"Si parla, per lui, di seconda vittima. E le azioni di miglioramento, come il doppio controllo o le librerie dei farmaci nelle pompe, nascono proprio dalle segnalazioni."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Le domande d'orale. Prima: che cosa prevedono le Raccomandazioni uno e cinque? La uno, il cloruro di potassio concentrato: separato, segnalato, mai in bolo. La cinque, la reazione da AB0: si previene identificando bene."),
+ (15,"chiaro",0,"Seconda: come calcola la velocita' di un'infusione? Prima la concentrazione: farmaco diviso volume. Poi la dose oraria diviso la concentrazione. Mille unita' all'ora, a cinquecento per millilitro: due millilitri all'ora."),
+ (15,"chiaro",0,"Terza: che cosa fa davanti a una prescrizione che ritiene errata? Non la eseguo, contatto il medico per un chiarimento, documento la richiesta e, se necessario, coinvolgo il coordinatore."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello, per la trasfusione. Dopo dieci minuti di emazie: brividi, febbre, dolore lombare, ipotensione, tachicardia, urine scure. Sospetta reazione emolitica acuta da AB0: emergenza ed evento sentinella."),
+ (16,"chiaro",0,"Interrompo immediatamente la trasfusione, mantengo l'accesso venoso con fisiologica tramite un nuovo set e chiamo subito il medico. Rilevo parametri e diuresi, e collaboro al trattamento dello shock."),
+ (16,"chiaro",0,"Verifico al letto la corrispondenza fra paziente, richiesta ed etichetta dell'unita'. Eseguo i prelievi previsti, e invio sacca e set al servizio trasfusionale. E rassicuro il paziente."),
+ (16,"chiaro",0,"Documento, attivo l'emovigilanza e segnalo l'evento. La prevenzione si basa sulla corretta identificazione, al prelievo e al letto, e sulla sorveglianza nei primi quindici minuti."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"I collegamenti. La responsabilita', con la uno punto cinque. I calcoli, con la cinque punto tre. Le giuste regole e il doppio controllo, con la cinque punto quattro. Oppioidi e naloxone, con la cinque punto sei."),
+ (17,"chiaro",0,"Potassio, eparina e stupefacenti, con la cinque punto sette. La trasfusione, con la sei punto sei. E il rischio clinico con le Raccomandazioni, con la due punto sei."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: fermarsi un minuto a controllare non e' lentezza, e' sicurezza. Ognuna delle quattro trappole si risolveva con una verifica di pochi secondi."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: un turno pomeridiano con sei pazienti, un OSS e un assistente infermiere, e un familiare che perde il controllo. Priorita', attribuzione, supervisione e gestione dell'aggressione. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Trappola 1, ore 8: il potassio",3:"Il potassio: la risposta",4:"Trappola 2, ore 10: l'eparina in pompa",
+ 5:"L'eparina: il calcolo e le azioni",6:"Trappola 3, ore 13: la morfina",7:"La morfina: la risposta",8:"Gli stupefacenti: le regole",
+ 9:"Trappola 4, ore 15: la trasfusione",10:"La trasfusione: la risposta",11:"Il filo comune delle quattro trappole",12:"Le giuste regole",
+ 13:"Gli errori da evitare",14:"Dopo l'errore",15:"Le domande d'orale",16:"La risposta in 15 righe",17:"I collegamenti",
+ 18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

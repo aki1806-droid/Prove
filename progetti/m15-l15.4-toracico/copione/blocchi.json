@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Un uomo entra in pronto soccorso con un dolore al petto. In meno di mezz'ora attraversera' il triage, la diagnosi di infarto, un arresto cardiaco e la rianimazione, fino all'emodinamica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' il caso piu' tempo-dipendente del modulo. Mette alla prova il triage della lezione dieci punto uno, l'infarto della otto punto uno, la rianimazione della dieci punto tre e la rete veneta della tredici punto tre."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ore nove e quaranta. Il signor Ferri, sessantuno anni, fumatore e iperteso, arriva accompagnato dalla moglie. Ha un dolore retrosternale oppressivo da cinquanta minuti, irradiato alla mandibola. E' sudato e ha nausea."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Pressione centootto su settanta, frequenza cinquantotto, respiratoria venti, saturazione novantasei in aria, e' vigile. Sei l'infermiere di triage: quale codice, e che cosa fai?"
+ },
+ {
+  "id": "s06",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il triage. Le funzioni vitali sono conservate, quindi non e' un codice uno. Ma c'e' un rischio concreto di compromissione: un dolore toracico tipico, con sudorazione."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un codice due, arancione, o il codice che il protocollo locale prevede per il dolore toracico, con l'attivazione del percorso dedicato."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'azione piu' importante: l'ECG a dodici derivazioni entro dieci minuti dal primo contatto. E il paziente non resta in sala d'attesa: va in un'area monitorata."
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle nove e quarantasette l'ECG mostra un sopraslivellamento del tratto ST nelle derivazioni due, tre e a vu effe. E' uno STEMI inferiore."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora la frequenza di cinquantotto ha un senso. Nell'infarto inferiore una bradicardia e' frequente, perche' la coronaria destra irrora spesso il nodo senoatriale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ECG va mostrato subito al medico, che attiva la rete STEMI e l'emodinamica. Ricordi la lezione tredici punto tre: il paziente va portato il prima possibile nel centro con l'emodinamica."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le azioni, mentre si attiva l'emodinamica. Monitor e defibrillatore pronti, con le placche gia' applicate se previsto. Riposo e rassicurazione. L'ossigeno non e' indicato, con una saturazione di novantasei."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due accessi venosi secondo protocollo, lasciando libero l'arto previsto per l'accesso arterioso della coronarografia, se indicato. I prelievi: troponina, emocromo, coagulazione, elettroliti, funzione renale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci, secondo prescrizione o protocollo: antiaggreganti, anticoagulante, analgesia. E la preparazione all'emodinamica: consenso, allergie, soprattutto al contrasto, funzione renale, rimozione di protesi e monili."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] E ora una trappola, tipica dei quiz. Viene chiesto di preparare un nitrato sublinguale per il dolore. Ma e' un infarto inferiore, che puo' coinvolgere il ventricolo destro."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo si verifica con le derivazioni destre dell'ECG. E la pressione e' gia' centootto. Nell'infarto del ventricolo destro i nitrati possono causare un'ipotensione grave."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'infermiere segnala il dubbio e chiede conferma prima di somministrare. E chiede se ha preso farmaci per la disfunzione erettile nelle ultime ore, l'altra controindicazione. E' il suo ruolo di barriera."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ore dieci e cinque. Il signor Ferri porta la mano al petto e perde coscienza. Sul monitor compare una fibrillazione ventricolare. E' un arresto testimoniato e monitorato. Che cosa fai, e in che ordine?"
+ },
+ {
+  "id": "s19",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiami aiuto e il team. Confermi in pochi secondi che non risponde e non respira normalmente. Il ritmo e' defibrillabile e il defibrillatore e' gia' collegato: la priorita' e' la defibrillazione immediata."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le linee guida europee prevedono che, in un arresto testimoniato e monitorato in fibrillazione ventricolare, con il defibrillatore subito disponibile, si possano erogare fino a tre shock in rapida successione."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si verifica il ritmo dopo ciascuno. Poi si riprende la rianimazione, trenta a due, per due minuti. E durante ogni shock nessuno tocca il paziente."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il team, con ruoli chiari. Il leader, che dirige e decide. Chi fa le compressioni, con il cambio ogni due minuti. Chi gestisce defibrillatore e monitor. Chi le vie aeree, con pallone e ossigeno."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi gestisce l'accesso e i farmaci, secondo l'algoritmo: adrenalina e amiodarone dopo il terzo shock, se la fibrillazione persiste. E il timekeeper, che registra l'ora dell'arresto, i ritmi, gli shock e i farmaci."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutto con una comunicazione a ciclo chiuso: carico un milligrammo di adrenalina; adrenalina somministrata alle dieci e nove."
+ },
+ {
+  "id": "s25",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle dieci e sette, dopo il secondo shock, compare un ritmo organizzato. C'e' il polso e il paziente respira: e' il ritorno della circolazione spontanea. Iniziano le cure post-arresto della dieci punto tre."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "ABCDE, saturazione fra novantaquattro e novantotto, evitare l'ipotensione. ECG a dodici derivazioni e glicemia. Controllo della temperatura, per evitare la febbre. Monitoraggio continuo, e tutti gli orari registrati."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasferimento in emodinamica avviene con monitor e defibrillatore, ossigeno, farmaci d'emergenza e personale adeguato."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nelle consegne SBAR: l'ora d'inizio del dolore, l'ECG, la terapia, l'arresto, con ritmo, numero di shock e tempo al ritorno del circolo, e lo stato attuale. L'ora del dolore conta quanto quella dell'arresto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La moglie era presente all'arrivo e durante l'arresto. Se possibile, un operatore si dedica a lei. Le informazioni cliniche le da' il medico, in un luogo riservato. E la si informa del trasferimento."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le linee guida considerano che la presenza dei familiari durante la rianimazione possa essere offerta, con un operatore che li supporti e spieghi cio' che accade."
+ },
+ {
+  "id": "s31",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo l'angioplastica, in unita' coronarica, si sorveglia la sede di accesso arterioso, radiale o femorale: sanguinamento, ematoma, polso e perfusione a valle, con i dispositivi di compressione secondo protocollo."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il ritmo, e un'eventuale recidiva del dolore. La funzione renale dopo il mezzo di contrasto, con l'idratazione. E una mobilizzazione graduale."
+ },
+ {
+  "id": "s33",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione alla dimissione. La doppia antiaggregazione non va mai sospesa di propria iniziativa, perche' lo stent potrebbe trombizzarsi. E va segnalata a ogni medico e al dentista, prima di qualsiasi procedura."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Smettere di fumare. Controllare pressione, colesterolo, glicemia e peso. Attivita' fisica e riabilitazione cardiologica. Riconoscere i sintomi, e chiamare subito il centododici o il centodiciotto, senza mettersi alla guida."
+ },
+ {
+  "id": "s35",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Lasciare il paziente in sala d'attesa perche' i parametri sono buoni. Fare l'ECG oltre i dieci minuti. Dare l'ossigeno di routine."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Somministrare nitrati senza valutare pressione, ventricolo destro e farmaci assunti. Nell'arresto monitorato, ritardare la defibrillazione. E non registrare gli orari."
+ },
+ {
+  "id": "s37",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un tema che il caso porta con se': il consenso in urgenza. All'arrivo il signor Ferri e' cosciente e capace: anche in urgenza lo si informa, con parole essenziali e comprensibili, e si raccoglie il consenso."
+ },
+ {
+  "id": "s38",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Senza rinunciarvi per fretta. Se invece la persona e' incosciente e in pericolo di vita, come durante l'arresto, la legge duecentodiciannove, all'articolo uno, prevede che si assicurino le cure necessarie."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel rispetto della volonta' del paziente, ove le condizioni cliniche lo consentano. Le disposizioni anticipate o le volonta' espresse vanno considerate. E l'infermiere informa per quanto di sua competenza, e documenta."
+ },
+ {
+  "id": "s40",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le domande d'orale. Prima: quali ritmi sono defibrillabili, e quali no? Defibrillabili sono la fibrillazione ventricolare e la tachicardia ventricolare senza polso."
+ },
+ {
+  "id": "s41",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non defibrillabili sono l'asistolia e l'attivita' elettrica senza polso: li' contano la rianimazione di qualita', l'adrenalina e la ricerca delle cause reversibili."
+ },
+ {
+  "id": "s42",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: perche' niente ossigeno di routine? Con una saturazione normale non porta benefici, e l'eccesso di ossigeno puo' essere dannoso. Si somministra quando la saturazione e' bassa."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: il ruolo dell'infermiere nel team? Compressioni e cambi, defibrillazione, accesso venoso e farmaci, supporto alle vie aeree, tempi e registrazione. Con la comunicazione a ciclo chiuso e un leader chiaro."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente di sessantuno anni con dolore toracico tipico da cinquanta minuti, sudorazione e parametri conservati: al triage assegno un codice di elevata priorita' e attivo il percorso dolore toracico."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Eseguo l'ECG entro dieci minuti e lo mostro subito al medico: e' uno STEMI inferiore, e si attiva la rete. Area monitorata, defibrillatore pronto, riposo; niente ossigeno con saturazione novantasei."
+ },
+ {
+  "id": "s46",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Accessi, prelievi e terapia prescritta; segnalo la cautela sui nitrati; preparo alla procedura. In fibrillazione ventricolare defibrillo subito e registro gli orari. Trasferimento monitorato, SBAR, supporto alla moglie."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Il triage con la dieci punto uno. STEMI, nitrati ed ECG con la otto punto uno. La rianimazione con la dieci punto tre. Il contrasto con la quattordici punto sette."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antiaggreganti con la cinque punto cinque. La rete veneta con la tredici punto tre. E il sistema di conduzione con la quattordici punto due."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La frase del caso: dieci minuti per l'ECG, pochi secondi per lo shock. [warm] Nella prossima lezione, una paziente con BPCO che, messa tranquilla con molto ossigeno, diventa sempre piu' sonnolenta. A tra poco."
+ }
+]

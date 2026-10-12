@@ -48,20 +48,25 @@
   ]
  },
  "B": {
-  "parole_copione": 645,
-  "parole_dette": 646,
-  "coincidenti": 643,
+  "parole_copione": 663,
+  "parole_dette": 663,
+  "coincidenti": 658,
   "buchi": [],
   "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "l ab",
+    "detto": "la b"
+   },
+   {
+    "blocco": "s42",
+    "copione": "l ab",
+    "detto": "la b"
+   },
    {
     "blocco": "s42",
     "copione": "l",
     "detto": "la"
-   },
-   {
-    "blocco": "s49",
-    "copione": "e",
-    "detto": "ee"
    }
   ]
  }

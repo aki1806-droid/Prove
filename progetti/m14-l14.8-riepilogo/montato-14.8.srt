@@ -95,97 +95,97 @@ Nell'ipotiroidismo primario la tiroide produce poco, e il TSH risulta alto. Il P
 Gli ormoni dello stress, come cortisolo e adrenalina, alzano la glicemia. E i corticosteroidi presi a lungo non si sospendono mai bruscamente: rischio di crisi surrenalica.
 
 25
-00:04:15,390 --> 00:04:27,610
+00:04:15,390 --> 00:04:26,830
 Sangue e difese. Il globulo rosso vive circa centoventi giorni, la piastrina da sette a dieci. Lo zero e' donatore universale di globuli rossi, l'AB ricevente universale; per il plasma vale il contrario.
 
 26
-00:04:27,610 --> 00:04:39,180
+00:04:26,830 --> 00:04:38,040
 Il fattore Rh, e la profilassi anti-D nella madre Rh negativa. L'emostasi: vascolare, piastrinica, coagulativa, e la fibrinolisi, che scioglie il coagulo e libera il D-dimero.
 
 27
-00:04:39,180 --> 00:04:49,110
+00:04:38,040 --> 00:04:47,800
 La coagulazione: l'INR controlla il warfarin, l'aPTT l'eparina non frazionata. E gli antidoti: la vitamina K per il warfarin, la protamina per l'eparina.
 
 28
-00:04:49,110 --> 00:05:01,680
+00:04:47,800 --> 00:04:59,800
 Le immunoglobuline. Le G attraversano la placenta, le M sono la prima risposta, le A difendono le mucose, le E sono quelle delle allergie. Immunita' attiva con il vaccino, passiva con le immunoglobuline.
 
 29
-00:05:01,680 --> 00:05:10,910
+00:04:59,800 --> 00:05:08,790
 I vaccini vivi attenuati non si fanno in gravidanza. E la febbre: si copre il paziente nella salita, con i brividi, e lo si scopre nella defervescenza, quando suda.
 
 30
-00:05:10,910 --> 00:05:18,640
+00:05:08,790 --> 00:05:16,340
 La tabella dei valori, da fotografare. Con la solita premessa: sono indicativi, cambiano fra laboratori, e fa fede l'intervallo del referto.
 
 31
-00:05:18,640 --> 00:05:29,800
+00:05:16,340 --> 00:05:28,020
 L'emocromo. Emoglobina da tredici a diciassette nell'uomo, da dodici a sedici nella donna. Globuli bianchi da quattromila a diecimila. Neutrofili sotto cinquecento: neutropenia grave.
 
 32
-00:05:29,800 --> 00:05:43,070
+00:05:28,020 --> 00:05:41,180
 Piastrine da centocinquantamila a quattrocentocinquantamila. Sodio da centotrentacinque a centoquarantacinque. Potassio da tre virgola cinque a cinque. Calcio totale da otto virgola cinque a dieci virgola cinque.
 
 33
-00:05:43,070 --> 00:05:57,350
+00:05:41,180 --> 00:05:55,640
 Glicemia a digiuno da settanta a novantanove. Creatinina da zero virgola sei a uno virgola due. INR da zero virgola otto a uno virgola due, e da due a tre in terapia. aPTT da venticinque a trentacinque secondi.
 
 34
-00:05:57,350 --> 00:06:10,310
+00:05:55,640 --> 00:06:08,640
 Albumina da tre virgola cinque a cinque. Bilirubina totale sotto uno virgola due. Lattati sotto due. E la saturazione: da novantaquattro a novantotto, e da ottantotto a novantadue negli ipercapnici.
 
 35
-00:06:10,310 --> 00:06:23,330
+00:06:08,640 --> 00:06:21,710
 L'emogas. pH da sette virgola trentacinque a sette virgola quarantacinque. Anidride carbonica da trentacinque a quarantacinque, ossigeno da ottanta a cento. Bicarbonato da ventidue a ventisei.
 
 36
-00:06:23,330 --> 00:06:35,530
+00:06:21,710 --> 00:06:33,510
 I collegamenti piu' utili, ciascuno una domanda d'esame. Un campione emolizzato da' un potassio falsamente alto, perche' il potassio sta nelle cellule. La tachicardia accorcia la diastole: meno perfusione coronarica.
 
 37
-00:06:35,530 --> 00:06:47,880
+00:06:33,510 --> 00:06:45,090
 L'ipoalbuminemia abbassa la pressione oncotica, e porta all'edema. Una creatinina normale, nell'anziano magro, puo' nascondere un GFR ridotto. E sotto il novanta di saturazione, la curva precipita.
 
 38
-00:06:47,880 --> 00:06:58,840
+00:06:45,090 --> 00:06:55,590
 Lo stress alza la glicemia. Il bronco destro spiega l'intubazione selettiva e i corpi estranei. Il beta-bloccante non selettivo da' broncospasmo. In risonanza, l'effetto proiettile.
 
 39
-00:06:58,840 --> 00:07:10,080
+00:06:55,590 --> 00:07:06,570
 Le confusioni che costano piu' punti. L'arteria polmonare porta sangue povero di ossigeno, le vene polmonari sangue ricco. Il primo tono chiude le atrioventricolari, il secondo le semilunari.
 
 40
-00:07:10,080 --> 00:07:22,760
+00:07:06,570 --> 00:07:18,590
 Ipossiemia e' poco ossigeno nel sangue, ipossia poco ossigeno ai tessuti. Il sintomo lo riferisce la persona, il segno lo rileva l'operatore. E l'INR segue il warfarin, l'aPTT l'eparina.
 
 41
-00:07:22,760 --> 00:07:33,970
+00:07:18,590 --> 00:07:29,250
 Lo zero dona globuli rossi a tutti, ma per il plasma e' l'AB. Nell'addome, l'auscultazione viene prima della palpazione. La risonanza non usa radiazioni, ma il magnete e' sempre attivo.
 
 42
-00:07:33,970 --> 00:07:44,680
+00:07:29,250 --> 00:07:39,580
 Le domande d'orale piu' probabili. La curva di dissociazione. Le cause dell'edema, con Starling. Simpatico e parasimpatico, e i farmaci. I gruppi sanguigni e la trasfusione.
 
 43
-00:07:44,680 --> 00:07:55,560
+00:07:39,580 --> 00:07:50,320
 Le fasi della febbre e l'assistenza. La preparazione alla TC con contrasto. La sicurezza in risonanza. I valori critici. Per ognuna, una risposta dal meccanismo all'azione infermieristica.
 
 44
-00:07:55,560 --> 00:08:03,370
+00:07:50,320 --> 00:07:57,890
 Come proseguire. Il test del modulo: trenta domande, soglia ventuno. Poi trascrivi nel quaderno la tabella dei valori che abbiamo appena visto.
 
 45
-00:08:03,370 --> 00:08:14,660
+00:07:57,890 --> 00:08:09,300
 Per ogni apparato, costruisci una catena: un meccanismo, una conseguenza clinica, un intervento infermieristico. Ripassa con gli schemi: nefrone, sistema di conduzione, curva di dissociazione, emostasi.
 
 46
-00:08:14,660 --> 00:08:22,280
+00:08:09,300 --> 00:08:16,550
 La frase del modulo: dal meccanismo all'azione. La fisiologia e' il motivo, l'assistenza e' la risposta.
 
 47
-00:08:22,280 --> 00:08:30,220
-Siamo all'ultimo modulo: il percorso trasversale, dedicato alle prove del concorso. Il metodo per i quiz, la prova scritta e pratica, l'orale.
+00:08:16,550 --> 00:08:25,840
+Nel prossimo modulo mettiamo insieme tutto il corso, con i casi clinici integrati. In reparto e all'esame i problemi non arrivano divisi per capitoli: arrivano in un paziente solo.
 
 48
-00:08:30,220 --> 00:08:34,250
-E poi l'inglese e l'informatica, con le simulazioni finali. Ci vediamo li'.
+00:08:25,840 --> 00:08:33,580
+Dodici casi, dal piu' semplice al piu' complesso, con un metodo in cinque passi per ragionare e per scrivere la risposta d'esame. Ci vediamo li'.

@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso mette alla prova un'idea sbagliata e molto diffusa: che una saturazione alta sia sempre una buona notizia. Una paziente con BPCO riceve molto ossigeno, per stare tranquilli."),
+ (1,"chiaro",0,"E diventa sempre piu' sonnolenta. Serviranno l'ossigenoterapia della lezione otto punto due, l'emogas della sei punto quattro, la ventilazione non invasiva e la fisiologia del respiro della quattordici punto tre."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Lucia, settantaquattro anni, ha una BPCO grave, e a casa usa l'ossigeno a un litro al minuto. Arriva in pneumologia alle quattordici dal pronto soccorso, per una riacutizzazione."),
+ (2,"chiaro",0,"Ha una maschera con reservoir a quindici litri, perche' in pronto soccorso saturava ottantaquattro. Alle diciassette la saturazione e' novantanove, la frequenza respiratoria dodici."),
+ (2,"chiaro",0,"[curious] E' molto sonnolenta, risponde solo se chiamata a voce alta. Cute calda e arrossata, un tremore delle mani. In mattinata riferiva cefalea. Perche' una saturazione di novantanove dovrebbe preoccuparti?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. La signora e' a rischio di ipercapnia: BPCO grave, ossigeno a domicilio. Da ore riceve ossigeno ad alta concentrazione, e satura novantanove, molto oltre il suo target, fra ottantotto e novantadue."),
+ (3,"chiaro",0,"E presenta i segni dell'ipercapnia: sonnolenza, cefalea, vasodilatazione con la cute calda, tremore delle mani, e una frequenza respiratoria che si riduce, invece di aumentare."),
+ (3,"chiaro",0,"[thoughtful] Il sospetto e' una narcosi da anidride carbonica iniziale. E il punto chiave: la saturazione non misura la CO2. Una saturazione perfetta puo' accompagnare un'acidosi grave."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Avvisi il medico con urgenza, con lo SBAR. Stimoli la paziente e valuti la GCS, per capire quanto e' compromessa la coscienza."),
+ (4,"chiaro",0,"Non sospendi bruscamente l'ossigeno: toglierlo del tutto, in un paziente che ne ha accumulato molto, puo' provocare un'ipossiemia di rimbalzo pericolosa."),
+ (4,"chiaro",0,"Lo titoli invece secondo prescrizione: per esempio con una maschera di Venturi al ventiquattro-ventotto per cento, con target fra ottantotto e novantadue."),
+ (4,"chiaro",0,"Posizione semiseduta. Monitoraggio continuo di saturazione e frequenza respiratoria. E prepari l'emogas e la ventilazione non invasiva."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"L'emogas. pH sette virgola ventiquattro, PaCO2 ottantadue, PaO2 centodiciotto, bicarbonato trentaquattro. Lo leggiamo con i quattro passi della lezione sei punto quattro."),
+ (5,"chiaro",0,"Uno: pH sotto sette virgola trentacinque, acidemia. Due: CO2 alta, origine respiratoria. Tre: bicarbonato alto, un compenso renale, che richiede giorni, e quindi indica una condizione cronica."),
+ (5,"chiaro",0,"Quattro: il pH e' ancora acido, il compenso e' parziale. Conclusione: un'acidosi respiratoria acuta su cronica, con un'iperossia: una PaO2 di centodiciotto, in una paziente che ne avrebbe bisogno molto meno."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Perche' l'ossigeno ha fatto salire la CO2? Per piu' meccanismi insieme, visti nella quattordici punto tre: peggiora il rapporto fra ventilazione e perfusione, c'e' l'effetto Haldane e, in parte, cala lo stimolo respiratorio."),
+ (6,"chiaro",0,"La conclusione pratica e' quella della lezione otto punto due: nel paziente a rischio di ipercapnia l'ossigeno si somministra con una prescrizione, un target e una titolazione. Piu' non e' meglio."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La ventilazione non invasiva. L'indicazione e' proprio questa: riacutizzazione di BPCO con acidosi respiratoria, pH sotto sette virgola trentacinque e CO2 sopra quarantacinque."),
+ (7,"chiaro",0,"Si avvia su prescrizione, con l'ossigeno titolato. L'assistenza e' quella della otto punto due: spiegare e rassicurare, anche se la paziente e' sonnolenta, e un'interfaccia della misura giusta."),
+ (7,"chiaro",0,"Protezione del dorso del naso. Controllo delle perdite e della distensione gastrica. Monitoraggio di frequenza, saturazione e coscienza. Ed emogas di controllo dopo una-due ore."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La terapia associata, tutta su prescrizione. Broncodilatatori per aerosol, con un dettaglio che fa la differenza: nel paziente ipercapnico l'aerosol si nebulizza con aria compressa, non con ossigeno ad alto flusso."),
+ (8,"chiaro",0,"L'ossigeno si mantiene con gli occhialini, secondo il target. Altrimenti, per i minuti della nebulizzazione, si torna all'eccesso. Poi corticosteroidi, e antibiotico se indicato, per esempio con espettorato purulento."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"L'evoluzione. Dopo due ore di ventilazione: pH sette virgola trentuno, CO2 sessantotto, PaO2 sessantaquattro, saturazione novanta. La signora e' piu' sveglia, e risponde in modo appropriato."),
+ (9,"chiaro",0,"E' un miglioramento, e si prosegue. I segni di fallimento, da segnalare subito, sarebbero stati: un pH che peggiora, una coscienza che cala, fatica respiratoria, intolleranza alla maschera."),
+ (9,"chiaro",0,"In quel caso si valuta l'intubazione, nel rispetto delle volonta' della persona. In una BPCO grave, la pianificazione condivisa delle cure della legge duecentodiciannove va affrontata prima della crisi."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Prima della dimissione, gli inalatori. Molte riacutizzazioni nascono da una tecnica sbagliata: la si fa eseguire. Spray predosato: meglio con il distanziatore, espirare prima, inspirare lentamente, trattenere il respiro."),
+ (10,"chiaro",0,"Con le polveri secche, un'inspirazione rapida e profonda. Risciacquare la bocca dopo i corticosteroidi. E distinguere i farmaci di mantenimento, da prendere ogni giorno, da quelli al bisogno."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"L'ossigeno a domicilio. Flusso e ore sono prescritti, e la signora non deve aumentarlo da sola quando si sente peggio: e' proprio cio' che, in grande, e' successo in ospedale. Niente fumo, ne' fiamme."),
+ (11,"chiaro",0,"Poi un piano d'azione: riconoscere i segni di riacutizzazione, cioe' piu' dispnea, piu' espettorato, un cambiamento del colore, e sapere chi chiamare. Smettere di fumare, e le vaccinazioni raccomandate."),
+ (11,"chiaro",0,"La riabilitazione respiratoria. E la presa in carico sul territorio, con il PDTA, l'infermiere di famiglia e comunita' e, se disponibile, il telemonitoraggio."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"tenue",0,"Gli errori. Dire: satura novantanove, sta bene. La maschera con reservoir per sicurezza, in un paziente ipercapnico. Sospendere di colpo l'ossigeno."),
+ (12,"tenue",0,"L'aerosol con ossigeno ad alto flusso. Leggere la sonnolenza come se finalmente riposasse. E dimettere senza verificare la tecnica inalatoria."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"E un tema organizzativo. La prescrizione di ossigeno, con il suo target, deve seguire la paziente dal pronto soccorso al reparto. E le consegne devono contenere target, dispositivo, flusso ed emogas."),
+ (13,"chiaro",0,"Un paziente che arriva con quindici litri senza indicazioni e' un problema di comunicazione fra setting. Si segnala, in un'ottica no blame, per migliorare il percorso."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Che cosa significa vivere con la BPCO. La dispnea cronica e l'ansia si alimentano a vicenda: piu' manca il respiro, piu' cresce l'ansia, e l'ansia peggiora il respiro."),
+ (14,"chiaro",0,"Alcune tecniche aiutano. La respirazione a labbra socchiuse, con un'espirazione lenta che tiene aperte le vie aeree. Le posizioni che facilitano il respiro: seduti, busto in avanti, braccia appoggiate."),
+ (14,"chiaro",0,"La conservazione dell'energia nelle attivita' quotidiane. E la nutrizione: molte persone con BPCO grave sono malnutrite, e beneficiano di pasti piccoli e frequenti."),
+ (14,"chiaro",0,"Poi l'isolamento sociale e il supporto psicologico. E, nelle fasi avanzate, le cure palliative, anche per controllare la dispnea."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Le domande d'orale. Prima: quando si usa la maschera di Venturi? Quando serve una concentrazione di ossigeno precisa e costante, tipicamente nel rischio di ipercapnia, con target fra ottantotto e novantadue."),
+ (15,"chiaro",0,"Seconda: come si legge un emogas? In quattro passi. Il pH, per l'acidemia o l'alcalemia. CO2 e bicarbonato, per l'origine respiratoria o metabolica. Il valore opposto, per il compenso. E l'ossigenazione."),
+ (15,"chiaro",0,"Terza: gli aspetti assistenziali della NIV? Spiegazione e rassicurazione, la scelta dell'interfaccia, la protezione della cute del naso, il controllo delle perdite e della distensione gastrica."),
+ (15,"chiaro",0,"E il monitoraggio di frequenza respiratoria, saturazione, coscienza ed emogas, con il riconoscimento dei segni di fallimento."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello. BPCO grave a rischio di ipercapnia, ossigeno ad alta concentrazione, saturazione novantanove, sonnolenza ingravescente, cefalea, cute calda e bradipnea: ipercapnia da eccesso di ossigeno."),
+ (16,"chiaro",0,"Priorita': ossigenazione al target ottantotto-novantadue e acidosi respiratoria. Avviso il medico con urgenza, stimolo la paziente, valuto la coscienza. Non sospendo l'ossigeno: lo titolo con la Venturi, secondo prescrizione."),
+ (16,"chiaro",0,"Semiseduta, monitoraggio continuo. Collaboro a emogas e NIV, curando interfaccia, cute, perdite e distensione gastrica; aerosol con aria compressa. Rivaluto dopo una-due ore. Documento, ed educo prima della dimissione."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"Collegamenti: emogas, sei punto quattro. Ossigeno, NIV e aerosol, otto punto due. Ventilazione, dieci punto cinque. Respiro, quattordici punto tre. Cronicita', undici punto sei. Legge duecentodiciannove, uno punto sei."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: una saturazione perfetta non e' un paziente perfetto. Guarda la persona, conta la frequenza respiratoria, ascolta che cosa ti dice la sua coscienza."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: un paziente con scompenso che, alle due di notte, va in edema polmonare acuto, e che poi dobbiamo riportare a casa in modo che non ritorni dopo un mese. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"L'emogas",
+ 6:"Perche' l'ossigeno ha peggiorato la CO2",7:"La NIV",8:"La terapia associata",9:"L'evoluzione",
+ 10:"Prima della dimissione: gli inalatori",11:"L'ossigeno a domicilio e il piano d'azione",12:"Gli errori da evitare",
+ 13:"La comunicazione fra setting",14:"Vivere con la BPCO",15:"Le domande d'orale",16:"La risposta in 15 righe",
+ 17:"I collegamenti",18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

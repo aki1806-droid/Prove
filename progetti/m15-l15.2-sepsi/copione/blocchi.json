@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il primo caso e' uno dei piu' probabili all'esame, e dei piu' frequenti nella realta': un paziente di medicina che, durante la notte, comincia a peggiorare."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui l'infermiere fa la differenza piu' grande, perche' e' spesso l'unico accanto al letto quando i segni compaiono. Collegheremo le lezioni due punto tre, due punto sette, sei punto sette, dieci punto due e dieci punto sei."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Signor Bruno, settantotto anni, ricoverato alle diciotto in medicina per polmonite. E' diabetico in terapia orale, e iperteso."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle ventidue: febbre a trentotto virgola due, pressione centoventotto su settantaquattro, frequenza novantasei, respiratoria venti, saturazione novantaquattro in aria. Vigile e orientato."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'antibiotico e' prescritto, con la prima dose alle ventiquattro. Alle tre la figlia, che lo assiste, ti chiama: non mi riconosce. Metti in pausa: che cosa fai nei primi cinque minuti?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I primi cinque minuti sono l'ABCDE. A: parla, anche se in modo confuso: le vie aeree sono pervie. B: respiratoria ventisei, saturazione novantadue in aria, rantoli alla base destra."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C: frequenza centodiciotto, pressione novantasei su cinquantotto, riempimento capillare di tre secondi, cute marezzata alle ginocchia. D: confusione nuova, GCS quattordici per la risposta verbale."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pupille normali, glicemia centosessantotto: non e' un'ipoglicemia. E: febbre a trentotto virgola nove, nessun'altra fonte evidente, e solo centocinquanta millilitri di urina dalle ventidue, in cinque ore."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Calcoliamo la NEWS2. Respiratoria ventisei: tre punti. Saturazione novantadue, sulla scala uno: due. Aria ambiente: zero. Sistolica novantasei: due. Frequenza centodiciotto: due."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Confusione nuova: tre. Temperatura trentotto virgola nove: uno. Totale: tredici. E' un rischio alto, ben oltre la soglia di sette: richiede una risposta d'emergenza."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nota che la sola confusione nuova vale gia' tre punti. E' il segnale che troppo spesso viene attribuito all'eta', o alla notte."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Che cosa pensi? C'e' un'infezione nota, la polmonite, e ci sono segni di disfunzione d'organo: il cervello, con la confusione; il circolo, con l'ipotensione e la marezzatura."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rene, con l'oliguria; il polmone, con tachipnea e desaturazione. Sepsi fino a prova contraria: i tre criteri del qSOFA ci sono tutti. E, come sai dalla dieci punto sei, e' tempo-dipendente: ogni ora pesa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni, in parallelo. Chiami subito il medico di guardia, o il team di risposta rapida se l'ospedale lo prevede, con lo SBAR."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ossigeno secondo protocollo o prescrizione, con target novantaquattro-novantotto, perche' non ha la BPCO. Posizione semiseduta. Monitoraggio continuo. Un secondo accesso venoso di buon calibro."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prepari emocolture, lattati, emogas ed esami. E resti con il paziente, rassicurando la figlia: e' spaventata, e ha dato l'allarme giusto."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La telefonata SBAR. Situazione: sono l'infermiera di Medicina, chiamo per il signor Bruno, letto dodici: e' confuso da mezz'ora, ipoteso e tachicardico, con una NEWS2 di tredici."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Background: settantotto anni, ricoverato alle diciotto per polmonite, diabetico; la prima dose di antibiotico era prevista a mezzanotte. Accertamento: i parametri, la diuresi, e penso a una sepsi."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiesta: le chiedo di venire subito a vederlo; intanto ho messo l'ossigeno e preparo emocolture e lattati. Una chiamata cosi' dura quaranta secondi, e ottiene una risposta immediata."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ora un dettaglio che cambia tutto: l'antibiotico previsto alle ventiquattro e' stato somministrato? Verifichi la scheda di terapia. La prima dose puo' slittare, o saltare: magari il farmaco non era in reparto."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Allora lo comunichi al medico e la somministri subito, secondo prescrizione: dopo aver prelevato le emocolture, ma senza ritardarla per aspettarle. Nella sepsi, ogni ora di ritardo dell'antibiotico conta."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il medico arriva, e si avvia il bundle della prima ora. Lattati: tre virgola otto. Emocolture: due set da sedi diverse, con la tecnica della sei punto sette, prima dell'antibiotico."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'antibiotico ad ampio spettro, secondo prescrizione. I liquidi: cristalloidi secondo prescrizione, per esempio trenta millilitri per chilo se c'e' ipotensione, o lattati da quattro in su."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sorvegliando respiro e saturazione: un anziano con polmonite puo' non tollerare molti liquidi. Vasopressori se l'ipotensione persiste, per una media di almeno sessantacinque. E tutti gli orari si documentano."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La diuresi oraria dice la perfusione: almeno mezzo millilitro per chilo all'ora. Se serve, catetere su prescrizione, con indicazione documentata, rimosso appena non serve, come nella tre punto sei. Bilancio idrico."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'evoluzione. Alle cinque, nonostante i liquidi: pressione ottantotto su cinquanta, media sessantatre, frequenza centododici, diuresi quindici millilitri all'ora, e lattati di controllo a quattro virgola due."
+ },
+ {
+  "id": "s28",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' uno shock settico: servono vasopressori, e i lattati restano alti. Il medico avvia la noradrenalina e chiede la consulenza intensiva."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tuo ruolo: un trasferimento sicuro, con monitor, ossigeno, pompe e documentazione. Le consegne SBAR al collega della terapia intensiva. E la documentazione completa, con tutti gli orari."
+ },
+ {
+  "id": "s30",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un pensiero alla figlia. E' stata lei a dare l'allarme: riconoscerlo e' importante, anche per insegnare ai familiari che le loro osservazioni contano."
+ },
+ {
+  "id": "s31",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le dai informazioni chiare entro le tue competenze: quelle cliniche le comunica il medico. Presenza, ascolto, un luogo dove attendere. E la informi del trasferimento, e di come avere notizie."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Gli errori da intercettare. Pensare: e' anziano, di notte si confonde. Dare l'antipiretico e rivalutare al giro del mattino. Misurare la pressione e non contare la frequenza respiratoria, il parametro piu' precoce."
+ },
+ {
+  "id": "s33",
+  "capitolo": 13,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Ritardare l'antibiotico per aspettare le emocolture. Chiamare il medico senza dati, con un generico non sta bene. Non documentare gli orari. Dimenticare la diuresi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione a monte, che all'orale fa la differenza. Parametri completi con la NEWS2, alla frequenza prevista, e piu' ravvicinati nelle prime ore dal ricovero."
+ },
+ {
+  "id": "s35",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione alla prima dose di antibiotico: tempi e disponibilita' del farmaco sono un punto critico organizzativo. Coinvolgere i familiari nel riconoscere i cambiamenti. E le misure del modulo quattro."
+ },
+ {
+  "id": "s36",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Quando la sepsi si nasconde. Nell'anziano puo' dare solo confusione, una caduta, il rifiuto del cibo, o un'ipotermia invece della febbre. Con il beta-bloccante la tachicardia puo' mancare."
+ },
+ {
+  "id": "s37",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con i corticosteroidi o nell'immunodepresso, febbre e segni locali sono attenuati. Nel diabetico, una glicemia che sale senza motivo puo' essere il primo segnale."
+ },
+ {
+  "id": "s38",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli antipiretici a orario fanno scomparire la febbre, non l'infezione. E il parametro piu' affidabile resta spesso la frequenza respiratoria: un motivo in piu' per contarla davvero, per un minuto intero."
+ },
+ {
+  "id": "s39",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le domande d'orale. Prima: che cos'e' la NEWS2? Un punteggio di allerta precoce che somma sette elementi: frequenza respiratoria, saturazione, ossigenoterapia, sistolica, frequenza cardiaca, coscienza e temperatura."
+ },
+ {
+  "id": "s40",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A ogni fascia di punteggio associa una risposta graduata, fino all'emergenza da sette in su. Seconda: perche' le emocolture prima dell'antibiotico, ma senza ritardarlo?"
+ },
+ {
+  "id": "s41",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' l'antibiotico riduce la probabilita' di isolare il germe, ma ogni ora di ritardo aumenta la mortalita'. Si prelevano subito; se non e' possibile in tempi brevi, l'antibiotico non aspetta."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: sepsi e shock settico. La sepsi: una disfunzione d'organo da risposta disregolata all'infezione. Lo shock settico chiede vasopressori per una media di almeno sessantacinque, con lattati sopra due nonostante i liquidi."
+ },
+ {
+  "id": "s43",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. In corso di polmonite: confusione nuova, tachipnea, desaturazione, ipotensione, tachicardia e oliguria, NEWS2 tredici. Quadro compatibile con sepsi, emergenza tempo-dipendente."
+ },
+ {
+  "id": "s44",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Priorita': ossigenazione, perfusione e bundle della prima ora. Valuto con ABCDE e glicemia; ossigeno secondo protocollo, target novantaquattro-novantotto; semiseduto; monitoraggio; attivo subito medico o team con SBAR."
+ },
+ {
+  "id": "s45",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo accesso; preparo emocolture, lattati ed esami; verifico la prima dose di antibiotico e la eseguo appena prescritta. Liquidi secondo prescrizione, sorvegliando respiro e saturazione; diuresi oraria."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rivaluto parametri, coscienza e lattati: se l'ipotensione persiste, collaboro ai vasopressori e al trasferimento. Sostengo la familiare, documento ogni intervento con l'orario, garantisco consegne strutturate."
+ },
+ {
+  "id": "s47",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. NEWS2 e CAM, due punto tre. SBAR, due punto sette. Emocolture, sei punto sette. ABCDE, dieci punto due. Sepsi e bundle, dieci punto sei. Catetere, tre punto sei. Infezioni correlate, modulo quattro."
+ },
+ {
+  "id": "s48",
+  "capitolo": 19,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: la confusione nuova e' un parametro vitale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione seguiamo un paziente chirurgico giorno per giorno, dalla sera dell'intervento alla dimissione, incontrando le complicanze quando compaiono. A tra poco."
+ }
+]

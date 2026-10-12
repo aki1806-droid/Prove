@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Una paziente in chemioterapia con la febbre. E' uno dei casi in cui la rapidita' infermieristica salva la vita, e in cui la persona, oltre al corpo, porta con se' la paura."),
+ (1,"chiaro",0,"Lo affrontiamo con le lezioni quattro punto tre sull'isolamento, sei punto due sui cateteri venosi centrali, sei punto sei sulla trasfusione, sei punto sette sulle emocolture e otto punto sette sull'oncologia."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Chiara ha cinquantaquattro anni e un carcinoma mammario in chemioterapia adiuvante, con un port-a-cath. L'ultimo ciclo e' stato nove giorni fa."),
+ (2,"chiaro",0,"Alle venti arriva in pronto soccorso: febbre a trentotto virgola sette, brividi, e dice mi sento solo molto stanca. Pressione centododici su settanta, frequenza centotto, respiratoria diciotto, saturazione novantasette."),
+ (2,"chiaro",0,"Ha due figli, di dodici e quindici anni. Fermati un momento: perche' il nove giorni fa e' il dato piu' importante della traccia?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Nove giorni dopo la chemioterapia siamo nel nadir: il periodo fra il settimo e il quattordicesimo giorno in cui i globuli bianchi sono al minimo."),
+ (3,"chiaro",0,"Febbre in una paziente in chemioterapia significa neutropenia febbrile, fino a prova contraria. E i segni di infezione possono essere minimi: senza neutrofili non c'e' un'infiammazione evidente."),
+ (3,"chiaro",0,"La stanchezza e la febbre possono essere tutto. La tachicardia puo' indicare una sepsi iniziale. [serious] E' un'emergenza, con un obiettivo preciso: l'antibiotico entro sessanta minuti."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Il triage e l'accoglienza. Priorita' elevata, secondo il percorso per la neutropenia febbrile. Non resta in sala d'attesa con altri pazienti, magari con l'influenza: va in un'area dedicata, in isolamento protettivo."),
+ (4,"chiaro",0,"Igiene delle mani rigorosa. Parametri completi e NEWS2. Si avvisa subito il medico. E si registra l'ora di arrivo: da qui partono i sessanta minuti."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Gli esami. L'emocromo urgente conferma: neutrofili trecento, cioe' una neutropenia grave. Piastrine diciottomila. Emoglobina nove virgola uno."),
+ (5,"chiaro",0,"Le emocolture, con la tecnica della lezione sei punto sette: una dal port e una da una vena periferica, prelevate insieme. Il confronto dei tempi di positivizzazione dice se l'infezione nasce dal catetere."),
+ (5,"chiaro",0,"Poi funzione renale ed epatica, lattati, PCR, urinocoltura. E la regola che conosci: le emocolture non devono ritardare l'antibiotico."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Il port e l'antibiotico. Si accede al port con tecnica asettica: ago di Huber non carotante, verifica del reflusso, lavaggio pulsato, come nella lezione sei punto due."),
+ (6,"chiaro",0,"Si ispezionano la tasca sottocutanea e il tragitto: rossore, dolore o secrezione fanno pensare a un'infezione del catetere, e vanno segnalati."),
+ (6,"chiaro",0,"Poi l'antibiotico ad ampio spettro secondo prescrizione, entro sessanta minuti dall'arrivo. Qui la prima dose va alle venti e quarantotto, e l'orario si documenta: e' l'indicatore di qualita' del percorso."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Le misure nel paziente neutropenico, della lezione otto punto sette. Igiene delle mani. Stanza singola secondo protocollo. Niente visitatori con sintomi di infezione."),
+ (7,"chiaro",0,"Niente manovre rettali: niente temperatura rettale, supposte o clisteri. Igiene orale e cutanea. Niente fiori e piante. Alimenti sicuri. E meno procedure invasive: ogni ago e' una porta d'ingresso."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"La signora riferisce un dolore di sei su dieci alla deglutizione, con afte nel cavo orale: e' una mucosite. Igiene orale con spazzolino morbido, sciacqui blandi con fisiologica o bicarbonato, niente collutori alcolici."),
+ (8,"chiaro",0,"Analgesia secondo prescrizione, valutata con la scala. Cibi morbidi, freschi, non irritanti, e idratazione. E l'ispezione quotidiana del cavo orale, anche per cercare una candidosi."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Le piastrine sono diciottomila: petecchie alle gambe, una lieve gengivorragia. Le precauzioni: spazzolino morbido, rasoio elettrico, niente intramuscolari, compressione prolungata dopo i prelievi, prevenzione delle cadute."),
+ (9,"chiaro",0,"La trasfusione di piastrine si fa secondo prescrizione e secondo le soglie del protocollo, che tengono conto anche di febbre e sanguinamento. Con l'identificazione al letto della lezione sei punto sei."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"L'evoluzione. In terza giornata la febbre e' risolta, i parametri sono stabili, le emocolture negative. I neutrofili risalgono a millecento, e la mucosite migliora."),
+ (10,"chiaro",0,"Si prosegue la terapia secondo prescrizione, e si pianifica la dimissione. Ma prima c'e' una parte del caso che non sta negli esami."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"[thoughtful] La sera della seconda giornata la signora Chiara ti dice: ho avuto paura di non tornare a casa dai miei figli. E' un momento che conta quanto l'antibiotico."),
+ (11,"chiaro",0,"Ascolto, presenza, domande aperte, senza frasi fatte come vedra' che andra' tutto bene. Informazioni chiare, dentro le tue competenze."),
+ (11,"chiaro",0,"L'offerta del supporto psico-oncologico. I familiari coinvolti secondo i suoi desideri. E le associazioni di volontariato oncologico, che in Veneto sono molto presenti."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"L'educazione alla dimissione. Misurare la temperatura in caso di malessere, brividi o sudorazione. Con febbre da trentotto in su, chiamare subito il centro, al numero dedicato."),
+ (12,"chiaro",0,"E non prendere l'antipiretico aspettando che passi: l'antipiretico abbassa la febbre, ma non cura un'infezione in una persona senza difese."),
+ (12,"chiaro",0,"Igiene delle mani, evitare chi ha infezioni, igiene orale. La cura del port e i segni di infezione. I segni di sanguinamento. Alimentazione sicura. Il calendario dei controlli. Il case manager e la Rete Oncologica Veneta."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Dire: ha solo un po' di febbre, prenda il paracetamolo e torni domani. Lasciarla in sala d'attesa. Ritardare l'antibiotico per aspettare l'emocromo o le emocolture."),
+ (13,"chiaro",0,"Temperature rettali e supposte. Intramuscolari con le piastrine basse. E trascurare la paura, e i figli."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Un approfondimento sul port-a-cath nel tempo. Si accede con l'ago di Huber, non carotante, con tecnica asettica. Prima dell'uso si verifica il reflusso."),
+ (14,"chiaro",0,"Lavaggio pulsato con fisiologica, con siringhe da almeno dieci millilitri per non generare pressioni eccessive: prima e dopo ogni uso, e fra farmaci incompatibili. Da fermo, lavaggi secondo protocollo."),
+ (14,"chiaro",0,"I segni da segnalare. Dolore o gonfiore durante l'infusione fanno pensare a uno stravaso, pericolosissimo con gli antiblastici. L'assenza di reflusso, o una resistenza, a un'occlusione."),
+ (14,"chiaro",0,"Arrossamento o secrezione, a un'infezione. E un edema del braccio o del collo puo' indicare una trombosi."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"[curious] Le domande d'orale. Prima: che cos'e' il nadir? Il punto piu' basso dei valori ematici dopo la chemioterapia, di solito fra il settimo e il quattordicesimo giorno: il massimo rischio di infezione e sanguinamento."),
+ (15,"chiaro",0,"Seconda: quali misure per il neutropenico? Igiene delle mani, isolamento protettivo secondo protocollo, niente visitatori con sintomi, niente manovre rettali, igiene orale e cutanea."),
+ (15,"chiaro",0,"Alimenti sicuri, niente fiori, meno procedure invasive. E la regola della febbre: antibiotico entro sessanta minuti. Terza: come risponde a una paziente che ha paura?"),
+ (15,"chiaro",0,"Con ascolto e presenza, domande aperte, senza frasi rassicuranti generiche. Dando informazioni nei limiti delle proprie competenze, e offrendo il supporto psico-oncologico."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"La risposta modello. Paziente in chemioterapia, nove giorni dopo l'ultimo ciclo, con febbre, brividi e tachicardia: neutropenia febbrile fino a prova contraria, emergenza, antibiotico entro sessanta minuti."),
+ (16,"chiaro",0,"Assegno priorita' elevata, la accolgo in area separata con isolamento protettivo, rilevo i parametri e avviso subito il medico, registrando l'orario di arrivo. Eseguo l'emocromo urgente."),
+ (16,"chiaro",0,"Emocolture contemporanee dal port, con ago di Huber e tecnica asettica, e da vena periferica, senza ritardare l'antibiotico, che somministro documentandone l'orario. Applico le misure per il neutropenico."),
+ (16,"chiaro",0,"Con piastrine basse, le precauzioni antiemorragiche. Gestisco mucosite e dolore. Rivaluto. Offro ascolto e supporto psico-oncologico. Alla dimissione educo a chiamare subito in caso di febbre, con il teach-back."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"I collegamenti. L'isolamento protettivo con la quattro punto tre. Il port con la sei punto due. La trasfusione con la sei punto sei. Le emocolture con la sei punto sette."),
+ (17,"chiaro",0,"Neutropenia, mucosite e piastrinopenia con la otto punto sette. Gli antiblastici con la cinque punto sette. La comunicazione con la due punto sette. La Rete Oncologica Veneta con la tredici punto tre."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"[serious] La frase del caso: nel paziente in chemioterapia, la febbre e' un'emergenza anche quando lui dice di stare bene."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: un turno di mattina con quattro trappole nella terapia. Potassio, eparina in pompa, morfina, trasfusione: quattro situazioni in cui l'infermiere e' l'ultima barriera prima del danno. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Il triage e l'accoglienza",5:"Gli esami e le emocolture",
+ 6:"Il port e l'antibiotico",7:"Le misure nel paziente neutropenico",8:"La mucosite",9:"Le piastrine basse",
+ 10:"L'evoluzione",11:"La persona, non solo la neutropenia",12:"L'educazione alla dimissione",13:"Gli errori da evitare",
+ 14:"Il port-a-cath nel tempo",15:"Le domande d'orale",16:"La risposta modello",17:"I collegamenti",
+ 18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

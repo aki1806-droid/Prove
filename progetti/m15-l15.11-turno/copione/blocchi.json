@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Fino a qui, un paziente alla volta. Ma in reparto la realta' e' un'altra: piu' pazienti insieme, un'equipe da coordinare, gli imprevisti, e a volte un familiare che perde il controllo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questo caso allena tre competenze che l'orale verifica spesso: stabilire le priorita', attribuire e supervisionare le attivita', e gestire un'aggressione."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Turno pomeridiano in medicina. Hai sei pazienti, con un OSS e un assistente infermiere, dove e' presente in organico. Sono le quattordici, e le consegne sono appena finite."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Letto uno: Paolo, sessantaquattro anni, anemia: da dieci minuti ha un peso al petto, ed e' sudato. Letto due: Ida, settantasette anni, BPCO, satura ottantanove con gli occhialini; il suo target e' ottantotto-novantadue."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Letto tre: Luca, diabetico, glicemia duecentottanta, senza sintomi. Letto quattro: Rosa, ottantacinque anni, allettata, Braden dodici, con igiene e riposizionamento previsti alle quattordici."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Letto cinque: Franco, dimissione domani, educazione all'eparina da completare, il figlio arriva alle diciassette. Letto sei: Anna, antibiotico endovena alle quattordici. Pausa: in che ordine?"
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Le priorita'. Primo, Paolo: dolore toracico e sudorazione, in un anemico, possono essere una sindrome coronarica o un'ischemia da anemia. Valutazione immediata, ECG entro dieci minuti, parametri, medico."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda, Anna: l'antibiotico ha un orario, e un breve ritardo e' accettabile, se documentato. Terzo, Luca: iperglicemia senza sintomi. Si valuta, si applica lo schema prescritto, si informa il medico."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarta, Ida: stabile, e dentro il suo target. Il trabocchetto e' considerare urgente una saturazione di ottantanove, che per lei e' corretta."
+ },
+ {
+  "id": "s11",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinta, Rosa: un'attivita' di prevenzione che si puo' attribuire. Sesto, Franco: l'educazione si programma alle diciassette, con il figlio presente."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento dietro l'ordine. Prima l'instabilita' e il rischio di peggioramento rapido. Poi la tempo-dipendenza. Poi la competenza: infermieristica e non delegabile, oppure attribuibile ad altri."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'attivita' puo' essere importante ma attribuibile, come l'igiene di Rosa; un'altra meno urgente ma non attribuibile, come l'educazione di Franco. E' la distinzione che il commissario vuole sentire."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'attribuzione. Attribuire significa affidare un'attivita', non la responsabilita' dell'assistenza: quella resta all'infermiere."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I criteri: la stabilita' clinica del paziente, la prevedibilita' dell'esito, la complessita' dell'attivita', il profilo e le competenze dell'operatore, la possibilita' di supervisione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si attribuiscono la valutazione, la pianificazione, il giudizio clinico, l'educazione terapeutica, e le attivita' riservate alla competenza infermieristica."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le due figure di supporto. L'OSS svolge l'assistenza diretta di base: igiene, mobilizzazione, alimentazione e comfort, e le attivita' alberghiere, secondo il profilo e le procedure aziendali."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'assistente infermiere e' il profilo istituito con un accordo Stato-Regioni e recepito nel contratto duemilaventidue-duemilaventiquattro. Svolge le attivita' del suo profilo, attribuite e supervisionate dall'infermiere."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una raccomandazione di metodo: le attivita' consentite si verificano sempre nei documenti di riferimento e nelle procedure dell'azienda, perche' e' un ambito in evoluzione."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come si attribuisce bene. Un'istruzione chiara: che cosa, a chi, come, entro quando, e soprattutto che cosa riferire. Un pensaci tu alla quattro non e' un'attribuzione: e' un rischio."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per Rosa: alle quattordici e quindici, igiene e riposizionamento sul fianco sinistro, con lo scarico dei talloni con il cuscino."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Guarda la cute di sacro e talloni, e chiamami se vedi arrossamenti che non scompaiono alla pressione, o se riferisce dolore. Poi la verifica al termine, e la documentazione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La responsabilita'. L'infermiere risponde della scelta dell'attivita', dell'operatore e della supervisione; l'operatore, dell'esecuzione. Attribuire a chi non e' competente, o non supervisionare, espone a responsabilita'."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il fondamento e' il profilo, il DM settecentotrentanove del millenovecentonovantaquattro: l'infermiere e' responsabile dell'assistenza generale infermieristica e, dove necessario, si avvale del personale di supporto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Ore sedici e trenta. Il figlio di Rosa arriva al bancone e alza la voce: mia madre e' sporca, la lasciate cosi', vi denuncio tutti! Si avvicina, gesticola, altri visitatori osservano. Che cosa fai?"
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La de-escalation della lezione due punto sette. Prima la sicurezza: la distanza, una via d'uscita libera, non restare soli, i colleghi avvisati. Un tono calmo e basso, una postura aperta."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ascolto, senza interrompere. Riconoscere l'emozione: vedo che e' molto preoccupato per sua madre. E spostarsi in un luogo riservato, lontano dagli altri visitatori."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Verificare insieme la situazione, senza promesse e senza accuse: magari Rosa si e' sporcata dopo l'igiene delle quattordici. Offrire una soluzione concreta. E se l'escalation continua, la vigilanza o le forze dell'ordine."
+ },
+ {
+  "id": "s29",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo l'episodio. Si segnala secondo la procedura aziendale, come prevede la Raccomandazione otto. In caso di lesioni si fa refertare: sono procedibili d'ufficio, con la legge centotredici del duemilaventi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contratto duemilaventidue-duemilaventiquattro prevede il patrocinio legale e il supporto psicologico. E con l'equipe si fa un debriefing."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E una cosa che spesso si dimentica: si verifica comunque l'assistenza, perche' una protesta, anche espressa male, puo' segnalare un bisogno reale. Il dialogo con il figlio si riprende a mente fredda."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il resto del turno. Paolo: l'ECG non mostra alterazioni acute, la troponina e' in corso, e il medico prescrive una trasfusione per l'anemia, da sorvegliare. Anna: antibiotico alle quattordici e venticinque, documentato."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Luca: correzione secondo schema, e rivalutazione. Ida: stabile. Rosa: cute integra, documentata. Franco: l'educazione con il figlio alle diciassette, con il teach-back sull'autosomministrazione dell'eparina."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le consegne delle ventuno, con lo SBAR, cominciando dai pazienti instabili. Per Paolo. Situazione: letto uno, alle quattordici dolore toracico durato quindici minuti, ora asintomatico."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Background: anemia, emoglobina sette virgola due, in trasfusione della seconda unita'. Accertamento: ECG senza alterazioni acute, prima troponina negativa, parametri stabili."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Raccomandazione: seconda troponina alle ventidue, sorveglianza della trasfusione, chiamare se il dolore si ripresenta. Chi riceve sa esattamente che cosa fare."
+ },
+ {
+  "id": "s37",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tempo e le interruzioni. Il turno si pianifica subito dopo le consegne: le attivita' a orario, quelle programmabili, lo spazio per gli imprevisti. E le interruzioni nella preparazione della terapia causano errori."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo un'area dedicata, i segnali di non disturbare, un paziente alla volta. Le priorita' si rivalutano a ogni cambiamento. E se il carico e' eccessivo si chiede aiuto e si segnala: e' responsabilita', non debolezza."
+ },
+ {
+  "id": "s39",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le domande d'orale. Prima: con quali criteri attribuisce un'attivita' all'OSS? Stabilita', prevedibilita', complessita', profilo dell'operatore, supervisione. Con istruzioni chiare e la verifica finale."
+ },
+ {
+  "id": "s40",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E tenendo per se' valutazione, pianificazione ed educazione. Seconda: come gestisce un familiare aggressivo? Prima la sicurezza, poi la de-escalation: ascolto, riconoscimento dell'emozione, tono calmo, luogo riservato."
+ },
+ {
+  "id": "s41",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La vigilanza se serve, e la segnalazione. Terza: che cos'e' lo SBAR? Comunicazione strutturata, situazione, background, accertamento, raccomandazione: nelle consegne, nelle chiamate al medico, nei trasferimenti."
+ },
+ {
+  "id": "s42",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. All'inizio del turno stabilisco le priorita' in base a instabilita', tempo-dipendenza e competenza richiesta. Valuto per primo il paziente con dolore toracico: parametri, ECG entro dieci minuti, medico."
+ },
+ {
+  "id": "s43",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi l'antibiotico a orario. Valuto il paziente con iperglicemia, e riconosco come stabile la paziente con BPCO in target."
+ },
+ {
+  "id": "s44",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attribuisco all'OSS igiene e riposizionamento della paziente allettata, con istruzioni chiare su che cosa fare, entro quando e che cosa riferire, e verifico. Tengo per me valutazione, terapia endovena ed educazione."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il familiare aggressivo garantisco la sicurezza, applico la de-escalation in un luogo riservato, chiamo la vigilanza se serve, e segnalo. Documento, e trasmetto le consegne SBAR dai pazienti instabili."
+ },
+ {
+  "id": "s46",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti: profilo e responsabilita' con la uno punto uno e la uno punto due; de-escalation e SBAR con la due punto sette; la Raccomandazione otto con la due punto sei."
+ },
+ {
+  "id": "s47",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contratto e l'assistente infermiere con la dodici punto cinque; la sicurezza sul lavoro con la dodici punto sei; le lesioni da pressione con la tre punto due."
+ },
+ {
+  "id": "s48",
+  "capitolo": 18,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: si attribuisce un'attivita', non si delega la responsabilita'. E la priorita' non e' chi chiama piu' forte, ma chi rischia di piu'."
+ },
+ {
+  "id": "s49",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione chiudiamo il modulo: il riepilogo dello schema, sei casi lampo su temi che non abbiamo sviluppato per esteso, e le tracce piu' probabili. A tra poco."
+ }
+]

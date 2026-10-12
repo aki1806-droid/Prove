@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il primo caso e' uno dei piu' probabili all'esame, e dei piu' frequenti nella realta': un paziente di medicina che, durante la notte, comincia a peggiorare."),
+ (1,"chiaro",0,"Qui l'infermiere fa la differenza piu' grande, perche' e' spesso l'unico accanto al letto quando i segni compaiono. Collegheremo le lezioni due punto tre, due punto sette, sei punto sette, dieci punto due e dieci punto sei."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Signor Bruno, settantotto anni, ricoverato alle diciotto in medicina per polmonite. E' diabetico in terapia orale, e iperteso."),
+ (2,"chiaro",0,"Alle ventidue: febbre a trentotto virgola due, pressione centoventotto su settantaquattro, frequenza novantasei, respiratoria venti, saturazione novantaquattro in aria. Vigile e orientato."),
+ (2,"chiaro",0,"L'antibiotico e' prescritto, con la prima dose alle ventiquattro. Alle tre la figlia, che lo assiste, ti chiama: non mi riconosce. Metti in pausa: che cosa fai nei primi cinque minuti?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"I primi cinque minuti sono l'ABCDE. A: parla, anche se in modo confuso: le vie aeree sono pervie. B: respiratoria ventisei, saturazione novantadue in aria, rantoli alla base destra."),
+ (3,"chiaro",0,"C: frequenza centodiciotto, pressione novantasei su cinquantotto, riempimento capillare di tre secondi, cute marezzata alle ginocchia. D: confusione nuova, GCS quattordici per la risposta verbale."),
+ (3,"chiaro",0,"Pupille normali, glicemia centosessantotto: non e' un'ipoglicemia. E: febbre a trentotto virgola nove, nessun'altra fonte evidente, e solo centocinquanta millilitri di urina dalle ventidue, in cinque ore."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Calcoliamo la NEWS2. Respiratoria ventisei: tre punti. Saturazione novantadue, sulla scala uno: due. Aria ambiente: zero. Sistolica novantasei: due. Frequenza centodiciotto: due."),
+ (4,"chiaro",0,"Confusione nuova: tre. Temperatura trentotto virgola nove: uno. Totale: tredici. E' un rischio alto, ben oltre la soglia di sette: richiede una risposta d'emergenza."),
+ (4,"chiaro",0,"E nota che la sola confusione nuova vale gia' tre punti. E' il segnale che troppo spesso viene attribuito all'eta', o alla notte."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"[curious] Che cosa pensi? C'e' un'infezione nota, la polmonite, e ci sono segni di disfunzione d'organo: il cervello, con la confusione; il circolo, con l'ipotensione e la marezzatura."),
+ (5,"chiaro",0,"Il rene, con l'oliguria; il polmone, con tachipnea e desaturazione. Sepsi fino a prova contraria: i tre criteri del qSOFA ci sono tutti. E, come sai dalla dieci punto sei, e' tempo-dipendente: ogni ora pesa."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Le prime azioni, in parallelo. Chiami subito il medico di guardia, o il team di risposta rapida se l'ospedale lo prevede, con lo SBAR."),
+ (6,"chiaro",0,"Ossigeno secondo protocollo o prescrizione, con target novantaquattro-novantotto, perche' non ha la BPCO. Posizione semiseduta. Monitoraggio continuo. Un secondo accesso venoso di buon calibro."),
+ (6,"chiaro",0,"Prepari emocolture, lattati, emogas ed esami. E resti con il paziente, rassicurando la figlia: e' spaventata, e ha dato l'allarme giusto."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La telefonata SBAR. Situazione: sono l'infermiera di Medicina, chiamo per il signor Bruno, letto dodici: e' confuso da mezz'ora, ipoteso e tachicardico, con una NEWS2 di tredici."),
+ (7,"chiaro",0,"Background: settantotto anni, ricoverato alle diciotto per polmonite, diabetico; la prima dose di antibiotico era prevista a mezzanotte. Accertamento: i parametri, la diuresi, e penso a una sepsi."),
+ (7,"chiaro",0,"Richiesta: le chiedo di venire subito a vederlo; intanto ho messo l'ossigeno e preparo emocolture e lattati. Una chiamata cosi' dura quaranta secondi, e ottiene una risposta immediata."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"[serious] Ora un dettaglio che cambia tutto: l'antibiotico previsto alle ventiquattro e' stato somministrato? Verifichi la scheda di terapia. La prima dose puo' slittare, o saltare: magari il farmaco non era in reparto."),
+ (8,"chiaro",0,"Allora lo comunichi al medico e la somministri subito, secondo prescrizione: dopo aver prelevato le emocolture, ma senza ritardarla per aspettarle. Nella sepsi, ogni ora di ritardo dell'antibiotico conta."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Il medico arriva, e si avvia il bundle della prima ora. Lattati: tre virgola otto. Emocolture: due set da sedi diverse, con la tecnica della sei punto sette, prima dell'antibiotico."),
+ (9,"chiaro",0,"L'antibiotico ad ampio spettro, secondo prescrizione. I liquidi: cristalloidi secondo prescrizione, per esempio trenta millilitri per chilo se c'e' ipotensione, o lattati da quattro in su."),
+ (9,"chiaro",0,"Sorvegliando respiro e saturazione: un anziano con polmonite puo' non tollerare molti liquidi. Vasopressori se l'ipotensione persiste, per una media di almeno sessantacinque. E tutti gli orari si documentano."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La diuresi oraria dice la perfusione: almeno mezzo millilitro per chilo all'ora. Se serve, catetere su prescrizione, con indicazione documentata, rimosso appena non serve, come nella tre punto sei. Bilancio idrico."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"L'evoluzione. Alle cinque, nonostante i liquidi: pressione ottantotto su cinquanta, media sessantatre, frequenza centododici, diuresi quindici millilitri all'ora, e lattati di controllo a quattro virgola due."),
+ (11,"chiaro",0,"E' uno shock settico: servono vasopressori, e i lattati restano alti. Il medico avvia la noradrenalina e chiede la consulenza intensiva."),
+ (11,"chiaro",0,"Il tuo ruolo: un trasferimento sicuro, con monitor, ossigeno, pompe e documentazione. Le consegne SBAR al collega della terapia intensiva. E la documentazione completa, con tutti gli orari."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Un pensiero alla figlia. E' stata lei a dare l'allarme: riconoscerlo e' importante, anche per insegnare ai familiari che le loro osservazioni contano."),
+ (12,"chiaro",0,"Le dai informazioni chiare entro le tue competenze: quelle cliniche le comunica il medico. Presenza, ascolto, un luogo dove attendere. E la informi del trasferimento, e di come avere notizie."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"tenue",0,"Gli errori da intercettare. Pensare: e' anziano, di notte si confonde. Dare l'antipiretico e rivalutare al giro del mattino. Misurare la pressione e non contare la frequenza respiratoria, il parametro piu' precoce."),
+ (13,"tenue",0,"Ritardare l'antibiotico per aspettare le emocolture. Chiamare il medico senza dati, con un generico non sta bene. Non documentare gli orari. Dimenticare la diuresi."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La prevenzione a monte, che all'orale fa la differenza. Parametri completi con la NEWS2, alla frequenza prevista, e piu' ravvicinati nelle prime ore dal ricovero."),
+ (14,"chiaro",0,"Attenzione alla prima dose di antibiotico: tempi e disponibilita' del farmaco sono un punto critico organizzativo. Coinvolgere i familiari nel riconoscere i cambiamenti. E le misure del modulo quattro."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"[thoughtful] Quando la sepsi si nasconde. Nell'anziano puo' dare solo confusione, una caduta, il rifiuto del cibo, o un'ipotermia invece della febbre. Con il beta-bloccante la tachicardia puo' mancare."),
+ (15,"chiaro",0,"Con i corticosteroidi o nell'immunodepresso, febbre e segni locali sono attenuati. Nel diabetico, una glicemia che sale senza motivo puo' essere il primo segnale."),
+ (15,"chiaro",0,"Gli antipiretici a orario fanno scomparire la febbre, non l'infezione. E il parametro piu' affidabile resta spesso la frequenza respiratoria: un motivo in piu' per contarla davvero, per un minuto intero."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Le domande d'orale. Prima: che cos'e' la NEWS2? Un punteggio di allerta precoce che somma sette elementi: frequenza respiratoria, saturazione, ossigenoterapia, sistolica, frequenza cardiaca, coscienza e temperatura."),
+ (16,"chiaro",0,"A ogni fascia di punteggio associa una risposta graduata, fino all'emergenza da sette in su. Seconda: perche' le emocolture prima dell'antibiotico, ma senza ritardarlo?"),
+ (16,"chiaro",0,"Perche' l'antibiotico riduce la probabilita' di isolare il germe, ma ogni ora di ritardo aumenta la mortalita'. Si prelevano subito; se non e' possibile in tempi brevi, l'antibiotico non aspetta."),
+ (16,"chiaro",0,"Terza: sepsi e shock settico. La sepsi: una disfunzione d'organo da risposta disregolata all'infezione. Lo shock settico chiede vasopressori per una media di almeno sessantacinque, con lattati sopra due nonostante i liquidi."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"La risposta modello. In corso di polmonite: confusione nuova, tachipnea, desaturazione, ipotensione, tachicardia e oliguria, NEWS2 tredici. Quadro compatibile con sepsi, emergenza tempo-dipendente."),
+ (17,"chiaro",0,"Priorita': ossigenazione, perfusione e bundle della prima ora. Valuto con ABCDE e glicemia; ossigeno secondo protocollo, target novantaquattro-novantotto; semiseduto; monitoraggio; attivo subito medico o team con SBAR."),
+ (17,"chiaro",0,"Secondo accesso; preparo emocolture, lattati ed esami; verifico la prima dose di antibiotico e la eseguo appena prescritta. Liquidi secondo prescrizione, sorvegliando respiro e saturazione; diuresi oraria."),
+ (17,"chiaro",0,"Rivaluto parametri, coscienza e lattati: se l'ipotensione persiste, collaboro ai vasopressori e al trasferimento. Sostengo la familiare, documento ogni intervento con l'orario, garantisco consegne strutturate."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"I collegamenti. NEWS2 e CAM, due punto tre. SBAR, due punto sette. Emocolture, sei punto sette. ABCDE, dieci punto due. Sepsi e bundle, dieci punto sei. Catetere, tre punto sei. Infezioni correlate, modulo quattro."),
+
+ (19,"profondo",1.2,"[serious] La frase del caso: la confusione nuova e' un parametro vitale."),
+ (19,"chiaro",0,"[warm] Nella prossima lezione seguiamo un paziente chirurgico giorno per giorno, dalla sera dell'intervento alla dimissione, incontrando le complicanze quando compaiono. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"I primi cinque minuti: ABCDE",4:"Il punteggio NEWS2",5:"Che cosa pensi",
+ 6:"Le prime azioni",7:"La telefonata SBAR",8:"Il dettaglio che cambia tutto",9:"Il bundle della prima ora",
+ 10:"La diuresi oraria",11:"L'evoluzione: ore 5",12:"La famiglia",13:"Gli errori che il caso vuole intercettare",
+ 14:"La prevenzione a monte",15:"Quando la sepsi si nasconde",16:"Le domande d'orale su questo caso",
+ 17:"La risposta in 15 righe",18:"I collegamenti",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
