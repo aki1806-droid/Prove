@@ -9,3 +9,4 @@
 | 15.5 | La paziente con BPCO che dorme troppo | 9:14.7 | `5c0154a55641b90fa59a9dc8896e4168` |
 | 15.6 | Lo scompenso: dalla notte in edema polmonare al ritorno a casa | 9:07.0 | `84aa16d65159226600496201508f2914` |
 | 15.9 | La paziente oncologica con febbre | 8:56.4 | `cc511f4bb19876057455ba18aff92cdc` |
+| 15.10 | Il turno della terapia: quattro trappole | 9:12.2 | `746233e8a9a58cec6256bc70074c4da9` |
