@@ -140,6 +140,7 @@ progetti/<modulo>-<lezione>/
 | `m15-l15.6-scompenso` | Modulo 15 · 15.6 Lo scompenso: dalla notte in edema polmonare al ritorno a casa | 9:07.0 | `84aa16d65159226600496201508f2914` |
 | `m15-l15.9-oncologica` | Modulo 15 · 15.9 La paziente oncologica con febbre | 8:56.4 | `cc511f4bb19876057455ba18aff92cdc` |
 | `m15-l15.10-terapia` | Modulo 15 · 15.10 Il turno della terapia: quattro trappole | 9:12.2 | `746233e8a9a58cec6256bc70074c4da9` |
+| `m15-l15.2-sepsi` | Modulo 15 · 15.2 Il paziente che si deteriora di notte: dalla polmonite alla sepsi | 9:14.7 | `093515895c94b07f8c4b054bd4c4914c` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
