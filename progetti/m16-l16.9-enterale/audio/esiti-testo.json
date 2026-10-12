@@ -1,0 +1,238 @@
+{
+ "A": {
+  "parole_copione": 666,
+  "parole_dette": 663,
+  "coincidenti": 635,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s02",
+    "copione": "inalazione",
+    "detto": "inhalazione"
+   },
+   {
+    "blocco": "s03",
+    "copione": "conoscono",
+    "detto": "conosco"
+   },
+   {
+    "blocco": "s03",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s05",
+    "copione": "disfagia",
+    "detto": "disfaggia"
+   },
+   {
+    "blocco": "s06",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s06",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s07",
+    "copione": "38virgola4",
+    "detto": "38 4"
+   },
+   {
+    "blocco": "s08",
+    "copione": "cosa",
+    "detto": "cos"
+   },
+   {
+    "blocco": "s09",
+    "copione": "disfagia",
+    "detto": "disfaggia"
+   },
+   {
+    "blocco": "s09",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "whoosh",
+    "detto": "wush"
+   },
+   {
+    "blocco": "s13",
+    "copione": "l auscultazione",
+    "detto": "la uscultazione"
+   },
+   {
+    "blocco": "s14",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "con pompa",
+    "detto": "compompa"
+   },
+   {
+    "blocco": "s16",
+    "copione": "contenzione",
+    "detto": "con tensione"
+   },
+   {
+    "blocco": "s19",
+    "copione": "insufficienza",
+    "detto": "insuppicienza"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s24",
+    "copione": "edematoso",
+    "detto": "ed ematoso"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "mai",
+    "detto": "ma"
+   },
+   {
+    "blocco": "s25",
+    "copione": "bolo",
+    "detto": "volo"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 652,
+  "parole_dette": 647,
+  "coincidenti": 621,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "per sonda",
+    "detto": "personda"
+   },
+   {
+    "blocco": "s29",
+    "copione": "confort",
+    "detto": "comfort"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s34",
+    "copione": "whoosh",
+    "detto": "wush"
+   },
+   {
+    "blocco": "s35",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s36",
+    "copione": "domande",
+    "detto": "botande"
+   },
+   {
+    "blocco": "s37",
+    "copione": "l auscultazione",
+    "detto": "la uscultazione"
+   },
+   {
+    "blocco": "s38",
+    "copione": "igiene orale",
+    "detto": "i generale"
+   },
+   {
+    "blocco": "s38",
+    "copione": "vomito",
+    "detto": "bomito"
+   },
+   {
+    "blocco": "s39",
+    "copione": "calo",
+    "detto": "caldo"
+   },
+   {
+    "blocco": "s40",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s41",
+    "copione": "lo posiziono",
+    "detto": "l opposizione"
+   },
+   {
+    "blocco": "s42",
+    "copione": "igiene orale",
+    "detto": "i generale"
+   },
+   {
+    "blocco": "s43",
+    "copione": "1 avvio lento",
+    "detto": "una violento"
+   },
+   {
+    "blocco": "s43",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s44",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s46",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "oss",
+    "detto": "os"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}
