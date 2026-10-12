@@ -4,76 +4,79 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso segue un paziente chirurgico per dieci giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla."),
+ (1,"chiaro",0,"E' un ottimo allenamento, perche' all'esame la traccia dice spesso in seconda giornata, o in settima giornata: quel numero e' gia' meta' della risposta."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Signor Gallo, sessantasette anni, operato di emicolectomia destra per una neoplasia, in un percorso ERAS. Rientra in reparto alle sedici."),
+ (2,"chiaro",0,"Ha una peridurale toracica in infusione, un drenaggio addominale, il catetere vescicale e un accesso venoso periferico. E' prescritta la profilassi antitrombotica."),
+ (2,"chiaro",0,"All'arrivo: pressione centotrentotto su ottanta, frequenza ottantaquattro, saturazione novantasette con occhialini a due litri, dolore due. Fissa bene questi valori: sono il riferimento per tutto il resto."),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Giornata zero, ore venti. Frequenza centosedici, pressione centodue su sessantaquattro, cute pallida e sudata. Il paziente e' agitato, e dice: mi sento strano."),
+ (3,"chiaro",0,"Il drenaggio ha raccolto duecentottanta millilitri di sangue rosso nell'ultima ora, l'addome e' piu' teso, la diuresi e' di venti millilitri nell'ultima ora. Pausa: che cosa sta succedendo?"),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"[curious] Il ragionamento ha un trabocchetto: con la peridurale la pressione puo' calare per il blocco simpatico. Ma di solito senza una tachicardia marcata, anzi a volte con bradicardia, e senza perdite di sangue."),
+ (4,"chiaro",0,"Qui ci sono tutti i segni dell'emorragia: tachicardia, pallore, sudorazione, agitazione, oliguria, drenaggio ematico abbondante, addome teso. E' un'emorragia postoperatoria con shock iniziale."),
+ (4,"chiaro",0,"E nota il dettaglio: la pressione sembra ancora accettabile, ma e' scesa di oltre trentacinque rispetto al basale. E' il trend che conta."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Le azioni. Avvisi subito il chirurgo con lo SBAR, e informi l'anestesista per la peridurale. Ossigeno, posizione supina, un secondo accesso venoso di grosso calibro."),
+ (5,"chiaro",0,"Prelievi: emocromo, coagulazione, gruppo e prove crociate. Liquidi ed emocomponenti secondo prescrizione. Parametri ogni quindici minuti, diuresi oraria, misurazione del drenaggio."),
+ (5,"chiaro",0,"Digiuno, perche' e' probabile un reintervento, e preparazione del trasferimento in sala. Il signor Gallo viene rioperato: un vaso sanguinante viene suturato, e rientra stabile."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Giornata due. Febbricola a trentasette virgola nove, respiratoria ventiquattro, saturazione novantuno in aria, dolore sette quando tossisce."),
+ (6,"chiaro",0,"Il paziente dice: non sono riuscito ad alzarmi, mi faceva troppo male. Il respiro e' superficiale, il murmure ridotto alle basi. Che cosa pensi?"),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Seconda giornata, polmone, immobilita' e dolore: un'atelettasia, la W di wind della nove punto cinque. E il problema centrale non e' il polmone, e' il dolore, che impedisce di respirare a fondo, tossire e alzarsi."),
+ (7,"chiaro",0,"Gli interventi: segnalare; un'analgesia efficace, ottimizzando la peridurale con l'anestesista; ossigeno con target novantaquattro-novantotto; posizione semiseduta."),
+ (7,"chiaro",0,"Spirometro incentivante, per esempio dieci respiri ogni ora da sveglio; tosse con un cuscino sull'addome; poltrona e cammino. L'obiettivo, in un giorno: saturazione da novantaquattro in aria, dolore alla tosse fino a quattro."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Giornata quattro. Addome disteso e timpanico, niente gas ne' feci dall'intervento, nausea e vomito due volte, peristalsi assente all'auscultazione, potassio tre virgola due. Che cosa pensi?"),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"E' un ileo paralitico prolungato, favorito dall'ipokaliemia, perche' il potassio basso rallenta l'intestino, e dagli oppioidi. Si segnala; digiuno e sondino naso-gastrico in aspirazione, secondo prescrizione."),
+ (9,"chiaro",0,"Con la verifica del posizionamento della tre punto quattro. Potassio secondo prescrizione: mai in bolo, sempre diluito e con pompa. Bilancio idrico, contando le perdite dal sondino."),
+ (9,"chiaro",0,"Igiene del cavo orale, perche' a digiuno e con il sondino la bocca e' secca. Mobilizzazione. Revisione degli oppioidi con il medico. In due giorni l'intestino riparte."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Giornata sette. Dopo un forte colpo di tosse: mi sento come se qualcosa si fosse aperto. Dalla medicazione, abbondante liquido siero-ematico rosato. La rimuovi, e vedi anse intestinali fra i margini della ferita."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"E' una deiscenza con eviscerazione: un'emergenza chirurgica, con la sequenza della sette punto quattro. Non lasci il paziente, e chiami aiuto. Supino, con le ginocchia flesse, che riducono la tensione sulla parete."),
+ (11,"chiaro",0,"Copri con un telo o garze sterili imbevute di fisiologica tiepida. Non reinserisci i visceri. Avvisi subito il chirurgo. Digiuno, parametri, accesso venoso. Rassicuri il paziente, che e' spaventato, e documenti."),
+ (11,"chiaro",0,"[thoughtful] Una riflessione: il liquido siero-ematico abbondante era il segno premonitore. Se compare, si segnala prima che la ferita si apra."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Perche' proprio a lui? Aveva diversi fattori di rischio: l'eta', la neoplasia, probabilmente uno stato nutrizionale compromesso, l'anemia dopo l'emorragia, e la pressione addominale aumentata da tosse e vomito."),
+ (12,"chiaro",0,"La prevenzione era fatta di gesti semplici: nutrizione, sostegno della ferita con il cuscino quando tossisce o si alza, controllo della nausea. Il caso mostra come le complicanze si concatenano."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Giornata dodici: la dimissione. Vive con la moglie ed e' autonomo: una dimissione ordinaria. L'educazione: la ferita, e i segni di infezione e di deiscenza."),
+ (13,"chiaro",0,"L'eparina a domicilio per la durata prescritta, con la tecnica e lo smaltimento degli aghi. L'alimentazione progressiva. Niente sforzi addominali per il periodo indicato."),
+ (13,"chiaro",0,"I segni d'allarme: febbre, dolore in aumento, vomito, alvo chiuso, sanguinamento. Il follow-up chirurgico e oncologico, nella rete oncologica veneta. La lettera infermieristica. E tutto verificato con il teach-back."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La linea del tempo, da fotografare. Zero: emorragia e reintervento. Due: atelettasia. Quattro: ileo con ipokaliemia. Sette: eviscerazione. Dodici: dimissione. Ogni giornata ha la sua complicanza tipica: chiediti quale."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"tenue",0,"[serious] Gli errori. Attribuire tachicardia e ipotensione alla peridurale senza guardare il drenaggio. Aspettare il crollo della pressione."),
+ (15,"tenue",0,"Lasciare a letto il paziente perche' ha dolore, invece di trattare il dolore. Potassio senza pompa. Reinserire i visceri, o coprirli con materiale asciutto. Dimettere senza teach-back."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Rileggiamo il caso: il dolore e' la chiave. Non controllato, in seconda giornata ha dato un respiro superficiale, quindi l'atelettasia; ha tenuto il paziente a letto, con piu' rischio di trombosi e un ileo piu' lungo."),
+ (16,"chiaro",0,"Ha reso la tosse inefficace, e ha portato ansia e insonnia. Per questo il dolore si valuta a riposo e in movimento, e si tratta con un'analgesia multimodale, a orario piu' le dosi al bisogno."),
+ (16,"chiaro",0,"Con la peridurale si sorvegliano livello di analgesia, blocco motorio, pressione e sedazione. E dopo ogni intervento si rivaluta. Un dolore ben controllato previene meta' delle complicanze postoperatorie."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"Le domande d'orale. Prima: in quale giornata compaiono le complicanze? Nelle prime ore emorragia, ostruzione delle vie aeree, ritenzione. Nei primi due giorni, atelettasia."),
+ (17,"chiaro",0,"Fra il terzo e il quinto, polmonite e infezione urinaria. Fra il quinto e il decimo, infezione della ferita e deiscenza. La trombosi in ogni momento, ma piu' tipicamente dopo i primi giorni."),
+ (17,"chiaro",0,"Seconda: come si previene l'atelettasia? Educazione preoperatoria, analgesia efficace, respirazione profonda e spirometro, tosse con la ferita sostenuta, posizione semiseduta, mobilizzazione precoce."),
+ (17,"chiaro",0,"Terza: i segni precoci di emorragia? Tachicardia, agitazione, pallore, sudorazione, riempimento capillare rallentato, oliguria, perdite dai drenaggi. L'ipotensione e' un segno tardivo."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"La risposta modello, giornata sette. Dopo emicolectomia, a un colpo di tosse, abbondante essudato siero-ematico e anse esposte: deiscenza con eviscerazione, emergenza chirurgica."),
+ (18,"chiaro",0,"Priorita': proteggere i visceri, prevenire shock e contaminazione, attivare subito il chirurgo. Non lascio il paziente, chiamo aiuto; supino, ginocchia flesse; garze sterili con fisiologica tiepida, senza reinserire."),
+ (18,"chiaro",0,"Avviso subito il chirurgo con SBAR. Digiuno, accesso venoso, parametri e dolore; preparo per la sala. Rassicuro spiegando cio' che faccio. Documento e segnalo; poi rivaluto i rischi e rafforzo il sostegno della ferita."),
+
+ (19,"chiaro",0,"I collegamenti. Il sondino, con la tre punto quattro. Il potassio, con la tre punto cinque e la cinque punto sette. L'eviscerazione, con la sette punto quattro."),
+ (19,"chiaro",0,"Il post-operatorio immediato e la peridurale, con la nove punto quattro. Le complicanze, con la nove punto cinque. La dimissione, con la nove punto sette. La trasfusione, con la sei punto sei."),
+
+ (20,"profondo",1.2,"[serious] La frase del caso: la giornata postoperatoria e' gia' meta' della risposta."),
+ (20,"chiaro",0,"[warm] Nella prossima lezione: un dolore toracico in pronto soccorso che diventa, in pochi minuti, un arresto cardiaco. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Giornata 0, ore 20",4:"Il ragionamento: emorragia o peridurale?",
+ 5:"Giornata 0: le azioni",6:"Giornata 2",7:"Giornata 2: atelettasia",8:"Giornata 4",9:"Giornata 4: ileo prolungato",
+ 10:"Giornata 7",11:"Giornata 7: eviscerazione",12:"Perche' proprio a lui",13:"Giornata 12: la dimissione",
+ 14:"La linea del tempo del caso",15:"Gli errori da evitare",16:"Il dolore, chiave del caso",
+ 17:"Le domande d'orale su questo caso",18:"La risposta in 15 righe (giornata 7)",19:"I collegamenti",20:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

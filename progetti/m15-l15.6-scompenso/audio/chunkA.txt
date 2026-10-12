@@ -1,0 +1,49 @@
+[warm] Questo caso ha due tempi. Il primo e' un'emergenza notturna: l'edema polmonare acuto. Il secondo e' meno drammatico, ma decide il futuro del paziente: la dimissione, cioe' come evitare che torni dopo un mese.
+
+All'esame possono chiederti l'una o l'altra parte. E la seconda e' spesso quella in cui i candidati sono piu' deboli.
+
+Lo scenario. Il signor Marco, ottant'anni, ha uno scompenso cardiaco noto, ed e' al terzo ricovero nell'anno. Vive con la moglie, di settantotto anni.
+
+Alle due di notte, una dispnea improvvisa e intensa. E' seduto sul bordo del letto, agitato e sudato, e tossisce un espettorato schiumoso rosato.
+
+[curious] Frequenza respiratoria trentadue, saturazione ottantacinque in aria, pressione centottanta su cento, frequenza centoventi, rantoli bilaterali fino ai campi medi. Che cosa sta succedendo, e che cosa fai?
+
+Il ragionamento. Dispnea improvvisa, ortopnea, espettorato schiumoso rosato, rantoli bilaterali, desaturazione: e' un edema polmonare acuto, l'emergenza dello scompenso sinistro della lezione otto punto uno.
+
+La pressione alta suggerisce una forma ipertensiva. Si cercano subito le cause scatenanti: ischemia, aritmia come una fibrillazione atriale rapida, crisi ipertensiva, troppi liquidi o sale, terapia non assunta, infezione.
+
+Le prime azioni. Chiami il medico con lo SBAR. Posizione seduta, con le gambe declivi, giu' dal letto: riduce il ritorno venoso al cuore e il carico sui polmoni.
+
+Ossigeno secondo protocollo, con target fra novantaquattro e novantotto: non ha una BPCO nota. E la CPAP secondo prescrizione, la pressione positiva continua, molto efficace nell'edema polmonare acuto.
+
+Monitoraggio, accesso venoso, ECG a dodici derivazioni, per cercare ischemia o aritmia. Prelievi: troponina, BNP, elettroliti, funzione renale, emogas.
+
+Catetere vescicale se indicato e prescritto, per la diuresi oraria. E non lo lasci solo: la sensazione di soffocamento genera un'angoscia enorme.
+
+La terapia, su prescrizione, e la sua sorveglianza. Il diuretico dell'ansa endovena, come la furosemide: si sorvegliano la diuresi, attesa in tempi brevi, la pressione e il potassio, che scende.
+
+I nitrati endovena, indicati proprio perche' la pressione e' alta: si sorveglia la pressione, che puo' calare troppo, e la cefalea.
+
+[thoughtful] Nota il confronto con il caso precedente: li' i nitrati erano una trappola, qui sono indicati. Non esiste il farmaco giusto in assoluto: esiste il farmaco giusto per quella pressione e quel quadro.
+
+La valutazione dopo un'ora. Diuresi settecento millilitri, frequenza respiratoria ventidue, saturazione novantacinque con la CPAP, pressione centoquarantacinque su ottantacinque, frequenza novantotto.
+
+E' meno agitato e parla in frasi complete: un ottimo segno clinico. L'ECG non mostra ischemia acuta. Si programma il potassio di controllo, dato il diuretico. Obiettivi raggiunti: si prosegue, e si rivaluta.
+
+Al mattino, a crisi superata, una conversazione con calma rivela la causa vera. Si pesava, a casa? Ogni tanto. All'ingresso pesava tre chili in piu' in quattro giorni rispetto al peso abituale.
+
+Un accumulo di liquidi che nessuno ha intercettato. Il diuretico della sera lo saltavo, perche' mi faceva alzare di notte. Mia moglie cucina come sempre, con il dado.
+
+Tre problemi di self-care: il monitoraggio, l'aderenza, la dieta. Sono la ragione dei tre ricoveri nell'anno.
+
+Il piano educativo, costruito sui suoi problemi, non su un opuscolo generico. Peso ogni giorno, al mattino, dopo la minzione, con la stessa bilancia, annotato in un diario.
+
+E segnalare un aumento rapido: indicativamente, un chilo e mezzo o due in due o tre giorni. Il diuretico, invece di saltarlo, con un orario concordato con il medico che non disturbi la notte.
+
+Per esempio, al mattino e nel primo pomeriggio. Il sale: ridurlo, con attenzione a dado, insaccati, formaggi stagionati, cibi pronti. I liquidi secondo indicazione.
+
+I segni d'allarme: dispnea, gonfiore, il bisogno di piu' cuscini per dormire. E coinvolgere la moglie, che cucina e che puo' aiutarlo nel monitoraggio.
+
+E come si educa, con gli strumenti della lezione undici punto sei. Il colloquio motivazionale: partire dalle sue ragioni. Che cosa vorrebbe poter fare, se stesse meglio? Magari tornare a fare l'orto.
+
+Poche informazioni alla volta, materiale scritto semplice. Il teach-back: mi mostri come segna il peso; che cosa fa se il peso sale di due chili? E si comincia nei primi giorni, non il giorno della dimissione.

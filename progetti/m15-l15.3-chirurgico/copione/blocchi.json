@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questo caso segue un paziente chirurgico per dieci giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un ottimo allenamento, perche' all'esame la traccia dice spesso in seconda giornata, o in settima giornata: quel numero e' gia' meta' della risposta."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Signor Gallo, sessantasette anni, operato di emicolectomia destra per una neoplasia, in un percorso ERAS. Rientra in reparto alle sedici."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha una peridurale toracica in infusione, un drenaggio addominale, il catetere vescicale e un accesso venoso periferico. E' prescritta la profilassi antitrombotica."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "All'arrivo: pressione centotrentotto su ottanta, frequenza ottantaquattro, saturazione novantasette con occhialini a due litri, dolore due. Fissa bene questi valori: sono il riferimento per tutto il resto."
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Giornata zero, ore venti. Frequenza centosedici, pressione centodue su sessantaquattro, cute pallida e sudata. Il paziente e' agitato, e dice: mi sento strano."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il drenaggio ha raccolto duecentottanta millilitri di sangue rosso nell'ultima ora, l'addome e' piu' teso, la diuresi e' di venti millilitri nell'ultima ora. Pausa: che cosa sta succedendo?"
+ },
+ {
+  "id": "s09",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Il ragionamento ha un trabocchetto: con la peridurale la pressione puo' calare per il blocco simpatico. Ma di solito senza una tachicardia marcata, anzi a volte con bradicardia, e senza perdite di sangue."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui ci sono tutti i segni dell'emorragia: tachicardia, pallore, sudorazione, agitazione, oliguria, drenaggio ematico abbondante, addome teso. E' un'emorragia postoperatoria con shock iniziale."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E nota il dettaglio: la pressione sembra ancora accettabile, ma e' scesa di oltre trentacinque rispetto al basale. E' il trend che conta."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le azioni. Avvisi subito il chirurgo con lo SBAR, e informi l'anestesista per la peridurale. Ossigeno, posizione supina, un secondo accesso venoso di grosso calibro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prelievi: emocromo, coagulazione, gruppo e prove crociate. Liquidi ed emocomponenti secondo prescrizione. Parametri ogni quindici minuti, diuresi oraria, misurazione del drenaggio."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Digiuno, perche' e' probabile un reintervento, e preparazione del trasferimento in sala. Il signor Gallo viene rioperato: un vaso sanguinante viene suturato, e rientra stabile."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Giornata due. Febbricola a trentasette virgola nove, respiratoria ventiquattro, saturazione novantuno in aria, dolore sette quando tossisce."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente dice: non sono riuscito ad alzarmi, mi faceva troppo male. Il respiro e' superficiale, il murmure ridotto alle basi. Che cosa pensi?"
+ },
+ {
+  "id": "s17",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda giornata, polmone, immobilita' e dolore: un'atelettasia, la W di wind della nove punto cinque. E il problema centrale non e' il polmone, e' il dolore, che impedisce di respirare a fondo, tossire e alzarsi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi: segnalare; un'analgesia efficace, ottimizzando la peridurale con l'anestesista; ossigeno con target novantaquattro-novantotto; posizione semiseduta."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Spirometro incentivante, per esempio dieci respiri ogni ora da sveglio; tosse con un cuscino sull'addome; poltrona e cammino. L'obiettivo, in un giorno: saturazione da novantaquattro in aria, dolore alla tosse fino a quattro."
+ },
+ {
+  "id": "s20",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Giornata quattro. Addome disteso e timpanico, niente gas ne' feci dall'intervento, nausea e vomito due volte, peristalsi assente all'auscultazione, potassio tre virgola due. Che cosa pensi?"
+ },
+ {
+  "id": "s21",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un ileo paralitico prolungato, favorito dall'ipokaliemia, perche' il potassio basso rallenta l'intestino, e dagli oppioidi. Si segnala; digiuno e sondino naso-gastrico in aspirazione, secondo prescrizione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la verifica del posizionamento della tre punto quattro. Potassio secondo prescrizione: mai in bolo, sempre diluito e con pompa. Bilancio idrico, contando le perdite dal sondino."
+ },
+ {
+  "id": "s23",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Igiene del cavo orale, perche' a digiuno e con il sondino la bocca e' secca. Mobilizzazione. Revisione degli oppioidi con il medico. In due giorni l'intestino riparte."
+ },
+ {
+  "id": "s24",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Giornata sette. Dopo un forte colpo di tosse: mi sento come se qualcosa si fosse aperto. Dalla medicazione, abbondante liquido siero-ematico rosato. La rimuovi, e vedi anse intestinali fra i margini della ferita."
+ },
+ {
+  "id": "s25",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' una deiscenza con eviscerazione: un'emergenza chirurgica, con la sequenza della sette punto quattro. Non lasci il paziente, e chiami aiuto. Supino, con le ginocchia flesse, che riducono la tensione sulla parete."
+ },
+ {
+  "id": "s26",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Copri con un telo o garze sterili imbevute di fisiologica tiepida. Non reinserisci i visceri. Avvisi subito il chirurgo. Digiuno, parametri, accesso venoso. Rassicuri il paziente, che e' spaventato, e documenti."
+ },
+ {
+  "id": "s27",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Una riflessione: il liquido siero-ematico abbondante era il segno premonitore. Se compare, si segnala prima che la ferita si apra."
+ },
+ {
+  "id": "s28",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' proprio a lui? Aveva diversi fattori di rischio: l'eta', la neoplasia, probabilmente uno stato nutrizionale compromesso, l'anemia dopo l'emorragia, e la pressione addominale aumentata da tosse e vomito."
+ },
+ {
+  "id": "s29",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione era fatta di gesti semplici: nutrizione, sostegno della ferita con il cuscino quando tossisce o si alza, controllo della nausea. Il caso mostra come le complicanze si concatenano."
+ },
+ {
+  "id": "s30",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Giornata dodici: la dimissione. Vive con la moglie ed e' autonomo: una dimissione ordinaria. L'educazione: la ferita, e i segni di infezione e di deiscenza."
+ },
+ {
+  "id": "s31",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'eparina a domicilio per la durata prescritta, con la tecnica e lo smaltimento degli aghi. L'alimentazione progressiva. Niente sforzi addominali per il periodo indicato."
+ },
+ {
+  "id": "s32",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni d'allarme: febbre, dolore in aumento, vomito, alvo chiuso, sanguinamento. Il follow-up chirurgico e oncologico, nella rete oncologica veneta. La lettera infermieristica. E tutto verificato con il teach-back."
+ },
+ {
+  "id": "s33",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La linea del tempo, da fotografare. Zero: emorragia e reintervento. Due: atelettasia. Quattro: ileo con ipokaliemia. Sette: eviscerazione. Dodici: dimissione. Ogni giornata ha la sua complicanza tipica: chiediti quale."
+ },
+ {
+  "id": "s34",
+  "capitolo": 15,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "[serious] Gli errori. Attribuire tachicardia e ipotensione alla peridurale senza guardare il drenaggio. Aspettare il crollo della pressione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 15,
+  "tema": "tenue",
+  "posa": 0,
+  "text": "Lasciare a letto il paziente perche' ha dolore, invece di trattare il dolore. Potassio senza pompa. Reinserire i visceri, o coprirli con materiale asciutto. Dimettere senza teach-back."
+ },
+ {
+  "id": "s36",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Rileggiamo il caso: il dolore e' la chiave. Non controllato, in seconda giornata ha dato un respiro superficiale, quindi l'atelettasia; ha tenuto il paziente a letto, con piu' rischio di trombosi e un ileo piu' lungo."
+ },
+ {
+  "id": "s37",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha reso la tosse inefficace, e ha portato ansia e insonnia. Per questo il dolore si valuta a riposo e in movimento, e si tratta con un'analgesia multimodale, a orario piu' le dosi al bisogno."
+ },
+ {
+  "id": "s38",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la peridurale si sorvegliano livello di analgesia, blocco motorio, pressione e sedazione. E dopo ogni intervento si rivaluta. Un dolore ben controllato previene meta' delle complicanze postoperatorie."
+ },
+ {
+  "id": "s39",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le domande d'orale. Prima: in quale giornata compaiono le complicanze? Nelle prime ore emorragia, ostruzione delle vie aeree, ritenzione. Nei primi due giorni, atelettasia."
+ },
+ {
+  "id": "s40",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fra il terzo e il quinto, polmonite e infezione urinaria. Fra il quinto e il decimo, infezione della ferita e deiscenza. La trombosi in ogni momento, ma piu' tipicamente dopo i primi giorni."
+ },
+ {
+  "id": "s41",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: come si previene l'atelettasia? Educazione preoperatoria, analgesia efficace, respirazione profonda e spirometro, tosse con la ferita sostenuta, posizione semiseduta, mobilizzazione precoce."
+ },
+ {
+  "id": "s42",
+  "capitolo": 17,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: i segni precoci di emorragia? Tachicardia, agitazione, pallore, sudorazione, riempimento capillare rallentato, oliguria, perdite dai drenaggi. L'ipotensione e' un segno tardivo."
+ },
+ {
+  "id": "s43",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello, giornata sette. Dopo emicolectomia, a un colpo di tosse, abbondante essudato siero-ematico e anse esposte: deiscenza con eviscerazione, emergenza chirurgica."
+ },
+ {
+  "id": "s44",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Priorita': proteggere i visceri, prevenire shock e contaminazione, attivare subito il chirurgo. Non lascio il paziente, chiamo aiuto; supino, ginocchia flesse; garze sterili con fisiologica tiepida, senza reinserire."
+ },
+ {
+  "id": "s45",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Avviso subito il chirurgo con SBAR. Digiuno, accesso venoso, parametri e dolore; preparo per la sala. Rassicuro spiegando cio' che faccio. Documento e segnalo; poi rivaluto i rischi e rafforzo il sostegno della ferita."
+ },
+ {
+  "id": "s46",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Il sondino, con la tre punto quattro. Il potassio, con la tre punto cinque e la cinque punto sette. L'eviscerazione, con la sette punto quattro."
+ },
+ {
+  "id": "s47",
+  "capitolo": 19,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il post-operatorio immediato e la peridurale, con la nove punto quattro. Le complicanze, con la nove punto cinque. La dimissione, con la nove punto sette. La trasfusione, con la sei punto sei."
+ },
+ {
+  "id": "s48",
+  "capitolo": 20,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: la giornata postoperatoria e' gia' meta' della risposta."
+ },
+ {
+  "id": "s49",
+  "capitolo": 20,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un dolore toracico in pronto soccorso che diventa, in pochi minuti, un arresto cardiaco. A tra poco."
+ }
+]

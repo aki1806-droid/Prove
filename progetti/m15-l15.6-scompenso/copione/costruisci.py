@@ -4,76 +4,78 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso ha due tempi. Il primo e' un'emergenza notturna: l'edema polmonare acuto. Il secondo e' meno drammatico, ma decide il futuro del paziente: la dimissione, cioe' come evitare che torni dopo un mese."),
+ (1,"chiaro",0,"All'esame possono chiederti l'una o l'altra parte. E la seconda e' spesso quella in cui i candidati sono piu' deboli."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Marco, ottant'anni, ha uno scompenso cardiaco noto, ed e' al terzo ricovero nell'anno. Vive con la moglie, di settantotto anni."),
+ (2,"chiaro",0,"Alle due di notte, una dispnea improvvisa e intensa. E' seduto sul bordo del letto, agitato e sudato, e tossisce un espettorato schiumoso rosato."),
+ (2,"chiaro",0,"[curious] Frequenza respiratoria trentadue, saturazione ottantacinque in aria, pressione centottanta su cento, frequenza centoventi, rantoli bilaterali fino ai campi medi. Che cosa sta succedendo, e che cosa fai?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Dispnea improvvisa, ortopnea, espettorato schiumoso rosato, rantoli bilaterali, desaturazione: e' un edema polmonare acuto, l'emergenza dello scompenso sinistro della lezione otto punto uno."),
+ (3,"chiaro",0,"La pressione alta suggerisce una forma ipertensiva. Si cercano subito le cause scatenanti: ischemia, aritmia come una fibrillazione atriale rapida, crisi ipertensiva, troppi liquidi o sale, terapia non assunta, infezione."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Chiami il medico con lo SBAR. Posizione seduta, con le gambe declivi, giu' dal letto: riduce il ritorno venoso al cuore e il carico sui polmoni."),
+ (4,"chiaro",0,"Ossigeno secondo protocollo, con target fra novantaquattro e novantotto: non ha una BPCO nota. E la CPAP secondo prescrizione, la pressione positiva continua, molto efficace nell'edema polmonare acuto."),
+ (4,"chiaro",0,"Monitoraggio, accesso venoso, ECG a dodici derivazioni, per cercare ischemia o aritmia. Prelievi: troponina, BNP, elettroliti, funzione renale, emogas."),
+ (4,"chiaro",0,"Catetere vescicale se indicato e prescritto, per la diuresi oraria. E non lo lasci solo: la sensazione di soffocamento genera un'angoscia enorme."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"La terapia, su prescrizione, e la sua sorveglianza. Il diuretico dell'ansa endovena, come la furosemide: si sorvegliano la diuresi, attesa in tempi brevi, la pressione e il potassio, che scende."),
+ (5,"chiaro",0,"I nitrati endovena, indicati proprio perche' la pressione e' alta: si sorveglia la pressione, che puo' calare troppo, e la cefalea."),
+ (5,"chiaro",0,"[thoughtful] Nota il confronto con il caso precedente: li' i nitrati erano una trappola, qui sono indicati. Non esiste il farmaco giusto in assoluto: esiste il farmaco giusto per quella pressione e quel quadro."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La valutazione dopo un'ora. Diuresi settecento millilitri, frequenza respiratoria ventidue, saturazione novantacinque con la CPAP, pressione centoquarantacinque su ottantacinque, frequenza novantotto."),
+ (6,"chiaro",0,"E' meno agitato e parla in frasi complete: un ottimo segno clinico. L'ECG non mostra ischemia acuta. Si programma il potassio di controllo, dato il diuretico. Obiettivi raggiunti: si prosegue, e si rivaluta."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Al mattino, a crisi superata, una conversazione con calma rivela la causa vera. Si pesava, a casa? Ogni tanto. All'ingresso pesava tre chili in piu' in quattro giorni rispetto al peso abituale."),
+ (7,"chiaro",0,"Un accumulo di liquidi che nessuno ha intercettato. Il diuretico della sera lo saltavo, perche' mi faceva alzare di notte. Mia moglie cucina come sempre, con il dado."),
+ (7,"chiaro",0,"Tre problemi di self-care: il monitoraggio, l'aderenza, la dieta. Sono la ragione dei tre ricoveri nell'anno."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il piano educativo, costruito sui suoi problemi, non su un opuscolo generico. Peso ogni giorno, al mattino, dopo la minzione, con la stessa bilancia, annotato in un diario."),
+ (8,"chiaro",0,"E segnalare un aumento rapido: indicativamente, un chilo e mezzo o due in due o tre giorni. Il diuretico, invece di saltarlo, con un orario concordato con il medico che non disturbi la notte."),
+ (8,"chiaro",0,"Per esempio, al mattino e nel primo pomeriggio. Il sale: ridurlo, con attenzione a dado, insaccati, formaggi stagionati, cibi pronti. I liquidi secondo indicazione."),
+ (8,"chiaro",0,"I segni d'allarme: dispnea, gonfiore, il bisogno di piu' cuscini per dormire. E coinvolgere la moglie, che cucina e che puo' aiutarlo nel monitoraggio."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"E come si educa, con gli strumenti della lezione undici punto sei. Il colloquio motivazionale: partire dalle sue ragioni. Che cosa vorrebbe poter fare, se stesse meglio? Magari tornare a fare l'orto."),
+ (9,"chiaro",0,"Poche informazioni alla volta, materiale scritto semplice. Il teach-back: mi mostri come segna il peso; che cosa fa se il peso sale di due chili? E si comincia nei primi giorni, non il giorno della dimissione."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"La continuita' con il territorio. Al terzo ricovero nell'anno serve una presa in carico proattiva. La lettera infermieristica riporta il peso secco, il peso a cui il paziente sta bene, il piano educativo e i problemi aperti."),
+ (10,"chiaro",0,"Si segnala il caso al medico di famiglia o alla Medicina di Gruppo Integrata, e all'infermiere di famiglia e comunita'. Si attiva l'ambulatorio dello scompenso."),
+ (10,"chiaro",0,"Il telemonitoraggio del peso e dei parametri, se disponibile, nel percorso del PDTA. E si valutano i bisogni di una coppia anziana: anche la moglie potrebbe aver bisogno di supporto."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Rileggiamo il caso con il self-care di Riegel. Il mantenimento, cioe' terapia, sale, attivita' fisica: il signor Marco lo faceva solo in parte. Il monitoraggio, il peso e i sintomi: quasi per niente."),
+ (11,"chiaro",0,"La gestione, cioe' sapere che cosa fare quando il peso sale: per niente. Il piano educativo deve coprire tutte e tre le dimensioni, soprattutto la terza, quella che previene il ricovero."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"tenue",0,"Gli errori. Lasciare sdraiato un paziente in edema polmonare. Non rivalutare l'ossigenazione. Dare il diuretico senza controllare diuresi e potassio. I nitrati senza controllare la pressione."),
+ (12,"tenue",0,"Dimettere con un opuscolo e un generico si pesi ogni tanto. E soprattutto non chiedere perche' il paziente non segue la terapia: la risposta, mi faceva alzare la notte, conteneva la soluzione."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Un approfondimento farmacologico tipico dello scompenso. I diuretici dell'ansa fanno perdere potassio: l'ipokaliemia da' crampi, astenia e aritmie, e richiede controlli periodici e integrazione secondo prescrizione."),
+ (13,"chiaro",0,"Molti di questi pazienti assumono anche la digossina. Prima di somministrarla si rileva la frequenza, all'apice, per un minuto intero. Se e' bassa, non si somministra e si segnala."),
+ (13,"chiaro",0,"I segni di tossicita' da digossina: nausea, vomito, bradicardia, aritmie, e disturbi visivi, con un'alterata percezione dei colori."),
+ (13,"chiaro",0,"[serious] E il collegamento che i quiz amano: l'ipokaliemia aumenta la tossicita' della digossina. Diuretico e digossina insieme richiedono un'attenzione doppia al potassio."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"Le domande d'orale. Prima: i segni dello scompenso sinistro e destro? Il sinistro da' congestione polmonare: dispnea, ortopnea, dispnea parossistica notturna, rantoli."),
+ (14,"chiaro",0,"Il destro da' congestione sistemica: edemi declivi, turgore giugulare, epatomegalia, ascite. Due quadri da non confondere: il sinistro si vede nel polmone, il destro in periferia."),
+ (14,"chiaro",0,"Seconda: come insegna il monitoraggio del peso? Ogni mattina, dopo la minzione, stessa bilancia e abiti simili, il valore in un diario, il medico se aumenta in fretta. Poi gli fa ripetere che cosa farebbe."),
+ (14,"chiaro",0,"Terza: che cos'e' il teach-back? La persona spiega o mostra con parole proprie cio' che ha imparato, per verificare la comprensione e correggere i fraintendimenti. Essere chiari resta compito del professionista."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Scompenso, dispnea improvvisa, ortopnea, espettorato schiumoso rosato, rantoli, saturazione ottantacinque, pressione centottanta su cento: edema polmonare acuto. Ossigenazione, carico polmonare, causa."),
+ (15,"chiaro",0,"Attivo il medico; seduto, gambe declivi; ossigeno con target novantaquattro-novantotto e CPAP; monitoraggio, accesso, ECG e prelievi. Diuretico e nitrati prescritti, sorvegliando diuresi, pressione e potassio."),
+ (15,"chiaro",0,"Rassicuro e non lo lascio solo. Rivaluto dopo un'ora. Indago le cause e imposto un piano educativo su peso, aderenza, dieta e allarmi, con teach-back e la moglie. Garantisco la continuita' con il territorio."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"I collegamenti. Il peso e il bilancio con la tre punto cinque. Lo scompenso e i nitrati con la otto punto uno. La CPAP con la otto punto due. Diuretici e potassio con la cinque punto cinque."),
+ (16,"chiaro",0,"Self-care e colloquio motivazionale con la undici punto sei. Il territorio veneto con la tredici punto quattro. La fisiologia del precarico con la quattordici punto due."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"chiaro",0,"Una domanda d'orale che questo caso prepara: come previene la riammissione di un paziente con scompenso? In tre parti: perche' e' stato ricoverato, che cosa sa fare a casa, chi lo seguira'. Cause, competenze, continuita'."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"profondo",1.2,"La frase del caso: la crisi si cura in un'ora, la ricaduta si previene in una settimana. L'edema polmonare e' l'emergenza, ma a cambiare la vita del signor Marco sono l'educazione e la continuita'."),
+
+ (19,"chiaro",0,"[warm] Nella prossima lezione: un'anziana fragile che, di notte, diventa confusa e cade dal letto. Dalla caduta alla dimissione protetta, attraverso tutta la rete veneta per la non autosufficienza. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"La terapia e la sua sorveglianza",
+ 6:"La valutazione",7:"La causa: la conversazione del mattino",8:"Il piano educativo",9:"Come si educa",
+ 10:"La continuita' con il territorio",11:"Il self-care in tre dimensioni",12:"Gli errori da evitare",
+ 13:"Il potassio, i diuretici e la digossina",14:"Le domande d'orale",15:"La risposta in 15 righe",16:"I collegamenti",
+ 17:"All'orale",18:"La frase del caso",19:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
