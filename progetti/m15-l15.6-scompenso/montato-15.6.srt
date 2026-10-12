@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:16,550
+Questo caso ha due tempi. Il primo e' un'emergenza notturna: l'edema polmonare acuto. Il secondo e' meno drammatico, ma decide il futuro del paziente: la dimissione, cioe' come evitare che torni dopo un mese.
+
+2
+00:00:16,550 --> 00:00:23,200
+All'esame possono chiederti l'una o l'altra parte. E la seconda e' spesso quella in cui i candidati sono piu' deboli.
+
+3
+00:00:23,200 --> 00:00:32,240
+Lo scenario. Il signor Marco, ottant'anni, ha uno scompenso cardiaco noto, ed e' al terzo ricovero nell'anno. Vive con la moglie, di settantotto anni.
+
+4
+00:00:32,240 --> 00:00:41,530
+Alle due di notte, una dispnea improvvisa e intensa. E' seduto sul bordo del letto, agitato e sudato, e tossisce un espettorato schiumoso rosato.
+
+5
+00:00:41,530 --> 00:00:53,960
+Frequenza respiratoria trentadue, saturazione ottantacinque in aria, pressione centottanta su cento, frequenza centoventi, rantoli bilaterali fino ai campi medi. Che cosa sta succedendo, e che cosa fai?
+
+6
+00:00:53,960 --> 00:01:07,700
+Il ragionamento. Dispnea improvvisa, ortopnea, espettorato schiumoso rosato, rantoli bilaterali, desaturazione: e' un edema polmonare acuto, l'emergenza dello scompenso sinistro della lezione otto punto uno.
+
+7
+00:01:07,700 --> 00:01:22,280
+La pressione alta suggerisce una forma ipertensiva. Si cercano subito le cause scatenanti: ischemia, aritmia come una fibrillazione atriale rapida, crisi ipertensiva, troppi liquidi o sale, terapia non assunta, infezione.
+
+8
+00:01:22,280 --> 00:01:31,840
+Le prime azioni. Chiami il medico con lo SBAR. Posizione seduta, con le gambe declivi, giu' dal letto: riduce il ritorno venoso al cuore e il carico sui polmoni.
+
+9
+00:01:31,840 --> 00:01:45,470
+Ossigeno secondo protocollo, con target fra novantaquattro e novantotto: non ha una BPCO nota. E la CPAP secondo prescrizione, la pressione positiva continua, molto efficace nell'edema polmonare acuto.
+
+10
+00:01:45,470 --> 00:01:57,020
+Monitoraggio, accesso venoso, ECG a dodici derivazioni, per cercare ischemia o aritmia. Prelievi: troponina, BNP, elettroliti, funzione renale, emogas.
+
+11
+00:01:57,020 --> 00:02:05,760
+Catetere vescicale se indicato e prescritto, per la diuresi oraria. E non lo lasci solo: la sensazione di soffocamento genera un'angoscia enorme.
+
+12
+00:02:05,760 --> 00:02:17,810
+La terapia, su prescrizione, e la sua sorveglianza. Il diuretico dell'ansa endovena, come la furosemide: si sorvegliano la diuresi, attesa in tempi brevi, la pressione e il potassio, che scende.
+
+13
+00:02:17,810 --> 00:02:25,090
+I nitrati endovena, indicati proprio perche' la pressione e' alta: si sorveglia la pressione, che puo' calare troppo, e la cefalea.
+
+14
+00:02:25,090 --> 00:02:36,760
+Nota il confronto con il caso precedente: li' i nitrati erano una trappola, qui sono indicati. Non esiste il farmaco giusto in assoluto: esiste il farmaco giusto per quella pressione e quel quadro.
+
+15
+00:02:36,760 --> 00:02:49,560
+La valutazione dopo un'ora. Diuresi settecento millilitri, frequenza respiratoria ventidue, saturazione novantacinque con la CPAP, pressione centoquarantacinque su ottantacinque, frequenza novantotto.
+
+16
+00:02:49,560 --> 00:03:02,480
+E' meno agitato e parla in frasi complete: un ottimo segno clinico. L'ECG non mostra ischemia acuta. Si programma il potassio di controllo, dato il diuretico. Obiettivi raggiunti: si prosegue, e si rivaluta.
+
+17
+00:03:02,480 --> 00:03:14,660
+Al mattino, a crisi superata, una conversazione con calma rivela la causa vera. Si pesava, a casa? Ogni tanto. All'ingresso pesava tre chili in piu' in quattro giorni rispetto al peso abituale.
+
+18
+00:03:14,660 --> 00:03:23,840
+Un accumulo di liquidi che nessuno ha intercettato. Il diuretico della sera lo saltavo, perche' mi faceva alzare di notte. Mia moglie cucina come sempre, con il dado.
+
+19
+00:03:23,840 --> 00:03:30,630
+Tre problemi di self-care: il monitoraggio, l'aderenza, la dieta. Sono la ragione dei tre ricoveri nell'anno.
+
+20
+00:03:30,630 --> 00:03:41,270
+Il piano educativo, costruito sui suoi problemi, non su un opuscolo generico. Peso ogni giorno, al mattino, dopo la minzione, con la stessa bilancia, annotato in un diario.
+
+21
+00:03:41,270 --> 00:03:52,610
+E segnalare un aumento rapido: indicativamente, un chilo e mezzo o due in due o tre giorni. Il diuretico, invece di saltarlo, con un orario concordato con il medico che non disturbi la notte.
+
+22
+00:03:52,610 --> 00:04:03,360
+Per esempio, al mattino e nel primo pomeriggio. Il sale: ridurlo, con attenzione a dado, insaccati, formaggi stagionati, cibi pronti. I liquidi secondo indicazione.
+
+23
+00:04:03,360 --> 00:04:12,530
+I segni d'allarme: dispnea, gonfiore, il bisogno di piu' cuscini per dormire. E coinvolgere la moglie, che cucina e che puo' aiutarlo nel monitoraggio.
+
+24
+00:04:12,530 --> 00:04:23,650
+E come si educa, con gli strumenti della lezione undici punto sei. Il colloquio motivazionale: partire dalle sue ragioni. Che cosa vorrebbe poter fare, se stesse meglio? Magari tornare a fare l'orto.
+
+25
+00:04:23,650 --> 00:04:35,640
+Poche informazioni alla volta, materiale scritto semplice. Il teach-back: mi mostri come segna il peso; che cosa fa se il peso sale di due chili? E si comincia nei primi giorni, non il giorno della dimissione.
+
+26
+00:04:35,640 --> 00:04:47,730
+La continuita' con il territorio. Al terzo ricovero nell'anno serve una presa in carico proattiva. La lettera infermieristica riporta il peso secco, il peso a cui il paziente sta bene, il piano educativo e i problemi aperti.
+
+27
+00:04:47,730 --> 00:04:55,860
+Si segnala il caso al medico di famiglia o alla Medicina di Gruppo Integrata, e all'infermiere di famiglia e comunita'. Si attiva l'ambulatorio dello scompenso.
+
+28
+00:04:55,860 --> 00:05:05,420
+Il telemonitoraggio del peso e dei parametri, se disponibile, nel percorso del PDTA. E si valutano i bisogni di una coppia anziana: anche la moglie potrebbe aver bisogno di supporto.
+
+29
+00:05:05,420 --> 00:05:17,690
+Rileggiamo il caso con il self-care di Riegel. Il mantenimento, cioe' terapia, sale, attivita' fisica: il signor Marco lo faceva solo in parte. Il monitoraggio, il peso e i sintomi: quasi per niente.
+
+30
+00:05:17,690 --> 00:05:27,900
+La gestione, cioe' sapere che cosa fare quando il peso sale: per niente. Il piano educativo deve coprire tutte e tre le dimensioni, soprattutto la terza, quella che previene il ricovero.
+
+31
+00:05:27,900 --> 00:05:39,090
+Gli errori. Lasciare sdraiato un paziente in edema polmonare. Non rivalutare l'ossigenazione. Dare il diuretico senza controllare diuresi e potassio. I nitrati senza controllare la pressione.
+
+32
+00:05:39,090 --> 00:05:50,160
+Dimettere con un opuscolo e un generico si pesi ogni tanto. E soprattutto non chiedere perche' il paziente non segue la terapia: la risposta, mi faceva alzare la notte, conteneva la soluzione.
+
+33
+00:05:50,160 --> 00:06:03,080
+Un approfondimento farmacologico tipico dello scompenso. I diuretici dell'ansa fanno perdere potassio: l'ipokaliemia da' crampi, astenia e aritmie, e richiede controlli periodici e integrazione secondo prescrizione.
+
+34
+00:06:03,080 --> 00:06:13,560
+Molti di questi pazienti assumono anche la digossina. Prima di somministrarla si rileva la frequenza, all'apice, per un minuto intero. Se e' bassa, non si somministra e si segnala.
+
+35
+00:06:13,560 --> 00:06:22,060
+I segni di tossicita' da digossina: nausea, vomito, bradicardia, aritmie, e disturbi visivi, con un'alterata percezione dei colori.
+
+36
+00:06:22,060 --> 00:06:31,090
+E il collegamento che i quiz amano: l'ipokaliemia aumenta la tossicita' della digossina. Diuretico e digossina insieme richiedono un'attenzione doppia al potassio.
+
+37
+00:06:31,090 --> 00:06:41,750
+Le domande d'orale. Prima: i segni dello scompenso sinistro e destro? Il sinistro da' congestione polmonare: dispnea, ortopnea, dispnea parossistica notturna, rantoli.
+
+38
+00:06:41,750 --> 00:06:53,020
+Il destro da' congestione sistemica: edemi declivi, turgore giugulare, epatomegalia, ascite. Due quadri da non confondere: il sinistro si vede nel polmone, il destro in periferia.
+
+39
+00:06:53,020 --> 00:07:05,320
+Seconda: come insegna il monitoraggio del peso? Ogni mattina, dopo la minzione, stessa bilancia e abiti simili, il valore in un diario, il medico se aumenta in fretta. Poi gli fa ripetere che cosa farebbe.
+
+40
+00:07:05,320 --> 00:07:17,450
+Terza: che cos'e' il teach-back? La persona spiega o mostra con parole proprie cio' che ha imparato, per verificare la comprensione e correggere i fraintendimenti. Essere chiari resta compito del professionista.
+
+41
+00:07:17,450 --> 00:07:32,350
+La risposta modello. Scompenso, dispnea improvvisa, ortopnea, espettorato schiumoso rosato, rantoli, saturazione ottantacinque, pressione centottanta su cento: edema polmonare acuto. Ossigenazione, carico polmonare, causa.
+
+42
+00:07:32,350 --> 00:07:47,060
+Attivo il medico; seduto, gambe declivi; ossigeno con target novantaquattro-novantotto e CPAP; monitoraggio, accesso, ECG e prelievi. Diuretico e nitrati prescritti, sorvegliando diuresi, pressione e potassio.
+
+43
+00:07:47,060 --> 00:07:59,610
+Rassicuro e non lo lascio solo. Rivaluto dopo un'ora. Indago le cause e imposto un piano educativo su peso, aderenza, dieta e allarmi, con teach-back e la moglie. Garantisco la continuita' con il territorio.
+
+44
+00:07:59,610 --> 00:08:11,690
+I collegamenti. Il peso e il bilancio con la tre punto cinque. Lo scompenso e i nitrati con la otto punto uno. La CPAP con la otto punto due. Diuretici e potassio con la cinque punto cinque.
+
+45
+00:08:11,690 --> 00:08:21,580
+Self-care e colloquio motivazionale con la undici punto sei. Il territorio veneto con la tredici punto quattro. La fisiologia del precarico con la quattordici punto due.
+
+46
+00:08:21,580 --> 00:08:33,780
+Una domanda d'orale che questo caso prepara: come previene la riammissione di un paziente con scompenso? In tre parti: perche' e' stato ricoverato, che cosa sa fare a casa, chi lo seguira'. Cause, competenze, continuita'.
+
+47
+00:08:33,780 --> 00:08:46,340
+La frase del caso: la crisi si cura in un'ora, la ricaduta si previene in una settimana. L'edema polmonare e' l'emergenza, ma a cambiare la vita del signor Marco sono l'educazione e la continuita'.
+
+48
+00:08:46,340 --> 00:08:57,940
+Nella prossima lezione: un'anziana fragile che, di notte, diventa confusa e cade dal letto. Dalla caduta alla dimissione protetta, attraverso tutta la rete veneta per la non autosufficienza. A tra poco.

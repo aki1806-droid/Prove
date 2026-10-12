@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il bambino non e' un adulto piccolo, e questo caso lo mostra in tre modi. I segni di gravita' sono diversi, la riserva di liquidi e' minore, e le dosi si calcolano per chilo, con un rischio di errore molto piu' alto."),
+ (1,"chiaro",0,"Il protagonista e' un lattante disidratato per una gastroenterite, insieme ai suoi genitori. Le lezioni: quattro punto tre, cinque punto tre, dieci punto quattro, undici punto quattro e quattordici punto uno."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Leo, nove mesi. Da due giorni ha vomito e diarrea acquosa, otto-dieci scariche al giorno, e febbre. Prima della malattia pesava otto virgola otto chili; oggi ne pesa otto."),
+ (2,"chiaro",0,"L'ultimo pannolino bagnato risale a dieci ore fa. Prima era irritabile, ora e' sonnolento. La fontanella anteriore e' depressa, gli occhi sono infossati, le mucose secche, e piange senza lacrime."),
+ (2,"chiaro",0,"Frequenza centosettantacinque, riempimento capillare di tre secondi, mani e piedi freddi, cute marezzata. I genitori sono molto spaventati. Fermati: quanto e' grave la disidratazione, e che cosa ti preoccupa di piu'?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Il calo e' di zero virgola otto chili su otto virgola otto: circa il nove per cento, una disidratazione moderata-grave. Il peso prima della malattia, quando si conosce, e' il dato piu' preciso."),
+ (3,"chiaro",0,"I segni concordano: fontanella depressa, occhi infossati, mucose secche, pianto senza lacrime, oliguria. E ci sono segni di shock iniziale: tachicardia marcata, riempimento capillare lento, estremita' fredde, marezzatura."),
+ (3,"chiaro",0,"E soprattutto la sonnolenza, un segno di gravita' in un lattante. Ricordi la lezione dieci punto quattro: nel bambino l'ipotensione e' un segno tardivo. Non va aspettata."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Triage di alta priorita' e avviso immediato al pediatra. L'ABCDE pediatrico. La glicemia capillare, perche' un lattante che non mangia da due giorni puo' essere ipoglicemico."),
+ (4,"chiaro",0,"Il peso preciso, che sara' la base di tutte le dosi. Poi l'accesso venoso, spesso difficile in un lattante disidratato."),
+ (4,"chiaro",0,"Se e' in shock e la vena non si trova in fretta, accesso intraosseo, come nella lezione cinque punto due. Prelievi per elettroliti, funzione renale ed emogas. Monitoraggio. E i genitori restano accanto al bambino."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"La reidratazione endovenosa, secondo prescrizione. Nello shock si somministra un bolo di cristalloide isotonico, per esempio dieci millilitri per chilo: per Leo, ottanta millilitri, infusi rapidamente."),
+ (5,"chiaro",0,"Con una rivalutazione dopo ogni bolo: frequenza, riempimento capillare, coscienza, diuresi. Poi si prosegue con una reidratazione che corregge il deficit e garantisce il mantenimento."),
+ (5,"chiaro",0,"Un'attenzione di sicurezza: nel lattante si infonde con una pompa, o con un deflussore pediatrico con buretta. Mai un flacone a caduta libera: un errore di pochi minuti puo' dare un sovraccarico pericoloso."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Un esempio di dose per chilo, con i calcoli della lezione cinque punto tre. Viene prescritto il paracetamolo a quindici milligrammi per chilo. Per Leo: otto per quindici fa centoventi milligrammi."),
+ (6,"chiaro",0,"Lo sciroppo contiene centoventi milligrammi in cinque millilitri: la dose e' di cinque millilitri. Poi la dose massima giornaliera, e le siringhe per uso orale: mai per iniezione, perche' un farmaco orale non finisca in vena."),
+ (6,"chiaro",0,"Gli errori tipici della pediatria: la virgola, milligrammi e millilitri confusi, le dosi da adulto, le confezioni con concentrazioni diverse. Il doppio controllo dei calcoli e' una regola, non una scortesia verso il collega."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La diuresi nel lattante si misura pesando i pannolini: un grammo corrisponde circa a un millilitro di urina, sottraendo il peso del pannolino asciutto. L'obiettivo indicativo: circa uno-due millilitri per chilo all'ora."),
+ (7,"chiaro",0,"Piu' che nell'adulto. Si distinguono urine e feci, si tiene il bilancio di entrate e uscite, compresi vomito e diarrea, e si pesa il bambino ogni giorno, alla stessa ora e con la stessa bilancia."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"L'evoluzione. Dopo due boli e la reidratazione endovenosa, la frequenza scende a centoquaranta, il riempimento capillare torna normale, Leo e' piu' reattivo, e bagna il primo pannolino."),
+ (8,"chiaro",0,"Si passa gradualmente alla reidratazione per bocca, con la soluzione reidratante orale in piccole quantita' frequenti: per esempio un cucchiaino ogni uno-due minuti. Piccoli volumi sono tollerati anche da chi vomita."),
+ (8,"chiaro",0,"Si continua l'allattamento, o la normale alimentazione appena tollerata. E si evitano succhi di frutta, bibite zuccherate, te' e brodi come reidratanti: zuccheri e sali non adatti, che possono peggiorare la diarrea."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Le precauzioni per le infezioni. Le gastroenteriti virali dei bambini, come quelle da rotavirus o norovirus, si trasmettono per via oro-fecale e sono molto contagiose."),
+ (9,"chiaro",0,"Si applicano le precauzioni da contatto secondo protocollo, e l'igiene delle mani: con acqua e sapone quando il protocollo lo indica, perche' alcuni virus resistono al gel alcolico."),
+ (9,"chiaro",0,"Poi una gestione attenta di pannolini e superfici. Si educano i genitori: mani, fasciatoio, giocattoli. E la vaccinazione contro il rotavirus e' offerta nel primo anno di vita."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Un approfondimento: i genitori e il dolore del bambino. La presenza dei genitori e' un diritto del bambino e un vero intervento terapeutico: in braccio alla madre, un lattante ha meno paura e meno dolore."),
+ (10,"chiaro",0,"Si spiega in modo semplice che cosa si fara', e si coinvolgono i genitori: tenere il bambino in braccio, allattarlo durante la procedura, distrarlo."),
+ (10,"chiaro",0,"Per il dolore delle procedure, una crema anestetica locale quando il tempo lo consente, la distrazione, una posizione di conforto."),
+ (10,"chiaro",0,"Il dolore si valuta con una scala adatta all'eta', come la FLACC della lezione undici punto quattro. E l'ansia dei genitori fa parte del caso: non e' un disturbo da gestire."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La dimissione. I genitori devono riconoscere i segni di disidratazione: pannolini asciutti, sonnolenza, pianto senza lacrime, bocca secca, fontanella depressa."),
+ (11,"chiaro",0,"Sapere come somministrare la soluzione reidratante, e continuare l'allattamento. E sapere quando tornare subito: vomito che non si ferma, sangue nelle feci, sonnolenza, poche urine, febbre alta persistente."),
+ (11,"chiaro",0,"Poi l'igiene delle mani in famiglia, e il riferimento al pediatra di libera scelta. Tutto verificato con il teach-back."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Aspettare l'ipotensione per riconoscere lo shock. Dimenticare la glicemia. Non pesare il bambino. Calcolare le dosi senza doppio controllo."),
+ (12,"chiaro",0,"Le siringhe per iniezione per i farmaci orali. Il flacone a caduta libera nel lattante. Reidratare con succhi o bibite. E allontanare i genitori durante le procedure."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: i segni di disidratazione nel lattante? Calo di peso, fontanella depressa, occhi infossati, mucose secche, pianto senza lacrime, oliguria."),
+ (13,"chiaro",0,"E nei casi gravi tachicardia, riempimento capillare lento, estremita' fredde e alterazione della coscienza. Seconda: come si calcola una dose per chilo? Si moltiplica la dose per chilo per il peso."),
+ (13,"chiaro",0,"Si converte in volume in base alla concentrazione, si verifica la dose massima, si esegue un doppio controllo, e per i farmaci per bocca si usano siringhe per uso orale."),
+ (13,"chiaro",0,"Terza: la diuresi? Pesando i pannolini e sottraendo il peso del pannolino asciutto: un grammo corrisponde circa a un millilitro."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Lattante di nove mesi con gastroenterite, calo di peso del nove per cento, segni di disidratazione, tachicardia, riempimento capillare rallentato, estremita' fredde e sonnolenza."),
+ (14,"chiaro",0,"Disidratazione moderata-grave con shock iniziale. Assegno alta priorita' e avviso subito il pediatra; valuto ABCDE e glicemia, peso il bambino e reperisco un accesso, intraosseo se necessario."),
+ (14,"chiaro",0,"Somministro il bolo prescritto di dieci millilitri per chilo con rivalutazione, infondendo con pompa. Calcolo le dosi per chilo con doppio controllo, e uso siringhe orali. Misuro la diuresi pesando i pannolini."),
+ (14,"chiaro",0,"Quando tollerato avvio la reidratazione orale a piccole quantita', e continuo l'allattamento. Applico le precauzioni da contatto. Coinvolgo i genitori, e li educo a riconoscere i segni di disidratazione."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Le precauzioni da contatto con la quattro punto tre. I calcoli con la cinque punto tre. L'accesso intraosseo con la cinque punto due. I segni di gravita' nel bambino con la dieci punto quattro."),
+ (15,"chiaro",0,"La pediatria e il dolore con la undici punto quattro. I compartimenti idrici con la quattordici punto uno, che spiegano perche' il lattante si disidrata cosi' in fretta."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Un aspetto organizzativo: a volte un bambino viene assistito in un pronto soccorso generale, o in un'area non pediatrica. Serve materiale pediatrico: maschere, bracciali, aghi, pompe, piastre del defibrillatore."),
+ (16,"chiaro",0,"Servono tabelle dei parametri normali e delle dosi per eta' e peso, la consulenza pediatrica, e un ambiente adatto, con la presenza dei genitori."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: nel bambino tutto si calcola per chilo, e lo shock si riconosce prima che la pressione cada."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione, un tema delicato: un paziente ricoverato per una malattia fisica che, una notte, lascia intendere di non voler piu' vivere. Che cosa dire, che cosa fare, e come proteggerlo. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"La reidratazione endovenosa",
+ 6:"La dose per chilo: un esempio",7:"La diuresi nel lattante",8:"L'evoluzione e la reidratazione orale",
+ 9:"Le precauzioni per le infezioni",10:"I genitori e il dolore del bambino",11:"La dimissione",12:"Gli errori da evitare",
+ 13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",16:"Il bambino in un reparto per adulti",
+ 17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

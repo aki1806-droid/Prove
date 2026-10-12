@@ -2,7 +2,7 @@ Il TSO e' regolato dalla legge ottocentotrentatre' del millenovecentosettantotto
 
 Servono tre requisiti insieme: alterazioni psichiche tali da richiedere urgenti interventi terapeutici, il rifiuto degli interventi, e l'impossibilita' di adottare tempestive e idonee misure extraospedaliere.
 
-La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica al giudice tutelare entro quarantotto ore, e lui entro le quarantotto successive convalida.
+La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica entro quarantotto ore al giudice tutelare, che convalida entro le quarantotto successive.
 
 Dura sette giorni, prorogabili, e si esegue nell'SPDC. E ricorda: la pericolosita' non e' fra i requisiti. Il TSO e' un atto di cura, non di ordine pubblico.
 
@@ -12,7 +12,7 @@ Tutela la dignita' e la riservatezza, evitando esposizioni davanti ad altri. Gar
 
 Documenta comportamenti, interventi e terapia. Continua a cercare la partecipazione del paziente, anche durante il trattamento obbligatorio. E infine, consegne complete all'SPDC.
 
-Un approfondimento, per distinguere situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero.
+Un approfondimento su situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero.
 
 Esiste anche un TSO extraospedaliero, quando non serve la degenza. E il paziente non psichiatrico che rifiuta le cure, per un'appendicite? Il TSO non si applica: si valuta la sua capacita' di decidere.
 
@@ -20,7 +20,7 @@ Se e' capace, il rifiuto va rispettato, dopo un'informazione completa, come prev
 
 E se la persona ha un amministratore di sostegno, lo si coinvolge secondo i poteri che gli sono attribuiti.
 
-[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, che e' maggiorenne.
+[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, maggiorenne.
 
 Si spiega che il TSO e' un atto di cura. Si indicano il Centro di Salute Mentale e le associazioni dei familiari. Cannabis e psicosi: si informa senza colpevolizzare, e se indicato si coinvolge il SerD.
 
@@ -32,9 +32,9 @@ Dare farmaci senza poi sorvegliare respiro e pressione. Non riconoscere una dist
 
 Poi la proposta di un medico, la convalida di un medico pubblico, l'ordinanza del sindaco, il giudice tutelare con le due finestre di quarantotto ore. Sette giorni, in SPDC.
 
-Seconda: come gestisce un paziente con agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema.
+Seconda: come gestisce l'agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema.
 
-Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? La sedazione, la frequenza respiratoria, la saturazione, la pressione, l'ECG se indicato, e i segni di distonia acuta.
+Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? Sedazione, frequenza respiratoria, saturazione, pressione, ECG se indicato, e i segni di distonia acuta.
 
 La risposta modello. Giovane con agitazione psicomotoria, insonnia, idee di persecuzione e rifiuto delle cure: priorita' alla sicurezza di tutti. Ambiente tranquillo, via d'uscita libera.
 

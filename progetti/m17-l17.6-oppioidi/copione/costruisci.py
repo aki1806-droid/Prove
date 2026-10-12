@@ -4,76 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso parla di un paziente che molti operatori, ancora oggi, guardano con diffidenza: una persona con una dipendenza da oppioidi, in terapia sostitutiva con il metadone, ricoverata per un altro problema."),
+ (1,"chiaro",0,"Vedremo come riconoscere l'astinenza, perche' la terapia sostitutiva non si interrompe, come si tratta il dolore in un paziente tollerante agli oppioidi, e come si superano i pregiudizi."),
+ (1,"chiaro",0,"Collegamenti con le lezioni tre punto sette, cinque punto quattro, cinque punto sei, cinque punto sette e undici punto tre."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Stefano, quarantuno anni, e' in terapia con metadone presso il SerD da tre anni, con una buona stabilita'. Viene ricoverato sabato sera in chirurgia, per un ascesso del braccio da drenare."),
+ (2,"chiaro",0,"L'ascesso e' legato a un pregresso uso di sostanze per via endovenosa. All'ingresso nessuno ha verificato la terapia con metadone. Domenica alle tre presenta sbadigli continui, sudorazione, lacrimazione."),
+ (2,"chiaro",0,"E poi naso che cola, pupille dilatate, pelle d'oca, crampi, diarrea, agitazione. Un collega commenta: sta solo cercando farmaci. Fermati: che cosa sta succedendo, e che cosa rispondi al collega?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Stefano e' in terapia con metadone, e la dose non e' stata somministrata dal giorno prima: e' una sindrome da astinenza da oppioidi. I segni oggettivi sono inequivocabili."),
+ (3,"chiaro",0,"Pupille dilatate, sudorazione, lacrimazione, naso che cola, pelle d'oca, sbadigli, diarrea, tachicardia. Poi i sintomi soggettivi: ansia, crampi, dolori ossei e muscolari, il desiderio intenso della sostanza."),
+ (3,"chiaro",0,"Al collega rispondi che non e' una ricerca di farmaci: e' una condizione clinica, causata dall'interruzione di una terapia prescritta. Il metadone, per Stefano, e' un farmaco come l'insulina per un diabetico."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le azioni. Rilevi i parametri, valuti l'astinenza con una scala, come la COWS, e avvisi il medico di guardia. Poi verifichi la dose: la documentazione del SerD, il piano terapeutico, il servizio di riferimento."),
+ (4,"chiaro",0,"Anche attraverso la reperibilita' nei giorni festivi. E soprattutto l'ultima dose assunta e il suo orario, per evitare sia la mancata somministrazione sia la doppia dose."),
+ (4,"chiaro",0,"Poi la terapia sostitutiva continua secondo prescrizione, con il registro degli stupefacenti della lezione cinque punto sette. Idratazione, sintomatici, e rassicurazione: Stefano ha paura di non essere creduto."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"[serious] Perche' la terapia sostitutiva non si interrompe? Interromperla provoca astinenza e sofferenza, e spesso porta ad abbandonare le cure, con le dimissioni contro il parere medico, o a procurarsi sostanze in ospedale."),
+ (5,"chiaro",0,"La dose abituale serve a prevenire l'astinenza, non a trattare il dolore acuto. Il ricovero e' un'occasione di cura, non di disintossicazione forzata. Le modifiche, solo con il medico e con il SerD."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Dopo il drenaggio Stefano ha un dolore di otto su dieci. Ed ecco il secondo errore frequente: pensare che il metadone copra anche il dolore. La dose abituale non copre il dolore acuto."),
+ (6,"chiaro",0,"Anzi, per la tolleranza possono servire dosi di analgesici oppioidi piu' alte del solito, secondo prescrizione, con un'analgesia multimodale: paracetamolo, FANS se non controindicati, anestesia locale o loco-regionale."),
+ (6,"chiaro",0,"Si valuta e si rivaluta con la scala, si sorvegliano sedazione e respiro. E il dolore riferito va creduto, come per qualunque altro paziente: e' il principio della lezione tre punto sette."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La sicurezza. Il metadone puo' allungare l'intervallo QT: ECG secondo indicazione, e attenzione ai farmaci che lo allungano. Alcuni antibiotici, antimicotici e altri farmaci ne modificano i livelli nel sangue."),
+ (7,"chiaro",0,"E' un'interazione da segnalare al medico, perche' Stefano ricevera' antibiotici per l'ascesso. Con benzodiazepine, alcol o altri sedativi cresce il rischio di depressione respiratoria: il naloxone deve essere disponibile."),
+ (7,"chiaro",0,"E si evita la doppia dose, che e' un errore reale nei passaggi fra SerD e ospedale: una registrazione puntuale e chiara di chi ha somministrato, quanto e quando."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Un approfondimento: astinenza e overdose sono quadri opposti. Nell'astinenza le pupille sono dilatate; la persona suda, lacrima, ha il naso che cola, sbadiglia, ha la pelle d'oca e la diarrea, e' agitata e tachicardica."),
+ (8,"chiaro",0,"Una sofferenza intensa, ma raramente pericolosa per la vita in un adulto. Nell'overdose le pupille sono puntiformi, la sedazione e' profonda, il respiro rallenta fino all'apnea, compare la cianosi."),
+ (8,"chiaro",0,"E' un'emergenza: si stimola, si ventila, si somministra il naloxone e si chiama aiuto. E il naloxone dura meno degli oppioidi: dopo il risveglio, il paziente puo' riaddormentarsi."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"La salute oltre la dipendenza. L'ascesso, da un pregresso uso endovenoso, richiede la cura della ferita e l'antibiotico."),
+ (9,"chiaro",0,"Il ricovero e' un'occasione per offrire, con il consenso, i test per HIV ed epatiti B e C, e le vaccinazioni, come quella contro l'epatite B. Si applicano i principi della riduzione del danno."),
+ (9,"chiaro",0,"Il patrimonio venoso e' spesso compromesso: gli accessi possono richiedere l'ecografo, come nella lezione sei punto uno. E si considerano la salute mentale e la situazione sociale."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"[thoughtful] Il pregiudizio. Lo stigma verso chi ha una dipendenza e' frequente anche fra i professionisti, e ha conseguenze concrete: dolore non trattato, astinenze non riconosciute, abbandono delle cure."),
+ (10,"chiaro",0,"Comincia dal linguaggio: persona con un disturbo da uso di oppioidi, non tossico. Il Codice deontologico chiede rispetto e non discriminazione. E al collega si risponde con i fatti clinici, non con un giudizio."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La dimissione e la continuita' con il SerD. Si comunicano il ricovero, la dose somministrata in ospedale e l'orario dell'ultima dose, per evitare sospensioni o doppie dosi nel passaggio."),
+ (11,"chiaro",0,"Si segnalano le terapie nuove, come antibiotici e analgesici. Si informa sul rischio di overdose quando la tolleranza si riduce, e sull'uso del naloxone secondo le indicazioni locali. E si fissa il follow-up."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Non chiedere all'ingresso della terapia sostitutiva. Interrompere il metadone. Leggere l'astinenza come ricerca di farmaci. Pensare che il metadone copra il dolore acuto."),
+ (12,"chiaro",0,"Sottotrattare il dolore per paura. Una doppia dose per mancata verifica. Trascurare le interazioni e il QT. Usare un linguaggio stigmatizzante."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: come si riconosce l'astinenza? Midriasi, sudorazione, lacrimazione, rinorrea, sbadigli, pelle d'oca, crampi, diarrea, tachicardia, ansia e agitazione, con scale dedicate."),
+ (13,"chiaro",0,"Seconda: il dolore acuto nel paziente in metadone? Si continua la dose abituale, che previene l'astinenza, e si aggiunge un'analgesia multimodale, con oppioidi a dosi spesso piu' alte, sorvegliando sedazione e respiro."),
+ (13,"chiaro",0,"Terza: astinenza e overdose? L'astinenza da' midriasi, agitazione, iperattivita' autonomica. L'overdose miosi, sedazione profonda e depressione respiratoria: un'emergenza, da trattare con il naloxone."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente in terapia con metadone, ricoverato per un ascesso, che dopo la mancata somministrazione della dose presenta midriasi, sudorazione, lacrimazione, rinorrea, sbadigli, crampi, diarrea e agitazione."),
+ (14,"chiaro",0,"E' un'astinenza da oppioidi. Rilevo i parametri, valuto l'astinenza con una scala, avviso il medico, e verifico con il SerD dose e orario dell'ultima assunzione."),
+ (14,"chiaro",0,"Somministro la terapia sostitutiva prescritta, registrandola ed evitando doppie dosi. Gestisco il dolore con analgesia multimodale, considerando la tolleranza e sorvegliando sedazione e respiro, con naloxone disponibile."),
+ (14,"chiaro",0,"Segnalo interazioni e rischio di allungamento del QT. Mi relaziono senza giudizio. Offro, con il consenso, screening e vaccinazioni. E alla dimissione garantisco la continuita' con il SerD."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"Collegamenti. Dolore e PCA, tre punto sette. Riconciliazione, cinque punto quattro. Naloxone, cinque punto sei. Stupefacenti, cinque punto sette. SerD, undici punto tre. Vene difficili, sei punto uno. Codice, uno punto quattro."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"E un ritorno all'origine del problema: la riconciliazione all'ingresso. La terapia con metadone non e' stata rilevata, perche' spesso non compare fra le terapie di casa: la dispensa il SerD."),
+ (16,"chiaro",0,"All'ingresso si chiedono sempre i farmaci in corso, compresi quelli dispensati da servizi come il SerD, il Centro di Salute Mentale o gli ambulatori specialistici, e le terapie a lento rilascio."),
+ (16,"chiaro",0,"La dose si verifica con una fonte documentata, e la prima somministrazione si pianifica anche nei giorni festivi. E' la Raccomandazione diciassette."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: il metadone e' una terapia. Si verifica, si continua e si registra come ogni altro farmaco."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione usciamo dall'ospedale: un uomo con una malattia avanzata che ha scelto di essere curato a casa, una famiglia che lo assiste, e un'equipe di cure palliative domiciliari. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le azioni",5:"Perche' la terapia sostitutiva non si interrompe",
+ 6:"Il dolore nel paziente in terapia con oppioidi",7:"La sicurezza: metadone e interazioni",8:"Astinenza e overdose a confronto",
+ 9:"La salute oltre la dipendenza",10:"Il pregiudizio",11:"La dimissione e la continuita' con il SerD",12:"Gli errori da evitare",
+ 13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",16:"La riconciliazione all'ingresso",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

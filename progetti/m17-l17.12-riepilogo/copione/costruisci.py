@@ -4,76 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Chiudiamo il modulo diciassette, e con esso l'intero blocco dei casi clinici: trentadue casi completi e diciotto casi lampo, nei moduli quindici, sedici e diciassette."),
+ (1,"chiaro",0,"In questa lezione riprendiamo le frasi chiave del modulo, affrontiamo sei casi lampo su temi di etica e di responsabilita' che all'orale compaiono spesso, e vediamo come usare tutto questo nelle prove."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Le frasi del modulo, come ancore. Preeclampsia, diciassette punto uno: mal di testa e mal di stomaco con la pressione alta non sono disturbi minori."),
+ (2,"chiaro",0,"Emorragia post-partum, diciassette punto due: utero molle, massaggio, vescica vuota, aiuto. Lattante, diciassette punto tre: tutto per chilo, e lo shock prima che la pressione cada."),
+ (2,"chiaro",0,"Rischio suicidario, diciassette punto quattro: chiedere apre una porta. TSO, diciassette punto cinque: il rispetto e' la condizione di tecnica e procedura. Metadone, diciassette punto sei: e' una terapia."),
+ (2,"chiaro",0,"Cure palliative, diciassette punto sette: educare il caregiver e' curare il paziente. Infermiere di famiglia, diciassette punto otto: la lesione guarisce con la rete."),
+ (2,"chiaro",0,"Centro di Servizi, diciassette punto nove: curare in struttura non e' curare di meno. Paziente straniera, diciassette punto dieci: un consenso non capito non e' un consenso."),
+ (2,"chiaro",0,"Evento avverso, diciassette punto undici: la cartella va scritta in tempo, e mai riscritta dopo. Undici frasi, e dietro ognuna un caso intero."),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[curious] Caso lampo uno. Un paziente adulto, capace, anemico e in sanguinamento, rifiuta la trasfusione per motivi religiosi."),
+ (3,"chiaro",0,"Un adulto capace ha il diritto di rifiutare un trattamento, anche salvavita: lo garantiscono l'articolo trentadue della Costituzione e la legge duecentodiciannove, della lezione uno punto sei."),
+ (3,"chiaro",0,"Il medico, con l'infermiere, da' un'informazione completa sulle conseguenze, verificando che la scelta sia libera e consapevole. Si valutano le alternative, come farmaci e tecniche di risparmio del sangue."),
+ (3,"chiaro",0,"Si documentano con cura il rifiuto e le informazioni date, e si considerano eventuali DAT. E' cio' che dice anche la lezione sei punto sei: il rifiuto della persona capace si rispetta, e si documenta."),
+ (3,"chiaro",0,"La situazione e' diversa per un minore: la decisione coinvolge i genitori e, in caso di conflitto con il suo interesse, l'autorita' giudiziaria. Nell'emergenza si garantiscono le cure necessarie."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Caso lampo due. Un paziente con dolore toracico, in osservazione, vuole andarsene subito: ho da lavorare. Prima si ascoltano i motivi, che spesso si possono risolvere: la paura, il lavoro, i figli, i tempi di attesa."),
+ (4,"chiaro",0,"Il medico informa in modo chiaro dei rischi. Se la persona e' capace, la sua scelta va rispettata, con la firma della dichiarazione secondo procedura: non si trattiene contro la sua volonta' una persona capace."),
+ (4,"chiaro",0,"Ma non la si abbandona: le si danno comunque informazioni, terapia, segni d'allarme, e l'indicazione di tornare. E si documenta."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Caso lampo tre. Una persona telefona in reparto: sono il nipote, come sta mia zia? Non si danno informazioni cliniche al telefono senza poter verificare l'identita' di chi chiama."),
+ (5,"chiaro",0,"E senza il consenso della paziente sulle persone da informare. Si seguono le procedure aziendali, che prevedono di solito l'indicazione, da parte del paziente, delle persone autorizzate."),
+ (5,"chiaro",0,"Si risponde con cortesia, spiegando come ottenere le informazioni. E' la riservatezza della lezione uno punto sette, che protegge anche le persone che non vogliono far sapere di essere ricoverate."),
+ (5,"chiaro",0,"La stessa lezione lo dice in modo netto: per telefono non si conferma nemmeno la presenza di un ricoverato, e la persona puo' opporsi alla comunicazione della propria presenza in reparto."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[serious] Caso lampo quattro. Una donna arriva in pronto soccorso con lesioni che non corrispondono al racconto di una caduta. E' molto ansiosa, e il compagno non la lascia mai sola."),
+ (6,"chiaro",0,"Si garantisce un colloquio in privato, senza l'accompagnatore, con un ascolto non giudicante e senza pressioni. Si curano le lesioni, e si documentano in modo accurato e oggettivo."),
+ (6,"chiaro",0,"Si attiva il percorso aziendale dedicato alle vittime di violenza, previsto dalle linee guida nazionali, e si danno informazioni sui centri antiviolenza e sui numeri di aiuto."),
+ (6,"chiaro",0,"Gli esercenti una professione sanitaria hanno l'obbligo di referto per i reati procedibili d'ufficio, secondo la normativa. E si tutela la sicurezza della donna e degli operatori."),
+ (6,"chiaro",0,"Sono i tre binari della lezione uno punto sette: l'assistenza alla persona, una documentazione che descrive senza giudicare, l'attivazione dei percorsi. E qui il segreto professionale non e' un ostacolo."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Caso lampo cinque. Durante il turno noti che un collega ha l'alito che sa di alcol, e' impacciato, e sta preparando la terapia."),
+ (7,"chiaro",0,"La priorita' e' la sicurezza dei pazienti: si interviene subito, con discrezione, perche' non somministri farmaci. E si informa il coordinatore, o il responsabile, secondo le procedure."),
+ (7,"chiaro",0,"Non si copre il collega, e non lo si espone pubblicamente. Il Codice deontologico chiede di tutelare la persona assistita: come nella lezione uno punto quattro, coprire il collega non e' solidarieta' professionale."),
+ (7,"chiaro",0,"E si ricorda che la dipendenza e' anche una malattia: esistono percorsi di aiuto per il collega."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Caso lampo sei. Un ragazzo di quindici anni arriva in pronto soccorso con un amico, dopo un incidente in bicicletta, con una frattura dell'avambraccio. I genitori non sono raggiungibili."),
+ (8,"chiaro",0,"Per i trattamenti il consenso spetta ai genitori o al tutore, tenendo conto della volonta' del minore in base all'eta' e alla maturita', come prevede la legge duecentodiciannove, all'articolo tre."),
+ (8,"chiaro",0,"Si continua a cercare i genitori. Nelle urgenze si garantiscono le cure necessarie; per cio' che puo' attendere, si aspetta il consenso. Si comunica in modo adeguato all'eta', e si documentano i tentativi di contatto."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[thoughtful] I fili del modulo diciassette. La persona come titolare delle decisioni: il consenso, il rifiuto, la pianificazione condivisa. La famiglia come risorsa, e come destinataria di cura."),
+ (9,"chiaro",0,"Il territorio e la rete come luogo di cura. La comunicazione come strumento clinico: il mediatore, la de-escalation, il colloquio sul suicidio."),
+ (9,"chiaro",0,"E la responsabilita', come tutela del paziente e del professionista. Sono gli stessi fili che hai ritrovato nei sei casi lampo di oggi."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Le tracce piu' probabili legate a questo modulo. La preeclampsia e il magnesio. L'emorragia post-partum. Il bambino disidratato e le dosi per chilo. Il paziente che esprime idee suicidarie. L'agitazione e il TSO."),
+ (10,"chiaro",0,"Il paziente in terapia sostitutiva. Le cure palliative a domicilio. L'infermiere di famiglia e il caregiver. Il trasferimento da una struttura residenziale. Il consenso con il mediatore."),
+ (10,"chiaro",0,"L'evento avverso e la legge ventiquattro. E il rifiuto delle cure, che hai appena visto nel primo caso lampo. Per ognuna hai un caso svolto, con la risposta modello e tre domande d'orale."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Le norme che ritornano nei casi, da collegare sempre alla pratica. L'articolo trentadue della Costituzione. La legge ottocentotrentatre', con il TSO, agli articoli dal trentatre' al trentacinque."),
+ (11,"chiaro",0,"La legge duecentodiciannove, su consenso, rifiuto, DAT, pianificazione condivisa, minori e incapaci. La legge trentotto, sulle cure palliative. La legge ventiquattro, sulla sicurezza delle cure e la responsabilita'."),
+ (11,"chiaro",0,"Il DPR trecentonove, sugli stupefacenti. Il decreto ottantuno e la Raccomandazione otto, sulle aggressioni. Le Raccomandazioni quattro, sul suicidio, cinque, sulla trasfusione, e diciassette, sulla riconciliazione."),
+ (11,"chiaro",0,"E il DM settantasette, sul territorio. Le hai gia' incontrate tutte: la duecentodiciannove nella uno punto sei, la ventiquattro nella uno punto cinque, la ottocentotrentatre' nella undici punto tre."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Come usare i trentadue casi nelle prove. Nella prova scritta, per le risposte sintetiche: lo schema in cinque passi della lezione quindici punto uno, e le quindici righe."),
+ (12,"chiaro",0,"Nella prova pratica: le priorita', gli interventi motivati, le procedure passo passo. All'orale: partire dal caso concreto, e arrivare alla norma e al sistema, cioe' alla rete veneta."),
+ (12,"chiaro",0,"L'allenamento: una traccia al giorno, alternando i tre moduli. Il quaderno dei casi, una pagina per caso. E nelle ultime due settimane, rileggere solo le frasi dei casi e le risposte modello."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"profondo",1.2,"[serious] La frase che chiude il blocco dei casi clinici: dietro ogni traccia c'e' una persona."),
+ (13,"chiaro",0,"Il commissario vuole sapere se la metteresti al sicuro, la ascolteresti e la accompagneresti. Se le tue risposte mostrano queste tre cose, hai gia' fatto meta' del concorso."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
-
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
-
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
-
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
-
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (14,"chiaro",0,"[warm] Nell'ultimo modulo, il percorso trasversale, ci concentriamo sulle prove: il metodo per i quiz, la prova scritta e pratica, l'orale, l'inglese e l'informatica, fino alla simulazione finale. Ci vediamo li'."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le frasi del modulo 17",3:"Caso lampo 1: il rifiuto della trasfusione",
+ 4:"Caso lampo 2: le dimissioni contro il parere medico",5:"Caso lampo 3: le informazioni al telefono",6:"Caso lampo 4: il sospetto di violenza",
+ 7:"Caso lampo 5: il collega in difficolta'",8:"Caso lampo 6: il minore senza i genitori",9:"I fili del modulo",
+ 10:"Le tracce piu' probabili del modulo",11:"Le norme che ritornano nei casi",12:"Come usare i 32 casi nelle prove",
+ 13:"La frase del blocco dei casi clinici",14:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

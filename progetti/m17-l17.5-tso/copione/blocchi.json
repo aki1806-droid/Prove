@@ -18,7 +18,7 @@
   "capitolo": 2,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Lo scenario. Davide, ventisei anni, viene accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."
+  "text": "Lo scenario. Davide, ventisei anni, accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."
  },
  {
   "id": "s05",
@@ -53,7 +53,7 @@
   "capitolo": 3,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Non si resta soli: i colleghi sono avvisati, e la vigilanza e' disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."
+  "text": "Non si resta soli: colleghi avvisati, e vigilanza disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."
  },
  {
   "id": "s10",
@@ -123,7 +123,7 @@
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
-  "text": "La contenzione, con i principi della lezione tre punto uno. E' una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."
+  "text": "La contenzione, con i principi della lezione tre punto uno. Una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."
  },
  {
   "id": "s20",
@@ -137,14 +137,14 @@
   "capitolo": 7,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi psichiatrici lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."
+  "text": "Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."
  },
  {
   "id": "s22",
   "capitolo": 8,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso, con spiegazioni, tempo e il coinvolgimento dei genitori."
+  "text": "Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso: spiegazioni, tempo, coinvolgimento dei genitori."
  },
  {
   "id": "s23",
@@ -172,7 +172,7 @@
   "capitolo": 9,
   "tema": "chiaro",
   "posa": 0,
-  "text": "La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica al giudice tutelare entro quarantotto ore, e lui entro le quarantotto successive convalida."
+  "text": "La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica entro quarantotto ore al giudice tutelare, che convalida entro le quarantotto successive."
  },
  {
   "id": "s27",
@@ -207,7 +207,7 @@
   "capitolo": 11,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Un approfondimento, per distinguere situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."
+  "text": "Un approfondimento su situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."
  },
  {
   "id": "s32",
@@ -235,7 +235,7 @@
   "capitolo": 12,
   "tema": "chiaro",
   "posa": 0,
-  "text": "[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, che e' maggiorenne."
+  "text": "[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, maggiorenne."
  },
  {
   "id": "s36",
@@ -277,14 +277,14 @@
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Seconda: come gestisce un paziente con agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."
+  "text": "Seconda: come gestisce l'agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."
  },
  {
   "id": "s42",
   "capitolo": 14,
   "tema": "chiaro",
   "posa": 0,
-  "text": "Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? La sedazione, la frequenza respiratoria, la saturazione, la pressione, l'ECG se indicato, e i segni di distonia acuta."
+  "text": "Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? Sedazione, frequenza respiratoria, saturazione, pressione, ECG se indicato, e i segni di distonia acuta."
  },
  {
   "id": "s43",

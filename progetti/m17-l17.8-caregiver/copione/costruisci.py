@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso mostra il lavoro dell'infermiere di famiglia e comunita', la figura del DM settantasette che molti di voi potrebbero ricoprire."),
+ (1,"chiaro",0,"A domicilio non ci sono colleghi nella stanza accanto: c'e' una persona fragile, una famiglia in difficolta' e una rete di servizi da attivare. Il problema clinico e' una lesione da pressione."),
+ (1,"chiaro",0,"Il problema vero, spesso, e' un caregiver che non ce la fa piu'. Ci servono le lezioni tre punto tre, sette punto due, undici punto sette, tredici punto quattro e tredici punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. La signora Bruna, ottantaquattro anni, ha gli esiti di un ictus da sei mesi: emiplegia destra, passa il giorno a letto o in carrozzina, ha una disfagia lieve e un'incontinenza."),
+ (2,"chiaro",0,"Vive con il figlio Paolo, cinquantacinque anni, separato, che lavora a tempo pieno. La Medicina di Gruppo Integrata segnala all'infermiere di famiglia e comunita' una piaga al sacro."),
+ (2,"chiaro",0,"Alla visita trovi una lesione sacrale profonda, con il tessuto adiposo visibile. Una Braden di dieci. Un materasso normale. Il peso in calo."),
+ (2,"chiaro",0,"E Paolo, con le occhiaie, ti dice: non dormo, ho mal di schiena, non ce la faccio piu'. Fermati un momento: chi sono i tuoi pazienti?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. I pazienti sono due: Bruna e Paolo. Bruna ha una lesione da pressione di stadio tre, perche' il tessuto adiposo e' visibile, come nella lezione sette punto due."),
+ (3,"chiaro",0,"Ha un rischio elevato, con una Braden di dieci, una malnutrizione, la disfagia, l'incontinenza e l'immobilita'. Paolo e' un caregiver con segni evidenti di sovraccarico fisico ed emotivo."),
+ (3,"chiaro",0,"[thoughtful] E la lesione e' il segnale di un sistema di cura che non regge piu'. Medicarla bene e' necessario, ma non basta: serve una risposta di rete."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La valutazione a domicilio, multidimensionale. La lesione, con il metodo TIME: sede, stadio, dimensioni, fondo, essudato, margini, cute perilesionale, dolore, segni di infezione. Il rischio, con la Braden."),
+ (4,"chiaro",0,"La nutrizione: peso, MNA, apporto, deglutizione. La continenza e la cute, con la dermatite associata all'incontinenza. L'autonomia, con la Barthel. L'ambiente: letto, materasso, bagno, spazi, ausili."),
+ (4,"chiaro",0,"Il caregiver: il carico, per esempio con la scala di Zarit, la sua salute, il tempo, le risorse economiche, gli altri familiari. E la terapia, con la riconciliazione."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Il piano per la lesione. Una superficie antidecubito adeguata al rischio, materasso o sovramaterasso, da richiedere subito. Il riposizionamento programmato, sul fianco a trenta gradi, con lo scarico dei talloni."),
+ (5,"chiaro",0,"La posizione seduta limitata nel tempo, con un cuscino antidecubito. La medicazione avanzata secondo valutazione, come nella lezione sette punto cinque. E il dolore durante le medicazioni."),
+ (5,"chiaro",0,"L'incontinenza: igiene delicata, prodotti barriera, ausili assorbenti adeguati e cambiati per tempo, perche' l'umidita' macera la cute. E la rivalutazione periodica, con misurazioni documentate."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La nutrizione. Una lesione da pressione non guarisce senza un apporto adeguato di proteine e calorie. Consistenze adatte alla disfagia, come nella lezione tre punto tre, e una posizione corretta durante il pasto."),
+ (6,"chiaro",0,"Integratori secondo prescrizione, dietista, peso periodico, idratazione. E una domanda concreta, che spiega il calo di peso: chi aiuta Bruna a mangiare quando Paolo e' al lavoro? Spesso, nessuno."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Il caregiver. Si ascolta Paolo e si riconosce la sua fatica, senza giudizio: non ce la faccio piu' non e' un'accusa a se stesso, e' una richiesta di aiuto."),
+ (7,"chiaro",0,"Si valuta il suo carico, per esempio con la Zarit, e la sua salute: sonno, schiena, umore. Gli si insegna la mobilizzazione sicura con gli ausili della lezione tre punto due, che proteggono anche la sua schiena."),
+ (7,"chiaro",0,"I diritti: i permessi della legge centoquattro, per assistere un familiare con disabilita' grave, e la definizione di caregiver familiare della legge di bilancio del duemiladiciotto. Il caregiver ha diritto a essere curato."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"L'attivazione della rete, la competenza distintiva dell'infermiere di famiglia e comunita'. Il confronto con il medico di famiglia e la medicina di gruppo. La valutazione dell'UVMD con la SVaMA, della tredici punto cinque."),
+ (8,"chiaro",0,"L'ADI, con infermieri per le medicazioni, fisioterapista e OSS per l'igiene. Gli ausili tramite il distretto: materasso antidecubito, letto articolato, sollevatore, carrozzina adeguata. Il SAD del Comune."),
+ (8,"chiaro",0,"L'impegnativa di cura domiciliare. Un centro diurno, o un ricovero di sollievo perche' Paolo riposi. L'assistente sociale e le associazioni. Da soli, questi servizi non risolvono; insieme, cambiano la situazione."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[serious] Un approfondimento delicato: la trascuratezza involontaria. Una lesione profonda, un calo di peso, una persona lasciata sola per molte ore possono indicare una trascuratezza."),
+ (9,"chiaro",0,"Molto spesso e' involontaria: un caregiver esausto, senza competenze e senza aiuto, come Paolo. Si valuta senza giudizio e senza accuse, si documentano i fatti, e si interviene con il supporto e la rete."),
+ (9,"chiaro",0,"Se invece ci sono segni di maltrattamento o di pericolo, si segnala secondo procedure e normativa: servizi sociali, medico e, se serve, le autorita' competenti. Distinguere i due casi e' una competenza professionale."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il piano condiviso. Gli obiettivi si concordano con Bruna, per quanto puo' partecipare, perche' l'afasia o la disfagia non la escludono dalle decisioni. E con Paolo."),
+ (10,"chiaro",0,"Obiettivi realistici e misurabili: una riduzione delle dimensioni della lesione in quattro settimane, un peso stabile, nessuna nuova lesione, un carico del caregiver ridotto."),
+ (10,"chiaro",0,"Si stabilisce chi fa che cosa e quando, con i numeri di riferimento. Una documentazione condivisa, la cartella domiciliare e il Fascicolo Sanitario Elettronico. E la rivalutazione, programmata."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Due mesi dopo. A casa ci sono un materasso antidecubito, un letto articolato e un sollevatore. L'ADI e' attiva, un'OSS del SAD arriva al mattino, Bruna va al centro diurno due giorni alla settimana."),
+ (11,"chiaro",0,"La lesione si e' ridotta ed e' granuleggiante, il peso e' stabile. Paolo dorme di piu', ha usato i permessi, ha un ricovero di sollievo per agosto. La rete funziona, e va mantenuta con rivalutazioni periodiche."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Medicare la lesione senza cambiare le condizioni che l'hanno causata. Dimenticare la nutrizione. Giudicare o colpevolizzare il caregiver. Ignorare la sua salute."),
+ (12,"chiaro",0,"Lavorare da soli, senza attivare la rete. Non distinguere fra trascuratezza involontaria e maltrattamento. Porsi obiettivi irrealistici. Non documentare."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: le funzioni dell'infermiere di famiglia e comunita'? E' il professionista di riferimento per la salute della persona, della famiglia e della comunita', uno ogni tremila abitanti."),
+ (13,"chiaro",0,"Prende in carico fragilita' e cronicita', fa prevenzione ed educazione, lavora a domicilio e in rete con il medico di famiglia, i servizi sociali e il distretto."),
+ (13,"chiaro",0,"Seconda: la lesione da pressione a domicilio? Valutazione del rischio e della lesione, superficie antidecubito, riposizionamento, scarico dei talloni, nutrizione, incontinenza, medicazione, educazione del caregiver."),
+ (13,"chiaro",0,"Terza: come si sostiene un caregiver in difficolta'? Con l'ascolto, la valutazione del carico, la formazione, l'informazione sui diritti, e attivando i servizi di supporto e di sollievo."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Anziana con esiti di ictus, allettata, disfagica e incontinente, con una lesione sacrale di stadio tre, rischio elevato e calo di peso, assistita da un figlio esausto."),
+ (14,"chiaro",0,"Eseguo una valutazione multidimensionale a domicilio, compreso il carico del caregiver. Imposto il piano: superficie antidecubito e ausili, riposizionamento con scarico dei talloni, medicazione avanzata."),
+ (14,"chiaro",0,"Gestisco l'incontinenza, la nutrizione adatta alla disfagia e il dolore. Ascolto il figlio senza giudizio, gli insegno la mobilizzazione sicura e lo informo sui diritti."),
+ (14,"chiaro",0,"Con il medico di famiglia attivo la rete: UVMD con SVaMA, ADI, SAD, impegnativa di cura domiciliare, centro diurno, sollievo, assistente sociale. Concordo obiettivi misurabili, documento, rivaluto."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Disfagia e nutrizione con la tre punto tre. Mobilizzazione e ausili con la tre punto due. Le lesioni da pressione con la sette punto due, le medicazioni avanzate con la sette punto cinque."),
+ (15,"chiaro",0,"Il territorio con la undici punto sette. Le cure primarie venete con la tredici punto quattro. E la rete per la non autosufficienza con la tredici punto cinque."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Le competenze in gioco. L'autonomia decisionale, perche' a domicilio molte cose si decidono da soli. La valutazione multidimensionale. Competenze tecniche, come il wound care e la nutrizione. L'educazione e il coaching."),
+ (16,"chiaro",0,"Una conoscenza concreta della rete dei servizi e delle procedure per accedervi. Il lavoro di squadra, e la comunicazione con le famiglie. E' il ruolo in cui tutto il corso si ricompone."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[thoughtful] La frase del caso: a domicilio la lesione si cura con la medicazione, ma guarisce con la rete."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una notte in un Centro di Servizi per anziani non autosufficienti, un ospite con demenza che ha la febbre, e la decisione se mandarlo o no in pronto soccorso. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La valutazione a domicilio",5:"La lesione: il piano",
+ 6:"La nutrizione",7:"Il caregiver",8:"L'attivazione della rete",9:"La trascuratezza involontaria",
+ 10:"Il piano condiviso",11:"Due mesi dopo",12:"Gli errori da evitare",13:"Le domande d'orale",
+ 14:"La risposta modello",15:"I collegamenti",16:"Le competenze in gioco",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

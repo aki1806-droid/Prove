@@ -1,6 +1,6 @@
-[warm] Questo caso non ha un'emergenza clinica, ma un problema che preoccupa molti infermieri: un evento avverso che diventa una richiesta di risarcimento.
+[warm] Questo caso non ha un'emergenza clinica, ma un problema che preoccupa molti infermieri: un evento avverso che diventa una richiesta di risarcimento. Vedremo il piano clinico e comunicativo.
 
-Che cosa si fa sul piano clinico e comunicativo, perche' la documentazione tutela paziente e professionista, che cosa dice la legge ventiquattro. Lezioni uno punto cinque, due punto cinque, due punto sei, sette punto due, dodici punto cinque.
+Perche' la documentazione e' la migliore tutela per paziente e professionista, e che cosa prevede la legge ventiquattro. Lezioni uno punto cinque, due punto cinque, due punto sei, sette punto due, dodici punto cinque.
 
 Lo scenario. La signora Ines, settantanove anni, e' da tre settimane in medicina per una polmonite, a lungo allettata. All'ingresso la Braden era dodici, e la cute del sacro era descritta come integra.
 
@@ -8,40 +8,40 @@ In cartella: la Braden mai rivalutata dopo l'ingresso. Riposizionata, ma senza o
 
 In quattordicesima giornata, una lesione da pressione sacrale di stadio tre. Il figlio fa reclamo all'URP, e annuncia una richiesta di risarcimento. Fermati: che cosa si fa adesso, e che cosa non si deve mai fare?
 
-[thoughtful] Prima di tutto la paziente. Si valuta la lesione: stadio, dimensioni, fondo, essudato, dolore, segni di infezione. La si documenta in modo completo, con misure ed eventuali foto, secondo procedura e consenso.
+[thoughtful] Prima di tutto la paziente. Si valuta la lesione: stadio, dimensioni, fondo, essudato, dolore, infezione. La si documenta in modo completo, con misure ed eventuali foto, secondo procedura e consenso.
 
 Si imposta il piano di trattamento: superficie antidecubito, riposizionamento programmato e documentato, medicazione avanzata, nutrizione, controllo del dolore.
 
-Si rivaluta il rischio, e si coinvolge l'esperto in wound care, se presente. Un evento avverso non si gestisce solo sul piano legale: prima si cura.
+Si rivaluta il rischio, e si coinvolge l'esperto in wound care, se c'e'. Un evento avverso non si gestisce solo sul piano legale: prima si cura.
 
 [serious] E ora, che cosa non si deve mai fare. Non si modifica, non si cancella, e non si integra retroattivamente la documentazione.
 
 La cartella clinica e' un atto pubblico: alterarla puo' configurare il reato di falso, che e' molto piu' grave di una documentazione incompleta.
 
-Le correzioni si fanno solo secondo procedura, lasciando leggibile il testo errato, con data, ora, firma e motivazione. Un'annotazione tardiva porta la data e l'ora reali in cui si scrive, e dice a quale momento si riferisce.
+Le correzioni si fanno solo secondo procedura: il testo errato resta leggibile, con data, ora, firma e motivazione. Un'annotazione tardiva porta la data e l'ora reali, e dice a quale momento si riferisce.
 
 Dopo un reclamo, la tentazione di aggiustare le cartelle e' comprensibile. Ma e' proprio cio' che trasforma un problema in un reato.
 
 La segnalazione e l'analisi. L'evento si segnala con l'incident reporting della lezione due punto sei, e la funzione di risk management lo analizza, con un audit o un'analisi delle cause.
 
-Le cause probabili sono organizzative e professionali insieme: la rivalutazione del rischio non eseguita, la documentazione assente, il materasso in ritardo senza un percorso di sollecito, forse carichi di lavoro elevati.
+Le cause probabili, organizzative e professionali insieme: un rischio non rivalutato, una documentazione assente, il materasso in ritardo senza un percorso di sollecito, forse carichi di lavoro elevati.
 
-L'obiettivo sono le azioni di miglioramento, non la ricerca del colpevole. E la legge ventiquattro tutela questo processo: gli atti della gestione del rischio non si usano nei giudizi, per favorire segnalazioni sincere.
+L'obiettivo sono le azioni di miglioramento, non la ricerca del colpevole. E la legge ventiquattro tutela il processo: gli atti della gestione del rischio non si usano nei giudizi, per favorire segnalazioni sincere.
 
 La comunicazione con la famiglia. Si ascolta il figlio e si riconosce la sua preoccupazione: vedere una lesione profonda sul corpo della propria madre e' doloroso.
 
-Si comunica l'evento in modo onesto e trasparente, secondo le procedure aziendali, con il medico e, se previsto, con la direzione. Senza promesse, e senza attribuire colpe a colleghi o ad altri servizi.
+Si comunica l'evento con onesta' e trasparenza, secondo le procedure, con il medico e, se previsto, la direzione. Senza promesse, e senza attribuire colpe a colleghi o ad altri servizi.
 
-Si informa sul piano di cura, si indicano i canali previsti, come l'URP e la direzione, e si documenta il colloquio. Una comunicazione sincera riduce i conflitti piu' di qualsiasi difesa.
+Si informa sul piano di cura, si indicano i canali previsti, URP e direzione, e si documenta il colloquio. Una comunicazione sincera riduce i conflitti piu' di qualsiasi difesa.
 
-La legge otto marzo duemiladiciassette, numero ventiquattro, nota come Gelli-Bianco, che hai visto nella lezione uno punto cinque. Il primo principio: la sicurezza delle cure e' parte del diritto alla salute.
+La legge otto marzo duemiladiciassette, numero ventiquattro, la Gelli-Bianco della lezione uno punto cinque. Il primo principio: la sicurezza delle cure e' parte del diritto alla salute.
 
 Tutte le strutture devono attuare la gestione del rischio clinico. E ci sono centri regionali per la gestione del rischio, e un osservatorio nazionale delle buone pratiche.
 
-Trasparenza: la documentazione sanitaria va fornita al paziente che la chiede entro sette giorni, con eventuali integrazioni entro trenta. E ci si attiene alle linee guida del Sistema Nazionale, o alle buone pratiche.
+Trasparenza: la documentazione sanitaria va data al paziente che la chiede entro sette giorni, con eventuali integrazioni entro trenta. E ci si attiene alle linee guida del Sistema Nazionale, o alle buone pratiche.
 
 E la responsabilita'. Sul piano civile, verso il paziente risponde la struttura. Il dipendente risponde di norma a titolo extracontrattuale, e la struttura puo' rivalersi su di lui solo per dolo o colpa grave.
 
-Sul piano penale, l'articolo cinquecentonovanta sexies del codice penale: se l'evento e' dovuto a imperizia, la punibilita' e' esclusa quando si sono rispettate linee guida o buone pratiche adeguate al caso concreto.
+Sul piano penale, l'articolo cinquecentonovanta sexies del codice penale: per un evento dovuto a imperizia, la punibilita' e' esclusa se si sono rispettate linee guida o buone pratiche adeguate al caso concreto.
 
 Ci sono anche l'obbligo di assicurazione, e un tentativo obbligatorio di conciliazione prima di una causa civile. E ricorda il patrocinio legale previsto dal contratto, della lezione dodici punto cinque.

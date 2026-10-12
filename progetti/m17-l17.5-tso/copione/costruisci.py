@@ -7,13 +7,13 @@ BLOCCHI = [
  (1,"chiaro",0,"[warm] Un giovane uomo molto agitato arriva in pronto soccorso con i genitori. Un caso che mette insieme la sicurezza degli operatori, la de-escalation, la ricerca delle cause organiche."),
  (1,"chiaro",0,"Poi i farmaci e la loro sorveglianza, e le regole del trattamento sanitario obbligatorio, chieste dai concorsi con precisione. Lezioni uno punto sei, due punto sette, tre punto uno, undici punto tre, dodici punto sei."),
 
- (2,"chiaro",0,"Lo scenario. Davide, ventisei anni, viene accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."),
+ (2,"chiaro",0,"Lo scenario. Davide, ventisei anni, accompagnato in pronto soccorso dai genitori alle ventuno. Da cinque giorni non dorme, ed e' convinto di essere spiato attraverso il telefono."),
  (2,"chiaro",0,"Ha distrutto alcuni oggetti in casa. Ora cammina avanti e indietro, alza la voce, e rifiuta di farsi visitare: voi siete d'accordo con loro."),
  (2,"chiaro",0,"I genitori riferiscono un uso di cannabis. Nessun precedente psichiatrico noto. Fermati un momento: qual e' la prima cosa a cui pensi, prima ancora del paziente?"),
 
  (3,"chiaro",0,"[serious] La prima cosa e' la sicurezza di tutti: del paziente, degli operatori, degli altri pazienti. Si accompagna Davide in un ambiente tranquillo, lontano dalla sala d'attesa affollata."),
  (3,"chiaro",0,"Si rimuovono gli oggetti potenzialmente pericolosi. Si mantiene una via d'uscita libera per l'operatore, senza mettersi fra il paziente e la porta, e una distanza adeguata."),
- (3,"chiaro",0,"Non si resta soli: i colleghi sono avvisati, e la vigilanza e' disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."),
+ (3,"chiaro",0,"Non si resta soli: colleghi avvisati, e vigilanza disponibile secondo procedura. E' la Raccomandazione otto, sulla prevenzione degli atti di violenza contro gli operatori."),
 
  (4,"chiaro",0,"La de-escalation, della lezione due punto sette. Un solo interlocutore, perche' piu' voci aumentano la confusione. Tono calmo e basso, frasi brevi, postura aperta, mani visibili."),
  (4,"chiaro",0,"Ci si presenta, e lo si chiama per nome. Si ascolta, e si riconosce l'emozione: vedo che e' molto spaventato. I deliri non si contraddicono e non si assecondano: si risponde al bisogno. Qui e' al sicuro."),
@@ -27,28 +27,28 @@ BLOCCHI = [
  (6,"chiaro",0,"Dopo, la sorveglianza: sedazione, frequenza respiratoria, saturazione, pressione, ECG secondo indicazione, perche' alcuni antipsicotici allungano il QT, e idratazione."),
  (6,"chiaro",0,"E un effetto collaterale da riconoscere: la distonia acuta, con torcicollo, occhi rivolti verso l'alto, contrazioni della lingua. Spaventa molto, va segnalata subito, si tratta con anticolinergici secondo prescrizione."),
 
- (7,"chiaro",0,"La contenzione, con i principi della lezione tre punto uno. E' una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."),
+ (7,"chiaro",0,"La contenzione, con i principi della lezione tre punto uno. Una misura estrema ed eccezionale, per il tempo strettamente necessario, quando ogni alternativa e' fallita e c'e' un pericolo grave e attuale."),
  (7,"chiaro",0,"Richiede una prescrizione medica, una tecnica sicura con personale formato e sufficiente, e un monitoraggio ravvicinato: parametri, respiro, circolazione degli arti, cute, idratazione, bisogni fisiologici, dignita'."),
- (7,"chiaro",0,"Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi psichiatrici lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."),
+ (7,"chiaro",0,"Si rivaluta di continuo, si rimuove appena possibile, si documenta tutto. Molti servizi lavorano per non usarla mai. E per Davide la de-escalation ha funzionato: la contenzione non e' servita."),
 
- (8,"chiaro",0,"Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso, con spiegazioni, tempo e il coinvolgimento dei genitori."),
+ (8,"chiaro",0,"Lo psichiatra valuta Davide: un quadro psicotico acuto, con necessita' di cure urgenti. Ma Davide rifiuta il ricovero. Si cerca ancora il consenso: spiegazioni, tempo, coinvolgimento dei genitori."),
  (8,"chiaro",0,"Il ricovero volontario resta sempre la prima scelta. Se il rifiuto persiste, e ricorrono i requisiti previsti dalla legge, si procede con un trattamento sanitario obbligatorio."),
 
  (9,"chiaro",0,"Il TSO e' regolato dalla legge ottocentotrentatre' del millenovecentosettantotto, agli articoli trentatre', trentaquattro e trentacinque, come nella lezione undici punto tre."),
  (9,"chiaro",0,"Servono tre requisiti insieme: alterazioni psichiche tali da richiedere urgenti interventi terapeutici, il rifiuto degli interventi, e l'impossibilita' di adottare tempestive e idonee misure extraospedaliere."),
- (9,"chiaro",0,"La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica al giudice tutelare entro quarantotto ore, e lui entro le quarantotto successive convalida."),
+ (9,"chiaro",0,"La procedura: proposta motivata di un medico, convalida di un medico della struttura pubblica, ordinanza del sindaco, notifica entro quarantotto ore al giudice tutelare, che convalida entro le quarantotto successive."),
  (9,"chiaro",0,"Dura sette giorni, prorogabili, e si esegue nell'SPDC. E ricorda: la pericolosita' non e' fra i requisiti. Il TSO e' un atto di cura, non di ordine pubblico."),
 
  (10,"chiaro",0,"Il ruolo dell'infermiere nel TSO. Non lo decide: collabora nella gestione clinica e nella sicurezza. Informa il paziente, in modo chiaro e rispettoso, di cio' che accade, anche se sembra non ascoltare."),
  (10,"chiaro",0,"Tutela la dignita' e la riservatezza, evitando esposizioni davanti ad altri. Garantisce i diritti: comunicare con chi ritiene opportuno, presentare ricorso, ricevere informazioni."),
  (10,"chiaro",0,"Documenta comportamenti, interventi e terapia. Continua a cercare la partecipazione del paziente, anche durante il trattamento obbligatorio. E infine, consegne complete all'SPDC."),
 
- (11,"chiaro",0,"Un approfondimento, per distinguere situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."),
+ (11,"chiaro",0,"Un approfondimento su situazioni che i candidati confondono. L'ASO, l'accertamento sanitario obbligatorio, serve a valutare una persona che rifiuta la visita: procedura analoga, senza ricovero."),
  (11,"chiaro",0,"Esiste anche un TSO extraospedaliero, quando non serve la degenza. E il paziente non psichiatrico che rifiuta le cure, per un'appendicite? Il TSO non si applica: si valuta la sua capacita' di decidere."),
  (11,"chiaro",0,"Se e' capace, il rifiuto va rispettato, dopo un'informazione completa, come prevede la legge duecentodiciannove. Se non e' capace e c'e' un'emergenza, si garantiscono le cure indispensabili."),
  (11,"chiaro",0,"E se la persona ha un amministratore di sostegno, lo si coinvolge secondo i poteri che gli sono attribuiti."),
 
- (12,"chiaro",0,"[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, che e' maggiorenne."),
+ (12,"chiaro",0,"[thoughtful] I genitori vivono spavento, colpa, sollievo e rabbia insieme. Hanno bisogno di informazioni chiare sul percorso, nei limiti della riservatezza e del consenso del figlio, maggiorenne."),
  (12,"chiaro",0,"Si spiega che il TSO e' un atto di cura. Si indicano il Centro di Salute Mentale e le associazioni dei familiari. Cannabis e psicosi: si informa senza colpevolizzare, e se indicato si coinvolge il SerD."),
 
  (13,"chiaro",0,"Gli errori. Affrontare il paziente da soli, o in tanti che parlano insieme. Contraddire i deliri, o discutere. Dare per scontato che sia psichiatrico, senza escludere le cause organiche."),
@@ -56,8 +56,8 @@ BLOCCHI = [
 
  (14,"chiaro",0,"[curious] Le domande d'orale. Prima: requisiti e procedura del TSO? Tre requisiti insieme: alterazioni psichiche che richiedono urgenti interventi, rifiuto, impossibilita' di misure extraospedaliere."),
  (14,"chiaro",0,"Poi la proposta di un medico, la convalida di un medico pubblico, l'ordinanza del sindaco, il giudice tutelare con le due finestre di quarantotto ore. Sette giorni, in SPDC."),
- (14,"chiaro",0,"Seconda: come gestisce un paziente con agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."),
- (14,"chiaro",0,"Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? La sedazione, la frequenza respiratoria, la saturazione, la pressione, l'ECG se indicato, e i segni di distonia acuta."),
+ (14,"chiaro",0,"Seconda: come gestisce l'agitazione psicomotoria? Sicurezza, de-escalation, esclusione delle cause organiche, terapia offerta prima per bocca, e la contenzione solo come misura estrema."),
+ (14,"chiaro",0,"Terza: che cosa sorveglia dopo un antipsicotico intramuscolare? Sedazione, frequenza respiratoria, saturazione, pressione, ECG se indicato, e i segni di distonia acuta."),
 
  (15,"chiaro",0,"La risposta modello. Giovane con agitazione psicomotoria, insonnia, idee di persecuzione e rifiuto delle cure: priorita' alla sicurezza di tutti. Ambiente tranquillo, via d'uscita libera."),
  (15,"chiaro",0,"Colleghi avvisati e vigilanza disponibile. De-escalation con un solo interlocutore, tono calmo, ascolto e offerta di scelte, senza contraddire i deliri. Collaboro all'esclusione delle cause organiche."),

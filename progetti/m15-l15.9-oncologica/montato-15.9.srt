@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,080
+Una paziente in chemioterapia con la febbre. E' uno dei casi in cui la rapidita' infermieristica salva la vita, e in cui la persona, oltre al corpo, porta con se' la paura.
+
+2
+00:00:13,080 --> 00:00:26,150
+Lo affrontiamo con le lezioni quattro punto tre sull'isolamento, sei punto due sui cateteri venosi centrali, sei punto sei sulla trasfusione, sei punto sette sulle emocolture e otto punto sette sull'oncologia.
+
+3
+00:00:26,150 --> 00:00:35,380
+Lo scenario. La signora Chiara ha cinquantaquattro anni e un carcinoma mammario in chemioterapia adiuvante, con un port-a-cath. L'ultimo ciclo e' stato nove giorni fa.
+
+4
+00:00:35,380 --> 00:00:49,290
+Alle venti arriva in pronto soccorso: febbre a trentotto virgola sette, brividi, e dice mi sento solo molto stanca. Pressione centododici su settanta, frequenza centotto, respiratoria diciotto, saturazione novantasette.
+
+5
+00:00:49,290 --> 00:00:57,210
+Ha due figli, di dodici e quindici anni. Fermati un momento: perche' il nove giorni fa e' il dato piu' importante della traccia?
+
+6
+00:00:57,210 --> 00:01:06,890
+Il ragionamento. Nove giorni dopo la chemioterapia siamo nel nadir: il periodo fra il settimo e il quattordicesimo giorno in cui i globuli bianchi sono al minimo.
+
+7
+00:01:06,890 --> 00:01:18,250
+Febbre in una paziente in chemioterapia significa neutropenia febbrile, fino a prova contraria. E i segni di infezione possono essere minimi: senza neutrofili non c'e' un'infiammazione evidente.
+
+8
+00:01:18,250 --> 00:01:29,010
+La stanchezza e la febbre possono essere tutto. La tachicardia puo' indicare una sepsi iniziale.  E' un'emergenza, con un obiettivo preciso: l'antibiotico entro sessanta minuti.
+
+9
+00:01:29,010 --> 00:01:42,120
+Il triage e l'accoglienza. Priorita' elevata, secondo il percorso per la neutropenia febbrile. Non resta in sala d'attesa con altri pazienti, magari con l'influenza: va in un'area dedicata, in isolamento protettivo.
+
+10
+00:01:42,120 --> 00:01:52,100
+Igiene delle mani rigorosa. Parametri completi e NEWS2. Si avvisa subito il medico. E si registra l'ora di arrivo: da qui partono i sessanta minuti.
+
+11
+00:01:52,100 --> 00:02:02,470
+Gli esami. L'emocromo urgente conferma: neutrofili trecento, cioe' una neutropenia grave. Piastrine diciottomila. Emoglobina nove virgola uno.
+
+12
+00:02:02,470 --> 00:02:15,360
+Le emocolture, con la tecnica della lezione sei punto sette: una dal port e una da una vena periferica, prelevate insieme. Il confronto dei tempi di positivizzazione dice se l'infezione nasce dal catetere.
+
+13
+00:02:15,360 --> 00:02:25,320
+Poi funzione renale ed epatica, lattati, PCR, urinocoltura. E la regola che conosci: le emocolture non devono ritardare l'antibiotico.
+
+14
+00:02:25,320 --> 00:02:37,070
+Il port e l'antibiotico. Si accede al port con tecnica asettica: ago di Huber non carotante, verifica del reflusso, lavaggio pulsato, come nella lezione sei punto due.
+
+15
+00:02:37,070 --> 00:02:46,420
+Si ispezionano la tasca sottocutanea e il tragitto: rossore, dolore o secrezione fanno pensare a un'infezione del catetere, e vanno segnalati.
+
+16
+00:02:46,420 --> 00:02:59,840
+Poi l'antibiotico ad ampio spettro secondo prescrizione, entro sessanta minuti dall'arrivo. Nel nostro caso la prima dose arriva alle venti e quarantotto, e l'orario si documenta: e' l'indicatore di qualita' del percorso.
+
+17
+00:02:59,840 --> 00:03:10,670
+Le misure nel paziente neutropenico, della lezione otto punto sette. Igiene delle mani. Stanza singola secondo protocollo. Niente visitatori con sintomi di infezione.
+
+18
+00:03:10,670 --> 00:03:24,470
+Niente manovre rettali: niente temperatura rettale, supposte o clisteri. Igiene orale e cutanea. Niente fiori e piante. Alimenti sicuri. E meno procedure invasive: ogni ago e' una porta d'ingresso.
+
+19
+00:03:24,470 --> 00:03:38,400
+La signora riferisce un dolore di sei su dieci alla deglutizione, con afte nel cavo orale: e' una mucosite. Igiene orale con spazzolino morbido, sciacqui blandi con fisiologica o bicarbonato, niente collutori alcolici.
+
+20
+00:03:38,400 --> 00:03:50,660
+Analgesia secondo prescrizione, valutata con la scala. Cibi morbidi, freschi, non irritanti, e idratazione. E l'ispezione quotidiana del cavo orale, anche per cercare una candidosi.
+
+21
+00:03:50,660 --> 00:04:04,920
+Le piastrine sono diciottomila: petecchie alle gambe, una lieve gengivorragia. Le precauzioni: spazzolino morbido, rasoio elettrico, niente intramuscolari, compressione prolungata dopo i prelievi, prevenzione delle cadute.
+
+22
+00:04:04,920 --> 00:04:16,790
+La trasfusione di piastrine si fa secondo prescrizione e secondo le soglie del protocollo, che tengono conto anche di febbre e sanguinamento. Con l'identificazione al letto della lezione sei punto sei.
+
+23
+00:04:16,790 --> 00:04:27,340
+L'evoluzione. In terza giornata la febbre e' risolta, i parametri sono stabili, le emocolture negative. I neutrofili risalgono a millecento, e la mucosite migliora.
+
+24
+00:04:27,340 --> 00:04:34,840
+Si prosegue la terapia secondo prescrizione, e si pianifica la dimissione. Ma prima c'e' una parte del caso che non sta negli esami.
+
+25
+00:04:34,840 --> 00:04:42,890
+La sera della seconda giornata la signora Chiara ti dice: ho avuto paura di non tornare a casa dai miei figli. E' un momento che conta quanto l'antibiotico.
+
+26
+00:04:42,890 --> 00:04:51,900
+Ascolto, presenza, domande aperte, senza frasi fatte come vedra' che andra' tutto bene. Informazioni chiare, dentro le tue competenze.
+
+27
+00:04:51,900 --> 00:05:01,130
+L'offerta del supporto psico-oncologico. I familiari coinvolti secondo i suoi desideri. E le associazioni di volontariato oncologico, che in Veneto sono molto presenti.
+
+28
+00:05:01,130 --> 00:05:11,740
+L'educazione alla dimissione. Misurare la temperatura in caso di malessere, brividi o sudorazione. Con febbre da trentotto in su, chiamare subito il centro, al numero dedicato.
+
+29
+00:05:11,740 --> 00:05:19,500
+E non prendere l'antipiretico aspettando che passi: l'antipiretico abbassa la febbre, ma non cura un'infezione in una persona senza difese.
+
+30
+00:05:19,500 --> 00:05:33,110
+Igiene delle mani, evitare chi ha infezioni, igiene orale. La cura del port e i segni di infezione. I segni di sanguinamento. Alimentazione sicura. Il calendario dei controlli. Il case manager e la Rete Oncologica Veneta.
+
+31
+00:05:33,110 --> 00:05:43,310
+Gli errori. Dire: ha solo un po' di febbre, prenda il paracetamolo e torni domani. Lasciarla in sala d'attesa. Ritardare l'antibiotico per aspettare l'emocromo o le emocolture.
+
+32
+00:05:43,310 --> 00:05:49,950
+Temperature rettali e supposte. Intramuscolari con le piastrine basse. E trascurare la paura, e i figli.
+
+33
+00:05:49,950 --> 00:05:59,000
+Un approfondimento sul port-a-cath nel tempo. Si accede con l'ago di Huber, non carotante, con tecnica asettica. Prima dell'uso si verifica il reflusso.
+
+34
+00:05:59,000 --> 00:06:12,280
+Lavaggio pulsato con fisiologica, con siringhe da almeno dieci millilitri per non generare pressioni eccessive: prima e dopo ogni uso, e fra farmaci incompatibili. Se non e' in uso, lavaggi periodici secondo protocollo.
+
+35
+00:06:12,280 --> 00:06:23,220
+I segni da segnalare. Dolore o gonfiore durante l'infusione fanno pensare a uno stravaso, pericolosissimo con gli antiblastici. L'assenza di reflusso, o una resistenza, a un'occlusione.
+
+36
+00:06:23,220 --> 00:06:29,810
+Arrossamento o secrezione, a un'infezione. E un edema del braccio o del collo puo' indicare una trombosi.
+
+37
+00:06:29,810 --> 00:06:42,280
+Le domande d'orale. Prima: che cos'e' il nadir? Il punto piu' basso dei valori ematici dopo la chemioterapia, di solito fra il settimo e il quattordicesimo giorno: il massimo rischio di infezione e sanguinamento.
+
+38
+00:06:42,280 --> 00:06:53,940
+Seconda: quali misure per il neutropenico? Igiene delle mani, isolamento protettivo secondo protocollo, niente visitatori con sintomi, niente manovre rettali, igiene orale e cutanea.
+
+39
+00:06:53,940 --> 00:07:04,050
+Alimenti sicuri, niente fiori, meno procedure invasive. E la regola della febbre: antibiotico entro sessanta minuti. Terza: come risponde a una paziente che ha paura?
+
+40
+00:07:04,050 --> 00:07:14,360
+Con ascolto e presenza, domande aperte, senza frasi rassicuranti generiche. Dando informazioni nei limiti delle proprie competenze, e offrendo il supporto psico-oncologico.
+
+41
+00:07:14,360 --> 00:07:27,390
+La risposta modello. Paziente in chemioterapia, nove giorni dopo l'ultimo ciclo, con febbre, brividi e tachicardia: neutropenia febbrile fino a prova contraria, emergenza, antibiotico entro sessanta minuti.
+
+42
+00:07:27,390 --> 00:07:38,250
+Assegno priorita' elevata, la accolgo in area separata con isolamento protettivo, rilevo i parametri e avviso subito il medico, registrando l'orario di arrivo. Eseguo l'emocromo urgente.
+
+43
+00:07:38,250 --> 00:07:50,340
+Emocolture contemporanee dal port, con ago di Huber e tecnica asettica, e da vena periferica, senza ritardare l'antibiotico, che somministro documentandone l'orario. Applico le misure per il neutropenico.
+
+44
+00:07:50,340 --> 00:08:03,560
+Con piastrine basse, le precauzioni antiemorragiche. Gestisco mucosite e dolore. Rivaluto. Offro ascolto e supporto psico-oncologico. Alla dimissione educo a chiamare subito in caso di febbre, con il teach-back.
+
+45
+00:08:03,560 --> 00:08:13,710
+I collegamenti. L'isolamento protettivo con la quattro punto tre. Il port con la sei punto due. La trasfusione con la sei punto sei. Le emocolture con la sei punto sette.
+
+46
+00:08:13,710 --> 00:08:26,380
+Neutropenia, mucosite e piastrinopenia con la otto punto sette. Gli antiblastici con la cinque punto sette. La comunicazione con la due punto sette. La Rete Oncologica Veneta con la tredici punto tre.
+
+47
+00:08:26,380 --> 00:08:33,960
+La frase del caso: nel paziente in chemioterapia, la febbre e' un'emergenza anche quando lui dice di stare bene.
+
+48
+00:08:33,960 --> 00:08:47,320
+Nella prossima lezione: un turno di mattina con quattro trappole nella terapia. Potassio, eparina in pompa, morfina, trasfusione: quattro situazioni in cui l'infermiere e' l'ultima barriera prima del danno. A tra poco.
