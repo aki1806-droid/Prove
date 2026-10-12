@@ -11,6 +11,12 @@ h = re.sub(r'<link href="https://fonts.googleapis.com[^>]*>', '<link rel="styles
 assert "googleapis" not in h
 # contrasto: su fondo scuro i numeri delle griglie nel colore del livello (verde o blu) quasi spariscono
 h = h.replace("</style>", "#palco.f-scuro .testo.griglia .cella b{color:#fff}\n</style>", 1)
+# impaginazione centrata: il filo ha un'altezza fissa (720 px) e taglia il testo quando va su due righe;
+# lo metto 40 px sotto l'ultimo elemento del blocco
+h = h.replace("</script>", """document.fonts.ready.then(()=>{const f=P.querySelector('.testo.centrata .filo');if(!f)return;
+ const y=[...P.querySelectorAll('.testo.centrata .blocco > *')].reduce((m,e)=>Math.max(m,e.offsetTop+e.offsetHeight),0);
+ f.style.top=(y+40)+'px'});
+</script>""", 1)
 open(os.path.join(P, "scena.html"), "w").write(h)
 # SVG: inline in una pagina con camera (#cam) e logo piccolo fuori dalla camera
 for f in sorted(os.listdir(os.path.join(corso, mod, "svg"))):

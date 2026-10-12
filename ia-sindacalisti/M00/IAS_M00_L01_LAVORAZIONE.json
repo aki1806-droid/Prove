@@ -44,8 +44,9 @@
   "transizioni": "Taglio; dissolvenza di 8 fotogrammi al cambio di tipo di fondo (chiaro/scuro/immagine); tendina del colore del livello su S028, S033, S054.",
   "fondi_in_fila": "La regola dei tre fondi uguali è applicata ai fondi grafici; le sequenze di immagini e clip non sono contate, perché la correzione prevista (inserire un'immagine o una clip) non ha senso lì.",
   "testi_a_schermo": "Controllati con strumenti/controlla_testi.py: nessuno oltre 6 parole, nessuno identico al parlato.",
-  "correzioni_al_kit": "Nella copia di scena.html usata per il render (build/…/pagine) i numeri delle griglie su fondo scuro sono bianchi: nel colore del livello (verde o blu su verde notte) non si leggevano (S035, S054). Il kit originale non è modificato.",
-  "camera_e_logo": "Gli zoom sugli SVG tengono il titolo fuori campo o lontano dal logo fisso: S014 scorre i giorni della settimana con il titolo fuori campo, S046 zooma sulle schede del kit, S032m ripete l'animazione della mappa intera e chiude con uno zoom leggero (1,06)."
+  "correzioni_al_kit": "Nella copia di scena.html usata per il render (build/…/pagine) i numeri delle griglie su fondo scuro sono bianchi: nel colore del livello (verde o blu su verde notte) non si leggevano (S035, S054). Il kit originale non è modificato. Nell'impaginazione centrata il filo verde (fisso a 720 px) tagliava il testo su due righe (S045 «Una pratica, sul lavoro vero»): ora sta 40 px sotto l'ultimo elemento.",
+  "camera_e_logo": "Gli zoom sugli SVG tengono il titolo fuori campo o lontano dal logo fisso: S014 scorre i giorni della settimana con il titolo fuori campo, S046 zooma sulle schede del kit, S032m ripete l'animazione della mappa intera e chiude con uno zoom leggero (1,06). S029: centro a y 530 invece di 440 (scaletta), perché a 440 la fine del titolo «corso» restava sotto il logo.",
+  "controllo_provini": "Dai provini: corretti S029 (titolo sotto il logo) e S045 (filo sul testo). Il resto è a posto: testi interi, contrasti leggibili dopo la correzione delle griglie scure, nessun volto o logo nelle immagini."
  },
  "problemi": [
   "Higgsfield non ha generato nulla: account in «grace period», limite giornaliero di generazioni raggiunto (563 crediti disponibili ma non spendibili). Immagini e clip fatte con ElevenLabs, come scelto da Achille.",

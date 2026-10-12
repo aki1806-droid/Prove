@@ -1,5 +1,5 @@
 {
- "_nota": "Movimenti di camera sulle animazioni SVG, aggiunti in montaggio. Chiavi: (secondi dall'inizio dell'inquadratura, zoom, centro x, centro y). Senza piano: animazione, poi zoom lento 1,0 -> 1,25 sul 'dettaglio'. Le inquadrature con zoom tengono il titolo dell'animazione fuori campo o lontano dal logo, che resta fisso in alto a sinistra.",
+ "_nota": "Movimenti di camera sulle animazioni SVG, aggiunti in montaggio. Chiavi: (secondi dall'inizio dell'inquadratura, zoom, centro x, centro y). Senza piano: animazione, poi zoom lento 1,0 -> 1,25 sul 'dettaglio'. Le inquadrature con zoom tengono il titolo dell'animazione fuori campo o lontano dal logo, che resta fisso in alto a sinistra. In S029 il centro scende da y 440 (scaletta) a 530: a 440 la fine del titolo «corso» restava sotto il logo.",
  "IAS_M00_L01_A1_mappa-corso.svg": {
   "fondo": "chiaro",
   "dettaglio": [
@@ -19,13 +19,13 @@
      2,
      1.6,
      1310,
-     440
+     530
     ],
     [
      11,
      1.68,
      1330,
-     440
+     530
     ],
     [
      13.5,
