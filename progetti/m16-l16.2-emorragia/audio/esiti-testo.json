@@ -1,0 +1,428 @@
+{
+ "A": {
+  "parole_copione": 665,
+  "parole_dette": 663,
+  "coincidenti": 610,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "emorragia",
+    "detto": "emorraggia"
+   },
+   {
+    "blocco": "s02",
+    "copione": "1 astinenza",
+    "detto": "una stinenza"
+   },
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "1 ascite",
+    "detto": "una scite"
+   },
+   {
+    "blocco": "s05",
+    "copione": "feci nere",
+    "detto": "fecineere"
+   },
+   {
+    "blocco": "s07",
+    "copione": "ematemesi",
+    "detto": "ee matemesi"
+   },
+   {
+    "blocco": "s07",
+    "copione": "dovute",
+    "detto": "dovuta"
+   },
+   {
+    "blocco": "s07",
+    "copione": "ipertensione",
+    "detto": "ipertenzione"
+   },
+   {
+    "blocco": "s08",
+    "copione": "shock emorragico",
+    "detto": "sciocche morragico"
+   },
+   {
+    "blocco": "s08",
+    "copione": "la coagulopatia",
+    "detto": "l acquagulopatia"
+   },
+   {
+    "blocco": "s08",
+    "copione": "il",
+    "detto": "al"
+   },
+   {
+    "blocco": "s09",
+    "copione": "a",
+    "detto": "ha"
+   },
+   {
+    "blocco": "s10",
+    "copione": "sulle",
+    "detto": "su le"
+   },
+   {
+    "blocco": "s11",
+    "copione": "se peggiora",
+    "detto": "seppeggiora"
+   },
+   {
+    "blocco": "s13",
+    "copione": "emocomponenti",
+    "detto": "emo componenti"
+   },
+   {
+    "blocco": "s13",
+    "copione": "digiuno e",
+    "detto": "di giuno ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "farmaci vasoattivi",
+    "detto": "pharmaci vaso attivi"
+   },
+   {
+    "blocco": "s16",
+    "copione": "profilassi",
+    "detto": "profilassia"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "della coagulazione",
+    "detto": "dell acquagulazione"
+   },
+   {
+    "blocco": "s17",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "inr",
+    "detto": "enr"
+   },
+   {
+    "blocco": "s18",
+    "copione": "distingue",
+    "detto": "distingua"
+   },
+   {
+    "blocco": "s18",
+    "copione": "7 8",
+    "detto": "7virgola8"
+   },
+   {
+    "blocco": "s20",
+    "copione": "lezione66",
+    "detto": "6virgola6"
+   },
+   {
+    "blocco": "s20",
+    "copione": "attenzione all",
+    "detto": "attenziona l"
+   },
+   {
+    "blocco": "s20",
+    "copione": "all",
+    "detto": "l"
+   },
+   {
+    "blocco": "s22",
+    "copione": "sonno veglia",
+    "detto": "sonnoveglia"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s22",
+    "copione": "lezione85",
+    "detto": "8virgola5"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "1 astinenza",
+    "detto": "una stinenza"
+   },
+   {
+    "blocco": "s25",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s25",
+    "copione": "entrambe",
+    "detto": "entrambi"
+   },
+   {
+    "blocco": "s26",
+    "copione": "ciwa ar",
+    "detto": "civaar"
+   },
+   {
+    "blocco": "s26",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s26",
+    "copione": "wernicke",
+    "detto": "verniche"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 655,
+  "parole_dette": 653,
+  "coincidenti": 591,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "vasoattiva",
+    "detto": "vasottiva"
+   },
+   {
+    "blocco": "s28",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s29",
+    "copione": "avvisato",
+    "detto": "abvisato"
+   },
+   {
+    "blocco": "s30",
+    "copione": "serd",
+    "detto": "sird"
+   },
+   {
+    "blocco": "s30",
+    "copione": "auto aiuto",
+    "detto": "autoaiuto"
+   },
+   {
+    "blocco": "s31",
+    "copione": "d allarme",
+    "detto": "dall arme"
+   },
+   {
+    "blocco": "s31",
+    "copione": "feci nere",
+    "detto": "fecinere"
+   },
+   {
+    "blocco": "s31",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s32",
+    "copione": "gli",
+    "detto": "i"
+   },
+   {
+    "blocco": "s32",
+    "copione": "trasfondere",
+    "detto": "traspondere"
+   },
+   {
+    "blocco": "s32",
+    "copione": "intramuscolari",
+    "detto": "intra muscolari"
+   },
+   {
+    "blocco": "s33",
+    "copione": "encefalopatia",
+    "detto": "encefolopatia"
+   },
+   {
+    "blocco": "s33",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s35",
+    "copione": "beve",
+    "detto": "bevi"
+   },
+   {
+    "blocco": "s37",
+    "copione": "serd",
+    "detto": "sird"
+   },
+   {
+    "blocco": "s38",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s38",
+    "copione": "treitz",
+    "detto": "traitz"
+   },
+   {
+    "blocco": "s38",
+    "copione": "ematemesi",
+    "detto": "hematemesi"
+   },
+   {
+    "blocco": "s38",
+    "copione": "dal retto",
+    "detto": "d arretto"
+   },
+   {
+    "blocco": "s40",
+    "copione": "produce",
+    "detto": "produci"
+   },
+   {
+    "blocco": "s41",
+    "copione": "terza",
+    "detto": "3"
+   },
+   {
+    "blocco": "s41",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s41",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s41",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s41",
+    "copione": "wernicke",
+    "detto": "vernicche 4"
+   },
+   {
+    "blocco": "s42",
+    "copione": "ematemesi",
+    "detto": "hematemesi"
+   },
+   {
+    "blocco": "s42",
+    "copione": "verosimilmente da varici",
+    "detto": "vero similmente davarici"
+   },
+   {
+    "blocco": "s42",
+    "copione": "shock emorragico",
+    "detto": "sciocche morragico"
+   },
+   {
+    "blocco": "s43",
+    "copione": "proteggo",
+    "detto": "protego"
+   },
+   {
+    "blocco": "s43",
+    "copione": "con prelievi",
+    "detto": "comprelievi"
+   },
+   {
+    "blocco": "s44",
+    "copione": "vasoattivi",
+    "detto": "vaso attivi"
+   },
+   {
+    "blocco": "s44",
+    "copione": "diuresi",
+    "detto": "di uresi"
+   },
+   {
+    "blocco": "s45",
+    "copione": "tiamina",
+    "detto": "thiamina"
+   },
+   {
+    "blocco": "s45",
+    "copione": "informo i",
+    "detto": "in formi"
+   },
+   {
+    "blocco": "s45",
+    "copione": "imposto",
+    "detto": "imposta"
+   },
+   {
+    "blocco": "s46",
+    "copione": "ed encefalopatia",
+    "detto": "edencefalopatia"
+   },
+   {
+    "blocco": "s47",
+    "copione": "serd",
+    "detto": "s e r d"
+   },
+   {
+    "blocco": "s47",
+    "copione": "aeree",
+    "detto": "aere"
+   },
+   {
+    "blocco": "s48",
+    "copione": "aeree",
+    "detto": "aere"
+   },
+   {
+    "blocco": "s49",
+    "copione": "paziente",
+    "detto": "pazienti"
+   },
+   {
+    "blocco": "s49",
+    "copione": "emodialisi",
+    "detto": "nemodialisi"
+   },
+   {
+    "blocco": "s49",
+    "copione": "ecg",
+    "detto": "ee c g"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra poco",
+    "detto": "attrappoco"
+   }
+  ]
+ }
+}

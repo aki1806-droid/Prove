@@ -1,0 +1,293 @@
+{
+ "A": {
+  "parole_copione": 714,
+  "parole_dette": 699,
+  "coincidenti": 664,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "l ictus",
+    "detto": "lictus"
+   },
+   {
+    "blocco": "s02",
+    "copione": "in",
+    "detto": "e"
+   },
+   {
+    "blocco": "s02",
+    "copione": "disfagia",
+    "detto": "disfaggia"
+   },
+   {
+    "blocco": "s02",
+    "copione": "afasica",
+    "detto": "fasica"
+   },
+   {
+    "blocco": "s05",
+    "copione": "oss",
+    "detto": "os"
+   },
+   {
+    "blocco": "s08",
+    "copione": "dice",
+    "detto": "vice"
+   },
+   {
+    "blocco": "s09",
+    "copione": "le",
+    "detto": "alle"
+   },
+   {
+    "blocco": "s10",
+    "copione": "intraospedaliero",
+    "detto": "introspedaliero"
+   },
+   {
+    "blocco": "s10",
+    "copione": "l abcde",
+    "detto": "la bcde"
+   },
+   {
+    "blocco": "s12",
+    "copione": "emocromo",
+    "detto": "emochromo"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ecg",
+    "detto": "ee cg"
+   },
+   {
+    "blocco": "s13",
+    "copione": "nell",
+    "detto": "nel"
+   },
+   {
+    "blocco": "s14",
+    "copione": "centottantacinque",
+    "detto": "185"
+   },
+   {
+    "blocco": "s14",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s14",
+    "copione": "signora",
+    "detto": "signore"
+   },
+   {
+    "blocco": "s15",
+    "copione": "la tc dell",
+    "detto": "l atticide l"
+   },
+   {
+    "blocco": "s15",
+    "copione": "emorragia",
+    "detto": "emorraggia"
+   },
+   {
+    "blocco": "s16",
+    "copione": "16virgola5",
+    "detto": "16 05"
+   },
+   {
+    "blocco": "s16",
+    "copione": "angio tc",
+    "detto": "angiotici"
+   },
+   {
+    "blocco": "s17",
+    "copione": "hub",
+    "detto": "ab"
+   },
+   {
+    "blocco": "s17",
+    "copione": "rete ictus",
+    "detto": "retictus"
+   },
+   {
+    "blocco": "s19",
+    "copione": "emorragia",
+    "detto": "emorraggia"
+   },
+   {
+    "blocco": "s19",
+    "copione": "se",
+    "detto": "si"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ace inibitori",
+    "detto": "acci inhibitori"
+   },
+   {
+    "blocco": "s20",
+    "copione": "niente",
+    "detto": "nienti"
+   },
+   {
+    "blocco": "s22",
+    "copione": "tosse",
+    "detto": "tossi"
+   },
+   {
+    "blocco": "s23",
+    "copione": "inalazione",
+    "detto": "inhalazione"
+   },
+   {
+    "blocco": "s24",
+    "copione": "arto plegico",
+    "detto": "artoplegico"
+   },
+   {
+    "blocco": "s24",
+    "copione": "sublussazione",
+    "detto": "sublustazione"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 656,
+  "parole_dette": 662,
+  "coincidenti": 611,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "1 approfondimento",
+    "detto": "una profondimento"
+   },
+   {
+    "blocco": "s27",
+    "copione": "afasica l afasia",
+    "detto": "a fasica la fasia"
+   },
+   {
+    "blocco": "s30",
+    "copione": "disabilita residua",
+    "detto": "disabilitare sidua"
+   },
+   {
+    "blocco": "s30",
+    "copione": "unita riabilitativa",
+    "detto": "unitare abilitativa"
+   },
+   {
+    "blocco": "s32",
+    "copione": "caregiver",
+    "detto": "cargiver"
+   },
+   {
+    "blocco": "s32",
+    "copione": "lettera",
+    "detto": "lettere"
+   },
+   {
+    "blocco": "s33",
+    "copione": "gli",
+    "detto": "i"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s36",
+    "copione": "d allarme",
+    "detto": "dall arme"
+   },
+   {
+    "blocco": "s37",
+    "copione": "nell",
+    "detto": "nel"
+   },
+   {
+    "blocco": "s37",
+    "copione": "vale",
+    "detto": "va le"
+   },
+   {
+    "blocco": "s38",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s39",
+    "copione": "quell",
+    "detto": "quello"
+   },
+   {
+    "blocco": "s40",
+    "copione": "a",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "asimmetria",
+    "detto": "asimetria"
+   },
+   {
+    "blocco": "s43",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s43",
+    "copione": "gcs",
+    "detto": "g c s"
+   },
+   {
+    "blocco": "s43",
+    "copione": "ecg",
+    "detto": "e c g"
+   },
+   {
+    "blocco": "s44",
+    "copione": "tc e",
+    "detto": "t c ee"
+   },
+   {
+    "blocco": "s45",
+    "copione": "arto plegico",
+    "detto": "artoplegico"
+   },
+   {
+    "blocco": "s45",
+    "copione": "l afasia",
+    "detto": "la fasia"
+   },
+   {
+    "blocco": "s46",
+    "copione": "l abcde",
+    "detto": "la b c d e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "motorie",
+    "detto": "motori"
+   },
+   {
+    "blocco": "s49",
+    "copione": "vie aeree",
+    "detto": "viaere"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}

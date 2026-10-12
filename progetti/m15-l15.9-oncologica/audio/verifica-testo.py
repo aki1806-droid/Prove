@@ -235,12 +235,16 @@ for nome, gruppo in gruppi().items():
     sm = difflib.SequenceMatcher(None, [p for p,_ in atteso], detto, autojunk=False)
     mancanti, sostituzioni = [], []
     for tag, i1, i2, j1, j2 in sm.get_opcodes():
-        if tag == "replace" and (i2-i1) < BUCO:
+        # stesse lettere, parole spezzate o fuse diversamente («a fasica la fasia»,
+        # «attrappoco»): e' una resa diversa del trascrittore, non un buco
+        simile = tag == "replace" and difflib.SequenceMatcher(
+            None, "".join(p for p,_ in atteso[i1:i2]), "".join(detto[j1:j2])).ratio() >= 0.75
+        if tag == "replace" and ((i2-i1) < BUCO or simile):
             sostituzioni.append({
                 "blocco": atteso[i1][1],
                 "copione": " ".join(p for p,_ in atteso[i1:i2]),
                 "detto": " ".join(detto[j1:j2]) or "(nulla)"})
-        if tag in ("delete","replace") and (i2-i1) >= BUCO:
+        if tag in ("delete","replace") and (i2-i1) >= BUCO and not simile:
             mancanti.append({
                 "blocco": atteso[i1][1],
                 "parole_copione": " ".join(p for p,_ in atteso[i1:i2]),
