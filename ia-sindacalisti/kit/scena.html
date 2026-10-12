@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Scena — L'IA per chi fa sindacato</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@400;600&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+<style>
+/*
+  USO: scena.html#{"tipo":"testo","livello":1,"layout":"laterale","fondo":"chiaro","testo":"Tre strumenti, un metodo"}
+  Il JSON nell'hash descrive la scena. Il palco è 1920x1080; le animazioni partono a 0,2 s
+  e si chiudono entro 2,4 s: il renderer registra per tutta la durata del blocco di voce.
+*/
+:root{
+  --verde:#00623A; --rosso:#D70328; --notte:#0B3D2A; --nebbia:#E6F2EC;
+  --caldo:#FAF8F4; --grafite:#2B2F2E;
+  --l1:#00623A; --l2:#1F5C7A; --l3:#E8A33D; --l4:#1D2B53;
+  --acc:var(--l1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#000}
+#palco{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:Inter,system-ui,sans-serif;color:var(--grafite)}
+.f-chiaro{background:var(--nebbia)} .f-neutro{background:var(--caldo)}
+#palco.f-scuro{background:var(--notte);color:#fff} #palco.f-accento{background:var(--acc);color:#fff}
+#palco.f-rosso{background:#5c0715;color:#fff}
+#palco.f-accento.l3{color:var(--grafite)} #palco.f-accento.l3 .filo{background:var(--grafite)}
+/* grana: niente colori piatti */
+#grana{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:multiply}
+.f-scuro #grana,.f-accento #grana,.f-rosso #grana{mix-blend-mode:screen;opacity:.07}
+/* il filo: firma visiva del corso, una linea nel colore del livello che si traccia */
+.filo{position:absolute;height:6px;background:var(--acc);transform-origin:left center;transform:scaleX(0);animation:traccia 1.1s cubic-bezier(.65,0,.25,1) .2s forwards}
+.f-accento .filo{background:#fff}
+@keyframes traccia{to{transform:scaleX(1)}}
+@keyframes sale{from{opacity:0;transform:translateY(36px)}to{opacity:1;transform:none}}
+@keyframes appare{from{opacity:0}to{opacity:1}}
+@keyframes da-sinistra{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:none}}
+.ent{opacity:0;animation:sale .8s cubic-bezier(.2,.8,.2,1) forwards}
+#logo{position:absolute;top:48px;left:64px;width:190px;opacity:0;animation:appare .6s .1s forwards}
+.fantasma{position:absolute;font-family:'Barlow Condensed',sans-serif;font-weight:700;line-height:.8;color:var(--acc);opacity:.09;user-select:none}
+.f-scuro .fantasma,.f-accento .fantasma{color:#fff;opacity:.06}
+h1,.titolo{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02}
+.etichetta{font-family:Montserrat,sans-serif;font-weight:600;font-size:34px;color:var(--acc)}
+.f-scuro .etichetta,.f-accento .etichetta{color:#fff;opacity:.8}
+
+/* COPERTINA */
+.copertina .titolo{position:absolute;left:160px;top:430px;width:1300px;font-size:118px;color:#fff}
+.copertina .etichetta{position:absolute;left:160px;top:350px}
+.copertina .filo{left:160px;top:330px;width:420px}
+.copertina .fantasma{right:-30px;bottom:-60px;font-size:760px}
+
+/* TESTO: quattro impaginazioni */
+.testo .titolo{font-size:112px}
+.testo.centrata .blocco{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 220px}
+.testo.centrata .filo{left:760px;top:720px;width:400px}
+.testo.laterale .blocco{position:absolute;left:160px;top:0;bottom:0;width:1050px;display:flex;flex-direction:column;justify-content:center}
+.testo.laterale .filo{left:160px;top:330px;width:260px}
+.testo.laterale .fantasma{right:40px;top:120px;font-size:880px}
+.testo.pagina{}
+.testo.pagina .blocco{position:absolute;left:120px;right:120px;bottom:150px}
+.testo.pagina .titolo{font-size:168px}
+.testo.pagina .filo{left:120px;bottom:110px;width:1680px}
+.testo.griglia .blocco{position:absolute;inset:180px 160px 120px;display:grid;grid-template-columns:repeat(var(--n,3),1fr);gap:64px;align-content:center}
+.testo.griglia .cella{border-top:6px solid var(--acc);padding-top:36px;opacity:0;animation:sale .7s forwards}
+.testo.griglia .cella b{display:block;font-family:'Barlow Condensed';font-size:200px;color:var(--acc);line-height:1}
+.testo.griglia .cella span{display:block;font-family:Montserrat;font-weight:800;font-size:66px;line-height:1.08;margin-top:18px}
+
+.sotto{font-size:40px;margin-top:34px;opacity:.75;font-weight:400;max-width:900px}
+.numero{font-family:'Barlow Condensed',sans-serif;font-size:300px;line-height:.85;color:var(--acc)}
+
+/* TABELLA: righe che entrano una alla volta, massimo 5 */
+.tabella .blocco{position:absolute;left:140px;right:140px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+.tabella h2{font-family:Montserrat;font-weight:800;font-size:80px;margin-bottom:44px}
+.tabella table{width:100%;border-collapse:collapse;font-size:50px}
+.tabella th{text-align:left;font-family:Montserrat;font-weight:600;font-size:34px;padding:0 24px 18px;color:var(--acc);border-bottom:4px solid var(--acc)}
+.tabella td{padding:38px 24px;border-bottom:2px solid rgba(43,47,46,.15);vertical-align:top}
+.tabella td:first-child{font-family:Montserrat;font-weight:800;width:28%}
+.tabella tr.r{opacity:0;animation:da-sinistra .6s cubic-bezier(.2,.8,.2,1) forwards}
+.tabella tr.evidenza td{background:color-mix(in srgb,var(--acc) 12%,transparent)}
+.f-scuro .tabella td{border-color:rgba(255,255,255,.15)}
+
+/* MEMO: la frase chiave, una per lezione */
+.memo .blocco{position:absolute;left:200px;right:200px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+.memo .titolo{font-size:92px;color:#fff;font-weight:800}
+.memo .sottolineo{height:10px;width:520px;background:var(--rosso);margin-top:56px;transform-origin:left;transform:scaleX(0);animation:traccia 1.2s .9s cubic-bezier(.65,0,.25,1) forwards}
+.memo .etichetta{margin-bottom:40px}
+
+/* ERRORI TIPICI */
+.errori .blocco{position:absolute;left:160px;right:160px;top:220px}
+.errori .etichetta{color:#fff;opacity:.85}
+.errori ol{list-style:none;margin-top:50px}
+.errori li{font-family:Montserrat;font-weight:800;font-size:64px;color:#fff;padding:22px 0 22px 90px;position:relative;opacity:0;animation:sale .6s forwards}
+.errori li::before{content:"";position:absolute;left:0;top:44px;width:52px;height:8px;background:var(--rosso)}
+
+/* CHIUSURA */
+.chiusura .blocco{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff}
+.chiusura img{width:680px;opacity:0;animation:appare 1s .2s forwards}
+.chiusura .titolo{font-size:58px;margin-top:80px}
+.chiusura .etichetta{margin-top:20px;color:#fff;opacity:.7}
+</style>
+</head>
+<body>
+<div id="palco"></div>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="rumore"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</svg>
+<script>
+const LOGO={colori:'logo/cisl-fp-padova-rovigo_colori.svg',scuro:'logo/cisl-fp-padova-rovigo_fondo-scuro.svg',bianco:'logo/cisl-fp-padova-rovigo_bianco.svg'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let d={tipo:'testo',layout:'laterale',fondo:'chiaro',livello:1,testo:'Prova della scena'};
+try{ if(location.hash.length>1) d=Object.assign(d,JSON.parse(decodeURIComponent(location.hash.slice(1)))) }catch(e){console.error(e)}
+const P=document.getElementById('palco');
+P.style.setProperty('--acc',`var(--l${d.livello||1})`);
+const fondoDefault={copertina:'scuro',memo:'scuro',errori:'rosso',chiusura:'scuro'}[d.tipo];
+const fondo=d.fondo&&!fondoDefault?d.fondo:(fondoDefault||d.fondo);
+P.className='f-'+fondo+' l'+(d.livello||1);
+const logoSrc=(fondo==='scuro'||fondo==='rosso')?LOGO.scuro:(fondo==='accento'?LOGO.bianco:LOGO.colori);
+const rit=(i,base=.35,passo=.32)=>`style="animation-delay:${(base+i*passo).toFixed(2)}s"`;
+let h='';
+switch(d.tipo){
+ case 'copertina':
+  h=`<div class="copertina"><div class="fantasma">${esc(d.numero??'')}</div><div class="filo"></div>
+     <div class="etichetta ent" ${rit(0)}>${esc(d.etichetta)}</div>
+     <div class="titolo ent" ${rit(1)}>${esc(d.testo)}</div></div>`;break;
+ case 'testo':{
+  const L=d.layout||'laterale';
+  if(L==='griglia'){
+   const c=d.celle||[];P.style.setProperty('--n',c.length||3);
+   h=`<div class="testo griglia"><div class="blocco">${c.map((x,i)=>`<div class="cella" ${rit(i,.3,.28)}>${x.n?`<b>${esc(x.n)}</b>`:''}<span>${esc(x.t)}</span></div>`).join('')}</div></div>`;
+  }else{
+   h=`<div class="testo ${L}">${L==='laterale'&&d.numero?`<div class="fantasma">${esc(d.numero)}</div>`:''}<div class="filo"></div><div class="blocco">
+     ${d.grande?`<div class="numero ent" ${rit(0)}>${esc(d.grande)}</div>`:''}
+     ${d.etichetta?`<div class="etichetta ent" ${rit(0)}>${esc(d.etichetta)}</div>`:''}
+     <div class="titolo ent" ${rit(1)}>${esc(d.testo)}</div>
+     ${d.sotto?`<div class="sotto ent" ${rit(2)}>${esc(d.sotto)}</div>`:''}</div></div>`;
+  }break;}
+ case 'tabella':{
+  const t=d.tabella||{colonne:[],righe:[]};
+  h=`<div class="tabella"><div class="blocco"><h2 class="ent" ${rit(0,.2)}>${esc(d.testo)}</h2><table><thead><tr>${t.colonne.map(c=>`<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>
+   ${t.righe.slice(0,5).map((r,i)=>`<tr class="r${d.evidenza===i?' evidenza':''}" ${rit(i,.7,.45)}>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`;break;}
+ case 'memo':
+  h=`<div class="memo"><div class="blocco"><div class="etichetta ent" ${rit(0,.2)}>${esc(d.etichetta||'Da ricordare')}</div><div class="titolo ent" ${rit(1,.2)}>${esc(d.testo)}</div><div class="sottolineo"></div></div></div>`;break;
+ case 'errori':
+  h=`<div class="errori"><div class="blocco"><div class="etichetta ent" ${rit(0,.2)}>${esc(d.etichetta||'Errori tipici')}</div><ol>${(d.voci||[]).map((v,i)=>`<li ${rit(i,.6,.5)}>${esc(v)}</li>`).join('')}</ol></div></div>`;break;
+ case 'chiusura':
+  h=`<div class="chiusura"><div class="blocco"><img src="${LOGO.scuro}" alt="CISL FP Padova Rovigo"><div class="titolo ent" ${rit(2)}>${esc(d.testo)}</div><div class="etichetta ent" ${rit(3)}>${esc(d.etichetta||'')}</div></div></div>`;break;
+}
+P.innerHTML=h+`<svg id="grana" width="1920" height="1080"><rect width="100%" height="100%" filter="url(#rumore)"/></svg>`+((d.tipo!=='chiusura'&&d.tipo!=='copertina'&&d.logo!==false)?`<img id="logo" src="${logoSrc}" alt="">`:'')+(d.tipo==='copertina'?`<img id="logo" src="${LOGO.scuro}" style="width:300px" alt="">`:'');
+</script>
+</body>
+</html>
