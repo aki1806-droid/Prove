@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nessuno compra una casa senza chiedere quanto costa. E nessuno firma un mutuo senza guardare il tasso, le spese, le condizioni."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Eppure molti sottoscrivono una forma di previdenza senza leggere le spese. Si fidano, oppure pensano che siano dettagli."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il problema e' che i costi di un fondo pensione non arrivano in un'unica fattura. Si prelevano un po' alla volta, ogni anno, per decenni."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione leggiamo lo scontrino completo di Perseo Sirio, riga per riga. Nella fase di accumulo, e in quella della rendita."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cifre vengono dalla scheda «I costi» della Nota informativa, in vigore dal ventisette marzo 2026. Possono cambiare nel tempo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo gruppo: i costi che ti vengono addebitati direttamente, e che quindi puoi vedere nella tua posizione."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalla buona notizia: l'adesione non costa nulla. Non c'e' nessuna spesa di ingresso, qualunque sia il modo in cui sei entrato nel Fondo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni anno, pero', il Fondo preleva una quota associativa di tredici euro. La preleva dal primo versamento utile dell'anno."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per gli aderenti contrattuali della polizia locale la quota e' di undici euro. Per chi ha trasformato la posizione in RITA, di dieci euro."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci sono casi in cui la quota non si paga. Non la pagano i familiari fiscalmente a carico, iscritti al Fondo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E non la paga chi in un anno non ha fatto versamenti, oppure ha fatto solo versamenti volontari."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tredici euro su trecento di contributo annuo sono una cifra sensibile, all'inizio. Ma diventano trascurabili, man mano che la posizione cresce."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo gruppo: i costi indiretti. Si chiamano cosi' perche' non li vedi addebitati direttamente sulla tua posizione, come la quota associativa."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vengono prelevati dal patrimonio di ogni comparto, ogni trimestre. E sono gia' compresi nei rendimenti netti che il Fondo pubblica."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pagano soprattutto i gestori, che investono i soldi, e il depositario, che li custodisce e controlla le operazioni."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni comparto ha il suo costo, espresso come percentuale del patrimonio, all'anno. Ricordi i tre comparti della lezione sei punto tre? Vediamoli uno per uno."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Garantito costa lo zero virgola quarantasei per cento l'anno. E' il piu' caro dei tre, perche' la garanzia ha un prezzo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Obbligazionario costa lo zero virgola quattordici per cento. L'Azionario lo zero virgola diciannove per cento."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Su questi due comparti si aggiunge una commissione legata ai risultati: il dieci per cento dell'eventuale rendimento oltre l'obiettivo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In pratica il gestore guadagna di piu' solo se fa meglio dell'obiettivo. Se non lo supera, la commissione non si paga."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E a tutti i comparti si aggiunge uno zero virgola zero tre per cento di spese amministrative, per il funzionamento del Fondo."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono numeri piccoli, con lo zero davanti. Ma si applicano ogni anno a tutto il patrimonio accumulato, non solo ai versamenti dell'anno. E il patrimonio, col tempo, cresce."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo gruppo: i costi per le operazioni che puoi chiedere durante gli anni di iscrizione. E qui la risposta e' semplice: zero."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anticipazioni e riscatti: nessuna spesa. Trasferimento per perdita dei requisiti, o trasferimento volontario a un'altra forma: nessuna spesa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cambio di profilo della posizione, o dei soli versamenti futuri: nessuna spesa. E nessuna spesa nemmeno per la RITA."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Nota informativa non prevede spese per nessuna di queste sette operazioni. Ne abbiamo parlato anche nella lezione sei punto sei."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' scontato. In molte altre forme pensionistiche, alcune di queste operazioni hanno un costo fisso, a ogni richiesta."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui, invece, puoi adattare la posizione alla tua vita senza pagare pedaggi. Ogni volta che serve, e senza dover fare conti prima di chiedere."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infine, i costi della fase di erogazione: cioe' quando ricevi la pensione complementare come rendita, ogni mese."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rendita non la paga direttamente il Fondo. La paga una compagnia di assicurazione convenzionata con il Fondo, che trasforma il capitale in un assegno per tutta la vita."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al momento della conversione si applica un caricamento: l'uno virgola dieci per cento sul capitale trasformato in rendita. Si paga una volta sola."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caricamento sale al cinque per cento per la rendita LTC: quella che raddoppia in caso di non autosufficienza."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi, ogni anno, la rendita viene rivalutata. E su quella rivalutazione la compagnia trattiene lo zero virgola novanta per cento."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ne riparleremo con calma nel modulo nove, quando sceglieremo il tipo di rendita. Per ora basta sapere che anche qui ci sono costi."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E che, come gli altri, sono scritti nero su bianco nella Nota informativa. Non sono nascosti: basta sapere dove guardare, e andare a leggerli."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Un costo piccolo, pagato per trent'anni, non e' piu' piccolo. Leggilo tutto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: aderire e' gratis. Ogni anno si pagano tredici euro di quota associativa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: i costi indiretti vanno dallo zero virgola quattordici allo zero virgola quarantasei per cento l'anno, a seconda del comparto."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Piu' lo zero virgola zero tre per cento di spese amministrative, uguale per tutti i comparti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: anticipazioni, riscatti, trasferimenti, cambi di profilo e RITA non costano nulla."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: sul sito del Fondo, apri la scheda «I costi» della Nota informativa."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono tre pagine, e ora sai leggerle. Cerca le righe che abbiamo visto: la quota associativa, i costi dei comparti, le operazioni."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E guarda il comparto del tuo profilo: quanto costa, ogni anno, sul tuo patrimonio?"
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve fare calcoli complicati. Serve sapere che quei numeri esistono, dove trovarli, e che cosa significano per la tua posizione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma come si confrontano i costi di forme diverse, con strutture diverse? Serve un numero unico, che li riassuma tutti."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione vediamo proprio quel numero: l'ISC, l'indicatore sintetico dei costi."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il numero da guardare. Ci vediamo nella lezione sette punto due."
+ }
+]

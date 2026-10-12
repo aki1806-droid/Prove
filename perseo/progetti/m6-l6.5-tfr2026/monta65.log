@@ -12,3 +12,43 @@
   s13  audio   7.08s  scena   7.08s  scarto    0 ms
   s14  audio   7.39s  scena   7.40s  scarto   10 ms
   s15  audio   5.37s  scena   5.36s  scarto   10 ms
+  s16  audio   9.72s  scena   9.72s  scarto    0 ms
+  s17  audio   6.51s  scena   6.52s  scarto   10 ms
+  s18  audio   7.04s  scena   7.04s  scarto    0 ms
+  s19  audio   6.57s  scena   6.56s  scarto   10 ms
+  s20  audio   7.55s  scena   7.56s  scarto   10 ms
+  s21  audio   7.64s  scena   7.64s  scarto    0 ms
+  s22  audio   6.27s  scena   6.28s  scarto   10 ms
+  s23  audio   7.52s  scena   7.52s  scarto    0 ms
+  s24  audio   7.81s  scena   7.80s  scarto   10 ms
+  s25  audio   7.06s  scena   7.08s  scarto   20 ms
+  s26  audio   5.82s  scena   5.82s  scarto    0 ms
+  s27  audio   9.52s  scena   9.52s  scarto    0 ms
+  s28  audio   7.63s  scena   7.63s  scarto    0 ms
+  s29  audio   8.03s  scena   8.03s  scarto    0 ms
+  s30  audio   6.90s  scena   6.91s  scarto   10 ms
+  s31  audio   6.35s  scena   6.36s  scarto   10 ms
+  s32  audio   7.90s  scena   7.91s  scarto   10 ms
+  s33  audio   6.51s  scena   6.52s  scarto   10 ms
+  s34  audio   7.41s  scena   7.40s  scarto   10 ms
+  s35  audio   6.71s  scena   6.71s  scarto    0 ms
+  s36  audio   7.18s  scena   7.19s  scarto   10 ms
+  s37  audio   7.51s  scena   7.52s  scarto   10 ms
+  s38  audio  10.11s  scena  10.12s  scarto   10 ms
+  s39  audio   6.36s  scena   6.36s  scarto    0 ms
+  s40  audio   6.98s  scena   6.98s  scarto    0 ms
+  s41  audio   6.74s  scena   6.75s  scarto   10 ms
+  s42  audio   6.41s  scena   6.40s  scarto   10 ms
+  s43  audio   7.32s  scena   7.32s  scarto    0 ms
+  s44  audio   7.19s  scena   7.19s  scarto    0 ms
+  s45  audio   6.74s  scena   6.75s  scarto   10 ms
+  s46  audio   5.41s  scena   5.40s  scarto   10 ms
+  s47  audio   5.77s  scena   5.76s  scarto   10 ms
+  s48  audio   4.60s  scena   4.60s  scarto    0 ms
+
+49 scene · parlato 349.7 s · con copertina 3 s e chiusura 10 s → 6:02.7
+scarto massimo audio/video: 20 ms su s25
+montato-6.5.mp4  6:02.92  12 MB
+montato-6.5.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 113 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata

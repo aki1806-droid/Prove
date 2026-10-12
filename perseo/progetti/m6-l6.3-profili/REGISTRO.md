@@ -22,7 +22,7 @@ Modulo 6 · Dove vanno i tuoi soldi. Copione allungato a 6 minuti dallo script
 
 ## Grafica
 
-- Grafiche nuove del modulo in `previdenza.mjs` (copiato di lezione in lezione): `equazione` (versamenti + rendimenti − costi = pensione complementare, con «importo promesso in partenza» barrato), `partenze` (tre curve dell'interesse composto che partono a 25, 35 e 45 anni, 100 € al mese al 4%), `barre` (TFR contro linee più azionarie, dati COVIP), `linee` (due andamenti illustrativi su vent'anni, con la lente su un anno negativo), `pac` (40 € al mese su un prezzo che scende e risale: le quote comprate nei mesi bassi), `profili` (i sei profili come barre obbligazioni/azioni, Life Cycle a gradini), `lifecycle` (il percorso per età del Life Cycle, con i gradini a 45, 50, 55, 60 e 61 anni).
+- Grafiche nuove del modulo in `previdenza.mjs` (copiato di lezione in lezione): `equazione` (versamenti + rendimenti − costi = pensione complementare, con «importo promesso in partenza» barrato), `partenze` (tre curve dell'interesse composto che partono a 25, 35 e 45 anni, 100 € al mese al 4%), `barre` (TFR contro linee più azionarie, dati COVIP), `linee` (due andamenti illustrativi su vent'anni, con la lente su un anno negativo), `pac` (40 € al mese su un prezzo che scende e risale: le quote comprate nei mesi bassi), `profili` (i sei profili come barre obbligazioni/azioni, Life Cycle a gradini), `lifecycle` (il percorso per età del Life Cycle, con i gradini a 45, 50, 55, 60 e 61 anni), `switch` (due barattoli, profilo di oggi e nuovo profilo, con il rubinetto dei versamenti: si sposta tutta la posizione, o solo il rubinetto).
 - Qui: `tre` dei tre comparti in s08 e s13–s14, `tabella` dei rendimenti 2025 in s16, `profili` in s18–s25 e s30, `cifre` «100% in azioni» in s29.
 
 ## Che cosa è andato storto e come si è deciso
@@ -36,7 +36,10 @@ Modulo 6 · Dove vanno i tuoi soldi. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `cea8ebcef7f25a8a727be5d4698c71f0` — **completato**, 6:03,6 (363,6 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/cea8ebcef7f25a8a727be5d4698c71f0
+- lotto asset `68151e416ee64e21b511a8e55c538d62` (96 file)
+- copia di controllo locale: `montato-6.3.mp4` 6:05,0 (non versionata) e `montato-6.3.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 

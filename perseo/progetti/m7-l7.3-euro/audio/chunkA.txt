@@ -1,0 +1,45 @@
+[warm] Una goccia al minuto sembra niente. Non la senti, non la vedi quasi cadere, e di certo non ti preoccupa.
+
+Ma lascia la tanica a perdere per un mese intero, e quando torni la trovi mezza vuota. Nessun disastro, nessun rumore: solo gocce, una dopo l'altra.
+
+I costi di un fondo pensione sono gocce. Piccoli, regolari, silenziosi, e proprio per questo facili da ignorare per anni.
+
+Nella lezione precedente li abbiamo misurati in percentuale, con l'ISC. In questa li trasformiamo in euro, su una vita lavorativa.
+
+E lo facciamo usando i dati ufficiali della COVIP, l'autorita' di vigilanza. Come sempre: esempi semplificati, non previsioni.
+
+Partiamo dalle medie del sistema, cioe' da quanto costano in media le diverse forme pensionistiche in Italia. Sono dati pubblici, che chiunque puo' consultare.
+
+Nella relazione annuale pubblicata a giugno 2026, la COVIP riporta l'ISC medio a dieci anni per ogni tipo di forma.
+
+Fondi negoziali, come Perseo Sirio, cioe' i fondi nati dai contratti di lavoro: zero virgola quarantasette per cento.
+
+Fondi aperti, offerti da banche e assicurazioni: uno virgola trentasei per cento. Quasi il triplo.
+
+Piani individuali pensionistici, i PIP, che sono polizze assicurative: due virgola diciassette per cento. Piu' di quattro volte.
+
+Da dove viene questa differenza? Una parte la spiega la COVIP stessa: nei PIP pesa molto il compenso delle reti di vendita.
+
+Nei fondi negoziali, che non hanno scopo di lucro e non hanno venditori a provvigione, quel costo semplicemente non c'e'.
+
+Ora facciamo una simulazione semplice, per vedere che cosa significano questi numeri in euro. Niente formule: solo tre persone e trent'anni.
+
+Tre persone versano la stessa cifra: duemila euro l'anno, ogni anno, per trent'anni. Sessantamila euro in tutto, per ciascuna.
+
+Ottengono lo stesso rendimento lordo ipotetico, il quattro per cento l'anno. Stessi mercati, stessi investimenti, stessa fortuna.
+
+Cambia solo una cosa: il costo annuo. Per ciascuna persona, e' pari a una delle tre medie della COVIP che abbiamo appena visto.
+
+All'inizio le tre curve partono insieme, dallo stesso punto. Per anni sembrano quasi uguali, e la differenza a occhio non si nota.
+
+Poi, piano piano, si separano. E piu' passa il tempo, piu' la distanza cresce: e' l'interesse composto, che lavora anche sui costi.
+
+Ecco i risultati. Con il costo medio dei fondi negoziali, dopo trent'anni ci sono circa centosettemila euro.
+
+Con il costo medio dei fondi aperti, circa novantaduemila euro. Quindicimila in meno.
+
+Con il costo medio dei PIP, circa ottantamila euro. Altri dodicimila in meno.
+
+Ventisettemila euro di differenza, a parita' di soldi versati e di rendimento lordo. Quasi la meta' di quanto ciascuno ha versato di tasca propria.
+
+Non sono stati persi in un crollo di borsa, ne' per una scelta sbagliata. Se ne sono andati, goccia dopo goccia, in costi.

@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Quando compri un frigorifero, guardi l'etichetta energetica. Una lettera, un colore, e capisci subito se consuma tanto o poco."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non devi capire come funziona il compressore. Basta quella lettera per confrontarlo con gli altri frigoriferi del negozio."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i fondi pensione esiste qualcosa di simile. Non e' una lettera, ma un numero. Si chiama ISC: Indicatore sintetico dei costi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un numero solo, calcolato allo stesso modo da tutti i fondi italiani, che permette di confrontarli a colpo d'occhio."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione impariamo a leggerlo, a capire perche' e' cosi' importante, e a sapere dove trovarlo."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come si calcola l'ISC? Con una regola stabilita dalla COVIP, la commissione che vigila sui fondi pensione. Ed e' uguale per tutti."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si immagina un aderente tipo, sempre lo stesso per tutti i fondi. Un aderente un po' teorico, ma utile per fare i confronti."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questo aderente versa duemilacinquecento euro l'anno, con un rendimento ipotetico del quattro per cento. Non e' una previsione: e' solo un'ipotesi comune, per fare i conti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si mettono insieme tutti i costi che sosterrebbe: la quota associativa e i costi sul patrimonio, quelli della lezione precedente."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tutto entra in un imbuto, e ne esce un solo numero: il costo annuo, espresso in percentuale della posizione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il calcolo si fa per quattro durate: due, cinque, dieci e trentacinque anni di permanenza nel fondo. Cosi' si vede come cambia il costo nel tempo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Proprio perche' le ipotesi sono uguali per tutti, l'ISC permette di confrontare fondi diversi in modo equo. Come l'etichetta del frigorifero."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco allora l'ISC dei tre comparti di Perseo Sirio, dalla scheda «I costi» della Nota informativa in vigore dal ventisette marzo 2026."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Guarda la tabella da sinistra a destra, colonna per colonna, e nota una cosa: per tutti e tre i comparti, l'ISC scende man mano che gli anni aumentano."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Garantito passa dallo zero virgola ottantasette per cento su due anni, allo zero virgola cinquantatre' su trentacinque anni."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Obbligazionario passa dallo zero virgola cinquantatre' allo zero virgola venti per cento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'Azionario, infine, passa dallo zero virgola cinquantotto allo zero virgola ventiquattro per cento."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' scende? Perche' la quota associativa e' fissa. Pesa molto quando la posizione e' piccola, e sempre meno quando la posizione cresce."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tredici euro su poche centinaia di euro sono tanti. Tredici euro su decine di migliaia di euro sono quasi niente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E i profili bilanciati? Il loro costo e' una via di mezzo tra quelli dei comparti che li compongono, in proporzione a quanto pesa ciascuno."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per confrontare forme diverse, di solito si guarda l'ISC a dieci anni. Per Perseo Sirio va dallo zero virgola ventisette allo zero virgola sessanta per cento."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma perche' questo numero e' cosi' importante? In fondo, sono tutte percentuali con lo zero davanti. Non lo diciamo noi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo dice la stessa avvertenza che la COVIP impone di scrivere in ogni Nota informativa, di ogni forma pensionistica."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un ISC del due per cento, invece dell'uno per cento, dopo trentacinque anni puo' ridurre il capitale accumulato di circa il diciotto per cento."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per esempio: invece di centomila euro, ottantaduemila euro. Diciottomila euro in meno, solo per un punto di costi."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punto percentuale l'anno sembra niente: un euro ogni cento. Ma e' un punto che si toglie ogni anno, per decenni, su tutta la posizione."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E che si porta via anche i rendimenti che quel denaro avrebbe prodotto, se fosse rimasto nella tua posizione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'interesse composto, ma al contrario: lo stesso meccanismo che fa crescere i risparmi, fa crescere anche il peso dei costi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove si confronta l'ISC? Ci sono due strumenti, ed entrambi sono pubblici e gratuiti. Non serve chiedere a nessuno, ne' iscriversi da qualche parte."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo: sul sito della COVIP c'e' un comparatore dei costi di tutte le forme pensionistiche. Scegli la forma, il comparto, e leggi l'ISC."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: nella scheda costi di ogni Nota informativa, un grafico mostra l'ISC di quel fondo accanto alle medie."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le medie sono tre: quella dei fondi negoziali, come Perseo Sirio, quella dei fondi aperti, e quella dei piani individuali pensionistici, i PIP."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un consiglio pratico: quando qualcuno ti propone una forma pensionistica, chiedi l'ISC a dieci anni."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E confrontalo con quello di Perseo Sirio. E' una domanda a cui chiunque venda un prodotto serio deve saper rispondere."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se la risposta non arriva, o arriva vaga e piena di giri di parole, anche quella e' un'informazione utile."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Qualunque fondo ti propongano, la prima domanda e' una sola: qual e' l'ISC?"
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: l'ISC riassume in un solo numero tutti i costi di un fondo pensione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: e' calcolato con la stessa regola per tutti i fondi, con lo stesso aderente tipo. Quindi serve proprio a confrontare."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: un ISC piu' alto di un punto puo' ridurre il capitale finale di quasi un quinto, in trentacinque anni."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: apri il comparatore dei costi sul sito della COVIP, e cerca Perseo Sirio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Guarda dove si colloca rispetto alle medie dei fondi negoziali, dei fondi aperti e dei piani individuali."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi guarda il comparto del tuo profilo, e il suo ISC a dieci anni. Annotalo accanto alla quota associativa della lezione precedente."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve diventare esperti di finanza. Basta sapere quale numero guardare, dove trovarlo, e con quali altri numeri confrontarlo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le percentuali, pero', da sole dicono poco. Lo zero virgola qualcosa non fa effetto a nessuno, e si dimentica in fretta."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione traduciamo tutto questo in euro. In euro veri, quelli che restano nella tua posizione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vedremo quanto puo' valere una differenza di costo che sembra piccolissima, dopo trent'anni di versamenti."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Lo zero virgola cinque che vale migliaia di euro. Ci vediamo nella lezione sette punto tre."
+ }
+]
