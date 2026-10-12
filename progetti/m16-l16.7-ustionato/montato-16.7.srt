@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:16,370
+Il grande ustionato e' un paziente in cui ogni ora conta, e gli errori sono spesso di calcolo e di tempo. Usiamo la regola del nove e la formula di Parkland, con una trappola sugli orari che cade quasi sempre nei quiz.
+
+2
+00:00:16,370 --> 00:00:27,780
+E vedremo perche' le vie aeree di un ustionato possono chiudersi in poche ore. Ci servono le lezioni tre punto sette, cinque punto tre, otto punto due, dieci punto cinque e dieci punto sette.
+
+3
+00:00:27,780 --> 00:00:39,940
+Lo scenario. Ore diciannove: un incendio in una cucina chiusa, dall'olio in padella. Il signor Matteo ha quarantacinque anni e pesa ottanta chili. Il centodiciotto lo porta in pronto soccorso alle ventuno.
+
+4
+00:00:39,940 --> 00:00:51,750
+Ha gia' ricevuto cinquecento millilitri di cristalloidi. Ha ustioni profonde e a tutto spessore sul torace anteriore, sull'intero arto superiore destro, sul collo e su parte del volto.
+
+5
+00:00:51,750 --> 00:01:03,200
+Peli del naso bruciacchiati, voce rauca, un escreato nerastro. Saturazione novantotto in aria, frequenza centodiciotto, pressione centoventotto su ottanta, dolore nove.
+
+6
+00:01:03,200 --> 00:01:09,110
+Fermati un momento: quale problema puo' ucciderlo nelle prossime ore, nonostante una saturazione perfetta?
+
+7
+00:01:09,110 --> 00:01:20,200
+La priorita' e' la A. Ambiente chiuso, ustioni del volto e del collo, peli nasali bruciati, voce rauca, escreato con fuliggine: sono i segni di un'ustione da inalazione.
+
+8
+00:01:20,200 --> 00:01:28,360
+L'edema delle vie aeree non e' ancora massimo: aumenta nelle ore successive, anche per effetto dei liquidi infusi, e puo' chiudere le vie aeree.
+
+9
+00:01:28,360 --> 00:01:36,630
+Per questo si chiede una valutazione urgente dell'anestesista, che spesso decide un'intubazione precoce, quando e' ancora tecnicamente possibile.
+
+10
+00:01:36,630 --> 00:01:46,170
+Aspettare che il paziente non respiri piu' significa trovarsi davanti a vie aeree impossibili da intubare. Il materiale per le vie aeree difficili deve essere pronto.
+
+11
+00:01:46,170 --> 00:01:54,490
+B: il monossido di carbonio. In un incendio in ambiente chiuso l'intossicazione e' probabile, e la saturazione del novantotto non rassicura.
+
+12
+00:01:54,490 --> 00:02:02,850
+Come hai visto nella lezione otto punto due, il saturimetro non distingue l'emoglobina legata al monossido, e il valore puo' essere falsamente normale.
+
+13
+00:02:02,850 --> 00:02:14,380
+Si esegue un emogas con la carbossiemoglobina, e si da' ossigeno al cento per cento con maschera con reservoir, fino all'esclusione. Con i fumi di materiali sintetici il medico valuta anche il cianuro.
+
+14
+00:02:14,380 --> 00:02:23,540
+L'estensione, con la regola del nove della lezione dieci punto sette. Si contano solo le ustioni di secondo e terzo grado, non gli eritemi superficiali.
+
+15
+00:02:23,540 --> 00:02:38,430
+Torace anteriore: diciotto per cento. Arto superiore destro intero: nove. Collo e parte del volto: circa tre. Totale: circa il trenta per cento. Per le aree irregolari, il palmo della persona, dita comprese: circa uno.
+
+16
+00:02:38,430 --> 00:02:48,250
+I liquidi, con la formula di Parkland. Quattro millilitri, per ottanta chili, per trenta per cento: fa novemilaseicento millilitri nelle prime ventiquattro ore.
+
+17
+00:02:48,250 --> 00:02:59,570
+Meta', cioe' quattromilaottocento, nelle prime otto ore. E qui c'e' la trappola: le otto ore si contano dal momento dell'ustione, cioe' dalle diciannove, non dall'arrivo in pronto soccorso.
+
+18
+00:02:59,570 --> 00:03:09,530
+Quindi i primi quattromilaottocento millilitri vanno infusi entro le tre di notte. L'altra meta' nelle sedici ore successive: circa trecento millilitri all'ora.
+
+19
+00:03:09,530 --> 00:03:18,260
+Il calcolo che cade nei quiz. Alle ventuno sono gia' passate due delle prime otto ore, e il centodiciotto ha gia' infuso cinquecento millilitri.
+
+20
+00:03:18,260 --> 00:03:27,640
+Restano quattromilatrecento millilitri da infondere nelle sei ore che mancano alle tre: circa settecentoquindici millilitri all'ora, secondo prescrizione.
+
+21
+00:03:27,640 --> 00:03:40,170
+L'errore tipico e' far partire le otto ore dall'arrivo: seicento all'ora, e il paziente sarebbe sotto-infuso proprio quando perde piu' liquidi. E la formula e' un punto di partenza, che il medico adegua alla diuresi.
+
+22
+00:03:40,170 --> 00:03:51,840
+Il monitoraggio. Un catetere vescicale con diuresi oraria: l'obiettivo indicativo nell'adulto e' mezzo millilitro per chilo all'ora, cioe' circa quaranta millilitri all'ora per il signor Matteo.
+
+23
+00:03:51,840 --> 00:04:02,460
+Una diuresi troppo bassa indica liquidi insufficienti. Una molto alta, un rischio di sovra-infusione, che peggiora gli edemi e puo' causare una sindrome compartimentale addominale.
+
+24
+00:04:02,460 --> 00:04:12,650
+Si sorvegliano parametri, coscienza e lattati. E urine scure o rosse possono indicare mioglobina, nelle ustioni profonde o elettriche: si segnalano subito.
+
+25
+00:04:12,650 --> 00:04:21,700
+Le ustioni circonferenziali. Un'ustione a tutto spessore che avvolge una parte del corpo forma un'escara rigida, che non si espande quando sotto aumenta l'edema.
+
+26
+00:04:21,700 --> 00:04:34,040
+Al torace limita l'espansione respiratoria; a un arto comprime i vasi, come una sindrome compartimentale. Si sorvegliano polsi, colorito, riempimento capillare, sensibilita' e meccanica respiratoria.
+
+27
+00:04:34,040 --> 00:04:45,600
+Se serve, il medico esegue un'escarotomia, un'incisione che libera la pressione. L'arto si tiene sollevato, e anelli e bracciali si tolgono subito, prima che l'edema li renda impossibili da rimuovere.
+
+28
+00:04:45,600 --> 00:04:57,380
+Dolore, temperatura e ferite. Il dolore si tratta con oppioidi endovena secondo prescrizione, titolati e rivalutati. Non per via intramuscolare: nell'ustionato l'assorbimento e' imprevedibile.
+
+29
+00:04:57,380 --> 00:05:08,960
+La temperatura. L'acqua serve nei primi venti minuti dopo l'ustione; due ore dopo la priorita' e' l'opposto: prevenire l'ipotermia, con coperte, ambiente caldo e liquidi riscaldati.
+
+30
+00:05:08,960 --> 00:05:20,720
+Le ferite si coprono con materiale pulito o sterile secondo protocollo, senza creme o rimedi casalinghi. Si verifica la profilassi antitetanica. E si centralizza a un centro grandi ustionati.
+
+31
+00:05:20,720 --> 00:05:31,680
+Quando si invia un paziente al centro ustioni? Per ustioni di secondo e terzo grado estese, nell'adulto indicativamente oltre il venti per cento. Per quelle a tutto spessore significative.
+
+32
+00:05:31,680 --> 00:05:43,380
+Per le ustioni di volto, mani, piedi, genitali, perineo e grandi articolazioni, per le conseguenze funzionali ed estetiche. Per quelle da inalazione e per quelle circonferenziali.
+
+33
+00:05:43,380 --> 00:05:56,050
+Per le elettriche, che nascondono danni interni e danno aritmie, e le chimiche, che chiedono un'irrigazione prolungata con acqua. Per bambini, anziani, comorbidita', traumi. Il signor Matteo soddisfa piu' criteri.
+
+34
+00:05:56,050 --> 00:06:06,030
+Gli errori. Fidarsi della saturazione in un incendio in ambiente chiuso. Rinviare la valutazione delle vie aeree. Calcolare le otto ore dall'arrivo, e non dall'ustione.
+
+35
+00:06:06,030 --> 00:06:16,850
+Contare anche le ustioni superficiali. Non sottrarre i liquidi gia' infusi. Raffreddare a lungo un grande ustionato. L'analgesia intramuscolare. Lasciare anelli e bracciali.
+
+36
+00:06:16,850 --> 00:06:27,660
+Le domande d'orale. Prima: come si calcolano i liquidi? Con Parkland: quattro millilitri per chilo per percentuale di superficie ustionata di secondo e terzo grado, nelle ventiquattro ore.
+
+37
+00:06:27,660 --> 00:06:38,460
+Meta' nelle prime otto ore dal momento dell'ustione, meta' nelle sedici successive; poi si adegua alla diuresi. Seconda: quali segni fanno sospettare un'ustione da inalazione?
+
+38
+00:06:38,460 --> 00:06:49,840
+Ambiente chiuso, ustioni di volto e collo, peli nasali bruciati, voce rauca, stridore, escreato con fuliggine, dispnea. Terza: perche' la saturimetria non e' affidabile?
+
+39
+00:06:49,840 --> 00:07:00,070
+Perche' il saturimetro non distingue l'emoglobina legata all'ossigeno da quella legata al monossido, e mostra valori falsamente normali: serve l'emogas con la carbossiemoglobina.
+
+40
+00:07:00,070 --> 00:07:12,920
+La risposta modello. Paziente di ottanta chili, ustioni profonde su circa il trenta per cento della superficie, alle diciannove in ambiente chiuso, con segni di inalazione. Priorita': vie aeree, monossido, liquidi.
+
+41
+00:07:12,920 --> 00:07:25,290
+Richiedo subito l'anestesista per un'intubazione precoce; somministro ossigeno al cento per cento e collaboro all'emogas con carbossiemoglobina. Posiziono due accessi e infondo i cristalloidi secondo Parkland.
+
+42
+00:07:25,290 --> 00:07:37,150
+Novemilaseicento millilitri in ventiquattro ore, quattromilaottocento entro le tre dall'ustione, al netto dei cinquecento gia' infusi, poi circa trecento all'ora, adeguandoli alla diuresi oraria.
+
+43
+00:07:37,150 --> 00:07:49,280
+Rimuovo gli anelli e sorveglio le ustioni circonferenziali. Analgesia endovena, prevengo l'ipotermia, copro le ferite, verifico l'antitetanica. Preparo la centralizzazione al centro grandi ustionati.
+
+44
+00:07:49,280 --> 00:08:03,480
+I collegamenti. Dolore, tre punto sette. Calcoli, cinque punto tre. Monossido e saturimetro, otto punto due. Vie aeree, dieci punto cinque. Ustioni, dieci punto sette. Sindrome compartimentale, nove punto sei.
+
+45
+00:08:03,480 --> 00:08:15,820
+Uno sguardo ai giorni successivi, nel centro ustioni. La barriera cutanea e' perduta: il rischio infettivo e' altissimo, e le medicazioni chiedono asepsi rigorosa. Il fabbisogno nutrizionale cresce enormemente.
+
+46
+00:08:15,820 --> 00:08:29,410
+Per l'ipermetabolismo la nutrizione e' precoce, spesso enterale. L'analgesia prima delle medicazioni. Mobilizzazione e posizionamento contro le retrazioni. E il supporto psicologico, per l'immagine corporea e il trauma.
+
+47
+00:08:29,410 --> 00:08:36,670
+La frase del caso: nell'ustionato l'orologio parte dalle fiamme, non dalla porta del pronto soccorso.
+
+48
+00:08:36,670 --> 00:08:48,610
+Nella prossima lezione: una ragazza di diciannove anni arriva in pronto soccorso con una chetoacidosi, e scopre cosi' di avere il diabete. L'emergenza metabolica, e una notizia che cambia la vita. A tra poco.
