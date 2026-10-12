@@ -24,7 +24,7 @@ BLOCCHI = [
 
  (6,"chiaro",0,"Il port e l'antibiotico. Si accede al port con tecnica asettica: ago di Huber non carotante, verifica del reflusso, lavaggio pulsato, come nella lezione sei punto due."),
  (6,"chiaro",0,"Si ispezionano la tasca sottocutanea e il tragitto: rossore, dolore o secrezione fanno pensare a un'infezione del catetere, e vanno segnalati."),
- (6,"chiaro",0,"Poi l'antibiotico ad ampio spettro secondo prescrizione, entro sessanta minuti dall'arrivo. Qui la prima dose va alle venti e quarantotto, e l'orario si documenta: e' l'indicatore di qualita' del percorso."),
+ (6,"chiaro",0,"Poi l'antibiotico ad ampio spettro secondo prescrizione, entro sessanta minuti dall'arrivo. Nel nostro caso la prima dose arriva alle venti e quarantotto, e l'orario si documenta: e' l'indicatore di qualita' del percorso."),
 
  (7,"chiaro",0,"Le misure nel paziente neutropenico, della lezione otto punto sette. Igiene delle mani. Stanza singola secondo protocollo. Niente visitatori con sintomi di infezione."),
  (7,"chiaro",0,"Niente manovre rettali: niente temperatura rettale, supposte o clisteri. Igiene orale e cutanea. Niente fiori e piante. Alimenti sicuri. E meno procedure invasive: ogni ago e' una porta d'ingresso."),
@@ -50,7 +50,7 @@ BLOCCHI = [
  (13,"chiaro",0,"Temperature rettali e supposte. Intramuscolari con le piastrine basse. E trascurare la paura, e i figli."),
 
  (14,"chiaro",0,"Un approfondimento sul port-a-cath nel tempo. Si accede con l'ago di Huber, non carotante, con tecnica asettica. Prima dell'uso si verifica il reflusso."),
- (14,"chiaro",0,"Lavaggio pulsato con fisiologica, con siringhe da almeno dieci millilitri per non generare pressioni eccessive: prima e dopo ogni uso, e fra farmaci incompatibili. Da fermo, lavaggi secondo protocollo."),
+ (14,"chiaro",0,"Lavaggio pulsato con fisiologica, con siringhe da almeno dieci millilitri per non generare pressioni eccessive: prima e dopo ogni uso, e fra farmaci incompatibili. Se non e' in uso, lavaggi periodici secondo protocollo."),
  (14,"chiaro",0,"I segni da segnalare. Dolore o gonfiore durante l'infusione fanno pensare a uno stravaso, pericolosissimo con gli antiblastici. L'assenza di reflusso, o una resistenza, a un'occlusione."),
  (14,"chiaro",0,"Arrossamento o secrezione, a un'infezione. E un edema del braccio o del collo puo' indicare una trombosi."),
 
