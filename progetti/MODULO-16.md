@@ -6,3 +6,4 @@
 | 16.2 | Emorragia digestiva nel paziente cirrotico | 8:56.1 | `eb070a7535b2ba30374abc3357125fb2` |
 | 16.3 | Il paziente dializzato con iperkaliemia | 9:01.2 | `a7ae046c353b550061da14ff0682085a` |
 | 16.4 | L'embolia polmonare in Medicina | 9:06.1 | `52ef12e20d88aecefdd3b66c8481b8d4` |
+| 16.7 | Il grande ustionato | 8:57.7 | `0ca0a0f6996b0f140b9e50b81fb7aebd` |
