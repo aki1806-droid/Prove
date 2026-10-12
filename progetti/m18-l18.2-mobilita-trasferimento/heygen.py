@@ -17,7 +17,7 @@ Si caricano le scene intere (scene/*.mp4: ingresso piu' fermo immagine, durata
 piena), non le clip da 1,8 s: la durata della scena consegnata e' quella del
 filmato, e ARROTONDA_SCENA e' misurato su questo.
 Tutto cio' che scrive sta in _montaggio/, che il repo ignora."""
-import json, subprocess, sys
+import json, time, subprocess, sys
 from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
@@ -72,9 +72,14 @@ def cmd_invia():
         if atteso != tipo:
             raise SystemExit(f"{nome}: alla posizione {i} il lotto aspetta {atteso}, non {tipo}")
         testa = [x for k, v in it["upload_headers"].items() for x in ("-H", f"{k}: {v}")]
-        p = subprocess.run(["curl", "-sS", "--max-time", "300", "-o", "/dev/null",
-                            "-w", "%{http_code}", "-X", "PUT", "--upload-file", strada,
-                            *testa, it["upload_url"]], capture_output=True, text=True)
+        # Un 503 dello storage e' transitorio: su 96 file ne sono caduti due
+        # (18.2). Si riprova fino a tre volte, aspettando 2, 4, 8 secondi.
+        for attesa in (0, 2, 4, 8):
+            time.sleep(attesa)
+            p = subprocess.run(["curl", "-sS", "--max-time", "300", "-o", "/dev/null",
+                                "-w", "%{http_code}", "-X", "PUT", "--upload-file", strada,
+                                *testa, it["upload_url"]], capture_output=True, text=True)
+            if p.stdout.strip() == "200": break
         if p.stdout.strip() != "200":
             errori.append((nome, p.stdout.strip(), p.stderr[-200:])); print(f"\n  {nome} KO")
         else:
