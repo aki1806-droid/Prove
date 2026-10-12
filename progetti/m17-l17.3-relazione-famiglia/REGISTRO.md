@@ -106,8 +106,13 @@ da sentire: un decimo di secondo di consonante che passa nella scena dopo.
 | | |
 |---|---|
 | montato locale | `montato-17.3.mp4` — **7:51.80** |
-| montato HeyGen | _(in render)_ |
+| montato HeyGen | `c841ac838056d4449553290f8174e7c4` — **7:50.53** |
+| render | 162 s |
 | asset caricati | 94 in un lotto solo |
+
+Perdita in consegna 1,27 s su 48 scene, 26 ms a scena. Scaricato e
+controllato: 7:50.52, audio presente (media −26 dB); al minuto 3:00 c'e' s19,
+il non verbale, come nel montato locale.
 
 ## Costo misurato
 
