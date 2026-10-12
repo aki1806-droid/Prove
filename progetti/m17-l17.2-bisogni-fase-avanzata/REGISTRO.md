@@ -117,8 +117,13 @@ prende un errore vero; sulla 17.1 aveva solo confermato.
 | | |
 |---|---|
 | montato locale | `montato-17.2.mp4` — **7:51.72** |
-| montato HeyGen | _(in render)_ |
+| montato HeyGen | `88a5311482e340bcd126ffaa9b2e2aa4` — **7:50.48** |
+| render | 82 s |
 | asset caricati | 94 in un lotto solo |
+
+Perdita in consegna 1,24 s su 48 scene, 26 ms a scena: dentro la banda.
+Scaricato e controllato: 7:50.48, 1920×1080, audio presente (media −26 dB);
+al minuto 4:00 c'e' s25, il calo dell'appetito, come nel montato locale.
 
 ## Costo misurato
 
