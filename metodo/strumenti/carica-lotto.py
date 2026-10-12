@@ -53,7 +53,13 @@ elif cmd == "carica":
         ok += code == "200"
         if code != "200": print("FALLITO", n, code)
         v["_locale"] = [k, i]
-    (D/"_lotto-id.json").write_text(json.dumps([[f[0], f[1], v.get("asset_id")] for f, v in zip(files, voci)]), encoding="utf-8")
+    ids = [[f[0], f[1], v.get("asset_id")] for f, v in zip(files, voci)]
+    (D/"_lotto-id.json").write_text(json.dumps(ids), encoding="utf-8")
+    if not (D/"asset-id.json").exists() and all(a for _, _, a in ids):   # lezione nuova: lotto completo
+        for nome, kind in (("asset-id.json", "clip"), ("asset-id-audio.json", "audio")):
+            j = {"batch": d.get("batch_id"), "asset": {i: a for k, i, a in ids if k == kind}}
+            (D/nome).write_text(json.dumps(j, indent=1), encoding="utf-8")
+        print("scritti asset-id.json e asset-id-audio.json (lezione nuova)")
     print(f"caricati {ok} su {len(files)} · batch_id {d.get('batch_id')}")
 
 elif cmd == "registra":

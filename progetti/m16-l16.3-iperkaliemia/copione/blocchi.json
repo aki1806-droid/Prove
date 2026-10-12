@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il potassio e' l'elettrolita che uccide piu' in silenzio: un'iperkaliemia grave puo' dare pochi sintomi e poi, all'improvviso, un'aritmia mortale."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui un paziente in emodialisi salta una seduta e arriva in pronto soccorso con un potassio pericoloso. Vedremo come si legge l'ECG, perche' i farmaci d'urgenza agiscono in modi diversi, e come si protegge la fistola."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci servono le lezioni tre punto cinque, sei punto uno, otto punto quattro, quattordici punto quattro e quattordici punto sette."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Il signor Sergio ha sessantotto anni ed e' in emodialisi il lunedi', il mercoledi' e il venerdi', con una fistola al braccio sinistro. E' quasi anurico. Venerdi' non si e' presentato alla seduta."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lunedi' alle otto arriva in pronto soccorso: una forte astenia, le gambe molli, formicolii, nausea, dispnea. Frequenza quarantasei, pressione centocinquanta su novanta."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Frequenza respiratoria ventisei, saturazione novantadue, edemi declivi, crepitii alle basi. E pesa tre chili e mezzo piu' del suo peso secco. Fermati: quali due problemi vedi, e quale e' piu' pericoloso adesso?"
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento. Un paziente quasi anurico che salta una seduta accumula tutto cio' che il rene non elimina: potassio, liquidi, scorie, acidi."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La debolezza muscolare, le parestesie e la bradicardia fanno sospettare un'iperkaliemia grave. Gli edemi, i crepitii, la dispnea e il peso aumentato indicano un sovraccarico di liquidi."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Il problema piu' pericoloso nell'immediato e' l'iperkaliemia, perche' puo' causare aritmie e arresto cardiaco senza preavviso."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. Monitor continuo, con il defibrillatore pronto. Avvisi subito il medico. ECG a dodici derivazioni. Accesso venoso e prelievi sul braccio destro: mai su quello con la fistola, l'accesso vitale del paziente."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il potassio si puo' avere in pochi minuti con l'emogas, senza aspettare il laboratorio. Semiseduto, ossigeno secondo protocollo, i farmaci d'urgenza pronti. E avvisi la dialisi, che sara' il trattamento definitivo."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emogas conferma un potassio di sette virgola quattro, su un campione non emolizzato. E l'ECG dell'iperkaliemia cambia in modo progressivo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima onde T alte e appuntite. Poi un PR allungato, con l'onda P che si appiattisce. Poi un QRS che si allarga, fino alla bradicardia estrema, ai ritmi a QRS largo, all'arresto in fibrillazione ventricolare o asistolia."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il signor Sergio ha onde T appuntite, PR lungo e un QRS che inizia ad allargarsi: e' un'emergenza. E un avvertimento: un ECG normale non esclude un'iperkaliemia grave."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I farmaci d'urgenza, sempre secondo prescrizione, con tre meccanismi diversi da saper spiegare. Uno: stabilizzare il cuore. Il calcio endovena protegge il miocardio dalle aritmie in pochi minuti."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma non abbassa il potassio. E' una protezione temporanea, e richiede cautela nei pazienti in digossina."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: spostare il potassio dentro le cellule. L'insulina rapida con il glucosio, il salbutamolo per aerosol, e il bicarbonato se c'e' acidosi. Anche questo e' temporaneo: il potassio resta nel corpo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: eliminarlo. Con l'emodialisi urgente, che e' il trattamento definitivo, e con le resine o i leganti del potassio. E' l'unico dei tre che lo porta fuori dal corpo."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sorveglianza durante la terapia. ECG continuo, e il potassio ripetuto secondo prescrizione. La glicemia dopo l'insulina e il glucosio: l'ipoglicemia puo' comparire anche ore dopo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il rischio e' maggiore nel nefropatico, che elimina l'insulina piu' lentamente: il caso quindici punto otto. Poi velocita' e sede del calcio, perche' lo stravaso danneggia i tessuti. E il salbutamolo: tachicardia, tremori."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il sovraccarico di liquidi. Posizione semiseduta e ossigeno con un target. Nel paziente anurico i diuretici sono poco o per nulla efficaci: i liquidi in eccesso si rimuovono con la dialisi, con l'ultrafiltrazione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel frattempo restrizione dei liquidi, bilancio e peso, e i segni di edema polmonare. Ricordi il caso quindici punto sei? Li' la furosemide funzionava; qui il rene non risponde, e la soluzione e' un'altra."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La fistola, ancora una volta. Si controllano fremito e soffio. Sul braccio della fistola niente pressione, prelievi, cannule o lacci, e lo si segnala al letto."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la dialisi, il sanguinamento dai punti di puntura, l'ipotensione, il peso rispetto al peso secco. E con un catetere per dialisi, la regola della lezione otto punto quattro: il lock si aspira, non si spinge mai."
+ },
+ {
+  "id": "s26",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] E poi la domanda che cambia il caso: perche' ha saltato la seduta? Si chiede senza giudicare: che cosa le ha impedito di venire venerdi'?"
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le cause possono essere molto diverse: un problema di trasporto, la stanchezza, una depressione, difficolta' familiari o economiche, oppure la volonta' di sospendere il trattamento."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta orienta l'intervento: un servizio di trasporto, un supporto psicologico, l'assistente sociale, oppure un colloquio sulle scelte di cura."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il diritto di rifiutare la dialisi esiste, come prevede la legge duecentodiciannove. Ma deve essere una scelta informata e accompagnata, non il risultato di un problema pratico irrisolto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento pratico: il potassio nel piatto. Ne sono ricchi molti frutti, come banane, kiwi, agrumi, frutta secca; molte verdure, come patate, pomodori, legumi, verdure a foglia; il cioccolato, i succhi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per ridurlo si tagliano le verdure, si lasciano in ammollo, poi si bollono in abbondante acqua da eliminare. E un'attenzione che pochi conoscono: i sostituti del sale iposodici contengono spesso cloruro di potassio."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per un dializzato possono essere pericolosi. Anche alcuni farmaci aumentano il potassio: ACE-inibitori, sartani, diuretici risparmiatori di potassio, FANS. E il piano alimentare si costruisce con il dietista."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione. Non saltare le sedute, e in caso di impedimento contattare subito il centro dialisi, che puo' spostarle. La dieta, con attenzione a potassio, fosforo e sale."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I liquidi, con il limite indicato e il controllo del peso fra una seduta e l'altra. I segni d'allarme per cui chiamare subito: debolezza, formicolii, palpitazioni, dispnea, aumento rapido di peso."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La cura della fistola. E nessun farmaco da banco senza consiglio, in particolare i FANS."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Pungere o misurare la pressione sul braccio della fistola. Aspettare il laboratorio senza il monitor. Pensare che il calcio abbassi il potassio."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dimenticare la glicemia dopo insulina e glucosio. Contare sui diuretici in un paziente anurico. E non chiedere perche' ha saltato la seduta."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: le alterazioni ECG dell'iperkaliemia? Onde T alte e appuntite, poi PR allungato e onda P appiattita, poi QRS che si allarga, fino alla bradicardia e all'arresto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda: come agiscono i farmaci? Il calcio stabilizza la membrana del miocardio senza abbassare il potassio. Insulina con glucosio e salbutamolo spostano il potassio nelle cellule. La dialisi lo elimina."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: che cosa non si fa sul braccio con la fistola? Non si misura la pressione, niente prelievi, cannule, lacci, indumenti stretti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non si sollevano pesi, e non ci si dorme sopra: e' l'elenco della lezione otto punto quattro. E ogni giorno si controllano fremito e soffio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente in emodialisi che ha saltato una seduta, con astenia, parestesie, bradicardia, dispnea, edemi e aumento di peso: sospetta iperkaliemia grave e sovraccarico. Priorita': prevenire le aritmie."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Avvio il monitoraggio con il defibrillatore pronto, avviso subito il medico ed eseguo l'ECG. Posiziono l'accesso sul braccio senza fistola, e ottengo il potassio rapido con l'emogas."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Somministro secondo prescrizione calcio endovena, insulina con glucosio e salbutamolo, sorvegliando ECG, potassio e glicemia. E avviso la dialisi per il trattamento urgente."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gestisco il sovraccarico: semiseduto, ossigeno, restrizione idrica. Proteggo la fistola. Indago senza giudizio il motivo della seduta saltata. Educo su sedute, dieta povera di potassio, liquidi e segni d'allarme."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Potassio ed emolisi con la tre punto cinque. Il patrimonio venoso con la sei punto uno. Dialisi e fistola con la otto punto quattro. Il rene con la quattordici punto quattro."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I valori di laboratorio con la quattordici punto sette. Le alterazioni dell'ECG con la tre punto cinque. E la legge duecentodiciannove, sul consenso e sul rifiuto delle cure, con la uno punto sei."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: il calcio protegge il cuore, ma il potassio resta. Solo la dialisi lo porta via."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: una paziente in medicina che, al primo tentativo di alzarsi, diventa improvvisamente dispnoica. Una trombosi che nessuno aveva cercato, e una profilassi che nessuno aveva prescritto. A tra poco."
+ }
+]

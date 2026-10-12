@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Entriamo in terapia intensiva, dove l'infermiere gestisce insieme tecnologie complesse e una persona che non puo' parlare. Non un'unica emergenza, ma una giornata intera, e un allarme improvviso."),
+ (1,"chiaro",0,"Poi la prevenzione della polmonite associata alla ventilazione, la sedazione, il dolore, il delirium, una famiglia in attesa. Lezioni tre punto uno, sei punto due, sette punto due, dieci punto cinque e undici punto uno."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Renato, sessantasei anni, e' in terapia intensiva da quattro giorni per un'insufficienza respiratoria grave da polmonite."),
+ (2,"chiaro",0,"E' intubato e ventilato in modalita' controllata, con sedazione e analgesia in infusione continua. Ha un catetere venoso centrale, un catetere arterioso, un sondino con nutrizione enterale e un catetere vescicale."),
+ (2,"chiaro",0,"Alle dieci suona l'allarme di alta pressione: la saturazione scende da novantacinque a ottantacinque, il paziente si agita e morde il tubo. Fermati: con quale acronimo affronti la situazione?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"L'acronimo e' DOPE, della lezione dieci punto cinque. D, dislocazione: i centimetri del tubo all'arcata dentaria sono quelli annotati? O, ostruzione: il tubo e' morso, ci sono secrezioni, e' piegato?"),
+ (3,"chiaro",0,"P, pneumotorace: il torace si espande in modo asimmetrico, il murmure manca da un lato? E, equipaggiamento: ventilatore, circuito, ossigeno. Nel dubbio si stacca il paziente e lo si ventila con il pallone."),
+ (3,"chiaro",0,"Qui il tubo e' morso e ci sono secrezioni: si inserisce un blocco-morso, si aspira, si valuta con il medico la sedazione. La saturazione risale a novantacinque. In meno di due minuti, con un metodo."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"La prevenzione della polmonite associata alla ventilazione, con il bundle della lezione tre punto uno, secondo protocollo. La testata a trenta-quarantacinque gradi, sempre. L'igiene del cavo orale regolare."),
+ (4,"chiaro",0,"La pressione della cuffia fra venti e trenta centimetri d'acqua, controllata con il manometro. L'aspirazione sottoglottica, se il tubo ha il canale dedicato. L'igiene delle mani, e l'aspirazione asettica."),
+ (4,"chiaro",0,"La riduzione quotidiana della sedazione, con la valutazione dello svezzamento: ogni giorno di ventilazione in meno e' un rischio in meno. Il circuito non si cambia di routine, solo se sporco o danneggiato."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Il dolore in chi non puo' parlare. Il paziente intubato non puo' usare la scala numerica: si usano scale comportamentali validate, come la BPS, la Behavioral Pain Scale, o la CPOT."),
+ (5,"chiaro",0,"Osservano l'espressione del volto, i movimenti delle braccia, la tensione muscolare e l'adattamento al ventilatore. Il principio: prima l'analgesia, poi la sedazione, perche' un paziente agitato spesso ha dolore."),
+ (5,"chiaro",0,"E il dolore si valuta e si previene prima delle procedure dolorose: aspirazione, mobilizzazione, medicazioni."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La sedazione si valuta con la scala RASS: da piu' quattro, il paziente combattivo, a meno cinque, il paziente non risvegliabile. Lo zero e' una persona sveglia e calma."),
+ (6,"chiaro",0,"L'obiettivo e' prescritto, e oggi, quando possibile, si punta a una sedazione leggera: un paziente calmo e risvegliabile."),
+ (6,"chiaro",0,"Una sedazione eccessiva prolunga la ventilazione e favorisce delirium e debolezza; una insufficiente porta agitazione e rischio di estubazione accidentale. Si rivaluta spesso, e si documenta."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"[thoughtful] Quinta giornata. Con una sedazione piu' leggera, il signor Renato e' agitato, tira i dispositivi e non segue le richieste in modo coerente. Si valuta con la CAM-ICU, la CAM adattata all'intubato."),
+ (7,"chiaro",0,"E' positiva: e' un delirium. Si cercano le cause: dolore, ipossia, infezione, farmaci come le benzodiazepine, astinenza, ritenzione urinaria, privazione di sonno."),
+ (7,"chiaro",0,"Gli interventi della undici punto uno, adattati: orientamento, occhiali e apparecchi acustici, ciclo giorno-notte con luci e rumori ridotti di notte, familiari, mobilizzazione. E la protezione dei dispositivi."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Un approfondimento: il bundle ABCDEF, una strategia diffusa nelle terapie intensive per ridurre i giorni di ventilazione e le conseguenze a lungo termine. Molti dei suoi elementi sono infermieristici."),
+ (8,"chiaro",0,"A: valutare, prevenire e trattare il dolore. B: prove quotidiane di risveglio e di respiro spontaneo. C: la scelta ragionata di analgesia e sedazione."),
+ (8,"chiaro",0,"D: valutazione, prevenzione e gestione del delirium. E: mobilizzazione precoce, anche nel ventilato, quando e' sicura. F: il coinvolgimento della famiglia. E' il bundle che lega insieme tutto il caso."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Cute, occhi e dispositivi. Le lesioni da dispositivo, frequentissime in terapia intensiva: labbra e angoli della bocca per il tubo e il fissaggio, narici per il sondino, orecchie, la cute sotto i sensori."),
+ (9,"chiaro",0,"Le lesioni da pressione a sacro, talloni e occipite; e se il paziente viene messo prono, al volto, al torace e alle ginocchia. Gli occhi, che nel paziente sedato non si chiudono bene: si protegge la cornea."),
+ (9,"chiaro",0,"Il bundle per il catetere venoso centrale, della lezione sei punto due. E il catetere vescicale, di cui si rivaluta la necessita' ogni giorno."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"[serious] E se il tubo esce, per un'estubazione accidentale o perche' il paziente se lo toglie? Si chiama subito aiuto, e si valuta il respiro."),
+ (10,"chiaro",0,"Se e' efficace, ossigeno con maschera e monitoraggio. Se e' inefficace, si ventila con pallone e maschera, come nella lezione dieci punto cinque. E si prepara la reintubazione, con l'aspiratore pronto."),
+ (10,"chiaro",0,"Poi si documenta e si segnala. La prevenzione: un fissaggio sicuro, sedazione e analgesia adeguate, sorveglianza, e attenzione nei movimenti e nelle mobilizzazioni."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La famiglia. La moglie del signor Renato attende fuori dalla porta. Ha bisogno di accoglienza e di informazioni chiare: quelle cliniche dal medico, quelle assistenziali dall'infermiere."),
+ (11,"chiaro",0,"Molte terapie intensive hanno orari di visita il piu' possibile aperti. Prima del primo ingresso si spiegano i dispositivi e gli allarmi, che spaventano."),
+ (11,"chiaro",0,"Si coinvolge la moglie nella cura: parlare al marito, toccarlo, portare oggetti personali; la sua voce aiuta anche nel delirium. E in alcune realta' c'e' un diario di terapia intensiva."),
+ (11,"chiaro",0,"Lo scrivono operatori e familiari, e aiuta il paziente a ricostruire, dopo, i giorni che non ricorda."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Dopo la terapia intensiva, molti pazienti sviluppano una sindrome post-terapia intensiva: debolezza muscolare, deficit cognitivi, ansia, depressione, a volte un disturbo post-traumatico. Anche nei familiari."),
+ (12,"chiaro",0,"La prevenzione comincia in terapia intensiva, con il bundle ABCDEF, la mobilizzazione, il sonno e la famiglia. E prosegue con follow-up e riabilitazione, in continuita' con il reparto di destinazione."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: allarme di alta pressione con desaturazione? Chiamo aiuto e applico DOPE: dislocazione, ostruzione, pneumotorace, equipaggiamento."),
+ (13,"chiaro",0,"Nel dubbio stacco il paziente e lo ventilo con il pallone e ossigeno; poi tratto la causa, per esempio aspirando o inserendo un blocco-morso. Seconda: come previene la VAP?"),
+ (13,"chiaro",0,"Testata a trenta-quarantacinque gradi, igiene orale, cuffia a venti-trenta, aspirazione sottoglottica, riduzione quotidiana della sedazione e valutazione dello svezzamento, igiene delle mani, aspirazione asettica."),
+ (13,"chiaro",0,"Terza: come valuta il dolore nell'intubato? Con scale comportamentali, come la BPS o la CPOT, prima e durante le procedure."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente ventilato con allarme di alta pressione, desaturazione e agitazione: applico DOPE, rilevo il tubo morso e ostruito, inserisco un blocco-morso, aspiro con tecnica asettica."),
+ (14,"chiaro",0,"Verifico i centimetri del tubo; nel dubbio ventilerei con il pallone. Valuto il dolore con una scala comportamentale e la sedazione con la RASS, rispetto all'obiettivo, segnalando al medico: prima l'analgesia."),
+ (14,"chiaro",0,"Applico il bundle VAP: testata, igiene orale, cuffia, aspirazione sottoglottica, riduzione della sedazione, svezzamento. Valuto il delirium con la CAM-ICU, ne cerco le cause, applico misure non farmacologiche."),
+ (14,"chiaro",0,"Prevengo lesioni da dispositivo e da pressione, proteggo gli occhi, applico il bundle per il catetere centrale. Coinvolgo la famiglia, e documento."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. La VAP con la tre punto uno; il catetere centrale, sei punto due; le lesioni, sette punto due; l'aspirazione, otto punto due; DOPE, RASS e CAM-ICU, dieci punto cinque; il delirium, undici punto uno."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Un pensiero sull'infermiere di area critica. Ha un rapporto infermiere-paziente piu' basso, e competenze avanzate: ventilazione, farmaci vasoattivi, monitoraggio invasivo, tecniche dialitiche continue."),
+ (16,"chiaro",0,"Ma il suo valore aggiunto resta la sorveglianza continua: cogliere i cambiamenti nella persona prima che li segnalino le macchine. Molti neoassunti vengono inseriti qui, con una formazione specifica."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: dietro le macchine c'e' una persona che sente dolore, ha paura, e ha una famiglia."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione chiudiamo il modulo sedici, con il riepilogo e sei nuovi casi lampo, su situazioni che possono capitarti in qualsiasi turno. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"L'allarme: DOPE",4:"La prevenzione della VAP",
+ 5:"Il dolore in chi non puo' parlare",6:"La sedazione",7:"Quinta giornata: il delirium",
+ 8:"Il bundle ABCDEF",9:"La cute, gli occhi, i dispositivi",10:"Se il tubo esce",11:"La famiglia",
+ 12:"Dopo la terapia intensiva",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"L'infermiere di area critica",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

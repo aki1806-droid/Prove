@@ -1,0 +1,47 @@
+[warm] Il potassio e' l'elettrolita che uccide piu' in silenzio: un'iperkaliemia grave puo' dare pochi sintomi e poi, all'improvviso, un'aritmia mortale.
+
+Qui un paziente in emodialisi salta una seduta e arriva in pronto soccorso con un potassio pericoloso. Vedremo come si legge l'ECG, perche' i farmaci d'urgenza agiscono in modi diversi, e come si protegge la fistola.
+
+Ci servono le lezioni tre punto cinque, sei punto uno, otto punto quattro, quattordici punto quattro e quattordici punto sette.
+
+Lo scenario. Il signor Sergio ha sessantotto anni ed e' in emodialisi il lunedi', il mercoledi' e il venerdi', con una fistola al braccio sinistro. E' quasi anurico. Venerdi' non si e' presentato alla seduta.
+
+Lunedi' alle otto arriva in pronto soccorso: una forte astenia, le gambe molli, formicolii, nausea, dispnea. Frequenza quarantasei, pressione centocinquanta su novanta.
+
+Frequenza respiratoria ventisei, saturazione novantadue, edemi declivi, crepitii alle basi. E pesa tre chili e mezzo piu' del suo peso secco. Fermati: quali due problemi vedi, e quale e' piu' pericoloso adesso?
+
+Il ragionamento. Un paziente quasi anurico che salta una seduta accumula tutto cio' che il rene non elimina: potassio, liquidi, scorie, acidi.
+
+La debolezza muscolare, le parestesie e la bradicardia fanno sospettare un'iperkaliemia grave. Gli edemi, i crepitii, la dispnea e il peso aumentato indicano un sovraccarico di liquidi.
+
+[serious] Il problema piu' pericoloso nell'immediato e' l'iperkaliemia, perche' puo' causare aritmie e arresto cardiaco senza preavviso.
+
+Le prime azioni. Monitor continuo, con il defibrillatore pronto. Avvisi subito il medico. ECG a dodici derivazioni. Accesso venoso e prelievi sul braccio destro: mai su quello con la fistola, l'accesso vitale del paziente.
+
+Il potassio si puo' avere in pochi minuti con l'emogas, senza aspettare il laboratorio. Semiseduto, ossigeno secondo protocollo, i farmaci d'urgenza pronti. E avvisi la dialisi, che sara' il trattamento definitivo.
+
+L'emogas conferma un potassio di sette virgola quattro, su un campione non emolizzato. E l'ECG dell'iperkaliemia cambia in modo progressivo.
+
+Prima onde T alte e appuntite. Poi un PR allungato, con l'onda P che si appiattisce. Poi un QRS che si allarga, fino alla bradicardia estrema, ai ritmi a QRS largo, all'arresto in fibrillazione ventricolare o asistolia.
+
+Il signor Sergio ha onde T appuntite, PR lungo e un QRS che inizia ad allargarsi: e' un'emergenza. E un avvertimento: un ECG normale non esclude un'iperkaliemia grave.
+
+I farmaci d'urgenza, sempre secondo prescrizione, con tre meccanismi diversi da saper spiegare. Uno: stabilizzare il cuore. Il calcio endovena protegge il miocardio dalle aritmie in pochi minuti.
+
+Ma non abbassa il potassio. E' una protezione temporanea, e richiede cautela nei pazienti in digossina.
+
+Due: spostare il potassio dentro le cellule. L'insulina rapida con il glucosio, il salbutamolo per aerosol, e il bicarbonato se c'e' acidosi. Anche questo e' temporaneo: il potassio resta nel corpo.
+
+Tre: eliminarlo. Con l'emodialisi urgente, che e' il trattamento definitivo, e con le resine o i leganti del potassio. E' l'unico dei tre che lo porta fuori dal corpo.
+
+La sorveglianza durante la terapia. ECG continuo, e il potassio ripetuto secondo prescrizione. La glicemia dopo l'insulina e il glucosio: l'ipoglicemia puo' comparire anche ore dopo.
+
+Il rischio e' maggiore nel nefropatico, che elimina l'insulina piu' lentamente: il caso quindici punto otto. Poi velocita' e sede del calcio, perche' lo stravaso danneggia i tessuti. E il salbutamolo: tachicardia, tremori.
+
+Il sovraccarico di liquidi. Posizione semiseduta e ossigeno con un target. Nel paziente anurico i diuretici sono poco o per nulla efficaci: i liquidi in eccesso si rimuovono con la dialisi, con l'ultrafiltrazione.
+
+Nel frattempo restrizione dei liquidi, bilancio e peso, e i segni di edema polmonare. Ricordi il caso quindici punto sei? Li' la furosemide funzionava; qui il rene non risponde, e la soluzione e' un'altra.
+
+La fistola, ancora una volta. Si controllano fremito e soffio. Sul braccio della fistola niente pressione, prelievi, cannule o lacci, e lo si segnala al letto.
+
+Dopo la dialisi, il sanguinamento dai punti di puntura, l'ipotensione, il peso rispetto al peso secco. E con un catetere per dialisi, la regola della lezione otto punto quattro: il lock si aspira, non si spinge mai.

@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Per molte persone con diabete di tipo uno la diagnosi arriva cosi': in pronto soccorso, con una chetoacidosi. Il caso ha due facce. Una e' l'emergenza metabolica: insulina in pompa, liquidi e potassio, ora per ora."),
+ (1,"chiaro",0,"L'altra e' una ragazza di diciannove anni che scopre una malattia che l'accompagnera' per tutta la vita. Ci servono le lezioni tre punto cinque, cinque punto cinque, sei punto quattro, otto punto tre e undici punto sei."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Giulia, diciannove anni, studentessa. Da una decina di giorni beve molto, urina spesso, ha perso cinque chili ed e' sempre stanca."),
+ (2,"chiaro",0,"Oggi ha vomito, dolore addominale, un respiro profondo e frequente, l'alito fruttato, ed e' sonnolenta. Glicemia quattrocentottantasei, chetoni nel sangue cinque virgola due."),
+ (2,"chiaro",0,"Emogas: pH sette virgola dodici, bicarbonato nove, anidride carbonica ventidue. Potassio cinque virgola quattro, sodio centotrentuno. Frequenza centoventiquattro, pressione centodue su sessanta."),
+ (2,"chiaro",0,"Fermati un momento: come leggi l'emogas? E perche' quel potassio alto e' una trappola?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Poliuria, polidipsia e calo di peso in una ragazza sono i segni dell'esordio di un diabete di tipo uno. Glicemia alta, chetoni e acidosi metabolica definiscono la chetoacidosi."),
+ (3,"chiaro",0,"L'emogas, con i quattro passi della lezione sei punto quattro. pH sette virgola dodici: acidemia. Bicarbonato nove: origine metabolica. Anidride carbonica ventidue, cioe' bassa: e' il compenso respiratorio."),
+ (3,"chiaro",0,"Il respiro profondo di Kussmaul serve proprio a eliminare la CO2. E la tachicardia, con la pressione ai limiti, indica una disidratazione importante."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"[serious] La trappola del potassio. Il valore nel sangue e' cinque virgola quattro, normale o un po' alto. Ma il potassio totale dell'organismo e' ridotto: Giulia ne ha perso molto con le urine e il vomito."),
+ (4,"chiaro",0,"Il valore sembra normale solo perche' l'acidosi e la mancanza di insulina spingono il potassio fuori dalle cellule. Appena si da' l'insulina, il potassio rientra, e il valore nel sangue crolla: ipokaliemia e aritmie."),
+ (4,"chiaro",0,"Per questo l'insulina si avvia solo con un potassio adeguato, indicativamente da tre virgola cinque in su, e il potassio si reintegra secondo protocollo durante la terapia."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Le prime azioni. ABCDE e avviso al medico. Due accessi venosi. Monitoraggio ECG continuo, per il potassio. E i liquidi, con soluzione fisiologica secondo prescrizione: la prima priorita', perche' la disidratazione e' grave."),
+ (5,"chiaro",0,"Prelievi seriati ed emogas. Una misurazione accurata della diuresi. Digiuno per bocca finche' vomita, e un antiemetico secondo prescrizione. E la ricerca di un fattore scatenante, come un'infezione."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"L'insulina si somministra rapida, endovena, in infusione continua con pompa, secondo protocollo. E' un farmaco ad alto livello di attenzione: si prepara con il doppio controllo."),
+ (6,"chiaro",0,"Si infonde in una linea dedicata o chiaramente identificata. Si controllano la glicemia ogni ora, la chetonemia e l'emogas secondo protocollo, e il potassio ogni una-due ore all'inizio."),
+ (6,"chiaro",0,"E un punto concettuale: l'obiettivo non e' solo abbassare la glicemia, ma risolvere la chetosi e l'acidosi."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Quando la glicemia scende. La glicemia si normalizza prima che i chetoni scompaiano. Per questo, quando si avvicina a circa duecentocinquanta, secondo protocollo si aggiunge una soluzione glucosata."),
+ (7,"chiaro",0,"Mantenendo l'insulina: l'insulina serve ancora a eliminare i chetoni, e il glucosio evita l'ipoglicemia. Si evitano discese troppo rapide di glicemia e sodio."),
+ (7,"chiaro",0,"E si sorveglia la coscienza: cefalea, vomito, bradicardia o un calo della coscienza possono indicare un edema cerebrale, una complicanza rara ma piu' frequente nei giovani. Si segnala subito."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il passaggio all'insulina sottocutanea, un punto tecnico molto chiesto. Quando la chetoacidosi e' risolta e la paziente riesce a mangiare, si da' la basale sottocutanea prima di sospendere l'infusione."),
+ (8,"chiaro",0,"Con una sovrapposizione di una-due ore, indicativamente, secondo protocollo. L'endovena ha un'azione brevissima: sospenderla senza basale fa tornare la chetosi in poche ore. Poi il basal-bolus, con il team diabetologico."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[thoughtful] E ora l'altra faccia del caso. Giulia ti chiede: quindi dovro' farmi le punture per sempre? E' un momento delicato. Prima l'ascolto: accogliere le emozioni, paura, rabbia, negazione."),
+ (9,"chiaro",0,"Poi un'informazione graduale: non si spiega tutto il primo giorno. Il messaggio di fondo e' realistico e incoraggiante: con le competenze giuste si vive una vita piena, con lo studio, lo sport, i viaggi."),
+ (9,"chiaro",0,"Si coinvolgono i familiari secondo i suoi desideri, perche' e' maggiorenne. Si offre un supporto psicologico, e la si affida al team diabetologico."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"L'educazione, che e' un percorso e non una lezione. La tecnica di iniezione e la rotazione delle sedi, o il microinfusore. L'autocontrollo con il glucometro o il sensore. I carboidrati e le dosi ai pasti."),
+ (10,"chiaro",0,"L'ipoglicemia: riconoscerla e trattarla, e il glucagone, che anche familiari e amici devono saper usare. E le regole dei giorni di malattia, che per una persona con diabete di tipo uno sono vitali."),
+ (10,"chiaro",0,"Non sospendere mai l'insulina basale, misurare glicemia e chetoni, bere, chiamare. Poi alcol, sport, guida. E le associazioni di pazienti, che per una giovane possono fare la differenza."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Un approfondimento: chetoacidosi e stato iperosmolare a confronto, come nella lezione otto punto tre. La chetoacidosi riguarda soprattutto il tipo uno e i giovani, ed esordisce in ore o giorni."),
+ (11,"chiaro",0,"Glicemia sopra duecentocinquanta, chetoni abbondanti, acidosi, Kussmaul e alito fruttato. Lo stato iperosmolare riguarda soprattutto il tipo due e gli anziani, ed esordisce in giorni."),
+ (11,"chiaro",0,"Glicemie molto alte, spesso oltre seicento, chetoni assenti o lievi, una disidratazione molto grave e un'alterazione della coscienza. In entrambi: liquidi, insulina, potassio e sorveglianza della coscienza."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Rassicurarsi per il potassio normale. Avviare l'insulina prima dei liquidi, e senza conoscere il potassio. L'insulina endovena senza pompa e senza doppio controllo."),
+ (12,"chiaro",0,"Sospendere l'insulina appena la glicemia si normalizza. Non aggiungere il glucosio. Sospendere l'infusione senza la basale. Sommergere la paziente di informazioni il primo giorno."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: che cos'e' la chetoacidosi? Un'emergenza da carenza di insulina, con iperglicemia, chetoni e acidosi metabolica."),
+ (13,"chiaro",0,"Si riconosce da poliuria, sete, disidratazione, vomito, dolore addominale, respiro di Kussmaul, alito fruttato e alterazione della coscienza. Seconda: perche' sorvegliare tanto il potassio?"),
+ (13,"chiaro",0,"Perche' il potassio totale e' ridotto anche se il valore nel sangue sembra normale, e con l'insulina rientra nelle cellule e crolla, con rischio di aritmie. Terza: perche' glucosio e insulina insieme?"),
+ (13,"chiaro",0,"Perche' la glicemia si normalizza prima della chetosi: l'insulina serve a eliminare i chetoni, il glucosio a evitare l'ipoglicemia."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Giovane con poliuria, polidipsia e calo di peso, ora con vomito, dolore addominale, Kussmaul, alito fruttato e sonnolenza; glicemia quattrocentottantasei, chetoni e acidosi metabolica."),
+ (14,"chiaro",0,"Chetoacidosi all'esordio di un diabete di tipo uno. Priorita': correggere disidratazione, carenza di insulina e acidosi, prevenendo le alterazioni del potassio. Valuto ABCDE, avviso il medico, due accessi, ECG."),
+ (14,"chiaro",0,"Infondo fisiologica secondo prescrizione e misuro la diuresi. Avvio l'insulina endovena in pompa, con doppio controllo e potassio adeguato, reintegrandolo; glicemia ogni ora, chetoni, emogas e potassio."),
+ (14,"chiaro",0,"Vicino a duecentocinquanta aggiungo glucosata, mantenendo l'insulina; sorveglio la coscienza. Al passaggio sottocutaneo, la basale prima di sospendere l'infusione. Accolgo le emozioni e avvio un'educazione graduale."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Gli elettroliti con la tre punto cinque. Le insuline e i farmaci ad alto livello di attenzione con la cinque punto cinque e la cinque punto quattro. L'emogas con la sei punto quattro."),
+ (15,"chiaro",0,"Il diabete e le sue emergenze con la otto punto tre. L'educazione terapeutica con la undici punto sei. Il pancreas endocrino con la quattordici punto cinque."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Il punto di vista della paziente. Una malattia cronica a diciannove anni tocca l'identita', l'autonomia, le relazioni, lo studio, il futuro. E in questa fase della vita il rischio di scarsa aderenza e' alto."),
+ (16,"chiaro",0,"La risposta non e' il controllo, ma l'alleanza: obiettivi condivisi, tecnologie che semplificano la vita, come i sensori, e un linguaggio non colpevolizzante. Si dice glicemia alta, non glicemia cattiva."),
+ (16,"chiaro",0,"Sono gli strumenti della lezione undici punto sei, applicati a una persona giovane, che sta imparando a convivere con la sua malattia."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: nella chetoacidosi la glicemia si corregge in fretta, i chetoni no. L'insulina si sospende per ultima, e mai senza la basale."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un paziente in nutrizione enterale che sviluppa una polmonite da inalazione, e una complicanza della rialimentazione che pochi conoscono. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"La trappola del potassio",5:"Le prime azioni",
+ 6:"L'insulina in infusione",7:"Quando la glicemia scende",8:"Il passaggio all'insulina sottocutanea",9:"La notizia",
+ 10:"L'educazione: il percorso",11:"Chetoacidosi e stato iperosmolare",12:"Gli errori da evitare",13:"Le domande d'orale",
+ 14:"La risposta modello",15:"I collegamenti",16:"Il punto di vista della paziente",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

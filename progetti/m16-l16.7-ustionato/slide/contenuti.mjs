@@ -42,7 +42,7 @@ export const SCENE = [
 {id:"s04", sopratitolo:"Lo scenario · incendio dall'olio in padella · signor Matteo, 45 anni, 80 kg", ...ORE([0,1], 0)},
 {id:"s05", tipo:"corpo", tema:"chiaro", sopratitolo:"Già infusi 500 ml di cristalloidi · ustioni profonde e a tutto spessore", lato:"fronte", voci:[
   {z:"torace", t:"Torace **anteriore**", key:true},
-  {z:"braccia", t:"**Intero** arto superiore destro"},
+  {z:"torace", t:"**Intero** arto superiore destro"},
   {z:"collo", t:"Collo"},
   {z:"viso", t:"Parte del **volto**"}]},
 {id:"s06", tipo:"cifre", tema:"chiaro", sopratitolo:"Peli del naso bruciacchiati · voce rauca · escreato nerastro", voci:[
@@ -53,7 +53,7 @@ export const SCENE = [
   dati:["cucina chiusa", "voce rauca", "escreato nerastro", "SpO₂ 98%"]},
 
 {id:"s08", tipo:"raggiera", tema:"chiaro", sopratitolo:"La priorità è la A · i segni dell'ustione da inalazione", centro:"Inalazione",
-  raggi:[{t:"Ambiente chiuso"}, {t:"Volto e collo"}, {t:"Peli nasali"}, {t:"Voce rauca"}, {t:"Fuliggine", key:true}]},
+  raggi:[{t:"Al chiuso"}, {t:"Volto e collo"}, {t:"Peli nasali"}, {t:"Voce rauca"}, {t:"Fuliggine", key:true}]},
 {id:"s09", tipo:"curva", tema:"chiaro", sale:true, sopratitolo:"L'edema delle vie aeree non è ancora massimo",
   x1:"ore 21", x2:"ore successive", y:"edema", note:[
   {t:"Ora: non ancora massimo"}, {t:"Può chiudere le vie aeree", d:"anche per effetto dei liquidi infusi", key:true}]},
@@ -81,7 +81,8 @@ export const SCENE = [
   {n:"III", t:"Terzo grado", d:"si conta", key:true}]},
 {id:"s16", tipo:"impila", tema:"chiaro", sopratitolo:"Circa il 30% della superficie · aree irregolari: il palmo, dita comprese, ≈ 1%",
   unita:"%", testa:"Le aree ustionate del signor Matteo", segmenti:[
-  {v:18, t:"Torace anteriore"}, {v:9, t:"Arto superiore destro"}, {v:3, t:"Collo e volto", d:"circa", chiaro:true}]},
+  {v:18, t:"Torace anteriore", colore:"#78B296", chiaro:true}, {v:9, t:"Arto superiore destro", colore:"#A8CDBB", chiaro:true},
+  {v:3, t:"Collo e volto", d:"circa", colore:"#D5E6DE", chiaro:true}]},
 
 {id:"s17", tipo:"calcolo", tema:"chiaro", sopratitolo:"I liquidi · la formula di Parkland", righe:[
   {tok:["4 ml", "×", "80 kg", "×", "30%", "=", "9.600 ml"], nota:"nelle prime **24 ore**"}]},
@@ -119,10 +120,10 @@ export const SCENE = [
   radice:"Escara circonferenziale", rami:[
   {q:"al torace", t:"Limita l'espansione respiratoria"},
   {q:"a un arto", t:"Comprime i vasi", d:"come una sindrome compartimentale", key:true}]},
-{id:"s28", tipo:"griglia", tema:"chiaro", colonne:3, spunta:true, sopratitolo:"Se serve", celle:[
-  {t:"**Escarotomia** · la esegue il medico, libera la pressione"},
-  {t:"Arto **sollevato**"},
-  {t:"Anelli e bracciali via **subito**, prima dell'edema"}]},
+{id:"s28", tipo:"tre", tema:"chiaro", sopratitolo:"Se serve, e comunque", box:[
+  {n:"1", t:"Escarotomia", d:"la esegue il medico: un'incisione che libera la pressione"},
+  {n:"2", t:"Arto sollevato"},
+  {n:"3", t:"Via anelli e bracciali", d:"subito, prima che l'edema li blocchi", key:true}]},
 
 {id:"s29", tipo:"icone", tema:"chiaro", sopratitolo:"Dolore, temperatura, ferite · il dolore", voci:[
   {icona:"flebo", t:"Oppioidi endovena", d:"secondo prescrizione · titolati e rivalutati", key:true},
@@ -152,7 +153,7 @@ export const SCENE = [
   ["no:Lasciare anelli e bracciali", "via **subito**"]], chiave:[1]},
 
 {id:"s37", tipo:"calcolo", tema:"chiaro", sopratitolo:"D1 · «Come si calcolano i liquidi nel grande ustionato?»", righe:[
-  {tok:["4 ml", "×", "kg", "×", "% di II e III grado", "=", "ml nelle 24 ore"]}]},
+  {tok:["4 ml", "×", "kg", "×", "%", "=", "ml in 24 ore"], nota:"la percentuale: solo ustioni di **II e III grado**"}]},
 {id:"s38", tipo:"tre", tema:"chiaro", sopratitolo:"D1 · poi D2: «Quali segni fanno sospettare un'ustione da inalazione?»", box:[
   {n:"½", t:"Prime 8 ore", d:"dal momento dell'ustione", key:true},
   {n:"½", t:"16 ore successive"},
@@ -161,8 +162,8 @@ export const SCENE = [
   {t:"Ambiente **chiuso**"}, {t:"Ustioni di **volto e collo**"}, {t:"Peli nasali **bruciati**"},
   {t:"Voce **rauca**"}, {t:"**Stridore**"}, {t:"Escreato con **fuliggine**", key:true}, {t:"**Dispnea**"}]},
 {id:"s40", tipo:"sostituzione", tema:"chiaro", sopratitolo:"D3 · il monossido",
-  da:{h:"Il saturimetro", t:"non distingue O₂ da monossido"}, a:{h:"Serve", t:"l'**emogas** con la carbossiemoglobina"},
-  sotto:"altrimenti valori falsamente normali"},
+  da:{h:"Non basta", t:"il saturimetro"}, a:{h:"Serve", t:"l'**emogas** con la carbossiemoglobina"},
+  sotto:"il saturimetro non distingue l'emoglobina legata all'ossigeno da quella legata al monossido: valori falsamente normali"},
 
 {id:"s41", tipo:"citazione", tema:"chiaro", sopratitolo:"La risposta modello · 1",
   testo:"Paziente di 80 kg, ustioni profonde su circa il **30%** della superficie, alle 19 in **ambiente chiuso**, con segni di inalazione. Priorità: vie aeree, monossido, liquidi.",
@@ -180,7 +181,7 @@ export const SCENE = [
 {id:"s44", tipo:"tabella", tema:"chiaro", sopratitolo:"La risposta modello · 4", colonne:["28%","72%"],
   intestazioni:["Passo", "Che cosa scrivo"], righe:[
   ["Circonferenziali", "via gli anelli · sorveglianza"],
-  ["Comfort e cute", "analgesia EV · niente ipotermia · ferite coperte · antitetanica"],
+  ["Poi", "analgesia EV · niente ipotermia · ferite coperte · antitetanica"],
   ["Destinazione", "centralizzazione al **centro grandi ustionati**"]], chiave:[2]},
 
 {id:"s45", tipo:"griglia", tema:"chiaro", colonne:3, sopratitolo:"I collegamenti", celle:[

@@ -4,76 +4,73 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Chiudiamo il modulo dei casi clinici avanzati. Prima riprendiamo le frasi chiave degli undici casi, da usare come ancore, e i fili che li attraversano."),
+ (1,"chiaro",0,"Poi sei casi lampo, su situazioni che possono capitare in qualsiasi turno: per ognuno, il ragionamento essenziale. Infine le tracce piu' probabili legate a questo modulo, i calcoli da sapere, e come allenarsi."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Le frasi del modulo, come ancore. Ictus, sedici punto uno: l'orologio parte dall'ultima volta in cui stava bene. Emorragia nel cirrotico, sedici punto due: chi vomita sangue e si addormenta rischia prima di soffocare."),
+ (2,"chiaro",0,"Iperkaliemia, sedici punto tre: il calcio protegge, ma solo la dialisi porta via il potassio. Embolia, sedici punto quattro: un polpaccio gonfio da un lato non e' da posizione."),
+ (2,"chiaro",0,"Clostridioides, sedici punto cinque: con le spore l'alcol non basta, servono acqua e sapone. Politrauma, sedici punto sei: l'ordine delle priorita' salva piu' della velocita'."),
+ (2,"chiaro",0,"Ustionato, sedici punto sette: l'orologio parte dalle fiamme, non dalla porta del pronto soccorso. Chetoacidosi, sedici punto otto: l'insulina si sospende per ultima."),
+ (2,"chiaro",0,"Nutrizione, sedici punto nove: nutrire piano, e nella posizione giusta. Monossido, sedici punto dieci: il saturimetro non lo legge. Terapia intensiva, sedici punto undici: dietro le macchine c'e' una persona."),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] I fili che attraversano i casi. Il primo e' il tempo come dato clinico: nell'ictus, nelle ustioni, nel trauma, dove conta anche l'ora dell'acido tranexamico."),
+ (3,"chiaro",0,"Il secondo sono i parametri che ingannano: la saturazione nel monossido, l'emoglobina nell'emorragia acuta, il potassio nella chetoacidosi, la pressione nell'ictus."),
+ (3,"chiaro",0,"Il terzo: le vie aeree prima di tutto, come nell'ABCDE della lezione dieci punto due. Nel cirrotico che vomita sangue, nell'ustionato con i segni di inalazione, nel paziente ventilato."),
+ (3,"chiaro",0,"Il quarto: la prevenzione mancata come radice dell'evento. L'embolia senza profilassi, l'inalazione durante la nutrizione, la rialimentazione troppo rapida, il Clostridioides isolato in ritardo."),
+ (3,"chiaro",0,"E il quinto: la persona dietro la malattia. Il cirrotico e il suo rapporto con l'alcol, la ragazza che riceve la diagnosi a diciannove anni, la famiglia fuori dalla porta."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"[curious] Caso lampo uno. Un ragazzo asmatico di ventidue anni, in pronto soccorso, non riesce a finire una frase e usa i muscoli accessori. Frequenza respiratoria trentaquattro, saturazione novanta."),
+ (4,"chiaro",0,"E all'auscultazione, quasi nessun sibilo. Il torace silenzioso non e' un buon segno: passa pochissima aria. E' un attacco grave, vicino all'arresto, come nella lezione otto punto due."),
+ (4,"chiaro",0,"Posizione seduta, ossigeno con target, broncodilatatori per aerosol ripetuti e corticosteroide secondo prescrizione; eventualmente il magnesio endovena. Monitoraggio, ed emogas."),
+ (4,"chiaro",0,"Un asmatico che smette di sibilare puo' stare peggiorando. E i segni di esaurimento, cioe' sonnolenza, bradicardia, anidride carbonica che sale, richiedono subito il rianimatore."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Caso lampo due. Una signora di ottantotto anni, che vive sola, viene trovata a terra in casa al mattino, d'inverno, dopo una caduta notturna. Temperatura trentuno gradi, bradicardica, confusa."),
+ (5,"chiaro",0,"E in terapia anticoagulante. E' un'ipotermia moderata: la si manovra con delicatezza, perche' il cuore freddo va facilmente in fibrillazione ventricolare, e la si riscalda in modo graduale."),
+ (5,"chiaro",0,"Coperte, e liquidi caldi secondo prescrizione. La lunga permanenza a terra fa pensare alla rabdomiolisi: urine scure, enzimi muscolari, funzione renale."),
+ (5,"chiaro",0,"Con l'anticoagulante, il trauma cranico richiede una TC. Si cercano le lesioni da pressione. E alla fine, la domanda di sempre, quella della lezione quindici punto sette: perche' e' caduta?"),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"Caso lampo tre. Un'ora dopo un catetere venoso centrale in succlavia: dolore toracico e dispnea, saturazione da novantasette a novanta, murmure ridotto dallo stesso lato. Sospetto pneumotorace da procedura."),
+ (6,"chiaro",0,"Ossigeno, posizione semiseduta, avviso immediato al medico e radiografia del torace, preparando il materiale per un eventuale drenaggio. E l'evento si segnala."),
+ (6,"chiaro",0,"E una regola, della lezione sei punto due: il catetere centrale non si usa finche' il corretto posizionamento non e' confermato. Dopo la succlavia, la radiografia esclude anche lo pneumotorace."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Caso lampo quattro. Una signora di ottanta anni, in terapia con un diuretico tiazidico, e' ricoverata per confusione e cadute. Ha un sodio di centodiciotto, e nella notte una crisi convulsiva."),
+ (7,"chiaro",0,"E' un'iponatriemia grave e sintomatica. Sicurezza, gestione della crisi, avviso al medico. La correzione avviene secondo prescrizione, spesso con soluzione salina ipertonica in piccole dosi."),
+ (7,"chiaro",0,"Con controlli ravvicinati del sodio. Perche' la correzione troppo rapida puo' causare un danno neurologico grave, la sindrome da demielinizzazione osmotica, della lezione tre punto cinque."),
+ (7,"chiaro",0,"Poi bilancio idrico e diuresi, e la revisione dei farmaci che abbassano il sodio, come alcuni diuretici e antidepressivi: proprio come il tiazidico che la signora assumeva."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Caso lampo cinque. Un paziente con un PICC al braccio destro da tre settimane presenta edema e dolore del braccio, vene superficiali evidenti, e una circonferenza aumentata di tre centimetri."),
+ (8,"chiaro",0,"E' una sospetta trombosi venosa associata al catetere. Si segnala, senza rimuovere ne' usare il catetere di propria iniziativa, e si esegue un'ecografia."),
+ (8,"chiaro",0,"L'anticoagulazione e' su prescrizione, e la decisione sulla rimozione e' medica. Ecco perche' la misurazione della circonferenza del braccio e' parte della sorveglianza del PICC."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Caso lampo sei. Un uomo di settantasei anni in terapia anticoagulante e' scivolato in casa e ha battuto la testa. Ora sta bene, e vuole tornare a casa."),
+ (9,"chiaro",0,"Un trauma cranico minore, in un paziente anticoagulato, espone a un'emorragia intracranica, anche tardiva: lo stesso rischio della signora Elena, nella lezione quindici punto sette."),
+ (9,"chiaro",0,"Si segue il protocollo, che di solito prevede la valutazione medica e la TC, con una sorveglianza neurologica: GCS, pupille, cefalea, vomito, sonnolenza. L'anticoagulante, secondo indicazione."),
+ (9,"chiaro",0,"E alla dimissione si danno istruzioni scritte sui segni d'allarme, verificando che un adulto resti con lui nelle ore successive."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Le tracce piu' probabili legate a questo modulo. Il sospetto ictus in reparto. L'emorragia digestiva. L'iperkaliemia nel dializzato. L'embolia polmonare in medicina. Il paziente con Clostridioides."),
+ (10,"chiaro",0,"Il politrauma, con l'XABCDE. Il grande ustionato, con il calcolo di Parkland. La chetoacidosi. La nutrizione enterale e l'inalazione. Il monossido. Il paziente ventilato, con DOPE e la VAP."),
+ (10,"chiaro",0,"Per ognuna di queste tracce hai ora un caso svolto, con lo scenario, le priorita', la risposta modello in quindici righe e tre domande d'orale."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"I calcoli da sapere a memoria. Parkland: quattro millilitri, per chilo, per percentuale di ustione di secondo e terzo grado, in ventiquattro ore. Per ottanta chili e il trenta per cento, novemilaseicento millilitri."),
+ (11,"chiaro",0,"Meta' nelle prime otto ore, contate dal momento dell'ustione: e' la trappola sugli orari della sedici punto sette. E la diuresi obiettivo: mezzo millilitro per chilo all'ora, circa quaranta all'ora per ottanta chili."),
+ (11,"chiaro",0,"La velocita' di infusione: dose oraria diviso concentrazione. Il Padua, sviluppato proprio a Padova, con la soglia di quattro per l'alto rischio. La regola del nove, per l'estensione dell'ustione."),
+ (11,"chiaro",0,"La GCS, da tre a quindici. E la regola del quindici per l'ipoglicemia: quindici grammi di zuccheri semplici, e un nuovo controllo dopo quindici minuti."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Come allenarsi con questo modulo. Una traccia al giorno, alternando i casi del modulo quindici e del sedici. Per i casi con i calcoli, rifare il calcolo senza guardare."),
+ (12,"chiaro",0,"Per i casi con una trappola, il potassio, la saturazione, gli orari, scriverla in una riga. Nel quaderno dei casi, aggiungere undici pagine e i sei casi lampo."),
+ (12,"chiaro",0,"E ripetere ad alta voce le risposte alle domande d'orale: tre per ogni caso, trentatre' in tutto il modulo, in due o tre minuti ciascuna."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"profondo",1.2,"[serious] La frase del modulo: nei casi complessi, la competenza e' sapere quale dato non credere."),
+ (13,"chiaro",0,"Una saturazione perfetta, un'emoglobina normale, un potassio nei limiti: ognuno di questi casi ci ha insegnato a guardare oltre il numero."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
-
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
-
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
-
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
-
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (14,"chiaro",0,"[warm] Nel prossimo modulo cambiamo scenario: la gravidanza e il parto, il bambino, la salute mentale, le cure palliative a domicilio, il territorio veneto e i temi di responsabilita' professionale."),
+ (14,"chiaro",0,"Si apre con la preeclampsia grave, che nel modulo quindici era un caso lampo e qui diventa un caso intero. Altri dodici casi, con lo stesso metodo. Ci vediamo li'."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Le frasi del modulo 16",3:"I fili che attraversano i casi",
+ 4:"Caso lampo 1: la crisi asmatica grave",5:"Caso lampo 2: l'anziana trovata a terra",6:"Caso lampo 3: la dispnea dopo un CVC",
+ 7:"Caso lampo 4: l'iponatriemia",8:"Caso lampo 5: il braccio gonfio con il PICC",9:"Caso lampo 6: il trauma cranico in anticoagulante",
+ 10:"Le tracce piu' probabili del modulo",11:"I calcoli da sapere a memoria",12:"Come allenarsi",
+ 13:"La frase del modulo",14:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

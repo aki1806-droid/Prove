@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La nutrizione enterale sembra un'attivita' di routine: un sondino, una pompa, una sacca. In realta' nasconde due complicanze gravi: la polmonite da inalazione e la sindrome da rialimentazione."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda la conoscono in pochi, ma i concorsi la chiedono sempre piu' spesso. E il caso pone una domanda etica, quando il paziente ha una demenza avanzata."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci servono le lezioni tre punto tre, tre punto quattro, tre punto cinque, undici punto due e uno punto sei."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Il signor Ottavio, settantanove anni, demenza moderata, e' ricoverato per una disfagia grave e un calo di peso: indice di massa corporea sedici, e da piu' di due settimane mangia pochissimo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ieri gli e' stato posizionato un sondino naso-gastrico, e la nutrizione enterale e' stata avviata in serata direttamente alla velocita' piena. Di notte, agitato, e' rimasto a lungo quasi sdraiato."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle sei: tosse insistente, saturazione ottantanove, febbre a trentotto virgola quattro, frequenza respiratoria ventotto, rantoli alla base destra, e residui di nutrizione nel cavo orale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fermati un momento: che cosa e' successo? E quale secondo rischio ti preoccupa nei prossimi giorni?"
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento. Disfagia e demenza, nutrizione enterale, posizione supina, agitazione, con il rischio che il sondino si sia spostato. Residui in bocca, tosse, febbre, desaturazione, rantoli: e' una polmonite da inalazione."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo rischio, meno evidente ma altrettanto grave: un paziente gravemente malnutrito a cui la nutrizione e' stata avviata a pieno regime. E' il terreno della sindrome da rialimentazione."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. Sospendi la nutrizione. Posizione semiseduta, o laterale se vomita. Aspiri il cavo orale e la faringe. Ossigeno secondo protocollo, e avviso al medico con lo SBAR. Parametri e monitoraggio."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi verifichi la posizione del sondino, con le regole della lezione tre punto quattro: i centimetri segnati alla narice, e il pH dell'aspirato, che deve essere pari o inferiore a cinque virgola cinque."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In caso di dubbio, la conferma radiologica. Mai il whoosh, cioe' l'auscultazione dell'aria insufflata. Poi prelievi, eventuale radiografia del torace e antibiotico secondo prescrizione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] La prevenzione, che in gran parte e' infermieristica. La testata a trenta-quarantacinque gradi durante l'infusione e per trenta-sessanta minuti dopo, anche di notte: e' proprio cio' che e' mancato."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La verifica del sondino prima di ogni avvio, dopo tosse, vomito o agitazione, e a ogni turno. L'infusione con pompa alla velocita' prescritta. Il controllo del ristagno gastrico secondo protocollo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'igiene del cavo orale, perche' la bocca colonizzata e' la fonte dei batteri inalati. Distensione e vomito sorvegliati. Niente sedazione eccessiva. E nell'agitato, sorveglianza e fissaggio sicuro, non contenzione."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] La sindrome da rialimentazione: che cos'e'? In un paziente gravemente malnutrito, la ripresa improvvisa dell'apporto di carboidrati stimola l'insulina."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insulina fa entrare rapidamente nelle cellule fosfato, potassio e magnesio, e i loro livelli nel sangue crollano, tipicamente nei primi giorni."
+ },
+ {
+  "id": "s19",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le conseguenze sono serie: aritmie, insufficienza cardiaca, edemi, debolezza dei muscoli respiratori, confusione, convulsioni, fino alla morte. E' una complicanza della nutrizione, non della malattia: e' prevenibile."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi e' a rischio? Chi ha un indice di massa corporea sotto sedici, un calo di peso involontario oltre il quindici per cento in tre-sei mesi, un apporto minimo o nullo da piu' di dieci giorni, o elettroliti gia' bassi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il signor Ottavio era a rischio elevato. La prevenzione, secondo prescrizione e protocollo: un avvio lento e progressivo dell'apporto calorico, e la tiamina prima e durante."
+ },
+ {
+  "id": "s22",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fosfato, potassio e magnesio dosati e corretti, con controlli giornalieri nei primi giorni, bilancio e peso, monitoraggio cardiaco nei casi gravi. Avviarla a pieno regime, come e' stato fatto, era un errore."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo giorno. La nutrizione e' stata ripresa piu' lentamente dopo la polmonite, ma gli esami mostrano un fosfato molto basso, un potassio di due virgola nove e un magnesio basso."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il paziente e' tachicardico, edematoso, piu' debole e confuso. E' una sindrome da rialimentazione. Si segnala subito, e si riduce l'apporto secondo prescrizione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si correggono gli elettroliti per via endovenosa, con la pompa, e il potassio mai in bolo. Si avvia il monitoraggio ECG, e si coinvolge il servizio di nutrizione clinica."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento etico che questo caso impone: la decisione sulla nutrizione artificiale. Per la legge duecentodiciannove e' un trattamento sanitario: richiede il consenso, e puo' essere rifiutata."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella persona con demenza si considerano le disposizioni anticipate, la pianificazione condivisa, il fiduciario o l'amministratore di sostegno, i familiari."
+ },
+ {
+  "id": "s28",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le evidenze disponibili non mostrano benefici chiari della nutrizione per sonda nella demenza avanzata, ne' sulla sopravvivenza ne' sulla prevenzione dell'inalazione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'alternativa: alimentazione di confort, piccole quantita' di cibi graditi, consistenze adatte, aiuto al pasto. La decisione si condivide, si documenta, si rivaluta; l'infermiere porta la conoscenza quotidiana della persona."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se la nutrizione proseguira' a lungo? Il sondino naso-gastrico e' per periodi brevi; oltre alcune settimane si valuta una gastrostomia, la PEG, con la cura della stomia, la mobilizzazione del dispositivo, i lavaggi."
+ },
+ {
+  "id": "s31",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per entrambi i dispositivi valgono le regole sui farmaci: forme adatte, non frantumare le forme a rilascio modificato, lavaggio prima e dopo ogni farmaco. E se torna a casa, si educa il caregiver."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un passo indietro: la valutazione nutrizionale. Lo screening del rischio si fa all'ingresso, con il MUST o gli strumenti in uso in azienda, insieme a peso, altezza, indice di massa corporea, calo di peso e apporto."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si valuta la deglutizione. Si attivano il dietista e la nutrizione clinica, si registrano gli apporti. Il signor Ottavio era malnutrito da settimane: la malnutrizione si cerca, non si aspetta che si manifesti."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. La nutrizione in posizione supina. Non verificare il sondino dopo agitazione o tosse. Verificarlo con il whoosh. Avviare a pieno regime un paziente gravemente malnutrito."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dimenticare la tiamina e gli elettroliti. Correggere il potassio senza pompa. Considerare la nutrizione artificiale un atto dovuto, senza una decisione condivisa."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: come si verifica il sondino? Con la conferma radiologica dopo il posizionamento, quando prevista; poi con i centimetri alla narice e il pH dell'aspirato, fino a cinque virgola cinque."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'auscultazione dell'aria non e' affidabile. Seconda: come si previene l'inalazione? Testata a trenta-quarantacinque gradi durante e dopo l'infusione, verifica del sondino, infusione con pompa."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Controllo del ristagno, igiene orale, sorveglianza di distensione e vomito. Terza: la sindrome da rialimentazione? Un crollo di fosfato, potassio e magnesio quando si rialimenta un paziente malnutrito."
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A rischio chi ha un indice di massa corporea sotto sedici, un forte calo di peso, o un apporto minimo da oltre dieci giorni."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente con demenza, disfagia e grave malnutrizione, in nutrizione enterale avviata a pieno regime e mantenuto supino, con tosse, febbre, desaturazione, rantoli e residui in bocca."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sospetta polmonite da inalazione. Sospendo la nutrizione, lo posiziono semiseduto, aspiro, somministro ossigeno e avviso il medico; verifico la posizione del sondino, e collaboro alla terapia prescritta."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per la prevenzione: testata a trenta-quarantacinque gradi, sondino verificato a ogni avvio e dopo agitazione, pompa, igiene orale. E riconosco l'alto rischio di sindrome da rialimentazione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Segnalo la necessita' di un avvio lento, della tiamina e del controllo di fosfato, potassio e magnesio. E partecipo alla decisione condivisa sulla nutrizione artificiale, documentando."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Nutrizione e disfagia con la tre punto tre. Sondino e nutrizione enterale con la tre punto quattro. Elettroliti con la tre punto cinque."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Demenza con la undici punto due. Legge duecentodiciannove e consenso con la uno punto sei. E la prevenzione della polmonite con la tre punto uno."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un dettaglio organizzativo: la notte e' il punto critico. Il personale e' ridotto, i pazienti scivolano nel letto, l'agitazione aumenta. E la nutrizione notturna richiede le stesse regole del giorno."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le consegne contengono velocita', verifica del sondino, posizione e ristagno. Il riposizionamento si puo' attribuire all'OSS, con istruzioni chiare: testata sollevata, e segnalare subito tosse o vomito."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: nutrire bene significa anche nutrire piano, e nella posizione giusta."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un'intera famiglia arriva in pronto soccorso una mattina d'inverno, con mal di testa e nausea. Saturazioni perfette, e un nemico invisibile. A tra poco."
+ }
+]

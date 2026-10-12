@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Questo caso concentra nello stesso paziente quattro problemi che si alimentano a vicenda: un'emorragia massiva, uno shock, un'encefalopatia epatica e un'astinenza alcolica."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' un caso complesso, ed e' proprio per questo che e' utile: obbliga a stabilire le priorita'. Ci servono le lezioni sei punto sei, otto punto cinque, dieci punto sei, undici punto tre e quattordici punto quattro."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Il signor Giorgio ha sessantatre anni e una cirrosi su base alcolica, ed e' ricoverato da due giorni per un'ascite. L'ultima assunzione di alcol riferita risale a tre giorni fa."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle sei vomita abbondante sangue rosso vivo, poi emette feci nere. Pressione ottantotto su cinquantaquattro, frequenza centoventotto, cute pallida e sudata. E' sonnolento, ma risvegliabile."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emoglobina di ieri era dieci virgola due, l'INR due virgola uno. Fermati un momento: qual e' la priorita' assoluta, prima ancora della pressione?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento. Ematemesi rosso vivo e melena in un cirrotico indicano un'emorragia digestiva alta: con ogni probabilita' la rottura di varici esofagee, dovute all'ipertensione portale."
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pressione ottantotto, frequenza centoventotto, pallore, sudorazione: e' uno shock emorragico. E la coagulopatia, con un INR di due virgola uno, aggrava il sanguinamento."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] Ma la priorita' assoluta e' un'altra. Un paziente sonnolento che vomita sangue e' a rischio di inalazione: le vie aeree vengono prima di tutto."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni, sulle vie aeree e sul respiro. Chiami subito aiuto e il medico. Metti il paziente in posizione laterale, o con la testa sollevata e girata, perche' non inali il sangue."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'aspiratore pronto e funzionante, e si aspira il cavo orale. Valuti la coscienza con la GCS: se peggiora, non protegge piu' le vie aeree, e puo' servire l'intubazione prima dell'endoscopia. Ossigeno secondo protocollo."
+ },
+ {
+  "id": "s12",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi il circolo. Due accessi venosi di grosso calibro. I prelievi: emocromo, coagulazione, gruppo e prove crociate, funzione renale ed epatica."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Liquidi ed emocomponenti secondo prescrizione. Monitoraggio continuo e parametri ravvicinati, diuresi oraria, digiuno."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un dettaglio che il caso vuole intercettare: l'emoglobina di ieri non rassicura. Nell'emorragia acuta si perde sangue intero, e l'emoglobina scende in ritardo. A guidarti sono i parametri, non l'esame di ieri."
+ },
+ {
+  "id": "s15",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La terapia specifica, tutta su prescrizione. Farmaci vasoattivi che riducono la pressione nel sistema portale, come la terlipressina, o la somatostatina e i suoi analoghi."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una profilassi antibiotica, che nel cirrotico con emorragia riduce le infezioni e la mortalita'. Gli inibitori di pompa. E l'endoscopia urgente, di norma entro dodici ore, con la legatura delle varici."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La correzione della coagulazione, secondo indicazione. E nessuna iniezione intramuscolare, con un INR di due virgola uno."
+ },
+ {
+  "id": "s18",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un punto avanzato, che distingue una risposta eccellente. La trasfusione nel cirrotico segue in genere una strategia restrittiva: secondo prescrizione, l'emoglobina si tiene intorno a sette, otto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sembra un paradosso. Ma le trasfusioni eccessive aumentano il volume e la pressione portale, e quindi il sanguinamento delle varici."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Restano tutte le regole di sicurezza della lezione sei punto sei. E se si trasfondono piu' unita' in poco tempo, attenzione all'ipotermia e all'ipocalcemia, con i riscaldatori secondo procedura."
+ },
+ {
+  "id": "s21",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le ore successive. Dopo l'endoscopia l'emorragia e' controllata: pressione centododici su settanta, frequenza novantotto. Ma alle quattordici il signor Giorgio e' piu' confuso."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha invertito il ritmo sonno-veglia e presenta l'asterixis. E' un'encefalopatia epatica, e la causa e' l'emorragia: il sangue nell'intestino e' una grande fonte di ammoniaca, come nella lezione otto punto cinque."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi: segnalare; il lattulosio per bocca, per sondino o per clistere, secondo prescrizione; la sorveglianza della coscienza e delle vie aeree. Niente sedativi. E la prevenzione delle cadute."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] E c'e' un secondo problema nascosto. L'ultima assunzione di alcol risale a tre giorni fa: siamo nella finestra del delirium tremens."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tremori, sudorazione, tachicardia, agitazione, allucinazioni possono comparire. E distinguere un'astinenza da un'encefalopatia e' difficile, perche' entrambe confondono."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si valuta con una scala come la CIWA-Ar. La tiamina, secondo prescrizione, va prima del glucosio, contro l'encefalopatia di Wernicke. E si segnala tutto: in un cirrotico, la scelta dei sedativi e' delicata."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: le priorita' quando i problemi si sovrappongono. Primo, le vie aeree, perche' il vomito con la coscienza ridotta uccide piu' in fretta di tutto il resto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo, il circolo, cioe' lo shock. Terzo, il controllo della fonte, con la terapia vasoattiva e l'endoscopia. Quarto, le complicanze prevedibili: encefalopatia, infezioni, astinenza, insufficienza renale."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinto, sicurezza, nutrizione ed educazione. E' l'ABCDE applicato a un paziente complesso. E in una situazione cosi' concitata, documentare chi ha avvisato chi, e quando, e' una tutela per tutti."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Verso la dimissione. Il tema centrale e' l'astensione dall'alcol: un colloquio non giudicante, l'invio al SerD o ai servizi di alcologia, i gruppi di auto-aiuto. Poi la terapia per prevenire un nuovo sanguinamento."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I segni d'allarme: vomito di sangue, feci nere, confusione, addome che aumenta. Un alvo regolare con il lattulosio, per prevenire l'encefalopatia. Poco sale nella dieta. E i controlli endoscopici programmati."
+ },
+ {
+  "id": "s32",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Occuparsi della pressione e trascurare le vie aeree. Rassicurarsi per l'emoglobina di ieri. Trasfondere per alzare l'emoglobina il piu' possibile. Le intramuscolari con l'INR alterato."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sedare un paziente confuso senza chiedersi se e' encefalopatia o astinenza. Dimenticare la tiamina. E giudicare il paziente per l'alcol: il giudizio allontana dalle cure."
+ },
+ {
+  "id": "s34",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il tema piu' delicato del caso: come parlare di alcol senza giudicare. L'alcol e' una malattia da dipendenza, non una colpa morale, e un tono giudicante chiude la conversazione."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si usano domande aperte e un tono neutro: quanto beve in una giornata tipo? Senza minimizzare e senza moralizzare. E si spiega con chiarezza il legame fra alcol, cirrosi e sanguinamento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molti pazienti non lo hanno davvero compreso. Si valorizza ogni passo verso il cambiamento, con il colloquio motivazionale della lezione undici punto sei. E si coinvolgono i familiari, con il consenso del paziente."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si propongono concretamente il SerD, o i servizi di alcologia, e i gruppi di auto-aiuto. Molti decidono di smettere proprio dopo un episodio come questo, se trovano qualcuno disposto ad ascoltarli."
+ },
+ {
+  "id": "s38",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: emorragia alta o bassa? L'alta, a monte del legamento di Treitz, si manifesta con ematemesi e melena; la bassa con sangue rosso dal retto."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma un'emorragia alta molto abbondante puo' arrivare rossa dal retto. Seconda: perche' nel cirrotico l'emorragia scatena l'encefalopatia?"
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' il sangue nell'intestino viene digerito come una grande quantita' di proteine, e produce ammoniaca, che il fegato malato non riesce a eliminare."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: perche' la tiamina prima del glucosio? Perche' nell'alcolista la carenza di tiamina e' frequente, e il glucosio senza tiamina puo' precipitare un'encefalopatia di Wernicke."
+ },
+ {
+  "id": "s42",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente cirrotico con ematemesi abbondante e melena, ipotensione, tachicardia e sonnolenza: emorragia digestiva alta, verosimilmente da varici, con shock emorragico e rischio di inalazione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chiamo subito aiuto. Proteggo le vie aeree mettendo il paziente su un fianco, aspirando e valutando la coscienza; somministro ossigeno. Posiziono due accessi di grosso calibro, con prelievi, gruppo e prove crociate."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Somministro liquidi, emocomponenti, vasoattivi e profilassi antibiotica, secondo prescrizione. Mantengo il digiuno e preparo l'endoscopia. Monitoro parametri, diuresi e coscienza."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi riconosco l'encefalopatia e do il lattulosio prescritto, senza sedativi; valuto l'astinenza e do la tiamina prima del glucosio. Documento, informo i familiari, imposto un percorso non giudicante verso i servizi."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. La trasfusione con la sei punto sei. Emorragia digestiva, cirrosi ed encefalopatia con la otto punto cinque. Lo shock con la dieci punto sei."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'astinenza alcolica e il SerD con la undici punto tre. Le funzioni del fegato con la quattordici punto quattro. E le vie aeree con la dieci punto cinque."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: chi vomita sangue e si addormenta rischia prima di soffocare che di dissanguarsi. Le vie aeree vengono sempre prima."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un paziente in emodialisi che salta una seduta e arriva con un potassio pericolosamente alto. ECG, terapia d'urgenza, e la fistola da proteggere. A tra poco."
+ }
+]

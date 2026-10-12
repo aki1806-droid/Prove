@@ -61,7 +61,7 @@ BLOCCHI = [
  (14,"chiaro",0,"Segnalo l'evento, evidenziando la mancata valutazione del rischio e la profilassi persa dal pronto soccorso. Riprendo la mobilizzazione secondo indicazione e, alla dimissione, educo sull'anticoagulante e sulla recidiva."),
 
  (15,"chiaro",0,"I collegamenti. Trombosi e immobilita' con la tre punto due. Anticoagulanti con la cinque punto cinque. Ossigeno con la otto punto due. Rischio clinico e segnalazione con la due punto sei."),
- (15,"chiaro",0,"Riconciliazione con la cinque punto quattro. D-dimero e mezzo di contrasto con la quattordici punto sette. E le complicanze postoperatorie con la nove punto cinque."),
+ (15,"chiaro",0,"Riconciliazione con la cinque punto quattro. Il D-dimero con la quattordici punto sei, il contrasto con la quattordici punto sette. E le complicanze postoperatorie con la nove punto cinque."),
 
  (16,"chiaro",0,"Una riflessione. L'embolia polmonare in ospedale e' spesso un evento evitabile. Gli strumenti esistono: le scale, la profilassi, la mobilizzazione."),
  (16,"chiaro",0,"La differenza la fanno l'attenzione ai passaggi fra setting, e la capacita' di dare un significato a un segno, come un polpaccio gonfio, invece di archiviarlo."),

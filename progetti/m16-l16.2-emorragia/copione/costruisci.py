@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo caso concentra nello stesso paziente quattro problemi che si alimentano a vicenda: un'emorragia massiva, uno shock, un'encefalopatia epatica e un'astinenza alcolica."),
+ (1,"chiaro",0,"E' un caso complesso, ed e' proprio per questo che e' utile: obbliga a stabilire le priorita'. Ci servono le lezioni sei punto sei, otto punto cinque, dieci punto sei, undici punto tre e quattordici punto quattro."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Giorgio ha sessantatre anni e una cirrosi su base alcolica, ed e' ricoverato da due giorni per un'ascite. L'ultima assunzione di alcol riferita risale a tre giorni fa."),
+ (2,"chiaro",0,"Alle sei vomita abbondante sangue rosso vivo, poi emette feci nere. Pressione ottantotto su cinquantaquattro, frequenza centoventotto, cute pallida e sudata. E' sonnolento, ma risvegliabile."),
+ (2,"chiaro",0,"L'emoglobina di ieri era dieci virgola due, l'INR due virgola uno. Fermati un momento: qual e' la priorita' assoluta, prima ancora della pressione?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Ematemesi rosso vivo e melena in un cirrotico indicano un'emorragia digestiva alta: con ogni probabilita' la rottura di varici esofagee, dovute all'ipertensione portale."),
+ (3,"chiaro",0,"Pressione ottantotto, frequenza centoventotto, pallore, sudorazione: e' uno shock emorragico. E la coagulopatia, con un INR di due virgola uno, aggrava il sanguinamento."),
+ (3,"chiaro",0,"[serious] Ma la priorita' assoluta e' un'altra. Un paziente sonnolento che vomita sangue e' a rischio di inalazione: le vie aeree vengono prima di tutto."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni, sulle vie aeree e sul respiro. Chiami subito aiuto e il medico. Metti il paziente in posizione laterale, o con la testa sollevata e girata, perche' non inali il sangue."),
+ (4,"chiaro",0,"L'aspiratore pronto e funzionante, e si aspira il cavo orale. Valuti la coscienza con la GCS: se peggiora, non protegge piu' le vie aeree, e puo' servire l'intubazione prima dell'endoscopia. Ossigeno secondo protocollo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"Poi il circolo. Due accessi venosi di grosso calibro. I prelievi: emocromo, coagulazione, gruppo e prove crociate, funzione renale ed epatica."),
+ (5,"chiaro",0,"Liquidi ed emocomponenti secondo prescrizione. Monitoraggio continuo e parametri ravvicinati, diuresi oraria, digiuno."),
+ (5,"chiaro",0,"E un dettaglio che il caso vuole intercettare: l'emoglobina di ieri non rassicura. Nell'emorragia acuta si perde sangue intero, e l'emoglobina scende in ritardo. A guidarti sono i parametri, non l'esame di ieri."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La terapia specifica, tutta su prescrizione. Farmaci vasoattivi che riducono la pressione nel sistema portale, come la terlipressina, o la somatostatina e i suoi analoghi."),
+ (6,"chiaro",0,"Una profilassi antibiotica, che nel cirrotico con emorragia riduce le infezioni e la mortalita'. Gli inibitori di pompa. E l'endoscopia urgente, di norma entro dodici ore, con la legatura delle varici."),
+ (6,"chiaro",0,"La correzione della coagulazione, secondo indicazione. E nessuna iniezione intramuscolare, con un INR di due virgola uno."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Un punto avanzato, che distingue una risposta eccellente. La trasfusione nel cirrotico segue in genere una strategia restrittiva: secondo prescrizione, l'emoglobina si tiene intorno a sette, otto."),
+ (7,"chiaro",0,"Sembra un paradosso. Ma le trasfusioni eccessive aumentano il volume e la pressione portale, e quindi il sanguinamento delle varici."),
+ (7,"chiaro",0,"Restano tutte le regole di sicurezza della lezione sei punto sei. E se si trasfondono piu' unita' in poco tempo, attenzione all'ipotermia e all'ipocalcemia, con i riscaldatori secondo procedura."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Le ore successive. Dopo l'endoscopia l'emorragia e' controllata: pressione centododici su settanta, frequenza novantotto. Ma alle quattordici il signor Giorgio e' piu' confuso."),
+ (8,"chiaro",0,"Ha invertito il ritmo sonno-veglia e presenta l'asterixis. E' un'encefalopatia epatica, e la causa e' l'emorragia: il sangue nell'intestino e' una grande fonte di ammoniaca, come nella lezione otto punto cinque."),
+ (8,"chiaro",0,"Gli interventi: segnalare; il lattulosio per bocca, per sondino o per clistere, secondo prescrizione; la sorveglianza della coscienza e delle vie aeree. Niente sedativi. E la prevenzione delle cadute."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[thoughtful] E c'e' un secondo problema nascosto. L'ultima assunzione di alcol risale a tre giorni fa: siamo nella finestra del delirium tremens."),
+ (9,"chiaro",0,"Tremori, sudorazione, tachicardia, agitazione, allucinazioni possono comparire. E distinguere un'astinenza da un'encefalopatia e' difficile, perche' entrambe confondono."),
+ (9,"chiaro",0,"Si valuta con una scala come la CIWA-Ar. La tiamina, secondo prescrizione, va prima del glucosio, contro l'encefalopatia di Wernicke. E si segnala tutto: in un cirrotico, la scelta dei sedativi e' delicata."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Un approfondimento: le priorita' quando i problemi si sovrappongono. Primo, le vie aeree, perche' il vomito con la coscienza ridotta uccide piu' in fretta di tutto il resto."),
+ (10,"chiaro",0,"Secondo, il circolo, cioe' lo shock. Terzo, il controllo della fonte, con la terapia vasoattiva e l'endoscopia. Quarto, le complicanze prevedibili: encefalopatia, infezioni, astinenza, insufficienza renale."),
+ (10,"chiaro",0,"Quinto, sicurezza, nutrizione ed educazione. E' l'ABCDE applicato a un paziente complesso. E in una situazione cosi' concitata, documentare chi ha avvisato chi, e quando, e' una tutela per tutti."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Verso la dimissione. Il tema centrale e' l'astensione dall'alcol: un colloquio non giudicante, l'invio al SerD o ai servizi di alcologia, i gruppi di auto-aiuto. Poi la terapia per prevenire un nuovo sanguinamento."),
+ (11,"chiaro",0,"I segni d'allarme: vomito di sangue, feci nere, confusione, addome che aumenta. Un alvo regolare con il lattulosio, per prevenire l'encefalopatia. Poco sale nella dieta. E i controlli endoscopici programmati."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Occuparsi della pressione e trascurare le vie aeree. Rassicurarsi per l'emoglobina di ieri. Trasfondere per alzare l'emoglobina il piu' possibile. Le intramuscolari con l'INR alterato."),
+ (12,"chiaro",0,"Sedare un paziente confuso senza chiedersi se e' encefalopatia o astinenza. Dimenticare la tiamina. E giudicare il paziente per l'alcol: il giudizio allontana dalle cure."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Il tema piu' delicato del caso: come parlare di alcol senza giudicare. L'alcol e' una malattia da dipendenza, non una colpa morale, e un tono giudicante chiude la conversazione."),
+ (13,"chiaro",0,"Si usano domande aperte e un tono neutro: quanto beve in una giornata tipo? Senza minimizzare e senza moralizzare. E si spiega con chiarezza il legame fra alcol, cirrosi e sanguinamento."),
+ (13,"chiaro",0,"Molti pazienti non lo hanno davvero compreso. Si valorizza ogni passo verso il cambiamento, con il colloquio motivazionale della lezione undici punto sei. E si coinvolgono i familiari, con il consenso del paziente."),
+ (13,"chiaro",0,"Si propongono concretamente il SerD, o i servizi di alcologia, e i gruppi di auto-aiuto. Molti decidono di smettere proprio dopo un episodio come questo, se trovano qualcuno disposto ad ascoltarli."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"[curious] Le domande d'orale. Prima: emorragia alta o bassa? L'alta, a monte del legamento di Treitz, si manifesta con ematemesi e melena; la bassa con sangue rosso dal retto."),
+ (14,"chiaro",0,"Ma un'emorragia alta molto abbondante puo' arrivare rossa dal retto. Seconda: perche' nel cirrotico l'emorragia scatena l'encefalopatia?"),
+ (14,"chiaro",0,"Perche' il sangue nell'intestino viene digerito come una grande quantita' di proteine, e produce ammoniaca, che il fegato malato non riesce a eliminare."),
+ (14,"chiaro",0,"Terza: perche' la tiamina prima del glucosio? Perche' nell'alcolista la carenza di tiamina e' frequente, e il glucosio senza tiamina puo' precipitare un'encefalopatia di Wernicke."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Paziente cirrotico con ematemesi abbondante e melena, ipotensione, tachicardia e sonnolenza: emorragia digestiva alta, verosimilmente da varici, con shock emorragico e rischio di inalazione."),
+ (15,"chiaro",0,"Chiamo subito aiuto. Proteggo le vie aeree mettendo il paziente su un fianco, aspirando e valutando la coscienza; somministro ossigeno. Posiziono due accessi di grosso calibro, con prelievi, gruppo e prove crociate."),
+ (15,"chiaro",0,"Somministro liquidi, emocomponenti, vasoattivi e profilassi antibiotica, secondo prescrizione. Mantengo il digiuno e preparo l'endoscopia. Monitoro parametri, diuresi e coscienza."),
+ (15,"chiaro",0,"Poi riconosco l'encefalopatia e do il lattulosio prescritto, senza sedativi; valuto l'astinenza e do la tiamina prima del glucosio. Documento, informo i familiari, imposto un percorso non giudicante verso i servizi."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"I collegamenti. La trasfusione con la sei punto sei. Emorragia digestiva, cirrosi ed encefalopatia con la otto punto cinque. Lo shock con la dieci punto sei."),
+ (16,"chiaro",0,"L'astinenza alcolica e il SerD con la undici punto tre. Le funzioni del fegato con la quattordici punto quattro. E le vie aeree con la dieci punto cinque."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: chi vomita sangue e si addormenta rischia prima di soffocare che di dissanguarsi. Le vie aeree vengono sempre prima."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un paziente in emodialisi che salta una seduta e arriva con un potassio pericolosamente alto. ECG, terapia d'urgenza, e la fistola da proteggere. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni: A e B",5:"Le prime azioni: C",
+ 6:"La terapia specifica",7:"La trasfusione nel cirrotico",8:"Le ore successive: l'encefalopatia",9:"Il secondo problema nascosto: l'astinenza",
+ 10:"Le priorita' quando i problemi si sovrappongono",11:"Verso la dimissione",12:"Gli errori da evitare",13:"Parlare di alcol senza giudicare",
+ 14:"Le domande d'orale",15:"La risposta modello",16:"I collegamenti",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

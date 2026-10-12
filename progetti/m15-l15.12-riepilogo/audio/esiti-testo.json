@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 624,
+  "parole_dette": 623,
+  "coincidenti": 610,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s07",
+    "copione": "sepsi",
+    "detto": "sepsy"
+   },
+   {
+    "blocco": "s13",
+    "copione": "caso lampo",
+    "detto": "casolampo"
+   },
+   {
+    "blocco": "s13",
+    "copione": "50virgola1",
+    "detto": "50 ee 1"
+   },
+   {
+    "blocco": "s16",
+    "copione": "caso lampo",
+    "detto": "casolampo"
+   },
+   {
+    "blocco": "s19",
+    "copione": "caso lampo",
+    "detto": "casolampo"
+   },
+   {
+    "blocco": "s19",
+    "copione": "trentaquattresima",
+    "detto": "34"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s22",
+    "copione": "caso lampo",
+    "detto": "casolampo"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 704,
+  "parole_dette": 704,
+  "coincidenti": 696,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s27",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s34",
+    "copione": "lezione23",
+    "detto": "2 3"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "modulo",
+    "detto": "mildo"
+   },
+   {
+    "blocco": "s46",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

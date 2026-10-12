@@ -1,15 +1,9 @@
 {
  "A": {
-  "parole_copione": 667,
+  "parole_copione": 665,
   "parole_dette": 660,
-  "coincidenti": 639,
-  "buchi": [
-   {
-    "blocco": "s09",
-    "parole_copione": "a vu effe",
-    "al_loro_posto": "avf"
-   }
-  ],
+  "coincidenti": 640,
+  "buchi": [],
   "sostituzioni_brevi": [
    {
     "blocco": "s03",

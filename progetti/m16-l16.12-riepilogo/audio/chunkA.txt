@@ -1,0 +1,45 @@
+[warm] Chiudiamo il modulo dei casi clinici avanzati. Prima riprendiamo le frasi chiave degli undici casi, da usare come ancore, e i fili che li attraversano.
+
+Poi sei casi lampo, su situazioni che possono capitare in qualsiasi turno: per ognuno, il ragionamento essenziale. Infine le tracce piu' probabili legate a questo modulo, i calcoli da sapere, e come allenarsi.
+
+Le frasi del modulo, come ancore. Ictus, sedici punto uno: l'orologio parte dall'ultima volta in cui stava bene. Emorragia nel cirrotico, sedici punto due: chi vomita sangue e si addormenta rischia prima di soffocare.
+
+Iperkaliemia, sedici punto tre: il calcio protegge, ma solo la dialisi porta via il potassio. Embolia, sedici punto quattro: un polpaccio gonfio da un lato non e' da posizione.
+
+Clostridioides, sedici punto cinque: con le spore l'alcol non basta, servono acqua e sapone. Politrauma, sedici punto sei: l'ordine delle priorita' salva piu' della velocita'.
+
+Ustionato, sedici punto sette: l'orologio parte dalle fiamme, non dalla porta del pronto soccorso. Chetoacidosi, sedici punto otto: l'insulina si sospende per ultima.
+
+Nutrizione, sedici punto nove: nutrire piano, e nella posizione giusta. Monossido, sedici punto dieci: il saturimetro non lo legge. Terapia intensiva, sedici punto undici: dietro le macchine c'e' una persona.
+
+[thoughtful] I fili che attraversano i casi. Il primo e' il tempo come dato clinico: nell'ictus, nelle ustioni, nel trauma, dove conta anche l'ora dell'acido tranexamico.
+
+Il secondo sono i parametri che ingannano: la saturazione nel monossido, l'emoglobina nell'emorragia acuta, il potassio nella chetoacidosi, la pressione nell'ictus.
+
+Il terzo: le vie aeree prima di tutto, come nell'ABCDE della lezione dieci punto due. Nel cirrotico che vomita sangue, nell'ustionato con i segni di inalazione, nel paziente ventilato.
+
+Il quarto: la prevenzione mancata come radice dell'evento. L'embolia senza profilassi, l'inalazione durante la nutrizione, la rialimentazione troppo rapida, il Clostridioides isolato in ritardo.
+
+E il quinto: la persona dietro la malattia. Il cirrotico e il suo rapporto con l'alcol, la ragazza che riceve la diagnosi a diciannove anni, la famiglia fuori dalla porta.
+
+[curious] Caso lampo uno. Un ragazzo asmatico di ventidue anni, in pronto soccorso, non riesce a finire una frase e usa i muscoli accessori. Frequenza respiratoria trentaquattro, saturazione novanta.
+
+E all'auscultazione, quasi nessun sibilo. Il torace silenzioso non e' un buon segno: passa pochissima aria. E' un attacco grave, vicino all'arresto, come nella lezione otto punto due.
+
+Posizione seduta, ossigeno con target, broncodilatatori per aerosol ripetuti e corticosteroide secondo prescrizione; eventualmente il magnesio endovena. Monitoraggio, ed emogas.
+
+Un asmatico che smette di sibilare puo' stare peggiorando. E i segni di esaurimento, cioe' sonnolenza, bradicardia, anidride carbonica che sale, richiedono subito il rianimatore.
+
+Caso lampo due. Una signora di ottantotto anni, che vive sola, viene trovata a terra in casa al mattino, d'inverno, dopo una caduta notturna. Temperatura trentuno gradi, bradicardica, confusa.
+
+E in terapia anticoagulante. E' un'ipotermia moderata: la si manovra con delicatezza, perche' il cuore freddo va facilmente in fibrillazione ventricolare, e la si riscalda in modo graduale.
+
+Coperte, e liquidi caldi secondo prescrizione. La lunga permanenza a terra fa pensare alla rabdomiolisi: urine scure, enzimi muscolari, funzione renale.
+
+Con l'anticoagulante, il trauma cranico richiede una TC. Si cercano le lesioni da pressione. E alla fine, la domanda di sempre, quella della lezione quindici punto sette: perche' e' caduta?
+
+Caso lampo tre. Un'ora dopo un catetere venoso centrale in succlavia: dolore toracico e dispnea, saturazione da novantasette a novanta, murmure ridotto dallo stesso lato. Sospetto pneumotorace da procedura.
+
+Ossigeno, posizione semiseduta, avviso immediato al medico e radiografia del torace, preparando il materiale per un eventuale drenaggio. E l'evento si segnala.
+
+E una regola, della lezione sei punto due: il catetere centrale non si usa finche' il corretto posizionamento non e' confermato. Dopo la succlavia, la radiografia esclude anche lo pneumotorace.

@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Questo e' un caso di infezione correlata all'assistenza. Mette alla prova tutto il modulo quattro: igiene delle mani, precauzioni di isolamento, sanificazione, uso responsabile degli antibiotici."),
+ (1,"chiaro",0,"Il protagonista forma spore resistenti e trova terreno favorevole negli ospedali: il Clostridioides difficile. Le lezioni: quattro punto due, quattro punto tre, quattro punto cinque, quattro punto sei, tre punto cinque."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Aldo ha ottantuno anni, ed e' ricoverato in medicina per una polmonite. E' in terapia con una cefalosporina e con un inibitore di pompa protonica."),
+ (2,"chiaro",0,"In sesta giornata presenta cinque scariche di feci acquose nelle ultime ventiquattro ore, febbricola e dolore addominale crampiforme. Divide la stanza con un altro paziente, e usa il bagno comune."),
+ (2,"chiaro",0,"Fermati un momento: che cosa sospetti? E che cosa fai, prima ancora di avere un risultato di laboratorio?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"[thoughtful] Il ragionamento. Tre o piu' scariche non formate in ventiquattro ore, in un paziente ricoverato e in terapia antibiotica: sospetta infezione da Clostridioides difficile. I fattori di rischio ci sono tutti."),
+ (3,"chiaro",0,"Gli antibiotici, che alterano il microbiota intestinale; l'eta' avanzata; l'ospedalizzazione; gli inibitori di pompa. Il batterio si trasmette per via oro-fecale, con spore che resistono a lungo nell'ambiente."),
+ (3,"chiaro",0,"E che l'alcol non distrugge. La regola organizzativa piu' importante: le precauzioni si avviano al sospetto, non alla conferma. Aspettare l'esito significa dare al batterio uno o due giorni di vantaggio."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le precauzioni da contatto. Una stanza singola con bagno dedicato, o almeno una comoda dedicata. Se non ci sono stanze singole, una coorte con altri pazienti infetti, secondo le indicazioni del gruppo per le infezioni."),
+ (4,"chiaro",0,"Guanti e camice per ogni contatto con il paziente o con il suo ambiente. Dispositivi dedicati: fonendoscopio, termometro, sfigmomanometro. La segnaletica sulla porta."),
+ (4,"chiaro",0,"Trasporti limitati, e comunicati in anticipo. E si informa il gruppo operativo per il controllo delle infezioni. Sono le precauzioni da contatto della lezione quattro punto tre."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"[serious] L'igiene delle mani ha qui la sua eccezione piu' famosa. La frizione alcolica, che di solito e' il metodo di riferimento, non elimina le spore."),
+ (5,"chiaro",0,"Per questo, dopo il contatto con il paziente o con il suo ambiente, ci si toglie i guanti e ci si lava le mani con acqua e sapone: e' l'azione meccanica a rimuovere le spore."),
+ (5,"chiaro",0,"I guanti restano fondamentali. In tutte le altre situazioni del reparto, la frizione alcolica resta il metodo di riferimento. Ed e' una domanda d'esame quasi certa."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La diagnosi. Si invia un campione di feci non formate. Le feci formate di norma non vanno inviate, perche' il test potrebbe essere positivo in un semplice portatore."),
+ (6,"chiaro",0,"Contenitore idoneo, etichettatura corretta, invio rapido o conservazione secondo procedura. Il laboratorio ricerca le tossine, o il gene che le produce, secondo il proprio protocollo."),
+ (6,"chiaro",0,"E non si ripete il test per verificare la guarigione: il batterio puo' restare a lungo, anche quando il paziente sta bene."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La terapia, su prescrizione: un trattamento specifico per via orale, come la vancomicina orale o la fidaxomicina. La vancomicina orale non viene assorbita, e agisce proprio nell'intestino."),
+ (7,"chiaro",0,"Si rivaluta con il medico l'antibiotico in corso, che ha causato il problema, e l'inibitore di pompa. Si sospendono i lassativi, che a volte si trovano ancora in terapia."),
+ (7,"chiaro",0,"Si evitano gli antidiarroici senza indicazione. E sullo sfondo c'e' la stewardship della lezione quattro punto sei: meno antibiotici inutili significa meno infezioni da Clostridioides."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"L'assistenza al paziente. Idratazione, bilancio idrico e peso, perche' un anziano con diarrea si disidrata rapidamente. Gli elettroliti, con il rischio di ipokaliemia della lezione tre punto cinque."),
+ (8,"chiaro",0,"Un diario delle scariche, con numero e consistenza, per esempio con la scala di Bristol. La cura della cute perianale, con igiene delicata e prodotti barriera, per prevenire la dermatite associata all'incontinenza."),
+ (8,"chiaro",0,"Il rischio di cadute, per l'urgenza di andare in bagno e per la debolezza. La dignita' e la privacy, in una condizione imbarazzante. E l'alimentazione."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"I segni di gravita', da conoscere. Febbre elevata, leucocitosi marcata, aumento della creatinina, distensione addominale dolorosa. E una trappola: una riduzione improvvisa delle scariche, con l'addome che si distende."),
+ (9,"chiaro",0,"Non e' sempre un miglioramento. Puo' indicare un ileo, o un megacolon tossico: una complicanza grave, in cui il colon si dilata e non si svuota piu'. Con ipotensione e confusione, si segnala subito."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Ottava giornata: il compagno di stanza inizia ad avere diarrea. Due casi collegati possono indicare un cluster, cioe' una trasmissione in reparto."),
+ (10,"chiaro",0,"Si informano subito il gruppo per il controllo delle infezioni e la direzione, e si avviano le precauzioni anche per il secondo paziente. Poi si rivede che cosa puo' aver favorito la trasmissione."),
+ (10,"chiaro",0,"Il bagno comune, i dispositivi condivisi, l'aderenza all'igiene delle mani. Sanificazione straordinaria, e sorveglianza degli altri pazienti. Il secondo caso conferma quanto fosse importante isolare il primo al sospetto."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La sanificazione. Servono prodotti sporicidi, per esempio a base di cloro, secondo la procedura aziendale: e' la disinfezione sporicida della lezione quattro punto cinque."),
+ (11,"chiaro",0,"Attenzione alle superfici ad alto contatto: sponde, campanello, comodino, maniglie, bagno, comoda. I dispositivi riutilizzabili si puliscono e si disinfettano dopo ogni uso."),
+ (11,"chiaro",0,"Alla dimissione, o al termine dell'isolamento, la sanificazione terminale della stanza, coordinandosi con il servizio di pulizia, che deve conoscere il tipo di prodotto da usare."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Un approfondimento sui germi multiresistenti, che seguono una logica simile. Lo MRSA, lo stafilococco resistente alla meticillina."),
+ (12,"chiaro",0,"Gli enterobatteri produttori di carbapenemasi, come la Klebsiella KPC, molto diffusi negli ospedali italiani. E gli enterococchi resistenti alla vancomicina."),
+ (12,"chiaro",0,"Per i pazienti a rischio, uno screening secondo protocollo, per esempio un tampone rettale all'ingresso. Poi le precauzioni da contatto, l'igiene delle mani, i dispositivi dedicati, la sanificazione, la stewardship."),
+ (12,"chiaro",0,"E la colonizzazione si segnala nei trasferimenti e alla dimissione, anche verso le strutture residenziali, per non interrompere la catena di prevenzione."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Aspettare il referto per isolare. Usare solo la frizione alcolica. Lasciare il paziente nel bagno comune. Condividere fonendoscopio e termometro. Inviare feci formate."),
+ (13,"chiaro",0,"Continuare lassativi e antibiotico senza rivalutazione. Interpretare come un miglioramento la riduzione delle scariche con l'addome disteso. Trascurare la cute e la dignita'."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"[curious] Le domande d'orale. Prima: perche' acqua e sapone? Perche' il batterio forma spore che l'alcol non distrugge, e il lavaggio le rimuove meccanicamente. Seconda: le precauzioni da contatto?"),
+ (14,"chiaro",0,"Stanza singola o coorte, bagno dedicato, guanti e camice per ogni contatto, dispositivi dedicati, segnaletica, trasporti limitati, sanificazione accurata, gruppo per le infezioni informato."),
+ (14,"chiaro",0,"Terza: i fattori di rischio? Terapia antibiotica, eta' avanzata, ospedalizzazione o residenza in strutture, inibitori di pompa protonica, comorbidita' e immunodepressione."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Paziente anziano in terapia antibiotica e con inibitore di pompa, che in sesta giornata presenta diarrea acquosa, febbricola e dolore addominale: sospetta infezione da Clostridioides difficile."),
+ (15,"chiaro",0,"Trasmissibile tramite spore. Al sospetto attivo le precauzioni da contatto: stanza singola con bagno dedicato, guanti e camice, dispositivi dedicati. Informo il medico e il gruppo per le infezioni."),
+ (15,"chiaro",0,"Eseguo l'igiene delle mani con acqua e sapone. Invio un campione di feci non formate. Somministro la terapia orale prescritta, segnalo per la rivalutazione antibiotico e inibitore di pompa, sospendo i lassativi."),
+ (15,"chiaro",0,"Garantisco idratazione, elettroliti, cura della cute, prevenzione delle cadute e dignita'. Sorveglio i segni di gravita'. Coordino la sanificazione con prodotti sporicidi, e segnalo eventuali nuovi casi."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"I collegamenti. Igiene delle mani con la quattro punto due. Precauzioni e isolamento con la quattro punto tre. Sanificazione con la quattro punto cinque. Stewardship con la quattro punto sei."),
+ (16,"chiaro",0,"Elettroliti e bilancio con la tre punto cinque. L'alvo con la tre punto sette. E la cute con la sette punto due."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: con le spore, l'alcol non basta. Servono acqua, sapone, e un isolamento al primo sospetto."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un giovane motociclista politraumatizzato, che arriva in pronto soccorso di notte. L'approccio XABCDE in equipe, minuto per minuto. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le precauzioni da contatto",5:"L'igiene delle mani: l'eccezione",
+ 6:"La diagnosi",7:"La terapia e la stewardship",8:"L'assistenza al paziente",9:"I segni di gravita'",
+ 10:"Ottava giornata: il secondo caso",11:"La sanificazione",12:"I germi multiresistenti",13:"Gli errori da evitare",
+ 14:"Le domande d'orale",15:"La risposta modello",16:"I collegamenti",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Per molte persone con diabete di tipo uno la diagnosi arriva cosi': in pronto soccorso, con una chetoacidosi. Il caso ha due facce. Una e' l'emergenza metabolica: insulina in pompa, liquidi e potassio, ora per ora."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'altra e' una ragazza di diciannove anni che scopre una malattia che l'accompagnera' per tutta la vita. Ci servono le lezioni tre punto cinque, cinque punto cinque, sei punto quattro, otto punto tre e undici punto sei."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Giulia, diciannove anni, studentessa. Da una decina di giorni beve molto, urina spesso, ha perso cinque chili ed e' sempre stanca."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oggi ha vomito, dolore addominale, un respiro profondo e frequente, l'alito fruttato, ed e' sonnolenta. Glicemia quattrocentottantasei, chetoni nel sangue cinque virgola due."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Emogas: pH sette virgola dodici, bicarbonato nove, anidride carbonica ventidue. Potassio cinque virgola quattro, sodio centotrentuno. Frequenza centoventiquattro, pressione centodue su sessanta."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Fermati un momento: come leggi l'emogas? E perche' quel potassio alto e' una trappola?"
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il ragionamento. Poliuria, polidipsia e calo di peso in una ragazza sono i segni dell'esordio di un diabete di tipo uno. Glicemia alta, chetoni e acidosi metabolica definiscono la chetoacidosi."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'emogas, con i quattro passi della lezione sei punto quattro. pH sette virgola dodici: acidemia. Bicarbonato nove: origine metabolica. Anidride carbonica ventidue, cioe' bassa: e' il compenso respiratorio."
+ },
+ {
+  "id": "s10",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il respiro profondo di Kussmaul serve proprio a eliminare la CO2. E la tachicardia, con la pressione ai limiti, indica una disidratazione importante."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] La trappola del potassio. Il valore nel sangue e' cinque virgola quattro, normale o un po' alto. Ma il potassio totale dell'organismo e' ridotto: Giulia ne ha perso molto con le urine e il vomito."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il valore sembra normale solo perche' l'acidosi e la mancanza di insulina spingono il potassio fuori dalle cellule. Appena si da' l'insulina, il potassio rientra, e il valore nel sangue crolla: ipokaliemia e aritmie."
+ },
+ {
+  "id": "s13",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo l'insulina si avvia solo con un potassio adeguato, indicativamente da tre virgola cinque in su, e il potassio si reintegra secondo protocollo durante la terapia."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le prime azioni. ABCDE e avviso al medico. Due accessi venosi. Monitoraggio ECG continuo, per il potassio. E i liquidi, con soluzione fisiologica secondo prescrizione: la prima priorita', perche' la disidratazione e' grave."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prelievi seriati ed emogas. Una misurazione accurata della diuresi. Digiuno per bocca finche' vomita, e un antiemetico secondo prescrizione. E la ricerca di un fattore scatenante, come un'infezione."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'insulina si somministra rapida, endovena, in infusione continua con pompa, secondo protocollo. E' un farmaco ad alto livello di attenzione: si prepara con il doppio controllo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si infonde in una linea dedicata o chiaramente identificata. Si controllano la glicemia ogni ora, la chetonemia e l'emogas secondo protocollo, e il potassio ogni una-due ore all'inizio."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E un punto concettuale: l'obiettivo non e' solo abbassare la glicemia, ma risolvere la chetosi e l'acidosi."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando la glicemia scende. La glicemia si normalizza prima che i chetoni scompaiano. Per questo, quando si avvicina a circa duecentocinquanta, secondo protocollo si aggiunge una soluzione glucosata."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Mantenendo l'insulina: l'insulina serve ancora a eliminare i chetoni, e il glucosio evita l'ipoglicemia. Si evitano discese troppo rapide di glicemia e sodio."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E si sorveglia la coscienza: cefalea, vomito, bradicardia o un calo della coscienza possono indicare un edema cerebrale, una complicanza rara ma piu' frequente nei giovani. Si segnala subito."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il passaggio all'insulina sottocutanea, un punto tecnico molto chiesto. Quando la chetoacidosi e' risolta e la paziente riesce a mangiare, si da' la basale sottocutanea prima di sospendere l'infusione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con una sovrapposizione di una-due ore, indicativamente, secondo protocollo. L'endovena ha un'azione brevissima: sospenderla senza basale fa tornare la chetosi in poche ore. Poi il basal-bolus, con il team diabetologico."
+ },
+ {
+  "id": "s24",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] E ora l'altra faccia del caso. Giulia ti chiede: quindi dovro' farmi le punture per sempre? E' un momento delicato. Prima l'ascolto: accogliere le emozioni, paura, rabbia, negazione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi un'informazione graduale: non si spiega tutto il primo giorno. Il messaggio di fondo e' realistico e incoraggiante: con le competenze giuste si vive una vita piena, con lo studio, lo sport, i viaggi."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si coinvolgono i familiari secondo i suoi desideri, perche' e' maggiorenne. Si offre un supporto psicologico, e la si affida al team diabetologico."
+ },
+ {
+  "id": "s27",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'educazione, che e' un percorso e non una lezione. La tecnica di iniezione e la rotazione delle sedi, o il microinfusore. L'autocontrollo con il glucometro o il sensore. I carboidrati e le dosi ai pasti."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ipoglicemia: riconoscerla e trattarla, e il glucagone, che anche familiari e amici devono saper usare. E le regole dei giorni di malattia, che per una persona con diabete di tipo uno sono vitali."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non sospendere mai l'insulina basale, misurare glicemia e chetoni, bere, chiamare. Poi alcol, sport, guida. E le associazioni di pazienti, che per una giovane possono fare la differenza."
+ },
+ {
+  "id": "s30",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: chetoacidosi e stato iperosmolare a confronto, come nella lezione otto punto tre. La chetoacidosi riguarda soprattutto il tipo uno e i giovani, ed esordisce in ore o giorni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemia sopra duecentocinquanta, chetoni abbondanti, acidosi, Kussmaul e alito fruttato. Lo stato iperosmolare riguarda soprattutto il tipo due e gli anziani, ed esordisce in giorni."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Glicemie molto alte, spesso oltre seicento, chetoni assenti o lievi, una disidratazione molto grave e un'alterazione della coscienza. In entrambi: liquidi, insulina, potassio e sorveglianza della coscienza."
+ },
+ {
+  "id": "s33",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli errori. Rassicurarsi per il potassio normale. Avviare l'insulina prima dei liquidi, e senza conoscere il potassio. L'insulina endovena senza pompa e senza doppio controllo."
+ },
+ {
+  "id": "s34",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sospendere l'insulina appena la glicemia si normalizza. Non aggiungere il glucosio. Sospendere l'infusione senza la basale. Sommergere la paziente di informazioni il primo giorno."
+ },
+ {
+  "id": "s35",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: che cos'e' la chetoacidosi? Un'emergenza da carenza di insulina, con iperglicemia, chetoni e acidosi metabolica."
+ },
+ {
+  "id": "s36",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si riconosce da poliuria, sete, disidratazione, vomito, dolore addominale, respiro di Kussmaul, alito fruttato e alterazione della coscienza. Seconda: perche' sorvegliare tanto il potassio?"
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' il potassio totale e' ridotto anche se il valore nel sangue sembra normale, e con l'insulina rientra nelle cellule e crolla, con rischio di aritmie. Terza: perche' glucosio e insulina insieme?"
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' la glicemia si normalizza prima della chetosi: l'insulina serve a eliminare i chetoni, il glucosio a evitare l'ipoglicemia."
+ },
+ {
+  "id": "s39",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Giovane con poliuria, polidipsia e calo di peso, ora con vomito, dolore addominale, Kussmaul, alito fruttato e sonnolenza; glicemia quattrocentottantasei, chetoni e acidosi metabolica."
+ },
+ {
+  "id": "s40",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chetoacidosi all'esordio di un diabete di tipo uno. Priorita': correggere disidratazione, carenza di insulina e acidosi, prevenendo le alterazioni del potassio. Valuto ABCDE, avviso il medico, due accessi, ECG."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Infondo fisiologica secondo prescrizione e misuro la diuresi. Avvio l'insulina endovena in pompa, con doppio controllo e potassio adeguato, reintegrandolo; glicemia ogni ora, chetoni, emogas e potassio."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vicino a duecentocinquanta aggiungo glucosata, mantenendo l'insulina; sorveglio la coscienza. Al passaggio sottocutaneo, la basale prima di sospendere l'infusione. Accolgo le emozioni e avvio un'educazione graduale."
+ },
+ {
+  "id": "s43",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. Gli elettroliti con la tre punto cinque. Le insuline e i farmaci ad alto livello di attenzione con la cinque punto cinque e la cinque punto quattro. L'emogas con la sei punto quattro."
+ },
+ {
+  "id": "s44",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il diabete e le sue emergenze con la otto punto tre. L'educazione terapeutica con la undici punto sei. Il pancreas endocrino con la quattordici punto cinque."
+ },
+ {
+  "id": "s45",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il punto di vista della paziente. Una malattia cronica a diciannove anni tocca l'identita', l'autonomia, le relazioni, lo studio, il futuro. E in questa fase della vita il rischio di scarsa aderenza e' alto."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta non e' il controllo, ma l'alleanza: obiettivi condivisi, tecnologie che semplificano la vita, come i sensori, e un linguaggio non colpevolizzante. Si dice glicemia alta, non glicemia cattiva."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono gli strumenti della lezione undici punto sei, applicati a una persona giovane, che sta imparando a convivere con la sua malattia."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: nella chetoacidosi la glicemia si corregge in fretta, i chetoni no. L'insulina si sospende per ultima, e mai senza la basale."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione: un paziente in nutrizione enterale che sviluppa una polmonite da inalazione, e una complicanza della rialimentazione che pochi conoscono. A tra poco."
+ }
+]

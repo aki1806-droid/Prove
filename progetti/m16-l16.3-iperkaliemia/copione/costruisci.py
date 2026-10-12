@@ -4,76 +4,76 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il potassio e' l'elettrolita che uccide piu' in silenzio: un'iperkaliemia grave puo' dare pochi sintomi e poi, all'improvviso, un'aritmia mortale."),
+ (1,"chiaro",0,"Qui un paziente in emodialisi salta una seduta e arriva in pronto soccorso con un potassio pericoloso. Vedremo come si legge l'ECG, perche' i farmaci d'urgenza agiscono in modi diversi, e come si protegge la fistola."),
+ (1,"chiaro",0,"Ci servono le lezioni tre punto cinque, sei punto uno, otto punto quattro, quattordici punto quattro e quattordici punto sette."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Sergio ha sessantotto anni ed e' in emodialisi il lunedi', il mercoledi' e il venerdi', con una fistola al braccio sinistro. E' quasi anurico. Venerdi' non si e' presentato alla seduta."),
+ (2,"chiaro",0,"Lunedi' alle otto arriva in pronto soccorso: una forte astenia, le gambe molli, formicolii, nausea, dispnea. Frequenza quarantasei, pressione centocinquanta su novanta."),
+ (2,"chiaro",0,"Frequenza respiratoria ventisei, saturazione novantadue, edemi declivi, crepitii alle basi. E pesa tre chili e mezzo piu' del suo peso secco. Fermati: quali due problemi vedi, e quale e' piu' pericoloso adesso?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Un paziente quasi anurico che salta una seduta accumula tutto cio' che il rene non elimina: potassio, liquidi, scorie, acidi."),
+ (3,"chiaro",0,"La debolezza muscolare, le parestesie e la bradicardia fanno sospettare un'iperkaliemia grave. Gli edemi, i crepitii, la dispnea e il peso aumentato indicano un sovraccarico di liquidi."),
+ (3,"chiaro",0,"[serious] Il problema piu' pericoloso nell'immediato e' l'iperkaliemia, perche' puo' causare aritmie e arresto cardiaco senza preavviso."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Monitor continuo, con il defibrillatore pronto. Avvisi subito il medico. ECG a dodici derivazioni. Accesso venoso e prelievi sul braccio destro: mai su quello con la fistola, l'accesso vitale del paziente."),
+ (4,"chiaro",0,"Il potassio si puo' avere in pochi minuti con l'emogas, senza aspettare il laboratorio. Semiseduto, ossigeno secondo protocollo, i farmaci d'urgenza pronti. E avvisi la dialisi, che sara' il trattamento definitivo."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"L'emogas conferma un potassio di sette virgola quattro, su un campione non emolizzato. E l'ECG dell'iperkaliemia cambia in modo progressivo."),
+ (5,"chiaro",0,"Prima onde T alte e appuntite. Poi un PR allungato, con l'onda P che si appiattisce. Poi un QRS che si allarga, fino alla bradicardia estrema, ai ritmi a QRS largo, all'arresto in fibrillazione ventricolare o asistolia."),
+ (5,"chiaro",0,"Il signor Sergio ha onde T appuntite, PR lungo e un QRS che inizia ad allargarsi: e' un'emergenza. E un avvertimento: un ECG normale non esclude un'iperkaliemia grave."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"I farmaci d'urgenza, sempre secondo prescrizione, con tre meccanismi diversi da saper spiegare. Uno: stabilizzare il cuore. Il calcio endovena protegge il miocardio dalle aritmie in pochi minuti."),
+ (6,"chiaro",0,"Ma non abbassa il potassio. E' una protezione temporanea, e richiede cautela nei pazienti in digossina."),
+ (6,"chiaro",0,"Due: spostare il potassio dentro le cellule. L'insulina rapida con il glucosio, il salbutamolo per aerosol, e il bicarbonato se c'e' acidosi. Anche questo e' temporaneo: il potassio resta nel corpo."),
+ (6,"chiaro",0,"Tre: eliminarlo. Con l'emodialisi urgente, che e' il trattamento definitivo, e con le resine o i leganti del potassio. E' l'unico dei tre che lo porta fuori dal corpo."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"La sorveglianza durante la terapia. ECG continuo, e il potassio ripetuto secondo prescrizione. La glicemia dopo l'insulina e il glucosio: l'ipoglicemia puo' comparire anche ore dopo."),
+ (7,"chiaro",0,"Il rischio e' maggiore nel nefropatico, che elimina l'insulina piu' lentamente: il caso quindici punto otto. Poi velocita' e sede del calcio, perche' lo stravaso danneggia i tessuti. E il salbutamolo: tachicardia, tremori."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il sovraccarico di liquidi. Posizione semiseduta e ossigeno con un target. Nel paziente anurico i diuretici sono poco o per nulla efficaci: i liquidi in eccesso si rimuovono con la dialisi, con l'ultrafiltrazione."),
+ (8,"chiaro",0,"Nel frattempo restrizione dei liquidi, bilancio e peso, e i segni di edema polmonare. Ricordi il caso quindici punto sei? Li' la furosemide funzionava; qui il rene non risponde, e la soluzione e' un'altra."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"La fistola, ancora una volta. Si controllano fremito e soffio. Sul braccio della fistola niente pressione, prelievi, cannule o lacci, e lo si segnala al letto."),
+ (9,"chiaro",0,"Dopo la dialisi, il sanguinamento dai punti di puntura, l'ipotensione, il peso rispetto al peso secco. E con un catetere per dialisi, la regola della lezione otto punto quattro: il lock si aspira, non si spinge mai."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"[thoughtful] E poi la domanda che cambia il caso: perche' ha saltato la seduta? Si chiede senza giudicare: che cosa le ha impedito di venire venerdi'?"),
+ (10,"chiaro",0,"Le cause possono essere molto diverse: un problema di trasporto, la stanchezza, una depressione, difficolta' familiari o economiche, oppure la volonta' di sospendere il trattamento."),
+ (10,"chiaro",0,"La risposta orienta l'intervento: un servizio di trasporto, un supporto psicologico, l'assistente sociale, oppure un colloquio sulle scelte di cura."),
+ (10,"chiaro",0,"Il diritto di rifiutare la dialisi esiste, come prevede la legge duecentodiciannove. Ma deve essere una scelta informata e accompagnata, non il risultato di un problema pratico irrisolto."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Un approfondimento pratico: il potassio nel piatto. Ne sono ricchi molti frutti, come banane, kiwi, agrumi, frutta secca; molte verdure, come patate, pomodori, legumi, verdure a foglia; il cioccolato, i succhi."),
+ (11,"chiaro",0,"Per ridurlo si tagliano le verdure, si lasciano in ammollo, poi si bollono in abbondante acqua da eliminare. E un'attenzione che pochi conoscono: i sostituti del sale iposodici contengono spesso cloruro di potassio."),
+ (11,"chiaro",0,"Per un dializzato possono essere pericolosi. Anche alcuni farmaci aumentano il potassio: ACE-inibitori, sartani, diuretici risparmiatori di potassio, FANS. E il piano alimentare si costruisce con il dietista."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"L'educazione. Non saltare le sedute, e in caso di impedimento contattare subito il centro dialisi, che puo' spostarle. La dieta, con attenzione a potassio, fosforo e sale."),
+ (12,"chiaro",0,"I liquidi, con il limite indicato e il controllo del peso fra una seduta e l'altra. I segni d'allarme per cui chiamare subito: debolezza, formicolii, palpitazioni, dispnea, aumento rapido di peso."),
+ (12,"chiaro",0,"La cura della fistola. E nessun farmaco da banco senza consiglio, in particolare i FANS."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"Gli errori. Pungere o misurare la pressione sul braccio della fistola. Aspettare il laboratorio senza il monitor. Pensare che il calcio abbassi il potassio."),
+ (13,"chiaro",0,"Dimenticare la glicemia dopo insulina e glucosio. Contare sui diuretici in un paziente anurico. E non chiedere perche' ha saltato la seduta."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"[curious] Le domande d'orale. Prima: le alterazioni ECG dell'iperkaliemia? Onde T alte e appuntite, poi PR allungato e onda P appiattita, poi QRS che si allarga, fino alla bradicardia e all'arresto."),
+ (14,"chiaro",0,"Seconda: come agiscono i farmaci? Il calcio stabilizza la membrana del miocardio senza abbassare il potassio. Insulina con glucosio e salbutamolo spostano il potassio nelle cellule. La dialisi lo elimina."),
+ (14,"chiaro",0,"Terza: che cosa non si fa sul braccio con la fistola? Non si misura la pressione, niente prelievi, cannule, lacci, indumenti stretti."),
+ (14,"chiaro",0,"Non si sollevano pesi, e non ci si dorme sopra: e' l'elenco della lezione otto punto quattro. E ogni giorno si controllano fremito e soffio."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"La risposta modello. Paziente in emodialisi che ha saltato una seduta, con astenia, parestesie, bradicardia, dispnea, edemi e aumento di peso: sospetta iperkaliemia grave e sovraccarico. Priorita': prevenire le aritmie."),
+ (15,"chiaro",0,"Avvio il monitoraggio con il defibrillatore pronto, avviso subito il medico ed eseguo l'ECG. Posiziono l'accesso sul braccio senza fistola, e ottengo il potassio rapido con l'emogas."),
+ (15,"chiaro",0,"Somministro secondo prescrizione calcio endovena, insulina con glucosio e salbutamolo, sorvegliando ECG, potassio e glicemia. E avviso la dialisi per il trattamento urgente."),
+ (15,"chiaro",0,"Gestisco il sovraccarico: semiseduto, ossigeno, restrizione idrica. Proteggo la fistola. Indago senza giudizio il motivo della seduta saltata. Educo su sedute, dieta povera di potassio, liquidi e segni d'allarme."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"I collegamenti. Potassio ed emolisi con la tre punto cinque. Il patrimonio venoso con la sei punto uno. Dialisi e fistola con la otto punto quattro. Il rene con la quattordici punto quattro."),
+ (16,"chiaro",0,"I valori di laboratorio con la quattordici punto sette. Le alterazioni dell'ECG con la tre punto cinque. E la legge duecentodiciannove, sul consenso e sul rifiuto delle cure, con la uno punto sei."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: il calcio protegge il cuore, ma il potassio resta. Solo la dialisi lo porta via."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: una paziente in medicina che, al primo tentativo di alzarsi, diventa improvvisamente dispnoica. Una trombosi che nessuno aveva cercato, e una profilassi che nessuno aveva prescritto. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"L'ECG dell'iperkaliemia",
+ 6:"I farmaci d'urgenza: tre meccanismi diversi",7:"La sorveglianza durante la terapia",8:"Il sovraccarico di liquidi",9:"La fistola: ancora una volta",
+ 10:"Perche' ha saltato la seduta?",11:"Il potassio nel piatto",12:"L'educazione",13:"Gli errori da evitare",
+ 14:"Le domande d'orale",15:"La risposta modello",16:"I collegamenti",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

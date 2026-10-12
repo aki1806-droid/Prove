@@ -1,0 +1,124 @@
+{
+ "A": {
+  "parole_copione": 644,
+  "parole_dette": 643,
+  "coincidenti": 630,
+  "buchi": [
+   {
+    "blocco": "s04",
+    "parole_copione": "port a cath",
+    "al_loro_posto": "porta cat"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "centotto",
+    "detto": "108"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s11",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s11",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s19",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s19",
+    "copione": "d",
+    "detto": "di"
+   },
+   {
+    "blocco": "s22",
+    "copione": "petecchie",
+    "detto": "petechie"
+   },
+   {
+    "blocco": "s23",
+    "copione": "al",
+    "detto": "a"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 640,
+  "parole_dette": 636,
+  "coincidenti": 625,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s28",
+    "copione": "psico oncologico",
+    "detto": "psiconcologico"
+   },
+   {
+    "blocco": "s28",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s32",
+    "copione": "prenda",
+    "detto": "prende"
+   },
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s34",
+    "copione": "cath",
+    "detto": "cat"
+   },
+   {
+    "blocco": "s35",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s37",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "psico oncologico",
+    "detto": "psiconcologico"
+   },
+   {
+    "blocco": "s45",
+    "copione": "psico oncologico",
+    "detto": "psiconcologico"
+   }
+  ]
+ }
+}

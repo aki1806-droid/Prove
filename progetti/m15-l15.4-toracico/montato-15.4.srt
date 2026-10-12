@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,550
+Un uomo entra in pronto soccorso con un dolore al petto. In meno di mezz'ora attraversera' il triage, la diagnosi di infarto, un arresto cardiaco e la rianimazione, fino all'emodinamica.
+
+2
+00:00:13,550 --> 00:00:25,450
+E' il caso piu' tempo-dipendente del modulo. Mette alla prova il triage della lezione dieci punto uno, l'infarto della otto punto uno, la rianimazione della dieci punto tre e la rete veneta della tredici punto tre.
+
+3
+00:00:25,450 --> 00:00:38,350
+Ore nove e quaranta. Il signor Ferri, sessantuno anni, fumatore e iperteso, arriva accompagnato dalla moglie. Ha un dolore retrosternale oppressivo da cinquanta minuti, irradiato alla mandibola. E' sudato e ha nausea.
+
+4
+00:00:38,350 --> 00:00:49,140
+Pressione centootto su settanta, frequenza cinquantotto, respiratoria venti, saturazione novantasei in aria, e' vigile. Sei l'infermiere di triage: quale codice, e che cosa fai?
+
+5
+00:00:49,140 --> 00:00:59,150
+Il triage. Le funzioni vitali sono conservate, quindi non e' un codice uno. Ma c'e' un rischio concreto di compromissione: un dolore toracico tipico, con sudorazione.
+
+6
+00:00:59,150 --> 00:01:06,710
+E' un codice due, arancione, o il codice che il protocollo locale prevede per il dolore toracico, con l'attivazione del percorso dedicato.
+
+7
+00:01:06,710 --> 00:01:16,470
+L'azione piu' importante: l'ECG a dodici derivazioni entro dieci minuti dal primo contatto. E il paziente non resta in sala d'attesa: va in un'area monitorata.
+
+8
+00:01:16,470 --> 00:01:25,670
+Alle nove e quarantasette l'ECG mostra un sopraslivellamento del tratto ST nelle derivazioni due, tre e a vu effe. E' uno STEMI inferiore.
+
+9
+00:01:25,670 --> 00:01:35,210
+Ora la frequenza di cinquantotto ha un senso. Nell'infarto inferiore una bradicardia e' frequente, perche' la coronaria destra irrora spesso il nodo senoatriale.
+
+10
+00:01:35,210 --> 00:01:45,900
+L'ECG va mostrato subito al medico, che attiva la rete STEMI e l'emodinamica. Ricordi la lezione tredici punto tre: il paziente va portato il prima possibile nel centro con l'emodinamica.
+
+11
+00:01:45,900 --> 00:01:58,250
+Le azioni, mentre si attiva l'emodinamica. Monitor e defibrillatore pronti, con le placche gia' applicate se previsto. Riposo e rassicurazione. L'ossigeno non e' indicato, con una saturazione di novantasei.
+
+12
+00:01:58,250 --> 00:02:11,270
+Due accessi venosi secondo protocollo, lasciando libero l'arto previsto per l'accesso arterioso della coronarografia, se indicato. I prelievi: troponina, emocromo, coagulazione, elettroliti, funzione renale.
+
+13
+00:02:11,270 --> 00:02:25,560
+I farmaci, secondo prescrizione o protocollo: antiaggreganti, anticoagulante, analgesia. E la preparazione all'emodinamica: consenso, allergie, soprattutto al contrasto, funzione renale, rimozione di protesi e monili.
+
+14
+00:02:25,560 --> 00:02:34,990
+E ora una trappola, tipica dei quiz. Viene chiesto di preparare un nitrato sublinguale per il dolore. Ma e' un infarto inferiore, che puo' coinvolgere il ventricolo destro.
+
+15
+00:02:34,990 --> 00:02:44,700
+Lo si verifica con le derivazioni destre dell'ECG. E la pressione e' gia' centootto. Nell'infarto del ventricolo destro i nitrati possono causare un'ipotensione grave.
+
+16
+00:02:44,700 --> 00:02:55,730
+L'infermiere segnala il dubbio e chiede conferma prima di somministrare. E chiede se ha preso farmaci per la disfunzione erettile nelle ultime ore, l'altra controindicazione. E' il suo ruolo di barriera.
+
+17
+00:02:55,730 --> 00:03:07,680
+Ore dieci e cinque. Il signor Ferri porta la mano al petto e perde coscienza. Sul monitor compare una fibrillazione ventricolare. E' un arresto testimoniato e monitorato. Che cosa fai, e in che ordine?
+
+18
+00:03:07,680 --> 00:03:19,680
+Chiami aiuto e il team. Confermi in pochi secondi che non risponde e non respira normalmente. Il ritmo e' defibrillabile e il defibrillatore e' gia' collegato: la priorita' e' la defibrillazione immediata.
+
+19
+00:03:19,680 --> 00:03:31,560
+Le linee guida europee prevedono che, in un arresto testimoniato e monitorato in fibrillazione ventricolare, con il defibrillatore subito disponibile, si possano erogare fino a tre shock in rapida successione.
+
+20
+00:03:31,560 --> 00:03:40,540
+Si verifica il ritmo dopo ciascuno. Poi si riprende la rianimazione, trenta a due, per due minuti. E durante ogni shock nessuno tocca il paziente.
+
+21
+00:03:40,540 --> 00:03:52,600
+Il team, con ruoli chiari. Il leader, che dirige e decide. Chi fa le compressioni, con il cambio ogni due minuti. Chi gestisce defibrillatore e monitor. Chi le vie aeree, con pallone e ossigeno.
+
+22
+00:03:52,600 --> 00:04:05,940
+Chi gestisce l'accesso e i farmaci, secondo l'algoritmo: adrenalina e amiodarone dopo il terzo shock, se la fibrillazione persiste. E il timekeeper, che registra l'ora dell'arresto, i ritmi, gli shock e i farmaci.
+
+23
+00:04:05,940 --> 00:04:14,080
+Tutto con una comunicazione a ciclo chiuso: carico un milligrammo di adrenalina; adrenalina somministrata. E il timekeeper ne annota l'orario.
+
+24
+00:04:14,080 --> 00:04:26,310
+Alle dieci e sette, dopo il secondo shock, compare un ritmo organizzato. C'e' il polso e il paziente respira: e' il ritorno della circolazione spontanea. Iniziano le cure post-arresto della dieci punto tre.
+
+25
+00:04:26,310 --> 00:04:41,760
+ABCDE, saturazione fra novantaquattro e novantotto, evitare l'ipotensione. ECG a dodici derivazioni e glicemia. Controllo della temperatura, per evitare la febbre. Monitoraggio continuo, e tutti gli orari registrati.
+
+26
+00:04:41,760 --> 00:04:49,470
+Il trasferimento in emodinamica avviene con monitor e defibrillatore, ossigeno, farmaci d'emergenza e personale adeguato.
+
+27
+00:04:49,470 --> 00:05:03,600
+Nelle consegne SBAR: l'ora d'inizio del dolore, l'ECG, la terapia, l'arresto, con ritmo, numero di shock e tempo al ritorno del circolo, e lo stato attuale. L'ora del dolore conta quanto quella dell'arresto.
+
+28
+00:05:03,600 --> 00:05:14,590
+La moglie era presente all'arrivo e durante l'arresto. Se possibile, un operatore si dedica a lei. Le informazioni cliniche le da' il medico, in un luogo riservato. E la si informa del trasferimento.
+
+29
+00:05:14,590 --> 00:05:23,680
+Le linee guida considerano che la presenza dei familiari durante la rianimazione possa essere offerta, con un operatore che li supporti e spieghi cio' che accade.
+
+30
+00:05:23,680 --> 00:05:36,780
+Dopo l'angioplastica, in unita' coronarica, si sorveglia la sede di accesso arterioso, radiale o femorale: sanguinamento, ematoma, polso e perfusione a valle, con i dispositivi di compressione secondo protocollo.
+
+31
+00:05:36,780 --> 00:05:45,540
+Poi il ritmo, e un'eventuale recidiva del dolore. La funzione renale dopo il mezzo di contrasto, con l'idratazione. E una mobilizzazione graduale.
+
+32
+00:05:45,540 --> 00:05:58,250
+L'educazione alla dimissione. La doppia antiaggregazione non va mai sospesa di propria iniziativa, perche' lo stent potrebbe trombizzarsi. E va segnalata a ogni medico e al dentista, prima di qualsiasi procedura.
+
+33
+00:05:58,250 --> 00:06:12,190
+Smettere di fumare. Controllare pressione, colesterolo, glicemia e peso. Attivita' fisica e riabilitazione cardiologica. Riconoscere i sintomi, e chiamare subito il centododici o il centodiciotto, senza mettersi alla guida.
+
+34
+00:06:12,190 --> 00:06:20,560
+Gli errori. Lasciare il paziente in sala d'attesa perche' i parametri sono buoni. Fare l'ECG oltre i dieci minuti. Dare l'ossigeno di routine.
+
+35
+00:06:20,560 --> 00:06:31,080
+Somministrare nitrati senza valutare pressione, ventricolo destro e farmaci assunti. Nell'arresto monitorato, ritardare la defibrillazione. E non registrare gli orari.
+
+36
+00:06:31,080 --> 00:06:43,570
+Un tema che il caso porta con se': il consenso in urgenza. All'arrivo il signor Ferri e' cosciente e capace: anche in urgenza lo si informa, con parole essenziali e comprensibili, e si raccoglie il consenso.
+
+37
+00:06:43,570 --> 00:06:55,070
+Senza rinunciarvi per fretta. Se invece la persona e' incosciente e in pericolo di vita, come durante l'arresto, la legge duecentodiciannove, all'articolo uno, prevede che si assicurino le cure necessarie.
+
+38
+00:06:55,070 --> 00:07:07,850
+Nel rispetto della volonta' del paziente, ove le condizioni cliniche lo consentano. Le disposizioni anticipate o le volonta' espresse vanno considerate. E l'infermiere informa per quanto di sua competenza, e documenta.
+
+39
+00:07:07,850 --> 00:07:17,730
+Le domande d'orale. Prima: quali ritmi sono defibrillabili, e quali no? Defibrillabili sono la fibrillazione ventricolare e la tachicardia ventricolare senza polso.
+
+40
+00:07:17,730 --> 00:07:27,570
+Non defibrillabili sono l'asistolia e l'attivita' elettrica senza polso: li' contano la rianimazione di qualita', l'adrenalina e la ricerca delle cause reversibili.
+
+41
+00:07:27,570 --> 00:07:38,210
+Seconda: perche' niente ossigeno di routine? Con una saturazione normale non porta benefici, e l'eccesso di ossigeno puo' essere dannoso. Si somministra quando la saturazione e' bassa.
+
+42
+00:07:38,210 --> 00:07:51,750
+Terza: il ruolo dell'infermiere nel team? Compressioni e cambi, defibrillazione, accesso venoso e farmaci, supporto alle vie aeree, tempi e registrazione. Con la comunicazione a ciclo chiuso e un leader chiaro.
+
+43
+00:07:51,750 --> 00:08:05,560
+La risposta modello. Paziente di sessantuno anni con dolore toracico tipico da cinquanta minuti, sudorazione e parametri conservati: al triage assegno un codice di elevata priorita' e attivo il percorso dolore toracico.
+
+44
+00:08:05,560 --> 00:08:18,670
+Eseguo l'ECG entro dieci minuti e lo mostro subito al medico: e' uno STEMI inferiore, e si attiva la rete. Area monitorata, defibrillatore pronto, riposo; niente ossigeno con saturazione novantasei.
+
+45
+00:08:18,670 --> 00:08:32,560
+Accessi, prelievi e terapia prescritta; segnalo la cautela sui nitrati; preparo alla procedura. In fibrillazione ventricolare defibrillo subito e registro gli orari. Trasferimento monitorato, SBAR, supporto alla moglie.
+
+46
+00:08:32,560 --> 00:08:44,500
+I collegamenti. Il triage con la dieci punto uno. STEMI, nitrati ed ECG con la otto punto uno. La rianimazione con la dieci punto tre. Il contrasto con la quattordici punto sette.
+
+47
+00:08:44,500 --> 00:08:53,380
+Gli antiaggreganti con la cinque punto cinque. La rete veneta con la tredici punto tre. E il sistema di conduzione con la quattordici punto due.
+
+48
+00:08:53,380 --> 00:09:07,620
+La frase del caso: dieci minuti per l'ECG, pochi secondi per lo shock.  Nella prossima lezione, una paziente con BPCO che, messa tranquilla con molto ossigeno, diventa sempre piu' sonnolenta. A tra poco.

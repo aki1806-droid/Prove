@@ -1,0 +1,45 @@
+[warm] Questo e' un caso di infezione correlata all'assistenza. Mette alla prova tutto il modulo quattro: igiene delle mani, precauzioni di isolamento, sanificazione, uso responsabile degli antibiotici.
+
+Il protagonista forma spore resistenti e trova terreno favorevole negli ospedali: il Clostridioides difficile. Le lezioni: quattro punto due, quattro punto tre, quattro punto cinque, quattro punto sei, tre punto cinque.
+
+Lo scenario. Il signor Aldo ha ottantuno anni, ed e' ricoverato in medicina per una polmonite. E' in terapia con una cefalosporina e con un inibitore di pompa protonica.
+
+In sesta giornata presenta cinque scariche di feci acquose nelle ultime ventiquattro ore, febbricola e dolore addominale crampiforme. Divide la stanza con un altro paziente, e usa il bagno comune.
+
+Fermati un momento: che cosa sospetti? E che cosa fai, prima ancora di avere un risultato di laboratorio?
+
+[thoughtful] Il ragionamento. Tre o piu' scariche non formate in ventiquattro ore, in un paziente ricoverato e in terapia antibiotica: sospetta infezione da Clostridioides difficile. I fattori di rischio ci sono tutti.
+
+Gli antibiotici, che alterano il microbiota intestinale; l'eta' avanzata; l'ospedalizzazione; gli inibitori di pompa. Il batterio si trasmette per via oro-fecale, con spore che resistono a lungo nell'ambiente.
+
+E che l'alcol non distrugge. La regola organizzativa piu' importante: le precauzioni si avviano al sospetto, non alla conferma. Aspettare l'esito significa dare al batterio uno o due giorni di vantaggio.
+
+Le precauzioni da contatto. Una stanza singola con bagno dedicato, o almeno una comoda dedicata. Se non ci sono stanze singole, una coorte con altri pazienti infetti, secondo le indicazioni del gruppo per le infezioni.
+
+Guanti e camice per ogni contatto con il paziente o con il suo ambiente. Dispositivi dedicati: fonendoscopio, termometro, sfigmomanometro. La segnaletica sulla porta.
+
+Trasporti limitati, e comunicati in anticipo. E si informa il gruppo operativo per il controllo delle infezioni. Sono le precauzioni da contatto della lezione quattro punto tre.
+
+[serious] L'igiene delle mani ha qui la sua eccezione piu' famosa. La frizione alcolica, che di solito e' il metodo di riferimento, non elimina le spore.
+
+Per questo, dopo il contatto con il paziente o con il suo ambiente, ci si toglie i guanti e ci si lava le mani con acqua e sapone: e' l'azione meccanica a rimuovere le spore.
+
+I guanti restano fondamentali. In tutte le altre situazioni del reparto, la frizione alcolica resta il metodo di riferimento. Ed e' una domanda d'esame quasi certa.
+
+La diagnosi. Si invia un campione di feci non formate. Le feci formate di norma non vanno inviate, perche' il test potrebbe essere positivo in un semplice portatore.
+
+Contenitore idoneo, etichettatura corretta, invio rapido o conservazione secondo procedura. Il laboratorio ricerca le tossine, o il gene che le produce, secondo il proprio protocollo.
+
+E non si ripete il test per verificare la guarigione: il batterio puo' restare a lungo, anche quando il paziente sta bene.
+
+La terapia, su prescrizione: un trattamento specifico per via orale, come la vancomicina orale o la fidaxomicina. La vancomicina orale non viene assorbita, e agisce proprio nell'intestino.
+
+Si rivaluta con il medico l'antibiotico in corso, che ha causato il problema, e l'inibitore di pompa. Si sospendono i lassativi, che a volte si trovano ancora in terapia.
+
+Si evitano gli antidiarroici senza indicazione. E sullo sfondo c'e' la stewardship della lezione quattro punto sei: meno antibiotici inutili significa meno infezioni da Clostridioides.
+
+L'assistenza al paziente. Idratazione, bilancio idrico e peso, perche' un anziano con diarrea si disidrata rapidamente. Gli elettroliti, con il rischio di ipokaliemia della lezione tre punto cinque.
+
+Un diario delle scariche, con numero e consistenza, per esempio con la scala di Bristol. La cura della cute perianale, con igiene delicata e prodotti barriera, per prevenire la dermatite associata all'incontinenza.
+
+Il rischio di cadute, per l'urgenza di andare in bagno e per la debolezza. La dignita' e la privacy, in una condizione imbarazzante. E l'alimentazione.

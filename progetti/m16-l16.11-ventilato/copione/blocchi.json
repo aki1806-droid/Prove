@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Entriamo in terapia intensiva, dove l'infermiere gestisce insieme tecnologie complesse e una persona che non puo' parlare. Non un'unica emergenza, ma una giornata intera, e un allarme improvviso."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi la prevenzione della polmonite associata alla ventilazione, la sedazione, il dolore, il delirium, una famiglia in attesa. Lezioni tre punto uno, sei punto due, sette punto due, dieci punto cinque e undici punto uno."
+ },
+ {
+  "id": "s04",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scenario. Il signor Renato, sessantasei anni, e' in terapia intensiva da quattro giorni per un'insufficienza respiratoria grave da polmonite."
+ },
+ {
+  "id": "s05",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' intubato e ventilato in modalita' controllata, con sedazione e analgesia in infusione continua. Ha un catetere venoso centrale, un catetere arterioso, un sondino con nutrizione enterale e un catetere vescicale."
+ },
+ {
+  "id": "s06",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Alle dieci suona l'allarme di alta pressione: la saturazione scende da novantacinque a ottantacinque, il paziente si agita e morde il tubo. Fermati: con quale acronimo affronti la situazione?"
+ },
+ {
+  "id": "s07",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'acronimo e' DOPE, della lezione dieci punto cinque. D, dislocazione: i centimetri del tubo all'arcata dentaria sono quelli annotati? O, ostruzione: il tubo e' morso, ci sono secrezioni, e' piegato?"
+ },
+ {
+  "id": "s08",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "P, pneumotorace: il torace si espande in modo asimmetrico, il murmure manca da un lato? E, equipaggiamento: ventilatore, circuito, ossigeno. Nel dubbio si stacca il paziente e lo si ventila con il pallone."
+ },
+ {
+  "id": "s09",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qui il tubo e' morso e ci sono secrezioni: si inserisce un blocco-morso, si aspira, si valuta con il medico la sedazione. La saturazione risale a novantacinque. In meno di due minuti, con un metodo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione della polmonite associata alla ventilazione, con il bundle della lezione tre punto uno, secondo protocollo. La testata a trenta-quarantacinque gradi, sempre. L'igiene del cavo orale regolare."
+ },
+ {
+  "id": "s11",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La pressione della cuffia fra venti e trenta centimetri d'acqua, controllata con il manometro. L'aspirazione sottoglottica, se il tubo ha il canale dedicato. L'igiene delle mani, e l'aspirazione asettica."
+ },
+ {
+  "id": "s12",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La riduzione quotidiana della sedazione, con la valutazione dello svezzamento: ogni giorno di ventilazione in meno e' un rischio in meno. Il circuito non si cambia di routine, solo se sporco o danneggiato."
+ },
+ {
+  "id": "s13",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il dolore in chi non puo' parlare. Il paziente intubato non puo' usare la scala numerica: si usano scale comportamentali validate, come la BPS, la Behavioral Pain Scale, o la CPOT."
+ },
+ {
+  "id": "s14",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Osservano l'espressione del volto, i movimenti delle braccia, la tensione muscolare e l'adattamento al ventilatore. Il principio: prima l'analgesia, poi la sedazione, perche' un paziente agitato spesso ha dolore."
+ },
+ {
+  "id": "s15",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il dolore si valuta e si previene prima delle procedure dolorose: aspirazione, mobilizzazione, medicazioni."
+ },
+ {
+  "id": "s16",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La sedazione si valuta con la scala RASS: da piu' quattro, il paziente combattivo, a meno cinque, il paziente non risvegliabile. Lo zero e' una persona sveglia e calma."
+ },
+ {
+  "id": "s17",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'obiettivo e' prescritto, e oggi, quando possibile, si punta a una sedazione leggera: un paziente calmo e risvegliabile."
+ },
+ {
+  "id": "s18",
+  "capitolo": 6,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una sedazione eccessiva prolunga la ventilazione e favorisce delirium e debolezza; una insufficiente porta agitazione e rischio di estubazione accidentale. Si rivaluta spesso, e si documenta."
+ },
+ {
+  "id": "s19",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[thoughtful] Quinta giornata. Con una sedazione piu' leggera, il signor Renato e' agitato, tira i dispositivi e non segue le richieste in modo coerente. Si valuta con la CAM-ICU, la CAM adattata all'intubato."
+ },
+ {
+  "id": "s20",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' positiva: e' un delirium. Si cercano le cause: dolore, ipossia, infezione, farmaci come le benzodiazepine, astinenza, ritenzione urinaria, privazione di sonno."
+ },
+ {
+  "id": "s21",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli interventi della undici punto uno, adattati: orientamento, occhiali e apparecchi acustici, ciclo giorno-notte con luci e rumori ridotti di notte, familiari, mobilizzazione. E la protezione dei dispositivi."
+ },
+ {
+  "id": "s22",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un approfondimento: il bundle ABCDEF, una strategia diffusa nelle terapie intensive per ridurre i giorni di ventilazione e le conseguenze a lungo termine. Molti dei suoi elementi sono infermieristici."
+ },
+ {
+  "id": "s23",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A: valutare, prevenire e trattare il dolore. B: prove quotidiane di risveglio e di respiro spontaneo. C: la scelta ragionata di analgesia e sedazione."
+ },
+ {
+  "id": "s24",
+  "capitolo": 8,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "D: valutazione, prevenzione e gestione del delirium. E: mobilizzazione precoce, anche nel ventilato, quando e' sicura. F: il coinvolgimento della famiglia. E' il bundle che lega insieme tutto il caso."
+ },
+ {
+  "id": "s25",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cute, occhi e dispositivi. Le lesioni da dispositivo, frequentissime in terapia intensiva: labbra e angoli della bocca per il tubo e il fissaggio, narici per il sondino, orecchie, la cute sotto i sensori."
+ },
+ {
+  "id": "s26",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le lesioni da pressione a sacro, talloni e occipite; e se il paziente viene messo prono, al volto, al torace e alle ginocchia. Gli occhi, che nel paziente sedato non si chiudono bene: si protegge la cornea."
+ },
+ {
+  "id": "s27",
+  "capitolo": 9,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il bundle per il catetere venoso centrale, della lezione sei punto due. E il catetere vescicale, di cui si rivaluta la necessita' ogni giorno."
+ },
+ {
+  "id": "s28",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[serious] E se il tubo esce, per un'estubazione accidentale o perche' il paziente se lo toglie? Si chiama subito aiuto, e si valuta il respiro."
+ },
+ {
+  "id": "s29",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se e' efficace, ossigeno con maschera e monitoraggio. Se e' inefficace, si ventila con pallone e maschera, come nella lezione dieci punto cinque. E si prepara la reintubazione, con l'aspiratore pronto."
+ },
+ {
+  "id": "s30",
+  "capitolo": 10,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi si documenta e si segnala. La prevenzione: un fissaggio sicuro, sedazione e analgesia adeguate, sorveglianza, e attenzione nei movimenti e nelle mobilizzazioni."
+ },
+ {
+  "id": "s31",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La famiglia. La moglie del signor Renato attende fuori dalla porta. Ha bisogno di accoglienza e di informazioni chiare: quelle cliniche dal medico, quelle assistenziali dall'infermiere."
+ },
+ {
+  "id": "s32",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molte terapie intensive hanno orari di visita il piu' possibile aperti. Prima del primo ingresso si spiegano i dispositivi e gli allarmi, che spaventano."
+ },
+ {
+  "id": "s33",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si coinvolge la moglie nella cura: parlare al marito, toccarlo, portare oggetti personali; la sua voce aiuta anche nel delirium. E in alcune realta' c'e' un diario di terapia intensiva."
+ },
+ {
+  "id": "s34",
+  "capitolo": 11,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo scrivono operatori e familiari, e aiuta il paziente a ricostruire, dopo, i giorni che non ricorda."
+ },
+ {
+  "id": "s35",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo la terapia intensiva, molti pazienti sviluppano una sindrome post-terapia intensiva: debolezza muscolare, deficit cognitivi, ansia, depressione, a volte un disturbo post-traumatico. Anche nei familiari."
+ },
+ {
+  "id": "s36",
+  "capitolo": 12,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prevenzione comincia in terapia intensiva, con il bundle ABCDEF, la mobilizzazione, il sonno e la famiglia. E prosegue con follow-up e riabilitazione, in continuita' con il reparto di destinazione."
+ },
+ {
+  "id": "s37",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[curious] Le domande d'orale. Prima: allarme di alta pressione con desaturazione? Chiamo aiuto e applico DOPE: dislocazione, ostruzione, pneumotorace, equipaggiamento."
+ },
+ {
+  "id": "s38",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel dubbio stacco il paziente e lo ventilo con il pallone e ossigeno; poi tratto la causa, per esempio aspirando o inserendo un blocco-morso. Seconda: come previene la VAP?"
+ },
+ {
+  "id": "s39",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Testata a trenta-quarantacinque gradi, igiene orale, cuffia a venti-trenta, aspirazione sottoglottica, riduzione quotidiana della sedazione e valutazione dello svezzamento, igiene delle mani, aspirazione asettica."
+ },
+ {
+  "id": "s40",
+  "capitolo": 13,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza: come valuta il dolore nell'intubato? Con scale comportamentali, come la BPS o la CPOT, prima e durante le procedure."
+ },
+ {
+  "id": "s41",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La risposta modello. Paziente ventilato con allarme di alta pressione, desaturazione e agitazione: applico DOPE, rilevo il tubo morso e ostruito, inserisco un blocco-morso, aspiro con tecnica asettica."
+ },
+ {
+  "id": "s42",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Verifico i centimetri del tubo; nel dubbio ventilerei con il pallone. Valuto il dolore con una scala comportamentale e la sedazione con la RASS, rispetto all'obiettivo, segnalando al medico: prima l'analgesia."
+ },
+ {
+  "id": "s43",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Applico il bundle VAP: testata, igiene orale, cuffia, aspirazione sottoglottica, riduzione della sedazione, svezzamento. Valuto il delirium con la CAM-ICU, ne cerco le cause, applico misure non farmacologiche."
+ },
+ {
+  "id": "s44",
+  "capitolo": 14,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prevengo lesioni da dispositivo e da pressione, proteggo gli occhi, applico il bundle per il catetere centrale. Coinvolgo la famiglia, e documento."
+ },
+ {
+  "id": "s45",
+  "capitolo": 15,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I collegamenti. La VAP con la tre punto uno; il catetere centrale, sei punto due; le lesioni, sette punto due; l'aspirazione, otto punto due; DOPE, RASS e CAM-ICU, dieci punto cinque; il delirium, undici punto uno."
+ },
+ {
+  "id": "s46",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un pensiero sull'infermiere di area critica. Ha un rapporto infermiere-paziente piu' basso, e competenze avanzate: ventilazione, farmaci vasoattivi, monitoraggio invasivo, tecniche dialitiche continue."
+ },
+ {
+  "id": "s47",
+  "capitolo": 16,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma il suo valore aggiunto resta la sorveglianza continua: cogliere i cambiamenti nella persona prima che li segnalino le macchine. Molti neoassunti vengono inseriti qui, con una formazione specifica."
+ },
+ {
+  "id": "s48",
+  "capitolo": 17,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "[serious] La frase del caso: dietro le macchine c'e' una persona che sente dolore, ha paura, e ha una famiglia."
+ },
+ {
+  "id": "s49",
+  "capitolo": 18,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Nella prossima lezione chiudiamo il modulo sedici, con il riepilogo e sei nuovi casi lampo, su situazioni che possono capitarti in qualsiasi turno. A tra poco."
+ }
+]

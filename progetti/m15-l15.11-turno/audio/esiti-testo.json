@@ -1,0 +1,59 @@
+{
+ "A": {
+  "parole_copione": 649,
+  "parole_dette": 645,
+  "coincidenti": 638,
+  "buchi": [
+   {
+    "blocco": "s17",
+    "parole_copione": "igiene mobilizzazione alimentazione e comfort",
+    "al_loro_posto": "(nulla)"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "duecentottanta",
+    "detto": "280"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 678,
+  "parole_dette": 680,
+  "coincidenti": 670,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s38",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s38",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

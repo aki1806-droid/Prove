@@ -1,0 +1,49 @@
+[warm] Questo caso concentra nello stesso paziente quattro problemi che si alimentano a vicenda: un'emorragia massiva, uno shock, un'encefalopatia epatica e un'astinenza alcolica.
+
+E' un caso complesso, ed e' proprio per questo che e' utile: obbliga a stabilire le priorita'. Ci servono le lezioni sei punto sei, otto punto cinque, dieci punto sei, undici punto tre e quattordici punto quattro.
+
+Lo scenario. Il signor Giorgio ha sessantatre anni e una cirrosi su base alcolica, ed e' ricoverato da due giorni per un'ascite. L'ultima assunzione di alcol riferita risale a tre giorni fa.
+
+Alle sei vomita abbondante sangue rosso vivo, poi emette feci nere. Pressione ottantotto su cinquantaquattro, frequenza centoventotto, cute pallida e sudata. E' sonnolento, ma risvegliabile.
+
+L'emoglobina di ieri era dieci virgola due, l'INR due virgola uno. Fermati un momento: qual e' la priorita' assoluta, prima ancora della pressione?
+
+Il ragionamento. Ematemesi rosso vivo e melena in un cirrotico indicano un'emorragia digestiva alta: con ogni probabilita' la rottura di varici esofagee, dovute all'ipertensione portale.
+
+Pressione ottantotto, frequenza centoventotto, pallore, sudorazione: e' uno shock emorragico. E la coagulopatia, con un INR di due virgola uno, aggrava il sanguinamento.
+
+[serious] Ma la priorita' assoluta e' un'altra. Un paziente sonnolento che vomita sangue e' a rischio di inalazione: le vie aeree vengono prima di tutto.
+
+Le prime azioni, sulle vie aeree e sul respiro. Chiami subito aiuto e il medico. Metti il paziente in posizione laterale, o con la testa sollevata e girata, perche' non inali il sangue.
+
+L'aspiratore pronto e funzionante, e si aspira il cavo orale. Valuti la coscienza con la GCS: se peggiora, non protegge piu' le vie aeree, e puo' servire l'intubazione prima dell'endoscopia. Ossigeno secondo protocollo.
+
+Poi il circolo. Due accessi venosi di grosso calibro. I prelievi: emocromo, coagulazione, gruppo e prove crociate, funzione renale ed epatica.
+
+Liquidi ed emocomponenti secondo prescrizione. Monitoraggio continuo e parametri ravvicinati, diuresi oraria, digiuno.
+
+E un dettaglio che il caso vuole intercettare: l'emoglobina di ieri non rassicura. Nell'emorragia acuta si perde sangue intero, e l'emoglobina scende in ritardo. A guidarti sono i parametri, non l'esame di ieri.
+
+La terapia specifica, tutta su prescrizione. Farmaci vasoattivi che riducono la pressione nel sistema portale, come la terlipressina, o la somatostatina e i suoi analoghi.
+
+Una profilassi antibiotica, che nel cirrotico con emorragia riduce le infezioni e la mortalita'. Gli inibitori di pompa. E l'endoscopia urgente, di norma entro dodici ore, con la legatura delle varici.
+
+La correzione della coagulazione, secondo indicazione. E nessuna iniezione intramuscolare, con un INR di due virgola uno.
+
+Un punto avanzato, che distingue una risposta eccellente. La trasfusione nel cirrotico segue in genere una strategia restrittiva: secondo prescrizione, l'emoglobina si tiene intorno a sette, otto.
+
+Sembra un paradosso. Ma le trasfusioni eccessive aumentano il volume e la pressione portale, e quindi il sanguinamento delle varici.
+
+Restano tutte le regole di sicurezza della lezione sei punto sei. E se si trasfondono piu' unita' in poco tempo, attenzione all'ipotermia e all'ipocalcemia, con i riscaldatori secondo procedura.
+
+Le ore successive. Dopo l'endoscopia l'emorragia e' controllata: pressione centododici su settanta, frequenza novantotto. Ma alle quattordici il signor Giorgio e' piu' confuso.
+
+Ha invertito il ritmo sonno-veglia e presenta l'asterixis. E' un'encefalopatia epatica, e la causa e' l'emorragia: il sangue nell'intestino e' una grande fonte di ammoniaca, come nella lezione otto punto cinque.
+
+Gli interventi: segnalare; il lattulosio per bocca, per sondino o per clistere, secondo prescrizione; la sorveglianza della coscienza e delle vie aeree. Niente sedativi. E la prevenzione delle cadute.
+
+[thoughtful] E c'e' un secondo problema nascosto. L'ultima assunzione di alcol risale a tre giorni fa: siamo nella finestra del delirium tremens.
+
+Tremori, sudorazione, tachicardia, agitazione, allucinazioni possono comparire. E distinguere un'astinenza da un'encefalopatia e' difficile, perche' entrambe confondono.
+
+Si valuta con una scala come la CIWA-Ar. La tiamina, secondo prescrizione, va prima del glucosio, contro l'encefalopatia di Wernicke. E si segnala tutto: in un cirrotico, la scelta dei sedativi e' delicata.

@@ -1,0 +1,47 @@
+[warm] La nutrizione enterale sembra un'attivita' di routine: un sondino, una pompa, una sacca. In realta' nasconde due complicanze gravi: la polmonite da inalazione e la sindrome da rialimentazione.
+
+La seconda la conoscono in pochi, ma i concorsi la chiedono sempre piu' spesso. E il caso pone una domanda etica, quando il paziente ha una demenza avanzata.
+
+Ci servono le lezioni tre punto tre, tre punto quattro, tre punto cinque, undici punto due e uno punto sei.
+
+Lo scenario. Il signor Ottavio, settantanove anni, demenza moderata, e' ricoverato per una disfagia grave e un calo di peso: indice di massa corporea sedici, e da piu' di due settimane mangia pochissimo.
+
+Ieri gli e' stato posizionato un sondino naso-gastrico, e la nutrizione enterale e' stata avviata in serata direttamente alla velocita' piena. Di notte, agitato, e' rimasto a lungo quasi sdraiato.
+
+Alle sei: tosse insistente, saturazione ottantanove, febbre a trentotto virgola quattro, frequenza respiratoria ventotto, rantoli alla base destra, e residui di nutrizione nel cavo orale.
+
+Fermati un momento: che cosa e' successo? E quale secondo rischio ti preoccupa nei prossimi giorni?
+
+Il ragionamento. Disfagia e demenza, nutrizione enterale, posizione supina, agitazione, con il rischio che il sondino si sia spostato. Residui in bocca, tosse, febbre, desaturazione, rantoli: e' una polmonite da inalazione.
+
+Il secondo rischio, meno evidente ma altrettanto grave: un paziente gravemente malnutrito a cui la nutrizione e' stata avviata a pieno regime. E' il terreno della sindrome da rialimentazione.
+
+Le prime azioni. Sospendi la nutrizione. Posizione semiseduta, o laterale se vomita. Aspiri il cavo orale e la faringe. Ossigeno secondo protocollo, e avviso al medico con lo SBAR. Parametri e monitoraggio.
+
+Poi verifichi la posizione del sondino, con le regole della lezione tre punto quattro: i centimetri segnati alla narice, e il pH dell'aspirato, che deve essere pari o inferiore a cinque virgola cinque.
+
+In caso di dubbio, la conferma radiologica. Mai il whoosh, cioe' l'auscultazione dell'aria insufflata. Poi prelievi, eventuale radiografia del torace e antibiotico secondo prescrizione.
+
+[serious] La prevenzione, che in gran parte e' infermieristica. La testata a trenta-quarantacinque gradi durante l'infusione e per trenta-sessanta minuti dopo, anche di notte: e' proprio cio' che e' mancato.
+
+La verifica del sondino prima di ogni avvio, dopo tosse, vomito o agitazione, e a ogni turno. L'infusione con pompa alla velocita' prescritta. Il controllo del ristagno gastrico secondo protocollo.
+
+L'igiene del cavo orale, perche' la bocca colonizzata e' la fonte dei batteri inalati. Distensione e vomito sorvegliati. Niente sedazione eccessiva. E nell'agitato, sorveglianza e fissaggio sicuro, non contenzione.
+
+[thoughtful] La sindrome da rialimentazione: che cos'e'? In un paziente gravemente malnutrito, la ripresa improvvisa dell'apporto di carboidrati stimola l'insulina.
+
+L'insulina fa entrare rapidamente nelle cellule fosfato, potassio e magnesio, e i loro livelli nel sangue crollano, tipicamente nei primi giorni.
+
+Le conseguenze sono serie: aritmie, insufficienza cardiaca, edemi, debolezza dei muscoli respiratori, confusione, convulsioni, fino alla morte. E' una complicanza della nutrizione, non della malattia: e' prevenibile.
+
+Chi e' a rischio? Chi ha un indice di massa corporea sotto sedici, un calo di peso involontario oltre il quindici per cento in tre-sei mesi, un apporto minimo o nullo da piu' di dieci giorni, o elettroliti gia' bassi.
+
+Il signor Ottavio era a rischio elevato. La prevenzione, secondo prescrizione e protocollo: un avvio lento e progressivo dell'apporto calorico, e la tiamina prima e durante.
+
+Fosfato, potassio e magnesio dosati e corretti, con controlli giornalieri nei primi giorni, bilancio e peso, monitoraggio cardiaco nei casi gravi. Avviarla a pieno regime, come e' stato fatto, era un errore.
+
+Il terzo giorno. La nutrizione e' stata ripresa piu' lentamente dopo la polmonite, ma gli esami mostrano un fosfato molto basso, un potassio di due virgola nove e un magnesio basso.
+
+Il paziente e' tachicardico, edematoso, piu' debole e confuso. E' una sindrome da rialimentazione. Si segnala subito, e si riduce l'apporto secondo prescrizione.
+
+Si correggono gli elettroliti per via endovenosa, con la pompa, e il potassio mai in bolo. Si avvia il monitoraggio ECG, e si coinvolge il servizio di nutrizione clinica.

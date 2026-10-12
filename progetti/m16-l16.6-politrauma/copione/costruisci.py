@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] Il politrauma e' il caso in cui l'approccio XABCDE della lezione dieci punto sette mostra tutta la sua forza: un paziente con piu' lesioni, ognuna potenzialmente mortale."),
+ (1,"chiaro",0,"E un'equipe che deve affrontarle nell'ordine giusto. Seguiamo un giovane motociclista dall'arrivo in pronto soccorso alla sala operatoria, con alcuni dettagli tecnici che i concorsi chiedono spesso."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Ore ventitre e dieci. Un uomo di trentadue anni, incidente in moto ad alta velocita', centralizzato dal centodiciotto al centro traumi."),
+ (2,"chiaro",0,"Sul posto sono stati applicati un tourniquet alla coscia destra, alle ventidue e trentacinque, il collare cervicale e la tavola spinale. All'arrivo e' agitato."),
+ (2,"chiaro",0,"Frequenza respiratoria trentaquattro, saturazione ottantasei con l'ossigeno, murmure assente a sinistra, trachea deviata a destra, giugulari turgide. Pressione settantotto su cinquanta, frequenza centoquarantadue."),
+ (2,"chiaro",0,"Il bacino e' doloroso. C'e' sangue al meato uretrale. Temperatura trentacinque virgola due. Fermati un momento: con quale ordine affronti questi problemi?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"X, l'emorragia esterna massiva. Si verifica che il tourniquet sia efficace: nessun sanguinamento dalla ferita, e polso distale assente. E non si allenta."),
+ (3,"chiaro",0,"L'ora di applicazione, le ventidue e trentacinque, si annota e si comunica a tutta l'equipe: dice da quanto tempo l'arto e' senza circolazione. Altre emorragie esterne: compressione diretta e medicazioni emostatiche."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"A: le vie aeree sono pervie, perche' il paziente parla. E si protegge il rachide cervicale, mantenendo il collare e muovendo il paziente in asse."),
+ (4,"chiaro",0,"B: dispnea, desaturazione, murmure assente a sinistra, trachea deviata, giugulari turgide e ipotensione. E' uno pneumotorace iperteso, una delle quattro T della lezione dieci punto tre."),
+ (4,"chiaro",0,"L'aria accumulata nel torace comprime il polmone e il cuore. Il medico esegue una decompressione immediata, poi si posiziona un drenaggio toracico, con le regole della lezione sette punto sette."),
+ (4,"chiaro",0,"L'infermiere prepara il materiale e sorveglia la risposta: saturazione e pressione devono migliorare rapidamente."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"C. Dopo il drenaggio la saturazione sale a novantacinque, ma la pressione resta ottantaquattro su cinquantadue, e la frequenza centotrentasei: lo shock emorragico persiste."),
+ (5,"chiaro",0,"Dove sanguina? Le sedi tipiche sono il torace, l'addome, il bacino e le ossa lunghe. In sala emergenza si esegue un'ecografia FAST, alla ricerca di sangue libero."),
+ (5,"chiaro",0,"Il bacino doloroso e instabile richiede una fascia pelvica, all'altezza dei grandi trocanteri: chiude l'anello pelvico e riduce il sanguinamento. Due accessi di grosso calibro, o un intraosseo, e prelievi con il gruppo."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"La terapia dello shock emorragico, secondo prescrizione. Si attiva il protocollo di trasfusione massiva: emazie, plasma e piastrine in rapporto bilanciato, perche' si perde sangue intero, non solo globuli rossi."),
+ (6,"chiaro",0,"Emocomponenti e liquidi riscaldati. L'acido tranexamico, un farmaco che riduce la dissoluzione del coagulo, il prima possibile ed entro tre ore dal trauma."),
+ (6,"chiaro",0,"I cristalloidi si usano con cautela, perche' diluiscono i fattori della coagulazione. E l'obiettivo e' uno solo: portare rapidamente il paziente al controllo dell'emorragia, in sala operatoria o in angiografia."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"D: GCS tredici, pupille, segni di lato, glicemia, e una sorveglianza neurologica ravvicinata per un possibile trauma cranico. E: esposizione completa per cercare lesioni nascoste, con il log roll e il controllo del rachide."),
+ (7,"chiaro",0,"E poi l'ipotermia: trentacinque virgola due gradi, in un traumatizzato, non sono un dettaglio. Via gli indumenti bagnati; coperte termiche e riscaldamento attivo, liquidi caldi, un ambiente caldo."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"[thoughtful] Un approfondimento: la triade letale del trauma. L'ipotermia altera la coagulazione. L'acidosi, dovuta all'ipoperfusione, peggiora la coagulazione e la funzione del cuore."),
+ (8,"chiaro",0,"La coagulopatia aumenta il sanguinamento, che aggrava lo shock, che aumenta acidosi e ipotermia. E' un circolo vizioso, che uccide anche quando le singole lesioni sarebbero trattabili."),
+ (8,"chiaro",0,"Si interrompe con il controllo rapido dell'emorragia, gli emocomponenti bilanciati, il riscaldamento, e il damage control: in sala si fa solo cio' che serve a fermare il sanguinamento e la contaminazione."),
+ (8,"chiaro",0,"Il paziente si corregge in terapia intensiva, e l'intervento definitivo si esegue dopo. Ecco perche' un grado di temperatura, in questo paziente, e' un intervento salvavita."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"[serious] E ora due dettagli tecnici che i concorsi amano: due dispositivi da non posizionare. Il primo e' il catetere vescicale."),
+ (9,"chiaro",0,"Con sangue al meato uretrale, un ematoma perineale o una frattura del bacino, si sospetta una lesione dell'uretra. E il catetere non si posiziona senza una valutazione specialistica."),
+ (9,"chiaro",0,"Perche' potrebbe trasformare una lesione parziale in completa. Il secondo e' il sondino naso-gastrico, se si sospetta una frattura della base cranica."),
+ (9,"chiaro",0,"Cioe' perdita di liquido da naso o orecchie, ecchimosi intorno agli occhi o dietro le orecchie. Non si usa la via nasale, ma eventualmente quella oro-gastrica, come nella lezione tre punto quattro."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"Il trasferimento in sala operatoria o in angiografia: con il monitor, il defibrillatore, l'ossigeno, gli emocomponenti in corso, e il drenaggio toracico, che nel trasporto non si clampa, come nella lezione sette punto sette."),
+ (10,"chiaro",0,"Le consegne SBAR: la dinamica, l'ora del tourniquet, gli interventi eseguiti, emocomponenti e farmaci con i loro orari, parametri e temperatura. Nel trauma, la documentazione dei tempi e' parte della cura."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"La famiglia e l'equipe. I familiari in pronto soccorso hanno bisogno di un operatore dedicato, di un luogo riservato e di informazioni dal medico. La cosa piu' difficile, per loro, e' restare senza notizie."),
+ (11,"chiaro",0,"Gli effetti personali si inventariano e si custodiscono. E dopo un evento cosi' intenso, un breve debriefing dell'equipe aiuta a migliorare e a gestire lo stress, che fa parte del lavoro in emergenza."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. Allentare il tourniquet per controllare, o non annotarne l'ora. Aspettare la radiografia per trattare uno pneumotorace iperteso, che e' una diagnosi clinica. Dimenticare il bacino."),
+ (12,"chiaro",0,"Infondere grandi quantita' di cristalloidi freddi. Trascurare l'ipotermia. Posizionare il catetere con sangue al meato. Il sondino nasale con una sospetta frattura della base cranica."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: che cosa significa XABCDE? E' l'ABCDE del trauma, preceduto dalla X: il controllo dell'emorragia esterna massiva."),
+ (13,"chiaro",0,"Perche' un'emorragia di questo tipo uccide in pochi minuti, prima ancora di un problema delle vie aeree. Seconda: quali sono i segni dello pneumotorace iperteso?"),
+ (13,"chiaro",0,"Dispnea, desaturazione, murmure assente da un lato, trachea deviata dalla parte opposta, giugulari turgide, ipotensione. Si tratta con la decompressione immediata."),
+ (13,"chiaro",0,"Terza: quando non si posizionano catetere o sondino? Il catetere con sangue al meato uretrale o sospetta lesione dell'uretra; il sondino nasale con sospetta frattura della base cranica."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Politraumatizzato con emorragia di un arto controllata da tourniquet, pneumotorace iperteso, shock emorragico, bacino instabile e ipotermia. Applico l'approccio XABCDE in equipe."),
+ (14,"chiaro",0,"Verifico il tourniquet senza allentarlo, e ne comunico l'ora. Mantengo la protezione del rachide. Collaboro alla decompressione e al drenaggio toracico."),
+ (14,"chiaro",0,"Posiziono due accessi di grosso calibro, eseguo prelievi con gruppo, collaboro all'eco-FAST e alla fascia pelvica. Somministro emocomponenti in rapporto bilanciato e acido tranexamico entro tre ore, con liquidi riscaldati."),
+ (14,"chiaro",0,"Valuto GCS, pupille e glicemia; prevengo l'ipotermia. Non posiziono il catetere, per il sangue al meato. Preparo il trasferimento monitorato, trasmetto consegne SBAR con tutti gli orari, assisto i familiari e documento."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Il sondino con la tre punto quattro. Il catetere con la tre punto sei. La trasfusione con la sei punto sei. Il drenaggio toracico con la sette punto sette."),
+ (15,"chiaro",0,"Le cause reversibili con la dieci punto tre. Il trauma con la dieci punto sette. E la rete trauma veneta con la tredici punto tre."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Il lavoro in equipe. Il trauma team si organizza prima dell'arrivo, grazie alla pre-allerta del centodiciotto: un leader, e ruoli assegnati. Si comunica a ciclo chiuso. Un infermiere registra tempi e interventi."),
+ (16,"chiaro",0,"E il materiale e' gia' pronto: emocomponenti, riscaldatori, fascia pelvica, set per il drenaggio, dispositivo intraosseo. Nel trauma, la preparazione vale quanto l'esecuzione."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: nel trauma, l'ordine delle priorita' salva la vita piu' della velocita'."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un grande ustionato, con il calcolo dei liquidi con la formula di Parkland, una trappola sugli orari, e le vie aeree che si chiudono. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"X: l'emorragia esterna massiva",4:"A e B: lo pneumotorace iperteso",
+ 5:"C: lo shock emorragico",6:"C: la trasfusione e l'acido tranexamico",7:"D ed E",8:"La triade letale",
+ 9:"Due dispositivi da non posizionare",10:"Il trasferimento in sala",11:"La famiglia e l'equipe",
+ 12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",
+ 16:"Il lavoro in equipe",17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il

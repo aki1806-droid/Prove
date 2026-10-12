@@ -4,76 +4,77 @@ import json, re, sys
 
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
- (1,"chiaro",0,"[warm] La semeiotica e' l'arte di raccogliere segni e sintomi. Per l'infermiere significa saper osservare, toccare, ascoltare, e leggere un esame di laboratorio per capire quando un valore richiede un'azione."),
- (1,"chiaro",0,"Chiudiamo con la diagnostica per immagini, dove l'infermiere prepara il paziente e garantisce la sicurezza, in particolare con i mezzi di contrasto e in risonanza magnetica."),
+ (1,"chiaro",0,"[warm] La nutrizione enterale sembra un'attivita' di routine: un sondino, una pompa, una sacca. In realta' nasconde due complicanze gravi: la polmonite da inalazione e la sindrome da rialimentazione."),
+ (1,"chiaro",0,"La seconda la conoscono in pochi, ma i concorsi la chiedono sempre piu' spesso. E il caso pone una domanda etica, quando il paziente ha una demenza avanzata."),
+ (1,"chiaro",0,"Ci servono le lezioni tre punto tre, tre punto quattro, tre punto cinque, undici punto due e uno punto sei."),
 
- (2,"chiaro",0,"La prima distinzione. Il sintomo e' soggettivo: cio' che la persona riferisce, come il dolore, la nausea, la sensazione di mancanza d'aria. Il segno e' oggettivo: cio' che l'operatore rileva."),
- (2,"chiaro",0,"Segni sono la febbre, l'edema, l'ittero, la tachicardia. Si documentano entrambi, e le parole della persona hanno valore clinico: non riesco a respirare va scritto, anche se la saturazione e' buona."),
+ (2,"chiaro",0,"Lo scenario. Il signor Ottavio, settantanove anni, demenza moderata, e' ricoverato per una disfagia grave e un calo di peso: indice di massa corporea sedici, e da piu' di due settimane mangia pochissimo."),
+ (2,"chiaro",0,"Ieri gli e' stato posizionato un sondino naso-gastrico, e la nutrizione enterale e' stata avviata in serata direttamente alla velocita' piena. Di notte, agitato, e' rimasto a lungo quasi sdraiato."),
+ (2,"chiaro",0,"Alle sei: tosse insistente, saturazione ottantanove, febbre a trentotto virgola quattro, frequenza respiratoria ventotto, rantoli alla base destra, e residui di nutrizione nel cavo orale."),
+ (2,"chiaro",0,"Fermati un momento: che cosa e' successo? E quale secondo rischio ti preoccupa nei prossimi giorni?"),
 
- (3,"chiaro",0,"Le quattro tecniche dell'esame obiettivo. L'ispezione: guardare. La palpazione: toccare, per valutare la temperatura, la consistenza, il dolore, i polsi."),
- (3,"chiaro",0,"La percussione: battere e ascoltare il suono, timpanico dove c'e' aria, ottuso dove c'e' liquido o tessuto solido. E l'auscultazione: ascoltare con il fonendoscopio."),
- (3,"chiaro",0,"Di solito si seguono in quest'ordine, con un'eccezione chiesta spesso: nell'addome si ausculta prima di percuotere e palpare, perche' la manipolazione altera la peristalsi."),
+ (3,"chiaro",0,"Il ragionamento. Disfagia e demenza, nutrizione enterale, posizione supina, agitazione, con il rischio che il sondino si sia spostato. Residui in bocca, tosse, febbre, desaturazione, rantoli: e' una polmonite da inalazione."),
+ (3,"chiaro",0,"Il secondo rischio, meno evidente ma altrettanto grave: un paziente gravemente malnutrito a cui la nutrizione e' stata avviata a pieno regime. E' il terreno della sindrome da rialimentazione."),
 
- (4,"chiaro",0,"L'auscultazione del torace. Il murmure vescicolare e' il rumore normale. I crepitii, o rantoli fini, indicano liquido negli alveoli: edema polmonare, polmonite."),
- (4,"chiaro",0,"I sibili: vie aeree ristrette, come nel broncospasmo. I ronchi: secrezioni nei bronchi. Lo sfregamento pleurico: la pleura infiammata. E un murmure ridotto o assente fa pensare a versamento, pneumotorace, atelettasia."),
+ (4,"chiaro",0,"Le prime azioni. Sospendi la nutrizione. Posizione semiseduta, o laterale se vomita. Aspiri il cavo orale e la faringe. Ossigeno secondo protocollo, e avviso al medico con lo SBAR. Parametri e monitoraggio."),
+ (4,"chiaro",0,"Poi verifichi la posizione del sondino, con le regole della lezione tre punto quattro: i centimetri segnati alla narice, e il pH dell'aspirato, che deve essere pari o inferiore a cinque virgola cinque."),
+ (4,"chiaro",0,"In caso di dubbio, la conferma radiologica. Mai il whoosh, cioe' l'auscultazione dell'aria insufflata. Poi prelievi, eventuale radiografia del torace e antibiotico secondo prescrizione."),
 
- (5,"chiaro",0,"L'esame dell'addome. All'ispezione: la distensione, le cicatrici, le stomie. All'auscultazione, i rumori intestinali: assenti nell'ileo, metallici nell'occlusione."),
- (5,"chiaro",0,"Alla percussione: timpanismo per i gas, ottusita' per i liquidi o per un globo vescicale. Alla palpazione: il dolore e la difesa."),
- (5,"chiaro",0,"E tre segni da conoscere. Il segno di Blumberg: dolore al rilascio improvviso della pressione, che indica un'irritazione peritoneale."),
- (5,"chiaro",0,"Il segno di Murphy: dolore in inspirazione profonda palpando sotto l'arcata costale destra, nella colecistite. Il segno di Giordano: dolore alla percussione lombare, nella colica renale o nella pielonefrite."),
+ (5,"chiaro",0,"[serious] La prevenzione, che in gran parte e' infermieristica. La testata a trenta-quarantacinque gradi durante l'infusione e per trenta-sessanta minuti dopo, anche di notte: e' proprio cio' che e' mancato."),
+ (5,"chiaro",0,"La verifica del sondino prima di ogni avvio, dopo tosse, vomito o agitazione, e a ogni turno. L'infusione con pompa alla velocita' prescritta. Il controllo del ristagno gastrico secondo protocollo."),
+ (5,"chiaro",0,"L'igiene del cavo orale, perche' la bocca colonizzata e' la fonte dei batteri inalati. Distensione e vomito sorvegliati. Niente sedazione eccessiva. E nell'agitato, sorveglianza e fissaggio sicuro, non contenzione."),
 
- (6,"chiaro",0,"Altri segni utili. L'edema con fovea: premendo con un dito resta un'impronta. Il turgore cutaneo ridotto nella disidratazione, poco affidabile nell'anziano, la cui cute e' meno elastica: meglio guardare le mucose."),
- (6,"chiaro",0,"Il riempimento capillare. La cute: il colorito, cioe' pallore, cianosi, ittero, poi la temperatura e l'integrita'. Le giugulari turgide nello scompenso destro. E lo stato di coscienza."),
+ (6,"chiaro",0,"[thoughtful] La sindrome da rialimentazione: che cos'e'? In un paziente gravemente malnutrito, la ripresa improvvisa dell'apporto di carboidrati stimola l'insulina."),
+ (6,"chiaro",0,"L'insulina fa entrare rapidamente nelle cellule fosfato, potassio e magnesio, e i loro livelli nel sangue crollano, tipicamente nei primi giorni."),
+ (6,"chiaro",0,"Le conseguenze sono serie: aritmie, insufficienza cardiaca, edemi, debolezza dei muscoli respiratori, confusione, convulsioni, fino alla morte. E' una complicanza della nutrizione, non della malattia: e' prevenibile."),
 
- (7,"chiaro",0,"Gli esami di laboratorio, con una premessa: i valori sono indicativi e cambiano fra laboratori. Fa sempre fede l'intervallo riportato sul referto."),
- (7,"chiaro",0,"L'emocromo. L'emoglobina: circa fra tredici e diciassette grammi per decilitro nell'uomo, fra dodici e sedici nella donna. I globuli bianchi: circa fra quattromila e diecimila."),
- (7,"chiaro",0,"I neutrofili: sotto millecinquecento si parla di neutropenia, sotto cinquecento di neutropenia grave, come nella lezione otto punto sette. Le piastrine: circa fra centocinquantamila e quattrocentocinquantamila."),
+ (7,"chiaro",0,"Chi e' a rischio? Chi ha un indice di massa corporea sotto sedici, un calo di peso involontario oltre il quindici per cento in tre-sei mesi, un apporto minimo o nullo da piu' di dieci giorni, o elettroliti gia' bassi."),
+ (7,"chiaro",0,"Il signor Ottavio era a rischio elevato. La prevenzione, secondo prescrizione e protocollo: un avvio lento e progressivo dell'apporto calorico, e la tiamina prima e durante."),
+ (7,"chiaro",0,"Fosfato, potassio e magnesio dosati e corretti, con controlli giornalieri nei primi giorni, bilancio e peso, monitoraggio cardiaco nei casi gravi. Avviarla a pieno regime, come e' stato fatto, era un errore."),
 
- (8,"chiaro",0,"Elettroliti, glicemia e rene. Il sodio: fra centotrentacinque e centoquarantacinque. Il potassio: fra tre virgola cinque e cinque virgola zero, con le soglie di pericolo della lezione tre punto cinque."),
- (8,"chiaro",0,"Il calcio totale: circa fra otto virgola cinque e dieci virgola cinque, da correggere per l'albumina. La glicemia a digiuno: fra settanta e novantanove milligrammi per decilitro."),
- (8,"chiaro",0,"La creatinina: circa fra zero virgola sei e uno virgola due, sapendo che dipende dalla massa muscolare, e quindi va affiancata dal GFR stimato. E poi l'azotemia."),
+ (8,"chiaro",0,"Il terzo giorno. La nutrizione e' stata ripresa piu' lentamente dopo la polmonite, ma gli esami mostrano un fosfato molto basso, un potassio di due virgola nove e un magnesio basso."),
+ (8,"chiaro",0,"Il paziente e' tachicardico, edematoso, piu' debole e confuso. E' una sindrome da rialimentazione. Si segnala subito, e si riduce l'apporto secondo prescrizione."),
+ (8,"chiaro",0,"Si correggono gli elettroliti per via endovenosa, con la pompa, e il potassio mai in bolo. Si avvia il monitoraggio ECG, e si coinvolge il servizio di nutrizione clinica."),
 
- (9,"chiaro",0,"Coagulazione, fegato, infiammazione ed emogas. L'INR: circa fra zero virgola otto e uno virgola due, e in terapia con warfarin, di norma, fra due e tre. L'aPTT: circa fra venticinque e trentacinque secondi."),
- (9,"chiaro",0,"L'albumina: circa fra tre virgola cinque e cinque. La bilirubina totale: sotto circa uno virgola due. E la PCR, la proteina C reattiva, che aumenta nell'infiammazione."),
- (9,"chiaro",0,"I lattati: sotto due millimoli per litro. E la troponina, con soglie che dipendono dal metodo del laboratorio."),
- (9,"chiaro",0,"E l'emogas: il pH fra sette virgola trentacinque e sette virgola quarantacinque, la PaCO2 fra trentacinque e quarantacinque, la PaO2 circa fra ottanta e cento, il bicarbonato fra ventidue e ventisei."),
+ (9,"chiaro",0,"Un approfondimento etico che questo caso impone: la decisione sulla nutrizione artificiale. Per la legge duecentodiciannove e' un trattamento sanitario: richiede il consenso, e puo' essere rifiutata."),
+ (9,"chiaro",0,"Nella persona con demenza si considerano le disposizioni anticipate, la pianificazione condivisa, il fiduciario o l'amministratore di sostegno, i familiari."),
+ (9,"chiaro",0,"Le evidenze disponibili non mostrano benefici chiari della nutrizione per sonda nella demenza avanzata, ne' sulla sopravvivenza ne' sulla prevenzione dell'inalazione."),
+ (9,"chiaro",0,"L'alternativa: alimentazione di confort, piccole quantita' di cibi graditi, consistenze adatte, aiuto al pasto. La decisione si condivide, si documenta, si rivaluta; l'infermiere porta la conoscenza quotidiana della persona."),
 
- (10,"chiaro",0,"[thoughtful] Il valore critico, o di panico: un risultato che indica un pericolo immediato per il paziente. Per esempio un potassio molto alto, una glicemia molto bassa, un'emoglobina crollata."),
- (10,"chiaro",0,"Il laboratorio lo comunica con una procedura dedicata, spesso per telefono. L'infermiere che lo riceve lo registra, e lo ripete per conferma: e' il read-back della lezione due punto sette."),
- (10,"chiaro",0,"Poi avvisa subito il medico, valuta il paziente e documenta. E prima di tutto si chiede se il campione puo' essere alterato, come nel caso dell'emolisi."),
+ (10,"chiaro",0,"E se la nutrizione proseguira' a lungo? Il sondino naso-gastrico e' per periodi brevi; oltre alcune settimane si valuta una gastrostomia, la PEG, con la cura della stomia, la mobilizzazione del dispositivo, i lavaggi."),
+ (10,"chiaro",0,"Per entrambi i dispositivi valgono le regole sui farmaci: forme adatte, non frantumare le forme a rilascio modificato, lavaggio prima e dopo ogni farmaco. E se torna a casa, si educa il caregiver."),
 
- (11,"chiaro",0,"L'esame delle urine: l'aspetto e il colore; il peso specifico, che indica quanto sono concentrate; il pH; le proteine, il glucosio, i chetoni, ricordi la chetoacidosi, e il sangue."),
- (11,"chiaro",0,"Nitriti e leucociti suggeriscono un'infezione. L'urinocoltura nel cateterizzato si preleva dal raccordo, mai dalla sacca. E la batteriuria asintomatica, di norma, non si tratta."),
+ (11,"chiaro",0,"Un passo indietro: la valutazione nutrizionale. Lo screening del rischio si fa all'ingresso, con il MUST o gli strumenti in uso in azienda, insieme a peso, altezza, indice di massa corporea, calo di peso e apporto."),
+ (11,"chiaro",0,"Si valuta la deglutizione. Si attivano il dietista e la nutrizione clinica, si registrano gli apporti. Il signor Ottavio era malnutrito da settimane: la malnutrizione si cerca, non si aspetta che si manifesti."),
 
- (12,"chiaro",0,"La diagnostica per immagini. Radiografia e TC usano radiazioni ionizzanti: a una donna in eta' fertile si chiede sempre di una possibile gravidanza, e si applicano le regole di radioprotezione."),
- (12,"chiaro",0,"La TC usa spesso un mezzo di contrasto iodato. La risonanza magnetica non usa radiazioni, ma un campo magnetico intensissimo, sempre attivo, e un contrasto a base di gadolinio."),
- (12,"chiaro",0,"L'ecografia usa gli ultrasuoni, senza radiazioni. E la medicina nucleare usa i radiofarmaci, per la scintigrafia e per la PET."),
+ (12,"chiaro",0,"Gli errori. La nutrizione in posizione supina. Non verificare il sondino dopo agitazione o tosse. Verificarlo con il whoosh. Avviare a pieno regime un paziente gravemente malnutrito."),
+ (12,"chiaro",0,"Dimenticare la tiamina e gli elettroliti. Correggere il potassio senza pompa. Considerare la nutrizione artificiale un atto dovuto, senza una decisione condivisa."),
 
- (13,"chiaro",0,"Il mezzo di contrasto iodato richiede una preparazione precisa. Prima: il consenso, e l'anamnesi di reazioni precedenti al contrasto e di allergie, con eventuali premedicazioni secondo protocollo."),
- (13,"chiaro",0,"La funzione renale, con il GFR stimato, per il rischio di danno renale. L'idratazione. La gestione della metformina secondo protocollo. E un accesso venoso adeguato all'iniettore."),
- (13,"chiaro",0,"Durante e dopo, le reazioni vanno da quelle lievi, come calore, nausea, orticaria, fino all'anafilassi, che si tratta con l'adrenalina. Poi lo stravaso nella sede di iniezione, e la sorveglianza dopo l'esame."),
+ (13,"chiaro",0,"[curious] Le domande d'orale. Prima: come si verifica il sondino? Con la conferma radiologica dopo il posizionamento, quando prevista; poi con i centimetri alla narice e il pH dell'aspirato, fino a cinque virgola cinque."),
+ (13,"chiaro",0,"L'auscultazione dell'aria non e' affidabile. Seconda: come si previene l'inalazione? Testata a trenta-quarantacinque gradi durante e dopo l'infusione, verifica del sondino, infusione con pompa."),
+ (13,"chiaro",0,"Controllo del ristagno, igiene orale, sorveglianza di distensione e vomito. Terza: la sindrome da rialimentazione? Un crollo di fosfato, potassio e magnesio quando si rialimenta un paziente malnutrito."),
+ (13,"chiaro",0,"A rischio chi ha un indice di massa corporea sotto sedici, un forte calo di peso, o un apporto minimo da oltre dieci giorni."),
 
- (14,"chiaro",0,"La sicurezza in risonanza magnetica. Il magnete e' sempre attivo, anche quando non si fanno esami. Ogni paziente compila un questionario di sicurezza."),
- (14,"chiaro",0,"Si verificano le condizioni a rischio: pacemaker e defibrillatori non compatibili, clip vascolari cerebrali, impianti cocleari, neurostimolatori, schegge metalliche, soprattutto negli occhi."),
- (14,"chiaro",0,"In sala non entra nessun oggetto ferromagnetico: una bombola di ossigeno, una barella, una sedia a rotelle, una pompa non compatibile. Il campo magnetico lo trasforma in un proiettile."),
- (14,"chiaro",0,"Si usano solo dispositivi certificati come compatibili. Poi la claustrofobia, il rumore, i cerotti transdermici con parti metalliche. E in gravidanza serve una valutazione."),
- (14,"profondo",1.2,"[serious] La risonanza e' uno dei luoghi in cui un attimo di distrazione puo' uccidere. Il magnete e' sempre attivo."),
+ (14,"chiaro",0,"La risposta modello. Paziente con demenza, disfagia e grave malnutrizione, in nutrizione enterale avviata a pieno regime e mantenuto supino, con tosse, febbre, desaturazione, rantoli e residui in bocca."),
+ (14,"chiaro",0,"Sospetta polmonite da inalazione. Sospendo la nutrizione, lo posiziono semiseduto, aspiro, somministro ossigeno e avviso il medico; verifico la posizione del sondino, e collaboro alla terapia prescritta."),
+ (14,"chiaro",0,"Per la prevenzione: testata a trenta-quarantacinque gradi, sondino verificato a ogni avvio e dopo agitazione, pompa, igiene orale. E riconosco l'alto rischio di sindrome da rialimentazione."),
+ (14,"chiaro",0,"Segnalo la necessita' di un avvio lento, della tiamina e del controllo di fosfato, potassio e magnesio. E partecipo alla decisione condivisa sulla nutrizione artificiale, documentando."),
 
- (15,"chiaro",0,"La preparazione agli altri esami. Per l'ecografia dell'addome superiore, il digiuno, che mantiene la colecisti distesa e riduce i gas. Per l'ecografia pelvica, la vescica piena, che fa da finestra acustica."),
- (15,"chiaro",0,"Per la medicina nucleare dipende dal radiofarmaco: spesso l'idratazione, e per un periodo si limitano i contatti ravvicinati con bambini e donne in gravidanza. Le endoscopie le hai viste nella lezione otto punto cinque."),
+ (15,"chiaro",0,"I collegamenti. Nutrizione e disfagia con la tre punto tre. Sondino e nutrizione enterale con la tre punto quattro. Elettroliti con la tre punto cinque."),
+ (15,"chiaro",0,"Demenza con la undici punto due. Legge duecentodiciannove e consenso con la uno punto sei. E la prevenzione della polmonite con la tre punto uno."),
 
- (16,"chiaro",0,"[curious] Il caso. Paziente diabetico in metformina, con GFR stimato ridotto, deve fare una TC con contrasto. Riferisce di aver avuto un'orticaria dopo un esame, anni fa. Che cosa fai?"),
- (16,"chiaro",0,"Tre segnalazioni al medico e al radiologo, prima dell'esame. La reazione precedente, che puo' richiedere una premedicazione o un esame alternativo. La funzione renale ridotta, che richiede valutazione e idratazione."),
- (16,"chiaro",0,"E la metformina, da gestire secondo protocollo. Poi prepari un accesso adeguato e il materiale per l'emergenza."),
+ (16,"chiaro",0,"Un dettaglio organizzativo: la notte e' il punto critico. Il personale e' ridotto, i pazienti scivolano nel letto, l'agitazione aumenta. E la nutrizione notturna richiede le stesse regole del giorno."),
+ (16,"chiaro",0,"Le consegne contengono velocita', verifica del sondino, posizione e ristagno. Il riposizionamento si puo' attribuire all'OSS, con istruzioni chiare: testata sollevata, e segnalare subito tosse o vomito."),
 
- (17,"chiaro",0,"La tabella. Sintomo e segno. Le quattro tecniche, con l'addome che si ausculta prima. Crepitii, sibili, ronchi. Blumberg, Murphy, Giordano. I valori di laboratorio. Il valore critico. Il contrasto iodato. La risonanza."),
+ (17,"profondo",1.2,"[serious] La frase del caso: nutrire bene significa anche nutrire piano, e nella posizione giusta."),
 
- (18,"chiaro",0,"[warm] Nella prossima lezione ricomponiamo il modulo quattordici con le tabelle dei valori normali e i collegamenti fra fisiologia e assistenza. A tra poco."),
+ (18,"chiaro",0,"[warm] Nella prossima lezione: un'intera famiglia arriva in pronto soccorso una mattina d'inverno, con mal di testa e nausea. Saturazioni perfette, e un nemico invisibile. A tra poco."),
 ]
-CAPITOLI = {1:"Apertura",2:"Segni e sintomi",3:"Le quattro tecniche dell'esame obiettivo",4:"L'auscultazione del torace",5:"L'esame dell'addome",
- 6:"Altri segni utili",7:"L'emocromo",8:"Elettroliti, glicemia, funzione renale",9:"Coagulazione, fegato, infiammazione, emogas",10:"Il valore critico",
- 11:"L'esame delle urine",12:"La diagnostica per immagini",13:"Il mezzo di contrasto iodato",14:"La sicurezza in risonanza magnetica",
- 15:"La preparazione agli altri esami",16:"Il caso d'esame",17:"La tabella",18:"Chiusura"}
+CAPITOLI = {1:"Apertura",2:"Lo scenario",3:"Il ragionamento",4:"Le prime azioni",5:"La prevenzione dell'inalazione",
+ 6:"La sindrome da rialimentazione",7:"Chi e' a rischio e come si previene",8:"Il terzo giorno",
+ 9:"La decisione sulla nutrizione artificiale",10:"Se la nutrizione proseguira' a lungo",11:"La valutazione nutrizionale",
+ 12:"Gli errori da evitare",13:"Le domande d'orale",14:"La risposta modello",15:"I collegamenti",16:"La notte: il punto critico",
+ 17:"La frase del caso",18:"Chiusura"}
 
 # Deroghe al limite di 225 caratteri, dichiarate una per una con il motivo:
 # la voce e' gia' generata e non ha fatto pausa dove il copione staccava, e il
