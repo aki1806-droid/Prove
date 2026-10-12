@@ -144,6 +144,7 @@ progetti/<modulo>-<lezione>/
 | `m15-l15.10-terapia` | Modulo 15 · 15.10 Il turno della terapia: quattro trappole | 9:12.2 | `746233e8a9a58cec6256bc70074c4da9` |
 | `m15-l15.11-turno` | Modulo 15 · 15.11 Il turno: priorità, attribuzione e aggressione | 9:14.8 | `3aa3d71e0814f6611ab0fb01b50ee491` |
 | `m15-l15.12-riepilogo` | Modulo 15 · 15.12 Riepilogo del modulo e casi lampo | 9:03.6 | `899a7e3eaba523b2b08a8c8e9dd184ae` |
+| `m16-l16.1-ictus` | Modulo 16 · 16.1 L'ictus: dalla FAST in reparto alla riabilitazione | 9:14.0 | `4b78d02af6fed97f9dc015c07f52b143` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
