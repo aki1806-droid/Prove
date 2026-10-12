@@ -27,6 +27,29 @@ CHIUSURA  = 10.0
 
 # --- dalla voce --------------------------------------------------------------
 
+# La voce e il modello con cui si generano le tracce. Non li legge nessuno
+# strumento: entrano a mano nella chiamata di sintesi. Stanno qui perche' e'
+# l'unico posto che la lezione successiva eredita, e una scelta che vive solo
+# nella testa di chi lavora non sopravvive al cambio di chat.
+#
+# GianP News Info and Documentary e' la voce di tutto il modulo 16: tenerla
+# vuol dire che chi segue il corso non sente cambiare narratore fra un modulo
+# e l'altro.
+#
+# Dal modulo 17 il modello e' eleven_v4, su richiesta del committente. Provato
+# con una frase su questa voce prima di adottarlo: i tag di intenzione non
+# vengono letti, gli accenti con l'apostrofo (e', piu') escono come vocali
+# accentate, le sigle vengono sillabate, i numeri a parole restano a parole.
+# Stessi parametri di eleven_v3, piu' `language_code`, che va messo a "it".
+#
+# Tutti i numeri qui sotto — CPS, RAPPORTO_RITMO, il costo di un credito per
+# carattere — sono misurati su eleven_v3. Sulla prima lezione in v4 vanno
+# rimisurati, e fino ad allora il copione si scrive CORTO: il respiro allunga,
+# non accorcia.
+VOCE         = "nNt0YcINdGadGcTx5fBM"   # GianP - News Info and Documentary
+MODELLO_VOCE = "eleven_v4"              # per i moduli successivi; questa lezione e tutto il modulo 16 sono in eleven_v3
+LINGUA_VOCE  = "it"
+
 # Caratteri al secondo della traccia DOPO il filtro di ritmo. Misurata, non
 # stimata: e' il rapporto fra i caratteri del copione e il parlato che ne esce.
 # Su nove lezioni il reale e' andato da 15,8 a 17,6 — lo scarto dipende dalla

@@ -390,15 +390,29 @@ chunkB.txt   blocchi dopo lo stacco       < 5.000 caratteri
 I chunk portano i tag di intenzione: sono per la voce. Li toglie
 l'allineamento, non chi scrive.
 
-Lo stacco si dichiara **una volta sola**, nella costante `STACCO` di `tagli.py`.
-Tenerne una seconda copia altrove vuol dire che prima o poi le due divergono in
-silenzio e il confronto si fa sui blocchi sbagliati. `costruisci.py` lo calcola e
-lo stampa; chi scrive lo ricopia in `tagli.py` e lo lascia dov'è.
+**Voce, modello e lingua stanno in `profilo.py`** — `VOCE`, `MODELLO_VOCE`,
+`LINGUA_VOCE` — anche se nessuno strumento li legge: entrano a mano nella
+chiamata di sintesi. Stanno lì perché è l'unico file che la lezione dopo
+eredita, e una scelta che vive solo nella testa di chi lavora non sopravvive
+al cambio di chat.
+
+> **Cambiando modello si rimisura tutto quello che viene dalla voce.** `CPS`,
+> `RAPPORTO_RITMO` e il costo per carattere sono misure, non costanti, e sono
+> state prese su `eleven_v3`. Prima di adottare `eleven_v4` l'ho provato con
+> una frase sulla stessa voce: i tag non vengono letti, `e'` esce «è», le sigle
+> vengono sillabate. Ma una frase non misura un ritmo: sulla prima lezione col
+> modello nuovo il copione si scrive **corto**, e si lascia colmare al respiro.
+
+Lo stacco si dichiara **una volta sola**, nella costante `STACCO` di
+`profilo.py`. `costruisci.py` lo verifica — deve cadere a un cambio di
+capitolo — e da quello scrive i due file `chunkA.txt` e `chunkB.txt`.
 
 > **Lo stacco della lezione precedente è ancora lì.** `nuova-lezione.sh` copia
-> `tagli.py` dall'ultima lezione fatta, `STACCO` compreso. Se non lo si
-> aggiorna, la traccia si taglia nel punto sbagliato e nessun controllo se ne
-> accorge: i conti tornano tutti, solo sui blocchi sbagliati.
+> `profilo.py` dall'ultima lezione fatta, `STACCO` compreso. Finché i chunk si
+> componevano a mano, uno stacco vecchio tagliava la traccia nel punto
+> sbagliato e nessun controllo se ne accorgeva: i conti tornavano tutti, sui
+> blocchi sbagliati. Ora `costruisci.py` si ferma se lo stacco cade dentro un
+> capitolo — ed è successo alla prima esecuzione.
 
 ### Due trappole che costano soldi, non tempo
 
@@ -1000,7 +1014,8 @@ I parametri comuni a tutti e due:
 | | verde pieno `#004E2E` (slide di affermazione), velo rosa `#FCF4F3` (errori) |
 | marchio | logo CISL FP Padova Rovigo, **in alto a sinistra su ogni slide** |
 | caratteri | Inter (testo), Source Serif 4 (frasi e citazioni) |
-| voce | GianP — News Info and Documentary, `nNt0YcINdGadGcTx5fBM`, `eleven_v3` |
+| voce | GianP — News Info and Documentary, `nNt0YcINdGadGcTx5fBM` |
+| modello | `eleven_v3` fino al modulo 16 · **`eleven_v4` dal modulo 17**, `language_code` `it` |
 | trascrizione | `eleven_scribe_v1` |
 | formato | 1920×1080, 25 fps, 16:9, 1080p |
 | `CPS` | 17,0 di partenza · misurato 17,52 · 18,31 · 17,63 · fascia 8,5–21 |
@@ -1048,7 +1063,7 @@ diversa potrebbero cambiare forma.
 ## Costo misurato, per lezione
 
 ```
-voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28
+voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28   (eleven_v4: da misurare)
 trascrizione delle due tracce intere             $0,49
                                                  ------
                                                  $1,77
@@ -1237,6 +1252,29 @@ CHIUSURA  = 10.0
 
 # --- dalla voce --------------------------------------------------------------
 
+# La voce e il modello con cui si generano le tracce. Non li legge nessuno
+# strumento: entrano a mano nella chiamata di sintesi. Stanno qui perche' e'
+# l'unico posto che la lezione successiva eredita, e una scelta che vive solo
+# nella testa di chi lavora non sopravvive al cambio di chat.
+#
+# GianP News Info and Documentary e' la voce di tutto il modulo 16: tenerla
+# vuol dire che chi segue il corso non sente cambiare narratore fra un modulo
+# e l'altro.
+#
+# Dal modulo 17 il modello e' eleven_v4, su richiesta del committente. Provato
+# con una frase su questa voce prima di adottarlo: i tag di intenzione non
+# vengono letti, gli accenti con l'apostrofo (e', piu') escono come vocali
+# accentate, le sigle vengono sillabate, i numeri a parole restano a parole.
+# Stessi parametri di eleven_v3, piu' `language_code`, che va messo a "it".
+#
+# Tutti i numeri qui sotto — CPS, RAPPORTO_RITMO, il costo di un credito per
+# carattere — sono misurati su eleven_v3. Sulla prima lezione in v4 vanno
+# rimisurati, e fino ad allora il copione si scrive CORTO: il respiro allunga,
+# non accorcia.
+VOCE         = "nNt0YcINdGadGcTx5fBM"   # GianP - News Info and Documentary
+MODELLO_VOCE = "eleven_v4"              # per i moduli successivi; questa lezione e tutto il modulo 16 sono in eleven_v3
+LINGUA_VOCE  = "it"
+
 # Caratteri al secondo della traccia DOPO il filtro di ritmo. Misurata, non
 # stimata: e' il rapporto fra i caratteri del copione e il parlato che ne esce.
 # Su nove lezioni il reale e' andato da 15,8 a 17,6 — lo scarto dipende dalla
@@ -1282,6 +1320,23 @@ FASCIA_CPS = (8.5, 21.0)
 # copione un po' corto, si misura la voce, e `tagli.py applica` distribuisce
 # la differenza come respiro su ogni blocco. Costa zero e non rigenera niente.
 #
+# Di quanto il filtro di ritmo accorcia la traccia: grezzo diviso lavorato
+# netto. Misurato 1,252 · 1,240 · 1,246 · 1,290 su quattro lezioni della stessa
+# voce: varia del 4%, esattamente come il CPS. Per tre lezioni e' sembrato
+# stabile alla terza cifra e l'ho scritto; la quarta misura lo ha smentito.
+# Le due lezioni col CPS praticamente identico (18,31 e 18,32) hanno dato
+# rapporti 1,240 e 1,290, quindi i due numeri non vanno nemmeno insieme.
+#
+# Serve a una cosa sola: a `tagli.py allinea`, che deve stimare il ritmo
+# LAVORATO guardando soltanto la traccia grezza, per segnalare i confini da
+# guardare. E' una stima e sbaglia in entrambi i versi — il controllo vero e'
+# quello che `applica` fa sul lavorato. Prima stava scritto 1.30 dentro lo
+# strumento: il numero non e' sbagliato, e' che non e' degli strumenti.
+#
+# Niente di tutto questo serve a prevedere la durata del montato: a quella
+# pensa il respiro, che misura invece di stimare.
+RAPPORTO_RITMO = 1.26
+
 # Il tetto esiste perche' il respiro non deve poter coprire un copione
 # gravemente corto: oltre questo valore `applica` si ferma e lo dice, invece
 # di consegnare un video pieno di buchi.
@@ -1332,7 +1387,7 @@ MAX_CAR_BLOCCO = 225
 # calcola e lo stampa; qui si ricopia. Va riletto A OGNI LEZIONE: quello della
 # lezione precedente taglia la traccia nel punto sbagliato e nessun controllo
 # se ne accorge, perche' i conti tornano tutti — solo sui blocchi sbagliati.
-STACCO = "s25"                  # chunkA 3931 car · chunkB 3758 car
+STACCO = "s26"                  # chunkA 4081 car · chunkB 3691 car — chiude il cap 7
 ```
 
 ## `copione/costruisci.py`
@@ -1427,7 +1482,7 @@ BLOCCHI = [
 
 import sys as _sys, pathlib as _pl
 _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
-from profilo import CPS, MAX_CAR_BLOCCO, MAX_SCENE, COPERTINA, CHIUSURA
+from profilo import CPS, MAX_CAR_BLOCCO, MAX_SCENE, COPERTINA, CHIUSURA, STACCO
 
 ACCENTATE = "àèéìòùÀÈÉÌÒÙ"
 CAPITOLI = {1:"Apertura",2:"Le due conseguenze",3:"La legge 180",
@@ -1449,8 +1504,6 @@ for b in blocchi:
     if len(b["text"])>MAX_CAR_BLOCCO: errori.append(f'{b["id"]}: {len(b["text"])} car, blocco troppo lungo')
 tags=sum(len(re.findall(r"\[[a-z]+\]", b["text"])) for b in blocchi)
 if tags>6: errori.append(f"tag di intenzione: {tags} > 6")
-# Un capitolo che finisce senza posa incolla due argomenti in un respiro solo.
-# Costato un montato sette secondi corto: nove cambi su dodici ne erano privi.
 for a,b in zip(blocchi, blocchi[1:]):
     if a["capitolo"]!=b["capitolo"] and not a["posa"]:
         errori.append(f'{a["id"]}: chiude il capitolo {a["capitolo"]} senza posa')
@@ -1460,23 +1513,52 @@ parlato=tot/CPS+pose; durata=parlato+COPERTINA+CHIUSURA
 print(f"blocchi   {len(blocchi)}        scene {nscene}/{MAX_SCENE}")
 print(f"caratteri {tot}      media {tot/len(blocchi):.0f} car/blocco")
 print(f"parlato   {parlato:.0f} s     montato {durata//60:.0f}:{durata%60:04.1f}   (stima a {CPS} car/s)")
-print(f"tag       {tags}        pose {sum(1 for b in blocchi if b['posa'])}")
+print(f"tag       {tags}        pose {sum(1 for b in blocchi if b['posa'])} per {pose:.1f} s")
 print()
 cur=None
 for b in blocchi:
     if b["capitolo"]!=cur:
         cur=b["capitolo"]; print(f'  cap {cur:2d}  {CAPITOLI[cur]}')
     p=f'  +{b["posa"]}s' if b["posa"] else ""
-    print(f'    {b["id"]}  {len(b["text"]):3d} car  [{b["tema"]:8s}]{p} {b["text"][:52]}...')
+    print(f'    {b["id"]}  {len(b["text"]):3d} car  [{b["tema"]:8s}]{p} {b["text"][:50]}...')
 
 acc=0; stacco=None
-for i,b in enumerate(blocchi):
-    acc+=len(b["text"])+1
-    if acc>tot/2 and stacco is None and i+1<len(blocchi) and b["capitolo"]!=blocchi[i+1]["capitolo"]:
-        stacco=b["id"]; a=acc
-print(f"\nstacco tracce dopo {stacco}:  chunkA {a} car  ·  chunkB {tot-a} car   (limite 5000)")
-print("\n" + ("OK, nessun errore" if not errori else "ERRORI:\n  " + "\n  ".join(errori)))
-json.dump(blocchi, open("copione/blocchi.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
+for b in blocchi:
+    acc+=len(b["text"])
+    if stacco is None and acc>tot/2: stacco=b["id"]
+A=sum(len(b["text"]) for b in blocchi[:[x["id"] for x in blocchi].index(stacco)+1])
+print(f"\nstacco tracce dopo {stacco}:  chunkA {A} car  ·  chunkB {tot-A} car   (limite 5000)")
+
+# Lo stacco che conta e' quello dichiarato in profilo.py, non quello suggerito
+# qui: il suggerimento divide a meta' i caratteri, la scelta la fa chi scrive e
+# va su un cambio di capitolo. I due file di testo finora si scrivevano a mano,
+# ed e' il passaggio in cui lo stacco della lezione precedente sopravvive senza
+# che nessun controllo se ne accorga — i conti tornano tutti, sui blocchi
+# sbagliati. Quindi li scrive questo script, dallo STACCO dichiarato.
+ids = [b["id"] for b in blocchi]
+if STACCO not in ids:
+    errori.append(f"STACCO «{STACCO}» non e\' un blocco di questa lezione")
+else:
+    k = ids.index(STACCO) + 1
+    if blocchi[k-1]["capitolo"] == blocchi[k]["capitolo"]:
+        errori.append(f"STACCO «{STACCO}» cade dentro il capitolo "
+                      f"{blocchi[k]['capitolo']}, non a un cambio")
+    if STACCO != stacco:
+        print(f"  (STACCO dichiarato {STACCO}, il mezzo dei caratteri cade a {stacco})")
+
+if errori:
+    print("\nERRORI:"); [print("  -",e) for e in errori]; sys.exit(1)
+qui = _pl.Path(__file__).parent
+json.dump(blocchi, open(qui/"blocchi.json","w",encoding="utf-8"),
+          indent=1, ensure_ascii=False)
+
+k = ids.index(STACCO) + 1
+for nome, parte in (("chunkA", blocchi[:k]), ("chunkB", blocchi[k:])):
+    testo = " ".join(b["text"] for b in parte)
+    (qui/f"{nome}.txt").write_text(testo + "\n", encoding="utf-8")
+    print(f"{nome}.txt  {len(testo)} car  ({parte[0]['id']}-{parte[-1]['id']})")
+
+print("\nOK, nessun errore")
 ```
 
 ## `audio/tagli.py`
@@ -1508,6 +1590,7 @@ RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
 import sys as _sys; _sys.path.insert(0, str(RADICE))
 from profilo import (STACCO, FASCIA_CPS, COPERTINA, CHIUSURA, DURATA_CHIESTA,
+                     RAPPORTO_RITMO,
                      RESPIRO_MAX, ARROTONDA_SCENA)
 CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
@@ -1650,7 +1733,7 @@ def mostra(L, gruppo, D, conf):
     fuori = 0
     for i,x in enumerate(gruppo):
         d = bordi[i+1]-bordi[i]
-        cps = len(x["text"])/(d/1.30)          # stima: il ritmo accorcia di ~30%
+        cps = len(x["text"])/(d/RAPPORTO_RITMO)   # il lavorato stimato dal grezzo
         bad = not (CPSMIN <= cps <= CPSMAX); fuori += bad
         print(f"  {x['id']}  {bordi[i]:7.2f} -> {bordi[i+1]:7.2f}  {d:5.2f}s grezzi  "
               f"~{cps:5.1f} car/s{'   <-- FUORI FASCIA' if bad else ''}")
@@ -1879,6 +1962,26 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ # Le sigle di questo modulo, sillabate. La 16.5 e' stata verificata con un
+ # riconoscitore locale (vedi trascrizioni/PROVENIENZA.md) che le scrive come
+ # le sente, una lettera per volta e spesso attaccate alla parola dopo. Ogni
+ # variante sta qui dichiarata una per una, come vuole il metodo: una
+ # tolleranza generica nasconderebbe un buco vero.
+ #
+ # Che la voce le abbia davvero pronunciate non lo decide questa tabella: lo
+ # decidono i criteri del MASTER. s34 gira a 14,9 car/s contro una media di
+ # 17,0, e s40 — quasi tutto sigle — e' il blocco piu' lento della lezione:
+ # sillabare costa tempo, saltare lo farebbe risparmiare.
+ (r"\bdi\s+e?\s*seme\b",            " siglaDSM "),
+ (r"\bdsm\b",                        " siglaDSM "),
+ (r"\bci\s+(ha\s+)?as?sieme\b",     " siglaCSM "),
+ (r"\bcsm\b",                        " siglaCSM "),
+ (r"\besse\s+(pidocchi|pdc|dici)\b", " siglaSPDC "),
+ (r"\bspdc\b",                       " siglaSPDC "),
+ (r"\bti\s+e?\s*s?se?\s+o\b",      " siglaTSO "),
+ (r"\btso\b",                        " siglaTSO "),
+ (r"\b(joe\s+s|lo\s+e\s+s)\s*esse\b"," siglaOSS "),
+ (r"\boss\b",                        " siglaOSS "),
  (r"\bl\s*m\s*/?\s*s\s*n\s*t\s*-?\s*1\b", " siglamagistrale "),
  (r"\b(elle\s+)?emme\s+esse\s+enne\s+ti\s+uno\b", " siglamagistrale "),
  (r"\blms\s*nt\s*1\b",                              " siglamagistrale "),
@@ -2455,37 +2558,46 @@ const TUTTI = { ...CORPI, ...CORPI_GRAFICA };
 // che scoprirlo guardando il video.
 const SOLO_CHIARO = new Set(['tabella','barre','assetempo','impila','scadenza','piramide']);
 
-// Le chiavi che ogni tipo legge dalle sue voci. Serve perche' una chiave che il
-// modello non legge viene buttata via IN SILENZIO: il dato c'e', il controllo
-// passa, e il contenuto non arriva sulla slide. E' successo con `griglia`, che
-// rende solo `t`: i quattro elementi della recovery hanno perso le definizioni
-// che la voce stava pronunciando, e me ne sono accorto guardando il provino.
-// Un errore cosi' non deve dipendere dal fatto che guardi la slide giusta.
-const CHIAVI_VOCE = {
-  elenco:  ['voci',  ['t','d']],
-  memo:    ['voci',  []],
-  icone:   ['voci',  ['icona','t','d','key']],
-  tre:     ['box',   ['n','t','d','key']],
-  catena:  ['passi', ['t','d','key']],
-  scala:   ['gradini',['n','t','d','key']],
-  griglia: ['celle', ['t','n','no']],
-  trappola:['righe', ['sb','ok']],
-  timeline:['tappe', ['t','d','key','anno']],
-  confronto:['col',  ['h','t','grande']],
-};
+// Una chiave che il modello non legge viene buttata via IN SILENZIO: il dato
+// c'e', il controllo passa, e il contenuto non arriva sulla slide. E' successo
+// con `griglia`, che rende solo `t`: i quattro elementi della recovery hanno
+// perso le definizioni che la voce stava pronunciando, e me ne sono accorto
+// guardando il provino.
+//
+// La prima versione di questo controllo dichiarava a mano, tipo per tipo, le
+// chiavi lette. Una tabella scritta a mano si scosta dai modelli, e si era gia'
+// scostata: per `timeline` dichiarava `t` e `d`, mentre il modello legge `anno`
+// ed `et`. Il guardiano contro le chiavi perse ne stava perdendo due.
+//
+// Quindi non si dichiara: si osserva. Si rende la scena una prima volta con le
+// voci avvolte in un Proxy che annota ogni accesso, e si confronta con le
+// chiavi che i dati portano davvero. Vale per qualunque tipo, anche per quelli
+// che non esistono ancora, e non c'e' niente da tenere allineato.
+function chiaviLette(d) {
+  const letto = new Map();                       // campo -> chiavi che il modello ha toccato
+  const spia = { ...d };
+  for (const [campo, valore] of Object.entries(d)) {
+    if (!Array.isArray(valore) || !valore.length) continue;
+    if (!valore.every(v => v && typeof v === 'object')) continue;   // attive: numeri, non voci
+    const viste = new Set();
+    letto.set(campo, viste);
+    spia[campo] = valore.map(v => new Proxy(v, {
+      get(o, k) { if (typeof k === 'string') viste.add(k); return o[k]; },
+    }));
+  }
+  TUTTI[d.tipo](spia);
+  return letto;
+}
 
 export function html(d, {avanzamento=0, pagina=''}={}) {
   if (SOLO_CHIARO.has(d.tipo) && d.tema === 'profondo')
     throw new Error(`${d.id}: «${d.tipo}» non va sul tema profondo (contrasto dei dati)`);
-  const cv = CHIAVI_VOCE[d.tipo];
-  if (cv) {
-    const [campo, lette] = cv;
-    for (const [i, v] of (d[campo] ?? []).entries())
+  for (const [campo, lette] of chiaviLette(d))
+    for (const [i, v] of d[campo].entries())
       for (const k of Object.keys(v))
-        if (!lette.includes(k))
+        if (!lette.has(k))
           throw new Error(`${d.id}: «${d.tipo}» non rende la chiave «${k}» (voce ${i+1} di ${campo}). `
-            + `Rende solo: ${lette.join(', ')}. Il contenuto sparirebbe senza dirlo.`);
-  }
+            + `Rende solo: ${[...lette].join(', ')}. Il contenuto sparirebbe senza dirlo.`);
   const t = TEMI[d.tema ?? 'chiaro'];
   const corpo = TUTTI[d.tipo](d);
   const cover = d.tipo === 'copertina';
