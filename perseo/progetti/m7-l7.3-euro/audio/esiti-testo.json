@@ -1,0 +1,27 @@
+{
+ "A": {
+  "parole_copione": 464,
+  "parole_dette": 458,
+  "coincidenti": 454,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "l isc",
+    "detto": "gli sc"
+   },
+   {
+    "blocco": "s08",
+    "copione": "l isc",
+    "detto": "gli sc"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 512,
+  "parole_dette": 512,
+  "coincidenti": 512,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}
