@@ -1,0 +1,353 @@
+{
+ "A": {
+  "parole_copione": 696,
+  "parole_dette": 711,
+  "coincidenti": 653,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "una chetoacidosi",
+    "detto": "1 acheto acidosi"
+   },
+   {
+    "blocco": "s02",
+    "copione": "insulina",
+    "detto": "in sudiene"
+   },
+   {
+    "blocco": "s03",
+    "copione": "l",
+    "detto": "la"
+   },
+   {
+    "blocco": "s05",
+    "copione": "quattrocentottantasei chetoni",
+    "detto": "486 che toni"
+   },
+   {
+    "blocco": "s06",
+    "copione": "emogas",
+    "detto": "hemogas"
+   },
+   {
+    "blocco": "s07",
+    "copione": "emogas",
+    "detto": "hemogas"
+   },
+   {
+    "blocco": "s08",
+    "copione": "chetoni",
+    "detto": "che toni"
+   },
+   {
+    "blocco": "s09",
+    "copione": "emogas",
+    "detto": "acchetto acidosi l hemogas"
+   },
+   {
+    "blocco": "s09",
+    "copione": "lezione64",
+    "detto": "6virgola4"
+   },
+   {
+    "blocco": "s10",
+    "copione": "kussmaul",
+    "detto": "q smaul"
+   },
+   {
+    "blocco": "s10",
+    "copione": "la tachicardia",
+    "detto": "l atacchi cardia"
+   },
+   {
+    "blocco": "s11",
+    "copione": "le urine",
+    "detto": "l eurine"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ipokaliemia",
+    "detto": "ipocaliemia"
+   },
+   {
+    "blocco": "s14",
+    "copione": "abcde",
+    "detto": "a b c d"
+   },
+   {
+    "blocco": "s14",
+    "copione": "avviso al",
+    "detto": "e a visual"
+   },
+   {
+    "blocco": "s14",
+    "copione": "ecg",
+    "detto": "e c g"
+   },
+   {
+    "blocco": "s15",
+    "copione": "emogas",
+    "detto": "hemogas"
+   },
+   {
+    "blocco": "s15",
+    "copione": "antiemetico",
+    "detto": "anti emetico"
+   },
+   {
+    "blocco": "s16",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "chetonemia",
+    "detto": "ketonemia"
+   },
+   {
+    "blocco": "s17",
+    "copione": "emogas",
+    "detto": "hemogas"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "chetosi",
+    "detto": "ketosi"
+   },
+   {
+    "blocco": "s19",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s20",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s20",
+    "copione": "discese",
+    "detto": "di scese"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s22",
+    "copione": "sottocutanea",
+    "detto": "sotto cutania"
+   },
+   {
+    "blocco": "s22",
+    "copione": "chetoacidosi",
+    "detto": "ketosidosi"
+   },
+   {
+    "blocco": "s22",
+    "copione": "sottocutanea",
+    "detto": "sotto cutania"
+   },
+   {
+    "blocco": "s23",
+    "copione": "chetosi",
+    "detto": "ketosi"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s26",
+    "copione": "maggiorenne",
+    "detto": "maggiorene"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 641,
+  "parole_dette": 650,
+  "coincidenti": 594,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s29",
+    "copione": "alcol",
+    "detto": "alcohol"
+   },
+   {
+    "blocco": "s30",
+    "copione": "chetoacidosi",
+    "detto": "ketoacidosi"
+   },
+   {
+    "blocco": "s30",
+    "copione": "chetoacidosi",
+    "detto": "ketoacidosi"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e i",
+    "detto": "ai"
+   },
+   {
+    "blocco": "s31",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s31",
+    "copione": "kussmaul",
+    "detto": "kuzmahul"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ed esordisce",
+    "detto": "e desordiesce"
+   },
+   {
+    "blocco": "s32",
+    "copione": "glicemie",
+    "detto": "glicemia e"
+   },
+   {
+    "blocco": "s32",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s33",
+    "copione": "avviare",
+    "detto": "abbiare"
+   },
+   {
+    "blocco": "s35",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s35",
+    "copione": "chetoacidosi",
+    "detto": "ketoacidosi"
+   },
+   {
+    "blocco": "s35",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s36",
+    "copione": "kussmaul",
+    "detto": "cusmol"
+   },
+   {
+    "blocco": "s38",
+    "copione": "chetosi",
+    "detto": "ketosi"
+   },
+   {
+    "blocco": "s38",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s39",
+    "copione": "polidipsia",
+    "detto": "poli di psia"
+   },
+   {
+    "blocco": "s39",
+    "copione": "kussmaul",
+    "detto": "cusmol"
+   },
+   {
+    "blocco": "s39",
+    "copione": "quattrocentottantasei chetoni",
+    "detto": "486 ketoni"
+   },
+   {
+    "blocco": "s40",
+    "copione": "chetoacidosi all esordio",
+    "detto": "keto acidosi alle sordio"
+   },
+   {
+    "blocco": "s40",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s40",
+    "copione": "ecg infondo",
+    "detto": "e c g in fondo"
+   },
+   {
+    "blocco": "s41",
+    "copione": "chetoni emogas",
+    "detto": "ketoni e gas"
+   },
+   {
+    "blocco": "s42",
+    "copione": "sottocutaneo",
+    "detto": "sottocutanio"
+   },
+   {
+    "blocco": "s46",
+    "copione": "glicemia",
+    "detto": "glice mia"
+   },
+   {
+    "blocco": "s46",
+    "copione": "glicemia",
+    "detto": "glice mia"
+   },
+   {
+    "blocco": "s48",
+    "copione": "chetoacidosi",
+    "detto": "cheto acidosi"
+   },
+   {
+    "blocco": "s48",
+    "copione": "glicemia",
+    "detto": "glice mia"
+   },
+   {
+    "blocco": "s48",
+    "copione": "corregge",
+    "detto": "correggia"
+   },
+   {
+    "blocco": "s48",
+    "copione": "chetoni",
+    "detto": "ketoni"
+   },
+   {
+    "blocco": "s49",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}

@@ -80,6 +80,7 @@ def cifra(s):
 # stessa cosa: la sigla sillabata torna incollata, il numero di lezione torna
 # in cifre. Si uniformano sul testo grezzo, prima di spezzarlo in parole.
 RESE = [
+ (r"\be desordisce\b", " ed esordisce "),  # 16.8 s30: trascrizione locale
  (r"\bporta cat\b", " port a cath "),  # 15.9 s04: «port-a-cath» trascritto «porta cat»
  (r"\ba vu effe\b", " avf "),          # 15.4 s09: la derivazione aVF detta lettera per lettera, trascritta «avf»
  (r"\bdi elle gi esse\b", " dlgs "),   # 12.1 s40-s41: le sigle dette lettera per lettera, trascritte compatte
