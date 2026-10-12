@@ -179,15 +179,43 @@ e sette sillabe. La lezione più lenta delle nove è quella di ripasso, fatta di
 date e numeri di legge.
 
 Cambiando voce o lingua, `CPS` va rimisurato prima di scrivere il copione.
+Con la voce del modulo 17 (`eleven_v4`, filtro più lento, vedi sotto) il provino
+di una frase dava 16,59 e la prima lezione intera **16,86**: +1,6%. Un provino
+basta a dimensionare il copione, se si mira corto.
+
+### Il ritmo è una scelta, e sta in due numeri
+
+Il filtro di ritmo fa due cose: riduce ogni pausa dentro un blocco a
+`PAUSA_INTERNA` secondi, e accelera tutto di `ATEMPO`. Sono **i due numeri che
+decidono quanto una lezione suona veloce**, e stanno in `profilo.py`. Per
+sedici moduli sono stati 0,14 s e 1,12×, scritti dentro `tagli.py` senza che
+nessuno li avesse mai dichiarati.
+
+Quando il committente chiede un ritmo diverso («leggermente più lento») non si
+chiede alla voce di andare piano — non obbedisce in modo costante — si tara il
+filtro. Si legge **una frase** con la voce scelta, la si passa per quattro o
+cinque coppie di valori e si misura il `CPS` di ognuna; si sceglie la coppia
+che dà lo scarto chiesto. Per il modulo 17, −10%:
+
+| pausa interna | atempo | car/s |
+|---|---|---|
+| 0,14 s | 1,12 | 18,37 |
+| 0,20 s | 1,06 | 17,01 |
+| **0,22 s** | **1,04** | **16,59** |
+| 0,25 s | 1,00 | 15,80 — le frasi si sfilacciano |
+
+Rallentare allungando le pause rende meglio che abbassare l'`atempo` sotto 1:
+la voce resta alla sua velocità naturale e le frasi respirano fra loro.
 
 ### Il grezzo e il lavorato stanno in rapporto, ma nemmeno quello è stabile
 
-Il filtro di ritmo accorcia la traccia di circa un quarto. Su quattro lezioni
-della stessa voce: **1,252 · 1,240 · 1,246 · 1,290**, cioè il 4% di escursione,
+Il filtro di ritmo dei moduli 1-16 accorciava la traccia di circa un quarto.
+Su quattro lezioni della stessa voce: **1,252 · 1,240 · 1,246 · 1,290**, cioè il 4% di escursione,
 esattamente come il `CPS`. Per tre misure è sembrato stabile alla terza cifra e
 l'avevo scritto qui; la quarta l'ha smentito. E i due numeri non vanno nemmeno
 insieme: le due lezioni col `CPS` praticamente identico (18,31 e 18,32) hanno
-dato rapporti 1,240 e 1,290.
+dato rapporti 1,240 e 1,290. **Cambiando il filtro cambia tutto**: col filtro
+lento del modulo 17 il rapporto è 1,10 sul provino e 1,104 sulla lezione.
 
 ```
 parlato ≈ durata_grezza / rapporto        ± 4%, cioè ± 18 s su otto minuti
@@ -200,7 +228,10 @@ quello che `applica` fa sul lavorato — su una lezione ha segnalato tre blocchi
 fuori fascia che poi erano tutti dentro.
 
 Il numero va in `profilo.py`, non dentro gli strumenti: ci è stato scritto
-dentro come `1.30` per tre lezioni, ed è la stessa trappola del §4.
+dentro come `1.30` per tre lezioni, ed è la stessa trappola del §4. **E in due
+punti**: tolto dal primo, è sopravvissuto per un'altra lezione nella funzione
+che sceglie la soglia di pausa. Quando si sposta un numero fuori da uno
+strumento, si cerca il numero, non il nome della variabile.
 
 **Nessuno dei due numeri serve a predire la durata del montato.** A quella
 pensa il respiro, che misura invece di stimare. Restano utili solo a
@@ -458,7 +489,7 @@ tagli.py applica    scrive gli mp3 + le pose
 ### Le pause si cercano sul grezzo, non sulla traccia lavorata
 
 È l'errore che costa di più, ed è nascosto. Il filtro di ritmo
-(`silenceremove` con `stop_silence=0.14`) pareggia **tutte** le pause a 0,14 s:
+(`silenceremove` con `stop_silence=PAUSA_INTERNA`) pareggia **tutte** le pause:
 dopo il filtro la lunghezza della pausa — che è il segnale su cui si basa tutta
 la scelta — **non esiste più**. Confini sul grezzo, ritmo applicato dopo, blocco
 per blocco.
@@ -504,18 +535,25 @@ blocchi, e la lavorazione si può rifare da capo.
 
 ### La verifica non è opzionale
 
-Da sola, la scelta automatica sbaglia. Due controlli, e fanno cose diverse:
+Da sola, la scelta automatica sbaglia. La trascrizione della traccia intera
+fa **due** controlli, se si tengono anche i tempi delle parole:
 
-| | `prova.mp3` (1,6 s prima di ogni taglio) | traccia intera |
+| | traccia intera, testo | traccia intera, tempi delle parole |
 |---|---|---|
-| buchi nel parlato | solo intorno ai tagli | **su tutto il testo** |
-| posizione dei tagli | **sì**, è il suo scopo | no: la trascrizione non porta i tempi |
-| costo su ~9 minuti | ~$0,17 | ~$0,53 |
+| strumento | `verifica-testo.py` | `confini-parole.py` |
+| che cosa prende | **la voce che salta parole**, su tutto il testo | **un taglio fuori posto**, su tutti i confini, in secondi |
+| costo | una trascrizione per traccia, ~$0,055 al minuto | zero in più: è la stessa trascrizione |
 
-Quando si può, si fanno tutte e due. Quando se ne può fare una sola, quella
-sulla traccia intera prende l'errore più caro — la voce che salta parole — e i
-confini restano affidati all'allineamento e al controllo statistico offline
-(`verifica-locale.py`).
+Scribe restituisce, oltre al testo, inizio e fine di ogni parola
+(`words_download_url`). Allineato il copione sulla trascrizione, ogni confine
+ha un'ultima parola detta e una prima parola detta: il taglio deve stare in
+mezzo, con un margine. Sulla 17.1: 44 tagli su 44, tutti vicini al centro di
+silenzi fra 0,32 e 0,98 s.
+
+Il vecchio `prova.mp3` (1,6 s prima di ogni taglio, trascritti a parte)
+indovinava il confine dalla somiglianza di un frammento e costava una
+trascrizione in più: con i tempi delle parole non serve. Resta
+`verifica-locale.py`, offline, per quando una trascrizione non si può fare.
 
 ### Come si trascrive davvero da un asset audio
 
@@ -663,7 +701,16 @@ controlli automatici verificano la **forma** e questi difetti stanno nel
 - una serie a tappe — la stessa slide scoperta in tre tempi — col tema diverso
   sulla prima: nel montato il fondo passa da bianco a rosa dentro la stessa
   frase. Le tre slide sono valide **una per una**: il difetto esiste solo nel
-  confronto.
+  confronto;
+- una citazione con la prima riga rientrata a sinistra: il modello appende la
+  virgoletta d'apertura fuori dal margine, ma il testo non apriva con «. Ora il
+  rientro scatta solo se c'è la virgoletta;
+- sei card affiancate coi titoli a capo una parola per riga, e bicolori perché
+  il grassetto dentro un titolo prende l'altro colore. In una fila di card il
+  titolo è **una parola**, il resto va nella descrizione;
+- una tabella con tre righe chiave di cui se ne vedeva una: la zebratura delle
+  righe pari aveva una regola CSS più specifica e vinceva. Nessun controllo
+  automatico guarda la cascata.
 
 Il verso è sempre lo stesso: **prima lo trova l'occhio, poi si scrive il
 controllo**. Degli ultimi quattro, tre hanno prodotto un controllo nuovo (la
@@ -1069,11 +1116,18 @@ diversa potrebbero cambiare forma.
 ## Costo misurato, per lezione
 
 ```
-voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28   (eleven_v4: da misurare)
-trascrizione delle due tracce intere             $0,49
+voce, due tracce, ~7.700 caratteri, eleven_v3    $1,28
+voce, due tracce, ~7.200 caratteri, eleven_v4    $0,00   (17.1: 0 crediti addebitati)
+trascrizione delle due tracce intere             $0,43-0,49   (~$0,055 al minuto)
                                                  ------
-                                                 $1,77
+                                                 $0,43 in v4 · $1,77 in v3
 ```
+
+> **Il costo zero della v4 è una misura, non una tariffa.** Su questo workspace
+> la generazione `eleven_v4` ha addebitato 0 crediti nei provini e sulla prima
+> lezione intera. Va ricontrollato a ogni lezione (`credit_costs` nella risposta
+> di `creative_run_flow_nodes`): se cambia, il costo del modulo torna quello
+> della v3, un credito per carattere.
 
 Il render del montaggio e i caricamenti non si pagano a consumo (piano Pro),
 e nemmeno le rilavorazioni: rifare un taglio, le clip e i caricamenti costa
@@ -1130,19 +1184,21 @@ configurazione**: la leggono da `profilo.py`.
 
 | file | righe | a che cosa serve |
 |---|---|---|
-| `nuova-lezione.sh` | 67 | impianta una lezione nuova dall'ultima fatta |
-| `profilo.py` | 68 | i parametri della lezione, in un posto solo |
-| `copione/costruisci.py` | 130 | il copione, i blocchi, i chunk per la voce |
-| `audio/tagli.py` | 264 | pause, allineamento DTW, ritaglio dei blocchi |
-| `audio/verifica-testo.py` | 172 | trascrizione contro copione |
+| `nuova-lezione.sh` | 79 | impianta una lezione nuova dall'ultima fatta |
+| `profilo.py` | 197 | i parametri della lezione, in un posto solo |
+| `copione/costruisci.py` | 162 | il copione, i blocchi, i chunk per la voce |
+| `audio/tagli.py` | 309 | pause, allineamento DTW, ritaglio dei blocchi |
+| `audio/verifica-testo.py` | 196 | trascrizione contro copione |
+| `audio/confini-parole.py` | 60 | i tagli contro i tempi delle parole |
 | `audio/verifica.py` | 81 | durata e velocita' dei blocchi ritagliati |
 | `verifica-locale.py` | 49 | il controllo statistico sui confini |
-| `slide/layout.mjs` | 348 | temi, marchio, corpi di testo |
+| `slide/layout.mjs` | 386 | temi, marchio, corpi di testo |
 | `slide/grafica.mjs` | 531 | i 13 tipi grafici, le icone, i fregi, i colori |
-| `slide/cards.mjs` | 52 | le slide in PNG |
+| `slide/cards.mjs` | 88 | le slide in PNG |
 | `slide/clips.mjs` | 45 | le scene animate in MP4 |
 | `monta-scene.py` | 40 | il payload delle scene per il montaggio |
 | `monta-locale.py` | 59 | il montaggio di prova con ffmpeg e l'SRT |
+| `heygen.py` | 124 | il lotto di caricamento e la lista delle scene per HeyGen |
 | `controlli.py` | 85 | gli otto controlli finali |
 | `slide/contenuti.mjs` | 247 | le scene — esempio, cambia a ogni lezione |
 
@@ -1181,8 +1237,10 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 # senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
-cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
-cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" \
+   "$DA/audio/confini-parole.py" "$NUOVA/audio/"
+cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" \
+   "$DA/heygen.py" "$NUOVA/"
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
 # intero, e a cambiare e' STACCO. Senza, ogni strumento muore sull'import.
 cp "$DA/profilo.py" "$NUOVA/"
@@ -1206,8 +1264,10 @@ Poi, nell'ordine:
   python3 audio/tagli.py allinea         sceglie i confini, prepara prova.mp3
   → trascrivere: attaccare l'URL firmato di ciascuna traccia con
     creative_attach_reference_file, poi creative_transcribe_audio;
-    salvare i testi in audio/trascrizioni/A.txt e B.txt
+    salvare i testi in audio/trascrizioni/A.txt e B.txt, e le parole coi
+    tempi (words_download_url) in A-parole.json e B-parole.json
   python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
+  python3 audio/confini-parole.py        ogni taglio fra due parole, coi tempi
   python3 audio/tagli.py applica         scrive gli mp3 di blocco
   python3 verifica-locale.py             nessuna coppia adiacente di segno opposto
                                          (legge blocchi-audio.json: viene DOPO applica)
@@ -1216,8 +1276,16 @@ Poi, nell'ordine:
   python3 monta-scene.py                 clip + audio, una per blocco
   python3 monta-locale.py                la copia di controllo e l'SRT
   python3 controlli.py                   i controlli del MASTER §6
+  python3 heygen.py prepara              l'elenco per il lotto di caricamento
+    create_asset_upload_batch con _montaggio/files.json,
+    risposta in _montaggio/lotto.json
+  python3 heygen.py invia                i byte, con la verifica di posizione
+    complete_asset_batch, poi get_asset_batch finche' il CONTEGGIO e' al totale
+  python3 heygen.py scene                la lista per create_video_from_studio
 
-Lo stacco fra le due tracce sta in audio/tagli.py, costante STACCO.
+Lo stacco fra le due tracce sta in profilo.py, costante STACCO: va riletto a
+ogni lezione, perche' quello della precedente taglia nel punto sbagliato e
+nessun controllo se ne accorge.
 
 TESTO
 ```
@@ -1287,8 +1355,28 @@ CHIUSURA  = 10.0
 # rimisurati, e fino ad allora il copione si scrive CORTO: il respiro allunga,
 # non accorcia.
 VOCE         = "tVdVcJPudubxmTmAw4tE"   # clone «Luca Ward» del workspace (non e' Luca Ward)
-MODELLO_VOCE = "eleven_v4"              # per i moduli successivi; questa lezione e tutto il modulo 16 sono in eleven_v3
+MODELLO_VOCE = "eleven_v4"              # moduli 1-16: eleven_v3
 LINGUA_VOCE  = "it"
+
+# Il filtro di ritmo: quanto si accelera la voce e a quanto si riducono le
+# pause dentro un blocco. Sono i due numeri che decidono quanto una lezione
+# suona veloce, e stavano scritti dentro tagli.py come 1.12 e 0,14 s — tarati
+# su GianP con eleven_v3, e mai dichiarati.
+#
+# Il modulo 17 chiede un «ritmo di lettura leggermente piu' lento rispetto
+# agli altri moduli». Tarato sul provino della voce nuova (eleven_v4), stessa
+# frase, filtri a confronto:
+#
+#     pause 0,14 s · 1,12x   18,37 car/s   (il filtro dei moduli 1-16)
+#     pause 0,20 s · 1,06x   17,01 car/s   -7%
+#     pause 0,22 s · 1,04x   16,59 car/s   -10%   <- scelto
+#     pause 0,25 s · 1,00x   15,80 car/s   -14%
+#
+# La voce resta quasi alla sua velocita' naturale e le frasi respirano. Era
+# una misura su una frase sola; la 17.1 l'ha confermata (16,86 car/s netti
+# sulla lezione intera, +1,6%).
+ATEMPO        = 1.04    # moduli 1-16: 1.12
+PAUSA_INTERNA = 0.22    # secondi; moduli 1-16: 0.14
 
 # Caratteri al secondo della traccia DOPO il filtro di ritmo. Misurata, non
 # stimata: e' il rapporto fra i caratteri del copione e il parlato che ne esce.
@@ -1311,7 +1399,10 @@ LINGUA_VOCE  = "it"
 # Su questa lezione le pose sono 20,3 s su 17 blocchi: 1,2 s a ogni cambio di
 # capitolo (12), tre battiti a meta' capitolo, e 2,3 s di allungamento
 # automatico dei due blocchi sotto i 3,5 s.
-CPS = 17.52
+# Dal modulo 17 (voce nuova, eleven_v4, filtro qui sopra): 16,59 car/s sul
+# provino, 16,86 misurati sulla 17.1 intera. Il copione si scrive un po' piu'
+# corto di quanto questo numero suggerisce, e lo colma il respiro.
+CPS = 16.9               # 17.1: 16,86 · moduli 1-16, GianP v3: 17,52 · 18,31 · 17,63 · 18,32
 
 # La fascia entro cui un blocco e' sano. Sotto, la voce striscia e la scena si
 # siede; sopra, corre e il testo della slide non fa in tempo a leggersi. Fuori
@@ -1350,7 +1441,7 @@ FASCIA_CPS = (8.5, 21.0)
 #
 # Niente di tutto questo serve a prevedere la durata del montato: a quella
 # pensa il respiro, che misura invece di stimare.
-RAPPORTO_RITMO = 1.26
+RAPPORTO_RITMO = 1.10   # 17.1: 1,104 (provino 1,10) · moduli 1-16: 1,24-1,29
 
 # Il tetto esiste perche' il respiro non deve poter coprire un copione
 # gravemente corto: oltre questo valore `applica` si ferma e lo dice, invece
@@ -1402,7 +1493,7 @@ MAX_CAR_BLOCCO = 225
 # calcola e lo stampa; qui si ricopia. Va riletto A OGNI LEZIONE: quello della
 # lezione precedente taglia la traccia nel punto sbagliato e nessun controllo
 # se ne accorge, perche' i conti tornano tutti — solo sui blocchi sbagliati.
-STACCO = "s26"                  # chunkA 4081 car · chunkB 3691 car — chiude il cap 7
+STACCO = "s25"                  # chiude il cap 7 · chunkA 3660 car · chunkB 3569 car
 ```
 
 ## `copione/costruisci.py`
@@ -1590,7 +1681,8 @@ blocco per blocco. `STACCO` va riletto a ogni lezione.
 I confini si scelgono sul GREZZO, dove le pause hanno ancora lunghezze diverse:
 sulla traccia gia' lavorata silenceremove le ha pareggiate tutte a 0,14 s e
 la lunghezza della pausa - il segnale su cui si basa la scelta - sparisce.
-Il ritmo (silenzi + 1,12x) si applica dopo, blocco per blocco.
+Il ritmo (pause interne + accelerazione, da profilo.py) si applica dopo,
+blocco per blocco.
 
   tagli.py allinea   sceglie i confini e prepara prova.mp3
   tagli.py correggi  sposta i confini indicati in correzioni.json
@@ -1605,13 +1697,15 @@ RADICE = QUI.parent
 FF     = imageio_ffmpeg.get_ffmpeg_exe()
 import sys as _sys; _sys.path.insert(0, str(RADICE))
 from profilo import (STACCO, FASCIA_CPS, COPERTINA, CHIUSURA, DURATA_CHIESTA,
-                     RAPPORTO_RITMO,
+                     RAPPORTO_RITMO, ATEMPO, PAUSA_INTERNA,
                      RESPIRO_MAX, ARROTONDA_SCENA)
 CPSMIN, CPSMAX = FASCIA_CPS
 SOGLIA = "-45dB"
+# accelerazione e pause interne vengono dal profilo: sono della lezione, non
+# dello strumento (moduli 1-16: 1,12x e 0,14 s, scritti qui)
 RITMO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
-         "stop_periods=-1:stop_silence=0.14:stop_threshold=-45dB:detection=peak,"
-         "aresample=44100,atempo=1.12")
+         f"stop_periods=-1:stop_silence={PAUSA_INTERNA}:stop_threshold=-45dB:detection=peak,"
+         f"aresample=44100,atempo={ATEMPO}")
 PROVA_PRIMA, PROVA_GAP = 1.6, 2.5
 
 def sh(*a):
@@ -1712,7 +1806,7 @@ def quanto_male(gruppo, D, conf):
     # un blocco di durata zero. Non e' un caso da far esplodere: e' il caso
     # peggiore possibile, e come tale va pesato.
     if min(durate) < 0.30: return (10**6, 10**6)
-    cps = [len(x["text"])/(d/1.30) for x,d in zip(gruppo, durate)]
+    cps = [len(x["text"])/(d/RAPPORTO_RITMO) for x,d in zip(gruppo, durate)]   # era 1.30 murato: la stessa trappola della 16.5
     fuori = sum(not (CPSMIN <= c <= CPSMAX) for c in cps)
     medio = sum(cps)/len(cps)
     sparso = (sum((c-medio)**2 for c in cps)/len(cps))**0.5
@@ -2096,6 +2190,75 @@ print("\n" + ("nessun buco: la voce ha detto tutto" if not guai
 sys.exit(1 if guai else 0)
 ```
 
+## `audio/confini-parole.py`
+
+Usa i tempi delle parole che la trascrizione di Scribe restituisce insieme al
+testo. Le funzioni di normalizzazione le prende dal sorgente di
+`verifica-testo.py`, così le rese dichiarate restano in una copia sola.
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Dice se ogni taglio cade nel silenzio giusto, con i tempi della trascrizione.
+
+Scribe restituisce, oltre al testo, l'inizio e la fine di ogni parola
+(trascrizioni/A-parole.json, B-parole.json). Allineato il copione sulla
+trascrizione, ogni confine fra due blocchi ha un'ultima parola detta e una
+prima parola detta: il taglio scelto da `tagli.py allinea` deve stare in mezzo.
+Se sta prima, l'ultima parola del blocco finisce nella scena dopo; se sta
+dopo, la prima del blocco seguente resta in quella prima.
+
+E' piu' forte di prova.mp3 (che indovina il confine dalla somiglianza di un
+frammento) e del controllo statistico di verifica-locale.py (che vede solo la
+firma di un confine spostato): qui si misura direttamente, in secondi, su
+tutti i confini, senza riascoltare.
+
+La normalizzazione e' quella di verifica-testo.py, presa dal suo sorgente: una
+sola copia delle rese dichiarate.
+"""
+import json, sys, difflib
+from pathlib import Path
+
+QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
+
+# Le funzioni di verifica-testo.py, senza eseguirne il confronto.
+src = (QUI/"verifica-testo.py").read_text(encoding="utf-8")
+ns = {"__file__": str(QUI/"verifica-testo.py")}
+exec(src.split("\nesiti, guai")[0], ns)
+parole, gruppi = ns["parole"], ns["gruppi"]
+
+MARGINE = 0.03   # secondi: sotto questo, il taglio sfiora la parola
+
+guai = 0
+for nome, gruppo in gruppi().items():
+    tagli = json.loads((QUI/f"confini-{nome}.json").read_text(encoding="utf-8"))["confini"]
+    atteso = [(p, k) for k, x in enumerate(gruppo) for p in parole(x["text"])]
+    detto = []   # (parola normalizzata, inizio, fine)
+    for w in json.loads((QUI/"trascrizioni"/f"{nome}-parole.json").read_text(encoding="utf-8"))["words"]:
+        if w.get("type") != "word": continue
+        for p in parole(w["text"]): detto.append((p, w["start"], w["end"]))
+    sm = difflib.SequenceMatcher(None, [p for p, _ in atteso], [p for p, _, _ in detto], autojunk=False)
+    tempo = {}   # indice nel copione -> (inizio, fine) della parola detta
+    for a, b, n in sm.get_matching_blocks():
+        for i in range(n): tempo[a+i] = detto[b+i][1:]
+    print(f"traccia {nome}  {len(gruppo)} blocchi · {len(tagli)} tagli · "
+          f"{len(tempo)}/{len(atteso)} parole del copione con un tempo")
+    for k, t in enumerate(tagli):
+        ult = max((i for i, (_, b) in enumerate(atteso) if b == k and i in tempo), default=None)
+        pri = min((i for i, (_, b) in enumerate(atteso) if b == k+1 and i in tempo), default=None)
+        if ult is None or pri is None:
+            print(f"   ?    {gruppo[k+1]['id']}  confine senza parole riconosciute"); guai += 1; continue
+        fine, inizio = tempo[ult][1], tempo[pri][0]
+        ok = fine + MARGINE <= t <= inizio - MARGINE
+        guai += not ok
+        print(f"  {' ok ' if ok else 'FUORI'}  {gruppo[k+1]['id']}  "
+              f"fine {fine:7.2f} | taglio {t:7.2f} | inizio {inizio:7.2f}   "
+              f"silenzio {inizio-fine:4.2f}s")
+print("\n" + ("tutti i tagli cadono fra due parole" if not guai
+              else f"ATTENZIONE: {guai} tagli da guardare"))
+sys.exit(1 if guai else 0)
+```
+
 ## `audio/verifica.py`
 
 ```python
@@ -2323,7 +2486,8 @@ h2{font-size:76px;line-height:1.16;font-weight:600;color:var(--tit);letter-spaci
        font-variant-numeric:lining-nums tabular-nums}
 
 /* citazione */
-.cita{font-size:64px;line-height:1.34;font-weight:400;text-indent:-.52em}
+.cita{font-size:64px;line-height:1.34;font-weight:400}
+.cita.appesa{text-indent:-.52em}   /* rientro appeso solo se il testo apre con « */
 .cita .q{color:var(--acc)}
 .fonte{font-size:28px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--sop)}
 
@@ -2513,7 +2677,7 @@ const CORPI = {
 
   numero: d => `${FREGI.anello}<div class="cifra">${d.cifra}</div><h2>${acc(d.testo)}</h2>`,
 
-  citazione: d => `${FREGI.virgolette}<div class="cita serif">${acc(d.testo)}</div>
+  citazione: d => `${FREGI.virgolette}<div class="cita serif${/^\s*«/.test(d.testo) ? " appesa" : ""}">${acc(d.testo)}</div>
       <div class="fonte">${d.fonte}</div>`,
 
   elenco: d => `<${d.numerato?'ol':'ul'} class="el ${
@@ -2758,7 +2922,7 @@ svg.fig{display:block;width:100%;height:auto;overflow:visible}
    niente. Li' il grassetto resta del colore del titolo. */
 .tab td:first-child b.a,.tab td:first-child .a{color:var(--tit)}
 .tab td+td{border-left:2px solid var(--linea)}
-.tab tr.key td{background:color-mix(in srgb,var(--acc) 10%,transparent)}
+.tab tbody tr.key td{background:color-mix(in srgb,var(--acc) 10%,transparent)}
 .tab tr.key td:first-child{color:var(--acc)}
 .tab.fitta td{font-size:29px;padding:19px 26px}
 .tab.fitta th{font-size:23px;padding:20px 26px}

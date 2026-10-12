@@ -26,7 +26,8 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 # senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
-cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
+cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" \
+   "$DA/audio/confini-parole.py" "$NUOVA/audio/"
 cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" \
    "$DA/heygen.py" "$NUOVA/"
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
@@ -52,8 +53,10 @@ Poi, nell'ordine:
   python3 audio/tagli.py allinea         sceglie i confini, prepara prova.mp3
   → trascrivere: attaccare l'URL firmato di ciascuna traccia con
     creative_attach_reference_file, poi creative_transcribe_audio;
-    salvare i testi in audio/trascrizioni/A.txt e B.txt
+    salvare i testi in audio/trascrizioni/A.txt e B.txt, e le parole coi
+    tempi (words_download_url) in A-parole.json e B-parole.json
   python3 audio/verifica-testo.py        deve dire "la voce ha detto tutto"
+  python3 audio/confini-parole.py        ogni taglio fra due parole, coi tempi
   python3 audio/tagli.py applica         scrive gli mp3 di blocco
   python3 verifica-locale.py             nessuna coppia adiacente di segno opposto
                                          (legge blocchi-audio.json: viene DOPO applica)
