@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Chi pianta un albero sa una cosa: l'ombra non si raccoglie il primo anno. Ci vogliono pazienza, acqua e tempo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma sa anche un'altra cosa: se aspetta a piantarlo, l'ombra arrivera' piu' tardi. E nessuno potra' restituirgli gli anni persi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un fondo pensione funziona allo stesso modo. Si semina oggi, un poco alla volta, e si raccoglie tra molti anni, quando serve davvero."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con questo modulo entriamo nella gestione finanziaria di Perseo Sirio: dove vanno i soldi, come vengono investiti, e quali scelte puoi fare tu."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalla regola di base, quella che spiega tutto il resto. E ricordiamo, per tutto il modulo, due avvertenze."
+ },
+ {
+  "id": "s07",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono informazioni generali, non consulenza finanziaria. E i rendimenti passati non garantiscono quelli futuri."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perseo Sirio opera in regime di contribuzione definita. Due parole un po' tecniche, che pero' dicono moltissimo su come funziona la tua posizione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Significa che e' definito quanto si versa, non quanto si ricevera'. L'arrivo non e' scritto in partenza."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La tua pensione complementare dipendera' da tre cose. Primo: quanto e' stato versato, da te e dall'ente."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo: quanto hanno reso gli investimenti, anno dopo anno. Terzo: quanto sono costati, cioe' le spese di gestione."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Versamenti, piu' rendimenti, meno costi. E' tutta qui l'equazione della previdenza complementare, e vale per ogni iscritto."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non c'e' un importo garantito in partenza, come succedeva con le vecchie pensioni calcolate sull'ultimo stipendio. Qui l'arrivo si costruisce strada facendo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' invece un conto intestato a te, che cresce nel tempo. E alla fine diventa una rendita, oppure un capitale, o le due cose insieme."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo il Fondo ti invia ogni anno una proiezione, che vedremo nel modulo dieci. E' una stima, non una promessa."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dei tre fattori dell'equazione, quello che pesa di piu' e' spesso il piu' semplice da dimenticare: il tempo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Guarda queste tre persone, in un esempio semplificato. Versano la stessa cifra ogni mese, cento euro, e ottengono lo stesso rendimento."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cambia solo l'eta' in cui cominciano: venticinque, trentacinque e quarantacinque anni. Tutte e tre vanno in pensione a sessantasette."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con un rendimento del quattro per cento l'anno, puramente d'esempio, chi parte a quarantacinque anni arriva a circa quarantaduemila euro."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Chi parte a trentacinque arriva a circa settantottomila. E chi parte a venticinque supera i centotrentamila euro."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Eppure la prima persona, rispetto alla seconda, ha versato solo dieci anni in piu': circa dodicimila euro."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha lasciato piu' a lungo i suoi soldi a lavorare. E i rendimenti dei primi anni hanno prodotto, a loro volta, altri rendimenti."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' l'interesse composto, che hai conosciuto nel modulo uno: all'inizio quasi invisibile, alla fine decisivo."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Investire, pero', non significa giocare in borsa, ne' inseguire l'affare del momento. Il Fondo lo dice in modo esplicito."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non e' uno strumento di speculazione, ma di accumulo previdenziale. Lo scopo non e' guadagnare in fretta, ma arrivare alla pensione."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le regole su che cosa si puo' comprare, in che misura e con quali limiti di rischio sono fissate per legge, da un decreto del Ministero dell'Economia."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come hai visto nel modulo uno, i soldi sono affidati a gestori professionali, scelti con una gara pubblica."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E sono custoditi da un depositario, separati dal patrimonio dei gestori. Se un gestore avesse problemi, i tuoi soldi resterebbero tuoi."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La gestione, insomma, e' pensata per il lungo periodo. Non per il prossimo mese, ma per i prossimi dieci, venti, trent'anni."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quello che succede in un singolo anno, positivo o negativo, conta meno della direzione di tutto il percorso."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Qualche numero, allora, per dare un'idea concreta. Ma con prudenza, e dicendo bene da dove viene."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo la COVIP, l'autorita' che vigila sui fondi pensione, nei dieci anni dal 2015 al 2025 il TFR si e' rivalutato in media del due e mezzo per cento l'anno."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nello stesso periodo, le linee dei fondi pensione con piu' azioni hanno reso in media circa il cinque per cento l'anno."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Attenzione: sono medie di tutto il sistema, non i risultati di Perseo Sirio. E i rendimenti passati non garantiscono quelli futuri."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma mostrano un principio: su orizzonti lunghi, accettare un po' di oscillazione, qualche anno su e qualche anno giu', e' stato premiato."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Su orizzonti brevi, invece, puo' non esserlo. Chi ha pochi anni davanti ha meno tempo per recuperare un anno storto."
+ },
+ {
+  "id": "s37",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo, nelle prossime lezioni, il tempo che ti manca alla pensione tornera' di continuo. E' la bussola di tutte le scelte."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Si conosce quanto versi. Quanto riceverai, lo costruisce il tempo."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: la pensione complementare dipende da versamenti, rendimenti e costi. Non c'e' un importo promesso."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: il tempo e' il fattore che pesa di piu', grazie all'interesse composto. Dieci anni prima possono fare una grande differenza."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: la gestione segue regole di legge, con gestori scelti con gara e un depositario separato, ed e' orientata al lungo periodo."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi e' un semplice calcolo: quanti anni ti mancano, piu' o meno, alla pensione?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prendi la tua eta' di oggi, e toglila da sessantasette, l'eta' della pensione di vecchiaia. Non serve precisione: basta un ordine di grandezza."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Scrivi quel numero da qualche parte, su un foglio o nelle note del telefono, dove lo ritrovi facilmente. E' il numero piu' importante per tutte le scelte di questo modulo."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se e' grande, hai dalla tua parte il tempo. Se e' piccolo, conviene ragionare con piu' attenzione sul rischio."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E in entrambi i casi, ricorda: il corso non ti dira' quale profilo scegliere. Ti dara' i criteri per sceglierlo tu."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione parliamo proprio di questo: rischio e rendimento. Due parole che spesso fanno paura."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Vedremo che il rischio si puo' capire, e che la paura non e' una buona consigliera. Ci vediamo nella lezione sei punto due."
+ }
+]

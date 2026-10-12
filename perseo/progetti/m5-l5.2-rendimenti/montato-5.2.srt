@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:09,780
+Il secondo vantaggio fiscale riguarda il raccolto. Pensa a un orto: semini in primavera, e dopo qualche mese raccogli.
+
+2
+00:00:09,780 --> 00:00:18,900
+I soldi che metti nel Fondo vengono investiti, e negli anni producono rendimenti: interessi delle obbligazioni, dividendi, crescita delle azioni.
+
+3
+00:00:18,900 --> 00:00:25,760
+Su questi rendimenti si pagano le tasse, come su qualunque investimento. Ma nel fondo pensione se ne pagano meno.
+
+4
+00:00:25,760 --> 00:00:33,050
+In questa lezione vediamo quanto meno, chi le paga, e perche' anche questa differenza, anno dopo anno, si accumula.
+
+5
+00:00:33,050 --> 00:00:39,350
+Come sempre in questo modulo: informazioni generali, non consulenza fiscale, ed esempi semplificati.
+
+6
+00:00:39,350 --> 00:00:48,790
+Ecco i numeri. Se investi da solo, con un conto titoli in banca o un fondo comune di investimento, sui guadagni paghi di regola il ventisei per cento.
+
+7
+00:00:48,790 --> 00:00:58,950
+Fanno eccezione i titoli di Stato, come i BTP: sui loro interessi l'imposta e' del dodici virgola cinque per cento, sia fuori sia dentro il Fondo.
+
+8
+00:00:58,950 --> 00:01:07,270
+Nel fondo pensione, invece, i rendimenti sono tassati al venti per cento. Sei punti in meno rispetto all'investimento ordinario.
+
+9
+00:01:07,270 --> 00:01:13,120
+E la parte che deriva dai titoli di Stato, anche dentro il Fondo, resta al dodici virgola cinque.
+
+10
+00:01:13,120 --> 00:01:21,030
+Quindi, a seconda di quanti titoli di Stato ci sono nel tuo profilo, l'aliquota effettiva puo' essere anche un po' sotto il venti.
+
+11
+00:01:21,030 --> 00:01:28,820
+Sei punti di differenza sulla maggior parte dei rendimenti. Sembra poco, lo so: su cento euro di guadagno, sono sei euro.
+
+12
+00:01:28,820 --> 00:01:37,110
+Ma ricorda: questo vantaggio si ripete ogni anno, per tutti gli anni in cui i tuoi soldi restano investiti. E sono tanti anni.
+
+13
+00:01:37,110 --> 00:01:45,020
+Facciamo un esempio semplificato. Due cesti uguali, ognuno con mille euro di raccolto: mille euro di guadagno, maturati in un anno.
+
+14
+00:01:45,020 --> 00:01:52,380
+Fuori dal fondo pensione, con l'aliquota piena del ventisei per cento, il fisco ne prende duecentosessanta.
+
+15
+00:01:52,380 --> 00:02:01,380
+Nel fondo pensione, con il venti per cento, ne prende duecento. Stesso raccolto, stessa fatica, ma un cesto resta piu' pieno dell'altro.
+
+16
+00:02:01,380 --> 00:02:09,530
+Sessanta euro di differenza su mille. E quei sessanta euro non spariscono: restano nel cesto, restano investiti, a nome tuo.
+
+17
+00:02:09,530 --> 00:02:17,630
+Ed e' proprio questo il punto. L'anno dopo producono anche loro un piccolo rendimento. E quel rendimento, a sua volta, l'anno dopo ancora.
+
+18
+00:02:17,630 --> 00:02:24,990
+E' lo stesso meccanismo della curva dell'interesse composto che hai visto nel modulo uno, applicato al risparmio fiscale.
+
+19
+00:02:24,990 --> 00:02:32,580
+Ogni euro di tasse risparmiato oggi e' un euro che lavora per te domani. Per molti anni, fino al giorno della pensione.
+
+20
+00:02:32,580 --> 00:02:40,870
+Come si pagano queste imposte? Buona notizia: non te ne devi occupare. Non arriva nessun modulo, e non c'e' nessuna scadenza da ricordare.
+
+21
+00:02:40,870 --> 00:02:50,160
+Le versa direttamente il Fondo, ogni anno, sul risultato della gestione. Tu non devi dichiarare niente, ne' calcolare niente, ne' anticipare niente.
+
+22
+00:02:50,160 --> 00:02:56,340
+Per questo i rendimenti che il Fondo pubblica sono rendimenti netti: le tasse sono gia' state tolte.
+
+23
+00:02:56,340 --> 00:03:04,580
+Lo stesso vale per il prospetto annuale che abbiamo visto nella lezione quattro punto cinque: il risultato della gestione che leggi e' gia' netto.
+
+24
+00:03:04,580 --> 00:03:12,600
+E' un dettaglio importante quando confronti il Fondo con altri investimenti, che spesso mostrano rendimenti lordi, prima delle tasse.
+
+25
+00:03:12,600 --> 00:03:20,020
+Per un confronto onesto, metti sempre netto con netto. Altrimenti il Fondo sembra rendere meno di quanto rende davvero.
+
+26
+00:03:20,020 --> 00:03:29,220
+C'e' poi una conseguenza utile da sapere. Quando un giorno riceverai la prestazione, i rendimenti gia' tassati non verranno tassati una seconda volta.
+
+27
+00:03:29,220 --> 00:03:36,910
+La tassa sulla prestazione, che vediamo nella prossima lezione, riguarda i contributi, non i rendimenti. Quelli hanno gia' pagato.
+
+28
+00:03:36,910 --> 00:03:43,410
+Ora guarda cosa succede in trent'anni, una carriera intera. Torniamo alla curva dell'interesse composto, quella del modulo uno.
+
+29
+00:03:43,410 --> 00:03:50,160
+Due investimenti identici, che rendono esattamente lo stesso. Uno paga il ventisei per cento sui guadagni, l'altro il venti.
+
+30
+00:03:50,160 --> 00:03:56,940
+All'inizio le due curve si sovrappongono: la differenza dopo un anno e' minima, pochi euro. Quasi non si vede.
+
+31
+00:03:56,940 --> 00:04:07,170
+Poi, lentamente, si separano. Dopo dieci anni lo spazio tra le due curve si vede. Dopo trenta, e' ben visibile: e' tutto rendimento in piu', a parita' di investimento.
+
+32
+00:04:07,170 --> 00:04:15,860
+Non e' un salto spettacolare: e' un vantaggio silenzioso, che lavora ogni anno, senza che tu debba fare nulla. Come un vento leggero, ma sempre a favore.
+
+33
+00:04:15,860 --> 00:04:23,270
+Ed e' proprio il tipo di vantaggio che premia chi resta a lungo. Cioe' chi usa il fondo pensione per quello a cui serve: la pensione.
+
+34
+00:04:23,270 --> 00:04:30,040
+Al contrario, chi esce presto o chiede anticipazioni per motivi non necessari, rinuncia a una parte di questo effetto.
+
+35
+00:04:30,040 --> 00:04:37,880
+Tienilo a mente quando, piu' avanti nel corso, parleremo di anticipazioni e riscatti. Ogni uscita anticipata interrompe anche questo vantaggio.
+
+36
+00:04:37,880 --> 00:04:43,360
+Nel Fondo, i tuoi guadagni pagano il venti per cento. Non il ventisei.
+
+37
+00:04:43,360 --> 00:04:50,250
+Le tre cose da ricordare. Uno: nel fondo pensione i rendimenti sono tassati al venti per cento invece del ventisei.
+
+38
+00:04:50,250 --> 00:04:59,760
+Due: la parte che deriva dai titoli di Stato resta al dodici virgola cinque, dentro e fuori dal Fondo. Per questo l'aliquota effettiva puo' scendere sotto il venti.
+
+39
+00:04:59,760 --> 00:05:04,800
+Tre: le imposte le paga il Fondo ogni anno, e i rendimenti che vedi sono gia' netti.
+
+40
+00:05:04,800 --> 00:05:13,160
+La mossa di oggi: vai sul sito del Fondo, nella sezione dedicata alla gestione finanziaria, dove sono pubblicati i rendimenti di ogni profilo.
+
+41
+00:05:13,160 --> 00:05:21,060
+Cerca il rendimento netto del 2025 del tuo profilo di investimento, e se vuoi anche quello degli ultimi cinque o dieci anni.
+
+42
+00:05:21,060 --> 00:05:28,280
+Se non ricordi quale profilo hai, lo trovi nell'area riservata, o nel prospetto annuale. Ne parleremo a fondo nel modulo sei.
+
+43
+00:05:28,280 --> 00:05:34,110
+E ricorda: quel numero e' gia' al netto delle tasse. Confrontalo solo con altri rendimenti netti.
+
+44
+00:05:34,110 --> 00:05:41,910
+Abbiamo visto il primo vantaggio, sui contributi che versi, e il secondo, sui rendimenti che maturano. Manca il terzo, quello all'arrivo.
+
+45
+00:05:41,910 --> 00:05:48,910
+Nella prossima lezione: quanto si paga quando arriva la prestazione. E perche' si scende dal quindici fino al nove per cento.
+
+46
+00:05:48,910 --> 00:05:56,060
+E' una scala che scende, anno dopo anno di iscrizione: piu' resti, meno paghi. Un altro premio per chi resta a lungo.
+
+47
+00:05:56,060 --> 00:06:00,660
+Ci vediamo nella lezione cinque punto tre.

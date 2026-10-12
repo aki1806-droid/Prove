@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:10,040
+Chi pianta un albero sa una cosa: l'ombra non si raccoglie il primo anno. Ci vogliono pazienza, acqua e tempo.
+
+2
+00:00:10,040 --> 00:00:17,890
+Ma sa anche un'altra cosa: se aspetta a piantarlo, l'ombra arrivera' piu' tardi. E nessuno potra' restituirgli gli anni persi.
+
+3
+00:00:17,890 --> 00:00:26,560
+Un fondo pensione funziona allo stesso modo. Si semina oggi, un poco alla volta, e si raccoglie tra molti anni, quando serve davvero.
+
+4
+00:00:26,560 --> 00:00:35,550
+Con questo modulo entriamo nella gestione finanziaria di Perseo Sirio: dove vanno i soldi, come vengono investiti, e quali scelte puoi fare tu.
+
+5
+00:00:35,550 --> 00:00:42,320
+Partiamo dalla regola di base, quella che spiega tutto il resto. E ricordiamo, per tutto il modulo, due avvertenze.
+
+6
+00:00:42,320 --> 00:00:49,620
+Sono informazioni generali, non consulenza finanziaria. E i rendimenti passati non garantiscono quelli futuri.
+
+7
+00:00:49,620 --> 00:00:58,890
+Perseo Sirio opera in regime di contribuzione definita. Due parole un po' tecniche, che pero' dicono moltissimo su come funziona la tua posizione.
+
+8
+00:00:58,890 --> 00:01:05,530
+Significa che e' definito quanto si versa, non quanto si ricevera'. L'arrivo non e' scritto in partenza.
+
+9
+00:01:05,530 --> 00:01:11,990
+La tua pensione complementare dipendera' da tre cose. Primo: quanto e' stato versato, da te e dall'ente.
+
+10
+00:01:11,990 --> 00:01:19,500
+Secondo: quanto hanno reso gli investimenti, anno dopo anno. Terzo: quanto sono costati, cioe' le spese di gestione.
+
+11
+00:01:19,500 --> 00:01:26,930
+Versamenti, piu' rendimenti, meno costi. E' tutta qui l'equazione della previdenza complementare, e vale per ogni iscritto.
+
+12
+00:01:26,930 --> 00:01:36,270
+Non c'e' un importo garantito in partenza, come succedeva con le vecchie pensioni calcolate sull'ultimo stipendio. Qui l'arrivo si costruisce strada facendo.
+
+13
+00:01:36,270 --> 00:01:44,300
+C'e' invece un conto intestato a te, che cresce nel tempo. E alla fine diventa una rendita, oppure un capitale, o le due cose insieme.
+
+14
+00:01:44,300 --> 00:01:51,710
+Per questo il Fondo ti invia ogni anno una proiezione, che vedremo nel modulo dieci. E' una stima, non una promessa.
+
+15
+00:01:51,710 --> 00:01:57,740
+Dei tre fattori dell'equazione, quello che pesa di piu' e' spesso il piu' semplice da dimenticare: il tempo.
+
+16
+00:01:57,740 --> 00:02:05,940
+Guarda queste tre persone, in un esempio semplificato. Versano la stessa cifra ogni mese, cento euro, e ottengono lo stesso rendimento.
+
+17
+00:02:05,940 --> 00:02:13,820
+Cambia solo l'eta' in cui cominciano: venticinque, trentacinque e quarantacinque anni. Tutte e tre vanno in pensione a sessantasette.
+
+18
+00:02:13,820 --> 00:02:21,990
+Con un rendimento del quattro per cento l'anno, puramente d'esempio, chi parte a quarantacinque anni arriva a circa quarantaduemila euro.
+
+19
+00:02:21,990 --> 00:02:29,320
+Chi parte a trentacinque arriva a circa settantottomila. E chi parte a venticinque supera i centotrentamila euro.
+
+20
+00:02:29,320 --> 00:02:35,900
+Eppure la prima persona, rispetto alla seconda, ha versato solo dieci anni in piu': circa dodicimila euro.
+
+21
+00:02:35,900 --> 00:02:43,460
+Ha lasciato piu' a lungo i suoi soldi a lavorare. E i rendimenti dei primi anni hanno prodotto, a loro volta, altri rendimenti.
+
+22
+00:02:43,460 --> 00:02:49,990
+E' l'interesse composto, che hai conosciuto nel modulo uno: all'inizio quasi invisibile, alla fine decisivo.
+
+23
+00:02:49,990 --> 00:02:57,110
+Investire, pero', non significa giocare in borsa, ne' inseguire l'affare del momento. Il Fondo lo dice in modo esplicito.
+
+24
+00:02:57,110 --> 00:03:04,860
+Non e' uno strumento di speculazione, ma di accumulo previdenziale. Lo scopo non e' guadagnare in fretta, ma arrivare alla pensione.
+
+25
+00:03:04,860 --> 00:03:13,140
+Le regole su che cosa si puo' comprare, in che misura e con quali limiti di rischio sono fissate per legge, da un decreto del Ministero dell'Economia.
+
+26
+00:03:13,140 --> 00:03:18,990
+Come hai visto nel modulo uno, i soldi sono affidati a gestori professionali, scelti con una gara pubblica.
+
+27
+00:03:18,990 --> 00:03:26,870
+E sono custoditi da un depositario, separati dal patrimonio dei gestori. Se un gestore avesse problemi, i tuoi soldi resterebbero tuoi.
+
+28
+00:03:26,870 --> 00:03:34,860
+La gestione, insomma, e' pensata per il lungo periodo. Non per il prossimo mese, ma per i prossimi dieci, venti, trent'anni.
+
+29
+00:03:34,860 --> 00:03:41,220
+Quello che succede in un singolo anno, positivo o negativo, conta meno della direzione di tutto il percorso.
+
+30
+00:03:41,220 --> 00:03:46,310
+Qualche numero, allora, per dare un'idea concreta. Ma con prudenza, e dicendo bene da dove viene.
+
+31
+00:03:46,310 --> 00:03:57,210
+Secondo la COVIP, l'autorita' che vigila sui fondi pensione, nei dieci anni dal 2015 al 2025 il TFR si e' rivalutato in media del due e mezzo per cento l'anno.
+
+32
+00:03:57,210 --> 00:04:03,980
+Nello stesso periodo, le linee dei fondi pensione con piu' azioni hanno reso in media circa il cinque per cento l'anno.
+
+33
+00:04:03,980 --> 00:04:12,280
+Attenzione: sono medie di tutto il sistema, non i risultati di Perseo Sirio. E i rendimenti passati non garantiscono quelli futuri.
+
+34
+00:04:12,280 --> 00:04:20,010
+Ma mostrano un principio: su orizzonti lunghi, accettare un po' di oscillazione, qualche anno su e qualche anno giu', e' stato premiato.
+
+35
+00:04:20,010 --> 00:04:26,830
+Su orizzonti brevi, invece, puo' non esserlo. Chi ha pochi anni davanti ha meno tempo per recuperare un anno storto.
+
+36
+00:04:26,830 --> 00:04:34,010
+Per questo, nelle prossime lezioni, il tempo che ti manca alla pensione tornera' di continuo. E' la bussola di tutte le scelte.
+
+37
+00:04:34,010 --> 00:04:39,150
+Si conosce quanto versi. Quanto riceverai, lo costruisce il tempo.
+
+38
+00:04:39,150 --> 00:04:47,770
+Le tre cose da ricordare. Uno: la pensione complementare dipende da versamenti, rendimenti e costi. Non c'e' un importo promesso.
+
+39
+00:04:47,770 --> 00:04:55,720
+Due: il tempo e' il fattore che pesa di piu', grazie all'interesse composto. Dieci anni prima possono fare una grande differenza.
+
+40
+00:04:55,720 --> 00:05:03,800
+Tre: la gestione segue regole di legge, con gestori scelti con gara e un depositario separato, ed e' orientata al lungo periodo.
+
+41
+00:05:03,800 --> 00:05:09,080
+La mossa di oggi e' un semplice calcolo: quanti anni ti mancano, piu' o meno, alla pensione?
+
+42
+00:05:09,080 --> 00:05:17,820
+Prendi la tua eta' di oggi, e toglila da sessantasette, l'eta' della pensione di vecchiaia. Non serve precisione: basta un ordine di grandezza.
+
+43
+00:05:17,820 --> 00:05:27,370
+Scrivi quel numero da qualche parte, su un foglio o nelle note del telefono, dove lo ritrovi facilmente. E' il numero piu' importante per tutte le scelte di questo modulo.
+
+44
+00:05:27,370 --> 00:05:33,550
+Se e' grande, hai dalla tua parte il tempo. Se e' piccolo, conviene ragionare con piu' attenzione sul rischio.
+
+45
+00:05:33,550 --> 00:05:40,370
+E in entrambi i casi, ricorda: il corso non ti dira' quale profilo scegliere. Ti dara' i criteri per sceglierlo tu.
+
+46
+00:05:40,370 --> 00:05:46,930
+Nella prossima lezione parliamo proprio di questo: rischio e rendimento. Due parole che spesso fanno paura.
+
+47
+00:05:46,930 --> 00:05:54,160
+Vedremo che il rischio si puo' capire, e che la paura non e' una buona consigliera. Ci vediamo nella lezione sei punto due.

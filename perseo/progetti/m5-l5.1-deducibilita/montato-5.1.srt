@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:08,820
+Immagina il tuo stipendio lordo come una torta. Ogni mese lo Stato ne prende una fetta: l'IRPEF.
+
+2
+00:00:08,820 --> 00:00:15,930
+E se ti dicessi che una parte della torta puoi spostarla su un piatto a parte, per la tua pensione, prima che lo Stato tagli la sua fetta?
+
+3
+00:00:15,930 --> 00:00:24,370
+E' esattamente quello che succede con i contributi a Perseo Sirio. Si chiama deducibilita', ed e' una delle ragioni per cui aderire conviene davvero.
+
+4
+00:00:24,370 --> 00:00:31,290
+E' il primo dei tre vantaggi fiscali della previdenza complementare. Gli altri due li vediamo nelle prossime lezioni del modulo.
+
+5
+00:00:31,290 --> 00:00:38,560
+Una premessa: queste sono informazioni generali, non una consulenza fiscale. Gli esempi sono semplificati e senza addizionali.
+
+6
+00:00:38,560 --> 00:00:44,550
+Partiamo dalla parola. Dedurre significa sottrarre una somma dal reddito su cui si calcolano le imposte.
+
+7
+00:00:44,550 --> 00:00:50,960
+Immagina una colonna: e' il tuo reddito lordo. Senza deduzione, l'IRPEF si calcola sulla colonna intera.
+
+8
+00:00:50,960 --> 00:00:58,620
+Con la deduzione, invece, prima si toglie una fetta: i contributi che versi a Perseo Sirio. E solo dopo si calcola l'imposta.
+
+9
+00:00:58,620 --> 00:01:04,380
+La colonna su cui paghi l'IRPEF diventa un po' piu' bassa. E quindi anche l'imposta diventa un po' piu' piccola.
+
+10
+00:01:04,380 --> 00:01:13,260
+Su quella fetta, in pratica, non paghi l'imposta. Prima togli, poi si tassa: e' tutto qui. Non e' un rimborso che arriva dopo: e' un'imposta che non paghi.
+
+11
+00:01:13,260 --> 00:01:18,920
+Ed ecco una particolarita' che pochi conoscono. Nel conto entra anche il contributo che versa l'ente.
+
+12
+00:01:18,920 --> 00:01:27,630
+Anche quell'uno per cento arriva nella tua posizione senza essere tassato come reddito tuo. Se te lo dessero in busta paga, invece, ci pagheresti l'IRPEF.
+
+13
+00:01:27,630 --> 00:01:35,530
+Il TFR e l'accantonamento aggiuntivo dell'uno virgola cinque, invece, non entrano nel calcolo della deduzione: hanno gia' regole proprie.
+
+14
+00:01:35,530 --> 00:01:43,020
+C'e' un limite, naturalmente. Dal 2026, con la legge di bilancio, si possono dedurre fino a cinquemilatrecento euro l'anno.
+
+15
+00:01:43,020 --> 00:01:52,090
+Nel limite si sommano i tuoi contributi e quelli dell'ente. Fino al 2025 il tetto era di cinquemilacentosessantaquattro euro e cinquantasette.
+
+16
+00:01:52,090 --> 00:01:58,860
+Per i dipendenti pubblici, fino al 2017 valevano regole piu' strette, che vedremo nell'ultima lezione del modulo.
+
+17
+00:01:58,860 --> 00:02:07,640
+Dal 2018, invece, i pubblici hanno lo stesso limite dei lavoratori privati. Oggi, quindi, per i contributi nuovi le regole sono le stesse per tutti.
+
+18
+00:02:07,640 --> 00:02:14,620
+Per capire le proporzioni, torniamo all'esempio di trentamila euro di retribuzione utile, quello che usiamo dall'inizio del corso.
+
+19
+00:02:14,620 --> 00:02:22,800
+Per arrivare al tetto dovresti versare quasi il diciassette per cento, oltre all'uno per cento dell'ente. Per quasi tutti, il limite e' molto lontano.
+
+20
+00:02:22,800 --> 00:02:30,760
+Quanto vale, in euro? Dipende dalla tua aliquota IRPEF piu' alta, cioe' dallo scaglione in cui cade l'ultima parte del tuo reddito.
+
+21
+00:02:30,760 --> 00:02:39,280
+Le aliquote usate negli esempi sono tre: ventitre' per cento fino a ventottomila euro, trentatre' fino a cinquantamila, quarantatre' oltre.
+
+22
+00:02:39,280 --> 00:02:47,740
+Prendiamo il caso base del corso: trentamila euro di retribuzione utile, uno per cento tuo e uno per cento dell'ente. Seicento euro dedotti.
+
+23
+00:02:47,740 --> 00:02:56,850
+Con l'aliquota del ventitre' per cento, risparmi centotrentotto euro di IRPEF in un anno. Sono soldi che restano a te, invece di andare in imposte.
+
+24
+00:02:56,850 --> 00:03:04,690
+Con il trentatre' per cento, lo stesso versamento ne fa risparmiare centonovantotto. Con il quarantatre', duecentocinquantotto.
+
+25
+00:03:04,690 --> 00:03:14,210
+Se sali al tre per cento, i contributi dedotti diventano milleduecento euro, e al ventitre' per cento il risparmio sale a duecentosettantasei euro.
+
+26
+00:03:14,210 --> 00:03:23,520
+Piu' e' alta la tua aliquota, piu' vale ogni euro dedotto. Per chi e' nello scaglione del trentatre' o del quarantatre', il vantaggio cresce di conseguenza.
+
+27
+00:03:23,520 --> 00:03:30,070
+Ora rovesciamo il punto di vista. Ricordi la moneta da venticinque euro al mese della prima lezione del modulo quattro?
+
+28
+00:03:30,070 --> 00:03:35,630
+All'aliquota del ventitre' per cento, quei venticinque euro non ti costano davvero venticinque euro.
+
+29
+00:03:35,630 --> 00:03:43,180
+Quasi un quarto di quella cifra lo recuperi in minori imposte, gia' nello stesso cedolino. Poco meno di sei euro al mese.
+
+30
+00:03:43,180 --> 00:03:52,010
+Quindi versi venticinque euro, ma la tua busta paga netta scende di poco piu' di diciannove. Il resto lo paga il fisco, in un certo senso.
+
+31
+00:03:52,010 --> 00:03:57,970
+E i venticinque euro dell'ente arrivano nella tua posizione senza che tu ci paghi IRPEF sopra.
+
+32
+00:03:57,970 --> 00:04:07,210
+Ecco perche' si dice che la previdenza complementare costa meno di quanto versi. E' uno sconto vero, non una promessa, e lo vedi ogni mese nel cedolino.
+
+33
+00:04:07,210 --> 00:04:13,750
+Chi applica la deduzione? Non devi fare nulla per ottenerla. La applica direttamente la tua amministrazione.
+
+34
+00:04:13,750 --> 00:04:23,020
+L'ente fa da sostituto d'imposta: e' lui che trattiene l'IRPEF dallo stipendio, e la calcola mese per mese gia' al netto dei contributi al Fondo.
+
+35
+00:04:23,020 --> 00:04:29,010
+Poi riporta tutto nella Certificazione Unica, come abbiamo visto nell'ultima lezione del modulo quattro.
+
+36
+00:04:29,010 --> 00:04:36,840
+Non serve la dichiarazione dei redditi, salvo per i versamenti fatti con bonifico. Quelli, ricordi, li porti in deduzione tu.
+
+37
+00:04:36,840 --> 00:04:43,480
+E se fai il 730 per altri motivi, i contributi dedotti dall'ente compaiono gia' nella precompilata. Basta controllare.
+
+38
+00:04:43,480 --> 00:04:49,290
+Con la deduzione, la tua pensione si prende la sua fetta prima del fisco.
+
+39
+00:04:49,290 --> 00:04:57,680
+Le tre cose da ricordare. Uno: i contributi tuoi e dell'ente si sottraggono dal reddito su cui paghi l'IRPEF.
+
+40
+00:04:57,680 --> 00:05:05,070
+Due: dal 2026 il limite e' di cinquemilatrecento euro l'anno. TFR e uno virgola cinque non si contano.
+
+41
+00:05:05,070 --> 00:05:12,100
+Tre: la deduzione la applica l'amministrazione in busta paga, senza dichiarazione dei redditi.
+
+42
+00:05:12,100 --> 00:05:18,020
+La mossa di oggi: prendi la tua ultima Certificazione Unica e individua il tuo reddito imponibile.
+
+43
+00:05:18,020 --> 00:05:26,790
+Confrontalo con gli scaglioni: fino a ventottomila euro, da ventottomila a cinquantamila, oltre cinquantamila. Capirai subito in quale ti trovi.
+
+44
+00:05:26,790 --> 00:05:32,810
+E saprai quanto vale per te ogni euro dedotto: ventitre', trentatre' o quarantatre' centesimi.
+
+45
+00:05:32,810 --> 00:05:40,440
+Ricorda: sono esempi semplificati, senza addizionali regionali e comunali, che aumentano un po' il vantaggio reale.
+
+46
+00:05:40,440 --> 00:05:47,060
+Nella prossima lezione: il secondo vantaggio fiscale. Perche', dentro il Fondo, i rendimenti sono tassati meno.
+
+47
+00:05:47,060 --> 00:05:52,770
+E' il vantaggio che lavora in silenzio, anno dopo anno. Ci vediamo nella lezione cinque punto due.

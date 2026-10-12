@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 566,
+  "parole_dette": 558,
+  "coincidenti": 557,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "quanto meno",
+    "detto": "quantomeno"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 414,
+  "parole_dette": 411,
+  "coincidenti": 410,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "1 2",
+    "detto": "lezione12"
+   }
+  ]
+ }
+}
