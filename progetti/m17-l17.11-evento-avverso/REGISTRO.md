@@ -60,3 +60,8 @@ stacco tracce             dopo s25   (chunk A 4.512 car · chunk B 4.481 car)
 - Scelta: per stare in 48 scene e sotto i 9.000 caratteri (lo script ne ha ~9.500) alcune frasi della voce sono asciugate: «in un giudizio vale una regola dura» diventa «in giudizio»; «fatti, non giudizi» resta solo come «oggettiva»; la risposta modello è detta in quattro blocchi più brevi; i collegamenti in un blocco solo, con «qualità e URP» (PDCA detto nel blocco s34); la chiusura dice «sei casi lampo su etica e responsabilità».
 - Scelta: la nota di produzione chiede un esempio grafico di correzione (testo barrato leggibile, data, ora, firma): s12 usa la sostituzione, con il «mai» barrato e la correzione «testo errato leggibile · data, ora, firma, motivazione». Lo schema della responsabilità civile e penale (slide 8) sono le due colonne di s23–s24.
 - Scelta: il rimando del collegamento «URP e qualità percepita ↔ 12.7» e «qualità e PDCA ↔ 12.7» dello script sono fusi in una sola casella (s45).
+
+### Correzioni dopo la revisione (12 ottobre 2026)
+
+- Documentazione: lo script la rimanda alla 2.5 (che è l'EBP); voce e slide portate alla **2.4** (s02/s03, s26, s45, collegamenti).
+- Seconda vittima: lo script la rimanda alla 2.6, che non la nomina; voce e slide (s29) portate alla **15.10**, dove è trattata.

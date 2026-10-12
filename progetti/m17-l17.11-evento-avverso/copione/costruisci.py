@@ -5,7 +5,7 @@ import json, re, sys
 # (capitolo, tema slide, posa in secondi, testo parlato)
 BLOCCHI = [
  (1,"chiaro",0,"[warm] Questo caso non ha un'emergenza clinica, ma un problema che preoccupa molti infermieri: un evento avverso che diventa una richiesta di risarcimento. Vedremo il piano clinico e comunicativo."),
- (1,"chiaro",0,"Perche' la documentazione e' la migliore tutela per paziente e professionista, e che cosa prevede la legge ventiquattro. Lezioni uno punto cinque, due punto cinque, due punto sei, sette punto due, dodici punto cinque."),
+ (1,"chiaro",0,"Perche' la documentazione e' la migliore tutela per paziente e professionista, e che cosa prevede la legge ventiquattro. Lezioni uno punto cinque, due punto quattro, due punto sei, sette punto due, dodici punto cinque."),
 
  (2,"chiaro",0,"Lo scenario. La signora Ines, settantanove anni, e' da tre settimane in medicina per una polmonite, a lungo allettata. All'ingresso la Braden era dodici, e la cute del sacro era descritta come integra."),
  (2,"chiaro",0,"In cartella: la Braden mai rivalutata dopo l'ingresso. Riposizionata, ma senza orari ne' posizioni. E il materasso antidecubito, chiesto in seconda giornata, arrivato in settima, senza solleciti documentati."),
@@ -36,11 +36,11 @@ BLOCCHI = [
  (8,"chiaro",0,"Sul piano penale, l'articolo cinquecentonovanta sexies del codice penale: per un evento dovuto a imperizia, la punibilita' e' esclusa se si sono rispettate linee guida o buone pratiche adeguate al caso concreto."),
  (8,"chiaro",0,"Ci sono anche l'obbligo di assicurazione, e un tentativo obbligatorio di conciliazione prima di una causa civile. E ricorda il patrocinio legale previsto dal contratto, della lezione dodici punto cinque."),
 
- (9,"chiaro",0,"Un approfondimento: la documentazione come tutela, della lezione due punto cinque. In giudizio, cio' che non e' scritto si considera non fatto. Ines e' stata riposizionata, forse: la cartella non lo dimostra."),
+ (9,"chiaro",0,"Un approfondimento: la documentazione come tutela, della lezione due punto quattro. In giudizio, cio' che non e' scritto si considera non fatto. Ines e' stata riposizionata, forse: la cartella non lo dimostra."),
  (9,"chiaro",0,"Una documentazione adeguata e' tempestiva, chiara, leggibile, firmata, con data e ora, oggettiva. Per le lesioni: il rischio all'ingresso e a ogni cambiamento, la prevenzione, i riposizionamenti con orari e posizioni."),
  (9,"chiaro",0,"L'ispezione della cute, le richieste di presidi e i solleciti, l'informazione alla famiglia. Alcune lesioni non sono evitabili, nell'instabilita' grave o nel fine vita: la documentazione prova che la prevenzione c'e' stata."),
 
- (10,"chiaro",0,"L'infermiere coinvolto. Chi era in turno in quei giorni puo' vivere ansia, colpa, paura del giudizio: e' la condizione di seconda vittima della lezione due punto sei."),
+ (10,"chiaro",0,"L'infermiere coinvolto. Chi era in turno in quei giorni puo' vivere ansia, colpa, paura del giudizio: e' la condizione di seconda vittima della lezione quindici punto dieci."),
  (10,"chiaro",0,"Non e' solo: ci sono il coordinatore, il risk management, i servizi aziendali di supporto, l'organizzazione sindacale, l'assicurazione, il patrocinio legale previsto dal contratto."),
  (10,"chiaro",0,"Non si rilasciano dichiarazioni improvvisate: si seguono le procedure aziendali. E si continua a lavorare con attenzione: l'evento e' anche un'occasione per migliorare il sistema."),
 
@@ -61,7 +61,7 @@ BLOCCHI = [
  (14,"chiaro",0,"Non modifico ne' integro retroattivamente la cartella: le annotazioni tardive riportano data e ora reali. Segnalo l'evento, e partecipo all'analisi delle cause."),
  (14,"chiaro",0,"Partecipo a una comunicazione onesta con la famiglia, insieme al medico, senza attribuire colpe. Conosco le tutele della legge ventiquattro e del contratto. E contribuisco alle azioni di miglioramento."),
 
- (15,"chiaro",0,"Collegamenti: legge ventiquattro, uno punto cinque; documentazione, due punto cinque; rischio clinico, due punto sei; lesioni da pressione, sette punto due; contratto, dodici punto cinque; qualita' e URP, dodici punto sette."),
+ (15,"chiaro",0,"Collegamenti: legge ventiquattro, uno punto cinque; documentazione, due punto quattro; rischio clinico, due punto sei; lesioni da pressione, sette punto due; contratto, dodici punto cinque; qualita' e URP, dodici punto sette."),
 
  (16,"chiaro",0,"E il punto di vista di chi lavora. La documentazione richiede tempo, da riconoscere nei carichi di lavoro, e strumenti che la semplifichino: schede strutturate, una buona cartella informatizzata."),
  (16,"chiaro",0,"E segnalare le criticita' organizzative, il personale insufficiente, i presidi che non arrivano, e' parte della responsabilita' professionale. La tutela del professionista passa anche dall'organizzazione."),

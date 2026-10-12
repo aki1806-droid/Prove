@@ -7,7 +7,7 @@
 
 const LEZIONI = [
   {n:"1.5", t:"Responsabilità", illu:"bilancia"},
-  {n:"2.5", t:"Documentazione", illu:"cartella"},
+  {n:"2.4", t:"Documentazione", illu:"cartella"},
   {n:"2.6", t:"Rischio clinico", illu:"scudo"},
   {n:"7.2", t:"Lesioni da pressione", illu:"letto"},
   {n:"12.5", t:"Contratto", illu:"libro"}];
@@ -120,7 +120,7 @@ export const SCENE = [
   {n:"2", t:"Conciliazione", d:"tentativo obbligatorio prima della causa civile"},
   {n:"3", t:"Patrocinio legale", d:"previsto dal contratto · lezione 12.5", key:true}]},
 
-{id:"s26", tipo:"frase", tema:"chiaro", sopratitolo:"Approfondimento · la documentazione come tutela · in giudizio · lezione 2.5",
+{id:"s26", tipo:"frase", tema:"chiaro", sopratitolo:"Approfondimento · la documentazione come tutela · in giudizio · lezione 2.4",
   testo:"Ciò che non è scritto si considera **non fatto**.", sotto:"Ines è stata riposizionata, forse: la cartella non lo dimostra."},
 {id:"s27", tipo:"griglia", tema:"chiaro", colonne:3, sopratitolo:"Una documentazione adeguata", celle:[
   {t:"**Tempestiva**"}, {t:"**Chiara**"}, {t:"**Leggibile**"},
@@ -130,7 +130,7 @@ export const SCENE = [
   {t:"Riposizionamenti con **orari** e **posizioni**"}, {t:"**Ispezione** della cute"},
   {t:"Richieste di presidi e **solleciti**"}, {t:"Informazione alla **famiglia**"}]},
 
-{id:"s29", tipo:"figura", tema:"chiaro", illu:"persona", sopratitolo:"L'infermiere coinvolto · lezione 2.6",
+{id:"s29", tipo:"figura", tema:"chiaro", illu:"persona", sopratitolo:"L'infermiere coinvolto · lezione 15.10",
   titolo:"La **seconda vittima**.", sotto:"Chi era in turno può vivere ansia, colpa, paura del giudizio."},
 {id:"s30", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, sopratitolo:"Non è solo", celle:[
   {n:"·", t:"Il **coordinatore**"}, {n:"·", t:"Il **risk management**"}, {n:"·", t:"I servizi aziendali di **supporto**"},
@@ -173,7 +173,7 @@ export const SCENE = [
 {id:"s44", sopratitolo:"La risposta modello · la famiglia e le tutele", ...RISPOSTA([0,1,2,3,4,5,6])},
 
 {id:"s45", tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, sopratitolo:"I collegamenti", celle:[
-  {n:"1.5", t:"Responsabilità e **L. 24/2017**"}, {n:"2.5", t:"**Documentazione**"}, {n:"2.6", t:"**Rischio clinico** e incident reporting"},
+  {n:"1.5", t:"Responsabilità e **L. 24/2017**"}, {n:"2.4", t:"**Documentazione**"}, {n:"2.6", t:"**Rischio clinico** e incident reporting"},
   {n:"7.2", t:"**Lesioni da pressione**"}, {n:"12.5", t:"**Contratto** e patrocinio legale"}, {n:"12.7", t:"**Qualità**, PDCA e URP"}]},
 
 {id:"s46", tipo:"icone", tema:"chiaro", sopratitolo:"Il punto di vista di chi lavora", voci:[

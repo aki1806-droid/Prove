@@ -120,8 +120,8 @@ export const SCENE = [
 {id:"s24", tipo:"antidoto", tema:"chiaro", sopratitolo:"Overdose: stimolare, ventilare, naloxone, chiamare aiuto · e il naloxone dura meno degli oppioidi",
   testo:"può riaddormentarsi"},
 
-{id:"s25", tipo:"figura", tema:"chiaro", illu:"ferita", sopratitolo:"La salute oltre la dipendenza",
-  titolo:"L'ascesso: cura della **ferita** e antibiotico.", sotto:"Da un pregresso uso endovenoso."},
+{id:"s25", tipo:"frase", tema:"chiaro", sopratitolo:"La salute oltre la dipendenza",
+  testo:"L'ascesso: cura della **ferita** e **antibiotico**.", sotto:"Da un pregresso uso endovenoso."},
 {id:"s26", tipo:"icone", tema:"chiaro", sopratitolo:"Il ricovero è un'occasione · sempre con il consenso", voci:[
   {icona:"provetta", t:"Test", d:"HIV, epatiti B e C", key:true},
   {icona:"siringa", t:"Vaccinazioni", d:"come quella contro l'epatite B"},
@@ -138,9 +138,9 @@ export const SCENE = [
 {id:"s30", tipo:"trappola", tema:"chiaro", sopratitolo:"Al collega si risponde con i fatti, non con un altro giudizio", righe:[
   {sb:"«Sta solo cercando farmaci»", ok:"Midriasi, sudorazione, dose non somministrata: i **fatti clinici**"}]},
 
-{id:"s31", tipo:"percorso", tema:"chiaro", sopratitolo:"La dimissione e la continuità con il SerD · né sospensioni né doppie dosi", tappe:[
+{id:"s31", tipo:"percorso", tema:"chiaro", sopratitolo:"La dimissione e la continuità con il SerD", tappe:[
   {t:"Il ricovero", d:"comunicato al SerD"}, {t:"La dose", d:"somministrata in ospedale"},
-  {t:"L'orario", d:"dell'ultima dose", key:true}, {t:"Il SerD", d:"riprende la terapia"}]},
+  {t:"L'orario", d:"dell'ultima dose", key:true}, {t:"Il SerD", d:"senza sospensioni né doppie dosi"}]},
 {id:"s32", tipo:"icone", tema:"chiaro", sopratitolo:"Che cosa si segnala e si spiega", voci:[
   {icona:"farmaci", t:"Terapie nuove", d:"antibiotici, analgesici: le interazioni"},
   {icona:"avviso", t:"Rischio di overdose", d:"se la tolleranza si riduce, dopo un periodo senza assunzione", key:true}]},
