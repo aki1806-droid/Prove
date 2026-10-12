@@ -30,7 +30,7 @@ BLOCCHI = [
  (7,"chiaro",0,"Poi il monitoraggio continuo, perche' il naloxone dura meno della morfina: quando il suo effetto finisce, l'oppioide e' ancora li', e il paziente puo' riaddormentarsi."),
  (7,"chiaro",0,"E la prevenzione: valutare la sedazione prima di ogni dose, perche' la sedazione precede la depressione respiratoria. Con un'attenzione particolare all'anziano e all'insufficienza renale."),
 
- (8,"chiaro",0,"Un richiamo alle regole sugli stupefacenti della lezione cinque punto sette. Il registro di carico e scarico, previsto dal DPR trecentonove del millenovecentonovanta, e l'armadio chiuso a chiave."),
+ (8,"chiaro",0,"Un richiamo alle regole sugli stupefacenti della lezione cinque punto sei. Il registro di carico e scarico, previsto dal DPR trecentonove del millenovecentonovanta, e l'armadio chiuso a chiave."),
  (8,"chiaro",0,"Ogni somministrazione si registra. Le fiale usate in parte e i residui si smaltiscono secondo procedura, con un testimone. E qualsiasi discrepanza nel registro si segnala subito."),
 
  (9,"chiaro",0,"Trappola quattro, ore quindici. Emazie in corso da dieci minuti. Brividi, febbre a trentotto e nove, dolore lombare, angoscia. Pressione ottantacinque su cinquanta, frequenza centoventicinque, urine scure. Che cosa succede?"),
@@ -65,7 +65,7 @@ BLOCCHI = [
  (16,"chiaro",0,"Documento, attivo l'emovigilanza e segnalo l'evento. La prevenzione si basa sulla corretta identificazione, al prelievo e al letto, e sulla sorveglianza nei primi quindici minuti."),
 
  (17,"chiaro",0,"I collegamenti. La responsabilita', con la uno punto cinque. I calcoli, con la cinque punto tre. Le giuste regole e il doppio controllo, con la cinque punto quattro. Oppioidi e naloxone, con la cinque punto sei."),
- (17,"chiaro",0,"Potassio, eparina e stupefacenti, con la cinque punto sette. La trasfusione, con la sei punto sei. E il rischio clinico con le Raccomandazioni, con la due punto sei."),
+ (17,"chiaro",0,"Il potassio con la cinque punto sette, l'eparina con la cinque punto cinque. La trasfusione, con la sei punto sei. E il rischio clinico con le Raccomandazioni, con la due punto sei."),
 
  (18,"profondo",1.2,"[serious] La frase del caso: fermarsi un minuto a controllare non e' lentezza, e' sicurezza. Ognuna delle quattro trappole si risolveva con una verifica di pochi secondi."),
 

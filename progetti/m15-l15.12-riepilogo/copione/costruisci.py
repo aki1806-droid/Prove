@@ -43,7 +43,7 @@ BLOCCHI = [
  (10,"chiaro",0,"Il paziente con BPCO in ossigeno. La caduta di un anziano. L'ipoglicemia. La reazione trasfusionale. Un errore di terapia intercettato. La dimissione di un paziente fragile. Per ognuna, un caso svolto e una risposta modello."),
 
  (11,"chiaro",0,"La prova pratica puo' chiedere anche la descrizione di una procedura. La struttura: l'indicazione; la preparazione di paziente e materiale, con igiene delle mani, identificazione e consenso; l'esecuzione, con i punti critici."),
- (11,"chiaro",0,"Poi controllo e smaltimento, documentazione e sorveglianza. Le piu' probabili: cateterismo vescicale, sondino naso-gastrico, emocoltura, CVC, trasfusione, ferita chirurgica, broncoaspirazione. Moduli tre, sei e otto."),
+ (11,"chiaro",0,"Poi controllo e smaltimento, documentazione e sorveglianza. Le piu' probabili: cateterismo vescicale, sondino naso-gastrico, emocoltura, CVC, trasfusione, ferita chirurgica, broncoaspirazione. Moduli tre, sei, sette e otto."),
 
  (12,"chiaro",0,"Gli errori ricorrenti di tutto il modulo. Non leggere il dato anomalo. Elencare senza priorita'. Interventi generici. Dimenticare il secondo prescrizione. Dimenticare la sicurezza."),
  (12,"chiaro",0,"Dimenticare la comunicazione e la documentazione. Non cercare la causa. Dimenticare la persona e la famiglia. Non pensare alla continuita'."),

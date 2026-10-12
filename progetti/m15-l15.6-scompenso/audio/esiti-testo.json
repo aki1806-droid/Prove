@@ -1,0 +1,108 @@
+{
+ "A": {
+  "parole_copione": 690,
+  "parole_dette": 688,
+  "coincidenti": 677,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s04",
+    "copione": "ottant",
+    "detto": "80"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s06",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s07",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s22",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s26",
+    "copione": "teach back",
+    "detto": "teachback"
+   },
+   {
+    "blocco": "s26",
+    "copione": "chili",
+    "detto": "kg"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 686,
+  "parole_dette": 684,
+  "coincidenti": 676,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s30",
+    "copione": "riegel",
+    "detto": "rigel"
+   },
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "espettorato",
+    "detto": "e spettorato"
+   },
+   {
+    "blocco": "s42",
+    "copione": "centottanta",
+    "detto": "180"
+   },
+   {
+    "blocco": "s43",
+    "copione": "e",
+    "detto": "in"
+   }
+  ]
+ }
+}

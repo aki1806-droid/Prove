@@ -68,3 +68,8 @@ stacco tracce             dopo s27   (chunk A 4.771 car · chunk B 4.146 car)
 - La risposta modello parlata (s42–s45) segue la VOCE dello script, più corta dell'«A schermo»: mancano a voce «colore delle urine» e «secondo prescrizione» sul trattamento dello shock, e le slide seguono la voce.
 - Libreria (non toccata): in `clinica.mjs` la figura `registro` usa la classe `.pagina`, la stessa del numero di lezione in `layout.mjs` (`position:absolute; right:132px`): la pagina del registro esce spostata di 132 px verso sinistra. Il controllo di traboccamento non se ne accorge perché misura solo `.corpo`.
 - Libreria (non toccata): nel `percorso` le tappe fuori da `attive` dovrebbero restare a opacità 0,28, ma l'animazione `pop` riporta l'opacità a 1, e nel fermo immagine sembrano tutte accese. La progressione si legge solo dalla tappa in accento (s24–s27, s35–s38).
+
+### Correzioni dopo la revisione
+
+- Stupefacenti: lo script li attribuisce alla 5.7, ma registro di carico e scarico e DPR 309/1990 stanno nella **5.6** (oppioidi). Voce (s21) e sopratitolo corretti in «5.6».
+- Collegamenti (s47): «potassio, eparina e stupefacenti con la 5.7» diventa «il potassio con la 5.7, l'eparina con la 5.5» (eparina e protamina sono nella 5.5).

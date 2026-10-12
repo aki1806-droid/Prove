@@ -1,0 +1,98 @@
+{
+ "A": {
+  "parole_copione": 600,
+  "parole_dette": 601,
+  "coincidenti": 586,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "segue",
+    "detto": "seguo"
+   },
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s08",
+    "copione": "duecentottanta millilitri",
+    "detto": "280 ml"
+   },
+   {
+    "blocco": "s08",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "1",
+    "detto": "una"
+   },
+   {
+    "blocco": "s18",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s21",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 670,
+  "parole_dette": 667,
+  "coincidenti": 661,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "siero ematico",
+    "detto": "sieroematico"
+   },
+   {
+    "blocco": "s32",
+    "copione": "teach back",
+    "detto": "teachback"
+   },
+   {
+    "blocco": "s35",
+    "copione": "teach back",
+    "detto": "teachback"
+   },
+   {
+    "blocco": "s41",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s43",
+    "copione": "siero ematico",
+    "detto": "sieroematico"
+   }
+  ]
+ }
+}

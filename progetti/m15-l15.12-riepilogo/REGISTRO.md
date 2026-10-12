@@ -63,3 +63,7 @@ stacco tracce             dopo s24   (chunk A 4.164 car · chunk B 4.514 car)
 - Le procedure più probabili si trovano, secondo lo script, «nei moduli 3, 6 e 8»; la medicazione della ferita chirurgica sta però nel Modulo 7 (lezioni 7.4 e 7.5). Lasciato come nello script (s31).
 - La chiusura nomina otto dei casi del Modulo 16 (non C. difficile, nutrizione enterale, monossido): scelta di lunghezza.
 - Libreria (non toccata): nel `percorso` le tappe fuori da `attive` dovrebbero restare a opacità 0,28, ma l'animazione `pop` riporta l'opacità a 1, e nel fermo immagine sembrano tutte accese. La progressione si legge solo dalla tappa in accento (s04–s05, s30, s34).
+
+### Correzioni dopo la revisione
+
+- Procedure (s31): lo script dice «moduli tre, sei e otto», ma la ferita chirurgica sta nel Modulo 7 (7.4, 7.5). Voce e sopratitolo diventano «moduli 3, 6, 7 e 8».

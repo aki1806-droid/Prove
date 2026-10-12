@@ -141,7 +141,7 @@ export const SCENE = [
 {id:"s29", sopratitolo:"Per ognuna, un caso svolto e una risposta modello", ...TRACCE([0,1,2,3,4,5,6,7,8,9])},
 
 {id:"s30", sopratitolo:"La prova pratica può chiedere la descrizione di una procedura", ...PROCEDURA([0,1,2], 1)},
-{id:"s31", tipo:"griglia", tema:"chiaro", colonne:4, spunta:false, sopratitolo:"Le procedure più probabili · moduli 3, 6 e 8", celle:[
+{id:"s31", tipo:"griglia", tema:"chiaro", colonne:4, spunta:false, sopratitolo:"Le procedure più probabili · moduli 3, 6, 7 e 8", celle:[
   {n:"·", t:"Cateterismo **vescicale**"}, {n:"·", t:"Sondino **naso-gastrico**"},
   {n:"·", t:"Prelievo per **emocoltura**"}, {n:"·", t:"Gestione del **CVC**"},
   {n:"·", t:"**Trasfusione**", key:true}, {n:"·", t:"Medicazione della **ferita chirurgica**"},

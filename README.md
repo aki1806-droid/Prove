@@ -132,6 +132,7 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:48.4 | `e514af37fc53d7af7e6e371ad4d01711` |
 | `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
 | `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:42.6 | `f53308e25d9de12662c7bf6baae8b314` |
+| `m15-l15.7-fragile` | Modulo 15 · 15.7 L'anziana fragile: delirium, caduta e dimissione protetta | 9:14.3 | `77f1edca6b9516c3e050b33781e4cdb8` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre

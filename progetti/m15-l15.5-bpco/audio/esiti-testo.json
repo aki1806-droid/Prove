@@ -1,0 +1,163 @@
+{
+ "A": {
+  "parole_copione": 685,
+  "parole_dette": 684,
+  "coincidenti": 661,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s08",
+    "copione": "e presenta",
+    "detto": "ee presente"
+   },
+   {
+    "blocco": "s09",
+    "copione": "co2",
+    "detto": "co"
+   },
+   {
+    "blocco": "s09",
+    "copione": "1",
+    "detto": "una"
+   },
+   {
+    "blocco": "s11",
+    "copione": "ipossiemia",
+    "detto": "ipossemia"
+   },
+   {
+    "blocco": "s13",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s13",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s14",
+    "copione": "paco2",
+    "detto": "paco"
+   },
+   {
+    "blocco": "s14",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s15",
+    "copione": "co2",
+    "detto": "co"
+   },
+   {
+    "blocco": "s16",
+    "copione": "su cronica",
+    "detto": "subcronica"
+   },
+   {
+    "blocco": "s16",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s17",
+    "copione": "co2",
+    "detto": "co"
+   },
+   {
+    "blocco": "s17",
+    "copione": "peggiora",
+    "detto": "peggiore"
+   },
+   {
+    "blocco": "s19",
+    "copione": "co2",
+    "detto": "co"
+   },
+   {
+    "blocco": "s24",
+    "copione": "co2",
+    "detto": "co"
+   },
+   {
+    "blocco": "s24",
+    "copione": "pao2",
+    "detto": "pao"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 638,
+  "parole_dette": 636,
+  "coincidenti": 624,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s28",
+    "copione": "inspirazione",
+    "detto": "ispirazione"
+   },
+   {
+    "blocco": "s28",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s29",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "famiglia",
+    "detto": "famiglie"
+   },
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s34",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s38",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s46",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   }
+  ]
+ }
+}

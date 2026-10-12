@@ -1,0 +1,128 @@
+{
+ "A": {
+  "parole_copione": 654,
+  "parole_dette": 663,
+  "coincidenti": 641,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s10",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s11",
+    "copione": "13virgola1",
+    "detto": "13 ee 1"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "sepsi",
+    "detto": "sepsis"
+   },
+   {
+    "blocco": "s16",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s17",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "news2",
+    "detto": "news 2"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 648,
+  "parole_dette": 652,
+  "coincidenti": 634,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "5",
+    "detto": "17 00"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "dai",
+    "detto": "da"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s31",
+    "copione": "notizie",
+    "detto": "notizia"
+   },
+   {
+    "blocco": "s34",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s43",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s44",
+    "copione": "semiseduto",
+    "detto": "semi seduto"
+   },
+   {
+    "blocco": "s47",
+    "copione": "news2",
+    "detto": "news 2"
+   }
+  ]
+ }
+}

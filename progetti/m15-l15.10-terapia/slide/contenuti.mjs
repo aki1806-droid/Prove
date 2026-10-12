@@ -98,7 +98,7 @@ export const SCENE = [
   testo:"può riaddormentarsi"},
 {id:"s20", tipo:"respiro", tema:"chiaro", sopratitolo:"La sedazione precede la depressione respiratoria · valutarla prima di ogni dose"},
 
-{id:"s21", tipo:"icone", tema:"chiaro", sopratitolo:"Gli stupefacenti · le regole della lezione 5.7", voci:[
+{id:"s21", tipo:"icone", tema:"chiaro", sopratitolo:"Gli stupefacenti · le regole della lezione 5.6", voci:[
   {icona:"quaderno", t:"Registro di carico e scarico", d:"DPR 309/1990", key:true},
   {icona:"lucchetto", t:"Armadio chiuso a chiave"}]},
 {id:"s22", tipo:"griglia", tema:"chiaro", colonne:1, sopratitolo:"Le regole", celle:[
@@ -180,7 +180,7 @@ export const SCENE = [
   ["Sorveglio", "i primi **15 minuti**"]], chiave:[1]},
 
 {id:"s46", tipo:"anello", tema:"chiaro", sopratitolo:"I collegamenti", centro:"15.10", sotto:"quattro trappole", voci:LEZIONI, attive:[0,1,2,3]},
-{id:"s47", tipo:"anello", tema:"chiaro", sopratitolo:"I collegamenti · potassio, eparina e stupefacenti con la 5.7", centro:"15.10", sotto:"quattro trappole", voci:LEZIONI},
+{id:"s47", tipo:"anello", tema:"chiaro", sopratitolo:"I collegamenti · potassio con la 5.7, eparina con la 5.5", centro:"15.10", sotto:"quattro trappole", voci:LEZIONI},
 
 {id:"s48", tipo:"titolo", tema:"profondo",
   titolo:"Fermarsi un minuto a controllare<br>non è lentezza: **è sicurezza**.",
