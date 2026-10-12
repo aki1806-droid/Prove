@@ -1,0 +1,154 @@
+{
+ "A": {
+  "parole_copione": 667,
+  "parole_dette": 660,
+  "coincidenti": 639,
+  "buchi": [
+   {
+    "blocco": "s09",
+    "parole_copione": "a vu effe",
+    "al_loro_posto": "avf"
+   }
+  ],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s07",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "erettile",
+    "detto": "rettile"
+   },
+   {
+    "blocco": "s18",
+    "copione": "10virgola5",
+    "detto": "10 05"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s20",
+    "copione": "guida",
+    "detto": "guide"
+   },
+   {
+    "blocco": "s21",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s23",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s23",
+    "copione": "timekeeper",
+    "detto": "time keeper"
+   },
+   {
+    "blocco": "s24",
+    "copione": "milligrammo",
+    "detto": "mg"
+   },
+   {
+    "blocco": "s24",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s24",
+    "copione": "timekeeper",
+    "detto": "time keeper"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 727,
+  "parole_dette": 722,
+  "coincidenti": 712,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "10virgola7",
+    "detto": "10 07"
+   },
+   {
+    "blocco": "s25",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s29",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s32",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s36",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s45",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s48",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

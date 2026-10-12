@@ -47,7 +47,9 @@ elif cmd == "carica":
         h = v.get("upload_headers") or {"content-type": c}
         args = ["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code}", "-X", "PUT", "--data-binary", f"@{p}"]
         for a, b in h.items(): args += ["-H", f"{a}: {b}"]
-        code = subprocess.run(args + [v["upload_url"]], capture_output=True, text=True).stdout
+        for _ in range(3):   # un 503 passeggero capita: si ritenta lo stesso URL firmato
+            code = subprocess.run(args + [v["upload_url"]], capture_output=True, text=True).stdout
+            if code == "200": break
         ok += code == "200"
         if code != "200": print("FALLITO", n, code)
         v["_locale"] = [k, i]

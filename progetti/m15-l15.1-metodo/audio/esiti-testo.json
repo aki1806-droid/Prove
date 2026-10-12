@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 679,
+  "parole_dette": 684,
+  "coincidenti": 669,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s12",
+    "copione": "news2",
+    "detto": "news 2"
+   },
+   {
+    "blocco": "s12",
+    "copione": "braden",
+    "detto": "bredhen"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "vie aeree",
+    "detto": "via aere"
+   },
+   {
+    "blocco": "s15",
+    "copione": "pressione",
+    "detto": "pressioni"
+   },
+   {
+    "blocco": "s20",
+    "copione": "oss",
+    "detto": "os"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 644,
+  "parole_dette": 645,
+  "coincidenti": 638,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s33",
+    "copione": "consegne",
+    "detto": "consegna"
+   },
+   {
+    "blocco": "s35",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "lezione68",
+    "detto": "6 8"
+   },
+   {
+    "blocco": "s45",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s47",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}
