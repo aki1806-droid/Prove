@@ -6,7 +6,7 @@ import json, re, sys
 BLOCCHI = [
  (1,"chiaro",0,"[warm] Questo caso parla di un paziente che molti operatori, ancora oggi, guardano con diffidenza: una persona con una dipendenza da oppioidi, in terapia sostitutiva con il metadone, ricoverata per un altro problema."),
  (1,"chiaro",0,"Vedremo come riconoscere l'astinenza, perche' la terapia sostitutiva non si interrompe, come si tratta il dolore in un paziente tollerante agli oppioidi, e come si superano i pregiudizi."),
- (1,"chiaro",0,"Collegamenti con le lezioni tre punto sette, cinque punto quattro, cinque punto sei, cinque punto sette e undici punto tre."),
+ (1,"chiaro",0,"Collegamenti con le lezioni tre punto sette, cinque punto quattro, cinque punto sei e undici punto tre."),
 
  (2,"chiaro",0,"Lo scenario. Stefano, quarantuno anni, e' in terapia con metadone presso il SerD da tre anni, con una buona stabilita'. Viene ricoverato sabato sera in chirurgia, per un ascesso del braccio da drenare."),
  (2,"chiaro",0,"L'ascesso e' legato a un pregresso uso di sostanze per via endovenosa. All'ingresso nessuno ha verificato la terapia con metadone. Domenica alle tre presenta sbadigli continui, sudorazione, lacrimazione."),
@@ -18,7 +18,7 @@ BLOCCHI = [
 
  (4,"chiaro",0,"Le azioni. Rilevi i parametri, valuti l'astinenza con una scala, come la COWS, e avvisi il medico di guardia. Poi verifichi la dose: la documentazione del SerD, il piano terapeutico, il servizio di riferimento."),
  (4,"chiaro",0,"Anche attraverso la reperibilita' nei giorni festivi. E soprattutto l'ultima dose assunta e il suo orario, per evitare sia la mancata somministrazione sia la doppia dose."),
- (4,"chiaro",0,"Poi la terapia sostitutiva continua secondo prescrizione, con il registro degli stupefacenti della lezione cinque punto sette. Idratazione, sintomatici, e rassicurazione: Stefano ha paura di non essere creduto."),
+ (4,"chiaro",0,"Poi la terapia sostitutiva continua secondo prescrizione, con il registro degli stupefacenti della lezione cinque punto sei. Idratazione, sintomatici, e rassicurazione: Stefano ha paura di non essere creduto."),
 
  (5,"chiaro",0,"[serious] Perche' la terapia sostitutiva non si interrompe? Interromperla provoca astinenza e sofferenza, e spesso porta ad abbandonare le cure, con le dimissioni contro il parere medico, o a procurarsi sostanze in ospedale."),
  (5,"chiaro",0,"La dose abituale serve a prevenire l'astinenza, non a trattare il dolore acuto. Il ricovero e' un'occasione di cura, non di disintossicazione forzata. Le modifiche, solo con il medico e con il SerD."),
@@ -59,7 +59,7 @@ BLOCCHI = [
  (14,"chiaro",0,"Somministro la terapia sostitutiva prescritta, registrandola ed evitando doppie dosi. Gestisco il dolore con analgesia multimodale, considerando la tolleranza e sorvegliando sedazione e respiro, con naloxone disponibile."),
  (14,"chiaro",0,"Segnalo interazioni e rischio di allungamento del QT. Mi relaziono senza giudizio. Offro, con il consenso, screening e vaccinazioni. E alla dimissione garantisco la continuita' con il SerD."),
 
- (15,"chiaro",0,"I collegamenti. Dolore e PCA con la tre punto sette. La riconciliazione con la cinque punto quattro. Oppioidi e naloxone con la cinque punto sei. Gli stupefacenti e il DPR trecentonove con la cinque punto sette."),
+ (15,"chiaro",0,"I collegamenti. Dolore e PCA con la tre punto sette. La riconciliazione con la cinque punto quattro. Oppioidi, naloxone, stupefacenti e DPR trecentonove con la cinque punto sei."),
  (15,"chiaro",0,"Dipendenze e SerD con la undici punto tre. Gli accessi venosi difficili con la sei punto uno. E il Codice deontologico con la uno punto quattro."),
 
  (16,"chiaro",0,"E un ritorno all'origine del problema: la riconciliazione all'ingresso. La terapia con metadone non e' stata rilevata, perche' spesso non compare fra le terapie di casa: la dispensa il SerD."),

@@ -12,7 +12,7 @@ const LEZIONI = [
   {n:"3.7", t:"Dolore e PCA", illu:"pca"},
   {n:"5.4", t:"Riconciliazione", illu:"farmaci"},
   {n:"5.6", t:"Oppioidi e naloxone", illu:"siringa"},
-  {n:"5.7", t:"Stupefacenti", illu:"quaderno"},
+  {n:"5.6", t:"Stupefacenti", illu:"quaderno"},
   {n:"11.3", t:"Dipendenze e SerD", illu:"ascolto"}];
 
 const NOTTE = (att, k) => ({tipo:"percorso", tema:"chiaro", attive:att, tappe:[
@@ -38,7 +38,7 @@ const RISPOSTA = (att) => ({tipo:"memo", tema:"chiaro", attive:att, voci:[
 
 const COLLEGAMENTI = (att) => ({tipo:"griglia", tema:"chiaro", colonne:3, spunta:false, attive:att, celle:[
   {n:"3.7", t:"Dolore e PCA"}, {n:"5.4", t:"Riconciliazione"}, {n:"5.6", t:"Oppioidi e naloxone"},
-  {n:"5.7", t:"Stupefacenti · DPR 309/1990"}, {n:"11.3", t:"Dipendenze e SerD"}, {n:"6.1", t:"Accessi venosi difficili"},
+  {n:"5.6", t:"Stupefacenti · DPR 309/1990"}, {n:"11.3", t:"Dipendenze e SerD"}, {n:"6.1", t:"Accessi venosi difficili"},
   {n:"1.4", t:"Codice deontologico"}]});
 
 export const SCENE = [
@@ -83,7 +83,7 @@ export const SCENE = [
   titolo:"L'**ultima dose** assunta, e il suo **orario**.", sotto:"Per evitare sia la mancata somministrazione sia la doppia dose."},
 {id:"s13", tipo:"icone", tema:"chiaro", sopratitolo:"Poi la terapia continua", voci:[
   {icona:"farmaci", t:"Terapia sostitutiva", d:"secondo prescrizione", key:true},
-  {icona:"quaderno", t:"Registro degli stupefacenti", d:"lezione 5.7"},
+  {icona:"quaderno", t:"Registro degli stupefacenti", d:"lezione 5.6"},
   {icona:"flebo", t:"Idratazione", d:"e sintomatici, secondo prescrizione"},
   {icona:"ascolto", t:"Rassicurazione", d:"teme di non essere creduto"}]},
 
