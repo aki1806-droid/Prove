@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,870
+L'embolia polmonare e' una delle cause di morte evitabile piu' frequenti in ospedale. Qui la vediamo comparire in medicina, in una paziente che non era stata operata.
+
+2
+00:00:11,870 --> 00:00:26,050
+E il problema era cominciato giorni prima: un rischio che nessuno aveva valutato, un segnale notato ma non interpretato. Le lezioni: tre punto due, cinque punto cinque, otto punto due, due punto sei e quattordici punto sette.
+
+3
+00:00:26,050 --> 00:00:39,680
+Lo scenario. La signora Paola, cinquantotto anni, obesa, e' ricoverata da quattro giorni in medicina per una pielonefrite, quasi sempre a letto per la stanchezza. In terapia antibiotica, ma senza profilassi antitrombotica.
+
+4
+00:00:39,680 --> 00:00:53,020
+Ieri ha riferito dolore e gonfiore al polpaccio sinistro, annotati come da posizione. Oggi, al primo tentativo di andare in bagno: dispnea improvvisa, dolore toracico che aumenta con il respiro, e una forte ansia.
+
+5
+00:00:53,020 --> 00:01:04,420
+Frequenza centoventidue, respiratoria trenta, saturazione ottantasei in aria, pressione centoquattro su sessantotto. Fermati un momento: che cosa pensi, e che cosa fai?
+
+6
+00:01:04,420 --> 00:01:17,960
+Il ragionamento. Immobilita', obesita' e infezione acuta: il rischio tromboembolico e' elevato. E il polpaccio dolente e gonfio di ieri, da un solo lato, era con ogni probabilita' una trombosi venosa profonda.
+
+7
+00:01:17,960 --> 00:01:32,600
+Alzandosi, dispnea improvvisa, dolore pleuritico, tachicardia, desaturazione, ansia: embolia polmonare fino a prova contraria. La pressione e' conservata, ma va sorvegliata: l'embolia ad alto rischio si presenta con lo shock.
+
+8
+00:01:32,600 --> 00:01:43,620
+Le prime azioni. La riporti a letto in posizione semiseduta, e non la fai camminare. Chiami subito il medico, con lo SBAR. Ossigeno, con un target di novantaquattro-novantotto.
+
+9
+00:01:43,620 --> 00:01:58,780
+Monitoraggio continuo e accesso venoso. L'ECG, che spesso mostra solo una tachicardia sinusale: i quadri da manuale non sono sempre presenti. E i prelievi: emocromo, coagulazione, funzione renale, troponina, emogas.
+
+10
+00:01:58,780 --> 00:02:05,490
+Non massaggi l'arto. E non la lasci sola: l'ansia intensa fa parte del quadro, e la tua presenza la riduce.
+
+11
+00:02:05,490 --> 00:02:17,320
+La diagnosi. Con una probabilita' clinica alta, come in questo caso, si procede direttamente all'angio-TC polmonare. Il D-dimero serve soprattutto a escludere la trombosi nei pazienti a bassa probabilita'.
+
+12
+00:02:17,320 --> 00:02:29,030
+Perche' e' aumentato in molte condizioni, comprese le infezioni. Per il mezzo di contrasto si verificano funzione renale, allergie e un accesso adeguato, come nella lezione quattordici punto sette.
+
+13
+00:02:29,030 --> 00:02:41,780
+Si esegue un'ecografia degli arti inferiori. La terapia e' l'anticoagulazione secondo prescrizione: eparina, e poi un anticoagulante orale. E se comparisse uno shock, si valuterebbe una trombolisi sistemica.
+
+14
+00:02:41,780 --> 00:02:51,020
+La sorveglianza durante l'anticoagulazione. Parametri e saturazione, e i segni di peggioramento: ipotensione, sincope, aumento della dispnea.
+
+15
+00:02:51,020 --> 00:03:04,300
+I segni di sanguinamento: gengive, urine, feci, ematomi, punti di puntura, cefalea. Niente intramuscolari. E i controlli di laboratorio in base al farmaco: l'aPTT con l'eparina non frazionata.
+
+16
+00:03:04,300 --> 00:03:16,740
+Le piastrine con le eparine, per il rischio di piastrinopenia indotta. E la mobilizzazione: avviata l'anticoagulazione, si riprende secondo indicazione medica, senza tenere la paziente a letto piu' del necessario.
+
+17
+00:03:16,740 --> 00:03:29,320
+Ora la parte piu' utile: che cosa non ha funzionato. Uno: nessuno ha valutato il rischio tromboembolico all'ingresso. Due: la profilassi non e' stata prescritta, persa nel passaggio dal pronto soccorso al reparto.
+
+18
+00:03:29,320 --> 00:03:41,330
+Tre: il segnale di trombosi di ieri, un polpaccio dolente e gonfio da un solo lato, e' stato annotato, ma non interpretato, ne' segnalato. Quattro: la mobilizzazione e' stata insufficiente.
+
+19
+00:03:41,330 --> 00:03:51,160
+E' un evento da segnalare e analizzare, come nella lezione due punto sei, per correggere il percorso: non per trovare un colpevole. E certamente non da nascondere.
+
+20
+00:03:51,160 --> 00:04:02,420
+Un approfondimento, con un aggancio veneto. Per i pazienti ricoverati in area medica si usa spesso il Padua Prediction Score, sviluppato proprio a Padova. Assegna punti a undici fattori.
+
+21
+00:04:02,420 --> 00:04:11,630
+Tre punti per il cancro attivo, il pregresso tromboembolismo, la ridotta mobilita' e la trombofilia. Due punti per un trauma o una chirurgia recente.
+
+22
+00:04:11,630 --> 00:04:24,990
+Un punto per l'eta' da settant'anni, lo scompenso cardiaco o respiratorio, l'infarto o l'ictus acuto, l'infezione acuta, l'obesita' e la terapia ormonale. Un punteggio da quattro in su indica un rischio alto.
+
+23
+00:04:24,990 --> 00:04:36,970
+E la profilassi va considerata, se non ci sono controindicazioni. La signora Paola totalizzava cinque punti: ridotta mobilita', infezione e obesita'. La profilassi era indicata fin dal primo giorno.
+
+24
+00:04:36,970 --> 00:04:48,600
+La prevenzione e' in gran parte infermieristica. Valutare il rischio tromboembolico, insieme a quello emorragico, all'ingresso e a ogni cambiamento. Verificare che la profilassi sia prescritta e somministrata.
+
+25
+00:04:48,600 --> 00:04:59,750
+Soprattutto nei passaggi fra setting, dove le terapie si perdono: e' la riconciliazione della lezione cinque punto quattro. Mobilizzazione precoce ed esercizi degli arti inferiori. Idratazione.
+
+26
+00:04:59,750 --> 00:05:10,510
+Profilassi meccanica secondo indicazione. Ispezione degli arti, segnalando dolore, edema monolaterale e calore. E l'educazione del paziente, che puo' riferire per primo un sintomo.
+
+27
+00:05:10,510 --> 00:05:20,460
+L'educazione alla dimissione. L'anticoagulante orale: assunzione regolare, mai sospenderlo da soli, per la durata indicata dal medico. E i segni di sanguinamento da segnalare.
+
+28
+00:05:20,460 --> 00:05:27,290
+Le interazioni con i farmaci da banco, come i FANS, e con gli integratori. E informare il dentista, e ogni medico.
+
+29
+00:05:27,290 --> 00:05:40,340
+I segni di recidiva, dolore o gonfiore di una gamba e dispnea improvvisa: si chiama subito il centododici o il centodiciotto. Il movimento, l'idratazione, le precauzioni nei viaggi lunghi. E il controllo del peso.
+
+30
+00:05:40,340 --> 00:05:49,280
+E una domanda difficile. La paziente ti chiede: perche' mi e' successo, qui in ospedale? La risposta richiede onesta' e chiarezza, nei limiti delle tue competenze.
+
+31
+00:05:49,280 --> 00:05:59,130
+E il coinvolgimento del medico, per una comunicazione completa dell'evento, secondo le procedure aziendali. Non si scaricano responsabilita' sui colleghi, e non si minimizza.
+
+32
+00:05:59,130 --> 00:06:07,710
+Si rassicura sul trattamento in corso, e si documenta il colloquio. La fiducia si perde molto piu' per un silenzio che per un errore spiegato con sincerita'.
+
+33
+00:06:07,710 --> 00:06:16,710
+Gli errori. Annotare un polpaccio dolente come da posizione, senza segnalarlo. Non valutare il rischio. Non verificare la profilassi nel passaggio di setting.
+
+34
+00:06:16,710 --> 00:06:25,010
+Far camminare una paziente con dispnea improvvisa. Rassicurarsi per una pressione ancora normale. Massaggiare l'arto. Non segnalare l'evento.
+
+35
+00:06:25,010 --> 00:06:32,620
+Le domande d'orale. Prima: quali sono i segni? La trombosi venosa profonda da' dolore, edema monolaterale e calore dell'arto.
+
+36
+00:06:32,620 --> 00:06:46,270
+L'embolia polmonare da' dispnea improvvisa, dolore toracico pleuritico, tachicardia, desaturazione, ansia, e nei casi gravi ipotensione e sincope. Seconda: come si valuta il rischio nel paziente medico?
+
+37
+00:06:46,270 --> 00:06:56,900
+Con scale come il Padua Prediction Score, in cui un punteggio da quattro indica un rischio alto, insieme alla valutazione del rischio emorragico. Terza: a che cosa serve il D-dimero?
+
+38
+00:06:56,900 --> 00:07:08,160
+Ha un alto valore predittivo negativo: un valore normale, in un paziente a bassa probabilita', permette di escludere la trombosi. Un valore alto non la conferma, perche' aumenta in molte condizioni.
+
+39
+00:07:08,160 --> 00:07:20,680
+La risposta modello. Paziente immobilizzata da quattro giorni, obesa, con infezione acuta e senza profilassi, che dopo un dolore al polpaccio presenta, alzandosi, dispnea improvvisa e dolore pleuritico.
+
+40
+00:07:20,680 --> 00:07:32,370
+Tachicardia e desaturazione: sospetta embolia polmonare. La riporto a letto semiseduta, chiamo subito il medico, somministro ossigeno con target novantaquattro-novantotto, avvio il monitoraggio.
+
+41
+00:07:32,370 --> 00:07:44,790
+Posiziono un accesso, eseguo ECG e prelievi, e non massaggio l'arto. La preparo all'angio-TC. Somministro l'anticoagulante prescritto, sorveglio peggioramento e sanguinamento, e rassicuro la paziente.
+
+42
+00:07:44,790 --> 00:07:57,650
+Segnalo l'evento, evidenziando la mancata valutazione del rischio e la profilassi persa dal pronto soccorso. Riprendo la mobilizzazione secondo indicazione e, alla dimissione, educo sull'anticoagulante e sulla recidiva.
+
+43
+00:07:57,650 --> 00:08:08,790
+I collegamenti. Trombosi e immobilita' con la tre punto due. Anticoagulanti con la cinque punto cinque. Ossigeno con la otto punto due. Rischio clinico e segnalazione con la due punto sei.
+
+44
+00:08:08,790 --> 00:08:20,250
+Riconciliazione con la cinque punto quattro. Il D-dimero con la quattordici punto sei, il contrasto con la quattordici punto sette. E le complicanze postoperatorie con la nove punto cinque.
+
+45
+00:08:20,250 --> 00:08:28,840
+Una riflessione. L'embolia polmonare in ospedale e' spesso un evento evitabile. Gli strumenti esistono: le scale, la profilassi, la mobilizzazione.
+
+46
+00:08:28,840 --> 00:08:37,380
+La differenza la fanno l'attenzione ai passaggi fra setting, e la capacita' di dare un significato a un segno, come un polpaccio gonfio, invece di archiviarlo.
+
+47
+00:08:37,380 --> 00:08:45,030
+La frase del caso: un polpaccio gonfio da un solo lato non e' da posizione, finche' non si dimostra il contrario.
+
+48
+00:08:45,030 --> 00:08:57,060
+Nella prossima lezione: un'epidemia di diarrea in reparto, causata dal Clostridioides difficile. Isolamento, igiene delle mani, sanificazione e uso responsabile degli antibiotici. A tra poco.

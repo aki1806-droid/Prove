@@ -146,6 +146,7 @@ progetti/<modulo>-<lezione>/
 | `m15-l15.12-riepilogo` | Modulo 15 · 15.12 Riepilogo del modulo e casi lampo | 9:03.6 | `899a7e3eaba523b2b08a8c8e9dd184ae` |
 | `m16-l16.1-ictus` | Modulo 16 · 16.1 L'ictus: dalla FAST in reparto alla riabilitazione | 9:14.0 | `4b78d02af6fed97f9dc015c07f52b143` |
 | `m16-l16.2-emorragia` | Modulo 16 · 16.2 Emorragia digestiva nel paziente cirrotico | 8:56.1 | `eb070a7535b2ba30374abc3357125fb2` |
+| `m16-l16.3-iperkaliemia` | Modulo 16 · 16.3 Il paziente dializzato con iperkaliemia | 9:01.2 | `a7ae046c353b550061da14ff0682085a` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
