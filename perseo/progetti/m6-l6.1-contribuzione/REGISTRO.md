@@ -38,7 +38,10 @@ Modulo 6 · Dove vanno i tuoi soldi. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `d9311cf7e9aca585992be4f2569ade34` — **completato**, 6:03,2 (363,2 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/d9311cf7e9aca585992be4f2569ade34
+- lotto asset `8d200ba9b52b47dbaf026ed1db9c5689` (96 file)
+- copia di controllo locale: `montato-6.1.mp4` 6:04,6 (non versionata) e `montato-6.1.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 

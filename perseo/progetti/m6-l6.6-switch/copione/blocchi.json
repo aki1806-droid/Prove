@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Un buon ciclista cambia marcia prima della salita, non a meta'. E non la cambia a ogni curva, solo perche' la strada gira un po'."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Anche nel fondo pensione si puo' cambiare marcia. Si chiama switch: e' il passaggio da un profilo di investimento a un altro."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo le regole per farlo, gli strumenti che ti aiutano a decidere, e il momento giusto per cambiare."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con questa lezione chiudiamo il modulo sulla gestione finanziaria: dove vanno i tuoi soldi, e come puoi orientarli tu."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come sempre in questo modulo: informazioni generali, non consulenza finanziaria. E i rendimenti passati non garantiscono quelli futuri."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalle regole. Sono poche, e per fortuna sono semplici da ricordare. Le trovi nella Nota informativa e nello Statuto del Fondo."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La regola generale prevede almeno dodici mesi di permanenza in un profilo, prima di poterlo cambiare."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi almeno dodici mesi tra un cambio e l'altro. Una marcia alla volta, insomma, senza scatti continui."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la nuova gestione finanziaria, pero', c'e' un'eccezione importante: il primo cambio si puo' fare subito, senza aspettare."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo Statuto prevede la stessa possibilita' anche per chi e' entrato per silenzio-assenso, o come aderente contrattuale."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Possono spostarsi dal profilo di partenza in qualunque momento. Non devono aspettare i dodici mesi: il profilo di partenza non e' una gabbia."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E c'e' una buona notizia per tutti: cambiare profilo non costa nulla. Nessuna commissione, nessuna penale, qualunque sia il profilo di arrivo."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La Nota informativa non prevede spese, ne' per spostare la posizione gia' accumulata, ne' per spostare i versamenti futuri."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricapitolando: primo cambio subito, poi almeno dodici mesi tra un cambio e l'altro. E nessun costo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando cambi profilo, puoi fare due cose diverse. Sembrano simili, ma non lo sono: conviene capire bene la differenza, prima di confermare."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Immagina un salvadanaio pieno, dentro un barattolo di un certo colore. E' la posizione che hai accumulato fino a oggi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sopra c'e' un rubinetto, che ogni mese versa nel barattolo i nuovi contributi, con la busta paga. Sono i versamenti futuri."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La prima strada e' spostare tutta la posizione gia' accumulata nel nuovo profilo. Il salvadanaio pieno cambia barattolo."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La seconda strada, in alcuni casi, e' spostare solo i versamenti futuri. Si devia il rubinetto verso un barattolo nuovo."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quello che hai gia' accumulato, invece, resta dov'e'. Cambia solo la direzione di quello che verserai da domani."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le modalita' precise sono descritte nel Regolamento multicomparto. Lo trovi sul sito del Fondo, nella sezione della gestione finanziaria."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di confermare, leggi con attenzione la schermata di riepilogo. Ti dice esattamente che cosa viene spostato, e dove."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma quando ha senso cambiare? E' la domanda piu' importante di tutta la lezione, perche' le regole dicono come si cambia, non quando."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono buoni motivi. Il primo: ti stai avvicinando alla pensione, e vuoi piu' stabilita' per i soldi che ti serviranno presto."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: e' cambiata la tua situazione familiare o economica. Un figlio, una casa, un nuovo lavoro. La vita si muove, e il profilo puo' seguirla."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il terzo: sei entrato per silenzio-assenso, e non hai mai fatto una scelta consapevole. Forse e' arrivato il momento di farla."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi ci sono i cattivi motivi. Il primo: il mercato e' sceso il mese scorso, e la posizione e' calata."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo: un collega racconta di aver guadagnato di piu', con un altro profilo. Il terzo: una notizia allarmante al telegiornale."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cambiare per paura, dopo un calo, significa spesso vendere quando i prezzi sono bassi. E rinunciare alla risalita, quando arriva."
+ },
+ {
+  "id": "s31",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi la lezione sei punto due? Chi esce dopo la caduta, di solito, non partecipa alla ripresa. E un calo temporaneo diventa una perdita vera."
+ },
+ {
+  "id": "s32",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo switch e' uno strumento per adattarsi alla vita, non per inseguire i mercati. Come il cambio della bicicletta: si usa prima della salita."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per decidere bene, non sei solo. Hai a disposizione due strumenti, ed entrambi sono gratuiti. Usarli non ti obbliga a cambiare nulla."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo e' il questionario di autovalutazione. Poche domande sulla tua eta', sui tuoi obiettivi e su come reagisci a un calo. Puoi rifarlo dall'area riservata ogni volta che la tua situazione cambia."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo e' la consulenza del Fondo. Si prenota dal sito, e serve proprio a scegliere il profilo piu' adatto a te."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ricorda anche le due tasche, che abbiamo visto nella lezione precedente: quella dei contributi, e quella del TFR virtuale."
+ },
+ {
+  "id": "s37",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando rivedi la tua scelta, rivedile entrambe. Dal 2026 anche il TFR virtuale segue un profilo, e quel profilo lo puoi scegliere tu."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Si cambia profilo quando cambia la tua vita. Non quando cambia la borsa."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: il primo cambio di profilo si puo' fare subito. Poi devono passare almeno dodici mesi tra un cambio e l'altro."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: cambiare non ha costi. Ne' per la posizione accumulata, ne' per i versamenti futuri. Quello che conta e' il motivo per cui cambi."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: per decidere usa il questionario e la consulenza gratuita. E rivedi sia la tasca reale, sia il TFR virtuale."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: entra nell'area riservata, e rifai il questionario di autovalutazione. Ci vogliono pochi minuti."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi confronta il risultato con il profilo in cui sei oggi. Coincidono? Se no, prima di cambiare, prenota una consulenza."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiude cosi' il sesto modulo. Abbiamo visto la contribuzione definita, il rischio e il rendimento, i comparti e i profili."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi il Life Cycle, la novita' del TFR nel 2026, e oggi le regole per cambiare idea."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora sai dove vanno i tuoi soldi, e come puoi orientarli. Non e' poco: e' la parte del fondo su cui puoi decidere davvero."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nel prossimo modulo vediamo un tema che spesso si trascura, e che invece pesa molto, anno dopo anno: i costi."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Costi e trasparenza. Ci vediamo nel modulo sette."
+ }
+]

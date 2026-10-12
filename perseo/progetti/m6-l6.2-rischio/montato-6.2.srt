@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:12,060
+Dal ponte di una nave, in mezzo alla tempesta, sembra di non andare da nessuna parte. Le onde salgono e scendono, e il mare sembra decidere tutto.
+
+2
+00:00:12,060 --> 00:00:20,120
+Ma se guardi la scia dall'alto, vedi che la nave procede dritta verso la sua meta. Le onde ci sono, ma non cambiano la rotta.
+
+3
+00:00:20,120 --> 00:00:29,810
+Gli investimenti fanno lo stesso effetto. Visti da vicino, giorno per giorno, oscillano. Visti da lontano, anno dopo anno, hanno una direzione.
+
+4
+00:00:29,810 --> 00:00:39,210
+In questa lezione capiamo perche' succede, e che cosa c'entra la tua eta'. Senza formule, senza grafici complicati, e soprattutto senza paura.
+
+5
+00:00:39,210 --> 00:00:48,230
+Come sempre in questo modulo: informazioni generali, non consulenza finanziaria. E i rendimenti passati non garantiscono quelli futuri.
+
+6
+00:00:48,230 --> 00:00:58,850
+Partiamo dalle basi, dai due ingredienti di ogni investimento: le obbligazioni e le azioni. Quasi tutto quello che fa un fondo pensione e' una miscela di questi due.
+
+7
+00:00:58,850 --> 00:01:07,750
+Le obbligazioni sono prestiti. Il fondo presta denaro a uno Stato o a un'impresa, che lo restituisce alla scadenza con un interesse.
+
+8
+00:01:07,750 --> 00:01:14,560
+Rendono meno, ma oscillano meno. Sono la parte calma del viaggio, quella che tiene la barca in equilibrio.
+
+9
+00:01:14,560 --> 00:01:24,710
+Le azioni, invece, sono quote di imprese. Comprare un'azione significa possedere un piccolo pezzo di un'azienda, con i suoi successi e i suoi momenti difficili.
+
+10
+00:01:24,710 --> 00:01:32,360
+Se le imprese crescono, crescono anche le azioni. E una parte degli utili viene distribuita agli azionisti, come dividendo.
+
+11
+00:01:32,360 --> 00:01:42,990
+Nel lungo periodo, le azioni hanno reso di piu'. Ma nel breve possono scendere anche molto, e in fretta: un anno con il dieci o il venti per cento in meno e' gia' successo.
+
+12
+00:01:42,990 --> 00:01:51,520
+Ecco allora una parola da chiarire subito, perche' spaventa piu' del dovuto. Il rischio, in finanza, non e' la probabilita' di perdere tutto.
+
+13
+00:01:51,520 --> 00:01:58,610
+E' l'ampiezza delle oscillazioni lungo la strada: quanto il valore puo' salire e scendere prima di arrivare.
+
+14
+00:01:58,610 --> 00:02:06,020
+Guarda queste due linee, in un andamento puramente illustrativo. Una ha piu' azioni, l'altra piu' obbligazioni.
+
+15
+00:02:06,020 --> 00:02:14,780
+Quella con piu' obbligazioni sale piano, quasi senza scosse, e con regolarita'. Quella con piu' azioni sale a scatti, con cadute evidenti.
+
+16
+00:02:14,780 --> 00:02:21,900
+Se osservi un solo anno, puo' capitare che quella con piu' azioni scenda, mentre l'altra resta quasi ferma.
+
+17
+00:02:21,900 --> 00:02:31,690
+Chi ha bisogno dei soldi proprio in quell'anno, per esempio perche' va in pensione, ci rimette. Deve vendere quando i prezzi sono bassi, senza poter aspettare la risalita.
+
+18
+00:02:31,690 --> 00:02:39,470
+Ma se allarghi lo sguardo a vent'anni, il quadro cambia. Le cadute ci sono ancora, ma la direzione complessiva e' piu' alta.
+
+19
+00:02:39,470 --> 00:02:46,900
+Ecco perche' la domanda giusta non e': quale investimento e' il migliore? Una risposta valida per tutti, semplicemente, non esiste.
+
+20
+00:02:46,900 --> 00:02:52,820
+La domanda giusta e' un'altra, molto piu' personale: fra quanti anni mi serviranno questi soldi?
+
+21
+00:02:52,820 --> 00:03:00,530
+E' quello che i fondi pensione chiamano orizzonte temporale. Ricordi il numero che hai calcolato nella lezione precedente? Eccolo.
+
+22
+00:03:00,530 --> 00:03:07,040
+Piu' lungo e' l'orizzonte, piu' tempo c'e' per assorbire un anno storto. Piu' e' corto, piu' conta la stabilita'.
+
+23
+00:03:07,040 --> 00:03:10,900
+C'e' poi un secondo alleato, oltre al tempo: la regolarita'.
+
+24
+00:03:10,900 --> 00:03:20,580
+Tu non investi tutto in un giorno. Versi una piccola somma ogni mese, con la busta paga, per molti anni. E' un modo di investire molto diverso da chi mette tutto in una volta.
+
+25
+00:03:20,580 --> 00:03:25,990
+Quando i mercati scendono, la stessa somma compra piu' quote, perche' ogni quota costa meno.
+
+26
+00:03:25,990 --> 00:03:33,690
+Quando i mercati risalgono, quelle quote comprate a buon prezzo valgono di piu'. Il calo, per chi continua a versare, e' anche un'occasione.
+
+27
+00:03:33,690 --> 00:03:40,870
+Il Fondo lo illustra sul suo sito con un esempio: quaranta euro al mese, venti del lavoratore e venti dell'ente.
+
+28
+00:03:40,870 --> 00:03:49,290
+Investiti per vent'anni in un indice azionario mondiale, attraverso crisi e riprese, una dopo l'altra. Come e' successo davvero ai mercati.
+
+29
+00:03:49,290 --> 00:03:57,040
+Il versamento costante attenua l'effetto dei momenti negativi. Non li elimina, ma li rende meno pesanti nel percorso complessivo.
+
+30
+00:03:57,040 --> 00:04:03,540
+Ora, tre errori comuni da evitare. Sono errori che fanno in tanti, e che costano piu' delle oscillazioni stesse.
+
+31
+00:04:03,540 --> 00:04:09,930
+Primo errore: controllare la posizione ogni settimana, e farsi prendere dall'ansia a ogni piccolo calo.
+
+32
+00:04:09,930 --> 00:04:17,000
+Secondo errore: spostare tutto sul prudente subito dopo un calo. Cosi' un ribasso temporaneo diventa una perdita vera.
+
+33
+00:04:17,000 --> 00:04:23,800
+Chi esce dopo la caduta, infatti, non partecipa alla risalita. E di solito la risalita arriva quando nessuno se l'aspetta.
+
+34
+00:04:23,800 --> 00:04:30,140
+Terzo errore: scegliere il profilo che e' andato meglio l'anno scorso, come se il futuro fosse una copia del passato.
+
+35
+00:04:30,140 --> 00:04:37,780
+La scelta del profilo si fa sull'orizzonte e sulla propria tranquillita'. Non sulle notizie del giorno, ne' sui consigli del collega al bar.
+
+36
+00:04:37,780 --> 00:04:42,480
+Prima di chiederti quanto rende, chiediti quando ti serviranno.
+
+37
+00:04:42,480 --> 00:04:51,180
+Le tre cose da ricordare. Uno: le obbligazioni oscillano meno e rendono meno. Le azioni oscillano di piu', e nel lungo periodo hanno reso di piu'.
+
+38
+00:04:51,180 --> 00:04:58,020
+Due: la scelta dipende soprattutto da quanti anni mancano a quando ti serviranno i soldi. E' l'orizzonte temporale.
+
+39
+00:04:58,020 --> 00:05:06,290
+Tre: versare ogni mese attenua l'effetto dei momenti negativi. La regolarita' e' un alleato silenzioso, che lavora anche quando non ci pensi.
+
+40
+00:05:06,290 --> 00:05:11,440
+La mossa di oggi e' un piccolo esperimento mentale, da fare con calma e con sincerita'.
+
+41
+00:05:11,440 --> 00:05:17,370
+Immagina di aprire il prospetto annuale e di trovare la tua posizione scesa del dieci per cento in un anno.
+
+42
+00:05:17,370 --> 00:05:22,930
+Che cosa faresti? Resteresti tranquillo, ti preoccuperesti un po', o correresti a cambiare tutto?
+
+43
+00:05:22,930 --> 00:05:29,940
+Non c'e' una risposta giusta, e nessuno ti giudica. Ma la tua risposta sincera conta, quanto il numero degli anni che ti mancano.
+
+44
+00:05:29,940 --> 00:05:36,260
+Tienila accanto a quel numero, scritta da qualche parte: insieme, saranno i due criteri per scegliere il tuo profilo.
+
+45
+00:05:36,260 --> 00:05:44,340
+Nella prossima lezione entriamo in Perseo Sirio: i comparti in cui il Fondo investe davvero i soldi, e i profili che puoi scegliere tu.
+
+46
+00:05:44,340 --> 00:05:50,970
+Vedremo che i profili sceglibili sono sei, e perche' uno dei comparti, l'azionario, non si sceglie direttamente.
+
+47
+00:05:50,970 --> 00:05:55,570
+Ci vediamo nella lezione sei punto tre.

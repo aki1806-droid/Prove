@@ -1,0 +1,27 @@
+{
+ "A": {
+  "parole_copione": 468,
+  "parole_dette": 466,
+  "coincidenti": 463,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s11",
+    "copione": "multicomparto",
+    "detto": "multi comparto"
+   },
+   {
+    "blocco": "s13",
+    "copione": "collegarlo",
+    "detto": "collegarla"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 521,
+  "parole_dette": 518,
+  "coincidenti": 518,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}
