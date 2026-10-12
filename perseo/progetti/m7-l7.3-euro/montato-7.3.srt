@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:09,260
+Una goccia al minuto sembra niente. Non la senti, non la vedi quasi cadere, e di certo non ti preoccupa.
+
+2
+00:00:09,260 --> 00:00:18,580
+Ma lascia la tanica a perdere per un mese intero, e quando torni la trovi mezza vuota. Nessun disastro, nessun rumore: solo gocce, una dopo l'altra.
+
+3
+00:00:18,580 --> 00:00:26,500
+I costi di un fondo pensione sono gocce. Piccoli, regolari, silenziosi, e proprio per questo facili da ignorare per anni.
+
+4
+00:00:26,500 --> 00:00:34,260
+Nella lezione precedente li abbiamo misurati in percentuale, con l'ISC. In questa li trasformiamo in euro, su una vita lavorativa.
+
+5
+00:00:34,260 --> 00:00:42,390
+E lo facciamo usando i dati ufficiali della COVIP, l'autorita' di vigilanza. Come sempre: esempi semplificati, non previsioni.
+
+6
+00:00:42,390 --> 00:00:51,390
+Partiamo dalle medie del sistema, cioe' da quanto costano in media le diverse forme pensionistiche in Italia. Sono dati pubblici, che chiunque puo' consultare.
+
+7
+00:00:51,390 --> 00:00:59,260
+Nella relazione annuale pubblicata a giugno 2026, la COVIP riporta l'ISC medio a dieci anni per ogni tipo di forma.
+
+8
+00:00:59,260 --> 00:01:06,740
+Fondi negoziali, come Perseo Sirio, cioe' i fondi nati dai contratti di lavoro: zero virgola quarantasette per cento.
+
+9
+00:01:06,740 --> 00:01:13,170
+Fondi aperti, offerti da banche e assicurazioni: uno virgola trentasei per cento. Quasi il triplo.
+
+10
+00:01:13,170 --> 00:01:21,290
+Piani individuali pensionistici, i PIP, che sono polizze assicurative: due virgola diciassette per cento. Piu' di quattro volte.
+
+11
+00:01:21,290 --> 00:01:28,550
+Da dove viene questa differenza? Una parte la spiega la COVIP stessa: nei PIP pesa molto il compenso delle reti di vendita.
+
+12
+00:01:28,550 --> 00:01:35,420
+Nei fondi negoziali, che non hanno scopo di lucro e non hanno venditori a provvigione, quel costo semplicemente non c'e'.
+
+13
+00:01:35,420 --> 00:01:43,890
+Ora facciamo una simulazione semplice, per vedere che cosa significano questi numeri in euro. Niente formule: solo tre persone e trent'anni.
+
+14
+00:01:43,890 --> 00:01:52,280
+Tre persone versano la stessa cifra: duemila euro l'anno, ogni anno, per trent'anni. Sessantamila euro in tutto, per ciascuna.
+
+15
+00:01:52,280 --> 00:02:00,400
+Ottengono lo stesso rendimento lordo ipotetico, il quattro per cento l'anno. Stessi mercati, stessi investimenti, stessa fortuna.
+
+16
+00:02:00,400 --> 00:02:07,750
+Cambia solo una cosa: il costo annuo. Per ciascuna persona, e' pari a una delle tre medie della COVIP che abbiamo appena visto.
+
+17
+00:02:07,750 --> 00:02:15,870
+All'inizio le tre curve partono insieme, dallo stesso punto. Per anni sembrano quasi uguali, e la differenza a occhio non si nota.
+
+18
+00:02:15,870 --> 00:02:24,130
+Poi, piano piano, si separano. E piu' passa il tempo, piu' la distanza cresce: e' l'interesse composto, che lavora anche sui costi.
+
+19
+00:02:24,130 --> 00:02:30,710
+Ecco i risultati. Con il costo medio dei fondi negoziali, dopo trent'anni ci sono circa centosettemila euro.
+
+20
+00:02:30,710 --> 00:02:35,950
+Con il costo medio dei fondi aperti, circa novantaduemila euro. Quindicimila in meno.
+
+21
+00:02:35,950 --> 00:02:41,020
+Con il costo medio dei PIP, circa ottantamila euro. Altri dodicimila in meno.
+
+22
+00:02:41,020 --> 00:02:49,450
+Ventisettemila euro di differenza, a parita' di soldi versati e di rendimento lordo. Quasi la meta' di quanto ciascuno ha versato di tasca propria.
+
+23
+00:02:49,450 --> 00:02:56,650
+Non sono stati persi in un crollo di borsa, ne' per una scelta sbagliata. Se ne sono andati, goccia dopo goccia, in costi.
+
+24
+00:02:56,650 --> 00:03:03,300
+Per correttezza, pero', servono due precisazioni. Perche' i numeri vanno letti con onesta', anche quando ci danno ragione.
+
+25
+00:03:03,300 --> 00:03:11,710
+La prima: i costi non sono l'unico fattore. Il risultato finale dipende anche da quanto rischio ha preso il gestore, e da come e' andata sui mercati.
+
+26
+00:03:11,710 --> 00:03:18,480
+Un comparto con piu' azioni, in un anno buono, puo' rendere di piu' anche se costa di piu'. Il costo non dice tutto.
+
+27
+00:03:18,480 --> 00:03:25,300
+La seconda: la COVIP ha osservato che, a parita' di quota azionaria, i fondi negoziali in media rendono di piu'.
+
+28
+00:03:25,300 --> 00:03:31,720
+I loro comparti si collocano in media sopra quelli dei fondi aperti e dei PIP con una quota di azioni simile.
+
+29
+00:03:31,720 --> 00:03:39,090
+Cioe': quando si confrontano investimenti simili, con lo stesso rischio, i costi piu' bassi si vedono anche nel risultato finale.
+
+30
+00:03:39,090 --> 00:03:47,290
+E per un dipendente pubblico, come sai dal modulo uno, c'e' un elemento in piu' che nessun prodotto individuale offre: l'uno per cento dell'ente.
+
+31
+00:03:47,290 --> 00:03:54,790
+Non puoi controllare i mercati. Non puoi sapere quanto renderanno le azioni il prossimo anno, ne' tra dieci. Nessuno lo sa davvero.
+
+32
+00:03:54,790 --> 00:04:02,960
+Ma i costi li conosci in anticipo. Sono scritti nella Nota informativa, riassunti nell'ISC, e li puoi confrontare con calma.
+
+33
+00:04:02,960 --> 00:04:10,500
+E' l'unica variabile di tutto il percorso che dipende interamente da una tua decisione, presa una volta sola, a mente fredda.
+
+34
+00:04:10,500 --> 00:04:16,940
+Ed e' per questo che vale la pena guardarla bene, prima di scegliere dove mettere i tuoi soldi per tanti anni della tua vita.
+
+35
+00:04:16,940 --> 00:04:23,970
+Chiudere il foro della tanica non costa fatica. Basta sapere che c'e', guardarlo bene, e scegliere il contenitore giusto.
+
+36
+00:04:23,970 --> 00:04:30,020
+Il rendimento e' un'ipotesi. Il costo e' una certezza. Sceglilo con cura.
+
+37
+00:04:30,020 --> 00:04:38,890
+Le tre cose da ricordare. Uno: secondo la COVIP, l'ISC medio a dieci anni e' dello zero virgola quarantasette per cento nei fondi negoziali.
+
+38
+00:04:38,890 --> 00:04:44,520
+Dell'uno virgola trentasei per cento nei fondi aperti, e del due virgola diciassette per cento nei PIP.
+
+39
+00:04:44,520 --> 00:04:50,760
+Due: su trent'anni, questa differenza puo' valere decine di migliaia di euro, a parita' di soldi versati.
+
+40
+00:04:50,760 --> 00:04:57,370
+Tre: a parita' di rischio, il costo fa la differenza. E il costo, a differenza dei mercati, lo scegli tu.
+
+41
+00:04:57,370 --> 00:05:04,860
+La mossa di oggi: se hai gia' un piano pensionistico individuale o un fondo aperto, cerca il suo ISC a dieci anni.
+
+42
+00:05:04,860 --> 00:05:13,770
+E confrontalo con quello di Perseo Sirio, con la tabella della lezione precedente. Se qualcuno te ne propone uno nuovo, fai la stessa domanda, prima di firmare.
+
+43
+00:05:13,770 --> 00:05:22,690
+Si chiude cosi' il settimo modulo, quello dei costi. Ora sai quanto costa il Fondo, come leggere l'ISC, e come confrontarlo con le altre forme.
+
+44
+00:05:22,690 --> 00:05:32,700
+Hai visto anche che i costi di Perseo Sirio sono molto sotto le medie dei fondi aperti e dei PIP. E sai anche perche': niente scopo di lucro, niente reti di vendita.
+
+45
+00:05:32,700 --> 00:05:40,220
+Nel prossimo modulo cambiamo argomento: vediamo che cosa puoi fare con la tua posizione prima della pensione, quando la vita lo richiede.
+
+46
+00:05:40,220 --> 00:05:48,330
+Anticipazioni, riscatti, trasferimenti e RITA: quando servono, come si chiedono, e quali regole valgono per ciascuno.
+
+47
+00:05:48,330 --> 00:05:52,930
+Prima della pensione. Ci vediamo nel modulo otto.

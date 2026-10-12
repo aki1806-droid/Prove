@@ -44,3 +44,11 @@
   s45  audio   7.04s  scena   7.04s  scarto    0 ms
   s46  audio   6.93s  scena   6.92s  scarto   10 ms
   s47  audio   6.18s  scena   6.19s  scarto   10 ms
+  s48  audio   5.79s  scena   5.80s  scarto   10 ms
+
+49 scene · parlato 347.8 s · con copertina 3 s e chiusura 10 s → 6:00.8
+scarto massimo audio/video: 20 ms su s24
+montato-7.2.mp4  6:01.12  12 MB
+montato-7.2.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 98 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata:

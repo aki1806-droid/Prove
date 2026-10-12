@@ -36,7 +36,10 @@ Modulo 7 · Costi e trasparenza. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `ebcfb31f7fe0e01671fa0ecb1762c293` — **completato**, 6:01,4 (361,4 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/ebcfb31f7fe0e01671fa0ecb1762c293
+- lotto asset `54274f88ab3f4efd98aeae20a8cec65e` (96 file)
+- copia di controllo locale: `montato-7.1.mp4` 6:02,6 (non versionata) e `montato-7.1.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 

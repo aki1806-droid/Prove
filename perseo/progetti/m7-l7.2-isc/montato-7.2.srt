@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:10,240
+Quando compri un frigorifero, guardi l'etichetta energetica. Una lettera, un colore, e capisci subito se consuma tanto o poco.
+
+2
+00:00:10,240 --> 00:00:16,710
+Non devi capire come funziona il compressore. Basta quella lettera per confrontarlo con gli altri frigoriferi del negozio.
+
+3
+00:00:16,710 --> 00:00:25,220
+Per i fondi pensione esiste qualcosa di simile. Non e' una lettera, ma un numero. Si chiama ISC: Indicatore sintetico dei costi.
+
+4
+00:00:25,220 --> 00:00:31,960
+E' un numero solo, calcolato allo stesso modo da tutti i fondi italiani, che permette di confrontarli a colpo d'occhio.
+
+5
+00:00:31,960 --> 00:00:37,770
+In questa lezione impariamo a leggerlo, a capire perche' e' cosi' importante, e a sapere dove trovarlo.
+
+6
+00:00:37,770 --> 00:00:45,600
+Come si calcola l'ISC? Con una regola stabilita dalla COVIP, la commissione che vigila sui fondi pensione. Ed e' uguale per tutti.
+
+7
+00:00:45,600 --> 00:00:52,670
+Si immagina un aderente tipo, sempre lo stesso per tutti i fondi. Un aderente un po' teorico, ma utile per fare i confronti.
+
+8
+00:00:52,670 --> 00:01:02,620
+Questo aderente versa duemilacinquecento euro l'anno, con un rendimento ipotetico del quattro per cento. Non e' una previsione: e' solo un'ipotesi comune, per fare i conti.
+
+9
+00:01:02,620 --> 00:01:10,260
+Poi si mettono insieme tutti i costi che sosterrebbe: la quota associativa e i costi sul patrimonio, quelli della lezione precedente.
+
+10
+00:01:10,260 --> 00:01:16,710
+Tutto entra in un imbuto, e ne esce un solo numero: il costo annuo, espresso in percentuale della posizione.
+
+11
+00:01:16,710 --> 00:01:25,740
+Il calcolo si fa per quattro durate: due, cinque, dieci e trentacinque anni di permanenza nel fondo. Cosi' si vede come cambia il costo nel tempo.
+
+12
+00:01:25,740 --> 00:01:34,010
+Proprio perche' le ipotesi sono uguali per tutti, l'ISC permette di confrontare fondi diversi in modo equo. Come l'etichetta del frigorifero.
+
+13
+00:01:34,010 --> 00:01:43,360
+Ecco allora l'ISC dei tre comparti di Perseo Sirio, dalla scheda «I costi» della Nota informativa in vigore dal ventisette marzo 2026.
+
+14
+00:01:43,360 --> 00:01:52,890
+Guarda la tabella da sinistra a destra, colonna per colonna, e nota una cosa: per tutti e tre i comparti, l'ISC scende man mano che gli anni aumentano.
+
+15
+00:01:52,890 --> 00:02:00,360
+Il Garantito passa dallo zero virgola ottantasette per cento su due anni, allo zero virgola cinquantatre' su trentacinque anni.
+
+16
+00:02:00,360 --> 00:02:05,790
+L'Obbligazionario passa dallo zero virgola cinquantatre' allo zero virgola venti per cento.
+
+17
+00:02:05,790 --> 00:02:12,010
+L'Azionario, infine, passa dallo zero virgola cinquantotto allo zero virgola ventiquattro per cento.
+
+18
+00:02:12,010 --> 00:02:19,470
+Perche' scende? Perche' la quota associativa e' fissa. Pesa molto quando la posizione e' piccola, e sempre meno quando la posizione cresce.
+
+19
+00:02:19,470 --> 00:02:26,590
+Tredici euro su poche centinaia di euro sono tanti. Tredici euro su decine di migliaia di euro sono quasi niente.
+
+20
+00:02:26,590 --> 00:02:34,440
+E i profili bilanciati? Il loro costo e' una via di mezzo tra quelli dei comparti che li compongono, in proporzione a quanto pesa ciascuno.
+
+21
+00:02:34,440 --> 00:02:44,610
+Per confrontare forme diverse, di solito si guarda l'ISC a dieci anni. Per Perseo Sirio va dallo zero virgola ventisette allo zero virgola sessanta per cento.
+
+22
+00:02:44,610 --> 00:02:51,170
+Ma perche' questo numero e' cosi' importante? In fondo, sono tutte percentuali con lo zero davanti. Non lo diciamo noi.
+
+23
+00:02:51,170 --> 00:02:58,510
+Lo dice la stessa avvertenza che la COVIP impone di scrivere in ogni Nota informativa, di ogni forma pensionistica.
+
+24
+00:02:58,510 --> 00:03:07,810
+Un ISC del due per cento, invece dell'uno per cento, dopo trentacinque anni puo' ridurre il capitale accumulato di circa il diciotto per cento.
+
+25
+00:03:07,810 --> 00:03:15,290
+Per esempio: invece di centomila euro, ottantaduemila euro. Diciottomila euro in meno, solo per un punto di costi.
+
+26
+00:03:15,290 --> 00:03:24,590
+Un punto percentuale l'anno sembra niente: un euro ogni cento. Ma e' un punto che si toglie ogni anno, per decenni, su tutta la posizione.
+
+27
+00:03:24,590 --> 00:03:31,260
+E che si porta via anche i rendimenti che quel denaro avrebbe prodotto, se fosse rimasto nella tua posizione.
+
+28
+00:03:31,260 --> 00:03:38,740
+E' l'interesse composto, ma al contrario: lo stesso meccanismo che fa crescere i risparmi, fa crescere anche il peso dei costi.
+
+29
+00:03:38,740 --> 00:03:47,720
+Dove si confronta l'ISC? Ci sono due strumenti, ed entrambi sono pubblici e gratuiti. Non serve chiedere a nessuno, ne' iscriversi da qualche parte.
+
+30
+00:03:47,720 --> 00:03:56,240
+Il primo: sul sito della COVIP c'e' un comparatore dei costi di tutte le forme pensionistiche. Scegli la forma, il comparto, e leggi l'ISC.
+
+31
+00:03:56,240 --> 00:04:03,420
+Il secondo: nella scheda costi di ogni Nota informativa, un grafico mostra l'ISC di quel fondo accanto alle medie.
+
+32
+00:04:03,420 --> 00:04:12,470
+Le medie sono tre: quella dei fondi negoziali, come Perseo Sirio, quella dei fondi aperti, e quella dei piani individuali pensionistici, i PIP.
+
+33
+00:04:12,470 --> 00:04:18,720
+Un consiglio pratico: quando qualcuno ti propone una forma pensionistica, chiedi l'ISC a dieci anni.
+
+34
+00:04:18,720 --> 00:04:25,310
+E confrontalo con quello di Perseo Sirio. E' una domanda a cui chiunque venda un prodotto serio deve saper rispondere.
+
+35
+00:04:25,310 --> 00:04:31,620
+Se la risposta non arriva, o arriva vaga e piena di giri di parole, anche quella e' un'informazione utile.
+
+36
+00:04:31,620 --> 00:04:37,330
+Qualunque fondo ti propongano, la prima domanda e' una sola: qual e' l'ISC?
+
+37
+00:04:37,330 --> 00:04:43,680
+Le tre cose da ricordare. Uno: l'ISC riassume in un solo numero tutti i costi di un fondo pensione.
+
+38
+00:04:43,680 --> 00:04:50,680
+Due: e' calcolato con la stessa regola per tutti i fondi, con lo stesso aderente tipo. Quindi serve proprio a confrontare.
+
+39
+00:04:50,680 --> 00:04:57,570
+Tre: un ISC piu' alto di un punto puo' ridurre il capitale finale di quasi un quinto, in trentacinque anni.
+
+40
+00:04:57,570 --> 00:05:03,130
+La mossa di oggi: apri il comparatore dei costi sul sito della COVIP, e cerca Perseo Sirio.
+
+41
+00:05:03,130 --> 00:05:09,130
+Guarda dove si colloca rispetto alle medie dei fondi negoziali, dei fondi aperti e dei piani individuali.
+
+42
+00:05:09,130 --> 00:05:16,920
+Poi guarda il comparto del tuo profilo, e il suo ISC a dieci anni. Annotalo accanto alla quota associativa della lezione precedente.
+
+43
+00:05:16,920 --> 00:05:24,800
+Non serve diventare esperti di finanza. Basta sapere quale numero guardare, dove trovarlo, e con quali altri numeri confrontarlo.
+
+44
+00:05:24,800 --> 00:05:31,840
+Le percentuali, pero', da sole dicono poco. Lo zero virgola qualcosa non fa effetto a nessuno, e si dimentica in fretta.
+
+45
+00:05:31,840 --> 00:05:38,770
+Nella prossima lezione traduciamo tutto questo in euro. In euro veri, quelli che restano nella tua posizione.
+
+46
+00:05:38,770 --> 00:05:44,950
+Vedremo quanto puo' valere una differenza di costo che sembra piccolissima, dopo trent'anni di versamenti.
+
+47
+00:05:44,950 --> 00:05:50,740
+Lo zero virgola cinque che vale migliaia di euro. Ci vediamo nella lezione sette punto tre.
