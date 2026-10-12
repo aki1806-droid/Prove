@@ -411,7 +411,11 @@ ha un controllo automatico sulla radice `ment`, e senza `\b` prendeva dentro
 *strumento*, *momento* e *leggermente*; con `\bmente\b` prendeva ancora *in
 mente*, che è un'espressione idiomatica e non il verbo. Vale per qualunque
 filtro di questo tipo: confini di parola, più le eccezioni idiomatiche
-escluse a mano (6.3).
+escluse a mano. Le eccezioni del corso sono **due**: `in mente` (6.3) e
+`nella mente` (6.4), che sono il sostantivo e non il verbo. Quando la frase
+si può riscrivere senza l'idiomatismo — nella 6.4 «letto nella mente» è
+diventato «letto dentro» — si riscrive: l'eccezione resta nel filtro perché
+la frase può ricomparire, ma il blocco non ci si appoggia.
 
 **Il confronto si fa sulle ultime tre parole, non sulla coda intera.** La
 finestra di `prova.mp3` è di 1,6 s e taglia quasi sempre a metà la prima
@@ -434,6 +438,17 @@ parola vale `taglio − 2,2 + t`; si prende il silenzio fra l'ultima parola
 del blocco e la prima del blocco dopo, se ne cerca il centro fra i candidati
 di `silenzi()`, e si sposta il confine lì con `muovi.py`. Nella 6.2 la
 seconda clip di controllo ha confermato tutti e quattro al primo colpo.
+
+**Quando `correggi` oltrepassa, il silenzio giusto sta nel pool fine.**
+`correggi` sposta il confine sul candidato più vicino al bersaglio che trova
+nel pool grosso dei silenzi; se lì non c'è niente di vicino prende il più
+vicino che esiste, che può stare molto più indietro. Nella 6.4 il confine di
+`s28` doveva andare da 150,07 a circa 148, e `correggi` l'ha portato a
+142,06 — sei secondi oltre. Il candidato giusto c'era, ma solo nel pool
+fine: `tagli.silenzi(path, 0.08)` lo dà a 147,92, e `muovi.py` ce l'ha
+messo. **Un confine preso dal pool fine fa poi fallire `banda.py silenzi`**,
+che dichiara «non in un silenzio» perché la pausa è sotto la sua soglia
+grossa: è un falso allarme previsto, e lo chiude la clip di controllo.
 
 **Conseguenza pratica.** Una banda pulita non è una prova, è un'assenza di
 segnale. La verifica sulla trascrizione va fatta su ogni lezione, anche —
@@ -471,6 +486,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 6.1 | Che cos'è un'incongruenza | 9:59 | `ceb55ec8560b90dbeaa7c8ff92efff39` |
 | 6.2 | I tre tipi | 9:59 | `84c55de233d7efc5a750cf3a856b9962` |
 | 6.3 | Perché non significa bugia | 9:59 | `aac1db4f5e62111765e4996b61f76a86` |
+| 6.4 | Cosa farne: la prossima domanda | 9:59 | `0155f3d29775bb71abffc600802bc260` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -484,16 +500,16 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 corso in cui le cinque durate coincidono al secondo. **Anche il modulo 5 è
 chiuso**: cinque lezioni tutte a 9:59, duecentotrentasei slide, ventisette
 figure, quattordici riprese, 50.931 caratteri di copione. Il registro di
-modulo sta in `registri/lnv-modulo-5.md`. **Il modulo 6 è cominciato**: la
-6.1, la 6.2 e la 6.3 sono montate, tutte e tre a 9:59. Manca lo script del
-modulo 7.
+modulo sta in `registri/lnv-modulo-5.md`. **Il modulo 6 è a quattro quinti**: la
+6.1, la 6.2, la 6.3 e la 6.4 sono montate, tutte e quattro a 9:59. Manca lo
+script del modulo 7.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
 le riprese si generano su Higgsfield con `gpt_image_2_5`**, quando si può:
 l'11 ottobre Higgsfield ha rifiutato le richieste della 5.3, della 5.4,
-della 5.5, della 6.1, della 6.2 e della 6.3 — sei lezioni di fila — per
-un **tetto giornaliero di generazioni del piano**, che non dipende dai
+della 5.5, della 6.1, della 6.2, della 6.3 e della 6.4 — sette lezioni di
+fila — per un **tetto giornaliero di generazioni del piano**, che non dipende dai
 crediti (ce n'erano 571 sul conto). In quel caso si torna sul nodo immagine
 di ElevenLabs, come per la 5.3. La scelta è stata
 fatta su una prova a tre: lo stesso soggetto generato con due modelli e messo
@@ -531,10 +547,11 @@ registri vanno risentiti uno per uno con `tagli.py correggi`.
 **Il modulo 5 è l'eccezione, ed è intero**: duecentoventicinque confini
 riletti sulla trascrizione, diciannove sbagliati, tutti corretti e riletti su
 un secondo file di controllo. La 5.4 è l'unica lezione del corso uscita
-giusta al primo giro. **La 6.1 continua la serie**: quarantacinque confini
-riletti, uno sbagliato.
+giusta al primo giro. **Il modulo 6 continua la serie**: quarantacinque
+confini riletti per lezione, e quattro lezioni su quattro verificate su una
+clip di controllo.
 
-Il conto delle otto lezioni verificate dice quanto vale la banda da sola:
+Il conto delle nove lezioni verificate dice quanto vale la banda da sola:
 
 | | segnalati da `banda.py` | sbagliati davvero |
 |---|---|---|
@@ -547,9 +564,13 @@ Il conto delle otto lezioni verificate dice quanto vale la banda da sola:
 | 6.1 | 1 | 1 |
 | 6.2 | 4 | 8 |
 | 6.3 | **0** | 1 |
+| 6.4 | 3 | 2 |
 
 E la **6.3** è il caso minimo della 5.2: banda pulita, zero segnalati, e un
-confine sbagliato lo stesso.
+confine sbagliato lo stesso. La **6.4** mostra la terza combinazione
+possibile: tre segnalati e due sbagliati, con **un solo nome in comune**.
+`s11` era segnalato e sbagliato, `s28` era sbagliato e non segnalato, `s12`
+e `s29` erano segnalati e giusti — e sono i vicini dei due colpevoli.
 
 E nella 5.3 **due dei quattro segnalati erano il blocco vicino, non il
 colpevole**: un confine spostato allunga il blocco dopo e accorcia quello

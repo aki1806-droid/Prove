@@ -1,0 +1,14 @@
+{
+ "s14": {
+  "tipo": "immagine",
+  "nome": "quaderno-una-riga",
+  "url": "https://resource2.heygen.ai/image/058f97a1525e402896f7362a8881dca9/original.png",
+  "nota": "un quaderno aperto su una scrivania con una sola riga scritta a mano su una pagina altrimenti bianca, grafia non leggibile - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s30": {
+  "tipo": "immagine",
+  "nome": "due-tazze-sul-tavolo",
+  "url": "https://resource2.heygen.ai/image/3bb99015c7a84af69af6fc3dc87071b3/original.png",
+  "nota": "due tazze su un tavolo di legno davanti a una finestra, luce di pomeriggio - VISTA. Nessuno in campo, nessuna scritta, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

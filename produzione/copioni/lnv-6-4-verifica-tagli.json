@@ -1,0 +1,291 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "esito": "giusto",
+  "coda": "Arriva la parte che si usa."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "esito": "giusto",
+  "coda": "Altro quello che si e capito."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s04",
+  "esito": "giusto",
+  "coda": "Sensata della giornata."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s05",
+  "esito": "giusto",
+  "coda": "Di una conversazione."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s06",
+  "esito": "giusto",
+  "coda": "Si, non e successo niente.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s07",
+  "esito": "giusto",
+  "coda": "Sembra solo interesse."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s08",
+  "esito": "giusto",
+  "coda": "Che viene voglia quasi subito."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s09",
+  "esito": "giusto",
+  "coda": "Il che e una fortuna."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s10",
+  "esito": "giusto",
+  "coda": "Non da nessuna soddisfazione."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s11",
+  "esito": "corretto",
+  "coda": "Ma non e il momento.",
+  "nota": "taglio in ritardo di una frase, spostato da tagli.py correggi",
+  "coda_prima": "ma non e il momento",
+  "coda_dopo": "Non ti ha offerto e che non ti deve.",
+  "taglio_prima": 156.89,
+  "taglio_dopo": 153.28
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s12",
+  "esito": "giusto",
+  "coda": "Il primo in cui te ne accorgi."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s13",
+  "esito": "giusto",
+  "coda": "Invece non torna piu."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s14",
+  "esito": "giusto",
+  "coda": "Nessun corso insegna."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s15",
+  "esito": "giusto",
+  "coda": "Questa mossa non si vede."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s16",
+  "esito": "giusto",
+  "coda": "Non un interrogatorio."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s18",
+  "esito": "giusto",
+  "coda": "In registri diversi."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s19",
+  "esito": "giusto",
+  "coda": "La persona no."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s20",
+  "esito": "giusto",
+  "coda": "E quello che si fa parlando."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s21",
+  "esito": "giusto",
+  "coda": "Se li stava gia dando prima.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s22",
+  "esito": "giusto",
+  "coda": "Con e con chiunque."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s23",
+  "esito": "giusto",
+  "coda": "Una delle altre due mosse ce l'ha."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s24",
+  "esito": "giusto",
+  "coda": "Senza mai nominarla."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s25",
+  "esito": "giusto",
+  "coda": "Manda e un verdetto.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s26",
+  "esito": "giusto",
+  "coda": "Chiedendo invece di chiedertelo.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s27",
+  "esito": "giusto",
+  "coda": "E gliela hai lasciata dare."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s28",
+  "esito": "corretto",
+  "coda": "Smentita che costa doppio.",
+  "coda_prima": "smentita che costa doppio",
+  "coda_dopo": "Uno che non ha chiesto il permesso di farlo",
+  "taglio_prima": 150.07,
+  "taglio_dopo": 147.92,
+  "nota": "correggi ha oltrepassato a 142.06: il silenzio giusto sta solo nel pool fine (0.08), impostato con muovi.py"
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s29",
+  "esito": "giusto",
+  "coda": "Per avere una smentita."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s30",
+  "esito": "giusto",
+  "coda": "Funziona meglio di tutte."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s31",
+  "esito": "giusto",
+  "coda": "Ti abbia dato questo corso."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s32",
+  "esito": "giusto",
+  "coda": "E non c'e niente da difendere."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s34",
+  "esito": "giusto",
+  "coda": "Altro un discorso preciso.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s35",
+  "esito": "giusto",
+  "coda": "Ottiene una risposta vera."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s36",
+  "esito": "giusto",
+  "coda": "Taci.",
+  "nota": "la finestra ha restituito una sola parola, l-ultima del blocco"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s37",
+  "esito": "giusto",
+  "coda": "Tutta la tua parte del lavoro."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s38",
+  "esito": "giusto",
+  "coda": "Con le migliori intenzioni."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s39",
+  "esito": "giusto",
+  "coda": "Ora decidendo se dirtelo.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s40",
+  "esito": "giusto",
+  "coda": "Di aver notato nel frattempo."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s41",
+  "esito": "giusto",
+  "coda": "A me, non la domanda."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s42",
+  "esito": "giusto",
+  "coda": "Non vedrai piu niente."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s43",
+  "esito": "giusto",
+  "coda": "Niente anche per quella dopo.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s44",
+  "esito": "giusto",
+  "coda": "Insistere senza litigare."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s45",
+  "esito": "giusto",
+  "coda": "Speso la tua una volta."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s46",
+  "esito": "giusto",
+  "coda": "Mani, se c'erano davvero.",
+  "nota": "prima parola della finestra tagliata a meta dalla trascrizione"
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s47",
+  "esito": "giusto",
+  "coda": "Consuma usandolo troppo."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s48",
+  "esito": "giusto",
+  "coda": "In tutta la giornata"
+ }
+]

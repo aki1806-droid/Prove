@@ -1,0 +1,398 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 6 · Lezione 6.4",
+"title": "Cosa farne: la prossima domanda",
+"sub": "L'incongruenza"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "quello che sai già",
+"title": "Non è una prova.<br><span class=\"gold\">E le cause sono molte.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "e allora",
+"title": "Cosa fai, adesso?"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "tre mosse, in ordine di invadenza",
+"rows": [
+"Non fare niente",
+"Cambiare direzione",
+"Nominare il fatto"
+],
+"plain": true,
+"note": "Nella maggior parte dei casi ci si ferma alla prima."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "le conoscevi dalla uno punto cinque",
+"title": "Adesso sai<br><span class=\"gold\">quando usarle.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "tre mosse, in ordine di invadenza",
+"rows": [
+"Non fare niente",
+"Cambiare direzione",
+"Nominare il fatto"
+],
+"active": 0,
+"note": "Registrare e proseguire. Dal di fuori non è successo niente."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "tre mosse, in ordine di invadenza",
+"rows": [
+"Non fare niente",
+"Cambiare direzione",
+"Nominare il fatto"
+],
+"active": 1,
+"note": "Tornare sull'argomento, senza commentare il segnale."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "tre mosse, in ordine di invadenza",
+"rows": [
+"Non fare niente",
+"Cambiare direzione",
+"Nominare il fatto"
+],
+"active": 2,
+"note": "Dire quello che hai visto, non quello che immagini."
+},
+{
+"file": "c09",
+"layout": "pila",
+"kicker": "l'ordine conta",
+"blocchi": [
+"Non fare niente",
+"Cambiare direzione",
+"Nominare il fatto"
+],
+"acceso": 0,
+"title": "Si parte sempre dalla meno invadente che basta."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "prima mossa: non fare niente",
+"title": "Non è rinunciare.<br><span class=\"gold\">È una scelta.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"title": "Molte incongruenze<br><span class=\"gold\">non ti riguardano.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "e alcune riguardano te",
+"title": "Ma non è il momento."
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "e c'è un motivo pratico",
+"title": "Notata e non toccata,<br><span class=\"gold\">resta disponibile.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "seconda mossa: cambiare direzione",
+"title": "Torni sull'argomento.<br><span class=\"gold\">Non sul segnale.</span>"
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "quello che non dici",
+"plain": true,
+"rows": [
+"«Ti ho visto esitare»",
+"«Mi sembravi poco convinto»",
+"Qualunque cosa sul segnale"
+],
+"note": "Dai all'argomento un po' più di spazio. Basta quello."
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "tre parole",
+"title": "«Sui tempi, dicevi?»"
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "la stessa mossa, in registri diversi",
+"plain": true,
+"rows": [
+"«Torniamo un attimo sui tempi»",
+"«Sui tempi mi interessa capire meglio»",
+"«Sui tempi: come siete messi davvero?»"
+],
+"note": "Quello che conta è che la domanda abbia un oggetto."
+},
+{
+"file": "c19",
+"layout": "statement",
+"title": "L'argomento si può nominare.<br><span class=\"gold\">La persona no.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "perché funziona così bene",
+"title": "Non sembra una lettura.<br><span class=\"gold\">Sembra una conversazione.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "primo effetto",
+"title": "Non si irrigidisce,<br><span class=\"gold\">perché non si sente osservato.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "secondo effetto",
+"title": "Se avevi visto male,<br><span class=\"gold\">non hai detto niente di sbagliato.</span>"
+},
+{
+"file": "c23",
+"layout": "confronto",
+"occhio": "la seconda mossa, nei due casi",
+"titoli": [
+"Avevi ragione",
+"Avevi torto"
+],
+"righe": [
+{
+"et": "Che cosa ottieni",
+"a": "Qualcosa",
+"b": "Niente"
+},
+{
+"et": "Che cosa perdi",
+"a": "Niente",
+"b": "Niente",
+"segna": true
+}
+]
+},
+{
+"file": "c24",
+"layout": "memo",
+"title": "Usa l'osservazione<br>senza mai nominarla."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "terza mossa: nominare il fatto",
+"title": "Il fatto.<br><span class=\"gold\">Non il significato.</span>"
+},
+{
+"file": "c26",
+"layout": "confronto",
+"occhio": "due frasi sulla stessa faccia",
+"titoli": [
+"«Ti vedo perplesso»",
+"«Non ti fidi»"
+],
+"righe": [
+{
+"et": "Che cos'è",
+"a": "Un fatto osservabile",
+"b": "Una diagnosi"
+},
+{
+"et": "Che cosa ottiene",
+"a": "Una risposta",
+"b": "Una smentita",
+"segna": true
+}
+]
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "la prima",
+"title": "Restituisce all'altro<br><span class=\"gold\">la lettura del proprio stato.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "Gliela toglie."
+},
+{
+"file": "c29",
+"layout": "statement",
+"title": "E da quel momento<br><span class=\"gold\">si controlla.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "la formulazione che userai di più",
+"title": "«C'è qualcosa che non ti convince,<br><span class=\"gold\">su questo?»</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "primo: non dice cosa hai visto",
+"title": "«C'è qualcosa che non ti convince,<br><span class=\"gold\">su questo?»</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "secondo: non attribuisce nessuno stato",
+"title": "«C'è qualcosa che non ti convince,<br><span class=\"gold\">su questo?»</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "terzo: è circoscritta a un argomento",
+"title": "«C'è qualcosa che non ti convince,<br><span class=\"gold\">su questo?»</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "quarto: un dubbio è legittimo",
+"title": "«C'è qualcosa che non ti convince,<br><span class=\"gold\">su questo?»</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "e dopo aver chiesto",
+"title": "Taci."
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "lo spazio che hai aperto",
+"title": "Serve a qualcuno<br><span class=\"gold\">che non sei tu.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "tre modi di chiuderlo mentre lo apri",
+"plain": true,
+"rows": [
+"Aggiungere un esempio",
+"Attenuare con un «non so»",
+"Suggerire tu la risposta"
+],
+"note": "Si fanno tutte e tre con le migliori intenzioni."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "quanto aspettare",
+"title": "Tre secondi.<br><span class=\"gold\">Da dentro sembrano dieci.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "l'ultima regola, per tutte e tre le mosse",
+"title": "Una per conversazione."
+},
+{
+"file": "c41",
+"layout": "statement",
+"title": "Non stai più facendo domande.<br><span class=\"gold\">Stai conducendo un esame.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"title": "E chi si sente esaminato<br><span class=\"gold\">smette di darti segnali.</span>"
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Dichiarare la lettura",
+"Nominare il significato invece del fatto",
+"Riempire il silenzio dopo la domanda",
+"Più di un'incongruenza per conversazione"
+],
+"active": 0,
+"note": "L'altro si controlla, e tu hai perso lo strumento."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Dichiarare la lettura",
+"Nominare il significato invece del fatto",
+"Riempire il silenzio dopo la domanda",
+"Più di un'incongruenza per conversazione"
+],
+"active": 1,
+"note": "È una diagnosi, e viene smentita."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Dichiarare la lettura",
+"Nominare il significato invece del fatto",
+"Riempire il silenzio dopo la domanda",
+"Più di un'incongruenza per conversazione"
+],
+"active": 2,
+"note": "Lo spazio serve all'altro. Se lo occupi tu, è per niente."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Dichiarare la lettura",
+"Nominare il significato invece del fatto",
+"Riempire il silenzio dopo la domanda",
+"Più di un'incongruenza per conversazione"
+],
+"active": 3,
+"note": "Se ne hai viste tre, scegli quella che conta di più."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Lo strumento si consuma<br>usandolo troppo."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Usa la seconda mossa",
+"Una volta",
+"Poi stai zitto tre secondi"
+],
+"note": "E l'altro non si accorgerà di niente."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione, l'ultima del modulo",
+"title": "Quando l'incongruenza sei tu."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]
