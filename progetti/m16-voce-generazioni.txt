@@ -23,3 +23,5 @@ m16-l16.5-clostridioides A OEJJLXKwN0r92XWcl5ZM MaMApp5POVpQJdetXZaz
 m16-l16.5-clostridioides B u5idMErDEM5cooOZQpsM W6xb1Nz2oLXNh1IISf8j
 m16-l16.6-politrauma A BdzZdp5PaX6jOhZ2KE6v VqWnoBNx2STFPDZz5msE
 m16-l16.6-politrauma B IXtS0bAl2e9qxcqcdZ2J sGYXEvpHX2JMlVltvKMM
+# Stato al 12 ottobre 2026: 16.6 B (sGYXEvpHX2JMlVltvKMM) completata e scaricata in grezzo-B.mp3; 16.6 B e 16.10 A trascritte in locale (stato-locale.json).
+# Da generare a crediti rinnovati: 16.5 A/B, 16.6 A, 16.10 B, 16.11 A/B, 16.12 A/B.
