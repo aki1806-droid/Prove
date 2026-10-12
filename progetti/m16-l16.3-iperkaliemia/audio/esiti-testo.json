@@ -1,0 +1,318 @@
+{
+ "A": {
+  "parole_copione": 691,
+  "parole_dette": 690,
+  "coincidenti": 639,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "iperkaliemia",
+    "detto": "ipercalemia"
+   },
+   {
+    "blocco": "s02",
+    "copione": "1 aritmia",
+    "detto": "una ritmia"
+   },
+   {
+    "blocco": "s03",
+    "copione": "emodialisi",
+    "detto": "hemodialisi"
+   },
+   {
+    "blocco": "s03",
+    "copione": "l ecg",
+    "detto": "le cg"
+   },
+   {
+    "blocco": "s05",
+    "copione": "emodialisi",
+    "detto": "hemodialisi"
+   },
+   {
+    "blocco": "s05",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s06",
+    "copione": "formicolii",
+    "detto": "formicoli"
+   },
+   {
+    "blocco": "s07",
+    "copione": "crepitii",
+    "detto": "crepitia"
+   },
+   {
+    "blocco": "s07",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "3 chilivirgola5",
+    "detto": "lezione35 kg"
+   },
+   {
+    "blocco": "s07",
+    "copione": "quale",
+    "detto": "qual"
+   },
+   {
+    "blocco": "s09",
+    "copione": "iperkaliemia",
+    "detto": "ipercaliemia"
+   },
+   {
+    "blocco": "s09",
+    "copione": "gli",
+    "detto": "i"
+   },
+   {
+    "blocco": "s10",
+    "copione": "iperkaliemia",
+    "detto": "ipercaliemia"
+   },
+   {
+    "blocco": "s12",
+    "copione": "semiseduto",
+    "detto": "semi seduto"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s13",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s13",
+    "copione": "ecg dell iperkaliemia",
+    "detto": "ecigide l ipercaliemia"
+   },
+   {
+    "blocco": "s14",
+    "copione": "onde t",
+    "detto": "on de ti"
+   },
+   {
+    "blocco": "s14",
+    "copione": "bradicardia",
+    "detto": "bradica di"
+   },
+   {
+    "blocco": "s15",
+    "copione": "onde t",
+    "detto": "on de ti"
+   },
+   {
+    "blocco": "s15",
+    "copione": "ecg normale",
+    "detto": "ecigginormale"
+   },
+   {
+    "blocco": "s15",
+    "copione": "iperkaliemia",
+    "detto": "ipercaliemia"
+   },
+   {
+    "blocco": "s16",
+    "copione": "con 3 meccanismi",
+    "detto": "contremme canismi"
+   },
+   {
+    "blocco": "s16",
+    "copione": "miocardio",
+    "detto": "mio cardio"
+   },
+   {
+    "blocco": "s19",
+    "copione": "l emodialisi",
+    "detto": "le modiali si"
+   },
+   {
+    "blocco": "s19",
+    "copione": "i leganti",
+    "detto": "eleganti"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ecg continuo",
+    "detto": "ee cg continua"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e sede",
+    "detto": "escede"
+   },
+   {
+    "blocco": "s21",
+    "copione": "ee il",
+    "detto": "el"
+   },
+   {
+    "blocco": "s23",
+    "copione": "li la",
+    "detto": "l ila"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 646,
+  "parole_dette": 654,
+  "coincidenti": 603,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "le ha impedito",
+    "detto": "e l empedito"
+   },
+   {
+    "blocco": "s28",
+    "copione": "l",
+    "detto": "all"
+   },
+   {
+    "blocco": "s29",
+    "copione": "irrisolto",
+    "detto": "e risolto"
+   },
+   {
+    "blocco": "s31",
+    "copione": "iposodici",
+    "detto": "e i posodici"
+   },
+   {
+    "blocco": "s32",
+    "copione": "ace inibitori",
+    "detto": "aceni bitori"
+   },
+   {
+    "blocco": "s33",
+    "copione": "dialisi",
+    "detto": "di alisi"
+   },
+   {
+    "blocco": "s34",
+    "copione": "segni d allarme",
+    "detto": "seni dall arme"
+   },
+   {
+    "blocco": "s34",
+    "copione": "formicolii",
+    "detto": "formicoli"
+   },
+   {
+    "blocco": "s36",
+    "copione": "gli",
+    "detto": "i"
+   },
+   {
+    "blocco": "s37",
+    "copione": "perche",
+    "detto": "per chi"
+   },
+   {
+    "blocco": "s38",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s38",
+    "copione": "ecg",
+    "detto": "e cg"
+   },
+   {
+    "blocco": "s38",
+    "copione": "iperkaliemia",
+    "detto": "ipercalie mia"
+   },
+   {
+    "blocco": "s38",
+    "copione": "t",
+    "detto": "ti"
+   },
+   {
+    "blocco": "s39",
+    "copione": "miocardio",
+    "detto": "mio cardio"
+   },
+   {
+    "blocco": "s39",
+    "copione": "salbutamolo",
+    "detto": "salbuta molo"
+   },
+   {
+    "blocco": "s41",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s42",
+    "copione": "paziente in emodialisi",
+    "detto": "patienti inemodialisi"
+   },
+   {
+    "blocco": "s42",
+    "copione": "con astenia",
+    "detto": "conastenia"
+   },
+   {
+    "blocco": "s42",
+    "copione": "iperkaliemia",
+    "detto": "ipercalie mia"
+   },
+   {
+    "blocco": "s44",
+    "copione": "somministro",
+    "detto": "soministro"
+   },
+   {
+    "blocco": "s44",
+    "copione": "salbutamolo",
+    "detto": "salbuta molo"
+   },
+   {
+    "blocco": "s45",
+    "copione": "semiseduto",
+    "detto": "semi seduto"
+   },
+   {
+    "blocco": "s45",
+    "copione": "proteggo",
+    "detto": "protego"
+   },
+   {
+    "blocco": "s45",
+    "copione": "su sedute",
+    "detto": "sussedute"
+   },
+   {
+    "blocco": "s45",
+    "copione": "d allarme",
+    "detto": "dall arme"
+   },
+   {
+    "blocco": "s47",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s49",
+    "copione": "dispnoica",
+    "detto": "di spnoica"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}

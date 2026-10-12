@@ -1,0 +1,228 @@
+{
+ "A": {
+  "parole_copione": 669,
+  "parole_dette": 671,
+  "coincidenti": 637,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "polmonare",
+    "detto": "pulmonare"
+   },
+   {
+    "blocco": "s02",
+    "copione": "stata",
+    "detto": "stato"
+   },
+   {
+    "blocco": "s04",
+    "copione": "pielonefrite",
+    "detto": "pielone frite"
+   },
+   {
+    "blocco": "s05",
+    "copione": "ha",
+    "detto": "e"
+   },
+   {
+    "blocco": "s07",
+    "copione": "tromboembolico",
+    "detto": "trombo embolico"
+   },
+   {
+    "blocco": "s09",
+    "copione": "a",
+    "detto": "al"
+   },
+   {
+    "blocco": "s09",
+    "copione": "ossigeno",
+    "detto": "osigeno"
+   },
+   {
+    "blocco": "s10",
+    "copione": "l ecg",
+    "detto": "le cg"
+   },
+   {
+    "blocco": "s10",
+    "copione": "una tachicardia",
+    "detto": "1 attachicardia"
+   },
+   {
+    "blocco": "s10",
+    "copione": "emocromo",
+    "detto": "emochromo"
+   },
+   {
+    "blocco": "s12",
+    "copione": "angio tc",
+    "detto": "angiotici"
+   },
+   {
+    "blocco": "s12",
+    "copione": "d dimero",
+    "detto": "didimero"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ha"
+   },
+   {
+    "blocco": "s13",
+    "copione": "il",
+    "detto": "i"
+   },
+   {
+    "blocco": "s14",
+    "copione": "eparina",
+    "detto": "ee parina"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "a"
+   },
+   {
+    "blocco": "s16",
+    "copione": "ematomi",
+    "detto": "e matomi"
+   },
+   {
+    "blocco": "s16",
+    "copione": "aptt",
+    "detto": "appititti"
+   },
+   {
+    "blocco": "s16",
+    "copione": "l eparina",
+    "detto": "le parina"
+   },
+   {
+    "blocco": "s17",
+    "copione": "eparine",
+    "detto": "parine"
+   },
+   {
+    "blocco": "s19",
+    "copione": "il",
+    "detto": "i"
+   },
+   {
+    "blocco": "s19",
+    "copione": "insufficiente e",
+    "detto": "insufficente ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "assegna",
+    "detto": "a segna"
+   },
+   {
+    "blocco": "s23",
+    "copione": "settant",
+    "detto": "70"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 647,
+  "parole_dette": 646,
+  "coincidenti": 622,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "tromboembolico",
+    "detto": "trombo embolico"
+   },
+   {
+    "blocco": "s26",
+    "copione": "riconciliazione",
+    "detto": "riconcigliazione"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s32",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "documenta",
+    "detto": "docomente"
+   },
+   {
+    "blocco": "s34",
+    "copione": "annotare",
+    "detto": "a notare"
+   },
+   {
+    "blocco": "s36",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s36",
+    "copione": "edema monolaterale",
+    "detto": "ed e mammono laterale"
+   },
+   {
+    "blocco": "s38",
+    "copione": "d",
+    "detto": "di"
+   },
+   {
+    "blocco": "s39",
+    "copione": "predittivo",
+    "detto": "predictivo"
+   },
+   {
+    "blocco": "s40",
+    "copione": "paziente immobilizzata",
+    "detto": "pazienti mobilizzata"
+   },
+   {
+    "blocco": "s41",
+    "copione": "a",
+    "detto": "al"
+   },
+   {
+    "blocco": "s41",
+    "copione": "ossigeno",
+    "detto": "osigeno"
+   },
+   {
+    "blocco": "s43",
+    "copione": "segnalo",
+    "detto": "signalo"
+   },
+   {
+    "blocco": "s44",
+    "copione": "ossigeno",
+    "detto": "osigeno"
+   },
+   {
+    "blocco": "s45",
+    "copione": "d dimero",
+    "detto": "didimero"
+   },
+   {
+    "blocco": "s46",
+    "copione": "polmonare",
+    "detto": "pulmonare"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}

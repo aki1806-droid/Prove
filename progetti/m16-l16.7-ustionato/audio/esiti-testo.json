@@ -1,0 +1,293 @@
+{
+ "A": {
+  "parole_copione": 642,
+  "parole_dette": 631,
+  "coincidenti": 597,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s03",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s04",
+    "copione": "alle 21",
+    "detto": "all eventuno"
+   },
+   {
+    "blocco": "s08",
+    "copione": "fuliggine",
+    "detto": "fuligine"
+   },
+   {
+    "blocco": "s08",
+    "copione": "inalazione",
+    "detto": "inhalazione"
+   },
+   {
+    "blocco": "s09",
+    "copione": "vie",
+    "detto": "via"
+   },
+   {
+    "blocco": "s09",
+    "copione": "liquidi",
+    "detto": "liquid"
+   },
+   {
+    "blocco": "s09",
+    "copione": "vie",
+    "detto": "via"
+   },
+   {
+    "blocco": "s11",
+    "copione": "vie",
+    "detto": "via"
+   },
+   {
+    "blocco": "s11",
+    "copione": "vie",
+    "detto": "via"
+   },
+   {
+    "blocco": "s14",
+    "copione": "emogas",
+    "detto": "hemogas"
+   },
+   {
+    "blocco": "s14",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossie moglobina"
+   },
+   {
+    "blocco": "s16",
+    "copione": "torace",
+    "detto": "toracea"
+   },
+   {
+    "blocco": "s17",
+    "copione": "4 millilitri",
+    "detto": "4000 litri"
+   },
+   {
+    "blocco": "s17",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s17",
+    "copione": "9600",
+    "detto": "9 600"
+   },
+   {
+    "blocco": "s18",
+    "copione": "4800",
+    "detto": "4 800"
+   },
+   {
+    "blocco": "s19",
+    "copione": "4800",
+    "detto": "4 800"
+   },
+   {
+    "blocco": "s19",
+    "copione": "all ora",
+    "detto": "allora"
+   },
+   {
+    "blocco": "s21",
+    "copione": "4300",
+    "detto": "4 300"
+   },
+   {
+    "blocco": "s21",
+    "copione": "all ora",
+    "detto": "allora"
+   },
+   {
+    "blocco": "s22",
+    "copione": "all ora",
+    "detto": "allora"
+   },
+   {
+    "blocco": "s23",
+    "copione": "all ora",
+    "detto": "allora"
+   },
+   {
+    "blocco": "s23",
+    "copione": "all ora",
+    "detto": "allora"
+   },
+   {
+    "blocco": "s24",
+    "copione": "insufficienti",
+    "detto": "insufficenti"
+   },
+   {
+    "blocco": "s25",
+    "copione": "ee urine",
+    "detto": "eurine"
+   },
+   {
+    "blocco": "s25",
+    "copione": "mioglobina",
+    "detto": "mio globina"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 662,
+  "parole_dette": 658,
+  "coincidenti": 613,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "1 escara",
+    "detto": "una scara"
+   },
+   {
+    "blocco": "s29",
+    "copione": "oppioidi",
+    "detto": "oppioi di"
+   },
+   {
+    "blocco": "s31",
+    "copione": "profilassi",
+    "detto": "profilassia"
+   },
+   {
+    "blocco": "s31",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "gli",
+    "detto": "i"
+   },
+   {
+    "blocco": "s37",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s37",
+    "copione": "millilitri",
+    "detto": "ml"
+   },
+   {
+    "blocco": "s37",
+    "copione": "chilo",
+    "detto": "kilo"
+   },
+   {
+    "blocco": "s38",
+    "copione": "alla",
+    "detto": "la"
+   },
+   {
+    "blocco": "s38",
+    "copione": "inalazione",
+    "detto": "inhalazione"
+   },
+   {
+    "blocco": "s39",
+    "copione": "fuliggine",
+    "detto": "fuligine"
+   },
+   {
+    "blocco": "s40",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossia e moglobina"
+   },
+   {
+    "blocco": "s41",
+    "copione": "con segni",
+    "detto": "consegni"
+   },
+   {
+    "blocco": "s41",
+    "copione": "inalazione",
+    "detto": "inhalazione"
+   },
+   {
+    "blocco": "s41",
+    "copione": "vie",
+    "detto": "via"
+   },
+   {
+    "blocco": "s42",
+    "copione": "richiedo",
+    "detto": "ricchiedo"
+   },
+   {
+    "blocco": "s42",
+    "copione": "l",
+    "detto": "la"
+   },
+   {
+    "blocco": "s42",
+    "copione": "somministro",
+    "detto": "soministro"
+   },
+   {
+    "blocco": "s42",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossia e moglobina"
+   },
+   {
+    "blocco": "s42",
+    "copione": "infondo",
+    "detto": "in fondo"
+   },
+   {
+    "blocco": "s43",
+    "copione": "all ora adeguandoli",
+    "detto": "allora adeguandogli"
+   },
+   {
+    "blocco": "s44",
+    "copione": "prevengo l ipotermia",
+    "detto": "prevengoli potermia"
+   },
+   {
+    "blocco": "s45",
+    "copione": "vie aeree",
+    "detto": "viaere"
+   },
+   {
+    "blocco": "s46",
+    "copione": "cutanea",
+    "detto": "cutania"
+   },
+   {
+    "blocco": "s46",
+    "copione": "asepsi",
+    "detto": "a sepsi"
+   },
+   {
+    "blocco": "s47",
+    "copione": "l ipermetabolismo",
+    "detto": "li per metabolismo"
+   },
+   {
+    "blocco": "s47",
+    "copione": "enterale",
+    "detto": "interale"
+   },
+   {
+    "blocco": "s49",
+    "copione": "una chetoacidosi",
+    "detto": "1 acheto acidosi"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra poco",
+    "detto": "attrappoco"
+   }
+  ]
+ }
+}

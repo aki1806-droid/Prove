@@ -57,3 +57,7 @@ stacco tracce             dopo s25   (chunk A 4.151 car · chunk B 4.535 car)
 - Scelta: le domande d'orale (slide 13) e la risposta modello (slide 14) sono dette per intero, la risposta in quattro blocchi; a schermo una citazione e tre tabelle «passo / che cosa scrivo».
 - Scelta: il cianuro detto in forma breve («con i fumi di materiali sintetici il medico valuta anche il cianuro»); «sindrome compartimentale addominale» e «mioglobina» detti come nello script.
 - Scelta: la pausa «che cosa fai?» dello scenario è una scena `pausa` (s07) senza silenzio; l'unica posa senza voce è sulla frase del caso (s48).
+
+### Verifica del parlato (12 ottobre 2026)
+
+- Trascrizione locale (faster-whisper, crediti ElevenLabs esauriti). In s12 il trascrittore aveva saltato «B: il monossido di carbonio»: fra 113,3 e 115,5 s della traccia A c'è parlato (−19,5 dB), e la ritrascrizione del solo pezzo dà «B. Il monossido di carbonio. In un incendio in ambiente chiuso…». Frase aggiunta a `trascrizioni/A.txt`.
