@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:12,920
+Fino a qui, un paziente alla volta. Ma in reparto la realta' e' un'altra: piu' pazienti insieme, un'equipe da coordinare, gli imprevisti, e a volte un familiare che perde il controllo.
+
+2
+00:00:12,920 --> 00:00:21,610
+Questo caso allena tre competenze che l'orale verifica spesso: stabilire le priorita', attribuire e supervisionare le attivita', e gestire un'aggressione.
+
+3
+00:00:21,610 --> 00:00:31,740
+Turno pomeridiano in medicina. Hai sei pazienti, con un OSS e un assistente infermiere, dove e' presente in organico. Sono le quattordici, e le consegne sono appena finite.
+
+4
+00:00:31,740 --> 00:00:46,590
+Letto uno: Paolo, sessantaquattro anni, anemia: da dieci minuti ha un peso al petto, ed e' sudato. Letto due: Ida, settantasette anni, BPCO, satura ottantanove con gli occhialini; il suo target e' ottantotto-novantadue.
+
+5
+00:00:46,590 --> 00:01:00,140
+Letto tre: Luca, diabetico, glicemia duecentottanta, senza sintomi. Letto quattro: Rosa, ottantacinque anni, allettata, Braden dodici, con igiene e riposizionamento previsti alle quattordici.
+
+6
+00:01:00,140 --> 00:01:12,250
+Letto cinque: Franco, dimissione domani, educazione all'eparina da completare, il figlio arriva alle diciassette. Letto sei: Anna, antibiotico endovena alle quattordici. Pausa: in che ordine?
+
+7
+00:01:12,250 --> 00:01:25,920
+Le priorita'. Primo, Paolo: dolore toracico e sudorazione, in un anemico, possono essere una sindrome coronarica o un'ischemia da anemia. Valutazione immediata, ECG entro dieci minuti, parametri, medico.
+
+8
+00:01:25,920 --> 00:01:38,870
+Seconda, Anna: l'antibiotico ha un orario, e un breve ritardo e' accettabile, se documentato. Terzo, Luca: iperglicemia senza sintomi. Si valuta, si applica lo schema prescritto, si informa il medico.
+
+9
+00:01:38,870 --> 00:01:47,050
+Quarta, Ida: stabile, e dentro il suo target. Il trabocchetto e' considerare urgente una saturazione di ottantanove, che per lei e' corretta.
+
+10
+00:01:47,050 --> 00:01:56,010
+Quinta, Rosa: un'attivita' di prevenzione che si puo' attribuire. Sesto, Franco: l'educazione si programma alle diciassette, con il figlio presente.
+
+11
+00:01:56,010 --> 00:02:08,050
+Il ragionamento dietro l'ordine. Prima l'instabilita' e il rischio di peggioramento rapido. Poi la tempo-dipendenza. Poi la competenza: infermieristica e non delegabile, oppure attribuibile ad altri.
+
+12
+00:02:08,050 --> 00:02:18,430
+Un'attivita' puo' essere importante ma attribuibile, come l'igiene di Rosa; un'altra meno urgente ma non attribuibile, come l'educazione di Franco. E' la distinzione che il commissario vuole sentire.
+
+13
+00:02:18,430 --> 00:02:25,690
+L'attribuzione. Attribuire significa affidare un'attivita', non la responsabilita' dell'assistenza: quella resta all'infermiere.
+
+14
+00:02:25,690 --> 00:02:35,790
+I criteri: la stabilita' clinica del paziente, la prevedibilita' dell'esito, la complessita' dell'attivita', il profilo e le competenze dell'operatore, la possibilita' di supervisione.
+
+15
+00:02:35,790 --> 00:02:45,030
+Non si attribuiscono la valutazione, la pianificazione, il giudizio clinico, l'educazione terapeutica, e le attivita' riservate alla competenza infermieristica.
+
+16
+00:02:45,030 --> 00:02:56,690
+Le due figure di supporto. L'OSS svolge l'assistenza diretta di base: igiene, mobilizzazione, alimentazione e comfort, e le attivita' alberghiere, secondo il profilo e le procedure aziendali.
+
+17
+00:02:56,690 --> 00:03:08,740
+L'assistente infermiere e' il profilo istituito con un accordo Stato-Regioni e recepito nel contratto duemilaventidue-duemilaventiquattro. Svolge le attivita' del suo profilo, attribuite e supervisionate dall'infermiere.
+
+18
+00:03:08,740 --> 00:03:17,850
+Una raccomandazione di metodo: le attivita' consentite si verificano sempre nei documenti di riferimento e nelle procedure dell'azienda, perche' e' un ambito in evoluzione.
+
+19
+00:03:17,850 --> 00:03:29,670
+Come si attribuisce bene. Un'istruzione chiara: che cosa, a chi, come, entro quando, e soprattutto che cosa riferire. Un pensaci tu alla quattro non e' un'attribuzione: e' un rischio.
+
+20
+00:03:29,670 --> 00:03:37,050
+Per Rosa: alle quattordici e quindici, igiene e riposizionamento sul fianco sinistro, con lo scarico dei talloni con il cuscino.
+
+21
+00:03:37,050 --> 00:03:46,840
+Guarda la cute di sacro e talloni, e chiamami se vedi arrossamenti che non scompaiono alla pressione, o se riferisce dolore. Poi la verifica al termine, e la documentazione.
+
+22
+00:03:46,840 --> 00:03:59,470
+La responsabilita'. L'infermiere risponde della scelta dell'attivita', dell'operatore e della supervisione; l'operatore, dell'esecuzione. Attribuire a chi non e' competente, o non supervisionare, espone a responsabilita'.
+
+23
+00:03:59,470 --> 00:04:11,870
+Il fondamento e' il profilo, il DM settecentotrentanove del millenovecentonovantaquattro: l'infermiere e' responsabile dell'assistenza generale infermieristica e, dove necessario, si avvale del personale di supporto.
+
+24
+00:04:11,870 --> 00:04:23,940
+Ore sedici e trenta. Il figlio di Rosa arriva al bancone e alza la voce: mia madre e' sporca, la lasciate cosi', vi denuncio tutti! Si avvicina, gesticola, altri visitatori osservano. Che cosa fai?
+
+25
+00:04:23,940 --> 00:04:35,570
+La de-escalation della lezione due punto sette. Prima la sicurezza: la distanza, una via d'uscita libera, non restare soli, i colleghi avvisati. Un tono calmo e basso, una postura aperta.
+
+26
+00:04:35,570 --> 00:04:45,040
+L'ascolto, senza interrompere. Riconoscere l'emozione: vedo che e' molto preoccupato per sua madre. E spostarsi in un luogo riservato, lontano dagli altri visitatori.
+
+27
+00:04:45,040 --> 00:04:58,010
+Verificare insieme la situazione, senza promesse e senza accuse: magari Rosa si e' sporcata dopo l'igiene delle quattordici. Offrire una soluzione concreta. E se l'escalation continua, la vigilanza o le forze dell'ordine.
+
+28
+00:04:58,010 --> 00:05:09,890
+Dopo l'episodio. Si segnala secondo la procedura aziendale, come prevede la Raccomandazione otto. In caso di lesioni si fa refertare: sono procedibili d'ufficio, con la legge centotredici del duemilaventi.
+
+29
+00:05:09,890 --> 00:05:18,010
+Il contratto duemilaventidue-duemilaventiquattro prevede il patrocinio legale e il supporto psicologico. E con l'equipe si fa un debriefing.
+
+30
+00:05:18,010 --> 00:05:29,410
+E una cosa che spesso si dimentica: si verifica comunque l'assistenza, perche' una protesta, anche espressa male, puo' segnalare un bisogno reale. Il dialogo con il figlio si riprende a mente fredda.
+
+31
+00:05:29,410 --> 00:05:43,270
+Il resto del turno. Paolo: l'ECG non mostra alterazioni acute, la troponina e' in corso, e il medico prescrive una trasfusione per l'anemia, da sorvegliare. Anna: antibiotico alle quattordici e venticinque, documentato.
+
+32
+00:05:43,270 --> 00:05:57,220
+Luca: correzione secondo schema, e rivalutazione. Ida: stabile. Rosa: cute integra, documentata. Franco: l'educazione con il figlio alle diciassette, con il teach-back sull'autosomministrazione dell'eparina.
+
+33
+00:05:57,220 --> 00:06:09,110
+Le consegne delle ventuno, con lo SBAR, cominciando dai pazienti instabili. Per Paolo. Situazione: letto uno, alle quattordici dolore toracico durato quindici minuti, ora asintomatico.
+
+34
+00:06:09,110 --> 00:06:20,850
+Background: anemia, emoglobina sette virgola due, in trasfusione della seconda unita'. Accertamento: ECG senza alterazioni acute, prima troponina negativa, parametri stabili.
+
+35
+00:06:20,850 --> 00:06:30,630
+Raccomandazione: seconda troponina alle ventidue, sorveglianza della trasfusione, chiamare se il dolore si ripresenta. Chi riceve sa esattamente che cosa fare.
+
+36
+00:06:30,630 --> 00:06:43,430
+Il tempo e le interruzioni. Il turno si pianifica subito dopo le consegne: le attivita' a orario, quelle programmabili, lo spazio per gli imprevisti. E le interruzioni nella preparazione della terapia causano errori.
+
+37
+00:06:43,430 --> 00:06:57,160
+Per questo un'area dedicata, i segnali di non disturbare, un paziente alla volta. Le priorita' si rivalutano a ogni cambiamento. E se il carico e' eccessivo si chiede aiuto e si segnala: e' responsabilita', non debolezza.
+
+38
+00:06:57,160 --> 00:07:09,490
+Le domande d'orale. Prima: con quali criteri attribuisce un'attivita' all'OSS? Stabilita', prevedibilita', complessita', profilo dell'operatore, supervisione. Con istruzioni chiare e la verifica finale.
+
+39
+00:07:09,490 --> 00:07:24,250
+E tenendo per se' valutazione, pianificazione ed educazione. Seconda: come gestisce un familiare aggressivo? Prima la sicurezza, poi la de-escalation: ascolto, riconoscimento dell'emozione, tono calmo, luogo riservato.
+
+40
+00:07:24,250 --> 00:07:38,290
+La vigilanza se serve, e la segnalazione. Terza: che cos'e' lo SBAR? Comunicazione strutturata, situazione, background, accertamento, raccomandazione: nelle consegne, nelle chiamate al medico, nei trasferimenti.
+
+41
+00:07:38,290 --> 00:07:52,520
+La risposta modello. All'inizio del turno stabilisco le priorita' in base a instabilita', tempo-dipendenza e competenza richiesta. Valuto per primo il paziente con dolore toracico: parametri, ECG entro dieci minuti, medico.
+
+42
+00:07:52,520 --> 00:08:00,240
+Poi l'antibiotico a orario. Valuto il paziente con iperglicemia, e riconosco come stabile la paziente con BPCO in target.
+
+43
+00:08:00,240 --> 00:08:13,630
+Attribuisco all'OSS igiene e riposizionamento della paziente allettata, con istruzioni chiare su che cosa fare, entro quando e che cosa riferire, e verifico. Tengo per me valutazione, terapia endovena ed educazione.
+
+44
+00:08:13,630 --> 00:08:26,030
+Con il familiare aggressivo garantisco la sicurezza, applico la de-escalation in un luogo riservato, chiamo la vigilanza se serve, e segnalo. Documento, e trasmetto le consegne SBAR dai pazienti instabili.
+
+45
+00:08:26,030 --> 00:08:37,280
+I collegamenti: profilo e responsabilita' con la uno punto uno e la uno punto due; de-escalation e SBAR con la due punto sette; la Raccomandazione otto con la due punto sei.
+
+46
+00:08:37,280 --> 00:08:46,900
+Il contratto e l'assistente infermiere con la dodici punto cinque; la sicurezza sul lavoro con la dodici punto sei; le lesioni da pressione con la tre punto due.
+
+47
+00:08:46,900 --> 00:08:56,500
+La frase del caso: si attribuisce un'attivita', non si delega la responsabilita'. E la priorita' non e' chi chiama piu' forte, ma chi rischia di piu'.
+
+48
+00:08:56,500 --> 00:09:05,780
+Nella prossima lezione chiudiamo il modulo: il riepilogo dello schema, sei casi lampo su temi che non abbiamo sviluppato per esteso, e le tracce piu' probabili. A tra poco.

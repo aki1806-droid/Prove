@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,270
+Questo caso segue un paziente chirurgico per dodici giorni, e ogni giorno ti mette davanti a una complicanza diversa, proprio quando la lezione nove punto cinque diceva di aspettarla.
+
+2
+00:00:13,270 --> 00:00:21,900
+E' un ottimo allenamento, perche' all'esame la traccia dice spesso in seconda giornata, o in settima giornata: quel numero e' gia' meta' della risposta.
+
+3
+00:00:21,900 --> 00:00:31,140
+Lo scenario. Signor Gallo, sessantasette anni, operato di emicolectomia destra per una neoplasia, in un percorso ERAS. Rientra in reparto alle sedici.
+
+4
+00:00:31,140 --> 00:00:40,420
+Ha una peridurale toracica in infusione, un drenaggio addominale, il catetere vescicale e un accesso venoso periferico. E' prescritta la profilassi antitrombotica.
+
+5
+00:00:40,420 --> 00:00:52,780
+All'arrivo: pressione centotrentotto su ottanta, frequenza ottantaquattro, saturazione novantasette con occhialini a due litri, dolore due. Fissa bene questi valori: sono il riferimento per tutto il resto.
+
+6
+00:00:52,780 --> 00:01:03,420
+Giornata zero, ore venti. Frequenza centosedici, pressione centodue su sessantaquattro, cute pallida e sudata. Il paziente e' agitato, e dice: mi sento strano.
+
+7
+00:01:03,420 --> 00:01:13,920
+Il drenaggio ha raccolto duecentottanta millilitri di sangue rosso nell'ultima ora, l'addome e' piu' teso, la diuresi e' di venti millilitri nell'ultima ora. Pausa: che cosa sta succedendo?
+
+8
+00:01:13,920 --> 00:01:25,240
+Il ragionamento ha un trabocchetto: con la peridurale la pressione puo' calare per il blocco simpatico. Ma di solito senza una tachicardia marcata, anzi a volte con bradicardia, e senza perdite di sangue.
+
+9
+00:01:25,240 --> 00:01:38,090
+Qui ci sono tutti i segni dell'emorragia: tachicardia, pallore, sudorazione, agitazione, oliguria, drenaggio ematico abbondante, addome teso. E' un'emorragia postoperatoria con shock iniziale.
+
+10
+00:01:38,090 --> 00:01:45,780
+E nota il dettaglio: la pressione sembra ancora accettabile, ma e' scesa di oltre trentacinque rispetto al basale. E' il trend che conta.
+
+11
+00:01:45,780 --> 00:01:55,560
+Le azioni. Avvisi subito il chirurgo con lo SBAR, e informi l'anestesista per la peridurale. Ossigeno, posizione supina, un secondo accesso venoso di grosso calibro.
+
+12
+00:01:55,560 --> 00:02:07,760
+Prelievi: emocromo, coagulazione, gruppo e prove crociate. Liquidi ed emocomponenti secondo prescrizione. Parametri ogni quindici minuti, diuresi oraria, misurazione del drenaggio.
+
+13
+00:02:07,760 --> 00:02:17,960
+Digiuno, perche' e' probabile un reintervento, e preparazione del trasferimento in sala. Il signor Gallo viene rioperato: un vaso sanguinante viene suturato, e rientra stabile.
+
+14
+00:02:17,960 --> 00:02:26,940
+Giornata due. Febbricola a trentasette virgola nove, respiratoria ventiquattro, saturazione novantuno in aria, dolore sette quando tossisce.
+
+15
+00:02:26,940 --> 00:02:35,490
+Il paziente dice: non sono riuscito ad alzarmi, mi faceva troppo male. Il respiro e' superficiale, il murmure ridotto alle basi. Che cosa pensi?
+
+16
+00:02:35,490 --> 00:02:49,750
+Seconda giornata, polmone, immobilita' e dolore: un'atelettasia, la W di wind della nove punto cinque. E il problema centrale non e' il polmone, e' il dolore, che impedisce di respirare a fondo, tossire e alzarsi.
+
+17
+00:02:49,750 --> 00:03:00,250
+Gli interventi: segnalare; un'analgesia efficace, ottimizzando la peridurale con l'anestesista; ossigeno con target novantaquattro-novantotto; posizione semiseduta.
+
+18
+00:03:00,250 --> 00:03:14,200
+Spirometro incentivante, per esempio dieci respiri ogni ora da sveglio; tosse con un cuscino sull'addome; poltrona e cammino. L'obiettivo, in un giorno: saturazione da novantaquattro in aria, dolore alla tosse fino a quattro.
+
+19
+00:03:14,200 --> 00:03:27,160
+Giornata quattro. Addome disteso e timpanico, niente gas ne' feci dall'intervento, nausea e vomito due volte, peristalsi assente all'auscultazione, potassio tre virgola due. Che cosa pensi?
+
+20
+00:03:27,160 --> 00:03:40,020
+E' un ileo paralitico prolungato, favorito dall'ipokaliemia, perche' il potassio basso rallenta l'intestino, e dagli oppioidi. Si segnala; digiuno e sondino naso-gastrico in aspirazione, secondo prescrizione.
+
+21
+00:03:40,020 --> 00:03:50,950
+Con la verifica del posizionamento della tre punto quattro. Potassio secondo prescrizione: mai in bolo, sempre diluito e con pompa. Bilancio idrico, contando le perdite dal sondino.
+
+22
+00:03:50,950 --> 00:04:00,910
+Igiene del cavo orale, perche' a digiuno e con il sondino la bocca e' secca. Mobilizzazione. Revisione degli oppioidi con il medico. In due giorni l'intestino riparte.
+
+23
+00:04:00,910 --> 00:04:13,440
+Giornata sette. Dopo un forte colpo di tosse: mi sento come se qualcosa si fosse aperto. Dalla medicazione, abbondante liquido siero-ematico rosato. La rimuovi, e vedi anse intestinali fra i margini della ferita.
+
+24
+00:04:13,440 --> 00:04:25,180
+E' una deiscenza con eviscerazione: un'emergenza chirurgica, con la sequenza della sette punto quattro. Non lasci il paziente, e chiami aiuto. Supino, con le ginocchia flesse, che riducono la tensione sulla parete.
+
+25
+00:04:25,180 --> 00:04:37,800
+Copri con un telo o garze sterili imbevute di fisiologica tiepida. Non reinserisci i visceri. Avvisi subito il chirurgo. Digiuno, parametri, accesso venoso. Rassicuri il paziente, che e' spaventato, e documenti.
+
+26
+00:04:37,800 --> 00:04:45,120
+Una riflessione: il liquido siero-ematico abbondante era il segno premonitore. Se compare, si segnala prima che la ferita si apra.
+
+27
+00:04:45,120 --> 00:04:57,040
+Perche' proprio a lui? Aveva diversi fattori di rischio: l'eta', la neoplasia, probabilmente uno stato nutrizionale compromesso, l'anemia dopo l'emorragia, e la pressione addominale aumentata da tosse e vomito.
+
+28
+00:04:57,040 --> 00:05:08,760
+La prevenzione era fatta di gesti semplici: nutrizione, sostegno della ferita con il cuscino quando tossisce o si alza, controllo della nausea. Il caso mostra come le complicanze si concatenano.
+
+29
+00:05:08,760 --> 00:05:18,810
+Giornata dodici: la dimissione. Vive con la moglie ed e' autonomo: una dimissione ordinaria. L'educazione: la ferita, e i segni di infezione e di deiscenza.
+
+30
+00:05:18,810 --> 00:05:28,120
+L'eparina a domicilio per la durata prescritta, con la tecnica e lo smaltimento degli aghi. L'alimentazione progressiva. Niente sforzi addominali per il periodo indicato.
+
+31
+00:05:28,120 --> 00:05:41,690
+I segni d'allarme: febbre, dolore in aumento, vomito, alvo chiuso, sanguinamento. Il follow-up chirurgico e oncologico, nella rete oncologica veneta. La lettera infermieristica. E tutto verificato con il teach-back.
+
+32
+00:05:41,690 --> 00:05:57,170
+La linea del tempo, da fotografare. Zero: emorragia e reintervento. Due: atelettasia. Quattro: ileo con ipokaliemia. Sette: eviscerazione. Dodici: dimissione. Ogni giornata ha la sua complicanza tipica: chiediti quale.
+
+33
+00:05:57,170 --> 00:06:04,810
+Gli errori. Attribuire tachicardia e ipotensione alla peridurale senza guardare il drenaggio. Aspettare il crollo della pressione.
+
+34
+00:06:04,810 --> 00:06:15,180
+Lasciare a letto il paziente perche' ha dolore, invece di trattare il dolore. Potassio senza pompa. Reinserire i visceri, o coprirli con materiale asciutto. Dimettere senza teach-back.
+
+35
+00:06:15,180 --> 00:06:27,430
+Rileggiamo il caso: il dolore e' la chiave. Non controllato, in seconda giornata ha dato un respiro superficiale, quindi l'atelettasia; ha tenuto il paziente a letto, con piu' rischio di trombosi e un ileo piu' lungo.
+
+36
+00:06:27,430 --> 00:06:38,930
+Ha reso la tosse inefficace, e ha portato ansia e insonnia. Per questo il dolore si valuta a riposo e in movimento, e si tratta con un'analgesia multimodale, a orario piu' le dosi al bisogno.
+
+37
+00:06:38,930 --> 00:06:51,200
+Con la peridurale si sorvegliano livello di analgesia, blocco motorio, pressione e sedazione. E dopo ogni intervento si rivaluta. Un dolore ben controllato previene meta' delle complicanze postoperatorie.
+
+38
+00:06:51,200 --> 00:07:01,750
+Le domande d'orale. Prima: in quale giornata compaiono le complicanze? Nelle prime ore emorragia, ostruzione delle vie aeree, ritenzione. Nei primi due giorni, atelettasia.
+
+39
+00:07:01,750 --> 00:07:13,040
+Fra il terzo e il quinto, polmonite e infezione urinaria. Fra il quinto e il decimo, infezione della ferita e deiscenza. La trombosi in ogni momento, ma piu' tipicamente dopo i primi giorni.
+
+40
+00:07:13,040 --> 00:07:25,650
+Seconda: come si previene l'atelettasia? Educazione preoperatoria, analgesia efficace, respirazione profonda e spirometro, tosse con la ferita sostenuta, posizione semiseduta, mobilizzazione precoce.
+
+41
+00:07:25,650 --> 00:07:38,010
+Terza: i segni precoci di emorragia? Tachicardia, agitazione, pallore, sudorazione, riempimento capillare rallentato, oliguria, perdite dai drenaggi. L'ipotensione e' un segno tardivo.
+
+42
+00:07:38,010 --> 00:07:49,690
+La risposta modello, giornata sette. Dopo emicolectomia, a un colpo di tosse, abbondante essudato siero-ematico e anse esposte: deiscenza con eviscerazione, emergenza chirurgica.
+
+43
+00:07:49,690 --> 00:08:03,000
+Priorita': proteggere i visceri, prevenire shock e contaminazione, attivare subito il chirurgo. Non lascio il paziente, chiamo aiuto; supino, ginocchia flesse; garze sterili con fisiologica tiepida, senza reinserire.
+
+44
+00:08:03,000 --> 00:08:16,250
+Avviso subito il chirurgo con SBAR. Digiuno, accesso venoso, parametri e dolore; preparo per la sala. Rassicuro spiegando cio' che faccio. Documento e segnalo; poi rivaluto i rischi e rafforzo il sostegno della ferita.
+
+45
+00:08:16,250 --> 00:08:25,370
+I collegamenti. Il sondino, con la tre punto quattro. Il potassio, con la tre punto cinque e la cinque punto sette. L'eviscerazione, con la sette punto quattro.
+
+46
+00:08:25,370 --> 00:08:36,650
+Il post-operatorio immediato e la peridurale, con la nove punto quattro. Le complicanze, con la nove punto cinque. La dimissione, con la nove punto sette. La trasfusione, con la sei punto sei.
+
+47
+00:08:36,650 --> 00:08:42,520
+La frase del caso: la giornata postoperatoria e' gia' meta' della risposta.
+
+48
+00:08:42,520 --> 00:08:49,760
+Nella prossima lezione: un dolore toracico in pronto soccorso che diventa, in pochi minuti, un arresto cardiaco. A tra poco.
