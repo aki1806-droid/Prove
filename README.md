@@ -132,17 +132,18 @@ progetti/<modulo>-<lezione>/
 | `m14-l14.6-sangue` | Modulo 14 · 14.6 Sangue, immunità e infiammazione | 8:48.4 | `e514af37fc53d7af7e6e371ad4d01711` |
 | `m14-l14.7-semeiotica` | Modulo 14 · 14.7 Semeiotica infermieristica ed esami | 8:50.5 | `32ca3e8787e97f73f03edc93b3323341` |
 | `m14-l14.8-riepilogo` | Modulo 14 · 14.8 Riepilogo del Modulo 14 e autovalutazione | 8:42.6 | `f53308e25d9de12662c7bf6baae8b314` |
-| `m15-l15.7-fragile` | Modulo 15 · 15.7 L'anziana fragile: delirium, caduta e dimissione protetta | 9:14.3 | `77f1edca6b9516c3e050b33781e4cdb8` |
-| `m15-l15.8-diabetico` | Modulo 15 · 15.8 Il paziente diabetico: ipoglicemia, insulina e piede | 9:01.6 | `e1225614cae7082a5fcc0f2a5401323c` |
 | `m15-l15.1-metodo` | Modulo 15 · 15.1 Il metodo per risolvere un caso clinico | 9:02.9 | `99763ae01dd3e388d296d7d2857a73b3` |
+| `m15-l15.2-sepsi` | Modulo 15 · 15.2 Il paziente che si deteriora di notte: dalla polmonite alla sepsi | 9:14.7 | `093515895c94b07f8c4b054bd4c4914c` |
+| `m15-l15.3-chirurgico` | Modulo 15 · 15.3 Il paziente chirurgico, giorno per giorno | 8:58.8 | `eb2ed63947e018eed4b33d281b22801c` |
 | `m15-l15.4-toracico` | Modulo 15 · 15.4 Dolore toracico: dal triage all'arresto cardiaco | 9:16.6 | `27db9f3f0f8c35726da7fe93d1193164` |
 | `m15-l15.5-bpco` | Modulo 15 · 15.5 La paziente con BPCO che dorme troppo | 9:14.7 | `5c0154a55641b90fa59a9dc8896e4168` |
 | `m15-l15.6-scompenso` | Modulo 15 · 15.6 Lo scompenso: dalla notte in edema polmonare al ritorno a casa | 9:07.0 | `84aa16d65159226600496201508f2914` |
+| `m15-l15.7-fragile` | Modulo 15 · 15.7 L'anziana fragile: delirium, caduta e dimissione protetta | 9:14.3 | `77f1edca6b9516c3e050b33781e4cdb8` |
+| `m15-l15.8-diabetico` | Modulo 15 · 15.8 Il paziente diabetico: ipoglicemia, insulina e piede | 9:01.6 | `e1225614cae7082a5fcc0f2a5401323c` |
 | `m15-l15.9-oncologica` | Modulo 15 · 15.9 La paziente oncologica con febbre | 8:56.4 | `cc511f4bb19876057455ba18aff92cdc` |
 | `m15-l15.10-terapia` | Modulo 15 · 15.10 Il turno della terapia: quattro trappole | 9:12.2 | `746233e8a9a58cec6256bc70074c4da9` |
-| `m15-l15.2-sepsi` | Modulo 15 · 15.2 Il paziente che si deteriora di notte: dalla polmonite alla sepsi | 9:14.7 | `093515895c94b07f8c4b054bd4c4914c` |
-| `m15-l15.3-chirurgico` | Modulo 15 · 15.3 Il paziente chirurgico, giorno per giorno | 8:58.8 | `eb2ed63947e018eed4b33d281b22801c` |
 | `m15-l15.11-turno` | Modulo 15 · 15.11 Il turno: priorità, attribuzione e aggressione | 9:14.8 | `3aa3d71e0814f6611ab0fb01b50ee491` |
+| `m15-l15.12-riepilogo` | Modulo 15 · 15.12 Riepilogo del modulo e casi lampo | 9:03.6 | `899a7e3eaba523b2b08a8c8e9dd184ae` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
