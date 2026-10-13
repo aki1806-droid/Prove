@@ -161,6 +161,7 @@ progetti/<modulo>-<lezione>/
 | `m17-l17.4-suicidario` | Modulo 17 · 17.4 Il rischio suicidario in reparto | 9:12.4 | `9fca450a057ec7b674c52370e293bf05` |
 | `m17-l17.7-palliative` | Modulo 17 · 17.7 Le cure palliative a domicilio | 9:14.7 | `ea7baef5ebbe476127af1844b65931e7` |
 | `m17-l17.3-lattante` | Modulo 17 · 17.3 Il lattante disidratato | 9:13.4 | `f69435cb5658bad2b270a7fc47a3f9ad` |
+| `m17-l17.5-tso` | Modulo 17 · 17.5 L'agitazione psicomotoria e il TSO | 9:15.5 | `206dac5e7942e5b5d88a8ae03fa20e70` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
