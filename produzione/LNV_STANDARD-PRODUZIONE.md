@@ -210,11 +210,21 @@ soltanto a occhio:
 - **nel corsivo di `memo` e `quote` la sequenza `'è` si accavalla.**
   L'apostrofo e l'accento grave finiscono uno sull'altro e «cos'è» si legge
   «cos'e» con uno sgorbio sopra (4.3, `c24`). Nel tondo è solo stretta, e si
-  legge. Nel corsivo si scrive per esteso: «come è», «che cosa è»;
+  legge. Nel corsivo si scrive per esteso: «come è», «che cosa è». **E
+  quando tutte le righe del memo ne hanno uno**, come nella 6.5 («Non devi
+  dire cos'è. Devi dire che c'è, e che non è lui.»), la slide si riformula
+  senza — «Non devi spiegare. Devi solo dire che non è lui.» — e la voce dice
+  la frase dello script per intero;
 - **`list` regge sette righe.** Fino alla 6.2 il massimo usato era sei; le
   sette cause ordinarie della 6.3 (`c05`–`c12`) stanno nel riquadro senza
   stringersi, con la riga accesa e la nota sotto. Oltre le sette non è stato
-  provato.
+  provato;
+- **una slide che deve restare a schermo per tutta la scena** si fa tenendo
+  lo stesso titolo su più schermate e cambiando solo l'occhiello, che dice
+  quale pezzo la voce sta spiegando. È la risposta alle note di script che
+  chiedono «la slide resta a schermo per tutta la scena»: 6.4 su cinque
+  schermate (`c31`–`c35`), 6.5 su cinque (`c30`–`c34`) e su tre
+  (`c25`–`c27`). La frase non si ri-anima: cambia la riga piccola sopra.
 
 ## 7-ter. Il montato si rilegge prima di dirlo finito
 
@@ -412,7 +422,10 @@ ha un controllo automatico sulla radice `ment`, e senza `\b` prendeva dentro
 mente*, che è un'espressione idiomatica e non il verbo. Vale per qualunque
 filtro di questo tipo: confini di parola, più le eccezioni idiomatiche
 escluse a mano. Le eccezioni del corso sono **due**: `in mente` (6.3) e
-`nella mente` (6.4), che sono il sostantivo e non il verbo. Quando la frase
+`nella mente` (6.4), che sono il sostantivo e non il verbo. **E il filtro
+deve coprire anche il participio**: nella 6.5 `mentito` passava indenne,
+perché `\bment(e|ono|endo|ire)\b` non lo prende. La forma buona è
+`\bmenzogn|\bbugi|\bmentit|(?<!in )(?<!nella )\bment(e|ono|endo|ire)\b`. Quando la frase
 si può riscrivere senza l'idiomatismo — nella 6.4 «letto nella mente» è
 diventato «letto dentro» — si riscrive: l'eccezione resta nel filtro perché
 la frase può ricomparire, ma il blocco non ci si appoggia.
@@ -487,6 +500,7 @@ anzi soprattutto — quando `banda.py` non segnala niente.
 | 6.2 | I tre tipi | 9:59 | `84c55de233d7efc5a750cf3a856b9962` |
 | 6.3 | Perché non significa bugia | 9:59 | `aac1db4f5e62111765e4996b61f76a86` |
 | 6.4 | Cosa farne: la prossima domanda | 9:59 | `0155f3d29775bb71abffc600802bc260` |
+| 6.5 | Quando l'incongruenza sei tu | 9:59 | `32a6c2325425a7613998bc30f84fe0c3` |
 
 **Moduli 1, 2, 3 e 4 completi**: venti lezioni, duecento minuti,
 novecentoquarantasette slide, centotrentadue fra diagrammi e infografiche,
@@ -500,15 +514,17 @@ dagli script `LNV_M1_SCRIPT-HEYGEN.md`, `LNV_M2_SCRIPT-HEYGEN.md`,
 corso in cui le cinque durate coincidono al secondo. **Anche il modulo 5 è
 chiuso**: cinque lezioni tutte a 9:59, duecentotrentasei slide, ventisette
 figure, quattordici riprese, 50.931 caratteri di copione. Il registro di
-modulo sta in `registri/lnv-modulo-5.md`. **Il modulo 6 è a quattro quinti**: la
-6.1, la 6.2, la 6.3 e la 6.4 sono montate, tutte e quattro a 9:59. Manca lo
-script del modulo 7.
+modulo sta in `registri/lnv-modulo-5.md`. **Anche il modulo 6 è chiuso**: cinque lezioni
+tutte a 9:59, duecentotrentotto slide, quindici figure, dodici riprese,
+50.978 caratteri di copione. Il registro di modulo sta in
+`registri/lnv-modulo-6.md`. **Manca lo script del modulo 7**, l'ultimo del
+corso.
 
 **I crediti Artlist sono esauriti** — settanta su sedicimilacinquecento, e
 un'immagine ne costa centotrenta — e si rinnovano il 18 ottobre. **Dalla 5.2
 le riprese si generano su Higgsfield con `gpt_image_2_5`**, quando si può:
 l'11 ottobre Higgsfield ha rifiutato le richieste della 5.3, della 5.4,
-della 5.5, della 6.1, della 6.2, della 6.3 e della 6.4 — sette lezioni di
+della 5.5 e di tutte e cinque le lezioni del modulo 6 — otto lezioni di
 fila — per un **tetto giornaliero di generazioni del piano**, che non dipende dai
 crediti (ce n'erano 571 sul conto). In quel caso si torna sul nodo immagine
 di ElevenLabs, come per la 5.3. La scelta è stata
@@ -547,11 +563,11 @@ registri vanno risentiti uno per uno con `tagli.py correggi`.
 **Il modulo 5 è l'eccezione, ed è intero**: duecentoventicinque confini
 riletti sulla trascrizione, diciannove sbagliati, tutti corretti e riletti su
 un secondo file di controllo. La 5.4 è l'unica lezione del corso uscita
-giusta al primo giro. **Il modulo 6 continua la serie**: quarantacinque
-confini riletti per lezione, e quattro lezioni su quattro verificate su una
-clip di controllo.
+giusta al primo giro. **Anche il modulo 6 è intero**: duecentoventicinque
+confini riletti, tredici sbagliati, tutti corretti e tutti riconfermati su
+una clip di controllo.
 
-Il conto delle nove lezioni verificate dice quanto vale la banda da sola:
+Il conto delle dieci lezioni verificate dice quanto vale la banda da sola:
 
 | | segnalati da `banda.py` | sbagliati davvero |
 |---|---|---|
@@ -565,6 +581,8 @@ Il conto delle nove lezioni verificate dice quanto vale la banda da sola:
 | 6.2 | 4 | 8 |
 | 6.3 | **0** | 1 |
 | 6.4 | 3 | 2 |
+| 6.5 | 2 | 1 |
+| **modulo 6** | **10** | **13** |
 
 E la **6.3** è il caso minimo della 5.2: banda pulita, zero segnalati, e un
 confine sbagliato lo stesso. La **6.4** mostra la terza combinazione
