@@ -40,7 +40,10 @@ Modulo 10 · Decidere con i tuoi numeri. Copione allungato a 6 minuti dallo scri
 
 ## La resa
 
-- in corso
+- video HeyGen: `b78c8b8cdac27493cc6d6c9fb030c306` — **completato**, 6:02,2 (362,2 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/b78c8b8cdac27493cc6d6c9fb030c306
+- lotto asset `6c80311226eb4f9a820d45000bfca7da` (96 file)
+- copia di controllo locale: `montato-10.5.mp4` 6:03,5 (non versionata) e `montato-10.5.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
