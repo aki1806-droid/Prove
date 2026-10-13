@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Un secchio d'acqua, o una fontana? Immagina di dover scegliere tra queste due cose, per il resto della tua vita."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il secchio hai tutta l'acqua subito, e decidi tu come usarla: per bere, per lavare, per annaffiare. Ma quando e' vuoto, e' vuoto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con la fontana hai poca acqua alla volta. Ma scorre sempre, giorno dopo giorno, per tutto il tempo che serve."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al pensionamento, la posizione in Perseo Sirio puo' diventare l'una o l'altra cosa. Un capitale, cioe' una somma unica."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oppure una rendita, cioe' un assegno periodico pagato per tutta la vita. O, piu' spesso, un po' di entrambe le cose."
+ },
+ {
+  "id": "s07",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo le regole: quanto puoi prendere subito, quando puoi prendere tutto, e come scegliere con la testa."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalla regola generale. E' semplice da ricordare, e vale per la grande maggioranza degli iscritti al Fondo."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al momento della pensione puoi ricevere in capitale al massimo il cinquanta per cento della posizione. La meta', non di piu'."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il resto viene trasformato in una rendita vitalizia, cioe' un assegno pagato per tutta la vita, da quel momento in poi."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puoi scegliere di prendere meno capitale e piu' rendita. Per esempio un quarto in capitale e tre quarti in rendita."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puoi anche scegliere di trasformare tutta la posizione in rendita, senza prendere nulla in capitale. E' una scelta che massimizza l'assegno."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quello che non puoi fare e' superare la meta' in capitale. Il cursore si muove liberamente verso la rendita, ma dall'altra parte si ferma a meta'."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il motivo e' nella natura stessa del fondo pensione. Deve servire a integrare il reddito per tutta la vecchiaia, non solo nei primi anni."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se si potesse prendere tutto subito, sarebbe un semplice risparmio. Invece e' una pensione, e la pensione dura quanto dura la vita."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' pero' un'eccezione importante, pensata per chi arriva alla pensione con una posizione piccola. Per esempio chi ha aderito tardi."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se trasformando meta' della posizione in rendita si ottiene un assegno annuo piu' basso della meta' dell'assegno sociale, cambia tutto."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In quel caso puoi ricevere tutta la posizione in capitale, senza penalizzazioni fiscali. Tutta l'acqua, in un secchio solo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ha senso: una rendita troppo piccola sarebbe poco utile, e un assegno di pochi euro al mese non cambierebbe la vita a nessuno."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Facciamo i conti con i numeri di oggi. Nel 2026 l'assegno sociale vale settemilacentouno euro l'anno, pagati in tredici mensilita'."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La meta' e' circa tremilacinquecentocinquanta euro l'anno. E' questa la soglia da confrontare con la tua rendita."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In altre parole, se la rendita che otterresti con meta' della posizione e' inferiore a circa trecento euro al mese, puoi prendere tutto subito."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quanto capitale serva per superare questa soglia dipende dall'eta' al pensionamento e dai coefficienti della compagnia che paga la rendita."
+ },
+ {
+  "id": "s24",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve fare il calcolo a mano: il simulatore del Fondo te lo dice con precisione, partendo dalla tua posizione."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se invece la tua posizione supera la soglia? Allora la scelta e' tua. Come scegliere tra il secchio e la fontana?"
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il capitale e' utile se hai spese importanti al momento della pensione. Un mutuo da chiudere, una casa da sistemare, un aiuto ai figli."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' disponibile subito, e lo usi come vuoi. Ma va gestito con attenzione, anno dopo anno: una volta speso, non torna piu'."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rendita, invece, ti protegge da un rischio che spesso sottovalutiamo, perche' sembra una buona notizia: vivere piu' a lungo del previsto."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Pensaci: nessuno sa quanti anni avra' davanti. E chi vive a lungo rischia di vedere finire i propri risparmi prima di se'."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La rendita arriva ogni mese, finche' vivi, e si rivaluta ogni anno. E non ti chiede nessuna scelta da fare, anno dopo anno."
+ },
+ {
+  "id": "s31",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per questo molti scelgono una combinazione. Una parte di capitale per le esigenze immediate, e una rendita come integrazione stabile."
+ },
+ {
+  "id": "s32",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'integrazione che si aggiunge, ogni mese, alla pensione pubblica. Ed e' proprio questo lo scopo per cui hai versato tutti quegli anni."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E le tasse? Qui c'e' una buona notizia: per le somme maturate dal 2018, capitale e rendita scendono la stessa scala."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dal quindici al nove per cento, in base agli anni di partecipazione. Il secchio e la fontana si fermano allo stesso gradino."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per le parti piu' vecchie della posizione valgono le regole degli strati, che hai visto nella lezione cinque punto cinque."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'aggiunta da conoscere: le rivalutazioni annuali della rendita, una volta in pagamento, sono tassate al ventisei per cento."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Il capitale si usa una volta. La rendita ti accompagna per tutta la vita."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: al pensionamento puoi prendere in capitale al massimo meta' della posizione."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il resto diventa rendita vitalizia, pagata per tutta la vita. E puoi sempre scegliere di prendere piu' rendita, fino a tutta la posizione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: se la rendita di meta' posizione e' sotto la meta' dell'assegno sociale, cioe' circa trecento euro al mese, puoi prendere tutto in capitale."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: la rendita ti protegge dal rischio di vivere piu' a lungo dei tuoi risparmi. Arriva finche' vivi, e si rivaluta ogni anno."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: vai sul sito del Fondo, nella pagina dedicata alla rendita, e prova il simulatore. Bastano pochi minuti."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Inserisci l'ultimo valore della tua posizione. Lo trovi nell'area riservata o nel prospetto annuale: e' il punto di partenza di tutti i conti."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vedrai quanto vale oggi la tua rendita, in euro al mese. E' un numero che rende tutto molto piu' concreto."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione entriamo nel dettaglio della fontana: perche' le rendite non sono tutte uguali."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perseo Sirio ne offre cinque tipi, e ognuno risponde a un'esigenza diversa: dalla persona sola alla coppia, a chi teme di perdere l'autosufficienza."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vedremo come funzionano, che cosa cambia nell'importo dell'assegno, e come scegliere quella giusta per la tua situazione familiare."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Le cinque rendite. Ci vediamo nella lezione nove punto tre."
+ }
+]

@@ -36,7 +36,10 @@ Modulo 8 · Prima della pensione. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `97d1b66a7ccc400463990fae09b1fd90` — **completato**, 6:04,3 (364,3 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/97d1b66a7ccc400463990fae09b1fd90
+- lotto asset `b72f5c709987406496890315e20ea534` (96 file)
+- copia di controllo locale: `montato-8.3.mp4` 6:05,5 (non versionata) e `montato-8.3.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
