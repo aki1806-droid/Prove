@@ -27,18 +27,21 @@ Le strade sono due, tutte e due con la stessa voce e lo stesso modello
 | | come | costo di una lezione da 10 minuti |
 |---|---|---|
 | **ElevenLabs diretto** | `creative_create_flow` + nodi `tts` | ~10.400 crediti ElevenLabs (**$1,73**), più ~1.000 crediti di trascrizione per verificare i tagli |
-| **HeyGen come passante** | `create_speech`, `engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}` | **~33 crediti** del piano HeyGen (0,45% del mese), e **la trascrizione di verifica non serve**: `create_speech` restituisce i tempi parola per parola |
+| **HeyGen come passante** | `create_speech`, `engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}` | **~40 crediti** del piano HeyGen (39 di voce + 1 di render, misurati sulla 7.1), e **la trascrizione di verifica non serve**: i confini si costruiscono con una pausa e `confini_heygen.py` li trova da solo |
 
 Misurato il 13 ottobre 2026 su cinque campioni, non stimato: **1 credito ogni
-16,7 secondi**, arrotondati per eccesso **a ogni chiamata** — perciò le tracce
-lunghe, non un blocco per chiamata. Una lezione da 587 s di parlato costa
-**~35 crediti**.
+16,7 secondi** di grezzo, arrotondati per eccesso **a ogni chiamata** — perciò
+le tracce lunghe, non un blocco per chiamata. Sulla prima lezione vera, la
+7.1, la voce è costata **39 crediti** e il render **1**: più dei ~35 stimati,
+perché le pause di confine fra un blocco e l'altro (43 × 1,6 s) sono audio
+anche loro e si pagano.
 
-**Due cose erano aperte il 13 ottobre e sono state chiuse il 14:**
+**Due cose erano aperte e sono state chiuse la sera stessa del 13 ottobre:**
 
 1. **il limite del timeout sta fra 3.097 e 3.401 caratteri.** 2.243, 2.526 e
    3.097 passano; 3.401 va in timeout a 60 secondi. Un copione da 10.400
-   caratteri va quindi in **quattro tracce da ~2.600**, non in tre da ~3.470;
+   caratteri va in **quattro o cinque tracce** sotto i ~2.900 (la 7.1 ne ha
+   usate cinque, perché le pause di confine allungano il testo);
 2. **HeyGen è il 3,3% più LENTO**, non più veloce: 15,71 contro 16,25
    caratteri al secondo sul grezzo. (Il «5% più veloce» del 13 ottobre era un
    errore di confronto: un campione da 229 caratteri contro la media di una
@@ -53,4 +56,6 @@ ElevenLabs fatturato da HeyGen.
 
 **Prova in corso:** il modulo 7 del corso LNV si fa con la strada HeyGen, per
 deciderla sui fatti. Finché non è chiusa, tutto il resto resta su ElevenLabs
-diretto.
+diretto. **Primo risultato, la 7.1:** stesso ritmo della 6.5 con `atempo`
+1,16, 43 confini su 43 giusti al primo colpo senza trascrizione, 40 crediti
+HeyGen in tutto. Il registro è `produzione/registri/lnv-7-1.md`.
