@@ -148,14 +148,15 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.2-emorragia` | Modulo 16 · 16.2 Emorragia digestiva nel paziente cirrotico | 8:56.1 | `eb070a7535b2ba30374abc3357125fb2` |
 | `m16-l16.3-iperkaliemia` | Modulo 16 · 16.3 Il paziente dializzato con iperkaliemia | 9:01.2 | `a7ae046c353b550061da14ff0682085a` |
 | `m16-l16.4-embolia` | Modulo 16 · 16.4 L'embolia polmonare in Medicina | 9:06.1 | `52ef12e20d88aecefdd3b66c8481b8d4` |
+| `m16-l16.5-clostridioides` | Modulo 16 · 16.5 Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
+| `m16-l16.6-politrauma` | Modulo 16 · 16.6 Il politrauma | 8:54.2 | `8b0e5175a8b3ac094c851849d3721aac` |
 | `m16-l16.7-ustionato` | Modulo 16 · 16.7 Il grande ustionato | 8:57.7 | `0ca0a0f6996b0f140b9e50b81fb7aebd` |
 | `m16-l16.8-chetoacidosi` | Modulo 16 · 16.8 La chetoacidosi all'esordio | 9:06.8 | `79de8b7bf3e9f72ef4cb7b910e48e245` |
 | `m16-l16.9-enterale` | Modulo 16 · 16.9 Nutrizione enterale, polmonite da inalazione e rialimentazione | 9:06.1 | `dfe463127e4a0de2c6bbc87cbbcf0d44` |
-| `m16-l16.5-clostridioides` | Modulo 16 · 16.5 Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
-| `m16-l16.6-politrauma` | Modulo 16 · 16.6 Il politrauma | 8:54.2 | `8b0e5175a8b3ac094c851849d3721aac` |
 | `m16-l16.10-monossido` | Modulo 16 · 16.10 Una famiglia intossicata dal monossido | 8:49.3 | `af235d11df9dcee7d2797de9dd94018b` |
-| `m17-l17.1-preeclampsia` | Modulo 17 · 17.1 La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
 | `m16-l16.11-ventilato` | Modulo 16 · 16.11 Il paziente ventilato in terapia intensiva | 8:59.5 | `530ac0f75ca5ba27085a251271abe438` |
+| `m16-l16.12-riepilogo` | Modulo 16 · 16.12 Riepilogo del modulo e casi lampo | 8:45.9 | `4b53692893f01bc810f39c02c1bc33f7` |
+| `m17-l17.1-preeclampsia` | Modulo 17 · 17.1 La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
 | `m17-l17.2-postpartum` | Modulo 17 · 17.2 L'emorragia post-partum e il neonato | 8:46.5 | `4d4ec5ef9a3203279b7e3dde2f4930ec` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
