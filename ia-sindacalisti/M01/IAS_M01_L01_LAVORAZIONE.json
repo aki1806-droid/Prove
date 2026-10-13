@@ -1,0 +1,46 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "Le registrazioni schermo R01-R06 sono sostituite da ricostruzioni animate: le risposte a schermo sono scritte per il video, non generate da ChatGPT, Claude o Gemini. Prima della pubblicazione Achille decide se tenerle (con l'etichetta «Ricostruzione») o registrare le prove vere.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "segnaposto_aperti": [
+  "R01-R06: ricostruzioni al posto delle registrazioni"
+ ],
+ "voce": {
+  "richiesta": "Achille nuovo 1 v4",
+  "usata": "Achille nuovo 1",
+  "voice_id": "KerPEYZvLEWNATg4AARX",
+  "modello": "eleven_v4",
+  "flow_elevenlabs": "VUJb16mfJwV9Wd8pcD6C",
+  "generazioni_per_blocco": 1,
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.12; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.35,
+  "loudnorm": "I=-16:TP=-1.5:LRA=11",
+  "nota": "Lo script non è stato modificato: con le pause da 0,35 s la lezione arriva già a 12:04."
+ },
+ "ricostruzioni": {
+  "cosa": "R01-R06 in M01/ricostruzioni/IAS_M01_L01_Rnn[_k].html, motore kit/ricostruzione.js e .css. Ogni registrazione è divisa in due o tre parti (domanda e risposta, o uno strumento per parte), così nessuna inquadratura supera i 9 s.",
+  "come": "Interfaccia di chat neutra con la palette del corso, nome dello strumento solo come testo, etichetta «Ricostruzione» fissa, cursore evidenziato, zoom fino a 1,2-1,3. In R02 le due risposte affiancate con le frasi diverse evidenziate e il dettaglio in più («e resta in carica tre anni») in rosso tenue.",
+  "attenzione": "Le risposte sono scritte per il video. Contenuti da far verificare ad Achille: la RSU eletta da tutti i lavoratori, iscritti e non, e in carica tre anni (R01-R03); la spiegazione del meccanismo (R04); R05 cita l'accordo di esempio di PROMPT-VISIVI (art. 4, comma 1, 22-6); R06 non inventa notizie: le fonti trovate sono barre grigie anonime e la risposta a memoria rimanda all'ARAN o al sindacato."
+ },
+ "montaggio": {
+  "aggiunte": "Dieci blocchi avevano una sola scena grafica e più tempo di quanto la regola dei 9 s consenta: aggiunte le immagini I09-I18 e le varianti C02d-e, C03c, C04f-g, più un riuso di I05 in B34 (vedi AGGIUNTE.json).",
+  "camera": "Zoom lento dopo la fine delle animazioni sul dettaglio indicato in CAMERA.json; A3 ha fondo scuro.",
+  "regola_dei_fondi": "Le ricostruzioni, come le immagini, non contano nella regola delle tre inquadrature di fila con lo stesso fondo: sono riprese dello schermo, non scene grafiche.",
+  "strumenti": "render.js e fine_animazioni.js gestiscono anche le animazioni SMIL (pauseAnimations/setCurrentTime), come chiede il nuovo CLAUDE.md; pagine.py adattato alla nuova scena.html (la funzione disegna non espone più P)."
+ },
+ "problemi": [
+  "Higgsfield ha crediti (562) ma è ancora in grace period con il limite giornaliero raggiunto: immagini e clip su ElevenLabs.",
+  "I03: le lettere della tastiera dello smartphone sono leggibili (QWERTY); le parole suggerite sono sfocate. Tenuta perché il soggetto lo richiede.",
+  "I07: i numeri del calendario sono piccoli ma si intravedono.",
+  "Nessun controllo di trascrizione della voce: da ascoltare."
+ ],
+ "costi_usd": {
+  "voce": 2.0,
+  "immagini": 2.83,
+  "clip": 7.35,
+  "totale": 12.18,
+  "nota": "stima dai crediti ElevenLabs (21 immagini, 21 clip, circa 12.100 caratteri di voce)"
+ }
+}
