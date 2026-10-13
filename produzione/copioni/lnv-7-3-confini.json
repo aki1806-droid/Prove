@@ -1,0 +1,464 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "break_heygen": [
+   15.6,
+   17.2
+  ],
+  "taglio": 16.41,
+  "scarto": 0.01,
+  "coda": "trattativa ogni informazione vale soldi."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "break_heygen": [
+   32.583,
+   34.183
+  ],
+  "taglio": 33.38,
+  "scarto": 0.003,
+  "coda": "e vale la pena conoscerla."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s05",
+  "break_heygen": [
+   13.92,
+   15.52
+  ],
+  "taglio": 14.766,
+  "scarto": 0.046,
+  "coda": "sanno che l'altro lo sa."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s06",
+  "break_heygen": [
+   28.571,
+   30.171
+  ],
+  "taglio": 29.421,
+  "scarto": 0.05,
+  "coda": "non quello che c'e' sotto."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s07",
+  "break_heygen": [
+   46.022,
+   47.622
+  ],
+  "taglio": 46.882,
+  "scarto": 0.06,
+  "coda": "chi crede di saperli leggere."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s09",
+  "break_heygen": [
+   6.08,
+   7.68
+  ],
+  "taglio": 6.948,
+  "scarto": 0.068,
+  "coda": "davvero. Ma a un'altra cosa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s10",
+  "break_heygen": [
+   22.88,
+   24.48
+  ],
+  "taglio": 23.701,
+  "scarto": 0.021,
+  "coda": "Spesso non lo dice nemmeno."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s11",
+  "break_heygen": [
+   38.183,
+   39.783
+  ],
+  "taglio": 39.025,
+  "scarto": 0.042,
+  "coda": "chiedere di piu' proprio li'."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s12",
+  "break_heygen": [
+   52.663,
+   54.263
+  ],
+  "taglio": 53.551,
+  "scarto": 0.088,
+  "coda": "una domanda che non serviva."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s13",
+  "break_heygen": [
+   69.543,
+   71.143
+  ],
+  "taglio": 70.43,
+  "scarto": 0.087,
+  "coda": "il bisogno e' il perche'."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s14",
+  "break_heygen": [
+   85.81,
+   87.41
+  ],
+  "taglio": 86.651,
+  "scarto": 0.041,
+  "coda": "quando avevano trovato dove chiedere."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s15",
+  "break_heygen": [
+   89.57,
+   91.17
+  ],
+  "taglio": 90.408,
+  "scarto": 0.038,
+  "coda": "Non quanto cedera'. Su cosa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s16",
+  "break_heygen": [
+   105.513,
+   107.113
+  ],
+  "taglio": 106.398,
+  "scarto": 0.085,
+  "coda": "quasi mai e' chi parla."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s17",
+  "break_heygen": [
+   121.193,
+   122.793
+  ],
+  "taglio": 122.028,
+  "scarto": 0.035,
+  "coda": "di farlo e chi no."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s19",
+  "break_heygen": [
+   5.76,
+   7.36
+  ],
+  "taglio": 6.578,
+  "scarto": 0.018,
+  "coda": "costano di piu' che altrove."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s20",
+  "break_heygen": [
+   20.343,
+   21.943
+  ],
+  "taglio": 21.207,
+  "scarto": 0.064,
+  "coda": "quello decidera' le sue mosse."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s21",
+  "break_heygen": [
+   36.583,
+   38.183
+  ],
+  "taglio": 37.43,
+  "scarto": 0.047,
+  "coda": "proprio perche' viene letto male."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s22",
+  "break_heygen": [
+   51.234,
+   52.834
+  ],
+  "taglio": 52.093,
+  "scarto": 0.059,
+  "coda": "la tua linea di base."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s23",
+  "break_heygen": [
+   65.885,
+   67.485
+  ],
+  "taglio": 66.731,
+  "scarto": 0.046,
+  "coda": "per fare la domanda giusta."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s24",
+  "break_heygen": [
+   81.005,
+   82.605
+  ],
+  "taglio": 81.848,
+  "scarto": 0.043,
+  "coda": "quello in cui si cambia."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s25",
+  "break_heygen": [
+   93.575,
+   95.175
+  ],
+  "taglio": 94.398,
+  "scarto": 0.023,
+  "coda": "piu' in fretta delle altre."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s26",
+  "break_heygen": [
+   108.785,
+   110.385
+  ],
+  "taglio": 109.601,
+  "scarto": 0.016,
+  "coda": "c'e' disciplina che lo anticipi."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s27",
+  "break_heygen": [
+   122.876,
+   124.476
+  ],
+  "taglio": 123.722,
+  "scarto": 0.046,
+  "coda": "colpo proprio su quel punto."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s28",
+  "break_heygen": [
+   137.276,
+   138.876
+  ],
+  "taglio": 138.136,
+  "scarto": 0.06,
+  "coda": "piu' chiara che potevi dargli."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s30",
+  "break_heygen": [
+   14.64,
+   16.24
+  ],
+  "taglio": 15.486,
+  "scarto": 0.046,
+  "coda": "quando non te lo aspetti."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s31",
+  "break_heygen": [
+   32.251,
+   33.851
+  ],
+  "taglio": 33.107,
+  "scarto": 0.056,
+  "coda": "non ti cambia la voce."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s32",
+  "break_heygen": [
+   47.702,
+   49.302
+  ],
+  "taglio": 48.578,
+  "scarto": 0.076,
+  "coda": "sei sicuro di averlo visto."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s33",
+  "break_heygen": [
+   64.272,
+   65.872
+  ],
+  "taglio": 65.104,
+  "scarto": 0.032,
+  "coda": "uno scambio diventa un esame."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s34",
+  "break_heygen": [
+   78.192,
+   79.792
+  ],
+  "taglio": 79.041,
+  "scarto": 0.049,
+  "coda": "nessuno parla piu' del merito."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s35",
+  "break_heygen": [
+   93.963,
+   95.563
+  ],
+  "taglio": 94.817,
+  "scarto": 0.054,
+  "coda": "sa anche che leggi male."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s36",
+  "break_heygen": [
+   108.683,
+   110.283
+  ],
+  "taglio": 109.549,
+  "scarto": 0.066,
+  "coda": "si recupera nella stessa trattativa."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s37",
+  "break_heygen": [
+   124.694,
+   126.294
+  ],
+  "taglio": 125.548,
+  "scarto": 0.054,
+  "coda": "che debba difendersi da niente."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s38",
+  "break_heygen": [
+   140.865,
+   142.465
+  ],
+  "taglio": 141.725,
+  "scarto": 0.06,
+  "coda": "hai fatto una domanda normale."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s40",
+  "break_heygen": [
+   12.96,
+   14.56
+  ],
+  "taglio": 13.822,
+  "scarto": 0.062,
+  "coda": "due ha perso la faccia."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s41",
+  "break_heygen": [
+   29.131,
+   30.731
+  ],
+  "taglio": 30.0,
+  "scarto": 0.069,
+  "coda": "ha finito il suo lavoro."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s42",
+  "break_heygen": [
+   46.251,
+   47.851
+  ],
+  "taglio": 47.097,
+  "scarto": 0.046,
+  "coda": "al tavolo, da qualunque parte."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s43",
+  "break_heygen": [
+   62.411,
+   64.011
+  ],
+  "taglio": 63.264,
+  "scarto": 0.053,
+  "coda": "proposte, non con gli occhi."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s44",
+  "break_heygen": [
+   76.331,
+   77.931
+  ],
+  "taglio": 77.158,
+  "scarto": 0.027,
+  "coda": "ottenere una partita a scacchi."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s45",
+  "break_heygen": [
+   93.714,
+   95.314
+  ],
+  "taglio": 94.57,
+  "scarto": 0.056,
+  "coda": "non c'e' niente da controllare."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s46",
+  "break_heygen": [
+   107.581,
+   109.181
+  ],
+  "taglio": 108.409,
+  "scarto": 0.028,
+  "coda": "massimo, ti dicono dove chiedere."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s47",
+  "break_heygen": [
+   112.564,
+   114.164
+  ],
+  "taglio": 113.419,
+  "scarto": 0.055,
+  "coda": "il canale che stava usando."
+ },
+ {
+  "chunk": "F",
+  "fine_di": "s48",
+  "break_heygen": [
+   127.924,
+   129.524
+  ],
+  "taglio": 128.723,
+  "scarto": 0.001,
+  "coda": "sul telefono, prima di sederti."
+ }
+]

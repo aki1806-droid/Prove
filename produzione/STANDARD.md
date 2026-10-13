@@ -36,7 +36,12 @@ non sul costo. Vedi la tabella in `CLAUDE.md` e il §voce di
   traccia si uniscono con ` <break time="1.6s"/> `, e
   `script/confini_heygen.py` taglia a metà di ogni pausa oltre 1,1 s (sulla
   7.1 le pause interne arrivano a 0,89 s, quelle di confine non scendono
-  sotto 1,29). Niente trascrizione di verifica. Costo misurato: **39 crediti
+  sotto 1,29). Niente trascrizione di verifica.
+- **Con HeyGen non ci sono tag audio, e `speed` non funziona**: con il motore
+  ElevenLabs `create_speech` ignora il parametro (misurato sulla 7.3: una
+  traccia a `speed: 0.9` è uscita più veloce di una a 1,0). Quando lo script
+  chiede di dire piano un passaggio, si rallenta in post e solo quei blocchi:
+  `PIANO=s05,s06 ATEMPO_PIANO=1.04 ATEMPO=1.16 tagli.py applica …`. Costo misurato: **39 crediti
   HeyGen di voce sulla 7.1, 30 sulla 7.2, più 1 di render**.
 - Una traccia audio per scena. Il parlato si spezza ai confini di concetto,
   non a caso: ogni blocco è quello che sta sopra una singola inquadratura.

@@ -1,0 +1,443 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.3",
+"title": "La trattativa",
+"sub": "Applicazioni"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "la promessa che circola",
+"title": "Leggere il limite dell'altro.<br><span class=\"gold\">Quando bluffa, quando cede.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "non funziona",
+"title": "E qui c'è una ragione in più.<br><span class=\"gold\">Specifica della trattativa.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "il vincolo del modulo, detto ad alta voce",
+"title": "Niente di quello che vedi<br><span class=\"gold\">ti dice che persona hai davanti.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "l'unico contesto del corso in cui",
+"title": "L'osservazione è reciproca.<br><span class=\"gold\">E dichiarata.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "e questo cambia tutto",
+"title": "Chi sa di essere letto<br><span class=\"gold\">si controlla.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "segnali costruiti per essere visti",
+"plain": true,
+"rows": [
+"Una pausa lunga prima di un sì",
+"Un sospiro davanti a una cifra",
+"Uno sguardo all'orologio"
+],
+"note": "Funzionano proprio con chi crede di saperli leggere."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "il canale meno affidabile di tutti",
+"title": "Dove la lettura vende di più,<br><span class=\"gold\">funziona di meno.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "Non a sapere il suo limite.<br><span class=\"gold\">A sapere su cosa chiedere.</span>"
+},
+{
+"file": "c11",
+"layout": "confronto",
+"occhio": "due punti sul tavolo",
+"titoli": [
+"Il prezzo",
+"I tempi di consegna"
+],
+"righe": [
+{
+"et": "Quando lo nomini",
+"a": "nessun cambiamento",
+"b": "un cambiamento"
+},
+{
+"et": "Che cosa ne fai",
+"a": "vai avanti",
+"b": "chiedi ancora, lì",
+"segna": true
+}
+]
+},
+{
+"file": "c12",
+"layout": "swap",
+"kicker": "la differenza",
+"rows": [
+[
+"Quanto cederà",
+"una lettura: sbaglia"
+],
+[
+"Su cosa",
+"una direzione: al massimo, una domanda in più"
+]
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "posizioni e bisogni",
+"title": "La posizione è quello che chiede.<br><span class=\"gold\">Il bisogno è il perché.</span>"
+},
+{
+"file": "c14",
+"layout": "flusso",
+"kicker": "l'ordine giusto",
+"passi": [
+{
+"et": "Osservi",
+"sub": "dove"
+},
+{
+"et": "Chiedi",
+"sub": "lì"
+},
+{
+"et": "Sai",
+"sub": "il perché"
+}
+],
+"acceso": 1
+},
+{
+"file": "c15",
+"layout": "memo",
+"title": "Non quanto cederà.<br>Su cosa."
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "più leggibile in trattativa",
+"rows": [
+"Il ritmo della voce",
+"Chi guarda chi",
+"Il cambio di postura collettivo",
+"Chi interrompe chi"
+],
+"plain": true,
+"note": "Il ritmo è difficile da controllare. Chi guarda chi dice chi decide, e quasi mai è chi parla."
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "più leggibile in trattativa",
+"rows": [
+"Il ritmo della voce",
+"Chi guarda chi",
+"Il cambio di postura collettivo",
+"Chi interrompe chi"
+],
+"active": 2,
+"note": "Tutto il gruppo indietro insieme: l'argomento, per loro, è chiuso."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "e per questo reggono",
+"title": "Nessuna riguarda una persona.<br><span class=\"gold\">Tutte riguardano il gruppo.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "perché costano di più",
+"title": "Dall'altra parte qualcuno osserva.<br><span class=\"gold\">E userà quello che vede.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "l'asimmetria",
+"title": "La sua lettura è inaffidabile.<br><span class=\"gold\">Ma agirà su quella.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "il tuo segnale più costoso",
+"title": "Non è una postura."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "è il cambiamento sulla cosa che conta",
+"title": "Causa, momento, punto.<br><span class=\"gold\">Tutto preciso.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "e non serve che l'altro sia bravo",
+"title": "Tutti stanno attenti<br><span class=\"gold\">proprio quando conta.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "dove quasi tutti si tradiscono",
+"title": "La reazione alla cosa<br><span class=\"gold\">che ti interessa davvero.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "come ci si tradisce",
+"plain": true,
+"rows": [
+"Un cambiamento di ritmo",
+"Un raddrizzarsi sulla sedia",
+"Una risposta mezzo secondo più veloce"
+],
+"note": "L'interesse arriva prima della strategia."
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "la soluzione non è controllarsi",
+"title": "Controllarsi<br><span class=\"gold\">produce un altro segnale.</span>"
+},
+{
+"file": "c28",
+"layout": "flusso",
+"kicker": "che cosa vede l'altro",
+"passi": [
+{
+"et": "Interesse",
+"sub": "arriva prima"
+},
+{
+"et": "Controllo",
+"sub": "arriva dopo"
+},
+{
+"et": "L'altro",
+"sub": "li vede tutti e due"
+}
+],
+"acceso": 2
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "la soluzione",
+"title": "Decidere prima.<br><span class=\"gold\">Una cosa attesa non sorprende.</span>"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "decidere prima vuol dire",
+"plain": true,
+"rows": [
+"Qual è il punto che conta",
+"Che cosa accetteresti su quel punto",
+"In che momento vuoi che arrivi"
+],
+"note": "Tre cose concrete."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "e scriverlo aiuta",
+"title": "Una cosa scritta prima<br><span class=\"gold\">arriva come una cosa attesa.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "la regola etica del corso, applicata qui",
+"title": "Non si nomina mai<br><span class=\"gold\">un segnale della controparte.</span>"
+},
+{
+"file": "c33",
+"layout": "quote",
+"kicker": "detta così, sembra acume",
+"title": "Hai incrociato le braccia<br>appena ho detto il prezzo."
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "da quel momento",
+"title": "Una partita su chi legge chi.<br><span class=\"gold\">E nessuno parla più del merito.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "e c'è un costo in più",
+"title": "Ora sa che leggi.<br><span class=\"gold\">E sa che leggi male.</span>"
+},
+{
+"file": "c36",
+"layout": "swap",
+"kicker": "nominare un segnale costa due volte",
+"rows": [
+[
+"Chiude il canale",
+"che stavi usando"
+],
+[
+"Ti costa credibilità",
+"dove pensavi di guadagnarne"
+]
+]
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "la seconda mossa della lezione sei punto quattro",
+"title": "Tornare<br><span class=\"gold\">su quel punto.</span>"
+},
+{
+"file": "c38",
+"layout": "quote",
+"kicker": "per esempio",
+"title": "Sui tempi,<br>torniamoci un attimo."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la stessa logica del colloquio",
+"title": "L'osservazione dice dove chiedere.<br><span class=\"gold\">La risposta dice il resto.</span>"
+},
+{
+"file": "c40",
+"layout": "bivio",
+"da": "Torni sul punto",
+"rami": [
+{
+"et": "Non succede niente",
+"sub": "era rumore: lasci perdere"
+},
+{
+"et": "Dice di più",
+"sub": "una domanda, o una proposta"
+}
+],
+"acceso": 0
+},
+{
+"file": "c41",
+"layout": "bivio",
+"da": "Torni sul punto",
+"rami": [
+{
+"et": "Non succede niente",
+"sub": "era rumore: lasci perdere"
+},
+{
+"et": "Dice di più",
+"sub": "una domanda, o una proposta"
+}
+],
+"acceso": 1
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggere il limite della controparte",
+"Nominare un segnale altrui",
+"Controllarsi invece di decidere prima",
+"Scambiare la lettura per la trattativa"
+],
+"plain": true,
+"note": "Valgono per chiunque sieda al tavolo."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggere il limite della controparte",
+"Nominare un segnale altrui",
+"Controllarsi invece di decidere prima",
+"Scambiare la lettura per la trattativa"
+],
+"active": 0,
+"note": "Il limite si scopre con le proposte, non con gli occhi."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggere il limite della controparte",
+"Nominare un segnale altrui",
+"Controllarsi invece di decidere prima",
+"Scambiare la lettura per la trattativa"
+],
+"active": 1,
+"note": "È una mossa, e chiude il canale."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggere il limite della controparte",
+"Nominare un segnale altrui",
+"Controllarsi invece di decidere prima",
+"Scambiare la lettura per la trattativa"
+],
+"active": 2,
+"note": "Senza sorpresa non c'è niente da controllare."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Leggere il limite della controparte",
+"Nominare un segnale altrui",
+"Controllarsi invece di decidere prima",
+"Scambiare la lettura per la trattativa"
+],
+"active": 3,
+"note": "Gli occhi, al massimo, ti dicono dove chiedere."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Chi nomina un segnale altrui<br>chiude il canale<br>che stava usando."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Prima di entrare: quale punto conta",
+"Scrivilo",
+"Prima di sederti"
+],
+"note": "È l'unico modo per non reagire quando arriva."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "La riunione e il gruppo."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

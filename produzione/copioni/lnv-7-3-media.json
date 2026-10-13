@@ -1,0 +1,14 @@
+{
+ "s09": {
+  "tipo": "immagine",
+  "nome": "due-cartelline-tavolo-lungo",
+  "url": "https://resource2.heygen.ai/image/19390c95143f44b3a88688c053f6e022/original.png",
+  "nota": "due cartelline chiuse su un lungo tavolo da riunione, viste da vicino lungo il piano del tavolo - VISTA. Lo script le vuole una di fronte all'altra: qui sono affiancate. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s19": {
+  "tipo": "immagine",
+  "nome": "sala-riunioni-sedie-contrapposte",
+  "url": "https://resource2.heygen.ai/image/9853eb5240fc46c59a2bc04bc50b59fc/original.png",
+  "nota": "una sala riunioni vuota con un tavolo lungo e due file di sedie contrapposte, vista da un capo del tavolo - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

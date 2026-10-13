@@ -264,6 +264,10 @@ ATEMPO=1.16 tagli.py applica <dir> scrive i blocchi + le pose
 Niente trascrizione, niente `verifica.py`, niente `banda.py`. Sulla 7.1 del
 corso LNV: 43 confini su 43 al primo colpo.
 
+Un passaggio da dire piano non si ottiene con `speed` (HeyGen lo ignora con
+il motore ElevenLabs) ma in post: `PIANO=s05,s06 ATEMPO_PIANO=1.04` davanti a
+`tagli.py applica` rallenta solo quei blocchi.
+
 Se i crediti di trascrizione sono finiti, la verifica parola per parola non si
 fa e al suo posto va `banda.py`: `banda` per gli scarti di durata sul parlato
 netto, `sposta` per provare le pause attorno a un confine sospetto, `silenzi`

@@ -221,6 +221,12 @@ Il confronto A/B sul blocco `s34` della 6.5, grezzo contro grezzo, sta in
   grezzo della stessa lunghezza e il saldo letto subito prima e subito dopo,
   la voce è costata **30**. Con due misure il conto sta fra **30 e 40
   crediti HeyGen a lezione**, render compreso.
+- **«va detto piano» si fa in post** (7.3): con HeyGen non ci sono tag
+  audio, e il parametro `speed` di `create_speech` con il motore ElevenLabs
+  viene ignorato — una traccia a `speed: 0.9` è uscita a 16,2 caratteri al
+  secondo, una a 1,0 a 15,4. `tagli.py` accetta `PIANO` (i blocchi) e
+  `ATEMPO_PIANO` (il loro `atempo`, 1,04 di base): quei blocchi escono il 10%
+  più lenti, il resto della lezione resta a 1,16;
 - il registro tiene `lnv-7-1-confini.json` al posto di
   `verifica-tagli.json`: per ogni confine il silenzio, la sua durata, il
   punto di taglio e le ultime parole del blocco.

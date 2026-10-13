@@ -27,6 +27,12 @@ import json, os, re, subprocess, sys, unicodedata, difflib
 # due sorgenti a parita' di atempo non danno lo stesso ritmo, e non si
 # mescolano dentro lo stesso corso.
 ATEMPO = os.environ.get('ATEMPO', '1.12')
+# PIANO: blocchi che lo script chiede di dire piano (es. "s05,s06"), con il
+# loro atempo in ATEMPO_PIANO. Con HeyGen non ci sono tag audio, e il
+# parametro `speed` di create_speech con il motore ElevenLabs viene ignorato
+# (misurato sulla 7.3): il rallentamento si fa qui, blocco per blocco.
+PIANO = set(filter(None, os.environ.get('PIANO', '').split(',')))
+ATEMPO_PIANO = os.environ.get('ATEMPO_PIANO', '1.04')
 FILTRO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
           "stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,"
           f"atempo={ATEMPO}")
@@ -303,7 +309,9 @@ def applica(d, tieni=None):
     out = {}
     for k in ch:
         for i, b in enumerate(ch[k]):
-            af = FILTRO + (f',apad=whole_dur={tieni[b]}' if b in tieni else '')
+            af = FILTRO if b not in PIANO else FILTRO.replace(
+                f'atempo={ATEMPO}', f'atempo={ATEMPO_PIANO}')
+            af += f',apad=whole_dur={tieni[b]}' if b in tieni else ''
             p = f'{d}/mp3u/{b}.mp3'
             # HeyGen restituisce WAV: si taglia dal WAV, senza ricomprimere
             # due volte. ElevenLabs restituisce MP3.
