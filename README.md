@@ -156,6 +156,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.10-monossido` | Modulo 16 · 16.10 Una famiglia intossicata dal monossido | 8:49.3 | `af235d11df9dcee7d2797de9dd94018b` |
 | `m17-l17.1-preeclampsia` | Modulo 17 · 17.1 La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
 | `m16-l16.11-ventilato` | Modulo 16 · 16.11 Il paziente ventilato in terapia intensiva | 8:59.5 | `530ac0f75ca5ba27085a251271abe438` |
+| `m17-l17.2-postpartum` | Modulo 17 · 17.2 L'emorragia post-partum e il neonato | 8:46.5 | `4d4ec5ef9a3203279b7e3dde2f4930ec` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
