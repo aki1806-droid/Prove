@@ -1,5 +1,47 @@
 [
  {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 2.891,
+  "testo": "Ultimo confronto con la Direzione dell'Azienda Ospedale"
+ },
+ {
+  "scena": "S01",
+  "inizio": 2.931,
+  "fine": 4.256,
+  "testo": "Università di Padova."
+ },
+ {
+  "scena": "S01",
+  "inizio": 4.296,
+  "fine": 7.875,
+  "testo": "Sul tavolo 6 questioni che riguardano da vicino chi lavora:"
+ },
+ {
+  "scena": "S01",
+  "inizio": 7.915,
+  "fine": 9.759,
+  "testo": "incentivi per le funzioni tecniche,"
+ },
+ {
+  "scena": "S01",
+  "inizio": 9.799,
+  "fine": 12.062,
+  "testo": "dialisi, operatori socio sanitari di notte,"
+ },
+ {
+  "scena": "S01",
+  "inizio": 12.102,
+  "fine": 14.958,
+  "testo": "assunzioni, incarichi e Oncoematologia pediatrica."
+ },
+ {
+  "scena": "S01",
+  "inizio": 14.998,
+  "fine": 18.779,
+  "testo": "Ecco cosa abbiamo detto, cosa abbiamo ottenuto e su cosa non arretriamo."
+ },
+ {
   "scena": "S02",
   "inizio": 19.236,
   "fine": 22.119,
@@ -94,6 +136,126 @@
   "inizio": 58.241,
   "fine": 60.543,
   "testo": "Prima si corregge, poi si firma."
+ },
+ {
+  "scena": "S04",
+  "inizio": 61.06,
+  "fine": 61.483,
+  "testo": "Dialisi."
+ },
+ {
+  "scena": "S04",
+  "inizio": 61.523,
+  "fine": 66.079,
+  "testo": "Le attività di via Giustiniani si concentrano all'Ospedale Sant'Antonio."
+ },
+ {
+  "scena": "S04",
+  "inizio": 66.119,
+  "fine": 69.212,
+  "testo": "I posti letto restano 50, l'impianto di osmosi è"
+ },
+ {
+  "scena": "S04",
+  "inizio": 69.252,
+  "fine": 72.493,
+  "testo": "stato rinnovato e la turnistica ordinaria non cambia."
+ },
+ {
+  "scena": "S04",
+  "inizio": 72.533,
+  "fine": 74.755,
+  "testo": "Sono arrivati 2 operatori socio sanitari,"
+ },
+ {
+  "scena": "S04",
+  "inizio": 74.795,
+  "fine": 76.95,
+  "testo": "ma mancano ancora 2 infermieri."
+ },
+ {
+  "scena": "S04",
+  "inizio": 76.99,
+  "fine": 80.373,
+  "testo": "E l'informativa al sindacato è arrivata a cose quasi fatte:"
+ },
+ {
+  "scena": "S04",
+  "inizio": 80.413,
+  "fine": 83.194,
+  "testo": "i cambiamenti si discutono prima, non dopo."
+ },
+ {
+  "scena": "S04",
+  "inizio": 83.234,
+  "fine": 86.382,
+  "testo": "Seguiremo da vicino organici, formazione e carichi di lavoro."
+ },
+ {
+  "scena": "S05",
+  "inizio": 86.865,
+  "fine": 89.146,
+  "testo": "Operatori socio sanitari nei turni di notte,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 89.186,
+  "fine": 90.641,
+  "testo": "soprattutto nelle chirurgie."
+ },
+ {
+  "scena": "S05",
+  "inizio": 90.681,
+  "fine": 92.669,
+  "testo": "Non è una richiesta nuova:"
+ },
+ {
+  "scena": "S05",
+  "inizio": 92.709,
+  "fine": 96.416,
+  "testo": "era già in una dichiarazione congiunta con la precedente Direzione."
+ },
+ {
+  "scena": "S05",
+  "inizio": 96.456,
+  "fine": 99.022,
+  "testo": "I pazienti sono più complessi e più anziani,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 99.062,
+  "fine": 101.336,
+  "testo": "e la notte non si regge senza supporto."
+ },
+ {
+  "scena": "S05",
+  "inizio": 101.376,
+  "fine": 104.018,
+  "testo": "Abbiamo chiesto dati sugli operatori socio sanitari"
+ },
+ {
+  "scena": "S05",
+  "inizio": 104.058,
+  "fine": 106.391,
+  "testo": "assunti, una valutazione dei fabbisogni e una"
+ },
+ {
+  "scena": "S05",
+  "inizio": 106.431,
+  "fine": 108.557,
+  "testo": "sperimentazione in un reparto chirurgico,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 108.597,
+  "fine": 110.522,
+  "testo": "anche in Chirurgia d'Urgenza."
+ },
+ {
+  "scena": "S05",
+  "inizio": 110.562,
+  "fine": 113.726,
+  "testo": "La Direzione apre, ma un impegno concreto ancora non c'è."
  },
  {
   "scena": "S06",
