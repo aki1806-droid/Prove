@@ -158,15 +158,16 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.12-riepilogo` | Modulo 16 · 16.12 Riepilogo del modulo e casi lampo | 8:45.9 | `4b53692893f01bc810f39c02c1bc33f7` |
 | `m17-l17.1-preeclampsia` | Modulo 17 · 17.1 La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
 | `m17-l17.2-postpartum` | Modulo 17 · 17.2 L'emorragia post-partum e il neonato | 8:46.5 | `4d4ec5ef9a3203279b7e3dde2f4930ec` |
-| `m17-l17.4-suicidario` | Modulo 17 · 17.4 Il rischio suicidario in reparto | 9:12.4 | `9fca450a057ec7b674c52370e293bf05` |
-| `m17-l17.7-palliative` | Modulo 17 · 17.7 Le cure palliative a domicilio | 9:14.7 | `ea7baef5ebbe476127af1844b65931e7` |
 | `m17-l17.3-lattante` | Modulo 17 · 17.3 Il lattante disidratato | 9:13.4 | `f69435cb5658bad2b270a7fc47a3f9ad` |
+| `m17-l17.4-suicidario` | Modulo 17 · 17.4 Il rischio suicidario in reparto | 9:12.4 | `9fca450a057ec7b674c52370e293bf05` |
 | `m17-l17.5-tso` | Modulo 17 · 17.5 L'agitazione psicomotoria e il TSO | 9:15.5 | `206dac5e7942e5b5d88a8ae03fa20e70` |
-| `m17-l17.9-centro-servizi` | Modulo 17 · 17.9 Una notte in un Centro di Servizi | 9:10.1 | `dcc6fbce6630994352158bc2366dfa94` |
-| `m17-l17.8-caregiver` | Modulo 17 · 17.8 L'infermiere di famiglia e il caregiver esausto | 9:13.8 | `69f52ec09284da79b1902d9f976b4806` |
-| `m17-l17.10-straniera` | Modulo 17 · 17.10 La paziente straniera | 9:11.7 | `291c71f843b478b21473248d322aa78b` |
 | `m17-l17.6-oppioidi` | Modulo 17 · 17.6 Il paziente in terapia sostitutiva per oppioidi | 9:11.6 | `3135ee3f6c166032d3afe87f68a17d8a` |
+| `m17-l17.7-palliative` | Modulo 17 · 17.7 Le cure palliative a domicilio | 9:14.7 | `ea7baef5ebbe476127af1844b65931e7` |
+| `m17-l17.8-caregiver` | Modulo 17 · 17.8 L'infermiere di famiglia e il caregiver esausto | 9:13.8 | `69f52ec09284da79b1902d9f976b4806` |
+| `m17-l17.9-centro-servizi` | Modulo 17 · 17.9 Una notte in un Centro di Servizi | 9:10.1 | `dcc6fbce6630994352158bc2366dfa94` |
+| `m17-l17.10-straniera` | Modulo 17 · 17.10 La paziente straniera | 9:11.7 | `291c71f843b478b21473248d322aa78b` |
 | `m17-l17.11-evento-avverso` | Modulo 17 · 17.11 Evento avverso, documentazione e responsabilità | 9:16.5 | `90549afda82f4bbc5a3f9f065b6eba44` |
+| `m17-l17.12-riepilogo` | Modulo 17 · 17.12 Riepilogo del modulo e casi lampo | 8:55.1 | `203dc23b1dcc29c061fedb081e238790` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
