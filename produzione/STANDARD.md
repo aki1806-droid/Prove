@@ -36,8 +36,8 @@ non sul costo. Vedi la tabella in `CLAUDE.md` e il §voce di
   traccia si uniscono con ` <break time="1.6s"/> `, e
   `script/confini_heygen.py` taglia a metà di ogni pausa oltre 1,1 s (sulla
   7.1 le pause interne arrivano a 0,89 s, quelle di confine non scendono
-  sotto 1,29). Niente trascrizione di verifica. Costo misurato sulla 7.1:
-  **39 crediti HeyGen di voce + 1 di render**.
+  sotto 1,29). Niente trascrizione di verifica. Costo misurato: **39 crediti
+  HeyGen di voce sulla 7.1, 30 sulla 7.2, più 1 di render**.
 - Una traccia audio per scena. Il parlato si spezza ai confini di concetto,
   non a caso: ogni blocco è quello che sta sopra una singola inquadratura.
 - **Ogni traccia si accelera a 1,12x con ffmpeg** prima di andare in HeyGen. Il

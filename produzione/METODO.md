@@ -62,8 +62,8 @@ risposta sola, e la differenza di costo è di venti volte:
   crediti ElevenLabs a lezione ($1,73), più ~1.000 di trascrizione per
   verificare i tagli;
 - **HeyGen come passante** — `create_speech`, `engine: "elevenlabs"`,
-  `settings: {"model_id": "eleven_v4"}`. ~40 crediti HeyGen a lezione (39
-  di voce + 1 di render, misurati sulla 7.1), e la trascrizione di verifica
+  `settings: {"model_id": "eleven_v4"}`. 30–40 crediti HeyGen a lezione
+  (voce: 39 sulla 7.1, 30 sulla 7.2; render: 1), e la trascrizione di verifica
   non serve: i blocchi si uniscono con `<break time="1.6s"/>` e
   `script/confini_heygen.py` taglia a metà di ogni pausa lunga.
 

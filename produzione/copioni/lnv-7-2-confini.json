@@ -1,0 +1,475 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "break_heygen": [
+   13.76,
+   15.36
+  ],
+  "taglio": 14.585,
+  "scarto": 0.025,
+  "coda": "i segnali stanno in mezzo."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "break_heygen": [
+   29.131,
+   30.731
+  ],
+  "taglio": 29.964,
+  "scarto": 0.033,
+  "coda": "presa per i motivi sbagliati."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s04",
+  "break_heygen": [
+   43.382,
+   44.982
+  ],
+  "taglio": 44.195,
+  "scarto": 0.013,
+  "coda": "peso che non e' tuo."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s05",
+  "break_heygen": [
+   58.765,
+   60.365
+  ],
+  "taglio": 59.56,
+  "scarto": 0.005,
+  "coda": "Ne' su quanto e' intelligente."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s06",
+  "break_heygen": [
+   74.548,
+   76.148
+  ],
+  "taglio": 75.424,
+  "scarto": 0.076,
+  "coda": "o qualita' di una persona."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s07",
+  "break_heygen": [
+   90.308,
+   91.908
+  ],
+  "taglio": 91.134,
+  "scarto": 0.026,
+  "coda": "che funzioni a volte: nessuno."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s09",
+  "break_heygen": [
+   14.56,
+   16.16
+  ],
+  "taglio": 15.421,
+  "scarto": 0.061,
+  "coda": "punto quattro, usato per decidere."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s10",
+  "break_heygen": [
+   31.691,
+   33.291
+  ],
+  "taglio": 32.515,
+  "scarto": 0.024,
+  "coda": "non sono le meno capaci."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s11",
+  "break_heygen": [
+   47.394,
+   48.994
+  ],
+  "taglio": 48.241,
+  "scarto": 0.047,
+  "coda": "non sono peggiori: sono altre."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s12",
+  "break_heygen": [
+   63.447,
+   65.047
+  ],
+  "taglio": 64.28,
+  "scarto": 0.033,
+  "coda": "cambiano quello che si vede."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s13",
+  "break_heygen": [
+   78.19,
+   79.79
+  ],
+  "taglio": 79.056,
+  "scarto": 0.066,
+  "coda": "e' un errore che discrimina."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s14",
+  "break_heygen": [
+   84.361,
+   85.961
+  ],
+  "taglio": 85.19,
+  "scarto": 0.029,
+  "coda": "ti serve soprattutto per questo."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s15",
+  "break_heygen": [
+   101.161,
+   102.761
+  ],
+  "taglio": 101.997,
+  "scarto": 0.036,
+  "coda": "confermarla, invece che per capirla."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s16",
+  "break_heygen": [
+   116.521,
+   118.121
+  ],
+  "taglio": 117.32,
+  "scarto": 0.001,
+  "coda": "suo percorso, non sai perche'."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s17",
+  "break_heygen": [
+   132.384,
+   133.984
+  ],
+  "taglio": 133.214,
+  "scarto": 0.03,
+  "coda": "si confronta con dei criteri."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s19",
+  "break_heygen": [
+   14.88,
+   16.48
+  ],
+  "taglio": 15.699,
+  "scarto": 0.019,
+  "coda": "che stai li' a valutare."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s20",
+  "break_heygen": [
+   30.263,
+   31.863
+  ],
+  "taglio": 31.11,
+  "scarto": 0.047,
+  "coda": "la tensione invece della competenza."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s21",
+  "break_heygen": [
+   45.166,
+   46.766
+  ],
+  "taglio": 46.002,
+  "scarto": 0.036,
+  "coda": "tarare, a lui a scaldarsi."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s22",
+  "break_heygen": [
+   62.606,
+   64.206
+  ],
+  "taglio": 63.44,
+  "scarto": 0.034,
+  "coda": "un lavoro fatto in due."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s23",
+  "break_heygen": [
+   79.966,
+   81.566
+  ],
+  "taglio": 80.796,
+  "scarto": 0.03,
+  "coda": "la finestra, i tuoi appunti."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s24",
+  "break_heygen": [
+   97.749,
+   99.349
+  ],
+  "taglio": 98.587,
+  "scarto": 0.038,
+  "coda": "niente, riformula; ma non prima."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s25",
+  "break_heygen": [
+   112.32,
+   113.92
+  ],
+  "taglio": 113.17,
+  "scarto": 0.05,
+  "coda": "lavoro che quasi nessuno fa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s26",
+  "break_heygen": [
+   117.771,
+   119.371
+  ],
+  "taglio": 118.611,
+  "scarto": 0.04,
+  "coda": "cui ti trovi piu' spesso."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s27",
+  "break_heygen": [
+   135.302,
+   136.902
+  ],
+  "taglio": 136.155,
+  "scarto": 0.053,
+  "coda": "mentre ascolti, stacca mentre pensi."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s28",
+  "break_heygen": [
+   151.222,
+   152.822
+  ],
+  "taglio": 152.091,
+  "scarto": 0.069,
+  "coda": "perche' hai qualcosa da fare."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s30",
+  "break_heygen": [
+   14.64,
+   16.24
+  ],
+  "taglio": 15.48,
+  "scarto": 0.04,
+  "coda": "servono appunti, stanno sul tavolo."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s31",
+  "break_heygen": [
+   29.211,
+   30.811
+  ],
+  "taglio": 30.038,
+  "scarto": 0.027,
+  "coda": "quella che fa piu' differenza."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s32",
+  "break_heygen": [
+   44.114,
+   45.714
+  ],
+  "taglio": 44.969,
+  "scarto": 0.055,
+  "coda": "in tanti, e con convinzione."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s33",
+  "break_heygen": [
+   58.205,
+   59.805
+  ],
+  "taglio": 59.039,
+  "scarto": 0.034,
+  "coda": "stacca da tutto il resto."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s34",
+  "break_heygen": [
+   71.965,
+   73.565
+  ],
+  "taglio": 72.81,
+  "scarto": 0.045,
+  "coda": "vede una persona che fatica."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s35",
+  "break_heygen": [
+   87.656,
+   89.256
+  ],
+  "taglio": 88.479,
+  "scarto": 0.023,
+  "coda": "chi ascolta legge come tranquillo."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s36",
+  "break_heygen": [
+   102.147,
+   103.747
+  ],
+  "taglio": 102.958,
+  "scarto": 0.011,
+  "coda": "e poi si va avanti."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s37",
+  "break_heygen": [
+   116.89,
+   118.49
+  ],
+  "taglio": 117.734,
+  "scarto": 0.044,
+  "coda": "cui diresti che fuori piove."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s38",
+  "break_heygen": [
+   132.581,
+   134.181
+  ],
+  "taglio": 133.42,
+  "scarto": 0.039,
+  "coda": "insicurezza, impreparazione, qualcosa da nascondere."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s40",
+  "break_heygen": [
+   14.24,
+   15.84
+  ],
+  "taglio": 15.101,
+  "scarto": 0.061,
+  "coda": "la trasforma in un problema."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s41",
+  "break_heygen": [
+   28.651,
+   30.251
+  ],
+  "taglio": 29.502,
+  "scarto": 0.051,
+  "coda": "non averlo. Restano le risposte."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s42",
+  "break_heygen": [
+   44.011,
+   45.611
+  ],
+  "taglio": 44.827,
+  "scarto": 0.016,
+  "coda": "si risponde. Costruire una postura."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s43",
+  "break_heygen": [
+   59.474,
+   61.074
+  ],
+  "taglio": 60.296,
+  "scarto": 0.022,
+  "coda": "faccia dell'altro come sta andando."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s44",
+  "break_heygen": [
+   75.965,
+   77.565
+  ],
+  "taglio": 76.812,
+  "scarto": 0.047,
+  "coda": "e va avanti senza scusarsi."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s45",
+  "break_heygen": [
+   92.205,
+   93.805
+  ],
+  "taglio": 93.073,
+  "scarto": 0.068,
+  "coda": "Il resto viene da se'."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s46",
+  "break_heygen": [
+   108.685,
+   110.285
+  ],
+  "taglio": 109.534,
+  "scarto": 0.049,
+  "coda": "postura qualunque che una recitata."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s47",
+  "break_heygen": [
+   113.885,
+   115.485
+  ],
+  "taglio": 114.69,
+  "scarto": 0.005,
+  "coda": "la tensione, non la competenza."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s48",
+  "break_heygen": [
+   129.348,
+   130.948
+  ],
+  "taglio": 130.203,
+  "scarto": 0.055,
+  "coda": "quanto cambiano le risposte dopo."
+ }
+]

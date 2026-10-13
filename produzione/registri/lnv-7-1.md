@@ -72,13 +72,14 @@ sopra i ~2.750 caratteri che si tengono come margine. Gli stacchi cadono su
 cambi di capitolo — l'apertura, l'osservare, il ribaltamento verso di te, la
 prima frase e l'errore, le quattro cose da non fare.
 
-**Il costo vero è un po' più alto della stima.** 39 crediti per la voce
-(7.375 → 7.336) e **1 per il render** (7.336 → 7.335). La stima dei campioni
-diceva ~35 su 587 s di parlato; la differenza sono le pause di confine, che
-sono audio anche loro e si pagano: 43 × 1,6 s fanno 69 s di silenzio dentro i
-704,5 s di grezzo. **Il conto giusto per una lezione è ~40 crediti HeyGen**,
-contro i ~10.400 crediti ElevenLabs più 1.001 di trascrizione della strada
-diretta.
+**Il costo: 39 crediti per la voce** (7.375 → 7.336) e **1 per il render**
+(7.336 → 7.335). La stima dei campioni diceva ~35 su 587 s di parlato, e qui
+era stata data la colpa alle pause di confine (43 × 1,6 s, 69 s di silenzio
+dentro i 704,5 s di grezzo). **La 7.2 smentisce la spiegazione**: grezzo di
+703,4 s con 43 pause di confine, saldo letto subito prima e subito dopo, 30
+crediti. Con due misure il conto sta fra 30 e 40 crediti HeyGen a lezione,
+render compreso — contro i ~10.400 crediti ElevenLabs più 1.001 di
+trascrizione della strada diretta.
 
 Niente tag `[warm]`: sulla strada HeyGen non è stato provato, e la prova non
 si fa su una lezione vera.

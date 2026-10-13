@@ -1,0 +1,14 @@
+{
+ "s14": {
+  "tipo": "immagine",
+  "nome": "scrivania-sedia-vuota",
+  "url": "https://resource2.heygen.ai/image/a3bdabb18a03454ca7107af00f2fea4c/original.png",
+  "nota": "una scrivania d'ufficio con due fogli bianchi e una penna, una sedia vuota, luce da una finestra laterale - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s26": {
+  "tipo": "immagine",
+  "nome": "corridoio-sedie-porta",
+  "url": "https://resource2.heygen.ai/image/a31480389fd74d5f8c1842e9051d85de/original.png",
+  "nota": "un corridoio d'ufficio con una fila di sedie vuote lungo la parete e una porta chiusa in fondo, luce naturale - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

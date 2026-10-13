@@ -1,0 +1,488 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.2",
+"title": "Il colloquio",
+"sub": "Applicazioni"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "dove queste tecniche si usano di più",
+"title": "Il colloquio.<br><span class=\"gold\">Ed è lì che fanno più danni.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "per questo si comincia così",
+"title": "Prima un divieto.<br><span class=\"gold\">Poi le tecniche.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "e vale da tutte e due le parti del tavolo",
+"title": "Per chi conduce, è una regola.<br><span class=\"gold\">Per chi risponde, è un peso in meno.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"title": "Il linguaggio non verbale<br>non dice niente<br><span class=\"gold\">sulla competenza di una persona.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "niente su",
+"plain": true,
+"rows": [
+"La preparazione",
+"L'affidabilità",
+"Quanto lavorerà bene",
+"Quanto sarà onesta"
+],
+"note": "Né su quanto è intelligente."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "De Pàulo e colleghi, 2003",
+"title": "Centinaia di studi.<br><span class=\"gold\">Nessun segnale che regga.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "e se non regge per quello che provi adesso",
+"title": "Non regge per quello<br><span class=\"gold\">che saprai fare fra sei mesi.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "chi valuta dai segnali",
+"title": "Non valuta il candidato.<br><span class=\"gold\">Misura quanto gli assomiglia.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "e l'errore non è distribuito a caso",
+"title": "Pende sempre dalla stessa parte.<br><span class=\"gold\">Colpisce sempre le stesse persone.</span>"
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "chi penalizza",
+"rows": [
+"Chi è in soggezione",
+"Chi viene da un'altra cultura",
+"Chi ha una condizione che altera i segnali",
+"Chi ha più bisogno del lavoro"
+],
+"plain": true,
+"note": "La soggezione, in un colloquio, è quasi normale. E le regole di un'altra cultura non sono peggiori: sono altre."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "chi penalizza",
+"rows": [
+"Chi è in soggezione",
+"Chi viene da un'altra cultura",
+"Chi ha una condizione che altera i segnali",
+"Chi ha più bisogno del lavoro"
+],
+"active": 2,
+"note": "Timidezza, spettro autistico, un tremore, una balbuzie."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "chi penalizza",
+"rows": [
+"Chi è in soggezione",
+"Chi viene da un'altra cultura",
+"Chi ha una condizione che altera i segnali",
+"Chi ha più bisogno del lavoro"
+],
+"active": 3,
+"note": "Scarta più spesso chi ha più da perdere. È un errore che discrimina."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "se sei tu a valutare",
+"title": "Non per leggere meglio.<br><span class=\"gold\">Per accorgerti che stai leggendo.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "l'unica cosa utile dell'osservazione",
+"title": "Sapere dove fare<br><span class=\"gold\">la prossima domanda.</span>"
+},
+{
+"file": "c17",
+"layout": "flusso",
+"kicker": "dal segnale alla valutazione",
+"passi": [
+{
+"et": "Cambia",
+"sub": "su un periodo"
+},
+{
+"et": "Chiedi",
+"sub": "aperto"
+},
+{
+"et": "Risponde",
+"sub": "un contenuto"
+},
+{
+"et": "Valuti",
+"sub": "con criteri"
+}
+],
+"acceso": 3
+},
+{
+"file": "c18",
+"layout": "memo",
+"title": "Non valuti una persona.<br>Valuti le risposte che ti dà."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "più utile di qualunque osservazione",
+"title": "Abbassare l'attivazione<br><span class=\"gold\">di chi hai davanti.</span>"
+},
+{
+"file": "c20",
+"layout": "confronto",
+"occhio": "lo stesso candidato, due condizioni",
+"titoli": [
+"Teso",
+"Tranquillo"
+],
+"righe": [
+{
+"et": "Ricorda",
+"a": "meno",
+"b": "quello che sa"
+},
+{
+"et": "Si ferma",
+"a": "alla prima risposta",
+"b": "alla migliore"
+},
+{
+"et": "Tu valuti",
+"a": "la tensione",
+"b": "la competenza",
+"segna": true
+}
+]
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "se conduci tu",
+"rows": [
+"Due minuti di argomenti neutri",
+"Sedie ad angolo, non frontali",
+"Non fissare mentre risponde",
+"Tre secondi dopo una domanda difficile"
+],
+"active": 0,
+"note": "I convenevoli della lezione precedente: a te servono a tarare, a lui a scaldarsi."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "se conduci tu",
+"rows": [
+"Due minuti di argomenti neutri",
+"Sedie ad angolo, non frontali",
+"Non fissare mentre risponde",
+"Tre secondi dopo una domanda difficile"
+],
+"active": 1,
+"note": "Frontali è un interrogatorio prima della prima domanda."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "se conduci tu",
+"rows": [
+"Due minuti di argomenti neutri",
+"Sedie ad angolo, non frontali",
+"Non fissare mentre risponde",
+"Tre secondi dopo una domanda difficile"
+],
+"active": 2,
+"note": "Guarda, e ogni tanto lascia andare."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "se conduci tu",
+"rows": [
+"Due minuti di argomenti neutri",
+"Sedie ad angolo, non frontali",
+"Non fissare mentre risponde",
+"Tre secondi dopo una domanda difficile"
+],
+"active": 3,
+"note": "Il tempo minimo per una risposta pensata."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "nessuna ti chiede di leggere",
+"title": "Cambi le condizioni.<br><span class=\"gold\">È la metà che quasi nessuno fa.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "se il candidato sei tu",
+"rows": [
+"Il picco è prima, non durante",
+"Le prime due frasi a memoria",
+"Mani libere, niente foglio",
+"Guarda mentre ascolti, stacca mentre pensi"
+],
+"plain": true,
+"note": "Nessuna è una recita."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "se il candidato sei tu",
+"rows": [
+"Il picco è prima, non durante",
+"Le prime due frasi a memoria",
+"Mani libere, niente foglio",
+"Guarda mentre ascolti, stacca mentre pensi"
+],
+"active": 0,
+"note": "Non devi farla sparire: devi arrivare oltre le prime due frasi."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "se il candidato sei tu",
+"rows": [
+"Il picco è prima, non durante",
+"Le prime due frasi a memoria",
+"Mani libere, niente foglio",
+"Guarda mentre ascolti, stacca mentre pensi"
+],
+"active": 1,
+"note": "Una frase già pronta non chiede risorse."
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "se il candidato sei tu",
+"rows": [
+"Il picco è prima, non durante",
+"Le prime due frasi a memoria",
+"Mani libere, niente foglio",
+"Guarda mentre ascolti, stacca mentre pensi"
+],
+"active": 2,
+"note": "Il foglio amplifica le mani. Gli appunti stanno sul tavolo."
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "se il candidato sei tu",
+"rows": [
+"Il picco è prima, non durante",
+"Le prime due frasi a memoria",
+"Mani libere, niente foglio",
+"Guarda mentre ascolti, stacca mentre pensi"
+],
+"active": 3,
+"note": "Quella su cui riceverai i consigli peggiori."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "il consiglio più diffuso",
+"title": "«Guarda negli occhi<br><span class=\"gold\">mentre rispondi.»</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "è un consiglio a pensare peggio",
+"title": "Distogliere lo sguardo mentre pensi<br><span class=\"gold\">è il funzionamento normale.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "forzarlo in quel momento",
+"title": "Non vedono sicurezza.<br><span class=\"gold\">Vedono una persona che fatica.</span>"
+},
+{
+"file": "c35",
+"layout": "flusso",
+"kicker": "la regola, in tre tempi",
+"passi": [
+{
+"et": "Ascolti",
+"sub": "guardi"
+},
+{
+"et": "Pensi",
+"sub": "stacchi"
+},
+{
+"et": "Rispondi",
+"sub": "torni"
+}
+]
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "quello che non ti dirà nessuno",
+"title": "Se sei molto teso,<br><span class=\"gold\">puoi dirlo.</span>"
+},
+{
+"file": "c37",
+"layout": "quote",
+"kicker": "una frase, all'inizio, senza scusarti",
+"title": "Mi interessa parecchio questa cosa,<br>quindi sono un po' teso."
+},
+{
+"file": "c38",
+"layout": "confronto",
+"occhio": "la stessa tensione",
+"titoli": [
+"Senza quella frase",
+"Con quella frase"
+],
+"righe": [
+{
+"et": "La tensione",
+"a": "un segnale senza causa",
+"b": "ha una causa: ci tieni"
+},
+{
+"et": "Chi guarda",
+"a": "la riempie con l'ipotesi peggiore",
+"b": "non deve indovinare",
+"segna": true
+}
+]
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la lezione sei punto cinque, applicata qui",
+"title": "Dire da dove viene il segnale.<br><span class=\"gold\">Perché l'altro non debba indovinarlo.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "non funziona sempre",
+"title": "Una volta, all'inizio.<br><span class=\"gold\">E non ripetuta.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "ma nella maggior parte dei casi",
+"title": "Abbassa la tensione<br><span class=\"gold\">di entrambi.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "da evitare, da entrambe le parti",
+"rows": [
+"Valutare una persona dai segnali",
+"Confondere tensione e incompetenza",
+"Forzare il contatto visivo mentre si risponde",
+"Costruire una postura"
+],
+"plain": true,
+"note": "Valgono per chi conduce e per chi risponde."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare, da entrambe le parti",
+"rows": [
+"Valutare una persona dai segnali",
+"Confondere tensione e incompetenza",
+"Forzare il contatto visivo mentre si risponde",
+"Costruire una postura"
+],
+"active": 0,
+"note": "Non è possibile, ed è discriminatorio."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare, da entrambe le parti",
+"rows": [
+"Valutare una persona dai segnali",
+"Confondere tensione e incompetenza",
+"Forzare il contatto visivo mentre si risponde",
+"Costruire una postura"
+],
+"active": 1,
+"note": "In un colloquio la tensione è normale."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare, da entrambe le parti",
+"rows": [
+"Valutare una persona dai segnali",
+"Confondere tensione e incompetenza",
+"Forzare il contatto visivo mentre si risponde",
+"Costruire una postura"
+],
+"active": 2,
+"note": "Toglie risorse quando servono, e non dimostra niente."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare, da entrambe le parti",
+"rows": [
+"Valutare una persona dai segnali",
+"Confondere tensione e incompetenza",
+"Forzare il contatto visivo mentre si risponde",
+"Costruire una postura"
+],
+"active": 3,
+"note": "Si vede, e peggiora tutto il resto."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Un colloquio teso<br>misura la tensione,<br>non la competenza."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Se conduci: due minuti per abbassare la tensione",
+"Argomenti neutri, sedie ad angolo, nessuna fretta",
+"Se rispondi: solo le prime due frasi"
+],
+"note": "E nota quanto cambiano le risposte dopo."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "La trattativa."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

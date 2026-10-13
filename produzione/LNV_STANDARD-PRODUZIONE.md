@@ -217,9 +217,10 @@ Il confronto A/B sul blocco `s34` della 6.5, grezzo contro grezzo, sta in
   allungano il testo, e la quarta traccia del piano superava il margine;
 - **il ritmo torna**: 549,1 s di voce tagliata a 1,16×, contro i 550,5 della
   6.5 a 1,12×;
-- **il costo vero**: 39 crediti di voce e **1 di render**. Più dei ~35
-  stimati perché le 43 pause di confine (69 s) si pagano come audio. **Il
-  conto per una lezione è ~40 crediti HeyGen.**
+- **il costo vero**: 39 crediti di voce e **1 di render**. Sulla 7.2, con un
+  grezzo della stessa lunghezza e il saldo letto subito prima e subito dopo,
+  la voce è costata **30**. Con due misure il conto sta fra **30 e 40
+  crediti HeyGen a lezione**, render compreso.
 - il registro tiene `lnv-7-1-confini.json` al posto di
   `verifica-tagli.json`: per ogni confine il silenzio, la sua durata, il
   punto di taglio e le ultime parole del blocco.
