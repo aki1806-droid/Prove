@@ -45,7 +45,10 @@ stacco tracce             dopo s23   (chunk A 4.193 car · chunk B 4.701 car)
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `dcc6fbce6630994352158bc2366dfa94` — 550.098 s (9:10.1), 1080p 16:9, con SRT (`subtitle_url`) |
+| lotto asset | `eb026cfb025242469cb0b9042f351646` — 98 file, tutti completati |
 
 ---
 

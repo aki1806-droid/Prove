@@ -8,3 +8,4 @@
 | 17.7 | Le cure palliative a domicilio | 9:14.7 | `ea7baef5ebbe476127af1844b65931e7` |
 | 17.3 | Il lattante disidratato | 9:13.4 | `f69435cb5658bad2b270a7fc47a3f9ad` |
 | 17.5 | L'agitazione psicomotoria e il TSO | 9:15.5 | `206dac5e7942e5b5d88a8ae03fa20e70` |
+| 17.9 | Una notte in un Centro di Servizi | 9:10.1 | `dcc6fbce6630994352158bc2366dfa94` |
