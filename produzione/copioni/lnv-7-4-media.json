@@ -1,0 +1,14 @@
+{
+ "s13": {
+  "tipo": "immagine",
+  "nome": "sala-dopo-la-riunione",
+  "url": "https://resource2.heygen.ai/image/bc6ae8075d80475cbae8a1c3fb88e68d/original.png",
+  "nota": "una sala riunioni appena dopo la fine: sedie spostate in angoli diversi, bicchieri e tazze usati, una caraffa, una lavagna bianca vuota - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s34": {
+  "tipo": "immagine",
+  "nome": "sedia-fuori-dal-cerchio",
+  "url": "https://resource2.heygen.ai/image/37d5465227204ad8bae6cc7857d9df50/original.png",
+  "nota": "sedie strette attorno a un tavolo tondo e una sola sedia lontana, contro la parete - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

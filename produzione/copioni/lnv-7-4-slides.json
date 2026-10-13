@@ -1,0 +1,474 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.4",
+"title": "La riunione e il gruppo",
+"sub": "Applicazioni"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il miglior rapporto del corso",
+"title": "Quello che si vede<br><span class=\"gold\">e quanto è affidabile.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "in un gruppo",
+"title": "Non stati interni.<br><span class=\"gold\">Comportamenti collettivi.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "la differenza",
+"title": "Non dentro una persona.<br><span class=\"gold\">Fra le persone.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "quattro segnali di gruppo",
+"rows": [
+"Chi viene guardato",
+"Chi è dentro il cerchio",
+"Chi interrompe chi",
+"Il cambio di postura collettivo"
+],
+"plain": true,
+"note": "Tutti già visti. Qui lavorano insieme."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "quattro segnali di gruppo",
+"rows": [
+"Chi viene guardato",
+"Chi è dentro il cerchio",
+"Chi interrompe chi",
+"Il cambio di postura collettivo"
+],
+"active": 0,
+"note": "Dice chi decide. Quasi mai è chi ha la parola."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "quattro segnali di gruppo",
+"rows": [
+"Chi viene guardato",
+"Chi è dentro il cerchio",
+"Chi interrompe chi",
+"Il cambio di postura collettivo"
+],
+"active": 1,
+"note": "Dice chi è incluso. Il cerchio si forma con le spalle, non con le sedie."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "quattro segnali di gruppo",
+"rows": [
+"Chi viene guardato",
+"Chi è dentro il cerchio",
+"Chi interrompe chi",
+"Il cambio di postura collettivo"
+],
+"active": 2,
+"note": "Segue la gerarchia: si interrompe verso il basso."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "quattro segnali di gruppo",
+"rows": [
+"Chi viene guardato",
+"Chi è dentro il cerchio",
+"Chi interrompe chi",
+"Il cambio di postura collettivo"
+],
+"active": 3,
+"note": "Dice che un argomento è chiuso, prima che qualcuno lo dichiari."
+},
+{
+"file": "c10",
+"layout": "cruscotto",
+"occhio": "la mappa della stanza",
+"celle": [
+{
+"cap": "chi conta",
+"et": "chi viene guardato"
+},
+{
+"cap": "chi è ascoltato",
+"et": "chi è nel cerchio"
+},
+{
+"cap": "chi è fuori",
+"et": "chi viene interrotto"
+},
+{
+"cap": "quando si è deciso",
+"et": "la postura collettiva"
+}
+],
+"resta": "Quattro domande, una risposta per ciascuna."
+},
+{
+"file": "c11",
+"layout": "swap",
+"kicker": "l'organigramma e la stanza",
+"rows": [
+[
+"L'organigramma",
+"chi dovrebbe decidere"
+],
+[
+"La stanza",
+"chi decide"
+]
+]
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "chi c'è da sei mesi la conosce",
+"title": "Senza saperla dire.<br><span class=\"gold\">Qui la rendi esplicita.</span>"
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "questa mappa non serve a",
+"plain": true,
+"rows": [
+"Manovrare",
+"Capire chi lusingare",
+"Trovare la scorciatoia"
+],
+"note": "Serve a una cosa più semplice."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "chi non la legge",
+"title": "Ha ragione<br><span class=\"gold\">con la persona sbagliata.</span>"
+},
+{
+"file": "c16",
+"layout": "swap",
+"kicker": "chi la legge",
+"rows": [
+[
+"La sostanza",
+"a chi decide"
+],
+[
+"La cortesia",
+"a tutti gli altri"
+]
+]
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "e vale anche al contrario",
+"title": "Se decidi tu,<br><span class=\"gold\">la mappa spiega molti silenzi.</span>"
+},
+{
+"file": "c18",
+"layout": "memo",
+"title": "Non serve a essere più scaltri.<br>Serve a non sprecare energia."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "la parte che conta davvero",
+"title": "Gli stessi segnali<br><span class=\"gold\">dicono che cosa non funziona.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "due di loro indicano sempre la stessa cosa",
+"title": "Qualcuno che il gruppo<br><span class=\"gold\">ha smesso di sentire.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "il segnale più utile del modulo",
+"title": "Si corregge subito.<br><span class=\"gold\">E quasi sempre in silenzio.</span>"
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "tre correzioni",
+"rows": [
+"Guardare chi non riceve sguardi",
+"Ruotare il busto verso chi è fuori",
+"«Aspetta, stava dicendo una cosa»"
+],
+"plain": true,
+"note": "Due non costano nemmeno una parola."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "tre correzioni",
+"rows": [
+"Guardare chi non riceve sguardi",
+"Ruotare il busto verso chi è fuori",
+"«Aspetta, stava dicendo una cosa»"
+],
+"active": 0,
+"note": "Nella maggior parte dei casi, entro pochi minuti interviene da solo."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "tre correzioni",
+"rows": [
+"Guardare chi non riceve sguardi",
+"Ruotare il busto verso chi è fuori",
+"«Aspetta, stava dicendo una cosa»"
+],
+"active": 1,
+"note": "Il gruppo segue, e quella persona entra."
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "tre correzioni",
+"rows": [
+"Guardare chi non riceve sguardi",
+"Ruotare il busto verso chi è fuori",
+"«Aspetta, stava dicendo una cosa»"
+],
+"active": 2,
+"note": "Senza rimprovero, senza tono. E ti giri verso chi parlava."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "e una seconda cosa, più lenta",
+"title": "In questa riunione<br><span class=\"gold\">chi comincia a parlare finisce.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "senza dichiarare quello che hai visto",
+"title": "Correggi la struttura.<br><span class=\"gold\">Il merito resta suo.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "perché succede",
+"title": "In quasi ogni gruppo<br><span class=\"gold\">qualcuno resta fuori.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "non per ostilità",
+"title": "Nessuno l'ha deciso.<br><span class=\"gold\">Si è stabilito da solo.</span>"
+},
+{
+"file": "c30",
+"layout": "anello",
+"kicker": "e una volta stabilito si mantiene da solo",
+"ciclo": 6,
+"passi": [
+"non viene guardato",
+"parla meno",
+"viene guardato ancora meno"
+],
+"title": "Nessuno spinge, e il cerchio si chiude lo stesso."
+},
+{
+"file": "c31",
+"layout": "flusso",
+"kicker": "col tempo",
+"passi": [
+{
+"et": "Prepara meno",
+"sub": ""
+},
+{
+"et": "Propone meno",
+"sub": ""
+},
+{
+"et": "Ascolta",
+"sub": "e basta"
+}
+],
+"acceso": 2
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "e il gruppo",
+"title": "Perde un contributo<br><span class=\"gold\">senza aver deciso di perderlo.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "se conduci tu",
+"title": "Tre correzioni.<br><span class=\"gold\">La cosa più utile del corso.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "quello che mandi tu, quando conduci",
+"rows": [
+"Dove guardi mentre un altro parla",
+"Come reagisci alla prima obiezione",
+"Quanto occupi lo spazio"
+],
+"plain": true,
+"note": "La stanza le legge tutte e tre."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "quello che mandi tu, quando conduci",
+"rows": [
+"Dove guardi mentre un altro parla",
+"Come reagisci alla prima obiezione",
+"Quanto occupi lo spazio"
+],
+"active": 0,
+"note": "Se guardi sempre la stessa persona, dici alla stanza chi conta."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "quello che mandi tu, quando conduci",
+"rows": [
+"Dove guardi mentre un altro parla",
+"Come reagisci alla prima obiezione",
+"Quanto occupi lo spazio"
+],
+"active": 1,
+"note": "Chi reagisce male alla prima ottiene il silenzio, non il consenso."
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "quello che mandi tu, quando conduci",
+"rows": [
+"Dove guardi mentre un altro parla",
+"Come reagisci alla prima obiezione",
+"Quanto occupi lo spazio"
+],
+"active": 2,
+"note": "Chi conduce parla quasi sempre più di quanto crede."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "una verifica che non costa niente",
+"title": "Alla fine della riunione:<br><span class=\"gold\">chi ha parlato, e per quanto?</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"title": "Se non ricordi la sua voce,<br><span class=\"gold\">non ha parlato.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "tre riunioni di fila",
+"title": "Non è timidezza.<br><span class=\"gold\">È struttura.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usare la mappa per manovrare",
+"Interpellare chi non viene guardato",
+"Guardare sempre la stessa persona",
+"Scambiare il silenzio per consenso"
+],
+"plain": true,
+"note": "Tutti e quattro sembrano ragionevoli, mentre li fai."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usare la mappa per manovrare",
+"Interpellare chi non viene guardato",
+"Guardare sempre la stessa persona",
+"Scambiare il silenzio per consenso"
+],
+"active": 0,
+"note": "La mappa serve a non sprecare energia, non a spostare le persone."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usare la mappa per manovrare",
+"Interpellare chi non viene guardato",
+"Guardare sempre la stessa persona",
+"Scambiare il silenzio per consenso"
+],
+"active": 1,
+"note": "Lo sguardo invita; il nome convoca."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usare la mappa per manovrare",
+"Interpellare chi non viene guardato",
+"Guardare sempre la stessa persona",
+"Scambiare il silenzio per consenso"
+],
+"active": 2,
+"note": "Distribuire lo sguardo non costa niente."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "da evitare",
+"rows": [
+"Usare la mappa per manovrare",
+"Interpellare chi non viene guardato",
+"Guardare sempre la stessa persona",
+"Scambiare il silenzio per consenso"
+],
+"active": 3,
+"note": "Chiedi, invece di contare i no."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Se non ricordi la voce di qualcuno,<br>quella persona non ha parlato."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Chi riceve meno sguardi",
+"Guardalo mentre parli",
+"Non dirgli niente"
+],
+"note": "E guarda che cosa succede nei dieci minuti dopo."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione, l'ultima",
+"title": "La mappa dei segnali che mandi tu."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

@@ -1,0 +1,475 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "break_heygen": [
+   16.24,
+   17.84
+  ],
+  "taglio": 17.088,
+  "scarto": 0.048,
+  "coda": "diventa il centro della lezione."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "break_heygen": [
+   36.56,
+   38.16
+  ],
+  "taglio": 37.412,
+  "scarto": 0.052,
+  "coda": "guardi dove guardano gli altri."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s04",
+  "break_heygen": [
+   53.451,
+   55.051
+  ],
+  "taglio": 54.285,
+  "scarto": 0.034,
+  "coda": "chiede solo di farla apposta."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s05",
+  "break_heygen": [
+   73.074,
+   74.674
+  ],
+  "taglio": 73.877,
+  "scarto": 0.003,
+  "coda": "quello che una persona prova."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s06",
+  "break_heygen": [
+   90.857,
+   92.457
+  ],
+  "taglio": 91.658,
+  "scarto": 0.001,
+  "coda": "presenta; chi viene guardato decide."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s07",
+  "break_heygen": [
+   107.36,
+   108.96
+  ],
+  "taglio": 108.206,
+  "scarto": 0.046,
+  "coda": "spalle, non con le sedie."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s08",
+  "break_heygen": [
+   123.28,
+   124.88
+  ],
+  "taglio": 124.12,
+  "scarto": 0.04,
+  "coda": "capito anche tutti gli altri."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s10",
+  "break_heygen": [
+   16.56,
+   18.16
+  ],
+  "taglio": 17.436,
+  "scarto": 0.076,
+  "coda": "e una risposta per ciascuna."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s11",
+  "break_heygen": [
+   33.851,
+   35.451
+  ],
+  "taglio": 34.697,
+  "scarto": 0.046,
+  "coda": "devi far passare una proposta."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s12",
+  "break_heygen": [
+   47.931,
+   49.531
+  ],
+  "taglio": 48.808,
+  "scarto": 0.077,
+  "coda": "farlo in una riunione sola."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s13",
+  "break_heygen": [
+   52.662,
+   54.262
+  ],
+  "taglio": 53.525,
+  "scarto": 0.063,
+  "coda": "di passare alla parte pratica."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s14",
+  "break_heygen": [
+   67.873,
+   69.473
+  ],
+  "taglio": 68.681,
+  "scarto": 0.008,
+  "coda": "una riunione e' gia' moltissimo."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s15",
+  "break_heygen": [
+   83.256,
+   84.856
+  ],
+  "taglio": 84.077,
+  "scarto": 0.021,
+  "coda": "ragione con la persona sbagliata."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s16",
+  "break_heygen": [
+   98.227,
+   99.827
+  ],
+  "taglio": 99.064,
+  "scarto": 0.037,
+  "coda": "attenzione. Nessuno ne esce sminuito."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s17",
+  "break_heygen": [
+   111.598,
+   113.198
+  ],
+  "taglio": 112.418,
+  "scarto": 0.02,
+  "coda": "silenzi che altrimenti non capiresti."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s19",
+  "break_heygen": [
+   11.44,
+   13.04
+  ],
+  "taglio": 12.299,
+  "scarto": 0.059,
+  "coda": "che cosa non sta funzionando."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s20",
+  "break_heygen": [
+   28.28,
+   29.88
+  ],
+  "taglio": 29.141,
+  "scarto": 0.061,
+  "coda": "Tre segnali, una persona sola."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s21",
+  "break_heygen": [
+   41.491,
+   43.091
+  ],
+  "taglio": 42.325,
+  "scarto": 0.034,
+  "coda": "da qui che si comincia."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s22",
+  "break_heygen": [
+   56.371,
+   57.971
+  ],
+  "taglio": 57.211,
+  "scarto": 0.04,
+  "coda": "aspetta, stava dicendo una cosa."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s23",
+  "break_heygen": [
+   74.691,
+   76.291
+  ],
+  "taglio": 75.531,
+  "scarto": 0.04,
+  "coda": "invito che non obbliga nessuno."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s24",
+  "break_heygen": [
+   91.011,
+   92.611
+  ],
+  "taglio": 91.865,
+  "scarto": 0.054,
+  "coda": "senza che nessuno lo noti."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s25",
+  "break_heygen": [
+   107.811,
+   109.411
+  ],
+  "taglio": 108.627,
+  "scarto": 0.016,
+  "coda": "capisce il resto da solo."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s26",
+  "break_heygen": [
+   124.942,
+   126.542
+  ],
+  "taglio": 125.78,
+  "scarto": 0.038,
+  "coda": "nessuno ha bisogno di scrivere."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s28",
+  "break_heygen": [
+   16.08,
+   17.68
+  ],
+  "taglio": 16.847,
+  "scarto": 0.033,
+  "coda": "dopo riunione, la stessa sedia."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s29",
+  "break_heygen": [
+   31.794,
+   33.394
+  ],
+  "taglio": 32.65,
+  "scarto": 0.056,
+  "coda": "momento nessuno la verifica piu'."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s30",
+  "break_heygen": [
+   47.804,
+   49.404
+  ],
+  "taglio": 48.653,
+  "scarto": 0.049,
+  "coda": "non una scelta di qualcuno."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s31",
+  "break_heygen": [
+   61.814,
+   63.414
+  ],
+  "taglio": 62.678,
+  "scarto": 0.064,
+  "coda": "ha imparato che non serve."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s32",
+  "break_heygen": [
+   79.424,
+   81.024
+  ],
+  "taglio": 80.211,
+  "scarto": 0.013,
+  "coda": "chiede dov'e' finita quella persona."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s33",
+  "break_heygen": [
+   94.647,
+   96.247
+  ],
+  "taglio": 95.499,
+  "scarto": 0.052,
+  "coda": "poco, ed e' quasi tutto."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s34",
+  "break_heygen": [
+   99.057,
+   100.657
+  ],
+  "taglio": 99.914,
+  "scarto": 0.057,
+  "coda": "quando sei quello che conduce."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s35",
+  "break_heygen": [
+   116.417,
+   118.017
+  ],
+  "taglio": 117.208,
+  "scarto": 0.009,
+  "coda": "di quanto le legga tu."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s36",
+  "break_heygen": [
+   132.747,
+   134.347
+  ],
+  "taglio": 133.602,
+  "scarto": 0.055,
+  "coda": "smette di parlare a te."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s38",
+  "break_heygen": [
+   16.56,
+   18.16
+  ],
+  "taglio": 17.37,
+  "scarto": 0.01,
+  "coda": "chiedere il permesso per parlare."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s39",
+  "break_heygen": [
+   31.131,
+   32.731
+  ],
+  "taglio": 31.964,
+  "scarto": 0.033,
+  "coda": "vuole meno di un minuto."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s40",
+  "break_heygen": [
+   42.342,
+   43.942
+  ],
+  "taglio": 43.193,
+  "scarto": 0.051,
+  "coda": "persona, non c'e' stato spazio."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s41",
+  "break_heygen": [
+   60.513,
+   62.113
+  ],
+  "taglio": 61.353,
+  "scarto": 0.04,
+  "coda": "discorso: la prossima riunione normale."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s42",
+  "break_heygen": [
+   79.347,
+   80.947
+  ],
+  "taglio": 80.183,
+  "scarto": 0.036,
+  "coda": "sembrano ragionevoli, mentre li fai."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s43",
+  "break_heygen": [
+   95.614,
+   97.214
+  ],
+  "taglio": 96.479,
+  "scarto": 0.065,
+  "coda": "viene letto a sua volta."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s44",
+  "break_heygen": [
+   112.681,
+   114.281
+  ],
+  "taglio": 113.457,
+  "scarto": 0.024,
+  "coda": "sguardo invita; il nome convoca."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s45",
+  "break_heygen": [
+   128.944,
+   130.544
+  ],
+  "taglio": 129.761,
+  "scarto": 0.017,
+  "coda": "niente e cambia la stanza."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s46",
+  "break_heygen": [
+   148.144,
+   149.744
+  ],
+  "taglio": 148.933,
+  "scarto": 0.011,
+  "coda": "a tutti, costa pochi secondi."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s47",
+  "break_heygen": [
+   153.527,
+   155.127
+  ],
+  "taglio": 154.352,
+  "scarto": 0.025,
+  "coda": "quella persona non ha parlato."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s48",
+  "break_heygen": [
+   168.934,
+   170.534
+  ],
+  "taglio": 169.777,
+  "scarto": 0.043,
+  "coda": "Il resto lo lasci com'e'."
+ }
+]
