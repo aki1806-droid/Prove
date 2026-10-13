@@ -10,7 +10,9 @@ def leggi(nome, vuoto):
     f = os.path.join(M, f"{lez}_{nome}.json")
     return json.load(open(f)) if os.path.exists(f) else vuoto
 sc = leggi("SCALETTA", None); aggiunte = leggi("AGGIUNTE", {}); camera = leggi("CAMERA", {})
-FPS, PAUSA, CLIP, LENTO = 30, 0.35, 5.04, 0.8
+# pausa tra i blocchi: 0,35 s, oppure 0,6 s se la lezione non arriva a 12:00 (CLAUDE.md, §2); la decide LAVORAZIONE.json
+PAUSA = leggi("LAVORAZIONE", {}).get("voce", {}).get("pausa_tra_blocchi_s", 0.35)
+FPS, CLIP, LENTO = 30, 5.04, 0.8
 dur = {os.path.basename(f)[:3]: wave.open(f).getnframes() / wave.open(f).getframerate()
        for f in glob.glob(os.path.join(B, "audio", "lavorato", "B*.wav"))}
 media = sorted(f for f in os.listdir(os.path.join(B, "media")) if not f.endswith(".json"))

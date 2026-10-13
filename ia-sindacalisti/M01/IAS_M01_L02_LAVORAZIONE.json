@@ -1,0 +1,36 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "B20 e B21 sono marcati [DA ADATTARE ALL'ESITO REALE]: descrivono prove a schermo e vanno riscritti su ciò che si vede nelle registrazioni vere R02 e R03. Finché ci sono le ricostruzioni, il testo resta quello del pacchetto.",
+  "Le registrazioni R01-R05 sono sostituite da ricostruzioni animate.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "segnaposto_aperti": [
+  "B20 [DA ADATTARE ALL'ESITO REALE]",
+  "B21 [DA ADATTARE ALL'ESITO REALE]",
+  "R01-R05: ricostruzioni al posto delle registrazioni"
+ ],
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille dal 13 ottobre: «solo heygen sempre Achille nuovo 1»",
+  "account_heygen": "aki.pagliaro@gmail.com (piano Pro)",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "cinque tracce A-E sotto i 2.750 caratteri, blocchi uniti da <break time=\"1.6s\"/>; i confini sono presi dai segnaposto di pausa che create_speech restituisce nei word_timestamps (taglio a metà della pausa), senza trascrizione",
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16 (HeyGen è il 3,3% più lento di ElevenLabs diretto); 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "nota_pausa": "Con 0,35 s la lezione veniva 11:58; come chiede CLAUDE.md la pausa è passata a 0,6 s, e anche così serviva allungare lo script: Achille ha approvato cinque frasi (vedi modifiche_allo_script).",
+  "coerenza_corso": "M00 L01 e M01 L01 restano con la voce di ElevenLabs diretto (atempo 1,12): Achille ha scelto di non rifarle.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "modifiche_allo_script": {
+  "aggiunte": {
+   "B02": "La forma era perfetta; mancava solo la verità.",
+   "B14": "Due minuti di controllo costano molto meno di una richiesta di rettifica.",
+   "B26": "Un non lo so detto in tempo vale più di una risposta brillante e sbagliata.",
+   "B30": "E la firma, in fondo al comunicato, resta sempre la tua.",
+   "B34": "Quando hai un dubbio, torna sempre lì."
+  },
+  "nota": "I cinque blocchi sono stati rigenerati in una sesta traccia HeyGen; le versioni senza la frase sono in audio/scartati."
+ }
+}

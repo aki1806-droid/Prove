@@ -1,0 +1,104 @@
+{
+ "_nota": "Fondo degli SVG e zoom dopo la fine dell'animazione. A1 e A2: zoom 1,25 con il centro a y 640, così il titolo resta fuori campo. A3, A4 e A5 hanno il contenuto quasi a tutta larghezza: spinta leggera centrata in modo che il titolo resti fermo accanto al logo.",
+ "IAS_M01_L02_A1_vero-plausibile.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   960,
+   640
+  ]
+ },
+ "IAS_M01_L02_A2_citazione-verosimile.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   960,
+   640
+  ]
+ },
+ "IAS_M01_L02_A3_cinque-zone.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   895,
+   511
+  ],
+  "S015": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     3.6,
+     1.0,
+     960,
+     540
+    ],
+    [
+     99,
+     1.08,
+     895,
+     511
+    ]
+   ]
+  }
+ },
+ "IAS_M01_L02_A4_scala-fiducia.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   910,
+   518
+  ],
+  "S043": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     5.0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     99,
+     1.06,
+     910,
+     518
+    ]
+   ]
+  }
+ },
+ "IAS_M01_L02_A5_lettera-scritta-bene.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   926,
+   525
+  ],
+  "S049": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     4.9,
+     1.0,
+     960,
+     540
+    ],
+    [
+     99,
+     1.04,
+     926,
+     525
+    ]
+   ]
+  }
+ }
+}

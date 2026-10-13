@@ -10,7 +10,7 @@
 Un delegato prepara una lettera all'azienda. Chiede all'intelligenza artificiale il riferimento preciso del contratto sulle ferie. Arriva una risposta impeccabile: numero dell'articolo, comma, perfino una frase tra virgolette. La lettera parte. Due giorni dopo, la direzione risponde con molta cortesia: l'articolo citato parla di un'altra cosa.
 
 ### B02 — Nessuno ha mentito
-Fermiamoci un momento su questa scena. La macchina non ha mentito, perché mentire richiede di sapere la verità. Ha fatto quello che fa sempre: ha prodotto la risposta più verosimile. E una citazione verosimile, con numero, comma e virgolette, è esattamente ciò che di solito compare dopo una domanda del genere.
+Fermiamoci un momento su questa scena. La macchina non ha mentito, perché mentire richiede di sapere la verità. Ha fatto quello che fa sempre: ha prodotto la risposta più verosimile. E una citazione verosimile, con numero, comma e virgolette, è esattamente ciò che di solito compare dopo una domanda del genere. La forma era perfetta; mancava solo la verità.
 
 ### B03 — Che cosa faremo
 In questa lezione capiamo perché succede, quando succede più spesso, e quali sono le prime difese. Nel modulo cinque costruiremo un metodo completo di verifica; qui ci serve capire la radice del problema, perché chi conosce la radice riconosce il rischio prima ancora di vederlo.
@@ -46,7 +46,7 @@ La quarta zona: l'attualità. Il modello ha imparato da testi raccolti fino a un
 La quinta zona: i calcoli. Un modello linguistico prevede parole, e anche i numeri, per lui, sono pezzi di testo. Somme semplici di solito vanno bene, ma conteggi lunghi, percentuali composte, arretrati su più anni possono contenere errori. Alcuni strumenti usano una calcolatrice interna per questi casi; non dare mai per scontato che l'abbiano fatto.
 
 ### B14 — Un esempio sui calcoli
-Un esempio che conosci bene. Chiedi di calcolare gli arretrati di un'indennità su tre anni, con aumenti in date diverse. La risposta arriva con una tabella ordinata e un totale in grassetto. È proprio l'ordine della tabella a rassicurarti, ma basta un mese contato male per cambiare il risultato. Per i conti veri, chiedi di mostrarti ogni passaggio, e rifai almeno il totale con una calcolatrice o un foglio di calcolo.
+Un esempio che conosci bene. Chiedi di calcolare gli arretrati di un'indennità su tre anni, con aumenti in date diverse. La risposta arriva con una tabella ordinata e un totale in grassetto. È proprio l'ordine della tabella a rassicurarti, ma basta un mese contato male per cambiare il risultato. Per i conti veri, chiedi di mostrarti ogni passaggio, e rifai almeno il totale con una calcolatrice o un foglio di calcolo. Due minuti di controllo costano molto meno di una richiesta di rettifica.
 
 ### B15 — Perché il tono è così sicuro
 Resta la domanda più insidiosa: perché sbaglia con tanta sicurezza? Perché anche il tono di una frase è uno schema imparato. I testi da cui ha imparato raramente dicono non lo so: un manuale, un articolo, la risposta di un esperto procedono con sicurezza. E dopo l'apprendimento iniziale, questi strumenti sono stati allenati a essere utili e a dare risposte complete.
@@ -82,7 +82,7 @@ Un'abitudine utilissima, da prendere fin da ora: chiedere sempre da dove viene u
 Da qui nascono le prime tre difese, che userai da subito, molto prima del modulo cinque. Prima difesa: dai la fonte. Ogni volta che la risposta deve basarsi su un contratto, una delibera, un regolamento, fornisci tu il testo. Il modello è molto più affidabile quando lavora su un documento che quando ricorda. E chiedigli di indicare il punto preciso da cui prende ogni affermazione.
 
 ### B26 — Seconda difesa: autorizza il non lo so
-Seconda difesa: autorizza il non lo so. Scrivi esplicitamente nella richiesta: se l'informazione non è nel testo, o se non sei sicuro, dimmelo. Non elimina gli errori, ma li riduce, perché cambia la forma della risposta che il modello considera più adatta.
+Seconda difesa: autorizza il non lo so. Scrivi esplicitamente nella richiesta: se l'informazione non è nel testo, o se non sei sicuro, dimmelo. Non elimina gli errori, ma li riduce, perché cambia la forma della risposta che il modello considera più adatta. Un non lo so detto in tempo vale più di una risposta brillante e sbagliata.
 
 ### B27 — Terza difesa: verifica ciò che conta
 Terza difesa: verifica i dettagli che contano. Non serve controllare ogni virgola di una bozza di comunicato. Serve controllare sempre numeri, date, importi, riferimenti normativi, nomi, citazioni. Sono i punti in cui l'errore è più probabile, e quelli in cui costa di più.
@@ -94,7 +94,7 @@ Ecco una regola pratica. Puoi fidarti con ragionevole tranquillità quando gli c
 Gli strumenti migliorano di continuo, e questi errori sono meno frequenti di qualche anno fa. Ma non spariranno, perché nascono dal modo stesso in cui il modello funziona. Non conviene quindi aspettare lo strumento che non sbaglia mai: conviene imparare a lavorare bene con uno strumento che a volte sbaglia.
 
 ### B30 — Perché per noi conta di più
-Per chi fa sindacato questa attenzione non è pignoleria. Una lettera all'azienda con un riferimento sbagliato indebolisce la nostra posizione al tavolo. Un comunicato con un dato inventato mina la fiducia dei lavoratori. E la credibilità di una sede si costruisce in anni, e si può perdere con un solo errore firmato.
+Per chi fa sindacato questa attenzione non è pignoleria. Una lettera all'azienda con un riferimento sbagliato indebolisce la nostra posizione al tavolo. Un comunicato con un dato inventato mina la fiducia dei lavoratori. E la credibilità di una sede si costruisce in anni, e si può perdere con un solo errore firmato. E la firma, in fondo al comunicato, resta sempre la tua.
 
 ### B31 — Anche allo sportello
 E c'è un aspetto che riguarda anche i lavoratori che assistiamo. Sempre più persone arrivano allo sportello con una risposta già pronta, chiesta all'intelligenza artificiale: ho diritto a questo, me l'ha detto il computer. Saper spiegare perché quella risposta va verificata, e farlo con pazienza e senza sufficienza, sta diventando una parte nuova del nostro mestiere.
@@ -106,7 +106,7 @@ Torniamo al delegato dell'inizio. La stessa lettera, scritta con il metodo di og
 Gli errori tipici, quindi. Primo: chiedere un riferimento preciso a memoria e copiarlo. Secondo: scambiare la sicurezza del tono per affidabilità. Terzo: usare sei sicuro? come se fosse un controllo. Quarto: fidarsi di una risposta perché è ben scritta.
 
 ### B34 — Da ricordare
-La frase da portarsi a casa è questa: il tono non è una fonte. Una risposta può essere scritta benissimo ed essere sbagliata. La fonte è il testo che hai sotto gli occhi.
+La frase da portarsi a casa è questa: il tono non è una fonte. Una risposta può essere scritta benissimo ed essere sbagliata. La fonte è il testo che hai sotto gli occhi. Quando hai un dubbio, torna sempre lì.
 
 ### B35 — La pratica di oggi
 Ed ecco la pratica di oggi. Prendi il contratto nazionale del tuo comparto, nel testo ufficiale. Chiedi a uno dei tre strumenti, senza dargli il documento, quale articolo disciplina un istituto che conosci bene: le ferie, i permessi, il lavoro notturno. Poi apri il contratto e verifica: il numero è giusto? Il contenuto corrisponde? La frase citata esiste davvero?
