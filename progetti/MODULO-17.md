@@ -12,3 +12,4 @@
 | 17.8 | L'infermiere di famiglia e il caregiver esausto | 9:13.8 | `69f52ec09284da79b1902d9f976b4806` |
 | 17.10 | La paziente straniera | 9:11.7 | `291c71f843b478b21473248d322aa78b` |
 | 17.6 | Il paziente in terapia sostitutiva per oppioidi | 9:11.6 | `3135ee3f6c166032d3afe87f68a17d8a` |
+| 17.11 | Evento avverso, documentazione e responsabilità | 9:16.5 | `90549afda82f4bbc5a3f9f065b6eba44` |
