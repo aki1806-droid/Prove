@@ -25,3 +25,20 @@ m16-l16.6-politrauma A BdzZdp5PaX6jOhZ2KE6v VqWnoBNx2STFPDZz5msE
 m16-l16.6-politrauma B IXtS0bAl2e9qxcqcdZ2J sGYXEvpHX2JMlVltvKMM
 # Stato al 12 ottobre 2026: 16.6 B (sGYXEvpHX2JMlVltvKMM) completata e scaricata in grezzo-B.mp3; 16.6 B e 16.10 A trascritte in locale (stato-locale.json).
 # Da generare a crediti rinnovati: 16.5 A/B, 16.6 A, 16.10 B, 16.11 A/B, 16.12 A/B.
+m16-l16.5-clostridioides A tHV0FpJ4CSgASAtvQJVx yw75zPulFAz9wrxgtBev
+m16-l16.5-clostridioides B HLiiWKr0vmFKAh8OHlBL OQLXjnPQp92SpD7g8RNu
+m16-l16.6-politrauma A E9vOMq2UCTll5nITimJB Eywm0U0UXeda3qag85mk
+m16-l16.10-monossido B 0F4w4ZDP7dZIl7UwXEp2 CxloDF3dpcLADCpGkZkS
+m16-l16.11-ventilato A 58Pz4ANVjDX7Z0Fzwg2u j2lgeHeGLgrMO2PsQKNg
+m16-l16.11-ventilato B 8iey9N2LbVJVEoO3yA3T MJiItEDoHyxDtJx65XBl
+m16-l16.12-riepilogo A TnWLA6Mkx8Wes5uNUJ8K SJdbGGf5ctQM45a2kD4x
+m16-l16.12-riepilogo B fmPdoeYdMNQnWYavc17G mM2KSThD951UFYA7JHuf
+# Trascrizioni ElevenLabs (lezione traccia session_id generation_id)
+m16-l16.5-clostridioides A gbldgF2nnG4I0Uc6uEhL PAMzr8w6CGKJ6hXQfJ81
+m16-l16.5-clostridioides B hcxU9ReBXTx1YowAC9K8 vEzfpzrUTJ3tlpBdEFvr
+m16-l16.6-politrauma A XM99oTA2BpRlBkEGcopb qpcvTHFeIGJFcbGKBKOk
+m16-l16.10-monossido B HQhXJe4iGHphwI9wGQRY Pddi2rlRUe7vmZbcQ3z9
+m16-l16.11-ventilato A l8TfuGHx50w2i3XmRnXd R9bGHVUVcQT1vT0YWWW2
+m16-l16.11-ventilato B QJ9DHlFfS0b2FIKFmu6x txB0GQIU94jAWfn0BVXn
+m16-l16.12-riepilogo A 9Fk3ApL6OfhhAY23Ti9p TSzaSUa5rmaHIjpXoYe6
+m16-l16.12-riepilogo B 34h0NUMKfet7dYj6MH0j MT1GnlFsatNoXcaTSZGJ

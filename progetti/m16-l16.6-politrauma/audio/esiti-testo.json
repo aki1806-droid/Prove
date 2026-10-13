@@ -1,0 +1,213 @@
+{
+ "A": {
+  "parole_copione": 650,
+  "parole_dette": 645,
+  "coincidenti": 640,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s08",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s10",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s11",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s21",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 655,
+  "parole_dette": 652,
+  "coincidenti": 598,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "ematoma",
+    "detto": "hematoma"
+   },
+   {
+    "blocco": "s28",
+    "copione": "in completa",
+    "detto": "incompleta"
+   },
+   {
+    "blocco": "s28",
+    "copione": "naso gastrico",
+    "detto": "nasogastrico"
+   },
+   {
+    "blocco": "s29",
+    "copione": "ecchimosi",
+    "detto": "e chimos"
+   },
+   {
+    "blocco": "s29",
+    "copione": "oro gastrica",
+    "detto": "orogastrica"
+   },
+   {
+    "blocco": "s30",
+    "copione": "angiografia",
+    "detto": "angografia"
+   },
+   {
+    "blocco": "s32",
+    "copione": "equipe",
+    "detto": "equip"
+   },
+   {
+    "blocco": "s32",
+    "copione": "riservato e di",
+    "detto": "riserbato ed"
+   },
+   {
+    "blocco": "s33",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s33",
+    "copione": "equipe",
+    "detto": "equip"
+   },
+   {
+    "blocco": "s34",
+    "copione": "annotarne",
+    "detto": "anotarne"
+   },
+   {
+    "blocco": "s34",
+    "copione": "pneumotorace iperteso",
+    "detto": "opneo motoracei per teso"
+   },
+   {
+    "blocco": "s35",
+    "copione": "cristalloidi",
+    "detto": "cristalloi di"
+   },
+   {
+    "blocco": "s36",
+    "copione": "d orale",
+    "detto": "dorale"
+   },
+   {
+    "blocco": "s36",
+    "copione": "dell emorragia",
+    "detto": "delle moragia"
+   },
+   {
+    "blocco": "s37",
+    "copione": "1 emorragia",
+    "detto": "una moragia"
+   },
+   {
+    "blocco": "s37",
+    "copione": "aeree",
+    "detto": "aere"
+   },
+   {
+    "blocco": "s37",
+    "copione": "dello pneumotorace iperteso",
+    "detto": "dell opneo motoracei per teso"
+   },
+   {
+    "blocco": "s38",
+    "copione": "murmure",
+    "detto": "murmore"
+   },
+   {
+    "blocco": "s40",
+    "copione": "tourniquet pneumotorace iperteso shock emorragico",
+    "detto": "turniquet pneumotoracea hiperteso sciocche morragico"
+   },
+   {
+    "blocco": "s40",
+    "copione": "equipe",
+    "detto": "equip"
+   },
+   {
+    "blocco": "s41",
+    "copione": "tourniquet",
+    "detto": "turniquet"
+   },
+   {
+    "blocco": "s41",
+    "copione": "rachide",
+    "detto": "racchide"
+   },
+   {
+    "blocco": "s42",
+    "copione": "eco fast",
+    "detto": "ecofast"
+   },
+   {
+    "blocco": "s42",
+    "copione": "somministro",
+    "detto": "soministro"
+   },
+   {
+    "blocco": "s43",
+    "copione": "gcs",
+    "detto": "g cs"
+   },
+   {
+    "blocco": "s43",
+    "copione": "consegne sbar",
+    "detto": "con segne sber"
+   },
+   {
+    "blocco": "s46",
+    "copione": "equipe",
+    "detto": "equip"
+   },
+   {
+    "blocco": "s46",
+    "copione": "pre allerta",
+    "detto": "preallerta"
+   },
+   {
+    "blocco": "s47",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s47",
+    "copione": "emocomponenti",
+    "detto": "emo componenti"
+   },
+   {
+    "blocco": "s47",
+    "copione": "intraosseo",
+    "detto": "intraossio"
+   },
+   {
+    "blocco": "s49",
+    "copione": "aeree",
+    "detto": "ere"
+   },
+   {
+    "blocco": "s49",
+    "copione": "a tra",
+    "detto": "attra"
+   }
+  ]
+ }
+}

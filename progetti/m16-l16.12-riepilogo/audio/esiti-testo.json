@@ -1,0 +1,93 @@
+{
+ "A": {
+  "parole_copione": 640,
+  "parole_dette": 632,
+  "coincidenti": 620,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s11",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s13",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s17",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s19",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s23",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s24",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 682,
+  "parole_dette": 679,
+  "coincidenti": 670,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "80",
+    "detto": "ottant"
+   },
+   {
+    "blocco": "s26",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s30",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s37",
+    "copione": "xabcde",
+    "detto": "x abcde"
+   },
+   {
+    "blocco": "s39",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s40",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s40",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s42",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ }
+}

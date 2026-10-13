@@ -1,0 +1,123 @@
+{
+ "A": {
+  "parole_copione": 659,
+  "parole_dette": 648,
+  "coincidenti": 631,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s02",
+    "copione": "monossido",
+    "detto": "monossio"
+   },
+   {
+    "blocco": "s07",
+    "copione": "caldaia",
+    "detto": "caldaya"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s09",
+    "copione": "aspecifici",
+    "detto": "a specifici"
+   },
+   {
+    "blocco": "s11",
+    "copione": "1 affinita",
+    "detto": "una finita"
+   },
+   {
+    "blocco": "s11",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossiaemoglobina"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ossiemoglobina",
+    "detto": "ossie"
+   },
+   {
+    "blocco": "s12",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s13",
+    "copione": "co ossimetria",
+    "detto": "coossimetria"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s16",
+    "copione": "carbossiemoglobina ee",
+    "detto": "carbossiaemoglobina e"
+   },
+   {
+    "blocco": "s17",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossiaemoglobina"
+   },
+   {
+    "blocco": "s22",
+    "copione": "il",
+    "detto": "al"
+   },
+   {
+    "blocco": "s22",
+    "copione": "avidamente",
+    "detto": "avvidamente"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 634,
+  "parole_dette": 628,
+  "coincidenti": 617,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "alterazioni",
+    "detto": "alterazione"
+   },
+   {
+    "blocco": "s30",
+    "copione": "bracieri",
+    "detto": "braceri"
+   },
+   {
+    "blocco": "s36",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossiemo globina"
+   },
+   {
+    "blocco": "s39",
+    "copione": "bracieri",
+    "detto": "braceri"
+   },
+   {
+    "blocco": "s42",
+    "copione": "emogas",
+    "detto": "emo gas"
+   },
+   {
+    "blocco": "s42",
+    "copione": "carbossiemoglobina",
+    "detto": "carbossi emoglobina"
+   },
+   {
+    "blocco": "s47",
+    "copione": "l infermiere",
+    "detto": "gli infermieri"
+   }
+  ]
+ }
+}
