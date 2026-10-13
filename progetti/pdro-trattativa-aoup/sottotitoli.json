@@ -1,0 +1,422 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 3.19,
+  "testo": "Ultimo confronto con la Direzione dell'Azienda Ospedale"
+ },
+ {
+  "scena": "S01",
+  "inizio": 3.23,
+  "fine": 4.459,
+  "testo": "Università di Padova."
+ },
+ {
+  "scena": "S01",
+  "inizio": 4.499,
+  "fine": 8.035,
+  "testo": "Sul tavolo 6 questioni che riguardano da vicino chi lavora:"
+ },
+ {
+  "scena": "S01",
+  "inizio": 8.075,
+  "fine": 10.112,
+  "testo": "incentivi per le funzioni tecniche,"
+ },
+ {
+  "scena": "S01",
+  "inizio": 10.152,
+  "fine": 12.823,
+  "testo": "dialisi, OSS di notte, assunzioni, incarichi e"
+ },
+ {
+  "scena": "S01",
+  "inizio": 12.863,
+  "fine": 14.381,
+  "testo": "Oncoematologia pediatrica."
+ },
+ {
+  "scena": "S01",
+  "inizio": 14.421,
+  "fine": 18.959,
+  "testo": "Ecco cosa abbiamo detto, cosa abbiamo ottenuto e su cosa non arretriamo."
+ },
+ {
+  "scena": "S02",
+  "inizio": 19.446,
+  "fine": 22.329,
+  "testo": "Partiamo dagli incentivi per le funzioni tecniche."
+ },
+ {
+  "scena": "S02",
+  "inizio": 22.369,
+  "fine": 25.201,
+  "testo": "L'Azienda ha presentato una nuova bozza di regolamento,"
+ },
+ {
+  "scena": "S02",
+  "inizio": 25.241,
+  "fine": 27.765,
+  "testo": "mentre i ritardi si trascinano dalle attività del"
+ },
+ {
+  "scena": "S02",
+  "inizio": 27.805,
+  "fine": 31.901,
+  "testo": "2024 e chi ha lavorato aspetta ancora di essere pagato."
+ },
+ {
+  "scena": "S02",
+  "inizio": 31.941,
+  "fine": 33.77,
+  "testo": "La nostra risposta è netta:"
+ },
+ {
+  "scena": "S02",
+  "inizio": 33.81,
+  "fine": 36.142,
+  "testo": "così com'è, quella bozza non la firmiamo."
+ },
+ {
+  "scena": "S03",
+  "inizio": 36.61,
+  "fine": 39.647,
+  "testo": "Abbiamo portato proposte precise, discusse nei tavoli tecnici."
+ },
+ {
+  "scena": "S03",
+  "inizio": 39.687,
+  "fine": 41.855,
+  "testo": "Nella bozza non le abbiamo ritrovate:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 41.895,
+  "fine": 43.247,
+  "testo": "non sono state accolte."
+ },
+ {
+  "scena": "S03",
+  "inizio": 43.287,
+  "fine": 46.002,
+  "testo": "Per questo abbiamo preteso un nuovo tavolo tecnico."
+ },
+ {
+  "scena": "S03",
+  "inizio": 46.042,
+  "fine": 48.223,
+  "testo": "Nessuno vuole rallentare i pagamenti,"
+ },
+ {
+  "scena": "S03",
+  "inizio": 48.263,
+  "fine": 50.999,
+  "testo": "perché sono i lavoratori a pagare ogni ritardo."
+ },
+ {
+  "scena": "S03",
+  "inizio": 51.039,
+  "fine": 53.734,
+  "testo": "Ma l'urgenza dell'Amministrazione non può diventare una"
+ },
+ {
+  "scena": "S03",
+  "inizio": 53.774,
+  "fine": 55.48,
+  "testo": "scorciatoia sulle loro spalle."
+ },
+ {
+  "scena": "S03",
+  "inizio": 55.52,
+  "fine": 58.41,
+  "testo": "Un regolamento scritto male oggi è un'ingiustizia per anni."
+ },
+ {
+  "scena": "S03",
+  "inizio": 58.45,
+  "fine": 60.753,
+  "testo": "Prima si corregge, poi si firma."
+ },
+ {
+  "scena": "S04",
+  "inizio": 61.27,
+  "fine": 61.719,
+  "testo": "Dialisi."
+ },
+ {
+  "scena": "S04",
+  "inizio": 61.759,
+  "fine": 66.395,
+  "testo": "Le attività di via Giustiniani si concentrano all'Ospedale Sant'Antonio."
+ },
+ {
+  "scena": "S04",
+  "inizio": 66.435,
+  "fine": 69.439,
+  "testo": "I posti letto restano 50, l'impianto di osmosi è"
+ },
+ {
+  "scena": "S04",
+  "inizio": 69.479,
+  "fine": 72.645,
+  "testo": "stato rinnovato e la turnistica ordinaria non cambia."
+ },
+ {
+  "scena": "S04",
+  "inizio": 72.685,
+  "fine": 75.743,
+  "testo": "Sono arrivati 2 OSS, ma mancano ancora 2 infermieri."
+ },
+ {
+  "scena": "S04",
+  "inizio": 75.783,
+  "fine": 79.475,
+  "testo": "E l'informativa al sindacato è arrivata a cose quasi fatte:"
+ },
+ {
+  "scena": "S04",
+  "inizio": 79.515,
+  "fine": 82.171,
+  "testo": "i cambiamenti si discutono prima, non dopo."
+ },
+ {
+  "scena": "S04",
+  "inizio": 82.211,
+  "fine": 85.542,
+  "testo": "Seguiremo da vicino organici, formazione e carichi di lavoro."
+ },
+ {
+  "scena": "S05",
+  "inizio": 86.074,
+  "fine": 88.671,
+  "testo": "OSS nei turni di notte, soprattutto nelle chirurgie."
+ },
+ {
+  "scena": "S05",
+  "inizio": 88.711,
+  "fine": 90.493,
+  "testo": "Non è una richiesta nuova:"
+ },
+ {
+  "scena": "S05",
+  "inizio": 90.533,
+  "fine": 94.108,
+  "testo": "era già in una dichiarazione congiunta con la precedente Direzione."
+ },
+ {
+  "scena": "S05",
+  "inizio": 94.148,
+  "fine": 96.8,
+  "testo": "I pazienti sono più complessi e più anziani,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 96.84,
+  "fine": 99.47,
+  "testo": "e la notte non si regge senza supporto."
+ },
+ {
+  "scena": "S05",
+  "inizio": 99.51,
+  "fine": 101.46,
+  "testo": "Abbiamo chiesto dati sugli OSS assunti,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 101.5,
+  "fine": 104.593,
+  "testo": "una valutazione dei fabbisogni e una sperimentazione in un"
+ },
+ {
+  "scena": "S05",
+  "inizio": 104.633,
+  "fine": 107.611,
+  "testo": "reparto chirurgico, anche in Chirurgia d'Urgenza."
+ },
+ {
+  "scena": "S05",
+  "inizio": 107.651,
+  "fine": 110.71,
+  "testo": "La Direzione apre, ma un impegno concreto ancora non c'è."
+ },
+ {
+  "scena": "S06",
+  "inizio": 111.171,
+  "fine": 112.177,
+  "testo": "Assumere non basta:"
+ },
+ {
+  "scena": "S06",
+  "inizio": 112.217,
+  "fine": 114.126,
+  "testo": "bisogna far restare le persone."
+ },
+ {
+  "scena": "S06",
+  "inizio": 114.166,
+  "fine": 117.547,
+  "testo": "Carichi di lavoro pesanti e risorse distribuite in modo"
+ },
+ {
+  "scena": "S06",
+  "inizio": 117.587,
+  "fine": 120.843,
+  "testo": "non sempre equilibrato spingono i professionisti ad andarsene."
+ },
+ {
+  "scena": "S06",
+  "inizio": 120.883,
+  "fine": 123.817,
+  "testo": "Abbiamo chiesto dati aggiornati sulle assunzioni,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 123.857,
+  "fine": 127.401,
+  "testo": "divisi per area, e la Direzione si è impegnata a presentarli."
+ },
+ {
+  "scena": "S06",
+  "inizio": 127.441,
+  "fine": 130.436,
+  "testo": "Per noi fidelizzare significa organizzazioni sostenibili,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 130.476,
+  "fine": 133.235,
+  "testo": "percorsi di carriera e competenze riconosciute."
+ },
+ {
+  "scena": "S07",
+  "inizio": 133.691,
+  "fine": 135.672,
+  "testo": "Coordinatori e incarichi professionali."
+ },
+ {
+  "scena": "S07",
+  "inizio": 135.712,
+  "fine": 139.034,
+  "testo": "Il confronto sugli incarichi di coordinamento deve andare"
+ },
+ {
+  "scena": "S07",
+  "inizio": 139.074,
+  "fine": 141.964,
+  "testo": "avanti, e va aperto quello sugli incarichi professionali,"
+ },
+ {
+  "scena": "S07",
+  "inizio": 142.004,
+  "fine": 146.004,
+  "testo": "anche con le risorse e le opportunità del nuovo contratto nazionale."
+ },
+ {
+  "scena": "S07",
+  "inizio": 146.044,
+  "fine": 148.581,
+  "testo": "Valorizzare competenze e responsabilità non si può"
+ },
+ {
+  "scena": "S07",
+  "inizio": 148.621,
+  "fine": 149.743,
+  "testo": "rinviare all'infinito."
+ },
+ {
+  "scena": "S08",
+  "inizio": 150.221,
+  "fine": 151.607,
+  "testo": "Oncoematologia pediatrica."
+ },
+ {
+  "scena": "S08",
+  "inizio": 151.647,
+  "fine": 154.373,
+  "testo": "Avevamo già chiesto formalmente chiarimenti,"
+ },
+ {
+  "scena": "S08",
+  "inizio": 154.413,
+  "fine": 156.115,
+  "testo": "e lo abbiamo ripetuto al tavolo:"
+ },
+ {
+  "scena": "S08",
+  "inizio": 156.155,
+  "fine": 159.231,
+  "testo": "chi rappresenta i lavoratori non può ricostruire il futuro"
+ },
+ {
+  "scena": "S08",
+  "inizio": 159.271,
+  "fine": 161.335,
+  "testo": "di un reparto leggendo i giornali."
+ },
+ {
+  "scena": "S08",
+  "inizio": 161.375,
+  "fine": 164.292,
+  "testo": "La Direzione dice di voler comunicare solo informazioni"
+ },
+ {
+  "scena": "S08",
+  "inizio": 164.332,
+  "fine": 167.998,
+  "testo": "certe, con al primo posto la sicurezza di pazienti e operatori."
+ },
+ {
+  "scena": "S08",
+  "inizio": 168.038,
+  "fine": 170.374,
+  "testo": "Noi chiediamo trasparenza, tempi rapidi e il"
+ },
+ {
+  "scena": "S08",
+  "inizio": 170.414,
+  "fine": 171.958,
+  "testo": "coinvolgimento del personale."
+ },
+ {
+  "scena": "S09",
+  "inizio": 172.447,
+  "fine": 174.783,
+  "testo": "Non ci accontentiamo delle intenzioni."
+ },
+ {
+  "scena": "S09",
+  "inizio": 174.823,
+  "fine": 178.862,
+  "testo": "Vogliamo risultati verificabili, tempi certi e risposte concrete."
+ },
+ {
+  "scena": "S09",
+  "inizio": 178.902,
+  "fine": 182.558,
+  "testo": "Hai osservazioni sul tuo reparto, sulla dialisi o sulle notti?"
+ },
+ {
+  "scena": "S09",
+  "inizio": 182.598,
+  "fine": 186.495,
+  "testo": "Scrivici o vieni in sede, al 3° piano della Palazzina dei Servizi:"
+ },
+ {
+  "scena": "S09",
+  "inizio": 186.535,
+  "fine": 188.598,
+  "testo": "le porteremo al prossimo tavolo."
+ },
+ {
+  "scena": "S09",
+  "inizio": 188.638,
+  "fine": 190.136,
+  "testo": "CISL FP Padova Rovigo."
+ },
+ {
+  "scena": "S09",
+  "inizio": 190.176,
+  "fine": 191.143,
+  "testo": "Uniti siamo forti."
+ }
+]

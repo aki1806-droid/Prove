@@ -1,0 +1,194 @@
+{
+  "progetto": "PDRO_Trattativa_AOUP_ottobre_2026",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voce_elevenlabs": "Achille nuovo 1 v4",
+  "modello": "eleven_multilingual_v2",
+  "atempo": 1.12,
+  "avatar_heygen": "Aki with a lapel microphone",
+  "posizione_avatar": "basso a destra",
+  "logo": "alto a sinistra",
+  "nota": "Ogni scena ha due grafiche (A e B): B entra sulla frase indicata",
+  "scene": [
+    {
+      "n": 1,
+      "tipo": "slide",
+      "titolo": "Apertura",
+      "voce": "Ultimo confronto con la Direzione dell'Azienda Ospedale Università di Padova. Sul tavolo sei questioni che riguardano da vicino chi lavora: incentivi per le funzioni tecniche, dialisi, OSS di notte, assunzioni, incarichi e Oncoematologia pediatrica. Ecco cosa abbiamo detto, cosa abbiamo ottenuto e su cosa non arretriamo.",
+      "parole": 46,
+      "caratteri": 322,
+      "durata_stimata_s": 19.8,
+      "grafiche": [
+        {
+          "file": "slide/S01A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S01B_slide.png",
+          "da": "sulla frase «Sul tavolo sei questioni…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 2,
+      "tipo": "clip",
+      "titolo": "Incentivi: non firmiamo",
+      "voce": "Partiamo dagli incentivi per le funzioni tecniche. L'Azienda ha presentato una nuova bozza di regolamento, mentre i ritardi si trascinano dalle attività del duemilaventiquattro e chi ha lavorato aspetta ancora di essere pagato. La nostra risposta è netta: così com'è, quella bozza non la firmiamo.",
+      "parole": 45,
+      "caratteri": 297,
+      "durata_stimata_s": 18.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S02A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S02B_overlay.png",
+          "da": "sulla frase «La nostra risposta è netta…»"
+        }
+      ],
+      "clip": "Ufficio tecnico ospedaliero: tavoli con progetti e planimetrie, mani che sfogliano tavole tecniche, luce fredda. Nessun volto riconoscibile."
+    },
+    {
+      "n": 3,
+      "tipo": "slide",
+      "titolo": "Proposte non accolte",
+      "voce": "Abbiamo portato proposte precise, discusse nei tavoli tecnici. Nella bozza non le abbiamo ritrovate: non sono state accolte. Per questo abbiamo preteso un nuovo tavolo tecnico. Nessuno vuole rallentare i pagamenti, perché sono i lavoratori a pagare ogni ritardo. Ma l'urgenza dell'Amministrazione non può diventare una scorciatoia sulle loro spalle. Un regolamento scritto male oggi è un'ingiustizia per anni. Prima si corregge, poi si firma.",
+      "parole": 65,
+      "caratteri": 442,
+      "durata_stimata_s": 27.2,
+      "grafiche": [
+        {
+          "file": "slide/S03A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S03B_slide.png",
+          "da": "sulla frase «Nessuno vuole rallentare…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 4,
+      "tipo": "clip",
+      "titolo": "Dialisi al Sant'Antonio",
+      "voce": "Dialisi. Le attività di via Giustiniani si concentrano all'Ospedale Sant'Antonio. I posti letto restano cinquanta, l'impianto di osmosi è stato rinnovato e la turnistica ordinaria non cambia. Sono arrivati due OSS, ma mancano ancora due infermieri. E l'informativa al sindacato è arrivata a cose quasi fatte: i cambiamenti si discutono prima, non dopo. Seguiremo da vicino organici, formazione e carichi di lavoro.",
+      "parole": 62,
+      "caratteri": 414,
+      "durata_stimata_s": 25.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S04B_overlay.png",
+          "da": "sulla frase «I posti letto restano…»"
+        }
+      ],
+      "clip": "Sala dialisi moderna con macchine allineate e poltrone vuote, carrellata laterale lenta. Nessun paziente."
+    },
+    {
+      "n": 5,
+      "tipo": "slide",
+      "titolo": "OSS di notte",
+      "voce": "OSS nei turni di notte, soprattutto nelle chirurgie. Non è una richiesta nuova: era già in una dichiarazione congiunta con la precedente Direzione. I pazienti sono più complessi e più anziani, e la notte non si regge senza supporto. Abbiamo chiesto dati sugli OSS assunti, una valutazione dei fabbisogni e una sperimentazione in un reparto chirurgico, anche in Chirurgia d'Urgenza. La Direzione apre, ma un impegno concreto ancora non c'è.",
+      "parole": 70,
+      "caratteri": 439,
+      "durata_stimata_s": 27.0,
+      "grafiche": [
+        {
+          "file": "slide/S05A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S05B_slide.png",
+          "da": "sulla frase «Abbiamo chiesto dati…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 6,
+      "tipo": "clip",
+      "titolo": "Assunzioni e fidelizzazione",
+      "voce": "Assumere non basta: bisogna far restare le persone. Carichi di lavoro pesanti e risorse distribuite in modo non sempre equilibrato spingono i professionisti ad andarsene. Abbiamo chiesto dati aggiornati sulle assunzioni, divisi per area, e la Direzione si è impegnata a presentarli. Per noi fidelizzare significa organizzazioni sostenibili, percorsi di carriera e competenze riconosciute.",
+      "parole": 54,
+      "caratteri": 388,
+      "durata_stimata_s": 23.9,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S06B_overlay.png",
+          "da": "sulla frase «Per noi fidelizzare…»"
+        }
+      ],
+      "clip": "Professionisti sanitari che entrano in ospedale al cambio turno, ritmo dinamico, di spalle o a figura intera senza volti in primo piano."
+    },
+    {
+      "n": 7,
+      "tipo": "slide",
+      "titolo": "Coordinatori e incarichi",
+      "voce": "Coordinatori e incarichi professionali. Il confronto sugli incarichi di coordinamento deve andare avanti, e va aperto quello sugli incarichi professionali, anche con le risorse e le opportunità del nuovo contratto nazionale. Valorizzare competenze e responsabilità non si può rinviare all'infinito.",
+      "parole": 40,
+      "caratteri": 298,
+      "durata_stimata_s": 18.3,
+      "grafiche": [
+        {
+          "file": "slide/S07A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S07B_slide.png",
+          "da": "sulla frase «Valorizzare competenze…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 8,
+      "tipo": "clip",
+      "titolo": "Oncoematologia pediatrica",
+      "voce": "Oncoematologia pediatrica. Avevamo già chiesto formalmente chiarimenti, e lo abbiamo ripetuto al tavolo: chi rappresenta i lavoratori non può ricostruire il futuro di un reparto leggendo i giornali. La Direzione dice di voler comunicare solo informazioni certe, con al primo posto la sicurezza di pazienti e operatori. Noi chiediamo trasparenza, tempi rapidi e il coinvolgimento del personale.",
+      "parole": 57,
+      "caratteri": 393,
+      "durata_stimata_s": 24.2,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S08A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S08B_overlay.png",
+          "da": "sulla frase «Noi chiediamo trasparenza…»"
+        }
+      ],
+      "clip": "Corridoio ospedaliero luminoso e tranquillo, inquadratura ampia e lenta. Nessun bambino, nessun paziente."
+    },
+    {
+      "n": 9,
+      "tipo": "slide",
+      "titolo": "Chiusura",
+      "voce": "Non ci accontentiamo delle intenzioni. Vogliamo risultati verificabili, tempi certi e risposte concrete. Hai osservazioni sul tuo reparto, sulla dialisi o sulle notti? Scrivici o vieni in sede, al terzo piano della Palazzina dei Servizi: le porteremo al prossimo tavolo. CISL FP Padova Rovigo. Uniti siamo forti.",
+      "parole": 47,
+      "caratteri": 312,
+      "durata_stimata_s": 19.2,
+      "grafiche": [
+        {
+          "file": "slide/S09A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S09B_slide.png",
+          "da": "sulla frase «Hai osservazioni…»"
+        }
+      ],
+      "clip": null
+    }
+  ]
+}
