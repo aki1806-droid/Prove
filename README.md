@@ -158,6 +158,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.12-riepilogo` | Modulo 16 · 16.12 Riepilogo del modulo e casi lampo | 8:45.9 | `4b53692893f01bc810f39c02c1bc33f7` |
 | `m17-l17.1-preeclampsia` | Modulo 17 · 17.1 La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
 | `m17-l17.2-postpartum` | Modulo 17 · 17.2 L'emorragia post-partum e il neonato | 8:46.5 | `4d4ec5ef9a3203279b7e3dde2f4930ec` |
+| `m17-l17.4-suicidario` | Modulo 17 · 17.4 Il rischio suicidario in reparto | 9:12.4 | `9fca450a057ec7b674c52370e293bf05` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
