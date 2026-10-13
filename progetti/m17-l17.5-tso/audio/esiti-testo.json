@@ -1,0 +1,43 @@
+{
+ "A": {
+  "parole_copione": 606,
+  "parole_dette": 605,
+  "coincidenti": 600,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s14",
+    "copione": "amfetamine",
+    "detto": "anfetamine"
+   },
+   {
+    "blocco": "s15",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s18",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 706,
+  "parole_dette": 703,
+  "coincidenti": 702,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s34",
+    "copione": "e",
+    "detto": "ee"
+   }
+  ]
+ }
+}

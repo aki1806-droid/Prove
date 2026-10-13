@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:14,480
+Questo e' un caso di infezione correlata all'assistenza. Mette alla prova tutto il modulo quattro: igiene delle mani, precauzioni di isolamento, sanificazione, uso responsabile degli antibiotici.
+
+2
+00:00:14,480 --> 00:00:28,720
+Il protagonista forma spore resistenti e trova terreno favorevole negli ospedali: il Clostridioides difficile. Le lezioni: quattro punto due, quattro punto tre, quattro punto cinque, quattro punto sei, tre punto cinque.
+
+3
+00:00:28,720 --> 00:00:38,520
+Lo scenario. Il signor Aldo ha ottantuno anni, ed e' ricoverato in medicina per una polmonite. E' in terapia con una cefalosporina e con un inibitore di pompa protonica.
+
+4
+00:00:38,520 --> 00:00:50,430
+In sesta giornata presenta cinque scariche di feci acquose nelle ultime ventiquattro ore, febbricola e dolore addominale crampiforme. Divide la stanza con un altro paziente, e usa il bagno comune.
+
+5
+00:00:50,430 --> 00:00:56,340
+Fermati un momento: che cosa sospetti? E che cosa fai, prima ancora di avere un risultato di laboratorio?
+
+6
+00:00:56,340 --> 00:01:08,300
+Il ragionamento. Tre o piu' scariche non formate in ventiquattro ore, in un paziente ricoverato e in terapia antibiotica: sospetta infezione da Clostridioides difficile. I fattori di rischio ci sono tutti.
+
+7
+00:01:08,300 --> 00:01:21,020
+Gli antibiotici, che alterano il microbiota intestinale; l'eta' avanzata; l'ospedalizzazione; gli inibitori di pompa. Il batterio si trasmette per via oro-fecale, con spore che resistono a lungo nell'ambiente.
+
+8
+00:01:21,020 --> 00:01:33,710
+E che l'alcol non distrugge. La regola organizzativa piu' importante: le precauzioni si avviano al sospetto, non alla conferma. Aspettare l'esito significa dare al batterio uno o due giorni di vantaggio.
+
+9
+00:01:33,710 --> 00:01:46,360
+Le precauzioni da contatto. Una stanza singola con bagno dedicato, o almeno una comoda dedicata. Se non ci sono stanze singole, una coorte con altri pazienti infetti, secondo le indicazioni del gruppo per le infezioni.
+
+10
+00:01:46,360 --> 00:01:57,270
+Guanti e camice per ogni contatto con il paziente o con il suo ambiente. Dispositivi dedicati: fonendoscopio, termometro, sfigmomanometro. La segnaletica sulla porta.
+
+11
+00:01:57,270 --> 00:02:07,310
+Trasporti limitati, e comunicati in anticipo. E si informa il gruppo operativo per il controllo delle infezioni. Sono le precauzioni da contatto della lezione quattro punto tre.
+
+12
+00:02:07,310 --> 00:02:15,600
+L'igiene delle mani ha qui la sua eccezione piu' famosa. La frizione alcolica, che di solito e' il metodo di riferimento, non elimina le spore.
+
+13
+00:02:15,600 --> 00:02:25,420
+Per questo, dopo il contatto con il paziente o con il suo ambiente, ci si toglie i guanti e ci si lava le mani con acqua e sapone: e' l'azione meccanica a rimuovere le spore.
+
+14
+00:02:25,420 --> 00:02:35,150
+I guanti restano fondamentali. In tutte le altre situazioni del reparto, la frizione alcolica resta il metodo di riferimento. Ed e' una domanda d'esame quasi certa.
+
+15
+00:02:35,150 --> 00:02:45,220
+La diagnosi. Si invia un campione di feci non formate. Le feci formate di norma non vanno inviate, perche' il test potrebbe essere positivo in un semplice portatore.
+
+16
+00:02:45,220 --> 00:02:56,570
+Contenitore idoneo, etichettatura corretta, invio rapido o conservazione secondo procedura. Il laboratorio ricerca le tossine, o il gene che le produce, secondo il proprio protocollo.
+
+17
+00:02:56,570 --> 00:03:03,070
+E non si ripete il test per verificare la guarigione: il batterio puo' restare a lungo, anche quando il paziente sta bene.
+
+18
+00:03:03,070 --> 00:03:15,300
+La terapia, su prescrizione: un trattamento specifico per via orale, come la vancomicina orale o la fidaxomicina. La vancomicina orale non viene assorbita, e agisce proprio nell'intestino.
+
+19
+00:03:15,300 --> 00:03:24,810
+Si rivaluta con il medico l'antibiotico in corso, che ha causato il problema, e l'inibitore di pompa. Si sospendono i lassativi, che a volte si trovano ancora in terapia.
+
+20
+00:03:24,810 --> 00:03:36,480
+Si evitano gli antidiarroici senza indicazione. E sullo sfondo c'e' la stewardship della lezione quattro punto sei: meno antibiotici inutili significa meno infezioni da Clostridioides.
+
+21
+00:03:36,480 --> 00:03:48,650
+L'assistenza al paziente. Idratazione, bilancio idrico e peso, perche' un anziano con diarrea si disidrata rapidamente. Gli elettroliti, con il rischio di ipokaliemia della lezione tre punto cinque.
+
+22
+00:03:48,650 --> 00:04:01,380
+Un diario delle scariche, con numero e consistenza, per esempio con la scala di Bristol. La cura della cute perianale, con igiene delicata e prodotti barriera, per prevenire la dermatite associata all'incontinenza.
+
+23
+00:04:01,380 --> 00:04:10,250
+Il rischio di cadute, per l'urgenza di andare in bagno e per la debolezza. La dignita' e la privacy, in una condizione imbarazzante. E l'alimentazione.
+
+24
+00:04:10,250 --> 00:04:23,860
+I segni di gravita', da conoscere. Febbre elevata, leucocitosi marcata, aumento della creatinina, distensione addominale dolorosa. E una trappola: una riduzione improvvisa delle scariche, con l'addome che si distende.
+
+25
+00:04:23,860 --> 00:04:35,570
+Non e' sempre un miglioramento. Puo' indicare un ileo, o un megacolon tossico: una complicanza grave, in cui il colon si dilata e non si svuota piu'. Con ipotensione e confusione, si segnala subito.
+
+26
+00:04:35,570 --> 00:04:44,260
+Ottava giornata: il compagno di stanza inizia ad avere diarrea. Due casi collegati possono indicare un cluster, cioe' una trasmissione in reparto.
+
+27
+00:04:44,260 --> 00:04:54,660
+Si informano subito il gruppo per il controllo delle infezioni e la direzione, e si avviano le precauzioni anche per il secondo paziente. Poi si rivede che cosa puo' aver favorito la trasmissione.
+
+28
+00:04:54,660 --> 00:05:07,870
+Il bagno comune, i dispositivi condivisi, l'aderenza all'igiene delle mani. Sanificazione straordinaria, e sorveglianza degli altri pazienti. Il secondo caso conferma quanto fosse importante isolare il primo al sospetto.
+
+29
+00:05:07,870 --> 00:05:18,080
+La sanificazione. Servono prodotti sporicidi, per esempio a base di cloro, secondo la procedura aziendale: e' la disinfezione sporicida della lezione quattro punto cinque.
+
+30
+00:05:18,080 --> 00:05:29,870
+Attenzione alle superfici ad alto contatto: sponde, campanello, comodino, maniglie, bagno, comoda. I dispositivi riutilizzabili si puliscono e si disinfettano dopo ogni uso.
+
+31
+00:05:29,870 --> 00:05:39,800
+Alla dimissione, o al termine dell'isolamento, la sanificazione terminale della stanza, coordinandosi con il servizio di pulizia, che deve conoscere il tipo di prodotto da usare.
+
+32
+00:05:39,800 --> 00:05:48,270
+Un approfondimento sui germi multiresistenti, che seguono una logica simile. Lo MRSA, lo stafilococco resistente alla meticillina.
+
+33
+00:05:48,270 --> 00:05:58,330
+Gli enterobatteri produttori di carbapenemasi, come la Klebsiella KPC, molto diffusi negli ospedali italiani. E gli enterococchi resistenti alla vancomicina.
+
+34
+00:05:58,330 --> 00:06:11,200
+Per i pazienti a rischio, uno screening secondo protocollo, per esempio un tampone rettale all'ingresso. Poi le precauzioni da contatto, l'igiene delle mani, i dispositivi dedicati, la sanificazione, la stewardship.
+
+35
+00:06:11,200 --> 00:06:19,870
+E la colonizzazione si segnala nei trasferimenti e alla dimissione, anche verso le strutture residenziali, per non interrompere la catena di prevenzione.
+
+36
+00:06:19,870 --> 00:06:31,200
+Gli errori. Aspettare il referto per isolare. Usare solo la frizione alcolica. Lasciare il paziente nel bagno comune. Condividere fonendoscopio e termometro. Inviare feci formate.
+
+37
+00:06:31,200 --> 00:06:41,770
+Continuare lassativi e antibiotico senza rivalutazione. Interpretare come un miglioramento la riduzione delle scariche con l'addome disteso. Trascurare la cute e la dignita'.
+
+38
+00:06:41,770 --> 00:06:53,040
+Le domande d'orale. Prima: perche' acqua e sapone? Perche' il batterio forma spore che l'alcol non distrugge, e il lavaggio le rimuove meccanicamente. Seconda: le precauzioni da contatto?
+
+39
+00:06:53,040 --> 00:07:05,750
+Stanza singola o coorte, bagno dedicato, guanti e camice per ogni contatto, dispositivi dedicati, segnaletica, trasporti limitati, sanificazione accurata, gruppo per le infezioni informato.
+
+40
+00:07:05,750 --> 00:07:16,480
+Terza: i fattori di rischio? Terapia antibiotica, eta' avanzata, ospedalizzazione o residenza in strutture, inibitori di pompa protonica, comorbidita' e immunodepressione.
+
+41
+00:07:16,480 --> 00:07:29,510
+La risposta modello. Paziente anziano in terapia antibiotica e con inibitore di pompa, che in sesta giornata presenta diarrea acquosa, febbricola e dolore addominale: sospetta infezione da Clostridioides difficile.
+
+42
+00:07:29,510 --> 00:07:41,800
+Trasmissibile tramite spore. Al sospetto attivo le precauzioni da contatto: stanza singola con bagno dedicato, guanti e camice, dispositivi dedicati. Informo il medico e il gruppo per le infezioni.
+
+43
+00:07:41,800 --> 00:07:54,160
+Eseguo l'igiene delle mani con acqua e sapone. Invio un campione di feci non formate. Somministro la terapia orale prescritta, segnalo per la rivalutazione antibiotico e inibitore di pompa, sospendo i lassativi.
+
+44
+00:07:54,160 --> 00:08:06,660
+Garantisco idratazione, elettroliti, cura della cute, prevenzione delle cadute e dignita'. Sorveglio i segni di gravita'. Coordino la sanificazione con prodotti sporicidi, e segnalo eventuali nuovi casi.
+
+45
+00:08:06,660 --> 00:08:18,390
+I collegamenti. Igiene delle mani con la quattro punto due. Precauzioni e isolamento con la quattro punto tre. Sanificazione con la quattro punto cinque. Stewardship con la quattro punto sei.
+
+46
+00:08:18,390 --> 00:08:25,470
+Elettroliti e bilancio con la tre punto cinque. L'alvo con la tre punto sette. E la cute con la sette punto due.
+
+47
+00:08:25,470 --> 00:08:33,900
+La frase del caso: con le spore, l'alcol non basta. Servono acqua, sapone, e un isolamento al primo sospetto.
+
+48
+00:08:33,900 --> 00:08:44,590
+Nella prossima lezione: un giovane motociclista politraumatizzato, che arriva in pronto soccorso di notte. L'approccio XABCDE in equipe, minuto per minuto. A tra poco.

@@ -1,0 +1,68 @@
+{
+ "A": {
+  "parole_copione": 679,
+  "parole_dette": 673,
+  "coincidenti": 668,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s04",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s07",
+    "copione": "chili",
+    "detto": "kg"
+   },
+   {
+    "blocco": "s09",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s13",
+    "copione": "isotonico",
+    "detto": "isotonic"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 705,
+  "parole_dette": 703,
+  "coincidenti": 694,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s26",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s30",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s35",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s37",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s41",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   }
+  ]
+ }
+}

@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,480
+Il politrauma e' il caso in cui l'approccio XABCDE della lezione dieci punto sette mostra tutta la sua forza: un paziente con piu' lesioni, ognuna potenzialmente mortale.
+
+2
+00:00:13,480 --> 00:00:24,120
+E un'equipe che deve affrontarle nell'ordine giusto. Seguiamo un giovane motociclista dall'arrivo in pronto soccorso alla sala operatoria, con alcuni dettagli tecnici che i concorsi chiedono spesso.
+
+3
+00:00:24,120 --> 00:00:32,970
+Lo scenario. Ore ventitre e dieci. Un uomo di trentadue anni, incidente in moto ad alta velocita', centralizzato dal centodiciotto al centro traumi.
+
+4
+00:00:32,970 --> 00:00:42,300
+Sul posto sono stati applicati un tourniquet alla coscia destra, alle ventidue e trentacinque, il collare cervicale e la tavola spinale. All'arrivo e' agitato.
+
+5
+00:00:42,300 --> 00:00:56,490
+Frequenza respiratoria trentaquattro, saturazione ottantasei con l'ossigeno, murmure assente a sinistra, trachea deviata a destra, giugulari turgide. Pressione settantotto su cinquanta, frequenza centoquarantadue.
+
+6
+00:00:56,490 --> 00:01:05,630
+Il bacino e' doloroso. C'e' sangue al meato uretrale. Temperatura trentacinque virgola due. Fermati un momento: con quale ordine affronti questi problemi?
+
+7
+00:01:05,630 --> 00:01:15,870
+X, l'emorragia esterna massiva. Si verifica che il tourniquet sia efficace: nessun sanguinamento dalla ferita, e polso distale assente. E non si allenta.
+
+8
+00:01:15,870 --> 00:01:29,350
+L'ora di applicazione, le ventidue e trentacinque, si annota e si comunica a tutta l'equipe: dice da quanto tempo l'arto e' senza circolazione. Altre emorragie esterne: compressione diretta e medicazioni emostatiche.
+
+9
+00:01:29,350 --> 00:01:38,060
+A: le vie aeree sono pervie, perche' il paziente parla. E si protegge il rachide cervicale, mantenendo il collare e muovendo il paziente in asse.
+
+10
+00:01:38,060 --> 00:01:50,580
+B: dispnea, desaturazione, murmure assente a sinistra, trachea deviata, giugulari turgide e ipotensione. E' uno pneumotorace iperteso, una delle quattro T della lezione dieci punto tre.
+
+11
+00:01:50,580 --> 00:02:02,140
+L'aria accumulata nel torace comprime il polmone e il cuore. Il medico esegue una decompressione immediata, poi si posiziona un drenaggio toracico, con le regole della lezione sette punto sette.
+
+12
+00:02:02,140 --> 00:02:08,900
+L'infermiere prepara il materiale e sorveglia la risposta: saturazione e pressione devono migliorare rapidamente.
+
+13
+00:02:08,900 --> 00:02:19,680
+C. Dopo il drenaggio la saturazione sale a novantacinque, ma la pressione resta ottantaquattro su cinquantadue, e la frequenza centotrentasei: lo shock emorragico persiste.
+
+14
+00:02:19,680 --> 00:02:29,630
+Dove sanguina? Le sedi tipiche sono il torace, l'addome, il bacino e le ossa lunghe. In sala emergenza si esegue un'ecografia FAST, alla ricerca di sangue libero.
+
+15
+00:02:29,630 --> 00:02:42,650
+Il bacino doloroso e instabile richiede una fascia pelvica, all'altezza dei grandi trocanteri: chiude l'anello pelvico e riduce il sanguinamento. Due accessi di grosso calibro, o un intraosseo, e prelievi con il gruppo.
+
+16
+00:02:42,650 --> 00:02:55,190
+La terapia dello shock emorragico, secondo prescrizione. Si attiva il protocollo di trasfusione massiva: emazie, plasma e piastrine in rapporto bilanciato, perche' si perde sangue intero, non solo globuli rossi.
+
+17
+00:02:55,190 --> 00:03:04,890
+Emocomponenti e liquidi riscaldati. L'acido tranexamico, un farmaco che riduce la dissoluzione del coagulo, il prima possibile ed entro tre ore dal trauma.
+
+18
+00:03:04,890 --> 00:03:17,220
+I cristalloidi si usano con cautela, perche' diluiscono i fattori della coagulazione. E l'obiettivo e' uno solo: portare rapidamente il paziente al controllo dell'emorragia, in sala operatoria o in angiografia.
+
+19
+00:03:17,220 --> 00:03:31,930
+D: GCS tredici, pupille, segni di lato, glicemia, e una sorveglianza neurologica ravvicinata per un possibile trauma cranico. E: esposizione completa per cercare lesioni nascoste, con il log roll e il controllo del rachide.
+
+20
+00:03:31,930 --> 00:03:43,930
+E poi l'ipotermia: trentacinque virgola due gradi, in un traumatizzato, non sono un dettaglio. Via gli indumenti bagnati; coperte termiche e riscaldamento attivo, liquidi caldi, un ambiente caldo.
+
+21
+00:03:43,930 --> 00:03:54,430
+Un approfondimento: la triade letale del trauma. L'ipotermia altera la coagulazione. L'acidosi, dovuta all'ipoperfusione, peggiora la coagulazione e la funzione del cuore.
+
+22
+00:03:54,430 --> 00:04:05,650
+La coagulopatia aumenta il sanguinamento, che aggrava lo shock, che aumenta acidosi e ipotermia. E' un circolo vizioso, che uccide anche quando le singole lesioni sarebbero trattabili.
+
+23
+00:04:05,650 --> 00:04:17,610
+Si interrompe con il controllo rapido dell'emorragia, gli emocomponenti bilanciati, il riscaldamento, e il damage control: in sala si fa solo cio' che serve a fermare il sanguinamento e la contaminazione.
+
+24
+00:04:17,610 --> 00:04:27,310
+Il paziente si corregge in terapia intensiva, e l'intervento definitivo si esegue dopo. Ecco perche' un grado di temperatura, in questo paziente, e' un intervento salvavita.
+
+25
+00:04:27,310 --> 00:04:34,720
+E ora due dettagli tecnici che i concorsi amano: due dispositivi da non posizionare. Il primo e' il catetere vescicale.
+
+26
+00:04:34,720 --> 00:04:44,850
+Con sangue al meato uretrale, un ematoma perineale o una frattura del bacino, si sospetta una lesione dell'uretra. E il catetere non si posiziona senza una valutazione specialistica.
+
+27
+00:04:44,850 --> 00:04:52,880
+Perche' potrebbe trasformare una lesione parziale in completa. Il secondo e' il sondino naso-gastrico, se si sospetta una frattura della base cranica.
+
+28
+00:04:52,880 --> 00:05:03,680
+Cioe' perdita di liquido da naso o orecchie, ecchimosi intorno agli occhi o dietro le orecchie. Non si usa la via nasale, ma eventualmente quella oro-gastrica, come nella lezione tre punto quattro.
+
+29
+00:05:03,680 --> 00:05:16,490
+Il trasferimento in sala operatoria o in angiografia: con il monitor, il defibrillatore, l'ossigeno, gli emocomponenti in corso, e il drenaggio toracico, che nel trasporto non si clampa, come nella lezione sette punto sette.
+
+30
+00:05:16,490 --> 00:05:29,420
+Le consegne SBAR: la dinamica, l'ora del tourniquet, gli interventi eseguiti, emocomponenti e farmaci con i loro orari, parametri e temperatura. Nel trauma, la documentazione dei tempi e' parte della cura.
+
+31
+00:05:29,420 --> 00:05:40,880
+La famiglia e l'equipe. I familiari in pronto soccorso hanno bisogno di un operatore dedicato, di un luogo riservato e di informazioni dal medico. La cosa piu' difficile, per loro, e' restare senza notizie.
+
+32
+00:05:40,880 --> 00:05:52,510
+Gli effetti personali si inventariano e si custodiscono. E dopo un evento cosi' intenso, un breve debriefing dell'equipe aiuta a migliorare e a gestire lo stress, che fa parte del lavoro in emergenza.
+
+33
+00:05:52,510 --> 00:06:03,730
+Gli errori. Allentare il tourniquet per controllare, o non annotarne l'ora. Aspettare la radiografia per trattare uno pneumotorace iperteso, che e' una diagnosi clinica. Dimenticare il bacino.
+
+34
+00:06:03,730 --> 00:06:14,540
+Infondere grandi quantita' di cristalloidi freddi. Trascurare l'ipotermia. Posizionare il catetere con sangue al meato. Il sondino nasale con una sospetta frattura della base cranica.
+
+35
+00:06:14,540 --> 00:06:25,540
+Le domande d'orale. Prima: che cosa significa XABCDE? E' l'ABCDE del trauma, preceduto dalla X: il controllo dell'emorragia esterna massiva.
+
+36
+00:06:25,540 --> 00:06:34,080
+Perche' un'emorragia di questo tipo uccide in pochi minuti, prima ancora di un problema delle vie aeree. Seconda: quali sono i segni dello pneumotorace iperteso?
+
+37
+00:06:34,080 --> 00:06:45,000
+Dispnea, desaturazione, murmure assente da un lato, trachea deviata dalla parte opposta, giugulari turgide, ipotensione. Si tratta con la decompressione immediata.
+
+38
+00:06:45,000 --> 00:06:55,740
+Terza: quando non si posizionano catetere o sondino? Il catetere con sangue al meato uretrale o sospetta lesione dell'uretra; il sondino nasale con sospetta frattura della base cranica.
+
+39
+00:06:55,740 --> 00:07:08,820
+La risposta modello. Politraumatizzato con emorragia di un arto controllata da tourniquet, pneumotorace iperteso, shock emorragico, bacino instabile e ipotermia. Applico l'approccio XABCDE in equipe.
+
+40
+00:07:08,820 --> 00:07:17,680
+Verifico il tourniquet senza allentarlo, e ne comunico l'ora. Mantengo la protezione del rachide. Collaboro alla decompressione e al drenaggio toracico.
+
+41
+00:07:17,680 --> 00:07:31,450
+Posiziono due accessi di grosso calibro, eseguo prelievi con gruppo, collaboro all'eco-FAST e alla fascia pelvica. Somministro emocomponenti in rapporto bilanciato e acido tranexamico entro tre ore, con liquidi riscaldati.
+
+42
+00:07:31,450 --> 00:07:46,960
+Valuto GCS, pupille e glicemia; prevengo l'ipotermia. Non posiziono il catetere, per il sangue al meato. Preparo il trasferimento monitorato, trasmetto consegne SBAR con tutti gli orari, assisto i familiari e documento.
+
+43
+00:07:46,960 --> 00:07:57,200
+I collegamenti. Il sondino con la tre punto quattro. Il catetere con la tre punto sei. La trasfusione con la sei punto sei. Il drenaggio toracico con la sette punto sette.
+
+44
+00:07:57,200 --> 00:08:05,320
+Le cause reversibili con la dieci punto tre. Il trauma con la dieci punto sette. E la rete trauma veneta con la tredici punto tre.
+
+45
+00:08:05,320 --> 00:08:18,000
+Il lavoro in equipe. Il trauma team si organizza prima dell'arrivo, grazie alla pre-allerta del centodiciotto: un leader, e ruoli assegnati. Si comunica a ciclo chiuso. Un infermiere registra tempi e interventi.
+
+46
+00:08:18,000 --> 00:08:29,120
+E il materiale e' gia' pronto: emocomponenti, riscaldatori, fascia pelvica, set per il drenaggio, dispositivo intraosseo. Nel trauma, la preparazione vale quanto l'esecuzione.
+
+47
+00:08:29,120 --> 00:08:35,710
+La frase del caso: nel trauma, l'ordine delle priorita' salva la vita piu' della velocita'.
+
+48
+00:08:35,710 --> 00:08:45,170
+Nella prossima lezione: un grande ustionato, con il calcolo dei liquidi con la formula di Parkland, una trappola sugli orari, e le vie aeree che si chiudono. A tra poco.
