@@ -1,0 +1,4 @@
+# derivati: si rifanno con costruisci.py e monta.py
+audio/*.wav
+audio/scene/
+_montaggio/

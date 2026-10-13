@@ -1,0 +1,96 @@
+[
+ {
+  "id": "S0",
+  "file": "video/S0_copertina.mp4",
+  "tipo": "Copertina",
+  "voce": null,
+  "durata_s": 3,
+  "voce_file": null,
+  "durata": 3.0,
+  "inizio": 0.0,
+  "audio": "audio/scene/S0.mp3"
+ },
+ {
+  "id": "S1",
+  "file": "video/S1_clip_ponte.mp4",
+  "tipo": "Clip ponte",
+  "voce": "Gennaio. L'anno è ancora tutto da scrivere, e il primo impegno da mettere in agenda è il tuo riposo.",
+  "durata_s": 7.0,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S1.mp3",
+  "voce_s": 7.08,
+  "durata": 8.48,
+  "inizio": 3.0,
+  "audio": "audio/scene/S1.mp3"
+ },
+ {
+  "id": "S2",
+  "file": "video/S2_grafica_numero_chiave.mp4",
+  "tipo": "Grafica: numero chiave",
+  "voce": "Le ferie sono un diritto irrinunciabile, riconosciuto dalla Costituzione. Nel pubblico impiego, di regola, non si possono trasformare in denaro: vanno godute.",
+  "durata_s": 10.6,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S2.mp3",
+  "voce_s": 10.37,
+  "durata": 11.77,
+  "inizio": 11.48,
+  "audio": "audio/scene/S2.mp3"
+ },
+ {
+  "id": "S3",
+  "file": "video/S3_clip_dettaglio.mp4",
+  "tipo": "Clip b-roll",
+  "voce": "Le esigenze di servizio possono spostarle, ma non cancellarle. Un rinvio va motivato, e le ferie non godute si recuperano nei tempi previsti dal contratto.",
+  "durata_s": 10.4,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S3.mp3",
+  "voce_s": 10.27,
+  "durata": 11.67,
+  "inizio": 23.25,
+  "audio": "audio/scene/S3.mp3"
+ },
+ {
+  "id": "S4",
+  "file": "video/S4_grafica_regole.mp4",
+  "tipo": "Grafica: regole in breve",
+  "voce": "Il piano ferie deve essere trasparente e conosciuto da tutti: è uno strumento di equità, non un favore.",
+  "durata_s": 7.2,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S4.mp3",
+  "voce_s": 6.92,
+  "durata": 8.32,
+  "inizio": 34.92,
+  "audio": "audio/scene/S4.mp3"
+ },
+ {
+  "id": "S5",
+  "file": "video/S5_grafica_da_ricordare.mp4",
+  "tipo": "Grafica: da ricordare",
+  "voce": "Tre cose da ricordare. Chiedi le ferie con anticipo. Controlla il tuo saldo. E se una richiesta viene negata, chiedi il motivo per iscritto.",
+  "durata_s": 9.4,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S5.mp3",
+  "voce_s": 9.56,
+  "durata": 10.96,
+  "inizio": 43.24,
+  "audio": "audio/scene/S5.mp3"
+ },
+ {
+  "id": "S6",
+  "file": "video/S6_clip_finale.mp4",
+  "tipo": "Clip + invito",
+  "voce": "Hai un dubbio sulle tue ferie? I delegati CISL FP sono al tuo fianco. Il tempo per te non è un regalo: è un diritto.",
+  "durata_s": 8.0,
+  "voce_file": "/home/user/Prove/progetti/calendario-2027-01-ferie/audio/voce-S6.mp3",
+  "voce_s": 8.05,
+  "durata": 9.85,
+  "inizio": 54.2,
+  "audio": "audio/scene/S6.mp3"
+ },
+ {
+  "id": "S7",
+  "file": "video/S7_chiusura.mp4",
+  "tipo": "Chiusura (muta)",
+  "voce": null,
+  "durata_s": 10,
+  "voce_file": null,
+  "durata": 10.0,
+  "inizio": 64.05,
+  "audio": "audio/scene/S7.mp3"
+ }
+]
