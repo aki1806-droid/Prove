@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] In ogni trasloco c'e' sempre qualcosa che non entra nel camion. Uno scatolone che resta nella vecchia casa, dimenticato in un angolo."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasferimento della posizione da Perseo Sirio a un altro fondo pensione funziona un po' cosi': si sposta molto, ma non tutto."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si puo' fare, anche mentre lavori ancora nella pubblica amministrazione. Ma in quel caso non tutto viaggia, e qualcosa si perde per strada."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo che cosa si sposta, che cosa resta indietro, e quando il trasloco ha davvero senso."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E alla fine guardiamo anche il trasloco al contrario: come portare in Perseo Sirio un fondo pensione che avevi prima."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Partiamo dalla regola. Un dipendente pubblico puo' trasferire la posizione a un'altra forma di previdenza complementare dopo almeno tre anni di permanenza in Perseo Sirio."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Per i lavoratori privati ne bastano due. Ancora una volta, per i pubblici la regola e' diversa, e vale la pena ricordarlo quando leggi informazioni online."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma che cosa si trasferisce, esattamente? Solo quanto e' stato effettivamente versato nel Fondo, con i suoi rendimenti."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cioe' la tasca reale: i tuoi contributi, quelli dell'ente fino a quel momento, e quello che hanno prodotto negli anni."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La quota di TFR, come sempre, resta all'INPS. E l'INPS la liquidera' solo quando il rapporto di lavoro finira' davvero."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo stesso vale per l'uno virgola cinque per cento, per chi viene dal TFS: anche quella somma aspetta la fine del lavoro."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasferimento in se' non costa nulla in termini di spese del Fondo. E non paga imposte: le tasse arriveranno solo con la prestazione."
+ },
+ {
+  "id": "s14",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi c'e' il costo nascosto. Non e' scritto in nessuna tabella delle spese, ne' in un modulo, ma e' il piu' importante di tutti."
+ },
+ {
+  "id": "s15",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se trasferisci mentre lavori ancora nella pubblica amministrazione, l'uno per cento dell'ente non ti seguira'."
+ },
+ {
+  "id": "s16",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il contributo del datore di lavoro, ricordi, spetta solo a chi e' iscritto al fondo negoziale del proprio contratto. Per te, Perseo Sirio."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi, dal giorno del trasferimento, nel nuovo fondo verserai solo tu. L'ente smette di versare la sua parte."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ogni anno lasci sul tavolo l'uno per cento della tua retribuzione utile. Piu' i rendimenti che quei soldi avrebbero prodotto."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con trentamila euro di retribuzione utile, sono trecento euro l'anno. In vent'anni, seimila euro di soli versamenti, senza contare i rendimenti."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ed e' difficile che un altro fondo compensi questa perdita con rendimenti piu' alti. Soprattutto considerando i costi."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come hai visto nel modulo sette, i fondi aperti e i piani individuali costano in media molto di piu' dei fondi negoziali."
+ },
+ {
+  "id": "s22",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quando ha senso, allora, trasferire la posizione? Ci sono due situazioni molto diverse, e conviene tenerle ben separate, perche' la risposta cambia completamente."
+ },
+ {
+  "id": "s23",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il caso piu' naturale e' quando hai lasciato il pubblico impiego e trovi un nuovo lavoro, con un suo fondo negoziale."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trasferendo la posizione li', la riunisci in un unico posto. E il nuovo datore di lavoro ti versera' il suo contributo."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questo caso il trasferimento segue la tua vita lavorativa. E' esattamente il tipo di trasloco per cui la regola e' stata pensata."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se invece lavori ancora nella PA, il trasferimento volontario e' un'operazione da valutare con molta attenzione, numeri alla mano."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di farlo, chiedi l'ISC del fondo di destinazione, e confrontalo con quello di Perseo Sirio, come hai imparato nella lezione sette punto due."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi calcola quanto vale l'uno per cento dell'ente che perderesti, anno dopo anno, fino alla pensione."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se qualcuno ti propone il trasferimento, magari un consulente o un promotore, chiediti sempre chi ci guadagna. A volte non sei tu."
+ },
+ {
+  "id": "s30",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il trasferimento funziona anche al contrario, cioe' in entrata. E qui, di solito, le notizie sono buone."
+ },
+ {
+  "id": "s31",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se prima di entrare nella pubblica amministrazione avevi un fondo pensione, per esempio quello di un lavoro nel privato, puoi portare quella posizione in Perseo Sirio."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La domanda si presenta al fondo di provenienza, secondo le sue regole e con i suoi moduli."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vecchio fondo avvisa Perseo Sirio, che autorizza l'ingresso della posizione e attende il bonifico. Tu non devi fare altro."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il vantaggio e' doppio. Primo: tutto in un unico posto, con costi bassi, e un solo prospetto da controllare ogni anno."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo: gli anni di partecipazione precedenti continuano a contare. Anche per la scala fiscale, che scende dal quindici al nove per cento."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Molti hanno una vecchia posizione dimenticata da qualche parte, magari di pochi anni. Riunirla e' uno dei gesti piu' semplici e piu' utili."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Se trasferisci mentre lavori nella PA, l'uno per cento dell'ente resta indietro."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: dopo tre anni puoi trasferire la posizione, ma si sposta solo la parte reale."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il TFR e l'eventuale uno virgola cinque restano all'INPS fino alla fine del rapporto di lavoro, e poi seguono la posizione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: se trasferisci mentre lavori nella PA, perdi il contributo dell'ente. Ogni anno, fino alla pensione."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: puoi portare in Perseo Sirio la posizione di un fondo precedente, sommando gli anni di partecipazione."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: pensa ai lavori che hai fatto prima di entrare nella PA. Avevi un fondo pensione?"
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se si', recupera i documenti, o chiedi al vecchio datore di lavoro quale fondo era. Forse c'e' una posizione da riunire, e da far crescere insieme alla tua."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E se qualcuno ti propone di spostare la posizione, torna a questa lezione prima di rispondere."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione vediamo uno strumento pensato per chi lascia il lavoro qualche anno prima della pensione."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un reddito ponte, che usa la posizione nel Fondo per coprire gli anni in cui non hai piu' lo stipendio, e non hai ancora la pensione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Si chiama RITA, rendita integrativa temporanea anticipata. Vedremo chi puo' chiederla, come funziona, e per chi ha davvero senso."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] La RITA. Ci vediamo nella lezione otto punto quattro."
+ }
+]

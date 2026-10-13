@@ -1,0 +1,22 @@
+{
+ "A": {
+  "parole_copione": 476,
+  "parole_dette": 476,
+  "coincidenti": 476,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ },
+ "B": {
+  "parole_copione": 501,
+  "parole_dette": 500,
+  "coincidenti": 498,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s32",
+    "copione": "facsimile",
+    "detto": "fac simile"
+   }
+  ]
+ }
+}
