@@ -1,0 +1,1113 @@
+1
+00:00:03,000 --> 00:00:07,936
+Chiedi all'intelligenza artificiale di
+spiegare a un neoassunto che cos'è la RSU.
+
+2
+00:00:07,976 --> 00:00:11,991
+In pochi secondi arriva una risposta
+chiara, ben scritta, gentile.
+
+3
+00:00:12,031 --> 00:00:16,230
+Poi, per curiosità, fai la stessa identica
+domanda una seconda volta.
+
+4
+00:00:16,270 --> 00:00:17,705
+E la risposta è diversa.
+
+5
+00:00:17,745 --> 00:00:19,548
+Non sbagliata, forse: diversa.
+
+6
+00:00:19,588 --> 00:00:23,357
+Altre parole, un altro ordine, un esempio
+che prima non c'era.
+
+7
+00:00:23,397 --> 00:00:27,105
+Viene spontaneo chiedersi: ma allora, che
+cosa c'è lì dentro?
+
+8
+00:00:27,495 --> 00:00:29,862
+La maggior parte delle persone usa questi
+
+9
+00:00:29,902 --> 00:00:33,444
+strumenti come se fossero un motore di
+ricerca molto educato,
+
+10
+00:00:33,484 --> 00:00:35,969
+oppure un'enciclopedia che risponde a
+voce.
+
+11
+00:00:36,009 --> 00:00:38,259
+Sono due immagini comode, ma sbagliate.
+
+12
+00:00:38,299 --> 00:00:42,193
+E finché le usiamo, continueremo a
+sorprenderci nel modo sbagliato:
+
+13
+00:00:42,233 --> 00:00:44,072
+ci fideremo quando non dovremmo,
+
+14
+00:00:44,112 --> 00:00:47,243
+e diffideremo quando invece potremmo stare
+tranquilli.
+
+15
+00:00:47,632 --> 00:00:50,046
+In questa lezione facciamo una cosa sola:
+
+16
+00:00:50,086 --> 00:00:53,159
+capire come funziona davvero un modello
+linguistico,
+
+17
+00:00:53,199 --> 00:00:55,913
+senza formule e senza parole tecniche
+inutili.
+
+18
+00:00:55,953 --> 00:00:57,470
+Non per diventare esperti,
+
+19
+00:00:57,510 --> 00:01:01,780
+ma perché chi capisce il meccanismo sa
+anche dove può fidarsi e dove no.
+
+20
+00:01:01,820 --> 00:01:04,534
+Alla fine avrai in testa un'immagine
+semplice,
+
+21
+00:01:04,574 --> 00:01:07,168
+che ti servirà per tutto il resto del
+corso.
+
+22
+00:01:07,558 --> 00:01:08,625
+Partiamo dal nome.
+
+23
+00:01:08,665 --> 00:01:11,207
+ChatGPT, Claude e Gemini sono costruiti su
+
+24
+00:01:11,247 --> 00:01:14,282
+quelli che si chiamano grandi modelli
+linguistici.
+
+25
+00:01:14,322 --> 00:01:17,356
+Modello, perché è una rappresentazione
+matematica.
+
+26
+00:01:17,396 --> 00:01:20,123
+Linguistico, perché lavora con il
+linguaggio.
+
+27
+00:01:20,163 --> 00:01:24,489
+Grande, perché è stato costruito leggendo
+una quantità enorme di testi:
+
+28
+00:01:24,529 --> 00:01:27,809
+libri, articoli, pagine web, documenti di
+ogni genere.
+
+29
+00:01:28,199 --> 00:01:30,830
+Che cosa ha imparato, leggendo tutto quel
+testo?
+
+30
+00:01:30,870 --> 00:01:35,337
+Non ha imparato a memoria le pagine, come
+farebbe uno studente prima di un esame.
+
+31
+00:01:35,377 --> 00:01:38,676
+Ha imparato gli schemi: quali parole
+tendono a stare vicine,
+
+32
+00:01:38,716 --> 00:01:42,126
+come si costruisce una frase, che tono ha
+una lettera formale,
+
+33
+00:01:42,166 --> 00:01:43,962
+come si articola un ragionamento,
+
+34
+00:01:44,002 --> 00:01:47,022
+come risponde di solito un esperto a una
+certa domanda.
+
+35
+00:01:47,413 --> 00:01:49,484
+Durante l'addestramento il modello ha
+
+36
+00:01:49,524 --> 00:01:52,279
+fatto per un numero enorme di volte un
+esercizio:
+
+37
+00:01:52,319 --> 00:01:56,273
+leggere un pezzo di testo con l'ultima
+parola nascosta, e indovinarla.
+
+38
+00:01:56,313 --> 00:02:00,210
+Ogni volta che sbagliava, i suoi parametri
+venivano corretti di poco.
+
+39
+00:02:00,250 --> 00:02:03,462
+Ripeti questo esercizio su una quantità
+immensa di testi,
+
+40
+00:02:03,502 --> 00:02:06,143
+per settimane o mesi, su computer
+potentissimi,
+
+41
+00:02:06,183 --> 00:02:08,768
+e alla fine ottieni un sistema che
+indovina la
+
+42
+00:02:08,808 --> 00:02:11,620
+parola successiva in modo
+sorprendentemente buono.
+
+43
+00:02:11,660 --> 00:02:14,587
+Tutto quello che vedrai, la scrittura, il
+riassunto,
+
+44
+00:02:14,627 --> 00:02:17,953
+perfino qualcosa che somiglia al
+ragionamento, nasce da lì.
+
+45
+00:02:18,343 --> 00:02:19,854
+Ed ecco il cuore di tutto.
+
+46
+00:02:19,894 --> 00:02:23,375
+Quando gli scrivi una domanda, il modello
+fa una cosa sola,
+
+47
+00:02:23,415 --> 00:02:26,776
+ripetuta migliaia di volte: prevede la
+parola successiva.
+
+48
+00:02:26,816 --> 00:02:29,342
+Guarda tutto quello che c'è scritto fin
+lì,
+
+49
+00:02:29,382 --> 00:02:32,385
+la tua domanda e la parte di risposta già
+prodotta,
+
+50
+00:02:32,425 --> 00:02:37,158
+e calcola quali parole potrebbero venire
+dopo, ciascuna con una sua probabilità.
+
+51
+00:02:37,198 --> 00:02:38,053
+Ne sceglie una.
+
+52
+00:02:38,093 --> 00:02:38,948
+Poi ricomincia.
+
+53
+00:02:39,338 --> 00:02:40,587
+Facciamo un esempio.
+
+54
+00:02:40,627 --> 00:02:43,422
+Se la frase è: il lavoratore che ha fatto
+il
+
+55
+00:02:43,462 --> 00:02:47,031
+turno di notte ha diritto a un… quale
+parola viene dopo?
+
+56
+00:02:47,071 --> 00:02:48,642
+Riposo è molto probabile.
+
+57
+00:02:48,682 --> 00:02:49,609
+Permesso, meno.
+
+58
+00:02:49,649 --> 00:02:50,962
+Indennità, possibile.
+
+59
+00:02:51,002 --> 00:02:52,767
+Ombrello, quasi impossibile.
+
+60
+00:02:52,807 --> 00:02:56,891
+Il modello non sa che cosa sia un turno di
+notte come lo sai tu,
+
+61
+00:02:56,931 --> 00:02:58,954
+che magari l'hai fatto per anni.
+
+62
+00:02:58,994 --> 00:03:03,658
+Sa che, nei testi che ha letto, dopo
+quelle parole compare spesso riposo.
+
+63
+00:03:04,048 --> 00:03:06,712
+Se ti sembra un meccanismo familiare, hai
+ragione.
+
+64
+00:03:06,752 --> 00:03:08,767
+È parente della tastiera del telefono,
+
+65
+00:03:08,807 --> 00:03:11,633
+che mentre scrivi ti suggerisce la parola
+successiva.
+
+66
+00:03:11,673 --> 00:03:14,283
+Solo che la tastiera tiene conto di poche
+parole,
+
+67
+00:03:14,323 --> 00:03:17,474
+mentre un modello linguistico tiene conto
+di pagine intere,
+
+68
+00:03:17,514 --> 00:03:19,745
+e ha imparato da una quantità di testo che
+
+69
+00:03:19,785 --> 00:03:22,503
+nessun essere umano potrebbe leggere in
+mille vite.
+
+70
+00:03:22,543 --> 00:03:25,585
+La differenza di scala diventa una
+differenza di qualità.
+
+71
+00:03:25,976 --> 00:03:27,451
+Una piccola precisazione.
+
+72
+00:03:27,491 --> 00:03:31,936
+In realtà il modello non lavora con parole
+intere, ma con pezzi di parola.
+
+73
+00:03:31,976 --> 00:03:36,179
+Una parola lunga come contrattazione può
+essere spezzata in più pezzi.
+
+74
+00:03:36,219 --> 00:03:39,391
+Per noi non cambia molto, ma spiega alcune
+stranezze:
+
+75
+00:03:39,431 --> 00:03:43,573
+per esempio perché a volte fatica a
+contare le lettere di una parola,
+
+76
+00:03:43,613 --> 00:03:46,300
+o a rispettare un numero esatto di
+caratteri.
+
+77
+00:03:46,690 --> 00:03:50,563
+Viene spontanea un'obiezione: se prevede
+solo la parola successiva,
+
+78
+00:03:50,603 --> 00:03:54,767
+come fa a scrivere un comunicato intero,
+coerente dall'inizio alla fine?
+
+79
+00:03:54,807 --> 00:03:56,811
+La risposta è che gli schemi che ha
+
+80
+00:03:56,851 --> 00:03:59,497
+imparato non riguardano solo le parole
+vicine,
+
+81
+00:03:59,537 --> 00:04:00,607
+ma interi discorsi.
+
+82
+00:04:00,647 --> 00:04:03,935
+Ha visto migliaia di lettere, di verbali,
+di spiegazioni.
+
+83
+00:04:03,975 --> 00:04:06,680
+Sa come si apre un comunicato e come si
+chiude.
+
+84
+00:04:06,720 --> 00:04:10,359
+E così, una parola dopo l'altra,
+costruisce un testo che regge.
+
+85
+00:04:10,749 --> 00:04:12,426
+Ora il punto più importante.
+
+86
+00:04:12,466 --> 00:04:15,555
+Il modello non ha dentro un archivio da
+consultare.
+
+87
+00:04:15,595 --> 00:04:18,192
+Quando gli chiedi un articolo di
+contratto,
+
+88
+00:04:18,232 --> 00:04:20,829
+di solito non va a cercarlo in un
+cassetto:
+
+89
+00:04:20,869 --> 00:04:24,326
+ricostruisce, parola dopo parola, il testo
+più probabile.
+
+90
+00:04:24,366 --> 00:04:27,760
+A volte il testo più probabile coincide
+con quello vero.
+
+91
+00:04:27,800 --> 00:04:29,723
+A volte gli assomiglia soltanto.
+
+92
+00:04:30,113 --> 00:04:33,272
+Tienilo a mente con una formula: schemi,
+non schedario.
+
+93
+00:04:33,312 --> 00:04:38,100
+Uno schedario restituisce esattamente ciò
+che contiene, oppure ti dice che non c'è.
+
+94
+00:04:38,140 --> 00:04:41,067
+Gli schemi producono sempre qualcosa di
+verosimile,
+
+95
+00:04:41,107 --> 00:04:43,626
+anche quando l'informazione precisa non
+c'è.
+
+96
+00:04:43,666 --> 00:04:46,535
+Ed è proprio questa la radice degli errori
+sicuri,
+
+97
+00:04:46,575 --> 00:04:48,862
+di cui parleremo nella prossima lezione.
+
+98
+00:04:49,251 --> 00:04:50,989
+Un'altra immagine può aiutarti.
+
+99
+00:04:51,029 --> 00:04:55,578
+Pensa a un collega che ha letto tutto,
+davvero tutto, ma ricorda per sommi capi.
+
+100
+00:04:55,618 --> 00:04:59,422
+Se gli chiedi come si scrive una lettera
+all'azienda, è bravissimo.
+
+101
+00:04:59,462 --> 00:05:01,888
+Se gli chiedi il numero esatto di un
+comma,
+
+102
+00:05:01,928 --> 00:05:04,125
+ti risponde con la stessa disinvoltura,
+
+103
+00:05:04,165 --> 00:05:06,707
+ma lì la sua memoria è molto meno
+affidabile.
+
+104
+00:05:06,747 --> 00:05:09,575
+E lui, purtroppo, non si accorge della
+differenza.
+
+105
+00:05:09,965 --> 00:05:11,835
+Torniamo alla domanda iniziale.
+
+106
+00:05:11,875 --> 00:05:14,855
+Perché la stessa domanda dà due risposte
+diverse?
+
+107
+00:05:14,895 --> 00:05:17,443
+Perché a ogni passo il modello non sceglie
+
+108
+00:05:17,483 --> 00:05:20,093
+sempre la parola in assoluto più
+probabile:
+
+109
+00:05:20,133 --> 00:05:22,557
+lascia un piccolo margine di variazione.
+
+110
+00:05:22,597 --> 00:05:26,193
+È voluto: rende le risposte più naturali e
+meno ripetitive.
+
+111
+00:05:26,233 --> 00:05:31,000
+Il risultato è che ogni risposta è una
+delle tante possibili, non la risposta.
+
+112
+00:05:31,390 --> 00:05:35,243
+Questo margine non è un difetto da
+combattere, ma qualcosa da usare.
+
+113
+00:05:35,283 --> 00:05:38,563
+Se cerchi idee, per esempio dieci titoli
+per un volantino,
+
+114
+00:05:38,603 --> 00:05:40,624
+la variazione ti regala alternative.
+
+115
+00:05:40,664 --> 00:05:44,574
+Se invece ti serve precisione, la ottieni
+non sperando nella fortuna,
+
+116
+00:05:44,614 --> 00:05:47,608
+ma dando istruzioni chiare e un testo di
+riferimento.
+
+117
+00:05:47,648 --> 00:05:51,787
+Lo vedremo nel modulo quattro, quando
+impareremo a scrivere le richieste.
+
+118
+00:05:52,176 --> 00:05:53,316
+Vediamolo a schermo.
+
+119
+00:05:53,356 --> 00:05:55,854
+Apro ChatGPT e scrivo una domanda
+semplice:
+
+120
+00:05:55,894 --> 00:05:58,982
+spiega in tre righe a un neoassunto che
+cos'è la RSU.
+
+121
+00:05:59,022 --> 00:06:03,585
+Guarda come la risposta compare un pezzo
+alla volta: non è un effetto grafico,
+
+122
+00:06:03,625 --> 00:06:07,361
+è proprio il modello che sta producendo
+una parola dopo l'altra.
+
+123
+00:06:07,752 --> 00:06:12,036
+Adesso apro una nuova conversazione e
+faccio esattamente la stessa domanda.
+
+124
+00:06:12,076 --> 00:06:13,477
+Ecco la seconda risposta.
+
+125
+00:06:13,517 --> 00:06:15,379
+Mettiamole una accanto all'altra.
+
+126
+00:06:15,419 --> 00:06:18,723
+Il senso è simile, ma le parole cambiano,
+cambia l'ordine,
+
+127
+00:06:18,763 --> 00:06:22,354
+e in una delle due compare un dettaglio
+che nell'altra non c'è.
+
+128
+00:06:22,394 --> 00:06:26,275
+È qui che devi drizzare le orecchie: quel
+dettaglio in più è giusto?
+
+129
+00:06:26,315 --> 00:06:27,082
+Da dove viene?
+
+130
+00:06:27,471 --> 00:06:30,321
+Proviamo la stessa domanda in Claude e in
+Gemini.
+
+131
+00:06:30,361 --> 00:06:32,917
+Anche qui, risposte simili ma non
+identiche.
+
+132
+00:06:32,957 --> 00:06:37,163
+Ognuno dei tre strumenti è stato costruito
+e addestrato in modo diverso,
+
+133
+00:06:37,203 --> 00:06:38,756
+con testi e scelte diverse,
+
+134
+00:06:38,796 --> 00:06:41,351
+e questo si sente nel tono, nella
+lunghezza,
+
+135
+00:06:41,391 --> 00:06:43,475
+nel modo di organizzare la risposta.
+
+136
+00:06:43,515 --> 00:06:48,017
+Nessuno dei tre ha la risposta ufficiale:
+ciascuno ne produce una plausibile.
+
+137
+00:06:48,407 --> 00:06:49,963
+Facciamo una prova curiosa:
+
+138
+00:06:50,003 --> 00:06:53,390
+chiedo direttamente a Claude come produce
+le sue risposte.
+
+139
+00:06:53,430 --> 00:06:57,822
+La spiegazione che dà è ragionevole, e
+coerente con quello che ti ho detto.
+
+140
+00:06:57,862 --> 00:07:02,431
+Ma attenzione: anche questa è una risposta
+costruita con lo stesso meccanismo.
+
+141
+00:07:02,471 --> 00:07:05,149
+Il modello non osserva se stesso
+dall'interno:
+
+142
+00:07:05,189 --> 00:07:07,927
+descrive se stesso con le parole più
+probabili.
+
+143
+00:07:07,967 --> 00:07:10,231
+Utile come spiegazione, non come prova.
+
+144
+00:07:10,621 --> 00:07:12,904
+C'è un altro elemento che conta
+moltissimo:
+
+145
+00:07:12,944 --> 00:07:15,227
+tutto quello che scrivi nella
+conversazione
+
+146
+00:07:15,267 --> 00:07:18,414
+diventa materiale su cui il modello
+costruisce la risposta.
+
+147
+00:07:18,454 --> 00:07:21,763
+Se gli dai il testo di un accordo e gli
+chiedi di riassumerlo,
+
+148
+00:07:21,803 --> 00:07:24,086
+lavora su quel testo, non sui suoi
+ricordi.
+
+149
+00:07:24,126 --> 00:07:27,057
+Ed è per questo che le risposte su un
+documento che gli
+
+150
+00:07:27,097 --> 00:07:30,298
+fornisci sono molto più affidabili delle
+risposte a memoria.
+
+151
+00:07:30,689 --> 00:07:31,827
+Guarda la differenza.
+
+152
+00:07:31,867 --> 00:07:35,921
+Chiedo: quali sono le fasce orarie del
+turno notturno nel nostro accordo?
+
+153
+00:07:35,961 --> 00:07:39,960
+Senza documento, il modello risponde in
+modo generico, o peggio inventa.
+
+154
+00:07:40,000 --> 00:07:43,774
+Ora incollo il testo di un accordo di
+esempio e rifaccio la domanda.
+
+155
+00:07:43,814 --> 00:07:46,242
+La risposta adesso si appoggia a quel
+testo,
+
+156
+00:07:46,282 --> 00:07:50,224
+e posso chiedergli di indicarmi
+esattamente il punto da cui l'ha presa.
+
+157
+00:07:50,614 --> 00:07:53,647
+Questa memoria della conversazione però
+non è infinita.
+
+158
+00:07:53,687 --> 00:07:55,212
+Ogni strumento può tenere in
+
+159
+00:07:55,252 --> 00:07:58,229
+considerazione una certa quantità di testo
+alla volta.
+
+160
+00:07:58,269 --> 00:08:02,196
+Se la conversazione diventa lunghissima, o
+se incolli documenti enormi,
+
+161
+00:08:02,236 --> 00:08:04,543
+le parti più lontane possono perdere peso.
+
+162
+00:08:04,583 --> 00:08:08,510
+Quando cambi argomento, spesso conviene
+aprire una conversazione nuova.
+
+163
+00:08:08,900 --> 00:08:10,008
+E poi c'è il tempo.
+
+164
+00:08:10,048 --> 00:08:13,813
+Il modello ha imparato da testi raccolti
+fino a una certa data.
+
+165
+00:08:13,853 --> 00:08:15,624
+Di quello che è successo dopo,
+
+166
+00:08:15,664 --> 00:08:19,852
+per esempio un contratto firmato da poco o
+una legge appena approvata,
+
+167
+00:08:19,892 --> 00:08:21,121
+può non sapere nulla.
+
+168
+00:08:21,161 --> 00:08:25,228
+Alcuni strumenti possono fare ricerche sul
+web per colmare il vuoto;
+
+169
+00:08:25,268 --> 00:08:26,617
+altri no, o non sempre.
+
+170
+00:08:26,657 --> 00:08:31,146
+Quando conta l'attualità, chiedi sempre:
+da dove viene questa informazione?
+
+171
+00:08:31,537 --> 00:08:36,260
+Prova anche questa: chiedi allo strumento
+fino a quando arrivano le sue conoscenze,
+
+172
+00:08:36,300 --> 00:08:39,245
+e poi chiedigli una notizia recente del
+tuo settore.
+
+173
+00:08:39,285 --> 00:08:41,655
+A volte risponde con onestà che non lo sa,
+
+174
+00:08:41,695 --> 00:08:44,123
+a volte cerca sul web e ti mostra le
+fonti,
+
+175
+00:08:44,163 --> 00:08:46,591
+a volte risponde con informazioni
+superate.
+
+176
+00:08:46,631 --> 00:08:48,771
+Ogni strumento si comporta a modo suo,
+
+177
+00:08:48,811 --> 00:08:52,215
+ed è per questo che nel modulo due li
+metteremo a confronto.
+
+178
+00:08:52,604 --> 00:08:55,470
+Resta un'ultima domanda: perché sembra
+così umano?
+
+179
+00:08:55,510 --> 00:08:57,795
+Perché ha imparato dal linguaggio umano,
+
+180
+00:08:57,835 --> 00:08:59,539
+e perché dopo la prima fase di
+
+181
+00:08:59,579 --> 00:09:02,910
+apprendimento è stato allenato a
+rispondere in modo utile,
+
+182
+00:09:02,950 --> 00:09:04,945
+gentile e ordinato, anche grazie al
+
+183
+00:09:04,985 --> 00:09:07,909
+giudizio di persone che valutavano le sue
+risposte.
+
+184
+00:09:07,949 --> 00:09:12,036
+Il risultato è un interlocutore che scrive
+come una persona competente.
+
+185
+00:09:12,076 --> 00:09:15,640
+Ma scrivere come una persona competente
+non vuol dire esserlo.
+
+186
+00:09:16,030 --> 00:09:17,652
+Riassumiamo che cosa non fa.
+
+187
+00:09:17,692 --> 00:09:22,222
+Non consulta un archivio, salvo quando gli
+dai un documento o fa una ricerca.
+
+188
+00:09:22,262 --> 00:09:26,081
+Non ricorda le conversazioni precedenti,
+salvo funzioni apposite.
+
+189
+00:09:26,121 --> 00:09:28,752
+Non capisce le situazioni come le capisci
+tu,
+
+190
+00:09:28,792 --> 00:09:32,372
+che conosci le persone, i reparti, la
+storia di una vertenza.
+
+191
+00:09:32,412 --> 00:09:34,212
+E non sa quando sta sbagliando.
+
+192
+00:09:34,602 --> 00:09:36,080
+E che cosa fa benissimo?
+
+193
+00:09:36,120 --> 00:09:39,243
+Scrive, riscrive, riassume, riordina,
+cambia tono,
+
+194
+00:09:39,283 --> 00:09:41,962
+trasforma un testo per un pubblico
+diverso,
+
+195
+00:09:42,002 --> 00:09:45,441
+mette in tabella, propone idee, simula una
+controparte.
+
+196
+00:09:45,481 --> 00:09:49,995
+Tutto ciò che riguarda la forma del
+linguaggio lo fa in modo eccellente.
+
+197
+00:09:50,035 --> 00:09:53,347
+Il contenuto, invece, va fornito o
+controllato da te.
+
+198
+00:09:53,738 --> 00:09:55,522
+Non sottovalutare questa parte.
+
+199
+00:09:55,562 --> 00:09:57,581
+Nel lavoro sindacale la forma pesa:
+
+200
+00:09:57,621 --> 00:10:00,463
+un comunicato chiaro viene letto, uno
+confuso no.
+
+201
+00:10:00,503 --> 00:10:04,052
+Una lettera ordinata all'azienda è più
+difficile da ignorare.
+
+202
+00:10:04,092 --> 00:10:08,052
+Un verbale scritto bene evita discussioni
+nella riunione successiva.
+
+203
+00:10:08,092 --> 00:10:10,641
+Se l'intelligenza artificiale ti
+restituisce
+
+204
+00:10:10,681 --> 00:10:13,288
+anche solo un'ora a settimana su queste
+cose,
+
+205
+00:10:13,328 --> 00:10:15,700
+hai un'ora in più da passare nei reparti.
+
+206
+00:10:16,090 --> 00:10:19,274
+Tradotto nel nostro lavoro, questo
+significa tre cose.
+
+207
+00:10:19,314 --> 00:10:22,258
+Quando ti serve la forma, una bozza, un
+riassunto,
+
+208
+00:10:22,298 --> 00:10:25,064
+un tono diverso, lascialo lavorare e
+rifinisci.
+
+209
+00:10:25,104 --> 00:10:28,347
+Quando ti servono i fatti di un documento,
+daglielo tu,
+
+210
+00:10:28,387 --> 00:10:31,571
+e chiedi di indicare da dove prende ogni
+informazione.
+
+211
+00:10:31,611 --> 00:10:35,570
+Quando ti serve un fatto a memoria, un
+numero, una norma, una data,
+
+212
+00:10:35,610 --> 00:10:39,271
+prendilo come un'ipotesi da verificare,
+mai come una risposta.
+
+213
+00:10:39,661 --> 00:10:42,222
+Ecco allora gli errori tipici di chi
+comincia,
+
+214
+00:10:42,262 --> 00:10:45,557
+che derivano tutti da un'immagine
+sbagliata del meccanismo.
+
+215
+00:10:45,597 --> 00:10:48,384
+Primo errore: trattarlo come un motore di
+ricerca,
+
+216
+00:10:48,424 --> 00:10:51,494
+e prendere per buono un dato preciso
+chiesto a memoria.
+
+217
+00:10:51,534 --> 00:10:55,960
+Secondo errore: pensare che una risposta
+ripetuta due volte sia per forza vera,
+
+218
+00:10:56,000 --> 00:10:57,939
+perché la coerenza non è una prova.
+
+219
+00:10:57,979 --> 00:11:00,992
+Terzo errore: incollare un documento
+enorme e dare per
+
+220
+00:11:01,032 --> 00:11:04,271
+scontato che l'abbia letto tutto con la
+stessa attenzione.
+
+221
+00:11:04,661 --> 00:11:08,844
+Se dovessi lasciarti una frase sola di
+questa lezione, sarebbe questa:
+
+222
+00:11:08,884 --> 00:11:13,187
+il modello non cerca la risposta vera,
+costruisce la risposta probabile.
+
+223
+00:11:13,227 --> 00:11:15,057
+Quasi sempre le due coincidono.
+
+224
+00:11:15,097 --> 00:11:18,133
+Il tuo mestiere è accorgerti di quando non
+succede.
+
+225
+00:11:18,523 --> 00:11:21,398
+La pratica di oggi è semplice e molto
+istruttiva.
+
+226
+00:11:21,438 --> 00:11:24,134
+Scegli una domanda che riguarda il tuo
+lavoro,
+
+227
+00:11:24,174 --> 00:11:26,276
+una di cui conosci bene la risposta.
+
+228
+00:11:26,316 --> 00:11:31,094
+Falla a uno dei tre strumenti, poi apri
+una nuova conversazione e falla di nuovo,
+
+229
+00:11:31,134 --> 00:11:32,938
+con le stesse identiche parole.
+
+230
+00:11:32,978 --> 00:11:35,496
+Confronta le due risposte: che cosa
+cambia?
+
+231
+00:11:35,536 --> 00:11:36,805
+Che cosa resta uguale?
+
+232
+00:11:36,845 --> 00:11:40,314
+C'è qualcosa di sbagliato, o di aggiunto,
+in una delle due?
+
+233
+00:11:40,354 --> 00:11:43,348
+Annota quello che trovi nella scheda della
+pratica.
+
+234
+00:11:43,738 --> 00:11:48,375
+Nella prossima lezione affrontiamo la
+conseguenza più delicata di tutto questo:
+
+235
+00:11:48,415 --> 00:11:53,229
+perché l'intelligenza artificiale a volte
+sbaglia, e lo fa con assoluta sicurezza.
+
+236
+00:11:53,269 --> 00:11:54,058
+Ci vediamo lì.
