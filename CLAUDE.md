@@ -27,14 +27,15 @@ Le strade sono due, tutte e due con la stessa voce e lo stesso modello
 | | come | costo di una lezione da 10 minuti |
 |---|---|---|
 | **ElevenLabs diretto** | `creative_create_flow` + nodi `tts` | ~10.400 crediti ElevenLabs (**$1,73**), più ~1.000 crediti di trascrizione per verificare i tagli |
-| **HeyGen come passante** | `create_speech`, `engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}` | **~40 crediti** del piano HeyGen (39 di voce + 1 di render, misurati sulla 7.1), e **la trascrizione di verifica non serve**: i confini si costruiscono con una pausa e `confini_heygen.py` li trova da solo |
+| **HeyGen come passante** | `create_speech`, `engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}` | **30–40 crediti** del piano HeyGen (voce: 39 sulla 7.1, 30 sulla 7.2; render: 1), e **la trascrizione di verifica non serve**: i confini si costruiscono con una pausa e `confini_heygen.py` li trova da solo |
 
 Misurato il 13 ottobre 2026 su cinque campioni, non stimato: **1 credito ogni
 16,7 secondi** di grezzo, arrotondati per eccesso **a ogni chiamata** — perciò
 le tracce lunghe, non un blocco per chiamata. Sulla prima lezione vera, la
-7.1, la voce è costata **39 crediti** e il render **1**: più dei ~35 stimati,
-perché le pause di confine fra un blocco e l'altro (43 × 1,6 s) sono audio
-anche loro e si pagano.
+7.1, la voce è costata **39 crediti** e il render **1**; sulla 7.2, con un
+grezzo della stessa lunghezza (703 s contro 704) e il saldo letto subito
+prima e subito dopo, **30**. Il conto non è lineare nella durata, o il saldo
+della 7.1 comprendeva altro: con due misure il costo sta fra 30 e 39.
 
 **Due cose erano aperte e sono state chiuse la sera stessa del 13 ottobre:**
 
@@ -58,4 +59,5 @@ ElevenLabs fatturato da HeyGen.
 deciderla sui fatti. Finché non è chiusa, tutto il resto resta su ElevenLabs
 diretto. **Primo risultato, la 7.1:** stesso ritmo della 6.5 con `atempo`
 1,16, 43 confini su 43 giusti al primo colpo senza trascrizione, 40 crediti
-HeyGen in tutto. Il registro è `produzione/registri/lnv-7-1.md`.
+HeyGen in tutto. **La 7.2:** 43 su 43, 31 crediti. I registri sono
+`produzione/registri/lnv-7-1.md` e `lnv-7-2.md`.
