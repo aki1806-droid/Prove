@@ -164,6 +164,7 @@ progetti/<modulo>-<lezione>/
 | `m17-l17.5-tso` | Modulo 17 · 17.5 L'agitazione psicomotoria e il TSO | 9:15.5 | `206dac5e7942e5b5d88a8ae03fa20e70` |
 | `m17-l17.9-centro-servizi` | Modulo 17 · 17.9 Una notte in un Centro di Servizi | 9:10.1 | `dcc6fbce6630994352158bc2366dfa94` |
 | `m17-l17.8-caregiver` | Modulo 17 · 17.8 L'infermiere di famiglia e il caregiver esausto | 9:13.8 | `69f52ec09284da79b1902d9f976b4806` |
+| `m17-l17.10-straniera` | Modulo 17 · 17.10 La paziente straniera | 9:11.7 | `291c71f843b478b21473248d322aa78b` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
