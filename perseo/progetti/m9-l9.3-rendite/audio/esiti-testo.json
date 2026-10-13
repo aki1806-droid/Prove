@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 509,
+  "parole_dette": 510,
+  "coincidenti": 507,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s05",
+    "copione": "perseo sirio",
+    "detto": "per se osirio"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 491,
+  "parole_dette": 490,
+  "coincidenti": 489,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s27",
+    "copione": "settant",
+    "detto": "70"
+   }
+  ]
+ }
+}

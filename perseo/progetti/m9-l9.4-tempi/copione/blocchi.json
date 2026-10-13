@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una stazione, un tabellone con gli orari, una valigia accanto alla panchina. Hai chiesto la prestazione, e ora aspetti."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Al pensionamento, i soldi del fondo pensione non arrivano tutti insieme, nello stesso giorno. Arrivano su due treni diversi."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due treni con due orari diversi, e con due macchinisti diversi: il Fondo e l'INPS. Saperlo prima evita brutte sorprese, e permette di organizzarsi."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questa lezione vediamo quando parte ogni treno, chi lo guida, e che cosa puoi fare tu, in concreto, per non perdere tempo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E alla fine vediamo anche come organizzare il primo anno di pensione, sapendo con buona approssimazione quando arriva ogni somma, e da chi."
+ },
+ {
+  "id": "s07",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi le due tasche della posizione? La tasca reale e la tasca figurativa. Ogni tasca ha il suo treno, e la sua clessidra."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il primo treno e' quello della tasca reale: i tuoi contributi, quelli dell'ente, e i rendimenti che hanno prodotto negli anni."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questi soldi sono gia' nel Fondo, investiti nel tuo comparto. E li paga direttamente il Fondo, senza passaggi intermedi."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La legge gli da' fino a centottanta giorni dalla richiesta completa. In pratica, il Fondo indica una media di circa novanta giorni."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una clessidra piccola, che si svuota in fretta. E' la parte che arriva per prima, di solito entro qualche mese dalla domanda."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il secondo treno e' quello della tasca figurativa: il TFR e, per chi viene dal TFS, l'eventuale uno virgola cinque per cento."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi dove sono quei soldi? Non nel Fondo, ma all'INPS. Che deve prima trasferirli al Fondo, quando il rapporto di lavoro finisce."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il Fondo indica che l'INPS impiega in genere fino a dodici mesi per questo trasferimento, con un massimo di diciotto."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una clessidra molto piu' grande, che continua a scorrere a lungo, anche dopo che la prima si e' svuotata."
+ },
+ {
+  "id": "s16",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Solo quando l'INPS ha versato, il Fondo puo' pagare anche questa parte. Prima di quel momento, il Fondo non puo' fare nulla, anche volendo."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "A questo punto, attenzione a non confondere due cose diverse, che spesso vengono messe nello stesso sacco, anche nelle chiacchiere tra colleghi."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "C'e' la tua liquidazione ordinaria: il TFS, oppure la parte di TFR che non hai destinato al Fondo."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quella non passa dal Fondo: te la paga direttamente l'INPS, con i tempi che hai visto nel modulo due."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dodici mesi per la pensione di vecchiaia, che dal 2027 scendono a nove, piu' tre mesi tecnici per il pagamento. Un'attesa lunga, da sola."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi c'e' la parte di TFR destinata al Fondo. Quella l'INPS la versa al Fondo, con i suoi tempi, e il Fondo poi te la paga come prestazione."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono due percorsi separati, con regole diverse e uffici diversi. Possono concludersi in momenti diversi, anche a distanza di mesi."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quindi, sul tuo conto corrente, nel primo anno di pensione potresti vedere arrivare tre somme distinte, in tre momenti diversi."
+ },
+ {
+  "id": "s24",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Che cosa puoi fare tu, per non perdere tempo? I tempi dell'INPS non li puoi cambiare, ma puoi fare in modo di non allungarli."
+ },
+ {
+  "id": "s25",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il termine del Fondo decorre dalla ricezione della richiesta completa e corretta. Non dal giorno in cui la spedisci, se manca qualcosa."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una domanda con un documento mancante, o un IBAN sbagliato, ricomincia da capo. E l'attesa si allunga."
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima regola, quindi: controlla la domanda due volte prima di inviarla. Documenti, firme, coordinate bancarie."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Seconda regola: aggiorna in anticipo i tuoi recapiti nell'area riservata del sito del Fondo, nella sezione anagrafica."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Gli aggiornamenti sulla pratica arrivano via email e via SMS. Se l'indirizzo o il numero sono vecchi, non li ricevi."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terza regola: se hai contributi non dedotti, assicurati di averli comunicati al Fondo per tempo. Evita ricalcoli, e quindi altre attese."
+ },
+ {
+  "id": "s31",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il resto non dipende da te. Ma una domanda fatta bene e' il modo migliore per non aggiungere attese a quelle gia' previste."
+ },
+ {
+  "id": "s32",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un consiglio di pianificazione, che vale soprattutto per il primo anno di pensione, quando le entrate cambiano."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Metti in conto che la parte figurativa della posizione e la liquidazione arriveranno dopo qualche mese. Non subito, e non insieme alla prima pensione."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se hai spese importanti da affrontare, programma di usare prima la parte reale, che arriva per prima."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Oppure valuta con il patronato la possibilita' di anticipo del TFS o del TFR, prevista per i dipendenti pubblici. Ha delle condizioni, e va chiesta per tempo."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un foglio, una penna, e un calendario: segna quando arriva ogni somma. Sapere in anticipo quando arriva e' gia' meta' della tranquillita'."
+ },
+ {
+  "id": "s37",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La parte reale arriva prima. Il TFR arriva dopo. Organizzati di conseguenza."
+ },
+ {
+  "id": "s38",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: la parte reale la paga il Fondo, in media in circa novanta giorni, entro un massimo di centottanta."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: la parte figurativa, cioe' il TFR e l'eventuale uno virgola cinque, arriva solo dopo che l'INPS l'ha versata al Fondo."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In genere entro dodici mesi, al massimo diciotto. Una clessidra lunga, da mettere in conto fin dall'inizio."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: una domanda completa e corretta e' l'unico modo per non aggiungere ritardi a quelli che gia' ci sono."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: entra nell'area riservata, sezione anagrafica, e verifica che email e cellulare siano aggiornati."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci vogliono due minuti, e puoi farlo anche se la pensione e' ancora lontana. Anzi, meglio farlo adesso, finche' non c'e' fretta."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione, l'ultima del modulo, vediamo come si fa davvero la domanda di prestazione, dall'inizio alla fine."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Passo per passo: dove si presenta, quali documenti servono, come si sceglie tra capitale e rendita, e che cosa succede dopo l'invio."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E vedremo anche chi puo' aiutarti, se non vuoi farla da solo. Per esempio il patronato, che conosce bene queste pratiche."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perche' una domanda fatta bene, l'abbiamo visto oggi, e' gia' meta' del viaggio."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Fare la domanda. Ci vediamo nella lezione nove punto cinque."
+ }
+]
