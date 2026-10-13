@@ -114,7 +114,7 @@ function stage(c) {
         <div class="lesson">${c.label}</div><div class="ctitle">${c.title}</div>
         <div class="csub">${c.sub}</div></div>`;
     case 'closing':
-      return `<div class="stage mid"><img class="word small" src="${WORDMARK}" alt="">
+      return `<div class="stage mid"><img class="word${c.grande ? '' : ' small'}" src="${WORDMARK}" alt="">
         ${c.title ? `<div class="ctitle" style="font-size:72px">${c.title}</div>` : ''}
         ${c.sub ? `<div class="csub">${c.sub}</div>` : ''}
         <div class="site">${c.site ?? ''}</div></div>`;

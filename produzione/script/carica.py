@@ -11,7 +11,7 @@ ricaricare solo una parte del materiale — per esempio le clip rifatte, tenendo
 l'audio gia' caricato — senza rigenerare niente.
 
 Il prefisso del nome dice dove sta il file:
-    a_sNN.mp3 → mp3u/sNN.mp3     v_cNN.mp4 → clip/cNN.mp4     m_* → musica.mp3
+    a_sNN.mp3 → mp3u/sNN.mp3     v_cNN.mp4 → clip/cNN.mp4     m_x.mp3 → musica/x.mp3, o musica.mp3
 """
 import json
 import subprocess
@@ -33,7 +33,7 @@ for it, f in zip(risposta['items'], richiesti):
     if fn.startswith('v_'):
         src = 'clip/' + fn[2:]
     elif fn.startswith('m_'):
-        src = 'musica.mp3'
+        src = 'musica/' + fn[2:] if Path('musica/' + fn[2:]).exists() else 'musica.mp3'
     else:
         src = 'mp3u/' + fn[2:]
     hdr = []

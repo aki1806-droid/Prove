@@ -1,0 +1,14 @@
+{
+ "s30": {
+  "tipo": "immagine",
+  "nome": "due-sedie-di-fronte",
+  "url": "https://resource2.heygen.ai/image/ad3318177e384fd7995dd2122644999a/original.png",
+  "nota": "due sedie di legno una di fronte all'altra attorno a un tavolino, luce di tardo pomeriggio da una finestra, stanza vuota; sul tavolino una tazza e un vasetto di fiori - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "m04": {
+  "tipo": "immagine",
+  "nome": "finestra-al-mattino",
+  "url": "https://resource2.heygen.ai/image/ca72c05e9ed74015a85aaf9f80b524ca/original.png",
+  "nota": "SCENA MUTA (scena 4 dello script), dopo s13: una finestra con la luce del mattino su un tavolo di legno vuoto - VISTA. Nessuna voce: 25 s di musica sola (musica/letto_25.mp3). Generata su ElevenLabs con Nano Banana 2"
+ }
+}

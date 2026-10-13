@@ -7,7 +7,8 @@
 
 Va eseguito dentro la cartella della lezione. I nomi portano il prefisso che
 `carica.py` usa per ritrovare il file sul disco: `v_` per le clip, `a_` per
-l'audio dei blocchi, `m_` per la musica.
+l'audio dei blocchi, `m_` per la musica (`musica.mp3`, o i file di
+`musica/`).
 
 HeyGen accetta fino a 100 file per batch. Conviene mandarli tutti in una volta
 anche quando sono pochi: una risposta corta il client la tiene in conversazione
@@ -40,6 +41,11 @@ if quali in ('tutto', 'audio'):
         voci.append({'filename': 'm_musica.mp3',
                      'content_type': 'audio/mpeg',
                      'size_bytes': m.stat().st_size})
+    # piu' tracce musicali (la 7.5: letto della scena muta e chiusura)
+    for p in sorted(Path('musica').glob('*.mp3')):
+        voci.append({'filename': 'm_' + p.name,
+                     'content_type': 'audio/mpeg',
+                     'size_bytes': p.stat().st_size})
 
 assert voci, 'niente da caricare'
 assert len(voci) <= 100, f'{len(voci)} file: il batch ne regge 100'

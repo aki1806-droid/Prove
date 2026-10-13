@@ -1,0 +1,501 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.5",
+"title": "La mappa dei segnali che mandi tu",
+"sub": "Capire i segni del linguaggio non verbale"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "trentacinque lezioni fa",
+"title": "Non ti insegnerò<br><span class=\"gold\">a leggere le persone.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "ogni volta che il corso ha tolto qualcosa",
+"title": "È rimasto<br><span class=\"gold\">qualcosa di più piccolo.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "che non ti dice chi hai davanti, ma",
+"plain": true,
+"rows": [
+"Dove guardare",
+"Quando chiedere",
+"Che cosa puoi cambiare tu"
+],
+"note": "È meno di quanto si vende di solito. Ed è vero."
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"plain": true,
+"note": "Una per modulo."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 0,
+"note": "Si vede un comportamento. La causa si può solo chiedere."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 1,
+"note": "Un movimento breve ti dice il momento. Il resto si chiede."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 2,
+"note": "Prima di giudicare l'altro, chiediti con quale metro misuri."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 3,
+"note": "Una distanza ferma dice poco. Conta quella che cambia."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 4,
+"note": "Non sai che cosa. Sai quando, e lì torni con una domanda."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 5,
+"note": "Conta solo quello che cambia."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "cosa resta, in sette righe",
+"rows": [
+"La causa non si vede mai",
+"Il volto dice quando, non cosa",
+"Se ti sembra sfuggente, misuri la tua abitudine",
+"Leggibile è chi cambia la distanza, e quando",
+"Quando i gesti si fermano, qualcosa è difficile",
+"Una costante non spiega un cambiamento",
+"Osservare serve a sapere dove guardare"
+],
+"active": 6,
+"note": "Non a sapere che cosa pensa l'altro. Se ne ricordi una, è questa."
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "sette righe",
+"title": "Se fra un anno te ne restano tre,<br><span class=\"gold\">il corso ha funzionato.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "la parte che resta",
+"title": "I segnali<br><span class=\"gold\">che mandi tu.</span>"
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "l'unico ambito del corso in cui",
+"plain": true,
+"rows": [
+"Conosci la causa",
+"Puoi verificare",
+"Un cambiamento si misura"
+],
+"note": "Già dalla prossima conversazione."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "e non richiede di leggere nessuno",
+"title": "Decidi che cosa<br><span class=\"gold\">dare da guardare.</span>"
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"plain": true,
+"note": "Abitudini da cambiare, una alla volta."
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"active": 0,
+"note": "Guarda mentre l'altro parla, stacca mentre parli tu."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"active": 1,
+"note": "Libere. Niente foglio, niente tasche."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"active": 2,
+"note": "Un passo indietro abbassa la tensione più di qualunque frase."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"active": 3,
+"note": "Non si corregge la voce: si corregge il respiro."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "la tua mappa, in cinque voci",
+"rows": [
+"Lo sguardo",
+"Le mani",
+"La distanza",
+"La voce",
+"Le incongruenze"
+],
+"active": 4,
+"note": "Dichiararle invece di gestirle."
+},
+{
+"file": "c23",
+"layout": "memo",
+"title": "L'unico ambito<br>in cui conosci la causa<br>è quello che riguarda te."
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "nei prossimi giorni",
+"title": "Noterai cose<br><span class=\"gold\">che prima non vedevi.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "e ci sarà un periodo",
+"title": "In cui guarderai<br><span class=\"gold\">tutti.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "è una fase, e passa",
+"title": "Le persone si accorgono<br><span class=\"gold\">di essere osservate.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "e chi si sente osservato",
+"title": "Si controlla.<br><span class=\"gold\">E ti mostra solo il controllo.</span>"
+},
+{
+"file": "c28",
+"layout": "flusso",
+"kicker": "il paradosso più prevedibile del corso",
+"passi": [
+{
+"et": "Guardi di più",
+"sub": ""
+},
+{
+"et": "Si controllano",
+"sub": ""
+},
+{
+"et": "Vedi meno",
+"sub": "e sbagli"
+}
+],
+"acceso": 2
+},
+{
+"file": "c29",
+"layout": "swap",
+"kicker": "l'antidoto",
+"rows": [
+[
+"Non serve a",
+"sapere chi hai davanti"
+],
+[
+"Serve a",
+"stare più attento a chi ti parla"
+]
+]
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "la cosa da fare adesso",
+"title": "Una persona, una situazione,<br><span class=\"gold\">una settimana.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "per una settimana",
+"title": "Osserva<br><span class=\"gold\">solo quella.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "perché la linea di base",
+"title": "Richiede<br><span class=\"gold\">ripetizione.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "l'unico modo per migliorare",
+"title": "Osservare qualcuno.<br><span class=\"gold\">E controllare.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "che cosa aspettarsi, onestamente",
+"rows": [
+"Subito: sguardo, mani, passo indietro",
+"In mesi: transizioni, silenzi, conclusioni",
+"Mai: le prime impressioni"
+],
+"active": 0,
+"note": "Sono modifiche di comportamento."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "che cosa aspettarsi, onestamente",
+"rows": [
+"Subito: sguardo, mani, passo indietro",
+"In mesi: transizioni, silenzi, conclusioni",
+"Mai: le prime impressioni"
+],
+"active": 1,
+"note": "E sono quelle che contano di più."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "che cosa aspettarsi, onestamente",
+"rows": [
+"Subito: sguardo, mani, passo indietro",
+"In mesi: transizioni, silenzi, conclusioni",
+"Mai: le prime impressioni"
+],
+"active": 2,
+"note": "È il modo in cui funziona chiunque."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "quello che puoi cambiare",
+"title": "Il peso che dai<br><span class=\"gold\">alle prime impressioni.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "una cosa sola di trentacinque lezioni",
+"title": "Più sicuri,<br><span class=\"gold\">o più accurati.</span>"
+},
+{
+"file": "c40",
+"layout": "swap",
+"kicker": "l'addestramento, modulo due",
+"rows": [
+[
+"La sicurezza",
+"aumenta"
+],
+[
+"L'accuratezza",
+"resta com'era"
+]
+]
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "quasi tutti i corsi danno la prima",
+"title": "Si sente di più.<br><span class=\"gold\">Si vende meglio.</span>"
+},
+{
+"file": "c42",
+"layout": "statement",
+"kicker": "questo ha provato a darti la seconda",
+"title": "Non fa danni<br><span class=\"gold\">a nessuno.</span>"
+},
+{
+"file": "c43",
+"layout": "memo",
+"title": "Più sicuri, o più accurati.<br>Non è la stessa cosa."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "sul sito, metodo e fonti",
+"plain": true,
+"rows": [
+"Le fonti di tutto il corso",
+"Quello che non insegna, e perché",
+"Gli studi dietro i numeri"
+]
+},
+{
+"file": "c45",
+"layout": "statement",
+"kicker": "se trovi qualcosa che non torna",
+"title": "Scrivimi.<br><span class=\"gold\">Un corso così si corregge.</span>"
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Una persona",
+"Una situazione che si ripete",
+"Una settimana"
+],
+"note": "Senza dirlo a nessuno, e senza concludere niente."
+},
+{
+"file": "c47",
+"layout": "bivio",
+"da": "Verifichi",
+"rami": [
+{
+"et": "Avevi visto bene",
+"sub": "sai qualcosa di più"
+},
+{
+"et": "Non avevi visto bene",
+"sub": "hai imparato sul tuo metro"
+}
+],
+"acceso": null
+},
+{
+"file": "c48",
+"layout": "statement",
+"title": "Quella verifica<br><span class=\"gold\">è tutto il mestiere.</span>"
+},
+{
+"file": "c99",
+"layout": "closing",
+"grande": true,
+"title": "Capire i segni del linguaggio non verbale",
+"sub": "Sette moduli · trentacinque lezioni",
+"site": "laparolagiusta.it"
+}
+]
