@@ -15,3 +15,40 @@
   s16  audio   6.60s  scena   6.60s  scarto    0 ms
   s17  audio   6.79s  scena   6.80s  scarto   10 ms
   s18  audio   8.08s  scena   8.08s  scarto    0 ms
+  s19  audio   7.15s  scena   7.15s  scarto    0 ms
+  s20  audio   7.32s  scena   7.32s  scarto    0 ms
+  s21  audio   7.97s  scena   7.96s  scarto   10 ms
+  s22  audio   7.03s  scena   7.03s  scarto    0 ms
+  s23  audio   8.34s  scena   8.35s  scarto   10 ms
+  s24  audio   7.69s  scena   7.68s  scarto   10 ms
+  s25  audio   8.27s  scena   8.28s  scarto   10 ms
+  s26  audio   8.36s  scena   8.36s  scarto    0 ms
+  s27  audio   9.80s  scena   9.80s  scarto    0 ms
+  s28  audio   9.43s  scena   9.44s  scarto   10 ms
+  s29  audio   7.83s  scena   7.84s  scarto   10 ms
+  s30  audio   5.30s  scena   5.31s  scarto   10 ms
+  s31  audio   8.58s  scena   8.59s  scarto   10 ms
+  s32  audio   6.98s  scena   6.98s  scarto    0 ms
+  s33  audio   8.78s  scena   8.80s  scarto   20 ms
+  s34  audio   6.19s  scena   6.19s  scarto    0 ms
+  s35  audio   6.77s  scena   6.76s  scarto   10 ms
+  s36  audio   9.39s  scena   9.40s  scarto   10 ms
+  s37  audio   5.81s  scena   5.80s  scarto   10 ms
+  s38  audio   7.63s  scena   7.63s  scarto    0 ms
+  s39  audio   7.84s  scena   7.84s  scarto    0 ms
+  s40  audio   6.17s  scena   6.16s  scarto   10 ms
+  s41  audio   7.34s  scena   7.36s  scarto   20 ms
+  s42  audio   7.05s  scena   7.04s  scarto   10 ms
+  s43  audio   6.14s  scena   6.15s  scarto   10 ms
+  s44  audio   7.16s  scena   7.16s  scarto    0 ms
+  s45  audio   6.97s  scena   6.96s  scarto   10 ms
+  s46  audio   6.61s  scena   6.60s  scarto   10 ms
+  s47  audio   7.65s  scena   7.64s  scarto   10 ms
+  s48  audio   4.29s  scena   4.28s  scarto   10 ms
+
+49 scene · parlato 352.0 s · con copertina 3 s e chiusura 10 s → 6:05.0
+scarto massimo audio/video: 20 ms su s33
+montato-8.2.mp4  6:05.32  12 MB
+montato-8.2.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 100 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata
