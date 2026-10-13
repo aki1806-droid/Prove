@@ -12,3 +12,4 @@
 | 16.5 | Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
 | 16.6 | Il politrauma | 8:54.2 | `8b0e5175a8b3ac094c851849d3721aac` |
 | 16.10 | Una famiglia intossicata dal monossido | 8:49.3 | `af235d11df9dcee7d2797de9dd94018b` |
+| 16.11 | Il paziente ventilato in terapia intensiva | 8:59.5 | `530ac0f75ca5ba27085a251271abe438` |
