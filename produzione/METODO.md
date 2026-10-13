@@ -53,6 +53,29 @@ con aziende e famiglie, si evitano dettagli verificabili (nomi di clienti, date,
 luoghi precisi) e si va avanti. Nel registro basta una riga che dica quali
 scene contengono un aneddoto inventato, senza segnalarlo come bloccante.
 
+## 1.3-bis La domanda che si fa SEMPRE
+
+**Con quale strumento genero la voce?** Dal 13 ottobre 2026 non c'è più una
+risposta sola, e la differenza di costo è di venti volte:
+
+- **ElevenLabs diretto** — `creative_create_flow` + nodi `tts`. ~10.400
+  crediti ElevenLabs a lezione ($1,73), più ~1.000 di trascrizione per
+  verificare i tagli;
+- **HeyGen come passante** — `create_speech`, `engine: "elevenlabs"`,
+  `settings: {"model_id": "eleven_v4"}`. ~33 crediti HeyGen a lezione, e i
+  **tempi parola per parola** arrivano insieme all'audio, quindi la
+  trascrizione di verifica non serve.
+
+Da dire ad Achille quando si chiede: una chiamata da 3.400 caratteri è andata
+in timeout a 60 s (una da 1.150 no), e il grezzo HeyGen è il 5% più veloce,
+quindi `atempo` va ritarato e le due sorgenti non si mescolano nello stesso
+corso.
+
+Il TTS proprio di HeyGen (`heygen_voice`, `starfish`, `orca`) e il Video Agent
+restano fuori discussione: balbettii e artefatti.
+
+---
+
 ## 1.4 Cosa NON si chiede
 
 Decisioni già prese, da applicare senza ridiscuterle:
@@ -60,7 +83,8 @@ Decisioni già prese, da applicare senza ridiscuterle:
 - molte slide a piena inquadratura — una per concetto, una per elenco, una per
   ogni cosa da ricordare;
 - avatar mai scontornato, mai coperto da grafiche;
-- voce sempre ElevenLabs, mai il TTS di HeyGen;
+- avatar e slide come sopra (la **voce no**: con quale strumento generarla si
+  chiede ogni volta, vedi 1.3-bis);
 - marchio LPG in alto a sinistra su ogni slide, stessa coordinata;
 - 16:9, 1080p, montaggio in una sola chiamata.
 

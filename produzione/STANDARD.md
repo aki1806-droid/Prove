@@ -7,10 +7,27 @@ VIDEO 03. Non va ridiscussa a ogni video: si applica e basta.
 
 ## 1. Voce
 
-- Sempre **ElevenLabs**, voce **"Achille nuovo 1"** — `KerPEYZvLEWNATg4AARX`,
-  modello `eleven_multilingual_v2`.
-- **Mai il TTS di HeyGen** e mai il Video Agent per la voce: producono balbettii
-  e artefatti. Questo è stato verificato più volte ed è il motivo della regola.
+**Con quale strumento generarla si CHIEDE ad Achille, ogni volta, prima di
+generare qualunque cosa.** È l'unica decisione del documento che non è già
+presa: dal 13 ottobre 2026 le strade sono due e si equivalgono sulla resa,
+non sul costo. Vedi la tabella in `CLAUDE.md` e il §voce di
+`LNV_STANDARD-PRODUZIONE.md` per i numeri misurati.
+
+- Voce **"Achille nuovo 1"** — `KerPEYZvLEWNATg4AARX`, modello
+  `eleven_multilingual_v2` per i video del canale. (Il corso LNV usa Luca
+  Ward e `eleven_v4`: vedi il suo standard.)
+- **Strada A, ElevenLabs diretto:** `creative_create_flow` + nodi `tts`. È
+  quella con cui sono fatti tutti i video fino al modulo 6 del corso LNV.
+- **Strada B, HeyGen come passante verso ElevenLabs:** `create_speech` con
+  `engine: "elevenlabs"` e `settings: {"model_id": "eleven_v4"}`. Costa circa
+  un ventesimo e restituisce i **tempi parola per parola**, che rendono
+  inutile la trascrizione di verifica. In prova sul modulo 7.
+- **Mai il TTS proprio di HeyGen** (`heygen_voice`, `starfish`, `orca`) e mai
+  il Video Agent per la voce: producono balbettii e artefatti. Questo è stato
+  verificato più volte ed è il motivo della regola. **La strada B non è
+  quello**: è ElevenLabs, fatturato da HeyGen.
+- **Le due sorgenti non si mescolano dentro lo stesso corso**: il grezzo di
+  HeyGen è circa il 5% più veloce, e `atempo=1.12` è tarato sull'altro.
 - Una traccia audio per scena. Il parlato si spezza ai confini di concetto,
   non a caso: ogni blocco è quello che sta sopra una singola inquadratura.
 - **Ogni traccia si accelera a 1,12x con ffmpeg** prima di andare in HeyGen. Il

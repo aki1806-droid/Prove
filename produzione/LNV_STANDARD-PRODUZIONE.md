@@ -115,6 +115,62 @@ deprecato `voice_id`), poi `creative_run_flow_nodes` con tutti e tre i nodi.
 Attenzione: un nodo mandato in esecuzione così produce **quattro** varianti.
 Si tiene la prima e si ignorano le altre.
 
+### 4-bis. Dal modulo 7 si prova l'altra strada
+
+**Con quale strumento generare la voce si chiede ad Achille prima di ogni
+video** (vedi `CLAUDE.md`). Per il modulo 7 la risposta è già data: si prova
+**HeyGen come passante verso ElevenLabs**, per decidere sui fatti.
+
+La stessa voce e lo stesso modello, fatturati da HeyGen:
+
+```
+create_speech
+  voiceId   e4bd8d8a357f41a99502309874733c16   ← "Luca Ward" privata su HeyGen
+  engine    elevenlabs
+  settings  {"model_id": "eleven_v4"}
+  language  it
+```
+
+(La stessa voce su ElevenLabs diretto è `tVdVcJPudubxmTmAw4tE`. Che siano la
+stessa registrazione è plausibile ma **non dimostrato**: la voce HeyGen è
+privata, senza preview e con `language: unknown`.)
+
+**Perché vale la pena provarla.** `create_speech` restituisce `duration` e i
+**tempi di inizio e fine di ogni parola**. È esattamente l'informazione che
+`tagli.py` dice in testa di non poter avere — «la trascrizione di ElevenLabs
+NON restituisce i tempi per parola: da qui questo giro» — e su cui è costruito
+tutto il §10-bis. Con i tempi per parola, `prova.mp3`, la trascrizione con
+`scribe`, `banda.py`, `correggi` e le clip di controllo **non servono più**:
+dove finisce un blocco non si stima, si legge.
+
+**Il costo, misurato il 13 ottobre 2026 e non stimato:**
+
+| campione | durata | crediti |
+|---|---|---|
+| un blocco | 12,83 s | 1 |
+| cinque blocchi | 68,36 s | 4 |
+
+Cioè **1 credito ogni 17–20 secondi**, arrotondati per eccesso **a ogni
+chiamata**: una lezione da 587 s di parlato costa **~33 crediti** in tre
+tracce lunghe e **48** generata blocco per blocco. Un motivo in più, oltre al
+tono, per non spezzare. Contro i ~10.400 crediti ElevenLabs ($1,73) più i
+~1.000 di trascrizione che costa oggi.
+
+**Le due cose da verificare durante la prova:**
+
+1. **il timeout.** Una chiamata da 3.400 caratteri è andata in timeout a 60 s;
+   una da 1.150 è passata. Il limite pratico sta in mezzo e va trovato: se un
+   chunk intero non passa, la strada regge solo spezzando, e spezzando si
+   perde il tono uniforme che è la ragione delle tracce lunghe;
+2. **il ritmo.** HeyGen esce a **17,4 caratteri al secondo** contro i 16,5 di
+   ElevenLabs diretto: circa il 5% più veloce. `atempo=1.12` è tarato
+   sull'altro, quindi va ritarato — e **le due sorgenti non si mescolano
+   dentro lo stesso corso**. Il modulo 7 è il punto giusto per cambiare
+   perché è un modulo intero; a metà modulo no.
+
+Il confronto A/B sul blocco `s34` della 6.5, grezzo contro grezzo, sta in
+`produzione/prove/voce-heygen-v4/`.
+
 ## 5. Vincoli di contenuto del corso
 
 Non sono scelte di stile: sono il motivo per cui il corso esiste, e gli script
