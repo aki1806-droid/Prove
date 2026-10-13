@@ -1,0 +1,78 @@
+{
+ "A": {
+  "parole_copione": 615,
+  "parole_dette": 616,
+  "coincidenti": 607,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s10",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s12",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s12",
+    "copione": "semiseduta",
+    "detto": "semi seduta"
+   },
+   {
+    "blocco": "s20",
+    "copione": "ee",
+    "detto": "e"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 705,
+  "parole_dette": 707,
+  "coincidenti": 689,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s25",
+    "copione": "ee",
+    "detto": "e"
+   },
+   {
+    "blocco": "s28",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s31",
+    "copione": "e",
+    "detto": "ee"
+   },
+   {
+    "blocco": "s33",
+    "copione": "lo sbar ee",
+    "detto": "l oes bar e"
+   },
+   {
+    "blocco": "s39",
+    "copione": "lo sbar",
+    "detto": "l oes bar"
+   },
+   {
+    "blocco": "s43",
+    "copione": "abcde",
+    "detto": "a b c d e"
+   },
+   {
+    "blocco": "s44",
+    "copione": "sbar",
+    "detto": "esbar"
+   },
+   {
+    "blocco": "s46",
+    "copione": "news2",
+    "detto": "news 2"
+   }
+  ]
+ }
+}

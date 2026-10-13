@@ -44,3 +44,7 @@ T m17-l17.9-centro-servizi A FzwsugMMXbI6voMZ1X1a 4FQTU6r6qTakLhH0mdli
 T m17-l17.9-centro-servizi B FfWNzFbJddynrbCGBoVa 3ZBeqZLWI6HzfABGvJCZ
 T m17-l17.10-straniera A IzCSIQgstUjZUf911bfa rSBw2nyBd63Vi80hJtwF
 T m17-l17.10-straniera B tbOEgT7x1dpT1GqBSUcN e1pMucKnkRu7I176nfPC
+T m17-l17.11-evento-avverso A VB1aT7KjaE4lGB4dWmu6 vBU5303kX9NbFrZRsGXU
+T m17-l17.11-evento-avverso B 6i6AbOqqRHEuJ5qs03pq a4ugOLganTwHayp3VKLh
+T m17-l17.12-riepilogo A DyrdAOqYOVOiAyZ2CQfi 85vV3nd2fqbtOyJ8Mevd
+T m17-l17.12-riepilogo B vmrbhiRY5TMPuKaGDz1O 2icAo2Vvtyz29kd2HHyx
