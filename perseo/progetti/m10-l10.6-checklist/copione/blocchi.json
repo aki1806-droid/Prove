@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Siamo partiti da qui. Un corridoio d'ospedale al cambio turno, un armadietto che si chiude, e una domanda."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quanto mi arrivera', ogni mese, quando smettero' di lavorare? E' la domanda che ci ha accompagnato per dieci moduli. Una domanda semplice, che quasi nessuno si fa in tempo."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dopo tutto questo percorso, quella domanda non ha ancora una risposta precisa. Nessuno puo' dartela con certezza. Dipende da troppe cose: lo stipendio, gli anni, i mercati, le regole."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ma ora hai gli strumenti per costruirla da solo, un pezzo alla volta, con i tuoi numeri."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In quest'ultima lezione li mettiamo in fila. Dieci domande da farti, una per una, con la tua situazione davanti. Una pagina sola, da tenere nel cassetto."
+ },
+ {
+  "id": "s07",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi le persone a cui rivolgerti, quando una risposta non la trovi da solo. Prendi un foglio: ti servira'."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco le prime cinque domande. Leggile con calma, e per ognuna chiediti se sapresti rispondere oggi. Non e' un esame: e' una fotografia della tua situazione."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Uno: sono in TFS o in TFR? Dipende dalla tua data di assunzione, come hai visto nel modulo due. In breve: assunto a tempo indeterminato entro il 2000, TFS. Dopo, TFR."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: sono gia' iscritto al Fondo? E se si', come? Molti colleghi, sinceramente, non lo sanno."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Con il modulo di adesione, per silenzio-assenso, oppure come aderente contrattuale? Ognuna di queste strade ha le sue regole. Le hai viste nel modulo tre."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: verso almeno l'uno per cento della retribuzione utile? E ricevo l'uno per cento dell'ente? Sono due cose collegate."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Lo vedi nel cedolino, riga per riga. E' la condizione per avere il contributo del datore di lavoro."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quattro: quanti anni mancano alla mia pensione pubblica? Da questo numero dipendono molte altre scelte. Per esempio, il profilo, e il momento giusto per chiedere la prestazione."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Cinque: in che profilo sono investiti i miei contributi? E il mio TFR virtuale, in quale profilo si trova? Sono due domande diverse, e le risposte possono essere diverse."
+ },
+ {
+  "id": "s16",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se non sai rispondere a una di queste domande, nessun problema. La lezione corrispondente e' indicata nella dispensa del corso."
+ },
+ {
+  "id": "s17",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le altre cinque domande. Sono quelle che, di solito, restano in fondo alla lista. Ma contano quanto le prime, e a volte di piu'."
+ },
+ {
+  "id": "s18",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sei: il profilo in cui sono e' coerente con gli anni che mi restano? E con la mia tranquillita', quando i mercati scendono?"
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sette: se non ho coniuge, figli o genitori a carico, ho designato qualcuno a cui lasciare la posizione?"
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' la domanda della lezione otto punto cinque, ed e' una di quelle che si rimandano piu' facilmente."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Otto: ho fatto versamenti oltre il limite di deducibilita', o con un bonifico, da comunicare al Fondo come contributi non dedotti?"
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nove: ho un vecchio fondo pensione, di un lavoro precedente, da portare in Perseo Sirio?"
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dieci: quando faccio il prossimo punto? La risposta giusta e': una volta l'anno, quando arriva il prospetto. Dieci minuti, come hai visto nella lezione dieci punto uno."
+ },
+ {
+  "id": "s24",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dieci domande in tutto. E nessuna richiede di essere un esperto di finanza."
+ },
+ {
+  "id": "s25",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Richiedono solo un po' di tempo, il cedolino, il prospetto e l'area riservata. Gli strumenti che ormai conosci."
+ },
+ {
+  "id": "s26",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E quando una risposta non la trovi? A chi rivolgerti?"
+ },
+ {
+  "id": "s27",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Prima di tutto al Fondo. C'e' un numero verde gratuito: ottocento, novecentonovantaquattro, cinquecentoquarantacinque. Annotalo da qualche parte, magari nella rubrica del telefono."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' attivo dal lunedi' al venerdi'. Gli orari li trovi sullo schermo, e sul sito del Fondo."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi c'e' la consulenza gratuita, che si prenota dal sito. Anche prima di aderire."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Serve proprio a questo: scegliere il profilo, e valutare con calma le scelte piu' importanti."
+ },
+ {
+  "id": "s31",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sul sito del Fondo trovi anche le domande frequenti, la Nota informativa, e tutta la modulistica che abbiamo citato nel corso."
+ },
+ {
+  "id": "s32",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono documenti scritti con cura. Ora che conosci le parole giuste, li leggerai molto piu' facilmente. E se una parola non ti torna, il numero verde e' li' apposta."
+ },
+ {
+  "id": "s33",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi c'e' chi lavora accanto a te, ogni giorno."
+ },
+ {
+  "id": "s34",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Questo corso e' stato realizzato da CISL FP Padova Rovigo, il sindacato che rappresenta i lavoratori della sanita' e delle funzioni pubbliche."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "I nostri delegati sono nei luoghi di lavoro. Possono aiutarti a leggere il cedolino, a ritrovare i documenti, a preparare una simulazione."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E il patronato INAS CISL ti accompagna nelle pratiche di pensione, sia quella pubblica, sia quella complementare. Dalla domanda di pensione, alla scelta tra capitale e rendita."
+ },
+ {
+  "id": "s37",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non serve aspettare di avere un problema. Basta una domanda, fatta al momento giusto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una domanda fatta in tempo vale piu' di dieci risposte cercate in fretta."
+ },
+ {
+  "id": "s39",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "La pensione non arriva alla fine. Si costruisce oggi, un mese alla volta."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi, l'ultima del corso: prendi un foglio, e rispondi alle dieci domande."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dove non sai la risposta, torna alla lezione giusta. Oppure chiedi a chi puo' aiutarti: il Fondo, un delegato, il patronato."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questo corso hai visto i tre pilastri, e le due tasche, quella reale e quella figurativa."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Hai visto il salvadanaio con i suoi tre ingressi, la scala del fisco che scende con gli anni, e il pilota automatico del percorso. Ritornano tutti, nelle dieci domande."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sono strumenti semplici, per una scelta importante. Una scelta che riguarda te, e la persona che sarai tra qualche anno."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Non devi fare tutto stasera. Ma puoi cominciare stasera, con una domanda sola. La prima della lista."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Grazie per aver seguito il corso fino in fondo, lezione dopo lezione."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Perseo Sirio, adesso, ha un segreto in meno."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] E buon lavoro, oggi. Per la pensione di domani."
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "A": {
+  "parole_copione": 467,
+  "parole_dette": 463,
+  "coincidenti": 458,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s09",
+    "copione": "perseo sirio",
+    "detto": "per se ossirio"
+   },
+   {
+    "blocco": "s17",
+    "copione": "duecentottanta euro",
+    "detto": "280"
+   },
+   {
+    "blocco": "s17",
+    "copione": "duecentottanta",
+    "detto": "280"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 480,
+  "parole_dette": 479,
+  "coincidenti": 479,
+  "buchi": [],
+  "sostituzioni_brevi": []
+ }
+}

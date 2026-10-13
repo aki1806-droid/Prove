@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:10,370
+Una mappa aperta sul tavolo, con un percorso segnato a matita. E poi, in auto, un navigatore che ricalcola la strada.
+
+2
+00:00:10,370 --> 00:00:18,260
+Una proiezione della pensione e' proprio come un navigatore. Ti dice dove arriverai, se mantieni la velocita' e la direzione di oggi.
+
+3
+00:00:18,260 --> 00:00:24,840
+Non sa se ci sara' traffico lungo la strada. E non sa se, a un certo punto, deciderai di cambiare percorso.
+
+4
+00:00:24,840 --> 00:00:31,220
+Ma senza navigatore viaggi alla cieca. E chi viaggia alla cieca, di solito, se ne accorge quando e' troppo tardi.
+
+5
+00:00:31,220 --> 00:00:38,900
+In questa lezione impariamo a usare i due strumenti di stima che il Fondo mette a disposizione, e a leggerli con la giusta prudenza.
+
+6
+00:00:38,900 --> 00:00:45,200
+Gli strumenti sono due, e fanno cose diverse. Conviene conoscerli entrambi, perche' si completano a vicenda.
+
+7
+00:00:45,200 --> 00:00:52,150
+Il primo si chiama la mia pensione complementare. E' un documento che il Fondo consegna con la documentazione di adesione.
+
+8
+00:00:52,150 --> 00:00:59,870
+Stima quanto potresti accumulare fino alla pensione, e quale rendita potresti ottenere con quel capitale, il giorno della pensione.
+
+9
+00:00:59,870 --> 00:01:08,860
+Usa ipotesi uguali per tutti i fondi pensione italiani, stabilite dalla COVIP, l'autorita' di vigilanza. Per questo e' utile anche per confrontare.
+
+10
+00:01:08,860 --> 00:01:17,300
+Il secondo e' il simulatore sul sito del Fondo, nella pagina della rendita. Qui le ipotesi standard lasciano spazio ai tuoi dati personali.
+
+11
+00:01:17,300 --> 00:01:24,530
+Puoi inserire i tuoi dati: la tua eta', i tuoi contributi, la posizione attuale e il profilo di investimento in cui sei.
+
+12
+00:01:24,530 --> 00:01:31,950
+Il documento con la metodologia e le ipotesi usate e' pubblicato sul sito del Fondo. Chi vuole capire i calcoli, li trova li'.
+
+13
+00:01:31,950 --> 00:01:38,520
+Ora la cosa piu' importante di tutta la lezione: come si legge, correttamente, una proiezione della pensione.
+
+14
+00:01:38,520 --> 00:01:45,250
+Il modo giusto e' leggerla come un ventaglio, non come un numero. Un ventaglio di possibilita' che si apre nel tempo.
+
+15
+00:01:45,250 --> 00:01:52,850
+Nessuno sa quanto renderanno i mercati nei prossimi anni. Nessuno sa quanto crescera' il tuo stipendio, ne' quale sara' l'inflazione.
+
+16
+00:01:52,850 --> 00:02:02,390
+Le proiezioni scelgono ipotesi ragionevoli e prudenti, scelte con un metodo dichiarato. Ma restano ipotesi, non previsioni, e nessuno puo' garantirle.
+
+17
+00:02:02,390 --> 00:02:11,270
+Un buon esercizio e' fare tre simulazioni. La prima con un rendimento prudente, la seconda con uno centrale, la terza con uno piu' ottimista.
+
+18
+00:02:11,270 --> 00:02:18,370
+La tua pensione complementare cadra', probabilmente, da qualche parte in mezzo. In quella zona realistica tra le tre linee.
+
+19
+00:02:18,370 --> 00:02:27,310
+E soprattutto: rifai la simulazione ogni qualche anno, magari quando arriva il prospetto. Perche' piu' ti avvicini alla pensione, piu' il ventaglio si stringe.
+
+20
+00:02:27,310 --> 00:02:34,330
+A trent'anni dalla pensione il ventaglio e' molto largo. A cinque anni dalla pensione, invece, e' quasi una linea sola.
+
+21
+00:02:34,330 --> 00:02:43,110
+Il simulatore e' utile soprattutto per un motivo, che il documento standard non puo' darti: ti mostra che cosa succede se cambi qualcosa.
+
+22
+00:02:43,110 --> 00:02:50,420
+Prova a muovere tre cursori, uno alla volta, lasciando fermi gli altri due, e guarda come cambia il risultato.
+
+23
+00:02:50,420 --> 00:02:58,390
+Primo cursore: la tua aliquota di contributo. Che differenza fa, alla fine, passare dall'uno al due, o al tre per cento?
+
+24
+00:02:58,390 --> 00:03:06,670
+Ricordi la lezione quattro punto quattro, sull'aliquota? Ora puoi vederlo con i tuoi numeri, non con quelli di un esempio inventato.
+
+25
+00:03:06,670 --> 00:03:14,020
+Secondo cursore: il profilo di investimento. Che cosa cambia con un profilo piu' prudente, o con uno piu' dinamico?
+
+26
+00:03:14,020 --> 00:03:24,200
+Terzo cursore: gli anni. Che cosa succede se resti nel Fondo due anni in piu', prima di chiedere la prestazione? Spesso piu' di quanto ci si aspetti.
+
+27
+00:03:24,200 --> 00:03:30,690
+Non cercare il numero perfetto, perche' non esiste. Cerca di capire quale leva pesa di piu' nel tuo caso.
+
+28
+00:03:30,690 --> 00:03:39,660
+Per qualcuno e' l'aliquota, per qualcun altro il profilo, per altri ancora sono gli anni. Saperlo ti dice dove conviene concentrare le energie.
+
+29
+00:03:39,660 --> 00:03:45,240
+Un'ultima cosa, ma non meno importante, anzi: forse e' la piu' importante di tutte.
+
+30
+00:03:45,240 --> 00:03:53,320
+La proiezione del Fondo ti racconta solo una parte della storia. Per avere il quadro completo, servono anche gli altri pezzi.
+
+31
+00:03:53,320 --> 00:04:02,210
+Mettila accanto alla stima della tua pensione pubblica, che trovi nel servizio online dell'INPS, e ai tuoi altri risparmi personali, se ne hai.
+
+32
+00:04:02,210 --> 00:04:09,600
+Sono i tre pilastri che hai visto nel modulo uno: la pensione pubblica, quella complementare, e il risparmio personale.
+
+33
+00:04:09,600 --> 00:04:16,860
+Solo guardandoli insieme capisci se il divario tra stipendio e pensione e' coperto, o se c'e' ancora strada da fare.
+
+34
+00:04:16,860 --> 00:04:22,860
+Una proiezione non dice dove arriverai. Dice dove stai andando.
+
+35
+00:04:22,860 --> 00:04:30,790
+Le tre cose da ricordare. Uno: il Fondo offre una proiezione con ipotesi standard, e un simulatore con i tuoi dati.
+
+36
+00:04:30,790 --> 00:04:37,740
+Due: ogni stima va letta come un ventaglio di possibilita', non come un numero sicuro scritto sulla pietra.
+
+37
+00:04:37,740 --> 00:04:44,440
+Tre: per il quadro completo, affianca la stima del Fondo a quella della pensione pubblica, e ai tuoi risparmi.
+
+38
+00:04:44,440 --> 00:04:49,650
+La mossa di oggi: fai tre simulazioni, cambiando una sola variabile alla volta.
+
+39
+00:04:49,650 --> 00:04:56,610
+Prima l'aliquota, poi il profilo, poi gli anni. E annota i tre risultati su un foglio, uno sotto l'altro.
+
+40
+00:04:56,610 --> 00:05:03,570
+Vedrai con i tuoi occhi quale leva sposta di piu' la tua pensione complementare, e quale invece conta poco.
+
+41
+00:05:03,570 --> 00:05:09,810
+Nelle prossime tre lezioni passiamo dalla teoria alle persone, e dai concetti alle decisioni.
+
+42
+00:05:09,810 --> 00:05:19,990
+Vedremo tre storie concrete, con nomi, eta' e numeri precisi. Persone inventate, ma situazioni molto reali, che potrebbero essere le nostre.
+
+43
+00:05:19,990 --> 00:05:25,540
+La prima e' un'infermiera appena assunta in un'azienda sanitaria, con tutta la carriera davanti.
+
+44
+00:05:25,540 --> 00:05:32,140
+Vedremo che cosa puo' cambiare per lei una scelta fatta oggi, con trentanove anni di lavoro davanti.
+
+45
+00:05:32,140 --> 00:05:39,280
+E come i concetti del corso, dal silenzio-assenso al profilo, diventano per lei decisioni pratiche.
+
+46
+00:05:39,280 --> 00:05:47,060
+Ricordati di tenere a portata di mano il tuo prospetto: confrontare la sua storia con la tua sara' l'esercizio piu' utile.
+
+47
+00:05:47,060 --> 00:05:51,770
+L'infermiera neoassunta. Ci vediamo nella lezione dieci punto tre.

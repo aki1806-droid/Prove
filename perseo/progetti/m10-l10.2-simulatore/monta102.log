@@ -21,3 +21,34 @@
   s22  audio   8.78s  scena   8.80s  scarto   20 ms
   s23  audio   7.31s  scena   7.31s  scarto    0 ms
   s24  audio   7.97s  scena   7.96s  scarto   10 ms
+  s25  audio   8.28s  scena   8.28s  scarto    0 ms
+  s26  audio   7.35s  scena   7.36s  scarto   10 ms
+  s27  audio  10.18s  scena  10.19s  scarto   10 ms
+  s28  audio   6.49s  scena   6.48s  scarto   10 ms
+  s29  audio   8.97s  scena   8.96s  scarto   10 ms
+  s30  audio   5.58s  scena   5.59s  scarto   10 ms
+  s31  audio   8.08s  scena   8.08s  scarto    0 ms
+  s32  audio   8.89s  scena   8.88s  scarto   10 ms
+  s33  audio   7.39s  scena   7.40s  scarto   10 ms
+  s34  audio   7.26s  scena   7.26s  scarto    0 ms
+  s35  audio   6.00s  scena   6.00s  scarto    0 ms
+  s36  audio   7.93s  scena   7.92s  scarto   10 ms
+  s37  audio   6.95s  scena   6.96s  scarto   10 ms
+  s38  audio   6.70s  scena   6.71s  scarto   10 ms
+  s39  audio   5.21s  scena   5.20s  scarto   10 ms
+  s40  audio   6.96s  scena   6.96s  scarto    0 ms
+  s41  audio   6.96s  scena   6.96s  scarto    0 ms
+  s42  audio   6.24s  scena   6.24s  scarto    0 ms
+  s43  audio  10.18s  scena  10.19s  scarto   10 ms
+  s44  audio   5.55s  scena   5.56s  scarto   10 ms
+  s45  audio   6.60s  scena   6.60s  scarto    0 ms
+  s46  audio   7.14s  scena   7.15s  scarto   10 ms
+  s47  audio   7.78s  scena   7.80s  scarto   20 ms
+  s48  audio   4.71s  scena   4.71s  scarto    0 ms
+
+49 scene · parlato 348.9 s · con copertina 3 s e chiusura 10 s → 6:01.9
+scarto massimo audio/video: 20 ms su s20
+montato-10.2.mp4  6:02.20  11 MB
+montato-10.2.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 81 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata:

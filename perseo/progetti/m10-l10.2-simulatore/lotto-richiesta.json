@@ -1,0 +1,578 @@
+[
+ {
+  "filename": "slide/png/s01.png",
+  "content_type": "image/png",
+  "size_bytes": 74389,
+  "checksum_sha256": "9e6ccf8b7e1e9bbfddf228c077010085fba9714edd3f7d80051de8789c448f8c"
+ },
+ {
+  "filename": "slide/png/s49.png",
+  "content_type": "image/png",
+  "size_bytes": 73832,
+  "checksum_sha256": "b2f0bead6fe6fdb35a01918b169015939165aff1b604c2ef3f190e7a8991d6eb"
+ },
+ {
+  "filename": "slide/mp4/s02.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 110228,
+  "checksum_sha256": "77b81ff35d2c6018406044b3e3010a732c3de5339133c7a71fe4053b641c5082"
+ },
+ {
+  "filename": "slide/mp4/s03.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 71124,
+  "checksum_sha256": "357cf0d290ef771529bee0127459388e36dd964ff83aff77ebd45b7f3330e93d"
+ },
+ {
+  "filename": "slide/mp4/s04.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 59907,
+  "checksum_sha256": "ecaf63bd16a2334454013815e58412acf0dce2000a89c373ebfbb2b9ca1e02a0"
+ },
+ {
+  "filename": "slide/mp4/s05.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 43164,
+  "checksum_sha256": "6c4a85d881d324716210f20daed45cbc8e29645b3a676d38ec731e2a7c765322"
+ },
+ {
+  "filename": "slide/mp4/s06.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 78223,
+  "checksum_sha256": "a41666914408c366ee0d7ae6de31a416811de6e1992d65ac4e1013ea7be340ba"
+ },
+ {
+  "filename": "slide/mp4/s07.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 114978,
+  "checksum_sha256": "52f5af913e26b2ad36189090fc6107b55e2217e728b1f7579c4e6353f1ad08d7"
+ },
+ {
+  "filename": "slide/mp4/s08.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 116093,
+  "checksum_sha256": "415d0bc5ef6f6d7ea5633654d33570ffcb003a2984cda5849f7f89d4b3b10092"
+ },
+ {
+  "filename": "slide/mp4/s09.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 94945,
+  "checksum_sha256": "2a5bf18e950a60a73cf01d9fb2078e12206c1002daaa832f4edd74074c503227"
+ },
+ {
+  "filename": "slide/mp4/s10.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 105930,
+  "checksum_sha256": "24271fb1886b127f9b88152d2daa1d7e60a7b43aadd20a905aafe8760fb1a43d"
+ },
+ {
+  "filename": "slide/mp4/s11.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 112070,
+  "checksum_sha256": "30f3fba1846558e56a037d31abffebab7ad778e18ce5d3d60f16685abe3742e8"
+ },
+ {
+  "filename": "slide/mp4/s12.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 152080,
+  "checksum_sha256": "67b258e3e957478608ca17b3ee5f714441996928721b70df31644936f4368247"
+ },
+ {
+  "filename": "slide/mp4/s13.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 91022,
+  "checksum_sha256": "d9716ab21c2c9c5bb1a360e26a05baddc1720dce6751af1809d79cc7a936bbfb"
+ },
+ {
+  "filename": "slide/mp4/s14.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 100409,
+  "checksum_sha256": "753f51841e550fda0a75971787b7034513a1ae80682c7b77ec1f311f82029e6a"
+ },
+ {
+  "filename": "slide/mp4/s15.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 95851,
+  "checksum_sha256": "2fbae33715ce5ff6f170ac61496208e40b3e20b6b6bd8067ed65346f8d69d65f"
+ },
+ {
+  "filename": "slide/mp4/s16.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 119128,
+  "checksum_sha256": "8c0504292e2243f1de8f1d86f4931dc571b4b94e9ef423e864123a9da6d20f75"
+ },
+ {
+  "filename": "slide/mp4/s17.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 51353,
+  "checksum_sha256": "e26c939a01575e8ab2350ad37af433ede9f84bec89a8a0a6c5ab6de347f57fce"
+ },
+ {
+  "filename": "slide/mp4/s18.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 100805,
+  "checksum_sha256": "7e8dffc3f919d2dc0ee1452581bac90bfc9ff0740fdc4175e26bd5b9e691881e"
+ },
+ {
+  "filename": "slide/mp4/s19.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 125612,
+  "checksum_sha256": "8510d109e15c0089a66bfee1c6cde23c0410d6f9561b23a8bce5079ddc7ec7fa"
+ },
+ {
+  "filename": "slide/mp4/s20.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 67936,
+  "checksum_sha256": "34245291c67a126e74ea78566a89e94e115d5704cdf28fbdb51faaea17439418"
+ },
+ {
+  "filename": "slide/mp4/s21.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 90471,
+  "checksum_sha256": "a9dca2081241a308c37b822c31e0d954280dfd3edbd05b8f6cd17947c15f8da4"
+ },
+ {
+  "filename": "slide/mp4/s22.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 111131,
+  "checksum_sha256": "6a8dc9940aa24ab6ff70123d2f1d78fae3beef07d71daaf9c74605fbff017d25"
+ },
+ {
+  "filename": "slide/mp4/s23.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 107950,
+  "checksum_sha256": "479ea3fca6c4e2285d225f4d73a4b9b07f9d1fa9eeccb4f31b0cc5bf370593ea"
+ },
+ {
+  "filename": "slide/mp4/s24.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 80737,
+  "checksum_sha256": "7c6ca2203dcd4d35b9e12a079f2a88a6f661866993d3cd1730bbce1dca79e004"
+ },
+ {
+  "filename": "slide/mp4/s25.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 54901,
+  "checksum_sha256": "2ed1d072137ccb2d378b70b48e382ecd0bfbe69b1e4b3f0cb61f12c1f389b55f"
+ },
+ {
+  "filename": "slide/mp4/s26.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 102430,
+  "checksum_sha256": "0f26621f5a8ec070f99f3e16538cc2bffcc4f8b883e63fb126e1378781e89eb1"
+ },
+ {
+  "filename": "slide/mp4/s27.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 114771,
+  "checksum_sha256": "6fa2825258e1616653753c4cde0d5c15324b5183f61bc210d05942c955f6c3d8"
+ },
+ {
+  "filename": "slide/mp4/s28.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69579,
+  "checksum_sha256": "800450b056d24b911551dd574b20dd854abc2fad6c0bfdf92088d2808275ed60"
+ },
+ {
+  "filename": "slide/mp4/s29.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69975,
+  "checksum_sha256": "bded38c19f1c7f9528614fc15e17ff070e224fcceb4106c885e8633cc72b874f"
+ },
+ {
+  "filename": "slide/mp4/s30.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 81769,
+  "checksum_sha256": "ca5d36497922f1b6b0b1d781aa7b326880574b9e052f840bc44a38af96fd70f3"
+ },
+ {
+  "filename": "slide/mp4/s31.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69949,
+  "checksum_sha256": "ddb5581cc13e42771a9be0dac19ac6e36458a360e55ab3535347b6dd03b143d6"
+ },
+ {
+  "filename": "slide/mp4/s32.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 113654,
+  "checksum_sha256": "4b1b071d1f2a71b3a4aac7bc10c4f77cd74eaa2dd370463bb675f6d98b474156"
+ },
+ {
+  "filename": "slide/mp4/s33.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 52956,
+  "checksum_sha256": "3f657e75b2bb97e2bcc4c2e0174eaf73e3da0bdccc2a2a74e071bcc6c5f4a464"
+ },
+ {
+  "filename": "slide/mp4/s34.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 74395,
+  "checksum_sha256": "885c5cf5eedbfb4f81ed2603959b48aa61e0bb7d0346c5a85f11a9b455b4cc02"
+ },
+ {
+  "filename": "slide/mp4/s35.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 85030,
+  "checksum_sha256": "23ab59001ae703c7c56622ea59e50c99469dabf53d04ec8b9596fbfc843d5f7a"
+ },
+ {
+  "filename": "slide/mp4/s36.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 102911,
+  "checksum_sha256": "df9566d00b939a9212e06b37f157c38d750380e51b5796de7f0231e5b4378343"
+ },
+ {
+  "filename": "slide/mp4/s37.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 110846,
+  "checksum_sha256": "5218ea5c529347a2494ce5ad6c2467bc4ebe4b2708505906f1fc05bc617ed9b3"
+ },
+ {
+  "filename": "slide/mp4/s38.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 132420,
+  "checksum_sha256": "20dda4b60fa1b87262460ecdbed4ebdfc152ead097a986ea108c040d41bef7cc"
+ },
+ {
+  "filename": "slide/mp4/s39.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 108494,
+  "checksum_sha256": "3793d1d4dcd9977f904b1714fd2fb1e9f2ac018386cdea0c3ed1a0b7ba6f582e"
+ },
+ {
+  "filename": "slide/mp4/s40.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 117857,
+  "checksum_sha256": "c0594c3b1e22445006b3bdc2eb500a069d41f48c7cc308b9d811359c2d305e00"
+ },
+ {
+  "filename": "slide/mp4/s41.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69729,
+  "checksum_sha256": "45af3a51728c5079bf5dffe5fcc7c40d989636752bd9ddd79f251a6d9f4fd36a"
+ },
+ {
+  "filename": "slide/mp4/s42.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 78980,
+  "checksum_sha256": "94d058e31113a11d4e9c2063e238b0537c5d64f3df60c352788ab3526cc71870"
+ },
+ {
+  "filename": "slide/mp4/s43.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 189716,
+  "checksum_sha256": "5e29b1a721bddc1763afd369cbc97208487fe6fd50da5fb2ec1c0ec2570f6732"
+ },
+ {
+  "filename": "slide/mp4/s44.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 98362,
+  "checksum_sha256": "699f5333610834f3b27b716b19d64afe3ae773b6519c558c93a9f5731bec7630"
+ },
+ {
+  "filename": "slide/mp4/s45.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 172835,
+  "checksum_sha256": "4ec1579b3bd31110d795e7ded7179978b2434221786afcadca2f13aebf9c4acb"
+ },
+ {
+  "filename": "slide/mp4/s46.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69114,
+  "checksum_sha256": "14aaddb7e90de58502582c609bc173e60945da65f5e638664b1bcc4991aa0fdd"
+ },
+ {
+  "filename": "slide/mp4/s47.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 69107,
+  "checksum_sha256": "358f5218dab214e72740bfbd3afb05051789f02d405511cc796edd4ec19520c7"
+ },
+ {
+  "filename": "slide/mp4/s48.mp4",
+  "content_type": "video/mp4",
+  "size_bytes": 94265,
+  "checksum_sha256": "53d5d2e5e03a9ae8b8522fb3020aaed2de77031122a1694b813d1bc38c7396fb"
+ },
+ {
+  "filename": "audio/blocchi/s02.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 178720,
+  "checksum_sha256": "6fc834e5e3a9e508228694372cf3fd8845ca18f2daa736b03f35250bd5055a43"
+ },
+ {
+  "filename": "audio/blocchi/s03.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 191259,
+  "checksum_sha256": "ba630af52c742160d3562dc1760e9e2375c92817200a0e5f0c8ce248985bd2d5"
+ },
+ {
+  "filename": "audio/blocchi/s04.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 159285,
+  "checksum_sha256": "045ac336a7363eceeedcc3b27c8ac13328f1da4d98d17cb1f1f4c4ad93007f00"
+ },
+ {
+  "filename": "audio/blocchi/s05.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 154896,
+  "checksum_sha256": "1fb96c64c7fa5314bb5d055471b82b6c5f364f1b11edb58131976e44b3f9a846"
+ },
+ {
+  "filename": "audio/blocchi/s06.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 186243,
+  "checksum_sha256": "91fcb6b9c9c9d78a93ab12b21e33be451ef47e58fa4591e2f985833ca249a013"
+ },
+ {
+  "filename": "audio/blocchi/s07.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 153016,
+  "checksum_sha256": "0e0120ae4bcbc082533a275d806dad398a5514bc09bd3e7e261038c8f2bc98c0"
+ },
+ {
+  "filename": "audio/blocchi/s08.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 168689,
+  "checksum_sha256": "452187f5a336c1d6a530485fe526082046a6cb581a2dc8848ad10608752e8202"
+ },
+ {
+  "filename": "audio/blocchi/s09.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 186870,
+  "checksum_sha256": "31b7adc751022404ea45bf2755e0068cd119437097f5a26fe9d7eb089ea4988b"
+ },
+ {
+  "filename": "audio/blocchi/s10.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 217590,
+  "checksum_sha256": "69a80ee24ea46ec2075ecf327890c20ae0d707d035f05d1e0a1cb10cd14ce07f"
+ },
+ {
+  "filename": "audio/blocchi/s11.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 204425,
+  "checksum_sha256": "a47b2cb91c0b046990c6c5d2b9d3e1dd6d5d1833aa388907abae7ba0d47bba23"
+ },
+ {
+  "filename": "audio/blocchi/s12.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 174959,
+  "checksum_sha256": "1f321fec44649dbb28f3cfd844d13dce6670f71c2843bcb8cb7dd3f29dee8e4c"
+ },
+ {
+  "filename": "audio/blocchi/s13.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 179974,
+  "checksum_sha256": "511feabca08770ee1c78fbff19b9f7501a3b2848b14c6b96a20ad75a0d372a34"
+ },
+ {
+  "filename": "audio/blocchi/s14.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 159285,
+  "checksum_sha256": "59a798b8e8ae591b597c2bf3775bdcedf467253d684206e3b5ac595aec230d9a"
+ },
+ {
+  "filename": "audio/blocchi/s15.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 163047,
+  "checksum_sha256": "ba43e760a01a2cf2437d8b5aa5a2c1c3faef491bf018b9e0ce5988422032b604"
+ },
+ {
+  "filename": "audio/blocchi/s16.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 184363,
+  "checksum_sha256": "d957fc5182b9aa868053eaea3bbac7c61940db4672124d26370255e2bddd2a84"
+ },
+ {
+  "filename": "audio/blocchi/s17.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 230756,
+  "checksum_sha256": "64e0e11c07117684125642353cbef39cc3ae13d7cfc4fc558980e67e6a0d9b3d"
+ },
+ {
+  "filename": "audio/blocchi/s18.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 214456,
+  "checksum_sha256": "c3b94b608b7f35e9478d8043d7e75f20dc7b506881afeb0cc61b833d9c698d02"
+ },
+ {
+  "filename": "audio/blocchi/s19.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 172451,
+  "checksum_sha256": "16c4329526372376337d719e3211a7dd24d0b73786fb71c30d0fc2653649953c"
+ },
+ {
+  "filename": "audio/blocchi/s20.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 216336,
+  "checksum_sha256": "e50e8911828db84f2f35051e42b68adabe3d208081d1345dde744d1ca0fd5fb7"
+ },
+ {
+  "filename": "audio/blocchi/s21.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 169943,
+  "checksum_sha256": "f55b65139845f8708d9f4fc86967cf188865188b8fad925f3e163ec1f55f859a"
+ },
+ {
+  "filename": "audio/blocchi/s22.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 212575,
+  "checksum_sha256": "843a7e9e3e7927430d9815cdcacdd1e93966487bf35a2add5c106fe862c85e12"
+ },
+ {
+  "filename": "audio/blocchi/s23.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 177466,
+  "checksum_sha256": "9c84239106537fb72cdae09d0aeccf692bff19ea88b0723c330b1d989f400251"
+ },
+ {
+  "filename": "audio/blocchi/s24.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 193140,
+  "checksum_sha256": "6310b268896493a1ab12f405600a1341a1e70aed7a665c6ab28a2a1ca464c2a8"
+ },
+ {
+  "filename": "audio/blocchi/s25.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 200663,
+  "checksum_sha256": "3d6f7aba4656b4789ff0f3e06ab7c7eab830347ca61868421386032da9ad1312"
+ },
+ {
+  "filename": "audio/blocchi/s26.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 178093,
+  "checksum_sha256": "62be5d8537d1bf2150325188cba266ce562111093c180cfa92126f15329d5913"
+ },
+ {
+  "filename": "audio/blocchi/s27.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 245803,
+  "checksum_sha256": "cb469a8cfcc6ad0c872eef0c992a11468cc4bb79dab7186e78b703f80761b4e5"
+ },
+ {
+  "filename": "audio/blocchi/s28.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 157404,
+  "checksum_sha256": "0e88330f1040e2c9a79cd50216c414f176d7b1ec367111bd183aa19dc30be484"
+ },
+ {
+  "filename": "audio/blocchi/s29.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 216963,
+  "checksum_sha256": "2e40b74c562c40b8daa7955410fcfa2e6c756a0df26e99b46fdfa5456d65dea4"
+ },
+ {
+  "filename": "audio/blocchi/s30.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 135461,
+  "checksum_sha256": "a3a2df4bdafa3d230bdcacb92a82d2365687f4010b854fde7ebf38f78ec8e958"
+ },
+ {
+  "filename": "audio/blocchi/s31.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 195648,
+  "checksum_sha256": "fe9456a214791a14c3783e8105d3db32ea06d154f2b6fb44c361ab174da3884d"
+ },
+ {
+  "filename": "audio/blocchi/s32.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 215083,
+  "checksum_sha256": "e094858e1e17f10f8017dec3818b00ade415bc3e42e53059d6d5d6c1e3120885"
+ },
+ {
+  "filename": "audio/blocchi/s33.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 179347,
+  "checksum_sha256": "d78de4733905fed71b95b393ebbd68f9c8f9745b4c8d7577bd2868ad2b0c50b9"
+ },
+ {
+  "filename": "audio/blocchi/s34.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 175585,
+  "checksum_sha256": "750d5c068fe131ddb62e1885aa57ed90d73b468d13b19d045f88bc00a905ecd7"
+ },
+ {
+  "filename": "audio/blocchi/s35.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 145492,
+  "checksum_sha256": "a8c6a29958f512feccdbb7a455ad0d3821307eab362677e67d5a8f2a88b2856e"
+ },
+ {
+  "filename": "audio/blocchi/s36.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 191886,
+  "checksum_sha256": "5f5b1a90e36b50a0b262609531be18a7f0ae9f250fb343ef052199d26cd468f8"
+ },
+ {
+  "filename": "audio/blocchi/s37.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 168689,
+  "checksum_sha256": "d5a4ce177ab1af86f0e7660fd5b40688bc3be16be151e40b28acd993f27c44d4"
+ },
+ {
+  "filename": "audio/blocchi/s38.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 162420,
+  "checksum_sha256": "83b663e3663b4ab1641fcff2eda19b423e552b3b3f2957b7e37e5082e8fe9cfa"
+ },
+ {
+  "filename": "audio/blocchi/s39.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 126684,
+  "checksum_sha256": "9967e078f2390e4e8bc8ce114cc37cf2115125471b68b0e87a8a6cbde0324198"
+ },
+ {
+  "filename": "audio/blocchi/s40.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 168689,
+  "checksum_sha256": "17cdec1aa275de03445e0960c688fae4669b3ebf0ff4d0533ea7fbe37833fa63"
+ },
+ {
+  "filename": "audio/blocchi/s41.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 168689,
+  "checksum_sha256": "554462575da1245de44252ae69fe203728cac7d90bb2849c710dd07f29e55ced"
+ },
+ {
+  "filename": "audio/blocchi/s42.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 151762,
+  "checksum_sha256": "c85e5edbf2575fd2c5e6774d5a81f8c27c2f76c02e1d5ad5f576e0cc42728a22"
+ },
+ {
+  "filename": "audio/blocchi/s43.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 245803,
+  "checksum_sha256": "8ae6f718e04d8c6b88ea0d7dc886c4e970b585c936185ea03e6459e57eab709e"
+ },
+ {
+  "filename": "audio/blocchi/s44.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 134834,
+  "checksum_sha256": "a0a1e64bd97a0f5e8767b6a682e1e6c3c8f4036066c03af57eeba946f10a1366"
+ },
+ {
+  "filename": "audio/blocchi/s45.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 159912,
+  "checksum_sha256": "dbb31e8c6c4d957588b5a2b75d35110828c9564535dca1b5ff272c423031d8ad"
+ },
+ {
+  "filename": "audio/blocchi/s46.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 173078,
+  "checksum_sha256": "4454ad035f601004e15f2830587cacf48521d32b96bdfd881732b06e6770aeab"
+ },
+ {
+  "filename": "audio/blocchi/s47.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 188124,
+  "checksum_sha256": "c8f1d2c2438827811647f54d23b2f1519585ead2f2c8f4e2b39524b4a00bfceb"
+ },
+ {
+  "filename": "audio/blocchi/s48.mp3",
+  "content_type": "audio/mpeg",
+  "size_bytes": 114772,
+  "checksum_sha256": "5747a9d54d62b4e4b05858e4ba5fa1516ed8ee184339b3f903c5def226f4e3df"
+ }
+]
