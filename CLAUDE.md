@@ -29,18 +29,21 @@ Le strade sono due, tutte e due con la stessa voce e lo stesso modello
 | **ElevenLabs diretto** | `creative_create_flow` + nodi `tts` | ~10.400 crediti ElevenLabs (**$1,73**), più ~1.000 crediti di trascrizione per verificare i tagli |
 | **HeyGen come passante** | `create_speech`, `engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}` | **~33 crediti** del piano HeyGen (0,45% del mese), e **la trascrizione di verifica non serve**: `create_speech` restituisce i tempi parola per parola |
 
-Misurato il 13 ottobre 2026, non stimato: 12,83 s → 1 credito, 68,36 s → 4
-crediti, cioè **1 credito ogni 17–20 secondi**, arrotondati per eccesso **a
-ogni chiamata** (perciò le tracce lunghe, non un blocco per chiamata).
+Misurato il 13 ottobre 2026 su cinque campioni, non stimato: **1 credito ogni
+16,7 secondi**, arrotondati per eccesso **a ogni chiamata** — perciò le tracce
+lunghe, non un blocco per chiamata. Una lezione da 587 s di parlato costa
+**~35 crediti**.
 
-**Due cose restano aperte e vanno dette ad Achille quando si chiede:**
+**Due cose erano aperte il 13 ottobre e sono state chiuse il 14:**
 
-1. una chiamata `create_speech` da 3.400 caratteri è andata in **timeout a 60
-   secondi**; una da 1.150 è passata. Il limite pratico sta in mezzo e non è
-   ancora stato trovato;
-2. il ritmo di HeyGen è circa il **5% più veloce** della stessa voce presa
-   diretta (17,4 contro 16,5 caratteri al secondo). `atempo=1.12` è tarato su
-   ElevenLabs: cambiando sorgente va ritarato, e **le due sorgenti non si
+1. **il limite del timeout sta fra 3.097 e 3.401 caratteri.** 2.243, 2.526 e
+   3.097 passano; 3.401 va in timeout a 60 secondi. Un copione da 10.400
+   caratteri va quindi in **quattro tracce da ~2.600**, non in tre da ~3.470;
+2. **HeyGen è il 3,3% più LENTO**, non più veloce: 15,71 contro 16,25
+   caratteri al secondo sul grezzo. (Il «5% più veloce» del 13 ottobre era un
+   errore di confronto: un campione da 229 caratteri contro la media di una
+   traccia intera, e i campioni corti hanno meno pause di frase.) Con HeyGen
+   l'`atempo` va portato da 1,12 a **1,16**, e **le due sorgenti non si
    mescolano dentro lo stesso corso**.
 
 **Non si usano mai** il TTS proprio di HeyGen (`heygen_voice`, `starfish`,
