@@ -10,3 +10,4 @@
 | 16.8 | La chetoacidosi all'esordio | 9:06.8 | `79de8b7bf3e9f72ef4cb7b910e48e245` |
 | 16.9 | Nutrizione enterale, polmonite da inalazione e rialimentazione | 9:06.1 | `dfe463127e4a0de2c6bbc87cbbcf0d44` |
 | 16.5 | Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
+| 16.6 | Il politrauma | 8:54.2 | `8b0e5175a8b3ac094c851849d3721aac` |
