@@ -15,14 +15,14 @@ Inquadrature totali: 61
 | S007 | B03 | immagine | I03 | — | 0.35 |
 | S008 | B03 | scena | testo · pagina · fondo neutro | Il profilo sbagliato | 0.3 |
 | S009 | B03 | scena | testo · griglia · fondo chiaro | Tempo guadagnato / Responsabilità nostra | 0.35 |
-| S010 | B04 | scena | testo · centrata · fondo neutro | Cosa saprai fare | 0.2 |
+| S010 | B04 | scena | testo · centrata · fondo neutro | Il tuo nuovo bagaglio | 0.2 |
 | S011 | B04 | scena | testo · griglia · fondo chiaro | tre celle | 0.3 |
 | S012 | B04 | scena | testo · griglia · fondo neutro | tre celle | 0.25 |
 | S013 | B04 | scena | testo · laterale · fondo scuro | Sapere quando fermarsi | 0.25 |
 | S014 | B05 | animazione_svg | svg/IAS_M00_L01_A2_settimana-in-sede.svg | — | 0.6 |
 | S015 | B05 | clip | C04 | — | 0.4 |
 | S016 | B06 | immagine | I05 | — | 0.5 |
-| S017 | B06 | scena | testo · pagina · fondo chiaro | 30″ invece di un'ora | 0.5 |
+| S017 | B06 | scena | testo · pagina · fondo chiaro | 30″ contro sessanta minuti | 0.5 |
 | S018 | B07 | clip | C05 | — | 0.3 |
 | S019 | B07 | scena | testo · griglia · fondo neutro | esempio illustrativo dal parlato | 0.35 |
 | S020 | B07 | scena | testo · laterale · fondo scuro | Equilibrio al tavolo | 0.35 |

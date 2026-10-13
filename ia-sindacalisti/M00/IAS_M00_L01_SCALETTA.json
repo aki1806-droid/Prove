@@ -115,9 +115,9 @@
     "fondo": "neutro",
     "livello": 1,
     "etichetta": "Alla fine del corso",
-    "testo": "Cosa saprai fare"
+    "testo": "Il tuo nuovo bagaglio"
    },
-   "testo_a_schermo": "Cosa saprai fare"
+   "testo_a_schermo": "Il tuo nuovo bagaglio"
   },
   {
    "id": "S011",
@@ -213,9 +213,9 @@
     "fondo": "chiaro",
     "livello": 1,
     "grande": "30″",
-    "testo": "invece di un'ora"
+    "testo": "contro sessanta minuti"
    },
-   "testo_a_schermo": "30″ invece di un'ora"
+   "testo_a_schermo": "30″ contro sessanta minuti"
   },
   {
    "id": "S018",

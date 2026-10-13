@@ -1,0 +1,742 @@
+{
+ "lezione": "IAS_M01_L04",
+ "titolo": "Che cosa non deve mai fare al posto tuo",
+ "livello": 1,
+ "scene": [
+  {
+   "id": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "durata": "3s",
+   "scena": {
+    "tipo": "copertina",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Modulo 1 · Lezione 4",
+    "testo": "Che cosa non deve mai fare al posto tuo"
+   }
+  },
+  {
+   "id": "S002",
+   "blocco": "B01",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C01"
+  },
+  {
+   "id": "S003",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I01"
+  },
+  {
+   "id": "S004",
+   "blocco": "B01",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "scuro",
+    "livello": 1,
+    "testo": "Lo chiedo alla macchina?"
+   },
+   "testo_a_schermo": "Lo chiedo alla macchina?"
+  },
+  {
+   "id": "S005",
+   "blocco": "B02",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Il nostro lavoro resta nostro"
+   },
+   "testo_a_schermo": "Il nostro lavoro resta nostro"
+  },
+  {
+   "id": "S006",
+   "blocco": "B03",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L04_A1_tre-linee-rosse.svg"
+  },
+  {
+   "id": "S007",
+   "blocco": "B04",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Prima linea rossa",
+    "testo": "Decidere"
+   },
+   "testo_a_schermo": "Decidere",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S008",
+   "blocco": "B04",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I02"
+  },
+  {
+   "id": "S009",
+   "blocco": "B05",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Quello che la macchina non sa",
+    "tabella": {
+     "colonne": [
+      "Sai tu",
+      "Lei no"
+     ],
+     "righe": [
+      [
+       "La storia del reparto",
+       "✕"
+      ],
+      [
+       "Le promesse fatte",
+       "✕"
+      ],
+      [
+       "Le persone",
+       "✕"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S010",
+   "blocco": "B06",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S011",
+   "blocco": "B06",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Rappresentanza",
+    "testo": "Qualcuno deve risponderne"
+   },
+   "testo_a_schermo": "Qualcuno deve risponderne"
+  },
+  {
+   "id": "S012",
+   "blocco": "B07",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "✓",
+      "t": "Elencare le opzioni"
+     },
+     {
+      "n": "✓",
+      "t": "Prevedere conseguenze"
+     },
+     {
+      "n": "✕",
+      "t": "Scegliere al posto tuo"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre celle"
+  },
+  {
+   "id": "S013",
+   "blocco": "B07",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S014",
+   "blocco": "B08",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I03"
+  },
+  {
+   "id": "S015",
+   "blocco": "B08",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "2",
+    "etichetta": "Seconda linea rossa",
+    "testo": "Firmare"
+   },
+   "testo_a_schermo": "Firmare"
+  },
+  {
+   "id": "S016",
+   "blocco": "B09",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C03"
+  },
+  {
+   "id": "S017",
+   "blocco": "B09",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "rosso",
+    "livello": 1,
+    "testo": "Tra bozza e invio, tu"
+   },
+   "testo_a_schermo": "Tra bozza e invio, tu"
+  },
+  {
+   "id": "S018",
+   "blocco": "B10",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I04"
+  },
+  {
+   "id": "S019",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Atti formali",
+    "testo": "Bozza sì, legale sempre"
+   },
+   "testo_a_schermo": "Bozza sì, legale sempre"
+  },
+  {
+   "id": "S020",
+   "blocco": "B11",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "1",
+      "t": "Chiediamo"
+     },
+     {
+      "n": "2",
+      "t": "Pretendiamo"
+     },
+     {
+      "n": "3",
+      "t": "Diffidiamo"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre verbi"
+  },
+  {
+   "id": "S021",
+   "blocco": "B11",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C04"
+  },
+  {
+   "id": "S022",
+   "blocco": "B12",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "numero": "3",
+    "etichetta": "Terza linea rossa",
+    "testo": "Nessun verdetto sulle persone"
+   },
+   "testo_a_schermo": "Nessun verdetto sulle persone"
+  },
+  {
+   "id": "S023",
+   "blocco": "B13",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I05"
+  },
+  {
+   "id": "S024",
+   "blocco": "B13",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Vede solo le parole",
+    "testo": "Non il tono, non la storia"
+   },
+   "testo_a_schermo": "Non il tono, non la storia"
+  },
+  {
+   "id": "S025",
+   "blocco": "B14",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Genere, età, origine"
+   },
+   "testo_a_schermo": "Genere, età, origine"
+  },
+  {
+   "id": "S026",
+   "blocco": "B14",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C05"
+  },
+  {
+   "id": "S027",
+   "blocco": "B15",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Il messaggio della sera",
+    "tabella": {
+     "colonne": [
+      "Sì",
+      "No"
+     ],
+     "righe": [
+      [
+       "Cronologia anonima",
+       "«È mobbing?»"
+      ],
+      [
+       "Informazioni mancanti",
+       "Risposta automatica"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S028",
+   "blocco": "B16",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I01"
+  },
+  {
+   "id": "S029",
+   "blocco": "B16",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "La risposta",
+    "testo": "Breve, imperfetta, umana"
+   },
+   "testo_a_schermo": "Breve, imperfetta, umana"
+  },
+  {
+   "id": "S030",
+   "blocco": "B17",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C05"
+  },
+  {
+   "id": "S031",
+   "blocco": "B17",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Cercano",
+    "testo": "Qualcuno che ci metta la faccia"
+   },
+   "testo_a_schermo": "Qualcuno che ci metta la faccia"
+  },
+  {
+   "id": "S032",
+   "blocco": "B18",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I05"
+  },
+  {
+   "id": "S033",
+   "blocco": "B18",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Primo contatto: umano"
+   },
+   "testo_a_schermo": "Primo contatto: umano"
+  },
+  {
+   "id": "S034",
+   "blocco": "B19",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I06"
+  },
+  {
+   "id": "S035",
+   "blocco": "B19",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "rosso",
+    "livello": 1,
+    "etichetta": "Modulo 3",
+    "testo": "Dati sensibili fuori"
+   },
+   "testo_a_schermo": "Dati sensibili fuori"
+  },
+  {
+   "id": "S036",
+   "blocco": "B20",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 2,
+    "testo": "Troppa fiducia nella macchina"
+   },
+   "testo_a_schermo": "Troppa fiducia nella macchina"
+  },
+  {
+   "id": "S037",
+   "blocco": "B21",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L04_A4_attenzione-che-scivola.svg"
+  },
+  {
+   "id": "S038",
+   "blocco": "B22",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "1",
+      "t": "Fine giornata"
+     },
+     {
+      "n": "2",
+      "t": "Fretta"
+     },
+     {
+      "n": "3",
+      "t": "Testi lunghi"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre momenti"
+  },
+  {
+   "id": "S039",
+   "blocco": "B22",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I07"
+  },
+  {
+   "id": "S040",
+   "blocco": "B23",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L04_A2_secondo-sguardo.svg"
+  },
+  {
+   "id": "S041",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S042",
+   "blocco": "B25",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S043",
+   "blocco": "B26",
+   "tipo": "registrazione",
+   "peso": 0.8,
+   "asset": "R03"
+  },
+  {
+   "id": "S044",
+   "blocco": "B26",
+   "tipo": "clip",
+   "peso": 0.2,
+   "asset": "C02"
+  },
+  {
+   "id": "S045",
+   "blocco": "B27",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L04_A3_semaforo.svg"
+  },
+  {
+   "id": "S046",
+   "blocco": "B28",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "rosso",
+    "livello": 1,
+    "etichetta": "Con l'esperienza",
+    "testo": "Il giallo cambia, il rosso no"
+   },
+   "testo_a_schermo": "Il giallo cambia, il rosso no"
+  },
+  {
+   "id": "S047",
+   "blocco": "B29",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Se te lo chiedono",
+    "testo": "Sincerità, responsabilità piena"
+   },
+   "testo_a_schermo": "Sincerità, responsabilità piena"
+  },
+  {
+   "id": "S048",
+   "blocco": "B30",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 4,
+    "numero": "18",
+    "etichetta": "Ultimo modulo",
+    "testo": "Lo stesso confine per l'azienda"
+   },
+   "testo_a_schermo": "Lo stesso confine per l'azienda"
+  },
+  {
+   "id": "S049",
+   "blocco": "B30",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S050",
+   "blocco": "B31",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I08"
+  },
+  {
+   "id": "S051",
+   "blocco": "B31",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Una regola tua"
+   },
+   "testo_a_schermo": "Una regola tua"
+  },
+  {
+   "id": "S052",
+   "blocco": "B32",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Una regola, per esempio",
+    "tabella": {
+     "colonne": [
+      "Uso",
+      "Non uso"
+     ],
+     "righe": [
+      [
+       "Bozze e riassunti",
+       "Decisioni"
+      ],
+      [
+       "Riordino",
+       "Giudizi"
+      ],
+      [
+       "Rilettura sempre",
+       "Dati sensibili"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S053",
+   "blocco": "B33",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "errori",
+    "livello": 1,
+    "voci": [
+     "Chiedere se è giusto",
+     "Inviare senza leggere",
+     "Bozza a chi soffre",
+     "Controlli rilassati"
+    ]
+   },
+   "testo_a_schermo": "errori tipici",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S054",
+   "blocco": "B34",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "memo",
+    "livello": 1,
+    "testo": "Proposta sua, firma tua."
+   },
+   "testo_a_schermo": "Proposta sua, firma tua."
+  },
+  {
+   "id": "S055",
+   "blocco": "B35",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "5",
+    "etichetta": "La pratica di oggi",
+    "testo": "Cinque righe, la tua regola"
+   },
+   "testo_a_schermo": "Cinque righe, la tua regola"
+  },
+  {
+   "id": "S056",
+   "blocco": "B35",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I08"
+  },
+  {
+   "id": "S057",
+   "blocco": "B36",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prossima lezione",
+    "testo": "La prima conversazione guidata"
+   },
+   "testo_a_schermo": "La prima conversazione guidata"
+  },
+  {
+   "id": "S058",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "durata": "10s",
+   "scena": {
+    "tipo": "chiusura",
+    "livello": 1,
+    "testo": "L'IA per chi fa sindacato",
+    "etichetta": "Modulo 1 · Lezione 5"
+   }
+  }
+ ]
+}

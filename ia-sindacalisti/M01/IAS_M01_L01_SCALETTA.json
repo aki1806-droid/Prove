@@ -1,0 +1,750 @@
+{
+ "lezione": "IAS_M01_L01",
+ "titolo": "Come «ragiona» un modello linguistico",
+ "livello": 1,
+ "scene": [
+  {
+   "id": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "durata": "3s",
+   "scena": {
+    "tipo": "copertina",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Modulo 1 · Lezione 1",
+    "testo": "Come «ragiona» un modello linguistico"
+   }
+  },
+  {
+   "id": "S002",
+   "blocco": "B01",
+   "tipo": "clip",
+   "peso": 0.35,
+   "asset": "C01"
+  },
+  {
+   "id": "S003",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I01"
+  },
+  {
+   "id": "S004",
+   "blocco": "B01",
+   "tipo": "scena",
+   "peso": 0.35,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Stessa domanda, altra risposta"
+   },
+   "testo_a_schermo": "Stessa domanda, altra risposta"
+  },
+  {
+   "id": "S005",
+   "blocco": "B02",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "✕",
+      "t": "Motore di ricerca"
+     },
+     {
+      "n": "✕",
+      "t": "Enciclopedia"
+     }
+    ]
+   },
+   "testo_a_schermo": "due immagini sbagliate"
+  },
+  {
+   "id": "S006",
+   "blocco": "B02",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I02"
+  },
+  {
+   "id": "S007",
+   "blocco": "B03",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Questa lezione",
+    "testo": "Il meccanismo, senza formule"
+   },
+   "testo_a_schermo": "Il meccanismo, senza formule"
+  },
+  {
+   "id": "S008",
+   "blocco": "B04",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "G",
+      "t": "Grande"
+     },
+     {
+      "n": "M",
+      "t": "Modello"
+     },
+     {
+      "n": "L",
+      "t": "Linguistico"
+     }
+    ]
+   },
+   "testo_a_schermo": "Grande, Modello, Linguistico"
+  },
+  {
+   "id": "S009",
+   "blocco": "B04",
+   "tipo": "clip",
+   "peso": 0.45,
+   "asset": "C02"
+  },
+  {
+   "id": "S010",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I06"
+  },
+  {
+   "id": "S011",
+   "blocco": "B05",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Schemi, non pagine"
+   },
+   "testo_a_schermo": "Schemi, non pagine"
+  },
+  {
+   "id": "S012",
+   "blocco": "B06",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C03"
+  },
+  {
+   "id": "S013",
+   "blocco": "B06",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "L'esercizio",
+    "testo": "Indovina la parola nascosta"
+   },
+   "testo_a_schermo": "Indovina la parola nascosta"
+  },
+  {
+   "id": "S014",
+   "blocco": "B07",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 1,
+    "testo": "Prevede. Sceglie. Ricomincia."
+   },
+   "testo_a_schermo": "Prevede. Sceglie. Ricomincia.",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S015",
+   "blocco": "B08",
+   "tipo": "animazione_svg",
+   "peso": 0.75,
+   "file": "svg/IAS_M01_L01_A1_parola-successiva.svg"
+  },
+  {
+   "id": "S016",
+   "blocco": "B08",
+   "tipo": "immagine",
+   "peso": 0.25,
+   "asset": "I05"
+  },
+  {
+   "id": "S017",
+   "blocco": "B09",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I03"
+  },
+  {
+   "id": "S018",
+   "blocco": "B09",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Stessa famiglia",
+    "testo": "Ma scala diversa"
+   },
+   "testo_a_schermo": "Ma scala diversa"
+  },
+  {
+   "id": "S019",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Pezzi di parola · esempio",
+    "testo": "contr | atta | zione"
+   },
+   "testo_a_schermo": "contr | atta | zione"
+  },
+  {
+   "id": "S020",
+   "blocco": "B11",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C04"
+  },
+  {
+   "id": "S021",
+   "blocco": "B11",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Ha visto migliaia di",
+    "testo": "Lettere, verbali, spiegazioni"
+   },
+   "testo_a_schermo": "Lettere, verbali, spiegazioni"
+  },
+  {
+   "id": "S022",
+   "blocco": "B12",
+   "tipo": "immagine",
+   "peso": 0.45,
+   "asset": "I04"
+  },
+  {
+   "id": "S023",
+   "blocco": "B12",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Il punto chiave",
+    "testo": "Ricostruisce, non recupera"
+   },
+   "testo_a_schermo": "Ricostruisce, non recupera"
+  },
+  {
+   "id": "S024",
+   "blocco": "B13",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L01_A2_schemi-non-schedario.svg"
+  },
+  {
+   "id": "S025",
+   "blocco": "B14",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I06"
+  },
+  {
+   "id": "S026",
+   "blocco": "B14",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Il collega che ha letto tutto",
+    "tabella": {
+     "colonne": [
+      "Gli chiedi",
+      "Affidabilità"
+     ],
+     "righe": [
+      [
+       "Come si scrive una lettera",
+       "Alta"
+      ],
+      [
+       "Un riassunto del testo che gli dai",
+       "Alta"
+      ],
+      [
+       "Il numero di un comma",
+       "Bassa"
+      ]
+     ]
+    },
+    "evidenza": 2
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S027",
+   "blocco": "B15",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L01_A3_molte-strade.svg"
+  },
+  {
+   "id": "S028",
+   "blocco": "B16",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "Idee",
+      "t": "La variazione aiuta"
+     },
+     {
+      "n": "Precisione",
+      "t": "Istruzioni e testo"
+     }
+    ]
+   },
+   "testo_a_schermo": "Idee / Precisione"
+  },
+  {
+   "id": "S029",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C01"
+  },
+  {
+   "id": "S030",
+   "blocco": "B17",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S031",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 0.75,
+   "asset": "R02"
+  },
+  {
+   "id": "S032",
+   "blocco": "B18",
+   "tipo": "scena",
+   "peso": 0.25,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Da dove viene quel dettaglio?"
+   },
+   "testo_a_schermo": "Da dove viene quel dettaglio?"
+  },
+  {
+   "id": "S033",
+   "blocco": "B19",
+   "tipo": "registrazione",
+   "peso": 0.7,
+   "asset": "R03"
+  },
+  {
+   "id": "S034",
+   "blocco": "B19",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Tre strumenti",
+    "testo": "Nessuna risposta ufficiale"
+   },
+   "testo_a_schermo": "Nessuna risposta ufficiale"
+  },
+  {
+   "id": "S035",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 0.65,
+   "asset": "R04"
+  },
+  {
+   "id": "S036",
+   "blocco": "B20",
+   "tipo": "scena",
+   "peso": 0.35,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "testo": "Una spiegazione, non una prova"
+   },
+   "testo_a_schermo": "Una spiegazione, non una prova"
+  },
+  {
+   "id": "S037",
+   "blocco": "B21",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Lavora su ciò che gli dai"
+   },
+   "testo_a_schermo": "Lavora su ciò che gli dai"
+  },
+  {
+   "id": "S038",
+   "blocco": "B21",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C04"
+  },
+  {
+   "id": "S039",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 0.6,
+   "asset": "R05"
+  },
+  {
+   "id": "S040",
+   "blocco": "B22",
+   "tipo": "animazione_svg",
+   "peso": 0.4,
+   "file": "svg/IAS_M01_L01_A4_con-documento.svg"
+  },
+  {
+   "id": "S041",
+   "blocco": "B23",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Cambio di argomento?",
+    "testo": "Conversazione nuova"
+   },
+   "testo_a_schermo": "Conversazione nuova"
+  },
+  {
+   "id": "S042",
+   "blocco": "B23",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I01"
+  },
+  {
+   "id": "S043",
+   "blocco": "B24",
+   "tipo": "immagine",
+   "peso": 0.45,
+   "asset": "I07"
+  },
+  {
+   "id": "S044",
+   "blocco": "B24",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Quando conta l'attualità",
+    "testo": "Chiedi la fonte"
+   },
+   "testo_a_schermo": "Chiedi la fonte"
+  },
+  {
+   "id": "S045",
+   "blocco": "B25",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S046",
+   "blocco": "B26",
+   "tipo": "clip",
+   "peso": 0.35,
+   "asset": "C02"
+  },
+  {
+   "id": "S047",
+   "blocco": "B26",
+   "tipo": "scena",
+   "peso": 0.65,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 1,
+    "testo": "Scrive da competente. Non lo è."
+   },
+   "testo_a_schermo": "Scrive da competente. Non lo è."
+  },
+  {
+   "id": "S048",
+   "blocco": "B27",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "✕",
+      "t": "Archivio"
+     },
+     {
+      "n": "✕",
+      "t": "Ricordi"
+     },
+     {
+      "n": "✕",
+      "t": "Contesto umano"
+     },
+     {
+      "n": "✕",
+      "t": "Sa di sbagliare"
+     }
+    ]
+   },
+   "testo_a_schermo": "quattro cose che non fa"
+  },
+  {
+   "id": "S049",
+   "blocco": "B28",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 2,
+    "celle": [
+     {
+      "n": "✓",
+      "t": "Scrive e riscrive"
+     },
+     {
+      "n": "✓",
+      "t": "Riassume e ordina"
+     },
+     {
+      "n": "✓",
+      "t": "Cambia tono"
+     }
+    ]
+   },
+   "testo_a_schermo": "cose che fa bene"
+  },
+  {
+   "id": "S050",
+   "blocco": "B28",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C04"
+  },
+  {
+   "id": "S051",
+   "blocco": "B29",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C05"
+  },
+  {
+   "id": "S052",
+   "blocco": "B29",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I08"
+  },
+  {
+   "id": "S053",
+   "blocco": "B29",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "grande": "+1 h",
+    "testo": "nei reparti"
+   },
+   "testo_a_schermo": "+1 h nei reparti"
+  },
+  {
+   "id": "S054",
+   "blocco": "B30",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Che cosa significa per noi",
+    "tabella": {
+     "colonne": [
+      "Ti serve",
+      "Come usarlo"
+     ],
+     "righe": [
+      [
+       "La forma",
+       "Lascialo lavorare, poi rifinisci"
+      ],
+      [
+       "I fatti di un documento",
+       "Daglielo e chiedi il punto"
+      ],
+      [
+       "Un fatto a memoria",
+       "Un'ipotesi da verificare"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S055",
+   "blocco": "B31",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "errori",
+    "livello": 1,
+    "voci": [
+     "Usarlo come motore di ricerca",
+     "Due risposte uguali = vero",
+     "Documento enorme letto tutto"
+    ]
+   },
+   "testo_a_schermo": "errori tipici",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S056",
+   "blocco": "B32",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "memo",
+    "livello": 1,
+    "testo": "Probabile non vuol dire vero."
+   },
+   "testo_a_schermo": "Probabile non vuol dire vero."
+  },
+  {
+   "id": "S057",
+   "blocco": "B33",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "2",
+    "etichetta": "La pratica di oggi",
+    "testo": "Una domanda, due conversazioni"
+   },
+   "testo_a_schermo": "Una domanda, due conversazioni"
+  },
+  {
+   "id": "S058",
+   "blocco": "B33",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I01"
+  },
+  {
+   "id": "S059",
+   "blocco": "B34",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prossima lezione",
+    "testo": "Perché sbaglia con sicurezza"
+   },
+   "testo_a_schermo": "Perché sbaglia con sicurezza"
+  },
+  {
+   "id": "S060",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "durata": "10s",
+   "scena": {
+    "tipo": "chiusura",
+    "livello": 1,
+    "testo": "L'IA per chi fa sindacato",
+    "etichetta": "Modulo 1 · Lezione 2"
+   }
+  }
+ ]
+}

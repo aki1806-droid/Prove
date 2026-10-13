@@ -1,0 +1,820 @@
+{
+ "lezione": "IAS_M01_L03",
+ "titolo": "Che cosa può fare per un sindacalista",
+ "livello": 1,
+ "scene": [
+  {
+   "id": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "durata": "3s",
+   "scena": {
+    "tipo": "copertina",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Modulo 1 · Lezione 3",
+    "testo": "Che cosa può fare per un sindacalista"
+   }
+  },
+  {
+   "id": "S002",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I01"
+  },
+  {
+   "id": "S003",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I02"
+  },
+  {
+   "id": "S004",
+   "blocco": "B01",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "4",
+      "t": "Compiti diversi"
+     },
+     {
+      "n": "1",
+      "t": "Mattina sola"
+     }
+    ]
+   },
+   "testo_a_schermo": "4 compiti / 1 mattina"
+  },
+  {
+   "id": "S005",
+   "blocco": "B02",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "La domanda pratica",
+    "testo": "Dove ci aiuta davvero?"
+   },
+   "testo_a_schermo": "Dove ci aiuta davvero?"
+  },
+  {
+   "id": "S006",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S007",
+   "blocco": "B03",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "8",
+      "t": "Famiglie di compiti"
+     },
+     {
+      "n": "3",
+      "t": "Domande per scegliere"
+     },
+     {
+      "n": "4",
+      "t": "Prove a schermo"
+     }
+    ]
+   },
+   "testo_a_schermo": "8 / 3 / 4"
+  },
+  {
+   "id": "S008",
+   "blocco": "B04",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 1,
+    "testo": "Tu il contenuto, lei la forma"
+   },
+   "testo_a_schermo": "Tu il contenuto, lei la forma"
+  },
+  {
+   "id": "S009",
+   "blocco": "B05",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C01"
+  },
+  {
+   "id": "S010",
+   "blocco": "B05",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Il guadagno nascosto",
+    "testo": "Anche un revisore"
+   },
+   "testo_a_schermo": "Anche un revisore"
+  },
+  {
+   "id": "S011",
+   "blocco": "B06",
+   "tipo": "animazione_svg",
+   "peso": 0.6,
+   "file": "svg/IAS_M01_L03_A1_otto-famiglie.svg",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S012",
+   "blocco": "B06",
+   "tipo": "scena",
+   "peso": 0.4,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Scrivere",
+    "testo": "Comunicati, lettere, risposte"
+   },
+   "testo_a_schermo": "Comunicati, lettere, risposte"
+  },
+  {
+   "id": "S013",
+   "blocco": "B07",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 2,
+    "numero": "2",
+    "etichetta": "Leggere",
+    "testo": "Orienta la tua lettura"
+   },
+   "testo_a_schermo": "Orienta la tua lettura"
+  },
+  {
+   "id": "S014",
+   "blocco": "B07",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C01"
+  },
+  {
+   "id": "S015",
+   "blocco": "B08",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 4,
+    "numero": "3",
+    "etichetta": "Preparare",
+    "testo": "Allenarsi prima del tavolo"
+   },
+   "testo_a_schermo": "Allenarsi prima del tavolo"
+  },
+  {
+   "id": "S016",
+   "blocco": "B08",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C04"
+  },
+  {
+   "id": "S017",
+   "blocco": "B09",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I03"
+  },
+  {
+   "id": "S018",
+   "blocco": "B09",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "4",
+    "etichetta": "Ordinare",
+    "testo": "Dal caos alla tabella"
+   },
+   "testo_a_schermo": "Dal caos alla tabella"
+  },
+  {
+   "id": "S019",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 0.7,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Una pratica in ordine",
+    "tabella": {
+     "colonne": [
+      "Prima",
+      "Dopo"
+     ],
+     "righe": [
+      [
+       "Mail e messaggi sparsi",
+       "Cronologia unica"
+      ],
+      [
+       "Documenti fotografati",
+       "Elenco con date"
+      ],
+      [
+       "Buchi non visti",
+       "Buchi segnalati"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S020",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "rosso",
+    "livello": 1,
+    "testo": "Prima togli i dati personali"
+   },
+   "testo_a_schermo": "Prima togli i dati personali"
+  },
+  {
+   "id": "S021",
+   "blocco": "B11",
+   "tipo": "immagine",
+   "peso": 0.45,
+   "asset": "I04"
+  },
+  {
+   "id": "S022",
+   "blocco": "B11",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 2,
+    "numero": "5",
+    "etichetta": "Spiegare semplice",
+    "testo": "Dalle carte alle persone"
+   },
+   "testo_a_schermo": "Dalle carte alle persone"
+  },
+  {
+   "id": "S023",
+   "blocco": "B12",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 2,
+    "numero": "6",
+    "etichetta": "Tradurre",
+    "testo": "Nessuno resta fuori"
+   },
+   "testo_a_schermo": "Nessuno resta fuori"
+  },
+  {
+   "id": "S024",
+   "blocco": "B12",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I04"
+  },
+  {
+   "id": "S025",
+   "blocco": "B13",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "accento",
+    "livello": 3,
+    "numero": "7",
+    "etichetta": "Immagini",
+    "testo": "Materiali dignitosi, senza grafico"
+   },
+   "testo_a_schermo": "Materiali dignitosi, senza grafico"
+  },
+  {
+   "id": "S026",
+   "blocco": "B14",
+   "tipo": "immagine",
+   "peso": 0.45,
+   "asset": "I05"
+  },
+  {
+   "id": "S027",
+   "blocco": "B14",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "8",
+    "etichetta": "Formare",
+    "testo": "Meno meccanica, più aula"
+   },
+   "testo_a_schermo": "Meno meccanica, più aula"
+  },
+  {
+   "id": "S028",
+   "blocco": "B15",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I08"
+  },
+  {
+   "id": "S029",
+   "blocco": "B15",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Ogni ora conta di più"
+   },
+   "testo_a_schermo": "Ogni ora conta di più"
+  },
+  {
+   "id": "S030",
+   "blocco": "B16",
+   "tipo": "animazione_svg",
+   "peso": 0.6,
+   "file": "svg/IAS_M01_L03_A1_otto-famiglie.svg",
+   "inquadratura": {
+    "zoom": 1.0,
+    "centro": [
+     960,
+     600
+    ],
+    "parti_da": "fine"
+   }
+  },
+  {
+   "id": "S031",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C03"
+  },
+  {
+   "id": "S032",
+   "blocco": "B17",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L03_A4_tre-domande.svg"
+  },
+  {
+   "id": "S033",
+   "blocco": "B18",
+   "tipo": "animazione_svg",
+   "peso": 0.6,
+   "file": "svg/IAS_M01_L03_A4_tre-domande.svg",
+   "inquadratura": {
+    "zoom": 1.3,
+    "centro": [
+     1380,
+     600
+    ],
+    "parti_da": "fine"
+   }
+  },
+  {
+   "id": "S034",
+   "blocco": "B18",
+   "tipo": "scena",
+   "peso": 0.4,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "La vertenza",
+    "testo": "Resta alla segreteria"
+   },
+   "testo_a_schermo": "Resta alla segreteria"
+  },
+  {
+   "id": "S035",
+   "blocco": "B19",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L03_A2_matrice.svg"
+  },
+  {
+   "id": "S036",
+   "blocco": "B20",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Ognuno la sua matrice",
+    "tabella": {
+     "colonne": [
+      "Chi",
+      "In alto a sinistra"
+     ],
+     "righe": [
+      [
+       "Chi comunica",
+       "Volantini e post"
+      ],
+      [
+       "Chi fa tutela",
+       "Cronologie e risposte"
+      ],
+      [
+       "Chi coordina",
+       "Sintesi e scalette"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S037",
+   "blocco": "B21",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S038",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 0.6,
+   "asset": "R02"
+  },
+  {
+   "id": "S039",
+   "blocco": "B22",
+   "tipo": "animazione_svg",
+   "peso": 0.4,
+   "file": "svg/IAS_M01_L03_A3_quattro-formati.svg"
+  },
+  {
+   "id": "S040",
+   "blocco": "B23",
+   "tipo": "registrazione",
+   "peso": 0.6,
+   "asset": "R03"
+  },
+  {
+   "id": "S041",
+   "blocco": "B23",
+   "tipo": "scena",
+   "peso": 0.4,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Testi importanti",
+    "testo": "Rilettura madrelingua"
+   },
+   "testo_a_schermo": "Rilettura madrelingua"
+  },
+  {
+   "id": "S042",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 0.8,
+   "asset": "R04"
+  },
+  {
+   "id": "S043",
+   "blocco": "B24",
+   "tipo": "clip",
+   "peso": 0.2,
+   "asset": "C04"
+  },
+  {
+   "id": "S044",
+   "blocco": "B25",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "A chi",
+      "t": "Destinatario"
+     },
+     {
+      "n": "Cosa",
+      "t": "Contenuto"
+     },
+     {
+      "n": "Come",
+      "t": "Forma"
+     },
+     {
+      "n": "No",
+      "t": "Limiti"
+     }
+    ]
+   },
+   "testo_a_schermo": "quattro elementi"
+  },
+  {
+   "id": "S045",
+   "blocco": "B26",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Porti, ordina, controlli"
+   },
+   "testo_a_schermo": "Porti, ordina, controlli"
+  },
+  {
+   "id": "S046",
+   "blocco": "B27",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C03"
+  },
+  {
+   "id": "S047",
+   "blocco": "B27",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Il tempo risparmiato",
+    "testo": "Torna nei reparti"
+   },
+   "testo_a_schermo": "Torna nei reparti"
+  },
+  {
+   "id": "S048",
+   "blocco": "B28",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I07"
+  },
+  {
+   "id": "S049",
+   "blocco": "B28",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "grande": "+1 h",
+    "testo": "a delegato, a settimana"
+   },
+   "testo_a_schermo": "+1 h a delegato"
+  },
+  {
+   "id": "S050",
+   "blocco": "B29",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "–",
+      "t": "Compiti brevissimi"
+     },
+     {
+      "n": "–",
+      "t": "Testi molto personali"
+     },
+     {
+      "n": "–",
+      "t": "Contenuto da inventare"
+     }
+    ]
+   },
+   "testo_a_schermo": "dove rende poco"
+  },
+  {
+   "id": "S051",
+   "blocco": "B30",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "rosso",
+    "livello": 1,
+    "etichetta": "Prossima lezione",
+    "testo": "Dove non deve entrare"
+   },
+   "testo_a_schermo": "Dove non deve entrare"
+  },
+  {
+   "id": "S052",
+   "blocco": "B31",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I06"
+  },
+  {
+   "id": "S053",
+   "blocco": "B31",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "grande": "1",
+    "testo": "compito, per un mese"
+   },
+   "testo_a_schermo": "1 compito, per un mese"
+  },
+  {
+   "id": "S054",
+   "blocco": "B32",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C04"
+  },
+  {
+   "id": "S055",
+   "blocco": "B32",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 2,
+    "etichetta": "In sede",
+    "testo": "Richieste e regole condivise"
+   },
+   "testo_a_schermo": "Richieste e regole condivise"
+  },
+  {
+   "id": "S056",
+   "blocco": "B33",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C05"
+  },
+  {
+   "id": "S057",
+   "blocco": "B33",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 2,
+    "testo": "Più ordinata, più vicina"
+   },
+   "testo_a_schermo": "Più ordinata, più vicina"
+  },
+  {
+   "id": "S058",
+   "blocco": "B34",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "errori",
+    "livello": 1,
+    "voci": [
+     "Usarla per tutto",
+     "Affidarle il contenuto",
+     "Più carta, meno persone"
+    ]
+   },
+   "testo_a_schermo": "errori tipici",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S059",
+   "blocco": "B35",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "memo",
+    "livello": 1,
+    "testo": "Forma a lei, sostanza a te."
+   },
+   "testo_a_schermo": "Forma a lei, sostanza a te."
+  },
+  {
+   "id": "S060",
+   "blocco": "B36",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "5",
+    "etichetta": "La pratica di oggi",
+    "testo": "Cinque compiti dalla tua agenda"
+   },
+   "testo_a_schermo": "Cinque compiti dalla tua agenda"
+  },
+  {
+   "id": "S061",
+   "blocco": "B36",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I06"
+  },
+  {
+   "id": "S062",
+   "blocco": "B37",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prossima lezione",
+    "testo": "Le tre linee rosse"
+   },
+   "testo_a_schermo": "Le tre linee rosse"
+  },
+  {
+   "id": "S063",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "durata": "10s",
+   "scena": {
+    "tipo": "chiusura",
+    "livello": 1,
+    "testo": "L'IA per chi fa sindacato",
+    "etichetta": "Modulo 1 · Lezione 4"
+   }
+  }
+ ]
+}

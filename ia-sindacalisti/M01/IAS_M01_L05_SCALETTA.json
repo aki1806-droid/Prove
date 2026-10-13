@@ -1,0 +1,755 @@
+{
+ "lezione": "IAS_M01_L05",
+ "titolo": "La prima conversazione guidata",
+ "livello": 1,
+ "scene": [
+  {
+   "id": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "durata": "3s",
+   "scena": {
+    "tipo": "copertina",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Modulo 1 · Lezione 5",
+    "testo": "La prima conversazione guidata"
+   }
+  },
+  {
+   "id": "S002",
+   "blocco": "B01",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C01"
+  },
+  {
+   "id": "S003",
+   "blocco": "B01",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 1,
+    "testo": "Adesso si usa"
+   },
+   "testo_a_schermo": "Adesso si usa"
+  },
+  {
+   "id": "S004",
+   "blocco": "B02",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Perché un tema noto",
+    "testo": "Vedi subito dove sbaglia"
+   },
+   "testo_a_schermo": "Vedi subito dove sbaglia"
+  },
+  {
+   "id": "S005",
+   "blocco": "B02",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I04"
+  },
+  {
+   "id": "S006",
+   "blocco": "B03",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I02"
+  },
+  {
+   "id": "S007",
+   "blocco": "B03",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Il nostro esempio",
+    "testo": "Chi convoca, quando, quanto"
+   },
+   "testo_a_schermo": "Chi convoca, quando, quanto"
+  },
+  {
+   "id": "S008",
+   "blocco": "B04",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prova reale",
+    "testo": "Conta il metodo"
+   },
+   "testo_a_schermo": "Conta il metodo"
+  },
+  {
+   "id": "S009",
+   "blocco": "B05",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L05_A1_sette-passi.svg",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S010",
+   "blocco": "B06",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I01"
+  },
+  {
+   "id": "S011",
+   "blocco": "B06",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Primo passo",
+    "testo": "Argomento nuovo, chat nuova"
+   },
+   "testo_a_schermo": "Argomento nuovo, chat nuova"
+  },
+  {
+   "id": "S012",
+   "blocco": "B07",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "2",
+    "etichetta": "Secondo passo",
+    "testo": "Ruolo, settore, scopo"
+   },
+   "testo_a_schermo": "Ruolo, settore, scopo"
+  },
+  {
+   "id": "S013",
+   "blocco": "B08",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Lo stesso tema, due contesti",
+    "tabella": {
+     "colonne": [
+      "Scrivi",
+      "Si attiva"
+     ],
+     "righe": [
+      [
+       "«Diritto di assemblea»",
+       "Schema generico"
+      ],
+      [
+       "«+ pubblico impiego, ospedale»",
+       "Schema del settore"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S014",
+   "blocco": "B09",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "✓",
+      "t": "Ruolo e settore"
+     },
+     {
+      "n": "✕",
+      "t": "Nomi di colleghi"
+     },
+     {
+      "n": "✕",
+      "t": "Casi reali"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre celle"
+  },
+  {
+   "id": "S015",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "3",
+    "etichetta": "Terzo passo",
+    "testo": "Una domanda precisa"
+   },
+   "testo_a_schermo": "Una domanda precisa"
+  },
+  {
+   "id": "S016",
+   "blocco": "B10",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C01"
+  },
+  {
+   "id": "S017",
+   "blocco": "B11",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "L'ultima frase",
+    "testo": "Dove non sei sicuro?"
+   },
+   "testo_a_schermo": "Dove non sei sicuro?"
+  },
+  {
+   "id": "S018",
+   "blocco": "B12",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "Chi",
+      "t": "convoca"
+     },
+     {
+      "n": "Quante",
+      "t": "ore"
+     },
+     {
+      "n": "Quale",
+      "t": "preavviso"
+     },
+     {
+      "n": "Quali",
+      "t": "fonti"
+     }
+    ]
+   },
+   "testo_a_schermo": "quattro punti"
+  },
+  {
+   "id": "S019",
+   "blocco": "B13",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S020",
+   "blocco": "B14",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I03"
+  },
+  {
+   "id": "S021",
+   "blocco": "B14",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "numero": "4",
+    "etichetta": "Quarto passo",
+    "testo": "Occhi da revisore"
+   },
+   "testo_a_schermo": "Occhi da revisore"
+  },
+  {
+   "id": "S022",
+   "blocco": "B15",
+   "tipo": "registrazione",
+   "peso": 0.6,
+   "asset": "R02"
+  },
+  {
+   "id": "S023",
+   "blocco": "B15",
+   "tipo": "animazione_svg",
+   "peso": 0.4,
+   "file": "svg/IAS_M01_L05_A2_tre-segni.svg"
+  },
+  {
+   "id": "S024",
+   "blocco": "B16",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Terza zona a rischio",
+    "testo": "Generale sì, settore meno"
+   },
+   "testo_a_schermo": "Generale sì, settore meno"
+  },
+  {
+   "id": "S025",
+   "blocco": "B17",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Quasi perfetta, un solo rosso"
+   },
+   "testo_a_schermo": "Quasi perfetta, un solo rosso"
+  },
+  {
+   "id": "S026",
+   "blocco": "B17",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S027",
+   "blocco": "B18",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Come si corregge",
+    "tabella": {
+     "colonne": [
+      "No",
+      "Sì"
+     ],
+     "righe": [
+      [
+       "«Hai sbagliato»",
+       "Che cosa è sbagliato"
+      ],
+      [
+       "La tua impressione",
+       "La fonte giusta"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S028",
+   "blocco": "B19",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I04"
+  },
+  {
+   "id": "S029",
+   "blocco": "B19",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Prima difesa",
+    "testo": "Stesso testo per entrambi"
+   },
+   "testo_a_schermo": "Stesso testo per entrambi"
+  },
+  {
+   "id": "S030",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S031",
+   "blocco": "B21",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "rosso",
+    "livello": 1,
+    "etichetta": "Attenzione",
+    "testo": "Correzione senza fonte, errore nuovo"
+   },
+   "testo_a_schermo": "Correzione senza fonte, errore nuovo"
+  },
+  {
+   "id": "S032",
+   "blocco": "B22",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L05_A3_giro-correzione.svg"
+  },
+  {
+   "id": "S033",
+   "blocco": "B23",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "6",
+    "etichetta": "Sesto passo",
+    "testo": "Una versione per altri"
+   },
+   "testo_a_schermo": "Una versione per altri"
+  },
+  {
+   "id": "S034",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 0.7,
+   "asset": "R04"
+  },
+  {
+   "id": "S035",
+   "blocco": "B24",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I06"
+  },
+  {
+   "id": "S036",
+   "blocco": "B25",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 2,
+    "celle": [
+     {
+      "n": "?",
+      "t": "Domande e risposte"
+     },
+     {
+      "n": "→",
+      "t": "Esempio pratico"
+     },
+     {
+      "n": "▤",
+      "t": "Scheda da stampare"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre usi"
+  },
+  {
+   "id": "S037",
+   "blocco": "B26",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "numero": "7",
+    "etichetta": "Settimo passo",
+    "testo": "Lo firmeresti?"
+   },
+   "testo_a_schermo": "Lo firmeresti?"
+  },
+  {
+   "id": "S038",
+   "blocco": "B26",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S039",
+   "blocco": "B27",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I05"
+  },
+  {
+   "id": "S040",
+   "blocco": "B27",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C04"
+  },
+  {
+   "id": "S041",
+   "blocco": "B28",
+   "tipo": "registrazione",
+   "peso": 0.7,
+   "asset": "R05"
+  },
+  {
+   "id": "S042",
+   "blocco": "B28",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "testo": "Secondo controllo, non primo"
+   },
+   "testo_a_schermo": "Secondo controllo, non primo"
+  },
+  {
+   "id": "S043",
+   "blocco": "B29",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "✓",
+      "t": "Spiegare, non decidere"
+     },
+     {
+      "n": "✓",
+      "t": "Nessun dato personale"
+     },
+     {
+      "n": "✓",
+      "t": "Riletto prima"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre spunte"
+  },
+  {
+   "id": "S044",
+   "blocco": "B30",
+   "tipo": "registrazione",
+   "peso": 0.6,
+   "asset": "R06"
+  },
+  {
+   "id": "S045",
+   "blocco": "B30",
+   "tipo": "scena",
+   "peso": 0.4,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Modulo 2",
+    "testo": "Tre strumenti a confronto"
+   },
+   "testo_a_schermo": "Tre strumenti a confronto"
+  },
+  {
+   "id": "S046",
+   "blocco": "B31",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "20′",
+      "t": "Le prime volte"
+     },
+     {
+      "n": "5′",
+      "t": "Dopo qualche settimana"
+     }
+    ]
+   },
+   "testo_a_schermo": "20′ / 5′"
+  },
+  {
+   "id": "S047",
+   "blocco": "B32",
+   "tipo": "clip",
+   "peso": 0.5,
+   "asset": "C03"
+  },
+  {
+   "id": "S048",
+   "blocco": "B32",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Leggere è la parte difficile"
+   },
+   "testo_a_schermo": "Leggere è la parte difficile"
+  },
+  {
+   "id": "S049",
+   "blocco": "B33",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L05_A4_modulo-in-cinque-carte.svg",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S050",
+   "blocco": "B34",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "scuro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "1",
+      "t": "Dati fuori"
+     },
+     {
+      "n": "2",
+      "t": "Tutto verificato"
+     },
+     {
+      "n": "3",
+      "t": "Firma tua"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre regole"
+  },
+  {
+   "id": "S051",
+   "blocco": "B35",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "errori",
+    "livello": 1,
+    "voci": [
+     "Nessun contesto",
+     "Solo l'inizio letto",
+     "Correzione generica",
+     "Niente ultima rilettura"
+    ]
+   },
+   "testo_a_schermo": "errori tipici"
+  },
+  {
+   "id": "S052",
+   "blocco": "B36",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "memo",
+    "livello": 1,
+    "testo": "La conversazione la guidi tu."
+   },
+   "testo_a_schermo": "La conversazione la guidi tu."
+  },
+  {
+   "id": "S053",
+   "blocco": "B37",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "7",
+    "etichetta": "La pratica di oggi",
+    "testo": "Sette passi, un tema tuo"
+   },
+   "testo_a_schermo": "Sette passi, un tema tuo"
+  },
+  {
+   "id": "S054",
+   "blocco": "B37",
+   "tipo": "immagine",
+   "peso": 0.4,
+   "asset": "I03"
+  },
+  {
+   "id": "S055",
+   "blocco": "B38",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prossimo modulo",
+    "testo": "ChatGPT, Claude e Gemini"
+   },
+   "testo_a_schermo": "ChatGPT, Claude e Gemini"
+  },
+  {
+   "id": "S056",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "durata": "10s",
+   "scena": {
+    "tipo": "chiusura",
+    "livello": 1,
+    "testo": "L'IA per chi fa sindacato",
+    "etichetta": "Modulo 2 · Lezione 1"
+   }
+  }
+ ]
+}

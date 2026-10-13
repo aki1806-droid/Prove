@@ -38,7 +38,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#000}
 #logo{position:absolute;top:48px;left:64px;width:190px;opacity:0;animation:appare .6s .1s forwards}
 .fantasma{position:absolute;font-family:'Barlow Condensed',sans-serif;font-weight:700;line-height:.8;color:var(--acc);opacity:.09;user-select:none}
 .f-scuro .fantasma,.f-accento .fantasma{color:#fff;opacity:.06}
-h1,.titolo{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02}
+h1,.titolo{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
 .etichetta{font-family:Montserrat,sans-serif;font-weight:600;font-size:34px;color:var(--acc)}
 .f-scuro .etichetta,.f-accento .etichetta{color:#fff;opacity:.8}
 
@@ -61,19 +61,19 @@ h1,.titolo{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.02
 .testo.pagina .filo{left:120px;bottom:110px;width:1680px}
 .testo.griglia .blocco{position:absolute;inset:180px 160px 120px;display:grid;grid-template-columns:repeat(var(--n,3),1fr);gap:64px;align-content:center}
 .testo.griglia .cella{border-top:6px solid var(--acc);padding-top:36px;opacity:0;animation:sale .7s forwards}
-.testo.griglia .cella b{display:block;font-family:'Barlow Condensed';font-size:200px;color:var(--acc);line-height:1}
+.testo.griglia .cella b{display:block;font-family:'Barlow Condensed';font-size:min(200px,calc(560px / var(--n,3)));color:var(--acc);line-height:1}
 .testo.griglia .cella span{display:block;font-family:Montserrat;font-weight:800;font-size:66px;line-height:1.08;margin-top:18px}
 
 .sotto{font-size:40px;margin-top:34px;opacity:.75;font-weight:400;max-width:900px}
 .numero{font-family:'Barlow Condensed',sans-serif;font-size:300px;line-height:.85;color:var(--acc)}
 
 /* TABELLA: righe che entrano una alla volta, massimo 5 */
-.tabella .blocco{position:absolute;left:140px;right:140px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+.tabella .blocco{position:absolute;left:140px;right:140px;top:150px;bottom:60px;display:flex;flex-direction:column;justify-content:center}
 .tabella h2{font-family:Montserrat;font-weight:800;font-size:80px;margin-bottom:44px}
 .tabella table{width:100%;border-collapse:collapse;font-size:50px}
 .tabella th{text-align:left;font-family:Montserrat;font-weight:600;font-size:34px;padding:0 24px 18px;color:var(--acc);border-bottom:4px solid var(--acc)}
 .tabella td{padding:38px 24px;border-bottom:2px solid rgba(43,47,46,.15);vertical-align:top}
-.tabella td:first-child{font-family:Montserrat;font-weight:800;width:28%}
+.tabella td:first-child{font-family:Montserrat;font-weight:800;width:46%}
 .tabella tr.r{opacity:0;animation:da-sinistra .6s cubic-bezier(.2,.8,.2,1) forwards}
 .tabella tr.evidenza td{background:color-mix(in srgb,var(--acc) 12%,transparent)}
 .f-scuro .tabella td{border-color:rgba(255,255,255,.15)}
@@ -106,7 +106,8 @@ h1,.titolo{font-family:Montserrat,sans-serif;font-weight:800;letter-spacing:-.02
 <script>
 const LOGO={colori:'logo/cisl-fp-padova-rovigo_colori.svg',scuro:'logo/cisl-fp-padova-rovigo_fondo-scuro.svg',bianco:'logo/cisl-fp-padova-rovigo_bianco.svg'};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let d={tipo:'testo',layout:'laterale',fondo:'chiaro',livello:1,testo:'Prova della scena'};
+function disegna(){
+var d={tipo:'testo',layout:'laterale',fondo:'chiaro',livello:1,testo:'Prova della scena'};
 try{ if(location.hash.length>1) d=Object.assign(d,JSON.parse(decodeURIComponent(location.hash.slice(1)))) }catch(e){console.error(e)}
 const P=document.getElementById('palco');
 P.style.setProperty('--acc',`var(--l${d.livello||1})`);
@@ -145,6 +146,11 @@ switch(d.tipo){
   h=`<div class="chiusura"><div class="blocco"><img src="${LOGO.scuro}" alt="CISL FP Padova Rovigo"><div class="titolo ent" ${rit(2)}>${esc(d.testo)}</div><div class="etichetta ent" ${rit(3)}>${esc(d.etichetta||'')}</div></div></div>`;break;
 }
 P.innerHTML=h+`<svg id="grana" width="1920" height="1080"><rect width="100%" height="100%" filter="url(#rumore)"/></svg>`+((d.tipo!=='chiusura'&&d.tipo!=='copertina'&&d.logo!==false)?`<img id="logo" src="${logoSrc}" alt="">`:'')+(d.tipo==='copertina'?`<img id="logo" src="${LOGO.scuro}" style="width:300px" alt="">`:'');
+
+}
+disegna();
+// rinfresca anche quando cambia solo l'hash (stessa pagina, scena diversa)
+window.addEventListener('hashchange',()=>{document.getAnimations().forEach(a=>a.cancel());disegna();});
 </script>
 </body>
 </html>

@@ -28,7 +28,7 @@ Output di ogni lezione in `build/IAS_Mxx_Lyy/`: audio, inquadrature renderizzate
 - Post-produzione di ogni traccia, in quest'ordine: `silenceremove` (taglia i silenzi iniziali e finali sopra 0,3 s), poi `atempo=1.12`.
 - Tra un blocco e l'altro inserisci 0,35 s di silenzio.
 - **Controllo durata:** la somma deve dare almeno 12:00 compresi copertina (3 s) e chiusura (10 s). Se resta sotto, porta la pausa tra blocchi a 0,6 s; se ancora non basta, fermati e segnalalo: va allungato lo script, non rallentata la voce.
-- I blocchi marcati `[SEGNAPOSTO]` contengono episodi in prima persona da confermare: genera l'audio ma scrivi in `registro.json` che il video **non è pubblicabile** finché Achille non conferma.
+- I blocchi marcati `[SEGNAPOSTO]` contengono episodi in prima persona da confermare; quelli marcati `[DA ADATTARE ALL'ESITO REALE]` descrivono una prova a schermo e vanno riscritti su ciò che si vede nella registrazione. In entrambi i casi genera l'audio ma scrivi in `registro.json` che il video **non è pubblicabile** finché Achille non conferma. Per i `[DA ADATTARE]`, se la registrazione è disponibile, proponi tu il testo corretto in `registro.json` e rigenera l'audio solo dopo la sua approvazione.
 
 ## 3. Le inquadrature
 
@@ -43,10 +43,10 @@ La durata di ogni blocco audio si divide tra le sue inquadrature secondo `peso`.
 Minimo 2,5 s per inquadratura.
 
 ### 3.1 Scene grafiche (`tipo: scena`)
-Renderizza `kit/scena.html#<JSON della scena, URL-encoded>` con Playwright/Chromium a 1920×1080, 30 fps, in modo **deterministico**: metti in pausa le animazioni e, per ogni fotogramma, imposta `document.getAnimations().forEach(a => a.currentTime = t_ms)` prima dello screenshot. Attendi il caricamento dei font (`document.fonts.ready`) prima del primo fotogramma. Puoi riusare `render.js` della skill motion-broll se presente.
+Renderizza `kit/scena.html#<JSON della scena, URL-encoded>` con Playwright/Chromium a 1920×1080, 30 fps, in modo **deterministico**: metti in pausa le animazioni e, per ogni fotogramma, imposta `document.getAnimations().forEach(a => a.currentTime = t_ms)` prima dello screenshot. Attendi il caricamento dei font (`document.fonts.ready`) prima del primo fotogramma. Carica ogni scena da una pagina nuova (o passa da `about:blank`): `scena.html` ridisegna anche al cambio di hash, ma una pagina nuova garantisce animazioni che partono da zero. Puoi riusare `render.js` della skill motion-broll se presente.
 
 ### 3.2 Animazioni SVG (`tipo: animazione_svg`)
-Stesso metodo deterministico, caricando l'SVG nel browser. Le animazioni finiscono entro 10 s; poi tieni l'ultimo fotogramma (con lo zoom della regola del ritmo). Se c'è `inquadratura` (`zoom`, `centro`, `parti_da: "fine"`): parti dall'ultimo fotogramma e fai un movimento di camera morbido verso `centro` fino a `zoom` in 2 s, poi tieni. Sovrapponi il logo piccolo in alto a sinistra (versione `_colori` su fondo chiaro, `_fondo-scuro` su fondo scuro).
+Stesso metodo deterministico, caricando l'SVG nel browser. Alcuni SVG usano anche animazioni SMIL (`<animate>`), che `getAnimations()` non vede: per ogni fotogramma chiama anche `document.documentElement.pauseAnimations()` e `document.documentElement.setCurrentTime(t_secondi)`. Le animazioni finiscono entro 10 s; poi tieni l'ultimo fotogramma (con lo zoom della regola del ritmo). Se c'è `inquadratura` (`zoom`, `centro`, `parti_da: "fine"`): parti dall'ultimo fotogramma e fai un movimento di camera morbido verso `centro` fino a `zoom` in 2 s, poi tieni. Sovrapponi il logo piccolo in alto a sinistra (versione `_colori` su fondo chiaro, `_fondo-scuro` su fondo scuro).
 
 ### 3.3 Immagini (`I..`)
 Generale dai prompt di `PROMPT-VISIVI.md` (Higgsfield o lo strumento che Achille indica), 1920×1080 o superiore. Scarta e rigenera se compaiono volti riconoscibili, testi leggibili, loghi o mani deformate. Movimento: Ken Burns lento (scala 1,00 → 1,08 in tutta l'inquadratura) con direzione **diversa dall'immagine precedente** (alterna destra, sinistra, alto, centro). Niente testo e niente logo sopra.

@@ -1,0 +1,693 @@
+{
+ "lezione": "IAS_M01_L02",
+ "titolo": "Perché sbaglia con sicurezza",
+ "livello": 1,
+ "scene": [
+  {
+   "id": "S001",
+   "blocco": "APERTURA",
+   "tipo": "scena",
+   "durata": "3s",
+   "scena": {
+    "tipo": "copertina",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Modulo 1 · Lezione 2",
+    "testo": "Perché sbaglia con sicurezza"
+   }
+  },
+  {
+   "id": "S002",
+   "blocco": "B01",
+   "tipo": "immagine",
+   "peso": 0.35,
+   "asset": "I01"
+  },
+  {
+   "id": "S003",
+   "blocco": "B01",
+   "tipo": "clip",
+   "peso": 0.3,
+   "asset": "C01"
+  },
+  {
+   "id": "S004",
+   "blocco": "B01",
+   "tipo": "scena",
+   "peso": 0.35,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "L'articolo parlava d'altro"
+   },
+   "testo_a_schermo": "L'articolo parlava d'altro"
+  },
+  {
+   "id": "S005",
+   "blocco": "B02",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Non ha mentito",
+    "testo": "Ha scritto il verosimile"
+   },
+   "testo_a_schermo": "Ha scritto il verosimile"
+  },
+  {
+   "id": "S006",
+   "blocco": "B03",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "1",
+      "t": "Perché succede"
+     },
+     {
+      "n": "2",
+      "t": "Dove succede"
+     },
+     {
+      "n": "3",
+      "t": "Come difendersi"
+     }
+    ]
+   },
+   "testo_a_schermo": "tre punti"
+  },
+  {
+   "id": "S007",
+   "blocco": "B04",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 1,
+    "testo": "Allucinazioni"
+   },
+   "testo_a_schermo": "Allucinazioni"
+  },
+  {
+   "id": "S008",
+   "blocco": "B04",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I03"
+  },
+  {
+   "id": "S009",
+   "blocco": "B05",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "Quando manca l'informazione",
+    "testo": "Inventa il pezzo mancante"
+   },
+   "testo_a_schermo": "Inventa il pezzo mancante"
+  },
+  {
+   "id": "S010",
+   "blocco": "B05",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S011",
+   "blocco": "B06",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "chiaro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "=",
+      "t": "Stessa flessibilità"
+     },
+     {
+      "n": "±",
+      "t": "Utile e rischiosa"
+     }
+    ]
+   },
+   "testo_a_schermo": "due celle"
+  },
+  {
+   "id": "S012",
+   "blocco": "B07",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I02"
+  },
+  {
+   "id": "S013",
+   "blocco": "B07",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Elegante, e sbagliato"
+   },
+   "testo_a_schermo": "Elegante, e sbagliato"
+  },
+  {
+   "id": "S014",
+   "blocco": "B08",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L02_A1_vero-plausibile.svg",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S015",
+   "blocco": "B09",
+   "tipo": "animazione_svg",
+   "peso": 0.55,
+   "file": "svg/IAS_M01_L02_A3_cinque-zone.svg"
+  },
+  {
+   "id": "S016",
+   "blocco": "B09",
+   "tipo": "animazione_svg",
+   "peso": 0.45,
+   "file": "svg/IAS_M01_L02_A2_citazione-verosimile.svg"
+  },
+  {
+   "id": "S017",
+   "blocco": "B10",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I04"
+  },
+  {
+   "id": "S018",
+   "blocco": "B10",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "2",
+    "etichetta": "Seconda zona",
+    "testo": "Non conosce il tuo accordo"
+   },
+   "testo_a_schermo": "Non conosce il tuo accordo"
+  },
+  {
+   "id": "S019",
+   "blocco": "B11",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I05"
+  },
+  {
+   "id": "S020",
+   "blocco": "B11",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "3",
+    "etichetta": "Terza zona",
+    "testo": "Mescola comparti e versioni"
+   },
+   "testo_a_schermo": "Mescola comparti e versioni"
+  },
+  {
+   "id": "S021",
+   "blocco": "B12",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "numero": "4",
+    "etichetta": "Quarta zona",
+    "testo": "Vero prima, non adesso"
+   },
+   "testo_a_schermo": "Vero prima, non adesso"
+  },
+  {
+   "id": "S022",
+   "blocco": "B13",
+   "tipo": "scena",
+   "peso": 0.55,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "5",
+    "etichetta": "Quinta zona",
+    "testo": "I numeri sono testo"
+   },
+   "testo_a_schermo": "I numeri sono testo"
+  },
+  {
+   "id": "S023",
+   "blocco": "B13",
+   "tipo": "immagine",
+   "peso": 0.45,
+   "asset": "I06"
+  },
+  {
+   "id": "S024",
+   "blocco": "B14",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "tabella",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Arretrati: come chiederli",
+    "tabella": {
+     "colonne": [
+      "Passo",
+      "Perché"
+     ],
+     "righe": [
+      [
+       "Mostra ogni passaggio",
+       "Vedi dove sbaglia"
+      ],
+      [
+       "Un mese per riga",
+       "Niente salti"
+      ],
+      [
+       "Totale rifatto a parte",
+       "Calcolatrice o foglio"
+      ]
+     ]
+    }
+   },
+   "testo_a_schermo": "tabella"
+  },
+  {
+   "id": "S025",
+   "blocco": "B15",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C03"
+  },
+  {
+   "id": "S026",
+   "blocco": "B15",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "etichetta": "Anche il tono",
+    "testo": "si impara, come le parole"
+   },
+   "testo_a_schermo": "si impara, come le parole"
+  },
+  {
+   "id": "S027",
+   "blocco": "B16",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "accento",
+    "livello": 2,
+    "testo": "Fermezza ≠ correttezza"
+   },
+   "testo_a_schermo": "Fermezza ≠ correttezza"
+  },
+  {
+   "id": "S028",
+   "blocco": "B17",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "griglia",
+    "fondo": "neutro",
+    "livello": 1,
+    "celle": [
+     {
+      "n": "«»",
+      "t": "Virgolette non date"
+     },
+     {
+      "n": "#",
+      "t": "Numeri troppo precisi"
+     },
+     {
+      "n": "?",
+      "t": "Nessuna fonte"
+     },
+     {
+      "n": "✓",
+      "t": "Ti dà ragione"
+     }
+    ]
+   },
+   "testo_a_schermo": "quattro campanelli"
+  },
+  {
+   "id": "S029",
+   "blocco": "B18",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Sei sicuro?",
+    "testo": "Non controlla niente"
+   },
+   "testo_a_schermo": "Non controlla niente"
+  },
+  {
+   "id": "S030",
+   "blocco": "B19",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S031",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S032",
+   "blocco": "B21",
+   "tipo": "registrazione",
+   "peso": 0.7,
+   "asset": "R03"
+  },
+  {
+   "id": "S033",
+   "blocco": "B21",
+   "tipo": "scena",
+   "peso": 0.3,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "chiaro",
+    "livello": 1,
+    "grande": "2",
+    "testo": "dubbi invece di uno"
+   },
+   "testo_a_schermo": "2 dubbi invece di uno"
+  },
+  {
+   "id": "S034",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S035",
+   "blocco": "B23",
+   "tipo": "registrazione",
+   "peso": 0.7,
+   "asset": "R05"
+  },
+  {
+   "id": "S036",
+   "blocco": "B23",
+   "tipo": "immagine",
+   "peso": 0.3,
+   "asset": "I08"
+  },
+  {
+   "id": "S037",
+   "blocco": "B24",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "etichetta": "L'abitudine",
+    "testo": "Da dove l'hai preso?"
+   },
+   "testo_a_schermo": "Da dove l'hai preso?"
+  },
+  {
+   "id": "S038",
+   "blocco": "B25",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "1",
+    "etichetta": "Prima difesa",
+    "testo": "La fonte la dai tu"
+   },
+   "testo_a_schermo": "La fonte la dai tu"
+  },
+  {
+   "id": "S039",
+   "blocco": "B25",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C03"
+  },
+  {
+   "id": "S040",
+   "blocco": "B26",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "neutro",
+    "livello": 1,
+    "numero": "2",
+    "etichetta": "Seconda difesa",
+    "testo": "Il non lo so è ammesso"
+   },
+   "testo_a_schermo": "Il non lo so è ammesso"
+  },
+  {
+   "id": "S041",
+   "blocco": "B27",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "3",
+    "etichetta": "Terza difesa",
+    "testo": "Numeri, date, norme, nomi"
+   },
+   "testo_a_schermo": "Numeri, date, norme, nomi"
+  },
+  {
+   "id": "S042",
+   "blocco": "B27",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S043",
+   "blocco": "B28",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L02_A4_scala-fiducia.svg"
+  },
+  {
+   "id": "S044",
+   "blocco": "B29",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "testo",
+    "layout": "centrata",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Gli strumenti migliorano",
+    "testo": "Il rischio resta"
+   },
+   "testo_a_schermo": "Il rischio resta"
+  },
+  {
+   "id": "S045",
+   "blocco": "B30",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C05"
+  },
+  {
+   "id": "S046",
+   "blocco": "B30",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "pagina",
+    "fondo": "neutro",
+    "livello": 1,
+    "testo": "Credibilità: anni per farla"
+   },
+   "testo_a_schermo": "Credibilità: anni per farla"
+  },
+  {
+   "id": "S047",
+   "blocco": "B31",
+   "tipo": "immagine",
+   "peso": 0.5,
+   "asset": "I07"
+  },
+  {
+   "id": "S048",
+   "blocco": "B31",
+   "tipo": "scena",
+   "peso": 0.5,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 2,
+    "etichetta": "Allo sportello",
+    "testo": "La risposta già pronta"
+   },
+   "testo_a_schermo": "La risposta già pronta"
+  },
+  {
+   "id": "S049",
+   "blocco": "B32",
+   "tipo": "animazione_svg",
+   "peso": 1.0,
+   "file": "svg/IAS_M01_L02_A5_lettera-scritta-bene.svg"
+  },
+  {
+   "id": "S050",
+   "blocco": "B33",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "errori",
+    "livello": 1,
+    "voci": [
+     "Riferimenti a memoria",
+     "Tono scambiato per prova",
+     "«Sei sicuro?» come controllo",
+     "Ben scritto = giusto"
+    ]
+   },
+   "testo_a_schermo": "errori tipici",
+   "transizione": "tendina"
+  },
+  {
+   "id": "S051",
+   "blocco": "B34",
+   "tipo": "scena",
+   "peso": 1.0,
+   "scena": {
+    "tipo": "memo",
+    "livello": 1,
+    "testo": "Conta il testo, non il tono."
+   },
+   "testo_a_schermo": "Conta il testo, non il tono."
+  },
+  {
+   "id": "S052",
+   "blocco": "B35",
+   "tipo": "scena",
+   "peso": 0.6,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "chiaro",
+    "livello": 1,
+    "numero": "?",
+    "etichetta": "La pratica di oggi",
+    "testo": "Un articolo, verificato"
+   },
+   "testo_a_schermo": "Un articolo, verificato"
+  },
+  {
+   "id": "S053",
+   "blocco": "B35",
+   "tipo": "clip",
+   "peso": 0.4,
+   "asset": "C02"
+  },
+  {
+   "id": "S054",
+   "blocco": "B36",
+   "tipo": "clip",
+   "peso": 0.3,
+   "asset": "C04"
+  },
+  {
+   "id": "S055",
+   "blocco": "B36",
+   "tipo": "scena",
+   "peso": 0.7,
+   "scena": {
+    "tipo": "testo",
+    "layout": "laterale",
+    "fondo": "scuro",
+    "livello": 1,
+    "etichetta": "Prossima lezione",
+    "testo": "Che cosa può fare per te"
+   },
+   "testo_a_schermo": "Che cosa può fare per te"
+  },
+  {
+   "id": "S056",
+   "blocco": "CHIUSURA",
+   "tipo": "scena",
+   "durata": "10s",
+   "scena": {
+    "tipo": "chiusura",
+    "livello": 1,
+    "testo": "L'IA per chi fa sindacato",
+    "etichetta": "Modulo 1 · Lezione 3"
+   }
+  }
+ ]
+}
