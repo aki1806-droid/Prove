@@ -44,3 +44,13 @@ Controllo: un fotogramma per ogni grafica A e B (18).
 - Dialisi: la voce dice «Sono arrivati due OSS», la grafica S04B dice «9 OSS in dotazione» e il post
   «9 OSS». Possono essere entrambi veri (9 in organico, 2 nuovi), ma il post così si legge come 9 arrivati.
 - S05B: «Riprendere il percorso già avviato» compare solo a schermo, non nella voce (va bene se voluto).
+
+## Versione 2 — richiesta di Achille dopo l'ascolto
+- Nella voce «OSS» diventa «operatore/i socio sanitario/i»: S01 «operatori socio sanitari di notte»,
+  S04 «Sono arrivati due operatori socio sanitari», S05 «Operatori socio sanitari nei turni di notte» e
+  «dati sugli operatori socio sanitari assunti». Testi aggiornati in voce_testi/, blocchi.json, SCRIPT.md.
+- Nuove generazioni: S01 6ObITbhcQQZCAE5GNBjN · S04 NfmIkmdqNz9fW1fOq5dJ · S05 kda6dNhgk7EzvjbRz93A
+  (le v1 in audio/v1/). Voce completa 194,7 s (3'15").
+- Avatar rifatto per intero: asset abe854dfdb2a4324a71d27bb0325b2b4, video c386dc122568c54dc95e9aadc47e36d7.
+- Grafiche del pacchetto lasciate come sono: a schermo «OSS» resta in S01B, S04B, S05A e S05B.
+- Copia d'invio _v2_invio.mp4 (28,6 MB). Sottotitoli rifatti (73 blocchi).
