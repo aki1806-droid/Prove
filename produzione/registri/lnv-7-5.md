@@ -19,16 +19,16 @@ stessa cosa.**
 
 | campo | valore |
 |---|---|
-| video_id | `VIDEO_ID` |
+| video_id | `483f0b2c0b970c720638f35aa52b050a` |
 | scene | 50 — copertina, 47 blocchi, la scena muta con la musica, la chiusura del corso |
 | formato | 16:9, 1080p |
-| durata | DURATA — misurata sul montato |
+| durata | 668,9 s (11:09) — misurata sul montato |
 | parlato | 622,2 s (557,8 s di voce tagliata + 64,4 s di pose) |
 | voce | Luca Ward `e4bd8d8a357f41a99502309874733c16` su HeyGen, `create_speech` con `engine: "elevenlabs"` e `eleven_v4`, **1,12×** in post |
 | tracce | cinque: A `s02`–`s08` · B `s09`–`s16` · C `s17`–`s26` · D `s27`–`s36` · E `s37`–`s48` |
 | musica | `eleven_music_v2`, 50 s, 900 crediti ElevenLabs; due tagli: 25 s per la scena muta, 20 s per la chiusura |
-| batch HeyGen | `BATCH` |
-| costo | **30 crediti HeyGen** di voce + RENDER di render |
+| batch HeyGen | `ddb7b8f0b3af42b4ac107b05ec6cc461`, 97 file (48 clip, 47 blocchi, 2 musiche) |
+| costo | **30 crediti HeyGen** di voce + **1** di render |
 
 ## Le note dello script
 
@@ -168,8 +168,40 @@ Due tagli, mono, 44,1 kHz, 128 kbps, a circa −25 LUFS, appena sotto la voce
 
 ## Le riprese
 
-RIPRESE
+Due, **viste tutte e due**, generate sul nodo ElevenLabs con **Nano Banana
+2**, 406 crediti l'una, con i soggetti dati dallo script.
 
-## Il montato
+- **la scena muta** (dopo `s13`) — una finestra con la luce del mattino su
+  un tavolo di legno vuoto, una sedia sola in fondo alla stanza. Luce più
+  grigia che dorata, ma regge: è la pausa del corso, e ci stanno sopra
+  venticinque secondi di musica e nient'altro;
+- **`s30`** — due sedie di legno una di fronte all'altra attorno a un
+  tavolino, luce di tardo pomeriggio. Sul tavolino ci sono una tazza e un
+  vasetto di fiori, che lo script non chiede e che non disturbano. Arriva su
+  «E se l'osservazione ti allontana da chi stai ascoltando, la stai usando al
+  contrario».
 
-VERIFICA
+Nessuna persona, nessuna scritta leggibile, nessun marchio.
+
+## Il montato è stato verificato scena per scena
+
+`get_video_scenes`: **cinquanta scene**, le due immagini esattamente alle
+scene 13 e 30 (cioè la scena muta, dopo `s13`, e `s30`), **nessuna scena in
+`playback: loop`**, tutte le altre in `freeze` con `volume: 0`. Copertina con
+la traccia muta da 3 s, **chiusura con la musica da 20 s** al posto del
+silenzio da 10 s delle altre lezioni. 16:9, 1080p.
+
+Il montato è stato scaricato e guardato: dodici fotogrammi a metà di
+altrettante scene (`s02`, la lista delle sette righe piena e accesa sulla
+quarta, la frase di `s13`, la scena muta, le cinque voci, il memo, il
+flusso, lo swap dell'antidoto, le due sedie, lo swap dell'addestramento, il
+bivio) più l'ultima slide e la chiusura del corso, tutti al loro posto.
+
+L'audio: voce a **−22,5 LUFS**, musica a **−24,5** nella scena muta e
+**−25,5** in chiusura, appena sotto. Il controllo dei silenzi trova solo le
+pause di fine blocco, quasi tutte di **2,0 s**: sono le pose, le più lunghe
+del modulo, ed è il ritmo che lo script chiede («la lezione più lenta delle
+trentacinque»). Nella scena muta nessun silenzio: c'è la musica.
+
+Durata finale **668,9 s, 11:09**, contro gli 11:10 dello script. Saldo
+HeyGen dopo il render: 7.209.

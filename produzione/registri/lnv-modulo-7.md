@@ -6,9 +6,9 @@
 | 7.2 | Il colloquio | 9:59 | `16142621aad7e1493baf94b03c530534` |
 | 7.3 | La trattativa | 9:59 | `fd660863d00229eb0afcc2873561d92d` |
 | 7.4 | La riunione e il gruppo | 9:59 | `7bc45e76fb051e7c824f4c955f98d20d` |
-| 7.5 | La mappa dei segnali che mandi tu | DURATA75 | `VIDEO75` |
+| 7.5 | La mappa dei segnali che mandi tu | 11:09 | `483f0b2c0b970c720638f35aa52b050a` |
 
-**TOTALE**, duecentotrentanove slide, ventitré infografiche, undici riprese.
+**Cinquantuno minuti e quattro secondi**, duecentotrentanove slide, ventitré infografiche, undici riprese.
 Il copione completo è di **51.188 caratteri**, riscritti dai **21.317**
 caratteri di parlato degli script: due volte e mezza, come nei moduli 5 e 6.
 
