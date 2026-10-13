@@ -77,7 +77,7 @@ prova: scarto medio 0,85 su 255, sottotitolo compreso.
 > **La voce e' stata fatta con ElevenLabs diretto**, prima che arrivasse sul
 > branch la regola di `CLAUDE.md` che chiede ogni volta con quale strumento
 > farla. ElevenLabs diretto e' anche la strada predefinita finche' la scelta
-> non e' fatta. Rifarla con HeyGen come passante costerebbe ~3 crediti HeyGen.
+> non e' fatta. Rifarla con HeyGen come passante costerebbe 4-6 crediti HeyGen (un credito ogni 16,7 s, arrotondato a ogni chiamata).
 
 ## Gli strumenti
 
