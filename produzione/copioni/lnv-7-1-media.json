@@ -1,0 +1,20 @@
+{
+ "s09": {
+  "tipo": "immagine",
+  "nome": "porta-sala-riunioni",
+  "url": "https://resource2.heygen.ai/image/532b3d98dde648818d86ca31e5205aab/original.png",
+  "nota": "una porta di ufficio aperta su una sala riunioni illuminata e vuota, vista dal corridoio in penombra - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2: Higgsfield ha rifiutato per la nona lezione di fila (tetto giornaliero del piano)"
+ },
+ "s18": {
+  "tipo": "immagine",
+  "nome": "sala-attesa-due-poltrone",
+  "url": "https://resource2.heygen.ai/image/bd723c7e22cf4dbc9ddfdae418a44eaf/original.png",
+  "nota": "due poltrone e un tavolino basso in una sala d'attesa, luce naturale da una finestra sul giardino, una tazza e un libro chiuso senza titolo visibile - VISTA. Nessuna persona, nessuna scritta leggibile, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ },
+ "s35": {
+  "tipo": "immagine",
+  "nome": "mano-cartellina",
+  "url": "https://resource2.heygen.ai/image/dbe5000586e64cb2a2daaaa229e6eb76/original.png",
+  "nota": "una mano che posa una cartellina chiara su un tavolo di legno, volto e corpo fuori campo come chiede lo script - VISTA. Solo mano e avambraccio, nessuna scritta sulla cartellina, nessun marchio. Generata su ElevenLabs con Nano Banana 2"
+ }
+}

@@ -30,8 +30,14 @@ non sul costo. Vedi la tabella in `CLAUDE.md` e il §voce di
   HeyGen è il 3,3% più lento (15,71 contro 16,25 caratteri al secondo), quindi
   con HeyGen l'`atempo` va da 1,12 a **1,16**.
 - **Con HeyGen una chiamata regge fino a ~3.100 caratteri**, non di più: a
-  3.401 va in timeout a 60 s. Un copione da 10.400 caratteri sta in quattro
-  tracce, non in tre.
+  3.401 va in timeout a 60 s. Un copione da 10.400 caratteri sta in quattro o
+  cinque tracce, non in tre.
+- **Con HeyGen i confini fra i blocchi si costruiscono**: i blocchi di una
+  traccia si uniscono con ` <break time="1.6s"/> `, e
+  `script/confini_heygen.py` taglia a metà di ogni pausa oltre 1,1 s (sulla
+  7.1 le pause interne arrivano a 0,89 s, quelle di confine non scendono
+  sotto 1,29). Niente trascrizione di verifica. Costo misurato sulla 7.1:
+  **39 crediti HeyGen di voce + 1 di render**.
 - Una traccia audio per scena. Il parlato si spezza ai confini di concetto,
   non a caso: ogni blocco è quello che sta sopra una singola inquadratura.
 - **Ogni traccia si accelera a 1,12x con ffmpeg** prima di andare in HeyGen. Il
@@ -564,7 +570,8 @@ di fila, e un oggetto che ritorna lega il modulo più di qualunque grafica.
   VIDEO 02 e del VIDEO 03 sono state prodotte prima di questa scoperta, quindi
   hanno i caratteri sbagliati: vanno rigenerate.
 - Il proxy di rete **blocca** `laparolagiusta.it`, `files2.heygen.ai`,
-  `resource2.heygen.ai`. Passano `fonts.googleapis.com`, `storage.googleapis.com`,
+  `resource2.heygen.ai`. (Dal 13 ottobre 2026 `files2.heygen.ai` passa: il
+  montato della 7.1 si è scaricato con curl, e si può guardare.) Passano `fonts.googleapis.com`, `storage.googleapis.com`,
   `heygen-resources-prod.s3-accelerate.amazonaws.com`.
 - **`cms-toolkit-artifacts.artlist.io` non è più raggiungibile** (lo era fino al
   modulo 5): dal modulo 6 le riprese non si scaricano da qui. Per HeyGen va

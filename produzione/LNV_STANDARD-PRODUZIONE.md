@@ -156,7 +156,7 @@ tracce lunghe e **48** generata blocco per blocco. Un motivo in più, oltre al
 tono, per non spezzare. Contro i ~10.400 crediti ElevenLabs ($1,73) più i
 ~1.000 di trascrizione che costa oggi.
 
-**Le due incognite sono state chiuse il 14 ottobre, con cinque campioni.**
+**Le due incognite sono state chiuse la sera stessa, con cinque campioni.**
 
 **1. Il timeout: il limite sta fra 3.097 e 3.401 caratteri.**
 
@@ -199,6 +199,30 @@ lezione) era ottimista di poco.
 
 Il confronto A/B sul blocco `s34` della 6.5, grezzo contro grezzo, sta in
 `produzione/prove/voce-heygen-v4/`.
+
+**La prima lezione vera, la 7.1** (registro `registri/lnv-7-1.md`):
+
+- **i confini si costruiscono.** I blocchi di una traccia si uniscono con
+  ` <break time="1.6s"/> ` — HeyGen la rende come pausa, non la pronuncia — e
+  `script/confini_heygen.py <dir>` scrive `tagli.json` tagliando a metà di
+  ogni silenzio oltre **1,1 s**; se le pause trovate non sono esattamente
+  una in meno dei blocchi, si ferma e non scrive niente. Poi
+  `ATEMPO=1.16 tagli.py applica` come sempre (legge il WAV di HeyGen
+  direttamente). **43 confini su 43 al primo colpo**; scarto massimo dai
+  tempi parola per parola di HeyGen 0,053 s;
+- **la soglia è misurata**: pause interne fino a 0,89 s, pause di confine mai
+  sotto 1,29 s su cinque tracce. Il primo valore, 1,2, lasciava nove
+  centesimi di margine;
+- **cinque tracce**, la più lunga 2.913 caratteri: le pause di confine
+  allungano il testo, e la quarta traccia del piano superava il margine;
+- **il ritmo torna**: 549,1 s di voce tagliata a 1,16×, contro i 550,5 della
+  6.5 a 1,12×;
+- **il costo vero**: 39 crediti di voce e **1 di render**. Più dei ~35
+  stimati perché le 43 pause di confine (69 s) si pagano come audio. **Il
+  conto per una lezione è ~40 crediti HeyGen.**
+- il registro tiene `lnv-7-1-confini.json` al posto di
+  `verifica-tagli.json`: per ogni confine il silenzio, la sua durata, il
+  punto di taglio e le ultime parole del blocco.
 
 ## 5. Vincoli di contenuto del corso
 

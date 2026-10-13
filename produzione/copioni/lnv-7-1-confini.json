@@ -1,0 +1,475 @@
+[
+ {
+  "chunk": "A",
+  "fine_di": "s02",
+  "silenzio": [
+   15.102,
+   16.438
+  ],
+  "durata": 1.336,
+  "taglio": 15.77,
+  "coda": "quella a cui pensano tutti."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s03",
+  "silenzio": [
+   34.735,
+   36.311
+  ],
+  "durata": 1.575,
+  "taglio": 35.523,
+  "coda": "cambia il modo di usarlo."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s04",
+  "silenzio": [
+   50.8,
+   52.347
+  ],
+  "durata": 1.547,
+  "taglio": 51.574,
+  "coda": "e' l'unica che puoi cambiare."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s05",
+  "silenzio": [
+   65.906,
+   67.363
+  ],
+  "durata": 1.458,
+  "taglio": 66.635,
+  "coda": "mani, dove guarda di solito."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s06",
+  "silenzio": [
+   83.225,
+   84.674
+  ],
+  "durata": 1.449,
+  "taglio": 83.95,
+  "coda": "manca il termine di paragone."
+ },
+ {
+  "chunk": "A",
+  "fine_di": "s07",
+  "silenzio": [
+   99.526,
+   101.081
+  ],
+  "durata": 1.555,
+  "taglio": 100.304,
+  "coda": "da te, non quella persona."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s09",
+  "silenzio": [
+   4.406,
+   5.962
+  ],
+  "durata": 1.556,
+  "taglio": 5.184,
+  "coda": "sola, e non e' leggere."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s10",
+  "silenzio": [
+   22.374,
+   23.784
+  ],
+  "durata": 1.41,
+  "taglio": 23.079,
+  "coda": "che avrai in tutto l'incontro."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s11",
+  "silenzio": [
+   39.505,
+   40.963
+  ],
+  "durata": 1.457,
+  "taglio": 40.234,
+  "coda": "un cambiamento non si vede."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s12",
+  "silenzio": [
+   59.309,
+   60.602
+  ],
+  "durata": 1.293,
+  "taglio": 59.955,
+  "coda": "niente. Quattro righe, nessuna conclusione."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s13",
+  "silenzio": [
+   75.915,
+   77.42
+  ],
+  "durata": 1.506,
+  "taglio": 76.667,
+  "coda": "seconda e' gia' un errore."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s14",
+  "silenzio": [
+   92.826,
+   94.404
+  ],
+  "durata": 1.578,
+  "taglio": 93.615,
+  "coda": "sono un preambolo: sono lavoro."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s15",
+  "silenzio": [
+   109.032,
+   110.531
+  ],
+  "durata": 1.499,
+  "taglio": 109.782,
+  "coda": "paga per tutta l'ora successiva."
+ },
+ {
+  "chunk": "B",
+  "fine_di": "s16",
+  "silenzio": [
+   125.035,
+   126.616
+  ],
+  "durata": 1.58,
+  "taglio": 125.826,
+  "coda": "resto dell'incontro comincia da li'."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s18",
+  "silenzio": [
+   3.125,
+   4.472
+  ],
+  "durata": 1.347,
+  "taglio": 3.799,
+  "coda": "Quella che conta di piu'."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s19",
+  "silenzio": [
+   17.409,
+   18.985
+  ],
+  "durata": 1.576,
+  "taglio": 18.197,
+  "coda": "con la prima ipotesi disponibile."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s20",
+  "silenzio": [
+   34.204,
+   35.736
+  ],
+  "durata": 1.532,
+  "taglio": 34.97,
+  "coda": "te manca anche a lui."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s21",
+  "silenzio": [
+   51.534,
+   53.099
+  ],
+  "durata": 1.565,
+  "taglio": 52.316,
+  "coda": "in fretta difficilmente torna indietro."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s22",
+  "silenzio": [
+   65.184,
+   66.697
+  ],
+  "durata": 1.513,
+  "taglio": 65.94,
+  "coda": "quanto vorresti, ed e' abbastanza."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s23",
+  "silenzio": [
+   79.217,
+   80.79
+  ],
+  "durata": 1.573,
+  "taglio": 80.004,
+  "coda": "di deciderle prima di entrare."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s24",
+  "silenzio": [
+   97.307,
+   98.862
+  ],
+  "durata": 1.554,
+  "taglio": 98.085,
+  "coda": "per questo si fanno bene."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s25",
+  "silenzio": [
+   112.579,
+   114.065
+  ],
+  "durata": 1.486,
+  "taglio": 113.322,
+  "coda": "in ritardo, costa due secondi."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s26",
+  "silenzio": [
+   129.086,
+   130.645
+  ],
+  "durata": 1.559,
+  "taglio": 129.865,
+  "coda": "puoi guardare dopo, con calma."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s27",
+  "silenzio": [
+   142.709,
+   144.239
+  ],
+  "durata": 1.53,
+  "taglio": 143.474,
+  "coda": "meta' di quello che guarda."
+ },
+ {
+  "chunk": "C",
+  "fine_di": "s28",
+  "silenzio": [
+   159.081,
+   160.417
+  ],
+  "durata": 1.336,
+  "taglio": 159.749,
+  "coda": "resto si improvvisa: quella no."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s30",
+  "silenzio": [
+   12.908,
+   14.43
+  ],
+  "durata": 1.521,
+  "taglio": 13.669,
+  "coda": "per farsi un'idea di te."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s31",
+  "silenzio": [
+   30.15,
+   31.683
+  ],
+  "durata": 1.533,
+  "taglio": 30.916,
+  "coda": "sposta l'attenzione da te all'argomento."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s32",
+  "silenzio": [
+   43.877,
+   45.345
+  ],
+  "durata": 1.468,
+  "taglio": 44.611,
+  "coda": "stanza, la persona e te."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s33",
+  "silenzio": [
+   61.183,
+   62.724
+  ],
+  "durata": 1.541,
+  "taglio": 61.953,
+  "coda": "piu' che in qualunque altro."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s34",
+  "silenzio": [
+   74.457,
+   76.016
+  ],
+  "durata": 1.559,
+  "taglio": 75.237,
+  "coda": "da preparare parola per parola."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s35",
+  "silenzio": [
+   80.84,
+   82.304
+  ],
+  "durata": 1.464,
+  "taglio": 81.572,
+  "coda": "che costa per tutto l'incontro."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s36",
+  "silenzio": [
+   96.821,
+   98.289
+  ],
+  "durata": 1.468,
+  "taglio": 97.555,
+  "coda": "a farlo subito, e dappertutto."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s37",
+  "silenzio": [
+   111.881,
+   113.407
+  ],
+  "durata": 1.526,
+  "taglio": 112.644,
+  "coda": "distanza. Tutto. E non ascolta."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s38",
+  "silenzio": [
+   129.012,
+   130.532
+  ],
+  "durata": 1.52,
+  "taglio": 129.772,
+  "coda": "lui lo legge in te."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s39",
+  "silenzio": [
+   144.549,
+   146.402
+  ],
+  "durata": 1.852,
+  "taglio": 145.475,
+  "coda": "di quello che volevi ottenere."
+ },
+ {
+  "chunk": "D",
+  "fine_di": "s40",
+  "silenzio": [
+   158.264,
+   159.822
+  ],
+  "durata": 1.558,
+  "taglio": 159.043,
+  "coda": "cui l'altro decide quanto aprirsi."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s42",
+  "silenzio": [
+   13.147,
+   14.63
+  ],
+  "durata": 1.484,
+  "taglio": 13.889,
+  "coda": "altre due le fanno tutti."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s43",
+  "silenzio": [
+   28.427,
+   29.923
+  ],
+  "durata": 1.496,
+  "taglio": 29.175,
+  "coda": "ogni lettura e' una proiezione."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s44",
+  "silenzio": [
+   43.63,
+   45.137
+  ],
+  "durata": 1.507,
+  "taglio": 44.383,
+  "coda": "non si recupera piu' tardi."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s45",
+  "silenzio": [
+   60.505,
+   62.027
+  ],
+  "durata": 1.522,
+  "taglio": 61.266,
+  "coda": "soprattutto se sei in ritardo."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s46",
+  "silenzio": [
+   74.32,
+   75.789
+  ],
+  "durata": 1.469,
+  "taglio": 75.054,
+  "coda": "la prima e la quarta."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s47",
+  "silenzio": [
+   78.81,
+   80.227
+  ],
+  "durata": 1.417,
+  "taglio": 79.518,
+  "coda": "non si legge. Si tara."
+ },
+ {
+  "chunk": "E",
+  "fine_di": "s48",
+  "silenzio": [
+   95.148,
+   96.71
+  ],
+  "durata": 1.562,
+  "taglio": 95.929,
+  "coda": "righe mentali, niente di piu'."
+ }
+]

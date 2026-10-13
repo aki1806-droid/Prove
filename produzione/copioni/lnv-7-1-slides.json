@@ -1,0 +1,416 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 7 · Lezione 7.1",
+"title": "Il primo minuto",
+"sub": "Applicazioni"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "nel primo minuto, due impressioni",
+"title": "La tua di lui, e la sua di te.<br><span class=\"gold\">Una sola è sotto il tuo controllo.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "il modulo sette",
+"title": "Nessun segnale nuovo.<br><span class=\"gold\">Cinque situazioni che conosci.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "la proporzione di tutto il modulo",
+"title": "Un terzo a cosa osservi.<br><span class=\"gold\">Due terzi a cosa mandi tu.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "quello che non puoi fare",
+"title": "Nel primo minuto<br><span class=\"gold\">non hai una linea di base.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"title": "Senza il metro<br><span class=\"gold\">non si legge niente.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "con quale metro, allora",
+"title": "Il tuo.<br><span class=\"gold\">Non il suo.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la lezione uno punto quattro, nel caso più scomodo",
+"title": "Sicurezza<br><span class=\"gold\">non è precisione.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"title": "Il primo minuto non serve a leggere.<br><span class=\"gold\">Serve a costruire il metro.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "il punto di partenza",
+"title": "Senza sapere da dove parte,<br><span class=\"gold\">un cambiamento non si vede.</span>"
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "quattro cose, come nella uno punto quattro",
+"plain": true,
+"rows": [
+"Il ritmo con cui parla",
+"I gesti, e quanti",
+"La postura, e quanto cambia",
+"Lo sguardo, e dove va"
+],
+"note": "Le annoti. Non ne fai niente."
+},
+{
+"file": "c13",
+"layout": "confronto",
+"occhio": "la stessa osservazione, due frasi",
+"titoli": [
+"Descrizione",
+"Giudizio"
+],
+"righe": [
+{
+"et": "La frase",
+"a": "«Parla piano»",
+"b": "«Parla piano perché è insicuro»"
+},
+{
+"et": "Nel primo minuto",
+"a": "Si annota",
+"b": "Non si può sostenere",
+"segna": true
+}
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "e i convenevoli",
+"title": "Non sono un preambolo.<br><span class=\"gold\">Sono lavoro.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "chi va dritto al punto",
+"title": "Risparmia due minuti.<br><span class=\"gold\">Perde il resto dell'incontro.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "non serve allungarli",
+"title": "Basta non tagliarli."
+},
+{
+"file": "c17",
+"layout": "memo",
+"title": "I convenevoli<br>non sono tempo perso.<br>Sono la taratura."
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "e adesso l'altra metà",
+"title": "L'altro si fa un'impressione di te.<br><span class=\"gold\">Con gli stessi strumenti sbagliati.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "la prima conseguenza",
+"title": "Sarà imprecisa."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "Si formerà lo stesso.<br><span class=\"gold\">E sarà difficile da cambiare.</span>"
+},
+{
+"file": "c22",
+"layout": "confronto",
+"occhio": "le due impressioni del primo minuto",
+"titoli": [
+"La tua di lui",
+"La sua di te"
+],
+"righe": [
+{
+"et": "Linea di base",
+"a": "Non c'è",
+"b": "Non c'è"
+},
+{
+"et": "Cosa puoi fare tu",
+"a": "Non concludere",
+"b": "Decidere cosa dai da guardare",
+"segna": true
+}
+]
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "e la buona notizia",
+"title": "Poche cose.<br><span class=\"gold\">Tutte pratiche.</span>"
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "quattro cose che decidi tu",
+"rows": [
+"Il ritmo con cui entri",
+"Dove guardi nei primi dieci secondi",
+"Cosa fanno le mani",
+"La prima frase"
+],
+"plain": true,
+"note": "Nessuna richiede di recitare."
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "quattro cose che decidi tu",
+"rows": [
+"Il ritmo con cui entri",
+"Dove guardi nei primi dieci secondi",
+"Cosa fanno le mani",
+"La prima frase"
+],
+"active": 0,
+"note": "Chi entra di corsa comunica fretta, e la fretta si trasmette."
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "quattro cose che decidi tu",
+"rows": [
+"Il ritmo con cui entri",
+"Dove guardi nei primi dieci secondi",
+"Cosa fanno le mani",
+"La prima frase"
+],
+"active": 1,
+"note": "Prima la persona, poi la stanza."
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "quattro cose che decidi tu",
+"rows": [
+"Il ritmo con cui entri",
+"Dove guardi nei primi dieci secondi",
+"Cosa fanno le mani",
+"La prima frase"
+],
+"active": 2,
+"note": "Libere: niente foglio, niente tasche."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "quattro cose che decidi tu",
+"rows": [
+"Il ritmo con cui entri",
+"Dove guardi nei primi dieci secondi",
+"Cosa fanno le mani",
+"La prima frase"
+],
+"active": 3,
+"note": "L'unica cosa da preparare davvero."
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "nessuna riguarda come sembri",
+"title": "Riguardano<br><span class=\"gold\">quello che fai.</span>"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "la prima frase: niente",
+"plain": true,
+"rows": [
+"Preamboli",
+"Scuse",
+"«Allora, dunque»"
+],
+"note": "Ogni parola prima del punto è materiale per farsi un'idea di te."
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "la prima frase: una di tre",
+"plain": true,
+"rows": [
+"Un fatto",
+"Una domanda vera",
+"Il motivo per cui siete lì"
+],
+"note": "Dà all'altro qualcosa da fare, non qualcosa da giudicare."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "e va saputa a memoria",
+"title": "Il primo minuto<br><span class=\"gold\">è quello in cui sei più attivato.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"title": "Una frase già pronta<br><span class=\"gold\">non chiede risorse.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "dopo la prima frase",
+"title": "Il resto viene da sé."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "l'errore di chi ha fatto questo corso",
+"title": "Osservare<br><span class=\"gold\">prima di ascoltare.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"title": "Guarda, cataloga, nota.<br><span class=\"gold\">E non ascolta.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "e l'altro se ne accorge",
+"title": "Si sente osservato<br><span class=\"gold\">invece che ascoltato.</span>"
+},
+{
+"file": "c39",
+"layout": "bivio",
+"da": "Il primo minuto",
+"rami": [
+{
+"et": "Osservi",
+"sub": "l'altro si controlla e ti dà meno"
+},
+{
+"et": "Ascolti",
+"sub": "l'altro resta com'è, e lo vedi"
+}
+],
+"acceso": 1
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "la lezione uno punto cinque, nel momento peggiore",
+"title": "Nel primo minuto<br><span class=\"gold\">non si recupera.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "la regola",
+"title": "Ascolti.<br><span class=\"gold\">L'osservazione lavora sullo sfondo.</span>"
+},
+{
+"file": "c42",
+"layout": "list",
+"kicker": "nel primo minuto",
+"rows": [
+"Non leggere: non hai il metro",
+"Non tagliare i convenevoli",
+"Non entrare di corsa",
+"Non osservare invece di ascoltare"
+],
+"plain": true,
+"note": "Due delle quattro le fanno soprattutto le persone attente."
+},
+{
+"file": "c43",
+"layout": "list",
+"kicker": "nel primo minuto",
+"rows": [
+"Non leggere: non hai il metro",
+"Non tagliare i convenevoli",
+"Non entrare di corsa",
+"Non osservare invece di ascoltare"
+],
+"active": 0,
+"note": "Adesso, ogni lettura è una proiezione."
+},
+{
+"file": "c44",
+"layout": "list",
+"kicker": "nel primo minuto",
+"rows": [
+"Non leggere: non hai il metro",
+"Non tagliare i convenevoli",
+"Non entrare di corsa",
+"Non osservare invece di ascoltare"
+],
+"active": 1,
+"note": "La taratura non si recupera più tardi."
+},
+{
+"file": "c45",
+"layout": "list",
+"kicker": "nel primo minuto",
+"rows": [
+"Non leggere: non hai il metro",
+"Non tagliare i convenevoli",
+"Non entrare di corsa",
+"Non osservare invece di ascoltare"
+],
+"active": 2,
+"note": "Due secondi di passo normale."
+},
+{
+"file": "c46",
+"layout": "list",
+"kicker": "nel primo minuto",
+"rows": [
+"Non leggere: non hai il metro",
+"Non tagliare i convenevoli",
+"Non entrare di corsa",
+"Non osservare invece di ascoltare"
+],
+"active": 3,
+"note": "L'unica che questo corso rende più probabile."
+},
+{
+"file": "c47",
+"layout": "memo",
+"title": "Nel primo minuto non si legge.<br>Si tara."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"I primi due minuti",
+"Ritmo, gesti, postura, sguardo",
+"Solo descrizioni"
+],
+"note": "Nessuna conclusione prima del terzo minuto."
+},
+{
+"file": "c49",
+"layout": "statement",
+"kicker": "nella prossima lezione",
+"title": "Il colloquio."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"sub": "laparolagiusta.it"
+}
+]

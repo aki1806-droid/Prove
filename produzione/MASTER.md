@@ -62,7 +62,9 @@ Deciso una volta per tutte. Si applica senza ridiscuterlo a ogni video.
 - **la voce si genera fuori da HeyGen** e si accelera in post;
 - **gli aneddoti si inventano**, in prima persona, senza segnaposti e senza
   chiedere;
-- **il ritmo è uno solo**: 1,12× con pause di 0,14 s. Non esistono eccezioni;
+- **il ritmo è uno solo**: 1,12× con pause di 0,14 s. Non esistono eccezioni
+  (1,16× se la voce viene da HeyGen come passante: è lo stesso ritmo finale
+  partendo da un grezzo più lento — vedi CLAUDE.md);
 - **niente avatar scontornato** e niente grafiche sopra l'avatar, quando
   l'avatar c'è;
 - **sottotitoli SRT** sempre, impressi solo su richiesta.
@@ -247,6 +249,20 @@ tagli.py correggi  li sposta
                    ↓ ripetere finché "fuori posto: 0"
 tagli.py applica   scrive i blocchi + le pose
 ```
+
+**Con la voce generata da HeyGen** (`create_speech`, strada B) questo passo si
+riduce a due righe, perché i confini si costruiscono invece di cercarli: i
+blocchi di una traccia si uniscono con ` <break time="1.6s"/> `, HeyGen rende
+la pausa alla lettera, e lo script trova le pause oltre 1,1 s — devono essere
+esattamente una in meno dei blocchi, o si ferma:
+
+```
+confini_heygen.py <dir>            scrive tagli.json (taglio a metà pausa)
+ATEMPO=1.16 tagli.py applica <dir> scrive i blocchi + le pose
+```
+
+Niente trascrizione, niente `verifica.py`, niente `banda.py`. Sulla 7.1 del
+corso LNV: 43 confini su 43 al primo colpo.
 
 Se i crediti di trascrizione sono finiti, la verifica parola per parola non si
 fa e al suo posto va `banda.py`: `banda` per gli scarti di durata sul parlato

@@ -22,9 +22,14 @@ parola, se ogni taglio cade dove deve. Da solo l'allineamento sbaglia: sulla
 """
 import json, os, re, subprocess, sys, unicodedata, difflib
 
+# ATEMPO: 1,12 per il grezzo di ElevenLabs diretto (16,25 car/s), 1,16 per il
+# grezzo di HeyGen come passante (15,71 car/s). Misurati il 13 ottobre 2026: le
+# due sorgenti a parita' di atempo non danno lo stesso ritmo, e non si
+# mescolano dentro lo stesso corso.
+ATEMPO = os.environ.get('ATEMPO', '1.12')
 FILTRO = ("silenceremove=start_periods=1:start_silence=0.03:start_threshold=-45dB:"
           "stop_periods=-1:stop_duration=0.20:stop_silence=0.14:stop_threshold=-45dB,"
-          "atempo=1.12")
+          f"atempo={ATEMPO}")
 CPS = 16.5          # caratteri di parlato al secondo, sul grezzo
 POOL = float(os.environ.get('POOL', '4.0'))   # quante pause per confine
                     # entrano fra i candidati. Era 1,6: troppo stretto, la
@@ -300,8 +305,12 @@ def applica(d, tieni=None):
         for i, b in enumerate(ch[k]):
             af = FILTRO + (f',apad=whole_dur={tieni[b]}' if b in tieni else '')
             p = f'{d}/mp3u/{b}.mp3'
+            # HeyGen restituisce WAV: si taglia dal WAV, senza ricomprimere
+            # due volte. ElevenLabs restituisce MP3.
+            src = f'{d}/unico_{k}_raw.wav'
+            src = src if os.path.exists(src) else f'{d}/unico_{k}_raw.mp3'
             r = _ff('-y', '-ss', str(t[k][i]), '-to', str(t[k][i + 1]),
-                    '-i', f'{d}/unico_{k}_raw.mp3', '-af', af,
+                    '-i', src, '-af', af,
                     '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', '-ac', '1', p)
             if r.returncode:
                 print('ERRORE', b, r.stderr[-200:])

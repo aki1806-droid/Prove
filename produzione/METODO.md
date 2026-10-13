@@ -62,13 +62,14 @@ risposta sola, e la differenza di costo è di venti volte:
   crediti ElevenLabs a lezione ($1,73), più ~1.000 di trascrizione per
   verificare i tagli;
 - **HeyGen come passante** — `create_speech`, `engine: "elevenlabs"`,
-  `settings: {"model_id": "eleven_v4"}`. ~33 crediti HeyGen a lezione, e i
-  **tempi parola per parola** arrivano insieme all'audio, quindi la
-  trascrizione di verifica non serve.
+  `settings: {"model_id": "eleven_v4"}`. ~40 crediti HeyGen a lezione (39
+  di voce + 1 di render, misurati sulla 7.1), e la trascrizione di verifica
+  non serve: i blocchi si uniscono con `<break time="1.6s"/>` e
+  `script/confini_heygen.py` taglia a metà di ogni pausa lunga.
 
 Da dire ad Achille quando si chiede: con HeyGen una chiamata regge fino a
 ~3.100 caratteri (a 3.401 va in timeout a 60 s), quindi un copione da 10.400
-sta in **quattro** tracce e non in tre; e il grezzo HeyGen è il 3,3% più
+sta in **quattro o cinque** tracce e non in tre; e il grezzo HeyGen è il 3,3% più
 **lento**, quindi l'`atempo` va da 1,12 a 1,16 e le due sorgenti non si
 mescolano nello stesso corso.
 
