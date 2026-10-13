@@ -791,7 +791,29 @@
    "durata_s": 21.433,
    "fondo": "svg-scuro",
    "ingresso": "dissolvenza",
-   "sorgente": "IAS_M01_L01_A3_molte-strade.html"
+   "sorgente": "IAS_M01_L01_A3_molte-strade.html",
+   "camera": {
+    "chiavi": [
+     [
+      0,
+      1.0,
+      960,
+      540
+     ],
+     [
+      5.8,
+      1.0,
+      960,
+      540
+     ],
+     [
+      99,
+      1.04,
+      926,
+      525
+     ]
+    ]
+   }
   },
   {
    "n": 44,
@@ -1590,7 +1612,8 @@
   "Higgsfield ha crediti (562) ma è ancora in grace period con il limite giornaliero raggiunto: immagini e clip su ElevenLabs.",
   "I03: le lettere della tastiera dello smartphone sono leggibili (QWERTY); le parole suggerite sono sfocate. Tenuta perché il soggetto lo richiede.",
   "I07: i numeri del calendario sono piccoli ma si intravedono.",
-  "Nessun controllo di trascrizione della voce: da ascoltare."
+  "Nessun controllo di trascrizione della voce: da ascoltare.",
+  "Testo a schermo oltre le 6 parole, già nel pacchetto: S026 (tabella), cella «Un riassunto del testo che gli dai» (7 parole). Lasciato com'è: va corretto in scaletta se Achille vuole rispettare la regola anche nelle tabelle."
  ],
  "costi_usd": {
   "voce": 2.0,
