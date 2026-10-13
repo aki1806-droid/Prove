@@ -12,7 +12,7 @@ QUI = os.path.dirname(os.path.abspath(__file__))
 TEMPI = json.load(open(os.path.join(QUI, 'audio/tempi-scene.json')))
 # a schermo i numeri in cifre (la voce li dice in lettere, come chiede il pacchetto)
 CIFRE = [('duemilaventiquattro', '2024'), ('restano cinquanta', 'restano 50'), ('sei questioni', '6 questioni'),
-         ('arrivati due OSS', 'arrivati 2 OSS'), ('ancora due infermieri', 'ancora 2 infermieri'),
+         ('arrivati due operatori', 'arrivati 2 operatori'), ('ancora due infermieri', 'ancora 2 infermieri'),
          ('terzo piano', '3° piano')]
 MAX = 58            # caratteri per blocco: tre righe strette nel riquadro a sinistra
 
