@@ -1,0 +1,5 @@
+# Modulo 17
+
+| | lezione | durata | resa |
+|---|---|---|---|
+| 17.1 | La preeclampsia grave | 9:00.8 | `5ac8b0826d56359048a7f063e563043d` |
