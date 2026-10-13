@@ -106,7 +106,11 @@ for s in scene:
         pezzo(s, d, scena=sc_)
     elif t_ == "registrazione":
         f = os.path.join(corso, "registrazioni", f"{lez}_{s['asset']}.mp4")
+        r = os.path.join(M, "ricostruzioni", f"{lez}_{s['asset']}.html")
         if os.path.exists(f): pezzo(s, d, registrazione=f)
+        elif os.path.exists(r):   # ricostruzione animata, finche' manca la registrazione vera
+            avvisi.append(f"{s['id']}: registrazione {s['asset']} sostituita dalla ricostruzione")
+            pezzo(s, d, tipo_render="pagina", pagina=os.path.relpath(r, corso), ricostruzione=True)
         else:
             avvisi.append(f"{s['id']}: manca la registrazione {s['asset']}, uso un segnaposto")
             pezzo(s, d, tipo_render="scena", scena={"tipo": "testo", "layout": "centrata", "fondo": "neutro", "livello": 1,

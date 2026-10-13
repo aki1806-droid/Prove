@@ -1,15 +1,10 @@
 {
  "pubblicabile": false,
  "perche_non_pubblicabile": [
-  "B03 contiene l'episodio in prima persona segnato [SEGNAPOSTO]: l'audio è generato, ma il video non è pubblicabile finché Achille non conferma l'episodio o lo sostituisce con uno reale.",
-  "Mancano le registrazioni schermo R01, R02, R03, R04 (registrazioni/IAS_M00_L01_Rnn.mp4): al loro posto ci sono segnaposto grafici «Registrazione Rnn»."
+  "B03 contiene l'episodio in prima persona segnato [SEGNAPOSTO]: l'audio è generato, ma il video non è pubblicabile finché Achille non conferma l'episodio o lo sostituisce con uno reale."
  ],
  "segnaposto_aperti": [
-  "B03: episodio in prima persona da confermare",
-  "R01",
-  "R02",
-  "R03",
-  "R04"
+  "B03: episodio in prima persona da confermare"
  ],
  "voce": {
   "richiesta": "Achille nuovo 1 v4",
@@ -64,5 +59,12 @@
   "clip_elevenlabs_usd": 7.7,
   "totale_usd": 12.26,
   "dettaglio": "voce 28 blocchi (12.025 caratteri, $1,98) + 4 blocchi rifatti (1.742 caratteri, $0,29); 17 immagini Seedream 5 Pro a $0,135; 22 clip Kling 2.5 Turbo a $0,35. Higgsfield: nessun addebito."
+ },
+ "ricostruzioni": {
+  "cosa": "Al posto delle registrazioni schermo R01-R04 ci sono ricostruzioni animate (M00/ricostruzioni/IAS_M00_L01_Rnn.html, motore kit/ricostruzione.js e .css), renderizzate come le scene.",
+  "perche": "Le registrazioni vere richiedono gli account di Achille su ChatGPT, Claude e Gemini, non raggiungibili dalla sessione di produzione.",
+  "come": "Interfaccia di chat neutra con la palette del corso, non quella dei prodotti: nessun logo né colore dei produttori, il nome dello strumento solo come testo nella barra. Etichetta «Ricostruzione» fissa in alto a destra. Cursore evidenziato, zoom morbido fino a 1,3 sulla richiesta e sulla risposta, R02 in tre colonne.",
+  "attenzione": "Le risposte a schermo sono scritte per il video su un avviso inventato di Valcorta: non sono risposte generate da ChatGPT, Claude o Gemini. Se Achille preferisce mostrare risposte vere, basta mettere le registrazioni in registrazioni/IAS_M00_L01_Rnn.mp4: il piano le usa al posto delle ricostruzioni.",
+  "da_controllare": "R04: la definizione di informativa (informazione preventiva) è volutamente generica, senza articoli del CCNL; Achille la verifichi."
  }
 }

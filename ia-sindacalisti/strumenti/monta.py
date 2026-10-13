@@ -68,6 +68,11 @@ def seg_clip(p):
     vf = f"setpts=PTS/{v},fps={FPS},{crop}scale=1920:1080:flags=lanczos,{COLORE},tpad=stop_mode=clone:stop=-1"
     ff("-i", src, "-an", "-vf", vf, "-frames:v", str(n), *ENC, seg(p))
 
+def seg_registrazione(p):
+    """registrazione vera: per ora solo adattata a 1920x1080 e alla durata dell'inquadratura (tagli, zoom e accelerazioni a mano)"""
+    vf = f"fps={FPS},scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=#FAF8F4,tpad=stop_mode=clone:stop=-1"
+    ff("-i", p["registrazione"], "-an", "-vf", vf, "-frames:v", str(nfot(p)), *ENC, seg(p))
+
 # ---------- scene e SVG: lavori per il browser
 def camera(p, dur):
     """fotogramma -> (scala, tx, ty) per #cam"""
@@ -100,6 +105,8 @@ def lavori_browser(solo=None):
         if p["tipo"] == "scena" or p.get("tipo_render") == "scena":
             url = "file://" + os.path.join(pag, "scena.html") + "#" + urllib.parse.quote(json.dumps(p["scena"], ensure_ascii=False))
             L.append(dict(url=url, out=seg(p, "_br"), frames=min(n, 4 * FPS), tieni=n, n=p["n"]))
+        elif p.get("tipo_render") == "pagina":   # ricostruzione animata di una registrazione
+            L.append(dict(url="file://" + os.path.join(corso, p["pagina"]), out=seg(p, "_br"), frames=n, tieni=n, n=p["n"]))
         elif p["tipo"] == "animazione_svg":
             cam, t0 = camera(p, n / FPS)
             L.append(dict(url="file://" + os.path.join(pag, p["pagina"]), out=seg(p, "_br"), frames=n, cam=cam, t0=t0, tieni=n, n=p["n"]))
@@ -113,6 +120,7 @@ def segmenti(solo=None):
         if os.path.exists(seg(p)): continue
         if p["tipo"] == "immagine": seg_immagine(p); print("immagine", p["n"], p["file"])
         elif p["tipo"] == "clip": seg_clip(p); print("clip", p["n"], p["file"])
+        elif p.get("registrazione"): seg_registrazione(p); print("registrazione", p["n"], p["registrazione"])
     env = dict(os.environ, FFMPEG=FF)
     subprocess.run(["node", os.path.join(STR, "render.js"), jf], check=True, env=env)
     for l in L:

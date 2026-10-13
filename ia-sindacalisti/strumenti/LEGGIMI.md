@@ -13,6 +13,10 @@ Montaggio tutto locale, come chiede `CLAUDE.md`: ffmpeg per immagini, clip e aud
 7. **Controlli e registro:** `python3 strumenti/controlla_testi.py . <lez>` (testi a schermo), poi `python3 strumenti/registro.py . <lez> Mxx/<lez>_LAVORAZIONE.json`.
 8. **Dispensa:** `python3 strumenti/dispensa.py . <lez>` e `node strumenti/pdf.js build/<lez>/pagine/dispensa.html build/<lez>/<lez>_DISPENSA.pdf`.
 
+## Registrazioni schermo (`R..`)
+
+Se c'è `registrazioni/<lez>_Rnn.mp4`, il piano usa quella (adattata a 1920×1080 e alla durata; tagli, accelerazioni e zoom vanno fatti prima). Se manca ma c'è `Mxx/ricostruzioni/<lez>_Rnn.html`, usa la ricostruzione animata: interfaccia di chat neutra (`kit/ricostruzione.css`), animata con `kit/ricostruzione.js` (`data-digita`, `data-scorre`, `data-appare`, `data-sparisce`, `data-mostra`, e `ZOOM`, `CURSORE`, `SCORRI` in pagina), con l'etichetta «Ricostruzione». Le risposte delle ricostruzioni sono scritte per il video, non generate dagli strumenti. Se non c'è nessuna delle due, resta il segnaposto grafico.
+
 ## Che cosa finisce in git
 
 Della cartella `build/` si tengono solo `registro.json`, `.srt`, `_DISPENSA.pdf` e `provini.png`: video, audio e segmenti si rigenerano e pesano troppo.
