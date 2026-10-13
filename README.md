@@ -153,6 +153,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.9-enterale` | Modulo 16 · 16.9 Nutrizione enterale, polmonite da inalazione e rialimentazione | 9:06.1 | `dfe463127e4a0de2c6bbc87cbbcf0d44` |
 | `m16-l16.5-clostridioides` | Modulo 16 · 16.5 Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
 | `m16-l16.6-politrauma` | Modulo 16 · 16.6 Il politrauma | 8:54.2 | `8b0e5175a8b3ac094c851849d3721aac` |
+| `m16-l16.10-monossido` | Modulo 16 · 16.10 Una famiglia intossicata dal monossido | 8:49.3 | `af235d11df9dcee7d2797de9dd94018b` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
