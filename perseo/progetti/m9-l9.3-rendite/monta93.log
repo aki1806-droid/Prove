@@ -39,3 +39,16 @@
   s40  audio   6.91s  scena   6.91s  scarto    0 ms
   s41  audio   8.60s  scena   8.60s  scarto    0 ms
   s42  audio   6.11s  scena   6.12s  scarto   10 ms
+  s43  audio   9.18s  scena   9.19s  scarto   10 ms
+  s44  audio   5.57s  scena   5.56s  scarto   10 ms
+  s45  audio   6.39s  scena   6.40s  scarto   10 ms
+  s46  audio   8.34s  scena   8.35s  scarto   10 ms
+  s47  audio   6.71s  scena   6.71s  scarto    0 ms
+  s48  audio   3.81s  scena   3.80s  scarto   10 ms
+
+49 scene · parlato 349.0 s · con copertina 3 s e chiusura 10 s → 6:02.0
+scarto massimo audio/video: 20 ms su s26
+montato-9.3.mp4  6:02.36  11 MB
+montato-9.3.srt  47 sottotitoli
+:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 90 kb/s, 24.99 fps, 25 tbr, 12800 tbn (default)
+      Metadata:

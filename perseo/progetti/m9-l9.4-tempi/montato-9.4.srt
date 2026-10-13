@@ -1,0 +1,187 @@
+1
+00:00:03,000 --> 00:00:09,890
+Una stazione, un tabellone con gli orari, una valigia accanto alla panchina. Hai chiesto la prestazione, e ora aspetti.
+
+2
+00:00:09,890 --> 00:00:17,280
+Al pensionamento, i soldi del fondo pensione non arrivano tutti insieme, nello stesso giorno. Arrivano su due treni diversi.
+
+3
+00:00:17,280 --> 00:00:26,730
+Due treni con due orari diversi, e con due macchinisti diversi: il Fondo e l'INPS. Saperlo prima evita brutte sorprese, e permette di organizzarsi.
+
+4
+00:00:26,730 --> 00:00:34,350
+In questa lezione vediamo quando parte ogni treno, chi lo guida, e che cosa puoi fare tu, in concreto, per non perdere tempo.
+
+5
+00:00:34,350 --> 00:00:42,280
+E alla fine vediamo anche come organizzare il primo anno di pensione, sapendo con buona approssimazione quando arriva ogni somma, e da chi.
+
+6
+00:00:42,280 --> 00:00:48,800
+Ricordi le due tasche della posizione? La tasca reale e la tasca figurativa. Ogni tasca ha il suo treno, e la sua clessidra.
+
+7
+00:00:48,800 --> 00:00:56,500
+Il primo treno e' quello della tasca reale: i tuoi contributi, quelli dell'ente, e i rendimenti che hanno prodotto negli anni.
+
+8
+00:00:56,500 --> 00:01:03,580
+Questi soldi sono gia' nel Fondo, investiti nel tuo comparto. E li paga direttamente il Fondo, senza passaggi intermedi.
+
+9
+00:01:03,580 --> 00:01:11,280
+La legge gli da' fino a centottanta giorni dalla richiesta completa. In pratica, il Fondo indica una media di circa novanta giorni.
+
+10
+00:01:11,280 --> 00:01:18,830
+Una clessidra piccola, che si svuota in fretta. E' la parte che arriva per prima, di solito entro qualche mese dalla domanda.
+
+11
+00:01:18,830 --> 00:01:26,610
+Il secondo treno e' quello della tasca figurativa: il TFR e, per chi viene dal TFS, l'eventuale uno virgola cinque per cento.
+
+12
+00:01:26,610 --> 00:01:34,280
+Ricordi dove sono quei soldi? Non nel Fondo, ma all'INPS. Che deve prima trasferirli al Fondo, quando il rapporto di lavoro finisce.
+
+13
+00:01:34,280 --> 00:01:41,140
+Il Fondo indica che l'INPS impiega in genere fino a dodici mesi per questo trasferimento, con un massimo di diciotto.
+
+14
+00:01:41,140 --> 00:01:46,840
+Una clessidra molto piu' grande, che continua a scorrere a lungo, anche dopo che la prima si e' svuotata.
+
+15
+00:01:46,840 --> 00:01:54,600
+Solo quando l'INPS ha versato, il Fondo puo' pagare anche questa parte. Prima di quel momento, il Fondo non puo' fare nulla, anche volendo.
+
+16
+00:01:54,600 --> 00:02:02,280
+A questo punto, attenzione a non confondere due cose diverse, che spesso vengono messe nello stesso sacco, anche nelle chiacchiere tra colleghi.
+
+17
+00:02:02,280 --> 00:02:09,160
+C'e' la tua liquidazione ordinaria: il TFS, oppure la parte di TFR che non hai destinato al Fondo.
+
+18
+00:02:09,160 --> 00:02:14,590
+Quella non passa dal Fondo: te la paga direttamente l'INPS, con i tempi che hai visto nel modulo due.
+
+19
+00:02:14,590 --> 00:02:23,200
+Dodici mesi per la pensione di vecchiaia, che dal 2027 scendono a nove, piu' tre mesi tecnici per il pagamento. Un'attesa lunga, da sola.
+
+20
+00:02:23,200 --> 00:02:32,050
+E poi c'e' la parte di TFR destinata al Fondo. Quella l'INPS la versa al Fondo, con i suoi tempi, e il Fondo poi te la paga come prestazione.
+
+21
+00:02:32,050 --> 00:02:40,030
+Sono due percorsi separati, con regole diverse e uffici diversi. Possono concludersi in momenti diversi, anche a distanza di mesi.
+
+22
+00:02:40,030 --> 00:02:47,160
+Quindi, sul tuo conto corrente, nel primo anno di pensione potresti vedere arrivare tre somme distinte, in tre momenti diversi.
+
+23
+00:02:47,160 --> 00:02:54,250
+Che cosa puoi fare tu, per non perdere tempo? I tempi dell'INPS non li puoi cambiare, ma puoi fare in modo di non allungarli.
+
+24
+00:02:54,250 --> 00:03:02,910
+Il termine del Fondo decorre dalla ricezione della richiesta completa e corretta. Non dal giorno in cui la spedisci, se manca qualcosa.
+
+25
+00:03:02,910 --> 00:03:08,720
+Una domanda con un documento mancante, o un IBAN sbagliato, ricomincia da capo. E l'attesa si allunga.
+
+26
+00:03:08,720 --> 00:03:17,040
+Prima regola, quindi: controlla la domanda due volte prima di inviarla. Documenti, firme, coordinate bancarie.
+
+27
+00:03:17,040 --> 00:03:24,680
+Seconda regola: aggiorna in anticipo i tuoi recapiti nell'area riservata del sito del Fondo, nella sezione anagrafica.
+
+28
+00:03:24,680 --> 00:03:32,320
+Gli aggiornamenti sulla pratica arrivano via email e via SMS. Se l'indirizzo o il numero sono vecchi, non li ricevi.
+
+29
+00:03:32,320 --> 00:03:41,400
+Terza regola: se hai contributi non dedotti, assicurati di averli comunicati al Fondo per tempo. Evita ricalcoli, e quindi altre attese.
+
+30
+00:03:41,400 --> 00:03:48,570
+Il resto non dipende da te. Ma una domanda fatta bene e' il modo migliore per non aggiungere attese a quelle gia' previste.
+
+31
+00:03:48,570 --> 00:03:54,710
+Un consiglio di pianificazione, che vale soprattutto per il primo anno di pensione, quando le entrate cambiano.
+
+32
+00:03:54,710 --> 00:04:04,440
+Metti in conto che la parte figurativa della posizione e la liquidazione arriveranno dopo qualche mese. Non subito, e non insieme alla prima pensione.
+
+33
+00:04:04,440 --> 00:04:10,510
+Se hai spese importanti da affrontare, programma di usare prima la parte reale, che arriva per prima.
+
+34
+00:04:10,510 --> 00:04:20,930
+Oppure valuta con il patronato la possibilita' di anticipo del TFS o del TFR, prevista per i dipendenti pubblici. Ha delle condizioni, e va chiesta per tempo.
+
+35
+00:04:20,930 --> 00:04:29,530
+Un foglio, una penna, e un calendario: segna quando arriva ogni somma. Sapere in anticipo quando arriva e' gia' meta' della tranquillita'.
+
+36
+00:04:29,530 --> 00:04:36,260
+La parte reale arriva prima. Il TFR arriva dopo. Organizzati di conseguenza.
+
+37
+00:04:36,260 --> 00:04:44,860
+Le tre cose da ricordare. Uno: la parte reale la paga il Fondo, in media in circa novanta giorni, entro un massimo di centottanta.
+
+38
+00:04:44,860 --> 00:04:53,630
+Due: la parte figurativa, cioe' il TFR e l'eventuale uno virgola cinque, arriva solo dopo che l'INPS l'ha versata al Fondo.
+
+39
+00:04:53,630 --> 00:05:00,610
+In genere entro dodici mesi, al massimo diciotto. Una clessidra lunga, da mettere in conto fin dall'inizio.
+
+40
+00:05:00,610 --> 00:05:07,470
+Tre: una domanda completa e corretta e' l'unico modo per non aggiungere ritardi a quelli che gia' ci sono.
+
+41
+00:05:07,470 --> 00:05:15,120
+La mossa di oggi: entra nell'area riservata, sezione anagrafica, e verifica che email e cellulare siano aggiornati.
+
+42
+00:05:15,120 --> 00:05:22,730
+Ci vogliono due minuti, e puoi farlo anche se la pensione e' ancora lontana. Anzi, meglio farlo adesso, finche' non c'e' fretta.
+
+43
+00:05:22,730 --> 00:05:30,350
+Nella prossima lezione, l'ultima del modulo, vediamo come si fa davvero la domanda di prestazione, dall'inizio alla fine.
+
+44
+00:05:30,350 --> 00:05:38,730
+Passo per passo: dove si presenta, quali documenti servono, come si sceglie tra capitale e rendita, e che cosa succede dopo l'invio.
+
+45
+00:05:38,730 --> 00:05:45,430
+E vedremo anche chi puo' aiutarti, se non vuoi farla da solo. Per esempio il patronato, che conosce bene queste pratiche.
+
+46
+00:05:45,430 --> 00:05:50,090
+Perche' una domanda fatta bene, l'abbiamo visto oggi, e' gia' meta' del viaggio.
+
+47
+00:05:50,090 --> 00:05:54,690
+Fare la domanda. Ci vediamo nella lezione nove punto cinque.

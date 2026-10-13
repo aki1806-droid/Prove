@@ -31,7 +31,7 @@ BLOCCHI = [
 
  (4,"chiaro",0,'E una buona notizia: non devi farlo da solo. Ci sono tre aiuti, a portata di mano.'),
  (4,"chiaro",0,"Il primo e' il numero verde del Fondo, che risponde alle domande sulla pratica: a che punto e', che cosa manca, che cosa fare."),
- (4,"chiaro",0,"Il secondo e' il patronato, per noi l'INAS CISL. Puo' aiutarti a mettere insieme la domanda di pensione pubblica e quella complementare."),
+ (4,"chiaro",0,"Il secondo e' il patronato, per noi quello della CISL. Puo' aiutarti a mettere insieme la domanda di pensione pubblica e quella complementare."),
  (4,"chiaro",0,'Due domande che spesso si preparano negli stessi mesi, e che conviene preparare insieme, con le stesse date e gli stessi documenti.'),
  (4,"chiaro",0,"Il terzo e' il delegato sindacale della CISL FP sul tuo posto di lavoro, che puo' aiutarti a ricostruire i documenti con l'ufficio del personale."),
  (4,"chiaro",0,"Il consiglio e' uno solo: muoviti qualche mese prima della data di uscita. E' il modo migliore per arrivare preparati."),

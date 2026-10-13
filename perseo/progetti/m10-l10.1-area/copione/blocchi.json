@@ -1,0 +1,331 @@
+[
+ {
+  "id": "s02",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Una chiave che entra nella serratura. Una porta che si apre su una stanza ordinata, con i cassetti etichettati uno per uno."
+ },
+ {
+  "id": "s03",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "In questo corso ti abbiamo chiesto piu' volte di entrare nell'area riservata. Per controllare, per aggiornare, per scegliere."
+ },
+ {
+  "id": "s04",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' arrivato il momento di fare un giro completo, stanza per stanza, cassetto per cassetto. Ed e' anche il primo passo dell'ultimo modulo."
+ },
+ {
+  "id": "s05",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'area riservata e' il cruscotto della tua posizione. Li' vedi quanto hai, dove e' investito, e chi e' designato a riceverlo."
+ },
+ {
+  "id": "s06",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E puoi fare quasi tutte le operazioni da solo, da casa, senza moduli di carta e senza appuntamenti."
+ },
+ {
+  "id": "s07",
+  "capitolo": 1,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le credenziali per entrare arrivano con la lettera di conferma dell'iscrizione al Fondo. Se le hai perse, si possono recuperare dal sito."
+ },
+ {
+  "id": "s08",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ecco la cassettiera. Sono otto cassetti, e ognuno ha la sua etichetta, con il nome che trovi anche sul sito. Apriamoli uno alla volta."
+ },
+ {
+  "id": "s09",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Primo cassetto: Anagrafica. Qui aggiorni email e cellulare, da cui arrivano tutti gli avvisi del Fondo."
+ },
+ {
+  "id": "s10",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ricordi la lezione nove punto quattro? Recapiti vecchi significano avvisi persi, proprio quando servono."
+ },
+ {
+  "id": "s11",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Secondo cassetto: Contribuzione. Qui vedi i versamenti fatti, mese per mese, e modifichi la tua aliquota, una volta l'anno."
+ },
+ {
+  "id": "s12",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sempre qui fai i versamenti volontari, e comunichi i contributi non dedotti, come hai visto nella lezione cinque punto quattro. E' il cassetto dei soldi che entrano."
+ },
+ {
+  "id": "s13",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Terzo cassetto: Investimento. Qui controlli e cambi il profilo, sia per la tasca reale sia per il TFR virtuale."
+ },
+ {
+  "id": "s14",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quarto cassetto: Soggetti designati. Qui indichi chi riceve la posizione in mancanza di coniuge, figli e genitori a carico."
+ },
+ {
+  "id": "s15",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quinto cassetto: Documentazione. Qui trovi il prospetto annuale, e gli altri documenti che il Fondo ti mette a disposizione nel tempo."
+ },
+ {
+  "id": "s16",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E poi ci sono tre cassetti per le operazioni. Il sesto: Anticipi, per le anticipazioni che hai visto nel modulo otto."
+ },
+ {
+  "id": "s17",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il settimo: Riscatti. Ed e' proprio qui che si carica anche la domanda di pensione complementare, come abbiamo visto nella lezione nove punto cinque."
+ },
+ {
+  "id": "s18",
+  "capitolo": 2,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "L'ottavo: Trasferimenti, per spostare la posizione verso un altro fondo, o per portarne una dentro Perseo Sirio."
+ },
+ {
+  "id": "s19",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ora mettiamo insieme le mosse. Durante il corso, ogni lezione si e' chiusa con una mossa di oggi."
+ },
+ {
+  "id": "s20",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Quasi tutte si fanno proprio nell'area riservata. Questa tabella le riassume, con il cassetto in cui si trovano e la lezione in cui ne abbiamo parlato."
+ },
+ {
+  "id": "s21",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Trova il prospetto annuale: cassetto Documentazione. Controlla il profilo e il TFR virtuale: cassetto Investimento."
+ },
+ {
+  "id": "s22",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Designa i beneficiari: cassetto Soggetti designati. Cambia la tua aliquota: cassetto Contribuzione."
+ },
+ {
+  "id": "s23",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Aggiorna i recapiti: cassetto Anagrafica. Ecco fatto: sei mosse, cinque cassetti, e nessuna difficolta' particolare."
+ },
+ {
+  "id": "s24",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Puoi fermare il video e fotografare la tabella con il telefono. Ti servira' come promemoria, la sera in cui deciderai di farle."
+ },
+ {
+  "id": "s25",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se le fai tutte, una volta sola, la tua posizione sara' in ordine. Sai quanto hai, e in che profilo sei."
+ },
+ {
+  "id": "s26",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Sai a che cosa e' collegato il tuo TFR, chi riceverebbe la posizione, e come il Fondo puo' contattarti."
+ },
+ {
+  "id": "s27",
+  "capitolo": 3,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E ci vuole meno tempo di quanto pensi. Mezz'ora, una sera, magari con una tazza di te' accanto."
+ },
+ {
+  "id": "s28",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Il documento piu' importante di tutta l'area riservata e' il prospetto annuale. Lo abbiamo gia' incontrato nel modulo due; ripassiamolo in trenta secondi."
+ },
+ {
+  "id": "s29",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Riga per riga. Ci sono i contributi versati da te, trattenuti in busta paga, e quelli versati dall'ente, l'uno per cento."
+ },
+ {
+  "id": "s30",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Ci sono le quote figurative, cioe' il TFR e il TFS virtuali contabilizzati dall'INPS: la tasca figurativa che conosci dal modulo due."
+ },
+ {
+  "id": "s31",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Poi c'e' il risultato della gestione, cioe' quanto hanno reso gli investimenti nell'anno. E infine la posizione complessiva."
+ },
+ {
+  "id": "s32",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un consiglio pratico: confrontalo ogni anno con quello dell'anno precedente, mettendo i due prospetti uno accanto all'altro sul tavolo."
+ },
+ {
+  "id": "s33",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La posizione dovrebbe crescere almeno di quanto hai versato, salvo gli anni in cui i mercati sono negativi."
+ },
+ {
+  "id": "s34",
+  "capitolo": 4,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Se qualcosa non torna, per esempio un versamento che manca, e' il momento giusto per chiedere: al Fondo, o al tuo ufficio del personale."
+ },
+ {
+  "id": "s35",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Un'abitudine da costruire, allora. Una volta l'anno, quando arriva il prospetto, un appuntamento con te stesso."
+ },
+ {
+  "id": "s36",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Dieci minuti, non di piu'. Cassetto Documentazione per il prospetto, poi Investimento per il profilo, poi Soggetti designati. Nient'altro."
+ },
+ {
+  "id": "s37",
+  "capitolo": 5,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "E' tutta la manutenzione di cui ha bisogno la tua pensione complementare. Poco tempo, ma con regolarita', come il tagliando dell'auto."
+ },
+ {
+  "id": "s38",
+  "capitolo": 6,
+  "tema": "profondo",
+  "posa": 1.2,
+  "text": "Mezz'ora per mettere in ordine. Dieci minuti l'anno per tenerla in ordine."
+ },
+ {
+  "id": "s39",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Le tre cose da ricordare. Uno: nell'area riservata trovi tutte le informazioni e le operazioni sulla tua posizione."
+ },
+ {
+  "id": "s40",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Otto cassetti, tutto online, a qualsiasi ora del giorno, senza bisogno di appuntamenti."
+ },
+ {
+  "id": "s41",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Due: il prospetto annuale e' il documento da leggere ogni anno, con calma, confrontandolo con quello dell'anno precedente."
+ },
+ {
+  "id": "s42",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Tre: una manutenzione annuale di dieci minuti basta per tenere tutto in ordine, anno dopo anno, fino alla pensione."
+ },
+ {
+  "id": "s43",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "La mossa di oggi: riprendi la tabella di questa lezione, e completa tutte le mosse in una sola sessione."
+ },
+ {
+  "id": "s44",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Una sera, mezz'ora, sei mosse. E la tua posizione e' finalmente in ordine, magari per la prima volta da quando hai aderito."
+ },
+ {
+  "id": "s45",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Nella prossima lezione facciamo un passo in piu': dal presente della posizione, guardiamo avanti, verso il futuro."
+ },
+ {
+  "id": "s46",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Come stimare quanto riceverai, il giorno della pensione? Con il simulatore del Fondo, e con la proiezione chiamata la mia pensione complementare."
+ },
+ {
+  "id": "s47",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "Vedremo come si usano, e soprattutto come si leggono con la giusta prudenza, senza prendere quei numeri per promesse."
+ },
+ {
+  "id": "s48",
+  "capitolo": 7,
+  "tema": "chiaro",
+  "posa": 0,
+  "text": "[warm] Il simulatore e la proiezione. Ci vediamo nella lezione dieci punto due."
+ }
+]
