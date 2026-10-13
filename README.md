@@ -151,6 +151,7 @@ progetti/<modulo>-<lezione>/
 | `m16-l16.7-ustionato` | Modulo 16 · 16.7 Il grande ustionato | 8:57.7 | `0ca0a0f6996b0f140b9e50b81fb7aebd` |
 | `m16-l16.8-chetoacidosi` | Modulo 16 · 16.8 La chetoacidosi all'esordio | 9:06.8 | `79de8b7bf3e9f72ef4cb7b910e48e245` |
 | `m16-l16.9-enterale` | Modulo 16 · 16.9 Nutrizione enterale, polmonite da inalazione e rialimentazione | 9:06.1 | `dfe463127e4a0de2c6bbc87cbbcf0d44` |
+| `m16-l16.5-clostridioides` | Modulo 16 · 16.5 Diarrea in reparto: Clostridioides difficile e isolamento | 8:53.6 | `e3d1266c3a6228cc6078f0f978150923` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
