@@ -156,17 +156,46 @@ tracce lunghe e **48** generata blocco per blocco. Un motivo in più, oltre al
 tono, per non spezzare. Contro i ~10.400 crediti ElevenLabs ($1,73) più i
 ~1.000 di trascrizione che costa oggi.
 
-**Le due cose da verificare durante la prova:**
+**Le due incognite sono state chiuse il 14 ottobre, con cinque campioni.**
 
-1. **il timeout.** Una chiamata da 3.400 caratteri è andata in timeout a 60 s;
-   una da 1.150 è passata. Il limite pratico sta in mezzo e va trovato: se un
-   chunk intero non passa, la strada regge solo spezzando, e spezzando si
-   perde il tono uniforme che è la ragione delle tracce lunghe;
-2. **il ritmo.** HeyGen esce a **17,4 caratteri al secondo** contro i 16,5 di
-   ElevenLabs diretto: circa il 5% più veloce. `atempo=1.12` è tarato
-   sull'altro, quindi va ritarato — e **le due sorgenti non si mescolano
-   dentro lo stesso corso**. Il modulo 7 è il punto giusto per cambiare
-   perché è un modulo intero; a metà modulo no.
+**1. Il timeout: il limite sta fra 3.097 e 3.401 caratteri.**
+
+| caratteri | durata | esito |
+|---|---|---|
+| 203 | 12,8 s | passa |
+| 1.150 | 68,4 s | passa |
+| 2.243 | 143,7 s | passa |
+| 2.526 | 164,6 s | passa |
+| 3.097 | 192,5 s | passa |
+| 3.401 | — | **timeout a 60 s** |
+
+Conseguenza di progetto: con HeyGen un copione da 10.400 caratteri va in
+**quattro tracce da ~2.600**, non in tre da ~3.470. Quattro stacchi invece di
+tre, su cambi di capitolo come sempre. È il prezzo della strada, ed è piccolo:
+il tono si riazzera quattro volte in dieci minuti invece di tre, contro le
+quarantotto di una generazione blocco per blocco.
+
+**2. Il ritmo: HeyGen è più LENTO, non più veloce.**
+
+| | caratteri al secondo sul grezzo |
+|---|---|
+| ElevenLabs diretto (le tre tracce della 6.5) | **16,25** |
+| HeyGen v4 (i tre campioni lunghi) | **15,71** |
+
+Il 3,3% in meno. **Il «5% più veloce» scritto il 13 ottobre era sbagliato**, e
+vale la pena dire perché: confrontava un campione da 229 caratteri (17,4
+car/s) con la media di una traccia intera. I campioni corti hanno meno pause
+di frase e sembrano più veloci; il confronto si fa solo fra testi di lunghezza
+confrontabile.
+
+Con HeyGen l'`atempo` va quindi da 1,12 a **1,16** — `1.12 × 16.25 / 15.71` —
+e **le due sorgenti non si mescolano dentro lo stesso corso**. Il modulo 7 è
+il punto giusto per cambiare perché è un modulo intero; a metà modulo no.
+
+**Il costo, rimisurato su cinque campioni:** 30 crediti per 500,8 s, cioè **un
+credito ogni 16,7 secondi**. Una lezione da 587 s costa **~35 crediti** in
+quattro chiamate. La stima del 13 ottobre (1 credito ogni 17–20 s, ~33 a
+lezione) era ottimista di poco.
 
 Il confronto A/B sul blocco `s34` della 6.5, grezzo contro grezzo, sta in
 `produzione/prove/voce-heygen-v4/`.
