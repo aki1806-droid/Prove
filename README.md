@@ -165,6 +165,7 @@ progetti/<modulo>-<lezione>/
 | `m17-l17.9-centro-servizi` | Modulo 17 · 17.9 Una notte in un Centro di Servizi | 9:10.1 | `dcc6fbce6630994352158bc2366dfa94` |
 | `m17-l17.8-caregiver` | Modulo 17 · 17.8 L'infermiere di famiglia e il caregiver esausto | 9:13.8 | `69f52ec09284da79b1902d9f976b4806` |
 | `m17-l17.10-straniera` | Modulo 17 · 17.10 La paziente straniera | 9:11.7 | `291c71f843b478b21473248d322aa78b` |
+| `m17-l17.6-oppioidi` | Modulo 17 · 17.6 Il paziente in terapia sostitutiva per oppioidi | 9:11.6 | `3135ee3f6c166032d3afe87f68a17d8a` |
 
 Le micro-lezioni pubblicate: i primi due moduli con la grafica di seconda
 generazione, dal 3 in poi con la terza (`slide/clinica.mjs`, settembre
