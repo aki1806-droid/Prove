@@ -1,0 +1,28 @@
+{
+ "A": {
+  "parole_copione": 437,
+  "parole_dette": 427,
+  "coincidenti": 426,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s06",
+    "copione": "hai",
+    "detto": "ha"
+   }
+  ]
+ },
+ "B": {
+  "parole_copione": 485,
+  "parole_dette": 475,
+  "coincidenti": 474,
+  "buchi": [],
+  "sostituzioni_brevi": [
+   {
+    "blocco": "s30",
+    "copione": "quanto i",
+    "detto": "quanti"
+   }
+  ]
+ }
+}

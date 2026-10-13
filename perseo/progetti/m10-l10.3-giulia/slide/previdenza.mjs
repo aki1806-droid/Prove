@@ -760,6 +760,7 @@ export const CORPI_PREV = {
     if (d.base) s += `<path class="tr" pathLength="1" d="M${X0} ${Y0 - 20}L${X1} 440" style="stroke:var(--fg);stroke-opacity:.6;stroke-width:6;stroke-dasharray:14 10"/>
       <text class="pic comp" ${ritardo(1.0)} x="${X1 + 20}" y="450" style="font-size:28px">${d.base}</text>`;
     L.forEach((t, i) => {
+      if (d.solo !== undefined && d.solo !== i) return;
       s += `<path class="tr" pathLength="1" d="${curva(top[i])}" style="stroke:${col[i]};stroke-width:${i === 1 ? 10 : 7};fill:none;animation-delay:${.3 + i * .2}s"/>
         <text class="et comp" ${ritardo(1.2 + i * .15)} x="${X1 + 20}" y="${top[i] + 12}" style="font-size:30px;fill:${col[i]}">${t}</text>`;
     });

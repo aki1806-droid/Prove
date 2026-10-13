@@ -39,7 +39,10 @@ Modulo 9 · Al pensionamento. Copione allungato a 6 minuti dallo script
 
 ## La resa
 
-- in corso
+- video HeyGen: `6e32ed4f4ed437fd8849df0848652314` — **completato**, 6:03,5 (363,5 s), 1920×1080,
+  sottotitoli SRT. Pagina: https://app.heygen.com/videos/6e32ed4f4ed437fd8849df0848652314
+- lotto asset `78354b521b4d4331921476e65a17d826` (96 file)
+- copia di controllo locale: `montato-9.5.mp4` 6:04,7 (non versionata) e `montato-9.5.srt`
 
 ## Da verificare — quello che non ho potuto giudicare io
 
