@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,050
+Molti infermieri lavorano nei Centri di Servizi, le strutture residenziali venete per anziani non autosufficienti. Di notte, spesso, c'e' un solo infermiere per un intero nucleo, e il medico non e' in struttura.
+
+2
+00:00:15,050 --> 00:00:26,300
+In questo caso un ospite con demenza avanzata ha la febbre. L'infermiere deve valutare, attivare il medico e partecipare a una decisione difficile: curarlo in struttura, o mandarlo in pronto soccorso?
+
+3
+00:00:26,300 --> 00:00:33,550
+Ci servono le lezioni due punto tre, tre punto tre, undici punto due, undici punto cinque e tredici punto cinque.
+
+4
+00:00:33,550 --> 00:00:44,290
+Lo scenario. Centro di Servizi, l'una di notte. Il signor Ernesto, ottantotto anni, ha una demenza di Alzheimer avanzata: non cammina, comunica poco, ha una disfagia nota.
+
+5
+00:00:44,290 --> 00:00:54,460
+Nella pianificazione condivisa con la figlia, che e' la sua amministratrice di sostegno, e con il medico, l'obiettivo prioritario e' il comfort, senza rianimazione cardiopolmonare.
+
+6
+00:00:54,460 --> 00:01:07,830
+Il ricovero e' previsto solo se utile per sintomi non gestibili in struttura. A cena ha tossito piu' volte. Ora ha la febbre a trentotto virgola otto, una frequenza respiratoria di ventisei, una saturazione di ottantanove.
+
+7
+00:01:07,830 --> 00:01:18,650
+Frequenza centododici, pressione centocinque su sessanta, rantoli a destra, ed e' piu' sonnolento. Fermati un momento: che cosa fai, e chi deve partecipare alla decisione?
+
+8
+00:01:18,650 --> 00:01:33,090
+Il ragionamento. Disfagia, tosse durante il pasto, febbre, tachipnea, desaturazione e rantoli: una probabile polmonite da inalazione, come nel caso sedici punto nove. Il punteggio di allerta e' elevato: e' seria.
+
+9
+00:01:33,090 --> 00:01:43,890
+Ma con una demenza avanzata e una pianificazione orientata al comfort, la scelta fra struttura e ospedale non e' automatica. E' una decisione medica, condivisa con l'amministratrice di sostegno.
+
+10
+00:01:43,890 --> 00:01:51,560
+E coerente con la volonta' espressa. L'infermiere ha un ruolo centrale: valuta, comunica, propone, e mette in pratica il piano.
+
+11
+00:01:51,560 --> 00:02:05,100
+Le prime azioni. Valutazione ABCDE e glicemia. Posizione semiseduta, con aspirazione del cavo orale se necessaria. Ossigeno, se in struttura c'e' un concentratore o una bombola, secondo protocollo.
+
+12
+00:02:05,100 --> 00:02:18,130
+Si sospende l'alimentazione per bocca. Si avvisa il medico secondo l'organizzazione della struttura, reperibile o continuita' assistenziale, con lo SBAR. Si consulta la documentazione: pianificazione, terapie, allergie.
+
+13
+00:02:18,130 --> 00:02:25,620
+E si attribuisce all'OSS la sorveglianza degli altri ospiti, perche' di notte l'infermiere non puo' lasciare scoperto il resto del nucleo.
+
+14
+00:02:25,620 --> 00:02:37,870
+La chiamata al medico, con lo SBAR. Situazione: Ernesto, ottantotto anni, febbre a trentotto virgola otto, saturazione ottantanove, frequenza respiratoria ventisei, piu' sonnolento.
+
+15
+00:02:37,870 --> 00:02:51,630
+Background: demenza avanzata, disfagia, tosse a cena; la pianificazione prevede il comfort, niente rianimazione, ricovero solo se utile per sintomi non gestibili. Accertamento: probabile polmonite da inalazione.
+
+16
+00:02:51,630 --> 00:03:04,260
+In struttura abbiamo l'ossigeno e possiamo usare la via sottocutanea. Raccomandazione: chiedo una valutazione e indicazioni per la terapia; la figlia e' reperibile. Citare la pianificazione orienta subito la decisione.
+
+17
+00:03:04,260 --> 00:03:17,420
+La decisione. Il medico valuta Ernesto e, sentita la figlia, decide di trattarlo in struttura, coerentemente con la pianificazione. Secondo prescrizione: un antibiotico, l'ossigeno con un target, l'antipiretico.
+
+18
+00:03:17,420 --> 00:03:30,120
+E l'idratazione per via sottocutanea, se non puo' bere. L'infermiere cura la posizione e il cavo orale, gestisce dispnea, secrezioni e agitazione, controlla parametri e comfort a intervalli concordati.
+
+19
+00:03:30,120 --> 00:03:36,700
+E conosce i criteri per rivalutare un trasferimento, per esempio sintomi che non si riescono a controllare. E documenta tutto.
+
+20
+00:03:36,700 --> 00:03:49,400
+Perche' non sempre il pronto soccorso? Per una persona con demenza avanzata il trasferimento puo' causare delirium, cadute, lesioni da pressione, contenzioni, lunghe attese, procedure invasive di scarso beneficio.
+
+21
+00:03:49,400 --> 00:04:01,260
+Per molti problemi, come una polmonite in chi ha scelto il comfort, le cure in struttura possono essere adeguate. Ma il trasferimento resta giusto se serve un trattamento non disponibile e coerente con gli obiettivi.
+
+22
+00:04:01,260 --> 00:04:13,470
+Una frattura da trattare, un'emorragia, sintomi non controllati. Si decide sulla volonta', sul beneficio atteso e sulle possibilita' della struttura. Non e' non fare niente: e' la cosa giusta nel posto giusto.
+
+23
+00:04:13,470 --> 00:04:22,380
+La figlia viene chiamata nella notte, e chiede spaventata: non lo portate in ospedale? Non volete curarlo? Si ascoltano la sua paura e il suo senso di colpa.
+
+24
+00:04:22,380 --> 00:04:33,750
+Si spiega che le cure continuano in struttura: antibiotico, ossigeno, idratazione, comfort. Si ricordano con calma le scelte condivise mesi prima. E il medico e' disponibile a parlarle.
+
+25
+00:04:33,750 --> 00:04:44,900
+Con onesta': la decisione si puo' rivedere se cambiano le condizioni o la sua valutazione, e lei puo' venire, se lo desidera. Molte famiglie hanno bisogno di sentire che il loro caro non e' abbandonato.
+
+26
+00:04:44,900 --> 00:04:53,080
+Un approfondimento tecnico, molto usato nelle strutture e a domicilio: l'ipodermoclisi, cioe' l'idratazione per via sottocutanea.
+
+27
+00:04:53,080 --> 00:05:01,150
+E' indicata nella disidratazione lieve-moderata, quando la via orale non e' possibile e quella venosa e' difficile o non proporzionata.
+
+28
+00:05:01,150 --> 00:05:12,360
+Le sedi: addome, cosce, regione sotto la clavicola, e il dorso nel paziente agitato, che cosi' non puo' strappare l'ago. Soluzioni isotoniche secondo prescrizione, a velocita' lenta.
+
+29
+00:05:12,360 --> 00:05:23,610
+Si sorvegliano edema locale, arrossamento, dolore e segni di infezione, e si cambia la sede secondo protocollo. Non e' adatta alle emergenze o allo shock, dove serve la via venosa.
+
+30
+00:05:23,610 --> 00:05:34,620
+E se il trasferimento fosse stato necessario? Si prepara una scheda di trasferimento completa: il motivo, i parametri, le terapie, le allergie, l'autonomia e lo stato cognitivo abituale.
+
+31
+00:05:34,620 --> 00:05:45,610
+Un'informazione preziosa per il pronto soccorso, che altrimenti non sa se la confusione e' nuova. Poi la pianificazione condivisa e le eventuali DAT, i contatti del familiare e del medico.
+
+32
+00:05:45,610 --> 00:05:56,140
+Con Ernesto viaggiano gli occhiali, le protesi, gli apparecchi acustici. Si comunica con il pronto soccorso con lo SBAR. E una persona di riferimento lo accompagna o lo raggiunge.
+
+33
+00:05:56,140 --> 00:06:07,420
+La prevenzione nel nucleo. Per la disfagia: consistenze adatte, posizione seduta durante e dopo il pasto, assistenza al pasto da parte di personale formato, igiene del cavo orale.
+
+34
+00:06:07,420 --> 00:06:20,540
+Piu' ospiti con febbre o sintomi respiratori: possibile focolaio, per esempio di influenza, con precauzioni e segnalazione. Vaccinazioni di ospiti e operatori, igiene delle mani, e la revisione periodica del PAI.
+
+35
+00:06:20,540 --> 00:06:32,970
+Gli errori. Inviare in pronto soccorso per abitudine, senza valutazione e senza considerare la volonta'. Al contrario, non attivare il medico per non disturbare di notte. Non consultare la pianificazione condivisa.
+
+36
+00:06:32,970 --> 00:06:43,490
+Continuare a far mangiare un ospite che tossisce. Lasciare il resto del nucleo senza sorveglianza. Una scheda di trasferimento senza lo stato cognitivo abituale. Non coinvolgere la famiglia.
+
+37
+00:06:43,490 --> 00:06:51,200
+Le domande d'orale. Prima: come si decide il trasferimento? E' una decisione medica, condivisa con la persona o con il suo rappresentante.
+
+38
+00:06:51,200 --> 00:07:02,550
+Si basa sulla gravita', sulla volonta' espressa e sulla pianificazione condivisa, sul beneficio atteso e sulle possibilita' della struttura. L'infermiere valuta, comunica con lo SBAR e partecipa.
+
+39
+00:07:02,550 --> 00:07:13,820
+Seconda: l'ipodermoclisi? L'idratazione per via sottocutanea con soluzioni isotoniche, nella disidratazione lieve-moderata quando la via orale non e' possibile. Non nelle emergenze.
+
+40
+00:07:13,820 --> 00:07:25,510
+Terza: la scheda di trasferimento? Motivo, parametri, terapie, allergie, autonomia e stato cognitivo abituale, pianificazione e DAT, contatti, ausili personali.
+
+41
+00:07:25,510 --> 00:07:38,540
+La risposta modello. Ospite di un Centro di Servizi con demenza avanzata e disfagia che, dopo tosse al pasto, ha febbre, tachipnea, desaturazione, rantoli e sonnolenza: probabile polmonite da inalazione.
+
+42
+00:07:38,540 --> 00:07:51,010
+Valuto con ABCDE e glicemia, posiziono semiseduto, aspiro, somministro ossigeno, sospendo l'alimentazione per bocca e attribuisco all'OSS la sorveglianza degli altri ospiti.
+
+43
+00:07:51,010 --> 00:08:01,080
+Consulto la pianificazione condivisa e avviso il medico con SBAR, citandola. Collaboro alla decisione, condivisa con l'amministratrice di sostegno, di trattarlo in struttura.
+
+44
+00:08:01,080 --> 00:08:14,550
+Antibiotico, ossigeno, antipiretico e idratazione sottocutanea secondo prescrizione, cura dei sintomi, criteri per un eventuale trasferimento. Sostengo la figlia. Documento, e rivedo con l'equipe la prevenzione.
+
+45
+00:08:14,550 --> 00:08:29,920
+I collegamenti: NEWS2, due punto tre. Disfagia, tre punto tre. Demenza, undici punto due. Cure palliative, undici punto cinque e diciassette punto sette. Centri di Servizi, tredici punto cinque. Inalazione, sedici punto nove.
+
+46
+00:08:29,920 --> 00:08:43,500
+L'infermiere nei Centri di Servizi: grande autonomia, soprattutto di notte. Coordinamento degli OSS, terapia di molti ospiti, prevenzione, famiglie, fine vita. Un ambito ricco, spesso sottovalutato, e molto richiesto.
+
+47
+00:08:43,500 --> 00:08:50,610
+La frase del caso: curare in struttura non e' curare di meno. E' curare secondo la volonta' della persona.
+
+48
+00:08:50,610 --> 00:09:01,100
+Nella prossima lezione: una paziente straniera che parla poco l'italiano, un figlio che vorrebbe tradurre per lei, un consenso da raccogliere e una dimissione da costruire insieme. A tra poco.
