@@ -1,0 +1,103 @@
+{
+  "progetto": "PDRO_150_ore_studio_2027",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voce_elevenlabs": "Achille nuovo 1 v4",
+  "modello": "eleven_multilingual_v2",
+  "atempo": 1.12,
+  "avatar_heygen": "Aki with a lapel microphone",
+  "posizione_avatar": "basso a destra",
+  "logo": "alto a sinistra",
+  "scene": [
+    {
+      "n": 1,
+      "tipo": "slide",
+      "kicker": "AOUP · PERMESSI PER STUDIO 2027",
+      "titolo": "150 ore pagate per studiare",
+      "sotto": "Domanda entro l'11 novembre 2026",
+      "voce": "Vuoi finire la scuola, prendere una laurea o fare un master? All'Azienda Ospedale Università di Padova si sono aperte le domande per i permessi retribuiti per studio del duemilaventisette. Fino a centocinquanta ore pagate in un anno. Ma attenzione: la domanda va presentata entro l'undici novembre.",
+      "parole": 46,
+      "caratteri": 298,
+      "durata_stimata_s": 18.3,
+      "file_visivo": "slide/S01_slide.png"
+    },
+    {
+      "n": 2,
+      "tipo": "clip",
+      "banda": "Comparto: tempo indeterminato e determinato, anche part-time",
+      "clip": "Operatrice sanitaria in divisa che, a fine turno, apre un libro e un portatile a un tavolo luminoso. Atmosfera serena, nessun logo leggibile.",
+      "voce": "I permessi spettano al personale del comparto a tempo indeterminato e anche a tempo determinato, con un contratto di almeno sei mesi. Valgono anche in part time, in proporzione all'orario. Servono per frequentare corsi che rilasciano un titolo riconosciuto, dalla scuola alla qualifica professionale, dalla laurea al master, e per sostenere i relativi esami.",
+      "parole": 54,
+      "caratteri": 358,
+      "durata_stimata_s": 22.0,
+      "file_visivo": "clip/S02_clip.mp4 (da generare) + overlay_clip/S02_overlay.png"
+    },
+    {
+      "n": 3,
+      "tipo": "slide",
+      "kicker": "I POSTI E LA GRADUATORIA",
+      "titolo": "150 posti disponibili",
+      "elenco": [
+        "Scuola primaria",
+        "Scuola secondaria e qualifiche",
+        "Università",
+        "Master e post laurea"
+      ],
+      "voce": "Quest'anno i posti sono centocinquanta, cioè il tre per cento dei dipendenti del comparto. Se le domande saranno di più, si farà una graduatoria: prima chi frequenta la scuola, poi le qualifiche professionali, poi l'università e infine master e post laurea. In ogni gruppo passa avanti chi è all'ultimo anno ed è in regola con gli esami.",
+      "parole": 57,
+      "caratteri": 337,
+      "durata_stimata_s": 20.8,
+      "file_visivo": "slide/S03_slide.png"
+    },
+    {
+      "n": 4,
+      "tipo": "clip",
+      "banda": "Modulo firmato + documento + bonifico. Entro l'11/11",
+      "clip": "Mani che compilano e firmano un modulo cartaceo, poi infilano i fogli in una busta. Dettaglio penna, luce d'ufficio.",
+      "voce": "Come si presenta la domanda? Con il modulo allegato all'avviso, compilato in ogni campo e firmato. Allega la copia del documento d'identità e la ricevuta del pagamento della tassa di iscrizione. Puoi consegnarla a mano all'Ufficio Protocollo, inviarla con posta certificata o con raccomandata con ricevuta di ritorno. Le domande arrivate in ritardo non vengono considerate.",
+      "parole": 56,
+      "caratteri": 373,
+      "durata_stimata_s": 23.0,
+      "file_visivo": "clip/S04_clip.mp4 (da generare) + overlay_clip/S04_overlay.png"
+    },
+    {
+      "n": 5,
+      "tipo": "slide",
+      "kicker": "ATTENZIONE",
+      "titolo": "Tre cose da sapere",
+      "elenco": [
+        "Fuori corso: niente permessi",
+        "Telematiche: solo lezioni in diretta in orario di lavoro",
+        "Numero chiuso: domanda comunque entro la scadenza"
+      ],
+      "voce": "Tre attenzioni importanti. Chi è fuori corso non ha diritto ai permessi. Per le università telematiche contano solo le lezioni in diretta che si possono seguire esclusivamente in orario di lavoro, e vanno certificate. E se aspetti l'esito di un test di ammissione, presenta comunque la domanda entro la scadenza: poi avrai quindici giorni dall'esito per comunicarlo.",
+      "parole": 57,
+      "caratteri": 366,
+      "durata_stimata_s": 22.5,
+      "file_visivo": "slide/S05_slide.png"
+    },
+    {
+      "n": 6,
+      "tipo": "clip",
+      "banda": "Turni agevolati, niente straordinari obbligatori. E le attestazioni ogni mese",
+      "clip": "Infermiere che consulta il planning dei turni su una bacheca di reparto insieme alla coordinatrice. Clima collaborativo.",
+      "voce": "Se ottieni i permessi hai dei diritti: turni che ti aiutino a frequentare e a preparare gli esami, e nessun obbligo di straordinario, di festivi o di lavoro nel giorno di riposo. Hai anche degli impegni: comunicare entro il venti di ogni mese i giorni del mese dopo, e consegnare le attestazioni di frequenza e degli esami, anche se non superati.",
+      "parole": 61,
+      "caratteri": 346,
+      "durata_stimata_s": 21.3,
+      "file_visivo": "clip/S06_clip.mp4 (da generare) + overlay_clip/S06_overlay.png"
+    },
+    {
+      "n": 7,
+      "tipo": "slide",
+      "kicker": "CISL FP PADOVA ROVIGO",
+      "titolo": "Ti aiutiamo con la domanda",
+      "sotto": "Opuscolo e vademecum gratuiti. Vieni in sede o chiedi al tuo delegato.",
+      "voce": "Senza quei documenti, le ore già usate diventano ferie o aspettativa. Per questo non sei solo. Vieni nella nostra sede: ti aiutiamo a compilare il modulo, controlliamo gli allegati e ti spieghiamo la graduatoria. Trovi anche il nostro opuscolo e il vademecum da scaricare. Scadenza undici novembre. CISL FP Padova Rovigo, al tuo fianco, una persona alla volta.",
+      "parole": 58,
+      "caratteri": 360,
+      "durata_stimata_s": 22.2,
+      "file_visivo": "slide/S07_slide.png"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 3.459,
+  "testo": "Vuoi finire la scuola, prendere una laurea o fare un master?"
+ },
+ {
+  "scena": "S01",
+  "inizio": 3.499,
+  "fine": 6.486,
+  "testo": "All'Azienda Ospedale Università di Padova si sono aperte"
+ },
+ {
+  "scena": "S01",
+  "inizio": 6.526,
+  "fine": 10.257,
+  "testo": "le domande per i permessi retribuiti per studio del 2027."
+ },
+ {
+  "scena": "S01",
+  "inizio": 10.297,
+  "fine": 13.805,
+  "testo": "Fino a 150 ore pagate in un anno. Ma attenzione:"
+ },
+ {
+  "scena": "S01",
+  "inizio": 13.845,
+  "fine": 16.461,
+  "testo": "la domanda va presentata entro l'11 novembre."
+ },
+ {
+  "scena": "S02",
+  "inizio": 16.949,
+  "fine": 19.762,
+  "testo": "I permessi spettano al personale del comparto a tempo"
+ },
+ {
+  "scena": "S02",
+  "inizio": 19.802,
+  "fine": 22.034,
+  "testo": "indeterminato e anche a tempo determinato,"
+ },
+ {
+  "scena": "S02",
+  "inizio": 22.074,
+  "fine": 23.988,
+  "testo": "con un contratto di almeno 6 mesi."
+ },
+ {
+  "scena": "S02",
+  "inizio": 24.028,
+  "fine": 27.3,
+  "testo": "Valgono anche in part time, in proporzione all'orario."
+ },
+ {
+  "scena": "S02",
+  "inizio": 27.34,
+  "fine": 30.7,
+  "testo": "Servono per frequentare corsi che rilasciano un titolo"
+ },
+ {
+  "scena": "S02",
+  "inizio": 30.74,
+  "fine": 33.711,
+  "testo": "riconosciuto, dalla scuola alla qualifica professionale,"
+ },
+ {
+  "scena": "S02",
+  "inizio": 33.751,
+  "fine": 36.776,
+  "testo": "dalla laurea al master, e per sostenere i relativi esami."
+ },
+ {
+  "scena": "S03",
+  "inizio": 37.258,
+  "fine": 39.268,
+  "testo": "Quest'anno i posti sono 150,"
+ },
+ {
+  "scena": "S03",
+  "inizio": 39.308,
+  "fine": 42.153,
+  "testo": "cioè il 3% dei dipendenti del comparto."
+ },
+ {
+  "scena": "S03",
+  "inizio": 42.193,
+  "fine": 45.171,
+  "testo": "Se le domande saranno di più, si farà una graduatoria:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 45.211,
+  "fine": 48.412,
+  "testo": "prima chi frequenta la scuola, poi le qualifiche"
+ },
+ {
+  "scena": "S03",
+  "inizio": 48.452,
+  "fine": 51.961,
+  "testo": "professionali, poi l'università e infine master e post laurea."
+ },
+ {
+  "scena": "S03",
+  "inizio": 52.001,
+  "fine": 55.268,
+  "testo": "In ogni gruppo passa avanti chi è all'ultimo anno ed è in"
+ },
+ {
+  "scena": "S03",
+  "inizio": 55.308,
+  "fine": 56.396,
+  "testo": "regola con gli esami."
+ },
+ {
+  "scena": "S04",
+  "inizio": 56.916,
+  "fine": 58.625,
+  "testo": "Come si presenta la domanda?"
+ },
+ {
+  "scena": "S04",
+  "inizio": 58.665,
+  "fine": 62.26,
+  "testo": "Con il modulo allegato all'avviso, compilato in ogni campo e firmato."
+ },
+ {
+  "scena": "S04",
+  "inizio": 62.3,
+  "fine": 65.577,
+  "testo": "Allega la copia del documento d'identità e la ricevuta del"
+ },
+ {
+  "scena": "S04",
+  "inizio": 65.617,
+  "fine": 67.826,
+  "testo": "pagamento della tassa di iscrizione."
+ },
+ {
+  "scena": "S04",
+  "inizio": 67.866,
+  "fine": 70.319,
+  "testo": "Puoi consegnarla a mano all'Ufficio Protocollo,"
+ },
+ {
+  "scena": "S04",
+  "inizio": 70.359,
+  "fine": 73.123,
+  "testo": "inviarla con posta certificata o con raccomandata con"
+ },
+ {
+  "scena": "S04",
+  "inizio": 73.163,
+  "fine": 74.455,
+  "testo": "ricevuta di ritorno."
+ },
+ {
+  "scena": "S04",
+  "inizio": 74.495,
+  "fine": 77.363,
+  "testo": "Le domande arrivate in ritardo non vengono considerate."
+ },
+ {
+  "scena": "S05",
+  "inizio": 77.871,
+  "fine": 79.204,
+  "testo": "Tre attenzioni importanti."
+ },
+ {
+  "scena": "S05",
+  "inizio": 79.244,
+  "fine": 82.443,
+  "testo": "Chi è fuori corso non ha diritto ai permessi."
+ },
+ {
+  "scena": "S05",
+  "inizio": 82.483,
+  "fine": 85.342,
+  "testo": "Per le università telematiche contano solo le lezioni in"
+ },
+ {
+  "scena": "S05",
+  "inizio": 85.382,
+  "fine": 88.343,
+  "testo": "diretta che si possono seguire esclusivamente in orario di"
+ },
+ {
+  "scena": "S05",
+  "inizio": 88.383,
+  "fine": 90.413,
+  "testo": "lavoro, e vanno certificate."
+ },
+ {
+  "scena": "S05",
+  "inizio": 90.453,
+  "fine": 92.803,
+  "testo": "E se aspetti l'esito di un test di ammissione,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 92.843,
+  "fine": 95.244,
+  "testo": "presenta comunque la domanda entro la scadenza:"
+ },
+ {
+  "scena": "S05",
+  "inizio": 95.284,
+  "fine": 97.99,
+  "testo": "poi avrai 15 giorni dall'esito per comunicarlo."
+ },
+ {
+  "scena": "S06",
+  "inizio": 98.467,
+  "fine": 100.469,
+  "testo": "Se ottieni i permessi hai dei diritti:"
+ },
+ {
+  "scena": "S06",
+  "inizio": 100.509,
+  "fine": 103.581,
+  "testo": "turni che ti aiutino a frequentare e a preparare gli"
+ },
+ {
+  "scena": "S06",
+  "inizio": 103.621,
+  "fine": 105.779,
+  "testo": "esami, e nessun obbligo di straordinario,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 105.819,
+  "fine": 108.135,
+  "testo": "di festivi o di lavoro nel giorno di riposo."
+ },
+ {
+  "scena": "S06",
+  "inizio": 108.175,
+  "fine": 110.299,
+  "testo": "Hai anche degli impegni:"
+ },
+ {
+  "scena": "S06",
+  "inizio": 110.339,
+  "fine": 113.282,
+  "testo": "comunicare entro il 20 di ogni mese i giorni del mese"
+ },
+ {
+  "scena": "S06",
+  "inizio": 113.322,
+  "fine": 116.213,
+  "testo": "dopo, e consegnare le attestazioni di frequenza e degli"
+ },
+ {
+  "scena": "S06",
+  "inizio": 116.253,
+  "fine": 117.783,
+  "testo": "esami, anche se non superati."
+ },
+ {
+  "scena": "S07",
+  "inizio": 118.273,
+  "fine": 121.747,
+  "testo": "Senza quei documenti, le ore già usate diventano ferie o aspettativa."
+ },
+ {
+  "scena": "S07",
+  "inizio": 121.787,
+  "fine": 123.317,
+  "testo": "Per questo non sei solo."
+ },
+ {
+  "scena": "S07",
+  "inizio": 123.357,
+  "fine": 124.753,
+  "testo": "Vieni nella nostra sede:"
+ },
+ {
+  "scena": "S07",
+  "inizio": 124.793,
+  "fine": 127.642,
+  "testo": "ti aiutiamo a compilare il modulo, controlliamo gli"
+ },
+ {
+  "scena": "S07",
+  "inizio": 127.682,
+  "fine": 129.94,
+  "testo": "allegati e ti spieghiamo la graduatoria."
+ },
+ {
+  "scena": "S07",
+  "inizio": 129.98,
+  "fine": 133.274,
+  "testo": "Trovi anche il nostro opuscolo e il vademecum da scaricare."
+ },
+ {
+  "scena": "S07",
+  "inizio": 133.314,
+  "fine": 134.921,
+  "testo": "Scadenza 11 novembre."
+ },
+ {
+  "scena": "S07",
+  "inizio": 134.961,
+  "fine": 137.075,
+  "testo": "CISL FP Padova Rovigo, al tuo fianco,"
+ },
+ {
+  "scena": "S07",
+  "inizio": 137.115,
+  "fine": 138.545,
+  "testo": "una persona alla volta."
+ }
+]
