@@ -1,5 +1,5 @@
 {
- "_nota": "Fondo degli SVG (per dissolvenze e logo) e punto su cui stringe lo zoom lento dopo la fine dell'animazione. I centri stanno ad almeno y 600 perché con lo zoom 1,25 il titolo resti fuori campo invece di essere tagliato sotto il logo.",
+ "_nota": "Fondo degli SVG (per dissolvenze e logo) e punto su cui stringe lo zoom lento dopo la fine dell'animazione. I centri stanno ad almeno y 600 perché con lo zoom 1,25 il titolo resti fuori campo invece di essere tagliato sotto il logo. In A3 il riquadro «Risposta 1» è all'altezza del titolo: niente zoom forte, solo una spinta a 1,04 centrata in modo che il titolo resti fermo accanto al logo e tutto il resto in campo.",
  "IAS_M01_L01_A1_parola-successiva.svg": {
   "fondo": "chiaro",
   "dettaglio": [
@@ -19,7 +19,29 @@
   "dettaglio": [
    1320,
    640
-  ]
+  ],
+  "S027": {
+   "chiavi": [
+    [
+     0,
+     1.0,
+     960,
+     540
+    ],
+    [
+     5.8,
+     1.0,
+     960,
+     540
+    ],
+    [
+     99,
+     1.04,
+     926,
+     525
+    ]
+   ]
+  }
  },
  "IAS_M01_L01_A4_con-documento.svg": {
   "fondo": "chiaro",
