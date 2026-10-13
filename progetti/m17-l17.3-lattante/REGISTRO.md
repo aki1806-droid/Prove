@@ -44,7 +44,10 @@ stacco tracce             dopo s23   (chunk A 4.450 car · chunk B 4.502 car)
 
 ## La resa
 
-*in corso*
+| | |
+|---|---|
+| resa pubblicata | `f69435cb5658bad2b270a7fc47a3f9ad` — 553.436 s (9:13.4), 1080p 16:9, con SRT (`subtitle_url`) |
+| lotto asset | `93458a48189f42b6a74e3f040e854c8c` — 98 file; `a17.3-s05.mp3` (`005ca17e5b174349aac7eb8511bf06d1`) è rimasto «processing» per 20 minuti ed è stato ricaricato da solo: nuovo id `ad0aceb5975f4650bfd9aff01a317f31` in `asset-id-audio.json` |
 
 ---
 
