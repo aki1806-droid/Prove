@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:11,630
+Chiudiamo il modulo dei casi clinici avanzati. Prima riprendiamo le frasi chiave degli undici casi, da usare come ancore, e i fili che li attraversano.
+
+2
+00:00:11,630 --> 00:00:23,640
+Poi sei casi lampo, su situazioni che possono capitare in qualsiasi turno: per ognuno, il ragionamento essenziale. Infine le tracce piu' probabili legate a questo modulo, i calcoli da sapere, e come allenarsi.
+
+3
+00:00:23,640 --> 00:00:36,680
+Le frasi del modulo, come ancore. Ictus, sedici punto uno: l'orologio parte dall'ultima volta in cui stava bene. Emorragia nel cirrotico, sedici punto due: chi vomita sangue e si addormenta rischia prima di soffocare.
+
+4
+00:00:36,680 --> 00:00:48,040
+Iperkaliemia, sedici punto tre: il calcio protegge, ma solo la dialisi porta via il potassio. Embolia, sedici punto quattro: un polpaccio gonfio da un lato non e' da posizione.
+
+5
+00:00:48,040 --> 00:00:59,740
+Clostridioides, sedici punto cinque: con le spore l'alcol non basta, servono acqua e sapone. Politrauma, sedici punto sei: l'ordine delle priorita' salva piu' della velocita'.
+
+6
+00:00:59,740 --> 00:01:10,330
+Ustionato, sedici punto sette: l'orologio parte dalle fiamme, non dalla porta del pronto soccorso. Chetoacidosi, sedici punto otto: l'insulina si sospende per ultima.
+
+7
+00:01:10,330 --> 00:01:24,250
+Nutrizione, sedici punto nove: nutrire piano, e nella posizione giusta. Monossido, sedici punto dieci: il saturimetro non lo legge. Terapia intensiva, sedici punto undici: dietro le macchine c'e' una persona.
+
+8
+00:01:24,250 --> 00:01:34,080
+I fili che attraversano i casi. Il primo e' il tempo come dato clinico: nell'ictus, nelle ustioni, nel trauma, dove conta anche l'ora dell'acido tranexamico.
+
+9
+00:01:34,080 --> 00:01:44,340
+Il secondo sono i parametri che ingannano: la saturazione nel monossido, l'emoglobina nell'emorragia acuta, il potassio nella chetoacidosi, la pressione nell'ictus.
+
+10
+00:01:44,340 --> 00:01:57,010
+Il terzo: le vie aeree prima di tutto, come nell'ABCDE della lezione dieci punto due. Nel cirrotico che vomita sangue, nell'ustionato con i segni di inalazione, nel paziente ventilato.
+
+11
+00:01:57,010 --> 00:02:09,180
+Il quarto: la prevenzione mancata come radice dell'evento. L'embolia senza profilassi, l'inalazione durante la nutrizione, la rialimentazione troppo rapida, il Clostridioides isolato in ritardo.
+
+12
+00:02:09,180 --> 00:02:19,200
+E il quinto: la persona dietro la malattia. Il cirrotico e il suo rapporto con l'alcol, la ragazza che riceve la diagnosi a diciannove anni, la famiglia fuori dalla porta.
+
+13
+00:02:19,200 --> 00:02:30,490
+Caso lampo uno. Un ragazzo asmatico di ventidue anni, in pronto soccorso, non riesce a finire una frase e usa i muscoli accessori. Frequenza respiratoria trentaquattro, saturazione novanta.
+
+14
+00:02:30,490 --> 00:02:42,080
+E all'auscultazione, quasi nessun sibilo. Il torace silenzioso non e' un buon segno: passa pochissima aria. E' un attacco grave, vicino all'arresto, come nella lezione otto punto due.
+
+15
+00:02:42,080 --> 00:02:53,440
+Posizione seduta, ossigeno con target, broncodilatatori per aerosol ripetuti e corticosteroide secondo prescrizione; eventualmente il magnesio endovena. Monitoraggio, ed emogas.
+
+16
+00:02:53,440 --> 00:03:03,920
+Un asmatico che smette di sibilare puo' stare peggiorando. E i segni di esaurimento, cioe' sonnolenza, bradicardia, anidride carbonica che sale, richiedono subito il rianimatore.
+
+17
+00:03:03,920 --> 00:03:15,610
+Caso lampo due. Una signora di ottantotto anni, che vive sola, viene trovata a terra in casa al mattino, d'inverno, dopo una caduta notturna. Temperatura trentuno gradi, bradicardica, confusa.
+
+18
+00:03:15,610 --> 00:03:26,320
+E in terapia anticoagulante. E' un'ipotermia moderata: la si manovra con delicatezza, perche' il cuore freddo va facilmente in fibrillazione ventricolare, e la si riscalda in modo graduale.
+
+19
+00:03:26,320 --> 00:03:35,820
+Coperte, e liquidi caldi secondo prescrizione. La lunga permanenza a terra fa pensare alla rabdomiolisi: urine scure, enzimi muscolari, funzione renale.
+
+20
+00:03:35,820 --> 00:03:46,790
+Con l'anticoagulante, il trauma cranico richiede una TC. Si cercano le lesioni da pressione. E alla fine, la domanda di sempre, quella della lezione quindici punto sette: perche' e' caduta?
+
+21
+00:03:46,790 --> 00:03:59,640
+Caso lampo tre. Un'ora dopo un catetere venoso centrale in succlavia: dolore toracico e dispnea, saturazione da novantasette a novanta, murmure ridotto dallo stesso lato. Sospetto pneumotorace da procedura.
+
+22
+00:03:59,640 --> 00:04:09,070
+Ossigeno, posizione semiseduta, avviso immediato al medico e radiografia del torace, preparando il materiale per un eventuale drenaggio. E l'evento si segnala.
+
+23
+00:04:09,070 --> 00:04:20,510
+E una regola, della lezione sei punto due: il catetere centrale non si usa finche' il corretto posizionamento non e' confermato. Dopo la succlavia, la radiografia esclude anche lo pneumotorace.
+
+24
+00:04:20,510 --> 00:04:31,860
+Caso lampo quattro. Una signora di ottanta anni, in terapia con un diuretico tiazidico, e' ricoverata per confusione e cadute. Ha un sodio di centodiciotto, e nella notte una crisi convulsiva.
+
+25
+00:04:31,860 --> 00:04:43,500
+E' un'iponatriemia grave e sintomatica. Sicurezza, gestione della crisi, avviso al medico. La correzione avviene secondo prescrizione, spesso con soluzione salina ipertonica in piccole dosi.
+
+26
+00:04:43,500 --> 00:04:54,460
+Con controlli ravvicinati del sodio. Perche' la correzione troppo rapida puo' causare un danno neurologico grave, la sindrome da demielinizzazione osmotica, della lezione tre punto cinque.
+
+27
+00:04:54,460 --> 00:05:04,140
+Poi bilancio idrico e diuresi, e la revisione dei farmaci che abbassano il sodio, come alcuni diuretici e antidepressivi: proprio come il tiazidico che la signora assumeva.
+
+28
+00:05:04,140 --> 00:05:15,590
+Caso lampo cinque. Un paziente con un PICC al braccio destro da tre settimane presenta edema e dolore del braccio, vene superficiali evidenti, e una circonferenza aumentata di tre centimetri.
+
+29
+00:05:15,590 --> 00:05:24,450
+E' una sospetta trombosi venosa associata al catetere. Si segnala, senza rimuovere ne' usare il catetere di propria iniziativa, e si esegue un'ecografia.
+
+30
+00:05:24,450 --> 00:05:34,210
+L'anticoagulazione e' su prescrizione, e la decisione sulla rimozione e' medica. Ecco perche' la misurazione della circonferenza del braccio e' parte della sorveglianza del PICC.
+
+31
+00:05:34,210 --> 00:05:43,200
+Caso lampo sei. Un uomo di settantasei anni in terapia anticoagulante e' scivolato in casa e ha battuto la testa. Ora sta bene, e vuole tornare a casa.
+
+32
+00:05:43,200 --> 00:05:53,420
+Un trauma cranico minore, in un paziente anticoagulato, espone a un'emorragia intracranica, anche tardiva: lo stesso rischio della signora Elena, nella lezione quindici punto sette.
+
+33
+00:05:53,420 --> 00:06:06,500
+Si segue il protocollo, che di solito prevede la valutazione medica e la TC, con una sorveglianza neurologica: GCS, pupille, cefalea, vomito, sonnolenza. L'anticoagulante, secondo indicazione.
+
+34
+00:06:06,500 --> 00:06:13,820
+E alla dimissione si danno istruzioni scritte sui segni d'allarme, verificando che un adulto resti con lui nelle ore successive.
+
+35
+00:06:13,820 --> 00:06:26,270
+Le tracce piu' probabili legate a questo modulo. Il sospetto ictus in reparto. L'emorragia digestiva. L'iperkaliemia nel dializzato. L'embolia polmonare in medicina. Il paziente con Clostridioides.
+
+36
+00:06:26,270 --> 00:06:39,650
+Il politrauma, con l'XABCDE. Il grande ustionato, con il calcolo di Parkland. La chetoacidosi. La nutrizione enterale e l'inalazione. Il monossido. Il paziente ventilato, con DOPE e la VAP.
+
+37
+00:06:39,650 --> 00:06:48,170
+Per ognuna di queste tracce hai ora un caso svolto, con lo scenario, le priorita', la risposta modello in quindici righe e tre domande d'orale.
+
+38
+00:06:48,170 --> 00:07:01,070
+I calcoli da sapere a memoria. Parkland: quattro millilitri, per chilo, per percentuale di ustione di secondo e terzo grado, in ventiquattro ore. Per ottanta chili e il trenta per cento, novemilaseicento millilitri.
+
+39
+00:07:01,070 --> 00:07:13,460
+Meta' nelle prime otto ore, contate dal momento dell'ustione: e' la trappola sugli orari della sedici punto sette. E la diuresi obiettivo: mezzo millilitro per chilo all'ora, circa quaranta all'ora per ottanta chili.
+
+40
+00:07:13,460 --> 00:07:24,860
+La velocita' di infusione: dose oraria diviso concentrazione. Il Padua, sviluppato proprio a Padova, con la soglia di quattro per l'alto rischio. La regola del nove, per l'estensione dell'ustione.
+
+41
+00:07:24,860 --> 00:07:34,420
+La GCS, da tre a quindici. E la regola del quindici per l'ipoglicemia: quindici grammi di zuccheri semplici, e un nuovo controllo dopo quindici minuti.
+
+42
+00:07:34,420 --> 00:07:44,060
+Come allenarsi con questo modulo. Una traccia al giorno, alternando i casi del modulo quindici e del sedici. Per i casi con i calcoli, rifare il calcolo senza guardare.
+
+43
+00:07:44,060 --> 00:07:53,800
+Per i casi con una trappola, il potassio, la saturazione, gli orari, scriverla in una riga. Nel quaderno dei casi, aggiungere undici pagine e i sei casi lampo.
+
+44
+00:07:53,800 --> 00:08:01,390
+E ripetere ad alta voce le risposte alle domande d'orale: tre per ogni caso, trentatre' in tutto il modulo, in due o tre minuti ciascuna.
+
+45
+00:08:01,390 --> 00:08:08,100
+La frase del modulo: nei casi complessi, la competenza e' sapere quale dato non credere.
+
+46
+00:08:08,100 --> 00:08:16,100
+Una saturazione perfetta, un'emoglobina normale, un potassio nei limiti: ognuno di questi casi ci ha insegnato a guardare oltre il numero.
+
+47
+00:08:16,100 --> 00:08:27,760
+Nel prossimo modulo cambiamo scenario: la gravidanza e il parto, il bambino, la salute mentale, le cure palliative a domicilio, il territorio veneto e i temi di responsabilita' professionale.
+
+48
+00:08:27,760 --> 00:08:36,800
+Si apre con la preeclampsia grave, che nel modulo quindici era un caso lampo e qui diventa un caso intero. Altri dodici casi, con lo stesso metodo. Ci vediamo li'.

@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:15,980
+Il bambino non e' un adulto piccolo, e questo caso lo mostra in tre modi. I segni di gravita' sono diversi, la riserva di liquidi e' minore, e le dosi si calcolano per chilo, con un rischio di errore molto piu' alto.
+
+2
+00:00:15,980 --> 00:00:27,760
+Il protagonista e' un lattante disidratato per una gastroenterite, insieme ai suoi genitori. Le lezioni: quattro punto tre, cinque punto tre, dieci punto quattro, undici punto quattro e quattordici punto uno.
+
+3
+00:00:27,760 --> 00:00:39,470
+Lo scenario. Leo, nove mesi. Da due giorni ha vomito e diarrea acquosa, otto-dieci scariche al giorno, e febbre. Prima della malattia pesava otto virgola otto chili; oggi ne pesa otto.
+
+4
+00:00:39,470 --> 00:00:51,370
+L'ultimo pannolino bagnato risale a dieci ore fa. Prima era irritabile, ora e' sonnolento. La fontanella anteriore e' depressa, gli occhi sono infossati, le mucose secche, e piange senza lacrime.
+
+5
+00:00:51,370 --> 00:01:04,110
+Frequenza centosettantacinque, riempimento capillare di tre secondi, mani e piedi freddi, cute marezzata. I genitori sono molto spaventati. Fermati: quanto e' grave la disidratazione, e che cosa ti preoccupa di piu'?
+
+6
+00:01:04,110 --> 00:01:16,630
+Il ragionamento. Il calo e' di zero virgola otto chili su otto virgola otto: circa il nove per cento, una disidratazione moderata-grave. Il peso prima della malattia, quando si conosce, e' il dato piu' preciso.
+
+7
+00:01:16,630 --> 00:01:30,320
+I segni concordano: fontanella depressa, occhi infossati, mucose secche, pianto senza lacrime, oliguria. E ci sono segni di shock iniziale: tachicardia marcata, riempimento capillare lento, estremita' fredde, marezzatura.
+
+8
+00:01:30,320 --> 00:01:40,470
+E soprattutto la sonnolenza, un segno di gravita' in un lattante. Ricordi la lezione dieci punto quattro: nel bambino l'ipotensione e' un segno tardivo. Non va aspettata.
+
+9
+00:01:40,470 --> 00:01:51,520
+Le prime azioni. Triage di alta priorita' e avviso immediato al pediatra. L'ABCDE pediatrico. La glicemia capillare, perche' un lattante che non mangia da due giorni puo' essere ipoglicemico.
+
+10
+00:01:51,520 --> 00:01:58,380
+Il peso preciso, che sara' la base di tutte le dosi. Poi l'accesso venoso, spesso difficile in un lattante disidratato.
+
+11
+00:01:58,380 --> 00:02:10,740
+Se e' in shock e la vena non si trova in fretta, accesso intraosseo, come nella lezione cinque punto due. Prelievi per elettroliti, funzione renale ed emogas. Monitoraggio. E i genitori restano accanto al bambino.
+
+12
+00:02:10,740 --> 00:02:23,150
+La reidratazione endovenosa, secondo prescrizione. Nello shock si somministra un bolo di cristalloide isotonico, per esempio dieci millilitri per chilo: per Leo, ottanta millilitri, infusi rapidamente.
+
+13
+00:02:23,150 --> 00:02:34,130
+Con una rivalutazione dopo ogni bolo: frequenza, riempimento capillare, coscienza, diuresi. Poi si prosegue con una reidratazione che corregge il deficit e garantisce il mantenimento.
+
+14
+00:02:34,130 --> 00:02:45,380
+Un'attenzione di sicurezza: nel lattante si infonde con una pompa, o con un deflussore pediatrico con buretta. Mai un flacone a caduta libera: un errore di pochi minuti puo' dare un sovraccarico pericoloso.
+
+15
+00:02:45,380 --> 00:02:56,160
+Un esempio di dose per chilo, con i calcoli della lezione cinque punto tre. Viene prescritto il paracetamolo a quindici milligrammi per chilo. Per Leo: otto per quindici fa centoventi milligrammi.
+
+16
+00:02:56,160 --> 00:03:09,090
+Lo sciroppo contiene centoventi milligrammi in cinque millilitri: la dose e' di cinque millilitri. Poi la dose massima giornaliera, e le siringhe per uso orale: mai per iniezione, perche' un farmaco orale non finisca in vena.
+
+17
+00:03:09,090 --> 00:03:21,960
+Gli errori tipici della pediatria: la virgola, milligrammi e millilitri confusi, le dosi da adulto, le confezioni con concentrazioni diverse. Il doppio controllo dei calcoli e' una regola, non una scortesia verso il collega.
+
+18
+00:03:21,960 --> 00:03:34,360
+La diuresi nel lattante si misura pesando i pannolini: un grammo corrisponde circa a un millilitro di urina, sottraendo il peso del pannolino asciutto. L'obiettivo indicativo: circa uno-due millilitri per chilo all'ora.
+
+19
+00:03:34,360 --> 00:03:45,570
+Piu' che nell'adulto. Si distinguono urine e feci, si tiene il bilancio di entrate e uscite, compresi vomito e diarrea, e si pesa il bambino ogni giorno, alla stessa ora e con la stessa bilancia.
+
+20
+00:03:45,570 --> 00:03:56,800
+L'evoluzione. Dopo due boli e la reidratazione endovenosa, la frequenza scende a centoquaranta, il riempimento capillare torna normale, Leo e' piu' reattivo, e bagna il primo pannolino.
+
+21
+00:03:56,800 --> 00:04:09,250
+Si passa gradualmente alla reidratazione per bocca, con la soluzione reidratante orale in piccole quantita' frequenti: per esempio un cucchiaino ogni uno-due minuti. Piccoli volumi sono tollerati anche da chi vomita.
+
+22
+00:04:09,250 --> 00:04:21,590
+Si continua l'allattamento, o la normale alimentazione appena tollerata. E si evitano succhi di frutta, bibite zuccherate, te' e brodi come reidratanti: zuccheri e sali non adatti, che possono peggiorare la diarrea.
+
+23
+00:04:21,590 --> 00:04:31,860
+Le precauzioni per le infezioni. Le gastroenteriti virali dei bambini, come quelle da rotavirus o norovirus, si trasmettono per via oro-fecale e sono molto contagiose.
+
+24
+00:04:31,860 --> 00:04:42,250
+Si applicano le precauzioni da contatto secondo protocollo, e l'igiene delle mani: con acqua e sapone quando il protocollo lo indica, perche' alcuni virus resistono al gel alcolico.
+
+25
+00:04:42,250 --> 00:04:53,010
+Poi una gestione attenta di pannolini e superfici. Si educano i genitori: mani, fasciatoio, giocattoli. E la vaccinazione contro il rotavirus e' offerta nel primo anno di vita.
+
+26
+00:04:53,010 --> 00:05:04,650
+Un approfondimento: i genitori e il dolore del bambino. La presenza dei genitori e' un diritto del bambino e un vero intervento terapeutico: in braccio alla madre, un lattante ha meno paura e meno dolore.
+
+27
+00:05:04,650 --> 00:05:13,290
+Si spiega in modo semplice che cosa si fara', e si coinvolgono i genitori: tenere il bambino in braccio, allattarlo durante la procedura, distrarlo.
+
+28
+00:05:13,290 --> 00:05:21,540
+Per il dolore delle procedure, una crema anestetica locale quando il tempo lo consente, la distrazione, una posizione di conforto.
+
+29
+00:05:21,540 --> 00:05:31,780
+Il dolore si valuta con una scala adatta all'eta', come la FLACC della lezione undici punto quattro. E l'ansia dei genitori fa parte del caso: non e' un disturbo da gestire.
+
+30
+00:05:31,780 --> 00:05:42,550
+La dimissione. I genitori devono riconoscere i segni di disidratazione: pannolini asciutti, sonnolenza, pianto senza lacrime, bocca secca, fontanella depressa.
+
+31
+00:05:42,550 --> 00:05:56,000
+Sapere come somministrare la soluzione reidratante, e continuare l'allattamento. E sapere quando tornare subito: vomito che non si ferma, sangue nelle feci, sonnolenza, poche urine, febbre alta persistente.
+
+32
+00:05:56,000 --> 00:06:03,250
+Poi l'igiene delle mani in famiglia, e il riferimento al pediatra di libera scelta. Tutto verificato con il teach-back.
+
+33
+00:06:03,250 --> 00:06:13,330
+Gli errori. Aspettare l'ipotensione per riconoscere lo shock. Dimenticare la glicemia. Non pesare il bambino. Calcolare le dosi senza doppio controllo.
+
+34
+00:06:13,330 --> 00:06:24,090
+Le siringhe per iniezione per i farmaci orali. Il flacone a caduta libera nel lattante. Reidratare con succhi o bibite. E allontanare i genitori durante le procedure.
+
+35
+00:06:24,090 --> 00:06:35,310
+Le domande d'orale. Prima: i segni di disidratazione nel lattante? Calo di peso, fontanella depressa, occhi infossati, mucose secche, pianto senza lacrime, oliguria.
+
+36
+00:06:35,310 --> 00:06:47,760
+E nei casi gravi tachicardia, riempimento capillare lento, estremita' fredde e alterazione della coscienza. Seconda: come si calcola una dose per chilo? Si moltiplica la dose per chilo per il peso.
+
+37
+00:06:47,760 --> 00:06:57,330
+Si converte in volume in base alla concentrazione, si verifica la dose massima, si esegue un doppio controllo, e per i farmaci per bocca si usano siringhe per uso orale.
+
+38
+00:06:57,330 --> 00:07:05,290
+Terza: la diuresi? Pesando i pannolini e sottraendo il peso del pannolino asciutto: un grammo corrisponde circa a un millilitro.
+
+39
+00:07:05,290 --> 00:07:18,280
+La risposta modello. Lattante di nove mesi con gastroenterite, calo di peso del nove per cento, segni di disidratazione, tachicardia, riempimento capillare rallentato, estremita' fredde e sonnolenza.
+
+40
+00:07:18,280 --> 00:07:34,010
+Disidratazione moderata-grave con shock iniziale. Assegno alta priorita' e avviso subito il pediatra; valuto ABCDE e glicemia, peso il bambino e reperisco un accesso, intraosseo se necessario.
+
+41
+00:07:34,010 --> 00:07:47,490
+Somministro il bolo prescritto di dieci millilitri per chilo con rivalutazione, infondendo con pompa. Calcolo le dosi per chilo con doppio controllo, e uso siringhe orali. Misuro la diuresi pesando i pannolini.
+
+42
+00:07:47,490 --> 00:07:59,840
+Quando tollerato avvio la reidratazione orale a piccole quantita', e continuo l'allattamento. Applico le precauzioni da contatto. Coinvolgo i genitori, e li educo a riconoscere i segni di disidratazione.
+
+43
+00:07:59,840 --> 00:08:12,200
+I collegamenti. Le precauzioni da contatto con la quattro punto tre. I calcoli con la cinque punto tre. L'accesso intraosseo con la cinque punto due. I segni di gravita' nel bambino con la dieci punto quattro.
+
+44
+00:08:12,200 --> 00:08:22,370
+La pediatria e il dolore con la undici punto quattro. I compartimenti idrici con la quattordici punto uno, che spiegano perche' il lattante si disidrata cosi' in fretta.
+
+45
+00:08:22,370 --> 00:08:35,600
+Un aspetto organizzativo: a volte un bambino viene assistito in un pronto soccorso generale, o in un'area non pediatrica. Serve materiale pediatrico: maschere, bracciali, aghi, pompe, piastre del defibrillatore.
+
+46
+00:08:35,600 --> 00:08:44,510
+Servono tabelle dei parametri normali e delle dosi per eta' e peso, la consulenza pediatrica, e un ambiente adatto, con la presenza dei genitori.
+
+47
+00:08:44,510 --> 00:08:52,380
+La frase del caso: nel bambino tutto si calcola per chilo, e lo shock si riconosce prima che la pressione cada.
+
+48
+00:08:52,380 --> 00:09:04,410
+Nella prossima lezione, un tema delicato: un paziente ricoverato per una malattia fisica che, una notte, lascia intendere di non voler piu' vivere. Che cosa dire, che cosa fare, e come proteggerlo. A tra poco.

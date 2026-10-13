@@ -1,0 +1,191 @@
+1
+00:00:03,000 --> 00:00:13,850
+Entriamo in terapia intensiva, dove l'infermiere gestisce insieme tecnologie complesse e una persona che non puo' parlare. Non un'unica emergenza, ma una giornata intera, e un allarme improvviso.
+
+2
+00:00:13,850 --> 00:00:27,910
+Poi la prevenzione della polmonite associata alla ventilazione, la sedazione, il dolore, il delirium, una famiglia in attesa. Lezioni tre punto uno, sei punto due, sette punto due, dieci punto cinque e undici punto uno.
+
+3
+00:00:27,910 --> 00:00:35,990
+Lo scenario. Il signor Renato, sessantasei anni, e' in terapia intensiva da quattro giorni per un'insufficienza respiratoria grave da polmonite.
+
+4
+00:00:35,990 --> 00:00:48,330
+E' intubato e ventilato in modalita' controllata, con sedazione e analgesia in infusione continua. Ha un catetere venoso centrale, un catetere arterioso, un sondino con nutrizione enterale e un catetere vescicale.
+
+5
+00:00:48,330 --> 00:00:59,580
+Alle dieci suona l'allarme di alta pressione: la saturazione scende da novantacinque a ottantacinque, il paziente si agita e morde il tubo. Fermati: con quale acronimo affronti la situazione?
+
+6
+00:00:59,580 --> 00:01:13,110
+L'acronimo e' DOPE, della lezione dieci punto cinque. D, dislocazione: i centimetri del tubo all'arcata dentaria sono quelli annotati? O, ostruzione: il tubo e' morso, ci sono secrezioni, e' piegato?
+
+7
+00:01:13,110 --> 00:01:26,040
+P, pneumotorace: il torace si espande in modo asimmetrico, il murmure manca da un lato? E, equipaggiamento: ventilatore, circuito, ossigeno. Nel dubbio si stacca il paziente e lo si ventila con il pallone.
+
+8
+00:01:26,040 --> 00:01:37,710
+Qui il tubo e' morso e ci sono secrezioni: si inserisce un blocco-morso, si aspira, si valuta con il medico la sedazione. La saturazione risale a novantacinque. In meno di due minuti, con un metodo.
+
+9
+00:01:37,710 --> 00:01:49,210
+La prevenzione della polmonite associata alla ventilazione, con il bundle della lezione tre punto uno, secondo protocollo. La testata a trenta-quarantacinque gradi, sempre. L'igiene del cavo orale regolare.
+
+10
+00:01:49,210 --> 00:02:00,580
+La pressione della cuffia fra venti e trenta centimetri d'acqua, controllata con il manometro. L'aspirazione sottoglottica, se il tubo ha il canale dedicato. L'igiene delle mani, e l'aspirazione asettica.
+
+11
+00:02:00,580 --> 00:02:11,760
+La riduzione quotidiana della sedazione, con la valutazione dello svezzamento: ogni giorno di ventilazione in meno e' un rischio in meno. Il circuito non si cambia di routine, solo se sporco o danneggiato.
+
+12
+00:02:11,760 --> 00:02:23,740
+Il dolore in chi non puo' parlare. Il paziente intubato non puo' usare la scala numerica: si usano scale comportamentali validate, come la BPS, la Behavioral Pain Scale, o la CPOT.
+
+13
+00:02:23,740 --> 00:02:35,830
+Osservano l'espressione del volto, i movimenti delle braccia, la tensione muscolare e l'adattamento al ventilatore. Il principio: prima l'analgesia, poi la sedazione, perche' un paziente agitato spesso ha dolore.
+
+14
+00:02:35,830 --> 00:02:42,710
+E il dolore si valuta e si previene prima delle procedure dolorose: aspirazione, mobilizzazione, medicazioni.
+
+15
+00:02:42,710 --> 00:02:53,030
+La sedazione si valuta con la scala RASS: da piu' quattro, il paziente combattivo, a meno cinque, il paziente non risvegliabile. Lo zero e' una persona sveglia e calma.
+
+16
+00:02:53,030 --> 00:03:00,100
+L'obiettivo e' prescritto, e oggi, quando possibile, si punta a una sedazione leggera: un paziente calmo e risvegliabile.
+
+17
+00:03:00,100 --> 00:03:11,780
+Una sedazione eccessiva prolunga la ventilazione e favorisce delirium e debolezza; una insufficiente porta agitazione e rischio di estubazione accidentale. Si rivaluta spesso, e si documenta.
+
+18
+00:03:11,780 --> 00:03:23,640
+Quinta giornata. Con una sedazione piu' leggera, il signor Renato e' agitato, tira i dispositivi e non segue le richieste in modo coerente. Si valuta con la CAM-ICU, la CAM adattata all'intubato.
+
+19
+00:03:23,640 --> 00:03:34,670
+E' positiva: e' un delirium. Si cercano le cause: dolore, ipossia, infezione, farmaci come le benzodiazepine, astinenza, ritenzione urinaria, privazione di sonno.
+
+20
+00:03:34,670 --> 00:03:47,420
+Gli interventi della undici punto uno, adattati: orientamento, occhiali e apparecchi acustici, ciclo giorno-notte con luci e rumori ridotti di notte, familiari, mobilizzazione. E la protezione dei dispositivi.
+
+21
+00:03:47,420 --> 00:04:00,280
+Un approfondimento: il bundle ABCDEF, una strategia diffusa nelle terapie intensive per ridurre i giorni di ventilazione e le conseguenze a lungo termine. Molti dei suoi elementi sono infermieristici.
+
+22
+00:04:00,280 --> 00:04:09,580
+A: valutare, prevenire e trattare il dolore. B: prove quotidiane di risveglio e di respiro spontaneo. C: la scelta ragionata di analgesia e sedazione.
+
+23
+00:04:09,580 --> 00:04:21,690
+D: valutazione, prevenzione e gestione del delirium. E: mobilizzazione precoce, anche nel ventilato, quando e' sicura. F: il coinvolgimento della famiglia. E' il bundle che lega insieme tutto il caso.
+
+24
+00:04:21,690 --> 00:04:34,180
+Cute, occhi e dispositivi. Le lesioni da dispositivo, frequentissime in terapia intensiva: labbra e angoli della bocca per il tubo e il fissaggio, narici per il sondino, orecchie, la cute sotto i sensori.
+
+25
+00:04:34,180 --> 00:04:46,120
+Le lesioni da pressione a sacro, talloni e occipite; e se il paziente viene messo prono, al volto, al torace e alle ginocchia. Gli occhi, che nel paziente sedato non si chiudono bene: si protegge la cornea.
+
+26
+00:04:46,120 --> 00:04:54,030
+Il bundle per il catetere venoso centrale, della lezione sei punto due. E il catetere vescicale, di cui si rivaluta la necessita' ogni giorno.
+
+27
+00:04:54,030 --> 00:05:01,070
+E se il tubo esce, per un'estubazione accidentale o perche' il paziente se lo toglie? Si chiama subito aiuto, e si valuta il respiro.
+
+28
+00:05:01,070 --> 00:05:13,510
+Se e' efficace, ossigeno con maschera e monitoraggio. Se e' inefficace, si ventila con pallone e maschera, come nella lezione dieci punto cinque. E si prepara la reintubazione, con l'aspiratore pronto.
+
+29
+00:05:13,510 --> 00:05:24,480
+Poi si documenta e si segnala. La prevenzione: un fissaggio sicuro, sedazione e analgesia adeguate, sorveglianza, e attenzione nei movimenti e nelle mobilizzazioni.
+
+30
+00:05:24,480 --> 00:05:34,840
+La famiglia. La moglie del signor Renato attende fuori dalla porta. Ha bisogno di accoglienza e di informazioni chiare: quelle cliniche dal medico, quelle assistenziali dall'infermiere.
+
+31
+00:05:34,840 --> 00:05:43,220
+Molte terapie intensive hanno orari di visita il piu' possibile aperti. Prima del primo ingresso si spiegano i dispositivi e gli allarmi, che spaventano.
+
+32
+00:05:43,220 --> 00:05:54,190
+Si coinvolge la moglie nella cura: parlare al marito, toccarlo, portare oggetti personali; la sua voce aiuta anche nel delirium. E in alcune realta' c'e' un diario di terapia intensiva.
+
+33
+00:05:54,190 --> 00:06:00,560
+Lo scrivono operatori e familiari, e aiuta il paziente a ricostruire, dopo, i giorni che non ricorda.
+
+34
+00:06:00,560 --> 00:06:13,640
+Dopo la terapia intensiva, molti pazienti sviluppano una sindrome post-terapia intensiva: debolezza muscolare, deficit cognitivi, ansia, depressione, a volte un disturbo post-traumatico. Anche nei familiari.
+
+35
+00:06:13,640 --> 00:06:27,310
+La prevenzione comincia in terapia intensiva, con il bundle ABCDEF, la mobilizzazione, il sonno e la famiglia. E prosegue con follow-up e riabilitazione, in continuita' con il reparto di destinazione.
+
+36
+00:06:27,310 --> 00:06:37,830
+Le domande d'orale. Prima: allarme di alta pressione con desaturazione? Chiamo aiuto e applico DOPE: dislocazione, ostruzione, pneumotorace, equipaggiamento.
+
+37
+00:06:37,830 --> 00:06:48,240
+Nel dubbio stacco il paziente e lo ventilo con il pallone e ossigeno; poi tratto la causa, per esempio aspirando o inserendo un blocco-morso. Seconda: come previene la VAP?
+
+38
+00:06:48,240 --> 00:07:01,450
+Testata a trenta-quarantacinque gradi, igiene orale, cuffia a venti-trenta, aspirazione sottoglottica, riduzione quotidiana della sedazione e valutazione dello svezzamento, igiene delle mani, aspirazione asettica.
+
+39
+00:07:01,450 --> 00:07:09,890
+Terza: come valuta il dolore nell'intubato? Con scale comportamentali, come la BPS o la CPOT, prima e durante le procedure.
+
+40
+00:07:09,890 --> 00:07:22,670
+La risposta modello. Paziente ventilato con allarme di alta pressione, desaturazione e agitazione: applico DOPE, rilevo il tubo morso e ostruito, inserisco un blocco-morso, aspiro con tecnica asettica.
+
+41
+00:07:22,670 --> 00:07:35,200
+Verifico i centimetri del tubo; nel dubbio ventilerei con il pallone. Valuto il dolore con una scala comportamentale e la sedazione con la RASS, rispetto all'obiettivo, segnalando al medico: prima l'analgesia.
+
+42
+00:07:35,200 --> 00:07:49,210
+Applico il bundle VAP: testata, igiene orale, cuffia, aspirazione sottoglottica, riduzione della sedazione, svezzamento. Valuto il delirium con la CAM-ICU, ne cerco le cause, applico misure non farmacologiche.
+
+43
+00:07:49,210 --> 00:07:57,620
+Prevengo lesioni da dispositivo e da pressione, proteggo gli occhi, applico il bundle per il catetere centrale. Coinvolgo la famiglia, e documento.
+
+44
+00:07:57,620 --> 00:08:12,380
+I collegamenti. La VAP con la tre punto uno; il catetere centrale, sei punto due; le lesioni, sette punto due; l'aspirazione, otto punto due; DOPE, RASS e CAM-ICU, dieci punto cinque; il delirium, undici punto uno.
+
+45
+00:08:12,380 --> 00:08:23,730
+Un pensiero sull'infermiere di area critica. Ha un rapporto infermiere-paziente piu' basso, e competenze avanzate: ventilazione, farmaci vasoattivi, monitoraggio invasivo, tecniche dialitiche continue.
+
+46
+00:08:23,730 --> 00:08:34,640
+Ma il suo valore aggiunto resta la sorveglianza continua: cogliere i cambiamenti nella persona prima che li segnalino le macchine. Molti neoassunti vengono inseriti qui, con una formazione specifica.
+
+47
+00:08:34,640 --> 00:08:41,430
+La frase del caso: dietro le macchine c'e' una persona che sente dolore, ha paura, e ha una famiglia.
+
+48
+00:08:41,430 --> 00:08:50,460
+Nella prossima lezione chiudiamo il modulo sedici, con il riepilogo e sei nuovi casi lampo, su situazioni che possono capitarti in qualsiasi turno. A tra poco.
