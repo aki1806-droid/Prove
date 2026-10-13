@@ -1,0 +1,386 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 2.419,
+  "testo": "La riforma delle professioni sanitarie è arrivata"
+ },
+ {
+  "scena": "S01",
+  "inizio": 2.459,
+  "fine": 4.003,
+  "testo": "nell'Aula della Camera."
+ },
+ {
+  "scena": "S01",
+  "inizio": 4.043,
+  "fine": 6.019,
+  "testo": "Si parla di colpa e carenze di organico,"
+ },
+ {
+  "scena": "S01",
+  "inizio": 6.059,
+  "fine": 9.608,
+  "testo": "di competenze certificate, di linguaggio infermieristico e di sicurezza."
+ },
+ {
+  "scena": "S01",
+  "inizio": 9.648,
+  "fine": 12.51,
+  "testo": "Ma cosa cambia davvero per chi lavora in corsia?"
+ },
+ {
+  "scena": "S01",
+  "inizio": 12.55,
+  "fine": 15.073,
+  "testo": "E soprattutto, cosa ancora non cambia?"
+ },
+ {
+  "scena": "S01",
+  "inizio": 15.113,
+  "fine": 17.598,
+  "testo": "Facciamo chiarezza, punto per punto."
+ },
+ {
+  "scena": "S02",
+  "inizio": 18.088,
+  "fine": 18.687,
+  "testo": "Prima cosa:"
+ },
+ {
+  "scena": "S02",
+  "inizio": 18.727,
+  "fine": 19.751,
+  "testo": "è una legge delega."
+ },
+ {
+  "scena": "S02",
+  "inizio": 19.791,
+  "fine": 23.312,
+  "testo": "Il Parlamento fissa i principi, poi il Governo avrà sei"
+ },
+ {
+  "scena": "S02",
+  "inizio": 23.352,
+  "fine": 26.346,
+  "testo": "mesi per scrivere i decreti, con l'intesa delle Regioni."
+ },
+ {
+  "scena": "S02",
+  "inizio": 26.386,
+  "fine": 29.329,
+  "testo": "Quindi, anche dopo il voto finale, molte novità non"
+ },
+ {
+  "scena": "S02",
+  "inizio": 29.369,
+  "fine": 30.713,
+  "testo": "saranno subito operative."
+ },
+ {
+  "scena": "S02",
+  "inizio": 30.753,
+  "fine": 34.575,
+  "testo": "Serviranno altri atti, ed è lì che si giocherà la partita vera."
+ },
+ {
+  "scena": "S03",
+  "inizio": 35.039,
+  "fine": 37.82,
+  "testo": "La novità più importante riguarda la responsabilità."
+ },
+ {
+  "scena": "S03",
+  "inizio": 37.86,
+  "fine": 41.438,
+  "testo": "Chi rispetta linee guida e buone pratiche adeguate al caso"
+ },
+ {
+  "scena": "S03",
+  "inizio": 41.478,
+  "fine": 43.693,
+  "testo": "sarà punibile solo per colpa grave."
+ },
+ {
+  "scena": "S03",
+  "inizio": 43.733,
+  "fine": 46.728,
+  "testo": "E il giudice dovrà considerare la carenza di personale e"
+ },
+ {
+  "scena": "S03",
+  "inizio": 46.768,
+  "fine": 49.549,
+  "testo": "di mezzi, quando non è evitabile dal professionista,"
+ },
+ {
+  "scena": "S03",
+  "inizio": 49.589,
+  "fine": 52.554,
+  "testo": "insieme a urgenze, complessità e lavoro in équipe."
+ },
+ {
+  "scena": "S03",
+  "inizio": 52.594,
+  "fine": 55.855,
+  "testo": "Gli stessi criteri entrano anche nella responsabilità civile."
+ },
+ {
+  "scena": "S04",
+  "inizio": 56.356,
+  "fine": 57.212,
+  "testo": "Attenzione però:"
+ },
+ {
+  "scena": "S04",
+  "inizio": 57.252,
+  "fine": 60.95,
+  "testo": "non è un'esenzione per chi lavora in condizioni difficili."
+ },
+ {
+  "scena": "S04",
+  "inizio": 60.99,
+  "fine": 64.399,
+  "testo": "Restano diligenza, prudenza e perizia. E c'è un rischio:"
+ },
+ {
+  "scena": "S04",
+  "inizio": 64.439,
+  "fine": 67.677,
+  "testo": "riconoscere che le carenze pesano sulla colpa non può"
+ },
+ {
+  "scena": "S04",
+  "inizio": 67.717,
+  "fine": 69.47,
+  "testo": "diventare un modo per accettarle."
+ },
+ {
+  "scena": "S04",
+  "inizio": 69.51,
+  "fine": 71.536,
+  "testo": "Le carenze non si giustificano."
+ },
+ {
+  "scena": "S04",
+  "inizio": 71.576,
+  "fine": 74.003,
+  "testo": "Si colmano, con organici adeguati."
+ },
+ {
+  "scena": "S05",
+  "inizio": 74.45,
+  "fine": 76.9,
+  "testo": "Per gli infermieri ci sono due novità di peso."
+ },
+ {
+  "scena": "S05",
+  "inizio": 76.94,
+  "fine": 79.92,
+  "testo": "Un sistema nazionale di certificazione delle competenze,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 79.96,
+  "fine": 83.181,
+  "testo": "per riconoscere esperienza, master e formazione avanzata."
+ },
+ {
+  "scena": "S05",
+  "inizio": 83.221,
+  "fine": 85.943,
+  "testo": "E un linguaggio infermieristico standardizzato,"
+ },
+ {
+  "scena": "S05",
+  "inizio": 85.983,
+  "fine": 88.751,
+  "testo": "che porti l'assistenza dentro il Fascicolo sanitario"
+ },
+ {
+  "scena": "S05",
+  "inizio": 88.791,
+  "fine": 91.734,
+  "testo": "elettronico e renda visibile il vostro lavoro."
+ },
+ {
+  "scena": "S05",
+  "inizio": 91.774,
+  "fine": 94.86,
+  "testo": "Ma oggi non ci sono nuovi incarichi né aumenti automatici:"
+ },
+ {
+  "scena": "S05",
+  "inizio": 94.9,
+  "fine": 96.84,
+  "testo": "tutto dipenderà dai decreti."
+ },
+ {
+  "scena": "S06",
+  "inizio": 97.326,
+  "fine": 100.29,
+  "testo": "Poi l'accesso ai dati sanitari per tutti i professionisti"
+ },
+ {
+  "scena": "S06",
+  "inizio": 100.33,
+  "fine": 102.31,
+  "testo": "del percorso di cura, meno burocrazia,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 102.35,
+  "fine": 105.21,
+  "testo": "riconoscimenti per chi lavora in aree disagiate e premi"
+ },
+ {
+  "scena": "S06",
+  "inizio": 105.25,
+  "fine": 106.971,
+  "testo": "legati anche alle liste d'attesa."
+ },
+ {
+  "scena": "S06",
+  "inizio": 107.011,
+  "fine": 110.311,
+  "testo": "E, finalmente, la sicurezza degli operatori entra tra gli"
+ },
+ {
+  "scena": "S06",
+  "inizio": 110.351,
+  "fine": 111.606,
+  "testo": "obiettivi della riforma."
+ },
+ {
+  "scena": "S06",
+  "inizio": 111.646,
+  "fine": 114.763,
+  "testo": "Un principio giusto, che ora va riempito di misure"
+ },
+ {
+  "scena": "S06",
+  "inizio": 114.803,
+  "fine": 116.42,
+  "testo": "concrete contro le aggressioni."
+ },
+ {
+  "scena": "S07",
+  "inizio": 116.915,
+  "fine": 117.271,
+  "testo": "Ancora:"
+ },
+ {
+  "scena": "S07",
+  "inizio": 117.311,
+  "fine": 120.195,
+  "testo": "elenchi speciali presso gli Ordini e verifica della lingua"
+ },
+ {
+  "scena": "S07",
+  "inizio": 120.235,
+  "fine": 123.366,
+  "testo": "per i professionisti formati all'estero che lavorano in deroga."
+ },
+ {
+  "scena": "S07",
+  "inizio": 123.406,
+  "fine": 126.593,
+  "testo": "Una strategia sull'intelligenza artificiale in sanità,"
+ },
+ {
+  "scena": "S07",
+  "inizio": 126.633,
+  "fine": 129.468,
+  "testo": "corsi regionali sul digitale e la revisione della"
+ },
+ {
+  "scena": "S07",
+  "inizio": 129.508,
+  "fine": 131.945,
+  "testo": "formazione continua e degli Ordini professionali."
+ },
+ {
+  "scena": "S08",
+  "inizio": 132.442,
+  "fine": 133.662,
+  "testo": "Ed ecco il nodo."
+ },
+ {
+  "scena": "S08",
+  "inizio": 133.702,
+  "fine": 136.59,
+  "testo": "Tutto questo dovrà essere fatto senza nuovi o maggiori"
+ },
+ {
+  "scena": "S08",
+  "inizio": 136.63,
+  "fine": 138.683,
+  "testo": "oneri per la finanza pubblica."
+ },
+ {
+  "scena": "S08",
+  "inizio": 138.723,
+  "fine": 141.239,
+  "testo": "Certificare competenze, valorizzare chi lavora,"
+ },
+ {
+  "scena": "S08",
+  "inizio": 141.279,
+  "fine": 143.155,
+  "testo": "innovare, proteggere gli operatori:"
+ },
+ {
+  "scena": "S08",
+  "inizio": 143.195,
+  "fine": 144.846,
+  "testo": "senza risorse sono parole."
+ },
+ {
+  "scena": "S08",
+  "inizio": 144.886,
+  "fine": 148.386,
+  "testo": "Ed è proprio qui che la riforma si gioca la sua credibilità."
+ },
+ {
+  "scena": "S09",
+  "inizio": 148.819,
+  "fine": 151.905,
+  "testo": "Per noi la misura di questa riforma non sarà come giudica"
+ },
+ {
+  "scena": "S09",
+  "inizio": 151.945,
+  "fine": 154.006,
+  "testo": "chi sbaglia quando manca il personale,"
+ },
+ {
+  "scena": "S09",
+  "inizio": 154.046,
+  "fine": 156.054,
+  "testo": "ma se il personale smette di mancare."
+ },
+ {
+  "scena": "S09",
+  "inizio": 156.094,
+  "fine": 159.585,
+  "testo": "Seguiremo ogni passaggio, dall'Aula ai decreti attuativi."
+ },
+ {
+  "scena": "S09",
+  "inizio": 159.625,
+  "fine": 162.149,
+  "testo": "Hai domande su cosa cambia per te?"
+ },
+ {
+  "scena": "S09",
+  "inizio": 162.189,
+  "fine": 166.312,
+  "testo": "Scrivici o vieni in sede, al 3° piano della Palazzina dei Servizi."
+ },
+ {
+  "scena": "S09",
+  "inizio": 166.352,
+  "fine": 167.552,
+  "testo": "CISL FP Padova Rovigo."
+ }
+]

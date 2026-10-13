@@ -1,0 +1,256 @@
+1
+00:00:00,000 --> 00:00:02,419
+La riforma delle professioni sanitarie è arrivata
+
+2
+00:00:02,459 --> 00:00:04,003
+nell'Aula della Camera.
+
+3
+00:00:04,043 --> 00:00:06,019
+Si parla di colpa e carenze di organico,
+
+4
+00:00:06,059 --> 00:00:09,608
+di competenze certificate, di linguaggio infermieristico e di sicurezza.
+
+5
+00:00:09,648 --> 00:00:12,510
+Ma cosa cambia davvero per chi lavora in corsia?
+
+6
+00:00:12,550 --> 00:00:15,073
+E soprattutto, cosa ancora non cambia?
+
+7
+00:00:15,113 --> 00:00:17,598
+Facciamo chiarezza, punto per punto.
+
+8
+00:00:18,088 --> 00:00:18,687
+Prima cosa:
+
+9
+00:00:18,727 --> 00:00:19,751
+è una legge delega.
+
+10
+00:00:19,791 --> 00:00:23,312
+Il Parlamento fissa i principi, poi il Governo avrà sei
+
+11
+00:00:23,352 --> 00:00:26,346
+mesi per scrivere i decreti, con l'intesa delle Regioni.
+
+12
+00:00:26,386 --> 00:00:29,329
+Quindi, anche dopo il voto finale, molte novità non
+
+13
+00:00:29,369 --> 00:00:30,713
+saranno subito operative.
+
+14
+00:00:30,753 --> 00:00:34,575
+Serviranno altri atti, ed è lì che si giocherà la partita vera.
+
+15
+00:00:35,039 --> 00:00:37,820
+La novità più importante riguarda la responsabilità.
+
+16
+00:00:37,860 --> 00:00:41,438
+Chi rispetta linee guida e buone pratiche adeguate al caso
+
+17
+00:00:41,478 --> 00:00:43,693
+sarà punibile solo per colpa grave.
+
+18
+00:00:43,733 --> 00:00:46,728
+E il giudice dovrà considerare la carenza di personale e
+
+19
+00:00:46,768 --> 00:00:49,549
+di mezzi, quando non è evitabile dal professionista,
+
+20
+00:00:49,589 --> 00:00:52,554
+insieme a urgenze, complessità e lavoro in équipe.
+
+21
+00:00:52,594 --> 00:00:55,855
+Gli stessi criteri entrano anche nella responsabilità civile.
+
+22
+00:00:56,356 --> 00:00:57,212
+Attenzione però:
+
+23
+00:00:57,252 --> 00:01:00,950
+non è un'esenzione per chi lavora in condizioni difficili.
+
+24
+00:01:00,990 --> 00:01:04,399
+Restano diligenza, prudenza e perizia. E c'è un rischio:
+
+25
+00:01:04,439 --> 00:01:07,677
+riconoscere che le carenze pesano sulla colpa non può
+
+26
+00:01:07,717 --> 00:01:09,470
+diventare un modo per accettarle.
+
+27
+00:01:09,510 --> 00:01:11,536
+Le carenze non si giustificano.
+
+28
+00:01:11,576 --> 00:01:14,003
+Si colmano, con organici adeguati.
+
+29
+00:01:14,450 --> 00:01:16,900
+Per gli infermieri ci sono due novità di peso.
+
+30
+00:01:16,940 --> 00:01:19,920
+Un sistema nazionale di certificazione delle competenze,
+
+31
+00:01:19,960 --> 00:01:23,181
+per riconoscere esperienza, master e formazione avanzata.
+
+32
+00:01:23,221 --> 00:01:25,943
+E un linguaggio infermieristico standardizzato,
+
+33
+00:01:25,983 --> 00:01:28,751
+che porti l'assistenza dentro il Fascicolo sanitario
+
+34
+00:01:28,791 --> 00:01:31,734
+elettronico e renda visibile il vostro lavoro.
+
+35
+00:01:31,774 --> 00:01:34,860
+Ma oggi non ci sono nuovi incarichi né aumenti automatici:
+
+36
+00:01:34,900 --> 00:01:36,840
+tutto dipenderà dai decreti.
+
+37
+00:01:37,326 --> 00:01:40,290
+Poi l'accesso ai dati sanitari per tutti i professionisti
+
+38
+00:01:40,330 --> 00:01:42,310
+del percorso di cura, meno burocrazia,
+
+39
+00:01:42,350 --> 00:01:45,210
+riconoscimenti per chi lavora in aree disagiate e premi
+
+40
+00:01:45,250 --> 00:01:46,971
+legati anche alle liste d'attesa.
+
+41
+00:01:47,011 --> 00:01:50,311
+E, finalmente, la sicurezza degli operatori entra tra gli
+
+42
+00:01:50,351 --> 00:01:51,606
+obiettivi della riforma.
+
+43
+00:01:51,646 --> 00:01:54,763
+Un principio giusto, che ora va riempito di misure
+
+44
+00:01:54,803 --> 00:01:56,420
+concrete contro le aggressioni.
+
+45
+00:01:56,915 --> 00:01:57,271
+Ancora:
+
+46
+00:01:57,311 --> 00:02:00,195
+elenchi speciali presso gli Ordini e verifica della lingua
+
+47
+00:02:00,235 --> 00:02:03,366
+per i professionisti formati all'estero che lavorano in deroga.
+
+48
+00:02:03,406 --> 00:02:06,593
+Una strategia sull'intelligenza artificiale in sanità,
+
+49
+00:02:06,633 --> 00:02:09,468
+corsi regionali sul digitale e la revisione della
+
+50
+00:02:09,508 --> 00:02:11,945
+formazione continua e degli Ordini professionali.
+
+51
+00:02:12,442 --> 00:02:13,662
+Ed ecco il nodo.
+
+52
+00:02:13,702 --> 00:02:16,590
+Tutto questo dovrà essere fatto senza nuovi o maggiori
+
+53
+00:02:16,630 --> 00:02:18,683
+oneri per la finanza pubblica.
+
+54
+00:02:18,723 --> 00:02:21,239
+Certificare competenze, valorizzare chi lavora,
+
+55
+00:02:21,279 --> 00:02:23,155
+innovare, proteggere gli operatori:
+
+56
+00:02:23,195 --> 00:02:24,846
+senza risorse sono parole.
+
+57
+00:02:24,886 --> 00:02:28,386
+Ed è proprio qui che la riforma si gioca la sua credibilità.
+
+58
+00:02:28,819 --> 00:02:31,905
+Per noi la misura di questa riforma non sarà come giudica
+
+59
+00:02:31,945 --> 00:02:34,006
+chi sbaglia quando manca il personale,
+
+60
+00:02:34,046 --> 00:02:36,054
+ma se il personale smette di mancare.
+
+61
+00:02:36,094 --> 00:02:39,585
+Seguiremo ogni passaggio, dall'Aula ai decreti attuativi.
+
+62
+00:02:39,625 --> 00:02:42,149
+Hai domande su cosa cambia per te?
+
+63
+00:02:42,189 --> 00:02:46,312
+Scrivici o vieni in sede, al 3° piano della Palazzina dei Servizi.
+
+64
+00:02:46,352 --> 00:02:47,552
+CISL FP Padova Rovigo.
+
