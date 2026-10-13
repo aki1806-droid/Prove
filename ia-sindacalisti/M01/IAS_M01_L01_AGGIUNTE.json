@@ -1,0 +1,13 @@
+{
+ "_nota": "Inquadrature aggiunte in montaggio, non previste dalla scaletta: coprono il tempo che la regola del ritmo toglie alle scene grafiche nei blocchi senza immagini o clip di riserva. Le immagini I09-I18 e le varianti C02d-e, C03c, C04f-g sono state generate per questo; I05 in B34 è un riuso. C04b è scartata (logo sul monitor).",
+ "B03": [{"id": "S007x", "dopo": "S007", "tipo": "immagine", "asset": "I09"}],
+ "B06": [{"id": "S012x", "dopo": "S012", "tipo": "immagine", "asset": "I10"}],
+ "B07": [{"id": "S014x", "dopo": "S014", "tipo": "immagine", "asset": "I11"}],
+ "B10": [{"id": "S019x", "dopo": "S019", "tipo": "immagine", "asset": "I12"}],
+ "B11": [{"id": "S021x", "dopo": "S021", "tipo": "immagine", "asset": "I13"}],
+ "B27": [{"id": "S048x", "dopo": "S048", "tipo": "immagine", "asset": "I14"}],
+ "B30": [{"id": "S054x", "dopo": "S054", "tipo": "immagine", "asset": "I15"}],
+ "B31": [{"id": "S055x", "prima": "S055", "tipo": "immagine", "asset": "I16"}, {"id": "S055y", "dopo": "S055", "tipo": "immagine", "asset": "I17"}],
+ "B32": [{"id": "S056x", "dopo": "S056", "tipo": "immagine", "asset": "I18"}],
+ "B34": [{"id": "S059x", "prima": "S059", "tipo": "immagine", "asset": "I05"}]
+}

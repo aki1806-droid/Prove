@@ -1,5 +1,6 @@
 // Motore delle ricostruzioni: tutto e' Web Animations, quindi render.js le guida fotogramma per fotogramma.
-// Attributi: data-digita="t0,caratteri/s"  data-scorre="t0,parole/s"  data-appare="t0"  data-sparisce="t0"  data-mostra="t0,t1"
+// Attributi: data-digita="t0,caratteri/s"  data-scorre="t0,parole/s" (t0 negativo: gia' in parte scritto)  data-appare="t0"
+//   data-sparisce="t0"  data-mostra="t0,t1"  data-evidenzia="t0[,colore]"
 // window.ZOOM = [[t, scala, cx, cy], ...]   window.CURSORE = [[t, x, y, clic?], ...]   window.SCORRI = [[t, '#id', margine], ...]
 (function () {
   // in una catena sullo stesso elemento solo il primo pezzo riempie all'indietro, altrimenti coprirebbe i precedenti
@@ -29,6 +30,9 @@
     });
     document.querySelectorAll('[data-appare]').forEach(el => A(el, [{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'none' }], +el.dataset.appare, .3, 'ease-out'));
     document.querySelectorAll('[data-sparisce]').forEach(el => A(el, HIDE, +el.dataset.sparisce, 0.001));
+    document.querySelectorAll('[data-evidenzia]').forEach(el => {   // evidenziatore: "t0" oppure "t0,colore"
+      const v = el.dataset.evidenzia, i = v.indexOf(','), t0 = i < 0 ? v : v.slice(0, i), col = i < 0 ? '' : v.slice(i + 1); A(el, [{ backgroundColor: 'rgba(232,163,61,0)' }, { backgroundColor: col || 'rgba(232,163,61,.38)' }], +t0, .4);
+    });
     document.querySelectorAll('[data-mostra]').forEach(el => {
       const [a, b] = el.dataset.mostra.split(',').map(Number);
       A(el, [{ opacity: 0 }, { opacity: 1 }], a, .15); el.animate([{ opacity: 1 }, { opacity: 0 }], { delay: b * 1000, duration: 150, fill: 'forwards' });

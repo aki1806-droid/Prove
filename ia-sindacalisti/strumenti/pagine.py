@@ -13,7 +13,7 @@ assert "googleapis" not in h
 h = h.replace("</style>", "#palco.f-scuro .testo.griglia .cella b{color:#fff}\n</style>", 1)
 # impaginazione centrata: il filo ha un'altezza fissa (720 px) e taglia il testo quando va su due righe;
 # lo metto 40 px sotto l'ultimo elemento del blocco
-h = h.replace("</script>", """document.fonts.ready.then(()=>{const f=P.querySelector('.testo.centrata .filo');if(!f)return;
+h = h.replace("</script>", """document.fonts.ready.then(()=>{const P=document.getElementById('palco');const f=P.querySelector('.testo.centrata .filo');if(!f)return;
  const y=[...P.querySelectorAll('.testo.centrata .blocco > *')].reduce((m,e)=>Math.max(m,e.offsetTop+e.offsetHeight),0);
  f.style.top=(y+40)+'px'});
 </script>""", 1)

@@ -45,6 +45,9 @@ for a, ids in uso.items():
     for j, sid in enumerate(ids):
         s = next(x for x in scene if x["id"] == sid)
         s["varianti"] = pool[j * len(pool) // k:(j + 1) * len(pool) // k] or pool[:1]
+def parti_ric(a):   # ricostruzione di una registrazione, eventualmente in piu' parti (Rnn.html, Rnn_2.html...)
+    d = os.path.join(M, "ricostruzioni")
+    return sorted(glob.glob(os.path.join(d, f"{lez}_{a}.html")) + glob.glob(os.path.join(d, f"{lez}_{a}_*.html")))
 def cap(s):
     t = s["tipo"]
     if t == "scena":
@@ -52,7 +55,9 @@ def cap(s):
         return 12 if k == "tabella" or s["scena"].get("layout") == "griglia" else 9
     if t == "immagine": return 18
     if t == "clip": return len(s["varianti"]) * CLIP / LENTO
-    if t == "registrazione": return 9
+    if t == "registrazione":
+        vera = os.path.exists(os.path.join(corso, "registrazioni", f"{lez}_{s['asset']}.mp4"))
+        return 9 if vera else 9 * max(1, len(parti_ric(s["asset"])))
     return 1e9
 # --- durate
 blocchi = [b for b in dict.fromkeys(s["blocco"] for s in scene) if b.startswith("B")]
@@ -106,11 +111,12 @@ for s in scene:
         pezzo(s, d, scena=sc_)
     elif t_ == "registrazione":
         f = os.path.join(corso, "registrazioni", f"{lez}_{s['asset']}.mp4")
-        r = os.path.join(M, "ricostruzioni", f"{lez}_{s['asset']}.html")
+        R = parti_ric(s["asset"])
         if os.path.exists(f): pezzo(s, d, registrazione=f)
-        elif os.path.exists(r):   # ricostruzione animata, finche' manca la registrazione vera
+        elif R:   # ricostruzione animata, finche' manca la registrazione vera
             avvisi.append(f"{s['id']}: registrazione {s['asset']} sostituita dalla ricostruzione")
-            pezzo(s, d, tipo_render="pagina", pagina=os.path.relpath(r, corso), ricostruzione=True)
+            n = min(len(R), max(1, math.ceil(d / 9 - 1e-9)))
+            for j in range(n): pezzo(s, d / n, tipo_render="pagina", pagina=os.path.relpath(R[j], corso), ricostruzione=True)
         else:
             avvisi.append(f"{s['id']}: manca la registrazione {s['asset']}, uso un segnaposto")
             pezzo(s, d, tipo_render="scena", scena={"tipo": "testo", "layout": "centrata", "fondo": "neutro", "livello": 1,
@@ -156,7 +162,9 @@ for p in pezzi:
 fila = 1
 for i in range(1, len(pezzi)):
     # la regola riguarda i fondi grafici: la correzione prevista (inserire un'immagine o una clip) non si applica alle immagini
-    fila = fila + 1 if pezzi[i]["fondo"] == pezzi[i - 1]["fondo"] and pezzi[i]["fondo"] != "immagine" else 1
+    # ne' alle registrazioni (o alle loro ricostruzioni), che sono riprese dello schermo e non scene grafiche
+    grafico = lambda p: p["fondo"] != "immagine" and p["tipo"] != "registrazione"
+    fila = fila + 1 if pezzi[i]["fondo"] == pezzi[i - 1]["fondo"] and grafico(pezzi[i]) and grafico(pezzi[i - 1]) else 1
     if fila > 3: avvisi.append(f"{pezzi[i]['sid']}: piu' di tre inquadrature di fila con fondo {pezzi[i]['fondo']}")
 tendine = sum(p.get("ingresso") == "tendina" for p in pezzi)
 if tendine > 3: avvisi.append(f"{tendine} tendine (massimo 3)")
