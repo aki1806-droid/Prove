@@ -67,10 +67,17 @@ S7  chiusura      10,00 s   musica
 | | |
 |---|---|
 | montato di prova | `montato-locale.mp4` — 74,05 s |
-| montato HeyGen | ID_HEYGEN — DURATA_HEYGEN |
+| montato HeyGen | `2d67c66ba5dc7c9f1b2ce7316a87ea0f` — **1:13.87** |
 | asset caricati | 16 (8 scene + 8 tracce) in un lotto |
 
-CONFRONTO_HEYGEN
+Render in 25 s. Scaricato e controllato: 1:13.88, 1920×1080, audio stereo a
+−16,5 LUFS. Al centro di S5 (48,7 s) i fotogrammi coincidono col montato di
+prova: scarto medio 0,85 su 255, sottotitolo compreso.
+
+> **La voce e' stata fatta con ElevenLabs diretto**, prima che arrivasse sul
+> branch la regola di `CLAUDE.md` che chiede ogni volta con quale strumento
+> farla. ElevenLabs diretto e' anche la strada predefinita finche' la scelta
+> non e' fatta. Rifarla con HeyGen come passante costerebbe ~3 crediti HeyGen.
 
 ## Gli strumenti
 
