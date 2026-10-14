@@ -1,0 +1,1120 @@
+1
+00:00:03,000 --> 00:00:04,278
+Lunedì mattina, in sede.
+
+2
+00:00:04,318 --> 00:00:08,286
+Sulla scrivania ci sono un avviso
+dell'azienda da spiegare ai lavoratori,
+
+3
+00:00:08,326 --> 00:00:11,525
+una mail di un iscritto che chiede
+chiarimenti sulle ferie,
+
+4
+00:00:11,565 --> 00:00:13,611
+la scaletta per l'incontro di giovedì,
+
+5
+00:00:13,651 --> 00:00:17,345
+e un volantino da rifare perché quello
+vecchio non lo legge nessuno.
+
+6
+00:00:17,385 --> 00:00:19,651
+Quattro compiti diversi, una sola mattina.
+
+7
+00:00:19,691 --> 00:00:21,023
+Ed è una mattina normale.
+
+8
+00:00:21,663 --> 00:00:24,364
+Nelle due lezioni precedenti abbiamo visto
+come
+
+9
+00:00:24,404 --> 00:00:27,922
+funziona l'intelligenza artificiale e
+perché a volte sbaglia.
+
+10
+00:00:27,962 --> 00:00:30,897
+Ora possiamo farci la domanda più pratica
+di tutte:
+
+11
+00:00:30,937 --> 00:00:34,688
+in una settimana come la nostra, dove può
+davvero darci una mano?
+
+12
+00:00:34,728 --> 00:00:39,471
+Non in teoria, non nelle pubblicità: sulla
+nostra scrivania, con il nostro lavoro.
+
+13
+00:00:40,111 --> 00:00:42,989
+In questa lezione costruiamo una mappa dei
+compiti.
+
+14
+00:00:43,029 --> 00:00:47,338
+Vedremo le otto famiglie di attività in
+cui questi strumenti rendono di più,
+
+15
+00:00:47,378 --> 00:00:50,600
+un criterio semplice per decidere se un
+compito è adatto,
+
+16
+00:00:50,640 --> 00:00:53,690
+e quattro prove a schermo su situazioni
+reali di sede.
+
+17
+00:00:53,730 --> 00:00:56,093
+Alla fine avrai un elenco tuo, non il mio.
+
+18
+00:00:56,734 --> 00:00:59,427
+Partiamo dal principio che abbiamo già
+incontrato:
+
+19
+00:00:59,467 --> 00:01:03,145
+l'intelligenza artificiale è eccellente
+con la forma del linguaggio,
+
+20
+00:01:03,185 --> 00:01:06,097
+e affidabile sui fatti solo quando glieli
+fornisci tu.
+
+21
+00:01:06,137 --> 00:01:08,612
+Tutto quello che vedremo oggi discende da
+qui.
+
+22
+00:01:08,652 --> 00:01:12,056
+I compiti migliori sono quelli in cui il
+contenuto lo metti tu,
+
+23
+00:01:12,096 --> 00:01:14,734
+e lei ti aiuta a dargli forma, ordine e
+velocità.
+
+24
+00:01:15,374 --> 00:01:17,172
+Non è solo questione di velocità.
+
+25
+00:01:17,212 --> 00:01:19,568
+Spesso il guadagno più grande è la
+qualità:
+
+26
+00:01:19,608 --> 00:01:22,688
+un comunicato riletto da un occhio esterno
+è più chiaro,
+
+27
+00:01:22,728 --> 00:01:26,198
+una lettera all'azienda con una struttura
+ordinata è più forte,
+
+28
+00:01:26,238 --> 00:01:28,649
+il riassunto di una delibera fatto con
+calma
+
+29
+00:01:28,689 --> 00:01:31,379
+ti fa vedere un punto che di corsa avresti
+perso.
+
+30
+00:01:31,419 --> 00:01:34,666
+L'intelligenza artificiale è anche un
+secondo paio d'occhi,
+
+31
+00:01:34,706 --> 00:01:36,225
+disponibile a qualsiasi ora.
+
+32
+00:01:36,265 --> 00:01:39,401
+E un secondo paio d'occhi non si stanca
+mai di rileggere.
+
+33
+00:01:40,041 --> 00:01:42,547
+La prima famiglia è la più ovvia:
+scrivere.
+
+34
+00:01:42,587 --> 00:01:46,513
+Comunicati, volantini, lettere
+all'azienda, risposte agli iscritti,
+
+35
+00:01:46,553 --> 00:01:48,940
+post per i social, inviti alle assemblee.
+
+36
+00:01:48,980 --> 00:01:50,598
+Qui il guadagno è immediato,
+
+37
+00:01:50,638 --> 00:01:54,032
+perché la parte più faticosa della
+scrittura è cominciare.
+
+38
+00:01:54,072 --> 00:01:56,459
+Le dai i punti, il tono, il destinatario,
+
+39
+00:01:56,499 --> 00:01:59,301
+e in pochi secondi hai una bozza da
+rendere tua.
+
+40
+00:01:59,941 --> 00:02:01,608
+La seconda famiglia è leggere.
+
+41
+00:02:01,648 --> 00:02:04,680
+Una delibera di quaranta pagine, un
+regolamento nuovo,
+
+42
+00:02:04,720 --> 00:02:07,696
+un accordo da confrontare con la versione
+precedente.
+
+43
+00:02:07,736 --> 00:02:10,939
+Le chiedi di riassumere, di estrarre
+obblighi e scadenze,
+
+44
+00:02:10,979 --> 00:02:12,987
+di mettere in tabella le differenze,
+
+45
+00:02:13,027 --> 00:02:15,775
+di indicarti le pagine da leggere con
+attenzione.
+
+46
+00:02:15,815 --> 00:02:18,222
+Non sostituisce la tua lettura: la
+orienta.
+
+47
+00:02:18,862 --> 00:02:20,447
+La terza famiglia è preparare.
+
+48
+00:02:20,487 --> 00:02:22,775
+Una scaletta per l'intervento in
+assemblea,
+
+49
+00:02:22,815 --> 00:02:24,616
+una piattaforma per la trattativa,
+
+50
+00:02:24,656 --> 00:02:27,757
+l'elenco delle obiezioni che l'azienda
+potrebbe sollevare.
+
+51
+00:02:27,797 --> 00:02:32,089
+Puoi perfino chiederle di interpretare la
+controparte, e allenarti a rispondere.
+
+52
+00:02:32,129 --> 00:02:33,931
+È uno degli usi più sottovalutati,
+
+53
+00:02:33,971 --> 00:02:36,692
+e uno dei più utili prima di un incontro
+difficile.
+
+54
+00:02:37,332 --> 00:02:39,062
+La quarta famiglia è ordinare.
+
+55
+00:02:39,102 --> 00:02:41,953
+Appunti presi in fretta che diventano un
+verbale.
+
+56
+00:02:41,993 --> 00:02:44,726
+Una pratica confusa che diventa una
+cronologia.
+
+57
+00:02:44,766 --> 00:02:48,679
+Un elenco di richieste sparse che diventa
+una tabella con priorità.
+
+58
+00:02:48,719 --> 00:02:52,219
+Il disordine è una delle fatiche nascoste
+del nostro lavoro,
+
+59
+00:02:52,259 --> 00:02:55,110
+e qui l'intelligenza artificiale è davvero
+brava.
+
+60
+00:02:55,150 --> 00:02:59,064
+Un verbale in ordine, poi, è un verbale
+che qualcuno legge davvero.
+
+61
+00:02:59,704 --> 00:03:02,786
+Pensa a quando un lavoratore ti racconta
+la sua situazione:
+
+62
+00:03:02,826 --> 00:03:06,755
+tre anni di cambi di reparto, due
+richieste mai evase, un turno contestato.
+
+63
+00:03:06,795 --> 00:03:09,506
+Ti arrivano mail, messaggi, fotografie di
+documenti.
+
+64
+00:03:09,546 --> 00:03:10,882
+Se togli i dati personali,
+
+65
+00:03:10,922 --> 00:03:13,263
+puoi chiedere all'intelligenza artificiale
+di
+
+66
+00:03:13,303 --> 00:03:16,438
+mettere tutto in ordine cronologico e di
+segnalarti i buchi.
+
+67
+00:03:16,478 --> 00:03:18,608
+In pochi minuti hai una visione d'insieme
+
+68
+00:03:18,648 --> 00:03:20,883
+che a mano avrebbe richiesto un
+pomeriggio.
+
+69
+00:03:21,522 --> 00:03:24,171
+La quinta famiglia è spiegare in modo
+semplice.
+
+70
+00:03:24,211 --> 00:03:26,918
+Una norma complicata raccontata a un
+neoassunto.
+
+71
+00:03:26,958 --> 00:03:30,637
+Una clausola contrattuale trasformata in
+tre righe comprensibili.
+
+72
+00:03:30,677 --> 00:03:34,241
+Una risposta tecnica riscritta per chi non
+ha tempo di leggere.
+
+73
+00:03:34,281 --> 00:03:36,645
+Chi fa sindacato traduce continuamente dal
+
+74
+00:03:36,685 --> 00:03:39,563
+linguaggio delle carte al linguaggio delle
+persone:
+
+75
+00:03:39,603 --> 00:03:41,050
+qui hai un aiuto prezioso.
+
+76
+00:03:41,691 --> 00:03:44,431
+La sesta famiglia è tradurre, nel senso
+letterale.
+
+77
+00:03:44,471 --> 00:03:48,213
+Nei nostri ospedali lavorano molte persone
+che parlano altre lingue:
+
+78
+00:03:48,253 --> 00:03:49,548
+un comunicato in romeno,
+
+79
+00:03:49,588 --> 00:03:50,882
+in ucraino, in spagnolo,
+
+80
+00:03:50,922 --> 00:03:54,942
+può fare la differenza tra un lavoratore
+informato e uno che resta fuori.
+
+81
+00:03:54,982 --> 00:03:57,667
+La traduzione automatica oggi è di buona
+qualità,
+
+82
+00:03:57,707 --> 00:04:01,448
+ma per i testi importanti falla rileggere
+a chi parla quella lingua.
+
+83
+00:04:01,488 --> 00:04:05,341
+Una sola frase tradotta male può
+confondere più di nessuna traduzione.
+
+84
+00:04:05,980 --> 00:04:08,511
+La settima famiglia è comunicare per
+immagini.
+
+85
+00:04:08,551 --> 00:04:12,534
+Una locandina, una grafica per i social,
+un'infografica su una scadenza.
+
+86
+00:04:12,574 --> 00:04:15,161
+Ne parleremo a fondo nel livello tre del
+corso;
+
+87
+00:04:15,201 --> 00:04:18,458
+per ora ti basta sapere che anche questo è
+un territorio in
+
+88
+00:04:18,498 --> 00:04:21,922
+cui puoi ottenere materiali dignitosi
+senza essere un grafico.
+
+89
+00:04:22,563 --> 00:04:24,123
+L'ottava famiglia è formare.
+
+90
+00:04:24,163 --> 00:04:28,353
+Domande per un quiz dopo un corso per
+delegati, casi di studio realistici,
+
+91
+00:04:28,393 --> 00:04:31,039
+guide rapide di una pagina, schede
+riassuntive.
+
+92
+00:04:31,079 --> 00:04:35,154
+Chi organizza formazione sa quanto tempo
+richiede preparare i materiali.
+
+93
+00:04:35,194 --> 00:04:38,812
+Qui l'intelligenza artificiale può
+dimezzare la parte meccanica,
+
+94
+00:04:38,852 --> 00:04:43,041
+lasciandoti il tempo per la parte che
+conta: stare in aula con le persone.
+
+95
+00:04:43,681 --> 00:04:46,931
+Queste otto famiglie non riguardano solo
+le grandi strutture.
+
+96
+00:04:46,971 --> 00:04:50,868
+Anche una sede piccola, con due persone e
+mille cose da fare, può usarle.
+
+97
+00:04:50,908 --> 00:04:53,564
+Anzi, è spesso lì che il guadagno si sente
+di più,
+
+98
+00:04:53,604 --> 00:04:57,016
+perché ogni ora conta e non c'è nessuno a
+cui passare il lavoro.
+
+99
+00:04:57,655 --> 00:05:01,837
+Ecco quindi la mappa completa: scrivere,
+leggere, preparare, ordinare,
+
+100
+00:05:01,877 --> 00:05:05,576
+spiegare semplice, tradurre, comunicare
+per immagini, formare.
+
+101
+00:05:05,616 --> 00:05:09,496
+Otto famiglie che coprono gran parte della
+settimana di una sede.
+
+102
+00:05:09,536 --> 00:05:10,883
+Non tutto, per fortuna:
+
+103
+00:05:10,923 --> 00:05:14,863
+la parte più importante del nostro lavoro
+resta fatta di incontri,
+
+104
+00:05:14,903 --> 00:05:16,854
+telefonate, presenza nei reparti.
+
+105
+00:05:17,494 --> 00:05:20,320
+Ma come capire se un compito preciso è
+adatto?
+
+106
+00:05:20,360 --> 00:05:21,816
+Ti propongo tre domande.
+
+107
+00:05:21,856 --> 00:05:24,371
+Prima: è un compito che si ripete spesso?
+
+108
+00:05:24,411 --> 00:05:27,923
+Seconda: la fatica sta più nella forma che
+nel contenuto?
+
+109
+00:05:27,963 --> 00:05:30,727
+Terza: se l'intelligenza artificiale
+sbaglia,
+
+110
+00:05:30,767 --> 00:05:32,970
+me ne accorgo facilmente rileggendo?
+
+111
+00:05:33,010 --> 00:05:37,020
+Se rispondi sì a tutte e tre, quel compito
+è un ottimo candidato.
+
+112
+00:05:37,660 --> 00:05:38,156
+Proviamo.
+
+113
+00:05:38,196 --> 00:05:40,361
+Il comunicato settimanale: si ripete,
+
+114
+00:05:40,401 --> 00:05:43,578
+la fatica è nella forma, un errore si vede
+rileggendo.
+
+115
+00:05:43,618 --> 00:05:44,710
+Candidato perfetto.
+
+116
+00:05:44,750 --> 00:05:47,331
+Il calcolo degli arretrati di un
+lavoratore:
+
+117
+00:05:47,371 --> 00:05:50,906
+la fatica è nel contenuto, e un errore non
+si vede a occhio.
+
+118
+00:05:50,946 --> 00:05:53,885
+Candidato debole, da usare solo con molta
+cautela.
+
+119
+00:05:53,925 --> 00:05:58,651
+La decisione se aprire una vertenza: non è
+un compito di forma, e non si delega.
+
+120
+00:05:58,691 --> 00:06:02,881
+Le tre domande servono proprio a separare
+questi casi in pochi secondi.
+
+121
+00:06:03,521 --> 00:06:06,184
+Puoi visualizzare tutto questo come una
+matrice.
+
+122
+00:06:06,224 --> 00:06:08,493
+Su un asse, quanto spesso fai un compito.
+
+123
+00:06:08,533 --> 00:06:10,802
+Sull'altro, quanto è rischioso un errore.
+
+124
+00:06:10,842 --> 00:06:14,069
+In alto a sinistra, i compiti frequenti e
+a basso rischio:
+
+125
+00:06:14,109 --> 00:06:15,702
+è lì che conviene cominciare.
+
+126
+00:06:15,742 --> 00:06:18,630
+In basso a destra, i compiti rari e ad
+alto rischio:
+
+127
+00:06:18,670 --> 00:06:20,320
+lì l'intelligenza artificiale,
+
+128
+00:06:20,360 --> 00:06:23,248
+se la usi, resta un semplice aiuto alla
+riflessione.
+
+129
+00:06:23,889 --> 00:06:27,585
+Attenzione: la tua matrice non sarà uguale
+a quella di un altro.
+
+130
+00:06:27,625 --> 00:06:32,372
+Chi lavora molto sulla comunicazione avrà
+in alto a sinistra i volantini e i post.
+
+131
+00:06:32,412 --> 00:06:34,882
+Chi segue soprattutto la tutela
+individuale
+
+132
+00:06:34,922 --> 00:06:37,626
+avrà le cronologie e le risposte agli
+iscritti.
+
+133
+00:06:37,666 --> 00:06:40,954
+Chi coordina una struttura avrà le sintesi
+e le scalette.
+
+134
+00:06:40,994 --> 00:06:44,048
+Non esiste un elenco giusto per tutti:
+esiste il tuo.
+
+135
+00:06:44,088 --> 00:06:47,434
+Ed è giusto così: la matrice serve a te,
+non a un manuale.
+
+136
+00:06:48,073 --> 00:06:49,208
+Passiamo alla pratica.
+
+137
+00:06:49,248 --> 00:06:53,160
+Prima prova: ho un avviso dell'azienda,
+scritto in linguaggio burocratico,
+
+138
+00:06:53,200 --> 00:06:57,220
+e lo incollo in Claude chiedendo di
+spiegarlo ai lavoratori in cinque punti,
+
+139
+00:06:57,260 --> 00:07:00,531
+con frasi brevi, senza aggiungere nulla
+che non sia nel testo.
+
+140
+00:07:00,571 --> 00:07:02,668
+Guarda il risultato: è chiaro, ordinato,
+
+141
+00:07:02,708 --> 00:07:06,193
+e posso controllare punto per punto che
+corrisponda all'originale.
+
+142
+00:07:06,833 --> 00:07:09,443
+Seconda prova: prendo un comunicato già
+scritto e
+
+143
+00:07:09,483 --> 00:07:12,256
+chiedo a ChatGPT di trasformarlo in
+quattro formati:
+
+144
+00:07:12,296 --> 00:07:15,231
+un messaggio breve per il gruppo WhatsApp
+dei delegati,
+
+145
+00:07:15,271 --> 00:07:18,206
+una mail agli iscritti, un post per la
+pagina Facebook,
+
+146
+00:07:18,246 --> 00:07:21,829
+e un testo da leggere in trenta secondi
+all'inizio di un'assemblea.
+
+147
+00:07:21,869 --> 00:07:25,345
+Lo stesso contenuto, quattro forme
+diverse, in meno di un minuto.
+
+148
+00:07:25,985 --> 00:07:29,908
+Terza prova: chiedo a Gemini di tradurre
+in romeno il messaggio breve,
+
+149
+00:07:29,948 --> 00:07:32,115
+mantenendo un tono semplice e cordiale.
+
+150
+00:07:32,155 --> 00:07:34,267
+La traduzione arriva in pochi secondi.
+
+151
+00:07:34,307 --> 00:07:36,701
+Ma ricorda la regola: prima di
+diffonderla,
+
+152
+00:07:36,741 --> 00:07:39,588
+la faccio rileggere a una collega che
+parla romeno.
+
+153
+00:07:39,628 --> 00:07:44,117
+Il tempo risparmiato resta enorme, e il
+rischio di una frase sbagliata sparisce.
+
+154
+00:07:44,756 --> 00:07:46,362
+Quarta prova, la mia preferita:
+
+155
+00:07:46,402 --> 00:07:49,494
+chiedo a Claude di interpretare il
+direttore del personale,
+
+156
+00:07:49,534 --> 00:07:52,254
+con le sue priorità di bilancio e di
+organizzazione,
+
+157
+00:07:52,294 --> 00:07:55,333
+e di rispondere alla nostra richiesta di
+rivedere i turni.
+
+158
+00:07:55,373 --> 00:07:58,519
+Le obiezioni che arrivano sono
+realistiche, a volte scomode.
+
+159
+00:07:58,559 --> 00:08:00,058
+Ed è proprio questo il punto:
+
+160
+00:08:00,098 --> 00:08:03,562
+meglio sentirle in sede che sentirle per
+la prima volta al tavolo.
+
+161
+00:08:04,202 --> 00:08:06,453
+Hai notato come ho scritto le richieste?
+
+162
+00:08:06,493 --> 00:08:10,062
+In ognuna c'erano quattro elementi: a chi
+è destinato il testo,
+
+163
+00:08:10,102 --> 00:08:14,187
+che cosa deve contenere, che forma deve
+avere, e che cosa non deve fare.
+
+164
+00:08:14,227 --> 00:08:18,712
+Spiega ai lavoratori, in cinque punti, con
+frasi brevi, senza aggiungere nulla.
+
+165
+00:08:18,752 --> 00:08:22,607
+Non è un caso: è la struttura che
+approfondiremo nel modulo quattro,
+
+166
+00:08:22,647 --> 00:08:25,242
+e che da sola migliora moltissimo i
+risultati.
+
+167
+00:08:25,883 --> 00:08:29,003
+In tutte e quattro le prove è successa la
+stessa cosa.
+
+168
+00:08:29,043 --> 00:08:32,983
+Il contenuto l'ho portato io: l'avviso, il
+comunicato, la richiesta.
+
+169
+00:08:33,023 --> 00:08:36,905
+Lo strumento mi ha restituito forma,
+ordine, alternative, velocità.
+
+170
+00:08:36,945 --> 00:08:38,836
+E io ho controllato il risultato.
+
+171
+00:08:38,876 --> 00:08:41,470
+È lo schema che ritroverai in tutto il
+corso.
+
+172
+00:08:42,109 --> 00:08:44,141
+Che cosa fai del tempo risparmiato?
+
+173
+00:08:44,181 --> 00:08:46,687
+È una domanda meno banale di quanto
+sembri.
+
+174
+00:08:46,727 --> 00:08:50,714
+Il rischio è riempirlo con altre carte,
+altre mail, altri documenti.
+
+175
+00:08:50,754 --> 00:08:55,391
+L'occasione è restituirlo alla parte del
+lavoro che nessuno strumento può fare:
+
+176
+00:08:55,431 --> 00:08:58,292
+andare nei reparti, ascoltare chi ha un
+problema,
+
+177
+00:08:58,332 --> 00:09:01,016
+preparare con calma una trattativa
+importante.
+
+178
+00:09:01,056 --> 00:09:04,450
+Il tempo guadagnato vale solo se finisce
+nel posto giusto.
+
+179
+00:09:05,091 --> 00:09:09,446
+Immagina una sede in cui ogni delegato
+recupera anche solo un'ora a settimana.
+
+180
+00:09:09,486 --> 00:09:12,770
+Moltiplica per i delegati della tua
+struttura, per un anno.
+
+181
+00:09:12,810 --> 00:09:15,756
+È tempo che può tornare nei reparti, nelle
+assemblee,
+
+182
+00:09:15,796 --> 00:09:18,517
+nelle telefonate a chi non si fa sentire
+da mesi.
+
+183
+00:09:18,557 --> 00:09:20,376
+Non è una promessa di efficienza:
+
+184
+00:09:20,416 --> 00:09:24,546
+è una scelta su che cosa fare di quel
+tempo, e quella scelta resta nostra.
+
+185
+00:09:25,185 --> 00:09:27,530
+Per onestà, vediamo anche dove rende poco.
+
+186
+00:09:27,570 --> 00:09:30,199
+Compiti molto brevi, che faresti prima da
+solo.
+
+187
+00:09:30,239 --> 00:09:31,448
+Testi molto personali,
+
+188
+00:09:31,488 --> 00:09:35,140
+come una lettera di vicinanza a un collega
+che ha perso qualcuno.
+
+189
+00:09:35,180 --> 00:09:39,853
+Situazioni in cui il contenuto è tutto da
+costruire e nessun documento lo contiene.
+
+190
+00:09:39,893 --> 00:09:44,226
+Lì puoi usarla, ma il guadagno è piccolo,
+e a volte il risultato suona falso.
+
+191
+00:09:44,266 --> 00:09:47,406
+In quei casi, scrivere da solo resta la
+scelta migliore.
+
+192
+00:09:48,046 --> 00:09:50,923
+E poi ci sono i compiti in cui non deve
+entrare affatto,
+
+193
+00:09:50,963 --> 00:09:54,881
+o solo con regole precise: quelli che
+toccano dati sensibili dei lavoratori,
+
+194
+00:09:54,921 --> 00:09:57,850
+quelli che richiedono una decisione
+politica o sindacale,
+
+195
+00:09:57,890 --> 00:10:00,350
+quelli che riguardano il giudizio sulle
+persone.
+
+196
+00:10:00,390 --> 00:10:03,996
+Li vedremo nella prossima lezione, perché
+meritano una lezione intera.
+
+197
+00:10:04,636 --> 00:10:06,663
+Un consiglio pratico per cominciare:
+
+198
+00:10:06,703 --> 00:10:10,452
+non provare a cambiare tutto il modo di
+lavorare in una settimana.
+
+199
+00:10:10,492 --> 00:10:14,356
+Scegli un solo compito, quello che ti pesa
+di più tra quelli adatti,
+
+200
+00:10:14,396 --> 00:10:15,676
+e usalo lì per un mese.
+
+201
+00:10:15,716 --> 00:10:17,915
+Imparerai più da un compito fatto venti
+
+202
+00:10:17,955 --> 00:10:20,786
+volte che da venti compiti provati una
+volta sola.
+
+203
+00:10:20,826 --> 00:10:23,197
+Qui la costanza conta più dell'entusiasmo.
+
+204
+00:10:23,837 --> 00:10:25,319
+E parlane con la tua squadra.
+
+205
+00:10:25,359 --> 00:10:27,837
+In una sede, l'intelligenza artificiale
+funziona
+
+206
+00:10:27,877 --> 00:10:30,828
+meglio quando si condividono le richieste
+che funzionano,
+
+207
+00:10:30,868 --> 00:10:33,294
+gli errori incontrati, le regole sulla
+privacy.
+
+208
+00:10:33,334 --> 00:10:35,760
+Un collega che ha già trovato il modo
+giusto di
+
+209
+00:10:35,800 --> 00:10:38,961
+chiedere un verbale ti fa risparmiare
+settimane di tentativi.
+
+210
+00:10:39,601 --> 00:10:43,565
+C'è anche un effetto che non ti aspetti: i
+lavoratori se ne accorgono.
+
+211
+00:10:43,605 --> 00:10:46,025
+Comunicati più chiari, risposte più
+rapide,
+
+212
+00:10:46,065 --> 00:10:48,370
+documenti spiegati in modo comprensibile.
+
+213
+00:10:48,410 --> 00:10:50,772
+Vedono una sede più ordinata e più vicina.
+
+214
+00:10:50,812 --> 00:10:53,460
+Ed è questo, alla fine, il risultato che
+conta.
+
+215
+00:10:53,500 --> 00:10:56,778
+Una sede che risponde presto è una sede di
+cui ci si fida.
+
+216
+00:10:57,418 --> 00:10:59,854
+Gli errori tipici di questa fase sono tre.
+
+217
+00:10:59,894 --> 00:11:02,743
+Primo: usarla per tutto, anche dove non
+conviene,
+
+218
+00:11:02,783 --> 00:11:05,397
+e perdere più tempo di quanto se ne
+guadagni.
+
+219
+00:11:05,437 --> 00:11:08,404
+Secondo: affidarle il contenuto invece
+della forma,
+
+220
+00:11:08,444 --> 00:11:11,411
+e trovarsi con testi eleganti ma vuoti o
+sbagliati.
+
+221
+00:11:11,451 --> 00:11:15,184
+Terzo: usare il tempo risparmiato per
+produrre ancora più carta,
+
+222
+00:11:15,224 --> 00:11:17,307
+invece che per stare con le persone.
+
+223
+00:11:17,947 --> 00:11:19,917
+La frase da portarsi a casa è questa:
+
+224
+00:11:19,957 --> 00:11:22,849
+il contenuto lo porti tu, la forma te la
+può dare lei.
+
+225
+00:11:22,889 --> 00:11:24,913
+Quando questo equilibrio è rispettato,
+
+226
+00:11:24,953 --> 00:11:28,009
+l'intelligenza artificiale diventa un vero
+collaboratore.
+
+227
+00:11:28,049 --> 00:11:30,127
+Quando si rovescia, diventa un rischio.
+
+228
+00:11:30,767 --> 00:11:34,909
+La pratica di oggi: prendi la tua agenda
+della settimana scorsa e scrivi
+
+229
+00:11:34,949 --> 00:11:39,266
+cinque compiti che potresti delegare in
+parte all'intelligenza artificiale.
+
+230
+00:11:39,306 --> 00:11:42,519
+Per ognuno, rispondi alle tre domande: si
+ripete spesso?
+
+231
+00:11:42,559 --> 00:11:43,913
+La fatica è nella forma?
+
+232
+00:11:43,953 --> 00:11:45,714
+Un errore lo vedrei rileggendo?
+
+233
+00:11:45,754 --> 00:11:48,038
+Poi segna quello da cui vuoi cominciare.
+
+234
+00:11:48,678 --> 00:11:51,614
+Nella prossima lezione facciamo il
+percorso opposto:
+
+235
+00:11:51,654 --> 00:11:55,619
+le cose che l'intelligenza artificiale non
+deve mai fare al posto tuo.
+
+236
+00:11:55,659 --> 00:11:57,908
+Decidere, firmare, giudicare le persone.
+
+237
+00:11:57,948 --> 00:11:58,709
+Ci vediamo lì.
