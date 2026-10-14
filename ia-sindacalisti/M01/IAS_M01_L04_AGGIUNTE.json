@@ -1,0 +1,131 @@
+{
+ "_nota": "Inquadrature aggiunte in montaggio: coprono il tempo che la regola dei 9 s toglie alle scene grafiche. Le immagini I09-I21 sono state generate per questo; in B17, B34 e B36 si riusano I05, I03 e I02.",
+ "B02": [
+  {
+   "id": "S005x",
+   "dopo": "S005",
+   "tipo": "immagine",
+   "asset": "I09"
+  }
+ ],
+ "B05": [
+  {
+   "id": "S009x",
+   "dopo": "S009",
+   "tipo": "immagine",
+   "asset": "I10"
+  }
+ ],
+ "B06": [
+  {
+   "id": "S011x",
+   "dopo": "S011",
+   "tipo": "immagine",
+   "asset": "I11"
+  }
+ ],
+ "B11": [
+  {
+   "id": "S020x",
+   "dopo": "S020",
+   "tipo": "immagine",
+   "asset": "I21"
+  }
+ ],
+ "B12": [
+  {
+   "id": "S022x",
+   "dopo": "S022",
+   "tipo": "immagine",
+   "asset": "I12"
+  }
+ ],
+ "B14": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "I13"
+  }
+ ],
+ "B15": [
+  {
+   "id": "S027x",
+   "dopo": "S027",
+   "tipo": "immagine",
+   "asset": "I14"
+  }
+ ],
+ "B17": [
+  {
+   "id": "S031x",
+   "dopo": "S031",
+   "tipo": "immagine",
+   "asset": "I05"
+  }
+ ],
+ "B20": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "I15"
+  }
+ ],
+ "B28": [
+  {
+   "id": "S046x",
+   "dopo": "S046",
+   "tipo": "immagine",
+   "asset": "I16"
+  }
+ ],
+ "B29": [
+  {
+   "id": "S047x",
+   "dopo": "S047",
+   "tipo": "immagine",
+   "asset": "I17"
+  }
+ ],
+ "B30": [
+  {
+   "id": "S048x",
+   "dopo": "S048",
+   "tipo": "immagine",
+   "asset": "I18"
+  }
+ ],
+ "B32": [
+  {
+   "id": "S052x",
+   "dopo": "S052",
+   "tipo": "immagine",
+   "asset": "I19"
+  }
+ ],
+ "B33": [
+  {
+   "id": "S053x",
+   "dopo": "S053",
+   "tipo": "immagine",
+   "asset": "I20"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S054x",
+   "dopo": "S054",
+   "tipo": "immagine",
+   "asset": "I03"
+  }
+ ],
+ "B36": [
+  {
+   "id": "S057x",
+   "dopo": "S057",
+   "tipo": "immagine",
+   "asset": "I02"
+  }
+ ]
+}
