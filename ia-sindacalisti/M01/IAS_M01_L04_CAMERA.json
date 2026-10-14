@@ -1,0 +1,31 @@
+{
+ "_nota": "Fondo degli SVG e zoom dopo la fine dell'animazione: dettaglio con il centro a y 640 o più in basso, così a 1,25 il titolo resta fuori campo.",
+ "IAS_M01_L04_A1_tre-linee-rosse.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   960,
+   660
+  ]
+ },
+ "IAS_M01_L04_A2_secondo-sguardo.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   1100,
+   660
+  ]
+ },
+ "IAS_M01_L04_A3_semaforo.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   760,
+   700
+  ]
+ },
+ "IAS_M01_L04_A4_attenzione-che-scivola.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   1100,
+   700
+  ]
+ }
+}

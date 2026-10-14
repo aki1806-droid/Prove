@@ -1,0 +1,90 @@
+{
+ "_nota": "Prompt e modelli usati per immagini e clip della lezione. Prompt delle immagini in italiano con la ricetta di stile senza codici colore; prompt delle clip in inglese. Le aggiunte (I09-I23) sono descritte in AGGIUNTE.json. Voce da HeyGen: vedi LAVORAZIONE.json.",
+ "strumento": "ElevenLabs (immagini e clip); voce HeyGen create_speech con motore ElevenLabs eleven_v4",
+ "modelli": {
+  "immagini": "bytedance-seedream-5-pro, 16:9, 2K (2048x1152)",
+  "clip": "kling-2.5-turbo, 16:9, 5 s, 1920x1080, guidance 0,5"
+ },
+ "ricetta_immagini": "Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+ "varianti_clip": {
+  "C01": 2,
+  "C02": 2,
+  "C03": 2,
+  "C04": 2,
+  "C05": 2
+ },
+ "scartati": {
+  "I01 v1": "volantino con testo finto in evidenza, simile a un titolo",
+  "C03b v1": "persona in camice da paziente invece di un delegato"
+ },
+ "immagini": {
+  "I01": "Scrivania di una sede sindacale il lunedì mattina vista di tre quarti: un portatile aperto con lo schermo sfocato, un'agenda chiusa, una tazza e alcuni fogli bianchi impilati senza scritte visibili, luce del mattino dalla finestra. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I02": "Bacheca sindacale in un corridoio d'ospedale con volantini sovrapposti e scoloriti, testo sfocato e illeggibile, corridoio vuoto. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I03": "Mani che sistemano fogli sparsi e post-it in file ordinate su un tavolo di legno, vista dall'alto, scritte sfocate. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I04": "Due operatrici sanitarie in divisa viste completamente di spalle, volti non visibili, che leggono insieme un foglio appeso alla parete di una sala relax d'ospedale, luce calda, foglio sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I05": "Aula di formazione vuota con sedie disposte in cerchio e una lavagna a fogli mobili con schemi disegnati a pennarello, sfocati e illeggibili. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I06": "Tazza di caffè su un tavolo di una sede sindacale accanto a un'agenda aperta sulla settimana, alcune voci cerchiate a matita, scritte sfocate e illeggibili. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I07": "Primo piano di una stretta di mano tra due persone con maniche di divisa ospedaliera in un corridoio, in campo solo mani e avambracci, sfondo sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I08": "Piccola sede sindacale con due scrivanie, faldoni sugli scaffali e una finestra, stanza vuota senza persone, luce del pomeriggio. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I09": "Parete di una sede sindacale con post-it colorati disposti in colonne ordinate come una mappa dei compiti, scritte sfocate e illeggibili, una mano che sposta un foglietto. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I11": "Occhiali da lettura e una penna rossa appoggiati su un foglio stampato con qualche correzione a margine, testo sfocato e illeggibile, scrivania di legno. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I15": "Tavolo da lavoro con una locandina in preparazione: fogli colorati senza scritte, forbici, pennarelli e ritagli geometrici verdi e gialli, vista dall'alto. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I19": "Sala d'attesa di un reparto ospedaliero vuota, sedie allineate, luce calda del pomeriggio che entra dalle finestre, nessuna persona. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I22": "Pila altissima e disordinata di carte e cartelline su una scrivania accanto a un portatile chiuso, luce di fine giornata. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I10": "Blocco di appunti scritti a mano accanto a un portatile aperto su una scrivania, una penna appoggiata, grafia sfocata e illeggibile, schermo sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I12": "Faldone di documenti spesso aperto su un tavolo, con segnalibri colorati che sporgono dalle pagine, pagine sfocate e illeggibili. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I13": "Tavolo di trattativa vuoto in una sala riunioni, sedie allineate sui due lati, cartelline chiuse e bottigliette d'acqua davanti a ogni posto. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I14": "Cartellina aperta su una scrivania con fotografie stampate di documenti, mail stampate e foglietti sparsi da riordinare, tutto sfocato e illeggibile. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I16": "Quattro agende e taccuini diversi tra loro, di colori e formati differenti, appoggiati uno accanto all'altro su un lungo tavolo, chiusi. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I17": "Mano che scrive con una penna un breve elenco di quattro righe su un foglietto adesivo giallo, grafia sfocata e illeggibile, primo piano. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I18": "Mano che spunta con una penna le caselle di una lista di controllo stampata, testo sfocato e illeggibile, scrivania con luce calda. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I20": "Biglietto scritto a mano appoggiato su una busta bianca, accanto una penna stilografica, grafia sfocata e illeggibile, luce morbida e intima. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I21": "Schedario metallico chiuso a chiave in un ufficio, una piccola chiave nella serratura, cassetti senza etichette leggibili. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
+  "I23": "Mano che tiene una penna sospesa sopra lo spazio della firma in fondo a un documento, esitando, testo sfocato e illeggibile, primo piano. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9."
+ },
+ "clip": {
+  "C01": "Close-up of hands quickly flipping through a thick stack of printed pages, then setting the document down on a wooden desk, pages seen mostly edge-on and completely blurred, soft window light. Realistic cinematic shot, slow smooth camera movement, natural colors with deep green accents and warm highlights, no readable text, no logos, no faces.",
+  "C02": "Side view of hands typing on a laptop in an empty meeting room, the screen out of focus, only hands and forearms in frame, gentle lateral camera slide, afternoon light through the window. Realistic cinematic shot, natural colors with deep green accents and warm highlights, no readable text, no logos, no faces.",
+  "C03": [
+   "A person seen only from behind walks slowly down a bright hospital ward corridor and raises a hand in greeting toward a distant, completely out-of-focus figure; camera follows gently from behind at shoulder height. Realistic cinematic shot, natural colors with deep green accents and warm highlights, no readable text, no logos, no visible faces.",
+   "A union representative in a dark green sweater and jeans, seen only from behind, walks slowly down a bright hospital ward corridor carrying a folder and raises a hand in greeting toward a distant, completely out-of-focus nurse; camera follows gently from behind at shoulder height. Realistic cinematic shot, natural colors with deep green accents and warm highlights, no readable text, no logos, no visible faces."
+  ],
+  "C04": "Meeting around a wooden table filmed at table height: only hands, forearms, papers, pens and coffee cups in frame, hands gesturing while discussing, papers blurred, slow dolly along the table. Realistic cinematic shot, natural colors with deep green accents and warm highlights, no readable text, no logos, no faces.",
+  "C05": "A smartphone lying face up on a wooden table lights up several times with incoming notifications, the screen completely out of focus showing only soft glowing shapes, shallow depth of field, slow push-in. Realistic cinematic shot, natural colors with deep green accents and warm highlights, no readable text, no logos, no faces."
+ },
+ "generation_id": {
+  "I01": "soCQq0LarcU8w7hw3aIY",
+  "I02": "6iS0wqBbq507bf9uvo1g",
+  "I03": "FFfvtBK9wDxktuwlYNRj",
+  "I04": "3JFwJb7pXCwjh8oYWQAc",
+  "I05": "4akucILYiDxC1hnxVhWH",
+  "I06": "GrsWQlPIM3Hsvj5onyzy",
+  "I07": "W66Abndx6Evsavrng4q0",
+  "I08": "eNJO7z1oOGrS0iWyk8ya",
+  "C01a": "E0j7kGJMTcqHUaQkOqIA",
+  "C02a": "FiWeq94DWTnGqRq5e4Lw",
+  "C03a": "qN39wCkhZaQmES0zc23a",
+  "C04a": "Fd9zxvzSpEhmePpLPCH4",
+  "C05a": "SSEnk7nCNIm6FWNGdYv9",
+  "C01b": "uavpbv5ElHJ6fG2McUI8",
+  "C02b": "lxi7TBXt4SZh205CrXqN",
+  "C03b": "lJqMlleh51MuDg3x40Gv",
+  "C04b": "4aLHWsK23PFtKhbwczxW",
+  "C05b": "gLWryJ2gLL3RBNoc7Sw6",
+  "I09": "sUftykjlduQ1Q0Rl08JN",
+  "I11": "dBaZk5VtxP38SJiQScHO",
+  "I15": "yoPjbgUbBIkIcPAFQat3",
+  "I19": "Llx0ScYxLqbYF1BuHVil",
+  "I22": "P2KXzwqOrMwJhL1KZtWN",
+  "I10": "gd30nRqWQprWvtMwYkMh",
+  "I12": "QIy0y8o2kgcHBl1WcuVh",
+  "I13": "WkrV5wuZEfgVK74HJyuk",
+  "I14": "T8YWqSVMwFTwRl5QTKkc",
+  "I16": "9n95TEvSK4hsdztuqzLg",
+  "I17": "YLZs3NWdEssD43G71FJI",
+  "I18": "gHvrLIcjylWijaMNXjKl",
+  "I20": "IprObdubC53kXcgTmXHJ",
+  "I21": "jq7oL6leFHviP6sWptSP",
+  "I23": "xhVWP7grcS7SOyuPdGQB"
+ }
+}
