@@ -19,8 +19,19 @@ blocchi = {}
 for b, t in P["inizio"].items():
     blocchi[b] = dict(generazione=gen_voce.get(b), grezzo_s=None,
                       lavorato_s=dur(os.path.join(B, "audio", "lavorato", f"{b}.wav")), inizio_s=t)
+# voce da HeyGen: niente mp3 per blocco, il grezzo di ogni blocco è il tratto di traccia fra due confini
+th = os.path.join(B, "audio", "grezzo", "tracce_heygen.json")
+grezzo_hg = {}
+if os.path.exists(th):
+    for t in json.load(open(th)).values():
+        # una traccia rifatta (es. R) sostituisce il grezzo dei suoi blocchi: vale quella indicata in generazioni.json
+        punti = [0] + t["confini"] + [t["durata"]]
+        grezzo_hg.update({b: round(punti[i + 1] - punti[i], 2) for i, b in enumerate(t["blocchi"])
+                          if gen_voce.get(b) == "heygen:" + t["request_id"]})
 for b in blocchi:
     f = os.path.join(B, "audio", "grezzo", f"{b}.mp3")
+    if not os.path.exists(f):
+        blocchi[b]["grezzo_s"] = grezzo_hg.get(b); continue
     r = subprocess.run([FF, "-i", f], capture_output=True, text=True).stderr
     h, m, s = re.search(r"Duration: (\d+):(\d+):([\d.]+)", r).groups(); blocchi[b]["grezzo_s"] = round(int(m) * 60 + float(s), 2)
 inq = []
