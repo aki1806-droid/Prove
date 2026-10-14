@@ -1,0 +1,1162 @@
+1
+00:00:03,000 --> 00:00:06,471
+Abbiamo parlato di come funziona
+l'intelligenza artificiale,
+
+2
+00:00:06,511 --> 00:00:07,525
+di perché sbaglia,
+
+3
+00:00:07,565 --> 00:00:11,095
+di che cosa può fare per noi e di che cosa
+non deve fare mai.
+
+4
+00:00:11,135 --> 00:00:14,372
+Adesso è il momento di smettere di
+parlarne e di usarla.
+
+5
+00:00:14,412 --> 00:00:18,527
+Insieme, passo dopo passo, a schermo, su
+un argomento che conosci bene.
+
+6
+00:00:19,167 --> 00:00:21,934
+Per la tua prima conversazione guidata ti
+chiedo di
+
+7
+00:00:21,974 --> 00:00:25,016
+scegliere una norma o una regola che
+conosci molto bene.
+
+8
+00:00:25,056 --> 00:00:29,475
+Non per metterti alla prova, ma per il
+motivo opposto: quando conosci la materia,
+
+9
+00:00:29,515 --> 00:00:32,447
+puoi vedere con chiarezza dove lo
+strumento è preciso,
+
+10
+00:00:32,487 --> 00:00:33,933
+dove è vago e dove sbaglia.
+
+11
+00:00:33,973 --> 00:00:37,235
+È il modo più rapido per imparare a
+leggere le sue risposte.
+
+12
+00:00:37,275 --> 00:00:39,767
+Conoscere la materia è la tua migliore
+difesa.
+
+13
+00:00:40,407 --> 00:00:43,665
+Io userò come esempio il diritto di
+assemblea dei lavoratori:
+
+14
+00:00:43,705 --> 00:00:47,341
+chi può convocarla, quando si può tenere,
+quanto tempo è retribuito.
+
+15
+00:00:47,381 --> 00:00:49,719
+È un tema che ogni delegato incontra
+presto,
+
+16
+00:00:49,759 --> 00:00:51,936
+e che ha una particolarità utile per noi:
+
+17
+00:00:51,976 --> 00:00:53,936
+le regole generali si intrecciano con
+
+18
+00:00:53,976 --> 00:00:56,315
+quelle del pubblico impiego e dei
+contratti,
+
+19
+00:00:56,355 --> 00:00:59,396
+ed è proprio lì che uno strumento rischia
+di confondersi.
+
+20
+00:01:00,037 --> 00:01:01,339
+Una precisazione onesta:
+
+21
+00:01:01,379 --> 00:01:04,749
+quello che vedrai a schermo è una prova
+reale, non preparata.
+
+22
+00:01:04,789 --> 00:01:08,775
+Non so in anticipo che cosa risponderà lo
+strumento, e non è importante.
+
+23
+00:01:08,815 --> 00:01:12,018
+Quello che conta è il metodo con cui
+leggiamo la risposta,
+
+24
+00:01:12,058 --> 00:01:13,863
+la correggiamo e la trasformiamo.
+
+25
+00:01:13,903 --> 00:01:18,112
+Lo stesso metodo funziona con qualunque
+argomento e con qualunque strumento.
+
+26
+00:01:18,152 --> 00:01:20,572
+Anche gli errori, qui, sono utili da
+vedere.
+
+27
+00:01:21,212 --> 00:01:23,710
+La conversazione seguirà sette passi.
+
+28
+00:01:23,750 --> 00:01:26,318
+Primo, aprire una conversazione nuova.
+
+29
+00:01:26,358 --> 00:01:29,062
+Secondo, presentarsi e dare il contesto.
+
+30
+00:01:29,102 --> 00:01:30,640
+Terzo, fare la domanda.
+
+31
+00:01:30,680 --> 00:01:33,316
+Quarto, leggere la risposta da esperto.
+
+32
+00:01:33,356 --> 00:01:34,619
+Quinto, correggere.
+
+33
+00:01:34,659 --> 00:01:37,844
+Sesto, chiedere una versione per qualcun
+altro.
+
+34
+00:01:37,884 --> 00:01:40,245
+Settimo, chiudere con una verifica.
+
+35
+00:01:40,285 --> 00:01:42,029
+Li vedremo uno alla volta.
+
+36
+00:01:42,669 --> 00:01:44,902
+Primo passo: apro una conversazione nuova.
+
+37
+00:01:44,942 --> 00:01:46,687
+Sembra un dettaglio, ma non lo è.
+
+38
+00:01:46,727 --> 00:01:48,744
+Se continuo una conversazione vecchia,
+
+39
+00:01:48,784 --> 00:01:52,153
+lo strumento tiene conto di tutto quello
+che c'è scritto prima,
+
+40
+00:01:52,193 --> 00:01:55,832
+e la risposta può essere influenzata da
+argomenti che non c'entrano.
+
+41
+00:01:55,872 --> 00:01:58,213
+Un argomento nuovo, una conversazione
+nuova.
+
+42
+00:01:58,253 --> 00:02:00,269
+È come cominciare su un foglio pulito.
+
+43
+00:02:00,909 --> 00:02:03,453
+Secondo passo: mi presento e do il
+contesto.
+
+44
+00:02:03,493 --> 00:02:05,450
+Non scrivo il mio nome, non serve.
+
+45
+00:02:05,490 --> 00:02:07,564
+Scrivo il mio ruolo e la situazione.
+
+46
+00:02:07,604 --> 00:02:11,206
+Sono un delegato sindacale in un'azienda
+ospedaliera pubblica.
+
+47
+00:02:11,246 --> 00:02:14,494
+Mi serve una spiegazione chiara da usare
+con i colleghi.
+
+48
+00:02:14,534 --> 00:02:16,844
+È una frase sola, ma cambia la risposta:
+
+49
+00:02:16,884 --> 00:02:20,133
+lo strumento sa per chi sta scrivendo e in
+quale ambito.
+
+50
+00:02:20,773 --> 00:02:22,589
+Ricordi come funziona il modello?
+
+51
+00:02:22,629 --> 00:02:26,694
+Costruisce la risposta più probabile a
+partire da tutto quello che legge.
+
+52
+00:02:26,734 --> 00:02:31,249
+Se scrivi solo diritto di assemblea, la
+risposta più probabile è quella generica,
+
+53
+00:02:31,289 --> 00:02:33,386
+magari pensata per un'azienda privata.
+
+54
+00:02:33,426 --> 00:02:37,829
+Se scrivi pubblico impiego e ospedale, gli
+schemi che si attivano sono diversi.
+
+55
+00:02:37,869 --> 00:02:40,134
+Il contesto è il primo modo per guidarlo.
+
+56
+00:02:40,774 --> 00:02:45,775
+Nel contesto, però, metti solo ciò che
+serve: il tuo ruolo, il settore, lo scopo.
+
+57
+00:02:45,815 --> 00:02:50,132
+Non serve, e non va scritto, il nome
+dell'azienda se non è necessario,
+
+58
+00:02:50,172 --> 00:02:53,369
+né il nome di colleghi, né i dettagli di
+casi reali.
+
+59
+00:02:53,409 --> 00:02:55,983
+Il contesto utile è quasi sempre generico:
+
+60
+00:02:56,023 --> 00:02:59,157
+tipo di ente, tipo di lavoratori, tipo di
+problema.
+
+61
+00:02:59,197 --> 00:03:01,771
+Il resto è rumore, e a volte è un rischio.
+
+62
+00:03:01,811 --> 00:03:04,199
+Meno dettagli metti, meno rischi corri.
+
+63
+00:03:04,839 --> 00:03:06,179
+Terzo passo: la domanda.
+
+64
+00:03:06,219 --> 00:03:09,342
+La scrivo così: spiegami in modo semplice
+come funziona
+
+65
+00:03:09,382 --> 00:03:12,562
+il diritto di assemblea dei lavoratori nel
+mio contesto.
+
+66
+00:03:12,602 --> 00:03:15,265
+Chi può convocarla, quante ore sono
+retribuite,
+
+67
+00:03:15,305 --> 00:03:18,657
+con quale preavviso, e quali sono le fonti
+che lo regolano.
+
+68
+00:03:18,697 --> 00:03:21,475
+Alla fine indicami su quali punti non sei
+sicuro.
+
+69
+00:03:22,115 --> 00:03:23,583
+Hai notato l'ultima frase?
+
+70
+00:03:23,623 --> 00:03:25,845
+Indicami su quali punti non sei sicuro.
+
+71
+00:03:25,885 --> 00:03:29,092
+È la seconda difesa che abbiamo visto
+nella lezione due:
+
+72
+00:03:29,132 --> 00:03:30,542
+autorizzare il non lo so.
+
+73
+00:03:30,582 --> 00:03:34,138
+Non garantisce che lo strumento riconosca
+tutti i suoi errori,
+
+74
+00:03:34,178 --> 00:03:37,154
+ma spesso fa emergere i punti deboli della
+risposta,
+
+75
+00:03:37,194 --> 00:03:39,125
+e ti dice dove guardare per primo.
+
+76
+00:03:39,765 --> 00:03:43,319
+Nota anche che nella domanda ho messo più
+richieste precise:
+
+77
+00:03:43,359 --> 00:03:46,553
+chi convoca, quante ore, quale preavviso,
+quali fonti.
+
+78
+00:03:46,593 --> 00:03:49,129
+Una domanda vaga ottiene una risposta
+vaga.
+
+79
+00:03:49,169 --> 00:03:53,022
+Una domanda divisa in punti ottiene una
+risposta divisa in punti,
+
+80
+00:03:53,062 --> 00:03:55,657
+molto più facile da controllare uno per
+uno.
+
+81
+00:03:55,697 --> 00:03:58,293
+E ogni punto diventa una cosa da
+verificare.
+
+82
+00:03:58,933 --> 00:04:00,118
+Vediamolo a schermo.
+
+83
+00:04:00,158 --> 00:04:02,140
+Apro Claude, nuova conversazione.
+
+84
+00:04:02,180 --> 00:04:05,632
+Scrivo il contesto e la domanda, con
+calma, senza fretta.
+
+85
+00:04:05,672 --> 00:04:06,000
+Invio.
+
+86
+00:04:06,040 --> 00:04:09,308
+La risposta comincia a comparire, un pezzo
+alla volta.
+
+87
+00:04:09,348 --> 00:04:11,636
+Aspetto che finisca prima di leggerla:
+
+88
+00:04:11,676 --> 00:04:14,760
+le prime righe, da sole, possono trarre in
+inganno.
+
+89
+00:04:15,400 --> 00:04:18,640
+Quarto passo, il più importante: leggere
+da esperto.
+
+90
+00:04:18,680 --> 00:04:23,560
+Non leggo per farmi un'idea: leggo come
+leggerei la bozza di un collega nuovo.
+
+91
+00:04:23,600 --> 00:04:26,083
+E uso tre segni, anche solo mentalmente.
+
+92
+00:04:26,123 --> 00:04:28,353
+Un segno verde per ciò che è giusto.
+
+93
+00:04:28,393 --> 00:04:30,498
+Un segno giallo per ciò che manca.
+
+94
+00:04:30,538 --> 00:04:33,526
+Un segno rosso per ciò che è sbagliato o
+dubbio.
+
+95
+00:04:33,566 --> 00:04:36,364
+Nessuna risposta si usa senza questa
+lettura.
+
+96
+00:04:37,004 --> 00:04:38,139
+Guardiamo la risposta.
+
+97
+00:04:38,179 --> 00:04:39,314
+La struttura è chiara,
+
+98
+00:04:39,354 --> 00:04:41,610
+e la parte generale sul diritto di
+riunirsi
+
+99
+00:04:41,650 --> 00:04:43,959
+nel luogo di lavoro è corretta: segno
+verde.
+
+100
+00:04:43,999 --> 00:04:46,095
+Manca però un riferimento esplicito alle
+
+101
+00:04:46,135 --> 00:04:48,925
+regole specifiche del pubblico impiego:
+segno giallo.
+
+102
+00:04:48,965 --> 00:04:52,396
+E c'è un dettaglio sul numero di ore che
+va verificato sul testo,
+
+103
+00:04:52,436 --> 00:04:55,173
+perché non distingue tra la regola
+generale e quella
+
+104
+00:04:55,213 --> 00:04:58,110
+prevista dai contratti del nostro settore:
+segno rosso.
+
+105
+00:04:58,750 --> 00:05:00,639
+Questo schema ricorre spessissimo.
+
+106
+00:05:00,679 --> 00:05:04,439
+La parte generale è affidabile, perché
+compare in moltissimi testi.
+
+107
+00:05:04,479 --> 00:05:07,502
+I dettagli specifici del settore sono meno
+affidabili,
+
+108
+00:05:07,542 --> 00:05:10,112
+perché sono più rari e si somigliano tra
+loro.
+
+109
+00:05:10,152 --> 00:05:14,877
+È esattamente la terza zona di rischio che
+abbiamo visto: le cose che si somigliano.
+
+110
+00:05:14,917 --> 00:05:17,883
+Ora lo vedi con i tuoi occhi, su un tema
+che conosci.
+
+111
+00:05:18,523 --> 00:05:22,663
+Prendi l'abitudine di usare questi tre
+segni su ogni risposta che conta,
+
+112
+00:05:22,703 --> 00:05:23,475
+non solo oggi.
+
+113
+00:05:23,515 --> 00:05:24,694
+Verde, giallo, rosso.
+
+114
+00:05:24,734 --> 00:05:27,423
+Dopo qualche settimana lo farai senza
+pensarci,
+
+115
+00:05:27,463 --> 00:05:32,241
+e scoprirai che le risposte più insidiose
+non sono quelle piene di errori evidenti,
+
+116
+00:05:32,281 --> 00:05:36,478
+ma quelle quasi perfette, con un solo
+dettaglio rosso nascosto nel mezzo.
+
+117
+00:05:36,518 --> 00:05:40,077
+È proprio quel dettaglio che i tre segni
+ti aiutano a trovare.
+
+118
+00:05:40,717 --> 00:05:42,112
+Quinto passo: correggere.
+
+119
+00:05:42,152 --> 00:05:44,867
+La correzione deve essere precisa, non
+generica.
+
+120
+00:05:44,907 --> 00:05:48,942
+Non scrivo hai sbagliato, perché lo
+strumento potrebbe cambiare a caso.
+
+121
+00:05:48,982 --> 00:05:51,984
+Scrivo che cosa è sbagliato e qual è la
+fonte giusta.
+
+122
+00:05:52,024 --> 00:05:54,624
+Per esempio: nel pubblico impiego le
+assemblee
+
+123
+00:05:54,664 --> 00:05:57,609
+sono regolate anche dalla contrattazione
+collettiva;
+
+124
+00:05:57,649 --> 00:06:00,249
+ecco il testo dell'articolo che le
+disciplina.
+
+125
+00:06:00,289 --> 00:06:02,200
+Riformula tenendo conto di questo,
+
+126
+00:06:02,240 --> 00:06:05,644
+e distingui la regola generale da quella
+del nostro settore.
+
+127
+00:06:06,284 --> 00:06:08,678
+Se hai il testo della norma o del
+contratto,
+
+128
+00:06:08,718 --> 00:06:11,334
+ancora meglio: incollalo, o carica il
+documento.
+
+129
+00:06:11,374 --> 00:06:15,483
+A quel punto la correzione non si basa più
+sulla tua memoria contro la sua,
+
+130
+00:06:15,523 --> 00:06:18,249
+ma su un testo che entrambi avete sotto
+gli occhi.
+
+131
+00:06:18,289 --> 00:06:20,352
+È la prima difesa: la fonte la dai tu.
+
+132
+00:06:20,992 --> 00:06:22,269
+Vediamo che cosa succede.
+
+133
+00:06:22,309 --> 00:06:24,639
+Scrivo la correzione e incollo l'articolo
+del
+
+134
+00:06:24,679 --> 00:06:27,430
+contratto che regola le assemblee nel
+nostro settore.
+
+135
+00:06:27,470 --> 00:06:31,170
+La nuova risposta distingue le due fonti,
+cita il testo che ho fornito,
+
+136
+00:06:31,210 --> 00:06:34,857
+e indica le ore previste dal contratto
+riportando il passaggio esatto.
+
+137
+00:06:34,897 --> 00:06:38,649
+Adesso posso controllarla in pochi
+secondi, confrontandola con il testo.
+
+138
+00:06:39,289 --> 00:06:41,137
+Attenzione però all'eccesso opposto.
+
+139
+00:06:41,177 --> 00:06:43,024
+Ricordi l'effetto che abbiamo visto,
+
+140
+00:06:43,064 --> 00:06:45,803
+quando lo strumento ti dà ragione anche se
+hai torto?
+
+141
+00:06:45,843 --> 00:06:49,526
+Se la tua correzione è sbagliata, è
+probabile che la accetti lo stesso.
+
+142
+00:06:49,566 --> 00:06:52,253
+Per questo è importante correggere citando
+la fonte,
+
+143
+00:06:52,293 --> 00:06:54,036
+e non solo la propria impressione.
+
+144
+00:06:54,076 --> 00:06:57,077
+Una correzione senza fonte può introdurre
+un errore nuovo.
+
+145
+00:06:57,717 --> 00:07:02,242
+Un'ultima osservazione sulla correzione:
+falla con calma, e un punto alla volta.
+
+146
+00:07:02,282 --> 00:07:04,069
+Se correggi cinque cose insieme,
+
+147
+00:07:04,109 --> 00:07:07,436
+lo strumento può sistemarne quattro e
+peggiorare la quinta.
+
+148
+00:07:07,476 --> 00:07:10,803
+Se correggi un punto, controlli, e poi
+passi al successivo,
+
+149
+00:07:10,843 --> 00:07:13,200
+mantieni il controllo della conversazione.
+
+150
+00:07:13,240 --> 00:07:15,596
+È un minuto più lento, e molto più sicuro.
+
+151
+00:07:15,636 --> 00:07:17,708
+La fretta, qui, è la nemica peggiore.
+
+152
+00:07:18,348 --> 00:07:21,316
+Sesto passo: chiedere una versione per
+qualcun altro.
+
+153
+00:07:21,356 --> 00:07:24,040
+La spiegazione è corretta, ma è lunga e
+tecnica.
+
+154
+00:07:24,080 --> 00:07:28,069
+Chiedo: riscrivila in sei righe per un
+collega appena eletto nella RSU,
+
+155
+00:07:28,109 --> 00:07:29,601
+con un linguaggio semplice,
+
+156
+00:07:29,641 --> 00:07:31,928
+senza perdere le informazioni essenziali,
+
+157
+00:07:31,968 --> 00:07:35,446
+e senza aggiungere nulla che non sia nel
+testo che ti ho dato.
+
+158
+00:07:36,086 --> 00:07:38,204
+Ecco la versione per il nuovo delegato.
+
+159
+00:07:38,244 --> 00:07:41,026
+Sei righe, frasi brevi, nessuna sigla non
+spiegata.
+
+160
+00:07:41,066 --> 00:07:43,848
+Questa è la parte in cui lo strumento
+rende di più,
+
+161
+00:07:43,888 --> 00:07:48,495
+perché il contenuto è già stato verificato
+e lui deve solo dargli una forma diversa.
+
+162
+00:07:48,535 --> 00:07:50,155
+È lo schema della lezione tre:
+
+163
+00:07:50,195 --> 00:07:52,811
+il contenuto lo porti tu, la forma te la
+dà lui.
+
+164
+00:07:53,451 --> 00:07:54,891
+Se vuoi, puoi andare oltre.
+
+165
+00:07:54,931 --> 00:07:58,837
+Chiedere tre domande che un nuovo delegato
+potrebbe fare sull'argomento,
+
+166
+00:07:58,877 --> 00:07:59,713
+con le risposte.
+
+167
+00:07:59,753 --> 00:08:02,125
+Chiedere un esempio pratico di
+convocazione.
+
+168
+00:08:02,165 --> 00:08:05,687
+Chiedere di trasformare la spiegazione in
+una scheda da stampare.
+
+169
+00:08:05,727 --> 00:08:08,537
+Ogni volta lavori sullo stesso contenuto
+verificato,
+
+170
+00:08:08,577 --> 00:08:11,661
+e ogni volta ottieni un materiale utile in
+pochi secondi.
+
+171
+00:08:12,301 --> 00:08:14,670
+Settimo passo: chiudere con una verifica.
+
+172
+00:08:14,710 --> 00:08:16,492
+Prima di usare il testo finale,
+
+173
+00:08:16,532 --> 00:08:20,722
+rileggilo una volta intera con il secondo
+sguardo della lezione quattro.
+
+174
+00:08:20,762 --> 00:08:22,838
+Controlla numeri, riferimenti, nomi.
+
+175
+00:08:22,878 --> 00:08:25,423
+Chiediti se lo firmeresti parola per
+parola.
+
+176
+00:08:25,463 --> 00:08:27,656
+Solo allora lo copi, lo salvi, lo usi.
+
+177
+00:08:28,296 --> 00:08:32,213
+E poi conserva il risultato in modo
+ordinato: una cartella per argomento,
+
+178
+00:08:32,253 --> 00:08:35,194
+con il testo finale e la fonte da cui
+l'hai verificato.
+
+179
+00:08:35,234 --> 00:08:38,934
+Tra qualche mese, quando un altro delegato
+ti farà la stessa domanda,
+
+180
+00:08:38,974 --> 00:08:41,319
+avrai una risposta pronta e già
+controllata.
+
+181
+00:08:41,359 --> 00:08:45,385
+È così che, piano piano, una sede
+costruisce il suo archivio di conoscenza.
+
+182
+00:08:45,425 --> 00:08:48,041
+Un archivio così vale più di qualunque
+strumento.
+
+183
+00:08:48,681 --> 00:08:50,716
+Un trucco utile per l'ultimo controllo:
+
+184
+00:08:50,756 --> 00:08:53,056
+chiedere allo strumento stesso di
+rileggere.
+
+185
+00:08:53,096 --> 00:08:55,769
+Scrivo: rileggi il testo finale e segnala
+qualunque
+
+186
+00:08:55,809 --> 00:08:59,386
+affermazione che non sia supportata dal
+documento che ti ho fornito.
+
+187
+00:08:59,426 --> 00:09:01,088
+Non sostituisce la tua verifica,
+
+188
+00:09:01,128 --> 00:09:03,854
+ma a volte segnala un passaggio che ti era
+sfuggito.
+
+189
+00:09:03,894 --> 00:09:05,822
+È un secondo controllo, non il primo.
+
+190
+00:09:06,462 --> 00:09:08,106
+Durante tutta la conversazione,
+
+191
+00:09:08,146 --> 00:09:12,182
+tieni accanto la regola personale che hai
+scritto nella lezione precedente.
+
+192
+00:09:12,222 --> 00:09:15,877
+Hai usato lo strumento per spiegare e
+riformulare, non per decidere.
+
+193
+00:09:15,917 --> 00:09:17,616
+Non hai inserito dati personali.
+
+194
+00:09:17,656 --> 00:09:19,083
+Hai riletto prima di usare.
+
+195
+00:09:19,123 --> 00:09:22,071
+Se è così, hai appena fatto una
+conversazione corretta,
+
+196
+00:09:22,111 --> 00:09:23,267
+dall'inizio alla fine.
+
+197
+00:09:23,907 --> 00:09:27,227
+Puoi ripetere la stessa conversazione con
+ChatGPT e con Gemini.
+
+198
+00:09:27,267 --> 00:09:30,641
+Le risposte saranno diverse nella forma, e
+a volte nei dettagli.
+
+199
+00:09:30,681 --> 00:09:34,535
+È un ottimo esercizio: ti abitua a leggere
+da esperto qualunque risposta,
+
+200
+00:09:34,575 --> 00:09:36,348
+indipendentemente dallo strumento.
+
+201
+00:09:36,388 --> 00:09:39,815
+Nel prossimo modulo li metteremo a
+confronto in modo sistematico.
+
+202
+00:09:39,855 --> 00:09:43,069
+Ogni strumento ha il suo carattere, e
+imparerai a conoscerlo.
+
+203
+00:09:43,708 --> 00:09:46,184
+Quanto tempo richiede una conversazione
+così?
+
+204
+00:09:46,224 --> 00:09:47,806
+Le prime volte, venti minuti.
+
+205
+00:09:47,846 --> 00:09:49,874
+Dopo qualche settimana, cinque o sei.
+
+206
+00:09:49,914 --> 00:09:54,180
+I sette passi diventano un'abitudine, e la
+lettura da esperto diventa veloce.
+
+207
+00:09:54,220 --> 00:09:56,696
+Ma il tempo non si recupera saltando i
+passi:
+
+208
+00:09:56,736 --> 00:09:59,548
+si recupera facendoli bene, sempre più
+rapidamente.
+
+209
+00:09:59,588 --> 00:10:02,791
+La velocità arriva con la pratica, non con
+le scorciatoie.
+
+210
+00:10:03,431 --> 00:10:07,489
+Se le prime conversazioni ti sembrano
+lente o deludenti, non scoraggiarti.
+
+211
+00:10:07,529 --> 00:10:10,590
+È normale: stai imparando a guidare uno
+strumento nuovo,
+
+212
+00:10:10,630 --> 00:10:14,190
+e la parte difficile non è usarlo, ma
+leggere quello che produce.
+
+213
+00:10:14,230 --> 00:10:17,900
+Ogni conversazione fatta bene ti rende più
+veloce nella successiva.
+
+214
+00:10:17,940 --> 00:10:21,444
+E tra qualche modulo ti sembrerà strano
+aver mai lavorato senza.
+
+215
+00:10:21,484 --> 00:10:24,268
+Anche i colleghi più esperti hanno
+cominciato così.
+
+216
+00:10:24,908 --> 00:10:27,729
+Con questa lezione chiudiamo il primo
+modulo.
+
+217
+00:10:27,769 --> 00:10:32,242
+Abbiamo visto che il modello prevede
+parole e non consulta un archivio.
+
+218
+00:10:32,282 --> 00:10:34,721
+Che sbaglia soprattutto su riferimenti,
+
+219
+00:10:34,761 --> 00:10:37,709
+testi locali, cose simili, attualità e
+calcoli.
+
+220
+00:10:37,749 --> 00:10:40,760
+Che è prezioso per scrivere, leggere,
+preparare,
+
+221
+00:10:40,800 --> 00:10:43,240
+ordinare, spiegare, tradurre e formare.
+
+222
+00:10:43,280 --> 00:10:46,482
+E che decidere, firmare e giudicare
+restano nostri.
+
+223
+00:10:47,122 --> 00:10:49,781
+Tieni a mente anche le tre regole del
+benvenuto,
+
+224
+00:10:49,821 --> 00:10:52,648
+che in questo modulo hanno trovato le loro
+ragioni.
+
+225
+00:10:52,688 --> 00:10:54,841
+I dati dei lavoratori non si incollano,
+
+226
+00:10:54,881 --> 00:10:57,539
+perché lo strumento non è un archivio
+riservato.
+
+227
+00:10:57,579 --> 00:10:59,001
+Ogni risposta si verifica,
+
+228
+00:10:59,041 --> 00:11:02,150
+perché il modello costruisce il probabile
+e non il vero.
+
+229
+00:11:02,190 --> 00:11:04,680
+E ciò che esce dalla sede porta la tua
+firma,
+
+230
+00:11:04,720 --> 00:11:07,603
+perché decidere e rispondere restano
+compiti nostri.
+
+231
+00:11:08,243 --> 00:11:11,856
+Gli errori tipici della prima
+conversazione sono quattro.
+
+232
+00:11:11,896 --> 00:11:14,291
+Primo: fare la domanda senza contesto.
+
+233
+00:11:14,331 --> 00:11:17,239
+Secondo: leggere solo l'inizio della
+risposta.
+
+234
+00:11:17,279 --> 00:11:21,085
+Terzo: correggere in modo generico, senza
+indicare la fonte.
+
+235
+00:11:21,125 --> 00:11:24,609
+Quarto: usare il testo finale senza
+l'ultima rilettura.
+
+236
+00:11:25,249 --> 00:11:27,729
+La frase da portarsi a casa è questa:
+
+237
+00:11:27,769 --> 00:11:31,067
+una buona conversazione si guida, non si
+subisce.
+
+238
+00:11:31,107 --> 00:11:33,655
+Contesto, domanda, lettura da esperto,
+
+239
+00:11:33,695 --> 00:11:36,857
+correzione con la fonte, nuova forma,
+verifica.
+
+240
+00:11:36,897 --> 00:11:40,399
+Sono sette passi, e diventano naturali
+molto presto.
+
+241
+00:11:40,439 --> 00:11:42,169
+Il resto lo fa la pratica.
+
+242
+00:11:42,810 --> 00:11:46,549
+La pratica di oggi: scegli una norma o una
+regola che conosci bene,
+
+243
+00:11:46,589 --> 00:11:50,158
+e fai la tua prima conversazione guidata
+seguendo i sette passi.
+
+244
+00:11:50,198 --> 00:11:53,147
+Annota nella scheda della pratica i tuoi
+segni verdi,
+
+245
+00:11:53,187 --> 00:11:55,741
+gialli e rossi, e la correzione che hai
+fatto.
+
+246
+00:11:55,781 --> 00:11:57,885
+Infine compila il quiz di fine modulo.
+
+247
+00:11:58,524 --> 00:12:03,093
+Nel prossimo modulo conosciamo da vicino i
+tre strumenti: come si aprono gli account,
+
+248
+00:12:03,133 --> 00:12:06,292
+che cosa offrono le versioni gratuite e
+quelle a pagamento,
+
+249
+00:12:06,332 --> 00:12:07,973
+e quale usare per ogni compito.
+
+250
+00:12:08,013 --> 00:12:08,732
+Ci vediamo lì.
