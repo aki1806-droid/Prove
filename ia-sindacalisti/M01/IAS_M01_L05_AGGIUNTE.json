@@ -1,0 +1,171 @@
+{
+ "_nota": "Inquadrature aggiunte in montaggio: coprono il tempo che la regola dei 9 s toglie alle scene grafiche. I07-I14 generate per questa lezione; I15-I23 sono riusi di immagini delle lezioni 1.2-1.4 (crediti ElevenLabs esauriti); in B16, B18, B26 e B36 si riusano I03, I04, I06 e I05.",
+ "B01": [
+  {
+   "id": "S003x",
+   "dopo": "S003",
+   "tipo": "immagine",
+   "asset": "I07"
+  }
+ ],
+ "B04": [
+  {
+   "id": "S008x",
+   "dopo": "S008",
+   "tipo": "immagine",
+   "asset": "I08"
+  }
+ ],
+ "B07": [
+  {
+   "id": "S012x",
+   "dopo": "S012",
+   "tipo": "immagine",
+   "asset": "I09"
+  }
+ ],
+ "B08": [
+  {
+   "id": "S013x",
+   "dopo": "S013",
+   "tipo": "immagine",
+   "asset": "I10"
+  }
+ ],
+ "B09": [
+  {
+   "id": "S014x",
+   "dopo": "S014",
+   "tipo": "immagine",
+   "asset": "I11"
+  }
+ ],
+ "B10": [
+  {
+   "id": "S015x",
+   "dopo": "S015",
+   "tipo": "immagine",
+   "asset": "I12"
+  }
+ ],
+ "B11": [
+  {
+   "id": "S017x",
+   "dopo": "S017",
+   "tipo": "immagine",
+   "asset": "I13"
+  }
+ ],
+ "B12": [
+  {
+   "id": "S018x",
+   "dopo": "S018",
+   "tipo": "immagine",
+   "asset": "I14"
+  }
+ ],
+ "B16": [
+  {
+   "id": "S024x",
+   "dopo": "S024",
+   "tipo": "immagine",
+   "asset": "I03"
+  }
+ ],
+ "B17": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "I15"
+  }
+ ],
+ "B18": [
+  {
+   "id": "S027x",
+   "dopo": "S027",
+   "tipo": "immagine",
+   "asset": "I04"
+  }
+ ],
+ "B21": [
+  {
+   "id": "S031x",
+   "dopo": "S031",
+   "tipo": "immagine",
+   "asset": "I16"
+  }
+ ],
+ "B23": [
+  {
+   "id": "S033x",
+   "dopo": "S033",
+   "tipo": "immagine",
+   "asset": "I17"
+  }
+ ],
+ "B25": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "I18"
+  }
+ ],
+ "B26": [
+  {
+   "id": "S037x",
+   "dopo": "S037",
+   "tipo": "immagine",
+   "asset": "I06"
+  }
+ ],
+ "B29": [
+  {
+   "id": "S043x",
+   "dopo": "S043",
+   "tipo": "immagine",
+   "asset": "I19"
+  }
+ ],
+ "B31": [
+  {
+   "id": "S046x",
+   "dopo": "S046",
+   "tipo": "immagine",
+   "asset": "I20"
+  }
+ ],
+ "B32": [
+  {
+   "id": "S048x",
+   "dopo": "S048",
+   "tipo": "immagine",
+   "asset": "I21"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S050x",
+   "dopo": "S050",
+   "tipo": "immagine",
+   "asset": "I22"
+  }
+ ],
+ "B35": [
+  {
+   "id": "S051x",
+   "dopo": "S051",
+   "tipo": "immagine",
+   "asset": "I23"
+  }
+ ],
+ "B36": [
+  {
+   "id": "S052x",
+   "dopo": "S052",
+   "tipo": "immagine",
+   "asset": "I05"
+  }
+ ]
+}
