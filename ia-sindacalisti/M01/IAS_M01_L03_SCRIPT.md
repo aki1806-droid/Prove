@@ -1,6 +1,6 @@
 # IAS · Modulo 1 · Lezione 1.3 — Che cosa può fare per un sindacalista
 
-**Voce:** Achille nuovo 1 v4 (ElevenLabs) · **Durata finale attesa:** circa 12 minuti e mezzo dopo silenceremove e atempo 1,12
+**Voce:** Achille nuovo 1 (HeyGen, motore ElevenLabs eleven_v4) · **Durata finale attesa:** circa 12 minuti dopo silenceremove e atempo 1,16
 **Regola:** un blocco = una traccia audio. Le intestazioni non si leggono.
 
 ---
@@ -18,7 +18,7 @@ In questa lezione costruiamo una mappa dei compiti. Vedremo le otto famiglie di 
 Partiamo dal principio che abbiamo già incontrato: l'intelligenza artificiale è eccellente con la forma del linguaggio, e affidabile sui fatti solo quando glieli fornisci tu. Tutto quello che vedremo oggi discende da qui. I compiti migliori sono quelli in cui il contenuto lo metti tu, e lei ti aiuta a dargli forma, ordine e velocità.
 
 ### B05 — Non solo velocità
-Non è solo questione di velocità. Spesso il guadagno più grande è la qualità: un comunicato riletto da un occhio esterno è più chiaro, una lettera all'azienda con una struttura ordinata è più forte, il riassunto di una delibera fatto con calma ti fa vedere un punto che di corsa avresti perso. L'intelligenza artificiale è anche un secondo paio d'occhi, disponibile a qualsiasi ora.
+Non è solo questione di velocità. Spesso il guadagno più grande è la qualità: un comunicato riletto da un occhio esterno è più chiaro, una lettera all'azienda con una struttura ordinata è più forte, il riassunto di una delibera fatto con calma ti fa vedere un punto che di corsa avresti perso. L'intelligenza artificiale è anche un secondo paio d'occhi, disponibile a qualsiasi ora. E un secondo paio d'occhi non si stanca mai di rileggere.
 
 ### B06 — Prima famiglia: scrivere
 La prima famiglia è la più ovvia: scrivere. Comunicati, volantini, lettere all'azienda, risposte agli iscritti, post per i social, inviti alle assemblee. Qui il guadagno è immediato, perché la parte più faticosa della scrittura è cominciare. Le dai i punti, il tono, il destinatario, e in pochi secondi hai una bozza da rendere tua.
@@ -30,7 +30,7 @@ La seconda famiglia è leggere. Una delibera di quaranta pagine, un regolamento 
 La terza famiglia è preparare. Una scaletta per l'intervento in assemblea, una piattaforma per la trattativa, l'elenco delle obiezioni che l'azienda potrebbe sollevare. Puoi perfino chiederle di interpretare la controparte, e allenarti a rispondere. È uno degli usi più sottovalutati, e uno dei più utili prima di un incontro difficile.
 
 ### B09 — Quarta famiglia: ordinare
-La quarta famiglia è ordinare. Appunti presi in fretta che diventano un verbale. Una pratica confusa che diventa una cronologia. Un elenco di richieste sparse che diventa una tabella con priorità. Il disordine è una delle fatiche nascoste del nostro lavoro, e qui l'intelligenza artificiale è davvero brava.
+La quarta famiglia è ordinare. Appunti presi in fretta che diventano un verbale. Una pratica confusa che diventa una cronologia. Un elenco di richieste sparse che diventa una tabella con priorità. Il disordine è una delle fatiche nascoste del nostro lavoro, e qui l'intelligenza artificiale è davvero brava. Un verbale in ordine, poi, è un verbale che qualcuno legge davvero.
 
 ### B10 — Un esempio di ordine
 Pensa a quando un lavoratore ti racconta la sua situazione: tre anni di cambi di reparto, due richieste mai evase, un turno contestato. Ti arrivano mail, messaggi, fotografie di documenti. Se togli i dati personali, puoi chiedere all'intelligenza artificiale di mettere tutto in ordine cronologico e di segnalarti i buchi. In pochi minuti hai una visione d'insieme che a mano avrebbe richiesto un pomeriggio.
@@ -39,7 +39,7 @@ Pensa a quando un lavoratore ti racconta la sua situazione: tre anni di cambi di
 La quinta famiglia è spiegare in modo semplice. Una norma complicata raccontata a un neoassunto. Una clausola contrattuale trasformata in tre righe comprensibili. Una risposta tecnica riscritta per chi non ha tempo di leggere. Chi fa sindacato traduce continuamente dal linguaggio delle carte al linguaggio delle persone: qui hai un aiuto prezioso.
 
 ### B12 — Sesta famiglia: tradurre
-La sesta famiglia è tradurre, nel senso letterale. Nei nostri ospedali lavorano molte persone che parlano altre lingue: un comunicato in romeno, in ucraino, in spagnolo, può fare la differenza tra un lavoratore informato e uno che resta fuori. La traduzione automatica oggi è di buona qualità, ma per i testi importanti falla rileggere a chi parla quella lingua.
+La sesta famiglia è tradurre, nel senso letterale. Nei nostri ospedali lavorano molte persone che parlano altre lingue: un comunicato in romeno, in ucraino, in spagnolo, può fare la differenza tra un lavoratore informato e uno che resta fuori. La traduzione automatica oggi è di buona qualità, ma per i testi importanti falla rileggere a chi parla quella lingua. Una sola frase tradotta male può confondere più di nessuna traduzione.
 
 ### B13 — Settima famiglia: comunicare per immagini
 La settima famiglia è comunicare per immagini. Una locandina, una grafica per i social, un'infografica su una scadenza. Ne parleremo a fondo nel livello tre del corso; per ora ti basta sapere che anche questo è un territorio in cui puoi ottenere materiali dignitosi senza essere un grafico.
@@ -57,13 +57,13 @@ Ecco quindi la mappa completa: scrivere, leggere, preparare, ordinare, spiegare 
 Ma come capire se un compito preciso è adatto? Ti propongo tre domande. Prima: è un compito che si ripete spesso? Seconda: la fatica sta più nella forma che nel contenuto? Terza: se l'intelligenza artificiale sbaglia, me ne accorgo facilmente rileggendo? Se rispondi sì a tutte e tre, quel compito è un ottimo candidato.
 
 ### B18 — Applicare le domande
-Proviamo. Il comunicato settimanale: si ripete, la fatica è nella forma, un errore si vede rileggendo. Candidato perfetto. Il calcolo degli arretrati di un lavoratore: la fatica è nel contenuto, e un errore non si vede a occhio. Candidato debole, da usare solo con molta cautela. La decisione se aprire una vertenza: non è un compito di forma, e non si delega.
+Proviamo. Il comunicato settimanale: si ripete, la fatica è nella forma, un errore si vede rileggendo. Candidato perfetto. Il calcolo degli arretrati di un lavoratore: la fatica è nel contenuto, e un errore non si vede a occhio. Candidato debole, da usare solo con molta cautela. La decisione se aprire una vertenza: non è un compito di forma, e non si delega. Le tre domande servono proprio a separare questi casi in pochi secondi.
 
 ### B19 — La matrice
 Puoi visualizzare tutto questo come una matrice. Su un asse, quanto spesso fai un compito. Sull'altro, quanto è rischioso un errore. In alto a sinistra, i compiti frequenti e a basso rischio: è lì che conviene cominciare. In basso a destra, i compiti rari e ad alto rischio: lì l'intelligenza artificiale, se la usi, resta un semplice aiuto alla riflessione.
 
 ### B20 — La tua matrice
-Attenzione: la tua matrice non sarà uguale a quella di un altro. Chi lavora molto sulla comunicazione avrà in alto a sinistra i volantini e i post. Chi segue soprattutto la tutela individuale avrà le cronologie e le risposte agli iscritti. Chi coordina una struttura avrà le sintesi e le scalette. Non esiste un elenco giusto per tutti: esiste il tuo.
+Attenzione: la tua matrice non sarà uguale a quella di un altro. Chi lavora molto sulla comunicazione avrà in alto a sinistra i volantini e i post. Chi segue soprattutto la tutela individuale avrà le cronologie e le risposte agli iscritti. Chi coordina una struttura avrà le sintesi e le scalette. Non esiste un elenco giusto per tutti: esiste il tuo. Ed è giusto così: la matrice serve a te, non a un manuale.
 
 ### B21 — A schermo: l'avviso da spiegare
 Passiamo alla pratica. Prima prova: ho un avviso dell'azienda, scritto in linguaggio burocratico, e lo incollo in Claude chiedendo di spiegarlo ai lavoratori in cinque punti, con frasi brevi, senza aggiungere nulla che non sia nel testo. Guarda il risultato: è chiaro, ordinato, e posso controllare punto per punto che corrisponda all'originale.
@@ -84,25 +84,25 @@ Hai notato come ho scritto le richieste? In ognuna c'erano quattro elementi: a c
 In tutte e quattro le prove è successa la stessa cosa. Il contenuto l'ho portato io: l'avviso, il comunicato, la richiesta. Lo strumento mi ha restituito forma, ordine, alternative, velocità. E io ho controllato il risultato. È lo schema che ritroverai in tutto il corso.
 
 ### B27 — Il tempo restituito
-Che cosa fai del tempo risparmiato? È una domanda meno banale di quanto sembri. Il rischio è riempirlo con altre carte, altre mail, altri documenti. L'occasione è restituirlo alla parte del lavoro che nessuno strumento può fare: andare nei reparti, ascoltare chi ha un problema, preparare con calma una trattativa importante.
+Che cosa fai del tempo risparmiato? È una domanda meno banale di quanto sembri. Il rischio è riempirlo con altre carte, altre mail, altri documenti. L'occasione è restituirlo alla parte del lavoro che nessuno strumento può fare: andare nei reparti, ascoltare chi ha un problema, preparare con calma una trattativa importante. Il tempo guadagnato vale solo se finisce nel posto giusto.
 
 ### B28 — Una sede più presente
 Immagina una sede in cui ogni delegato recupera anche solo un'ora a settimana. Moltiplica per i delegati della tua struttura, per un anno. È tempo che può tornare nei reparti, nelle assemblee, nelle telefonate a chi non si fa sentire da mesi. Non è una promessa di efficienza: è una scelta su che cosa fare di quel tempo, e quella scelta resta nostra.
 
 ### B29 — Dove rende poco
-Per onestà, vediamo anche dove rende poco. Compiti molto brevi, che faresti prima da solo. Testi molto personali, come una lettera di vicinanza a un collega che ha perso qualcuno. Situazioni in cui il contenuto è tutto da costruire e nessun documento lo contiene. Lì puoi usarla, ma il guadagno è piccolo, e a volte il risultato suona falso.
+Per onestà, vediamo anche dove rende poco. Compiti molto brevi, che faresti prima da solo. Testi molto personali, come una lettera di vicinanza a un collega che ha perso qualcuno. Situazioni in cui il contenuto è tutto da costruire e nessun documento lo contiene. Lì puoi usarla, ma il guadagno è piccolo, e a volte il risultato suona falso. In quei casi, scrivere da solo resta la scelta migliore.
 
 ### B30 — Dove non deve entrare
 E poi ci sono i compiti in cui non deve entrare affatto, o solo con regole precise: quelli che toccano dati sensibili dei lavoratori, quelli che richiedono una decisione politica o sindacale, quelli che riguardano il giudizio sulle persone. Li vedremo nella prossima lezione, perché meritano una lezione intera.
 
 ### B31 — Cominciare piccoli
-Un consiglio pratico per cominciare: non provare a cambiare tutto il modo di lavorare in una settimana. Scegli un solo compito, quello che ti pesa di più tra quelli adatti, e usalo lì per un mese. Imparerai più da un compito fatto venti volte che da venti compiti provati una volta sola.
+Un consiglio pratico per cominciare: non provare a cambiare tutto il modo di lavorare in una settimana. Scegli un solo compito, quello che ti pesa di più tra quelli adatti, e usalo lì per un mese. Imparerai più da un compito fatto venti volte che da venti compiti provati una volta sola. Qui la costanza conta più dell'entusiasmo.
 
 ### B32 — Il dialogo con la squadra
 E parlane con la tua squadra. In una sede, l'intelligenza artificiale funziona meglio quando si condividono le richieste che funzionano, gli errori incontrati, le regole sulla privacy. Un collega che ha già trovato il modo giusto di chiedere un verbale ti fa risparmiare settimane di tentativi.
 
 ### B33 — I lavoratori se ne accorgono
-C'è anche un effetto che non ti aspetti: i lavoratori se ne accorgono. Comunicati più chiari, risposte più rapide, documenti spiegati in modo comprensibile. Vedono una sede più ordinata e più vicina. Ed è questo, alla fine, il risultato che conta.
+C'è anche un effetto che non ti aspetti: i lavoratori se ne accorgono. Comunicati più chiari, risposte più rapide, documenti spiegati in modo comprensibile. Vedono una sede più ordinata e più vicina. Ed è questo, alla fine, il risultato che conta. Una sede che risponde presto è una sede di cui ci si fida.
 
 ### B34 — Errori tipici
 Gli errori tipici di questa fase sono tre. Primo: usarla per tutto, anche dove non conviene, e perdere più tempo di quanto se ne guadagni. Secondo: affidarle il contenuto invece della forma, e trovarsi con testi eleganti ma vuoti o sbagliati. Terzo: usare il tempo risparmiato per produrre ancora più carta, invece che per stare con le persone.

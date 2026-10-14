@@ -1,0 +1,139 @@
+{
+ "_nota": "Inquadrature aggiunte in montaggio: coprono il tempo che la regola dei 9 s toglie alle scene grafiche. Le immagini I09-I23 sono state generate per questo; in B32 e B35 si riusano I16 e I10. I01 v1 (testo finto in evidenza) e C03b v1 (persona in camice da paziente) sono scartate.",
+ "B03": [
+  {
+   "id": "S007x",
+   "dopo": "S007",
+   "tipo": "immagine",
+   "asset": "I09"
+  }
+ ],
+ "B04": [
+  {
+   "id": "S008x",
+   "dopo": "S008",
+   "tipo": "immagine",
+   "asset": "I10"
+  }
+ ],
+ "B05": [
+  {
+   "id": "S010x",
+   "dopo": "S010",
+   "tipo": "immagine",
+   "asset": "I11"
+  }
+ ],
+ "B07": [
+  {
+   "id": "S013x",
+   "dopo": "S013",
+   "tipo": "immagine",
+   "asset": "I12"
+  }
+ ],
+ "B08": [
+  {
+   "id": "S015x",
+   "dopo": "S015",
+   "tipo": "immagine",
+   "asset": "I13"
+  }
+ ],
+ "B10": [
+  {
+   "id": "S019x",
+   "dopo": "S019",
+   "tipo": "immagine",
+   "asset": "I14"
+  }
+ ],
+ "B13": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "I15"
+  }
+ ],
+ "B20": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "I16"
+  }
+ ],
+ "B25": [
+  {
+   "id": "S044x",
+   "dopo": "S044",
+   "tipo": "immagine",
+   "asset": "I17"
+  }
+ ],
+ "B26": [
+  {
+   "id": "S045x",
+   "dopo": "S045",
+   "tipo": "immagine",
+   "asset": "I18"
+  }
+ ],
+ "B27": [
+  {
+   "id": "S047x",
+   "dopo": "S047",
+   "tipo": "immagine",
+   "asset": "I19"
+  }
+ ],
+ "B29": [
+  {
+   "id": "S050x",
+   "dopo": "S050",
+   "tipo": "immagine",
+   "asset": "I20"
+  }
+ ],
+ "B30": [
+  {
+   "id": "S051x",
+   "dopo": "S051",
+   "tipo": "immagine",
+   "asset": "I21"
+  }
+ ],
+ "B32": [
+  {
+   "id": "S055x",
+   "dopo": "S055",
+   "tipo": "immagine",
+   "asset": "I16"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S058x",
+   "dopo": "S058",
+   "tipo": "immagine",
+   "asset": "I22"
+  }
+ ],
+ "B35": [
+  {
+   "id": "S059x",
+   "dopo": "S059",
+   "tipo": "immagine",
+   "asset": "I10"
+  }
+ ],
+ "B37": [
+  {
+   "id": "S062x",
+   "dopo": "S062",
+   "tipo": "immagine",
+   "asset": "I23"
+  }
+ ]
+}

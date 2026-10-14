@@ -1,0 +1,31 @@
+{
+ "_nota": "Fondo degli SVG e zoom dopo la fine dell'animazione: dettaglio con il centro a y 640 o più in basso, così a 1,25 il titolo resta fuori campo.",
+ "IAS_M01_L03_A1_otto-famiglie.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   960,
+   660
+  ]
+ },
+ "IAS_M01_L03_A2_matrice.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   1000,
+   640
+  ]
+ },
+ "IAS_M01_L03_A3_quattro-formati.svg": {
+  "fondo": "scuro",
+  "dettaglio": [
+   900,
+   680
+  ]
+ },
+ "IAS_M01_L03_A4_tre-domande.svg": {
+  "fondo": "chiaro",
+  "dettaglio": [
+   960,
+   700
+  ]
+ }
+}
