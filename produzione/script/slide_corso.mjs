@@ -15,7 +15,12 @@
  *           linea | barre | raggi              (figure_corso.mjs)
  *           anatomia | cruscotto | cartellino | confronto
  *                                               (info_corso.mjs)
+ *           pd — prima/dopo, la schermata F di «Scrivere per farsi
+ *                leggere»                          (prima_dopo.mjs)
  *   theme:  ivory (default) | sand | deep
+ *   statica: true — la clip non anima niente e tiene il quadro finito. Serve
+ *           quando la stessa slide resta a schermo per piu' blocchi: senza,
+ *           a ogni blocco il quadro si svuota e si ricompone.
  * `active` accende una sola riga di un elenco e spegne le altre: serve a far
  * salire i punti uno alla volta senza moltiplicare le slide.
  */
@@ -24,6 +29,7 @@ import fs from 'fs';
 import path from 'path';
 import { figureCss, stageFigure } from './figure_corso.mjs';
 import { infoCss, stageInfo } from './info_corso.mjs';
+import { pdCss, stagePd } from './prima_dopo.mjs';
 
 const IVORY='#F7F3EA', NAVY='#12294A', GOLD='#C39A4E', SAND='#E2D2B0',
       DEEP='#0B1B33', GREY='#69748A', INK_SAND='#1C2B3F';
@@ -344,7 +350,7 @@ function stageGrafica(c) {
 }
 
 const stageBase = stage;
-const stageTutti = (c) => stageInfo(c) ?? stageFigure(c) ?? stageGrafica(c) ?? stageBase(c);
+const stageTutti = (c) => stagePd(c) ?? stageInfo(c) ?? stageFigure(c) ?? stageGrafica(c) ?? stageBase(c);
 
 const page = (c) => {
   const t = themes[c.theme ?? 'ivory'];
@@ -353,7 +359,7 @@ const page = (c) => {
 <style>${FONTS}</style>
 <style>${css(t)}</style>
 <style>${grafica(t)}</style>
-<style>${figureCss(t)}</style><style>${infoCss(t)}</style></head><body>
+<style>${figureCss(t)}</style><style>${infoCss(t)}</style><style>${pdCss(t)}</style></head><body class="${c.statica ? 'statica' : ''}">
   ${bare ? '' : `<div class="mark"><img src="${t.mark}" alt=""></div>`}
   ${c.foto ? `<div class="foto"><img src="${c.foto}"></div><div class="velo"></div>` : ''}
   ${stageTutti(c)}

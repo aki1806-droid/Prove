@@ -86,6 +86,14 @@ const motion = `
   .scambio:nth-child(3) { animation: sali .6s .88s; }
   .scambio:nth-child(4) { animation: sali .6s 1.14s; }
 
+  /* slide ripetuta: niente movimento, il quadro e' gia' composto */
+  .statica, .statica * { animation: none !important; }
+
+  /* prima/dopo: la versione da correggere compare, poi sale la riscrittura.
+     Con mostra:'prima' la riscrittura resta nascosta e non anima niente. */
+  .pd .pri { animation: velo .7s .22s both paused; }
+  .pd .dop { animation: sali .8s .95s both paused cubic-bezier(.22,.61,.36,1); }
+
   /* disegno: i tratti si tracciano, non compaiono */
   .disegno { animation: velo .3s .30s; }
   .tratto {
