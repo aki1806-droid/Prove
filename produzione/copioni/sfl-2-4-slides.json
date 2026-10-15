@@ -1,0 +1,471 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.4",
+"title": "Tagliare il venti per cento",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "dalla lezione 1.5",
+"title": "Scrivi normalmente.<br><span class=\"gold\">Poi togli il venti per cento.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "il venti per cento non si toglie a caso",
+"title": "Più corto<br><span class=\"gold\">non vuol dire più chiaro.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "categorie che se ne vanno per prime",
+"title": "Rapido invece che doloroso.<br><span class=\"gold\">E ripetibile.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "prima di tutto",
+"title": "Non che cosa togliere.<br><span class=\"gold\">Quando.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "il metodo",
+"title": "Il taglio si fa dopo.<br><span class=\"gold\">Non mentre scrivi.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "due atteggiamenti diversi",
+"plain": true,
+"rows": [
+"Mentre scrivi: generoso",
+"Mentre tagli: severo"
+],
+"note": "Ogni parola sta facendo un lavoro?"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la regola",
+"title": "Prima si butta giù.<br><span class=\"gold\">Poi si toglie.</span>"
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"plain": true,
+"note": "Dalla più facile da togliere alla meno facile."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"active": 0,
+"note": "particolarmente · assolutamente · sostanzialmente"
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"active": 1,
+"note": "«Utile e preziosa»: uno dei due è di troppo."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"active": 2,
+"note": "eventualmente · se possibile · in qualche modo"
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"active": 3,
+"note": "Due scuse, tre ringraziamenti, un augurio di troppo."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "cosa se ne va per primo",
+"rows": [
+"Gli avverbi in -mente",
+"I doppi aggettivi",
+"Le attenuazioni",
+"Le ripetizioni di cortesia",
+"Le frasi che annunciano"
+],
+"active": 4,
+"note": "«Volevo dirti che…» · «Ci tenevo a segnalare che…»"
+},
+{
+"file": "c15",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Volevo <u>semplicemente</u> segnalarti che <u>probabilmente</u> ci sarebbe la necessità, <u>eventualmente</u>, di rivedere <u>leggermente</u> l’organizzazione, che allo stato attuale risulta <u>sostanzialmente</u> poco funzionale.",
+"dopo": [
+"L’organizzazione attuale non funziona.",
+"Ti propongo di rivederla."
+]
+},
+{
+"file": "c16",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo <u>semplicemente</u> segnalarti che <u>probabilmente</u> ci sarebbe la necessità, <u>eventualmente</u>, di rivedere <u>leggermente</u> l’organizzazione, che allo stato attuale risulta <u>sostanzialmente</u> poco funzionale.",
+"dopo": [
+"L’organizzazione attuale non funziona.",
+"Ti propongo di rivederla."
+]
+},
+{
+"file": "c17",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo <u>semplicemente</u> segnalarti che <u>probabilmente</u> ci sarebbe la necessità, <u>eventualmente</u>, di rivedere <u>leggermente</u> l’organizzazione, che allo stato attuale risulta <u>sostanzialmente</u> poco funzionale.",
+"dopo": [
+"L’organizzazione attuale non funziona.",
+"Ti propongo di rivederla."
+]
+},
+{
+"file": "c18",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo <u>semplicemente</u> segnalarti che <u>probabilmente</u> ci sarebbe la necessità, <u>eventualmente</u>, di rivedere <u>leggermente</u> l’organizzazione, che allo stato attuale risulta <u>sostanzialmente</u> poco funzionale.",
+"dopo": [
+"L’organizzazione attuale non funziona.",
+"Ti propongo di rivederla."
+]
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "l’effetto che nessuno calcola",
+"title": "Cinque attenuazioni<br><span class=\"gold\">non attenuano cinque volte.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "cancellano il messaggio",
+"title": "Un testo gentile<br><span class=\"gold\">da cui non si ricava niente.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "come nella lezione 2.2",
+"title": "«Si invita a voler provvedere.»<br><span class=\"gold\">Lo stesso meccanismo.</span>"
+},
+{
+"file": "c22",
+"layout": "memo",
+"theme": "deep",
+"title": "Un’attenuazione ammorbidisce.<br>Cinque cancellano."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "gli avverbi in -mente",
+"title": "Si tolgono<br><span class=\"gold\">con meno danni in assoluto.</span>"
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "prova a togliere «particolarmente»",
+"plain": true,
+"rows": [
+"«La riunione è stata particolarmente utile»",
+"«La riunione è stata utile»"
+],
+"note": "Manca qualcosa? Quasi mai."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "e quando invece manca",
+"title": "Serviva un verbo più preciso.<br><span class=\"gold\">O un numero.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "l’avverbio era un segnale",
+"plain": true,
+"rows": [
+"«molto in ritardo»: tre giorni di ritardo",
+"«profondamente cambiato»: riscritto da capo"
+],
+"note": "Toglierlo ti obbliga a trovare l’informazione."
+},
+{
+"file": "c27",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<u>Ti ringrazio moltissimo</u> per la disponibilità, <u>davvero molto apprezzata</u>. <u>Scusami ancora</u> per il disturbo e <u>grazie infinite in anticipo</u> per quanto vorrai fare.",
+"dopo": [
+"Grazie della disponibilità."
+]
+},
+{
+"file": "c28",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Ti ringrazio moltissimo</u> per la disponibilità, <u>davvero molto apprezzata</u>. <u>Scusami ancora</u> per il disturbo e <u>grazie infinite in anticipo</u> per quanto vorrai fare.",
+"dopo": [
+"Grazie della disponibilità."
+]
+},
+{
+"file": "c29",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Ti ringrazio moltissimo</u> per la disponibilità, <u>davvero molto apprezzata</u>. <u>Scusami ancora</u> per il disturbo e <u>grazie infinite in anticipo</u> per quanto vorrai fare.",
+"dopo": [
+"Grazie della disponibilità."
+]
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Ti ringrazio moltissimo</u> per la disponibilità, <u>davvero molto apprezzata</u>. <u>Scusami ancora</u> per il disturbo e <u>grazie infinite in anticipo</u> per quanto vorrai fare.",
+"dopo": [
+"Grazie della disponibilità."
+]
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "«volevo dirti che» · «con la presente si comunica che»",
+"title": "Annunciano<br><span class=\"gold\">quello che potresti già dire.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "dove si trovano",
+"title": "Nella prima riga.<br><span class=\"gold\">L’unico spazio che conta.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "si tolgono e basta",
+"title": "La frase comincia da dopo.<br><span class=\"gold\">E funziona sempre.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "nelle tue mail di questa settimana",
+"title": "Quante cominciano<br><span class=\"gold\">con un annuncio?</span>"
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "il taglio in tre passaggi",
+"rows": [
+"Togli le cinque categorie",
+"Conta le righe: ne hai perse abbastanza?",
+"Rileggi: manca qualcosa?"
+],
+"plain": true,
+"note": "Sempre gli stessi, sempre in quest’ordine."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "il taglio in tre passaggi",
+"rows": [
+"Togli le cinque categorie",
+"Conta le righe: ne hai perse abbastanza?",
+"Rileggi: manca qualcosa?"
+],
+"active": 0,
+"note": "Meccanicamente. Due minuti, nessuna decisione."
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "il taglio in tre passaggi",
+"rows": [
+"Togli le cinque categorie",
+"Conta le righe: ne hai perse abbastanza?",
+"Rileggi: manca qualcosa?"
+],
+"active": 1,
+"note": "Sotto il dieci per cento non hai tagliato: hai limato."
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "il taglio in tre passaggi",
+"rows": [
+"Togli le cinque categorie",
+"Conta le righe: ne hai perse abbastanza?",
+"Rileggi: manca qualcosa?"
+],
+"active": 2,
+"note": "Se manca, è una cosa sola. La rimetti in tre secondi."
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "dopo qualche settimana",
+"title": "Le riconosci<br><span class=\"gold\">mentre le scrivi.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "una regola che diventa abitudine",
+"title": "Non le togli dopo.<br><span class=\"gold\">Non le metti.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Le frasi che annunciano<br>occupano lo spazio<br>della prima riga."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Tagliare mentre si scrive",
+"Limare invece di tagliare",
+"Accumulare cortesie",
+"Riscrivere invece di togliere"
+],
+"plain": true,
+"note": "Errori di metodo, non di parole."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Tagliare mentre si scrive",
+"Limare invece di tagliare",
+"Accumulare cortesie",
+"Riscrivere invece di togliere"
+],
+"active": 0,
+"note": "Sono due lavori diversi: prima scrivi, poi togli."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Tagliare mentre si scrive",
+"Limare invece di tagliare",
+"Accumulare cortesie",
+"Riscrivere invece di togliere"
+],
+"active": 1,
+"note": "Sotto il dieci per cento non è un taglio."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Tagliare mentre si scrive",
+"Limare invece di tagliare",
+"Accumulare cortesie",
+"Riscrivere invece di togliere"
+],
+"active": 2,
+"note": "Si cancellano a vicenda. Un grazie basta."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Tagliare mentre si scrive",
+"Limare invece di tagliare",
+"Accumulare cortesie",
+"Riscrivere invece di togliere"
+],
+"active": 3,
+"note": "Nel primo passaggio si toglie soltanto."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Un testo che hai scritto",
+"Cerca solo gli avverbi in -mente",
+"Toglili tutti"
+],
+"note": "Senza eccezioni."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Poi rileggi",
+"Due minuti, e il testo cambia faccia"
+],
+"note": "Nella prossima lezione: il ritmo, e la lettura ad alta voce."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

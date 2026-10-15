@@ -1,0 +1,447 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.5",
+"title": "Il ritmo: leggere ad alta voce",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "la tecnica di revisione più efficace",
+"title": "E la più trascurata.<br><span class=\"gold\">Sembra troppo semplice.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "non a mente",
+"title": "Rileggere<br><span class=\"gold\">ad alta voce.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "tutto il modulo si verifica così",
+"title": "Non serve una competenza tecnica.<br><span class=\"gold\">Basta la voce.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "oggi",
+"plain": true,
+"rows": [
+"Perché funziona",
+"Che cosa ti fa scoprire",
+"Come farlo in ufficio",
+"Quando farlo"
+],
+"note": "E una cosa che riguarda tutto il modulo."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "quando leggi a mente un tuo testo",
+"title": "Non lo stai leggendo.<br><span class=\"gold\">Lo stai ricordando.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "sai cosa viene dopo",
+"title": "L’occhio scivola.<br><span class=\"gold\">E completa le frasi da solo.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "ad alta voce",
+"title": "Non si può barare.<br><span class=\"gold\">La voce passa da ogni parola.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "lo senti prima di capirlo",
+"title": "Il fiato finisce.<br><span class=\"gold\">La lingua inciampa.</span>"
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "cosa si sente e non si vede",
+"rows": [
+"Dove manca il fiato",
+"Dove inciampi",
+"Dove ti annoi",
+"Dove rallenti"
+],
+"plain": true,
+"note": "Quattro segnali, quattro problemi precisi."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "cosa si sente e non si vede",
+"rows": [
+"Dove manca il fiato",
+"Dove inciampi",
+"Dove ti annoi",
+"Dove rallenti"
+],
+"active": 0,
+"note": "La frase è troppo lunga. Il punto va dove hai respirato."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "cosa si sente e non si vede",
+"rows": [
+"Dove manca il fiato",
+"Dove inciampi",
+"Dove ti annoi",
+"Dove rallenti"
+],
+"active": 1,
+"note": "L’ordine delle parole è storto, anche se è corretto."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "cosa si sente e non si vede",
+"rows": [
+"Dove manca il fiato",
+"Dove inciampi",
+"Dove ti annoi",
+"Dove rallenti"
+],
+"active": 2,
+"note": "C’è una ripetizione che a occhio non avevi notato."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "cosa si sente e non si vede",
+"rows": [
+"Dove manca il fiato",
+"Dove inciampi",
+"Dove ti annoi",
+"Dove rallenti"
+],
+"active": 3,
+"note": "C’è un’ambiguità, e la stai risolvendo senza saperlo."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "quando rallenti",
+"title": "Non è complicata.<br><span class=\"gold\">Ha due letture possibili.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "quel «lui», quella riunione, quel documento",
+"title": "Tu sai quale.<br><span class=\"gold\">Chi legge tira a indovinare.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "a mente non te ne accorgi",
+"title": "Solo la voce, rallentando,<br><span class=\"gold\">ti dice che c’era una scelta.</span>"
+},
+{
+"file": "c18",
+"layout": "memo",
+"theme": "deep",
+"title": "A mente non lo leggi.<br>Lo ricordi."
+},
+{
+"file": "c19",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si comunica che la riunione prevista per giovedì, che era stata spostata la settimana scorsa a seguito della comunicazione dell’ufficio, si terrà <u>nella sala al primo piano</u> e non più in quella abituale come era stato inizialmente indicato.",
+"dopo": [
+"La riunione di giovedì si tiene <u>in sala primo piano</u>.",
+"(Non nella sala solita.)"
+]
+},
+{
+"file": "c20",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che la riunione prevista per giovedì, che era stata spostata la settimana scorsa a seguito della comunicazione dell’ufficio, si terrà <u>nella sala al primo piano</u> e non più in quella abituale come era stato inizialmente indicato.",
+"dopo": [
+"La riunione di giovedì si tiene <u>in sala primo piano</u>.",
+"(Non nella sala solita.)"
+]
+},
+{
+"file": "c21",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che la riunione prevista per giovedì, che era stata spostata la settimana scorsa a seguito della comunicazione dell’ufficio, si terrà <u>nella sala al primo piano</u> e non più in quella abituale come era stato inizialmente indicato.",
+"dopo": [
+"La riunione di giovedì si tiene <u>in sala primo piano</u>.",
+"(Non nella sala solita.)"
+]
+},
+{
+"file": "c22",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che la riunione prevista per giovedì, che era stata spostata la settimana scorsa a seguito della comunicazione dell’ufficio, si terrà <u>nella sala al primo piano</u> e non più in quella abituale come era stato inizialmente indicato.",
+"dopo": [
+"La riunione di giovedì si tiene <u>in sala primo piano</u>.",
+"(Non nella sala solita.)"
+]
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "non è una regola rigida",
+"title": "È una misura fisica.<br><span class=\"gold\">Il corpo non sbaglia.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "come nella lezione 2.1",
+"title": "Due respiri<br><span class=\"gold\">vuol dire due idee.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "il problema grammaticale",
+"title": "Lo trovi dopo.<br><span class=\"gold\">Prima senti dove si rompe.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "ad alta voce, con i colleghi intorno",
+"title": "Imbarazzante.<br><span class=\"gold\">Ma ci sono due soluzioni.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "la prima",
+"title": "A bassa voce, muovendo le labbra.<br><span class=\"gold\">Prende l’ottanta per cento.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "La lettura vocale del computer.<br><span class=\"gold\">Con le cuffie.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "una voce che non è la tua",
+"title": "Non sa dove volevi la pausa.<br><span class=\"gold\">Legge quello che hai scritto.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "il terzo modo",
+"title": "Farlo leggere a qualcuno.<br><span class=\"gold\">Meglio se non sa niente.</span>"
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "come lo chiedi",
+"plain": true,
+"rows": [
+"Non: «va bene?»",
+"Ma: «che cosa ti chiedo di fare?»"
+],
+"note": "La prima domanda ottiene sempre un sì."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "«Dire, ascoltare, convincere»",
+"title": "La verifica di comprensione,<br><span class=\"gold\">applicata a un testo.</span>"
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "quando rileggere",
+"rows": [
+"Mai subito",
+"Meglio il giorno dopo",
+"Sempre prima di un testo che resta"
+],
+"plain": true,
+"note": "Il momento conta quasi quanto il modo."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "quando rileggere",
+"rows": [
+"Mai subito",
+"Meglio il giorno dopo",
+"Sempre prima di un testo che resta"
+],
+"active": 0,
+"note": "Sei ancora dentro il testo: lo ricordi."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "quando rileggere",
+"rows": [
+"Mai subito",
+"Meglio il giorno dopo",
+"Sempre prima di un testo che resta"
+],
+"active": 1,
+"note": "O almeno dopo un’ora, e un’altra attività."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "quando rileggere",
+"rows": [
+"Mai subito",
+"Meglio il giorno dopo",
+"Sempre prima di un testo che resta"
+],
+"active": 2,
+"note": "Una nota, un documento: qualcosa che verrà riletto."
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "le quattro regole del modulo",
+"plain": true,
+"rows": [
+"Un’idea per frase",
+"Verbi, non sostantivi",
+"Il concreto, non l’astratto",
+"Il taglio del venti per cento"
+],
+"note": "Nessuna va applicata mentre si scrive."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "si applicano",
+"title": "Non scrivendo.<br><span class=\"gold\">Rileggendo.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "scrivere e correggere",
+"title": "Sono due mestieri diversi.<br><span class=\"gold\">Insieme, si fanno male tutti e due.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "la regola del modulo",
+"title": "Prima si scrive male.<br><span class=\"gold\">Poi si sistema.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Una frase dovrebbe stare<br>in un respiro."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere a mente",
+"Rileggere subito",
+"Chiedere «va bene?»",
+"Correggere mentre si scrive"
+],
+"plain": true,
+"note": "Gli errori che rendono la revisione inutile."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere a mente",
+"Rileggere subito",
+"Chiedere «va bene?»",
+"Correggere mentre si scrive"
+],
+"active": 0,
+"note": "Lo stai ricordando, non leggendo."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere a mente",
+"Rileggere subito",
+"Chiedere «va bene?»",
+"Correggere mentre si scrive"
+],
+"active": 1,
+"note": "La memoria completa le frasi al posto tuo."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere a mente",
+"Rileggere subito",
+"Chiedere «va bene?»",
+"Correggere mentre si scrive"
+],
+"active": 2,
+"note": "Ottiene sempre un sì, e non dice niente."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere a mente",
+"Rileggere subito",
+"Chiedere «va bene?»",
+"Correggere mentre si scrive"
+],
+"active": 3,
+"note": "Due mestieri diversi, due tempi diversi."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"La prossima cosa che conta",
+"Leggila ad alta voce",
+"Segna dove manca il fiato, o inciampi"
+],
+"note": "Oppure falla leggere al computer."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Quelli sono i punti da riscrivere",
+"Non serve capire perché"
+],
+"note": "Nel prossimo modulo: la struttura del testo intero."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 2",
+"sub": "Modulo 3 — La struttura",
+"site": "laparolagiusta.it"
+}
+]
