@@ -34,3 +34,6 @@ Controllo: un fotogramma per ogni grafica A e B (18). Sottotitoli: 64 blocchi.
 - S02B dice «+ correttivi entro 18 mesi», non detto in voce.
 - S08A: «NUOVI ONERI» in arancio si legge poco sopra l'immagine del portafoglio.
 - Le animazioni della «Regia» non sono fatte (PNG già composti): solo cambio A→B e spinta lenta.
+
+## Originale su HeyGen
+Caricato il 15/10/2026 come asset 34f8d654fb534f9c8e29e2037db8494a: https://resource2.heygen.ai/video/34f8d654fb534f9c8e29e2037db8494a/original.mp4

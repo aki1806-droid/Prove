@@ -41,3 +41,6 @@ Copia d'invio _invio.mp4 in due passate sotto i 30 MB. Controllo: fotogramma a m
 ## Da fare prima di pubblicare (entro l'11/11/2026)
 - Inserire nel post il link a opuscolo e vademecum (TESTO_POST.md ha [LINK]).
 - Musica eventuale: la aggiunge Achille.
+
+## Originale su HeyGen
+Caricato il 15/10/2026 come asset d7062fd53ee64a958c91ce9b9485ecd6: https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4

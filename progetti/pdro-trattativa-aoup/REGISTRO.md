@@ -54,3 +54,6 @@ Controllo: un fotogramma per ogni grafica A e B (18).
 - Avatar rifatto per intero: asset abe854dfdb2a4324a71d27bb0325b2b4, video c386dc122568c54dc95e9aadc47e36d7.
 - Grafiche del pacchetto lasciate come sono: a schermo «OSS» resta in S01B, S04B, S05A e S05B.
 - Copia d'invio _v2_invio.mp4 (28,6 MB). Sottotitoli rifatti (73 blocchi).
+
+## Originale su HeyGen
+Caricato il 15/10/2026 come asset 940889441c9e4e7e9f67d14a750027bd (versione 2): https://resource2.heygen.ai/video/940889441c9e4e7e9f67d14a750027bd/original.mp4
