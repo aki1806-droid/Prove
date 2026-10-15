@@ -1,0 +1,31 @@
+Copione registrazioni schermo · Lezione 2.4
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 10 · ChatGPT · durata circa 17 s
+Azione: Si aprono le impostazioni di personalizzazione e si controllano memoria e istruzioni.
+Zoom / evidenziare: Le voci memoria e istruzioni personalizzate
+Parlato che accompagna: Prima di cominciare, controlla le impostazioni. In ChatGPT e in Claude cerca le voci su memoria e istruzioni personalizzate. Se in uno strumento hai già scritto chi sei e come scrivi, e negli altri no, quello partirà avvantaggiato. Per la prova, mettili tutti nelle stesse condizioni.
+
+SCENA 14 · ChatGPT · durata circa 19 s
+Azione: Si incolla il prompt compilato in una chat nuova e si copia la risposta.
+Da digitare:
+cosa è successo: chiusura del reparto di medicina dal 1° al 31 agosto
+Zoom / evidenziare: L'elenco dei fatti nel prompt
+Parlato che accompagna: Partiamo da ChatGPT. Nuova chat, incolli il prompt con i fatti già compilati, invii. Non intervenire, non aggiungere niente mentre scrive. Quando ha finito, copi la risposta in un documento a parte, senza scrivere da quale strumento arriva. Così, quando valuterai, il nome non influenzerà il tuo giudizio.
+
+SCENA 16 · Claude · durata circa 19 s
+Azione: Si incolla lo stesso prompt in una nuova chat di Claude.
+Zoom / evidenziare: Il prompt identico a quello usato in ChatGPT
+Parlato che accompagna: Ora Claude. Stessa procedura: nuova chat, stesso prompt, copiato e non riscritto. Anche qui non correggi nulla mentre scrive. Copi la risposta nello stesso documento, sotto la prima, sempre senza il nome dello strumento. Lo scopo non è aiutarlo, ma vedere cosa fa da solo, alle stesse condizioni degli altri due.
+
+SCENA 18 · Gemini · durata circa 15 s
+Azione: Si incolla lo stesso prompt in Gemini e si copia la risposta nel documento.
+Zoom / evidenziare: Il documento con le tre bozze una sotto l'altra
+Parlato che accompagna: Infine Gemini, con la stessa procedura. Nuova chat, stesso prompt, nessun intervento. Copi la risposta in fondo al documento. Adesso hai tre bozze una sotto l'altra, nate dalle stesse condizioni. Questo è il materiale giusto per un confronto.
+
+SCENA 31 · Gemini · durata circa 15 s
+Azione: La stessa correzione mirata viene incollata nelle tre chat aperte.
+Da digitare:
+Mantieni la struttura e tutti i fatti. Cambia solo questo...
+Zoom / evidenziare: L'elenco delle modifiche sotto il testo corretto
+Parlato che accompagna: Torna nelle tre chat e incolla la stessa correzione in ognuna. Per la A puoi aggiungere una terza riga: togli la mobilitazione, che non è nei fatti. Per la C: aggiungi i contatti. Poi rivaluti le tre nuove versioni con la stessa griglia di prima.

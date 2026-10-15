@@ -1,0 +1,134 @@
+2.5 La tabella «quale usare per cosa»
+Voce: «Achille nuovo 1 v4» · 44 scene · 12634 caratteri · durata stimata 12:57 (a 1,12x)
+
+=== SCENA 01 · Copertina · 01_copertina.png ===
+Benvenuto alla lezione due punto cinque, l'ultima del modulo sui tre strumenti. Oggi metti in ordine tutto quello che hai provato finora e costruisci la tua tabella personale, quale usare per cosa. Una pagina sola, che ti dice quale strumento aprire per ogni compito della sede e a cosa stare attento.
+
+=== SCENA 02 · B-roll · 02_b-roll.png ===
+In sede è arrivato un delegato appena eletto. È motivato, ha seguito qualche lezione e ha aperto i tre account. Ma adesso ti ferma in corridoio con una raffica di domande. Vuole cominciare a usare l'IA davvero, già da questa settimana, e non sa da dove partire. E tu ti accorgi che, a rispondere bene, ci vorrebbe mezz'ora.
+
+=== SCENA 03 · Caso · 03_caso.png ===
+Le domande sono tre. Per il verbale della riunione di ieri, cosa uso? E per il volantino sull'assemblea? E per ritrovare quell'email dell'ufficio personale di marzo? Sono domande giuste. E la risposta non è sempre la stessa. Dipende dal compito, dai dati che ci sono dentro e da quello che hai scoperto provando.
+
+=== SCENA 04 · Parola chiave · 04_parola-chiave.png ===
+Ecco l'idea della lezione. La tabella non dice qual è lo strumento migliore in generale. Dice qual è il migliore per te, per quel compito, oggi. È personale, perché nasce dalle tue prove. Ed è datata, perché tra qualche mese andrà rivista. Non è un documento da archivio: è uno strumento di lavoro, da tenere aperto.
+
+=== SCENA 05 · B-roll · 05_b-roll.png ===
+Senza una tabella, come si risponde a quel delegato? A memoria, ogni volta in modo un po' diverso. Un collega gli consiglia ChatGPT per tutto, un altro gli dice che Claude è meglio. E lui, confuso, finisce per usare lo strumento che ha aperto per primo, anche dove funziona male.
+
+=== SCENA 06 · Confronto · 06_confronto.png ===
+La differenza è netta. A memoria, ogni consiglio dipende da chi lo dà, le accortezze si dimenticano e nessuno sa più perché si era scelto quello strumento. Con la tabella hai la stessa risposta per tutti, l'accortezza scritta accanto e una data che ti ricorda quando rivederla.
+
+=== SCENA 07 · Animazione · 07_animazione.mp4 ===
+La tabella si costruisce in cinque passi. Elenchi i compiti reali della settimana. Li raggruppi in famiglie. Per ognuno scegli lo strumento principale e quello di riserva. Scrivi quali dati non entrano mai. E fissi la data della prossima revisione. Ognuno richiede pochi minuti, se hai già fatto le prove delle lezioni precedenti.
+
+=== SCENA 08 · Parola chiave · 08_parola-chiave.png ===
+Il primo passo è anche quello dove si sbaglia più spesso. La domanda sbagliata è: cosa sa fare Gemini? La domanda giusta è: cosa devo fare questa settimana? Si parte dai compiti, non dalle funzioni degli strumenti. Le funzioni vengono dopo, e servono ai compiti.
+
+=== SCENA 09 · Elenco · 09_elenco.png ===
+Non devi inventare nulla. Hai già due elenchi pronti. Nella lezione zero punto uno hai scritto i tre compiti che ti rubano più tempo. Nella lezione uno punto tre hai elencato cinque compiti delegabili in parte. Aggiungi due o tre attività ricorrenti, e arrivi a otto o dieci compiti.
+
+=== SCENA 10 · Tabella · 10_tabella.png ===
+Poi li raggruppi in famiglie. Le prime tre sono quelle che occupano di più la settimana di una sede. Scrivere: comunicati, volantini, lettere, messaggi. Leggere atti: delibere, CCNL, regolamenti. Cercare e ordinare: email su un tema, documenti, la cronologia di una pratica.
+
+=== SCENA 11 · Tabella · 11_tabella.png ===
+Le altre tre completano il quadro. Riunirsi: ordine del giorno, sintesi, verbale. Comunicare per immagini: locandine, grafiche social, infografiche. E pensare ad alta voce: preparare un intervento, simulare una domanda difficile prima di un'assemblea. Se un compito non entra in nessuna famiglia, mettilo in altro: va bene lo stesso.
+
+=== SCENA 12 · Prompt · 12_prompt.png ===
+Puoi farti aiutare a raggruppare. Indichi il tuo ruolo e il settore, incolli l'elenco dei compiti e chiedi al massimo sei famiglie. La riga decisiva è l'ultima: per ogni compito, indica se contiene normalmente dati personali dei lavoratori, sì, no o a volte.
+
+=== SCENA 13 · Registrazione schermo · 13_registrazione-schermo.png ===
+Vediamolo a schermo, in Claude. Nuova chat, incolli il prompt e poi l'elenco dei tuoi compiti, scritti in modo generico. Per esempio: verbale della riunione RSU, volantino per l'assemblea, risposte ai lavoratori sui turni, ricerca di email su un tema. Nessun nome, nessun caso specifico.
+
+=== SCENA 14 · Risposta IA · 14_risposta-ia.png ===
+Ecco un estratto verosimile. Ogni compito ha la sua famiglia e un'indicazione sui dati. Guarda la colonna di destra: le risposte ai lavoratori contengono a volte dati personali. È un segnale prezioso, che ti servirà tra poco, quando scriverai le accortezze. E la ricerca nelle email, segnata con un sì, è la riga che chiede più prudenza.
+
+=== SCENA 15 · Numero · 15_numero.png ===
+Quante righe deve avere la tabella? Tra otto e dieci. Meno di otto, e lasci fuori compiti che fai davvero. Più di dieci, e diventa un documento che nessuno consulta. Una tabella utile si legge in un minuto e sta su una pagina sola. Se ne hai di più, tieni quelli che fai almeno una volta a settimana.
+
+=== SCENA 16 · Tabella · 16_tabella.png ===
+Ecco una tabella di partenza, aggiornata a ottobre duemilaventisei. Per riassumere un atto lungo, Claude, con Gemini di riserva. Per comunicati e lettere, Claude, con ChatGPT di riserva. Per titoli e slogan, ChatGPT. Per cercare in email e documenti Google, Gemini, ma solo su caselle senza dati sensibili.
+
+=== SCENA 17 · Tabella · 17_tabella.png ===
+Continuiamo. Per preparare un intervento a voce, ChatGPT con la modalità vocale, o Gemini Live. Per un'immagine da locandina, ChatGPT o Gemini, con testi e loghi in Canva. Per uno schema o un'infografica, Claude. E per la verifica incrociata, sempre uno strumento diverso da quello che ha scritto.
+
+=== SCENA 18 · Errore tipico · 18_errore-tipico.png ===
+Attenzione: quella tabella è una proposta, non una regola. L'errore tipico è copiarla così com'è e considerarla definitiva. È costruita sui punti forti generali. La tua deve nascere dai voti che hai dato nelle lezioni due punto tre e due punto quattro, sui tuoi testi.
+
+=== SCENA 19 · Parola chiave · 19_parola-chiave.png ===
+Ecco il punto. Ogni riga che compili deve poggiare su qualcosa che hai visto con i tuoi occhi. Un voto della griglia, una bozza che ha retto, un errore che hai scoperto. Se per un compito non hai ancora provato, scrivilo: da provare. È più onesto di una scelta a caso.
+
+=== SCENA 20 · Registrazione schermo · 20_registrazione-schermo.png ===
+Apri il documento con i risultati delle prove precedenti. Il riassunto dato ai tre, con i voti sui tre criteri. Il comunicato, con la griglia dei sei criteri e la motivazione in tre righe. Sono questi i dati che usi per riempire le colonne principale e riserva. Se una prova manca, segnala la riga come da provare e falla nei prossimi giorni.
+
+=== SCENA 21 · Caso · 21_caso.png ===
+Facciamo un esempio. Nei tuoi voti il riassunto migliore era di Gemini, non di Claude, perché la tua circolare era breve e serviva sintesi. Allora nella tua tabella, alla riga riassumere una circolare breve, il principale è Gemini. E accanto annoti il motivo.
+
+=== SCENA 22 · Parola chiave · 22_parola-chiave.png ===
+Adesso la colonna che non si salta mai. Per ogni riga scrivi quali dati non entrano in quello strumento per quel compito. Non è burocrazia. È la regola che protegge i lavoratori e la sede, scritta proprio dove serve, accanto al compito. Chi la legge sa subito cosa non deve mai incollare.
+
+=== SCENA 23 · Norma · 23_norma.png ===
+Il fondamento è il principio di minimizzazione del GDPR, all'articolo cinque. I dati personali devono essere adeguati, pertinenti e limitati a quanto necessario per lo scopo. Per quasi tutti i compiti della tabella si lavora su testi anonimizzati e su fatti descritti per ruolo, come un'infermiera del reparto, non per nome.
+
+=== SCENA 24 · Caso · 24_caso.png ===
+Guarda come lo ha fatto Anna, segretaria di una sede territoriale. Alla riga rispondere a un lavoratore su un esito negativo ha scritto: mai nome, matricola, diagnosi o data di nascita. Il caso lo descrive così: dipendente a tempo pieno, profilo X, domanda respinta per motivo Y.
+
+=== SCENA 25 · Confronto · 25_confronto.png ===
+E alla riga cercare email su un tema, Anna ha lasciato vuota la casella di Gemini. Nella posta della sede arrivano certificati, quindi ha deciso di non collegarla. Guarda la differenza tra un'accortezza vaga e una precisa: la prima non protegge nessuno, la seconda sì.
+
+=== SCENA 26 · Numero · 26_numero.png ===
+C'è un numero che sorprende chi lo scopre. Per quasi tutti i compiti della tabella, la quantità di dati personali necessaria è zero. Un comunicato, un riassunto di delibera, una scaletta d'assemblea: nessuno di questi ha bisogno del nome di un collega per essere fatto bene.
+
+=== SCENA 27 · Prompt · 27_prompt.png ===
+Ecco lo schema della tabella, pronto da copiare. In cima il nome della sede e la data di aggiornamento. Poi sette colonne: compito, principale, riserva, piano usato, dati che non entrano mai, accortezza e voto. In fondo la data della prossima revisione e le novità da verificare.
+
+=== SCENA 28 · Registrazione schermo · 28_registrazione-schermo.png ===
+Copia lo schema in un documento o in un foglio di calcolo, come preferisci. Se usi un foglio, metti le sette colonne in intestazione e blocca la prima riga, così resta visibile mentre scorri. Scrivi subito in cima la data di oggi: è il primo dato della tabella.
+
+=== SCENA 29 · Registrazione schermo · 29_registrazione-schermo.png ===
+Compiliamo insieme una riga. Compito: verbale della riunione RSU. Principale: Claude, perché nella prova ha conservato tutte le scadenze. Riserva: Gemini. Piano: gratuito. Dati esclusi: nomi dei presenti e casi individuali. Accortezza: chiedere sempre il non indicato. Voto: quattro.
+
+=== SCENA 30 · Prompt · 30_prompt.png ===
+Quando hai compilato tutte le righe, fai un controllo. Incolli la tabella e chiedi di segnalare le righe dove la colonna dei dati è vuota o vaga, e quelle dove principale e riserva non hanno una motivazione. Non chiedere di cambiare le tue scelte: chiedi solo dove sono deboli.
+
+=== SCENA 31 · Risposta IA · 31_risposta-ia.png ===
+Ecco un estratto verosimile. Due righe hanno un'accortezza troppo vaga, una non ha nessuna motivazione. È un controllo veloce che ti fa trovare i punti deboli prima che li scopra qualcun altro. Poi le correzioni le scrivi tu. E se un rilievo non ti convince, lascialo cadere: la tabella è tua.
+
+=== SCENA 32 · Elenco · 32_elenco.png ===
+Una colonna che molti trascurano è il piano usato. Un giudizio dato con il modello più leggero del piano gratuito può cambiare con un abbonamento, e viceversa. Annotarlo ti dice quanto vale quel voto. E ti serve se un collega con un piano diverso arriva a conclusioni opposte.
+
+=== SCENA 33 · B-roll · 33_b-roll.png ===
+Se lavori in squadra, la tabella diventa ancora più utile. Ognuno compila la sua, poi vi sedete e le mettete una accanto all'altra. Le righe su cui siete d'accordo possono diventare la tabella comune della sede, da dare a ogni delegato appena eletto.
+
+=== SCENA 34 · Caso · 34_caso.png ===
+Le righe su cui non siete d'accordo sono le più interessanti. Per esempio: per le lettere all'azienda, due preferiscono Claude e uno ChatGPT. Non si vota. Rifate insieme la prova della lezione due punto quattro su quel compito, con la stessa griglia, e decidete sui punteggi.
+
+=== SCENA 35 · Parola chiave · 35_parola-chiave.png ===
+Il principio è semplice e vale per tutta la sede. Le scelte sugli strumenti si fanno con la griglia, non a maggioranza e non per anzianità. Così chi è arrivato da poco può proporre un cambiamento, purché porti una prova. E la tabella resta viva, perché tutti possono migliorarla.
+
+=== SCENA 36 · Prompt · 36_prompt.png ===
+Ogni tre mesi la tabella va rivista. Per non farlo di corsa, usa questo prompt. Incolli la tabella e chiedi cinque domande per capire se è ancora valida: quali compiti sono cambiati, dove hai avuto problemi, quali righe non usi più. E specifichi che le novità degli strumenti le verifichi tu sulle pagine ufficiali.
+
+=== SCENA 37 · Registrazione schermo · 37_registrazione-schermo.png ===
+Adesso fissa la revisione in agenda, tra tre mesi, con un promemoria. Nel testo del promemoria scrivi le tre cose da controllare: piani e prezzi, nuove funzioni, impostazioni sui dati. E il collegamento al documento della tabella, così lo apri con un clic.
+
+=== SCENA 38 · Errore tipico · 38_errore-tipico.png ===
+L'errore tipico è assegnare un compito a uno strumento una volta per tutte. Ogni pochi mesi i modelli cambiano, una funzione passa dal piano a pagamento a quello gratuito o viceversa, un'interfaccia si sposta. Una tabella mai rivista diventa un'abitudine sbagliata.
+
+=== SCENA 39 · Errore tipico · 39_errore-tipico.png ===
+Il secondo errore è lasciare vuota la colonna dei dati, perché per quel compito sembra ovvio. Proprio le righe ovvie sono quelle dove, un giorno di fretta, si incolla qualcosa di troppo. Scrivila sempre, anche quando ti pare superflua. Bastano poche parole: niente nomi, niente casi di salute, niente iscrizioni.
+
+=== SCENA 40 · Memo · 40_memo.png ===
+Se ti porti a casa una sola frase, che sia questa. Parti dai tuoi compiti, scegli con le tue prove, scrivi in ogni riga quali dati non entrano mai, e rivedi tutto ogni tre mesi.
+
+=== SCENA 41 · La pratica · 41_la-pratica.png ===
+Ora tocca a te. Elenca da otto a dieci compiti ricorrenti e raggruppali con il prompt delle famiglie. Copia lo schema e inserisci i compiti nelle righe. Scegli principale e riserva con i risultati delle prove. Compila la colonna dei dati per ogni riga. E fissa la revisione tra tre mesi.
+
+=== SCENA 42 · Elenco · 42_elenco.png ===
+Con questa tabella chiudi il modulo. Hai tre account aperti con un indirizzo dedicato. Sai quando conviene pagare e quando no. Conosci i talenti dei tre strumenti, sai confrontarli alla pari e hai una pagina che riassume le tue scelte. Tienila a portata di mano: nel modulo quattro la affiancherai ai tuoi primi venti prompt.
+
+=== SCENA 43 · B-roll · 43_b-roll.png ===
+Torna al delegato appena eletto, in corridoio. Adesso puoi rispondergli in un minuto, con la tabella in mano. Il verbale con Claude, il volantino con Claude e i titoli con ChatGPT, l'email di marzo con Gemini, se la casella è pulita. E per ogni risposta, l'accortezza da non dimenticare.
+
+=== SCENA 44 · Chiusura · 44_chiusura.png ===
+Con il prossimo modulo affrontiamo il tema che hai incontrato in ogni lezione: la privacy. Partiamo dai dati che non si incollano mai, cioè salute, iscrizione sindacale, nomi e codici fiscali, e impariamo a riconoscerli prima che finiscano in una chat. Ci vediamo nella lezione tre punto uno.

@@ -1,0 +1,427 @@
+{
+ "lezione": "IAS_M02_L03",
+ "titolo": "I punti forti di ChatGPT, Claude e Gemini",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Regolamento e casella piena"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Il migliore per quel compito"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Due modi di scegliere"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 17.77,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 talenti che si stanno avvicinando"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa riesce bene a Claude: Riassumere atti lunghi / Conservare articoli e scadenze / Cambiare registro a un testo / Creare Artifact modificabili"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Riassunto di un atto lungo"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Tabella del regolamento sugli orari"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Claude non disegna fotografie"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C15"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini dentro Google: Attiva le app collegate / Richiamale con @Gmail, @Drive / Con abbonamento: dentro Gmail / Con Workspace: decide l'amministratore"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Thread di email con Gemini"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Email sulle progressioni"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Collegare una casella con certificati e iscrizioni → Collega solo caselle senza dati sensibili"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gli altri talenti di Gemini: Gem, anche nel piano gratuito / Deep Research con le fonti / Immagini e video"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C22"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il generalista: Voce naturale / File e fogli di calcolo / Immagini nella chat / Progetti con istruzioni / Quanto ragionare, a scelta"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "11/12/2026 ritiro dei GPT personalizzati"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 4 Reg. UE 2024/1689 (AI Act)"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le differenze vere"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Le classifiche cambiano"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa resta stabile: Dove sono i tuoi file / Cosa usano i colleghi / Quale interfaccia ti è chiara"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Giorgio e il verbale anonimizzato"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il verbale di Giorgio"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Stesso riassunto per tutti e tre"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Tre criteri per i riassunti"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Riassunto del verbale"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Niente date dedotte"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegliere lo strumento per la classifica del momento → Prova sui tuoi compiti e annota i risultati"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C39"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Non il migliore in assoluto: il migliore per quel compito."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli un testo di due pagine / Usa il prompt identico nei tre / Confronta con i tre criteri / Voto da 1 a 5, con motivazione / Annota il preferito per i riassunti"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La prova fatta in squadra"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 2.4 Lo stesso comunicato fatto con i tre, a confronto"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

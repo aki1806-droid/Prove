@@ -1,0 +1,40 @@
+Copione registrazioni schermo · Lezione 2.2
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 10 · ChatGPT · durata circa 17 s
+Azione: Si apre la pagina ufficiale dei piani di ChatGPT e si scorrono le colonne.
+Da digitare:
+chatgpt.com/pricing
+Zoom / evidenziare: Intestazioni dei piani e differenze tra le colonne
+Parlato che accompagna: Andiamo a vedere le pagine ufficiali, perché nomi e prezzi cambiano spesso e questa lezione è aggiornata a ottobre duemilaventisei. Per ChatGPT la pagina è chatgpt punto com barra pricing. Scorri con calma i piani, e guarda cosa cambia davvero da uno all'altro, non solo il prezzo.
+
+SCENA 14 · Claude · durata circa 19 s
+Azione: Si apre la pagina ufficiale dei piani di Claude, poi quella di Google AI.
+Da digitare:
+claude.com/pricing
+Zoom / evidenziare: Nomi dei piani e note sui limiti di utilizzo
+Parlato che accompagna: Fai lo stesso controllo sugli altri due. Per Claude la pagina è claude punto com barra pricing. Per Gemini cerca la pagina dei piani Google One o Google AI. Ti consiglio di aprirle una volta adesso e poi di tornarci prima di qualsiasi decisione: qui ti diamo la mappa, i dati aggiornati li trovi solo lì.
+
+SCENA 17 · ChatGPT · durata circa 17 s
+Azione: Sotto una risposta nel piano gratuito compare un annuncio segnalato come sponsorizzato.
+Zoom / evidenziare: L'etichetta che indica l'annuncio sponsorizzato
+Parlato che accompagna: Una novità da conoscere. Da fine agosto duemilaventisei ChatGPT mostra annunci pubblicitari in Italia a chi usa i piani Free e Go. Li vedi sotto la risposta, segnalati come sponsorizzati. Plus e i piani superiori ne sono privi. È uno dei segnali da annotare se ti rallentano davvero.
+
+SCENA 23 · Claude · durata circa 17 s
+Azione: Compare l'avviso di limite con l'orario di ripristino della sessione.
+Zoom / evidenziare: L'orario di ripristino indicato nell'avviso
+Parlato che accompagna: Quando Claude ti avvisa del limite, il messaggio ti dice anche a che ora si ripristina la sessione. Nei piani a pagamento trovi nelle impostazioni una sezione sull'utilizzo, con l'indicazione di quanto hai consumato. Guardala ogni tanto: ti aiuta a capire quali lavori pesano di più.
+
+SCENA 28 · Claude · durata circa 18 s
+Azione: Si copia il riassunto e lo si incolla come primo messaggio di una chat nuova.
+Da digitare:
+Continuiamo da qui: [RIASSUNTO]. Ora rendi più breve il paragrafo sulle richieste.
+Zoom / evidenziare: Pulsante nuova chat e primo messaggio incollato
+Parlato che accompagna: Vediamolo a schermo. Nella chat lunga sulla nota post incontro incolli il prompt del riassunto. Copi il risultato, premi nuova chat e lo incolli come primo messaggio, aggiungendo cosa vuoi fare adesso. Lo strumento riparte da un testo di dodici righe invece che da cento pagine di conversazione.
+
+SCENA 34 · Gemini · durata circa 16 s
+Azione: Si compila un foglio di calcolo con le cinque colonne del diario.
+Da digitare:
+Giorno | Strumento | Compito | Limite incontrato | Tempo perso
+Zoom / evidenziare: Le intestazioni delle cinque colonne
+Parlato che accompagna: Il tuo diario può essere un semplice foglio di calcolo con cinque colonne. Giorno, strumento, compito, limite incontrato e tempo perso. Ogni volta che qualcosa ti blocca, lo scrivi subito, con l'ora. Bastano dieci secondi: è il materiale che ti servirà per decidere.

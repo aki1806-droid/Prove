@@ -1,0 +1,433 @@
+{
+ "lezione": "IAS_M02_L04",
+ "titolo": "Lo stesso comunicato fatto con i tre, a confronto",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre bozze entro le diciotto"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Vale solo se è alla pari"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Mele e pere, o alla pari"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 risposte diverse anche con lo stesso prompt"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A08",
+   "durata_video": 17.77,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le regole del confronto"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Dare i fatti a metà e premiare chi indovina → Date, numeri e uffici li scrivi tu nel prompt"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "I fatti, completi e verificati"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Comunicato per il confronto"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Comunicato sulla chiusura estiva"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Comunicato sulla chiusura estiva"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Comunicato sulla chiusura estiva"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Alla cieca: A, B, C"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C21"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "La griglia: il contenuto"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "La griglia: l'efficacia"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "x2 il peso del criterio fatti"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 13 L. 23 settembre 2025, n. 132"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Fatti valutare con la griglia"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Valutazione delle bozze A, B, C"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il primo giro"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Conta anche il secondo giro"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Correzione mirata"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il secondo giro"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre delegati, tre bozze"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il confronto finale"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Bozza a Claude, titoli a ChatGPT"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La scelta in tre righe: Quale strumento / Perché, secondo la griglia / Con quale accortezza"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Premiare la bozza più elegante → Controlla prima i fatti, uno per uno"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I38"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Decidere per sempre dopo una sola prova → Ripeti su due o tre compiti, annota data e piano"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Alla pari, alla cieca, con la griglia: i fatti prima di tutto."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scrivi i fatti di un caso recente / Stesso prompt in tre chat nuove / Valuta alla cieca con la griglia / Stessa correzione mirata ai tre / Motiva la scelta in tre righe"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa conservare: Bozze e punteggi dei due giri / Le tre righe di motivazione / Il prompt con i fatti"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 2.5 La tabella «quale usare per cosa»"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

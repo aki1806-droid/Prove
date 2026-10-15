@@ -1,0 +1,35 @@
+Copione registrazioni schermo · Lezione 2.5
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 13 · Claude · durata circa 18 s
+Azione: Si incolla il prompt con l'elenco dei compiti in una nuova chat.
+Da digitare:
+verbale riunione RSU; volantino assemblea; risposte ai lavoratori sui turni; ricerca email su un tema
+Zoom / evidenziare: L'elenco dei compiti scritto in modo generico
+Parlato che accompagna: Vediamolo a schermo, in Claude. Nuova chat, incolli il prompt e poi l'elenco dei tuoi compiti, scritti in modo generico. Per esempio: verbale della riunione RSU, volantino per l'assemblea, risposte ai lavoratori sui turni, ricerca di email su un tema. Nessun nome, nessun caso specifico.
+
+SCENA 20 · Gemini · durata circa 21 s
+Azione: Si apre il documento con i voti delle prove delle lezioni 2.3 e 2.4.
+Zoom / evidenziare: Le righe di motivazione accanto ai punteggi
+Parlato che accompagna: Apri il documento con i risultati delle prove precedenti. Il riassunto dato ai tre, con i voti sui tre criteri. Il comunicato, con la griglia dei sei criteri e la motivazione in tre righe. Sono questi i dati che usi per riempire le colonne principale e riserva. Se una prova manca, segnala la riga come da provare e falla nei prossimi giorni.
+
+SCENA 28 · Gemini · durata circa 16 s
+Azione: Si crea un foglio di calcolo con le sette colonne dello schema.
+Da digitare:
+Compito | Principale | Riserva | Piano usato | Dati che non entrano mai | Accortezza | Voto
+Zoom / evidenziare: La riga di intestazione bloccata
+Parlato che accompagna: Copia lo schema in un documento o in un foglio di calcolo, come preferisci. Se usi un foglio, metti le sette colonne in intestazione e blocca la prima riga, così resta visibile mentre scorri. Scrivi subito in cima la data di oggi: è il primo dato della tabella.
+
+SCENA 29 · Gemini · durata circa 17 s
+Azione: Si compila la riga del verbale in tutte le sette colonne.
+Da digitare:
+Verbale riunione RSU | Claude | Gemini | Gratuito | Nomi dei presenti, casi individuali | Chiedere «non indicato» | 4
+Zoom / evidenziare: La colonna dei dati che non entrano mai
+Parlato che accompagna: Compiliamo insieme una riga. Compito: verbale della riunione RSU. Principale: Claude, perché nella prova ha conservato tutte le scadenze. Riserva: Gemini. Piano: gratuito. Dati esclusi: nomi dei presenti e casi individuali. Accortezza: chiedere sempre il non indicato. Voto: quattro.
+
+SCENA 37 · Gemini · durata circa 16 s
+Azione: Si crea un promemoria in agenda tra tre mesi con il collegamento alla tabella.
+Da digitare:
+Revisione tabella IA: piani e prezzi, nuove funzioni, impostazioni sui dati
+Zoom / evidenziare: La data del promemoria e il collegamento al documento
+Parlato che accompagna: Adesso fissa la revisione in agenda, tra tre mesi, con un promemoria. Nel testo del promemoria scrivi le tre cose da controllare: piani e prezzi, nuove funzioni, impostazioni sui dati. E il collegamento al documento della tabella, così lo apri con un clic.

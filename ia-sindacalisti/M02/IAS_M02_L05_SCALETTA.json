@@ -1,0 +1,436 @@
+{
+ "lezione": "IAS_M02_L05",
+ "titolo": "La tabella «quale usare per cosa»",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre domande in corridoio"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Il migliore per te, oggi"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Consigliare in sede"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 21.83,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Parti dai compiti"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Da dove prendere i compiti: I tre compiti della lezione 0.1 / I cinque delegabili della lezione 1.3 / Due o tre attività ricorrenti"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le famiglie di compiti, prima parte"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le famiglie di compiti, seconda parte"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Dai compiti alle famiglie"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – I miei compiti in famiglie"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "8-10 compiti, su una pagina sola"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Una tabella di partenza, prima parte"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Una tabella di partenza, seconda parte"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Copiare la tabella di partenza così com'è → Correggila con i voti delle tue prove"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Ogni riga poggia su una prova"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Quando i tuoi voti dicono altro"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "La colonna che non si salta"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 5, par. 1, lett. c) Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La riga di Anna"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Accortezza vaga o precisa"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "0 dati personali necessari, quasi sempre"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Schema della tabella personale"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Controlla la mia tabella"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Controllo della tabella"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Perché annotare il piano: Il modello cambia con il piano / Il voto vale per quel piano / Spiega giudizi diversi tra colleghi"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C33"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Quando la squadra non è d'accordo"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Con la griglia, non a maggioranza"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Revisione trimestrale"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una tabella compilata e mai più rivista → Revisione ogni tre mesi o a ogni novità"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Colonna dati vuota perché sembra ovvio → Scrivila in ogni riga, anche la più ovvia"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "I tuoi compiti, le tue prove, nessun dato in più."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Elenca e raggruppa otto-dieci compiti / Copia lo schema della tabella / Scegli con i risultati delle prove / Compila la colonna dati in ogni riga / Fissa la revisione tra tre mesi"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa hai costruito nel modulo: Tre account con indirizzo dedicato / Una decisione motivata sui piani / Un confronto alla pari / La tua tabella personale"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 3.1 I dati che non si incollano mai"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

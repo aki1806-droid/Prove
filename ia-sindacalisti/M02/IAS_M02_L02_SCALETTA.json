@@ -1,0 +1,449 @@
+{
+ "lezione": "IAS_M02_L02",
+ "titolo": "Gratis o a pagamento: quando conviene pagare",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il limite nel momento sbagliato"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Si paga per un limite vero"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Come si decide"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "7 giorni di diario prima di decidere"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A08",
+   "durata_video": 20.27,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il piano gratuito"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il gradino economico"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "20 al mese il prezzo tipico del piano standard"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il piano individuale standard"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Uso intensivo e squadra"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C16"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La pubblicità in ChatGPT: Piani Free e Go, in Italia / Da fine agosto 2026 / Separata dalla risposta, dichiara OpenAI / Assente da Plus in su"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Abbonarsi a tutti e tre per non sbagliare → Un solo abbonamento motivato, gli altri gratuiti"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "60-70 € al mese per tre abbonamenti"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A21",
+   "durata_video": 20.83,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "I limiti strumento per strumento"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Conta il peso, non il numero"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Cosa consuma di più"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre abitudini che fanno risparmiare: Nuova chat a ogni argomento / Solo le pagine che servono / Ragionamento lungo solo se serve"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Riassunto per ripartire"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Riassunto per ripartire"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "I segnali che conviene pagare"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Restare gratis è una scelta seria"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una settimana di foglio condiviso"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "1 abbonamento, per chi tratta"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Analizza il mio diario"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Analisi del diario di sette giorni"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Individuale o di squadra"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 28 Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Prima di un piano di squadra"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Con il piano di squadra si incolla tutto → La regola resta: niente salute, iscrizioni, nomi"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C41"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Paga solo per un limite vero, annotato per una settimana."
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Prepara il foglio con cinque colonne / Usa i tre gratis per sette giorni / Annota ogni limite subito, con l'ora / Analizza il diario con il prompt / Decidi e scrivi il perché"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Le tre decisioni possibili: Resto gratis / Un solo abbonamento per un mese / Piano di squadra per la segreteria"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I45"
+  },
+  {
+   "id": "S046",
+   "blocco": "B46",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P46",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 2.3 I punti forti di ChatGPT, Claude e Gemini"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P46",
+   "fondo": "scuro"
+  }
+ ]
+}

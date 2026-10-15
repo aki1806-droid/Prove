@@ -5,7 +5,7 @@
 (function () {
   // in una catena sullo stesso elemento solo il primo pezzo riempie all'indietro, altrimenti coprirebbe i precedenti
   const A = (el, kf, t0, dur, ease, fill) => el.animate(kf, { delay: t0 * 1000, duration: Math.max(1, dur * 1000), fill: fill || 'both', easing: ease || 'linear' });
-  const SHOW = [{ fontSize: '0' }, { fontSize: '1em' }], HIDE = [{ fontSize: '1em' }, { fontSize: '0' }];
+  const SHOW = [{ fontSize: '0' }, { fontSize: '1em' }], HIDE = [{ fontSize: '1em', opacity: 1 }, { fontSize: '0', opacity: 0 }];
   function parti(el, sep) {           // spezza i nodi di testo in unita' (caratteri o parole) dentro span
     const out = [], w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodi = [];
     while (w.nextNode()) nodi.push(w.currentNode);

@@ -1,0 +1,34 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "Le registrazioni schermo sono sostituite da ricostruzioni animate (le slide del pacchetto con la fascia SEGNAPOSTO non si usano).",
+  "Le risposte delle IA nelle ricostruzioni sono verosimili, scritte per la lezione: vanno confrontate con una prova vera.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "fonte": "pacchetto video del 15 ottobre 2026 (slide pronte 1920x1080, una scena = un blocco); testi originali in M02/pacchetti/IAS_M02_L04/; slide in M02/slide/IAS_M02_L04/",
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille: «solo heygen sempre Achille nuovo 1»",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "7 tracce (A, B1, B2, C1, C2, D, E): le tracce oltre 2.800 caratteri sono state divise in due metà prima di generarle, per stare sotto il timeout; blocchi uniti da <break time=\"1.6s\"/>; confini dai segnaposto di pausa nei word_timestamps. La C2 ha avuto un errore 500 da HeyGen e, con il consenso di Achille, è stata rigenerata una volta (la risposta non ha request_id: si indica l'id dell'audio).",
+  "request_id": [
+   "uARFtMbjbaTfWVGd3DTg",
+   "4auhmaB5ixgayaDpPAZD",
+   "HHa7E9LlORHioRdTruWI",
+   "npsikssd77oMV0kadazL",
+   "id=9fad583c-c108-4541-8fc5-b039e8e2d94a",
+   "aGbaF4u84kd0pMywhJFy",
+   "E0Rp1Eka3Dh3GATYEDzM"
+  ],
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.35,
+  "durata_stimata_s": 745.2,
+  "nota": "Script del pacchetto letto senza modifiche: arriva a 12 minuti senza aggiunte.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "montaggio": "Locale: le slide del pacchetto come inquadrature (al massimo 9 s, 12 per le tabelle) e le sue animazioni; nei blocchi più lunghi di una slide, immagini aggiunte (Xnn, ElevenLabs seedream-5-lite); b-roll del pacchetto con immagini ElevenLabs e clip ElevenLabs kling-2.5-turbo (una variante per scena); ricostruzioni animate delle registrazioni; poi unione in HeyGen delle due metà, come per le altre lezioni.",
+ "segnaposto_aperti": [
+  "Registrazioni schermo di IAS_M02_L04: ricostruzioni animate al posto delle registrazioni vere"
+ ]
+}
