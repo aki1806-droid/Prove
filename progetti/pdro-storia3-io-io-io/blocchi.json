@@ -1,0 +1,141 @@
+{
+  "progetto": "PDRO_Storia3_Io_io_io",
+  "titolo": "Io, io, io",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "spot": "HeyGen · voce \"Luca Ward\" in tono da televendita",
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Telepromozione",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "spot",
+      "voce_motore": "HeyGen · voce \"Luca Ward\" in stile spot TV",
+      "illustrazione": "io_selfie.png",
+      "avatar": false,
+      "voce": "Siete stanchi del lavoro di squadra? Delle assemblee, dei colleghi, delle riunioni? Finalmente arriva la soluzione definitiva: il sindacato in prima persona singolare!",
+      "parole": 23,
+      "durata_stimata_s": 11.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/io_selfie.png: la ring light si accende a scatti, il telefono vibra, la scritta IO nel fumetto pulsa, il trofeo luccica, la poltrona 'riservata' fa un piccolo rimbalzo. Stile spot anni Novanta.",
+      "regia": "Jingle da televendita, effetti 'swoosh' e stelline. Banner TELEPROMOZIONE in alto."
+    },
+    {
+      "n": 2,
+      "titolo": "Il contatore degli io",
+      "tipo": "GRAFICA",
+      "voce_tipo": "spot",
+      "voce_motore": "HeyGen · voce \"Luca Ward\" in stile spot TV",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Io ho fatto. Io ho detto. Io ho ottenuto. La mia esperienza. Il mio ufficio. Il mio incarico. La mia poltrona. Tutto in un'unica, comodissima parola: io!",
+      "parole": 27,
+      "durata_stimata_s": 10.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S02B.png",
+          "da": "sulla frase «Il mio incarico…»"
+        }
+      ],
+      "clip": null,
+      "regia": "Ogni 'io' pronunciato fa salire il contatore con un 'ding' da flipper; le etichette compaiono una per frase con rimbalzo."
+    },
+    {
+      "n": 3,
+      "titolo": "Avvertenze",
+      "tipo": "GRAFICA",
+      "voce_tipo": "spot",
+      "voce_motore": "HeyGen · voce \"Luca Ward\" in stile spot TV",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Avvertenze. Il prodotto può causare effetti collaterali: lavoratori che non vengono ascoltati, problemi che restano in sospeso, e un sindacato che, a forza di dire io, si dimentica di chi rappresenta.",
+      "parole": 31,
+      "durata_stimata_s": 13.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Voce accelerata come nei bugiardini degli spot. Il testo piccolo scorre veloce, il contatore schizza a 47 ed esplode."
+    },
+    {
+      "n": 4,
+      "titolo": "Basta una lettera",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Eppure basta una lettera. Una sola. Mettila davanti, e cambia tutto.",
+      "parole": 11,
+      "durata_stimata_s": 4.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S04B.png",
+          "da": "sulla frase «Mettila davanti…»"
+        }
+      ],
+      "clip": null,
+      "regia": "Silenzio improvviso dopo lo spot. Su 'Mettila davanti' la N verde entra da sinistra e spinge la parola: IO diventa NOI."
+    },
+    {
+      "n": 5,
+      "titolo": "Noi",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "noi_squadra.png",
+      "avatar": false,
+      "voce": "Noi ascoltiamo. Noi trattiamo. Noi ci siamo, in tanti, ogni giorno, in ogni reparto. Perché nessuno risolve da solo quello che si risolve insieme.",
+      "parole": 24,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/noi_squadra.png: il gruppo sorride e si avvicina, il fumetto si gonfia, il fondo a retino si muove leggermente. Energia positiva.",
+      "regia": "NOI! compare nel fumetto con un pop; la banda in basso scorre."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Il sindacato non è un palco per una persona sola. È una squadra che ascolta, studia, tratta e cresce. Che c'era ieri e ci sarà domani, con volti nuovi accanto a chi ha esperienza. In CISL FP non diciamo io. Diciamo noi. CISL FP Padova Rovigo.",
+      "parole": 46,
+      "durata_stimata_s": 14.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il tabellone si accende: IO resta a zero, NOI disegna il simbolo dell'infinito. Avatar in basso a destra."
+    }
+  ]
+}

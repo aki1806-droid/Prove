@@ -1,0 +1,169 @@
+{
+  "progetto": "PDRO_Storia1_Il_navigatore",
+  "titolo": "Il navigatore del 2010",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "navigatore": "HeyGen · voce \"Luca Ward\" + effetto navigatore in ffmpeg",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Titoli di testa",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "nav_night.png",
+      "avatar": false,
+      "voce": "Questa è la storia di Giulia, infermiera. Turno di notte finito, la pioggia sul parabrezza, la strada di casa. E sul cruscotto, lui: il vecchio navigatore. Quello che c'è sempre stato.",
+      "parole": 31,
+      "durata_stimata_s": 12.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/nav_night.png: pioggia che scorre sul parabrezza, tergicristalli lenti, luci della città che sfocano, lo schermo del navigatore che sfarfalla. Carrello in avanti molto lento.",
+      "regia": "Bande nere cinematografiche, titolo IL NAVIGATORE in dissolvenza, sottotitolo scritto a mano."
+    },
+    {
+      "n": 2,
+      "titolo": "Ti guido io",
+      "tipo": "GRAFICA",
+      "voce_tipo": "navigatore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\" + effetto navigatore (ffmpeg)",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Tranquilla, ti guido io. Ho tanta esperienza. Più di tutti. Segui me.",
+      "parole": 12,
+      "durata_stimata_s": 4.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S02B.png",
+          "da": "sulla frase «Ho tanta esperienza…»"
+        }
+      ],
+      "clip": null,
+      "regia": "Effetto LCD che lampeggia, testo che compare carattere per carattere come un vecchio display. In B le stelline si riempiono una a una."
+    },
+    {
+      "n": 3,
+      "titolo": "Il giro di Giulia",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "E Giulia si fida. Prima svolta: una strada chiusa da anni. Seconda: una rotonda che non esiste più. Terza: un parcheggio, dove adesso c'è un reparto nuovo.",
+      "parole": 27,
+      "durata_stimata_s": 10.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S03B.png",
+          "da": "sulla frase «Prima svolta…»"
+        }
+      ],
+      "clip": null,
+      "regia": "A: pioggia animata, la freccia gialla insiste. B: le tre schede entrano sui numeri pronunciati, ogni X rossa si disegna con un 'boing' comico."
+    },
+    {
+      "n": 4,
+      "titolo": "Ricalcolo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "navigatore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\" + effetto navigatore (ffmpeg)",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Ricalcolo. Ricalcolo. Ricalcolo. Fidati, conosco la strada.",
+      "parole": 7,
+      "durata_stimata_s": 4.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S04B.png",
+          "da": "sulla frase «Fidati…»"
+        }
+      ],
+      "clip": null,
+      "regia": "A: le tre righe RICALCOLO compaiono a scatti, il simbolo di caricamento gira. B: '(non è vero)' compare piccolo, con mezzo secondo di ritardo: è la battuta."
+    },
+    {
+      "n": 5,
+      "titolo": "Mappa non aggiornata",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Il problema non è il navigatore. È la mappa. Nuovo contratto? Non trovato. Progressioni tra le aree? Non trovate. Intelligenza artificiale? Non pervenuta. Riforma delle professioni? Strada sconosciuta.",
+      "parole": 28,
+      "durata_stimata_s": 13.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S05B.png",
+          "da": "sulla frase «Nuovo contratto…»"
+        }
+      ],
+      "clip": null,
+      "regia": "Finestra d'errore anni Novanta con suono di sistema. Le quattro righe compaiono una per voce, ognuna con un piccolo 'bip'."
+    },
+    {
+      "n": 6,
+      "titolo": "La mappa aggiornata",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "nav_alba.png",
+      "avatar": false,
+      "voce": "Allora Giulia fa una cosa semplicissima. Stacca il vecchio navigatore. Apre una mappa aggiornata, che conosce le strade di oggi e quelle che stanno per aprire. E all'improvviso, la strada di casa si vede.",
+      "parole": 34,
+      "durata_stimata_s": 14.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/nav_alba.png: Giulia sorride, la mappa olografica sul telefono si illumina, il sole sorge dietro l'ospedale, il cavo del vecchio navigatore dondola sul sedile.",
+      "regia": "Il bollino MAPPA AGGIORNATA entra con un 'ding' sulla frase finale."
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Nel sindacato è lo stesso. L'esperienza conta, ma non basta dire ti guido io. Servono persone che conoscono le strade di oggi: contratti, progressioni, nuove professioni, tecnologia. E che restano in strada con te, ogni giorno. CISL FP Padova Rovigo: la mappa aggiornata per il tuo lavoro.",
+      "parole": 47,
+      "durata_stimata_s": 17.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il percorso dorato si disegna da un punto all'altro, i quattro segnaposto compaiono sulle parole corrispondenti. Avatar in basso a destra."
+    }
+  ]
+}

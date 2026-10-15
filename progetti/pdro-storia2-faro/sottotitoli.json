@@ -1,0 +1,164 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 1.571,
+  "testo": "C'era una volta un faro."
+ },
+ {
+  "scena": "S01",
+  "inizio": 1.611,
+  "fine": 6.021,
+  "testo": "E c'era un guardiano che per tanti anni ne aveva custodito la luce."
+ },
+ {
+  "scena": "S01",
+  "inizio": 6.061,
+  "fine": 9.968,
+  "testo": "Un giorno decise di lasciare gli scogli e trasferirsi in"
+ },
+ {
+  "scena": "S01",
+  "inizio": 10.008,
+  "fine": 14.28,
+  "testo": "città, dove le notti sono più tranquille e il vento non fischia."
+ },
+ {
+  "scena": "S02",
+  "inizio": 15.39,
+  "fine": 19.242,
+  "testo": "Prima di partire, però, appese un biglietto alla porta."
+ },
+ {
+  "scena": "S02",
+  "inizio": 19.282,
+  "fine": 20.238,
+  "testo": "La luce resta mia."
+ },
+ {
+  "scena": "S02",
+  "inizio": 20.278,
+  "fine": 22.508,
+  "testo": "Ci penso io, anche da lontano."
+ },
+ {
+  "scena": "S02",
+  "inizio": 22.548,
+  "fine": 24.49,
+  "testo": "E si portò via la chiave."
+ },
+ {
+  "scena": "S03",
+  "inizio": 25.584,
+  "fine": 28.037,
+  "testo": "Ma le navi non leggono i biglietti."
+ },
+ {
+  "scena": "S03",
+  "inizio": 28.077,
+  "fine": 31.95,
+  "testo": "Passano di notte, nella tempesta, e cercano una luce."
+ },
+ {
+  "scena": "S03",
+  "inizio": 31.99,
+  "fine": 34.614,
+  "testo": "E una luce, da lontano, non si accende."
+ },
+ {
+  "scena": "S04",
+  "inizio": 36.075,
+  "fine": 38.773,
+  "testo": "Allora una squadra di guardiani decide di salire."
+ },
+ {
+  "scena": "S04",
+  "inizio": 38.813,
+  "fine": 40.813,
+  "testo": "Non hanno la chiave:"
+ },
+ {
+  "scena": "S04",
+  "inizio": 40.853,
+  "fine": 44.365,
+  "testo": "hanno le mani, la fatica e la voglia di esserci."
+ },
+ {
+  "scena": "S04",
+  "inizio": 44.405,
+  "fine": 46.992,
+  "testo": "Gradino dopo gradino. Turno dopo turno."
+ },
+ {
+  "scena": "S04",
+  "inizio": 47.032,
+  "fine": 49.712,
+  "testo": "Finché la luce torna ad accendersi."
+ },
+ {
+  "scena": "S05",
+  "inizio": 50.878,
+  "fine": 53.87,
+  "testo": "Perché un faro non appartiene a chi lo ha custodito."
+ },
+ {
+  "scena": "S05",
+  "inizio": 53.91,
+  "fine": 57.035,
+  "testo": "Appartiene alle navi che devono tornare a casa."
+ },
+ {
+  "scena": "S06",
+  "inizio": 57.619,
+  "fine": 59.869,
+  "testo": "Anche la rappresentanza funziona così."
+ },
+ {
+  "scena": "S06",
+  "inizio": 59.909,
+  "fine": 61.694,
+  "testo": "Non è una chiave da tenere in tasca,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 61.734,
+  "fine": 63.477,
+  "testo": "né un incarico da allungare."
+ },
+ {
+  "scena": "S06",
+  "inizio": 63.517,
+  "fine": 65.727,
+  "testo": "È una luce da tenere accesa ogni notte,"
+ },
+ {
+  "scena": "S06",
+  "inizio": 65.767,
+  "fine": 68.583,
+  "testo": "nei reparti e negli uffici, accanto a chi lavora."
+ },
+ {
+  "scena": "S06",
+  "inizio": 68.623,
+  "fine": 70.201,
+  "testo": "Noi siamo quella squadra:"
+ },
+ {
+  "scena": "S06",
+  "inizio": 70.241,
+  "fine": 73.397,
+  "testo": "giovani e meno giovani, insieme, sugli scogli."
+ },
+ {
+  "scena": "S06",
+  "inizio": 73.437,
+  "fine": 74.842,
+  "testo": "CISL FP Padova Rovigo."
+ },
+ {
+  "scena": "S06",
+  "inizio": 74.882,
+  "fine": 76.511,
+  "testo": "La luce accesa, ogni turno."
+ }
+]

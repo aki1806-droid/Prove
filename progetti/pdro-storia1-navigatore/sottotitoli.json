@@ -1,0 +1,188 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 2.412,
+  "testo": "Questa è la storia di Giulia, infermiera."
+ },
+ {
+  "scena": "S01",
+  "inizio": 2.452,
+  "fine": 6.156,
+  "testo": "Turno di notte finito, la pioggia sul parabrezza,"
+ },
+ {
+  "scena": "S01",
+  "inizio": 6.196,
+  "fine": 7.362,
+  "testo": "la strada di casa."
+ },
+ {
+  "scena": "S01",
+  "inizio": 7.402,
+  "fine": 9.311,
+  "testo": "E sul cruscotto, lui:"
+ },
+ {
+  "scena": "S01",
+  "inizio": 9.351,
+  "fine": 11.005,
+  "testo": "il vecchio navigatore."
+ },
+ {
+  "scena": "S01",
+  "inizio": 11.045,
+  "fine": 13.096,
+  "testo": "Quello che c'è sempre stato."
+ },
+ {
+  "scena": "S02",
+  "inizio": 14.19,
+  "fine": 15.474,
+  "testo": "Tranquilla, ti guido io."
+ },
+ {
+  "scena": "S02",
+  "inizio": 15.514,
+  "fine": 19.01,
+  "testo": "Ho tanta esperienza. Più di tutti. Segui me."
+ },
+ {
+  "scena": "S03",
+  "inizio": 20.231,
+  "fine": 22.486,
+  "testo": "E Giulia si fida. Prima svolta:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 22.526,
+  "fine": 25.192,
+  "testo": "una strada chiusa da anni. Seconda:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 25.232,
+  "fine": 28.059,
+  "testo": "una rotonda che non esiste più. Terza:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 28.099,
+  "fine": 31.116,
+  "testo": "un parcheggio, dove adesso c'è un reparto nuovo."
+ },
+ {
+  "scena": "S04",
+  "inizio": 32.256,
+  "fine": 35.042,
+  "testo": "Ricalcolo. Ricalcolo. Ricalcolo."
+ },
+ {
+  "scena": "S04",
+  "inizio": 35.082,
+  "fine": 37.433,
+  "testo": "Fidati, conosco la strada."
+ },
+ {
+  "scena": "S05",
+  "inizio": 38.57,
+  "fine": 43.714,
+  "testo": "Il problema non è il navigatore. È la mappa. Nuovo contratto? Non trovato."
+ },
+ {
+  "scena": "S05",
+  "inizio": 43.754,
+  "fine": 46.391,
+  "testo": "Progressioni tra le aree? Non trovate."
+ },
+ {
+  "scena": "S05",
+  "inizio": 46.431,
+  "fine": 49.196,
+  "testo": "Intelligenza artificiale? Non pervenuta."
+ },
+ {
+  "scena": "S05",
+  "inizio": 49.236,
+  "fine": 51.257,
+  "testo": "Riforma delle professioni?"
+ },
+ {
+  "scena": "S05",
+  "inizio": 51.297,
+  "fine": 52.336,
+  "testo": "Strada sconosciuta."
+ },
+ {
+  "scena": "S06",
+  "inizio": 53.465,
+  "fine": 55.538,
+  "testo": "Allora Giulia fa una cosa semplicissima."
+ },
+ {
+  "scena": "S06",
+  "inizio": 55.578,
+  "fine": 57.417,
+  "testo": "Stacca il vecchio navigatore."
+ },
+ {
+  "scena": "S06",
+  "inizio": 57.457,
+  "fine": 61.063,
+  "testo": "Apre una mappa aggiornata, che conosce le strade di oggi e"
+ },
+ {
+  "scena": "S06",
+  "inizio": 61.103,
+  "fine": 62.609,
+  "testo": "quelle che stanno per aprire."
+ },
+ {
+  "scena": "S06",
+  "inizio": 62.649,
+  "fine": 65.519,
+  "testo": "E all'improvviso, la strada di casa si vede."
+ },
+ {
+  "scena": "S07",
+  "inizio": 66.091,
+  "fine": 67.471,
+  "testo": "Nel sindacato è lo stesso."
+ },
+ {
+  "scena": "S07",
+  "inizio": 67.511,
+  "fine": 70.39,
+  "testo": "L'esperienza conta, ma non basta dire ti guido io."
+ },
+ {
+  "scena": "S07",
+  "inizio": 70.43,
+  "fine": 73.366,
+  "testo": "Servono persone che conoscono le strade di oggi:"
+ },
+ {
+  "scena": "S07",
+  "inizio": 73.406,
+  "fine": 76.603,
+  "testo": "contratti, progressioni, nuove professioni, tecnologia."
+ },
+ {
+  "scena": "S07",
+  "inizio": 76.643,
+  "fine": 79.924,
+  "testo": "E che restano in strada con te, ogni giorno."
+ },
+ {
+  "scena": "S07",
+  "inizio": 79.964,
+  "fine": 81.134,
+  "testo": "CISL FP Padova Rovigo:"
+ },
+ {
+  "scena": "S07",
+  "inizio": 81.174,
+  "fine": 83.541,
+  "testo": "la mappa aggiornata per il tuo lavoro."
+ }
+]
