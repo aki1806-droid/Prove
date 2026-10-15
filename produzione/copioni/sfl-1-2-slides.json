@@ -1,0 +1,443 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 1 · Lezione 1.2",
+"title": "La prima riga decide",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "dopo la prima occhiata",
+"title": "Il lettore legge la prima riga.<br><span class=\"gold\">E decide se leggere la seconda.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "quasi tutti gli abbandoni",
+"title": "Avvengono entro<br><span class=\"gold\">le prime due righe.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "il posto più prezioso del testo",
+"title": "Ed è quello che sprechiamo<br><span class=\"gold\">più spesso.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "che cosa occupa la prima riga",
+"rows": [
+"Il saluto",
+"La premessa",
+"Il riferimento a prima",
+"La scusa per il disturbo"
+],
+"plain": true,
+"note": "Prima ancora che l’altro sappia di che cosa si tratta."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "«volevo aggiornarti» · «faccio seguito»",
+"title": "Preparano il terreno.<br><span class=\"gold\">E il terreno resta vuoto.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "nascono da buone intenzioni",
+"title": "Sono tutte comprensibili.<br><span class=\"gold\">Sono tutte un rinvio.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "se la cosa non arriva in fretta",
+"title": "Il testo finisce fra quelli<br><span class=\"gold\">da leggere dopo.</span>"
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Gentile dottoressa, spero che tutto proceda bene. Facendo seguito alla nostra conversazione telefonica di qualche giorno fa, volevo aggiornarla rispetto alla questione di cui avevamo parlato, che come sa è piuttosto articolata.",
+"dopo": [
+"Gentile dottoressa, la pratica è stata approvata.",
+"Le scrivo cosa serve adesso."
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile dottoressa, spero che tutto proceda bene. Facendo seguito alla nostra conversazione telefonica di qualche giorno fa, volevo aggiornarla rispetto alla questione di cui avevamo parlato, che come sa è piuttosto articolata.",
+"dopo": [
+"Gentile dottoressa, la pratica è stata approvata.",
+"Le scrivo cosa serve adesso."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile dottoressa, spero che tutto proceda bene. Facendo seguito alla nostra conversazione telefonica di qualche giorno fa, volevo aggiornarla rispetto alla questione di cui avevamo parlato, che come sa è piuttosto articolata.",
+"dopo": [
+"Gentile dottoressa, la pratica è stata approvata.",
+"Le scrivo cosa serve adesso."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile dottoressa, spero che tutto proceda bene. Facendo seguito alla nostra conversazione telefonica di qualche giorno fa, volevo aggiornarla rispetto alla questione di cui avevamo parlato, che come sa è piuttosto articolata.",
+"dopo": [
+"Gentile dottoressa, la pratica è stata approvata.",
+"Le scrivo cosa serve adesso."
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "come arrivano le mail oggi",
+"title": "Prima su un telefono.<br><span class=\"gold\">E prima ancora, un’anteprima.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "nell’anteprima",
+"title": "L’oggetto e le prime parole.<br><span class=\"gold\">Una decisione di un secondo.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "«spero che tutto proceda bene»",
+"title": "L’anteprima<br><span class=\"gold\">non contiene informazione.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "«la pratica è stata approvata»",
+"title": "L’anteprima<br><span class=\"gold\">ha già fatto il lavoro.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "non devi scrivere per il telefono",
+"title": "Ma la prima riga, spesso,<br><span class=\"gold\">è tutto quello che si vede.</span>"
+},
+{
+"file": "c19",
+"layout": "memo",
+"theme": "deep",
+"title": "La prima riga è spesso<br>tutto quello che viene letto."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "tre prime righe che funzionano",
+"rows": [
+"Il fatto",
+"La richiesta",
+"La risposta"
+],
+"plain": true,
+"note": "Nessuna è brillante. Non serve esserlo."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "tre prime righe che funzionano",
+"rows": [
+"Il fatto",
+"La richiesta",
+"La risposta"
+],
+"active": 0,
+"note": "«Dal 1° novembre cambiano i turni.»"
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "tre prime righe che funzionano",
+"rows": [
+"Il fatto",
+"La richiesta",
+"La risposta"
+],
+"active": 1,
+"note": "«Ti chiedo una cosa sola: …»"
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "tre prime righe che funzionano",
+"rows": [
+"Il fatto",
+"La richiesta",
+"La risposta"
+],
+"active": 2,
+"note": "«Sì, si può fare. Ecco come.»"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "e il saluto?",
+"title": "Si tiene.<br><span class=\"gold\">Una riga, poi il contenuto.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "la misura, non l’intenzione",
+"title": "Una riga è educazione.<br><span class=\"gold\">Tre righe sono un ostacolo.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "chi legge usa il suo tempo",
+"title": "Tu, scrivendo,<br><span class=\"gold\">ne decidi la quantità.</span>"
+},
+{
+"file": "c27",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Buongiorno, le scrivo in merito alla richiesta di permesso che ha inoltrato lo scorso mese e che è stata oggetto di valutazione da parte dell'ufficio competente, il quale ha ritenuto di dover approfondire alcuni aspetti prima di esprimersi definitivamente.",
+"dopo": [
+"Buongiorno. La sua richiesta di permesso è sospesa:",
+"manca un documento. Le dico quale."
+]
+},
+{
+"file": "c28",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, le scrivo in merito alla richiesta di permesso che ha inoltrato lo scorso mese e che è stata oggetto di valutazione da parte dell'ufficio competente, il quale ha ritenuto di dover approfondire alcuni aspetti prima di esprimersi definitivamente.",
+"dopo": [
+"Buongiorno. La sua richiesta di permesso è sospesa:",
+"manca un documento. Le dico quale."
+]
+},
+{
+"file": "c29",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, le scrivo in merito alla richiesta di permesso che ha inoltrato lo scorso mese e che è stata oggetto di valutazione da parte dell'ufficio competente, il quale ha ritenuto di dover approfondire alcuni aspetti prima di esprimersi definitivamente.",
+"dopo": [
+"Buongiorno. La sua richiesta di permesso è sospesa:",
+"manca un documento. Le dico quale."
+]
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, le scrivo in merito alla richiesta di permesso che ha inoltrato lo scorso mese e che è stata oggetto di valutazione da parte dell'ufficio competente, il quale ha ritenuto di dover approfondire alcuni aspetti prima di esprimersi definitivamente.",
+"dopo": [
+"Buongiorno. La sua richiesta di permesso è sospesa:",
+"manca un documento. Le dico quale."
+]
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "le brutte notizie",
+"title": "L’istinto è prepararle.<br><span class=\"gold\">Per iscritto non funziona.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "a voce, a volte, sì",
+"title": "Per iscritto la preparazione<br><span class=\"gold\">non accompagna nessuno.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "dopo due righe",
+"title": "Capisce che arriva qualcosa di brutto.<br><span class=\"gold\">E salta alla fine.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "la premessa non l’ha letta",
+"title": "Ha solo passato quei secondi<br><span class=\"gold\">a stare peggio.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "la regola, per adesso",
+"title": "La cosa prima.<br><span class=\"gold\">Come affrontarla, subito dopo.</span>"
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "tre aperture che bruciano la riga",
+"rows": [
+"«Spero che tu stia bene»",
+"«Scusa il disturbo»",
+"«Volevo solo dirti che…»"
+],
+"plain": true,
+"note": "Le più diffuse in assoluto."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "tre aperture che bruciano la riga",
+"rows": [
+"«Spero che tu stia bene»",
+"«Scusa il disturbo»",
+"«Volevo solo dirti che…»"
+],
+"active": 0,
+"note": "Non è informazione: è una formula."
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "tre aperture che bruciano la riga",
+"rows": [
+"«Spero che tu stia bene»",
+"«Scusa il disturbo»",
+"«Volevo solo dirti che…»"
+],
+"active": 1,
+"note": "Dice che quello che scrivi vale poco."
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "tre aperture che bruciano la riga",
+"rows": [
+"«Spero che tu stia bene»",
+"«Scusa il disturbo»",
+"«Volevo solo dirti che…»"
+],
+"active": 2,
+"note": "«Solo» è una scusa. «Volevo dirti» è un annuncio."
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "non è freddezza",
+"title": "Puoi essere caldissimo<br><span class=\"gold\">nella seconda riga.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "la prima riga",
+"title": "È lo spazio in cui si decide.<br><span class=\"gold\">Troppo prezioso per una formula.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Arrivare al punto<br>è una forma di cortesia."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il preambolo",
+"La scusa",
+"La premessa alla cattiva notizia",
+"Rimandare la risposta in fondo"
+],
+"plain": true,
+"note": "Quattro modi di occupare la prima riga con qualcosa che non è la cosa."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il preambolo",
+"La scusa",
+"La premessa alla cattiva notizia",
+"Rimandare la risposta in fondo"
+],
+"active": 0,
+"note": "Occupa lo spazio della decisione."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il preambolo",
+"La scusa",
+"La premessa alla cattiva notizia",
+"Rimandare la risposta in fondo"
+],
+"active": 1,
+"note": "Svaluta quello che stai per dire."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il preambolo",
+"La scusa",
+"La premessa alla cattiva notizia",
+"Rimandare la risposta in fondo"
+],
+"active": 2,
+"note": "Non viene letta, e fa stare peggio."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il preambolo",
+"La scusa",
+"La premessa alla cattiva notizia",
+"Rimandare la risposta in fondo"
+],
+"active": 3,
+"note": "Chi ha fatto una domanda cerca la risposta per prima."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Scrivi la prossima mail",
+"Cancella la prima riga",
+"Rileggi da quella che resta"
+],
+"note": "Come la leggerebbe chi la riceve."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Quasi sempre comincia meglio senza",
+"Se serviva, te ne accorgi subito"
+],
+"note": "Nella prossima lezione: scrivere per uno, non per tutti."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

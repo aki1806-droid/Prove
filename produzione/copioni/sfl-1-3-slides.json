@@ -1,0 +1,464 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 1 · Lezione 1.3",
+"title": "Scrivi per uno, non per tutti",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "non riguarda le parole",
+"title": "Riguarda a chi<br><span class=\"gold\">stai scrivendo.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "rivolto a tutti",
+"title": "Finisce per non rivolgersi<br><span class=\"gold\">a nessuno.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "la circolare, la mail per chiunque",
+"title": "Le leggi a metà.<br><span class=\"gold\">E non ricordi che cosa dicevano.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "quando scrivi a molti, immagini",
+"plain": true,
+"rows": [
+"Chi è informato e chi no",
+"Chi è favorevole e chi contrario",
+"Chi ha un contratto e chi un altro",
+"Chi lavora di notte e chi di giorno"
+],
+"note": "E cerchi di scrivere per tutti."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "un caso, una precisazione",
+"title": "Il testo cresce,<br><span class=\"gold\">senza che nessuno l’abbia deciso.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "«salvo che» · «fermo restando»",
+"title": "Ogni frase è corretta.<br><span class=\"gold\">Nessuna arriva.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la ragione meno nobile",
+"title": "Protegge chi scrive.<br><span class=\"gold\">Non serve a chi legge.</span>"
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si informano i dipendenti interessati che, per coloro i quali rientrino nelle categorie previste e fatte salve le diverse disposizioni applicabili ai singoli profili, è possibile presentare istanza secondo le modalità indicate, ove ne ricorrano i presupposti.",
+"dopo": [
+"Se lavori in reparto e hai più di cinque anni di servizio,",
+"puoi fare domanda. Ecco come."
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si informano i dipendenti interessati che, per coloro i quali rientrino nelle categorie previste e fatte salve le diverse disposizioni applicabili ai singoli profili, è possibile presentare istanza secondo le modalità indicate, ove ne ricorrano i presupposti.",
+"dopo": [
+"Se lavori in reparto e hai più di cinque anni di servizio,",
+"puoi fare domanda. Ecco come."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si informano i dipendenti interessati che, per coloro i quali rientrino nelle categorie previste e fatte salve le diverse disposizioni applicabili ai singoli profili, è possibile presentare istanza secondo le modalità indicate, ove ne ricorrano i presupposti.",
+"dopo": [
+"Se lavori in reparto e hai più di cinque anni di servizio,",
+"puoi fare domanda. Ecco come."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si informano i dipendenti interessati che, per coloro i quali rientrino nelle categorie previste e fatte salve le diverse disposizioni applicabili ai singoli profili, è possibile presentare istanza secondo le modalità indicate, ove ne ricorrano i presupposti.",
+"dopo": [
+"Se lavori in reparto e hai più di cinque anni di servizio,",
+"puoi fare domanda. Ecco come."
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la tecnica",
+"title": "Scegli una persona.<br><span class=\"gold\">Una vera.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "e scrivi per lei",
+"title": "Ogni domanda che ti farebbe<br><span class=\"gold\">è un punto ancora oscuro.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "non perché le altre non contino",
+"title": "La precisione si allarga.<br><span class=\"gold\">La vaghezza no.</span>"
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "cosa cambia, se sai chi è",
+"rows": [
+"Che cosa sa già",
+"Che cosa gli interessa davvero",
+"Quanto tempo ha",
+"Che parole usa"
+],
+"plain": true,
+"note": "Domande da farsi prima di scrivere, non dopo."
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "cosa cambia, se sai chi è",
+"rows": [
+"Che cosa sa già",
+"Che cosa gli interessa davvero",
+"Quanto tempo ha",
+"Che parole usa"
+],
+"active": 0,
+"note": "Se lo sa, non glielo spieghi. Se non lo sa, non darlo per scontato."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "cosa cambia, se sai chi è",
+"rows": [
+"Che cosa sa già",
+"Che cosa gli interessa davvero",
+"Quanto tempo ha",
+"Che parole usa"
+],
+"active": 1,
+"note": "Quasi mai è la cosa che interessa a te."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "cosa cambia, se sai chi è",
+"rows": [
+"Che cosa sa già",
+"Che cosa gli interessa davvero",
+"Quanto tempo ha",
+"Che parole usa"
+],
+"active": 2,
+"note": "Fra due pazienti, dieci secondi. Alla scrivania, forse un minuto."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "cosa cambia, se sai chi è",
+"rows": [
+"Che cosa sa già",
+"Che cosa gli interessa davvero",
+"Quanto tempo ha",
+"Che parole usa"
+],
+"active": 3,
+"note": "Le tue parole tecniche, per lui, possono non esistere."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "il vocabolario del mestiere",
+"title": "Dentro, è preciso e rapido.<br><span class=\"gold\">Fuori, non esiste.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "chi lo usa tutti i giorni",
+"title": "Smette di sentirlo<br><span class=\"gold\">come tecnico.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "per questo serve una persona vera",
+"title": "Con i suoi occhi, le parole<br><span class=\"gold\">tornano visibili.</span>"
+},
+{
+"file": "c25",
+"layout": "memo",
+"theme": "deep",
+"title": "Un testo pensato per una persona<br>è chiaro per tutte."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "il caso difficile",
+"title": "Trecento persone,<br><span class=\"gold\">trecento situazioni diverse.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "la tentazione",
+"title": "Il testo<br><span class=\"gold\">che copre tutto.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "la soluzione",
+"title": "Non scrivere per tutti.<br><span class=\"gold\">Separare.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "tre modi di separare",
+"rows": [
+"Testi diversi per gruppi diversi",
+"Un testo breve + un allegato",
+"«Questo ti riguarda se…»"
+],
+"plain": true,
+"note": "Tutti e tre meglio del testo unico."
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "tre modi di separare",
+"rows": [
+"Testi diversi per gruppi diversi",
+"Un testo breve + un allegato",
+"«Questo ti riguarda se…»"
+],
+"active": 0,
+"note": "Più lavoro per te. Molto meno per trecento persone."
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "tre modi di separare",
+"rows": [
+"Testi diversi per gruppi diversi",
+"Un testo breve + un allegato",
+"«Questo ti riguarda se…»"
+],
+"active": 1,
+"note": "La cosa comune per tutti; i dettagli per chi servono."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "tre modi di separare",
+"rows": [
+"Testi diversi per gruppi diversi",
+"Un testo breve + un allegato",
+"«Questo ti riguarda se…»"
+],
+"active": 2,
+"note": "Ognuno va alla sua parte, e ignora le altre."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "il criterio di tutto il corso",
+"title": "Costa a chi scrive.<br><span class=\"gold\">Risparmia a chi legge.</span>"
+},
+{
+"file": "c34",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si comunica a tutto il personale che sono state aggiornate le procedure relative alla gestione delle assenze, con particolare riferimento alle modalità di comunicazione e ai termini previsti, invitando tutti a prenderne attenta visione.",
+"dopo": [
+"Cambia una cosa sola:",
+"le assenze vanno comunicate entro le 7.",
+"(Prima erano le 9.) Da lunedì."
+]
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica a tutto il personale che sono state aggiornate le procedure relative alla gestione delle assenze, con particolare riferimento alle modalità di comunicazione e ai termini previsti, invitando tutti a prenderne attenta visione.",
+"dopo": [
+"Cambia una cosa sola:",
+"le assenze vanno comunicate entro le 7.",
+"(Prima erano le 9.) Da lunedì."
+]
+},
+{
+"file": "c36",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica a tutto il personale che sono state aggiornate le procedure relative alla gestione delle assenze, con particolare riferimento alle modalità di comunicazione e ai termini previsti, invitando tutti a prenderne attenta visione.",
+"dopo": [
+"Cambia una cosa sola:",
+"le assenze vanno comunicate entro le 7.",
+"(Prima erano le 9.) Da lunedì."
+]
+},
+{
+"file": "c37",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica a tutto il personale che sono state aggiornate le procedure relative alla gestione delle assenze, con particolare riferimento alle modalità di comunicazione e ai termini previsti, invitando tutti a prenderne attenta visione.",
+"dopo": [
+"Cambia una cosa sola:",
+"le assenze vanno comunicate entro le 7.",
+"(Prima erano le 9.) Da lunedì."
+]
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "l’effetto nel tempo",
+"title": "Testi che non lo riguardano,<br><span class=\"gold\">uno dopo l’altro.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "e smette di aprirli",
+"title": "Non per cattiveria.<br><span class=\"gold\">Per esperienza.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "quando arriva quello importante",
+"title": "Non lo legge.<br><span class=\"gold\">O lo legge tardi.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"theme": "deep",
+"title": "Chi riceve testi<br>che non lo riguardano<br>smette di aprire i tuoi testi."
+},
+{
+"file": "c42",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il testo che copre tutti i casi",
+"Dare per scontato il proprio vocabolario",
+"Lasciare al lettore capire se lo riguarda",
+"Scrivere a tutti insieme per comodità"
+],
+"plain": true,
+"note": "Tutti modi di scrivere per nessuno in particolare."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il testo che copre tutti i casi",
+"Dare per scontato il proprio vocabolario",
+"Lasciare al lettore capire se lo riguarda",
+"Scrivere a tutti insieme per comodità"
+],
+"active": 0,
+"note": "Ogni caso raro protetto rallenta tutti gli altri."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il testo che copre tutti i casi",
+"Dare per scontato il proprio vocabolario",
+"Lasciare al lettore capire se lo riguarda",
+"Scrivere a tutti insieme per comodità"
+],
+"active": 1,
+"note": "Se non lo senti più tecnico, sospetta che lo sia."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il testo che copre tutti i casi",
+"Dare per scontato il proprio vocabolario",
+"Lasciare al lettore capire se lo riguarda",
+"Scrivere a tutti insieme per comodità"
+],
+"active": 2,
+"note": "Quel lavoro lo puoi fare tu, una volta sola."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il testo che copre tutti i casi",
+"Dare per scontato il proprio vocabolario",
+"Lasciare al lettore capire se lo riguarda",
+"Scrivere a tutti insieme per comodità"
+],
+"active": 3,
+"note": "La tua comodità, moltiplicata per trecento."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Prima di scrivere a più persone",
+"Scegli un nome",
+"Una persona vera"
+],
+"note": "Il suo lavoro, il suo tempo, le sue parole."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Scrivi solo per lei",
+"Rileggi pensando agli altri",
+"Aggiungi solo quello che manca"
+],
+"note": "Di solito è poco."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Più corto, da solo",
+"Più chiaro per tutti"
+],
+"note": "Nella prossima lezione: che cosa vuoi che faccia chi legge."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

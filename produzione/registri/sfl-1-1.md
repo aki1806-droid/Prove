@@ -21,7 +21,7 @@ tutto il corso: *che cosa deve fare chi legge, e gliel'ho reso facile?*
 | ripresa | `s09` casella-di-posta |
 | costo | **29 crediti HeyGen** di voce (6.804 → 6.775) + **1** di render |
 
-**Confini: 43 su 43** dentro la pausa di HeyGen al primo colpo, scarto massimo **0,071 s** dal centro.
+**Confini: 43 su 43** trovati al primo colpo da `confini_heygen.py`, senza trascrizione; pausa di confine più corta **1,32 s**, taglio a metà della pausa.
 
 ## Le scelte
 
