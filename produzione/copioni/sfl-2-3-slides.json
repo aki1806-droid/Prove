@@ -1,0 +1,473 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.3",
+"title": "Il concreto batte l’astratto",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "«un miglioramento dell’efficienza organizzativa»",
+"title": "Prova a vedere questa frase.<br><span class=\"gold\">Non c’è niente da vedere.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "che cosa c’è dentro",
+"plain": true,
+"rows": [
+"Nessuna persona",
+"Nessun luogo",
+"Nessuna azione",
+"Nessun numero"
+],
+"note": "Alla fine della riga, sono già sparite."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "una frase che non produce un’immagine",
+"title": "Viene letta<br><span class=\"gold\">e sparisce.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "oggi",
+"title": "Dall’astratto al concreto.<br><span class=\"gold\">E il suo rovescio.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "le parole che sembrano professionali",
+"plain": true,
+"rows": [
+"efficienza · criticità",
+"problematiche · dinamiche",
+"ottimizzazione · razionalizzazione"
+],
+"note": "Hanno un’aria seria. Si scrivono quasi da sole."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "coprono molte situazioni diverse",
+"title": "E proprio per questo<br><span class=\"gold\">non ne descrivono nessuna.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "una criticità può essere",
+"plain": true,
+"rows": [
+"Un turno scoperto",
+"Un macchinario rotto",
+"Un collega che non risponde"
+],
+"note": "Chi legge immagina quella che conosce. O niente."
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "le informazioni per riempire la frase",
+"title": "Le hai tu.<br><span class=\"gold\">Se non le scrivi, restano con te.</span>"
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "la scala",
+"rows": [
+"Astratto: «va migliorata l’efficienza»",
+"Categoria: «tempo perso nelle consegne»",
+"Esempio: «è successo tre volte questa settimana»",
+"Scena: «martedì il turno è saltato per venti minuti»"
+],
+"plain": true,
+"note": "Quattro altezze per la stessa cosa."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "la scala",
+"rows": [
+"Astratto: «va migliorata l’efficienza»",
+"Categoria: «tempo perso nelle consegne»",
+"Esempio: «è successo tre volte questa settimana»",
+"Scena: «martedì il turno è saltato per venti minuti»"
+],
+"active": 0,
+"note": "Vero di qualunque ufficio. Quindi non dice niente."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "la scala",
+"rows": [
+"Astratto: «va migliorata l’efficienza»",
+"Categoria: «tempo perso nelle consegne»",
+"Esempio: «è successo tre volte questa settimana»",
+"Scena: «martedì il turno è saltato per venti minuti»"
+],
+"active": 1,
+"note": "Sembra già concreta. Non lo è ancora del tutto."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "la scala",
+"rows": [
+"Astratto: «va migliorata l’efficienza»",
+"Categoria: «tempo perso nelle consegne»",
+"Esempio: «è successo tre volte questa settimana»",
+"Scena: «martedì il turno è saltato per venti minuti»"
+],
+"active": 2,
+"note": "Un numero, un tempo: si comincia a poter verificare."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "la scala",
+"rows": [
+"Astratto: «va migliorata l’efficienza»",
+"Categoria: «tempo perso nelle consegne»",
+"Esempio: «è successo tre volte questa settimana»",
+"Scena: «martedì il turno è saltato per venti minuti»"
+],
+"active": 3,
+"note": "Più difficile da ignorare, più facile da ricordare."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "la proprietà della scena",
+"title": "La scena<br><span class=\"gold\">non si discute.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "sull’efficienza si discute",
+"title": "Sul turno saltato martedì<br><span class=\"gold\">no.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "è successo, o non è successo",
+"title": "Non più se c’è un problema.<br><span class=\"gold\">Che cosa si fa.</span>"
+},
+{
+"file": "c18",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si segnalano alcune <u>criticità</u> nella gestione del servizio che si ripercuotono negativamente sulla qualità delle prestazioni erogate all’utenza.",
+"dopo": [
+"Da tre settimane il centralino",
+"resta scoperto <u>dalle 13 alle 14</u>.",
+"In quell’ora le chiamate non trovano risposta."
+]
+},
+{
+"file": "c19",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si segnalano alcune <u>criticità</u> nella gestione del servizio che si ripercuotono negativamente sulla qualità delle prestazioni erogate all’utenza.",
+"dopo": [
+"Da tre settimane il centralino",
+"resta scoperto <u>dalle 13 alle 14</u>.",
+"In quell’ora le chiamate non trovano risposta."
+]
+},
+{
+"file": "c20",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si segnalano alcune <u>criticità</u> nella gestione del servizio che si ripercuotono negativamente sulla qualità delle prestazioni erogate all’utenza.",
+"dopo": [
+"Da tre settimane il centralino",
+"resta scoperto <u>dalle 13 alle 14</u>.",
+"In quell’ora le chiamate non trovano risposta."
+]
+},
+{
+"file": "c21",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si segnalano alcune <u>criticità</u> nella gestione del servizio che si ripercuotono negativamente sulla qualità delle prestazioni erogate all’utenza.",
+"dopo": [
+"Da tre settimane il centralino",
+"resta scoperto <u>dalle 13 alle 14</u>.",
+"In quell’ora le chiamate non trovano risposta."
+]
+},
+{
+"file": "c22",
+"layout": "memo",
+"theme": "deep",
+"title": "Una frase<br>che non produce un’immagine<br>viene letta e sparisce."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "un effetto collaterale",
+"title": "Scendere la scala<br><span class=\"gold\">accorcia il testo.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "una frase astratta",
+"title": "Va spiegata, ripetuta,<br><span class=\"gold\">circondata di esempi.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "una scena",
+"title": "Si capisce al primo colpo.<br><span class=\"gold\">Non chiede spiegazioni.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "a parità di contenuto",
+"title": "Il concreto è più breve.<br><span class=\"gold\">Dice la cosa una volta sola.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "tre cose che fanno il lavoro",
+"rows": [
+"I numeri",
+"Le date",
+"I nomi"
+],
+"plain": true,
+"note": "Ne basta uno per scendere di un gradino."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "tre cose che fanno il lavoro",
+"rows": [
+"I numeri",
+"Le date",
+"I nomi"
+],
+"active": 0,
+"note": "«Spesso» è un’opinione. «Tre volte» è un fatto."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "tre cose che fanno il lavoro",
+"rows": [
+"I numeri",
+"Le date",
+"I nomi"
+],
+"active": 1,
+"note": "«L’altro giorno» galleggia. «Martedì» sta ferma."
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "tre cose che fanno il lavoro",
+"rows": [
+"I numeri",
+"Le date",
+"I nomi"
+],
+"active": 2,
+"note": "Un reparto, un servizio: concreto, senza accusare."
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "il rovescio",
+"title": "Il concreto convince<br><span class=\"gold\">anche quando non è rappresentativo.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "vale quando lo fai, e quando lo subisci",
+"title": "Un caso raccontato bene<br><span class=\"gold\">pesa più di mille casi.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "la regola",
+"title": "La scena per far capire.<br><span class=\"gold\">Il dato per dimostrare.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "se hai solo la scena, scrivilo",
+"title": "«È un episodio.<br><span class=\"gold\">Non so quanto sia frequente.»</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "«Dire, ascoltare, convincere» · modulo 5",
+"title": "Convincere<br><span class=\"gold\">senza manipolare.</span>"
+},
+{
+"file": "c37",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si rappresenta la necessità di procedere a una revisione dell’<u>attuale assetto organizzativo</u> al fine di garantire una maggiore funzionalità complessiva.",
+"dopo": [
+"Chiediamo di spostare una persona",
+"dal turno di notte a quello di pomeriggio.",
+"Oggi il pomeriggio è coperto da <u>due persone per 40 accessi</u>."
+]
+},
+{
+"file": "c38",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si rappresenta la necessità di procedere a una revisione dell’<u>attuale assetto organizzativo</u> al fine di garantire una maggiore funzionalità complessiva.",
+"dopo": [
+"Chiediamo di spostare una persona",
+"dal turno di notte a quello di pomeriggio.",
+"Oggi il pomeriggio è coperto da <u>due persone per 40 accessi</u>."
+]
+},
+{
+"file": "c39",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si rappresenta la necessità di procedere a una revisione dell’<u>attuale assetto organizzativo</u> al fine di garantire una maggiore funzionalità complessiva.",
+"dopo": [
+"Chiediamo di spostare una persona",
+"dal turno di notte a quello di pomeriggio.",
+"Oggi il pomeriggio è coperto da <u>due persone per 40 accessi</u>."
+]
+},
+{
+"file": "c40",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si rappresenta la necessità di procedere a una revisione dell’<u>attuale assetto organizzativo</u> al fine di garantire una maggiore funzionalità complessiva.",
+"dopo": [
+"Chiediamo di spostare una persona",
+"dal turno di notte a quello di pomeriggio.",
+"Oggi il pomeriggio è coperto da <u>due persone per 40 accessi</u>."
+]
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "una richiesta concreta",
+"title": "Ottiene un sì o un no.<br><span class=\"gold\">Ed entrambi sono meglio di niente.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Una richiesta astratta<br>non viene rifiutata.<br>Viene rinviata."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Fermarsi alla categoria",
+"«Criticità», «problematiche», «dinamiche»",
+"Gonfiare i numeri",
+"Scambiare una scena per una prova"
+],
+"plain": true,
+"note": "I modi più frequenti di restare in alto sulla scala."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Fermarsi alla categoria",
+"«Criticità», «problematiche», «dinamiche»",
+"Gonfiare i numeri",
+"Scambiare una scena per una prova"
+],
+"active": 0,
+"note": "Sembra concreta. Mancano il quando, il quanto, il dove."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Fermarsi alla categoria",
+"«Criticità», «problematiche», «dinamiche»",
+"Gonfiare i numeri",
+"Scambiare una scena per una prova"
+],
+"active": 1,
+"note": "Dentro ci sta tutto, e quindi niente."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Fermarsi alla categoria",
+"«Criticità», «problematiche», «dinamiche»",
+"Gonfiare i numeri",
+"Scambiare una scena per una prova"
+],
+"active": 2,
+"note": "Uno sbagliato si trascina dietro tutti gli altri."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Fermarsi alla categoria",
+"«Criticità», «problematiche», «dinamiche»",
+"Gonfiare i numeri",
+"Scambiare una scena per una prova"
+],
+"active": 3,
+"note": "L’episodio fa capire. Non dimostra."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Una frase scritta in modo astratto",
+"Scendi di due gradini prima di mandarla"
+],
+"note": "Dalla categoria all’esempio, dall’esempio alla scena."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Non trovi il caso preciso?",
+"È già un’informazione"
+],
+"note": "Nella prossima lezione: tagliare il venti per cento."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

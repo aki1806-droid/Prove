@@ -1,0 +1,437 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.2",
+"title": "Verbi, non sostantivi",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "l’abitudine più diffusa",
+"title": "Rende pesante la scrittura<br><span class=\"gold\">più di qualunque altra.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "trasformare le azioni in cose",
+"title": "Un verbo<br><span class=\"gold\">diventa un sostantivo.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "invece di…",
+"plain": true,
+"rows": [
+"decidere: l’assunzione di una decisione",
+"verificare: l’effettuazione di una verifica",
+"pagare: la corresponsione di quanto dovuto"
+],
+"note": "Tutte corrette. Tutte più lente."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il costo vero",
+"title": "Non è la lunghezza.<br><span class=\"gold\">È qualcosa di più importante.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "il verbo",
+"title": "Dice chi fa che cosa.<br><span class=\"gold\">Il sostantivo non lo dice più.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "al suo posto, un verbo vuoto",
+"plain": true,
+"rows": [
+"effettuare",
+"procedere",
+"provvedere",
+"porre in essere"
+],
+"note": "Reggono il sostantivo. Da soli non dicono niente."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "risultato",
+"title": "Più parole.<br><span class=\"gold\">E il verbo non dice cosa succede.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "in una circolare di una pagina",
+"title": "Dieci, quindici volte.<br><span class=\"gold\">E il testo pesa.</span>"
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<u>Si procederà all’effettuazione</u> di una verifica in merito alla sussistenza dei requisiti.",
+"dopo": [
+"<u>Verifichiamo</u> se hai i requisiti."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Si procederà all’effettuazione</u> di una verifica in merito alla sussistenza dei requisiti.",
+"dopo": [
+"<u>Verifichiamo</u> se hai i requisiti."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Si procederà all’effettuazione</u> di una verifica in merito alla sussistenza dei requisiti.",
+"dopo": [
+"<u>Verifichiamo</u> se hai i requisiti."
+]
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Si procederà all’effettuazione</u> di una verifica in merito alla sussistenza dei requisiti.",
+"dopo": [
+"<u>Verifichiamo</u> se hai i requisiti."
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "il vero costo",
+"title": "Quando l’azione diventa una cosa,<br><span class=\"gold\">chi la compie sparisce.</span>"
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "chi?",
+"rows": [
+"«Si procederà alla valutazione»",
+"«L’adozione del provvedimento»",
+"«È stata disposta la sospensione»"
+],
+"plain": true,
+"note": "In nessuna delle tre c’è una persona."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "in un testo che riguarda le persone",
+"title": "Sapere chi fa una cosa<br><span class=\"gold\">non è un dettaglio.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "chi riceve una sospensione",
+"title": "Chi l’ha decisa?<br><span class=\"gold\">A chi mi rivolgo?</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "senza soggetto, senza responsabilità",
+"title": "Questa forma<br><span class=\"gold\">non è neutra.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "a volte è deliberato",
+"title": "Molto più spesso<br><span class=\"gold\">è un’abitudine ereditata.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "non si tratta di accusare",
+"title": "Si tratta di accorgersene.<br><span class=\"gold\">Poi costa pochissimo.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"theme": "deep",
+"title": "Il verbo dice cosa accade.<br>Il sostantivo lo nasconde."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "il segnale",
+"title": "I verbi vuoti.<br><span class=\"gold\">Da soli non dicono niente.</span>"
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "i verbi vuoti",
+"plain": true,
+"rows": [
+"effettuare · procedere · provvedere",
+"porre in essere · dare luogo a",
+"risultare · venire a trovarsi"
+],
+"note": "Li trovi in quasi ogni comunicazione di servizio."
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "quando ne trovi uno",
+"title": "Lì vicino c’è un sostantivo<br><span class=\"gold\">che era un verbo.</span>"
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "fallo tornare verbo",
+"plain": true,
+"rows": [
+"procedere alla valutazione: valutare",
+"dare luogo a una riduzione: ridurre",
+"effettuare un controllo: controllare",
+"provvedere al pagamento: pagare"
+],
+"note": "Ogni volta la frase si accorcia, e diventa più precisa."
+},
+{
+"file": "c26",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si è provveduto a dare luogo all’attivazione della procedura di cui trattasi, <u>previa</u> acquisizione del parere dell’ufficio competente.",
+"dopo": [
+"L’ufficio ha dato il parere,",
+"e abbiamo attivato la procedura."
+]
+},
+{
+"file": "c27",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si è provveduto a dare luogo all’attivazione della procedura di cui trattasi, <u>previa</u> acquisizione del parere dell’ufficio competente.",
+"dopo": [
+"L’ufficio ha dato il parere,",
+"e abbiamo attivato la procedura."
+]
+},
+{
+"file": "c28",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si è provveduto a dare luogo all’attivazione della procedura di cui trattasi, <u>previa</u> acquisizione del parere dell’ufficio competente.",
+"dopo": [
+"L’ufficio ha dato il parere,",
+"e abbiamo attivato la procedura."
+]
+},
+{
+"file": "c29",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si è provveduto a dare luogo all’attivazione della procedura di cui trattasi, <u>previa</u> acquisizione del parere dell’ufficio competente.",
+"dopo": [
+"L’ufficio ha dato il parere,",
+"e abbiamo attivato la procedura."
+]
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "l’obiezione",
+"title": "«In certi testi<br><span class=\"gold\">quella forma è obbligata.»</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "è vero, e non lo discuto",
+"title": "Le formule giuridiche<br><span class=\"gold\">non si cambiano.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "in un atto",
+"title": "Le formule necessarie<br><span class=\"gold\">sono due o tre righe.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "tutto il resto",
+"title": "È scritto così per imitazione.<br><span class=\"gold\">Non per necessità.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "chi legge che cosa",
+"title": "La formula la legge l’avvocato.<br><span class=\"gold\">Le istruzioni, chi deve seguirle.</span>"
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "il test",
+"plain": true,
+"rows": [
+"Riscrivi con un verbo e un soggetto",
+"Il significato giuridico cambia?"
+],
+"note": "Chi fa che cosa, nel modo più diretto."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "il test",
+"plain": true,
+"rows": [
+"Se cambia: era una formula",
+"Se non cambia: era un’abitudine"
+],
+"note": "La formula si tiene. L’abitudine no."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "nove volte su dieci",
+"title": "È la seconda.<br><span class=\"gold\">E il test richiede pochi secondi.</span>"
+},
+{
+"file": "c39",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<u>Si invita</u> il personale <u>a voler provvedere</u> alla restituzione dei dispositivi entro il termine indicato.",
+"dopo": [
+"Riportate i dispositivi entro venerdì."
+]
+},
+{
+"file": "c40",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Si invita</u> il personale <u>a voler provvedere</u> alla restituzione dei dispositivi entro il termine indicato.",
+"dopo": [
+"Riportate i dispositivi entro venerdì."
+]
+},
+{
+"file": "c41",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Si invita</u> il personale <u>a voler provvedere</u> alla restituzione dei dispositivi entro il termine indicato.",
+"dopo": [
+"Riportate i dispositivi entro venerdì."
+]
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Nove volte su dieci<br>non è una formula.<br>È un’abitudine."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"L’azione trasformata in cosa",
+"I verbi vuoti",
+"Il soggetto che sparisce",
+"Confondere la formula obbligata con lo stile"
+],
+"plain": true,
+"note": "Quattro facce della stessa abitudine."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"L’azione trasformata in cosa",
+"I verbi vuoti",
+"Il soggetto che sparisce",
+"Confondere la formula obbligata con lo stile"
+],
+"active": 0,
+"note": "Chi legge deve ricostruire che cosa succede."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"L’azione trasformata in cosa",
+"I verbi vuoti",
+"Il soggetto che sparisce",
+"Confondere la formula obbligata con lo stile"
+],
+"active": 1,
+"note": "Il segnale: lì vicino c’è un sostantivo da far tornare verbo."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"L’azione trasformata in cosa",
+"I verbi vuoti",
+"Il soggetto che sparisce",
+"Confondere la formula obbligata con lo stile"
+],
+"active": 2,
+"note": "E con lui sparisce la responsabilità."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"L’azione trasformata in cosa",
+"I verbi vuoti",
+"Il soggetto che sparisce",
+"Confondere la formula obbligata con lo stile"
+],
+"active": 3,
+"note": "Le formule vere sono poche. Il test le riconosce."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Qualcosa che hai scritto di recente",
+"Cerca un effettuare, un procedere, un provvedere"
+],
+"note": "Si trovano quasi sempre al primo colpo."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Fallo tornare verbo",
+"Aggiungi chi compie l’azione"
+],
+"note": "Nella prossima lezione: il concreto batte l’astratto."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]
