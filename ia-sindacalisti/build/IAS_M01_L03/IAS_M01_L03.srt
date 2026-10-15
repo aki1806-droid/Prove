@@ -1,0 +1,1109 @@
+1
+00:00:03,000 --> 00:00:05,079
+Benvenuto alla lezione uno punto tre.
+
+2
+00:00:05,119 --> 00:00:08,287
+Nelle due lezioni precedenti hai visto i
+limiti dell'IA.
+
+3
+00:00:08,327 --> 00:00:12,754
+Oggi guardiamo l'altra faccia: dove può
+aiutarti davvero nel lavoro sindacale.
+
+4
+00:00:12,794 --> 00:00:14,873
+Scoprirai le sei famiglie di compiti,
+
+5
+00:00:14,913 --> 00:00:16,935
+imparerai a distinguere ciò che puoi
+
+6
+00:00:16,975 --> 00:00:19,512
+delegare e preparerai la tua lista
+personale.
+
+7
+00:00:20,152 --> 00:00:22,309
+Giovedì sera, in una sede territoriale.
+
+8
+00:00:22,349 --> 00:00:24,393
+Il segretario deve ancora scrivere il
+
+9
+00:00:24,433 --> 00:00:27,153
+resoconto dell'incontro in azienda di
+stamattina.
+
+10
+00:00:27,193 --> 00:00:30,533
+Nella casella ci sono dieci mail di
+iscritti senza risposta.
+
+11
+00:00:30,573 --> 00:00:33,969
+E lunedì c'è un'assemblea, ma il volantino
+non esiste ancora.
+
+12
+00:00:34,009 --> 00:00:36,278
+Sono le sette passate, e la sede è vuota.
+
+13
+00:00:36,919 --> 00:00:38,898
+Tre compiti, tre testi da produrre.
+
+14
+00:00:38,938 --> 00:00:41,725
+Il resoconto parte dagli appunti presi al
+tavolo.
+
+15
+00:00:41,765 --> 00:00:45,417
+Le mail ripetono, con parole diverse, le
+stesse quattro domande.
+
+16
+00:00:45,457 --> 00:00:48,706
+Il volantino è uguale a cento altri,
+cambia solo il tema.
+
+17
+00:00:48,746 --> 00:00:51,533
+Nessuno dei tre richiede una decisione
+difficile.
+
+18
+00:00:51,573 --> 00:00:53,840
+Richiedono solo tempo, quello che manca.
+
+19
+00:00:54,480 --> 00:00:57,474
+Ecco l'immagine giusta per pensare all'IA
+in sede.
+
+20
+00:00:57,514 --> 00:00:58,748
+È una brava stagista.
+
+21
+00:00:58,788 --> 00:01:01,842
+Prepara bozze, riordina appunti, riassume,
+propone.
+
+22
+00:01:01,882 --> 00:01:03,662
+Lavora veloce e non si stanca.
+
+23
+00:01:03,702 --> 00:01:08,394
+Ma non conosce i colleghi, non sa la
+storia della vertenza e non firma niente.
+
+24
+00:01:08,434 --> 00:01:10,033
+Il lavoro finito resta tuo.
+
+25
+00:01:10,673 --> 00:01:13,622
+Oggi, senza IA, ognuno di quei compiti si
+fa da capo.
+
+26
+00:01:13,662 --> 00:01:16,554
+Il resoconto si batte a mano rileggendo
+gli appunti.
+
+27
+00:01:16,594 --> 00:01:19,994
+Ogni mail si scrive da zero, anche quando
+è la decima uguale.
+
+28
+00:01:20,034 --> 00:01:23,998
+Il volantino si ricava aprendo il vecchio
+file e cambiando date e tema.
+
+29
+00:01:24,038 --> 00:01:26,761
+È lavoro necessario, ma in gran parte
+ripetitivo.
+
+30
+00:01:27,401 --> 00:01:30,428
+Il lavoro di una sede è fatto in gran
+parte di testi:
+
+31
+00:01:30,468 --> 00:01:32,684
+scritti, letti, riassunti, trasformati.
+
+32
+00:01:32,724 --> 00:01:36,793
+Ed è esattamente il terreno dove i modelli
+linguistici danno il meglio.
+
+33
+00:01:36,833 --> 00:01:39,802
+Possiamo raggruppare questi compiti in sei
+famiglie.
+
+34
+00:01:39,842 --> 00:01:42,579
+Ognuna corrisponde a uno o più moduli del
+corso.
+
+35
+00:01:43,219 --> 00:01:44,564
+Le prime tre famiglie.
+
+36
+00:01:44,604 --> 00:01:48,970
+Scrivere: comunicati, volantini, lettere
+all'azienda, mail e messaggi.
+
+37
+00:01:49,010 --> 00:01:52,369
+Leggere: riassumere delibere, confrontare
+regolamenti,
+
+38
+00:01:52,409 --> 00:01:54,510
+estrarre scadenze da un contratto.
+
+39
+00:01:54,550 --> 00:01:56,776
+Preparare: costruire la piattaforma,
+
+40
+00:01:56,816 --> 00:02:00,615
+prevedere le obiezioni della controparte,
+simulare il tavolo.
+
+41
+00:02:01,255 --> 00:02:02,937
+Un esempio della terza famiglia.
+
+42
+00:02:02,977 --> 00:02:04,713
+Prima di un incontro sull'orario,
+
+43
+00:02:04,753 --> 00:02:09,072
+chiedi all'IA quali obiezioni potrebbe
+sollevare l'azienda alla vostra richiesta.
+
+44
+00:02:09,112 --> 00:02:12,032
+In un minuto hai un elenco da discutere
+con la squadra.
+
+45
+00:02:12,072 --> 00:02:14,238
+Alcune le avevate già previste, altre no.
+
+46
+00:02:14,278 --> 00:02:15,853
+È preparazione, non decisione.
+
+47
+00:02:16,493 --> 00:02:17,289
+Le altre tre.
+
+48
+00:02:17,329 --> 00:02:20,312
+Tutelare: ricostruire la cronologia di un
+caso,
+
+49
+00:02:20,352 --> 00:02:22,949
+preparare una bozza di accesso agli atti,
+
+50
+00:02:22,989 --> 00:02:25,715
+scrivere una risposta chiara al
+lavoratore.
+
+51
+00:02:25,755 --> 00:02:30,990
+Organizzare: ordini del giorno, sintesi di
+riunioni, verbali, materiali formativi.
+
+52
+00:02:31,030 --> 00:02:35,299
+Comunicare: piano editoriale, locandine,
+grafiche social, sondaggi.
+
+53
+00:02:35,939 --> 00:02:39,280
+A queste sei si aggiunge una famiglia
+trasversale: imparare.
+
+54
+00:02:39,320 --> 00:02:43,505
+Puoi chiedere all'IA di spiegarti un
+istituto contrattuale o una procedura,
+
+55
+00:02:43,545 --> 00:02:45,534
+come faresti con un collega esperto.
+
+56
+00:02:45,574 --> 00:02:47,956
+Con una sola avvertenza, che ormai
+conosci:
+
+57
+00:02:47,996 --> 00:02:52,238
+quello che ti spiega va verificato, come
+hai visto nella lezione precedente.
+
+58
+00:02:52,879 --> 00:02:56,606
+Vediamo la famiglia più frequente,
+scrivere, con un caso concreto.
+
+59
+00:02:56,646 --> 00:03:00,145
+Un'operatrice riceve quindici mail di
+lavoratori che chiedono,
+
+60
+00:03:00,185 --> 00:03:03,569
+con parole diverse, come funziona la
+richiesta di part-time.
+
+61
+00:03:03,609 --> 00:03:06,880
+Invece di scrivere quindici risposte, ne
+prepara una sola,
+
+62
+00:03:06,920 --> 00:03:09,562
+chiara e corretta, da adattare ai singoli
+casi.
+
+63
+00:03:10,202 --> 00:03:11,863
+Apri Claude in una chat nuova.
+
+64
+00:03:11,903 --> 00:03:15,774
+Prima di tutto riformuli la domanda in
+modo generico, togliendo nomi,
+
+65
+00:03:15,814 --> 00:03:20,139
+reparti e ogni dettaglio personale: come
+si chiede il passaggio al part-time?
+
+66
+00:03:20,179 --> 00:03:22,066
+Nell'IA entra solo questa domanda.
+
+67
+00:03:22,106 --> 00:03:25,921
+Le mail dei lavoratori restano nella tua
+casella, dove devono stare.
+
+68
+00:03:26,561 --> 00:03:28,447
+Ecco il prompt della risposta tipo.
+
+69
+00:03:28,487 --> 00:03:32,631
+Incolli la domanda ricorrente e chiedi una
+risposta di massimo dodici righe,
+
+70
+00:03:32,671 --> 00:03:36,208
+cortese e chiara, per chi non conosce il
+linguaggio contrattuale.
+
+71
+00:03:36,248 --> 00:03:38,300
+Il dettaglio decisivo è l'ultima riga:
+
+72
+00:03:38,340 --> 00:03:42,813
+i riferimenti esatti restano tra parentesi
+quadre, da completare dopo la verifica.
+
+73
+00:03:43,453 --> 00:03:44,935
+Ecco un estratto verosimile.
+
+74
+00:03:44,975 --> 00:03:48,633
+La risposta spiega i passaggi in modo
+semplice, con un tono cortese.
+
+75
+00:03:48,673 --> 00:03:52,982
+E dove serve un riferimento preciso lascia
+lo spazio vuoto tra parentesi quadre.
+
+76
+00:03:53,022 --> 00:03:55,919
+Tu lo completi con il regolamento
+aziendale alla mano.
+
+77
+00:03:55,959 --> 00:03:59,290
+Una sola verifica, quindici risposte
+pronte da personalizzare.
+
+78
+00:03:59,930 --> 00:04:02,531
+La risposta tipo però non si spedisce così
+com'è.
+
+79
+00:04:02,571 --> 00:04:06,411
+La adatti a ogni lavoratore, direttamente
+nella tua posta e non nell'IA.
+
+80
+00:04:06,451 --> 00:04:10,560
+Aggiungi il saluto con il nome, un
+riferimento alla sua situazione specifica,
+
+81
+00:04:10,600 --> 00:04:13,093
+il riferimento normativo che hai
+verificato tu,
+
+82
+00:04:13,133 --> 00:04:15,949
+e l'invito a passare in sede se il caso è
+complicato.
+
+83
+00:04:16,589 --> 00:04:19,082
+Hai appena visto la logica di tutta la
+lezione.
+
+84
+00:04:19,122 --> 00:04:22,585
+Non ti sei chiesto se l'IA può rispondere
+alle mail al posto tuo.
+
+85
+00:04:22,625 --> 00:04:26,626
+Ti sei chiesto quale parte di quel lavoro
+può fare lei, e quale resta a te.
+
+86
+00:04:26,666 --> 00:04:30,722
+È un cambio di domanda piccolo, ma cambia
+completamente il modo di lavorare.
+
+87
+00:04:31,362 --> 00:04:33,967
+Ogni compito si può collocare su tre
+gradini.
+
+88
+00:04:34,007 --> 00:04:37,082
+Delegabile, quando l'IA fa e tu dai solo
+un'occhiata.
+
+89
+00:04:37,122 --> 00:04:41,548
+Delegabile in parte, quando l'IA prepara
+la bozza e tu verifichi e completi.
+
+90
+00:04:41,588 --> 00:04:44,840
+Non delegabile, quando il compito resta
+interamente tuo.
+
+91
+00:04:44,880 --> 00:04:48,072
+Quasi tutto il lavoro di sede sta sul
+gradino di mezzo.
+
+92
+00:04:48,712 --> 00:04:50,426
+Qualche esempio per gradino.
+
+93
+00:04:50,466 --> 00:04:52,619
+Delegabile: proporre cinque titoli,
+
+94
+00:04:52,659 --> 00:04:55,627
+correggere refusi, cambiare il tono di un
+testo.
+
+95
+00:04:55,667 --> 00:04:59,700
+Delegabile in parte: il comunicato, il
+riassunto di una delibera,
+
+96
+00:04:59,740 --> 00:05:01,893
+il verbale, la lettera all'azienda.
+
+97
+00:05:01,933 --> 00:05:06,091
+Non delegabile: decidere la linea,
+firmare, valutare un lavoratore.
+
+98
+00:05:06,731 --> 00:05:08,648
+Il gradino di mezzo è il più ampio,
+
+99
+00:05:08,688 --> 00:05:11,612
+ed è lì che si concentra il valore di
+tutto il corso.
+
+100
+00:05:11,652 --> 00:05:15,862
+Quello in basso, il non delegabile, lo
+approfondiamo nella prossima lezione.
+
+101
+00:05:15,902 --> 00:05:18,155
+Per oggi tieni a mente la domanda giusta,
+
+102
+00:05:18,195 --> 00:05:21,174
+quella che sostituisce il vecchio si può o
+non si può.
+
+103
+00:05:21,814 --> 00:05:24,742
+Guarda la differenza tra i due modi di
+ragionare.
+
+104
+00:05:24,782 --> 00:05:26,196
+Se pensi tutto o niente,
+
+105
+00:05:26,236 --> 00:05:29,528
+un compito complesso ti sembrerà sempre
+non delegabile,
+
+106
+00:05:29,568 --> 00:05:31,345
+e non userai mai lo strumento.
+
+107
+00:05:31,385 --> 00:05:35,525
+Se lo scomponi in passaggi, scopri che
+alcuni sono perfetti per l'IA,
+
+108
+00:05:35,565 --> 00:05:38,191
+altri vanno controllati, altri restano a
+te.
+
+109
+00:05:38,831 --> 00:05:41,332
+Ecco il prompt che fa questo lavoro per
+te.
+
+110
+00:05:41,372 --> 00:05:45,764
+Indichi il settore e descrivi un compito
+settimanale, senza dati personali.
+
+111
+00:05:45,804 --> 00:05:50,314
+Chiedi di scomporlo in passaggi e, per
+ognuno, di dirti il gradino di delega,
+
+112
+00:05:50,354 --> 00:05:54,451
+cosa devi controllare tu e quanto tempo
+potresti risparmiare, a stima.
+
+113
+00:05:54,491 --> 00:05:55,692
+Tutto in una tabella.
+
+114
+00:05:56,332 --> 00:05:58,966
+Proviamolo in ChatGPT sul compito del
+segretario:
+
+115
+00:05:59,006 --> 00:06:03,278
+il resoconto di un incontro in azienda,
+partendo dagli appunti presi al tavolo.
+
+116
+00:06:03,318 --> 00:06:05,844
+Completi i segnaposto, settore sanità
+pubblica,
+
+117
+00:06:05,884 --> 00:06:08,300
+e descrivi il compito in due righe
+generiche.
+
+118
+00:06:08,340 --> 00:06:11,793
+Nessun nome dei partecipanti, nessun
+dettaglio della trattativa.
+
+119
+00:06:12,433 --> 00:06:13,926
+Ecco la tabella verosimile.
+
+120
+00:06:13,966 --> 00:06:18,128
+Riordinare gli appunti e scrivere la prima
+bozza sono delegabili in parte.
+
+121
+00:06:18,168 --> 00:06:22,785
+Controllare che le posizioni delle parti
+siano riportate correttamente resta a te,
+
+122
+00:06:22,825 --> 00:06:24,261
+perché c'eri tu al tavolo.
+
+123
+00:06:24,301 --> 00:06:27,441
+Decidere cosa diffondere ai lavoratori non
+è delegabile.
+
+124
+00:06:27,481 --> 00:06:29,599
+La stima finale: circa metà del tempo.
+
+125
+00:06:30,239 --> 00:06:32,376
+Torniamo al segretario del giovedì sera.
+
+126
+00:06:32,416 --> 00:06:35,697
+Con la scomposizione davanti, incolla gli
+appunti senza nomi,
+
+127
+00:06:35,737 --> 00:06:37,983
+ottiene una bozza ordinata del resoconto e
+
+128
+00:06:38,023 --> 00:06:40,541
+la confronta con quello che ricorda del
+tavolo.
+
+129
+00:06:40,581 --> 00:06:42,773
+Corregge due passaggi in cui la posizione
+
+130
+00:06:42,813 --> 00:06:45,494
+dell'azienda era riportata in modo troppo
+morbido.
+
+131
+00:06:45,534 --> 00:06:47,236
+Alle otto il resoconto è pronto.
+
+132
+00:06:47,876 --> 00:06:50,541
+Non tutti i compiti però rendono allo
+stesso modo.
+
+133
+00:06:50,581 --> 00:06:53,625
+Il guadagno più grande arriva dove il
+lavoro è frequente,
+
+134
+00:06:53,665 --> 00:06:56,330
+è fatto di testo e ha una struttura che si
+ripete.
+
+135
+00:06:56,370 --> 00:06:59,360
+Dove servono un dato preciso o una
+valutazione delicata,
+
+136
+00:06:59,400 --> 00:07:01,524
+si risparmia poco, e a volte si rischia.
+
+137
+00:07:02,164 --> 00:07:02,975
+Ecco la mappa.
+
+138
+00:07:03,015 --> 00:07:06,256
+Molto vantaggiosi: le bozze di comunicati
+e volantini,
+
+139
+00:07:06,296 --> 00:07:08,869
+trasformare un testo in un messaggio
+breve,
+
+140
+00:07:08,909 --> 00:07:11,057
+le scalette e gli ordini del giorno.
+
+141
+00:07:11,097 --> 00:07:15,250
+Vantaggiosi con verifica: riassunti,
+confronti tra versioni, verbali.
+
+142
+00:07:15,290 --> 00:07:18,228
+Da maneggiare con cura: calcoli sulle
+buste paga,
+
+143
+00:07:18,268 --> 00:07:21,024
+citazioni di norme, casi individuali
+delicati.
+
+144
+00:07:21,663 --> 00:07:25,643
+Per riconoscere un compito che rende,
+guarda tre caratteristiche.
+
+145
+00:07:25,683 --> 00:07:28,055
+È frequente, cioè torna ogni settimana.
+
+146
+00:07:28,095 --> 00:07:30,591
+È testuale, cioè il risultato è un testo.
+
+147
+00:07:30,631 --> 00:07:34,487
+Ed è ripetibile, cioè ha più o meno sempre
+la stessa struttura.
+
+148
+00:07:34,527 --> 00:07:36,899
+Più caselle spunta, più tempo recuperi.
+
+149
+00:07:37,540 --> 00:07:40,999
+Il volantino dell'assemblea di lunedì le
+spunta tutte e tre.
+
+150
+00:07:41,039 --> 00:07:44,264
+Torna spesso, è un testo, ha sempre la
+stessa struttura:
+
+151
+00:07:44,304 --> 00:07:45,780
+tema, data, luogo, invito.
+
+152
+00:07:45,820 --> 00:07:49,045
+Il segretario può partire da una bozza in
+pochi minuti e
+
+153
+00:07:49,085 --> 00:07:52,894
+dedicare il tempo risparmiato a telefonare
+ai delegati di reparto.
+
+154
+00:07:53,533 --> 00:07:55,003
+Un esempio veloce in Gemini.
+
+155
+00:07:55,043 --> 00:07:57,969
+Incolli un comunicato già uscito, senza
+dati personali,
+
+156
+00:07:58,009 --> 00:08:00,125
+e chiedi di trasformarlo in un messaggio
+
+157
+00:08:00,165 --> 00:08:02,444
+di cinque righe per il gruppo dei
+delegati.
+
+158
+00:08:02,484 --> 00:08:04,116
+È un compito molto vantaggioso:
+
+159
+00:08:04,156 --> 00:08:06,920
+il contenuto è già verificato, cambia solo
+la forma.
+
+160
+00:08:07,560 --> 00:08:11,103
+All'estremo opposto ci sono i compiti da
+maneggiare con cura.
+
+161
+00:08:11,143 --> 00:08:14,628
+I calcoli sulle buste paga, che vedremo
+nel modulo quindici.
+
+162
+00:08:14,668 --> 00:08:18,740
+Le citazioni di norme e sentenze, che
+controlleremo nel modulo cinque.
+
+163
+00:08:18,780 --> 00:08:22,264
+I casi individuali delicati, che
+tratteremo nel modulo nove.
+
+164
+00:08:22,304 --> 00:08:24,849
+Lì l'IA aiuta, ma solo con molta
+attenzione.
+
+165
+00:08:25,489 --> 00:08:26,709
+E qui l'errore tipico.
+
+166
+00:08:26,749 --> 00:08:29,802
+Delegare un compito con i dati dentro, per
+fare prima.
+
+167
+00:08:29,842 --> 00:08:33,984
+Incollare l'elenco dei lavoratori del
+reparto per preparare un messaggio,
+
+168
+00:08:34,024 --> 00:08:37,135
+o la mail di un iscritto con nome e
+problema di salute.
+
+169
+00:08:37,175 --> 00:08:37,936
+Non si fa mai.
+
+170
+00:08:37,976 --> 00:08:41,030
+Si lavora su modelli generici o su testi
+anonimizzati.
+
+171
+00:08:41,670 --> 00:08:42,754
+Il motivo è preciso.
+
+172
+00:08:42,794 --> 00:08:46,012
+Il regolamento europeo sulla protezione
+dei dati, il GDPR,
+
+173
+00:08:46,052 --> 00:08:49,159
+all'articolo nove considera categorie
+particolari i dati
+
+174
+00:08:49,199 --> 00:08:52,530
+sulla salute e quelli che rivelano
+l'appartenenza sindacale.
+
+175
+00:08:52,570 --> 00:08:55,058
+Per un sindacato sono dati di tutti i
+giorni.
+
+176
+00:08:55,098 --> 00:08:58,429
+Proprio per questo vanno tenuti fuori
+dagli strumenti di IA.
+
+177
+00:08:59,069 --> 00:09:01,729
+Adesso applichiamo tutto questo alla tua
+settimana,
+
+178
+00:09:01,769 --> 00:09:03,952
+non a quella di un segretario immaginario.
+
+179
+00:09:03,992 --> 00:09:07,498
+L'obiettivo è uscire da questa lezione con
+cinque compiti concreti,
+
+180
+00:09:07,538 --> 00:09:11,362
+già scomposti, su cui cominciare a
+sperimentare nelle prossime settimane.
+
+181
+00:09:12,002 --> 00:09:13,926
+Ecco l'ultimo prompt della lezione.
+
+182
+00:09:13,966 --> 00:09:15,666
+Descrivi la tua settimana tipo,
+
+183
+00:09:15,706 --> 00:09:19,033
+elencando le attività in forma generica,
+senza nomi né dati.
+
+184
+00:09:19,073 --> 00:09:21,110
+Chiedi all'IA di individuare i cinque
+
+185
+00:09:21,150 --> 00:09:24,028
+compiti in cui potrebbe farti risparmiare
+più tempo,
+
+186
+00:09:24,068 --> 00:09:27,564
+spiegando per ciascuno cosa farebbe lei e
+cosa resterebbe a te.
+
+187
+00:09:28,204 --> 00:09:31,062
+In Claude incolli il prompt con la tua
+settimana.
+
+188
+00:09:31,102 --> 00:09:34,315
+Per esempio: due assemblee, tre incontri
+con l'azienda,
+
+189
+00:09:34,355 --> 00:09:36,208
+circa trenta mail di lavoratori,
+
+190
+00:09:36,248 --> 00:09:40,408
+un comunicato, la lettura di due delibere,
+il verbale della segreteria.
+
+191
+00:09:40,448 --> 00:09:41,827
+Tutto in forma generica.
+
+192
+00:09:41,867 --> 00:09:44,370
+Invii e leggi la classifica che ti
+propone.
+
+193
+00:09:45,010 --> 00:09:46,543
+Ecco un estratto verosimile.
+
+194
+00:09:46,583 --> 00:09:48,958
+In cima alla lista ci sono le risposte
+alle
+
+195
+00:09:48,998 --> 00:09:51,485
+mail ricorrenti e la prima bozza del
+verbale.
+
+196
+00:09:51,525 --> 00:09:53,226
+Poi i riassunti delle delibere.
+
+197
+00:09:53,266 --> 00:09:57,663
+Per ciascun compito c'è una riga su cosa
+farebbe l'IA e una su cosa resta a te.
+
+198
+00:09:57,703 --> 00:09:59,460
+È già una base su cui ragionare.
+
+199
+00:10:00,100 --> 00:10:02,898
+Attenzione però a non delegare anche il
+controllo.
+
+200
+00:10:02,938 --> 00:10:06,416
+La tentazione, quando la bozza è buona, è
+mandarla così com'è.
+
+201
+00:10:06,456 --> 00:10:09,197
+Ma la colonna cosa resta a me non è un
+dettaglio:
+
+202
+00:10:09,237 --> 00:10:13,113
+è la parte del lavoro che garantisce la
+qualità e la tua credibilità.
+
+203
+00:10:13,153 --> 00:10:15,837
+Se la salti, il tempo risparmiato lo paghi
+dopo.
+
+204
+00:10:16,478 --> 00:10:19,546
+Se ti porti a casa una sola frase, che sia
+questa.
+
+205
+00:10:19,586 --> 00:10:23,959
+L'IA è una brava stagista: prepara bozze,
+riordina, riassume e propone.
+
+206
+00:10:23,999 --> 00:10:28,682
+Ma il lavoro finito, quello che esce dalla
+sede, lo controlli e lo firmi tu.
+
+207
+00:10:29,322 --> 00:10:30,103
+Ora tocca a te.
+
+208
+00:10:30,143 --> 00:10:32,729
+Riprendi il foglio della lezione zero
+punto uno,
+
+209
+00:10:32,769 --> 00:10:35,410
+quello con i tre compiti che ti rubano più
+tempo,
+
+210
+00:10:35,450 --> 00:10:37,598
+e aggiungi le altre attività ricorrenti.
+
+211
+00:10:37,638 --> 00:10:40,224
+Usa il prompt per trovare i compiti da
+delegare.
+
+212
+00:10:40,264 --> 00:10:42,796
+Poi scegli cinque compiti e per ciascuno
+scrivi
+
+213
+00:10:42,836 --> 00:10:45,805
+una riga su cosa farebbe l'IA e cosa
+controlleresti tu.
+
+214
+00:10:46,445 --> 00:10:47,938
+Un consiglio per la lista.
+
+215
+00:10:47,978 --> 00:10:51,771
+Collega ogni compito alla sua famiglia e
+al modulo che lo tratta.
+
+216
+00:10:51,811 --> 00:10:54,720
+Le mail ricorrenti vanno con scrivere,
+modulo sei.
+
+217
+00:10:54,760 --> 00:10:56,960
+Le delibere con leggere, modulo sette.
+
+218
+00:10:57,000 --> 00:11:01,560
+Così sai già in quale parte del corso
+troverai gli strumenti per quel compito.
+
+219
+00:11:02,200 --> 00:11:04,819
+Ecco come potrebbe apparire la tua lista
+finita.
+
+220
+00:11:04,859 --> 00:11:08,252
+Cinque righe, tre colonne: il compito, la
+famiglia, il modulo.
+
+221
+00:11:08,292 --> 00:11:11,742
+Al primo posto metti il compito su cui
+sperimenterai per primo,
+
+222
+00:11:11,782 --> 00:11:14,954
+quello che ti pesa di più e che hai più
+spesso sotto mano.
+
+223
+00:11:15,594 --> 00:11:18,311
+Salva la lista in un documento che ritrovi
+facilmente,
+
+224
+00:11:18,351 --> 00:11:21,068
+magari accanto al foglio della lezione
+zero punto uno.
+
+225
+00:11:21,108 --> 00:11:24,284
+Se vuoi, chiedi all'IA di trasformarla in
+una tabella ordinata.
+
+226
+00:11:24,324 --> 00:11:26,326
+La userai di nuovo più avanti nel corso,
+
+227
+00:11:26,366 --> 00:11:28,776
+quando costruirai i tuoi primi prompt
+personali.
+
+228
+00:11:29,416 --> 00:11:32,234
+Con questa lista hai fatto qualcosa di
+molto concreto.
+
+229
+00:11:32,274 --> 00:11:34,403
+Non stai più pensando all'IA in astratto,
+
+230
+00:11:34,443 --> 00:11:36,943
+ma a cinque compiti precisi della tua
+settimana.
+
+231
+00:11:36,983 --> 00:11:40,912
+È da qui che nasce il tempo recuperato:
+non dalle promesse dello strumento,
+
+232
+00:11:40,952 --> 00:11:43,346
+ma dalle scelte che fai tu su cosa
+affidargli.
+
+233
+00:11:43,986 --> 00:11:46,530
+Nella prossima lezione tracciamo il
+confine.
+
+234
+00:11:46,570 --> 00:11:50,994
+Vedrai i tre compiti che l'IA non deve mai
+fare al posto tuo, cioè decidere,
+
+235
+00:11:51,034 --> 00:11:55,869
+firmare e giudicare le persone, e perché
+anche la legge mette la persona al centro.
+
+236
+00:11:55,909 --> 00:11:58,394
+Ci vediamo nella lezione uno punto
+quattro.

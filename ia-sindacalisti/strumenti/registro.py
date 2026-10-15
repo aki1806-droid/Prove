@@ -42,13 +42,14 @@ for p in P["pezzi"]:
                 durata_s=round((p["a"] - p["da"]) / P["fps"], 3), fondo=p["fondo"], ingresso=p["ingresso"], sorgente=sorgente)
     for k in ("inquadratura", "direzione", "velocita", "ritaglio", "camera"):
         if p.get(k) not in (None, 1.0): voce[k] = p[k]
+    if p.get("tabella"): voce["tabella"] = True   # slide-tabella di un pacchetto: limite 12 s
     if asset:
         voce["generazione"] = gen_media.get(asset)
         voce["prompt"] = G["immagini"].get(asset) or G["clip"].get(asset[:3])
     inq.append(voce)
 video = os.path.join(B, f"{lez}.mp4")
 dv = durata_video(video) if os.path.exists(video) else None
-lim = lambda i: 12 if (i["sorgente"] or "").startswith("kit/scena.html") and ('"tabella"' in i["sorgente"] or '"griglia"' in i["sorgente"]) else (1e9 if i["tipo"] == "animazione_svg" else (10 if i["blocco"] in ("APERTURA", "CHIUSURA") else 9))
+lim = lambda i: 12 if i.get("tabella") else 1e9 if i["tipo"] == "video" else 12 if (i["sorgente"] or "").startswith("kit/scena.html") and ('"tabella"' in i["sorgente"] or '"griglia"' in i["sorgente"]) else (1e9 if i["tipo"] == "animazione_svg" else (10 if i["blocco"] in ("APERTURA", "CHIUSURA") else 9))
 controlli = {
     "durata_video_s": dv, "durata_minima_12_00": bool(dv and dv >= 720),
     "inquadrature_oltre_il_limite": [i["scaletta"] for i in inq if i["durata_s"] > lim(i) + 0.02],
