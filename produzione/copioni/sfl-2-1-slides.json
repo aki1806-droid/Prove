@@ -1,0 +1,442 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 2 · Lezione 2.1",
+"title": "Una frase, un’idea",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il modulo 1: il testo intero",
+"title": "Da qui,<br><span class=\"gold\">la singola frase.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "dove si decide se un testo si capisce",
+"title": "Si perde il lettore<br><span class=\"gold\">in una frase di quattro righe.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "la regola di partenza",
+"title": "Risolve da sola<br><span class=\"gold\">metà dei problemi.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "la regola",
+"title": "Una frase,<br><span class=\"gold\">un’idea.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "il problema delle frasi lunghe",
+"title": "Non è la lunghezza.<br><span class=\"gold\">È quante cose tengono insieme.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "più di un’idea",
+"title": "Chi legge le tiene aperte<br><span class=\"gold\">fino all’ultima parola.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "se si perde",
+"title": "Torna indietro.<br><span class=\"gold\">Ogni ritorno è un costo.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "in una mail",
+"title": "Tornare indietro<br><span class=\"gold\">è dove si smette di leggere.</span>"
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "In considerazione del fatto che il personale ha segnalato ripetutamente difficoltà nella gestione delle consegne, che come noto avvengono in un orario particolarmente critico, si è deciso di avviare una sperimentazione che, se darà esito positivo, potrebbe essere estesa anche agli altri reparti.",
+"dopo": [
+"Il personale ha segnalato difficoltà con le consegne delle 14.",
+"Da lunedì partiamo con una sperimentazione in reparto.",
+"Se funziona, la estendiamo agli altri."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "In considerazione del fatto che il personale ha segnalato ripetutamente difficoltà nella gestione delle consegne, che come noto avvengono in un orario particolarmente critico, si è deciso di avviare una sperimentazione che, se darà esito positivo, potrebbe essere estesa anche agli altri reparti.",
+"dopo": [
+"Il personale ha segnalato difficoltà con le consegne delle 14.",
+"Da lunedì partiamo con una sperimentazione in reparto.",
+"Se funziona, la estendiamo agli altri."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "In considerazione del fatto che il personale ha segnalato ripetutamente difficoltà nella gestione delle consegne, che come noto avvengono in un orario particolarmente critico, si è deciso di avviare una sperimentazione che, se darà esito positivo, potrebbe essere estesa anche agli altri reparti.",
+"dopo": [
+"Il personale ha segnalato difficoltà con le consegne delle 14.",
+"Da lunedì partiamo con una sperimentazione in reparto.",
+"Se funziona, la estendiamo agli altri."
+]
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "In considerazione del fatto che il personale ha segnalato ripetutamente difficoltà nella gestione delle consegne, che come noto avvengono in un orario particolarmente critico, si è deciso di avviare una sperimentazione che, se darà esito positivo, potrebbe essere estesa anche agli altri reparti.",
+"dopo": [
+"Il personale ha segnalato difficoltà con le consegne delle 14.",
+"Da lunedì partiamo con una sperimentazione in reparto.",
+"Se funziona, la estendiamo agli altri."
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "il punto dice",
+"title": "Questa idea<br><span class=\"gold\">è finita.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "non è ritmo, non è eleganza",
+"title": "È memoria.<br><span class=\"gold\">Ogni punto la scarica.</span>"
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "chi ti legge, al lavoro",
+"plain": true,
+"rows": [
+"Fra una telefonata e una riunione",
+"Fra un paziente e l’altro",
+"Con pochissima memoria libera"
+],
+"note": "È su questo lettore che si tarano le frasi."
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "chi scrive ha in testa il quadro",
+"title": "Chi legge<br><span class=\"gold\">parte da zero.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "una regola pratica",
+"title": "Oltre le due righe,<br><span class=\"gold\">cerca dove mettere un punto.</span>"
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "dove cercarlo",
+"plain": true,
+"rows": [
+"…, che",
+"…, e",
+"…, in quanto",
+"…, per cui"
+],
+"note": "Ognuna è un punto mancato."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "non è una regola di stile",
+"title": "Il punto rende visibile<br><span class=\"gold\">un confine che c’era già.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"theme": "deep",
+"title": "Ogni punto<br>scarica la memoria di chi legge."
+},
+{
+"file": "c22",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Le richieste, <u>che devono essere presentate entro il 15 del mese</u>, vanno inviate all’ufficio personale, il quale provvederà a verificarne la completezza, segnalando eventuali integrazioni necessarie.",
+"dopo": [
+"Le richieste vanno inviate all’ufficio personale <u>entro il 15</u>.",
+"L’ufficio le controlla e ti scrive se manca qualcosa."
+]
+},
+{
+"file": "c23",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Le richieste, <u>che devono essere presentate entro il 15 del mese</u>, vanno inviate all’ufficio personale, il quale provvederà a verificarne la completezza, segnalando eventuali integrazioni necessarie.",
+"dopo": [
+"Le richieste vanno inviate all’ufficio personale <u>entro il 15</u>.",
+"L’ufficio le controlla e ti scrive se manca qualcosa."
+]
+},
+{
+"file": "c24",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Le richieste, <u>che devono essere presentate entro il 15 del mese</u>, vanno inviate all’ufficio personale, il quale provvederà a verificarne la completezza, segnalando eventuali integrazioni necessarie.",
+"dopo": [
+"Le richieste vanno inviate all’ufficio personale <u>entro il 15</u>.",
+"L’ufficio le controlla e ti scrive se manca qualcosa."
+]
+},
+{
+"file": "c25",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Le richieste, <u>che devono essere presentate entro il 15 del mese</u>, vanno inviate all’ufficio personale, il quale provvederà a verificarne la completezza, segnalando eventuali integrazioni necessarie.",
+"dopo": [
+"Le richieste vanno inviate all’ufficio personale <u>entro il 15</u>.",
+"L’ufficio le controlla e ti scrive se manca qualcosa."
+]
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "la seconda regola",
+"title": "Quello che conta<br><span class=\"gold\">non va mai in un inciso.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "in una frase principale, o in una sua",
+"plain": true,
+"rows": [
+"Una data",
+"Un nome",
+"Un numero",
+"Una condizione"
+],
+"note": "Dove l’occhio li trova anche solo guardando."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "fra due virgole",
+"title": "Dici che è un dettaglio.<br><span class=\"gold\">E il lettore ti crede.</span>"
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Si comunica che, in relazione a quanto emerso nel corso dell’incontro, al quale hanno partecipato i rappresentanti delle organizzazioni sindacali, <u>è stato condiviso un percorso</u> che prevede, in prima battuta, un approfondimento tecnico.",
+"dopo": [
+"All’incontro di martedì abbiamo deciso una cosa:",
+"partiamo da un approfondimento tecnico."
+]
+},
+{
+"file": "c31",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che, in relazione a quanto emerso nel corso dell’incontro, al quale hanno partecipato i rappresentanti delle organizzazioni sindacali, <u>è stato condiviso un percorso</u> che prevede, in prima battuta, un approfondimento tecnico.",
+"dopo": [
+"All’incontro di martedì abbiamo deciso una cosa:",
+"partiamo da un approfondimento tecnico."
+]
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che, in relazione a quanto emerso nel corso dell’incontro, al quale hanno partecipato i rappresentanti delle organizzazioni sindacali, <u>è stato condiviso un percorso</u> che prevede, in prima battuta, un approfondimento tecnico.",
+"dopo": [
+"All’incontro di martedì abbiamo deciso una cosa:",
+"partiamo da un approfondimento tecnico."
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Si comunica che, in relazione a quanto emerso nel corso dell’incontro, al quale hanno partecipato i rappresentanti delle organizzazioni sindacali, <u>è stato condiviso un percorso</u> che prevede, in prima battuta, un approfondimento tecnico.",
+"dopo": [
+"All’incontro di martedì abbiamo deciso una cosa:",
+"partiamo da un approfondimento tecnico."
+]
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "la terza regola",
+"title": "La frase comincia<br><span class=\"gold\">dal soggetto e dal verbo.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "chi fa che cosa",
+"plain": true,
+"rows": [
+"Il personale ha segnalato",
+"L’ufficio controlla",
+"Abbiamo deciso"
+],
+"note": "Non «in considerazione del fatto che»."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "il contesto",
+"title": "Se serve, va dopo.<br><span class=\"gold\">Se non serve, non va.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "nelle tue ultime mail",
+"title": "Quante frasi cominciano<br><span class=\"gold\">con una premessa?</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "attenzione",
+"title": "Frasi brevi<br><span class=\"gold\">non vuol dire tono spezzato.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "ogni frase, una cosa",
+"title": "Possono essere morbide,<br><span class=\"gold\">cortesi, perfino affettuose.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "il tono è un’altra cosa",
+"title": "Una frase breve può essere calda.<br><span class=\"gold\">Una lunga, gelida.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"theme": "deep",
+"title": "Gli incisi sono il nascondiglio<br>delle cose che contano."
+},
+{
+"file": "c42",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Due idee in una frase",
+"La data dentro un inciso",
+"Tre premesse prima del soggetto",
+"Confondere frasi brevi e tono spezzato"
+],
+"plain": true,
+"note": "Tutti chiedono al lettore di tenere a mente troppo."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Due idee in una frase",
+"La data dentro un inciso",
+"Tre premesse prima del soggetto",
+"Confondere frasi brevi e tono spezzato"
+],
+"active": 0,
+"note": "Un punto in mezzo risparmia tutto il lavoro."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Due idee in una frase",
+"La data dentro un inciso",
+"Tre premesse prima del soggetto",
+"Confondere frasi brevi e tono spezzato"
+],
+"active": 1,
+"note": "Dove l’occhio non si ferma."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Due idee in una frase",
+"La data dentro un inciso",
+"Tre premesse prima del soggetto",
+"Confondere frasi brevi e tono spezzato"
+],
+"active": 2,
+"note": "Quando arriva al punto, l’attenzione è finita."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Due idee in una frase",
+"La data dentro un inciso",
+"Tre premesse prima del soggetto",
+"Confondere frasi brevi e tono spezzato"
+],
+"active": 3,
+"note": "Chiari e gentili si può essere insieme."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"L’ultima cosa che hai scritto",
+"Cerca la frase più lunga"
+],
+"note": "Quella con più righe e più virgole."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Mettici un punto in mezzo",
+"Rileggi le due versioni ad alta voce"
+],
+"note": "Senza fretta, come per qualcun altro."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Quale funziona?",
+"L’orecchio lo sente prima dell’occhio"
+],
+"note": "Nella prossima lezione: verbi, non sostantivi."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]
