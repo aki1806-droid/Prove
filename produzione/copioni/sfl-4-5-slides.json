@@ -1,0 +1,534 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.5",
+"title": "Il thread e l’inoltro",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "chiudiamo il modulo",
+"title": "Una mail raramente<br><span class=\"gold\">resta una mail.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "ogni mail può essere scritta benissimo",
+"title": "Il problema è quello che succede<br><span class=\"gold\">fra una mail e l’altra.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "le mail che durano",
+"plain": true,
+"rows": [
+"I thread lunghi",
+"Le persone aggiunte a metà",
+"Gli inoltri",
+"Il «rispondi a tutti»"
+],
+"note": "Un problema alla volta, e per ognuno il rimedio."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il primo problema",
+"title": "Il thread<br><span class=\"gold\">accumula argomenti.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "nessuno lo decide",
+"plain": true,
+"rows": [
+"Una domanda sui turni",
+"Al terzo scambio: la formazione",
+"Al quinto: gli straordinari"
+],
+"note": "Succede da solo, una risposta alla volta."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "dalla lezione 4.1",
+"title": "«R: R: R: Turni».<br><span class=\"gold\">Nessuno l’ha cambiato.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "tre argomenti, un contenitore",
+"title": "La formazione, fra due mesi,<br><span class=\"gold\">nessuno la cercherà sotto «turni».</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"statica": false,
+"kicker": "costa dieci secondi",
+"title": "Quando cambia l’argomento,<br><span class=\"gold\">cambia la mail.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"statica": true,
+"kicker": "costa dieci secondi",
+"title": "Quando cambia l’argomento,<br><span class=\"gold\">cambia la mail.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"statica": true,
+"kicker": "costa dieci secondi",
+"title": "Quando cambia l’argomento,<br><span class=\"gold\">cambia la mail.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"statica": true,
+"kicker": "costa dieci secondi",
+"title": "Quando cambia l’argomento,<br><span class=\"gold\">cambia la mail.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "chi viene aggiunto a metà",
+"title": "Quaranta messaggi.<br><span class=\"gold\">Nessuna istruzione.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "e quasi nessuno li legge",
+"title": "Legge l’ultimo.<br><span class=\"gold\">E risponde a un’altra domanda.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "non per pigrizia",
+"title": "Ricostruire quaranta messaggi<br><span class=\"gold\">è un lavoro.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "senza dirgli perché",
+"title": "Il lavoro di riassumere<br><span class=\"gold\">passa a chi riceve.</span>"
+},
+{
+"file": "c17",
+"layout": "pd",
+"statica": false,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Bianchi (aggiunta in copia)"
+],
+[
+"Oggetto",
+"R: R: R: Turni"
+]
+],
+"corpo": [
+"Ciao Laura, ti metto in copia <u>per conoscenza</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Bianchi"
+],
+[
+"Oggetto",
+"Formazione sicurezza: serve la tua conferma entro il 20"
+]
+],
+"corpo": [
+"Laura, ti scrivo a parte perché il thread sui turni è diventato lungo.",
+"In sintesi: serve la tua conferma sulle date della formazione, entro il 20.",
+"Se ti serve il contesto completo, te lo giro."
+]
+}
+},
+{
+"file": "c18",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Bianchi (aggiunta in copia)"
+],
+[
+"Oggetto",
+"R: R: R: Turni"
+]
+],
+"corpo": [
+"Ciao Laura, ti metto in copia <u>per conoscenza</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Bianchi"
+],
+[
+"Oggetto",
+"Formazione sicurezza: serve la tua conferma entro il 20"
+]
+],
+"corpo": [
+"Laura, ti scrivo a parte perché il thread sui turni è diventato lungo.",
+"In sintesi: serve la tua conferma sulle date della formazione, entro il 20.",
+"Se ti serve il contesto completo, te lo giro."
+]
+}
+},
+{
+"file": "c19",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Bianchi (aggiunta in copia)"
+],
+[
+"Oggetto",
+"R: R: R: Turni"
+]
+],
+"corpo": [
+"Ciao Laura, ti metto in copia <u>per conoscenza</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Bianchi"
+],
+[
+"Oggetto",
+"Formazione sicurezza: serve la tua conferma entro il 20"
+]
+],
+"corpo": [
+"Laura, ti scrivo a parte perché il thread sui turni è diventato lungo.",
+"In sintesi: serve la tua conferma sulle date della formazione, entro il 20.",
+"Se ti serve il contesto completo, te lo giro."
+]
+}
+},
+{
+"file": "c20",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Bianchi (aggiunta in copia)"
+],
+[
+"Oggetto",
+"R: R: R: Turni"
+]
+],
+"corpo": [
+"Ciao Laura, ti metto in copia <u>per conoscenza</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Bianchi"
+],
+[
+"Oggetto",
+"Formazione sicurezza: serve la tua conferma entro il 20"
+]
+],
+"corpo": [
+"Laura, ti scrivo a parte perché il thread sui turni è diventato lungo.",
+"In sintesi: serve la tua conferma sulle date della formazione, entro il 20.",
+"Se ti serve il contesto completo, te lo giro."
+]
+}
+},
+{
+"file": "c21",
+"layout": "memo",
+"theme": "deep",
+"title": "Aggiungere qualcuno a un thread<br>non è coinvolgerlo."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "quando inoltri",
+"title": "Fai leggere a qualcuno<br><span class=\"gold\">un testo scritto per altri.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "chi lo ha scritto",
+"title": "Non sapeva<br><span class=\"gold\">che l’avresti letto tu.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "quasi sempre",
+"title": "Non è un problema.<br><span class=\"gold\">Senza inoltri, il lavoro si ferma.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "un secondo, non di più",
+"title": "C’è qualcosa che non avrebbe scritto<br><span class=\"gold\">sapendo di arrivare lì?</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "non una regola morale",
+"title": "Il punto non è la cattiveria.<br><span class=\"gold\">È la distrazione.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "l’inoltro di una conversazione privata",
+"title": "Rompe la fiducia<br><span class=\"gold\">più in fretta di quasi tutto.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "tre settimane più sotto, nel thread",
+"plain": true,
+"rows": [
+"Una battuta",
+"Un commento su un collega",
+"Una cifra che non doveva circolare"
+],
+"note": "Scritti in buona fede, per un lettore solo."
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "prima di inoltrare un thread lungo",
+"title": "Scorrilo fino in fondo.<br><span class=\"gold\">Per attenzione, non per sospetto.</span>"
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "prima di inoltrare",
+"rows": [
+"Scorri fino in fondo",
+"Taglia quello che non serve",
+"Scrivi in due righe cosa deve fare chi riceve",
+"Controlla i destinatari di tutto il thread"
+],
+"plain": true,
+"note": "La terza è quella che manca sempre."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "prima di inoltrare",
+"rows": [
+"Scorri fino in fondo",
+"Taglia quello che non serve",
+"Scrivi in due righe cosa deve fare chi riceve",
+"Controlla i destinatari di tutto il thread"
+],
+"active": 0,
+"note": "Anche le parti che non ricordi più."
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "prima di inoltrare",
+"rows": [
+"Scorri fino in fondo",
+"Taglia quello che non serve",
+"Scrivi in due righe cosa deve fare chi riceve",
+"Controlla i destinatari di tutto il thread"
+],
+"active": 1,
+"note": "Un inoltro si può tagliare. Quasi nessuno lo fa."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "prima di inoltrare",
+"rows": [
+"Scorri fino in fondo",
+"Taglia quello che non serve",
+"Scrivi in due righe cosa deve fare chi riceve",
+"Controlla i destinatari di tutto il thread"
+],
+"active": 2,
+"note": "«Mi serve il tuo parere sul punto due.»"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "prima di inoltrare",
+"rows": [
+"Scorri fino in fondo",
+"Taglia quello che non serve",
+"Scrivi in due righe cosa deve fare chi riceve",
+"Controlla i destinatari di tutto il thread"
+],
+"active": 3,
+"note": "Chi c’era all’inizio, chi è stato aggiunto, chi è in copia."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "il tasto che ha fatto più danni",
+"title": "«Rispondi a tutti».<br><span class=\"gold\">Due regole.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "la prima",
+"title": "Se serve a una persona,<br><span class=\"gold\">scrivilo a una persona.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "la seconda",
+"title": "Non lo diresti in faccia?<br><span class=\"gold\">Non è il momento di scriverlo.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "se lo scambio diventa lungo, teso, confuso",
+"title": "Non scrivere meglio.<br><span class=\"gold\">Smetti di scrivere.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "a voce",
+"title": "Cinque minuti al telefono.<br><span class=\"gold\">Tre giorni di thread.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "nel prossimo modulo",
+"title": "«Ti chiamo».<br><span class=\"gold\">Poi due righe con quello che avete deciso.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Se nel thread ci sono persone<br>a cui non lo diresti in faccia,<br>non è «rispondi a tutti»."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il thread con tre argomenti",
+"Aggiungere qualcuno senza dirgli perché",
+"Inoltrare senza scorrere fino in fondo",
+"«Rispondi a tutti» per dire «grazie»"
+],
+"plain": true,
+"note": "Gli errori delle mail che durano."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il thread con tre argomenti",
+"Aggiungere qualcuno senza dirgli perché",
+"Inoltrare senza scorrere fino in fondo",
+"«Rispondi a tutti» per dire «grazie»"
+],
+"active": 0,
+"note": "Non si chiude mai. Quando cambia l’argomento, cambia la mail."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il thread con tre argomenti",
+"Aggiungere qualcuno senza dirgli perché",
+"Inoltrare senza scorrere fino in fondo",
+"«Rispondi a tutti» per dire «grazie»"
+],
+"active": 1,
+"note": "Quaranta messaggi e nessuna istruzione."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il thread con tre argomenti",
+"Aggiungere qualcuno senza dirgli perché",
+"Inoltrare senza scorrere fino in fondo",
+"«Rispondi a tutti» per dire «grazie»"
+],
+"active": 2,
+"note": "Un messaggio dimenticato può rompere una fiducia."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il thread con tre argomenti",
+"Aggiungere qualcuno senza dirgli perché",
+"Inoltrare senza scorrere fino in fondo",
+"«Rispondi a tutti» per dire «grazie»"
+],
+"active": 3,
+"note": "Dodici destinatari, dodici interruzioni."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Nasce un argomento nuovo?",
+"Mail nuova, con un oggetto suo"
+],
+"note": "Dieci secondi. E fra sei mesi la ritrovi."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Il modulo sulla mail finisce qui",
+"Le regole restano. Cambia lo spazio."
+],
+"note": "Nel prossimo modulo: il messaggio breve."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 4",
+"sub": "Modulo 5 — Il messaggio breve",
+"site": "laparolagiusta.it"
+}
+]

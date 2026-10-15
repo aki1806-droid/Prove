@@ -1,0 +1,425 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.4",
+"title": "Rispondere",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "metà delle mail che scrivi",
+"title": "Sono risposte.<br><span class=\"gold\">E hanno regole diverse.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "una cosa che nello scrivere non esiste",
+"title": "Qualcuno<br><span class=\"gold\">sta aspettando.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "l’attesa cambia tutto",
+"title": "Anche il significato<br><span class=\"gold\">del tuo silenzio.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "la cosa che costa di più",
+"title": "Il silenzio<br><span class=\"gold\">viene interpretato.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "il primo giorno",
+"title": "«Sarà impegnato.»<br><span class=\"gold\">Il primo giorno, sì.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "dal secondo giorno",
+"plain": true,
+"rows": [
+"La richiesta era inopportuna?",
+"Ho scritto qualcosa di sbagliato?",
+"Mi ignora di proposito?"
+],
+"note": "Nessuna di queste è quella vera."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "il vuoto",
+"title": "L’altro lo riempie da solo.<br><span class=\"gold\">Quasi sempre in peggio.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"statica": false,
+"kicker": "il silenzio",
+"title": "Viene sempre interpretato.<br><span class=\"gold\">E quasi mai bene.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"statica": true,
+"kicker": "il silenzio",
+"title": "Viene sempre interpretato.<br><span class=\"gold\">E quasi mai bene.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"statica": true,
+"kicker": "il silenzio",
+"title": "Viene sempre interpretato.<br><span class=\"gold\">E quasi mai bene.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"statica": true,
+"kicker": "il silenzio",
+"title": "Viene sempre interpretato.<br><span class=\"gold\">E quasi mai bene.</span>"
+},
+{
+"file": "c13",
+"layout": "memo",
+"theme": "deep",
+"title": "«Ricevuto, ti rispondo<br>entro venerdì.»<br>Cinque parole."
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "una condizione",
+"title": "Se dici venerdì,<br><span class=\"gold\">venerdì rispondi.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "anche per spostare la data",
+"title": "«Ricevuto, mi serve fino a martedì.»<br><span class=\"gold\">Una seconda conferma.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "una promessa piccola non mantenuta",
+"title": "Costa più del silenzio.<br><span class=\"gold\">Il silenzio è ambiguo. Lei no.</span>"
+},
+{
+"file": "c17",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<span style=\"font-style:italic;opacity:.75\">(nessuna risposta per nove giorni)</span><br>Ciao, scusa il ritardo, sono stato sommerso. Allora, rispetto a quello che chiedevi…",
+"dopo": [
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(stesso giorno)</span>",
+"Ricevuto. Ci guardo questa settimana e ti scrivo entro venerdì.",
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(venerdì)</span>",
+"Ecco la risposta: …"
+]
+},
+{
+"file": "c18",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<span style=\"font-style:italic;opacity:.75\">(nessuna risposta per nove giorni)</span><br>Ciao, scusa il ritardo, sono stato sommerso. Allora, rispetto a quello che chiedevi…",
+"dopo": [
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(stesso giorno)</span>",
+"Ricevuto. Ci guardo questa settimana e ti scrivo entro venerdì.",
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(venerdì)</span>",
+"Ecco la risposta: …"
+]
+},
+{
+"file": "c19",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<span style=\"font-style:italic;opacity:.75\">(nessuna risposta per nove giorni)</span><br>Ciao, scusa il ritardo, sono stato sommerso. Allora, rispetto a quello che chiedevi…",
+"dopo": [
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(stesso giorno)</span>",
+"Ricevuto. Ci guardo questa settimana e ti scrivo entro venerdì.",
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(venerdì)</span>",
+"Ecco la risposta: …"
+]
+},
+{
+"file": "c20",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<span style=\"font-style:italic;opacity:.75\">(nessuna risposta per nove giorni)</span><br>Ciao, scusa il ritardo, sono stato sommerso. Allora, rispetto a quello che chiedevi…",
+"dopo": [
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(stesso giorno)</span>",
+"Ricevuto. Ci guardo questa settimana e ti scrivo entro venerdì.",
+"<span style=\"display:block;font-size:.62em;font-style:italic;opacity:.6;margin-top:.5em\">(venerdì)</span>",
+"Ecco la risposta: …"
+]
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "seconda regola",
+"title": "Rispondi<br><span class=\"gold\">a tutte le domande.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "tre domande in una mail",
+"title": "Si risponde alla prima.<br><span class=\"gold\">Le altre spariscono.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "la lezione 4.3, dall’altra parte",
+"title": "Tre richieste, una risposta.<br><span class=\"gold\">Qui la risposta sei tu.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "il rimedio",
+"title": "Rispondere per punti.<br><span class=\"gold\">«Sul terzo ti dico domani.»</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "citare il messaggio ricevuto",
+"title": "Utile quando le domande sono tante<br><span class=\"gold\">e la conversazione è tecnica.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "il primo problema",
+"title": "Si cita tutto.<br><span class=\"gold\">E non si capisce chi ha detto cosa.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "il secondo, in un disaccordo",
+"title": "Frase per frase<br><span class=\"gold\">somiglia a una controdeduzione.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "anche con parole gentili",
+"title": "Cambia il tono.<br><span class=\"gold\">In due giri, una disputa.</span>"
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "quattro cose, rispondendo",
+"rows": [
+"Conferma di aver ricevuto",
+"Rispondi a tutte le domande",
+"Cita solo se serve davvero",
+"Riscrivi l’oggetto se l’argomento è cambiato"
+],
+"plain": true,
+"note": "Abitudini, più che regole."
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "quattro cose, rispondendo",
+"rows": [
+"Conferma di aver ricevuto",
+"Rispondi a tutte le domande",
+"Cita solo se serve davvero",
+"Riscrivi l’oggetto se l’argomento è cambiato"
+],
+"active": 0,
+"note": "Se non puoi rispondere subito. Con una data."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "quattro cose, rispondendo",
+"rows": [
+"Conferma di aver ricevuto",
+"Rispondi a tutte le domande",
+"Cita solo se serve davvero",
+"Riscrivi l’oggetto se l’argomento è cambiato"
+],
+"active": 1,
+"note": "Meglio per punti. Dichiara quelle che restano aperte."
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "quattro cose, rispondendo",
+"rows": [
+"Conferma di aver ricevuto",
+"Rispondi a tutte le domande",
+"Cita solo se serve davvero",
+"Riscrivi l’oggetto se l’argomento è cambiato"
+],
+"active": 2,
+"note": "E mai in una conversazione tesa."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "quattro cose, rispondendo",
+"rows": [
+"Conferma di aver ricevuto",
+"Rispondi a tutte le domande",
+"Cita solo se serve davvero",
+"Riscrivi l’oggetto se l’argomento è cambiato"
+],
+"active": 3,
+"note": "La lezione 4.1. E il ponte con la prossima."
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "un caso a parte",
+"title": "Quando la risposta<br><span class=\"gold\">è no.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "la tentazione",
+"title": "Rimandare.<br><span class=\"gold\">Un giorno, poi un altro.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "dopo due settimane",
+"title": "Rispondere è imbarazzante.<br><span class=\"gold\">E il no diventa silenzio.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "un no rapido",
+"title": "Permette all’altro<br><span class=\"gold\">di cercare un’altra strada.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "un no per iscritto",
+"title": "Più è lungo,<br><span class=\"gold\">più sembra una giustificazione.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "due righe",
+"plain": true,
+"rows": [
+"Non posso",
+"Se c’è un’alternativa, dilla"
+],
+"note": "Ogni motivo in più è un appiglio per insistere."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "nel modulo 6, una lezione intera",
+"title": "Per ora:<br><span class=\"gold\">presto, e breve.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Un no rapido vale più<br>di un no tardivo.<br>E infinitamente più del silenzio."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il silenzio senza conferma",
+"La conferma non mantenuta",
+"Rispondere a una domanda su tre",
+"Citare frase per frase in un disaccordo"
+],
+"plain": true,
+"note": "Errori di chi risponde. Nati da buone intenzioni."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il silenzio senza conferma",
+"La conferma non mantenuta",
+"Rispondere a una domanda su tre",
+"Citare frase per frase in un disaccordo"
+],
+"active": 0,
+"note": "L’altro, nel dubbio, pensa la cosa peggiore."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il silenzio senza conferma",
+"La conferma non mantenuta",
+"Rispondere a una domanda su tre",
+"Citare frase per frase in un disaccordo"
+],
+"active": 1,
+"note": "Costa più del silenzio: non è ambigua."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il silenzio senza conferma",
+"La conferma non mantenuta",
+"Rispondere a una domanda su tre",
+"Citare frase per frase in un disaccordo"
+],
+"active": 2,
+"note": "Le altre tornano come solleciti."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il silenzio senza conferma",
+"La conferma non mantenuta",
+"Rispondere a una domanda su tre",
+"Citare frase per frase in un disaccordo"
+],
+"active": 3,
+"note": "Cambia il tono anche con parole gentili."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"La prima mail che non puoi evadere subito",
+"«Ricevuto, ti rispondo entro…»"
+],
+"note": "E poi mantienilo."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"L’abitudine che cambia di più",
+"Come vieni percepito"
+],
+"note": "Nella prossima lezione: il thread e l’inoltro."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

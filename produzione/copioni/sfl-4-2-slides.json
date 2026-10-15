@@ -1,0 +1,557 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.2",
+"title": "Chi è in copia",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "i destinatari",
+"title": "Non sono un dettaglio tecnico.<br><span class=\"gold\">Sono un messaggio.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "a differenza del testo",
+"title": "Un nome in copia<br><span class=\"gold\">non si può attenuare.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "dopo l’oggetto",
+"title": "I campi che stanno sopra.<br><span class=\"gold\">Anche loro sono scrittura.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "che cosa dicono i campi",
+"rows": [
+"A — devi fare qualcosa",
+"Cc — ti tengo informato",
+"Ccn — non sai chi altro legge"
+],
+"plain": true,
+"note": "Convenzioni condivise. Nessuno le ha mai scritte."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "che cosa dicono i campi",
+"rows": [
+"A — devi fare qualcosa",
+"Cc — ti tengo informato",
+"Ccn — non sai chi altro legge"
+],
+"active": 0,
+"note": "Chi deve agire, o la persona a cui parli."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "che cosa dicono i campi",
+"rows": [
+"A — devi fare qualcosa",
+"Cc — ti tengo informato",
+"Ccn — non sai chi altro legge"
+],
+"active": 1,
+"note": "Chi deve sapere, ma non deve fare niente."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "che cosa dicono i campi",
+"rows": [
+"A — devi fare qualcosa",
+"Cc — ti tengo informato",
+"Ccn — non sai chi altro legge"
+],
+"active": 2,
+"note": "Chi legge senza che gli altri lo sappiano."
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "la violazione più frequente",
+"title": "Cinque persone nel campo «a».<br><span class=\"gold\">E una richiesta.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "rivolta a cinque persone",
+"title": "Non è rivolta<br><span class=\"gold\">a nessuna.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "dalla lezione 1.4",
+"title": "Non è pigrizia.<br><span class=\"gold\">È una richiesta che non assegna.</span>"
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": false,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Rossi, Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti"
+]
+],
+"corpo": [
+"Buongiorno a tutti, servirebbero i documenti entro venerdì. Grazie."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Rossi"
+],
+[
+"Cc",
+"Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti reparto: servono entro venerdì"
+]
+],
+"corpo": [
+"Marco, ti chiedo di raccogliere i documenti del reparto entro venerdì.",
+"<u>Metto in copia gli altri perché sappiano che li hai chiesti tu.</u>"
+]
+}
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Rossi, Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti"
+]
+],
+"corpo": [
+"Buongiorno a tutti, servirebbero i documenti entro venerdì. Grazie."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Rossi"
+],
+[
+"Cc",
+"Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti reparto: servono entro venerdì"
+]
+],
+"corpo": [
+"Marco, ti chiedo di raccogliere i documenti del reparto entro venerdì.",
+"<u>Metto in copia gli altri perché sappiano che li hai chiesti tu.</u>"
+]
+}
+},
+{
+"file": "c14",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Rossi, Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti"
+]
+],
+"corpo": [
+"Buongiorno a tutti, servirebbero i documenti entro venerdì. Grazie."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Rossi"
+],
+[
+"Cc",
+"Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti reparto: servono entro venerdì"
+]
+],
+"corpo": [
+"Marco, ti chiedo di raccogliere i documenti del reparto entro venerdì.",
+"<u>Metto in copia gli altri perché sappiano che li hai chiesti tu.</u>"
+]
+}
+},
+{
+"file": "c15",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"A",
+"Rossi, Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti"
+]
+],
+"corpo": [
+"Buongiorno a tutti, servirebbero i documenti entro venerdì. Grazie."
+]
+},
+"dopo": {
+"campi": [
+[
+"A",
+"Rossi"
+],
+[
+"Cc",
+"Bianchi, Verdi, Neri, Gialli"
+],
+[
+"Oggetto",
+"Documenti reparto: servono entro venerdì"
+]
+],
+"corpo": [
+"Marco, ti chiedo di raccogliere i documenti del reparto entro venerdì.",
+"<u>Metto in copia gli altri perché sappiano che li hai chiesti tu.</u>"
+]
+}
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "l’accorgimento più utile",
+"title": "Dichiara perché una persona<br><span class=\"gold\">è in copia.</span>"
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "una copia senza spiegazione",
+"plain": true,
+"rows": [
+"Perché me l’hanno mandata?",
+"Devo fare qualcosa?",
+"Qualcuno si aspetta che intervenga?"
+],
+"note": "Produce sempre una domanda."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "in mancanza di informazioni",
+"title": "La risposta che ci si dà<br><span class=\"gold\">è quasi sempre la peggiore.</span>"
+},
+{
+"file": "c19",
+"layout": "memo",
+"theme": "deep",
+"title": "Una richiesta rivolta<br>a cinque persone<br>non è rivolta a nessuna."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "la parte seria",
+"title": "La copia cambia il significato.<br><span class=\"gold\">Anche a testo identico.</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "la stessa richiesta",
+"plain": true,
+"rows": [
+"A un collega",
+"Con il suo responsabile in copia"
+],
+"note": "Tutti e due sanno che non è la stessa cosa."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "non diventa più urgente",
+"title": "Diventa pubblica.<br><span class=\"gold\">Ha un testimone.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "una richiesta pubblica",
+"title": "Si rifiuta<br><span class=\"gold\">meno facilmente.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "uno strumento",
+"title": "Dipende<br><span class=\"gold\">da come lo usi.</span>"
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "quando la copia al responsabile è corretta",
+"plain": true,
+"rows": [
+"La cosa lo riguarda davvero",
+"Deve essere informato",
+"Deve autorizzare"
+],
+"note": "Non una pressione: un’informazione dovuta."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "quando è una mossa di pressione",
+"title": "Per ottenere una risposta<br><span class=\"gold\">che da solo non ottenevi.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "non per vietarlo",
+"title": "Chi la subisce la riconosce.<br><span class=\"gold\">E ha un costo sulla relazione.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "la copia nascosta, l’uso legittimo",
+"title": "Scrivere a molti<br><span class=\"gold\">senza esporre gli indirizzi.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "l’altro uso",
+"title": "Un lettore<br><span class=\"gold\">all’insaputa degli altri.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "pratica prima che morale",
+"title": "Chi è in copia nascosta<br><span class=\"gold\">può rispondere a tutti.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "quando succede",
+"title": "Il danno<br><span class=\"gold\">non è recuperabile.</span>"
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "tre domande prima di mandare",
+"rows": [
+"Chi deve fare qualcosa?",
+"Chi deve solo sapere, e gli ho detto perché?",
+"Chi ho aggiunto per pressione?"
+],
+"plain": true,
+"note": "Dieci secondi."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "tre domande prima di mandare",
+"rows": [
+"Chi deve fare qualcosa?",
+"Chi deve solo sapere, e gli ho detto perché?",
+"Chi ho aggiunto per pressione?"
+],
+"active": 0,
+"note": "Nel campo «a», e chiamato per nome."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "tre domande prima di mandare",
+"rows": [
+"Chi deve fare qualcosa?",
+"Chi deve solo sapere, e gli ho detto perché?",
+"Chi ho aggiunto per pressione?"
+],
+"active": 1,
+"note": "In copia, con una riga che lo spiega."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "tre domande prima di mandare",
+"rows": [
+"Chi deve fare qualcosa?",
+"Chi deve solo sapere, e gli ho detto perché?",
+"Chi ho aggiunto per pressione?"
+],
+"active": 2,
+"note": "La domanda scomoda. Rispondi con onestà."
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "se la risposta è sì",
+"title": "La domanda dopo:<br><span class=\"gold\">valeva la pena?</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "una regola",
+"title": "Più sono i destinatari,<br><span class=\"gold\">meno è probabile una risposta.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "una mail a dieci persone",
+"title": "Ognuno aspetta<br><span class=\"gold\">che si muova un altro.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "due cose, due mail",
+"plain": true,
+"rows": [
+"Vuoi una risposta: scrivi a una persona",
+"Vuoi informare: scrivi a tutti"
+],
+"note": "Non tutte e due nella stessa mail."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "due mail separate",
+"title": "Un minuto in più a chi scrive.<br><span class=\"gold\">Una settimana in meno di attesa.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Più destinatari,<br>meno risposte."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Cinque persone nel campo «a»",
+"La copia senza spiegazione",
+"Il responsabile in copia come leva",
+"La copia nascosta in una conversazione"
+],
+"plain": true,
+"note": "Fanno parlare i campi prima del testo."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Cinque persone nel campo «a»",
+"La copia senza spiegazione",
+"Il responsabile in copia come leva",
+"La copia nascosta in una conversazione"
+],
+"active": 0,
+"note": "Una persona sola, chiamata per nome."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Cinque persone nel campo «a»",
+"La copia senza spiegazione",
+"Il responsabile in copia come leva",
+"La copia nascosta in una conversazione"
+],
+"active": 1,
+"note": "Una riga la toglie. Quasi nessuno la scrive."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Cinque persone nel campo «a»",
+"La copia senza spiegazione",
+"Il responsabile in copia come leva",
+"La copia nascosta in una conversazione"
+],
+"active": 2,
+"note": "A volte serve. Il costo arriva dopo."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Cinque persone nel campo «a»",
+"La copia senza spiegazione",
+"Il responsabile in copia come leva",
+"La copia nascosta in una conversazione"
+],
+"active": 3,
+"note": "Prima o poi qualcuno risponde a tutti."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Una persona sola nel campo «a»",
+"Una riga: perché gli altri sono in copia"
+],
+"note": "Dieci parole."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Dieci parole in più",
+"Una risposta più rapida"
+],
+"note": "Nella prossima lezione: la richiesta."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

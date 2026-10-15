@@ -1,0 +1,431 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 4 · Lezione 4.3",
+"title": "La richiesta",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "dalla lezione 1.4",
+"title": "Chi, che cosa,<br><span class=\"gold\">entro quando.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "dentro una mail",
+"title": "La mail rovina la richiesta<br><span class=\"gold\">in modi specifici.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "tre problemi",
+"plain": true,
+"rows": [
+"La posizione",
+"La quantità",
+"Le attenuazioni"
+],
+"note": "Per ognuno, un rimedio semplice."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il primo problema: la posizione",
+"title": "La richiesta finisce in fondo.<br><span class=\"gold\">Dopo il contesto.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "in fondo a una mail c’è anche",
+"plain": true,
+"rows": [
+"Il saluto",
+"La firma",
+"Tre righe di convenevoli"
+],
+"note": "Tutte cose che l’occhio salta."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "circondata da cose che non contano",
+"title": "La richiesta si mimetizza.<br><span class=\"gold\">E viene salutata con il resto.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la risposta che non arriva",
+"title": "Non ha capito<br><span class=\"gold\">che gli chiedevi qualcosa.</span>"
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Buongiorno, come sai da qualche settimana stiamo lavorando alla revisione delle procedure. Abbiamo raccolto le osservazioni dei reparti e sistemato la bozza, che però ha ancora alcuni punti aperti sui quali servirebbe un parere. Ti allego il documento, <u>fammi sapere</u>. Grazie mille e buona giornata.",
+"dopo": [
+"Buongiorno. Ti chiedo di rileggere i punti 4 e 7 del documento allegato e dirmi se vanno bene, entro giovedì.",
+"<div style=\"margin-top:.6em\">Il resto della bozza è già condiviso con i reparti: su quei due punti serve il tuo parere perché riguardano la tua area.</div>",
+"<div style=\"margin-top:.6em\">Grazie.</div>"
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, come sai da qualche settimana stiamo lavorando alla revisione delle procedure. Abbiamo raccolto le osservazioni dei reparti e sistemato la bozza, che però ha ancora alcuni punti aperti sui quali servirebbe un parere. Ti allego il documento, <u>fammi sapere</u>. Grazie mille e buona giornata.",
+"dopo": [
+"Buongiorno. Ti chiedo di rileggere i punti 4 e 7 del documento allegato e dirmi se vanno bene, entro giovedì.",
+"<div style=\"margin-top:.6em\">Il resto della bozza è già condiviso con i reparti: su quei due punti serve il tuo parere perché riguardano la tua area.</div>",
+"<div style=\"margin-top:.6em\">Grazie.</div>"
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, come sai da qualche settimana stiamo lavorando alla revisione delle procedure. Abbiamo raccolto le osservazioni dei reparti e sistemato la bozza, che però ha ancora alcuni punti aperti sui quali servirebbe un parere. Ti allego il documento, <u>fammi sapere</u>. Grazie mille e buona giornata.",
+"dopo": [
+"Buongiorno. Ti chiedo di rileggere i punti 4 e 7 del documento allegato e dirmi se vanno bene, entro giovedì.",
+"<div style=\"margin-top:.6em\">Il resto della bozza è già condiviso con i reparti: su quei due punti serve il tuo parere perché riguardano la tua area.</div>",
+"<div style=\"margin-top:.6em\">Grazie.</div>"
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Buongiorno, come sai da qualche settimana stiamo lavorando alla revisione delle procedure. Abbiamo raccolto le osservazioni dei reparti e sistemato la bozza, che però ha ancora alcuni punti aperti sui quali servirebbe un parere. Ti allego il documento, <u>fammi sapere</u>. Grazie mille e buona giornata.",
+"dopo": [
+"Buongiorno. Ti chiedo di rileggere i punti 4 e 7 del documento allegato e dirmi se vanno bene, entro giovedì.",
+"<div style=\"margin-top:.6em\">Il resto della bozza è già condiviso con i reparti: su quei due punti serve il tuo parere perché riguardano la tua area.</div>",
+"<div style=\"margin-top:.6em\">Grazie.</div>"
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la regola",
+"title": "La richiesta in alto.<br><span class=\"gold\">Il contesto dopo.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "dalla lezione 3.1",
+"title": "La conclusione prima,<br><span class=\"gold\">applicata alla mail.</span>"
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "quanto mi costerà?",
+"plain": true,
+"rows": [
+"Due punti entro giovedì: valutabile",
+"«Fammi sapere» su tutto: no"
+],
+"note": "Nel dubbio, la cosa sembra più grande di quello che è."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "il secondo problema: la quantità",
+"title": "Tre richieste.<br><span class=\"gold\">Di solito torna la più facile.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "chi ha risposto",
+"title": "Per lui la mail<br><span class=\"gold\">è chiusa.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "tre cose da tre persone",
+"title": "Tre mail.<br><span class=\"gold\">Più lavoro per te, meno per tutti.</span>"
+},
+{
+"file": "c19",
+"layout": "memo",
+"theme": "deep",
+"title": "Tre richieste in una mail<br>ottengono una risposta."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "se servono dalla stessa persona",
+"title": "Numerate.<br><span class=\"gold\">E annunciate: «ti chiedo tre cose».</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "il numero in testa",
+"plain": true,
+"rows": [
+"Dice quante sono",
+"Permette di rispondere punto per punto"
+],
+"note": "E fa vedere se ne manca una."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "se la risposta ha due punti",
+"title": "E la tua mail ne aveva tre,<br><span class=\"gold\">lo vedi subito.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "una regola pratica",
+"title": "Due richieste: due righe staccate.<br><span class=\"gold\">Da tre in su: il numero.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "il terzo problema: le attenuazioni",
+"title": "Per iscritto si attenua<br><span class=\"gold\">molto più che a voce.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "le conosci tutte",
+"plain": true,
+"rows": [
+"Se puoi",
+"Quando hai tempo",
+"Eventualmente",
+"Compatibilmente con i tuoi impegni"
+],
+"note": "Il modo in cui ci scusiamo di chiedere."
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "ognuna sposta sul lettore",
+"title": "La decisione<br><span class=\"gold\">se la cosa sia importante.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "dalle lezioni 1.4 e 2.4",
+"title": "E il lettore<br><span class=\"gold\">decide quasi sempre di no.</span>"
+},
+{
+"file": "c29",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<u>Se per te non è un problema</u>, <u>quando hai un attimo</u>, ti chiederei <u>eventualmente</u> di dare un’occhiata, <u>compatibilmente con i tuoi impegni</u>.",
+"dopo": [
+"Ti chiedo di rileggerlo entro giovedì.",
+"Se non riesci, dimmelo e troviamo un’altra strada."
+]
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Se per te non è un problema</u>, <u>quando hai un attimo</u>, ti chiederei <u>eventualmente</u> di dare un’occhiata, <u>compatibilmente con i tuoi impegni</u>.",
+"dopo": [
+"Ti chiedo di rileggerlo entro giovedì.",
+"Se non riesci, dimmelo e troviamo un’altra strada."
+]
+},
+{
+"file": "c31",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Se per te non è un problema</u>, <u>quando hai un attimo</u>, ti chiederei <u>eventualmente</u> di dare un’occhiata, <u>compatibilmente con i tuoi impegni</u>.",
+"dopo": [
+"Ti chiedo di rileggerlo entro giovedì.",
+"Se non riesci, dimmelo e troviamo un’altra strada."
+]
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Se per te non è un problema</u>, <u>quando hai un attimo</u>, ti chiederei <u>eventualmente</u> di dare un’occhiata, <u>compatibilmente con i tuoi impegni</u>.",
+"dopo": [
+"Ti chiedo di rileggerlo entro giovedì.",
+"Se non riesci, dimmelo e troviamo un’altra strada."
+]
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "la scadenza",
+"title": "Il punto<br><span class=\"gold\">in cui molti si bloccano.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "mettere una data",
+"title": "Sembra presuntuoso.<br><span class=\"gold\">Soprattutto con un superiore.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "ma una data non è un ordine",
+"title": "È un’informazione<br><span class=\"gold\">su quando ti serve.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "senza una data",
+"title": "L’altro deve indovinare.<br><span class=\"gold\">E indovina tardi.</span>"
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "«appena possibile»",
+"plain": true,
+"rows": [
+"Per te: domani mattina",
+"Per chi legge: quando avrà finito il resto"
+],
+"note": "Due date diverse. E nessuno dei due lo sa."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "se la data ti sembra troppo",
+"title": "Una formula<br><span class=\"gold\">che non impone niente.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "la formula",
+"title": "«Mi servirebbe entro giovedì.<br><span class=\"gold\">Se non è possibile, dimmelo.»</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "che cosa fa",
+"plain": true,
+"rows": [
+"Dichiara il tuo bisogno",
+"Non impone il suo calendario",
+"Chiede comunque una risposta"
+],
+"note": "Anche un no, detto in tempo, è utile."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "la formula di tutta la lezione",
+"title": "Chiedere chiaramente.<br><span class=\"gold\">E lasciare spazio al no.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Una data non è un ordine.<br>È un’informazione<br>che l’altro non ha."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"Tre richieste in una mail",
+"Le attenuazioni accumulate",
+"Nessuna data, per non sembrare presuntuosi"
+],
+"plain": true,
+"note": "Richieste chiare per chi le manda. Non per chi le riceve."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"Tre richieste in una mail",
+"Le attenuazioni accumulate",
+"Nessuna data, per non sembrare presuntuosi"
+],
+"active": 0,
+"note": "Non dice che cosa, quanto, entro quando."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"Tre richieste in una mail",
+"Le attenuazioni accumulate",
+"Nessuna data, per non sembrare presuntuosi"
+],
+"active": 1,
+"note": "Ne torna una. Le altre spariscono."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"Tre richieste in una mail",
+"Le attenuazioni accumulate",
+"Nessuna data, per non sembrare presuntuosi"
+],
+"active": 2,
+"note": "Una richiesta che chiede scusa diventa facoltativa."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"Tre richieste in una mail",
+"Le attenuazioni accumulate",
+"Nessuna data, per non sembrare presuntuosi"
+],
+"active": 3,
+"note": "L’altro deve indovinare. E indovina tardi."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"La richiesta nella prima riga",
+"Un verbo e una data"
+],
+"note": "Il contesto sotto, per chi lo vuole."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Sembra sgarbato mentre lo scrivi",
+"Non lo è per chi lo legge"
+],
+"note": "Nella prossima lezione: rispondere."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]
