@@ -20,11 +20,11 @@ episodio = tl["episodio"]
 v = lambda x: f"{x:.2f}".replace(".", ",")
 per = {s["id"]: s for s in sc}
 tot = sum(s["durata"] for s in sc)
-pause = [n for r in voce if r["id"] == "S3" for n in r["note"]]
+pause = [n.replace(".", ",").replace("->", "→") for r in voce if r["id"] == "S3" for n in r["note"]]
 corr = [f"«{a}» → «{b}»" for lista in mese.get("correzioni", {}).values() for a, b in lista]
 titoli = {s["id"]: s["titolo"] for s in tl["scene"]}
 
-righe = "\n".join(f"{s['id']}  {titoli[s['id']].lower():<14} {v(s['durata']):>6} s" for s in sc)
+righe = "\n".join(f"{s['id']}  {titoli[s['id']].lower():<18} {v(s['durata']):>6} s" for s in sc)
 md = f"""# REGISTRO — Calendario dei diritti 2027 · {episodio}
 
 Video del mese per il calendario CISL FP Padova Rovigo. Protagonista {nome},
@@ -79,7 +79,8 @@ pacchetto (Playfair Display, Montserrat), a sinistra, dove non coprono il volto:
 
 Gli istanti dell'animazione (i due timbri «FALSO» e il cambio di affermazione)
 si misurano sul video del pacchetto; la scena si rimonta a pezzi perché ogni
-timbro cada sul «Falso» detto. {per['S3']['nota']}.
+timbro cada sul «Falso» detto. Pezzi del sorgente, in secondi:
+{per['S3']['nota'].replace('rimessa a tempo: ', '')}.
 
 ## Musica, mix, sottotitoli
 
@@ -93,8 +94,8 @@ e sulle frasi della firma già scritte a schermo ({'; '.join('«' + f + '»' for
 
 ```
 {righe}
-                   -------
-                   {v(tot)} s   (il pacchetto stima {tl['durata_stimata_s']} s)
+                       -------
+                       {v(tot)} s   (il pacchetto stima {tl['durata_stimata_s']} s)
 ```
 
 ## Il montato

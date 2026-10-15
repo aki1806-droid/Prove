@@ -1,0 +1,74 @@
+[
+ {
+  "id": "S0",
+  "inizio": 0.0,
+  "durata": 5.0,
+  "attacco": 0.7,
+  "file": "scene/S0.mp4",
+  "audio": "audio/scene/S0.mp3",
+  "nota": "clip rallentata 1.00x"
+ },
+ {
+  "id": "S1",
+  "inizio": 5.0,
+  "durata": 11.44,
+  "attacco": 0.6,
+  "file": "scene/S1.mp4",
+  "audio": "audio/scene/S1.mp3",
+  "nota": "clip rallentata 1.25x"
+ },
+ {
+  "id": "S2",
+  "inizio": 16.44,
+  "durata": 8.6,
+  "attacco": 0.5,
+  "file": "scene/S2.mp4",
+  "audio": "audio/scene/S2.mp3",
+  "nota": ""
+ },
+ {
+  "id": "S3",
+  "inizio": 25.04,
+  "durata": 21.76,
+  "attacco": 0.5,
+  "file": "scene/S3.mp4",
+  "audio": "audio/scene/S3.mp3",
+  "nota": "rimessa a tempo: 0.00-1.20+fermo 4.84, 1.20-1.45, 1.45-7.00, 10.15-10.40, 10.40-11.63+fermo 2.53, 11.63-11.88, 11.88-17.54"
+ },
+ {
+  "id": "S4",
+  "inizio": 46.8,
+  "durata": 12.56,
+  "attacco": 0.5,
+  "file": "scene/S4.mp4",
+  "audio": "audio/scene/S4.mp3",
+  "nota": ""
+ },
+ {
+  "id": "S5",
+  "inizio": 59.36,
+  "durata": 7.92,
+  "attacco": 0.5,
+  "file": "scene/S5.mp4",
+  "audio": "audio/scene/S5.mp3",
+  "nota": "clip rallentata 1.00x"
+ },
+ {
+  "id": "S6",
+  "inizio": 67.28,
+  "durata": 10.08,
+  "attacco": 0.5,
+  "file": "scene/S6.mp4",
+  "audio": "audio/scene/S6.mp3",
+  "nota": ""
+ },
+ {
+  "id": "S7",
+  "inizio": 77.36,
+  "durata": 9.0,
+  "attacco": 0.5,
+  "file": "scene/S7.mp4",
+  "audio": "audio/scene/S7.mp3",
+  "nota": ""
+ }
+]
