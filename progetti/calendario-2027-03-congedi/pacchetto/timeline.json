@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Marzo 2027 · Congedi parentali",
+  "protagonista": "Luca — Infermiere di Chirurgia · futuro papà",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 84,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Papà, lo sai che dieci giorni sono obbligatori?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Luca è infermiere in Chirurgia e sta per diventare papà. È convinto che il congedo sia una cosa che riguarda solo la mamma.",
+      "durata_s": 9.4
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Dieci giorni di congedo di paternità obbligatorio, pagati per intero. Da usare tra due mesi prima e cinque mesi dopo la nascita.",
+      "durata_s": 9.8
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Il congedo parentale è solo per la madre. Falso. Spetta a entrambi i genitori, fino ai 12 anni del figlio. Secondo: Il congedo si prende solo a giornate intere. Falso. Si può usare anche a ore, fino a metà dell'orario giornaliero.",
+      "durata_s": 18.8
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Prima la paternità obbligatoria. Poi il congedo parentale: fino a sei mesi per ciascun genitore, con i primi trenta giorni pagati per intero dal contratto, da usare fino ai dodici anni del figlio.",
+      "durata_s": 15.1
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Luca? Luca ha preso i suoi dieci giorni, e poi un mese di congedo parentale. Il primo bagnetto l'ha fatto lui.",
+      "durata_s": 8.7
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: informati prima della nascita. Due: presenta la domanda nei tempi. Tre: valuta l'uso a ore.",
+      "durata_s": 8.4
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Crescere insieme si può. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

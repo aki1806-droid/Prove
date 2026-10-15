@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Novembre 2027 · Tutela contro violenza e molestie",
+  "protagonista": "Chiara — Infermiera di triage · Pronto soccorso",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 81,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Insultata, spinta, minacciata. E poi?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Chiara è infermiera al triage. Una notte il parente di un paziente la spinge e la minaccia. Il giorno dopo si dice: fa parte del lavoro.",
+      "durata_s": 10.3
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Il dodici marzo è la Giornata nazionale contro la violenza sugli operatori sanitari. Perché nessuna aggressione fa parte del lavoro.",
+      "durata_s": 10.0
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Un'aggressione solo verbale non conta. Falso. Anche insulti e minacce vanno segnalati: l'azienda deve prevenire il rischio. Secondo: Denunciare non serve a niente. Falso. Dal 2024 è possibile l'arresto in flagranza differita, anche grazie a video e foto.",
+      "durata_s": 20.4
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Prima la segnalazione all'azienda. Poi il referto, e tutta la documentazione possibile. La denuncia. E il supporto, dei colleghi e del sindacato.",
+      "durata_s": 11.8
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Chiara? Chiara ha segnalato e denunciato. Non era sola: i colleghi e la CISL FP erano con lei.",
+      "durata_s": 7.7
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: segnala sempre. Due: fatti refertare. Tre: chiama la cisl fp.",
+      "durata_s": 6.5
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Rispetto per chi ti cura. Non sei solo. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

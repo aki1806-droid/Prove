@@ -1,0 +1,10 @@
+# derivati: si rifanno con gli script di ../calendario-2027-comune/
+audio/*.wav
+audio/scene/
+audio/lavoro/
+audio/voce/*.wav
+_montaggio/
+# immagini e clip di Higgsfield: restano nello storico di Higgsfield
+# (i lavori sono elencati in protagonista/higgsfield.json)
+protagonista/*.mp4
+protagonista/*.png

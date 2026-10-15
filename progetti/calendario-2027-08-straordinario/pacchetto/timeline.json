@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Agosto 2027 · Straordinario e pronta disponibilità",
+  "protagonista": "Andrea — Tecnico di radiologia · Pronta disponibilità",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 83,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Quanto vale un'ora di notte in reperibilità?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Andrea è tecnico di radiologia. Ad agosto fa sei turni di pronta disponibilità e viene chiamato tre volte di notte. Ma in busta paga i conti non tornano.",
+      "durata_s": 11.4
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Lo straordinario notturno o festivo vale il trenta per cento in più. Notturno e festivo insieme, il cinquanta.",
+      "durata_s": 8.6
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: L'indennità di pronta disponibilità paga anche le chiamate. Falso. Copre la disponibilità: le ore lavorate si pagano a parte o si recuperano. Secondo: Lo straordinario non pagato è perso. Falso. Puoi accantonarlo nella banca delle ore e recuperarlo con riposi.",
+      "durata_s": 20.8
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Ecco la scala del valore: l'ora ordinaria, più quindici per cento di giorno, più trenta di notte o nei festivi, più cinquanta di notte in un giorno festivo.",
+      "durata_s": 12.5
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Andrea? Andrea ha confrontato turni e cedolino con i delegati. Le ore mancanti sono state pagate.",
+      "durata_s": 7.9
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: annota ogni chiamata. Due: controlla il cedolino. Tre: confronta ore fatte e pagate.",
+      "durata_s": 8.0
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Ogni ora ha un valore. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

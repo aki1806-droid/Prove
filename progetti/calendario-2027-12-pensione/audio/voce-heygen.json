@@ -1,0 +1,858 @@
+{
+"audio_url": "https://resource2.heygen.ai/text_to_speech/b1e903e0215f46368095e611a09c0d09/e4bd8d8a357f41a99502309874733c16/id=70e08d08-ba93-4084-80df-6beaf2be6f8c.wav",
+"duration": 80.92734693877551,
+"request_id": "KHwI0A7RKSAvdSSwVPAV",
+"word_timestamps": [
+{
+"word": "<start>",
+"start": 0.0,
+"end": 0.0
+},
+{
+"word": "Sai",
+"start": 0.0,
+"end": 0.24
+},
+{
+"word": "davvero",
+"start": 0.28,
+"end": 0.64
+},
+{
+"word": "quando",
+"start": 0.72,
+"end": 0.88
+},
+{
+"word": "andrai",
+"start": 0.96,
+"end": 1.2269999999999999
+},
+{
+"word": "in",
+"start": 1.253,
+"end": 1.28
+},
+{
+"word": "pensione?",
+"start": 1.3599999999999999,
+"end": 1.8399999999999999
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 1.8399999999999999,
+"end": 3.84
+},
+{
+"word": "Mirella",
+"start": 3.84,
+"end": 4.32
+},
+{
+"word": "è",
+"start": 4.36,
+"end": 4.4
+},
+{
+"word": "ostetrica",
+"start": 4.48,
+"end": 5.28
+},
+{
+"word": "e",
+"start": 5.32,
+"end": 5.36
+},
+{
+"word": "ha",
+"start": 5.44,
+"end": 5.5200000000000005
+},
+{
+"word": "cinquantotto",
+"start": 5.6000000000000005,
+"end": 6.16
+},
+{
+"word": "anni.",
+"start": 6.24,
+"end": 6.5600000000000005
+},
+{
+"word": "Pensava",
+"start": 7.093,
+"end": 7.44
+},
+{
+"word": "di",
+"start": 7.48,
+"end": 7.5200000000000005
+},
+{
+"word": "sapere",
+"start": 7.64,
+"end": 7.92
+},
+{
+"word": "tutto",
+"start": 8.027000000000001,
+"end": 8.24
+},
+{
+"word": "della",
+"start": 8.293,
+"end": 8.4
+},
+{
+"word": "sua",
+"start": 8.48,
+"end": 8.64
+},
+{
+"word": "pensione,",
+"start": 8.8,
+"end": 9.32
+},
+{
+"word": "finché",
+"start": 9.64,
+"end": 9.84
+},
+{
+"word": "non",
+"start": 9.919999999999998,
+"end": 10.0
+},
+{
+"word": "ha",
+"start": 10.04,
+"end": 10.079999999999998
+},
+{
+"word": "aperto",
+"start": 10.2,
+"end": 10.48
+},
+{
+"word": "l'estratto",
+"start": 10.52,
+"end": 10.96
+},
+{
+"word": "conto",
+"start": 11.04,
+"end": 11.280000000000001
+},
+{
+"word": "contributivo.",
+"start": 11.36,
+"end": 12.0
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 12.0,
+"end": 14.0
+},
+{
+"word": "Fino",
+"start": 14.0,
+"end": 14.16
+},
+{
+"word": "a",
+"start": 14.239999999999998,
+"end": 14.32
+},
+{
+"word": "cinquemilacentosessantaquattro",
+"start": 14.399999999999999,
+"end": 15.84
+},
+{
+"word": "euro",
+"start": 15.920000000000002,
+"end": 16.16
+},
+{
+"word": "l'anno",
+"start": 16.2,
+"end": 16.560000000000002
+},
+{
+"word": "di",
+"start": 16.6,
+"end": 16.64
+},
+{
+"word": "contributi",
+"start": 16.84,
+"end": 17.2
+},
+{
+"word": "alla",
+"start": 17.28,
+"end": 17.36
+},
+{
+"word": "previdenza",
+"start": 17.44,
+"end": 17.84
+},
+{
+"word": "complementare",
+"start": 17.92,
+"end": 18.8
+},
+{
+"word": "si",
+"start": 18.88,
+"end": 18.96
+},
+{
+"word": "possono",
+"start": 19.04,
+"end": 19.44
+},
+{
+"word": "dedurre",
+"start": 19.52,
+"end": 19.84
+},
+{
+"word": "dal",
+"start": 19.92,
+"end": 20.0
+},
+{
+"word": "reddito.",
+"start": 20.08,
+"end": 20.56
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 20.56,
+"end": 22.56
+},
+{
+"word": "Due",
+"start": 22.56,
+"end": 22.59
+},
+{
+"word": "falsi",
+"start": 22.75,
+"end": 23.07
+},
+{
+"word": "miti.",
+"start": 23.15,
+"end": 23.47
+},
+{
+"word": "Primo:",
+"start": 24.03,
+"end": 24.27
+},
+{
+"word": "Il",
+"start": 24.749999999999996,
+"end": 24.83
+},
+{
+"word": "TFS",
+"start": 24.909999999999997,
+"end": 25.709999999999997
+},
+{
+"word": "arriva",
+"start": 25.83,
+"end": 26.189999999999998
+},
+{
+"word": "subito",
+"start": 26.31,
+"end": 26.589999999999996
+},
+{
+"word": "dopo",
+"start": 26.642999999999997,
+"end": 26.75
+},
+{
+"word": "la",
+"start": 26.83,
+"end": 26.909999999999997
+},
+{
+"word": "pensione.",
+"start": 26.95,
+"end": 27.63
+},
+{
+"word": "Falso.",
+"start": 27.91,
+"end": 28.349999999999998
+},
+{
+"word": "<break time=\"0.5s\"/>",
+"start": 28.349999999999998,
+"end": 28.959999999999997
+},
+{
+"word": "Arriva",
+"start": 28.959999999999997,
+"end": 29.15
+},
+{
+"word": "con",
+"start": 29.229999999999997,
+"end": 29.31
+},
+{
+"word": "attese",
+"start": 29.47,
+"end": 29.95
+},
+{
+"word": "e",
+"start": 29.99,
+"end": 30.029999999999998
+},
+{
+"word": "rate",
+"start": 30.11,
+"end": 30.43
+},
+{
+"word": "fissate",
+"start": 30.47,
+"end": 30.91
+},
+{
+"word": "dalla",
+"start": 30.962999999999997,
+"end": 31.07
+},
+{
+"word": "legge.",
+"start": 31.15,
+"end": 31.47
+},
+{
+"word": "Esiste",
+"start": 31.95,
+"end": 32.27
+},
+{
+"word": "però",
+"start": 32.35,
+"end": 32.51
+},
+{
+"word": "l'anticipo.",
+"start": 32.550000000000004,
+"end": 33.15
+},
+{
+"word": "Secondo:",
+"start": 33.79,
+"end": 34.11
+},
+{
+"word": "La",
+"start": 34.51,
+"end": 34.59
+},
+{
+"word": "previdenza",
+"start": 34.67,
+"end": 35.07
+},
+{
+"word": "complementare",
+"start": 35.15,
+"end": 35.95
+},
+{
+"word": "non",
+"start": 36.03,
+"end": 36.19
+},
+{
+"word": "conviene.",
+"start": 36.269999999999996,
+"end": 36.75
+},
+{
+"word": "Falso.",
+"start": 37.19,
+"end": 37.709999999999994
+},
+{
+"word": "<break time=\"0.5s\"/>",
+"start": 37.709999999999994,
+"end": 38.099999999999994
+},
+{
+"word": "C'è",
+"start": 38.099999999999994,
+"end": 38.23
+},
+{
+"word": "il",
+"start": 38.269999999999996,
+"end": 38.309999999999995
+},
+{
+"word": "contributo",
+"start": 38.349999999999994,
+"end": 38.91
+},
+{
+"word": "del",
+"start": 38.949999999999996,
+"end": 38.989999999999995
+},
+{
+"word": "datore",
+"start": 39.07,
+"end": 39.309999999999995
+},
+{
+"word": "di",
+"start": 39.39,
+"end": 39.43
+},
+{
+"word": "lavoro,",
+"start": 39.47,
+"end": 39.949999999999996
+},
+{
+"word": "e",
+"start": 40.15,
+"end": 40.19
+},
+{
+"word": "il",
+"start": 40.23,
+"end": 40.269999999999996
+},
+{
+"word": "vantaggio",
+"start": 40.35,
+"end": 40.67
+},
+{
+"word": "fiscale.",
+"start": 40.75,
+"end": 41.23
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 41.23,
+"end": 43.23
+},
+{
+"word": "Come",
+"start": 43.23,
+"end": 43.25
+},
+{
+"word": "funziona?",
+"start": 43.33,
+"end": 43.81
+},
+{
+"word": "Si",
+"start": 44.330000000000005,
+"end": 44.370000000000005
+},
+{
+"word": "parte",
+"start": 44.45,
+"end": 44.77
+},
+{
+"word": "dall'estratto",
+"start": 44.823,
+"end": 45.330000000000005
+},
+{
+"word": "conto",
+"start": 45.410000000000004,
+"end": 45.650000000000006
+},
+{
+"word": "su",
+"start": 45.730000000000004,
+"end": 45.81
+},
+{
+"word": "MyINPS.",
+"start": 45.89,
+"end": 46.45
+},
+{
+"word": "Si",
+"start": 46.93,
+"end": 47.010000000000005
+},
+{
+"word": "verificano",
+"start": 47.09,
+"end": 47.650000000000006
+},
+{
+"word": "e",
+"start": 47.730000000000004,
+"end": 47.81
+},
+{
+"word": "si",
+"start": 47.89,
+"end": 47.970000000000006
+},
+{
+"word": "recuperano",
+"start": 48.050000000000004,
+"end": 48.53
+},
+{
+"word": "i",
+"start": 48.57,
+"end": 48.61000000000001
+},
+{
+"word": "periodi",
+"start": 48.690000000000005,
+"end": 48.970000000000006
+},
+{
+"word": "mancanti.",
+"start": 49.010000000000005,
+"end": 49.57
+},
+{
+"word": "Si",
+"start": 50.05,
+"end": 50.13
+},
+{
+"word": "valuta",
+"start": 50.21,
+"end": 50.53
+},
+{
+"word": "Perseo",
+"start": 50.61,
+"end": 51.09
+},
+{
+"word": "Sirio.",
+"start": 51.17,
+"end": 51.57
+},
+{
+"word": "E",
+"start": 51.93,
+"end": 51.97
+},
+{
+"word": "la",
+"start": 52.01,
+"end": 52.05
+},
+{
+"word": "domanda",
+"start": 52.13,
+"end": 52.53
+},
+{
+"word": "si",
+"start": 52.69,
+"end": 52.77
+},
+{
+"word": "presenta",
+"start": 52.85,
+"end": 53.25
+},
+{
+"word": "con",
+"start": 53.29,
+"end": 53.33
+},
+{
+"word": "il",
+"start": 53.410000000000004,
+"end": 53.45
+},
+{
+"word": "patronato.",
+"start": 53.49,
+"end": 54.05
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 54.05,
+"end": 56.05
+},
+{
+"word": "E",
+"start": 56.05,
+"end": 56.059999999999995
+},
+{
+"word": "Mirella?",
+"start": 56.13999999999999,
+"end": 56.54
+},
+{
+"word": "Con",
+"start": 57.019999999999996,
+"end": 57.099999999999994
+},
+{
+"word": "il",
+"start": 57.13999999999999,
+"end": 57.18
+},
+{
+"word": "patronato",
+"start": 57.26,
+"end": 57.739999999999995
+},
+{
+"word": "INAS",
+"start": 57.82,
+"end": 58.059999999999995
+},
+{
+"word": "CISL,",
+"start": 58.13999999999999,
+"end": 58.459999999999994
+},
+{
+"word": "Mirella",
+"start": 58.739999999999995,
+"end": 59.099999999999994
+},
+{
+"word": "ha",
+"start": 59.13999999999999,
+"end": 59.17999999999999
+},
+{
+"word": "ricostruito",
+"start": 59.25999999999999,
+"end": 59.89999999999999
+},
+{
+"word": "la",
+"start": 59.93999999999999,
+"end": 59.98
+},
+{
+"word": "sua",
+"start": 60.019999999999996,
+"end": 60.13999999999999
+},
+{
+"word": "posizione.",
+"start": 60.21999999999999,
+"end": 60.779999999999994
+},
+{
+"word": "Ora",
+"start": 61.25999999999999,
+"end": 61.49999999999999
+},
+{
+"word": "sa",
+"start": 61.739999999999995,
+"end": 61.89999999999999
+},
+{
+"word": "quando",
+"start": 61.97999999999999,
+"end": 62.21999999999999
+},
+{
+"word": "potrà",
+"start": 62.29999999999999,
+"end": 62.459999999999994
+},
+{
+"word": "andare",
+"start": 62.53999999999999,
+"end": 62.779999999999994
+},
+{
+"word": "in",
+"start": 62.81999999999999,
+"end": 62.85999999999999
+},
+{
+"word": "pensione.",
+"start": 62.93999999999999,
+"end": 63.419999999999995
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 63.419999999999995,
+"end": 65.41999999999999
+},
+{
+"word": "Cosa",
+"start": 65.41999999999999,
+"end": 65.59
+},
+{
+"word": "fare?",
+"start": 65.66999999999999,
+"end": 65.99
+},
+{
+"word": "Uno:",
+"start": 66.50999999999999,
+"end": 66.63
+},
+{
+"word": "apri",
+"start": 67.10999999999999,
+"end": 67.35
+},
+{
+"word": "l'estratto",
+"start": 67.38999999999999,
+"end": 67.82999999999998
+},
+{
+"word": "conto.",
+"start": 67.91,
+"end": 68.30999999999999
+},
+{
+"word": "Due:",
+"start": 68.82999999999998,
+"end": 68.94999999999999
+},
+{
+"word": "valuta",
+"start": 69.42999999999999,
+"end": 69.75
+},
+{
+"word": "Perseo",
+"start": 69.82999999999998,
+"end": 70.30999999999999
+},
+{
+"word": "Sirio.",
+"start": 70.38999999999999,
+"end": 70.78999999999999
+},
+{
+"word": "Tre:",
+"start": 71.22999999999999,
+"end": 71.35
+},
+{
+"word": "prenota",
+"start": 71.71,
+"end": 72.14999999999999
+},
+{
+"word": "l'INAS",
+"start": 72.31,
+"end": 72.71
+},
+{
+"word": "CISL.",
+"start": 72.78999999999999,
+"end": 73.19
+},
+{
+"word": "<break time=\"2.0s\"/>",
+"start": 73.19,
+"end": 75.19
+},
+{
+"word": "Il",
+"start": 75.19,
+"end": 75.26999999999998
+},
+{
+"word": "futuro",
+"start": 75.35,
+"end": 75.75
+},
+{
+"word": "si",
+"start": 75.98999999999998,
+"end": 76.07
+},
+{
+"word": "costruisce",
+"start": 76.15,
+"end": 76.70999999999998
+},
+{
+"word": "oggi.",
+"start": 76.78999999999999,
+"end": 77.10999999999999
+},
+{
+"word": "<break time=\"0.5s\"/>",
+"start": 77.10999999999999,
+"end": 77.50999999999999
+},
+{
+"word": "CISL",
+"start": 77.50999999999999,
+"end": 77.82999999999998
+},
+{
+"word": "FP",
+"start": 77.98999999999998,
+"end": 78.31
+},
+{
+"word": "Padova",
+"start": 78.54999999999998,
+"end": 78.87
+},
+{
+"word": "Rovigo.",
+"start": 78.94999999999999,
+"end": 79.35
+},
+{
+"word": "<break time=\"0.5s\"/>",
+"start": 79.35,
+"end": 79.81
+},
+{
+"word": "Al",
+"start": 79.81,
+"end": 79.82999999999998
+},
+{
+"word": "tuo",
+"start": 79.91,
+"end": 80.07
+},
+{
+"word": "fianco.",
+"start": 80.15,
+"end": 80.63
+},
+{
+"word": "<end>",
+"start": 80.92734693877551,
+"end": 80.92734693877551
+}
+],
+"engine": "elevenlabs"
+}

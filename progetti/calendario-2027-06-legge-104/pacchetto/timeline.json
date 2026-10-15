@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Giugno 2027 · Legge 104",
+  "protagonista": "Paola — Impiegata amministrativa · Azienda sanitaria",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 84,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Assistere chi ami ti sta costando il lavoro?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Paola lavora negli uffici dell'azienda sanitaria. Suo padre non è più autonomo, e lei usa ferie e permessi per accompagnarlo ovunque.",
+      "durata_s": 10.1
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Tre giorni al mese di permesso retribuito, che si possono usare anche a ore. Ogni mese, senza toccare le ferie.",
+      "durata_s": 8.7
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Se i permessi li usa mio fratello, io non posso. Falso. Dal 2022 più familiari possono alternarsi, nel limite dei 3 giorni. Secondo: Con poco personale l'azienda può negarmeli. Falso. Può chiedere di programmarli, ma non può negarli.",
+      "durata_s": 19.0
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Serve il verbale di disabilità grave, poi la domanda all'azienda. Da lì, tre giorni al mese. E se l'assistenza diventa continua, esiste anche il congedo straordinario retribuito, fino a due anni.",
+      "durata_s": 15.0
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Paola? Paola ha presentato la domanda. Ora alterna i permessi con il fratello, e le sue ferie tornano a essere riposo.",
+      "durata_s": 9.2
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: richiedi il verbale. Due: presenta la domanda. Tre: programma con il coordinatore.",
+      "durata_s": 7.8
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Il tempo per chi ami è un diritto. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

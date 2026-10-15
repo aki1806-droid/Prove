@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Settembre 2027 · Diritto allo studio",
+  "protagonista": "Rosa — Operatrice socio-sanitaria · da dieci anni",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 78,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Vuoi studiare, ma il lavoro non te lo permette?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Rosa è OSS da dieci anni. Sogna la laurea in infermieristica, ma tra turni e famiglia le sembra impossibile.",
+      "durata_s": 8.5
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Centocinquanta ore l'anno di permesso retribuito, per frequentare le lezioni e preparare gli esami.",
+      "durata_s": 7.9
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Le 150 ore valgono solo per la scuola. Falso. Valgono anche per università, master e corsi professionali. Secondo: Chi studia non ha voce sui turni. Falso. Lo Statuto dei lavoratori prevede turni che agevolino frequenza ed esami.",
+      "durata_s": 18.8
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Si presenta la domanda entro la scadenza aziendale, di solito a fine anno. Si entra in graduatoria, fino al tre per cento del personale. Poi si usano le ore, e si documentano frequenza ed esami.",
+      "durata_s": 15.0
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Rosa? Rosa ha fatto domanda a dicembre. Oggi è al secondo anno di università.",
+      "durata_s": 6.6
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: segna la scadenza. Due: iscriviti al corso. Tre: conserva i certificati.",
+      "durata_s": 7.2
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Non si smette mai di crescere. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

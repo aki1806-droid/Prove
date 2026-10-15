@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Dicembre 2027 · Pensione e TFS",
+  "protagonista": "Mirella — Ostetrica · 58 anni",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 82,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Sai davvero quando andrai in pensione?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Mirella è ostetrica e ha cinquantotto anni. Pensava di sapere tutto della sua pensione, finché non ha aperto l'estratto conto contributivo.",
+      "durata_s": 10.5
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Fino a cinquemilacentosessantaquattro euro l'anno di contributi alla previdenza complementare si possono dedurre dal reddito.",
+      "durata_s": 9.6
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Il TFS arriva subito dopo la pensione. Falso. Arriva con attese e rate fissate dalla legge. Esiste però l'anticipo. Secondo: La previdenza complementare non conviene. Falso. C'è il contributo del datore di lavoro, e il vantaggio fiscale.",
+      "durata_s": 19.3
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Si parte dall'estratto conto su MyINPS. Si verificano e si recuperano i periodi mancanti. Si valuta Perseo Sirio. E la domanda si presenta con il patronato.",
+      "durata_s": 12.5
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Mirella? Con il patronato INAS CISL, Mirella ha ricostruito la sua posizione. Ora sa quando potrà andare in pensione.",
+      "durata_s": 9.2
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: apri l'estratto conto. Due: valuta perseo sirio. Tre: prenota l'inas cisl.",
+      "durata_s": 7.3
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Il futuro si costruisce oggi. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

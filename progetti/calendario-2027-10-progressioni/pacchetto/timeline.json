@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Ottobre 2027 · Progressioni economiche",
+  "protagonista": "Giorgio — Assistente amministrativo · da dodici anni",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 83,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Stesso lavoro, stesso stipendio, da dieci anni?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Giorgio è assistente amministrativo da dodici anni. Ha esperienza e valutazioni positive, ma non ha mai partecipato a una progressione.",
+      "durata_s": 10.2
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Le strade per crescere sono due: il differenziale economico, dentro la tua area, e la progressione verso l'area superiore.",
+      "durata_s": 9.4
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Le progressioni le decide il dirigente. Falso. Criteri e graduatorie si definiscono in contrattazione e sono pubblici. Secondo: Senza laurea non si sale di area. Falso. Nella fase transitoria l'esperienza può compensare il titolo, secondo regole precise.",
+      "durata_s": 20.4
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Servono gli anni di anzianità richiesti e buone valutazioni. Poi si risponde al bando, e si entra in una graduatoria che deve essere pubblica e trasparente.",
+      "durata_s": 12.5
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Giorgio? Giorgio ha partecipato al bando per il differenziale economico. È entrato in graduatoria.",
+      "durata_s": 8.0
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: aggiorna il curriculum. Due: leggi i requisiti dei bandi. Tre: controlla la graduatoria.",
+      "durata_s": 8.2
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Un passo alla volta, verso l'alto. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

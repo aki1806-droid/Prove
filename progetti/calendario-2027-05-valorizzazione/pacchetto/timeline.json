@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Maggio 2027 · Valorizzazione professionale",
+  "protagonista": "Elena — Infermiera esperta in wound care",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 86,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "La tua competenza vale. Ma è scritta in busta paga?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Elena è infermiera da quindici anni e ha un master in wound care. In reparto la chiamano per tutte le medicazioni difficili. Sulla carta, però, è come il primo giorno.",
+      "durata_s": 12.3
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Centocinquanta crediti ECM nel triennio. La formazione obbligatoria è a carico dell'azienda e si fa in orario di lavoro.",
+      "durata_s": 9.2
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: La formazione obbligatoria la pago io. Falso. È a carico dell'azienda e si svolge in orario di lavoro. Secondo: Gli incarichi sono solo per i coordinatori. Falso. Esistono anche incarichi professionali per le competenze specialistiche.",
+      "durata_s": 19.1
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? La strada è chiara: formazione e competenze certificate, la risposta a un avviso per un incarico di funzione, la selezione. E alla fine un'indennità che riconosce quello che sai fare.",
+      "durata_s": 14.3
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Elena? Elena ha risposto all'avviso per un incarico professionale. Oggi la sua competenza ha un nome. E un valore.",
+      "durata_s": 9.0
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: aggiorna il curriculum. Due: segui gli avvisi aziendali. Tre: chiedi il piano formativo.",
+      "durata_s": 8.2
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Chi cura, conta. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

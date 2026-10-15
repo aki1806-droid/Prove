@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Luglio 2027 · Diritto al riposo",
+  "protagonista": "Francesca — Infermiera turnista · Medicina",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 84,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Smonti alle dieci di sera e rientri alle sette?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Francesca è infermiera turnista. A luglio, tra ferie dei colleghi e sostituzioni, smonta alle dieci di sera e il giorno dopo rientra alle sette del mattino.",
+      "durata_s": 11.6
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Undici ore consecutive di riposo ogni ventiquattro. Non è una gentilezza: è la legge.",
+      "durata_s": 7.0
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Con i turni, in sanità, il riposo minimo non vale. Falso. Vale anche per i turnisti e, dal 2015, anche per i medici. Secondo: Se il rientro lo accetto io, è tutto regolare. Falso. Il riposo minimo è una tutela di sicurezza, tua e dei pazienti.",
+      "durata_s": 19.7
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Quattro limiti da ricordare: undici ore di riposo ogni ventiquattro, un giorno intero di riposo a settimana, un massimo di quarantotto ore medie settimanali, e una pausa quando il turno supera le sei ore.",
+      "durata_s": 15.6
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Francesca? Francesca ha segnalato i turni ai delegati CISL FP. La turnistica è stata corretta.",
+      "durata_s": 7.7
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: fotografa i turni pubblicati. Due: conta le ore tra i turni. Tre: segnala ogni violazione.",
+      "durata_s": 8.3
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Riposare non è un lusso. È sicurezza. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

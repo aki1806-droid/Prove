@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Aprile 2027 · Sicurezza sul lavoro",
+  "protagonista": "Davide — Tecnico della manutenzione · Ospedale",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 88,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Se vedi un pericolo, hai il diritto di fermarti?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Davide lavora nella manutenzione di un ospedale. Davanti a un quadro elettrico aperto, un collega gli dice: dai, facciamo in fretta.",
+      "durata_s": 10.0
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Nei settori ad alto rischio, come la sanità, la formazione specifica sulla sicurezza è di almeno dodici ore. E va aggiornata ogni cinque anni.",
+      "durata_s": 10.7
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Se mi rifiuto di lavorare in condizioni pericolose, mi sanzionano. Falso. Davanti a un pericolo grave e immediato puoi allontanarti senza conseguenze. Secondo: Se i DPI si rompono, li ricompro io. Falso. Il datore di lavoro li fornisce gratis e li sostituisce quando serve.",
+      "durata_s": 21.6
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? La sicurezza è una catena: l'azienda valuta i rischi, ti forma e ti dà i dispositivi di protezione, il medico competente controlla la tua salute, e il Rappresentante dei lavoratori per la sicurezza vigila per te.",
+      "durata_s": 16.1
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Davide? Davide si è fermato e ha avvisato il preposto e l'RLS. Il quadro è stato messo in sicurezza il giorno stesso.",
+      "durata_s": 9.2
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: fermati e segnala. Due: usa sempre i dpi. Tre: conosci il tuo rls.",
+      "durata_s": 6.8
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "L'obiettivo è uno solo: tornare a casa, ogni sera. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}
