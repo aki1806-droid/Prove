@@ -32,3 +32,6 @@ PDRO_Io_io_io_9x16.mp4 (fuori da git) e copia d'invio PDRO_Io_io_io_9x16_invio.m
 - Musica ed effetti (indicati nella «regia»): royalty-free, li aggiunge Achille.
 - Animazioni della «regia» (testi carattere per carattere, timbri, contatori) non fatte: grafiche già composte, solo cambio A→B.
 - Rivedere prima della pubblicazione (checklist del pacchetto).
+
+## Originale su HeyGen
+Asset 57b020a306e444ae808fe89a090e639d: https://resource2.heygen.ai/video/57b020a306e444ae808fe89a090e639d/original.mp4

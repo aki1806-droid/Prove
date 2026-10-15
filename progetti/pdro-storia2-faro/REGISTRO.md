@@ -32,3 +32,6 @@ PDRO_Il_guardiano_del_faro_9x16.mp4 (fuori da git) e copia d'invio PDRO_Il_guard
 - Musica ed effetti (indicati nella «regia»): royalty-free, li aggiunge Achille.
 - Animazioni della «regia» (testi carattere per carattere, timbri, contatori) non fatte: grafiche già composte, solo cambio A→B.
 - Rivedere prima della pubblicazione (checklist del pacchetto).
+
+## Originale su HeyGen
+Asset 5bc77c1c1d47423dae5d46c26a1c2a6a: https://resource2.heygen.ai/video/5bc77c1c1d47423dae5d46c26a1c2a6a/original.mp4

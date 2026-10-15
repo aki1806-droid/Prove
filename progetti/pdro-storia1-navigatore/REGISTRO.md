@@ -32,3 +32,6 @@ PDRO_Il_navigatore_9x16.mp4 (fuori da git) e copia d'invio PDRO_Il_navigatore_9x
 - Musica ed effetti (indicati nella «regia»): royalty-free, li aggiunge Achille.
 - Animazioni della «regia» (testi carattere per carattere, timbri, contatori) non fatte: grafiche già composte, solo cambio A→B.
 - Rivedere prima della pubblicazione (checklist del pacchetto).
+
+## Originale su HeyGen
+Asset aaf62a97a5c44ac38f26c0228708afac: https://resource2.heygen.ai/video/aaf62a97a5c44ac38f26c0228708afac/original.mp4
