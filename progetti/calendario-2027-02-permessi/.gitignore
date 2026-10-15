@@ -1,0 +1,8 @@
+# derivati: si rifanno con voce.py e monta.py
+audio/*.wav
+audio/scene/
+audio/lavoro/
+audio/voce/*.wav
+_montaggio/
+# le clip di Higgsfield (31 MB): restano nello storico di Higgsfield
+marco/*.mp4

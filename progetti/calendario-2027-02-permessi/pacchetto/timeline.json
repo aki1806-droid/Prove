@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Febbraio 2027 · Permessi e festività soppresse",
+  "protagonista": "Marco — Impiegato comunale · Polesine",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 86,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Hai ore di permesso che non sai di avere?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Marco lavora in un ufficio comunale. Per ogni visita specialistica e ogni esame del sangue, usa un giorno di ferie.",
+      "durata_s": 8.9
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Diciotto ore l'anno per motivi personali o familiari. E altre diciotto, a parte, per visite, terapie ed esami.",
+      "durata_s": 8.6
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: I permessi per le visite li tolgono dalle ferie. Falso. Sono 18 ore l'anno in più, separate dalle ferie e dagli altri permessi. Secondo: Le festività soppresse si accumulano. Falso. Le 4 giornate vanno usate entro il 31 dicembre: poi si perdono.",
+      "durata_s": 19.8
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Ecco la mappa: quattro giornate di festività soppresse, diciotto ore per motivi personali, diciotto per visite ed esami. E poi giorni dedicati per lutto, matrimonio, esami e concorsi.",
+      "durata_s": 14.3
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Marco? Marco ha chiesto il riepilogo dei suoi permessi. Ora per le visite usa le ore dedicate, e le sue ferie tornano a essere vacanza.",
+      "durata_s": 10.3
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: chiedi il riepilogo dei permessi. Due: conserva l'attestato di visita. Tre: usa le 4 giornate entro dicembre.",
+      "durata_s": 9.6
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Ogni giorno conta. Non lasciarne nessuno nel cassetto. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}
