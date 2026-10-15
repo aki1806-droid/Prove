@@ -54,7 +54,7 @@
    "id": "S006x",
    "dopo": "S006",
    "tipo": "immagine",
-   "asset": "X12"
+   "asset": "X13"
   }
  ],
  "B07": [
@@ -62,7 +62,7 @@
    "id": "S007x",
    "dopo": "S007",
    "tipo": "immagine",
-   "asset": "X13"
+   "asset": "X15"
   }
  ],
  "B09": [
@@ -70,7 +70,7 @@
    "id": "S009x",
    "dopo": "S009",
    "tipo": "immagine",
-   "asset": "X15"
+   "asset": "X17"
   }
  ],
  "B11": [
@@ -78,7 +78,7 @@
    "id": "S011x",
    "dopo": "S011",
    "tipo": "immagine",
-   "asset": "X17"
+   "asset": "X19"
   }
  ],
  "B12": [
@@ -86,7 +86,7 @@
    "id": "S012x",
    "dopo": "S012",
    "tipo": "immagine",
-   "asset": "X19"
+   "asset": "X20"
   }
  ],
  "B13": [
@@ -94,13 +94,13 @@
    "id": "S013x",
    "dopo": "S013",
    "tipo": "immagine",
-   "asset": "X20"
+   "asset": "X22"
   },
   {
    "id": "S013y",
    "dopo": "S013x",
    "tipo": "immagine",
-   "asset": "X22"
+   "asset": "X23"
   }
  ],
  "B14": [
@@ -108,7 +108,7 @@
    "id": "S014x",
    "dopo": "S014",
    "tipo": "immagine",
-   "asset": "X23"
+   "asset": "X24"
   }
  ],
  "B15": [
@@ -116,13 +116,13 @@
    "id": "S015x",
    "dopo": "S015",
    "tipo": "immagine",
-   "asset": "X24"
+   "asset": "X25"
   },
   {
    "id": "S015y",
    "dopo": "S015x",
    "tipo": "immagine",
-   "asset": "X25"
+   "asset": "X26"
   }
  ],
  "B16": [
@@ -130,7 +130,7 @@
    "id": "S016x",
    "dopo": "S016",
    "tipo": "immagine",
-   "asset": "X26"
+   "asset": "X27"
   }
  ],
  "B17": [
@@ -138,13 +138,13 @@
    "id": "S017x",
    "dopo": "S017",
    "tipo": "immagine",
-   "asset": "X27"
+   "asset": "X28"
   },
   {
    "id": "S017y",
    "dopo": "S017x",
    "tipo": "immagine",
-   "asset": "X28"
+   "asset": "X29"
   }
  ],
  "B19": [
@@ -152,7 +152,7 @@
    "id": "S019x",
    "dopo": "S019",
    "tipo": "immagine",
-   "asset": "X29"
+   "asset": "X30"
   }
  ],
  "B20": [
@@ -160,13 +160,13 @@
    "id": "S020x",
    "dopo": "S020",
    "tipo": "immagine",
-   "asset": "X30"
+   "asset": "X32"
   },
   {
    "id": "S020y",
    "dopo": "S020x",
    "tipo": "immagine",
-   "asset": "X32"
+   "asset": "X33"
   }
  ],
  "B21": [
@@ -174,13 +174,13 @@
    "id": "S021x",
    "dopo": "S021",
    "tipo": "immagine",
-   "asset": "X33"
+   "asset": "X34"
   },
   {
    "id": "S021y",
    "dopo": "S021x",
    "tipo": "immagine",
-   "asset": "X34"
+   "asset": "X35"
   }
  ],
  "B22": [
@@ -188,7 +188,7 @@
    "id": "S022x",
    "dopo": "S022",
    "tipo": "immagine",
-   "asset": "X35"
+   "asset": "X36"
   }
  ],
  "B23": [
@@ -196,7 +196,7 @@
    "id": "S023x",
    "dopo": "S023",
    "tipo": "immagine",
-   "asset": "X36"
+   "asset": "X37"
   }
  ],
  "B24": [
@@ -204,7 +204,7 @@
    "id": "S024x",
    "dopo": "S024",
    "tipo": "immagine",
-   "asset": "X37"
+   "asset": "X39"
   }
  ],
  "B25": [
@@ -212,7 +212,7 @@
    "id": "S025x",
    "dopo": "S025",
    "tipo": "immagine",
-   "asset": "X39"
+   "asset": "X41"
   }
  ],
  "B26": [
@@ -220,7 +220,7 @@
    "id": "S026x",
    "dopo": "S026",
    "tipo": "immagine",
-   "asset": "X41"
+   "asset": "X42"
   }
  ],
  "B27": [
@@ -228,13 +228,13 @@
    "id": "S027x",
    "dopo": "S027",
    "tipo": "immagine",
-   "asset": "X42"
+   "asset": "X44"
   },
   {
    "id": "S027y",
    "dopo": "S027x",
    "tipo": "immagine",
-   "asset": "X44"
+   "asset": "X27"
   }
  ],
  "B28": [
@@ -342,7 +342,7 @@
    "id": "S041x",
    "dopo": "S041",
    "tipo": "immagine",
-   "asset": "X27"
+   "asset": "X26"
   }
  ],
  "B42": [
@@ -350,21 +350,7 @@
    "id": "S042x",
    "dopo": "S042",
    "tipo": "immagine",
-   "asset": "X26"
-  }
- ],
- "B43": [
-  {
-   "id": "S043x",
-   "dopo": "S043",
-   "tipo": "immagine",
    "asset": "X25"
-  },
-  {
-   "id": "S043y",
-   "dopo": "S043x",
-   "tipo": "immagine",
-   "asset": "X24"
   }
  ],
  "B44": [
@@ -372,7 +358,7 @@
    "id": "S044x",
    "dopo": "S044",
    "tipo": "immagine",
-   "asset": "X23"
+   "asset": "X24"
   }
  ]
 }

@@ -142,9 +142,9 @@
   {
    "id": "S015",
    "blocco": "B15",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C15"
+   "asset": "X03"
   },
   {
    "id": "S016",

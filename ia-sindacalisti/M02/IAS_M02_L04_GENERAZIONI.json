@@ -9,9 +9,11 @@
  "varianti_clip": {
   "C02": 1,
   "C21": 1,
-  "C43": 1
+  "C43": 0
  },
- "scartati": {},
+ "scartati": {
+  "C43a": "scartata: volantini con lettere finte leggibili; la scena usa l'immagine X12"
+ },
  "immagini": {
   "X01": "Tre fogli bianchi affiancati su un tavolo da riunione con tre penne identiche, luce del pomeriggio. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
   "X03": "Un orologio da parete che segna quasi le sei in un ufficio sindacale, fondo sfocato. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",

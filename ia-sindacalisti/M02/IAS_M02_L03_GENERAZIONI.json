@@ -8,11 +8,13 @@
  "ricetta_immagini": "Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
  "varianti_clip": {
   "C02": 1,
-  "C15": 1,
+  "C15": 0,
   "C22": 1,
   "C39": 1
  },
- "scartati": {},
+ "scartati": {
+  "C15a": "scartata: testo finto leggibile sullo schermo del portatile; la scena usa l'immagine X03"
+ },
  "immagini": {
   "X01": "Tre attrezzi diversi allineati su un banco di legno: un righello, una lente, un fermacarte, luce morbida. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",
   "X03": "Una casella postale di metallo piena di buste chiuse in un corridoio di uffici. Fotografia documentaristica editoriale, luce naturale morbida, profondità di campo ridotta, grana fine, toni naturali con accenti di verde profondo e luci calde, contrasto morbido, nessun volto, nessun testo leggibile, nessun logo o marchio, formato 16:9.",

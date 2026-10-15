@@ -407,9 +407,9 @@
   {
    "id": "S043",
    "blocco": "B43",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C43"
+   "asset": "X12"
   },
   {
    "id": "S044",
