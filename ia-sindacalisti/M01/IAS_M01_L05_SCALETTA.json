@@ -1,0 +1,430 @@
+{
+ "lezione": "IAS_M01_L05",
+ "titolo": "La prima conversazione guidata",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una norma che conosci a memoria"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Si dialoga, non si interroga"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Interrogare o dialogare"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 18.5,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le mosse in pratica"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "La chat ricorda tutto"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Mosse 1 e 2"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Permessi art. 33 L. 104/1992"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Ora il revisore sei tu"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Quattro problemi da cercare"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La risposta alla matita rossa"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "90% giusto, ma l'errore è sul diritto principale"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Quello che ha scritto e quello che sai"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Accettare la risposta perché quasi giusta → Un errore sul diritto principale si corregge sempre"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C20"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Due modi di correggere"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Mossa 3: correggere con precisione"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Spiegazione corretta"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Tende ad assecondarti"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La prova della correzione sbagliata"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Correzione volutamente errata"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Mossa 4: rilanciare nel formato utile"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Volantino di dieci righe"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A32",
+   "durata_video": 19.67,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 33, comma 3, L. 104/1992; D.Lgs. 105/2022"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Raccontare all'IA il caso vero della lavoratrice → Parla della norma in generale, senza nomi né diagnosi"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "X34",
+   "nota": "la clip generata aveva testo finto in evidenza: scartata, al suo posto un'immagine"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Un'altra norma, un'altra chat"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "La prima risposta è una bozza: imposta, chiedi, correggi, rilancia."
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli una norma che conosci a fondo / Imposta e chiedi in una chat nuova / Cerca i quattro tipi di problema / Correggi punto per punto, poi rilancia / Confronta il testo con la norma vigente"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Norme su cui allenarti: Permessi L. 104/1992 / Assemblea retribuita, Statuto art. 20 / Congedi parentali / Ferie"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il diario della conversazione"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Primo modulo completato"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 2.1 Creare gli account e orientarsi nelle tre interfacce"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

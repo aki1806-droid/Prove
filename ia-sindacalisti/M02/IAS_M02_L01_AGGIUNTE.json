@@ -1,0 +1,294 @@
+{
+ "B01": [
+  {
+   "id": "S001x",
+   "dopo": "S001",
+   "tipo": "immagine",
+   "asset": "X01"
+  },
+  {
+   "id": "S001y",
+   "dopo": "S001x",
+   "tipo": "immagine",
+   "asset": "X03"
+  }
+ ],
+ "B02": [
+  {
+   "id": "S002x",
+   "dopo": "S002",
+   "tipo": "immagine",
+   "asset": "X04"
+  },
+  {
+   "id": "S002y",
+   "dopo": "S002x",
+   "tipo": "immagine",
+   "asset": "X06"
+  }
+ ],
+ "B03": [
+  {
+   "id": "S003x",
+   "dopo": "S003",
+   "tipo": "immagine",
+   "asset": "X07"
+  }
+ ],
+ "B04": [
+  {
+   "id": "S004x",
+   "dopo": "S004",
+   "tipo": "immagine",
+   "asset": "X08"
+  }
+ ],
+ "B06": [
+  {
+   "id": "S006x",
+   "dopo": "S006",
+   "tipo": "immagine",
+   "asset": "X09"
+  }
+ ],
+ "B07": [
+  {
+   "id": "S007x",
+   "dopo": "S007",
+   "tipo": "immagine",
+   "asset": "X10"
+  },
+  {
+   "id": "S007y",
+   "dopo": "S007x",
+   "tipo": "immagine",
+   "asset": "X12"
+  }
+ ],
+ "B08": [
+  {
+   "id": "S008x",
+   "dopo": "S008",
+   "tipo": "immagine",
+   "asset": "X16"
+  }
+ ],
+ "B09": [
+  {
+   "id": "S009x",
+   "dopo": "S009",
+   "tipo": "immagine",
+   "asset": "X17"
+  }
+ ],
+ "B10": [
+  {
+   "id": "S010x",
+   "dopo": "S010",
+   "tipo": "immagine",
+   "asset": "X19"
+  },
+  {
+   "id": "S010y",
+   "dopo": "S010x",
+   "tipo": "immagine",
+   "asset": "X23"
+  }
+ ],
+ "B12": [
+  {
+   "id": "S012x",
+   "dopo": "S012",
+   "tipo": "immagine",
+   "asset": "X24"
+  },
+  {
+   "id": "S012y",
+   "dopo": "S012x",
+   "tipo": "immagine",
+   "asset": "X25"
+  }
+ ],
+ "B16": [
+  {
+   "id": "S016x",
+   "dopo": "S016",
+   "tipo": "immagine",
+   "asset": "X27"
+  }
+ ],
+ "B17": [
+  {
+   "id": "S017x",
+   "dopo": "S017",
+   "tipo": "immagine",
+   "asset": "X28"
+  }
+ ],
+ "B19": [
+  {
+   "id": "S019x",
+   "dopo": "S019",
+   "tipo": "immagine",
+   "asset": "X30"
+  }
+ ],
+ "B23": [
+  {
+   "id": "S023x",
+   "dopo": "S023",
+   "tipo": "immagine",
+   "asset": "X31"
+  }
+ ],
+ "B24": [
+  {
+   "id": "S024x",
+   "dopo": "S024",
+   "tipo": "immagine",
+   "asset": "X32"
+  }
+ ],
+ "B25": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "X33"
+  }
+ ],
+ "B27": [
+  {
+   "id": "S027x",
+   "dopo": "S027",
+   "tipo": "immagine",
+   "asset": "X34"
+  }
+ ],
+ "B28": [
+  {
+   "id": "S028x",
+   "dopo": "S028",
+   "tipo": "immagine",
+   "asset": "X35"
+  },
+  {
+   "id": "S028y",
+   "dopo": "S028x",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B30": [
+  {
+   "id": "S030x",
+   "dopo": "S030",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B31": [
+  {
+   "id": "S031x",
+   "dopo": "S031",
+   "tipo": "immagine",
+   "asset": "X40"
+  }
+ ],
+ "B32": [
+  {
+   "id": "S032x",
+   "dopo": "S032",
+   "tipo": "immagine",
+   "asset": "X41"
+  }
+ ],
+ "B33": [
+  {
+   "id": "S033x",
+   "dopo": "S033",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S034x",
+   "dopo": "S034",
+   "tipo": "immagine",
+   "asset": "X44"
+  }
+ ],
+ "B35": [
+  {
+   "id": "S035x",
+   "dopo": "S035",
+   "tipo": "immagine",
+   "asset": "X35"
+  }
+ ],
+ "B36": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B38": [
+  {
+   "id": "S038x",
+   "dopo": "S038",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B39": [
+  {
+   "id": "S039x",
+   "dopo": "S039",
+   "tipo": "immagine",
+   "asset": "X40"
+  }
+ ],
+ "B40": [
+  {
+   "id": "S040x",
+   "dopo": "S040",
+   "tipo": "immagine",
+   "asset": "X41"
+  }
+ ],
+ "B41": [
+  {
+   "id": "S041x",
+   "dopo": "S041",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B42": [
+  {
+   "id": "S042x",
+   "dopo": "S042",
+   "tipo": "immagine",
+   "asset": "X44"
+  }
+ ],
+ "B43": [
+  {
+   "id": "S043x",
+   "dopo": "S043",
+   "tipo": "immagine",
+   "asset": "X34"
+  }
+ ],
+ "B44": [
+  {
+   "id": "S044x",
+   "dopo": "S044",
+   "tipo": "immagine",
+   "asset": "X33"
+  }
+ ]
+}

@@ -55,6 +55,8 @@ def cap(s):
     if t == "scena":
         k = s["scena"]["tipo"]
         return 12 if k == "tabella" or s["scena"].get("layout") == "griglia" else 9
+    if t == "slide": return 12 if s.get("tabella") else 9   # slide pronte di un pacchetto
+    if t == "video": return s.get("durata_video", 19)        # animazione pronta di un pacchetto: scorre una volta
     if t == "immagine": return 18
     if t == "clip": return len(s["varianti"]) * CLIP / LENTO
     if t == "registrazione":
@@ -93,6 +95,7 @@ for b in blocchi:
 # --- pezzi
 def fondo_di(s):
     if s["tipo"] in ("immagine", "clip"): return "immagine"
+    if s["tipo"] in ("slide", "video"): return s.get("fondo", "chiaro")
     if s["tipo"] == "registrazione": return "neutro"
     if s["tipo"] == "scena":
         k = s["scena"]["tipo"]
@@ -123,6 +126,8 @@ for s in scene:
             avvisi.append(f"{s['id']}: manca la registrazione {s['asset']}, uso un segnaposto")
             pezzo(s, d, tipo_render="scena", scena={"tipo": "testo", "layout": "centrata", "fondo": "neutro", "livello": 1,
                   "etichetta": "Segnaposto", "testo": f"Registrazione {s['asset']}", "sotto": "da registrare: vedi PROMPT-VISIVI"})
+    elif t_ in ("slide", "video"):
+        pezzo(s, d, file=nome[s["asset"]], tabella=bool(s.get("tabella")))
     elif t_ == "immagine":
         n = max(1, math.ceil(d / 9 - 1e-9))
         for j in range(n):
@@ -156,8 +161,8 @@ pezzi[0].setdefault("ingresso", "taglio")
 # controlli del ritmo
 for p in pezzi:
     sec = (p["a"] - p["da"]) / FPS
-    lim = 12 if p.get("scena", {}).get("tipo") == "tabella" or p.get("scena", {}).get("layout") == "griglia" else 9
-    if p["tipo"] == "animazione_svg": lim = 1e9
+    lim = 12 if p.get("scena", {}).get("tipo") == "tabella" or p.get("scena", {}).get("layout") == "griglia" or p.get("tabella") else 9
+    if p["tipo"] in ("animazione_svg", "video"): lim = 1e9
     if p["blocco"] in ("APERTURA", "CHIUSURA"): lim = 10
     if sec > lim + 0.02: avvisi.append(f"{p['sid']}: {sec:.1f} s oltre il limite di {lim} s")
     if sec < 2.5 - 0.02: avvisi.append(f"{p['sid']}: {sec:.1f} s sotto il minimo di 2,5 s")

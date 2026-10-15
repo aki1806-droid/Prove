@@ -1,0 +1,430 @@
+{
+ "lezione": "IAS_M01_L03",
+ "titolo": "Cosa può fare l'IA per un sindacalista",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre compiti, tutti di scrittura"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Una brava stagista"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "6 famiglie di compiti sindacali"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le famiglie, prima parte"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Le obiezioni prima del tavolo"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le famiglie, seconda parte"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "E poi: imparare"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Quindici mail, una risposta tipo"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: La risposta tipo"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Risposta tipo sul part-time"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Come adatti la risposta tipo: Saluto con il nome / Un cenno al suo caso / Il riferimento verificato da te / L'invito a passare in sede"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C16"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A17",
+   "durata_video": 19.3,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Esempi per gradino"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Quale parte, non se"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Due modi di guardare un compito"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Scomporre un compito"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Scomposizione del resoconto"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il resoconto delle sette"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C25"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dove si risparmia davvero"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 frequente, testuale, ripetibile"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il volantino di lunedì"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Da maneggiare con cura"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Incollare elenchi di lavoratori o mail con dati → Lavora su modelli generici o testi anonimizzati"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 9 Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I33"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Trovare i compiti da delegare"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – I cinque compiti da delegare"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Delegare anche il controllo finale → Ogni compito delegato ha la sua verifica tua"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "L'IA prepara, riordina e propone. Il lavoro finito lo firmi tu."
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Riprendi il foglio della lezione 0.1 / Usa il prompt dei compiti da delegare / Scegli cinque compiti delegabili in parte / Collega ognuno a famiglia e modulo / Metti in ordine di priorità"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Ogni compito al suo modulo"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "La tua lista dei cinque"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 1.4 Cosa l'IA non deve mai fare al posto tuo"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

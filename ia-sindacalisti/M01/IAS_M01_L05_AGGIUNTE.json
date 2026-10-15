@@ -1,0 +1,318 @@
+{
+ "B01": [
+  {
+   "id": "S001x",
+   "dopo": "S001",
+   "tipo": "immagine",
+   "asset": "X01"
+  },
+  {
+   "id": "S001y",
+   "dopo": "S001x",
+   "tipo": "immagine",
+   "asset": "X03"
+  }
+ ],
+ "B02": [
+  {
+   "id": "S002x",
+   "dopo": "S002",
+   "tipo": "immagine",
+   "asset": "X04"
+  },
+  {
+   "id": "S002y",
+   "dopo": "S002x",
+   "tipo": "immagine",
+   "asset": "X06"
+  }
+ ],
+ "B03": [
+  {
+   "id": "S003x",
+   "dopo": "S003",
+   "tipo": "immagine",
+   "asset": "X08"
+  }
+ ],
+ "B04": [
+  {
+   "id": "S004x",
+   "dopo": "S004",
+   "tipo": "immagine",
+   "asset": "X09"
+  }
+ ],
+ "B06": [
+  {
+   "id": "S006x",
+   "dopo": "S006",
+   "tipo": "immagine",
+   "asset": "X11"
+  }
+ ],
+ "B08": [
+  {
+   "id": "S008x",
+   "dopo": "S008",
+   "tipo": "immagine",
+   "asset": "X13"
+  },
+  {
+   "id": "S008y",
+   "dopo": "S008x",
+   "tipo": "immagine",
+   "asset": "X14"
+  }
+ ],
+ "B09": [
+  {
+   "id": "S009x",
+   "dopo": "S009",
+   "tipo": "immagine",
+   "asset": "X15"
+  }
+ ],
+ "B11": [
+  {
+   "id": "S011x",
+   "dopo": "S011",
+   "tipo": "immagine",
+   "asset": "X16"
+  },
+  {
+   "id": "S011y",
+   "dopo": "S011x",
+   "tipo": "immagine",
+   "asset": "X17"
+  }
+ ],
+ "B12": [
+  {
+   "id": "S012x",
+   "dopo": "S012",
+   "tipo": "immagine",
+   "asset": "X18"
+  }
+ ],
+ "B13": [
+  {
+   "id": "S013x",
+   "dopo": "S013",
+   "tipo": "immagine",
+   "asset": "X19"
+  }
+ ],
+ "B14": [
+  {
+   "id": "S014x",
+   "dopo": "S014",
+   "tipo": "immagine",
+   "asset": "X21"
+  }
+ ],
+ "B15": [
+  {
+   "id": "S015x",
+   "dopo": "S015",
+   "tipo": "immagine",
+   "asset": "X24"
+  }
+ ],
+ "B16": [
+  {
+   "id": "S016x",
+   "dopo": "S016",
+   "tipo": "immagine",
+   "asset": "X25"
+  },
+  {
+   "id": "S016y",
+   "dopo": "S016x",
+   "tipo": "immagine",
+   "asset": "X26"
+  }
+ ],
+ "B17": [
+  {
+   "id": "S017x",
+   "dopo": "S017",
+   "tipo": "immagine",
+   "asset": "X28"
+  }
+ ],
+ "B18": [
+  {
+   "id": "S018x",
+   "dopo": "S018",
+   "tipo": "immagine",
+   "asset": "X29"
+  }
+ ],
+ "B19": [
+  {
+   "id": "S019x",
+   "dopo": "S019",
+   "tipo": "immagine",
+   "asset": "X31"
+  }
+ ],
+ "B20": [
+  {
+   "id": "S020x",
+   "dopo": "S020",
+   "tipo": "immagine",
+   "asset": "X33"
+  },
+  {
+   "id": "S020y",
+   "dopo": "S020x",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B21": [
+  {
+   "id": "S021x",
+   "dopo": "S021",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B22": [
+  {
+   "id": "S022x",
+   "dopo": "S022",
+   "tipo": "immagine",
+   "asset": "X39"
+  }
+ ],
+ "B23": [
+  {
+   "id": "S023x",
+   "dopo": "S023",
+   "tipo": "immagine",
+   "asset": "X40"
+  }
+ ],
+ "B24": [
+  {
+   "id": "S024x",
+   "dopo": "S024",
+   "tipo": "immagine",
+   "asset": "X41"
+  }
+ ],
+ "B25": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B26": [
+  {
+   "id": "S026x",
+   "dopo": "S026",
+   "tipo": "immagine",
+   "asset": "X44"
+  }
+ ],
+ "B28": [
+  {
+   "id": "S028x",
+   "dopo": "S028",
+   "tipo": "immagine",
+   "asset": "X28"
+  }
+ ],
+ "B29": [
+  {
+   "id": "S029x",
+   "dopo": "S029",
+   "tipo": "immagine",
+   "asset": "X29"
+  }
+ ],
+ "B31": [
+  {
+   "id": "S031x",
+   "dopo": "S031",
+   "tipo": "immagine",
+   "asset": "X31"
+  }
+ ],
+ "B33": [
+  {
+   "id": "S033x",
+   "dopo": "S033",
+   "tipo": "immagine",
+   "asset": "X33"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S034x",
+   "dopo": "S034",
+   "tipo": "immagine",
+   "asset": "X34"
+  }
+ ],
+ "B36": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B38": [
+  {
+   "id": "S038x",
+   "dopo": "S038",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B39": [
+  {
+   "id": "S039x",
+   "dopo": "S039",
+   "tipo": "immagine",
+   "asset": "X39"
+  }
+ ],
+ "B40": [
+  {
+   "id": "S040x",
+   "dopo": "S040",
+   "tipo": "immagine",
+   "asset": "X40"
+  }
+ ],
+ "B41": [
+  {
+   "id": "S041x",
+   "dopo": "S041",
+   "tipo": "immagine",
+   "asset": "X41"
+  }
+ ],
+ "B42": [
+  {
+   "id": "S042x",
+   "dopo": "S042",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B44": [
+  {
+   "id": "S044x",
+   "dopo": "S044",
+   "tipo": "immagine",
+   "asset": "X44"
+  }
+ ]
+}

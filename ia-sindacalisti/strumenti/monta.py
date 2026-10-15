@@ -68,6 +68,18 @@ def seg_clip(p):
     vf = f"setpts=PTS/{v},fps={FPS},{crop}scale=1920:1080:flags=lanczos,{COLORE},tpad=stop_mode=clone:stop=-1"
     ff("-i", src, "-an", "-vf", vf, "-frames:v", str(n), *ENC, seg(p))
 
+def seg_slide(p):
+    """slide pronta di un pacchetto: spinta lentissima (1,00 -> 1,03) al centro, senza trattamento colore ne' grana"""
+    src = os.path.join(B, "media", p["file"]); n = nfot(p); z = "1+0.03*on/%d" % max(1, n - 1)
+    vf = (f"scale=3840:2160:flags=lanczos,zoompan=z='{z}':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d={n}:s=1920x1080:fps={FPS}")
+    ff("-loop", "1", "-i", src, "-vf", vf, "-frames:v", str(n), *ENC, seg(p))
+
+def seg_video(p):
+    """animazione pronta di un pacchetto: velocita' normale, poi ultimo fotogramma tenuto"""
+    src = os.path.join(B, "media", p["file"])
+    vf = f"fps={FPS},scale=1920:1080:flags=lanczos,tpad=stop_mode=clone:stop=-1"
+    ff("-i", src, "-an", "-vf", vf, "-frames:v", str(nfot(p)), *ENC, seg(p))
+
 def seg_registrazione(p):
     """registrazione vera: per ora solo adattata a 1920x1080 e alla durata dell'inquadratura (tagli, zoom e accelerazioni a mano)"""
     vf = f"fps={FPS},scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=#FAF8F4,tpad=stop_mode=clone:stop=-1"
@@ -120,6 +132,8 @@ def segmenti(solo=None):
         if os.path.exists(seg(p)): continue
         if p["tipo"] == "immagine": seg_immagine(p); print("immagine", p["n"], p["file"])
         elif p["tipo"] == "clip": seg_clip(p); print("clip", p["n"], p["file"])
+        elif p["tipo"] == "slide": seg_slide(p); print("slide", p["n"], p["file"])
+        elif p["tipo"] == "video": seg_video(p); print("video", p["n"], p["file"])
         elif p.get("registrazione"): seg_registrazione(p); print("registrazione", p["n"], p["registrazione"])
     env = dict(os.environ, FFMPEG=FF)
     subprocess.run(["node", os.path.join(STR, "render.js"), jf], check=True, env=env)

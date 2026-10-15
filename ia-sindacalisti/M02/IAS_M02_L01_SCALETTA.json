@@ -1,0 +1,423 @@
+{
+ "lezione": "IAS_M02_L01",
+ "titolo": "Creare gli account e orientarsi nelle tre interfacce",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Bloccata prima del primo prompt"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Tre colori, una sola pianta"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il primo giorno"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 account gratuiti per iniziare"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Quale indirizzo usare"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Registrarsi con l'email dell'azienda → Usa un indirizzo del sindacato o creato apposta"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa serve per registrarsi: Gemini: un account Google / ChatGPT: email, Google, Microsoft, Apple / Claude: email o Google, maggiorenni / Workspace: decide l'amministratore"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A11",
+   "durata_video": 18.8,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 9 Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Abbonamento? Per ora, rimanda"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Subito dopo la registrazione: Installa un'app sul telefono / Stesso indirizzo ovunque / Password in un posto sicuro"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A18",
+   "durata_video": 20.33,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dove trovi le cinque zone"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Cosa c'è solo in ciascuno"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Marta apre i tre account"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "20 min per aprire e orientarsi nei tre"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R07"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Stesso prompt, tre chat nuove"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Prima prova uguale per tutti"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R08"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – A cosa serve una RSU"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – A cosa serve una RSU"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – A cosa serve una RSU"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Lunghezza, tono, ordine"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Fatti fare da guida"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Fidarsi dell'IA su dove sono i pulsanti → Controlla impostazioni e pagina di aiuto ufficiale"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Rinomina e ordina"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I37"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Prima prova con la pratica di un collega → Tema neutro; i casi veri dopo il modulo privacy"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C39"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Le interfacce cambiano, le cinque zone restano."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli un indirizzo dedicato, mai aziendale / Apri i tre account e un'app / Trova le cinque zone e le impostazioni / Incolla la prima prova nei tre / Annota tre righe su ciascuno"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Le tre righe su ciascuno: Cosa ti è sembrato chiaro / Cosa ti ha confuso / Quale interfaccia ti viene naturale"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 2.2 Gratis o a pagamento: quando conviene pagare"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

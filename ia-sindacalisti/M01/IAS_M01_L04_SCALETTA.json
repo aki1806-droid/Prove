@@ -1,0 +1,418 @@
+{
+ "lezione": "IAS_M01_L04",
+ "titolo": "Cosa l'IA non deve mai fare al posto tuo",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Conviene firmare questo accordo?"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Qui si passa il confine"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 no decidere, firmare, giudicare"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "I tre compiti che restano a te"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa manca allo strumento: Il mandato dei lavoratori / La responsabilità / La conoscenza delle persone / La storia della vertenza"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C09"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "L'accordo sull'orario"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A11",
+   "durata_video": 20.03,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Ore risparmiate, nessuna decisione"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 22 Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "La persona al centro"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "X15",
+   "nota": "la clip generata aveva testo finto in evidenza: scartata, al suo posto un'immagine"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prima a noi stessi"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Riformulare la domanda"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Le opzioni, non la decisione"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Tre opzioni sull'accordo produttività"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa porti in riunione: Le tre opzioni / I rischi per i lavoratori / Le informazioni mancanti / Le domande per la squadra"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 domande da porre alla squadra prima di scegliere"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Dove perde il lavoratore"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Dove perde il lavoratore"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Chiudere la conversazione con: allora firmo? → Porta opzioni e punti critici in riunione"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I28"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: L'avvocato del diavolo"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Obiezioni alla decisione"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Chiedere se un lavoratore è affidabile → Mai giudizi su persone, mai dati personali"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Risponderà comunque"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Sulle persone"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C35"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "L'IA ti aiuta a pensare. Decisione, firma e giudizio restano tuoi."
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Pensa a una decisione che avresti delegato / Completa le tre frasi / Riduci tutto a tre righe / Mettila dove la vedi / Confrontala con un collega"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre frasi da completare: L'IA può preparare... / L'IA non decide mai... / Prima di firmare io..."
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una regola in tre righe"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Dalla regola al protocollo"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I42"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 1.5 La prima conversazione guidata"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P43",
+   "fondo": "scuro"
+  }
+ ]
+}
