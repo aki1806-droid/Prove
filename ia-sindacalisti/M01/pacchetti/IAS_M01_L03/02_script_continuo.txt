@@ -1,0 +1,87 @@
+Benvenuto alla lezione uno punto tre. Nelle due lezioni precedenti hai visto i limiti dell'IA. Oggi guardiamo l'altra faccia: dove può aiutarti davvero nel lavoro sindacale. Scoprirai le sei famiglie di compiti, imparerai a distinguere ciò che puoi delegare e preparerai la tua lista personale.
+
+Giovedì sera, in una sede territoriale. Il segretario deve ancora scrivere il resoconto dell'incontro in azienda di stamattina. Nella casella ci sono dieci mail di iscritti senza risposta. E lunedì c'è un'assemblea, ma il volantino non esiste ancora. Sono le sette passate, e la sede è vuota.
+
+Tre compiti, tre testi da produrre. Il resoconto parte dagli appunti presi al tavolo. Le mail ripetono, con parole diverse, le stesse quattro domande. Il volantino è uguale a cento altri, cambia solo il tema. Nessuno dei tre richiede una decisione difficile. Richiedono solo tempo, quello che manca.
+
+Ecco l'immagine giusta per pensare all'IA in sede. È una brava stagista. Prepara bozze, riordina appunti, riassume, propone. Lavora veloce e non si stanca. Ma non conosce i colleghi, non sa la storia della vertenza e non firma niente. Il lavoro finito resta tuo.
+
+Oggi, senza IA, ognuno di quei compiti si fa da capo. Il resoconto si batte a mano rileggendo gli appunti. Ogni mail si scrive da zero, anche quando è la decima uguale. Il volantino si ricava aprendo il vecchio file e cambiando date e tema. È lavoro necessario, ma in gran parte ripetitivo.
+
+Il lavoro di una sede è fatto in gran parte di testi: scritti, letti, riassunti, trasformati. Ed è esattamente il terreno dove i modelli linguistici danno il meglio. Possiamo raggruppare questi compiti in sei famiglie. Ognuna corrisponde a uno o più moduli del corso.
+
+Le prime tre famiglie. Scrivere: comunicati, volantini, lettere all'azienda, mail e messaggi. Leggere: riassumere delibere, confrontare regolamenti, estrarre scadenze da un contratto. Preparare: costruire la piattaforma, prevedere le obiezioni della controparte, simulare il tavolo.
+
+Un esempio della terza famiglia. Prima di un incontro sull'orario, chiedi all'IA quali obiezioni potrebbe sollevare l'azienda alla vostra richiesta. In un minuto hai un elenco da discutere con la squadra. Alcune le avevate già previste, altre no. È preparazione, non decisione.
+
+Le altre tre. Tutelare: ricostruire la cronologia di un caso, preparare una bozza di accesso agli atti, scrivere una risposta chiara al lavoratore. Organizzare: ordini del giorno, sintesi di riunioni, verbali, materiali formativi. Comunicare: piano editoriale, locandine, grafiche social, sondaggi.
+
+A queste sei si aggiunge una famiglia trasversale: imparare. Puoi chiedere all'IA di spiegarti un istituto contrattuale o una procedura, come faresti con un collega esperto. Con una sola avvertenza, che ormai conosci: quello che ti spiega va verificato, come hai visto nella lezione precedente.
+
+Vediamo la famiglia più frequente, scrivere, con un caso concreto. Un'operatrice riceve quindici mail di lavoratori che chiedono, con parole diverse, come funziona la richiesta di part-time. Invece di scrivere quindici risposte, ne prepara una sola, chiara e corretta, da adattare ai singoli casi.
+
+Apri Claude in una chat nuova. Prima di tutto riformuli la domanda in modo generico, togliendo nomi, reparti e ogni dettaglio personale: come si chiede il passaggio al part-time? Nell'IA entra solo questa domanda. Le mail dei lavoratori restano nella tua casella, dove devono stare.
+
+Ecco il prompt della risposta tipo. Incolli la domanda ricorrente e chiedi una risposta di massimo dodici righe, cortese e chiara, per chi non conosce il linguaggio contrattuale. Il dettaglio decisivo è l'ultima riga: i riferimenti esatti restano tra parentesi quadre, da completare dopo la verifica.
+
+Ecco un estratto verosimile. La risposta spiega i passaggi in modo semplice, con un tono cortese. E dove serve un riferimento preciso lascia lo spazio vuoto tra parentesi quadre. Tu lo completi con il regolamento aziendale alla mano. Una sola verifica, quindici risposte pronte da personalizzare.
+
+La risposta tipo però non si spedisce così com'è. La adatti a ogni lavoratore, direttamente nella tua posta e non nell'IA. Aggiungi il saluto con il nome, un riferimento alla sua situazione specifica, il riferimento normativo che hai verificato tu, e l'invito a passare in sede se il caso è complicato.
+
+Hai appena visto la logica di tutta la lezione. Non ti sei chiesto se l'IA può rispondere alle mail al posto tuo. Ti sei chiesto quale parte di quel lavoro può fare lei, e quale resta a te. È un cambio di domanda piccolo, ma cambia completamente il modo di lavorare.
+
+Ogni compito si può collocare su tre gradini. Delegabile, quando l'IA fa e tu dai solo un'occhiata. Delegabile in parte, quando l'IA prepara la bozza e tu verifichi e completi. Non delegabile, quando il compito resta interamente tuo. Quasi tutto il lavoro di sede sta sul gradino di mezzo.
+
+Qualche esempio per gradino. Delegabile: proporre cinque titoli, correggere refusi, cambiare il tono di un testo. Delegabile in parte: il comunicato, il riassunto di una delibera, il verbale, la lettera all'azienda. Non delegabile: decidere la linea, firmare, valutare un lavoratore.
+
+Il gradino di mezzo è il più ampio, ed è lì che si concentra il valore di tutto il corso. Quello in basso, il non delegabile, lo approfondiamo nella prossima lezione. Per oggi tieni a mente la domanda giusta, quella che sostituisce il vecchio si può o non si può.
+
+Guarda la differenza tra i due modi di ragionare. Se pensi tutto o niente, un compito complesso ti sembrerà sempre non delegabile, e non userai mai lo strumento. Se lo scomponi in passaggi, scopri che alcuni sono perfetti per l'IA, altri vanno controllati, altri restano a te.
+
+Ecco il prompt che fa questo lavoro per te. Indichi il settore e descrivi un compito settimanale, senza dati personali. Chiedi di scomporlo in passaggi e, per ognuno, di dirti il gradino di delega, cosa devi controllare tu e quanto tempo potresti risparmiare, a stima. Tutto in una tabella.
+
+Proviamolo in ChatGPT sul compito del segretario: il resoconto di un incontro in azienda, partendo dagli appunti presi al tavolo. Completi i segnaposto, settore sanità pubblica, e descrivi il compito in due righe generiche. Nessun nome dei partecipanti, nessun dettaglio della trattativa.
+
+Ecco la tabella verosimile. Riordinare gli appunti e scrivere la prima bozza sono delegabili in parte. Controllare che le posizioni delle parti siano riportate correttamente resta a te, perché c'eri tu al tavolo. Decidere cosa diffondere ai lavoratori non è delegabile. La stima finale: circa metà del tempo.
+
+Torniamo al segretario del giovedì sera. Con la scomposizione davanti, incolla gli appunti senza nomi, ottiene una bozza ordinata del resoconto e la confronta con quello che ricorda del tavolo. Corregge due passaggi in cui la posizione dell'azienda era riportata in modo troppo morbido. Alle otto il resoconto è pronto.
+
+Non tutti i compiti però rendono allo stesso modo. Il guadagno più grande arriva dove il lavoro è frequente, è fatto di testo e ha una struttura che si ripete. Dove servono un dato preciso o una valutazione delicata, si risparmia poco, e a volte si rischia.
+
+Ecco la mappa. Molto vantaggiosi: le bozze di comunicati e volantini, trasformare un testo in un messaggio breve, le scalette e gli ordini del giorno. Vantaggiosi con verifica: riassunti, confronti tra versioni, verbali. Da maneggiare con cura: calcoli sulle buste paga, citazioni di norme, casi individuali delicati.
+
+Per riconoscere un compito che rende, guarda tre caratteristiche. È frequente, cioè torna ogni settimana. È testuale, cioè il risultato è un testo. Ed è ripetibile, cioè ha più o meno sempre la stessa struttura. Più caselle spunta, più tempo recuperi.
+
+Il volantino dell'assemblea di lunedì le spunta tutte e tre. Torna spesso, è un testo, ha sempre la stessa struttura: tema, data, luogo, invito. Il segretario può partire da una bozza in pochi minuti e dedicare il tempo risparmiato a telefonare ai delegati di reparto.
+
+Un esempio veloce in Gemini. Incolli un comunicato già uscito, senza dati personali, e chiedi di trasformarlo in un messaggio di cinque righe per il gruppo dei delegati. È un compito molto vantaggioso: il contenuto è già verificato, cambia solo la forma.
+
+All'estremo opposto ci sono i compiti da maneggiare con cura. I calcoli sulle buste paga, che vedremo nel modulo quindici. Le citazioni di norme e sentenze, che controlleremo nel modulo cinque. I casi individuali delicati, che tratteremo nel modulo nove. Lì l'IA aiuta, ma solo con molta attenzione.
+
+E qui l'errore tipico. Delegare un compito con i dati dentro, per fare prima. Incollare l'elenco dei lavoratori del reparto per preparare un messaggio, o la mail di un iscritto con nome e problema di salute. Non si fa mai. Si lavora su modelli generici o su testi anonimizzati.
+
+Il motivo è preciso. Il regolamento europeo sulla protezione dei dati, il GDPR, all'articolo nove considera categorie particolari i dati sulla salute e quelli che rivelano l'appartenenza sindacale. Per un sindacato sono dati di tutti i giorni. Proprio per questo vanno tenuti fuori dagli strumenti di IA.
+
+Adesso applichiamo tutto questo alla tua settimana, non a quella di un segretario immaginario. L'obiettivo è uscire da questa lezione con cinque compiti concreti, già scomposti, su cui cominciare a sperimentare nelle prossime settimane.
+
+Ecco l'ultimo prompt della lezione. Descrivi la tua settimana tipo, elencando le attività in forma generica, senza nomi né dati. Chiedi all'IA di individuare i cinque compiti in cui potrebbe farti risparmiare più tempo, spiegando per ciascuno cosa farebbe lei e cosa resterebbe a te.
+
+In Claude incolli il prompt con la tua settimana. Per esempio: due assemblee, tre incontri con l'azienda, circa trenta mail di lavoratori, un comunicato, la lettura di due delibere, il verbale della segreteria. Tutto in forma generica. Invii e leggi la classifica che ti propone.
+
+Ecco un estratto verosimile. In cima alla lista ci sono le risposte alle mail ricorrenti e la prima bozza del verbale. Poi i riassunti delle delibere. Per ciascun compito c'è una riga su cosa farebbe l'IA e una su cosa resta a te. È già una base su cui ragionare.
+
+Attenzione però a non delegare anche il controllo. La tentazione, quando la bozza è buona, è mandarla così com'è. Ma la colonna cosa resta a me non è un dettaglio: è la parte del lavoro che garantisce la qualità e la tua credibilità. Se la salti, il tempo risparmiato lo paghi dopo.
+
+Se ti porti a casa una sola frase, che sia questa. L'IA è una brava stagista: prepara bozze, riordina, riassume e propone. Ma il lavoro finito, quello che esce dalla sede, lo controlli e lo firmi tu.
+
+Ora tocca a te. Riprendi il foglio della lezione zero punto uno, quello con i tre compiti che ti rubano più tempo, e aggiungi le altre attività ricorrenti. Usa il prompt per trovare i compiti da delegare. Poi scegli cinque compiti e per ciascuno scrivi una riga su cosa farebbe l'IA e cosa controlleresti tu.
+
+Un consiglio per la lista. Collega ogni compito alla sua famiglia e al modulo che lo tratta. Le mail ricorrenti vanno con scrivere, modulo sei. Le delibere con leggere, modulo sette. Così sai già in quale parte del corso troverai gli strumenti per quel compito.
+
+Ecco come potrebbe apparire la tua lista finita. Cinque righe, tre colonne: il compito, la famiglia, il modulo. Al primo posto metti il compito su cui sperimenterai per primo, quello che ti pesa di più e che hai più spesso sotto mano.
+
+Salva la lista in un documento che ritrovi facilmente, magari accanto al foglio della lezione zero punto uno. Se vuoi, chiedi all'IA di trasformarla in una tabella ordinata. La userai di nuovo più avanti nel corso, quando costruirai i tuoi primi prompt personali.
+
+Con questa lista hai fatto qualcosa di molto concreto. Non stai più pensando all'IA in astratto, ma a cinque compiti precisi della tua settimana. È da qui che nasce il tempo recuperato: non dalle promesse dello strumento, ma dalle scelte che fai tu su cosa affidargli.
+
+Nella prossima lezione tracciamo il confine. Vedrai i tre compiti che l'IA non deve mai fare al posto tuo, cioè decidere, firmare e giudicare le persone, e perché anche la legge mette la persona al centro. Ci vediamo nella lezione uno punto quattro.

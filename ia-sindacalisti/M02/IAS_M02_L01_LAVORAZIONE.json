@@ -1,0 +1,30 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "Le registrazioni schermo sono sostituite da ricostruzioni animate (le slide del pacchetto con la fascia SEGNAPOSTO non si usano).",
+  "Le risposte delle IA nelle ricostruzioni sono verosimili, scritte per la lezione: vanno confrontate con una prova vera.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "fonte": "pacchetto video del 15 ottobre 2026 (slide pronte 1920x1080, una scena = un blocco); testi originali in M02/pacchetti/IAS_M02_L01/; slide in M02/slide/IAS_M02_L01/",
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille: «solo heygen sempre Achille nuovo 1»",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "sei tracce: la A (2.856 caratteri) è andata in timeout a 60 s e, con il consenso di Achille, è stata rifatta in due metà A1 e A2, blocchi uniti da <break time=\"1.6s\"/>; confini dai segnaposto di pausa nei word_timestamps.",
+  "request_id": [
+   "zeo4EAzYdfiF6g31I5Ln",
+   "GP8wnhl568DDNYdoKbPY",
+   "mCtioTUYZNFRVLyMisBj",
+   "EuTd0LEanTIPU8PBxzY9",
+   "5tvvSf50VYj9pzHVrEfj",
+   "ow2OAZDFVLXnNXHVZhzQ"
+  ],
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "durata_stimata_s": 750.5,
+  "nota": "Script del pacchetto letto senza modifiche: arriva a 12 minuti senza aggiunte.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "montaggio": "Locale: le slide del pacchetto come inquadrature (al massimo 9 s, 12 per le tabelle), più immagini e clip Higgsfield e ricostruzioni animate delle registrazioni; poi unione in HeyGen come per le altre lezioni."
+}

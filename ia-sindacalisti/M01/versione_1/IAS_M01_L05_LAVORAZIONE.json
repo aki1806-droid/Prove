@@ -1,0 +1,46 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "B15 e B20 sono marcati [DA ADATTARE ALL'ESITO REALE]: descrivono i tre segni sulla risposta e la correzione, e vanno riscritti su ciò che risponde davvero lo strumento nella registrazione.",
+  "B04 dice «quello che vedrai a schermo è una prova reale, non preparata»: con le ricostruzioni al posto della registrazione la frase non è vera. Va tenuta solo con la registrazione vera.",
+  "Le registrazioni sono sostituite da ricostruzioni animate.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "segnaposto_aperti": [
+  "B15 [DA ADATTARE ALL'ESITO REALE]",
+  "B20 [DA ADATTARE ALL'ESITO REALE]",
+  "B04: «prova reale, non preparata»",
+  "Registrazioni: ricostruzioni al posto delle registrazioni"
+ ],
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille dal 13 ottobre: «solo heygen sempre Achille nuovo 1»",
+  "account_heygen": "aki.pagliaro@gmail.com (piano Pro)",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "cinque tracce A-E sotto i 2.900 caratteri (la più lunga 2.865), blocchi uniti da <break time=\"1.6s\"/>; confini dai segnaposto di pausa nei word_timestamps, senza trascrizione.",
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16 (HeyGen è il 3,3% più lento di ElevenLabs diretto); 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "nota_pausa": "Per arrivare a 12 minuti sono state aggiunte tredici frasi brevi, su delega di Achille («per 1.4-1.5 decidi tu»). Voce 703,6 s, totale 738,8 s.",
+  "coerenza_corso": "M00 L01 e M01 L01 restano con la voce di ElevenLabs diretto (atempo 1,12): Achille ha scelto di non rifarle.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "modifiche_allo_script": {
+  "aggiunte": {
+   "B02": "Conoscere la materia è la tua migliore difesa.",
+   "B04": "Anche gli errori, qui, sono utili da vedere.",
+   "B06": "È come cominciare su un foglio pulito.",
+   "B09": "Meno dettagli metti, meno rischi corri.",
+   "B12": "E ogni punto diventa una cosa da verificare.",
+   "B14": "Nessuna risposta si usa senza questa lettura.",
+   "B17": "È proprio quel dettaglio che i tre segni ti aiutano a trovare.",
+   "B22": "La fretta, qui, è la nemica peggiore.",
+   "B27": "Un archivio così vale più di qualunque strumento.",
+   "B30": "Ogni strumento ha il suo carattere, e imparerai a conoscerlo.",
+   "B31": "La velocità arriva con la pratica, non con le scorciatoie.",
+   "B32": "Anche i colleghi più esperti hanno cominciato così.",
+   "B36": "Il resto lo fa la pratica."
+  },
+  "nota": "Aggiunte su delega di Achille per arrivare a 12 minuti con la voce HeyGen."
+ }
+}

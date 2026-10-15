@@ -1,0 +1,37 @@
+Copione registrazioni schermo · Lezione 1.3
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 12 · Claude · durata circa 17 s
+Azione: Si scrive la domanda ricorrente in forma generica, senza dati delle mail.
+Da digitare:
+Domanda ricorrente: come si chiede il passaggio dal tempo pieno al part-time?
+Zoom / evidenziare: La domanda generica, senza nomi
+Parlato che accompagna: Apri Claude in una chat nuova. Prima di tutto riformuli la domanda in modo generico, togliendo nomi, reparti e ogni dettaglio personale: come si chiede il passaggio al part-time? Nell'IA entra solo questa domanda. Le mail dei lavoratori restano nella tua casella, dove devono stare.
+
+SCENA 22 · ChatGPT · durata circa 18 s
+Azione: Si completa il prompt con il compito del resoconto di un incontro.
+Da digitare:
+Compito: scrivere il resoconto di un incontro con l'azienda partendo dai miei appunti presi al tavolo.
+Zoom / evidenziare: La descrizione generica del compito
+Parlato che accompagna: Proviamolo in ChatGPT sul compito del segretario: il resoconto di un incontro in azienda, partendo dagli appunti presi al tavolo. Completi i segnaposto, settore sanità pubblica, e descrivi il compito in due righe generiche. Nessun nome dei partecipanti, nessun dettaglio della trattativa.
+
+SCENA 29 · Gemini · durata circa 16 s
+Azione: Si trasforma un comunicato già pubblicato in un messaggio breve.
+Da digitare:
+Trasforma questo comunicato in un messaggio di 5 righe per il gruppo dei delegati.
+Zoom / evidenziare: Il messaggio breve sotto il comunicato originale
+Parlato che accompagna: Un esempio veloce in Gemini. Incolli un comunicato già uscito, senza dati personali, e chiedi di trasformarlo in un messaggio di cinque righe per il gruppo dei delegati. È un compito molto vantaggioso: il contenuto è già verificato, cambia solo la forma.
+
+SCENA 35 · Claude · durata circa 17 s
+Azione: Si descrive una settimana tipo generica e si chiede la classifica dei compiti.
+Da digitare:
+Settimana tipo: 2 assemblee, 3 incontri con l'azienda, circa 30 mail di lavoratori, 1 comunicato, 2 delibere da leggere, il verbale di segreteria.
+Zoom / evidenziare: La classifica dei cinque compiti
+Parlato che accompagna: In Claude incolli il prompt con la tua settimana. Per esempio: due assemblee, tre incontri con l'azienda, circa trenta mail di lavoratori, un comunicato, la lettura di due delibere, il verbale della segreteria. Tutto in forma generica. Invii e leggi la classifica che ti propone.
+
+SCENA 42 · ChatGPT · durata circa 16 s
+Azione: Si trasforma la lista dei cinque compiti in una tabella ordinata.
+Da digitare:
+Trasforma questa lista in una tabella con compito, famiglia e modulo.
+Zoom / evidenziare: La tabella ordinata dei cinque compiti
+Parlato che accompagna: Salva la lista in un documento che ritrovi facilmente, magari accanto al foglio della lezione zero punto uno. Se vuoi, chiedi all'IA di trasformarla in una tabella ordinata. La userai di nuovo più avanti nel corso, quando costruirai i tuoi primi prompt personali.

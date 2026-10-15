@@ -1,0 +1,31 @@
+Copione registrazioni schermo · Lezione 1.4
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 18 · ChatGPT · durata circa 16 s
+Azione: Si apre una chat nuova per descrivere la situazione in forma generica.
+Zoom / evidenziare: La casella vuota della nuova chat
+Parlato che accompagna: Rifacciamo la scena del delegato, ma nel modo giusto. Apri ChatGPT in una chat nuova. Non incolli l'accordo con la domanda devo firmare. Descrivi invece la situazione in forma generica, senza nomi e senza dati personali, e chiedi le opzioni. Ecco il prompt da usare.
+
+SCENA 20 · Claude · durata circa 15 s
+Azione: Si incolla il prompt delle opzioni con la situazione generica dell'accordo.
+Da digitare:
+Situazione: l'azienda propone un accordo che lega parte del premio di produttività alle presenze. La RSU deve decidere se firmare, chiedere modifiche o non firmare.
+Zoom / evidenziare: Le tre opzioni e le domande finali
+Parlato che accompagna: Lo proviamo in Claude. Come descrizione scrivi: l'azienda propone un accordo che lega una parte del premio di produttività alle presenze; la RSU deve decidere se firmarlo, chiedere modifiche o non firmare. Nient'altro. Invii e leggi con calma.
+
+SCENA 25 · Gemini · durata circa 17 s
+Azione: Si incolla l'ipotesi di accordo ripulita con il prompt dei punti sfavorevoli.
+Zoom / evidenziare: I passaggi citati accanto a ogni punto
+Parlato che accompagna: In Gemini incolli il prompt e, sotto, il testo dell'ipotesi di accordo, dopo aver tolto eventuali nomi e riferimenti a persone. Il documento può essere lungo: non importa. Quello che ti interessa è che ogni punto segnalato venga accompagnato dal passaggio da cui nasce.
+
+SCENA 30 · ChatGPT · durata circa 16 s
+Azione: Si inserisce la decisione della squadra nel prompt dell'avvocato del diavolo.
+Da digitare:
+Ho deciso di non firmare l'accordo così com'è e di chiedere che le assenze giustificate non riducano il premio.
+Zoom / evidenziare: Le cinque obiezioni e le risposte suggerite
+Parlato che accompagna: In ChatGPT scrivi la decisione della squadra: non firmare l'accordo così com'è e chiedere che le assenze giustificate non riducano il premio. Invii il prompt e leggi le obiezioni una per una. Alcune le avevate già previste in riunione, altre no. Annota quelle nuove.
+
+SCENA 40 · Claude · durata circa 17 s
+Azione: La regola personale incollata in cima al documento dei prompt.
+Zoom / evidenziare: Le tre righe della regola in evidenza
+Parlato che accompagna: Mettila in testa al documento dove raccogli i tuoi prompt, oppure in una nota fissa sul telefono. Così la vedi ogni volta che stai per usare lo strumento. E condividila con un collega di sede: confrontare due regole aiuta a trovare i punti che a uno dei due erano sfuggiti.

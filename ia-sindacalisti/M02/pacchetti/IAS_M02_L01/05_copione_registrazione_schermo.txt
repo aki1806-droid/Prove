@@ -1,0 +1,46 @@
+Copione registrazioni schermo · Lezione 2.1
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 13 · ChatGPT · durata circa 19 s
+Azione: Si apre la pagina di registrazione e si inserisce l'indirizzo dedicato.
+Da digitare:
+rsu.sede@[DOMINIO]
+Zoom / evidenziare: Campo email e pulsante per continuare
+Parlato che accompagna: Andiamo a schermo, partendo da ChatGPT. Apri chatgpt punto com e scegli di registrarti. Inserisci l'indirizzo dedicato, crea la password e incolla il codice che ti arriva per email. Puoi usarlo in parte anche senza account, ma così non avresti né cronologia né impostazioni. Per il corso, l'account serve.
+
+SCENA 14 · Claude · durata circa 18 s
+Azione: Si accede a Claude con l'indirizzo dedicato e si conferma dal link ricevuto.
+Zoom / evidenziare: Messaggio di conferma e prima schermata vuota
+Parlato che accompagna: Ora Claude. Vai su claude punto ai e scegli di accedere con email o con Google. Arriva un link o un codice di conferma: lo apri, e in pochi secondi sei dentro. Claude ha anche un'app per il computer e una per il telefono. Le installiamo dopo, prima prendiamo confidenza con la versione nel browser.
+
+SCENA 15 · Gemini · durata circa 17 s
+Azione: Si entra in Gemini scegliendo l'account Google dedicato.
+Zoom / evidenziare: Selettore dell'account Google in alto a destra
+Parlato che accompagna: Infine Gemini, su gemini punto google punto com. Qui non c'è una vera registrazione: entri con un account Google. Se l'indirizzo dedicato è già un account Google, sei pronto. Altrimenti crei un account Google nuovo per il lavoro sindacale, così tieni separate le cose fin dall'inizio.
+
+SCENA 20 · ChatGPT · durata circa 19 s
+Azione: Si indicano una dopo l'altra le cinque zone dell'interfaccia.
+Zoom / evidenziare: Barra laterale, pulsante più e menu del modello
+Parlato che accompagna: Torniamo in ChatGPT e cerchiamo le cinque zone. A sinistra la nuova chat e, sotto, la cronologia. In basso la casella, con il pulsante più per allegare file, attivare la ricerca o creare un'immagine. Il modello si sceglie dal menu in alto, dove c'è anche il comando per regolare quanto deve ragionare.
+
+SCENA 21 · Claude · durata circa 18 s
+Azione: Si apre la barra laterale e si indicano le cinque zone.
+Zoom / evidenziare: Pulsante allegati e nome del modello vicino alla casella
+Parlato che accompagna: In Claude la pianta è la stessa. La barra laterale si apre e si chiude con un clic e contiene nuova chat, cronologia e Progetti. La casella è al centro, con il pulsante per allegare a sinistra. Il nome del modello compare accanto alla casella: cliccandoci sopra, vedi quali hai a disposizione.
+
+SCENA 22 · Gemini · durata circa 17 s
+Azione: Si indicano le cinque zone nell'interfaccia di Gemini.
+Zoom / evidenziare: Pulsante più e selettore del modello
+Parlato che accompagna: In Gemini trovi il menu laterale con la nuova chat e le conversazioni recenti. La casella è in basso, con il più per caricare file e gli strumenti, come Deep Research. Il selettore del modello sta vicino alla casella. Cambiano le icone e i nomi, ma le cinque zone ci sono tutte.
+
+SCENA 26 · Claude · durata circa 16 s
+Azione: Si apre il menu del profilo e si raggiunge la sezione sui dati.
+Zoom / evidenziare: Voce privacy o controlli sui dati nelle impostazioni
+Parlato che accompagna: Fai anche tu come Marta. Apri le impostazioni di ciascuno strumento, di solito dall'icona con il tuo nome o le tue iniziali, e cerca la sezione sui dati o sulla privacy. Non cambiare ancora nulla. Annota solo dove si trova: la sistemeremo per bene nel modulo tre.
+
+SCENA 29 · Gemini · durata circa 17 s
+Azione: Lo stesso prompt viene incollato in tre schede affiancate.
+Da digitare:
+Sono un delegato sindacale del settore sanità pubblica...
+Zoom / evidenziare: Le tre schede del browser una accanto all'altra
+Parlato che accompagna: Apri tre schede del browser, una per strumento, e in ognuna premi nuova chat. Incolli il prompt nella prima, invii, poi passi alla seconda e alla terza. Mentre scrivono, guarda come compare la risposta: qualcuno parte subito, qualcuno si prende qualche secondo per ragionare.

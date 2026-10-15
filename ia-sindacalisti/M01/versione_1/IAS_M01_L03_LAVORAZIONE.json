@@ -1,0 +1,37 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "Le registrazioni R01-R04 sono sostituite da ricostruzioni animate.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "segnaposto_aperti": [
+  "R01-R04: ricostruzioni al posto delle registrazioni"
+ ],
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille dal 13 ottobre: «solo heygen sempre Achille nuovo 1»",
+  "account_heygen": "aki.pagliaro@gmail.com (piano Pro)",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "cinque tracce A-E sotto i 2.900 caratteri (la più lunga 2.854), blocchi uniti da <break time=\"1.6s\"/>; confini dai segnaposto di pausa nei word_timestamps (taglio a metà della pausa), senza trascrizione; una sesta traccia R per i tre blocchi allungati dopo",
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16 (HeyGen è il 3,3% più lento di ElevenLabs diretto); 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "nota_pausa": "Con le sei frasi approvate la lezione veniva 11:57 (716,9 s): ne ho aggiunte altre tre in B20, B27 e B29, rigenerate nella traccia R, come Achille ha delegato («per 1.4-1.5 decidi tu»). Totale 728,7 s.",
+  "coerenza_corso": "M00 L01 e M01 L01 restano con la voce di ElevenLabs diretto (atempo 1,12): Achille ha scelto di non rifarle.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "modifiche_allo_script": {
+  "aggiunte": {
+   "B05": "E un secondo paio d'occhi non si stanca mai di rileggere.",
+   "B09": "Un verbale in ordine, poi, è un verbale che qualcuno legge davvero.",
+   "B12": "Una sola frase tradotta male può confondere più di nessuna traduzione.",
+   "B18": "Le tre domande servono proprio a separare questi casi in pochi secondi.",
+   "B31": "Qui la costanza conta più dell'entusiasmo.",
+   "B33": "Una sede che risponde presto è una sede di cui ci si fida.",
+   "B20": "Ed è giusto così: la matrice serve a te, non a un manuale.",
+   "B27": "Il tempo guadagnato vale solo se finisce nel posto giusto.",
+   "B29": "In quei casi, scrivere da solo resta la scelta migliore."
+  },
+  "nota": "Le prime sei approvate da Achille il 14 ottobre; le ultime tre aggiunte per arrivare a 12 minuti, su sua delega. B20, B27 e B29 rigenerati nella traccia R; le versioni precedenti sono in audio/scartati."
+ }
+}

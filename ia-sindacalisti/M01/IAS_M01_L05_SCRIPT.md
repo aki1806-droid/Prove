@@ -1,121 +1,138 @@
-# IAS · Modulo 1 · Lezione 1.5 — La prima conversazione guidata
+# IAS · IAS_M01_L05 — La prima conversazione guidata
 
-**Voce:** Achille nuovo 1 (HeyGen, motore ElevenLabs eleven_v4) · **Durata finale attesa:** circa 12 minuti dopo silenceremove e atempo 1,16
-**Regola:** un blocco = una traccia audio. Le intestazioni non si leggono.
-**Da adattare dopo la registrazione:** i blocchi segnati descrivono la risposta dello strumento nella prova a schermo; vanno corretti su ciò che risponde davvero.
+**Fonte:** pacchetto video del 15 ottobre 2026 (slide pronte, una scena = un blocco). **Voce:** Achille nuovo 1 (HeyGen, motore ElevenLabs eleven_v4), atempo 1,16.
+**Regola:** un blocco = una scena del pacchetto. Le intestazioni non si leggono.
 
 ---
 
-### B01 — Apertura
-Abbiamo parlato di come funziona l'intelligenza artificiale, di perché sbaglia, di che cosa può fare per noi e di che cosa non deve fare mai. Adesso è il momento di smettere di parlarne e di usarla. Insieme, passo dopo passo, a schermo, su un argomento che conosci bene.
+### B01 — Copertina
+Benvenuto alla lezione uno punto cinque, l'ultima del primo modulo. Oggi metti insieme tutto quello che hai visto finora e conduci la tua prima conversazione guidata con l'IA. Su una norma che conosci bene, imparerai a impostare, chiedere, correggere e rilanciare, fino a un testo pronto per i lavoratori.
 
-### B02 — Perché un argomento che conosci
-Per la tua prima conversazione guidata ti chiedo di scegliere una norma o una regola che conosci molto bene. Non per metterti alla prova, ma per il motivo opposto: quando conosci la materia, puoi vedere con chiarezza dove lo strumento è preciso, dove è vago e dove sbaglia. È il modo più rapido per imparare a leggere le sue risposte. Conoscere la materia è la tua migliore difesa.
+### B02 — B-roll
+In sede arriva la solita domanda. Una lavoratrice vuole sapere come funzionano i permessi per assistere il padre, che ha una disabilità grave. È una norma che conosci a memoria: l'hai spiegata decine di volte, in assemblea e allo sportello. Questa volta però vuoi preparare un volantino chiaro per tutto il reparto.
 
-### B03 — Il nostro esempio
-Io userò come esempio il diritto di assemblea dei lavoratori: chi può convocarla, quando si può tenere, quanto tempo è retribuito. È un tema che ogni delegato incontra presto, e che ha una particolarità utile per noi: le regole generali si intrecciano con quelle del pubblico impiego e dei contratti, ed è proprio lì che uno strumento rischia di confondersi.
+### B03 — Caso · Una norma che conosci a memoria
+È l'occasione perfetta per mettere alla prova l'IA. Su questa norma l'esperto sei tu. Non devi fidarti della risposta: puoi giudicarla riga per riga. Ed è proprio così che si impara a usare lo strumento, partendo da un terreno dove nessun errore può sfuggirti.
 
-### B04 — Una prova vera
-Una precisazione onesta: quello che vedrai a schermo è una prova reale, non preparata. Non so in anticipo che cosa risponderà lo strumento, e non è importante. Quello che conta è il metodo con cui leggiamo la risposta, la correggiamo e la trasformiamo. Lo stesso metodo funziona con qualunque argomento e con qualunque strumento. Anche gli errori, qui, sono utili da vedere.
+### B04 — Parola chiave · Si dialoga, non si interroga
+Ecco l'idea guida della lezione. Con l'IA si dialoga, non si interroga. La prima risposta non è un verdetto da accettare o respingere: è una bozza. La conversazione serve a portarla, giro dopo giro, dove serve a te e ai lavoratori.
 
-### B05 — I sette passi
-La conversazione seguirà sette passi. Primo, aprire una conversazione nuova. Secondo, presentarsi e dare il contesto. Terzo, fare la domanda. Quarto, leggere la risposta da esperto. Quinto, correggere. Sesto, chiedere una versione per qualcun altro. Settimo, chiudere con una verifica. Li vedremo uno alla volta.
+### B05 — B-roll
+Come fanno molti la prima volta? Una domanda secca, una risposta, e la conversazione finisce lì. Se la risposta piace, la si copia. Se non piace, si chiude la finestra e si conclude che lo strumento non serve. In entrambi i casi si butta via la parte più utile del lavoro: quella che viene dopo.
 
-### B06 — Primo passo: una conversazione nuova
-Primo passo: apro una conversazione nuova. Sembra un dettaglio, ma non lo è. Se continuo una conversazione vecchia, lo strumento tiene conto di tutto quello che c'è scritto prima, e la risposta può essere influenzata da argomenti che non c'entrano. Un argomento nuovo, una conversazione nuova. È come cominciare su un foglio pulito.
+### B06 — Confronto · Interrogare o dialogare
+Guarda la differenza tra i due atteggiamenti. Chi interroga fa una domanda e prende o lascia. Chi dialoga imposta il contesto, legge con occhio critico, corregge con precisione e chiede la versione che gli serve. Il secondo spende qualche minuto in più, ma ottiene un testo che può davvero firmare.
 
-### B07 — Secondo passo: presentarsi
-Secondo passo: mi presento e do il contesto. Non scrivo il mio nome, non serve. Scrivo il mio ruolo e la situazione. Sono un delegato sindacale in un'azienda ospedaliera pubblica. Mi serve una spiegazione chiara da usare con i colleghi. È una frase sola, ma cambia la risposta: lo strumento sa per chi sta scrivendo e in quale ambito.
+### B07 — Animazione · Le quattro mosse: Impostare → Chiedere → Correggere → Rilanciare
+Per la prima conversazione bastano quattro mosse. Impostare: dici chi sei, per chi scrivi, in che contesto. Chiedere: formuli una richiesta chiara e delimitata. Correggere: indichi con precisione cosa non va. Rilanciare: chiedi la versione migliorata nel formato che ti serve.
 
-### B08 — Perché il contesto conta
-Ricordi come funziona il modello? Costruisce la risposta più probabile a partire da tutto quello che legge. Se scrivi solo diritto di assemblea, la risposta più probabile è quella generica, magari pensata per un'azienda privata. Se scrivi pubblico impiego e ospedale, gli schemi che si attivano sono diversi. Il contesto è il primo modo per guidarlo.
+### B08 — Tabella · Le mosse in pratica
+Ecco come suonano in pratica. Impostare: sono un delegato RSU della sanità pubblica. Chiedere: spiegami i permessi per chi assiste un familiare. Correggere: il punto tre è superato, la norma è cambiata nel duemilaventidue. Rilanciare: riscrivilo in dieci righe per un volantino. Nel modulo quattro vedrai il prompt completo in cinque parti.
 
-### B09 — Che cosa non scrivere nel contesto
-Nel contesto, però, metti solo ciò che serve: il tuo ruolo, il settore, lo scopo. Non serve, e non va scritto, il nome dell'azienda se non è necessario, né il nome di colleghi, né i dettagli di casi reali. Il contesto utile è quasi sempre generico: tipo di ente, tipo di lavoratori, tipo di problema. Il resto è rumore, e a volte è un rischio. Meno dettagli metti, meno rischi corri.
+### B09 — Parola chiave · La chat ricorda tutto
+C'è una cosa da sapere prima di cominciare. Nella stessa chat l'IA tiene conto di tutto ciò che vi siete detti. Ogni correzione resta valida per le risposte successive. Per un argomento nuovo, invece, conviene aprire una chat nuova, così il contesto precedente non interferisce.
 
-### B10 — Terzo passo: la domanda
-Terzo passo: la domanda. La scrivo così: spiegami in modo semplice come funziona il diritto di assemblea dei lavoratori nel mio contesto. Chi può convocarla, quante ore sono retribuite, con quale preavviso, e quali sono le fonti che lo regolano. Alla fine indicami su quali punti non sei sicuro.
+### B10 — Registrazione schermo · ChatGPT: Si apre una chat nuova dedicata ai permessi per assistere un familiare.
+Cominciamo la dimostrazione. Apri ChatGPT e crea una chat nuova, dedicata solo a questa norma. Non ci serve nessun documento, perché questa volta il controllo lo fai tu con quello che sai. Ma come sempre non inserirai nessun dato della lavoratrice: né il nome, né la situazione del padre.
 
-### B11 — L'ultima frase
-Hai notato l'ultima frase? Indicami su quali punti non sei sicuro. È la seconda difesa che abbiamo visto nella lezione due: autorizzare il non lo so. Non garantisce che lo strumento riconosca tutti i suoi errori, ma spesso fa emergere i punti deboli della risposta, e ti dice dove guardare per primo.
+### B11 — Prompt · Prompt: Mosse 1 e 2
+Ecco il prompt delle prime due mosse. Imposti ruolo e settore, poi dici cosa devi spiegare e a chi. Chiedi una spiegazione chiara su tre punti: chi ne ha diritto, quanto spetta, come si chiede. E aggiungi la regola che conosci dalla lezione uno punto due: fonte per ogni affermazione e da verificare dove non è sicuro.
 
-### B12 — Una domanda divisa in punti
-Nota anche che nella domanda ho messo più richieste precise: chi convoca, quante ore, quale preavviso, quali fonti. Una domanda vaga ottiene una risposta vaga. Una domanda divisa in punti ottiene una risposta divisa in punti, molto più facile da controllare uno per uno. E ogni punto diventa una cosa da verificare.
+### B12 — Registrazione schermo · ChatGPT: Si completano i segnaposto con ruolo, settore e norma.
+Completi i segnaposto. Ruolo: delegato RSU. Settore: sanità. Come norma scrivi: i permessi mensili dell'articolo trentatré della legge centoquattro del novantadue per chi assiste un familiare con disabilità grave. Rileggi una volta, controlla che non ci sia nulla di personale e invia.
 
-### B13 — A schermo: la richiesta
-Vediamolo a schermo. Apro Claude, nuova conversazione. Scrivo il contesto e la domanda, con calma, senza fretta. Invio. La risposta comincia a comparire, un pezzo alla volta. Aspetto che finisca prima di leggerla: le prime righe, da sole, possono trarre in inganno.
+### B13 — Risposta IA · ChatGPT – Permessi art. 33 L. 104/1992
+Ecco un estratto verosimile. La risposta è ordinata e indica correttamente tre giorni di permesso mensile retribuito. Ma più avanti afferma che il permesso può essere chiesto da un solo familiare, il cosiddetto referente unico. E lo dice con lo stesso tono sicuro di tutto il resto.
 
-### B14 — Quarto passo: leggere da esperto
-Quarto passo, il più importante: leggere da esperto. Non leggo per farmi un'idea: leggo come leggerei la bozza di un collega nuovo. E uso tre segni, anche solo mentalmente. Un segno verde per ciò che è giusto. Un segno giallo per ciò che manca. Un segno rosso per ciò che è sbagliato o dubbio. Nessuna risposta si usa senza questa lettura.
+### B14 — Parola chiave · Ora il revisore sei tu
+Adesso il revisore sei tu. Leggi la risposta con una matita rossa, anche solo mentale. Non chiederti se è scritta bene: lo è quasi sempre. Chiediti se è giusta, se è aggiornata, se è completa e se vale davvero per i lavoratori che rappresenti.
 
-### B15 — A schermo: i tre segni [DA ADATTARE ALL'ESITO REALE]
-Guardiamo la risposta. La struttura è chiara, e la parte generale sul diritto di riunirsi nel luogo di lavoro è corretta: segno verde. Manca però un riferimento esplicito alle regole specifiche del pubblico impiego: segno giallo. E c'è un dettaglio sul numero di ore che va verificato sul testo, perché non distingue tra la regola generale e quella prevista dai contratti del nostro settore: segno rosso.
+### B15 — Tabella · Quattro problemi da cercare
+Quando leggi, cerchi quattro tipi di problema. L'errore, cioè un dato sbagliato. La norma superata, ancora scritta come se fosse in vigore. L'omissione, quando manca qualcosa di importante. E la generalizzazione, quando una regola che vale per alcuni viene presentata come se valesse per tutti.
 
-### B16 — Che cosa ci dicono i segni
-Questo schema ricorre spessissimo. La parte generale è affidabile, perché compare in moltissimi testi. I dettagli specifici del settore sono meno affidabili, perché sono più rari e si somigliano tra loro. È esattamente la terza zona di rischio che abbiamo visto: le cose che si somigliano. Ora lo vedi con i tuoi occhi, su un tema che conosci.
+### B16 — Caso · La risposta alla matita rossa
+Applichiamoli alla risposta. I tre giorni al mese sono corretti. Ma il referente unico è una norma superata: il decreto legislativo centocinque del duemilaventidue consente la fruizione alternata tra più familiari aventi diritto, nel rispetto del limite complessivo. E manca ogni cenno al contratto e al regolamento aziendale: un'omissione.
 
-### B17 — I segni, sempre
-Prendi l'abitudine di usare questi tre segni su ogni risposta che conta, non solo oggi. Verde, giallo, rosso. Dopo qualche settimana lo farai senza pensarci, e scoprirai che le risposte più insidiose non sono quelle piene di errori evidenti, ma quelle quasi perfette, con un solo dettaglio rosso nascosto nel mezzo. È proprio quel dettaglio che i tre segni ti aiutano a trovare.
+### B17 — Numero · 90% giusto, ma l'errore è sul diritto principale
+Fermati su questo punto. La risposta era corretta forse al novanta per cento. Ma l'errore stava proprio sul diritto principale, chi può chiedere il permesso. Una spiegazione quasi giusta con un errore lì è più pericolosa di una risposta del tutto sbagliata, perché convince.
 
-### B18 — Quinto passo: correggere
-Quinto passo: correggere. La correzione deve essere precisa, non generica. Non scrivo hai sbagliato, perché lo strumento potrebbe cambiare a caso. Scrivo che cosa è sbagliato e qual è la fonte giusta. Per esempio: nel pubblico impiego le assemblee sono regolate anche dalla contrattazione collettiva; ecco il testo dell'articolo che le disciplina. Riformula tenendo conto di questo, e distingui la regola generale da quella del nostro settore.
+### B18 — Confronto · Quello che ha scritto e quello che sai
+Mettiamo in fila quello che l'IA ha scritto e quello che sai tu. Sui giorni siete d'accordo. Sul referente unico no, e hai la fonte che lo dimostra. Sul contratto e sul regolamento aziendale l'IA tace. Questo confronto è già il canovaccio della tua correzione.
 
-### B19 — Dare il testo, se lo hai
-Se hai il testo della norma o del contratto, ancora meglio: incollalo, o carica il documento. A quel punto la correzione non si basa più sulla tua memoria contro la sua, ma su un testo che entrambi avete sotto gli occhi. È la prima difesa: la fonte la dai tu.
+### B19 — Errore tipico · Accettare la risposta perché quasi giusta → Un errore sul diritto principale si corregge sempre
+L'errore tipico, a questo punto, è accettare la risposta perché è quasi giusta. Si copia tutto nel volantino, magari ritoccando lo stile. E il volantino esce con un dato superato. Il delegato che lo firma perde credibilità proprio con i lavoratori che lo conoscono meglio.
 
-### B20 — A schermo: la correzione [DA ADATTARE ALL'ESITO REALE]
-Vediamo che cosa succede. Scrivo la correzione e incollo l'articolo del contratto che regola le assemblee nel nostro settore. La nuova risposta distingue le due fonti, cita il testo che ho fornito, e indica le ore previste dal contratto riportando il passaggio esatto. Adesso posso controllarla in pochi secondi, confrontandola con il testo.
+### B20 — B-roll
+Passiamo alla terza mossa: correggere. Qui conta il modo. Una correzione generica, del tipo non è giusto, riprova, di solito produce un'altra risposta altrettanto imprecisa, solo scritta in modo diverso. Lo strumento non sa cosa hai trovato di sbagliato, e tira a indovinare.
 
-### B21 — Attenzione all'eccesso opposto
-Attenzione però all'eccesso opposto. Ricordi l'effetto che abbiamo visto, quando lo strumento ti dà ragione anche se hai torto? Se la tua correzione è sbagliata, è probabile che la accetti lo stesso. Per questo è importante correggere citando la fonte, e non solo la propria impressione. Una correzione senza fonte può introdurre un errore nuovo.
+### B21 — Confronto · Due modi di correggere
+Una correzione funziona quando è precisa. Indichi il punto, spieghi cosa non va e, se puoi, dai la fonte. Non scrivere sbagliato. Scrivi: il punto due è superato, il decreto legislativo centocinque del duemilaventidue ha eliminato il referente unico. La differenza nel risultato è enorme.
 
-### B22 — Un punto alla volta
-Un'ultima osservazione sulla correzione: falla con calma, e un punto alla volta. Se correggi cinque cose insieme, lo strumento può sistemarne quattro e peggiorare la quinta. Se correggi un punto, controlli, e poi passi al successivo, mantieni il controllo della conversazione. È un minuto più lento, e molto più sicuro. La fretta, qui, è la nemica peggiore.
+### B22 — Prompt · Prompt: Mossa 3: correggere con precisione
+Ecco il prompt della terza mossa. Elenchi i problemi uno per uno: il punto della risposta, cosa non va e perché, con la fonte se la conosci. Poi chiedi di riscrivere tenendo conto delle correzioni. E aggiungi l'ultima riga, che è la più importante di tutta la lezione.
 
-### B23 — Sesto passo: una versione per qualcun altro
-Sesto passo: chiedere una versione per qualcun altro. La spiegazione è corretta, ma è lunga e tecnica. Chiedo: riscrivila in sei righe per un collega appena eletto nella RSU, con un linguaggio semplice, senza perdere le informazioni essenziali, e senza aggiungere nulla che non sia nel testo che ti ho dato.
+### B23 — Registrazione schermo · ChatGPT: Nella stessa chat si scrivono le due correzioni con il prompt della mossa 3.
+Nella stessa chat scrivi le due correzioni. Primo: il referente unico è stato superato dal decreto legislativo centocinque del duemilaventidue, che consente la fruizione alternata tra più familiari. Secondo: manca il rimando al contratto e al regolamento aziendale. Poi l'ultima riga del prompt, e invii.
 
-### B24 — A schermo: la versione semplice
-Ecco la versione per il nuovo delegato. Sei righe, frasi brevi, nessuna sigla non spiegata. Questa è la parte in cui lo strumento rende di più, perché il contenuto è già stato verificato e lui deve solo dargli una forma diversa. È lo schema della lezione tre: il contenuto lo porti tu, la forma te la dà lui.
+### B24 — Risposta IA · ChatGPT – Spiegazione corretta
+Ecco la nuova versione verosimile. I tre giorni restano. Il referente unico sparisce e al suo posto c'è la fruizione alternata tra più familiari, nel limite complessivo. E compare l'invito a verificare contratto e regolamento aziendale. La correzione è entrata, ed è entrata bene, perché era precisa.
 
-### B25 — Possiamo chiedere di più
-Se vuoi, puoi andare oltre. Chiedere tre domande che un nuovo delegato potrebbe fare sull'argomento, con le risposte. Chiedere un esempio pratico di convocazione. Chiedere di trasformare la spiegazione in una scheda da stampare. Ogni volta lavori sullo stesso contenuto verificato, e ogni volta ottieni un materiale utile in pochi secondi.
+### B25 — Parola chiave · Tende ad assecondarti
+Ora torniamo a quell'ultima riga. Perché chiedere all'IA di dirti se una tua correzione è in contrasto con quello che sa? Perché questi strumenti tendono ad assecondare chi li corregge, anche quando la correzione è sbagliata. Se sbagli tu, rischi di introdurre un errore nuovo, con la benedizione dello strumento.
 
-### B26 — Settimo passo: chiudere con una verifica
-Settimo passo: chiudere con una verifica. Prima di usare il testo finale, rileggilo una volta intera con il secondo sguardo della lezione quattro. Controlla numeri, riferimenti, nomi. Chiediti se lo firmeresti parola per parola. Solo allora lo copi, lo salvi, lo usi.
+### B26 — Caso · La prova della correzione sbagliata
+Puoi verificarlo con una piccola prova, in una chat separata. Fai la stessa domanda e poi correggi volutamente in modo sbagliato: per esempio, scrivi che i giorni di permesso sono cinque. Con l'ultima riga del prompt, lo strumento dovrebbe segnalarti il contrasto invece di adeguarsi.
 
-### B27 — Conservare il risultato
-E poi conserva il risultato in modo ordinato: una cartella per argomento, con il testo finale e la fonte da cui l'hai verificato. Tra qualche mese, quando un altro delegato ti farà la stessa domanda, avrai una risposta pronta e già controllata. È così che, piano piano, una sede costruisce il suo archivio di conoscenza. Un archivio così vale più di qualunque strumento.
+### B27 — Registrazione schermo · Claude: In una chat di prova si invia una correzione volutamente sbagliata.
+Ecco la prova a schermo, in una chat nuova di Claude. Hai ottenuto la spiegazione dei permessi. Ora scrivi la correzione sbagliata, sempre con la riga finale: dimmelo invece di adeguarti. Invia, e guarda con attenzione la prima frase della risposta.
 
-### B28 — La domanda finale allo strumento
-Un trucco utile per l'ultimo controllo: chiedere allo strumento stesso di rileggere. Scrivo: rileggi il testo finale e segnala qualunque affermazione che non sia supportata dal documento che ti ho fornito. Non sostituisce la tua verifica, ma a volte segnala un passaggio che ti era sfuggito. È un secondo controllo, non il primo.
+### B28 — Risposta IA · Claude – Correzione volutamente errata
+Ecco un esito verosimile. Lo strumento non si adegua: ti segnala che la norma che conosce prevede tre giorni e ti invita a verificare il testo vigente. È esattamente il comportamento che vuoi. Senza quella riga, molte volte avrebbe riscritto tutto con cinque giorni, ringraziandoti per la precisazione.
 
-### B29 — La regola personale al lavoro
-Durante tutta la conversazione, tieni accanto la regola personale che hai scritto nella lezione precedente. Hai usato lo strumento per spiegare e riformulare, non per decidere. Non hai inserito dati personali. Hai riletto prima di usare. Se è così, hai appena fatto una conversazione corretta, dall'inizio alla fine.
+### B29 — Prompt · Prompt: Mossa 4: rilanciare nel formato utile
+Torniamo alla chat principale per la quarta mossa: rilanciare. Ora che la spiegazione è corretta, chiedi di trasformarla nel formato che ti serve. Un volantino di dieci righe, un messaggio WhatsApp di cinque, oppure cinque domande e risposte. Linguaggio semplice, frasi brevi, e l'invito a passare in sede.
 
-### B30 — Lo stesso con gli altri strumenti
-Puoi ripetere la stessa conversazione con ChatGPT e con Gemini. Le risposte saranno diverse nella forma, e a volte nei dettagli. È un ottimo esercizio: ti abitua a leggere da esperto qualunque risposta, indipendentemente dallo strumento. Nel prossimo modulo li metteremo a confronto in modo sistematico. Ogni strumento ha il suo carattere, e imparerai a conoscerlo.
+### B30 — Registrazione schermo · ChatGPT: Nella chat principale si chiede il volantino di dieci righe.
+In ChatGPT, nella stessa chat dove hai fatto le correzioni, incolli il prompt e scegli il volantino di dieci righe. Non serve ripetere nulla: lo strumento ricorda la spiegazione corretta e le tue precisazioni. È il vantaggio di lavorare nella stessa conversazione.
 
-### B31 — Quanto tempo richiede
-Quanto tempo richiede una conversazione così? Le prime volte, venti minuti. Dopo qualche settimana, cinque o sei. I sette passi diventano un'abitudine, e la lettura da esperto diventa veloce. Ma il tempo non si recupera saltando i passi: si recupera facendoli bene, sempre più rapidamente. La velocità arriva con la pratica, non con le scorciatoie.
+### B31 — Risposta IA · ChatGPT – Volantino di dieci righe
+Ecco l'estratto del volantino. Frasi brevi, nessun termine tecnico non spiegato, la novità del duemilaventidue messa in evidenza perché molti colleghi ancora non la conoscono. E in chiusura l'invito a passare in sede. È un testo che potresti appendere in bacheca, dopo un ultimo controllo.
 
-### B32 — Non scoraggiarti
-Se le prime conversazioni ti sembrano lente o deludenti, non scoraggiarti. È normale: stai imparando a guidare uno strumento nuovo, e la parte difficile non è usarlo, ma leggere quello che produce. Ogni conversazione fatta bene ti rende più veloce nella successiva. E tra qualche modulo ti sembrerà strano aver mai lavorato senza. Anche i colleghi più esperti hanno cominciato così.
+### B32 — Animazione · Prima di pubblicare: Il testo finale → Norma su Normattiva → Istruzioni applicative → Regolamento aziendale
+E quell'ultimo controllo non è facoltativo. Il testo finale si confronta con la norma vigente su Normattiva. Poi con le istruzioni applicative dell'INPS e della Funzione pubblica. Infine con il regolamento della tua amministrazione. Solo dopo questi passaggi il volantino è davvero utilizzabile.
 
-### B33 — Che cosa abbiamo imparato nel modulo
-Con questa lezione chiudiamo il primo modulo. Abbiamo visto che il modello prevede parole e non consulta un archivio. Che sbaglia soprattutto su riferimenti, testi locali, cose simili, attualità e calcoli. Che è prezioso per scrivere, leggere, preparare, ordinare, spiegare, tradurre e formare. E che decidere, firmare e giudicare restano nostri.
+### B33 — Norma · art. 33, comma 3, L. 104/1992; D.Lgs. 105/2022
+Ecco il riferimento della dimostrazione. La legge centoquattro del novantadue, articolo trentatré, comma tre, prevede il permesso mensile retribuito di tre giorni per assistere un familiare con disabilità grave. Il decreto legislativo centocinque del duemilaventidue ha superato il principio del referente unico.
 
-### B34 — Le tre regole, adesso spiegate
-Tieni a mente anche le tre regole del benvenuto, che in questo modulo hanno trovato le loro ragioni. I dati dei lavoratori non si incollano, perché lo strumento non è un archivio riservato. Ogni risposta si verifica, perché il modello costruisce il probabile e non il vero. E ciò che esce dalla sede porta la tua firma, perché decidere e rispondere restano compiti nostri.
+### B34 — Errore tipico · Raccontare all'IA il caso vero della lavoratrice → Parla della norma in generale, senza nomi né diagnosi
+Un ultimo errore da evitare. Per rendere la conversazione più realistica, viene voglia di raccontare il caso vero: il nome della lavoratrice, la malattia del padre, il reparto. Non serve e non si fa. Anche nella conversazione guidata si lavora sulla norma in generale, senza nessun caso reale.
 
-### B35 — Errori tipici
-Gli errori tipici della prima conversazione sono quattro. Primo: fare la domanda senza contesto. Secondo: leggere solo l'inizio della risposta. Terzo: correggere in modo generico, senza indicare la fonte. Quarto: usare il testo finale senza l'ultima rilettura.
+### B35 — B-roll
+Hai appena fatto una cosa che molti utenti non fanno mai. Hai trattato la prima risposta come una bozza, l'hai corretta con precisione, hai verificato che lo strumento non ti assecondasse e hai ottenuto un testo utile. Sono dieci minuti di lavoro, e cambiano la qualità del risultato.
 
-### B36 — Da ricordare
-La frase da portarsi a casa è questa: una buona conversazione si guida, non si subisce. Contesto, domanda, lettura da esperto, correzione con la fonte, nuova forma, verifica. Sono sette passi, e diventano naturali molto presto. Il resto lo fa la pratica.
+### B36 — Caso · Un'altra norma, un'altra chat
+Per la prossima norma, ricorda di aprire una chat nuova. Se dopo i permessi vuoi lavorare sull'assemblea retribuita, la conversazione precedente non deve interferire. Le correzioni sui permessi non c'entrano con l'assemblea, e il contesto vecchio potrebbe confondere la risposta nuova.
 
-### B37 — La pratica di oggi
-La pratica di oggi: scegli una norma o una regola che conosci bene, e fai la tua prima conversazione guidata seguendo i sette passi. Annota nella scheda della pratica i tuoi segni verdi, gialli e rossi, e la correzione che hai fatto. Infine compila il quiz di fine modulo.
+### B37 — Registrazione schermo · Gemini: Si apre una chat nuova per una seconda norma.
+In Gemini, per esempio, apri una chat nuova e ricominci dalle mosse uno e due, questa volta sull'assemblea retribuita in orario di lavoro, prevista dall'articolo venti dello Statuto dei lavoratori. Stesso metodo, stessa matita rossa, stessa verifica finale sulla fonte.
 
-### B38 — Chiusura
-Nel prossimo modulo conosciamo da vicino i tre strumenti: come si aprono gli account, che cosa offrono le versioni gratuite e quelle a pagamento, e quale usare per ogni compito. Ci vediamo lì.
+### B38 — Memo · La prima risposta è una bozza: imposta, chiedi, correggi, rilancia.
+Se ti porti a casa una sola frase, che sia questa. La prima risposta è solo una bozza. La conversazione serve a portarla dove vuoi tu: imposta, chiedi, correggi con precisione, rilancia. E alla fine verifica sempre sulla norma vigente.
+
+### B39 — La pratica · Scegli una norma che conosci a fondo / Imposta e chiedi in una chat nuova / Cerca i quattro tipi di problema / Correggi punto per punto, poi rilancia / Confronta il testo con la norma vigente
+Ora tocca a te. Scegli una norma che usi spesso e conosci a fondo. Apri una chat nuova e usa il prompt delle prime due mosse. Leggi la risposta cercando i quattro problemi. Correggi con il prompt della terza mossa, rilancia con quello della quarta e confronta il testo finale con la norma vigente.
+
+### B40 — Elenco · Norme su cui allenarti: Permessi L. 104/1992 / Assemblea retribuita, Statuto art. 20 / Congedi parentali / Ferie
+Se non sai da dove partire, ecco alcune norme adatte per allenarti, perché le conosci bene e i lavoratori le chiedono spesso. I permessi della legge centoquattro, come nella dimostrazione. L'assemblea retribuita dello Statuto dei lavoratori. I congedi parentali. Le ferie.
+
+### B41 — Caso · Il diario della conversazione
+Durante la pratica annota quello che trovi: quanti errori, quante norme superate, quante omissioni. E annota se lo strumento ha accettato le tue correzioni o ti ha segnalato contrasti. Questo piccolo diario ti servirà molto nel modulo cinque, quando costruirai la tua checklist di verifica.
+
+### B42 — Parola chiave · Primo modulo completato
+Con questa lezione chiudi il primo modulo. Sai come ragiona un modello, perché sbaglia con sicurezza, cosa può fare per te e cosa non deve mai fare al tuo posto. E hai condotto la tua prima conversazione da esperto. Sono le fondamenta di tutto il resto.
+
+### B43 — B-roll
+Dal prossimo modulo si passa agli strumenti veri e propri. Conoscerai da vicino ChatGPT, Claude e Gemini, uno accanto all'altro, con i loro punti forti e le loro differenze. E comincerai a scegliere quello giusto per ogni compito della tua sede.
+
+### B44 — Chiusura · Nella prossima lezione: 2.1 Creare gli account e orientarsi nelle tre interfacce
+Nella prossima lezione apri gli account di ChatGPT, Claude e Gemini, con un indirizzo pensato apposta per il lavoro sindacale, e impari a orientarti nelle tre interfacce, riconoscendo le stesse cinque zone in tutte. Ci vediamo nella lezione due punto uno.

@@ -1,0 +1,43 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "B24 è marcato [DA ADATTARE ALL'ESITO REALE]: descrive come risponde lo strumento alla domanda «è mobbing?» e va corretto su ciò che risponde davvero nella registrazione.",
+  "Le registrazioni sono sostituite da ricostruzioni animate.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "segnaposto_aperti": [
+  "B24 [DA ADATTARE ALL'ESITO REALE]",
+  "Registrazioni: ricostruzioni al posto delle registrazioni"
+ ],
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille dal 13 ottobre: «solo heygen sempre Achille nuovo 1»",
+  "account_heygen": "aki.pagliaro@gmail.com (piano Pro)",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "cinque tracce A-E sotto i 2.950 caratteri (la più lunga 2.927), blocchi uniti da <break time=\"1.6s\"/>; confini dai segnaposto di pausa nei word_timestamps, senza trascrizione. La traccia D è andata in errore 500 al primo tentativo ed è stata rilanciata con il consenso di Achille; la seconda risposta non riporta il request_id e si identifica dall'audio_url.",
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16 (HeyGen è il 3,3% più lento di ElevenLabs diretto); 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "nota_pausa": "Per arrivare a 12 minuti sono state aggiunte tredici frasi brevi, su delega di Achille («per 1.4-1.5 decidi tu»). Voce 704,6 s, totale 738,6 s.",
+  "coerenza_corso": "M00 L01 e M01 L01 restano con la voce di ElevenLabs diretto (atempo 1,12): Achille ha scelto di non rifarle.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "modifiche_allo_script": {
+  "aggiunte": {
+   "B02": "Sapere dove fermarsi è parte del mestiere.",
+   "B05": "Quelle cose non stanno in nessun documento.",
+   "B08": "La firma è una promessa, non una formalità.",
+   "B11": "Una parola sbagliata può costare mesi di trattativa.",
+   "B13": "Ascoltare una persona richiede tempo, e quel tempo è nostro.",
+   "B16": "Bastano poche righe sincere per far sentire una persona meno sola.",
+   "B17": "Il sindacato, prima di tutto, è una relazione tra persone.",
+   "B21": "Ed è proprio per questo che serve un'abitudine, non la buona volontà.",
+   "B22": "Riconoscere quei momenti è già metà della difesa.",
+   "B26": "Le opzioni le prepara lo strumento, la scelta la fa la segreteria.",
+   "B28": "Su quel colore non si negozia.",
+   "B31": "Una regola scritta da te la ricorderai anche nei giorni di fretta.",
+   "B35": "Cinque righe chiare valgono più di una pagina di buoni propositi."
+  },
+  "nota": "Aggiunte su delega di Achille per arrivare a 12 minuti con la voce HeyGen."
+ }
+}

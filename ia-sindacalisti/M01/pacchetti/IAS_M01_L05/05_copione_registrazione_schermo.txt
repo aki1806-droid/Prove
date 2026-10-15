@@ -1,0 +1,43 @@
+Copione registrazioni schermo · Lezione 1.5
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 10 · ChatGPT · durata circa 18 s
+Azione: Si apre una chat nuova dedicata ai permessi per assistere un familiare.
+Zoom / evidenziare: Il pulsante nuova chat
+Parlato che accompagna: Cominciamo la dimostrazione. Apri ChatGPT e crea una chat nuova, dedicata solo a questa norma. Non ci serve nessun documento, perché questa volta il controllo lo fai tu con quello che sai. Ma come sempre non inserirai nessun dato della lavoratrice: né il nome, né la situazione del padre.
+
+SCENA 12 · ChatGPT · durata circa 18 s
+Azione: Si completano i segnaposto con ruolo, settore e norma.
+Da digitare:
+Sono delegato RSU di un sindacato del pubblico impiego, settore sanità. Devo spiegare ai lavoratori i permessi mensili dell'art. 33 della L. 104/1992 per chi assiste un familiare con disabilità grave.
+Zoom / evidenziare: Il prompt completo prima dell'invio
+Parlato che accompagna: Completi i segnaposto. Ruolo: delegato RSU. Settore: sanità. Come norma scrivi: i permessi mensili dell'articolo trentatré della legge centoquattro del novantadue per chi assiste un familiare con disabilità grave. Rileggi una volta, controlla che non ci sia nulla di personale e invia.
+
+SCENA 23 · ChatGPT · durata circa 19 s
+Azione: Nella stessa chat si scrivono le due correzioni con il prompt della mossa 3.
+Da digitare:
+1. Referente unico: superato dal D.Lgs. 105/2022, che consente la fruizione alternata tra più familiari aventi diritto.
+2. Manca il rimando al contratto e al regolamento aziendale.
+Zoom / evidenziare: Le due correzioni numerate
+Parlato che accompagna: Nella stessa chat scrivi le due correzioni. Primo: il referente unico è stato superato dal decreto legislativo centocinque del duemilaventidue, che consente la fruizione alternata tra più familiari. Secondo: manca il rimando al contratto e al regolamento aziendale. Poi l'ultima riga del prompt, e invii.
+
+SCENA 27 · Claude · durata circa 15 s
+Azione: In una chat di prova si invia una correzione volutamente sbagliata.
+Da digitare:
+Correzione: i giorni di permesso mensile sono cinque, non tre. Se la mia correzione ti sembra in contrasto con quello che sai, dimmelo invece di adeguarti.
+Zoom / evidenziare: La prima frase della risposta
+Parlato che accompagna: Ecco la prova a schermo, in una chat nuova di Claude. Hai ottenuto la spiegazione dei permessi. Ora scrivi la correzione sbagliata, sempre con la riga finale: dimmelo invece di adeguarti. Invia, e guarda con attenzione la prima frase della risposta.
+
+SCENA 30 · ChatGPT · durata circa 16 s
+Azione: Nella chat principale si chiede il volantino di dieci righe.
+Da digitare:
+Ora trasforma la spiegazione corretta in un testo di 10 righe per un volantino.
+Zoom / evidenziare: Il volantino che si forma sotto le correzioni
+Parlato che accompagna: In ChatGPT, nella stessa chat dove hai fatto le correzioni, incolli il prompt e scegli il volantino di dieci righe. Non serve ripetere nulla: lo strumento ricorda la spiegazione corretta e le tue precisazioni. È il vantaggio di lavorare nella stessa conversazione.
+
+SCENA 37 · Gemini · durata circa 17 s
+Azione: Si apre una chat nuova per una seconda norma.
+Da digitare:
+Devo spiegare ai lavoratori l'assemblea retribuita in orario di lavoro, art. 20 dello Statuto dei lavoratori.
+Zoom / evidenziare: La chat nuova, senza conversazioni precedenti
+Parlato che accompagna: In Gemini, per esempio, apri una chat nuova e ricominci dalle mosse uno e due, questa volta sull'assemblea retribuita in orario di lavoro, prevista dall'articolo venti dello Statuto dei lavoratori. Stesso metodo, stessa matita rossa, stessa verifica finale sulla fonte.
