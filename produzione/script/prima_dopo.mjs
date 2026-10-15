@@ -15,6 +15,9 @@
  *         'chat'     prima/dopo: [{ da:'r'|'i', t:'…' }]  bolle sobrie, nessuna
  *                    icona, nessuna app riconoscibile: ricevuti in panna,
  *                    inviati in blu. Le due conversazioni stanno affiancate.
+ *                    `largo: true` allarga la colonna di destra: serve quando
+ *                    a sinistra c'è solo una nota e a destra un messaggio
+ *                    lungo da leggere riga per riga (un modello da copiare).
  *
  *   mostra 'prima'   la riscrittura c'è ma è nascosta: il quadro non salta
  *                    quando, al blocco dopo, compare.
@@ -72,6 +75,9 @@ const pdCss = () => `
   .pd.chat .bolla.nota { align-self:center; background:none; font-style:italic;
                          font-family:'Cormorant Garamond',serif; font-size:calc(var(--fb) * 1.1);
                          color:${GREY}; padding:0; }
+  .pd.chat.largo { gap:90px; padding:150px 150px 110px; }
+  .pd.chat.largo .dop { flex:2.2; }
+  .pd.chat.largo .dop .bolla { max-width:100%; }
 `;
 
 const righe = (xs) => xs.map((r) => `<div class="r">${r}</div>`).join('');
@@ -124,7 +130,7 @@ function stagePd(c) {
       `<div class="bolla ${m.da === 'n' ? 'nota' : m.da}">${m.t}</div>`).join('');
     const n = Math.max(tot(c.prima.map((m) => m.t)), tot(c.dopo.map((m) => m.t)));
     const fb = gradino(n, [[80, 46], [160, 40], [260, 35], [9999, 31]]);
-    return `<div class="pd chat" style="--fb:${fb}px">
+    return `<div class="pd chat${c.largo ? ' largo' : ''}" style="--fb:${fb}px">
       <div class="pri">${bolle(c.prima)}</div>
       <div class="dop${vela}">${bolle(c.dopo)}</div></div>`;
   }

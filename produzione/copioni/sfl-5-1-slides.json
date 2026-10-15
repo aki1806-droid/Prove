@@ -1,0 +1,544 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.1",
+"title": "Il tono che manca",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il modulo 5: il messaggio breve",
+"title": "Troppo corto<br><span class=\"gold\">perché il contesto lo corregga.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "in una mail di dieci righe",
+"plain": true,
+"rows": [
+"Una frase suona male",
+"Le altre nove la rimettono a posto"
+],
+"note": "Il contesto lavora per te, senza che tu te ne accorga."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "in un messaggio di quattro parole",
+"title": "Non c’è niente intorno.<br><span class=\"gold\">Quelle quattro parole sono tutto.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "non esiste un messaggio senza tono",
+"title": "Esiste un messaggio<br><span class=\"gold\">in cui il tono l’ha scelto un altro.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "chi legge lo aggiunge in base al suo stato",
+"plain": true,
+"rows": [
+"Se è teso, legge teso",
+"Se si aspetta una critica, legge una critica",
+"Se è stanco, legge fretta"
+],
+"note": "Non lo fa apposta. E non se ne accorge."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "dopo una giornata storta",
+"title": "Il tuo «ok»<br><span class=\"gold\">diventa «Ok.», con il punto.</span>"
+},
+{
+"file": "c08",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Ok"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Sì grazie, mandala pure"
+}
+]
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Ok"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Sì grazie, mandala pure"
+}
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Ok"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Sì grazie, mandala pure"
+}
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Ok"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito la relazione, te la mando?"
+},
+{
+"da": "i",
+"t": "Sì grazie, mandala pure"
+}
+]
+},
+{
+"file": "c12",
+"layout": "statement",
+"statica": false,
+"kicker": "la regola del modulo",
+"title": "Il tono non è assente.<br><span class=\"gold\">Lo aggiunge chi legge.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"statica": true,
+"kicker": "la regola del modulo",
+"title": "Il tono non è assente.<br><span class=\"gold\">Lo aggiunge chi legge.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"statica": true,
+"kicker": "la regola del modulo",
+"title": "Il tono non è assente.<br><span class=\"gold\">Lo aggiunge chi legge.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"statica": true,
+"kicker": "la regola del modulo",
+"title": "Il tono non è assente.<br><span class=\"gold\">Lo aggiunge chi legge.</span>"
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "le domande secche",
+"plain": true,
+"rows": [
+"Hai mandato il documento?",
+"Perché non sei venuto alla riunione?",
+"Com’è andata con il paziente della 4?"
+],
+"note": "La categoria che produce più equivoci."
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "a voce",
+"title": "Nessuno ci farebbe caso.<br><span class=\"gold\">Chi le fa vuole solo sapere.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "per iscritto, senza tono",
+"title": "Suonano come<br><span class=\"gold\">richieste di conto.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "se arrivano da chi ha un ruolo",
+"title": "La risposta arriva<br><span class=\"gold\">sulla difensiva.</span>"
+},
+{
+"file": "c20",
+"layout": "memo",
+"theme": "deep",
+"title": "Se il tono non lo metti tu,<br>lo mette chi legge."
+},
+{
+"file": "c21",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Perché non sei venuto alla riunione?"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ciao Marco, ti ho cercato alla riunione — tutto bene?"
+}
+]
+},
+{
+"file": "c22",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Perché non sei venuto alla riunione?"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ciao Marco, ti ho cercato alla riunione — tutto bene?"
+}
+]
+},
+{
+"file": "c23",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Perché non sei venuto alla riunione?"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ciao Marco, ti ho cercato alla riunione — tutto bene?"
+}
+]
+},
+{
+"file": "c24",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Perché non sei venuto alla riunione?"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ciao Marco, ti ho cercato alla riunione — tutto bene?"
+}
+]
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "tre strumenti per aggiungere tono",
+"rows": [
+"Il nome",
+"Un verbo invece di una sigla",
+"Le emoji"
+],
+"plain": true,
+"note": "Due funzionano. Uno dipende."
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "tre strumenti per aggiungere tono",
+"rows": [
+"Il nome",
+"Un verbo invece di una sigla",
+"Le emoji"
+],
+"active": 0,
+"note": "«Ciao Marco» davanti a una domanda: due parole."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "tre strumenti per aggiungere tono",
+"rows": [
+"Il nome",
+"Un verbo invece di una sigla",
+"Le emoji"
+],
+"active": 1,
+"note": "«Mandamelo quando puoi», invece di «ok»."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "tre strumenti per aggiungere tono",
+"rows": [
+"Il nome",
+"Un verbo invece di una sigla",
+"Le emoji"
+],
+"active": 2,
+"note": "La risposta non è né sì né no."
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "le emoji",
+"title": "Funzionano, davvero.<br><span class=\"gold\">Il tono in un carattere solo.</span>"
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "non significano la stessa cosa per tutti",
+"plain": true,
+"rows": [
+"Cambiano con l’età",
+"Con l’ambiente",
+"Con il ruolo"
+],
+"note": "Normali in un gruppo, fuori luogo in un altro ufficio."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "la stessa faccina, per un altro",
+"plain": true,
+"rows": [
+"Infantile",
+"Ironica",
+"Passivo-aggressiva"
+],
+"note": "E nessuno te lo dirà mai."
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "la regola pratica",
+"title": "Usa quelle che usa<br><span class=\"gold\">chi hai davanti.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "l’errore contrario",
+"title": "Aggiungere tono<br><span class=\"gold\">con la punteggiatura.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "il punto esclamativo",
+"title": "Uno sembra entusiasmo.<br><span class=\"gold\">Cinque sembrano agitazione.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "i puntini di sospensione",
+"title": "«Va bene…»<br><span class=\"gold\">non ammorbidisce.</span>"
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "i puntini comunicano",
+"plain": true,
+"rows": [
+"Riserva",
+"Esitazione",
+"Qualcosa di non detto"
+],
+"note": "Se vuoi ammorbidire, usa una parola."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "vale per tutto il modulo",
+"title": "Il tono costa poco da aggiungere.<br><span class=\"gold\">Tantissimo da recuperare.</span>"
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "un messaggio letto male produce",
+"plain": true,
+"rows": [
+"Un altro messaggio",
+"Una telefonata",
+"Un caffè apposta"
+],
+"note": "Per dire che non c’era niente."
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "e non sempre riesce",
+"title": "Ci si ricorda del tono,<br><span class=\"gold\">più che delle scuse.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "nei messaggi brevi",
+"title": "La fretta<br><span class=\"gold\">è un falso risparmio.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Due parole in più adesso.<br>O dieci minuti<br>di chiarimenti dopo."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Ok» da solo",
+"La domanda secca senza nome",
+"I puntini di sospensione",
+"Le emoji che l’altro non usa"
+],
+"plain": true,
+"note": "Gli errori dei messaggi brevi."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Ok» da solo",
+"La domanda secca senza nome",
+"I puntini di sospensione",
+"Le emoji che l’altro non usa"
+],
+"active": 0,
+"note": "È neutro. E il neutro viene letto come freddo."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Ok» da solo",
+"La domanda secca senza nome",
+"I puntini di sospensione",
+"Le emoji che l’altro non usa"
+],
+"active": 1,
+"note": "Suona come una richiesta di conto."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Ok» da solo",
+"La domanda secca senza nome",
+"I puntini di sospensione",
+"Le emoji che l’altro non usa"
+],
+"active": 2,
+"note": "Comunicano riserva, non morbidezza."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Ok» da solo",
+"La domanda secca senza nome",
+"I puntini di sospensione",
+"Le emoji che l’altro non usa"
+],
+"active": 3,
+"note": "Per te cordiali. Per lui, forse, ironiche."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Il prossimo messaggio breve di lavoro",
+"Aggiungi il nome di chi lo riceve"
+],
+"note": "Due parole, all’inizio."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Rileggilo prima di mandarlo",
+"Guarda com’è diverso"
+],
+"note": "Nella prossima lezione: la brevità che sembra freddezza."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

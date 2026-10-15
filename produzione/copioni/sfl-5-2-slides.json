@@ -1,0 +1,538 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.2",
+"title": "La brevità che sembra freddezza",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "per quattro moduli",
+"title": "Ti ho detto di tagliare.<br><span class=\"gold\">Adesso: dove smette di funzionare.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "altrimenti questo corso produce",
+"title": "Persone efficientissime<br><span class=\"gold\">e insopportabili.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "il punto in cui il taglio smette di funzionare",
+"title": "Proprio<br><span class=\"gold\">il messaggio breve.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "in un testo lungo, la brevità è un servizio",
+"plain": true,
+"rows": [
+"Cinque righe invece di venti",
+"Chi legge ha guadagnato tempo"
+],
+"note": "E se ne accorge."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "quattro parole invece di sei",
+"title": "Due parole<br><span class=\"gold\">non sono un risparmio per nessuno.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "quelle due parole in meno",
+"title": "Non sembrano efficienza.<br><span class=\"gold\">Sembrano disinteresse.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"statica": false,
+"kicker": "sotto le cinque o sei parole",
+"title": "Sotto una certa soglia<br>la brevità non è efficienza.<br><span class=\"gold\">È distanza.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"statica": true,
+"kicker": "sotto le cinque o sei parole",
+"title": "Sotto una certa soglia<br>la brevità non è efficienza.<br><span class=\"gold\">È distanza.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"statica": true,
+"kicker": "sotto le cinque o sei parole",
+"title": "Sotto una certa soglia<br>la brevità non è efficienza.<br><span class=\"gold\">È distanza.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"statica": true,
+"kicker": "sotto le cinque o sei parole",
+"title": "Sotto una certa soglia<br>la brevità non è efficienza.<br><span class=\"gold\">È distanza.</span>"
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No, oggi serve copertura fino alle 20. Mi dispiace."
+}
+]
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No, oggi serve copertura fino alle 20. Mi dispiace."
+}
+]
+},
+{
+"file": "c14",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No, oggi serve copertura fino alle 20. Mi dispiace."
+}
+]
+},
+{
+"file": "c15",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "Ho finito prima, posso uscire?"
+},
+{
+"da": "i",
+"t": "No, oggi serve copertura fino alle 20. Mi dispiace."
+}
+]
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "un’asimmetria",
+"title": "La brevità pesa diversamente<br><span class=\"gold\">a seconda di chi scrive.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "da un pari",
+"title": "Un messaggio secco<br><span class=\"gold\">è un messaggio secco.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "da chi ha un ruolo sopra",
+"title": "Lo stesso messaggio<br><span class=\"gold\">è un giudizio.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "e chi lo manda non se ne accorge",
+"title": "Per lui<br><span class=\"gold\">era solo una risposta rapida.</span>"
+},
+{
+"file": "c20",
+"layout": "memo",
+"theme": "deep",
+"title": "Lo stesso «ok»,<br>da chi comanda, pesa il doppio."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "per chi coordina",
+"title": "Il tuo budget di brevità<br><span class=\"gold\">è più basso degli altri.</span>"
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "le tue risposte decidono",
+"plain": true,
+"rows": [
+"I turni",
+"I permessi",
+"Le priorità"
+],
+"note": "E quindi vengono lette con più attenzione."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "le tue risposte vengono",
+"plain": true,
+"rows": [
+"Rilette",
+"Interpretate",
+"Mostrate a qualcun altro"
+],
+"note": "«Guarda che cosa mi ha risposto.»"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "due parole in più, da te",
+"title": "Costano lo stesso.<br><span class=\"gold\">Valgono molto di più.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "il caso che fa più danni",
+"title": "Dieci righe.<br><span class=\"gold\">E in risposta: «ok, ne parliamo».</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "tre parole",
+"title": "Niente di sbagliato,<br><span class=\"gold\">prese da sole.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "la sproporzione",
+"title": "È il messaggio.<br><span class=\"gold\">Dieci righe contro tre parole.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "quello che arriva",
+"title": "Quelle dieci righe<br><span class=\"gold\">valevano tre parole.</span>"
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "<i>(messaggio lungo su una situazione difficile in reparto)</i>"
+},
+{
+"da": "i",
+"t": "Ok, ne parliamo"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "<i>(stesso messaggio)</i>"
+},
+{
+"da": "i",
+"t": "Letto tutto, grazie per avermelo scritto.<br>Non ti rispondo adesso perché merita più di due righe.<br>Ci sentiamo domani mattina?"
+}
+]
+},
+{
+"file": "c31",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "<i>(messaggio lungo su una situazione difficile in reparto)</i>"
+},
+{
+"da": "i",
+"t": "Ok, ne parliamo"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "<i>(stesso messaggio)</i>"
+},
+{
+"da": "i",
+"t": "Letto tutto, grazie per avermelo scritto.<br>Non ti rispondo adesso perché merita più di due righe.<br>Ci sentiamo domani mattina?"
+}
+]
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "<i>(messaggio lungo su una situazione difficile in reparto)</i>"
+},
+{
+"da": "i",
+"t": "Ok, ne parliamo"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "<i>(stesso messaggio)</i>"
+},
+{
+"da": "i",
+"t": "Letto tutto, grazie per avermelo scritto.<br>Non ti rispondo adesso perché merita più di due righe.<br>Ci sentiamo domani mattina?"
+}
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "r",
+"t": "<i>(messaggio lungo su una situazione difficile in reparto)</i>"
+},
+{
+"da": "i",
+"t": "Ok, ne parliamo"
+}
+],
+"dopo": [
+{
+"da": "r",
+"t": "<i>(stesso messaggio)</i>"
+},
+{
+"da": "i",
+"t": "Letto tutto, grazie per avermelo scritto.<br>Non ti rispondo adesso perché merita più di due righe.<br>Ci sentiamo domani mattina?"
+}
+]
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "attenzione",
+"title": "Non sto dicendo<br><span class=\"gold\">di scrivere lungo.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "la lunghezza si misura su due cose",
+"plain": true,
+"rows": [
+"Quanto ha scritto l’altro",
+"Quanto pesa la tua risposta per lui"
+],
+"note": "Non sulla tua fretta."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "a un messaggio operativo",
+"title": "«Ok»<br><span class=\"gold\">è perfetto.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "a un messaggio difficile",
+"title": "«Ok»<br><span class=\"gold\">è un muro.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "una regola rapida",
+"title": "Quanto è costato<br><span class=\"gold\">a chi l’ha scritto?</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "se ha dovuto pensarci",
+"title": "Merita qualcosa di più<br><span class=\"gold\">di un riflesso.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "non serve che sia lunga",
+"title": "Serve che si veda<br><span class=\"gold\">che l’hai letto.</span>"
+},
+{
+"file": "c41",
+"layout": "list",
+"kicker": "di solito bastano due righe",
+"plain": true,
+"rows": [
+"Ho letto e ho capito",
+"Ti rispondo quando"
+],
+"note": "Molto meno di quanto si pensi."
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Se scriverlo è costato fatica,<br>la risposta non può essere<br>a costo zero."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il monosillabo a un messaggio lungo",
+"Dimenticare l’asimmetria di ruolo",
+"Brevità ed efficienza sotto le cinque parole",
+"Rimandare senza dire che hai letto"
+],
+"plain": true,
+"note": "Efficienza per chi scrive, distanza per chi legge."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il monosillabo a un messaggio lungo",
+"Dimenticare l’asimmetria di ruolo",
+"Brevità ed efficienza sotto le cinque parole",
+"Rimandare senza dire che hai letto"
+],
+"active": 0,
+"note": "La sproporzione è il messaggio."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il monosillabo a un messaggio lungo",
+"Dimenticare l’asimmetria di ruolo",
+"Brevità ed efficienza sotto le cinque parole",
+"Rimandare senza dire che hai letto"
+],
+"active": 1,
+"note": "Da chi coordina, la brevità pesa il doppio."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il monosillabo a un messaggio lungo",
+"Dimenticare l’asimmetria di ruolo",
+"Brevità ed efficienza sotto le cinque parole",
+"Rimandare senza dire che hai letto"
+],
+"active": 2,
+"note": "Lì non si risparmia niente. Si comunica distanza."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il monosillabo a un messaggio lungo",
+"Dimenticare l’asimmetria di ruolo",
+"Brevità ed efficienza sotto le cinque parole",
+"Rimandare senza dire che hai letto"
+],
+"active": 3,
+"note": "«Ho letto, è importante, ti rispondo domani.»"
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Un messaggio lungo, e non puoi rispondere?",
+"Scrivi tre cose"
+],
+"note": "L’ho letto. È importante. Ti rispondo quando."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Tre righe",
+"Le ricorderanno più della risposta"
+],
+"note": "Nella prossima lezione: i messaggi di lavoro."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

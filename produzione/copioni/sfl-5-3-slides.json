@@ -1,0 +1,453 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.3",
+"title": "I messaggi di lavoro",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "un problema che la mail non ha mai avuto",
+"title": "Un apparecchio<br><span class=\"gold\">che è anche personale.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "la stessa notifica",
+"title": "Il coordinatore<br><span class=\"gold\">e tuo figlio.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "non è un dettaglio tecnico",
+"title": "Cambia che cosa significa<br><span class=\"gold\">scrivere a qualcuno.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "la cosa più importante",
+"title": "Non come si scrive.<br><span class=\"gold\">Quando.</span>"
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "un messaggio alle ventidue comunica",
+"plain": true,
+"rows": [
+"Il suo contenuto",
+"Che è normale scriversi alle ventidue"
+],
+"note": "La seconda non la scrive nessuno. Ma arriva."
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "la seconda è più potente",
+"title": "Il contenuto si dimentica.<br><span class=\"gold\">L’orario si accumula.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "dopo dieci messaggi serali",
+"title": "Una regola<br><span class=\"gold\">che nessuno ha deciso.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"statica": false,
+"kicker": "chi ha un ruolo",
+"title": "Quando scrivi<br>è un messaggio<br><span class=\"gold\">quanto cosa scrivi.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"statica": true,
+"kicker": "chi ha un ruolo",
+"title": "Quando scrivi<br>è un messaggio<br><span class=\"gold\">quanto cosa scrivi.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"statica": true,
+"kicker": "chi ha un ruolo",
+"title": "Quando scrivi<br>è un messaggio<br><span class=\"gold\">quanto cosa scrivi.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"statica": true,
+"kicker": "chi ha un ruolo",
+"title": "Quando scrivi<br>è un messaggio<br><span class=\"gold\">quanto cosa scrivi.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la soluzione",
+"title": "Non è smettere di scrivere<br><span class=\"gold\">la sera.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "è una riga",
+"title": "«Non c’è nessuna fretta:<br><span class=\"gold\">rispondimi domani.»</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "dieci parole",
+"title": "L’orario<br><span class=\"gold\">non diventa una regola.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "oppure, l’invio programmato",
+"title": "Scritto alle 22.<br><span class=\"gold\">Parte alle 8.</span>"
+},
+{
+"file": "c17",
+"layout": "memo",
+"theme": "deep",
+"title": "Dopo dieci messaggi serali<br>hai stabilito un orario<br>che nessuno ha concordato."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "il messaggio breve va bene per",
+"rows": [
+"Cose operative e immediate",
+"Conferme",
+"Coordinamento di orari e presenze",
+"Avvisi urgenti"
+],
+"plain": true,
+"note": "Quattro cose: quelle per cui il canale è nato."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "il messaggio breve va bene per",
+"rows": [
+"Cose operative e immediate",
+"Conferme",
+"Coordinamento di orari e presenze",
+"Avvisi urgenti"
+],
+"active": 0,
+"note": "Arrivo tardi. È pronto. Ci sono."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "il messaggio breve va bene per",
+"rows": [
+"Cose operative e immediate",
+"Conferme",
+"Coordinamento di orari e presenze",
+"Avvisi urgenti"
+],
+"active": 1,
+"note": "Ho ricevuto, va bene, ci vediamo lì."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "il messaggio breve va bene per",
+"rows": [
+"Cose operative e immediate",
+"Conferme",
+"Coordinamento di orari e presenze",
+"Avvisi urgenti"
+],
+"active": 2,
+"note": "Chi c’è domani, chi copre il turno."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "il messaggio breve va bene per",
+"rows": [
+"Cose operative e immediate",
+"Conferme",
+"Coordinamento di orari e presenze",
+"Avvisi urgenti"
+],
+"active": 3,
+"note": "Quelli veri. Niente da ritrovare fra sei mesi."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "che cosa non ci va",
+"plain": true,
+"rows": [
+"Una decisione",
+"Un accordo",
+"Un’autorizzazione",
+"Una richiesta formale",
+"Un dato"
+],
+"note": "Tutto quello che dovrà essere ritrovato."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "non perché sia sbagliato scriverlo lì",
+"title": "Dopo due settimane<br><span class=\"gold\">è irrecuperabile.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "sepolta fra cento messaggi",
+"title": "Quando servirà,<br><span class=\"gold\">non la troverà nessuno.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "nel modulo 6",
+"title": "Il testo che resta<br><span class=\"gold\">è un capitolo a sé.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "la soluzione semplice",
+"title": "Si decide a voce.<br><span class=\"gold\">Si scrive in tre righe.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "per esempio",
+"title": "«Come d’accordo al telefono:<br><span class=\"gold\">facciamo così, entro questa data.»</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "non è formalismo",
+"title": "Fra tre mesi,<br><span class=\"gold\">una versione sola.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "vale anche a voce",
+"title": "Due minuti per decidere.<br><span class=\"gold\">Venti secondi per scriverlo.</span>"
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "ok allora facciamo <u>come detto</u>, grazie!"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Riepilogo quello che ci siamo detti:<br>— tu sposti la consegna a venerdì<br>— io aggiorno il documento entro mercoledì<br>— ci risentiamo giovedì"
+}
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "ok allora facciamo <u>come detto</u>, grazie!"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Riepilogo quello che ci siamo detti:<br>— tu sposti la consegna a venerdì<br>— io aggiorno il documento entro mercoledì<br>— ci risentiamo giovedì"
+}
+]
+},
+{
+"file": "c34",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "ok allora facciamo <u>come detto</u>, grazie!"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Riepilogo quello che ci siamo detti:<br>— tu sposti la consegna a venerdì<br>— io aggiorno il documento entro mercoledì<br>— ci risentiamo giovedì"
+}
+]
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "ok allora facciamo <u>come detto</u>, grazie!"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Riepilogo quello che ci siamo detti:<br>— tu sposti la consegna a venerdì<br>— io aggiorno il documento entro mercoledì<br>— ci risentiamo giovedì"
+}
+]
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "il canale",
+"title": "Quattro o cinque scambi<br><span class=\"gold\">senza una conclusione.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "non scrivi male",
+"title": "È lo strumento<br><span class=\"gold\">che non regge.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "il fenomeno che tutti conoscono",
+"plain": true,
+"rows": [
+"Quaranta messaggi",
+"Due persone stanche",
+"Un malinteso che all’inizio non c’era"
+],
+"note": "E il tono, intanto, peggiora."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "il quinto scambio senza conclusione",
+"title": "Non scrivere il sesto.<br><span class=\"gold\">Cambia strumento.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "la frase che chiude",
+"title": "«Ci sentiamo due minuti,<br><span class=\"gold\">facciamo prima.»</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "nella lezione 5.4",
+"title": "Sapere quando non scrivere<br><span class=\"gold\">è una competenza di scrittura.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Tutto quello che dovrà<br>essere ritrovato<br>non va in una chat."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il messaggio serale senza «non c’è fretta»",
+"Le decisioni lasciate in chat",
+"«Come d’accordo» senza dire che cosa",
+"Il quinto scambio senza conclusione"
+],
+"plain": true,
+"note": "Comodi da scrivere. Si pagano dopo."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il messaggio serale senza «non c’è fretta»",
+"Le decisioni lasciate in chat",
+"«Come d’accordo» senza dire che cosa",
+"Il quinto scambio senza conclusione"
+],
+"active": 0,
+"note": "Dieci parole, e la serata di chi riceve resta sua."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il messaggio serale senza «non c’è fretta»",
+"Le decisioni lasciate in chat",
+"«Come d’accordo» senza dire che cosa",
+"Il quinto scambio senza conclusione"
+],
+"active": 1,
+"note": "Lì non si ritrovano."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il messaggio serale senza «non c’è fretta»",
+"Le decisioni lasciate in chat",
+"«Come d’accordo» senza dire che cosa",
+"Il quinto scambio senza conclusione"
+],
+"active": 2,
+"note": "Fra due settimane nessuno lo ricorda."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il messaggio serale senza «non c’è fretta»",
+"Le decisioni lasciate in chat",
+"«Come d’accordo» senza dire che cosa",
+"Il quinto scambio senza conclusione"
+],
+"active": 3,
+"note": "È il canale sbagliato."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Decidi qualcosa a voce o per messaggio?",
+"Tre righe di riepilogo"
+],
+"note": "Chi fa che cosa, entro quando."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Venti secondi adesso",
+"Una discussione in meno fra tre mesi"
+],
+"note": "Nella prossima lezione: quando non si scrive."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

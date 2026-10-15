@@ -1,0 +1,452 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.4",
+"title": "Quando non si scrive",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "un corso di scrittura che spiega",
+"title": "Quando non scrivere.<br><span class=\"gold\">Non è un paradosso.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "scegliere il canale fa parte del mestiere",
+"title": "Prima di come scriverla:<br><span class=\"gold\">se scriverla.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "una cosa che andava detta",
+"title": "Il testo era giusto.<br><span class=\"gold\">Il canale no.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "non si scrive quando",
+"rows": [
+"C’è tensione",
+"La cosa è complicata",
+"Servono risposte a più domande",
+"La notizia è pesante"
+],
+"plain": true,
+"note": "Quattro casi, e li riconosci tutti."
+},
+{
+"file": "c06",
+"layout": "list",
+"kicker": "non si scrive quando",
+"rows": [
+"C’è tensione",
+"La cosa è complicata",
+"Servono risposte a più domande",
+"La notizia è pesante"
+],
+"active": 0,
+"note": "Manca il tono: ognuno riempie il vuoto con il peggio."
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "non si scrive quando",
+"rows": [
+"C’è tensione",
+"La cosa è complicata",
+"Servono risposte a più domande",
+"La notizia è pesante"
+],
+"active": 1,
+"note": "Tre minuti a voce. Una pagina per iscritto."
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "non si scrive quando",
+"rows": [
+"C’è tensione",
+"La cosa è complicata",
+"Servono risposte a più domande",
+"La notizia è pesante"
+],
+"active": 2,
+"note": "Ne fai tre, ne torna una."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "non si scrive quando",
+"rows": [
+"C’è tensione",
+"La cosa è complicata",
+"Servono risposte a più domande",
+"La notizia è pesante"
+],
+"active": 3,
+"note": "Merita una regola sua."
+},
+{
+"file": "c10",
+"layout": "statement",
+"kicker": "il primo caso",
+"title": "Due persone in disaccordo<br><span class=\"gold\">che continuano a scriversi.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"kicker": "a ogni rilettura",
+"title": "Il messaggio dell’altro<br><span class=\"gold\">sembra un po’ peggiore.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "a voce e per iscritto",
+"title": "A voce la frase passa.<br><span class=\"gold\">Per iscritto resta tutto.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "bastano due persone che rileggono",
+"title": "Il resto<br><span class=\"gold\">lo fa il testo.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"statica": false,
+"kicker": "perché le frasi scritte pesano di più",
+"title": "Un testo si rilegge.<br><span class=\"gold\">Una frase detta, no.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"statica": true,
+"kicker": "perché le frasi scritte pesano di più",
+"title": "Un testo si rilegge.<br><span class=\"gold\">Una frase detta, no.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"statica": true,
+"kicker": "perché le frasi scritte pesano di più",
+"title": "Un testo si rilegge.<br><span class=\"gold\">Una frase detta, no.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"statica": true,
+"kicker": "perché le frasi scritte pesano di più",
+"title": "Un testo si rilegge.<br><span class=\"gold\">Una frase detta, no.</span>"
+},
+{
+"file": "c18",
+"layout": "memo",
+"theme": "deep",
+"title": "Un disaccordo per iscritto<br>si indurisce da solo."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "la frase che interrompe tutto",
+"title": "«Ci sentiamo due minuti,<br><span class=\"gold\">facciamo prima.»</span>"
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "che cosa non dice",
+"plain": true,
+"rows": [
+"Che l’altro ha capito male",
+"Che la conversazione sta andando storta",
+"Di chi è la colpa"
+],
+"note": "Non accusa nessuno. Per questo nessuno si offende."
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "dice solo",
+"title": "Il canale è lento.<br><span class=\"gold\">Nessuno perde niente.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "il modo più economico",
+"title": "Sei parole.<br><span class=\"gold\">E si riparte a voce.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "la notizia pesante",
+"title": "Le notizie che cambiano la giornata<br><span class=\"gold\">non si danno per messaggio.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "una ragione pratica",
+"title": "Chi la riceve<br><span class=\"gold\">non può fare domande.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "resta solo con la notizia",
+"title": "Per tutto il tempo<br><span class=\"gold\">che ci metti a rispondere.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "dall’altra parte",
+"title": "Dieci minuti per te.<br><span class=\"gold\">Un’ora per chi aspetta.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "un caso che rovescia tutto",
+"title": "Quando scrivere<br><span class=\"gold\">è la cosa giusta.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "quando l’altro ha bisogno di tempo",
+"plain": true,
+"rows": [
+"Una critica che va pensata",
+"Una richiesta che mette in imbarazzo",
+"Una cosa su cui la prima reazione è sbagliata"
+],
+"note": "Senza qualcuno che lo guarda."
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "per iscritto",
+"title": "Leggi, chiudi, pensaci.<br><span class=\"gold\">Rispondi domani.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "lo scritto è un regalo: dà spazio",
+"title": "Scrivi,<br><span class=\"gold\">e offri di parlarne.</span>"
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Senti, <u>devo dirti una cosa</u> sul modo in cui hai gestito la riunione di ieri."
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ti scrivo una cosa sulla riunione di ieri, così ci pensi con calma.<br>Poi ne parliamo quando vuoi, anche oggi."
+}
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Senti, <u>devo dirti una cosa</u> sul modo in cui hai gestito la riunione di ieri."
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ti scrivo una cosa sulla riunione di ieri, così ci pensi con calma.<br>Poi ne parliamo quando vuoi, anche oggi."
+}
+]
+},
+{
+"file": "c34",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Senti, <u>devo dirti una cosa</u> sul modo in cui hai gestito la riunione di ieri."
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ti scrivo una cosa sulla riunione di ieri, così ci pensi con calma.<br>Poi ne parliamo quando vuoi, anche oggi."
+}
+]
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"prima": [
+{
+"da": "i",
+"t": "Senti, <u>devo dirti una cosa</u> sul modo in cui hai gestito la riunione di ieri."
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Ti scrivo una cosa sulla riunione di ieri, così ci pensi con calma.<br>Poi ne parliamo quando vuoi, anche oggi."
+}
+]
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "la distinzione che tiene insieme la lezione",
+"title": "Si scrive per dare spazio.<br><span class=\"gold\">Non per evitare una conversazione.</span>"
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "scrivere è più comodo",
+"plain": true,
+"rows": [
+"Scegli le parole",
+"Non vedi la reazione",
+"Non rispondi subito"
+],
+"note": "Lo facciamo tutti. Quasi mai ce ne accorgiamo."
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "la domanda, fatta onestamente",
+"title": "Sto scrivendo per lui,<br><span class=\"gold\">o per me?</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "se la risposta è la seconda",
+"title": "Niente di cui vergognarsi.<br><span class=\"gold\">Basta accorgersene.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "quel testo sarà",
+"title": "Corretto, misurato,<br><span class=\"gold\">difendibile.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "e chi lo riceve capisce",
+"title": "È stato scritto<br><span class=\"gold\">per non parlare.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "È meglio per lui,<br>o è più comodo per me?"
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Discutere per iscritto",
+"La notizia pesante per messaggio",
+"Aprire un argomento difficile senza dire quale",
+"Scrivere per non parlare"
+],
+"plain": true,
+"note": "Nessuno riguarda le parole. Tutti riguardano il canale."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Discutere per iscritto",
+"La notizia pesante per messaggio",
+"Aprire un argomento difficile senza dire quale",
+"Scrivere per non parlare"
+],
+"active": 0,
+"note": "Il disaccordo si indurisce da solo."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Discutere per iscritto",
+"La notizia pesante per messaggio",
+"Aprire un argomento difficile senza dire quale",
+"Scrivere per non parlare"
+],
+"active": 1,
+"note": "Chi la riceve non può fare domande."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Discutere per iscritto",
+"La notizia pesante per messaggio",
+"Aprire un argomento difficile senza dire quale",
+"Scrivere per non parlare"
+],
+"active": 2,
+"note": "Chi legge pensa al peggio finché non arriva il resto."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Discutere per iscritto",
+"La notizia pesante per messaggio",
+"Aprire un argomento difficile senza dire quale",
+"Scrivere per non parlare"
+],
+"active": 3,
+"note": "Il testo può essere perfetto. Si capisce lo stesso."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Uno scambio si sta scaldando?",
+"«Ci sentiamo due minuti, facciamo prima.»"
+],
+"note": "E poi chiama. Subito."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"La cosa più efficace del modulo",
+"Non richiede di saper scrivere"
+],
+"note": "Nella prossima lezione: i gruppi."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

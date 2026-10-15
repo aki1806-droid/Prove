@@ -1,0 +1,472 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 5 · Lezione 5.5",
+"title": "I gruppi",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il gruppo di lavoro su una chat",
+"title": "Usato da tutti.<br><span class=\"gold\">Funziona per pochi.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "nessuno l’ha deciso",
+"title": "Un gruppo alla volta,<br><span class=\"gold\">perché era comodo.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "che cosa succede davvero lì dentro",
+"plain": true,
+"rows": [
+"Una moltiplicazione",
+"Chi non scrive",
+"Le decisioni"
+],
+"note": "Tre cose. Succedono sempre."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "chi scrive in un gruppo",
+"title": "Pensa di mandare<br><span class=\"gold\">un messaggio solo.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "in un gruppo di quindici",
+"title": "Quindici telefoni<br><span class=\"gold\">che vibrano.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "un «grazie» costa a quattordici persone",
+"plain": true,
+"rows": [
+"Guardare il telefono",
+"Capire che non le riguardava",
+"Tornare a quello che facevano"
+],
+"note": "Nessuno se ne lamenta. Ma il costo c’è."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "dieci secondi a testa, per quattordici",
+"title": "Due minuti e mezzo<br><span class=\"gold\">per un grazie.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"statica": false,
+"kicker": "un costo fisso che chi scrive non vede",
+"title": "Un messaggio in un gruppo di quindici<br><span class=\"gold\">sono quindici interruzioni.</span>"
+},
+{
+"file": "c10",
+"layout": "statement",
+"statica": true,
+"kicker": "un costo fisso che chi scrive non vede",
+"title": "Un messaggio in un gruppo di quindici<br><span class=\"gold\">sono quindici interruzioni.</span>"
+},
+{
+"file": "c11",
+"layout": "statement",
+"statica": true,
+"kicker": "un costo fisso che chi scrive non vede",
+"title": "Un messaggio in un gruppo di quindici<br><span class=\"gold\">sono quindici interruzioni.</span>"
+},
+{
+"file": "c12",
+"layout": "statement",
+"statica": true,
+"kicker": "un costo fisso che chi scrive non vede",
+"title": "Un messaggio in un gruppo di quindici<br><span class=\"gold\">sono quindici interruzioni.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la seconda cosa",
+"title": "Riguarda<br><span class=\"gold\">chi non scrive.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "conta chi scrive davvero",
+"title": "Gli stessi nomi,<br><span class=\"gold\">su qualunque argomento.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "scrivere in un gruppo",
+"title": "È esporsi<br><span class=\"gold\">davanti a quindici persone.</span>"
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "scrivono meno",
+"plain": true,
+"rows": [
+"Chi ha meno potere",
+"Chi è nuovo",
+"Chi ha paura di sembrare incompetente"
+],
+"note": "Spesso, proprio quelli con le domande più utili."
+},
+{
+"file": "c17",
+"layout": "memo",
+"theme": "deep",
+"title": "In ogni gruppo<br>parlano sempre<br>le stesse tre persone."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "chi coordina deve saperlo",
+"title": "Il silenzio in un gruppo<br><span class=\"gold\">sembra consenso.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "nessuno obietta alla tua proposta",
+"title": "Non hai un accordo.<br><span class=\"gold\">Hai un silenzio.</span>"
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "il silenzio vuol dire soltanto",
+"plain": true,
+"rows": [
+"Fretta",
+"Timidezza",
+"Prudenza",
+"Stanchezza"
+],
+"note": "O che era in turno, e la discussione era già chiusa."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "se ti serve l’accordo di qualcuno",
+"title": "Chiediglielo.<br><span class=\"gold\">A lui, in privato.</span>"
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "un gruppo di messaggi non ha",
+"plain": true,
+"rows": [
+"Un oggetto",
+"Paragrafi",
+"Un ordine, se non il tempo"
+],
+"note": "Una decisione e una battuta scorrono alla stessa velocità."
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "dopo due settimane",
+"title": "Una decisione<br><span class=\"gold\">sotto quattrocento messaggi.</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "«ma non avevamo deciso diversamente?»",
+"title": "Ognuno la sua versione.<br><span class=\"gold\">Nessuno può dimostrare niente.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "dalla lezione 5.3: la mail di tre righe",
+"plain": true,
+"rows": [
+"Che cosa abbiamo deciso",
+"Chi fa che cosa",
+"Entro quando"
+],
+"note": "Si decide dove si vuole. Si scrive altrove."
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "tre regole per un gruppo di lavoro",
+"rows": [
+"Serve a una persona? Scrivi a quella persona",
+"Il silenzio non è consenso",
+"Le decisioni escono dal gruppo"
+],
+"plain": true,
+"note": "Coprono quasi tutto."
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "tre regole per un gruppo di lavoro",
+"rows": [
+"Serve a una persona? Scrivi a quella persona",
+"Il silenzio non è consenso",
+"Le decisioni escono dal gruppo"
+],
+"active": 0,
+"note": "Grazie, ok, domande a uno solo: in privato."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "tre regole per un gruppo di lavoro",
+"rows": [
+"Serve a una persona? Scrivi a quella persona",
+"Il silenzio non è consenso",
+"Le decisioni escono dal gruppo"
+],
+"active": 1,
+"note": "Non contare chi non ha obiettato. Chiedi."
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "tre regole per un gruppo di lavoro",
+"rows": [
+"Serve a una persona? Scrivi a quella persona",
+"Il silenzio non è consenso",
+"Le decisioni escono dal gruppo"
+],
+"active": 2,
+"note": "Si prendono lì. Si scrivono altrove."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "chi crea un gruppo, quasi sempre chi coordina",
+"title": "Ha una responsabilità<br><span class=\"gold\">che non immagina.</span>"
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "un gruppo di lavoro",
+"plain": true,
+"rows": [
+"Arriva sul telefono personale",
+"A qualunque ora",
+"Non se ne esce senza che si veda"
+],
+"note": "«Ha abbandonato il gruppo.»"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "chi lo crea",
+"title": "Apre un canale<br><span class=\"gold\">a cui nessuno può sottrarsi.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "i gruppi servono: quando lo apri",
+"title": "Dichiara a cosa serve.<br><span class=\"gold\">E rispettalo, tu per primo.</span>"
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": false,
+"forma": "chat",
+"largo": true,
+"prima": [
+{
+"da": "n",
+"t": "(gruppo creato, nessuna spiegazione)"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Apro questo gruppo per il coordinamento dei turni.<br>Serve per: cambi urgenti e sostituzioni.<br>Non serve per: discussioni e decisioni — quelle le facciamo in riunione o per mail.<br>Dopo le 20 scrivete pure, ma nessuno è tenuto a rispondere."
+}
+]
+},
+{
+"file": "c36",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"largo": true,
+"prima": [
+{
+"da": "n",
+"t": "(gruppo creato, nessuna spiegazione)"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Apro questo gruppo per il coordinamento dei turni.<br>Serve per: cambi urgenti e sostituzioni.<br>Non serve per: discussioni e decisioni — quelle le facciamo in riunione o per mail.<br>Dopo le 20 scrivete pure, ma nessuno è tenuto a rispondere."
+}
+]
+},
+{
+"file": "c37",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"largo": true,
+"prima": [
+{
+"da": "n",
+"t": "(gruppo creato, nessuna spiegazione)"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Apro questo gruppo per il coordinamento dei turni.<br>Serve per: cambi urgenti e sostituzioni.<br>Non serve per: discussioni e decisioni — quelle le facciamo in riunione o per mail.<br>Dopo le 20 scrivete pure, ma nessuno è tenuto a rispondere."
+}
+]
+},
+{
+"file": "c38",
+"layout": "pd",
+"statica": true,
+"forma": "chat",
+"largo": true,
+"prima": [
+{
+"da": "n",
+"t": "(gruppo creato, nessuna spiegazione)"
+}
+],
+"dopo": [
+{
+"da": "i",
+"t": "Apro questo gruppo per il coordinamento dei turni.<br>Serve per: cambi urgenti e sostituzioni.<br>Non serve per: discussioni e decisioni — quelle le facciamo in riunione o per mail.<br>Dopo le 20 scrivete pure, ma nessuno è tenuto a rispondere."
+}
+]
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "tutte le regole di questi cinque moduli",
+"title": "Servono a una cosa sola:<br><span class=\"gold\">far arrivare quello che scrivi.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "in un gruppo, la prima domanda",
+"title": "Non come scriverlo.<br><span class=\"gold\">Se va scritto lì.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "quasi tutto quello che scriviamo lì serve",
+"title": "A una persona,<br><span class=\"gold\">o a nessuno.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Il silenzio in un gruppo<br>non è consenso."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Grazie» a quindici persone",
+"Prendere decisioni nel gruppo",
+"Leggere il silenzio come accordo",
+"Aprire un gruppo senza dire a cosa serve"
+],
+"plain": true,
+"note": "Nessuno li fa con cattive intenzioni. Li pagano tutti."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Grazie» a quindici persone",
+"Prendere decisioni nel gruppo",
+"Leggere il silenzio come accordo",
+"Aprire un gruppo senza dire a cosa serve"
+],
+"active": 0,
+"note": "Quindici interruzioni per una parola sola."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Grazie» a quindici persone",
+"Prendere decisioni nel gruppo",
+"Leggere il silenzio come accordo",
+"Aprire un gruppo senza dire a cosa serve"
+],
+"active": 1,
+"note": "Dopo due settimane, sepolte sotto quattrocento messaggi."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Grazie» a quindici persone",
+"Prendere decisioni nel gruppo",
+"Leggere il silenzio come accordo",
+"Aprire un gruppo senza dire a cosa serve"
+],
+"active": 2,
+"note": "Se ti serve un sì, chiedilo a chi deve darlo."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Grazie» a quindici persone",
+"Prendere decisioni nel gruppo",
+"Leggere il silenzio come accordo",
+"Aprire un gruppo senza dire a cosa serve"
+],
+"active": 3,
+"note": "Si regolerà da solo, sulla forma di chi scrive di più."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"A quante persone serve davvero?",
+"Una: scrivi a quella",
+"Nessuna: non scrivere"
+],
+"note": "Prima di scrivere in un gruppo."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Il modulo sul messaggio breve finisce qui",
+"Il prossimo: quando è difficile"
+],
+"note": "Un rifiuto, una critica, una cattiva notizia."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 5",
+"sub": "Modulo 6 — Scrivere quando è difficile",
+"site": "laparolagiusta.it"
+}
+]
