@@ -25,5 +25,8 @@
   "nota": "Script del pacchetto letto senza modifiche: arriva a 12 minuti senza aggiunte.",
   "loudnorm": "I=-16:TP=-1.5:LRA=11"
  },
- "montaggio": "Locale: le slide del pacchetto come inquadrature (al massimo 9 s, 12 per le tabelle), più immagini e clip Higgsfield e ricostruzioni animate delle registrazioni; poi unione in HeyGen come per le altre lezioni."
+ "montaggio": "Locale: le slide del pacchetto come inquadrature (al massimo 9 s, 12 per le tabelle) e le sue animazioni; nei blocchi più lunghi di una slide, immagini aggiunte (Xnn, ElevenLabs seedream-5-lite); b-roll del pacchetto con immagini ElevenLabs e clip ElevenLabs kling-2.5-turbo (una variante per scena; tre clip da Higgsfield finché il suo limite giornaliero lo ha permesso); ricostruzioni animate delle registrazioni; poi unione in HeyGen delle due metà, come per le altre lezioni.",
+ "segnaposto_aperti": [
+  "Registrazioni schermo di IAS_M01_L04: ricostruzioni animate al posto delle registrazioni vere"
+ ]
 }
