@@ -1,0 +1,154 @@
+{
+  "progetto": "PDRO_Oncoematologia_No_capri_espiatori",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voce_elevenlabs": "Achille nuovo 1 v4",
+  "modello": "eleven_multilingual_v2",
+  "atempo": 1.12,
+  "avatar_heygen": "Aki with a lapel microphone",
+  "posizione_avatar": "basso a destra",
+  "logo": "alto a sinistra",
+  "nota": "Ogni scena ha due grafiche (A e B): B entra sulla frase indicata",
+  "scene": [
+    {
+      "n": 1,
+      "tipo": "slide",
+      "titolo": "C'è chi non se n'è mai andato",
+      "voce": "In questi giorni, mentre i bambini dell'Oncoematologia pediatrica cambiavano reparto, c'era qualcuno che non se n'è mai andato. Infermieri, operatori socio sanitari, medici, tecnici, personale di supporto. Hanno preparato, spostato, rassicurato. E hanno continuato a curare, turno dopo turno, accanto ai bambini e alle loro famiglie.",
+      "parole": 46,
+      "caratteri": 333,
+      "durata_stimata_s": 20.5,
+      "grafiche": [
+        {
+          "file": "slide/S01A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S01B_slide.png",
+          "da": "sulla frase «E hanno continuato…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 2,
+      "tipo": "clip",
+      "titolo": "Due trasferimenti",
+      "voce": "Per molti di loro è il secondo trasferimento in pochi mesi. Lo hanno affrontato con professionalità e con il cuore, senza mai interrompere l'assistenza a pazienti così fragili. Questo lavoro non fa notizia. Ma è quello che, ogni giorno, tiene in piedi la cura.",
+      "parole": 44,
+      "caratteri": 260,
+      "durata_stimata_s": 16.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S02A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S02B_overlay.png",
+          "da": "sulla frase «Questo lavoro…»"
+        }
+      ],
+      "clip": "Mani di un'infermiera che sistemano con cura un carrello di reparto e una coperta colorata su un letto vuoto, luce calda del mattino. Nessun bambino, nessun volto."
+    },
+    {
+      "n": 3,
+      "tipo": "slide",
+      "titolo": "Fa male",
+      "voce": "Poi abbiamo letto i giornali. E alcune dichiarazioni, fatte mentre le verifiche sono ancora in corso, lasciano intendere che la causa possa essere legata all'attività sanitaria, cioè a chi lavora in reparto. Leggerle fa male. Fa male a chi ha passato queste notti accanto ai bambini, e merita rispetto, non sospetti.",
+      "parole": 51,
+      "caratteri": 316,
+      "durata_stimata_s": 19.5,
+      "grafiche": [
+        {
+          "file": "slide/S03A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S03B_slide.png",
+          "da": "sulla frase «Leggerle fa male…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 4,
+      "tipo": "clip",
+      "titolo": "No ai capri espiatori",
+      "voce": "Lo diciamo con chiarezza: non accettiamo capri espiatori. Le cause le accerteranno la commissione regionale e le verifiche tecniche, non le dichiarazioni sui giornali. Fino ad allora chiediamo a tutti responsabilità. Chi non ha colpe non può diventare il bersaglio più comodo.",
+      "parole": 42,
+      "caratteri": 276,
+      "durata_stimata_s": 17.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S04B_overlay.png",
+          "da": "sulla frase «Le cause…»"
+        }
+      ],
+      "clip": "Corridoio ospedaliero di notte, luce fredda, un'operatrice di spalle che cammina lenta verso la luce in fondo. Ritmo lento."
+    },
+    {
+      "n": 5,
+      "tipo": "slide",
+      "titolo": "Le parole pesano",
+      "voce": "Le parole pesano. Pesano sulle famiglie, che cercano certezze. E pesano su professionisti che ogni giorno si sacrificano senza chiedere nulla. Per questo invitiamo tutti a evitare dichiarazioni che possano ferire chi assiste i bambini. Prima i fatti, poi le parole.",
+      "parole": 41,
+      "caratteri": 265,
+      "durata_stimata_s": 16.3,
+      "grafiche": [
+        {
+          "file": "slide/S05A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S05B_slide.png",
+          "da": "sulla frase «Prima i fatti…»"
+        }
+      ],
+      "clip": null
+    },
+    {
+      "n": 6,
+      "tipo": "clip",
+      "titolo": "Cosa chiediamo",
+      "voce": "Noi continuiamo a fare la nostra parte. Abbiamo chiesto all'Azienda supporto concreto per il trasferimento, rispetto di turni e riposi, informazione puntuale ai lavoratori e il giusto riconoscimento per questo impegno straordinario. E vigileremo perché nessuno paghi per responsabilità che non ha.",
+      "parole": 42,
+      "caratteri": 297,
+      "durata_stimata_s": 18.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A_overlay.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S06B_overlay.png",
+          "da": "sulla frase «E vigileremo…»"
+        }
+      ],
+      "clip": "Due colleghi in divisa che si passano le consegne a fine turno, gesto di supporto sulla spalla, inquadratura a mezzo busto senza volti in primo piano."
+    },
+    {
+      "n": 7,
+      "tipo": "slide",
+      "titolo": "Grazie",
+      "voce": "A voi che in queste settimane avete tenuto insieme il reparto, le famiglie e la speranza dei bambini: grazie. Non siete soli. Se lavori in Oncoematologia pediatrica e hai bisogno di parlarci, scrivici o vieni da noi, al terzo piano della Palazzina dei Servizi. Le cure le garantite voi. La vostra tutela la garantiamo noi.",
+      "parole": 55,
+      "caratteri": 322,
+      "durata_stimata_s": 19.8,
+      "grafiche": [
+        {
+          "file": "slide/S07A_slide.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "slide/S07B_slide.png",
+          "da": "sulla frase «Non siete soli…»"
+        }
+      ],
+      "clip": null
+    }
+  ]
+}
