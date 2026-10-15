@@ -1,0 +1,1170 @@
+1
+00:00:03,000 --> 00:00:06,878
+Benvenuto alla lezione uno punto cinque,
+l'ultima del primo modulo.
+
+2
+00:00:06,918 --> 00:00:09,920
+Oggi metti insieme tutto quello che hai
+visto finora
+
+3
+00:00:09,960 --> 00:00:13,078
+e conduci la tua prima conversazione
+guidata con l'IA.
+
+4
+00:00:13,118 --> 00:00:16,762
+Su una norma che conosci bene, imparerai a
+impostare, chiedere,
+
+5
+00:00:16,802 --> 00:00:20,564
+correggere e rilanciare, fino a un testo
+pronto per i lavoratori.
+
+6
+00:00:21,204 --> 00:00:23,009
+In sede arriva la solita domanda.
+
+7
+00:00:23,049 --> 00:00:24,854
+Una lavoratrice vuole sapere come
+
+8
+00:00:24,894 --> 00:00:27,369
+funzionano i permessi per assistere il
+padre,
+
+9
+00:00:27,409 --> 00:00:28,935
+che ha una disabilità grave.
+
+10
+00:00:28,975 --> 00:00:30,835
+È una norma che conosci a memoria:
+
+11
+00:00:30,875 --> 00:00:34,301
+l'hai spiegata decine di volte, in
+assemblea e allo sportello.
+
+12
+00:00:34,341 --> 00:00:38,438
+Questa volta però vuoi preparare un
+volantino chiaro per tutto il reparto.
+
+13
+00:00:39,078 --> 00:00:41,952
+È l'occasione perfetta per mettere alla
+prova l'IA.
+
+14
+00:00:41,992 --> 00:00:43,837
+Su questa norma l'esperto sei tu.
+
+15
+00:00:43,877 --> 00:00:47,437
+Non devi fidarti della risposta: puoi
+giudicarla riga per riga.
+
+16
+00:00:47,477 --> 00:00:50,465
+Ed è proprio così che si impara a usare lo
+strumento,
+
+17
+00:00:50,505 --> 00:00:53,665
+partendo da un terreno dove nessun errore
+può sfuggirti.
+
+18
+00:00:54,305 --> 00:00:56,328
+Ecco l'idea guida della lezione.
+
+19
+00:00:56,368 --> 00:00:58,778
+Con l'IA si dialoga, non si interroga.
+
+20
+00:00:58,818 --> 00:01:03,613
+La prima risposta non è un verdetto da
+accettare o respingere: è una bozza.
+
+21
+00:01:03,653 --> 00:01:06,836
+La conversazione serve a portarla, giro
+dopo giro,
+
+22
+00:01:06,876 --> 00:01:08,899
+dove serve a te e ai lavoratori.
+
+23
+00:01:09,539 --> 00:01:11,279
+Come fanno molti la prima volta?
+
+24
+00:01:11,319 --> 00:01:14,783
+Una domanda secca, una risposta, e la
+conversazione finisce lì.
+
+25
+00:01:14,823 --> 00:01:16,674
+Se la risposta piace, la si copia.
+
+26
+00:01:16,714 --> 00:01:20,957
+Se non piace, si chiude la finestra e si
+conclude che lo strumento non serve.
+
+27
+00:01:20,997 --> 00:01:24,406
+In entrambi i casi si butta via la parte
+più utile del lavoro:
+
+28
+00:01:24,446 --> 00:01:25,630
+quella che viene dopo.
+
+29
+00:01:26,269 --> 00:01:28,864
+Guarda la differenza tra i due
+atteggiamenti.
+
+30
+00:01:28,904 --> 00:01:31,615
+Chi interroga fa una domanda e prende o
+lascia.
+
+31
+00:01:31,655 --> 00:01:35,011
+Chi dialoga imposta il contesto, legge con
+occhio critico,
+
+32
+00:01:35,051 --> 00:01:38,466
+corregge con precisione e chiede la
+versione che gli serve.
+
+33
+00:01:38,506 --> 00:01:40,807
+Il secondo spende qualche minuto in più,
+
+34
+00:01:40,847 --> 00:01:43,384
+ma ottiene un testo che può davvero
+firmare.
+
+35
+00:01:44,024 --> 00:01:47,250
+Per la prima conversazione bastano quattro
+mosse.
+
+36
+00:01:47,290 --> 00:01:51,050
+Impostare: dici chi sei, per chi scrivi,
+in che contesto.
+
+37
+00:01:51,090 --> 00:01:54,517
+Chiedere: formuli una richiesta chiara e
+delimitata.
+
+38
+00:01:54,557 --> 00:01:57,650
+Correggere: indichi con precisione cosa
+non va.
+
+39
+00:01:57,690 --> 00:02:02,116
+Rilanciare: chiedi la versione migliorata
+nel formato che ti serve.
+
+40
+00:02:02,756 --> 00:02:04,619
+Ecco come suonano in pratica.
+
+41
+00:02:04,659 --> 00:02:08,162
+Impostare: sono un delegato RSU della
+sanità pubblica.
+
+42
+00:02:08,202 --> 00:02:12,033
+Chiedere: spiegami i permessi per chi
+assiste un familiare.
+
+43
+00:02:12,073 --> 00:02:17,085
+Correggere: il punto tre è superato, la
+norma è cambiata nel duemilaventidue.
+
+44
+00:02:17,125 --> 00:02:20,693
+Rilanciare: riscrivilo in dieci righe per
+un volantino.
+
+45
+00:02:20,733 --> 00:02:24,695
+Nel modulo quattro vedrai il prompt
+completo in cinque parti.
+
+46
+00:02:25,335 --> 00:02:27,629
+C'è una cosa da sapere prima di
+cominciare.
+
+47
+00:02:27,669 --> 00:02:31,266
+Nella stessa chat l'IA tiene conto di
+tutto ciò che vi siete detti.
+
+48
+00:02:31,306 --> 00:02:34,305
+Ogni correzione resta valida per le
+risposte successive.
+
+49
+00:02:34,345 --> 00:02:37,725
+Per un argomento nuovo, invece, conviene
+aprire una chat nuova,
+
+50
+00:02:37,765 --> 00:02:40,167
+così il contesto precedente non
+interferisce.
+
+51
+00:02:40,807 --> 00:02:42,343
+Cominciamo la dimostrazione.
+
+52
+00:02:42,383 --> 00:02:46,003
+Apri ChatGPT e crea una chat nuova,
+dedicata solo a questa norma.
+
+53
+00:02:46,043 --> 00:02:47,692
+Non ci serve nessun documento,
+
+54
+00:02:47,732 --> 00:02:51,182
+perché questa volta il controllo lo fai tu
+con quello che sai.
+
+55
+00:02:51,222 --> 00:02:54,504
+Ma come sempre non inserirai nessun dato
+della lavoratrice:
+
+56
+00:02:54,544 --> 00:02:56,700
+né il nome, né la situazione del padre.
+
+57
+00:02:57,340 --> 00:02:59,520
+Ecco il prompt delle prime due mosse.
+
+58
+00:02:59,560 --> 00:03:03,181
+Imposti ruolo e settore, poi dici cosa
+devi spiegare e a chi.
+
+59
+00:03:03,221 --> 00:03:05,761
+Chiedi una spiegazione chiara su tre
+punti:
+
+60
+00:03:05,801 --> 00:03:08,701
+chi ne ha diritto, quanto spetta, come si
+chiede.
+
+61
+00:03:08,741 --> 00:03:12,362
+E aggiungi la regola che conosci dalla
+lezione uno punto due:
+
+62
+00:03:12,402 --> 00:03:16,082
+fonte per ogni affermazione e da
+verificare dove non è sicuro.
+
+63
+00:03:16,722 --> 00:03:18,083
+Completi i segnaposto.
+
+64
+00:03:18,123 --> 00:03:19,356
+Ruolo: delegato RSU.
+
+65
+00:03:19,396 --> 00:03:20,375
+Settore: sanità.
+
+66
+00:03:20,415 --> 00:03:25,024
+Come norma scrivi: i permessi mensili
+dell'articolo trentatré della legge
+
+67
+00:03:25,064 --> 00:03:29,990
+centoquattro del novantadue per chi
+assiste un familiare con disabilità grave.
+
+68
+00:03:30,030 --> 00:03:34,511
+Rileggi una volta, controlla che non ci
+sia nulla di personale e invia.
+
+69
+00:03:35,152 --> 00:03:36,621
+Ecco un estratto verosimile.
+
+70
+00:03:36,661 --> 00:03:38,292
+La risposta è ordinata e indica
+
+71
+00:03:38,332 --> 00:03:41,311
+correttamente tre giorni di permesso
+mensile retribuito.
+
+72
+00:03:41,351 --> 00:03:45,516
+Ma più avanti afferma che il permesso può
+essere chiesto da un solo familiare,
+
+73
+00:03:45,556 --> 00:03:47,133
+il cosiddetto referente unico.
+
+74
+00:03:47,173 --> 00:03:50,044
+E lo dice con lo stesso tono sicuro di
+tutto il resto.
+
+75
+00:03:50,683 --> 00:03:52,138
+Adesso il revisore sei tu.
+
+76
+00:03:52,178 --> 00:03:55,530
+Leggi la risposta con una matita rossa,
+anche solo mentale.
+
+77
+00:03:55,570 --> 00:03:58,463
+Non chiederti se è scritta bene: lo è
+quasi sempre.
+
+78
+00:03:58,503 --> 00:04:00,648
+Chiediti se è giusta, se è aggiornata,
+
+79
+00:04:00,688 --> 00:04:04,385
+se è completa e se vale davvero per i
+lavoratori che rappresenti.
+
+80
+00:04:05,025 --> 00:04:07,546
+Quando leggi, cerchi quattro tipi di
+problema.
+
+81
+00:04:07,586 --> 00:04:09,384
+L'errore, cioè un dato sbagliato.
+
+82
+00:04:09,424 --> 00:04:12,613
+La norma superata, ancora scritta come se
+fosse in vigore.
+
+83
+00:04:12,653 --> 00:04:15,342
+L'omissione, quando manca qualcosa di
+importante.
+
+84
+00:04:15,382 --> 00:04:16,567
+E la generalizzazione,
+
+85
+00:04:16,607 --> 00:04:18,627
+quando una regola che vale per alcuni
+
+86
+00:04:18,667 --> 00:04:21,021
+viene presentata come se valesse per
+tutti.
+
+87
+00:04:21,661 --> 00:04:23,219
+Applichiamoli alla risposta.
+
+88
+00:04:23,259 --> 00:04:25,216
+I tre giorni al mese sono corretti.
+
+89
+00:04:25,256 --> 00:04:27,670
+Ma il referente unico è una norma
+superata:
+
+90
+00:04:27,710 --> 00:04:30,751
+il decreto legislativo centocinque del
+duemilaventidue
+
+91
+00:04:30,791 --> 00:04:34,461
+consente la fruizione alternata tra più
+familiari aventi diritto,
+
+92
+00:04:34,501 --> 00:04:36,515
+nel rispetto del limite complessivo.
+
+93
+00:04:36,555 --> 00:04:40,681
+E manca ogni cenno al contratto e al
+regolamento aziendale: un'omissione.
+
+94
+00:04:41,321 --> 00:04:42,639
+Fermati su questo punto.
+
+95
+00:04:42,679 --> 00:04:45,582
+La risposta era corretta forse al novanta
+per cento.
+
+96
+00:04:45,622 --> 00:04:50,054
+Ma l'errore stava proprio sul diritto
+principale, chi può chiedere il permesso.
+
+97
+00:04:50,094 --> 00:04:52,714
+Una spiegazione quasi giusta con un errore
+lì è
+
+98
+00:04:52,754 --> 00:04:55,600
+più pericolosa di una risposta del tutto
+sbagliata,
+
+99
+00:04:55,640 --> 00:04:56,506
+perché convince.
+
+100
+00:04:57,145 --> 00:05:00,555
+Mettiamo in fila quello che l'IA ha
+scritto e quello che sai tu.
+
+101
+00:05:00,595 --> 00:05:02,010
+Sui giorni siete d'accordo.
+
+102
+00:05:02,050 --> 00:05:04,974
+Sul referente unico no, e hai la fonte che
+lo dimostra.
+
+103
+00:05:05,014 --> 00:05:07,777
+Sul contratto e sul regolamento aziendale
+l'IA tace.
+
+104
+00:05:07,817 --> 00:05:10,903
+Questo confronto è già il canovaccio della
+tua correzione.
+
+105
+00:05:11,543 --> 00:05:13,320
+L'errore tipico, a questo punto,
+
+106
+00:05:13,360 --> 00:05:15,933
+è accettare la risposta perché è quasi
+giusta.
+
+107
+00:05:15,973 --> 00:05:19,170
+Si copia tutto nel volantino, magari
+ritoccando lo stile.
+
+108
+00:05:19,210 --> 00:05:21,498
+E il volantino esce con un dato superato.
+
+109
+00:05:21,538 --> 00:05:23,883
+Il delegato che lo firma perde credibilità
+
+110
+00:05:23,923 --> 00:05:26,666
+proprio con i lavoratori che lo conoscono
+meglio.
+
+111
+00:05:27,306 --> 00:05:29,522
+Passiamo alla terza mossa: correggere.
+
+112
+00:05:29,562 --> 00:05:30,590
+Qui conta il modo.
+
+113
+00:05:30,630 --> 00:05:33,914
+Una correzione generica, del tipo non è
+giusto, riprova,
+
+114
+00:05:33,954 --> 00:05:37,357
+di solito produce un'altra risposta
+altrettanto imprecisa,
+
+115
+00:05:37,397 --> 00:05:39,078
+solo scritta in modo diverso.
+
+116
+00:05:39,118 --> 00:05:43,293
+Lo strumento non sa cosa hai trovato di
+sbagliato, e tira a indovinare.
+
+117
+00:05:43,933 --> 00:05:46,570
+Una correzione funziona quando è precisa.
+
+118
+00:05:46,610 --> 00:05:50,683
+Indichi il punto, spieghi cosa non va e,
+se puoi, dai la fonte.
+
+119
+00:05:50,723 --> 00:05:52,185
+Non scrivere sbagliato.
+
+120
+00:05:52,225 --> 00:05:54,274
+Scrivi: il punto due è superato,
+
+121
+00:05:54,314 --> 00:05:56,755
+il decreto legislativo centocinque del
+
+122
+00:05:56,795 --> 00:05:59,889
+duemilaventidue ha eliminato il referente
+unico.
+
+123
+00:05:59,929 --> 00:06:02,304
+La differenza nel risultato è enorme.
+
+124
+00:06:02,945 --> 00:06:04,805
+Ecco il prompt della terza mossa.
+
+125
+00:06:04,845 --> 00:06:08,031
+Elenchi i problemi uno per uno: il punto
+della risposta,
+
+126
+00:06:08,071 --> 00:06:10,852
+cosa non va e perché, con la fonte se la
+conosci.
+
+127
+00:06:10,892 --> 00:06:14,078
+Poi chiedi di riscrivere tenendo conto
+delle correzioni.
+
+128
+00:06:14,118 --> 00:06:18,109
+E aggiungi l'ultima riga, che è la più
+importante di tutta la lezione.
+
+129
+00:06:18,748 --> 00:06:21,235
+Nella stessa chat scrivi le due
+correzioni.
+
+130
+00:06:21,275 --> 00:06:23,939
+Primo: il referente unico è stato superato
+dal
+
+131
+00:06:23,979 --> 00:06:26,995
+decreto legislativo centocinque del
+duemilaventidue,
+
+132
+00:06:27,035 --> 00:06:30,168
+che consente la fruizione alternata tra
+più familiari.
+
+133
+00:06:30,208 --> 00:06:34,047
+Secondo: manca il rimando al contratto e
+al regolamento aziendale.
+
+134
+00:06:34,087 --> 00:06:36,280
+Poi l'ultima riga del prompt, e invii.
+
+135
+00:06:36,921 --> 00:06:38,783
+Ecco la nuova versione verosimile.
+
+136
+00:06:38,823 --> 00:06:39,958
+I tre giorni restano.
+
+137
+00:06:39,998 --> 00:06:42,307
+Il referente unico sparisce e al suo posto
+
+138
+00:06:42,347 --> 00:06:44,825
+c'è la fruizione alternata tra più
+familiari,
+
+139
+00:06:44,865 --> 00:06:46,111
+nel limite complessivo.
+
+140
+00:06:46,151 --> 00:06:49,803
+E compare l'invito a verificare contratto
+e regolamento aziendale.
+
+141
+00:06:49,843 --> 00:06:53,328
+La correzione è entrata, ed è entrata
+bene, perché era precisa.
+
+142
+00:06:53,967 --> 00:06:55,721
+Ora torniamo a quell'ultima riga.
+
+143
+00:06:55,761 --> 00:06:58,004
+Perché chiedere all'IA di dirti se una tua
+
+144
+00:06:58,044 --> 00:07:00,396
+correzione è in contrasto con quello che
+sa?
+
+145
+00:07:00,436 --> 00:07:03,821
+Perché questi strumenti tendono ad
+assecondare chi li corregge,
+
+146
+00:07:03,861 --> 00:07:05,941
+anche quando la correzione è sbagliata.
+
+147
+00:07:05,981 --> 00:07:08,713
+Se sbagli tu, rischi di introdurre un
+errore nuovo,
+
+148
+00:07:08,753 --> 00:07:10,616
+con la benedizione dello strumento.
+
+149
+00:07:11,256 --> 00:07:14,510
+Puoi verificarlo con una piccola prova, in
+una chat separata.
+
+150
+00:07:14,550 --> 00:07:18,129
+Fai la stessa domanda e poi correggi
+volutamente in modo sbagliato:
+
+151
+00:07:18,169 --> 00:07:21,207
+per esempio, scrivi che i giorni di
+permesso sono cinque.
+
+152
+00:07:21,247 --> 00:07:22,773
+Con l'ultima riga del prompt,
+
+153
+00:07:22,813 --> 00:07:26,338
+lo strumento dovrebbe segnalarti il
+contrasto invece di adeguarsi.
+
+154
+00:07:26,978 --> 00:07:29,899
+Ecco la prova a schermo, in una chat nuova
+di Claude.
+
+155
+00:07:29,939 --> 00:07:32,190
+Hai ottenuto la spiegazione dei permessi.
+
+156
+00:07:32,230 --> 00:07:34,146
+Ora scrivi la correzione sbagliata,
+
+157
+00:07:34,186 --> 00:07:37,219
+sempre con la riga finale: dimmelo invece
+di adeguarti.
+
+158
+00:07:37,259 --> 00:07:40,627
+Invia, e guarda con attenzione la prima
+frase della risposta.
+
+159
+00:07:41,267 --> 00:07:42,625
+Ecco un esito verosimile.
+
+160
+00:07:42,665 --> 00:07:44,135
+Lo strumento non si adegua:
+
+161
+00:07:44,175 --> 00:07:46,763
+ti segnala che la norma che conosce
+prevede tre
+
+162
+00:07:46,803 --> 00:07:49,504
+giorni e ti invita a verificare il testo
+vigente.
+
+163
+00:07:49,544 --> 00:07:51,741
+È esattamente il comportamento che vuoi.
+
+164
+00:07:51,781 --> 00:07:55,823
+Senza quella riga, molte volte avrebbe
+riscritto tutto con cinque giorni,
+
+165
+00:07:55,863 --> 00:07:57,780
+ringraziandoti per la precisazione.
+
+166
+00:07:58,420 --> 00:08:01,928
+Torniamo alla chat principale per la
+quarta mossa: rilanciare.
+
+167
+00:08:01,968 --> 00:08:06,677
+Ora che la spiegazione è corretta, chiedi
+di trasformarla nel formato che ti serve.
+
+168
+00:08:06,717 --> 00:08:10,167
+Un volantino di dieci righe, un messaggio
+WhatsApp di cinque,
+
+169
+00:08:10,207 --> 00:08:12,056
+oppure cinque domande e risposte.
+
+170
+00:08:12,096 --> 00:08:15,660
+Linguaggio semplice, frasi brevi, e
+l'invito a passare in sede.
+
+171
+00:08:16,301 --> 00:08:19,459
+In ChatGPT, nella stessa chat dove hai
+fatto le correzioni,
+
+172
+00:08:19,499 --> 00:08:22,440
+incolli il prompt e scegli il volantino di
+dieci righe.
+
+173
+00:08:22,480 --> 00:08:23,795
+Non serve ripetere nulla:
+
+174
+00:08:23,835 --> 00:08:27,426
+lo strumento ricorda la spiegazione
+corretta e le tue precisazioni.
+
+175
+00:08:27,466 --> 00:08:30,353
+È il vantaggio di lavorare nella stessa
+conversazione.
+
+176
+00:08:30,993 --> 00:08:32,575
+Ecco l'estratto del volantino.
+
+177
+00:08:32,615 --> 00:08:35,223
+Frasi brevi, nessun termine tecnico non
+spiegato,
+
+178
+00:08:35,263 --> 00:08:37,277
+la novità del duemilaventidue messa in
+
+179
+00:08:37,317 --> 00:08:40,250
+evidenza perché molti colleghi ancora non
+la conoscono.
+
+180
+00:08:40,290 --> 00:08:42,466
+E in chiusura l'invito a passare in sede.
+
+181
+00:08:42,506 --> 00:08:46,304
+È un testo che potresti appendere in
+bacheca, dopo un ultimo controllo.
+
+182
+00:08:46,944 --> 00:08:49,273
+E quell'ultimo controllo non è
+facoltativo.
+
+183
+00:08:49,313 --> 00:08:52,800
+Il testo finale si confronta con la norma
+vigente su Normattiva.
+
+184
+00:08:52,840 --> 00:08:56,657
+Poi con le istruzioni applicative
+dell'INPS e della Funzione pubblica.
+
+185
+00:08:56,697 --> 00:08:59,522
+Infine con il regolamento della tua
+amministrazione.
+
+186
+00:08:59,562 --> 00:09:02,938
+Solo dopo questi passaggi il volantino è
+davvero utilizzabile.
+
+187
+00:09:03,578 --> 00:09:05,778
+Ecco il riferimento della dimostrazione.
+
+188
+00:09:05,818 --> 00:09:09,586
+La legge centoquattro del novantadue,
+articolo trentatré, comma tre,
+
+189
+00:09:09,626 --> 00:09:12,106
+prevede il permesso mensile retribuito di
+tre
+
+190
+00:09:12,146 --> 00:09:15,186
+giorni per assistere un familiare con
+disabilità grave.
+
+191
+00:09:15,226 --> 00:09:17,314
+Il decreto legislativo centocinque del
+
+192
+00:09:17,354 --> 00:09:20,731
+duemilaventidue ha superato il principio
+del referente unico.
+
+193
+00:09:21,371 --> 00:09:22,968
+Un ultimo errore da evitare.
+
+194
+00:09:23,008 --> 00:09:25,542
+Per rendere la conversazione più
+realistica,
+
+195
+00:09:25,582 --> 00:09:27,881
+viene voglia di raccontare il caso vero:
+
+196
+00:09:27,921 --> 00:09:31,448
+il nome della lavoratrice, la malattia del
+padre, il reparto.
+
+197
+00:09:31,488 --> 00:09:32,735
+Non serve e non si fa.
+
+198
+00:09:32,775 --> 00:09:36,711
+Anche nella conversazione guidata si
+lavora sulla norma in generale,
+
+199
+00:09:36,751 --> 00:09:38,115
+senza nessun caso reale.
+
+200
+00:09:38,754 --> 00:09:41,810
+Hai appena fatto una cosa che molti utenti
+non fanno mai.
+
+201
+00:09:41,850 --> 00:09:45,993
+Hai trattato la prima risposta come una
+bozza, l'hai corretta con precisione,
+
+202
+00:09:46,033 --> 00:09:48,058
+hai verificato che lo strumento non ti
+
+203
+00:09:48,098 --> 00:09:50,394
+assecondasse e hai ottenuto un testo
+utile.
+
+204
+00:09:50,434 --> 00:09:53,925
+Sono dieci minuti di lavoro, e cambiano la
+qualità del risultato.
+
+205
+00:09:54,565 --> 00:09:57,396
+Per la prossima norma, ricorda di aprire
+una chat nuova.
+
+206
+00:09:57,436 --> 00:10:00,421
+Se dopo i permessi vuoi lavorare
+sull'assemblea retribuita,
+
+207
+00:10:00,461 --> 00:10:02,933
+la conversazione precedente non deve
+interferire.
+
+208
+00:10:02,973 --> 00:10:05,855
+Le correzioni sui permessi non c'entrano
+con l'assemblea,
+
+209
+00:10:05,895 --> 00:10:08,931
+e il contesto vecchio potrebbe confondere
+la risposta nuova.
+
+210
+00:10:09,571 --> 00:10:13,865
+In Gemini, per esempio, apri una chat
+nuova e ricominci dalle mosse uno e due,
+
+211
+00:10:13,905 --> 00:10:17,143
+questa volta sull'assemblea retribuita in
+orario di lavoro,
+
+212
+00:10:17,183 --> 00:10:20,366
+prevista dall'articolo venti dello Statuto
+dei lavoratori.
+
+213
+00:10:20,406 --> 00:10:24,311
+Stesso metodo, stessa matita rossa, stessa
+verifica finale sulla fonte.
+
+214
+00:10:24,952 --> 00:10:28,172
+Se ti porti a casa una sola frase, che sia
+questa.
+
+215
+00:10:28,212 --> 00:10:30,453
+La prima risposta è solo una bozza.
+
+216
+00:10:30,493 --> 00:10:33,518
+La conversazione serve a portarla dove
+vuoi tu:
+
+217
+00:10:33,558 --> 00:10:36,842
+imposta, chiedi, correggi con precisione,
+rilancia.
+
+218
+00:10:36,882 --> 00:10:39,972
+E alla fine verifica sempre sulla norma
+vigente.
+
+219
+00:10:40,611 --> 00:10:41,431
+Ora tocca a te.
+
+220
+00:10:41,471 --> 00:10:44,296
+Scegli una norma che usi spesso e conosci
+a fondo.
+
+221
+00:10:44,336 --> 00:10:47,621
+Apri una chat nuova e usa il prompt delle
+prime due mosse.
+
+222
+00:10:47,661 --> 00:10:50,257
+Leggi la risposta cercando i quattro
+problemi.
+
+223
+00:10:50,297 --> 00:10:52,607
+Correggi con il prompt della terza mossa,
+
+224
+00:10:52,647 --> 00:10:54,556
+rilancia con quello della quarta e
+
+225
+00:10:54,596 --> 00:10:57,249
+confronta il testo finale con la norma
+vigente.
+
+226
+00:10:57,890 --> 00:11:01,567
+Se non sai da dove partire, ecco alcune
+norme adatte per allenarti,
+
+227
+00:11:01,607 --> 00:11:04,729
+perché le conosci bene e i lavoratori le
+chiedono spesso.
+
+228
+00:11:04,769 --> 00:11:08,168
+I permessi della legge centoquattro, come
+nella dimostrazione.
+
+229
+00:11:08,208 --> 00:11:11,052
+L'assemblea retribuita dello Statuto dei
+lavoratori.
+
+230
+00:11:11,092 --> 00:11:12,162
+I congedi parentali.
+
+231
+00:11:12,202 --> 00:11:12,661
+Le ferie.
+
+232
+00:11:13,301 --> 00:11:15,610
+Durante la pratica annota quello che
+trovi:
+
+233
+00:11:15,650 --> 00:11:18,615
+quanti errori, quante norme superate,
+quante omissioni.
+
+234
+00:11:18,655 --> 00:11:20,800
+E annota se lo strumento ha accettato le
+
+235
+00:11:20,840 --> 00:11:23,149
+tue correzioni o ti ha segnalato
+contrasti.
+
+236
+00:11:23,189 --> 00:11:26,263
+Questo piccolo diario ti servirà molto nel
+modulo cinque,
+
+237
+00:11:26,303 --> 00:11:28,831
+quando costruirai la tua checklist di
+verifica.
+
+238
+00:11:29,470 --> 00:11:31,748
+Con questa lezione chiudi il primo modulo.
+
+239
+00:11:31,788 --> 00:11:34,950
+Sai come ragiona un modello, perché
+sbaglia con sicurezza,
+
+240
+00:11:34,990 --> 00:11:38,207
+cosa può fare per te e cosa non deve mai
+fare al tuo posto.
+
+241
+00:11:38,247 --> 00:11:41,132
+E hai condotto la tua prima conversazione
+da esperto.
+
+242
+00:11:41,172 --> 00:11:43,174
+Sono le fondamenta di tutto il resto.
+
+243
+00:11:43,815 --> 00:11:46,979
+Dal prossimo modulo si passa agli
+strumenti veri e propri.
+
+244
+00:11:47,019 --> 00:11:50,791
+Conoscerai da vicino ChatGPT, Claude e
+Gemini, uno accanto all'altro,
+
+245
+00:11:50,831 --> 00:11:53,222
+con i loro punti forti e le loro
+differenze.
+
+246
+00:11:53,262 --> 00:11:57,144
+E comincerai a scegliere quello giusto per
+ogni compito della tua sede.
+
+247
+00:11:57,784 --> 00:12:01,635
+Nella prossima lezione apri gli account di
+ChatGPT, Claude e Gemini,
+
+248
+00:12:01,675 --> 00:12:04,896
+con un indirizzo pensato apposta per il
+lavoro sindacale,
+
+249
+00:12:04,936 --> 00:12:07,356
+e impari a orientarti nelle tre
+interfacce,
+
+250
+00:12:07,396 --> 00:12:09,873
+riconoscendo le stesse cinque zone in
+tutte.
+
+251
+00:12:09,913 --> 00:12:12,105
+Ci vediamo nella lezione due punto uno.
