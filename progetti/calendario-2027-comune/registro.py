@@ -126,7 +126,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
-## Da verificare — quello che non ho potuto giudicare io
+""" + (f"""## Note del mese
+
+{cons['note']}
+
+""" if cons.get('note') else "") + f"""## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il
   pacchetto: numeri, norme e date dipendono dal CCNL e dalle leggi in vigore.

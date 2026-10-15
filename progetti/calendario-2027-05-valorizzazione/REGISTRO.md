@@ -112,6 +112,10 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Note del mese
+
+Nella clip di S1, a metà, a Elena compare in testa una cuffietta da infermiera che nel fotogramma di partenza non c'è: un'invenzione di Kling. Il volto resta lo stesso; va giudicato se lasciarla o rifare la clip (12 crediti).
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

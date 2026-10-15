@@ -1,0 +1,9 @@
+{
+ "video_id": "98da035edb64267ad44945ee763dae7e",
+ "durata_heygen": "1:25.91",
+ "link": "https://app.heygen.com/videos/98da035edb64267ad44945ee763dae7e",
+ "verifica": "Scaricato e controllato: 1:25.91 (0,17 s meno del montato di prova: HeyGen accorcia di qualche centesimo ogni stacco, video e audio insieme), 1920x1080, audio a −16,6 LUFS. Al centro di ogni scena i fotogrammi coincidono col montato di prova: scarto medio 1,21 su 255, il massimo 2,98 su S1.",
+ "crediti_voce": "circa 5 crediti HeyGen (un credito ogni 16,7 s di grezzo, 81 s: il saldo non si legge mese per mese, sullo stesso account lavorava un'altra sessione)",
+ "crediti_render": "non isolabile, per la stessa ragione (sul corso: 1 credito a render)",
+ "note": "Nel pacchetto la battuta di S1 finiva con un carattere che il font non ha (un quadratino al posto della «»» di chiusura). Rifatta sopra la clip, la battuta ora chiude giusta."
+}
