@@ -1,0 +1,449 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 1 · Lezione 1.4",
+"title": "Cosa vuoi che faccia",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "gli ultimi dieci testi che hai scritto",
+"title": "In quanti era scritto<br><span class=\"gold\">che cosa doveva fare chi legge?</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "nella mia esperienza",
+"title": "In due o tre.<br><span class=\"gold\">Negli altri, un’informazione.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "legge, magari annuisce",
+"title": "E passa<br><span class=\"gold\">al testo successivo.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "scrivi, mandi, aspetti",
+"title": "Non succede niente.<br><span class=\"gold\">E la conclusione è sbagliata.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "non è cattiva volontà",
+"title": "Nessuno gli ha chiesto niente.<br><span class=\"gold\">Dedurlo non tocca a lui.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "e se lo deduce, spesso sbaglia",
+"plain": true,
+"rows": [
+"Legge tutto quando bastava una parte",
+"Risponde a te invece che a un altro",
+"Aspetta quando avevi fretta"
+],
+"note": "Una cosa diversa da quella che volevi."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "una settimana dopo",
+"title": "Nessuno dei due ha sbagliato.<br><span class=\"gold\">Ha sbagliato il testo.</span>"
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "tre richieste",
+"plain": true,
+"rows": [
+"Che non c’è: non viene eseguita",
+"Vaga: viene eseguita a caso",
+"Chiara: viene eseguita come volevi"
+],
+"note": "La differenza sta in una riga sola."
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Volevo informarti che il documento è pronto e che ci sarebbero alcuni punti da chiarire prima di procedere, quindi fammi sapere.",
+"dopo": [
+"Il documento è pronto.",
+"Ti chiedo di <u>rileggere i punti 3 e 7</u>",
+"e dirmi se vanno bene, <u>entro giovedì</u>."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo informarti che il documento è pronto e che ci sarebbero alcuni punti da chiarire prima di procedere, quindi fammi sapere.",
+"dopo": [
+"Il documento è pronto.",
+"Ti chiedo di <u>rileggere i punti 3 e 7</u>",
+"e dirmi se vanno bene, <u>entro giovedì</u>."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo informarti che il documento è pronto e che ci sarebbero alcuni punti da chiarire prima di procedere, quindi fammi sapere.",
+"dopo": [
+"Il documento è pronto.",
+"Ti chiedo di <u>rileggere i punti 3 e 7</u>",
+"e dirmi se vanno bene, <u>entro giovedì</u>."
+]
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Volevo informarti che il documento è pronto e che ci sarebbero alcuni punti da chiarire prima di procedere, quindi fammi sapere.",
+"dopo": [
+"Il documento è pronto.",
+"Ti chiedo di <u>rileggere i punti 3 e 7</u>",
+"e dirmi se vanno bene, <u>entro giovedì</u>."
+]
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "tre elementi",
+"rows": [
+"Chi — a chi lo stai chiedendo",
+"Cosa — l’azione, in un verbo",
+"Entro quando — una data"
+],
+"plain": true,
+"note": "Devono esserci tutti e tre."
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "tre elementi",
+"rows": [
+"Chi — a chi lo stai chiedendo",
+"Cosa — l’azione, in un verbo",
+"Entro quando — una data"
+],
+"active": 0,
+"note": "«Fatemi sapere», a cinque persone: non lo farà nessuno."
+},
+{
+"file": "c16",
+"layout": "list",
+"kicker": "tre elementi",
+"rows": [
+"Chi — a chi lo stai chiedendo",
+"Cosa — l’azione, in un verbo",
+"Entro quando — una data"
+],
+"active": 1,
+"note": "Rileggere, confermare, inviare, firmare."
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "tre elementi",
+"rows": [
+"Chi — a chi lo stai chiedendo",
+"Cosa — l’azione, in un verbo",
+"Entro quando — una data"
+],
+"active": 2,
+"note": "Non «appena possibile»: giovedì, il 20, entro le 12."
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "«Dire, ascoltare, convincere» · modulo 4",
+"title": "Lo stesso strumento,<br><span class=\"gold\">applicato allo scritto.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "il chi",
+"title": "Si dimentica<br><span class=\"gold\">più spesso degli altri.</span>"
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "se tutti possono farlo",
+"title": "Nessuno<br><span class=\"gold\">deve farlo.</span>"
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "se serve una cosa da Marco",
+"title": "Si scrive<br><span class=\"gold\">il nome di Marco.</span>"
+},
+{
+"file": "c22",
+"layout": "memo",
+"theme": "deep",
+"title": "Chi non sa cosa deve fare<br>non fa niente."
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "e se non chiedi niente?",
+"title": "Capita.<br><span class=\"gold\">Vuoi solo che lo sappia.</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "anche lì, scrivilo",
+"title": "«Non ti chiedo niente,<br><span class=\"gold\">volevo solo che lo sapessi.»</span>"
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "altrimenti",
+"title": "Cerca una richiesta<br><span class=\"gold\">che non c’è.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "dove va la richiesta",
+"title": "Da sola.<br><span class=\"gold\">Su una riga sua.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "il lettore scansiona",
+"title": "Una riga isolata<br><span class=\"gold\">l’occhio la trova per prima.</span>"
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "se il testo è lungo, due volte",
+"plain": true,
+"rows": [
+"In cima",
+"In fondo"
+],
+"note": "In cima per sapere quanto costa; in fondo per ritrovarla."
+},
+{
+"file": "c30",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "…per tutte queste ragioni riteniamo che la soluzione proposta sia percorribile e <u>saremmo quindi grati</u> se poteste <u>eventualmente</u> farci avere un riscontro in merito, <u>compatibilmente con i vostri tempi</u>.",
+"dopo": [
+"Vi chiediamo una risposta scritta entro il 20 marzo.",
+"Se serve più tempo, ditecelo entro il 15."
+]
+},
+{
+"file": "c31",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "…per tutte queste ragioni riteniamo che la soluzione proposta sia percorribile e <u>saremmo quindi grati</u> se poteste <u>eventualmente</u> farci avere un riscontro in merito, <u>compatibilmente con i vostri tempi</u>.",
+"dopo": [
+"Vi chiediamo una risposta scritta entro il 20 marzo.",
+"Se serve più tempo, ditecelo entro il 15."
+]
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "…per tutte queste ragioni riteniamo che la soluzione proposta sia percorribile e <u>saremmo quindi grati</u> se poteste <u>eventualmente</u> farci avere un riscontro in merito, <u>compatibilmente con i vostri tempi</u>.",
+"dopo": [
+"Vi chiediamo una risposta scritta entro il 20 marzo.",
+"Se serve più tempo, ditecelo entro il 15."
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "…per tutte queste ragioni riteniamo che la soluzione proposta sia percorribile e <u>saremmo quindi grati</u> se poteste <u>eventualmente</u> farci avere un riscontro in merito, <u>compatibilmente con i vostri tempi</u>.",
+"dopo": [
+"Vi chiediamo una risposta scritta entro il 20 marzo.",
+"Se serve più tempo, ditecelo entro il 15."
+]
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "quando chiediamo",
+"title": "Specie a chi sta più in alto,<br><span class=\"gold\">o a chi non conosciamo bene.</span>"
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "le formule di attenuazione",
+"plain": true,
+"rows": [
+"Eventualmente",
+"Se possibile",
+"Quando ha tempo",
+"Se non le è di disturbo"
+],
+"note": "Servono a non sembrare invadenti."
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "l’effetto che nessuno calcola",
+"title": "Tu sai che è importante.<br><span class=\"gold\">Lui deve indovinarlo.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "non sapendolo",
+"title": "Decide quasi sempre<br><span class=\"gold\">di no.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "cortesi senza indebolire",
+"title": "Dire che cosa serve.<br><span class=\"gold\">E lasciare la strada per il no.</span>"
+},
+{
+"file": "c39",
+"layout": "list",
+"kicker": "due frasi",
+"plain": true,
+"rows": [
+"Ti chiedo questo entro giovedì.",
+"Se non riesci, dimmelo e troviamo un’altra strada."
+],
+"note": "Nessuna attenuazione, nessuna imposizione."
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "la seconda frase",
+"title": "Non la rende facoltativa.<br><span class=\"gold\">La rende negoziabile.</span>"
+},
+{
+"file": "c41",
+"layout": "memo",
+"theme": "deep",
+"title": "«Eventualmente» sposta sul lettore<br>la decisione se la cosa conta."
+},
+{
+"file": "c42",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"La richiesta dentro un paragrafo",
+"«Appena possibile» al posto di una data",
+"Le formule che rendono facoltativo"
+],
+"plain": true,
+"note": "Tutti modi di chiedere senza chiedere davvero."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"La richiesta dentro un paragrafo",
+"«Appena possibile» al posto di una data",
+"Le formule che rendono facoltativo"
+],
+"active": 0,
+"note": "Non è una richiesta: è un’intenzione."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"La richiesta dentro un paragrafo",
+"«Appena possibile» al posto di una data",
+"Le formule che rendono facoltativo"
+],
+"active": 1,
+"note": "Il lettore scansiona: lì non la trova."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"La richiesta dentro un paragrafo",
+"«Appena possibile» al posto di una data",
+"Le formule che rendono facoltativo"
+],
+"active": 2,
+"note": "Il possibile di chi legge non è il tuo."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"«Fammi sapere»",
+"La richiesta dentro un paragrafo",
+"«Appena possibile» al posto di una data",
+"Le formule che rendono facoltativo"
+],
+"active": 3,
+"note": "Se la cosa ti serve, dillo."
+},
+{
+"file": "c47",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"La richiesta su una riga da sola",
+"Un nome, un verbo, una data"
+],
+"note": "Nella prossima mail che chiede qualcosa."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Niente dopo",
+"Nessun «fammi sapere»"
+],
+"note": "Quella riga è la cosa che verrà letta."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Quanto ci hanno messo",
+"Se hanno fatto quello che chiedevi"
+],
+"note": "Nella prossima lezione: il costo della lunghezza."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

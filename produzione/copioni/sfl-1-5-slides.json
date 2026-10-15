@@ -1,0 +1,449 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 1 · Lezione 1.5",
+"title": "Il costo della lunghezza",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "chiudiamo il modulo",
+"title": "Ogni riga che scrivi<br><span class=\"gold\">costa qualcosa a chi legge.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "e lo paghi anche tu",
+"title": "Viene scalato<br><span class=\"gold\">dall’attenzione che ti dedica.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "non è un budget infinito",
+"title": "Chi ti legge oggi ricorda<br><span class=\"gold\">quanto gli sei costato ieri.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "tu decidi come spenderlo",
+"title": "In premesse e cortesie,<br><span class=\"gold\">o sulla cosa.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "la lezione non è «scrivi corto»",
+"title": "Il corto, da solo,<br><span class=\"gold\">non garantisce niente.</span>"
+},
+{
+"file": "c07",
+"layout": "list",
+"kicker": "dalla prima lezione",
+"plain": true,
+"rows": [
+"Lungo e chiaro: viene letto",
+"Corto e oscuro: viene saltato"
+],
+"note": "Oppure genera tre mail di domande."
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "la lunghezza che non informa",
+"title": "Righe che si possono togliere<br><span class=\"gold\">senza che nessuno se ne accorga.</span>"
+},
+{
+"file": "c09",
+"layout": "statement",
+"kicker": "nella scrittura di lavoro",
+"title": "Sono la maggior parte.<br><span class=\"gold\">Per abitudine.</span>"
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "quattro cose che allungano senza informare",
+"rows": [
+"Le premesse",
+"Le ripetizioni di cortesia",
+"Le precisazioni difensive",
+"Le spiegazioni che nessuno ha chiesto"
+],
+"plain": true,
+"note": "Spingono la cosa che conta più in basso."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "quattro cose che allungano senza informare",
+"rows": [
+"Le premesse",
+"Le ripetizioni di cortesia",
+"Le precisazioni difensive",
+"Le spiegazioni che nessuno ha chiesto"
+],
+"active": 0,
+"note": "Tutto quello che viene prima della cosa."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "quattro cose che allungano senza informare",
+"rows": [
+"Le premesse",
+"Le ripetizioni di cortesia",
+"Le precisazioni difensive",
+"Le spiegazioni che nessuno ha chiesto"
+],
+"active": 1,
+"note": "Una volta è gentilezza. Tre volte è rumore."
+},
+{
+"file": "c13",
+"layout": "list",
+"kicker": "quattro cose che allungano senza informare",
+"rows": [
+"Le premesse",
+"Le ripetizioni di cortesia",
+"Le precisazioni difensive",
+"Le spiegazioni che nessuno ha chiesto"
+],
+"active": 2,
+"note": "Scritte per non essere contestate, non per essere capite."
+},
+{
+"file": "c14",
+"layout": "list",
+"kicker": "quattro cose che allungano senza informare",
+"rows": [
+"Le premesse",
+"Le ripetizioni di cortesia",
+"Le precisazioni difensive",
+"Le spiegazioni che nessuno ha chiesto"
+],
+"active": 3,
+"note": "Il perché, quando serve solo che cosa cambia."
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "l’errore delle persone competenti",
+"title": "Spiegano il ragionamento<br><span class=\"gold\">insieme alla conclusione.</span>"
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "in buona fede",
+"title": "Sembra più onesto.<br><span class=\"gold\">Più completo, più trasparente.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "chi legge",
+"title": "Vuole la decisione.<br><span class=\"gold\">Il ragionamento, se lo chiede.</span>"
+},
+{
+"file": "c18",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Dopo aver valutato attentamente le diverse opzioni disponibili, tenuto conto dei vincoli di bilancio e delle esigenze rappresentate dalle parti, nonché considerata la necessità di garantire la continuità del servizio, si è giunti alla conclusione che la soluzione più opportuna sia quella di <u>posticipare l’avvio</u>.",
+"dopo": [
+"L’avvio è posticipato a gennaio.",
+"Se ti interessa il perché, te lo spiego volentieri."
+]
+},
+{
+"file": "c19",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Dopo aver valutato attentamente le diverse opzioni disponibili, tenuto conto dei vincoli di bilancio e delle esigenze rappresentate dalle parti, nonché considerata la necessità di garantire la continuità del servizio, si è giunti alla conclusione che la soluzione più opportuna sia quella di <u>posticipare l’avvio</u>.",
+"dopo": [
+"L’avvio è posticipato a gennaio.",
+"Se ti interessa il perché, te lo spiego volentieri."
+]
+},
+{
+"file": "c20",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Dopo aver valutato attentamente le diverse opzioni disponibili, tenuto conto dei vincoli di bilancio e delle esigenze rappresentate dalle parti, nonché considerata la necessità di garantire la continuità del servizio, si è giunti alla conclusione che la soluzione più opportuna sia quella di <u>posticipare l’avvio</u>.",
+"dopo": [
+"L’avvio è posticipato a gennaio.",
+"Se ti interessa il perché, te lo spiego volentieri."
+]
+},
+{
+"file": "c21",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Dopo aver valutato attentamente le diverse opzioni disponibili, tenuto conto dei vincoli di bilancio e delle esigenze rappresentate dalle parti, nonché considerata la necessità di garantire la continuità del servizio, si è giunti alla conclusione che la soluzione più opportuna sia quella di <u>posticipare l’avvio</u>.",
+"dopo": [
+"L’avvio è posticipato a gennaio.",
+"Se ti interessa il perché, te lo spiego volentieri."
+]
+},
+{
+"file": "c22",
+"layout": "memo",
+"theme": "deep",
+"title": "Il problema non è la lunghezza.<br>È la lunghezza che non informa."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "dove un testo può essere contestato",
+"plain": true,
+"rows": [
+"Un’amministrazione",
+"Una trattativa",
+"Un documento che resta agli atti"
+],
+"note": "Lì si scrive anche per proteggersi."
+},
+{
+"file": "c25",
+"layout": "statement",
+"kicker": "non è un difetto",
+"title": "Un contratto, un provvedimento:<br><span class=\"gold\">lì ogni parola deve reggere.</span>"
+},
+{
+"file": "c26",
+"layout": "list",
+"kicker": "due mestieri diversi",
+"plain": true,
+"rows": [
+"Il testo che deve reggere a una contestazione",
+"Il testo che deve solo essere capito"
+],
+"note": "Ci torniamo nel modulo 6."
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "il secondo",
+"title": "È la stragrande<br><span class=\"gold\">maggioranza.</span>"
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "l’abitudine che passa",
+"title": "Dagli atti<br><span class=\"gold\">alla mail di tre righe.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "doveva costare dieci secondi",
+"title": "Ne costa<br><span class=\"gold\">cinquanta.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "prima di scrivere",
+"title": "Deve reggere a una contestazione,<br><span class=\"gold\">o deve solo essere capito?</span>"
+},
+{
+"file": "c31",
+"layout": "list",
+"kicker": "la prova del taglio",
+"rows": [
+"Scrivi normalmente",
+"Togli il venti per cento",
+"Rileggi: manca qualcosa?"
+],
+"plain": true,
+"note": "La useremo per tutto il corso."
+},
+{
+"file": "c32",
+"layout": "list",
+"kicker": "la prova del taglio",
+"rows": [
+"Scrivi normalmente",
+"Togli il venti per cento",
+"Rileggi: manca qualcosa?"
+],
+"active": 0,
+"note": "Senza contare le parole, senza cercare la frase perfetta."
+},
+{
+"file": "c33",
+"layout": "list",
+"kicker": "la prova del taglio",
+"rows": [
+"Scrivi normalmente",
+"Togli il venti per cento",
+"Rileggi: manca qualcosa?"
+],
+"active": 1,
+"note": "Non riscrivere: togli. Forbici, non penna."
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "la prova del taglio",
+"rows": [
+"Scrivi normalmente",
+"Togli il venti per cento",
+"Rileggi: manca qualcosa?"
+],
+"active": 2,
+"note": "Non se suona meglio: se manca un’informazione."
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "quasi mai manca",
+"title": "E quando manca,<br><span class=\"gold\">è una cosa sola.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "nella lezione 2.4",
+"title": "La prova del taglio<br><span class=\"gold\">diventa un metodo.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "la cosa importante",
+"title": "Il taglio<br><span class=\"gold\">si fa dopo.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "due attenzioni diverse",
+"plain": true,
+"rows": [
+"Scrivendo, cerchi che cosa dire",
+"Tagliando, cerchi che cosa togliere"
+],
+"note": "Insieme si rovinano a vicenda."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "nel tempo",
+"title": "Il lettore impara<br><span class=\"gold\">a leggere te.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "chi scrive testi densi",
+"title": "Viene letto<br><span class=\"gold\">anche quando scrive lungo.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "una reputazione",
+"title": "Si costruisce<br><span class=\"gold\">un testo alla volta.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Prima si scrive.<br>Poi si taglia."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Spiegare il ragionamento insieme alla decisione",
+"Le precisazioni difensive dove non servono",
+"Tagliare mentre si scrive",
+"Credere che corto significhi chiaro"
+],
+"plain": true,
+"note": "Tutte questioni di rispetto per il tempo di chi legge."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Spiegare il ragionamento insieme alla decisione",
+"Le precisazioni difensive dove non servono",
+"Tagliare mentre si scrive",
+"Credere che corto significhi chiaro"
+],
+"active": 0,
+"note": "La decisione prima, il resto a richiesta."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Spiegare il ragionamento insieme alla decisione",
+"Le precisazioni difensive dove non servono",
+"Tagliare mentre si scrive",
+"Credere che corto significhi chiaro"
+],
+"active": 1,
+"note": "Nella mail al collega nessuno ti contesterà niente."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Spiegare il ragionamento insieme alla decisione",
+"Le precisazioni difensive dove non servono",
+"Tagliare mentre si scrive",
+"Credere che corto significhi chiaro"
+],
+"active": 2,
+"note": "Sono due lavori diversi."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Spiegare il ragionamento insieme alla decisione",
+"Le precisazioni difensive dove non servono",
+"Tagliare mentre si scrive",
+"Credere che corto significhi chiaro"
+],
+"active": 3,
+"note": "Corto e oscuro costa più di lungo e chiaro."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Un testo che hai già scritto",
+"Togli il venti per cento",
+"Solo togliere, senza riscrivere"
+],
+"note": "Comincia dalle premesse e dalle cortesie ripetute."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Rileggilo",
+"Manca qualcosa?"
+],
+"note": "Nel prossimo modulo: la frase."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 1",
+"sub": "Modulo 2 — La frase",
+"site": "laparolagiusta.it"
+}
+]
