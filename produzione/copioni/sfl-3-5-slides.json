@@ -1,0 +1,433 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.5",
+"title": "Come si rilegge",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "chiudiamo il modulo",
+"title": "La rilettura.<br><span class=\"gold\">Quasi tutti la fanno male.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "dalla lezione 2.5",
+"title": "Rileggere non è una cosa sola.<br><span class=\"gold\">Sono tre passaggi.</span>"
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "farli tutti insieme",
+"title": "Ti sembra a posto.<br><span class=\"gold\">E non hai trovato niente.</span>"
+},
+{
+"file": "c05",
+"layout": "list",
+"kicker": "quando rileggi, cerchi tutto insieme",
+"plain": true,
+"rows": [
+"La struttura",
+"Le frasi",
+"I refusi",
+"Il tono",
+"Quello che manca"
+],
+"note": "Tutto nella stessa passata."
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "l’attenzione non si divide",
+"title": "Due virgole corrette.<br><span class=\"gold\">E manca la richiesta.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "la soluzione",
+"title": "Un passaggio per volta.<br><span class=\"gold\">In un ordine preciso.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "tre passaggi, in quest’ordine",
+"rows": [
+"La struttura: c’è tutto? È in ordine?",
+"Il taglio: via il venti per cento",
+"Il suono: ad alta voce"
+],
+"plain": true,
+"note": "Ognuno cerca una cosa sola."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "tre passaggi, in quest’ordine",
+"rows": [
+"La struttura: c’è tutto? È in ordine?",
+"Il taglio: via il venti per cento",
+"Il suono: ad alta voce"
+],
+"active": 0,
+"note": "La conclusione in cima. La richiesta, e si vede."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "tre passaggi, in quest’ordine",
+"rows": [
+"La struttura: c’è tutto? È in ordine?",
+"Il taglio: via il venti per cento",
+"Il suono: ad alta voce"
+],
+"active": 1,
+"note": "Avverbi, doppi aggettivi, attenuazioni, cortesie, annunci."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "tre passaggi, in quest’ordine",
+"rows": [
+"La struttura: c’è tutto? È in ordine?",
+"Il taglio: via il venti per cento",
+"Il suono: ad alta voce"
+],
+"active": 2,
+"note": "Il fiato e gli inciampi, sulle frasi definitive."
+},
+{
+"file": "c12",
+"layout": "statement",
+"kicker": "perché l’ordine conta",
+"title": "Non si lima una frase<br><span class=\"gold\">che poi si sposta.</span>"
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "l’errore più comune",
+"title": "Cominciare dalla lingua.<br><span class=\"gold\">Finire dalla struttura.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "mezz’ora fra due aggettivi",
+"title": "In un paragrafo<br><span class=\"gold\">che poi si elimina.</span>"
+},
+{
+"file": "c15",
+"layout": "statement",
+"kicker": "come una casa",
+"title": "Prima le stanze.<br><span class=\"gold\">Poi il colore delle pareti.</span>"
+},
+{
+"file": "c16",
+"layout": "memo",
+"theme": "deep",
+"title": "Prima la casa.<br>Poi il colore."
+},
+{
+"file": "c17",
+"layout": "list",
+"kicker": "il primo passaggio, in tre domande",
+"rows": [
+"Le prime due righe dicono di che si tratta?",
+"Si vede che cosa chiedo, e dove?",
+"Solo titoli e prime righe: ho capito?"
+],
+"plain": true,
+"note": "Trenta secondi."
+},
+{
+"file": "c18",
+"layout": "list",
+"kicker": "il primo passaggio, in tre domande",
+"rows": [
+"Le prime due righe dicono di che si tratta?",
+"Si vede che cosa chiedo, e dove?",
+"Solo titoli e prime righe: ho capito?"
+],
+"active": 0,
+"note": "La prova della lezione 1.2."
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "il primo passaggio, in tre domande",
+"rows": [
+"Le prime due righe dicono di che si tratta?",
+"Si vede che cosa chiedo, e dove?",
+"Solo titoli e prime righe: ho capito?"
+],
+"active": 1,
+"note": "La prova della lezione 1.4."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "il primo passaggio, in tre domande",
+"rows": [
+"Le prime due righe dicono di che si tratta?",
+"Si vede che cosa chiedo, e dove?",
+"Solo titoli e prime righe: ho capito?"
+],
+"active": 2,
+"note": "La prova delle ultime due lezioni."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "una lista di controllo",
+"title": "Niente di nuovo.<br><span class=\"gold\">Ma sempre, e per primo.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "le tre domande",
+"title": "Non si risponde rileggendo.<br><span class=\"gold\">Si risponde guardando.</span>"
+},
+{
+"file": "c23",
+"layout": "statement",
+"kicker": "allontana il testo",
+"title": "Tre secondi.<br><span class=\"gold\">Dove cade l’occhio?</span>"
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "se non vedi la richiesta",
+"title": "Non è un problema di scrittura.<br><span class=\"gold\">È un problema di posizione.</span>"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "la cosa che rende inutile tutto",
+"title": "Rileggere<br><span class=\"gold\">subito.</span>"
+},
+{
+"file": "c27",
+"layout": "statement",
+"kicker": "appena finito di scrivere",
+"title": "Non lo leggi.<br><span class=\"gold\">Lo ricordi.</span>"
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "serve una distanza",
+"plain": true,
+"rows": [
+"Il giorno dopo: l’ideale",
+"Su una mail: impraticabile"
+],
+"note": "Per un documento importante, vale la pena aspettare."
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "una cosa in mezzo",
+"title": "Dieci minuti d’altro.<br><span class=\"gold\">Poi torna.</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "per i testi che contano",
+"title": "Fallo leggere a qualcuno.<br><span class=\"gold\">E chiedi una cosa sola.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "non chiedere",
+"title": "«Va bene?»<br><span class=\"gold\">Ottiene sempre un sì.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "chiedi",
+"title": "«Che cosa ti sto chiedendo<br><span class=\"gold\">di fare?»</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "se la risposta non è quella",
+"title": "Hai trovato il problema<br><span class=\"gold\">in dieci secondi.</span>"
+},
+{
+"file": "c34",
+"layout": "list",
+"kicker": "quanto rileggere, secondo il testo",
+"rows": [
+"Mail quotidiana: una passata, 20 secondi",
+"Mail che conta: i tre passaggi",
+"Documento: i tre passaggi e una persona"
+],
+"plain": true,
+"note": "Il tempo va speso dove serve."
+},
+{
+"file": "c35",
+"layout": "list",
+"kicker": "quanto rileggere, secondo il testo",
+"rows": [
+"Mail quotidiana: una passata, 20 secondi",
+"Mail che conta: i tre passaggi",
+"Documento: i tre passaggi e una persona"
+],
+"active": 0,
+"note": "Guarda, controlla la richiesta, manda."
+},
+{
+"file": "c36",
+"layout": "list",
+"kicker": "quanto rileggere, secondo il testo",
+"rows": [
+"Mail quotidiana: una passata, 20 secondi",
+"Mail che conta: i tre passaggi",
+"Documento: i tre passaggi e una persona"
+],
+"active": 1,
+"note": "Cinque minuti, recuperati nelle risposte che non darai."
+},
+{
+"file": "c37",
+"layout": "list",
+"kicker": "quanto rileggere, secondo il testo",
+"rows": [
+"Mail quotidiana: una passata, 20 secondi",
+"Mail che conta: i tre passaggi",
+"Documento: i tre passaggi e una persona"
+],
+"active": 2,
+"note": "Qualcuno che risponda: che cosa ti sto chiedendo di fare?"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "quando smettere",
+"title": "Il lavoro finisce.<br><span class=\"gold\">E finisce presto.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "dopo i tre passaggi",
+"title": "Si manda.<br><span class=\"gold\">Sei passate non valgono più di tre.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "oltre un certo punto",
+"title": "La revisione toglie.<br><span class=\"gold\">Più liscio, più anonimo.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "se rimetti la parola di prima",
+"title": "Sei già oltre.<br><span class=\"gold\">Manda.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Non «va bene?».<br>Ma: «che cosa<br>ti sto chiedendo di fare?»"
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere tutto insieme",
+"Cominciare dalla lingua",
+"Rileggere subito",
+"Rileggere sei volte"
+],
+"plain": true,
+"note": "Rendono la rilettura inutile. O dannosa."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere tutto insieme",
+"Cominciare dalla lingua",
+"Rileggere subito",
+"Rileggere sei volte"
+],
+"active": 0,
+"note": "L’attenzione non si divide: struttura, taglio, suono."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere tutto insieme",
+"Cominciare dalla lingua",
+"Rileggere subito",
+"Rileggere sei volte"
+],
+"active": 1,
+"note": "Prima la casa, poi il colore."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere tutto insieme",
+"Cominciare dalla lingua",
+"Rileggere subito",
+"Rileggere sei volte"
+],
+"active": 2,
+"note": "Ricordi il testo invece di leggerlo."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Rileggere tutto insieme",
+"Cominciare dalla lingua",
+"Rileggere subito",
+"Rileggere sei volte"
+],
+"active": 3,
+"note": "Oltre un certo punto, la revisione toglie."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Il prossimo testo che conta",
+"Solo il primo passaggio"
+],
+"note": "Guardalo da lontano: si vede che cosa chiedi?"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Il taglio e la voce",
+"Vengono dopo"
+],
+"note": "Nel prossimo modulo: la mail."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "Fine del Modulo 3",
+"sub": "Modulo 4 — La mail",
+"site": "laparolagiusta.it"
+}
+]

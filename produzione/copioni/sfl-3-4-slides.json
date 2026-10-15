@@ -1,0 +1,441 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.4",
+"title": "Il paragrafo",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "l’unità di cui nessuno parla",
+"title": "Il paragrafo<br><span class=\"gold\">fa più lavoro di tutte le altre.</span>"
+},
+{
+"file": "c03",
+"layout": "statement",
+"kicker": "si vede prima di leggere",
+"title": "Blocchi grigi sulla pagina.<br><span class=\"gold\">Li vedi da lontano.</span>"
+},
+{
+"file": "c04",
+"layout": "list",
+"kicker": "nei tre secondi della prima lezione",
+"plain": true,
+"rows": [
+"A blocchi: si legge in fretta",
+"Compatto: mettiti comodo"
+],
+"note": "E quasi nessuno ha voglia di mettersi comodo."
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "lo spazio bianco",
+"title": "Non è decorazione.<br><span class=\"gold\">È un segnale.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "come il punto, un livello sopra",
+"title": "Qui finisce<br><span class=\"gold\">un pensiero.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "irrazionale, ma funziona così",
+"title": "Lo stesso testo a blocchi<br><span class=\"gold\">sembra più breve.</span>"
+},
+{
+"file": "c08",
+"layout": "list",
+"kicker": "la regola del paragrafo",
+"rows": [
+"Un paragrafo, un’idea",
+"Tre, quattro righe",
+"Mai più di sei",
+"Uno spazio bianco fra uno e l’altro"
+],
+"plain": true,
+"note": "Quattro indicazioni, tutte pratiche."
+},
+{
+"file": "c09",
+"layout": "list",
+"kicker": "la regola del paragrafo",
+"rows": [
+"Un paragrafo, un’idea",
+"Tre, quattro righe",
+"Mai più di sei",
+"Uno spazio bianco fra uno e l’altro"
+],
+"active": 0,
+"note": "La regola della frase, un piano sopra."
+},
+{
+"file": "c10",
+"layout": "list",
+"kicker": "la regola del paragrafo",
+"rows": [
+"Un paragrafo, un’idea",
+"Tre, quattro righe",
+"Mai più di sei",
+"Uno spazio bianco fra uno e l’altro"
+],
+"active": 1,
+"note": "La misura che l’occhio prende in un colpo solo."
+},
+{
+"file": "c11",
+"layout": "list",
+"kicker": "la regola del paragrafo",
+"rows": [
+"Un paragrafo, un’idea",
+"Tre, quattro righe",
+"Mai più di sei",
+"Uno spazio bianco fra uno e l’altro"
+],
+"active": 2,
+"note": "Oltre, il blocco diventa un muro. E un muro si salta."
+},
+{
+"file": "c12",
+"layout": "list",
+"kicker": "la regola del paragrafo",
+"rows": [
+"Un paragrafo, un’idea",
+"Tre, quattro righe",
+"Mai più di sei",
+"Uno spazio bianco fra uno e l’altro"
+],
+"active": 3,
+"note": "Non solo un a capo: lo stacco deve vedersi."
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Gentile collega, ti scrivo per informarti che a partire dal prossimo mese entreranno in vigore le nuove modalità di richiesta dei permessi, che dovranno essere inoltrate tramite il portale e non più via mail come avveniva finora, con un preavviso minimo di cinque giorni salvo casi urgenti, per i quali resta possibile la richiesta telefonica al coordinatore; ti ricordo inoltre che le richieste già inviate con il vecchio sistema restano valide.",
+"dopo": [
+"Gentile collega, da marzo i permessi si chiedono dal portale.",
+"<div style=\"margin-top:.6em\">Preavviso minimo: cinque giorni.</div>",
+"<div style=\"margin-top:.6em\">Urgenze: telefono al coordinatore, come adesso.</div>",
+"<div style=\"margin-top:.6em\">Le richieste già inviate restano valide.</div>"
+]
+},
+{
+"file": "c14",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile collega, ti scrivo per informarti che a partire dal prossimo mese entreranno in vigore le nuove modalità di richiesta dei permessi, che dovranno essere inoltrate tramite il portale e non più via mail come avveniva finora, con un preavviso minimo di cinque giorni salvo casi urgenti, per i quali resta possibile la richiesta telefonica al coordinatore; ti ricordo inoltre che le richieste già inviate con il vecchio sistema restano valide.",
+"dopo": [
+"Gentile collega, da marzo i permessi si chiedono dal portale.",
+"<div style=\"margin-top:.6em\">Preavviso minimo: cinque giorni.</div>",
+"<div style=\"margin-top:.6em\">Urgenze: telefono al coordinatore, come adesso.</div>",
+"<div style=\"margin-top:.6em\">Le richieste già inviate restano valide.</div>"
+]
+},
+{
+"file": "c15",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile collega, ti scrivo per informarti che a partire dal prossimo mese entreranno in vigore le nuove modalità di richiesta dei permessi, che dovranno essere inoltrate tramite il portale e non più via mail come avveniva finora, con un preavviso minimo di cinque giorni salvo casi urgenti, per i quali resta possibile la richiesta telefonica al coordinatore; ti ricordo inoltre che le richieste già inviate con il vecchio sistema restano valide.",
+"dopo": [
+"Gentile collega, da marzo i permessi si chiedono dal portale.",
+"<div style=\"margin-top:.6em\">Preavviso minimo: cinque giorni.</div>",
+"<div style=\"margin-top:.6em\">Urgenze: telefono al coordinatore, come adesso.</div>",
+"<div style=\"margin-top:.6em\">Le richieste già inviate restano valide.</div>"
+]
+},
+{
+"file": "c16",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Gentile collega, ti scrivo per informarti che a partire dal prossimo mese entreranno in vigore le nuove modalità di richiesta dei permessi, che dovranno essere inoltrate tramite il portale e non più via mail come avveniva finora, con un preavviso minimo di cinque giorni salvo casi urgenti, per i quali resta possibile la richiesta telefonica al coordinatore; ti ricordo inoltre che le richieste già inviate con il vecchio sistema restano valide.",
+"dopo": [
+"Gentile collega, da marzo i permessi si chiedono dal portale.",
+"<div style=\"margin-top:.6em\">Preavviso minimo: cinque giorni.</div>",
+"<div style=\"margin-top:.6em\">Urgenze: telefono al coordinatore, come adesso.</div>",
+"<div style=\"margin-top:.6em\">Le richieste già inviate restano valide.</div>"
+]
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "incontrerai resistenza",
+"title": "«Troppo spaziato:<br><span class=\"gold\">poco serio.»</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "la densità",
+"title": "Non è un indice<br><span class=\"gold\">di sostanza.</span>"
+},
+{
+"file": "c19",
+"layout": "statement",
+"kicker": "un testo denso",
+"title": "Stessa informazione.<br><span class=\"gold\">Ne arriva meno.</span>"
+},
+{
+"file": "c20",
+"layout": "memo",
+"theme": "deep",
+"title": "Lo stesso testo, a blocchi,<br>sembra più breve."
+},
+{
+"file": "c21",
+"layout": "statement",
+"kicker": "la parte meno nota",
+"title": "La prima frase di ogni paragrafo<br><span class=\"gold\">è quella che viene letta.</span>"
+},
+{
+"file": "c22",
+"layout": "statement",
+"kicker": "chi scansiona",
+"title": "Legge la prima riga di ogni blocco.<br><span class=\"gold\">E decide se restare.</span>"
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "la prima frase di un paragrafo",
+"plain": true,
+"rows": [
+"Non la premessa",
+"Non il richiamo a prima",
+"Il punto"
+],
+"note": "Quello che serve sapere, anche a chi si ferma lì."
+},
+{
+"file": "c24",
+"layout": "statement",
+"kicker": "se dice la premessa",
+"title": "Ha letto una riga<br><span class=\"gold\">e non sa niente.</span>"
+},
+{
+"file": "c25",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Per quanto riguarda la questione degli straordinari, su cui ci eravamo confrontati nell’ultimo incontro e che era rimasta in sospeso in attesa di verifiche, possiamo adesso dire che <u>l’azienda ha accolto la richiesta</u>.",
+"dopo": [
+"Gli straordinari sono stati riconosciuti.",
+"Era la questione rimasta aperta dall’ultimo incontro."
+]
+},
+{
+"file": "c26",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Per quanto riguarda la questione degli straordinari, su cui ci eravamo confrontati nell’ultimo incontro e che era rimasta in sospeso in attesa di verifiche, possiamo adesso dire che <u>l’azienda ha accolto la richiesta</u>.",
+"dopo": [
+"Gli straordinari sono stati riconosciuti.",
+"Era la questione rimasta aperta dall’ultimo incontro."
+]
+},
+{
+"file": "c27",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Per quanto riguarda la questione degli straordinari, su cui ci eravamo confrontati nell’ultimo incontro e che era rimasta in sospeso in attesa di verifiche, possiamo adesso dire che <u>l’azienda ha accolto la richiesta</u>.",
+"dopo": [
+"Gli straordinari sono stati riconosciuti.",
+"Era la questione rimasta aperta dall’ultimo incontro."
+]
+},
+{
+"file": "c28",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Per quanto riguarda la questione degli straordinari, su cui ci eravamo confrontati nell’ultimo incontro e che era rimasta in sospeso in attesa di verifiche, possiamo adesso dire che <u>l’azienda ha accolto la richiesta</u>.",
+"dopo": [
+"Gli straordinari sono stati riconosciuti.",
+"Era la questione rimasta aperta dall’ultimo incontro."
+]
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "chi legge dal telefono",
+"title": "Quattro righe sul computer.<br><span class=\"gold\">Otto sul telefono.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "per metà dei tuoi lettori",
+"title": "Il tuo blocco breve<br><span class=\"gold\">è un blocco lungo.</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "le righe lunghe",
+"title": "Stancano.<br><span class=\"gold\">Anche con le stesse parole.</span>"
+},
+{
+"file": "c33",
+"layout": "statement",
+"kicker": "il capo riga",
+"title": "L’occhio torna a sinistra<br><span class=\"gold\">e perde il filo.</span>"
+},
+{
+"file": "c34",
+"layout": "statement",
+"kicker": "un caso particolare",
+"title": "Il paragrafo<br><span class=\"gold\">di una riga sola.</span>"
+},
+{
+"file": "c35",
+"layout": "statement",
+"kicker": "usato ogni tanto",
+"title": "Lo strumento di enfasi<br><span class=\"gold\">più forte che hai.</span>"
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "usato sempre",
+"title": "Non enfatizza più niente.<br><span class=\"gold\">È un elenco mascherato.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "come le attenuazioni della lezione 2.4",
+"title": "Una funziona.<br><span class=\"gold\">Cinque si annullano.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "dove andrebbe usato",
+"title": "Una riga tutta sua<br><span class=\"gold\">per la richiesta.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "dalla lezione 1.4",
+"title": "Da sola, con lo spazio bianco<br><span class=\"gold\">sopra e sotto.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "non per enfasi retorica",
+"title": "È l’unico punto<br><span class=\"gold\">che chi scansiona trova sempre.</span>"
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "per questo va risparmiata",
+"title": "L’enfasi funziona<br><span class=\"gold\">solo se è rara.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "La prima frase di ogni paragrafo<br>è quella che viene letta."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il blocco unico",
+"La premessa come prima frase del paragrafo",
+"Confondere densità e sostanza",
+"La riga isolata usata sempre"
+],
+"plain": true,
+"note": "Abitudini, non scelte: si correggono una volta viste."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il blocco unico",
+"La premessa come prima frase del paragrafo",
+"Confondere densità e sostanza",
+"La riga isolata usata sempre"
+],
+"active": 0,
+"note": "Viene saltato prima di essere letto."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il blocco unico",
+"La premessa come prima frase del paragrafo",
+"Confondere densità e sostanza",
+"La riga isolata usata sempre"
+],
+"active": 1,
+"note": "È la riga che verrà letta: usala per il punto."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il blocco unico",
+"La premessa come prima frase del paragrafo",
+"Confondere densità e sostanza",
+"La riga isolata usata sempre"
+],
+"active": 2,
+"note": "Un testo fitto non è più serio. Ne fa arrivare meno."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Il blocco unico",
+"La premessa come prima frase del paragrafo",
+"Confondere densità e sostanza",
+"La riga isolata usata sempre"
+],
+"active": 3,
+"note": "Tienila per la cosa che conta: la richiesta."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Un testo che hai scritto",
+"Leggi solo la prima riga di ogni blocco"
+],
+"note": "Si capisce il testo?"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Se no, hai trovato che cosa riscrivere",
+"E sono poche righe"
+],
+"note": "Nella prossima lezione: come si rilegge."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

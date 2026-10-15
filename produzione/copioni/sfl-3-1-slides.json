@@ -1,0 +1,530 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.1",
+"title": "La conclusione prima",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "il modulo 3: la struttura",
+"title": "Che cosa viene prima,<br><span class=\"gold\">e che cosa dopo.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "l’ordine in cui scriviamo quasi tutti",
+"plain": true,
+"rows": [
+"Il contesto",
+"Il ragionamento",
+"La conclusione"
+],
+"note": "Introduzione, svolgimento, conclusione: ce l’hanno insegnato a scuola."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "per un tema funziona benissimo",
+"title": "Per una mail<br><span class=\"gold\">no.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "chi legge una mail",
+"title": "Può smettere quando vuole.<br><span class=\"gold\">E di solito smette prima.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "quell’ordine",
+"title": "È la strada che hai fatto tu<br><span class=\"gold\">per scoprire una cosa.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "dalla lezione 1.1",
+"title": "Chi riceve deve sapere subito<br><span class=\"gold\">di che cosa si tratta.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "un patto sfavorevole",
+"title": "Leggere tutto<br><span class=\"gold\">per scoprire se valeva la pena.</span>"
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "Come sai, nelle ultime settimane abbiamo raccolto le segnalazioni del personale sui turni. Ne sono arrivate diciassette, quasi tutte sullo stesso punto. Abbiamo incrociato i dati con le presenze e verificato con il coordinatore. Da questa analisi emerge che il problema si concentra sul turno pomeridiano del venerdì. <u>Proponiamo quindi di aggiungere una persona su quel turno.</u>",
+"dopo": [
+"Proponiamo di aggiungere una persona",
+"al turno del venerdì pomeriggio.",
+"Qui sotto come ci siamo arrivati: 17 segnalazioni,",
+"dati incrociati con le presenze, verifica con il coordinatore."
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Come sai, nelle ultime settimane abbiamo raccolto le segnalazioni del personale sui turni. Ne sono arrivate diciassette, quasi tutte sullo stesso punto. Abbiamo incrociato i dati con le presenze e verificato con il coordinatore. Da questa analisi emerge che il problema si concentra sul turno pomeridiano del venerdì. <u>Proponiamo quindi di aggiungere una persona su quel turno.</u>",
+"dopo": [
+"Proponiamo di aggiungere una persona",
+"al turno del venerdì pomeriggio.",
+"Qui sotto come ci siamo arrivati: 17 segnalazioni,",
+"dati incrociati con le presenze, verifica con il coordinatore."
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Come sai, nelle ultime settimane abbiamo raccolto le segnalazioni del personale sui turni. Ne sono arrivate diciassette, quasi tutte sullo stesso punto. Abbiamo incrociato i dati con le presenze e verificato con il coordinatore. Da questa analisi emerge che il problema si concentra sul turno pomeridiano del venerdì. <u>Proponiamo quindi di aggiungere una persona su quel turno.</u>",
+"dopo": [
+"Proponiamo di aggiungere una persona",
+"al turno del venerdì pomeriggio.",
+"Qui sotto come ci siamo arrivati: 17 segnalazioni,",
+"dati incrociati con le presenze, verifica con il coordinatore."
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "Come sai, nelle ultime settimane abbiamo raccolto le segnalazioni del personale sui turni. Ne sono arrivate diciassette, quasi tutte sullo stesso punto. Abbiamo incrociato i dati con le presenze e verificato con il coordinatore. Da questa analisi emerge che il problema si concentra sul turno pomeridiano del venerdì. <u>Proponiamo quindi di aggiungere una persona su quel turno.</u>",
+"dopo": [
+"Proponiamo di aggiungere una persona",
+"al turno del venerdì pomeriggio.",
+"Qui sotto come ci siamo arrivati: 17 segnalazioni,",
+"dati incrociati con le presenze, verifica con il coordinatore."
+]
+},
+{
+"file": "c13",
+"layout": "statement",
+"kicker": "la frase del modulo",
+"title": "Era la strada per scoprirlo.<br><span class=\"gold\">Non è la strada per riceverlo.</span>"
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "non nasce da inesperienza",
+"title": "Lo fa anche chi scrive bene.<br><span class=\"gold\">Per due motivi.</span>"
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "due tentazioni comprensibili",
+"plain": true,
+"rows": [
+"Far vedere il lavoro fatto",
+"Il timore di essere respinti"
+],
+"note": "Riconoscerle aiuta a resistere."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "sulla prima",
+"title": "Una proposta precisa<br><span class=\"gold\">dimostra l’analisi.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "sulla seconda",
+"title": "C’è un caso in cui è fondata.<br><span class=\"gold\">Ma è raro.</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "nella grande maggioranza dei testi",
+"title": "Nessuno la respinge perché l’ha letta.<br><span class=\"gold\">Semmai, perché non l’ha trovata.</span>"
+},
+{
+"file": "c19",
+"layout": "memo",
+"theme": "deep",
+"title": "Chi legge un tema<br>deve arrivare in fondo.<br>Chi legge una mail, no."
+},
+{
+"file": "c20",
+"layout": "list",
+"kicker": "conclusione prima, quando",
+"rows": [
+"Chi legge ha poco tempo",
+"Chi legge ha molto potere",
+"La conclusione regge da sola",
+"Il testo verrà letto a pezzi"
+],
+"plain": true,
+"note": "Quattro situazioni: coprono quasi tutto."
+},
+{
+"file": "c21",
+"layout": "list",
+"kicker": "conclusione prima, quando",
+"rows": [
+"Chi legge ha poco tempo",
+"Chi legge ha molto potere",
+"La conclusione regge da sola",
+"Il testo verrà letto a pezzi"
+],
+"active": 0,
+"note": "Cento mail al giorno: gli serve il punto, subito."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "conclusione prima, quando",
+"rows": [
+"Chi legge ha poco tempo",
+"Chi legge ha molto potere",
+"La conclusione regge da sola",
+"Il testo verrà letto a pezzi"
+],
+"active": 1,
+"note": "Più una persona decide, meno tempo ha per leggere."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "conclusione prima, quando",
+"rows": [
+"Chi legge ha poco tempo",
+"Chi legge ha molto potere",
+"La conclusione regge da sola",
+"Il testo verrà letto a pezzi"
+],
+"active": 2,
+"note": "Si capisce anche senza il percorso."
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "conclusione prima, quando",
+"rows": [
+"Chi legge ha poco tempo",
+"Chi legge ha molto potere",
+"La conclusione regge da sola",
+"Il testo verrà letto a pezzi"
+],
+"active": 3,
+"note": "Fra una telefonata e l’altra: l’inizio è l’unica cosa garantita."
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "il caso in cui la conclusione va dopo",
+"title": "Verrebbe respinta<br><span class=\"gold\">prima di essere capita.</span>"
+},
+{
+"file": "c27",
+"layout": "list",
+"kicker": "quando il percorso serve",
+"plain": true,
+"rows": [
+"Una proposta controintuitiva",
+"Contro una posizione presa in pubblico",
+"Una cosa che costa molto"
+],
+"note": "Chi legge deve arrivarci con te."
+},
+{
+"file": "c28",
+"layout": "statement",
+"kicker": "una minoranza dei testi",
+"title": "Va riconosciuta,<br><span class=\"gold\">non presunta.</span>"
+},
+{
+"file": "c29",
+"layout": "statement",
+"kicker": "fatti la domanda con onestà",
+"title": "Verrebbe davvero respinta,<br><span class=\"gold\">o è solo scomoda da dire?</span>"
+},
+{
+"file": "c30",
+"layout": "statement",
+"kicker": "una via di mezzo",
+"title": "Anticipare non la conclusione,<br><span class=\"gold\">ma l’argomento.</span>"
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "due frasi",
+"title": "«Ti scrivo di una proposta<br>sui turni del venerdì.<br><span class=\"gold\">Ci arrivo spiegando<br>da dove nasce.»</span>"
+},
+{
+"file": "c32",
+"layout": "statement",
+"kicker": "il compromesso più utile del modulo",
+"title": "Tu tieni il percorso.<br><span class=\"gold\">Chi legge sa dove vai.</span>"
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": false,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"Oggetto",
+"<u>Aggiornamento</u>"
+]
+],
+"corpo": [
+"Buongiorno, come da accordi le invio un aggiornamento sulla situazione. Dopo diversi confronti e alcune verifiche, abbiamo valutato le opzioni disponibili tenendo conto dei vincoli emersi. Alla luce di tutto questo, la soluzione che riteniamo praticabile è <u>il rinvio dell’avvio a gennaio</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"Oggetto",
+"Avvio rinviato a gennaio"
+]
+],
+"corpo": [
+"Buongiorno. L’avvio è rinviato a gennaio.",
+"Sotto le ragioni e cosa cambia per voi."
+]
+}
+},
+{
+"file": "c34",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"Oggetto",
+"<u>Aggiornamento</u>"
+]
+],
+"corpo": [
+"Buongiorno, come da accordi le invio un aggiornamento sulla situazione. Dopo diversi confronti e alcune verifiche, abbiamo valutato le opzioni disponibili tenendo conto dei vincoli emersi. Alla luce di tutto questo, la soluzione che riteniamo praticabile è <u>il rinvio dell’avvio a gennaio</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"Oggetto",
+"Avvio rinviato a gennaio"
+]
+],
+"corpo": [
+"Buongiorno. L’avvio è rinviato a gennaio.",
+"Sotto le ragioni e cosa cambia per voi."
+]
+}
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"Oggetto",
+"<u>Aggiornamento</u>"
+]
+],
+"corpo": [
+"Buongiorno, come da accordi le invio un aggiornamento sulla situazione. Dopo diversi confronti e alcune verifiche, abbiamo valutato le opzioni disponibili tenendo conto dei vincoli emersi. Alla luce di tutto questo, la soluzione che riteniamo praticabile è <u>il rinvio dell’avvio a gennaio</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"Oggetto",
+"Avvio rinviato a gennaio"
+]
+],
+"corpo": [
+"Buongiorno. L’avvio è rinviato a gennaio.",
+"Sotto le ragioni e cosa cambia per voi."
+]
+}
+},
+{
+"file": "c36",
+"layout": "pd",
+"statica": true,
+"forma": "mail",
+"prima": {
+"campi": [
+[
+"Oggetto",
+"<u>Aggiornamento</u>"
+]
+],
+"corpo": [
+"Buongiorno, come da accordi le invio un aggiornamento sulla situazione. Dopo diversi confronti e alcune verifiche, abbiamo valutato le opzioni disponibili tenendo conto dei vincoli emersi. Alla luce di tutto questo, la soluzione che riteniamo praticabile è <u>il rinvio dell’avvio a gennaio</u>."
+]
+},
+"dopo": {
+"campi": [
+[
+"Oggetto",
+"Avvio rinviato a gennaio"
+]
+],
+"corpo": [
+"Buongiorno. L’avvio è rinviato a gennaio.",
+"Sotto le ragioni e cosa cambia per voi."
+]
+}
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "se il documento ha dieci pagine",
+"title": "Le prime righe: che cosa si è deciso,<br><span class=\"gold\">che cosa si chiede.</span>"
+},
+{
+"file": "c38",
+"layout": "list",
+"kicker": "la prima riga di un documento",
+"plain": true,
+"rows": [
+"Non «In questo documento si analizzerà»",
+"Non «La presente relazione si propone di»",
+"La decisione, la richiesta"
+],
+"note": "Chi si ferma alla prima pagina sa comunque la cosa essenziale."
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "nel modulo 7",
+"title": "Prima quello che serve a chi legge.<br><span class=\"gold\">Poi quello che è servito a te.</span>"
+},
+{
+"file": "c40",
+"layout": "statement",
+"kicker": "una domanda sola",
+"title": "Qual è la frase che conta,<br><span class=\"gold\">in questo testo?</span>"
+},
+{
+"file": "c41",
+"layout": "list",
+"kicker": "poi mettila in cima",
+"plain": true,
+"rows": [
+"Nell’oggetto, se è una mail",
+"Nella prima riga, sempre"
+],
+"note": "Il resto si riorganizza da solo. E spesso si accorcia."
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "La conclusione prima<br>comincia dall’oggetto."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Scrivere nell’ordine in cui hai pensato",
+"Mettere il percorso per far vedere il lavoro",
+"Presumere di essere nel caso dell’eccezione",
+"«Aggiornamento» come oggetto"
+],
+"plain": true,
+"note": "Modi di tenere la conclusione in fondo, anche sapendo che va in cima."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Scrivere nell’ordine in cui hai pensato",
+"Mettere il percorso per far vedere il lavoro",
+"Presumere di essere nel caso dell’eccezione",
+"«Aggiornamento» come oggetto"
+],
+"active": 0,
+"note": "Era la strada per scoprirlo, non per riceverlo."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Scrivere nell’ordine in cui hai pensato",
+"Mettere il percorso per far vedere il lavoro",
+"Presumere di essere nel caso dell’eccezione",
+"«Aggiornamento» come oggetto"
+],
+"active": 1,
+"note": "Il lavoro si vede meglio dalla conclusione."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Scrivere nell’ordine in cui hai pensato",
+"Mettere il percorso per far vedere il lavoro",
+"Presumere di essere nel caso dell’eccezione",
+"«Aggiornamento» come oggetto"
+],
+"active": 2,
+"note": "Succede una volta su dieci. Respinta, o solo scomoda?"
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"Scrivere nell’ordine in cui hai pensato",
+"Mettere il percorso per far vedere il lavoro",
+"Presumere di essere nel caso dell’eccezione",
+"«Aggiornamento» come oggetto"
+],
+"active": 3,
+"note": "Anche «Comunicazione», «Informazioni»: l’oggetto è la prima riga."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"L’ultima mail lunga che hai scritto",
+"Cerca la frase con la conclusione"
+],
+"note": "Quasi sempre è nell’ultimo paragrafo."
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Spostala in cima",
+"Rileggi"
+],
+"note": "Nella prossima lezione: i titoli."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

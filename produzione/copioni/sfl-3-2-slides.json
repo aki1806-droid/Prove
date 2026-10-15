@@ -1,0 +1,500 @@
+[
+{
+"file": "c01",
+"layout": "cover",
+"label": "Modulo 3 · Lezione 3.2",
+"title": "Titoli che dicono qualcosa",
+"sub": "Scrivere per farsi leggere"
+},
+{
+"file": "c02",
+"layout": "statement",
+"kicker": "i titoli dei testi lunghi",
+"title": "Occupano una riga.<br><span class=\"gold\">E non dicono niente.</span>"
+},
+{
+"file": "c03",
+"layout": "list",
+"kicker": "i titoli di quasi tutti i documenti",
+"plain": true,
+"rows": [
+"Premessa",
+"Contesto",
+"Considerazioni",
+"Analisi della situazione",
+"Conclusioni"
+],
+"note": "Li hai letti, e scritti, mille volte."
+},
+{
+"file": "c04",
+"layout": "statement",
+"kicker": "etichette di contenitori",
+"title": "Che tipo di cosa c’è dentro.<br><span class=\"gold\">Non che cosa c’è dentro.</span>"
+},
+{
+"file": "c05",
+"layout": "statement",
+"kicker": "il problema non è estetico",
+"title": "Sprecano l’unico vantaggio<br><span class=\"gold\">che i titoli hanno.</span>"
+},
+{
+"file": "c06",
+"layout": "statement",
+"kicker": "dal primo modulo",
+"title": "Chi scansiona legge i titoli<br><span class=\"gold\">prima del resto.</span>"
+},
+{
+"file": "c07",
+"layout": "statement",
+"kicker": "se i titoli dicono qualcosa",
+"title": "Ha capito il documento<br><span class=\"gold\">in dieci secondi.</span>"
+},
+{
+"file": "c08",
+"layout": "statement",
+"kicker": "se dicono «premessa» e «considerazioni»",
+"title": "Ha perso dieci secondi.<br><span class=\"gold\">E ricomincia dall’inizio.</span>"
+},
+{
+"file": "c09",
+"layout": "pd",
+"statica": false,
+"forma": "colonne",
+"prima": [
+"1. Premessa",
+"2. Analisi della situazione",
+"3. Criticità rilevate",
+"4. Proposte",
+"5. Conclusioni"
+],
+"dopo": [
+"1. Da dove nasce la richiesta: 17 segnalazioni in tre settimane",
+"2. Il problema si concentra sul venerdì pomeriggio",
+"3. Oggi il turno è coperto da due persone per 40 accessi",
+"4. Proponiamo una terza persona dalle 14 alle 20",
+"5. Cosa chiediamo entro il 30 marzo"
+]
+},
+{
+"file": "c10",
+"layout": "pd",
+"statica": true,
+"forma": "colonne",
+"prima": [
+"1. Premessa",
+"2. Analisi della situazione",
+"3. Criticità rilevate",
+"4. Proposte",
+"5. Conclusioni"
+],
+"dopo": [
+"1. Da dove nasce la richiesta: 17 segnalazioni in tre settimane",
+"2. Il problema si concentra sul venerdì pomeriggio",
+"3. Oggi il turno è coperto da due persone per 40 accessi",
+"4. Proponiamo una terza persona dalle 14 alle 20",
+"5. Cosa chiediamo entro il 30 marzo"
+]
+},
+{
+"file": "c11",
+"layout": "pd",
+"statica": true,
+"forma": "colonne",
+"prima": [
+"1. Premessa",
+"2. Analisi della situazione",
+"3. Criticità rilevate",
+"4. Proposte",
+"5. Conclusioni"
+],
+"dopo": [
+"1. Da dove nasce la richiesta: 17 segnalazioni in tre settimane",
+"2. Il problema si concentra sul venerdì pomeriggio",
+"3. Oggi il turno è coperto da due persone per 40 accessi",
+"4. Proponiamo una terza persona dalle 14 alle 20",
+"5. Cosa chiediamo entro il 30 marzo"
+]
+},
+{
+"file": "c12",
+"layout": "pd",
+"statica": true,
+"forma": "colonne",
+"prima": [
+"1. Premessa",
+"2. Analisi della situazione",
+"3. Criticità rilevate",
+"4. Proposte",
+"5. Conclusioni"
+],
+"dopo": [
+"1. Da dove nasce la richiesta: 17 segnalazioni in tre settimane",
+"2. Il problema si concentra sul venerdì pomeriggio",
+"3. Oggi il turno è coperto da due persone per 40 accessi",
+"4. Proponiamo una terza persona dalle 14 alle 20",
+"5. Cosa chiediamo entro il 30 marzo"
+]
+},
+{
+"file": "c13",
+"layout": "pd",
+"statica": true,
+"forma": "colonne",
+"prima": [
+"1. Premessa",
+"2. Analisi della situazione",
+"3. Criticità rilevate",
+"4. Proposte",
+"5. Conclusioni"
+],
+"dopo": [
+"1. Da dove nasce la richiesta: 17 segnalazioni in tre settimane",
+"2. Il problema si concentra sul venerdì pomeriggio",
+"3. Oggi il turno è coperto da due persone per 40 accessi",
+"4. Proponiamo una terza persona dalle 14 alle 20",
+"5. Cosa chiediamo entro il 30 marzo"
+]
+},
+{
+"file": "c14",
+"layout": "statement",
+"kicker": "la regola, l’unica",
+"title": "Un titolo è una frase.<br><span class=\"gold\">Non un’etichetta.</span>"
+},
+{
+"file": "c15",
+"layout": "list",
+"kicker": "un’etichetta, una frase",
+"plain": true,
+"rows": [
+"Criticità rilevate",
+"Il problema si concentra sul venerdì pomeriggio"
+],
+"note": "La prima annuncia un problema. La seconda lo dice."
+},
+{
+"file": "c16",
+"layout": "statement",
+"kicker": "qualche parola in più",
+"title": "Nel titolo, qualche parola.<br><span class=\"gold\">A chi legge, molte di meno.</span>"
+},
+{
+"file": "c17",
+"layout": "statement",
+"kicker": "la verifica",
+"title": "Se leggessi solo questo,<br><span class=\"gold\">saprei qualcosa di nuovo?</span>"
+},
+{
+"file": "c18",
+"layout": "statement",
+"kicker": "un effetto su chi scrive",
+"title": "Devi sapere che cosa c’è<br><span class=\"gold\">in ogni sezione.</span>"
+},
+{
+"file": "c19",
+"layout": "list",
+"kicker": "che cosa scopri",
+"plain": true,
+"rows": [
+"Una sezione vuota",
+"Due sezioni che dicono la stessa cosa",
+"L’ordine sbagliato"
+],
+"note": "La proposta prima del problema che dovrebbe risolvere."
+},
+{
+"file": "c20",
+"layout": "statement",
+"kicker": "un’etichetta va bene per tutto",
+"title": "I titoli ti dicono<br><span class=\"gold\">se la struttura regge.</span>"
+},
+{
+"file": "c21",
+"layout": "memo",
+"theme": "deep",
+"title": "Se non riesci a scrivere il titolo,<br>quella sezione non ha un punto."
+},
+{
+"file": "c22",
+"layout": "list",
+"kicker": "tre titoli che funzionano",
+"rows": [
+"Il fatto",
+"La decisione",
+"La domanda del lettore"
+],
+"plain": true,
+"note": "Coprono quasi tutto."
+},
+{
+"file": "c23",
+"layout": "list",
+"kicker": "tre titoli che funzionano",
+"rows": [
+"Il fatto",
+"La decisione",
+"La domanda del lettore"
+],
+"active": 0,
+"note": "«Il turno del venerdì è scoperto»"
+},
+{
+"file": "c24",
+"layout": "list",
+"kicker": "tre titoli che funzionano",
+"rows": [
+"Il fatto",
+"La decisione",
+"La domanda del lettore"
+],
+"active": 1,
+"note": "«Abbiamo scelto il rinvio a gennaio»"
+},
+{
+"file": "c25",
+"layout": "list",
+"kicker": "tre titoli che funzionano",
+"rows": [
+"Il fatto",
+"La decisione",
+"La domanda del lettore"
+],
+"active": 2,
+"note": "«Che cosa cambia per te» · «Entro quando»"
+},
+{
+"file": "c26",
+"layout": "statement",
+"kicker": "la domanda del lettore",
+"title": "Il più sottovalutato.<br><span class=\"gold\">Quello che chi scansiona cerca.</span>"
+},
+{
+"file": "c28",
+"layout": "list",
+"kicker": "la forma dei titoli",
+"rows": [
+"Una riga, al massimo una e mezza",
+"Non tutto in maiuscolo",
+"Coerenti fra loro"
+],
+"active": 0,
+"note": "Tre righe sono un paragrafo in grassetto."
+},
+{
+"file": "c29",
+"layout": "list",
+"kicker": "la forma dei titoli",
+"rows": [
+"Una riga, al massimo una e mezza",
+"Non tutto in maiuscolo",
+"Coerenti fra loro"
+],
+"active": 1,
+"note": "Il maiuscolo si legge più lentamente."
+},
+{
+"file": "c30",
+"layout": "list",
+"kicker": "la forma dei titoli",
+"rows": [
+"Una riga, al massimo una e mezza",
+"Non tutto in maiuscolo",
+"Coerenti fra loro"
+],
+"active": 2,
+"note": "Se il primo è una frase, lo siano anche gli altri."
+},
+{
+"file": "c31",
+"layout": "statement",
+"kicker": "tre frasi e due etichette",
+"title": "Si legge male.<br><span class=\"gold\">E nessuno sa dire perché.</span>"
+},
+{
+"file": "c32",
+"layout": "pd",
+"statica": false,
+"forma": "testo",
+"prima": "<u>Considerazioni in merito</u> alla riorganizzazione del servizio e alle relative implicazioni sul personale coinvolto nelle attività di front office",
+"dopo": [
+"Lo sportello passa da tre a due operatori"
+]
+},
+{
+"file": "c33",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Considerazioni in merito</u> alla riorganizzazione del servizio e alle relative implicazioni sul personale coinvolto nelle attività di front office",
+"dopo": [
+"Lo sportello passa da tre a due operatori"
+]
+},
+{
+"file": "c34",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Considerazioni in merito</u> alla riorganizzazione del servizio e alle relative implicazioni sul personale coinvolto nelle attività di front office",
+"dopo": [
+"Lo sportello passa da tre a due operatori"
+]
+},
+{
+"file": "c35",
+"layout": "pd",
+"statica": true,
+"forma": "testo",
+"prima": "<u>Considerazioni in merito</u> alla riorganizzazione del servizio e alle relative implicazioni sul personale coinvolto nelle attività di front office",
+"dopo": [
+"Lo sportello passa da tre a due operatori"
+]
+},
+{
+"file": "c36",
+"layout": "statement",
+"kicker": "una cosa chiara",
+"title": "Dire la cosa spiacevole<br><span class=\"gold\">non è brutale. È onesto.</span>"
+},
+{
+"file": "c37",
+"layout": "statement",
+"kicker": "scoprirlo a pagina tre",
+"title": "Non è delicatezza.<br><span class=\"gold\">È sentirsi presi in giro.</span>"
+},
+{
+"file": "c38",
+"layout": "statement",
+"kicker": "nel modulo 6",
+"title": "Nascondere la notizia nel titolo<br><span class=\"gold\">non la rende più leggera.</span>"
+},
+{
+"file": "c39",
+"layout": "statement",
+"kicker": "i testi brevi",
+"title": "In una mail di dieci righe<br><span class=\"gold\">i titoli non servono.</span>"
+},
+{
+"file": "c40",
+"layout": "list",
+"kicker": "ma se gli argomenti sono tre",
+"plain": true,
+"rows": [
+"Il turno del venerdì",
+"La riunione di giovedì",
+"Le ferie di agosto"
+],
+"note": "Tre parole in grassetto bastano."
+},
+{
+"file": "c41",
+"layout": "statement",
+"kicker": "chi legge dovrà tornarci",
+"title": "Tre grassetti<br><span class=\"gold\">per ritrovare il punto.</span>"
+},
+{
+"file": "c42",
+"layout": "memo",
+"theme": "deep",
+"title": "Chi scansiona<br>legge i titoli prima del resto."
+},
+{
+"file": "c43",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"I titoli-contenitore",
+"Il titolo di tre righe",
+"Il maiuscolo",
+"Titoli incoerenti fra loro"
+],
+"plain": true,
+"note": "Li trovi in quasi tutti i documenti."
+},
+{
+"file": "c44",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"I titoli-contenitore",
+"Il titolo di tre righe",
+"Il maiuscolo",
+"Titoli incoerenti fra loro"
+],
+"active": 0,
+"note": "Premessa, considerazioni, conclusioni: vanno bene per tutto."
+},
+{
+"file": "c45",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"I titoli-contenitore",
+"Il titolo di tre righe",
+"Il maiuscolo",
+"Titoli incoerenti fra loro"
+],
+"active": 1,
+"note": "Non è un titolo: è un paragrafo in grassetto."
+},
+{
+"file": "c46",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"I titoli-contenitore",
+"Il titolo di tre righe",
+"Il maiuscolo",
+"Titoli incoerenti fra loro"
+],
+"active": 2,
+"note": "Sembra importante. Si legge più lentamente."
+},
+{
+"file": "c47",
+"layout": "list",
+"theme": "sand",
+"kicker": "da evitare",
+"rows": [
+"I titoli-contenitore",
+"Il titolo di tre righe",
+"Il maiuscolo",
+"Titoli incoerenti fra loro"
+],
+"active": 3,
+"note": "Se uno è una frase, lo siano tutti."
+},
+{
+"file": "c48",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Un documento che hai scritto",
+"Leggi solo i titoli, in fila"
+],
+"note": "Si capisce di che cosa parla?"
+},
+{
+"file": "c49",
+"layout": "list",
+"kicker": "la prova di oggi",
+"plain": true,
+"rows": [
+"Se no, riscrivi i titoli",
+"Non toccare il resto"
+],
+"note": "Nella prossima lezione: gli elenchi."
+},
+{
+"file": "c99",
+"layout": "closing",
+"title": "La Parola Giusta",
+"site": "laparolagiusta.it"
+}
+]

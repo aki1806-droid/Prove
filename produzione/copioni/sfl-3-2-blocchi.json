@@ -1,0 +1,194 @@
+[
+{
+"id": "s02",
+"text": "Ogni testo di una certa lunghezza ha dei titoli. E nella maggior parte dei casi sono inutili. Non sbagliati, non brutti: inutili. Ci sono, occupano una riga, e non aggiungono niente a quello che chi legge sa gia'. E sono quasi sempre gli stessi, da un documento all'altro."
+},
+{
+"id": "s03",
+"text": "Pensa ai titoli che trovi in quasi tutti i documenti di lavoro. Premessa. Contesto. Considerazioni. Analisi della situazione. Conclusioni. Li hai letti mille volte, e probabilmente li hai anche scritti mille volte."
+},
+{
+"id": "s04",
+"text": "Sono etichette di contenitori. Dicono che tipo di cosa c'e' dentro, ma non dicono che cosa c'e' dentro. Come una scatola con scritto sopra documenti: e' vero, ma non ti aiuta a trovare quello che cerchi."
+},
+{
+"id": "s05",
+"text": "E il problema non e' estetico. Un titolo-contenitore spreca l'unico vantaggio che i titoli hanno davvero, e che nessun'altra parte del testo ha. Vale la pena capire bene qual e', perche' da li' discende tutto il resto."
+},
+{
+"id": "s06",
+"text": "Chi scansiona un testo legge i titoli prima del resto. E' il primo percorso che fa l'occhio, quello che abbiamo visto nel primo modulo: prima la forma, poi le parole. E nella forma, i titoli sono la cosa piu' visibile."
+},
+{
+"id": "s07",
+"text": "Se i titoli dicono qualcosa, quella persona ha capito il documento in dieci secondi. E poi decide dove approfondire: la sezione che la riguarda, il numero che le serve, la richiesta che deve valutare."
+},
+{
+"id": "s08",
+"text": "Se i titoli dicono premessa e considerazioni, ha perso quei dieci secondi. E adesso, per capire di che cosa parla il documento, deve cominciare a leggerlo dall'inizio. Che e' proprio quello che non aveva tempo di fare."
+},
+{
+"id": "s09",
+"text": "Guarda queste due colonne. Sono l'indice dello stesso documento, scritto in due modi. A sinistra i titoli che si usano di solito, a destra gli stessi titoli riscritti. Prenditi un momento, e leggi solo la colonna di destra."
+},
+{
+"id": "s10",
+"text": "Hai capito tutto il documento, e non ne hai letto una riga. Sai da dove nasce la richiesta, dove sta il problema, com'e' la situazione oggi, che cosa si propone e che cosa si chiede, e per quando. Tutto da cinque righe, in pochi secondi, senza aprire nessuna sezione."
+},
+{
+"id": "s11",
+"text": "Adesso rileggi la colonna di sinistra. Sono gli stessi cinque capitoli, nello stesso ordine. Ma da quella colonna non sai niente, se non che il documento ha una premessa e delle conclusioni. Come tutti i documenti."
+},
+{
+"id": "s12",
+"text": "E' questo che fa un titolo che dice qualcosa: rende il documento leggibile a due velocita'. Chi ha tre minuti legge i titoli e sa che cosa c'e'. Chi ne ha venti legge tutto, e ci entra sapendo gia' dove sta andando."
+},
+{
+"id": "s13",
+"text": "E la cosa importante e' che tutti e due hanno capito la stessa cosa. Chi ha letto solo i titoli non ha una versione impoverita del documento: ha la sua ossatura. Il resto sono le prove, per chi le vuole vedere."
+},
+{
+"id": "s14",
+"text": "La regola e' questa, ed e' l'unica che serve davvero. Un titolo e' una frase, non un'etichetta. Deve contenere un soggetto e un verbo, o almeno un'informazione. Qualcosa che chi legge non sapeva prima di leggerlo, e che gli serve per decidere dove andare."
+},
+{
+"id": "s15",
+"text": "Criticita' rilevate e' un'etichetta. Il problema si concentra sul venerdi' pomeriggio e' una frase. La prima ti dice che da qualche parte, piu' avanti, si parlera' di problemi. La seconda ti dice il problema."
+},
+{
+"id": "s16",
+"text": "E la seconda non e' molto piu' lunga. E' piu' lunga di qualche parola, ma fa un lavoro completamente diverso. Qualche parola in piu' nel titolo ne risparmia moltissime a chi legge, che non deve andare a cercare."
+},
+{
+"id": "s17",
+"text": "C'e' un modo semplice per verificarlo. Prendi il titolo e chiediti: se leggessi solo questo, saprei qualcosa di nuovo? Se la risposta e' no, e' un'etichetta. Se la risposta e' si', e' un titolo che fa il suo lavoro."
+},
+{
+"id": "s18",
+"text": "C'e' anche un effetto che non ti aspetti, e riguarda chi scrive. Provare a scrivere titoli che dicano qualcosa ti costringe a sapere che cosa c'e' in ogni sezione. Non a grandi linee: esattamente."
+},
+{
+"id": "s19",
+"text": "E spesso scopri che in una sezione non c'e' niente. O che due sezioni dicono la stessa cosa con parole diverse. O che l'ordine e' sbagliato, e la proposta arriva prima del problema che dovrebbe risolvere."
+},
+{
+"id": "s20",
+"text": "I titoli sono il modo piu' rapido per accorgersi che la struttura non regge. Con le etichette non te ne accorgi mai, perche' un'etichetta va bene per qualunque contenuto, anche per nessuno. Una frase no."
+},
+{
+"id": "s21",
+"text": "Se non riesci a scrivere il titolo, quella sezione non ha un punto."
+},
+{
+"id": "s22",
+"text": "Allora, come si scrive un titolo che dice qualcosa? Ci sono tre formati, e coprono quasi tutto quello che ti capitera' di scrivere. Non serve inventarne altri: basta scegliere quello giusto per ogni sezione."
+},
+{
+"id": "s23",
+"text": "Il primo e' il fatto: il titolo dice che cosa si e' osservato. Il turno del venerdi' e' scoperto. Il fornitore ha consegnato in ritardo tre volte. E' il formato giusto per le sezioni che descrivono una situazione."
+},
+{
+"id": "s24",
+"text": "Il secondo e' la decisione: il titolo dice che cosa si e' scelto. Abbiamo scelto il rinvio a gennaio. E' il formato giusto per le sezioni che chiudono una questione, e chi legge trova la decisione senza cercarla."
+},
+{
+"id": "s25",
+"text": "Il terzo e' la domanda del lettore. Che cosa cambia per te. Che cosa devi fare. Entro quando. Il titolo non e' una risposta, ma la domanda che chi legge si sta facendo, e sotto c'e' la risposta."
+},
+{
+"id": "s26",
+"text": "Quest'ultimo e' il piu' sottovalutato, e in un documento rivolto a molte persone e' il piu' efficace. Perche' e' l'unico titolo che chi scansiona sta davvero cercando: quello che parla di lui, e di che cosa deve fare."
+},
+{
+"id": "s27",
+"text": "E poi qualche regola pratica, perche' i titoli, oltre a un contenuto, hanno anche una forma."
+},
+{
+"id": "s28",
+"text": "Non troppo lunghi: una riga, al massimo una riga e mezza. Un titolo di tre righe non e' un titolo, e' un paragrafo in grassetto. E chi scansiona lo salta, esattamente come salterebbe un paragrafo."
+},
+{
+"id": "s29",
+"text": "Non tutti in maiuscolo. Il maiuscolo si legge piu' lentamente, perche' le parole perdono la loro forma e diventano blocchi tutti uguali. Ed e' il contrario di quello che serve a un titolo, che deve farsi leggere al volo."
+},
+{
+"id": "s30",
+"text": "E coerenti fra loro. Se il primo titolo e' una frase completa, lo siano anche gli altri. Se il primo e' una domanda, valuta se possono esserlo tutti. Chi legge si abitua alla forma del primo, e la cerca nei successivi."
+},
+{
+"id": "s31",
+"text": "Un elenco di titoli in cui tre sono frasi e due sono etichette si legge male, senza che nessuno sappia dire perche'. Chi lo scorre inciampa, e non capisce dove. E' un difetto piccolo, ma si sente, e si corregge in due minuti, quando si rileggono i titoli tutti insieme."
+},
+{
+"id": "s32",
+"text": "Adesso guarda questi due titoli. Sono lo stesso titolo, per lo stesso documento: sopra come si scrive di solito negli atti ufficiali, sotto come lo si potrebbe scrivere. Contali, se vuoi. Diciannove parole contro otto."
+},
+{
+"id": "s33",
+"text": "E la prima non dice che cosa succede. Dice che si parlera' di una cosa, e lo dice con molta cura, ma non la dice. La seconda la dice subito, in una riga, e chi la legge sa gia' che cosa trovera' nelle pagine successive."
+},
+{
+"id": "s34",
+"text": "E' il titolo tipico dei documenti ufficiali, e nasce da una preoccupazione legittima. Non voler anticipare, non voler semplificare una questione complicata. E soprattutto, non voler sembrare brutale con chi legge."
+},
+{
+"id": "s35",
+"text": "Ma il risultato e' che chi legge scopre la cosa a pagina tre. E non e' un modo piu' delicato di dirgliela. E' solo un modo piu' lento. La notizia e' la stessa: cambia solo quanto tempo ci mette ad arrivare."
+},
+{
+"id": "s36",
+"text": "E su questo vale la pena dire una cosa chiara. Un titolo che dice la cosa spiacevole non e' piu' brutale di uno che la nasconde. E' piu' onesto. E la differenza, per chi legge, si sente molto bene."
+},
+{
+"id": "s37",
+"text": "Chi riceve un documento intitolato considerazioni in merito a, e scopre a pagina tre che perde un collega, non si sente trattato con delicatezza. Si sente preso in giro. E se lo ricorda, la prossima volta che riceve un documento con la tua firma."
+},
+{
+"id": "s38",
+"text": "Ci dedichiamo il modulo sei, perche' le cattive notizie per iscritto sono un capitolo a se', e meritano un lavoro preciso. Per adesso basta questo: nascondere la notizia nel titolo non la rende piu' leggera."
+},
+{
+"id": "s39",
+"text": "Un'ultima cosa, sui testi brevi. In una mail di dieci righe i titoli non servono. Anzi, la appesantiscono: una mail breve con i titoli sembra un modulo da compilare, non un messaggio fra persone."
+},
+{
+"id": "s40",
+"text": "Ma se la mail ha tre argomenti diversi, allora servono. Anche se sono solo tre parole in grassetto all'inizio di ogni blocco. Il turno del venerdi'. La riunione di giovedi'. Le ferie di agosto."
+},
+{
+"id": "s41",
+"text": "Perche' chi legge dovra' tornarci, magari dopo qualche giorno, per ritrovare la parte che lo riguarda. E quei tre grassetti sono quello che gli permettera' di ritrovare il punto, senza rileggere tutto da capo."
+},
+{
+"id": "s42",
+"text": "Chi scansiona legge i titoli prima del resto."
+},
+{
+"id": "s43",
+"text": "Riassumiamo con quattro errori da evitare. Sono i piu' frequenti, e li trovi in quasi tutti i documenti che ti arrivano. Probabilmente anche in qualcuno dei tuoi, se vai a riguardarli con questi occhi."
+},
+{
+"id": "s44",
+"text": "Il primo: i titoli-contenitore. Premessa, considerazioni, conclusioni. Dicono che tipo di cosa c'e' dentro, non che cosa c'e' dentro. Vanno bene per qualunque documento, e proprio per questo non servono a nessuno."
+},
+{
+"id": "s45",
+"text": "Il secondo: il titolo di tre righe. Non e' un titolo, e' un paragrafo in grassetto, e chi scansiona lo salta. Se il titolo non sta in una riga, di solito e' perche' cerca di dire tutto, invece della cosa principale."
+},
+{
+"id": "s46",
+"text": "Il terzo: il maiuscolo. Sembra dare importanza, ma si legge piu' lentamente, perche' le parole perdono la loro forma. E un titolo esiste proprio per essere letto in fretta, prima di tutto il resto."
+},
+{
+"id": "s47",
+"text": "Il quarto: titoli incoerenti fra loro. Tre frasi e due etichette, o una domanda in mezzo a cinque affermazioni. Chi legge si abitua alla forma del primo, e la cerca negli altri. Se uno e' una frase, lo siano tutti."
+},
+{
+"id": "s48",
+"text": "La prova di oggi. Prendi un documento che hai scritto, uno di quelli con i titoli, e leggi solo quelli, in fila, uno dopo l'altro, senza guardare il resto. E chiediti: si capisce di che cosa parla?"
+},
+{
+"id": "s49",
+"text": "Se la risposta e' no, riscrivi i titoli e non toccare il resto. Scoprirai che il documento e' migliorato comunque. Nella prossima lezione: gli elenchi, quando aiutano chi legge e quando invece gli mentono."
+}
+]
