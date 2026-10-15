@@ -26,7 +26,7 @@ controlla-avatar.py: 0 su sottotitoli e bande; S03A 190 pixel (alone vicino a «
 positivi del fondo carta, verificati a vista.
 
 ## Montato
-PDRO_Onco_No_capri_espiatori_9x16.mp4: 1080x1920, 121,6 s, 75 MB (fuori da git). Invio _invio.mp4 28,5 MB.
+PDRO_Onco_No_capri_espiatori_9x16.mp4: 1080x1920, 121,6 s, 75 MB (fuori da git), caricato su HeyGen come asset 93bffd76fa954f949f8281a4e390aeeb. Invio _invio.mp4 28,5 MB.
 Controllo: un fotogramma per ogni grafica A e B (14). Sottotitoli: 45 blocchi.
 
 ## Da verificare (Achille)
