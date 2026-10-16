@@ -1,0 +1,1097 @@
+1
+00:00:03,000 --> 00:00:05,271
+Benvenuto alla lezione due punto tre.
+
+2
+00:00:05,311 --> 00:00:08,143
+Hai aperto i tre account e sai quanto
+costano.
+
+3
+00:00:08,183 --> 00:00:11,265
+Adesso scopriamo che cosa sa fare meglio
+ciascuno:
+
+4
+00:00:11,305 --> 00:00:14,075
+Claude con i documenti lunghi e la
+scrittura,
+
+5
+00:00:14,115 --> 00:00:18,696
+Gemini dentro Gmail e Drive, ChatGPT come
+generalista con voce e immagini.
+
+6
+00:00:18,736 --> 00:00:21,569
+E impari a metterli alla prova sui tuoi
+testi.
+
+7
+00:00:22,209 --> 00:00:23,422
+Martedì, metà mattina.
+
+8
+00:00:23,462 --> 00:00:27,524
+Arriva per posta certificata il nuovo
+regolamento aziendale sugli orari:
+
+9
+00:00:27,564 --> 00:00:29,347
+trenta pagine, più due allegati.
+
+10
+00:00:29,387 --> 00:00:34,018
+La collega lo stampa, lo appoggia sulla
+tua scrivania e ti dice soltanto una cosa.
+
+11
+00:00:34,058 --> 00:00:36,924
+Entro stasera ci serve un riassunto per i
+delegati.
+
+12
+00:00:37,564 --> 00:00:40,413
+Nel frattempo la casella email della sede
+trabocca:
+
+13
+00:00:40,453 --> 00:00:42,848
+lavoratori che chiedono delle
+progressioni,
+
+14
+00:00:42,888 --> 00:00:46,020
+una convocazione da confermare, due
+circolari da girare.
+
+15
+00:00:46,060 --> 00:00:48,229
+Due lavori diversi, la stessa giornata.
+
+16
+00:00:48,269 --> 00:00:52,760
+E la domanda che ti fai è pratica: quale
+dei tre strumenti apro, e per che cosa?
+
+17
+00:00:53,399 --> 00:00:55,765
+La risposta di questa lezione è semplice,
+
+18
+00:00:55,805 --> 00:00:58,406
+anche se non è quella che di solito si
+sente.
+
+19
+00:00:58,446 --> 00:01:01,047
+Non esiste lo strumento migliore in
+assoluto.
+
+20
+00:01:01,087 --> 00:01:04,803
+Esiste lo strumento migliore per quel
+compito, in quel contesto.
+
+21
+00:01:04,843 --> 00:01:07,913
+E lo scopri in un solo modo: provando sui
+tuoi testi.
+
+22
+00:01:08,553 --> 00:01:10,424
+Senza questo criterio, come si fa?
+
+23
+00:01:10,464 --> 00:01:13,627
+Si usa per tutto lo strumento che si è
+provato per primo,
+
+24
+00:01:13,667 --> 00:01:15,032
+anche dove funziona male.
+
+25
+00:01:15,072 --> 00:01:16,550
+Oppure si cambia ogni mese,
+
+26
+00:01:16,590 --> 00:01:19,865
+dietro all'ultimo video che dice che
+quello nuovo ha vinto.
+
+27
+00:01:19,905 --> 00:01:23,912
+Il risultato è lo stesso: tanto tempo
+perso, e nessuna abitudine solida.
+
+28
+00:01:24,552 --> 00:01:27,057
+Guarda la differenza tra due modi di
+scegliere.
+
+29
+00:01:27,097 --> 00:01:30,036
+Chi cerca il migliore in assoluto segue le
+classifiche,
+
+30
+00:01:30,076 --> 00:01:33,285
+usa un solo strumento per tutto e cambia
+idea a ogni novità.
+
+31
+00:01:33,325 --> 00:01:36,642
+Chi cerca il migliore per il compito parte
+dal lavoro da fare,
+
+32
+00:01:36,682 --> 00:01:39,946
+prova sui propri testi e tiene conto del
+contesto della sede.
+
+33
+00:01:40,586 --> 00:01:42,857
+Ecco i tre talenti in una sola immagine.
+
+34
+00:01:42,897 --> 00:01:46,611
+Claude regge bene i documenti lunghi e
+scrive con un tono curato.
+
+35
+00:01:46,651 --> 00:01:50,597
+Gemini abita nella casa di Google, accanto
+alla posta e ai documenti.
+
+36
+00:01:50,637 --> 00:01:52,273
+ChatGPT è il più generalista,
+
+37
+00:01:52,313 --> 00:01:55,565
+con una voce molto naturale e la
+generazione di immagini.
+
+38
+00:01:56,205 --> 00:01:59,832
+Tieni a mente però una cosa: le differenze
+si stanno riducendo.
+
+39
+00:01:59,872 --> 00:02:04,198
+Oggi tutti e tre leggono file, cercano sul
+web e hanno una modalità vocale.
+
+40
+00:02:04,238 --> 00:02:08,797
+Ciascuno ha un talento in cui spicca, ma
+nessuno è inutile negli altri compiti.
+
+41
+00:02:08,837 --> 00:02:11,591
+Per questo contano molto anche le tue
+abitudini.
+
+42
+00:02:12,231 --> 00:02:13,295
+Partiamo da Claude.
+
+43
+00:02:13,335 --> 00:02:15,677
+È nato con un'attenzione particolare alla
+
+44
+00:02:15,717 --> 00:02:18,873
+lettura di testi estesi e alla qualità
+della scrittura.
+
+45
+00:02:18,913 --> 00:02:22,069
+Nella pratica regge un CCNL, una delibera
+con allegati,
+
+46
+00:02:22,109 --> 00:02:23,870
+un regolamento di molte pagine.
+
+47
+00:02:23,910 --> 00:02:26,659
+Riassume mantenendo articoli, numeri e
+scadenze,
+
+48
+00:02:26,699 --> 00:02:29,216
+e riscrive un testo cambiandone il
+registro.
+
+49
+00:02:29,856 --> 00:02:31,789
+Torniamo al regolamento degli orari.
+
+50
+00:02:31,829 --> 00:02:36,392
+Apri Claude, premi nuova chat e allega il
+file con il pulsante accanto alla casella.
+
+51
+00:02:36,432 --> 00:02:40,666
+È un regolamento pubblico, senza dati
+personali, quindi puoi caricarlo intero.
+
+52
+00:02:40,706 --> 00:02:42,748
+Se ci fossero nomi o casi individuali,
+
+53
+00:02:42,788 --> 00:02:45,488
+li toglieresti prima, come vedremo nel
+modulo tre.
+
+54
+00:02:46,128 --> 00:02:47,718
+Il prompt chiede due cose.
+
+55
+00:02:47,758 --> 00:02:51,168
+Un riassunto di massimo quindici righe per
+un delegato.
+
+56
+00:02:51,208 --> 00:02:55,996
+E una tabella con articolo, cosa prevede,
+scadenza ed effetto sui lavoratori.
+
+57
+00:02:56,036 --> 00:03:00,386
+Poi tre vincoli che fanno la differenza:
+numeri riportati esattamente,
+
+58
+00:03:00,426 --> 00:03:05,152
+non indicato quando un dato manca, nessuna
+interpretazione esterna al testo.
+
+59
+00:03:05,792 --> 00:03:08,055
+Ecco un estratto verosimile della tabella.
+
+60
+00:03:08,095 --> 00:03:10,523
+Ogni riga ha il suo articolo e il suo
+numero.
+
+61
+00:03:10,563 --> 00:03:12,771
+Dove il regolamento non fissa un termine,
+
+62
+00:03:12,811 --> 00:03:15,458
+compare non indicato invece di una data
+supposta.
+
+63
+00:03:15,498 --> 00:03:17,651
+È proprio questo il comportamento che ti
+
+64
+00:03:17,691 --> 00:03:20,009
+serve prima di girare il testo ai
+delegati.
+
+65
+00:03:20,649 --> 00:03:24,061
+C'è un dettaglio che rende Claude comodo
+per lavori come questo.
+
+66
+00:03:24,101 --> 00:03:26,219
+La tabella può comparire in un Artifact,
+
+67
+00:03:26,259 --> 00:03:29,293
+cioè un documento separato che si apre
+accanto alla chat.
+
+68
+00:03:29,333 --> 00:03:31,181
+Lo modifichi, lo copi, lo scarichi.
+
+69
+00:03:31,221 --> 00:03:32,637
+E se chiedi una correzione,
+
+70
+00:03:32,677 --> 00:03:36,251
+cambia l'Artifact senza dover riscrivere
+tutto nella conversazione.
+
+71
+00:03:36,891 --> 00:03:38,558
+Due cose da sapere su Claude.
+
+72
+00:03:38,598 --> 00:03:41,679
+Nel piano gratuito puoi avere fino a
+cinque Progetti,
+
+73
+00:03:41,719 --> 00:03:44,741
+spazi con documenti e istruzioni sempre
+disponibili,
+
+74
+00:03:44,781 --> 00:03:46,507
+che useremo nel modulo sedici.
+
+75
+00:03:46,547 --> 00:03:50,864
+E Claude non genera fotografie o
+illustrazioni: scrive i prompt per farle,
+
+76
+00:03:50,904 --> 00:03:53,572
+crea schemi e infografiche, controlla i
+testi.
+
+77
+00:03:54,212 --> 00:03:57,598
+Passiamo all'altro lavoro della giornata,
+la casella piena.
+
+78
+00:03:57,638 --> 00:04:01,722
+Qui il talento che conta è un altro: la
+casa in cui lo strumento abita.
+
+79
+00:04:01,762 --> 00:04:03,406
+Se la sede usa Gmail e Drive,
+
+80
+00:04:03,446 --> 00:04:06,019
+Gemini può cercare tra le email e i
+documenti
+
+81
+00:04:06,059 --> 00:04:09,213
+senza che tu debba scaricarli e
+ricaricarli ogni volta.
+
+82
+00:04:09,853 --> 00:04:11,369
+Come si usa, in concreto.
+
+83
+00:04:11,409 --> 00:04:16,534
+Dalle impostazioni dell'app Gemini attivi
+le app collegate: Gmail, Drive, Calendar.
+
+84
+00:04:16,574 --> 00:04:21,761
+Poi le richiami scrivendo chiocciola Gmail
+o chiocciola Drive all'inizio del prompt.
+
+85
+00:04:21,801 --> 00:04:26,490
+Con un abbonamento Google AI, Gemini
+compare anche dentro Gmail e Documenti.
+
+86
+00:04:26,530 --> 00:04:28,979
+E con Workspace decide l'amministratore.
+
+87
+00:04:29,620 --> 00:04:30,743
+Vediamolo a schermo.
+
+88
+00:04:30,783 --> 00:04:34,466
+In Gemini apri le impostazioni, poi la
+voce delle app collegate.
+
+89
+00:04:34,506 --> 00:04:37,607
+Accanto a Gmail, Drive e Calendar c'è un
+interruttore.
+
+90
+00:04:37,647 --> 00:04:42,145
+Prima di accenderlo, fermati un secondo e
+chiediti cosa c'è in quella casella:
+
+91
+00:04:42,185 --> 00:04:45,053
+tra poco capirai perché questa domanda è
+decisiva.
+
+92
+00:04:45,693 --> 00:04:48,975
+Con Gmail collegato, il prompt comincia
+con la chiocciola.
+
+93
+00:04:49,015 --> 00:04:53,443
+Chiedi le email delle ultime due settimane
+con una parola chiave nell'oggetto,
+
+94
+00:04:53,483 --> 00:04:56,536
+per esempio progressioni, e un riassunto
+in sei punti.
+
+95
+00:04:56,576 --> 00:05:00,832
+Nota il dettaglio: chi ha scritto va
+indicato solo per ruolo, non per nome.
+
+96
+00:05:01,471 --> 00:05:02,994
+Ecco un estratto verosimile.
+
+97
+00:05:03,034 --> 00:05:04,501
+Gemini ha trovato le email,
+
+98
+00:05:04,541 --> 00:05:09,191
+le ha raggruppate per richiesta e ha messo
+in fondo quello che resta senza risposta.
+
+99
+00:05:09,231 --> 00:05:12,373
+In pochi secondi hai il quadro di due
+settimane di posta.
+
+100
+00:05:12,413 --> 00:05:15,834
+Il riscontro con le email vere lo fai tu,
+prima di rispondere.
+
+101
+00:05:16,474 --> 00:05:18,951
+Ed ecco perché quella domanda era
+decisiva.
+
+102
+00:05:18,991 --> 00:05:23,752
+L'errore tipico è collegare a Gemini una
+casella dove arrivano certificati medici,
+
+103
+00:05:23,792 --> 00:05:26,211
+richieste di tutela o elenchi di iscritti,
+
+104
+00:05:26,251 --> 00:05:28,787
+e poi chiedere un riassunto della
+settimana.
+
+105
+00:05:28,827 --> 00:05:30,601
+Gemini leggerebbe anche quelli.
+
+106
+00:05:30,641 --> 00:05:34,407
+Collega solo caselle senza dati sensibili,
+oppure non collegarle.
+
+107
+00:05:35,047 --> 00:05:36,907
+Gemini ha anche altri punti forti.
+
+108
+00:05:36,947 --> 00:05:40,205
+Le Gem, assistenti personalizzati
+disponibili anche gratis,
+
+109
+00:05:40,245 --> 00:05:43,838
+che da novembre duemilaventisei Google sta
+trasformando in skill.
+
+110
+00:05:43,878 --> 00:05:46,521
+Deep Research, per ricerche lunghe con le
+fonti.
+
+111
+00:05:46,561 --> 00:05:48,757
+E la generazione di immagini e di video,
+
+112
+00:05:48,797 --> 00:05:51,384
+che vedremo nel livello dedicato alle
+immagini.
+
+113
+00:05:52,024 --> 00:05:53,286
+Ora il terzo strumento.
+
+114
+00:05:53,326 --> 00:05:56,342
+Pensa al momento in cui esci da un
+incontro difficile.
+
+115
+00:05:56,382 --> 00:06:00,191
+Sei in macchina o in corridoio, gli
+appunti sono ancora nella testa,
+
+116
+00:06:00,231 --> 00:06:03,135
+e scriverli al computer vorrebbe dire
+perderne metà.
+
+117
+00:06:03,175 --> 00:06:05,116
+Qui il talento che serve è la voce.
+
+118
+00:06:05,756 --> 00:06:08,195
+ChatGPT ha una modalità vocale molto
+naturale.
+
+119
+00:06:08,235 --> 00:06:12,292
+Tocchi l'icona della voce accanto alla
+casella e parli, come con un collega.
+
+120
+00:06:12,332 --> 00:06:14,502
+Puoi raccontare com'è andato l'incontro e
+
+121
+00:06:14,542 --> 00:06:17,628
+chiedergli di farti tre domande per non
+dimenticare nulla.
+
+122
+00:06:17,668 --> 00:06:21,779
+Poi, alla scrivania, ritrovi tutta la
+conversazione scritta nella cronologia.
+
+123
+00:06:22,418 --> 00:06:24,742
+Gli altri tratti distintivi di ChatGPT.
+
+124
+00:06:24,782 --> 00:06:28,138
+Scrive, analizza file e fogli di calcolo,
+cerca sul web.
+
+125
+00:06:28,178 --> 00:06:31,230
+Genera e modifica immagini direttamente
+nella chat.
+
+126
+00:06:31,270 --> 00:06:34,564
+Ha i Progetti, spazi con istruzioni e
+documenti propri.
+
+127
+00:06:34,604 --> 00:06:36,868
+E ha un comando per decidere quanto il
+
+128
+00:06:36,908 --> 00:06:39,475
+modello deve ragionare prima di
+rispondere.
+
+129
+00:06:40,115 --> 00:06:41,270
+Una data da segnare.
+
+130
+00:06:41,310 --> 00:06:44,079
+Da agosto duemilaventisei gli account
+personali
+
+131
+00:06:44,119 --> 00:06:46,948
+non possono più creare nuovi GPT
+personalizzati,
+
+132
+00:06:46,988 --> 00:06:50,116
+e OpenAI li ritira l'undici dicembre
+duemilaventisei.
+
+133
+00:06:50,156 --> 00:06:52,088
+Al loro posto ci sono i Progetti.
+
+134
+00:06:52,128 --> 00:06:56,212
+Se oggi vuoi costruire un assistente
+stabile in ChatGPT, parti da lì.
+
+135
+00:06:56,852 --> 00:06:59,345
+C'è anche una ragione normativa per
+conoscere
+
+136
+00:06:59,385 --> 00:07:02,047
+bene i punti forti e i limiti di ogni
+strumento.
+
+137
+00:07:02,087 --> 00:07:03,792
+L'AI Act, all'articolo quattro,
+
+138
+00:07:03,832 --> 00:07:07,506
+chiede dal due febbraio duemilaventicinque
+a chi usa sistemi di IA
+
+139
+00:07:07,546 --> 00:07:11,446
+di garantire un livello sufficiente di
+alfabetizzazione del personale.
+
+140
+00:07:11,486 --> 00:07:13,642
+Vale anche per una struttura sindacale.
+
+141
+00:07:14,282 --> 00:07:16,051
+Mettiamo tutto in una tabella.
+
+142
+00:07:16,091 --> 00:07:20,032
+Sugli atti lunghi spicca Claude, con gli
+altri due comunque buoni.
+
+143
+00:07:20,072 --> 00:07:22,566
+Su email e documenti Google spicca Gemini,
+
+144
+00:07:22,606 --> 00:07:25,340
+mentre gli altri ci arrivano con i
+connettori.
+
+145
+00:07:25,380 --> 00:07:26,908
+Sulla voce spicca ChatGPT.
+
+146
+00:07:26,948 --> 00:07:31,070
+Sulle immagini, ChatGPT e Gemini sì,
+Claude solo con schemi e prompt.
+
+147
+00:07:31,710 --> 00:07:34,089
+E qui arriva l'avvertenza più importante.
+
+148
+00:07:34,129 --> 00:07:37,747
+Le classifiche che girano sui social
+cambiano ogni pochi mesi:
+
+149
+00:07:37,787 --> 00:07:40,992
+esce un modello nuovo, e chi era indietro
+passa avanti.
+
+150
+00:07:41,032 --> 00:07:43,293
+Quello che resta stabile è il contesto.
+
+151
+00:07:43,333 --> 00:07:45,652
+Ed è sul contesto che conviene decidere.
+
+152
+00:07:46,293 --> 00:07:47,832
+Cosa intendiamo per contesto?
+
+153
+00:07:47,872 --> 00:07:51,371
+Dove sono i tuoi file, per esempio se la
+sede vive dentro Google.
+
+154
+00:07:51,411 --> 00:07:53,386
+Quale strumento usano già i colleghi,
+
+155
+00:07:53,426 --> 00:07:56,544
+perché lavorare con gli stessi strumenti
+semplifica tutto.
+
+156
+00:07:56,584 --> 00:07:58,558
+E quale interfaccia trovi più chiara,
+
+157
+00:07:58,598 --> 00:08:01,880
+perché lo strumento che usi volentieri è
+quello che usi bene.
+
+158
+00:08:02,519 --> 00:08:05,290
+Guarda come lo fa Giorgio, segretario
+territoriale.
+
+159
+00:08:05,330 --> 00:08:08,376
+Passa ai tre strumenti lo stesso verbale
+di un incontro,
+
+160
+00:08:08,416 --> 00:08:11,407
+già anonimizzato, e chiede un riassunto di
+dieci righe.
+
+161
+00:08:11,447 --> 00:08:13,556
+Non vuole sapere chi vince in generale.
+
+162
+00:08:13,596 --> 00:08:17,083
+Vuole sapere chi gli conviene usare per i
+verbali, d'ora in poi.
+
+163
+00:08:17,723 --> 00:08:18,429
+I risultati.
+
+164
+00:08:18,469 --> 00:08:21,600
+Claude conserva tutte e quattro le
+scadenze citate.
+
+165
+00:08:21,640 --> 00:08:24,273
+Gemini è il più sintetico, ma ne perde
+una.
+
+166
+00:08:24,313 --> 00:08:26,885
+ChatGPT aggiunge un'utile lista di azioni,
+
+167
+00:08:26,925 --> 00:08:30,366
+ma inserisce una data presumibile che nel
+testo non c'è.
+
+168
+00:08:30,406 --> 00:08:33,724
+Nessuno è perfetto, e ognuno ha qualcosa
+da insegnare.
+
+169
+00:08:34,364 --> 00:08:36,420
+Ora tocca a te fare la stessa prova.
+
+170
+00:08:36,460 --> 00:08:38,983
+Questo è il prompt identico per tutti e
+tre.
+
+171
+00:08:39,023 --> 00:08:42,710
+Riassunto di massimo dieci righe per i
+lavoratori di un reparto.
+
+172
+00:08:42,750 --> 00:08:44,690
+Mantieni date, numeri e organismi.
+
+173
+00:08:44,730 --> 00:08:46,495
+Non aggiungere ciò che non c'è.
+
+174
+00:08:46,535 --> 00:08:50,746
+E alla fine le scadenze in un punto
+separato, così si confrontano subito.
+
+175
+00:08:51,387 --> 00:08:54,797
+Scegli un testo di almeno due pagine senza
+dati personali:
+
+176
+00:08:54,837 --> 00:08:58,426
+una circolare, un articolo del CCNL, un
+regolamento pubblico.
+
+177
+00:08:58,466 --> 00:09:03,007
+Apri una chat nuova in ciascuno strumento
+e incolla prompt e testo, identici.
+
+178
+00:09:03,047 --> 00:09:05,506
+Poi copia le tre risposte in un documento,
+
+179
+00:09:05,546 --> 00:09:08,778
+una sotto l'altra, con il nome dello
+strumento in cima.
+
+180
+00:09:09,417 --> 00:09:11,642
+Per confrontarle bastano tre criteri.
+
+181
+00:09:11,682 --> 00:09:13,969
+Le scadenze e i numeri: ci sono tutti?
+
+182
+00:09:14,009 --> 00:09:16,479
+Le aggiunte inventate: ne trovi qualcuna?
+
+183
+00:09:16,519 --> 00:09:19,785
+La chiarezza: un lavoratore la capisce al
+primo colpo?
+
+184
+00:09:19,825 --> 00:09:24,499
+Dai un voto da uno a cinque a ogni
+criterio e scrivi una riga di motivazione.
+
+185
+00:09:25,140 --> 00:09:28,273
+Ecco il caso più istruttivo, quello della
+data presunta.
+
+186
+00:09:28,313 --> 00:09:31,844
+L'estratto è verosimile: il testo diceva
+soltanto entro l'anno,
+
+187
+00:09:31,884 --> 00:09:34,507
+e lo strumento ha tradotto in una data
+precisa.
+
+188
+00:09:34,547 --> 00:09:37,001
+Sembra un aiuto, ma è un'aggiunta
+inventata.
+
+189
+00:09:37,041 --> 00:09:40,967
+Su un volantino, una data sbagliata fa più
+danni di una data mancante.
+
+190
+00:09:41,607 --> 00:09:45,639
+La soluzione è quella che ha trovato
+Giorgio: chiederlo in modo esplicito.
+
+191
+00:09:45,679 --> 00:09:48,336
+Rilanci nella stessa chat con un messaggio
+breve.
+
+192
+00:09:48,376 --> 00:09:50,427
+Non dedurre date che non sono scritte,
+
+193
+00:09:50,467 --> 00:09:54,389
+togli quella aggiunta e segnala con non
+indicato ogni termine che manca.
+
+194
+00:09:54,429 --> 00:09:57,306
+E la prossima volta metti questa riga già
+nel prompt.
+
+195
+00:09:57,946 --> 00:10:01,039
+Ora rileggi i tre riassunti affiancati e
+assegna i voti.
+
+196
+00:10:01,079 --> 00:10:04,732
+Evidenzia in giallo ogni numero che non
+trovi nel testo originale.
+
+197
+00:10:04,772 --> 00:10:07,249
+In pochi minuti vedi chi ha conservato
+tutto,
+
+198
+00:10:07,289 --> 00:10:09,991
+chi ha tagliato troppo e chi ha aggiunto
+del suo.
+
+199
+00:10:10,031 --> 00:10:12,956
+Sono informazioni che nessuna classifica
+ti può dare.
+
+200
+00:10:13,596 --> 00:10:16,542
+L'errore tipico di questa lezione è
+scegliere per moda.
+
+201
+00:10:16,582 --> 00:10:18,606
+Leggi che uno strumento ha battuto gli
+
+202
+00:10:18,646 --> 00:10:21,104
+altri in una classifica e lo adotti per
+tutto,
+
+203
+00:10:21,144 --> 00:10:24,090
+compresi i compiti dove ti trovavi meglio
+con un altro.
+
+204
+00:10:24,130 --> 00:10:26,316
+Le classifiche misurano compiti generici.
+
+205
+00:10:26,356 --> 00:10:28,108
+I tuoi compiti li misuri solo tu.
+
+206
+00:10:28,749 --> 00:10:30,078
+Torna a martedì mattina.
+
+207
+00:10:30,118 --> 00:10:32,589
+Il regolamento di trenta pagine va a
+Claude,
+
+208
+00:10:32,629 --> 00:10:35,384
+con il prompt che chiede tabella e numeri
+esatti.
+
+209
+00:10:35,424 --> 00:10:39,321
+La casella va a Gemini, ma solo se dentro
+non ci sono dati sensibili.
+
+210
+00:10:39,361 --> 00:10:43,372
+E dopo l'incontro del pomeriggio, sul
+telefono, c'è la voce di ChatGPT.
+
+211
+00:10:44,011 --> 00:10:46,911
+Se ti porti a casa una sola frase, che sia
+questa.
+
+212
+00:10:46,951 --> 00:10:49,616
+Non cercare lo strumento migliore in
+assoluto:
+
+213
+00:10:49,656 --> 00:10:53,791
+cerca il migliore per quel compito, e
+scoprilo provando sui tuoi testi.
+
+214
+00:10:54,431 --> 00:10:55,241
+Ora tocca a te.
+
+215
+00:10:55,281 --> 00:10:58,527
+Scegli un testo di almeno due pagine senza
+dati personali.
+
+216
+00:10:58,567 --> 00:11:02,209
+Incollalo nei tre strumenti con il prompt
+dello stesso riassunto,
+
+217
+00:11:02,249 --> 00:11:03,626
+ognuno in una chat nuova.
+
+218
+00:11:03,666 --> 00:11:08,214
+Confronta le risposte con i tre criteri e
+dai i voti con una riga di motivazione.
+
+219
+00:11:08,854 --> 00:11:10,722
+Un suggerimento per la segreteria.
+
+220
+00:11:10,762 --> 00:11:14,369
+Fate la stessa prova in due o tre,
+ciascuno con un testo diverso:
+
+221
+00:11:14,409 --> 00:11:17,287
+una circolare, un articolo di contratto,
+un verbale.
+
+222
+00:11:17,327 --> 00:11:18,578
+Poi confrontate i voti.
+
+223
+00:11:18,618 --> 00:11:22,787
+Se lo stesso strumento vince su testi
+diversi, avete un'indicazione solida.
+
+224
+00:11:22,827 --> 00:11:25,873
+Se cambia, avete scoperto qualcosa di
+ancora più utile.
+
+225
+00:11:26,514 --> 00:11:28,892
+Il voto di oggi non è una sentenza
+definitiva.
+
+226
+00:11:28,932 --> 00:11:31,152
+È il primo dato del tuo archivio
+personale.
+
+227
+00:11:31,192 --> 00:11:32,887
+Lo userai nella prossima lezione,
+
+228
+00:11:32,927 --> 00:11:36,041
+quando metterai i tre strumenti alla prova
+su un comunicato,
+
+229
+00:11:36,081 --> 00:11:38,985
+e poi nella tabella che costruirai alla
+fine del modulo.
+
+230
+00:11:39,624 --> 00:11:42,296
+Nella prossima lezione la prova si fa più
+seria.
+
+231
+00:11:42,336 --> 00:11:45,404
+Chiedi lo stesso comunicato a ChatGPT,
+Claude e Gemini,
+
+232
+00:11:45,444 --> 00:11:48,569
+imposti un confronto alla pari e valuti le
+tre bozze con
+
+233
+00:11:48,609 --> 00:11:51,790
+una griglia di sei criteri pensata per i
+testi sindacali.
+
+234
+00:11:51,830 --> 00:11:54,220
+Ci vediamo nella lezione due punto
+quattro.
