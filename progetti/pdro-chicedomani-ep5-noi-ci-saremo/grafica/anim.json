@@ -1,0 +1,372 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.7
+]
+},
+{
+"p": "riga1",
+"in": [
+"slam",
+"promessa",
+0.35
+]
+},
+{
+"p": "riga2",
+"in": [
+"slam",
+"persone",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"colleghi",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"foto": {
+"src": "img/squadra_alba.png",
+"s0": 1.04,
+"s1": 1.14,
+"durata": 7,
+"velo": [
+[
+0,
+"rgba(0,0,0,.55)"
+],
+[
+0.45,
+"rgba(0,0,0,.35)"
+],
+[
+1,
+"rgba(0,0,0,.75)"
+]
+]
+},
+"testi": {
+"domanda": {
+"righe": [
+[
+"PERCHÉ",
+"#ffffff"
+],
+[
+"CI SARAI?",
+"#f7c04a"
+]
+],
+"size": 132,
+"y": 760,
+"h": 340
+}
+},
+"strati": [
+{
+"p": "domanda",
+"in": [
+"slam",
+"perche",
+0.35
+]
+},
+{
+"p": "cisaro",
+"in": [
+"pop",
+"ecco",
+0.45
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "l0",
+"in": [
+"slam",
+0.05,
+0.35
+]
+},
+{
+"p": "l1",
+"in": [
+"wipe",
+"turni-0.2",
+0.5
+]
+},
+{
+"p": "l2",
+"in": [
+"wipe",
+"riposi-0.35",
+0.55
+]
+},
+{
+"p": "l3",
+"in": [
+"wipe",
+"appena-0.3",
+0.75
+]
+},
+{
+"p": "l4",
+"in": [
+"wipe",
+"vita-0.3",
+0.9
+]
+},
+{
+"p": "l5",
+"in": [
+"wipe",
+"contratti-0.2",
+0.7
+]
+},
+{
+"p": "l6",
+"in": [
+"wipe",
+"problemi-0.2",
+0.6
+]
+},
+{
+"p": "l7",
+"in": [
+"slam",
+"oggi",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"oggi+0.4",
+1.0,
+0.06
+]
+]
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "noi",
+"in": [
+"zoom",
+"noi",
+0.8
+],
+"fx": [
+[
+"bagliore",
+"insieme",
+1.4
+]
+]
+},
+{
+"p": "cap1",
+"in": [
+"wipe",
+"nessuno",
+1.0
+]
+},
+{
+"p": "cap2",
+"in": [
+"wipe",
+"insieme",
+0.6
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.06,
+540,
+800
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+0.2,
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+0.5,
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"chi",
+0.6
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"colore": "#06100b",
+"strati": [
+{
+"disegno": {
+"tipo": "alone",
+"cx": 540,
+"cy": 900,
+"r": 900,
+"col": "rgba(0,140,70,A)",
+"a": 0.55,
+"pulsa": true
+}
+},
+{
+"p": "riga1",
+"in": [
+"slam",
+0.15,
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+-520
+]
+]
+},
+{
+"p": "riga2",
+"in": [
+"slam",
+0.45,
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+-520
+]
+]
+}
+]
+}
+}

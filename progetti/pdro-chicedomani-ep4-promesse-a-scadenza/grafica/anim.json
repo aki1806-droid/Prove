@@ -1,0 +1,381 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.7
+]
+},
+{
+"p": "riga1",
+"in": [
+"slam",
+"supermercato",
+0.35
+]
+},
+{
+"p": "riga2",
+"in": [
+"slam",
+"promesse",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"scaffali",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"urti": [
+"scadenza+0.3"
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+0.9,
+1.32,
+540,
+880
+],
+[
+"parole",
+1.32,
+540,
+880
+],
+[
+"consumarsi",
+1.3,
+540,
+1000
+],
+[
+"entro$",
+1.3,
+540,
+1000
+],
+[
+"scadenza-0.2",
+1.08,
+600,
+1040
+]
+],
+"strati": [
+{
+"p": "promessa",
+"in": [
+"pop",
+0.2,
+0.4
+]
+},
+{
+"p": "ingr",
+"in": [
+"wipe",
+"ingredienti",
+0.45
+]
+},
+{
+"p": "parole",
+"in": [
+"wipe",
+"parole",
+0.9
+]
+},
+{
+"p": "foto",
+"in": [
+"wipe",
+"qualche",
+0.8
+]
+},
+{
+"p": "consumarsi",
+"in": [
+"wipeD",
+"consumarsi-0.1",
+1.2
+]
+},
+{
+"p": "qqq",
+"in": [
+"pop",
+"entro",
+0.35
+],
+"fx": [
+[
+"lampeggia",
+"entro+0.4",
+"scadenza",
+0.5
+]
+]
+},
+{
+"p": "timbro",
+"in": [
+"drop",
+"scadenza",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"wipe",
+0.1,
+0.5
+]
+},
+{
+"p": "tit2",
+"in": [
+"wipe",
+"diverso",
+0.4
+]
+},
+{
+"p": "valori",
+"in": [
+"wipe",
+"ingredienti",
+0.5
+]
+},
+{
+"p": "r1",
+"in": [
+"wipe",
+"ascolto",
+0.5
+]
+},
+{
+"p": "r2",
+"in": [
+"wipe",
+"presenza",
+0.5
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"competenza",
+0.5
+]
+},
+{
+"p": "r4",
+"in": [
+"wipe",
+"squadra",
+0.5
+]
+},
+{
+"p": "r5",
+"in": [
+"wipe",
+"rinnova+0.2",
+0.5
+]
+},
+{
+"p": "scad",
+"in": [
+"wipe",
+"sulla",
+0.5
+]
+},
+{
+"p": "nessuna",
+"in": [
+"slam",
+"nessuna",
+0.3
+],
+"fx": [
+[
+"pulsa",
+"nessuna+0.4",
+1.0,
+0.07
+]
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "scontrino",
+"in": [
+"stampa",
+0,
+1.8
+],
+"figli": [
+{
+"p": "scelta",
+"in": [
+"fade",
+"impegno",
+0.1
+],
+"fx": [
+[
+"lampeggia",
+"impegno",
+"impegno+1.6",
+0.4
+],
+[
+"pulsa",
+"impegno+1.6",
+1.2,
+0.06
+]
+]
+}
+]
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.06,
+540,
+800
+]
+],
+"strati": [
+{
+"p": "timbro",
+"in": [
+"drop",
+"scadenza",
+0.3
+]
+},
+{
+"p": "r1",
+"in": [
+"slam",
+"leggi",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"letichetta",
+0.35
+]
+}
+],
+"urti": [
+"scadenza+0.3"
+]
+}
+}

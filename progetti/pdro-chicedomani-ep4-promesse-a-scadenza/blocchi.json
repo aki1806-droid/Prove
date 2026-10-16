@@ -1,0 +1,114 @@
+{
+  "progetto": "PDRO_ChiCeDomani_Ep4_Promesse_a_scadenza",
+  "serie": "CHI C'È DOMANI",
+  "episodio": 4,
+  "titolo": "Promesse con la data di scadenza",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il supermercato delle promesse",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "scaffale.png",
+      "avatar": false,
+      "voce": "Benvenuti al supermercato delle promesse. Scaffali pieni, etichette colorate, offerte imperdibili. Ma prima di mettere qualcosa nel carrello, conviene fare una cosa: girare la confezione.",
+      "parole": 25,
+      "durata_stimata_s": 12.9,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/scaffale.png: il neon sfarfalla, l'infermiera solleva il barattolo e lo gira con aria scettica, un barattolo in alto traballa. Musica da supermercato.",
+      "regia": "Jingle da altoparlante del supermercato all'inizio; titolo in dissolvenza."
+    },
+    {
+      "n": 2,
+      "titolo": "L'etichetta",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Ingredienti: parole, slogan, qualche bella foto. E poi la scritta più importante: da consumarsi preferibilmente entro. Già, perché anche le promesse hanno una data di scadenza.",
+      "parole": 26,
+      "durata_stimata_s": 12.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Zoom sull'etichetta riga per riga; il timbro SCADUTA? cade sulla parola 'scadenza'."
+    },
+    {
+      "n": 3,
+      "titolo": "Un prodotto diverso",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Poi c'è un prodotto diverso. Ingredienti: ascolto, presenza nei reparti, competenza. E una squadra che si rinnova. Sulla confezione, nessuna data di scadenza.",
+      "parole": 23,
+      "durata_stimata_s": 10.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La tabella dei valori si compila riga per riga; 'NESSUNA' entra per ultimo con un 'ding' di cassa."
+    },
+    {
+      "n": 4,
+      "titolo": "Lo scontrino",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Perché la tutela non è un prodotto da scaffale. È un impegno che deve durare quanto il tuo lavoro.",
+      "parole": 19,
+      "durata_stimata_s": 6.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Lo scontrino esce dalla stampante dal basso con il suono della cassa; TOTALE: UNA SCELTA lampeggia."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Prima di scegliere chi ti rappresenta, leggi l'etichetta. Chiediti chi ci sarà quando il contratto andrà rinnovato, quando arriverà la prossima riorganizzazione, quando avrai bisogno. Noi non abbiamo date di scadenza: abbiamo una squadra. CISL FP Padova Rovigo.",
+      "parole": 38,
+      "durata_stimata_s": 16.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il timbro SENZA SCADENZA cade a metà frase; avatar in basso a destra."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+<!doctype html>
+<!-- Motore grafico della serie «Chi c'è domani».
+     Rimette a tempo, sulle parole della voce, i pezzi ritagliati dalle grafiche del pacchetto
+     (pezzi.py) secondo la regia di serie.py (ANIM). Lo pilota rendi.mjs:
+       await prepara(dati)   dati = {base, pezzi, parole, anim}  (base = cartella del progetto, file://)
+       disegna(scena, t)     disegna un fotogramma nel canvas 1080x1920 (trasparente per gli overlay) -->
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:M;font-weight:800;src:url(font/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(font/montserrat-latin-900-normal.woff2)}
+html,body{margin:0;background:transparent}
+canvas{display:block}
+</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script>
+const W = 1080, H = 1920, cv = document.getElementById('c'), ctx = cv.getContext('2d');
+let D = null; const IMG = {}; const TESTI = {};
+
+// ---------- utilità ----------
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const eOut = p => 1 - Math.pow(1 - p, 3), eIn = p => p * p * p;
+const eIO = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+const eBack = p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); };
+const lerp = (a, b, p) => a + (b - a) * p;
+function rnd(n) { const x = Math.sin(n * 12.9898 + 78.233) * 43758.5453; return x - Math.floor(x); }
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+
+// «parola», «parola#2», «parola+0.3», «parola$» (fine parola) -> secondi dall'inizio della scena
+function T(v, sid) {
+  if (typeof v === 'number') return v;
+  const m = /^([^#+\-$]+)(?:#(\d+))?(\$)?([+-][\d.]+)?$/.exec(v);
+  if (!m) throw new Error('ancora non valida ' + v);
+  const w = norm(m[1]), n = +(m[2] || 1);
+  const lista = D.parole[sid] || []; let k = 0;
+  for (const p of lista) if (norm(p.w) === w && ++k === n) return (m[3] ? p.b : p.a) + (+(m[4] || 0));
+  throw new Error(`parola «${v}» non trovata in ${sid}`);
+}
+
+function carica(src) {
+  return new Promise((ok, ko) => { const i = new Image(); i.onload = () => ok(i); i.onerror = () => ko(new Error('immagine ' + src)); i.src = src; });
+}
+
+// testi aggiunti (pochi: solo dove il pacchetto non ha la grafica), resi una volta come pezzi
+function rendiTesto(id, s) {
+  const c = document.createElement('canvas'); c.width = W; c.height = s.h || 400; const g = c.getContext('2d');
+  g.textAlign = 'center'; g.textBaseline = 'middle';
+  let y = s.size * 0.75;
+  for (const [txt, col] of s.righe) {
+    g.font = `${s.peso || 900} ${s.size}px M`;
+    g.shadowColor = 'rgba(0,0,0,.55)'; g.shadowBlur = 18; g.shadowOffsetY = 6;
+    g.fillStyle = col; g.fillText(txt, W / 2, y); y += s.size * (s.interlinea || 1.08);
+  }
+  TESTI[id] = c; D.pezzi[D._sid][id] = [0, s.y, W, c.height];
+}
+
+window.prepara = async function (dati) {
+  D = dati; await document.fonts.load('900 40px M'); await document.fonts.load('800 40px M');
+  for (const [sid, sc] of Object.entries(D.anim)) {
+    D._sid = sid; D.pezzi[sid] = D.pezzi[sid] || {};
+    for (const [id, s] of Object.entries(sc.testi || {})) rendiTesto(id, s);
+    for (const id of Object.keys(D.pezzi[sid])) if (!TESTI[id]) IMG[sid + '/' + id] = await carica(`${D.base}/grafica/pezzi/${sid}/${id}.png`);
+    if (sc.foto) IMG[sid + '/_foto'] = await carica(`${D.base}/${sc.foto.src}`);
+  }
+  return true;
+};
+
+// ---------- uno strato ----------
+// stato di partenza: posizione del pezzo; gli effetti lo modificano
+function stato(s, sid, t) {
+  const st = { a: 1, dx: 0, dy: 0, sx: 1, sy: 1, r: 0, clip: null, filt: '', vis: true, ox: .5, oy: .5, glitch: 0 };
+  if (s.in) {
+    const [fx, t0v, d = .45] = s.in; const t0 = T(t0v, sid), p = cl((t - t0) / d);
+    if (t < t0) { st.vis = false; return st; }
+    switch (fx) {
+      case 'fade': st.a = p; break;
+      case 'pop': { const k = lerp(.4, 1, eBack(p)); st.sx = st.sy = k; st.a = cl(p * 3); break; }
+      case 'slam': { const k = lerp(1.7, 1, eOut(p)); st.sx = st.sy = k; st.a = cl(p * 2.5); break; }
+      case 'wipe': st.clip = ['x', eIO(p)]; break;
+      case 'wipeD': st.clip = ['y', eIO(p)]; break;
+      case 'slideL': st.dx = -1300 * (1 - eOut(p)); break;
+      case 'slideR': st.dx = 1300 * (1 - eOut(p)); break;
+      case 'slideU': st.dy = 2000 * (1 - eOut(p)); break;
+      case 'slideD': st.dy = -2000 * (1 - eOut(p)); break;
+      case 'bandaSu': st.dy = -140 * (1 - eOut(p)); break;
+      case 'bandaGiu': st.dy = 140 * (1 - eOut(p)); break;
+      case 'drop': { const k = lerp(2.8, 1, eIn(p)); st.sx = st.sy = k; st.r = lerp(-14, 0, eIn(p)); st.a = cl(p * 4); break; }
+      case 'tape': st.r = lerp(-7, 0, eBack(p)); st.sx = st.sy = lerp(1.15, 1, eOut(p)); st.dy = lerp(-50, 0, eOut(p)); st.a = cl(p * 4); break;
+      case 'apri': st.sy = eOut(p); st.oy = 0; st.a = cl(p * 4); break;
+      case 'vola': st.dx = -1400 * (1 - eOut(p)); st.r = -30 * (1 - eOut(p)); break;
+      case 'rotola': st.dx = 700 * (1 - eBack(p)); st.r = 20 * (1 - eOut(p)); break;
+      case 'stampa': { const q = p * 7, e = (Math.floor(q) + eOut(q % 1)) / 7; st.dy = 1500 * (1 - cl(e)); break; }
+      case 'neon': { const k = (t - t0); st.a = k > d ? 1 : ([.05, .12, .2, .3, .38].filter(x => k > x).length % 2 ? .15 : 1) * cl(k / .05);
+        st.filt = 'drop-shadow(0 0 18px rgba(170,255,210,.9))'; break; }
+      case 'zoom': { const k = lerp(.2, 1, eOut(p)); st.sx = st.sy = k; st.a = p; break; }
+      default: throw new Error('ingresso ' + fx);
+    }
+  }
+  if (s.out) {
+    const [fx, t1v, d = .45] = s.out; const t1 = T(t1v, sid), p = cl((t - t1) / d);
+    if (t >= t1) switch (fx) {
+      case 'fade': st.a *= 1 - p; break;
+      case 'strappa': st.r += -32 * eIn(p); st.dx += -1500 * eIn(p); st.dy += -380 * eIn(p) + 120 * Math.sin(p * 3); break;
+      case 'su': st.dy -= 2100 * eIn(p); break;
+      default: throw new Error('uscita ' + fx);
+    }
+    if (p >= 1 && fx !== 'fade') st.vis = false;
+  }
+  for (const f of s.fx || []) {
+    const [k, ...a] = f;
+    if (k === 'pulsa') { const t0 = T(a[0], sid), t1 = a[3] != null ? T(a[3], sid) : 1e9;
+      if (t > t0 && t < t1) { const v = 1 + a[2] * (.5 - .5 * Math.cos(2 * Math.PI * (t - t0) / a[1])); st.sx *= v; st.sy *= v; } }
+    else if (k === 'sale') { const t0 = T(a[0], sid); if (t > t0) st.dy -= a[1] * (t - t0); }
+    else if (k === 'corsa') { const t0 = T(a[0], sid), t1 = T(a[1], sid); st.dy += lerp(a[2], a[3], eIO(cl((t - t0) / (t1 - t0)))); }
+    else if (k === 'trema') { const t0 = T(a[0], sid), t1 = T(a[1], sid);
+      if (t > t0 && t < t1) { const f = Math.round(t * 25); st.dx += (rnd(f) - .5) * 2 * a[2]; st.dy += (rnd(f + 7) - .5) * 2 * a[2]; st.r += (rnd(f + 3) - .5) * a[2] * .3; } }
+    else if (k === 'ondeggia') st.r += a[1] * Math.sin(2 * Math.PI * t / a[0] + (a[2] || 0));
+    else if (k === 'lampeggia') { const t0 = T(a[0], sid), t1 = T(a[1], sid); if (t > t0 && t < t1 && ((t - t0) / a[2]) % 1 > .5) st.a *= .12; }
+    else if (k === 'glitch') { const t0 = T(a[0], sid), t1 = T(a[1], sid); if (t > t0 && t < t1) st.glitch = 1; }
+    else if (k === 'bagliore') { const t0 = T(a[0], sid), d = a[1] || 1.2; const p = cl((t - t0) / d);
+      if (t > t0) { const b = Math.sin(Math.PI * Math.min(p, 1)) * (p < 1 ? 1 : 0) + (p >= 1 ? 0 : 0); const k2 = 1 + .08 * b; st.sx *= k2; st.sy *= k2;
+        st.filt += ` brightness(${1 + .35 * b}) drop-shadow(0 0 ${40 * b + 1}px rgba(255,210,120,${.8 * b}))`; } }
+    else if (k === 'sposta') { const t0 = T(a[0], sid), d = a[1]; const p = eIO(cl((t - t0) / d)); st.dx += a[2] * p; st.dy += a[3] * p; }
+    else throw new Error('effetto ' + k);
+  }
+  return st;
+}
+
+function disegnaDisegno(dd, sid, t, f) {
+  ctx.save();
+  if (dd.tipo === 'barra') {
+    const t0 = T(dd.t, sid), p = eOut(cl((t - t0) / (dd.d || .35)));
+    if (t >= t0) {
+      ctx.strokeStyle = dd.col || '#c8102e'; ctx.lineWidth = dd.w || 7; ctx.lineCap = 'round';
+      ctx.beginPath(); const n = 24;
+      for (let i = 0; i <= n * p; i++) { const q = i / n; const x = lerp(dd.x0, dd.x1, q), y = lerp(dd.y0, dd.y1, q) + Math.sin(q * 9 + dd.x0) * 2.5;
+        i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+      ctx.stroke();
+    }
+  } else if (dd.tipo === 'anelli') {
+    for (const tv of dd.tempi) { const t0 = T(tv, sid);
+      for (let j = 0; j < 3; j++) { const p = (t - t0 - j * .14) / (dd.dur || .9); if (p < 0 || p > 1) continue;
+        ctx.strokeStyle = `rgba(${dd.rgb || '0,200,110'},${(1 - p) * .9})`; ctx.lineWidth = 10 * (1 - p) + 2;
+        ctx.beginPath(); ctx.arc(dd.cx, dd.cy, lerp(dd.r0, dd.r1, eOut(p)), 0, Math.PI * 2); ctx.stroke(); } }
+  } else if (dd.tipo === 'lancetta') {
+    const a = (t / (dd.per || 1.1)) * Math.PI * 2 - Math.PI / 2;
+    ctx.strokeStyle = dd.col || '#f7c04a'; ctx.lineWidth = dd.w || 12; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.arc(dd.cx, dd.cy, dd.r, a - 1.1, a); ctx.stroke();
+    ctx.fillStyle = dd.col || '#f7c04a'; ctx.beginPath(); ctx.arc(dd.cx + Math.cos(a) * dd.r, dd.cy + Math.sin(a) * dd.r, (dd.w || 12) * .9, 0, Math.PI * 2); ctx.fill();
+  } else if (dd.tipo === 'alone') {
+    const g = ctx.createRadialGradient(dd.cx, dd.cy, 0, dd.cx, dd.cy, dd.r);
+    const k = dd.pulsa ? .75 + .25 * Math.sin(t * 2.2) : 1;
+    g.addColorStop(0, dd.col.replace('A', String(dd.a * k))); g.addColorStop(1, dd.col.replace('A', '0'));
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  } else if (dd.tipo === 'banda') {
+    const g = ctx.createLinearGradient(0, dd.y0, 0, dd.y1), c = dd.col;
+    g.addColorStop(0, c.replace('A', '0')); g.addColorStop(.3, c.replace('A', dd.a)); g.addColorStop(.7, c.replace('A', dd.a)); g.addColorStop(1, c.replace('A', '0'));
+    ctx.fillStyle = g; ctx.fillRect(0, dd.y0, W, dd.y1 - dd.y0);
+  } else throw new Error('disegno ' + dd.tipo);
+  ctx.restore();
+}
+
+function disegnaStrato(s, sid, t, f) {
+  if (s.disegno) { if (!s.da || t >= T(s.da, sid)) disegnaDisegno(s.disegno, sid, t, f); return; }
+  const st = stato(s, sid, t); if (!st.vis || st.a <= 0.001) return;
+  const box = D.pezzi[sid][s.p]; if (!box) throw new Error(`pezzo ${sid}/${s.p} mancante`);
+  const [x, y, w, h] = box; const im = TESTI[s.p] || IMG[sid + '/' + s.p];
+  ctx.save();
+  ctx.globalAlpha *= st.a;
+  const px = x + w * st.ox, py = y + h * st.oy;
+  ctx.translate(px + st.dx, py + st.dy); ctx.rotate(st.r * Math.PI / 180); ctx.scale(st.sx, st.sy); ctx.translate(-px, -py);
+  if (st.filt) ctx.filter = st.filt;
+  if (st.clip) {
+    ctx.beginPath();
+    if (st.clip[0] === 'x') ctx.rect(x - 4, y - 30, (w + 8) * st.clip[1], h + 60); else ctx.rect(x - 30, y - 4, w + 60, (h + 8) * st.clip[1]);
+    ctx.clip();
+  }
+  if (st.glitch) {
+    const fr = Math.round(t * 25), n = 7;
+    for (let i = 0; i < n; i++) { const sy0 = h * i / n, sh = h / n, off = (rnd(fr * 13 + i) - .5) * (rnd(fr) > .5 ? 60 : 14);
+      ctx.drawImage(im, 0, sy0, w, sh, x + off, y + sy0, w, sh); }
+    ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha *= .35;
+    ctx.filter = 'sepia(1) saturate(8) hue-rotate(-50deg)'; ctx.drawImage(im, x + 9, y);
+    ctx.filter = 'sepia(1) saturate(8) hue-rotate(140deg)'; ctx.drawImage(im, x - 9, y);
+  } else ctx.drawImage(im, x, y);
+  ctx.filter = 'none'; ctx.globalCompositeOperation = 'source-over';
+  for (const c of s.figli || []) disegnaStrato(c, sid, t, f);
+  ctx.restore();
+}
+
+function camera(sc, sid, t) {
+  let s = 1, cx = W / 2, cy = H / 2;
+  const k = (sc.camera || []).map(([tv, ss, x, y]) => [T(tv, sid), ss, x, y]);
+  if (k.length) {
+    if (t <= k[0][0]) [, s, cx, cy] = k[0];
+    else if (t >= k[k.length - 1][0]) [, s, cx, cy] = k[k.length - 1];
+    else for (let i = 0; i < k.length - 1; i++) if (t >= k[i][0] && t < k[i + 1][0]) {
+      const p = eIO((t - k[i][0]) / (k[i + 1][0] - k[i][0]));
+      s = lerp(k[i][1], k[i + 1][1], p); cx = lerp(k[i][2], k[i + 1][2], p); cy = lerp(k[i][3], k[i + 1][3], p);
+    }
+  }
+  // la vista non deve mai uscire dalla grafica (niente bordi neri)
+  cx = cl(cx, W / (2 * s), W - W / (2 * s)); cy = cl(cy, H / (2 * s), H - H / (2 * s));
+  let sx = 0, sy = 0;
+  for (const u of sc.urti || []) { const t0 = T(u, sid), p = (t - t0) / .35;
+    if (p > 0 && p < 1) { const fr = Math.round(t * 25), a = 22 * (1 - p); sx += (rnd(fr) - .5) * 2 * a; sy += (rnd(fr + 5) - .5) * 2 * a; s *= 1 + .05 * (1 - p); } }
+  ctx.translate(W / 2 + sx, H / 2 + sy); ctx.scale(s, s); ctx.translate(-cx, -cy);
+}
+
+window.disegna = function (sid, t) {
+  const sc = D.anim[sid], f = Math.round(t * 25);
+  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, W, H); ctx.globalAlpha = 1; ctx.filter = 'none';
+  if (sc.colore) { ctx.fillStyle = sc.colore; ctx.fillRect(0, 0, W, H); }
+  ctx.save(); camera(sc, sid, t);
+  if (sc.foto) {
+    const im = IMG[sid + '/_foto'], p = cl(t / sc.foto.durata), k = lerp(sc.foto.s0, sc.foto.s1, p);
+    const sc0 = Math.max(W / im.width, H / im.height) * k, w = im.width * sc0, h = im.height * sc0;
+    ctx.drawImage(im, (W - w) / 2, (H - h) / 2 + (sc.foto.dy || 0), w, h);
+    const g = ctx.createLinearGradient(0, 0, 0, H); for (const [o, c] of sc.foto.velo) g.addColorStop(o, c);
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  }
+  for (const [nome, tv, d = .3] of sc.fondi || []) {
+    const t0 = T(tv, sid); if (t < t0) continue;
+    ctx.save(); ctx.globalAlpha = cl((t - t0) / d + (t0 <= 0 ? 1 : 0)); ctx.drawImage(IMG[sid + '/' + nome], 0, 0); ctx.restore();
+  }
+  for (const s of sc.strati || []) if (!s.fisso) disegnaStrato(s, sid, t, f);
+  ctx.restore();
+  for (const s of sc.strati || []) if (s.fisso) disegnaStrato(s, sid, t, f);
+};
+</script></body></html>

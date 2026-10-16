@@ -1,0 +1,122 @@
+{
+  "progetto": "PDRO_ChiCeDomani_Ep1_Torno_subito",
+  "serie": "CHI C'È DOMANI",
+  "episodio": 1,
+  "titolo": "Torno subito",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "La porta chiusa",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "porta_chiusa.png",
+      "avatar": false,
+      "voce": "Sette del mattino. Marta ha un problema con il turno e ha bisogno del sindacato. Bussa. Sulla porta c'è un cartello: torno subito. Peccato che sia lì da un bel po'.",
+      "parole": 31,
+      "durata_stimata_s": 11.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/porta_chiusa.png: polvere che danza nella luce, un foglio scivola dalla pila di buste, la lancetta dell'orologio scatta, Marta bussa e aspetta. Camera ferma, poi lento avvicinamento alla porta.",
+      "regia": "Bande nere, titolo in dissolvenza, bussata sonora a tempo con 'Bussa'."
+    },
+    {
+      "n": 2,
+      "titolo": "I cartelli",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Il giorno dopo il cartello è cambiato. Torno presto. Poi: torno appena posso. Poi: ci sentiamo. Intanto il turno di Marta resta esattamente com'era.",
+      "parole": 24,
+      "durata_stimata_s": 10.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S02B.png",
+          "da": "sulla frase «Poi: torno appena posso…»"
+        }
+      ],
+      "clip": null,
+      "regia": "Ogni nuovo cartello viene attaccato sopra il precedente con lo scotch (suono di nastro); il precedente viene barrato in rosso. La ragnatela oscilla."
+    },
+    {
+      "n": 3,
+      "titolo": "Un altro numero",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Allora Marta prova un altro numero. Squilla una volta. Due. E risponde qualcuno. Anzi, rispondono in tanti.",
+      "parole": 17,
+      "durata_stimata_s": 7.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S03B.png",
+          "da": "sulla frase «E risponde qualcuno…»"
+        }
+      ],
+      "clip": null,
+      "regia": "A: onde che pulsano a ogni squillo. B: lo schermo diventa verde, i sei volti della squadra compaiono uno dopo l'altro con un pop."
+    },
+    {
+      "n": 4,
+      "titolo": "Ufficio aperto",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "ufficio_vivo.png",
+      "avatar": false,
+      "voce": "Una squadra che ascolta, controlla il contratto, chiama il coordinatore e trova una soluzione. Non una promessa: una risposta.",
+      "parole": 19,
+      "durata_stimata_s": 8.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/ufficio_vivo.png: telefoni che squillano, colleghi che si passano fogli, la delegata sorride a Marta, luce del mattino che entra. Movimento vivace.",
+      "regia": "L'insegna APERTO si accende con il ronzio del neon; la frase finale entra sulle parole."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Il sindacato si misura su chi risponde, non su chi promette di tornare. Nei prossimi anni arriveranno contratti, progressioni, nuove regole. Serve qualcuno che ci sia, oggi e domani, quando hai bisogno. CISL FP Padova Rovigo: noi la porta la teniamo aperta.",
+      "parole": 42,
+      "durata_stimata_s": 15.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Sfondo dell'ufficio vivo sfocato; titolo che entra a blocchi; riquadro contatti; avatar in basso a destra."
+    }
+  ]
+}

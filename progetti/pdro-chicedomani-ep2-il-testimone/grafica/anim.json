@@ -1,0 +1,421 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.7
+]
+},
+{
+"p": "riga1",
+"in": [
+"slam",
+"testimone-0.35",
+0.35
+]
+},
+{
+"p": "riga2",
+"in": [
+"slam",
+"testimone",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"ma",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "pin1",
+"fx": [
+[
+"corsa",
+0.1,
+"passano",
+680,
+0
+],
+[
+"sale",
+"passano",
+38
+]
+]
+},
+{
+"p": "pin2",
+"fx": [
+[
+"corsa",
+0.2,
+"passano",
+720,
+0
+],
+[
+"sale",
+"passano",
+46
+]
+]
+},
+{
+"p": "pin3",
+"fx": [
+[
+"corsa",
+0.30000000000000004,
+"passano",
+760,
+0
+],
+[
+"sale",
+"passano",
+54
+]
+]
+},
+{
+"p": "pin4",
+"fx": [
+[
+"corsa",
+0.4,
+"passano",
+800,
+0
+],
+[
+"sale",
+"passano",
+62
+]
+]
+},
+{
+"p": "pin5",
+"fx": [
+[
+"corsa",
+0.5,
+"passano",
+840,
+0
+],
+[
+"sale",
+"passano",
+70
+]
+]
+},
+{
+"p": "zona"
+},
+{
+"p": "fermo",
+"fx": [
+[
+"pulsa",
+0,
+0.7,
+0.14
+]
+]
+},
+{
+"p": "crono"
+},
+{
+"p": "corona"
+},
+{
+"disegno": {
+"tipo": "lancetta",
+"cx": 540,
+"cy": 1382,
+"r": 150,
+"per": 1.0
+}
+},
+{
+"p": "cap",
+"in": [
+"wipe",
+"gli",
+0.8
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+900
+],
+[
+11.5,
+1.04,
+540,
+900
+]
+],
+"strati": [
+{
+"p": "carta",
+"in": [
+"apri",
+0,
+0.55
+],
+"figli": [
+{
+"p": "art1",
+"in": [
+"wipe",
+"regolamento",
+0.4
+]
+},
+{
+"p": "l1a",
+"in": [
+"wipe",
+"testimone",
+0.5
+]
+},
+{
+"p": "l1b",
+"in": [
+"wipe",
+"non",
+0.45
+]
+},
+{
+"p": "l2a",
+"in": [
+"wipe",
+"appartiene#2",
+0.4
+]
+},
+{
+"p": "l2b",
+"in": [
+"wipe",
+"squadra",
+0.5
+]
+},
+{
+"p": "art2",
+"in": [
+"wipe",
+"se",
+0.4
+]
+},
+{
+"p": "testo2",
+"in": [
+"wipeD",
+"perde",
+1.4
+]
+},
+{
+"p": "baton",
+"in": [
+"rotola",
+"semplice",
+0.9
+]
+}
+]
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "esperienza",
+"in": [
+"slideL",
+"esperienza",
+0.55
+]
+},
+{
+"p": "futuro",
+"in": [
+"slideR",
+"arriva",
+0.55
+]
+},
+{
+"p": "piu",
+"in": [
+"pop",
+"accelera",
+0.4
+]
+},
+{
+"p": "cap",
+"in": [
+"wipe",
+"nessuno",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.06,
+540,
+800
+]
+],
+"strati": [
+{
+"p": "baton",
+"in": [
+"vola",
+0.15,
+1.0
+]
+},
+{
+"p": "r1",
+"in": [
+"slam",
+"testimone-0.3",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"passa",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"vince-0.2",
+0.6
+]
+}
+]
+}
+}

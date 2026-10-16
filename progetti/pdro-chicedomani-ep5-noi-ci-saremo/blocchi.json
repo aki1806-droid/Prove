@@ -1,0 +1,118 @@
+{
+  "progetto": "PDRO_ChiCeDomani_Ep5_Noi_ci_saremo",
+  "serie": "CHI C'È DOMANI",
+  "episodio": 5,
+  "titolo": "Noi ci saremo",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Una promessa fatta di persone",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "squadra_alba.png",
+      "avatar": false,
+      "voce": "Questa non è una storia. È una promessa fatta di persone. Infermieri, operatori socio sanitari, tecnici, amministrativi. Colleghi che ogni giorno scelgono di esserci anche per gli altri.",
+      "parole": 28,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/squadra_alba.png: il gruppo cammina verso la camera all'alba, sciarpe verdi mosse dal vento, sorrisi, ombre lunghe. Carrello all'indietro lento.",
+      "regia": "Musica che parte piano e cresce; titolo in dissolvenza."
+    },
+    {
+      "n": 2,
+      "titolo": "Perché ci sarai?",
+      "tipo": "CLIP DELEGATI",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "squadra_alba.png",
+      "avatar": false,
+      "voce": "Abbiamo chiesto ai nostri delegati una cosa semplice: perché ci sarai? Ecco le loro risposte.",
+      "parole": 15,
+      "durata_stimata_s": 6.4,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S02A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "overlay_clip/S02B.png",
+          "da": "sulla frase «Ecco le loro risposte…»"
+        }
+      ],
+      "clip": "DA GIRARE: tre delegati veri (età e profili diversi), inquadratura verticale a mezzo busto in reparto o davanti all'ospedale, ognuno dice una frase che inizia con «Ci sarò perché...» (massimo 8 secondi a testa). Sovrapporre il sottopancia con nome e ruolo (overlay_clip/S02A, S02B e lowerthird_3 in extra/).",
+      "regia": "Dopo la voce del narratore partono le tre testimonianze una dopo l'altra, con il sottopancia verde."
+    },
+    {
+      "n": 3,
+      "titolo": "Ci sarò",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Ci sarò per i turni e per i riposi. Per chi è appena arrivato e per chi ha una vita di lavoro alle spalle. Per i contratti di domani e per i problemi di oggi.",
+      "parole": 35,
+      "durata_stimata_s": 10.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Ogni riga si scrive a mano mentre viene pronunciata; 'per te' entra per ultimo, grande."
+    },
+    {
+      "n": 4,
+      "titolo": "Le mani",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "mani.png",
+      "avatar": false,
+      "voce": "Nessuno di noi è indispensabile da solo. Insieme, sì. Ed è per questo che ci saremo: oggi, domani, e anche quando verrà il momento di passare il testimone.",
+      "parole": 28,
+      "durata_stimata_s": 10.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/mani.png: le mani si posano una sull'altra lentamente, la luce calda si intensifica al centro.",
+      "regia": "NOI compare al centro con un alone dorato; crescendo musicale."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Il filo di questa serie è uno: chi c'è domani. La nostra risposta siamo noi. Una squadra che ascolta, studia, tratta e si rinnova, accanto a te in ogni reparto. Se vuoi esserci anche tu, la porta è aperta. CISL FP Padova Rovigo. Noi ci saremo.",
+      "parole": 46,
+      "durata_stimata_s": 15.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Chiusura di serie: titolo, contatti, avatar in basso a destra. Ultimo fotogramma con la scritta CHI C'È DOMANI."
+    }
+  ]
+}
