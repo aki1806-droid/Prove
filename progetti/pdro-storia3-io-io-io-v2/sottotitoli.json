@@ -1,0 +1,140 @@
+[
+ {
+  "scena": "S01",
+  "inizio": 0.0,
+  "fine": 2.433,
+  "testo": "Siete stanchi del lavoro di squadra?"
+ },
+ {
+  "scena": "S01",
+  "inizio": 2.473,
+  "fine": 5.685,
+  "testo": "Delle assemblee, dei colleghi, delle riunioni?"
+ },
+ {
+  "scena": "S01",
+  "inizio": 5.725,
+  "fine": 8.591,
+  "testo": "Finalmente arriva la soluzione definitiva:"
+ },
+ {
+  "scena": "S01",
+  "inizio": 8.631,
+  "fine": 10.974,
+  "testo": "il sindacato in prima persona singolare!"
+ },
+ {
+  "scena": "S02",
+  "inizio": 12.03,
+  "fine": 15.399,
+  "testo": "Io ho fatto. Io ho detto. Io ho ottenuto."
+ },
+ {
+  "scena": "S02",
+  "inizio": 15.439,
+  "fine": 21.147,
+  "testo": "La mia esperienza. Il mio ufficio. Il mio incarico. La mia poltrona."
+ },
+ {
+  "scena": "S02",
+  "inizio": 21.187,
+  "fine": 24.81,
+  "testo": "Tutto in un'unica, comodissima parola: io!"
+ },
+ {
+  "scena": "S03",
+  "inizio": 25.864,
+  "fine": 26.345,
+  "testo": "Avvertenze."
+ },
+ {
+  "scena": "S03",
+  "inizio": 26.385,
+  "fine": 28.646,
+  "testo": "Il prodotto può causare effetti collaterali:"
+ },
+ {
+  "scena": "S03",
+  "inizio": 28.686,
+  "fine": 30.804,
+  "testo": "lavoratori che non vengono ascoltati,"
+ },
+ {
+  "scena": "S03",
+  "inizio": 30.844,
+  "fine": 33.378,
+  "testo": "problemi che restano in sospeso, e un sindacato che,"
+ },
+ {
+  "scena": "S03",
+  "inizio": 33.418,
+  "fine": 35.679,
+  "testo": "a forza di dire io, si dimentica di chi rappresenta."
+ },
+ {
+  "scena": "S04",
+  "inizio": 36.63,
+  "fine": 39.138,
+  "testo": "Eppure basta una lettera. Una sola."
+ },
+ {
+  "scena": "S04",
+  "inizio": 39.178,
+  "fine": 41.806,
+  "testo": "Mettila davanti, e cambia tutto."
+ },
+ {
+  "scena": "S05",
+  "inizio": 42.892,
+  "fine": 44.988,
+  "testo": "Noi ascoltiamo. Noi trattiamo."
+ },
+ {
+  "scena": "S05",
+  "inizio": 45.028,
+  "fine": 49.154,
+  "testo": "Noi ci siamo, in tanti, ogni giorno, in ogni reparto."
+ },
+ {
+  "scena": "S05",
+  "inizio": 49.194,
+  "fine": 53.527,
+  "testo": "Perché nessuno risolve da solo quello che si risolve insieme."
+ },
+ {
+  "scena": "S06",
+  "inizio": 54.133,
+  "fine": 57.188,
+  "testo": "Il sindacato non è un palco per una persona sola."
+ },
+ {
+  "scena": "S06",
+  "inizio": 57.228,
+  "fine": 60.379,
+  "testo": "È una squadra che ascolta, studia, tratta e cresce."
+ },
+ {
+  "scena": "S06",
+  "inizio": 60.419,
+  "fine": 63.894,
+  "testo": "Che c'era ieri e ci sarà domani, con volti nuovi accanto a"
+ },
+ {
+  "scena": "S06",
+  "inizio": 63.934,
+  "fine": 65.287,
+  "testo": "chi ha esperienza."
+ },
+ {
+  "scena": "S06",
+  "inizio": 65.327,
+  "fine": 68.225,
+  "testo": "In CISL FP non diciamo io. Diciamo noi."
+ },
+ {
+  "scena": "S06",
+  "inizio": 68.265,
+  "fine": 69.492,
+  "testo": "CISL FP Padova Rovigo."
+ }
+]
