@@ -1,0 +1,10 @@
+{
+ "video_id": "d38db5b84a9b771bcec4c42ada156d03",
+ "durata_heygen": "1:33.02",
+ "link": "https://app.heygen.com/videos/d38db5b84a9b771bcec4c42ada156d03",
+ "verifica": "Scaricato e controllato: 1:33.02 (0,18 s meno del montato di prova: HeyGen accorcia di qualche centesimo ogni stacco, video e audio insieme), 1920x1080, audio a −16,5 LUFS. Al centro di ogni scena i fotogrammi coincidono col montato di prova: scarto medio 1,75 su 255, il massimo 5,40 su S3 (una clip che si muove o un cambio di quadro: HeyGen è qualche fotogramma avanti, il contenuto è lo stesso).",
+ "crediti_voce": "circa 6 crediti HeyGen (un credito ogni 16,7 s di grezzo, 90 s: il saldo non si legge mese per mese, sullo stesso account lavorava un'altra sessione)",
+ "crediti_render": "non isolabile, per la stessa ragione (sul corso: 1 credito a render)",
+ "verifica_ccnl": "Giulia lavora in Pronto soccorso (CCNL Sanità, qui non controllato). Sul CCNL Funzioni Locali tutto il video è confermato: 32 giorni su sei giorni, 28 su cinque, 4 festività soppresse (art. 28, c. 2-6); ferie non monetizzabili (c. 9 e 11); sospese da ricovero o da malattia documentata di oltre tre giorni (c. 16); rinviate per servizio, si recuperano entro il primo semestre dell'anno dopo (c. 14-15), e il diniego va scritto (c. 9).",
+ "note": "Rifà il gennaio consegnato il 15 ottobre (`../calendario-2027-01-ferie/`, voce ElevenLabs diretto, senza protagonista) con il nuovo pacchetto nel formato «Diritti in scena», come gli altri mesi. Quello vecchio resta su HeyGen (`2d67c66ba5dc7c9f1b2ce7316a87ea0f`) ma non va più pubblicato."
+}

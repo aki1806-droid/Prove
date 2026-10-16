@@ -30,6 +30,13 @@ amministrativo») non dice dove lavora; il video usa le parole della Sanità.
 
 ## Gennaio · Ferie — confermato
 
+*Aggiornato il 16 ottobre: il nuovo gennaio (Giulia, infermiera di Pronto soccorso,
+CCNL Sanità) è confermato anche lui dall'art. 28: 32/28 giorni e 4 festività
+soppresse (c. 2-6), ferie non monetizzabili (c. 9 e 11), sospese da ricovero o
+malattia documentata di oltre tre giorni (c. 16), recupero entro il primo
+semestre dell'anno dopo (c. 14-15), diniego scritto (c. 9). La tabella sotto
+riguarda il primo gennaio, sostituito.*
+
 | nel video | CCNL FL |
 |---|---|
 | le ferie sono un diritto irrinunciabile e non si trasformano in denaro | art. 28, c. 9 («diritto irrinunciabile e non sono monetizzabili») e c. 11 (solo alla cessazione) |

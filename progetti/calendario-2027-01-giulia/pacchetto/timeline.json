@@ -1,0 +1,67 @@
+{
+  "format": "Diritti in scena · CISL FP Padova Rovigo",
+  "episodio": "Gennaio 2027 · Ferie",
+  "protagonista": "Giulia — Infermiera di Pronto soccorso · Rovigo",
+  "video": "16:9 · 1920x1080 · 25 fps · senza avatar",
+  "voce": "Luca Ward (V4) — da verificare in libreria HeyGen",
+  "sottotitoli": true,
+  "durata_stimata_s": 89,
+  "scene": [
+    {
+      "id": "S0",
+      "file": "video/S0_hook.mp4",
+      "titolo": "Hook: la domanda",
+      "voce": "Quante ferie hai lasciato indietro l'anno scorso?",
+      "durata_s": 5
+    },
+    {
+      "id": "S1",
+      "file": "video/S1_la_storia.mp4",
+      "titolo": "La storia",
+      "voce": "Giulia è infermiera al Pronto soccorso. A marzo scopre di avere ancora nove giorni di ferie dell'anno prima. E le dicono: ormai sono perse.",
+      "durata_s": 10.5
+    },
+    {
+      "id": "S2",
+      "file": "video/S2_il_numero.mp4",
+      "titolo": "Il numero",
+      "voce": "Trentadue giorni l'anno, ventotto se lavori su cinque giorni. In più, quattro giornate per le festività soppresse.",
+      "durata_s": 8.9
+    },
+    {
+      "id": "S3",
+      "file": "video/S3_vero_o_falso.mp4",
+      "titolo": "Vero o falso",
+      "voce": "Due falsi miti. Primo: Se non le uso, me le pagano. Falso. Nel pubblico impiego, di regola, le ferie non si monetizzano: vanno godute. Secondo: Se mi ammalo in ferie, quei giorni li perdo. Falso. Con ricovero, o malattia di oltre tre giorni documentata, le ferie si sospendono.",
+      "durata_s": 20.4
+    },
+    {
+      "id": "S4",
+      "file": "video/S4_come_funziona.mp4",
+      "titolo": "Come funziona",
+      "voce": "Come funziona? Le ferie maturano durante l'anno e si programmano nel piano ferie. Se l'azienda le rinvia per esigenze di servizio deve motivarlo, e tu devi poterle recuperare entro i termini del contratto.",
+      "durata_s": 14.7
+    },
+    {
+      "id": "S5",
+      "file": "video/S5_come_e_andata.mp4",
+      "titolo": "Com'è andata",
+      "voce": "E Giulia? Giulia si è rivolta ai delegati CISL FP. Le ferie rinviate per esigenze di servizio non si cancellano: le ha programmate e le ha godute.",
+      "durata_s": 10.9
+    },
+    {
+      "id": "S6",
+      "file": "video/S6_cosa_fare.mp4",
+      "titolo": "Cosa fare",
+      "voce": "Cosa fare? Uno: controlla il saldo ogni trimestre. Due: chiedi le ferie per iscritto. Tre: diniego? pretendi la motivazione.",
+      "durata_s": 9.5
+    },
+    {
+      "id": "S7",
+      "file": "video/S7_firma.mp4",
+      "titolo": "Firma e contatti",
+      "voce": "Il tempo per te non è un regalo. È un diritto. CISL FP Padova Rovigo. Al tuo fianco.",
+      "durata_s": 9
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 # REGISTRO — Calendario dei diritti 2027 · Gennaio · Ferie
 
+> **Sostituito il 16 ottobre 2026** dal nuovo gennaio nel formato «Diritti in scena»,
+> con Giulia, in `../calendario-2027-01-giulia/`. Questo video non va più pubblicato.
+
 Video del mese per il calendario CISL FP Padova Rovigo, *«Il tempo per te non
 è un regalo.»* 16:9, 1920×1080, 25 fps, senza avatar. Il pacchetto di
 partenza (`pacchetto/`) porta le otto scene gia' fatte e mute, i sei testi

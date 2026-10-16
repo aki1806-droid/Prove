@@ -10,7 +10,7 @@ il registro).
 
 | mese | protagonista | durata | HeyGen |
 |---|---|---|---|
-| Gennaio 2027 · Ferie | — | 1:13.87 | [2d67c66b…](https://app.heygen.com/videos/2d67c66ba5dc7c9f1b2ce7316a87ea0f) |
+| Gennaio 2027 · Ferie | Giulia | 1:33.02 | [d38db5b8…](https://app.heygen.com/videos/d38db5b84a9b771bcec4c42ada156d03) |
 | Febbraio 2027 · Permessi e festività soppresse | Marco | 1:32.26 | [090b7680…](https://app.heygen.com/videos/090b76809648a8dc9863313ecf6bd8e7) |
 | Marzo 2027 · Congedi parentali | Luca | 1:26.23 | [46a04ce0…](https://app.heygen.com/videos/46a04ce0732ff5459f4bf09474616404) |
 | Aprile 2027 · Sicurezza sul lavoro | Davide | 1:35.11 | [11a03bbf…](https://app.heygen.com/videos/11a03bbf5dcd43e78c8da86bc85430e3) |
@@ -23,9 +23,11 @@ il registro).
 | Novembre 2027 · Tutela contro violenza e molestie | Chiara | 1:27.23 | [ba8375fc…](https://app.heygen.com/videos/ba8375fcdb489b5f80081f59355bc038) |
 | Dicembre 2027 · Pensione e TFS | Mirella | 1:25.91 | [98da035e…](https://app.heygen.com/videos/98da035edb64267ad44945ee763dae7e) |
 
-Gennaio: voce ElevenLabs diretto, scene del pacchetto. Da febbraio: voce via
-HeyGen come passante (scelta di Achille), tre clip Higgsfield del protagonista
-al mese con S0, S1, S5 rifatte sopra.
+Tutti i mesi: voce via HeyGen come passante (scelta di Achille), tre clip
+Higgsfield del protagonista con S0, S1, S5 rifatte sopra. Gennaio è stato rifatto
+il 16 ottobre col nuovo pacchetto (Giulia, `../calendario-2027-01-giulia/`): il
+primo gennaio (voce ElevenLabs diretto, senza protagonista, `2d67c66b…`) è
+sostituito e non va pubblicato.
 
 ## Verifica sul CCNL Funzioni Locali
 
