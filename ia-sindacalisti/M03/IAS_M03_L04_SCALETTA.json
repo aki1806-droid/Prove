@@ -1,0 +1,430 @@
+{
+ "lezione": "IAS_M03_L04",
+ "titolo": "Le impostazioni di privacy dei tre strumenti",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Nessuno sa rispondere"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Riducono, non azzerano"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Le quattro leve: Addestramento spento / Chat temporanea / Memoria e cronologia pulite / Niente pollice sulle chat di lavoro"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 16.77,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Non cancella il passato"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "30 giorni conservazione della chat temporanea in ChatGPT"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La memoria, a parte: Si trova in Personalizzazione / Ricorda tra una chat e l'altra / Può contenere dati di altri / Si controlla e si cancella"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Pulizia della memoria"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Cosa ricordi di me?"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Claude: quanto restano i dati"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Chat normale o incognito"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "72 ore conservazione minima in Gemini con attività spenta"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Eliminazione automatica in Gemini"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Revisori umani"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R07"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Decide l'amministratore"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Interruttori e chat protette"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dove e quanto"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Spegnere l'addestramento e poi incollare tutto → L'interruttore non ferma l'uscita dei dati: zero dati sempre"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C29"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cliccare il pollice su una chat di lavoro → Niente feedback sulle conversazioni di sede"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 25 GDPR"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Verifica le impostazioni aggiornate"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R08"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Come spengo l'addestramento oggi?"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Scheda per i colleghi"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La sessione impostazioni"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "6 mesi il ritmo per ricontrollare le impostazioni"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I38"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Gli interruttori riducono il rischio, non lo azzerano."
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT: spegni Migliora il modello per tutti / Claude: spegni Help improve our AI models / Gemini: spegni Mantieni attività / Prova la chat temporanea in ciascuno / Annota data, strumento e scelte"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R09"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La tabella delle impostazioni"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A43",
+   "durata_video": 19.8,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C44"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P45",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 3.5 Il protocollo privacy della segreteria"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P45",
+   "fondo": "scuro"
+  }
+ ]
+}

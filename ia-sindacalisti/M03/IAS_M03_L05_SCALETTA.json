@@ -1,0 +1,442 @@
+{
+ "lezione": "IAS_M03_L05",
+ "titolo": "Il protocollo privacy della segreteria",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre operatori, tre regole"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Manca una regola comune"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Intenzioni o regola"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "artt. 29 e 5, par. 2, GDPR"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Un'istruzione scritta"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 2-quaterdecies D.Lgs. 196/2003"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il protocollo e le altre regole: Completa, non sostituisce / Richiama le policy esistenti / Traduce in gesti quotidiani / Segnala ciò che manca"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "5 regole da ricordare a memoria"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le cinque regole e le lezioni"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A13",
+   "durata_video": 16.23,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Regola 1: zero dati: Salute e iscrizione sindacale / Nomi, codici, matricole, IBAN / Procedimenti disciplinari / Anche allegati e screenshot"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prima si anonimizza"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C16"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Regola 4: impostazioni prudenti: Addestramento disattivato / Chat temporanea per i compiti delicati / Niente pollice sulle chat di lavoro / Cronologia ripulita ogni mese / Controllo ogni sei mesi"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Errore, segnalazione subito"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Intestazione e chiusura"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Un protocollo di quattro pagine che nessuno legge → Titoli brevi, due righe per regola, norme in nota"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "1 pagina il limite del protocollo"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Adatta il protocollo alla sede"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Protocollo adattato alla sede"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "L'IA indica, il responsabile decide"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Versione da appendere"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Locandina per la bacheca"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Quiz per la squadra"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Quiz sul protocollo"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dove mettere il protocollo"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A33",
+   "durata_video": 18.73,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C34"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il protocollo serve due volte"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Protocollo scritto da un operatore e mai approvato → Fallo approvare dal responsabile, sentito il referente privacy"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Regola cinque senza la frase sulla colpa → Scrivi chiaramente: nessuna colpa per chi segnala"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I38"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Cinque regole, una pagina"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Una regola condivisa vale più di dieci buone intenzioni."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Completa il modello con i dati della struttura / Adattalo con il prompt alla tua sede / Fallo approvare dal responsabile e dal referente / Presentalo alla squadra con il quiz / Salvalo nel kit e fissa la revisione"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "1° pezzo del tuo kit personale"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C44"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P45",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 4.1 Le cinque parti del prompt che funziona"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P45",
+   "fondo": "scuro"
+  }
+ ]
+}

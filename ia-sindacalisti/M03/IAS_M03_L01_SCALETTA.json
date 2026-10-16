@@ -1,0 +1,438 @@
+{
+ "lezione": "IAS_M03_L01",
+ "titolo": "I dati che non si incollano mai",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La cartella del lunedì"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Un servizio esterno"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Dove finisce ciò che incolli: Sui server del fornitore / Conservato per un periodo / Usato per l'addestramento / Talvolta letto da revisori"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Lo dice il fornitore"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A08",
+   "durata_video": 18.27,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 9 Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "La fiducia è il capitale"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "La mappa dei dati"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Togliere il nome non basta"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 4, n. 1, GDPR"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 dettagli bastano a riconoscere qualcuno"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I15"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cancellare solo il nome, o allegare l'originale → Togli ogni dettaglio identificativo e non caricare documenti"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A17",
+   "durata_video": 16.6,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Domanda generale al posto del caso"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Comporto: cosa controllare"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Stesso aiuto, nessun dato"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "0 dati usciti dalla sede"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Modello con segnaposto"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Modello di lettera per le ferie"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "I dati entrano dopo"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C28"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Come rileggere una chat: Rosso: dati da non incollare / Giallo: dati da sostituire / Verde: contenuti generali / Accanto: come sostituirli"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Controllo prima di incollare"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Chiedere all'IA di anonimizzare l'originale → Ripulisci a mano, poi usa l'IA come seconda verifica"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Cosa fa ancora riconoscere?"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Tre strade senza dati"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A35",
+   "durata_video": 18.57,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Caricare una delibera senza guardare gli allegati → Controlla le ultime pagine: elenchi e graduatorie restano fuori"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C37"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "E se finisse sul giornale?"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "All'IA dai il problema, mai la persona."
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Ritrova l'ultima chat di lavoro / Segna dati rossi, gialli e verdi / Scrivi come sostituire ogni dato / Cancella le chat con dati rossi / Riscrivi il prompt a zero dati"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il foglio degli errori"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "2 risposte da confrontare: con dati e senza"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C44"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P45",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 3.2 Anonimizzare un caso in due minuti"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P45",
+   "fondo": "scuro"
+  }
+ ]
+}

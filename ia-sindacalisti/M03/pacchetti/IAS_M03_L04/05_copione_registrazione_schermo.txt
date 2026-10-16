@@ -1,0 +1,51 @@
+Copione registrazioni schermo · Lezione 3.4
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 08 · ChatGPT · durata circa 17 s
+Azione: Si apre il menu del profilo, poi Impostazioni e la sezione Controlli dei dati.
+Zoom / evidenziare: La voce Controlli dei dati
+Parlato che accompagna: Cominciamo da ChatGPT, dal computer. Clicca sul menu del tuo profilo, in basso a sinistra, poi su Impostazioni. Nella finestra che si apre cerca la voce Controlli dei dati. Dall'app sul telefono il percorso è simile: barra laterale, profilo, Impostazioni, Controlli dei dati.
+
+SCENA 09 · ChatGPT · durata circa 19 s
+Azione: Si disattiva l'interruttore Migliora il modello per tutti.
+Zoom / evidenziare: L'interruttore che passa da acceso a spento
+Parlato che accompagna: Qui trovi l'interruttore Migliora il modello per tutti. In inglese si chiama Improve the model for everyone. Spegnilo. Da questo momento le nuove conversazioni non vengono usate per addestrare i modelli. Ci vogliono dieci secondi, e lo fai una volta sola, su ogni dispositivo dove hai fatto l'accesso.
+
+SCENA 11 · ChatGPT · durata circa 17 s
+Azione: Si avvia una chat temporanea dalla schermata di nuova chat.
+Zoom / evidenziare: L'indicatore della chat temporanea attiva
+Parlato che accompagna: Seconda leva, la chat temporanea. In alto nella schermata di una nuova chat trovi l'opzione per avviarla. Una chat temporanea non compare nella cronologia, non crea e non aggiorna la memoria, e non viene usata per migliorare i modelli. È la scelta giusta per i compiti più delicati.
+
+SCENA 16 · Claude · durata circa 16 s
+Azione: Si apre Impostazioni, sezione Privacy, e si disattiva l'interruttore del miglioramento del modello.
+Da digitare:
+claude.ai/settings/data-privacy-controls
+Zoom / evidenziare: L'interruttore Help improve our AI models
+Parlato che accompagna: Passiamo a Claude. Clicca sul tuo nome utente, poi Impostazioni, poi Privacy. Puoi arrivarci anche scrivendo direttamente l'indirizzo che vedi a schermo. Qui trovi l'interruttore Help improve our AI models. Nell'interfaccia italiana può comparire tradotto. Spegnilo.
+
+SCENA 18 · Claude · durata circa 16 s
+Azione: Si clicca l'icona del fantasma su una nuova chat e compare il bordo scuro.
+Zoom / evidenziare: L'icona del fantasma e il bordo scuro
+Parlato che accompagna: In Claude la chat temporanea si chiama incognito. Apri una nuova chat, fuori da un progetto, e clicca l'icona del fantasma in alto a destra. Compare un bordo scuro con l'etichetta della chat in incognito. Da quel momento sai che stai lavorando in modalità protetta.
+
+SCENA 20 · Gemini · durata circa 17 s
+Azione: Si apre Impostazioni e guida, poi Attività, e si sceglie Disattiva.
+Zoom / evidenziare: Il menu con Disattiva e Disattiva ed elimina attività
+Parlato che accompagna: Ora Gemini. In Gemini tutto ruota intorno all'Attività nelle app Gemini e all'interruttore Mantieni attività. Dal computer apri Impostazioni e guida, poi Attività. Clicca su On e scegli Disattiva, oppure Disattiva ed elimina attività, se vuoi anche cancellare quella passata.
+
+SCENA 24 · Gemini · durata circa 16 s
+Azione: Si clicca il pulsante Chat temporanea accanto a Nuova chat.
+Zoom / evidenziare: Il pulsante Chat temporanea
+Parlato che accompagna: Anche Gemini ha la sua chat temporanea. Accanto a Nuova chat trovi il pulsante Chat temporanea. Le conversazioni avviate così non compaiono nell'attività né tra le chat recenti. Attenzione: questa funzione è disponibile solo con gli account Google personali.
+
+SCENA 33 · ChatGPT · durata circa 16 s
+Azione: Si invia il prompt con la ricerca web attiva e si apre il link alla pagina ufficiale.
+Zoom / evidenziare: Il link alla pagina di aiuto ufficiale
+Parlato che accompagna: Qui vedi la verifica in ChatGPT, con la ricerca attiva. La risposta riporta il percorso dei menu e un link. Ed ecco il passaggio che non devi mai saltare: clicca il link e apri la pagina ufficiale. Controlla che dica davvero quello che l'IA ha riassunto.
+
+SCENA 41 · Gemini · durata circa 20 s
+Azione: Si avvia una chat temporanea, la si chiude e si controlla la cronologia.
+Da digitare:
+Domanda di prova: quali sono i giorni di ferie previsti dal CCNL Sanità?
+Zoom / evidenziare: L'elenco delle chat recenti, senza la chat di prova
+Parlato che accompagna: Per la prova della chat temporanea, fai così. Avviala, scrivi una domanda qualunque senza dati, chiudila. Poi apri la cronologia e controlla che non ci sia. Se la trovi, qualcosa non ha funzionato: ripeti il passaggio con calma, e verifica di usare un account Google personale, l'unico su cui la chat temporanea è disponibile.

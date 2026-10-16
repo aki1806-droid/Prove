@@ -1,0 +1,24 @@
+Copione registrazioni schermo · Lezione 3.5
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 22 · Claude · durata circa 15 s
+Azione: Si apre una nuova conversazione in Claude e si prepara il testo del protocollo.
+Zoom / evidenziare: Il campo di scrittura con il protocollo pronto da incollare
+Parlato che accompagna: Ora lo adattiamo alla tua sede, e qui l'IA è un'ottima aiutante. Il protocollo non contiene dati personali, quindi è zona verde. Apri Claude, nuova conversazione, e prepara il modello del corso, già completato con il nome della tua struttura.
+
+SCENA 24 · Claude · durata circa 17 s
+Azione: Si compilano i segnaposto con le caratteristiche della sede e si invia.
+Da digitare:
+4 operatori e 2 delegati; vertenze individuali, comunicati, assemblee; ChatGPT e Gemini; solo account personali.
+Zoom / evidenziare: I segnaposto compilati
+Parlato che accompagna: Compili i segnaposto con la tua realtà. Quattro operatori e due delegati. Attività principali: vertenze individuali, comunicati, assemblee. Strumenti usati: ChatGPT e Gemini. Account disponibili: solo personali, in attesa di risposta dal referente. Poi incolli il protocollo e invii.
+
+SCENA 27 · ChatGPT · durata circa 15 s
+Azione: Si apre una nuova conversazione e si incolla il protocollo con la richiesta di versione breve.
+Zoom / evidenziare: Il vincolo di massimo 70 parole
+Parlato che accompagna: Ora la versione da appendere. Passa a ChatGPT. L'obiettivo è una locandina testuale per la bacheca della segreteria, da leggere in dieci secondi passando davanti alla stampante. Incolli il protocollo approvato e chiedi una versione molto corta.
+
+SCENA 42 · Gemini · durata circa 17 s
+Azione: Il protocollo approvato viene salvato nella cartella del kit personale.
+Zoom / evidenziare: La cartella kit personale con i tre file
+Parlato che accompagna: Ultimo gesto pratico. Salva il protocollo approvato in una cartella che chiamerai kit personale. Accanto metti la tabella delle impostazioni della lezione tre punto quattro e la risposta del referente della lezione tre punto tre. Poi apri l'agenda e segna la revisione tra sei mesi.

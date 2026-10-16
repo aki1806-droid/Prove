@@ -1,0 +1,26 @@
+Copione registrazioni schermo · Lezione 3.3
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 18 · ChatGPT · durata circa 16 s
+Azione: Si aprono le impostazioni dell'account e si legge il nome del piano attivo.
+Zoom / evidenziare: La voce con il nome del piano
+Parlato che accompagna: Fai una verifica veloce. Apri le impostazioni del tuo account in ChatGPT e guarda alla voce del piano. Se leggi Free o Plus, è un account personale. Se leggi Business o Enterprise, è un workspace gestito da un'organizzazione. In Claude e Gemini il controllo è simile.
+
+SCENA 24 · Claude · durata circa 14 s
+Azione: Si apre una nuova conversazione e si descrive un compito di sede senza dati.
+Da digitare:
+Compito: preparare le risposte alle domande più frequenti degli iscritti sulle ferie.
+Zoom / evidenziare: La descrizione del compito, priva di nomi
+Parlato che accompagna: Il principio di minimizzazione si può trasformare in un controllo rapido. Apri Claude. Prima di affrontare un compito di sede con l'IA, lo descrivi in poche righe, senza nessun dato, e chiedi se si può fare a zero dati, e come.
+
+SCENA 31 · Gemini · durata circa 17 s
+Azione: Si incolla il testo dell'informativa privacy nel campo di scrittura.
+Da digitare:
+[TESTO DELL'INFORMATIVA]
+Zoom / evidenziare: Il testo dell'informativa incollato
+Parlato che accompagna: L'informativa è un documento generale, senza dati personali, quindi puoi incollarla tranquillamente. Apri Gemini, oppure lo strumento che preferisci, e incolla il testo nel prompt che vedrai tra poco. Poi tieni il testo originale aperto accanto, per controllare la sintesi.
+
+SCENA 42 · ChatGPT · durata circa 17 s
+Azione: Si incolla l'informativa recuperata dal sito della struttura.
+Zoom / evidenziare: La data di aggiornamento dell'informativa
+Parlato che accompagna: Dove trovi l'informativa? Di solito sul retro del modulo di adesione, sul sito della struttura o in segreteria. Se ne trovi più versioni, usa la più recente. E se proprio non la trovi, è già un risultato: vuol dire che la prima domanda da fare al referente è proprio questa.

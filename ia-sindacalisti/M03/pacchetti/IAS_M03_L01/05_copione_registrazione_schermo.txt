@@ -1,0 +1,29 @@
+Copione registrazioni schermo · Lezione 3.1
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 18 · ChatGPT · durata circa 17 s
+Azione: Si apre una nuova conversazione vuota in ChatGPT.
+Zoom / evidenziare: Il campo di scrittura vuoto
+Parlato che accompagna: Vediamolo a schermo con il caso del lunedì. Apri una nuova conversazione in ChatGPT. Al posto di certificati e lettera, scriverai una domanda generale. Profilo professionale, durata dell'assenza, la questione da capire. Nient'altro. Niente nomi, niente reparto, niente diagnosi.
+
+SCENA 20 · ChatGPT · durata circa 17 s
+Azione: Si compilano i segnaposto con profilo e durata dell'assenza.
+Da digitare:
+Profilo: infermiere. Assente per malattia da 14 mesi. L'azienda annuncia la scadenza del comporto.
+Zoom / evidenziare: I segnaposto compilati, nessun nome
+Parlato che accompagna: Compili i due segnaposto. Profilo infermiere, malattia da quattordici mesi. Aggiungi che l'azienda ha annunciato la scadenza del comporto. Rileggi prima di inviare: c'è qualcosa che permetta di capire chi è? No. È la situazione di centinaia di infermieri. Ora puoi premere Invio.
+
+SCENA 24 · Claude · durata circa 17 s
+Azione: Si apre una nuova conversazione in Claude.
+Zoom / evidenziare: Il campo di scrittura e il pulsante di invio
+Parlato che accompagna: Il secondo modo di lavorare senza dati è il modello vuoto. Passa a Claude e apri una nuova conversazione. Questa volta chiedi una lettera intera, ma con tutti i dati sostituiti da segnaposto tra parentesi quadre. L'IA scrive la forma, tu riempi i campi dopo, fuori dalla chat.
+
+SCENA 29 · Gemini · durata circa 16 s
+Azione: Si apre l'elenco delle chat recenti e si sceglie una conversazione di lavoro.
+Zoom / evidenziare: Le chat recenti nella barra laterale
+Parlato che accompagna: Apri la cronologia dello strumento che usi di più. Qui siamo in Gemini, ma il gesto è lo stesso negli altri due. Cerca l'ultima conversazione legata al lavoro di sede e aprila. Rileggi tutto quello che hai scritto, e soprattutto quello che hai allegato.
+
+SCENA 41 · ChatGPT · durata circa 16 s
+Azione: La conversazione copiata in un documento locale ed evidenziata in tre colori.
+Zoom / evidenziare: Le parti evidenziate in rosso e in giallo
+Parlato che accompagna: Un consiglio pratico per la rilettura. Copia la conversazione in un documento sul tuo computer, non in un'altra chat, e usa l'evidenziatore in tre colori. Vedere a colpo d'occhio quanto rosso e quanto giallo c'è ti cambia l'abitudine più di qualsiasi regola.

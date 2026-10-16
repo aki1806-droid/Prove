@@ -1,0 +1,442 @@
+{
+ "lezione": "IAS_M03_L02",
+ "titolo": "Anonimizzare un caso in due minuti",
+ "livello": 1,
+ "fonte": "pacchetto video del 15 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una contestazione da preparare"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "C'è una terza strada"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I05"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Scorciatoia o metodo"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "2 min per rendere anonimo un caso"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Anonimo non è pseudonimizzato"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 4, n. 5, e considerando 26 GDPR"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Anonimo o pseudonimizzato"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il Lavoratore A"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Lo sguardo del collega"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A13",
+   "durata_video": 16.53,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Cosa togli, cosa metti"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il testo originale, mai in chat"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C16"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "0 numeri identificativi che servono all'IA"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dalle date alle distanze"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Lasciare le date esatte dei fatti → Trasformale in distanze: giorno zero, giorno cinque, giorno venti"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Un reparto di area medica"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre domande sul dettaglio raro: Da solo fa riconoscere? / Cambia la risposta al caso? / Se sì, generalizzalo / Se no, toglilo"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Generalizzare senza perdere il senso"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A23",
+   "durata_video": 17.87,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Dopo le cinque mosse"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "5 mosse e il senso del caso resta intatto"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Seconda lettura: il revisore severo"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Cosa può ancora far riconoscere?"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Analisi del caso anonimizzato"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Come impostare la difesa?"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I32"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Cosa si carica"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: La scheda del caso"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Scheda del caso"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Anonimizzare il file originale della pratica → Lavora sempre su una copia, l'originale resta intatto"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Generalizzare tanto da togliere ciò che conta → Il dettaglio che cambia la risposta si generalizza, non si toglie"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C39"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Togli ciò che fa riconoscere, lascia ciò che fa capire."
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli una pratica e lavora su una copia / Applica le cinque mosse con il cronometro / Rileggi con lo sguardo del collega / Fai la seconda lettura con l'IA / Usa il caso pulito con il prompt di analisi"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 pratiche diverse per prendere il ritmo"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C44"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P45",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 3.3 GDPR e IA: cosa vale per un sindacato"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P45",
+   "fondo": "scuro"
+  }
+ ]
+}

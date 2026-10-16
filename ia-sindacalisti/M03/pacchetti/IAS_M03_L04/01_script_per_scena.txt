@@ -1,0 +1,137 @@
+3.4 Le impostazioni di privacy dei tre strumenti
+Voce: «Achille nuovo 1 v4» · 45 scene · 12373 caratteri · durata stimata 12:41 (a 1,12x)
+
+=== SCENA 01 · Copertina · 01_copertina.png ===
+Benvenuto alla lezione tre punto quattro. Oggi si mettono le mani nei menu. Vedrai, in ChatGPT, Claude e Gemini, dove si spegne l'addestramento, come si apre una chat temporanea, cosa fare con cronologia e memoria. E quanto tempo restano comunque i dati sui server. Alla fine avrai i tre strumenti impostati in modo prudente.
+
+=== SCENA 02 · B-roll · 02_b-roll.png ===
+Una mattina in sede. Un delegato RSU, cioè della rappresentanza sindacale unitaria, ha appena aperto i tre account del corso. Ti fa una domanda secca: le mie conversazioni vengono lette? Vengono usate per addestrare l'IA? Si guardano tutti, e nessuno sa rispondere con precisione.
+
+=== SCENA 03 · Caso · 03_caso.png ===
+Non è colpa di nessuno. Ogni strumento ha regole diverse, menu diversi, nomi diversi per la stessa cosa. E li cambia spesso. Così si finisce per lasciare le impostazioni come sono, quelle scelte dal fornitore, che di solito non sono le più prudenti.
+
+=== SCENA 04 · Parola chiave · 04_parola-chiave.png ===
+Una premessa, prima di aprire i menu. Gli interruttori della privacy riducono il rischio, ma non lo azzerano. Anche con tutto disattivato, i fornitori conservano le conversazioni per un periodo minimo, per motivi di sicurezza. Quindi la regola dello zero dati resta valida sempre.
+
+=== SCENA 05 · B-roll · 05_b-roll.png ===
+Senza una lezione come questa, di solito si fa così. Si cerca su internet, si trova una guida vecchia di un anno, il menu non corrisponde più, si rinuncia. Oppure si chiede a un collega esperto, che ha impostato il suo account a memoria e non sa più dove ha cliccato.
+
+=== SCENA 06 · Elenco · 06_elenco.png ===
+In tutti e tre gli strumenti lavoriamo su quattro leve. L'interruttore dell'addestramento. La chat temporanea, che non resta in cronologia. La memoria e la cronologia, da ripulire. E il feedback con il pollice, che conviene evitare sulle chat di lavoro. Vediamole una per una, partendo da ChatGPT.
+
+=== SCENA 07 · Animazione · 07_animazione.mp4 ===
+Pensale come una scala di prudenza. Il primo gradino è spegnere l'addestramento. Il secondo, usare la chat temporanea per i compiti delicati. Il terzo, tenere pulite memoria e cronologia. Il quarto, non inviare feedback sulle conversazioni di sede.
+
+=== SCENA 08 · Registrazione schermo · 08_registrazione-schermo.png ===
+Cominciamo da ChatGPT, dal computer. Clicca sul menu del tuo profilo, in basso a sinistra, poi su Impostazioni. Nella finestra che si apre cerca la voce Controlli dei dati. Dall'app sul telefono il percorso è simile: barra laterale, profilo, Impostazioni, Controlli dei dati.
+
+=== SCENA 09 · Registrazione schermo · 09_registrazione-schermo.png ===
+Qui trovi l'interruttore Migliora il modello per tutti. In inglese si chiama Improve the model for everyone. Spegnilo. Da questo momento le nuove conversazioni non vengono usate per addestrare i modelli. Ci vogliono dieci secondi, e lo fai una volta sola, su ogni dispositivo dove hai fatto l'accesso.
+
+=== SCENA 10 · Parola chiave · 10_parola-chiave.png ===
+Attenzione però: spegnere l'interruttore non cancella il passato. Le chat già salvate restano in cronologia, nell'archivio e nei progetti. Se tra quelle c'è qualcosa che non doveva esserci, come hai visto nella lezione tre punto uno, devi eliminarla a parte, una per una.
+
+=== SCENA 11 · Registrazione schermo · 11_registrazione-schermo.png ===
+Seconda leva, la chat temporanea. In alto nella schermata di una nuova chat trovi l'opzione per avviarla. Una chat temporanea non compare nella cronologia, non crea e non aggiorna la memoria, e non viene usata per migliorare i modelli. È la scelta giusta per i compiti più delicati.
+
+=== SCENA 12 · Numero · 12_numero.png ===
+Ma anche la chat temporanea lascia una traccia. OpenAI dichiara che può essere conservata fino a trenta giorni, per motivi di sicurezza. Trenta giorni in cui quel testo esiste su un server che non controlli. Ecco perché, anche qui, valgono le regole delle lezioni precedenti.
+
+=== SCENA 13 · Elenco · 13_elenco.png ===
+Terza leva, la memoria. In ChatGPT è un'impostazione separata, sotto Personalizzazione. Lo strumento può ricordare cose di te tra una conversazione e l'altra: il tuo ruolo, i temi su cui lavori, a volte dettagli che riguardano altre persone. Vale la pena controllarla ogni tanto.
+
+=== SCENA 14 · Prompt · 14_prompt.png ===
+C'è un prompt che rende il controllo molto più facile. Chiedi allo strumento di elencare tutto ciò che ricorda di te e del tuo lavoro. E di segnalare in particolare le informazioni su altre persone, sulla salute o sull'iscrizione sindacale. Funziona in ChatGPT e in Claude, se la memoria è attiva.
+
+=== SCENA 15 · Risposta IA · 15_risposta-ia.png ===
+Ecco un estratto verosimile. Lo strumento ricorda il tuo ruolo, i temi su cui scrivi spesso, e segnala un'informazione su una collega in malattia, entrata in una vecchia conversazione. Ora sai cosa cercare nelle impostazioni della memoria, e cosa cancellare subito.
+
+=== SCENA 16 · Registrazione schermo · 16_registrazione-schermo.png ===
+Passiamo a Claude. Clicca sul tuo nome utente, poi Impostazioni, poi Privacy. Puoi arrivarci anche scrivendo direttamente l'indirizzo che vedi a schermo. Qui trovi l'interruttore Help improve our AI models. Nell'interfaccia italiana può comparire tradotto. Spegnilo.
+
+=== SCENA 17 · Tabella · 17_tabella.png ===
+In Claude, con l'interruttore spento, né le chat nuove né quelle già salvate vengono usate per gli addestramenti futuri. Ciò che è già entrato in un addestramento non si toglie. Con l'interruttore acceso, le chat possono restare fino a cinque anni in forma de-identificata. Le chat eliminate spariscono entro trenta giorni.
+
+=== SCENA 18 · Registrazione schermo · 18_registrazione-schermo.png ===
+In Claude la chat temporanea si chiama incognito. Apri una nuova chat, fuori da un progetto, e clicca l'icona del fantasma in alto a destra. Compare un bordo scuro con l'etichetta della chat in incognito. Da quel momento sai che stai lavorando in modalità protetta.
+
+=== SCENA 19 · Confronto · 19_confronto.png ===
+Cosa cambia con l'incognito? Non va in cronologia, non usa e non alimenta la memoria, e non è usata per l'addestramento, anche se l'interruttore è acceso. Ma viene conservata trenta giorni, e non è disponibile dentro i Progetti. Lì valgono le impostazioni generali.
+
+=== SCENA 20 · Registrazione schermo · 20_registrazione-schermo.png ===
+Ora Gemini. In Gemini tutto ruota intorno all'Attività nelle app Gemini e all'interruttore Mantieni attività. Dal computer apri Impostazioni e guida, poi Attività. Clicca su On e scegli Disattiva, oppure Disattiva ed elimina attività, se vuoi anche cancellare quella passata.
+
+=== SCENA 21 · Numero · 21_numero.png ===
+Con Mantieni attività spento, le chat future non compaiono nell'attività e non vengono usate per addestrare i modelli, salvo che tu invii un feedback. Google le conserva comunque fino a settantadue ore per fornire il servizio. E alcune app collegate smettono di funzionare.
+
+=== SCENA 22 · Tabella · 22_tabella.png ===
+Se ti serve tenere la cronologia, c'è una via di mezzo: l'eliminazione automatica. L'impostazione predefinita cancella le chat dopo diciotto mesi. Puoi scegliere tre mesi, che è la scelta più prudente, oppure trentasei. Per il lavoro di sede, tre mesi bastano quasi sempre.
+
+=== SCENA 23 · Parola chiave · 23_parola-chiave.png ===
+Un punto che Google scrive con chiarezza: una parte delle chat viene letta da revisori umani per migliorare il servizio. Le chat revisionate, scollegate dall'account, possono restare fino a tre anni. È il motivo per cui Google stesso chiede di non inserire informazioni riservate.
+
+=== SCENA 24 · Registrazione schermo · 24_registrazione-schermo.png ===
+Anche Gemini ha la sua chat temporanea. Accanto a Nuova chat trovi il pulsante Chat temporanea. Le conversazioni avviate così non compaiono nell'attività né tra le chat recenti. Attenzione: questa funzione è disponibile solo con gli account Google personali.
+
+=== SCENA 25 · Parola chiave · 25_parola-chiave.png ===
+E con gli account di lavoro? Se usi Gemini con un account Google Workspace, o Claude e ChatGPT dentro un piano dell'organizzazione, molte di queste opzioni le decide l'amministratore. Alcune non le vedi nemmeno. In quel caso le domande vanno fatte a lui, non ai menu.
+
+=== SCENA 26 · Tabella · 26_tabella.png ===
+Ecco il quadro dei tre strumenti in una sola schermata. Per ciascuno, il nome dell'interruttore e la chat che non resta in cronologia. ChatGPT, Migliora il modello per tutti e chat temporanea. Claude, Help improve our AI models e incognito. Gemini, Mantieni attività e chat temporanea.
+
+=== SCENA 27 · Tabella · 27_tabella.png ===
+E qui dove si trovano e quanto restano i dati, come minimo. ChatGPT, in Controlli dei dati, fino a trenta giorni per la chat temporanea. Claude, in Privacy, trenta giorni per l'incognito. Gemini, in Attività, fino a settantadue ore con l'attività spenta.
+
+=== SCENA 28 · Errore tipico · 28_errore-tipico.png ===
+Ed ecco l'errore più pericoloso di questa lezione. Spegni l'addestramento, ti senti protetto, e poi incolli tutto. Ma l'interruttore decide se i dati migliorano il modello, non se escono dalla sede. Escono comunque, e restano sui server per giorni o settimane.
+
+=== SCENA 29 · B-roll · 29_b-roll.png ===
+Un altro gesto che sembra innocuo è il pollice. Su o giù, alla fine di una risposta. Lo si clicca quasi per riflesso, per dire che la risposta era buona o sbagliata. Ma quel clic manda la conversazione al fornitore come feedback, e può renderla disponibile per migliorare i modelli.
+
+=== SCENA 30 · Errore tipico · 30_errore-tipico.png ===
+Per questo il secondo errore tipico è dare il feedback su una chat di lavoro. Anche con l'addestramento spento, in Gemini e in Claude il feedback inviato esplicitamente fa eccezione. Su una conversazione di sede, anche se ripulita, il pollice non si tocca.
+
+=== SCENA 31 · Norma · 31_norma.png ===
+C'è un principio del GDPR dietro tutta questa lezione. L'articolo venticinque chiede protezione dei dati fin dalla progettazione e per impostazione predefinita. Per una sede significa scegliere strumenti e impostazioni prudenti prima di usarli, non dopo un incidente.
+
+=== SCENA 32 · Prompt · 32_prompt.png ===
+Un'avvertenza onesta: queste impostazioni sono quelle dichiarate dai fornitori a ottobre duemilaventisei, e cambiano spesso. Per questo ti lascio un prompt di verifica. Con la ricerca web attiva, chiedi allo strumento il percorso aggiornato dei menu, i tempi di conservazione e il link alla pagina ufficiale.
+
+=== SCENA 33 · Registrazione schermo · 33_registrazione-schermo.png ===
+Qui vedi la verifica in ChatGPT, con la ricerca attiva. La risposta riporta il percorso dei menu e un link. Ed ecco il passaggio che non devi mai saltare: clicca il link e apri la pagina ufficiale. Controlla che dica davvero quello che l'IA ha riassunto.
+
+=== SCENA 34 · Risposta IA · 34_risposta-ia.png ===
+Un estratto verosimile. Il percorso dei menu, il tempo di conservazione, il link alla pagina di aiuto. Se la pagina ufficiale dice qualcosa di diverso, vale la pagina ufficiale. L'IA ti fa risparmiare la ricerca, non la verifica. Nel modulo cinque vedrai come farlo bene.
+
+=== SCENA 35 · Prompt · 35_prompt.png ===
+Quando hai verificato tutto, aiuta i colleghi. Questo prompt prepara una scheda di una pagina, con i passaggi numerati per impostare la privacy di uno strumento e un avviso finale: mai dati dei lavoratori. Importante: l'IA deve usare solo le note che hai verificato tu, nient'altro.
+
+=== SCENA 36 · Caso · 36_caso.png ===
+Un'idea che funziona bene. In segreteria si dedica mezz'ora a una sessione impostazioni. Ognuno spegne l'addestramento nei suoi account, prova la chat temporanea, cancella le vecchie conversazioni con dati sensibili. Si annotano data e scelte fatte, da rivedere più avanti.
+
+=== SCENA 37 · Numero · 37_numero.png ===
+Più avanti significa sei mesi. È il ritmo giusto per ricontrollare le impostazioni, perché in sei mesi i fornitori cambiano menu, nomi e regole. Mettilo in agenda subito, come una scadenza qualunque della sede. E abbinalo a una data facile da ricordare, come l'inizio dell'anno e l'inizio dell'estate.
+
+=== SCENA 38 · B-roll · 38_b-roll.png ===
+Pensa al delegato di inizio lezione. Ora sa rispondere alla sua domanda, con precisione e per tutti e tre gli strumenti. Sa anche cosa non promettere ai colleghi: nessuna impostazione rende sicuro incollare i dati dei lavoratori. È una risposta meno comoda, ma è quella vera, e i colleghi la apprezzano.
+
+=== SCENA 39 · Memo · 39_memo.png ===
+Se ti porti a casa una sola frase, che sia questa. Gli interruttori della privacy riducono il rischio, ma non lo azzerano. Imposta tutto in modo prudente, e continua a non incollare dati dei lavoratori.
+
+=== SCENA 40 · La pratica · 40_la-pratica.png ===
+Ora tocca a te. In ChatGPT spegni Migliora il modello per tutti. In Claude spegni Help improve our AI models. In Gemini spegni Mantieni attività, o imposta l'eliminazione automatica a tre mesi. In ciascuno avvia una chat temporanea e annota tutto in una tabella.
+
+=== SCENA 41 · Registrazione schermo · 41_registrazione-schermo.png ===
+Per la prova della chat temporanea, fai così. Avviala, scrivi una domanda qualunque senza dati, chiudila. Poi apri la cronologia e controlla che non ci sia. Se la trovi, qualcosa non ha funzionato: ripeti il passaggio con calma, e verifica di usare un account Google personale, l'unico su cui la chat temporanea è disponibile.
+
+=== SCENA 42 · Caso · 42_caso.png ===
+Conserva la tabella con le tue scelte: data, strumento, impostazione. Nella prossima lezione scriverai il protocollo privacy della segreteria, e una delle cinque regole riguarda proprio le impostazioni. Avere già i dati sotto mano ti farà risparmiare tempo.
+
+=== SCENA 43 · Animazione · 43_animazione.mp4 ===
+Ricapitoliamo il ciclo da ripetere nel tempo. Imposti i tre strumenti. Annoti le scelte. Dopo sei mesi ricontrolli sulle pagine ufficiali. E aggiorni impostazioni e scheda per i colleghi. Poi si ricomincia. È manutenzione, come per qualsiasi strumento di lavoro: poco tempo, a intervalli regolari.
+
+=== SCENA 44 · B-roll · 44_b-roll.png ===
+Le impostazioni prudenti sono un'abitudine della sede, non di una persona sola. Quando tutta la squadra lavora con gli stessi interruttori spenti e le stesse regole, il rischio si abbassa davvero, e nessuno resta con dubbi che non sa a chi chiedere.
+
+=== SCENA 45 · Chiusura · 45_chiusura.png ===
+Nella prossima lezione mettiamo insieme tutto il modulo. Scriverai il protocollo privacy della segreteria: cinque regole brevi, approvate e condivise con la squadra. È il primo pezzo del tuo kit personale. Ci vediamo nella lezione tre punto cinque.

@@ -1,0 +1,26 @@
+Copione registrazioni schermo · Lezione 3.2
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 26 · ChatGPT · durata circa 14 s
+Azione: Si apre una nuova conversazione e si incolla il caso già anonimizzato.
+Zoom / evidenziare: Il caso anonimo incollato nel campo di scrittura
+Parlato che accompagna: Prima di usare il caso, una verifica. Apri una nuova conversazione in ChatGPT. Questa volta all'IA dai un ruolo preciso: un revisore privacy molto severo. Non deve riscrivere niente. Deve solo cercare quello che ti è sfuggito.
+
+SCENA 29 · Claude · durata circa 16 s
+Azione: Si incolla il prompt di analisi con il caso anonimizzato al posto del segnaposto.
+Da digitare:
+Caso anonimo: un OSS di un reparto di area medica ha ricevuto una contestazione disciplinare...
+Zoom / evidenziare: Il segnaposto sostituito dal caso pulito
+Parlato che accompagna: Ora il caso è pronto. Passa a Claude, nuova conversazione. Incolli il prompt di analisi e, al posto del segnaposto, il caso pulito. Nota che ora puoi lavorare con calma: non stai più trattenendo il fiato su cosa stai consegnando a un fornitore esterno.
+
+SCENA 36 · Gemini · durata circa 17 s
+Azione: Si incolla la scheda anonima all'inizio di una nuova conversazione.
+Da digitare:
+[SCHEDA DEL CASO]
+Zoom / evidenziare: La scheda in testa alla conversazione
+Parlato che accompagna: Questa scheda diventa il tuo punto di partenza. Ogni volta che riapri una conversazione sul caso, in qualsiasi strumento, incolli la scheda e non il testo originale. Così non devi ripetere le cinque mosse ogni volta, e sei sicuro di usare sempre la stessa versione pulita.
+
+SCENA 42 · Claude · durata circa 17 s
+Azione: La risposta dell'analisi affiancata agli appunti sulla pratica reale.
+Zoom / evidenziare: I punti della risposta da confrontare con la pratica
+Parlato che accompagna: Alla fine confronta la risposta dell'IA con quello che sai davvero della pratica. Ti ha dato spunti utili? Ha perso qualcosa per colpa di una generalizzazione troppo forte? Questo confronto ti insegna, pratica dopo pratica, quanto puoi togliere senza perdere il senso.
