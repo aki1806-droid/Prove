@@ -1,0 +1,1126 @@
+1
+00:00:03,000 --> 00:00:05,562
+Benvenuto alla lezione tre punto quattro.
+
+2
+00:00:05,602 --> 00:00:07,656
+Oggi si mettono le mani nei menu.
+
+3
+00:00:07,696 --> 00:00:11,971
+Vedrai, in ChatGPT, Claude e Gemini, dove
+si spegne l'addestramento,
+
+4
+00:00:12,011 --> 00:00:16,349
+come si apre una chat temporanea, cosa
+fare con cronologia e memoria.
+
+5
+00:00:16,389 --> 00:00:19,522
+E quanto tempo restano comunque i dati sui
+server.
+
+6
+00:00:19,562 --> 00:00:23,266
+Alla fine avrai i tre strumenti impostati
+in modo prudente.
+
+7
+00:00:23,656 --> 00:00:24,909
+Una mattina in sede.
+
+8
+00:00:24,949 --> 00:00:28,918
+Un delegato RSU, cioè della rappresentanza
+sindacale unitaria,
+
+9
+00:00:28,958 --> 00:00:31,570
+ha appena aperto i tre account del corso.
+
+10
+00:00:31,610 --> 00:00:35,450
+Ti fa una domanda secca: le mie
+conversazioni vengono lette?
+
+11
+00:00:35,490 --> 00:00:37,648
+Vengono usate per addestrare l'IA?
+
+12
+00:00:37,688 --> 00:00:41,399
+Si guardano tutti, e nessuno sa rispondere
+con precisione.
+
+13
+00:00:41,788 --> 00:00:43,091
+Non è colpa di nessuno.
+
+14
+00:00:43,131 --> 00:00:47,760
+Ogni strumento ha regole diverse, menu
+diversi, nomi diversi per la stessa cosa.
+
+15
+00:00:47,800 --> 00:00:48,869
+E li cambia spesso.
+
+16
+00:00:48,909 --> 00:00:52,080
+Così si finisce per lasciare le
+impostazioni come sono,
+
+17
+00:00:52,120 --> 00:00:56,049
+quelle scelte dal fornitore, che di solito
+non sono le più prudenti.
+
+18
+00:00:56,439 --> 00:00:58,558
+Una premessa, prima di aprire i menu.
+
+19
+00:00:58,598 --> 00:01:02,700
+Gli interruttori della privacy riducono il
+rischio, ma non lo azzerano.
+
+20
+00:01:02,740 --> 00:01:04,334
+Anche con tutto disattivato,
+
+21
+00:01:04,374 --> 00:01:07,951
+i fornitori conservano le conversazioni
+per un periodo minimo,
+
+22
+00:01:07,991 --> 00:01:09,352
+per motivi di sicurezza.
+
+23
+00:01:09,392 --> 00:01:12,444
+Quindi la regola dello zero dati resta
+valida sempre.
+
+24
+00:01:12,834 --> 00:01:15,602
+Senza una lezione come questa, di solito
+si fa così.
+
+25
+00:01:15,642 --> 00:01:18,842
+Si cerca su internet, si trova una guida
+vecchia di un anno,
+
+26
+00:01:18,882 --> 00:01:21,056
+il menu non corrisponde più, si rinuncia.
+
+27
+00:01:21,096 --> 00:01:23,108
+Oppure si chiede a un collega esperto,
+
+28
+00:01:23,148 --> 00:01:26,996
+che ha impostato il suo account a memoria
+e non sa più dove ha cliccato.
+
+29
+00:01:27,387 --> 00:01:30,738
+In tutti e tre gli strumenti lavoriamo su
+quattro leve.
+
+30
+00:01:30,778 --> 00:01:32,834
+L'interruttore dell'addestramento.
+
+31
+00:01:32,874 --> 00:01:35,793
+La chat temporanea, che non resta in
+cronologia.
+
+32
+00:01:35,833 --> 00:01:38,259
+La memoria e la cronologia, da ripulire.
+
+33
+00:01:38,299 --> 00:01:42,698
+E il feedback con il pollice, che conviene
+evitare sulle chat di lavoro.
+
+34
+00:01:42,738 --> 00:01:45,348
+Vediamole una per una, partendo da
+ChatGPT.
+
+35
+00:01:45,738 --> 00:01:47,903
+Pensale come una scala di prudenza.
+
+36
+00:01:47,943 --> 00:01:50,675
+Il primo gradino è spegnere
+l'addestramento.
+
+37
+00:01:50,715 --> 00:01:54,455
+Il secondo, usare la chat temporanea per i
+compiti delicati.
+
+38
+00:01:54,495 --> 00:01:57,291
+Il terzo, tenere pulite memoria e
+cronologia.
+
+39
+00:01:57,331 --> 00:02:01,071
+Il quarto, non inviare feedback sulle
+conversazioni di sede.
+
+40
+00:02:01,461 --> 00:02:03,749
+Cominciamo da ChatGPT, dal computer.
+
+41
+00:02:03,789 --> 00:02:08,533
+Clicca sul menu del tuo profilo, in basso
+a sinistra, poi su Impostazioni.
+
+42
+00:02:08,573 --> 00:02:12,412
+Nella finestra che si apre cerca la voce
+Controlli dei dati.
+
+43
+00:02:12,452 --> 00:02:16,227
+Dall'app sul telefono il percorso è
+simile: barra laterale,
+
+44
+00:02:16,267 --> 00:02:18,942
+profilo, Impostazioni, Controlli dei dati.
+
+45
+00:02:19,333 --> 00:02:22,409
+Qui trovi l'interruttore Migliora il
+modello per tutti.
+
+46
+00:02:22,449 --> 00:02:25,354
+In inglese si chiama Improve the model for
+everyone.
+
+47
+00:02:25,394 --> 00:02:25,864
+Spegnilo.
+
+48
+00:02:25,904 --> 00:02:28,130
+Da questo momento le nuove conversazioni
+
+49
+00:02:28,170 --> 00:02:30,566
+non vengono usate per addestrare i
+modelli.
+
+50
+00:02:30,606 --> 00:02:33,455
+Ci vogliono dieci secondi, e lo fai una
+volta sola,
+
+51
+00:02:33,495 --> 00:02:36,004
+su ogni dispositivo dove hai fatto
+l'accesso.
+
+52
+00:02:36,393 --> 00:02:40,271
+Attenzione però: spegnere l'interruttore
+non cancella il passato.
+
+53
+00:02:40,311 --> 00:02:44,612
+Le chat già salvate restano in cronologia,
+nell'archivio e nei progetti.
+
+54
+00:02:44,652 --> 00:02:47,626
+Se tra quelle c'è qualcosa che non doveva
+esserci,
+
+55
+00:02:47,666 --> 00:02:52,509
+come hai visto nella lezione tre punto
+uno, devi eliminarla a parte, una per una.
+
+56
+00:02:52,899 --> 00:02:54,813
+Seconda leva, la chat temporanea.
+
+57
+00:02:54,853 --> 00:02:59,017
+In alto nella schermata di una nuova chat
+trovi l'opzione per avviarla.
+
+58
+00:02:59,057 --> 00:03:01,919
+Una chat temporanea non compare nella
+cronologia,
+
+59
+00:03:01,959 --> 00:03:06,597
+non crea e non aggiorna la memoria, e non
+viene usata per migliorare i modelli.
+
+60
+00:03:06,637 --> 00:03:09,321
+È la scelta giusta per i compiti più
+delicati.
+
+61
+00:03:09,711 --> 00:03:12,357
+Ma anche la chat temporanea lascia una
+traccia.
+
+62
+00:03:12,397 --> 00:03:15,958
+OpenAI dichiara che può essere conservata
+fino a trenta giorni,
+
+63
+00:03:15,998 --> 00:03:17,329
+per motivi di sicurezza.
+
+64
+00:03:17,369 --> 00:03:21,330
+Trenta giorni in cui quel testo esiste su
+un server che non controlli.
+
+65
+00:03:21,370 --> 00:03:25,159
+Ecco perché, anche qui, valgono le regole
+delle lezioni precedenti.
+
+66
+00:03:25,549 --> 00:03:26,883
+Terza leva, la memoria.
+
+67
+00:03:26,923 --> 00:03:30,646
+In ChatGPT è un'impostazione separata,
+sotto Personalizzazione.
+
+68
+00:03:30,686 --> 00:03:35,663
+Lo strumento può ricordare cose di te tra
+una conversazione e l'altra: il tuo ruolo,
+
+69
+00:03:35,703 --> 00:03:39,725
+i temi su cui lavori, a volte dettagli che
+riguardano altre persone.
+
+70
+00:03:39,765 --> 00:03:41,935
+Vale la pena controllarla ogni tanto.
+
+71
+00:03:42,326 --> 00:03:45,236
+C'è un prompt che rende il controllo molto
+più facile.
+
+72
+00:03:45,276 --> 00:03:49,552
+Chiedi allo strumento di elencare tutto
+ciò che ricorda di te e del tuo lavoro.
+
+73
+00:03:49,592 --> 00:03:52,993
+E di segnalare in particolare le
+informazioni su altre persone,
+
+74
+00:03:53,033 --> 00:03:55,233
+sulla salute o sull'iscrizione sindacale.
+
+75
+00:03:55,273 --> 00:03:58,292
+Funziona in ChatGPT e in Claude, se la
+memoria è attiva.
+
+76
+00:03:58,682 --> 00:04:00,149
+Ecco un estratto verosimile.
+
+77
+00:04:00,189 --> 00:04:03,540
+Lo strumento ricorda il tuo ruolo, i temi
+su cui scrivi spesso,
+
+78
+00:04:03,580 --> 00:04:06,392
+e segnala un'informazione su una collega
+in malattia,
+
+79
+00:04:06,432 --> 00:04:08,384
+entrata in una vecchia conversazione.
+
+80
+00:04:08,424 --> 00:04:12,690
+Ora sai cosa cercare nelle impostazioni
+della memoria, e cosa cancellare subito.
+
+81
+00:04:13,079 --> 00:04:14,169
+Passiamo a Claude.
+
+82
+00:04:14,209 --> 00:04:17,810
+Clicca sul tuo nome utente, poi
+Impostazioni, poi Privacy.
+
+83
+00:04:17,850 --> 00:04:19,693
+Puoi arrivarci anche scrivendo
+
+84
+00:04:19,733 --> 00:04:22,455
+direttamente l'indirizzo che vedi a
+schermo.
+
+85
+00:04:22,495 --> 00:04:25,719
+Qui trovi l'interruttore Help improve our
+AI models.
+
+86
+00:04:25,759 --> 00:04:28,795
+Nell'interfaccia italiana può comparire
+tradotto.
+
+87
+00:04:28,835 --> 00:04:29,360
+Spegnilo.
+
+88
+00:04:29,751 --> 00:04:31,785
+In Claude, con l'interruttore spento,
+
+89
+00:04:31,825 --> 00:04:33,914
+né le chat nuove né quelle già salvate
+
+90
+00:04:33,954 --> 00:04:36,324
+vengono usate per gli addestramenti
+futuri.
+
+91
+00:04:36,364 --> 00:04:39,462
+Ciò che è già entrato in un addestramento
+non si toglie.
+
+92
+00:04:39,502 --> 00:04:40,919
+Con l'interruttore acceso,
+
+93
+00:04:40,959 --> 00:04:44,730
+le chat possono restare fino a cinque anni
+in forma de-identificata.
+
+94
+00:04:44,770 --> 00:04:47,476
+Le chat eliminate spariscono entro trenta
+giorni.
+
+95
+00:04:47,866 --> 00:04:50,545
+In Claude la chat temporanea si chiama
+incognito.
+
+96
+00:04:50,585 --> 00:04:52,876
+Apri una nuova chat, fuori da un progetto,
+
+97
+00:04:52,916 --> 00:04:55,485
+e clicca l'icona del fantasma in alto a
+destra.
+
+98
+00:04:55,525 --> 00:04:58,981
+Compare un bordo scuro con l'etichetta
+della chat in incognito.
+
+99
+00:04:59,021 --> 00:05:02,311
+Da quel momento sai che stai lavorando in
+modalità protetta.
+
+100
+00:05:02,701 --> 00:05:04,254
+Cosa cambia con l'incognito?
+
+101
+00:05:04,294 --> 00:05:07,439
+Non va in cronologia, non usa e non
+alimenta la memoria,
+
+102
+00:05:07,479 --> 00:05:11,307
+e non è usata per l'addestramento, anche
+se l'interruttore è acceso.
+
+103
+00:05:11,347 --> 00:05:15,459
+Ma viene conservata trenta giorni, e non è
+disponibile dentro i Progetti.
+
+104
+00:05:15,499 --> 00:05:17,507
+Lì valgono le impostazioni generali.
+
+105
+00:05:17,897 --> 00:05:18,559
+Ora Gemini.
+
+106
+00:05:18,599 --> 00:05:21,238
+In Gemini tutto ruota intorno all'Attività
+
+107
+00:05:21,278 --> 00:05:24,683
+nelle app Gemini e all'interruttore
+Mantieni attività.
+
+108
+00:05:24,723 --> 00:05:28,065
+Dal computer apri Impostazioni e guida,
+poi Attività.
+
+109
+00:05:28,105 --> 00:05:32,531
+Clicca su On e scegli Disattiva, oppure
+Disattiva ed elimina attività,
+
+110
+00:05:32,571 --> 00:05:35,083
+se vuoi anche cancellare quella passata.
+
+111
+00:05:35,472 --> 00:05:36,994
+Con Mantieni attività spento,
+
+112
+00:05:37,034 --> 00:05:39,256
+le chat future non compaiono nell'attività
+
+113
+00:05:39,296 --> 00:05:41,680
+e non vengono usate per addestrare i
+modelli,
+
+114
+00:05:41,720 --> 00:05:43,350
+salvo che tu invii un feedback.
+
+115
+00:05:43,390 --> 00:05:47,390
+Google le conserva comunque fino a
+settantadue ore per fornire il servizio.
+
+116
+00:05:47,430 --> 00:05:49,868
+E alcune app collegate smettono di
+funzionare.
+
+117
+00:05:50,258 --> 00:05:54,785
+Se ti serve tenere la cronologia, c'è una
+via di mezzo: l'eliminazione automatica.
+
+118
+00:05:54,825 --> 00:05:58,293
+L'impostazione predefinita cancella le
+chat dopo diciotto mesi.
+
+119
+00:05:58,333 --> 00:06:02,303
+Puoi scegliere tre mesi, che è la scelta
+più prudente, oppure trentasei.
+
+120
+00:06:02,343 --> 00:06:05,254
+Per il lavoro di sede, tre mesi bastano
+quasi sempre.
+
+121
+00:06:05,644 --> 00:06:07,839
+Un punto che Google scrive con chiarezza:
+
+122
+00:06:07,879 --> 00:06:12,090
+una parte delle chat viene letta da
+revisori umani per migliorare il servizio.
+
+123
+00:06:12,130 --> 00:06:14,543
+Le chat revisionate, scollegate
+dall'account,
+
+124
+00:06:14,583 --> 00:06:16,287
+possono restare fino a tre anni.
+
+125
+00:06:16,327 --> 00:06:20,648
+È il motivo per cui Google stesso chiede
+di non inserire informazioni riservate.
+
+126
+00:06:21,038 --> 00:06:23,301
+Anche Gemini ha la sua chat temporanea.
+
+127
+00:06:23,341 --> 00:06:26,548
+Accanto a Nuova chat trovi il pulsante
+Chat temporanea.
+
+128
+00:06:26,588 --> 00:06:28,496
+Le conversazioni avviate così non
+
+129
+00:06:28,536 --> 00:06:31,271
+compaiono nell'attività né tra le chat
+recenti.
+
+130
+00:06:31,311 --> 00:06:35,995
+Attenzione: questa funzione è disponibile
+solo con gli account Google personali.
+
+131
+00:06:36,384 --> 00:06:37,960
+E con gli account di lavoro?
+
+132
+00:06:38,000 --> 00:06:40,614
+Se usi Gemini con un account Google
+Workspace,
+
+133
+00:06:40,654 --> 00:06:43,787
+o Claude e ChatGPT dentro un piano
+dell'organizzazione,
+
+134
+00:06:43,827 --> 00:06:46,730
+molte di queste opzioni le decide
+l'amministratore.
+
+135
+00:06:46,770 --> 00:06:48,288
+Alcune non le vedi nemmeno.
+
+136
+00:06:48,328 --> 00:06:51,462
+In quel caso le domande vanno fatte a lui,
+non ai menu.
+
+137
+00:06:51,852 --> 00:06:55,345
+Ecco il quadro dei tre strumenti in una
+sola schermata.
+
+138
+00:06:55,385 --> 00:07:00,355
+Per ciascuno, il nome dell'interruttore e
+la chat che non resta in cronologia.
+
+139
+00:07:00,395 --> 00:07:04,017
+ChatGPT, Migliora il modello per tutti e
+chat temporanea.
+
+140
+00:07:04,057 --> 00:07:07,036
+Claude, Help improve our AI models e
+incognito.
+
+141
+00:07:07,076 --> 00:07:09,862
+Gemini, Mantieni attività e chat
+temporanea.
+
+142
+00:07:10,252 --> 00:07:13,906
+E qui dove si trovano e quanto restano i
+dati, come minimo.
+
+143
+00:07:13,946 --> 00:07:18,664
+ChatGPT, in Controlli dei dati, fino a
+trenta giorni per la chat temporanea.
+
+144
+00:07:18,704 --> 00:07:21,795
+Claude, in Privacy, trenta giorni per
+l'incognito.
+
+145
+00:07:21,835 --> 00:07:25,927
+Gemini, in Attività, fino a settantadue
+ore con l'attività spenta.
+
+146
+00:07:26,317 --> 00:07:29,192
+Ed ecco l'errore più pericoloso di questa
+lezione.
+
+147
+00:07:29,232 --> 00:07:32,865
+Spegni l'addestramento, ti senti protetto,
+e poi incolli tutto.
+
+148
+00:07:32,905 --> 00:07:36,188
+Ma l'interruttore decide se i dati
+migliorano il modello,
+
+149
+00:07:36,228 --> 00:07:37,645
+non se escono dalla sede.
+
+150
+00:07:37,685 --> 00:07:41,201
+Escono comunque, e restano sui server per
+giorni o settimane.
+
+151
+00:07:41,592 --> 00:07:44,271
+Un altro gesto che sembra innocuo è il
+pollice.
+
+152
+00:07:44,311 --> 00:07:46,353
+Su o giù, alla fine di una risposta.
+
+153
+00:07:46,393 --> 00:07:50,981
+Lo si clicca quasi per riflesso, per dire
+che la risposta era buona o sbagliata.
+
+154
+00:07:51,021 --> 00:07:54,626
+Ma quel clic manda la conversazione al
+fornitore come feedback,
+
+155
+00:07:54,666 --> 00:07:57,634
+e può renderla disponibile per migliorare
+i modelli.
+
+156
+00:07:58,024 --> 00:08:02,421
+Per questo il secondo errore tipico è dare
+il feedback su una chat di lavoro.
+
+157
+00:08:02,461 --> 00:08:04,323
+Anche con l'addestramento spento,
+
+158
+00:08:04,363 --> 00:08:08,357
+in Gemini e in Claude il feedback inviato
+esplicitamente fa eccezione.
+
+159
+00:08:08,397 --> 00:08:12,564
+Su una conversazione di sede, anche se
+ripulita, il pollice non si tocca.
+
+160
+00:08:12,954 --> 00:08:16,104
+C'è un principio del GDPR dietro tutta
+questa lezione.
+
+161
+00:08:16,144 --> 00:08:18,998
+L'articolo venticinque chiede protezione
+dei dati
+
+162
+00:08:19,038 --> 00:08:22,246
+fin dalla progettazione e per impostazione
+predefinita.
+
+163
+00:08:22,286 --> 00:08:27,149
+Per una sede significa scegliere strumenti
+e impostazioni prudenti prima di usarli,
+
+164
+00:08:27,189 --> 00:08:28,448
+non dopo un incidente.
+
+165
+00:08:28,838 --> 00:08:31,342
+Un'avvertenza onesta: queste impostazioni
+sono
+
+166
+00:08:31,382 --> 00:08:34,550
+quelle dichiarate dai fornitori a ottobre
+duemilaventisei,
+
+167
+00:08:34,590 --> 00:08:35,546
+e cambiano spesso.
+
+168
+00:08:35,586 --> 00:08:37,924
+Per questo ti lascio un prompt di
+verifica.
+
+169
+00:08:37,964 --> 00:08:42,404
+Con la ricerca web attiva, chiedi allo
+strumento il percorso aggiornato dei menu,
+
+170
+00:08:42,444 --> 00:08:45,557
+i tempi di conservazione e il link alla
+pagina ufficiale.
+
+171
+00:08:45,947 --> 00:08:49,166
+Qui vedi la verifica in ChatGPT, con la
+ricerca attiva.
+
+172
+00:08:49,206 --> 00:08:52,188
+La risposta riporta il percorso dei menu e
+un link.
+
+173
+00:08:52,228 --> 00:08:54,914
+Ed ecco il passaggio che non devi mai
+saltare:
+
+174
+00:08:54,954 --> 00:08:57,403
+clicca il link e apri la pagina ufficiale.
+
+175
+00:08:57,443 --> 00:09:00,721
+Controlla che dica davvero quello che l'IA
+ha riassunto.
+
+176
+00:09:01,111 --> 00:09:02,387
+Un estratto verosimile.
+
+177
+00:09:02,427 --> 00:09:05,132
+Il percorso dei menu, il tempo di
+conservazione,
+
+178
+00:09:05,172 --> 00:09:06,791
+il link alla pagina di aiuto.
+
+179
+00:09:06,831 --> 00:09:11,024
+Se la pagina ufficiale dice qualcosa di
+diverso, vale la pagina ufficiale.
+
+180
+00:09:11,064 --> 00:09:13,941
+L'IA ti fa risparmiare la ricerca, non la
+verifica.
+
+181
+00:09:13,981 --> 00:09:16,286
+Nel modulo cinque vedrai come farlo bene.
+
+182
+00:09:16,677 --> 00:09:19,378
+Quando hai verificato tutto, aiuta i
+colleghi.
+
+183
+00:09:19,418 --> 00:09:22,179
+Questo prompt prepara una scheda di una
+pagina,
+
+184
+00:09:22,219 --> 00:09:24,562
+con i passaggi numerati per impostare la
+
+185
+00:09:24,602 --> 00:09:27,184
+privacy di uno strumento e un avviso
+finale:
+
+186
+00:09:27,224 --> 00:09:28,614
+mai dati dei lavoratori.
+
+187
+00:09:28,654 --> 00:09:33,142
+Importante: l'IA deve usare solo le note
+che hai verificato tu, nient'altro.
+
+188
+00:09:33,532 --> 00:09:34,964
+Un'idea che funziona bene.
+
+189
+00:09:35,004 --> 00:09:38,417
+In segreteria si dedica mezz'ora a una
+sessione impostazioni.
+
+190
+00:09:38,457 --> 00:09:42,550
+Ognuno spegne l'addestramento nei suoi
+account, prova la chat temporanea,
+
+191
+00:09:42,590 --> 00:09:45,551
+cancella le vecchie conversazioni con dati
+sensibili.
+
+192
+00:09:45,591 --> 00:09:48,721
+Si annotano data e scelte fatte, da
+rivedere più avanti.
+
+193
+00:09:49,111 --> 00:09:50,707
+Più avanti significa sei mesi.
+
+194
+00:09:50,747 --> 00:09:53,543
+È il ritmo giusto per ricontrollare le
+impostazioni,
+
+195
+00:09:53,583 --> 00:09:56,815
+perché in sei mesi i fornitori cambiano
+menu, nomi e regole.
+
+196
+00:09:56,855 --> 00:10:00,359
+Mettilo in agenda subito, come una
+scadenza qualunque della sede.
+
+197
+00:10:00,399 --> 00:10:02,650
+E abbinalo a una data facile da ricordare,
+
+198
+00:10:02,690 --> 00:10:05,213
+come l'inizio dell'anno e l'inizio
+dell'estate.
+
+199
+00:10:05,603 --> 00:10:07,550
+Pensa al delegato di inizio lezione.
+
+200
+00:10:07,590 --> 00:10:09,483
+Ora sa rispondere alla sua domanda,
+
+201
+00:10:09,523 --> 00:10:12,078
+con precisione e per tutti e tre gli
+strumenti.
+
+202
+00:10:12,118 --> 00:10:14,341
+Sa anche cosa non promettere ai colleghi:
+
+203
+00:10:14,381 --> 00:10:17,985
+nessuna impostazione rende sicuro
+incollare i dati dei lavoratori.
+
+204
+00:10:18,025 --> 00:10:22,015
+È una risposta meno comoda, ma è quella
+vera, e i colleghi la apprezzano.
+
+205
+00:10:22,405 --> 00:10:25,240
+Se ti porti a casa una sola frase, che sia
+questa.
+
+206
+00:10:25,280 --> 00:10:29,322
+Gli interruttori della privacy riducono il
+rischio, ma non lo azzerano.
+
+207
+00:10:29,362 --> 00:10:33,864
+Imposta tutto in modo prudente, e continua
+a non incollare dati dei lavoratori.
+
+208
+00:10:34,254 --> 00:10:35,208
+Ora tocca a te.
+
+209
+00:10:35,248 --> 00:10:38,388
+In ChatGPT spegni Migliora il modello per
+tutti.
+
+210
+00:10:38,428 --> 00:10:41,303
+In Claude spegni Help improve our AI
+models.
+
+211
+00:10:41,343 --> 00:10:43,622
+In Gemini spegni Mantieni attività,
+
+212
+00:10:43,662 --> 00:10:46,736
+o imposta l'eliminazione automatica a tre
+mesi.
+
+213
+00:10:46,776 --> 00:10:51,241
+In ciascuno avvia una chat temporanea e
+annota tutto in una tabella.
+
+214
+00:10:51,631 --> 00:10:54,188
+Per la prova della chat temporanea, fai
+così.
+
+215
+00:10:54,228 --> 00:10:57,592
+Avviala, scrivi una domanda qualunque
+senza dati, chiudila.
+
+216
+00:10:57,632 --> 00:11:00,478
+Poi apri la cronologia e controlla che non
+ci sia.
+
+217
+00:11:00,518 --> 00:11:04,575
+Se la trovi, qualcosa non ha funzionato:
+ripeti il passaggio con calma,
+
+218
+00:11:04,615 --> 00:11:07,345
+e verifica di usare un account Google
+personale,
+
+219
+00:11:07,385 --> 00:11:10,115
+l'unico su cui la chat temporanea è
+disponibile.
+
+220
+00:11:10,504 --> 00:11:14,261
+Conserva la tabella con le tue scelte:
+data, strumento, impostazione.
+
+221
+00:11:14,301 --> 00:11:18,224
+Nella prossima lezione scriverai il
+protocollo privacy della segreteria,
+
+222
+00:11:18,264 --> 00:11:21,471
+e una delle cinque regole riguarda proprio
+le impostazioni.
+
+223
+00:11:21,511 --> 00:11:24,443
+Avere già i dati sotto mano ti farà
+risparmiare tempo.
+
+224
+00:11:24,833 --> 00:11:27,536
+Ricapitoliamo il ciclo da ripetere nel
+tempo.
+
+225
+00:11:27,576 --> 00:11:28,999
+Imposti i tre strumenti.
+
+226
+00:11:29,039 --> 00:11:30,035
+Annoti le scelte.
+
+227
+00:11:30,075 --> 00:11:33,022
+Dopo sei mesi ricontrolli sulle pagine
+ufficiali.
+
+228
+00:11:33,062 --> 00:11:35,948
+E aggiorni impostazioni e scheda per i
+colleghi.
+
+229
+00:11:35,988 --> 00:11:37,045
+Poi si ricomincia.
+
+230
+00:11:37,085 --> 00:11:40,397
+È manutenzione, come per qualsiasi
+strumento di lavoro:
+
+231
+00:11:40,437 --> 00:11:42,470
+poco tempo, a intervalli regolari.
+
+232
+00:11:42,860 --> 00:11:46,868
+Le impostazioni prudenti sono un'abitudine
+della sede, non di una persona sola.
+
+233
+00:11:46,908 --> 00:11:48,815
+Quando tutta la squadra lavora con gli
+
+234
+00:11:48,855 --> 00:11:51,172
+stessi interruttori spenti e le stesse
+regole,
+
+235
+00:11:51,212 --> 00:11:55,424
+il rischio si abbassa davvero, e nessuno
+resta con dubbi che non sa a chi chiedere.
+
+236
+00:11:55,814 --> 00:11:58,911
+Nella prossima lezione mettiamo insieme
+tutto il modulo.
+
+237
+00:11:58,951 --> 00:12:01,656
+Scriverai il protocollo privacy della
+segreteria:
+
+238
+00:12:01,696 --> 00:12:04,904
+cinque regole brevi, approvate e condivise
+con la squadra.
+
+239
+00:12:04,944 --> 00:12:07,089
+È il primo pezzo del tuo kit personale.
+
+240
+00:12:07,129 --> 00:12:09,442
+Ci vediamo nella lezione tre punto cinque.
