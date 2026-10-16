@@ -1,0 +1,1157 @@
+1
+00:00:03,000 --> 00:00:05,072
+Benvenuto alla lezione due punto due.
+
+2
+00:00:05,112 --> 00:00:09,525
+Oggi rispondiamo alla domanda che prima o
+poi si fanno tutti: conviene pagare?
+
+3
+00:00:09,565 --> 00:00:13,864
+Vediamo come sono fatti i piani dei tre
+strumenti a ottobre duemilaventisei,
+
+4
+00:00:13,904 --> 00:00:16,376
+come funzionano i limiti di utilizzo e
+quali
+
+5
+00:00:16,416 --> 00:00:19,744
+segnali concreti ti dicono se un
+abbonamento vale la spesa.
+
+6
+00:00:20,134 --> 00:00:21,119
+Venerdì pomeriggio.
+
+7
+00:00:21,159 --> 00:00:23,439
+L'incontro con l'amministrazione è finito
+a
+
+8
+00:00:23,479 --> 00:00:26,460
+mezzogiorno e tu stai preparando la nota
+per i colleghi,
+
+9
+00:00:26,500 --> 00:00:28,672
+con gli appunti ancora sparsi sul tavolo.
+
+10
+00:00:28,712 --> 00:00:32,449
+Hai caricato il verbale, hai chiesto una
+prima bozza, poi una seconda.
+
+11
+00:00:32,489 --> 00:00:35,308
+Stai finalmente arrivando a un testo che
+ti convince.
+
+12
+00:00:35,699 --> 00:00:37,505
+E proprio lì compare l'avviso:
+
+13
+00:00:37,545 --> 00:00:40,520
+hai raggiunto il limite, riprova tra
+qualche ora.
+
+14
+00:00:40,560 --> 00:00:41,197
+Era Claude.
+
+15
+00:00:41,237 --> 00:00:42,674
+Il giorno prima, invece,
+
+16
+00:00:42,714 --> 00:00:46,981
+ChatGPT ti aveva mostrato un annuncio
+pubblicitario sotto la risposta.
+
+17
+00:00:47,021 --> 00:00:52,026
+Due fastidi diversi, una stessa domanda in
+testa: è arrivato il momento di pagare?
+
+18
+00:00:52,416 --> 00:00:54,422
+Ecco il principio di questa lezione.
+
+19
+00:00:54,462 --> 00:00:57,831
+Non si paga per curiosità, né per paura di
+restare indietro.
+
+20
+00:00:57,871 --> 00:01:02,547
+Si paga per un limite che hai incontrato
+davvero, più di una volta, nel tuo lavoro.
+
+21
+00:01:02,587 --> 00:01:07,150
+E per sapere se è così, prima servono una
+settimana di appunti, poi la decisione.
+
+22
+00:01:07,540 --> 00:01:09,323
+Come si decide oggi, di solito?
+
+23
+00:01:09,363 --> 00:01:09,910
+D'impulso.
+
+24
+00:01:09,950 --> 00:01:14,085
+Ci si abbona la sera stessa del blocco,
+magari a due strumenti insieme,
+
+25
+00:01:14,125 --> 00:01:16,965
+e dopo tre mesi ci si accorge di usarne
+uno solo.
+
+26
+00:01:17,005 --> 00:01:21,845
+Oppure si rinuncia del tutto, convinti che
+la versione gratuita non serva a niente.
+
+27
+00:01:21,885 --> 00:01:24,550
+In entrambi i casi decide l'umore, non i
+dati.
+
+28
+00:01:24,940 --> 00:01:27,457
+Mettiamo le due strade una accanto
+all'altra.
+
+29
+00:01:27,497 --> 00:01:29,786
+D'impulso ti abboni dopo il primo blocco,
+
+30
+00:01:29,826 --> 00:01:32,229
+ne prendi più di uno e non sai dire
+perché.
+
+31
+00:01:32,269 --> 00:01:34,785
+Con i dati annoti i limiti per una
+settimana,
+
+32
+00:01:34,825 --> 00:01:37,172
+capisci se dipendono dalle tue abitudini e
+
+33
+00:01:37,212 --> 00:01:39,614
+scegli al massimo un abbonamento,
+motivato.
+
+34
+00:01:40,004 --> 00:01:41,810
+Il numero chiave di oggi è sette.
+
+35
+00:01:41,850 --> 00:01:46,004
+Sette giorni di uso normale, con un
+piccolo diario dei limiti che incontri.
+
+36
+00:01:46,044 --> 00:01:50,366
+È poco tempo, ma basta a capire se il
+problema si ripete o se è stato un caso.
+
+37
+00:01:50,406 --> 00:01:52,436
+E alla fine della lezione vedrai come
+
+38
+00:01:52,476 --> 00:01:55,120
+trasformare quel diario in una decisione
+chiara.
+
+39
+00:01:55,511 --> 00:01:56,886
+Prima di tutto, la mappa.
+
+40
+00:01:56,926 --> 00:02:00,960
+I tre strumenti hanno piani organizzati
+più o meno sugli stessi gradini.
+
+41
+00:02:01,000 --> 00:02:04,694
+Si parte dal gratuito, poi c'è un piano
+economico per due di loro,
+
+42
+00:02:04,734 --> 00:02:08,655
+poi l'abbonamento individuale standard,
+poi i piani per uso intensivo.
+
+43
+00:02:08,695 --> 00:02:12,503
+E a parte ci sono i piani di squadra,
+pensati per un'organizzazione.
+
+44
+00:02:12,893 --> 00:02:14,269
+Partiamo dal gratuito.
+
+45
+00:02:14,309 --> 00:02:18,774
+ChatGPT offre chat di testo senza un
+limite fisso, con limiti su file,
+
+46
+00:02:18,814 --> 00:02:23,279
+immagini, voce e ricerche approfondite, e
+in Italia mostra pubblicità.
+
+47
+00:02:23,319 --> 00:02:25,660
+Claude offre chat, ricerca web, file,
+
+48
+00:02:25,700 --> 00:02:28,427
+memoria, Artifact e fino a cinque
+Progetti.
+
+49
+00:02:28,467 --> 00:02:33,576
+Gemini sceglie il modello in automatico e
+ha Gem e collegamento a Gmail e Drive.
+
+50
+00:02:33,965 --> 00:02:36,189
+Andiamo a vedere le pagine ufficiali,
+
+51
+00:02:36,229 --> 00:02:38,943
+perché nomi e prezzi cambiano spesso e
+questa
+
+52
+00:02:38,983 --> 00:02:41,819
+lezione è aggiornata a ottobre
+duemilaventisei.
+
+53
+00:02:41,859 --> 00:02:45,246
+Per ChatGPT la pagina è chatgpt punto com
+barra pricing.
+
+54
+00:02:45,286 --> 00:02:46,776
+Scorri con calma i piani,
+
+55
+00:02:46,816 --> 00:02:50,815
+e guarda cosa cambia davvero da uno
+all'altro, non solo il prezzo.
+
+56
+00:02:51,205 --> 00:02:53,950
+Il gradino economico esiste per due
+strumenti.
+
+57
+00:02:53,990 --> 00:02:58,308
+ChatGPT Go dà più messaggi, file e
+immagini, ma può mostrare pubblicità.
+
+58
+00:02:58,348 --> 00:03:02,788
+Google AI Plus, annunciato in Italia a
+quattro euro e novantanove al mese,
+
+59
+00:03:02,828 --> 00:03:05,633
+raddoppia i limiti di Gemini e aggiunge
+spazio.
+
+60
+00:03:05,673 --> 00:03:08,660
+Claude, invece, un piano economico non lo
+prevede.
+
+61
+00:03:09,050 --> 00:03:13,816
+L'abbonamento individuale standard costa
+intorno ai venti al mese per tutti e tre.
+
+62
+00:03:13,856 --> 00:03:16,570
+ChatGPT Plus e Claude Pro sono a venti
+dollari,
+
+63
+00:03:16,610 --> 00:03:19,091
+e Claude costa meno se paghi l'anno
+intero.
+
+64
+00:03:19,131 --> 00:03:22,431
+Google AI Pro in Italia costa ventuno euro
+e novantanove.
+
+65
+00:03:22,471 --> 00:03:25,889
+Le cifre si somigliano: la differenza la
+fanno le funzioni.
+
+66
+00:03:26,279 --> 00:03:27,886
+Cosa ottieni a quel prezzo?
+
+67
+00:03:27,926 --> 00:03:32,521
+Con Plus niente pubblicità, modelli più
+potenti e più ricerche approfondite.
+
+68
+00:03:32,561 --> 00:03:36,241
+Con Claude Pro più utilizzo, Progetti
+senza limite di numero,
+
+69
+00:03:36,281 --> 00:03:38,619
+il modello Opus e Claude dentro Chrome.
+
+70
+00:03:38,659 --> 00:03:41,729
+Con Google AI Pro limiti quadrupli, il
+modello Pro,
+
+71
+00:03:41,769 --> 00:03:45,389
+cinque terabyte di spazio e Gemini dentro
+Gmail e Documenti.
+
+72
+00:03:45,779 --> 00:03:48,170
+Fai lo stesso controllo sugli altri due.
+
+73
+00:03:48,210 --> 00:03:51,452
+Per Claude la pagina è claude punto com
+barra pricing.
+
+74
+00:03:51,492 --> 00:03:55,098
+Per Gemini cerca la pagina dei piani
+Google One o Google AI.
+
+75
+00:03:55,138 --> 00:03:57,651
+Ti consiglio di aprirle una volta adesso e
+
+76
+00:03:57,691 --> 00:04:00,386
+poi di tornarci prima di qualsiasi
+decisione:
+
+77
+00:04:00,426 --> 00:04:03,911
+qui ti diamo la mappa, i dati aggiornati
+li trovi solo lì.
+
+78
+00:04:04,301 --> 00:04:07,506
+In cima alla scala ci sono i piani per uso
+intensivo,
+
+79
+00:04:07,546 --> 00:04:10,138
+tutti da circa cento dollari al mese in
+su.
+
+80
+00:04:10,178 --> 00:04:15,281
+ChatGPT Pro, Claude Max con cinque o venti
+volte l'utilizzo di Pro, Google AI Ultra.
+
+81
+00:04:15,321 --> 00:04:18,526
+A parte ci sono i piani di squadra:
+ChatGPT Business,
+
+82
+00:04:18,566 --> 00:04:21,036
+Claude Team, Google Workspace con Gemini.
+
+83
+00:04:21,076 --> 00:04:22,751
+Su questi torniamo tra poco.
+
+84
+00:04:23,140 --> 00:04:27,417
+Per una sede sindacale i piani da cento
+dollari sono quasi sempre fuori scala.
+
+85
+00:04:27,457 --> 00:04:31,955
+Servono a chi lavora tutto il giorno con
+questi strumenti, su volumi molto grandi.
+
+86
+00:04:31,995 --> 00:04:35,442
+Il vero bivio per la maggior parte di voi
+è un altro: gratuito,
+
+87
+00:04:35,482 --> 00:04:39,593
+un solo abbonamento standard, oppure un
+piano di squadra per la segreteria.
+
+88
+00:04:39,983 --> 00:04:41,395
+Una novità da conoscere.
+
+89
+00:04:41,435 --> 00:04:44,119
+Da fine agosto duemilaventisei ChatGPT
+mostra
+
+90
+00:04:44,159 --> 00:04:47,689
+annunci pubblicitari in Italia a chi usa i
+piani Free e Go.
+
+91
+00:04:47,729 --> 00:04:51,078
+Li vedi sotto la risposta, segnalati come
+sponsorizzati.
+
+92
+00:04:51,118 --> 00:04:53,439
+Plus e i piani superiori ne sono privi.
+
+93
+00:04:53,479 --> 00:04:56,767
+È uno dei segnali da annotare se ti
+rallentano davvero.
+
+94
+00:04:57,157 --> 00:04:59,288
+Cosa dichiara OpenAI su questi annunci?
+
+95
+00:04:59,328 --> 00:05:02,462
+Che sono separati dalla risposta, che non
+la influenzano,
+
+96
+00:05:02,502 --> 00:05:04,299
+e che spariscono passando a Plus.
+
+97
+00:05:04,339 --> 00:05:08,530
+Prendi queste dichiarazioni per quello che
+sono, cioè impegni del fornitore.
+
+98
+00:05:08,570 --> 00:05:12,483
+E se vuoi i dettagli aggiornati, cercali
+sempre sulle pagine ufficiali.
+
+99
+00:05:12,873 --> 00:05:16,012
+L'errore tipico è abbonarsi a tutti e tre,
+per non sbagliare.
+
+100
+00:05:16,052 --> 00:05:19,712
+Nella maggior parte delle sedi questi
+strumenti si sovrappongono molto.
+
+101
+00:05:19,752 --> 00:05:23,882
+Meglio un solo abbonamento, scelto con i
+dati che raccoglierai in questo modulo,
+
+102
+00:05:23,922 --> 00:05:25,810
+e i piani gratuiti per gli altri due.
+
+103
+00:05:26,200 --> 00:05:27,090
+Facciamo i conti.
+
+104
+00:05:27,130 --> 00:05:31,030
+Tre abbonamenti standard fanno tra i
+sessanta e i settanta euro al mese.
+
+105
+00:05:31,070 --> 00:05:33,163
+In un anno superano gli ottocento euro,
+
+106
+00:05:33,203 --> 00:05:36,118
+per strumenti che fanno in buona parte le
+stesse cose.
+
+107
+00:05:36,158 --> 00:05:38,690
+Per una sede sono soldi che hanno usi
+migliori,
+
+108
+00:05:38,730 --> 00:05:41,042
+a cominciare dalla formazione dei
+delegati.
+
+109
+00:05:41,432 --> 00:05:43,701
+Adesso capiamo come funzionano i limiti,
+
+110
+00:05:43,741 --> 00:05:48,144
+perché il messaggio hai raggiunto il
+limite spaventa ma segue regole precise.
+
+111
+00:05:48,184 --> 00:05:50,972
+Ogni richiesta consuma una parte della tua
+quota.
+
+112
+00:05:51,012 --> 00:05:53,108
+La quota si ricarica dopo alcune ore.
+
+113
+00:05:53,148 --> 00:05:55,012
+E sopra c'è un tetto settimanale.
+
+114
+00:05:55,052 --> 00:05:59,225
+Quando lo superi, lo strumento si ferma o
+passa a un modello più leggero.
+
+115
+00:05:59,616 --> 00:06:01,749
+Ogni strumento lo applica a modo suo.
+
+116
+00:06:01,789 --> 00:06:05,920
+ChatGPT gratuito lascia libero il testo,
+ma ha limiti separati su file,
+
+117
+00:06:05,960 --> 00:06:08,211
+immagini, voce e ragionamento avanzato.
+
+118
+00:06:08,251 --> 00:06:11,559
+Claude ha una sessione che si ripristina
+ogni cinque ore,
+
+119
+00:06:11,599 --> 00:06:13,086
+più un limite settimanale.
+
+120
+00:06:13,126 --> 00:06:15,200
+Gemini, dopo maggio duemilaventisei,
+
+121
+00:06:15,240 --> 00:06:18,666
+misura il consumo di calcolo, con ricarica
+ogni cinque ore.
+
+122
+00:06:19,056 --> 00:06:20,831
+Quando Claude ti avvisa del limite,
+
+123
+00:06:20,871 --> 00:06:24,098
+il messaggio ti dice anche a che ora si
+ripristina la sessione.
+
+124
+00:06:24,138 --> 00:06:27,883
+Nei piani a pagamento trovi nelle
+impostazioni una sezione sull'utilizzo,
+
+125
+00:06:27,923 --> 00:06:30,061
+con l'indicazione di quanto hai consumato.
+
+126
+00:06:30,101 --> 00:06:33,484
+Guardala ogni tanto: ti aiuta a capire
+quali lavori pesano di più.
+
+127
+00:06:33,874 --> 00:06:36,264
+Ecco il punto che quasi nessuno conosce.
+
+128
+00:06:36,304 --> 00:06:38,511
+Non conta solo quanti messaggi mandi.
+
+129
+00:06:38,551 --> 00:06:40,151
+Conta quanto pesa ciascuno.
+
+130
+00:06:40,191 --> 00:06:44,160
+Una richiesta lunga e complessa consuma
+molto di più di una breve,
+
+131
+00:06:44,200 --> 00:06:46,043
+e il conto sale a ogni scambio,
+
+132
+00:06:46,083 --> 00:06:50,113
+perché a ogni risposta lo strumento
+rilegge tutta la conversazione.
+
+133
+00:06:50,502 --> 00:06:51,606
+Facciamo un esempio.
+
+134
+00:06:51,646 --> 00:06:55,095
+Dieci domande brevi, ciascuna in una chat
+nuova, pesano poco.
+
+135
+00:06:55,135 --> 00:06:59,843
+Una sola conversazione lunga, con un PDF
+di ottanta pagine allegato e venti scambi,
+
+136
+00:06:59,883 --> 00:07:01,845
+pesa moltissimo: a ogni risposta lo
+
+137
+00:07:01,885 --> 00:07:04,648
+strumento rielabora di nuovo tutte quelle
+pagine.
+
+138
+00:07:04,688 --> 00:07:07,450
+È lì che arriva il blocco del venerdì
+pomeriggio.
+
+139
+00:07:07,841 --> 00:07:10,927
+Da qui nascono tre abitudini che fanno
+risparmiare quota.
+
+140
+00:07:10,967 --> 00:07:13,285
+Apri una nuova chat quando cambi
+argomento.
+
+141
+00:07:13,325 --> 00:07:16,466
+Allega solo le pagine che servono, non
+l'intero fascicolo.
+
+142
+00:07:16,506 --> 00:07:20,085
+E usa il modello che ragiona a lungo solo
+per i compiti difficili,
+
+143
+00:07:20,125 --> 00:07:23,485
+come l'analisi di un accordo, non per
+riscrivere un messaggio.
+
+144
+00:07:23,875 --> 00:07:26,757
+E quando una conversazione è diventata
+lunga e lenta,
+
+145
+00:07:26,797 --> 00:07:28,577
+non devi perdere il lavoro fatto.
+
+146
+00:07:28,617 --> 00:07:31,610
+Chiedi un riassunto di massimo dodici
+righe: obiettivo,
+
+147
+00:07:31,650 --> 00:07:34,587
+decisioni prese, testo approvato, cose
+ancora da fare.
+
+148
+00:07:34,627 --> 00:07:38,723
+Lo incolli in una chat nuova e riparti
+leggero, con tutto quello che conta.
+
+149
+00:07:39,113 --> 00:07:40,237
+Vediamolo a schermo.
+
+150
+00:07:40,277 --> 00:07:44,543
+Nella chat lunga sulla nota post incontro
+incolli il prompt del riassunto.
+
+151
+00:07:44,583 --> 00:07:48,616
+Copi il risultato, premi nuova chat e lo
+incolli come primo messaggio,
+
+152
+00:07:48,656 --> 00:07:50,594
+aggiungendo cosa vuoi fare adesso.
+
+153
+00:07:50,634 --> 00:07:53,038
+Lo strumento riparte da un testo di dodici
+
+154
+00:07:53,078 --> 00:07:55,948
+righe invece che da cento pagine di
+conversazione.
+
+155
+00:07:56,337 --> 00:07:58,917
+Ecco un estratto verosimile di quel
+riassunto.
+
+156
+00:07:58,957 --> 00:08:03,188
+Obiettivo, decisioni, testo approvato e
+cose da fare, tutto in poche righe.
+
+157
+00:08:03,228 --> 00:08:05,409
+Controllalo sempre prima di incollarlo:
+
+158
+00:08:05,449 --> 00:08:08,199
+se manca una decisione importante,
+aggiungila tu.
+
+159
+00:08:08,239 --> 00:08:10,990
+Il riassunto diventa la memoria della
+nuova chat.
+
+160
+00:08:11,380 --> 00:08:13,466
+Ora i segnali che conviene pagare.
+
+161
+00:08:13,506 --> 00:08:16,718
+Ti fermi per il limite più di due volte a
+settimana.
+
+162
+00:08:16,758 --> 00:08:20,719
+Lavori ogni settimana su documenti lunghi,
+come CCNL e delibere.
+
+163
+00:08:20,759 --> 00:08:22,720
+Ti servono molti Progetti fissi.
+
+164
+00:08:22,760 --> 00:08:26,472
+La pubblicità o i limiti sui file ti
+rallentano ogni giorno.
+
+165
+00:08:26,512 --> 00:08:29,911
+Oppure vuoi Gemini dentro Gmail e Drive
+tutti i giorni.
+
+166
+00:08:30,301 --> 00:08:32,631
+E se nessuno di questi segnali si
+presenta?
+
+167
+00:08:32,671 --> 00:08:34,946
+Allora resta gratis, senza sensi di colpa.
+
+168
+00:08:34,986 --> 00:08:35,883
+Non è un ripiego.
+
+169
+00:08:35,923 --> 00:08:38,032
+È una scelta seria, fatta su dati veri.
+
+170
+00:08:38,072 --> 00:08:40,292
+Potrai sempre rivederla tra qualche mese,
+
+171
+00:08:40,332 --> 00:08:42,772
+quando il tuo modo di lavorare sarà
+cambiato.
+
+172
+00:08:43,162 --> 00:08:45,837
+Guarda come ha fatto una segreteria
+provinciale.
+
+173
+00:08:45,877 --> 00:08:48,325
+Per una settimana tiene un foglio
+condiviso.
+
+174
+00:08:48,365 --> 00:08:52,510
+Luca si è fermato quattro volte su Claude
+caricando l'accordo integrativo.
+
+175
+00:08:52,550 --> 00:08:56,695
+Sara non ha mai trovato limiti su ChatGPT,
+ma è infastidita dagli annunci.
+
+176
+00:08:56,735 --> 00:08:58,618
+Nessuno ha usato Gemini con Gmail.
+
+177
+00:08:59,008 --> 00:09:02,323
+La decisione è una sola: un abbonamento
+Claude Pro per Luca,
+
+178
+00:09:02,363 --> 00:09:05,735
+che segue la contrattazione e lavora
+davvero su testi lunghi.
+
+179
+00:09:05,775 --> 00:09:09,202
+Gli altri restano sui piani gratuiti e
+riprovano tra tre mesi.
+
+180
+00:09:09,242 --> 00:09:12,334
+Un abbonamento al posto di tre, con una
+ragione scritta.
+
+181
+00:09:12,374 --> 00:09:14,403
+È esattamente il metodo che vogliamo.
+
+182
+00:09:14,793 --> 00:09:19,006
+Il tuo diario può essere un semplice
+foglio di calcolo con cinque colonne.
+
+183
+00:09:19,046 --> 00:09:22,455
+Giorno, strumento, compito, limite
+incontrato e tempo perso.
+
+184
+00:09:22,495 --> 00:09:26,076
+Ogni volta che qualcosa ti blocca, lo
+scrivi subito, con l'ora.
+
+185
+00:09:26,116 --> 00:09:29,869
+Bastano dieci secondi: è il materiale che
+ti servirà per decidere.
+
+186
+00:09:30,259 --> 00:09:33,180
+Dopo sette giorni incolli il diario in
+questo prompt.
+
+187
+00:09:33,220 --> 00:09:37,201
+Chiedi quale limite si ripete di più, se
+si risolve cambiando abitudini,
+
+188
+00:09:37,241 --> 00:09:39,659
+e se no quale tipo di piano lo
+risolverebbe.
+
+189
+00:09:39,699 --> 00:09:41,559
+Nota l'ultima riga: niente prezzi.
+
+190
+00:09:41,599 --> 00:09:44,128
+Quelli li verifichi tu sulle pagine
+ufficiali,
+
+191
+00:09:44,168 --> 00:09:46,474
+perché l'IA potrebbe conoscerne di vecchi.
+
+192
+00:09:46,864 --> 00:09:48,512
+Ecco come potrebbe rispondere.
+
+193
+00:09:48,552 --> 00:09:50,819
+Individua il limite che torna più spesso,
+
+194
+00:09:50,859 --> 00:09:55,207
+ti suggerisce prima di cambiare abitudini
+e solo dopo indica il tipo di piano.
+
+195
+00:09:55,247 --> 00:09:59,708
+È un buon secondo parere, ma la decisione
+resta tua, e i prezzi li controlli tu.
+
+196
+00:10:00,098 --> 00:10:03,466
+Resta un'ultima differenza, importante per
+una segreteria.
+
+197
+00:10:03,506 --> 00:10:06,874
+Un piano individuale è un contratto tra te
+e il fornitore.
+
+198
+00:10:06,914 --> 00:10:11,046
+Un piano di squadra è un contratto tra
+l'organizzazione e il fornitore,
+
+199
+00:10:11,086 --> 00:10:13,925
+con un amministratore che gestisce gli
+accessi e,
+
+200
+00:10:13,965 --> 00:10:17,979
+di norma, l'impegno a non usare i
+contenuti per addestrare i modelli.
+
+201
+00:10:18,369 --> 00:10:21,131
+Qui entra in gioco il GDPR, all'articolo
+ventotto.
+
+202
+00:10:21,171 --> 00:10:23,708
+Quando un'organizzazione affida a un
+fornitore
+
+203
+00:10:23,748 --> 00:10:26,566
+il trattamento di dati personali per
+proprio conto,
+
+204
+00:10:26,606 --> 00:10:30,376
+serve un contratto che lo vincoli come
+responsabile del trattamento.
+
+205
+00:10:30,416 --> 00:10:34,018
+I piani di squadra di solito lo prevedono,
+quelli individuali no.
+
+206
+00:10:34,408 --> 00:10:38,730
+Se vuoi proporre un piano di squadra alla
+tua segreteria, arriva preparato.
+
+207
+00:10:38,770 --> 00:10:41,347
+Questo prompt ti fa preparare otto domande
+da
+
+208
+00:10:41,387 --> 00:10:44,023
+verificare sulla documentazione del
+fornitore:
+
+209
+00:10:44,063 --> 00:10:44,837
+addestramento,
+
+210
+00:10:44,877 --> 00:10:48,443
+conservazione, accordo sul trattamento,
+gestione degli utenti,
+
+211
+00:10:48,483 --> 00:10:50,711
+costi per posto e uscita dal contratto.
+
+212
+00:10:51,102 --> 00:10:53,635
+Attenzione però a un equivoco pericoloso.
+
+213
+00:10:53,675 --> 00:10:55,956
+Pensare che, con il piano di squadra,
+
+214
+00:10:55,996 --> 00:11:00,223
+si possano incollare tranquillamente
+certificati, iscrizioni e nomi.
+
+215
+00:11:00,263 --> 00:11:00,914
+Non è così.
+
+216
+00:11:00,954 --> 00:11:04,867
+Il contratto migliora le garanzie, ma la
+regola resta identica:
+
+217
+00:11:04,907 --> 00:11:08,381
+niente dati di salute, iscrizioni o nomi
+dei lavoratori.
+
+218
+00:11:08,770 --> 00:11:10,266
+Torna al venerdì pomeriggio.
+
+219
+00:11:10,306 --> 00:11:14,107
+Con quello che sai adesso, il blocco di
+Claude non è più una sorpresa.
+
+220
+00:11:14,147 --> 00:11:18,112
+Sai perché è arrivato, puoi ripartire con
+un riassunto in una chat nuova,
+
+221
+00:11:18,152 --> 00:11:21,294
+e sai che una volta sola non basta per
+decidere di pagare.
+
+222
+00:11:21,334 --> 00:11:23,214
+Lo annoti nel diario, e vai avanti.
+
+223
+00:11:23,604 --> 00:11:26,591
+Se ti porti a casa una sola frase, che sia
+questa.
+
+224
+00:11:26,631 --> 00:11:30,829
+Non pagare per curiosità: paga per un
+limite che hai annotato davvero,
+
+225
+00:11:30,869 --> 00:11:33,856
+e verifica sempre i prezzi sulle pagine
+ufficiali.
+
+226
+00:11:34,246 --> 00:11:35,089
+Ora tocca a te.
+
+227
+00:11:35,129 --> 00:11:37,444
+Prepara il foglio con le cinque colonne.
+
+228
+00:11:37,484 --> 00:11:39,563
+Per sette giorni usa i tre strumenti
+
+229
+00:11:39,603 --> 00:11:42,507
+gratuiti per compiti veri ma senza dati
+personali:
+
+230
+00:11:42,547 --> 00:11:45,392
+bozze, riassunti di norme, idee per un
+volantino.
+
+231
+00:11:45,432 --> 00:11:49,101
+Ogni volta che un limite ti blocca,
+scrivilo subito, con l'ora.
+
+232
+00:11:49,490 --> 00:11:52,098
+Alla fine della settimana incolli il
+diario nel
+
+233
+00:11:52,138 --> 00:11:54,803
+prompt di analisi e prendi una di tre
+decisioni.
+
+234
+00:11:54,843 --> 00:11:55,535
+Resto gratis.
+
+235
+00:11:55,575 --> 00:11:59,592
+Provo per un mese un solo abbonamento,
+quello che risolve il mio limite.
+
+236
+00:11:59,632 --> 00:12:02,521
+Oppure propongo alla segreteria un piano
+di squadra,
+
+237
+00:12:02,561 --> 00:12:04,268
+con le otto domande già pronte.
+
+238
+00:12:04,658 --> 00:12:07,294
+Qualunque cosa decidi, scrivila insieme al
+motivo.
+
+239
+00:12:07,334 --> 00:12:10,933
+Tra tre mesi gli strumenti saranno
+cambiati, e forse anche i prezzi.
+
+240
+00:12:10,973 --> 00:12:14,358
+Ma avrai un metodo per ripetere la
+valutazione in una settimana,
+
+241
+00:12:14,398 --> 00:12:17,516
+senza farti trascinare né dalla pubblicità
+né dalla fretta.
+
+242
+00:12:17,906 --> 00:12:21,067
+Nella prossima lezione guardiamo i talenti
+di ciascuno:
+
+243
+00:12:21,107 --> 00:12:23,685
+Claude per i documenti lunghi e la
+scrittura,
+
+244
+00:12:23,725 --> 00:12:26,187
+Gemini per chi lavora dentro Gmail e
+Drive,
+
+245
+00:12:26,227 --> 00:12:28,806
+ChatGPT come generalista con voce e
+immagini.
+
+246
+00:12:28,846 --> 00:12:31,250
+E li mettiamo alla prova con un riassunto.
+
+247
+00:12:31,290 --> 00:12:33,519
+Ci vediamo nella lezione due punto tre.
