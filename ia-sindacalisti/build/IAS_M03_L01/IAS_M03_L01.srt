@@ -1,0 +1,1138 @@
+1
+00:00:03,000 --> 00:00:07,383
+Benvenuto alla lezione tre punto uno, la
+prima del modulo sulla privacy.
+
+2
+00:00:07,423 --> 00:00:09,410
+Oggi parliamo dei dati che non si
+
+3
+00:00:09,450 --> 00:00:12,174
+incollano mai in un'intelligenza
+artificiale:
+
+4
+00:00:12,214 --> 00:00:15,491
+salute, iscrizione al sindacato, nomi,
+codici fiscali.
+
+5
+00:00:15,531 --> 00:00:20,221
+Imparerai a riconoscerli in un testo di
+sede e a lavorare con l'IA lo stesso,
+
+6
+00:00:20,261 --> 00:00:22,186
+senza mettere a rischio nessuno.
+
+7
+00:00:22,826 --> 00:00:24,133
+Lunedì mattina, in sede.
+
+8
+00:00:24,173 --> 00:00:27,163
+Arriva una delegata con una cartella sotto
+il braccio.
+
+9
+00:00:27,203 --> 00:00:31,204
+Dentro ci sono i certificati di
+un'infermiera in malattia da molti mesi,
+
+10
+00:00:31,244 --> 00:00:35,413
+i suoi turni e una lettera dell'azienda
+che parla di scadenza del comporto.
+
+11
+00:00:35,453 --> 00:00:38,668
+La delegata ha fretta e ti chiede una mano
+per rispondere.
+
+12
+00:00:39,309 --> 00:00:41,065
+La tentazione è comprensibile.
+
+13
+00:00:41,105 --> 00:00:45,856
+Apri ChatGPT, copi certificati, turni e
+lettera, e chiedi una bozza di risposta.
+
+14
+00:00:45,896 --> 00:00:48,251
+In due minuti avresti un testo ordinato.
+
+15
+00:00:48,291 --> 00:00:51,185
+Ma in quei due minuti la diagnosi di una
+collega,
+
+16
+00:00:51,225 --> 00:00:55,616
+e il fatto stesso che si sia rivolta al
+sindacato, sono usciti dalla sede.
+
+17
+00:00:56,256 --> 00:00:58,795
+Ecco il punto da cui parte tutto il
+modulo.
+
+18
+00:00:58,835 --> 00:01:02,153
+Un'IA online non è un programma chiuso nel
+tuo computer.
+
+19
+00:01:02,193 --> 00:01:05,212
+È un servizio esterno, gestito da
+un'azienda terza.
+
+20
+00:01:05,252 --> 00:01:08,930
+Tutto quello che scrivi o alleghi viaggia
+fino ai suoi server,
+
+21
+00:01:08,970 --> 00:01:11,329
+e lì resta, almeno per un certo periodo.
+
+22
+00:01:11,969 --> 00:01:14,342
+Senza IA, oggi, quel lavoro si fa così.
+
+23
+00:01:14,382 --> 00:01:19,107
+Si leggono i documenti uno per uno, si
+cerca l'articolo giusto del contratto,
+
+24
+00:01:19,147 --> 00:01:21,891
+si scrive la risposta a mano, spesso la
+sera.
+
+25
+00:01:21,931 --> 00:01:24,057
+È lento, ma i dati restano in sede.
+
+26
+00:01:24,097 --> 00:01:29,007
+Il nostro obiettivo è tenere la velocità
+dell'IA senza perdere questa sicurezza.
+
+27
+00:01:29,646 --> 00:01:32,318
+Cosa succede, concretamente, al testo che
+incolli?
+
+28
+00:01:32,358 --> 00:01:34,324
+Viene conservato dal fornitore per un
+
+29
+00:01:34,364 --> 00:01:36,711
+periodo che cambia da strumento a
+strumento.
+
+30
+00:01:36,751 --> 00:01:41,158
+Sulle versioni personali può servire ad
+addestrare i modelli, se non lo disattivi.
+
+31
+00:01:41,198 --> 00:01:43,978
+E in alcuni casi può essere letto da
+revisori umani.
+
+32
+00:01:44,619 --> 00:01:46,337
+Non è un'ipotesi da allarmisti.
+
+33
+00:01:46,377 --> 00:01:48,606
+Google, nelle pagine di aiuto di Gemini,
+
+34
+00:01:48,646 --> 00:01:51,442
+scrive esplicitamente di non inserire
+informazioni
+
+35
+00:01:51,482 --> 00:01:54,392
+riservate che non vorresti far vedere a un
+revisore.
+
+36
+00:01:54,432 --> 00:01:55,980
+Lo dice il fornitore stesso.
+
+37
+00:01:56,020 --> 00:01:57,852
+Come ridurre questi rischi con le
+
+38
+00:01:57,892 --> 00:02:01,028
+impostazioni lo vediamo nella lezione tre
+punto quattro.
+
+39
+00:02:01,668 --> 00:02:03,878
+Fissa il percorso con questo schema.
+
+40
+00:02:03,918 --> 00:02:05,191
+Tu scrivi nella chat.
+
+41
+00:02:05,231 --> 00:02:07,692
+Il testo arriva ai server del fornitore.
+
+42
+00:02:07,732 --> 00:02:08,942
+Lì viene conservato.
+
+43
+00:02:08,982 --> 00:02:13,505
+E da lì può finire in un addestramento, o
+sotto gli occhi di un revisore.
+
+44
+00:02:13,545 --> 00:02:18,319
+Una volta premuto Invio, non sei più tu a
+decidere cosa succede a quel testo.
+
+45
+00:02:18,958 --> 00:02:21,378
+Per un sindacato il problema pesa doppio.
+
+46
+00:02:21,418 --> 00:02:24,858
+Il Regolamento europeo sulla protezione
+dei dati, il GDPR,
+
+47
+00:02:24,898 --> 00:02:27,558
+all'articolo nove mette salute e
+appartenenza
+
+48
+00:02:27,598 --> 00:02:30,378
+sindacale tra le categorie particolari di
+dati.
+
+49
+00:02:30,418 --> 00:02:32,538
+È il livello di protezione più alto.
+
+50
+00:02:32,578 --> 00:02:34,158
+Il sindacato può trattarli,
+
+51
+00:02:34,198 --> 00:02:37,818
+ma solo nelle sue attività legittime e con
+garanzie adeguate.
+
+52
+00:02:38,458 --> 00:02:40,913
+Incollare quei dati in un servizio esterno
+che
+
+53
+00:02:40,953 --> 00:02:44,277
+l'organizzazione non ha scelto non rientra
+in quelle garanzie.
+
+54
+00:02:44,317 --> 00:02:47,152
+E c'è una ragione che viene ancora prima
+della legge.
+
+55
+00:02:47,192 --> 00:02:50,624
+Chi entra in sede ci affida cose che non
+direbbe a nessun altro.
+
+56
+00:02:50,664 --> 00:02:53,173
+Una diagnosi, un conflitto con il
+coordinatore,
+
+57
+00:02:53,213 --> 00:02:55,072
+il fatto stesso di essere iscritto.
+
+58
+00:02:55,712 --> 00:02:58,532
+Per orientarti usa una mappa a tre colori.
+
+59
+00:02:58,572 --> 00:03:02,686
+Rosso vuol dire mai, in nessuna forma:
+diagnosi, certificati,
+
+60
+00:03:02,726 --> 00:03:06,773
+iscrizione, codice fiscale, IBAN,
+procedimenti disciplinari.
+
+61
+00:03:06,813 --> 00:03:09,837
+Giallo vuol dire togliere o sostituire:
+nomi,
+
+62
+00:03:09,877 --> 00:03:12,561
+matricole, date esatte, reparti piccoli.
+
+63
+00:03:12,601 --> 00:03:17,805
+Verde vuol dire si può: un CCNL, una
+delibera pubblica, una domanda generale.
+
+64
+00:03:18,445 --> 00:03:20,261
+Il giallo è la zona più insidiosa.
+
+65
+00:03:20,301 --> 00:03:21,954
+Il nome si toglie in un attimo.
+
+66
+00:03:21,994 --> 00:03:23,592
+Ma pensa a questa descrizione:
+
+67
+00:03:23,632 --> 00:03:27,632
+l'unica operatrice sociosanitaria sopra i
+sessant'anni di una cardiologia,
+
+68
+00:03:27,672 --> 00:03:29,817
+con i permessi della legge centoquattro.
+
+69
+00:03:29,857 --> 00:03:33,366
+Chi lavora in quel reparto la riconosce
+subito, anche senza nome.
+
+70
+00:03:34,006 --> 00:03:36,687
+Per questo il GDPR non protegge solo il
+nome.
+
+71
+00:03:36,727 --> 00:03:40,013
+All'articolo quattro definisce dato
+personale qualsiasi
+
+72
+00:03:40,053 --> 00:03:43,520
+informazione su una persona identificata o
+identificabile.
+
+73
+00:03:43,560 --> 00:03:47,934
+Identificabile significa che ci si può
+arrivare mettendo insieme i pezzi.
+
+74
+00:03:47,974 --> 00:03:49,990
+E spesso bastano pochissimi pezzi.
+
+75
+00:03:50,630 --> 00:03:52,318
+Reparto, età, una patologia.
+
+76
+00:03:52,358 --> 00:03:55,219
+Oppure mansione, turno e data di un
+infortunio.
+
+77
+00:03:55,259 --> 00:03:59,848
+Combinazioni così, in un ospedale, puntano
+quasi sempre a una sola persona.
+
+78
+00:03:59,888 --> 00:04:02,008
+Prima di incollare, chiediti quanti
+
+79
+00:04:02,048 --> 00:04:04,724
+colleghi corrispondono a quella
+descrizione.
+
+80
+00:04:04,764 --> 00:04:07,439
+Se la risposta è uno, il testo non è
+pronto.
+
+81
+00:04:08,079 --> 00:04:11,387
+C'è poi un canale che si dimentica spesso:
+gli allegati.
+
+82
+00:04:11,427 --> 00:04:15,752
+Un PDF o la foto di una lettera
+dell'azienda portano con sé intestazioni,
+
+83
+00:04:15,792 --> 00:04:19,459
+numeri di protocollo, firme, a volte i
+nomi di altri colleghi.
+
+84
+00:04:19,499 --> 00:04:23,047
+Nel testo che scrivi tu non li vedi, ma
+l'IA li legge tutti.
+
+85
+00:04:23,687 --> 00:04:26,295
+Ecco il primo errore tipico, e il più
+diffuso.
+
+86
+00:04:26,335 --> 00:04:30,209
+Si cancella il nome, ci si sente a posto e
+si lascia tutto il resto:
+
+87
+00:04:30,249 --> 00:04:31,879
+reparto, data, età, mansione.
+
+88
+00:04:31,919 --> 00:04:36,023
+Oppure si scrive un testo pulito e poi si
+allega il documento originale.
+
+89
+00:04:36,063 --> 00:04:38,902
+In entrambi i casi la persona resta
+riconoscibile.
+
+90
+00:04:39,542 --> 00:04:42,210
+Togliere i dati non significa rinunciare
+all'IA.
+
+91
+00:04:42,250 --> 00:04:46,216
+Quasi tutto il lavoro utile di sede si fa
+sulla struttura del problema.
+
+92
+00:04:46,256 --> 00:04:50,053
+Togli la persona, tieni il problema,
+chiedi all'IA cosa controllare.
+
+93
+00:04:50,093 --> 00:04:53,156
+Poi completi tu, in sede, con i documenti
+veri davanti.
+
+94
+00:04:53,796 --> 00:04:56,227
+Vediamolo a schermo con il caso del
+lunedì.
+
+95
+00:04:56,267 --> 00:04:58,526
+Apri una nuova conversazione in ChatGPT.
+
+96
+00:04:58,566 --> 00:05:02,319
+Al posto di certificati e lettera,
+scriverai una domanda generale.
+
+97
+00:05:02,359 --> 00:05:06,169
+Profilo professionale, durata
+dell'assenza, la questione da capire.
+
+98
+00:05:06,209 --> 00:05:06,859
+Nient'altro.
+
+99
+00:05:06,899 --> 00:05:09,445
+Niente nomi, niente reparto, niente
+diagnosi.
+
+100
+00:05:10,085 --> 00:05:11,749
+Ecco il prompt della dispensa.
+
+101
+00:05:11,789 --> 00:05:15,668
+Dai un ruolo all'IA: esperto di
+contrattazione nella sanità pubblica.
+
+102
+00:05:15,708 --> 00:05:19,246
+Descrivi la situazione solo con il profilo
+e i mesi di assenza.
+
+103
+00:05:19,286 --> 00:05:23,450
+Poi chiedi quali regole del contratto sul
+periodo di comporto controllare,
+
+104
+00:05:23,490 --> 00:05:27,766
+quali documenti chiedere, quali errori
+evitare, e quali articoli verificare.
+
+105
+00:05:28,406 --> 00:05:29,821
+Compili i due segnaposto.
+
+106
+00:05:29,861 --> 00:05:32,672
+Profilo infermiere, malattia da
+quattordici mesi.
+
+107
+00:05:32,712 --> 00:05:36,279
+Aggiungi che l'azienda ha annunciato la
+scadenza del comporto.
+
+108
+00:05:36,319 --> 00:05:40,235
+Rileggi prima di inviare: c'è qualcosa che
+permetta di capire chi è?
+
+109
+00:05:40,275 --> 00:05:40,410
+No.
+
+110
+00:05:40,450 --> 00:05:42,912
+È la situazione di centinaia di
+infermieri.
+
+111
+00:05:42,952 --> 00:05:44,250
+Ora puoi premere Invio.
+
+112
+00:05:44,890 --> 00:05:46,716
+La risposta arriva in pochi secondi.
+
+113
+00:05:46,756 --> 00:05:49,204
+Un elenco dei punti da verificare nel
+contratto,
+
+114
+00:05:49,244 --> 00:05:51,899
+i documenti da farsi portare, gli errori
+da evitare.
+
+115
+00:05:51,939 --> 00:05:55,372
+Gli articoli indicati vanno sempre
+controllati sul testo ufficiale,
+
+116
+00:05:55,412 --> 00:05:56,927
+come vedrai nel modulo cinque.
+
+117
+00:05:56,967 --> 00:05:59,000
+Ma la struttura del lavoro è già pronta.
+
+118
+00:05:59,641 --> 00:06:00,480
+Tiriamo le somme.
+
+119
+00:06:00,520 --> 00:06:02,807
+La delegata ha ottenuto l'elenco dei punti
+da
+
+120
+00:06:02,847 --> 00:06:05,548
+verificare e una scaletta per parlare con
+la collega.
+
+121
+00:06:05,588 --> 00:06:09,426
+I certificati e la lettera li legge lei,
+in sede, insieme alla lavoratrice.
+
+122
+00:06:09,466 --> 00:06:13,719
+E il tempo risparmiato è praticamente lo
+stesso che avrebbe avuto incollando tutto.
+
+123
+00:06:14,358 --> 00:06:16,488
+La differenza sta tutta in un numero.
+
+124
+00:06:16,528 --> 00:06:18,775
+Dati personali usciti dalla sede: zero.
+
+125
+00:06:18,815 --> 00:06:22,352
+È la regola pratica che il corso ti chiede
+di seguire sempre,
+
+126
+00:06:22,392 --> 00:06:23,876
+la regola dello zero dati.
+
+127
+00:06:23,916 --> 00:06:25,635
+Si lavora su domande generali,
+
+128
+00:06:25,675 --> 00:06:28,685
+su casi resi anonimi o su modelli con i
+campi vuoti.
+
+129
+00:06:29,325 --> 00:06:32,702
+Il secondo modo di lavorare senza dati è
+il modello vuoto.
+
+130
+00:06:32,742 --> 00:06:35,412
+Passa a Claude e apri una nuova
+conversazione.
+
+131
+00:06:35,452 --> 00:06:37,710
+Questa volta chiedi una lettera intera,
+
+132
+00:06:37,750 --> 00:06:41,598
+ma con tutti i dati sostituiti da
+segnaposto tra parentesi quadre.
+
+133
+00:06:41,638 --> 00:06:45,310
+L'IA scrive la forma, tu riempi i campi
+dopo, fuori dalla chat.
+
+134
+00:06:45,950 --> 00:06:46,837
+Ecco il prompt.
+
+135
+00:06:46,877 --> 00:06:49,124
+Una lettera all'ufficio personale per
+
+136
+00:06:49,164 --> 00:06:51,905
+chiedere il ricalcolo delle ferie non
+godute.
+
+137
+00:06:51,945 --> 00:06:54,563
+Indichi esattamente quali segnaposto
+usare:
+
+138
+00:06:54,603 --> 00:06:57,406
+nome del lavoratore, matricola, periodo,
+data.
+
+139
+00:06:57,446 --> 00:06:59,508
+E aggiungi due vincoli importanti:
+
+140
+00:06:59,548 --> 00:07:02,598
+non inventare dati, e non superare
+quindici righe.
+
+141
+00:07:03,238 --> 00:07:05,792
+Il risultato è una lettera completa e
+formale,
+
+142
+00:07:05,832 --> 00:07:07,709
+con i campi vuoti al posto giusto.
+
+143
+00:07:07,749 --> 00:07:09,288
+La salvi tra i tuoi modelli.
+
+144
+00:07:09,328 --> 00:07:11,261
+Quando serve, la apri in un normale
+
+145
+00:07:11,301 --> 00:07:13,911
+programma di scrittura e inserisci i dati
+veri.
+
+146
+00:07:13,951 --> 00:07:16,844
+Il nome del lavoratore non è mai passato
+dalla chat.
+
+147
+00:07:17,483 --> 00:07:21,711
+Tieni a mente questa sequenza, perché la
+userai molte volte nel corso.
+
+148
+00:07:21,751 --> 00:07:25,675
+L'IA lavora sulla forma, sul ragionamento,
+sulle domande da fare.
+
+149
+00:07:25,715 --> 00:07:30,065
+I dati veri entrano solo alla fine, nel
+tuo documento, sul tuo computer.
+
+150
+00:07:30,105 --> 00:07:31,529
+Mai nella conversazione.
+
+151
+00:07:32,169 --> 00:07:33,534
+Ora una domanda scomoda.
+
+152
+00:07:33,574 --> 00:07:37,633
+Quante volte, negli ultimi mesi, hai già
+incollato qualcosa di troppo?
+
+153
+00:07:37,673 --> 00:07:39,975
+Succede a molti, soprattutto all'inizio.
+
+154
+00:07:40,015 --> 00:07:42,903
+Non serve il panico e non serve sentirsi
+in colpa.
+
+155
+00:07:42,943 --> 00:07:46,709
+Serve un controllo fatto con calma, una
+conversazione alla volta.
+
+156
+00:07:47,349 --> 00:07:50,014
+Apri la cronologia dello strumento che usi
+di più.
+
+157
+00:07:50,054 --> 00:07:53,313
+Qui siamo in Gemini, ma il gesto è lo
+stesso negli altri due.
+
+158
+00:07:53,353 --> 00:07:56,721
+Cerca l'ultima conversazione legata al
+lavoro di sede e aprila.
+
+159
+00:07:56,761 --> 00:08:00,832
+Rileggi tutto quello che hai scritto, e
+soprattutto quello che hai allegato.
+
+160
+00:08:01,472 --> 00:08:03,568
+Mentre rileggi, usa i tre colori.
+
+161
+00:08:03,608 --> 00:08:07,193
+Segna in rosso salute, iscrizioni, codici,
+procedimenti.
+
+162
+00:08:07,233 --> 00:08:10,882
+In giallo nomi, matricole, date precise,
+reparti piccoli.
+
+163
+00:08:10,922 --> 00:08:15,672
+Accanto a ogni dato rosso o giallo scrivi
+come avresti potuto sostituirlo:
+
+164
+00:08:15,712 --> 00:08:19,426
+un segnaposto, una generalizzazione, una
+domanda generale.
+
+165
+00:08:20,067 --> 00:08:22,566
+C'è anche un prompt che ti aiuta a
+controllare.
+
+166
+00:08:22,606 --> 00:08:24,079
+Ma attenzione a come lo usi.
+
+167
+00:08:24,119 --> 00:08:26,889
+Lo applichi solo a un testo che hai già
+ripulito tu.
+
+168
+00:08:26,929 --> 00:08:28,185
+L'IA non riscrive nulla:
+
+169
+00:08:28,225 --> 00:08:31,805
+elenca gli elementi che potrebbero ancora
+far riconoscere qualcuno,
+
+170
+00:08:31,845 --> 00:08:34,182
+e per ciascuno propone una
+generalizzazione.
+
+171
+00:08:34,822 --> 00:08:38,226
+Il secondo errore tipico è proprio questo
+prompt usato male.
+
+172
+00:08:38,266 --> 00:08:41,154
+Si incolla il testo originale, con nomi e
+diagnosi,
+
+173
+00:08:41,194 --> 00:08:43,221
+e si chiede all'IA di anonimizzarlo.
+
+174
+00:08:43,261 --> 00:08:47,698
+Sembra furbo, ma per farlo hai appena
+consegnato i dati che volevi proteggere.
+
+175
+00:08:47,738 --> 00:08:49,019
+Il primo filtro sei tu.
+
+176
+00:08:49,059 --> 00:08:50,856
+L'IA è solo la seconda verifica.
+
+177
+00:08:51,496 --> 00:08:54,302
+Ecco un estratto verosimile della seconda
+verifica.
+
+178
+00:08:54,342 --> 00:08:58,041
+L'IA segnala che la data esatta e il
+riferimento al turno di notte,
+
+179
+00:08:58,081 --> 00:09:00,385
+messi insieme, restringono molto il campo.
+
+180
+00:09:00,425 --> 00:09:03,343
+Propone di scrivere a inizio anno e
+durante un turno.
+
+181
+00:09:03,383 --> 00:09:07,082
+Piccole correzioni, ma sono proprio quelle
+che fanno la differenza.
+
+182
+00:09:07,722 --> 00:09:09,981
+Ricapitoliamo le tre strade che hai visto.
+
+183
+00:09:10,021 --> 00:09:13,376
+La domanda generale va bene quando ti
+serve capire una regola.
+
+184
+00:09:13,416 --> 00:09:16,497
+Il modello con segnaposto, quando devi
+produrre un testo.
+
+185
+00:09:16,537 --> 00:09:20,603
+La seconda verifica, quando hai già un
+caso ripulito e vuoi esserne sicuro.
+
+186
+00:09:20,643 --> 00:09:22,574
+In tutte e tre, i dati restano a te.
+
+187
+00:09:23,213 --> 00:09:25,559
+E se nella rilettura trovi un dato rosso?
+
+188
+00:09:25,599 --> 00:09:26,374
+Quattro gesti.
+
+189
+00:09:26,414 --> 00:09:27,829
+Ritrovi la conversazione.
+
+190
+00:09:27,869 --> 00:09:29,925
+La rileggi per capire cosa è uscito.
+
+191
+00:09:29,965 --> 00:09:31,613
+La cancelli dalla cronologia,
+
+192
+00:09:31,653 --> 00:09:34,639
+e nella lezione tre punto quattro vedrai
+dove si fa.
+
+193
+00:09:34,679 --> 00:09:38,947
+Poi annoti data e tipo di dato su un
+foglio: ti servirà per il protocollo.
+
+194
+00:09:39,587 --> 00:09:41,051
+Terzo errore, più sottile.
+
+195
+00:09:41,091 --> 00:09:45,793
+Una delibera pubblicata all'albo si può
+incollare: è un atto pubblico, zona verde.
+
+196
+00:09:45,833 --> 00:09:49,089
+Ma a volte ha in coda allegati con elenchi
+di dipendenti,
+
+197
+00:09:49,129 --> 00:09:51,229
+graduatorie, assegnazioni nominative.
+
+198
+00:09:51,269 --> 00:09:54,526
+Prima di caricarla, scorri sempre fino
+all'ultima pagina.
+
+199
+00:09:55,166 --> 00:09:56,844
+Vale lo stesso per gli screenshot.
+
+200
+00:09:56,884 --> 00:09:58,664
+Una schermata del portale dei turni,
+
+201
+00:09:58,704 --> 00:10:00,837
+girata in un attimo per chiedere un
+parere,
+
+202
+00:10:00,877 --> 00:10:02,656
+contiene i nomi di tutto il reparto.
+
+203
+00:10:02,696 --> 00:10:04,778
+Ogni volta che stai per allegare qualcosa,
+
+204
+00:10:04,818 --> 00:10:08,366
+fermati un secondo e guarda l'immagine
+come la guarderebbe un estraneo.
+
+205
+00:10:09,006 --> 00:10:12,150
+C'è una domanda semplice che riassume
+tutta la lezione.
+
+206
+00:10:12,190 --> 00:10:16,261
+Prima di premere Invio, chiediti: se
+questo testo finisse sul giornale,
+
+207
+00:10:16,301 --> 00:10:18,461
+qualcuno riconoscerebbe il lavoratore?
+
+208
+00:10:18,501 --> 00:10:22,514
+Se la risposta è sì, o anche solo forse,
+il testo non è ancora pronto.
+
+209
+00:10:23,154 --> 00:10:26,270
+Se ti porti a casa una sola frase, che sia
+questa.
+
+210
+00:10:26,310 --> 00:10:28,731
+All'IA dai il problema, mai la persona.
+
+211
+00:10:28,771 --> 00:10:33,275
+Se un dato permette di risalire a un
+lavoratore, resta fuori dalla chat.
+
+212
+00:10:33,315 --> 00:10:37,061
+Sempre, qualunque strumento usi e
+qualunque fretta tu abbia.
+
+213
+00:10:37,701 --> 00:10:38,586
+Ora tocca a te.
+
+214
+00:10:38,626 --> 00:10:40,437
+Apri la cronologia di ChatGPT,
+
+215
+00:10:40,477 --> 00:10:44,076
+Claude o Gemini e ritrova l'ultima
+conversazione di lavoro.
+
+216
+00:10:44,116 --> 00:10:45,741
+Rileggila con i tre colori.
+
+217
+00:10:45,781 --> 00:10:49,936
+Accanto a ogni dato rosso o giallo scrivi
+come l'avresti sostituito.
+
+218
+00:10:49,976 --> 00:10:52,773
+Poi riscrivi quel prompt in versione zero
+dati
+
+219
+00:10:52,813 --> 00:10:55,795
+e verifica che la risposta sia altrettanto
+utile.
+
+220
+00:10:56,436 --> 00:10:58,448
+Un consiglio pratico per la rilettura.
+
+221
+00:10:58,488 --> 00:11:01,471
+Copia la conversazione in un documento sul
+tuo computer,
+
+222
+00:11:01,511 --> 00:11:04,603
+non in un'altra chat, e usa
+l'evidenziatore in tre colori.
+
+223
+00:11:04,643 --> 00:11:07,032
+Vedere a colpo d'occhio quanto rosso e
+quanto
+
+224
+00:11:07,072 --> 00:11:10,110
+giallo c'è ti cambia l'abitudine più di
+qualsiasi regola.
+
+225
+00:11:10,749 --> 00:11:14,540
+Conserva il foglio con le annotazioni:
+data, strumento, tipo di dato.
+
+226
+00:11:14,580 --> 00:11:17,206
+Non è un elenco di colpe, è materiale di
+lavoro.
+
+227
+00:11:17,246 --> 00:11:21,648
+Nella lezione tre punto cinque scriverai
+con la tua segreteria le regole comuni,
+
+228
+00:11:21,688 --> 00:11:25,924
+e sapere quali errori capitano davvero in
+sede le renderà molto più concrete.
+
+229
+00:11:26,564 --> 00:11:28,006
+Ultima cosa sulla pratica.
+
+230
+00:11:28,046 --> 00:11:30,743
+Quando riscrivi il prompt in versione zero
+dati,
+
+231
+00:11:30,783 --> 00:11:33,251
+metti le due risposte una accanto
+all'altra.
+
+232
+00:11:33,291 --> 00:11:36,101
+Quasi sempre scoprirai che la qualità è la
+stessa.
+
+233
+00:11:36,141 --> 00:11:38,952
+I dati personali non rendono la risposta
+migliore.
+
+234
+00:11:38,992 --> 00:11:40,833
+Rendono solo il rischio più alto.
+
+235
+00:11:41,473 --> 00:11:42,500
+Pensa a cosa cambia.
+
+236
+00:11:42,540 --> 00:11:45,914
+La delegata del lunedì continua a usare
+l'IA tutte le settimane.
+
+237
+00:11:45,954 --> 00:11:48,635
+Risponde più in fretta e prepara meglio i
+colloqui.
+
+238
+00:11:48,675 --> 00:11:51,036
+E la collega in malattia non saprà mai che
+la
+
+239
+00:11:51,076 --> 00:11:53,596
+sua diagnosi poteva finire su un server
+lontano.
+
+240
+00:11:53,636 --> 00:11:55,037
+Perché non ci è mai finita.
+
+241
+00:11:55,677 --> 00:11:59,245
+Nella prossima lezione passiamo dal
+riconoscere i dati al toglierli.
+
+242
+00:11:59,285 --> 00:12:02,003
+Vedrai un metodo in cinque mosse per
+trasformare una
+
+243
+00:12:02,043 --> 00:12:04,815
+pratica reale in un caso anonimo in circa
+due minuti.
+
+244
+00:12:04,855 --> 00:12:09,165
+E scoprirai perché chiamare il lavoratore
+con una lettera dell'alfabeto non basta.
+
+245
+00:12:09,205 --> 00:12:11,234
+Ci vediamo nella lezione tre punto due.
