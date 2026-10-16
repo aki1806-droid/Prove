@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Il video usa «differenziale economico», la parola della Sanità; nelle Funzioni Locali si chiama «differenziale stipendiale» (art. 14). Criteri e graduatorie in contrattazione sono confermati; la fase transitoria in cui l'esperienza compensa il titolo è prorogata al 31 dicembre 2026 (art. 12). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

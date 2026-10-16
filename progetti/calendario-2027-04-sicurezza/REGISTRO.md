@@ -116,6 +116,11 @@ python3 ../calendario-2027-comune/registro.py .     questo registro
 
 Il titolo di S0 va a capo in «Se vedi / un pericolo, hai il / diritto di fermarti?»: le righe sono pari di larghezza, ma la prima è corta. Se dà fastidio, si rifà la scena senza costi.
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Davide lavora in ospedale (CCNL Sanità). Le regole del video vengono dal D.Lgs. 81/2008, che il CCNL Funzioni Locali non cambia. Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

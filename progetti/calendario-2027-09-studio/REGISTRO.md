@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Rosa è OSS (CCNL Sanità), ma tutto il video è confermato anche dal CCNL FL: 150 ore, 3% del personale, corsi universitari e professionali, turni che agevolino frequenza ed esami (art. 34). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

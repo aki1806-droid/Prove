@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Luca lavora in sanità: vale il CCNL Sanità, qui non controllato. Per chi lavora nelle Funzioni Locali, i trenta giorni di congedo parentale pagati per intero sono confermati (art. 35, c. 3). Invece il congedo a ore «fino a metà dell'orario giornaliero» è il limite della legge: il CCNL FL lo regola diversamente (sei ore valgono un giorno, minimo un'ora, art. 35, c. 8). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

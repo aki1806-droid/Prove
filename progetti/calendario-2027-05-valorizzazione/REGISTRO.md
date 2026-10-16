@@ -116,6 +116,11 @@ python3 ../calendario-2027-comune/registro.py .     questo registro
 
 Nella clip di S1, a metà, a Elena compare in testa una cuffietta da infermiera che nel fotogramma di partenza non c'è: un'invenzione di Kling. Il volto resta lo stesso; va giudicato se lasciarla o rifare la clip (12 crediti).
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Elena è infermiera (CCNL Sanità). Per le Funzioni Locali è confermato che la formazione disposta dall'ente si fa in orario di lavoro e a suo carico (art. 37, c. 6-7); incarichi professionali e crediti ECM sono istituti della Sanità. Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

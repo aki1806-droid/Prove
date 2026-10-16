@@ -88,6 +88,20 @@ python3 monta.py        scene alla durata, sottotitoli impressi, montato-locale.
 python3 heygen.py prepara | invia | scene
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Tutto confermato dal contratto firmato il 23 febbraio 2026, art. 28:
+
+- ferie irrinunciabili e non monetizzabili (c. 9 e 11);
+- le ferie non godute si recuperano entro il primo semestre dell'anno dopo
+  (c. 14-15);
+- 32/28 giorni, 30/26 nei primi tre anni, 4 festività soppresse (c. 2-6);
+- due settimane continuative fra il 1° giugno e il 30 settembre (c. 12).
+
+Il contratto dice anzi qualcosa in più del video: il diniego delle ferie
+**deve** essere scritto (c. 9), non va solo chiesto. Il controllo completo è
+in `../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

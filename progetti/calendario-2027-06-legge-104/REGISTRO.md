@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Paola lavora in azienda sanitaria (CCNL Sanità). I permessi vengono dalla legge 104/1992, valida in tutti i comparti; il CCNL FL la richiama senza cambiarla. Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

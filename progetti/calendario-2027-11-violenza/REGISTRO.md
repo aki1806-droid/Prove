@@ -113,6 +113,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Chiara lavora in pronto soccorso (CCNL Sanità). Per le Funzioni Locali il CCNL aggiunge una tutela che rafforza il messaggio: in caso di aggressione da terzi l'ente paga l'avvocato per tutti i gradi di giudizio e può offrire supporto psicologico (art. 44). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

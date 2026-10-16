@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Francesca è infermiera (CCNL Sanità). Per le Funzioni Locali le 11 ore di riposo ogni 24 sono confermate (art. 25, c. 3); il CCNL FL aggiunge un tetto di 10 turni notturni al mese (art. 25, c. 4). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

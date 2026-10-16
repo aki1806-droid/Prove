@@ -116,6 +116,11 @@ python3 ../calendario-2027-comune/registro.py .     questo registro
 
 Nel pacchetto la battuta di S1 finiva con un carattere che il font non ha (un quadratino al posto della «»» di chiusura). Rifatta sopra la clip, la battuta ora chiude giusta.
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Mirella è ostetrica (CCNL Sanità). Previdenza e TFS sono materia di legge e Perseo Sirio vale per entrambi i comparti: il CCNL FL non cambia niente. Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

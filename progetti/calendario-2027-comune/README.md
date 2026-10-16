@@ -27,6 +27,13 @@ Gennaio: voce ElevenLabs diretto, scene del pacchetto. Da febbraio: voce via
 HeyGen come passante (scelta di Achille), tre clip Higgsfield del protagonista
 al mese con S0, S1, S5 rifatte sopra.
 
+## Verifica sul CCNL Funzioni Locali
+
+Tutti i dodici video sono confrontati con il CCNL Funzioni Locali 2022-2024
+(firmato il 23 febbraio 2026) in [`VERIFICA-CCNL-FL.md`](VERIFICA-CCNL-FL.md):
+nessun numero smentito, un punto da decidere su febbraio (festività
+soppresse), una differenza da sapere su marzo (congedo a ore).
+
 ## Gli strumenti
 
 ```

@@ -143,6 +143,23 @@ python3 heygen.py prepara | invia | scene
 | clip di Marco, Higgsfield | 36,75 crediti Higgsfield |
 | render HeyGen | non isolabile (sul corso: 1 credito) |
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Marco è impiegato comunale: per lui vale proprio questo contratto, firmato il
+23 febbraio 2026. Confermati: le 18 ore per motivi personali (art. 32), le 18
+ore per visite (art. 33), i giorni per lutto, matrimonio, esami e concorsi
+(art. 31), l'attestato di visita (art. 33, c. 9-10).
+
+**Da decidere — S3:** «Le 4 giornate vanno usate entro il 31 dicembre: poi si
+perdono». Che non si accumulino lo dice l'art. 28, c. 6 («nell'anno solare»);
+ma l'art. 28, c. 19 dà alle giornate non fruite lo stesso trattamento
+economico delle ferie. Se l'ufficio vertenze lo conferma, la frase va
+ammorbidita («…entro il 31 dicembre: non passano all'anno dopo»): una scena di
+voce e un nuovo render. Il video per ora non è stato toccato.
+
+Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

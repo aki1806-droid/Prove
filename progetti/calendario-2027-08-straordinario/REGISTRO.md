@@ -111,6 +111,11 @@ python3 ../calendario-2027-comune/heygen.py . prepara | invia | scene
 python3 ../calendario-2027-comune/registro.py .     questo registro
 ```
 
+## Verifica sul CCNL Funzioni Locali 2022-2024
+
+Andrea lavora in radiologia (CCNL Sanità); la pronta disponibilità è un istituto della Sanità. Il CCNL FL non tocca le percentuali dello straordinario; una sua novità è una maggiorazione del 20% (30% se notturno e festivo) per il lavoro ordinario di notte o di festa anche senza turni (art. 26, c. 5). Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
 ## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il

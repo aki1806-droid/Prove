@@ -130,7 +130,12 @@ python3 ../calendario-2027-comune/registro.py .     questo registro
 
 {cons['note']}
 
-""" if cons.get('note') else "") + f"""## Da verificare — quello che non ho potuto giudicare io
+""" if cons.get('note') else "") + (f"""## Verifica sul CCNL Funzioni Locali 2022-2024
+
+{cons['verifica_ccnl']} Il controllo completo, mese per mese, è in
+`../calendario-2027-comune/VERIFICA-CCNL-FL.md`.
+
+""" if cons.get('verifica_ccnl') else "") + f"""## Da verificare — quello che non ho potuto giudicare io
 
 - **I contenuti vanno fatti verificare all'ufficio vertenze**, come dice il
   pacchetto: numeri, norme e date dipendono dal CCNL e dalle leggi in vigore.
