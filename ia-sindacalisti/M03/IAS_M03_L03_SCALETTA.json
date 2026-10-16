@@ -2,7 +2,7 @@
  "lezione": "IAS_M03_L03",
  "titolo": "GDPR e IA: cosa vale per un sindacato",
  "livello": 1,
- "fonte": "pacchetto video del 15 ottobre 2026",
+ "fonte": "pacchetto video del 16 ottobre 2026",
  "scene": [
   {
    "id": "S000",
@@ -148,9 +148,9 @@
   {
    "id": "S015",
    "blocco": "B15",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C15"
+   "asset": "X14"
   },
   {
    "id": "S016",

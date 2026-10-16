@@ -2,7 +2,7 @@
  "lezione": "IAS_M03_L05",
  "titolo": "Il protocollo privacy della segreteria",
  "livello": 1,
- "fonte": "pacchetto video del 15 ottobre 2026",
+ "fonte": "pacchetto video del 16 ottobre 2026",
  "scene": [
   {
    "id": "S000",
@@ -416,9 +416,9 @@
   {
    "id": "S044",
    "blocco": "B44",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C44"
+   "asset": "X43"
   },
   {
    "id": "S045",

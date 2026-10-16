@@ -2,7 +2,7 @@
  "lezione": "IAS_M03_L01",
  "titolo": "I dati che non si incollano mai",
  "livello": 1,
- "fonte": "pacchetto video del 15 ottobre 2026",
+ "fonte": "pacchetto video del 16 ottobre 2026",
  "scene": [
   {
    "id": "S000",
@@ -52,9 +52,9 @@
   {
    "id": "S005",
    "blocco": "B05",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C05"
+   "asset": "X06"
   },
   {
    "id": "S006",
