@@ -1,0 +1,1173 @@
+1
+00:00:03,000 --> 00:00:05,471
+Benvenuto alla lezione due punto quattro.
+
+2
+00:00:05,511 --> 00:00:09,390
+Oggi chiedi lo stesso comunicato a
+ChatGPT, a Claude e a Gemini,
+
+3
+00:00:09,430 --> 00:00:12,513
+e impari a confrontare le tre bozze in
+modo onesto.
+
+4
+00:00:12,553 --> 00:00:14,228
+Imposti una prova alla pari,
+
+5
+00:00:14,268 --> 00:00:17,351
+valuti con una griglia di sei criteri
+pensata per i
+
+6
+00:00:17,391 --> 00:00:20,903
+testi sindacali e scegli il preferito
+motivando la scelta.
+
+7
+00:00:21,293 --> 00:00:22,758
+Sono le tre del pomeriggio.
+
+8
+00:00:22,798 --> 00:00:26,493
+Arriva una nota dell'azienda: il reparto
+chiuderà per tutto agosto,
+
+9
+00:00:26,533 --> 00:00:29,057
+e il personale sarà spostato in altri
+servizi.
+
+10
+00:00:29,097 --> 00:00:30,952
+Nessuno ha convocato il sindacato.
+
+11
+00:00:30,992 --> 00:00:34,631
+I colleghi del reparto hanno già
+cominciato a scrivere nei gruppi,
+
+12
+00:00:34,671 --> 00:00:36,359
+e chiedono cosa sta succedendo.
+
+13
+00:00:36,749 --> 00:00:39,451
+Il comunicato deve uscire entro le
+diciotto.
+
+14
+00:00:39,491 --> 00:00:44,126
+Per fare prima, lo chiedi a tutti e tre
+gli strumenti con lo stesso prompt.
+
+15
+00:00:44,166 --> 00:00:47,118
+Ottieni tre testi diversi: uno ha un bel
+titolo,
+
+16
+00:00:47,158 --> 00:00:49,361
+uno è più ordinato, uno è più corto.
+
+17
+00:00:49,401 --> 00:00:49,922
+E adesso?
+
+18
+00:00:49,962 --> 00:00:52,976
+Quale mandi, e soprattutto perché proprio
+quello?
+
+19
+00:00:53,367 --> 00:00:55,709
+La regola di questa lezione è una sola.
+
+20
+00:00:55,749 --> 00:00:58,274
+Un confronto vale soltanto se è alla pari.
+
+21
+00:00:58,314 --> 00:01:01,145
+Stesso prompt, stesse informazioni, chat
+nuove.
+
+22
+00:01:01,185 --> 00:01:05,725
+E una griglia di valutazione decisa prima
+di leggere le risposte, non dopo.
+
+23
+00:01:05,765 --> 00:01:09,451
+Senza queste condizioni, non stai
+confrontando gli strumenti,
+
+24
+00:01:09,491 --> 00:01:11,711
+stai confrontando le tue impressioni.
+
+25
+00:01:12,101 --> 00:01:13,721
+Senza metodo, come si sceglie?
+
+26
+00:01:13,761 --> 00:01:16,874
+Si legge in fretta e si prende la bozza
+che suona meglio.
+
+27
+00:01:16,914 --> 00:01:19,805
+Di solito è quella dello strumento che già
+preferivi,
+
+28
+00:01:19,845 --> 00:01:21,852
+o quella con il titolo più d'effetto.
+
+29
+00:01:21,892 --> 00:01:25,946
+E nessuno si accorge che, magari, è
+proprio quella con una data inventata.
+
+30
+00:01:26,335 --> 00:01:29,077
+Il rischio più comune è confrontare mele e
+pere.
+
+31
+00:01:29,117 --> 00:01:32,728
+Una chat con dieci messaggi di storia
+contro una appena aperta.
+
+32
+00:01:32,768 --> 00:01:36,554
+Un prompt riscritto un po' meglio per lo
+strumento che preferisci.
+
+33
+00:01:36,594 --> 00:01:40,031
+Dall'altra parte c'è il confronto alla
+pari: tre chat nuove,
+
+34
+00:01:40,071 --> 00:01:42,466
+lo stesso testo copiato, gli stessi fatti.
+
+35
+00:01:42,856 --> 00:01:47,021
+Sappi fin d'ora che le risposte saranno
+diverse anche con lo stesso prompt.
+
+36
+00:01:47,061 --> 00:01:49,600
+E se rifai la richiesta allo stesso
+strumento,
+
+37
+00:01:49,640 --> 00:01:51,394
+ottieni un testo ancora diverso.
+
+38
+00:01:51,434 --> 00:01:53,917
+È normale: i modelli non sono
+deterministici,
+
+39
+00:01:53,957 --> 00:01:56,833
+generano il testo con una componente
+probabilistica.
+
+40
+00:01:56,873 --> 00:01:58,347
+Per questo serve un metodo.
+
+41
+00:01:58,737 --> 00:02:01,158
+Ecco il percorso completo del confronto.
+
+42
+00:02:01,198 --> 00:02:03,495
+Scrivi i fatti, completi e verificati.
+
+43
+00:02:03,535 --> 00:02:06,141
+Incolli lo stesso prompt in tre chat
+nuove.
+
+44
+00:02:06,181 --> 00:02:09,278
+Fai numerare le risposte, così le leggi
+alla cieca.
+
+45
+00:02:09,318 --> 00:02:10,816
+Le valuti con la griglia.
+
+46
+00:02:10,856 --> 00:02:14,630
+E poi fai un secondo giro, con la stessa
+correzione per tutti.
+
+47
+00:02:15,020 --> 00:02:16,958
+Ecco le regole, con il loro perché.
+
+48
+00:02:16,998 --> 00:02:19,954
+Chat nuova, perché la cronologia orienta
+la risposta.
+
+49
+00:02:19,994 --> 00:02:22,893
+Memoria e istruzioni personalizzate sotto
+controllo,
+
+50
+00:02:22,933 --> 00:02:26,001
+perché se ce le hai solo in uno il
+confronto è falsato.
+
+51
+00:02:26,041 --> 00:02:27,640
+Stesso prompt e stessi fatti.
+
+52
+00:02:27,680 --> 00:02:31,484
+E il modello standard del piano gratuito,
+quello che userai davvero.
+
+53
+00:02:31,873 --> 00:02:34,592
+Prima di cominciare, controlla le
+impostazioni.
+
+54
+00:02:34,632 --> 00:02:39,053
+In ChatGPT e in Claude cerca le voci su
+memoria e istruzioni personalizzate.
+
+55
+00:02:39,093 --> 00:02:42,458
+Se in uno strumento hai già scritto chi
+sei e come scrivi,
+
+56
+00:02:42,498 --> 00:02:45,217
+e negli altri no, quello partirà
+avvantaggiato.
+
+57
+00:02:45,257 --> 00:02:48,269
+Per la prova, mettili tutti nelle stesse
+condizioni.
+
+58
+00:02:48,660 --> 00:02:51,267
+L'errore più insidioso è dare i fatti a
+metà.
+
+59
+00:02:51,307 --> 00:02:55,150
+Scrivi soltanto: l'azienda chiude il
+reparto, fammi un comunicato.
+
+60
+00:02:55,190 --> 00:02:57,739
+Poi premi lo strumento che ha capito
+meglio.
+
+61
+00:02:57,779 --> 00:03:00,798
+In realtà ha solo inventato in modo più
+convincente.
+
+62
+00:03:00,838 --> 00:03:05,387
+Date, numeri e uffici li metti tu: l'IA li
+deve solo ordinare e scrivere bene.
+
+63
+00:03:05,777 --> 00:03:07,507
+Ecco i fatti del nostro esempio.
+
+64
+00:03:07,547 --> 00:03:10,770
+Il reparto di medicina chiude dal primo al
+trentuno agosto.
+
+65
+00:03:10,810 --> 00:03:14,309
+La decisione è arrivata con una nota
+aziendale del dieci luglio,
+
+66
+00:03:14,349 --> 00:03:15,581
+senza nessun confronto.
+
+67
+00:03:15,621 --> 00:03:18,125
+Il sindacato ritiene inaccettabile il
+metodo e
+
+68
+00:03:18,165 --> 00:03:21,001
+chiede un incontro urgente entro il
+diciotto luglio.
+
+69
+00:03:21,391 --> 00:03:23,393
+Ed ecco il prompt del confronto.
+
+70
+00:03:23,433 --> 00:03:25,372
+Dai un ruolo, l'addetto stampa.
+
+71
+00:03:25,412 --> 00:03:29,775
+Elenchi i fatti uno per riga, con la
+formula senza aggiungerne altri.
+
+72
+00:03:29,815 --> 00:03:34,242
+Indichi la struttura: titolo, notizia,
+posizione, richiesta, contatti.
+
+73
+00:03:34,282 --> 00:03:37,497
+E chiudi con i vincoli: massimo
+centottanta parole,
+
+74
+00:03:37,537 --> 00:03:40,879
+tono fermo ma non aggressivo, nessun nome
+di persona.
+
+75
+00:03:41,269 --> 00:03:42,415
+Partiamo da ChatGPT.
+
+76
+00:03:42,455 --> 00:03:46,152
+Nuova chat, incolli il prompt con i fatti
+già compilati, invii.
+
+77
+00:03:46,192 --> 00:03:49,295
+Non intervenire, non aggiungere niente
+mentre scrive.
+
+78
+00:03:49,335 --> 00:03:52,794
+Quando ha finito, copi la risposta in un
+documento a parte,
+
+79
+00:03:52,834 --> 00:03:55,226
+senza scrivere da quale strumento arriva.
+
+80
+00:03:55,266 --> 00:03:59,021
+Così, quando valuterai, il nome non
+influenzerà il tuo giudizio.
+
+81
+00:03:59,411 --> 00:04:01,081
+Ecco un estratto verosimile.
+
+82
+00:04:01,121 --> 00:04:02,974
+Il titolo è forte e si ricorda.
+
+83
+00:04:03,014 --> 00:04:04,012
+La struttura c'è.
+
+84
+00:04:04,052 --> 00:04:05,538
+Ma guarda la riga finale:
+
+85
+00:04:05,578 --> 00:04:09,141
+compare una mobilitazione che nei fatti
+non avevi indicato.
+
+86
+00:04:09,181 --> 00:04:13,110
+È un'aggiunta piccola, e proprio per
+questo è facile non notarla.
+
+87
+00:04:13,150 --> 00:04:16,407
+Ricorda che i fatti li avevi scritti tu,
+uno per riga:
+
+88
+00:04:16,447 --> 00:04:18,727
+è il modo più rapido per accorgertene.
+
+89
+00:04:19,117 --> 00:04:19,743
+Ora Claude.
+
+90
+00:04:19,783 --> 00:04:23,920
+Stessa procedura: nuova chat, stesso
+prompt, copiato e non riscritto.
+
+91
+00:04:23,960 --> 00:04:26,523
+Anche qui non correggi nulla mentre
+scrive.
+
+92
+00:04:26,563 --> 00:04:28,944
+Copi la risposta nello stesso documento,
+
+93
+00:04:28,984 --> 00:04:32,152
+sotto la prima, sempre senza il nome dello
+strumento.
+
+94
+00:04:32,192 --> 00:04:35,240
+Lo scopo non è aiutarlo, ma vedere cosa fa
+da solo,
+
+95
+00:04:35,280 --> 00:04:37,600
+alle stesse condizioni degli altri due.
+
+96
+00:04:37,991 --> 00:04:40,560
+L'estratto verosimile di Claude è più
+sobrio.
+
+97
+00:04:40,600 --> 00:04:43,632
+Il titolo è meno d'effetto, ma ci sono
+tutti i fatti,
+
+98
+00:04:43,672 --> 00:04:45,777
+nell'ordine richiesto, e nient'altro.
+
+99
+00:04:45,817 --> 00:04:48,907
+La richiesta è precisa, con la data e il
+destinatario.
+
+100
+00:04:48,947 --> 00:04:51,574
+Il tono è fermo, senza minacce non
+concordate.
+
+101
+00:04:51,614 --> 00:04:56,269
+È il tipo di testo che può uscire con il
+logo della sede dopo una sola rilettura.
+
+102
+00:04:56,659 --> 00:04:59,039
+Infine Gemini, con la stessa procedura.
+
+103
+00:04:59,079 --> 00:05:01,832
+Nuova chat, stesso prompt, nessun
+intervento.
+
+104
+00:05:01,872 --> 00:05:04,252
+Copi la risposta in fondo al documento.
+
+105
+00:05:04,292 --> 00:05:08,534
+Adesso hai tre bozze una sotto l'altra,
+nate dalle stesse condizioni.
+
+106
+00:05:08,574 --> 00:05:11,389
+Questo è il materiale giusto per un
+confronto.
+
+107
+00:05:11,778 --> 00:05:13,758
+Ecco l'estratto verosimile di Gemini.
+
+108
+00:05:13,798 --> 00:05:16,597
+È il più breve, scorre bene e si legge in
+un attimo.
+
+109
+00:05:16,637 --> 00:05:20,419
+Ma manca una parte della struttura: i
+contatti della sede non ci sono.
+
+110
+00:05:20,459 --> 00:05:23,859
+Un lavoratore che vuole chiamare non
+saprebbe a chi rivolgersi.
+
+111
+00:05:23,899 --> 00:05:28,008
+E nessun limite di parole lo giustifica,
+perché i contatti erano nel prompt.
+
+112
+00:05:28,399 --> 00:05:31,160
+Prima di valutare, un accorgimento che
+cambia molto.
+
+113
+00:05:31,200 --> 00:05:33,153
+Togli il nome dello strumento da ogni
+
+114
+00:05:33,193 --> 00:05:35,469
+bozza e chiedi a un collega di numerarle
+A,
+
+115
+00:05:35,509 --> 00:05:37,246
+B e C, senza dirti quale è quale.
+
+116
+00:05:37,286 --> 00:05:41,286
+Valutare alla cieca riduce il peso delle
+preferenze che ti sei già formato.
+
+117
+00:05:41,326 --> 00:05:43,386
+Il collega può anche essere a distanza:
+
+118
+00:05:43,426 --> 00:05:46,079
+gli giri il documento e lui ti rimanda le
+lettere.
+
+119
+00:05:46,469 --> 00:05:48,851
+Bastano due minuti e un collega
+disponibile.
+
+120
+00:05:48,891 --> 00:05:51,437
+Lui mischia l'ordine delle bozze e annota
+su un
+
+121
+00:05:51,477 --> 00:05:54,354
+foglietto a quale strumento corrisponde
+ogni lettera.
+
+122
+00:05:54,394 --> 00:05:57,766
+Tu leggi, valuti, e solo alla fine scopri
+chi ha scritto cosa.
+
+123
+00:05:57,806 --> 00:05:59,362
+A volte la sorpresa è grande.
+
+124
+00:05:59,402 --> 00:06:01,233
+Se non hai nessuno a disposizione,
+
+125
+00:06:01,273 --> 00:06:04,205
+mischia tu l'ordine e copri i nomi prima
+di rileggere.
+
+126
+00:06:04,595 --> 00:06:06,972
+Ora la griglia, che ha sei criteri.
+
+127
+00:06:07,012 --> 00:06:09,321
+I primi tre guardano il contenuto.
+
+128
+00:06:09,361 --> 00:06:12,912
+Fatti: ci sono tutti, e ne ha aggiunti di
+inventati?
+
+129
+00:06:12,952 --> 00:06:17,678
+Struttura: rispetta titolo, notizia,
+posizione, richiesta e contatti?
+
+130
+00:06:17,718 --> 00:06:21,339
+Tono: è fermo senza essere offensivo verso
+l'azienda?
+
+131
+00:06:21,379 --> 00:06:23,687
+Ognuno vale da uno a cinque punti.
+
+132
+00:06:24,077 --> 00:06:26,192
+Gli altri tre guardano l'efficacia.
+
+133
+00:06:26,232 --> 00:06:30,686
+Chiarezza: un lavoratore del turno di
+notte lo capisce in trenta secondi?
+
+134
+00:06:30,726 --> 00:06:34,626
+Richiesta finale: è precisa, con una
+scadenza e un destinatario?
+
+135
+00:06:34,666 --> 00:06:37,827
+Lunghezza: rispetta il limite di
+centottanta parole?
+
+136
+00:06:37,867 --> 00:06:39,612
+Anche questi da uno a cinque.
+
+137
+00:06:40,002 --> 00:06:42,110
+Un criterio però vale doppio: i fatti.
+
+138
+00:06:42,150 --> 00:06:44,598
+Un comunicato scritto benissimo con una
+data
+
+139
+00:06:44,638 --> 00:06:47,990
+sbagliata è un problema serio per la
+credibilità della sede.
+
+140
+00:06:48,030 --> 00:06:50,930
+Se una bozza contiene anche un solo fatto
+inventato,
+
+141
+00:06:50,970 --> 00:06:52,796
+parte comunque dall'ultimo posto,
+
+142
+00:06:52,836 --> 00:06:55,453
+qualunque sia il punteggio negli altri
+criteri.
+
+143
+00:06:55,844 --> 00:06:57,892
+C'è un principio che la legge italiana
+
+144
+00:06:57,932 --> 00:07:00,750
+sull'IA ha scritto per le professioni
+intellettuali.
+
+145
+00:07:00,790 --> 00:07:04,542
+La legge centotrentadue del
+duemilaventicinque, all'articolo tredici,
+
+146
+00:07:04,582 --> 00:07:08,554
+ammette l'IA solo come supporto, con
+prevalenza del lavoro di chi la usa.
+
+147
+00:07:08,594 --> 00:07:12,401
+Vale anche in sede: la responsabilità del
+testo resta di chi lo firma.
+
+148
+00:07:12,790 --> 00:07:16,616
+Puoi chiedere un secondo parere all'IA
+stessa, usando la tua griglia.
+
+149
+00:07:16,656 --> 00:07:20,650
+Incolli i fatti e le tre bozze, e chiedi
+un punteggio per ogni criterio,
+
+150
+00:07:20,690 --> 00:07:22,386
+con i fatti che contano doppio.
+
+151
+00:07:22,426 --> 00:07:27,093
+La riga più utile è un'altra: segnala ogni
+informazione che non è nei fatti forniti.
+
+152
+00:07:27,483 --> 00:07:29,031
+Ecco un estratto verosimile.
+
+153
+00:07:29,071 --> 00:07:31,355
+L'IA ha trovato la mobilitazione aggiunta
+
+154
+00:07:31,395 --> 00:07:33,850
+nella bozza A e i contatti mancanti nella
+C.
+
+155
+00:07:33,890 --> 00:07:38,046
+Usala come un secondo paio d'occhi, che
+vede cose che tu potresti perdere.
+
+156
+00:07:38,086 --> 00:07:42,015
+Ma non come giudice: il giudizio finale lo
+dai tu, con la tua griglia.
+
+157
+00:07:42,055 --> 00:07:44,624
+Se la sua valutazione non coincide con la
+tua,
+
+158
+00:07:44,664 --> 00:07:47,005
+torna ai fatti e controlla chi ha ragione.
+
+159
+00:07:47,395 --> 00:07:50,511
+Ecco come potrebbero uscire i punteggi del
+primo giro,
+
+160
+00:07:50,551 --> 00:07:52,323
+dopo che li hai controllati tu.
+
+161
+00:07:52,363 --> 00:07:54,252
+La bozza B vince su fatti e tono.
+
+162
+00:07:54,292 --> 00:07:58,110
+La A ha il titolo migliore ma perde sui
+fatti, che contano doppio.
+
+163
+00:07:58,150 --> 00:08:02,903
+La C è la più chiara da leggere, ma perde
+sulla struttura per i contatti mancanti.
+
+164
+00:08:03,294 --> 00:08:05,420
+Ma il primo testo è soltanto una bozza.
+
+165
+00:08:05,460 --> 00:08:09,362
+Spesso la differenza vera tra gli
+strumenti si vede quando li correggi.
+
+166
+00:08:09,402 --> 00:08:12,360
+Uno accoglie la richiesta e cambia solo
+ciò che serve.
+
+167
+00:08:12,400 --> 00:08:16,525
+Un altro riscrive tutto da capo e perde
+per strada pezzi che andavano bene.
+
+168
+00:08:16,914 --> 00:08:19,193
+Ecco il prompt della correzione mirata.
+
+169
+00:08:19,233 --> 00:08:20,798
+Mantieni struttura e fatti.
+
+170
+00:08:20,838 --> 00:08:24,604
+Cambia solo due cose, numerate: per
+esempio un titolo più breve,
+
+171
+00:08:24,644 --> 00:08:28,172
+al massimo otto parole, e una richiesta
+con la data precisa.
+
+172
+00:08:28,212 --> 00:08:32,334
+E chiedi di mostrarti, sotto il testo,
+l'elenco delle modifiche fatte.
+
+173
+00:08:32,374 --> 00:08:33,642
+Così controlli subito.
+
+174
+00:08:34,032 --> 00:08:37,517
+Torna nelle tre chat e incolla la stessa
+correzione in ognuna.
+
+175
+00:08:37,557 --> 00:08:39,791
+Per la A puoi aggiungere una terza riga:
+
+176
+00:08:39,831 --> 00:08:42,293
+togli la mobilitazione, che non è nei
+fatti.
+
+177
+00:08:42,333 --> 00:08:43,999
+Per la C: aggiungi i contatti.
+
+178
+00:08:44,039 --> 00:08:47,751
+Poi rivaluti le tre nuove versioni con la
+stessa griglia di prima.
+
+179
+00:08:48,142 --> 00:08:50,172
+Ecco cosa osservare nel secondo giro.
+
+180
+00:08:50,212 --> 00:08:52,801
+Chi corregge bene tocca solo le parti
+indicate,
+
+181
+00:08:52,841 --> 00:08:55,654
+conserva le frasi buone e ti dice cosa ha
+cambiato.
+
+182
+00:08:55,694 --> 00:08:57,500
+Chi corregge male riscrive tutto,
+
+183
+00:08:57,540 --> 00:09:00,520
+introduce cose nuove e perde un pezzo che
+prima c'era.
+
+184
+00:09:00,560 --> 00:09:02,814
+Anche questo entra nella tua valutazione.
+
+185
+00:09:03,204 --> 00:09:05,548
+Guarda com'è andata in una sede
+provinciale.
+
+186
+00:09:05,588 --> 00:09:07,444
+Tre delegati fanno il confronto sul
+
+187
+00:09:07,484 --> 00:09:10,261
+comunicato per la chiusura estiva di un
+ambulatorio.
+
+188
+00:09:10,301 --> 00:09:13,132
+Alla cieca, la bozza di Claude vince su
+fatti e tono.
+
+189
+00:09:13,172 --> 00:09:15,299
+Quella di ChatGPT ha il titolo migliore.
+
+190
+00:09:15,339 --> 00:09:18,387
+Quella di Gemini è la più breve, ma
+dimentica i contatti.
+
+191
+00:09:18,777 --> 00:09:20,820
+Dopo la correzione, le cose cambiano.
+
+192
+00:09:20,860 --> 00:09:24,480
+La bozza di ChatGPT toglie l'aggiunta,
+recupera e quasi pareggia.
+
+193
+00:09:24,520 --> 00:09:25,606
+Claude resta solida.
+
+194
+00:09:25,646 --> 00:09:28,702
+Gemini aggiunge i contatti ma riscrive
+anche il titolo,
+
+195
+00:09:28,742 --> 00:09:30,841
+che nessuno aveva chiesto di cambiare.
+
+196
+00:09:30,881 --> 00:09:33,093
+Ecco il quadro finale dei tre strumenti.
+
+197
+00:09:33,483 --> 00:09:36,457
+La decisione della sede viene scritta in
+una riga sola.
+
+198
+00:09:36,497 --> 00:09:38,868
+Per i comunicati usiamo Claude per la
+bozza,
+
+199
+00:09:38,908 --> 00:09:41,334
+e chiediamo a ChatGPT tre titoli
+alternativi.
+
+200
+00:09:41,374 --> 00:09:42,978
+Non c'è un vincitore assoluto.
+
+201
+00:09:43,018 --> 00:09:45,553
+C'è una divisione del lavoro, nata dalla
+prova.
+
+202
+00:09:45,943 --> 00:09:48,875
+Tu fai lo stesso: motiva per iscritto, in
+tre righe.
+
+203
+00:09:48,915 --> 00:09:51,162
+Quale strumento scegli per i comunicati.
+
+204
+00:09:51,202 --> 00:09:53,277
+Per quale motivo, citando la griglia.
+
+205
+00:09:53,317 --> 00:09:57,278
+E con quale accortezza, per esempio
+ricordarsi di vietare le aggiunte.
+
+206
+00:09:57,318 --> 00:09:59,393
+La motivazione vale più del verdetto,
+
+207
+00:09:59,433 --> 00:10:02,194
+perché ti dice cosa aspettarti la prossima
+volta.
+
+208
+00:10:02,585 --> 00:10:04,790
+Un errore da evitare nella valutazione.
+
+209
+00:10:04,830 --> 00:10:07,610
+Lasciarsi conquistare dalla bozza scritta
+meglio,
+
+210
+00:10:07,650 --> 00:10:09,797
+senza controllare i fatti uno per uno.
+
+211
+00:10:09,837 --> 00:10:11,985
+La prosa elegante copre facilmente una
+
+212
+00:10:12,025 --> 00:10:14,517
+data sbagliata o un'aggiunta non
+concordata.
+
+213
+00:10:14,557 --> 00:10:17,741
+Rileggi sempre i fatti per primi, con il
+prompt accanto.
+
+214
+00:10:17,781 --> 00:10:19,755
+Rileggere i fatti prende un minuto.
+
+215
+00:10:19,795 --> 00:10:22,806
+Ritirare un comunicato sbagliato prende
+una giornata.
+
+216
+00:10:23,196 --> 00:10:24,646
+E un altro, più sottile.
+
+217
+00:10:24,686 --> 00:10:27,006
+Decidere tutto dopo un solo confronto.
+
+218
+00:10:27,046 --> 00:10:31,539
+Su un altro tema, magari una lettera
+all'azienda invece di un comunicato,
+
+219
+00:10:31,579 --> 00:10:33,899
+i risultati potrebbero essere diversi.
+
+220
+00:10:33,939 --> 00:10:35,575
+Una prova è un buon inizio.
+
+221
+00:10:35,615 --> 00:10:38,928
+Due o tre prove su testi diversi sono una
+base solida.
+
+222
+00:10:39,318 --> 00:10:41,274
+Per questo la correzione è semplice.
+
+223
+00:10:41,314 --> 00:10:43,437
+Ripeti il confronto almeno su due o tre
+
+224
+00:10:43,477 --> 00:10:46,320
+compiti diversi prima di stabilire una
+regola fissa.
+
+225
+00:10:46,360 --> 00:10:49,869
+E annota sempre la data e il piano usato:
+un giudizio dato oggi,
+
+226
+00:10:49,909 --> 00:10:53,196
+con il modello gratuito, potrebbe cambiare
+tra qualche mese.
+
+227
+00:10:53,236 --> 00:10:55,248
+Ogni prova in più ti dice qualcosa di
+
+228
+00:10:55,288 --> 00:10:57,965
+nuovo sugli strumenti e sul tuo modo di
+lavorare.
+
+229
+00:10:58,355 --> 00:11:01,342
+Se ti porti a casa una sola frase, che sia
+questa.
+
+230
+00:11:01,382 --> 00:11:05,459
+Confronta alla pari, valuta alla cieca con
+una griglia decisa prima,
+
+231
+00:11:05,499 --> 00:11:09,092
+e ricorda che un fatto inventato
+squalifica qualsiasi bozza.
+
+232
+00:11:09,482 --> 00:11:10,306
+Ora tocca a te.
+
+233
+00:11:10,346 --> 00:11:12,957
+Scegli un fatto vero e recente della tua
+sede,
+
+234
+00:11:12,997 --> 00:11:16,530
+senza dati personali, e scrivi i fatti nel
+formato del prompt.
+
+235
+00:11:16,570 --> 00:11:18,143
+Incollalo in tre chat nuove.
+
+236
+00:11:18,183 --> 00:11:22,522
+Fai numerare le risposte da un collega e
+valutale alla cieca con la griglia.
+
+237
+00:11:22,562 --> 00:11:25,288
+Poi la correzione mirata, e di nuovo la
+griglia.
+
+238
+00:11:25,678 --> 00:11:27,194
+Alla fine conserva tre cose.
+
+239
+00:11:27,234 --> 00:11:30,083
+Il documento con le bozze e i punteggi dei
+due giri.
+
+240
+00:11:30,123 --> 00:11:31,639
+Le tre righe di motivazione.
+
+241
+00:11:31,679 --> 00:11:35,362
+E il prompt con i fatti, che potrai
+riusare per un nuovo confronto.
+
+242
+00:11:35,402 --> 00:11:39,640
+Ti serviranno tutte nella prossima
+lezione, quando compilerai la tua tabella.
+
+243
+00:11:39,680 --> 00:11:41,974
+Sono il cuore del lavoro di questo modulo.
+
+244
+00:11:42,364 --> 00:11:43,940
+Torna alle tre del pomeriggio.
+
+245
+00:11:43,980 --> 00:11:47,387
+Con questo metodo il comunicato esce
+comunque entro le diciotto.
+
+246
+00:11:47,427 --> 00:11:51,319
+Ma esce con fatti controllati, una
+richiesta precisa e i contatti giusti.
+
+247
+00:11:51,359 --> 00:11:54,604
+E la prossima volta sai già quale
+strumento aprire per primo.
+
+248
+00:11:54,644 --> 00:11:58,967
+Il metodo non ti rallenta: ti evita di
+dover rincorrere un errore il giorno dopo.
+
+249
+00:11:59,356 --> 00:12:03,495
+Nella prossima lezione metti insieme tutto
+quello che hai raccolto nel modulo.
+
+250
+00:12:03,535 --> 00:12:05,423
+Costruisci la tua tabella personale,
+
+251
+00:12:05,463 --> 00:12:08,156
+quale usare per cosa: i compiti della sede
+in riga,
+
+252
+00:12:08,196 --> 00:12:10,138
+e per ognuno lo strumento principale,
+
+253
+00:12:10,178 --> 00:12:12,602
+quello di riserva e l'accortezza da
+ricordare.
+
+254
+00:12:12,642 --> 00:12:14,852
+Ci vediamo nella lezione due punto cinque.
