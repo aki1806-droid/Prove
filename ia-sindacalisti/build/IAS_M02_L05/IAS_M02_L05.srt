@@ -1,0 +1,1157 @@
+1
+00:00:03,000 --> 00:00:07,673
+Benvenuto alla lezione due punto cinque,
+l'ultima del modulo sui tre strumenti.
+
+2
+00:00:07,713 --> 00:00:10,119
+Oggi metti in ordine tutto quello che hai
+
+3
+00:00:10,159 --> 00:00:13,281
+provato finora e costruisci la tua tabella
+personale,
+
+4
+00:00:13,321 --> 00:00:14,534
+quale usare per cosa.
+
+5
+00:00:14,574 --> 00:00:17,159
+Una pagina sola, che ti dice quale
+strumento
+
+6
+00:00:17,199 --> 00:00:20,619
+aprire per ogni compito della sede e a
+cosa stare attento.
+
+7
+00:00:21,009 --> 00:00:23,520
+In sede è arrivato un delegato appena
+eletto.
+
+8
+00:00:23,560 --> 00:00:27,206
+È motivato, ha seguito qualche lezione e
+ha aperto i tre account.
+
+9
+00:00:27,246 --> 00:00:30,551
+Ma adesso ti ferma in corridoio con una
+raffica di domande.
+
+10
+00:00:30,591 --> 00:00:32,705
+Vuole cominciare a usare l'IA davvero,
+
+11
+00:00:32,745 --> 00:00:35,540
+già da questa settimana, e non sa da dove
+partire.
+
+12
+00:00:35,580 --> 00:00:38,999
+E tu ti accorgi che, a rispondere bene, ci
+vorrebbe mezz'ora.
+
+13
+00:00:39,389 --> 00:00:40,507
+Le domande sono tre.
+
+14
+00:00:40,547 --> 00:00:43,287
+Per il verbale della riunione di ieri,
+cosa uso?
+
+15
+00:00:43,327 --> 00:00:45,255
+E per il volantino sull'assemblea?
+
+16
+00:00:45,295 --> 00:00:48,730
+E per ritrovare quell'email dell'ufficio
+personale di marzo?
+
+17
+00:00:48,770 --> 00:00:49,888
+Sono domande giuste.
+
+18
+00:00:49,928 --> 00:00:52,030
+E la risposta non è sempre la stessa.
+
+19
+00:00:52,070 --> 00:00:54,404
+Dipende dal compito, dai dati che ci sono
+
+20
+00:00:54,444 --> 00:00:57,010
+dentro e da quello che hai scoperto
+provando.
+
+21
+00:00:57,401 --> 00:00:58,941
+Ecco l'idea della lezione.
+
+22
+00:00:58,981 --> 00:01:02,649
+La tabella non dice qual è lo strumento
+migliore in generale.
+
+23
+00:01:02,689 --> 00:01:05,992
+Dice qual è il migliore per te, per quel
+compito, oggi.
+
+24
+00:01:06,032 --> 00:01:08,545
+È personale, perché nasce dalle tue prove.
+
+25
+00:01:08,585 --> 00:01:11,645
+Ed è datata, perché tra qualche mese andrà
+rivista.
+
+26
+00:01:11,685 --> 00:01:16,264
+Non è un documento da archivio: è uno
+strumento di lavoro, da tenere aperto.
+
+27
+00:01:16,654 --> 00:01:19,628
+Senza una tabella, come si risponde a quel
+delegato?
+
+28
+00:01:19,668 --> 00:01:22,237
+A memoria, ogni volta in modo un po'
+diverso.
+
+29
+00:01:22,277 --> 00:01:24,729
+Un collega gli consiglia ChatGPT per
+tutto,
+
+30
+00:01:24,769 --> 00:01:26,932
+un altro gli dice che Claude è meglio.
+
+31
+00:01:26,972 --> 00:01:31,048
+E lui, confuso, finisce per usare lo
+strumento che ha aperto per primo,
+
+32
+00:01:31,088 --> 00:01:32,497
+anche dove funziona male.
+
+33
+00:01:32,887 --> 00:01:34,027
+La differenza è netta.
+
+34
+00:01:34,067 --> 00:01:36,547
+A memoria, ogni consiglio dipende da chi
+lo dà,
+
+35
+00:01:36,587 --> 00:01:41,051
+le accortezze si dimenticano e nessuno sa
+più perché si era scelto quello strumento.
+
+36
+00:01:41,091 --> 00:01:43,625
+Con la tabella hai la stessa risposta per
+tutti,
+
+37
+00:01:43,665 --> 00:01:47,485
+l'accortezza scritta accanto e una data
+che ti ricorda quando rivederla.
+
+38
+00:01:47,875 --> 00:01:50,168
+La tabella si costruisce in cinque passi.
+
+39
+00:01:50,208 --> 00:01:52,444
+Elenchi i compiti reali della settimana.
+
+40
+00:01:52,484 --> 00:01:53,866
+Li raggruppi in famiglie.
+
+41
+00:01:53,906 --> 00:01:57,394
+Per ognuno scegli lo strumento principale
+e quello di riserva.
+
+42
+00:01:57,434 --> 00:01:59,328
+Scrivi quali dati non entrano mai.
+
+43
+00:01:59,368 --> 00:02:01,661
+E fissi la data della prossima revisione.
+
+44
+00:02:01,701 --> 00:02:06,270
+Ognuno richiede pochi minuti, se hai già
+fatto le prove delle lezioni precedenti.
+
+45
+00:02:06,660 --> 00:02:09,971
+Il primo passo è anche quello dove si
+sbaglia più spesso.
+
+46
+00:02:10,011 --> 00:02:12,558
+La domanda sbagliata è: cosa sa fare
+Gemini?
+
+47
+00:02:12,598 --> 00:02:15,674
+La domanda giusta è: cosa devo fare questa
+settimana?
+
+48
+00:02:15,714 --> 00:02:19,025
+Si parte dai compiti, non dalle funzioni
+degli strumenti.
+
+49
+00:02:19,065 --> 00:02:21,788
+Le funzioni vengono dopo, e servono ai
+compiti.
+
+50
+00:02:22,178 --> 00:02:23,583
+Non devi inventare nulla.
+
+51
+00:02:23,623 --> 00:02:25,143
+Hai già due elenchi pronti.
+
+52
+00:02:25,183 --> 00:02:29,708
+Nella lezione zero punto uno hai scritto i
+tre compiti che ti rubano più tempo.
+
+53
+00:02:29,748 --> 00:02:34,100
+Nella lezione uno punto tre hai elencato
+cinque compiti delegabili in parte.
+
+54
+00:02:34,140 --> 00:02:38,260
+Aggiungi due o tre attività ricorrenti, e
+arrivi a otto o dieci compiti.
+
+55
+00:02:38,650 --> 00:02:40,533
+Poi li raggruppi in famiglie.
+
+56
+00:02:40,573 --> 00:02:45,176
+Le prime tre sono quelle che occupano di
+più la settimana di una sede.
+
+57
+00:02:45,216 --> 00:02:48,558
+Scrivere: comunicati, volantini, lettere,
+messaggi.
+
+58
+00:02:48,598 --> 00:02:51,343
+Leggere atti: delibere, CCNL, regolamenti.
+
+59
+00:02:51,383 --> 00:02:56,516
+Cercare e ordinare: email su un tema,
+documenti, la cronologia di una pratica.
+
+60
+00:02:56,906 --> 00:02:58,895
+Le altre tre completano il quadro.
+
+61
+00:02:58,935 --> 00:03:01,641
+Riunirsi: ordine del giorno, sintesi,
+verbale.
+
+62
+00:03:01,681 --> 00:03:05,581
+Comunicare per immagini: locandine,
+grafiche social, infografiche.
+
+63
+00:03:05,621 --> 00:03:08,446
+E pensare ad alta voce: preparare un
+intervento,
+
+64
+00:03:08,486 --> 00:03:11,609
+simulare una domanda difficile prima di
+un'assemblea.
+
+65
+00:03:11,649 --> 00:03:14,235
+Se un compito non entra in nessuna
+famiglia,
+
+66
+00:03:14,275 --> 00:03:16,384
+mettilo in altro: va bene lo stesso.
+
+67
+00:03:16,774 --> 00:03:18,770
+Puoi farti aiutare a raggruppare.
+
+68
+00:03:18,810 --> 00:03:20,868
+Indichi il tuo ruolo e il settore,
+
+69
+00:03:20,908 --> 00:03:24,693
+incolli l'elenco dei compiti e chiedi al
+massimo sei famiglie.
+
+70
+00:03:24,733 --> 00:03:27,531
+La riga decisiva è l'ultima: per ogni
+compito,
+
+71
+00:03:27,571 --> 00:03:31,294
+indica se contiene normalmente dati
+personali dei lavoratori,
+
+72
+00:03:31,334 --> 00:03:32,343
+sì, no o a volte.
+
+73
+00:03:32,733 --> 00:03:34,623
+Vediamolo a schermo, in Claude.
+
+74
+00:03:34,663 --> 00:03:38,482
+Nuova chat, incolli il prompt e poi
+l'elenco dei tuoi compiti,
+
+75
+00:03:38,522 --> 00:03:40,038
+scritti in modo generico.
+
+76
+00:03:40,078 --> 00:03:44,209
+Per esempio: verbale della riunione RSU,
+volantino per l'assemblea,
+
+77
+00:03:44,249 --> 00:03:48,068
+risposte ai lavoratori sui turni, ricerca
+di email su un tema.
+
+78
+00:03:48,108 --> 00:03:50,247
+Nessun nome, nessun caso specifico.
+
+79
+00:03:50,637 --> 00:03:52,210
+Ecco un estratto verosimile.
+
+80
+00:03:52,250 --> 00:03:55,550
+Ogni compito ha la sua famiglia e
+un'indicazione sui dati.
+
+81
+00:03:55,590 --> 00:03:57,162
+Guarda la colonna di destra:
+
+82
+00:03:57,202 --> 00:04:00,618
+le risposte ai lavoratori contengono a
+volte dati personali.
+
+83
+00:04:00,658 --> 00:04:05,167
+È un segnale prezioso, che ti servirà tra
+poco, quando scriverai le accortezze.
+
+84
+00:04:05,207 --> 00:04:09,717
+E la ricerca nelle email, segnata con un
+sì, è la riga che chiede più prudenza.
+
+85
+00:04:10,107 --> 00:04:12,035
+Quante righe deve avere la tabella?
+
+86
+00:04:12,075 --> 00:04:12,991
+Tra otto e dieci.
+
+87
+00:04:13,031 --> 00:04:15,916
+Meno di otto, e lasci fuori compiti che
+fai davvero.
+
+88
+00:04:15,956 --> 00:04:19,177
+Più di dieci, e diventa un documento che
+nessuno consulta.
+
+89
+00:04:19,217 --> 00:04:22,833
+Una tabella utile si legge in un minuto e
+sta su una pagina sola.
+
+90
+00:04:22,873 --> 00:04:26,657
+Se ne hai di più, tieni quelli che fai
+almeno una volta a settimana.
+
+91
+00:04:27,047 --> 00:04:31,318
+Ecco una tabella di partenza, aggiornata a
+ottobre duemilaventisei.
+
+92
+00:04:31,358 --> 00:04:35,178
+Per riassumere un atto lungo, Claude, con
+Gemini di riserva.
+
+93
+00:04:35,218 --> 00:04:38,845
+Per comunicati e lettere, Claude, con
+ChatGPT di riserva.
+
+94
+00:04:38,885 --> 00:04:40,711
+Per titoli e slogan, ChatGPT.
+
+95
+00:04:40,751 --> 00:04:43,799
+Per cercare in email e documenti Google,
+Gemini,
+
+96
+00:04:43,839 --> 00:04:46,373
+ma solo su caselle senza dati sensibili.
+
+97
+00:04:46,763 --> 00:04:47,451
+Continuiamo.
+
+98
+00:04:47,491 --> 00:04:49,576
+Per preparare un intervento a voce,
+
+99
+00:04:49,616 --> 00:04:52,368
+ChatGPT con la modalità vocale, o Gemini
+Live.
+
+100
+00:04:52,408 --> 00:04:56,920
+Per un'immagine da locandina, ChatGPT o
+Gemini, con testi e loghi in Canva.
+
+101
+00:04:56,960 --> 00:04:59,348
+Per uno schema o un'infografica, Claude.
+
+102
+00:04:59,388 --> 00:05:01,108
+E per la verifica incrociata,
+
+103
+00:05:01,148 --> 00:05:04,386
+sempre uno strumento diverso da quello che
+ha scritto.
+
+104
+00:05:04,776 --> 00:05:08,190
+Attenzione: quella tabella è una proposta,
+non una regola.
+
+105
+00:05:08,230 --> 00:05:12,001
+L'errore tipico è copiarla così com'è e
+considerarla definitiva.
+
+106
+00:05:12,041 --> 00:05:14,205
+È costruita sui punti forti generali.
+
+107
+00:05:14,245 --> 00:05:16,646
+La tua deve nascere dai voti che hai dato
+
+108
+00:05:16,686 --> 00:05:19,505
+nelle lezioni due punto tre e due punto
+quattro,
+
+109
+00:05:19,545 --> 00:05:20,398
+sui tuoi testi.
+
+110
+00:05:20,787 --> 00:05:21,534
+Ecco il punto.
+
+111
+00:05:21,574 --> 00:05:25,974
+Ogni riga che compili deve poggiare su
+qualcosa che hai visto con i tuoi occhi.
+
+112
+00:05:26,014 --> 00:05:30,133
+Un voto della griglia, una bozza che ha
+retto, un errore che hai scoperto.
+
+113
+00:05:30,173 --> 00:05:33,673
+Se per un compito non hai ancora provato,
+scrivilo: da provare.
+
+114
+00:05:33,713 --> 00:05:35,584
+È più onesto di una scelta a caso.
+
+115
+00:05:35,975 --> 00:05:39,040
+Apri il documento con i risultati delle
+prove precedenti.
+
+116
+00:05:39,080 --> 00:05:41,928
+Il riassunto dato ai tre, con i voti sui
+tre criteri.
+
+117
+00:05:41,968 --> 00:05:46,068
+Il comunicato, con la griglia dei sei
+criteri e la motivazione in tre righe.
+
+118
+00:05:46,108 --> 00:05:49,990
+Sono questi i dati che usi per riempire le
+colonne principale e riserva.
+
+119
+00:05:50,030 --> 00:05:54,348
+Se una prova manca, segnala la riga come
+da provare e falla nei prossimi giorni.
+
+120
+00:05:54,738 --> 00:05:55,879
+Facciamo un esempio.
+
+121
+00:05:55,919 --> 00:05:59,716
+Nei tuoi voti il riassunto migliore era di
+Gemini, non di Claude,
+
+122
+00:05:59,756 --> 00:06:02,785
+perché la tua circolare era breve e
+serviva sintesi.
+
+123
+00:06:02,825 --> 00:06:06,741
+Allora nella tua tabella, alla riga
+riassumere una circolare breve,
+
+124
+00:06:06,781 --> 00:06:08,098
+il principale è Gemini.
+
+125
+00:06:08,138 --> 00:06:09,692
+E accanto annoti il motivo.
+
+126
+00:06:10,082 --> 00:06:12,302
+Adesso la colonna che non si salta mai.
+
+127
+00:06:12,342 --> 00:06:14,329
+Per ogni riga scrivi quali dati non
+
+128
+00:06:14,369 --> 00:06:16,937
+entrano in quello strumento per quel
+compito.
+
+129
+00:06:16,977 --> 00:06:17,922
+Non è burocrazia.
+
+130
+00:06:17,962 --> 00:06:20,703
+È la regola che protegge i lavoratori e la
+sede,
+
+131
+00:06:20,743 --> 00:06:23,426
+scritta proprio dove serve, accanto al
+compito.
+
+132
+00:06:23,466 --> 00:06:26,381
+Chi la legge sa subito cosa non deve mai
+incollare.
+
+133
+00:06:26,771 --> 00:06:29,915
+Il fondamento è il principio di
+minimizzazione del GDPR,
+
+134
+00:06:29,955 --> 00:06:31,053
+all'articolo cinque.
+
+135
+00:06:31,093 --> 00:06:33,327
+I dati personali devono essere adeguati,
+
+136
+00:06:33,367 --> 00:06:36,455
+pertinenti e limitati a quanto necessario
+per lo scopo.
+
+137
+00:06:36,495 --> 00:06:39,241
+Per quasi tutti i compiti della tabella si
+lavora
+
+138
+00:06:39,281 --> 00:06:42,255
+su testi anonimizzati e su fatti descritti
+per ruolo,
+
+139
+00:06:42,295 --> 00:06:44,814
+come un'infermiera del reparto, non per
+nome.
+
+140
+00:06:45,204 --> 00:06:49,266
+Guarda come lo ha fatto Anna, segretaria
+di una sede territoriale.
+
+141
+00:06:49,306 --> 00:06:53,554
+Alla riga rispondere a un lavoratore su un
+esito negativo ha scritto:
+
+142
+00:06:53,594 --> 00:06:56,537
+mai nome, matricola, diagnosi o data di
+nascita.
+
+143
+00:06:56,577 --> 00:06:59,706
+Il caso lo descrive così: dipendente a
+tempo pieno,
+
+144
+00:06:59,746 --> 00:07:02,254
+profilo X, domanda respinta per motivo Y.
+
+145
+00:07:02,644 --> 00:07:07,287
+E alla riga cercare email su un tema, Anna
+ha lasciato vuota la casella di Gemini.
+
+146
+00:07:07,327 --> 00:07:09,800
+Nella posta della sede arrivano
+certificati,
+
+147
+00:07:09,840 --> 00:07:11,799
+quindi ha deciso di non collegarla.
+
+148
+00:07:11,839 --> 00:07:15,111
+Guarda la differenza tra un'accortezza
+vaga e una precisa:
+
+149
+00:07:15,151 --> 00:07:17,681
+la prima non protegge nessuno, la seconda
+sì.
+
+150
+00:07:18,071 --> 00:07:20,323
+C'è un numero che sorprende chi lo scopre.
+
+151
+00:07:20,363 --> 00:07:22,505
+Per quasi tutti i compiti della tabella,
+
+152
+00:07:22,545 --> 00:07:25,124
+la quantità di dati personali necessaria è
+zero.
+
+153
+00:07:25,164 --> 00:07:28,725
+Un comunicato, un riassunto di delibera,
+una scaletta d'assemblea:
+
+154
+00:07:28,765 --> 00:07:32,762
+nessuno di questi ha bisogno del nome di
+un collega per essere fatto bene.
+
+155
+00:07:33,152 --> 00:07:35,993
+Ecco lo schema della tabella, pronto da
+copiare.
+
+156
+00:07:36,033 --> 00:07:39,233
+In cima il nome della sede e la data di
+aggiornamento.
+
+157
+00:07:39,273 --> 00:07:42,114
+Poi sette colonne: compito, principale,
+riserva,
+
+158
+00:07:42,154 --> 00:07:45,535
+piano usato, dati che non entrano mai,
+accortezza e voto.
+
+159
+00:07:45,575 --> 00:07:49,616
+In fondo la data della prossima revisione
+e le novità da verificare.
+
+160
+00:07:50,005 --> 00:07:54,144
+Copia lo schema in un documento o in un
+foglio di calcolo, come preferisci.
+
+161
+00:07:54,184 --> 00:07:58,601
+Se usi un foglio, metti le sette colonne
+in intestazione e blocca la prima riga,
+
+162
+00:07:58,641 --> 00:08:00,495
+così resta visibile mentre scorri.
+
+163
+00:08:00,535 --> 00:08:04,339
+Scrivi subito in cima la data di oggi: è
+il primo dato della tabella.
+
+164
+00:08:04,730 --> 00:08:06,860
+Compiliamo insieme una riga.
+
+165
+00:08:06,900 --> 00:08:09,649
+Compito: verbale della riunione RSU.
+
+166
+00:08:09,689 --> 00:08:15,150
+Principale: Claude, perché nella prova ha
+conservato tutte le scadenze.
+
+167
+00:08:15,190 --> 00:08:16,390
+Riserva: Gemini.
+
+168
+00:08:16,430 --> 00:08:17,630
+Piano: gratuito.
+
+169
+00:08:17,670 --> 00:08:21,582
+Dati esclusi: nomi dei presenti e casi
+individuali.
+
+170
+00:08:21,622 --> 00:08:24,991
+Accortezza: chiedere sempre il non
+indicato.
+
+171
+00:08:25,031 --> 00:08:26,076
+Voto: quattro.
+
+172
+00:08:26,465 --> 00:08:29,454
+Quando hai compilato tutte le righe, fai
+un controllo.
+
+173
+00:08:29,494 --> 00:08:31,866
+Incolli la tabella e chiedi di segnalare
+le
+
+174
+00:08:31,906 --> 00:08:34,446
+righe dove la colonna dei dati è vuota o
+vaga,
+
+175
+00:08:34,486 --> 00:08:37,868
+e quelle dove principale e riserva non
+hanno una motivazione.
+
+176
+00:08:37,908 --> 00:08:41,738
+Non chiedere di cambiare le tue scelte:
+chiedi solo dove sono deboli.
+
+177
+00:08:42,129 --> 00:08:43,675
+Ecco un estratto verosimile.
+
+178
+00:08:43,715 --> 00:08:47,866
+Due righe hanno un'accortezza troppo vaga,
+una non ha nessuna motivazione.
+
+179
+00:08:47,906 --> 00:08:50,189
+È un controllo veloce che ti fa trovare i
+
+180
+00:08:50,229 --> 00:08:52,851
+punti deboli prima che li scopra qualcun
+altro.
+
+181
+00:08:52,891 --> 00:08:54,607
+Poi le correzioni le scrivi tu.
+
+182
+00:08:54,647 --> 00:08:58,402
+E se un rilievo non ti convince, lascialo
+cadere: la tabella è tua.
+
+183
+00:08:58,791 --> 00:09:01,532
+Una colonna che molti trascurano è il
+piano usato.
+
+184
+00:09:01,572 --> 00:09:04,479
+Un giudizio dato con il modello più
+leggero del piano
+
+185
+00:09:04,519 --> 00:09:07,482
+gratuito può cambiare con un abbonamento,
+e viceversa.
+
+186
+00:09:07,522 --> 00:09:09,707
+Annotarlo ti dice quanto vale quel voto.
+
+187
+00:09:09,747 --> 00:09:13,878
+E ti serve se un collega con un piano
+diverso arriva a conclusioni opposte.
+
+188
+00:09:14,268 --> 00:09:17,370
+Se lavori in squadra, la tabella diventa
+ancora più utile.
+
+189
+00:09:17,410 --> 00:09:21,270
+Ognuno compila la sua, poi vi sedete e le
+mettete una accanto all'altra.
+
+190
+00:09:21,310 --> 00:09:25,550
+Le righe su cui siete d'accordo possono
+diventare la tabella comune della sede,
+
+191
+00:09:25,590 --> 00:09:27,608
+da dare a ogni delegato appena eletto.
+
+192
+00:09:27,998 --> 00:09:31,521
+Le righe su cui non siete d'accordo sono
+le più interessanti.
+
+193
+00:09:31,561 --> 00:09:36,135
+Per esempio: per le lettere all'azienda,
+due preferiscono Claude e uno ChatGPT.
+
+194
+00:09:36,175 --> 00:09:36,836
+Non si vota.
+
+195
+00:09:36,876 --> 00:09:41,041
+Rifate insieme la prova della lezione due
+punto quattro su quel compito,
+
+196
+00:09:41,081 --> 00:09:43,786
+con la stessa griglia, e decidete sui
+punteggi.
+
+197
+00:09:44,176 --> 00:09:46,861
+Il principio è semplice e vale per tutta
+la sede.
+
+198
+00:09:46,901 --> 00:09:49,641
+Le scelte sugli strumenti si fanno con la
+griglia,
+
+199
+00:09:49,681 --> 00:09:51,754
+non a maggioranza e non per anzianità.
+
+200
+00:09:51,794 --> 00:09:56,202
+Così chi è arrivato da poco può proporre
+un cambiamento, purché porti una prova.
+
+201
+00:09:56,242 --> 00:09:59,427
+E la tabella resta viva, perché tutti
+possono migliorarla.
+
+202
+00:09:59,818 --> 00:10:01,766
+Ogni tre mesi la tabella va rivista.
+
+203
+00:10:01,806 --> 00:10:04,086
+Per non farlo di corsa, usa questo prompt.
+
+204
+00:10:04,126 --> 00:10:08,118
+Incolli la tabella e chiedi cinque domande
+per capire se è ancora valida:
+
+205
+00:10:08,158 --> 00:10:12,426
+quali compiti sono cambiati, dove hai
+avuto problemi, quali righe non usi più.
+
+206
+00:10:12,466 --> 00:10:16,956
+E specifichi che le novità degli strumenti
+le verifichi tu sulle pagine ufficiali.
+
+207
+00:10:17,345 --> 00:10:21,260
+Adesso fissa la revisione in agenda, tra
+tre mesi, con un promemoria.
+
+208
+00:10:21,300 --> 00:10:24,641
+Nel testo del promemoria scrivi le tre
+cose da controllare:
+
+209
+00:10:24,681 --> 00:10:27,736
+piani e prezzi, nuove funzioni,
+impostazioni sui dati.
+
+210
+00:10:27,776 --> 00:10:31,806
+E il collegamento al documento della
+tabella, così lo apri con un clic.
+
+211
+00:10:32,196 --> 00:10:36,341
+L'errore tipico è assegnare un compito a
+uno strumento una volta per tutte.
+
+212
+00:10:36,381 --> 00:10:38,295
+Ogni pochi mesi i modelli cambiano,
+
+213
+00:10:38,335 --> 00:10:42,257
+una funzione passa dal piano a pagamento a
+quello gratuito o viceversa,
+
+214
+00:10:42,297 --> 00:10:43,652
+un'interfaccia si sposta.
+
+215
+00:10:43,692 --> 00:10:46,721
+Una tabella mai rivista diventa
+un'abitudine sbagliata.
+
+216
+00:10:47,111 --> 00:10:50,144
+Il secondo errore è lasciare vuota la
+colonna dei dati,
+
+217
+00:10:50,184 --> 00:10:52,212
+perché per quel compito sembra ovvio.
+
+218
+00:10:52,252 --> 00:10:54,447
+Proprio le righe ovvie sono quelle dove,
+
+219
+00:10:54,487 --> 00:10:57,296
+un giorno di fretta, si incolla qualcosa
+di troppo.
+
+220
+00:10:57,336 --> 00:10:59,978
+Scrivila sempre, anche quando ti pare
+superflua.
+
+221
+00:11:00,018 --> 00:11:04,225
+Bastano poche parole: niente nomi, niente
+casi di salute, niente iscrizioni.
+
+222
+00:11:04,615 --> 00:11:07,585
+Se ti porti a casa una sola frase, che sia
+questa.
+
+223
+00:11:07,625 --> 00:11:10,475
+Parti dai tuoi compiti, scegli con le tue
+prove,
+
+224
+00:11:10,515 --> 00:11:15,110
+scrivi in ogni riga quali dati non entrano
+mai, e rivedi tutto ogni tre mesi.
+
+225
+00:11:15,500 --> 00:11:16,340
+Ora tocca a te.
+
+226
+00:11:16,380 --> 00:11:18,744
+Elenca da otto a dieci compiti ricorrenti
+
+227
+00:11:18,784 --> 00:11:21,265
+e raggruppali con il prompt delle
+famiglie.
+
+228
+00:11:21,305 --> 00:11:24,197
+Copia lo schema e inserisci i compiti
+nelle righe.
+
+229
+00:11:24,237 --> 00:11:27,480
+Scegli principale e riserva con i
+risultati delle prove.
+
+230
+00:11:27,520 --> 00:11:29,943
+Compila la colonna dei dati per ogni riga.
+
+231
+00:11:29,983 --> 00:11:31,936
+E fissa la revisione tra tre mesi.
+
+232
+00:11:32,326 --> 00:11:34,263
+Con questa tabella chiudi il modulo.
+
+233
+00:11:34,303 --> 00:11:36,954
+Hai tre account aperti con un indirizzo
+dedicato.
+
+234
+00:11:36,994 --> 00:11:39,096
+Sai quando conviene pagare e quando no.
+
+235
+00:11:39,136 --> 00:11:41,073
+Conosci i talenti dei tre strumenti,
+
+236
+00:11:41,113 --> 00:11:44,973
+sai confrontarli alla pari e hai una
+pagina che riassume le tue scelte.
+
+237
+00:11:45,013 --> 00:11:46,401
+Tienila a portata di mano:
+
+238
+00:11:46,441 --> 00:11:49,806
+nel modulo quattro la affiancherai ai tuoi
+primi venti prompt.
+
+239
+00:11:50,196 --> 00:11:52,697
+Torna al delegato appena eletto, in
+corridoio.
+
+240
+00:11:52,737 --> 00:11:56,121
+Adesso puoi rispondergli in un minuto, con
+la tabella in mano.
+
+241
+00:11:56,161 --> 00:11:59,988
+Il verbale con Claude, il volantino con
+Claude e i titoli con ChatGPT,
+
+242
+00:12:00,028 --> 00:12:02,860
+l'email di marzo con Gemini, se la casella
+è pulita.
+
+243
+00:12:02,900 --> 00:12:05,788
+E per ogni risposta, l'accortezza da non
+dimenticare.
+
+244
+00:12:06,178 --> 00:12:08,520
+Con il prossimo modulo affrontiamo il tema
+
+245
+00:12:08,560 --> 00:12:11,186
+che hai incontrato in ogni lezione: la
+privacy.
+
+246
+00:12:11,226 --> 00:12:15,610
+Partiamo dai dati che non si incollano
+mai, cioè salute, iscrizione sindacale,
+
+247
+00:12:15,650 --> 00:12:16,858
+nomi e codici fiscali,
+
+248
+00:12:16,898 --> 00:12:20,204
+e impariamo a riconoscerli prima che
+finiscano in una chat.
+
+249
+00:12:20,244 --> 00:12:22,416
+Ci vediamo nella lezione tre punto uno.
