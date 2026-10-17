@@ -1,0 +1,1139 @@
+1
+00:00:03,000 --> 00:00:05,355
+Benvenuto alla lezione quattro punto due.
+
+2
+00:00:05,395 --> 00:00:08,101
+Oggi impari una cosa semplice e molto
+efficace:
+
+3
+00:00:08,141 --> 00:00:11,606
+invece di spiegare all'IA come vuoi un
+testo, glielo mostri.
+
+4
+00:00:11,646 --> 00:00:15,462
+Prendi un comunicato che ti è riuscito
+bene e lo usi come modello.
+
+5
+00:00:15,502 --> 00:00:19,843
+Vediamo come si fa, passo passo, senza
+mettere a rischio i dati di nessuno.
+
+6
+00:00:20,483 --> 00:00:21,850
+Pensa alla tua segreteria.
+
+7
+00:00:21,890 --> 00:00:25,314
+In qualche cartella c'è un comunicato che
+ha funzionato davvero.
+
+8
+00:00:25,354 --> 00:00:29,211
+I colleghi l'hanno girato nei gruppi, in
+assemblea qualcuno l'ha citato,
+
+9
+00:00:29,251 --> 00:00:31,593
+e chi lo leggeva sentiva la voce della
+sede.
+
+10
+00:00:31,633 --> 00:00:34,949
+Non era perfetto, ma era vostro, e si
+capiva dalla prima riga.
+
+11
+00:00:35,589 --> 00:00:39,705
+Adesso arriva un tema nuovo: i ritardi nel
+pagamento delle ore aggiuntive.
+
+12
+00:00:39,745 --> 00:00:41,839
+Vorresti un testo con la stessa forza.
+
+13
+00:00:41,879 --> 00:00:45,770
+Chiedi all'IA un comunicato e quello che
+ricevi è corretto e ordinato,
+
+14
+00:00:45,810 --> 00:00:47,904
+ma suona come una circolare qualunque.
+
+15
+00:00:47,944 --> 00:00:49,757
+Potrebbe averlo scritto chiunque.
+
+16
+00:00:49,797 --> 00:00:51,217
+Non sembra scritto da voi.
+
+17
+00:00:51,857 --> 00:00:53,648
+Il problema non è lo strumento.
+
+18
+00:00:53,688 --> 00:00:56,069
+È che lo stile si descrive male a parole.
+
+19
+00:00:56,109 --> 00:01:00,203
+Prova a spiegare il tono della tua sede a
+qualcuno che non vi conosce:
+
+20
+00:01:00,243 --> 00:01:01,975
+ti escono tre aggettivi vaghi.
+
+21
+00:01:02,015 --> 00:01:03,392
+Fermo, vicino, concreto.
+
+22
+00:01:03,432 --> 00:01:06,817
+Tutti d'accordo, ma ognuno li immagina in
+un modo diverso.
+
+23
+00:01:07,457 --> 00:01:08,694
+Guarda la differenza.
+
+24
+00:01:08,734 --> 00:01:11,674
+Se scrivi tono deciso ma non aggressivo,
+ChatGPT,
+
+25
+00:01:11,714 --> 00:01:14,715
+Claude e Gemini lo interpretano ognuno a
+modo suo.
+
+26
+00:01:14,755 --> 00:01:18,424
+Se invece incolli il comunicato sulla
+mensa che era piaciuto,
+
+27
+00:01:18,464 --> 00:01:20,492
+l'IA vede concretamente come apri,
+
+28
+00:01:20,532 --> 00:01:24,384
+quanto sono lunghe le frasi, quante
+richieste fai e come chiudi.
+
+29
+00:01:25,025 --> 00:01:26,646
+E senza IA, oggi, come si fa?
+
+30
+00:01:26,686 --> 00:01:28,135
+Si riapre il vecchio file,
+
+31
+00:01:28,175 --> 00:01:31,457
+si cambia a mano un pezzo alla volta e si
+spera che regga.
+
+32
+00:01:31,497 --> 00:01:35,810
+Oppure si riscrive tutto da zero, di
+corsa, la sera prima del volantinaggio.
+
+33
+00:01:35,850 --> 00:01:40,507
+In entrambi i casi lo stile dipende da chi
+ha tempo quel giorno, non da un metodo.
+
+34
+00:01:41,147 --> 00:01:42,986
+Ecco il concetto della lezione.
+
+35
+00:01:43,026 --> 00:01:46,682
+Quando dai un esempio, l'IA non deve
+indovinare cosa intendi.
+
+36
+00:01:46,722 --> 00:01:49,955
+Lo osserva, ne ricava la forma, cioè
+ritmo, struttura,
+
+37
+00:01:49,995 --> 00:01:54,015
+lunghezza e lessico, e la applica al
+contenuto nuovo che le dai tu.
+
+38
+00:01:54,055 --> 00:01:57,470
+Tu porti i fatti, l'esempio porta il modo
+di raccontarli.
+
+39
+00:01:58,109 --> 00:02:00,422
+In un solo esempio ci sono informazioni
+che
+
+40
+00:02:00,462 --> 00:02:02,994
+non riusciresti mai a mettere in
+un'istruzione.
+
+41
+00:02:03,034 --> 00:02:04,745
+Se usate il noi o l'impersonale.
+
+42
+00:02:04,785 --> 00:02:06,934
+Se aprite con un dato o con una domanda.
+
+43
+00:02:06,974 --> 00:02:08,138
+Quante richieste fate.
+
+44
+00:02:08,178 --> 00:02:12,516
+Perfino le parole che tornano sempre,
+quelle che chi vi legge riconosce al volo.
+
+45
+00:02:13,156 --> 00:02:14,966
+Non è un trucco da appassionati.
+
+46
+00:02:15,006 --> 00:02:18,494
+La documentazione ufficiale di Anthropic
+per Claude definisce
+
+47
+00:02:18,534 --> 00:02:22,195
+gli esempi come uno dei modi più
+affidabili per guidare formato,
+
+48
+00:02:22,235 --> 00:02:24,103
+tono e struttura di una risposta.
+
+49
+00:02:24,143 --> 00:02:27,110
+E lo stesso principio vale per ChatGPT e
+per Gemini.
+
+50
+00:02:27,750 --> 00:02:30,539
+La stessa documentazione aggiunge due
+condizioni.
+
+51
+00:02:30,579 --> 00:02:35,099
+Gli esempi devono essere pertinenti, cioè
+vicini al testo che ti serve davvero.
+
+52
+00:02:35,139 --> 00:02:39,025
+E devono essere abbastanza vari da non far
+copiare dettagli casuali.
+
+53
+00:02:39,065 --> 00:02:43,239
+Tienile a mente, perché tra poco vedrai
+cosa succede quando ne manca una.
+
+54
+00:02:43,880 --> 00:02:46,381
+Passiamo alla costruzione del prompt.
+
+55
+00:02:46,421 --> 00:02:49,403
+Le regole sono tre e reggono tutto il
+resto.
+
+56
+00:02:49,443 --> 00:02:54,074
+Primo, etichetta l'esempio, così l'IA sa
+dove inizia e dove finisce.
+
+57
+00:02:54,114 --> 00:02:56,546
+Secondo, dichiara cosa deve imitare.
+
+58
+00:02:56,586 --> 00:02:59,156
+Terzo, dichiara cosa non deve copiare.
+
+59
+00:02:59,196 --> 00:03:02,315
+Se ne salti una, il risultato peggiora
+subito.
+
+60
+00:03:02,955 --> 00:03:05,645
+La prima regola sembra un dettaglio, ma
+non lo è.
+
+61
+00:03:05,685 --> 00:03:08,597
+Se incolli il testo modello in mezzo alle
+istruzioni,
+
+62
+00:03:08,637 --> 00:03:12,107
+l'IA può scambiarlo per una richiesta, o
+mescolare le due cose.
+
+63
+00:03:12,147 --> 00:03:14,837
+Chiudilo tra due marcatori come quelli a
+schermo,
+
+64
+00:03:14,877 --> 00:03:18,514
+oppure tra due righe in maiuscolo: esempio
+inizio ed esempio fine.
+
+65
+00:03:19,154 --> 00:03:20,388
+Ora andiamo a schermo.
+
+66
+00:03:20,428 --> 00:03:23,864
+Apri una nuova conversazione nello
+strumento che usi di più.
+
+67
+00:03:23,904 --> 00:03:26,181
+Per questa dimostrazione usiamo ChatGPT,
+
+68
+00:03:26,221 --> 00:03:29,252
+ma il prompt funziona identico in Claude e
+in Gemini.
+
+69
+00:03:29,292 --> 00:03:32,554
+Prima di incollare qualsiasi cosa, prepara
+due materiali:
+
+70
+00:03:32,594 --> 00:03:35,392
+il comunicato modello e tre righe sul tema
+nuovo.
+
+71
+00:03:36,032 --> 00:03:40,219
+Il modello è il comunicato sui buoni
+pasto, quello molto apprezzato in sede.
+
+72
+00:03:40,259 --> 00:03:42,666
+Ha un'architettura chiara: apre con un
+dato,
+
+73
+00:03:42,706 --> 00:03:44,946
+dedica tre frasi al disagio dei colleghi,
+
+74
+00:03:44,986 --> 00:03:46,281
+fa una richiesta precisa
+
+75
+00:03:46,321 --> 00:03:49,451
+all'amministrazione e chiude annunciando
+la convocazione.
+
+76
+00:03:49,491 --> 00:03:52,455
+È proprio questa architettura che vogliamo
+trasferire.
+
+77
+00:03:53,095 --> 00:03:55,197
+Prima di incollarlo, lo ripulisci.
+
+78
+00:03:55,237 --> 00:04:00,426
+Rileggi il testo e sostituisci ogni nome
+di lavoratore, ogni reparto riconoscibile,
+
+79
+00:04:00,466 --> 00:04:05,025
+ogni data che identifica qualcuno con un
+segnaposto tra parentesi quadre:
+
+80
+00:04:05,065 --> 00:04:06,663
+lavoratore, reparto, data.
+
+81
+00:04:06,703 --> 00:04:10,191
+Allo stile quei dati non servono, e il
+modello è pronto.
+
+82
+00:04:10,831 --> 00:04:12,205
+Ecco il prompt completo.
+
+83
+00:04:12,245 --> 00:04:16,093
+In apertura c'è il ruolo, come hai visto
+nella lezione precedente:
+
+84
+00:04:16,133 --> 00:04:17,978
+l'addetto stampa della tua sede.
+
+85
+00:04:18,018 --> 00:04:20,806
+Poi la frase che annuncia il modello di
+stile e,
+
+86
+00:04:20,846 --> 00:04:24,105
+subito sotto, il comunicato chiuso tra le
+due etichette.
+
+87
+00:04:24,145 --> 00:04:28,111
+Dopo l'esempio, e solo dopo, arrivano le
+istruzioni sul nuovo testo.
+
+88
+00:04:28,751 --> 00:04:31,089
+Incolli il comunicato dentro le etichette,
+
+89
+00:04:31,129 --> 00:04:33,580
+poi scrivi il tema nuovo in due o tre
+righe.
+
+90
+00:04:33,620 --> 00:04:36,920
+Ritardi nel pagamento delle ore
+aggiuntive, da quanti mesi,
+
+91
+00:04:36,960 --> 00:04:39,411
+quante persone coinvolte, che cosa
+chiedete.
+
+92
+00:04:39,451 --> 00:04:43,600
+Bastano i fatti essenziali: il modo di
+raccontarli lo prende dall'esempio.
+
+93
+00:04:44,240 --> 00:04:47,010
+Adesso le due righe che fanno la
+differenza.
+
+94
+00:04:47,050 --> 00:04:50,842
+Nella riga imita metti ciò che deve
+restare uguale: il tono,
+
+95
+00:04:50,882 --> 00:04:54,418
+il ritmo delle frasi, la struttura, il
+modo di chiudere.
+
+96
+00:04:54,458 --> 00:04:59,463
+Nella riga non copiare metti ciò che deve
+cambiare: fatti, date e frasi intere.
+
+97
+00:04:59,503 --> 00:05:02,656
+Lo stile è la costante, il contenuto la
+variabile.
+
+98
+00:05:03,296 --> 00:05:04,730
+Invii e leggi con calma.
+
+99
+00:05:04,770 --> 00:05:09,213
+Non chiederti solo se il testo è scritto
+bene: chiediti se sembra vostro.
+
+100
+00:05:09,253 --> 00:05:11,301
+Apre con un dato, come il modello?
+
+101
+00:05:11,341 --> 00:05:13,081
+Ha la stessa richiesta secca?
+
+102
+00:05:13,121 --> 00:05:14,739
+Chiude con la convocazione?
+
+103
+00:05:14,779 --> 00:05:18,056
+Se la risposta è sì, l'esempio ha fatto il
+suo lavoro.
+
+104
+00:05:18,695 --> 00:05:20,332
+Ecco un estratto verosimile.
+
+105
+00:05:20,372 --> 00:05:22,967
+Apre con un dato, i quattro mesi di
+ritardo.
+
+106
+00:05:23,007 --> 00:05:25,064
+Racconta il disagio in poche frasi.
+
+107
+00:05:25,104 --> 00:05:27,519
+Fa una richiesta precisa, una data certa.
+
+108
+00:05:27,559 --> 00:05:29,256
+E chiude con la convocazione.
+
+109
+00:05:29,296 --> 00:05:32,610
+È la stessa architettura del comunicato
+sui buoni pasto,
+
+110
+00:05:32,650 --> 00:05:34,647
+con contenuti completamente nuovi.
+
+111
+00:05:35,287 --> 00:05:38,296
+Attenzione però a cosa può succedere alla
+prima prova.
+
+112
+00:05:38,336 --> 00:05:40,216
+In sede è capitato proprio questo:
+
+113
+00:05:40,256 --> 00:05:44,507
+l'IA aveva ripreso pari pari la frase
+finale del comunicato sui buoni pasto.
+
+114
+00:05:44,547 --> 00:05:48,064
+Con un solo esempio la tentazione di
+copiare da vicino è forte.
+
+115
+00:05:48,104 --> 00:05:50,887
+Ecco perché la riga non copiare non è
+facoltativa.
+
+116
+00:05:51,527 --> 00:05:53,468
+Se succede, non ricominciare da capo.
+
+117
+00:05:53,508 --> 00:05:57,055
+Resta nella stessa conversazione e
+rilancia con un messaggio breve.
+
+118
+00:05:57,095 --> 00:05:58,340
+Indica la frase copiata,
+
+119
+00:05:58,380 --> 00:06:02,248
+chiedi di riscriverla con parole nuove e
+di ricontrollare tutto il testo.
+
+120
+00:06:02,288 --> 00:06:04,122
+Nella lezione quattro punto quattro
+
+121
+00:06:04,162 --> 00:06:06,691
+vedremo bene come si lavora per giri
+successivi.
+
+122
+00:06:07,332 --> 00:06:09,180
+Fin qui hai usato un esempio solo.
+
+123
+00:06:09,220 --> 00:06:11,955
+Ma ogni sede ha più testi riusciti: un
+comunicato,
+
+124
+00:06:11,995 --> 00:06:15,564
+un avviso breve in bacheca, una risposta
+scritta a un lavoratore.
+
+125
+00:06:15,604 --> 00:06:19,672
+Messi insieme raccontano il vostro stile
+meglio di ciascuno preso da solo.
+
+126
+00:06:20,312 --> 00:06:21,348
+Ecco come scegliere.
+
+127
+00:06:21,388 --> 00:06:25,812
+Un esempio basta quando vuoi un tono, ma
+rischi che l'IA lo segua troppo da vicino.
+
+128
+00:06:25,852 --> 00:06:29,846
+Due o tre esempi diversi le permettono di
+cogliere ciò che hanno in comune.
+
+129
+00:06:29,886 --> 00:06:32,266
+Da tre a cinque servono per uno schema
+fisso,
+
+130
+00:06:32,306 --> 00:06:36,139
+come le risposte ai lavoratori o gli
+avvisi brevi, ma vanno curati bene.
+
+131
+00:06:36,778 --> 00:06:38,800
+Un esempio concreto di schema fisso.
+
+132
+00:06:38,840 --> 00:06:41,837
+Alla sede arrivano spesso le stesse
+domande via mail:
+
+133
+00:06:41,877 --> 00:06:43,498
+ferie, permessi, cambi turno.
+
+134
+00:06:43,538 --> 00:06:47,852
+Se mostri all'IA quattro risposte già
+scritte da voi, diverse per argomento,
+
+135
+00:06:47,892 --> 00:06:50,201
+ottieni bozze nuove con lo stesso saluto,
+
+136
+00:06:50,241 --> 00:06:53,467
+la stessa chiarezza e lo stesso invito a
+passare in sede.
+
+137
+00:06:53,507 --> 00:06:54,899
+Le rileggi e le firmi tu.
+
+138
+00:06:55,539 --> 00:06:57,959
+C'è una regola d'oro quando usi più
+esempi.
+
+139
+00:06:57,999 --> 00:07:01,391
+Scegli testi diversi tra loro per tema, ma
+uguali per stile.
+
+140
+00:07:01,431 --> 00:07:04,251
+Uno sui parcheggi, uno sulla mensa, uno
+sui turni.
+
+141
+00:07:04,291 --> 00:07:06,596
+Così l'IA capisce che lo stile è la parte
+
+142
+00:07:06,636 --> 00:07:09,113
+che si ripete e il tema è quella che
+cambia.
+
+143
+00:07:09,753 --> 00:07:13,872
+Proviamo in Claude, che gestisce bene più
+testi lunghi incollati insieme.
+
+144
+00:07:13,912 --> 00:07:16,321
+Prepari tre testi della sede, già
+ripuliti,
+
+145
+00:07:16,361 --> 00:07:19,967
+e li incolli uno dopo l'altro, ciascuno
+dentro la sua etichetta.
+
+146
+00:07:20,007 --> 00:07:23,670
+Le tre etichette stanno a loro volta
+dentro un contenitore unico,
+
+147
+00:07:23,710 --> 00:07:24,581
+chiamato esempi.
+
+148
+00:07:25,222 --> 00:07:27,580
+Questa volta non chiedi un testo nuovo.
+
+149
+00:07:27,620 --> 00:07:31,269
+Chiedi all'IA di descrivere in cinque
+punti lo stile comune:
+
+150
+00:07:31,309 --> 00:07:34,159
+tono, lunghezza, struttura, lessico e
+chiusura.
+
+151
+00:07:34,199 --> 00:07:38,402
+Poi di trasformare quei punti in una breve
+guida di stile da riusare.
+
+152
+00:07:38,442 --> 00:07:42,092
+E precisi che i contenuti non ti
+interessano: solo lo stile.
+
+153
+00:07:42,731 --> 00:07:45,593
+Il risultato è una guida di stile in
+cinque righe.
+
+154
+00:07:45,633 --> 00:07:50,005
+Rileggila con attenzione: se ti riconosci,
+hai in mano qualcosa di prezioso.
+
+155
+00:07:50,045 --> 00:07:52,501
+Se un punto non ti convince, correggilo
+tu.
+
+156
+00:07:52,541 --> 00:07:55,230
+La guida deve descrivere come scrivete
+davvero,
+
+157
+00:07:55,270 --> 00:07:57,668
+non come l'IA pensa che dovreste scrivere.
+
+158
+00:07:58,308 --> 00:07:59,260
+Perché è preziosa?
+
+159
+00:07:59,300 --> 00:08:01,907
+Perché cinque righe di guida possono
+prendere il
+
+160
+00:08:01,947 --> 00:08:04,829
+posto di tre testi interi all'inizio di
+altri prompt.
+
+161
+00:08:04,869 --> 00:08:08,412
+Risparmi spazio e non devi ripulire ogni
+volta gli stessi esempi.
+
+162
+00:08:08,452 --> 00:08:10,342
+Nel modulo sedici la metterai nelle
+
+163
+00:08:10,382 --> 00:08:12,878
+istruzioni fisse del tuo assistente
+personale.
+
+164
+00:08:13,517 --> 00:08:15,696
+Gli esempi non servono solo per lo stile.
+
+165
+00:08:15,736 --> 00:08:19,971
+Puoi mostrare all'IA anche una forma da
+rispettare: la struttura di una scheda,
+
+166
+00:08:20,011 --> 00:08:24,518
+le colonne di una tabella, il taglio di un
+messaggio WhatsApp, con le emoji o senza.
+
+167
+00:08:24,558 --> 00:08:27,440
+Per questo basta un modello vuoto, o
+compilato a metà.
+
+168
+00:08:28,081 --> 00:08:28,974
+Un caso tipico.
+
+169
+00:08:29,014 --> 00:08:33,263
+Ti arriva una circolare lunga e devi farne
+una scheda per i colleghi.
+
+170
+00:08:33,303 --> 00:08:35,812
+Mostri il formato con quattro voci: tema,
+
+171
+00:08:35,852 --> 00:08:39,605
+cosa cambia per i lavoratori, scadenze,
+cosa fa il sindacato.
+
+172
+00:08:39,645 --> 00:08:40,910
+Poi incolli il testo.
+
+173
+00:08:40,950 --> 00:08:43,832
+L'ultima riga è fondamentale: se un dato
+manca,
+
+174
+00:08:43,872 --> 00:08:46,444
+l'IA scrive non indicato e non lo inventa.
+
+175
+00:08:47,083 --> 00:08:49,105
+In Gemini il risultato si vede subito.
+
+176
+00:08:49,145 --> 00:08:51,113
+Ogni voce del formato è al suo posto,
+
+177
+00:08:51,153 --> 00:08:53,609
+nello stesso ordine e con la lunghezza
+giusta.
+
+178
+00:08:53,649 --> 00:08:56,104
+Non devi spostare nulla, né aggiungere
+titoli.
+
+179
+00:08:56,144 --> 00:08:59,360
+È una scheda che puoi girare ai colleghi
+dopo una rilettura,
+
+180
+00:08:59,400 --> 00:09:00,825
+senza doverla riformattare.
+
+181
+00:09:01,465 --> 00:09:03,041
+Ecco un estratto della scheda.
+
+182
+00:09:03,081 --> 00:09:05,896
+Ogni voce è compilata in poche parole, e
+le scadenze,
+
+183
+00:09:05,936 --> 00:09:08,913
+che nella circolare non c'erano, risultano
+non indicate.
+
+184
+00:09:08,953 --> 00:09:10,798
+Questo è il comportamento che vuoi:
+
+185
+00:09:10,838 --> 00:09:13,492
+meglio un vuoto dichiarato che una data
+inventata,
+
+186
+00:09:13,532 --> 00:09:17,424
+perché una data sbagliata in bacheca crea
+più danni di una data mancante.
+
+187
+00:09:18,064 --> 00:09:19,518
+Passiamo agli errori tipici.
+
+188
+00:09:19,558 --> 00:09:21,652
+Il più grave è incollare come esempio un
+
+189
+00:09:21,692 --> 00:09:24,000
+vecchio testo con dentro nomi di
+lavoratori,
+
+190
+00:09:24,040 --> 00:09:26,028
+casi di malattia, elenchi di iscritti.
+
+191
+00:09:26,068 --> 00:09:28,962
+Succede quando si prende il file così
+com'è, di fretta.
+
+192
+00:09:29,002 --> 00:09:32,110
+Un modello di stile non ha bisogno di
+nessuno di quei dati.
+
+193
+00:09:32,751 --> 00:09:34,553
+C'è anche una ragione normativa.
+
+194
+00:09:34,593 --> 00:09:37,893
+Il Regolamento europeo sulla protezione
+dei dati, il GDPR,
+
+195
+00:09:37,933 --> 00:09:41,175
+all'articolo cinque fissa il principio di
+minimizzazione:
+
+196
+00:09:41,215 --> 00:09:43,766
+si trattano solo i dati necessari allo
+scopo.
+
+197
+00:09:43,806 --> 00:09:46,760
+Per insegnare uno stile all'IA non ne
+serve nessuno.
+
+198
+00:09:46,800 --> 00:09:49,984
+Toglierli è la scelta conforme, e anche la
+più semplice.
+
+199
+00:09:50,624 --> 00:09:53,291
+Il secondo errore riguarda i testi degli
+altri.
+
+200
+00:09:53,331 --> 00:09:55,191
+Ti piace un articolo di giornale,
+
+201
+00:09:55,231 --> 00:09:59,107
+o il volantino di un'altra organizzazione,
+e vorresti scrivere così.
+
+202
+00:09:59,147 --> 00:10:00,777
+Ispirarti allo stile va bene.
+
+203
+00:10:00,817 --> 00:10:04,348
+Far riprodurre le loro frasi no: il testo
+deve restare vostro,
+
+204
+00:10:04,388 --> 00:10:06,536
+e non deve sembrare preso in prestito.
+
+205
+00:10:07,176 --> 00:10:08,927
+Il terzo errore è più sottile.
+
+206
+00:10:08,967 --> 00:10:11,494
+Dai tre esempi, ma parlano tutti dei
+turni.
+
+207
+00:10:11,534 --> 00:10:14,897
+L'IA allora pensa che i turni facciano
+parte dello stile,
+
+208
+00:10:14,937 --> 00:10:17,345
+e te li rimette anche dove non c'entrano.
+
+209
+00:10:17,385 --> 00:10:20,748
+La correzione la conosci già: temi
+diversi, stile uguale.
+
+210
+00:10:21,388 --> 00:10:24,296
+Se ti porti a casa una sola frase, che sia
+questa.
+
+211
+00:10:24,336 --> 00:10:28,247
+Non descrivere lo stile che vuoi: mostralo
+con un esempio ripulito,
+
+212
+00:10:28,287 --> 00:10:31,196
+e di' chiaramente cosa imitare e cosa non
+copiare.
+
+213
+00:10:31,236 --> 00:10:33,319
+Tutto il resto viene con la pratica.
+
+214
+00:10:33,959 --> 00:10:34,762
+Ora tocca a te.
+
+215
+00:10:34,802 --> 00:10:38,976
+Scegli il comunicato della tua sede che
+ritieni più riuscito e ripuliscilo:
+
+216
+00:10:39,016 --> 00:10:42,628
+nessun nome di lavoratore, nessun dato di
+salute o di iscrizione.
+
+217
+00:10:42,668 --> 00:10:46,842
+Poi scegli un tema su cui dovrai scrivere
+davvero nelle prossime settimane,
+
+218
+00:10:46,882 --> 00:10:48,303
+e descrivilo in tre righe.
+
+219
+00:10:48,943 --> 00:10:50,901
+Un consiglio per tutta la segreteria.
+
+220
+00:10:50,941 --> 00:10:54,250
+Raccogliete in una cartella condivisa i
+testi meglio riusciti,
+
+221
+00:10:54,290 --> 00:10:57,382
+già ripuliti: un comunicato, un avviso,
+una risposta tipo.
+
+222
+00:10:57,422 --> 00:11:00,136
+Ogni volta che qualcuno deve scrivere,
+parte da lì.
+
+223
+00:11:00,176 --> 00:11:02,458
+In poco tempo avrete una piccola
+biblioteca
+
+224
+00:11:02,498 --> 00:11:04,943
+di modelli che tiene unita la voce della
+sede.
+
+225
+00:11:05,583 --> 00:11:08,136
+Usa il prompt per imitare lo stile in
+ChatGPT,
+
+226
+00:11:08,176 --> 00:11:10,335
+Claude o Gemini, quello che preferisci.
+
+227
+00:11:10,375 --> 00:11:12,871
+Poi metti il risultato accanto
+all'originale.
+
+228
+00:11:12,911 --> 00:11:14,506
+Tono e struttura sono simili?
+
+229
+00:11:14,546 --> 00:11:15,915
+Ha copiato qualche frase?
+
+230
+00:11:15,955 --> 00:11:19,467
+Se sì, rilancia chiedendo di non farlo,
+come hai visto poco fa.
+
+231
+00:11:20,107 --> 00:11:22,891
+Infine salva il prompt con il tuo esempio
+già dentro.
+
+232
+00:11:22,931 --> 00:11:25,662
+Non buttarlo: è uno dei candidati per i
+venti prompt
+
+233
+00:11:25,702 --> 00:11:28,859
+personali che costruirai nella lezione
+quattro punto cinque.
+
+234
+00:11:28,899 --> 00:11:31,363
+Un prompt che conosce già il vostro stile
+ti fa
+
+235
+00:11:31,403 --> 00:11:33,974
+risparmiare tempo ogni volta che c'è da
+scrivere.
+
+236
+00:11:34,614 --> 00:11:35,652
+Pensa a cosa cambia.
+
+237
+00:11:35,692 --> 00:11:38,885
+Il comunicato riuscito non resta più
+chiuso in una cartella.
+
+238
+00:11:38,925 --> 00:11:41,902
+Diventa un modello che chiunque in
+segreteria può usare,
+
+239
+00:11:41,942 --> 00:11:43,465
+anche chi è arrivato da poco.
+
+240
+00:11:43,505 --> 00:11:47,775
+La voce della sede resta riconoscibile,
+chiunque scriva e qualunque sia il tema.
+
+241
+00:11:48,416 --> 00:11:50,859
+Nella prossima lezione facciamo un passo
+in più.
+
+242
+00:11:50,899 --> 00:11:53,186
+Invece di dare tutto all'IA in un colpo
+solo,
+
+243
+00:11:53,226 --> 00:11:55,824
+le chiedi di farti prima le domande che le
+servono.
+
+244
+00:11:55,864 --> 00:11:59,548
+Vedrai quanto migliora una risposta quando
+è lei a chiederti cosa manca.
+
+245
+00:11:59,588 --> 00:12:01,772
+Ci vediamo nella lezione quattro punto
+tre.
