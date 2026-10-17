@@ -1,0 +1,1097 @@
+1
+00:00:03,000 --> 00:00:07,271
+Benvenuto alla lezione quattro punto
+cinque, l'ultima del modulo sul prompt.
+
+2
+00:00:07,311 --> 00:00:10,221
+Oggi metti in ordine tutto quello che hai
+costruito.
+
+3
+00:00:10,261 --> 00:00:13,284
+Entri nella libreria dei cinquecento
+prompt del corso,
+
+4
+00:00:13,324 --> 00:00:17,708
+impari ad adattarli alla tua sede e salvi
+i tuoi primi venti prompt personali,
+
+5
+00:00:17,748 --> 00:00:19,637
+il pezzo del kit di questo modulo.
+
+6
+00:00:20,277 --> 00:00:21,168
+Martedì in sede.
+
+7
+00:00:21,208 --> 00:00:24,773
+Bisogna scrivere un comunicato, poi una
+richiesta di incontro,
+
+8
+00:00:24,813 --> 00:00:26,576
+poi rispondere a un lavoratore.
+
+9
+00:00:26,616 --> 00:00:30,240
+Sono gli stessi testi della settimana
+scorsa e di quella prima.
+
+10
+00:00:30,280 --> 00:00:34,486
+Eppure ogni volta si apre una chat vuota e
+si riscrive il prompt da zero,
+
+11
+00:00:34,526 --> 00:00:36,812
+cercando di ricordare come si era fatto.
+
+12
+00:00:37,452 --> 00:00:38,244
+È un paradosso.
+
+13
+00:00:38,284 --> 00:00:42,846
+L'IA dovrebbe farti risparmiare tempo, ma
+se ogni volta riscrivi il prompt da capo,
+
+14
+00:00:42,886 --> 00:00:45,452
+quel tempo lo perdi prima ancora di
+cominciare.
+
+15
+00:00:45,492 --> 00:00:47,615
+E il prompt di oggi, scritto di fretta,
+
+16
+00:00:47,655 --> 00:00:51,441
+è quasi sempre peggiore di quello che
+avevi messo a punto un mese fa.
+
+17
+00:00:52,080 --> 00:00:53,140
+Ti suona familiare?
+
+18
+00:00:53,180 --> 00:00:57,309
+Un mese fa avevi trovato il prompt giusto
+per le risposte ai lavoratori,
+
+19
+00:00:57,349 --> 00:00:58,930
+dopo tre giri di correzioni.
+
+20
+00:00:58,970 --> 00:01:01,709
+Ora è sepolto da qualche parte nella
+cronologia,
+
+21
+00:01:01,749 --> 00:01:05,009
+tra cento conversazioni con titoli che non
+dicono niente.
+
+22
+00:01:05,049 --> 00:01:07,209
+Cercarlo ti costa più che riscriverlo.
+
+23
+00:01:07,849 --> 00:01:09,315
+L'idea di oggi è semplice.
+
+24
+00:01:09,355 --> 00:01:12,037
+Un prompt collaudato è uno strumento di
+lavoro,
+
+25
+00:01:12,077 --> 00:01:15,454
+come un modello di lettera nella cartella
+della segreteria.
+
+26
+00:01:15,494 --> 00:01:17,945
+Si scrive una volta, si migliora con
+l'uso,
+
+27
+00:01:17,985 --> 00:01:20,262
+si salva in un posto preciso e si riusa.
+
+28
+00:01:20,302 --> 00:01:22,463
+E ogni volta che lo usi, rende di più.
+
+29
+00:01:23,103 --> 00:01:24,449
+Per partire non sei solo.
+
+30
+00:01:24,489 --> 00:01:28,717
+Il corso ti dà una libreria di cinquecento
+prompt divisi in dodici tipologie,
+
+31
+00:01:28,757 --> 00:01:30,657
+ciascuna legata a uno o più moduli.
+
+32
+00:01:30,697 --> 00:01:32,652
+È la cassetta degli attrezzi comune.
+
+33
+00:01:32,692 --> 00:01:35,202
+I tuoi prompt personali nasceranno da qui
+e da
+
+34
+00:01:35,242 --> 00:01:38,306
+quello che hai costruito nelle lezioni di
+questo modulo.
+
+35
+00:01:38,946 --> 00:01:40,516
+Ecco le tipologie più ampie.
+
+36
+00:01:40,556 --> 00:01:42,702
+Le immagini sono il blocco più grande,
+
+37
+00:01:42,742 --> 00:01:46,095
+con centoquaranta prompt, per i moduli da
+undici a tredici.
+
+38
+00:01:46,135 --> 00:01:50,639
+Poi la scrittura sindacale con sessanta,
+la lettura di atti con quarantacinque,
+
+39
+00:01:50,679 --> 00:01:53,457
+trattativa e comunicazione con quaranta
+ciascuna.
+
+40
+00:01:54,097 --> 00:01:58,679
+Seguono la tutela individuale con
+trentacinque, dati e sondaggi con trenta,
+
+41
+00:01:58,719 --> 00:02:03,425
+formazione e organizzazione con trenta,
+assemblee e riunioni con venticinque.
+
+42
+00:02:03,465 --> 00:02:04,966
+Poi verifica e controllo,
+
+43
+00:02:05,006 --> 00:02:08,541
+e l'IA come materia di contrattazione, con
+venti ciascuna.
+
+44
+00:02:08,581 --> 00:02:10,944
+Chiude la privacy, con quindici prompt.
+
+45
+00:02:11,585 --> 00:02:12,628
+Come ci si orienta?
+
+46
+00:02:12,668 --> 00:02:15,477
+Parti dalla tipologia del compito che hai
+davanti.
+
+47
+00:02:15,517 --> 00:02:16,958
+Devi leggere una delibera?
+
+48
+00:02:16,998 --> 00:02:18,383
+Vai alla lettura di atti.
+
+49
+00:02:18,423 --> 00:02:19,922
+Devi preparare un incontro?
+
+50
+00:02:19,962 --> 00:02:20,548
+Trattativa.
+
+51
+00:02:20,588 --> 00:02:23,853
+Se non sai dove cercare, usa la ricerca
+per parola chiave:
+
+52
+00:02:23,893 --> 00:02:25,449
+verbale, scadenze, WhatsApp.
+
+53
+00:02:26,089 --> 00:02:30,407
+Ogni prompt della libreria ha la stessa
+scheda, così la leggi in pochi secondi.
+
+54
+00:02:30,447 --> 00:02:32,559
+Il titolo, la tipologia, quando usarlo,
+
+55
+00:02:32,599 --> 00:02:34,710
+il testo del prompt con i segnaposto in
+
+56
+00:02:34,750 --> 00:02:37,303
+maiuscolo tra parentesi quadre e le
+avvertenze,
+
+57
+00:02:37,343 --> 00:02:40,338
+che ricordano cosa non inserire e cosa
+verificare dopo.
+
+58
+00:02:40,977 --> 00:02:42,075
+Facciamo un esempio.
+
+59
+00:02:42,115 --> 00:02:45,260
+Devi preparare lo scadenzario di un
+accordo integrativo.
+
+60
+00:02:45,300 --> 00:02:49,128
+Apri la scheda del prompt: tipologia
+lettura di atti, quando usarlo,
+
+61
+00:02:49,168 --> 00:02:51,460
+il testo con il segnaposto per l'accordo,
+
+62
+00:02:51,500 --> 00:02:54,361
+e un'avvertenza: verifica ogni data
+sull'originale.
+
+63
+00:02:54,401 --> 00:02:57,887
+In dieci secondi sai se è il prompt giusto
+e cosa controllare.
+
+64
+00:02:58,528 --> 00:03:01,046
+I prompt per immagini hanno due campi in
+più.
+
+65
+00:03:01,086 --> 00:03:03,945
+Il formato, cioè quadrato, verticale o
+orizzontale.
+
+66
+00:03:03,985 --> 00:03:06,161
+E il testo da aggiungere dopo in Canva,
+
+67
+00:03:06,201 --> 00:03:08,719
+perché le IA sbagliano spesso scritte e
+date.
+
+68
+00:03:08,759 --> 00:03:10,595
+Il titolo della locandina e l'ora
+
+69
+00:03:10,635 --> 00:03:13,948
+dell'assemblea non li affidi mai al
+generatore di immagini.
+
+70
+00:03:14,588 --> 00:03:18,185
+Un prompt della libreria è generico per
+definizione: va adattato.
+
+71
+00:03:18,225 --> 00:03:19,192
+Bastano tre mosse.
+
+72
+00:03:19,232 --> 00:03:22,102
+Riempi i segnaposto con i dati della tua
+situazione,
+
+73
+00:03:22,142 --> 00:03:24,229
+mai con dati personali dei lavoratori.
+
+74
+00:03:24,269 --> 00:03:26,019
+Aggiungi il tono della tua sede,
+
+75
+00:03:26,059 --> 00:03:29,433
+magari con la guida di stile della lezione
+quattro punto due.
+
+76
+00:03:29,473 --> 00:03:30,384
+Rivedi i vincoli.
+
+77
+00:03:31,024 --> 00:03:31,964
+Andiamo a schermo.
+
+78
+00:03:32,004 --> 00:03:35,664
+Prendiamo dalla libreria il prompt del
+comunicato, il primo del kit.
+
+79
+00:03:35,704 --> 00:03:40,291
+Apri una chat nuova in ChatGPT e incollalo
+così com'è, con i segnaposto ancora vuoti.
+
+80
+00:03:40,331 --> 00:03:44,427
+Non lo lanciamo direttamente: prima lo
+facciamo adattare alla nostra realtà.
+
+81
+00:03:45,067 --> 00:03:46,608
+Ecco il prompt per adattarlo.
+
+82
+00:03:46,648 --> 00:03:50,534
+Incolli il prompt generico, poi descrivi
+la tua realtà: il tipo di ente,
+
+83
+00:03:50,574 --> 00:03:54,350
+ad esempio un'azienda ospedaliera, i
+destinatari e il tono della sede.
+
+84
+00:03:54,390 --> 00:03:56,313
+Chiedi di mantenere le cinque parti,
+
+85
+00:03:56,353 --> 00:04:00,784
+di lasciare i segnaposto per i dati che
+cambiano e di non inserire dati personali.
+
+86
+00:04:01,424 --> 00:04:02,731
+Ecco il prompt adattato.
+
+87
+00:04:02,771 --> 00:04:04,863
+Il ruolo ora parla di sanità pubblica,
+
+88
+00:04:04,903 --> 00:04:08,006
+i destinatari sono infermieri e operatori
+sociosanitari,
+
+89
+00:04:08,046 --> 00:04:10,250
+il tono è quello della sede, con il noi.
+
+90
+00:04:10,290 --> 00:04:13,505
+I segnaposto restano solo dove i dati
+cambiano ogni volta.
+
+91
+00:04:13,545 --> 00:04:15,749
+È questo che finisce nella tua raccolta.
+
+92
+00:04:16,389 --> 00:04:17,848
+Attenzione all'errore tipico.
+
+93
+00:04:17,888 --> 00:04:21,726
+Copiare un prompt dalla libreria e
+lanciarlo con i segnaposto ancora vuoti,
+
+94
+00:04:21,766 --> 00:04:23,794
+o riempirli con il nome del lavoratore e
+
+95
+00:04:23,834 --> 00:04:26,017
+la sua diagnosi perché il prompt lo
+chiede.
+
+96
+00:04:26,057 --> 00:04:29,584
+I segnaposto chiedono informazioni sul
+caso, non dati identificativi.
+
+97
+00:04:29,624 --> 00:04:32,531
+Si riempiono sempre secondo il protocollo
+del modulo tre.
+
+98
+00:04:33,171 --> 00:04:35,336
+Ora la domanda pratica: dove li tieni?
+
+99
+00:04:35,376 --> 00:04:38,877
+Un prompt che non ritrovi in dieci secondi
+è come non averlo.
+
+100
+00:04:38,917 --> 00:04:43,287
+Le regole sono due, e valgono per
+chiunque: un solo posto, sempre lo stesso,
+
+101
+00:04:43,327 --> 00:04:47,350
+e nomi parlanti, che ti dicano cosa fa il
+prompt senza doverlo aprire.
+
+102
+00:04:47,990 --> 00:04:52,217
+Un nome parlante è fatto così: zero sei,
+comunicato breve WhatsApp.
+
+103
+00:04:52,257 --> 00:04:56,102
+Il numero davanti è quello del modulo in
+cui il prompt nasce,
+
+104
+00:04:56,142 --> 00:04:58,522
+e tiene in ordine la raccolta da sola.
+
+105
+00:04:58,562 --> 00:04:59,923
+Il resto dice cosa fa.
+
+106
+00:04:59,963 --> 00:05:04,699
+Evita nomi come prova, nuovo, finale due:
+tra un mese non ti diranno nulla.
+
+107
+00:05:05,340 --> 00:05:06,551
+Hai tre possibilità.
+
+108
+00:05:06,591 --> 00:05:09,116
+Un documento o una nota sul computer o in
+
+109
+00:05:09,156 --> 00:05:11,931
+Drive funziona con tutti e tre gli
+strumenti,
+
+110
+00:05:11,971 --> 00:05:14,058
+ma va aperto e copiato ogni volta.
+
+111
+00:05:14,098 --> 00:05:17,248
+I Progetti in ChatGPT e Claude, o le Gem
+in Gemini,
+
+112
+00:05:17,288 --> 00:05:21,251
+tengono fisse le istruzioni, ma valgono
+solo nel loro strumento.
+
+113
+00:05:21,291 --> 00:05:24,692
+La libreria condivisa serve alla squadra,
+ma va curata.
+
+114
+00:05:25,332 --> 00:05:27,363
+Vediamo la seconda strada in Claude.
+
+115
+00:05:27,403 --> 00:05:29,550
+Nella barra laterale trovi i Progetti.
+
+116
+00:05:29,590 --> 00:05:32,714
+Ne crei uno, gli dai un nome come
+comunicati della sede
+
+117
+00:05:32,754 --> 00:05:36,109
+e incolli il prompt adattato nelle
+istruzioni del progetto.
+
+118
+00:05:36,149 --> 00:05:40,424
+Da quel momento ogni chat aperta lì dentro
+parte già con quelle istruzioni.
+
+119
+00:05:40,464 --> 00:05:42,438
+Lo approfondirai nel modulo sedici.
+
+120
+00:05:43,078 --> 00:05:45,458
+In Gemini l'equivalente si chiama Gem.
+
+121
+00:05:45,498 --> 00:05:48,832
+In ChatGPT ci sono i Progetti e i GPT
+personalizzati.
+
+122
+00:05:48,872 --> 00:05:53,735
+Il principio è lo stesso: istruzioni fisse
+che non devi incollare ogni volta.
+
+123
+00:05:53,775 --> 00:05:57,364
+Anche il limite è lo stesso: una Gem vive
+solo in Gemini.
+
+124
+00:05:57,404 --> 00:06:00,166
+Per questo il documento unico resta la
+base.
+
+125
+00:06:00,806 --> 00:06:03,420
+Il consiglio pratico è combinare le due
+cose.
+
+126
+00:06:03,460 --> 00:06:07,726
+Il documento unico è la base: contiene
+tutti i prompt e funziona ovunque.
+
+127
+00:06:07,766 --> 00:06:11,914
+I Progetti e le Gem li riservi ai due o
+tre compiti che fai più spesso,
+
+128
+00:06:11,954 --> 00:06:15,099
+quelli per cui ogni secondo risparmiato
+conta davvero.
+
+129
+00:06:15,739 --> 00:06:16,817
+E arriviamo al kit.
+
+130
+00:06:16,857 --> 00:06:20,877
+Il pezzo del modulo quattro sono i tuoi
+primi venti prompt personali,
+
+131
+00:06:20,917 --> 00:06:25,290
+per le attività ricorrenti di una sede,
+validi in ChatGPT, Claude e Gemini.
+
+132
+00:06:25,330 --> 00:06:27,644
+Sono divisi in quattro gruppi da cinque.
+
+133
+00:06:27,684 --> 00:06:30,527
+Li trovi tutti nella dispensa, pronti da
+copiare.
+
+134
+00:06:31,167 --> 00:06:32,787
+Il primo gruppo è scrivere.
+
+135
+00:06:32,827 --> 00:06:36,107
+Comunicato, messaggio WhatsApp, richiesta
+di incontro,
+
+136
+00:06:36,147 --> 00:06:40,226
+la stessa notizia per tre pubblici e
+l'imitazione del vostro stile.
+
+137
+00:06:40,266 --> 00:06:42,132
+Guarda il due: sessanta parole,
+
+138
+00:06:42,172 --> 00:06:45,329
+una sola informazione chiave, data e luogo
+in fondo.
+
+139
+00:06:45,369 --> 00:06:47,912
+Breve, ma con tutti i vincoli che servono.
+
+140
+00:06:48,552 --> 00:06:50,783
+Il secondo gruppo è leggere e trattare.
+
+141
+00:06:50,823 --> 00:06:54,276
+Riassunto di una delibera, i punti dove
+perde il lavoratore,
+
+142
+00:06:54,316 --> 00:06:55,964
+lo scadenzario di un accordo,
+
+143
+00:06:56,004 --> 00:06:59,923
+le obiezioni della controparte e gli
+appunti trasformati in verbale.
+
+144
+00:06:59,963 --> 00:07:01,262
+Nota una regola comune:
+
+145
+00:07:01,302 --> 00:07:04,930
+il verbale non deve aggiungere nulla che
+non sia negli appunti.
+
+146
+00:07:05,570 --> 00:07:07,644
+Il terzo gruppo è tutelare e riunire.
+
+147
+00:07:07,684 --> 00:07:10,044
+La cronologia di una pratica anonimizzata,
+
+148
+00:07:10,084 --> 00:07:13,301
+la risposta chiara al lavoratore con
+l'esito in apertura,
+
+149
+00:07:13,341 --> 00:07:14,901
+la scaletta di un'assemblea,
+
+150
+00:07:14,941 --> 00:07:17,243
+le decisioni e i compiti di una riunione,
+
+151
+00:07:17,283 --> 00:07:21,072
+e il post per la pagina social della sede,
+senza toni allarmistici.
+
+152
+00:07:21,711 --> 00:07:24,337
+L'ultimo gruppo è metodo, verifica e
+privacy.
+
+153
+00:07:24,377 --> 00:07:29,018
+Riconosci i primi tre: sono le tecniche di
+questo modulo, in formato tascabile.
+
+154
+00:07:29,058 --> 00:07:31,566
+Il diciannove elenca i fatti da
+verificare.
+
+155
+00:07:31,606 --> 00:07:34,410
+Il venti controlla un testo prima di
+incollarlo.
+
+156
+00:07:34,450 --> 00:07:38,202
+Ma è solo una seconda verifica: il primo
+controllo resta il tuo.
+
+157
+00:07:38,842 --> 00:07:42,103
+Mettiamo alla prova un prompt del kit nei
+tre strumenti.
+
+158
+00:07:42,143 --> 00:07:45,286
+Prendiamo il dodici, la risposta chiara al
+lavoratore.
+
+159
+00:07:45,326 --> 00:07:47,997
+Il tema è una richiesta di part-time
+respinta.
+
+160
+00:07:48,037 --> 00:07:50,826
+Lo incolli identico in ChatGPT, Claude e
+Gemini,
+
+161
+00:07:50,866 --> 00:07:55,011
+ciascuno in una chat nuova, con lo stesso
+segnaposto al posto del nome.
+
+162
+00:07:55,651 --> 00:08:00,355
+ChatGPT parte dall'esito, come chiede il
+prompt, e spiega il motivo in una frase.
+
+163
+00:08:00,395 --> 00:08:02,112
+Il tono è asciutto e ordinato.
+
+164
+00:08:02,152 --> 00:08:04,279
+Usa il segnaposto al posto del nome e
+
+165
+00:08:04,319 --> 00:08:06,973
+chiude con cosa può fare il lavoratore
+adesso.
+
+166
+00:08:07,013 --> 00:08:09,081
+Rispetta le dieci righe con margine.
+
+167
+00:08:09,721 --> 00:08:12,156
+Claude fa la stessa cosa con un tono più
+caldo.
+
+168
+00:08:12,196 --> 00:08:14,210
+Riconosce che il lavoratore ci contava,
+
+169
+00:08:14,250 --> 00:08:18,422
+spiega il motivo con qualche parola in più
+e mette i passi successivi in ordine.
+
+170
+00:08:18,462 --> 00:08:21,740
+È la versione più vicina a una risposta
+scritta da una persona,
+
+171
+00:08:21,780 --> 00:08:23,583
+ma va tenuta d'occhio la lunghezza.
+
+172
+00:08:24,223 --> 00:08:28,645
+Gemini sceglie una forma schematica:
+esito, motivo e passi successivi numerati.
+
+173
+00:08:28,685 --> 00:08:31,016
+Si legge in un attimo, anche dal telefono.
+
+174
+00:08:31,056 --> 00:08:32,315
+Perde un po' di calore,
+
+175
+00:08:32,355 --> 00:08:36,099
+ma per una risposta via messaggio può
+essere proprio ciò che serve.
+
+176
+00:08:36,139 --> 00:08:39,149
+Tre stili diversi, e tutti hanno
+rispettato il prompt.
+
+177
+00:08:39,788 --> 00:08:42,264
+Questo è il vantaggio di un kit scritto
+bene.
+
+178
+00:08:42,304 --> 00:08:44,724
+Lo stesso prompt funziona nei tre
+strumenti,
+
+179
+00:08:44,764 --> 00:08:46,681
+perché le cinque parti sono chiare.
+
+180
+00:08:46,721 --> 00:08:48,526
+Cambia lo stile, non la sostanza.
+
+181
+00:08:48,566 --> 00:08:51,377
+E tu puoi scegliere lo strumento in base
+al canale:
+
+182
+00:08:51,417 --> 00:08:53,390
+una lettera, una mail, un messaggio.
+
+183
+00:08:54,030 --> 00:08:55,966
+Ecco il confronto di questa prova.
+
+184
+00:08:56,006 --> 00:08:59,919
+ChatGPT asciutto e ordinato, buono per una
+risposta rapida via mail.
+
+185
+00:08:59,959 --> 00:09:03,698
+Claude più caldo, utile quando l'esito è
+difficile da comunicare.
+
+186
+00:09:03,738 --> 00:09:07,302
+Gemini schematico, comodo per un messaggio
+letto dal telefono.
+
+187
+00:09:07,342 --> 00:09:10,673
+Annota anche tu le differenze sotto ogni
+prompt che provi.
+
+188
+00:09:11,313 --> 00:09:13,863
+Un riferimento per chiudere la parte di
+metodo.
+
+189
+00:09:13,903 --> 00:09:16,509
+La legge italiana sull'intelligenza
+artificiale,
+
+190
+00:09:16,549 --> 00:09:18,768
+la centotrentadue del duemilaventicinque,
+
+191
+00:09:18,808 --> 00:09:22,075
+all'articolo undici dice che l'IA nel
+lavoro deve migliorare
+
+192
+00:09:22,115 --> 00:09:25,436
+le condizioni lavorative e tutelare la
+dignità della persona.
+
+193
+00:09:25,476 --> 00:09:27,255
+Ne parleremo nel modulo diciotto.
+
+194
+00:09:27,295 --> 00:09:29,515
+Un kit fatto bene va in quella direzione.
+
+195
+00:09:30,155 --> 00:09:31,819
+Il primo errore è l'accumulo.
+
+196
+00:09:31,859 --> 00:09:36,521
+Si copiano decine di prompt della libreria
+nel proprio documento, per sicurezza.
+
+197
+00:09:36,561 --> 00:09:41,163
+Il risultato è una seconda libreria,
+grande e inutile, in cui non trovi niente.
+
+198
+00:09:41,203 --> 00:09:45,747
+La raccolta personale funziona perché è
+piccola: venti prompt che usi davvero.
+
+199
+00:09:46,387 --> 00:09:48,887
+Il secondo errore è tenere la raccolta per
+sé.
+
+200
+00:09:48,927 --> 00:09:51,427
+In una segreteria, se ognuno ha i suoi
+prompt,
+
+201
+00:09:51,467 --> 00:09:55,017
+ognuno scrive con una voce diversa e
+ripete gli stessi tentativi.
+
+202
+00:09:55,057 --> 00:09:58,440
+I prompt che funzionano meglio vanno
+condivisi con la squadra,
+
+203
+00:09:58,480 --> 00:10:01,091
+e qualcuno deve occuparsi di tenerli
+aggiornati.
+
+204
+00:10:01,731 --> 00:10:03,048
+La correzione è semplice.
+
+205
+00:10:03,088 --> 00:10:07,391
+Scegli i tre prompt che hanno funzionato
+meglio e condividili con la segreteria.
+
+206
+00:10:07,431 --> 00:10:11,571
+Decidete insieme chi cura la libreria
+condivisa, anche solo mezz'ora al mese.
+
+207
+00:10:11,611 --> 00:10:15,208
+È un piccolo impegno che aiuta la sede a
+parlare con una voce sola.
+
+208
+00:10:15,848 --> 00:10:17,854
+Ecco la frase che chiude il modulo.
+
+209
+00:10:17,894 --> 00:10:20,602
+Un prompt collaudato è uno strumento di
+lavoro.
+
+210
+00:10:20,642 --> 00:10:23,759
+Si scrive una volta, si migliora con l'uso
+e si riusa,
+
+211
+00:10:23,799 --> 00:10:25,981
+da un posto solo e con un nome chiaro.
+
+212
+00:10:26,021 --> 00:10:29,489
+Così il tempo che l'IA ti fa risparmiare
+resta davvero a te,
+
+213
+00:10:29,529 --> 00:10:33,523
+e lo puoi spendere dove serve: con i
+colleghi, in reparto, al tavolo.
+
+214
+00:10:34,163 --> 00:10:36,041
+Ora la pratica, che è anche il kit.
+
+215
+00:10:36,081 --> 00:10:39,439
+Crea un documento unico, intitolato per
+esempio i miei prompt,
+
+216
+00:10:39,479 --> 00:10:41,138
+nel posto che apri ogni giorno.
+
+217
+00:10:41,178 --> 00:10:45,193
+Copia i venti prompt del kit e sostituisci
+quelli che non usi con i prompt
+
+218
+00:10:45,233 --> 00:10:49,413
+che hai riscritto nelle lezioni da quattro
+punto uno a quattro punto quattro.
+
+219
+00:10:50,053 --> 00:10:54,405
+Poi adatta ciascun prompt al tono della
+tua sede con il prompt che hai visto oggi.
+
+220
+00:10:54,445 --> 00:10:57,671
+Prova almeno cinque prompt su compiti
+reali della settimana e
+
+221
+00:10:57,711 --> 00:11:01,688
+annota sotto ognuno lo strumento usato e
+le correzioni che hai dovuto fare.
+
+222
+00:11:01,728 --> 00:11:05,384
+Infine condividi con la segreteria i tre
+che hanno funzionato meglio.
+
+223
+00:11:06,023 --> 00:11:08,369
+Guarda cosa hai costruito in questo
+modulo.
+
+224
+00:11:08,409 --> 00:11:09,923
+Le cinque parti, gli esempi,
+
+225
+00:11:09,963 --> 00:11:12,975
+le domande prima di scrivere, i tre giri
+di correzione.
+
+226
+00:11:13,015 --> 00:11:17,359
+Ora non sono più tecniche sparse: sono
+prompt con un nome, in un posto preciso,
+
+227
+00:11:17,399 --> 00:11:21,964
+pronti da usare domani mattina, da te e da
+chiunque in segreteria ne abbia bisogno.
+
+228
+00:11:22,605 --> 00:11:23,992
+Torna al martedì in sede.
+
+229
+00:11:24,032 --> 00:11:27,815
+Il comunicato, la richiesta di incontro,
+la risposta al lavoratore.
+
+230
+00:11:27,855 --> 00:11:32,094
+Questa volta apri il documento, copi il
+prompt giusto, riempi i segnaposto.
+
+231
+00:11:32,134 --> 00:11:35,004
+Il tempo che prima passavi a riscrivere
+istruzioni,
+
+232
+00:11:35,044 --> 00:11:37,001
+ora lo passi a pensare a cosa dire.
+
+233
+00:11:37,641 --> 00:11:40,299
+Con questa lezione si chiude il modulo
+quattro.
+
+234
+00:11:40,339 --> 00:11:41,562
+Ora sai chiedere bene.
+
+235
+00:11:41,602 --> 00:11:45,409
+Nel modulo cinque impari a non fidarti
+troppo di quello che ricevi:
+
+236
+00:11:45,449 --> 00:11:47,074
+si parte dalle allucinazioni,
+
+237
+00:11:47,114 --> 00:11:50,978
+le norme, gli articoli e le sentenze che
+l'IA inventa con sicurezza.
+
+238
+00:11:51,018 --> 00:11:53,389
+Ci vediamo nella lezione cinque punto uno.
