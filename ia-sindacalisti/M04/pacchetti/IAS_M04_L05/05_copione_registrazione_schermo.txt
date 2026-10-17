@@ -1,0 +1,34 @@
+Copione registrazioni schermo · Lezione 4.5
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 14 · ChatGPT · durata circa 15 s
+Azione: Si incolla in una chat nuova il prompt 01 del kit.
+Da digitare:
+01 COMUNICATO
+Sei l'addetto stampa di un sindacato del pubblico impiego. Contesto: [SITUAZIONE]...
+Zoom / evidenziare: I segnaposto ancora vuoti
+Parlato che accompagna: Andiamo a schermo. Prendiamo dalla libreria il prompt del comunicato, il primo del kit. Apri una chat nuova in ChatGPT e incollalo così com'è, con i segnaposto ancora vuoti. Non lo lanciamo direttamente: prima lo facciamo adattare alla nostra realtà.
+
+SCENA 21 · Claude · durata circa 19 s
+Azione: Si crea un progetto e si incolla il prompt nelle istruzioni.
+Da digitare:
+Comunicati della sede
+Zoom / evidenziare: Il campo delle istruzioni del progetto
+Parlato che accompagna: Vediamo la seconda strada in Claude. Nella barra laterale trovi i Progetti. Ne crei uno, gli dai un nome come comunicati della sede e incolli il prompt adattato nelle istruzioni del progetto. Da quel momento ogni chat aperta lì dentro parte già con quelle istruzioni. Lo approfondirai nel modulo sedici.
+
+SCENA 22 · Gemini · durata circa 17 s
+Azione: Si apre la sezione Gem e si mostra il campo delle istruzioni.
+Zoom / evidenziare: Il campo delle istruzioni della Gem
+Parlato che accompagna: In Gemini l'equivalente si chiama Gem. In ChatGPT ci sono i Progetti e i GPT personalizzati. Il principio è lo stesso: istruzioni fisse che non devi incollare ogni volta. Anche il limite è lo stesso: una Gem vive solo in Gemini. Per questo il documento unico resta la base.
+
+SCENA 29 · ChatGPT · durata circa 17 s
+Azione: Si incolla il prompt 12 del kit con il tema del part-time.
+Da digitare:
+Scrivi una risposta a un lavoratore su: richiesta di part-time respinta. Esito in apertura, motivo in parole semplici, cosa può fare adesso. Massimo 10 righe. Usa [LAVORATORE] al posto del nome.
+Zoom / evidenziare: Il segnaposto [LAVORATORE]
+Parlato che accompagna: Mettiamo alla prova un prompt del kit nei tre strumenti. Prendiamo il dodici, la risposta chiara al lavoratore. Il tema è una richiesta di part-time respinta. Lo incolli identico in ChatGPT, Claude e Gemini, ciascuno in una chat nuova, con lo stesso segnaposto al posto del nome.
+
+SCENA 41 · ChatGPT · durata circa 18 s
+Azione: Si mostra il documento con i prompt numerati e le note sotto ciascuno.
+Zoom / evidenziare: Le note: strumento usato e correzioni
+Parlato che accompagna: Poi adatta ciascun prompt al tono della tua sede con il prompt che hai visto oggi. Prova almeno cinque prompt su compiti reali della settimana e annota sotto ognuno lo strumento usato e le correzioni che hai dovuto fare. Infine condividi con la segreteria i tre che hanno funzionato meglio.

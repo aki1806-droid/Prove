@@ -1,0 +1,128 @@
+6.4 Lo stesso testo per pubblici diversi
+Voce: «Achille nuovo 1 v4» · 42 scene · 12227 caratteri · durata stimata 12:32 (a 1,12x)
+
+=== SCENA 01 · Copertina · 01_copertina.png ===
+Benvenuto alla lezione sei punto quattro. Finora hai scritto per i lavoratori e per l'azienda, un testo alla volta. Oggi impari a ricavare dalla stessa notizia tre versioni diverse: per i colleghi, per la direzione e per la stampa. Cambia il modo di dirlo, mai quello che dici.
+
+=== SCENA 02 · B-roll · 02_b-roll.png ===
+È metà mattina. In sede squilla il telefono ed è il giornale locale. Hanno saputo dei turni decisi da un software in ospedale e vogliono una dichiarazione entro un'ora. Hai sulla scrivania il comunicato per i colleghi e la lettera alla direzione. Nessuno dei due va bene per un giornalista.
+
+=== SCENA 03 · Caso · 03_caso.png ===
+Cosa si fa di solito, di corsa? Si manda al giornalista il comunicato per i colleghi. Pieno di sigle interne, di istruzioni pratiche sulle notifiche, senza una frase che si possa citare. Oppure si improvvisa al telefono, e il giorno dopo sul giornale esce un numero che non hai mai detto.
+
+=== SCENA 04 · Parola chiave · 04_parola-chiave.png ===
+Il problema è che ogni lettore arriva con una domanda diversa. Il collega si chiede cosa cambia per lui e cosa deve fare. La direzione si chiede cosa le chiedi e su quale base. Il giornalista si chiede perché questa storia interessa a tutta la città. Tre domande, tre testi.
+
+=== SCENA 05 · Tabella · 05_tabella.png ===
+Mettiamoli a confronto. I lavoratori vogliono turni, reparto, azioni pratiche, in un registro diretto, e il testo chiude con un'azione. L'azienda vuole norme, contratto e termini, in registro formale, e chiude con una richiesta datata. La stampa vuole numeri e impatto sul servizio, e chiude con un contatto.
+
+=== SCENA 06 · Numero · 06_numero.png ===
+Il metodo di oggi produce tre versioni, ma parte da una cosa sola. Non da tre testi scritti separatamente, magari in tre giorni diversi, da tre persone diverse. Parte da un'unica scheda dei fatti. È questo che tiene insieme le versioni ed evita le contraddizioni.
+
+=== SCENA 07 · Animazione · 07_animazione.mp4 ===
+Ecco il flusso. Si parte dagli appunti, anche disordinati. Si ricava la scheda dei fatti. Da quella, in un solo prompt, nascono le tre versioni. E alla fine una tabella di controllo confronta numeri e richieste. Così l'IA non deve ricordare niente: ogni versione nasce dalla stessa base.
+
+=== SCENA 08 · Elenco · 08_elenco.png ===
+La scheda ha quattro blocchi. I fatti certi, con date e numeri, solo quelli che hai scritto tu. I fatti da verificare, cioè ciò che è incerto o riferito da altri. La posizione, in due frasi. Le richieste, numerate. Il secondo blocco è il più prezioso: ti dice cosa non puoi ancora dire in pubblico.
+
+=== SCENA 09 · Registrazione schermo · 09_registrazione-schermo.png ===
+Andiamo a schermo con Claude. Incolli gli appunti della sede su Valcorta così come sono, ma già senza nomi di lavoratori. Le segnalazioni dei delegati, i numeri della prima settimana, la data della lettera, una voce sentita in reparto. È proprio il materiale disordinato su cui la scheda lavora meglio.
+
+=== SCENA 10 · Prompt · 10_prompt.png ===
+Il prompt è corto e severo. Chiede i quattro blocchi e due vincoli. Non aggiungere nulla. E se un'informazione è ambigua, mettila tra i fatti da verificare. Così l'IA non deve decidere cosa è vero: deve solo separare ciò che hai scritto con certezza da ciò che hai scritto con un dubbio.
+
+=== SCENA 11 · Risposta IA · 11_risposta-ia.png ===
+Ecco la scheda. I fatti certi sono quelli che conosci. Ma guarda il secondo blocco: la voce secondo cui il software partirà in altri reparti a gennaio è finita tra le cose da verificare. Finché non hai un documento, quella frase non entra in nessuna versione, e men che meno nel testo per la stampa.
+
+=== SCENA 12 · B-roll · 12_b-roll.png ===
+Con la scheda pronta, si passa alle versioni. E qui c'è un dettaglio di metodo che fa la differenza: le tre versioni si chiedono nello stesso prompt, non in tre conversazioni separate. Così l'IA le scrive in parallelo, dalla stessa base, e le differenze di sostanza saltano all'occhio.
+
+=== SCENA 13 · Prompt · 13_prompt.png ===
+Ecco il prompt. Tre testi, ognuno con la sua misura. A, il comunicato per i lavoratori, che chiude con un'azione. B, la lettera alla direzione, con richieste numerate e un termine. C, il comunicato stampa, con l'attacco giornalistico e una dichiarazione. E per tutti un vincolo: stessi fatti, stessi numeri.
+
+=== SCENA 14 · Registrazione schermo · 14_registrazione-schermo.png ===
+Incolli la scheda al posto del segnaposto, compili il resto e invii. La risposta è lunga, perché contiene tre testi. Ma non cominciare a leggere dall'alto. Scorri fino in fondo e parti dalla tabella di controllo: è lei che ti dice se le tre versioni raccontano davvero la stessa storia.
+
+=== SCENA 15 · Risposta IA · 15_risposta-ia.png ===
+Ecco cosa ha trovato la tabella a Valcorta. I numeri principali compaiono in tutte e tre le versioni. Ma nell'ultima riga c'è una frase, turni di notte raddoppiati, che compare solo nel comunicato stampa. Nella scheda dei fatti non c'era. L'IA l'aveva aggiunta per rendere la notizia più forte. Frase tolta.
+
+=== SCENA 16 · Errore tipico · 16_errore-tipico.png ===
+Questo è l'errore tipico della lezione, e ha un nome: la deriva tra versioni. Per rendere più notiziabile il testo per la stampa, l'IA scrive decine di turni cambiati invece di nove, o aggiunge conseguenze non verificate, come la sicurezza dei pazienti a rischio. Sembrano dettagli. Non lo sono.
+
+=== SCENA 17 · Parola chiave · 17_parola-chiave.png ===
+Davanti alla stampa un numero sbagliato costa credibilità per mesi. La direzione ha in mano una smentita facile: non sono decine, sono nove. E da quel momento ogni cosa che dici sarà letta con sospetto. Ecco perché la tabella di controllo non è un optional: è la tua assicurazione.
+
+=== SCENA 18 · Registrazione schermo · 18_registrazione-schermo.png ===
+Come si corregge la deriva? Non riscrivi tu il comunicato stampa. Torni nella stessa chat e chiedi all'IA di riscrivere solo la versione C, togliendo ogni affermazione che non compare nella scheda, e di rifare la tabella di controllo. Quando tutte le righe dicono sì dove devono, la versione stampa è pronta per la tua rilettura.
+
+=== SCENA 19 · Caso · 19_caso.png ===
+Ora guardiamo le tre versioni uscite a Valcorta, una alla volta. Quella per i colleghi parla al voi, va dritta ai turni e chiude con l'azione pratica: conservare ogni notifica e mandarla ai delegati. Nessun riferimento normativo, nessuna sigla tecnica. Solo cosa cambia e cosa fare.
+
+=== SCENA 20 · Caso · 20_caso.png ===
+La versione per la direzione cambia completamente registro. Impersonale, formale, con la norma citata per esteso e il termine dei dieci giorni. È la lettera che hai costruito nella lezione sei punto due. Gli stessi nove cambi turno ci sono, ma servono a fondare una richiesta, non a commuovere.
+
+=== SCENA 21 · B-roll · 21_b-roll.png ===
+E poi la stampa. Qui il lettore non è un iscritto e non è un dirigente. È un cittadino che apre il giornale, magari un paziente del San Lorenzo, magari il familiare di un ricoverato. Si chiede una cosa sola: questa storia riguarda anche me? Il testo deve rispondergli.
+
+=== SCENA 22 · Risposta IA · 22_risposta-ia.png ===
+Ecco titolo e attacco del comunicato stampa. Nel primo paragrafo ci sono tutte le risposte che un cronista cerca: chi, cosa, quando, dove e perché. Quarantadue tra infermieri e operatori, un reparto preciso, una data, un sistema automatico, l'assenza di informativa. Se il giornale taglia tutto il resto, la notizia regge.
+
+=== SCENA 23 · Elenco · 23_elenco.png ===
+Al giornalista servono tre cose. Una notizia in poche righe, che possa riprendere quasi così com'è. Una frase citabile, tra virgolette, attribuita a una persona. E qualcuno che risponda al telefono quando richiama per un dettaglio. Se manca la terza, le prime due rischiano di non uscire.
+
+=== SCENA 24 · Prompt · 24_prompt.png ===
+Per la frase citabile c'è un prompt dedicato. Chiede tre dichiarazioni di quaranta parole al massimo, con tre angolature diverse: i diritti dei lavoratori, la qualità del servizio per i cittadini, la disponibilità al confronto. Ognuna deve contenere un fatto verificabile e una richiesta. E nessun attacco personale.
+
+=== SCENA 25 · Registrazione schermo · 25_registrazione-schermo.png ===
+Lo proviamo in ChatGPT, per avere un secondo sguardo diverso da quello che ha scritto le versioni. Incolli la scheda dei fatti e il ruolo del portavoce, il segretario territoriale. In pochi secondi hai tre dichiarazioni. Leggile ad alta voce: una dichiarazione si ascolta, prima ancora di leggersi.
+
+=== SCENA 26 · Risposta IA · 26_risposta-ia.png ===
+Eccole. La prima parla dei diritti di chi lavora. La seconda parla ai cittadini, del servizio e della sicurezza delle cure, ma senza inventare rischi. La terza punta sul confronto. Tutte e tre contengono un fatto della scheda e una richiesta. La scelta dipende da cosa vuoi far arrivare alla città.
+
+=== SCENA 27 · Parola chiave · 27_parola-chiave.png ===
+Lorenzon sceglie la terza, ritoccata. Non siamo contro la tecnologia. Ma se un software decide i turni di chi cura, le regole devono essere chiare prima, non dopo. Abbiamo chiesto un incontro e aspettiamo risposte entro dieci giorni. C'è un fatto, una richiesta, e nessun nemico personale.
+
+=== SCENA 28 · Confronto · 28_confronto.png ===
+Perché nessun attacco personale? Perché con la stampa il confine è sottile. Dire che la decisione è stata presa senza informativa è una critica a una scelta, ed è legittima. Dire che il direttore se ne infischia dei lavoratori è un attacco alla persona, e ti espone. La regola è semplice: critica le scelte.
+
+=== SCENA 29 · Norma · 29_norma.png ===
+La Costituzione tutela la libertà di pensiero e la libertà sindacale, agli articoli ventuno e trentanove. La giurisprudenza riconosce il diritto di critica entro tre limiti: verità dei fatti, pertinenza, cioè interesse pubblico, e continenza, cioè forma non gratuitamente offensiva. Oltre c'è la diffamazione.
+
+=== SCENA 30 · Elenco · 30_elenco.png ===
+Da qui discende un piccolo elenco di cose che al giornalista non si dicono mai. Nomi di lavoratori o di pazienti, anche se te li chiede. Fatti che nella scheda stanno ancora tra quelli da verificare. E giudizi sulle persone, perché un giudizio stampato non si ritira più.
+
+=== SCENA 31 · Numero · 31_numero.png ===
+Perché quaranta parole? Perché il giornale taglia. Una dichiarazione lunga viene ridotta dal cronista, che sceglie lui il pezzo da tenere, e magari non è quello che volevi. Una dichiarazione di due, tre frasi esce intera. E deve funzionare anche se ne sopravvive una sola.
+
+=== SCENA 32 · Errore tipico · 32_errore-tipico.png ===
+Un errore frequente non riguarda l'IA, ma la fretta. Il giornalista chiama e tu rispondi a braccio, a memoria. Esce un numero sbagliato o una frase che non volevi. Meglio dire: la richiamo tra dieci minuti. In quei dieci minuti apri la scheda dei fatti e usi il prompt delle dichiarazioni.
+
+=== SCENA 33 · Registrazione schermo · 33_registrazione-schermo.png ===
+E Gemini? Usalo per un ultimo controllo incrociato, come nel modulo cinque. Incolli la scheda dei fatti e il comunicato stampa e chiedi di elencare ogni affermazione che non trova nella scheda. Se la lista è vuota, puoi mandare. Se non lo è, sai esattamente dove intervenire.
+
+=== SCENA 34 · B-roll · 34_b-roll.png ===
+Poi richiami tu il giornalista, all'ora promessa. Hai davanti la scheda, il comunicato stampa e la dichiarazione. Se ti fa una domanda che va oltre, sui pazienti o su altri reparti, rispondi con quello che sai e basta. Dire non lo sappiamo ancora, lo stiamo verificando, è una risposta seria.
+
+=== SCENA 35 · Animazione · 35_animazione.mp4 ===
+La verifica ha tre livelli. Prima la tabella di controllo, che confronta le versioni tra loro. Poi il controllo incrociato con un altro strumento, che confronta il testo con la scheda. Infine la tua rilettura con la regola dei tre limiti: verità, pertinenza e continenza. L'ultimo passo non si delega.
+
+=== SCENA 36 · Memo · 36_memo.png ===
+Se ti porti a casa una sola frase, che sia questa. Cambia il modo di dirlo, mai quello che dici. Lavoratori, direzione e stampa ricevono tre testi diversi, ma tutti nati dalla stessa scheda dei fatti. È la scheda che ti protegge dalla deriva, e dalla smentita.
+
+=== SCENA 37 · La pratica · 37_la-pratica.png ===
+Ora tocca a te. Scegli una notizia reale della tua sede e scrivi gli appunti senza nomi né dati personali. Con il prompt della scheda separa fatti certi e fatti da verificare. Poi fai la parte noiosa ma decisiva: i fatti da verificare li verifichi davvero, oppure li togli.
+
+=== SCENA 38 · Registrazione schermo · 38_registrazione-schermo.png ===
+Chiedi le tre versioni nello stesso prompt e leggi per prima la tabella di controllo. Correggi ogni deriva: numeri diversi, richieste diverse, aggettivi che cambiano la posizione. Poi rileggi la versione stampa e chiediti: c'è qualcosa che non firmerei con il mio nome? Se sì, toglilo.
+
+=== SCENA 39 · Caso · 39_caso.png ===
+Un consiglio organizzativo. Tieni una scheda dei fatti per ogni vertenza aperta, aggiornata da chi segue il caso. Quando il giornale chiama e il segretario non c'è, chiunque in sede può partire da lì. Le versioni cambiano, ma la sede dice sempre la stessa cosa, con gli stessi numeri.
+
+=== SCENA 40 · B-roll · 40_b-roll.png ===
+Pensa al risultato. Il giorno dopo, sul giornale, esce un pezzo con i numeri giusti e una frase che ti rappresenta. I colleghi lo leggono e ritrovano le stesse cifre del comunicato in bacheca. La direzione lo legge e ritrova le stesse richieste della lettera. Nessuno può dire che vi contraddite.
+
+=== SCENA 41 · Tabella · 41_tabella.png ===
+Ecco Valcorta in tre versioni, in una sola schermata. Ai colleghi si parla al voi e si chiede di conservare le notifiche. Alla direzione si scrive in registro formale e si chiede un incontro entro dieci giorni. Alla stampa si dà una notizia con una citazione e il contatto della sede. I fatti sono identici.
+
+=== SCENA 42 · Chiusura · 42_chiusura.png ===
+Nella prossima lezione chiudiamo il modulo con i tre strumenti. Dai lo stesso prompt a ChatGPT, Claude e Gemini, confronti le tre bozze del primo comunicato di Valcorta con una griglia, e scegli quella da portare in bacheca, motivando la scelta. Ci vediamo nella lezione sei punto cinque.

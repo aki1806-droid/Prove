@@ -1,0 +1,137 @@
+4.3 Far fare domande all'IA prima di rispondere
+Voce: «Achille nuovo 1 v4» · 45 scene · 12195 caratteri · durata stimata 12:30 (a 1,12x)
+
+=== SCENA 01 · Copertina · 01_copertina.png ===
+Benvenuto alla lezione quattro punto tre. Finora hai imparato a dare all'IA tutte le informazioni che servono. Ma cosa fai quando non sai nemmeno tu cosa serve? Oggi rovesci il gioco: prima di scrivere, è l'IA che fa le domande a te. Vediamo come si fa, e quando conviene davvero.
+
+=== SCENA 02 · B-roll · 02_b-roll.png ===
+Venerdì pomeriggio in segreteria. Il segretario deve mandare all'azienda una lettera sulle ferie estive entro lunedì. Ha un'idea generale e qualche lamentela raccolta nei reparti, ma non ha chiaro cosa mettere nella richiesta. E il tempo per pensarci con calma non c'è.
+
+=== SCENA 03 · Caso · 03_caso.png ===
+Allora prova la strada veloce. Scrive all'IA: prepara una lettera all'azienda sulle ferie estive. Riceve una lettera elegante, con il riferimento a un accordo che non sa se esiste, una scadenza che non ha mai indicato e un numero di reparti che nessuno gli ha chiesto.
+
+=== SCENA 04 · Parola chiave · 04_parola-chiave.png ===
+Questo è il rischio nascosto. Il testo sembra completo, ma è costruito su supposizioni che tu non hai mai fatto. Un'azienda generica, un contratto generico, una data qualunque. E il guaio è che devi scoprire dopo, riga per riga, che cosa ha inventato.
+
+=== SCENA 05 · Animazione · 05_animazione.mp4 ===
+Perché succede? Per come sono fatti, ChatGPT, Claude e Gemini tendono a rispondere subito, perché è quello che la maggior parte degli utenti si aspetta. Se mancano informazioni non si fermano: le riempiono con le ipotesi più probabili, e vanno avanti come se gliele avessi date tu.
+
+=== SCENA 06 · B-roll · 06_b-roll.png ===
+E senza IA? Di solito si scrive una prima versione, la si fa leggere in segreteria e qualcuno chiede: ma l'accordo dell'anno scorso cosa diceva? Entro quando va approvato il piano? Le domande giuste arrivano, ma alla fine, quando il testo è già scritto.
+
+=== SCENA 07 · Parola chiave · 07_parola-chiave.png ===
+L'idea di oggi è anticipare quelle domande. Se non sai cosa scrivere nel contesto, fatti intervistare. Chiudi il prompt chiedendo all'IA le domande che le servono. Lei si ferma, ti mostra quello che non sa e aspetta le tue risposte prima di scrivere una sola riga.
+
+=== SCENA 08 · Tabella · 08_tabella.png ===
+Guarda la differenza. Senza domande, l'IA suppone i dati mancanti e tu scopri dopo cosa ha inventato. Con le domande prima, l'IA chiede i dati e tu sai fin dall'inizio cosa serve. Il testo si basa sui tuoi fatti, e i giri di correzione si riducono.
+
+=== SCENA 09 · Animazione · 09_animazione.mp4 ===
+Il meccanismo ha quattro tempi. Scrivi un prompt breve con compito, destinatario e obiettivo. L'IA ti fa le domande. Tu rispondi. Solo a quel punto l'IA scrive. In pratica le domande diventano una lista di controllo del tuo contesto, costruita su misura per quel testo.
+
+=== SCENA 10 · Registrazione schermo · 10_registrazione-schermo.png ===
+Andiamo a schermo con il caso delle ferie. Apri una chat nuova in ChatGPT. Scrivi il tipo di testo, il tema, il destinatario e l'obiettivo: una lettera all'azienda sul piano ferie estive, per la direzione del personale, per ottenere un incontro prima dell'approvazione.
+
+=== SCENA 11 · Prompt · 11_prompt.png ===
+Ecco la formula completa. Le prime due righe sono il prompt breve che hai appena scritto. Poi arriva la riga che cambia tutto: prima di scrivere, fammi le domande che ti servono. E sotto, due righe di regole: massimo cinque domande, in ordine di importanza, e niente testo finché non hai risposto.
+
+=== SCENA 12 · Elenco · 12_elenco.png ===
+Ognuna di quelle righe ha un motivo. Senza non scrivere finché non ti ho risposto, alcuni modelli fanno le domande e intanto propongono comunque una bozza. Il tetto evita il questionario infinito: se servono altre domande, arriveranno al giro dopo. L'ordine ti aiuta quando hai poco tempo.
+
+=== SCENA 13 · Numero · 13_numero.png ===
+Una nota sul numero. Cinque domande bastano quasi sempre. Per un testo molto complesso puoi arrivare a sette, non di più. Oltre quella soglia l'intervista diventa un questionario, e tu smetti di rispondere con attenzione. Meglio un secondo giro di domande dopo aver letto la prima bozza.
+
+=== SCENA 14 · Registrazione schermo · 14_registrazione-schermo.png ===
+Invii. Questa volta ChatGPT non scrive la lettera. Si ferma e ti restituisce un elenco numerato di domande. Leggile con calma, una per una. Non sono un esame: sono la mappa di quello che manca, e ti dicono molto anche su quello che dovresti sapere tu.
+
+=== SCENA 15 · Risposta IA · 15_risposta-ia.png ===
+Ecco le cinque domande. Quanti reparti, se esiste già un accordo, entro quando va approvato il piano, se ci sono lamentele scritte, che tono usare. Tre sono facili. Ma due mettono il segretario in difficoltà: non conosce la scadenza del piano e non ha controllato l'accordo esistente.
+
+=== SCENA 16 · Parola chiave · 16_parola-chiave.png ===
+Ed ecco il valore aggiunto, il più sindacale di tutti. Le domande a cui non sai rispondere ti dicono cosa verificare prima di mandare il testo. La tecnica non migliora solo la lettera: ti evita di presentarti all'azienda senza sapere cosa prevede un accordo che avete già firmato.
+
+=== SCENA 17 · Registrazione schermo · 17_registrazione-schermo.png ===
+Il segretario risponde. Tre reparti di degenza. L'accordo lo verifica e lo incollerà dopo. Per la scadenza mette un segnaposto. Due segnalazioni scritte, senza nomi. Tono fermo ma collaborativo. Risposte brevi, per categorie, che bastano all'IA per lavorare sui fatti veri.
+
+=== SCENA 18 · Risposta IA · 18_risposta-ia.png ===
+Ora la lettera arriva, ed è un'altra cosa. Cita i tre reparti e le due segnalazioni, lascia il segnaposto per la data e non inventa nessun accordo. Il tono è quello chiesto. Tutto quello che c'è dentro viene dalle tue risposte, non dalle ipotesi del modello.
+
+=== SCENA 19 · Confronto · 19_confronto.png ===
+Mettile a confronto. La prima lettera citava un accordo forse inesistente, una scadenza inventata e reparti scelti a caso. La seconda contiene solo fatti forniti da te, più un segnaposto dichiarato dove il dato manca. Stessa richiesta, stesso strumento: cambia solo chi ha deciso i contenuti.
+
+=== SCENA 20 · B-roll · 20_b-roll.png ===
+E se le domande ti arrivano mentre sei in corridoio, con il telefono in mano? Rispondere a cinque domande aperte da uno schermo piccolo è scomodo. Per questi momenti c'è una variante: chiedi all'IA di proporre già le risposte possibili.
+
+=== SCENA 21 · Prompt · 21_prompt.png ===
+Ecco la variante. Per ogni domanda l'IA propone due o tre risposte, A, B e C, così rispondi con una lettera. E c'è un'aggiunta preziosa nell'ultima riga: alla fine del testo, l'IA elenca le ipotesi che ha fatto dove non aveva informazioni. Così sai esattamente cosa controllare.
+
+=== SCENA 22 · Registrazione schermo · 22_registrazione-schermo.png ===
+Proviamola in Gemini, anche dall'app sul telefono. Il compito è un avviso per i colleghi sul cambio di orario degli spogliatoi. Gemini restituisce cinque domande, ognuna con le sue opzioni. Rispondi scrivendo una riga sola: uno A, due C, tre B, e così via.
+
+=== SCENA 23 · Risposta IA · 23_risposta-ia.png ===
+Ecco come si presentano. Domanda, poi le opzioni. A chi è rivolto l'avviso, che tono vuoi, dove verrà pubblicato. In meno di un minuto hai risposto a tutto. È la versione rapida della tecnica: perde qualche sfumatura, ma ti fa guadagnare molto tempo.
+
+=== SCENA 24 · Parola chiave · 24_parola-chiave.png ===
+Un'altra scorciatoia, quando proprio non hai tempo. Rispondi alle prime tre domande, quelle più importanti, e per le altre scrivi: decidi tu e dimmi cosa hai supposto. L'IA va avanti, ma ti lascia l'elenco delle sue ipotesi. Niente resta nascosto.
+
+=== SCENA 25 · B-roll · 25_b-roll.png ===
+Ora attenzione, perché questa tecnica ha un lato delicato. Le domande dell'IA sono fatte bene, sembrano ragionevoli e invitano a essere precisi. Quanti anni ha la lavoratrice? In che reparto lavora? Che patologia ha? Ogni domanda, presa da sola, sembra innocua.
+
+=== SCENA 26 · Caso · 26_caso.png ===
+Ma prova a metterle insieme. Una lavoratrice di cinquantadue anni, in cardiologia, con due figli, assente tre settimane in primavera. In un reparto di venti colleghi chiunque sa di chi parli. Non hai scritto nessun nome, eppure la persona è riconoscibile.
+
+=== SCENA 27 · Norma · 27_norma.png ===
+Il GDPR lo dice chiaramente all'articolo quattro. È dato personale ogni informazione su una persona identificata o identificabile, anche indirettamente. Più dettagli innocui messi insieme possono rendere una persona identificabile. E se tocchi salute o iscrizione, entri nelle categorie particolari.
+
+=== SCENA 28 · Errore tipico · 28_errore-tipico.png ===
+L'errore tipico nasce dalla voglia di collaborare: rispondi a ogni domanda con precisione per aiutare l'IA. La regola pratica è opposta. Rispondi solo ciò che serve al testo, per categorie: lavoratrice part-time di un reparto di degenza. Su salute e iscrizione rispondi non rilevante, oppure chiedi un segnaposto.
+
+=== SCENA 29 · Prompt · 29_prompt.png ===
+Ancora meglio: metti le regole già nel prompt. Questa versione serve quando devi rispondere a un lavoratore su una pratica. Chiede le domande, ma vieta all'IA di chiederti nomi, dati di salute, iscrizione o altri elementi che rendano riconoscibile la persona. Se un dato servirebbe, usa un segnaposto.
+
+=== SCENA 30 · Registrazione schermo · 30_registrazione-schermo.png ===
+Proviamo in Claude, con una pratica tipica: un lavoratore a cui è stato negato un cambio turno. Incolli il prompt con le regole, scrivi il tema in una riga e invii. Osserva le domande che arrivano: riguardano la situazione, i tempi, la richiesta fatta. Mai la persona.
+
+=== SCENA 31 · Risposta IA · 31_risposta-ia.png ===
+Ecco le domande di Claude. Quando è stata fatta la richiesta, se c'è una motivazione scritta, se esistono regole interne sui cambi turno, cosa vuole ottenere il lavoratore. E alla fine l'impegno che volevi: dove servirebbe il nome, userà un segnaposto.
+
+=== SCENA 32 · Tabella · 32_tabella.png ===
+Ora la domanda pratica: quando conviene? Per lettere all'azienda e richieste formali, per testi nuovi, per situazioni ingarbugliate con molti attori, e quando non sai da dove partire. Non serve per una definizione, per correggere refusi o per un testo che rifai ogni settimana.
+
+=== SCENA 33 · Parola chiave · 33_parola-chiave.png ===
+C'è un criterio semplice per decidere. Se hai già scritto tutte e cinque le parti della lezione quattro punto uno, le domande non servono: hai già dato tutto. Se invece una o più parti restano vuote perché non sai cosa metterci, la tecnica delle domande è la strada più rapida.
+
+=== SCENA 34 · B-roll · 34_b-roll.png ===
+C'è poi un uso in più, molto sindacale. Invece delle domande che servono a scrivere, chiedi all'IA quelle che ti farebbe la controparte. Prima di un incontro con la direzione, è un modo semplice per non farti trovare impreparato.
+
+=== SCENA 35 · Prompt · 35_prompt.png ===
+Ecco un prompt per provarlo. Indichi la controparte, il tema e la richiesta. Poi chiedi le cinque domande più difficili che la direzione potrebbe farti, in ordine di probabilità, senza risposte. Le risposte le prepari tu. È un primo assaggio della preparazione alla trattativa che vedrai nel modulo otto.
+
+=== SCENA 36 · Risposta IA · 36_risposta-ia.png ===
+Ecco un estratto, sempre sul caso delle ferie. Avete dati sulle ferie negate? Perché chiedete l'incontro proprio adesso? Che alternativa proponete? Sono domande scomode, ma è meglio sentirle da te, davanti al computer, che per la prima volta al tavolo. E ti dicono quali numeri portare.
+
+=== SCENA 37 · Errore tipico · 37_errore-tipico.png ===
+Due errori ancora. Il primo: dimenticare la riga non scrivere finché non ti ho risposto. Ti ritrovi le domande e, sotto, una bozza già pronta, costruita proprio sulle supposizioni che volevi evitare. Ed è facile cedere alla tentazione di usare quella.
+
+=== SCENA 38 · Errore tipico · 38_errore-tipico.png ===
+Il secondo è l'eccesso opposto. Una volta scoperta la tecnica, la si usa per tutto, anche per accorciare un testo o correggere un refuso. Cinque domande per un lavoro da dieci secondi sono una perdita di tempo. Le domande servono quando il testo è importante e nuovo.
+
+=== SCENA 39 · Memo · 39_memo.png ===
+Ecco la frase della lezione. Se non sai cosa manca, non indovinare: fatti fare le domande, poche e ordinate, prima che l'IA scriva. E rispondi per categorie, senza rendere riconoscibile nessuno. Le domande a cui non sai rispondere non sono un fallimento: sono il tuo prossimo controllo.
+
+=== SCENA 40 · La pratica · 40_la-pratica.png ===
+Ora la pratica. Scegli un testo che devi davvero scrivere questa settimana: una lettera, un avviso, una risposta. Scrivi un prompt breve con compito, destinatario e obiettivo, e chiudilo con la formula: massimo cinque domande, in ordine di importanza, non scrivere finché non rispondo.
+
+=== SCENA 41 · Registrazione schermo · 41_registrazione-schermo.png ===
+Leggi le domande e segna quelle a cui non sai rispondere: sono le cose da verificare prima di mandare il testo. Rispondi alle altre per categorie, senza dati personali, e lascia che l'IA scriva la bozza. Se ti chiede qualcosa di troppo personale, rispondi non rilevante e vai avanti.
+
+=== SCENA 42 · Caso · 42_caso.png ===
+Un consiglio per la segreteria. Le domande a cui nessuno sa rispondere non buttarle via. Copiale in fondo alla pratica come promemoria: chi controlla l'accordo, chi chiede la scadenza, chi recupera le segnalazioni. Diventano la lista delle verifiche da fare prima dell'invio.
+
+=== SCENA 43 · Parola chiave · 43_parola-chiave.png ===
+Infine il confronto. Rilancia lo stesso compito in una chat nuova, senza la formula delle domande, e metti le due bozze una accanto all'altra. Annota la differenza: quante supposizioni sono sparite, quante informazioni vere sono entrate. È il modo migliore per convincerti che funziona.
+
+=== SCENA 44 · B-roll · 44_b-roll.png ===
+Torna al segretario del venerdì pomeriggio. Lunedì la lettera parte, e non contiene supposizioni. Ma soprattutto, prima di spedirla, lui ha controllato l'accordo dell'anno scorso e la scadenza del piano. Le domande dell'IA gli hanno fatto fare meglio il suo lavoro.
+
+=== SCENA 45 · Chiusura · 45_chiusura.png ===
+Nella prossima lezione affrontiamo il momento successivo. La bozza è arrivata, ma non è ancora quella giusta. Impari a correggerla in modo preciso, per giri successivi, come faresti con un collega. Ci vediamo nella lezione quattro punto quattro.

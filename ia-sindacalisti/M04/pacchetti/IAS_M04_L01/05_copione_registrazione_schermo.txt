@@ -1,0 +1,44 @@
+Copione registrazioni schermo · Lezione 4.1
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 16 · ChatGPT · durata circa 15 s
+Azione: Si apre una chat nuova e si scrivono le cinque etichette.
+Da digitare:
+RUOLO:
+CONTESTO:
+COMPITO:
+FORMATO:
+VINCOLI:
+Zoom / evidenziare: Le cinque etichette nel campo di scrittura
+Parlato che accompagna: Andiamo a schermo. Apri una chat nuova in ChatGPT. Prima di scrivere qualsiasi contenuto, scrivi le cinque etichette, una per riga. È una buona abitudine: le etichette ti obbligano a pensare a ogni parte, e vedi subito quale stai saltando.
+
+SCENA 19 · ChatGPT · durata circa 20 s
+Azione: Si compilano le cinque etichette con il caso della mensa.
+Da digitare:
+RUOLO: addetto stampa sindacale
+CONTESTO: la mensa chiude alle 14; chi esce dal turno del mattino alle 14 non riesce a mangiare
+COMPITO: comunicato che chieda l'estensione dell'orario
+FORMATO: titolo e due paragrafi
+VINCOLI: 120 parole, tono propositivo
+Zoom / evidenziare: La riga del contesto
+Parlato che accompagna: Ora riempi le etichette. Ruolo: addetto stampa sindacale. Contesto: la mensa aziendale chiude alle quattordici, e chi esce dal turno del mattino alle quattordici non riesce a mangiare. Compito: un comunicato che chieda di estendere l'orario. Formato: titolo e due paragrafi. Vincoli: centoventi parole, tono propositivo.
+
+SCENA 24 · Claude · durata circa 15 s
+Azione: Si incolla il prompt completo e si riempiono i segnaposto.
+Da digitare:
+[REPARTO] [NUMERO] [DATA] [ORA] [LUOGO]
+Zoom / evidenziare: I segnaposto sostituiti con i dati del caso
+Parlato che accompagna: Lo stesso prompt funziona identico in Claude e in Gemini, perché le cinque parti non dipendono dallo strumento. Proviamolo in Claude. Incolli il testo, riempi i segnaposto con reparto, giorni di preavviso, data, ora e luogo dell'assemblea, e invii.
+
+SCENA 29 · Gemini · durata circa 15 s
+Azione: Si incollano il vecchio prompt e la risposta deludente.
+Da digitare:
+PROMPT: Fammi un volantino sui turni
+RISPOSTA: [RISPOSTA RICEVUTA]
+Zoom / evidenziare: Le due etichette PROMPT e RISPOSTA
+Parlato che accompagna: E se non capisci cosa manca? Fattelo dire dall'IA. Proviamo in Gemini. Incolli il prompt che hai usato e la risposta che ti ha deluso, poi chiedi un'analisi secondo le cinque parti. È un modo rapido per sistemare il prompt, e intanto alleni l'occhio.
+
+SCENA 42 · Claude · durata circa 17 s
+Azione: Due finestre affiancate: risposta al prompt vecchio e al prompt nuovo.
+Zoom / evidenziare: Le differenze tra le due risposte
+Parlato che accompagna: Riempi ogni etichetta con informazioni concrete e controlla che non ci siano nomi, dati di salute o iscrizioni. Poi lancia la nuova versione in una chat nuova, non in quella vecchia, e confronta le due risposte. Annota cosa è migliorato e quale parte ha pesato di più.

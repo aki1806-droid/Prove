@@ -1,0 +1,45 @@
+Copione registrazioni schermo · Lezione 4.3
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 10 · ChatGPT · durata circa 17 s
+Azione: Si apre una chat nuova e si scrive il prompt breve.
+Da digitare:
+Devo scrivere una lettera all'azienda sul piano ferie estive.
+Destinatario: direzione del personale. Obiettivo: ottenere un incontro prima dell'approvazione.
+Zoom / evidenziare: Le righe destinatario e obiettivo
+Parlato che accompagna: Andiamo a schermo con il caso delle ferie. Apri una chat nuova in ChatGPT. Scrivi il tipo di testo, il tema, il destinatario e l'obiettivo: una lettera all'azienda sul piano ferie estive, per la direzione del personale, per ottenere un incontro prima dell'approvazione.
+
+SCENA 14 · ChatGPT · durata circa 15 s
+Azione: Si invia il prompt e compare l'elenco delle domande.
+Zoom / evidenziare: Le cinque domande numerate
+Parlato che accompagna: Invii. Questa volta ChatGPT non scrive la lettera. Si ferma e ti restituisce un elenco numerato di domande. Leggile con calma, una per una. Non sono un esame: sono la mappa di quello che manca, e ti dicono molto anche su quello che dovresti sapere tu.
+
+SCENA 17 · ChatGPT · durata circa 17 s
+Azione: Si risponde alle domande con righe brevi.
+Da digitare:
+1. Tre reparti di degenza
+2. Lo verifico e te lo incollo
+3. [DATA DI APPROVAZIONE]
+4. Sì, due segnalazioni scritte
+5. Fermo ma collaborativo
+Zoom / evidenziare: Il segnaposto della data
+Parlato che accompagna: Il segretario risponde. Tre reparti di degenza. L'accordo lo verifica e lo incollerà dopo. Per la scadenza mette un segnaposto. Due segnalazioni scritte, senza nomi. Tono fermo ma collaborativo. Risposte brevi, per categorie, che bastano all'IA per lavorare sui fatti veri.
+
+SCENA 22 · Gemini · durata circa 16 s
+Azione: Dall'app sul telefono si risponde alle opzioni con una riga.
+Da digitare:
+1A 2C 3B 4A 5B
+Zoom / evidenziare: La riga di risposte con le lettere
+Parlato che accompagna: Proviamola in Gemini, anche dall'app sul telefono. Il compito è un avviso per i colleghi sul cambio di orario degli spogliatoi. Gemini restituisce cinque domande, ognuna con le sue opzioni. Rispondi scrivendo una riga sola: uno A, due C, tre B, e così via.
+
+SCENA 30 · Claude · durata circa 17 s
+Azione: Si incolla il prompt con le regole e si scrive il tema.
+Da digitare:
+Tema: risposta a un lavoratore a cui è stato negato un cambio turno
+Zoom / evidenziare: Le regole sui dati personali nel prompt
+Parlato che accompagna: Proviamo in Claude, con una pratica tipica: un lavoratore a cui è stato negato un cambio turno. Incolli il prompt con le regole, scrivi il tema in una riga e invii. Osserva le domande che arrivano: riguardano la situazione, i tempi, la richiesta fatta. Mai la persona.
+
+SCENA 41 · ChatGPT · durata circa 17 s
+Azione: Si evidenziano le domande a cui non si sa rispondere.
+Zoom / evidenziare: Le domande evidenziate in giallo
+Parlato che accompagna: Leggi le domande e segna quelle a cui non sai rispondere: sono le cose da verificare prima di mandare il testo. Rispondi alle altre per categorie, senza dati personali, e lascia che l'IA scriva la bozza. Se ti chiede qualcosa di troppo personale, rispondi non rilevante e vai avanti.

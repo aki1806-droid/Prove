@@ -1,0 +1,436 @@
+{
+ "lezione": "IAS_M04_L02",
+ "titolo": "Dare esempi: il testo che ti piace come modello",
+ "livello": 1,
+ "fonte": "pacchetto video del 17 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tema nuovo, stile da ritrovare"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Lo stile si descrive male"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P05",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Descrivere o mostrare"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C06"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 18.37,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa l'IA legge in un esempio: Lunghezza delle frasi / Come apri e come chiudi / Noi o impersonale / Quante richieste fai / Parole ricorrenti"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Uno dei modi più affidabili"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "2 condizioni: esempi pertinenti e vari"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A11",
+   "durata_video": 18.37,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Separare esempio e istruzioni"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P14",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il modello: i buoni pasto"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Imita un comunicato riuscito"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P18",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le due righe decisive"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Nuovo comunicato sulle ore aggiuntive"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P21",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "L'IA ripete la frase finale del modello → Aggiungi: non copiare frasi intere dell'esempio"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Il rilancio se copia"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I23"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Quanti esempi dare"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Risposte ai lavoratori in serie"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Temi diversi, stile uguale"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Trova lo stile comune"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Lo stile comune dei tre testi"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "5 righe al posto di tre testi interi"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Esempi anche per la forma: Scheda riassuntiva / Tabella di confronto / Messaggio WhatsApp breve / Avviso per la bacheca"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Rispetta questo formato"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Scheda sulla circolare"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Esempio con nomi, malattie, elenchi di iscritti → Sostituisci con [LAVORATORE], [REPARTO], [DATA] prima di incollare"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 5, par. 1, lett. c) Reg. UE 2016/679 (GDPR)"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I37"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tre esempi tutti sullo stesso tema → Scegli testi diversi per tema, uguali per stile"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Non descrivere lo stile: mostralo, e di' cosa non copiare."
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli e ripulisci il comunicato più riuscito / Descrivi in tre righe un tema nuovo / Usa il prompt in uno dei tre strumenti / Confronta: tono simile? Frasi copiate? / Salva il prompt con l'esempio dentro"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La cartella dei modelli"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R07"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P43",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "20 prompt personali nella lezione 4.5"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C44"
+  },
+  {
+   "id": "S045",
+   "blocco": "B45",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P45",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 4.3 Far fare domande all'IA prima di rispondere"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P45",
+   "fondo": "scuro"
+  }
+ ]
+}

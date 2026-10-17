@@ -1,0 +1,435 @@
+{
+ "lezione": "IAS_M04_L05",
+ "titolo": "La libreria dei 500 prompt e i tuoi primi 20",
+ "livello": 1,
+ "fonte": "pacchetto video del 17 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Ogni volta da zero"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il prompt perso nella cronologia"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A05",
+   "durata_video": 17.4,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "500 prompt in 12 tipologie"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P07",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Le tipologie più ampie"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Le altre sette tipologie: Tutela individuale: 35 / Dati e sondaggi, formazione: 30 / Assemblee e riunioni: 25 / Verifica, IA al tavolo: 20 / Privacy e anonimizzazione: 15"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P09",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Parti dal compito"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La scheda di ogni prompt: Titolo e tipologia / Quando usarlo / Testo con segnaposto / Avvertenze: privacy e verifica"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una scheda letta in dieci secondi"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P12",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Formato e testo per Canva"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A13",
+   "durata_video": 19.3,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Adatta il prompt alla tua sede"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Adatta il prompt alla mia sede"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Segnaposto vuoti, o riempiti con nome e diagnosi → Informazioni sul caso, secondo il protocollo privacy"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "immagine",
+   "peso": 1.0,
+   "asset": "I18"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "06 Comunicato breve WhatsApp"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Dove salvare i prompt"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Documento e strumenti insieme"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "20 prompt personali: il kit del modulo"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P25",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Kit 1-5 · Scrivere"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Kit 6-10 · Leggere e trattare: 06 Riassunto di una delibera / 07 Dove perde il lavoratore / 08 Scadenzario / 09 Obiezioni della controparte / 10 Appunti in verbale"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Kit 11-15 · Tutelare e riunire: 11 Cronologia di una pratica / 12 Risposta chiara al lavoratore / 13 Scaletta di assemblea / 14 Decisioni e compiti / 15 Post social"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Kit 16-20 · Metodo e privacy"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Risposta sul part-time respinto"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Risposta sul part-time respinto"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Gemini – Risposta sul part-time respinto"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P33",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Stesso prompt, tre stili"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P34",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Il prompt 12 nei tre strumenti"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P35",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "art. 11 L. 132/2025"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Copiare decine di prompt per sicurezza → Tieni solo quelli che usi: venti, non cinquecento"
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C37"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P38",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Tenere i prompt migliori solo per sé → Condividi i tre migliori, nomina chi cura la libreria"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Un prompt collaudato si scrive una volta, si migliora, si riusa."
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P40",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Crea il documento «I miei prompt» / Copia i venti prompt del kit / Sostituisci con i tuoi delle lezioni 4.1–4.4 / Adatta il tono e provane almeno cinque / Condividi i tre migliori"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "4 tecniche diventate prompt pronti"
+  },
+  {
+   "id": "S043",
+   "blocco": "B43",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C43"
+  },
+  {
+   "id": "S044",
+   "blocco": "B44",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P44",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 5.1 Le allucinazioni: norme e sentenze inventate"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P44",
+   "fondo": "scuro"
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "lezione": "IAS_M06_L04",
+ "titolo": "Lo stesso testo per pubblici diversi",
+ "livello": 1,
+ "fonte": "pacchetto video del 17 ottobre 2026",
+ "scene": [
+  {
+   "id": "S000",
+   "blocco": "APERTURA",
+   "tipo": "slide",
+   "durata": "3s",
+   "asset": "P01",
+   "fondo": "scuro"
+  },
+  {
+   "id": "S001",
+   "blocco": "B01",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P01",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": ""
+  },
+  {
+   "id": "S002",
+   "blocco": "B02",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C02"
+  },
+  {
+   "id": "S003",
+   "blocco": "B03",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P03",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Il copia e incolla dell'emergenza"
+  },
+  {
+   "id": "S004",
+   "blocco": "B04",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P04",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Stessi fatti, tre lettori"
+  },
+  {
+   "id": "S005",
+   "blocco": "B05",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P05",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Tre pubblici a confronto"
+  },
+  {
+   "id": "S006",
+   "blocco": "B06",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P06",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "3 versioni da una sola base di fatti"
+  },
+  {
+   "id": "S007",
+   "blocco": "B07",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A07",
+   "durata_video": 19.17,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S008",
+   "blocco": "B08",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P08",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "I quattro blocchi della scheda: Fatti certi, con date e numeri / Fatti da verificare / La posizione in due frasi / Le richieste numerate"
+  },
+  {
+   "id": "S009",
+   "blocco": "B09",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R01"
+  },
+  {
+   "id": "S010",
+   "blocco": "B10",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P10",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Scheda unica dei fatti"
+  },
+  {
+   "id": "S011",
+   "blocco": "B11",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P11",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Scheda dei fatti Valcorta"
+  },
+  {
+   "id": "S012",
+   "blocco": "B12",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C12"
+  },
+  {
+   "id": "S013",
+   "blocco": "B13",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P13",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Tre versioni coerenti"
+  },
+  {
+   "id": "S014",
+   "blocco": "B14",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R02"
+  },
+  {
+   "id": "S015",
+   "blocco": "B15",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P15",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Tabella di controllo"
+  },
+  {
+   "id": "S016",
+   "blocco": "B16",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P16",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Numeri gonfiati nel comunicato stampa → Ogni dato della versione stampa deve stare nella scheda"
+  },
+  {
+   "id": "S017",
+   "blocco": "B17",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P17",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Un numero sbagliato costa mesi"
+  },
+  {
+   "id": "S018",
+   "blocco": "B18",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R03"
+  },
+  {
+   "id": "S019",
+   "blocco": "B19",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P19",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La versione per i colleghi"
+  },
+  {
+   "id": "S020",
+   "blocco": "B20",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P20",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "La versione per la direzione"
+  },
+  {
+   "id": "S021",
+   "blocco": "B21",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C21"
+  },
+  {
+   "id": "S022",
+   "blocco": "B22",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P22",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Claude – Comunicato stampa, attacco"
+  },
+  {
+   "id": "S023",
+   "blocco": "B23",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P23",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa serve al giornalista: Una notizia in poche righe / Una frase citabile / Qualcuno che risponde al telefono"
+  },
+  {
+   "id": "S024",
+   "blocco": "B24",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P24",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Prompt: Dichiarazione per il cronista"
+  },
+  {
+   "id": "S025",
+   "blocco": "B25",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R04"
+  },
+  {
+   "id": "S026",
+   "blocco": "B26",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P26",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "ChatGPT – Tre dichiarazioni per il cronista"
+  },
+  {
+   "id": "S027",
+   "blocco": "B27",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P27",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Non siamo contro la tecnologia"
+  },
+  {
+   "id": "S028",
+   "blocco": "B28",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P28",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Critica le scelte, non le persone"
+  },
+  {
+   "id": "S029",
+   "blocco": "B29",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P29",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "artt. 21 e 39 Cost.; art. 595 c.p."
+  },
+  {
+   "id": "S030",
+   "blocco": "B30",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P30",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Cosa non dire alla stampa: Nomi di lavoratori o pazienti / Fatti ancora da verificare / Giudizi sulle persone"
+  },
+  {
+   "id": "S031",
+   "blocco": "B31",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P31",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "40 parole al massimo per la dichiarazione"
+  },
+  {
+   "id": "S032",
+   "blocco": "B32",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P32",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Improvvisare al telefono con il cronista → Prendi dieci minuti, parti dalla scheda, richiama tu"
+  },
+  {
+   "id": "S033",
+   "blocco": "B33",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R05"
+  },
+  {
+   "id": "S034",
+   "blocco": "B34",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C34"
+  },
+  {
+   "id": "S035",
+   "blocco": "B35",
+   "tipo": "video",
+   "peso": 1.0,
+   "asset": "A35",
+   "durata_video": 20.03,
+   "fondo": "scuro"
+  },
+  {
+   "id": "S036",
+   "blocco": "B36",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P36",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Cambia il modo di dirlo, mai cosa dici: tutto nasce dalla scheda."
+  },
+  {
+   "id": "S037",
+   "blocco": "B37",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P37",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Scegli una notizia reale, senza dati personali / Ricava la scheda dei fatti / Verifica o togli i fatti incerti / Chiedi le tre versioni, leggi la tabella / Rileggi la stampa con i tre limiti"
+  },
+  {
+   "id": "S038",
+   "blocco": "B38",
+   "tipo": "registrazione",
+   "peso": 1.0,
+   "asset": "R06"
+  },
+  {
+   "id": "S039",
+   "blocco": "B39",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P39",
+   "fondo": "chiaro",
+   "tabella": false,
+   "testo_a_schermo": "Una scheda per ogni vertenza"
+  },
+  {
+   "id": "S040",
+   "blocco": "B40",
+   "tipo": "clip",
+   "peso": 1.0,
+   "asset": "C40"
+  },
+  {
+   "id": "S041",
+   "blocco": "B41",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P41",
+   "fondo": "chiaro",
+   "tabella": true,
+   "testo_a_schermo": "Valcorta in tre versioni"
+  },
+  {
+   "id": "S042",
+   "blocco": "B42",
+   "tipo": "slide",
+   "peso": 1.0,
+   "asset": "P42",
+   "fondo": "scuro",
+   "tabella": false,
+   "testo_a_schermo": "Nella prossima lezione: 6.5 Con i tre strumenti: lo stesso comunicato a confronto"
+  },
+  {
+   "id": "S999",
+   "blocco": "CHIUSURA",
+   "tipo": "slide",
+   "durata": "10s",
+   "asset": "P42",
+   "fondo": "scuro"
+  }
+ ]
+}

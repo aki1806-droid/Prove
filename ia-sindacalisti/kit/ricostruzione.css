@@ -38,3 +38,6 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:#FAF8F4;font-fam
 .colonne .flusso{padding:26px 28px;gap:20px}
 .colonne .ia{padding-left:40px}.colonne .ia::before{width:24px;height:24px}.colonne .attesa{left:40px}
 .saluto{position:absolute;left:0;right:0;top:40%;text-align:center;font:600 40px Inter;color:#2B2F2E}
+
+/* testo lungo nella casella: si vede la parte finale, mai oltre il bordo */
+.input .testo{max-height:205px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end}

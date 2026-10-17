@@ -1,0 +1,89 @@
+Benvenuto alla lezione quattro punto uno, la prima del modulo sul prompt che funziona. Oggi impari lo schema che userai per tutto il resto del corso: cinque parti, sempre le stesse, per trasformare una richiesta vaga in un testo che parla davvero della tua sede e dei tuoi colleghi.
+
+Lunedì mattina, in sede. Un delegato ha venti minuti prima di entrare in reparto. Apre ChatGPT e scrive una riga sola: fammi un volantino sui turni. Dopo pochi secondi il testo è pronto. Ordinato, scorrevole, persino ben impaginato. Eppure, leggendolo, qualcosa non torna.
+
+Eccolo. Parla di benessere dei lavoratori, di qualità del servizio, di un sindacato al vostro fianco. Non c'è un reparto, non c'è un problema preciso, non c'è una data. Potresti appenderlo in un ospedale, in un comune o in una fabbrica: andrebbe bene ovunque, e proprio per questo non serve a nessuno.
+
+Qui sta il punto della lezione. Il delegato pensa che lo strumento non sia all'altezza. In realtà lo strumento ha fatto esattamente quello che gli è stato chiesto. Il problema è la richiesta: una riga sola, senza nessuna delle informazioni che lui aveva in testa.
+
+Pensa a come faresti senza IA. Chiederesti a un collega della segreteria di scriverti il volantino. E prima ancora di cominciare, lui ti farebbe delle domande. Quale reparto? Cosa succede con i turni? Cosa vogliamo ottenere? Con un collega queste informazioni passano da sole. Con l'IA no.
+
+Perché succede? Lo hai visto nel modulo uno: un modello linguistico prevede le parole più probabili a partire da quello che scrivi. Se la richiesta è generica, la risposta più probabile è un volantino medio, per un lavoratore medio, di un'azienda media. Il generico è la sua scelta più sicura.
+
+Tienila a mente come idea guida. L'IA non conosce la tua sede, non sa chi sono i tuoi colleghi, non ha letto il calendario dei turni. Tutto quello che non scrivi nel prompt, lo inventa oppure lo lascia nel vago. La qualità della risposta dipende da quello che le dai.
+
+Le guide ufficiali dei tre strumenti dicono la stessa cosa con parole diverse. Google, per Gemini, indica quattro aree: persona, compito, contesto e formato. Anthropic, per Claude, propone una prova semplice: fai leggere il prompt a un collega che non sa nulla del lavoro. Se lui è confuso, lo sarà anche l'IA.
+
+Nel corso usiamo cinque parti, perché nel lavoro sindacale c'è un elemento in più che conta come gli altri: i vincoli. Cosa non dire, quanto spazio hai, che tono tenere. Le cinque parti sono ruolo, contesto, compito, formato e vincoli. Ora le vediamo una per una.
+
+Immaginale come cinque domande a cui il prompt deve rispondere. Chi deve essere l'IA. Che situazione c'è. Cosa deve fare, esattamente. Che forma deve avere il risultato. Cosa deve evitare o rispettare. Se una di queste risposte manca, l'IA la sceglie al posto tuo.
+
+Ecco lo schema con un esempio di sede. Ruolo: addetto stampa di un sindacato del pubblico impiego. Contesto: reparto di medicina, turni pubblicati con tre giorni di preavviso. Compito: un volantino che convochi l'assemblea di giovedì. Formato e vincoli chiudono il quadro: struttura, lunghezza, tono, nessun nome.
+
+Partiamo dal ruolo. Basta una frase, ma cambia molto. Se scrivi sei un addetto stampa di un sindacato del pubblico impiego, l'IA sceglie parole, tono e livello di formalità di conseguenza. Senza ruolo, ti risponde con la voce neutra di un assistente qualunque.
+
+Poi il contesto, la parte più importante e la più trascurata. È la materia prima: dove succede, chi è coinvolto, cosa è successo e perché interessa al sindacato. Chi fa sindacato queste cose le sa così bene che dimentica di scriverle. Ed è proprio lì che la risposta diventa generica.
+
+Il compito si scrive con un verbo preciso. Scrivi, riassumi, elenca, confronta. Aiutami con il volantino non è un compito: non dice se devi scriverlo, correggerlo, accorciarlo o riorganizzarlo. Un verbo chiaro e un oggetto chiaro, e l'IA sa dove andare.
+
+Il formato ti evita di riorganizzare il testo dopo: titolo, quanti paragrafi, dove mettere data e luogo. I vincoli invece proteggono te e la sede. Lunghezza massima, registro, cose da non affermare, nessun nome di persona. Sono la parte che distingue un prompt sindacale da uno qualunque.
+
+Andiamo a schermo. Apri una chat nuova in ChatGPT. Prima di scrivere qualsiasi contenuto, scrivi le cinque etichette, una per riga. È una buona abitudine: le etichette ti obbligano a pensare a ogni parte, e vedi subito quale stai saltando.
+
+Ecco lo schema base, quello che trovi nella dispensa. Ogni riga ha i suoi segnaposto in maiuscolo tra parentesi quadre. Copialo, riempi i segnaposto e cancella le righe che non ti servono. Nota l'ultima riga: i vincoli dicono già di non citare norme non indicate e di non inserire nomi.
+
+Facciamo una prova concreta con un caso di sede. Prima versione: scrivimi un comunicato sulla mensa. Il risultato è un testo sull'importanza di una corretta alimentazione. Niente di sbagliato, ma niente che si possa usare. Il problema vero dei colleghi non compare da nessuna parte.
+
+Ora riempi le etichette. Ruolo: addetto stampa sindacale. Contesto: la mensa aziendale chiude alle quattordici, e chi esce dal turno del mattino alle quattordici non riesce a mangiare. Compito: un comunicato che chieda di estendere l'orario. Formato: titolo e due paragrafi. Vincoli: centoventi parole, tono propositivo.
+
+Ecco un estratto della nuova risposta. Il titolo nomina il problema, il primo paragrafo descrive cosa succede a chi esce dal turno, il secondo fa una richiesta precisa all'azienda. Si può usare con pochi ritocchi, perché parla di quel problema e non di un problema qualunque.
+
+Nota quanto poco è servito. Non hai scritto una pagina. Hai aggiunto tre o quattro righe di contesto e una riga per ciascuna delle altre parti. Non serve scrivere tanto: servono le informazioni giuste, quelle che hai già in testa e che l'IA non può indovinare.
+
+Ora torniamo al volantino sui turni del delegato di lunedì. Questa volta lo riscriviamo con lo schema completo, partendo da quello che lui sa e non aveva scritto: il reparto, il preavviso troppo breve, i cambi all'ultimo momento, l'assemblea già fissata.
+
+Ecco il prompt completo per il volantino sui turni. Il ruolo chiede un sindacalista esperto di sanità pubblica che scrive in modo semplice. Il contesto racconta il preavviso breve e i cambi continui. Il compito invita all'assemblea. E i vincoli dicono di non promettere risultati e di non citare articoli di contratto.
+
+Lo stesso prompt funziona identico in Claude e in Gemini, perché le cinque parti non dipendono dallo strumento. Proviamolo in Claude. Incolli il testo, riempi i segnaposto con reparto, giorni di preavviso, data, ora e luogo dell'assemblea, e invii.
+
+Il risultato rispetta tutto. Un titolo, tre frasi brevi, la riga finale con data e luogo. Il tono è vicino, e soprattutto non promette nulla che la sede non possa mantenere. Confrontalo con il volantino di lunedì: stessa persona, stesso strumento, risultato completamente diverso.
+
+Mettiamoli fianco a fianco. Prima: una riga, nessun reparto, nessuna richiesta, frasi che valgono per chiunque. Dopo: cinque parti, il problema concreto, un invito preciso e i limiti che la sede si è data. La differenza non l'ha fatta lo strumento. L'ha fatta il prompt.
+
+Passiamo alla seconda abilità della lezione: la diagnosi. Quando una risposta non ti convince, non ricominciare da capo. Guarda il difetto e risali alla parte che manca. È molto più veloce che riscrivere tutto, e col tempo impari a riconoscere i difetti al primo sguardo.
+
+Ecco la tabella da tenere accanto. Risposta generica, adatta a qualunque azienda: manca il contesto. Tono troppo burocratico o troppo enfatico: manca il ruolo, o il tono nei vincoli. Fa altro rispetto a ciò che volevi: manca un compito preciso. Muro di testo: manca il formato. Troppo lunga, con norme a caso: mancano i vincoli.
+
+E se non capisci cosa manca? Fattelo dire dall'IA. Proviamo in Gemini. Incolli il prompt che hai usato e la risposta che ti ha deluso, poi chiedi un'analisi secondo le cinque parti. È un modo rapido per sistemare il prompt, e intanto alleni l'occhio.
+
+Il prompt chiede tre cose. Per ogni parte, dire se c'è, se è chiara e cosa aggiungere. Poi proporre una versione riscritta. E qui c'è il dettaglio importante: lasciare tra parentesi quadre le informazioni che solo tu puoi dare. Così l'IA non inventa i fatti della tua sede.
+
+Ecco un estratto della diagnosi sul volantino di lunedì. Mancano ruolo e contesto, il compito è generico, formato e vincoli non ci sono. La versione proposta lascia tra parentesi quadre reparto e problema. Le parti mancanti le ha trovate l'IA, i fatti li metti tu.
+
+Una domanda che arriva sempre: quanto deve essere lungo un prompt? Non esiste una lunghezza giusta, esiste la lunghezza sufficiente. Per una domanda semplice, come spiegami cos'è la pronta disponibilità, bastano compito e formato. Per un testo che uscirà con il logo della sede servono tutte e cinque.
+
+Pensala come una scala. Per capire un termine ti bastano compito e formato. Per un messaggio interno veloce aggiungi i vincoli. Per tutto ciò che esce firmato dalla sede scrivi tutte e cinque le parti. E se una riga resta vuota, chiediti se è davvero inutile o se la stai saltando per fretta.
+
+Veniamo agli errori tipici. Il più pericoloso nasce proprio dalla buona volontà. Hai capito che il contesto conta, e allora per dare contesto incolli la pratica intera, così com'è, con tutto quello che contiene.
+
+Nome della lavoratrice, reparto, giorni di malattia. È esattamente ciò che il protocollo del modulo tre vieta. Il contesto si scrive per categorie: un'infermiera del reparto di medicina con figli piccoli, non nome e cognome. All'IA serve la situazione, non la persona.
+
+La ragione è precisa. Il GDPR, all'articolo nove, mette i dati sulla salute e quelli che rivelano l'appartenenza sindacale tra le categorie particolari, con tutele rafforzate. Per un sindacato sono proprio i dati più frequenti. Per questo non entrano mai in un prompt, nemmeno per dare contesto.
+
+C'è anche un riferimento europeo. L'AI Act, il regolamento europeo sull'intelligenza artificiale, all'articolo quattro chiede che chi usa l'IA in un'organizzazione abbia una sufficiente alfabetizzazione. L'obbligo vale dal due febbraio duemilaventicinque. Saper scrivere un prompt consapevole, e sapere cosa non metterci, ne fa parte.
+
+Il secondo errore è lo spreco di tempo. La risposta non va, e allora si cancella tutto e si riscrive un prompt nuovo, magari peggiore del primo. Usa la tabella della diagnosi: individua la parte mancante e aggiungi solo quella. Spesso basta una riga.
+
+Il terzo errore è più sottile: scambiare gli aggettivi per contesto. Situazione grave, colleghi esasperati, azienda sorda. Sono giudizi, non fatti, e l'IA li trasforma in enfasi. Il contesto è fatto di fatti: dove succede, chi è coinvolto, cosa è successo, perché ci interessa.
+
+Ecco la frase da portarti via. L'IA non conosce la tua sede. Tutto quello che non scrivi, lo inventa o lo lascia generico. Ruolo, contesto, compito, formato e vincoli sono il modo più semplice per non dimenticare niente di importante.
+
+Ora la pratica. Apri la cronologia di ChatGPT, Claude o Gemini e cerca un prompt che ti aveva dato una risposta deludente. Se non ne hai, scrivine uno come lo avresti scritto prima di questo corso. Copialo in un documento e sotto scrivi le cinque etichette.
+
+Riempi ogni etichetta con informazioni concrete e controlla che non ci siano nomi, dati di salute o iscrizioni. Poi lancia la nuova versione in una chat nuova, non in quella vecchia, e confronta le due risposte. Annota cosa è migliorato e quale parte ha pesato di più.
+
+Non buttare la versione riscritta. È il primo mattone del tuo kit: nella lezione quattro punto cinque raccoglierai i tuoi primi prompt personali, e quelli costruiti con le tue mani, sui tuoi compiti veri, valgono più di qualsiasi modello preso da fuori.
+
+Pensa al delegato di lunedì mattina. Con gli stessi venti minuti, ma con cinque righe al posto di una, esce dalla sede con un volantino che parla del suo reparto, dei suoi turni, della sua assemblea. Non ha lavorato di più. Ha chiesto meglio.
+
+Nella prossima lezione aggiungi uno strumento potente alle cinque parti. Invece di descrivere lo stile che vuoi, lo mostri: prendi un testo che ti piace e lo usi come modello. Ci vediamo nella lezione quattro punto due.

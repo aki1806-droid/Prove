@@ -1,0 +1,36 @@
+Copione registrazioni schermo · Lezione 6.4
+Registra a 1080p, cursore evidenziato, solo dati finti (caso Valcorta), mai nomi o documenti reali. Sostituisci la slide segnaposto della scena indicata con la registrazione.
+
+SCENA 09 · Claude · durata circa 19 s
+Azione: Si incollano gli appunti disordinati, già senza nomi.
+Zoom / evidenziare: Una riga incerta tra gli appunti
+Parlato che accompagna: Andiamo a schermo con Claude. Incolli gli appunti della sede su Valcorta così come sono, ma già senza nomi di lavoratori. Le segnalazioni dei delegati, i numeri della prima settimana, la data della lettera, una voce sentita in reparto. È proprio il materiale disordinato su cui la scheda lavora meglio.
+
+SCENA 14 · Claude · durata circa 18 s
+Azione: Si invia il prompt e si scorre fino alla tabella finale.
+Zoom / evidenziare: La tabella di controllo in fondo alla risposta
+Parlato che accompagna: Incolli la scheda al posto del segnaposto, compili il resto e invii. La risposta è lunga, perché contiene tre testi. Ma non cominciare a leggere dall'alto. Scorri fino in fondo e parti dalla tabella di controllo: è lei che ti dice se le tre versioni raccontano davvero la stessa storia.
+
+SCENA 18 · Claude · durata circa 20 s
+Azione: Nella stessa chat si chiede di riscrivere solo la versione C.
+Da digitare:
+Riscrivi solo la versione C togliendo ogni affermazione assente dalla scheda, poi rifai la tabella di controllo.
+Zoom / evidenziare: La nuova tabella di controllo, senza righe anomale
+Parlato che accompagna: Come si corregge la deriva? Non riscrivi tu il comunicato stampa. Torni nella stessa chat e chiedi all'IA di riscrivere solo la versione C, togliendo ogni affermazione che non compare nella scheda, e di rifare la tabella di controllo. Quando tutte le righe dicono sì dove devono, la versione stampa è pronta per la tua rilettura.
+
+SCENA 25 · ChatGPT · durata circa 18 s
+Azione: Si incolla la scheda e si leggono le tre dichiarazioni.
+Zoom / evidenziare: Le tre dichiarazioni numerate
+Parlato che accompagna: Lo proviamo in ChatGPT, per avere un secondo sguardo diverso da quello che ha scritto le versioni. Incolli la scheda dei fatti e il ruolo del portavoce, il segretario territoriale. In pochi secondi hai tre dichiarazioni. Leggile ad alta voce: una dichiarazione si ascolta, prima ancora di leggersi.
+
+SCENA 33 · Gemini · durata circa 17 s
+Azione: Si incollano scheda e comunicato stampa per il controllo incrociato.
+Da digitare:
+Elenca ogni affermazione del comunicato che non compare nella scheda dei fatti.
+Zoom / evidenziare: L'elenco delle affermazioni non presenti
+Parlato che accompagna: E Gemini? Usalo per un ultimo controllo incrociato, come nel modulo cinque. Incolli la scheda dei fatti e il comunicato stampa e chiedi di elencare ogni affermazione che non trova nella scheda. Se la lista è vuota, puoi mandare. Se non lo è, sai esattamente dove intervenire.
+
+SCENA 38 · Claude · durata circa 18 s
+Azione: Le tre versioni affiancate con la tabella di controllo sotto.
+Zoom / evidenziare: Le righe con un no nella tabella
+Parlato che accompagna: Chiedi le tre versioni nello stesso prompt e leggi per prima la tabella di controllo. Correggi ogni deriva: numeri diversi, richieste diverse, aggettivi che cambiano la posizione. Poi rileggi la versione stampa e chiediti: c'è qualcosa che non firmerei con il mio nome? Se sì, toglilo.
