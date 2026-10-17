@@ -1,0 +1,1103 @@
+1
+00:00:03,000 --> 00:00:07,373
+Benvenuto alla lezione tre punto cinque,
+l'ultima del modulo sulla privacy.
+
+2
+00:00:07,413 --> 00:00:11,491
+Oggi trasformi tutto quello che hai
+imparato in cinque regole scritte,
+
+3
+00:00:11,531 --> 00:00:13,551
+valide per tutta la tua segreteria.
+
+4
+00:00:13,591 --> 00:00:18,258
+È il protocollo privacy della sede, e sarà
+il primo pezzo del tuo kit personale.
+
+5
+00:00:18,298 --> 00:00:21,141
+Vediamo come scriverlo, adattarlo e farlo
+vivere.
+
+6
+00:00:21,781 --> 00:00:23,973
+Una segreteria territoriale come tante.
+
+7
+00:00:24,013 --> 00:00:27,465
+Tre operatori, tre scrivanie, tre modi
+diversi di usare l'IA.
+
+8
+00:00:27,505 --> 00:00:29,755
+Nessuno ne ha mai parlato con gli altri.
+
+9
+00:00:29,795 --> 00:00:32,273
+Ognuno ha trovato da solo il suo
+equilibrio,
+
+10
+00:00:32,313 --> 00:00:36,109
+e nessuno sa davvero come lavorano i
+colleghi della stanza accanto.
+
+11
+00:00:36,748 --> 00:00:40,053
+Il primo incolla le pratiche intere,
+perché tanto è utile.
+
+12
+00:00:40,093 --> 00:00:43,456
+Il secondo non usa l'IA per niente, per
+paura di sbagliare.
+
+13
+00:00:43,496 --> 00:00:48,128
+Il terzo ha spento l'addestramento nei
+suoi account, ma non l'ha detto a nessuno.
+
+14
+00:00:48,168 --> 00:00:52,108
+Tre comportamenti diversi, e nessuno dei
+tre è una scelta della sede.
+
+15
+00:00:52,748 --> 00:00:56,351
+Il problema non sono le persone, che
+stanno facendo del loro meglio.
+
+16
+00:00:56,391 --> 00:00:58,601
+Il problema è che manca una regola comune.
+
+17
+00:00:58,641 --> 00:01:00,959
+E finché manca, la protezione dei
+lavoratori
+
+18
+00:01:00,999 --> 00:01:03,691
+dipende da chi si trova alla scrivania
+quel giorno,
+
+19
+00:01:03,731 --> 00:01:04,870
+e da quanto ha fretta.
+
+20
+00:01:04,910 --> 00:01:07,710
+Nessun lavoratore merita una protezione
+così casuale.
+
+21
+00:01:08,350 --> 00:01:10,864
+Senza un protocollo, di solito succede
+questo.
+
+22
+00:01:10,904 --> 00:01:14,584
+Qualcuno manda una mail di avvertimento,
+che si perde tra le altre.
+
+23
+00:01:14,624 --> 00:01:18,581
+Se ne parla in riunione, tutti sono
+d'accordo, ma nessuno scrive niente.
+
+24
+00:01:18,621 --> 00:01:22,801
+Dopo un mese ognuno è tornato alle sue
+abitudini, comprese quelle sbagliate.
+
+25
+00:01:23,440 --> 00:01:25,750
+Guarda la differenza tra le due
+situazioni.
+
+26
+00:01:25,790 --> 00:01:28,210
+Le buone intenzioni individuali sono
+sincere,
+
+27
+00:01:28,250 --> 00:01:31,271
+ma diverse da persona a persona, e non
+lasciano traccia.
+
+28
+00:01:31,311 --> 00:01:34,933
+Una regola condivisa è uguale per tutti,
+si può insegnare ai nuovi,
+
+29
+00:01:34,973 --> 00:01:37,229
+si può controllare e migliorare nel tempo.
+
+30
+00:01:37,869 --> 00:01:41,626
+Il GDPR non chiede a ogni operatore di
+essere un esperto di privacy.
+
+31
+00:01:41,666 --> 00:01:44,194
+L'articolo ventinove dice che chi agisce
+sotto
+
+32
+00:01:44,234 --> 00:01:47,767
+l'autorità del titolare tratta i dati solo
+se è istruito da lui.
+
+33
+00:01:47,807 --> 00:01:49,721
+E l'articolo cinque, paragrafo due,
+
+34
+00:01:49,761 --> 00:01:53,518
+chiede al titolare di poter dimostrare di
+aver rispettato le regole.
+
+35
+00:01:54,157 --> 00:01:57,194
+Un protocollo di sede sull'IA è
+esattamente questo:
+
+36
+00:01:57,234 --> 00:01:59,184
+un'istruzione semplice e scritta.
+
+37
+00:01:59,224 --> 00:02:04,131
+Trasforma le lezioni tre punto uno, due,
+tre e quattro in un comportamento comune.
+
+38
+00:02:04,171 --> 00:02:08,776
+E, se un giorno servisse, dimostra che la
+struttura si era organizzata prima.
+
+39
+00:02:09,416 --> 00:02:11,549
+In Italia c'è anche il Codice privacy.
+
+40
+00:02:11,589 --> 00:02:14,465
+L'articolo due quaterdecies permette al
+titolare di
+
+41
+00:02:14,505 --> 00:02:18,125
+attribuire compiti e funzioni a persone
+autorizzate e designate,
+
+42
+00:02:18,165 --> 00:02:20,241
+scegliendo le modalità più opportune.
+
+43
+00:02:20,281 --> 00:02:24,644
+Il protocollo di sede è uno di questi
+modi, concreto e alla portata di tutti.
+
+44
+00:02:25,284 --> 00:02:28,905
+Il protocollo non sostituisce le regole
+della tua organizzazione:
+
+45
+00:02:28,945 --> 00:02:30,595
+le completa per un tema nuovo.
+
+46
+00:02:30,635 --> 00:02:34,199
+Se la struttura regionale o nazionale ha
+già una policy sull'IA,
+
+47
+00:02:34,239 --> 00:02:37,973
+il protocollo di sede la richiama e la
+traduce in gesti quotidiani.
+
+48
+00:02:38,013 --> 00:02:40,563
+Se non c'è, la sede parte da qui e lo
+segnala.
+
+49
+00:02:41,204 --> 00:02:42,675
+Cinque regole, non di più.
+
+50
+00:02:42,715 --> 00:02:46,569
+È un numero scelto apposta: abbastanza per
+coprire tutto il modulo,
+
+51
+00:02:46,609 --> 00:02:49,359
+abbastanza poche per essere ricordate a
+memoria.
+
+52
+00:02:49,399 --> 00:02:52,555
+Ognuna corrisponde a una delle lezioni che
+hai seguito,
+
+53
+00:02:52,595 --> 00:02:54,473
+e risponde a una domanda precisa.
+
+54
+00:02:55,113 --> 00:02:56,013
+Ecco la mappa.
+
+55
+00:02:56,053 --> 00:02:59,976
+Zero dati, dalla tre punto uno: cosa non
+entra mai in chat.
+
+56
+00:03:00,016 --> 00:03:04,342
+Prima si anonimizza, dalla tre punto due:
+come uso un caso reale.
+
+57
+00:03:04,382 --> 00:03:09,178
+Solo account previsti e errore uguale
+segnalazione, dalla tre punto tre.
+
+58
+00:03:09,218 --> 00:03:12,335
+Impostazioni prudenti, dalla tre punto
+quattro.
+
+59
+00:03:12,975 --> 00:03:17,517
+Leggile in sequenza, come una scala che si
+sale ogni volta che apri una chat.
+
+60
+00:03:17,557 --> 00:03:21,207
+Prima i dati, poi il caso, poi l'account,
+poi le impostazioni.
+
+61
+00:03:21,247 --> 00:03:23,647
+E se qualcosa va storto, la segnalazione.
+
+62
+00:03:23,687 --> 00:03:26,979
+Cinque gradini, sempre gli stessi, per
+chiunque in sede.
+
+63
+00:03:27,619 --> 00:03:29,059
+Regola uno, zero dati.
+
+64
+00:03:29,099 --> 00:03:31,548
+Nel modello del corso è scritta così:
+
+65
+00:03:31,588 --> 00:03:35,854
+in nessuna IA entrano mai salute,
+iscrizione o delega sindacale,
+
+66
+00:03:35,894 --> 00:03:38,948
+nomi di lavoratori, codici fiscali,
+matricole,
+
+67
+00:03:38,988 --> 00:03:41,774
+IBAN, recapiti, procedimenti disciplinari.
+
+68
+00:03:41,814 --> 00:03:45,474
+E la regola vale anche per allegati, foto
+e screenshot.
+
+69
+00:03:46,114 --> 00:03:48,193
+Regola due, prima si anonimizza.
+
+70
+00:03:48,233 --> 00:03:51,305
+Un caso reale si usa solo dopo le cinque
+mosse:
+
+71
+00:03:51,345 --> 00:03:54,284
+persone, numeri, date, luoghi, dettagli
+rari.
+
+72
+00:03:54,324 --> 00:03:56,403
+A mano, prima di aprire la chat.
+
+73
+00:03:56,443 --> 00:04:00,243
+E i documenti di pratiche individuali non
+si caricano mai:
+
+74
+00:04:00,283 --> 00:04:02,627
+si riscrive solo la parte che serve.
+
+75
+00:04:03,266 --> 00:04:05,146
+Regola tre, solo account previsti.
+
+76
+00:04:05,186 --> 00:04:07,348
+Per il lavoro di sede si usano solo gli
+
+77
+00:04:07,388 --> 00:04:10,115
+account e gli strumenti indicati dalla
+struttura,
+
+78
+00:04:10,155 --> 00:04:12,486
+con il loro elenco scritto nel protocollo.
+
+79
+00:04:12,526 --> 00:04:16,608
+Gli account personali servono solo per
+testi generali, senza nessun dato.
+
+80
+00:04:16,648 --> 00:04:21,125
+Qui entra la risposta del referente che
+hai chiesto nella lezione tre punto tre.
+
+81
+00:04:21,766 --> 00:04:24,057
+Regola quattro, impostazioni prudenti.
+
+82
+00:04:24,097 --> 00:04:26,878
+Su ogni account l'addestramento è
+disattivato,
+
+83
+00:04:26,918 --> 00:04:30,681
+i compiti delicati si fanno in chat
+temporanea o in incognito,
+
+84
+00:04:30,721 --> 00:04:35,772
+niente feedback con il pollice sulle chat
+di lavoro, cronologia ripulita ogni mese.
+
+85
+00:04:35,812 --> 00:04:38,103
+E un controllo generale ogni sei mesi.
+
+86
+00:04:38,743 --> 00:04:41,724
+Regola cinque, errore uguale segnalazione
+subito.
+
+87
+00:04:41,764 --> 00:04:44,128
+Se un dato personale è finito in un'IA,
+
+88
+00:04:44,168 --> 00:04:48,566
+si cancella la conversazione e si avvisa
+il referente entro la giornata,
+
+89
+00:04:48,606 --> 00:04:51,094
+indicando strumento, data e tipo di dato.
+
+90
+00:04:51,134 --> 00:04:55,285
+E c'è una frase che non deve mancare:
+nessuna colpa per chi segnala.
+
+91
+00:04:55,925 --> 00:04:58,578
+Il modello ha anche un'intestazione e una
+chiusura.
+
+92
+00:04:58,618 --> 00:05:00,268
+In alto il nome della struttura,
+
+93
+00:05:00,308 --> 00:05:03,225
+la data della versione e il ruolo di chi
+l'ha approvato.
+
+94
+00:05:03,265 --> 00:05:05,917
+In fondo il referente per i dubbi, con il
+contatto,
+
+95
+00:05:05,957 --> 00:05:07,766
+e la data della prossima revisione.
+
+96
+00:05:07,806 --> 00:05:10,406
+Sono i campi tra parentesi quadre che
+completi tu.
+
+97
+00:05:11,046 --> 00:05:12,721
+Ecco il primo errore tipico.
+
+98
+00:05:12,761 --> 00:05:15,293
+Si scrive un protocollo di quattro pagine,
+
+99
+00:05:15,333 --> 00:05:18,171
+pieno di articoli di legge, completo e
+preciso.
+
+100
+00:05:18,211 --> 00:05:19,702
+E nessuno lo rilegge mai.
+
+101
+00:05:19,742 --> 00:05:24,602
+Le regole funzionano solo se si ricordano
+a memoria: titoli di due o tre parole,
+
+102
+00:05:24,642 --> 00:05:27,970
+due righe di spiegazione, le norme in una
+nota a parte.
+
+103
+00:05:28,610 --> 00:05:30,484
+Il limite da tenere è una pagina.
+
+104
+00:05:30,524 --> 00:05:33,907
+Se il tuo protocollo la supera, togli
+invece di aggiungere.
+
+105
+00:05:33,947 --> 00:05:36,169
+Una regola in più, che nessuno ricorda,
+
+106
+00:05:36,209 --> 00:05:38,490
+protegge meno di cinque regole che tutti
+
+107
+00:05:38,530 --> 00:05:41,622
+conoscono e sanno ripetere anche senza
+averle davanti.
+
+108
+00:05:42,262 --> 00:05:45,859
+Ora lo adattiamo alla tua sede, e qui l'IA
+è un'ottima aiutante.
+
+109
+00:05:45,899 --> 00:05:49,440
+Il protocollo non contiene dati personali,
+quindi è zona verde.
+
+110
+00:05:49,480 --> 00:05:53,134
+Apri Claude, nuova conversazione, e
+prepara il modello del corso,
+
+111
+00:05:53,174 --> 00:05:55,806
+già completato con il nome della tua
+struttura.
+
+112
+00:05:56,446 --> 00:05:58,100
+Ecco il prompt per adattarlo.
+
+113
+00:05:58,140 --> 00:06:00,845
+Dai all'IA il ruolo di consulente
+organizzativo
+
+114
+00:06:00,885 --> 00:06:03,649
+di una struttura sindacale del pubblico
+impiego.
+
+115
+00:06:03,689 --> 00:06:05,985
+Descrivi la sede con quattro segnaposto.
+
+116
+00:06:06,025 --> 00:06:10,015
+E metti vincoli precisi: cinque regole,
+titoli di massimo tre parole,
+
+117
+00:06:10,055 --> 00:06:14,338
+tre righe per regola, e alla fine i punti
+da far decidere al responsabile.
+
+118
+00:06:14,977 --> 00:06:17,460
+Compili i segnaposto con la tua realtà.
+
+119
+00:06:17,500 --> 00:06:19,595
+Quattro operatori e due delegati.
+
+120
+00:06:19,635 --> 00:06:23,801
+Attività principali: vertenze individuali,
+comunicati, assemblee.
+
+121
+00:06:23,841 --> 00:06:26,001
+Strumenti usati: ChatGPT e Gemini.
+
+122
+00:06:26,041 --> 00:06:30,724
+Account disponibili: solo personali, in
+attesa di risposta dal referente.
+
+123
+00:06:30,764 --> 00:06:32,924
+Poi incolli il protocollo e invii.
+
+124
+00:06:33,564 --> 00:06:34,481
+Ecco un estratto.
+
+125
+00:06:34,521 --> 00:06:38,140
+Le cinque regole sono riscritte sulla tua
+sede, con titoli brevi.
+
+126
+00:06:38,180 --> 00:06:40,392
+E in fondo arrivano i punti da decidere.
+
+127
+00:06:40,432 --> 00:06:42,643
+Per esempio: con soli account personali,
+
+128
+00:06:42,683 --> 00:06:45,402
+la regola tre va scritta in modo più
+restrittivo,
+
+129
+00:06:45,442 --> 00:06:48,160
+finché la struttura non avrà deciso
+diversamente.
+
+130
+00:06:48,800 --> 00:06:50,982
+Nota bene come si chiude la risposta.
+
+131
+00:06:51,022 --> 00:06:54,286
+L'IA non decide al posto tuo, ti indica
+cosa va deciso.
+
+132
+00:06:54,326 --> 00:06:58,370
+Chi è il referente, quali account
+adottare, come gestire i delegati.
+
+133
+00:06:58,410 --> 00:07:02,334
+Quelle scelte spettano a chi ha la
+responsabilità della struttura.
+
+134
+00:07:02,374 --> 00:07:04,796
+Tu le porti sul suo tavolo, già ordinate.
+
+135
+00:07:05,436 --> 00:07:07,011
+Ora la versione da appendere.
+
+136
+00:07:07,051 --> 00:07:07,901
+Passa a ChatGPT.
+
+137
+00:07:07,941 --> 00:07:11,743
+L'obiettivo è una locandina testuale per
+la bacheca della segreteria,
+
+138
+00:07:11,783 --> 00:07:15,083
+da leggere in dieci secondi passando
+davanti alla stampante.
+
+139
+00:07:15,123 --> 00:07:18,758
+Incolli il protocollo approvato e chiedi
+una versione molto corta.
+
+140
+00:07:19,398 --> 00:07:22,044
+Il prompt chiede quattro elementi: un
+titolo,
+
+141
+00:07:22,084 --> 00:07:26,462
+le cinque regole con una frase ciascuna,
+una riga finale con il referente.
+
+142
+00:07:26,502 --> 00:07:28,790
+Linguaggio diretto, in seconda persona.
+
+143
+00:07:28,830 --> 00:07:33,625
+E un limite che fa tutta la differenza:
+settanta parole in tutto, non una di più.
+
+144
+00:07:34,265 --> 00:07:35,847
+Il risultato si legge al volo.
+
+145
+00:07:35,887 --> 00:07:39,090
+Un titolo chiaro, cinque frasi brevi, il
+referente in fondo.
+
+146
+00:07:39,130 --> 00:07:43,307
+Stampalo in grande e appendilo dove si
+lavora davvero: accanto alla stampante,
+
+147
+00:07:43,347 --> 00:07:47,145
+vicino al telefono della segreteria, sulla
+porta dell'ufficio vertenze.
+
+148
+00:07:47,786 --> 00:07:49,966
+Terzo prompt, il quiz per la squadra.
+
+149
+00:07:50,006 --> 00:07:54,227
+Chiedi sei situazioni brevi di sede in cui
+qualcuno sta per usare l'IA,
+
+150
+00:07:54,267 --> 00:07:57,287
+e per ciascuna quale regola si applica e
+cosa fare.
+
+151
+00:07:57,327 --> 00:08:00,708
+Persone e casi devono essere inventati,
+senza nomi reali.
+
+152
+00:08:00,748 --> 00:08:04,488
+Le soluzioni stanno in fondo, così il quiz
+si può fare davvero.
+
+153
+00:08:05,128 --> 00:08:06,815
+Ecco due situazioni dal quiz.
+
+154
+00:08:06,855 --> 00:08:10,925
+Un collega vuole caricare in Gemini la
+foto di un certificato medico:
+
+155
+00:08:10,965 --> 00:08:12,235
+regola uno, zero dati.
+
+156
+00:08:12,275 --> 00:08:15,868
+Una delegata ha incollato per sbaglio il
+nome di un iscritto:
+
+157
+00:08:15,908 --> 00:08:18,607
+regola cinque, cancella e avvisa il
+referente.
+
+158
+00:08:18,647 --> 00:08:22,181
+Semplici, ma fanno discutere, ed è proprio
+quello che serve.
+
+159
+00:08:22,821 --> 00:08:24,928
+Ora il protocollo va messo dove serve.
+
+160
+00:08:24,968 --> 00:08:26,622
+In bacheca, la versione breve.
+
+161
+00:08:26,662 --> 00:08:30,577
+Nella cartella condivisa, il testo
+completo con la versione e la data.
+
+162
+00:08:30,617 --> 00:08:34,531
+Nel gruppo di messaggi della segreteria,
+come primo messaggio fissato.
+
+163
+00:08:34,571 --> 00:08:37,582
+E in riunione, presentato a voce, una
+volta per tutti.
+
+164
+00:08:38,221 --> 00:08:41,737
+Ecco il percorso completo, dal foglio
+bianco alla regola viva.
+
+165
+00:08:41,777 --> 00:08:43,630
+Scrivi il protocollo dal modello.
+
+166
+00:08:43,670 --> 00:08:44,777
+Lo adatti alla sede.
+
+167
+00:08:44,817 --> 00:08:48,449
+Lo fai approvare dal responsabile, sentito
+il referente privacy.
+
+168
+00:08:48,489 --> 00:08:49,883
+Lo presenti alla squadra.
+
+169
+00:08:49,923 --> 00:08:53,955
+E lo rivedi ogni sei mesi, insieme alle
+impostazioni dei tre strumenti.
+
+170
+00:08:54,596 --> 00:08:58,282
+La presentazione si fa in una riunione di
+segreteria di venti minuti,
+
+171
+00:08:58,322 --> 00:08:59,253
+delegati compresi.
+
+172
+00:08:59,293 --> 00:09:02,925
+Leggete insieme le cinque regole, fate il
+quiz, raccogliete i dubbi.
+
+173
+00:09:02,965 --> 00:09:06,759
+Poi l'approvazione: arriva da chi ha la
+responsabilità della struttura,
+
+174
+00:09:06,799 --> 00:09:10,700
+sentito il referente privacy o il
+Responsabile della protezione dei dati.
+
+175
+00:09:11,340 --> 00:09:13,257
+Ecco come lavora un protocollo vero.
+
+176
+00:09:13,297 --> 00:09:17,279
+Una segreteria provinciale lo approva e lo
+appende accanto alla stampante.
+
+177
+00:09:17,319 --> 00:09:20,976
+Dopo un mese un operatore incolla per
+errore il nome di un iscritto.
+
+178
+00:09:21,016 --> 00:09:23,802
+Cancella la chat e scrive al referente
+entro un'ora.
+
+179
+00:09:23,842 --> 00:09:28,206
+Il referente valuta, annota, e propone di
+aggiungere un esempio di testo anonimo.
+
+180
+00:09:28,845 --> 00:09:31,617
+Il secondo errore tipico è saltare
+l'approvazione.
+
+181
+00:09:31,657 --> 00:09:34,204
+Un operatore volenteroso scrive il
+protocollo,
+
+182
+00:09:34,244 --> 00:09:36,566
+lo manda a tutti e lo considera in vigore.
+
+183
+00:09:36,606 --> 00:09:39,547
+Ma chi tratta dati agisce su istruzione
+del titolare:
+
+184
+00:09:39,587 --> 00:09:43,034
+senza l'approvazione del responsabile
+resta un buon consiglio,
+
+185
+00:09:43,074 --> 00:09:44,046
+non un'istruzione.
+
+186
+00:09:44,686 --> 00:09:48,286
+Il terzo errore è togliere dalla regola
+cinque la frase sulla colpa.
+
+187
+00:09:48,326 --> 00:09:52,087
+Sembra un dettaglio, ma senza quella
+garanzia gli errori si nascondono.
+
+188
+00:09:52,127 --> 00:09:54,228
+E il titolare perde proprio il tempo che
+
+189
+00:09:54,268 --> 00:09:56,798
+gli serve per valutare una possibile
+violazione.
+
+190
+00:09:56,838 --> 00:09:59,153
+Conta la rapidità, non trovare un
+colpevole.
+
+191
+00:09:59,793 --> 00:10:02,096
+Torna alla segreteria dei tre operatori.
+
+192
+00:10:02,136 --> 00:10:04,908
+Quello che incollava tutto ora anonimizza
+prima.
+
+193
+00:10:04,948 --> 00:10:09,360
+Quello che aveva paura usa l'IA per i
+testi generali, sapendo cosa può fare.
+
+194
+00:10:09,400 --> 00:10:13,754
+Quello che aveva spento l'addestramento ha
+insegnato agli altri come si fa.
+
+195
+00:10:13,794 --> 00:10:15,159
+Tre persone, una regola.
+
+196
+00:10:15,199 --> 00:10:17,971
+E nessuno, in quella stanza, lavora più da
+solo.
+
+197
+00:10:18,611 --> 00:10:21,824
+Fissa la sintesi del modulo in cinque
+parole chiave.
+
+198
+00:10:21,864 --> 00:10:22,449
+Zero dati.
+
+199
+00:10:22,489 --> 00:10:23,700
+Prima si anonimizza.
+
+200
+00:10:23,740 --> 00:10:25,076
+Solo account previsti.
+
+201
+00:10:25,116 --> 00:10:26,453
+Impostazioni prudenti.
+
+202
+00:10:26,493 --> 00:10:27,954
+Errore segnalato subito.
+
+203
+00:10:27,994 --> 00:10:30,706
+Cinque regole, una pagina, tutta la
+squadra.
+
+204
+00:10:30,746 --> 00:10:33,521
+Se qualcuno in sede le sa ripetere a
+memoria,
+
+205
+00:10:33,561 --> 00:10:36,461
+il protocollo ha già fatto metà del suo
+lavoro.
+
+206
+00:10:37,101 --> 00:10:40,029
+Se ti porti a casa una sola frase, che sia
+questa.
+
+207
+00:10:40,069 --> 00:10:44,065
+Una regola condivisa vale più di dieci
+buone intenzioni individuali.
+
+208
+00:10:44,105 --> 00:10:46,440
+Cinque righe scritte, approvate e appese
+
+209
+00:10:46,480 --> 00:10:49,823
+proteggono i lavoratori meglio di
+qualsiasi impostazione.
+
+210
+00:10:49,863 --> 00:10:52,317
+Scrivile, falle approvare, e falle vivere.
+
+211
+00:10:52,957 --> 00:10:53,739
+Ora tocca a te.
+
+212
+00:10:53,779 --> 00:10:57,687
+Copia il modello del protocollo e completa
+i campi tra parentesi quadre.
+
+213
+00:10:57,727 --> 00:11:00,922
+Adattalo con il prompt e scegli la
+formulazione più chiara.
+
+214
+00:11:00,962 --> 00:11:03,938
+Fallo rileggere al responsabile e al
+referente privacy.
+
+215
+00:11:03,978 --> 00:11:05,912
+Presentalo alla squadra con il quiz.
+
+216
+00:11:05,952 --> 00:11:08,325
+Infine salvalo nel kit e fissa la
+revisione.
+
+217
+00:11:08,964 --> 00:11:10,064
+Ultimo gesto pratico.
+
+218
+00:11:10,104 --> 00:11:14,081
+Salva il protocollo approvato in una
+cartella che chiamerai kit personale.
+
+219
+00:11:14,121 --> 00:11:17,393
+Accanto metti la tabella delle
+impostazioni della lezione tre
+
+220
+00:11:17,433 --> 00:11:21,193
+punto quattro e la risposta del referente
+della lezione tre punto tre.
+
+221
+00:11:21,233 --> 00:11:24,016
+Poi apri l'agenda e segna la revisione tra
+sei mesi.
+
+222
+00:11:24,656 --> 00:11:26,554
+Questo è il primo pezzo del tuo kit.
+
+223
+00:11:26,594 --> 00:11:30,213
+Nel corso se ne aggiungeranno altri: i
+primi venti prompt personali,
+
+224
+00:11:30,253 --> 00:11:34,196
+la checklist di verifica, i modelli di
+immagine, l'assistente configurato.
+
+225
+00:11:34,236 --> 00:11:37,587
+Conserva bene il protocollo: lo ritroverai
+nel modulo diciotto,
+
+226
+00:11:37,627 --> 00:11:39,255
+alla consegna del kit completo.
+
+227
+00:11:39,895 --> 00:11:42,550
+Con questa lezione chiudi il modulo sulla
+privacy.
+
+228
+00:11:42,590 --> 00:11:45,514
+Da qui in avanti, ogni volta che userai
+l'IA nel corso,
+
+229
+00:11:45,554 --> 00:11:47,670
+darai per scontate queste cinque regole.
+
+230
+00:11:47,710 --> 00:11:49,448
+Non le ripeteremo a ogni lezione.
+
+231
+00:11:49,488 --> 00:11:52,574
+Saranno il terreno solido su cui costruire
+tutto il resto,
+
+232
+00:11:52,614 --> 00:11:54,245
+dai comunicati alla trattativa.
+
+233
+00:11:54,885 --> 00:11:58,858
+Nel prossimo modulo si comincia a scrivere
+prompt che funzionano davvero.
+
+234
+00:11:58,898 --> 00:12:02,211
+Nella prima lezione vedrai le cinque parti
+di un buon prompt:
+
+235
+00:12:02,251 --> 00:12:04,630
+ruolo, contesto, compito, formato e
+vincoli.
+
+236
+00:12:04,670 --> 00:12:07,984
+E riscriverai un tuo vecchio prompt per
+vedere la differenza.
+
+237
+00:12:08,024 --> 00:12:10,347
+Ci vediamo nella lezione quattro punto
+uno.
