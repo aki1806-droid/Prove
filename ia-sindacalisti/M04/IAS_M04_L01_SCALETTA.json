@@ -211,9 +211,9 @@
   {
    "id": "S022",
    "blocco": "B22",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C22"
+   "asset": "X21"
   },
   {
    "id": "S023",

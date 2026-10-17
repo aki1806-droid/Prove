@@ -62,9 +62,9 @@
   {
    "id": "S006",
    "blocco": "B06",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C06"
+   "asset": "X05"
   },
   {
    "id": "S007",
@@ -410,9 +410,9 @@
   {
    "id": "S044",
    "blocco": "B44",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C44"
+   "asset": "X43"
   },
   {
    "id": "S045",

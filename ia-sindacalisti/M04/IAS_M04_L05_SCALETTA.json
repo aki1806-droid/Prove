@@ -179,7 +179,7 @@
    "blocco": "B18",
    "tipo": "immagine",
    "peso": 1.0,
-   "asset": "I18"
+   "asset": "X17"
   },
   {
    "id": "S019",
@@ -355,9 +355,9 @@
   {
    "id": "S037",
    "blocco": "B37",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C37"
+   "asset": "X36"
   },
   {
    "id": "S038",

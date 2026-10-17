@@ -25,9 +25,9 @@
   {
    "id": "S002",
    "blocco": "B02",
-   "tipo": "clip",
+   "tipo": "immagine",
    "peso": 1.0,
-   "asset": "C02"
+   "asset": "X01"
   },
   {
    "id": "S003",

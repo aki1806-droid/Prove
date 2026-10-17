@@ -1,0 +1,304 @@
+{
+ "B01": [
+  {
+   "id": "S001x",
+   "dopo": "S001",
+   "tipo": "immagine",
+   "asset": "X03"
+  }
+ ],
+ "B03": [
+  {
+   "id": "S003x",
+   "dopo": "S003",
+   "tipo": "immagine",
+   "asset": "X04"
+  }
+ ],
+ "B04": [
+  {
+   "id": "S004x",
+   "dopo": "S004",
+   "tipo": "immagine",
+   "asset": "X07"
+  }
+ ],
+ "B07": [
+  {
+   "id": "S007x",
+   "dopo": "S007",
+   "tipo": "immagine",
+   "asset": "X08"
+  }
+ ],
+ "B08": [
+  {
+   "id": "S008x",
+   "dopo": "S008",
+   "tipo": "immagine",
+   "asset": "X11"
+  }
+ ],
+ "B11": [
+  {
+   "id": "S011x",
+   "dopo": "S011",
+   "tipo": "immagine",
+   "asset": "X12"
+  }
+ ],
+ "B12": [
+  {
+   "id": "S012x",
+   "dopo": "S012",
+   "tipo": "immagine",
+   "asset": "X13"
+  }
+ ],
+ "B13": [
+  {
+   "id": "S013x",
+   "dopo": "S013",
+   "tipo": "immagine",
+   "asset": "X15"
+  }
+ ],
+ "B15": [
+  {
+   "id": "S015x",
+   "dopo": "S015",
+   "tipo": "immagine",
+   "asset": "X16"
+  }
+ ],
+ "B16": [
+  {
+   "id": "S016x",
+   "dopo": "S016",
+   "tipo": "immagine",
+   "asset": "X18"
+  }
+ ],
+ "B18": [
+  {
+   "id": "S018x",
+   "dopo": "S018",
+   "tipo": "immagine",
+   "asset": "X19"
+  }
+ ],
+ "B19": [
+  {
+   "id": "S019x",
+   "dopo": "S019",
+   "tipo": "immagine",
+   "asset": "X21"
+  }
+ ],
+ "B21": [
+  {
+   "id": "S021x",
+   "dopo": "S021",
+   "tipo": "immagine",
+   "asset": "X23"
+  },
+  {
+   "id": "S021y",
+   "dopo": "S021x",
+   "tipo": "immagine",
+   "asset": "X24"
+  }
+ ],
+ "B23": [
+  {
+   "id": "S023x",
+   "dopo": "S023",
+   "tipo": "immagine",
+   "asset": "X26"
+  }
+ ],
+ "B24": [
+  {
+   "id": "S024x",
+   "dopo": "S024",
+   "tipo": "immagine",
+   "asset": "X27"
+  }
+ ],
+ "B25": [
+  {
+   "id": "S025x",
+   "dopo": "S025",
+   "tipo": "immagine",
+   "asset": "X28"
+  },
+  {
+   "id": "S025y",
+   "dopo": "S025x",
+   "tipo": "immagine",
+   "asset": "X29"
+  }
+ ],
+ "B26": [
+  {
+   "id": "S026x",
+   "dopo": "S026",
+   "tipo": "immagine",
+   "asset": "X31"
+  }
+ ],
+ "B27": [
+  {
+   "id": "S027x",
+   "dopo": "S027",
+   "tipo": "immagine",
+   "asset": "X32"
+  },
+  {
+   "id": "S027y",
+   "dopo": "S027x",
+   "tipo": "immagine",
+   "asset": "X33"
+  }
+ ],
+ "B28": [
+  {
+   "id": "S028x",
+   "dopo": "S028",
+   "tipo": "immagine",
+   "asset": "X35"
+  },
+  {
+   "id": "S028y",
+   "dopo": "S028x",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B29": [
+  {
+   "id": "S029x",
+   "dopo": "S029",
+   "tipo": "immagine",
+   "asset": "X37"
+  }
+ ],
+ "B31": [
+  {
+   "id": "S031x",
+   "dopo": "S031",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B32": [
+  {
+   "id": "S032x",
+   "dopo": "S032",
+   "tipo": "immagine",
+   "asset": "X39"
+  }
+ ],
+ "B33": [
+  {
+   "id": "S033x",
+   "dopo": "S033",
+   "tipo": "immagine",
+   "asset": "X40"
+  }
+ ],
+ "B34": [
+  {
+   "id": "S034x",
+   "dopo": "S034",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B35": [
+  {
+   "id": "S035x",
+   "dopo": "S035",
+   "tipo": "immagine",
+   "asset": "X43"
+  }
+ ],
+ "B36": [
+  {
+   "id": "S036x",
+   "dopo": "S036",
+   "tipo": "immagine",
+   "asset": "X36"
+  }
+ ],
+ "B37": [
+  {
+   "id": "S037x",
+   "dopo": "S037",
+   "tipo": "immagine",
+   "asset": "X37"
+  }
+ ],
+ "B38": [
+  {
+   "id": "S038x",
+   "dopo": "S038",
+   "tipo": "immagine",
+   "asset": "X38"
+  }
+ ],
+ "B39": [
+  {
+   "id": "S039x",
+   "dopo": "S039",
+   "tipo": "immagine",
+   "asset": "X39"
+  }
+ ],
+ "B40": [
+  {
+   "id": "S040x",
+   "dopo": "S040",
+   "tipo": "immagine",
+   "asset": "X40"
+  },
+  {
+   "id": "S040y",
+   "dopo": "S040x",
+   "tipo": "immagine",
+   "asset": "X42"
+  }
+ ],
+ "B42": [
+  {
+   "id": "S042x",
+   "dopo": "S042",
+   "tipo": "immagine",
+   "asset": "X43"
+  }
+ ],
+ "B43": [
+  {
+   "id": "S043x",
+   "dopo": "S043",
+   "tipo": "immagine",
+   "asset": "X35"
+  }
+ ],
+ "B44": [
+  {
+   "id": "S044x",
+   "dopo": "S044",
+   "tipo": "immagine",
+   "asset": "X33"
+  }
+ ],
+ "B45": [
+  {
+   "id": "S045x",
+   "dopo": "S045",
+   "tipo": "immagine",
+   "asset": "X32"
+  }
+ ]
+}
