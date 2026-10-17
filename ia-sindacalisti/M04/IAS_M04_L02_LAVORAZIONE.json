@@ -1,0 +1,32 @@
+{
+ "pubblicabile": false,
+ "perche_non_pubblicabile": [
+  "Le registrazioni schermo sono sostituite da ricostruzioni animate (le slide del pacchetto con la fascia SEGNAPOSTO non si usano).",
+  "Le risposte delle IA nelle ricostruzioni sono verosimili, scritte per la lezione: vanno confrontate con una prova vera.",
+  "Nessuno ha ancora guardato il video per intero."
+ ],
+ "fonte": "pacchetto video del 17 ottobre 2026 (slide pronte 1920x1080, una scena = un blocco); testi originali in M04/pacchetti/IAS_M04_L02/; slide in M04/slide/IAS_M04_L02/",
+ "voce": {
+  "strumento": "HeyGen come passante (create_speech, engine elevenlabs, model_id eleven_v4), scelta di Achille: «solo heygen sempre Achille nuovo 1»",
+  "voce": "Achille nuovo 1",
+  "voice_id_heygen": "9b851842ce54449fb9ff501751ca0271",
+  "modello": "eleven_v4",
+  "tracce": "5 tracce (A, B, C, D, E): blocchi uniti da <break time=\"1.6s\"/>; le tracce oltre 2.800 caratteri divise in due a metà; confini dai segnaposto di pausa nei word_timestamps.",
+  "request_id": [
+   "MsYNelDH5RFqE8ymw5PF",
+   "K4eZb4bcgGMgIDojmXKF",
+   "wB7OLG15NDaKN7LrlYTI",
+   "XWmO8753FYkcpYkQMIK1",
+   "EYylsNSyAm2Hw6jzkX3O"
+  ],
+  "post": "silenceremove su testa e coda (soglia -45 dB, resta al massimo 0,3 s), poi atempo=1.16; 48 kHz mono",
+  "pausa_tra_blocchi_s": 0.6,
+  "durata_stimata_s": 719.4,
+  "nota": "Script del pacchetto letto senza modifiche. Con 0,35 s di pausa la lezione restava sotto i 12 minuti: pausa portata a 0,6 s come da CLAUDE.md §2.",
+  "loudnorm": "I=-16:TP=-1.5:LRA=11"
+ },
+ "montaggio": "Locale: le slide del pacchetto come inquadrature (al massimo 9 s, 12 per le tabelle) e le sue animazioni; nei blocchi più lunghi di una slide, immagini aggiunte (Xnn, ElevenLabs seedream-5-lite); b-roll del pacchetto con immagini ElevenLabs e clip ElevenLabs kling-2.5-turbo (una variante per scena); ricostruzioni animate delle registrazioni; poi unione in HeyGen delle due metà, come per le altre lezioni.",
+ "segnaposto_aperti": [
+  "Registrazioni schermo di IAS_M04_L02: ricostruzioni animate al posto delle registrazioni vere"
+ ]
+}
