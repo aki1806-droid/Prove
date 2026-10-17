@@ -1,0 +1,1171 @@
+1
+00:00:03,000 --> 00:00:05,347
+Benvenuto alla lezione quattro punto uno,
+
+2
+00:00:05,387 --> 00:00:07,910
+la prima del modulo sul prompt che
+funziona.
+
+3
+00:00:07,950 --> 00:00:11,520
+Oggi impari lo schema che userai per tutto
+il resto del corso:
+
+4
+00:00:11,560 --> 00:00:13,325
+cinque parti, sempre le stesse,
+
+5
+00:00:13,365 --> 00:00:16,004
+per trasformare una richiesta vaga in un
+testo
+
+6
+00:00:16,044 --> 00:00:19,090
+che parla davvero della tua sede e dei
+tuoi colleghi.
+
+7
+00:00:19,480 --> 00:00:21,067
+Lunedì mattina, in sede.
+
+8
+00:00:21,107 --> 00:00:24,864
+Un delegato ha venti minuti prima di
+entrare in reparto.
+
+9
+00:00:24,904 --> 00:00:29,338
+Apre ChatGPT e scrive una riga sola: fammi
+un volantino sui turni.
+
+10
+00:00:29,378 --> 00:00:31,847
+Dopo pochi secondi il testo è pronto.
+
+11
+00:00:31,887 --> 00:00:34,898
+Ordinato, scorrevole, persino ben
+impaginato.
+
+12
+00:00:34,938 --> 00:00:37,542
+Eppure, leggendolo, qualcosa non torna.
+
+13
+00:00:37,932 --> 00:00:38,305
+Eccolo.
+
+14
+00:00:38,345 --> 00:00:41,784
+Parla di benessere dei lavoratori, di
+qualità del servizio,
+
+15
+00:00:41,824 --> 00:00:43,729
+di un sindacato al vostro fianco.
+
+16
+00:00:43,769 --> 00:00:47,621
+Non c'è un reparto, non c'è un problema
+preciso, non c'è una data.
+
+17
+00:00:47,661 --> 00:00:51,571
+Potresti appenderlo in un ospedale, in un
+comune o in una fabbrica:
+
+18
+00:00:51,611 --> 00:00:55,345
+andrebbe bene ovunque, e proprio per
+questo non serve a nessuno.
+
+19
+00:00:55,735 --> 00:00:57,384
+Qui sta il punto della lezione.
+
+20
+00:00:57,424 --> 00:01:00,380
+Il delegato pensa che lo strumento non sia
+all'altezza.
+
+21
+00:01:00,420 --> 00:01:02,069
+In realtà lo strumento ha fatto
+
+22
+00:01:02,109 --> 00:01:04,411
+esattamente quello che gli è stato
+chiesto.
+
+23
+00:01:04,451 --> 00:01:06,700
+Il problema è la richiesta: una riga sola,
+
+24
+00:01:06,740 --> 00:01:09,750
+senza nessuna delle informazioni che lui
+aveva in testa.
+
+25
+00:01:10,140 --> 00:01:11,818
+Pensa a come faresti senza IA.
+
+26
+00:01:11,858 --> 00:01:15,714
+Chiederesti a un collega della segreteria
+di scriverti il volantino.
+
+27
+00:01:15,754 --> 00:01:19,093
+E prima ancora di cominciare, lui ti
+farebbe delle domande.
+
+28
+00:01:19,133 --> 00:01:19,895
+Quale reparto?
+
+29
+00:01:19,935 --> 00:01:21,327
+Cosa succede con i turni?
+
+30
+00:01:21,367 --> 00:01:22,645
+Cosa vogliamo ottenere?
+
+31
+00:01:22,685 --> 00:01:25,566
+Con un collega queste informazioni passano
+da sole.
+
+32
+00:01:25,606 --> 00:01:26,253
+Con l'IA no.
+
+33
+00:01:26,643 --> 00:01:27,445
+Perché succede?
+
+34
+00:01:27,485 --> 00:01:29,018
+Lo hai visto nel modulo uno:
+
+35
+00:01:29,058 --> 00:01:31,264
+un modello linguistico prevede le parole
+
+36
+00:01:31,304 --> 00:01:33,791
+più probabili a partire da quello che
+scrivi.
+
+37
+00:01:33,831 --> 00:01:38,003
+Se la richiesta è generica, la risposta
+più probabile è un volantino medio,
+
+38
+00:01:38,043 --> 00:01:40,530
+per un lavoratore medio, di un'azienda
+media.
+
+39
+00:01:40,570 --> 00:01:42,721
+Il generico è la sua scelta più sicura.
+
+40
+00:01:43,111 --> 00:01:44,843
+Tienila a mente come idea guida.
+
+41
+00:01:44,883 --> 00:01:48,276
+L'IA non conosce la tua sede, non sa chi
+sono i tuoi colleghi,
+
+42
+00:01:48,316 --> 00:01:50,324
+non ha letto il calendario dei turni.
+
+43
+00:01:50,364 --> 00:01:54,587
+Tutto quello che non scrivi nel prompt, lo
+inventa oppure lo lascia nel vago.
+
+44
+00:01:54,627 --> 00:01:57,633
+La qualità della risposta dipende da
+quello che le dai.
+
+45
+00:01:58,023 --> 00:02:02,827
+Le guide ufficiali dei tre strumenti
+dicono la stessa cosa con parole diverse.
+
+46
+00:02:02,867 --> 00:02:07,671
+Google, per Gemini, indica quattro aree:
+persona, compito, contesto e formato.
+
+47
+00:02:07,711 --> 00:02:10,777
+Anthropic, per Claude, propone una prova
+semplice:
+
+48
+00:02:10,817 --> 00:02:14,689
+fai leggere il prompt a un collega che non
+sa nulla del lavoro.
+
+49
+00:02:14,729 --> 00:02:16,987
+Se lui è confuso, lo sarà anche l'IA.
+
+50
+00:02:17,377 --> 00:02:19,225
+Nel corso usiamo cinque parti,
+
+51
+00:02:19,265 --> 00:02:21,365
+perché nel lavoro sindacale c'è un
+
+52
+00:02:21,405 --> 00:02:24,637
+elemento in più che conta come gli altri:
+i vincoli.
+
+53
+00:02:24,677 --> 00:02:27,784
+Cosa non dire, quanto spazio hai, che tono
+tenere.
+
+54
+00:02:27,824 --> 00:02:31,874
+Le cinque parti sono ruolo, contesto,
+compito, formato e vincoli.
+
+55
+00:02:31,914 --> 00:02:33,574
+Ora le vediamo una per una.
+
+56
+00:02:33,963 --> 00:02:37,744
+Immaginale come cinque domande a cui il
+prompt deve rispondere.
+
+57
+00:02:37,784 --> 00:02:39,018
+Chi deve essere l'IA.
+
+58
+00:02:39,058 --> 00:02:40,171
+Che situazione c'è.
+
+59
+00:02:40,211 --> 00:02:41,869
+Cosa deve fare, esattamente.
+
+60
+00:02:41,909 --> 00:02:43,931
+Che forma deve avere il risultato.
+
+61
+00:02:43,971 --> 00:02:45,811
+Cosa deve evitare o rispettare.
+
+62
+00:02:45,851 --> 00:02:49,572
+Se una di queste risposte manca, l'IA la
+sceglie al posto tuo.
+
+63
+00:02:49,962 --> 00:02:52,211
+Ecco lo schema con un esempio di sede.
+
+64
+00:02:52,251 --> 00:02:55,764
+Ruolo: addetto stampa di un sindacato del
+pubblico impiego.
+
+65
+00:02:55,804 --> 00:03:00,342
+Contesto: reparto di medicina, turni
+pubblicati con tre giorni di preavviso.
+
+66
+00:03:00,382 --> 00:03:03,835
+Compito: un volantino che convochi
+l'assemblea di giovedì.
+
+67
+00:03:03,875 --> 00:03:08,533
+Formato e vincoli chiudono il quadro:
+struttura, lunghezza, tono, nessun nome.
+
+68
+00:03:08,924 --> 00:03:09,950
+Partiamo dal ruolo.
+
+69
+00:03:09,990 --> 00:03:11,801
+Basta una frase, ma cambia molto.
+
+70
+00:03:11,841 --> 00:03:15,673
+Se scrivi sei un addetto stampa di un
+sindacato del pubblico impiego,
+
+71
+00:03:15,713 --> 00:03:19,263
+l'IA sceglie parole, tono e livello di
+formalità di conseguenza.
+
+72
+00:03:19,303 --> 00:03:23,247
+Senza ruolo, ti risponde con la voce
+neutra di un assistente qualunque.
+
+73
+00:03:23,636 --> 00:03:27,102
+Poi il contesto, la parte più importante e
+la più trascurata.
+
+74
+00:03:27,142 --> 00:03:29,976
+È la materia prima: dove succede, chi è
+coinvolto,
+
+75
+00:03:30,016 --> 00:03:32,735
+cosa è successo e perché interessa al
+sindacato.
+
+76
+00:03:32,775 --> 00:03:36,874
+Chi fa sindacato queste cose le sa così
+bene che dimentica di scriverle.
+
+77
+00:03:36,914 --> 00:03:39,690
+Ed è proprio lì che la risposta diventa
+generica.
+
+78
+00:03:40,080 --> 00:03:42,668
+Il compito si scrive con un verbo preciso.
+
+79
+00:03:42,708 --> 00:03:44,921
+Scrivi, riassumi, elenca, confronta.
+
+80
+00:03:44,961 --> 00:03:49,301
+Aiutami con il volantino non è un compito:
+non dice se devi scriverlo,
+
+81
+00:03:49,341 --> 00:03:51,929
+correggerlo, accorciarlo o riorganizzarlo.
+
+82
+00:03:51,969 --> 00:03:55,621
+Un verbo chiaro e un oggetto chiaro, e
+l'IA sa dove andare.
+
+83
+00:03:56,011 --> 00:03:58,969
+Il formato ti evita di riorganizzare il
+testo dopo:
+
+84
+00:03:59,009 --> 00:04:02,026
+titolo, quanti paragrafi, dove mettere
+data e luogo.
+
+85
+00:04:02,066 --> 00:04:04,436
+I vincoli invece proteggono te e la sede.
+
+86
+00:04:04,476 --> 00:04:08,845
+Lunghezza massima, registro, cose da non
+affermare, nessun nome di persona.
+
+87
+00:04:08,885 --> 00:04:12,666
+Sono la parte che distingue un prompt
+sindacale da uno qualunque.
+
+88
+00:04:13,056 --> 00:04:14,012
+Andiamo a schermo.
+
+89
+00:04:14,052 --> 00:04:15,727
+Apri una chat nuova in ChatGPT.
+
+90
+00:04:15,767 --> 00:04:20,153
+Prima di scrivere qualsiasi contenuto,
+scrivi le cinque etichette, una per riga.
+
+91
+00:04:20,193 --> 00:04:24,137
+È una buona abitudine: le etichette ti
+obbligano a pensare a ogni parte,
+
+92
+00:04:24,177 --> 00:04:26,018
+e vedi subito quale stai saltando.
+
+93
+00:04:26,408 --> 00:04:29,331
+Ecco lo schema base, quello che trovi
+nella dispensa.
+
+94
+00:04:29,371 --> 00:04:32,966
+Ogni riga ha i suoi segnaposto in
+maiuscolo tra parentesi quadre.
+
+95
+00:04:33,006 --> 00:04:36,768
+Copialo, riempi i segnaposto e cancella le
+righe che non ti servono.
+
+96
+00:04:36,808 --> 00:04:39,396
+Nota l'ultima riga: i vincoli dicono già
+di non
+
+97
+00:04:39,436 --> 00:04:42,135
+citare norme non indicate e di non
+inserire nomi.
+
+98
+00:04:42,525 --> 00:04:45,084
+Facciamo una prova concreta con un caso di
+sede.
+
+99
+00:04:45,124 --> 00:04:47,846
+Prima versione: scrivimi un comunicato
+sulla mensa.
+
+100
+00:04:47,886 --> 00:04:51,637
+Il risultato è un testo sull'importanza di
+una corretta alimentazione.
+
+101
+00:04:51,677 --> 00:04:54,345
+Niente di sbagliato, ma niente che si
+possa usare.
+
+102
+00:04:54,385 --> 00:04:57,540
+Il problema vero dei colleghi non compare
+da nessuna parte.
+
+103
+00:04:57,930 --> 00:04:59,386
+Ora riempi le etichette.
+
+104
+00:04:59,426 --> 00:05:01,381
+Ruolo: addetto stampa sindacale.
+
+105
+00:05:01,421 --> 00:05:04,684
+Contesto: la mensa aziendale chiude alle
+quattordici,
+
+106
+00:05:04,724 --> 00:05:09,172
+e chi esce dal turno del mattino alle
+quattordici non riesce a mangiare.
+
+107
+00:05:09,212 --> 00:05:12,662
+Compito: un comunicato che chieda di
+estendere l'orario.
+
+108
+00:05:12,702 --> 00:05:14,657
+Formato: titolo e due paragrafi.
+
+109
+00:05:14,697 --> 00:05:17,462
+Vincoli: centoventi parole, tono
+propositivo.
+
+110
+00:05:17,852 --> 00:05:19,872
+Ecco un estratto della nuova risposta.
+
+111
+00:05:19,912 --> 00:05:21,444
+Il titolo nomina il problema,
+
+112
+00:05:21,484 --> 00:05:24,805
+il primo paragrafo descrive cosa succede a
+chi esce dal turno,
+
+113
+00:05:24,845 --> 00:05:27,408
+il secondo fa una richiesta precisa
+all'azienda.
+
+114
+00:05:27,448 --> 00:05:29,142
+Si può usare con pochi ritocchi,
+
+115
+00:05:29,182 --> 00:05:32,449
+perché parla di quel problema e non di un
+problema qualunque.
+
+116
+00:05:32,839 --> 00:05:34,316
+Nota quanto poco è servito.
+
+117
+00:05:34,356 --> 00:05:35,833
+Non hai scritto una pagina.
+
+118
+00:05:35,873 --> 00:05:37,800
+Hai aggiunto tre o quattro righe di
+
+119
+00:05:37,840 --> 00:05:40,666
+contesto e una riga per ciascuna delle
+altre parti.
+
+120
+00:05:40,706 --> 00:05:43,869
+Non serve scrivere tanto: servono le
+informazioni giuste,
+
+121
+00:05:43,909 --> 00:05:47,128
+quelle che hai già in testa e che l'IA non
+può indovinare.
+
+122
+00:05:47,519 --> 00:05:50,674
+Ora torniamo al volantino sui turni del
+delegato di lunedì.
+
+123
+00:05:50,714 --> 00:05:53,435
+Questa volta lo riscriviamo con lo schema
+completo,
+
+124
+00:05:53,475 --> 00:05:56,143
+partendo da quello che lui sa e non aveva
+scritto:
+
+125
+00:05:56,183 --> 00:05:58,200
+il reparto, il preavviso troppo breve,
+
+126
+00:05:58,240 --> 00:06:01,016
+i cambi all'ultimo momento, l'assemblea
+già fissata.
+
+127
+00:06:01,406 --> 00:06:04,313
+Ecco il prompt completo per il volantino
+sui turni.
+
+128
+00:06:04,353 --> 00:06:06,739
+Il ruolo chiede un sindacalista esperto di
+
+129
+00:06:06,779 --> 00:06:09,281
+sanità pubblica che scrive in modo
+semplice.
+
+130
+00:06:09,321 --> 00:06:12,690
+Il contesto racconta il preavviso breve e
+i cambi continui.
+
+131
+00:06:12,730 --> 00:06:14,539
+Il compito invita all'assemblea.
+
+132
+00:06:14,579 --> 00:06:16,619
+E i vincoli dicono di non promettere
+
+133
+00:06:16,659 --> 00:06:19,392
+risultati e di non citare articoli di
+contratto.
+
+134
+00:06:19,782 --> 00:06:23,135
+Lo stesso prompt funziona identico in
+Claude e in Gemini,
+
+135
+00:06:23,175 --> 00:06:26,289
+perché le cinque parti non dipendono dallo
+strumento.
+
+136
+00:06:26,329 --> 00:06:27,539
+Proviamolo in Claude.
+
+137
+00:06:27,579 --> 00:06:30,515
+Incolli il testo, riempi i segnaposto con
+reparto,
+
+138
+00:06:30,555 --> 00:06:34,265
+giorni di preavviso, data, ora e luogo
+dell'assemblea, e invii.
+
+139
+00:06:34,655 --> 00:06:36,268
+Il risultato rispetta tutto.
+
+140
+00:06:36,308 --> 00:06:39,811
+Un titolo, tre frasi brevi, la riga finale
+con data e luogo.
+
+141
+00:06:39,851 --> 00:06:41,878
+Il tono è vicino, e soprattutto non
+
+142
+00:06:41,918 --> 00:06:44,654
+promette nulla che la sede non possa
+mantenere.
+
+143
+00:06:44,694 --> 00:06:47,901
+Confrontalo con il volantino di lunedì:
+stessa persona,
+
+144
+00:06:47,941 --> 00:06:50,854
+stesso strumento, risultato completamente
+diverso.
+
+145
+00:06:51,244 --> 00:06:52,813
+Mettiamoli fianco a fianco.
+
+146
+00:06:52,853 --> 00:06:57,760
+Prima: una riga, nessun reparto, nessuna
+richiesta, frasi che valgono per chiunque.
+
+147
+00:06:57,800 --> 00:07:00,204
+Dopo: cinque parti, il problema concreto,
+
+148
+00:07:00,244 --> 00:07:03,244
+un invito preciso e i limiti che la sede
+si è data.
+
+149
+00:07:03,284 --> 00:07:05,747
+La differenza non l'ha fatta lo strumento.
+
+150
+00:07:05,787 --> 00:07:06,999
+L'ha fatta il prompt.
+
+151
+00:07:07,388 --> 00:07:10,469
+Passiamo alla seconda abilità della
+lezione: la diagnosi.
+
+152
+00:07:10,509 --> 00:07:13,865
+Quando una risposta non ti convince, non
+ricominciare da capo.
+
+153
+00:07:13,905 --> 00:07:16,493
+Guarda il difetto e risali alla parte che
+manca.
+
+154
+00:07:16,533 --> 00:07:18,683
+È molto più veloce che riscrivere tutto,
+
+155
+00:07:18,723 --> 00:07:21,969
+e col tempo impari a riconoscere i difetti
+al primo sguardo.
+
+156
+00:07:22,360 --> 00:07:24,424
+Ecco la tabella da tenere accanto.
+
+157
+00:07:24,464 --> 00:07:28,445
+Risposta generica, adatta a qualunque
+azienda: manca il contesto.
+
+158
+00:07:28,485 --> 00:07:33,457
+Tono troppo burocratico o troppo enfatico:
+manca il ruolo, o il tono nei vincoli.
+
+159
+00:07:33,497 --> 00:07:37,231
+Fa altro rispetto a ciò che volevi: manca
+un compito preciso.
+
+160
+00:07:37,271 --> 00:07:39,211
+Muro di testo: manca il formato.
+
+161
+00:07:39,251 --> 00:07:42,305
+Troppo lunga, con norme a caso: mancano i
+vincoli.
+
+162
+00:07:42,694 --> 00:07:44,156
+E se non capisci cosa manca?
+
+163
+00:07:44,196 --> 00:07:45,282
+Fattelo dire dall'IA.
+
+164
+00:07:45,322 --> 00:07:46,301
+Proviamo in Gemini.
+
+165
+00:07:46,341 --> 00:07:49,679
+Incolli il prompt che hai usato e la
+risposta che ti ha deluso,
+
+166
+00:07:49,719 --> 00:07:52,146
+poi chiedi un'analisi secondo le cinque
+parti.
+
+167
+00:07:52,186 --> 00:07:55,793
+È un modo rapido per sistemare il prompt,
+e intanto alleni l'occhio.
+
+168
+00:07:56,183 --> 00:07:57,669
+Il prompt chiede tre cose.
+
+169
+00:07:57,709 --> 00:08:01,133
+Per ogni parte, dire se c'è, se è chiara e
+cosa aggiungere.
+
+170
+00:08:01,173 --> 00:08:03,246
+Poi proporre una versione riscritta.
+
+171
+00:08:03,286 --> 00:08:05,242
+E qui c'è il dettaglio importante:
+
+172
+00:08:05,282 --> 00:08:09,234
+lasciare tra parentesi quadre le
+informazioni che solo tu puoi dare.
+
+173
+00:08:09,274 --> 00:08:11,875
+Così l'IA non inventa i fatti della tua
+sede.
+
+174
+00:08:12,265 --> 00:08:15,475
+Ecco un estratto della diagnosi sul
+volantino di lunedì.
+
+175
+00:08:15,515 --> 00:08:20,060
+Mancano ruolo e contesto, il compito è
+generico, formato e vincoli non ci sono.
+
+176
+00:08:20,100 --> 00:08:24,006
+La versione proposta lascia tra parentesi
+quadre reparto e problema.
+
+177
+00:08:24,046 --> 00:08:27,372
+Le parti mancanti le ha trovate l'IA, i
+fatti li metti tu.
+
+178
+00:08:27,762 --> 00:08:31,346
+Una domanda che arriva sempre: quanto deve
+essere lungo un prompt?
+
+179
+00:08:31,386 --> 00:08:34,915
+Non esiste una lunghezza giusta, esiste la
+lunghezza sufficiente.
+
+180
+00:08:34,955 --> 00:08:38,759
+Per una domanda semplice, come spiegami
+cos'è la pronta disponibilità,
+
+181
+00:08:38,799 --> 00:08:40,187
+bastano compito e formato.
+
+182
+00:08:40,227 --> 00:08:44,031
+Per un testo che uscirà con il logo della
+sede servono tutte e cinque.
+
+183
+00:08:44,421 --> 00:08:45,610
+Pensala come una scala.
+
+184
+00:08:45,650 --> 00:08:48,335
+Per capire un termine ti bastano compito e
+formato.
+
+185
+00:08:48,375 --> 00:08:51,060
+Per un messaggio interno veloce aggiungi i
+vincoli.
+
+186
+00:08:51,100 --> 00:08:54,961
+Per tutto ciò che esce firmato dalla sede
+scrivi tutte e cinque le parti.
+
+187
+00:08:55,001 --> 00:08:56,350
+E se una riga resta vuota,
+
+188
+00:08:56,390 --> 00:08:59,716
+chiediti se è davvero inutile o se la stai
+saltando per fretta.
+
+189
+00:09:00,106 --> 00:09:01,490
+Veniamo agli errori tipici.
+
+190
+00:09:01,530 --> 00:09:04,233
+Il più pericoloso nasce proprio dalla
+buona volontà.
+
+191
+00:09:04,273 --> 00:09:05,973
+Hai capito che il contesto conta,
+
+192
+00:09:06,013 --> 00:09:08,768
+e allora per dare contesto incolli la
+pratica intera,
+
+193
+00:09:08,808 --> 00:09:10,984
+così com'è, con tutto quello che contiene.
+
+194
+00:09:11,374 --> 00:09:14,429
+Nome della lavoratrice, reparto, giorni di
+malattia.
+
+195
+00:09:14,469 --> 00:09:17,821
+È esattamente ciò che il protocollo del
+modulo tre vieta.
+
+196
+00:09:17,861 --> 00:09:19,963
+Il contesto si scrive per categorie:
+
+197
+00:09:20,003 --> 00:09:24,486
+un'infermiera del reparto di medicina con
+figli piccoli, non nome e cognome.
+
+198
+00:09:24,526 --> 00:09:27,046
+All'IA serve la situazione, non la
+persona.
+
+199
+00:09:27,435 --> 00:09:28,591
+La ragione è precisa.
+
+200
+00:09:28,631 --> 00:09:30,129
+Il GDPR, all'articolo nove,
+
+201
+00:09:30,169 --> 00:09:32,806
+mette i dati sulla salute e quelli che
+rivelano
+
+202
+00:09:32,846 --> 00:09:35,882
+l'appartenenza sindacale tra le categorie
+particolari,
+
+203
+00:09:35,922 --> 00:09:37,135
+con tutele rafforzate.
+
+204
+00:09:37,175 --> 00:09:40,040
+Per un sindacato sono proprio i dati più
+frequenti.
+
+205
+00:09:40,080 --> 00:09:43,856
+Per questo non entrano mai in un prompt,
+nemmeno per dare contesto.
+
+206
+00:09:44,246 --> 00:09:46,132
+C'è anche un riferimento europeo.
+
+207
+00:09:46,172 --> 00:09:49,809
+L'AI Act, il regolamento europeo
+sull'intelligenza artificiale,
+
+208
+00:09:49,849 --> 00:09:52,553
+all'articolo quattro chiede che chi usa
+l'IA in
+
+209
+00:09:52,593 --> 00:09:55,879
+un'organizzazione abbia una sufficiente
+alfabetizzazione.
+
+210
+00:09:55,919 --> 00:09:58,856
+L'obbligo vale dal due febbraio
+duemilaventicinque.
+
+211
+00:09:58,896 --> 00:10:03,409
+Saper scrivere un prompt consapevole, e
+sapere cosa non metterci, ne fa parte.
+
+212
+00:10:03,799 --> 00:10:06,013
+Il secondo errore è lo spreco di tempo.
+
+213
+00:10:06,053 --> 00:10:10,465
+La risposta non va, e allora si cancella
+tutto e si riscrive un prompt nuovo,
+
+214
+00:10:10,505 --> 00:10:11,968
+magari peggiore del primo.
+
+215
+00:10:12,008 --> 00:10:16,708
+Usa la tabella della diagnosi: individua
+la parte mancante e aggiungi solo quella.
+
+216
+00:10:16,748 --> 00:10:17,980
+Spesso basta una riga.
+
+217
+00:10:18,370 --> 00:10:23,130
+Il terzo errore è più sottile: scambiare
+gli aggettivi per contesto.
+
+218
+00:10:23,170 --> 00:10:26,871
+Situazione grave, colleghi esasperati,
+azienda sorda.
+
+219
+00:10:26,911 --> 00:10:30,754
+Sono giudizi, non fatti, e l'IA li
+trasforma in enfasi.
+
+220
+00:10:30,794 --> 00:10:33,789
+Il contesto è fatto di fatti: dove
+succede,
+
+221
+00:10:33,829 --> 00:10:37,601
+chi è coinvolto, cosa è successo, perché
+ci interessa.
+
+222
+00:10:37,990 --> 00:10:39,823
+Ecco la frase da portarti via.
+
+223
+00:10:39,863 --> 00:10:41,634
+L'IA non conosce la tua sede.
+
+224
+00:10:41,674 --> 00:10:45,443
+Tutto quello che non scrivi, lo inventa o
+lo lascia generico.
+
+225
+00:10:45,483 --> 00:10:47,004
+Ruolo, contesto, compito,
+
+226
+00:10:47,044 --> 00:10:49,127
+formato e vincoli sono il modo più
+
+227
+00:10:49,167 --> 00:10:52,249
+semplice per non dimenticare niente di
+importante.
+
+228
+00:10:52,640 --> 00:10:53,496
+Ora la pratica.
+
+229
+00:10:53,536 --> 00:10:55,287
+Apri la cronologia di ChatGPT,
+
+230
+00:10:55,327 --> 00:10:59,765
+Claude o Gemini e cerca un prompt che ti
+aveva dato una risposta deludente.
+
+231
+00:10:59,805 --> 00:11:04,183
+Se non ne hai, scrivine uno come lo
+avresti scritto prima di questo corso.
+
+232
+00:11:04,223 --> 00:11:07,706
+Copialo in un documento e sotto scrivi le
+cinque etichette.
+
+233
+00:11:08,096 --> 00:11:10,234
+Riempi ogni etichetta con informazioni
+
+234
+00:11:10,274 --> 00:11:12,699
+concrete e controlla che non ci siano
+nomi,
+
+235
+00:11:12,739 --> 00:11:14,303
+dati di salute o iscrizioni.
+
+236
+00:11:14,343 --> 00:11:16,997
+Poi lancia la nuova versione in una chat
+nuova,
+
+237
+00:11:17,037 --> 00:11:19,920
+non in quella vecchia, e confronta le due
+risposte.
+
+238
+00:11:19,960 --> 00:11:23,130
+Annota cosa è migliorato e quale parte ha
+pesato di più.
+
+239
+00:11:23,520 --> 00:11:25,303
+Non buttare la versione riscritta.
+
+240
+00:11:25,343 --> 00:11:26,964
+È il primo mattone del tuo kit:
+
+241
+00:11:27,004 --> 00:11:28,787
+nella lezione quattro punto cinque
+
+242
+00:11:28,827 --> 00:11:31,092
+raccoglierai i tuoi primi prompt
+personali,
+
+243
+00:11:31,132 --> 00:11:34,201
+e quelli costruiti con le tue mani, sui
+tuoi compiti veri,
+
+244
+00:11:34,241 --> 00:11:36,775
+valgono più di qualsiasi modello preso da
+fuori.
+
+245
+00:11:37,165 --> 00:11:39,087
+Pensa al delegato di lunedì mattina.
+
+246
+00:11:39,127 --> 00:11:42,629
+Con gli stessi venti minuti, ma con cinque
+righe al posto di una,
+
+247
+00:11:42,669 --> 00:11:45,844
+esce dalla sede con un volantino che parla
+del suo reparto,
+
+248
+00:11:45,884 --> 00:11:47,805
+dei suoi turni, della sua assemblea.
+
+249
+00:11:47,845 --> 00:11:49,059
+Non ha lavorato di più.
+
+250
+00:11:49,099 --> 00:11:50,040
+Ha chiesto meglio.
+
+251
+00:11:50,429 --> 00:11:54,378
+Nella prossima lezione aggiungi uno
+strumento potente alle cinque parti.
+
+252
+00:11:54,418 --> 00:11:57,149
+Invece di descrivere lo stile che vuoi, lo
+mostri:
+
+253
+00:11:57,189 --> 00:11:59,974
+prendi un testo che ti piace e lo usi come
+modello.
+
+254
+00:12:00,014 --> 00:12:02,357
+Ci vediamo nella lezione quattro punto
+due.
