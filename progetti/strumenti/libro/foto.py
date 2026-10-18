@@ -18,7 +18,7 @@ from scipy import ndimage as nd
 
 QUI = os.path.dirname(os.path.abspath(__file__))
 PR = os.path.dirname(os.path.dirname(QUI))
-FPS, X, ATTACCO, CODA, MAXC = 25, 0.5, 0.6, 2.6, 38
+FPS, X, ATTACCO, CODA, MAXC = 25, 0.5, 0.6, 2.6, 52
 PEZZI = {
     'bt16': dict(dir='libro-booktrailer-mappe-16x9', fmt='16x9', pausa=0.8, uscita='Booktrailer_Mappe_Silenziose_16x9'),
     'bt9': dict(dir='libro-booktrailer-mappe-9x16', fmt='9x16', pausa=0.8, uscita='Booktrailer_Mappe_Silenziose_9x16'),
@@ -46,15 +46,24 @@ def ts(t):
 
 
 def frasi(parole):
-    """Righe di sottotitolo: a capo alla punteggiatura forte o oltre MAXC caratteri."""
+    """Righe di sottotitolo: una frase per riga (punteggiatura forte); oltre MAXC caratteri la frase si spezza in
+    due parti simili, alla virgola più vicina al centro o, senza virgole, alla parola più vicina: niente orfani
+    come «paura.» da soli."""
+    testo = lambda ws: ' '.join(w['w'] for w in ws)
+
+    def spezza(ws):
+        if len(testo(ws)) <= MAXC or len(ws) < 4:
+            return [ws]
+        meta = len(testo(ws)) / 2
+        tagli = [i for i in range(1, len(ws)) if re.search(r'[,;:]$', ws[i - 1]['w'])] or list(range(2, len(ws) - 1))
+        i = min(tagli, key=lambda i: abs(len(testo(ws[:i])) - meta))
+        return spezza(ws[:i]) + spezza(ws[i:])
     out, cur = [], []
     for w in parole:
-        if cur and len(' '.join(x['w'] for x in cur + [w])) > MAXC:
-            out.append(cur); cur = []
         cur.append(w)
-        if re.search(r'[.?!:»]$', w['w']):
-            out.append(cur); cur = []
-    return out + ([cur] if cur else [])
+        if re.search(r'[.?!»]$', w['w']):
+            out += spezza(cur); cur = []
+    return out + (spezza(cur) if cur else [])
 
 
 def monta(k):
@@ -82,7 +91,8 @@ def monta(k):
         for fr in frasi(parole[s['id']]):
             n = len(righe) + 1
             righe.append((n, a[i] + fr[0]['a'], a[i] + fr[-1]['b'], ' '.join(w['w'] for w in fr)))
-            if i == N - 1 or (schermo and set(norm(righe[-1][3])) <= set(schermo)):
+            parole_r = norm(righe[-1][3])     # quasi tutte nel testo a schermo: «È una mappa…» sotto «Una mappa…»
+            if i == N - 1 or (schermo and sum(w in schermo for w in parole_r) >= 0.8 * len(parole_r)):
                 nascosti.append(n)
     open(f'{D}/sottotitoli.srt', 'w').write('\n'.join(f'{n}\n{ts(x)} --> {ts(y)}\n{z}\n' for n, x, y, z in righe))
     subprocess.run(['node', f'{QUI}/sottotitoli.mjs', D, *map(str, f['sub'])], check=True, capture_output=True)
