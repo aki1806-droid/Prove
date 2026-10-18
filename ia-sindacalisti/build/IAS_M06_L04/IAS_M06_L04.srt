@@ -1,0 +1,1142 @@
+1
+00:00:03,000 --> 00:00:05,455
+Benvenuto alla lezione sei punto quattro.
+
+2
+00:00:05,495 --> 00:00:09,897
+Finora hai scritto per i lavoratori e per
+l'azienda, un testo alla volta.
+
+3
+00:00:09,937 --> 00:00:13,852
+Oggi impari a ricavare dalla stessa
+notizia tre versioni diverse:
+
+4
+00:00:13,892 --> 00:00:16,834
+per i colleghi, per la direzione e per la
+stampa.
+
+5
+00:00:16,874 --> 00:00:19,572
+Cambia il modo di dirlo, mai quello che
+dici.
+
+6
+00:00:20,212 --> 00:00:20,967
+È metà mattina.
+
+7
+00:00:21,007 --> 00:00:23,723
+In sede squilla il telefono ed è il
+giornale locale.
+
+8
+00:00:23,763 --> 00:00:26,214
+Hanno saputo dei turni decisi da un
+software in
+
+9
+00:00:26,254 --> 00:00:28,917
+ospedale e vogliono una dichiarazione
+entro un'ora.
+
+10
+00:00:28,957 --> 00:00:32,998
+Hai sulla scrivania il comunicato per i
+colleghi e la lettera alla direzione.
+
+11
+00:00:33,038 --> 00:00:35,277
+Nessuno dei due va bene per un
+giornalista.
+
+12
+00:00:35,917 --> 00:00:37,521
+Cosa si fa di solito, di corsa?
+
+13
+00:00:37,561 --> 00:00:40,332
+Si manda al giornalista il comunicato per
+i colleghi.
+
+14
+00:00:40,372 --> 00:00:43,673
+Pieno di sigle interne, di istruzioni
+pratiche sulle notifiche,
+
+15
+00:00:43,713 --> 00:00:45,583
+senza una frase che si possa citare.
+
+16
+00:00:45,623 --> 00:00:47,333
+Oppure si improvvisa al telefono,
+
+17
+00:00:47,373 --> 00:00:50,886
+e il giorno dopo sul giornale esce un
+numero che non hai mai detto.
+
+18
+00:00:51,526 --> 00:00:55,036
+Il problema è che ogni lettore arriva con
+una domanda diversa.
+
+19
+00:00:55,076 --> 00:00:58,357
+Il collega si chiede cosa cambia per lui e
+cosa deve fare.
+
+20
+00:00:58,397 --> 00:01:01,449
+La direzione si chiede cosa le chiedi e su
+quale base.
+
+21
+00:01:01,489 --> 00:01:05,629
+Il giornalista si chiede perché questa
+storia interessa a tutta la città.
+
+22
+00:01:05,669 --> 00:01:06,946
+Tre domande, tre testi.
+
+23
+00:01:07,586 --> 00:01:08,942
+Mettiamoli a confronto.
+
+24
+00:01:08,982 --> 00:01:12,219
+I lavoratori vogliono turni, reparto,
+azioni pratiche,
+
+25
+00:01:12,259 --> 00:01:15,618
+in un registro diretto, e il testo chiude
+con un'azione.
+
+26
+00:01:15,658 --> 00:01:18,228
+L'azienda vuole norme, contratto e
+termini,
+
+27
+00:01:18,268 --> 00:01:21,566
+in registro formale, e chiude con una
+richiesta datata.
+
+28
+00:01:21,606 --> 00:01:25,936
+La stampa vuole numeri e impatto sul
+servizio, e chiude con un contatto.
+
+29
+00:01:26,576 --> 00:01:30,225
+Il metodo di oggi produce tre versioni, ma
+parte da una cosa sola.
+
+30
+00:01:30,265 --> 00:01:32,405
+Non da tre testi scritti separatamente,
+
+31
+00:01:32,445 --> 00:01:35,368
+magari in tre giorni diversi, da tre
+persone diverse.
+
+32
+00:01:35,408 --> 00:01:37,324
+Parte da un'unica scheda dei fatti.
+
+33
+00:01:37,364 --> 00:01:41,013
+È questo che tiene insieme le versioni ed
+evita le contraddizioni.
+
+34
+00:01:41,654 --> 00:01:42,499
+Ecco il flusso.
+
+35
+00:01:42,539 --> 00:01:44,979
+Si parte dagli appunti, anche disordinati.
+
+36
+00:01:45,019 --> 00:01:46,749
+Si ricava la scheda dei fatti.
+
+37
+00:01:46,789 --> 00:01:49,937
+Da quella, in un solo prompt, nascono le
+tre versioni.
+
+38
+00:01:49,977 --> 00:01:53,833
+E alla fine una tabella di controllo
+confronta numeri e richieste.
+
+39
+00:01:53,873 --> 00:01:58,260
+Così l'IA non deve ricordare niente: ogni
+versione nasce dalla stessa base.
+
+40
+00:01:58,900 --> 00:02:00,649
+La scheda ha quattro blocchi.
+
+41
+00:02:00,689 --> 00:02:04,658
+I fatti certi, con date e numeri, solo
+quelli che hai scritto tu.
+
+42
+00:02:04,698 --> 00:02:08,729
+I fatti da verificare, cioè ciò che è
+incerto o riferito da altri.
+
+43
+00:02:08,769 --> 00:02:10,395
+La posizione, in due frasi.
+
+44
+00:02:10,435 --> 00:02:11,813
+Le richieste, numerate.
+
+45
+00:02:11,853 --> 00:02:14,034
+Il secondo blocco è il più prezioso:
+
+46
+00:02:14,074 --> 00:02:16,871
+ti dice cosa non puoi ancora dire in
+pubblico.
+
+47
+00:02:17,511 --> 00:02:19,019
+Andiamo a schermo con Claude.
+
+48
+00:02:19,059 --> 00:02:22,114
+Incolli gli appunti della sede su Valcorta
+così come sono,
+
+49
+00:02:22,154 --> 00:02:23,822
+ma già senza nomi di lavoratori.
+
+50
+00:02:23,862 --> 00:02:27,077
+Le segnalazioni dei delegati, i numeri
+della prima settimana,
+
+51
+00:02:27,117 --> 00:02:29,799
+la data della lettera, una voce sentita in
+reparto.
+
+52
+00:02:29,839 --> 00:02:33,321
+È proprio il materiale disordinato su cui
+la scheda lavora meglio.
+
+53
+00:02:33,961 --> 00:02:35,468
+Il prompt è corto e severo.
+
+54
+00:02:35,508 --> 00:02:37,703
+Chiede i quattro blocchi e due vincoli.
+
+55
+00:02:37,743 --> 00:02:38,906
+Non aggiungere nulla.
+
+56
+00:02:38,946 --> 00:02:42,688
+E se un'informazione è ambigua, mettila
+tra i fatti da verificare.
+
+57
+00:02:42,728 --> 00:02:44,980
+Così l'IA non deve decidere cosa è vero:
+
+58
+00:02:45,020 --> 00:02:47,387
+deve solo separare ciò che hai scritto con
+
+59
+00:02:47,427 --> 00:02:50,023
+certezza da ciò che hai scritto con un
+dubbio.
+
+60
+00:02:50,663 --> 00:02:51,450
+Ecco la scheda.
+
+61
+00:02:51,490 --> 00:02:53,545
+I fatti certi sono quelli che conosci.
+
+62
+00:02:53,585 --> 00:02:55,088
+Ma guarda il secondo blocco:
+
+63
+00:02:55,128 --> 00:02:57,734
+la voce secondo cui il software partirà in
+altri
+
+64
+00:02:57,774 --> 00:03:00,656
+reparti a gennaio è finita tra le cose da
+verificare.
+
+65
+00:03:00,696 --> 00:03:04,625
+Finché non hai un documento, quella frase
+non entra in nessuna versione,
+
+66
+00:03:04,665 --> 00:03:06,775
+e men che meno nel testo per la stampa.
+
+67
+00:03:07,415 --> 00:03:09,832
+Con la scheda pronta, si passa alle
+versioni.
+
+68
+00:03:09,872 --> 00:03:12,780
+E qui c'è un dettaglio di metodo che fa la
+differenza:
+
+69
+00:03:12,820 --> 00:03:17,311
+le tre versioni si chiedono nello stesso
+prompt, non in tre conversazioni separate.
+
+70
+00:03:17,351 --> 00:03:20,150
+Così l'IA le scrive in parallelo, dalla
+stessa base,
+
+71
+00:03:20,190 --> 00:03:22,716
+e le differenze di sostanza saltano
+all'occhio.
+
+72
+00:03:23,356 --> 00:03:24,297
+Ecco il prompt.
+
+73
+00:03:24,337 --> 00:03:26,651
+Tre testi, ognuno con la sua misura.
+
+74
+00:03:26,691 --> 00:03:30,575
+A, il comunicato per i lavoratori, che
+chiude con un'azione.
+
+75
+00:03:30,615 --> 00:03:34,891
+B, la lettera alla direzione, con
+richieste numerate e un termine.
+
+76
+00:03:34,931 --> 00:03:39,665
+C, il comunicato stampa, con l'attacco
+giornalistico e una dichiarazione.
+
+77
+00:03:39,705 --> 00:03:43,065
+E per tutti un vincolo: stessi fatti,
+stessi numeri.
+
+78
+00:03:43,705 --> 00:03:47,413
+Incolli la scheda al posto del segnaposto,
+compili il resto e invii.
+
+79
+00:03:47,453 --> 00:03:50,003
+La risposta è lunga, perché contiene tre
+testi.
+
+80
+00:03:50,043 --> 00:03:52,097
+Ma non cominciare a leggere dall'alto.
+
+81
+00:03:52,137 --> 00:03:55,183
+Scorri fino in fondo e parti dalla tabella
+di controllo:
+
+82
+00:03:55,223 --> 00:03:59,206
+è lei che ti dice se le tre versioni
+raccontano davvero la stessa storia.
+
+83
+00:03:59,846 --> 00:04:02,374
+Ecco cosa ha trovato la tabella a
+Valcorta.
+
+84
+00:04:02,414 --> 00:04:05,777
+I numeri principali compaiono in tutte e
+tre le versioni.
+
+85
+00:04:05,817 --> 00:04:09,479
+Ma nell'ultima riga c'è una frase, turni
+di notte raddoppiati,
+
+86
+00:04:09,519 --> 00:04:11,808
+che compare solo nel comunicato stampa.
+
+87
+00:04:11,848 --> 00:04:13,779
+Nella scheda dei fatti non c'era.
+
+88
+00:04:13,819 --> 00:04:17,063
+L'IA l'aveva aggiunta per rendere la
+notizia più forte.
+
+89
+00:04:17,103 --> 00:04:17,779
+Frase tolta.
+
+90
+00:04:18,420 --> 00:04:23,022
+Questo è l'errore tipico della lezione, e
+ha un nome: la deriva tra versioni.
+
+91
+00:04:23,062 --> 00:04:26,097
+Per rendere più notiziabile il testo per
+la stampa,
+
+92
+00:04:26,137 --> 00:04:29,232
+l'IA scrive decine di turni cambiati
+invece di nove,
+
+93
+00:04:29,272 --> 00:04:34,055
+o aggiunge conseguenze non verificate,
+come la sicurezza dei pazienti a rischio.
+
+94
+00:04:34,095 --> 00:04:35,141
+Sembrano dettagli.
+
+95
+00:04:35,181 --> 00:04:35,864
+Non lo sono.
+
+96
+00:04:36,504 --> 00:04:40,447
+Davanti alla stampa un numero sbagliato
+costa credibilità per mesi.
+
+97
+00:04:40,487 --> 00:04:44,727
+La direzione ha in mano una smentita
+facile: non sono decine, sono nove.
+
+98
+00:04:44,767 --> 00:04:48,353
+E da quel momento ogni cosa che dici sarà
+letta con sospetto.
+
+99
+00:04:48,393 --> 00:04:52,989
+Ecco perché la tabella di controllo non è
+un optional: è la tua assicurazione.
+
+100
+00:04:53,629 --> 00:04:55,064
+Come si corregge la deriva?
+
+101
+00:04:55,104 --> 00:04:57,085
+Non riscrivi tu il comunicato stampa.
+
+102
+00:04:57,125 --> 00:05:01,073
+Torni nella stessa chat e chiedi all'IA di
+riscrivere solo la versione C,
+
+103
+00:05:01,113 --> 00:05:04,187
+togliendo ogni affermazione che non
+compare nella scheda,
+
+104
+00:05:04,227 --> 00:05:06,154
+e di rifare la tabella di controllo.
+
+105
+00:05:06,194 --> 00:05:08,558
+Quando tutte le righe dicono sì dove
+devono,
+
+106
+00:05:08,598 --> 00:05:11,235
+la versione stampa è pronta per la tua
+rilettura.
+
+107
+00:05:11,875 --> 00:05:15,551
+Ora guardiamo le tre versioni uscite a
+Valcorta, una alla volta.
+
+108
+00:05:15,591 --> 00:05:17,583
+Quella per i colleghi parla al voi,
+
+109
+00:05:17,623 --> 00:05:20,428
+va dritta ai turni e chiude con l'azione
+pratica:
+
+110
+00:05:20,468 --> 00:05:23,215
+conservare ogni notifica e mandarla ai
+delegati.
+
+111
+00:05:23,255 --> 00:05:26,234
+Nessun riferimento normativo, nessuna
+sigla tecnica.
+
+112
+00:05:26,274 --> 00:05:27,918
+Solo cosa cambia e cosa fare.
+
+113
+00:05:28,558 --> 00:05:31,773
+La versione per la direzione cambia
+completamente registro.
+
+114
+00:05:31,813 --> 00:05:36,353
+Impersonale, formale, con la norma citata
+per esteso e il termine dei dieci giorni.
+
+115
+00:05:36,393 --> 00:05:39,608
+È la lettera che hai costruito nella
+lezione sei punto due.
+
+116
+00:05:39,648 --> 00:05:41,595
+Gli stessi nove cambi turno ci sono,
+
+117
+00:05:41,635 --> 00:05:44,519
+ma servono a fondare una richiesta, non a
+commuovere.
+
+118
+00:05:45,159 --> 00:05:46,045
+E poi la stampa.
+
+119
+00:05:46,085 --> 00:05:49,170
+Qui il lettore non è un iscritto e non è
+un dirigente.
+
+120
+00:05:49,210 --> 00:05:53,336
+È un cittadino che apre il giornale,
+magari un paziente del San Lorenzo,
+
+121
+00:05:53,376 --> 00:05:55,477
+magari il familiare di un ricoverato.
+
+122
+00:05:55,517 --> 00:05:58,775
+Si chiede una cosa sola: questa storia
+riguarda anche me?
+
+123
+00:05:58,815 --> 00:06:00,338
+Il testo deve rispondergli.
+
+124
+00:06:00,978 --> 00:06:03,650
+Ecco titolo e attacco del comunicato
+stampa.
+
+125
+00:06:03,690 --> 00:06:07,842
+Nel primo paragrafo ci sono tutte le
+risposte che un cronista cerca:
+
+126
+00:06:07,882 --> 00:06:09,876
+chi, cosa, quando, dove e perché.
+
+127
+00:06:09,916 --> 00:06:13,513
+Quarantadue tra infermieri e operatori, un
+reparto preciso,
+
+128
+00:06:13,553 --> 00:06:17,088
+una data, un sistema automatico, l'assenza
+di informativa.
+
+129
+00:06:17,128 --> 00:06:20,478
+Se il giornale taglia tutto il resto, la
+notizia regge.
+
+130
+00:06:21,118 --> 00:06:22,820
+Al giornalista servono tre cose.
+
+131
+00:06:22,860 --> 00:06:26,414
+Una notizia in poche righe, che possa
+riprendere quasi così com'è.
+
+132
+00:06:26,454 --> 00:06:29,735
+Una frase citabile, tra virgolette,
+attribuita a una persona.
+
+133
+00:06:29,775 --> 00:06:33,492
+E qualcuno che risponda al telefono quando
+richiama per un dettaglio.
+
+134
+00:06:33,532 --> 00:06:36,541
+Se manca la terza, le prime due rischiano
+di non uscire.
+
+135
+00:06:37,181 --> 00:06:39,736
+Per la frase citabile c'è un prompt
+dedicato.
+
+136
+00:06:39,776 --> 00:06:42,909
+Chiede tre dichiarazioni di quaranta
+parole al massimo,
+
+137
+00:06:42,949 --> 00:06:44,466
+con tre angolature diverse:
+
+138
+00:06:44,506 --> 00:06:48,272
+i diritti dei lavoratori, la qualità del
+servizio per i cittadini,
+
+139
+00:06:48,312 --> 00:06:50,003
+la disponibilità al confronto.
+
+140
+00:06:50,043 --> 00:06:53,463
+Ognuna deve contenere un fatto
+verificabile e una richiesta.
+
+141
+00:06:53,503 --> 00:06:55,020
+E nessun attacco personale.
+
+142
+00:06:55,661 --> 00:06:56,847
+Lo proviamo in ChatGPT,
+
+143
+00:06:56,887 --> 00:07:00,791
+per avere un secondo sguardo diverso da
+quello che ha scritto le versioni.
+
+144
+00:07:00,831 --> 00:07:05,109
+Incolli la scheda dei fatti e il ruolo del
+portavoce, il segretario territoriale.
+
+145
+00:07:05,149 --> 00:07:07,187
+In pochi secondi hai tre dichiarazioni.
+
+146
+00:07:07,227 --> 00:07:11,292
+Leggile ad alta voce: una dichiarazione si
+ascolta, prima ancora di leggersi.
+
+147
+00:07:11,931 --> 00:07:12,301
+Eccole.
+
+148
+00:07:12,341 --> 00:07:14,700
+La prima parla dei diritti di chi lavora.
+
+149
+00:07:14,740 --> 00:07:16,455
+La seconda parla ai cittadini,
+
+150
+00:07:16,495 --> 00:07:20,493
+del servizio e della sicurezza delle cure,
+ma senza inventare rischi.
+
+151
+00:07:20,533 --> 00:07:22,190
+La terza punta sul confronto.
+
+152
+00:07:22,230 --> 00:07:25,760
+Tutte e tre contengono un fatto della
+scheda e una richiesta.
+
+153
+00:07:25,800 --> 00:07:28,978
+La scelta dipende da cosa vuoi far
+arrivare alla città.
+
+154
+00:07:29,618 --> 00:07:31,781
+Lorenzon sceglie la terza, ritoccata.
+
+155
+00:07:31,821 --> 00:07:33,626
+Non siamo contro la tecnologia.
+
+156
+00:07:33,666 --> 00:07:36,306
+Ma se un software decide i turni di chi
+cura,
+
+157
+00:07:36,346 --> 00:07:39,104
+le regole devono essere chiare prima, non
+dopo.
+
+158
+00:07:39,144 --> 00:07:43,212
+Abbiamo chiesto un incontro e aspettiamo
+risposte entro dieci giorni.
+
+159
+00:07:43,252 --> 00:07:46,486
+C'è un fatto, una richiesta, e nessun
+nemico personale.
+
+160
+00:07:47,127 --> 00:07:48,933
+Perché nessun attacco personale?
+
+161
+00:07:48,973 --> 00:07:51,357
+Perché con la stampa il confine è sottile.
+
+162
+00:07:51,397 --> 00:07:56,031
+Dire che la decisione è stata presa senza
+informativa è una critica a una scelta,
+
+163
+00:07:56,071 --> 00:07:56,896
+ed è legittima.
+
+164
+00:07:56,936 --> 00:07:59,262
+Dire che il direttore se ne infischia dei
+
+165
+00:07:59,302 --> 00:08:02,147
+lavoratori è un attacco alla persona, e ti
+espone.
+
+166
+00:08:02,187 --> 00:08:04,455
+La regola è semplice: critica le scelte.
+
+167
+00:08:05,095 --> 00:08:09,274
+La Costituzione tutela la libertà di
+pensiero e la libertà sindacale,
+
+168
+00:08:09,314 --> 00:08:11,414
+agli articoli ventuno e trentanove.
+
+169
+00:08:11,454 --> 00:08:15,511
+La giurisprudenza riconosce il diritto di
+critica entro tre limiti:
+
+170
+00:08:15,551 --> 00:08:16,550
+verità dei fatti,
+
+171
+00:08:16,590 --> 00:08:19,607
+pertinenza, cioè interesse pubblico, e
+continenza,
+
+172
+00:08:19,647 --> 00:08:21,992
+cioè forma non gratuitamente offensiva.
+
+173
+00:08:22,032 --> 00:08:23,581
+Oltre c'è la diffamazione.
+
+174
+00:08:24,221 --> 00:08:28,485
+Da qui discende un piccolo elenco di cose
+che al giornalista non si dicono mai.
+
+175
+00:08:28,525 --> 00:08:31,535
+Nomi di lavoratori o di pazienti, anche se
+te li chiede.
+
+176
+00:08:31,575 --> 00:08:34,913
+Fatti che nella scheda stanno ancora tra
+quelli da verificare.
+
+177
+00:08:34,953 --> 00:08:38,781
+E giudizi sulle persone, perché un
+giudizio stampato non si ritira più.
+
+178
+00:08:39,421 --> 00:08:40,619
+Perché quaranta parole?
+
+179
+00:08:40,659 --> 00:08:42,018
+Perché il giornale taglia.
+
+180
+00:08:42,058 --> 00:08:44,763
+Una dichiarazione lunga viene ridotta dal
+cronista,
+
+181
+00:08:44,803 --> 00:08:48,476
+che sceglie lui il pezzo da tenere, e
+magari non è quello che volevi.
+
+182
+00:08:48,516 --> 00:08:51,060
+Una dichiarazione di due, tre frasi esce
+intera.
+
+183
+00:08:51,100 --> 00:08:53,751
+E deve funzionare anche se ne sopravvive
+una sola.
+
+184
+00:08:54,391 --> 00:08:57,217
+Un errore frequente non riguarda l'IA, ma
+la fretta.
+
+185
+00:08:57,257 --> 00:09:00,358
+Il giornalista chiama e tu rispondi a
+braccio, a memoria.
+
+186
+00:09:00,398 --> 00:09:03,224
+Esce un numero sbagliato o una frase che
+non volevi.
+
+187
+00:09:03,264 --> 00:09:05,538
+Meglio dire: la richiamo tra dieci minuti.
+
+188
+00:09:05,578 --> 00:09:10,057
+In quei dieci minuti apri la scheda dei
+fatti e usi il prompt delle dichiarazioni.
+
+189
+00:09:10,697 --> 00:09:11,168
+E Gemini?
+
+190
+00:09:11,208 --> 00:09:14,857
+Usalo per un ultimo controllo incrociato,
+come nel modulo cinque.
+
+191
+00:09:14,897 --> 00:09:17,808
+Incolli la scheda dei fatti e il
+comunicato stampa e
+
+192
+00:09:17,848 --> 00:09:21,440
+chiedi di elencare ogni affermazione che
+non trova nella scheda.
+
+193
+00:09:21,480 --> 00:09:23,370
+Se la lista è vuota, puoi mandare.
+
+194
+00:09:23,410 --> 00:09:25,980
+Se non lo è, sai esattamente dove
+intervenire.
+
+195
+00:09:26,620 --> 00:09:29,395
+Poi richiami tu il giornalista, all'ora
+promessa.
+
+196
+00:09:29,435 --> 00:09:33,014
+Hai davanti la scheda, il comunicato
+stampa e la dichiarazione.
+
+197
+00:09:33,054 --> 00:09:36,864
+Se ti fa una domanda che va oltre, sui
+pazienti o su altri reparti,
+
+198
+00:09:36,904 --> 00:09:38,932
+rispondi con quello che sai e basta.
+
+199
+00:09:38,972 --> 00:09:43,126
+Dire non lo sappiamo ancora, lo stiamo
+verificando, è una risposta seria.
+
+200
+00:09:43,766 --> 00:09:45,321
+La verifica ha tre livelli.
+
+201
+00:09:45,361 --> 00:09:49,220
+Prima la tabella di controllo, che
+confronta le versioni tra loro.
+
+202
+00:09:49,260 --> 00:09:52,233
+Poi il controllo incrociato con un altro
+strumento,
+
+203
+00:09:52,273 --> 00:09:54,418
+che confronta il testo con la scheda.
+
+204
+00:09:54,458 --> 00:09:57,549
+Infine la tua rilettura con la regola dei
+tre limiti:
+
+205
+00:09:57,589 --> 00:09:59,440
+verità, pertinenza e continenza.
+
+206
+00:09:59,480 --> 00:10:01,153
+L'ultimo passo non si delega.
+
+207
+00:10:01,793 --> 00:10:04,752
+Se ti porti a casa una sola frase, che sia
+questa.
+
+208
+00:10:04,792 --> 00:10:07,452
+Cambia il modo di dirlo, mai quello che
+dici.
+
+209
+00:10:07,492 --> 00:10:10,931
+Lavoratori, direzione e stampa ricevono
+tre testi diversi,
+
+210
+00:10:10,971 --> 00:10:13,570
+ma tutti nati dalla stessa scheda dei
+fatti.
+
+211
+00:10:13,610 --> 00:10:17,109
+È la scheda che ti protegge dalla deriva,
+e dalla smentita.
+
+212
+00:10:17,749 --> 00:10:18,664
+Ora tocca a te.
+
+213
+00:10:18,704 --> 00:10:21,276
+Scegli una notizia reale della tua sede e
+
+214
+00:10:21,316 --> 00:10:24,333
+scrivi gli appunti senza nomi né dati
+personali.
+
+215
+00:10:24,373 --> 00:10:28,664
+Con il prompt della scheda separa fatti
+certi e fatti da verificare.
+
+216
+00:10:28,704 --> 00:10:30,957
+Poi fai la parte noiosa ma decisiva:
+
+217
+00:10:30,997 --> 00:10:34,779
+i fatti da verificare li verifichi
+davvero, oppure li togli.
+
+218
+00:10:35,419 --> 00:10:40,504
+Chiedi le tre versioni nello stesso prompt
+e leggi per prima la tabella di controllo.
+
+219
+00:10:40,544 --> 00:10:43,880
+Correggi ogni deriva: numeri diversi,
+richieste diverse,
+
+220
+00:10:43,920 --> 00:10:46,050
+aggettivi che cambiano la posizione.
+
+221
+00:10:46,090 --> 00:10:48,582
+Poi rileggi la versione stampa e chiediti:
+
+222
+00:10:48,622 --> 00:10:51,356
+c'è qualcosa che non firmerei con il mio
+nome?
+
+223
+00:10:51,396 --> 00:10:52,260
+Se sì, toglilo.
+
+224
+00:10:52,900 --> 00:10:54,351
+Un consiglio organizzativo.
+
+225
+00:10:54,391 --> 00:10:57,223
+Tieni una scheda dei fatti per ogni
+vertenza aperta,
+
+226
+00:10:57,263 --> 00:10:58,990
+aggiornata da chi segue il caso.
+
+227
+00:10:59,030 --> 00:11:01,752
+Quando il giornale chiama e il segretario
+non c'è,
+
+228
+00:11:01,792 --> 00:11:03,685
+chiunque in sede può partire da lì.
+
+229
+00:11:03,725 --> 00:11:06,999
+Le versioni cambiano, ma la sede dice
+sempre la stessa cosa,
+
+230
+00:11:07,039 --> 00:11:08,214
+con gli stessi numeri.
+
+231
+00:11:08,853 --> 00:11:09,857
+Pensa al risultato.
+
+232
+00:11:09,897 --> 00:11:11,450
+Il giorno dopo, sul giornale,
+
+233
+00:11:11,490 --> 00:11:15,021
+esce un pezzo con i numeri giusti e una
+frase che ti rappresenta.
+
+234
+00:11:15,061 --> 00:11:19,197
+I colleghi lo leggono e ritrovano le
+stesse cifre del comunicato in bacheca.
+
+235
+00:11:19,237 --> 00:11:22,823
+La direzione lo legge e ritrova le stesse
+richieste della lettera.
+
+236
+00:11:22,863 --> 00:11:24,801
+Nessuno può dire che vi contraddite.
+
+237
+00:11:25,441 --> 00:11:28,507
+Ecco Valcorta in tre versioni, in una sola
+schermata.
+
+238
+00:11:28,547 --> 00:11:32,433
+Ai colleghi si parla al voi e si chiede di
+conservare le notifiche.
+
+239
+00:11:32,473 --> 00:11:34,543
+Alla direzione si scrive in registro
+
+240
+00:11:34,583 --> 00:11:37,532
+formale e si chiede un incontro entro
+dieci giorni.
+
+241
+00:11:37,572 --> 00:11:41,810
+Alla stampa si dà una notizia con una
+citazione e il contatto della sede.
+
+242
+00:11:41,850 --> 00:11:43,099
+I fatti sono identici.
+
+243
+00:11:43,739 --> 00:11:47,275
+Nella prossima lezione chiudiamo il modulo
+con i tre strumenti.
+
+244
+00:11:47,315 --> 00:11:49,999
+Dai lo stesso prompt a ChatGPT, Claude e
+Gemini,
+
+245
+00:11:50,039 --> 00:11:54,085
+confronti le tre bozze del primo
+comunicato di Valcorta con una griglia,
+
+246
+00:11:54,125 --> 00:11:57,434
+e scegli quella da portare in bacheca,
+motivando la scelta.
+
+247
+00:11:57,474 --> 00:11:59,817
+Ci vediamo nella lezione sei punto cinque.
