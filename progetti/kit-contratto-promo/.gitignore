@@ -1,0 +1,7 @@
+*.mp4
+*.webm
+*.wav
+*.mov
+*.m4a
+montaggio/
+__pycache__/
