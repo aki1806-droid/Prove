@@ -48,10 +48,10 @@ def bordi(parole, seg):
     return min(a, parole[0]['start']), max(b, parole[-1]['end'])
 
 
-def blocchi(nome):
+def blocchi(nome, cartella=QUI):
     """Parole della traccia divise per blocco (separatore: il tag di pausa)."""
     out, cur = [], []
-    for w in json.load(open(f'{QUI}/{nome}.json'))['word_timestamps']:
+    for w in json.load(open(f'{cartella}/{nome}.json'))['word_timestamps']:
         if w['word'].startswith('<break') or w['word'] == '<end>':
             out.append(cur); cur = []
         elif not w['word'].startswith('<'):
@@ -59,8 +59,10 @@ def blocchi(nome):
     return out
 
 
-def taglia(src, parole, tipo, wav):
-    """Tiene il parlato, accorcia le pause lunghe; restituisce le parole con i tempi nuovi."""
+def taglia(src, parole, tipo, wav, pause=None):
+    """Tiene il parlato, accorcia le pause lunghe; restituisce le parole con i tempi nuovi.
+    pause = {parola: secondi}: dopo quella parola la pausa dura almeno tanto (regia del pacchetto)."""
+    pause = pause or {}
     soglia, resta, at = TEMPO[tipo]
     a0, b0 = bordi(parole, parlato(src))
     parole[0]['start'] = a0
@@ -69,13 +71,18 @@ def taglia(src, parole, tipo, wav):
     for i, w in enumerate(parole):
         if i + 1 < len(parole):
             g0, g1 = w['end'], parole[i + 1]['start']
-            if g1 - g0 > soglia:
+            if w['word'] in pause:
+                fine = g0 + 0.2; pezzi.append((a, fine)); a = g1 - 0.1
+                pezzi.append((None, max(0.0, pause[w['word']] * at - 0.3)))
+            elif g1 - g0 > soglia:
                 fine = g0 + resta * 0.6            # un po' più di coda dopo la parola che prima di quella dopo
                 pezzi.append((a, fine)); a = g1 - resta * 0.4
     pezzi.append((a, b0 + 0.25))
     # tempi delle parole nella traccia tagliata (prima di atempo), poi /at
     off, mappa = 0.0, []
     for p0, p1 in pezzi:
+        if p0 is None:
+            off += p1; continue
         mappa.append((p0, p1, off)); off += p1 - p0
 
     def nuovo(t):
@@ -85,24 +92,22 @@ def taglia(src, parole, tipo, wav):
         return off / at
     for w in parole:
         nuove.append({'w': w['word'], 'a': round(nuovo(w['start']), 3), 'b': round(nuovo(w['end']), 3)})
-    fil = ''.join(f"[0:a]atrim={p0:.3f}:{p1:.3f},asetpts=PTS-STARTPTS[p{i}];" for i, (p0, p1) in enumerate(pezzi))
+    fil = ''.join(f"[0:a]atrim={p0:.3f}:{p1:.3f},asetpts=PTS-STARTPTS[p{i}];" if p0 is not None else
+                  f"aevalsrc=0:d={p1:.3f}:s=44100,aformat=channel_layouts=mono[p{i}];" for i, (p0, p1) in enumerate(pezzi))
     fil += ''.join(f'[p{i}]' for i in range(len(pezzi))) + f'concat=n={len(pezzi)}:v=0:a=1'
     fil += (f',atempo={at}' if at != 1 else '') + f',apad=pad_dur={CODA}[o]'
     ff('-i', src, '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', wav)
     return nuove
 
 
-ward = blocchi('ward-ep1-3') + blocchi('ward-ep4-5')
-ach = blocchi('achille-chiusure')
-for k, nome in enumerate(EP):
+def scrivi(nome, pezzi):
+    """pezzi: [(traccia grezza, parole del blocco, tipo)] in ordine di scena -> audio/ del progetto."""
     d = os.path.join(PR, nome, 'audio')
     os.makedirs(f'{d}/wav', exist_ok=True); os.makedirs(f'{d}/finali', exist_ok=True)
-    src = f'{QUI}/ward-ep1-3-grezzo.mp3' if k < 3 else f'{QUI}/ward-ep4-5-grezzo.mp3'
-    pezzi = [(src, ward[k * 4 + j], 'narratore') for j in range(4)] + [(f'{QUI}/achille-chiusure-grezzo.mp3', ach[k], 'achille')]
     tempi, parole, t0 = [], {}, 0.0
-    for i, (s, pw, tipo) in enumerate(pezzi, 1):
+    for i, (s, pw, tipo, *extra) in enumerate(pezzi, 1):
         sid = f'S{i:02d}'; w = f'{d}/wav/{sid}.wav'
-        parole[sid] = taglia(s, pw, tipo, w)
+        parole[sid] = taglia(s, pw, tipo, w, *extra)
         ff('-i', w, '-c:a', 'libmp3lame', '-b:a', '192k', '-id3v2_version', '3', f'{d}/finali/{sid}.mp3')
         tempi.append({'id': sid, 'tipo': tipo, 'inizio': round(t0, 4), 'durata': round(dur(w), 4)}); t0 += dur(w)
     json.dump(tempi, open(f'{d}/tempi-scene.json', 'w'), indent=1)
@@ -111,3 +116,11 @@ for k, nome in enumerate(EP):
     ff('-f', 'concat', '-safe', '0', '-i', f'{d}/lista.txt', '-c', 'copy', f'{d}/voce-completa.wav')
     ff('-i', f'{d}/voce-completa.wav', '-c:a', 'libmp3lame', '-b:a', '192k', '-id3v2_version', '3', f'{d}/voce-completa.mp3')
     print(nome, ' '.join(f"{t['id']}:{t['durata']:.1f}" for t in tempi), f'totale {t0:.1f}')
+
+
+if __name__ == '__main__':
+    ward = blocchi('ward-ep1-3') + blocchi('ward-ep4-5')
+    ach = blocchi('achille-chiusure')
+    for k, nome in enumerate(EP):
+        src = f'{QUI}/ward-ep1-3-grezzo.mp3' if k < 3 else f'{QUI}/ward-ep4-5-grezzo.mp3'
+        scrivi(nome, [(src, ward[k * 4 + j], 'narratore') for j in range(4)] + [(f'{QUI}/achille-chiusure-grezzo.mp3', ach[k], 'achille')])

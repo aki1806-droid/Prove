@@ -1,0 +1,132 @@
+{
+  "progetto": "PDRO_Rilancio_Corso_Concorso_OSS",
+  "titolo": "Immagina quella mattina – corso concorso OSS",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Immagina",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "oss_divisa.png",
+      "avatar": false,
+      "voce": "Immagina la mattina in cui indosserai la tua divisa. Il primo turno, il badge al collo, un contratto a tempo indeterminato. Fermati un secondo su questa immagine. E tienila stretta, perché il concorso è alle porte.",
+      "parole": 36,
+      "durata_stimata_s": 14.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oss_divisa.png: la giovane OSS stringe il badge e sorride emozionata, il sole sorge dietro l'ospedale, leggero vento. Avvicinamento lento della camera.",
+      "regia": "Bande nere; IMMAGINA entra in dissolvenza lenta; musica emozionale. Pausa di un secondo dopo 'su questa immagine'."
+    },
+    {
+      "n": 2,
+      "titolo": "Il concorso è alle porte",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Tra te e quella mattina c'è una sola cosa: la prova. Quiz, casi pratici, un colloquio. E tanti altri candidati che, come te, vogliono quel posto.",
+      "parole": 26,
+      "durata_stimata_s": 10.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il flip clock gira a vuoto, ticchettio di sottofondo; i tre chip entrano sulle parole; la frase finale si scrive a mano."
+    },
+    {
+      "n": 3,
+      "titolo": "La sala d'esame",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "oss_esame.png",
+      "avatar": false,
+      "voce": "In quella sala, la differenza non la fa la fortuna. La fa chi ha già visto quelle domande. Chi ha già sbagliato a casa, e per questo non sbaglierà lì. Chi entra sapendo esattamente cosa aspettarsi.",
+      "parole": 36,
+      "durata_stimata_s": 13.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oss_esame.png: la lancetta dell'orologio scatta, la candidata in primo piano respira profondamente e apre gli occhi, sicura. Silenzio teso.",
+      "regia": "'Non la fortuna' viene barrato in rosso; LA PREPARAZIONE entra in oro."
+    },
+    {
+      "n": 4,
+      "titolo": "Non sei solo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Oltre cinquecento colleghi stanno già studiando con il nostro corso di preparazione. Video lezioni sulle materie del bando, simulazioni con i quiz, spiegazioni chiare anche per chi non apre un libro da anni.",
+      "parole": 33,
+      "durata_stimata_s": 14.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il numero conta da zero a cinquecento; i puntini si accendono a cascata; 'E tu?' compare per ultimo."
+    },
+    {
+      "n": 5,
+      "titolo": "Dieci minuti al giorno",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "oss_bus.png",
+      "avatar": false,
+      "voce": "Puoi farlo dal divano, in pausa, sul bus. Dieci minuti oggi, dieci domani. Ogni quiz che fai a casa è un errore in meno il giorno della prova.",
+      "parole": 28,
+      "durata_stimata_s": 9.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oss_bus.png: il bus avanza, la luce scorre sul viso, lei tocca lo schermo e sorride alla risposta giusta.",
+      "regia": "La card del quiz sale dal basso; la risposta B si illumina in verde con un 'ding'."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Ho visto tanti colleghi arrivare preparati e farcela. E altri pentirsi di aver cominciato troppo tardi. Tu non essere tra loro. Il link per iscriverti al corso è nel primo commento. Comincia oggi: quella mattina con la divisa ti sta già aspettando. CISL FP Padova Rovigo.",
+      "parole": 46,
+      "durata_stimata_s": 16.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Ritorno all'immagine della prima scena (cerchio narrativo); riquadro arancio verso il primo commento; avatar in basso a destra."
+    }
+  ]
+}

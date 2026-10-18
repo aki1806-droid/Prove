@@ -1,0 +1,439 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "riga1",
+"in": [
+"fade",
+"immagina",
+1.6
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"mattina",
+1.0
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.35,
+0.3
+]
+},
+{
+"disegno": {
+"tipo": "cifre",
+"caselle": [
+[
+240,
+710
+],
+[
+540,
+710
+],
+[
+840,
+710
+]
+],
+"size": 120,
+"t0": 0,
+"t1": "prova",
+"per": 0.11,
+"max": [
+99,
+24,
+60
+]
+}
+},
+{
+"p": "g1",
+"in": [
+"pop",
+"prova",
+0.3
+]
+},
+{
+"p": "g2",
+"in": [
+"pop",
+"prova+0.08",
+0.3
+]
+},
+{
+"p": "g3",
+"in": [
+"pop",
+"prova+0.16",
+0.3
+]
+},
+{
+"p": "quiz",
+"in": [
+"pop",
+"quiz",
+0.35
+]
+},
+{
+"p": "casi",
+"in": [
+"pop",
+"casi",
+0.35
+]
+},
+{
+"p": "coll",
+"in": [
+"pop",
+"colloquio",
+0.35
+]
+},
+{
+"p": "cap1",
+"in": [
+"wipe",
+"tanti",
+1.0
+]
+},
+{
+"p": "cap2",
+"in": [
+"wipe",
+"come",
+1.0
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "fortuna",
+"in": [
+"wipe",
+"non",
+0.6
+],
+"figli": [
+{
+"disegno": {
+"tipo": "barra",
+"t": "fortuna",
+"d": 0.35,
+"x0": 88,
+"y0": 1411,
+"x1": 770,
+"y1": 1409,
+"w": 9
+}
+}
+]
+},
+{
+"p": "prep",
+"in": [
+"slam",
+"chi",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"chi+0.3",
+1.2
+]
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "oltre",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"disegno": {
+"tipo": "contatore",
+"x": 60,
+"y": 494,
+"size": 202,
+"col": "#ffc45c",
+"v0": 0,
+"v1": 500,
+"t0": 0.1,
+"t1": "colleghi$"
+}
+},
+{
+"p": "punti",
+"in": [
+"wipeD",
+"colleghi",
+1.6
+]
+},
+{
+"p": "cap1",
+"in": [
+"wipe",
+"stanno",
+0.6
+]
+},
+{
+"p": "cap2",
+"in": [
+"wipe",
+"studiando",
+0.6
+]
+},
+{
+"p": "etu",
+"in": [
+"pop",
+"anni",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"anni+0.5",
+1.0,
+0.06
+]
+]
+}
+]
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+"dieci",
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+"dieci#2",
+0.3
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+"bus",
+0.7
+],
+"figli": [
+{
+"p": "rigaB",
+"fx": [
+[
+"grigio",
+"quiz"
+],
+[
+"bagliore",
+"quiz",
+0.9
+]
+]
+},
+{
+"p": "spunta",
+"in": [
+"pop",
+"quiz",
+0.35
+]
+}
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+17,
+1.06,
+540,
+800
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+0.2,
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+0.55,
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"comincia",
+0.6
+]
+}
+]
+}
+}

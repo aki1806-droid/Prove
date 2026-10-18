@@ -6,7 +6,7 @@ Per ogni scena il livello grafico viene dal motore (rendi.mjs -> montaggio/G_Sxx
   overlay  (scene con clip)  clip image-to-video HeyGen adattata a 1080x1920 + livello con alfa sopra
   pieno    (scene grafiche)  il livello è già la scena
 Logo CISL FP Padova Rovigo in alto a sinistra (sotto la banda nera nelle scene con letterbox),
-avatar trasparente di Achille in basso a destra nella scena S05. Se c'è una S06 (cartello finale
+avatar trasparente di Achille in basso a destra nell'ultima scena con voce (la chiusura). Se c'è una S06 (cartello finale
 dell'ep. 5) l'audio si allunga con silenzio. Nessun sottotitolo impresso: l'SRT va a parte.
 """
 import json, os, subprocess, sys
@@ -34,7 +34,7 @@ def durata(p):
 
 
 scene = [dict(t) for t in TEMPI]
-if 'S06' in ANIM:
+if 'S06' in ANIM and all(t['id'] != 'S06' for t in TEMPI):
     scene.append({'id': 'S06', 'durata': CODA_FINALE, 'inizio': sum(t['durata'] for t in TEMPI)})
 
 
@@ -67,7 +67,7 @@ def monta():
     open(f'{LAV}/lista.txt', 'w').write(''.join(f"file '{LAV}/{t['id']}.mp4'\n" for t in scene))
     ff('-f', 'concat', '-safe', '0', '-i', f'{LAV}/lista.txt', '-c', 'copy', f'{LAV}/fondo.mp4')
     dur = sum(t['durata'] for t in scene)
-    av = next(t for t in scene if t['id'] == 'S05')
+    av = next(t for t in scene if t['id'] == TEMPI[-1]['id'])   # la chiusura di Achille è l'ultima scena con voce
     en = {k: '+'.join(f"between(t,{t['inizio']:.3f},{t['inizio'] + t['durata'] - 0.001:.3f})"
                       for t in scene if ANIM[t['id']]['tipo'] == k) or '0' for k in LOGO_Y}
     cx, cy, cw, ch = AV_CROP

@@ -91,6 +91,7 @@ function stato(s, sid, t) {
       case 'stampa': { const q = p * 7, e = (Math.floor(q) + eOut(q % 1)) / 7; st.dy = 1500 * (1 - cl(e)); break; }
       case 'neon': { const k = (t - t0); st.a = k > d ? 1 : ([.05, .12, .2, .3, .38].filter(x => k > x).length % 2 ? .15 : 1) * cl(k / .05);
         st.filt = 'drop-shadow(0 0 18px rgba(170,255,210,.9))'; break; }
+      case 'risale': st.dy = 170 * (1 - eOut(p)); st.a = cl(p * 1.5); break;
       case 'zoom': { const k = lerp(.2, 1, eOut(p)); st.sx = st.sy = k; st.a = p; break; }
       default: throw new Error('ingresso ' + fx);
     }
@@ -119,6 +120,7 @@ function stato(s, sid, t) {
     else if (k === 'bagliore') { const t0 = T(a[0], sid), d = a[1] || 1.2; const p = cl((t - t0) / d);
       if (t > t0) { const b = Math.sin(Math.PI * Math.min(p, 1)) * (p < 1 ? 1 : 0) + (p >= 1 ? 0 : 0); const k2 = 1 + .08 * b; st.sx *= k2; st.sy *= k2;
         st.filt += ` brightness(${1 + .35 * b}) drop-shadow(0 0 ${40 * b + 1}px rgba(255,210,120,${.8 * b}))`; } }
+    else if (k === 'grigio') { const t1 = T(a[0], sid); if (t < t1) st.filt += ' grayscale(1) contrast(.75) brightness(1.08)'; }
     else if (k === 'sposta') { const t0 = T(a[0], sid), d = a[1]; const p = eIO(cl((t - t0) / d)); st.dx += a[2] * p; st.dy += a[3] * p; }
     else throw new Error('effetto ' + k);
   }
@@ -151,6 +153,23 @@ function disegnaDisegno(dd, sid, t, f) {
     const k = dd.pulsa ? .75 + .25 * Math.sin(t * 2.2) : 1;
     g.addColorStop(0, dd.col.replace('A', String(dd.a * k))); g.addColorStop(1, dd.col.replace('A', '0'));
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  } else if (dd.tipo === 'contatore') {
+    const t0 = T(dd.t0, sid), t1 = T(dd.t1, sid), p = eOut(cl((t - t0) / (t1 - t0)));
+    if (t >= t0 - .001) {
+      ctx.font = `${dd.peso || 900} ${dd.size}px M`; ctx.textBaseline = 'alphabetic'; ctx.textAlign = dd.align || 'left';
+      ctx.shadowColor = 'rgba(0,0,0,.45)'; ctx.shadowBlur = 16; ctx.shadowOffsetY = 6;
+      ctx.fillStyle = dd.col; ctx.fillText(String(Math.round(lerp(dd.v0, dd.v1, p))), dd.x, dd.y);
+    }
+  } else if (dd.tipo === 'cifre') {
+    const t0 = T(dd.t0, sid), t1 = T(dd.t1, sid);
+    if (t >= t0 && t < t1) {
+      const k = Math.floor(t / (dd.per || .12));
+      ctx.font = `900 ${dd.size}px M`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = dd.col || '#fff';
+      dd.caselle.forEach(([cx, cy], i) => ctx.fillText(String(Math.floor(rnd(k * 7 + i * 13) * (dd.max ? dd.max[i] : 60))).padStart(2, '0'), cx, cy));
+    }
+  } else if (dd.tipo === 'riquadro') {
+    const t0 = dd.t != null ? T(dd.t, sid) : 0, p = cl((t - t0) / (dd.d || .4));
+    if (t >= t0) { ctx.globalAlpha *= p; ctx.fillStyle = dd.col; ctx.beginPath(); ctx.roundRect(dd.x0, dd.y0, dd.x1 - dd.x0, dd.y1 - dd.y0, dd.r || 0); ctx.fill(); }
   } else if (dd.tipo === 'banda') {
     const g = ctx.createLinearGradient(0, dd.y0, 0, dd.y1), c = dd.col;
     g.addColorStop(0, c.replace('A', '0')); g.addColorStop(.3, c.replace('A', dd.a)); g.addColorStop(.7, c.replace('A', dd.a)); g.addColorStop(1, c.replace('A', '0'));

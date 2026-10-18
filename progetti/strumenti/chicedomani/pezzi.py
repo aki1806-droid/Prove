@@ -9,6 +9,7 @@ o a tinta unita non si vede). Quello che resta è il «fondo» su cui il motore 
 
 Le coordinate sono in pixel della grafica 1080x1920. Le maschere:
   rect  [x0,y0,x1,y1]                  rettangolo
+  rrect [x0,y0,x1,y1,raggio]           rettangolo arrotondato (telefoni, bottoni, card)
   poly  [[x,y],...]                    poligono (cartelli e pagine ruotati)
   chiaro [x0,y0,x1,y1, soglia]         solo i pixel chiari nel rettangolo (scritte su foto), allargati
   rosso / verde / giallo [x0,y0,x1,y1] solo i pixel di quel colore (timbri, freccia, testimone)
@@ -24,7 +25,10 @@ from scipy import ndimage as nd
 QUI = os.path.dirname(os.path.abspath(__file__))
 PR = os.path.dirname(os.path.dirname(QUI))
 sys.path.insert(0, QUI)
-from serie import EPISODI  # noqa: E402
+import importlib.util  # noqa: E402
+# la specifica: serie.py qui accanto, oppure quella indicata da SERIE=percorso/serie.py
+_sp = importlib.util.spec_from_file_location('serie', os.environ.get('SERIE', os.path.join(QUI, 'serie.py')))
+_serie = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_serie); EPISODI = _serie.EPISODI
 
 
 def carica(p):
@@ -40,6 +44,9 @@ def maschera(img, m):
     elif tipo == 'poly':
         im = Image.new('L', (W, H), 0); ImageDraw.Draw(im).polygon([tuple(p) for p in a[0]], fill=255)
         M = np.asarray(im) > 127
+    elif tipo == 'rrect':
+        x0, y0, x1, y1, r = a; im = Image.new('L', (W, H), 0)
+        ImageDraw.Draw(im).rounded_rectangle([x0, y0, x1, y1], radius=r, fill=255); M = np.asarray(im) > 127
     elif tipo == 'cerchio':
         cx, cy, r = a; yy, xx = np.mgrid[0:H, 0:W]; M = (xx - cx) ** 2 + (yy - cy) ** 2 <= r * r
     else:

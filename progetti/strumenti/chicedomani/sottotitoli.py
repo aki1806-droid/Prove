@@ -30,7 +30,8 @@ def blocchi(parole):
     return out
 
 
-for ep in sorted(d for d in os.listdir(PR) if d.startswith('pdro-chicedomani-ep')):
+import sys
+for ep in sys.argv[1:] or sorted(d for d in os.listdir(PR) if d.startswith('pdro-chicedomani-ep')):
     D = os.path.join(PR, ep)
     tempi = {t['id']: t for t in json.load(open(f'{D}/audio/tempi-scene.json'))}
     parole = json.load(open(f'{D}/audio/parole.json'))

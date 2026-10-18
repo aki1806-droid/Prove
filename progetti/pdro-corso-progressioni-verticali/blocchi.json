@@ -1,0 +1,132 @@
+{
+  "progetto": "PDRO_Rilancio_Corso_Progressioni_Verticali",
+  "titolo": "Sali di livello – corso progressioni verticali",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "La scala",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "pv_scala.png",
+      "avatar": false,
+      "voce": "Ogni carriera ha una scala. Per anni l'hai guardata dal basso, pensando che fosse riservata ad altri. Oggi, però, quei gradini si possono salire davvero.",
+      "parole": 25,
+      "durata_stimata_s": 10.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pv_scala.png: la luce del sole scende lungo i gradini, la dipendente alza lo sguardo e fa il primo passo. Lenta salita della camera.",
+      "regia": "Bande nere, titolo SALI DI LIVELLO che entra dal basso; musica ispirazionale in crescendo."
+    },
+    {
+      "n": 2,
+      "titolo": "Area superiore",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Con le progressioni tra le aree puoi passare all'area superiore, e in alcuni casi anche cambiare ruolo. È una porta che si apre di rado. E quando si apre, conviene farsi trovare pronti.",
+      "parole": 33,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I tre gradini si costruiscono dal basso uno alla volta; la freccia bianca sale; il bollino 'anche cambiando ruolo' entra con un pop."
+    },
+    {
+      "n": 3,
+      "titolo": "Cosa ti aspetta",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Ti aspettano una prova teorico pratica, un colloquio e la valutazione dei titoli. La graduatoria si decide spesso su pochi punti. Chi arriva preparato non spera di farcela: se lo è già guadagnato.",
+      "parole": 33,
+      "durata_stimata_s": 13.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le tre card scivolano da destra in sequenza; 'Ogni punto conta' si scrive a mano."
+    },
+    {
+      "n": 4,
+      "titolo": "Il corso",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "pv_studio.png",
+      "avatar": false,
+      "voce": "Per questo abbiamo creato un corso di preparazione dedicato. Video lezioni brevi e chiare, simulazioni delle prove, consigli concreti per il colloquio. Lo segui quando vuoi, anche dal telefono, anche dopo il turno.",
+      "parole": 33,
+      "durata_stimata_s": 14.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pv_studio.png: il collega sottolinea gli appunti, il video sul portatile avanza, la lampada calda, leggero zoom.",
+      "regia": "I tre chip compaiono sulle parole; le frasi scritte a mano entrano alla fine."
+    },
+    {
+      "n": 5,
+      "titolo": "Dentro il corso",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Moduli brevi, simulazioni realistiche, la preparazione al colloquio. Un percorso unico, costruito da chi segue ogni giorno i lavoratori ai tavoli delle selezioni.",
+      "parole": 23,
+      "durata_stimata_s": 11.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Lo smartphone entra dal basso; i moduli si spuntano uno alla volta; il bollino arancio GRATIS PER GLI ISCRITTI pulsa."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Il corso è gratuito per gli iscritti CISL FP. Trovi il link nel primo commento. Il bando non aspetta nessuno: se vuoi salire quel gradino, comincia adesso, un passo alla volta. Noi saremo con te fino al giorno della prova. CISL FP Padova Rovigo.",
+      "parole": 44,
+      "durata_stimata_s": 15.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il riquadro arancio con la freccia verso il basso indica il primo commento; avatar in basso a destra."
+    }
+  ]
+}

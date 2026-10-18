@@ -1,0 +1,447 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.6,
+0.4
+]
+},
+{
+"p": "riga1",
+"in": [
+"risale",
+"scala",
+0.6
+]
+},
+{
+"p": "riga2",
+"in": [
+"risale",
+"scala+0.35",
+0.6
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+900
+],
+[
+12,
+1.04,
+540,
+860
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.35,
+0.3
+]
+},
+{
+"disegno": {
+"tipo": "riquadro",
+"x0": 40,
+"y0": 570,
+"x1": 1040,
+"y1": 1250,
+"r": 28,
+"col": "rgba(6,30,20,.9)",
+"t": 0,
+"d": 0.01
+}
+},
+{
+"p": "oper",
+"in": [
+"risale",
+0.15,
+0.45
+]
+},
+{
+"p": "assist",
+"in": [
+"risale",
+"progressioni",
+0.45
+]
+},
+{
+"p": "prof",
+"in": [
+"risale",
+"aree",
+0.45
+]
+},
+{
+"p": "freccia",
+"in": [
+"wipe",
+"superiore",
+0.7
+]
+},
+{
+"p": "bollino",
+"in": [
+"pop",
+"cambiare",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"ruolo+0.4",
+1.2,
+0.05
+]
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.3,
+0.3
+]
+},
+{
+"p": "c1",
+"in": [
+"slideR",
+"prova",
+0.5
+]
+},
+{
+"p": "c2",
+"in": [
+"slideR",
+"colloquio",
+0.5
+]
+},
+{
+"p": "c3",
+"in": [
+"slideR",
+"valutazione",
+0.5
+]
+},
+{
+"p": "cap",
+"in": [
+"wipe",
+"punti",
+0.9
+]
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip1",
+"in": [
+"pop",
+"video",
+0.4
+]
+},
+{
+"p": "chip2",
+"in": [
+"pop",
+"simulazioni",
+0.4
+]
+},
+{
+"p": "chip3",
+"in": [
+"pop",
+"consigli",
+0.4
+]
+},
+{
+"p": "cap1",
+"in": [
+"wipe",
+"quando",
+0.7
+]
+},
+{
+"p": "cap2",
+"in": [
+"wipe",
+"anche#2",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "telefono",
+"in": [
+"slideU",
+0,
+0.7
+],
+"figli": [
+{
+"p": "v1",
+"in": [
+"pop",
+0.8,
+0.35
+]
+},
+{
+"p": "v2",
+"in": [
+"pop",
+1.2,
+0.35
+]
+},
+{
+"p": "v1",
+"in": [
+"pop",
+"realistiche",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+280
+]
+]
+},
+{
+"p": "v1",
+"in": [
+"pop",
+"preparazione",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+420
+]
+]
+},
+{
+"p": "v1",
+"in": [
+"pop",
+"colloquio",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+560
+]
+]
+},
+{
+"p": "gratis",
+"in": [
+"pop",
+"unico",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"unico+0.5",
+0.9,
+0.07
+]
+]
+}
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+17,
+1.06,
+540,
+800
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+0.2,
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+0.55,
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"comincia",
+0.6
+]
+}
+]
+}
+}
