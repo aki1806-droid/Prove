@@ -1,0 +1,56 @@
+[
+ {
+  "id": "S01",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Ciao, sono Achille. Oggi ti racconto da dove nascono i miei due libri. E per farlo devo partire da due uomini."
+ },
+ {
+  "id": "S02",
+  "tipo": "broll",
+  "broll": "broll_01.jpg",
+  "testo": "Il primo è mio nonno materno. Era un pescatore. Da lui ho imparato il rispetto per il mare. Avevo otto anni, ero sulla sua piccola barca, e non stavo fermo un attimo. Lui controllava le reti con una lentezza che mi faceva impazzire. «Nonno, facciamo presto, i pesci scapperanno!» Si fermò, mi guardò, e disse piano: «Nel mare, se corri, affoghi.»"
+ },
+ {
+  "id": "S03",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Lì per lì non capii. Per un bambino di otto anni correre era vivere. Ci ho messo molti anni a capire che quelle sei parole erano una mappa."
+ },
+ {
+  "id": "S04",
+  "tipo": "broll",
+  "broll": "broll_02.jpg",
+  "testo": "Il secondo è mio nonno paterno. Era un contadino. Da lui ho imparato la pazienza e la perseveranza: la terra non si convince con la fretta. Si prepara, si semina, si aspetta."
+ },
+ {
+  "id": "S05",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "E poi c'era il carretto della frutta. D'estate aiutavo mio nonno sotto il sole, e c'era una regola sola: si pesava giusto, anche quando nessuno guardava. Lì non imparavo solo a vendere la frutta. Imparavo l'integrità, la gentilezza, la pazienza di ascoltare anche quando la fila si allungava."
+ },
+ {
+  "id": "S06",
+  "tipo": "broll",
+  "broll": "broll_03.jpg",
+  "testo": "Il mare e la terra. Il rispetto e la pazienza. Sono diventate le mie radici."
+ },
+ {
+  "id": "S07",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Il Volo delle Radici racconta questo: quello che riceviamo da chi viene prima di noi, e il coraggio di partire senza tradirlo. È il viaggio verticale, dalle profondità della terra alle altezze del cielo."
+ },
+ {
+  "id": "S08",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Mappe Silenziose è nato dopo, dalla frase di mio nonno pescatore. È la dimensione orizzontale: una mappa per attraversare il presente senza perdere l'anima, in un mondo che corre."
+ },
+ {
+  "id": "S09",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Se vuoi leggerli, trovi i link qui sotto, nella descrizione. E se ti va, scrivimi nei commenti: chi è stato il tuo maestro senza cattedra?"
+ }
+]

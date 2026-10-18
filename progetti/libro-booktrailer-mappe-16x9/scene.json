@@ -1,0 +1,50 @@
+[
+ {
+  "id": "S01",
+  "immagine": "scena_01.jpg",
+  "testo": "Era una mattina d'estate. Avevo otto anni, e saltellavo sulla piccola barca di mio nonno.",
+  "schermo": "–"
+ },
+ {
+  "id": "S02",
+  "immagine": "scena_02.jpg",
+  "testo": "«Nonno, facciamo presto! I pesci scapperanno!»",
+  "schermo": "–"
+ },
+ {
+  "id": "S03",
+  "immagine": "scena_03.jpg",
+  "testo": "Lui si fermò. Posò le mani sulla murata. E disse piano, come si confida un segreto:",
+  "schermo": "–"
+ },
+ {
+  "id": "S04",
+  "immagine": "scena_04.jpg",
+  "testo": "«Nel mare, se corri, affoghi.»",
+  "schermo": "«Nel mare, se corri, affoghi.»"
+ },
+ {
+  "id": "S05",
+  "immagine": "scena_05.jpg",
+  "testo": "Oggi corriamo tutti. E la fretta è contagiosa.",
+  "schermo": "La fretta è contagiosa."
+ },
+ {
+  "id": "S06",
+  "immagine": "scena_06.jpg",
+  "testo": "Questo non è un libro per fare di più in meno tempo. Quella è la malattia, non la cura.",
+  "schermo": "–"
+ },
+ {
+  "id": "S07",
+  "immagine": "scena_07.jpg",
+  "testo": "È una mappa per rallentare, in un mondo che accelera.",
+  "schermo": "Una mappa per rallentare."
+ },
+ {
+  "id": "S08",
+  "immagine": "scena_08_chiusura.jpg",
+  "testo": "Mappe Silenziose.",
+  "schermo": "(nella grafica)"
+ }
+]

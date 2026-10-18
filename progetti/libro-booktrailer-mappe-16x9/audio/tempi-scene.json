@@ -1,0 +1,50 @@
+[
+ {
+  "id": "S01",
+  "tipo": "narratore",
+  "inizio": 0.0,
+  "durata": 6.097
+ },
+ {
+  "id": "S02",
+  "tipo": "narratore",
+  "inizio": 6.097,
+  "durata": 3.68
+ },
+ {
+  "id": "S03",
+  "tipo": "narratore",
+  "inizio": 9.777,
+  "durata": 6.345
+ },
+ {
+  "id": "S04",
+  "tipo": "narratore",
+  "inizio": 16.122,
+  "durata": 3.495
+ },
+ {
+  "id": "S05",
+  "tipo": "narratore",
+  "inizio": 19.617,
+  "durata": 3.801
+ },
+ {
+  "id": "S06",
+  "tipo": "narratore",
+  "inizio": 23.418,
+  "durata": 6.158
+ },
+ {
+  "id": "S07",
+  "tipo": "narratore",
+  "inizio": 29.5761,
+  "durata": 3.873
+ },
+ {
+  "id": "S08",
+  "tipo": "narratore",
+  "inizio": 33.449,
+  "durata": 1.9111
+ }
+]

@@ -16,8 +16,8 @@ from PIL import Image
 QUI = os.path.dirname(os.path.abspath(__file__))
 PR = os.path.dirname(os.path.dirname(QUI))
 FPS, COP, FINE = 25, 3.0, 10.0
-PROGETTI = {'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
-USCITA = {'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
+PROGETTI = {'yt09': 'libro-yt09-due-nonni', 'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
+USCITA = {'yt09': 'YT09_Due_nonni_il_mare_e_la_terra', 'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
           'yt12': 'YT12_Cosa_sono_le_mappe_silenziose'}
 ZOOM = 0.06         # quanto cresce (o cala) l'inquadratura delle foto in una scena
 
@@ -27,9 +27,10 @@ def ff(*a):
 
 
 def senza_bande(src, dst):
-    """Toglie le bande quasi nere ai bordi (righe e colonne con luminanza media sotto 14)."""
+    """Toglie le bande nere ai bordi: righe e colonne quasi nere E uniformi (le foto notturne hanno bordi
+    scuri ma non uniformi, e restano intere)."""
     im = Image.open(src).convert('RGB'); a = np.asarray(im).astype(np.float32).mean(2)
-    col, riga = np.where(a.mean(0) > 14)[0], np.where(a.mean(1) > 14)[0]
+    col = np.where(~((a.mean(0) < 6) & (a.std(0) < 4)))[0]; riga = np.where(~((a.mean(1) < 6) & (a.std(1) < 4)))[0]
     im.crop((col[0], riga[0], col[-1] + 1, riga[-1] + 1)).save(dst, quality=95)
 
 
