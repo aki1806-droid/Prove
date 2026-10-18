@@ -68,7 +68,9 @@ def monta(k):
         pezzi.append(out)
     pezzi.append(f'{L}/99_chiusura.mov'); ferma(f'{D}/grafiche/chiusura_1920x1080.png', FINE, pezzi[-1])
     open(f'{L}/lista.txt', 'w').write(''.join(f"file '{p}'\n" for p in pezzi))
-    ff('-f', 'concat', '-safe', '0', '-i', f'{L}/lista.txt', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',
+    # CRF 19 alla fine: con i pezzi a CRF 16 copiati il 10 passava i 200 MB, limite degli asset HeyGen
+    ff('-f', 'concat', '-safe', '0', '-i', f'{L}/lista.txt', '-c:v', 'libx264', '-preset', 'slow', '-crf', '19',
+       '-c:a', 'aac', '-b:a', '192k',
        '-movflags', '+faststart', f'{D}/{USCITA[k]}.mp4')
     # sottotitoli: quelli della voce, spostati della copertina
     subprocess.run([sys.executable, os.path.join(PR, 'strumenti', 'chicedomani', 'sottotitoli.py'), PROGETTI[k]], check=True,
