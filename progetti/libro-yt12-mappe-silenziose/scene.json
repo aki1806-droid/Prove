@@ -1,0 +1,50 @@
+[
+ {
+  "id": "S01",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Ciao, sono Achille. Oggi ti spiego cosa sono le mappe silenziose."
+ },
+ {
+  "id": "S02",
+  "tipo": "broll",
+  "broll": "broll_01.jpg",
+  "testo": "Ci sono mappe che non stanno su nessuna carta. Le disegniamo ogni giorno, con quello che scegliamo di ascoltare, con il tempo che regaliamo, con i silenzi che sappiamo reggere."
+ },
+ {
+  "id": "S03",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Il mio primo libro, Il Volo delle Radici, era un viaggio verticale: dalle profondità della terra alle altezze del cielo. Mancava la dimensione orizzontale: la geografia del quotidiano. Una mappa per navigare il presente senza perdere l'anima, una bussola per orientarsi quando il rumore del mondo copre la voce interiore."
+ },
+ {
+  "id": "S04",
+  "tipo": "broll",
+  "broll": "broll_02.jpg",
+  "testo": "Voglio essere chiaro su cosa non troverai in questo libro. Non troverai ricette per correre più veloce: il mondo ne è già pieno. Non troverai tecniche per fare di più in meno tempo: quella è la malattia, non la cura. E non troverai nemmeno l'invito a ritirarti dal mondo, perché la saggezza non sta nella fuga, ma nell'abitare consapevolmente."
+ },
+ {
+  "id": "S05",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Troverai il racconto di chi ha scelto di rallentare in un mondo che accelera. Venticinque tappe brevi, come le venticinque ore di un giorno vissuto pienamente. Ogni capitolo si legge in quindici minuti."
+ },
+ {
+  "id": "S06",
+  "tipo": "broll",
+  "broll": "broll_03.jpg",
+  "testo": "Ti parlerò del giorno in cui, bloccato nel traffico, mi accorsi che avevo smesso di respirare. Delle lacrime liberatorie in un bosco umbro, quando il silenzio mi restituì a me stesso. Della mano di un'anziana paziente che mi ha insegnato più di mille trattati. E anche delle ricadute, dei giorni in cui la fretta torna a bussare."
+ },
+ {
+  "id": "S07",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Perché la via della lentezza non è un percorso per anime perfette. È per esseri umani in cammino, che cadono e si rialzano."
+ },
+ {
+  "id": "S08",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Se vuoi cominciare, il link è nella descrizione."
+ }
+]

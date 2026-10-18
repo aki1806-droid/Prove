@@ -1,0 +1,74 @@
+[
+ {
+  "id": "S01",
+  "tipo": "achille",
+  "inizio": 0.0,
+  "durata": 7.1302
+ },
+ {
+  "id": "S02",
+  "tipo": "achille",
+  "inizio": 7.1302,
+  "durata": 28.6709
+ },
+ {
+  "id": "S03",
+  "tipo": "achille",
+  "inizio": 35.8011,
+  "durata": 29.7128
+ },
+ {
+  "id": "S04",
+  "tipo": "achille",
+  "inizio": 65.5139,
+  "durata": 31.395
+ },
+ {
+  "id": "S05",
+  "tipo": "achille",
+  "inizio": 96.909,
+  "durata": 37.8689
+ },
+ {
+  "id": "S06",
+  "tipo": "achille",
+  "inizio": 134.7778,
+  "durata": 32.2914
+ },
+ {
+  "id": "S07",
+  "tipo": "achille",
+  "inizio": 167.0693,
+  "durata": 32.8346
+ },
+ {
+  "id": "S08",
+  "tipo": "achille",
+  "inizio": 199.9039,
+  "durata": 31.6132
+ },
+ {
+  "id": "S09",
+  "tipo": "achille",
+  "inizio": 231.517,
+  "durata": 37.5012
+ },
+ {
+  "id": "S10",
+  "tipo": "achille",
+  "inizio": 269.0183,
+  "durata": 28.5669
+ },
+ {
+  "id": "S11",
+  "tipo": "achille",
+  "inizio": 297.5851,
+  "durata": 16.0548
+ },
+ {
+  "id": "S12",
+  "tipo": "achille",
+  "inizio": 313.6399,
+  "durata": 6.0614
+ }
+]
