@@ -9,6 +9,14 @@
 ],
 "strati": [
 {
+"p": "pz",
+"in": [
+"pop",
+"concorso",
+0.45
+]
+},
+{
 "p": "riga1",
 "in": [
 "fade",
@@ -51,7 +59,24 @@
 ],
 "fisso": true
 }
+],
+"testi": {
+"pz": {
+"righe": [
+[
+"CONCORSO OSS · AZIENDA ZERO",
+"#ffffff"
 ]
+],
+"size": 44,
+"peso": 800,
+"y": 1250,
+"h": 105,
+"pill": {
+"bg": "#0a8a4a"
+}
+}
+}
 },
 "S02": {
 "tipo": "pieno",
@@ -61,6 +86,38 @@
 0
 ]
 ],
+"testi": {
+"data": {
+"righe": [
+[
+"PRIME PROVE · 27 OTTOBRE",
+"#ffffff"
+]
+],
+"size": 62,
+"peso": 800,
+"y": 1440,
+"h": 148,
+"pill": {
+"bg": "#e8505b"
+}
+},
+"posti": {
+"righe": [
+[
+"84 POSTI · AZIENDA ZERO",
+"#0b3d24"
+]
+],
+"size": 52,
+"peso": 800,
+"y": 1600,
+"h": 124,
+"pill": {
+"bg": "#ffffff"
+}
+}
+},
 "strati": [
 {
 "p": "tit1",
@@ -131,6 +188,22 @@
 ]
 },
 {
+"p": "data",
+"in": [
+"slam",
+"ventisette",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"ventisette+0.5",
+1.1,
+0.05
+]
+]
+},
+{
 "p": "quiz",
 "in": [
 "pop",
@@ -168,6 +241,14 @@
 "wipe",
 "come",
 1.0
+]
+},
+{
+"p": "posti",
+"in": [
+"pop",
+"ottantaquattro",
+0.45
 ]
 }
 ]
@@ -246,6 +327,23 @@
 0
 ]
 ],
+"testi": {
+"az": {
+"righe": [
+[
+"CONCORSO OSS · AZIENDA ZERO",
+"#0b3d24"
+]
+],
+"size": 44,
+"peso": 800,
+"y": 1560,
+"h": 105,
+"pill": {
+"bg": "#ffc45c"
+}
+}
+},
 "strati": [
 {
 "p": "oltre",
@@ -288,8 +386,16 @@
 "p": "cap2",
 "in": [
 "wipe",
-"studiando",
+"preparando",
 0.6
+]
+},
+{
+"p": "az",
+"in": [
+"pop",
+"azienda",
+0.45
 ]
 },
 {
@@ -333,6 +439,14 @@
 "slam",
 "dieci#2",
 0.3
+]
+},
+{
+"p": "data",
+"in": [
+"slam",
+"ventisette",
+0.35
 ]
 },
 {
@@ -385,7 +499,25 @@
 ],
 "fisso": true
 }
+],
+"testi": {
+"data": {
+"righe": [
+[
+"PRIME PROVE · 27 OTTOBRE",
+"#ffffff"
 ]
+],
+"size": 46,
+"peso": 800,
+"y": 505,
+"h": 110,
+"pill": {
+"bg": "#e8505b"
+},
+"x": 80
+}
+}
 },
 "S06": {
 "tipo": "pieno",
@@ -433,7 +565,41 @@
 "comincia",
 0.6
 ]
-}
+},
+{
+"p": "data",
+"in": [
+"slam",
+"ventisette",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"ventisette+0.5",
+1.1,
+0.05
 ]
+]
+}
+],
+"testi": {
+"data": {
+"righe": [
+[
+"PRIME PROVE · 27 OTTOBRE",
+"#ffffff"
+]
+],
+"size": 54,
+"peso": 800,
+"y": 630,
+"h": 129,
+"pill": {
+"bg": "#e8505b"
+},
+"x": 70
+}
+}
 }
 }

@@ -1,131 +1,155 @@
 1
-00:00:00,080 --> 00:00:01,950
+00:00:00,080 --> 00:00:01,990
 Immagina la mattina in cui indosserai la
 
 2
-00:00:02,000 --> 00:00:04,670
+00:00:02,040 --> 00:00:04,710
 tua divisa. Il primo turno, il badge al
 
 3
-00:00:04,720 --> 00:00:07,840
+00:00:04,760 --> 00:00:07,600
 collo, un contratto a tempo indeterminato.
 
 4
-00:00:07,890 --> 00:00:10,600
+00:00:07,650 --> 00:00:10,360
 Fermati un secondo su questa immagine.
 
 5
-00:00:10,650 --> 00:00:14,410
-E tienila stretta, perché il concorso è alle porte.
+00:00:10,410 --> 00:00:11,840
+E tienila stretta:
 
 6
-00:00:14,802 --> 00:00:17,485
-Tra te e quella mattina c'è una sola cosa:
+00:00:11,890 --> 00:00:14,000
+il concorso per operatori socio sanitari
 
 7
-00:00:17,535 --> 00:00:20,325
-la prova. Quiz, casi pratici, un
+00:00:14,050 --> 00:00:16,250
+di Azienda Zero è alle porte.
 
 8
-00:00:20,375 --> 00:00:23,125
-colloquio. E tanti altri candidati che,
+00:00:16,568 --> 00:00:19,387
+Tra te e quella mattina c'è una sola cosa:
 
 9
-00:00:23,175 --> 00:00:25,295
-come te, vogliono quel posto.
+00:00:19,437 --> 00:00:21,706
+la prova. E le prime prove sono il
 
 10
-00:00:25,648 --> 00:00:27,838
-In quella sala, la differenza non la fa la
+00:00:21,756 --> 00:00:24,356
+ventisette. Quiz, casi pratici, un
 
 11
-00:00:27,888 --> 00:00:30,318
-fortuna. La fa chi ha già visto quelle
+00:00:24,406 --> 00:00:27,076
+colloquio. E tanti altri candidati che,
 
 12
-00:00:30,368 --> 00:00:32,958
-domande. Chi ha già sbagliato a casa, e
+00:00:27,126 --> 00:00:28,796
+come te, vogliono uno di quegli
 
 13
-00:00:33,008 --> 00:00:35,038
-per questo non sbaglierà lì.
+00:00:28,846 --> 00:00:30,326
+ottantaquattro posti.
 
 14
-00:00:35,088 --> 00:00:38,448
-Chi entra sapendo esattamente cosa aspettarsi.
+00:00:30,712 --> 00:00:32,942
+In quella sala, la differenza non la fa la
 
 15
-00:00:38,774 --> 00:00:40,804
-Oltre cinquecento colleghi stanno già
+00:00:32,992 --> 00:00:35,222
+fortuna. La fa chi ha già visto quelle
 
 16
-00:00:40,854 --> 00:00:42,404
-studiando con il nostro corso di
+00:00:35,272 --> 00:00:37,862
+domande. Chi ha già sbagliato a casa, e
 
 17
-00:00:42,454 --> 00:00:43,604
-preparazione.
+00:00:37,912 --> 00:00:39,862
+per questo non sbaglierà lì.
 
 18
-00:00:43,654 --> 00:00:45,764
-Video lezioni sulle materie del bando,
+00:00:39,912 --> 00:00:43,112
+Chi entra sapendo esattamente cosa aspettarsi.
 
 19
-00:00:45,814 --> 00:00:48,484
-simulazioni con i quiz, spiegazioni chiare
+00:00:43,471 --> 00:00:45,581
+Oltre cinquecento colleghi si stanno già
 
 20
-00:00:48,534 --> 00:00:50,854
-anche per chi non apre un libro da anni.
+00:00:45,631 --> 00:00:47,461
+preparando con il nostro corso per il
 
 21
-00:00:51,180 --> 00:00:54,181
-Puoi farlo dal divano, in pausa, sul bus.
+00:00:47,511 --> 00:00:49,301
+concorso di Azienda Zero.
 
 22
-00:00:54,231 --> 00:00:56,741
-Dieci minuti oggi, dieci domani.
+00:00:49,351 --> 00:00:51,341
+Video lezioni sulle materie del bando,
 
 23
-00:00:56,791 --> 00:00:59,181
-Ogni quiz che fai a casa è un errore in
+00:00:51,391 --> 00:00:54,061
+simulazioni con i quiz, spiegazioni chiare
 
 24
-00:00:59,231 --> 00:01:00,791
-meno il giorno della prova.
+00:00:54,111 --> 00:00:56,191
+anche per chi non apre un libro da anni.
 
 25
-00:01:01,111 --> 00:01:03,001
-Ho visto tanti colleghi arrivare preparati
+00:00:56,541 --> 00:00:59,541
+Puoi farlo dal divano, in pausa, sul bus.
 
 26
-00:01:03,051 --> 00:01:05,234
-e farcela. E altri pentirsi di aver
+00:00:59,591 --> 00:01:02,021
+Dieci minuti oggi, dieci domani:
 
 27
-00:01:05,284 --> 00:01:06,570
-cominciato troppo tardi.
+00:01:02,071 --> 00:01:04,421
+al ventisette mancano pochi giorni.
 
 28
-00:01:06,620 --> 00:01:07,907
-Tu non essere tra loro.
+00:01:04,471 --> 00:01:06,861
+Ogni quiz che fai a casa è un errore in
 
 29
-00:01:07,957 --> 00:01:09,527
-Il link per iscriverti al corso è nel
+00:01:06,911 --> 00:01:08,391
+meno il giorno della prova.
 
 30
-00:01:09,577 --> 00:01:10,527
-primo commento.
+00:01:08,700 --> 00:01:10,857
+Ho visto tanti colleghi arrivare preparati
 
 31
-00:01:10,577 --> 00:01:11,458
-Comincia oggi:
+00:01:10,907 --> 00:01:13,202
+e farcela. E altri pentirsi di aver
 
 32
-00:01:11,508 --> 00:01:13,079
-quella mattina con la divisa ti sta già
+00:01:13,252 --> 00:01:14,538
+cominciato troppo tardi.
 
 33
-00:01:13,129 --> 00:01:16,081
+00:01:14,588 --> 00:01:15,874
+Il ventisette è vicino:
+
+34
+00:01:15,924 --> 00:01:17,529
+tu non essere tra loro.
+
+35
+00:01:17,579 --> 00:01:19,219
+Il link per iscriverti al corso è nel
+
+36
+00:01:19,269 --> 00:01:20,184
+primo commento.
+
+37
+00:01:20,234 --> 00:01:21,150
+Comincia oggi:
+
+38
+00:01:21,200 --> 00:01:22,794
+quella mattina con la divisa ti sta già
+
+39
+00:01:22,844 --> 00:01:25,910
 aspettando. CISL FP Padova Rovigo.

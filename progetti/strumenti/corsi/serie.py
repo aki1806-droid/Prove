@@ -111,6 +111,17 @@ def chiusura(t3):
             'strati': [P('r1', ['slam', 0.2, 0.35]), P('r2', ['slam', 0.55, 0.35]), P('r3', ['wipe', t3, 0.6])]}
 
 
+VERDE, ROSSO = '#0a8a4a', '#e8505b'
+
+
+def pastiglia(testo, y, bg, col, size=44, x=None):
+    """Scritta aggiunta (v2 OSS): testo su pastiglia arrotondata, centrata o da x; y = bordo alto."""
+    d = {'righe': [[testo, col]], 'size': size, 'peso': 800, 'y': y, 'h': int(size * 2.4), 'pill': {'bg': bg}}
+    if x is not None:
+        d['x'] = x
+    return d
+
+
 # righe dei moduli nel telefono (PV S05): passo 140 px
 SPUNTE = [0, 0, 280, 420, 560]
 ANIM = {
@@ -141,31 +152,41 @@ ANIM = {
         'S06': chiusura('comincia'),
     },
     OSS: {
-        'S01': ov([P('riga1', ['fade', 'immagina', 1.6]), P('sotto', ['wipe', 'mattina', 1.0]),
-                   P('presenta', ['fade', 0.5, 0.6], fisso=True)], 0.6),
-        'S02': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'strati': [
+        'S01': {**ov([P('pz', ['pop', 'concorso', 0.45]), P('riga1', ['fade', 'immagina', 1.6]), P('sotto', ['wipe', 'mattina', 1.0]),
+                      P('presenta', ['fade', 0.5, 0.6], fisso=True)], 0.6),
+                'testi': {'pz': pastiglia('CONCORSO OSS · AZIENDA ZERO', 1250, VERDE, '#ffffff')}},
+        'S02': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'testi': {
+                    'data': pastiglia('PRIME PROVE · 27 OTTOBRE', 1440, ROSSO, '#ffffff', 62),
+                    'posti': pastiglia('84 POSTI · AZIENDA ZERO', 1600, '#ffffff', '#0b3d24', 52)}, 'strati': [
             P('tit1', ['slam', 0.05, 0.3]), P('tit2', ['slam', 0.35, 0.3]),
             DIS(tipo='cifre', caselle=[[240, 710], [540, 710], [840, 710]], size=120, t0=0, t1='prova', per=0.11, max=[99, 24, 60]),
             P('g1', ['pop', 'prova', 0.3]), P('g2', ['pop', 'prova+0.08', 0.3]), P('g3', ['pop', 'prova+0.16', 0.3]),
+            P('data', ['slam', 'ventisette', 0.35], fx=[['pulsa', 'ventisette+0.5', 1.1, 0.05]]),
             P('quiz', ['pop', 'quiz', 0.35]), P('casi', ['pop', 'casi', 0.35]), P('coll', ['pop', 'colloquio', 0.35]),
             P('cap1', ['wipe', 'tanti', 1.0]), P('cap2', ['wipe', 'come', 1.0]),
+            P('posti', ['pop', 'ottantaquattro', 0.45]),
         ]},
         'S03': ov([P('fortuna', ['wipe', 'non', 0.6], figli=[DIS(tipo='barra', t='fortuna', d=0.35, x0=88, y0=1411, x1=770, y1=1409, w=9)]),
                    P('prep', ['slam', 'chi', 0.4], fx=[['bagliore', 'chi+0.3', 1.2]])]),
-        'S04': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'strati': [
+        'S04': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'testi': {
+                    'az': pastiglia('CONCORSO OSS · AZIENDA ZERO', 1560, '#ffc45c', '#0b3d24')}, 'strati': [
             P('oltre', ['slam', 0.05, 0.3]),
             DIS(tipo='contatore', x=60, y=494, size=202, col='#ffc45c', v0=0, v1=500, t0=0.1, t1='colleghi$'),
             P('punti', ['wipeD', 'colleghi', 1.6]),
-            P('cap1', ['wipe', 'stanno', 0.6]), P('cap2', ['wipe', 'studiando', 0.6]),
+            P('cap1', ['wipe', 'stanno', 0.6]), P('cap2', ['wipe', 'preparando', 0.6]),
+            P('az', ['pop', 'azienda', 0.45]),
             P('etu', ['pop', 'anni', 0.4], fx=[['pulsa', 'anni+0.5', 1.0, 0.06]]),
         ]},
-        'S05': ov([P('tit1', ['slam', 'dieci', 0.3]), P('tit2', ['slam', 'dieci#2', 0.3]),
-                   P('card', ['slideU', 'bus', 0.7], figli=[
-                       P('rigaB', fx=[['grigio', 'quiz'], ['bagliore', 'quiz', 0.9]]),
-                       P('spunta', ['pop', 'quiz', 0.35])])]),
-        'S06': chiusura('comincia'),
+        'S05': {**ov([P('tit1', ['slam', 'dieci', 0.3]), P('tit2', ['slam', 'dieci#2', 0.3]),
+                      P('data', ['slam', 'ventisette', 0.35]),
+                      P('card', ['slideU', 'bus', 0.7], figli=[
+                          P('rigaB', fx=[['grigio', 'quiz'], ['bagliore', 'quiz', 0.9]]),
+                          P('spunta', ['pop', 'quiz', 0.35])])]),
+                'testi': {'data': pastiglia('PRIME PROVE · 27 OTTOBRE', 505, ROSSO, '#ffffff', 46, x=80)}},
+        'S06': {**chiusura('comincia'), 'testi': {'data': pastiglia('PRIME PROVE · 27 OTTOBRE', 630, ROSSO, '#ffffff', 54, x=70)}},
     },
 }
+ANIM[OSS]['S06']['strati'].append(P('data', ['slam', 'ventisette', 0.35], fx=[['pulsa', 'ventisette+0.5', 1.1, 0.05]]))
 
 if __name__ == '__main__':
     import json

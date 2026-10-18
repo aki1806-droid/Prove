@@ -44,6 +44,17 @@ function carica(src) {
 function rendiTesto(id, s) {
   const c = document.createElement('canvas'); c.width = W; c.height = s.h || 400; const g = c.getContext('2d');
   g.textAlign = 'center'; g.textBaseline = 'middle';
+  if (s.pill) {
+    // pastiglia: testo su fondo arrotondato, centrata (o da s.x a sinistra)
+    g.font = `${s.peso || 800} ${s.size}px M`;
+    const txt = s.righe[0][0], tw = g.measureText(txt).width, px = s.pill.px || 34, h = s.size * 1.7;
+    const x0 = s.x != null ? s.x : (W - tw) / 2 - px, y0 = (c.height - h) / 2;
+    g.shadowColor = 'rgba(0,0,0,.35)'; g.shadowBlur = 18; g.shadowOffsetY = 6;
+    g.fillStyle = s.pill.bg; g.beginPath(); g.roundRect(x0, y0, tw + 2 * px, h, h / 2); g.fill();
+    g.shadowColor = 'transparent'; g.textAlign = 'left'; g.fillStyle = s.righe[0][1];
+    g.fillText(txt, x0 + px, c.height / 2 + s.size * .04);
+    TESTI[id] = c; D.pezzi[D._sid][id] = [0, s.y, W, c.height]; return;
+  }
   let y = s.size * 0.75;
   for (const [txt, col] of s.righe) {
     g.font = `${s.peso || 900} ${s.size}px M`;

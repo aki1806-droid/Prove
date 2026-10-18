@@ -47,3 +47,22 @@ Caricato il 18/10/2026 come asset 65a1497caf78484e9afa9f145482a93d: https://reso
 - La domanda del quiz (scena 5) è un esempio didattico: farla verificare a un docente del corso (Achille: da verificare dopo).
 - Nessuna data del concorso a schermo: se è nota si può aggiungere nella scena 2.
 - Musica ed effetti sonori della regia: non aggiunti.
+
+## Versione 2 — 18/10/2026, richiesta di Achille: «troppi pochi riferimenti al concorso OSS 84 di Azienda Zero e al fatto che le prime prove saranno il 27, fallo più convincente»
+Chiarito con Achille: 84 = posti; prime prove il 27 ottobre. Nuovo testo approvato da Achille prima della generazione
+(i testi v1 sono in voce_testi/v1/, l'audio v1 in audio/v1/, il montato v1 in v1_*.mp4 fuori da git):
+- S01 «… E tienila stretta: il concorso per operatori socio sanitari di Azienda Zero è alle porte.»
+- S02 «… la prova. E le prime prove sono il ventisette. Quiz, casi pratici, un colloquio. E tanti altri candidati che, come te, vogliono uno di quegli ottantaquattro posti.»
+- S03 invariata.
+- S04 «Oltre cinquecento colleghi si stanno già preparando con il nostro corso per il concorso di Azienda Zero. …»
+- S05 «… Dieci minuti oggi, dieci domani: al ventisette mancano pochi giorni. …»
+- S06 (Achille) «… Il ventisette è vicino: tu non essere tra loro. …»
+Numeri scritti in lettere nei testi di voce (la voce li legge meglio); a schermo in cifre.
+Voci nuove: Ward request mMYxHyOMdHds5uc7oJBD (5 blocchi), Achille request WwTQ9Pe8MSJMqKfoNzZ5 (../strumenti/corsi/voci.py oss-v2).
+Durate: S01 16.5 · S02 14.1 · S03 12.8 · S04 13.1 · S05 12.2 · S06 17.3 s, totale 86.0 s.
+Avatar rifatto: audio asset a3b750936a10435f9ae39611529b35db, webm 05d0b44f99a24c461da1bc4ce8df749d. Clip invariate (S05 rallentata a 12,2 s).
+Nuove scritte a schermo (pastiglie del motore): «CONCORSO OSS · AZIENDA ZERO» in apertura su «concorso» e nella scena 4 su
+«Azienda»; «PRIME PROVE · 27 OTTOBRE» nella scena 2 su «ventisette» (grande), nella 5 e nella chiusura; «84 POSTI · AZIENDA ZERO»
+nella scena 2 su «ottantaquattro».
+Montato: PDRO_Immagina_quella_mattina_corso_OSS_v2_9x16.mp4, 86.0 s; copia d'invio _invio.mp4 (28 MB).
+Originale v2 su HeyGen: asset ffd7713e1d0f42638698b5e34ecd6608 — https://resource2.heygen.ai/video/ffd7713e1d0f42638698b5e34ecd6608/original.mp4

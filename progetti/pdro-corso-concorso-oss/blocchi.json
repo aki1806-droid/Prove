@@ -16,8 +16,8 @@
       "voce_motore": "HeyGen · voce \"Luca Ward\"",
       "illustrazione": "oss_divisa.png",
       "avatar": false,
-      "voce": "Immagina la mattina in cui indosserai la tua divisa. Il primo turno, il badge al collo, un contratto a tempo indeterminato. Fermati un secondo su questa immagine. E tienila stretta, perché il concorso è alle porte.",
-      "parole": 36,
+      "voce": "Immagina la mattina in cui indosserai la tua divisa. Il primo turno, il badge al collo, un contratto a tempo indeterminato. Fermati un secondo su questa immagine. E tienila stretta: il concorso per operatori socio sanitari di Azienda Zero è alle porte.",
+      "parole": 42,
       "durata_stimata_s": 14.8,
       "grafiche": [
         {
@@ -36,8 +36,8 @@
       "voce_motore": "HeyGen · voce \"Luca Ward\"",
       "illustrazione": null,
       "avatar": false,
-      "voce": "Tra te e quella mattina c'è una sola cosa: la prova. Quiz, casi pratici, un colloquio. E tanti altri candidati che, come te, vogliono quel posto.",
-      "parole": 26,
+      "voce": "Tra te e quella mattina c'è una sola cosa: la prova. E le prime prove sono il ventisette. Quiz, casi pratici, un colloquio. E tanti altri candidati che, come te, vogliono uno di quegli ottantaquattro posti.",
+      "parole": 36,
       "durata_stimata_s": 10.0,
       "grafiche": [
         {
@@ -76,8 +76,8 @@
       "voce_motore": "HeyGen · voce \"Luca Ward\"",
       "illustrazione": null,
       "avatar": false,
-      "voce": "Oltre cinquecento colleghi stanno già studiando con il nostro corso di preparazione. Video lezioni sulle materie del bando, simulazioni con i quiz, spiegazioni chiare anche per chi non apre un libro da anni.",
-      "parole": 33,
+      "voce": "Oltre cinquecento colleghi si stanno già preparando con il nostro corso per il concorso di Azienda Zero. Video lezioni sulle materie del bando, simulazioni con i quiz, spiegazioni chiare anche per chi non apre un libro da anni.",
+      "parole": 38,
       "durata_stimata_s": 14.1,
       "grafiche": [
         {
@@ -96,8 +96,8 @@
       "voce_motore": "HeyGen · voce \"Luca Ward\"",
       "illustrazione": "oss_bus.png",
       "avatar": false,
-      "voce": "Puoi farlo dal divano, in pausa, sul bus. Dieci minuti oggi, dieci domani. Ogni quiz che fai a casa è un errore in meno il giorno della prova.",
-      "parole": 28,
+      "voce": "Puoi farlo dal divano, in pausa, sul bus. Dieci minuti oggi, dieci domani: al ventisette mancano pochi giorni. Ogni quiz che fai a casa è un errore in meno il giorno della prova.",
+      "parole": 33,
       "durata_stimata_s": 9.8,
       "grafiche": [
         {
@@ -116,8 +116,8 @@
       "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
       "illustrazione": null,
       "avatar": true,
-      "voce": "Ho visto tanti colleghi arrivare preparati e farcela. E altri pentirsi di aver cominciato troppo tardi. Tu non essere tra loro. Il link per iscriverti al corso è nel primo commento. Comincia oggi: quella mattina con la divisa ti sta già aspettando. CISL FP Padova Rovigo.",
-      "parole": 46,
+      "voce": "Ho visto tanti colleghi arrivare preparati e farcela. E altri pentirsi di aver cominciato troppo tardi. Il ventisette è vicino: tu non essere tra loro. Il link per iscriverti al corso è nel primo commento. Comincia oggi: quella mattina con la divisa ti sta già aspettando. CISL FP Padova Rovigo.",
+      "parole": 50,
       "durata_stimata_s": 16.7,
       "grafiche": [
         {
