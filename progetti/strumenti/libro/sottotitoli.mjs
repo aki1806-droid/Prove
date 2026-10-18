@@ -1,11 +1,12 @@
-// Rende ogni blocco di sottotitoli.srt in un PNG trasparente 1080x260 (EB Garamond corsivo, ombra morbida).
-//   node sottotitoli.mjs <progetto>   -> <progetto>/montaggio/sub/NNN.png e sub.json
+// Rende ogni blocco di sottotitoli.srt in un PNG trasparente Lx260 (EB Garamond corsivo, ombra morbida).
+//   node sottotitoli.mjs <progetto> [larghezza=1080] [corpo=72]   -> <progetto>/montaggio/sub/NNN.png e sub.json
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const QUI = path.dirname(fileURLToPath(import.meta.url));
 const P = path.resolve(process.argv[2]);
+const W = +(process.argv[3] || 1080), CORPO = +(process.argv[4] || 72);
 const srt = fs.readFileSync(path.join(P, 'sottotitoli.srt'), 'utf8').trim().split(/\n\s*\n/);
 const ts = s => { const [h, m, r] = s.split(':'); const [sec, ms] = r.split(','); return +h * 3600 + +m * 60 + +sec + +ms / 1000; };
 const grezzi = srt.map(b => { const l = b.split('\n'); const [a, z] = l[1].split(' --> '); return { n: +l[0], a: ts(a), b: ts(z), testo: l.slice(2).join(' ') }; });
@@ -20,11 +21,11 @@ blocchi.forEach((x, i) => { x.n = i + 1; x.parti = grezzi.filter(g => g.a >= x.a
 const out = path.join(P, 'montaggio', 'sub'); fs.mkdirSync(out, { recursive: true });
 const font = 'font/eb-garamond-latin-400-italic.woff2';
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
-const pg = await b.newPage({ viewport: { width: 1080, height: 260 } });
+const pg = await b.newPage({ viewport: { width: W, height: 260 } });
 const html = path.join(QUI, '_sub.html');
 fs.writeFileSync(html, `<html><head><style>@font-face{font-family:G;src:url(${font})}html,body{margin:0;background:transparent}
 #t{position:absolute;left:36px;right:36px;top:0;height:260px;display:flex;align-items:center;justify-content:center;text-align:center;
-font:italic 72px/1.12 G;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.95),0 0 18px rgba(0,0,0,.8),0 0 40px rgba(0,0,0,.5)}</style></head><body><div id="t"></div></body></html>`);
+font:italic ${CORPO}px/1.12 G;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.95),0 0 18px rgba(0,0,0,.8),0 0 40px rgba(0,0,0,.5)}</style></head><body><div id="t"></div></body></html>`);
 await pg.goto('file://' + html);
 await pg.evaluate(() => document.fonts.load('italic 64px G'));
 for (const x of blocchi) {
