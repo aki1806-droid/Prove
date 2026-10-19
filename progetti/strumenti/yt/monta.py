@@ -30,9 +30,10 @@ def durata(p):
 
 def clip(src, wav, d, out):
     """Clip b-roll a schermo intero per tutta la scena: se è più corto della voce si rallenta (fino a ~1,7 volte),
-    con fotogrammi intermedi interpolati perché il movimento resti fluido."""
+    con fotogrammi intermedi sfumati perché il movimento resti fluido (mi_mode=blend: «mci» è più bello ma a 1080p
+    impiega ~9 minuti a scena)."""
     f = max(1.0, (d + 0.1) / durata(src))
-    lento = f'setpts={f:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir,' if f > 1.02 else ''
+    lento = f'setpts={f:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=blend,' if f > 1.02 else ''
     ff('-i', src, '-i', wav, '-filter_complex',
        f'[0:v]{lento}fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,'
        f'format=yuv420p[v]', '-map', '[v]', '-map', '1:a', '-t', f'{d:.3f}', '-c:v', 'libx264', '-crf', '16',
@@ -69,6 +70,8 @@ def monta(k):
     nb = 0
     for s in scene:
         sid = s['id']; d = tempi[sid]['durata']; out = f'{L}/{sid}.mov'; wav = f'{D}/audio/wav/{sid}.wav'
+        if os.environ.get('RIPRENDI') and os.path.exists(out):    # riprende un montaggio interrotto
+            pezzi.append(out); continue
         if s['tipo'] == 'avatar':
             a0 = tav[sid]['inizio']
             ff('-ss', f'{a0:.3f}', '-i', avatar, '-i', wav, '-map', '0:v', '-map', '1:a', '-t', f'{d:.3f}', '-vf',
