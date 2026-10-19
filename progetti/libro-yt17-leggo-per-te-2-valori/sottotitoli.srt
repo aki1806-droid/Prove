@@ -1,0 +1,667 @@
+1
+00:00:03,069 --> 00:00:04,355
+Ciao, sono Achille.
+
+2
+00:00:04,405 --> 00:00:06,010
+Oggi ti leggo una parte del capitolo
+
+3
+00:00:06,060 --> 00:00:09,357
+«Valori guida» del mio libro Il Volo delle Radici.
+
+4
+00:00:09,623 --> 00:00:11,159
+I valori guida sono i principi
+
+5
+00:00:11,209 --> 00:00:13,504
+fondamentali che definiscono chi siamo,
+
+6
+00:00:13,554 --> 00:00:15,435
+ciò in cui crediamo e come agiamo nel
+
+7
+00:00:15,485 --> 00:00:17,633
+mondo. Questi valori fungono da bussola
+
+8
+00:00:17,683 --> 00:00:19,832
+interiore, orientando le nostre decisioni,
+
+9
+00:00:19,882 --> 00:00:21,314
+le nostre priorità e il nostro
+
+10
+00:00:21,364 --> 00:00:22,375
+comportamento.
+
+11
+00:00:22,425 --> 00:00:24,271
+Nel corso della mia vita, sia personale
+
+12
+00:00:24,321 --> 00:00:26,513
+che professionale, l'identificazione e
+
+13
+00:00:26,563 --> 00:00:28,754
+l'adesione ai miei valori guida sono stati
+
+14
+00:00:28,804 --> 00:00:30,237
+essenziali per il mio percorso di
+
+15
+00:00:30,287 --> 00:00:32,582
+crescita, influenzando ogni aspetto della
+
+16
+00:00:32,632 --> 00:00:33,721
+mia esistenza.
+
+17
+00:00:34,080 --> 00:00:35,824
+Il processo di identificazione dei valori
+
+18
+00:00:35,874 --> 00:00:37,824
+personali è un viaggio introspettivo che
+
+19
+00:00:37,874 --> 00:00:40,168
+richiede tempo, riflessione e onestà con
+
+20
+00:00:40,218 --> 00:00:42,470
+se stessi. È un'esplorazione che va oltre
+
+21
+00:00:42,520 --> 00:00:43,814
+la superficie delle nostre azioni
+
+22
+00:00:43,864 --> 00:00:46,126
+quotidiane per scoprire le motivazioni più
+
+23
+00:00:46,176 --> 00:00:47,574
+profonde che guidano il nostro
+
+24
+00:00:47,624 --> 00:00:48,678
+comportamento.
+
+25
+00:00:48,972 --> 00:00:50,862
+Nel mio caso, questo processo è iniziato
+
+26
+00:00:50,912 --> 00:00:52,750
+fin dalla giovane età, influenzato dalle
+
+27
+00:00:52,800 --> 00:00:54,578
+esperienze familiari, dall'educazione
+
+28
+00:00:54,628 --> 00:00:56,776
+ricevuta e dalle prime esperienze di vita.
+
+29
+00:00:56,826 --> 00:00:58,673
+Tuttavia, è stato solo con la maturità e
+
+30
+00:00:58,723 --> 00:01:00,466
+l'esperienza che ho potuto veramente
+
+31
+00:01:00,516 --> 00:01:02,569
+articolare e comprendere appieno i miei
+
+32
+00:01:02,619 --> 00:01:03,916
+valori fondamentali.
+
+33
+00:01:04,217 --> 00:01:05,615
+Tra i valori che ho identificato come
+
+34
+00:01:05,665 --> 00:01:07,270
+centrali nella mia vita ci sono
+
+35
+00:01:07,320 --> 00:01:10,098
+l'integrità, l'empatia, la giustizia, la
+
+36
+00:01:10,148 --> 00:01:11,960
+crescita personale e il servizio agli
+
+37
+00:01:12,010 --> 00:01:14,434
+altri. Questi valori non sono emersi tutti
+
+38
+00:01:14,484 --> 00:01:15,951
+contemporaneamente, ma si sono
+
+39
+00:01:16,001 --> 00:01:18,055
+cristallizzati gradualmente attraverso
+
+40
+00:01:18,105 --> 00:01:21,057
+diverse esperienze di vita e momenti di riflessione.
+
+41
+00:01:21,368 --> 00:01:23,456
+L'integrità, ad esempio, è diventata un
+
+42
+00:01:23,506 --> 00:01:25,594
+valore fondamentale dopo aver osservato le
+
+43
+00:01:25,644 --> 00:01:27,456
+conseguenze della disonestà in vari
+
+44
+00:01:27,506 --> 00:01:30,240
+contesti, sia personali che professionali.
+
+45
+00:01:30,290 --> 00:01:32,309
+Ho imparato che essere fedeli a se stessi
+
+46
+00:01:32,359 --> 00:01:34,137
+e ai propri principi, anche quando è
+
+47
+00:01:34,187 --> 00:01:36,266
+scomodo o svantaggioso, porta a lungo
+
+48
+00:01:36,316 --> 00:01:38,128
+termine a una vita più autentica e
+
+49
+00:01:38,178 --> 00:01:39,337
+soddisfacente.
+
+50
+00:01:39,610 --> 00:01:41,284
+L'empatia è un valore che ho coltivato
+
+51
+00:01:41,334 --> 00:01:42,801
+attraverso le mie esperienze come
+
+52
+00:01:42,851 --> 00:01:44,663
+infermiere, ma anche nelle mie relazioni
+
+53
+00:01:44,713 --> 00:01:46,793
+personali. Ho scoperto che la capacità di
+
+54
+00:01:46,843 --> 00:01:48,827
+mettersi nei panni degli altri non solo
+
+55
+00:01:48,877 --> 00:01:50,517
+migliora la qualità delle cure che posso
+
+56
+00:01:50,567 --> 00:01:52,620
+offrire ai pazienti, ma arricchisce anche
+
+57
+00:01:52,670 --> 00:01:54,967
+le mie relazioni familiari e amicali.
+
+58
+00:01:55,250 --> 00:01:57,022
+Questo valore mi guida non solo nel mio
+
+59
+00:01:57,072 --> 00:01:58,988
+lavoro, ma anche in come interagisco con
+
+60
+00:01:59,038 --> 00:02:00,850
+la mia comunità e in come educo i miei
+
+61
+00:02:00,900 --> 00:02:02,884
+figli sull'importanza dell'equità e del
+
+62
+00:02:02,934 --> 00:02:04,198
+rispetto reciproco.
+
+63
+00:02:04,478 --> 00:02:06,221
+La crescita personale è diventata un
+
+64
+00:02:06,271 --> 00:02:08,221
+valore centrale quando ho realizzato che
+
+65
+00:02:08,271 --> 00:02:10,359
+il cambiamento e l'apprendimento continuo
+
+66
+00:02:10,409 --> 00:02:12,661
+sono essenziali per una vita appagante.
+
+67
+00:02:12,711 --> 00:02:14,316
+Questo valore mi spinge a cercare
+
+68
+00:02:14,366 --> 00:02:16,592
+costantemente nuove sfide e opportunità di
+
+69
+00:02:16,642 --> 00:02:18,618
+apprendimento, sia nella mia carriera che
+
+70
+00:02:18,668 --> 00:02:20,309
+nei miei interessi personali.
+
+71
+00:02:20,501 --> 00:02:22,313
+Il servizio agli altri, infine, è un
+
+72
+00:02:22,363 --> 00:02:24,072
+valore che unisce la mia vocazione
+
+73
+00:02:24,122 --> 00:02:25,865
+professionale con il mio desiderio di
+
+74
+00:02:25,915 --> 00:02:27,925
+contribuire positivamente alla società.
+
+75
+00:02:27,975 --> 00:02:29,925
+Questo valore si manifesta non solo nel
+
+76
+00:02:29,975 --> 00:02:31,856
+mio lavoro come infermiere, ma anche nel
+
+77
+00:02:31,906 --> 00:02:33,925
+volontariato e nel supporto che offro alla
+
+78
+00:02:33,975 --> 00:02:35,892
+mia famiglia e alla mia comunità.
+
+79
+00:02:36,168 --> 00:02:37,704
+Per identificare questi valori, ho
+
+80
+00:02:37,754 --> 00:02:39,221
+utilizzato diverse tecniche di
+
+81
+00:02:39,271 --> 00:02:41,178
+riflessione. Ho cercato feedback da
+
+82
+00:02:41,228 --> 00:02:43,247
+persone di cui mi fidavo, e ho dedicato
+
+83
+00:02:43,297 --> 00:02:44,859
+del tempo all'introspezione.
+
+84
+00:02:44,909 --> 00:02:46,480
+Ho anche trovato utile riflettere su
+
+85
+00:02:46,530 --> 00:02:48,583
+persone che ammiravo, cercando di capire
+
+86
+00:02:48,633 --> 00:02:51,309
+quali qualità o valori mi attiravano in loro.
+
+87
+00:02:51,573 --> 00:02:53,420
+Vivere in linea con i propri valori è una
+
+88
+00:02:53,470 --> 00:02:55,040
+sfida quotidiana che richiede
+
+89
+00:02:55,090 --> 00:02:57,928
+consapevolezza, impegno e spesso coraggio.
+
+90
+00:02:57,978 --> 00:02:59,963
+Non si tratta solo di grandi decisioni o
+
+91
+00:03:00,013 --> 00:03:02,101
+momenti cruciali, ma di come affrontiamo
+
+92
+00:03:02,151 --> 00:03:05,309
+ogni giorno, ogni interazione, ogni scelta.
+
+93
+00:03:05,611 --> 00:03:07,285
+Nel mio ruolo di infermiere, vivere
+
+94
+00:03:07,335 --> 00:03:08,940
+secondo i miei valori ha significato
+
+95
+00:03:08,990 --> 00:03:11,044
+andare oltre la semplice esecuzione di
+
+96
+00:03:11,094 --> 00:03:12,070
+compiti tecnici.
+
+97
+00:03:12,120 --> 00:03:13,656
+Ho cercato di portare empatia e
+
+98
+00:03:13,706 --> 00:03:15,518
+compassione in ogni interazione con i
+
+99
+00:03:15,568 --> 00:03:17,923
+pazienti, anche in situazioni stressanti o
+
+100
+00:03:17,973 --> 00:03:19,259
+con pazienti difficili.
+
+101
+00:03:19,309 --> 00:03:21,018
+Ho imparato che un semplice gesto di
+
+102
+00:03:21,068 --> 00:03:23,466
+gentilezza o un momento di ascolto attento
+
+103
+00:03:23,516 --> 00:03:25,052
+può fare una grande differenza nel
+
+104
+00:03:25,102 --> 00:03:26,606
+benessere di un paziente.
+
+105
+00:03:26,918 --> 00:03:28,937
+Nella mia vita personale, vivere secondo i
+
+106
+00:03:28,987 --> 00:03:31,040
+miei valori ha influenzato profondamente
+
+107
+00:03:31,090 --> 00:03:33,308
+le mie relazioni familiari e amicali.
+
+108
+00:03:33,358 --> 00:03:35,583
+L'integrità, ad esempio, si è manifestata
+
+109
+00:03:35,633 --> 00:03:37,583
+nell'essere sempre onesto con mia moglie e
+
+110
+00:03:37,633 --> 00:03:39,368
+i miei figli, anche quando sarebbe stato
+
+111
+00:03:39,418 --> 00:03:41,187
+più facile nascondere la verità.
+
+112
+00:03:41,237 --> 00:03:42,911
+L'empatia mi ha aiutato a essere un
+
+113
+00:03:42,961 --> 00:03:45,361
+partner e un genitore più comprensivo.
+
+114
+00:03:45,574 --> 00:03:47,317
+La crescita personale mi ha spinto a
+
+115
+00:03:47,367 --> 00:03:49,731
+cercare costantemente nuove sfide e
+
+116
+00:03:49,781 --> 00:03:51,067
+opportunità di apprendimento.
+
+117
+00:03:51,117 --> 00:03:52,895
+Questo si è manifestato non solo nella mia
+
+118
+00:03:52,945 --> 00:03:54,688
+carriera, ma anche nei miei hobby e
+
+119
+00:03:54,738 --> 00:03:55,955
+interessi personali.
+
+120
+00:03:56,005 --> 00:03:57,334
+Ho cominciato ad appassionarmi alla
+
+121
+00:03:57,384 --> 00:03:59,300
+coltura idroponica e ad alimentare la
+
+122
+00:03:59,350 --> 00:04:01,369
+passione per le cose che “crescono” e ho
+
+123
+00:04:01,419 --> 00:04:03,472
+cercato di espandere costantemente le mie
+
+124
+00:04:03,522 --> 00:04:05,610
+conoscenze attraverso la lettura e la
+
+125
+00:04:05,660 --> 00:04:07,164
+partecipazione a corsi.
+
+126
+00:04:07,440 --> 00:04:09,252
+Vivere secondo i propri valori non è
+
+127
+00:04:09,302 --> 00:04:10,174
+sempre facile.
+
+128
+00:04:10,224 --> 00:04:12,174
+Ci sono state situazioni in cui ho dovuto
+
+129
+00:04:12,224 --> 00:04:14,450
+prendere decisioni difficili che andavano
+
+130
+00:04:14,500 --> 00:04:15,899
+contro il mio interesse personale
+
+131
+00:04:15,949 --> 00:04:17,899
+immediato, ma che erano in linea con i
+
+132
+00:04:17,949 --> 00:04:19,304
+miei valori fondamentali.
+
+133
+00:04:19,354 --> 00:04:21,269
+Queste decisioni, anche se talvolta
+
+134
+00:04:21,319 --> 00:04:23,890
+dolorose sul momento, hanno sempre portato
+
+135
+00:04:23,940 --> 00:04:25,787
+a una maggiore soddisfazione e pace
+
+136
+00:04:25,837 --> 00:04:27,547
+interiore nel lungo termine.
+
+137
+00:04:27,877 --> 00:04:29,965
+L'autenticità e la coerenza sono qualità
+
+138
+00:04:30,015 --> 00:04:31,758
+essenziali per una vita guidata dai
+
+139
+00:04:31,808 --> 00:04:34,060
+valori. L'autenticità significa essere
+
+140
+00:04:34,110 --> 00:04:36,155
+veri con se stessi e con gli altri,
+
+141
+00:04:36,205 --> 00:04:38,224
+esprimendo i propri valori e convinzioni
+
+142
+00:04:38,274 --> 00:04:39,422
+in modo genuino.
+
+143
+00:04:39,472 --> 00:04:41,560
+La coerenza, d'altra parte, implica
+
+144
+00:04:41,610 --> 00:04:43,698
+l'allineamento tra ciò che diciamo e ciò
+
+145
+00:04:43,748 --> 00:04:44,699
+che facciamo.
+
+146
+00:04:45,026 --> 00:04:46,985
+Nella mia esperienza, l'autenticità ha
+
+147
+00:04:47,035 --> 00:04:48,779
+richiesto il coraggio di mostrare la mia
+
+148
+00:04:48,829 --> 00:04:51,011
+vera personalità, con le mie forze e le
+
+149
+00:04:51,061 --> 00:04:51,934
+mie debolezze.
+
+150
+00:04:51,984 --> 00:04:53,727
+Ciò ha significato ammettere quando non
+
+151
+00:04:53,777 --> 00:04:55,787
+sapevo qualcosa, chiedere aiuto quando ne
+
+152
+00:04:55,837 --> 00:04:58,201
+avevo bisogno, e esprimere le mie opinioni
+
+153
+00:04:58,251 --> 00:05:00,030
+anche quando non erano popolari.
+
+154
+00:05:00,338 --> 00:05:01,815
+Un esempio di come ho cercato di essere
+
+155
+00:05:01,865 --> 00:05:03,470
+autentico è stato quando ho dovuto
+
+156
+00:05:03,520 --> 00:05:05,565
+affrontare un conflitto con un collega.
+
+157
+00:05:05,615 --> 00:05:07,461
+Invece di evitare la situazione o di
+
+158
+00:05:07,511 --> 00:05:09,496
+reagire in modo aggressivo, ho scelto di
+
+159
+00:05:09,546 --> 00:05:12,116
+avere una conversazione onesta e aperta,
+
+160
+00:05:12,166 --> 00:05:13,634
+esprimendo i miei sentimenti e
+
+161
+00:05:13,684 --> 00:05:15,797
+preoccupazioni in modo rispettoso.
+
+162
+00:05:15,847 --> 00:05:17,487
+Questa autenticità ha permesso di
+
+163
+00:05:17,537 --> 00:05:19,660
+risolvere il conflitto in modo costruttivo
+
+164
+00:05:19,710 --> 00:05:22,213
+e ha rafforzato la nostra relazione lavorativa.
+
+165
+00:05:22,547 --> 00:05:24,521
+Questo era un capitolo de Il Volo delle
+
+166
+00:05:24,571 --> 00:05:26,866
+Radici. Se vuoi leggere il resto, trovi il
+
+167
+00:05:26,916 --> 00:05:28,281
+link nella descrizione.
