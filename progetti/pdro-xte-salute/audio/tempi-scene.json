@@ -1,0 +1,62 @@
+[
+ {
+  "id": "S01",
+  "tipo": "achille",
+  "inizio": 0.0,
+  "durata": 12.6781
+ },
+ {
+  "id": "S02",
+  "tipo": "achille",
+  "inizio": 12.6781,
+  "durata": 12.5905
+ },
+ {
+  "id": "S03",
+  "tipo": "achille",
+  "inizio": 25.2685,
+  "durata": 17.5931
+ },
+ {
+  "id": "S04",
+  "tipo": "achille",
+  "inizio": 42.8616,
+  "durata": 14.0701
+ },
+ {
+  "id": "S05",
+  "tipo": "achille",
+  "inizio": 56.9317,
+  "durata": 13.5002
+ },
+ {
+  "id": "S06",
+  "tipo": "achille",
+  "inizio": 70.4319,
+  "durata": 17.9078
+ },
+ {
+  "id": "S07",
+  "tipo": "achille",
+  "inizio": 88.3397,
+  "durata": 12.471
+ },
+ {
+  "id": "S08",
+  "tipo": "achille",
+  "inizio": 100.8107,
+  "durata": 15.4763
+ },
+ {
+  "id": "S09",
+  "tipo": "achille",
+  "inizio": 116.2871,
+  "durata": 12.8636
+ },
+ {
+  "id": "S10",
+  "tipo": "achille",
+  "inizio": 129.1507,
+  "durata": 11.4204
+ }
+]

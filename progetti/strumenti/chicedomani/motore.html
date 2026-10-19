@@ -3,7 +3,7 @@
      Rimette a tempo, sulle parole della voce, i pezzi ritagliati dalle grafiche del pacchetto
      (pezzi.py) secondo la regia di serie.py (ANIM). Lo pilota rendi.mjs:
        await prepara(dati)   dati = {base, pezzi, parole, anim}  (base = cartella del progetto, file://)
-       disegna(scena, t)     disegna un fotogramma nel canvas 1080x1920 (trasparente per gli overlay) -->
+       disegna(scena, t)     disegna un fotogramma nel canvas 1080x1920, o W x H se dati li porta (trasparente per gli overlay) -->
 <html><head><meta charset="utf-8">
 <style>
 @font-face{font-family:M;font-weight:800;src:url(font/montserrat-latin-800-normal.woff2)}
@@ -13,7 +13,7 @@ canvas{display:block}
 </style></head><body>
 <canvas id="c" width="1080" height="1920"></canvas>
 <script>
-const W = 1080, H = 1920, cv = document.getElementById('c'), ctx = cv.getContext('2d');
+let W = 1080, H = 1920; const cv = document.getElementById('c'), ctx = cv.getContext('2d');   // 16:9 se dati.W/dati.H
 let D = null; const IMG = {}; const TESTI = {};
 
 // ---------- utilità ----------
@@ -65,7 +65,8 @@ function rendiTesto(id, s) {
 }
 
 window.prepara = async function (dati) {
-  D = dati; await document.fonts.load('900 40px M'); await document.fonts.load('800 40px M');
+  D = dati; if (D.W) { W = D.W; H = D.H; cv.width = W; cv.height = H; }
+  await document.fonts.load('900 40px M'); await document.fonts.load('800 40px M');
   for (const [sid, sc] of Object.entries(D.anim)) {
     D._sid = sid; D.pezzi[sid] = D.pezzi[sid] || {};
     for (const [id, s] of Object.entries(sc.testi || {})) rendiTesto(id, s);

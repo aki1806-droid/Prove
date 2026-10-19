@@ -1,0 +1,116 @@
+{
+  "titolo": "XTE Salute - convenzione CISL FP",
+  "formato": "16:9",
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "scene": [
+    {
+      "ordine": 1,
+      "id": "S00_copertina",
+      "tipo": "slide",
+      "visual": "02_slide/S00_copertina.png",
+      "audio": null,
+      "caratteri": 0,
+      "durata_stimata_s": 3
+    },
+    {
+      "ordine": 2,
+      "id": "A01_apertura",
+      "tipo": "avatar",
+      "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+      "audio": "01_script/blocchi_voce/02_A01_apertura.txt → 02_A01_apertura.mp3",
+      "caratteri": 220,
+      "durata_stimata_s": 13.5
+    },
+    {
+      "ordine": 3,
+      "id": "S02_cos_e",
+      "tipo": "slide",
+      "visual": "02_slide/S02_cos_e.png",
+      "audio": "01_script/blocchi_voce/03_S02_cos_e.txt → 03_S02_cos_e.mp3",
+      "caratteri": 211,
+      "durata_stimata_s": 13.0
+    },
+    {
+      "ordine": 4,
+      "id": "S03_servizi",
+      "tipo": "slide",
+      "visual": "02_slide/S03_servizi.png",
+      "audio": "01_script/blocchi_voce/04_S03_servizi.txt → 04_S03_servizi.mp3",
+      "caratteri": 298,
+      "durata_stimata_s": 18.3
+    },
+    {
+      "ordine": 5,
+      "id": "A04_famiglia",
+      "tipo": "avatar",
+      "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+      "audio": "01_script/blocchi_voce/05_A04_famiglia.txt → 05_A04_famiglia.mp3",
+      "caratteri": 265,
+      "durata_stimata_s": 16.3
+    },
+    {
+      "ordine": 6,
+      "id": "S05_smartwatch",
+      "tipo": "slide",
+      "visual": "02_slide/S05_smartwatch.png",
+      "audio": "01_script/blocchi_voce/06_S05_smartwatch.txt → 06_S05_smartwatch.mp3",
+      "caratteri": 242,
+      "durata_stimata_s": 14.9
+    },
+    {
+      "ordine": 7,
+      "id": "S06_prezzi",
+      "tipo": "slide",
+      "visual": "02_slide/S06_prezzi.png",
+      "audio": "01_script/blocchi_voce/07_S06_prezzi.txt → 07_S06_prezzi.mp3",
+      "caratteri": 293,
+      "durata_stimata_s": 18.0
+    },
+    {
+      "ordine": 8,
+      "id": "S07_condizioni",
+      "tipo": "slide",
+      "visual": "02_slide/S07_condizioni.png",
+      "audio": "01_script/blocchi_voce/08_S07_condizioni.txt → 08_S07_condizioni.mp3",
+      "caratteri": 237,
+      "durata_stimata_s": 14.6
+    },
+    {
+      "ordine": 9,
+      "id": "A08_valori",
+      "tipo": "avatar",
+      "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+      "audio": "01_script/blocchi_voce/09_A08_valori.txt → 09_A08_valori.mp3",
+      "caratteri": 284,
+      "durata_stimata_s": 17.5
+    },
+    {
+      "ordine": 10,
+      "id": "S09_attivare",
+      "tipo": "slide",
+      "visual": "02_slide/S09_attivare.png",
+      "audio": "01_script/blocchi_voce/10_S09_attivare.txt → 10_S09_attivare.mp3",
+      "caratteri": 185,
+      "durata_stimata_s": 11.4
+    },
+    {
+      "ordine": 11,
+      "id": "A10_chiusura",
+      "tipo": "avatar",
+      "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+      "audio": "01_script/blocchi_voce/11_A10_chiusura.txt → 11_A10_chiusura.mp3",
+      "caratteri": 211,
+      "durata_stimata_s": 13.0
+    },
+    {
+      "ordine": 12,
+      "id": "S11_chiusura",
+      "tipo": "slide",
+      "visual": "02_slide/S11_chiusura.png",
+      "audio": null,
+      "caratteri": 0,
+      "durata_stimata_s": 10
+    }
+  ]
+}

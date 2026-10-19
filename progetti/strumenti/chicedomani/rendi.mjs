@@ -12,9 +12,11 @@ const [prog, sid, modo, a3, a4] = process.argv.slice(2);
 const base = path.resolve(prog);
 const leggi = f => JSON.parse(fs.readFileSync(path.join(base, f), 'utf8'));
 const anim = leggi('grafica/anim.json');
-const dati = { base: 'file://' + base, pezzi: leggi('grafica/pezzi.json'), parole: leggi('audio/parole.json'), anim: { [sid]: anim[sid] } };
+// formato: grafica/formato.json {"W":1920,"H":1080} per i video orizzontali; senza, il reel 1080x1920
+const fmt = fs.existsSync(path.join(base, 'grafica/formato.json')) ? leggi('grafica/formato.json') : { W: 1080, H: 1920 };
+const dati = { base: 'file://' + base, pezzi: leggi('grafica/pezzi.json'), parole: leggi('audio/parole.json'), anim: { [sid]: anim[sid] }, ...fmt };
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
-const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });
+const pg = await b.newPage({ viewport: { width: fmt.W, height: fmt.H } });
 pg.on('pageerror', e => { console.error('ERRORE', e.message); process.exit(1); });
 await pg.goto('file://' + path.join(QUI, 'motore.html'));
 await pg.evaluate(d => window.prepara(d), dati);

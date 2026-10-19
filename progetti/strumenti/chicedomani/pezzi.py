@@ -7,7 +7,7 @@ o a tinta unita non si vede). Quello che resta è il «fondo» su cui il motore 
 
     python3 pezzi.py            -> per ogni episodio grafica/pezzi/<scena>/*.png e grafica/pezzi.json
 
-Le coordinate sono in pixel della grafica 1080x1920. Le maschere:
+Le coordinate sono in pixel della grafica (1080x1920 nei reel, 1920x1080 nei video orizzontali). Le maschere:
   rect  [x0,y0,x1,y1]                  rettangolo
   rrect [x0,y0,x1,y1,raggio]           rettangolo arrotondato (telefoni, bottoni, card)
   poly  [[x,y],...]                    poligono (cartelli e pagine ruotati)
@@ -187,7 +187,7 @@ def scena(ep, sid, sp):
     fondi = sp.get('fondi') or ({'fondo': base} if base else {})
     for nome, p in fondi.items():
         Image.fromarray(img(p).clip(0, 255).astype(np.uint8), 'RGBA').save(f'{out}/{nome}.png')
-        info[nome] = [0, 0, 1080, 1920]
+        info[nome] = [0, 0, *Image.open(os.path.join(D, p)).size]
     return info
 
 

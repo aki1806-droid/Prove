@@ -1,0 +1,62 @@
+[
+ {
+  "id": "A01_apertura",
+  "tipo": "avatar",
+  "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+  "testo": "Dalla CISL FP di Padova e Rovigo, una novità che riguarda la tua salute e quella delle persone a cui vuoi bene. Si chiama XTE Salute: è la nuova convenzione nazionale riservata agli iscritti CISL FP e alle loro famiglie."
+ },
+ {
+  "id": "S02_cos_e",
+  "tipo": "slide",
+  "visual": "02_slide/S02_cos_e.png",
+  "testo": "XTE Salute è un sistema di sanità digitale integrata, autorizzato e certificato dal Ministero della Salute. Unisce telemedicina e tecnologia per offrirti monitoraggio, prevenzione e supporto medico continuativo."
+ },
+ {
+  "id": "S03_servizi",
+  "tipo": "slide",
+  "visual": "02_slide/S03_servizi.png",
+  "testo": "Cosa ottieni? Assistenza sanitaria ventiquattro ore su ventiquattro, sette giorni su sette, con medici e infermieri. Televisite illimitate dall'app XTE Salute, dove puoi anche inviare i sintomi in tempo reale. Un dossier sanitario sempre aggiornato. E percorsi personalizzati di prevenzione e cura."
+ },
+ {
+  "id": "A04_famiglia",
+  "tipo": "avatar",
+  "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+  "testo": "La centrale operativa ti segue nel triage, nella consulenza e nella gestione clinica, e i medici XTE possono anche prescrivere ricette bianche. Un riferimento sanitario rapido, che vale ancora di più quando si tratta di genitori anziani e delle persone più fragili."
+ },
+ {
+  "id": "S05_smartwatch",
+  "tipo": "slide",
+  "visual": "02_slide/S05_smartwatch.png",
+  "testo": "Con le formule Plus e Family ricevi in comodato d'uso uno smartwatch Garmin Venu 3, collegato all'app Garmin Connect, per raccogliere dati e indicatori di benessere. Se preferisci il Venu 4, basta un contributo una tantum di novantanove euro."
+ },
+ {
+  "id": "S06_prezzi",
+  "tipo": "slide",
+  "visual": "02_slide/S06_prezzi.png",
+  "testo": "Ecco i prezzi riservati agli iscritti. XTE Salute, abbonamento singolo: diciotto euro al mese, invece di ventinove. XTE Salute Plus, con smartwatch: sessantadue euro, invece di sessantanove. XTE Salute Family, fino a quattro persone con due smartwatch: ottantanove euro, invece di novantanove."
+ },
+ {
+  "id": "S07_condizioni",
+  "tipo": "slide",
+  "visual": "02_slide/S07_condizioni.png",
+  "testo": "Gli abbonamenti durano un anno, senza rinnovo automatico. Puoi pagare a rate mensili, senza costi aggiuntivi, oppure in un'unica soluzione. E se la spesa resta a tuo carico, puoi detrarla ai fini IRPEF, quando ne ricorrono i presupposti."
+ },
+ {
+  "id": "A08_valori",
+  "tipo": "avatar",
+  "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+  "testo": "Lo diciamo con chiarezza: XTE Salute non sostituisce il Servizio sanitario nazionale. Continueremo a difenderlo, pubblico e universale, come vuole l'articolo trentadue della Costituzione. Questa convenzione è uno strumento in più: è il welfare sindacale al servizio di chi è iscritto."
+ },
+ {
+  "id": "S09_attivare",
+  "tipo": "slide",
+  "visual": "02_slide/S09_attivare.png",
+  "testo": "Per attivarla vai su convenzionicislfp punto it, barra xte salute, clicca su Accedi e scegli il tuo abbonamento. Non sei ancora iscritto? Puoi farlo su cislfp punto it, barra iscriviti."
+ },
+ {
+  "id": "A10_chiusura",
+  "tipo": "avatar",
+  "visual": "avatar a piena inquadratura, nessuna grafica sopra",
+  "testo": "Nelle prossime settimane organizzeremo anche dei webinar di approfondimento. Per qualsiasi dubbio, scrivici o passa nelle nostre sedi di Padova e Rovigo. Prenderti cura della tua salute, da oggi, è più semplice."
+ }
+]
