@@ -1,0 +1,173 @@
+{
+  "progetto": "PDRO_Decreto_PA_legge_3_cose",
+  "titolo": "Decreto PA è legge – 3 cose che ti riguardano",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "fonte": "Nota CISL FP nazionale prot. PU/281/2026 del 29/09/2026 sulla conversione del DL 144/2026",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il decreto è legge",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "dl_aula.png",
+      "avatar": false,
+      "voce": "Il decreto PA è diventato legge. Più di mille emendamenti presentati, quasi tutti respinti. Ma dentro ci sono tre cose che riguardano da vicino chi lavora nella sanità pubblica. E una porta la firma della CISL FP.",
+      "parole": 37,
+      "durata_stimata_s": 14.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/dl_aula.png: lenta carrellata in avanti nell'aula vuota, luce calda che si accende dall'alto.",
+      "regia": "Bande nere; chip 'Decreto PA · ora è legge'; '3 COSE' entra con colpo di timpano."
+    },
+    {
+      "n": 2,
+      "titolo": "Diritti difesi",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "La prima. Le Regioni avevano provato a riscrivere per legge il diritto alla mensa o al buono pasto, e le voci di stipendio pagate durante le ferie. Diritti scritti nei contratti e confermati dai giudici. Quelle proposte sono state respinte.",
+      "parole": 40,
+      "durata_stimata_s": 16.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Lo scudo si forma; le tre parole entrano una alla volta; il timbro RESPINTO cade sull'ultima frase."
+    },
+    {
+      "n": 3,
+      "titolo": "Al tavolo, non dall'alto",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "dl_mensa.png",
+      "avatar": false,
+      "voce": "Per chi lavora a turni significa una cosa semplice: quello che hai conquistato con la contrattazione non si cancella con un emendamento. I contratti si cambiano al tavolo, non dall'alto.",
+      "parole": 30,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/dl_mensa.png: l'infermiera cammina con il vassoio e sorride, colleghi che pranzano sullo sfondo, luce calda.",
+      "regia": "Le frasi entrano sulle parole pronunciate."
+    },
+    {
+      "n": 4,
+      "titolo": "Fino al 20% dei posti",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "La seconda. Una proposta nata da CISL FP e FeLSA CISL è diventata legge. Nei concorsi indetti entro la fine del duemilaventisette, le amministrazioni potranno riservare fino al venti per cento dei posti a chi ha lavorato con contratti flessibili, anche in somministrazione.",
+      "parole": 43,
+      "durata_stimata_s": 18.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La fetta arancio si riempie fino al 20%; il numero conta da 0 a 20; la scadenza entra per ultima."
+    },
+    {
+      "n": 5,
+      "titolo": "I requisiti",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Il requisito: almeno tre anni di servizio negli ultimi cinque, anche non continuativi, nello stesso profilo e presso l'amministrazione che bandisce il concorso. E l'esperienza maturata potrà essere valorizzata.",
+      "parole": 29,
+      "durata_stimata_s": 14.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I cinque riquadri degli anni compaiono, tre si colorano di arancio; le quattro condizioni si spuntano una alla volta."
+    },
+    {
+      "n": 6,
+      "titolo": "Una strada concreta",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "dl_contratto.png",
+      "avatar": false,
+      "voce": "Chi oggi lavora da precario, magari attraverso un'agenzia, ha finalmente una strada concreta verso il tempo indeterminato.",
+      "parole": 17,
+      "durata_stimata_s": 8.4,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/dl_contratto.png: la penna firma il contratto, il collega porge la penna, leggero sorriso, luce calda.",
+      "regia": "Pausa emotiva, musica che si apre."
+    },
+    {
+      "n": 7,
+      "titolo": "Non è finita",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "La terza è quella che non abbiamo ottenuto: legare gli accreditamenti della sanità privata all'applicazione dei contratti firmati dai sindacati più rappresentativi. È stata respinta. Ma la riproporremo, in ogni provvedimento utile.",
+      "parole": 32,
+      "durata_stimata_s": 15.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Tono più grave; la card entra dal basso; 'Lo riproporremo' arriva deciso."
+    },
+    {
+      "n": 8,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Questa è la differenza tra protestare e ottenere: proposte precise, portate fino in fondo. Se lavori con un contratto a termine o in somministrazione, vieni a trovarci: verifichiamo insieme se hai i requisiti per la riserva. CISL FP Padova Rovigo, al tuo fianco.",
+      "parole": 43,
+      "durata_stimata_s": 16.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

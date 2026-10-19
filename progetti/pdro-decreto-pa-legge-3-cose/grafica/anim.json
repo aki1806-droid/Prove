@@ -1,0 +1,743 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"pop",
+"legge",
+0.45
+]
+},
+{
+"p": "tre",
+"in": [
+"slam",
+"tre",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"tre+0.5",
+1.2,
+0.04
+]
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"riguardano",
+0.8
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+900
+],
+[
+15,
+1.04,
+540,
+860
+]
+],
+"urti": [
+"quelle+0.3"
+],
+"strati": [
+{
+"p": "num",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit",
+"in": [
+"slam",
+0.3,
+0.3
+]
+},
+{
+"p": "scudo",
+"in": [
+"zoom",
+"prima+0.2",
+0.7
+],
+"figli": [
+{
+"p": "mensa",
+"in": [
+"risale",
+"mensa",
+0.45
+]
+},
+{
+"p": "buono",
+"in": [
+"risale",
+"buono",
+0.45
+]
+},
+{
+"p": "ferie",
+"in": [
+"risale",
+"ferie",
+0.45
+],
+"fx": [
+[
+"bagliore",
+"ferie+0.3",
+1.0
+]
+]
+}
+]
+},
+{
+"p": "tentativo",
+"in": [
+"wipe",
+"regioni",
+0.7
+]
+},
+{
+"p": "respinto",
+"in": [
+"drop",
+"quelle",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "r3",
+"in": [
+"wipe",
+"cancella",
+0.9
+]
+},
+{
+"p": "r1",
+"in": [
+"slam",
+"contratti",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"tavolo",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"tavolo+0.3",
+1.0
+]
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "num",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit1",
+"in": [
+"slam",
+"proposta",
+0.35
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+"diventata",
+0.35
+]
+},
+{
+"disegno": {
+"tipo": "torta",
+"t": "riservare",
+"d": 1.4,
+"cx": 540,
+"cy": 819,
+"r0": 150,
+"r1": 300,
+"ang": 72,
+"col": "rgb(243,146,0)"
+}
+},
+{
+"disegno": {
+"tipo": "contatore",
+"x": 556,
+"y": 910,
+"size": 112,
+"col": "#00532a",
+"align": "right",
+"v0": 0,
+"v1": 20,
+"t0": "riservare",
+"t1": "venti$"
+}
+},
+{
+"p": "perc",
+"in": [
+"pop",
+"riservare",
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"wipe",
+"posti",
+0.6
+]
+},
+{
+"p": "p2",
+"in": [
+"wipe",
+"lavorato",
+0.6
+]
+},
+{
+"p": "p3",
+"in": [
+"wipe",
+"flessibili",
+0.6
+]
+},
+{
+"p": "pill",
+"in": [
+"pop",
+"somministrazione+0.2",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"somministrazione+0.8",
+1.1,
+0.04
+]
+]
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "anno2",
+"in": [
+"pop",
+"almeno",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+-185,
+0
+]
+]
+},
+{
+"p": "anno2",
+"in": [
+"pop",
+"almeno+0.1",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+0,
+0
+]
+]
+},
+{
+"p": "anno2",
+"in": [
+"pop",
+"almeno+0.2",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+185,
+0
+]
+]
+},
+{
+"p": "anno2",
+"in": [
+"pop",
+"almeno+0.3",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+370,
+0
+]
+]
+},
+{
+"p": "anno2",
+"in": [
+"pop",
+"almeno+0.4",
+0.35
+],
+"fx": [
+[
+"sposta",
+0,
+0.01,
+555,
+0
+]
+]
+},
+{
+"p": "anno1",
+"in": [
+"pop",
+"anni",
+0.35
+]
+},
+{
+"p": "anno3",
+"in": [
+"pop",
+"anni+0.18",
+0.35
+]
+},
+{
+"p": "anno4",
+"in": [
+"pop",
+"anni+0.36",
+0.35
+]
+},
+{
+"p": "cap",
+"in": [
+"wipe",
+"negli",
+0.8
+]
+},
+{
+"p": "c1",
+"in": [
+"slideR",
+"stesso",
+0.5
+]
+},
+{
+"p": "v1",
+"in": [
+"pop",
+"profilo",
+0.35
+]
+},
+{
+"p": "c2",
+"in": [
+"slideR",
+"presso",
+0.5
+]
+},
+{
+"p": "v2",
+"in": [
+"pop",
+"bandisce",
+0.35
+]
+},
+{
+"p": "c3",
+"in": [
+"slideR",
+"concorso",
+0.5
+]
+},
+{
+"p": "v3",
+"in": [
+"pop",
+"concorso+0.35",
+0.35
+]
+},
+{
+"p": "c4",
+"in": [
+"slideR",
+"lesperienza",
+0.5
+]
+},
+{
+"p": "v4",
+"in": [
+"pop",
+"valorizzata",
+0.35
+]
+}
+]
+},
+"S06": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+"precario",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"strada",
+0.8
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"tempo",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"indeterminato",
+1.0
+]
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.05,
+540,
+900
+]
+],
+"urti": [
+"respinta+0.1"
+],
+"strati": [
+{
+"p": "num",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit",
+"in": [
+"slam",
+0.3,
+0.3
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+"ottenuto",
+0.7
+]
+},
+{
+"p": "ripro",
+"in": [
+"slam",
+"riproporremo",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"riproporremo+0.3",
+1.0
+]
+]
+},
+{
+"p": "ogni",
+"in": [
+"wipe",
+"ogni",
+0.8
+]
+}
+]
+},
+"S08": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.06,
+540,
+820
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+"proposte",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"protestare",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"portate",
+0.7
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+"trovarci",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"requisiti",
+1.1,
+0.04
+]
+]
+}
+]
+}
+}

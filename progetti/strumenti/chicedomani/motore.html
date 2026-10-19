@@ -178,6 +178,11 @@ function disegnaDisegno(dd, sid, t, f) {
       ctx.font = `900 ${dd.size}px M`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = dd.col || '#fff';
       dd.caselle.forEach(([cx, cy], i) => ctx.fillText(String(Math.floor(rnd(k * 7 + i * 13) * (dd.max ? dd.max[i] : 60))).padStart(2, '0'), cx, cy));
     }
+  } else if (dd.tipo === 'torta') {
+    // settore di corona circolare che si riempie in senso orario da ore 12 (cx, cy, r0, r1, ang in gradi)
+    const t0 = T(dd.t, sid), p = eIO(cl((t - t0) / (dd.d || 1.2)));
+    if (t >= t0 && p > 0) { const a0 = -Math.PI / 2, a1 = a0 + dd.ang * Math.PI / 180 * p;
+      ctx.fillStyle = dd.col; ctx.beginPath(); ctx.arc(dd.cx, dd.cy, dd.r1, a0, a1); ctx.arc(dd.cx, dd.cy, dd.r0, a1, a0, true); ctx.closePath(); ctx.fill(); }
   } else if (dd.tipo === 'riquadro') {
     const t0 = dd.t != null ? T(dd.t, sid) : 0, p = cl((t - t0) / (dd.d || .4));
     if (t >= t0) { ctx.globalAlpha *= p; ctx.fillStyle = dd.col; ctx.beginPath(); ctx.roundRect(dd.x0, dd.y0, dd.x1 - dd.x0, dd.y1 - dd.y0, dd.r || 0); ctx.fill(); }
