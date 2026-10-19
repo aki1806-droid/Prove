@@ -6,7 +6,7 @@ Copertina del pacchetto 3 s muta, poi le scene del COPIONE sulla voce (audio/wav
 chiusura 10 s muta (grafiche/chiusura_1920x1080.png, chiusura.mjs). Scene «AVATAR»: Aki a inquadratura piena,
 tagliato dal video avatar fatto su audio/voce-avatar.mp3 (le sole scene avatar in fila, tempi-avatar.json).
 Scene «B-ROLL»: la foto del pacchetto a schermo intero con uno zoom lento, alternando avanti e indietro; le bande
-nere che alcune foto hanno ai lati si tolgono prima. Tagli netti. Sottotitoli a parte (sottotitoli.srt, dalla
+nere che alcune foto hanno ai lati si tolgono prima (dal 19: il clip HeyGen in movimento, vedi MOVIMENTO). Tagli netti. Sottotitoli a parte (sottotitoli.srt, dalla
 voce, spostati di 3 s per la copertina): YouTube li mostra attivabili.
 """
 import json, os, re, subprocess, sys
@@ -16,10 +16,27 @@ from PIL import Image
 QUI = os.path.dirname(os.path.abspath(__file__))
 PR = os.path.dirname(os.path.dirname(QUI))
 FPS, COP, FINE = 25, 3.0, 10.0
-PROGETTI = {'yt17': 'libro-yt17-leggo-per-te-2-valori', 'yt18': 'libro-yt18-quindici-minuti', 'yt09': 'libro-yt09-due-nonni', 'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
-USCITA = {'yt17': 'YT17_Leggo_per_te_Valori_guida', 'yt18': 'YT18_Quindici_minuti_al_giorno', 'yt09': 'YT09_Due_nonni_il_mare_e_la_terra', 'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
+PROGETTI = {'yt19': 'libro-yt19-silenzio', 'yt20': 'libro-yt20-emozioni', 'yt17': 'libro-yt17-leggo-per-te-2-valori', 'yt18': 'libro-yt18-quindici-minuti', 'yt09': 'libro-yt09-due-nonni', 'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
+USCITA = {'yt19': 'YT19_Leggo_per_te_Il_silenzio', 'yt20': 'YT20_Leggo_per_te_Gestire_le_emozioni', 'yt17': 'YT17_Leggo_per_te_Valori_guida', 'yt18': 'YT18_Quindici_minuti_al_giorno', 'yt09': 'YT09_Due_nonni_il_mare_e_la_terra', 'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
           'yt12': 'YT12_Cosa_sono_le_mappe_silenziose'}
 ZOOM = 0.06         # quanto cresce (o cala) l'inquadratura delle foto in una scena
+MOVIMENTO = {'yt19', 'yt20'}   # b-roll col clip HeyGen in movimento (clip/broll_0N.mp4) invece della foto con lo zoom
+
+
+def durata(p):
+    return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
+                                capture_output=True, text=True, check=True).stdout)
+
+
+def clip(src, wav, d, out):
+    """Clip b-roll a schermo intero per tutta la scena: se è più corto della voce si rallenta (fino a ~1,7 volte),
+    con fotogrammi intermedi interpolati perché il movimento resti fluido."""
+    f = max(1.0, (d + 0.1) / durata(src))
+    lento = f'setpts={f:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir,' if f > 1.02 else ''
+    ff('-i', src, '-i', wav, '-filter_complex',
+       f'[0:v]{lento}fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,'
+       f'format=yuv420p[v]', '-map', '[v]', '-map', '1:a', '-t', f'{d:.3f}', '-c:v', 'libx264', '-crf', '16',
+       '-preset', 'medium', '-c:a', 'pcm_s16le', out)
 
 
 def ff(*a):
@@ -57,6 +74,8 @@ def monta(k):
             ff('-ss', f'{a0:.3f}', '-i', avatar, '-i', wav, '-map', '0:v', '-map', '1:a', '-t', f'{d:.3f}', '-vf',
                f'fps={FPS},scale=1920:1080:flags=lanczos,format=yuv420p', '-c:v', 'libx264', '-crf', '16',
                '-preset', 'medium', '-c:a', 'pcm_s16le', out)
+        elif k in MOVIMENTO:
+            clip(f"{D}/clip/{s['broll'].replace('.jpg', '.mp4')}", wav, d, out)
         else:
             foto = f'{L}/{sid}_foto.jpg'; senza_bande(f"{D}/b-roll_16x9/{s['broll']}", foto)
             n = round(d * FPS) + 1
