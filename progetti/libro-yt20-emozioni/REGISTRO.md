@@ -53,7 +53,7 @@ HeyGen (i clip in movimento pesano molto più delle foto); copia d'invio YT20_Le
 Sottotitoli: sottotitoli.srt (dalla voce, spostati di 3 s per la copertina) da caricare su YouTube.
 
 ## Originale su HeyGen
-ASSET
+Caricato il 19/10/2026 come asset a8f2f59556834c86a1e74d665df476f2: https://resource2.heygen.ai/video/a8f2f59556834c86a1e74d665df476f2/original.mp4
 
 ## Da fare (Achille)
 - Caricare su YouTube con sottotitoli.srt e la copertina del pacchetto come miniatura; schermata finale sugli ultimi 10 s.
