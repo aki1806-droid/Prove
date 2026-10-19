@@ -1,0 +1,4 @@
+Voce: Achille nuovo 1 (ElevenLabs voice_id KerPEYZvLEWNATg4AARX)
+Modello: eleven_v4
+Un file mp3 per parte (parte_01.mp3, parte_02.mp3...), oppure un unico file dal TESTO_COMPLETO.
+Tono caldo, colloquiale, ritmo di lettura calmo.
