@@ -1,0 +1,26 @@
+[
+ {
+  "id": "S01",
+  "immagine": "scena_01.jpg",
+  "testo": "Onorare la tua storia, mentre scrivi i prossimi capitoli della tua vita.",
+  "schermo": "Onorare la tua storia."
+ },
+ {
+  "id": "S02",
+  "immagine": "scena_02.jpg",
+  "testo": "Trovare forza nelle tue origini, mentre ti avventuri verso nuovi orizzonti.",
+  "schermo": "–"
+ },
+ {
+  "id": "S03",
+  "immagine": "scena_03.jpg",
+  "testo": "Il Volo delle Radici. Su Amazon, in Kindle e in cartaceo.",
+  "schermo": "–"
+ },
+ {
+  "id": "S04",
+  "immagine": "scena_04_chiusura.jpg",
+  "testo": "",
+  "schermo": "(nella grafica)"
+ }
+]

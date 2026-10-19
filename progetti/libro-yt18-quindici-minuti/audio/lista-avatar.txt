@@ -1,0 +1,4 @@
+file 'wav/S01.wav'
+file 'wav/S03.wav'
+file 'wav/S05.wav'
+file 'wav/S07.wav'

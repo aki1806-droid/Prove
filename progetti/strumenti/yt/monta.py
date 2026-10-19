@@ -16,8 +16,8 @@ from PIL import Image
 QUI = os.path.dirname(os.path.abspath(__file__))
 PR = os.path.dirname(os.path.dirname(QUI))
 FPS, COP, FINE = 25, 3.0, 10.0
-PROGETTI = {'yt09': 'libro-yt09-due-nonni', 'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
-USCITA = {'yt09': 'YT09_Due_nonni_il_mare_e_la_terra', 'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
+PROGETTI = {'yt17': 'libro-yt17-leggo-per-te-2-valori', 'yt18': 'libro-yt18-quindici-minuti', 'yt09': 'libro-yt09-due-nonni', 'yt10': 'libro-yt10-leggo-per-te-1', 'yt11': 'libro-yt11-momento-di-svolta', 'yt12': 'libro-yt12-mappe-silenziose'}
+USCITA = {'yt17': 'YT17_Leggo_per_te_Valori_guida', 'yt18': 'YT18_Quindici_minuti_al_giorno', 'yt09': 'YT09_Due_nonni_il_mare_e_la_terra', 'yt10': 'YT10_Leggo_per_te_Insegnamenti_fondamentali', 'yt11': 'YT11_Il_momento_di_svolta',
           'yt12': 'YT12_Cosa_sono_le_mappe_silenziose'}
 ZOOM = 0.06         # quanto cresce (o cala) l'inquadratura delle foto in una scena
 

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "S01",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Ciao, sono Achille. Oggi ti spiego come leggere Mappe Silenziose. Perché non è un libro da leggere tutto d'un fiato."
+ },
+ {
+  "id": "S02",
+  "tipo": "broll",
+  "broll": "broll_01.jpg",
+  "testo": "Sono venticinque tappe brevi, come le venticinque ore di un giorno vissuto pienamente. Ogni capitolo si legge in quindici minuti. Al mattino, prima che il telefono cominci a chiamarti. Oppure la sera, prima di dormire."
+ },
+ {
+  "id": "S03",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Il consiglio che ti do è uno solo: una tappa alla volta. Leggila, poi chiudi il libro. E lascia che quello che hai letto lavori dentro di te durante la giornata."
+ },
+ {
+  "id": "S04",
+  "tipo": "broll",
+  "broll": "broll_02.jpg",
+  "testo": "Perché il silenzio della mattina ha una qualità diversa da quello della sera. Il primo è gravido di possibilità, aperto a quello che il giorno porterà. Il secondo è ricolmo di quello che il giorno ha portato, denso di esperienze che chiedono di essere metabolizzate."
+ },
+ {
+  "id": "S05",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "E poi c'è una prova che propongo spesso: dieci minuti in silenzio con te stesso. Niente telefono, niente musica, niente da fare. I primi minuti sono scomodi. Poi qualcosa si deposita."
+ },
+ {
+  "id": "S06",
+  "tipo": "broll",
+  "broll": "broll_03.jpg",
+  "testo": "Non ti prometto che sarà facile. Ci saranno giorni in cui la fretta tornerà a bussare. Succede anche a me. La via della lentezza non è un percorso per anime perfette: è per esseri umani in cammino, che cadono e si rialzano."
+ },
+ {
+  "id": "S07",
+  "tipo": "avatar",
+  "broll": null,
+  "testo": "Quindici minuti al giorno. È poco, e può cambiare molto. Se vuoi cominciare, il link al libro è nella descrizione."
+ }
+]

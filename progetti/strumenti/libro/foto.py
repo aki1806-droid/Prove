@@ -24,6 +24,10 @@ PEZZI = {
     'bt9': dict(dir='libro-booktrailer-mappe-9x16', fmt='9x16', pausa=0.8, uscita='Booktrailer_Mappe_Silenziose_9x16'),
     'r3': dict(dir='libro-reel3-coraggio', fmt='9x16', pausa=0.5, uscita='Reel3_Coraggio_9x16'),
     'm1': dict(dir='libro-reel-mappe1-silenzio', fmt='9x16', pausa=0.5, uscita='Reel_Mappe1_Silenzio_9x16'),
+    'r4': dict(dir='libro-reel4-crescita', fmt='9x16', pausa=0.5, uscita='Reel4_Crescita_9x16'),
+    'm2': dict(dir='libro-reel-mappe2-parola-giusta', fmt='9x16', pausa=0.5, uscita='Reel_Mappe2_Parola_giusta_9x16'),
+    'r5': dict(dir='libro-reel5-gentilezza', fmt='9x16', pausa=0.5, uscita='Reel5_Gentilezza_9x16'),
+    'r6': dict(dir='libro-reel6-onorare-la-storia', fmt='9x16', pausa=0.5, uscita='Reel6_Onorare_la_storia_9x16'),
 }
 FORMATO = {'16x9': dict(W=1920, H=1080, sub_y=820, sub=(1920, 64)), '9x16': dict(W=1080, H=1920, sub_y=1560, sub=(1080, 72))}
 
@@ -72,6 +76,9 @@ def monta(k):
     scene = json.load(open(f'{D}/scene.json'))
     tempi = {t['id']: t['durata'] for t in json.load(open(f'{D}/audio/tempi-scene.json'))}
     parole = json.load(open(f'{D}/audio/parole.json'))
+    voce = [s for s in scene if s['id'] in tempi]       # la chiusura può essere muta (lotto 3: «Su Amazon» sta nella parte 3)
+    for s in scene:
+        tempi.setdefault(s['id'], 0.0); parole.setdefault(s['id'], [])
     N = len(scene)
     # quando parte la voce di ogni scena, dove si taglia, quanto dura tutto
     a, t = [], ATTACCO
@@ -80,9 +87,9 @@ def monta(k):
     fine = round(a[-1] + tempi[scene[-1]['id']] + CODA, 2)
     tagli = [a[i] - c['pausa'] / 2 for i in range(1, N)]; bordi = [0.0] + tagli + [fine]
     # voce: i blocchi in fila con le pause
-    fil = ''.join(f"[{i}:a]apad=whole_dur={tempi[s['id']] + c['pausa']:.3f}[p{i}];" for i, s in enumerate(scene))
-    fil += ''.join(f'[p{i}]' for i in range(N)) + f'concat=n={N}:v=0:a=1,adelay={int(ATTACCO * 1000)},apad=whole_dur={fine}[o]'
-    ff(*sum([['-i', f"{D}/audio/wav/{s['id']}.wav"] for s in scene], []), '-filter_complex', fil, '-map', '[o]',
+    fil = ''.join(f"[{i}:a]apad=whole_dur={tempi[s['id']] + c['pausa']:.3f}[p{i}];" for i, s in enumerate(voce))
+    fil += ''.join(f'[p{i}]' for i in range(len(voce))) + f'concat=n={len(voce)}:v=0:a=1,adelay={int(ATTACCO * 1000)},apad=whole_dur={fine}[o]'
+    ff(*sum([['-i', f"{D}/audio/wav/{s['id']}.wav"] for s in voce], []), '-filter_complex', fil, '-map', '[o]',
        '-t', f'{fine}', '-ar', '44100', f'{L}/voce.wav')
     # sottotitoli
     righe, nascosti = [], []

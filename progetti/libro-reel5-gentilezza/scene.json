@@ -1,0 +1,26 @@
+[
+ {
+  "id": "S01",
+  "immagine": "scena_01.jpg",
+  "testo": "Un semplice gesto di gentilezza, o un momento di ascolto attento, può fare una grande differenza nella giornata di qualcuno.",
+  "schermo": "–"
+ },
+ {
+  "id": "S02",
+  "immagine": "scena_02.jpg",
+  "testo": "L'ho imparato in corsia: la cura va oltre i farmaci.",
+  "schermo": "La cura va oltre i farmaci."
+ },
+ {
+  "id": "S03",
+  "immagine": "scena_03.jpg",
+  "testo": "Il Volo delle Radici. Su Amazon, in Kindle e in cartaceo.",
+  "schermo": "–"
+ },
+ {
+  "id": "S04",
+  "immagine": "scena_04_chiusura.jpg",
+  "testo": "",
+  "schermo": "(nella grafica)"
+ }
+]

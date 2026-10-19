@@ -1,0 +1,26 @@
+[
+ {
+  "id": "S01",
+  "immagine": "scena_01.jpg",
+  "testo": "«Andrà tutto bene.» Lo diciamo a chi soffre. Ma spesso serve a proteggere noi stessi dal silenzio.",
+  "schermo": "–"
+ },
+ {
+  "id": "S02",
+  "immagine": "scena_02.jpg",
+  "testo": "La parola giusta non esiste.",
+  "schermo": "La parola giusta non esiste."
+ },
+ {
+  "id": "S03",
+  "immagine": "scena_03.jpg",
+  "testo": "Esiste la presenza. Il tempo che dai. Il silenzio che sai reggere. Mappe Silenziose. Su Amazon.",
+  "schermo": "–"
+ },
+ {
+  "id": "S04",
+  "immagine": "scena_04_chiusura.jpg",
+  "testo": "",
+  "schermo": "(nella grafica)"
+ }
+]

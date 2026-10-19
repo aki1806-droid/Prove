@@ -1,0 +1,20 @@
+[
+ {
+  "id": "S01",
+  "tipo": "narratore",
+  "inizio": 0.0,
+  "durata": 7.145
+ },
+ {
+  "id": "S02",
+  "tipo": "narratore",
+  "inizio": 7.145,
+  "durata": 2.444
+ },
+ {
+  "id": "S03",
+  "tipo": "narratore",
+  "inizio": 9.589,
+  "durata": 8.073
+ }
+]
