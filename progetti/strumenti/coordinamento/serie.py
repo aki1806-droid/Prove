@@ -109,7 +109,7 @@ ANIM = {
         P('tit1', ['slam', 0.05, 0.3]), P('tit2', ['slam', 0.35, 0.3]),
         P('card', ['slideU', 'lindennita', 0.6]),
         P('cifra', ['slam', 'novemila', 0.35], fx=[['bagliore', 'novemila+0.3', 1.2]]),
-        P('k1', ['risale', 'incarichi', 0.5]), P('k2', ['risale', 'rinnovare', 0.5]), P('k3', ['risale', 'rinnovare+0.5', 0.5]),
+        P('k1', ['risale', 'incarichi', 0.5]), P('k2', ['risale', 'anni', 0.5]), P('k3', ['risale', 'possono', 0.5]),
     ]},
     'S04': ov([P('c12', ['pop', 'anno', 0.4]), P('c60', ['pop', 'sessanta', 0.4]), P('c500', ['pop', 'cinquecento', 0.4]),
                P('online', ['wipe', 'lezioni', 0.8]), P('turno', ['wipe', 'studia', 0.9])]),
