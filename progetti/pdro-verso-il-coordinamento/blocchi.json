@@ -1,0 +1,173 @@
+{
+  "progetto": "PDRO_Verso_il_coordinamento",
+  "titolo": "Verso il coordinamento – pacchetto master per gli iscritti",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "fonte": "Guida Master Coordinamento CISL FP Padova Rovigo, ottobre 2026",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Verso il coordinamento",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "mc_coord.png",
+      "avatar": false,
+      "voce": "Ogni reparto ha bisogno di qualcuno che tenga insieme turni, persone e qualità delle cure. Quel qualcuno potresti essere tu. Ma per diventare coordinatore serve una chiave precisa.",
+      "parole": 28,
+      "durata_stimata_s": 12.4,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/mc_coord.png: la coordinatrice parla al gruppo indicando il tablet, i colleghi annuiscono, leggero movimento di camera verso di lei.",
+      "regia": "Bande nere; chip arancio; titolo VERSO IL COORDINAMENTO in dissolvenza; musica ispirazionale."
+    },
+    {
+      "n": 2,
+      "titolo": "La chiave",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "La legge è chiara: servono un master universitario di primo livello in management o funzioni di coordinamento, e almeno tre anni di esperienza nel tuo profilo. Senza il master, la porta degli incarichi di coordinamento resta chiusa.",
+      "parole": 37,
+      "durata_stimata_s": 16.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La chiave arancio si disegna; i due denti si illuminano in corrispondenza dei due requisiti; le card entrano una alla volta."
+    },
+    {
+      "n": 3,
+      "titolo": "Il valore",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Ed è una porta che vale. L'indennità dipende dalla complessità che l'azienda attribuisce all'incarico: per quelli di elevata complessità il contratto prevede oltre novemila euro lordi l'anno. Gli incarichi durano fino a cinque anni e si possono rinnovare.",
+      "parole": 38,
+      "durata_stimata_s": 17.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La cifra conta in salita fino all'intervallo; le tre spunte compaiono in sequenza."
+    },
+    {
+      "n": 4,
+      "titolo": "Il master",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": "mc_studio.png",
+      "avatar": false,
+      "voce": "Il master dura un anno: sessanta crediti, lezioni online sempre accessibili e cinquecento ore di tirocinio. Si studia anche dopo il turno. E puoi iniziarlo prima di aver maturato i tre anni.",
+      "parole": 32,
+      "durata_stimata_s": 13.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/mc_studio.png: l'infermiere prende appunti, la videolezione scorre sul portatile, luce calda della lampada.",
+      "regia": "I tre chip compaiono sui numeri pronunciati."
+    },
+    {
+      "n": 5,
+      "titolo": "Il pacchetto",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Per questo la CISL FP Padova Rovigo offre ai suoi iscritti un pacchetto completo: Verso il coordinamento. Convenzioni con due atenei, una guida passo passo, e qualcuno che ti accompagna prima, durante e dopo il master.",
+      "parole": 36,
+      "durata_stimata_s": 15.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La scatola regalo si apre con un pop; il nome del pacchetto si scrive a mano; le cinque voci si spuntano in sequenza."
+    },
+    {
+      "n": 6,
+      "titolo": "Quanto risparmi",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Con UnitelmaSapienza il master costa seicentoquaranta euro invece di ottocentocinquanta, anche per i tuoi familiari. Con Pegaso, ottocento euro invece di millecinquecento, più il contributo servizi. In entrambi i casi puoi pagare a rate.",
+      "parole": 34,
+      "durata_stimata_s": 16.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I prezzi pieni vengono barrati in rosso, poi entrano i prezzi per gli iscritti con un 'ding'."
+    },
+    {
+      "n": 7,
+      "titolo": "Prima, durante, dopo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "illustrazione": null,
+      "avatar": false,
+      "voce": "Prima, ti aiutiamo a scegliere l'ateneo, ad attivare la convenzione e a chiedere le centocinquanta ore per il diritto allo studio. Durante, ti seguiamo nel tirocinio. Dopo, leggiamo con te il regolamento degli incarichi, controlliamo la domanda e simuliamo il colloquio.",
+      "parole": 41,
+      "durata_stimata_s": 18.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La linea verticale si disegna dall'alto; ogni fase si accende quando viene nominata."
+    },
+    {
+      "n": 8,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "illustrazione": null,
+      "avatar": true,
+      "voce": "Il master non ti dà l'incarico in automatico: è la chiave per candidarti. Noi vogliamo che tu arrivi a quella porta pronto. Attenzione: in Azienda Ospedale Università il bando per le centocinquanta ore scade l'undici novembre. Chiedi la guida e il pacchetto in sede, o scrivici. CISL FP Padova Rovigo.",
+      "parole": 50,
+      "durata_stimata_s": 18.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Badge rosso sulla scadenza; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

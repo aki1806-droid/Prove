@@ -1,0 +1,730 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"pop",
+0.6,
+0.45
+]
+},
+{
+"p": "r1",
+"in": [
+"fade",
+1.0,
+1.0
+]
+},
+{
+"p": "r2",
+"in": [
+"fade",
+1.5,
+1.1
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"quel",
+0.9
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+900
+],
+[
+14,
+1.04,
+540,
+860
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.35,
+0.3
+]
+},
+{
+"p": "anello",
+"in": [
+"zoom",
+"chiara",
+0.6
+]
+},
+{
+"p": "asta",
+"in": [
+"wipe",
+"chiara+0.4",
+0.8
+]
+},
+{
+"p": "d1",
+"in": [
+"wipeD",
+"master",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"master+0.3",
+1.0
+]
+]
+},
+{
+"p": "c1",
+"in": [
+"slideR",
+"master",
+0.5
+]
+},
+{
+"p": "d2",
+"in": [
+"wipeD",
+"almeno",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"almeno+0.3",
+1.0
+]
+]
+},
+{
+"p": "c2",
+"in": [
+"slideR",
+"almeno",
+0.5
+]
+},
+{
+"p": "legge",
+"in": [
+"fade",
+"profilo",
+0.6
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.04,
+540,
+900
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.35,
+0.3
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+"lindennita",
+0.6
+]
+},
+{
+"p": "cifra",
+"in": [
+"slam",
+"novemila",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"novemila+0.3",
+1.2
+]
+]
+},
+{
+"p": "k1",
+"in": [
+"risale",
+"incarichi",
+0.5
+]
+},
+{
+"p": "k2",
+"in": [
+"risale",
+"rinnovare",
+0.5
+]
+},
+{
+"p": "k3",
+"in": [
+"risale",
+"rinnovare+0.5",
+0.5
+]
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "c12",
+"in": [
+"pop",
+"anno",
+0.4
+]
+},
+{
+"p": "c60",
+"in": [
+"pop",
+"sessanta",
+0.4
+]
+},
+{
+"p": "c500",
+"in": [
+"pop",
+"cinquecento",
+0.4
+]
+},
+{
+"p": "online",
+"in": [
+"wipe",
+"lezioni",
+0.8
+]
+},
+{
+"p": "turno",
+"in": [
+"wipe",
+"studia",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "scatola",
+"in": [
+"zoom",
+0.15,
+0.5
+]
+},
+{
+"p": "fiocco",
+"in": [
+"pop",
+0.4,
+0.4
+]
+},
+{
+"p": "coperchio",
+"in": [
+"pop",
+0.35,
+0.4
+]
+},
+{
+"p": "tit",
+"in": [
+"slam",
+"pacchetto",
+0.35
+]
+},
+{
+"p": "nome",
+"in": [
+"wipe",
+"verso",
+1.0
+]
+},
+{
+"p": "v1",
+"in": [
+"slideR",
+"convenzioni",
+0.45
+]
+},
+{
+"p": "v2",
+"in": [
+"slideR",
+"guida",
+0.45
+]
+},
+{
+"p": "v3",
+"in": [
+"slideR",
+"passo#2",
+0.45
+]
+},
+{
+"p": "v4",
+"in": [
+"slideR",
+"accompagna",
+0.45
+]
+},
+{
+"p": "v5",
+"in": [
+"slideR",
+"dopo",
+0.45
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit1",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "tit2",
+"in": [
+"slam",
+0.35,
+0.3
+]
+},
+{
+"p": "card1",
+"in": [
+"slideR",
+"unitelmasapienza",
+0.5
+],
+"figli": [
+{
+"p": "o850",
+"in": [
+"fade",
+"unitelmasapienza",
+0.3
+]
+}
+]
+},
+{
+"disegno": {
+"tipo": "barra",
+"t": "seicentoquaranta",
+"d": 0.4,
+"x0": 615,
+"y0": 722,
+"x1": 790,
+"y1": 722,
+"col": "rgb(200,16,46)",
+"w": 7
+}
+},
+{
+"p": "n640",
+"in": [
+"slam",
+"seicentoquaranta+0.35",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"seicentoquaranta+0.6",
+1.0
+]
+]
+},
+{
+"p": "card2",
+"in": [
+"slideR",
+"pegaso",
+0.5
+],
+"figli": [
+{
+"p": "o1500",
+"in": [
+"fade",
+"pegaso",
+0.3
+]
+}
+]
+},
+{
+"disegno": {
+"tipo": "barra",
+"t": "ottocento",
+"d": 0.4,
+"x0": 615,
+"y0": 1092,
+"x1": 828,
+"y1": 1092,
+"col": "rgb(200,16,46)",
+"w": 7
+}
+},
+{
+"p": "n800",
+"in": [
+"slam",
+"ottocento+0.35",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"ottocento+0.6",
+1.0
+]
+]
+},
+{
+"p": "nota",
+"in": [
+"fade",
+"rate",
+0.6
+]
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "linea",
+"in": [
+"wipeD",
+0.3,
+1.6
+]
+},
+{
+"p": "p1",
+"in": [
+"pop",
+"prima",
+0.35
+]
+},
+{
+"p": "lab1",
+"in": [
+"slideR",
+"prima",
+0.4
+]
+},
+{
+"p": "b1",
+"in": [
+"wipe",
+"scegliere",
+0.9
+]
+},
+{
+"p": "p2",
+"in": [
+"pop",
+"durante",
+0.35
+]
+},
+{
+"p": "lab2",
+"in": [
+"slideR",
+"durante",
+0.4
+]
+},
+{
+"p": "b2",
+"in": [
+"wipe",
+"tirocinio",
+0.8
+]
+},
+{
+"p": "p3",
+"in": [
+"pop",
+"dopo",
+0.35
+]
+},
+{
+"p": "lab3",
+"in": [
+"slideR",
+"dopo",
+0.4
+]
+},
+{
+"p": "b3",
+"in": [
+"wipe",
+"regolamento",
+1.0
+]
+}
+]
+},
+"S08": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+17,
+1.05,
+540,
+820
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+"arrivi",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"pronto",
+0.35
+]
+},
+{
+"p": "badge",
+"in": [
+"pop",
+"attenzione",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"novembre",
+1.1,
+0.05
+]
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+"chiedi",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"scrivici",
+1.1,
+0.04
+]
+]
+}
+]
+}
+}
