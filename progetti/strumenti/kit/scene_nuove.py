@@ -2,7 +2,8 @@
   scene/s5_modulo.mp4  card «Come averlo» (grafiche.mjs): i tre passi entrano su «compili», «scegli», «kit»;
   scene/s6_canali.mp4  titolo e clip dei tre canali del pacchetto 16:9 (kit-contratto-heygen/clip/v08-clip-canali.mp4),
                        ritagliato senza il suo logo e portato a tutta larghezza;
-                       sotto, le card AOUP Padova / ULSS 6 / ULSS 5 sulle parole.
+                       sotto, le card AOUP Padova / ULSS 6 / ULSS 5 sulle parole;
+  scene/s7_chiusura.mp4 la chiusura del pacchetto (scene/s6.mp4) con i delegati di riferimento per azienda.
     python3 strumenti/kit/scene_nuove.py
 """
 import json, os, re, subprocess
@@ -41,4 +42,8 @@ for i, t in enumerate([quando(parole['S06'], 'azienda', 2), quando(parole['S06']
     fil.append(f"[{i + 1}:v]format=rgba,fade=in:st={t - 0.1:.2f}:d=0.35:alpha=1[n{i}];[b{i - 1}][n{i}]overlay=0:0[b{i}]")
 fil.append('[b3]format=yuv420p[v]')
 ff(*ins, '-filter_complex', ';'.join(fil), '-map', '[v]', '-t', f'{d:.3f}', '-c:v', 'libx264', '-crf', '16', f'{D}/scene/s6_canali.mp4')
+# S07: la chiusura del pacchetto (s6) col riquadro dei delegati per azienda, che entra quando la card è ferma
+ff('-i', f'{D}/scene/s6.mp4', '-loop', '1', '-i', f'{G}/s7_referenti.png', '-filter_complex',
+   '[1:v]format=rgba,fade=in:st=1.9:d=0.4:alpha=1[r];[0:v][r]overlay=0:0:shortest=1,format=yuv420p[v]',
+   '-map', '[v]', '-c:v', 'libx264', '-crf', '16', f'{D}/scene/s7_chiusura.mp4')
 print('scene nuove fatte')

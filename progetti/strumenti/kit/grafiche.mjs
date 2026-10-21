@@ -24,7 +24,12 @@ html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:transpa
 .n{position:absolute;left:90px;width:900px;height:108px;background:#fff;border-radius:30px;box-shadow:0 12px 34px rgba(20,60,40,.12);
    display:flex;align-items:center;gap:30px;box-sizing:border-box;padding-left:40px}
 .n i{width:30px;height:30px;border-radius:50%;background:rgb(37,211,102)}
-.n b{font:800 52px M;color:${SCURO}}`;
+.n b{font:800 52px M;color:${SCURO}}
+.r{position:absolute;left:45px;top:815px;width:990px;height:445px;background:#fff;border-radius:0 0 62px 62px;
+   box-shadow:0 34px 40px -24px rgba(20,60,40,.16);text-align:center;box-sizing:border-box;padding-top:18px}
+.r h3{margin:0 0 14px;font:800 36px M;color:${VERDE}}
+.r .a{font:800 29px/1.35 M;color:${VERDE};margin-top:12px}
+.r .c{font:800 26px/1.45 M;color:rgb(90,100,95)}`;
 const SPUNTA = '<svg width="46" height="46" viewBox="0 0 46 46"><path d="M7 24 L18 35 L39 11" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const PASSI = [['Compila il modulo', 470], ['Scegli la tua azienda', 680], ['Ricevi il kit nella mail', 890]];
 const pagine = {
@@ -33,6 +38,11 @@ const pagine = {
   s6_fondo: `<body style="background:${MENTA}"><div class="t">Il canale WhatsApp<br>della tua azienda</div></body>`,
   ...Object.fromEntries(['AOUP Padova', 'ULSS 6 Euganea', 'ULSS 5 Polesana'].map((t, i) =>
     [`s6_n${i + 1}`, `<body><div class="n" style="top:${1170 + i * 132}px"><i></i><b>${t}</b></div></body>`])),
+  // chiusura (21/10): i delegati di riferimento per azienda, al posto della riga coi soli numeri di Achille e Giovanna
+  s7_referenti: `<body><div class="r"><h3>Contatta il tuo delegato</h3>
+    <div class="a">AOUP Padova</div><div class="c">Achille 391 127 1018 · Giovanna 389 928 5301</div>
+    <div class="a">ULSS 6 Euganea</div><div class="c">Fabio Turato 335 686 5715 · Brenda Bergo 339 313 5967<br>Emiliano Bedon 346 743 0752 · Alessandro Piovan 335 746 9671</div>
+    <div class="a">ULSS 5 Polesana</div><div class="c">Carlo Cogo 335 109 9506</div></div></body>`,
 };
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
 const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });

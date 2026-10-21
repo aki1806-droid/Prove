@@ -20,8 +20,9 @@ AV_CROP, AV_H, AV_X = (520, 0, 1100, 1080), 560, 754
 CON_AVATAR = {'S01', 'S07'}
 # scena -> video. Dal 21/10 la S05 del pacchetto («entra nel canale…») è sostituita da due scene nuove
 # (scene_nuove.py): il modulo e i tre canali WhatsApp; la chiusura del pacchetto (s6) diventa S07.
-SCENE = {'S01': 's1', 'S02': 's2', 'S03': 's3', 'S04': 's4', 'S05': 's5_modulo', 'S06': 's6_canali', 'S07': 's6'}
+SCENE = {'S01': 's1', 'S02': 's2', 'S03': 's3', 'S04': 's4', 'S05': 's5_modulo', 'S06': 's6_canali', 'S07': 's7_chiusura'}
 SUB_Y = {False: 1700, True: 1335}          # fondo del riquadro dei sottotitoli
+SUB_SCENA = {'S07': 300}                    # chiusura: card lunga fino a 1260 e avatar sotto, sottotitoli in alto
 MAXR = 26                                   # caratteri per riga
 
 
@@ -82,7 +83,7 @@ def monta():
            '-map', '[v]', '-map', '[a]', '-t', f'{d:.3f}', '-c:v', 'libx264', '-crf', '16', '-preset', 'medium',
            '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '1', out)
         lista.append(out)
-        y = SUB_Y[sid in CON_AVATAR]
+        y = SUB_SCENA.get(sid, SUB_Y[sid in CON_AVATAR])
         cc = pezzi(parole[sid])
         for j, c in enumerate(cc):
             a, b = t0 + c[0]['a'] - 0.05, t0 + c[-1]['b'] + 0.25

@@ -20,6 +20,7 @@ Si fanno **tutte insieme**, in una sola domanda a scelta multipla:
 |---|---|
 | **Con quale strumento faccio la voce?** (si chiede **sempre**, regola del CLAUDE.md) | «HeyGen come passante» oppure «ElevenLabs diretto» |
 | **Su quale account HeyGen lavoro?** (il pacchetto lo chiede sempre) | «quello del connettore» |
+| **È per il provinciale (Padova e Rovigo, tutti i territori) o solo per l'Azienda Ospedale-Università?** (si chiede **sempre**, dal 21/10/2026) | decide territori, canali WhatsApp e delegati da citare (`metodo/REFERENTI-CISL-FP.md`) |
 | **Le grafiche come le faccio?** | «animate come il Decreto PA» oppure «ferme con zoom lento» |
 
 Non si usano **mai** il TTS proprio di HeyGen (`heygen_voice`, `starfish`, `orca`) né il

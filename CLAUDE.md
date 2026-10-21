@@ -64,3 +64,11 @@ il costo è stabile a 30–31 crediti a lezione. I numeri sono in
 `produzione/registri/lnv-modulo-7.md`. **La scelta della strada da tenere è
 di Achille**: finché non la fa, i video nuovi restano su ElevenLabs diretto,
 e la domanda sullo strumento si fa comunque ogni volta.
+
+## Per chi è il video: si chiede sempre anche questo
+
+**Dal 21 ottobre 2026, ogni volta che Achille propone un video, insieme alla domanda sulla voce va chiesto se è per il
+provinciale** (CISL FP Padova Rovigo, quindi tutti i territori: AOUP Padova, ULSS 6 Euganea, ULSS 5 Polesana) **o solo
+per l'Azienda Ospedale-Università di Padova.** Da questo dipendono testi, didascalie, canali WhatsApp e contatti: per il
+provinciale si citano tutti e tre i territori e i delegati di ciascuno (`metodo/REFERENTI-CISL-FP.md`); per l'AOUP solo
+quelli dell'AOUP.
