@@ -6,7 +6,7 @@ Le scene del pacchetto (scene/sN.mp4, mute, già con clip, titoli, grafiche anim
 dura quanto la sua scena o, se la voce nuova è più lunga, quanto la voce (la scena si rallenta di poco). La voce
 (audio/wav/SNN.wav, voci.py) parte all'inizio di ogni scena. Avatar di Achille scontornato in basso a destra nella prima
 e nell'ultima scena (avatar/avatar.webm, fatto sulle due voci in fila, tempi-avatar.json), come chiede il LEGGIMI del pacchetto.
-Sottotitoli impressi come nel promo del pacchetto (bianco su riquadro nero), alzati nelle scene con l'avatar perché
+Sottotitoli (IMPRESSI, dal 21/10 spenti su richiesta di Achille) impressi come nel promo del pacchetto (bianco su riquadro nero), alzati nelle scene con l'avatar perché
 non ci finisca sopra; anche sottotitoli.srt a parte.
 """
 import json, os, re, subprocess
@@ -22,6 +22,7 @@ CON_AVATAR = {'S01', 'S07'}
 # (scene_nuove.py): il modulo e i tre canali WhatsApp; la chiusura del pacchetto (s6) diventa S07.
 SCENE = {'S01': 's1', 'S02': 's2', 'S03': 's3', 'S04': 's4', 'S05': 's5_modulo', 'S06': 's6_canali', 'S07': 's7_chiusura'}
 SUB_Y = {False: 1700, True: 1335}          # fondo del riquadro dei sottotitoli
+IMPRESSI = False                            # 21/10: Achille non vuole i sottotitoli nel video (resta sottotitoli.srt)
 SUB_SCENA = {'S07': 300}                    # chiusura: card lunga fino a 1260 e avatar sotto, sottotitoli in alto
 MAXR = 26                                   # caratteri per riga
 
@@ -123,7 +124,7 @@ def monta():
         fil.append(f'{cat}[al{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass:{en}[g{k}];'
                    f'[g{k}][av{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass:{en}{cat_new}')
         cat = cat_new
-    fil.append(f"{cat}subtitles={L}/sub.ass,format=yuv420p[v]")
+    fil.append(f"{cat}subtitles={L}/sub.ass,format=yuv420p[v]" if IMPRESSI else f"{cat}format=yuv420p[v]")
     ff('-i', f'{L}/fondo.mov', *ins, '-filter_complex', ';'.join(fil), '-map', '[v]', '-map', '0:a',
        '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart',
        f'{D}/{NOME}.mp4')

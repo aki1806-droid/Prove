@@ -43,6 +43,9 @@ Voce: request M7mKluLQh5gND5RoetUF (../strumenti/kit/achille-kit-canali*), 2 blo
   in fondo «contatta il tuo delegato di riferimento» con i delegati per azienda.
 - Video per il provinciale (tutti i territori).
 
+## Versione 4 (21/10): senza sottotitoli
+Achille non vuole i sottotitoli nel video: monta.py ha IMPRESSI = False (resta solo sottotitoli.srt, non inviato).
+
 ## Avatar
 Voci delle scene 1 e 6 in fila (audio/voce-avatar.mp3, asset 5f98c74a6b734c28b44e9ee32a9c1de1) →
 create_video_from_avatar, webm con alfa, 1080p: video cd1904d45a770021272f2db1bf43bfd5. Labiale verificato (scarto 0 ms).
@@ -56,8 +59,8 @@ nel promo del pacchetto (Inter SemiBold bianco su riquadro nero), alzati nelle s
 KitContratto_promo_avatar_9x16.mp4: 1080x1920, 30 fps, 41,0 s, 8 MB (fuori da git; sotto i 30 MB, è anche la copia d'invio).
 
 ## Originale su HeyGen
-Versione 3 (canali e delegati), 21/10/2026: asset 4fb89d997f1c4a7f82272e614b6d6d67 — https://resource2.heygen.ai/video/4fb89d997f1c4a7f82272e614b6d6d67/original.mp4
-(Versione 2, senza delegati: asset 0a48c1d464824453b16f3dda57d26b20 — ; versione 1, senza i canali: asset c9820b5bce5f48a58c287392b5715f8e.)
+Versione 4 (senza sottotitoli), 21/10/2026: asset 8cb7001a8fd84b25a92b688c4806e617 — https://resource2.heygen.ai/video/8cb7001a8fd84b25a92b688c4806e617/original.mp4
+(Versione 3, coi sottotitoli: asset 4fb89d997f1c4a7f82272e614b6d6d67; versione 2, senza delegati: asset 0a48c1d464824453b16f3dda57d26b20 — ; versione 1, senza i canali: asset c9820b5bce5f48a58c287392b5715f8e.)
 
 ## Da fare (Achille)
 - Musica di sottofondo a volume basso (indicata dal pacchetto): non aggiunta.
