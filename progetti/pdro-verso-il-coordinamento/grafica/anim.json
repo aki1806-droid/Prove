@@ -655,6 +655,16 @@
 ]
 },
 "S08": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": []
+},
+"S09": {
 "tipo": "pieno",
 "fondi": [
 [
@@ -703,7 +713,7 @@
 "fx": [
 [
 "pulsa",
-"novembre",
+"scadenze",
 1.1,
 0.05
 ]
@@ -719,9 +729,9 @@
 "fx": [
 [
 "pulsa",
-"scrivici",
+"delegato",
 1.1,
-0.04
+0.03
 ]
 ]
 }

@@ -79,7 +79,10 @@ EPISODI = {VC: {
         T('lab2', 195, 733, 505, 802), T('b2', 200, 823, 625, 928),
         T('lab3', 195, 983, 395, 1052), T('b3', 200, 1073, 730, 1238),
     ]},
-    'S08': {'base': 'grafiche/S08A.png', 'pezzi': [
+    # v2 (21/10): S08 sono i tre canali, già montati in clip/S08.mp4 da canali.py (fondo trasparente, nessun pezzo);
+    # la vecchia chiusura diventa S09, coi pezzi «badge» e «box» poi sostituiti da grafica_v2/ (ritocca).
+    'S08': {'base': 'grafica_v2/trasparente.png', 'pezzi': []},
+    'S09': {'base': 'grafiche/S08A.png', 'pezzi': [
         {'id': 'r1', 'm': ['chiaro', 62, 290, 535, 392, 150, 12]},
         {'id': 'r2', 'm': ['chiaro', 62, 400, 615, 510, 150, 12]},
         C('badge', 68, 518, 703, 613, 47, 'diffusione'),
@@ -135,22 +138,30 @@ ANIM = {
         P('p2', ['pop', 'durante', 0.35]), P('lab2', ['slideR', 'durante', 0.4]), P('b2', ['wipe', 'tirocinio', 0.8]),
         P('p3', ['pop', 'dopo', 0.35]), P('lab3', ['slideR', 'dopo', 0.4]), P('b3', ['wipe', 'regolamento', 1.0]),
     ]},
-    'S08': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'camera': [[0, 1.0, 540, 960], [17, 1.05, 540, 820]], 'strati': [
+    'S08': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': []},
+    'S09': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'camera': [[0, 1.0, 540, 960], [17, 1.05, 540, 820]], 'strati': [
         P('r1', ['slam', 'arrivi', 0.35]), P('r2', ['slam', 'pronto', 0.35]),
-        P('badge', ['pop', 'attenzione', 0.45], fx=[['pulsa', 'novembre', 1.1, 0.05]]),
-        P('box', ['pop', 'chiedi', 0.45], fx=[['pulsa', 'scrivici', 1.1, 0.04]]),
+        P('badge', ['pop', 'attenzione', 0.45], fx=[['pulsa', 'scadenze', 1.1, 0.05]]),
+        P('box', ['pop', 'chiedi', 0.45], fx=[['pulsa', 'delegato', 1.1, 0.03]]),
     ]},
 }
 
 def ritocca():
-    """Dopo pezzi.py: sulle foto sfocate di S03 e S08 i buchi riempiti lasciano macchie; S03 si sfoca tutta un po' di
-    più (la foto è già sfocata), S08 solo dietro il riquadro dei contatti, con bordo sfumato; S05 riprende il crema."""
+    """Dopo pezzi.py: sulle foto sfocate di S03 e S09 i buchi riempiti lasciano macchie; S03 si sfoca tutta un po' di
+    più (la foto è già sfocata), S09 solo dietro il riquadro dei contatti, con bordo sfumato; S05 riprende il crema."""
     from PIL import Image, ImageFilter
     D = f'{PR}/{VC}/grafica/pezzi'
     f = Image.open(f'{D}/S03/fondo.png'); f.filter(ImageFilter.GaussianBlur(16)).save(f'{D}/S03/fondo.png')
-    f = Image.open(f'{D}/S08/fondo.png').convert('RGBA'); b = f.filter(ImageFilter.GaussianBlur(22))
+    f = Image.open(f'{D}/S09/fondo.png').convert('RGBA'); b = f.filter(ImageFilter.GaussianBlur(22))
     m = Image.new('L', f.size, 0); m.paste(255, (40, 500, 740, 1160)); m = m.filter(ImageFilter.GaussianBlur(30))
-    Image.composite(b, f, m).save(f'{D}/S08/fondo.png')
+    Image.composite(b, f, m).save(f'{D}/S09/fondo.png')
+    # v2: badge senza la data AOUP e riquadro dei delegati per azienda (grafiche_v2.mjs) al posto dei pezzi ritagliati
+    import json
+    info = json.load(open(f'{PR}/{VC}/grafica/pezzi.json'))
+    for n in ('badge', 'box'):
+        im = Image.open(f'{PR}/{VC}/grafica_v2/{n}.png').convert('RGBA'); x0, y0, x1, y1 = im.getbbox()
+        im.crop((x0, y0, x1, y1)).save(f'{D}/S09/{n}.png'); info['S09'][n] = [x0, y0, x1 - x0, y1 - y0]
+    json.dump(info, open(f'{PR}/{VC}/grafica/pezzi.json', 'w'))
     # S05: sotto il coperchio la tinta prende il verde della banda; si rimette il crema del fondo
     f = Image.open(f'{D}/S05/fondo.png').convert('RGBA'); f.paste(f.getpixel((100, 500)), (290, 251, 792, 368))
     f.save(f'{D}/S05/fondo.png')

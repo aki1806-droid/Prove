@@ -4,6 +4,22 @@ Data: 20 ottobre 2026 · sessione Claude Code (repo Prove). Fonte: Guida Master 
 (testi del pacchetto non modificati; nessun numerale nei testi voce).
 Scelte di Achille: account HeyGen **del connettore**; voce **HeyGen come passante**; grafiche **animate come il Decreto PA**.
 
+## Versione 2 (21/10/2026): generica per tutti i territori, canali WhatsApp e delegati
+Richiesta di Achille: «le stesse modifiche del Kit Contratto, rendendolo più generico». Testi nuovi approvati da Achille:
+- **S08 nuova (narratore)**: «E per restare aggiornato, entra nel canale WhatsApp CISL FP della tua azienda: Azienda
+  Ospedale-Università di Padova, ULSS sei Euganea o ULSS cinque Polesana. Il link è nel primo commento.» — request
+  ZNU76w1gc2iWD3n0TpbJ (../strumenti/coordinamento/ward-coordinamento-canali*). Scena: ../strumenti/coordinamento/canali.py
+  (fondo come la S07, clip dei tre telefoni del pacchetto Kit Contratto 16:9, card AOUP / ULSS 6 / ULSS 5 sulle parole).
+- **S09 chiusura (Achille)**, senza il bando AOUP dell'11/11: «Il master non ti dà l'incarico in automatico: è la chiave per
+  candidarti. Noi vogliamo che tu arrivi a quella porta pronto. Attenzione alle scadenze del bando per le centocinquanta ore
+  nella tua azienda. Chiedi la guida e il pacchetto al tuo delegato di riferimento. CISL FP Padova Rovigo.» — request
+  PZY5oEpdlThzYqaXyLc9 (achille-coordinamento-v2); voce asset 618efcf1c69a4d4086c1f18c44f738f5, avatar webm
+  e9a24317a8a27985e139f801922d386d (labiale 0 ms). Grafica: badge «Bando 150 ore: occhio alle scadenze» e riquadro dei
+  delegati per azienda al posto di telefono e mail della sede (../strumenti/coordinamento/grafiche_v2.mjs, serie.py ritocca).
+- Nessun sottotitolo impresso. Testo per i social: TESTO_POST.md.
+Durata: 127,6 s. Originale: asset cac51319ec9d43f6a89f97400baac705 —
+https://resource2.heygen.ai/video/cac51319ec9d43f6a89f97400baac705/original.mp4 (la versione 1, AOUP, era 9ec983f39cbe40e7a027256c71a4b803).
+
 ## Voci (HeyGen create_speech, engine elevenlabs, eleven_v4)
 - Luca Ward (e4bd8d8a357f41a99502309874733c16), scene 1-7 in una traccia: request 6mhIlqNeL72aSCr08KUY, grezzo 103,0 s
   (../strumenti/coordinamento/ward-coordinamento*). Tipo narratore: pause >0,6 s → 0,45 s.
