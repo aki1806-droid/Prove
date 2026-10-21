@@ -115,7 +115,9 @@ ANIM = {
         P('k1', ['risale', 'incarichi', 0.5]), P('k2', ['risale', 'anni', 0.5]), P('k3', ['risale', 'possono', 0.5]),
     ]},
     'S04': ov([P('c12', ['pop', 'anno', 0.4]), P('c60', ['pop', 'sessanta', 0.4]), P('c500', ['pop', 'cinquecento', 0.4]),
-               P('online', ['wipe', 'lezioni', 0.8]), P('turno', ['wipe', 'studia', 0.9])]),
+               P('online', ['wipe', 'lezioni', 0.8])]),
+    # 21/10: «Anche dopo il turno.» non si mostra più (il pezzo resta ritagliato via dal fondo): Achille ha tolto la frase,
+    # perché lo studio deve avvenire sempre fuori dall'orario di servizio.
     'S05': {'tipo': 'pieno', 'fondi': [['fondo', 0]], 'strati': [
         P('scatola', ['zoom', 0.15, 0.5]), P('fiocco', ['pop', 0.4, 0.4]), P('coperchio', ['pop', 0.35, 0.4]),
         P('tit', ['slam', 'pacchetto', 0.35]), P('nome', ['wipe', 'verso', 1.0]),

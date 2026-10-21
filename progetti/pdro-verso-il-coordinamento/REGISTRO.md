@@ -4,6 +4,12 @@ Data: 20 ottobre 2026 · sessione Claude Code (repo Prove). Fonte: Guida Master 
 (testi del pacchetto non modificati; nessun numerale nei testi voce).
 Scelte di Achille: account HeyGen **del connettore**; voce **HeyGen come passante**; grafiche **animate come il Decreto PA**.
 
+## Versione 3 (21/10/2026): tolta «Si studia anche dopo il turno»
+Richiesta di Achille: lo studio deve avvenire sempre fuori dall'orario di servizio. Dalla voce della S04 la frase è tolta
+senza rigenerarla (ammutolita in una copia della traccia, pausa accorciata come le altre: ../strumenti/coordinamento/voci.py);
+dalla grafica della S04 non entra più la scritta «Anche dopo il turno.» (serie.py). S04 da 12,4 a 10,5 s; totale 125,7 s.
+Originale: asset 461842e3a2374e0d89da36d69cbb363a — https://resource2.heygen.ai/video/461842e3a2374e0d89da36d69cbb363a/original.mp4
+
 ## Versione 2 (21/10/2026): generica per tutti i territori, canali WhatsApp e delegati
 Richiesta di Achille: «le stesse modifiche del Kit Contratto, rendendolo più generico». Testi nuovi approvati da Achille:
 - **S08 nuova (narratore)**: «E per restare aggiornato, entra nel canale WhatsApp CISL FP della tua azienda: Azienda

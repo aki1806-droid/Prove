@@ -310,14 +310,6 @@
 ]
 },
 {
-"p": "turno",
-"in": [
-"wipe",
-"studia",
-0.9
-]
-},
-{
 "p": "banda_su",
 "in": [
 "bandaSu",
