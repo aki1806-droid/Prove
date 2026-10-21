@@ -1,0 +1,515 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"pop",
+0.6,
+0.45
+]
+},
+{
+"p": "r1",
+"in": [
+"fade",
+1.0,
+1.0
+]
+},
+{
+"p": "r2",
+"in": [
+"fade",
+1.5,
+1.1
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"mamma",
+0.9
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tit",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "c60",
+"in": [
+"slideR",
+"sessanta",
+0.5
+]
+},
+{
+"p": "c12",
+"in": [
+"slideL",
+"dodici",
+0.5
+]
+},
+{
+"p": "per",
+"in": [
+"pop",
+"dodici+0.4",
+0.3
+],
+"fx": [
+[
+"lampeggia",
+"dodici+0.7",
+"dodici+1.7",
+0.25
+]
+]
+},
+{
+"p": "linea",
+"in": [
+"wipe",
+"mesi$",
+0.6
+]
+},
+{
+"p": "fino",
+"in": [
+"fade",
+"mesi$+0.2",
+0.4
+]
+},
+{
+"disegno": {
+"tipo": "contatore",
+"x": 612,
+"y": 1055,
+"size": 176,
+"col": "rgb(0,83,42)",
+"align": "right",
+"v0": 0,
+"v1": 720,
+"t0": "mesi$+0.3",
+"t1": "mesi$+1.6"
+}
+},
+{
+"p": "euro",
+"in": [
+"pop",
+"mesi$+0.3",
+0.35
+]
+},
+{
+"p": "pill",
+"in": [
+"pop",
+"ununica",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"soluzione$",
+1.1,
+0.04
+]
+]
+},
+{
+"p": "nota",
+"in": [
+"fade",
+"ununica+0.5",
+0.6
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+900
+],
+[
+14,
+1.04,
+540,
+860
+]
+],
+"strati": [
+{
+"p": "tit",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "k1",
+"in": [
+"slideR",
+"madri",
+0.45
+]
+},
+{
+"p": "k2",
+"in": [
+"slideR",
+"dipendenti",
+0.45
+]
+},
+{
+"p": "k3",
+"in": [
+"slideR",
+"due",
+0.45
+]
+},
+{
+"p": "escl",
+"in": [
+"slam",
+"escluse",
+0.35
+]
+},
+{
+"p": "x1",
+"in": [
+"slideR",
+"lavoratrici#2",
+0.45
+]
+},
+{
+"p": "x2",
+"in": [
+"slideR",
+"mamme",
+0.45
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"urti": [
+"trentuno+0.3"
+],
+"strati": [
+{
+"p": "tit",
+"in": [
+"slam",
+0.05,
+0.3
+]
+},
+{
+"p": "cal1",
+"in": [
+"drop",
+"trentuno",
+0.35
+]
+},
+{
+"p": "txt1",
+"in": [
+"wipe",
+"dicembre",
+0.7
+]
+},
+{
+"p": "cal2",
+"in": [
+"pop",
+"maturi",
+0.4
+]
+},
+{
+"p": "txt2",
+"in": [
+"wipe",
+"requisito",
+0.8
+]
+}
+]
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.6,
+0.35
+]
+},
+{
+"p": "c1",
+"in": [
+"slideR",
+"online",
+0.45
+]
+},
+{
+"p": "c2",
+"in": [
+"slideR",
+"contact",
+0.45
+]
+},
+{
+"p": "c3",
+"in": [
+"slideR",
+"patronato",
+0.45
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S06": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "dubbi",
+"in": [
+"slam",
+"dubbi",
+0.35
+]
+},
+{
+"p": "sola",
+"in": [
+"wipe",
+"farla",
+0.9
+]
+},
+{
+"p": "chip",
+"in": [
+"pop",
+"inas",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"cisl",
+1.1,
+0.05
+]
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.05,
+540,
+820
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+"soldi",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"tuoi",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"lasciarli",
+0.9
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+"iscritta",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"patronato",
+1.1,
+0.03
+]
+]
+}
+]
+}
+}

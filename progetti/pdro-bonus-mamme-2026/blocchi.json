@@ -1,0 +1,153 @@
+{
+  "progetto": "PDRO_Bonus_mamme_2026",
+  "titolo": "Nuovo Bonus mamme 2026",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "fonte": "Scheda INPS «Nuovo Bonus mamme 2026» del 20/10/2026; circolare INPS n. 106 del 16/10/2026; art. 1 c. 207 L. 199/2025",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Bonus mamme 2026",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "bm_abbraccio.png",
+      "voce": "Turni, notti, figli da accompagnare a scuola. Se sei una mamma che lavora e hai almeno due figli, per il duemilaventisei c'è un contributo che ti spetta. E molte colleghe ancora non lo sanno.",
+      "parole": 34,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/bm_abbraccio.png: i due bambini corrono ad abbracciare la mamma appena rientrata dal turno, lei li stringe e sorride. Luce calda, leggero ralenti.",
+      "regia": "Bande nere; chip rosa INPS; titolo BONUS MAMME 2026 in dissolvenza; musica dolce."
+    },
+    {
+      "n": 2,
+      "titolo": "Quanto spetta",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Si chiama nuovo Bonus mamme: sessanta euro per ogni mese, o frazione di mese, in cui hai lavorato nel duemilaventisei, fino a un massimo di dodici mesi. L'INPS li paga tutti insieme, in un'unica soluzione.",
+      "parole": 35,
+      "durata_stimata_s": 14.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "60 € e 12 entrano da lati opposti, il segno × lampeggia, poi il totale conta fino a 720 €."
+    },
+    {
+      "n": 3,
+      "titolo": "A chi spetta",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Spetta alle madri lavoratrici, dipendenti o autonome, con due o più figli. Sono escluse le lavoratrici domestiche e le mamme con tre o più figli e un contratto a tempo indeterminato, che hanno già l'esonero dei contributi.",
+      "parole": 37,
+      "durata_stimata_s": 15.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le tre spunte verdi entrano in sequenza; poi le due esclusioni in rosso."
+    },
+    {
+      "n": 4,
+      "titolo": "Scadenza",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "La domanda va presentata entro il trentuno dicembre duemilaventisei. Se maturi il requisito proprio a dicembre, hai tempo fino al trentuno gennaio duemilaventisette.",
+      "parole": 23,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il calendario grande cade dall'alto con un tonfo; quello piccolo entra subito dopo."
+    },
+    {
+      "n": 5,
+      "titolo": "Come fare domanda",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "bm_domanda.png",
+      "voce": "Puoi farla online sul sito dell'INPS, tramite il contact center, oppure attraverso un patronato. I requisiti di dettaglio sono spiegati nella circolare INPS centosei del sedici ottobre.",
+      "parole": 27,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/bm_domanda.png: la mamma scrive sul portatile e controlla il telefono, i disegni dei bambini sul frigo, luce calda della sera.",
+      "regia": "I tre canali compaiono uno per volta sulle parole."
+    },
+    {
+      "n": 6,
+      "titolo": "Il patronato",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "bm_patronato.png",
+      "voce": "Il consiglio? Se hai dubbi, non farla da sola. Il patronato INAS CISL può presentarla per te, controllando che tu abbia tutti i requisiti, senza rischiare errori.",
+      "parole": 27,
+      "durata_stimata_s": 11.2,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/bm_patronato.png: l'operatrice del patronato indica lo schermo, la giovane mamma sorride sollevata, il passeggino accanto.",
+      "regia": "Chip verde PATRONATO INAS CISL entra con un pop."
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Sono cifre piccole, ma sono soldi tuoi: non lasciarli sul tavolo. Se sei una nostra iscritta, passa in sede o scrivici: ti mettiamo in contatto con il patronato e ti aiutiamo a non perdere la scadenza. CISL FP Padova Rovigo, accanto alle mamme che lavorano.",
+      "parole": 45,
+      "durata_stimata_s": 15.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}
