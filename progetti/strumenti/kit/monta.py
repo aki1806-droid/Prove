@@ -2,10 +2,10 @@
 
     python3 strumenti/kit/monta.py
 
-Le sei scene del pacchetto (scene/sN.mp4, mute, già con clip, titoli, grafiche animate e logo) restano quelle; ognuna
+Le scene del pacchetto (scene/sN.mp4, mute, già con clip, titoli, grafiche animate e logo) restano quelle; ognuna
 dura quanto la sua scena o, se la voce nuova è più lunga, quanto la voce (la scena si rallenta di poco). La voce
-(audio/wav/SNN.wav, voci.py) parte all'inizio di ogni scena. Avatar di Achille scontornato in basso a destra nelle scene
-1 e 6 (avatar/avatar.webm, fatto sulle due voci in fila, tempi-avatar.json), come chiede il LEGGIMI del pacchetto.
+(audio/wav/SNN.wav, voci.py) parte all'inizio di ogni scena. Avatar di Achille scontornato in basso a destra nella prima
+e nell'ultima scena (avatar/avatar.webm, fatto sulle due voci in fila, tempi-avatar.json), come chiede il LEGGIMI del pacchetto.
 Sottotitoli impressi come nel promo del pacchetto (bianco su riquadro nero), alzati nelle scene con l'avatar perché
 non ci finisca sopra; anche sottotitoli.srt a parte.
 """
@@ -17,7 +17,10 @@ L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
 FPS = 30
 NOME = 'KitContratto_promo_avatar_9x16'
 AV_CROP, AV_H, AV_X = (520, 0, 1100, 1080), 560, 754
-CON_AVATAR = {'S01', 'S06'}
+CON_AVATAR = {'S01', 'S07'}
+# scena -> video. Dal 21/10 la S05 del pacchetto («entra nel canale…») è sostituita da due scene nuove
+# (scene_nuove.py): il modulo e i tre canali WhatsApp; la chiusura del pacchetto (s6) diventa S07.
+SCENE = {'S01': 's1', 'S02': 's2', 'S03': 's3', 'S04': 's4', 'S05': 's5_modulo', 'S06': 's6_canali', 'S07': 's6'}
 SUB_Y = {False: 1700, True: 1335}          # fondo del riquadro dei sottotitoli
 MAXR = 26                                   # caratteri per riga
 
@@ -71,8 +74,8 @@ def monta():
     parole = json.load(open(f'{D}/audio/parole.json'))
     tav = {t['id']: t for t in json.load(open(f'{D}/audio/tempi-avatar.json'))}
     lista, t0, ev, srt, inizio = [], 0.0, [], [], {}
-    for i, t in enumerate(tempi, 1):
-        sid, v = t['id'], t['durata']; src = f'{D}/scene/s{i}.mp4'; d0 = durata(src); d = max(d0, v)
+    for t in tempi:
+        sid, v = t['id'], t['durata']; src = f'{D}/scene/{SCENE[sid]}.mp4'; d0 = durata(src); d = max(d0, v)
         f = d / d0; out = f'{L}/{sid}.mp4'; inizio[sid] = t0
         ff('-i', src, '-i', f'{D}/audio/wav/{sid}.wav', '-filter_complex',
            f'[0:v]setpts={f:.5f}*PTS,fps={FPS},format=yuv420p[v];[1:a]aresample=48000,apad[a]',

@@ -27,12 +27,18 @@
   "id": "S05",
   "tipo": "achille",
   "inizio": 19.8867,
-  "durata": 6.1683
+  "durata": 5.4452
  },
  {
   "id": "S06",
   "tipo": "achille",
-  "inizio": 26.055,
+  "inizio": 25.3319,
+  "durata": 8.9706
+ },
+ {
+  "id": "S07",
+  "tipo": "achille",
+  "inizio": 34.3025,
   "durata": 4.861
  }
 ]

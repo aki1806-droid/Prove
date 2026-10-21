@@ -1,0 +1,11 @@
+scena,tipo,file_visivo,caratteri,durata_stimata_s,testo_voce
+01,slide,slide/v01-copertina.png,0,3,(muta)
+02,avatar,avatar Aki,189,11.6,"Ciao, sono Achille Pagliaro, segretario provinciale della CISL FP Padova Rovigo. Oggi ti presento uno strumento che abbiamo preparato per chi lavora nella sanità pubblica: il Kit Contratto."
+03,clip,clip/v03-clip-kit.mp4,73,4.5,"Sono quattro guide chiare e gratuite, da tenere sempre a portata di mano."
+04,slide,slide/v04-documenti-1-2.png,158,9.7,"La prima è il contratto in vigore. La seconda ti spiega il nuovo contratto 2025-2027: quanto aumenta lo stipendio area per area, gli arretrati e le indennità."
+05,slide,slide/v05-documenti-3-4.png,155,9.5,"Poi c'è il vademecum per mamme e papà, con maternità, paternità e congedi. E un dossier sulla notte di dodici ore: cosa cambia davvero e quali diritti hai."
+06,avatar,avatar Aki,96,5.9,Perché i diritti che non conosci sono diritti che perdi. E noi vogliamo che tu li conosca tutti.
+07,slide,slide/v07-come-richiederlo.png,103,6.3,"Richiederlo è semplice. Compili il modulo, scegli la tua azienda e il kit arriva subito nella tua mail."
+08,clip,clip/v08-clip-canali.mp4,194,11.9,"Insieme al kit ricevi anche il canale WhatsApp CISL FP della tua azienda: Azienda Ospedale-Università di Padova, ULSS 6 Euganea o ULSS 5 Polesana. Poche righe, solo le notizie che ti riguardano."
+09,avatar,avatar Aki,136,8.4,"Ci vuole un minuto. Inquadra il codice che vedi alla fine del video, oppure apri il link nel post. E se ti è utile, giralo a un collega."
+10,slide,slide/v10-chiusura-qr.png,0,10,(muta)
