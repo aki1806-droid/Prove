@@ -1,0 +1,25 @@
+KIT CONTRATTO CISL FP – PACCHETTO VIDEO PER HEYGEN
+Video 1 · Promo "Il tuo Kit Contratto" · verticale 9:16 · 32,6 secondi
+
+COSA C'È
+- KitContratto_promo_9x16.mp4 → video già montato: clip, grafiche animate, voce e sottotitoli. Pronto da pubblicare (senza musica: la aggiungi tu).
+- scene/ → le 6 scene video mute (1080x1920), una per blocco di voce. Sono gli sfondi da caricare in HeyGen Studio.
+- voce/ → una traccia per scena (scena_01…06.mp3, già velocizzate a 1,12x e senza silenzi) + voce_completa.m4a.
+- grafiche_animate/ → le 4 animazioni originali in alta qualità (motion blur), colori e logo CISL FP.
+- clip/ → le 3 clip originali generate su Higgsfield (Seedance 2.5): infermiera con la busta paga, genitori con neonato, corsia notturna.
+- overlay/ → i titoli trasparenti PNG e il logo, se vuoi rimontare a mano.
+- sottotitoli.srt → sottotitoli già sincronizzati.
+- scene_heygen.json → elenco scene con file, voce, durata e testo.
+- copertina/ → copertina per Reel, TikTok e Shorts.
+- testi/ → script e didascalie per i social.
+
+COME MONTARLO IN HEYGEN STUDIO (con l'avatar)
+1. Nuovo video 9:16, 1080p.
+2. Crea 6 scene. In ognuna: sfondo = scene/sN.mp4, audio = voce/scena_0N.mp3.
+3. Se vuoi l'avatar: mettilo nelle scene 1 e 6 (apertura e chiusura), a lato o in basso, senza coprire i titoli. Nelle scene 3, 4 e 5 lascia le grafiche a tutto schermo.
+4. Attiva i sottotitoli di HeyGen OPPURE carica sottotitoli.srt.
+5. Esporta. Musica di sottofondo a volume basso.
+
+NOTE
+- Le cifre e i testi sono quelli della campagna: CCNL 2022-2024 in vigore, nuovo contratto 2025-2027 (ipotesi del 29 luglio 2026).
+- Link del modulo: sendfox.com/form/1gqrw6/1wwlnj · Canale: whatsapp.com/channel/0029Vb3QaUS1HsppE8X4ow0R
