@@ -1,53 +1,80 @@
 1
-00:00:00,150 --> 00:00:02,700
+00:00:00,019 --> 00:00:02,664
 Quanto ti spetta davvero,
 con il nuovo contratto?
 
 2
-00:00:03,000 --> 00:00:06,300
-E se aspetti un figlio, o ti propongono
-la notte di dodici ore…
+00:00:02,933 --> 00:00:04,233
+E se aspetti un figlio,
 
 3
-00:00:06,300 --> 00:00:08,200
-…sai quali sono i tuoi diritti?
+00:00:04,253 --> 00:00:06,328
+o ti propongono la
+notte di dodici ore…
 
 4
-00:00:08,400 --> 00:00:10,900
-Abbiamo messo tutto in un kit. Gratis.
+00:00:06,348 --> 00:00:07,820
+sai quali sono
+i tuoi diritti?
 
 5
-00:00:11,400 --> 00:00:13,300
-Dentro c'è il contratto in vigore.
+00:00:08,333 --> 00:00:10,081
+Abbiamo messo
+tutto in un kit.
 
 6
-00:00:13,300 --> 00:00:16,300
-La guida al nuovo contratto,
-con aumenti e arretrati.
+00:00:10,126 --> 00:00:10,909
+Gratis.
 
 7
-00:00:16,300 --> 00:00:18,100
-Il vademecum per mamme e papà.
+00:00:11,333 --> 00:00:12,968
+Dentro c'è il
+contratto in vigore.
 
 8
-00:00:18,100 --> 00:00:20,000
-E il dossier sulla notte di dodici ore.
+00:00:12,988 --> 00:00:14,278
+La guida al
+nuovo contratto,
 
 9
-00:00:20,300 --> 00:00:23,300
-Per averlo, basta entrare
-nel canale WhatsApp della CISL FP:
+00:00:14,298 --> 00:00:15,771
+con aumenti e arretrati.
 
 10
-00:00:23,300 --> 00:00:26,000
-lasci la tua email,
-e il kit arriva subito.
+00:00:15,816 --> 00:00:17,681
+Il vademecum per
+mamme e papà.
 
 11
-00:00:26,300 --> 00:00:27,900
-Il link è nel primo commento.
+00:00:17,701 --> 00:00:19,702
+E il dossier sulla
+notte di dodici ore.
 
 12
-00:00:27,900 --> 00:00:31,200
-Perché i diritti che non conosci…
+00:00:20,133 --> 00:00:20,709
+Per averlo,
+
+13
+00:00:20,729 --> 00:00:23,477
+basta entrare nel canale
+WhatsApp della CISL FP:
+
+14
+00:00:23,556 --> 00:00:25,891
+lasci la tua email, e
+il kit arriva subito.
+
+15
+00:00:26,302 --> 00:00:27,903
+Il link è nel
+primo commento.
+
+16
+00:00:27,948 --> 00:00:29,489
+Perché i diritti
+che non conosci…
+
+17
+00:00:29,569 --> 00:00:30,800
 sono diritti che perdi.
+

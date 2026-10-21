@@ -19,7 +19,7 @@ NOME = 'KitContratto_promo_avatar_9x16'
 AV_CROP, AV_H, AV_X = (520, 0, 1100, 1080), 560, 754
 CON_AVATAR = {'S01', 'S06'}
 SUB_Y = {False: 1700, True: 1335}          # fondo del riquadro dei sottotitoli
-MAXR = 30                                   # caratteri per riga
+MAXR = 26                                   # caratteri per riga
 
 
 def ff(*a):
@@ -80,8 +80,11 @@ def monta():
            '-c:a', 'pcm_s16le', '-ar', '48000', '-ac', '1', out)
         lista.append(out)
         y = SUB_Y[sid in CON_AVATAR]
-        for c in pezzi(parole[sid]):
+        cc = pezzi(parole[sid])
+        for j, c in enumerate(cc):
             a, b = t0 + c[0]['a'] - 0.05, t0 + c[-1]['b'] + 0.25
+            if j + 1 < len(cc):
+                b = min(b, t0 + cc[j + 1][0]['a'] - 0.07)      # mai due sottotitoli insieme
             testo = ' '.join(w['w'] for w in c)
             ev.append(f'Dialogue: 0,{tc(a)},{tc(b)},S,,0,0,0,,{{\\an2\\pos(540,{y})}}{righe(testo)}')
             srt.append((a, b, righe(testo).replace(r'\N', '\n')))
@@ -94,23 +97,27 @@ def monta():
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, '
         'Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, '
         'MarginR, MarginV, Encoding\n'
-        'Style: S,Inter SemiBold,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,60,60,0,1\n'
+        'Style: S,Inter SemiBold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,60,60,0,1\n'
         '\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n' + '\n'.join(ev) + '\n')
     open(f'{D}/sottotitoli.srt', 'w').write(''.join(f'{k}\n{tc(a, False)} --> {tc(b, False)}\n{x}\n\n'
                                                   for k, (a, b, x) in enumerate(srt, 1)))
     # avatar: un pezzo per scena, ognuno all'inizio della sua scena
-    cx, cy, cw, ch = AV_CROP; fil, ins = [], []
+    # (trim nel filtro, non -ss/-itsoffset sull'ingresso: con quelli il pezzo della S06 arrivava 2,9 s prima)
+    cx, cy, cw, ch = AV_CROP; fil = []; n = len(CON_AVATAR)
+    ins = ['-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm']
+    fil.append(f"[1:v]fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,split={n}" +
+               ''.join(f'[s{k}]' for k in range(n)))
     for k, sid in enumerate(sorted(CON_AVATAR)):
         a = tav[sid]
-        ins += ['-ss', f"{a['inizio']:.3f}", '-t', f"{a['durata']:.3f}", '-itsoffset', f'{inizio[sid]:.3f}',
-                '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm']
-        fil.append(f"[{k + 1}:v]fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,split[av{k}][om{k}];"
+        fil.append(f"[s{k}]trim=start={a['inizio']:.3f}:duration={a['durata']:.3f},"
+                   f"setpts=PTS-STARTPTS+{inizio[sid]:.3f}/TB,split[av{k}][om{k}];"
                    f"[om{k}]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=14:alpha_radius=14,colorchannelmixer=aa=0.55[al{k}]")
     cat = '[0:v]'
-    for k in range(len(CON_AVATAR)):
-        cat_new = f'[x{k}]'
-        fil.append(f'{cat}[al{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass[g{k}];'
-                   f'[g{k}][av{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass{cat_new}')
+    for k, sid in enumerate(sorted(CON_AVATAR)):
+        cat_new = f'[x{k}]'; a = tav[sid]
+        en = f"enable='between(t,{inizio[sid]:.3f},{inizio[sid] + a['durata'] - 0.02:.3f})'"   # sparisce a fine voce
+        fil.append(f'{cat}[al{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass:{en}[g{k}];'
+                   f'[g{k}][av{k}]overlay={AV_X}:{1920 - AV_H}:eof_action=pass:{en}{cat_new}')
         cat = cat_new
     fil.append(f"{cat}subtitles={L}/sub.ass,format=yuv420p[v]")
     ff('-i', f'{L}/fondo.mov', *ins, '-filter_complex', ';'.join(fil), '-map', '[v]', '-map', '0:a',
