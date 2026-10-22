@@ -19,6 +19,9 @@ TEMPI = json.load(open(f'{D}/audio/tempi-scene.json'))
 ANIM = json.load(open(f'{D}/grafica/anim.json'))
 LAV = f'{D}/montaggio'; os.makedirs(LAV, exist_ok=True)
 AV_CROP, AV_H, AV_X = (520, 0, 1100, 1080), 640, 508
+# un avatar diverso da quello di Achille (es. Brenda, foto 3:4) porta il suo ritaglio in avatar/ritaglio.json
+if os.path.exists(f'{D}/avatar/ritaglio.json'):
+    _r = json.load(open(f'{D}/avatar/ritaglio.json')); AV_CROP, AV_H, AV_X = tuple(_r['crop']), _r['h'], _r['x']
 LOGO_Y = {'pieno': 52, 'overlay': 132}
 CODA_FINALE = 2.2          # durata del cartello finale S06, se c'è
 GRADO = 'eq=contrast=1.05:saturation=1.06'

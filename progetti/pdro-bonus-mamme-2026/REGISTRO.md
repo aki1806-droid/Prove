@@ -55,3 +55,21 @@ Originale su HeyGen: asset b72b618fcfa94ec5a3c189726ffa2d78 — https://resource
 - La voce di Achille dice «passa in sede o scrivici» (testo del pacchetto, non modificato); a schermo ci sono i delegati.
 - Musica dolce royalty-free (indicata dal pacchetto): non aggiunta.
 - Il montaggio è locale (ffmpeg), non create_video_from_studio come proponeva il pacchetto: stesso metodo dei reel CISL precedenti.
+
+## Versione 2 — 22 ottobre 2026: chiusura con Brenda
+Richiesta di Achille: «Rifai il video bonus mamma mettendo come avatar Brenda cisl v4». Restano uguali scene S01-S06, voce di
+Luca Ward, grafiche e riquadro dei delegati; cambia solo la chiusura S07.
+- Avatar «BRENDA CISL» (photo avatar 3c2cc8ad8ba241389916e5367abc2ccb), motore **Avatar IV** (il «v4»), webm con alfa,
+  1080x1440: video 01c41dd8dfeadb45a19f038144980a6a → avatar/avatar.webm. Ritaglio nel reel in avatar/ritaglio.json
+  (crop 110,300 870x1140, alto 640, x 560), letto da ../strumenti/chicedomani/monta.py.
+- Voce della chiusura: voce clonata «BRENDA CISL» (61f7115a45c74820bbfe68be7d902bfd), HeyGen come passante, eleven_v4,
+  request nDTnAU6Iu5fukFZLLWku, grezzo 16,5 s (../strumenti/bonus/brenda-bonus*). Testo del pacchetto invariato. Stesso
+  taglio della voce di Achille (pause >0,45 → 0,35, atempo 1,16): S07 dura 14,4 s invece di 14,6. Asset voce
+  25aa981bcd0947e2a3fbccad655924ff. Grafica S07 rifatta sui tempi nuovi.
+- Verifiche: labiale 20 ms, voce nel reel a 0 ms, file integro, foglio di contatto della chiusura (Brenda in basso a destra,
+  sotto il riquadro dei delegati, senza coprirlo).
+- Uscita: PDRO_Bonus_mamme_2026_9x16.mp4 87,6 s (38 MB), copia d'invio _invio.mp4 (28,5 MB). Originale su HeyGen: asset
+  22b9d6857b944498acf0a36ef8dd5640 — https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4
+- La versione 1 (chiusura con Achille, asset b72b618fcfa94ec5a3c189726ffa2d78) resta su HeyGen.
+- Da vedere (Achille): la voce dice «passa in sede o scrivici» e «se sei una nostra iscritta» — vanno bene anche in bocca a
+  Brenda (ULSS 6)?
