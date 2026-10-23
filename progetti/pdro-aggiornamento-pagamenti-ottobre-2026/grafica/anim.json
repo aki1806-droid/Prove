@@ -1,0 +1,220 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"pop",
+0.5,
+0.45
+]
+},
+{
+"p": "eil",
+"in": [
+"slam",
+"conguaglio",
+0.35
+]
+},
+{
+"p": "cong",
+"in": [
+"slam",
+"conguaglio+0.25",
+0.35
+]
+},
+{
+"p": "qm",
+"in": [
+"pop",
+"ce",
+0.4
+],
+"fx": [
+[
+"ondeggia",
+1.4,
+12
+]
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"ecco",
+0.9
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [],
+"strati": []
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [],
+"strati": []
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [],
+"strati": []
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"niente",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"fughe",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"quando",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.05,
+540,
+820
+]
+],
+"strati": [
+{
+"p": "r1",
+"in": [
+"slam",
+"diciamo",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"slam",
+"quello",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"slam",
+"sappiamo#2",
+0.35
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+"cedolino",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"scrivici",
+1.1,
+0.03
+]
+]
+}
+]
+}
+}

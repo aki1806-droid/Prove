@@ -1,0 +1,132 @@
+{
+  "progetto": "PDRO_Aggiornamento_pagamenti_ottobre_2026",
+  "titolo": "Aggiornamento pagamenti: conguaglio produttività, DEP 2025, arretrati CCNL",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "E il conguaglio?",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "pg_cedolino.png",
+      "voce": "Apri il cedolino di ottobre e il conguaglio della produttività non c'è. In questi giorni ci state chiamando in tanti per sapere perché. Ecco cosa sappiamo, con la massima chiarezza.",
+      "parole": 30,
+      "durata_stimata_s": 12.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pg_cedolino.png: l'infermiera scorre il cedolino sul telefono, aggrotta la fronte, appoggia la testa alla mano. Luce naturale.",
+      "regia": "Bande nere; chip arancio; titolo 'E IL CONGUAGLIO?' con piccolo punto interrogativo che oscilla."
+    },
+    {
+      "n": 2,
+      "titolo": "Il conguaglio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il conguaglio della produttività questo mese non è stato pagato. Abbiamo già chiesto all'Amministrazione un impegno preciso per il mese di novembre.",
+      "parole": 22,
+      "durata_stimata_s": 10.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Tabellone stile partenze: le lettere girano come palette; la riga 1 si illumina; il bollino rosso 'ottobre: non pagato' lampeggia."
+    },
+    {
+      "n": 3,
+      "titolo": "Novembre",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "A novembre, presumibilmente, dovrebbero arrivare sia il conguaglio sia gli arretrati dei differenziali economici di professionalità del duemilaventicinque. L'impegno c'è, ma non abbiamo ancora la certezza assoluta. Vi aggiorneremo appena arriverà la conferma.",
+      "parole": 33,
+      "durata_stimata_s": 17.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le righe 1 e 2 diventano arancio 'novembre: atteso'; il timbro giallo entra sull'ultima frase."
+    },
+    {
+      "n": 4,
+      "titolo": "Il nuovo contratto",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Sul nuovo contratto nazionale duemilaventicinque duemilaventisette, invece, oggi non ci sono informazioni certe sulla data della firma. Per questo una cosa è sicura: i relativi arretrati non saranno pagati a novembre.",
+      "parole": 31,
+      "durata_stimata_s": 15.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La riga 3 si illumina; 'data firma: non certa' in grigio e 'novembre: no' in rosso."
+    },
+    {
+      "n": 5,
+      "titolo": "Niente fughe in avanti",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "pg_telefono.png",
+      "voce": "Come la CISL FP ha sempre detto, niente fughe in avanti. Annunciare date che non esistono crea solo aspettative destinate a essere deluse. Quando avremo date certe, ve le comunicheremo subito.",
+      "parole": 31,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pg_telefono.png: la delegata risponde al telefono e prende appunti, un secondo telefono squilla, collega al telefono sullo sfondo.",
+      "regia": "Il titolo entra deciso; la frase scritta a mano compare alla fine."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "La trasparenza è il primo modo per rispettare chi lavora: vi diciamo quello che sappiamo, quando lo sappiamo. Continueremo a seguire la questione con l'Amministrazione e vi terremo aggiornati. Per dubbi sul tuo cedolino, scrivici o passa in sede. CISL FP Padova Rovigo.",
+      "parole": 43,
+      "durata_stimata_s": 16.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}
