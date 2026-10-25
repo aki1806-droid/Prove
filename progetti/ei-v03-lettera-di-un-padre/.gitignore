@@ -2,6 +2,7 @@
 *.webm
 *.wav
 *.mov
-montaggio/
+montaggio*/
 node_modules
 __pycache__/
+*.m4a

@@ -116,7 +116,16 @@ def frasi(parole, maxr):
             out.append(cur); cur = []
     if cur:
         out.append(cur)
-    return out
+    lun = lambda c: len(' '.join(x['w'] for x in c))
+    fine = []
+    for c in out:
+        n = -(-lun(c) // (2 * maxr - 4))
+        while n > 1:
+            # taglia la frase troppo lunga per due righe al confine di parola più vicino a 1/n
+            k = min(range(1, len(c)), key=lambda k: abs(lun(c[:k]) - lun(c) / n))
+            fine.append(c[:k]); c = c[k:]; n -= 1
+        fine.append(c)
+    return fine
 
 
 def tc(t):
