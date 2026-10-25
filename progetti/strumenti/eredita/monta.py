@@ -124,9 +124,10 @@ def monta(nome, prova=False):
             a = tav[sid]
             ff('-ss', f"{max(0.0, a['inizio'] - s['pre']):.3f}", '-i', f'{D}/avatar/avatar.mp4', '-filter_complex',
                f'fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},split[a][b];'
+               # setsar=1: lo scale della striscia in alto cambiava il rapporto dei pixel (13:6) e il video usciva stirato
                # inquadratura abbassata di GIU px (la scritta del gancio sta sopra la testa): in alto la parete allungata e sfocata
                f'[b]crop={W}:60:0:0,scale={W}:{GIU + 20},boxblur=20:2[t];[a]crop={W}:{H - GIU}:0:0[c];'
-               f'[t][c]vstack,crop={W}:{H}:0:20,format=yuv420p',
+               f'[t][c]vstack,crop={W}:{H}:0:20,setsar=1,format=yuv420p',
                '-frames:v', str(n), '-an', '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', out)
         elif tipo == 'clip':
             c = f'{D}/{src}'; lento = max(1.0, d / durata(c))
@@ -206,7 +207,7 @@ def monta(nome, prova=False):
         # avorio #F4EFE6 (BGR E6EFF4), ombra morbida notte
         'Style: S,Jost,64,&H00E6EFF4,&H00E6EFF4,&H602E1A0B,&H802E1A0B,0,0,0,0,100,100,0,0,1,1.6,3,2,60,60,0,1\n'
         '\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n' + '\n'.join(ev) + '\n')
-    fil.append(f"{cur}subtitles={L}/sub.ass:fontsdir={D}/font,format=yuv420p[v]")
+    fil.append(f"{cur}subtitles={L}/sub.ass:fontsdir={D}/font,setsar=1,format=yuv420p[v]")
     uscita = f"{D}/{os.path.basename(D).upper().replace('-', '_')}_9x16.mp4"
     ff(*ins, '-filter_complex', ';'.join(fil), '-map', '[v]', '-map', '[au]', '-t', f'{tot:.3f}', '-r', str(FPS),
        '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', uscita)
