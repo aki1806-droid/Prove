@@ -26,6 +26,7 @@ GIU = 110            # l'avatar scende di tanto nel quadro
 VOLTO = (330 + GIU, 1000)     # fascia del volto nel look verticale «Aki in his studio»: le scritte lì sopra salgono a SOPRA
 SOPRA = 255
 SFUMA = os.path.join(QUI, 'sfuma_alto.png')
+BASSO = os.path.join(QUI, 'sfuma_basso.png')
 MAXR = 28
 # sovrimpressioni: scena -> [(file, da, a)] in secondi dall'inizio della scena (a=None: fino alla fine)
 OVL = {
@@ -136,22 +137,30 @@ def monta(nome, prova=False):
         # sovrimpressioni della scena
         ov = OVL.get(nome, {}).get(sid, [])
         s['sub_y'] = SUB_Y
-        if ov:
+        foto = tipo in ('img', 'clip')
+        if ov or foto:
             ins, fil, cur = [], [], '[0:v]'
+            if foto:
+                # sulle immagini una sfumatura notte leggera dietro ai sottotitoli, perché si leggano anche sul chiaro
+                ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', BASSO]
+                fil.append(f"[1:v]format=rgba[b0];{cur}[b0]overlay=0:0:shortest=1[vb]"); cur = '[vb]'
             for j, (f, a, b) in enumerate(ov):
                 b = s['d'] if b is None else b
                 x0, y0, x1, y1 = Image.open(f'{D}/grafiche/9x16/{f}').getbbox()
-                dy = 0
+                dy, alto = 0, False
                 if tipo == 'avatar' and VOLTO[0] < y1 and y0 < VOLTO[1]:
                     # scritta sul volto: sale sopra la testa, con una sfumatura notte per leggerla sul muro chiaro
-                    dy = SOPRA - y0
+                    dy, alto = SOPRA - y0, True
+                elif foto and y1 < 1000:
+                    alto = True                           # scritta in alto su un'immagine: stessa sfumatura
+                if alto:
                     ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', SFUMA]
                 if y1 + dy > s['sub_y'] - 150 and y0 + dy < s['sub_y'] + 10:
                     s['sub_y'] = y0 + dy - 25            # sottotitoli sopra le scritte in basso
                 ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', f'{D}/grafiche/9x16/{f}']
                 k = len(ins) // 6
                 fad = f"fade=t=in:st={a:.2f}:d=0.3:alpha=1,fade=t=out:st={b - 0.3:.2f}:d=0.3:alpha=1"
-                if dy:
+                if alto:
                     fil.append(f"[{k - 1}:v]format=rgba,{fad}[g{j}];{cur}[g{j}]overlay=0:0:shortest=1[w{j}]"); cur = f'[w{j}]'
                 fil.append(f"[{k}:v]format=rgba,{fad}[o{j}];{cur}[o{j}]overlay=0:{dy}:shortest=1[v{j}]")
                 cur = f'[v{j}]'
