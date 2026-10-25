@@ -1,0 +1,106 @@
+{
+  "pacchetto": "S03",
+  "titolo": "Short «Perché quel signore ha la faccia triste?» – Parole senza velo",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 3.5,
+      "voce": "Papà, perché quel signore ha una faccia triste?",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "«Papà, perché quel signore ha una faccia triste?»",
+      "note": "Gancio letto con voce bassa e lenta.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 7.1,
+      "voce": "Eravamo in fila alla cassa del supermercato. Mio figlio, seduto nel carrello, lo aveva detto a voce piena.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_fila_supermercato.png",
+      "clip": "clip/IMG_01_fila_supermercato.mp4",
+      "movimento": "5 s, dolly lento in avanti."
+    },
+    {
+      "scena": "S03",
+      "tipo": "img",
+      "durata_stimata_s": 6.9,
+      "voce": "Io ho sentito il sangue salirmi al viso. E ho detto quello che dicono tutti: non si dicono queste cose.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "«Non si dicono queste cose.»",
+      "note": "",
+      "immagine": "immagini/IMG_02_viso_rosso.png",
+      "movimento": "Zoom lento.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S03_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 6.3,
+      "voce": "I bambini leggono i volti come libri aperti. Senza la cortesia di fingere di non aver letto.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "Leggono i volti come libri aperti.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 7.6,
+      "voce": "Quello che è successo dopo, con quell'uomo, me lo porto ancora dentro. Lo racconto nel capitolo Parole senza velo.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "Curiosità aperta: spinge a leggere."
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 36.4
+}

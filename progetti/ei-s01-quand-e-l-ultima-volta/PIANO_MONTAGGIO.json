@@ -1,0 +1,107 @@
+{
+  "pacchetto": "S01",
+  "titolo": "Short «Quand’è l’ultima volta?» – Il tempo dei sassi",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.3,
+      "voce": "Quand'è l'ultima volta che hai guardato qualcosa per un'ora?",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Quand'è l'ultima volta?",
+      "note": "Gancio.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 9.0,
+      "voce": "Un bambino accovacciato. Immobile. Gli occhi fissi su un sasso, una fila di formiche, una pozzanghera dove si riflette un pezzo di cielo.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_bambino_formiche.png",
+      "clip": "clip/IMG_01_bambino_formiche.mp4",
+      "movimento": "5 s: un'increspatura attraversa la pozzanghera."
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "E tu che guardi l'orologio e dici: dai, andiamo.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "«Dai, andiamo.»",
+      "note": "",
+      "immagine": "immagini/IMG_02_orologio.png",
+      "clip": "clip/IMG_02_orologio.mp4",
+      "movimento": "4 s: la lancetta dei secondi corre, focus che passa dal polso al bambino.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S03_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 4.3,
+      "voce": "Il bambino non sta non facendo niente. Sta essendo presente.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "Il bambino non sta «non facendo niente». Sta essendo presente.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 3.6,
+      "voce": "Tu lo chiami perdere tempo. Lui lo chiama vivere.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "Pausa di mezzo secondo tra le due frasi."
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "Tavola capitolo.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 30.2
+}

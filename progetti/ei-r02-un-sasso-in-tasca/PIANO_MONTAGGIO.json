@@ -1,0 +1,117 @@
+{
+  "pacchetto": "R02",
+  "titolo": "Reel «Un sasso in tasca» – lancio della sfida",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Onde del mare in sottofondo per tutta la durata + chitarra acustica pizzicata.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "C'è un sasso nella tasca destra della mia giacca.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Ho un sasso in tasca da anni.",
+      "note": "",
+      "immagine": "immagini/IMG_01_tasca_sasso.png",
+      "clip": "clip/IMG_01_tasca_sasso.mp4",
+      "movimento": "4 s: la mano si apre mostrando il sasso. Testo gancio grande in alto.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "img",
+      "durata_stimata_s": 4.8,
+      "voce": "Bianco, liscio, brillante come un pezzo di luna caduto sulla sabbia.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_sasso_luna.png",
+      "movimento": "Push-in lento."
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 5.7,
+      "voce": "Lo ha raccolto mio figlio, un'estate in Sardegna. Me l'ha messo in mano e ha detto:",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_03_bambino_risacca.png",
+      "clip": "clip/IMG_03_bambino_risacca.mp4",
+      "movimento": "5 s: l'acqua arriva e si ritira, le dita del bambino frugano la sabbia."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "Tieni, papà. È bellissimo.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "«Tieni, papà. È bellissimo.»",
+      "note": "Pausa di 1 s prima della frase.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_tieni_papa.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "img",
+      "durata_stimata_s": 4,
+      "voce": "Non l'ho più tolto dalla tasca.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_04_giacca_appesa.png",
+      "movimento": "Ken Burns lentissimo."
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.8,
+      "voce": "Perché il punto non è il sasso. Il punto è il tempo che lui ha impiegato a trovarlo.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S07",
+      "tipo": "avatar",
+      "durata_stimata_s": 10.3,
+      "voce": "E tu? Hai un sasso in tasca? Un oggetto che un bambino ti ha regalato e che non riesci a buttare? Fotografalo e raccontamelo con l'hashtag un sasso in tasca.",
+      "audio": "voce/VO_S07.mp3",
+      "testo_a_schermo": "#UnSassoInTasca",
+      "note": "Testo hashtag grande in basso per tutta la scena (OVL_hashtag).",
+      "overlay": {
+        "9x16": "grafiche/9x16/S07_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 41.6
+}

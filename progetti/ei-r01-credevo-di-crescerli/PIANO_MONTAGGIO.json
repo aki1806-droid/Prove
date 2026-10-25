@@ -1,0 +1,100 @@
+{
+  "pacchetto": "R01",
+  "titolo": "Reel manifesto «Credevo di crescerli»",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte minimale, molto basso sotto la voce.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.2,
+      "voce": "Per anni ho pensato di essere io il maestro dei miei figli.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Per anni ho pensato di essere io il maestro.",
+      "note": "Gancio: primi 2 secondi con testo grande in alto (OVL_gancio).",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "img",
+      "durata_stimata_s": 6.0,
+      "voce": "Io quello che sa. Loro quelli che imparano. Io la sorgente, loro il terreno da irrigare.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_lavagna_padre.png",
+      "movimento": "Ken Burns lento dall'alto verso il basso."
+    },
+    {
+      "scena": "S03",
+      "tipo": "avatar",
+      "durata_stimata_s": 3.7,
+      "voce": "Poi un mattino di primavera li ho guardati davvero.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S04",
+      "tipo": "clip",
+      "durata_stimata_s": 6.3,
+      "voce": "Erano completamente lì. In un tempo che non andava da nessuna parte, perché era già arrivato.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_bambini_giardino.png",
+      "clip": "clip/IMG_02_bambini_giardino.mp4",
+      "movimento": "5 s, camera a livello dell'erba, lieve movimento."
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "Mentre credevo di crescerli, mi stavano ricrescendo.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase_ricrescendo.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 7.7,
+      "voce": "Ho scritto un libro su tutto quello che i miei figli mi hanno insegnato senza saperlo. Si chiama Eredità Invisibili.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": "Lower third OVL_nome nei primi 3 secondi di questa scena."
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "Dal 20 novembre · Link in bio",
+      "note": "Nei reel la chiusura dura 4 s, non 10.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 35.9
+}

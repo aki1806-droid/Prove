@@ -1,0 +1,12 @@
+{
+  "name": "Eredità Invisibili",
+  "canvas": "#0B1A2E",
+  "surface": "#1C3A5E",
+  "ink": "#F4EFE6",
+  "strong": "#0B1A2E",
+  "on_strong": "#DCE4EC",
+  "accent": "#FFF8E7",
+  "on_accent": "#0B1A2E",
+  "muted": "#7FA79A",
+  "panel": "#DCE4EC"
+}

@@ -1,0 +1,109 @@
+{
+  "pacchetto": "S02",
+  "titolo": "Short «Venti minuti per le scarpe» – La febbre della lentezza",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4.7,
+      "voce": "Venti minuti per infilarsi le scarpe. L'ho cronometrato, una volta.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Venti minuti per le scarpe.",
+      "note": "",
+      "immagine": "immagini/IMG_01_scarpa_in_mano.png",
+      "clip": "clip/IMG_01_scarpa_in_mano.mp4",
+      "movimento": "5 s: le ombre sul muro ondeggiano come alghe.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 6.1,
+      "voce": "E io, in piedi, con la giacca addosso e le chiavi in mano: dai, muoviti, siamo in ritardo.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "«Dai. Muoviti.»",
+      "note": "",
+      "immagine": "immagini/IMG_02_chiavi_in_mano.png",
+      "clip": "clip/IMG_02_chiavi_in_mano.mp4",
+      "movimento": "3 s: le chiavi tintinnano, la mano si stringe.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S02_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S03",
+      "tipo": "img",
+      "durata_stimata_s": 6.9,
+      "voce": "Lui guardava la luce sul muro come si guarda qualcosa che non si è mai visto prima. E per lui era così.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_03_ombre_tenda.png",
+      "movimento": "Push-in lento."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 6.5,
+      "voce": "La velocità può trasportarti da un punto all'altro. Ma è la lentezza che ti fa arrivare davvero.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "La velocità ti trasporta. La lentezza ti fa arrivare.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 6.8,
+      "voce": "Domani, quando tuo figlio si allaccia le scarpe, prova a non dire dai. Guarda cosa sta guardando lui.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "Testo di campagna, non citazione del libro."
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 36.0
+}
