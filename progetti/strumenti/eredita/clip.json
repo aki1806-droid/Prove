@@ -1,0 +1,42 @@
+{
+ "ei-r01-credevo-di-crescerli/clip/IMG_02_bambini_giardino.mp4": {
+  "immagine": "immagini/IMG_02_bambini_giardino.png",
+  "secondi": 6,
+  "movimento": "5 s, camera a livello dell'erba, lieve movimento."
+ },
+ "ei-r02-un-sasso-in-tasca/clip/IMG_01_tasca_sasso.mp4": {
+  "immagine": "immagini/IMG_01_tasca_sasso.png",
+  "secondi": 5,
+  "movimento": "4 s: la mano si apre mostrando il sasso. Testo gancio grande in alto."
+ },
+ "ei-r02-un-sasso-in-tasca/clip/IMG_03_bambino_risacca.mp4": {
+  "immagine": "immagini/IMG_03_bambino_risacca.png",
+  "secondi": 6,
+  "movimento": "5 s: l'acqua arriva e si ritira, le dita del bambino frugano la sabbia."
+ },
+ "ei-s01-quand-e-l-ultima-volta/clip/IMG_01_bambino_formiche.mp4": {
+  "immagine": "immagini/IMG_01_bambino_formiche.png",
+  "secondi": 9,
+  "movimento": "5 s: un'increspatura attraversa la pozzanghera."
+ },
+ "ei-s01-quand-e-l-ultima-volta/clip/IMG_02_orologio.mp4": {
+  "immagine": "immagini/IMG_02_orologio.png",
+  "secondi": 5,
+  "movimento": "4 s: la lancetta dei secondi corre, focus che passa dal polso al bambino."
+ },
+ "ei-s02-venti-minuti-per-le-scarpe/clip/IMG_01_scarpa_in_mano.mp4": {
+  "immagine": "immagini/IMG_01_scarpa_in_mano.png",
+  "secondi": 5,
+  "movimento": "5 s: le ombre sul muro ondeggiano come alghe."
+ },
+ "ei-s02-venti-minuti-per-le-scarpe/clip/IMG_02_chiavi_in_mano.mp4": {
+  "immagine": "immagini/IMG_02_chiavi_in_mano.png",
+  "secondi": 6,
+  "movimento": "3 s: le chiavi tintinnano, la mano si stringe."
+ },
+ "ei-s03-perche-quel-signore/clip/IMG_01_fila_supermercato.mp4": {
+  "immagine": "immagini/IMG_01_fila_supermercato.png",
+  "secondi": 7,
+  "movimento": "5 s, dolly lento in avanti."
+ }
+}
