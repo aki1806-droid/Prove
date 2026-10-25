@@ -1,0 +1,202 @@
+{
+ "ei-r04-il-mare-che-non-sfoga/clip/IMG_01_onde.mp4": {
+  "immagine": "ei-r04-il-mare-che-non-sfoga/immagini/IMG_01_onde.png",
+  "secondi": 5,
+  "movimento": "5 s: un'onda grande si rompe al rallentatore.",
+  "pronta": true,
+  "asset": "37bfc89c47b44e11b736d38e8e913295",
+  "video": "cfaca5e29cc84702a0cea3ca4e5beb9d"
+ },
+ "ei-r04-il-mare-che-non-sfoga/clip/IMG_02_nonno.mp4": {
+  "immagine": "ei-r04-il-mare-che-non-sfoga/immagini/IMG_02_nonno.png",
+  "secondi": 9,
+  "movimento": "5 s: il vento muove le reti.",
+  "pronta": true,
+  "asset": "4d4a9702c532410cb3203834619316ec",
+  "video": "fc107e977aec48559ae9098561d75028"
+ },
+ "ei-r05-i-mattoni-magici/clip/IMG_01_fortino.mp4": {
+  "immagine": "ei-r05-i-mattoni-magici/immagini/IMG_01_fortino.png",
+  "secondi": 9,
+  "movimento": "5 s: un ramo viene appoggiato, la lanterna tremola.",
+  "pronta": true,
+  "asset": "b84fabbb036d42f0940a63332f316391",
+  "video": "4e24133b50cb40f2bfb294ca35a76cde"
+ },
+ "ei-r05-i-mattoni-magici/clip/IMG_02_foglie.mp4": {
+  "immagine": "ei-r05-i-mattoni-magici/immagini/IMG_02_foglie.png",
+  "secondi": 5,
+  "movimento": "4 s: una foglia viene sistemata.",
+  "pronta": true,
+  "asset": "04c2d58364a04e569bb3d79068557f46",
+  "video": "8617c0acf88d4bfa8cd4d395b153e481"
+ },
+ "ei-r06-cadere-mille-volte/clip/IMG_02_passi.mp4": {
+  "immagine": "ei-r06-cadere-mille-volte/immagini/IMG_02_passi.png",
+  "secondi": 10,
+  "movimento": "5 s: il bambino barcolla e si siede, poi riprova.",
+  "pronta": true,
+  "asset": "6a8aa831ce424374bde0badd1944b08d",
+  "video": "61a82ab3c4834057b4fc46a6628ca927"
+ },
+ "ei-r07-prendimi/clip/IMG_01_piattaforma.mp4": {
+  "immagine": "ei-r07-prendimi/immagini/IMG_01_piattaforma.png",
+  "secondi": 9,
+  "movimento": "5 s: il bambino si sporge in avanti.",
+  "pronta": true,
+  "asset": "952647fc1d414b26b54f95bd1491a336",
+  "video": "d6a173b6a99e41668fbbc2ee1db11593"
+ },
+ "ei-r07-prendimi/clip/IMG_02_salto.mp4": {
+  "immagine": "ei-r07-prendimi/immagini/IMG_02_salto.png",
+  "secondi": 7,
+  "movimento": "4 s al rallentatore: il volo e la presa.",
+  "pronta": true,
+  "asset": "5e4f04711c1c4f00b36872af58cbe87b",
+  "video": "7faa8a39e4b6416fa4ea3c1b441bf311"
+ },
+ "ei-r08-ti-voglio-bene-papa/clip/IMG_02_abbraccio.mp4": {
+  "immagine": "ei-r08-ti-voglio-bene-papa/immagini/IMG_02_abbraccio.png",
+  "secondi": 5,
+  "movimento": "4 s: le braccine si stringono.",
+  "pronta": true,
+  "asset": "51bc9f79682c44519d9f37461958a141",
+  "video": "de4925d69dd84eb6ad839e602a14d42b"
+ },
+ "ei-r09-no/clip/IMG_01_braccia.mp4": {
+  "immagine": "ei-r09-no/immagini/IMG_01_braccia.png",
+  "secondi": 8,
+  "movimento": "4 s: il bambino scuote appena la testa.",
+  "pronta": true,
+  "asset": "6a58a317faef47f08841af8644e3e4bd",
+  "video": "c3e91e1fe70c4089b6f7171ee8cf22ff"
+ },
+ "ei-r10-torno-al-giardino/clip/IMG_01_giardino.mp4": {
+  "immagine": "ei-r10-torno-al-giardino/immagini/IMG_01_giardino.png",
+  "secondi": 5,
+  "movimento": "5 s: dolly lento in avanti, la luce cresce.",
+  "pronta": true,
+  "asset": "fdb4a34b147d427fa048c4d069a44f67",
+  "video": "14e235f00c2e47d9a1cf4acc2c4cd914"
+ },
+ "ei-r10-torno-al-giardino/clip/IMG_02_costruiscono.mp4": {
+  "immagine": "ei-r10-torno-al-giardino/immagini/IMG_02_costruiscono.png",
+  "secondi": 9,
+  "movimento": "5 s: una mano appoggia un sasso.",
+  "pronta": true,
+  "asset": "c9b68af507c9498a8d2412e51ebd7928",
+  "video": "ff60c2d73e0b43a7bd7e99b23518375c"
+ },
+ "ei-s04-una-lumaca/clip/IMG_01_lumaca.mp4": {
+  "immagine": "ei-s04-una-lumaca/immagini/IMG_01_lumaca.png",
+  "secondi": 5,
+  "movimento": "5 s: la lumaca avanza appena, la scia brilla.",
+  "pronta": true,
+  "asset": "9ff18d689fd3404c91071a93cd0d9f73",
+  "video": "751f5c62536645d985ed12b6af02580f"
+ },
+ "ei-s04-una-lumaca/clip/IMG_02_bambino_lumaca.mp4": {
+  "immagine": "ei-s04-una-lumaca/immagini/IMG_02_bambino_lumaca.png",
+  "secondi": 7,
+  "movimento": "5 s: l'adulto smette di camminare.",
+  "pronta": true,
+  "asset": "6f063fd5f029494db045f338b2307714",
+  "video": "655304ae00b2409abe8939e1791b71f3"
+ },
+ "ei-s05-perdonare-in-due-minuti/clip/IMG_01_dinosauro.mp4": {
+  "immagine": "ei-s05-perdonare-in-due-minuti/immagini/IMG_01_dinosauro.png",
+  "secondi": 7,
+  "movimento": "4 s: il dinosauro oscilla e si ferma.",
+  "pronta": true,
+  "asset": "7840cef6c9cc4938b3c57986ef591f58",
+  "video": "b81aabea025948cc9e172741f7b7aaaa"
+ },
+ "ei-s06-chiudi-il-pugno/clip/IMG_01_pugno.mp4": {
+  "immagine": "ei-s06-chiudi-il-pugno/immagini/IMG_01_pugno.png",
+  "secondi": 6,
+  "movimento": "5 s: il pugno trema leggermente.",
+  "pronta": true,
+  "asset": "29d081a97d7c45efb778e544c358eaca",
+  "video": "eb3af31df34240759122714823b578ed"
+ },
+ "ei-s06-chiudi-il-pugno/clip/IMG_03_mano_aperta.mp4": {
+  "immagine": "ei-s06-chiudi-il-pugno/immagini/IMG_03_mano_aperta.png",
+  "secondi": 5,
+  "movimento": "5 s: la mano si apre, la piccola mano entra dall'alto.",
+  "pronta": true,
+  "asset": "f86e9a297570434bbaba4f8ad1f89c92",
+  "video": "b5cf23ca16ef47a59a0d197ad30670ea"
+ },
+ "ei-t01-teaser-il-sasso/clip/IMG_01_sasso_buio.mp4": {
+  "immagine": "ei-t01-teaser-il-sasso/immagini/IMG_01_sasso_buio.png",
+  "secondi": 5,
+  "movimento": "5 s: il sasso passa da spento a luminoso, respiro lento della luce.",
+  "pronta": true,
+  "asset": "1d529253d9fa4cbeb404554000f4ad20",
+  "video": "6f26584d901449f89dd36bc823e53bad"
+ },
+ "ei-t01-teaser-il-sasso/clip/IMG_02_mano_bambino.mp4": {
+  "immagine": "ei-t01-teaser-il-sasso/immagini/IMG_02_mano_bambino.png",
+  "secondi": 5,
+  "movimento": "4 s: le dita si avvicinano, la luce del sasso cresce.",
+  "pronta": true,
+  "asset": "f66901b56e24436f9982b9762dba520c",
+  "video": "301580a8ee204be5832d9577b816e82a"
+ },
+ "ei-v02-il-regalo-che-non-si-incarta/clip/IMG_01_albero.mp4": {
+  "immagine": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_01_albero.png",
+  "secondi": 6,
+  "movimento": "5 s: le lucine pulsano lentamente.",
+  "pronta": true,
+  "asset": "5f4e71044cdf4d69a36a26668d038a28",
+  "video": "3b3cb211cea34945a7609b28dced0ac2"
+ },
+ "ei-v02-il-regalo-che-non-si-incarta/clip/IMG_01_albero_9x16.mp4": {
+  "immagine": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_01_albero_9x16.png",
+  "secondi": 6,
+  "movimento": "5 s: le lucine pulsano lentamente.",
+  "pronta": true,
+  "asset": "a9b037f9b4cc46c3babaffe65b8c28ce",
+  "video": "dba78f057bcf48dcaea7b184fe21a395"
+ },
+ "ei-v03-lettera-di-un-padre/clip/IMG_01_spalle.mp4": {
+  "immagine": "ei-v03-lettera-di-un-padre/immagini/IMG_01_spalle.png",
+  "secondi": 5,
+  "movimento": "5 s: il bambino alza un braccio verso la luna.",
+  "pronta": true,
+  "asset": "74dc476886064826bdd1ca6003d68497",
+  "video": "0c75f3fdd2a24797af098733b4cd4df3"
+ },
+ "ei-v03-lettera-di-un-padre/clip/IMG_01_spalle_9x16.mp4": {
+  "immagine": "ei-v03-lettera-di-un-padre/immagini/IMG_01_spalle_9x16.png",
+  "secondi": 5,
+  "movimento": "5 s: il bambino alza un braccio verso la luna.",
+  "pronta": true,
+  "asset": "241186806c7c4417918850c3a3c65261",
+  "video": "ae5a119f0f6d48c097406a2c3d437150"
+ },
+ "ei-v03-lettera-di-un-padre/clip/IMG_02_caduta.mp4": {
+  "immagine": "ei-v03-lettera-di-un-padre/immagini/IMG_02_caduta.png",
+  "secondi": 10,
+  "movimento": "5 s: il bambino si rialza e riparte.",
+  "pronta": true,
+  "asset": "492273da107d40758036798e5b4bd813",
+  "video": "2e798dd9cece4363836701864ec59052"
+ },
+ "ei-v03-lettera-di-un-padre/clip/IMG_02_caduta_9x16.mp4": {
+  "immagine": "ei-v03-lettera-di-un-padre/immagini/IMG_02_caduta_9x16.png",
+  "secondi": 10,
+  "movimento": "5 s: il bambino si rialza e riparte.",
+  "pronta": true,
+  "asset": "9e8f1381edfb41a9adb9b4177fc6e87d",
+  "video": "94ad84928165413fbf71cd735e9830f5"
+ },
+ "ei-y01-perche-ho-scritto-eredita-invisibili/clip/IMG_01_cucina.mp4": {
+  "immagine": "ei-y01-perche-ho-scritto-eredita-invisibili/immagini/IMG_01_cucina.png",
+  "secondi": 12,
+  "movimento": "5 s: dolly lento verso la finestra.",
+  "pronta": true,
+  "asset": "c181afdad7a647e685fbbb84e6e94452",
+  "video": "3f3f8f50b14945528015f67f255d0259"
+ }
+}

@@ -1,0 +1,103 @@
+{
+  "pacchetto": "R06",
+  "titolo": "Reel «Le tabelle» – Cadere mille volte",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte minimale molto basso; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.4,
+      "voce": "Mio figlio piccolo ha cominciato a camminare tardi. Almeno secondo le tabelle.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Secondo le tabelle, era in ritardo.",
+      "note": "",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "img",
+      "durata_stimata_s": 6.9,
+      "voce": "Quelle griglie rassicuranti e terribili che misurano i bambini come bulloni in una catena di montaggio.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_tabella.png",
+      "movimento": "Ken Burns."
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 10.2,
+      "voce": "E io contavo i mesi. Poi l'ho guardato davvero. Cadeva, e ogni caduta gli insegnava qualcosa. Una caduta laterale gli insegnava a tenere i piedi più larghi.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_passi.png",
+      "clip": "clip/IMG_02_passi.mp4",
+      "movimento": "5 s: il bambino barcolla e si siede, poi riprova."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 4.1,
+      "voce": "Prendeva informazione dove un adulto avrebbe preso colpa.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "Prendeva informazione dove noi prendiamo colpa.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 8.1,
+      "voce": "Noi trasformiamo ho sbagliato in sono sbagliato. Eppure nessun bambino al mondo ha mai deciso che camminare non è per lui.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 39.7
+}

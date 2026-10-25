@@ -1,0 +1,109 @@
+{
+  "pacchetto": "S04",
+  "titolo": "Short «Una lumaca» – Stelle sul marciapiede",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "Una lumaca.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Una lumaca.",
+      "note": "",
+      "immagine": "immagini/IMG_01_lumaca.png",
+      "clip": "clip/IMG_01_lumaca.mp4",
+      "movimento": "5 s: la lumaca avanza appena, la scia brilla.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 6.1,
+      "voce": "Mio figlio si è fermato. Si è accovacciato. E ha detto: papà, guarda. Guarda com'è bella.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "«Papà, guarda.»",
+      "note": "",
+      "immagine": "immagini/IMG_02_bambino_lumaca.png",
+      "clip": "clip/IMG_02_bambino_lumaca.mp4",
+      "movimento": "5 s: l'adulto smette di camminare.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S02_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S03",
+      "tipo": "avatar",
+      "durata_stimata_s": 6.0,
+      "voce": "Eravamo in ritardo. Ho aperto la bocca per dire dai, è tardi. Ma qualcosa mi ha fermato.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S04",
+      "tipo": "img",
+      "durata_stimata_s": 4,
+      "voce": "Mi sono accovacciato anch'io.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_03_adulto_accovacciato.png",
+      "movimento": "Ken Burns lento in salita verso i lampioni."
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 4.1,
+      "voce": "Per un bambino il marciapiede non è un mezzo. È un luogo.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "Il marciapiede non è un mezzo. È un luogo.",
+      "note": "Testo di campagna ispirato al capitolo.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 29.2
+}

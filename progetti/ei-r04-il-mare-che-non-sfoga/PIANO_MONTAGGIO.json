@@ -1,0 +1,115 @@
+{
+  "pacchetto": "R04",
+  "titolo": "Reel «Il mare che non sfoga le onde» – Lacrime senza vergogna",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Onde del mare in sottofondo + violoncello lento.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "Il mare che non sfoga le onde rompe gli scogli.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Il mare che non sfoga le onde rompe gli scogli.",
+      "note": "",
+      "immagine": "immagini/IMG_01_onde.png",
+      "clip": "clip/IMG_01_onde.mp4",
+      "movimento": "5 s: un'onda grande si rompe al rallentatore.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.8,
+      "voce": "Me lo disse mio nonno. Era un pescatore, e io avevo forse dieci anni.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 9.3,
+      "voce": "Qualcosa mi aveva ferito. Avevo gli occhi pieni e la mascella stretta, e stavo facendo quel lavoro massacrante che consiste nel non piangere.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_nonno.png",
+      "clip": "clip/IMG_02_nonno.mp4",
+      "movimento": "5 s: il vento muove le reti."
+    },
+    {
+      "scena": "S04",
+      "tipo": "img",
+      "durata_stimata_s": 8.5,
+      "voce": "Lui mi guardò, aspettò un momento, e me lo disse con quella voce ruvida come la corda della rete. E le lacrime caddero. Da sole.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_03_corda.png",
+      "movimento": "Push-in lentissimo."
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 4.5,
+      "voce": "Il dolore che non si esprime non scompare. Diventa distruttivo.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "Il dolore che non si esprime non scompare.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 8.1,
+      "voce": "I bambini lo sanno ancora. Piangono come piove: arriva, cade, bagna, e poi smette. Noi abbiamo imparato a costruire dighe.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 44.2
+}

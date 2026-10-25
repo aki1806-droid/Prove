@@ -1,0 +1,116 @@
+{
+  "pacchetto": "R05",
+  "titolo": "Reel «I mattoni magici» – Il fortino di rami",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte minimale molto basso; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 3.3,
+      "voce": "Le foglie tengono fuori i draghi. Lo sapevi?",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Le foglie tengono fuori i draghi.",
+      "note": "Sorriso, tono serio-giocoso.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 9.5,
+      "voce": "Una domenica pomeriggio i miei figli hanno costruito un fortino di rami in giardino. Nessun progetto. Nessuno aveva detto: costruiamo un fortino.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_fortino.png",
+      "clip": "clip/IMG_01_fortino.mp4",
+      "movimento": "5 s: un ramo viene appoggiato, la lanterna tremola."
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 5.5,
+      "voce": "Questi sono i mattoni magici, mi ha spiegato il grande. Tengono fuori i draghi.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "«Sono i mattoni magici.»",
+      "note": "",
+      "immagine": "immagini/IMG_02_foglie.png",
+      "clip": "clip/IMG_02_foglie.mp4",
+      "movimento": "4 s: una foglia viene sistemata.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S03_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S04",
+      "tipo": "avatar",
+      "durata_stimata_s": 8.4,
+      "voce": "Io avrei saputo costruirlo molto meglio. Più solido, più dritto. Ma non avrei saputo costruirlo come loro. Con quella libertà.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 6.1,
+      "voce": "Per un adulto un bastone è un bastone. Per un bambino è spada, telescopio, timone di nave.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "Un bastone è spada, telescopio, timone di nave.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.7,
+      "voce": "Quando hai smesso di giocare? Non a calcio o a carte. Giocare davvero, senza scopo.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 43.5
+}

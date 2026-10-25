@@ -1,0 +1,1 @@
+Salva qui le clip Higgsfield (image-to-video) con lo stesso nome dell'immagine di partenza ma .mp4.

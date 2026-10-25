@@ -1,0 +1,124 @@
+{
+  "pacchetto": "S06",
+  "titolo": "Short interattivo «Chiudi il pugno» – Tenere con mano aperta",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.4,
+      "voce": "Fai una cosa per me, adesso. Chiudi la mano destra. Forte. Più forte che puoi.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Chiudi il pugno. Adesso.",
+      "note": "Achille guarda in camera, tono calmo.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 5.3,
+      "voce": "Senti le dita contro il palmo. Le nocche che sbiancano. Tieni. Tieni ancora.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "Tieni.",
+      "note": "",
+      "immagine": "immagini/IMG_01_pugno.png",
+      "clip": "clip/IMG_01_pugno.mp4",
+      "movimento": "5 s: il pugno trema leggermente.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S02_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S03",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "10 secondi",
+      "note": "Silenzio quasi totale, solo un battito lento. Sovrapporre un contatore 10→0 (vedi LEGGIMI).",
+      "grafica": {
+        "9x16": "grafiche/9x16/S03_01_timer.jpg"
+      }
+    },
+    {
+      "scena": "S04",
+      "tipo": "img",
+      "durata_stimata_s": 8.1,
+      "voce": "A un certo punto la mano comincia a tremare. Non perché sei debole: perché il corpo non è fatto per stringere a oltranza.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_pugno_trema.png",
+      "movimento": "Push-in."
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 3.2,
+      "voce": "Eppure è così che viviamo. A pugno chiuso.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "Viviamo a pugno chiuso.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "clip",
+      "durata_stimata_s": 4.7,
+      "voce": "Adesso aprila. Piano. Prima del pugno chiuso, c'era la mano aperta.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "Adesso aprila.",
+      "note": "",
+      "immagine": "immagini/IMG_03_mano_aperta.png",
+      "clip": "clip/IMG_03_mano_aperta.mp4",
+      "movimento": "5 s: la mano si apre, la piccola mano entra dall'alto.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S06_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 35.7
+}

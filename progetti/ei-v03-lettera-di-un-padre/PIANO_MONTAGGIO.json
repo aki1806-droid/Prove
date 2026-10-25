@@ -1,0 +1,129 @@
+{
+  "pacchetto": "V03",
+  "titolo": "Video «Lettera di un padre» – Festa del papà",
+  "formati": [
+    "16x9",
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte solo, tonalità maggiore, silenzio di 2 s prima dell’ultima frase.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S01_00_apertura_nera.jpg",
+        "9x16": "grafiche/9x16/S01_00_apertura_nera.jpg"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.7,
+      "voce": "Oggi è la festa del papà. E io vorrei dire grazie ai miei maestri.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "Grazie ai miei maestri.",
+      "note": "Tono basso, quasi sussurrato.",
+      "overlay": {
+        "16x9": "grafiche/16x9/S02_OVL_testo.png",
+        "9x16": "grafiche/9x16/S02_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "Non sapevate di insegnarmi. Non lo sapete ancora.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_spalle.png",
+      "clip": "clip/IMG_01_spalle.mp4",
+      "movimento": "5 s: il bambino alza un braccio verso la luna."
+    },
+    {
+      "scena": "S04",
+      "tipo": "clip",
+      "durata_stimata_s": 9.6,
+      "voce": "Eppure ogni vostra domanda impossibile, ogni caduta rialzata senza dramma, ogni risata senza motivo mi ha restituito qualcosa che credevo perduto.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_caduta.png",
+      "clip": "clip/IMG_02_caduta.mp4",
+      "movimento": "5 s: il bambino si rialza e riparte."
+    },
+    {
+      "scena": "S05",
+      "tipo": "img",
+      "durata_stimata_s": 5.8,
+      "voce": "Questo libro è nato guardandovi. Con quegli occhi che voi mi avete rieducato a usare.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_03_occhi.png",
+      "movimento": "Ken Burns in salita verso le stelle."
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 5.3,
+      "voce": "Un padre che ha avuto la fortuna rara di essere ricresciuto dai propri figli.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "La fortuna rara di essere ricresciuto dai propri figli.",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S06_01_frase.jpg",
+        "9x16": "grafiche/9x16/S06_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.0,
+      "voce": "Io sarò sempre lì, ad aspettarvi. E ad imparare da voi.",
+      "audio": "voce/VO_S07.mp3",
+      "testo_a_schermo": "",
+      "note": "Pausa di 2 s prima di questa frase. Testo dalla dedica del libro."
+    },
+    {
+      "scena": "S08",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.8,
+      "voce": "E tu, papà che mi ascolti: oggi non insegnare niente. Guarda. Impara.",
+      "audio": "voce/VO_S08.mp3",
+      "testo_a_schermo": "",
+      "note": "Testo di campagna."
+    },
+    {
+      "scena": "S09",
+      "tipo": "slide",
+      "durata_stimata_s": 10,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "4 s nella versione verticale.",
+      "grafica": {
+        "16x9": "grafiche/16x9/S09_99_chiusura.jpg",
+        "9x16": "grafiche/9x16/S09_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 50.2
+}

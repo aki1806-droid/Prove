@@ -1,0 +1,7 @@
+*.mp4
+*.webm
+*.wav
+*.mov
+montaggio/
+node_modules
+__pycache__/

@@ -1,0 +1,92 @@
+{
+  "pacchetto": "R10",
+  "titolo": "Reel finale «Torno al giardino»",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte e chitarra, luminoso; uccelli del mattino in sottofondo.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "Torno al giardino. Perché è lì che è cominciato tutto.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Torno al giardino.",
+      "note": "",
+      "immagine": "immagini/IMG_01_giardino.png",
+      "clip": "clip/IMG_01_giardino.mp4",
+      "movimento": "5 s: dolly lento in avanti, la luce cresce.",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.2,
+      "voce": "Ho cominciato questo libro convinto di scrivere di loro. Ho scritto di me.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 8.6,
+      "voce": "Li guardo ancora, mentre costruiscono. Non so cosa. Probabilmente non lo sanno nemmeno loro. E questa non è incertezza: è libertà.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_costruiscono.png",
+      "clip": "clip/IMG_02_costruiscono.mp4",
+      "movimento": "5 s: una mano appoggia un sasso."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 5.5,
+      "voce": "Le eredità invisibili non si tramandano una volta sola. Si offrono ogni giorno.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "Si offrono ogni giorno.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 5.8,
+      "voce": "Grazie a chi ha camminato con me in questi mesi. E a chi mi ha mandato il suo sasso.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": "Testo di campagna. Si può montare sopra le foto #UnSassoInTasca dei lettori (con consenso)."
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 33.1
+}

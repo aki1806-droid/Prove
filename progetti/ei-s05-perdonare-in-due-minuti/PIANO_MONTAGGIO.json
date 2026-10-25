@@ -1,0 +1,115 @@
+{
+  "pacchetto": "S05",
+  "titolo": "Short «Il dinosauro» – Perdonare in due minuti",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte o archi molto bassi; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.7,
+      "voce": "Noi adulti abbiamo un rapporto devoto con le ferite. Le coltiviamo.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Le ferite, noi le coltiviamo.",
+      "note": "",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 6.8,
+      "voce": "I miei figli litigavano per un dinosauro di plastica. Urla, spinte, il piccolo per terra a piangere.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_dinosauro.png",
+      "clip": "clip/IMG_01_dinosauro.mp4",
+      "movimento": "4 s: il dinosauro oscilla e si ferma."
+    },
+    {
+      "scena": "S03",
+      "tipo": "img",
+      "durata_stimata_s": 5.8,
+      "voce": "Io guardavo dalla soglia della cucina, con il caffè in mano. Ho scelto di aspettare.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_soglia_cucina.png",
+      "movimento": "Zoom lento."
+    },
+    {
+      "scena": "S04",
+      "tipo": "avatar",
+      "durata_stimata_s": 9.3,
+      "voce": "Dopo un minuto il piccolo ha smesso di piangere, si è asciugato il viso e ha detto: facciamo che il dinosauro è di tutti e due e va a caccia?",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "Il momento chiave: ritmo più veloce, sorriso."
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 3.2,
+      "voce": "Va bene. Ma io sono quello che lo cavalca.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "«Va bene. Ma io sono quello che lo cavalca.»",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S05_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 7.2,
+      "voce": "Cinque minuti. Dalla guerra totale all'alleanza completa. E io lì, a chiedermi: perché io non so fare così?",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "Perché io non so fare così?",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_02_frase.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 42.0
+}

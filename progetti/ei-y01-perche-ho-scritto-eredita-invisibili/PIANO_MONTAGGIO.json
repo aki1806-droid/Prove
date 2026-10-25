@@ -1,0 +1,193 @@
+{
+  "pacchetto": "Y01",
+  "titolo": "Video YouTube «Perché ho scritto Eredità Invisibili»",
+  "formati": [
+    "16x9"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte ambient continuo, -28 dB sotto la voce.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 10.9,
+      "voce": "Ciao, sono Achille. Tre minuti fa ho finito di rileggere l'ultima pagina del mio terzo libro, e voglio raccontarti come è nato. Perché è nato da una mattina qualunque.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "",
+      "note": "Cambiare «tre minuti fa» se suona falso: testo di campagna."
+    },
+    {
+      "scena": "S02",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "1 · Una mattina di primavera",
+      "note": "Tavola capitolo YouTube.",
+      "grafica": {
+        "16x9": "grafiche/16x9/S02_01_capitolo_mattina.jpg"
+      }
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 12.5,
+      "voce": "Era primavera. Ero in cucina, il caffè si raffreddava nella tazza, le briciole della colazione disegnavano una costellazione sul tavolo. E fuori, in giardino, i miei figli costruivano qualcosa.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_cucina.png",
+      "clip": "clip/IMG_01_cucina.mp4",
+      "movimento": "5 s: dolly lento verso la finestra."
+    },
+    {
+      "scena": "S04",
+      "tipo": "avatar",
+      "durata_stimata_s": 14.4,
+      "voce": "Non era una cosa. Era un gesto. Rami raccolti con serietà, sassi disposti secondo una logica che solo loro vedevano. E in quel momento ho capito una cosa che mi ha scosso: mentre credevo di crescerli, mi stavano ricrescendo.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S05",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "2 · Il ribaltamento",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S05_02_capitolo_ribaltamento.jpg"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 18.9,
+      "voce": "Per anni ho pensato che fare il genitore fosse trasmettere. Valori, strumenti, quel po' di saggezza che credevo di avere. Io la sorgente, loro il terreno da irrigare. Poi ho cominciato a osservarli davvero. Non con l'occhio di chi controlla e corregge, ma con l'occhio di chi si lascia interrogare.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S07",
+      "tipo": "img",
+      "durata_stimata_s": 12.7,
+      "voce": "E ho visto che i bambini sanno ancora fare cose che noi abbiamo disimparato. Piangere senza vergogna. Ridere senza motivo. Meravigliarsi del banale. Perdonare in due minuti. Fidarsi senza riserve.",
+      "audio": "voce/VO_S07.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_cerchio.png",
+      "movimento": "Ken Burns lento."
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "3 · Le sei parti del libro",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S08_03_capitolo_sei.jpg"
+      }
+    },
+    {
+      "scena": "S09",
+      "tipo": "avatar",
+      "durata_stimata_s": 17.3,
+      "voce": "Il libro è diviso in sei parti, come sei maestri. Il tempo, la verità, la meraviglia, la resilienza, le relazioni, la libertà. Ogni capitolo parte da una scena vera: un sasso raccolto in Sardegna, una lumaca sul marciapiede, un dinosauro conteso, un salto da uno scivolo.",
+      "audio": "voce/VO_S09.mp3",
+      "testo_a_schermo": "",
+      "note": "Sovrapporre i sei nomi uno alla volta (OVL_parti)."
+    },
+    {
+      "scena": "S10",
+      "tipo": "avatar",
+      "durata_stimata_s": 8.7,
+      "voce": "E ogni capitolo finisce sempre allo stesso modo: con me. Ho cominciato questo libro convinto di scrivere di loro. Ho scritto di me.",
+      "audio": "voce/VO_S10.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S11",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "4 · Il terzo passo",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S11_04_capitolo_trilogia.jpg"
+      }
+    },
+    {
+      "scena": "S12",
+      "tipo": "avatar",
+      "durata_stimata_s": 14.9,
+      "voce": "È il terzo passo di un cammino. Nel primo libro ho cercato le radici, da dove veniamo. In Mappe Silenziose mi sono chiesto come non perdersi mentre si va. In Eredità Invisibili la domanda si rovescia e guarda chi ci cammina accanto.",
+      "audio": "voce/VO_S12.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S13",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "5 · Per chi è",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S13_05_capitolo_per_chi.jpg"
+      }
+    },
+    {
+      "scena": "S14",
+      "tipo": "avatar",
+      "durata_stimata_s": 14.7,
+      "voce": "Non è un manuale per genitori. Non ci sono regole né consigli. È un libro per adulti che hanno disimparato qualcosa e vogliono riprenderselo. Se hai un figlio, un nipote, un alunno, o se semplicemente sei stato bambino, è per te.",
+      "audio": "voce/VO_S14.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S15",
+      "tipo": "avatar",
+      "durata_stimata_s": 10.1,
+      "voce": "Ti lascio una domanda, quella che apre il libro: cosa sapevi fare naturalmente, prima di disimparare? Scrivimelo nei commenti. Le risposte le leggo tutte.",
+      "audio": "voce/VO_S15.mp3",
+      "testo_a_schermo": "Cosa sapevi fare, prima di disimparare?",
+      "note": "",
+      "overlay": {
+        "16x9": "grafiche/16x9/S15_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S16",
+      "tipo": "slide",
+      "durata_stimata_s": 10,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "16x9": "grafiche/16x9/S16_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 160.1
+}

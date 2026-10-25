@@ -1,0 +1,119 @@
+{
+  "pacchetto": "V02",
+  "titolo": "Video di Natale «Il regalo che non si incarta»",
+  "formati": [
+    "16x9",
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Carillon lento con campanelli lontani, molto bassi.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.2,
+      "voce": "Quest'anno vorrei parlarti di un regalo che non si incarta.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "Il regalo che non si incarta.",
+      "note": "Gancio.",
+      "overlay": {
+        "16x9": "grafiche/16x9/S01_OVL_testo.png",
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 5.7,
+      "voce": "Pensaci: il regalo più bello che hai ricevuto da un bambino non era in una scatola.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_albero.png",
+      "clip": "clip/IMG_01_albero.mp4",
+      "movimento": "5 s: le lucine pulsano lentamente."
+    },
+    {
+      "scena": "S03",
+      "tipo": "img",
+      "durata_stimata_s": 8.9,
+      "voce": "Era un sasso. Un disegno storto. Una domanda impossibile alle sette del mattino. Un ti voglio bene detto dopo che avevi alzato la voce.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_scatola.png",
+      "movimento": "Ken Burns lento."
+    },
+    {
+      "scena": "S04",
+      "tipo": "avatar",
+      "durata_stimata_s": 9.5,
+      "voce": "Io ho scritto un libro su questi regali. Si chiama Eredità Invisibili, e racconta tutto quello che i miei figli mi hanno insegnato senza saperlo.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "",
+      "note": "Lower third OVL_nome nei primi 3 secondi."
+    },
+    {
+      "scena": "S05",
+      "tipo": "img",
+      "durata_stimata_s": 9.0,
+      "voce": "Se lo prendi da me, arriva con la dedica che vuoi e con un sasso bianco. Il sasso è per il maestro piccolo della persona a cui lo regali.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "Con dedica e un sasso bianco",
+      "note": "",
+      "immagine": "immagini/IMG_03_box.png",
+      "movimento": "Push-in lento.",
+      "overlay": {
+        "16x9": "grafiche/16x9/S05_OVL_testo.png",
+        "9x16": "grafiche/9x16/S05_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S06",
+      "tipo": "avatar",
+      "durata_stimata_s": 9.4,
+      "voce": "È per chi ha un bambino nella vita. Cioè per tutti: genitori, nonni, maestre, zii. E anche per chi un bambino lo è stato, e se n'è dimenticato.",
+      "audio": "voce/VO_S06.mp3",
+      "testo_a_schermo": "",
+      "note": "Testo di campagna."
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 4.3,
+      "voce": "Ordinalo entro il 20 dicembre, e arriva in tempo per Natale.",
+      "audio": "voce/VO_S07.mp3",
+      "testo_a_schermo": "Entro il 20 dicembre, in tempo per Natale.",
+      "note": "Controllare la data con i tempi di spedizione reali.",
+      "grafica": {
+        "16x9": "grafiche/16x9/S07_01_frase.jpg",
+        "9x16": "grafiche/9x16/S07_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S08",
+      "tipo": "slide",
+      "durata_stimata_s": 10,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "4 s nella versione verticale.",
+      "grafica": {
+        "16x9": "grafiche/16x9/S08_99_chiusura.jpg",
+        "9x16": "grafiche/9x16/S08_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 61.0
+}

@@ -1,0 +1,1 @@
+Qui Claude Code salva le tracce ElevenLabs: una per scena, nome VO_Sxx.mp3, già pulite (silenceremove + atempo=1.12).

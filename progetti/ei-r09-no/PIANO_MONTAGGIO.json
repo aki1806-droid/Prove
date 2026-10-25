@@ -1,0 +1,101 @@
+{
+  "pacchetto": "R09",
+  "titolo": "Reel «No.» – Dire no senza sensi di colpa",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte minimale molto basso; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "No.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "No.",
+      "note": "Tavola con la sola parola, grande.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S01_01_no.jpg"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "avatar",
+      "durata_stimata_s": 6.1,
+      "voce": "Così. Senza punto esclamativo. Senza giustificazioni. Il no di un bambino di quattro anni.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 7.5,
+      "voce": "Lo dice con tutto il corpo. La testa che si scuote, le braccia incrociate, i piedi piantati a terra come radici.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_braccia.png",
+      "clip": "clip/IMG_01_braccia.mp4",
+      "movimento": "4 s: il bambino scuote appena la testa."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 4.8,
+      "voce": "C'è solo quel muro piccolo e perfetto che è un bambino che ha deciso.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "Un muro piccolo e perfetto.",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_02_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 8.9,
+      "voce": "Io invece ho detto migliaia di sì traditori. Sì con la bocca, mentre lo stomaco si contraeva. Quanti ne hai detti tu, questa settimana?",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 34.3
+}

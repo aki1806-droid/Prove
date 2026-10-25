@@ -1,0 +1,68 @@
+{
+  "pacchetto": "T01",
+  "titolo": "Teaser 15 secondi «Il sasso»",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": null,
+  "musica": "Un solo accordo di pianoforte lungo, poi silenzio.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_sasso_buio.png",
+      "clip": "clip/IMG_01_sasso_buio.mp4",
+      "movimento": "5 s: il sasso passa da spento a luminoso, respiro lento della luce."
+    },
+    {
+      "scena": "S02",
+      "tipo": "clip",
+      "durata_stimata_s": 4,
+      "voce": "C'è un sasso nella mia tasca da anni.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_mano_bambino.png",
+      "clip": "clip/IMG_02_mano_bambino.mp4",
+      "movimento": "4 s: le dita si avvicinano, la luce del sasso cresce."
+    },
+    {
+      "scena": "S03",
+      "tipo": "slide",
+      "durata_stimata_s": 4,
+      "voce": "Tra pochi giorni ti racconto chi me l'ha dato.",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "Tra pochi giorni ti racconto chi me l'ha dato.",
+      "note": "Testo di campagna.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S03_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "20 novembre",
+      "note": "Prepara 5 versioni del finale cambiando la scritta: «tra 5 giorni», «tra 4 giorni», «tra 3 giorni», «dopodomani», «domani». Le tavole sono già in grafiche/9x16/countdown/.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_data.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 14
+}

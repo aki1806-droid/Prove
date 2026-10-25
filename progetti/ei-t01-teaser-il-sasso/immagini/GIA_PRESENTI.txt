@@ -1,0 +1,5 @@
+Immagini già generate da Achille e messe a formato:
+- immagini/IMG_01_sasso_buio.png
+- immagini/IMG_02_mano_bambino.png
+
+I file senza suffisso sono per il formato principale del pacchetto; quelli con _9x16 per la versione verticale.

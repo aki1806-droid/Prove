@@ -1,0 +1,103 @@
+{
+  "pacchetto": "R08",
+  "titolo": "Reel «Ti voglio bene, papà» – Amare senza condizioni",
+  "formati": [
+    "9x16"
+  ],
+  "risoluzione": "1080p",
+  "sottotitoli": true,
+  "voce": {
+    "servizio": "ElevenLabs",
+    "voce": "Achille nuovo 1",
+    "modello": "eleven_v4",
+    "post": "ffmpeg silenceremove poi atempo=1.12"
+  },
+  "avatar": {
+    "gruppo": "Aki",
+    "look": "Aki in his studio"
+  },
+  "musica": "Pianoforte minimale molto basso; 1 s di silenzio prima della frase finale.",
+  "scene": [
+    {
+      "scena": "S01",
+      "tipo": "avatar",
+      "durata_stimata_s": 4.2,
+      "voce": "C'è una frase che nessuno ti dice, quando diventi genitore.",
+      "audio": "voce/VO_S01.mp3",
+      "testo_a_schermo": "La frase che nessuno ti dice.",
+      "note": "",
+      "overlay": {
+        "9x16": "grafiche/9x16/S01_OVL_testo.png"
+      }
+    },
+    {
+      "scena": "S02",
+      "tipo": "img",
+      "durata_stimata_s": 9.7,
+      "voce": "Avevo perso la pazienza per una sciocchezza. Avevo alzato la voce. E me n'ero già pentito, con quella vergogna calda che sale dal petto agli occhi.",
+      "audio": "voce/VO_S02.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_01_cucina_sera.png",
+      "movimento": "Ken Burns lento."
+    },
+    {
+      "scena": "S03",
+      "tipo": "clip",
+      "durata_stimata_s": 4.7,
+      "voce": "E proprio in quel momento, il grande mi ha guardato e mi ha detto:",
+      "audio": "voce/VO_S03.mp3",
+      "testo_a_schermo": "",
+      "note": "",
+      "immagine": "immagini/IMG_02_abbraccio.png",
+      "clip": "clip/IMG_02_abbraccio.mp4",
+      "movimento": "4 s: le braccine si stringono."
+    },
+    {
+      "scena": "S04",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "Ti voglio bene, papà.",
+      "audio": "voce/VO_S04.mp3",
+      "testo_a_schermo": "«Ti voglio bene, papà.»",
+      "note": "1 s di silenzio prima della voce.",
+      "grafica": {
+        "9x16": "grafiche/9x16/S04_01_frase.jpg"
+      }
+    },
+    {
+      "scena": "S05",
+      "tipo": "avatar",
+      "durata_stimata_s": 10.6,
+      "voce": "Senza clausole. Senza però. Non un premio: un dato di fatto, come il cielo che sta sopra. Quel giorno ho capito che non sapevo cosa fosse l'amore senza condizioni.",
+      "audio": "voce/VO_S05.mp3",
+      "testo_a_schermo": "",
+      "note": ""
+    },
+    {
+      "scena": "S06",
+      "tipo": "slide",
+      "durata_stimata_s": 2,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S06_98_capitolo.jpg"
+      }
+    },
+    {
+      "scena": "S07",
+      "tipo": "slide",
+      "durata_stimata_s": 3,
+      "voce": "",
+      "audio": null,
+      "testo_a_schermo": "",
+      "note": "",
+      "grafica": {
+        "9x16": "grafiche/9x16/S07_99_chiusura.jpg"
+      }
+    }
+  ],
+  "durata_totale_stimata_s": 37.2
+}

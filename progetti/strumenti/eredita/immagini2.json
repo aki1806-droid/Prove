@@ -1,0 +1,195 @@
+{
+ "stile": "Stile «Notturno luminoso»: fotografia cinematografica notturna, luce lunare blu-argento, una sola fonte di luce calda che sembra nascere dall'oggetto principale; palette blu notte #0B1A2E, blu marea #1C3A5E, argento #DCE4EC, bagliore avorio #FFF8E7, tocchi di verde salvia #7FA79A; piccole particelle luminose sospese come polvere di stelle; grana fine da pellicola 35 mm, profondità di campo ridotta, silenzio, poesia, realismo fotografico. Nessun testo, nessuna scritta, nessun logo. Bambini solo di spalle, in controluce o nelle mani: mai un volto riconoscibile.",
+ "jobs": [
+  {
+   "out": "ei-r03-propositi-al-contrario/immagini/IMG_01_lista.png",
+   "ar": "9:16",
+   "prompt": "Una lista scritta a mano su carta con le righe cancellate a matita, sopra un sasso bianco, fuochi d'artificio sfocati riflessi nel vetro della finestra. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r03-propositi-al-contrario/immagini/IMG_02_diga.png",
+   "ar": "9:16",
+   "prompt": "Il mare d'inverno di notte, onde che si infrangono dolcemente sugli scogli neri sotto la luna. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r03-propositi-al-contrario/immagini/IMG_03_schedario.png",
+   "ar": "9:16",
+   "prompt": "Un vecchio schedario di legno con un cassetto aperto da cui escono piccole luci che volano via come lucciole. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r03-propositi-al-contrario/immagini/IMG_04_si.png",
+   "ar": "9:16",
+   "prompt": "Due piccoli piedi di bambino piantati a terra come radici su un pavimento di legno, luce di luna, deciso. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r04-il-mare-che-non-sfoga/immagini/IMG_01_onde.png",
+   "ar": "9:16",
+   "prompt": "Onde che si infrangono sugli scogli neri sotto la luna piena, schiuma argentata, formato verticale. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r04-il-mare-che-non-sfoga/immagini/IMG_02_nonno.png",
+   "ar": "9:16",
+   "prompt": "Un anziano pescatore di spalle sulla riva all'alba blu che sistema le reti, accanto a lui un ragazzino di dieci anni di spalle con le spalle rigide. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r04-il-mare-che-non-sfoga/immagini/IMG_03_corda.png",
+   "ar": "9:16",
+   "prompt": "Dettaglio di mani anziane che tengono una corda di rete bagnata, sale sulle dita, luce lunare. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r05-i-mattoni-magici/immagini/IMG_01_fortino.png",
+   "ar": "9:16",
+   "prompt": "Un fortino di rami storto in un giardino al crepuscolo, due piccole figure di spalle che ci lavorano, una lanterna accesa per terra. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r05-i-mattoni-magici/immagini/IMG_02_foglie.png",
+   "ar": "9:16",
+   "prompt": "Mani di bambino che dispongono foglie una accanto all'altra sul terreno con cura da muratore; luce calda della lanterna. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r06-cadere-mille-volte/immagini/IMG_01_tabella.png",
+   "ar": "9:16",
+   "prompt": "Un grafico di crescita stampato su carta, stropicciato, sopra un tappeto da gioco; accanto un paio di prime scarpine; luce fredda. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r06-cadere-mille-volte/immagini/IMG_02_passi.png",
+   "ar": "9:16",
+   "prompt": "Un bambino visto da dietro che muove i primi passi tra un divano e due mani adulte aperte, cade di lato su un tappeto morbido, luce di lampada. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r07-prendimi/immagini/IMG_01_piattaforma.png",
+   "ar": "9:16",
+   "prompt": "Un bambino di quattro anni visto di spalle in cima a una struttura di legno di un parco giochi al crepuscolo, le braccia già aperte, il cielo blu con le prime stelle. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r07-prendimi/immagini/IMG_02_salto.png",
+   "ar": "9:16",
+   "prompt": "Un bambino a mezz'aria in controluce che si lancia verso due braccia adulte aperte, sagome contro il cielo con la luna. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r08-ti-voglio-bene-papa/immagini/IMG_01_cucina_sera.png",
+   "ar": "9:16",
+   "prompt": "Una cucina di sera in penombra, una sedia scostata, un bicchiere rovesciato sul tavolo, luce fredda della finestra. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r08-ti-voglio-bene-papa/immagini/IMG_02_abbraccio.png",
+   "ar": "9:16",
+   "prompt": "Un abbraccio visto da dietro: due piccole braccia intorno al collo di un adulto inginocchiato, luce calda alle spalle. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r09-no/immagini/IMG_01_braccia.png",
+   "ar": "9:16",
+   "prompt": "Un bambino di quattro anni visto di spalle, in piedi a braccia conserte e piedi piantati su un pavimento di legno, davanti a un piatto, luce di luna dalla finestra. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r10-torno-al-giardino/immagini/IMG_01_giardino.png",
+   "ar": "9:16",
+   "prompt": "Un giardino all'alba di primavera, luce che passa dal blu all'oro tenue, rami caduti sull'erba bagnata di rugiada, due piccole figure di spalle lontane. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-r10-torno-al-giardino/immagini/IMG_02_costruiscono.png",
+   "ar": "9:16",
+   "prompt": "Due bambini di spalle accovacciati che dispongono rami e sassi in cerchio sull'erba di primavera, il primo sole che li illumina da dietro. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s04-una-lumaca/immagini/IMG_01_lumaca.png",
+   "ar": "9:16",
+   "prompt": "Macro di una lumaca sul marciapiede bagnato dopo la pioggia, di notte, con una scia argentata luminosa che sembra una calligrafia segreta; guscio a spirale marrone e ocra; riflessi dei lampioni blu. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s04-una-lumaca/immagini/IMG_02_bambino_lumaca.png",
+   "ar": "9:16",
+   "prompt": "Bambino piccolo visto di spalle accovacciato su un marciapiede bagnato, il viso a pochi centimetri da una lumaca luminosa; sopra di lui le gambe di un adulto in cappotto che si ferma; formato verticale. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s04-una-lumaca/immagini/IMG_03_adulto_accovacciato.png",
+   "ar": "9:16",
+   "prompt": "Due figure di spalle, un adulto e un bambino, accovacciate insieme sul marciapiede notturno davanti alla lumaca; i lampioni sopra di loro sembrano stelle. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s05-perdonare-in-due-minuti/immagini/IMG_01_dinosauro.png",
+   "ar": "9:16",
+   "prompt": "Un dinosauro giocattolo di plastica verde a terra sul pavimento di legno di un soggiorno, luce della sera blu, in secondo piano due piccole sagome di bambini sfocate e lontane; atmosfera tesa ma tenera. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s05-perdonare-in-due-minuti/immagini/IMG_02_soglia_cucina.png",
+   "ar": "9:16",
+   "prompt": "Silhouette di un adulto sulla soglia di una cucina, tazza in mano, che guarda verso un soggiorno in penombra; luce calda dietro, blu davanti. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s06-chiudi-il-pugno/immagini/IMG_01_pugno.png",
+   "ar": "9:16",
+   "prompt": "Primo piano di un pugno maschile chiuso con forza, nocche bianche, su fondo blu notte, luce laterale argentata; formato verticale. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s06-chiudi-il-pugno/immagini/IMG_02_pugno_trema.png",
+   "ar": "9:16",
+   "prompt": "Lo stesso pugno visto più da vicino, le vene in rilievo, un tremito; profondità di campo bassissima. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-s06-chiudi-il-pugno/immagini/IMG_03_mano_aperta.png",
+   "ar": "9:16",
+   "prompt": "Una mano adulta che si apre lentamente, palmo verso l'alto; sul palmo una piccola mano di bambino si appoggia; luce calda che nasce dal centro del palmo. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_01_albero.png",
+   "ar": "16:9",
+   "prompt": "Un albero di Natale visto dal basso, da un bambino sdraiato sotto: si vedono solo le sue gambe e le luci calde sopra, il resto blu notte. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_01_albero_9x16.png",
+   "ar": "9:16",
+   "prompt": "Un albero di Natale visto dal basso, da un bambino sdraiato sotto: si vedono solo le sue gambe e le luci calde sopra, il resto blu notte. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_02_scatola.png",
+   "ar": "16:9",
+   "prompt": "Carta da regalo strappata per terra, un bambino di spalle che gioca dentro la scatola vuota invece che con il regalo. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v02-il-regalo-che-non-si-incarta/immagini/IMG_02_scatola_9x16.png",
+   "ar": "9:16",
+   "prompt": "Carta da regalo strappata per terra, un bambino di spalle che gioca dentro la scatola vuota invece che con il regalo. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_01_spalle.png",
+   "ar": "16:9",
+   "prompt": "Un bambino seduto sulle spalle di un adulto, entrambi di spalle e in controluce davanti al mare notturno con la luna. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_01_spalle_9x16.png",
+   "ar": "9:16",
+   "prompt": "Un bambino seduto sulle spalle di un adulto, entrambi di spalle e in controluce davanti al mare notturno con la luna. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_02_caduta.png",
+   "ar": "16:9",
+   "prompt": "Un bambino visto da dietro che si rialza da solo su un prato al crepuscolo dopo una caduta, le mani sporche d'erba. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_02_caduta_9x16.png",
+   "ar": "9:16",
+   "prompt": "Un bambino visto da dietro che si rialza da solo su un prato al crepuscolo dopo una caduta, le mani sporche d'erba. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_03_occhi.png",
+   "ar": "16:9",
+   "prompt": "Un padre di spalle seduto sull'erba accanto a due piccole figure, tutti e tre guardano il cielo stellato. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-v03-lettera-di-un-padre/immagini/IMG_03_occhi_9x16.png",
+   "ar": "9:16",
+   "prompt": "Un padre di spalle seduto sull'erba accanto a due piccole figure, tutti e tre guardano il cielo stellato. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-y01-perche-ho-scritto-eredita-invisibili/immagini/IMG_01_cucina.png",
+   "ar": "16:9",
+   "prompt": "Cucina all'alba di primavera, luce dorata obliqua, tazza di caffè con vapore, briciole sul tavolo; oltre la finestra due piccole figure di spalle in giardino. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  },
+  {
+   "out": "ei-y01-perche-ho-scritto-eredita-invisibili/immagini/IMG_02_cerchio.png",
+   "ar": "16:9",
+   "prompt": "Un cerchio di sassi su legno al chiaro di luna, il sasso centrale acceso, una lumaca con scia di luce. Composizione con spazio libero nel terzo inferiore per eventuali scritte."
+  }
+ ]
+}

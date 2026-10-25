@@ -1,0 +1,44 @@
+[
+ {
+  "id": "S02",
+  "tipo": "achille",
+  "inizio": 0.0,
+  "durata": 4.2612
+ },
+ {
+  "id": "S03",
+  "tipo": "achille",
+  "inizio": 4.2612,
+  "durata": 3.1148
+ },
+ {
+  "id": "S04",
+  "tipo": "achille",
+  "inizio": 7.376,
+  "durata": 8.7918
+ },
+ {
+  "id": "S05",
+  "tipo": "achille",
+  "inizio": 16.1678,
+  "durata": 4.8154
+ },
+ {
+  "id": "S06",
+  "tipo": "achille",
+  "inizio": 20.9833,
+  "durata": 4.1768
+ },
+ {
+  "id": "S07",
+  "tipo": "achille",
+  "inizio": 25.1601,
+  "durata": 3.8273
+ },
+ {
+  "id": "S08",
+  "tipo": "achille",
+  "inizio": 28.9874,
+  "durata": 4.9362
+ }
+]
