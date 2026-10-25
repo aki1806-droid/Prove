@@ -25,7 +25,6 @@ SUB_Y = 1480
 GIU = 110            # l'avatar scende di tanto nel quadro
 VOLTO = (330 + GIU, 1000)     # fascia del volto nel look verticale «Aki in his studio»: le scritte lì sopra salgono a SOPRA
 SOPRA = 255
-SFUMA = os.path.join(QUI, 'sfuma_alto.png')
 BASSO = os.path.join(QUI, 'sfuma_basso.png')
 MAXR = 28
 # sovrimpressioni: scena -> [(file, da, a)] in secondi dall'inizio della scena (a=None: fino alla fine)
@@ -61,6 +60,14 @@ def kenburns(mov):
     if 'lentissimo' in m:
         return 1.0, 1.04, 0.5, 0.5
     return 1.0, 1.08, 0.5, 0.5          # push-in / zoom lento / Ken Burns lento
+
+
+def banda(L, yc, sid, j):
+    """Sfumatura notte orizzontale centrata sulla scritta (yc), per leggerla anche su un fondo chiaro."""
+    import numpy as np
+    a = np.zeros((H, W, 4), np.uint8); a[..., 0], a[..., 1], a[..., 2] = 11, 26, 46
+    y = np.arange(H, dtype=float); a[..., 3] = (np.exp(-((y - yc) / 170) ** 2) * 175)[:, None].astype(np.uint8)
+    f = f'{L}/banda_{sid}_{j}.png'; Image.fromarray(a, 'RGBA').save(f); return f
 
 
 def righe(testo):
@@ -154,7 +161,7 @@ def monta(nome, prova=False):
                 elif foto and y1 < 1000:
                     alto = True                           # scritta in alto su un'immagine: stessa sfumatura
                 if alto:
-                    ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', SFUMA]
+                    ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', banda(L, (y0 + y1) / 2 + dy, sid, j)]
                 if y1 + dy > s['sub_y'] - 150 and y0 + dy < s['sub_y'] + 10:
                     s['sub_y'] = y0 + dy - 25            # sottotitoli sopra le scritte in basso
                 ins += ['-loop', '1', '-t', f'{d:.3f}', '-i', f'{D}/grafiche/9x16/{f}']

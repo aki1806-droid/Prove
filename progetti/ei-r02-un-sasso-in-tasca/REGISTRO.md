@@ -28,6 +28,17 @@ leggerle sul muro chiaro; i sottotitoli salgono sopra le scritte in basso (nome 
 ../strumenti/eredita/monta.py: dissolvenze incrociate di 0,5 s, Ken Burns lento sulle immagini (zoom massimo 8%), slide con
 un respiro di zoom del 3%, sovrimpressioni del pacchetto con dissolvenza, nessuna musica (la aggiunge Achille).
 
-## Stato
-In attesa di immagini e clip da Achille: clip/IMG_01_tasca_sasso.mp4, immagini/IMG_02_sasso_luna.png, clip/IMG_03_bambino_risacca.mp4, immagini/IMG_04_giacca_appesa.png.
-Montaggio di prova fatto con dei segnaposto al loro posto.
+## Immagini e clip
+Immagini generate dai prompt del pacchetto (stile «Notturno luminoso», bambini sempre di spalle) con ElevenLabs
+gpt-image-2.5-sunburst, 9:16 2K (flow BjDeoBiiVIJxmzZ8DuGu; ID in ../strumenti/eredita/immagini-id.json). Le clip sono
+HeyGen image-to-video heygen-video-1 1080p sui movimenti del piano (ID in ../strumenti/eredita/ID.md).
+Sulle scene con immagini una sfumatura notte leggera dietro ai sottotitoli e dietro alle scritte in alto.
+
+## Uscita
+EI_R02_UN_SASSO_IN_TASCA_9x16.mp4: 1080x1920, 25 fps, 35.0 s, 24.9 MB (fuori da git; sotto i 30 MB, è anche la copia
+d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset d3a9fcd7c93f46f9be165214589f8dbd —
+https://resource2.heygen.ai/video/d3a9fcd7c93f46f9be165214589f8dbd/original.mp4
+
+## Da fare (Achille)
+- Musica (indicazione del pacchetto nel LEGGIMI): non aggiunta.
+- Le frasi segnate «testo di campagna» nel piano vanno confermate prima di pubblicare.
