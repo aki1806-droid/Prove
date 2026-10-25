@@ -34,9 +34,13 @@ Sulle scene con immagini una sfumatura notte leggera dietro ai sottotitoli e die
 
 ## Uscita
 EI_S01_QUAND_E_L_ULTIMA_VOLTA_9x16.mp4: 1080x1920, 25 fps, 27.5 s, 22.0 MB (fuori da git; sotto i 30 MB, è anche la copia
-d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset 6d4773262a864a11930ff5da5a1e9326 —
-https://resource2.heygen.ai/video/6d4773262a864a11930ff5da5a1e9326/original.mp4
+d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset f97e5114ade2468caf791446d95a341a —
+https://resource2.heygen.ai/video/f97e5114ade2468caf791446d95a341a/original.mp4
 
 ## Da fare (Achille)
 - Musica (indicazione del pacchetto nel LEGGIMI): non aggiunta.
 - Le frasi segnate «testo di campagna» nel piano vanno confermate prima di pubblicare.
+
+## Correzione 25/10
+La prima uscita aveva il rapporto dei pixel sbagliato (13:6, dallo scale della striscia sopra l'avatar) e i lettori la
+mostravano stirata: rimontata con setsar=1. Il vecchio asset 6d4773262a864a11930ff5da5a1e9326 è da non usare.

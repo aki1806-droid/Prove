@@ -10,5 +10,5 @@ Labiale verificato su tutti e cinque: 23 ms.
 Clip image-to-video heygen-video-1 1080p: R01 giardino eda72c4c3e724a40b79fa3276bb836ba · R02 tasca a99d7e2963bb4851b8c8fc6d5b1c0239 ·
 R02 risacca fd0447c4e2754921b55465d620e3a9d0 · S01 formiche e6bd7e77605c4968be88b4ffc006c83f · S01 orologio 980a0e0e9c2242949601c999262c5a59 ·
 S02 scarpa 83107ab04f254b16baed55dfaab64cdf · S02 chiavi 844ca9f478224dce821f91f340c9235b · S03 supermercato df97b8be314046cb80b9f6d1c9b7230c
-Reel finiti (asset): R01 f71ab4d4ba4f4e8ab390a288837cdf3e · R02 d3a9fcd7c93f46f9be165214589f8dbd · S01 6d4773262a864a11930ff5da5a1e9326 ·
-S02 aff583cb4ad94e4b95569a8ffdfda1fa · S03 02a2744d29634840b029f227fee787ab
+Reel finiti (asset): R01 d5e8ec4b7f344b05b00960128bc18ca1 (il primo, f71ab4d4ba4f4e8ab390a288837cdf3e, era stirato) · R02 d3a9fcd7c93f46f9be165214589f8dbd · S01 f97e5114ade2468caf791446d95a341a (il primo, 6d4773262a864a11930ff5da5a1e9326, era stirato) ·
+S02 aff583cb4ad94e4b95569a8ffdfda1fa · S03 579dc922612048bf852f7f24b6e31bf4 (il primo, 02a2744d29634840b029f227fee787ab, era stirato)

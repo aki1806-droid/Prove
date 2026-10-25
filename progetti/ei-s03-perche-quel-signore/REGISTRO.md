@@ -34,9 +34,13 @@ Sulle scene con immagini una sfumatura notte leggera dietro ai sottotitoli e die
 
 ## Uscita
 EI_S03_PERCHE_QUEL_SIGNORE_9x16.mp4: 1080x1920, 25 fps, 31.6 s, 20.8 MB (fuori da git; sotto i 30 MB, è anche la copia
-d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset 02a2744d29634840b029f227fee787ab —
-https://resource2.heygen.ai/video/02a2744d29634840b029f227fee787ab/original.mp4
+d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset 579dc922612048bf852f7f24b6e31bf4 —
+https://resource2.heygen.ai/video/579dc922612048bf852f7f24b6e31bf4/original.mp4
 
 ## Da fare (Achille)
 - Musica (indicazione del pacchetto nel LEGGIMI): non aggiunta.
 - Le frasi segnate «testo di campagna» nel piano vanno confermate prima di pubblicare.
+
+## Correzione 25/10
+La prima uscita aveva il rapporto dei pixel sbagliato (13:6, dallo scale della striscia sopra l'avatar) e i lettori la
+mostravano stirata: rimontata con setsar=1. Il vecchio asset 02a2744d29634840b029f227fee787ab è da non usare.

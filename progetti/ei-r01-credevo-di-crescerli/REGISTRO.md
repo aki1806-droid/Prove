@@ -35,9 +35,13 @@ Sulle scene con immagini una sfumatura notte leggera dietro ai sottotitoli e die
 
 ## Uscita
 EI_R01_CREDEVO_DI_CRESCERLI_9x16.mp4: 1080x1920, 25 fps, 31.5 s, 21.5 MB (fuori da git; sotto i 30 MB, è anche la copia
-d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset f71ab4d4ba4f4e8ab390a288837cdf3e —
-https://resource2.heygen.ai/video/f71ab4d4ba4f4e8ab390a288837cdf3e/original.mp4
+d'invio). Verificati: labiale 23 ms, file integro, foglio di contatto. Originale su HeyGen: asset d5e8ec4b7f344b05b00960128bc18ca1 —
+https://resource2.heygen.ai/video/d5e8ec4b7f344b05b00960128bc18ca1/original.mp4
 
 ## Da fare (Achille)
 - Musica (indicazione del pacchetto nel LEGGIMI): non aggiunta.
 - Le frasi segnate «testo di campagna» nel piano vanno confermate prima di pubblicare.
+
+## Correzione 25/10
+La prima uscita aveva il rapporto dei pixel sbagliato (13:6, dallo scale della striscia sopra l'avatar) e i lettori la
+mostravano stirata: rimontata con setsar=1. Il vecchio asset f71ab4d4ba4f4e8ab390a288837cdf3e è da non usare.
