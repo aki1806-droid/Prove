@@ -1,0 +1,87 @@
+{
+  "progetto": "PDRO_Auguri_Concorso_OSS_Azienda_Zero",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voce": "Achille nuovo 1 v4 (ElevenLabs)",
+  "avatar": "Aki with a lapel microphone",
+  "scene": [
+    {
+      "n": 1,
+      "tipo": "slide",
+      "kicker": "CONCORSO OSS · AZIENDA ZERO",
+      "titolo": "Domani è il vostro giorno",
+      "sotto": "Ci siamo: è arrivato il momento che aspettavate",
+      "voce": "Ci siamo. Domani è il giorno del concorso per operatori socio sanitari di Azienda Zero. Dopo settimane di studio, di sacrifici, di impegno e qualche inevitabile momento di ansia, è arrivato il momento che aspettavate.",
+      "parole": 35,
+      "durata_stimata_s": 15,
+      "file_visivo": "slide/scena_01.png"
+    },
+    {
+      "n": 2,
+      "tipo": "clip",
+      "banda": "Dietro ogni quiz: sogni, famiglie, sacrifici",
+      "clip": "Sera, cucina di casa: una persona adulta ripassa su quaderni e schede di quiz evidenziate, una tazza accanto. Luce calda, volto non in primo piano, nessun logo leggibile.",
+      "voce": "Lo sappiamo bene: dietro questo concorso non ci sono soltanto quiz, libri e ore di preparazione. Ci sono sogni, famiglie, sacrifici e speranze. E soprattutto c'è il desiderio di costruire un futuro professionale migliore.",
+      "parole": 34,
+      "durata_stimata_s": 14,
+      "file_visivo": "overlay_clip/scena_02_banda.png"
+    },
+    {
+      "n": 3,
+      "tipo": "slide",
+      "kicker": "IN QUESTI MESI",
+      "titolo": "Il lavoro più importante l'avete fatto voi",
+      "elenco": [
+        "Formazione",
+        "Simulazioni",
+        "Supporto concreto"
+      ],
+      "voce": "In questi mesi, come CISL FP Padova Rovigo, abbiamo cercato di accompagnarvi concretamente in questo percorso, con strumenti, formazione, simulazioni e tutto il supporto possibile. Ma il lavoro più importante lo avete fatto voi.",
+      "parole": 34,
+      "durata_stimata_s": 14,
+      "file_visivo": "slide/scena_03.png"
+    },
+    {
+      "n": 4,
+      "tipo": "clip",
+      "banda": "Testa alta, calma e fiducia in quello che sapete",
+      "clip": "Mattina presto: persone riprese di spalle che entrano con passo deciso in un edificio pubblico o in un'aula concorsi, documenti in mano. Luce chiara, nessun volto riconoscibile.",
+      "voce": "Domani entrate in quell'aula a testa alta. Fidatevi della vostra preparazione e mantenete la calma: siete arrivati fin qui grazie alla vostra determinazione. Non lasciate che l'emozione prenda il posto di tutto ciò che avete imparato.",
+      "parole": 36,
+      "durata_stimata_s": 15,
+      "file_visivo": "overlay_clip/scena_04_banda.png"
+    },
+    {
+      "n": 5,
+      "tipo": "slide",
+      "kicker": "QUALUNQUE SIA IL RISULTATO",
+      "titolo": "Il vostro impegno merita rispetto",
+      "sotto": "E vi auguriamo che domani sia il primo passo verso la stabilità",
+      "voce": "Qualunque sia il risultato, il vostro impegno merita rispetto. Ma noi vi auguriamo di cuore che domani sia il primo passo verso quella stabilità e quella soddisfazione professionale che tanto desiderate.",
+      "parole": 31,
+      "durata_stimata_s": 13,
+      "file_visivo": "slide/scena_05.png"
+    },
+    {
+      "n": 6,
+      "tipo": "clip",
+      "banda": "Ci siamo stati prima. Ci saremo anche dopo",
+      "clip": "Corridoio ospedaliero luminoso: un gruppo di operatori sanitari in divisa si scambia un sorriso e una pacca sulla spalla. Clima di squadra, nessun paziente, nessun logo leggibile.",
+      "voce": "Noi ci abbiamo creduto insieme a voi fin dall'inizio. E continueremo a esserci anche dopo il concorso, perché la tutela, il sostegno e la vicinanza ai lavoratori non finiscono con una prova d'esame.",
+      "parole": 33,
+      "durata_stimata_s": 14,
+      "file_visivo": "overlay_clip/scena_06_banda.png"
+    },
+    {
+      "n": 7,
+      "tipo": "slide",
+      "kicker": "CISL FP PADOVA ROVIGO",
+      "titolo": "In bocca al lupo a tutti gli OSS!",
+      "sotto": "Non solo parole. Formazione, presenza e fatti concreti.",
+      "voce": "Un grandissimo in bocca al lupo a tutti gli operatori socio sanitari. Forza ragazzi, ora tocca a voi. CISL FP Padova Rovigo: non solo parole, ma formazione, presenza e fatti concreti.",
+      "parole": 31,
+      "durata_stimata_s": 13,
+      "file_visivo": "slide/scena_07.png"
+    }
+  ]
+}
