@@ -50,6 +50,14 @@ della 7.1 sono rimasti l'eccezione, senza spiegazione.
    l'`atempo` va portato da 1,12 a **1,16**, e **le due sorgenti non si
    mescolano dentro lo stesso corso**.
 
+**HeyGen ha due ingressi: il connettore MCP e la chiave API.** Il connettore
+consuma i crediti del piano web, la chiave API (`HEYGEN_API_KEY`
+nell'ambiente) il saldo API, che è un conto a parte. Si usa prima il
+connettore; quando dice crediti esauriti si passa a
+`produzione/script/heygen_api.py`, che fa le stesse cose (voce, caricamento
+asset, montaggio, stato del render, saldo) con gli stessi parametri e gli
+stessi file. Il passaggio si annota nel registro della lezione.
+
 **Non si usano mai** il TTS proprio di HeyGen (`heygen_voice`, `starfish`,
 `orca`) né il Video Agent per la voce: quelli producono balbettii e artefatti,
 verificato più volte. La strada HeyGen di cui sopra non è il loro TTS: è

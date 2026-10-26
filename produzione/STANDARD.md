@@ -22,6 +22,16 @@ non sul costo. Vedi la tabella in `CLAUDE.md` e il §voce di
   `engine: "elevenlabs"` e `settings: {"model_id": "eleven_v4"}`. Costa circa
   un ventesimo e restituisce i **tempi parola per parola**, che rendono
   inutile la trascrizione di verifica. In prova sul modulo 7.
+- **Strada B anche senza crediti del piano: la chiave API.** Il connettore
+  MCP consuma i crediti del piano web; la chiave API (`HEYGEN_API_KEY`
+  nell'ambiente) consuma il saldo API, che è un conto separato. Quando il
+  piano è a secco, le stesse chiamate si fanno con `script/heygen_api.py`:
+  `voce <voice_id> A B C…` al posto di `create_speech` + `dl.sh` (stessi
+  parametri, stessi file `unico_K_raw.wav`), `carica` al posto di
+  `create_asset_upload_batch` + `carica.py` + `complete_asset_batch`, `monta`
+  al posto di `create_video_from_studio`, `stato` per il render, `crediti`
+  per il saldo API. Prima il connettore, poi l'API: si passa all'API solo
+  quando il connettore dice crediti esauriti, e lo si scrive nel registro.
 - **Mai il TTS proprio di HeyGen** (`heygen_voice`, `starfish`, `orca`) e mai
   il Video Agent per la voce: producono balbettii e artefatti. Questo è stato
   verificato più volte ed è il motivo della regola. **La strada B non è
