@@ -164,7 +164,8 @@ def monta(nome, fmt, prova=False, finale=None, suff=''):
     tav = {t['id']: t for t in json.load(open(f'{D}/audio/tempi-avatar.json'))} if os.path.exists(f'{D}/audio/tempi-avatar.json') else {}
     avatar = f'{D}/avatar/avatar_{fmt}.mp4' if os.path.exists(f'{D}/avatar/avatar_{fmt}.mp4') else f'{D}/avatar/avatar.mp4'
     OV = sovrimpressioni(nome, piano, fmt)
-    basso = sfuma(L, W, H, 0.708 * H, 0.12 * H, 150, 'sfuma_basso')
+    # la sfumatura sta dietro ai sottotitoli: nel 16:9 sono più in basso (a 1010 su 1080)
+    basso = sfuma(L, W, H, 0.708 * H if fmt == '9x16' else SUB_Y - 0.06 * H, 0.12 * H, 150, 'sfuma_basso')
     scene, t0 = [], 0.0
     for s in piano['scene']:
         sid, tipo = s['scena'], s['tipo']; pre = PRIMA.get((nome, sid), 0.0)
@@ -239,6 +240,8 @@ def monta(nome, fmt, prova=False, finale=None, suff=''):
             for j, nm in enumerate(nomi):
                 ov.append((parte(L, W, H, nm, j), tt[j], tt[j + 1] if j + 1 < len(nomi) else None))
         s['sub_y'] = SUB_Y
+        # 16:9: sull'avatar i sottotitoli vanno sulla parete di sinistra, non sulla camicia bianca
+        s['sub_x'] = SX16 if fmt == '16x9' and tipo == 'avatar' else W // 2
         foto = tipo in ('img', 'clip') or (fmt == '16x9' and tipo == 'avatar')   # nel 16:9 la camicia è bianca
         if ov or foto:
             ins, fil, cur = [], [], '[0:v]'
@@ -302,7 +305,7 @@ def monta(nome, fmt, prova=False, finale=None, suff=''):
             a, b = base + c[0]['a'] - 0.05, base + c[-1]['b'] + 0.3
             if j + 1 < len(cc):
                 b = min(b, base + cc[j + 1][0]['a'] - 0.07)
-            ev.append(f"Dialogue: 0,{tc(a)},{tc(b)},S,,0,0,0,,{{\\an2\\pos({W // 2},{s['sub_y']:.0f})}}{righe(' '.join(w['w'] for w in c), MAXR)}")
+            ev.append(f"Dialogue: 0,{tc(a)},{tc(b)},S,,0,0,0,,{{\\an2\\pos({s['sub_x']},{s['sub_y']:.0f})}}{righe(' '.join(w['w'] for w in c), MAXR)}")
     open(f'{L}/sub.ass', 'w').write(
         f'[Script Info]\nScriptType: v4.00+\nPlayResX: {W}\nPlayResY: {H}\nWrapStyle: 2\n\n[V4+ Styles]\n'
         'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, '
