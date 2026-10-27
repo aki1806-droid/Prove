@@ -1,0 +1,90 @@
+{
+ "titolo": "Kit Contratto Funzioni Locali – firma 28 ottobre 2026",
+ "formato": "9:16 1080x1920",
+ "avatar": {
+  "nome": "ANDREA RICCI",
+  "look_id": "20b42026236c4145a4c3cdb6a7cdb9ae",
+  "voice_id": "8c0895c218bf43a69dcaa14e0f78bc96",
+  "account": "HeyGen collegato al connettore"
+ },
+ "modulo": "https://form.getformly.com/f/hwY169",
+ "scene": [
+  {
+   "scena": "01",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s01-copertina.png",
+   "testo_voce": "",
+   "durata_stimata_s": 3
+  },
+  {
+   "scena": "02",
+   "tipo": "avatar",
+   "visivo": "avatar",
+   "testo_voce": "Ciao, sono Andrea Ricci, segretario generale della CISL FP Padova Rovigo. Il 28 ottobre all'ARAN si firma in via definitiva il nuovo contratto delle Funzioni Locali 2025-2027. Ed è una buona notizia per chi lavora nei Comuni, nelle Province e negli altri enti locali.",
+   "durata_stimata_s": 18.4
+  },
+  {
+   "scena": "03",
+   "tipo": "clip",
+   "visivo": "03_clip/video-c03-numeri.mp4",
+   "testo_voce": "Gli aumenti arrivano a regime dal 2027: in media 152 euro al mese nei Comuni e 141 negli altri enti. E gli arretrati medi superano i mille euro.",
+   "durata_stimata_s": 9.9
+  },
+  {
+   "scena": "04",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s04-aumenti-per-area.png",
+   "testo_voce": "Un istruttore, per esempio, avrà quasi 128 euro lordi in più al mese. E con l'indennità di comparto, dal luglio 2027, si arriva a 141.",
+   "durata_stimata_s": 9.2
+  },
+  {
+   "scena": "05",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s05-quando-arrivano.png",
+   "testo_voce": "Dalla firma gli enti hanno trenta giorni per applicare aumenti e arretrati: indicativamente tra novembre e dicembre. Se il tuo ente ritarda, diccelo: interveniamo noi.",
+   "durata_stimata_s": 11.5
+  },
+  {
+   "scena": "06",
+   "tipo": "clip",
+   "visivo": "03_clip/video-c06-diritti.mp4",
+   "testo_voce": "Ma non ci sono solo i soldi. Ferie piene da subito per i neoassunti, congedo fino a 24 mesi per le malattie gravi, indennità pagate anche in ferie per chi fa turni o servizio esterno.",
+   "durata_stimata_s": 12.6
+  },
+  {
+   "scena": "07",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s07-intelligenza-artificiale.png",
+   "testo_voce": "E per la prima volta il contratto mette regole sull'intelligenza artificiale: le macchine aiutano, ma a decidere sono le persone.",
+   "durata_stimata_s": 8.9
+  },
+  {
+   "scena": "08",
+   "tipo": "avatar",
+   "visivo": "avatar",
+   "testo_voce": "Per questo abbiamo preparato il Kit Contratto Funzioni Locali: una guida completa, chiara e gratuita, con le tabelle per controllare la tua busta paga voce per voce.",
+   "durata_stimata_s": 11.4
+  },
+  {
+   "scena": "09",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s09-come-richiederlo.png",
+   "testo_voce": "Compila il modulo in un minuto, scegli la tua provincia, e il kit arriva subito nella tua mail, insieme al link al nostro canale WhatsApp.",
+   "durata_stimata_s": 9.5
+  },
+  {
+   "scena": "10",
+   "tipo": "avatar",
+   "visivo": "avatar",
+   "testo_voce": "Il contratto si firma a Roma, ma si fa valere nel tuo ente. Noi ci siamo. Richiedi il kit e giralo ai colleghi.",
+   "durata_stimata_s": 7.7
+  },
+  {
+   "scena": "11",
+   "tipo": "slide",
+   "visivo": "02_slide/video-s11-chiusura-qr.png",
+   "testo_voce": "",
+   "durata_stimata_s": 10
+  }
+ ]
+}

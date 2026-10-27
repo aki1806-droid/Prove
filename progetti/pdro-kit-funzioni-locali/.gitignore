@@ -1,0 +1,9 @@
+*.mp4
+*.webm
+*.wav
+*.mov
+montaggio*/
+node_modules
+__pycache__/
+audio/sfx/
+audio/musica/
