@@ -70,7 +70,7 @@
 **Grafiche:** `grafiche/S09A.png`
 **Regia:** Riquadro arancio con nomi e numeri di Achille e Giovanna; avatar in basso a destra.
 **Testo (46 parole, ~17.7s):**
-> Chi rifugge il confronto, forse, non sa cosa dire. Noi invece abbiamo sempre qualcosa da proporre. Se vedi qualcuno strappare i nostri volantini, o se la pensi diversamente e vuoi dircelo in faccia, chiamaci: io e Giovanna Vullo rispondiamo sempre. Il confronto, sempre. Lo strappo, mai.
+> Chi rifugge il confronto, forse, non sa cosa dire. Noi invece abbiamo sempre qualcosa da proporre. Se vedi qualcuno strappare i nostri volantini, o se la pensi diversamente e vuoi dircelo in faccia, chiamaci: siamo disponibili al confronto. Il confronto, sempre. Lo strappo, mai.
 
 ## Riferimenti normativi (formulazione prudente)
 - Art. 25 L. 300/1970: diritto di affissione negli appositi spazi.

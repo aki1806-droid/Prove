@@ -12,7 +12,7 @@ senza musica di fondo.
 - Tagli ../strumenti/volantini/voci.py (narratore pause >0,6 → 0,45 s; Achille >0,45 → 0,35 e atempo 1,16): 9 blocchi su 9,
   parole uguali ai conteggi del pacchetto. In S08 una pausa di 0,8 s dopo «foglio,» come chiede la regia.
 - S01 13,9 · S02 15,4 · S03 10,8 · S04 11,0 · S05 14,5 · S06 17,9 · S07 15,0 · S08 17,1 · S09 16,8 s — totale 132,4 s.
-- Costo: 0,30 $ del portafoglio API (47,70 → 47,40).
+- Costo API: voci 0,30 $, avatar 0,62 $ (portafoglio 47,70 → 46,78).
 
 ## Avatar
 «Aki with a lapel microphone» (e6d73d660d354b94b0a50c9692b7c34e) via API, webm con alfa sulla voce di S09 (asset audio
@@ -51,3 +51,12 @@ Testo del post: TESTO_POST.md del pacchetto (invariato).
 ## Da fare (Achille)
 - Far verificare i riferimenti normativi all'ufficio legale prima di pubblicare (art. 25 L. 300/1970, condotta
   antisindacale, art. 392 c.p.), come chiede il pacchetto.
+
+## Versione 2 — 27/10/2026, richiesta di Achille: «non dire io e Giovanna Vullo rispondiamo sempre, dici siamo disponibili al confronto»
+- S09 nuova: «… chiamaci: siamo disponibili al confronto. Il confronto, sempre. Lo strappo, mai.» (voce_testi/09_achille.txt;
+  la prima in voce_testi/v1/). Voce API request hVzVkwzepXHTNzpOF1O3 (grezzo 19,4 s, S09 16,7 s), avatar via API su asset audio
+  ee409563e34c4ed0900f4e250760226c: video 37182e12c81b60e95f9bdd9c40487eba (il primo in avatar/v1/), labiale 0 ms.
+- Il riquadro a schermo con i numeri di Achille e Giovanna resta com'era (la richiesta riguardava solo la frase detta).
+- Montato v2: 132,3 s, 43 MB; copia d'invio 28 MB mandata in chat. Originale su HeyGen: asset bf94ab8c0b8b47d69710dc390c188134 —
+  https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4 (il v1 0a097c5329234288aed7d93f41bc9f41
+  è superato; il file v1 è in v1/, fuori da git). Portafoglio API dopo la v2: 46.12 $.

@@ -1,6 +1,6 @@
 """Voci del reel «Il caso del volantino scomparso» (CISL FP Padova Rovigo, solo AOUP), via API HeyGen (../heygen_api.py,
 elevenlabs eleven_v4) perché i crediti del connettore erano finiti: Luca Ward per le scene 1-8 in una traccia (blocchi uniti
-da <break time="1.6s"/>, request Mb6JYcvSxsPoO8rjFcfy), Achille nuovo 1 per la chiusura S09 (request 7co83yQXgbaoflcpMRKr).
+da <break time="1.6s"/>, request Mb6JYcvSxsPoO8rjFcfy), Achille nuovo 1 per la chiusura S09 (request hVzVkwzepXHTNzpOF1O3; la prima, 7co83yQXgbaoflcpMRKr in v1/, diceva «io e Giovanna Vullo rispondiamo sempre»).
 Tagli con ../chicedomani/voci.py: narratore pause >0,6 s → 0,45 s; achille >0,45 → 0,35 e atempo 1,16 (non
 eleven_multilingual_v2, silenceremove e 1,12 come dice il pacchetto, che presuppone ElevenLabs diretto).
 S08: pausa di 0,8 s dopo «foglio,» («puoi strappare un foglio, … ma non puoi strappare un'idea»), come chiede la regia.
