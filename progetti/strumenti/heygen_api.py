@@ -1,7 +1,8 @@
 """HeyGen via API (v3) con la chiave dell'account aki.pagliaro: si usa quando finiscono i crediti del connettore MCP.
 Stesso account del connettore, ma fatturato sul portafoglio API (separato dai crediti premium dell'abbonamento).
 
-La chiave non sta mai nel repository: si legge da HEYGEN_API_KEY o dal file /root/.config/heygen/api_key (permessi 600).
+La chiave non sta mai nel repository. Strada giusta: segreto di rete dell'ambiente (tipo intestazione, nome X-Api-Key,
+sito api.heygen.com), che il proxy aggiunge da solo alle richieste. In alternativa HEYGEN_API_KEY o /root/.config/heygen/api_key.
 
     python3 heygen_api.py utente                                   profilo e saldo del portafoglio API
     python3 heygen_api.py voce <voice_id> <testo.txt> <uscita>     TTS ElevenLabs eleven_v4: <uscita>.json (stesso formato
@@ -17,17 +18,20 @@ API = 'https://api.heygen.com'
 
 
 def chiave():
+    """La chiave locale, se c'è. Senza, la mette il proxy dell'ambiente: segreto di rete di tipo intestazione
+    «X-Api-Key» per api.heygen.com, impostato nelle impostazioni dell'ambiente (la sessione non la vede mai)."""
     k = os.environ.get('HEYGEN_API_KEY')
     if not k and os.path.exists('/root/.config/heygen/api_key'):
         k = open('/root/.config/heygen/api_key').read().strip()
-    if not k:
-        sys.exit('manca la chiave: HEYGEN_API_KEY o /root/.config/heygen/api_key')
     return k
 
 
 def chiama(metodo, percorso, corpo=None):
+    h = {'Content-Type': 'application/json', 'Accept': 'application/json'}
+    if chiave():
+        h['X-Api-Key'] = chiave()
     req = urllib.request.Request(API + percorso, method=metodo, data=json.dumps(corpo).encode() if corpo is not None else None,
-                                 headers={'X-Api-Key': chiave(), 'Content-Type': 'application/json', 'Accept': 'application/json'})
+                                 headers=h)
     try:
         with urllib.request.urlopen(req, timeout=300) as r:
             d = json.load(r)

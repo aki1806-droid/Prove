@@ -56,10 +56,12 @@ dal catalogo, i controlli che hanno fermato errori veri.
   i crediti premium dell'abbonamento, la chiave un **portafoglio in dollari** a parte.
 - Si usa il connettore finché ha crediti; quando non bastano (una voce narrante di due minuti ne chiede 8-9) si passa
   all'API.
-- **La chiave non entra mai nel repository.** `heygen_api.py` la legge da `HEYGEN_API_KEY` o da
-  `/root/.config/heygen/api_key` (permessi 600). La strada giusta è metterla nelle impostazioni dell'ambiente (menu
-  dell'ambiente → Modifica → Network secrets o variabile `HEYGEN_API_KEY`): una sessione nuova la ritrova da sola. Un file
-  scritto a mano in `/root/.config` sparisce quando il contenitore riparte.
+- **La chiave non entra mai nel repository** (il repository è pubblico). Si mette in **ogni ambiente** come segreto di
+  rete: menu dell'ambiente → Modifica → Aggiungi segreto → tipo **intestazione (Header)**, sito `api.heygen.com`, nome
+  **`X-Api-Key`**, valore la chiave. Non «Body parameter»: HeyGen legge la chiave dall'intestazione. Il proxy la aggiunge
+  da solo a ogni richiesta verso HeyGen e la sessione non la vede mai; `heygen_api.py` in quel caso non manda nessuna
+  chiave. In alternativa legge `HEYGEN_API_KEY` o `/root/.config/heygen/api_key`, ma un file scritto a mano sparisce quando
+  il contenitore riparte.
 - Prima e dopo ogni lavoro si legge il saldo (`python3 heygen_api.py utente`) e lo si scrive nel registro: così si vede
   anche se qualcos'altro ha speso nel frattempo.
 - Gli endpoint v1/v2 di HeyGen chiudono il 31 ottobre 2026: `heygen_api.py` usa solo la **v3**.
