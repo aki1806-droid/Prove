@@ -55,3 +55,12 @@ Portafoglio API: 37,23 → 35,68 $ (voce 0,20, avatar e caricamenti il resto).
 - Montato v2: 104,7 s, 29 MB, file integro, SAR 1:1; copia d'invio 27 MB mandata in chat. Originale su HeyGen (API): asset
   7540192f15464e6295690ad8e9ab5fde — https://resource2.heygen.ai/video/7540192f15464e6295690ad8e9ab5fde/original.mp4
   (sostituisce 8094015fdc7c424a8690f98ba3e52be3). Portafoglio API dopo la v2: 34,33 $.
+
+## Versione 3 — 28/10/2026, richiesta di Achille: «aggiungi la musica sulla copertina e sulla chiusura e elimina i sottotitoli»
+- Sottotitoli non più impressi (monta.py IMPRESSI = False); resta sottotitoli.srt a parte, non inviato.
+- Musica (../strumenti/kitlocali/musica.py) solo sulle due scene mute: traccia del catalogo HeyGen «corporate inspirational,
+  modern, optimistic» (e21d6bf3f9a6438a9192be6fab09941a, royalty-free): l'inizio sulla copertina (0-3 s, dissolvenza in
+  uscita), dal dodicesimo secondo della traccia sulla chiusura con il QR (ultimi 10 s, dissolvenze). Volume 0,42: copertina
+  −24,6 LUFS, chiusura −22 (voce −18,8).
+- Montato v3: 104,7 s, 29 MB, file integro; copia d'invio mandata in chat. Originale su HeyGen (API): asset 128067d561254cf1847b2e9dcb56dbbd —
+  https://resource2.heygen.ai/video/128067d561254cf1847b2e9dcb56dbbd/original.mp4 (sostituisce 7540192f15464e6295690ad8e9ab5fde).

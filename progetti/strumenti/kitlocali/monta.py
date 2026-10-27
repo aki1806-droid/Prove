@@ -10,7 +10,7 @@ Scene come nel pacchetto, tagli netti:
                  scrivania della busta paga). I sottotitoli di queste scene salgono sopra l'avatar.
   S03, S06: clip del pacchetto (6 e 7 s: si animano e poi stanno ferme), allungate tenendo l'ultimo fotogramma;
   S04, S05, S07, S09: slide del pacchetto con un respiro di zoom del 3%.
-Le slide hanno già il logo. Sottotitoli impressi nella fascia bassa (Inter SemiBold bianco su riquadro nero, come il Kit
+Le slide hanno già il logo. Sottotitoli (IMPRESSI; dalla v3 spenti, resta l'SRT) nella fascia bassa (Inter SemiBold bianco su riquadro nero, come il Kit
 precedente), con i tempi veri delle parole; la voce dice i numeri in lettere, i sottotitoli li scrivono in cifre come il
 testo del pacchetto. Anche sottotitoli.srt a parte.
 """
@@ -30,6 +30,7 @@ SCENE = [('S01', 'slide', '02_slide/video-s01-copertina.png', 3.0), ('S02', 'ava
 CIFRE = [('duemilaventicinque duemilaventisette', '2025-2027'), ('duemilaventisette', '2027'), ('centocinquantadue', '152'),
          ('centoquarantuno', '141'), ('centoventotto', '128'), ('ventiquattro', '24'), ('ventotto', '28')]
 MAXR, SUB_Y = 30, 1905
+IMPRESSI = False      # v3 (28/10): Achille non vuole i sottotitoli nel video; resta sottotitoli.srt
 SUB_Y_AVATAR = 1250
 FOTO = {'S02': 'foto-copertina.png', 'S08': 'foto-stipendio.png', 'S10': 'foto-copertina.png'}
 AV_H = 640          # altezza a schermo di Andrea (avatar_pulito.mov: ritaglio 920x1080 del webm, senza la bandiera)
@@ -132,7 +133,7 @@ def monta():
     ins = sum([['-i', f'{D}/audio/wav/{s}.wav'] for s, _ in voci], [])
     fil = [f"[{k + 1}:a]aresample=48000,adelay={round(t * 1000)}|{round(t * 1000)}[a{k}]" for k, (_, t) in enumerate(voci)]
     fil.append(''.join(f'[a{k}]' for k in range(len(voci))) + f"amix=inputs={len(voci)}:normalize=0,apad=whole_dur={tot:.3f}[au]")
-    fil.append(f"[0:v]subtitles={L}/sub.ass,setsar=1,format=yuv420p[v]")
+    fil.append(f"[0:v]subtitles={L}/sub.ass,setsar=1,format=yuv420p[v]" if IMPRESSI else "[0:v]setsar=1,format=yuv420p[v]")
     ff('-i', f'{L}/fondo.mp4', *ins, '-filter_complex', ';'.join(fil), '-map', '[v]', '-map', '[au]', '-t', f'{tot:.3f}',
        '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-c:a', 'aac', '-b:a', '192k',
        '-movflags', '+faststart', f'{D}/{NOME}.mp4')
