@@ -4,8 +4,10 @@
 
 Scene come nel pacchetto, tagli netti:
   S01 copertina e S11 chiusura con il QR: slide mute (3 s e 10 s), la musica la aggiunge Achille;
-  S02, S08, S10: Andrea (photo avatar HeyGen, un solo video con le tre scene in fila, audio/tempi-avatar.json) a schermo
-                 pieno, nessuna grafica sopra;
+  S02, S08, S10: Andrea scontornato (photo avatar HeyGen in webm con alfa, un solo video con le tre scene in fila,
+                 audio/tempi-avatar.json; la punta della bandiera dietro di lui è tolta da pulisci_avatar.py) in basso a destra, come nei reel PDRO, con l'alone chiaro; dietro una foto del
+                 pacchetto con zoom lento, una sfumatura verde e il logo (S02 e S10 la piazza della copertina, S08 la
+                 scrivania della busta paga). I sottotitoli di queste scene salgono sopra l'avatar.
   S03, S06: clip del pacchetto (6 e 7 s: si animano e poi stanno ferme), allungate tenendo l'ultimo fotogramma;
   S04, S05, S07, S09: slide del pacchetto con un respiro di zoom del 3%.
 Le slide hanno già il logo. Sottotitoli impressi nella fascia bassa (Inter SemiBold bianco su riquadro nero, come il Kit
@@ -28,6 +30,9 @@ SCENE = [('S01', 'slide', '02_slide/video-s01-copertina.png', 3.0), ('S02', 'ava
 CIFRE = [('duemilaventicinque duemilaventisette', '2025-2027'), ('duemilaventisette', '2027'), ('centocinquantadue', '152'),
          ('centoquarantuno', '141'), ('centoventotto', '128'), ('ventiquattro', '24'), ('ventotto', '28')]
 MAXR, SUB_Y = 30, 1905
+SUB_Y_AVATAR = 1250
+FOTO = {'S02': 'foto-copertina.png', 'S08': 'foto-stipendio.png', 'S10': 'foto-copertina.png'}
+AV_H = 640          # altezza a schermo di Andrea (avatar_pulito.mov: ritaglio 920x1080 del webm, senza la bandiera)
 
 
 def ff(*a):
@@ -85,10 +90,20 @@ def monta():
             ff('-i', f'{D}/{f}', '-filter_complex', f"[0:v]fps={FPS},scale=1080:1920,setsar=1,tpad=stop_mode=clone:stop_duration={d},"
                f"format=yuv420p[v]", '-map', '[v]', '-an', '-frames:v', str(n), '-c:v', 'libx264', '-crf', '16', out)
         else:
+            # foto del pacchetto con zoom lento, sfumatura verde in basso, logo; Andrea scontornato in basso a destra
             a = tav[sid]['inizio']
-            ff('-i', f'{D}/avatar/avatar.mp4', '-filter_complex',
-               f"[0:v]trim=start={a:.3f}:duration={d:.3f},setpts=PTS-STARTPTS,fps={FPS},scale=1080:1920:force_original_aspect_ratio=increase,"
-               f"crop=1080:1920,setsar=1,tpad=stop_mode=clone:stop_duration=1,format=yuv420p[v]",
+            ff('-loop', '1', '-i', f'{D}/04_foto_sorgente/{FOTO[sid]}', '-loop', '1', '-i', f'{D}/05_extra/logo-cisl-fp-padova-rovigo.png',
+               '-i', f'{D}/avatar/avatar_pulito.mov', '-filter_complex',
+               f"[0:v]scale=2160:3840:force_original_aspect_ratio=increase,crop=2160:3840,"
+               f"zoompan=z='1.02+0.05*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1080x1920:fps={FPS},"
+               f"eq=brightness=-0.06:saturation=0.9,setsar=1[f];"
+               f"color=c=0x00663a:s=1080x1920:d={d:.3f},format=rgba,"
+               f"geq=r='0':g='102':b='58':a='if(gt(Y,1000),min(235,(Y-1000)*0.5),0)'[g];"
+               f"[f][g]overlay=0:0[fg];[1:v]scale=200:-1[l];[fg][l]overlay=40:50[b];"
+               f"[2:v]trim=start={a:.3f}:duration={d:.3f},setpts=PTS-STARTPTS,fps={FPS},format=rgba,"
+               f"scale=-2:{AV_H}:flags=lanczos,split[av][om];"
+               f"[om]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=14:alpha_radius=14,colorchannelmixer=aa=0.55[al];"
+               f"[b][al]overlay=W-w:H-h:eof_action=repeat[b2];[b2][av]overlay=W-w:H-h:eof_action=repeat,setsar=1,format=yuv420p[v]",
                '-map', '[v]', '-an', '-frames:v', str(n), '-c:v', 'libx264', '-crf', '16', out)
         pezzi.append(out)
         if sid in voce:
@@ -99,7 +114,7 @@ def monta():
                 if j + 1 < len(cc):
                     b = min(b, t0 + cc[j + 1][0]['a'] - 0.07)
                 testo = cifre(' '.join(w['w'] for w in c))
-                ev.append(f"Dialogue: 0,{tc(a)},{tc(b)},S,,0,0,0,,{{\\an2\\pos(540,{SUB_Y})}}{righe(testo)}")
+                ev.append(f"Dialogue: 0,{tc(a)},{tc(b)},S,,0,0,0,,{{\\an2\\pos(540,{SUB_Y_AVATAR if tipo == 'avatar' else SUB_Y})}}{righe(testo)}")
                 srt.append((a, b, righe(testo).replace(r'\N', '\n')))
         t0 += d
     tot = t0

@@ -41,3 +41,17 @@ Portafoglio API: 37,23 → 35,68 $ (voce 0,20, avatar e caricamenti il resto).
 - Il QR della chiusura porta a https://form.getformly.com/f/hwY169: controllarlo.
 - La clip dei diritti (S06, del pacchetto) mostra il volto di una bambina: lasciata com'è.
 - Musica: copertina e chiusura sono mute apposta, la aggiungi tu.
+
+## Versione 2 — 28/10/2026, richiesta di Achille: «l'avatar lo voglio scontornato in basso a destra come sempre» e «non mi piace la punta della bandiera»
+- Avatar rifatto via API in webm con alfa (stesso audio, asset 9272f3d33d1f463b9628b835c2c87ae6): video
+  f8f21310c2ac28faa6b54596ccff9252, 1920x1080 (il primo, a schermo pieno, è in avatar/v1/ con il montato v1, fuori da git).
+- La foto di Andrea ha una bandiera CISL dietro la testa e lo scontorno se la portava via: ../strumenti/kitlocali/pulisci_avatar.py
+  la toglie fotogramma per fotogramma (sopra la cima della testa tutto trasparente; sotto, i pixel bianchi, azzurrini e
+  verdi della base della bandiera; l'asta e i pezzi staccati dalla sagoma), bordo dei capelli ammorbidito →
+  avatar/avatar_pulito.mov (ProRes 4444, 920x1080).
+- Scene di Andrea (S02, S08, S10): Andrea in basso a destra (640 px, alone chiaro come nei reel PDRO); dietro una foto del
+  pacchetto con zoom lento, sfumatura verde in basso e logo (S02 e S10 la piazza della copertina, S08 la scrivania della
+  busta paga); sottotitoli di queste scene alzati sopra l'avatar (y 1250).
+- Montato v2: 104,7 s, 29 MB, file integro, SAR 1:1; copia d'invio 27 MB mandata in chat. Originale su HeyGen (API): asset
+  7540192f15464e6295690ad8e9ab5fde — https://resource2.heygen.ai/video/7540192f15464e6295690ad8e9ab5fde/original.mp4
+  (sostituisce 8094015fdc7c424a8690f98ba3e52be3). Portafoglio API dopo la v2: 34,33 $.
