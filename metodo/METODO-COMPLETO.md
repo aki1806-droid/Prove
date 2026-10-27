@@ -57,8 +57,8 @@ dal catalogo, i controlli che hanno fermato errori veri.
 - Si usa il connettore finché ha crediti; quando non bastano (una voce narrante di due minuti ne chiede 8-9) si passa
   all'API.
 - **La chiave non entra mai nel repository** (il repository è pubblico). Si mette in **ogni ambiente** come segreto di
-  rete: menu dell'ambiente → Modifica → Aggiungi segreto → tipo **intestazione (Header)**, sito `api.heygen.com`, nome
-  **`X-Api-Key`**, valore la chiave. Non «Body parameter»: HeyGen legge la chiave dall'intestazione. Il proxy la aggiunge
+  rete: menu dell'ambiente → Modifica → Aggiungi segreto → tipo **Bearer**, sito `api.heygen.com`, valore la chiave
+  (verificato: HeyGen accetta `Authorization: Bearer <chiave>` come `X-Api-Key`; «Body parameter» invece dà 401). Il proxy la aggiunge
   da solo a ogni richiesta verso HeyGen e la sessione non la vede mai; `heygen_api.py` in quel caso non manda nessuna
   chiave. In alternativa legge `HEYGEN_API_KEY` o `/root/.config/heygen/api_key`, ma un file scritto a mano sparisce quando
   il contenitore riparte.

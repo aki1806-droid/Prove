@@ -78,5 +78,5 @@ quelli dell'AOUP.
 Dal 27 ottobre 2026: quando i crediti del connettore HeyGen finiscono, si usa la chiave API dello **stesso account**
 (aki.pagliaro@gmail.com), che ha un portafoglio a parte. Lo strumento è `progetti/strumenti/heygen_api.py` (voci
 eleven_v4, asset, avatar anche webm, effetti sonori dal catalogo HeyGen). La chiave non va mai nel repository (è pubblico):
-sta negli ambienti come segreto di rete di tipo intestazione `X-Api-Key` per `api.heygen.com`, che il proxy aggiunge da
+sta negli ambienti come segreto di rete di tipo **Bearer** per `api.heygen.com`, che il proxy aggiunge da
 solo; in alternativa `HEYGEN_API_KEY` o `/root/.config/heygen/api_key`.
