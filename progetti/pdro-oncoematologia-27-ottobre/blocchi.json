@@ -1,0 +1,192 @@
+{
+  "progetto": "PDRO_Oncoematologia_incontro_27_ottobre",
+  "titolo": "Oncoematologia pediatrica: il confronto del 27 ottobre",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "27 ottobre",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "oe_tavolo.png",
+      "voce": "Ventisette ottobre. Intorno allo stesso tavolo: i sindacati, il Direttore Generale, la Direzione Sanitaria, i responsabili della sicurezza e della medicina del lavoro. Un solo tema: l'Oncoematologia pediatrica e la nuova Pediatria.",
+      "parole": 32,
+      "durata_stimata_s": 15.9,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oe_tavolo.png: lenta carrellata lungo il tavolo della riunione, mani che sfogliano documenti, luce fredda dalle vetrate.",
+      "regia": "Bande nere; etichetta con la data; titolo in dissolvenza; musica sobria e tesa."
+    },
+    {
+      "n": 2,
+      "titolo": "Il nostro principio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Abbiamo portato al tavolo le preoccupazioni raccolte direttamente dai lavoratori, con un principio chiaro. Non cerchiamo colpevoli. Non alimentiamo allarmismi. Vogliamo risposte, trasparenza e soluzioni concrete.",
+      "parole": 26,
+      "durata_stimata_s": 14.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "COLPEVOLI e ALLARMISMI vengono barrati in rosso uno alla volta; poi RISPOSTE, TRASPARENZA, SOLUZIONI entrano con forza."
+    },
+    {
+      "n": 3,
+      "titolo": "Cosa è emerso",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Cosa è emerso? Le cause sono ancora da accertare: c'è un'indagine approfondita in corso, anche con la Regione. Il trasferimento è stato deciso per proteggere i bambini più fragili, e il rientro avverrà solo dopo le verifiche. Sulla salute del personale, la Direzione ha escluso rischi specifici nelle condizioni esaminate.",
+      "parole": 50,
+      "durata_stimata_s": 22.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le tre card salgono una alla volta, ognuna con la sua icona che si disegna."
+    },
+    {
+      "n": 4,
+      "titolo": "Verifiche",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "oe_verifiche.png",
+      "voce": "La Medicina del lavoro resta disponibile per valutazioni individuali. E noi continueremo a vigilare, perché ogni segnalazione dei lavoratori riceva la dovuta attenzione.",
+      "parole": 23,
+      "durata_stimata_s": 11.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oe_verifiche.png: i tecnici controllano la griglia di ventilazione e i filtri, uno preleva campioni d'aria. Stanza vuota, nessun paziente.",
+      "regia": "Ritmo pacato; titolo che entra deciso."
+    },
+    {
+      "n": 5,
+      "titolo": "Le richieste: supporto",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Poi le nostre richieste. Prima: un supporto psicologico concreto per infermieri, OSS e tutti i professionisti. Non solo per il trasferimento, ma per la pressione, le preoccupazioni delle famiglie, la responsabilità di assistere bambini così fragili. La Direzione si sta attivando.",
+      "parole": 41,
+      "durata_stimata_s": 19.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Tabella delle 4 richieste: si accende la prima con il bollino verde IN ATTIVAZIONE."
+    },
+    {
+      "n": 6,
+      "titolo": "Il carico emotivo",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "oe_supporto.png",
+      "voce": "Seconda: riconoscere davvero chi ha garantito le cure anche oltre l'orario e nei fine settimana. Su questo c'è disponibilità al confronto. Terza: aggiornamenti costanti ai sindacati, per non dover più apprendere notizie così delicate dai giornali.",
+      "parole": 36,
+      "durata_stimata_s": 17.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oe_supporto.png: l'infermiera stanca chiude gli occhi, la collega OSS le posa la mano sulla spalla, luce calda nel corridoio notturno.",
+      "regia": "Momento emotivo: musica di pianoforte."
+    },
+    {
+      "n": 7,
+      "titolo": "Monitoraggio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Quarta: monitorare fino alla completa risoluzione. Gestire l'emergenza non basta. Bisogna continuare a verificare ambienti e impianti, trovare le cause e garantire un rientro realmente sicuro.",
+      "parole": 26,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Si accendono le richieste 2, 3 e 4 con i rispettivi bollini; l'ultima in rosso DA GARANTIRE."
+    },
+    {
+      "n": 8,
+      "titolo": "Grazie",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "oe_squadra.png",
+      "voce": "A infermieri, OSS, medici e a tutti i professionisti coinvolti: grazie. Avete affrontato giornate difficili con responsabilità e un enorme senso del dovere. Ma il senso del dovere non può diventare un motivo per dare per scontato il sacrificio delle persone.",
+      "parole": 41,
+      "durata_stimata_s": 17.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/oe_squadra.png: la squadra all'alba, qualcuno si abbraccia, sorrisi stanchi, controluce dorato.",
+      "regia": "GRAZIE entra grande; le quattro righe scritte a mano compaiono una alla volta; crescendo musicale."
+    },
+    {
+      "n": 9,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Continueremo a seguire questa vicenda con attenzione, responsabilità e determinazione, fino in fondo. Perché tutelare chi cura significa tutelare anche chi viene curato. CISL FP Padova Rovigo: dalla parte dei lavoratori, con i fatti, non con le parole.",
+      "parole": 38,
+      "durata_stimata_s": 15.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S09A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i numeri di Achille e Giovanna; avatar in basso a destra."
+    }
+  ]
+}
