@@ -1,0 +1,589 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"pop",
+0.3,
+0.45
+]
+},
+{
+"p": "t1",
+"in": [
+"fade",
+"tavolo",
+0.9
+]
+},
+{
+"p": "t2",
+"in": [
+"fade",
+"tavolo+0.5",
+0.9
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"tema",
+1.3
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.6
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "colp",
+"in": [
+"fade",
+"colpevoli-0.6",
+0.3
+]
+},
+{
+"disegno": {
+"tipo": "barra",
+"t": "colpevoli",
+"x0": 60,
+"x1": 690,
+"y0": 582,
+"y1": 582,
+"w": 12,
+"col": "#c8102e",
+"d": 0.45
+}
+},
+{
+"p": "allarm",
+"in": [
+"fade",
+"allarmismi-0.6",
+0.3
+]
+},
+{
+"disegno": {
+"tipo": "barra",
+"t": "allarmismi",
+"x0": 60,
+"x1": 760,
+"y0": 722,
+"y1": 722,
+"w": 12,
+"col": "#c8102e",
+"d": 0.45
+}
+},
+{
+"p": "vogl",
+"in": [
+"slam",
+"vogliamo",
+0.3
+]
+},
+{
+"p": "risp",
+"in": [
+"slam",
+"risposte",
+0.3
+]
+},
+{
+"p": "trasp",
+"in": [
+"slam",
+"trasparenza",
+0.3
+]
+},
+{
+"p": "soluz",
+"in": [
+"slam",
+"soluzioni",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "c1",
+"in": [
+"risale",
+"cause",
+0.6
+]
+},
+{
+"p": "c2",
+"in": [
+"risale",
+"trasferimento",
+0.6
+]
+},
+{
+"p": "c3",
+"in": [
+"risale",
+"salute",
+0.6
+]
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"vigilare",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"vigilare$+0.3",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"segnalazione",
+1.4
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "h1",
+"in": [
+"slam",
+"richieste",
+0.3
+]
+},
+{
+"p": "h2",
+"in": [
+"slam",
+"richieste$+0.15",
+0.35
+]
+},
+{
+"p": "r1spenta",
+"in": [
+"fade",
+0,
+0.3
+]
+},
+{
+"p": "r1",
+"in": [
+"pop",
+"prima",
+0.5
+]
+},
+{
+"p": "b1",
+"in": [
+"pop",
+"attivando",
+0.45
+],
+"fx": [
+[
+"pulsa",
+"attivando$",
+1.2,
+0.05
+]
+]
+}
+]
+},
+"S06": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"riconoscere",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"riconoscere$+0.3",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"terza",
+1.6
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s2",
+"in": [
+"fade",
+0,
+0.3
+]
+},
+{
+"p": "s3",
+"in": [
+"fade",
+0,
+0.3
+]
+},
+{
+"p": "s4",
+"in": [
+"fade",
+0,
+0.3
+]
+},
+{
+"p": "l2",
+"in": [
+"pop",
+0.25,
+0.45
+]
+},
+{
+"p": "b2",
+"in": [
+"pop",
+0.6,
+0.4
+]
+},
+{
+"p": "l3",
+"in": [
+"pop",
+0.9,
+0.45
+]
+},
+{
+"p": "b3",
+"in": [
+"pop",
+1.25,
+0.4
+]
+},
+{
+"p": "l4",
+"in": [
+"pop",
+"quarta",
+0.5
+]
+},
+{
+"p": "b4",
+"in": [
+"slam",
+"garantire",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"garantire$",
+1.2,
+0.05
+]
+]
+}
+]
+},
+"S08": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "grazie",
+"in": [
+"slam",
+"grazie",
+0.45
+],
+"fx": [
+[
+"bagliore",
+"grazie$",
+1.4
+]
+]
+},
+{
+"p": "l1",
+"in": [
+"wipe",
+"senso#2",
+1.0
+]
+},
+{
+"p": "l2",
+"in": [
+"wipe",
+"diventare",
+1.1
+]
+},
+{
+"p": "l3",
+"in": [
+"wipe",
+"dare",
+0.9
+]
+},
+{
+"p": "l4",
+"in": [
+"wipe",
+"sacrificio",
+1.1
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S09": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.6,
+0.45
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"tutelare",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"cura",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"significa",
+0.9
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"curato",
+0.9
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.04,
+540,
+900
+]
+]
+}
+}

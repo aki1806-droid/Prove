@@ -137,6 +137,11 @@ def ritocca():
                 w = np.linspace(0, 1, len(t) + 2)[1:-1, None]
                 a[t, x] = a[y0, x] * (1 - w) + a[y1, x] * w
         Image.fromarray(a.clip(0, 255).astype(np.uint8), 'RGBA').save(f'{D}/{id}.png')
+    # il fondo di S02 (blu con alone verde): dove c'erano le scritte il riempimento lascia macchie, si sfoca la zona
+    from PIL import ImageFilter
+    f = Image.open(f'{D}/fondo.png').convert('RGBA'); b = f.filter(ImageFilter.GaussianBlur(45))
+    m = Image.new('L', f.size, 0); m.paste(255, (30, 510, 960, 1340)); m = m.filter(ImageFilter.GaussianBlur(40))
+    Image.composite(b, f, m).save(f'{D}/fondo.png')
 
 
 if __name__ == '__main__':
