@@ -72,3 +72,10 @@ provinciale** (CISL FP Padova Rovigo, quindi tutti i territori: AOUP Padova, ULS
 per l'Azienda Ospedale-Università di Padova.** Da questo dipendono testi, didascalie, canali WhatsApp e contatti: per il
 provinciale si citano tutti e tre i territori e i delegati di ciascuno (`metodo/REFERENTI-CISL-FP.md`); per l'AOUP solo
 quelli dell'AOUP.
+
+## HeyGen: connettore prima, poi la chiave API
+
+Dal 27 ottobre 2026: quando i crediti del connettore HeyGen finiscono, si usa la chiave API dello **stesso account**
+(aki.pagliaro@gmail.com), che ha un portafoglio a parte. Lo strumento è `progetti/strumenti/heygen_api.py` (voci
+eleven_v4, asset, avatar anche webm, effetti sonori dal catalogo HeyGen). La chiave non va mai nel repository: si legge da
+`HEYGEN_API_KEY` o da `/root/.config/heygen/api_key`; in una sessione nuova va rimessa lì.

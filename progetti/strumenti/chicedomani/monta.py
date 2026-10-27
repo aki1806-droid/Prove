@@ -80,7 +80,7 @@ def monta():
        f"[1:v]split[l1][l2];"
        f"[0:v][l1]overlay=0:{LOGO_Y['pieno']}:shortest=1:enable='{en['pieno']}'[a];"
        f"[a][l2]overlay=0:{LOGO_Y['overlay']}:enable='{en['overlay']}'[a1];"
-       f"[2:v]fps={FPS},format=rgba,crop={cw}:{ch}:{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,split[av][om];"
+       f"[2:v]fps={FPS},format=rgba,crop={cw}:min({ch}\\,ih):{cx}:{cy},scale=-2:{AV_H}:flags=lanczos,split[av][om];"
        f"[om]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=14:alpha_radius=14,colorchannelmixer=aa=0.55[al];"
        f"[a1][al]overlay={AV_X}:{1920 - AV_H}:eof_action=pass[a2];"
        f"[a2][av]overlay={AV_X}:{1920 - AV_H}:eof_action=pass,format=yuv420p[v];"
