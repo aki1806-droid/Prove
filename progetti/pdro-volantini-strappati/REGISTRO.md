@@ -9,7 +9,9 @@ sonori** del pacchetto (royalty-free), senza musica di fondo.
 ## Stato (27/10, in attesa della chiave API)
 - Serve la chiave API dell'altro account HeyGen nell'ambiente (variabile `HEYGEN_API_KEY` o Network secrets), poi una
   sessione nuova: voci e avatar si fanno lì.
-- Clip Higgsfield Kling 3.0 (std, senza audio, 9:16) dalle foto del pacchetto (media Higgsfield):
+- Clip Higgsfield Kling 3.0 (std, senza audio, 9:16, 716x1280) dalle foto del pacchetto, **pronte** in clip/ (fuori da git;
+  controllate: S01 lo strappo e il foglio nel corridoio, S05 la bacheca, S08 la delegata che riattacca e la camera che stringe
+  sulle mani):
   - S01 vs_strappo (a3b2df4d-8c19-486f-9875-9a5f93d65fef) → job cfbbd3a6-d8f6-4937-90e0-374fd70b8eb1, 12 s
   - S05 vs_bacheca (b3d3da46-fd26-4270-8338-eb2f6fdb5801) → job 913f4fcd-f911-48c4-9406-fe649897d4e4, 14 s
   - S08 vs_riaffiggo (5933ba60-a417-48f1-a5e1-c04e723e8c01) → job c6a4651a-abce-4e97-a8d4-75862d90cc9f, 15 s
