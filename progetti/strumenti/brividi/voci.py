@@ -5,8 +5,7 @@ provinciale). Voce privata «DONNA VOCE CALDA PER VIDEO» (87fd26ac5b68410d93b36
 Tutte le frasi dei cinque trailer in una sola traccia (blocchi uniti da <break time="1.6s"/>), in ordine di trailer e di
 scena; poi ogni blocco si taglia (../chicedomani/voci.py) e si salva nella cartella del suo trailer:
   <Tn>/audio/wav/Sxx.wav, <Tn>/audio/parole.json, <Tn>/audio/tempi-scene.json (durata di ogni blocco per scena).
-La regia chiede di leggere lentamente e di lasciar respirare le pause: profilo «pensiero», pause oltre 0,9 s → 0,7 s,
-nessun atempo. A voce «ventiquattro novembre» (scelta di Achille); a schermo e nei sottotitoli resta «24».
+Profilo «pensiero»: pause oltre 0,6 s → 0,4 s (v1: 0,9 → 0,7; troppo lente per Achille), nessun atempo. A voce «ventiquattro novembre» (scelta di Achille); a schermo e nei sottotitoli resta «24».
 
     python3 strumenti/brividi/voci.py genera     -> voce-brividi.json + voce-brividi-grezzo.mp3
     python3 strumenti/brividi/voci.py taglia
@@ -21,9 +20,9 @@ BASE = os.path.join(PR, 'pdro-brividi-24-novembre')
 TRAILER = ['T1_LA_PORTA_20s', 'T2_DOVE_SEI_30s', 'T3_IL_NODO_45s', 'T4_CHI_CURA_60s', 'T5_ACCENDIAMO_UNA_LUCE_75s']
 VOCE = '87fd26ac5b68410d93b36b2d44a19f8d'
 A_VOCE = [('Il 24 novembre', 'Il ventiquattro novembre')]
-cv.TEMPO['pensiero'] = (0.9, 0.7, 1.0)
+cv.TEMPO['pensiero'] = (0.6, 0.4, 1.0)      # v2: pause più corte (Achille: «troppe pause lunghe»)
 # pause della regia dentro una frase: (trailer, scena): {parola: secondi}
-PAUSE = {('T3_IL_NODO_45s', 'S04'): {'rabbia.': 1.0}}   # «Silenzio di 1 s prima di "Basta ascoltarsi"»
+PAUSE = {('T3_IL_NODO_45s', 'S04'): {'rabbia.': 0.7}}   # «Silenzio di 1 s prima di "Basta ascoltarsi"»
 
 
 def righe():

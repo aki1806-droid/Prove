@@ -2,7 +2,8 @@
 
     python3 strumenti/brividi/trailer.py T1 [9x16]      (T1..T5; senza formato, tutti quelli dello storyboard)
 
-Tempi delle scene al decimo di secondo da storyboard.json del pacchetto; quello che la regia dice e lo storyboard no sta in
+Scene nell'ordine di storyboard.json, con le durate della v2 (ritmo(): parlato + un respiro, clip quasi a velocità
+naturale, silenzi di 1 s; la v1 seguiva i tempi dello storyboard ed era troppo lenta per Achille); quello che la regia dice e lo storyboard no sta in
 REGIA qui sotto. Ogni fotogramma si compone in Python (numpy + PIL) sopra la base fatta da ffmpeg:
   - clip «rallentate al 50%»: minterpolate (flusso ottico) a velocità durata_scena/durata_clip, in cache;
     «reverse», «fermo» (ultimo fotogramma con zoom lento), «normale» (allungata appena se serve);
@@ -84,6 +85,40 @@ REGIA = {
 }
 BOLLE_T = [0.0, 2.0, 3.6, 5.0, 6.2, 7.2, 8.0]
 
+# v2 (28/10, Achille: «clip molto lente e troppe pause lunghe»): le scene non durano più quanto nello storyboard ma quanto
+# serve: parlato + un respiro; le clip girano a velocità naturale (al massimo rallentate quanto basta per coprire la voce);
+# i neri di silenzio totale scendono a SILENZIO s. Gli eventi audio e i silenzi della REGIA restano scritti sui tempi dello
+# storyboard e si spostano in proporzione dentro la loro scena (ritmo()).
+SILENZIO = 1.0
+MAX_LENTO = 1.3
+CARTELLI = {'titolo': 2.8, 'info': 4.0, 'prenota': 3.5, 'firma': 3.0}
+DURATE = {('T1', 3): 2.4, ('T2', 1): 7.0, ('T2', 2): 3.5, ('T5', 1): 3.0, ('T1', 1): 1.5, ('T4', 1): 1.5}
+
+
+def ritmo(T, scene, parole, R):
+    """Durate nuove delle scene (riscrive inizio_s e fine_s) e la funzione che porta un tempo vecchio in quello nuovo."""
+    vecchie, t = [], 0.0
+    for s in scene:
+        sid = f"S{s['n']:02d}"; a = s['asset'][0]; cfg = R['scene'].get(s['n'], {})
+        voce = parole[sid][-1]['b'] + 0.25 if sid in parole else 0
+        testo = len(s['testo_a_schermo']) / 18 + 0.35 if s['testo_a_schermo'] and cfg.get('testo') == 'macchina' else 0
+        if (T, s['n']) in DURATE:
+            d = DURATE[(T, s['n'])]
+        elif 'clips/' in a:
+            d = max(voce + 0.5, testo + 1.0, 4.0 if cfg.get('clip') != 'fermo' else 3.0)
+        elif 'nero' in a:
+            d = max(voce + 0.45, testo + 0.7) if (voce or testo) else SILENZIO
+        else:
+            d = max(next(v for k, v in CARTELLI.items() if k in a), voce + 0.5)
+        vecchie.append((s['inizio_s'], s['fine_s'])); s['inizio_s'] = round(t, 2); t += d; s['fine_s'] = round(t, 2)
+
+    def rim(x):
+        for (a, b), s in zip(vecchie, scene):
+            if x <= b + 1e-6:
+                return s['inizio_s'] + (min(max(x, a), b) - a) * (s['fine_s'] - s['inizio_s']) / (b - a)
+        return scene[-1]['fine_s']
+    return round(t, 2), rim
+
 
 def ff(*a):
     subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', *a], check=True)
@@ -116,8 +151,8 @@ def prepara(clip, modo, d, cache):
         if not os.path.exists(out):
             ff('-sseof', '-0.1', '-i', src, '-frames:v', '1', '-update', '1', out)
         return out
-    f = d / durata(src)
-    if modo == 'normale' and f < 1.06:
+    f = min(d / durata(src), MAX_LENTO)       # oltre, la clip si ferma sull'ultimo fotogramma (fotogrammi(): tpad)
+    if modo in ('normale', 'lento') and f < 1.06:     # più corta della clip: si taglia, non si accelera
         return src
     out = f'{cache}/{base}_{modo}_{f:.3f}.mp4'
     if not os.path.exists(out):
@@ -138,7 +173,7 @@ def fotogrammi(src, W, H, n, cx=0.5, zoom=None):
         x = f"(iw-{W})*({cx[0]}+({cx[1] - cx[0]})*min(1,n/{max(1, n - 1)}))" if isinstance(cx, tuple) else f"(iw-{W})*{cx}"
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,fps={FPS},crop={W}:{H}:'{x}':(ih-{H})/2"
     ins = ['-loop', '1', '-i', src] if img else ['-i', src]
-    p = subprocess.Popen(['ffmpeg', '-v', 'error', *ins, '-vf', vf + ',tpad=stop_mode=clone:stop_duration=5,format=rgb24',
+    p = subprocess.Popen(['ffmpeg', '-v', 'error', *ins, '-vf', vf + ',tpad=stop_mode=clone:stop=-1,format=rgb24',
                           '-frames:v', str(n), '-f', 'rawvideo', '-'], stdout=subprocess.PIPE)
     ultimo = None
     for _ in range(n):
@@ -275,7 +310,9 @@ def monta(T, fmt):
     os.makedirs(L, exist_ok=True); os.makedirs(cache, exist_ok=True)
     A = f'{D}/{cart}/audio'
     parole = json.load(open(f'{A}/parole.json')); vdur = {x['id']: x['durata'] for x in json.load(open(f'{A}/tempi-scene.json'))}
-    tot = sb['durata_s']; silenzi = list(R['silenzi'])
+    tot, rim = ritmo(T, sb['scene'], parole, R)
+    silenzi = [(rim(a), rim(b)) for a, b in R['silenzi']]
+    bolle_t = [rim(x) for x in BOLLE_T]
     scala = W / 1920 if fmt == '16x9' else W / 1080
     ver = fmt == '9x16'
     px_testo = int(96 * scala) if fmt == '16x9' else (80 if ver else 74)
@@ -372,7 +409,7 @@ def monta(T, fmt):
                 f = f.copy(); m = mask.copy(); m[:, :xs] = False; f[m] = AVORIO
             if bb is not None and s['n'] == 1:
                 for i, (st, bx, by) in enumerate(bb):
-                    tb = t - BOLLE_T[i]
+                    tb = t - bolle_t[i]
                     if tb < 0:
                         continue
                     e = min(1, tb / 0.28); salto = (1 - e) * -90 + (np.sin(min(1, tb / 0.45) * np.pi) * 10 if tb < 0.45 else 0)
@@ -413,6 +450,9 @@ def monta(T, fmt):
     eff, mus = [], []
     for ev in R['audio']:
         t, nome, vol, dmax, off, fin, fout = ev[:7]
+        if dmax is not None:
+            dmax = rim(t + dmax) - rim(t)
+        t = rim(t)
         src = f'{SFX}/{nome}.wav'; ds = durata(src)
         loop = dmax is not None and dmax > ds - off
         ins += (['-stream_loop', '-1'] if loop else []) + ['-i', src]
@@ -424,7 +464,7 @@ def monta(T, fmt):
             ch += f",afade=t=out:st={max(0, dd - fout):.3f}:d={fout}"
         ch += f",adelay={round(t * 1000)}:all=1"
         if len(ev) > 7:
-            r0, r1, v0, v1 = ev[7]
+            r0, r1, v0, v1 = ev[7]; r0, r1 = rim(r0), rim(r1)
             ch += f",volume='{v0}+({v1}-{v0})*min(1,max(0,(t-{r0})/({r1}-{r0})))':eval=frame"
         lab = f'e{k}'; fil.append(ch + f'[{lab}]')
         (mus if nome.startswith('p_') else eff).append(lab); k += 1

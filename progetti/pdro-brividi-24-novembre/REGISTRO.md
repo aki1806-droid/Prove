@@ -57,3 +57,16 @@ Link: https://resource2.heygen.ai/video/<asset>/original.mp4. Portafoglio API: 3
 - Nei post scrivere «immagini generate con IA».
 - Il QR porta a https://form.getformly.com/f/02eeRh: controllarlo.
 - k07 sostituita (vedi Clip): se preferisci l'originale, dimmelo.
+
+## Versione 2 — 28/10/2026, richiesta di Achille: «trovo le clip molto lente e ci sono troppe pause lunghe»
+- Scene non più ai tempi dello storyboard: ogni scena dura il suo parlato + un respiro (trailer.py, ritmo()); cartelli
+  titolo 2,8 s, info 4, prenotazione 3,5 (QR sempre ≥ 3 s), firma 3; i neri di silenzio totale 1 s (T1, con la macchina da
+  scrivere, 2,4 s). Effetti, musica e silenzi della regia spostati in proporzione dentro la loro scena.
+- Clip a velocità naturale; rallentate al massimo ×1,3 solo se la voce è più lunga, poi ferme sull'ultimo fotogramma
+  (prima erano al 50%).
+- Voce: pause interne oltre 0,6 s → 0,4 s (prima 0,9 → 0,7); in T3 la pausa prima di «Basta ascoltarsi» 0,7 s.
+- Durate: T1 19,5 s · T2 24,4 · T3 32,9 · T4 36,4 · T5 42,7 (i nomi delle cartelle del pacchetto restano 20/30/45/60/75).
+  Tutti integri, −16 LUFS, silenzi a zero. Mandati in chat. Originali su HeyGen (sostituiscono quelli della v1):
+  T1 fcfcea1f6c05481f8f8ecb4088b9d190 · T2 a04170e3179f4bacba8eff86dac27d12 · T3 16:9 968bfc42cfb440659cfa5fa24c917a75 ·
+  T3 9:16 66027c94972e46b1aa162cf9ee4eec5b · T4 70b9d4d10af74ca59d6ec9a633e14eba · T5 16:9 434d38210f294e4cad00620b5a897b99 ·
+  T5 1:1 7043d7593822477893198556593584f0 (https://resource2.heygen.ai/video/<asset>/original.mp4).
