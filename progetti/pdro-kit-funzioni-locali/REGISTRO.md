@@ -80,3 +80,15 @@ spalla. Labiale 0 ms. File della v3 in avatar/v3/.
 Montato v4: 103,5 s, 29 MB, integro, SAR 1:1, −18,4 LUFS, mandato in chat. Originale su HeyGen (API): asset
 f8c7e156965f4169a92cc82e52bae5e0 — https://resource2.heygen.ai/video/f8c7e156965f4169a92cc82e52bae5e0/original.mp4
 (sostituisce 128067d561254cf1847b2e9dcb56dbbd). Portafoglio API: 32,33 → 30,78 $.
+
+## Versione 4b — 28/10/2026, richiesta di Achille: «vorrei inserissi anche queste» (due slide: «Quanto aumenta davvero il mio stipendio?» e «I tuoi arretrati»)
+- Messe in S03, dove la voce ne parla (../strumenti/kitlocali/v4.py inserti): S03a clip dei numeri del pacchetto («Gli
+  aumenti arrivano a regime dal duemilaventisette:», 2,65 s); S03b l'infografica («in media centocinquantadue … negli altri
+  enti.», voce 5,1 s + 3 s ferma); S03c gli arretrati («E gli arretrati medi superano i mille euro.», 3,2 s + 2 s).
+  Portate a 9:16 senza tagliarle (infografica larga 1080 su fondo verde, arretrati su avorio): 02_slide/video-s03b-*,
+  video-s03c-*; originali in 05_extra/originali_achille/. Nessuna voce nuova.
+- Montato v4b: 108,5 s, 34 MB, integro, −18,4 LUFS; copia d'invio 28 MB mandata in chat. Originale su HeyGen (API): asset
+  4c9d295f53304b08bc7cd38b88f4f89f — https://resource2.heygen.ai/video/4c9d295f53304b08bc7cd38b88f4f89f/original.mp4
+  (sostituisce f8c7e156965f4169a92cc82e52bae5e0).
+- Da guardare: la clip dei numeri del pacchetto (c03, ora solo 2,65 s) mostra «102 €» in media negli altri enti e
+  «1.136 €» di arretrati, mentre la voce e l'infografica dicono 141 €.

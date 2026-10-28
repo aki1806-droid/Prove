@@ -22,7 +22,10 @@ NOME = 'PDRO_Kit_Contratto_Funzioni_Locali_9x16'
 FPS = 25
 L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
 SCENE = [('S01', 'slide', '02_slide/video-s01-copertina.png', 3.0), ('S02', 'avatar', None, None),
-         ('S03', 'clip', '03_clip/video-c03-numeri.mp4', None), ('S04', 'slide', '02_slide/video-s04-aumenti-per-area.png', None),
+         ('S03a', 'clip', '03_clip/video-c03-numeri.mp4', None),
+         ('S03b', 'slide', '02_slide/video-s03b-quanto-aumenta-davvero.png', 'tenuta'),
+         ('S03c', 'slide', '02_slide/video-s03c-arretrati.png', 'tenuta'),
+         ('S04', 'slide', '02_slide/video-s04-aumenti-per-area.png', None),
          ('S05', 'slide', '02_slide/video-s05-quando-arrivano.png', None), ('S06', 'clip', '03_clip/video-c06-diritti.mp4', None),
          ('S07', 'slide', '02_slide/video-s07-intelligenza-artificiale.png', None), ('S08', 'avatar', None, None),
          ('S09', 'slide', '02_slide/video-s09-come-richiederlo.png', None), ('S10', 'avatar', None, None),
@@ -33,6 +36,7 @@ MAXR, SUB_Y = 30, 1905
 IMPRESSI = False      # v3 (28/10): Achille non vuole i sottotitoli nel video; resta sottotitoli.srt
 SUB_Y_AVATAR = 1250
 FOTO = {'S02': 'foto-copertina.png', 'S08': 'foto-stipendio.png', 'S10': 'foto-copertina.png'}
+TENUTA = {'S03b': 3.0, 'S03c': 2.0}   # v4b: le due slide di Achille restano ferme oltre la voce, per leggerle
 AV_H = 640          # altezza a schermo di Andrea (avatar_pulito.mov: ritaglio 920x1080 del webm, senza la bandiera)
 
 
@@ -82,7 +86,7 @@ def monta():
     tav = {t['id']: t for t in json.load(open(f'{D}/audio/tempi-avatar.json'))}
     pezzi, t0, ev, srt, voci = [], 0.0, [], [], []
     for sid, tipo, f, fissa in SCENE:
-        d = fissa or voce[sid]; n = round(d * FPS); out = f'{L}/{sid}.mp4'
+        d = voce[sid] + TENUTA[sid] if fissa == 'tenuta' else (fissa or voce[sid]); n = round(d * FPS); out = f'{L}/{sid}.mp4'
         if tipo == 'slide':
             ff('-loop', '1', '-i', f'{D}/{f}', '-filter_complex',
                f"[0:v]scale=2160:3840,zoompan=z='1+0.03*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1080x1920:fps={FPS},"

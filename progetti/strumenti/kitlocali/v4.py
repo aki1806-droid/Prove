@@ -7,7 +7,13 @@ Rifà la voce solo di S02, S04 e S10 (stessa voce di Andrea, eleven_v4 via API H
 i tagli come in voci.py (profilo «narratore»), e l'avatar delle tre scene in camera (S02, S08, S10 in fila con 0,6 s di
 pausa, webm con alfa). Poi: pulisci_avatar.py, monta.py, musica.py come nella v3.
 
-    python3 strumenti/kitlocali/v4.py voce | avatar
+    python3 strumenti/kitlocali/v4.py voce | avatar | inserti
+
+inserti (v4b, richiesta di Achille «vorrei inserissi anche queste»): le sue due slide, «Quanto aumenta davvero il mio
+stipendio?» e «I tuoi arretrati», vanno in S03 dove la voce ne parla: S03 si divide in S03a (clip dei numeri, «Gli aumenti
+arrivano a regime dal duemilaventisette:»), S03b (infografica, «in media centocinquantadue … negli altri enti.») e S03c
+(arretrati, «E gli arretrati medi superano i mille euro.»); monta.py tiene ferme S03b e S03c un po' più della voce
+(TENUTA) per lasciarle leggere. Slide portate a 9:16 in 02_slide/ (originali in 05_extra/originali_achille/).
 """
 import json, os, subprocess, sys
 QUI = os.path.dirname(os.path.abspath(__file__))
@@ -63,5 +69,22 @@ def avatar():
     hg.scarica(v, f'{D}/avatar/avatar.webm')
 
 
+def inserti():
+    parole = json.load(open(f'{A}/parole.json')); tempi = json.load(open(f'{A}/tempi-scene.json'))
+    pw = parole['S03']; src = f'{A}/wav/S03.wav'; fine = dur(src)
+    taglio = lambda w: next(i for i, x in enumerate(pw) if x['w'] == w)    # noqa: E731
+    i_b, i_c = taglio('in'), taglio('E')
+    tagli = [0.0, (pw[i_b - 1]['b'] + pw[i_b]['a']) / 2, (pw[i_c - 1]['b'] + pw[i_c]['a']) / 2, fine]
+    pezzi = {'S03a': pw[:i_b], 'S03b': pw[i_b:i_c], 'S03c': pw[i_c:]}
+    tempi = [x for x in tempi if x['id'][:3] != 'S03' or x['id'] == 'S03']
+    for (sid, p), a, b in zip(pezzi.items(), tagli, tagli[1:]):
+        ff('-i', src, '-af', f'atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS', f'{A}/wav/{sid}.wav')
+        parole[sid] = [{'w': x['w'], 'a': round(x['a'] - a, 3), 'b': round(x['b'] - a, 3)} for x in p]
+        tempi.append({'id': sid, 'tipo': 'narratore', 'inizio': 0, 'durata': round(b - a, 4)})
+        print(sid, f'{b - a:.2f} s', ' '.join(x['w'] for x in p))
+    json.dump(tempi, open(f'{A}/tempi-scene.json', 'w'), indent=1)
+    json.dump(parole, open(f'{A}/parole.json', 'w'), ensure_ascii=False, indent=0)
+
+
 if __name__ == '__main__':
-    {'voce': voce, 'avatar': avatar}[sys.argv[1]]()
+    {'voce': voce, 'avatar': avatar, 'inserti': inserti}[sys.argv[1]]()
